@@ -2,6 +2,7 @@
 title: Create or modify Agent Efficiency criteria
 description: Create or modify Field Service Agent Efficiency criteria to evaluate agent efficiency and calculate the work duration for a work order task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/create-or-modify-agent-efficiency-criteria.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -71,5 +72,5 @@ The Agent Efficiency criterion is created or modifications saved.
 
 ## What to do next
 
-[Create or modify an Agent Efficiency determination rule](create-or-modify-agent-efficiency-determination-rule.md)
+[Create or modify an Agent Efficiency determination rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/create-or-modify-agent-efficiency-determination-rule.md)
 

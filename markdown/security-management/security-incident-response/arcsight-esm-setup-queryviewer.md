@@ -2,6 +2,7 @@
 title: Set up the ArcSight ESM Query Viewer
 description: Create a query viewer and define filters that will include recently created correlation events that will be ingested ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/arcsight-esm-setup-queryviewer.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -25,21 +26,21 @@ Role required: ArcSight Administrator
 
 2.  To create a new query, navigate to **File** &gt; **New** &gt; **Query**.
 
-    ![ArcSight ESM: Query Viewer Setup: Create](../image/sir-arcsight-query-viewer-setup2.png)
+    \[Omitted image "sir-arcsight-query-viewer-setup2.png"\] Alt text: ArcSight ESM: Query Viewer Setup: Create
 
 3.  Define conditions for the Query Viewer in the **Inspect/Edit** panel.
 
-    ![ArcSight ESM: Query Viewer Setup: Create: General](../image/sir-arcsight-query-viewer-setup3.png)
+    \[Omitted image "sir-arcsight-query-viewer-setup3.png"\] Alt text: ArcSight ESM: Query Viewer Setup: Create: General
 
-<table id="choicetable_xs5_bvc_c5b"><thead><tr><th align="left" id="d203398e106">
+<table id="choicetable_xs5_bvc_c5b"><thead><tr><th align="left" id="d198266e106">
 
 Field Name
 
-</th><th align="left" id="d203398e109">
+</th><th align="left" id="d198266e109">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d203398e115">
+</th></tr></thead><tbody><tr><td id="d198266e115">
 
 **Name**
 
@@ -47,7 +48,7 @@ Description
 
 Enter a name for the query.
 
-</td></tr><tr><td id="d203398e124">
+</td></tr><tr><td id="d198266e124">
 
 **Query On**
 
@@ -55,7 +56,7 @@ Enter a name for the query.
 
 Select **Event** from the drop down list.
 
-</td></tr><tr><td id="d203398e136">
+</td></tr><tr><td id="d198266e136">
 
 **Start Time**
 
@@ -63,7 +64,7 @@ Select **Event** from the drop down list.
 
 To ingest the most recent data, select the date from the events are to be ingested. Specify a date that is a day or a few days earlier than the current date. **Note:** You cannot specify a date that is more than 7 days older than the current date. If you are ingesting a large number of events, you must specify a date that is 1 or 2 days older than the current date.
 
-</td></tr><tr><td id="d203398e148">
+</td></tr><tr><td id="d198266e148">
 
 **End Time**
 
@@ -71,7 +72,7 @@ To ingest the most recent data, select the date from the events are to be ingest
 
 This is the current date.
 
-</td></tr><tr><td id="d203398e158">
+</td></tr><tr><td id="d198266e158">
 
 **Row Limit**
 
@@ -82,7 +83,7 @@ The maximum number of events that can be ingested at a time. Specify a value tha
 </td></tr></tbody>
 </table>4.  Click on the **Fields** tab.
 
-    ![ArcSight ESM: Query Viewer Setup: Create: Fields](../image/sir-arcsight-query-viewer-setup4.png)
+    \[Omitted image "sir-arcsight-query-viewer-setup4.png"\] Alt text: ArcSight ESM: Query Viewer Setup: Create: Fields
 
 5.  Select the fields that must be included during ingestion.
 
@@ -98,7 +99,7 @@ The maximum number of events that can be ingested at a time. Specify a value tha
 
     **Important:** Only correlation events will be retrieved; base events for correlations will not be retrieved.
 
-    ![ArcSight ESM: Query Viewer Setup: Select Type](../image/sir-arcsight-query-viewer-setup5.png)
+    \[Omitted image "sir-arcsight-query-viewer-setup5.png"\] Alt text: ArcSight ESM: Query Viewer Setup: Select Type
 
 10. Click **OK** to save the query.
 
@@ -106,7 +107,7 @@ The maximum number of events that can be ingested at a time. Specify a value tha
 
 11. Navigate to **File** &gt; **New** &gt; **Query Viewer**.
 
-    ![ArcSight ESM: Query Viewer Setup: Create Query Viewer](../image/sir-arcsight-query-viewer-setup6.png)
+    \[Omitted image "sir-arcsight-query-viewer-setup6.png"\] Alt text: ArcSight ESM: Query Viewer Setup: Create Query Viewer
 
     |Field Name|Description|
     |----------|-----------|
@@ -122,6 +123,6 @@ The maximum number of events that can be ingested at a time. Specify a value tha
 
 14. Click on the Query Viewer to see the data being ingested.
 
-    ![ArcSight ESM: Setup Query Viewer: Completed](../image/sir-arcsight-query-viewer-setup7.png)
+    \[Omitted image "sir-arcsight-query-viewer-setup7.png"\] Alt text: ArcSight ESM: Setup Query Viewer: Completed
 
 

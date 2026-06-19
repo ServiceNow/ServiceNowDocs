@@ -2,6 +2,7 @@
 title: Access Vendor Management Mobile on your ServiceNow agent app
 description: Install the ServiceNow agent app to enable the application on your mobile device. Scan the QR code or manually enter the address of your instance in the agent app to access your instance on the mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/vendor-management-workspace/access-vendor-mobile-app.html
 release: zurich
 product: Vendor Management Workspace
 classification: vendor-management-workspace
@@ -40,8 +41,8 @@ Role required: sn\_vlm.vendor\_manager
 
 4.  Tap **Login**.
 
-5.  Tap the Vendors icon \(![vendor-mobile-icon](../image/vendor-mobile-icon.png)\) to open the Vendor Management Mobile landing page.
+5.  Tap the Vendors icon \(\[Omitted image "vendor-mobile-icon.png"\] Alt text: vendor-mobile-icon\) to open the Vendor Management Mobile landing page.
 
 
-**Parent Topic:**[ITSM Vendor Management Mobile for Vendor Management Workspace](../concept/vendor-mobile-vendor-management-workspace.md)
+**Parent Topic:**[ITSM Vendor Management Mobile for Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/vendor-mobile-vendor-management-workspace.md)
 

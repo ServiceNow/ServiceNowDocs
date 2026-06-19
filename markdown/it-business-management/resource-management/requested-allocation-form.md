@@ -2,6 +2,7 @@
 title: Requested Allocation form
 description: Use Requested Allocation form to create a request for resource plans in Planning or Rejected state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/resource-management/requested-allocation-form.html
 release: zurich
 product: Resource Management
 classification: resource-management
@@ -45,7 +46,7 @@ FTE
 
 </td><td>
 
-Number of units for the full-time equivalent selection for the requested allocation record.If a resource is requested as FTE, then the planned hours for each requested allocation record are calculated first. A total of all hours is then rolled up as planned hours on the resource plan. See [Resource plans](../concept/c_ResourcePlans.md) for an explanation of FTEs.
+Number of units for the full-time equivalent selection for the requested allocation record.If a resource is requested as FTE, then the planned hours for each requested allocation record are calculated first. A total of all hours is then rolled up as planned hours on the resource plan. See [Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/c_ResourcePlans.md) for an explanation of FTEs.
 
 **Note:** Capacity isn’t derived from FTE, but from schedules. Both FTE and schedules must be in synchronization with each other.
 
@@ -63,7 +64,7 @@ Planned hours
 
 </td><td>
 
-Number of hours to allocate to the requested allocation record.By default, the [Resource Plan form](rsrc-plan-form.md) on the resource plan form are proportionally distributed among all the requested allocations based on the number of working days for each requested allocation record. However, it’s possible to override the planned hours or the FTE.
+Number of hours to allocate to the requested allocation record.By default, the [Resource Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rsrc-plan-form.md) on the resource plan form are proportionally distributed among all the requested allocations based on the number of working days for each requested allocation record. However, it’s possible to override the planned hours or the FTE.
 
 </td></tr><tr><td>
 
@@ -76,9 +77,9 @@ Estimated cost of resource. `Planned cost = Planned hours * hourly rate`
 The hourly rate is derived from one of the following sources:
 
 -   **Resource rate** from the resource plan, if the **Rate override** option is selected.
--   [Rate model](../../project-portfolio-suite-with-financials/concept/rate-model.md), if it’s populated on the project or demand to which the resource plan is associated.
+-   [Rate model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/rate-model/rate-model.md), if it’s populated on the project or demand to which the resource plan is associated.
 -   Labor rate card for user resource plans.
--   Role rate when resource is requested by [resource role](../task/create-resource-role.md), if the role has a rate.
+-   Role rate when resource is requested by [resource role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/create-resource-role.md), if the role has a rate.
 -   Group hourly rate if role doesn’t have a rate or if the role is null.
 -   System property **com.snc.time\_card.default\_rate** if all the other conditions fail.
 
@@ -101,5 +102,5 @@ Planned cost in demand currency
 Planned cost of a demand task in demand currency when the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated and Demand Currency view is enabled.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Resource Management reference](../task/rsrc-mgmt-reference.md)
+</table>**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rsrc-mgmt-reference.md)
 

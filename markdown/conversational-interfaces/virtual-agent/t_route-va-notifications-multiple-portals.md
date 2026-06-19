@@ -2,6 +2,7 @@
 title: Route Virtual Agent NLU notifications through multiple portals
 description: Send notifications and other Virtual Agent messages through as many portals as desired.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/t\_route-va-notifications-multiple-portals.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -20,9 +21,9 @@ Send notifications and other Virtual Agent messages through as many portals as d
 
 The multiple active conversations feature includes the ability to send notifications on incidents. You can configure your notifications to go to only one conversation on a specific portal, or to any number of concurrent conversations.
 
-[Activate multiple active conversations in Virtual Agent](t_activate-multiple-active-conversations-va.md)
+[Activate multiple active conversations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/t_activate-multiple-active-conversations-va.md)
 
-[Configure a delivery channel for Virtual Agent notification](configure-delivery-channel.md)
+[Configure a delivery channel for Virtual Agent notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-delivery-channel.md)
 
 Role required: virtual\_agent\_admin or admin
 
@@ -57,5 +58,5 @@ Role required: virtual\_agent\_admin or admin
 
 Messages with multiple contexts will now be sent through Virtual Agent to users at their matching portals.
 
-**Parent Topic:**[Using multiple active conversations in Virtual Agent](../concept/c_multiple-active-conversations-va.md)
+**Parent Topic:**[Using multiple active conversations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/c_multiple-active-conversations-va.md)
 

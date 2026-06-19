@@ -2,6 +2,7 @@
 title: Modifications
 description: A modification is any alteration such as addition, deletion, or update that you carry out on Problem Management. If you have made significant modifications, you will need to review and resolve some possible blocking modifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/problem-management/migration-utility-modification.html
 release: zurich
 product: Problem Management
 classification: problem-management

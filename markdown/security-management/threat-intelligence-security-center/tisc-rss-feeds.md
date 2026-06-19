@@ -2,6 +2,7 @@
 title: View RSS Feeds
 description: View the RSS feeds configured in the base system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-rss-feeds.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -47,5 +48,5 @@ Role required: sn\_sec\_tisc.admin
 4.  Click **Edit** to edit the feed.
 
 
-**Parent Topic:**[View Threat Intel Feeds](../concept/base-system-threat-intel-feeds.md)
+**Parent Topic:**[View Threat Intel Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/base-system-threat-intel-feeds.md)
 

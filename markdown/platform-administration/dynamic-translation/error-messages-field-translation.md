@@ -2,6 +2,7 @@
 title: Error messages in Dynamic Translation
 description: You must be aware of a few error scenarios while using Dynamic Translation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/dynamic-translation/error-messages-field-translation.html
 release: zurich
 product: Dynamic Translation
 classification: dynamic-translation
@@ -84,4 +85,6 @@ Unable to translate.
 |--------|-------------|
 |When there is no valid subflow associated with the translator configuration.|Either a detect or a translate subflow is required for a valid translator configuration.|
 |When multiple language code mappings are selected for the same language code|Multiple language code mappings cannot be selected for the same language code\(s\): xx.|
+
+**Parent Topic:**[Reference for Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/reference-for-dynamic-translation.md)
 

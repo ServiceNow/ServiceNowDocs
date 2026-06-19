@@ -2,11 +2,12 @@
 title: Partner Workspace
 description: Partner admins, agents, and managers can manage partner programs and partnerships on the partner workspace to triage cases and requests from customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/partner-workspace.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 2
 breadcrumb: [Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -23,22 +24,22 @@ You can perform the following actions using the workspace.
 
 |Task|Description|
 |----|-----------|
-|[Create Channel Partner record](../task/create-channel-partner-record.md)|Create and track channel partner records on workspace to manage and store all information related to the channel partners.|
-|[View Channel Partner information on partner workspace](../task/view-channel-partner-information-on-partner-workspace.md)|View all the details, cases, and other entities associated with a channel partner.|
-|[Create Partner Programs on the CSM Configurable Workspace](../task/create-partner-programs-on-workspace.md)|Enable channel partners to create Partner Programs on the workspace.|
-|[Create Partnerships on the CSM Configurable Workspace](../task/create-partnerships-on-workspace.md)|Establish a relationship between channel partners and partner programs on the workspace.|
-|[Update deal registration record](../task/update-deal-registration-record.md)|Create a deal registration record on workspace to enable agents on the enterprise side to manage the life cycle of a deal.|
+|[Create Channel Partner record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-channel-partner-record.md)|Create and track channel partner records on workspace to manage and store all information related to the channel partners.|
+|[View Channel Partner information on partner workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/view-channel-partner-information-on-partner-workspace.md)|View all the details, cases, and other entities associated with a channel partner.|
+|[Create Partner Programs on the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-partner-programs-on-workspace.md)|Enable channel partners to create Partner Programs on the workspace.|
+|[Create Partnerships on the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-partnerships-on-workspace.md)|Establish a relationship between channel partners and partner programs on the workspace.|
+|[Update deal registration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/update-deal-registration-record.md)|Create a deal registration record on workspace to enable agents on the enterprise side to manage the life cycle of a deal.|
 
--   **[Create Channel Partner record](../task/create-channel-partner-record.md)**  
+-   **[Create Channel Partner record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-channel-partner-record.md)**  
 Create and track channel partner records on the partner workspace to manage and store all information related to the channel partners.
--   **[Create Partner Programs on the CSM Configurable Workspace](../task/create-partner-programs-on-workspace.md)**  
+-   **[Create Partner Programs on the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-partner-programs-on-workspace.md)**  
 Enable channel partners to participate in structured initiatives designed to drive revenue, enhance market reach, and build customer relationships by creating partner programs on the workspace.
--   **[Create Partnerships on the CSM Configurable Workspace](../task/create-partnerships-on-workspace.md)**  
+-   **[Create Partnerships on the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-partnerships-on-workspace.md)**  
 With the Partner Relationship Management application, you can establish a relationship between channel partners and partner programs on the workspace.
--   **[Create cases for channel partners](../task/create-cases-for-channel-partners.md)**  
+-   **[Create cases for channel partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-cases-for-channel-partners.md)**  
 Create customer service cases for channel partners to manage customer queries and offer resolution.
--   **[Update deal registration record](../task/update-deal-registration-record.md)**  
+-   **[Update deal registration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/update-deal-registration-record.md)**  
 Create a deal registration record or perform actions on an existing record on the CSM Configurable Workspace.
 
-**Parent Topic:**[Configure Partner Relationship Management](configure-partner-relationship-management.md)
+**Parent Topic:**[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/configure-partner-relationship-management.md)
 

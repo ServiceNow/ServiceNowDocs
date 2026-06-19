@@ -2,6 +2,7 @@
 title: RESTResponseV2 - Scoped, Global
 description: The RESTResponseV2 API provides methods that allow you to use the data returned by an outbound REST message in JavaScript code.Returns all headers contained in the response, including any duplicate headers.Gets the content of the REST response body.Returns all cookies included in the response.Gets the numeric error code if there was an error during the REST transaction.Gets the error message if there was an error during the REST transaction.Gets the value for a specified header.Gets all headers returned in the REST response and the associated values.Gets the fully-resolved query sent to the REST endpoint..Gets the sys\_id value of the attachment created from the response body content.Gets the numeric HTTP status code returned by the REST provider.Indicates if there was an error during the REST transaction.Set the amount of time the instance waits for a response from the web service provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_RESTResponseV2API.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -21,7 +22,7 @@ You can use this API in scoped applications or within the global scope.
 
 This API runs in the `sn_ws` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## RESTResponseV2 - getAllHeaders\(\)
 
@@ -132,7 +133,7 @@ Gets the numeric error code if there was an error during the REST transaction.
 
 This error code is specific to the ServiceNow AI Platform, it is not an HTTP error code. Provide this error code if you require assistance from ServiceNow Customer Support.
 
-**Note:** To retrieve the contents of the actual error message, use the [getBody\(\)](c_RESTResponseV2API.md#) method.
+**Note:** To retrieve the contents of the actual error message, use the [getBody\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_RESTResponseV2API.md) method.
 
 |Name|Type|Description|
 |----|----|-----------|

@@ -2,6 +2,7 @@
 title: Request a time off
 description: Request a time off to Workday from Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/request-timeoff.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -43,5 +44,5 @@ Request a time off to Workday from Employee Center.
     An HR case is created. If the time off is submitted successfully, the HR case changes to Closed complete state. If the time off is not submitted successfully, the HR case changes to Closed Incomplete state.
 
 
-**Parent Topic:**[Time off request to Workday](../concept/w-timeoff.md)
+**Parent Topic:**[Time off request to Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/w-timeoff.md)
 

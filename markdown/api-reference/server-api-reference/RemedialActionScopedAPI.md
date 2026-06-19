@@ -2,6 +2,7 @@
 title: RemedialActionEngine - Scoped
 description: The RemedialActionEngine API provides methods for working with remedial actions.Starts any remedial action from the parent record against a target record. This method creates a new remedial action execution record in a 'Ready' state.This method is used to check if the current user can or cannot cancel the given remedial action execution.Cancels a remedial action execution request, then updates the execution record to the state ‘cancelled’ and returns true upon success.Triggers any remedial action execution that was started and is currently in Ready state. This method starts the targeted Action \(e.g. CI Action\) and moves the remedial action execution state to 'In Progress'.Gets the current execution status and output payload of the targeted Action.Checks the applicability of any remedial action against a target record.Checks if the user is authorized to execute the remedial action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/RemedialActionScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -25,7 +26,7 @@ This API is part of the Remedial Actions Framework and can be used to perform th
 
 This API requires the Remedial Actions Framework \(com.snc.sn\_reacf\) store application and is provided within the `sn_reacf` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## RemedialActionEngine - beginRemediation \(String remedialAction, String parentTable, String parentRecord, Object actionParams, String targetRecord, String originRecord\)
 

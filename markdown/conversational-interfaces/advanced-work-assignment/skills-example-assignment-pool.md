@@ -2,6 +2,7 @@
 title: Define assignment eligibility
 description: Define who is eligible to receive cases from the German Cases queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/skills-example-assignment-pool.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -39,5 +40,5 @@ Role required: awa\_admin or admin
 6.  Select **Submit**.
 
 
-**Parent Topic:**[Tutorial: Automatically assign work to agents by skill](../concept/skills-routing-tutorial.md)
+**Parent Topic:**[Tutorial: Automatically assign work to agents by skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/skills-routing-tutorial.md)
 

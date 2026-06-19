@@ -2,6 +2,7 @@
 title: Set variant evaluation point
 description: Set a point in your base playbook after which the variants are evaluated and run.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/set-evaluation-point.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -39,15 +40,15 @@ To insert an evaluation point, make sure that:
 
 3.  In Diagram view, select **+** after the activity where you want to evaluate the variants.
 
-4.  From the mini-picker, select the variants icon \(![](../images/playbook-variants-icon.png)\) to add variant evaluation point.
+4.  From the mini-picker, select the variants icon \(\[Omitted image "playbook-variants-icon.png"\]\) to add variant evaluation point.
 
-    ![Inserting a variant evaluation point.](../images/playbook-variant.png)
+    \[Omitted image "playbook-variant.png"\] Alt text: Inserting a variant evaluation point.
 
 5.  To move the evaluation point to a different location:
 
     1.  Select the evaluation point.
 
-        ![Variant evaluation point.](../images/playbook-evaluation-point.png)
+        \[Omitted image "playbook-evaluation-point.png"\] Alt text: Variant evaluation point.
 
     2.  On the Move the global variants evaluation point dialog box, select one of the following.
 
@@ -59,7 +60,7 @@ To insert an evaluation point, make sure that:
 
 ## What to do next
 
-Test the playbook to make sure that it's working as expected. See, [Test a playbook](test-process.md)
+Test the playbook to make sure that it's working as expected. See, [Test a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/test-process.md)
 
-**Parent Topic:**[Playbook variants](../concept/playbook-variants.md)
+**Parent Topic:**[Playbook variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-variants.md)
 

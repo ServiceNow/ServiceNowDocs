@@ -2,6 +2,7 @@
 title: Invoice processing details
 description: Accounts Payable Specialists can use the Invoice processing detailed form to view the invoice details. Invoice processing detail is found in the the sn\_apm\_invoice\_attributetable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/invoice-processing-form.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -36,5 +37,5 @@ Accounts Payable Specialists can use the Invoice processing detailed form to vie
 |Updated by|Name of the person who updates the invoice processing detail record.|
 |Updates|Integer value set if any updates are performed on the invoice processing detail record.|
 
-**Parent Topic:**[Invoice processing case form](invoice-processing-case-form.md)
+**Parent Topic:**[Invoice processing case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/invoice-processing-case-form.md)
 

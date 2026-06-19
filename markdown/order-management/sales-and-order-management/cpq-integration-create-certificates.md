@@ -2,6 +2,7 @@
 title: Set up ServiceNow instance for CPQ Integration
 description: Set up the ServiceNow instance and generate the JSON Web Token \(JWT\) and authenticate API calls to Logik.ai.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cpq-integration-create-certificates.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -49,7 +50,7 @@ Role required: admin
         -   You’re prompted to enter a new key store password to protect the JKS keystore file. Record and retain this password for later, since it’s required to set up the ServiceNow instance.
 3.  In the ServiceNow instance, login in as admin and do the following:
 
-    1.  Set CPQ Integration as the current scope by using the scope selection menu icon ![](../../../reuse/icons/product-icons/globe-outline-24.svg) in the Unified Navigation menu.
+    1.  Set CPQ Integration as the current scope by using the scope selection menu icon \[Omitted image "globe-outline-24.svg"\] Alt text: in the Unified Navigation menu.
 
     2.  In the navigation filter, enter **sys\_properties.list** and open the **glide.security.file.mime\_type.validation** system property.
 

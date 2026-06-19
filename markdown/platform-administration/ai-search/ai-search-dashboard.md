@@ -2,6 +2,7 @@
 title: AI Search dashboard
 description: The AI Search dashboard summarizes AI Search indexed documents, configuration settings in use, and search query traffic. An interactive filter enables users to select the time frame for analysis of search query traffic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/ai-search-dashboard.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -15,13 +16,13 @@ breadcrumb: [Advanced AI Search Management Tools, ServiceNow Store applications 
 
 The AI Search dashboard summarizes AI Search indexed documents, configuration settings in use, and search query traffic. An interactive filter enables users to select the time frame for analysis of search query traffic.
 
-![AI Search dashboard showing AI Search Index tab.](../image/adv-ais-mgmt-dashboard-index-index.png "AI Search dashboard - AI Search Index tab")
+\[Omitted image "adv-ais-mgmt-dashboard-index-index.png"\] Alt text: AI Search dashboard showing AI Search Index tab.
 
-![AI Search dashboard showing AI Search Query tab.](../image/adv-ais-mgmt-dashboard-index-query.png "AI Search dashboard - AI Search Query tab")
+\[Omitted image "adv-ais-mgmt-dashboard-index-query.png"\] Alt text: AI Search dashboard showing AI Search Query tab.
 
 To access the dashboard, navigate to **All** &gt; **AI Search** &gt; **AI Search Analytics** &gt; **Search Index Analytics**.
 
-**Note:** If the dashboard displays a `Read operation on table '<name>' from scope 'Advanced AI Search Management Tools' was denied` informational message, ask your administrator to perform the steps described in [Create a cross-scope access privilege for the AI Search dashboards](ais-dashboards-cross-scope-access.md) for the listed table.
+**Note:** If the dashboard displays a `Read operation on table '<name>' from scope 'Advanced AI Search Management Tools' was denied` informational message, ask your administrator to perform the steps described in [Create a cross-scope access privilege for the AI Search dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-dashboards-cross-scope-access.md) for the listed table.
 
 ## Required ServiceNow AI Platform® roles
 
@@ -59,7 +60,7 @@ TotalIndexed Documents
 
 </td><td>
 
-Single Score ![](../../../reuse/reporting/image/single-score.svg)
+Single Score \[Omitted image "single-score.svg"\] Alt text:
 
 </td><td>
 
@@ -75,7 +76,7 @@ Documents by Indexed Source
 
 </td><td>
 
-Donut ![](../../performance-analytics/image/donut-icon.png)
+Donut \[Omitted image "donut-icon.png"\] Alt text:
 
 </td><td>
 
@@ -93,7 +94,7 @@ Search Profiles
 
 </td><td>
 
-Single Score ![](../../../reuse/reporting/image/single-score.svg)
+Single Score \[Omitted image "single-score.svg"\] Alt text:
 
 </td><td>
 
@@ -109,7 +110,7 @@ Indexed Sources
 
 </td><td>
 
-Single Score ![](../../../reuse/reporting/image/single-score.svg)
+Single Score \[Omitted image "single-score.svg"\] Alt text:
 
 </td><td>
 
@@ -125,7 +126,7 @@ Search Applications
 
 </td><td>
 
-Single Score ![](../../../reuse/reporting/image/single-score.svg)
+Single Score \[Omitted image "single-score.svg"\] Alt text:
 
 </td><td>
 
@@ -141,7 +142,7 @@ Dictionaries
 
 </td><td>
 
-Single Score ![](../../../reuse/reporting/image/single-score.svg)
+Single Score \[Omitted image "single-score.svg"\] Alt text:
 
 </td><td>
 
@@ -157,7 +158,7 @@ Configured Genius Results
 
 </td><td>
 
-Single Score ![](../../../reuse/reporting/image/single-score.svg)
+Single Score \[Omitted image "single-score.svg"\] Alt text:
 
 </td><td>
 
@@ -173,7 +174,7 @@ Results Improvement Rules
 
 </td><td>
 
-Single Score ![](../../../reuse/reporting/image/single-score.svg)
+Single Score \[Omitted image "single-score.svg"\] Alt text:
 
 </td><td>
 
@@ -189,7 +190,7 @@ Documents by Search Profile
 
 </td><td>
 
-Bar ![](../../performance-analytics/image/column-icon.png)
+Bar \[Omitted image "column-icon.png"\] Alt text:
 
 </td><td>
 
@@ -205,7 +206,7 @@ IndexedDocuments by Month
 
 </td><td>
 
-Bar ![](../../performance-analytics/image/column-icon.png)
+Bar \[Omitted image "column-icon.png"\] Alt text:
 
 </td><td>
 
@@ -218,7 +219,7 @@ Shows the number of newly indexed records grouped by month.
 </td></tr></tbody>
 </table>|Title|Type|Source table|Description|
 |-----|----|------------|-----------|
-|Queries by Search Profile|Donut ![](../../performance-analytics/image/donut-icon.png)|sys\_search\_event|Shows the number of search queries in the selected time frame, grouped by search profile used.|
-|Queries by Language|Donut ![](../../performance-analytics/image/donut-icon.png)|sys\_search\_event|Shows the number of search queries in the selected time frame, grouped by query language \(ServiceNow AI Platform language context\).|
-|Queries Run Against Index|Line ![](../../performance-analytics/image/line-icon.png)|sys\_search\_event|Shows the number of search queries in the selected time frame, grouped by month.|
+|Queries by Search Profile|Donut \[Omitted image "donut-icon.png"\] Alt text:|sys\_search\_event|Shows the number of search queries in the selected time frame, grouped by search profile used.|
+|Queries by Language|Donut \[Omitted image "donut-icon.png"\] Alt text:|sys\_search\_event|Shows the number of search queries in the selected time frame, grouped by query language \(ServiceNow AI Platform language context\).|
+|Queries Run Against Index|Line \[Omitted image "line-icon.png"\] Alt text:|sys\_search\_event|Shows the number of search queries in the selected time frame, grouped by month.|
 

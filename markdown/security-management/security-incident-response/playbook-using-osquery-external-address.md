@@ -2,6 +2,7 @@
 title: Use the OSquery of External Address in the /etc/hosts file playbook
 description: Use this playbook to investigate incidents that indicate that an internal hostname or domain has been assigned to an external IP address on the local DNS\(/etc/hosts\) of a Linux server. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the OSquery of external address in the /etc/hosts file playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/playbook-using-osquery-external-address.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -29,8 +30,6 @@ Role required:
 2.  In Action 2, gather the details of the IP address and the hostname.
 
 3.  In Action 3, check whether this IP address belongs to the internal organization's public/private IP range or not.
-
-    ![Response task to check whether this IP address belongs to the internal organization's public/private IP range.](../image/playbook-osquery-overview.png "OSquery of External Address in /etc/hosts file playbook")
 
 4.  In Action 4, if the IP address belongs to the internal organization's public/private IP range, perform the following steps:
 
@@ -69,8 +68,6 @@ Role required:
 
             In Action 20, after the post incident review, the flow ends.
 
-        ![Response task to check whether the owner or team information is available.](../image/playbook-osquery-investigate.png "Using the OSquery of External Address in /etc/hosts file playbook")
-
 12. In Action 21, if the owner or team information is unavailable, isolate the host system.
 
 13. In Action 22, reset the potentially compromised credentials.
@@ -84,5 +81,5 @@ Role required:
 17. In Action 26, complete the post-incident review before closing the task.
 
 
-**Parent Topic:**[Playbook for OSquery of External Address in /etc/hosts file](../concept/playbook-osquery-external-address.md)
+**Parent Topic:**[Playbook for OSquery of External Address in /etc/hosts file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/playbook-osquery-external-address.md)
 

@@ -2,6 +2,7 @@
 title: Configure extreme repetitions finding definition
 description: Configure an extreme repetitions finding definition to view a pattern where a transition repeats more than the usual repetition range between the steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/extreme-repetitions.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -21,13 +22,13 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 Extreme repetitions finding definition surfaces transitions that are repeated significantly more than the median repetition. This helps uncover potential repetition anomalies.
 
-![Extreme repetition](../image/extreme-repetition.png)
+\[Omitted image "extreme-repetition.png"\] Alt text: Extreme repetition
 
 ## Procedure
 
 1.  Navigate to Improvement opportunity definition page.
 
-    For information about the Improvement opportunity definition page, see [Set improvement opportunities](improve-opportunities.md).
+    For information about the Improvement opportunity definition page, see [Set improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/improve-opportunities.md).
 
 2.  Select **Create** on the Extreme repetitions card.
 
@@ -35,7 +36,7 @@ Extreme repetitions finding definition surfaces transitions that are repeated si
 
 3.  Provide details in the **Define** section.
 
-    For details, see [Rule-based finding definition form from Finding Builder](../reference/finding-definition-form.md).
+    For details, see [Rule-based finding definition form from Finding Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/finding-definition-form.md).
 
 4.  Select **Configure**.
 
@@ -45,7 +46,7 @@ Extreme repetitions finding definition surfaces transitions that are repeated si
 
     Default values are provided. You can edit them if needed.
 
-    ![Extreme repetition configuration](../image/extreme-repetition-config.png)
+    \[Omitted image "extreme-repetition-config.png"\] Alt text: Extreme repetition configuration
 
     According to the example, records that meet the following conditions are available as improvement opportunities in the Summary and insights page:
 
@@ -55,5 +56,5 @@ Extreme repetitions finding definition surfaces transitions that are repeated si
 6.  Select **Save and exit**.
 
 
-**Parent Topic:**[Automated improvement opportunities](../concept/automated-findings.md)
+**Parent Topic:**[Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/automated-findings.md)
 

@@ -2,11 +2,12 @@
 title: Configure a webhook
 description: Integrate with a webhook to connect to an external event source and push event information to your ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-service-ops/telecommunications-service-operations-management/configure-fault-management.html
 release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 2
 breadcrumb: [Fault Management: Events and alerts, Telecom Assurance, Explore, Telecommunications Service Operations Management]
 ---
@@ -36,15 +37,15 @@ All events are received in the ServiceNow AI Platform® dashboard and automatica
 
 1.  Navigate to &gt; **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the left pane, select the Integrations Launchpad icon ![](../images/integrations_launchpad_icon.png).
+2.  From the left pane, select the Integrations Launchpad icon \[Omitted image "integrations\_launchpad\_icon.png"\] Alt text:.
 
 3.  Select the **Browse Integrations** tab, and search for the desired integration \(for example, Meraki or Fortinet\).
 
-    ![Integrations launchpad page](../images/integrations_laundpad.png "Integrations Launchpad page")
+    \[Omitted image "integrations\_laundpad.png"\] Alt text: Integrations launchpad page
 
 4.  Select the integration tile labeled **Events**.
 
-    ![Push connector details page](../images/meraki_pushconnector.png "Push connectors details page")
+    \[Omitted image "meraki\_pushconnector.png"\] Alt text: Push connector details page
 
 5.  Provide details about the connector type on the **Provide details** screen.
 
@@ -67,7 +68,7 @@ All events are received in the ServiceNow AI Platform® dashboard and automatica
 
         The connector is saved in draft mode, and the process advances to the setup push connector section.
 
-        ![Push connector set-up page](../images/push-connector-integration.png)
+        \[Omitted image "push-connector-integration.png"\] Alt text: Push connector set-up page
 
 6.  In the **URL parameter value** field, select **Copy to clipboard** to copy the auto-generated URL parameter value to the clipboard.
 

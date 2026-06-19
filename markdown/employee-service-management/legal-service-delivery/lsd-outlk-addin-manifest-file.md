@@ -2,6 +2,7 @@
 title: Download Microsoft Outlook Add-In for Legal Service Delivery manifest file
 description: As an admin, download Microsoft Outlook Add-In for Legal Service Delivery manifest file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/lsd-outlk-addin-manifest-file.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -49,7 +50,7 @@ Role required: sn\_lg\_outlook.admin
 
 ## What to do next
 
-[Deploy Microsoft Outlook Add-In for Legal Service Delivery](lsd-enable-outllook-addin.md).
+[Deploy Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/lsd-enable-outllook-addin.md).
 
-**Parent Topic:**[Configure Microsoft Outlook Add-In for Legal Service Delivery](../concept/lsd-outlook-addin-configure.md)
+**Parent Topic:**[Configure Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/lsd-outlook-addin-configure.md)
 

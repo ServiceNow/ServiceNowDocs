@@ -2,11 +2,12 @@
 title: Configure the inclusion of sensitive data in incident patterns
 description: Configure whether safety incident records with sensitive data should be included in the incident pattern analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-health-and-safety/hs-configure-sensitive-data-incident-pattern.html
 release: zurich
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
 topic_type: task
-last_updated: "2026-02-28"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure incident patterns, Configure, Now Assist for Health and Safety, Health and Safety, Employee Service Management]
 ---
@@ -34,5 +35,5 @@ The configuration of this option in the application property decides whether inc
 3.  Select **Save**.
 
 
-**Parent Topic:**[Configure incident patterns](../concept/hs-configure-incident-patterns.md)
+**Parent Topic:**[Configure incident patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-health-and-safety/hs-configure-incident-patterns.md)
 

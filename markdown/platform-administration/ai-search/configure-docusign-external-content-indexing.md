@@ -2,6 +2,7 @@
 title: Configure Docusign for external content indexing
 description: Create an app and integration key in Docusign to allow the Docusign external content connector to access your source system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-docusign-external-content-indexing.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -28,7 +29,7 @@ Role required: none
 
 The Docusign external content connector retrieves agreements from envelopes in your Docusign source system using the eSignature REST API.
 
-To allow the connector to access your Docusign source system via the eSignature REST API, you must create an app with an integration key in Docusign and generate a secret key for it. Your connector admin can use this app's integration key and secret key to configure the Docusign external connector for proper connection to your source system.
+To allow the connector to access your Docusign source system via the eSignature REST API, you must create an app with an integration key in Docusign and generate a secret key for it. Your connector administrator can use this app's integration key and secret key to configure the Docusign external connector for proper connection to your source system.
 
 ## Procedure
 
@@ -50,7 +51,7 @@ To allow the connector to access your Docusign source system via the eSignature 
 
     2.  Copy the integration key GUID and record it in a secure location.
 
-        **Important:** Your external content connector admin needs this integration key GUID when configuring the Docusign external content connector.
+        **Important:** Your external content connector administrator needs this integration key GUID when configuring the Docusign external content connector.
 
 3.  Generate a secret key for your new Docusign app.
 
@@ -60,7 +61,7 @@ To allow the connector to access your Docusign source system via the eSignature 
 
     2.  Copy the secret key GUID and record it in a secure location.
 
-        **Important:** Your external content connector admin needs this secret key GUID when configuring the Docusign external content connector.
+        **Important:** Your external content connector administrator needs this secret key GUID when configuring the Docusign external content connector.
 
 4.  Specify the redirect URI for your new Docusign app.
 
@@ -75,14 +76,14 @@ To allow the connector to access your Docusign source system via the eSignature 
 
 ## What to do next
 
-Provide the following items to your connector admin:
+Provide the following items to your connector administrator:
 
--   The integration key for your Docusign app that you copied in step [2.b](configure-docusign-external-content-indexing.md#copy-integration-key-step).
--   The secret key for your Docusign app that you copied in step [3.b](configure-docusign-external-content-indexing.md#copy-secret-key-step).
+-   The integration key for your Docusign app that you copied in step [2.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-docusign-external-content-indexing.md).
+-   The secret key for your Docusign app that you copied in step [3.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-docusign-external-content-indexing.md).
 
-Your connector admin needs these items to configure a Docusign external content connector to retrieve envelopes and security principals from your Docusign source system.
+Your connector administrator needs these items to configure a Docusign external content connector to retrieve envelopes and security principals from your Docusign source system.
 
-For details on creating and configuring a Docusign external content connector, see [Create a Docusign external content connector](create-ext-cont-connector-docusign.md).
+For details on creating and configuring a Docusign external content connector, see [Create a Docusign external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-docusign.md).
 
-**Parent Topic:**[Docusign external content connector](../concept/docusign-external-content-connector.md)
+**Parent Topic:**[Docusign external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/docusign-external-content-connector.md)
 

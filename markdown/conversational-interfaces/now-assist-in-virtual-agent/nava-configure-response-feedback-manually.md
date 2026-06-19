@@ -2,6 +2,7 @@
 title: Configure response feedback
 description: Configure the response feedback options that appear when users select thumbs up or thumbs down on a Now Assist in Virtual Agent or Now Assist panel response.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/now-assist-in-virtual-agent/nava-configure-response-feedback-manually.html
 release: zurich
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent

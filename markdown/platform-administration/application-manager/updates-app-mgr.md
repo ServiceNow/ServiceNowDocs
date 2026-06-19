@@ -2,6 +2,7 @@
 title: Application Manager Updates tab
 description: You can check whether updates are available for installed applications and plugins at any time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/application-manager/updates-app-mgr.html
 release: zurich
 product: Application Manager
 classification: application-manager
@@ -17,5 +18,5 @@ You can check whether updates are available for installed applications and plugi
 
 The **Updates** tab displays applications and plugins that are ready for you to update. If there are updates available, they’re displayed and a green **Update available** message is displayed on the tile. You can also apply filters to narrow your search or use the sorting option to display by alphabetical order or based on recently released.
 
-![Application Manager updates page.](../image/app-mgr-updates.png)
+\[Omitted image "app-mgr-updates.png"\] Alt text: Application Manager updates page.
 

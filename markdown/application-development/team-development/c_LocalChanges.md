@@ -2,6 +2,7 @@
 title: Local changes
 description: The Local Changes table tracks customized records that have current versions on the development instance, but not on the parent instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/c\_LocalChanges.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -29,14 +30,14 @@ Changing the parent instance or reconciling recreates the list of local changes 
 |Resolve a collision by taking the parent version|There’s no longer a local change to ignore|
 |Resolve a collision by keeping the local version|The ignored change remains on the local instance|
 
--   **[Pulling changes](c_PullsAndPushes.md)**  
+-   **[Pulling changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_PullsAndPushes.md)**  
 Developers synchronize their instances to the parent instance by pulling and pushing versions of customized records.
--   **[Pushing changes](pushing-changes.md)**  
+-   **[Pushing changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/pushing-changes.md)**  
 You can push versions of customized records to synchronize your instance to the parent instance.
--   **[Back out a local change](../task/t_BackOutALocalChange.md)**  
+-   **[Back out a local change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_BackOutALocalChange.md)**  
 Back out all local changes and restore the last version reconciled with the parent instance.
--   **[Ignore a local change](../task/t_IgnoreALocalChange.md)**  
+-   **[Ignore a local change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_IgnoreALocalChange.md)**  
 Ignoring a local change helps to prevent a record from generating new versions in the Local Changes list.
 
-**Parent Topic:**[Planning your application](../../custom-application/concept/planning-applications.md)
+**Parent Topic:**[Planning your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/planning-applications.md)
 

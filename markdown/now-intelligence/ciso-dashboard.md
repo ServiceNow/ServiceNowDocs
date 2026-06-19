@@ -2,6 +2,7 @@
 title: Chief Information Security Officer \(CISO\) Dashboard
 description: The Chief Information Security Officer \(CISO\) dashboard provides a single pane glass view of end-to-end information security operations by capturing real-time insights on organizational security posture across risk exposure, compliance health, security incidents, vulnerabilities, and audit performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/ciso-dashboard.html
 release: zurich
 topic_type: concept
 last_updated: "2025-08-15"
@@ -17,5 +18,5 @@ The CISO dashboard serves as a central security command interface, bringing toge
 
 This dashboard visualizes insights on security incident trends, MTTR, risk severity distribution, compliance violations, outstanding audit tasks, and vulnerability remediation progress. These indicators help CISOs to identify emerging threats, track operational security maturity, minimize exposure, and strengthen the organization’s overall security posture through timely interventions and informed decision-making.
 
-![CISO Dashboard with Risk Exposure, Compliance, Security Incidents, Vulnerabilities, and Audits pillars, each containing security metrics and visualizations.](../image/ciso-db-tab.png)
+\[Omitted image "ciso-db-tab.png"\] Alt text: CISO Dashboard with Risk Exposure, Compliance, Security Incidents, Vulnerabilities, and Audits pillars, each containing security metrics and visualizations.
 

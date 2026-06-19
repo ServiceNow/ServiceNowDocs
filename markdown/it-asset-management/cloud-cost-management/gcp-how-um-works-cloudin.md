@@ -2,6 +2,7 @@
 title: Unused resources analysis for Google Cloud
 description: Cloud Cost Management uses an optimized Unused resources process for each provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/gcp-how-um-works-cloudin.html
 release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -21,32 +22,5 @@ The Google Cloud compute engine generates the recommendations that appear in the
 
 **Note:** The Google Cloud console may show the same resources for both Unused resources and Rightsizing recommendations. If the same resources are displayed, Cloud Cost Management shows the information in Unused resources and excludes it from the Rightsizing recommendations with the reason, `Recommendation already present in unused`.
 
-## Roles required for Google Insights modules
-
-To get the recommendations from the Google Cloud console and perform start, stop, resize, and delete operations, you need the following roles.
-
--   compute.autoscalers.get compute.autoscalers.list compute.disks.delete
--   compute.disks.get compute.disks.getIamPolicy compute.disks.list compute.disks.resize
--   compute.disks.update compute.instances.delete compute.instances.getIamPolicy
--   compute.instances.setDiskAutoDelete compute.instances.start compute.instances.stop
--   compute.instances.update recommender.computeAddressIdleResourceInsights.get
--   recommender.computeAddressIdleResourceInsights.list
--   recommender.computeAddressIdleResourceRecommendations.get
--   recommender.computeAddressIdleResourceRecommendations.list
--   recommender.computeDiskIdleResourceInsights.get
--   recommender.computeDiskIdleResourceInsights.list
--   recommender.computeDiskIdleResourceRecommendations.get
--   recommender.computeDiskIdleResourceRecommendations.list
--   recommender.computeImageIdleResourceInsights.get
--   recommender.computeImageIdleResourceInsights.list
--   recommender.computeImageIdleResourceRecommendations.get
--   recommender.computeImageIdleResourceRecommendations.list
--   recommender.computeInstanceGroupManagerMachineTypeRecommendations.get
--   recommender.computeInstanceGroupManagerMachineTypeRecommendations.list
--   recommender.computeInstanceIdleResourceRecommendations.get
--   recommender.computeInstanceIdleResourceRecommendations.list
--   recommender.computeInstanceMachineTypeRecommendations.get
--   recommender.computeInstanceMachineTypeRecommendations.list
--   recommender.locations.get recommender.locations.list
--   resourcemanager.projects.get resourcemanager.projects.list
+To get the recommendations from the Google Cloud console and perform start, stop, resize, and delete operations, you must have specific roles and permissions. For detailed information on these permissions, see [Setup roles for Google Cloud billing download](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/gcp-user-policy-create-cloudin.md).
 

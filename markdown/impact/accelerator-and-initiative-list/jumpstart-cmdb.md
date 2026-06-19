@@ -2,6 +2,7 @@
 title: Jumpstart Your CMDB
 description: The Jumpstart Your Configuration Management Database \(CMDB\) Accelerator provides a demonstration of the possibilities and capabilities of CMDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/jumpstart-cmdb.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -17,7 +18,7 @@ The Jumpstart Your Configuration Management Database \(CMDB\) Accelerator provid
 
 ## Overview
 
-Jumpstart Your CMDB provides Impact customers with a comprehensive overview of platform CMDB capabilities to ensure customers have a sound understanding of CMDB fundamentals and a strategic plan for success. Our goal is to place customers in a position for success from the very start, enabling you to create a strategy for leveraging ServiceNow resources. Resources include the CMDB Workspace, CI Class Manager, and Reconciliation rules to streamline working in your CMDB. See [Configuration Management](https://www.servicenow.com/docs/access?context=manage-cmdb&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) for information on CMDB.
+Jumpstart Your CMDB provides Impact customers with a comprehensive overview of platform CMDB capabilities to ensure customers have a sound understanding of CMDB fundamentals and a strategic plan for success. Our goal is to place customers in a position for success from the very start, enabling you to create a strategy for leveraging ServiceNow resources. Resources include the CMDB Workspace, CI Class Manager, and Reconciliation rules to streamline working in your CMDB. See  for information on CMDB.
 
 **Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 

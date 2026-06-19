@@ -2,6 +2,7 @@
 title: UriMatcherResponse - Scoped
 description: Provides methods to return information about whether a URI matches specified criteria for scheme, host, path, fragments, and presence of query parameters.Returns messages about any errors that occurred when testing the URI against the specified criteria.Checks if an error occurred when testing the URI against the specified criteria.Checks if the URI matches the criteria for fragments.Checks if the URI matches the criteria for the host.Checks if the URI matches all of the specified criteria.Checks if the URI matches the criteria for the path.Checks if the URI matches the criteria for the scheme.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/UriMatcherResponseScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,13 +16,13 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 Provides methods to return information about whether a URI matches specified criteria for scheme, host, path, fragments, and presence of query parameters.
 
-Use this API with the UriMatcher API. This API doesn't have a constructor. Instead, use the [UriMatcher - match\(\)](../../UriMatcherScoped/concept/UriMatcherScopedAPI.md#) method to instantiate a UriMatcherResponse object.
+Use this API with the UriMatcher API. This API doesn't have a constructor. Instead, use the [UriMatcher - match\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/UriMatcherScopedAPI.md) method to instantiate a UriMatcherResponse object.
 
 The UriMatcherResponse API requires the REST API Provider \(com.glide.rest\) plugin, which is activated by default.
 
 This API is provided within the `sn_ws` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## UriMatcherResponse - getErrorMessages\(\)
 

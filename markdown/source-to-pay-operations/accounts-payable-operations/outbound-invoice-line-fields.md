@@ -2,6 +2,7 @@
 title: Outbound invoice line fields
 description: The Outbound invoice line table is the transfers the invoice line details table from ServiceNow to third party application through integration framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/outbound-invoice-line-fields.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -33,5 +34,5 @@ The Outbound invoice line table is the transfers the invoice line details table 
 |Status|Status of an invoice|Choice|
 |Line amount.invoiced amount|The total amount for the invoice line|String|
 
-**Parent Topic:**[Outbound invoice fields](outbound-invoice-fields.md)
+**Parent Topic:**[Outbound invoice fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/outbound-invoice-fields.md)
 

@@ -2,6 +2,7 @@
 title: Create an assume role configuration
 description: Create a service account assume role configuration to facilitate cross-account access that is from a management account to a member account or from a trusted account to a trusting account. All the related member accounts or trusted accounts are automatically loaded avoiding the need to add them individually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-cloud-accelerate/create-assume-role-config.html
 release: zurich
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -33,10 +34,10 @@ If permanent credentials aren't defined for the member account, Cloud Configurat
 
 3.  Fill the values on the Service Account Assume Role Config form.
 
-    For a description of the form fields, see [Cloud Configuration Governance Service Account Assume Role Config form](../../itom-cloud-accelerate/reference/ccg-service-account-assume-role-config-form.md).
+    For a description of the form fields, see [Cloud Configuration Governance Service Account Assume Role Config form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/ccg-service-account-assume-role-config-form.md).
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Set up Cloud Configuration Governance for AWS](../../itom-cloud-accelerate/task/set-up-ccg-for-aws.md)
+**Parent Topic:**[Set up Cloud Configuration Governance for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/set-up-ccg-for-aws.md)
 

@@ -2,6 +2,7 @@
 title: Activate table cleaning for Virtual Agent tables
 description: Activate table cleaning for certain tables used in Virtual Agent and Conversational Interfaces.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/activate-va-table-cleaning.html
 release: zurich
 product: Conversational Interfaces
 classification: conversational-interfaces
@@ -84,5 +85,5 @@ Condition builder for specifying filter conditions that define the records to be
     The Table Cleaner scheduled job automatically runs the cleaner when the table records meet the specified record age and any conditions that you set for them.
 
 
-**Parent Topic:**[Data management in Conversational Interfaces](../concept/va-data-mgmt.md)
+**Parent Topic:**[Data management in Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/va-data-mgmt.md)
 

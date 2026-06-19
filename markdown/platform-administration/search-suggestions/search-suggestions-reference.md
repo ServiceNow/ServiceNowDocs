@@ -2,6 +2,7 @@
 title: Search Suggestions reference
 description: Reference topics provide additional information about components and domain separation behavior for Search Suggestions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/search-suggestions/search-suggestions-reference.html
 release: zurich
 product: Search Suggestions
 classification: search-suggestions

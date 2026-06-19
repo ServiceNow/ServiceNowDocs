@@ -2,6 +2,7 @@
 title: Configure an HR PDF document template for an Adobe Sign template
 description: If you are using the Adobe Sign integration, configure an HR PDF document template for each Adobe Sign template that you want to make available for signing. You must map each signature field from the Adobe Sign template to an appropriate user field in a table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/configure-hr-service-for-adobe-sign-integration.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,7 +18,7 @@ If you are using the Adobe Sign integration, configure an HR PDF document templa
 
 ## Before you begin
 
-Create the Adobe Sign template that you want to make available for signing through theAdobe Sign system. See the Adobe Sign user guide for more information. You must also synchronize your accounts to bring the Adobe Sign template \(and any other new or updated templates\) into the ServiceNow system. See [Sync Adobe Sign with ServiceNow](https://www.servicenow.com/docs/access?context=setup-adobe-sign&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) for more information.
+Create the Adobe Sign template that you want to make available for signing through theAdobe Sign system. See the Adobe Sign user guide for more information. You must also synchronize your accounts to bring the Adobe Sign template \(and any other new or updated templates\) into the ServiceNow system. See Sync Adobe Sign with ServiceNow for more information.
 
 **Note:** Each Adobe Sign in template must have one associated document. Multiple documents per template are not supported.
 
@@ -33,7 +34,7 @@ Role required: sn\_hr\_core.admin
 
 3.  On the PDF Document Template form, set the **Template type** field to `Adobe Sign Templates`.
 
-    ![Set the template type to Adobe Sign Templates](../image/set-template-adobe.png)
+    \[Omitted image "set-template-adobe.png"\] Alt text: Set the template type to Adobe Sign Templates
 
     **Note:** Pre filled Adobe sign templates are not supported.
 
@@ -101,7 +102,7 @@ HR criteria
 
 </td><td>
 
-Defines the conditions that the subject person of an HR case must meet for an HR agent to be able to access the HR document template on their behalf.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) API API.
+Defines the conditions that the subject person of an HR case must meet for an HR agent to be able to access the HR document template on their behalf.**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global API API.
 
 </td></tr></tbody>
 </table>5.  Right-click on the form header and click **Save**.
@@ -110,7 +111,7 @@ Defines the conditions that the subject person of an HR case must meet for an HR
 
 6.  In the **PDF Template Mappings** section, you must manually map fields from the Adobe Sign template to corresponding table fields to populate the document when it is generated for signing.
 
-    ![How to assign the signing order for serial signing in Adobesign.](../image/pdf-mapping-adobe.png)
+    \[Omitted image "pdf-mapping-adobe.png"\] Alt text: How to assign the signing order for serial signing in Adobesign.
 
 <table id="table_gs5_stf_sjb"><thead><tr><th>
 
@@ -195,5 +196,5 @@ Option for enabling or disabling a field mapping.
 7.  Click **Submit**.
 
 
-**Parent Topic:**[Integrating with the Adobe Sign service](../concept/integrating-with-adobe-sign-service.md)
+**Parent Topic:**[Integrating with the Adobe Sign service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/integrating-with-adobe-sign-service.md)
 

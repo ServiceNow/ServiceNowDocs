@@ -2,6 +2,7 @@
 title: Orders for 5G sliced networks
 description: A communication service provider \(CSP\) can define 5G services in the technical catalog and manage the creation and fulfillment of these orders for a sliced network.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/network-slice.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -42,5 +43,5 @@ The product catalog manager then uses the templates to define the new specificat
 
 After the 5G service specifications are created, they can be used in the slice order creation and fulfillment process. The 5G slice ordering process follows the existing order approval, decomposition, and fulfillment process in the Order Management application.
 
-**Parent Topic:**[Managing service orders](managing-service-orders.md)
+**Parent Topic:**[Managing service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/managing-service-orders.md)
 

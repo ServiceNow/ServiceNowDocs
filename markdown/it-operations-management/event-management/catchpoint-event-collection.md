@@ -2,6 +2,7 @@
 title: Integrate Catchpoint events
 description: Integrate Catchpoint with Event Management by adding an alert webhook in the Catchpoint platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/catchpoint-event-collection.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -139,5 +140,5 @@ Alerts start flowing from the Catchpoint connector into the Event Management plu
 |1|Critical|
 |2/3|Clear|
 
-**Parent Topic:**[Integrate with push connectors](configure-listener-transform-script.md)
+**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-listener-transform-script.md)
 

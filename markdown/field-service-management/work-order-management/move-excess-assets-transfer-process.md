@@ -2,6 +2,7 @@
 title: Move excess assets through the transfer process from a mobile device
 description: Move your excess consumable parts from your stockroom to the drop-off list by using the ServiceNow Agent application on your mobile device. You can generate transfer orders to move these items to the stockroom where it must be dropped off.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/move-excess-assets-transfer-process.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -33,15 +34,15 @@ Role required: wm\_agent or wm\_dispatcher
 
 5.  Move the part to be returned to the stockroom by doing one of the following actions.
 
-<table id="choicetable_ijp_w1y_2jb"><thead><tr><th align="left" id="d101009e109">
+<table id="choicetable_ijp_w1y_2jb"><thead><tr><th align="left" id="d98703e109">
 
 Option
 
-</th><th align="left" id="d101009e112">
+</th><th align="left" id="d98703e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d101009e118">
+</th></tr></thead><tbody><tr><td id="d98703e118">
 
 **Drop off**
 
@@ -52,7 +53,7 @@ Description
 3.  Select the quantity that you want to return.
 
 
-</td></tr><tr><td id="d101009e142">
+</td></tr><tr><td id="d98703e142">
 
 **View part details and then drop off**
 
@@ -66,7 +67,7 @@ Description
 </td></tr></tbody>
 </table>6.  Select the part and open the form.
 
-7.  Select the Overflow ![Overflow icon.](../image/OverflowIcon.png) icon and then select **Add to drop-off list**.
+7.  Select the Overflow \[Omitted image "OverflowIcon.png"\] Alt text: Overflow icon. icon and then select **Add to drop-off list**.
 
 8.  Verify the model number.
 
@@ -89,7 +90,7 @@ A new transfer order line is created.
 
 -   If a transfer order for the drop-off location doesn’t exist, a new transfer order is created and the transfer order line is added to that transfer order.
 
-For more information on asset transfers, see [Move an asset through the transfer process](../../planning-and-policy/task/create-transfer-order-line-task.md).
+For more information on asset transfers, see [Move an asset through the transfer process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/create-transfer-order-line-task.md).
 
 ## What to do next
 

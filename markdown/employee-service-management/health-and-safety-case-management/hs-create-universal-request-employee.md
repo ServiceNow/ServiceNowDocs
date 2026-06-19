@@ -2,6 +2,7 @@
 title: Create Universal Request for Health and Safety cases as an employee
 description: You can submit a Universal Request for Health and Safety cases from the Employee Center using the Request Help form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-case-management/hs-create-universal-request-employee.html
 release: zurich
 product: Health and Safety Case Management
 classification: health-and-safety-case-management

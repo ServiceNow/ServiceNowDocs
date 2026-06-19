@@ -2,6 +2,7 @@
 title: Jumpstart Your Subscription Management
 description: This accelerator provides a demonstration on how to efficiently manage your ServiceNow subscriptions in the Subscription Management Application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/Jumpstart-your-subscription-management.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

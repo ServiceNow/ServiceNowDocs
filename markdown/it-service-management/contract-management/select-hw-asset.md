@@ -2,6 +2,7 @@
 title: Add or remove assets for a contract renewal
 description: Add or remove hardware or enterprise assets from the contract renewal process. You can also view the hardware or enterprise assets carried over to the new contract.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/contract-management/select-hw-asset.html
 release: zurich
 product: Contract Management
 classification: contract-management
@@ -52,15 +53,15 @@ Invalid assets are not carried over to the draft contract and you must add them 
 
 4.  Update the hardware or enterpriseassets in the contract.
 
-<table id="choicetable_ftz_d1c_qtb"><thead><tr><th align="left" id="d83625e172">
+<table id="choicetable_ftz_d1c_qtb"><thead><tr><th align="left" id="d84354e172">
 
 Interface
 
-</th><th align="left" id="d83625e175">
+</th><th align="left" id="d84354e175">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d83625e181">
+</th></tr></thead><tbody><tr><td id="d84354e181">
 
 **Core UI**
 
@@ -68,7 +69,7 @@ Action
 
 Indicate the assets that you want to cover by moving assets to the **Assets Covered List** or removing them.
 
-</td></tr><tr><td id="d83625e193">
+</td></tr><tr><td id="d84354e193">
 
 **Hardware Asset Workspace**
 
@@ -80,7 +81,7 @@ Add or remove assets from the existing list to indicate the assets you want to c
 -   To remove an asset, select it and select **Remove**.
 
 
-</td></tr><tr><td id="d83625e220">
+</td></tr><tr><td id="d84354e220">
 
 **Enterprise Asset Workspace**
 
@@ -116,5 +117,5 @@ The Payment amount field in the Financial tab of the draft contract shows the to
 
 ## What to do next
 
-[Add or remove entitlements for a contract renewal](select-sw-asset.md)
+[Add or remove entitlements for a contract renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/contract-management/select-sw-asset.md)
 

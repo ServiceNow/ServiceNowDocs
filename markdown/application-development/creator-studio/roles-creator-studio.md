@@ -2,6 +2,7 @@
 title: Creator Studio roles and personas
 description: Roles control what everyone you work with can do in Creator Studio. Administrators assign roles to give team members permission to configure or use Creator Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/creator-studio/roles-creator-studio.html
 release: zurich
 product: Creator Studio
 classification: creator-studio
@@ -46,7 +47,7 @@ Personas aren’t explicitly part of Creator Studio, but administrators assign r
 
 In addition to the roles in the following table, users with the admin and delegated\_developer roles can also access Creator Studio.
 
-For complete details on which roles each role contains, see [Components installed with Creator Studio](creator-studio-components-installed.md).
+For complete details on which roles each role contains, see [Components installed with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-components-installed.md).
 
 <table id="table_zbp_qgq_h1c"><thead><tr><th>
 
@@ -71,7 +72,7 @@ sn\_creatorstudio.user
 </td><td>
 
 -   Users can create apps in Creator Studio.
--   The user is automatically delegated as the app owner. For more information, see [Exploring Delegated Development](../../applications/concept/c_DelegatedDevelopment.md).
+-   The user is automatically delegated as the app owner. For more information, see [Exploring Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 -   Contains sn\_g\_app\_creator.app\_creator.
 
  **Note:** This role gets assigned the delegated\_developer role when they create or get access to an app.
@@ -132,7 +133,7 @@ Granular admin role that contains the following Creator Studio granular admin ro
 -   sn\_creatorstudio.app\_configurator
 -   sn\_creatorstudio.reports\_viewer
 
-For more information on working with granular roles, see [Granular admin roles required to secure your instance](https://www.servicenow.com/docs/access?context=roles-within-platform-security&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information on working with granular roles, see .
 
 </td></tr><tr><td>
 
@@ -229,7 +230,7 @@ To ensure that users can use the Collaboration Approval Workflow regardless of i
 
 ## Roles and app development collaboration
 
-Roles define user access to Creator Studio. Permission to work on individual apps is controlled on an app-by-app basis. That is, you must manage the collaborators for each app by inviting other citizen developers to work on the app with you, or request to join someone else's app. For more information, see [Collaborating with others to build apps in Creator Studio](creator-studio-collaboration-roles.md).
+Roles define user access to Creator Studio. Permission to work on individual apps is controlled on an app-by-app basis. That is, you must manage the collaborators for each app by inviting other citizen developers to work on the app with you, or request to join someone else's app. For more information, see [Collaborating with others to build apps in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-collaboration-roles.md).
 
-**Parent Topic:**[Configuring Creator Studio](../concept/configuring-creator-studio.md)
+**Parent Topic:**[Configuring Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/configuring-creator-studio.md)
 

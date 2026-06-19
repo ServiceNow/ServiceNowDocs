@@ -2,6 +2,7 @@
 title: Request an exception using GRC: Policy and Compliance Management in the IT Remediation Workspace
 description: Request a policy exception for the host vulnerable item \(VIT\), application vulnerable item \(AVIT\), container vulnerable item \(CVIT\) or remediation task \(VUL, AVUL, CVUL, or CRG\) from the IT Remediation Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/it-remediation-workspace/vr-ws-request-exception-grc.html
 release: zurich
 product: IT Remediation Workspace
 classification: it-remediation-workspace
@@ -38,7 +39,7 @@ Role required:
 
 1.  Navigate to **Workspaces** &gt; **IT Remediation Workspace**.
 
-2.  In the application navigator, select the List icon \(![List icon.](../image/icon-polaris-list-workspace.png)\).
+2.  In the application navigator, select the List icon \(\[Omitted image "icon-polaris-list-workspace.png"\] Alt text: List icon.\).
 
 3.  On the List page, under Host vulnerable items, Application vulnerable items, Container vulnerable items, or Remediation tasks \(VUL, AVUL, CVUL, or CRG\), select the record that you want to request an exception for.
 
@@ -48,7 +49,7 @@ Role required:
 
 5.  On the form, fill in the fields.
 
-    For more information on the form fields, see [Request exception form fields for policy exceptions](../../vr-it-remediation-workspace/reference/itr-ws-request-exception-form-grc.md).
+    For more information on the form fields, see [Request exception form fields for policy exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/it-remediation-workspace/itr-ws-request-exception-form-grc.md).
 
 6.  Select **Request Exception**.
 
@@ -58,6 +59,6 @@ Role required:
 
     A message appears that your request is successfully submitted for approval.
 
-    For more information on the Policy Exception Integration and the hand-off between the remediation owner and the compliance manager, see [Policy and Compliance Management optional setup](https://www.servicenow.com/docs/access?context=policy-compliance-optional-steps&version=zurich&pubname=zurich-governance-risk-compliance&ft:locale=en-US).
+    For more information on the Policy Exception Integration and the hand-off between the remediation owner and the compliance manager, see Policy and Compliance Management optional setup.
 
 

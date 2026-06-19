@@ -2,6 +2,7 @@
 title: Add managers to a territory
 description: Managers get access to a territory to manage members of the assigned territory and its child territories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/add-managers-som.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

@@ -2,6 +2,7 @@
 title: New Model Intake form
 description: Use the New Model Intake form to request a new model by providing details such as the purpose, owner, model complexity, and expected outputs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/model-risk-management/new-model-intake-form.html
 release: zurich
 product: Model Risk Management
 classification: model-risk-management
@@ -120,5 +121,5 @@ Estimated level of model complexity. The options are as follows:-   Simple
 </td></tr></tbody>
 </table>**Note:** The fields shown in the intake form are sample basic fields. You can configure additional fields and update choice values as needed to meet your specific requirements.
 
-**Parent Topic:**[Request a new model](../task/request-new-model.md)
+**Parent Topic:**[Request a new model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/model-risk-management/request-new-model.md)
 

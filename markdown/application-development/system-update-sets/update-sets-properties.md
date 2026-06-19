@@ -2,6 +2,7 @@
 title: Update sets properties
 description: A reference topic that contains information on the system properties used with update sets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/system-update-sets/update-sets-properties.html
 release: zurich
 product: System Update Sets
 classification: system-update-sets

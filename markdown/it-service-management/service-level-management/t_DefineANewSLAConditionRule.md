@@ -2,6 +2,7 @@
 title: Create a custom SLA condition rule
 description: You can create custom SLA condition rules to determine whether an SLA should attach, pause, complete, reattach, or cancel. SLA condition classes contain script to define processing for an SLA condition rule. Create an SLA condition rule after the SLA condition class is defined.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-level-management/t\_DefineANewSLAConditionRule.html
 release: zurich
 product: Service Level Management
 classification: service-level-management
@@ -75,5 +76,5 @@ SLAConditionLocal.prototype = Object.extendsObject(SLAConditionBase, {
 });
 ```
 
-**Parent Topic:**[Extend SLA condition rules](../concept/c_ExtendSLAConditionRules.md)
+**Parent Topic:**[Extend SLA condition rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-level-management/c_ExtendSLAConditionRules.md)
 

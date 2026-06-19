@@ -2,6 +2,7 @@
 title: AWS Put S3 Bucket Encryption action
 description: Action that configures the default encryption and Amazon Web Services \(AWS\) S3 Bucket Key for an existing bucket.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-cloud-accelerate/cal-aws-put-s3-bucket-encryption.html
 release: zurich
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -19,11 +20,11 @@ Action that configures the default encryption and Amazon Web Services \(AWS\) S3
 
 -   **Subscription requirements**
 
-    To use this action in custom flows, you must obtain an Integration Hub Enterprise subscription or an App Engine subscription. For more information, see [Request Integration Hub](https://www.servicenow.com/docs/access?context=request-ih-overview&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+    To use this action in custom flows, you must obtain an Integration Hub Enterprise subscription or an App Engine subscription. For more information, see Request Integration Hub.
 
 -   **Role requirements**
 
-    This action requires roles granted by delegated development or assigned to the user. For more information, see [User access to Flow Designer](https://www.servicenow.com/docs/access?context=user-access-flow-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+    This action requires roles granted by delegated development or assigned to the user. For more information, see User access to Flow Designer.
 
 
 ## Cloud permission
@@ -116,5 +117,5 @@ You can use these outputs as inputs for other actions.
     Error message returned for the failed call.
 
 
-**Parent Topic:**[Cloud Action Library reference](cloud-action-library-reference.md)
+**Parent Topic:**[Cloud Action Library reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/cloud-action-library-reference.md)
 

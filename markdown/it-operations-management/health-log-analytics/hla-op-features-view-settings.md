@@ -2,6 +2,7 @@
 title: View the settings of Health Log Analytics system features
 description: View the settings for all Health Log Analytics system features. These features configure many operations that affect your work. The admin can enable or disable features for you.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-op-features-view-settings.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -27,7 +28,7 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
     By default, the table shows the system features that administrators modify most commonly. To view the complete list of features, use the filtering options.
 
-    ![Features list of Log Analytics feature descriptions and settings.](../image/features-form.png)
+    \[Omitted image "features-form.png"\] Alt text: Features list of Log Analytics feature descriptions and settings.
 
 2.  Ask your admin to activate or deactivate a feature by updating the **State** setting.
 

@@ -2,6 +2,7 @@
 title: Document template scripts
 description: With document template scripts, you can dynamically change the text in the body of the HTML template. Document template scripts allow you to perform simple tasks, such as displaying HR data, and complex ones, such as making advanced database queries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/document-template-scripts.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -51,13 +52,13 @@ You can add a `${template_script:script name}` embedded script tag to the body o
 
 2.  The employee\_emergency\_contacts script is called in an HTML document template by typing **$ \{template\_script:employee\_emergency\_contacts\}** in the body of the Employee Profile HTML document template.
 
-    ![A template showing fields, including a script input area that has basic editing controls.](document-template-scripts.png)
+    \[Omitted image "document-template-scripts.png"\] Alt text: A template showing fields, including a script input area that has basic editing controls.
 
 3.  The Employee Profile HTML document template is selected on a case and the document template is generated with emergency contacts list as follows:
 
-    ![The HR Case form where you can enter "Employee Profile" in the Document template field.](document-template-scripts-case.png)
+    \[Omitted image "document-template-scripts-case.png"\] Alt text: The HR Case form where you can enter "Employee Profile" in the Document template field.
 
-    ![A preview of the Employee Profile document.](document-template-scripts-preview.png)
+    \[Omitted image "document-template-scripts-preview.png"\] Alt text: A preview of the Employee Profile document.
 
 
 ## Example of how document template script translates text in an HTML template
@@ -106,10 +107,10 @@ Following is an employee\_emergency\_contacts script that populates the emergenc
 
 Following is an example of how dynamic tokens are translated in an HTML doc template.
 
-1.  While configuring an HTML template, the template language is selected as German and date format is set to dd/MM/yyyy.![The HR Case Employment Verification Letter template. It displays all the fields and the body text that is used for the letter.](../image/config-lang.png)
+1.  While configuring an HTML template, the template language is selected as German and date format is set to dd/MM/yyyy.\[Omitted image "config-lang.png"\] Alt text: The HR Case Employment Verification Letter template. It displays all the fields and the body text that is used for the letter.
 2.  The HTML document template is referenced in an HR case.
 3.  When the agent previews the document, generates the attachment, or initiates document tasks for participants, priority and relationship fields are translated into the German language, and dates appear in the dd/MM/yyyy format.
 
-    ![The translated preview of the document template. I is translated to German.](../image/preview-output.png)
+    \[Omitted image "preview-output.png"\] Alt text: The translated preview of the document template. I is translated to German.
 
 

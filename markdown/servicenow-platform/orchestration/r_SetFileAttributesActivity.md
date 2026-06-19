@@ -2,6 +2,7 @@
 title: Set File Attributes activity
 description: The Set File Attributes activity sets common file attributes, such as timestamps, size, permissions, and UID/GID, for a file or directory on an SFTP server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/orchestration/r\_SetFileAttributesActivity.html
 release: zurich
 product: Orchestration
 classification: orchestration
@@ -15,7 +16,7 @@ breadcrumb: [SFTP File Transfer activity pack, Orchestration activity packs, Cla
 
 The Set File Attributes activity sets common file attributes, such as timestamps, size, permissions, and UID/GID, for a file or directory on an SFTP server.
 
-A good practice is to use the Get File List activity to return a list of files and their attributes first. Then, when you moved a file from a source host to a target host, use the Set File Attributes activity to set the source file attributes on the target file. This is demonstrated in the [SFTP File Transfer](r_SFTPWorkflow.md)workflow.
+A good practice is to use the Get File List activity to return a list of files and their attributes first. Then, when you moved a file from a source host to a target host, use the Set File Attributes activity to set the source file attributes on the target file. This is demonstrated in the [SFTP File Transfer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/r_SFTPWorkflow.md)workflow.
 
 ## Input variables
 
@@ -105,14 +106,14 @@ sourceCredentialTag
 
 </td><td>
 
-Specific [Credential aliases for Orchestration activities](https://www.servicenow.com/docs/access?context=c_AssignCredsOrchActivities&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) this activity must use to run SSH commands on the host.
+Specific Credential aliases for Orchestration activities this activity must use to run SSH commands on the host.
 
 </td></tr></tbody>
 </table>## Output variables
 
 |Variable|Description|
 |--------|-----------|
-|errorMessage|The **executionResult.errorMessages** from the [Activity designer parsing sources](../../orchestration-activity-designer/task/t_CreateAParsingRule.md#). If this variable is not null, the operation has failed.|
+|errorMessage|The **executionResult.errorMessages** from the [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateAParsingRule.md). If this variable is not null, the operation has failed.|
 |result|Text message advising that the command was executed successfully.|
 
 ## Conditions
@@ -122,5 +123,5 @@ Specific [Credential aliases for Orchestration activities](https://www.serviceno
 |Success|The activity succeeded in changing the attributes of the specified file or directory.|
 |Failure|The activity failed to change the attributes of the specified file or directory.|
 
-**Parent Topic:**[SFTP File Transfer activity pack](../concept/c_OrchestrationSFTPActivityPack.md)
+**Parent Topic:**[SFTP File Transfer activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_OrchestrationSFTPActivityPack.md)
 

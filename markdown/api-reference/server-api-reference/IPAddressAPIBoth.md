@@ -2,6 +2,7 @@
 title: IPAddress - Scoped, Global
 description: The IPAddress API provides methods that enable you to check for various states of a specified IP address, such as whether it is routable, unicast, multicast, public, or reserved. It also enables you to get the canonical \(shortened/standard\) and expanded forms of an IP address.Instantiates an IPAddress object for the specified IP address.Returns the canonical \(shortened/standard\) form of the specified IP address by removing any zero padding from the address.Returns the expanded form of the specified IP addressDetermines whether the specified IPAddress object is a link-local IP address.Determines whether the specified IPAddress object is the loopback IP address.Determines whether the specified IPAddress object is a multicast IP address.Determines whether the specified IPAddress object is a public IP address. An IP address is considered public if it is routable, and it is not a reserved address.Determines whether the specified IPAddress object is a reserved IP address.Determines whether the specified IPAddress object is a routable IP address.Determines whether the passed IPAddress object is the is the same version, IPv4 or IPv6, as the specified IP address.Determines whether the specified IPAddress object is a unicast IP address.Determines whether the specified IP address is a valid IPv4 address.Determines whether the specified IP address is a valid IPv6 address.Determines whether the specified IP address is a valid IPv4 or IPv6 address.Returns the expanded form of an IPAddress object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/IPAddressAPIBoth.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,9 +18,9 @@ The IPAddress API provides methods that enable you to check for various states o
 
 Access the global IPAddress class and its associated methods in the `SNC` global namespace.
 
-In this API, some of the methods are static and some are non-static. The [isV4\(\)](IPAddressAPIBoth.md#) and [isV6\(\)](IPAddressAPIBoth.md#) methods provide both static and non-static implementations. The benefit of the non-static methods is that you don't have to call the [IPAddress\(\)](IPAddressAPIBoth.md#) method to instantiate an IPAddress object.
+In this API, some of the methods are static and some are non-static. The [isV4\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/IPAddressAPIBoth.md) and [isV6\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/IPAddressAPIBoth.md) methods provide both static and non-static implementations. The benefit of the non-static methods is that you don't have to call the [IPAddress\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/IPAddressAPIBoth.md) method to instantiate an IPAddress object.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## IPAddress - IPAddress\(String ipAddress\)
 

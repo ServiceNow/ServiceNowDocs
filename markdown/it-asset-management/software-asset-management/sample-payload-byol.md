@@ -2,6 +2,7 @@
 title: Sample payload for BYOL
 description: A sample payload that populates the Software Installation \[cmdb\_sam\_sw\_install\] table in the ServiceNow instance with discovery data collected by the BYOL licensing model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/sample-payload-byol.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -15,7 +16,7 @@ breadcrumb: [References, Software Asset Management, IT Asset Management]
 
 A sample payload that populates the Software Installation \[cmdb\_sam\_sw\_install\] table in the ServiceNow instance with discovery data collected by the BYOL licensing model.
 
-Certain entities need to be populated for BYOL to work with software asset connection as a third party discovery source. The relationship between these entities is crucial for BYOL to work smoothly with software asset connections. For example, some values required for populating Cloud Hosts is different for AWS and Azure. Though the object ID and the name of the host is required for both AWS and Azure, for AWS, the CPU core count is required and for Azure, the host type value is required. For details on entities and their relationships, refer to [Entities for BYOL](sample-payload-byol.md#section_b4d_c5r_nnb) and [Relationships between the entities for BYOL](sample-payload-byol.md#section_xfc_ycs_nnb).
+Certain entities need to be populated for BYOL to work with software asset connection as a third party discovery source. The relationship between these entities is crucial for BYOL to work smoothly with software asset connections. For example, some values required for populating Cloud Hosts is different for AWS and Azure. Though the object ID and the name of the host is required for both AWS and Azure, for AWS, the CPU core count is required and for Azure, the host type value is required. For details on entities and their relationships, refer to [Entities for BYOL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sample-payload-byol.md) and [Relationships between the entities for BYOL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sample-payload-byol.md).
 
 In this example, Cloud Service Account is the topmost entity. All the other entities listed in the Entities for BYOL table are dependent entities of Cloud Service Account. If an entity is marked as a dependent entity, then the parent entity and the relationship between that entity and it's parent needs to be mentioned in the same payload. For example, if you want to create an AWS data center on Cloud Service Account, you need to include the Cloud Service Account entity in the same payload; even if Cloud Service Account already exists in your instance. Similarly, when you create software installations, you need to include all the dependent entities for software installations all through the hierarchy in the same payload.
 
@@ -266,5 +267,5 @@ var output = SNC.IdentificationEngineScriptableApi.createOrUpdateCIEnhanced('Ser
 gs.print("Output:" + output); 
 ```
 
-**Parent Topic:**[Software Asset Management references](references.md)
+**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/references.md)
 

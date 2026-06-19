@@ -2,6 +2,7 @@
 title: Share documents with user criteria
 description: As a Writer or Owner assign access to a document based on the user criteria permissions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/share-docs-user-criteria.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -36,5 +37,5 @@ Role required: dm\_user\_criteria\_read
 7.  Click **Submit**.
 
 
-**Parent Topic:**[Document security and access](../concept/document-access-settings.md)
+**Parent Topic:**[Document security and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/document-access-settings.md)
 

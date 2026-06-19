@@ -2,6 +2,7 @@
 title: Pick up an asset
 description: Agents can view a consolidated list, grouped by stockroom, of all their assets that are waiting to be picked up.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/t\_PickUpAnAsset.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

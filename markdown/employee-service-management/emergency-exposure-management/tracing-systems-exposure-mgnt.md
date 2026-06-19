@@ -2,6 +2,7 @@
 title: Tracing systems in Emergency Exposure Management
 description: A tracing system configured for a contact tracing data source enables you to identify potentially exposed employees by running a diagnostic request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/emergency-exposure-management/tracing-systems-exposure-mgnt.html
 release: zurich
 product: Emergency Exposure Management
 classification: emergency-exposure-management
@@ -19,7 +20,7 @@ The diagnostic request for an affected employee queries the contact tracing data
 
 A tracing system can be a group of other tracing systems with a similar type of input data source. For example, say you have Wi-Fi access data integration with multiple systems such as Cisco DNA Spaces and Mist Systems. You could have a tracing system called Wi-Fi access log and make it the parent tracing system of other tracing systems using the Wi-Fi input data sources.
 
-You can customize the tracing systems for data sources available in Emergency Exposure Management or set up a new tracing system. For more information, see [Set up a tracing system for an exposure data source](../task/set-up-tracing-system.md).
+You can customize the tracing systems for data sources available in Emergency Exposure Management or set up a new tracing system. For more information, see [Set up a tracing system for an exposure data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/emergency-exposure-management/set-up-tracing-system.md).
 
 For some tracing systems to be available in Emergency Exposure Management, you must install other Safe Workplace suite and Emergency Response Operations applications.
 
@@ -56,7 +57,7 @@ Employees who accepted the same meetings as the affected employee during the spe
 
 This tracing system is not active by default. To use this tracing system for identifying potentially exposed employees, activate it and also configure the corresponding data source in Workplace Core.
 
-For more information, see [Install Workplace Safety Management](../../workplace-safety-mgmt/task/install-workplace-safety-mgmt-hr.md).
+For more information, see [Install Workplace Safety Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/install-workplace-safety-mgmt-hr.md).
 
 |Tracing system|Query|
 |--------------|-----|
@@ -66,7 +67,7 @@ For more information, see [Install Workplace Safety Management](../../workplace-
 
 These tracing systems are not active by default. To use these tracing systems for identifying potentially exposed employees, activate them and also configure the corresponding data sources in Contact Tracing.
 
-For more information, see [Setting up Contact Tracing](../../contact-tracing/concept/set-up-contact-tracing.md).
+For more information, see [Setting up Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/set-up-contact-tracing.md).
 
 <table id="table_q3t_nt2_bnb"><thead><tr><th>
 
@@ -111,7 +112,7 @@ Queries the Wi-Fi Access Register \[sn\_imt\_tracing\_wifi\_access\_register\] t
 -   Mist Systems
 -   Cisco DNA Spaces
 
- For more information, see [Retrieving Wi-Fi access log data](../../contact-tracing/concept/wifi-access-management.md).
+ For more information, see [Retrieving Wi-Fi access log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/wifi-access-management.md).
 
  **Note:** The period for which you can get the data via a real-time API depends on the data retention policy of your Wi-Fi service provider.
 
@@ -129,14 +130,14 @@ Queries the Wearable Access Register \[sn\_imt\_tracing\_wearable\_access\_regis
 
 </td><td>
 
-Uses an integration with the KINEXON SafeZone API to identify potentially exposed users with KINEXON wearable devices who were in close proximity with the affected KINEXON user during the specified dates.For more information, see [Configure KINEXON integration](../../contact-tracing/task/configure-kinexon-integration.md).
+Uses an integration with the KINEXON SafeZone API to identify potentially exposed users with KINEXON wearable devices who were in close proximity with the affected KINEXON user during the specified dates.For more information, see [Configure KINEXON integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/configure-kinexon-integration.md).
 
 </td></tr></tbody>
 </table>## Tracing system installed with Field Service Management
 
 This tracing system is not active by default. To use this tracing system for identifying potentially exposed employees, activate it and also configure the corresponding data source in Field Service Management.
 
-For more information, see [Emergency Exposure Management for field service agents](https://www.servicenow.com/docs/access?context=monitoring-analytics-fsm&version=zurich&pubname=zurich-field-service-management&section=exposure-management-for-agents&ft:locale=en-US).
+For more information, see Emergency Exposure Management for field service agents.
 
 |Tracing system|Query|
 |--------------|-----|

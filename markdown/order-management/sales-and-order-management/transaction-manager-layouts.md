@@ -2,6 +2,7 @@
 title: Transaction Manager: Layouts
 description: Layouts in Transaction Manager can be managed in the Admin UI or via API calls in either JSON or YAML formats. This topic provides the details of the various fields, buttons, and effects, and provides code snippets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/transaction-manager-layouts.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -41,7 +42,7 @@ An optional layout feature is the Line Detail layout, which displays details on 
     Examples:`default_layout_linedetail.yaml`or`default_layout_linedetail.json`
 
 
-For more information about the Line Detail UI effect, see [Transaction Manager: Layouts - UI effects](transaction-manager-layouts-ui-effects.md).
+For more information about the Line Detail UI effect, see [Transaction Manager: Layouts - UI effects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/transaction-manager-layouts-ui-effects.md).
 
 ## Layout formats \(JSON and YAML\)
 
@@ -62,11 +63,11 @@ YAML provides several benefits, including:
 
 To create a new layout, navigate to the Transaction Manager Admin UI, click **Layouts** in the Admin Menu on the left, and then click **+ Add Layout** to add a new layout to the blueprint.
 
-![Transaction Manager: layouts](../images/cpq-txn-mgr-layouts-new-1.png)
+\[Omitted image "cpq-txn-mgr-layouts-new-1.png"\] Alt text: Transaction Manager: layouts
 
 The layout requires a name and a variable name. Click in the Name field and enter the name of the new layout. As the Name value is being entered in the Name field the same value is being mirrored in the Variable Name field. By default, Transaction Manager makes the variable name the same as the Name value that the Admin enters. The variable name however in created using “camel case” and all spaces and special characters are removed from the name. For example, If you type “My First Layout” for the Name field, the Variable Name field will contain “myFirstLayout”. If you want to create your own custom variable names, click the pencil icon at the right end of the Variable Name field and you will be allowed to enter your own value for Variable Name.
 
-![Transaction Manager: layouts](../images/cpq-txn-mgr-layouts-new-2.jpeg)
+\[Omitted image "cpq-txn-mgr-layouts-new-2.jpeg"\] Alt text: Transaction Manager: layouts
 
 The code for the layout is then entered into the editor below the Name and Variable Name fields. Notice that the Name and variable name values that you created are automatically placed into the code for the new layout. The code for the rest of the layout definition can either be entered directly in the Editor or it can be created in another tool and then copy/pasted into the editor. Below are code examples to add various objects into the layout.
 
@@ -74,7 +75,7 @@ Use these examples as a starting point for creating your layout. Once you are do
 
 If there are errors in the code, the Save button will be disabled. To identify errors, select the error messages button in the sub-header or look for red marks on the right hand side of the code display area as you scroll down through the code. These red marks denote an error in the code, and you should see the offending item in the code underlined with a red underline.
 
-![lTransaction Manager: layouts](../images/cpq-txn-mgr-layouts-new-3.jpeg)
+\[Omitted image "cpq-txn-mgr-layouts-new-3.jpeg"\] Alt text: lTransaction Manager: layouts
 
 ## General layout information
 
@@ -445,99 +446,99 @@ Available Icons:
 
 <table id="table_ykm_jll_hhc"><tbody><tr><td>
 
-![hollow gear icon](../images/cpq-txn-mgr-sldc-icon-automate.png)automate
+\[Omitted image "cpq-txn-mgr-sldc-icon-automate.png"\] Alt text: hollow gear iconautomate
 
 </td><td>
 
-![icon of three people and a check mark](../images/cpq-txn-mgr-sldc-icon-buyer-group-qualifier.png)buyer\_group\_qualifier
+\[Omitted image "cpq-txn-mgr-sldc-icon-buyer-group-qualifier.png"\] Alt text: icon of three people and a check markbuyer\_group\_qualifier
 
 </td><td>
 
-![chevron pointing down](../images/cpq-txn-mgr-sldc-icon-chevron-down.png)chevrondown
+\[Omitted image "cpq-txn-mgr-sldc-icon-chevron-down.png"\] Alt text: chevron pointing downchevrondown
 
 </td><td>
 
-![chevron pointing left](../images/cpq-txn-mgr-sldc-icon-chevronleft.png)chevronleft
+\[Omitted image "cpq-txn-mgr-sldc-icon-chevronleft.png"\] Alt text: chevron pointing leftchevronleft
 
 </td><td>
 
-![chevron pointing right](../images/cpq-txn-mgr-sldc-icon-chevronright.png)chevronright
+\[Omitted image "cpq-txn-mgr-sldc-icon-chevronright.png"\] Alt text: chevron pointing rightchevronright
 
 </td><td>
 
-![chevron pointing up](../images/cpq-txn-mgr-sldc-icon-chevronup.png)chevronup
+\[Omitted image "cpq-txn-mgr-sldc-icon-chevronup.png"\] Alt text: chevron pointing upchevronup
 
 </td></tr><tr><td>
 
-![option button](../images/cpq-txn-mgr-sldc-icon-choice.png)choice
+\[Omitted image "cpq-txn-mgr-sldc-icon-choice.png"\] Alt text: option buttonchoice
 
 </td><td>
 
-![white x on solid background](../images/cpq-txn-mgr-sldc-icon-clear.png)clear
+\[Omitted image "cpq-txn-mgr-sldc-icon-clear.png"\] Alt text: white x on solid backgroundclear
 
 </td><td>
 
-![clock icon](../images/cpq-txn-mgr-sldc-icon-clock.png)clock
+\[Omitted image "cpq-txn-mgr-sldc-icon-clock.png"\] Alt text: clock iconclock
 
 </td><td>
 
-![x icon](../images/cpq-txn-mgr-sldc-icon-close.png)close
+\[Omitted image "cpq-txn-mgr-sldc-icon-close.png"\] Alt text: x iconclose
 
 </td><td>
 
-![wrench icon](../images/cpq-txn-mgr-sldc-icon-custom-apps.png)custom\_apps
+\[Omitted image "cpq-txn-mgr-sldc-icon-custom-apps.png"\] Alt text: wrench iconcustom\_apps
 
 </td><td>
 
-![trash can icon](../images/cpq-txn-mgr-sldc-icon-delete.png)delete
+\[Omitted image "cpq-txn-mgr-sldc-icon-delete.png"\] Alt text: trash can icondelete
 
 </td></tr><tr><td>
 
-![triangle pointing down](../images/cpq-txn-mgr-sldc-icon-down.png)down
+\[Omitted image "cpq-txn-mgr-sldc-icon-down.png"\] Alt text: triangle pointing downdown
 
 </td><td>
 
-![pencil icon](../images/cpq-txn-mgr-sldc-icon-edit.png)edit
+\[Omitted image "cpq-txn-mgr-sldc-icon-edit.png"\] Alt text: pencil iconedit
 
 </td><td>
 
-![star icon](../images/cpq-txn-mgr-sldc-icon-favorite.png)favorite
+\[Omitted image "cpq-txn-mgr-sldc-icon-favorite.png"\] Alt text: star iconfavorite
 
 </td><td>
 
-![triangle pointing left](../images/cpq-txn-mgr-sldc-icon-left.png)left
+\[Omitted image "cpq-txn-mgr-sldc-icon-left.png"\] Alt text: triangle pointing leftleft
 
 </td><td>
 
-![icon of lightning bolt and gear](../images/cpq-txn-mgr-sldc-icon-lightning-extension.png)lightning\_extension
+\[Omitted image "cpq-txn-mgr-sldc-icon-lightning-extension.png"\] Alt text: icon of lightning bolt and gearlightning\_extension
 
 </td><td>
 
-![triangle pointing right](../images/cpq-txn-mgr-sldc-icon-right.png)right
+\[Omitted image "cpq-txn-mgr-sldc-icon-right.png"\] Alt text: triangle pointing rightright
 
 </td></tr><tr><td>
 
-![question mark](../images/cpq-txn-mgr-sldc-icon-question.png)question
+\[Omitted image "cpq-txn-mgr-sldc-icon-question.png"\] Alt text: question markquestion
 
 </td><td>
 
-![magnifying glass icon](../images/cpq-txn-mgr-sldc-icon-search.png)search
+\[Omitted image "cpq-txn-mgr-sldc-icon-search.png"\] Alt text: magnifying glass iconsearch
 
 </td><td>
 
-![solid gear icon](../images/cpq-txn-mgr-sldc-icon-settings.png)settings
+\[Omitted image "cpq-txn-mgr-sldc-icon-settings.png"\] Alt text: solid gear iconsettings
 
 </td><td>
 
-![icon of arrow pointing at center of target](../images/cpq-txn-mgr-sldc-icon-target-mode.png)target\_mode
+\[Omitted image "cpq-txn-mgr-sldc-icon-target-mode.png"\] Alt text: icon of arrow pointing at center of targettarget\_mode
 
 </td><td>
 
-![three horizontal dots](../images/cpq-txn-mgr-sldc-icon-threedots.png)threedots
+\[Omitted image "cpq-txn-mgr-sldc-icon-threedots.png"\] Alt text: three horizontal dotsthreedots
 
 </td><td>
 
-![three vertical dots](../images/cpq-txn-mgr-sldc-icon-threedots-vertical.png)threedots\_vertical
+\[Omitted image "cpq-txn-mgr-sldc-icon-threedots-vertical.png"\] Alt text: three vertical dotsthreedots\_vertical
 
 </td></tr></tbody>
 </table>YAML code sample:
@@ -790,13 +791,13 @@ UI effects are layout elements that add specific functionalities to a Button. UI
     Checks whether the session has been modified, and if so, will refresh the sessionId and merge changes.
 
 
-For more information, see [Transaction Manager: Layouts - UI effects](transaction-manager-layouts-ui-effects.md).
+For more information, see [Transaction Manager: Layouts - UI effects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/transaction-manager-layouts-ui-effects.md).
 
 ## Reference of a sample layout from UI
 
 Please review the example UI configuration. The fields in the draft stage of the transaction end-user UI snapshot have been included in the sample JSON layout file attached below, which is configured for the draft stage.
 
-![Transaction Manager: layouts](../images/cpq-txn-mgr-layouts-new-sample.jpeg)
+\[Omitted image "cpq-txn-mgr-layouts-new-sample.jpeg"\] Alt text: Transaction Manager: layouts
 
 [Sample Layout JSON](https://logikio.atlassian.net/wiki/spaces/CS/pages/1856471079/Txn+Mgr+-+Layouts)
 

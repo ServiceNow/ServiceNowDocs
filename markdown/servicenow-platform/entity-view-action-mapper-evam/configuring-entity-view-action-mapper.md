@@ -2,6 +2,7 @@
 title: Configuring Entity View Action Mapper
 description: The Entity View Action Mapper \(EVAM\) enables you to map specific actions to entity views, enabling customized behavior and streamlined workflows. Learn how to configure EVAM so you can define, configure, and apply mappings to enhance user interactions with data in the platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/entity-view-action-mapper-evam/configuring-entity-view-action-mapper.html
 release: zurich
 product: Entity View Action Mapper \(EVAM\)
 classification: entity-view-action-mapper-evam
@@ -29,12 +30,12 @@ EVAM also relies on:
 -   @devsnc/sn-layout \(com.devsnc\_sn\_layout\): Layout
 
 -   -   -   
--   **[Define a data source](../task/define-evam-datasource.md)**  
+-   **[Define a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/entity-view-action-mapper-evam/define-evam-datasource.md)**  
 The data source is an entity that has associated data that you intend to display. For example, a community post or a user.
--   **[Define an EVAM view template](../task/define-evam-template.md)**  
+-   **[Define an EVAM view template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/entity-view-action-mapper-evam/define-evam-template.md)**  
 You can configure multiple view templates per data source based on conditions to customize how data displays for users. The view template maps fields from the view configuration to component.
--   **[Define an EVAM configuration bundle](../task/define-view-configuration-bundle.md)**  
+-   **[Define an EVAM configuration bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/entity-view-action-mapper-evam/define-view-configuration-bundle.md)**  
 Create a view configuration to combine conditions, database fields, and declarative actions with an associated view template using the Entity View Action Mapper \(EVAM\).
 
-**Parent Topic:**[Manage instance data sources](../../general/concept/manage-data-sources.md)
+**Parent Topic:**[Manage instance data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/manage-data-sources.md)
 

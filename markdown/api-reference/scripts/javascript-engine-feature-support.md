@@ -2,6 +2,7 @@
 title: JavaScript engine feature support
 description: Compare ECMAScript features between the ECMAScript 2021 \(ES12\) and ES5 Standards JavaScript modes in Zurich. Both modes support a subset of ECMAScript features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/javascript-engine-feature-support.html
 release: zurich
 product: Scripts
 classification: scripts
@@ -1327,5 +1328,5 @@ For more information about these features, see the ECMAScript language specifica
 |-------|-----------------------------|------------------|
 |JSON|Supported|Supported|
 
-**Parent Topic:**[JavaScript engine on the platform](../concept/c_JS_engine_upgrade.md)
+**Parent Topic:**[JavaScript engine on the platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_JS_engine_upgrade.md)
 

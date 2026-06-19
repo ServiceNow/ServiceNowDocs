@@ -2,6 +2,7 @@
 title: Manage artifacts in a release
 description: Add or remove artifacts from a release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-product-release/dpr-work-release-artifact.html
 release: zurich
 product: Digital Product Release
 classification: digital-product-release
@@ -17,7 +18,7 @@ Add or remove artifacts from a release.
 
 ## Before you begin
 
-Make sure you have associated an artifact repository with the product. For more information, see [View and manage data from external tools](dpr-manage-product-ext-tool.md).
+Make sure you have associated an artifact repository with the product. For more information, see [View and manage data from external tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-manage-product-ext-tool.md).
 
 Role required: sn\_dpr\_model.product\_manager or sn\_dpr\_model.release\_admin
 
@@ -25,7 +26,7 @@ Role required: sn\_dpr\_model.product\_manager or sn\_dpr\_model.release\_admin
 
 1.  Navigate to **Workspaces** &gt; **Digital Product Release Workspace**.
 
-2.  Select the releases icon \(![Releases icon.](../image/dpr-icon-release.png)\).
+2.  Select the releases icon \(\[Omitted image "dpr-icon-release.png"\] Alt text: Releases icon.\).
 
 3.  Select a release from the list to open.
 
@@ -33,19 +34,19 @@ Role required: sn\_dpr\_model.product\_manager or sn\_dpr\_model.release\_admin
 
     The **Artifacts** label is available when you select **Overview**, **Release scope**, or **Change requests**.
 
-    ![Number of artifacts listed on the Release form header.](../image/dpr-release-artifacts.png)
+    \[Omitted image "dpr-release-artifacts.png"\] Alt text: Number of artifacts listed on the Release form header.
 
 5.  On the Release Artifacts list view, add or remove artifacts.
 
-<table id="choicetable_i3k_312_c1c"><thead><tr><th align="left" id="d451446e123">
+<table id="choicetable_i3k_312_c1c"><thead><tr><th align="left" id="d88830e123">
 
 Option
 
-</th><th align="left" id="d451446e126">
+</th><th align="left" id="d88830e126">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d451446e132">
+</th></tr></thead><tbody><tr><td id="d88830e132">
 
 **Add an artifact**
 
@@ -63,7 +64,7 @@ A valid semantic version has the format as major.minor.patch. For example, 5.4.2
 4.  Select **Confirm**.
  **Note:** An artifact can only be added to a release once.
 
-</td></tr><tr><td id="d451446e178">
+</td></tr><tr><td id="d88830e178">
 
 **Remove an artifact**
 
@@ -75,5 +76,5 @@ A valid semantic version has the format as major.minor.patch. For example, 5.4.2
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Manage releases for digital products and services](dpr-manage-releases.md)
+**Parent Topic:**[Manage releases for digital products and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-manage-releases.md)
 

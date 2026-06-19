@@ -2,9 +2,12 @@
 title: Deprecation information for all Zurich features and products
 description: Cumulative release notes summary on deprecation information for Zurich features and products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/rn-summary-deprecated-info.html
 release: zurich
+product: Release Notes
+classification: release-notes
 topic_type: reference
-last_updated: "2026-04-08"
+last_updated: "2026-06-12"
 reading_time_minutes: 13
 breadcrumb: [Release notes summaries for Zurich features, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
@@ -13,7 +16,7 @@ breadcrumb: [Release notes summaries for Zurich features, Release notes for upgr
 
 Cumulative release notes summary on deprecation information for Zurich features and products.
 
-For information about deprecated plugins in Zurich, refer to Plugin information[Plugin information for all features and productsPlugin information](https://www.servicenow.com/docs/r/release-notes/rn-summary-plugin-info.html)
+For information about deprecated plugins in Zurich, refer to
 
 <table id="rn-summary-accessibility-table" class="custom-rows"><thead><tr><th class="filter">
 
@@ -30,13 +33,13 @@ API
 </td><td>
 
 -   The GlideEncrypter API no longer supports Triple Data Encryption Standard \(3DES\) due to updated [NIST 800-131A Rev 2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf) guidelines.
-    -   For existing instances that upgrade to the Zurich release, the GlideEncrypter API is available for use but has been updated to automatically use the Key Management Framework algorithm. See [GlideEncrypter - Global \(deprecated\)](https://www.servicenow.com/docs/access?context=GlideEncrypterAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) for more information on how to continue calling this API.
-    -   For all new instances created starting with the Zurich release, the GlideEncrypter API is no longer supported. Directly use the [Key Management Framework](https://www.servicenow.com/docs/access?context=encryption&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) instead for all cryptography operations.
--   Dynamic groups have been removed from dynamic schema in Core Platform. For dynamic attributes defined with an associated dynamic attribute group before the Zurich release, the [GlideDynamicAttribute](https://www.servicenow.com/docs/access?context=GlideDynamicAttributeAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) getGroupName\(\) method originally designed for dynamic attribute groups continues to work for backwards compatibility.
+    -   For existing instances that upgrade to the Zurich release, the GlideEncrypter API is available for use but has been updated to automatically use the Key Management Framework algorithm. See  for more information on how to continue calling this API.
+    -   For all new instances created starting with the Zurich release, the GlideEncrypter API is no longer supported. Directly use the  instead for all cryptography operations.
+-   Dynamic groups have been removed from dynamic schema in Core Platform. For dynamic attributes defined with an associated dynamic attribute group before the Zurich release, the GlideDynamicAttribute getGroupName\(\) method originally designed for dynamic attribute groups continues to work for backwards compatibility.
 
 The getGroupName\(\) method returns null for migrated attributes and newly created attributes.
 
-Customers are urged to migrate to the current [Dynamic Attribute](https://www.servicenow.com/docs/access?context=working-with-dynamic-schema&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) definitions to take advantage of future improvements in features and functionality. For migration details, see the [Dynamic Schema Zurich Migration Guide \[KB2146133\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2146133) article in the Now Support Knowledge Base.
+Customers are urged to migrate to the current Dynamic Attribute definitions to take advantage of future improvements in features and functionality. For migration details, see the [Dynamic Schema Zurich Migration Guide \[KB2146133\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2146133) article in the Now Support Knowledge Base.
 
 
 </td></tr><tr><td>
@@ -81,7 +84,7 @@ Automation Discovery
 
 </td><td>
 
-Starting with the Zurich release, Automation Discovery has been deprecated. It will be hidden and no longer installed on new instances but will continue to be supported in this release. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. For more information about this application see [Automation Discovery](https://www.servicenow.com/docs/access?context=automation-discovery&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+Starting with the Zurich release, Automation Discovery has been deprecated. It will be hidden and no longer installed on new instances but will continue to be supported in this release. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. For more information about this application see .
 
 </td></tr><tr><td>
 
@@ -94,20 +97,12 @@ Case management for CSM
 
 </td></tr><tr><td>
 
-Classic Workflow
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
 Clone Admin Console
 
 </td><td>
 
 -   The legacy clone request page clone\_instance.DO is going to be retired in the A release.
--   Update to the latest version for the best experience and performance improvements. To update Clone Admin Console, see [Clone Admin Console](https://www.servicenow.com/docs/access?context=Clone-UI&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+-   Update to the latest version for the best experience and performance improvements. To update Clone Admin Console, see .
 
 </td></tr><tr><td>
 
@@ -149,6 +144,21 @@ Custom workflows remain supported, and you can continue to create them as needed
 
 </td></tr><tr><td>
 
+Developer Sandboxes
+
+</td><td>
+
+Data generation profiles and templates will no longer available in Developer Sandboxes as of the Brazil release. When you upgrade, the following will happen:
+
+-   All data generation metadata and non-metadata records are automatically deleted.
+-   The data generation plugin is no longer discoverable.
+-   All references to data generation will be removed from sandbox templates.
+-   Sandbox initialization will operate independently of data generation logic.
+
+**Note:** You can use the Now Assist Data Kit instead of data generation profiles.
+
+</td></tr><tr><td>
+
 Document Intelligence
 
 </td><td>
@@ -162,7 +172,7 @@ Encryption
 
 </td><td>
 
--   **[Prepare your instance for GlideEncrypter deprecation](https://www.servicenow.com/docs/access?context=check-3des&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)**
+-   ****
 
 Encrypted string keys 3DES format is no longer supported. Key Management Framework \(KMF\) is the supported format.
 
@@ -276,8 +286,8 @@ Journey designer
 
 </td><td>
 
--   Learning Posts. All Learning Posts capabilities are now integrated within Journey designer. For more information, see [Learning Posts release notes](../hr-service-delivery/learning-posts-rn.md).
--   Listening Posts. For more information, see [Listening Posts release notes](../hr-service-delivery/listening-posts-rn.md).
+-   Learning Posts. All Learning Posts capabilities are now integrated within Journey designer. For more information, see [Learning Posts release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/learning-posts-rn.md).
+-   Listening Posts. For more information, see [Listening Posts release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/listening-posts-rn.md).
 
 </td></tr><tr><td>
 
@@ -301,7 +311,7 @@ Legacy Studio
 
 </td><td>
 
-Starting with the Zurich release, Legacy Studio is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details on this process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. For more information about app development on the ServiceNow AI Platform®, see [ServiceNow Studio](https://www.servicenow.com/docs/access?context=servicenow-studio-landing&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+Starting with the Zurich release, Legacy Studio is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details on this process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. For more information about app development on the ServiceNow AI Platform®, see .
 
 </td></tr><tr><td>
 
@@ -325,7 +335,7 @@ Now Assist AI agents
 
 </td><td>
 
--   The support for manually integrating external agents has been deprecated from [Zurich Patch 8](../quality/zurich-patch-8.md) release.
+-   The support for manually integrating external agents has been deprecated from [Zurich Patch 8](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-8.md) release.
 
 </td></tr><tr><td>
 
@@ -333,7 +343,7 @@ Now Assist for IT Operations Management \(ITOM\)
 
 </td><td>
 
-In [Zurich Patch 7](../quality/zurich-patch-7.md), the Dynatrace analysis AI agent is being prepared for future deprecation. To continue getting Dynatrace insights in agentic workflows, deactivate the Dynatrace analysis AI agent and set up the Dynatrace MCP server agent. For configuration details, see [Configure the Dynatrace MCP server agent](https://www.servicenow.com/docs/access?context=now-assist-itom-config-dynatrace-mcp&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+In [Zurich Patch 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-7.md), the Dynatrace analysis AI agent is being prepared for future deprecation. To continue getting Dynatrace insights in agentic workflows, deactivate the Dynatrace analysis AI agent and set up the Dynatrace MCP server agent. For configuration details, see .
 
 </td></tr><tr><td>
 
@@ -341,7 +351,9 @@ Now Assist for IT Service Management \(ITSM\)
 
 </td><td>
 
-The Escalate IT Ticket core ITSM Virtual Agent topic is being deprecated in this release. The topic is renamed to **\(Deprecated\) Escalate IT Ticket**. This capability will be available in the Platform Request Status AI agent in a future release.
+-   Starting with the [Zurich Patch 10](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-10.md) release, the Suggested steps skill is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. This feature is being replaced with . To transition to LEAP, you must install the LEAP \(sn\_itom\_leap\) plugin. For information on the Suggested steps skill, see  and [How to get started with LEAP](https://www.servicenow.com/community/itom-articles/leap-learning-enhanced-automation-platform-how-to-get-started/ta-p/3555322).
+-   Starting with the [Zurich Patch 9](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-9.md) release, the Incident assist skill is deprecated, moved to the **Archived** folder and is no longer available for use.
+-   The Escalate IT Ticket core ITSM Virtual Agent topic is being deprecated in this release. The topic is renamed to **\(Deprecated\) Escalate IT Ticket**. This capability will be available in the Platform Request Status AI agent in a future release.
 
 </td></tr><tr><td>
 
@@ -349,8 +361,8 @@ Now Assist in Virtual Agent
 
 </td><td>
 
--   In Patch 4, **sn\_aia.use\_agents\_in\_planner** system property has been removed. The system property was used for configuring AI agent discovery behavior.
--   In Patch 4, Now Assist skills page in the assistant admin guided setup has been removed due to the skills being turned on by default.
+-   In Patch 4, the **sn\_aia.use\_agents\_in\_planner** system property has been removed. The system property was used for configuring AI agent discovery behavior.
+-   In Patch 4, the Now Assist skills page in the assistant admin guided setup has been removed due to the skills being turned on by default.
 -   In Patch 1, Bing support for the searching and scraping search result type is no longer supported when adding a web search tool in Now Assist Skill Kit.
 
 </td></tr><tr><td>
@@ -386,13 +398,13 @@ Project Portfolio Management
 
 </td><td>
 
--   **[Resource Management reports](https://www.servicenow.com/docs/access?context=c_UsingResourceManagementReports&version=zurich&pubname=zurich-it-business-management&ft:locale=en-US)**
+-   ****
 
 Starting with the Zurich release, Resource Management reports are deprecated. You can start using the interactive Overview dashboard in Resource Management Workspace to work on reporting.
 
-For more information on the Overview dashboard, see [Using Resource Management Workspace](https://www.servicenow.com/docs/access?context=using-rmw&version=zurich&pubname=zurich-it-business-management&ft:locale=en-US#section_v4k_rtg_1fc).
+For more information on the Overview dashboard, see .
 
--   **[Resource Management classic](https://www.servicenow.com/docs/access?context=c_ResourceManagement&version=zurich&pubname=zurich-it-business-management&ft:locale=en-US)**
+-   ****
 
 Starting with the Zurich release, the Resource Allocation workbench and Capacity planning overview are removed from the product navigation of Resource Management for new customers.
 
@@ -403,7 +415,7 @@ Self-service and omnichannel engagement for CSM
 
 </td><td>
 
-Starting with the Zurich release, Customer Service CTI Demo Data Plugin and CTI Softphone Plugin are no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base, [Components installed with Customer Service CTI Demo Data](https://www.servicenow.com/docs/access?context=r_InstalledWithCustServCTIDemoData&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US), and [Components installed with CTI Softphone](https://www.servicenow.com/docs/access?context=r_InstalledWithCCTISoftphone&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+Starting with the Zurich release, Customer Service CTI Demo Data Plugin and CTI Softphone Plugin are no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base, , and .
 
 </td></tr><tr><td>
 
@@ -419,7 +431,7 @@ ServiceNow AI Platform core feature
 
 </td><td>
 
-Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. Instead, [Overview of Instance Observer](https://www.servicenow.com/docs/access?context=io-overview&version=zurich&pubname=zurich-impact&ft:locale=en-US) offers a powerful solution for enhancing system performance. Contact your account manager to discover more. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. Instead,  offers a powerful solution for enhancing system performance. Contact your account manager to discover more. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 </td></tr><tr><td>
 
@@ -464,13 +476,13 @@ Virtual Agent
 
 </td><td>
 
--   Starting with the Zurich release, [Sensitive Data Handler](https://www.servicenow.com/docs/access?context=ac-sensitive-data-overview&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US) and the [Sensitive Data Masking capability](https://www.servicenow.com/docs/access?context=va-sensitive-data-masking&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US) are being prepared for future deprecation. They will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
+-   Starting with the Zurich release,  and Sensitive Data Masking capability are being prepared for future deprecation. They will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
-Install the Data Privacy application as a replacement. For more information, see [Data Privacy](https://www.servicenow.com/docs/access?context=data-privacy-landing&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+Install the Data Privacy application as a replacement. For more information, see .
 
 -   Starting with the Zurich release, Microsoft LUIS is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Zurich features](../release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Zurich features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/release-notes-summaries.md)
 

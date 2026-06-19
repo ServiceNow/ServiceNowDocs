@@ -2,6 +2,7 @@
 title: CAL - AWS Generate Credential Report subflow
 description: Subflow that lists all users in your account and the status of their various credentials, including passwords, access keys, and MFA devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-cloud-accelerate/cal-aws-generate-credential-report.html
 release: zurich
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -19,11 +20,11 @@ Subflow that lists all users in your account and the status of their various cre
 
 -   **Subscription requirements**
 
-    To use this subflow in custom flows, you must obtain an Integration Hub Enterprise subscription or an App Engine subscription. For more information, see [Request Integration Hub](https://www.servicenow.com/docs/access?context=request-ih-overview&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+    To use this subflow in custom flows, you must obtain an Integration Hub Enterprise subscription or an App Engine subscription. For more information, see Request Integration Hub.
 
 -   **Role requirements**
 
-    This subflow requires roles granted by delegated development or assigned to the user. For more information, see [User access to Flow Designer](https://www.servicenow.com/docs/access?context=user-access-flow-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+    This subflow requires roles granted by delegated development or assigned to the user. For more information, see User access to Flow Designer.
 
 
 ## Cloud permission
@@ -76,5 +77,5 @@ You can use these outputs as inputs for other subflows.
     Complex object containing all fields of the credential report.
 
 
-**Parent Topic:**[Cloud Action Library reference](cloud-action-library-reference.md)
+**Parent Topic:**[Cloud Action Library reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/cloud-action-library-reference.md)
 

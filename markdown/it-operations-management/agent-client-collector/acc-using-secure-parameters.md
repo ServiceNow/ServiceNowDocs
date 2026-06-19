@@ -2,6 +2,7 @@
 title: Secure parameters in Agent Client Collector
 description: Secure parameters in Agent Client Collector \(ACC\) refers to securely passing sensitive data, such as user names, passwords, and API keys, during check execution, without exposing the sensitive data in the command line. Parameters are passed to the script through standard input \(STDIN\), hiding them from logs or any process that might capture command-line arguments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-using-secure-parameters.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -19,7 +20,7 @@ Depending on the coding language in use, implementation of secure parameters may
 
 ## Secure parameters data flow
 
-1.  Create secure parameters: Define secure parameters in the instance, referencing credentials that need protection \(such as usernames and passwords\). For details, see [Create secure parameters for a check](../task/acc-create-secure-params.md).
+1.  Create secure parameters: Define secure parameters in the instance, referencing credentials that need protection \(such as usernames and passwords\). For details, see [Create secure parameters for a check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-create-secure-params.md).
 2.  Configure secure parameters: Set an **Order** value to determine the sequence in which credentials are passed to the standard input.
 3.  Pass credentials: Transfer credentials from the MID Server to the agent, based on the check to which they are assigned. When the check executes, the agent passes the secured parameters to the script using STDIN, in the order specified by the **Order** value configured in the instance.
 4.  Execute the check: Upon execution, the agents send the secure parameters to the script via STDIN, following the specified order.
@@ -31,5 +32,5 @@ Depending on the coding language in use, implementation of secure parameters may
 -   Prevent data exposure: When using secure parameters, the credentials are not written in plain text in the command line, avoiding the risk of them being captured in logs or process listings.
 -   Data flow control: Secure parameters enable controlled and customizable passing of credentials to the script, ensuring the correct handling and timing of sensitive information.
 
-**Parent Topic:**[Exploring Agent Client Collector Framework](exploring-agent-client-collector-framework.md)
+**Parent Topic:**[Exploring Agent Client Collector Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/exploring-agent-client-collector-framework.md)
 

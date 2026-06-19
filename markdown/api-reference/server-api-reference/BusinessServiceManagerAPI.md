@@ -2,6 +2,7 @@
 title: BusinessServiceManager - Global
 description: The BusinessServiceManager API provides methods that unify service management by converting manually-created services to application services, populating application services, and adding/removing configuration items and connections.Instantiates a BusinessServiceManager object.Adds a CI to a manually-created application service.Adds an entry point to the application service and starts discovery on the entry point.Adds a new entry point without starting discovery.Adds a manually created connection to an application service.Checks the roles of a specified user and the permissions data configured for a specified service/service group and returns a Boolean value that indicates whether the user can view the service/service group.Converts a manual service to an application service.Populates an application service with relations and CIs from the designated entry point.Removes a manually created CI from an application service.Removes an existing entry point from the application service.Removes a manually created connection and the connected CI from an application service.Updates an existing entry point in the application service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/BusinessServiceManagerAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The BusinessServiceManager API provides methods that unify service management by
 
 Use BusinessServiceManager methods in global server scripts. You must have the Application Service administrator \[app\_service\_admin\] role to call this API.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## BusinessServiceManager - BusinessServiceManager\(\)
 
@@ -205,13 +206,13 @@ Checks the roles of a specified user and the permissions data configured for a s
 
 The following defines the process flow that the method uses to determine whether the user can view the service/service group:
 
-1.  If the specified record is a service group, checks the user roles and group policy. For more information on assigned roles for service groups, see [Assign a role to a service group](https://www.servicenow.com/docs/access?context=t_EMAssignRoleSvcGroup&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+1.  If the specified record is a service group, checks the user roles and group policy. For more information on assigned roles for service groups, see .
 2.  If the roles list contains “itil” but doesn’t contain “app\_service\_admin” and “sam\_core\_user”, return true.
 3.  If the roles list contains “maint”, return true.
 4.  If the roles list contains “app\_serivce\_user” but doesn’t contain “app\_service\_admin” and “sm\_app\_owner”, and the service isn’t operational, return false.
 5.  Check the group of the service.
     1.  If the service belongs to a single group, and the group is “all”, return true.
-    2.  For any non “all” group, checks the policy for user roles and group based on the rules specified in [Assign a role to a service group](https://www.servicenow.com/docs/access?context=t_EMAssignRoleSvcGroup&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US). If any of them returns true, return true.
+    2.  For any non “all” group, checks the policy for user roles and group based on the rules specified in . If any of them returns true, return true.
 
 <table id="table_snj_253_kyb" class="parameters"><thead><tr><th>
 

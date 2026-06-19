@@ -2,6 +2,7 @@
 title: Linking, delinking, and link conversion conditions
 description: Several conditions can enable or disable you from linking, delinking, and hard or soft-linking records in Lead-to-Cash Process Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/conditions-link-delink-toggle-records.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -46,5 +47,5 @@ Hard links cannot be converted to soft links if they meet the following conditio
 
 Soft links can be converted to hard links only if the source node has at least one hard-linked record.
 
-**Parent Topic:**[Using Lead-to-Cash Process Management](using-lead-cash-process-management.md)
+**Parent Topic:**[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/using-lead-cash-process-management.md)
 

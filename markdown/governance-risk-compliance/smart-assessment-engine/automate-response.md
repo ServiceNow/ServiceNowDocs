@@ -2,6 +2,7 @@
 title: Automate response
 description: Set up default responses for questions so that assessors can complete assessments quickly and provide quality results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/smart-assessment-engine/automate-response.html
 release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -37,8 +38,8 @@ Response automation aims to make the assessment process efficient by reducing ma
     -   Generate dynamic default responses based on other questions, creating real-time adaptability.
     -   Query tables to fetch specific data and incorporate it into the response, confirming relevant information is included.
     -   Set up conditions within the script to handle different scenarios, enabling complex and dynamic automation workflows.
-    ![Setting up a default response for a question using a script.](../image/automate-response-script.png)
+    \[Omitted image "automate-response-script.png"\] Alt text: Setting up a default response for a question using a script.
 
 
-When setting up the automated response, you can use if-then conditions to build the required criteria for the response. For more information, see [Configure an automatic response for a question](../task/configure-automatic-response-for-a-question.md).
+When setting up the automated response, you can use if-then conditions to build the required criteria for the response. For more information, see [Configure an automatic response for a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/configure-automatic-response-for-a-question.md).
 

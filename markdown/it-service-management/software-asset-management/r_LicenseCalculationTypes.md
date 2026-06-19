@@ -2,6 +2,7 @@
 title: License calculation types supported by the legacy Software Asset Management plugin
 description: Default license calculation types are available with the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/software-asset-management/r\_LicenseCalculationTypes.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -42,7 +43,7 @@ By number of points
 
 **Per installation - IBM PVU**: The counter adds up the total license rights for all software license records of this model. The installation count for every hardware configuration item that has IBM PVU software is a point calculation. The CPU type determines the PVU per-core multiplier based on the IBM PVU mapping table. The total number of cores on the configuration item is multiplied with this per-core multiplier to determine how many rights are used by an installation on this configuration item. For that installation, the counter checks for a valid entitlement record on any of the software license records. Applies to software installation data and hardware configuration items.
 
- This license type is present but does not work until the Software Asset Management plugin [IBM PVU Process Pack](../concept/c_IBMPVUProcessPack.md) is active.
+ This license type is present but does not work until the Software Asset Management plugin [IBM PVU Process Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management/c_IBMPVUProcessPack.md) is active.
 
 </td></tr><tr><td>
 
@@ -99,5 +100,5 @@ By Oracle install
  This category and its license types are available when the Oracle Process Pack is activated.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[License calculations with the legacy Software Asset Management plugin](../concept/c_UseLicenseCalculations.md)
+</table>**Parent Topic:**[License calculations with the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management/c_UseLicenseCalculations.md)
 

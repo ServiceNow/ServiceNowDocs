@@ -2,6 +2,7 @@
 title: Create a learning path in Workforce Optimization for ITSM
 description: Create a learning path, add relevant skills and course items, and publish the path. When your agents complete the path, any skills associated with the path are automatically added to the agent's profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/create-learning-path-wfo-itsm.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -19,13 +20,13 @@ Create a learning path, add relevant skills and course items, and publish the pa
 
 Role required: sn\_wfo\_cfg\_ws.manager​
 
-This video walks you through the steps for creating a learning path.Create a learning path
+This video walks you through the steps for creating a learning path.
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Select the Coaching icon \(![Coaching icon](../image/coaching-icon-uib.png)\).
+2.  Select the Coaching icon \(\[Omitted image "coaching-icon-uib.png"\] Alt text: Coaching icon\).
 
 3.  Select the **Learning** tab.
 
@@ -43,7 +44,7 @@ This video walks you through the steps for creating a learning path.Create a lea
     1.  In the **Path name** field, enter a unique name for the learning path.
     2.  In the **Course Catalog** field, select the catalog to which you want to associate the learning path.
 
-        **Important:** You can customize the publish flow for any catalog other than the **Default Catalog**. For information on publish flow, see [Create a course catalog](https://www.servicenow.com/docs/access?context=create-course-catalog&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US) and the [Course catalog form](https://www.servicenow.com/docs/access?context=course-catalog-table&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+        **Important:** You can customize the publish flow for any catalog other than the **Default Catalog**. For information on publish flow, see Create a course catalog and the Course catalog form.
 
     3.  Select **Next**.
     The learning path that is created is in **Draft** state. You can choose to complete it later.
@@ -82,5 +83,5 @@ This video walks you through the steps for creating a learning path.Create a lea
     The learning path is published based on the Publish flow.
 
 
-**Parent Topic:**[Learning in Workforce Optimization for ITSM](../concept/workforce-learning-configurable-wfo-itsm.md)
+**Parent Topic:**[Learning in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/workforce-learning-configurable-wfo-itsm.md)
 

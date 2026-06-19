@@ -2,6 +2,7 @@
 title: Schedule the Netskope DLP incidents retrieval
 description: Set a schedule to retrieve Netskope DLP incidents that match the criteria in the profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/data-loss-prevention/schedule-netskope-dlp-alerts-retrieval.html
 release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -121,5 +122,5 @@ Date from when data is fetched from Netskope.**Note:** At most the last 30 days 
 
 After the successful creation activation of the profile, incidents will be fetched periodically as per the configuration set in the profile. The incidents will be added into the DLP incidents table.
 
-**Parent Topic:**[Create a Profile for Netskope DLP integration](create-profile-netskope-dlp-integration.md)
+**Parent Topic:**[Create a Profile for Netskope DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/create-profile-netskope-dlp-integration.md)
 

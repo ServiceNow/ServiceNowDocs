@@ -2,6 +2,7 @@
 title: Question option form
 description: Description of the field values in the Question option form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/question-option-form.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core

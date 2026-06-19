@@ -2,6 +2,7 @@
 title: Configure risk assessment
 description: Configure the risk assessment to automatically evaluate conflict of interest disclosures and assign risk levels that determine approval routing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-conflict-of-interest/lsd-coi-config-risk-fac.html
 release: zurich
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
@@ -31,7 +32,7 @@ COI Risk Assessment is available in the base system to evaluate the COI requests
 
 1.  Set the application scope to **Global** or **Legal and Contracts Common Utilities** in the application picker.
 
-    ![Set application scope to Global or Legal and Contract Common Utilities](../image/lsd-coi-application-picker.png)
+    \[Omitted image "lsd-coi-application-picker.png"\] Alt text: Set application scope to Global or Legal and Contract Common Utilities
 
 2.  Navigate to **All** &gt; **Legal and Contracts Common Utilities** &gt; **Risk Assessment**.
 
@@ -56,10 +57,10 @@ COI Risk Assessment is available in the base system to evaluate the COI requests
 
 ## What to do next
 
-Add risk factors to define the criteria the risk assessment functionality evaluates a request. For more information, see [Configure risk factors](lsd-coi-config-rsk-factors.md).
+Add risk factors to define the criteria the risk assessment functionality evaluates a request. For more information, see [Configure risk factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-conflict-of-interest/lsd-coi-config-rsk-factors.md).
 
--   **[Configure risk factors](lsd-coi-config-rsk-factors.md)**  
+-   **[Configure risk factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-conflict-of-interest/lsd-coi-config-rsk-factors.md)**  
 Configure risk factors to define the criteria the risk assessment functionality evaluates a request. Each risk factor uses one of three evaluation types: Condition, Skill, or Subflow.
 
-**Parent Topic:**[Configure Legal Conflict of Interest](../concept/legal-coi-administration.md)
+**Parent Topic:**[Configure Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-conflict-of-interest/legal-coi-administration.md)
 

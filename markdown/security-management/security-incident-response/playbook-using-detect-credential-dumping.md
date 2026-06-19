@@ -2,12 +2,13 @@
 title: Use the T1003 - Detect Credential Dumping Tools playbook
 description: Use this playbook to investigate an incident involving credential dumping activities. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the T1003 - Detect Credential Dumping Tools playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/playbook-using-detect-credential-dumping.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Playbook for T1003 - Detect Credential Dumping Tools, Flow-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -43,8 +44,6 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
 4.  In Action 6, based on the investigation done so far, you need to check whether this is a possible case of insider threat or not.
 
-    ![Response tasks to investigate if is this a possible case of insider threat.](../image/playbook-credential-dump-insider.png "T1003 - Detect Credential Dumping Tools playbook")
-
 5.  In Action 7, if this is a case of insider threat, perform the following actions:
 
     1.  In Action 8, you need to contact IT support and request an account freeze.
@@ -59,8 +58,6 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
         The flow ends.
 
-        ![Response tasks to lift the containment and bring systems back to operational standards.](../image/playbook-credential-dump-contain.png "Response tasks to lift the containment")
-
 6.  In Action 12, if this isn't a case of insider threat, then in Action 13, you need to perform a peer review to determine if this needs to be added to the exclusion list.
 
     The flow ends.
@@ -68,5 +65,5 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 7.  In Action 14, a response task is created to complete the post-incident review before closing the task.
 
 
-**Parent Topic:**[Playbook for T1003 - Detect Credential Dumping Tools](../concept/playbook-detect-credential-dumping-tools.md)
+**Parent Topic:**[Playbook for T1003 - Detect Credential Dumping Tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/playbook-detect-credential-dumping-tools.md)
 

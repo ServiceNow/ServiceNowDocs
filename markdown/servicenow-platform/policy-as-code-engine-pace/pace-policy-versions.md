@@ -2,6 +2,7 @@
 title: Manage PaCE policy versions
 description: PaCE policy versions contain the actual policy script, as well as API Variable and Config Parameter definitions used for validating policies. Each policy can have many versions, each of which can be easily managed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/policy-as-code-engine-pace/pace-policy-versions.html
 release: zurich
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

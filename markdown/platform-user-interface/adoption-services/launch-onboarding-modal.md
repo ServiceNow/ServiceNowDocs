@@ -2,6 +2,7 @@
 title: Launch Onboarding modals
 description: Configure programmatic triggers to launch Onboarding modals when to access specific pages or perform certain actions on their instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/launch-onboarding-modal.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
@@ -64,5 +65,5 @@ The onboarding modal is configured to launch when users access the specified pag
 
 Test the modal launch by accessing the page as a user with the appropriate role assignment. Verify that all guidance steps display correctly and navigation options function as expected.
 
-**Parent Topic:**[Configure](../concept/configure-onboarding-modals.md)
+**Parent Topic:**[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/configure-onboarding-modals.md)
 

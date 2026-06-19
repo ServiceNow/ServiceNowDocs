@@ -2,6 +2,7 @@
 title: sb - Scoped, Global
 description: The sb script include provides methods that enable you to perform operations on Service Exchange configuration records.Validates that the specified GlideRecord is a valid Service Exchange configuration record and verifies that the record is in the "inactive" state. If this validation passes, archives the specified configuration record, leaving all other versions of the same configuration record untouched.Validates that the specified GlideRecord is a valid Service Exchange configuration record and verifies that the record is in the "published" state. If this validation passes, creates a new version of the specified configuration record and sets the state field to "draft".Validates that the specified GlideRecord is a valid Service Exchange configuration record and verifies that the record is in the "draft" state. If this validation passes, publishes the draft version of the configuration record.Validates that the specified GlideRecord is a valid Service Exchange configuration record and verifies that the record is in a valid state. If this validation passes, retires the specified version of the configuration record along with all other revisions of that same configuration record. Populates virtual fields in a task table on a target instance when using Service Exchange remote tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/PSBPublicAPIUtilBoth.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -30,7 +31,7 @@ You can perform any of the following Service Exchange operations on these config
 -   Retire: Retires all versions of a specified configuration record and makes them unavailable to customers.
 -   Update virtual field: Populates virtual fields in a task table on a target instance when using Service Exchange remote tasks.
 
-For additional information on Service Exchange configuration records, see [Create configuration revisions](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-config-rev&version=zurich&pubname=zurich-service-bridge&ft:locale=en-US).
+For additional information on Service Exchange configuration records, see .
 
 To access this API, the Service Exchange for Providers application \(sn\_sb\_pro\) and the Service Exchange Base \(sn\_sb\) plugins must be installed on your instance.
 
@@ -54,13 +55,13 @@ global.sb.archive(glideRecord);
 global.sb.retire(glideRecord);
 ```
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## sb - archive\(glideRecord\)
 
 Validates that the specified GlideRecord is a valid Service Exchange configuration record and verifies that the record is in the "inactive" state. If this validation passes, archives the specified configuration record, leaving all other versions of the same configuration record untouched.
 
-For additional information on configuration revisions and their associated states, see [Create configuration revisions](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-config-rev&version=zurich&pubname=zurich-service-bridge&ft:locale=en-US).
+For additional information on configuration revisions and their associated states, see .
 
 <table id="table_wlx_2cn_zbc" class="parameters"><thead><tr><th>
 
@@ -242,7 +243,7 @@ var isExecuted = sb.publish(grConfig);
 
 Validates that the specified GlideRecord is a valid Service Exchange configuration record and verifies that the record is in a valid state. If this validation passes, retires the specified version of the configuration record along with all other revisions of that same configuration record.
 
-For additional information on configuration revisions and their associated states, see [Create configuration revisions](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-config-rev&version=zurich&pubname=zurich-service-bridge&ft:locale=en-US).
+For additional information on configuration revisions and their associated states, see .
 
 <table id="table_kqj_hcn_zbc" class="parameters"><thead><tr><th>
 
@@ -305,7 +306,7 @@ var isExecuted = sb.retire(grConfig);
 
 Populates virtual fields in a task table on a target instance when using Service Exchange remote tasks.
 
-A virtual field is a field that exists in a target task table but doesn’t exist in the source task table. You use this method to pass the values for a virtual field from the source instance to the target instance. This method stores the specified values for the virtual field as JSON in the form section of the specified [remote task](https://www.servicenow.com/docs/access?context=service-bridge-v2-remote-task-overview&version=zurich&pubname=zurich-service-bridge&ft:locale=en-US). This remote task is then synced to the target instance where the values are stored in the mapped field in the target task table.
+A virtual field is a field that exists in a target task table but doesn’t exist in the source task table. You use this method to pass the values for a virtual field from the source instance to the target instance. This method stores the specified values for the virtual field as JSON in the form section of the specified remote task. This remote task is then synced to the target instance where the values are stored in the mapped field in the target task table.
 
 Virtual fields are defined in remote task definitions. Remote task definitions contain inbound and outbound mapping tables that map fields between task tables in source and target instances. When a source table doesn’t contain a field that exists on a target table, the field is configured in the remote task definition as a virtual field. The consumer can then use either Service Exchange transforms or this method to update the values of these virtual fields in the associated target task record.
 
@@ -326,9 +327,9 @@ The following section describes an example use case on how to implement virtual 
 
 6.  The remote task is synced to the provider instance and creates a Case record on the provider instance.
 
-For information on how to create a remote task definition, see [Create a remote task definition in Service Exchange for Providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-remote-tasks-defs&version=zurich&pubname=zurich-service-bridge&ft:locale=en-US).
+For information on how to create a remote task definition, see .
 
-For information on how to create a Service Exchange transform, see [Transform data with the Service Exchange transform framework](https://www.servicenow.com/docs/access?context=service-bridge-v2-transform-about&version=zurich&pubname=zurich-service-bridge&ft:locale=en-US).
+For information on how to create a Service Exchange transform, see .
 
 **Warning:** You should only call this method in a before business rule as it updates the remote task that it is called on. If you call this method in an after business rule, you must include strict conditions that prevent the update of the virtual field on the remote task from triggering the business rule as this can cause an infinite loop.
 

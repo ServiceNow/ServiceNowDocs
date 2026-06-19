@@ -2,6 +2,7 @@
 title: Report a risk event from an incident
 description: If risk event integration is configured, users can report risk events from any upstream application such as IT Incidents. This ability to report risk events saves the time of users and helps to prevent losses for organizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/report-risk-event-from-incident.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -27,7 +28,7 @@ Role required: sn\_risk.user
 
 3.  Select **Report Risk Event**.
 
-    The availability of the **Report Risk Event** button on the incident record is determined by the filter conditions specified in the Risk Event Integration Configuration record. For more information, see [Configure risk event integration](configure-risk-event-integration.md).
+    The availability of the **Report Risk Event** button on the incident record is determined by the filter conditions specified in the Risk Event Integration Configuration record. For more information, see [Configure risk event integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/configure-risk-event-integration.md).
 
 4.  On the form, fill in the fields.
 
@@ -116,5 +117,5 @@ A brief description of the incident.
 
 The risk event is created.
 
-**Parent Topic:**[Use Risk Events](../concept/use-risk-events.md)
+**Parent Topic:**[Use Risk Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/use-risk-events.md)
 

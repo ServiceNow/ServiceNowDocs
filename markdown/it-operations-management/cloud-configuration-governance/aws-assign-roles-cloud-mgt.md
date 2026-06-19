@@ -2,6 +2,7 @@
 title: Assign roles to AWS users of Cloud Provisioning and Governance
 description: You assign Cloud Provisioning and Governance roles to user groups and to individual users based on user activities and responsibilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/aws-assign-roles-cloud-mgt.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -173,7 +174,7 @@ Grants admin access to any group that you belong to.
 **Related topics**  
 
 
-[Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+[bundle-platadm.t_AssignRoleToGroup]
 
-[Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+[bundle-platadm.t_AssignARoleToAUser]
 

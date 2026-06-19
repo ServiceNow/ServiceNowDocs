@@ -2,6 +2,7 @@
 title: ACL rule types
 description: Create ACL rules on different components of the system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/acl-rule-types.html
 release: zurich
 product: Access Control
 classification: access-control
@@ -179,7 +180,7 @@ This processing order ensures that users gain access to more specific objects be
 -   If a user fails a table ACL rule, the user is denied access to all fields in the table, even if the user passes a field ACL rule.
 -   If a user passes a table ACL rule, but fails a field ACL rule, the user cannot access the field described by the field ACL rule.
 
-![ACL matching](../image/acl-matching.png "ACL matching")
+\[Omitted image "acl-matching.png"\] Alt text: ACL matching
 
 ## Processor ACL rules
 

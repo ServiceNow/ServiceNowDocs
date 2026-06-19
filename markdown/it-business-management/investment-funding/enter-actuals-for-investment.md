@@ -2,6 +2,7 @@
 title: Enter actual spends for an investment
 description: Enter actual spends for your investments to track fund utilization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/investment-funding/enter-actuals-for-investment.html
 release: zurich
 product: Investment Funding
 classification: investment-funding
@@ -47,7 +48,7 @@ Actual cost incurred for projects or demands will be summed up and displayed in 
 
 5.  In the Request Funds list, specify the actual amount spent under the **Actual CapEx** and **Actual OpEx** columns for your investments.
 
-    **Note:** If you do not see the **Actual CapEx** and **Actual OpEx** columns in the list, click the configuration icon \(![Configuration](../../planning-and-policy/image/configuration-icon.png)\) and select them.
+    **Note:** If you do not see the **Actual CapEx** and **Actual OpEx** columns in the list, click the configuration icon \(\[Omitted image "configuration-icon.png"\] Alt text: Configuration\) and select them.
 
 
 ## Result
@@ -55,5 +56,5 @@ Actual cost incurred for projects or demands will be summed up and displayed in 
 -   The entered amount is updated as actual funds spent through the investment.
 -   The amount rolls-up to its parent investment, which in turn rolls-up until the top-level investment.
 
-**Parent Topic:**[Investment Funding](../concept/investment-funding-overview.md)
+**Parent Topic:**[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/investment-funding-overview.md)
 

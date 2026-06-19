@@ -2,6 +2,7 @@
 title: Add a task in a legal matter through Mobile Agent
 description: Add a task in a legal matter or a phase of the matter that you or another user should perform to resolve the matter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-mobile/add-tasks-to-matter-mobile.html
 release: zurich
 product: Legal Mobile
 classification: legal-mobile
@@ -29,7 +30,7 @@ Role required: sn\_lg\_matter.matter\_fulfiller
 
 4.  Open a phase in which you want to add a task.
 
-5.  Tap the actions icon \(![Actions icon.](../image/action-icon.png)\) and select the **Create Task** option.
+5.  Tap the actions icon \(\[Omitted image "action-icon.png"\] Alt text: Actions icon.\) and select the **Create Task** option.
 
 6.  On the form, fill in the fields.
 
@@ -84,7 +85,7 @@ Short description
 Short description to specify the expected activities and output involved in completing the task.
 
 </td></tr></tbody>
-</table>7.  Tap the submit icon \(![Submit icon](../image/submit-icon.png)\).
+</table>7.  Tap the submit icon \(\[Omitted image "submit-icon.png"\] Alt text: Submit icon\).
 
 8.  Create a checklist to complete all the items necessary to fulfill the task.
 
@@ -92,7 +93,7 @@ Short description to specify the expected activities and output involved in comp
 
     2.  In the **Add Item** field, enter the checklist item description.
 
-    3.  Tap the submit icon \(![Submit icon.](../image/submit-icon.png)\).
+    3.  Tap the submit icon \(\[Omitted image "submit-icon.png"\] Alt text: Submit icon.\).
 
     4.  Continue to add checklist items for the necessary actions to handle the task.
 

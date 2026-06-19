@@ -2,6 +2,7 @@
 title: Administering data ingestion and model alignment with API Insights
 description: The Overview tab in the API Insights workspace provides a centralized view of data ingestion activities and integration health.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/api-insights/api-insights-overview-page-cmdb-admin.html
 release: zurich
 product: API Insights
 classification: api-insights
@@ -15,7 +16,7 @@ breadcrumb: [Administer and monitor API data, API Insights, Configuration Manage
 
 The Overview tab in the API Insights workspace provides a centralized view of data ingestion activities and integration health.
 
-![API Insights Overview tab for CMDB administrators.](../image/api-insights-overview-cmdb-admin.png)
+\[Omitted image "api-insights-overview-cmdb-admin.png"\] Alt text: API Insights Overview tab for CMDB administrators.
 
 ## Access the API Insights Overview tab
 
@@ -31,7 +32,7 @@ CMDB administrators can access the Overview tab within the API Insights workspac
 
 Access the various cards on the Overview tab to gain insights on the API data available in your organization.
 
-**Note:** Select a segment or count on a chart to open the KPI Details page and analyze how a specific metric trends over time. To learn more about the KPI Details feature, see [KPI Details](https://www.servicenow.com/docs/access?context=kpi-details&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+**Note:** Select a segment or count on a chart to open the KPI Details page and analyze how a specific metric trends over time. To learn more about the KPI Details feature, see .
 
 <table id="table_cnz_34b_mfc"><thead><tr><th>
 
@@ -84,7 +85,7 @@ API clustering recommendations
 
 </td><td>
 
-Number representing the current clustering recommendation, based on the data model recommendation settings.See [Configure data model recommendations for API clustering in API Insights](../task/api-insights-config-dm.md).
+Number representing the current clustering recommendation, based on the data model recommendation settings.See [Configure data model recommendations for API clustering in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/api-insights/api-insights-config-dm.md).
 
 </td><td>
 
@@ -144,7 +145,7 @@ APIs by ownership group
 
 </td><td>
 
-Total count of APIs categorized by assigned ownership group. Groups APIs by managing team or function, as defined by an enterprise architect administrator with the sn\_api\_insights\_ws.api\_mgmt\_architect\_admin role in settings. For more information on setting an ownership group, see [Configure settings to manage APIs in API Insights](../task/api-insights-config-settings.md).
+Total count of APIs categorized by assigned ownership group. Groups APIs by managing team or function, as defined by an enterprise architect administrator with the sn\_api\_insights\_ws.api\_mgmt\_architect\_admin role in settings. For more information on setting an ownership group, see [Configure settings to manage APIs in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/api-insights/api-insights-config-settings.md).
 
 </td><td>
 
@@ -173,7 +174,7 @@ Between 10% and 50% of APIs are missing the attribute.
 Less than 10% of APIs are missing the attribute.
 
 
-Use the visual indicator to prioritize remediation efforts based on data completeness. Select a bar in the bar chart to start the remediation process. See [Identifying and remediating missing API data in API Insights](api-insights-resolve-gaps.md#).
+Use the visual indicator to prioritize remediation efforts based on data completeness. Select a bar in the bar chart to start the remediation process. See [Identifying and remediating missing API data in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/api-insights/api-insights-resolve-gaps.md).
 
 </td><td>
 

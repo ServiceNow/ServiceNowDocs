@@ -2,6 +2,7 @@
 title: MFA metrics
 description: FAQ related to understanding the MFA metrics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/faq-familiar-with-mfa.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -19,7 +20,7 @@ FAQ related to understanding the MFA metrics.
 
     You can navigate to **Security Center** &gt; **Security Console** &gt; **Security Metrics**. Under metrics for users click on local login not protected by MFA.
 
-    ![MFA Metrics](../images/mfa-metrics-page.png)
+    \[Omitted image "mfa-metrics-page.png"\] Alt text: MFA Metrics
 
 2.  How can I check the number of users who still need to complete the MFA setup and are performing local login?
 

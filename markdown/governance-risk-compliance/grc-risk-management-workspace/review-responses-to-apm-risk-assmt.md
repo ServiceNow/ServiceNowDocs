@@ -2,6 +2,7 @@
 title: Review responses and perform inherent risk assessment
 description: Compute the overall risk score for an application by performing an advanced risk assessment. After the IT application owner responds to the questionnaire, a risk manager reviews the responses and performs the inherent assessment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/review-responses-to-apm-risk-assmt.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -49,7 +50,7 @@ Some of the factors or questions on the risk assessment instance might already h
 
         The risk assessment instance link is created.
 
-    To understand the risk assessment process and how to respond to questions, refer to [Understanding the risk assessment instance](../concept/understanding-risk-assessment-instance.md).
+    To understand the risk assessment process and how to respond to questions, refer to [Understanding the risk assessment instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/understanding-risk-assessment-instance.md).
 
 4.  Click the risk assessment instance link that is generated.
 
@@ -66,7 +67,7 @@ The approver selected in the Risk Identification Configuration form can review t
 
 ## What to do next
 
-[Associate risks, citations, policies, and controls with a risk identification record](associate-risks-pols-citations-risk-idenfn.md).
+[Associate risks, citations, policies, and controls with a risk identification record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/associate-risks-pols-citations-risk-idenfn.md).
 
-**Parent Topic:**[Application risk assessment using Advanced Risk Assessment](../concept/risk-and-apm-better-together.md)
+**Parent Topic:**[Application risk assessment using Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/risk-and-apm-better-together.md)
 

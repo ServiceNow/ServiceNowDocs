@@ -2,6 +2,7 @@
 title: Exploring Knowledge Graph
 description: Knowledge Graph provides a connected representation of data that maps entities and their relationships, adding context and meaning to information to enable intelligent search, insights, and AI-driven experiences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/knowledge-graph/exploring-knowledge-graph.html
 release: zurich
 product: Knowledge Graph
 classification: knowledge-graph
@@ -23,7 +24,7 @@ By linking data and embedding semantic meaning, ServiceNow Knowledge Graph trans
 
 ServiceNow Knowledge Graph application:
 
-1.  Natural language queries: Allow users to query structured ServiceNow data conversationally—for example, “Who is my manager?”, “What’s the status of my incident?”, or “What assets are assigned to me.” For more examples, see [Natural language queries use cases and examples](natural-language-queries-example-usecases.md)
+1.  Natural language queries: Allow users to query structured ServiceNow data conversationally—for example, “Who is my manager?”, “What’s the status of my incident?”, or “What assets are assigned to me.” For more examples, see [Natural language queries use cases and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/knowledge-graph/natural-language-queries-example-usecases.md)
 2.  User context: Provide Now Assist Virtual Agent and AI Agents with contextual information such as role, department, or location to deliver personalized and relevant responses.
 3.  Slot-filling: Simplify user interactions by automatically populating known information in forms or chat requests, reducing effort and friction.
 4.  Smarter AI Agents: Empower agents to retrieve insights, facts, and relationships directly from the knowledge graph to automate actions and improve accuracy.
@@ -75,13 +76,13 @@ In this release, the available prebuilt integrations are:
 |Customizable Knowledge Graph schema|Provides an option to copy the ServiceNow Knowledge Graph schemas for customization.|kg\_admin|
 |Test a Knowledge Graph schema|Provides an option to test a Knowledge Graph schema by running a query.|kg\_admin|
 |Use Workflow Data Fabric to retrieve information without saving or copying them from the source entity. This ensures efficiency and security.|Leverage Workflow Data Fabric tables in Knowledge Graph to retrieve data.|Requester|
-|Create a Knowledge Graph schema with Workflow Data Fabric tables.|To create and manage Workflow Data Fabric tables, see[Managing data fabric tables in Workflow Data Fabric Hub](https://www.servicenow.com/docs/access?context=managing-data-fabric-tables-wdf&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)|kg\_admin|
+|Create a Knowledge Graph schema with Workflow Data Fabric tables.|To create and manage Workflow Data Fabric tables, see|kg\_admin|
 
 ## What to explore next
 
 To learn more about configuring and using Knowledge Graph, see:
 
--   [Configuring Knowledge Graph](../Task/configuring-knowledge-graph.md)
--   [Using Knowledge Graph Designer](../Task/using-knowledge-graph-designer.md)
--   [Reference for Knowledge Graph](../Reference/reference-for-knowledge-graph.md)
+-   [Configuring Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/knowledge-graph/configuring-knowledge-graph.md)
+-   [Using Knowledge Graph Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/knowledge-graph/using-knowledge-graph-designer.md)
+-   [Reference for Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/knowledge-graph/reference-for-knowledge-graph.md)
 

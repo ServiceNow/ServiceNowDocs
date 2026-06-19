@@ -2,6 +2,7 @@
 title: Use the Dynamic Service method to populate application services
 description: The Dynamic Service method for populating an application service generates a dynamic application service. A dynamic application service automatically updates to reflect any changes to CI relationships in the CMDB CI Relationship \[cmdb\_rel\_ci\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-service.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -17,11 +18,11 @@ The Dynamic Service method for populating an application service generates a dyn
 
 ## Before you begin
 
-The Dynamic Service is one of several methods for populating an application service with CIs. Choosing a method for populating an application service, is only one step of the generic procedure for creating an application service. Ensure that you have completed the initial steps as described in [Create an application service](../../service-mapping/task/create-it-services.md). The procedure described here is incomplete by itself as it complements that generic procedure.
+The Dynamic Service is one of several methods for populating an application service with CIs. Choosing a method for populating an application service, is only one step of the generic procedure for creating an application service. Ensure that you have completed the initial steps as described in [Create an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/create-it-services.md). The procedure described here is incomplete by itself as it complements that generic procedure.
 
 New dynamic application services initially don't contain any CIs \(unless they were converted from legacy business services or legacy manual services\). Dynamic application services are automatically populated when CIs that are contained in the service, get connected to other CIs by CMDB relationships. Entry points are automatically created when a relationship between a dynamic application service CI and other CIs is created.
 
-For information about the different types of application services and the different methods you can use to populate application services, including Dynamic Service, see [Application services](../concept/application-services.md).
+For information about the different types of application services and the different methods you can use to populate application services, including Dynamic Service, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/application-services.md).
 
 Role required: app\_service\_admin
 
@@ -42,5 +43,5 @@ Role required: app\_service\_admin
 
 ## What to do next
 
-Complete the generic procedure [Create an application service](../../service-mapping/task/create-it-services.md).
+Complete the generic procedure [Create an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).
 

@@ -2,6 +2,7 @@
 title: Example: Binding alerts to non-host CIs
 description: Bind alerts to an application service \(a non-host CI\) using event rules and event field mapping. This example demonstrates how to achieve this by leveraging the IP address associated with the service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/t\_EMBindServiceCI.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -28,7 +29,7 @@ To achieve this, follow these steps:
 1.  Match the correct Application Service: Override the default binding and select **Binding Type** as **CI field matching**. The binding process needs to associate the alert with an Application Service, not a host. In the event rule, set the **CI Type** to **Application Service** so that the system searches for the service in the Application Service table \(cmdb\_ci\_service\_auto\).
 2.  Extract the IP address from the event description: The event might contain a message like `Service is down. IP address is: 196.1.1.24`. You need to extract the IP address from this description for further processing.
 
-    ![Extract IP address from the Description field.](../image/em-example-event-msg.png)
+    \[Omitted image "em-example-event-msg.png"\] Alt text: Extract IP address from the Description field.
 
 3.  Translate the IP address into a service name using Event Field Mapping: Use Event Field Mapping to look up the extracted IP address in the CMDB and find the associated application service. Once a matching service is found, its name is stored in the **Name** field of the event.
 4.  Bind the alert to the correct Application Service: If the service name is identified, the alert's CI is populated with that service.
@@ -54,7 +55,7 @@ To achieve this, follow these steps:
     1.  Select the **Override default binding** check box.
     2.  In the **Binding type** field, select **CI field matching**.
     3.  From the **CI type** list, select **Application Service**.
-    ![In the Binding tab, the CI type is selected as Application Service.](../image/em-example-binding-ci-type.png)
+    \[Omitted image "em-example-binding-ci-type.png"\] Alt text: In the Binding tab, the CI type is selected as Application Service.
 
 7.  Select the **Transform and Compose Alert Output** tab.
 
@@ -66,7 +67,7 @@ To achieve this, follow these steps:
 
         When an event is processed, it often comes with multiple fields of information. The **Node** field typically contains the host or device name. However, since the goal is to bind the alert to an Application Service rather than a host, clearing the **Node** field ensures that the system focuses on identifying the correct service instead of mistakenly associating the alert with a host CI.
 
-        ![Clear the Node field.](../image/em-example-clear-node.png)
+        \[Omitted image "em-example-clear-node.png"\] Alt text: Clear the Node field.
 
     2.  Under **Event Input** &gt; **Event Raw Info**, select **Description**.
 
@@ -74,7 +75,7 @@ To achieve this, follow these steps:
 
     3.  In the Mark Expressions section, select the IP address, manually enter a field name \(e.g., service\_ip\_address\), and press Enter to save it.
 
-        ![A field is created manually to store the IP address.](../image/em-example-regex-field.png)
+        \[Omitted image "em-example-regex-field.png"\] Alt text: A field is created manually to store the IP address.
 
     4.  Select **Done**.
 
@@ -92,7 +93,7 @@ To achieve this, follow these steps:
 
 12. Perform the following:
 
-    ![Configure the extracted IP address to map it to the corresponding service name.](../image/em-example-event-field-mapping.png)
+    \[Omitted image "em-example-event-field-mapping.png"\] Alt text: Configure the extracted IP address to map it to the corresponding service name.
 
 <table id="table_ljx_hw1_q2c"><thead><tr><th>
 
@@ -167,6 +168,6 @@ Corp E-mail
 
     The system extracts the IP address of the service from the event and stores it in the **service\_ip\_address** field. Since the Application Service table \(cmdb\_ci\_service\_auto\) does not have a column for searching by IP address, the Transform value pairs feature is used to map the IP address to a name—in this case, Corp E-mail and and saves it in the **name** field within the **Additional info** field of the alert. The **Target field** specifies where to search for the Corp E-mail in the Application Service table. The system looks for Corp E-mail in the **name** column of the Application Service table \(cmdb\_ci\_service\_auto\). If a match is found, the alert is bound to the corresponding Application Service.
 
-    ![Binds alerts to service.](../image/em-example-result.png)
+    \[Omitted image "em-example-result.png"\] Alt text: Binds alerts to service.
 
 

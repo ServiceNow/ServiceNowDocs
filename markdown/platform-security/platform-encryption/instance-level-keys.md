@@ -2,6 +2,7 @@
 title: Instance level keys in the Key Management Framework
 description: Learn about the Key Management Framework \(KMF\) key structure, which uses envelope encryption to ensure that all platform keys under KMF management are protected through a chain of keys. Customer Data Encryption Keys \(CDEKs\) created by KMF are also included in this structure
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/platform-encryption/instance-level-keys.html
 release: zurich
 product: Platform Encryption
 classification: platform-encryption
@@ -25,7 +26,7 @@ The KMF key structure uses the SafeNet KeySecure Hardware Security Module \(HSM\
 
 Envelope encryption is the practice of encrypting a key with another key, also referred to as wrapping. Module keys are envelope encrypted by the Instance Key Encryption Key \(IKEK\), which in turn is envelope encrypted by the Instance Root Key \(IRK\), which is finally envelope encrypted by the Root Key \(RK\). Since the IRK can only be accessed by the HSM, the IKEK must be uploaded for decryption.
 
-![Envelope encryption flow for ServiceNow keys](../../encryption/image/envelope-encryption.png)
+\[Omitted image "envelope-encryption.png"\] Alt text: Envelope encryption flow for ServiceNow keys
 
 At the instance level, KMF defines several keys that are used internally for varying cryptographic purposes throughout the ServiceNow AI Platform.
 
@@ -152,5 +153,5 @@ Instance
 Specific encryption keys used for the IDR process.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring the Key Management Framework](../../encryption/concept/explore-kmf.md)
+</table>**Parent Topic:**[Exploring the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/explore-kmf.md)
 

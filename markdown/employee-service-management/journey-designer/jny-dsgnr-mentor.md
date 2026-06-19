@@ -2,6 +2,7 @@
 title: Mentors can modify and manage journeys
 description: Mentors with the appropriate permission can modify journeys and add other mentors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/jny-dsgnr-mentor.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -53,5 +54,5 @@ With the correct permissions, Journey mentors can edit existing journeys. Mentor
 -   Publish the journey.
 -   Add recommended learning and quick links.
 
-**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](../concept/jny-working-with-journeys.md)
+**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-working-with-journeys.md)
 

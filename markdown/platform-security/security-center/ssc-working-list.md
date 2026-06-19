@@ -2,6 +2,7 @@
 title: Filter hardening settings
 description: Simplify your hardening review process using filters. These filters can create a working list of hardening settings for review, which restored for later use and shared with other users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/security-center/ssc-working-list.html
 release: zurich
 product: Security Center
 classification: security-center
@@ -29,7 +30,7 @@ Role required: admin
 
 4.  Select **All settings**.
 
-5.  Select the **Show filter panel** button \(![Show filter panel](../images/filter-panel-icon.png)\).
+5.  Select the **Show filter panel** button \(\[Omitted image "filter-panel-icon.png"\] Alt text: Show filter panel\).
 
 6.  In the **Filter** window, select **Advanced view**.
 
@@ -46,5 +47,5 @@ Role required: admin
 
 After saving a filter you can load it in the **Advanced View** using the **Use existing filter** button.
 
-**Parent Topic:**[All settings](../concept/all-settings.md)
+**Parent Topic:**[All settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/all-settings.md)
 

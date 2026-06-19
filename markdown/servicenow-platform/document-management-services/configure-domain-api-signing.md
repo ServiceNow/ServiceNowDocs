@@ -2,6 +2,7 @@
 title: Assign a custom signing domain for CAC/PIV digital signatures
 description: Improve signing traffic management by assigning a custom domain for CAC/PIV digital signatures by setting an optional system property to override the default glide.servlet.uri setting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/configure-domain-api-signing.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -32,5 +33,5 @@ Role required: admin
 5.  Select and hold \(or right-click\) the form header and select **Save**.
 
 
-**Parent Topic:**[Set up a document template for signing documents using a CAC or PIV smart card](create-document-template.md)
+**Parent Topic:**[Set up a document template for signing documents using a CAC or PIV smart card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/create-document-template.md)
 

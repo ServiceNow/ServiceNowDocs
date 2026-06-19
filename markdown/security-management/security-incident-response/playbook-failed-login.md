@@ -2,11 +2,12 @@
 title: Playbook for Failed Login Manual
 description: The Failed Login Manual playbook provides guidance and helps optimize the investigation of failed login security incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/playbook-failed-login.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Process-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -30,16 +31,14 @@ The following are the stages of the process definition and corresponds to the se
 
 Each stage has activities within it.
 
-![Failed Login Manual playbook overview](../image/failed-login.gif "Failed Login Manual playbook")
-
 Once you mark a task complete in a stage, you can move to the next task. You can save a task at any point in time and return to the playbook at a later date and time. After you complete all the tasks in a stage, you can move to the next stage. The status is reflected in the left-hand panel as you keep completing tasks and stages. An Activity log on the right-hand side of the playbook shows all the data that you have entered for each task.
 
 After you complete all the tasks, you’re asked to review the details you entered in all the stages. You can choose to edit any field or click Finish to complete the process of creating the entitlement.
 
--   **[Create processes for Failed Login Manual in PAD](../task/create-process-failed-login-manual.md)**  
+-   **[Create processes for Failed Login Manual in PAD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/create-process-failed-login-manual.md)**  
 Use these steps to create processes for Failed Login Manual in the Process Automation Designer \(PAD\).
--   **[Using the Failed Login Manual playbook](../task/using-failed-login-manual-playbook.md)**  
+-   **[Using the Failed Login Manual playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/using-failed-login-manual-playbook.md)**  
 Use these steps to learn how you can use the Failed Login Manual playbook in the SIR Analyst Workspace and its capabilities.
 
-**Parent Topic:**[Process-based Playbooks](../../security-incident-response/concept/playbooks-process-based.md)
+**Parent Topic:**[Process-based Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/playbooks-process-based.md)
 

@@ -2,6 +2,7 @@
 title: Add or edit expense lines
 description: Create or edit expense lines to capture the actuals costs. You can associate the expense lines with a cost plan or create standalone expense lines to record unplanned expenses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/create-expense-line.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -35,15 +36,15 @@ For unplanned expense lines which are not associated to any cost plan, system au
 
 4.  Use one of the following options to add an expense line.
 
-<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d144981e88">
+<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d140604e88">
 
 Choice
 
-</th><th align="left" id="d144981e91">
+</th><th align="left" id="d140604e91">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d144981e97">
+</th></tr></thead><tbody><tr><td id="d140604e97">
 
 **Select a cost plan**
 
@@ -53,30 +54,30 @@ Description
 2.  In the Expense lines side panel, select **New**.
 
 
-</td></tr><tr><td id="d144981e118">
+</td></tr><tr><td id="d140604e118">
 
 **Select options**
 
 </td><td>
 
-1.  Select the options ![Option to add expense lines.](../images/fin-options.png) from a cell.
+1.  Select the options \[Omitted image "fin-options.png"\] Alt text: Option to add expense lines. from a cell.
 2.  Select **Add expense lines**.
 
 
-</td></tr><tr><td id="d144981e145">
+</td></tr><tr><td id="d140604e145">
 
 **Select new expense line option**
 
 </td><td>
 
-Select **New expense line** using the More actions option.![GIF showing the selection of new expense line option.](../images/fin-new-expense-line-option-gif.gif)
+Select **New expense line** using the More actions option.\[Omitted image "fin-new-expense-line-option-gif.gif"\] Alt text: GIF showing the selection of new expense line option.
 
 **Note:** Use this option to record and calculate any unplanned expenses.
 
 </td></tr></tbody>
 </table>5.  On the Create expense line form, fill the fields.
 
-    For a description of the field names, see [Create expense line form](../../alignment-planner-workspace/reference/create-exp-line-form-spw.md).
+    For a description of the field names, see [Create expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/create-exp-line-form-spw.md).
 
 6.  Select **Save**.
 

@@ -2,6 +2,7 @@
 title: Enable dark theme in ITSM Mobile Agent
 description: Enable a dark theme or mode in ITSM Mobile Agent. This option is commonly used to alleviate eye strain and improve readability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/enable-dark-theme-in-the-itsm-mobile-agent.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

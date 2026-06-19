@@ -2,7 +2,10 @@
 title: Install the Data Collection Pack for ITSM
 description: To enable the Data Collection Pack, you must activate Data Collection jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/dc-itsm-install.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

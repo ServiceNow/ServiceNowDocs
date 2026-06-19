@@ -2,6 +2,7 @@
 title: Add a related list to an insurance product model
 description: Add a related list of an insurance policy table to an insurance product model table by using the Insurance claims application. Adding a related list displays the customer insurance policies for a particular insurance product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/add-related-list-to-insurance-product-model.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims
@@ -19,7 +20,7 @@ Add a related list of an insurance policy table to an insurance product model ta
 
 Set the application scope in your instance to Financial Services Operations Core.
 
-An insurance policy table that extends the Insurance Policy \(sn\_bom\_ins\_policy\) table is required. For more information, see [Create an insurance policy table](create-an-insurance-policy-table.md).
+An insurance policy table that extends the Insurance Policy \(sn\_bom\_ins\_policy\) table is required. For more information, see [Create an insurance policy table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/create-an-insurance-policy-table.md).
 
 Role required: admin
 
@@ -41,5 +42,5 @@ Role required: admin
 5.  Select **Save**.
 
 
-**Parent Topic:**[Setting up an insurance policy for Insurance claims](../concept/set-up-an-insurance-policy.md)
+**Parent Topic:**[Setting up an insurance policy for Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/set-up-an-insurance-policy.md)
 

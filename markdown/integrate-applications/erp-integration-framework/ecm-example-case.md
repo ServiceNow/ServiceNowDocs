@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP custom field example
 description: Zero Copy Connector for ERP helps you identify custom ERP \(Enterprise Resource Planning\) apps and fields in the system of record \(such as SAP\) to access their data on the ServiceNow AI Platform. The ERP system can have both standard and custom fields that are accessed by Zero Copy Connector for ERP.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/ecm-example-case.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -25,5 +26,5 @@ The farmer can use Zero Copy Connector for ERP to connect to the legacy system o
 
 After they have the model with custom data, they can use ServiceNow Studio or other ServiceNow products to build an app that tracks their grain sales. The data that the grain sale app consumes still lives on the legacy system of record.
 
-**Parent Topic:**[Exploring Zero Copy Connector for ERP](exploring-erp-integration.md)
+**Parent Topic:**[Exploring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/exploring-erp-integration.md)
 

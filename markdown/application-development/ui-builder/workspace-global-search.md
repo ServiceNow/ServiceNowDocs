@@ -2,6 +2,7 @@
 title: Display global search in a workspace experience
 description: Show or hide the search functionality in your workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/workspace-global-search.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -23,9 +24,9 @@ Role required: ui\_builder\_admin
 
 You can control whether the search functionality is visible to the users of your workspace experience. If you choose to display a search option, you can define what search results are returned by choosing a source for the search.
 
-![Workspace experience utility settings.](../image/experience-utilities-settings.png "Workplace experience settings")
+\[Omitted image "experience-utilities-settings.png"\] Alt text: Workspace experience utility settings.
 
-Before you can edit the experience settings, you must be in the correct application scope. If you're in a different scope, the experience settings are read-only. To change your application scope, go to the main header, select the application picker \(![Application picker.](../image/application-picker.png)\), and then select the application scope that you want. For more information about the application scope, see [Learn about security and roles](security-roles.md).
+Before you can edit the experience settings, you must be in the correct application scope. If you're in a different scope, the experience settings are read-only. To change your application scope, go to the main header, select the application picker \(\[Omitted image "application-picker.png"\] Alt text: Application picker.\), and then select the application scope that you want. For more information about the application scope, see [Learn about security and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/security-roles.md).
 
 ## Procedure
 
@@ -33,17 +34,17 @@ Before you can edit the experience settings, you must be in the correct applicat
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    For more information, see [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md).
+    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md).
 
 3.  Open or create a page in your workspace experience.
 
 4.  Select **Experience settings** in the upper-right.
 
-    ![Arrow pointing to the Experience settings link on the experience view page.](../image/experience-settings-navigation.png)
+    \[Omitted image "experience-settings-navigation.png"\] Alt text: Arrow pointing to the Experience settings link on the experience view page.
 
 5.  Scroll down to **Global search**.
 
-    ![Global search settings for workspace experiences.](../image/uib-settings-search.png)
+    \[Omitted image "uib-settings-search.png"\] Alt text: Global search settings for workspace experiences.
 
 6.  Select the **Show global search** option.
 
@@ -52,5 +53,5 @@ Before you can edit the experience settings, you must be in the correct applicat
 8.  Click **Advanced settings** to go to the ServiceNow AI Platform® and edit the JSON values of the record.
 
 
-**Parent Topic:**[Configure UI Builder workspace experiences](../concept/ui-builder-workspace-settings.md)
+**Parent Topic:**[Configure UI Builder workspace experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/ui-builder-workspace-settings.md)
 

@@ -2,6 +2,7 @@
 title: Domain separation and Service Observability
 description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is supported for Service Observability. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-observability/domain-separation-and-service-observability.html
 release: zurich
 product: Service Observability
 classification: service-observability
@@ -25,7 +26,7 @@ Domain separation is supported for Service Observability. Domain separation enab
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## Domain separation and Service Observability overview
 
@@ -39,10 +40,10 @@ You define the domain-separated environment when you configure your data inputs.
 
 Service Observability manages all aspects of the data, such as the data mappings and the data displayed on dashboards. When a property is changed, the new value affects new sources only in the specific domain.
 
-**Parent Topic:**[Service Observability reference](service-observability-reference.md)
+**Parent Topic:**[Service Observability reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/service-observability-reference.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

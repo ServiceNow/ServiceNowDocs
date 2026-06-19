@@ -2,6 +2,7 @@
 title: Data Certification experience in CMDB Workspace and in Service Graph Workspace
 description: Use Data Certification in CMDB Workspace or in Service Graph Workspace to administer Data Certification, create certification policies, manage certification tasks, and view analytics about on-going processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/data-cert-exp-cmdb-workspace.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -19,21 +20,21 @@ Use Data Certification in CMDB Workspaceor in Service Graph Workspace to adminis
 
 ## Use Data Certification in CMDB Workspaceand in Service Graph Workspace
 
-Use the [CMDB Workspace](cmdb-workspace.md) landing page and its views to administer Data Certification:
+Use the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) landing page and its views to administer Data Certification:
 
--   Use the [Management view in CMDB Workspace](cmdb-workspace-mangmnt-view.md) to navigate to CMDB Data Manager to [create a new Certification policy](../task/data-manager-create-policy-wrkspc.md).
+-   Use the [Management view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-mangmnt-view.md) to navigate to CMDB Data Manager to [create a new Certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md).
 -   Use the My work tile on the CMDB Workspace landing page to access your open and overdue certification tasks that you need to review and process.
 
--   Use the [My Work view in CMDB Workspace](cmdb-workspace-govern-view.md) to access any certification tasks assigned to you under the Certification tasks section.
+-   Use the [My Work view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-govern-view.md) to access any certification tasks assigned to you under the Certification tasks section.
 
--   Use the [Governance view in Service Graph Workspace](sg-workspace-governance-view.md) to navigate to CMDB Data Manager to [create a new Certification policy](../task/data-manager-create-policy-wrkspc.md).
--   Use the [Tasks view in Service Graph Workspace](sg-workspace-tasks-view.md) to access any certification tasks assigned to you and certification instances that you own.
+-   Use the [Governance view in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md) to navigate to CMDB Data Manager to [create a new Certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md).
+-   Use the [Tasks view in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-tasks-view.md) to access any certification tasks assigned to you and certification instances that you own.
 
 Manage certification tasks in CMDB Workspaceand in Service Graph Workspace:
 
--   [Manage Data Certification instances and tasks, and see progress, status, and insights in the Data Certification Dashboard](data-cert-dashboard-workspace.md)
--   [Review certification tasks in CMDB Workspace](../task/data-certific-review-tasks.md)
--   [Review failed certification tasks](../task/data-review-failed-tasks.md)
+-   [Manage Data Certification instances and tasks, and see progress, status, and insights in the Data Certification Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-cert-dashboard-workspace.md)
+-   [Review certification tasks in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-certific-review-tasks.md)
+-   [Review failed certification tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-review-failed-tasks.md)
 
 ## Retention of Data Certification records
 

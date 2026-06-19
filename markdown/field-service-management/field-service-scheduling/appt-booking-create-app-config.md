@@ -2,6 +2,7 @@
 title: Create or modify an application configuration for Appointment Booking
 description: Set up an application configuration to manage appointment booking settings across all services within your application. You can either create a new configuration or modify an existing one provided by Field Service Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/appt-booking-create-app-config.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -72,11 +73,11 @@ Availability Method
 
 Use one of the methods to determine appointment availability. The selection depends on the Field Service Management configuration setting in the **Assignment method for tasks** field: -   **Number of appointments per slot**: Sets a fixed number of available appointments per time slot. Recommended if task assignment is manual.
 -   **Scripted**: Dynamically calculates availability based on Field Service Management settings. Recommended if auto-assignment or dynamic scheduling is used. This is the default setting.
--   **Based on capacity**: Calculates availability based on the capacity defined in the capacity management settings. For more information, see [Create a capacity assignment](../concept/assign-work-based-on-the-defined-capacity-.md)
+-   **Based on capacity**: Calculates availability based on the capacity defined in the capacity management settings. For more information, see [Create a capacity assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/assign-work-based-on-the-defined-capacity-.md)
 
 This option is available when the Task Table is selected as work\_order and Field Service Capacity and Reservations Management plugin is installed.
 
-For more information on appointment availability methods, see [Learn about appointment availability settings](../reference/appt-booking-task-assignment.md).
+For more information on appointment availability methods, see [Learn about appointment availability settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/appt-booking-task-assignment.md).
 
 </td></tr><tr><td>
 
@@ -108,7 +109,7 @@ Calendar View
 
 </td><td>
 
-Display available appointments in the [Select Appointment window](../reference/appt-booking-select-appt-window.md) on the Customer or Consumer Service Portal for a single day or for a week.
+Display available appointments in the [Select Appointment window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/appointment-booking/appt-booking-select-appt-window.md) on the Customer or Consumer Service Portal for a single day or for a week.
 
 </td></tr><tr><td>
 
@@ -128,5 +129,5 @@ The application configuration is created or modified. Appointment booking settin
 
 ## What to do next
 
-Create service configurations for each of the services available to the customers. For more information, see [Create or modify an application configuration for Appointment Booking](appt-booking-create-app-config.md).
+Create service configurations for each of the services available to the customers. For more information, see [Create or modify an application configuration for Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/appt-booking-create-app-config.md).
 

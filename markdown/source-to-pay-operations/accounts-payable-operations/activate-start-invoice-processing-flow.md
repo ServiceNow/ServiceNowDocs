@@ -2,6 +2,7 @@
 title: Activate the Start Invoice Processing for Orphan Invoices flow
 description: Activate the Start Invoice Processing for Orphan Invoices flow to start the processing of an invoice that doesn’t have an associated invoice case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/activate-start-invoice-processing-flow.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -29,7 +30,7 @@ This flow creates an invoice processing case, associates the invoice with that c
 
 2.  Search for and select the **Start Invoice Processing for Orphan Invoices** flow to open it.
 
-3.  Select the more actions icon \(![more actions](../../supplier-lifecycle-operations/image/more-actions-icon.png)\) in the top right and select **Copy flow**.![Copy a flow](../image/apo-copy-flow.png)
+3.  Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions\) in the top right and select **Copy flow**.\[Omitted image "apo-copy-flow.png"\] Alt text: Copy a flow
 
     The Create a copy of this flow dialog box is displayed.
 
@@ -37,7 +38,7 @@ This flow creates an invoice processing case, associates the invoice with that c
 
 5.  In the **Application** field, select **Accounts Payable Operations**.
 
-6.  Select **Copy**.![Select application](../image/apo-copy-flow-dialog.png)
+6.  Select **Copy**.\[Omitted image "apo-copy-flow-dialog.png"\] Alt text: Select application
 
     A copy of the flow opens.
 
@@ -52,5 +53,5 @@ This flow creates an invoice processing case, associates the invoice with that c
 
 The **Start Invoice Processing for Orphan Invoices** flow starts processing invoices that don’t have an associated invoice case.
 
-**Parent Topic:**[Start the processing for an invoice imported via integration with third-party applications](start-invoice-processing.md)
+**Parent Topic:**[Start the processing for an invoice imported via integration with third-party applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/start-invoice-processing.md)
 

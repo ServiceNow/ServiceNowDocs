@@ -2,6 +2,7 @@
 title: Create a record of AWS credentials in Cloud Cost Management
 description: Create a record of the AWS credentials in Cloud Cost Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/create-aws-credential-record-ccm.html
 release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management

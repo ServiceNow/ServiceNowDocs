@@ -2,6 +2,7 @@
 title: Cloud cost simulation
 description: Simulate the cost of moving your on-premise resources to the cloud environment before performing the migration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/cloud-cost-simulator.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -31,9 +32,9 @@ Based on the criteria or recommendation, the Software Asset Management applicati
 
 The most optimal matching of resources is conducted and the total cost involved is given to you. Cost for the various cloud providers: AWS and Azure is mentioned along with or without the cost of Bring Your Own License \(BYOL\). Once the decision is made to move to a particular cloud provider, a change request can be created to move forward with the implementation.
 
-For information on comparing and evaluating the estimate cost of migrating your resources to the cloud, see [Cloud simulator dashboard](cloud-simulator-dashboard.md).
+For information on comparing and evaluating the estimate cost of migrating your resources to the cloud, see [Cloud simulator dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/cloud-simulator-dashboard.md).
 
-![Cloud cost simulation.](../image/mmasset0021824-cloud-cost-simulator.svg)
+\[Omitted image "mmasset0021824-cloud-cost-simulator.svg"\] Alt text: Cloud cost simulation.
 
 ## Use cases
 
@@ -52,5 +53,5 @@ A sam\_manager role can receive recommendations for migrating on-premise resourc
     **Note:** Ensure that you have activated the Cloud Migration Assessment application \(com.sn\_cloud\_migration\) plugin to get data on resource utilization.
 
 
-**Parent Topic:**[Exploring Software Asset Management](explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

@@ -2,6 +2,7 @@
 title: Call interface - Android
 description: The Call interface represents a request that is prepared for processing.Cancels the associated call, if possible \(best effort.\)Schedules the request to be executed as soon as the system\\thread is available to execute this request.Invokes the request immediately. Blocks until the response is processed or is in error.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/cllent-mobile-api-reference/CallAndroidInterface.html
 release: zurich
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -28,7 +29,7 @@ A call object cannot be processed twice.
 |----|----|-----------|
 |request|Request|Original request that initiated this call.|
 
-**Parent Topic:**[Mobile SDK - Android](../../concept/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## Call - cancel\(\)
 

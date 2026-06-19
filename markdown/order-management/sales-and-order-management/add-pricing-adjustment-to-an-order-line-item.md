@@ -2,6 +2,7 @@
 title: Add pricing adjustment to an order line item
 description: Add pricing adjustments to an order line after the line item is created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/add-pricing-adjustment-to-an-order-line-item.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

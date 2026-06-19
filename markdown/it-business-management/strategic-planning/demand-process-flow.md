@@ -1,25 +1,26 @@
 ---
 title: Demand workflow
-description: The demand workflow defines the life-cycle of a request, from initial intake through assessment and approval to downstream execution. This structured approach ensures that each request is evaluated consistently, aligned with business objectives, and supported by the right processes before any resources are committed.
+description: The demand workflow defines the stages a demand moves through, from initial intake to assessment, approval, and execution. At each stage, you can evaluate the demand, align it with business objectives, and set up the right processes before resources are assigned.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/demand-process-flow.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-01-14"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Explore, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Demand workflow
 
-The demand workflow defines the life-cycle of a request, from initial intake through assessment and approval to downstream execution. This structured approach ensures that each request is evaluated consistently, aligned with business objectives, and supported by the right processes before any resources are committed.
+The demand workflow defines the stages a demand moves through, from initial intake to assessment, approval, and execution. At each stage, you can evaluate the demand, align it with business objectives, and set up the right processes before resources are assigned.
 
 ## Workflow overview
 
-The end-to-end life-cycle for managing demands is described in the following table. This workflow confirms that the demands are progressively refined, validated, and aligned with business and strategic objectives.
+The following table lists the end-to-end life cycle for managing demands. This workflow provides a process for demands so they are progressively refined, validated, and aligned with business and strategic objectives.
 
-**Note:** The demand workflow overview table describes the traditional demand management process. You can customize the states and activities according to the requirements of your organization by defining your custom playbook.
+**Note:** This workflow describes the traditional demand management process. You can customize the states and activities by defining a custom playbook.
 
 <table id="table_mb5_3qp_13c"><thead><tr><th>
 
@@ -43,7 +44,7 @@ Create a demand
 
 </td><td>
 
-Demands enter the system via Service Catalog, Idea Portal, or directly by demand managers:-   Business users can submit an idea via the Service Catalog or Idea Portal. These ideas are evaluated by demand managers and promoted to a demand, if necessary.
+Demands enter the system via Service Catalog or Idea Portal, or being submitted directly by demand managers: -   Business users can submit an idea via the Service Catalog or Idea Portal. The idea is then evaluated by demand managers after which they can promote it to a demand.
 -   Business users can bypass the ideation process and submit a demand directly from the Service Catalog.
 -   Demand managers or demand users can directly submit demands from the Next Experience for Demand Management.
 
@@ -61,7 +62,7 @@ Complete demand details
 
 </td><td>
 
-The demand manager or demand user reviews and adds required details. Demand managers can create and assign demand tasks to gather more information, if necessary.The demand is moved from the draft to the submitted state once the basic demand details are added.
+The demand manager or demand user reviews and adds required details. The demand moves from the draft to the submitted state after the basic demand details are added.
 
 </td><td>
 
@@ -77,7 +78,7 @@ Refine and finalize demand
 
 </td><td>
 
-The demand manager completes all required information \(size, impact, business case, timeline, resources, costs/benefits, stakeholder registry, strategy alignment\). They can assign tasks or request SME \(subject matter expert\) support, whenever required.
+The demand manager completes all required information \(size, impact, business case, timeline, resources, costs/benefits, stakeholder registry, strategy alignment\). The demand manager can assign tasks or request SME \(subject matter expert\) support.
 
 </td><td>
 
@@ -93,7 +94,7 @@ Move demand to screening
 
 </td><td>
 
-The demand manager moves the demand to screening. The assessments are sent to the stakeholders to score the demand once it is in the screening state.
+The demand manager moves the demand to screening. Assessments are sent to the stakeholders to score the demand after it reaches the screening state.
 
 </td><td>
 
@@ -125,8 +126,8 @@ Move demand to qualified
 
 </td><td>
 
-The demand moves to the qualified state once the required assessments are submitted.-   Next Experience for Demand Management updates the state automatically.
--   Demand manager manually sets the demand to qualified while it is in screening. For example, when assessments are delayed or not required.
+The demand moves to the qualified state after the required assessments are submitted.-   Next Experience for Demand Management updates the state automatically.
+-   The demand manager manually sets the demand to qualified while it is in screening, for example, when assessments are delayed or not required.
 
 </td><td>
 
@@ -154,15 +155,15 @@ Stakeholder
 
 </td></tr><tr><td>
 
-Approve/Defer a demand
+Approve or defer a demand
 
 </td><td>
 
-The demand manager sets demand as approved \(moves forward for execution\) or deferred \(moves to Deferred state\).
+The demand manager sets the demand to approved \(moves forward for execution\) or deferred \(moves to the Deferred state\).
 
 </td><td>
 
-Qualified → Approved/Deferred
+Qualified → Approved or Deferred
 
 </td><td>
 
@@ -174,7 +175,7 @@ Convert demand to strategic/operational entity
 
 </td><td>
 
-Once the Demand is approved, the demand manager creates the selected entity such as project, enhancement, or Enterprise Agile Planning \(EAP\) entities.The created entity is based on the values in the **Category** and **Type** fields of the Demand record.
+After the demand is approved, the demand manager creates the selected entity such as project, enhancement, or Enterprise Agile Planning \(EAP\) entities.The created entity is based on the values in the **Category** and **Type** fields of the Demand record.
 
 Depending on the type of record created, the demand data is migrated to the created entity.
 
@@ -192,7 +193,7 @@ Complete demands
 
 </td><td>
 
-Based on the selection in the **Close Demand** field, a demand is completed automatically when converted entity is completed, or manually by the demand manager at any state.
+Based on the selection in the **Close Demand** field, a demand is completed automatically when the converted entity is completed, or manually by the demand manager at any state.
 
 </td><td>
 

@@ -2,6 +2,7 @@
 title: Create Talent Development Outcome Types
 description: As an Talent admin you create outcome types that can be used in growth plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/egd-admin-create-outocome-type.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -31,10 +32,10 @@ An **Outcome Type** is used to categorize activities into logical outcomes.
 
 3.  Complete the **Outcome Types** form.
 
-    Read details about the different fields in [Talent Outcome Types reference](../reference/egd-outcome-types-form.md)
+    Read details about the different fields in [Talent Outcome Types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-outcome-types-form.md)
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Administer and maintain the Talent Development Core app](../concept/egd-administration.md)
+**Parent Topic:**[Administer and maintain the Talent Development Core app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-administration.md)
 

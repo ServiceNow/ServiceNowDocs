@@ -2,6 +2,7 @@
 title: Now Assist: Fulfillment, access, and portal setting functions
 description: In addition to catalogs, categories, and topics, Now Assist allows you to set three other key fields for a catalog item: Access, Fulfillment flow, and Portal settings. You can configure these simply by describing your requirements in plain language.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/now-assist-fulfillment-access-and-portal-setting-functions.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -49,5 +50,5 @@ If you request updates to multiple fields and some are locked by a template whil
 
 **Note:** User criteria records define groups of users based on conditions such as role, department, or location. These records manage who can view or request a catalog item.
 
-**Parent Topic:**[Catalog item generation reference](catalog-item-generation-reference.md)
+**Parent Topic:**[Catalog item generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/catalog-item-generation-reference.md)
 

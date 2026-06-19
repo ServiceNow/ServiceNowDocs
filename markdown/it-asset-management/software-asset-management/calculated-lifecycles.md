@@ -2,6 +2,7 @@
 title: Product life cycles
 description: In the absence of vendor-provided life cycles, there are various capabilities that the Software Asset Management application provides to improve life cycle coverage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/calculated-lifecycles.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -54,7 +55,7 @@ The Software Lifecycle Code \[software\_lifecycle\_code\] table, contains all th
 
 A new column, Lifecycle code, is added to the Software Product Lifecycles \[sam\_sw\_product\_lifecycle\] table. This column refers to the Software Lifecycle Code \[software\_lifecycle\_code\] table. If the column is populated, it indicates the record is an approximated lifecycle. If the column is empty, it indicates that the life cycle record has confirmed or explicit dates as published by the publisher.
 
-Approximated life cycles are enabled by default as part of generating the Software Lifecycle Report. This is managed in the system property **com.snc.samp.use\_lifecycle\_approximation**. For details on this property, see [Software Asset Management properties](../reference/sam-properties.md).
+Approximated life cycles are enabled by default as part of generating the Software Lifecycle Report. This is managed in the system property **com.snc.samp.use\_lifecycle\_approximation**. For details on this property, see [Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-properties.md).
 
 Life cycle code columns can also be added to the Software Lifecycle Report for each life cycle phase \(GA, EOS, EOES, and EOL\). This may require dot-walking the columns from the Software Lifecycle Code table. You should be able to identify which life cycle phase is approximated based on the existence of the codes.
 
@@ -62,9 +63,9 @@ Life cycle code columns can also be added to the Software Lifecycle Report for e
 
 To further improve life cycle coverages, even after approximated life cycles have been considered, EOS, EOES, and EOL life-cycle dates can be calculated based on software life cycle averages, measured in months, from the GA dates.
 
-Software life cycle averages can be defined at the product level, publisher level, or industry level. For details on specifying software life cycle averages in the Software Asset Workspace, see [Create averages for product life cycles in workspace](../task/create-lifecycle-averages-workspace.md) and for specifying software life cycle averages in the Software Asset Management classic application, see [Create averages for product life cycles in Software Asset Management classic](../task/create-lifecycle-averages-classic.md)
+Software life cycle averages can be defined at the product level, publisher level, or industry level. For details on specifying software life cycle averages in the Software Asset Workspace, see [Create averages for product life cycles in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-lifecycle-averages-workspace.md) and for specifying software life cycle averages in the Software Asset Management classic application, see [Create averages for product life cycles in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-lifecycle-averages-classic.md)
 
-You can override the GA date provided by ServiceNow by creating a custom GA date. The custom GA date always takes priority over the GA date provided by ServiceNow. The life cycles are calculated based on the product or publisher values that you specified. Life cycle dates are defined only at the generic version and not the full version. For details on specifying custom values in the Software Asset Workspace, see [Create averages for product life cycles in workspace](../task/create-lifecycle-averages-workspace.md), and for specifying values in the Software Asset Management classic application, see [Create averages for product life cycles in Software Asset Management classic](../task/create-lifecycle-averages-classic.md).
+You can override the GA date provided by ServiceNow by creating a custom GA date. The custom GA date always takes priority over the GA date provided by ServiceNow. The life cycles are calculated based on the product or publisher values that you specified. Life cycle dates are defined only at the generic version and not the full version. For details on specifying custom values in the Software Asset Workspace, see [Create averages for product life cycles in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-lifecycle-averages-workspace.md), and for specifying values in the Software Asset Management classic application, see [Create averages for product life cycles in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-lifecycle-averages-classic.md).
 
 Software life cycle averages are stored in the Software Lifecycle Averages \[samp\_sw\_lifecycle\_averages\] table. Lifecycle records created using these averages have their source column defined as calculated.
 
@@ -89,13 +90,13 @@ Custom life cycles can be created from either of the two locations on selecting 
 
 ## Publisher add-on life cycles
 
-Software publishers offer various add-ons and optional support that can extend the life cycles of their existing products. The Software Asset Management Content Service maintains life-cycle information for both the standard version of each software product and any available add-ons or optional support in the Software Product Lifecycle \[sam\_sw\_product\_lifecycle\] table. To track life cycles more accurately, you can indicate if you have purchased any add-ons or optional support for your software products. The Software Asset Management application then uses the corresponding life-cycle information in the Software Product Lifecycle \[sam\_sw\_product\_lifecycle\] table to automatically update the life-cycle dates of those products with the extended life-cycle dates of the add-ons or optional support. These updated life-cycle dates are populated in the Software Lifecycle Report \[sam\_sw\_product\_lifecycle\_report\] table. For more information, see [Use publisher add-on lifecycles in the Software Lifecycle Report](../task/specify-publisher-add-on-lifecyles.md).
+Software publishers offer various add-ons and optional support that can extend the life cycles of their existing products. The Software Asset Management Content Service maintains life-cycle information for both the standard version of each software product and any available add-ons or optional support in the Software Product Lifecycle \[sam\_sw\_product\_lifecycle\] table. To track life cycles more accurately, you can indicate if you have purchased any add-ons or optional support for your software products. The Software Asset Management application then uses the corresponding life-cycle information in the Software Product Lifecycle \[sam\_sw\_product\_lifecycle\] table to automatically update the life-cycle dates of those products with the extended life-cycle dates of the add-ons or optional support. These updated life-cycle dates are populated in the Software Lifecycle Report \[sam\_sw\_product\_lifecycle\_report\] table. For more information, see [Use publisher add-on lifecycles in the Software Lifecycle Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/specify-publisher-add-on-lifecyles.md).
 
 ## Software life-cycle process
 
 The scheduled job **SAM - Generate Software Lifecycle Report** aggregates life cycle data for all normalized software products which have non- zero installation counts. Each record on the Software Lifecycle Report table displays all life cycle phase columns along with their corresponding phase start dates, if the date is available. Life cycle codes can also be displayed to indicate whether the record is an approximated life cycle or not.
 
-The Software Lifecycle Report table also displays the Current Phase and Upcoming Phase columns along with their corresponding dates. For further details about these columns, see [Software models and Software entitlements](software-models-and-entitlements.md).
+The Software Lifecycle Report table also displays the Current Phase and Upcoming Phase columns along with their corresponding dates. For further details about these columns, see [Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-models-and-entitlements.md).
 
 Another scheduled job, **SAM - Create Calculated Software Lifecycles**, checks for all records on the Software Lifecycle Report table which have GA dates but are missing EOS, EOES, or EOL dates and creates calculated life cycles for them based on the definitions that you have created on Software Lifecycle Averages table.
 
@@ -115,5 +116,5 @@ Once created, the EOS, EOES, and EOL life cycles are visible in the software mod
 
 **Note:** If a sam\_user or sam\_admin deletes an EOS, EOES, or EOL life cycle on a software model, the life cycles aren’t reinstated back to the software model.
 
-**Parent Topic:**[Exploring Software Asset Management](explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

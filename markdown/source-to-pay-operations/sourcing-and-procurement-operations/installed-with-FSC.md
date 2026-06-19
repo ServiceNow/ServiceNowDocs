@@ -2,13 +2,14 @@
 title: Components installed with Sourcing and Procurement Operations
 description: Several types of components are installed with the activation of Sourcing and Procurement Operations, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/installed-with-FSC.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 14
-breadcrumb: [Install Sourcing and Procurement Operations, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Install Sourcing and Procurement Operations, Configure Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Components installed with Sourcing and Procurement Operations
@@ -225,7 +226,7 @@ Can view and access the Pipeline management tab.
 None
 
 </td></tr></tbody>
-</table>**Note:** An application-specific admin role enables a user to manage application-level configurations, roles, and access controls. Your system-level admin on the production instance must grant the application-specific admin role to the appropriate users, and then remove the application-specific admin role from all users with the system-level admin role to help prevent system-level admins from viewing sensitive application data via forms, lists, and the UI. For more information, see [Application administration](https://www.servicenow.com/docs/access?context=application-administration&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+</table>**Note:** An application-specific admin role enables a user to manage application-level configurations, roles, and access controls. Your system-level admin on the production instance must grant the application-specific admin role to the appropriate users, and then remove the application-specific admin role from all users with the system-level admin role to help prevent system-level admins from viewing sensitive application data via forms, lists, and the UI. For more information, see .
 
 ## Scheduled jobs installed
 
@@ -1101,26 +1102,144 @@ Stores the mapping of a user and a shopping control.
 
 The following list contains the purchasing properties that are used by Sourcing and Procurement Operations.
 
-|Property|Description|
-|--------|-----------|
-|sn\_shop.atf.threshold.days|Number of days before an expected delivery date for goods, or a start date for services and blankets, in which time a purchase requisition would be considered after the fact.|
-|sn\_shop.credit.allocation.batchsize|Total number of employee records that are processed in a batch, during credit allocation.|
-|sn\_shop.default.contract.model.type|Default contract model when creating contracts.|
-|sn\_shop.default.purchasing.time|Initial value of the purchasing time in days.|
-|sn\_shop.default.shipping.estimate|Default shipping estimate, in percentage.|
-|sn\_shop.default.sourcing.time|Initial sourcing time in days.|
-|sn\_shop.default.supplier.onboard.time|Initial supplier onboarding time in days.|
-|sn\_shop.non.pricing.contract|List of non-pricing contracts. The default is NDA.|
-|sn\_shop.shipping.estimate.inclusion|Shipping estimate included in purchase request approvals.|
-|sn\_shop.approval.reassessment.resend|Approvals that must be reassessed during a revision if the same approval rule is triggered. It applies to both purchase requisition and purchase order revisions.|
-|sn\_shop.log.property|Logging level for Sourcing and Purchasing Automation.|
-|sn\_shop.spend.requisition.autoorder|Purchase order that can be automatically created on completion of purchasing tasks without having to undergo a manual final review.|
-|sn\_shop.spend.requisition.autoorder.threshold|Dollar amount threshold above which a final review is required before a purchase order is created even when the automatic creation of purchase orders property is set to Yes.|
-|sn\_shop.spend.sla.due.days|Minimum due date for SLA calculation.|
-|sn\_shop.supported.artifact.formats|Formats that are supported for supplier product artifacts.|
-|sn\_shop.tax.estimate.inclusion|Includes generated tax estimate in purchase requests for the approval process.|
+<table id="table_g42_qmr_flb"><thead><tr><th>
 
-## Watchlist system properties
+Property
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+sn\_shop.atf.threshold.days
+
+</td><td>
+
+Number of days before an expected delivery date for goods, or a start date for services and blankets, in which time a purchase requisition would be considered after the fact.
+
+</td></tr><tr><td>
+
+sn\_shop.credit.allocation.batchsize
+
+</td><td>
+
+Total number of employee records that are processed in a batch, during credit allocation.
+
+</td></tr><tr><td>
+
+sn\_shop.default.contract.model.type
+
+</td><td>
+
+Default contract model when creating contracts.
+
+</td></tr><tr><td>
+
+sn\_shop.default.purchasing.time
+
+</td><td>
+
+Initial value of the purchasing time in days.
+
+</td></tr><tr><td>
+
+sn\_shop.default.shipping.estimate
+
+</td><td>
+
+Default shipping estimate, in percentage.
+
+</td></tr><tr><td>
+
+sn\_shop.default.sourcing.time
+
+</td><td>
+
+Initial sourcing time in days.
+
+</td></tr><tr><td>
+
+sn\_shop.default.supplier.onboard.time
+
+</td><td>
+
+Initial supplier onboarding time in days.
+
+</td></tr><tr><td>
+
+sn\_shop.non.pricing.contract
+
+</td><td>
+
+List of non-pricing contracts. The default is NDA.
+
+</td></tr><tr><td>
+
+sn\_shop.shipping.estimate.inclusion
+
+</td><td>
+
+Shipping estimate included in purchase request approvals.
+
+</td></tr><tr><td>
+
+sn\_shop.approval.reassessment.resend
+
+</td><td>
+
+Approvals that must be reassessed during a revision if the same approval rule is triggered. It applies to both purchase requisition and purchase order revisions.
+
+</td></tr><tr><td>
+
+sn\_shop.log.property
+
+</td><td>
+
+Logging level for Sourcing and Purchasing Automation.
+
+</td></tr><tr><td>
+
+sn\_shop.spend.requisition.autoorder
+
+</td><td>
+
+Purchase order that can be automatically created on completion of purchasing tasks without having to undergo a manual final review.For more information on how the auto-order properties affect purchase order creation, see [Purchase requisition auto-order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/pr-auto-order.md).
+
+</td></tr><tr><td>
+
+sn\_shop.spend.requisition.autoorder.threshold
+
+</td><td>
+
+Dollar amount threshold above which a final review is required before a purchase order is created even when the automatic creation of purchase orders property is set to Yes.For more information on how the auto-order properties affect purchase order creation, see [Purchase requisition auto-order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/pr-auto-order.md).
+
+</td></tr><tr><td>
+
+sn\_shop.spend.sla.due.days
+
+</td><td>
+
+Minimum due date for SLA calculation.
+
+</td></tr><tr><td>
+
+sn\_shop.supported.artifact.formats
+
+</td><td>
+
+Formats that are supported for supplier product artifacts.
+
+</td></tr><tr><td>
+
+sn\_shop.tax.estimate.inclusion
+
+</td><td>
+
+Includes generated tax estimate in purchase requests for the approval process.
+
+</td></tr></tbody>
+</table>## Watchlist properties
 
 Set the `sn_shop.watchlist.user.limit` system property to restrict the maximum number of users in the watchlist to 20.
 
@@ -1146,11 +1265,11 @@ To modify the user limit, do the following:
 
 5.  Select **Update**.
 
-## System property to automate the edit receipt flow
+## Property to automate the edit receipt flow
 
 Enable the `sn_spend_cp.enable_automated_edit_receipt_flow` system property to automate the approval and processing of edit receipt requests without manual intervention. The automated process updates the purchase order \(PO\) and purchase order line \(POL\) quantities, while also automatically closing the associated procurement case in the Source-to-Pay Workspace.
 
-Role required: admin
+Role required: sn\_shop.shopping\_hub\_admin and sn\_shop.procurement\_administrator
 
 This property is enabled by default. However, if this property is disabled, do the following to enable it:
 
@@ -1166,25 +1285,5 @@ This property is enabled by default. However, if this property is disabled, do t
 4.  If the **Value** field shows **OFF**, change it to **ON** to enable this property.
 5.  Select **Update**.
 
-## System property to enable the multi-currency functionality in Shopping Hub
-
-Set the `sn_spend_uib.local_currency.enable.menuoption` system property to enable shoppers to view product prices in local currency in Shopping Hub.
-
-Role required: sn\_shop.shopping\_hub\_admin
-
-This system property is enabled by default. However, if it's disabled, do the following to enable it:
-
-1.  Navigate to **All**.
-2.  On the left navigation pane, enter `sys_properties_list.do`.
-
-    The entire list of properties in the System Properties \[sys\_properties\] table appears.
-
-3.  In the Name search field, look for **sn\_spend\_uib.local\_currency.enable.menuoption** and open the system property.
-
-    The system property is enabled by default. The **Value** field displays the default value as **true**.
-
-4.  If the **Value** field shows **false**, change it to **true** to enable this property.
-5.  Select **Update**.
-
-**Parent Topic:**[Install Sourcing and Procurement Operations](../task/activate-finance-spend-central.md)
+**Parent Topic:**[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/activate-finance-spend-central.md)
 

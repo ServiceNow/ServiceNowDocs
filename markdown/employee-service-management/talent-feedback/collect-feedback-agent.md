@@ -2,6 +2,7 @@
 title: Collect feedback using an agent
 description: Use the Employee feedback collection AI agent to collect feedback and track feedback requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-feedback/collect-feedback-agent.html
 release: zurich
 product: Talent Feedback
 classification: talent-feedback
@@ -31,7 +32,7 @@ Role required: manager
 
 5.  Choose the type of feedback you want to collect from the feedback templates suggested by the agent and click **Submit**.
 
-    **Note:** The feedback templates are set by the admin. For more information, see [Create feedback template using survey designer](create-template-feedback-ai.md)
+    **Note:** The feedback templates are set by the admin. For more information, see [Create feedback template using survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-feedback/create-template-feedback-ai.md)
 
 6.  Select the **See preview** option to see a preview of the questions that will be asked in the template you selected and click **Submit**.
 

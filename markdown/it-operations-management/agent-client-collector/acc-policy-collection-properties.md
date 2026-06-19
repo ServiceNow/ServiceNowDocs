@@ -2,6 +2,7 @@
 title: Agent Client Collector policy collection properties
 description: Description of the properties that determine the behavior of Agent Client Collector policy collection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-policy-collection-properties.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -76,5 +77,5 @@ Default: true
 When set to **true**, repopulates the monitored CIs for given policies to show the distribution of CIs among proxy agents.Default: false
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Framework reference](agent-client-collector-reference.md)
+</table>**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

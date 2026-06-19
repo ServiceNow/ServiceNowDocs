@@ -2,6 +2,7 @@
 title: GlideHTTPRequest - Global
 description: The GlideHTTPRequest API provides utility methods to perform common functions with Glide HTTP requests.Adds a header to your HTTP request.Adds a parameter to your HTTP request.Sets a user name and password for basic authentication.Sets the Content-Type header for your HTTP request to the specified value.Enables or disables the follow redirect option for a REST endpoint call.Sets the HTTP timeout value in milliseconds.Sets the log level for an HTTP request.Sets the proxy host and port for the associated REST call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/GlideHTTPRequestAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The GlideHTTPRequest API provides utility methods to perform common functions wi
 
 You can use this API in global server-side scripts. To use this class, instantiate a GlideHTTPRequest object using the constructor. The constructor requires an endpoint URL as an input parameter.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideHTTPRequest - addHeader\(String name, String value\)
 

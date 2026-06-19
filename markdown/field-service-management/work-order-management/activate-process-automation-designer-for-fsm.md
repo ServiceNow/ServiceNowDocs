@@ -2,6 +2,7 @@
 title: Activate Playbooks for Field Service Management
 description: Activate Workflow Studio Playbooks on your instance so that you can create Playbooks triggered by tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/activate-process-automation-designer-for-fsm.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -79,7 +80,7 @@ Select the date and time to activate the plugin.
 
 ## Result
 
-Enabling the **Playbooks for Field Service Management \[com.sn\_fsm\_playbook\]** plugin lets you create Playbooks for these tables and their [extensions](https://www.servicenow.com/docs/access?context=table-extension-and-classes&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US):
+Enabling the **Playbooks for Field Service Management \[com.sn\_fsm\_playbook\]** plugin lets you create Playbooks for these tables and their extensions:
 
 -   Work Task Flow \[sf\_work\_task\]
 -   Work Order Flow \[sf\_work\_order\]

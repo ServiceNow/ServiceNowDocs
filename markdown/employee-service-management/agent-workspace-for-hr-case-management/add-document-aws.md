@@ -2,6 +2,7 @@
 title: Secure documents
 description: Add an extra layer of security on documents that are linked to a case. Grant access to documents with sensitive or private data to groups, users, user criteria or roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/add-document-aws.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

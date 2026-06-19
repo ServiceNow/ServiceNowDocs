@@ -2,6 +2,7 @@
 title: Create assessment template form
 description: Learn about the fields of the Create Assessment Template form. Use this form to create a new assessment template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/smart-assessment-engine/create-assessment-template-form.html
 release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -37,7 +38,7 @@ Assessment name
 
 </td><td>
 
-Add separate assessment name ![](../image/separate-assessment-name.png)icon that includes an optional alternative name for generated assessments. The respondent sees this name rather than the template name.
+Add separate assessment name \[Omitted image "separate-assessment-name.png"\] Alt text:icon that includes an optional alternative name for generated assessments. The respondent sees this name rather than the template name.
 
 </td></tr><tr><td>
 
@@ -57,7 +58,7 @@ Purpose that the new assessment template should be a member of. For example, Ris
 
 Template purposes enforce data segregation for templates. A purpose controls which users can view a template. Each assessment template is associated with a purpose. To view a template within a specific purpose, you must have a category role associated with that purpose.
 
-For more information, see [Create an assessment template category](../task/sae-asmnt-template-category-create.md)
+For more information, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md)
 
 </td></tr><tr><td>
 

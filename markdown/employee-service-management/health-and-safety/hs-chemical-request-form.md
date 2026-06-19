@@ -2,6 +2,7 @@
 title: Chemical request form
 description: Field and description for a chemical request form. The chemical request form is used by an employee to request for an existing or a new chemical.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety/hs-chemical-request-form.html
 release: zurich
 product: Health and Safety
 classification: health-and-safety
@@ -189,7 +190,7 @@ Risk assessment
 
 Option to associate a risk assessment
 
- Use the \(![info icon](../../../reuse/icons/product-icons/circle-info-outline-24.svg)\) icon to preview the risk assessment record
+ Use the \(\[Omitted image "circle-info-outline-24.svg"\] Alt text: info icon\) icon to preview the risk assessment record
 
 </td></tr><tr><td>
 
@@ -199,7 +200,7 @@ JSA
 
 Option to associate a job safety analysis \(JSA\)
 
- Use the \(![info icon](../../../reuse/icons/product-icons/circle-info-outline-24.svg)\) icon to preview the JSA record
+ Use the \(\[Omitted image "circle-info-outline-24.svg"\] Alt text: info icon\) icon to preview the JSA record
 
 </td></tr><tr><td>
 
@@ -218,5 +219,5 @@ Attachment
 Any additional documents to be attached for the chemical request.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Environmental Management reference](../concept/hs-reference-environmental-management.md)
+</table>**Parent Topic:**[Health and Safety Environmental Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-reference-environmental-management.md)
 

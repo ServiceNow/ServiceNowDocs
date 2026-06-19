@@ -2,6 +2,7 @@
 title: Remediate an issue in Policy and Compliance Management
 description: After an issue has been identified, triaged, and investigated, you can remediate it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/remediate-issue.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -21,7 +22,7 @@ Role required: compliance\_admin, compliance\_manager, sn\_compliance.user, sn\_
 
 **Note:** Starting with Version 12.0.1, the minimum role for the **Assigned to** user on the Remediation task form is GRC Business User \[sn\_grc.business\_user\]. The minimum role for the **sn\_compliance.user** is GRC User \[sn\_grc.\_user\].
 
-For more information on the access control limitations to remediation tasks, see [GRC business user role to control access and track usage of compliance tables](../reference/r_InstallWPolAndCompl.md#acls-remediation-busin-user).
+For more information on the access control limitations to remediation tasks, see [GRC business user role to control access and track usage of compliance tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md).
 
 ## About this task
 
@@ -61,7 +62,7 @@ Assigned to
 
 </td><td>
 
-Select the user responsible for working this task.You can configure a hierarchy of users to access the remediation task. For more information, see [User hierarchy access control for issue and remediation task records](../concept/user-hierarchy-risk-remed-task.md).
+Select the user responsible for working this task.You can configure a hierarchy of users to access the remediation task. For more information, see [User hierarchy access control for issue and remediation task records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/user-hierarchy-risk-remed-task.md).
 
 </td></tr><tr><td>
 
@@ -201,11 +202,11 @@ Confidential
 
 </td><td>
 
-Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on confidential option, see [Confidentiality flag for audit and compliance records](../../grc-audit/concept/confidentiality-flag-audit-pc.md).
+Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on confidential option, see [Confidentiality flag for audit and compliance records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/confidentiality-flag-audit-pc.md).
 
 </td></tr></tbody>
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Manage issues in Policy and Compliance Management](../concept/manage-issues.md)
+**Parent Topic:**[Manage issues in Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/manage-issues.md)
 

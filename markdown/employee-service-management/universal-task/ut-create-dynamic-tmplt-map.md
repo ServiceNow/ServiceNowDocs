@@ -2,6 +2,7 @@
 title: Create dynamic template mapping
 description: Create dynamic templates to map fields on a Universal task form to corresponding fields on the parent table form. Dynamic templates help agents to map parent table fields to Universal task fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-task/ut-create-dynamic-tmplt-map.html
 release: zurich
 product: Universal Task
 classification: universal-task
@@ -23,7 +24,7 @@ Role required: sn\_uni\_task.template\_admin
 
 ## About this task
 
-Dynamic template mappings can be created for templates that have an assigned parent table. In a dynamic mapping, the value of a field is updated with the value of the mapped field in the parent table. Dynamic template mappings get precedence over static template mappings. In static template mappings, fields are set to specific values. For more information on how to create a static template, see [Create a template using the Universal Task template form](ut-create-task-template.md).
+Dynamic template mappings can be created for templates that have an assigned parent table. In a dynamic mapping, the value of a field is updated with the value of the mapped field in the parent table. Dynamic template mappings get precedence over static template mappings. In static template mappings, fields are set to specific values. For more information on how to create a static template, see [Create a template using the Universal Task template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-task/ut-create-task-template.md).
 
 ## Procedure
 
@@ -39,15 +40,15 @@ Dynamic template mappings can be created for templates that have an assigned par
 
     Depending on what type of field is selected in the **Universal task field** field, the **Advanced** option appears. If you select the **Advanced** option, the following options are available based on the input type of the Universal task field.
 
-<table id="choicetable_vwq_2yk_t4b"><thead><tr><th align="left" id="d677200e123">
+<table id="choicetable_vwq_2yk_t4b"><thead><tr><th align="left" id="d449293e123">
 
 Input type for the Universal task field
 
-</th><th align="left" id="d677200e126">
+</th><th align="left" id="d449293e126">
 
 Advanced options
 
-</th></tr></thead><tbody><tr><td id="d677200e132">
+</th></tr></thead><tbody><tr><td id="d449293e132">
 
 **String, such as Short description**
 
@@ -55,7 +56,7 @@ Advanced options
 
 The **Value** field appears. You can map your Universal task to multiple fields from the parent table. You can also add a text template.
 
-</td></tr><tr><td id="d677200e144">
+</td></tr><tr><td id="d449293e144">
 
 **HTML, such as Rich description**
 
@@ -63,7 +64,7 @@ The **Value** field appears. You can map your Universal task to multiple fields 
 
 The **Value** field appears. You can map your Universal task to multiple fields from the parent table. You can also add a text template.
 
-</td></tr><tr><td id="d677200e156">
+</td></tr><tr><td id="d449293e156">
 
 **Date field, such as Due date**
 
@@ -81,5 +82,5 @@ The **Value** field appears. You can map your Universal task to multiple fields 
 
 A mapping was created for a specific Universal task field. You can repeat this procedure to map more fields.
 
-**Parent Topic:**[Universal Task templates](../concept/ut-task-template-landing.md)
+**Parent Topic:**[Universal Task templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-task/ut-task-template-landing.md)
 

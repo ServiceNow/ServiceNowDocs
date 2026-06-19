@@ -2,6 +2,7 @@
 title: Enable additional chat features
 description: Add chat features to your chat assistant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.html
 release: zurich
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -17,7 +18,7 @@ Add chat features to your chat assistant.
 
 ## Before you begin
 
-See [Brand an assistant](brand-assistant.md).
+See [Brand and personalize an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/brand-assistant.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -33,7 +34,7 @@ By default, all chat features, except web search mode, are turned on.
 
     **Note:** For premium chat, web search mode and web search fallback are dependent on one another. If web search mode is turned off, web search fallback is unavailable \(grayed out\). If web search mode is turned on, web search fallback is available, and can be turned on or off.
 
-    ![Turn different chat features for your assistant on or off.](../image/NAinVA-chat-features-0426.png "Additional chat features")
+    \[Omitted image "NAinVA-chat-features-0426.png"\] Alt text: Turn different chat features for your assistant on or off.
 
     Web search mode enables users to search the internet by selecting a globe icon within the chat window. The default web search provider, at the instance level, is Google Gemini.
 
@@ -47,7 +48,7 @@ By default, all chat features, except web search mode, are turned on.
 
     -   If you want to use AWS Anthropic as the web search provider, switch the instance-level LLM to Claude.
     -   If the instance LLM is selected as Now LLM Service, Azure OpenAI, or Google Gemini, Gemini will still be the web search provider.
-    -   If you want to use Perplexity AI or Azure OpenAI as the web search provider, you’ll need to perform a custom manual configuration. For more information, see [Manage model providers](https://www.servicenow.com/docs/access?context=edit-model-providers&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+    -   If you want to use Perplexity AI or Azure OpenAI as the web search provider, you’ll need to perform a custom manual configuration. For more information, see .
     To change the LLM provider for Now Assist in Virtual Agent, select the AI agents skill group in Now Assist Admin console. Navigate to **All** &gt; **Now Assist Admin** &gt; **Settings** &gt; **Manage AI models** &gt; **Manage model providers** &gt; **Edit model provider** &gt; **Customize**.
 
 2.  **Allow response streaming** for LLM messages to stream as they are generated instead of appearing all at once.
@@ -56,11 +57,11 @@ By default, all chat features, except web search mode, are turned on.
 
     **Note:** Dynamic Translation can be turned off in the Now Assist Admin console. Turning off Dynamic Translation impacts the entire instance.
 
-    For more information, see [Chat streaming responses](../../virtual-agent/concept/streaming-responses-requestor.md).
+    For more information, see [Chat streaming responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/streaming-responses-requestor.md).
 
 3.  **Allow document uploads** so that users can ask questions about content or get a document summary.
 
-    For more information on file formats for uploading files to an assistant, see [Upload documents in a chat](upload-documents-na-va.md).
+    For more information on file formats for uploading files to an assistant, see [Upload documents in a chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/upload-documents-na-va.md).
 
 4.  **Show closed chats** to allow users to view past chat history.
 
@@ -68,10 +69,10 @@ By default, all chat features, except web search mode, are turned on.
 
 5.  **Allow voice input** so that users can speak to their assistant instead of typing.
 
-    Voice input is only available for Now Assist panel - Platform \(default\) assistant. For more information about voice input, see [Standard chat](https://www.servicenow.com/docs/access?context=now-assist-panel-standard&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US), [Enhanced chat](https://www.servicenow.com/docs/access?context=now-assist-panel-enhanced&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
-
+    -   For Now Assist in Virtual Agent assistants, voice input is available for premium chat. For more information, see [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/nava-integrated-chat.md)
+    -   For Now Assist panel – Platform assistant, voice input is available for standard, enhanced, and premium chat and uses Azure Speech Service for standard chat and enhanced chat or Cartesia for premium chat. For more information about voice input, see , , or .
 
 ## What to do next
 
-See [Manage an assistant chat experience](manage-assistant-chat-experience.md).
+See [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/manage-assistant-chat-experience.md).
 

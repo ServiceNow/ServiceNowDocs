@@ -2,6 +2,7 @@
 title: Generate recommended actions for a security incident with Now Assist for Security Incident Response
 description: Automatically generate the next steps your analysts can take to help them close a security incident in the Security Incident Response Workspace. The recommended steps are based on existing security incidents and knowledge articles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/now-assist-for-security-incident-response-sir/generate-recommended-actions-now-assist-for-security.html
 release: zurich
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -25,7 +26,7 @@ Roles required: sn\_si.analyst, sn\_si.manager, or sn\_si.basic
 
 ## About this task
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 ## Procedure
 
@@ -33,7 +34,7 @@ Roles required: sn\_si.analyst, sn\_si.manager, or sn\_si.basic
 
 2.  Select the **Recommended Actions** icon in the contextual sidebar.
 
-    ![Recommended actions button selected in the contextual sidebar](../image/contextual-sidebar-genai.png)
+    \[Omitted image "contextual-sidebar-genai.png"\] Alt text: Recommended actions button selected in the contextual sidebar
 
 3.  Select **Get recommendations**.
 

@@ -1,7 +1,8 @@
 ---
 title: Agent Client Collector health instance scan suite
-description: The Agent Client Collector \(ACC\) health instance scan suite consists of checks that detect anomalies and other issues that might occur on your instance. These checks are designed to ensure the overall health and performance of the ACC, proactively identifying potential problems before they impact system operations.
+description: The Agent Client Collector \(ACC\) health instance scan suite consists of checks that detect anomalies and other issues that might occur on your instance. These checks ensure the overall health and performance of the ACC, proactively identifying potential problems before they impact system operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-instance-scan-suite.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -13,88 +14,18 @@ breadcrumb: [ACC deployment - shared between servers and endpoints, Agent Client
 
 # Agent Client Collector health instance scan suite
 
-The Agent Client Collector \(ACC\) health instance scan suite consists of checks that detect anomalies and other issues that might occur on your instance. These checks are designed to ensure the overall health and performance of the ACC, proactively identifying potential problems before they impact system operations.
+The Agent Client Collector \(ACC\) health instance scan suite consists of checks that detect anomalies and other issues that might occur on your instance. These checks ensure the overall health and performance of the ACC, proactively identifying potential problems before they impact system operations.
 
-The ACC health instance scan suite consists of the following checks.
+For details on running the ACC health instance scan, see [Run the Agent Client Collector \(ACC\) health instance scan as a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-instance-scan-run.md).
 
-<table id="table_qzb_bj3_12c"><thead><tr><th>
+For details on the ACC health instance scan suite checks, see [Agent Client Collector health instance scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-instance-scan-checks.md).
 
-Check name
+For details on importing the `global.ACCInstanceScanUtil` script include, see the [Script Include ACCInstanceScanUtil \[KB1630132\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1630132) article in the Now Support Knowledge Base.
 
-</th><th>
+-   **[Run the Agent Client Collector \(ACC\) health instance scan as a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-instance-scan-run.md)**  
+Run the **Run \(ACC\) health instance scan** scheduled job to monitor the overall health of the instance receiving data from the Agent Client Collector.
+-   **[Agent Client Collector health instance scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-instance-scan-checks.md)**  
+The Agent Client Collector \(ACC\) health instance scan suite includes checks that detect anomalies and issues on your instance. Use this reference to identify what each check does and when it applies.
 
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-ACC duplicate agent for host CI
-
-</td><td>
-
-Identifies configuration items \(CIs\) associated with multiple active agents, indicating potential issues with CI identification.Requires importing the `global.ACCInstanceScanUtil` for instances associated with the Xanadu release or earlier.
-
-</td></tr><tr><td>
-
-ACC Error Framework
-
-</td><td>
-
-Verifies whether the ACCErrorManager has been created, which enables associating errors to the relevant ACC scoped app. Detects whether an automation source application, automation error category, and automation error code exist for the Agent Client Collector Framework application.
-
-</td></tr><tr><td>
-
-ACC find modified script includes
-
-</td><td>
-
-Detects modified Agent Client Collector Framework script includes that might have been altered post-upgrade.Requires importing the `global.ACCInstanceScanUtil` for instances associated with the Xanadu release or earlier.
-
-</td></tr><tr><td>
-
-ACC skipped upgrades
-
-</td><td>
-
-Reports upgrades that were skipped since the last upgrade.Requires importing the `global.ACCInstanceScanUtil` for instances associated with the Xanadu release or earlier.
-
-</td></tr><tr><td>
-
-ACC verify plugin folder hierarchy
-
-</td><td>
-
-Validates the correct creation of ACC Plugin folders and flags duplicate folders that may cause synchronization issues.
-
-</td></tr><tr><td>
-
-ACC active policies count
-
-</td><td>
-
-Counts the number of active published policies, and if the number is above 300, recommends policy consolidation to improve performance.
-
-</td></tr><tr><td>
-
-ACC agent to MID Connection
-
-</td><td>
-
-Verifies the connection of 1000 agents per 1-GB Java Virtual Machine \(JVM\) to ensure the MID Server isn't overloaded. If overloaded, configure additional JVMs or redistribute agents to other MID Servers.
-
-</td></tr><tr><td>
-
-ACC verify sn\_agent CI counts match
-
-</td><td>
-
-Ensures the records in the sn\_agent\_ci\_extended\_info and sn\_agent\_cmdb\_ci\_agent tables match, confirming data consistency for agents.
-
-</td></tr></tbody>
-</table>For details on importing the `global.ACCInstanceScanUtil` script include, see the [Script Include ACCInstanceScanUtil \[KB1630132\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1630132) article in the Now Support Knowledge Base.
-
-For details on instance scans, see [Instance Scan](https://www.servicenow.com/docs/access?context=hs-landing-page&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
-
-For details on executing the Agent Client Collector health instance scan suite, see [Execute a suite scan](https://www.servicenow.com/docs/access?context=hc-execute-suite-scan&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
-
-**Parent Topic:**[Agent Client Collector deployment - shared between servers and endpoints](acc-shared-deployment.md)
+**Parent Topic:**[Agent Client Collector deployment - shared between servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-shared-deployment.md)
 

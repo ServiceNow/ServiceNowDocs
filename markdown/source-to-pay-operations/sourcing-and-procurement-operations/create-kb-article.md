@@ -2,14 +2,14 @@
 title: Create a knowledge base article about procurement
 description: Create a knowledge base article about procurement so that you can share procurement information and policies with your employees and procurement team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-kb-article.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [procurement case, procurement case management, knowledge base article]
-breadcrumb: [Using Procurement Case Management, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Using Procurement Case Management, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Create a knowledge base article about procurement
@@ -18,7 +18,7 @@ Create a knowledge base article about procurement so that you can share procurem
 
 ## Before you begin
 
-Role required: sn\_spend\_psd.agent, sn\_spend\_psd.admin
+Role required: sn\_spend\_psd.agent, sn\_spend\_psd.psd\_admin
 
 ## Procedure
 
@@ -28,7 +28,7 @@ Role required: sn\_spend\_psd.agent, sn\_spend\_psd.admin
 
 3.  On the form, fill in the fields.
 
-    ![Create new knowledge base article.](../image/create_kb_article.png)
+    \[Omitted image "create\_kb\_article.png"\] Alt text: Create new knowledge base article.
 
     |Field|Description|
     |-----|-----------|
@@ -54,10 +54,6 @@ Role required: sn\_spend\_psd.agent, sn\_spend\_psd.admin
     |**Save**|To save an article, from the Additional actions menu, select **Save**.|
 
 
-## Result
-
-A knowledge base article has been created.
-
 ## What to do next
 
 -   View your submitted articles by navigating to **Knowledge** &gt; **My Knowledge Articles**
@@ -65,5 +61,5 @@ A knowledge base article has been created.
 -   Manage the article workflows, such as reviewing, publishing, updating, or retiring the article.
 -   Monitor the performance metrics of your article by navigating to **Procurement Case Management** &gt; **PSM Dashboards**.
 
-**Parent Topic:**[Using Procurement Case Management](../concept/using-pcm.md)
+**Parent Topic:**[Using Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/using-pcm.md)
 

@@ -2,6 +2,7 @@
 title: Debugging classifications
 description: You must add a system property to enable classification debugging.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/r\_DebuggingClassifications.html
 release: zurich
 product: Scripts
 classification: scripts
@@ -38,5 +39,5 @@ Enables debugging information for process classification.-   Type: true \| false
 -   Location: Add to the System Properties \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Debugging scripts](../concept/script-debug-overview.md)
+</table>**Parent Topic:**[Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/script-debug-overview.md)
 

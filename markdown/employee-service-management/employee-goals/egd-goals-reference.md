@@ -2,6 +2,7 @@
 title: Employee Goals reference
 description: Reference topics provide additional information about the components and forms associated with the Employee Goals application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-goals/egd-goals-reference.html
 release: zurich
 product: Employee Goals
 classification: employee-goals

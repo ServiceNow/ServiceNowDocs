@@ -2,6 +2,7 @@
 title: Capturing information from a user in a Facebook Messenger chat conversation
 description: Use the collection of input controls provided by the Virtual Agent Designer to prompt and capture information from the user in a Facebook Messenger chat conversation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/messg-fbm-capture-info.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -15,7 +16,7 @@ breadcrumb: [Use, Conversational Integration with Facebook Messenger, Integrate 
 
 Use the collection of input controls provided by the Virtual Agent Designer to prompt and capture information from the user in a Facebook Messenger chat conversation.
 
-Virtual Agent Designer is a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user. For more information, see [Getting started with Virtual Agent Designer](../reference/conversation-designer-virtual-agent.md).
+Virtual Agent Designer is a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user. For more information, see [Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 
 The Conversational Integration with Facebook Messenger application supports the following user input controls in Virtual Agent Designer.
 
@@ -70,7 +71,7 @@ Date Time
 
 </td><td>
 
-User selects a calendar date, time \(hours and minutes\), or both.**Note:** If your administrator has set the option to request time zone from the customer, the selected date and time reflect customer's time zone. Else, they appear in the UTC time zone. For more information about the time zone setting, see [1.f](../task/messg-fbm-setup.md#time-zone).
+User selects a calendar date, time \(hours and minutes\), or both.**Note:** If your administrator has set the option to request time zone from the customer, the selected date and time reflect customer's time zone. Else, they appear in the UTC time zone. For more information about the time zone setting, see [1.f](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-fbm-setup.md).
 
 </td></tr><tr><td>
 
@@ -81,7 +82,7 @@ Carousel
 User selects a single item from the carousel.In a carousel, the title for an image has maximum limit of 40 characters and the text for the image has maximum character limit of 60 characters. At a time, a user can view only 10 images. If there are more than 10 images, the pagination format is used to view more options. The default value of the maximum number of images in a carousel for a page is set in the **sn\_va\_fb\_messenger.max\_carousel\_cards** system property \(location: System Property \[sys\_properties\] table\).
 
 </td></tr></tbody>
-</table>For more information about configuring user input controls, see [Assistant Designer user input controls](../reference/va-user-inputs.md).
+</table>For more information about configuring user input controls, see [Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-user-inputs.md).
 
 The Conversational Integration with Facebook Messenger application supports the following bot responses in Virtual Agent Designer.
 
@@ -126,9 +127,9 @@ Card
 Bot sends selected information from a record on your instance.
 
 </td></tr></tbody>
-</table>**Note:** You can also return search results as bot responses in Facebook Messenger chat conversations when there are no relevant topics to display to end users. For more information, see [Improving the user experience with AI Search](va-ai-search.md).
+</table>**Note:** You can also return search results as bot responses in Facebook Messenger chat conversations when there are no relevant topics to display to end users. For more information, see [Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-ai-search.md).
 
-For more information about configuring bot responses, see [Virtual Agent Designer bot responses](../reference/va-bot-responses.md).
+For more information about configuring bot responses, see [Virtual Agent Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md).
 
-**Parent Topic:**[Using Conversational Integration with Facebook Messenger](messg-fbm-using.md)
+**Parent Topic:**[Using Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-fbm-using.md)
 

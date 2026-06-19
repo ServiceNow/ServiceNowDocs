@@ -2,6 +2,7 @@
 title: SNMP credentials
 description: Discovery explores many kinds of devices \(switches, routers, printers, and so on\) using the SNMP protocol. Credentials for SNMP don’t include a user name, just a password, called the community string.The SNMP Community credential type manages access to discover many kinds of devices \(switches, routers, printers, etc.\) using the SNMP protocol. This credential type is available for Discovery, Service Mapping, and Orchestration.SNMPv3 credentials accept a privacy protocol and an additional privacy key and are available for Discovery and Orchestration. For external storage in CyberArk, you can select a privacy account key.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/connections-and-credentials/c\_SNMPCredentials.html
 release: zurich
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -91,7 +92,7 @@ External credential store
 
 </td><td>
 
-Select this check box to use an external credential storage system. When you select this option the **User name** and **Password** fields are replaced with the **Credential ID** field. [External credential storage](c_ExternalCredentialStorage.md) is only available when the External Credential Storage plugin in activated. **Note:** Currently, the only supported external storage system is [CyberArk](c_CyberArkCredStorageIntegrate.md).
+Select this check box to use an external credential storage system. When you select this option the **User name** and **Password** fields are replaced with the **Credential ID** field. [External credential storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/c_ExternalCredentialStorage.md) is only available when the External Credential Storage plugin in activated. **Note:** Currently, the only supported external storage system is [CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/c_CyberArkCredStorageIntegrate.md).
 
 </td></tr><tr><td>
 
@@ -259,7 +260,7 @@ External credential store
 
 </td><td>
 
-Select this check box to use an external credential storage system. When external storage is enabled, the **Credential ID** field appears. External credential storage is only available when the [External Credential Storage plugin](../task/t_ActivateExtrnlCredStoragePlugIn.md) is activated and the **External Storage** view is selected.
+Select this check box to use an external credential storage system. When external storage is enabled, the **Credential ID** field appears. External credential storage is only available when the [External Credential Storage plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/t_ActivateExtrnlCredStoragePlugIn.md) is activated and the **External Storage** view is selected.
 
 </td></tr><tr><td>
 

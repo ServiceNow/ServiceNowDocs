@@ -2,6 +2,7 @@
 title: Delegate time sheet approvals to another user
 description: You can delegate the responsibilities to process the time sheets of your resources to another user when you might not have time or will be unavailable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/time-card-management/delegate-time-sheet-approvals.html
 release: zurich
 product: Time Card Management
 classification: time-card-management
@@ -52,5 +53,5 @@ The approval delegation has the following effects during the specified period:
 -   On the Time Sheet Portal, the delegate can see your resources under **Delegates** in the **My Time Sheet** list.
 -   Delegates can perform all the functions that you can do for your resources in the Time Sheet Portal: Create and submit their time sheets, approve or reject the submitted time sheets, and recall the processed time sheets.
 
-**Parent Topic:**[Time Sheets](../concept/time-sheets.md)
+**Parent Topic:**[Time Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/time-card-management/time-sheets.md)
 

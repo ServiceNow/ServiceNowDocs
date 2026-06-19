@@ -2,7 +2,10 @@
 title: Define rules to process incoming emails
 description: Define your email-related business processes using Inbound Email Flows. Manage emails along with your customer service processes through a visual Flow Designer interface without having to design or request complex scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/define-process-incoming-emails.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-09-19"
 reading_time_minutes: 1
@@ -72,7 +75,7 @@ The defined inbound email flow is activated.
 **Related topics**  
 
 
-[Building flows](https://www.servicenow.com/docs/access?context=flows&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.flows]
 
-[Building custom actions](https://www.servicenow.com/docs/access?context=actions&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.actions]
 

@@ -2,10 +2,13 @@
 title: Setting up the SharePoint Online Search Connector
 description: Set up the SharePoint Online Search Connector by configuring and connecting the Microsoft SharePoint tenant with your instance. Validate the connection to avoid any setup failures before indexing the sites for search.Configure your Microsoft SharePoint tenant to get started with the SharePoint Online Search Connector.Link search sources to a search profile to specify the content users can search through the linked search profile.Connect your ServiceNow instance with a Microsoft SharePoint tenant. Create custom ServiceNow OAuth connections for Microsoft SharePoint to authenticate ServiceNow requests.Run a validation after you connect your ServiceNow instance with a Microsoft SharePoint tenant to check for any errors in the configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/setup-sp-ovrvw.html
 release: zurich
+product: Employee Service Management
+classification: employee-service-management
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 11
+reading_time_minutes: 10
 breadcrumb: [SharePoint Online Search Connector, Employee Service Management]
 ---
 
@@ -27,9 +30,9 @@ For deprecation details, see the [Deprecation Process \[KB0867184\]](https://sup
 
 Ensure you complete the following prerequisites.
 
--   Follow the procedure to [Configure OAuth application in Microsoft Azure](https://www.servicenow.com/docs/access?context=configure-oauth-application-in-microsoft-azure&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
--   Follow the procedure to [Set up Microsoft Entra ID spoke](https://www.servicenow.com/docs/access?context=set-up-azure&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US). Microsoft Entra ID spoke \(formerly known as Microsoft Azure Active Directory spoke\) is a dependent plugin that needs to be set up before indexing the users.
--   Understand how to [Configure Microsoft SharePoint Graph connection](https://www.servicenow.com/docs/access?context=configure-microsoft-sharepoint-graph-connection&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+-   Follow the procedure to .
+-   Follow the procedure to . Microsoft Entra ID spoke \(formerly known as Microsoft Azure Active Directory spoke\) is a dependent plugin that needs to be set up before indexing the users.
+-   Understand how to .
 -   Log in with your admin credentials to grant permissions.
 
 Role required: admin
@@ -40,7 +43,7 @@ Complete the following procedure from your Microsoft SharePoint account. For mor
 
 **Note:** When the permissions assigned in the Azure apps have privilege issues, the following error message appears: `Error message: Method failed: (/_api/web/XXXXXXX) with code: 401 - Invalid username/password combo`. Address this issue with the instructions available in [KB1117977](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1117977).
 
-When you want the search results to display only the published versions of the documents, ensure you select **Application permissions** instead of the **Delegated permissions** while configuring the permissions explained in [Microsoft SharePoint Online Spoke](https://www.servicenow.com/docs/access?context=sharepoint-online-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+When you want the search results to display only the published versions of the documents, ensure you select **Application permissions** instead of the **Delegated permissions** while configuring the permissions explained in .
 
 **Note:** Admins can limit indexing to the published versions only, ensuring that drafts or unfinished work aren’t displayed in the search results.​
 
@@ -108,15 +111,15 @@ When you want the search results to display only the published versions of the d
 
 6.  Ensure you configure the required API permissions as shown in the following image:
 
-    ![image.spoc-permissions-azure]
+    \[Omitted image "spoc-permissions-azure.png"\] Alt text: SharePoint configured permission list
 
-    For more information, see [Configure Microsoft SharePoint Graph connection](https://www.servicenow.com/docs/access?context=configure-microsoft-sharepoint-graph-connection&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+    For more information, see .
 
 7.  Click **Grant admin consent**, select **Yes**, and click **Save and Continue**.
 
 8.  Navigate to **Authentication** &gt; **Web** &gt; **Redirect URLs** and add the URL in this format `https://<your Servicenow instance URL>/oauth_redirect.do`, for example, [https://eesharepoint.example.com/oauth\_redirect.do](https://eesharepoint.example.com/oauth_redirect.do) and click **Save**.
 
-9.  Navigate to [Microsoft SharePoint Online Spoke](https://www.servicenow.com/docs/access?context=sharepoint-online-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) and register the certificate and secret for your application.
+9.  Navigate to  and register the certificate and secret for your application.
 
 10. Click **Add user** on the [Microsoft admin portal](http://admin.microsoft.com/AdminPortal/Home#/users), specify the user details, and click **Finish**.
 
@@ -127,7 +130,7 @@ When you want the search results to display only the published versions of the d
 
 ### What to do next
 
-Complete the integration from your ServiceNow AI Search account. For more information, see [Integrate the Microsoft SharePoint search sources with the AI Search profiles](setup-sp-ovrvw.md#).
+Complete the integration from your ServiceNow AI Search account. For more information, see [Integrate the Microsoft SharePoint search sources with the AI Search profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/setup-sp-ovrvw.md).
 
 ## Integrate the Microsoft SharePoint search sources with the AI Search profiles
 
@@ -145,12 +148,12 @@ Role required: admin
 
     -   Search Engine: **AI Search**.
     -   Search Profile: **ESC Portal Default Search Profile**. This dynamic field value is visible after you change the **Search Engine** value.
-    For more information, see [Create a search application configuration for AI Search](https://www.servicenow.com/docs/access?context=create-search-app-config-ais&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For more information, see .
 
 
 ### What to do next
 
-Connect the ServiceNow® instance with the Microsoft SharePoint tenant. Complete the steps from your ServiceNow® account. For more information, see [Connect your ServiceNow instance to a Microsoft SharePoint tenant](setup-sp-ovrvw.md#).
+Connect the ServiceNow® instance with the Microsoft SharePoint tenant. Complete the steps from your ServiceNow® account. For more information, see [Connect your ServiceNow instance to a Microsoft SharePoint tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/setup-sp-ovrvw.md).
 
 ## Connect your ServiceNow instance to a Microsoft SharePoint tenant
 
@@ -177,11 +180,11 @@ Role required: sn\_sp\_con.admin and admin.
 
     1.  On the Graph connection form, fill in the fields.
 
-        For a description of the field value, see [Graph connection form](../reference/graph-connection-form.md).
+        For a description of the field value, see [Graph connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/graph-connection-form.md).
 
     2.  On the REST connection form, fill in the fields.
 
-        For a description of the field value, see [REST connection form](../reference/rest-connection-form.md).
+        For a description of the field value, see [REST connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/rest-connection-form.md).
 
     3.  Right-click the form header and click **Save**.
 
@@ -190,7 +193,7 @@ Role required: sn\_sp\_con.admin and admin.
 
     -   `<Graph application registry name>.default_profile`
     -   `<REST application registry name>.default_profile`
-    Two system-generated OAuth entity profiles \(REST and Graph\) are created in the OAuth Entity Profiles \[oauth\_entity\_profile\] table. For more information, see [Specify an OAuth profile](https://www.servicenow.com/docs/access?context=t_SpecifyAnOAuthProfile&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+    Two system-generated OAuth entity profiles \(REST and Graph\) are created in the OAuth Entity Profiles \[oauth\_entity\_profile\] table. For more information, see 
 
 7.  **OAuth Entity Scopes**
 8.  Insert a row with the following values in the OAuth Entity Scopes \[oauth\_entity\_scope\] table:
@@ -236,7 +239,7 @@ Application: Global
 OAuth Scope:`https://<instance name>.sharepoint.com/`
 
 </td></tr></tbody>
-</table>    For more information, see [Specify an OAuth scope](https://www.servicenow.com/docs/access?context=t_SpecifyAnOAuthScope&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+</table>    For more information, see .
 
 9.  **OAuth Entity Profiles Scopes**
 10. Insert a row with the following values in the OAuth Entity Profiles Scopes \[oauth\_entity\_profile\_scope\] table:
@@ -279,7 +282,7 @@ OAuth entity profile
 </td></tr></tbody>
 </table>    2.  Right-click the form header and click **Save**.
 
-        **Note:** For more information on Entities, Connection &amp; Credential Aliases, see [Configure the SharePoint Graph Root Site Subscription connection and credential alias record](https://www.servicenow.com/docs/access?context=conf-graph-root&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+        **Note:** For more information on Entities, Connection &amp; Credential Aliases, see .
 
 13. **Connection**
 14. Navigate to **Connections &amp; Credentials** &gt; **Connection**, and click **New** to create HTTP\(s\) connections for the following **Graph** or **REST**.
@@ -296,7 +299,7 @@ OAuth entity profile
 
     2.  Right-click the form header and click **Save**.
 
-    For more information, see [Connections and Credentials](https://www.servicenow.com/docs/access?context=r-credentials&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) and [Create an HTTP\(s\) connection](https://www.servicenow.com/docs/access?context=create-https-connection&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+    For more information, see  and .
 
 15. **Tenants**
 16. Navigate to **Microsoft Sharepoint Online** &gt; **Tenants.**
@@ -356,14 +359,14 @@ Global
 </td></tr></tbody>
 </table>    3.  Right-click the topic header and click **Save**.
 
-    For more information, see [Define tenants](https://www.servicenow.com/docs/access?context=create-tenant&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US), [Configure the SharePoint Graph Root Site Subscription connection and credential alias record](https://www.servicenow.com/docs/access?context=conf-graph-root&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US), and [Create aliases for multiple tenants](https://www.servicenow.com/docs/access?context=create-aliases-sharepoint&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)
+    For more information, see , , and 
 
 17. **Certificates**
 18. Navigate to **System definition** &gt; **Certificates** &gt; **Microsoft SharePoint Online Certificate**.
 
     1.  Attach the file generated Java Key Store certificate on the Azure AD portal.
 
-        For more information, see [Attach a Java Key Store certificate](https://www.servicenow.com/docs/access?context=set-up-microsoft-sharepoint-online-and-connection-record&version=zurich&pubname=zurich-integrate-applications&section=ms-sharept-attachjks&ft:locale=en-US).
+        For more information, see .
 
     2.  Update the Key store password with the password of the `Java Key Store (.jks)` file.
 
@@ -371,7 +374,7 @@ Global
 
     4.  Right-click the topic header and click **Save**.
 
-    For more information, see [Configure the SharePoint Graph Root Site Subscription connection and credential alias record](https://www.servicenow.com/docs/access?context=conf-graph-root&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+    For more information, see .
 
 19. **JWT keys**
 20. Navigate to **System OAuth** &gt; **JWT keys** &gt; **Microsoft SharePoint Online JWT Keys**.
@@ -405,7 +408,7 @@ Global
 
             Ensure that you log in to your Microsoft SharePoint instance with the Tenant administrator credentials to get the OAuth token for the REST connection. Store the credentials in the instance.
 
-            Validate the credential to avoid any configuration failure. For more information on validating the SharePoint connection, see [Validate the Microsoft SharePoint connection](setup-sp-ovrvw.md#).
+            Validate the credential to avoid any configuration failure. For more information on validating the SharePoint connection, see [Validate the Microsoft SharePoint connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/setup-sp-ovrvw.md).
 
     3.  Click **Save**.
 
@@ -421,7 +424,7 @@ Global
 
     2.  Click **Save**.
 
-        For more information, see [Set up the AI Search spoke](https://www.servicenow.com/docs/access?context=setup-ais-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+        For more information, see .
 
         **Note:** Ensure you create a trusted domain record for each tenant, when there are multiple tenants.
 
@@ -432,19 +435,19 @@ Global
 
     2.  Specify the **User name** and **Password** of the user \(sys\_user\) who has the **ais\_external\_content** role.
 
-        ![ingest user](../image/spoc-ingest-user.png)
+        \[Omitted image "spoc-ingest-user.png"\] Alt text: ingest user
 
         **Note:** In the example screenshot, the user `abel.tuter` is the sys\_user who has the ais\_external\_content role assigned.
 
     3.  Click **Submit**.
 
-        For more information, see [Create aliases for multiple tenants](https://www.servicenow.com/docs/access?context=create-aliases-sharepoint&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+        For more information, see .
 
-    4.  Configure the [AI Search server connection](https://www.servicenow.com/docs/access?context=setup-ais-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) before you proceed with the next steps.
+    4.  Configure the AI Search server connection before you proceed with the next steps.
 
     The Entity View Action Mapper \(EVAM\) configuration is available by default with Employee Center Pro version 32.0.
 
-    For more information on EVAM definition, see [Create an EVAM action definition](https://www.servicenow.com/docs/access?context=define-evam-action&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) and [Create a multi-data source list display in Entity View Action Mapper](https://www.servicenow.com/docs/access?context=tutorial-create-evam&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    For more information on EVAM definition, see  and .
 
 
 ### Result
@@ -453,7 +456,7 @@ Your configuration is complete.
 
 ### What to do next
 
-[Validate the Microsoft SharePoint connection](setup-sp-ovrvw.md#) to rule out any configuration failure before indexing a sample site.
+[Validate the Microsoft SharePoint connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/setup-sp-ovrvw.md) to rule out any configuration failure before indexing a sample site.
 
 ## Validate the Microsoft SharePoint connection
 
@@ -486,5 +489,5 @@ The validation rules out any configuration failure and ensures a seamless setup 
 
 ### What to do next
 
-Index sites for search. For more information, see [Index sites for search](sharepoint-how-to-configure-search.md).
+Index sites for search. For more information, see [Index sites for search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/sharepoint-how-to-configure-search.md).
 

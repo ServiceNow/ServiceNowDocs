@@ -2,6 +2,7 @@
 title: Using Operational Technology Knowledge Management
 description: After you complete all the required set-up tasks for Operational Technology Knowledge Management, you can begin managing knowledge articles that are related to Operational Technology \(OT\) incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-knowledge-management/using-operational-technology-knowledge-management.html
 release: zurich
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
@@ -28,25 +29,25 @@ The following examples show how to apply  Operational Technology Knowledge Man
 
 The following workflow describes the basic process for Operational Technology Knowledge Management.
 
-![Basic OT Knowledge Management workflow that describes the user creating a knowledge base, the knowledge article being added to the knowledge base, and other users using the knowledge article.](../image/article-creation-workflow-otkm.png "Basic OT Knowledge workflow")
+\[Omitted image "article-creation-workflow-otkm.png"\] Alt text: Basic OT Knowledge Management workflow that describes the user creating a knowledge base, the knowledge article being added to the knowledge base, and other users using the knowledge article.
 
 ## Publish a knowledge article
 
 The following workflow describes how a knowledge article is created and published both with \(Approve Publish\) and without \(Instant Publish\) approval.
 
-![The two available Publish a knowledge article workflows where the user can either immediately publish an article or the article needs to be approved by a manager or expert.](../image/publish-workflow-otkm.png "Publish workflow")
+\[Omitted image "publish-workflow-otkm.png"\] Alt text: The two available Publish a knowledge article workflows where the user can either immediately publish an article or the article needs to be approved by a manager or expert.
 
 ## Retire a knowledge article
 
 The following workflow describes how a knowledge article is retired both with \(Approve Retire\) and without \(Instant Retire\) approval. The Instant Retire workflow lets you retire articles immediately without needing an approval. The Approval Retire workflow sends an approval request to knowledge managers or experts to make sure that retiring the article is necessary.
 
-![The two Retire a knowledge article workflows where the user can retire an article either with an approval from a manager or expert, or they can retire it without approval.](../image/retire-workflow-otkm.png "Retire workflow")
+\[Omitted image "retire-workflow-otkm.png"\] Alt text: The two Retire a knowledge article workflows where the user can retire an article either with an approval from a manager or expert, or they can retire it without approval.
 
 ## Review and approve changes to a knowledge article
 
 The following workflow describes how an existing knowledge article is updated with user feedback.
 
-![Knowledge article is updated and republished with a user feedback workflow.](../image/knowledge-gap-workflow-otkm.png "User feedback workflow")
+\[Omitted image "knowledge-gap-workflow-otkm.png"\] Alt text: Knowledge article is updated and republished with a user feedback workflow.
 
 ## Knowledge articles
 
@@ -79,18 +80,18 @@ Under the Knowledge module in the Industrial Workspace list view, you can view k
     All articles that are available in the OT knowledge base.
 
 
--   **[Create a knowledge article from an OT incident record](../task/create-knowledge-base-article-from-incident.md)**  
+-   **[Create a knowledge article from an OT incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-knowledge-management/create-knowledge-base-article-from-incident.md)**  
 Create a knowledge article to record and save information that is related to an Operational Technology \(OT\) incident and its resolution.
--   **[Create a knowledge article in Industrial Workspace](../task/create-knowledge-base-article-in-industrial-workspace.md)**  
+-   **[Create a knowledge article in Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-knowledge-management/create-knowledge-base-article-in-industrial-workspace.md)**  
 Create a knowledge article in Industrial Workspace to help cater an article's contents to the needs and solutions not directly related to an Operational Technology \(OT\) incident.
--   **[Report a knowledge gap from an OT incident record](../task/report-knowledge-base-gap.md)**  
+-   **[Report a knowledge gap from an OT incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-knowledge-management/report-knowledge-base-gap.md)**  
 Report a knowledge gap from an Operational Technology \(OT\) incident if you can't find relevant knowledge articles about the incident.
--   **[Approve requests to publish or retire a knowledge article](../task/approve-publish-edit-retire-requests.md)**  
+-   **[Approve requests to publish or retire a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-knowledge-management/approve-publish-edit-retire-requests.md)**  
 Approve requests to publish or retire a knowledge article to help ensure that the knowledge base is up to date.
--   **[Assign feedback tasks](../task/assign-feedback-tasks.md)**  
+-   **[Assign feedback tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-knowledge-management/assign-feedback-tasks.md)**  
 Assign feedback tasks to a user to help make sure that the feedback task is addressed and the related knowledge article is updated.
--   **[Find information in the related knowledge articles for an OT incident](../task/display-related-knowledge-base-articles.md)**  
+-   **[Find information in the related knowledge articles for an OT incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-knowledge-management/display-related-knowledge-base-articles.md)**  
 Find information in the related knowledge articles that are attached to an Operational Technology \(OT\) incident record for any previous resolutions that may be applicable.
 
-**Parent Topic:**[Operational Technology Knowledge Management](operational-technology-knowledge-management-landing-page.md)
+**Parent Topic:**[Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-knowledge-management/operational-technology-knowledge-management-landing-page.md)
 

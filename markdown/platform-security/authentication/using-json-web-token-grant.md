@@ -2,11 +2,12 @@
 title: JSON Web token grant workflow
 description: Use this flow when a client application needs secure, unattended access to ServiceNow resources, either as itself or on behalf of a user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/using-json-web-token-grant.html
 release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [JWT Grant, Inbound integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
@@ -32,7 +33,7 @@ The client application generates a signed JWT with identity-related claims such 
     The token identifies and authenticates the client application. Instead of using a shared secret, the application signs the token with a private key. This offers a more secure alternative to the client credentials grant.
 
 
-![JWT Grant Workflow](../images/mic-jwt-grant-workflow.png "JWT Grant workflow")
+\[Omitted image "mic-jwt-grant-workflow.png"\] Alt text: JWT Grant Workflow
 
 ## Procedure
 

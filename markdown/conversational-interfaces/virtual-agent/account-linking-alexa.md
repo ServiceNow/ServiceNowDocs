@@ -2,6 +2,7 @@
 title: Account linking with Alexa
 description: Link your Alexa account with your ServiceNow instance to retrieve information from your custom skill.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/account-linking-alexa.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -19,18 +20,18 @@ Link your Alexa account with your ServiceNow instance to retrieve information fr
 
 1.  Configure your ServiceNow instance to link it with your Alexa account.
 
-    For more information, see [Create an OAuth API endpoint for external clients](https://www.servicenow.com/docs/access?context=t_CreateEndpointforExternalClients&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+    For more information, see Create an OAuth API endpoint for external clients.
 
-2.  To configure your Alexa account for account linking, see [Configure your Alexa account](../task/configure-alexa-console.md).
-3.  To link the Alexa events with your ServiceNow instance using your macOS Terminal, see [Link Alexa events using the macOS Terminal](../task/link-alexa-mac-terminal.md).
-4.  To link your ServiceNow instance with your Alexa account using the Alexa app, see [Link your account using the Alexa app](../task/link-using-alexa-app.md).
+2.  To configure your Alexa account for account linking, see [Configure your Alexa account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-alexa-console.md).
+3.  To link the Alexa events with your ServiceNow instance using your macOS Terminal, see [Link Alexa events using the macOS Terminal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/link-alexa-mac-terminal.md).
+4.  To link your ServiceNow instance with your Alexa account using the Alexa app, see [Link your account using the Alexa app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/link-using-alexa-app.md).
 
--   **[Configure your Alexa account](../task/configure-alexa-console.md)**  
+-   **[Configure your Alexa account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-alexa-console.md)**  
 Configure your Alexa account to link it with your ServiceNow instance.
--   **[Link Alexa events using the macOS Terminal](../task/link-alexa-mac-terminal.md)**  
+-   **[Link Alexa events using the macOS Terminal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/link-alexa-mac-terminal.md)**  
 Link Alexa events using your macOS Terminal to complete the Alexa account linking process with your ServiceNow instance.
--   **[Link your account using the Alexa app](../task/link-using-alexa-app.md)**  
+-   **[Link your account using the Alexa app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/link-using-alexa-app.md)**  
 Link your ServiceNow account using your Alexa mobile application.
 
-**Parent Topic:**[Configure Conversational Integration with Alexa](configure-amazon-alexa.md)
+**Parent Topic:**[Configure Conversational Integration with Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-amazon-alexa.md)
 

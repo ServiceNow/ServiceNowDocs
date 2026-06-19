@@ -2,6 +2,7 @@
 title: Delete an NLU model
 description: Delete a Natural Language Understanding \(NLU\) model permanently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/nlu-service/delete-nlu-model.html
 release: zurich
 product: NLU Service
 classification: nlu-service
@@ -36,18 +37,16 @@ Deleting an NLU model removes the model and its contents, including its default 
 
 3.  On the far right column of the model list, select the more the **More options** menu for the model you want to delete.
 
-    ![The More options menu in the model list](../images/delete-nlu-model02.png)
+    \[Omitted image "delete-nlu-model02.png"\] Alt text: The More options menu in the model list
 
 4.  Select the option to **Delete this model**.
 
 5.  Select the check box to acknowledge that all references to this model will be deleted.
 
-    ![Confirmation popup for Delete model](../images/delete-nlu-model03.png)
+    \[Omitted image "delete-nlu-model03.png"\] Alt text: Confirmation popup for Delete model
 
 6.  Select **Delete model**.
 
     The system deletes your model and reloads the page.
 
-
-**Parent Topic:**[Creating models](../concept/creating-models.md)
 

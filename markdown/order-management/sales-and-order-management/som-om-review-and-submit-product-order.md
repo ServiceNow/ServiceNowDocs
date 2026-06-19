@@ -2,6 +2,7 @@
 title: Review and submit a product or service order in Order Management
 description: Review all the order line items as the next step in the process to create a product order. Edit the order details as needed before submitting it for fulfillment approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/som-om-review-and-submit-product-order.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,7 +24,7 @@ Role required: sn\_ind\_tmt\_orm.order\_agent, order\_approver
 
 1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace.** .
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Customer Orders** &gt; **All**.
 
@@ -140,11 +141,11 @@ Aggregate cost of all charges, both, one-time and recurring, associated with the
 </td></tr></tbody>
 </table>    **Note:** You can't manually adjust the amounts that appear in the pricing fields. They only change if you change the characteristic values for the order line items.
 
-7.  To update the configuration or quantity for an order line item, select the Edit icon ![](../../../reuse/icons/product-icons/pencil-outline-24.svg).
+7.  To update the configuration or quantity for an order line item, select the Edit icon \[Omitted image "pencil-outline-24.svg"\] Alt text:.
 
     You're redirected to the configurator UI for making updates.
 
-8.  To delete an order line item, select the Delete icon ![](../image/trash-icon.png).
+8.  To delete an order line item, select the Delete icon \[Omitted image "trash-icon.png"\] Alt text:.
 
 9.  Save any changes or updates and select the **Reprice** to reset the total pricing.
 
@@ -155,7 +156,7 @@ Aggregate cost of all charges, both, one-time and recurring, associated with the
 
 ## What to do next
 
-For complex orders, capture technical details. For more information, see [Capture order enrichment details for complex fulfillment](capture-order-enrichment-details.md).
+For complex orders, capture technical details. For more information, see [Capture order enrichment details for complex fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/capture-order-enrichment-details.md).
 
-If order enrichment tasks don't apply, move to order approval. For more information, see [Approving or rejecting orders](../concept/approving-rejecting-orders-som.md).
+If order enrichment tasks don't apply, move to order approval. For more information, see [Approving or rejecting orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/approving-rejecting-orders-som.md).
 

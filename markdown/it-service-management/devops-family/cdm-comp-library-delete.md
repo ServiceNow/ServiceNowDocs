@@ -2,13 +2,14 @@
 title: Delete a component library
 description: Delete a component library and all of its components if no application is using the library's components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-family/cdm-comp-library-delete.html
 release: zurich
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Sharing components among applications — Component libraries, Use, DevOps Config, IT Service Management]
+breadcrumb: [Sharing components among applications — Component libraries, Using DevOps Config, DevOps Config, IT Service Management]
 ---
 
 # Delete a component library
@@ -25,9 +26,9 @@ Role required: cdm\_admin
 
 1.  Navigate to **All** &gt; **DevOps Config** &gt; **DevOps Config Workspace**.
 
-2.  Click the component libraries icon \(![Component libraries icon.](../image/icon-component-libraries.png)\) in the left navigation to open the **Component libraries** tab.
+2.  Click the component libraries icon \(\[Omitted image "icon-component-libraries.png"\] Alt text: Component libraries icon.\) in the left navigation to open the **Component libraries** tab.
 
-3.  From the **Options** button \(![Options button.](../image/icon-options-button.png)\), select **Delete** and then confirm the delete action.
+3.  From the **Options** button \(\[Omitted image "icon-options-button.png"\] Alt text: Options button.\), select **Delete** and then confirm the delete action.
 
     **Note:** If a component is being used in any application, the **Delete** option is not available.
 

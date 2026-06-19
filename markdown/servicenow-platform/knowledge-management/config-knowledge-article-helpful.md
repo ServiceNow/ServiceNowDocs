@@ -2,6 +2,7 @@
 title: Configure article helpful widget instance options
 description: Configure the Knowledge Article Helpful widget instance options for the Knowledge Management article view page in the Knowledge Management Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/config-knowledge-article-helpful.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -36,7 +37,7 @@ The article view page uses the Knowledge Article Helpful widget to allow users t
     |Instance option|Description|
     |---------------|-----------|
     |Bootstrap color|The color of the widget header.|
-    |CSS|Custom configurations that determine the look and feel of the elements in the widget. For more information, see [Service Portal SCSS Primer](https://www.servicenow.com/docs/access?context=scss-primer&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).|
+    |CSS|Custom configurations that determine the look and feel of the elements in the widget. For more information, see Service Portal SCSS Primer.|
     |Show helpful percentage information|Check box to enable the display of percentage of users who found this article to be helpful.|
     |Helpful Action Label|Label for marking this article as helpful or not.|
     |Feedback Message|Text that displays when the user marks the article as helpful or not.|
@@ -44,5 +45,5 @@ The article view page uses the Knowledge Article Helpful widget to allow users t
 5.  Click **Save**.
 
 
-**Parent Topic:**[Knowledge Management Service Portal widgets](../concept/km-service-portal-widget-instances.md)
+**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
 

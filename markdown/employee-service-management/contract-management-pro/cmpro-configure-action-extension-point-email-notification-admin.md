@@ -2,6 +2,7 @@
 title: Configure extension point for notifications
 description: Add or modify an Action and its functionality on the Standard ticket page for a contract request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cmpro-configure-action-extension-point-email-notification-admin.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -20,7 +21,7 @@ Add or modify an Action and its functionality on the Standard ticket page for a 
 Role required: Admin
 
 -   Review the configuration of the script include, scripted extension points, and widgets.
--   For more information about using and customizing the script includes, see [Script includes](https://servicenow.com/docs/bundle/vancouver-application-development/page/script/server-scripting/concept/c_ScriptIncludes.html).
+-   For more information about using and customizing the script includes, see .
 -   Ensure that you've set the application scope to this application.
 
 ## About this task
@@ -35,7 +36,7 @@ The base system `ApprovalNotificationWorkspaceURLExt` script provides the config
 
     2.  Search and select the **ApprovalNotificationWorkspaceURLExt** extension point.
 
-        ![Extension point for approval notification.](../image/cmpro-aprval-ext-point.png "Approval notification extension point")
+        \[Omitted image "cmpro-aprval-ext-point.png"\] Alt text: Extension point for approval notification.
 
     3.  Add or modify an implementation for a practice area.
 
@@ -74,7 +75,7 @@ The base system `ApprovalNotificationWorkspaceURLExt` script provides the config
 
 To see a list of available default email notifications, go to **All** &gt; **System Notification** &gt; **Notifications** and search for the **Contracts Support** category.
 
-To create new email notifications, see [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+To create new email notifications, see .
 
-**Parent Topic:**[Manage notifications in Contract Management Pro](../concept/cmpro-manage-notifications.md)
+**Parent Topic:**[Manage notifications in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-manage-notifications.md)
 

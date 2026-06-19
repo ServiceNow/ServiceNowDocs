@@ -2,6 +2,7 @@
 title: Splunk data input configuration fields
 description: Description of the fields on the Splunk data input configuration form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-data-input-splunk-ref.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -249,5 +250,5 @@ Option for selecting to discard logs if there is a load on the MID Server.
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data input configuration field descriptions](../concept/hla-data-input-config-fields.md)
+</table>**Parent Topic:**[Data input configuration field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

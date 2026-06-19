@@ -2,6 +2,7 @@
 title: Assign a payment claim
 description: Assign a case for a payment claim to yourself or to another claim agent so that you or another agent can start working on the case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-payment-operations/assign-payment-claim.html
 release: zurich
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
@@ -27,7 +28,7 @@ When a case for a claim is created, the case is automatically assigned to an ass
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Claims**, click **All**.
 
@@ -42,5 +43,5 @@ When a case for a claim is created, the case is automatically assigned to an ass
 
 The case is assigned to the claim agent. If the agent also belongs to an agent assignment group, the group's name appears in the **Assignment group** field.
 
-**Parent Topic:**[Managing payment claims and debit approvals](../concept/managing-payment-claims.md)
+**Parent Topic:**[Managing payment claims and debit approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/managing-payment-claims.md)
 

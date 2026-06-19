@@ -2,6 +2,7 @@
 title: Localize the bot messages
 description: Localize the bot messages to receive them in a language of your choice during your conversations with the bot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/localize-bot-messg.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -44,5 +45,5 @@ Role required: virtual\_agent\_admin
 
 Start a new conversation with the bot. You will notice that the translated message is displayed by the bot in user’s preferred Microsoft Teams language, if you have already provided the translation for that language.
 
-**Parent Topic:**[Configure Virtual Agent for Microsoft Teams](configure-va-msteams-settings.md)
+**Parent Topic:**[Configure Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-va-msteams-settings.md)
 

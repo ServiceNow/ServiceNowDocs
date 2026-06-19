@@ -2,6 +2,7 @@
 title: Approve or reject an engagement in Audit Workspace
 description: If you are an audit user and are assigned as an approver for an engagement, you can approve or reject an engagement in the Awaiting Approval state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/approve-engagement-audit-ws.html
 release: zurich
 product: Audit Management
 classification: audit-management
@@ -23,7 +24,7 @@ Role required: sn\_audit.user, sn\_audit\_ws.auditor
 
 1.  Navigate to **All** &gt; **Audit** &gt; **Audit Workspace**.
 
-2.  Click the tasks icon \(![Tasks icon](../image/TasksIcon.jpg)\).
+2.  Click the tasks icon \(\[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon\).
 
     The workspace opens listing all engagements assigned to you including the ones waiting for your approval.
 

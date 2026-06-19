@@ -2,6 +2,7 @@
 title: Using AEMC
 description: AEMC enables you to manage app development and deployments, all in one centralized location. Learn about how you can use AEMC to govern your organization's app development.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-management-center/using-aemc.html
 release: zurich
 product: App Engine Management Center
 classification: app-engine-management-center
@@ -26,10 +27,10 @@ The App Engine Management Center \(AEMC\) is designed to empower App Engine admi
 -   Schedule app deployments.
 -   View insights about developers and custom apps within their ServiceNow environment.
 
--   **[Managing app development using the App Engine Management Center](managing-app-development-using-aemc.md)**  
+-   **[Managing app development using the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/managing-app-development-using-aemc.md)**  
 Track and manage requests, deployments, applications, and collaborative developers for your custom applications using the App Engine Management Center \(AEMC\) in your production instance.
--   **[Managing deployments using Pipelines and Deployments](../../app-engine-studio/concept/manage-deployments-using-p-and-d-aemc.md)**  
+-   **[Managing deployments using Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/manage-deployments-using-p-and-d-aemc.md)**  
 Manage deployments using Pipelines and Deployments in AEMC.
 
-**Parent Topic:**[App Engine Management Center](app-engine-management-center.md)
+**Parent Topic:**[App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/app-engine-management-center.md)
 

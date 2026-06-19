@@ -2,6 +2,7 @@
 title: Create a cloud policy
 description: A cloud policy can override a property value set by a user, create an approval task, reserve an IP address, pre-populate or hide form fields, execute custom scripts, call the Cloud API, or start or abort subflows. A cloud policy gives you system-wide control over approvals, resource operations, blueprint operations, or catalog item settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/create-cloud-policy.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -17,12 +18,12 @@ A cloud policy can override a property value set by a user, create an approval t
 
 ## Before you begin
 
--   Optional: [Create one or more cloud policy groups](create-cloud-policy-group-1.md).
+-   Optional: [Create one or more cloud policy groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 -   Role required: sn\_cmp.cloud\_governor or admin
 
 ## About this task
 
-This procedure describes every policy type except approval policies \(on Blueprint provision \(approval\), on Stack operation \(approval\), on Stack resource operation \(approval\), and on Task remediation\). See [Create a cloud approval policy](create-cloud-approval-policy.md) for instructions on creating a policy with an approval trigger.
+This procedure describes every policy type except approval policies \(on Blueprint provision \(approval\), on Stack operation \(approval\), on Stack resource operation \(approval\), and on Task remediation\). See [Create a cloud approval policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-cloud-approval-policy.md) for instructions on creating a policy with an approval trigger.
 
 ## Procedure
 
@@ -30,7 +31,7 @@ This procedure describes every policy type except approval policies \(on Bluepri
 
 2.  Click **New** and then fill in the form.
 
-    ![Policy form](../image/new-cloud-policy.png "Example policy form")
+    \[Omitted image "new-cloud-policy.png"\] Alt text: Policy form
 
 <table id="table_zk1_ctq_fz"><thead><tr><th>
 
@@ -70,7 +71,7 @@ Policy Trigger
 
 </td><td>
 
-A trigger that specifies when the policy should be applied. For example, the **on Lease end** trigger applies the policy when the lease for a stack ends. See [Triggers for cloud policies](../reference/policy-triggers-cloud-mgt.md).
+A trigger that specifies when the policy should be applied. For example, the **on Lease end** trigger applies the policy when the lease for a stack ends. See [Triggers for cloud policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/policy-triggers-cloud-mgt.md).
 
 </td></tr><tr><td>
 
@@ -130,7 +131,7 @@ Order of Execution
 
 Specify a number that represents the order in which the policy is applied. A policy with a lower number runs before a policy with a higher number. For example, a policy with **Order** of **100** runs before a policy with an **Order** of **200**.
 
- **Note:** The **Order of Execution** property does not apply for on Blueprint provision \(approval\), on Stack operation \(approval\), on Stack resource operation \(approval\), and on Task remediation policies. See [Create a cloud approval policy](create-cloud-approval-policy.md) for details.
+ **Note:** The **Order of Execution** property does not apply for on Blueprint provision \(approval\), on Stack operation \(approval\), on Stack resource operation \(approval\), and on Task remediation policies. See [Create a cloud approval policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-cloud-approval-policy.md) for details.
 
 </td></tr><tr><td>
 
@@ -148,36 +149,36 @@ Status
 
 ## What to do next
 
-[Configure a cloud policy rule](configure-cloud-policy-rule.md) for the policy.
+[Configure a cloud policy rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/configure-cloud-policy-rule.md) for the policy.
 
--   **[Configure a cloud policy rule](configure-cloud-policy-rule.md)**  
+-   **[Configure a cloud policy rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/configure-cloud-policy-rule.md)**  
 A policy rule is a collection of conditions and actions. ​If all conditions evaluate to true, the policy engine performs the actions. If any condition evaluates to false, the policy engine does not perform the actions.
--   **[Using expressions in Cloud Provisioning and Governance](../reference/expressions-cloud-mgt.md)**  
+-   **[Using expressions in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/expressions-cloud-mgt.md)**  
 Expressions in policy actions can set or override values. Expressions in blueprints can access attributes of resources and can map values to request form fields. Expressions are available in resource blocks, blueprints, policies, and anywhere that Cloud Provisioning and Governance allows scripts.
--   **[Create an action for an 'on Blueprint provision' policy](create-action-on-bp-provision.md)**  
+-   **[Create an action for an 'on Blueprint provision' policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-action-on-bp-provision.md)**  
 The on Blueprint provision trigger fires after execution of on Catalog item request start policies. A policy that is triggered by the on Blueprint provision trigger can run a script, override a user-requested attribute value, or abort and send a message about the provision operation.
--   **[Create an action for an approval policy](create-action-on-approval.md)**  
+-   **[Create an action for an approval policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-action-on-approval.md)**  
 A policy that is triggered by one of the approval triggers can start approval subflows. The approval triggers are \(on Blueprint provision \(approval\), on Stack operation \(approval\), on Stack resource operation \(approval\), and on Task remediation.
--   **[Create an action for an 'on Catalog item launch' policy](create-action-on-cat-item-launch.md)**  
+-   **[Create an action for an 'on Catalog item launch' policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-action-on-cat-item-launch.md)**  
 The on Catalog item launch trigger fires when an order form \(stack request form\) is launched for a catalog item. A policy that is triggered by the on Catalog item launch trigger can run a script or override a user-requested value \(text values only\).
--   **[Create an action for an 'on Catalog item request start/end' policy](create-action-on-cat-item-request.md)**  
+-   **[Create an action for an 'on Catalog item request start/end' policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-action-on-cat-item-request.md)**  
 The on Catalog item request start trigger fires after the user opens a request form. The on Catalog item request end trigger fires after a user submits a request form. A policy that is triggered by the on Catalog item request start or on Catalog item request end trigger can run a script or execute a subflow.
--   **[Create an action for an 'on Lease end' policy](create-action-on-lease-end.md)**  
+-   **[Create an action for an 'on Lease end' policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-action-on-lease-end.md)**  
 A policy that is triggered by the on Lease end trigger can send a notification or perform a Start, Stop, or Deprovision life cycle operation.
--   **[Create an action for an 'on Resource operation' policy](create-action-on-resource-op.md)**  
+-   **[Create an action for an 'on Resource operation' policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-action-on-resource-op.md)**  
 The on Resource operation trigger fires during the Orchestration process when a user performs a Start, Stop, or Deprovision life cycle operation on a specific resource. A policy that is triggered by the on Resource operation trigger can override a user-requested attribute value, run a script, call a Cloud API, or perform an IP address management operation.
--   **[Create an action for an 'on Resource operation launch' policy](create-action-on-resrce-op-launch.md)**  
+-   **[Create an action for an 'on Resource operation launch' policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-action-on-resrce-op-launch.md)**  
 The on Resource operation launch trigger fires before the catalog for a resource operation is loaded from the Cloud User Portal. A policy that is triggered by the on Resource operation launch trigger can run a script or can override a user-requested value \(text values only\).
--   **[Create an action for an 'on Resource operation request start/end' policy](create-action-on-resrce-op-reqst.md)**  
+-   **[Create an action for an 'on Resource operation request start/end' policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-action-on-resrce-op-reqst.md)**  
 A policy that is triggered by the on Resource operation request start or on Resource operation request end trigger can run a script or override a user-requested attribute value.
--   **[Create an action for an 'on Resource Limit exceeded' policy](create-action-on-resource-limits-exceeded.md)**  
+-   **[Create an action for an 'on Resource Limit exceeded' policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-action-on-resource-limits-exceeded.md)**  
 Set the **on Resource limits exceeded** policy to automatically run approval subflows or send notifications when an order form is submitted for a template-based catalog item that exceeds the defined resource limit or quota values.
--   **[Create an action for an 'on Task Remediation' policy](create-action-on-remediation.md)**  
+-   **[Create an action for an 'on Task Remediation' policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-action-on-remediation.md)**  
 The on Task remediation trigger fires when a user resubmits a failed request. A policy that is triggered by the on Task Remediation trigger can start approval subflows.
--   **[Create a policy action script](create-policy-script.md)**  
+-   **[Create a policy action script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-policy-script.md)**  
 Use policy action scripts to get, update, or set values in cloud requests.
--   **[Example policy action script that tags resources](add-tag-for-policy.md)**  
+-   **[Example policy action script that tags resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/add-tag-for-policy.md)**  
 Your instance tracks tagged resources for billing and reporting. Policy action scripts can add and modify resource tags. This example tags a storage volume resource.
 
-**Parent Topic:**[Policies for Cloud Provisioning](../concept/cloud-policy.md)
+**Parent Topic:**[Policies for Cloud Provisioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloud-policy.md)
 

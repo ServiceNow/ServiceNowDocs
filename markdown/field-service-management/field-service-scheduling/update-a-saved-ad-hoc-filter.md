@@ -2,6 +2,7 @@
 title: Update a saved ad-hoc filter
 description: Update ad-hoc filters saved in Dispatcher Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/update-a-saved-ad-hoc-filter.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling

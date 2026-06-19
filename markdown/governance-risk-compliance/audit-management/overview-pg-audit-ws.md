@@ -2,6 +2,7 @@
 title: Manage an engagement from the overview page
 description: After you create and save an engagement with the basic information such as the description, dates, scope, and the objectives, you can see the overview page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/overview-pg-audit-ws.html
 release: zurich
 product: Audit Management
 classification: audit-management
@@ -25,7 +26,7 @@ Use the overview page to get the necessary details and monitor the state flow of
 -   manage issues
 -   complete the audit engagement using the different related items
 
-Select the ![Sidebar icon](../../grc-workspace-compliance/image/pc-ws-sidebar-icon.png) icon to view the scope of the engagement.
+Select the \[Omitted image "pc-ws-sidebar-icon.png"\] Alt text: Sidebar icon icon to view the scope of the engagement.
 
-![Overview of an audit engagement.](../image/engagement-aw-record-pg.png "Overview of an audit engagement")
+\[Omitted image "engagement-aw-record-pg.png"\] Alt text: Overview of an audit engagement.
 

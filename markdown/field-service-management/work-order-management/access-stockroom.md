@@ -2,6 +2,7 @@
 title: Access stockroom information on the Field Service Contractor Portal
 description: As a manager or agent of contractor companies, you can access and view the availability of assets in your stockrooms using the Field Service Contractor Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/access-stockroom.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

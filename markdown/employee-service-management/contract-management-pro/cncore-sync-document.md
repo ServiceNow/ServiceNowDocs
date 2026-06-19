@@ -2,6 +2,7 @@
 title: Create an updated contract document revision after modifying a self-served contract request \(starting Contract Management Pro 1.2.1\)
 description: When a contract request is modified, sync the contract document for self-served requests to create a new revision of the document with updated metadata and signatories while retaining the changes made in the previous version of the contact document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-sync-document.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -21,7 +22,7 @@ When a contract request is modified, sync the contract document for self-served 
 
 You can sync a contract document only when the contract request is in the Work in progress state.
 
-**Note:** Tables aren’t updated when you use the **Sync document** option. You must regenerate the document to update the tables. For more information, see [Regenerate contract document after modifying request](cncore-regen-contract-doc.md).
+**Note:** Tables aren’t updated when you use the **Sync document** option. You must regenerate the document to update the tables. For more information, see [Regenerate contract document after modifying request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-regen-contract-doc.md).
 
 ## Before you begin
 
@@ -37,12 +38,12 @@ Role required: sn\_cm\_core.contract\_fulfiller or sn\_cm\_core.contract\_user
 
 4.  Select **Sync document**.
 
-    ![Sync document to update the contract.](../image/cmpro-sync-doc.png "Sync document")
+    \[Omitted image "cmpro-sync-doc.png"\] Alt text: Sync document to update the contract.
 
 
 ## Result
 
 A new contract document revision is created with the updated metadata and signatories. The changes made in the previous revision are retained.
 
-**Parent Topic:**[Use self-served contract request](../concept/cncore-request-ss-contract-1.md)
+**Parent Topic:**[Use self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

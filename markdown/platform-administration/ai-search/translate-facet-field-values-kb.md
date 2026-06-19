@@ -2,6 +2,7 @@
 title: Configure translation for knowledge article reference field values in facets
 description: Specify whether facets should display knowledge article reference field values in the search user's session language. If you disable translation, facets display knowledge article reference field values in your instance's default language.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/translate-facet-field-values-kb.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -27,7 +28,7 @@ As an example, if you search from a Japanese session on an English-language inst
 
 Search administrators can disable this translation behavior for knowledge article reference fields. With translation disabled, search users will see knowledge article facet field values in the instance's default language instead of in their session language.
 
-To learn more about facets, see [Create a facet in an AI Search application configuration](create-facet-ais.md). For details on translated field values, see [System Localization](../../localization/concept/system-localization-landing.md).
+To learn more about facets, see [Create a facet in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-facet-ais.md). For details on translated field values, see [System Localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/system-localization-landing.md).
 
 ## Procedure
 
@@ -44,7 +45,7 @@ To learn more about facets, see [Create a facet in an AI Search application conf
     |Name|index\_translated\_reference\_fields|
     |Value|false|
 
-    **Note:** To re-enable translation for facets, so that knowledge article reference field values appear in the user's session language when translated field values are available, set the index\_translated\_reference\_fields attribute's value back to **true**, its default value. For more information on the index\_translated\_reference\_fields attribute, see [Indexed source attributes for AI Search](../concept/indexed-source-attributes-ais.md#).
+    **Note:** To re-enable translation for facets, so that knowledge article reference field values appear in the user's session language when translated field values are available, set the index\_translated\_reference\_fields attribute's value back to **true**, its default value. For more information on the index\_translated\_reference\_fields attribute, see [Indexed source attributes for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/indexed-source-attributes-ais.md).
 
 5.  Select **Submit**.
 
@@ -52,7 +53,7 @@ To learn more about facets, see [Create a facet in an AI Search application conf
 
 6.  If you changed the index\_translated\_reference\_fields attribute's value, select **Index All Tables** to reindex content for the Knowledge Table indexed source.
 
-    For more details on reindexing, see [Perform a full table index or reindex for a single AI Search indexed source](index-single-source-ais.md).
+    For more details on reindexing, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/index-single-source-ais.md).
 
 
 ## Result
@@ -61,5 +62,5 @@ Facets for knowledge article reference fields display field value translations i
 
 **Note:** If you set the index\_translated\_reference\_fields attribute's value back to `true` and see knowledge article reference field values displayed in the instance's default language in facets, check whether translations of these field values exist for the user's session language.
 
-**Parent Topic:**[Internationalization support for AI Search](../concept/international-language-support-ais.md)
+**Parent Topic:**[Internationalization support for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/international-language-support-ais.md)
 

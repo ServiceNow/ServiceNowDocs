@@ -2,6 +2,7 @@
 title: Download and fill Excel templates for bulk upload
 description: Use an Excel template to provide information about your campuses, buildings, and floors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/indoor-mapping/download-bulk-template.html
 release: zurich
 product: Indoor Mapping
 classification: indoor-mapping
@@ -29,7 +30,7 @@ Role required: sn\_map\_core.admin
 
 4.  In the downloaded template file, fill in the information.
 
-    For more information about the template columns, see [Bulk upload Excel columns](../reference/bulk-template-columns.md).
+    For more information about the template columns, see [Bulk upload Excel columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/bulk-template-columns.md).
 
     **Important:** You must use the precise latitude and longitude coordinates for your campus and building. For more information about getting precise coordinates, see [Google Maps Help](https://support.google.com/maps/answer/18539).
 
@@ -38,5 +39,5 @@ Role required: sn\_map\_core.admin
 
 After filling the Excel template files, you can upload them to your instance. You must upload the files in the following order: **Campus** &gt; **Building** &gt; **Floor**.
 
-For more information about uploading the files to your instance, see [Upload Excel files](upload-excel-files.md).
+For more information about uploading the files to your instance, see [Upload Excel files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/upload-excel-files.md).
 

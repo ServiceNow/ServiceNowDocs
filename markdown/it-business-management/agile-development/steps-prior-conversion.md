@@ -2,6 +2,7 @@
 title: Complete the prerequisites for converting teams to Agile Development 2.0 groups
 description: Perform prerequisite steps to later ensure that the conversion of teams to Agile Development 2.0 groups is successful.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/steps-prior-conversion.html
 release: zurich
 product: Agile Development
 classification: agile-development
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-**Important:** Agile Development 1.0 and its features such as Sprint burndown chart and release burndown chart are deprecated and no longer available. [Agile Development 2.0](../reference/agile-landing-page.md) provides the latest experience for supporting your Agile work methodology.
+**Important:** Agile Development 1.0 and its features such as Sprint burndown chart and release burndown chart are deprecated and no longer available. [Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/agile-landing-page.md) provides the latest experience for supporting your Agile work methodology.
 
 The team being selected should have at least one sprint that is current. The current sprint should have a few completed and a few WIP stories. This is to verify that the sprint burndown is updated correctly post conversion. If you do not have such a team, you may select any team for conversion.
 
@@ -48,5 +49,5 @@ The team being selected should have at least one sprint that is current. The cur
         **sprint.release\_teamSTARTSWITH&lt;name of the team&gt;**
 
 
-**Parent Topic:**[Convert Agile Development 1.0 teams to Agile Development 2.0 groups](convert-teams-groups.md)
+**Parent Topic:**[Convert Agile Development 1.0 teams to Agile Development 2.0 groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/convert-teams-groups.md)
 

@@ -2,6 +2,7 @@
 title: Generate the Vendor Satisfaction Assessment in Vendor Management Workspace
 description: Use Assessments and Surveys to assess how satisfied your stakeholders are with the vendors they collaborate with. Generate assessments using the Vendor Satisfaction Assessment metric type that comes with the Vendor Management Workspace application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/vendor-management-workspace/generate-vendor-satisfaction-survey-configurable-workspace.html
 release: zurich
 product: Vendor Management Workspace
 classification: vendor-management-workspace
@@ -31,7 +32,7 @@ The **Vendor Satisfaction Assessment** metric type is used to measure the satisf
 
     1.  Select **Vendor Satisfaction Assessment**.
 
-        For descriptions of the assessment metric type fields, refer to [Configure an assessment](https://www.servicenow.com/docs/access?context=configure-assessment&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+        For descriptions of the assessment metric type fields, refer to Configure an assessment.
 
     2.  Select the **Conditions** tab.
 
@@ -83,9 +84,9 @@ The **Vendor Satisfaction Assessment** metric type is used to measure the satisf
 **Related topics**  
 
 
-[Configure an assessment](https://www.servicenow.com/docs/access?context=configure-assessment&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.configure-assessment]
 
-[Survey Management](https://www.servicenow.com/docs/access?context=r_SurveyManagementLandingPage&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.r_SurveyManagementLandingPage]
 
-[Assessment metrics](https://www.servicenow.com/docs/access?context=c_AssessmentMetrics&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.c_AssessmentMetrics]
 

@@ -2,6 +2,7 @@
 title: Modify schedule adherence and conformance formulas by using extension points
 description: Configure and tweak the schedule adherence and conformance formulas using scripted extension points to customize them for your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workforce-optimization-for-hr/modify-schedule-adherence-wfo-hr.html
 release: zurich
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -35,7 +36,7 @@ Use the `sn_shift_planning.ScheduleAdherenceExtPt` extension point and create an
 
 5.  Modify the formulas for calculating the schedule adherence and conformance in the `getAdherencePercentage` and `getConformancePercentage` methods.
 
-    ![Extension Script for Schedule Adherence.](../image/extension-script-adherence-wfo-hr.jpg)
+    \[Omitted image "extension-script-adherence-wfo-hr.jpg"\] Alt text: Extension Script for Schedule Adherence.
 
 6.  Click **Update**.
 
@@ -44,5 +45,5 @@ Use the `sn_shift_planning.ScheduleAdherenceExtPt` extension point and create an
 
 The schedule adherence and conformance calculations are based on the formulas in the implementation.
 
-**Parent Topic:**[Setting up Scheduling for Workforce Optimization for HR](setup-scheduling-wfo-hr.md)
+**Parent Topic:**[Setting up Scheduling for Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workforce-optimization-for-hr/setup-scheduling-wfo-hr.md)
 

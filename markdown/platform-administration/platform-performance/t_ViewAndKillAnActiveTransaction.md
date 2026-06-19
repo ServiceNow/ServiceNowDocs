@@ -2,6 +2,7 @@
 title: View and kill active transaction
 description: Administrators can view active transactions and kill long-running transactions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-performance/t\_ViewAndKillAnActiveTransaction.html
 release: zurich
 product: Platform Performance
 classification: platform-performance
@@ -25,7 +26,7 @@ This action is intended to stop background processes, such as scheduled jobs, an
 
 ## Procedure
 
-1.  If [High Security Settings](https://www.servicenow.com/docs/access?context=c_HighSecuritySettings&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) are enabled, elevate privileges to security\_admin.
+1.  If High Security Settings are enabled, elevate privileges to security\_admin.
 
 2.  Navigate to the appropriate **Active Transactions** module.
 
@@ -40,5 +41,5 @@ This action is intended to stop background processes, such as scheduled jobs, an
     -   Select and hold \(or right-click\) the record and select **Kill** from the available options.
     -   Select the check box next to one or more records and select **Kill** from the **Actions on selected rows** drop-down menu.
 
-**Parent Topic:**[Transaction cancellation](../concept/transaction-cancellation.md)
+**Parent Topic:**[Transaction cancellation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/transaction-cancellation.md)
 

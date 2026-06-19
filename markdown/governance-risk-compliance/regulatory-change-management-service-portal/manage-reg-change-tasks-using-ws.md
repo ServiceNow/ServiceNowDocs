@@ -2,6 +2,7 @@
 title: Manage regulatory change tasks
 description: Manage the regulatory change tasks that are associated with the regulatory event alert. When a business entity owner completes the impact assessment on the regulatory event alert, the user with the sn\_grc\_reg\_change.user role reviews the assessment summary and marks the alert as applicable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/regulatory-change-management-service-portal/manage-reg-change-tasks-using-ws.html
 release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -35,15 +36,15 @@ The coordinator of the regulatory event alert identifies the steps to comply wit
 
 4.  Review the impact assessment and mark the alert using one of the following options.
 
-<table id="choicetable_utb_d4n_brb"><thead><tr><th align="left" id="d33039e110">
+<table id="choicetable_utb_d4n_brb"><thead><tr><th align="left" id="d35497e110">
 
 Field
 
-</th><th align="left" id="d33039e113">
+</th><th align="left" id="d35497e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d33039e119">
+</th></tr></thead><tbody><tr><td id="d35497e119">
 
 **Applicable**
 
@@ -51,7 +52,7 @@ Description
 
 Mark the alert as applicable. After marking the regulatory event alert as **Applicable**, a new regulatory change task is automatically created in the Regulatory Tasks related list in the regulatory alert UI page.
 
-</td></tr><tr><td id="d33039e131">
+</td></tr><tr><td id="d35497e131">
 
 **Not applicable**
 
@@ -66,7 +67,7 @@ Mark the alert as not applicable.
 -   Other
 As a result of this action, the stepper component displays the alert stage as **Completed**.
 
-</td></tr><tr><td id="d33039e167">
+</td></tr><tr><td id="d35497e167">
 
 **Cancel regulatory alert**
 
@@ -74,7 +75,7 @@ As a result of this action, the stepper component displays the alert stage as **
 
 Cancel the regulatory alert.
 
-</td></tr><tr><td id="d33039e176">
+</td></tr><tr><td id="d35497e176">
 
 **Defer**
 
@@ -250,15 +251,15 @@ Attachments related to the task.
 
 8.  Select **Respond**.
 
-    The **Respond** action triggers the impact radius calculation in the background. For information on impact radius calculation, see [Impact radius for regulatory alerts of type regulatory event](../../grc-rcm/concept/impact-calculation-approval.md). The regulatory change task is updated with the **Responded** state.
+    The **Respond** action triggers the impact radius calculation in the background. For information on impact radius calculation, see [Impact radius for regulatory alerts of type regulatory event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/impact-calculation-approval.md). The regulatory change task is updated with the **Responded** state.
 
 9.  Add an action task if necessary.
 
-    See [Create a new action task for the alert](create-action-task-using-ws.md) for creating an action task.
+    See [Create a new action task for the alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/create-action-task-using-ws.md) for creating an action task.
 
 10. Add issues if necessary.
 
-    See [Create or add an issue related to a regulatory task](create-an-issue-reg-change-comp-ws.md) for more information.
+    See [Create or add an issue related to a regulatory task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/create-an-issue-reg-change-comp-ws.md) for more information.
 
 11. After creating necessary action tasks and issues, select **Request Approval**.
 
@@ -271,5 +272,5 @@ Verify that the regulatory change task is updated with the **Responded** state a
 
 ## What to do next
 
-[Create a new action task for the alert](create-action-task-using-ws.md)
+[Create a new action task for the alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/create-action-task-using-ws.md)
 

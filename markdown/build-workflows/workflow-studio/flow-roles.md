@@ -2,6 +2,7 @@
 title: Flow roles
 description: Create flows and subflows that run with specific roles. Assigning roles enables you to create user-initiated flows that run with their own roles rather than the user's roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/flow-roles.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -17,7 +18,7 @@ Create flows and subflows that run with specific roles. Assigning roles enables 
 
 ## Role selection
 
-A flow runs as either the system user or as the user who initiates the session. You can only assign roles to flows that run as the user who initiates the session. When the flow runs as the system user, it runs with the system role, and individual role selection isn't available. For more information, see [Create a flow in Workflow Studio](../task/create-flow.md).
+A flow runs as either the system user or as the user who initiates the session. You can only assign roles to flows that run as the user who initiates the session. When the flow runs as the system user, it runs with the system role, and individual role selection isn't available. For more information, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-flow.md).
 
 You can assign multiple roles to a flow. Selecting new roles replaces the flow's original roles. If roles aren't selected, the flow runs with the roles of the user who initiates the session.
 
@@ -47,7 +48,7 @@ Flows and subflows each run with their own roles. Subflows don't inherit roles f
 
 ## Access control lists
 
-Assigning a role to a flow doesn't guarantee that the flow can access a record or table. While roles are an important part of access control lists \(ACLs\), they are just one possible condition. If a flow cannot access the records you expect it to, review the record ACL rules for the table and fields. The ACL rules might require additional criteria to grant access. For more information, see [access control list rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+Assigning a role to a flow doesn't guarantee that the flow can access a record or table. While roles are an important part of access control lists \(ACLs\), they are just one possible condition. If a flow cannot access the records you expect it to, review the record ACL rules for the table and fields. The ACL rules might require additional criteria to grant access. For more information, see access control list rules.
 
-**Parent Topic:**[Exploring flows](../../workflow-studio/concept/exploring-flows.md)
+**Parent Topic:**[Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-flows.md)
 

@@ -2,6 +2,7 @@
 title: Request a new model
 description: Request a new model in the Employee Center to initiate the model intake process and capture all required details for review and approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/model-risk-management/request-new-model.html
 release: zurich
 product: Model Risk Management
 classification: model-risk-management
@@ -31,15 +32,15 @@ Any employee \[sn\_grc\_emp\_user.grc\_employee\] can request a model, when the 
 
 4.  On the form, fill in the fields.
 
-    For a description of the field values on the New Model Intake form, see [New Model Intake form](../reference/new-model-intake-form.md).
+    For a description of the field values on the New Model Intake form, see [New Model Intake form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/model-risk-management/new-model-intake-form.md).
 
 5.  Select **Submit**.
 
     A new model record is created and submitted to the Model Governance team to review.
 
 
--   **[New Model Intake form](../reference/new-model-intake-form.md)**  
+-   **[New Model Intake form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/model-risk-management/new-model-intake-form.md)**  
 Use the New Model Intake form to request a new model by providing details such as the purpose, owner, model complexity, and expected outputs.
 
-**Parent Topic:**[Using Model Risk Management](../concept/using-mrm.md)
+**Parent Topic:**[Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/model-risk-management/using-mrm.md)
 

@@ -2,6 +2,7 @@
 title: Incident templates and record producers
 description: Templates simplify the process of submitting new records by populating fields automatically. A template ensures consistency in the way information about the incident is captured. A record producer is a specific type of catalog item that allows end users to create task-based records, such as incident records, from the service catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/incident-templates-record-producers.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -25,14 +26,14 @@ ESS users typically log incidents using a record producer in the service catalog
 
 For example, an incident record producer can be created to request account access to a network server. The user who submits the incident enters variable values, such as the server name, level of access needed, and due date. The incident template assigned to the record producer populates the incident **Category**, **Subcategory**, and **Assignment Group**. These fields and values applied from the template do not appear in the record producer form.
 
--   **[Create incident template](../task/t_CreateAnIncidentTemplate.md)**  
-Create an incident template to ensure consistency in the way information about the incident request is captured. A template also helps you to create incident easily and accurately.
--   **[Create a module that uses incident template](../task/t_UseATemplateFromAModule.md)**  
+-   **[Create incident template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/t_CreateAnIncidentTemplate.md)**  
+Create an incident template to confirm consistency in the way information about the incident request is captured. A template also helps you to create incident easily and accurately.
+-   **[Create a module that uses incident template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/t_UseATemplateFromAModule.md)**  
 Create a module to log an incident with pre-filled field values from an existing template.
--   **[Create a record producer to log incidents](../task/t_CreateARecordProducer.md)**  
+-   **[Create a record producer to log incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/t_CreateARecordProducer.md)**  
 Create record producers to log incidents directly from Service Catalog.
--   **[Create a record producer using a template](../task/t_CreateRecProducWithTempl.md)**  
+-   **[Create a record producer using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/t_CreateRecProducWithTempl.md)**  
 If a predefined incident template exists, it can be used with the record producer to fill in standard information for the incident.
 
-**Parent Topic:**[Configuring Incident Management](incident-configuration.md)
+**Parent Topic:**[Configuring Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/incident-configuration.md)
 

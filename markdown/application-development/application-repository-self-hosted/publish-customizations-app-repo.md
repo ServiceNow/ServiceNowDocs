@@ -2,6 +2,7 @@
 title: Publish customizations to an application repository
 description: After you have designed, developed, and successfully tested your customizations to a store application or a scoped plugin, you can publish it to the ServiceNow application repository to share it to other instances in your company.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/application-repository-self-hosted/publish-customizations-app-repo.html
 release: zurich
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
@@ -21,7 +22,7 @@ Role required: admin, or delegated\_developer with Publish To App Repo permissio
 
 Only one customization can be created per vendor or customer code registered on the store and app repo.
 
-To enable a developer to publish an application to the application repository, delegate the Publish to App Repo permission to the developer. For more information, see [Delegating development permissions to personnel](t_AddADeveloper.md).
+To enable a developer to publish an application to the application repository, delegate the Publish to App Repo permission to the developer. For more information, see [Delegating development permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/t_AddADeveloper.md).
 
 ## Procedure
 
@@ -29,7 +30,7 @@ To enable a developer to publish an application to the application repository, d
 
 2.  Find the application by typing its name in the Filter Navigation box.
 
-    ![Filter navigation box](../image/filter-box.png)
+    \[Omitted image "filter-box.png"\] Alt text: Filter navigation box
 
 3.  Open the application record for which you want to publish the customization to the application repository.
 

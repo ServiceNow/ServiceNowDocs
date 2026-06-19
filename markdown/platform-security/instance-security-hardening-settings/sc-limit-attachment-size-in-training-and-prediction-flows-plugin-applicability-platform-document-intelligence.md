@@ -2,6 +2,7 @@
 title: Limit attachment size in training and prediction flows \[New in Security Center 1.3 and updated in 1.5\]
 description: The glide.platform\_ml\_di.max\_attachment\_size property controls the maximum allowed size limit for returning attachments in training and prediction flows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-limit-attachment-size-in-training-and-prediction-flows-plugin-applicability-platform-document-intelligence.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -71,7 +72,7 @@ Category
 
 </td><td>
 
-[File and resources](sc-file-resources.md)
+[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 
 </td></tr><tr><td>
 
@@ -92,5 +93,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[File and resources](sc-file-resources.md)
+</table>**Parent Topic:**[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 

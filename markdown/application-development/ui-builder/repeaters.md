@@ -2,6 +2,7 @@
 title: Add repeaters to components
 description: In UI Builder, use repeaters to repeat one or more components with results from a data resource.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/repeaters.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -21,7 +22,7 @@ Role required: ui\_builder\_admin
 
 ## About this task
 
-The repeater component acts as a basic loop that repeats the data you provide in multiple components within UI Builder. Repeaters use an array or an array of objects. For example, the array `[{"task": "A"},{"task": "B"}]` repeats the content inside it two times. Repeaters enable you to [bind](../concept/ui-builder-glossary.md#) values to a data array property. `@item.value.{property_name}` binds the values to the component inside the repeaters. If you want to bind a task, you can bind it as `@item.value.task`, and the repeater displays the correct value.
+The repeater component acts as a basic loop that repeats the data you provide in multiple components within UI Builder. Repeaters use an array or an array of objects. For example, the array `[{"task": "A"},{"task": "B"}]` repeats the content inside it two times. Repeaters enable you to [bind](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/ui-builder-glossary.md) values to a data array property. `@item.value.{property_name}` binds the values to the component inside the repeaters. If you want to bind a task, you can bind it as `@item.value.task`, and the repeater displays the correct value.
 
 Components inside a repeater repeat the number of items in the data source, regardless of whether the component output is made dynamic or not. For example, say that you place a Header component inside a repeater with three data elements but don't change the Label field. Then you see three instances of the Header with the same output Label.
 
@@ -31,15 +32,15 @@ Components inside a repeater repeat the number of items in the data source, rega
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Open the editor for the page where you want to add the repeater.
 
-    If you haven't created a page for your experience, see [Create a page in UI Builder](create-page.md) for more information on how to create a page.
+    If you haven't created a page for your experience, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/create-page.md) for more information on how to create a page.
 
 4.  Connect a data resource to your page.
 
-    For example, add the **Look up multiple records** data resource to your page. See [Add and configure data resources to a page](add-data-resources.md) for more information on connecting a data resource.
+    For example, add the **Look up multiple records** data resource to your page. See [Add and configure data resources to a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/add-data-resources.md) for more information on connecting a data resource.
 
     1.  In the data resource drawer, select **+ Add data resource**.
 
@@ -51,25 +52,25 @@ Components inside a repeater repeat the number of items in the data source, rega
 
         The **Look up multiple records** data resource is configured.
 
-        ![Data resource configuration with Incident table selected, "opened" and "short description" return fields added, max results set to 5.](../image/uib-repeater-data-resource.png)
+        \[Omitted image "uib-repeater-data-resource.png"\] Alt text: Data resource configuration with Incident table selected, "opened" and "short description" return fields added, max results set to 5.
 
     5.  Close the modal.
 
 5.  Select an existing container or create a column layout.
 
-    See [Organize components in UI Builder pages](../concept/work-layouts.md) for more information.
+    See [Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-layouts.md) for more information.
 
 6.  Add the repeater component to your page.
 
-    ![Arrow pointing to repeater component in the toolbox.](../image/uib-add-repeater.png)
+    \[Omitted image "uib-add-repeater.png"\] Alt text: Arrow pointing to repeater component in the toolbox.
 
-    For information about adding components, see [Add and configure components](add-components.md#).
+    For information about adding components, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/add-components.md).
 
 7.  In the **Configure** tab, select **None - Configure the component manually**.
 
 8.  In the **Configure** tab, add an array that defines the data for repeated components.
 
-    1.  Point to **Data array** and select the Bind data icon \(![Dynamic data binding icon.](../image/uib-dynamic-data-binding-button.png)\).
+    1.  Point to **Data array** and select the Bind data icon \(\[Omitted image "uib-dynamic-data-binding-button.png"\] Alt text: Dynamic data binding icon.\).
 
     2.  Under **Data types**, select **Data resource**.
 
@@ -81,11 +82,11 @@ Components inside a repeater repeat the number of items in the data source, rega
 
         The results from the data resource are bound to the repeater component. Within the repeater, one component represents each result.
 
-        ![Data binding configuration with @data.look_up_multiple_records_1.results added](../image/uib-repeater-array.png)
+        \[Omitted image "uib-repeater-array.png"\] Alt text: Data binding configuration with @data.look\_up\_multiple\_records\_1.results added
 
 9.  Under the repeater that you added in the previous step, select **+ Add content**.
 
-    ![Content tree with a black arrow pointing to the Add content link under the repeater component.](../image/uib-repeaters.png)
+    \[Omitted image "uib-repeaters.png"\] Alt text: Content tree with a black arrow pointing to the Add content link under the repeater component.
 
 10. Add a **Heading** component.
 
@@ -93,9 +94,9 @@ Components inside a repeater repeat the number of items in the data source, rega
 
 12. Configure the component you nested in the repeater.
 
-    For example, bind the **displayValue** to the component. See [Connect data to your components](connect-data.md) for more information.
+    For example, bind the **displayValue** to the component. See [Connect data to your components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/connect-data.md) for more information.
 
-    1.  Move your cursor to the **Label** field and select the Bind data icon \(![Dynamic data binding icon.](../image/uib-dynamic-data-binding-button.png)\).
+    1.  Move your cursor to the **Label** field and select the Bind data icon \(\[Omitted image "uib-dynamic-data-binding-button.png"\] Alt text: Dynamic data binding icon.\).
 
     2.  Under **Data types**, select **Repeater**.
 
@@ -109,7 +110,7 @@ Components inside a repeater repeat the number of items in the data source, rega
 
         The **displayValue** is bound to the Heading component.
 
-        ![Data binding configuration with @item.value.number.displayValue added](../image/uib-repeater-component-config.png)
+        \[Omitted image "uib-repeater-component-config.png"\] Alt text: Data binding configuration with @item.value.number.displayValue added
 
 13. Select **Save**.
 
@@ -120,5 +121,5 @@ Components inside a repeater repeat the number of items in the data source, rega
     A tab opens to display the page preview with repeated data.
 
 
-**Parent Topic:**[Configure components and repeaters \(advanced feature\)](../concept/configure-comp-and-repeaters.md)
+**Parent Topic:**[Configure components and repeaters \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/configure-comp-and-repeaters.md)
 

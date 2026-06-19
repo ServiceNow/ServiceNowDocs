@@ -2,6 +2,7 @@
 title: View approval history in Agent Workspace for HR Case Management
 description: Review the approval history in the activity stream. Get a better understanding of when the approval request was created, who were the approvers, and when was the request rejected or approved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/view-approval-history.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

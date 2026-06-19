@@ -2,6 +2,7 @@
 title: Submit a safety compensation claim
 description: Submit a compensation claim for a work-related incident or injury.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-case-management/hs-submit-compensation-claim.html
 release: zurich
 product: Health and Safety Case Management
 classification: health-and-safety-case-management
@@ -37,7 +38,7 @@ Employees can also submit safety-related compensation claims from their mobile d
 
     3.  Enter the total claim amount and a reason for the claim.
 
-4.  If necessary, attach an image related to the claim using the add attachments icon \(![Add attachment icon.](../../ohs-incident-management/image/icon-add-attachment.png)\).
+4.  If necessary, attach an image related to the claim using the add attachments icon \(\[Omitted image "icon-add-attachment.png"\] Alt text: Add attachment icon.\).
 
 5.  Select **Submit**.
 
@@ -48,7 +49,7 @@ Employees can also submit safety-related compensation claims from their mobile d
 
     **Note:** If you selected someone else in the **Requested For** field to submit this claim for, it doesn't appear in your **My Requests** list. Instead, it appears in the **My Requests** list of the person you selected.
 
--   The safety case is also listed in the Cases list on Health and Safety Workspace. A safety case manager \[sn\_hs\_cm.case\_manager\] can view all the submitted requests by navigating to the Health and Safety Workspace and selecting the cases icon \(![Health and safety cases icon.](../image/icon-hs-cases.png)\). For more information, see [Work on a Health and Safety case](hs-work-health-safety-case.md).
+-   The safety case is also listed in the Cases list on Health and Safety Workspace. A safety case manager \[sn\_hs\_cm.case\_manager\] can view all the submitted requests by navigating to the Health and Safety Workspace and selecting the cases icon \(\[Omitted image "icon-hs-cases.png"\] Alt text: Health and safety cases icon.\). For more information, see [Work on a Health and Safety case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-case-management/hs-work-health-safety-case.md).
 
-**Parent Topic:**[Submitting Health and Safety cases](../concept/hs-submitting-health-safety-cases.md)
+**Parent Topic:**[Submitting Health and Safety cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-case-management/hs-submitting-health-safety-cases.md)
 

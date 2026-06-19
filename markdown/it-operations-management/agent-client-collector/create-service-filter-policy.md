@@ -2,6 +2,7 @@
 title: Create a service filter for a policy
 description: Configure a service filter so that the policy monitors only those services that match the filter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/create-service-filter-policy.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -35,7 +36,7 @@ Role required: agent\_client\_collector\_admin
 
     The **Application Service filter** section appears.
 
-    ![Application service filter section](../image/app-service-filter.png "Application Service filter section")
+    \[Omitted image "app-service-filter.png"\] Alt text: Application service filter section
 
 5.  Configure conditions in the fields and select **Save** at the bottom of the page.
 

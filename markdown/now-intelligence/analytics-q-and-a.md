@@ -2,6 +2,7 @@
 title: Analytics Q&amp;A
 description: You can make natural language queries related to indicators, tables, or columns from the Analytics Q&amp;A in the Analytics Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/analytics-q-and-a.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -24,21 +25,21 @@ Analytics Q&amp;A supports the following languages:
 
 This feature is not available in sessions that use an unsupported language.
 
-**Note:** Analytics Q&amp;A is also available in the classic environment, in Report Designer. For more information, see [Create a report with Analytics Q&amp;A](../../reporting/task/t_CreateYourOwnReport.md#)
+**Note:** Analytics Q&amp;A is also available in the classic environment, in Report Designer. For more information, see [Create a report with Analytics Q&amp;A](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_CreateYourOwnReport.md)
 
 ## Entering queries
 
-![Image showing the line for entering queries, a link for pop-up examples, and a link to a keywords guide](../image/analytics-qna.png "Analytics Q&A before you enter a query")
+\[Omitted image "analytics-qna.png"\] Alt text: Image showing the line for entering queries, a link for pop-up examples, and a link to a keywords guide
 
 As you type in a query, Analytics Q&amp;A suggests recent searches, indicators, tables, and columns that match what you have typed so far. Only the tables and columns to which you have access are shown.
 
-![Five suggestions from typing in the word incident](../image/analytics-center-suggestions.png)
+\[Omitted image "analytics-center-suggestions.png"\] Alt text: Five suggestions from typing in the word incident
 
 ## Selecting from several likely tables
 
 If Analytics Q&amp;A cannot determine which table you want, it shows you up to three likely tables. In the following screenshot, the user has asked for assets grouped by asset tag and displayed as a bar visualization. However, the system cannot determine whether the user is interested in the Asset \[alm\_asset\], the Key Value \[cmdb\_key\_value\], or the Tag \[label\] table.
 
-![The three tables that the system thinks your query might be asking about](../image/analytics-center-table-guesser.png "Refining search to select table")
+\[Omitted image "analytics-center-table-guesser.png"\] Alt text: The three tables that the system thinks your query might be asking about
 
 ## Results
 
@@ -54,11 +55,11 @@ The results are subject to an ACL security check against your roles. Visualizati
 
 The following example shows the results of a query where you specify a breakdown for grouping the results. Analytics Q&amp;A determines that the query matches an indicator. Because indicators show trends over time, Analytics Q&amp;A determines that a trend line is the appropriate visualization:
 
-![Analytics Q&A results with details](../image/analytics-center-results-w-details.png "Analytics Q&A results")
+\[Omitted image "analytics-center-results-w-details.png"\] Alt text: Analytics Q&amp;A results with details
 
 If you do not want to see the change in scores over time, click **Click here to see only the current data**. Analytics Q&amp;A returns the current values on the underlying table instead of the indicator scores.
 
-![The results of a successful query in the Analytics Q&A](../image/analytics-center-result.png "Analytics Q&A latest score results")
+\[Omitted image "analytics-center-result.png"\] Alt text: The results of a successful query in the Analytics Q&amp;A
 
 Hold your cursor over the chart to get more information about breakdowns. In a time series trend, you get the values for all the breakdowns on the selected day. In a column chart of the latest scores, you get the score of the breakdown you select. If the result is a visualization for an indicator, click on a value to open the indicator in KPI Details.
 
@@ -83,7 +84,7 @@ To make a new query or view a list of your KPIs, click **Back**. Returning to th
 
 When you write a query, use special keywords to denote the type and range of information you are looking for, filters you want to apply, and other parameters. To see a full list of keywords and their uses, click **How can I improve my results?**.
 
-You can ask your ServiceNow AI Platform administrator to add synonyms and semantic shortcuts for keywords. For more information, see [Create an NLQ synonym](https://www.servicenow.com/docs/access?context=create-nlq-synonym&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) and [Create an NLQ shortcut](https://www.servicenow.com/docs/access?context=create-nlq-shortcut&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+You can ask your ServiceNow AI Platform administrator to add synonyms and semantic shortcuts for keywords. For more information, see Create an NLQ synonym and Create an NLQ shortcut.
 
-![A guide you can open from the Analytics Q&A dialog that explains the keywords](../image/analytics-center-keywords.png "Keywords guide")
+\[Omitted image "analytics-center-keywords.png"\] Alt text: A guide you can open from the Analytics Q&amp;A dialog that explains the keywords
 

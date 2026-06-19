@@ -2,6 +2,7 @@
 title: Supported browsers for Connect Chat
 description: The system supports Connect Chat on most modern browsers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/connect/r\_SupportedBrowsersForConnect.html
 release: zurich
 product: Connect
 classification: connect
@@ -17,7 +18,7 @@ The system supports Connect Chat on most modern browsers.
 
 **Important:**
 
-Core UI is required to use Connect Chat. Connect Chat is not supported in Next Experience. If you turn on Next Experience, Connect Chat will no longer work. See [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) for more information.
+Core UI is required to use Connect Chat. Connect Chat is not supported in Next Experience. If you turn on Next Experience, Connect Chat will no longer work. See Next Experience UI for more information.
 
 -   The latest public release of Firefox or Firefox ESR
 -   The latest public release of Chrome

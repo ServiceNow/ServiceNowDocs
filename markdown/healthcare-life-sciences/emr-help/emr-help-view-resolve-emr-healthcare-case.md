@@ -2,6 +2,7 @@
 title: Resolve a healthcare case using CSM/FSM Configurable Workspace
 description: Use Workspace in a ServiceNow instance to work on healthcare cases created from an EMR system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/emr-help/emr-help-view-resolve-emr-healthcare-case.html
 release: zurich
 product: EMR Help
 classification: emr-help

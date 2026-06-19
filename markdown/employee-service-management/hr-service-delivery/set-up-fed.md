@@ -2,6 +2,7 @@
 title: Set up Federal plugin
 description: Set up the Federal plugin.You can activate the Additional tables for Federal Agencies plugin \[com.snc.fedtables\] if you have the admin role. Some data elements included in the Federal plugin allow for an import of the reference data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/set-up-fed.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,7 +26,7 @@ Role required: admin
 
 ### About this task
 
-Tables are installed with the plugin. For more information, see [Federal plugin](../concept/fed-view.md).
+Tables are installed with the plugin. For more information, see [Federal plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/fed-view.md).
 
 ### Procedure
 
@@ -39,7 +40,7 @@ Tables are installed with the plugin. For more information, see [Federal plugin]
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
 ## Import an excel template for Federal plugin
@@ -64,7 +65,7 @@ Role required: admin
 
 6.  Select **Import** from the menu.
 
-    ![Import an excel template for Federal](../image/import-excel-fed.png)
+    \[Omitted image "import-excel-fed.png"\] Alt text: Import an excel template for Federal
 
 7.  Select **Insert** or **Update** as the import type.
 

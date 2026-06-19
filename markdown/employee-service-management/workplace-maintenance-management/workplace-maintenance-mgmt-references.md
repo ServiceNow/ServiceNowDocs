@@ -2,6 +2,7 @@
 title: Workplace Maintenance Management references
 description: Several roles and views are available to help manage plan records with Workplace Maintenance Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-maintenance-management/workplace-maintenance-mgmt-references.html
 release: zurich
 product: Workplace Maintenance Management
 classification: workplace-maintenance-management
@@ -15,10 +16,10 @@ breadcrumb: [Workplace Maintenance Management, Workplace Service Delivery, Emplo
 
 Several roles and views are available to help manage plan records with Workplace Maintenance Management.
 
-1.  [Maintenance plan schedule examples](maintenance-plan-examples.md)  
+1.  [Maintenance plan schedule examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/maintenance-plan-examples.md)  
 Maintenance plans are created for models \(assets\) or locations. The schedule trigger type defined for a maintenance plan can be meter or duration-based schedule. Associate multiple templates to maintenance schedules as required. The scheduled job fetches plan records that have a template associated to it and creates maintenance cases for a maintenance plan.
-2.  [Components installed with Workplace Maintenance Management](../reference/components-installed-with-maintenance-mgmt.md)  
+2.  [Components installed with Workplace Maintenance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/components-installed-with-maintenance-mgmt.md)  
 Different roles and components or tables are available with the installation of Workplace Maintenance Management.
 
-**Parent Topic:**[Workplace Maintenance Management](workplace-maintenance-mgmt-ovw.md)
+**Parent Topic:**[Workplace Maintenance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/workplace-maintenance-mgmt-ovw.md)
 

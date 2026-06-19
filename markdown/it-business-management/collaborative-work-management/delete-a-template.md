@@ -2,6 +2,7 @@
 title: Delete a Board or Doc template in CWM
 description: Delete any custom templates that are no longer necessary for your workflows using the Template Center in Collaborative Work Management \(CWM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/collaborative-work-management/delete-a-template.html
 release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -29,15 +30,15 @@ You must be the owner of the template to delete it.
 
 3.  Open the Template Center by selecting **Explore templates**.
 
-    ![Main create menu of CWM.](../images/cwm-templates-explore.png)
+    \[Omitted image "cwm-templates-explore.png"\] Alt text: Main create menu of CWM.
 
 4.  Locate the template that you want to use.
 
     -   Filter the available templates by Owner or Type
     -   Search for the template using its title or keyword.
-5.  From the template card, select the Template actions \(![Template actions icon.](../images/cwm-icon-page-actions.png)\) menu and select **Delete**.
+5.  From the template card, select the Template actions \(\[Omitted image "cwm-icon-page-actions.png"\] Alt text: Template actions icon.\) menu and select **Delete**.
 
-    ![View template details.](../images/cwm-templates-view-details.png)
+    \[Omitted image "cwm-templates-view-details.png"\] Alt text: View template details.
 
 6.  Select **Delete** to confirm.
 
@@ -46,5 +47,5 @@ You must be the owner of the template to delete it.
 
 The template is deleted and is no longer available for you or your team to use.
 
-**Parent Topic:**[Templates in CWM for Boards and Docs](../concept/templates-in-cwm-for-spaces-boards-and-docs.md)
+**Parent Topic:**[Templates in CWM for Boards and Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/templates-in-cwm-for-spaces-boards-and-docs.md)
 

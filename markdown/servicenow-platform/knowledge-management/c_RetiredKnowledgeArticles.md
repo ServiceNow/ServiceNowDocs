@@ -2,6 +2,7 @@
 title: Retire a knowledge article
 description: Initiate the retirement workflow to retire a knowledge article. Knowledge base owners and managers can view articles after they are retired but cannot search for retired articles on the Knowledge homepage and portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/c\_RetiredKnowledgeArticles.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -17,14 +18,14 @@ Initiate the retirement workflow to retire a knowledge article. Knowledge base o
 
 A knowledge article has an associated retirement workflow, similar to the publishing workflow. This allows administrators to configure these workflows, defining an approval and review process for retiring knowledge if appropriate.
 
-When editing an article, click **Retire** to launch the retirement workflow associated with that article. Only knowledge administrator, knowledge manager, and the latest publisher of the versioned knowledge article \(not available for kcs\_candidate or kcs\_contributor\) can retire a knowledge article. For more information, see [Retire a versioned article](../task/retire-versioned-article.md). If the article requires approval prior to retirement, the article goes to a pending approval state, and the workflow either finishes upon approval or cancels if rejected by a required approver. The article number associated with the retired article is not available for reuse. For information on the status of a knowledge article see [Knowledge article states](knowledge-article-states.md).
+When editing an article, select **Retire**. This launches the retirement workflow associated with that article. Only knowledge administrator, knowledge manager, and the latest publisher of the versioned knowledge article \(not available for kcs\_candidate or kcs\_contributor\) can retire a knowledge article. For more information, see [Retire a versioned article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/retire-versioned-article.md). If the article requires approval prior to retirement, the article goes to a pending approval state, and the workflow either finishes when approved or cancels if rejected by an approver. The article number associated with the retired article is not available for reuse. For information on the status of a knowledge article see [Knowledge article states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/knowledge-article-states.md).
 
 **Note:**
 
--   Only administrators and knowledge administrators can view the retired knowledge articles. To reuse a retired article, administrators and knowledge administrators can republish the article. For more information, see [Republish a retired article](../task/republish-retired-article.md).
+-   Only administrators and knowledge administrators can view the retired knowledge articles. To reuse a retired article, administrators and knowledge administrators can republish the article. For more information, see [Republish a retired article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/republish-retired-article.md).
 -   An article and its translations have a parent-child relationship. Retiring a parent article does not automatically retire all its translated child articles.
 
-Beginning with the San Diego release, you can provide a replacement article while retiring a knowledge article. When the retired article is accessed, the user will automatically be redirected to the replacement article with a display message `The article KBxxx is retired and has been replaced with the knowledge article KBxxx`. If no replacement article is available, the page displays the message `Knowledge record not found`. The retire with replacement feature is not supported on classic workspace. By default, the **glide.knowman.enable\_article\_replacement\_on\_retire** system property is set to `true` for new users, to provide a replacement article for a retired article. Existing and upgraded users must enable this property \(set it to true manually\), to able to view and use the feature.
+You can provide a replacement article while retiring a knowledge article. When the retired article is accessed, the user is automatically redirected to the replacement article with the display message `The article KBxxx is retired and has been replaced with the knowledge article KBxxx`. If no replacement article is available, the page displays the message `Knowledge record not found`. The retire with replacement feature is not supported on classic workspace. By default, the **glide.knowman.enable\_article\_replacement\_on\_retire** system property is set to `true` for new users, to provide a replacement article for a retired article. Set the property to true manually so existing and upgraded users can view and use the feature.
 
 **Note:**
 
@@ -34,5 +35,9 @@ Beginning with the San Diego release, you can provide a replacement article whil
 
 ## Instant retire and Approval retire workflows
 
-![Instant retire knowledge article workflow](../image/Instant-retire-knowledge-article-workflow.png) ![Approval retire knowledge article workflow](../image/Approval-retire-knowledge-article-workflow.png)
+\[Omitted image "Instant-retire-knowledge-article-workflow.png"\] Alt text: Instant retire knowledge article workflow \[Omitted image "Approval-retire-knowledge-article-workflow.png"\] Alt text: Approval retire knowledge article workflow
+
+## Delete a knowledge article
+
+Users with the admin role can delete a published knowledge article. On an article record, select **Delete**. If the **Delete** button isn't displayed, select the more actions icon \(\[Omitted image "more.png"\] Alt text: More actions icon\), and then select **Delete**.
 

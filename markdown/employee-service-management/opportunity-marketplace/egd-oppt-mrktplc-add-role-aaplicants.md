@@ -2,6 +2,7 @@
 title: Add a role applicant to an opportunity role
 description: Role applicants are employees who have applied to a role that is part of an opportunity. As an Opportunity Marketplace admin \[sn\_opp\_market.admin\], you can add role applicants to an opportunity role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-add-role-aaplicants.html
 release: zurich
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -43,5 +44,5 @@ Role required: Opportunity Marketplace \[sn\_opp\_market.admin\]
 8.  Select **Submit**.
 
 
-**Parent Topic:**[Install and configure Opportunity Marketplace](../concept/egd-oppt-mrktplc-inst-config.md)
+**Parent Topic:**[Install and configure Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-inst-config.md)
 

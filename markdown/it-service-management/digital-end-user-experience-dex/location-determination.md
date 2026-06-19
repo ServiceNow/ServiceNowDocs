@@ -2,6 +2,7 @@
 title: Device location determination
 description: Identify and determine the number of impacted devices based on the location by defining a custom logic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/location-determination.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

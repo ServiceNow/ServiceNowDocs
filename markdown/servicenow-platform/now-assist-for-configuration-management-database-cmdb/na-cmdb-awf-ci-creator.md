@@ -2,6 +2,7 @@
 title: Create a CI using Now Assist
 description: The Create configuration item agentic workflow accepts your natural language request to manually generate a valid CI in the class that you specify.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-ci-creator.html
 release: zurich
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
@@ -29,18 +30,18 @@ Occasionally, you might create a CI manually. To help you, the Create configurat
 
 The Create configuration item agentic workflow is particularly useful for adding CIs to tables accessed by Operational Technology because users might add physical CIs while unaware of the importance of managing CI data in the CMDB.
 
-**Note:** The workflow prevents creation of a CI whose class does not have an identification rule. For more information, see [Identification rules](../../configuration-management/concept/c_IdentificationRules.md).
+**Note:** The workflow prevents creation of a CI whose class does not have an identification rule. For more information, see [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_IdentificationRules.md).
 
-To learn more about using the Now Assist panel, see [Working in the Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+To learn more about using the Now Assist panel, see Working in the Now Assist panel.
 
 ## Procedure
 
 1.  Use either of the following methods to start the process.
 
     -   While working in the CMDB Workspace, select **Create CI** in the Quick Links section.
-    -   While working in the CMDB Workspace, select the Now Assist icon ![](../../configuration-management/image/ai-sparkle-cmdb.png) and then enter `create a ci`.
+    -   While working in the CMDB Workspace, select the Now Assist icon \[Omitted image "ai-sparkle-cmdb.png"\] and then enter `create a ci`.
 2.  Enter the class of CI to create and then continue by answering the Now Assist questions.
 
 
-**Parent Topic:**[Using agentic workflows in Now Assist for CMDB](../../configuration-management/concept/now-assist-cmdb-using.md)
+**Parent Topic:**[Using agentic workflows in Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using.md)
 

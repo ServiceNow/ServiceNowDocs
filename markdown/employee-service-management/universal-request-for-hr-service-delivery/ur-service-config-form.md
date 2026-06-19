@@ -2,6 +2,7 @@
 title: Service Configuration form
 description: Use the Service Configuration form to register your service to use the Universal Request application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-service-config-form.html
 release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -24,5 +25,5 @@ Use the **Service Configuration** form to register your service to use the Unive
 |Service Set|Select the service set that your service belongs to.|
 |Restrict requests|Select to mark all the requests created for the service as restricted.|
 
-**Parent Topic:**[Universal Request reference](ur-reference-topic.md)
+**Parent Topic:**[Universal Request reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-reference-topic.md)
 

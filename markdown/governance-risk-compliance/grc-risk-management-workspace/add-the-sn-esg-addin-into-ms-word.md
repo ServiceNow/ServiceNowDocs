@@ -2,6 +2,7 @@
 title: Add the ServiceNow Reporting add-in into Microsoft Word
 description: Before you can import data into your Microsoft Word document to create your disclosure reports, you must add the ServiceNow Reporting add-in to your Microsoft Word.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/add-the-sn-esg-addin-into-ms-word.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace

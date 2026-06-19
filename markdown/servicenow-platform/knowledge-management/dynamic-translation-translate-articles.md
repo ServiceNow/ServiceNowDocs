@@ -2,6 +2,7 @@
 title: Translate knowledge articles using Dynamic Translation
 description: Use machine translation to automatically translate knowledge articles into different languages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/dynamic-translation-translate-articles.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -17,7 +18,7 @@ Use machine translation to automatically translate knowledge articles into diffe
 
 ## Before you begin
 
-[Add a custom Localization Framework setting to enable machine translation](con-lf-dynamic-translations.md).
+[Add a custom Localization Framework setting to enable machine translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/con-lf-dynamic-translations.md).
 
 Role required: Localization requester to request translations
 
@@ -33,7 +34,7 @@ Dynamic Translation uses the ServiceNow® Localization Framework to translate kn
 
 3.  Select **Request Translations**.
 
-    **Note:** .Check the validation list to ensure that all articles to be translated have been validated. For more information, see [Bulk Translation for knowledge articles](bulk-translation.md).
+    **Note:** .Check the validation list to ensure that all articles to be translated have been validated. For more information, see [Bulk Translation for knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/bulk-translation.md).
 
 4.  In the **Request Translations** dialog box, select the languages into which you want the articles translated.
 
@@ -46,5 +47,5 @@ Dynamic Translation uses the ServiceNow® Localization Framework to translate kn
 
 The selected articles are translated in selected languages and marked as version 0.01. The article can be accessed from the Knowledge \[kb\_knowledge\] table.
 
-**Parent Topic:**[Use Bulk Translation for Dynamic Translation](bts-for-dynamic-translations.md)
+**Parent Topic:**[Use Bulk Translation for Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/bts-for-dynamic-translations.md)
 

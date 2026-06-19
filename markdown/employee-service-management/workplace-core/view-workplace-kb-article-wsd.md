@@ -2,6 +2,7 @@
 title: View workplace knowledge base articles
 description: View workplace-related updates, processes, and other information in the knowledge base articles that your team created. Rate articles that you find useful.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-core/view-workplace-kb-article-wsd.html
 release: zurich
 product: Workplace Core
 classification: workplace-core
@@ -39,5 +40,5 @@ Role required: sn\_wsd\_core.workplace\_user
     -   If you found the article useful, Select **Yes**. If not, select **No**.
     -   Leave a comment about the article and select **Submit**. You can also attach files.
 
-**Parent Topic:**[Workplace knowledge management](../concept/workplace-knowledge-mgmt-wsd.md)
+**Parent Topic:**[Workplace knowledge management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/workplace-knowledge-mgmt-wsd.md)
 

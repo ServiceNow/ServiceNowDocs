@@ -2,6 +2,7 @@
 title: For mobile banner
 description: Configure content for a mobile banner.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-mobile-employee-experience/ecpro-mobile-content-for-mobile-banner.html
 release: zurich
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
@@ -42,7 +43,7 @@ Role required: sn\_cd.content\_manager
 
 4.  Schedule the content.
 
-    -   To schedule the content for delivery, see [Scheduling the delivery of content](ecpro-schedule-content.md).
+    -   To schedule the content for delivery, see [Scheduling the delivery of content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-schedule-content.md).
 
-**Parent Topic:**[Configure mobile content](ecpro-content-delivery-mobile.md)
+**Parent Topic:**[Configure mobile content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/ecpro-content-delivery-mobile.md)
 

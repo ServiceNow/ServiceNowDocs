@@ -2,6 +2,7 @@
 title: Modify tag category information for Tag Categorization
 description: Modify tag category definitions to support Tag Categorization and ensure that tag categories align with your requirements for data management and classification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/tag-governance/modify-tag-category-info-tag-categorization.html
 release: zurich
 product: Tag Governance
 classification: tag-governance
@@ -17,7 +18,7 @@ Modify tag category definitions to support Tag Categorization and ensure that ta
 
 ## Before you begin
 
-Verify that you have installed version 1.16.3 of Service Mapping Plus to access to the CI tag category and CI tag key tables. For more information, see [Install Service Mapping Plus](../../service-mapping/task/install-service-mapping-plus.md).
+Verify that you have installed version 1.16.3 of Service Mapping Plus to access to the CI tag category and CI tag key tables. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/install-service-mapping-plus.md).
 
 Role required: tag\_governance\_admin
 
@@ -27,7 +28,7 @@ Role required: tag\_governance\_admin
 
 2.  Verify that you are in the leaf domain.
 
-    1.  In the page header, select the globe icon ![](../image/globe-icon.png).
+    1.  In the page header, select the globe icon \[Omitted image "globe-icon.png"\].
 
     2.  Select **Domain scope**, and choose the appropriate leaf domain.
 

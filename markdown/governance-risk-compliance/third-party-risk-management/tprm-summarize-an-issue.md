@@ -2,6 +2,7 @@
 title: Activate the TPRM issue summarization skill
 description: Activate the TPRM summarization skill from Now Assist for TPRM to generate a brief summary of a TPRM issue by selecting the specific fields that you would like included in the summary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-summarize-an-issue.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -32,7 +33,7 @@ By default, a TPRM issue in the Third-party Risk Management application shows th
 
 1.  Navigate to **All** &gt; **Admin Center** &gt; **Now Assist Admin**.
 
-2.  On the Now Assist **Features** tab, select **Now Assist Features** &gt; **Technology** &gt; **Risk &amp; Sustainability**.
+2.  Navigate to the Now Assist **Skills** tab and select **Technology** &gt; **Risk &amp; Sustainability**.
 
 3.  Under the **TPRM issue summarization** skill, select **Activate skill**.
 
@@ -56,8 +57,8 @@ By default, a TPRM issue in the Third-party Risk Management application shows th
 
         You can perform the following actions on Now Assist skills if you have the sn\_generative\_ai.nsa\_admin role:
 
-        -   [Edit a Now Assist skill](https://www.servicenow.com/docs/access?context=edit-a-now-assist-skill&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
-        -   [Troubleshoot a Now Assist skill](https://www.servicenow.com/docs/access?context=troubleshoot-a-now-assist-skill&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+        -   .
+        -   .
 6.  Select **Save and continue**.
 
 7.  View the details of the skill by selecting **Review and activate**.

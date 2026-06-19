@@ -2,7 +2,10 @@
 title: Invoice case line form
 description: The invoice case line form displays details about an invoice case line.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/invoice-case-lines-form.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2

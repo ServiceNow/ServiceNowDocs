@@ -2,11 +2,12 @@
 title: Create a rate type
 description: You can create rate types using the Rate Types feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/time-card-management/CreateRateType.html
 release: zurich
 product: Time Card Management
 classification: time-card-management
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -36,15 +37,15 @@ For example:
 
 2.  Click **New** and fill the form.
 
-<table id="choicetable_vbp_jpj_l1b"><thead><tr><th align="left" id="d104658e109">
+<table id="choicetable_vbp_jpj_l1b"><thead><tr><th align="left" id="d75250e109">
 
 Field
 
-</th><th align="left" id="d104658e112">
+</th><th align="left" id="d75250e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d104658e118">
+</th></tr></thead><tbody><tr><td id="d75250e118">
 
 **Name**
 
@@ -52,7 +53,7 @@ Description
 
 Provide a suitable name for the rate type.
 
-</td></tr><tr><td id="d104658e127">
+</td></tr><tr><td id="d75250e127">
 
 **Description**
 
@@ -60,7 +61,7 @@ Provide a suitable name for the rate type.
 
 \(Optional\) Summarize the purpose of the rate type.
 
-</td></tr><tr><td id="d104658e136">
+</td></tr><tr><td id="d75250e136">
 
 **Active**
 
@@ -77,5 +78,5 @@ Deselect the check box to mark the rate type as inactive.**Note:** Inactivating 
 -   The rate type is displayed in the **Rate Types** list.
 -   The rate type if active is also displayed in the **Rate Type** field in the Labor Rate Cards form, Time Worked form, Time Card form, and Time Sheet Portal.
 
-**Parent Topic:**[Time Card Management](../../../administer/task-table/concept/time-card-management.md)
+**Parent Topic:**[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/time-card-management/time-card-management.md)
 

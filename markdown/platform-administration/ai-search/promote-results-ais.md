@@ -2,6 +2,7 @@
 title: Promote search results using a result improvement rule
 description: Configure a result improvement rule to make specific records appear first in results for a search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/promote-results-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -17,7 +18,7 @@ Configure a result improvement rule to make specific records appear first in res
 
 ## Before you begin
 
-Create your result improvement rule first to define your trigger conditions. For steps to create a result improvement rule, see [Create a result improvement rule](create-result-improve-rule-ais.md).
+Create your result improvement rule first to define your trigger conditions. For steps to create a result improvement rule, see [Create a result improvement rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-result-improve-rule-ais.md).
 
 Role required: ais\_admin
 
@@ -44,7 +45,7 @@ Promote actions define search results to spotlight in the result set. When a res
 
 ## What to do next
 
-To make new or updated result improvement rule settings take effect, publish the search profile that you edited. For details on publishing a search profile, see [Publish an AI Search search profile](publish-search-profile-ais.md).
+To make new or updated result improvement rule settings take effect, publish the search profile that you edited. For details on publishing a search profile, see [Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/publish-search-profile-ais.md).
 
-**Parent Topic:**[Result improvement rules](../concept/result-improvement-rules-ais.md)
+**Parent Topic:**[Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/result-improvement-rules-ais.md)
 

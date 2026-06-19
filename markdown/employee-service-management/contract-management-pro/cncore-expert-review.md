@@ -2,6 +2,7 @@
 title: Internal review overview
 description: Get your contract document reviewed by internal subject matter experts who have the expertise you need.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-expert-review.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -35,14 +36,14 @@ A workflow for getting content reviewed by subject matter experts might progress
 
 The contract request remains in the Awaiting review State until a review task is active.
 
--   **[Request an internal review](cncore-add-review-task.md)**  
+-   **[Request an internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-add-review-task.md)**  
 Initiate a review of the contract document by internal subject matter experts.
--   **[Work on internal review task](cncore-int-review-doc.md)**  
+-   **[Work on internal review task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-int-review-doc.md)**  
 As a contract reviewer, review and provide feedback on contract documents
--   **[Share requested information for internal review](cncore-send-info-reviewtask.md)**  
+-   **[Share requested information for internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-send-info-reviewtask.md)**  
 As a contract fulfiller, share information requested by the reviewer to proceed with the contract document review.
--   **[Cancel an internal review task](cncore-close-review-task.md)**  
+-   **[Cancel an internal review task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-close-review-task.md)**  
 As a contract fulfiller, cancel a review task irrespective of its state.
 
-**Parent Topic:**[Using Contract Management Pro](../concept/cncore-use-cmpro.md)
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

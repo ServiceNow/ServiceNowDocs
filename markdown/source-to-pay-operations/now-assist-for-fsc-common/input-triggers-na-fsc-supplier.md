@@ -2,6 +2,7 @@
 title: Skill inputs for Supplier summarization for fulfillers skill
 description: You can configure some of the inputs for a generative AI skill. Inputs permit you to determine how and when a skill is used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/now-assist-for-fsc-common/input-triggers-na-fsc-supplier.html
 release: zurich
 product: Now Assist for FSC Common
 classification: now-assist-for-fsc-common
@@ -9,7 +10,7 @@ topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [Now Assist Security Operations]
-breadcrumb: [Customize supplier summarization skill, Configure, Now Assist for FSC Common, Now Assist for Finance and Supply Chain, Finance and Supply Chain]
+breadcrumb: [Customize supplier summarization skill, Configure, Now Assist for FSC Common, Now Assist Finance Supply Chain, Finance and Supply Chain]
 ---
 
 # Skill inputs for Supplier summarization for fulfillers skill
@@ -61,5 +62,5 @@ Base input fields
 -   DUNS number
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Customize supplier summarization for fulfillers skill](../task/cust-na-fsc-supplier-skill.md)
+</table>**Parent Topic:**[Customize supplier summarization for fulfillers skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/now-assist-for-fsc-common/cust-na-fsc-supplier-skill.md)
 

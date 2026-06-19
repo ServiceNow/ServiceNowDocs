@@ -2,6 +2,7 @@
 title: Update custom template contents and properties
 description: Improve the effectiveness of your custom template by updating its contents or properties in App Engine Studio \(AES\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/manage-custom-template.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -27,39 +28,39 @@ Role required: admin, app\_template\_author
 
 3.  Modify different aspects of the template to make them more useful to your needs.
 
-<table id="choicetable_wsx_gfk_ptb"><thead><tr><th align="left" id="d229113e85">
+<table id="choicetable_wsx_gfk_ptb"><thead><tr><th align="left" id="d203295e85">
 
 Choice
 
-</th><th align="left" id="d229113e88">
+</th><th align="left" id="d203295e88">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d229113e94">
+</th></tr></thead><tbody><tr><td id="d203295e94">
 
 **Update the template contents**
 
 </td><td>
 
-1.  Point to the custom template, select the More actions icon \( ![More actions icon.](../image/menu-icon-purple.png)\), and select **Edit Template**.
+1.  Point to the custom template, select the More actions icon \( \[Omitted image "menu-icon-purple.png"\] Alt text: More actions icon.\), and select **Edit Template**.
 2.  Modify the custom template by editing data, experience, logic and automation, or security.
 
 For more information, see the following topics:
 
-    -   [Modify application data tables](../concept/edit-data.md)
-    -   [Add an application experience](../concept/add-experience.md)
-    -   [Add logic and automation](../concept/add-automation.md)
-    -   [Add application security](../concept/add-security.md)
+    -   [Modify application data tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/edit-data.md)
+    -   [Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-experience.md)
+    -   [Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-automation.md)
+    -   [Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-security.md)
 3.  Select **Save template**.
 
 
-</td></tr><tr><td id="d229113e187">
+</td></tr><tr><td id="d203295e187">
 
 **Update the template properties**
 
 </td><td>
 
-1.  Point to the custom template, select the More actions icon \( ![More actions icon.](../image/menu-icon-purple.png)\), and select **Edit Properties**.
+1.  Point to the custom template, select the More actions icon \( \[Omitted image "menu-icon-purple.png"\] Alt text: More actions icon.\), and select **Edit Properties**.
 2.  Select **General**.
 3.  Modify aspects of the template.
     -   To rename the custom template, update the **Name** field.
@@ -68,20 +69,20 @@ For more information, see the following topics:
 4.  Select **Save properties**.
 
 
-</td></tr><tr><td id="d229113e246">
+</td></tr><tr><td id="d203295e246">
 
 **Update template sharing settings**
 
 </td><td>
 
-1.  Point to the custom template, select the More actions icon \( ![More actions icon.](../image/menu-icon-purple.png)\), and select **Edit Properties**.
+1.  Point to the custom template, select the More actions icon \( \[Omitted image "menu-icon-purple.png"\] Alt text: More actions icon.\), and select **Edit Properties**.
 2.  Select **Sharing settings**, and share the template in one of the following ways:
     1.  Share with some users or groups.
     2.  Share with all users and groups.
 3.  On the General tab, select **Save properties**.
 
 
-</td></tr><tr><td id="d229113e290">
+</td></tr><tr><td id="d203295e290">
 
 **Update content on the Template details page**
 
@@ -89,13 +90,13 @@ For more information, see the following topics:
 
 **Note:** Only templates created from scratch have a Template details page that you can edit. Templates created from existing templates don’t have a Template details page to edit, so you aren't able to change items such as the header, tag line, or other template information.
 
- 1.  Point to the custom template, select the More actions icon \( ![More actions icon.](../image/menu-icon-purple.png)\), and select **Edit Properties**.
+ 1.  Point to the custom template, select the More actions icon \( \[Omitted image "menu-icon-purple.png"\] Alt text: More actions icon.\), and select **Edit Properties**.
 2.  Select **Details page**.
 3.  Update details about the template that help users understand its features and why they should choose this template for their application.
 4.  Select **Save properties**.
 
 
-</td></tr><tr><td id="d229113e333">
+</td></tr><tr><td id="d203295e333">
 
 **Delete the custom template**
 
@@ -107,5 +108,5 @@ To delete the custom template, ensure you have administrator privileges or have 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create your app using an application template](use-app-template.md)
+**Parent Topic:**[Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/use-app-template.md)
 

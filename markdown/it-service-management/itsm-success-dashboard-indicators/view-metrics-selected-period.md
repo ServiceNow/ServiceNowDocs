@@ -2,6 +2,7 @@
 title: View metrics for selected period in ITSM Success Dashboard indicators
 description: View the Key Performance Indicators \(KPIs\) metrics on the ITSM Success Dashboard for a selected period to analyze the performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-success-dashboard-indicators/view-metrics-selected-period.html
 release: zurich
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -27,7 +28,7 @@ Role required: user
 
 3.  Select **Show calendar**.
 
-    ![View the Show calendar option on the success dashboard page](../image/show-calendar-option.png)
+    \[Omitted image "show-calendar-option.png"\] Alt text: View the Show calendar option on the success dashboard page
 
 4.  Select the year, and the month.
 
@@ -38,5 +39,5 @@ Role required: user
     The values of all the KPIs including the contributing KPIs for the selected criteria is displayed on the dashboard. The data is refreshed for each selected criteria.
 
 
-**Parent Topic:**[Maximise the benefits of using the ITSM Success Dashboard indicators](../concept/measuring-performance-success-dashboard.md)
+**Parent Topic:**[Maximise the benefits of using the ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-success-dashboard-indicators/measuring-performance-success-dashboard.md)
 

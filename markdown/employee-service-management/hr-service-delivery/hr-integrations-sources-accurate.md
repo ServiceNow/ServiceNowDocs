@@ -2,6 +2,7 @@
 title: Provide source credentials for the Accurate service
 description: Provide the source and REST credentials for the Accurate service so that it can be accessed for integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-integrations-sources-accurate.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -37,11 +38,11 @@ So the Accurate service can be accessed for integration, you must provide:
 
     2.  Select the **Accurate BG Check Credentials** profile, and then click **Preview** and open the record.
 
-        ![Open the Accurate BG Check Credentials record.](../image/accurate-rest.png)
+        \[Omitted image "accurate-rest.png"\] Alt text: Open the Accurate BG Check Credentials record.
 
     3.  In the **Basic Auth Configuration** form, provide the user name and password.
 
-        ![Provide the user name and password for the Basic auth profile for Accurate.](../image/accurate-basic-auth.png)
+        \[Omitted image "accurate-basic-auth.png"\] Alt text: Provide the user name and password for the Basic auth profile for Accurate.
 
     4.  Click **Update**.
 
@@ -70,9 +71,9 @@ Enables the debug log to display responses from the third-party system. Turn on 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Integrating with the Accurate Background service](../concept/integrate-with-accurate-service.md)
+**Parent Topic:**[Integrating with the Accurate Background service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/integrate-with-accurate-service.md)
 
-**Previous topic:**[Integrating with the Accurate Background service](../concept/integrate-with-accurate-service.md)
+**Previous topic:**[Integrating with the Accurate Background service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/integrate-with-accurate-service.md)
 
-**Next topic:**[Verify integration for the Accurate service](verify-base-integration-for-accurate.md)
+**Next topic:**[Verify integration for the Accurate service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/verify-base-integration-for-accurate.md)
 

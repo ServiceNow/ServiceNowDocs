@@ -2,6 +2,7 @@
 title: Configuring the Territory Model
 description: Territory model contains the territory hierarchies mapped to it and maintains the organizational structure for a territory hierarchy​. Create a Territory Model to add territories that can be assigned to accounts, consumers, leads, and opportunities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configure-territory-model.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

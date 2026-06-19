@@ -2,6 +2,7 @@
 title: View all versions of an article
 description: View a list of all available versions for a selected knowledge article and then view the selected version in a new tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/view-all-article-versions.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -32,5 +33,5 @@ The list of all available versions for a selected knowledge article is displayed
 5.  If desired, click the **View Version** related link to see the article view page.
 
 
-**Parent Topic:**[Use article versioning](../concept/use-article-versioning_0.md)
+**Parent Topic:**[Use article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/use-article-versioning_0.md)
 

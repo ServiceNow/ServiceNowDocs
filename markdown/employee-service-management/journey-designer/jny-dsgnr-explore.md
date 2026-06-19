@@ -2,6 +2,7 @@
 title: Exploring Journey designer features
 description: Organization administrators activate and configure Journey designer to help managers and employees understand and actively collaborate on professional and personal journeys.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/jny-dsgnr-explore.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -84,7 +85,7 @@ Journey plan configuration template management.
 
 </td><td>
 
-[Journey designer plan configuration template process, owners, and maintenance](jny-process-owners-maint.md)
+[Journey designer plan configuration template process, owners, and maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-process-owners-maint.md)
 
 </td><td>
 
@@ -96,7 +97,7 @@ Access journeys from the Employee Center \(EC.
 
 </td><td>
 
-[Managers, mentors, and employees work with journeys in the Employee Center](jny-working-with-journeys.md)
+[Managers, mentors, and employees work with journeys in the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-working-with-journeys.md)
 
 </td><td>
 
@@ -108,7 +109,7 @@ View key metrics, reports, and other widgets.
 
 </td><td>
 
-[Journey designer dashboards and reports](../reference/jny-report-dashboards.md)
+[Journey designer dashboards and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-report-dashboards.md)
 
 </td><td>
 
@@ -120,9 +121,9 @@ Leverage Now Assist and Guided Tours for Journey designer use cases.
 
 </td><td>
 
--   [Now Assist Virtual Agent topics for Journey designer](jd-va-topic.md)
--   [Journey details guided tours](../task/jny-details-gt.md)
--   [Journey overview guided tour](../task/journey-overview-gt.md)
+-   [Now Assist Virtual Agent topics for Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jd-va-topic.md)
+-   [Journey details guided tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-details-gt.md)
+-   [Journey overview guided tour](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/journey-overview-gt.md)
 
 </td><td>
 
@@ -133,7 +134,7 @@ Managers, employees, and administrators
 
 To learn more about configuring and using Journey designer, see:
 
--   [Installation and configuration overview](jny-inst-config-overview.md)
--   [Using Journey designer](using-jny-dsnr.md)
--   [Journey designer reference](../reference/jny-dsnr-reference.md)
+-   [Installation and configuration overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-inst-config-overview.md)
+-   [Using Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/using-jny-dsnr.md)
+-   [Journey designer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsnr-reference.md)
 

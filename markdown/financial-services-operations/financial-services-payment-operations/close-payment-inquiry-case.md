@@ -2,6 +2,7 @@
 title: Close a payment inquiry case
 description: Close the case after you've created a claim case for the inquiry case or the customer has accepted your proposed solution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-payment-operations/close-payment-inquiry-case.html
 release: zurich
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
@@ -17,7 +18,7 @@ Close the case after you've created a claim case for the inquiry case or the cus
 
 ## Before you begin
 
-If the inquiry case is set to be a valid claim, ensure that you've [created a claim case](create-claim-case-inquiry-case.md) for it.
+If the inquiry case is set to be a valid claim, ensure that you've [created a claim case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/create-claim-case-inquiry-case.md) for it.
 
 If you've proposed any other solution for the case, ensure that the customer has accepted your proposed solution.
 
@@ -27,7 +28,7 @@ Role required: sn\_bom\_payment.inquiry\_agent or or sn\_bom\_payment.inquiry\_a
 
 If there's a Customer or Consumer Service Portal for customers, they get a notification for the proposed solution on the portal from where they can choose to accept or reject the proposed solution for a case. If the customer accepts the solution proposed by the agent, the case state automatically changes to Closed.
 
-For more information, see [Accept or reject a case solution from the Consumer Service Portal](https://www.servicenow.com/docs/access?context=resolve-cases-consumer-portal&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+For more information, see Accept or reject a case solution from the Consumer Service Portal.
 
 **Note:** To use the Consumer Service Portal, activate the Consumer Service Portal plugin \(com.glide.service-portal.consumer-portal\).
 
@@ -35,7 +36,7 @@ For more information, see [Accept or reject a case solution from the Consumer Se
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Payment Inquiry Cases**, click **Assigned to me**.
 
@@ -54,5 +55,5 @@ For more information, see [Accept or reject a case solution from the Consumer Se
 
 A pre-configured email about the case closure is sent to the customer.
 
-**Parent Topic:**[Managing payment inquiries](../concept/managing-payment-inquiries.md)
+**Parent Topic:**[Managing payment inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/managing-payment-inquiries.md)
 

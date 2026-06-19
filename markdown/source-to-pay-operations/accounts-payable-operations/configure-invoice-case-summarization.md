@@ -2,6 +2,7 @@
 title: Configure Invoice case summarization
 description: Enable fulfiller to use the generative AI based invoice case summarization to quickly analyze the case and take necessary action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/configure-invoice-case-summarization.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -36,7 +37,7 @@ Install the Document Intelligence for Accounts Payable Operations Content Pack f
 
 4.  For Invoice case summarization skill:
 
-    ![Invoice case summarization in Now Assist](../image/invoice-case-na.png)
+    \[Omitted image "invoice-case-na.png"\] Alt text: Invoice case summarization in Now Assist
 
     1.  Select **General Details**, review the details about the skill, and then select **Save and continue** to go to the next step.
 
@@ -50,15 +51,15 @@ Install the Document Intelligence for Accounts Payable Operations Content Pack f
 
     6.  Select **Define Availability** and choose one of the following options.
 
-<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d190399e228">
+<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d181772e228">
 
 Option
 
-</th><th align="left" id="d190399e231">
+</th><th align="left" id="d181772e231">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d190399e237">
+</th></tr></thead><tbody><tr><td id="d181772e237">
 
 **Skill is always available**
 
@@ -66,7 +67,7 @@ Description
 
 The skill is always available to users.
 
-</td></tr><tr><td id="d190399e246">
+</td></tr><tr><td id="d181772e246">
 
 **Customize skill availability**
 
@@ -79,15 +80,15 @@ The skill is available only when the certain conditions are met \(default\).Use 
 
     2.  Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d190399e282">
+<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d181772e282">
 
 Option
 
-</th><th align="left" id="d190399e285">
+</th><th align="left" id="d181772e285">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d190399e291">
+</th></tr></thead><tbody><tr><td id="d181772e291">
 
 **In-product desktop**
 
@@ -95,13 +96,13 @@ Description
 
 Now Assist skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d190399e302">
+</td></tr><tr><td id="d181772e302">
 
 **Now Assist panel**
 
 </td><td>
 
-Now Assist skills are available in the Now Assist panel. Turn on multi-language support for user-entered text with Dynamic Translation in Now Assist applications. For more information, see [Configure multilingual service for Now Assist applications](https://www.servicenow.com/docs/access?context=enable-dynamic-translation-for-now-assist-applications&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).**Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+Now Assist skills are available in the Now Assist panel. Turn on multi-language support for user-entered text with Dynamic Translation in Now Assist applications. For more information, see .**Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see .
 
 </td></tr></tbody>
 </table>5.  Select **Save and continue** to go to the next step.

@@ -2,6 +2,7 @@
 title: Set the default location on a map
 description: Set the initial default location for a service location on a map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/set-default-location-while-using-map.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -17,7 +18,7 @@ Set the initial default location for a service location on a map.
 
 ## Before you begin
 
-The **Using map** validation option must be set before you can configure the initial default location on a map. See [Set the default validation option for service locations](set-default-validation-option-for-service-locations.md).
+The **Using map** validation option must be set before you can configure the initial default location on a map. See [Set the default validation option for service locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/set-default-validation-option-for-service-locations.md).
 
 Role required: admin
 

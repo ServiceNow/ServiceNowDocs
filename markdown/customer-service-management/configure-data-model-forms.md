@@ -2,7 +2,10 @@
 title: Configure forms and lists
 description: Configure forms to add the fields and related lists that are necessary to support the business location and household data models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-data-model-forms.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

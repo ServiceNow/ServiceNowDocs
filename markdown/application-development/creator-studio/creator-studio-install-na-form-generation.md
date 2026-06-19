@@ -2,6 +2,7 @@
 title: Install Now Assist for form generation in Creator Studio
 description: Install the Now Assist for Creator application from the ServiceNow Store to get Now Assist in Creator Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/creator-studio/creator-studio-install-na-form-generation.html
 release: zurich
 product: Creator Studio
 classification: creator-studio
@@ -39,14 +40,14 @@ Role required: admin
 
     3.  On the Service Catalog card, verify that the catalog item generation skill is active.
 
-        **Note:** If the Service Catalog card displays **Not started** or **Inactive** for the catalog item generation skill, you must activate it. To learn more, see [Activate a Now Assist skill](https://www.servicenow.com/docs/access?context=configure-a-now-assist-skill&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+        **Note:** If the Service Catalog card displays **Not started** or **Inactive** for the catalog item generation skill, you must activate it. To learn more, see .
 
-    For more information about using the Now Assist Admin console to access information about setting up, configuring, and monitoring Now Assist applications, see [Now Assist Admin console](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+    For more information about using the Now Assist Admin console to access information about setting up, configuring, and monitoring Now Assist applications, see Now Assist Admin console.
 
 
 ## What to do next
 
-Grant the now.assist.creator role to the Creator Studio users to create forms using Now Assist in Creator Studio. To learn more, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) and [Creator Studio roles and personas](../reference/roles-creator-studio.md).
+Grant the now.assist.creator role to the Creator Studio users to create forms using Now Assist in Creator Studio. To learn more, see  and [Creator Studio roles and personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/roles-creator-studio.md).
 
-**Parent Topic:**[Configuring form generation in Creator Studio](../concept/creator-studio-configure-now-assist.md)
+**Parent Topic:**[Configuring form generation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-configure-now-assist.md)
 

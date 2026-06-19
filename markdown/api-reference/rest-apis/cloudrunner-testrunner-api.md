@@ -2,6 +2,7 @@
 title: Cloud Runner Test Runner REST API
 description: Manages tests to be executed in a cloud runner for Automated Test Framework \(ATF\).Provides the status of each test ran for a provided Browser Orchestration Queue \(BOQ\) record.Sets the test runner job to complete status and cancels the root trackers of any generated tests that are running.Inserts a test runner job into the BOQ \[sn\_atf\_tg\_sn\_boq\] table for given test or test suite, which is then run on the cloud runner.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-apis/cloudrunner-testrunner-api.html
 release: zurich
 product: REST APIs
 classification: rest-apis
@@ -15,7 +16,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 Manages tests to be executed in a cloud runner for Automated Test Framework \(ATF\).
 
-The Cloud Runner Test Runner API requires the [ATF Test Generator and Cloud Runner](https://www.servicenow.com/docs/access?context=atf-tg-cr-intro&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) \(sn\_atf\_tg\) plugin. The methods available with this API run in the **now** namespace and can be called using API Name, **One-click regression testing for ATF**, in the REST API Explorer. The admin role is required to access this API.
+The Cloud Runner Test Runner API requires the  \(sn\_atf\_tg\) plugin. The methods available with this API run in the **now** namespace and can be called using API Name, **One-click regression testing for ATF**, in the REST API Explorer. The admin role is required to access this API.
 
 You can use this API for the following tasks:
 
@@ -23,11 +24,11 @@ You can use this API for the following tasks:
 -   Check the progress of the test job.
 -   Cancel the test job.
 
-The Cloud Runner Test Runner API may be used in tandem with the [Cloud Runner Test Generation REST API](cloudrunner-testgeneration-api.md#) and [Cloud Runner Test User REST API](cloudrunner-testuser-api.md#). For instance, you can generate a test \(Cloud Runner Test Generation API\) and then get the progress of the test in the browser orchestration queue \(Cloud Runner TEST Generation API\) and check the number of tests that passed or failed.
+The Cloud Runner Test Runner API may be used in tandem with the [Cloud Runner Test Generation REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/cloudrunner-testgeneration-api.md) and [Cloud Runner Test User REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/cloudrunner-testuser-api.md). For instance, you can generate a test \(Cloud Runner Test Generation API\) and then get the progress of the test in the browser orchestration queue \(Cloud Runner TEST Generation API\) and check the number of tests that passed or failed.
 
-To view the Server API reference documentation of this API, see [Cloud Runner TestRunnerApi – Scoped, Global](../../../app-store/dev_portal/API_reference/CloudRunnerAPI-TestRunnerAPIScoped/concept/cloudrnr-TestRunnerAPI-scoped.md#).
+To view the Server API reference documentation of this API, see [Cloud Runner TestRunnerApi – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/cloudrnr-TestRunnerAPI-scoped.md).
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/api-rest.md)
 
 ## Cloud Runner Test Runner - GET /now/sn\_atf\_tg/test\_runner\_progress
 
@@ -68,7 +69,7 @@ Table: BOQ \[sn\_atf\_tg\_sn\_boq\]
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -93,7 +94,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_vdy_gwz_31c"><thead><tr><th>
 
@@ -297,7 +298,7 @@ Table: BOQ \[sn\_atf\_tg\_sn\_boq\]
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_ism_z2j_41c" class="rest_api_request_headers"><thead><tr><th>
 
@@ -330,7 +331,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -447,7 +448,7 @@ Default URL: POST `api/now/sn_atf_tg/test_runner`
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_gcx_1fj_41c" class="rest_api_request_headers"><thead><tr><th>
 
@@ -480,7 +481,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 

@@ -2,6 +2,7 @@
 title: How to display a multi-level BOM in ServiceNow CPQ using simple and advanced product actions
 description: Two ways to display a bill of materials that includes hierarchical relationships.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/how\_to\_display\_a\_multi-level\_bom\_in\_logik\_using\_simple\_and\_advanced\_product\_actions.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,11 +24,11 @@ In the example screenshots below, the Laptop category can be expanded or folded 
 
 Image 1: Multi-BOM of laptop hiding sub-products:
 
-![Complete BOM](../images/cpq-multilevel-bom-sub-products-hidden.png)
+\[Omitted image "cpq-multilevel-bom-sub-products-hidden.png"\] Alt text: Complete BOM
 
 Image 2: Multi-BOM expanded to display all sub-products in the BOM:
 
-![Complete BOM](../images/cpq-multilevel-bom-sub-products-shown.png)
+\[Omitted image "cpq-multilevel-bom-sub-products-shown.png"\] Alt text: Complete BOM
 
 ## Configuration
 
@@ -36,22 +37,22 @@ To begin building a bill of materials, navigate to the Rules section of your Ser
 1.  Add a simple product action rule.
 2.  Add your product list in order, as you would for a basic BOM.
 
-    ![Basic BOM](../images/cpq-multilevel-bom-config-1.png)
+    \[Omitted image "cpq-multilevel-bom-config-1.png"\] Alt text: Basic BOM
 
 3.  Set a unique identifier for the chosen parent field. This provides the capability to assign a parent ID and create nested products. In the above example, we have set the Laptop product.
 4.  For each child product, add the unique identifier for the parent product to the Parent Product field. For example, `LAP_sc_parent` is the unique identifier for our Laptop parent product. We would add `LAP_sc_parent` to the Parent Product field for our child products.
 
-    ![Simple selection](../images/cpq-multilevel-bom-config-2.png)
+    \[Omitted image "cpq-multilevel-bom-config-2.png"\] Alt text: Simple selection
 
 
 ## Advanced
 
 When you have many products that require scripted configuration, you can use the ServiceNow CPQ Advanced Function layer to create a multi-BOM. For this, follow the same instructions as above until you begin building your list of products. If you have multiple SKUs and you need the hierarchy to be correct for each SKU on the BOM, use an Advanced Function to better scale your configuration.
 
-![Product action](../images/cpq-multilevel-bom-advanced-1.png)
+\[Omitted image "cpq-multilevel-bom-advanced-1.png"\] Alt text: Product action
 
 1.  Instead of choosing a simple product action, select the Advanced option and click **Create Advanced Function**.
 2.  In the Help bar, you can find a ProductList.parentProduct option on the right of the page. Click **Insert Example** to begin building your script. This lets you dynamically generate a unique identifier field for your parent products by leveraging the Set Index field.
 
-![Advanced function](../images/cpq-multilevel-bom-advanced-2.png)
+\[Omitted image "cpq-multilevel-bom-advanced-2.png"\] Alt text: Advanced function
 

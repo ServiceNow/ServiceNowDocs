@@ -2,6 +2,7 @@
 title: Minimize session activity timeout duration \[Updated in Security Center 1.3\]
 description: Use the glide.ui.session\_timeout property to designate, in minutes, activity timeout value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-session-activity-timeout.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -27,15 +28,15 @@ There are several functional impacts from setting this property:
 |---------|-----------|
 |Property name|**glide.ui.session\_timeout**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Session management](sc-session-management.md)|
+|Category|[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-session-management.md)|
 |Purpose|To enforce session timeout.|
 |Recommended value|User specified timeout in minutes. 60 minutes is the recommended value, but this value may vary depending on functionality and security requirement. Do not set this value to more than one day.|
 |Security risk rating|7.5|
 |Functional impact|This remediation enforces timely expiration of user account. No functionality impact, however User experience is altered.|
 |Security risk|\(High\) User sessions being active for indefinite amount of time is a security risk and should expire on a time-based configuration.|
-|References|[Manage user sessions](https://www.servicenow.com/docs/access?context=c_ManageUserSessions&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)|
+|References|Manage user sessions|
 
-To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Session management](sc-session-management.md)
+**Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-session-management.md)
 

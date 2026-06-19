@@ -2,6 +2,7 @@
 title: Close an alert
 description: Close an alert by an event or a user action. Closing an alert also closes any related incident that is not already resolved or closed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/t\_EMCloseAlert.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -38,5 +39,5 @@ When a Clear event is triggered for an open alert, the corresponding alert is se
     If an alert has an open incident that is not related to any other open alerts, the incident is either closed, resolved, or left unchanged based on the **evt\_mgmt.alert\_closes\_incident** property.
 
 
-**Parent Topic:**[Manage and monitor alerts](../concept/c_EMAlert.md)
+**Parent Topic:**[Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/c_EMAlert.md)
 

@@ -2,6 +2,7 @@
 title: Install Order Management
 description: You can install the Order Management application \(sn\_ind\_tmt\_orm\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/order-mgt-install-providers.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -29,7 +30,7 @@ The following items are installed with Order Management:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Order Management](../reference/components-installed-with-order-management.md).
+For more information, see [Components installed with Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/components-installed-with-order-management.md).
 
 ## Procedure
 
@@ -56,5 +57,5 @@ For more information, see [Components installed with Order Management](../refere
 6.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Order Management](../concept/order-mgt-configuring.md)
+**Parent Topic:**[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-mgt-configuring.md)
 

@@ -2,6 +2,7 @@
 title: Data privacy
 description: The data privacy store app is a Next Experience refresh for data classification and data privacy with modern look, feel, and usability. Data privacy store app is supported in Utah and above.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-privacy-classic/dps-data-privacy.html
 release: zurich
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
@@ -19,9 +20,9 @@ Data privacy is comprised of several components, Overview, Classification, and A
 
 ## Overview
 
-Use the Overview section as a starting point to manage your data and data privacy compliance. See [Data privacy overview](dps-data-privacy-overview.md) for details.
+Use the Overview section as a starting point to manage your data and data privacy compliance. See [Data privacy overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-data-privacy-overview.md) for details.
 
 ## Classification
 
-Data classification is the process of organizing data into categories that make it easy to retrieve, sort, and store for future use. Using a classification system helps to focus on confidentiality and security policy requirements. Classify data to be used for anonymization. For information on data classes and classification, see [Data classification](dps-data-classification.md).
+Data classification is the process of organizing data into categories that make it easy to retrieve, sort, and store for future use. Using a classification system helps to focus on confidentiality and security policy requirements. Classify data to be used for anonymization. For information on data classes and classification, see [Data classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-data-classification.md).
 

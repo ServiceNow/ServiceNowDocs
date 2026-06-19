@@ -2,6 +2,7 @@
 title: Duplicate a portfolio plan
 description: Create a portfolio plan with the data of an existing portfolio plan. If the portfolio plan you want to create is similar to an existing portfolio plan, duplicating the existing portfolio plan saves your time. You can also copy portfolio plans that were shared with you either with view or edit access.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/copy-portfolio-plan-in-portfolio-planning.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -29,7 +30,7 @@ The **Duplicate portfolio plan** option copies the selected portfolio plan with 
 
 2.  From the list of portfolio plans, select one.
 
-3.  From the portfolio plan header, select the More actions icon \(![More actions icon in the portfolio plan header.](../../alignment-planner-workspace/images/more-actions.png)\) and then select **Duplicate portfolio plan**.
+3.  From the portfolio plan header, select the More actions icon \(\[Omitted image "more-actions.png"\] Alt text: More actions icon in the portfolio plan header.\) and then select **Duplicate portfolio plan**.
 
 4.  On the Duplicate portfolio plan window, fill the details.
 
@@ -50,11 +51,11 @@ The new portfolio plan is created and a link is generated on the screen to acces
 
 ## What to do next
 
--   Analyze the backlog and prioritize work for your portfolio plan. See [Prioritizing portfolio plan work in Portfolio Planning](../concept/prioritizing-work-in-portfolio-planning-workspace.md).
--   Roadmap the prioritized work to visualize and track progress of your plans. See [Planning roadmaps in Portfolio Planning](../concept/planning-roadmaps-in-portfolio-planning.md).
--   [Modify a portfolio plan](modify-portfolio-plan-in-portfolio-planning-workspace.md).
--   Show or hide features for your portfolio plan according to your requirement while sharing a portfolio plan with your stakeholders. See, [Show or hide the features for a portfolio plan](show-or-hide-the-features-for-your-portfolio-plan-ppw.md).
--   [Share a portfolio plan with stakeholders](share-portfolio-plan-in-portfolio-planning-workspace.md).
+-   Analyze the backlog and prioritize work for your portfolio plan. See [Prioritizing portfolio plan work in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/prioritizing-work-in-portfolio-planning-workspace.md).
+-   Roadmap the prioritized work to visualize and track progress of your plans. See [Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md).
+-   [Modify a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/modify-portfolio-plan-in-portfolio-planning-workspace.md).
+-   Show or hide features for your portfolio plan according to your requirement while sharing a portfolio plan with your stakeholders. See, [Show or hide the features for a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/show-or-hide-the-features-for-your-portfolio-plan-ppw.md).
+-   [Share a portfolio plan with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/share-portfolio-plan-in-portfolio-planning-workspace.md).
 
-**Parent Topic:**[Managing portfolio plans in Portfolio Planning](../concept/managing-portfolio-plans-in-portfolio-planning.md)
+**Parent Topic:**[Managing portfolio plans in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/managing-portfolio-plans-in-portfolio-planning.md)
 

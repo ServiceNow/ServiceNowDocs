@@ -2,6 +2,7 @@
 title: Configure Agent Client Collector for use with Service Mapping
 description: Configure Agent Client Collector to discover and map application services without having to configure credentials for the MID Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/configure-acc-for-service-mapping.html
 release: zurich
 product: Service Mapping
 classification: service-mapping
@@ -19,9 +20,9 @@ Configure Agent Client Collector to discover and map application services withou
 
 Confirm that you have installed both Agent Client Collector for Visibility - Content version 3.5.0 and the Kubernetes Visibility Agent \(KVA\) from the ServiceNow® Store.
 
-Ensure that Agent Client Collector has been configured. For more information, see [Application patterns for the Agent Client Collector](../../agent-client-collector/concept/application-patterns-acc.md).
+Ensure that Agent Client Collector has been configured. For more information, see [Application patterns for the Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/application-patterns-acc.md).
 
-Verify that agents have the necessary privileges to execute the required application pattern commands for successful completion of top-down discovery. For more information, see [SSH commands requiring a privileged user during probe-based discovery](../../discovery/reference/discovery-ssh-command-require-priv.md) and [SSH commands not requiring a privileged user during probe-based discovery](../../discovery/reference/discovery-ssh-probe-commands.md).
+Verify that agents have the necessary privileges to execute the required application pattern commands for successful completion of top-down discovery. For more information, see [SSH commands requiring a privileged user during probe-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-ssh-command-require-priv.md) and [Non-privileged SSH commands during probe-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-ssh-probe-commands.md).
 
 **Important:** This configuration requires a MID Server that is up and running to work correctly. Service Mapping selects the MID Server to which the target agent connects, in order to run commands through the agent.
 

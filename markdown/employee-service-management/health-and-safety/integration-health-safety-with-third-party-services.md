@@ -2,6 +2,7 @@
 title: Integration of Health and Safety applications with third-party services
 description: Extend the capabilities of the Health and Safety applications by integrating it with other third-party systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety/integration-health-safety-with-third-party-services.html
 release: zurich
 product: Health and Safety
 classification: health-and-safety

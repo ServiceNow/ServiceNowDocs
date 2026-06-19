@@ -2,6 +2,7 @@
 title: Create consumable assets
 description: Create a consumable to track an asset as a group of the same model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/asset-management/t\_CreatingConsumableAssets.html
 release: zurich
 product: Asset Management
 classification: asset-management
@@ -233,5 +234,5 @@ Work notes related to the asset.
 </table>2.  Click **Submit**.
 
 
-**Parent Topic:**[Consumables life cycle](../concept/c_FollowLifeCycleConsumbl.md)
+**Parent Topic:**[Consumables life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/c_FollowLifeCycleConsumbl.md)
 

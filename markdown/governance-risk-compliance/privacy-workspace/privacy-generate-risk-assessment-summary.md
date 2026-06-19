@@ -2,6 +2,7 @@
 title: Use Risk assessment summarization skill to generate summary
 description: Use Risk assessment summarization skill to generate a risk assessment summary that is based on inherent risks, residual risks, target risks, and control effectiveness data. Your approvers get the key insights to understand the context quickly, and you can reduce the time involved in creating summaries manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/privacy-generate-risk-assessment-summary.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -17,13 +18,13 @@ Use Risk assessment summarization skill to generate a risk assessment summary th
 
 ## Before you begin
 
-Install the Now Assist for Privacy Management application to generate a risk assessment summary. For more information, see [Install Now Assist for Privacy Management](../../grc-privacy-management/task/privacy-install-now-assist.md).
+Install the Now Assist for Privacy Management application to generate a risk assessment summary. For more information, see [Install Now Assist for Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/privacy-install-now-assist.md).
 
 Role required: The sn\_prm\_gen\_ai.user role must be assigned manually to your role to generate the risk assessment summary.
 
 ## About this task
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 Privacy Managers can generate the risk assessment summary and save the summary in the **Risk assessment summary field** only when they are submitting the assessment. After submission, both assessors and approvers can generate the summary and share it in the work notes. You can also summarize the assessment for object based assessments.
 

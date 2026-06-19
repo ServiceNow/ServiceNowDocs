@@ -2,6 +2,7 @@
 title: Configure email for feedback submission
 description: Configure email settings in your instance and send an email to this id to create feedback.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/product-feedback/configure-outlook-email-for-feedback.html
 release: zurich
 product: Product Feedback
 classification: product-feedback
@@ -52,5 +53,5 @@ Configure email settings in your instance use it to send an email directly. With
 6.  Select **Send**.
 
 
-**Parent Topic:**[Configuring Feedback application in Strategic Planning](../concept/configuring-product-feedback-in-sp.md)
+**Parent Topic:**[Configuring Feedback application in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/configuring-product-feedback-in-sp.md)
 

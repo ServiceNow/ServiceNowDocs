@@ -2,6 +2,7 @@
 title: Mobile On-Call Scheduling overview
 description: Members and managers of a shift can use the On-Call Scheduling applets and navigation menu on the Mobile Agent application to view and manage shifts and schedules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/on-call-scheduling/mobile-ocs-overview.html
 release: zurich
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -28,5 +29,5 @@ The navigation bar appears at the bottom of the mobile application screen. This 
 -   **Notification:** View a list of the notifications that have been pushed to an agent. Tap a notification in the list to see the details, then tap the details open the case.
 -   **Settings:** Manage settings for the mobile application.
 
-**Parent Topic:**[Mobile experience for On-Call Scheduling](mobile-experience-ocs.md)
+**Parent Topic:**[Mobile experience for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/mobile-experience-ocs.md)
 

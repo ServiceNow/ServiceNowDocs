@@ -2,6 +2,7 @@
 title: Create a test plan in Audit Workspace
 description: Create a test plan to document the control testing procedure. You can create a test plan from scratch or based on a test template to describe how a feature is to be tested.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/create-test-plan-audit-ws.html
 release: zurich
 product: Audit Management
 classification: audit-management
@@ -27,7 +28,7 @@ Role required: sn\_audit.manager, sn\_audit\_ws.supervisor, sn\_audit\_ws.audito
 
     You can also create a test plan by navigating to the Audit workspace List page.
 
-    1.  Click the lists icon \(![List icon.](../image/ListsIcon.jpg)\).
+    1.  Click the lists icon \(\[Omitted image "ListsIcon.jpg"\] Alt text: List icon.\).
     2.  Click **Test plans** in the Execution list.
     3.  Click **New**.
     You can also create a test plan from an engagement that is in **Validate** or **Fieldwork** state by selecting the test plan and clicking the **Generate Control Tests** button in the Test plans related list.

@@ -2,6 +2,7 @@
 title: Using Notify for making conference calls
 description: Notify administrators, major incident managers, or communications managers can manage conference calls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/notify/c\_NotifyConferenceCalls.html
 release: zurich
 product: Notify
 classification: notify
@@ -34,20 +35,20 @@ Several conference call workflows are available by default. These workflows can 
 
 The number groups Conference Call Group and Notify On Task Group use these conference call workflows by default.
 
--   **[Start a conference call](../task/start-a-conference-call.md)**  
+-   **[Start a conference call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/start-a-conference-call.md)**  
 Start a conference call from a task or an incident communication plan by inviting one or more users to join a call. The conference will not start until at least two participants join.
--   **[Add participants to a conference call](../task/t_AddParticipantToConferenceCall.md)**  
+-   **[Add participants to a conference call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/t_AddParticipantToConferenceCall.md)**  
 Add a participant to a conference call using Notify.
--   **[Mute or unmute all participants](../task/t_MuteOrUnmuteAll.md)**  
+-   **[Mute or unmute all participants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/t_MuteOrUnmuteAll.md)**  
 As a communications manager or a conference call host, mute/unmute all the conference participants from the workbench.
--   **[Mute or remove a conference call participant](../task/t_MuteOrKickAConfCallParty.md)**  
+-   **[Mute or remove a conference call participant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/t_MuteOrKickAConfCallParty.md)**  
 As a communications manager, you can mute or kick conference call participants.
--   **[Send a message to conference call participants](../task/send-sms-confcall-participants.md)**  
+-   **[Send a message to conference call participants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/send-sms-confcall-participants.md)**  
 Send a brief message as a text or voice message to the participants of a conference call to set a context to the call.
--   **[Viewing conference call information](../reference/r_IAViewConferenceCallInformation.md)**  
+-   **[Viewing conference call information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/r_IAViewConferenceCallInformation.md)**  
 Conference calls are listed as system activities in the **Activity** section of the Incident Communication Plan form and also are listed in the **Conference Calls** related list.
--   **[List of Notify calls](../reference/view-list-of-notify-calls.md)**  
+-   **[List of Notify calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/view-list-of-notify-calls.md)**  
 If you are a Notify administrator, you can view a list of calls and the status of a call made to or from Notify. The call records help in reporting and analytics.
 
-**Parent Topic:**[Using Notify](using-notify.md)
+**Parent Topic:**[Using Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/using-notify.md)
 

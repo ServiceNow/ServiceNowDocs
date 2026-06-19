@@ -2,12 +2,13 @@
 title: CSM Pricing API
 description: The CSM Pricing API provides methods to calculate prices for transaction lines containing products.Enables callers to compute the price of products specified in the request payload. The pricing settings included in the payload determine and control the execution flow of the Pricing Engine, such as whether to apply validations, adjustments, or rollups.Terminate a session with a given ID that was established during a configurator session.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-apis/csm-pricing-api.html
 release: zurich
 product: REST APIs
 classification: rest-apis
 topic_type: concept
 last_updated: "2025-09-26"
-reading_time_minutes: 47
+reading_time_minutes: 50
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -38,7 +39,33 @@ Prerequisite: You need to set up a product offering that consists of these prope
     -   Context variables
     -   Rule matrices
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+## External ID support
+
+With external ID resolution, you can use your own identifiers or codes for selected reference fields instead of a ServiceNow sys\_id. For example, you might be integrating with other CRM or ERP systems that do not have a ServiceNow sys\_id for its objects. You can use external codes for the following reference fields, including but not limited to:
+
+-   Product offering
+-   Price list
+-   Unit of measure
+
+**Note:** External ID resolution applies to REST API pricing requests only and does not affect UI-based flows. Pricing execution can use internal system IDs, external IDs, or a combination of both IDs in pricing requests as configured in the context variable mapping.
+
+Context variable configuration and mapping
+
+As an admin, before submitting a REST API pricing request, create the context variables that define the reference fields for external IDs or codes that are participating in external ID resolution. You also add the external IDs or codes to the reference tables called by pricing requests. For details on defining context variables, see Create a custom context variable.
+
+How external IDs work in pricing requests
+
+**Request intake**
+
+The caller sends a Pricing REST API request that can include:
+
+-   External IDs or codes
+-   ServiceNow sys\_ids
+-   A combination of both
+
+Requests must include \(`"use_external_code": true`\) in the settings object to enable external code resolution.
+
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/api-rest.md)
 
 ## CSM Pricing - POST /api/sn\_csm\_pricing/\{api\_version\}/pricingengine/computePrice
 
@@ -346,10 +373,20 @@ The line ID of the top-level product in configuration.Data type: String
 
 Example: `HOMEAUTOMA2000`
 
+</td></tr><tr><td>
+
+settings.use\_external\_code
+
+</td><td>
+
+Indicates if the system performs external code lookup.Data type: Boolean
+
+Example: `true`
+
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -374,7 +411,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -2809,7 +2846,7 @@ The following result shows that the request status is successful.
 
 This example demonstrates how to update an active product configuration session by changing a user-selectable option \(characteristic\). This is a common action in a product configurator, such as changing a color, size, or feature.
 
-Prerequisite: You need to include the `pricing_context_id` that is returned when initiating a [product configuration session](csm-pricing-api.md#example_zbg_2jt_ygc). This tells the pricing engine which session to update.
+Prerequisite: You need to include the `pricing_context_id` that is returned when initiating a [product configuration session](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/csm-pricing-api.md). This tells the pricing engine which session to update.
 
 Note: The lineItems array only needs to contain the specific item that is being modified, it is not necessary to send the entire product hierarchy again.
 
@@ -3184,7 +3221,7 @@ This example demonstrates how to update an active product configuration by desel
 
 Just like in the previous use case, this request must include the correct `pricing_context_id` to ensure the change is applied to the correct session. The pricing engine will then recalculate all prices for the entire bundle with that item removed, which may affect overall discounts and roll-ups.
 
-Prerequisite: You need to include the `pricing_context_id` that is returned when initiating a [product configuration session](csm-pricing-api.md#example_zbg_2jt_ygc). This tells the pricing engine which session to update.
+Prerequisite: You need to include the `pricing_context_id` that is returned when initiating a [product configuration session](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/csm-pricing-api.md). This tells the pricing engine which session to update.
 
 Note: The lineItems array only needs to contain the specific item that is being modified, it is not necessary to send the entire product hierarchy again.
 
@@ -4946,6 +4983,203 @@ curl "https://instance.servicenow.com/api/sn_csm_pricing/v1/pricingengine/comput
 
 ```
 
+### External ID resolution
+
+This example shows setting the external ID resolution feature to true while setting the `pricelist` and `product_offering` to a custom-mapped variable called `DOORSENSOR1`.
+
+Example:
+
+-   `"use_external_code": true`: Enables external code resolution
+-   `"pricelist": "DOORSENSOR1"`: Value maps to a custom context variable for the price
+-   `"product_offering": "DOORSENSOR1"`: Value maps to a custom context variable for the product
+
+Example: cURL request.
+
+```
+curl "https://instance.servicenow.com/api/sn_csm_pricing/v1/pricingengine/computePrice" \
+--request POST \
+--header "Accept: application/json" \
+--header "Content-Type: application/json" \
+--data '{
+    "header": {
+        "source_system": "ServiceNow Headless API",
+        "requesting_record_id": "QT0001101",
+        "currency": "USD",
+        "lineItems": [
+            {
+                "pricelist": "DOORSENSOR1",
+                "product_offering": "DOORSENSOR1",
+                "periodicity" : "",
+                "quantity": "1",
+                "unit_of_measure": "cb2795d553020110286eddeeff7b12ff",
+                "transaction_date": "2023-12-18 23:37:11",
+                "line_id": "CONNECTEDC1100"
+            }
+        ],
+        "pricelist": "19d29513d0e63110f8770dbf976be122",
+        "transaction_date": "2023-12-18 23:37:11"
+    },
+    "settings": {
+        "pricing_elements": "PRICE,COST,NET_PRICE,LINE_ROLLUPS,HEADER_ROLLUPS,ADJUSTMENTS",
+        "disable_validation": true,
+        "use_external_code": true
+    }
+}' \
+--user 'username:password'
+```
+
+```
+{
+      "result": {
+        "header": {
+            "currency": "USD",
+            "lineItems": [
+                {
+                    "line_id": "CONNECTEDC1100",
+                    "status": "Success",
+                    "currency": "USD",
+                    "base_price": {
+                        "value": "0.0000",
+                        "displayValue": "$0.00"
+                    },
+                    "list_price": {
+                        "value": "0.0000",
+                        "displayValue": "$0.00"
+                    },
+                    "pricelist": "DOORSENSOR1",
+                    "quantity": "",
+                    "price_list_line": "3e93e785d07a7910f8770dbf976be1ee",
+                    "product_offering": "DOORSENSOR1",
+                    "one_time_price": {
+                        "value": "0.0000",
+                        "displayValue": "$0.00"
+                    },
+                    "monthly_recurring_price": {
+                        "value": "0.0000",
+                        "displayValue": "$0.00"
+                    },
+                    "annual_recurring_price": {
+                        "value": "0.0000",
+                        "displayValue": "$0.00"
+                    },
+                    "unit_net_price": {
+                        "value": "0.0000",
+                        "displayValue": "$0.00"
+                    },
+                    "cumulative_net_price": {
+                        "value": "0.0000",
+                        "displayValue": "$0.00"
+                    },
+                    "cumulative_one_time_price": {
+                        "value": "0.0000",
+                        "displayValue": "$0.00"
+                    },
+                    "cumulative_monthly_recurring_price": {
+                        "value": "0.0000",
+                        "displayValue": "$0.00"
+                    },
+                    "cumulative_annual_recurring_price": {
+                        "value": "0.0000",
+                        "displayValue": "$0.00"
+                    },
+                    "unit_adjustment": {
+                        "value": "0.0000",
+                        "displayValue": "$0.00"
+                    },
+                    "term_month": {
+                        "value": 0,
+                        "displayValue": 0
+                    },
+                    "cumulative_annual_recurring_price_v1": {
+                        "value": 0,
+                        "displayValue": 0
+                    },
+                    "cumulative_monthly_recurring_price_v1": {
+                        "value": 0,
+                        "displayValue": 0
+                    },
+                    "total_recurring_price": {
+                        "value": "0.0000",
+                        "displayValue": "$0.00"
+                    },
+                    "pricingAdjustments": [],
+                    "total_adjustment_amount": []
+                }
+            ],
+            "status": "Success",
+            "total_monthly_recurring_price": {
+                "value": "0.0000",
+                "displayValue": "$0.00"
+            },
+            "total_monthly_recurring_price_v1": {
+                "value": "0.0000",
+                "displayValue": "$0.00"
+            },
+            "total_annual_recurring_price": {
+                "value": "0.0000",
+                "displayValue": "$0.00"
+            },
+            "total_annual_recurring_price_v1": {
+                "value": "0.0000",
+                "displayValue": "$0.00"
+            },
+            "total_amount": {
+                "value": "0.0000",
+                "displayValue": "$0.00"
+            },
+            "total_amount_v1": {
+                "value": "0.0000",
+                "displayValue": "$0.00"
+            },
+            "total_one_time_price": {
+                "value": "0.0000",
+                "displayValue": "$0.00"
+            },
+            "total_one_time_cost": {
+                "value": "0.0000",
+                "displayValue": "$0.00"
+            },
+            "total_monthly_cost": {
+                "value": "0.0000",
+                "displayValue": "$0.00"
+            },
+            "total_cost": {
+                "value": "0.0000",
+                "displayValue": "$0.00"
+            },
+            "total_one_time_margin": {
+                "value": "0.0000",
+                "displayValue": "$0.00"
+            },
+            "total_monthly_margin": {
+                "value": "0.0000",
+                "displayValue": "$0.00"
+            },
+            "total_margin_amount": {
+                "value": "0.0000",
+                "displayValue": "$0.00"
+            },
+            "total_one_time_margin_percentage": {
+                "value": "0.0000",
+                "displayValue": "$0.00"
+            },
+            "total_monthly_margin_percentage": {
+                "value": "0.0000",
+                "displayValue": "$0.00"
+            },
+            "total_margin_percentage": {
+                "value": "0.0000",
+                "displayValue": "$0.00"
+            }
+        },
+        "settings": {
+            "pricing_elements": "PRICE,COST,NET_PRICE,LINE_ROLLUPS,HEADER_ROLLUPS,ADJUSTMENTS",
+            "use_external_code": true
+        }
+    }
+}
+```
+
 ## CSM Pricing - DELETE - /api/sn\_csm\_pricing/v1/pricingengine/pricing\_context/\{pricing\_context\_id\}
 
 Terminate a session with a given ID that was established during a configurator session.
@@ -4993,7 +5227,7 @@ ID from pricing engine request when scope is configurator.
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -5020,7 +5254,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

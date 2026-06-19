@@ -2,6 +2,7 @@
 title: Stop the Edge Encryption proxy
 description: You can stop an Edge Encryption proxy from the command line.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/t\_StoptheProxy.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -23,7 +24,7 @@ Role required: admin
 
 1.  Stop the proxy server.
 
-<table id="choicetable_nfz_zhb_tt"><tbody><tr><td id="d119650e72">
+<table id="choicetable_nfz_zhb_tt"><tbody><tr><td id="d34422e72">
 
 **On a Linux machine**
 
@@ -31,7 +32,7 @@ Role required: admin
 
 Execute `./shutdown.sh`
 
-</td></tr><tr><td id="d119650e84">
+</td></tr><tr><td id="d34422e84">
 
 **On a Windows machine**
 
@@ -45,5 +46,5 @@ Execute `edgeencryption.bat stop`
 </table>2.  Check the log on the proxy server to verify that the proxy has stopped.
 
 
-**Parent Topic:**[Installing Edge Encryption](../concept/c_InstallEdgeEncryptionProxy.md)
+**Parent Topic:**[Installing Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/c_InstallEdgeEncryptionProxy.md)
 

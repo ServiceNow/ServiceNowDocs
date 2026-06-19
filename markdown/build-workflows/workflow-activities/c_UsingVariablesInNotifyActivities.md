@@ -2,6 +2,7 @@
 title: Using variables in Notify workflow activities
 description: Certain Notify workflow activities support variable substitution for reading text to callers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-activities/c\_UsingVariablesInNotifyActivities.html
 release: zurich
 product: Workflow Activities
 classification: workflow-activities

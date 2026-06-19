@@ -2,6 +2,7 @@
 title: Common roles in Governance, Risk, and Compliance
 description: Certain common roles are used in multiple GRC modules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/grc-common-roles.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -41,7 +42,7 @@ Role that is a part of the GRC Profiles application. Assign this role to users w
 -   Accept and approve evidence responses.
 -   Assign a remediation task.
 -   Acknowledge policies.
--   Contribute to policies.
+-   Edit the linked MS Word or Google Doc as a contributor during policy authoring.
 -   Group or ungroup attestations.
 -   Request or approve policy exceptions.
 -   Report issues.
@@ -321,5 +322,5 @@ Role that is applicable only to customers who are entitled to and have installed
 
 **Note:** This reclassification is applicable only to customers who are entitled to and have installed the GRC Employee User application. For more details, review the entitlement on the subscription dashboard or contact ServiceNow customer service.
 
-**Parent Topic:**[Governance, Risk, and Compliance reference](../concept/grc-reference.md)
+**Parent Topic:**[Governance, Risk, and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-reference.md)
 

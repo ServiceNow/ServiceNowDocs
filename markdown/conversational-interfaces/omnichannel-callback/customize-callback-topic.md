@@ -2,6 +2,7 @@
 title: Customize a default callback topic
 description: Customize the default callback topics as per your requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/omnichannel-callback/customize-callback-topic.html
 release: zurich
 product: Omnichannel Callback
 classification: omnichannel-callback
@@ -27,7 +28,7 @@ You can customize one of the following default callback topics: Callback-Phone f
 
 1.  Duplicate the Callback-Phone topic from the Virtual Agent Designer.
 
-    For more information on how to duplicate a topic, see [Duplicate a Virtual Agent topic](../../virtual-agent/task/duplicate-virtual-agent-topic.md).
+    For more information on how to duplicate a topic, see [Duplicate a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/duplicate-virtual-agent-topic.md).
 
 2.  In the Advanced properties section of the **Properties** tab, select the voice channel that you want to associate with the custom callback topic.
 

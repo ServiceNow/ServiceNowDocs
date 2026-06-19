@@ -2,6 +2,7 @@
 title: Download the ServiceNow Agent app
 description: Download the ServiceNow Agent app to use ITOM Mobile Agent on your device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-reliability-management/download-agent-app.html
 release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
@@ -17,7 +18,7 @@ Download the ServiceNow Agent app to use ITOM Mobile Agent on your device.
 
 ## Before you begin
 
-ITOM Mobile Agent must be installed. See [Install ITOM Mobile Agent](install-itom-mobile.md) for more information.
+ITOM Mobile Agent must be installed. See [Install ITOM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/install-itom-mobile.md) for more information.
 
 Role required: srm\_manager, srm\_responder, or srm\_admin
 
@@ -33,10 +34,10 @@ The ITOM Mobile Agent application runs in the ServiceNow Agent app. To access IT
     -   For Android, use Google Play.
 2.  Confirm that the app is on your device.
 
-    Look for the ServiceNow Agent app icon \(![ServiceNow Agent app icon](../../service-reliability/image/sr-mobile-agent-app.png)\). The app appears on your device with the name Agent.
+    Look for the ServiceNow Agent app icon \(\[Omitted image "sr-mobile-agent-app.png"\] Alt text: ServiceNow Agent app icon\). The app appears on your device with the name Agent.
 
 
 ## What to do next
 
-To start using ITOM Mobile Agent, see [Log in to ITOM Mobile Agent](log-in-itom-mobile.md). You must log in to receive push notifications about alerts and incidents.
+To start using ITOM Mobile Agent, see [Log in to ITOM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/log-in-itom-mobile.md). You must log in to receive push notifications about alerts and incidents.
 

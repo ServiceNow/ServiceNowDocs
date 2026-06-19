@@ -2,6 +2,7 @@
 title: Assistant analytics dashboard indicator details
 description: View the data and calculations behind an indicator that is presented in the form of a visualization on the Assistant analytics dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/now-assist-in-virtual-agent/assistant-analytics-dashboard-indicator-details.html
 release: zurich
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent

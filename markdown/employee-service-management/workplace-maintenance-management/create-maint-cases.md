@@ -2,6 +2,7 @@
 title: Workplace maintenance cases
 description: The schedule job creates maintenance cases for plan records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-maintenance-management/create-maint-cases.html
 release: zurich
 product: Workplace Maintenance Management
 classification: workplace-maintenance-management
@@ -29,13 +30,13 @@ Role required: admin
 
     The **Workplace Maintenance Nightly run** scheduled job generates maintenance cases for maintenance plan records.
 
-    ![The Overview tab for a Maintenance plan calendar view showing maintenance cases.](../images/wsd-maint-overview-tab.png)
+    \[Omitted image "wsd-maint-overview-tab.png"\] Alt text: The Overview tab for a Maintenance plan calendar view showing maintenance cases.
 
 3.  Select a maintenance case to view the **Workplace Service** associated with a maintenance case and the scheduled job value for a case.
 
-    For more information, see [Create plan service configuration](create-maint-service-config.md).
+    For more information, see [Create plan service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/create-maint-service-config.md).
 
-    ![Published plan showing maintenance cases with an associated workplace service and a schedule.](../images/wsd-published-maint-case-wiht-service.png)
+    \[Omitted image "wsd-published-maint-case-wiht-service.png"\] Alt text: Published plan showing maintenance cases with an associated workplace service and a schedule.
 
 4.  Select a maintenance case to open the Case details panel and perform the following to update the record:
 
@@ -57,16 +58,16 @@ Role required: admin
 
         The scheduled job checks for active plan records with a **Next Run time** \(duration-based schedule\) or **Next run value** \(meter-based schedule\) and checks for a schedule template in a plan record. When it finds a schedule template, it creates maintenance cases.
 
-        For more information about how to create a scheduled job and how the scheduled job picks up plan records based on conditions and workplace services, see [Create or copy a maintenance schedule](create-maint-schedule.md) and [Workplace planned maintenance scheduled job](../concept/sch-job-planned-nightly.md).
+        For more information about how to create a scheduled job and how the scheduled job picks up plan records based on conditions and workplace services, see [Create or copy a maintenance schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/create-maint-schedule.md) and [Workplace planned maintenance scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/sch-job-planned-nightly.md).
 
 6.  To optimize cleaning activities for a selected location using Agentic AI workflow, the Optimize cleaning activity scheduled job is executed.
 
-    For more information, see [Components installed with Workplace Maintenance Management](../reference/components-installed-with-maintenance-mgmt.md) and [Optimize cleaning activities agent overview](../../now-assist-wsd/concept/optimise-cleaning-agent-overview.md).
+    For more information, see [Components installed with Workplace Maintenance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/components-installed-with-maintenance-mgmt.md) and [Optimize cleaning activities agent overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/optimise-cleaning-agent-overview.md).
 
 
-**Parent Topic:**[Manage Workplace Maintenance Management plans](../concept/manage-maintenance-plans.md)
+**Parent Topic:**[Manage Workplace Maintenance Management plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/manage-maintenance-plans.md)
 
-**Previous topic:**[Workplace planned maintenance scheduled job](../concept/sch-job-planned-nightly.md)
+**Previous topic:**[Workplace planned maintenance scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/sch-job-planned-nightly.md)
 
-**Next topic:**[Create workplace services](create-workplace-services.md)
+**Next topic:**[Create workplace services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/create-workplace-services.md)
 

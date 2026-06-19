@@ -2,6 +2,7 @@
 title: Search for keywords in contract templates
 description: Search for keywords in contract templates easily.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-search-in-doct.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -17,7 +18,7 @@ Search for keywords in contract templates easily.
 
 ## Before you begin
 
-Ensure you have enabled the search functionality for the keyword search. For more information, see [Enable keyword search for contract templates](cncore-enable-search-cont-tmplts.md).
+Ensure you have enabled the search functionality for the keyword search. For more information, see [Enable keyword search for contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-enable-search-cont-tmplts.md).
 
 Role required: sn\_cm\_core.contract\_config
 
@@ -25,7 +26,7 @@ Role required: sn\_cm\_core.contract\_config
 
 1.  Navigate to **All** &gt; **Contracts Core** &gt; **Contract Templates**.
 
-2.  In the contract template list, select the filter icon ![Filter icon](../image/lsd-filter-icon.png).
+2.  In the contract template list, select the filter icon \[Omitted image "lsd-filter-icon.png"\] Alt text: Filter icon.
 
 3.  Search for single or multiple keywords.
 
@@ -38,5 +39,5 @@ Role required: sn\_cm\_core.contract\_config
 
 Any contract template that has the keyword is listed.
 
-**Parent Topic:**[Using Contract Management Pro](../concept/cncore-use-cmpro.md)
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

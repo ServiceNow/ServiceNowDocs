@@ -2,6 +2,7 @@
 title: Create a bot in Microsoft Teams
 description: You must create a bot in Microsoft Teams to be able to integrate with the Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/create-bot-msteams.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -58,7 +59,7 @@ Role required: Microsoft Teams admin, Global Administrator, or roles containing 
 
 ## What to do next
 
-[Integrate your self-configured bot with single Microsoft Teams tenant](teams-install-custom-app.md).
+[Integrate your self-configured bot with single Microsoft Teams tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/teams-install-custom-app.md).
 
-**Parent Topic:**[Integrating multiple ServiceNow instances with a single Microsoft Teams tenant](../concept/va-integ-single-teams.md)
+**Parent Topic:**[Integrating multiple ServiceNow instances with a single Microsoft Teams tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integ-single-teams.md)
 

@@ -2,6 +2,7 @@
 title: Managing visitor registrations
 description: As an admin and as a reception staff, you can track visitor registrations and update their status while the visitors are on the premises.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-visitor-management/manage-visitor-registrations.html
 release: zurich
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -26,18 +27,18 @@ As an admin and as a reception staff, you can perform the following actions on v
 
 As an admin, you can also view visit logs containing details about the state changes for the visitor registrations.
 
--   **[Update a visitor registration](../task/update-visitor-registration.md)**  
+-   **[Update a visitor registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-visitor-management/update-visitor-registration.md)**  
 Track visitor registrations and update the status of a visitor while the visitor is on the premises.
--   **[View visitor registrations](../task/view-visitor-registrations.md)**  
+-   **[View visitor registrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-visitor-management/view-visitor-registrations.md)**  
 View visitor registrations submitted through the service portal. You can view all visitor registrations, the ones for the current day, and the ones that were made by you.
--   **[View visitor policy confirmations](../task/view-policy-confirmations.md)**  
+-   **[View visitor policy confirmations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-visitor-management/view-policy-confirmations.md)**  
 View policy confirmations that were submitted by the visitors.
--   **[Visitor registration states](../reference/visitor-registration-states.md)**  
+-   **[Visitor registration states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-visitor-management/visitor-registration-states.md)**  
 The visitor logs display the current state of visitor registrations. These states can be changed to other states.
--   **[Anonymize a visitor](../task/anonymize-visitor.md)**  
+-   **[Anonymize a visitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-visitor-management/anonymize-visitor.md)**  
 As an admin, you can anonymize a visitor to delete the visitor record and all the details of the visitor. Any future registrations of the visitor are canceled.
--   **[Apply visitor management archive policy](../task/apply-visitor-management-archival-rule.md)**  
+-   **[Apply visitor management archive policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-visitor-management/apply-visitor-management-archival-rule.md)**  
 Apply the archival policy for Workplace Visitor Management. The archival policy will archive old visitor records and visitor registration records that are more than one year old.
 
-**Parent Topic:**[Workplace Visitor Management](workplace-visitor-mgmt-feat.md)
+**Parent Topic:**[Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-feat.md)
 

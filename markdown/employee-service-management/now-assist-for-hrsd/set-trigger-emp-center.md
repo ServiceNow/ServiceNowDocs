@@ -2,6 +2,7 @@
 title: Set Onboarding ramp up trigger to use Employee Center portal
 description: Set Onboarding ramp-up trigger to use Employee Center portal in the trigger configuration so the onboarding ramp-up plan workflow is accessible through the portal. Without setting the portal, the trigger will not be visible or usable in the Employee Center portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-hrsd/set-trigger-emp-center.html
 release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -21,18 +22,24 @@ Role required: admin
 
 ## Procedure
 
-1.  In the **Filter navigator** enter `sn_aia_trigger_configuration.list`.
+1.  Navigate to the **All** menu, and enter `sn_aia_trigger_configuration.list` in the navigation filter.
 
-2.  Select and open **Onboarding ramp-up trigger** from the **AIA Trigger Configurations** list.
+    The AIA Trigger Configuration \[sn\_aia\_trigger\_configuration\] table appears.
 
-3.  Select the **Active** check box.
+2.  Select **Onboarding ramp-up trigger** from the list of AI agent triggers.
 
-    **Note:** The **Active** check box is not made available by default. Configure the **Form Layout** from the context menu, and move `Active` from **Available** to **Selected**.
+3.  Add the **Active** and **Portal** fields to the form if they aren’t available.
 
-4.  Add `Employee Center` to the **Portal** field.
+    1.  Select and hold \(or right-click\) the form header and select **Configure** &gt; **Form layout**.
 
-    **Note:** The **Portal** field is not made available by default. Configure the **Form Layout** from the context menu, and move `Portal` from **Available** to **Selected**.
+    2.  Select **Active** and **Portal** from the Available list, and then select the **Add** icon to move the fields to the Selected list.
 
-5.  Click **Save**.
+    3.  Select **Save**.
+
+4.  Select the **Active** check box.
+
+5.  Set the **Portal** field to **Employee Center**.
+
+6.  Select **Update**.
 
 

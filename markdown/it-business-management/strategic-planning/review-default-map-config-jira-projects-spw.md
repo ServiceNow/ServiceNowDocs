@@ -2,6 +2,7 @@
 title: Review default mapping configuration for Jira projects in SPW
 description: Verify that the default mapping configuration between work items in Strategic Planning Workspace \(SPW\) and Jira aligns with your team's processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/review-default-map-config-jira-projects-spw.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning
@@ -17,13 +18,13 @@ Verify that the default mapping configuration between work items in Strategic Pl
 
 ## Before you begin
 
-[Import Jira projects to SPW](imports-jira-projects-to-spw.md)
+[Import Jira projects to SPW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/imports-jira-projects-to-spw.md)
 
 Role required: sn\_jira\_int.user
 
 ## About this task
 
-Review the predefined table, field, and choice mapping configuration for a Jira Project. For more information on the default configuration for Epics, Stories, and Sprints, see [Default mapping configuration for SPW Jira Integrations](../reference/default-mapping-configuration-spw-jira.md).
+Review the predefined table, field, and choice mapping configuration for a Jira Project. For more information on the default configuration for Epics, Stories, and Sprints, see [Default mapping configuration for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/default-mapping-configuration-spw-jira.md).
 
 ## Procedure
 
@@ -50,5 +51,5 @@ Review the predefined table, field, and choice mapping configuration for a Jira 
 
 ## What to do next
 
-If the available mapping configuration doesn't fit your team's requirements or processes, you can create custom mappings between entities of Jira and SPW. For more information, see [Custom mapping configuration for SPW Jira Integrations](../concept/custom-mapping-configuration-spw-jira.md#).
+If the available mapping configuration doesn't fit your team's requirements or processes, you can create custom mappings between entities of Jira and SPW. For more information, see [Custom mapping configuration for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/custom-mapping-configuration-spw-jira.md).
 

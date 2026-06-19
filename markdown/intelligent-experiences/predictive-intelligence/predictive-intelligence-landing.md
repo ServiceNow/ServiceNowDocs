@@ -2,6 +2,7 @@
 title: Predictive Intelligence
 description: Predictive Intelligence is a powerful interface to train machine learning models. With Predictive Intelligence, you can improve performance, efficiency, and flexibility to your systems across multiple business units.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/predictive-intelligence/predictive-intelligence-landing.html
 release: zurich
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -26,27 +27,27 @@ Administrators can harness the power of machine learning to improve productivity
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../images/icon-explore-pi.png) Learn about Predictive Intelligence and machine learning](predictive-intelligence.md)
+[Explore \[Omitted image "icon-explore-pi.png"\] Alt text: Learn about Predictive Intelligence and machine learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/predictive-intelligence.md)
 
 </td><td>
 
-[Install ![](../images/icon-install-pi.png) Install Predictive Intelligence and its associated apps](../task/install-predictive-intelligence.md#)
+[Install \[Omitted image "icon-install-pi.png"\] Alt text: Install Predictive Intelligence and its associated apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/install-predictive-intelligence.md)
 
 </td><td>
 
-[Configure ![](../images/icon-configure-pi.png) Configure Predictive Intelligence on the platform](../reference/troubleshooting-predictive-intelligence.md)
+[Configure \[Omitted image "icon-configure-pi.png"\] Alt text: Configure Predictive Intelligence on the platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/troubleshooting-predictive-intelligence.md)
 
 </td></tr><tr><td>
 
-[Train ![](../images/icon-train-pi.png) Create and train machine learning solutions.](training-ml-solutions.md)
+[Train \[Omitted image "icon-train-pi.png"\] Alt text: Create and train machine learning solutions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/training-ml-solutions.md)
 
 </td><td>
 
-[Use ![](../images/icon-use-pi.png) Use Predictive Intelligence for machine learning.](using-predictive-intelligence.md)
+[Use \[Omitted image "icon-use-pi.png"\] Alt text: Use Predictive Intelligence for machine learning.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/using-predictive-intelligence.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about Predictive Intelligence components such as properties and language support.](../reference/predictive-intelligence-properties.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text: Get details about Predictive Intelligence components such as properties and language support.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/predictive-intelligence-properties.md)
 
 </td></tr></tbody>
 </table>

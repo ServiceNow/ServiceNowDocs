@@ -2,6 +2,7 @@
 title: Legacy: Problem Premium dashboard
 description: This dashboard uses advanced features such as interactive filters and workbench widgets to provide a broad view of problem reports, both current and over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/problem-management/problem-premium-dashboard.html
 release: zurich
 product: Problem Management
 classification: problem-management
@@ -17,17 +18,17 @@ This dashboard uses advanced features such as interactive filters and workbench 
 
 **Important:**
 
-Starting in Xanadu release, the Problem premium dashboard is deprecated. Users can use [Problem dashboard](performance-analytics/problem.md) to view, and track the open problems.
+Starting in Xanadu release, the Problem premium dashboard is deprecated. Users can use [Problem dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem.md) to view, and track the open problems.
 
-![Process by Age tab](../image/problem-premium-process-age.png "Process by Age tab")
+\[Omitted image "problem-premium-process-age.png"\] Alt text: Process by Age tab
 
-![Problem premium dashboard overview tab](../image/problem-premium-overview.png "Overview tab")
+\[Omitted image "problem-premium-overview.png"\] Alt text: Problem premium dashboard overview tab
 
 **Note:** The Overview tab has the same contents as the Problem Overview dashboard.
 
-![Problem Premium dashboard Data Quality tab](../image/problem-premium-data-quality.png "Data Quality tab")
+\[Omitted image "problem-premium-data-quality.png"\] Alt text: Problem Premium dashboard Data Quality tab
 
-![Process KPIs for Problem Premium dashboard](../image/problem-premium-kpis.png "Process KPIs tab")
+\[Omitted image "problem-premium-kpis.png"\] Alt text: Process KPIs for Problem Premium dashboard
 
 ## End user and roles
 
@@ -129,7 +130,7 @@ Critical open problems
 
 </td><td>
 
-Single Score ![single score icon](../../performance-analytics/image/single-score.png)
+Single Score \[Omitted image "single-score.png"\] Alt text: single score icon
 
 </td><td>
 
@@ -141,7 +142,7 @@ Unassigned problems
 
 </td><td>
 
-Single Score ![single score icon](../../performance-analytics/image/single-score.png)
+Single Score \[Omitted image "single-score.png"\] Alt text: single score icon
 
 </td><td>
 
@@ -153,7 +154,7 @@ Overdue problems
 
 </td><td>
 
-Single Score ![single score icon](../../performance-analytics/image/single-score.png)
+Single Score \[Omitted image "single-score.png"\] Alt text: single score icon
 
 </td><td>
 
@@ -165,7 +166,7 @@ Open problems
 
 </td><td>
 
-Single Score ![single score icon](../../performance-analytics/image/single-score.png)
+Single Score \[Omitted image "single-score.png"\] Alt text: single score icon
 
 </td><td>
 
@@ -177,7 +178,7 @@ Problems not updated for 7 days
 
 </td><td>
 
-Single Score ![single score icon](../../performance-analytics/image/single-score.png)
+Single Score \[Omitted image "single-score.png"\] Alt text: single score icon
 
 </td><td>
 
@@ -189,7 +190,7 @@ Open problems older than 30 days
 
 </td><td>
 
-Single Score ![single score icon](../../performance-analytics/image/single-score.png)
+Single Score \[Omitted image "single-score.png"\] Alt text: single score icon
 
 </td><td>
 
@@ -201,7 +202,7 @@ Open problems - Grouped
 
 </td><td>
 
-Horizontal Bar ![Horizontal bar icon](../../performance-analytics/image/horizontal-bar.png)
+Horizontal Bar \[Omitted image "horizontal-bar.png"\] Alt text: Horizontal bar icon
 
 </td><td>
 
@@ -213,7 +214,7 @@ Open problems older than 30 days - Grouped
 
 </td><td>
 
-Horizontal Bar ![Horizontal bar icon](../../performance-analytics/image/horizontal-bar.png)
+Horizontal Bar \[Omitted image "horizontal-bar.png"\] Alt text: Horizontal bar icon
 
 </td><td>
 
@@ -225,7 +226,7 @@ Problems by Priority and State
 
 </td><td>
 
-Heatmap ![Heatmap icon](../../performance-analytics/image/heatmap.png)
+Heatmap \[Omitted image "heatmap.png"\] Alt text: Heatmap icon
 
 </td><td>
 
@@ -237,7 +238,7 @@ Open problems older than 30 days by Priority and State
 
 </td><td>
 
-Heatmap ![Heatmap icon](../../performance-analytics/image/heatmap.png)
+Heatmap \[Omitted image "heatmap.png"\] Alt text: Heatmap icon
 
 </td><td>
 
@@ -249,7 +250,7 @@ Open problems not updated in last 30 days by assignment group
 
 </td><td>
 
-Heatmap ![Heatmap icon](../../performance-analytics/image/heatmap.png)
+Heatmap \[Omitted image "heatmap.png"\] Alt text: Heatmap icon
 
 </td><td>
 
@@ -261,7 +262,7 @@ Problems Opened per Week
 
 </td><td>
 
-Line![line trend icon](../../../reuse/reporting/image/line-trend.svg)
+Line\[Omitted image "line-trend.svg"\] Alt text: line trend icon
 
 </td><td>
 
@@ -273,7 +274,7 @@ Problems Closed per Week
 
 </td><td>
 
-Line![line trend icon](../../../reuse/reporting/image/line-trend.svg)
+Line\[Omitted image "line-trend.svg"\] Alt text: line trend icon
 
 </td><td>
 
@@ -285,7 +286,7 @@ Open Problems Where Assignee Is Not Active
 
 </td><td>
 
-Heatmap ![Heatmap icon](../../performance-analytics/image/heatmap.png)
+Heatmap \[Omitted image "heatmap.png"\] Alt text: Heatmap icon
 
 </td><td>
 
@@ -297,12 +298,12 @@ Problems Pending a Change Request that is Already Closed
 
 </td><td>
 
-Heatmap ![Heatmap icon](../../performance-analytics/image/heatmap.png)
+Heatmap \[Omitted image "heatmap.png"\] Alt text: Heatmap icon
 
 </td><td>
 
 Open problems where the Change request has a State value of 3, meaning the request is closed, grouped on a matrix of State and Assignment Group
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legacy: Problem Management Platform Analytics Solutions](problem-content-pack.md)
+</table>**Parent Topic:**[Legacy: Problem Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/problem-content-pack.md)
 

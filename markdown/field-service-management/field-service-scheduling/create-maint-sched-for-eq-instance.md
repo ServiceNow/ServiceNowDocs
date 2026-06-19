@@ -2,6 +2,7 @@
 title: Create a maintenance schedule for an equipment instance
 description: Create a schedule for regular maintenance or downtime for an equipment instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/create-maint-sched-for-eq-instance.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling

@@ -2,6 +2,7 @@
 title: Agent Client Collector Framework default checks
 description: Agent Client Collector Framework provides default checks with the base system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-framework-checks-policies.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -76,5 +77,5 @@ endpoint\_discovery.rb
 </td></tr></tbody>
 </table>**Note:** The **check-read-log** and **config-file-reader** checks are for internal use only.
 
-**Parent Topic:**[Agent Client Collector Framework reference](agent-client-collector-reference.md)
+**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

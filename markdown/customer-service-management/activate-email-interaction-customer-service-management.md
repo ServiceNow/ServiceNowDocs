@@ -2,7 +2,10 @@
 title: Activate Email Interaction for CSM
 description: Activate the Email Interaction for CSM plugin \(sn\_eaai\_csm\) for new or existing CSM customers. This plugin includes demo data and activates related plugins if they aren’t already active.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/activate-email-interaction-customer-service-management.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -20,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-The flows are deployed with Email Interaction for CSM and are enabled by default for new CSM customers. The flows aren’t enabled by default for existing CSM customers. To manually activate the flows, [Activate a flow for Email Interaction for CSM](activate-flow-email-interaction.md)
+The flows are deployed with Email Interaction for CSM and are enabled by default for new CSM customers. The flows aren’t enabled by default for existing CSM customers. To manually activate the flows, [Activate a flow for Email Interaction for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/activate-flow-email-interaction.md)
 
 ## Procedure
 

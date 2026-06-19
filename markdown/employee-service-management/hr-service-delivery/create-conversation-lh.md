@@ -2,6 +2,7 @@
 title: Create a conversation form
 description: Use the Create a conversation form to schedule a conversation with an employee when the Microsoft Outlook integration isn’t enabled for Leader Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/create-conversation-lh.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -80,5 +81,5 @@ Cancel
 Close this conversation.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Leader Hub reference](../../td-leader-hub/concept/td-lh-reference.md)
+</table>**Parent Topic:**[Leader Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/td-lh-reference.md)
 

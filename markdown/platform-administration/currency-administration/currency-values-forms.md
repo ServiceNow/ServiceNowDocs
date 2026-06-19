@@ -2,6 +2,7 @@
 title: Default currency values in forms
 description: In forms, currency values appear in the currency in which they were entered.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/currency-administration/currency-values-forms.html
 release: zurich
 product: Currency Administration
 classification: currency-administration
@@ -17,7 +18,7 @@ In forms, currency values appear in the currency in which they were entered.
 
 A combo box provides a list of available currencies, and the user's locale determines its format. When entering or changing the numeric currency value, enter it in the same format specified by the user’s locale. In the form for a new record, the reference currency is pre-selected in the currency list, with the numeric value set to zero.
 
-![Currency combo box](../images/currency-field.png)
+\[Omitted image "currency-field.png"\] Alt text: Currency combo box
 
 -   If the record is read only, the currency value appears in the **Currency** field as it was entered, and is formatted in the user’s locale. In the **Price** field, the session currency value appears.
 -   In Single currency mode, the currency is a label that cannot be changed, and the **Edit** icon does not appear.
@@ -28,5 +29,5 @@ If a currency instance record exists, an **Edit** icon appears next to the **Cur
 
 **Note:** Normally, you should not edit the fx\_currency\_instance table directly. The ServiceNow AI Platform maintains these tables, and your changes could have unintended consequences.
 
-**Parent Topic:**[Standard currency fields](configure-and-use-default-currency-fields.md)
+**Parent Topic:**[Standard currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/configure-and-use-default-currency-fields.md)
 

@@ -2,6 +2,7 @@
 title: Components installed with the Qualys Integration for Security Operations
 description: The following roles, scheduled jobs, and tables are installed with the Qualys Integration for Security Operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/cc-qualys-installed-with.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance
@@ -15,7 +16,7 @@ breadcrumb: [Configure PCRS, Qualys, Integrate, Configuration Compliance, Unifie
 
 The following roles, scheduled jobs, and tables are installed with the Qualys Integration for Security Operations.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## View filtered lists for components installed with an application
 

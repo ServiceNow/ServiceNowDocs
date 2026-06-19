@@ -2,6 +2,7 @@
 title: Configure widget security
 description: Configure widget security to ensure that your widget is being accessed only by the intended audience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/configure-widget-security.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -27,7 +28,7 @@ There are several ways to configure widget security:
 -   Restrict the widget to users with certain roles only
 -   Restrict which tables a public widget can access and return data from for guest \(unauthenticated\) users
 
-When you configure widget security, configure the page security accordingly so that users can access the widget via the page on which it appears. For more information, see [Configure page security by role](configure-page-security.md).
+When you configure widget security, configure the page security accordingly so that users can access the widget via the page on which it appears. For more information, see [Configure page security by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/configure-page-security.md).
 
 ## Procedure
 
@@ -37,15 +38,15 @@ When you configure widget security, configure the page security accordingly so t
 
 3.  On the form, configure the widget security.
 
-<table id="choicetable_n5r_xyt_hkb"><thead><tr><th align="left" id="d33886e103">
+<table id="choicetable_n5r_xyt_hkb"><thead><tr><th align="left" id="d38001e103">
 
 Option
 
-</th><th align="left" id="d33886e106">
+</th><th align="left" id="d38001e106">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d33886e112">
+</th></tr></thead><tbody><tr><td id="d38001e112">
 
 **Restrict the widget to authenticated users**
 
@@ -53,19 +54,19 @@ Procedure
 
 Clear the **Public** check box and leave the **Roles** field blank.
 
-</td></tr><tr><td id="d33886e127">
+</td></tr><tr><td id="d38001e127">
 
 **Restrict the widget to certain roles**
 
 </td><td>
 
 1.  Clear the **Public** check box.
-2.  Next to **Roles**, select the edit icon \(![Edit icon](../image/edit-icon.png)\).
+2.  Next to **Roles**, select the edit icon \(\[Omitted image "edit-icon.png"\] Alt text: Edit icon\).
 3.  On the Roles window, select a role by moving it from the **Available** list to the **Selected** list.
 4.  Select **Done**.
 
 
-</td></tr><tr><td id="d33886e172">
+</td></tr><tr><td id="d38001e172">
 
 **Restrict which tables public widgets can access for guest users**
 
@@ -93,7 +94,7 @@ if(!new global.SPWidgetAccessControl().hasPublicAccess(options.table, $sp, optio
 	}
     ```
 
-The parameters passed with SPWidgetAccessControl should be the same as those passed with GlideRecord\(options.table\) and GlideRecordSecure\(options.table\). For details on the SPWidgetAccessControl API, see [SPWidgetAccessControl - Global](https://www.servicenow.com/docs/access?context=SPWidgetAccessControlGlobalAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+The parameters passed with SPWidgetAccessControl should be the same as those passed with GlideRecord\(options.table\) and GlideRecordSecure\(options.table\). For details on the SPWidgetAccessControl API, see .
 
 4.  Select **Save**.
 
@@ -102,5 +103,5 @@ The parameters passed with SPWidgetAccessControl should be the same as those pas
 </table>4.  Select **Update**.
 
 
-**Parent Topic:**[Managing portal access](../concept/portal-security.md)
+**Parent Topic:**[Managing portal access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/portal-security.md)
 

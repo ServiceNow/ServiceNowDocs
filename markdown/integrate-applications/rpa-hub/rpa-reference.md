@@ -2,6 +2,7 @@
 title: Robotic Process Automation \(RPA\) Hub reference
 description: Reference topics provide additional information about the lists and forms that you use to configure and administer Robotic Process Automation \(RPA\) Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/rpa-reference.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -15,8 +16,8 @@ breadcrumb: [Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 
 Reference topics provide additional information about the lists and forms that you use to configure and administer Robotic Process Automation \(RPA\) Hub.
 
--   **[Robotic Process Automation \(RPA\) Hub glossary](../../rpa-hub/reference/rpa-hub-glossary.md#)**  
+-   **[Robotic Process Automation \(RPA\) Hub glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/rpa-hub-glossary.md)**  
 Learn about the terms and concepts that are unique to Robotic Process Automation \(RPA\) Hub.
 
-**Parent Topic:**[Workflow Data Fabric](../../../build/create-integrations-apps/concept/create-integrations-applications.md)
+**Parent Topic:**[Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric/create-integrations-applications.md)
 

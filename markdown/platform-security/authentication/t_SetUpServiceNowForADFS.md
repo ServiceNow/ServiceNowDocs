@@ -2,6 +2,7 @@
 title: Set up the instance for ADFS
 description: Configure your instance and SAML 2.0 settings to work with ADFS.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/t\_SetUpServiceNowForADFS.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -17,15 +18,15 @@ Configure your instance and SAML 2.0 settings to work with ADFS.
 
 ## Before you begin
 
-Perform these steps only after you have set up ADFS for SAML. For details on that process, see [set up ADFS for SAML](../concept/c_ADFSIntegrationWithSAML2.0.md).
+Perform these steps only after you have set up ADFS for SAML. For details on that process, see [set up ADFS for SAML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/c_ADFSIntegrationWithSAML2.0.md).
 
 Role required: admin
 
 ## Procedure
 
-1.  If not already active, [Activate Multi-Provider SSO plugin](../../single-sign-on/task/t_ActivateMultipleProviderSSO.md).
+1.  If not already active, [Activate Multi-Provider SSO plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/t_ActivateMultipleProviderSSO.md).
 
-2.  Configure [SAML](../concept/c_SAML2.0WebBrowserSSOProfile.md), but when you install the IdP certificate, attach the PEM certificate you created when you [Set up ADFS for SAML](t_DefineADFSServiceURL.md).
+2.  Configure [SAML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/c_SAML2.0WebBrowserSSOProfile.md), but when you install the IdP certificate, attach the PEM certificate you created when you [Set up ADFS for SAML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/t_DefineADFSServiceURL.md).
 
 3.  Click **Save**.
 

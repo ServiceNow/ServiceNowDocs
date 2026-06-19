@@ -2,6 +2,7 @@
 title: Make workplace reservations on the kiosk
 description: Workplace visitors and guests with kiosk viewer role can make workplace reservations. They can search and select a space on the Kiosk Map to reserve a space.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-services-kiosk/rsv-space-kiosk-map.html
 release: zurich
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
@@ -26,13 +27,13 @@ Install and configure the following from the ServiceNow Store.
 -   Workplace Core
 -   Workplace Space Management
 
-Make sure that your device is set up on a kiosk to enable workplace reservations. For more information, see [Setup a kiosk on a physical device for reservations](kiosk-setup-rsv-space.md).
+Make sure that your device is set up on a kiosk to enable workplace reservations. For more information, see [Setup a kiosk on a physical device for reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-services-kiosk/kiosk-setup-rsv-space.md).
 
 You can’t add workplace services to a reservation in kiosk. Recurring, neighborhood, and browse near a person reservations aren’t supported for kiosk reservation.
 
 Role required: sn\_wsd\_kiosk.viewer, sn\_wsd.core\_workplace\_user
 
-**Note:** The sn\_wsd.core\_workplace\_user \(workplace user\) role is part of the kiosk viewer role. Employees can log in with the sn\_wsd.core\_workplace\_user role to view, search for spaces on a floor map and make a reservation. For more information, see [Components installed with Workplace Services Kiosk](../reference/components-workplace-services-kiosk.md).
+**Note:** The sn\_wsd.core\_workplace\_user \(workplace user\) role is part of the kiosk viewer role. Employees can log in with the sn\_wsd.core\_workplace\_user role to view, search for spaces on a floor map and make a reservation. For more information, see [Components installed with Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-services-kiosk/components-workplace-services-kiosk.md).
 
 Role: sn\_wsd\_kiosk.viewer.
 
@@ -40,13 +41,13 @@ Role: sn\_wsd\_kiosk.viewer.
 
 1.  Log in to your instance with the kiosk viewer role.
 
-    ![The welcome page shows the Explore Map option for workplace kiosk viewers to search and select a space for reservation.](../images/kiosk-welcome-page-kiosk-viewer-4.png)
+    \[Omitted image "kiosk-welcome-page-kiosk-viewer-4.png"\] Alt text: The welcome page shows the Explore Map option for workplace kiosk viewers to search and select a space for reservation.
 
 2.  Select **Explore Map**.
 
     The Explore Workplace page opens and displays workplace locations on the map.
 
-    ![Search for a space to make a reservation on the kiosk map.](../images/kiosk-map-explore-workplace-page-5.png)
+    \[Omitted image "kiosk-map-explore-workplace-page-5.png"\] Alt text: Search for a space to make a reservation on the kiosk map.
 
 3.  From the menu, select **Building** and **Floor** to select a building and a floor.
 
@@ -54,15 +55,15 @@ Role: sn\_wsd\_kiosk.viewer.
 
 5.  Space details card for the selected space shows the **Get directions** and **Reserve** button.
 
-    ![Space Details card with option to Reserve displayed on map for a selected space.](../images/kiosk-map-space-details-card.png)
+    \[Omitted image "kiosk-map-space-details-card.png"\] Alt text: Space Details card with option to Reserve displayed on map for a selected space.
 
     If the selected space is already reserved, it shows the **Raise an issue** tab. Raise an issue tab is also shown if the space type configuration in the Reservable Module configuration for the kiosk doesn't match the space type configuration of a selected space.
 
-    -   Select the ellipsis icon \(![](../images/kiosk-raise-an-issue-icon.png)\) and select **Raise an issue**.
+    -   Select the ellipsis icon \(\[Omitted image "kiosk-raise-an-issue-icon.png"\] Alt text:\) and select **Raise an issue**.
 
         The Raise an Issue form opens.
 
-        ![Raise an issue form with options to raise a request for maintenance or workplace issues.](../images/kiosk-raise-an-issue-form.png)
+        \[Omitted image "kiosk-raise-an-issue-form.png"\] Alt text: Raise an issue form with options to raise a request for maintenance or workplace issues.
 
     -   On the form, fill in the field information.
 
@@ -104,11 +105,11 @@ Search and select a user for whom you are raising the workplace issue.
 </td></tr></tbody>
 </table>6.  Select **Reserve** to create a workplace reservation.
 
-    **Note:** Space types configured for you by your administrator are displayed on the map. For example, Meeting rooms or Desks/Spaces. If your administrator has set the space type configuration as Desks/Spaces in the Kiosk Reservable module, the floor map shows only desks or space. If the space type configuration is meeting rooms, the map shows meeting rooms for reservations. For more information, see [Configure Reservable Module for kiosk reservation](config-rsv-module-kiosk.md).
+    **Note:** Space types configured for you by your administrator are displayed on the map. For example, Meeting rooms or Desks/Spaces. If your administrator has set the space type configuration as Desks/Spaces in the Kiosk Reservable module, the floor map shows only desks or space. If the space type configuration is meeting rooms, the map shows meeting rooms for reservations. For more information, see [Configure Reservable Module for kiosk reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-services-kiosk/config-rsv-module-kiosk.md).
 
 7.  Select **Get Directions**.
 
-    ![Options to get directions on the map using the Accessible or Default options.](../images/kiosk-get-directions-map.png)
+    \[Omitted image "kiosk-get-directions-map.png"\] Alt text: Options to get directions on the map using the Accessible or Default options.
 
     Select your current position on the map, and select the location on the map for getting directions on the map.
 
@@ -116,7 +117,7 @@ Search and select a user for whom you are raising the workplace issue.
 
 8.  The Reserve a space page opens and the selected space is shown on a schedule view calendar.
 
-    ![Reserve a space showing reservation start date, start time, and end time along with the Reservation subject.](../images/kiosk-rsv-2.png)
+    \[Omitted image "kiosk-rsv-2.png"\] Alt text: Reserve a space showing reservation start date, start time, and end time along with the Reservation subject.
 
     On the form, fill in the information.
 
@@ -158,22 +159,22 @@ Reservation subject
 
 </td><td>
 
-Option to provide the Reservation subject details. For example, Reservation for AI workflows. If the **Require Subject** check box is selected in the **Reservation Widget Configuration** tab, you’re required to enter the Reservation Subject label while submitting the reservation. For more information, see [Configure Reservable Module for kiosk reservation](config-rsv-module-kiosk.md)
+Option to provide the Reservation subject details. For example, Reservation for AI workflows. If the **Require Subject** check box is selected in the **Reservation Widget Configuration** tab, you’re required to enter the Reservation Subject label while submitting the reservation. For more information, see [Configure Reservable Module for kiosk reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-services-kiosk/config-rsv-module-kiosk.md)
 
 </td></tr></tbody>
-</table>    When All day **Reservable Module** setting is set to **Default** on the Reservable module configuration, you see the actual time when you’re making a reservation. For example, if you’re making the reservation at 11.24 am, reservation start time shows **11.24**. Start and end time for a reservation are based on the building time zone and reservation properties for setting office hours. For more information, see [Properties installed with Workplace Reservation Management](../../wsd-reservation-management/reference/properties-installed-with-wsd-reservation-mgmt.md).
+</table>    When All day **Reservable Module** setting is set to **Default** on the Reservable module configuration, you see the actual time when you’re making a reservation. For example, if you’re making the reservation at 11.24 am, reservation start time shows **11.24**. Start and end time for a reservation are based on the building time zone and reservation properties for setting office hours. For more information, see [Properties installed with Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/properties-installed-with-wsd-reservation-mgmt.md).
 
-    ![All day check box is selected and shows office hours as 9 am to 5 pm.](../images/kiosk-all-day-default-settings-map-view.png)
+    \[Omitted image "kiosk-all-day-default-settings-map-view.png"\] Alt text: All day check box is selected and shows office hours as 9 am to 5 pm.
 
     If **All day** Reservable configuration is set to **Enabled**, the reservation start and end timings are rounded off. For example, 11.30 am to 12.30. The All day check box isn’t selected with office timing shown from 9 am to 5 am. The timing shown depends on your office start time and end time.
 
-    ![All day check box is inactive and shows office hours as 9 am to 5 pm.](../images/kiosk-all-day-enabled-unchecked-onmap.png)
+    \[Omitted image "kiosk-all-day-enabled-unchecked-onmap.png"\] Alt text: All day check box is inactive and shows office hours as 9 am to 5 pm.
 
     If **All day** Reservable module configuration is set to **Required**, the **All day** check box shown in read-only mode and you can’t change the start time and end time. The building's current time is shown based on the building time zone.
 
-    ![All day check box is selected and inactive. Office hours are shown as 9 am to 5 pm.](../images/kiosk-all-day-required-readonly-onmap.png)
+    \[Omitted image "kiosk-all-day-required-readonly-onmap.png"\] Alt text: All day check box is selected and inactive. Office hours are shown as 9 am to 5 pm.
 
-    **Note:** If you’re trying to book a space beyond the time specified in the Min or Max duration, application displays an error message. The **All day**, **Min duration** and **Max day duration** values are set by your administrator. For more information, see [Configure Reservable Module for kiosk reservation](config-rsv-module-kiosk.md).
+    **Note:** If you’re trying to book a space beyond the time specified in the Min or Max duration, application displays an error message. The **All day**, **Min duration** and **Max day duration** values are set by your administrator. For more information, see [Configure Reservable Module for kiosk reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-services-kiosk/config-rsv-module-kiosk.md).
 
 9.  Select **Submit Reservation**.
 
@@ -182,5 +183,5 @@ Option to provide the Reservation subject details. For example, Reservation for 
     **Note:** After your reservation is confirmed in the kiosk, email notifications aren’t sent to workplace users.
 
 
-**Parent Topic:**[Using Workplace Services Kiosk](../concept/use-workplace-services-kiosk.md)
+**Parent Topic:**[Using Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-services-kiosk/use-workplace-services-kiosk.md)
 

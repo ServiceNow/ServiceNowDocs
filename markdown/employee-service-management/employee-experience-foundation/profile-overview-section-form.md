@@ -2,6 +2,7 @@
 title: Overview section form
 description: The overview section form enables you to configure a section on the Employee Profile UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/profile-overview-section-form.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -29,7 +30,7 @@ Name
 
 </td><td>
 
-Unique name that identifies the section. For example, About and Personal information. For navigation and other information, see [Configure the Employee Profile overview widget](../task/config-employee-profile-widget.md)
+Unique name that identifies the section. For example, About and Personal information. For navigation and other information, see [Configure the Employee Profile overview widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/config-employee-profile-widget.md)
 
 </td></tr><tr><td>
 

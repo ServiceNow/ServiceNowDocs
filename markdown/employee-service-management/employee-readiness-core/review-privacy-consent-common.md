@@ -2,6 +2,7 @@
 title: Review user privacy consents
 description: Review user privacy consent responses submitted by employees indicating their response to requests for consent to use their data in accordance with a privacy policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-readiness-core/review-privacy-consent-common.html
 release: zurich
 product: Employee Readiness Core
 classification: employee-readiness-core
@@ -33,8 +34,8 @@ Role required: sn\_imt\_core.admin
     -   **Awaiting Response**: Employees have not responded yet.
     **Note:** The consent history record with the latest preference submitted date is the last response from the employee.
 
-    You can [send the notification](send-outreach-notif-privacy-common.md) again to employees who have not yet responded.
+    You can [send the notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-readiness-core/send-outreach-notif-privacy-common.md) again to employees who have not yet responded.
 
 
-**Parent Topic:**[Maintaining privacy consent in Employee Readiness Core](../concept/employee-readiness-core-privacy-consent.md)
+**Parent Topic:**[Maintaining privacy consent in Employee Readiness Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-readiness-core/employee-readiness-core-privacy-consent.md)
 

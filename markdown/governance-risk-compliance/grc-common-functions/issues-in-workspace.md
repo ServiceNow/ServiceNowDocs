@@ -2,6 +2,7 @@
 title: Issues in the Workspace
 description: You can track all your issues or one specific issue from the Workspace. Issues are listed under the Issues module in the list view of the Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/issues-in-workspace.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -19,7 +20,7 @@ You can track all your issues or one specific issue from the Workspace. Issues a
 
 The issue form displays the details about your issues. You can see information about an issue's description, state, status, work notes, and what activity has occurred so far. The information about an issue is organized in different tabs such as the **Overview** tab and the **Details** tab as shown in the following example.
 
-![Issue Overview Page.](../image/issue-overview.png "Issue Overview Page")
+\[Omitted image "issue-overview.png"\] Alt text: Issue Overview Page.
 
 In the **Details** tab, you can find information about the issue, assignment, schedule, issue grouping, action plan, confidentiality, and activity and settings.
 
@@ -67,13 +68,13 @@ The following table lists the related lists in the Issues section.
 
 The following example shows a 360-degree view of the entire relationship for a selected issue, such as the upstream issues, downstream issues, controls, and remediation tasks that are associated with the Issue.
 
-![360-degree relationship of issue.](../image/360-degree-relationship-overview.png "360-degree relationship of an issue")
+\[Omitted image "360-degree-relationship-overview.png"\] Alt text: 360-degree relationship of issue.
 
 ## Recommended actions
 
 Recommended actions are system-generated suggestions that can help you quickly select a remediation task or assign an issue to the correct person.
 
-![Remediation tasks recommended actions](../image/recommended-actions.png "Remediation tasks recommended actions")
+\[Omitted image "recommended-actions.png"\] Alt text: Remediation tasks recommended actions
 
 As shown in the figure, recommended actions for remediation tasks are shown in the right side pane. You can see the list of recommended actions and perform the following:
 
@@ -86,12 +87,12 @@ As shown in the figure, recommended actions for remediation tasks are shown in t
 2.  Users who have minimum role of `sn_grc.user` though they are not part of the issue persona.
 3.  Users with minimum role of `sn_grc.business_user` and `sn_grc.business_user_lite` must be part of the issue persona.
 
-![Recommended actions for assigned to field](../image/recommended-action-assigned.png "Recommended actions for the Assigned to field")
+\[Omitted image "recommended-action-assigned.png"\] Alt text: Recommended actions for assigned to field
 
 As shown in the figure, system-generated recommendations are shown for the **Assigned to** field. You can see the top three predictions \(John Retak, James Vittolo, and Jerrod Bennett\) above the list of alphabetized users.
 
--   **[Configuring an issue relationship](issue-relationship-configuration.md)**  
+-   **[Configuring an issue relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/issue-relationship-configuration.md)**  
 If an issue isn't reusable and you know that multiple similar issues were created for different controls, risk statements, or control objectives, you can still configure the issue relationship to reuse the issue in the GRC application.
 
-**Parent Topic:**[Manage issues](manage-issues-common-core.md)
+**Parent Topic:**[Manage issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/manage-issues-common-core.md)
 

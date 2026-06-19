@@ -2,6 +2,7 @@
 title: Update arrival schedules at the workplace
 description: Define building time zones, change the capacity of an arrival schedule, and set the schedule to active or inactive.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-core/update-arrival-entry-at-workplace-wsd.html
 release: zurich
 product: Workplace Core
 classification: workplace-core
@@ -17,7 +18,7 @@ Define building time zones, change the capacity of an arrival schedule, and set 
 
 ## Before you begin
 
--   [Add your workplace data](../concept/providing-your-workplace-data-wsd.md).
+-   [Add your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/providing-your-workplace-data-wsd.md).
 -   Ensure that you have the data for the arrival schedules of your workplace locations.
 -   Ensure that your time zone is set to the time zone of the building that is used for the arrival.
 
@@ -28,9 +29,9 @@ Define building time zones, change the capacity of an arrival schedule, and set 
         **Note:** If you are creating or updating the arrival schedule for a floor, area or a space, then select the building where it is located.
 
         1.  If you are updating the arrival schedule, do the following:
-            1.  Select the workplace location info icon \(![Workplace location info icon.](../../wsd-reservation-management/image/info-icon.png)\) that is next to the **Workplace location** field.
+            1.  Select the workplace location info icon \(\[Omitted image "info-icon.png"\] Alt text: Workplace location info icon.\) that is next to the **Workplace location** field.
             2.  In the dialog box, select **Open record**.
-            3.  If the value of **Workplace location** is a floor, area or a space, then select the workplace location info icon \(![Workplace location info icon.](../../wsd-reservation-management/image/info-icon.png)\) that is next to the **Building** field.
+            3.  If the value of **Workplace location** is a floor, area or a space, then select the workplace location info icon \(\[Omitted image "info-icon.png"\] Alt text: Workplace location info icon.\) that is next to the **Building** field.
         2.  On the Buildings form, set the time zone in the **Time zone** field.
         3.  Select **Update**.
 
@@ -41,7 +42,7 @@ Define building time zones, change the capacity of an arrival schedule, and set 
 
         **Note:** Ensure that the sn\_wsd\_core.workplace\_manager role is included in the **glide.timezone\_changer.roles** property. If it is not included, ask your system administrator to include the role so that you can change your time zone.
 
-        1.  Select the settings icon \(![Settings icon.](../../workplace-safety-mgmt/images/system-settings-icon.png)\) on your instance header.
+        1.  Select the settings icon \(\[Omitted image "system-settings-icon.png"\] Alt text: Settings icon.\) on your instance header.
         2.  Set the **Time zone** field to the time zone of the building where you are creating or updating the arrival schedule.
 
 Role required: sn\_wsd\_core.workplace\_manager
@@ -67,5 +68,5 @@ Role required: sn\_wsd\_core.workplace\_manager
 
 The arrival schedule is updated.
 
-**Parent Topic:**[Setting and tracking arrivals at the workplace](../concept/scheduling-employees-arrival-to-the-workplace-wsd.md)
+**Parent Topic:**[Setting and tracking arrivals at the workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/scheduling-employees-arrival-to-the-workplace-wsd.md)
 

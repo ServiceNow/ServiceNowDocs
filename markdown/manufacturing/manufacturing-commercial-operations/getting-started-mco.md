@@ -1,0 +1,23 @@
+---
+title: Getting started
+description: Activate the Manufacturing Commercial Operations plugin and plan your implementation by installing additional plugins.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/manufacturing-commercial-operations/getting-started-mco.html
+release: zurich
+product: Manufacturing Commercial Operations
+classification: manufacturing-commercial-operations
+topic_type: concept
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Set up your environment, Configure, Manufacturing Commercial Operations]
+---
+
+# Getting started
+
+Activate the Manufacturing Commercial Operations plugin and plan your implementation by installing additional plugins.
+
+|Plugin|Description|
+|------|-----------|
+|[Install MCO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/manufacturing-commercial-operations/install-manufacturing-commercial-operations-core.md)|As an admin, activate the MCO plugin. This plugin includes demo data and activated related plugins.|
+|[Plugins installed with MCO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/manufacturing-commercial-operations/manufacturing-commercial-operations-plugins.md)|Refer to the list of related MCO plugins that are activated after you activate the MCO plugin.|
+

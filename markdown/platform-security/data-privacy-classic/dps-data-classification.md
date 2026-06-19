@@ -2,6 +2,7 @@
 title: Data classification
 description: Group data by type, using pre-defined or user-defined data classifications. If you have an assigned data classification administrator or auditor role, you can administer different data classes or visually analyze the current state of different types of data within the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-privacy-classic/dps-data-classification.html
 release: zurich
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
@@ -22,13 +23,13 @@ Data Classification enables support for:
 
 ## Data classifications
 
-Data classification is a standalone process in which you manually apply data classifications to existing dictionary entries in any table. See [Data dictionary tables](https://www.servicenow.com/docs/access?context=c_DataDictionaryTables&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) for additional information.
+Data classification is a standalone process in which you manually apply data classifications to existing dictionary entries in any table. See  for additional information.
 
 -   You classify data as you find appropriate for your business and you can alter the available data classes as necessary.
 -   When you classify data, you can use the pre-defined data classifications, or create your own. Although use of pre-defined data classifications is optional, it is advisable do so as a starting point. These pre-defined data classifications are included in demo data that you can install in your instance.
 -   If you create your own data classifications, you can also design a tiered hierarchical system with parent and child data classifications.
 
-**Note:** Data Classification supports domain separation, and the data\_classification table itself is process separated. See [Domain separation and Data Classification](../../security/concept/domain-separation-data-classification.md) for additional information.
+**Note:** Data Classification supports domain separation, and the data\_classification table itself is process separated. See [Domain separation and Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-classification/domain-separation-data-classification.md) for additional information.
 
 ## Use cases
 

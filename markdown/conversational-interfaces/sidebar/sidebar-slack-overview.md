@@ -2,6 +2,7 @@
 title: Sidebar and Slack
 description: Sidebar's integration with Slack enables Sidebar users and Slack users to communicate with each other from their respective platforms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/sidebar/sidebar-slack-overview.html
 release: zurich
 product: Sidebar
 classification: sidebar
@@ -23,14 +24,14 @@ A Sidebar user must already have a Slack account to communicate with a Slack use
 
 ## Differentiating between Sidebar and Slack users
 
-To differentiate Sidebar users from Slack users, a Slack icon \(![Slack icon.](../image/slack-icon.png)\) displays next to the Slack users' names. This icon is visible in discussion windows and search results, but does not appear in the activity stream.
+To differentiate Sidebar users from Slack users, a Slack icon \(\[Omitted image "slack-icon.png"\] Alt text: Slack icon.\) displays next to the Slack users' names. This icon is visible in discussion windows and search results, but does not appear in the activity stream.
 
 | | |
 |---|---|
-|Discussion window with Slack icon|![Discussion window with Slack icon next to user name External One.](../image/discussion-slack-icon.png)|
-|All tab on the Discussion window with Slack icon|![Discussion window with the All tab selected and Slack icon highlighted.](../image/all-tab-slack-icon.png)|
-|Discussion window with Slack icon next to search results|![Start a Sidebar discussion window with Slack icon highlighted next to two search results.](../image/search-slack-icon.png)|
-|Discussion info window with Slack icon|![Discussion info window, with Slack icon highlighted next to username External One.](../image/discussion-info-slack-icon.png)|
+|Discussion window with Slack icon|\[Omitted image "discussion-slack-icon.png"\] Alt text: Discussion window with Slack icon next to user name External One.|
+|All tab on the Discussion window with Slack icon|\[Omitted image "all-tab-slack-icon.png"\] Alt text: Discussion window with the All tab selected and Slack icon highlighted.|
+|Discussion window with Slack icon next to search results|\[Omitted image "search-slack-icon.png"\] Alt text: Start a Sidebar discussion window with Slack icon highlighted next to two search results.|
+|Discussion info window with Slack icon|\[Omitted image "discussion-info-slack-icon.png"\] Alt text: Discussion info window, with Slack icon highlighted next to username External One.|
 
 ## Adding users to a discussion
 
@@ -75,7 +76,7 @@ ServiceNow's access to Slack group chats and messages is restricted to the ones 
 
 The discussion participants aren’t synchronized if the integration between Sidebar and Slack is changed multiple times.
 
-![What happens if you turn the Sidebar-Slack configuration off and on.](../image/sidebar-slack-on-off.png "Synchronizing example")
+\[Omitted image "sidebar-slack-on-off.png"\] Alt text: What happens if you turn the Sidebar-Slack configuration off and on.
 
 ## Domain separation with Sidebar and Slack integration
 

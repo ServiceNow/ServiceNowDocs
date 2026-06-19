@@ -2,6 +2,7 @@
 title: Microsoft Per Core \(with CAL\) licensing rules
 description: The Per Core \(with CAL\) metric licensing model is followed by various Microsoft Server products such as Windows Server, System Center, and Core Infrastructure Server Suite. The number of licenses depends on the number of installations and operating system environments \(OSE\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/microsoft-percore-withcal.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -15,7 +16,7 @@ breadcrumb: [Software license maintenance, Explore, Software Asset Management, I
 
 The Per Core \(with CAL\) metric licensing model is followed by various Microsoft Server products such as Windows Server, System Center, and Core Infrastructure Server Suite. The number of licenses depends on the number of installations and operating system environments \(OSE\).
 
-The licensing rules for on-premise installations of these products and the cloud installations are separate. The cloud licensing rules follow Bring Your Own License \(BYOL\). For more information, see [Licensing rules for BYOL and BYOS](../reference/byol-license-rules.md).
+The licensing rules for on-premise installations of these products and the cloud installations are separate. The cloud licensing rules follow Bring Your Own License \(BYOL\). For more information, see [Licensing rules for BYOL and BYOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/byol-license-rules.md).
 
 To license the on-premise installation of these products using the Per Core \(with CAL\) licensing model, consider the following two options.
 
@@ -24,7 +25,7 @@ To license the on-premise installation of these products using the Per Core \(wi
 
 **Note:** You can either allocate to individual hosts or individual virtual machines, not to cluster.
 
-You can either allocate manually, or the Software Asset Management application can automatically select the most cost-effective licensing option based on optimization criteria. For more information about how to perform allocation, see [Allocation management](https://www.servicenow.com/community/sam-blog/allocation-management-on-servicenow-sam-pro/ba-p/2649232) and how the Software Asset Management application performs automated optimization, see [View realized and potential cost-based licensing optimizations for Microsoft](../task/view-cost-based-licensing-optimizations-microsoft.md).
+You can either allocate manually, or the Software Asset Management application can automatically select the most cost-effective licensing option based on optimization criteria. For more information about how to perform allocation, see [Allocation management](https://www.servicenow.com/community/sam-blog/allocation-management-on-servicenow-sam-pro/ba-p/2649232) and how the Software Asset Management application performs automated optimization, see [View realized and potential cost-based licensing optimizations for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/view-cost-based-licensing-optimizations-microsoft.md).
 
 **Note:** Both options, whether licensing by physical cores or licensing by individual virtual machines, come with their own set of Microsoft rules that must be followed. For more information, see [Windows Server Standard, Datacenter, and Essentials](https://www.microsoft.com/licensing/terms/productoffering/WindowsServerStandardDatacenterEssentials/EAEAS).
 
@@ -92,7 +93,7 @@ Not supported
 </td></tr></tbody>
 </table>When deploying Microsoft products like Windows Server or System Center \(using the core with CAL license model\) on cluster virtualization technologies such as VMware vSphere, Microsoft Hyper-V, or Nutanix AHV, the number of licenses required for the physical host depends on the virtual machines that could potentially migrate to it within the cluster.
 
-Technologies like VMware vMotion, which enables live migration of virtual machines across all hosts, and host affinity, which helps lock virtual machines to hosts within a cluster, manage the movement of virtual machines across hosts. To understand more about cluster virtualization technology and its support on the Software Asset Management application, see [Understanding your cluster infrastructure](understand-sam-cluster.md).
+Technologies like VMware vMotion, which enables live migration of virtual machines across all hosts, and host affinity, which helps lock virtual machines to hosts within a cluster, manage the movement of virtual machines across hosts. To understand more about cluster virtualization technology and its support on the Software Asset Management application, see [Understanding your cluster infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/understand-sam-cluster.md).
 
 According to Microsoft licensing rules, if a virtual machine with a Microsoft product like Windows Server installed is hosted on one server but can potentially migrate to another, the destination server must be licensed as if the virtual machine is already running on it.
 
@@ -141,5 +142,5 @@ License mobility within Server farms \(Software assurance benefit\)**Note:** Lic
 Supported
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software license maintenance](software-license-maintenance.md)
+</table>**Parent Topic:**[Software license maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-license-maintenance.md)
 

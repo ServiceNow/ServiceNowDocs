@@ -2,6 +2,7 @@
 title: Use Agent assist to view associated claims
 description: View the associated claims and relevant knowledge articles by using the Agent assist contextual search. You can find related information on your Individual Life Claims case to assist in understanding and completing your case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/agent-assist.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims
@@ -23,19 +24,19 @@ Role required: sn\_ins\_claim\_indl.fnol\_representative, sn\_ins\_claim\_indl.m
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Open the task from the case playbook or the Individual death claim tasks list.
 
-<table id="choicetable_dvz_rgb_qbc"><thead><tr><th align="left" id="d46310e114">
+<table id="choicetable_dvz_rgb_qbc"><thead><tr><th align="left" id="d48906e114">
 
 Option
 
-</th><th align="left" id="d46310e117">
+</th><th align="left" id="d48906e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d46310e123">
+</th></tr></thead><tbody><tr><td id="d48906e123">
 
 **From the case playbook**
 
@@ -45,7 +46,7 @@ Steps
 2.  In the list, select the case that contains the adjuster task.
 
 
-</td></tr><tr><td id="d46310e144">
+</td></tr><tr><td id="d48906e144">
 
 **From the Individual death claim tasks list**
 
@@ -56,8 +57,8 @@ Steps
 
 
 </td></tr></tbody>
-</table>4.  Select the Agent assist icon \(![Graduation cap icon for Agent assist.](../../../common/image/Form_AgentAssistIcon.png)\) to use the feature.
+</table>4.  Select the Agent assist icon \(\[Omitted image "Form\_AgentAssistIcon.png"\] Alt text: Graduation cap icon for Agent assist.\) to use the feature.
 
-    For more information about Agent assist, see [Finding solutions using Agent assist](https://www.servicenow.com/docs/access?context=agent-assist&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    For more information about Agent assist, see Finding solutions using Agent assist.
 
 

@@ -2,6 +2,7 @@
 title: Assign a time sheet policy to a user
 description: As a time card administrator, you can assign a time sheet policy to a user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/assign-time-sheet-policy-to-user.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -40,5 +41,5 @@ You can assign only one time sheet policy to a user.
 
 The selected users appear on the **Users** related list. The time sheet policy is assigned to the selected users.
 
-**Parent Topic:**[Time sheet policies](../concept/time-sheet-policies.md)
+**Parent Topic:**[Time sheet policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/time-sheet-policies.md)
 

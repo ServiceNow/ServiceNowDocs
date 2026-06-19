@@ -2,7 +2,10 @@
 title: Roles and responsibilities
 description: After successful integration of Order Management with Service Model Foundation, various roles are added to the list view menu.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/personas-roles-and-tables-post-integration.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

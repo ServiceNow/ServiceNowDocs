@@ -2,6 +2,7 @@
 title: Agile 2.0 Prior Release Dashboard
 description: Prior Release Dashboard provides data visualization on scope, actual burnup and burndown, and forecast trends of previous releases. Analyze the data and plan the work for upcoming releases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/agile-development-prior-release-dashboard.html
 release: zurich
 product: Agile Development
 classification: agile-development
@@ -17,9 +18,9 @@ Prior Release Dashboard provides data visualization on scope, actual burnup and 
 
 Navigate to **All** &gt; **Agile Development** &gt; **Dashboards** and select **Agile 2.0 Prior Release Dashboard**.
 
-![Agile 2.0 prior release burndown report.](../image/agile-prior-release-burndown.png "Agile 2.0 prior release burndown report")
+\[Omitted image "agile-prior-release-burndown.png"\] Alt text: Agile 2.0 prior release burndown report.
 
-![Agile 2.0 prior release burnup report.](../image/agile-prior-release-burnup.png "Agile 2.0 prior release burnup report")
+\[Omitted image "agile-prior-release-burnup.png"\] Alt text: Agile 2.0 prior release burnup report.
 
 **Note:** Canceled stories are not included in any of this data.
 
@@ -104,7 +105,7 @@ Release Burnup
 
 </td><td>
 
-Line chart![](../../reporting/image/inline-data-vis-96px-line.png)
+Line chart\[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
 
 </td><td>
 
@@ -121,7 +122,7 @@ Release Burndown
 
 </td><td>
 
-Line chart![](../../reporting/image/inline-data-vis-96px-line.png)
+Line chart\[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
 
 </td><td>
 
@@ -137,7 +138,7 @@ If the actual burndown \(Remaining\) is above the ideal burndown, it implies tha
 
 
 </td></tr></tbody>
-</table>You can customize the Burnup and Burndown reports. For more information, see [Customizing Agile 2.0 dashboard reports](../concept/customizing-dashboard-reports.md).
+</table>You can customize the Burnup and Burndown reports. For more information, see [Customizing Agile 2.0 dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/customizing-dashboard-reports.md).
 
-**Parent Topic:**[Performance Analytics Content Pack for Agile 2.0](pa-content-pack-for-agile-2.0.md)
+**Parent Topic:**[Performance Analytics Content Pack for Agile 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/pa-content-pack-for-agile-2.0.md)
 

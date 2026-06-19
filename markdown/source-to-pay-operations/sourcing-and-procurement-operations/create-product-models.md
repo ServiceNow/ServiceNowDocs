@@ -2,13 +2,14 @@
 title: Create product models to group supplier products
 description: Create product models to group your supplier products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-product-models.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Setting up your product catalog, Setting up primary data for Shopping Hub, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Setting up your product catalog, Setting up primary data Shopping, Configure Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Create product models to group supplier products
@@ -23,15 +24,15 @@ Role required: sn\_shop.shopping\_hub\_admin
 
 1.  Navigate to **All** &gt; **ShoppingHub** &gt; **Model Management** &gt; **All Other Product Models**.
 
-    ![ServiceNow navigation showing ShoppingHub > Model Management > All Other Product Models path](../image/spo-product-mod-nav.png)
+    \[Omitted image "spo-product-mod-nav.png"\] Alt text: ServiceNow navigation showing ShoppingHub &gt; Model Management &gt; All Other Product Models path
 
 2.  Select **New**.
 
-    ![Product Models list view with New button highlighted.](../image/spo-product-mod-new.png)
+    \[Omitted image "spo-product-mod-new.png"\] Alt text: Product Models list view with New button highlighted.
 
 3.  Select a model type that you want to create.
 
-    ![Model type selection page showing various options.](../image/spo-product-mod-type.png)
+    \[Omitted image "spo-product-mod-type.png"\] Alt text: Model type selection page showing various options.
 
 4.  On the form, fill in the fields.
 
@@ -266,7 +267,7 @@ Sourcing time in days
 
 Number of days that are required to source a product of this category from the supplier.This field is auto-populated based on the selected product category.
 
- For details, see [Lead time calculations](../reference/lead-time-calculations.md).
+ For details, see [Lead time calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/lead-time-calculations.md).
 
 </td></tr><tr><td>
 
@@ -276,7 +277,7 @@ Purchasing time in days
 
 Number of days that are required to complete a purchase order for products in this category. This field is auto-populated based on the selected product category.
 
- For details, see [Lead time calculations](../reference/lead-time-calculations.md).
+ For details, see [Lead time calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/lead-time-calculations.md).
 
 </td></tr></tbody>
 </table>5.  Select **Submit**.
@@ -285,7 +286,7 @@ Number of days that are required to complete a purchase order for products in th
 ## What to do next
 
 -   Use the related lists of the model category form to view the product models, supplier products, and ledger assignment rules that are associated with this category.
--   Create ledger assignment rules for this product model. See [add a ledger assignment rule](create-ledger-assignment-rules.md).
+-   Create ledger assignment rules for this product model. See [add a ledger assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-ledger-assignment-rules.md).
 
-**Parent Topic:**[Setting up your product catalog](create-product-catalogue.md)
+**Parent Topic:**[Setting up your product catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-product-catalogue.md)
 

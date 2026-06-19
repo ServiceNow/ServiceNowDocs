@@ -2,6 +2,7 @@
 title: Integrate Prometheus events
 description: Integrate Prometheus with Event Management by adding a standard webhook in Prometheus's Alert Manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/prometheus-events-integration.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -51,7 +52,7 @@ If severity isn't received in the payload, the default severity is Major, which 
 
 **Note:**
 
-To map hosts to the **cmdb\_ci\_vm\_object** record instead of **cmdb\_ci\_hardware**, enable the **Prometheus VM Binding** event rule created for Prometheus. For further information about event rules, see [Event rules](../concept/create-event-rules.md).
+To map hosts to the **cmdb\_ci\_vm\_object** record instead of **cmdb\_ci\_hardware**, enable the **Prometheus VM Binding** event rule created for Prometheus. For further information about event rules, see [Event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-event-rules.md).
 
-**Parent Topic:**[Integrate with push connectors](configure-listener-transform-script.md)
+**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-listener-transform-script.md)
 

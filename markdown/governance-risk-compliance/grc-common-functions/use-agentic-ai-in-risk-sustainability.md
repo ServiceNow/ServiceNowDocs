@@ -2,6 +2,7 @@
 title: Use agentic AI in Now Assist for Integrated Risk Management \(IRM\)
 description: Use agents within an agentic workflow or as standalone agents to achieve specific automated outcomes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/use-agentic-ai-in-risk-sustainability.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -18,25 +19,25 @@ Use agents within an agentic workflow or as standalone agents to achieve specifi
 
 Find information such as the large language models \(LLM\) supported in Now Assist and security controls that are important considerations for using agentic AI.
 
-For more information on language support, see [Multilingual service for Now Assist](https://www.servicenow.com/docs/access?context=translation-for-now-assist&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) and [Multilingual support for ServiceNow generative AI products](https://www.servicenow.com/community/now-assist-articles/multilingual-support-for-servicenow-generative-ai-products/ta-p/3099258).
+For more information on language support, see  and [Multilingual support for ServiceNow generative AI products](https://www.servicenow.com/community/now-assist-articles/multilingual-support-for-servicenow-generative-ai-products/ta-p/3099258).
 
 ## Supported large language models \(LLM\)
 
 **Note:**
 
--   You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://www.servicenow.com/docs/access?context=ai-model-providers&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://www.servicenow.com/docs/access?context=manage-large-language-models&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US). For more information, see [Large language models on the ServiceNow AI Platform®](https://www.servicenow.com/docs/access?context=exploring-large-language-models&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+-   You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the Now Assist Admin console. For more information, see .
 
--   For the Now LLM Service updates, see [Now LLM Service updates](https://www.servicenow.com/docs/access?context=now-llm-model-updates&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+-   For the Now LLM Service updates, see .
 
 ## Security implementation considerations
 
-Enable security implementation to execute AI agents and agentic workflows through access control lists \(ACLs\) and user identities. ACLs provide the Run As capability to let agents and agentic workflows execute actions either as a dynamic user or as an AI user.For more information, see [Implement access control in Now Assist AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+Enable security implementation to execute AI agents and agentic workflows through access control lists \(ACLs\) and user identities. ACLs provide the Run As capability to let agents and agentic workflows execute actions either as a dynamic user or as an AI user.For more information, see .
 
 ## Considerations for running the autonomous AI Agents
 
 **Important:** By default, all agent workflow and AI agent records are read-only.
 
-To run the AI agents autonomously, you must first [duplicate the agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US), and then proceed with the following steps:
+To run the AI agents autonomously, you must first duplicate the agentic workflow, and then proceed with the following steps:
 
 -   Activate the agentic workflow.
 -   Activate all agents within the agentic workflow.
@@ -47,8 +48,8 @@ To run the AI agents autonomously, you must first [duplicate the agentic workflo
 
 Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 
-For information on the standalone Now Assist for IRM AI agents, see [Standalone AI Agents in Now Assist for Integrated Risk Management \(IRM\)](standalone-ai-agents-in-risk-sustainability.md).
+For information on the standalone Now Assist for IRM AI agents, see [Standalone AI Agents in Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/standalone-ai-agents-in-risk-sustainability.md).
 

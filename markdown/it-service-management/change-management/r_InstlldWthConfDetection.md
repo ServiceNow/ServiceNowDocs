@@ -2,6 +2,7 @@
 title: Installed with Change Management - Collision Detector
 description: Several types of components are installed with Change Management - Collision Detector.Change Management - Collision Detector adds or modifies the following tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/r\_InstlldWthConfDetection.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -15,7 +16,7 @@ breadcrumb: [Activate Change Management - Collision Detector, Plugins, Configure
 
 Several types of components are installed with Change Management - Collision Detector.
 
-**Parent Topic:**[Activate Change Management - Collision Detector](../task/t_ActivateConflictDetection.md)
+**Parent Topic:**[Activate Change Management - Collision Detector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/t_ActivateConflictDetection.md)
 
 ## Tables installed with Change Management - Collision Detector
 

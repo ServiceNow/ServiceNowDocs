@@ -2,7 +2,10 @@
 title: Install the Guided Decisions Experience application
 description: You can install the Guided Decisions Experience application \(sn\_ga\_exp\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence: The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/install-guided-decisions-exp-app-new.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -29,7 +32,7 @@ The following items are installed with Guided Decisions Experience:
 -   Roles
 -   Guidances
 
-For more information, see [Components installed with Guided Decisions Experience](../reference/components-installed-with-guided-decisions.md).
+For more information, see [Components installed with Guided Decisions Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/components-installed-with-guided-decisions.md).
 
 ## Procedure
 

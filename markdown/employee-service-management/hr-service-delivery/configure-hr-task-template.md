@@ -2,6 +2,7 @@
 title: Configure an HR task template
 description: Create or modify an HR task template to automatically populate fields on the HR task form when that task is generated. You can configure an HR task template for an HR service or lifecycle event activity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/configure-hr-task-template.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -23,15 +24,15 @@ Role required: sn\_hr\_core.admin
 
 1.  Choose one of the following.
 
-<table id="choicetable_vvj_tvs_mgb"><thead><tr><th align="left" id="d765436e51">
+<table id="choicetable_vvj_tvs_mgb"><thead><tr><th align="left" id="d113882e51">
 
 Option
 
-</th><th align="left" id="d765436e54">
+</th><th align="left" id="d113882e54">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d765436e60">
+</th></tr></thead><tbody><tr><td id="d113882e60">
 
 **HR service activity**
 
@@ -48,7 +49,7 @@ Description
 3.  In the **Child task template** field, click the Lookup icon.
 
 
-</td></tr><tr><td id="d765436e115">
+</td></tr><tr><td id="d113882e115">
 
 **\( Enterprise Onboarding and Transitions only\) Lifecycle event activity**
 
@@ -156,7 +157,7 @@ Collect employee input
 
 </td><td>
 
-Collects information from employees. In the **Employee form** field, select the employee form that the user will fill out or verify.**Note:** Employee forms are questionnaires built using the survey designer to collect information from employees. See [Collect employee input](../concept/employee-form-configuration.md) for more information.
+Collects information from employees. In the **Employee form** field, select the employee form that the user will fill out or verify.**Note:** Employee forms are questionnaires built using the survey designer to collect information from employees. See [Collect employee input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/employee-form-configuration.md) for more information.
 
 </td></tr><tr><td>
 
@@ -174,8 +175,8 @@ E-signature
 
 User electronically signs a document. In the **E-signature template** field, select the e-signature template to use.**Note:**
 
--   E-signature is a scoped application that enables users to sign managed documents, knowledge articles, or HR document templates with their typed or drawn signature, credentials, or as an acknowledgment. See [HR e-signature](../concept/hr-e-signature.md) for more information.
--   If HR document template is the document type of the e-signature template, you must select the HR document template that the signatory will sign on the HR case form. See [Select an HR document template for an e-signature task](select-hr-document-template-for-e-signature-task.md) for more information.
+-   E-signature is a scoped application that enables users to sign managed documents, knowledge articles, or HR document templates with their typed or drawn signature, credentials, or as an acknowledgment. See [HR e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-e-signature.md) for more information.
+-   If HR document template is the document type of the e-signature template, you must select the HR document template that the signatory will sign on the HR case form. See [Select an HR document template for an e-signature task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/select-hr-document-template-for-e-signature-task.md) for more information.
 
 
 </td></tr><tr><td>
@@ -186,7 +187,7 @@ Credential
 
 Prompts the user to login with their credentials to acknowledge conditions and terms related to their signature. To add text that explains what their login credentials mean, add the **Acknowledgment text** field. To add a document, add the **Acknowledgment document** field.**Note:**
 
--   This option is only available for existing customers that have not yet migrated to e-signature. See [Migrate existing HR task templates and open HR tasks to e-signature](migrate-existing-tasks-to-scoped-e-signature.md) for more information.
+-   This option is only available for existing customers that have not yet migrated to e-signature. See [Migrate existing HR task templates and open HR tasks to e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/migrate-existing-tasks-to-scoped-e-signature.md) for more information.
 -   Starting with the Zurich release, the HR task type: Credential will be hidden, but will continue to be supported. E-signature provides the latest experience for this functionality.
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
@@ -199,7 +200,7 @@ E-Signature
 
 Prompts the user to sign a document. To add text that explains what their signature means, add the **Acknowledgment text** field. To add a document, add the **Acknowledgment document** field.**Note:**
 
--   This option is only available for existing customers that have not yet migrated to e-signature. See [Migrate existing HR task templates and open HR tasks to e-signature](migrate-existing-tasks-to-scoped-e-signature.md) for more information.
+-   This option is only available for existing customers that have not yet migrated to e-signature. See [Migrate existing HR task templates and open HR tasks to e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/migrate-existing-tasks-to-scoped-e-signature.md) for more information.
 -   Starting with the Zurich release, the HR task type: E-signature \(e\_signature\) will be hidden, but will continue to be supported. E-signature provides the latest experience for this functionality.
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
@@ -218,13 +219,13 @@ Sign Document
 
 </td><td>
 
-Requests the subject person to edit or sign a document. An example is sending an education agreement to be signed for tuition reimbursement.This option is only available for existing customers that have not yet migrated to e-signature. See [Migrate existing HR task templates and open HR tasks to e-signature](migrate-existing-tasks-to-scoped-e-signature.md) for more information.
+Requests the subject person to edit or sign a document. An example is sending an education agreement to be signed for tuition reimbursement.This option is only available for existing customers that have not yet migrated to e-signature. See [Migrate existing HR task templates and open HR tasks to e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/migrate-existing-tasks-to-scoped-e-signature.md) for more information.
 
-**Note:** The document must be included in the HR case template in the **PDF Template** field. See [Configure an HR case template](configure-hr-case-template.md).
+**Note:** The document must be included in the HR case template in the **PDF Template** field. See [Configure an HR case template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-case-template.md).
 
 To add text that explains what their signature means, add the **Acknowledgment text** field. To add a document, add the **Acknowledgment document** field.
 
-Acknowledgment text entered on the HR document template overrides text written here. See [Configure an HR document template \(HTML\)](t_AddHRPDFDocumentTemplate.md) or [Configure an HR PDF document template](PDFTemplate.md).
+Acknowledgment text entered on the HR document template overrides text written here. See [Configure an HR document template \(HTML\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_AddHRPDFDocumentTemplate.md) or [Configure an HR PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/PDFTemplate.md).
 
 **Note:**
 
@@ -391,7 +392,7 @@ Use global descriptions for translations
 
 </td><td colspan="2">
 
-Option to enable the use of global descriptions for translations. If selected, you can provide the short description and description for the HR task template in one or more languages. See [Translations for HR cases and tasks](../concept/translation-of-hr-cases-and-tasks.md#) for more information.Check to show the **Global short description** and **Global description** fields. You can select a table \(top, right\) from the list and the associated dynamic variables from that table appear. You can add dynamic variables when creating your text to personalize the task. To use dynamic variables in the **Global short description** field, copy and paste the dynamic variables from the **Global description** field.
+Option to enable the use of global descriptions for translations. If selected, you can provide the short description and description for the HR task template in one or more languages. See [Translations for HR cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/translation-of-hr-cases-and-tasks.md) for more information.Check to show the **Global short description** and **Global description** fields. You can select a table \(top, right\) from the list and the associated dynamic variables from that table appear. You can add dynamic variables when creating your text to personalize the task. To use dynamic variables in the **Global short description** field, copy and paste the dynamic variables from the **Global description** field.
 
 **Note:** Because some dynamic variables might provide personal information, use the sn\_hr\_core.task\_template\_variable\_ignore system property to ensure privacy. For example, social security number \(ssn\) is excluded by default. You can add other variables to this system property to disable them but ensure they are comma separated with no spaces between each variable.
 

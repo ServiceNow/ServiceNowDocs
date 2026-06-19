@@ -2,7 +2,10 @@
 title: Alerts in Instance Observer
 description: ServiceNow Instance Observer provides a comprehensive set of alerts designed to monitor platform health, performance, and user experience. These alerts are categorized for easy consumption and actionability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/io-alerts-intro.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2

@@ -2,6 +2,7 @@
 title: Safety registers
 description: Safety Registers help safety teams and line managers to keep track of hazardous materials like chemicals and asbestos, as well as attach Safety Data Sheets \(SDSs\) that employees can easily access.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-risk-management/hs-safety-registers.html
 release: zurich
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -18,10 +19,10 @@ Safety Registers help safety teams and line managers to keep track of hazardous 
 -   Safety team manages safety registers like chemicals and asbestos in the Health and Safety Workspace. The safety team also attaches Safety Data Sheets \(SDSs\) to safety register records.
 -   Employees can search and access these SDSs in the Employee Center or on Now Mobile app.
 
--   **[Manage your safety registers](../task/hs-manage-safety-registers.md)**  
+-   **[Manage your safety registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/hs-manage-safety-registers.md)**  
 Manage your safety registers to log and keep track of the hazardous materials used in your organization, along with Safety Data Sheets \(SDSs\).
--   **[Access a safety register document in Employee center](../task/hs-view-safety-register-docs-ec.md)**  
+-   **[Access a safety register document in Employee center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/hs-view-safety-register-docs-ec.md)**  
 Access and view safety register documents for chemicals and asbestos through the Employee Center.
 
-**Parent Topic:**[Using Health and Safety Risk Management](hs-using-hs-risk-mgmt.md)
+**Parent Topic:**[Using Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/hs-using-hs-risk-mgmt.md)
 

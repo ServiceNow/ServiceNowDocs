@@ -2,6 +2,7 @@
 title: Enable integration for internal planning item
 description: Enable the integration for an internal planning item type to view portfolio financials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/fin-enable-integration-planning-item-ppw.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -29,6 +30,6 @@ Role required: admin
 
 4.  Set the Active field to **true** for dmn\_demand and pm\_project.
 
-    ![Integration for internal planning item.](../../spw-financials/images/fin-integration-internal-planning-item-ppw.png)
+    \[Omitted image "fin-integration-internal-planning-item-ppw.png"\] Alt text: Integration for internal planning item.
 
 

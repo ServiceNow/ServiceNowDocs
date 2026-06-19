@@ -2,6 +2,7 @@
 title: Configure the scenario planning type and scope
 description: Configure the scenario planning type and select the scope of portfolios to determine the way you want to plan and work on your portfolios. You can also specify using Investment Funding for funding demands and projects in your portfolios.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-management/configure-scenario-planning.html
 release: zurich
 product: Portfolio Management
 classification: portfolio-management
@@ -33,15 +34,15 @@ The option to use Investment Funding for funding your portfolios is available on
 
 3.  Configure the planning type and scope.
 
-<table id="choicetable_zkm_1vk_knb"><thead><tr><th align="left" id="d93432e94">
+<table id="choicetable_zkm_1vk_knb"><thead><tr><th align="left" id="d76942e94">
 
 Planning type
 
-</th><th align="left" id="d93432e97">
+</th><th align="left" id="d76942e97">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d93432e103">
+</th></tr></thead><tbody><tr><td id="d76942e103">
 
 **If you want to plan for a single fiscal year and single portfolio**
 
@@ -51,7 +52,7 @@ Steps
 2.  Select **Single Selected Portfolio** from the Planning Scope list.
 
 
-</td></tr><tr><td id="d93432e127">
+</td></tr><tr><td id="d76942e127">
 
 **If you want to plan for a single fiscal year and all portfolios**
 
@@ -61,7 +62,7 @@ Steps
 2.  Select **All Portfolios** from the Planning Scope list.
 
 
-</td></tr><tr><td id="d93432e151">
+</td></tr><tr><td id="d76942e151">
 
 **If you want to plan for multiple years and single portfolio**
 
@@ -73,7 +74,7 @@ Steps
 
 When you select a planning window, all the demands and projects falling within the selected duration appear on the Portfolio Planning Workbench.
 
-</td></tr><tr><td id="d93432e183">
+</td></tr><tr><td id="d76942e183">
 
 **If you want to plan for multiple years and all portfolios**
 
@@ -91,7 +92,7 @@ When you select a planning window, all the demands and projects falling within t
 
     **Note:** This option is available only when the Investment Funding for PPM \(com.snc.investment\_planning\_pmo\) plugin is active and planning type is selected as **Annual Financial and Resource Capacity Based Planning**.
 
-    -   If the planning scope is **Single Selected Portfolio**, the target amount of that portfolio is retrieved from the **New Fund** column for the selected portfolio investment. For more information, see [Allocate funds to an investment](../../investment-funding/task/allocate-funds-to-investment.md).
+    -   If the planning scope is **Single Selected Portfolio**, the target amount of that portfolio is retrieved from the **New Fund** column for the selected portfolio investment. For more information, see [Allocate funds to an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/allocate-funds-to-investment.md).
     -   If the planning scope is **All Portfolios**, specify a source to retrieve the target amount.
         1.  Select a funding entity from the Funding Entity list from which your demands and projects will be funded.
         2.  Select the transaction table for the selected funding entity from the Funding Record list.
@@ -102,8 +103,8 @@ When you select a planning window, all the demands and projects falling within t
 
 The scenario planning configuration is updated and all scenario plans and confirmed plans are deleted. The configuration changes also updates the Portfolio Planning Workbench to enable you to do scenario planning based on the updated planning type and scope.
 
--   **[Impact of modifying the scenario planning type and scope](../reference/change-planning-mode-type.md)**  
+-   **[Impact of modifying the scenario planning type and scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-management/change-planning-mode-type.md)**  
 Modifying the planning type and scope impacts the demands and project selection in your planning scenarios and portfolio planning. You can change the planning type and scope at any time during portfolio planning.
 
-**Parent Topic:**[Scenario Planning for PPM](../concept/portfolio-planning-overview.md)
+**Parent Topic:**[Scenario Planning for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-management/portfolio-planning-overview.md)
 

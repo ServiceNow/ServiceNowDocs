@@ -2,6 +2,7 @@
 title: Configure badging table data
 description: Register details for a new provider, configure a badging table and import data from the source table to the target table to integrate with the badging system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-connectors/provider-configuration-wsd-connectors.html
 release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
@@ -77,7 +78,7 @@ Connector Configuration
 
 </td><td>
 
-Select the lookup list icon \(![Lookup list icon.](../../workplace-lease-administration/images/look-up-icon.png)\) and select **Badging**. For more information, see [Configure connectors for badging data](workplace-connector-configuration.md).
+Select the lookup list icon \(\[Omitted image "look-up-icon.png"\] Alt text: Lookup list icon.\) and select **Badging**. For more information, see [Configure connectors for badging data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/workplace-connector-configuration.md).
 
 </td></tr></tbody>
 </table>3.  Select **Submit**.
@@ -105,9 +106,9 @@ Select the lookup list icon \(![Lookup list icon.](../../workplace-lease-adminis
     The scheduled job takes the source data from the Badging data table to transform the data in the required format, and place it in the target Employee Attendance Data table.
 
 
-**Parent Topic:**[Provider connector configuration](../concept/provider-configuration-ovw.md)
+**Parent Topic:**[Provider connector configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/provider-configuration-ovw.md)
 
-**Previous topic:**[Provider connector configuration](../concept/provider-configuration-ovw.md)
+**Previous topic:**[Provider connector configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/provider-configuration-ovw.md)
 
-**Next topic:**[Configure a webhook event](configure-webhook-restapi.md)
+**Next topic:**[Configure a webhook event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/configure-webhook-restapi.md)
 

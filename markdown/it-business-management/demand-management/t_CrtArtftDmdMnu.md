@@ -2,6 +2,7 @@
 title: Create an artifact from a demand
 description: Create an artifact, such as a work item, from a demand so that you can track work on the demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/demand-management/t\_CrtArtftDmdMnu.html
 release: zurich
 product: Demand Management
 classification: demand-management
@@ -17,16 +18,16 @@ Create an artifact, such as a work item, from a demand so that you can track wor
 
 ## Before you begin
 
-A demand must have been created. For more information, see [Create a demand](t_CreatingDemands.md).
+A demand must have been created. For more information, see [Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/t_CreatingDemands.md).
 
 The category and type of a demand and the applications you have installed determine the artifact you can create from it. The available artifact types and the applications you must have installed to be able to create them are listed in the following table.
 
 |Artifact|Required application|
 |--------|--------------------|
-|Enhancement, change, or defect|[Project Portfolio Suite](../../project-portfolio-suite/concept/c_ProjectPortfolioSuite.md)|
-|Agile Development entities \(story or epic\)|[Agile Development 2.0](../../agile-development/reference/agile-landing-page.md)|
-|Scaled Agile Framework \(SAFe\)SAFe entities \(story, feature, or epic\)|[Essential SAFe](../../agile-SAFe/concept/essential-overview.md) or [Portfolio SAFe](../../agile-SAFe/concept/portfolio-overview.md)|
-|Enterprise Agile Planning \(EAP\) entities \(epic, feature, or capability\)|[Strategic Planning](../../alignment-planner-workspace/concept/alignment-planner-workspace-landing-page.md)|
+|Enhancement, change, or defect|[Project Portfolio Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md)|
+|Agile Development entities \(story or epic\)|[Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/agile-landing-page.md)|
+|Scaled Agile Framework \(SAFe\)SAFe entities \(story, feature, or epic\)|[Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/essential-overview.md) or [Portfolio SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/portfolio-overview.md)|
+|Enterprise Agile Planning \(EAP\) entities \(epic, feature, or capability\)|[Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/alignment-planner-workspace-landing-page.md)|
 
 Role required: it\_demand\_manager
 
@@ -43,7 +44,7 @@ Role required: it\_demand\_manager
 
 3.  Verify that the values in the **Category** and **Type** fields are appropriate for the artifact you want to create.
 
-    The options in the Type list change according to the category that you select. For more information, see [Demand form](../reference/demand-form.md).
+    The options in the Type list change according to the category that you select. For more information, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/demand-form.md).
 
     **Note:** The **Category** and **Type** fields are set to read only when an artifact is created from a demand. If you delete the created artifact, these fields become editable again.
 
@@ -55,7 +56,7 @@ Role required: it\_demand\_manager
 
     |Related link|Description|
     |------------|-----------|
-    |**Create Project**|This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **Project**. Creates a project that is associated with this demand. The number of the project record is displayed in the **Project** field. For more information, see [Data migrated from a demand to a created project](../reference/data-copied-from-demand-to-project.md).|
+    |**Create Project**|This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **Project**. Creates a project that is associated with this demand. The number of the project record is displayed in the **Project** field. For more information, see [Data migrated from a demand to a created project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/data-copied-from-demand-to-project.md).|
     |**Create Enhancement**|This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **Enhancement**. Creates an enhancement associated with this demand. Use enhancements to request improvements or new capabilities for existing features or services, for example, a request to add new UI elements. The number of the enhancement record is displayed in the **Enhancement** field.|
     |**Create Epic**|This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **Epic**. Creates an Agile Development 2.0 epic that is associated with this demand. A **Demand** reference field is created in the Agile Development 2.0 Epic form.|
     |**Create Story**|This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **Story**. Creates an Agile Development 2.0 story that is associated with this demand. A **Demand** reference field is created in the Agile Development 2.0 Story form.|
@@ -69,8 +70,8 @@ Role required: it\_demand\_manager
     |**Create Defect**|This link appears if the **Category** field is set to **Operational** and the **Type** field is set to **Defect**. Creates a defect that is associated with this demand. The number of the defect record is displayed in the **Defect** field.|
 
 
--   **[Create an Enterprise Agile Planning \(EAP\) entity from a demand](create-an-eap-entity-from-a-demand.md)**  
+-   **[Create an Enterprise Agile Planning \(EAP\) entity from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/create-an-eap-entity-from-a-demand.md)**  
 Create an Enterprise Agile Planning \(EAP\) entity, such as an epic, feature, or capability, from a demand so that you can start to work on these entities in Enterprise Agile Planning.
 
-**Parent Topic:**[Create a demand](t_CreatingDemands.md)
+**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/t_CreatingDemands.md)
 

@@ -2,6 +2,7 @@
 title: Virtual Agent Designer user input and bot response controls in Slack
 description: The Virtual Agent Designer user input controls and bot responses for creating conversation topics are supported in Slack conversations, including the table bot response and the card control that can display images.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-designer-bot-controls-slack.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -19,7 +20,7 @@ The Virtual Agent Designer user input controls and bot responses for creating co
 
 Starting with Version 2.0.0, the card and video bot response controls are supported in Slack conversations. The video control displays a thumbnail image of the video that users select to open the video in their preferred web browser.
 
-For more information about user input controls and bot responses, see [Assistant Designer user input controls](../reference/va-user-inputs.md) and [Virtual Agent Designer bot responses](../reference/va-bot-responses.md), respectively.
+For more information about user input controls and bot responses, see [Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-user-inputs.md) and [Virtual Agent Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md), respectively.
 
 ## Upload multiple file types
 
@@ -29,5 +30,5 @@ To upload multiple image files or other attachments during your conversation wit
 
 **Note:** You can also share multiple files with a Live Agent from Slack.
 
-**Parent Topic:**[Virtual Agent features supported in Slack conversations](va-slack-other-features.md)
+**Parent Topic:**[Virtual Agent features supported in Slack conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-slack-other-features.md)
 

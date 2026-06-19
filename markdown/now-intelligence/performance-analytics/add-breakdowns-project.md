@@ -2,6 +2,7 @@
 title: Group data by breakdown definitions
 description: Each project can have a set of breakdown definitions that you can use to group the data in KPIs. These breakdown definitions provide the specifications for Performance Analytics breakdowns that you eventually create.Provide the functional description of how to build an actual Performance Analytics breakdown in a breakdown definition. Once an appropriate Performance Analytics breakdown exists, you can link to it in the breakdown definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/add-breakdowns-project.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -16,7 +17,7 @@ breadcrumb: [KPI Composer projects, Design your indicator solution, Configure fu
 Each project can have a set of breakdown definitions that you can use to group the data in KPIs. These breakdown definitions provide the specifications for Performance Analytics breakdowns that you eventually create.
 
 Prerequisites
-:   [Create a KPI Composer project](create-kpi-composer-project.md)
+:   [Create a KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-kpi-composer-project.md)
 
 ## Before you begin
 
@@ -26,24 +27,24 @@ Role required: sn\_kpi\_composer.user \(own project\), sn\_kpi\_composer.admin \
 
 1.  Navigate to **All** &gt; **KPI Composer** and create or open a project.
 
-2.  In the Analysis tab, click the 'Group by' icon \(![](../image/kpi-comp-bkdown-icon.png)\) at the top right of the screen.
+2.  In the Analysis tab, click the 'Group by' icon \(\[Omitted image "kpi-comp-bkdown-icon.png"\] Alt text:\) at the top right of the screen.
 
 3.  In the 'Group by' dialog, use the sliders to select which breakdown definitions to include in your project.
 
-    !['Group by' dialog for projects, with sliders and Add Item link](../image/kpi-comp-project-bkdowns.png)
+    \[Omitted image "kpi-comp-project-bkdowns.png"\] Alt text: 'Group by' dialog for projects, with sliders and Add Item link
 
     The selected breakdown definitions appear in the header of the KPI tree canvas. From here, you can drag them onto artifacts.
 
 4.  To add a new breakdown definition to your project, click **Add Item** and enter the term.
 
-    ![Add Item field filled in with new breakdown name](../image/kpi-comp-new-breakdown.png)
+    \[Omitted image "kpi-comp-new-breakdown.png"\] Alt text: Add Item field filled in with new breakdown name
 
     The new item appears in the 'Group by' list, and a matching breakdown definition record is created.
 
 
 ## Selecting breakdown definitions for a KPI Composer project
 
-In the following short animation, you see how to select the breakdown definitions Assignment Group, Impact, and Priority to a project. Then you see how to group the values of a KPI tree artifact by Assignment Group and Priority.![Short animation showing 'Group by' terms being added](../image/kpi-comp-add-breakdowns.gif)
+In the following short animation, you see how to select the breakdown definitions Assignment Group, Impact, and Priority to a project. Then you see how to group the values of a KPI tree artifact by Assignment Group and Priority.\[Omitted image "kpi-comp-add-breakdowns.gif"\] Alt text: Short animation showing 'Group by' terms being added
 
 ## What to do next
 
@@ -64,11 +65,11 @@ By holding down the Ctrl/Command or Alt/Option key while dropping a breakdown de
     Remove the breakdown definition from the artifact on which is dropped and from all child artifacts of that artifact.
 
 
-**Parent Topic:**[KPI Composer projects](../concept/kpi-composer-projects.md)
+**Parent Topic:**[KPI Composer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/kpi-composer-projects.md)
 
-**Previous topic:**[Add personas to a project](add-personas-project.md)
+**Previous topic:**[Add personas to a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/add-personas-project.md)
 
-**Next topic:**[Write journal entries for a project](write-journal-entries-kpi-composer.md)
+**Next topic:**[Write journal entries for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/write-journal-entries-kpi-composer.md)
 
 ## Define a breakdown
 
@@ -87,7 +88,7 @@ The breakdown definitions that you add to KPI Composer projects are not actual P
 
 ### Procedure
 
-1.  In the Analysis tab, click the 'Group by' icon \(![](../image/kpi-comp-bkdown-icon.png)\).
+1.  In the Analysis tab, click the 'Group by' icon \(\[Omitted image "kpi-comp-bkdown-icon.png"\] Alt text:\).
 
 2.  Click the name of the breakdown you want to define.
 

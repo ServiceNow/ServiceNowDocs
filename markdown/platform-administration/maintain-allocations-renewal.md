@@ -2,6 +2,7 @@
 title: Maintain per-user subscription allocations in Subscription Management at renewal
 description: Ensure subscription allocations remain consistent throughout the renewal process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/maintain-allocations-renewal.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -27,16 +28,16 @@ If you haven't manually allocated user-based subscriptions before, allocations a
 
 1.  Before the renewal date, monitor the subscription end dates on the details page and document the current group allocations.
 
-    See [Viewing product subscription details in Subscription Management](../concept/subscription-details-v2.md).
+    See [Viewing product subscription details in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/subscription-details-v2.md).
 
 2.  After the renewal date, add the documented groups to the renewed subscription in Subscription Management.
 
-    See [Allocate subscriptions in Subscription Management](allocate-subscriptions-v2.md).
+    See [Allocate subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/allocate-subscriptions-v2.md).
 
 
 ## What to do next
 
 Continue to monitor subscription renewal dates to ensure that your allocations are accurate throughout each renewal.
 
-**Parent Topic:**[Managing per-user subscriptions in Subscription Management](../concept/managing-user-subscriptions-v2.md)
+**Parent Topic:**[Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/managing-user-subscriptions-v2.md)
 

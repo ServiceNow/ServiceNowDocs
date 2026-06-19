@@ -2,6 +2,7 @@
 title: Generate and track project details from AI insights page
 description: Generate and monitor project insights directly from AI insights page in Project Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/generate-ai-project-insights-pw.html
 release: zurich
 product: Project Workspace
 classification: project-workspace
@@ -25,13 +26,13 @@ Role required: it\_project\_manager
 
 1.  Open a project from the planning page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access the new Project Workspace](access-new-project-workspace.md).
+    For information on how to navigate to the planning page, see [Access the new Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open AI insights page by selecting **AI insights** from the list.
 
 3.  Select **Generate insights** to generate AI insights of your project.
 
-    ![AI insights page in Project Workspace.](../../now-assist-spm/images/ai-insights-page-project-workspace.png)
+    \[Omitted image "ai-insights-page-project-workspace.png"\] Alt text: AI insights page in Project Workspace.
 
     Project insights are generated using the same Project insights generation skill used for email insights. Insights are displayed directly in the in‑app AI insights experience.
 
@@ -51,5 +52,5 @@ The project insights are generated from the AI insights page with access to curr
     -   From the AI insights page, select **Regenerate** icon.
     -   Now Assist generates updated project insights.
 
-**Parent Topic:**[Managing projects with Project Workspace](../concept/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/use-projects-pw.md)
 

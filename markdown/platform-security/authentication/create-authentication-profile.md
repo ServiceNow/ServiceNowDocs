@@ -2,6 +2,7 @@
 title: Create an authentication profile
 description: Create an authentication profile and add one or more authentication policies to the profile. You can also configure the ID Token and OAuth Token authentication profiles that are available by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/create-authentication-profile.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -44,7 +45,7 @@ Role required: admin
 
 5.  Double-click **Insert a new row**.
 
-6.  Select an authentication policy from the list and select the save icon ![save icon](../images/green-checkmark.png).
+6.  Select an authentication policy from the list and select the save icon \[Omitted image "green-checkmark.png"\] Alt text: save icon.
 
     **Note:** Don’t select Allow Access Policy or Deny Access Policy. These policies are meant only for user logins.
 

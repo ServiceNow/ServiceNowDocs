@@ -2,6 +2,7 @@
 title: Setup Workplace Connectors for environmental data
 description: Configure the workplace environment data sensors to retrieve and fetch air quality and temperature data for a workplace. Define the units to measure air quality and temperature in the Unit of Measure table \[sn\_wsd\_wc\_unit\_of\_measure\]. The units are added in the Environmental data table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-connectors/setup-environmental-data-connectors.html
 release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
@@ -19,20 +20,20 @@ Workplace Connectors Environmental data table \(sn\_wsd\_wc\_space\_environment\
 
 **Note:** Workplace Connectors customers are expected to build their own environmental data framework for using Environmental sensor data records. For more information about how to implement the Workplace Connectors framework and environmental sensor data, see Workplace Connectors Implementation Guide V1.0 Aug 2024 on the ServiceNow Community.
 
-1.  [Set up Connector Configuration for Environmental sensor data](../task/wsd-connectorconfiguration-environment.md)  
+1.  [Set up Connector Configuration for Environmental sensor data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/wsd-connectorconfiguration-environment.md)  
 Configure the Connector Configurations table for loading the Environmental data. Connector configuration table retrieves the sensor data from different environmental sensor data providers.
-2.  [Provider Connector Configuration for Environmental sensors](../task/wsd-env-provider-connectorconfig.md)  
+2.  [Provider Connector Configuration for Environmental sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/wsd-env-provider-connectorconfig.md)  
 Configure the provider connector configuration for setting up environmental sensors in workplace locations.
-3.  [Set up the Units of measure data table for environmental sensors](../task/wsd-enviromental-unit-measure.md)  
+3.  [Set up the Units of measure data table for environmental sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/wsd-enviromental-unit-measure.md)  
 Configure the unit of measure for air quality \(Carbon dioxide and Ozone metric\) and temperature units \(degree celsius and micrograms per cubic meter\) for a workplace location. The Workplace Connectors environmental sensors checks for the air and temperature quality metrics in a workplace location.
-4.  [Configure environmental sensor data for a workplace location](../task/config-connectors-env-sensor.md)  
+4.  [Configure environmental sensor data for a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/config-connectors-env-sensor.md)  
 Create environmental sensor data for a workplace location in Workplace Connectors. The Environmental Data \(sn\_wsd\_wc\_space\_environment\) table checks for air quality, temperature, and humidity levels at a workplace location.
-5.  [Extension point for occupancy and environment data](../task/extension-point-for-occupancy-environment-data.md)  
+5.  [Extension point for occupancy and environment data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/extension-point-for-occupancy-environment-data.md)  
 Create a scripted extension point to process occupancy and environment data from the provider and convert it into a standard format. Confirm that each provider implements this extension.
 
-**Parent Topic:**[Configure Workplace Connectors](configure-workplace-connectors.md)
+**Parent Topic:**[Configure Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/configure-workplace-connectors.md)
 
-**Previous topic:**[Retrieving Space Occupancy Data](../task/space-occupancy-data.md)
+**Previous topic:**[Retrieving Space Occupancy Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/space-occupancy-data.md)
 
-**Next topic:**[Set up Connector Configuration for Environmental sensor data](../task/wsd-connectorconfiguration-environment.md)
+**Next topic:**[Set up Connector Configuration for Environmental sensor data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/wsd-connectorconfiguration-environment.md)
 

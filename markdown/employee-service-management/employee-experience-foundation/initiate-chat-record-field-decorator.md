@@ -2,6 +2,7 @@
 title: Request-based chat - Start and import chat from field decorator
 description: Interact with a requester in Microsoft Teams from the chat icon from the workspace to quickly resolve the ticket.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/initiate-chat-record-field-decorator.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -23,11 +24,11 @@ Role required: user with access to the respective records
 
 1.  Navigate to an open ticket \(an incident, a change request, a request item, an HR case or a catalog task\) in your ServiceNow instance.
 
-2.  Point to ![Microsoft Teams](../images/teams-decorator.png) next to the **Caller** field.
+2.  Point to \[Omitted image "teams-decorator.png"\] Alt text: Microsoft Teams next to the **Caller** field.
 
 3.  Within the dialog box that appears, select the participants for the chat.
 
-    ![Start chat modal with user presence status](../images/start-chat-modal-fd-user-presence.png)
+    \[Omitted image "start-chat-modal-fd-user-presence.png"\] Alt text: Start chat modal with user presence status
 
     The dialog box displays the **Recommended** and **Selected** participants along with their current presence status in Microsoft Teams.
 
@@ -92,15 +93,15 @@ Option to choose the default chat client.
 
     The Microsoft Teams app displays the chat title and the opening message provided by the agent.
 
-    ![Chat conversation](../images/chat-conversation-ms-teams.png)
+    \[Omitted image "chat-conversation-ms-teams.png"\] Alt text: Chat conversation
 
     The system captures the work notes about the chat details.
 
-    ![Chat work notes](../images/chat-work-notes.png)
+    \[Omitted image "chat-work-notes.png"\] Alt text: Chat work notes
 
     If the agent initiates the chat from the record with the same user, the **Start Microsoft Teams Chat** appears as shown.
 
-    ![Continue chat modal](../images/continue-chat.png)
+    \[Omitted image "continue-chat.png"\] Alt text: Continue chat modal
 
     The system displays **Continue Chat** button to resume the conversation. However, if any other user is added, the chat modal displays the **Chat title** and the **Create an opening message** fields.
 
@@ -113,7 +114,7 @@ Option to choose the default chat client.
 
         The chat transcript is stored in the **Activities** section.
 
-        ![Chat details in Activities section](../images/chat-details-activities-section.png)
+        \[Omitted image "chat-details-activities-section.png"\] Alt text: Chat details in Activities section
 
     |Field|Description|
     |:----|:----------|
@@ -125,5 +126,5 @@ Option to choose the default chat client.
     |Activities|Chat transcript|
 
 
-**Parent Topic:**[Request based chat - Start and import chat from classic view](../concept/initiate-conversation-requester.md)
+**Parent Topic:**[Request based chat - Start and import chat from classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/initiate-conversation-requester.md)
 

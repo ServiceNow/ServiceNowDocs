@@ -2,6 +2,7 @@
 title: Map rich controls to the channel in your custom chat integration
 description: Create records for rich controls in the Custom Adapter Configurations \[sys\_cs\_custom\_adapter\_config\] table. If a rich control is missing an outbound transformer implementation, a response is not served to the end user and that user may get an unsatisfactory chat experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/map-rich-controls-va-cccif.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -17,13 +18,13 @@ Create records for rich controls in the Custom Adapter Configurations \[sys\_cs\
 
 ## Before you begin
 
-[Create a channel identifier for your custom chat integration](create-channel-id-va-cccif.md).
+[Create a channel identifier for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-channel-id-va-cccif.md).
 
 Role required: admin
 
 ## About this task
 
-You must create a mapping for any rich controls your conversations will use in the channel. For example, you may need a mapping for **DefaultText**, which supports input and output text response, along with file upload and image response. If your channel doesn't support a control, then you won't need to map it. For example, SMS doesn't support video responses. For a description of each default rich control, see [Default input and output rich controls for a custom chat integration](../reference/default-rich-controls-va-cccif.md).
+You must create a mapping for any rich controls your conversations will use in the channel. For example, you may need a mapping for **DefaultText**, which supports input and output text response, along with file upload and image response. If your channel doesn't support a control, then you won't need to map it. For example, SMS doesn't support video responses. For a description of each default rich control, see [Default input and output rich controls for a custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/default-rich-controls-va-cccif.md).
 
 ## Procedure
 
@@ -55,7 +56,7 @@ Control type
 
 </td><td>
 
-Default rich control type.For example, the DefaultPicker rich control type maps to File Picker, Topic Picker, and Boolean controls. For more information about the types of controls, see [Default input and output rich controls for a custom chat integration](../reference/default-rich-controls-va-cccif.md).
+Default rich control type.For example, the DefaultPicker rich control type maps to File Picker, Topic Picker, and Boolean controls. For more information about the types of controls, see [Default input and output rich controls for a custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/default-rich-controls-va-cccif.md).
 
 </td></tr><tr><td>
 
@@ -79,7 +80,7 @@ Name of the outbound transformer action script for this rich control. For exampl
 
 ## What to do next
 
-[Create and configure a scripted REST API for your custom chat integration](configure-rest-api-va-cccif.md)
+[Create and configure a scripted REST API for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-rest-api-va-cccif.md)
 
-**Parent Topic:**[Create a Virtual Agent conversational custom chat integration](create-adapter-for-virtual-agent.md)
+**Parent Topic:**[Create a Virtual Agent conversational custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-adapter-for-virtual-agent.md)
 

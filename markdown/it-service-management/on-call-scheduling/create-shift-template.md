@@ -2,6 +2,7 @@
 title: Create a shift template to simplify configuring shifts
 description: You can predefine sets of shift settings using shift templates. Shift templates are a subset of group templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/on-call-scheduling/create-shift-template.html
 release: zurich
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -47,5 +48,5 @@ Role required: rota\_admin
 
 The template is now available for you to choose when creating or updating a shift.
 
-**Parent Topic:**[Defining On-Call Scheduling escalation process](../../user-administration/concept/defining-escalation-process-and-template.md)
+**Parent Topic:**[Defining On-Call Scheduling escalation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/defining-escalation-process-and-template.md)
 

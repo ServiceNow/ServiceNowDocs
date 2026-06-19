@@ -2,6 +2,7 @@
 title: HR fulfillment instructions
 description: HR fulfillment instructions provide focused and targeted information on how an agent can complete an HR case faster and more efficiently for HR Service Delivery Agent Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-fulfillment-instructions.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -24,10 +25,10 @@ Using the condition builder, you can dynamically change what fulfillment instruc
 
 ## Checklist
 
-Add a checklist to ensure the agent does not skip or miss any of the fulfillment instructions. To add a checklist to an HR case, use HR services. See [HR service configuration](hr-service-configuration.md).
+Add a checklist to ensure the agent does not skip or miss any of the fulfillment instructions. To add a checklist to an HR case, use HR services. See [HR service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-service-configuration.md).
 
--   **[Configure HR fulfillment instructions](../task/configure-hr-fulfillment.md)**  
+-   **[Configure HR fulfillment instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-fulfillment.md)**  
 Use HR fulfillment instructions to provide focused and targeted instructions for an HR case.
 
-**Parent Topic:**[HR services](hr-service-administration.md)
+**Parent Topic:**[HR services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-service-administration.md)
 

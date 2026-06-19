@@ -2,6 +2,7 @@
 title: Making workplace reservations
 description: Make workplace reservations in Workplace Core when you are ready to return to the office. You can reserve a workplace for a day or less directly or request a workplace for a specified period. Once a reservation request is approved and confirmed, you are notified about the reservation details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/requesting-workspace-reservations.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace
@@ -44,12 +45,14 @@ If you submit a space reservation request from the catalog item, or if a request
 
 The notification contains campus details, space details, and the reservation duration.
 
-![Reservation details like the campus, space, and duration.](../../workplace-service-delivery/images/wsd-core-notification.png)
+\[Omitted image "wsd-core-notification.png"\] Alt text: Reservation details like the campus, space, and duration.
 
--   **[Request a workplace reservation for multiple days](../task/request-workspace-reservations-for-multiple-days.md)**  
+As an admin, you can create custom notifications for upcoming reservations by using the **sn\_wsd\_core\_reservation** table. You can also use the **sn\_wsd\_core.upcoming\_reservation** event to decide when the notification must be sent. For more information about notifications, see .
+
+-   **[Request a workplace reservation for multiple days](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/request-workspace-reservations-for-multiple-days.md)**  
 Request a workplace reservation for the days during which you want to return to office by using Workplace Core.
--   **[Reserve a workplace for a day](../task/reserve-space-for-a-day.md)**  
+-   **[Reserve a workplace for a day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/reserve-space-for-a-day.md)**  
 Reserve workplaces for a day on which you want to return to the office by using Workplace Core.
 
-**Parent Topic:**[Workplace Core](workplace-safety-mgmt-hr.md)
+**Parent Topic:**[Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/workplace-safety-mgmt-hr.md)
 

@@ -2,6 +2,7 @@
 title: Troubleshoot a scheduled job through Application Insights
 description: Identify a scheduled job that is causing slow performance or running more often than necessary through the Scheduled Jobs table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-performance/troubleshoot-a-scheduled-job.html
 release: zurich
 product: Platform Performance
 classification: platform-performance
@@ -19,7 +20,7 @@ Identify a scheduled job that is causing slow performance or running more often 
 
 Role required: sn\_app\_insights.admin or admin
 
-Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the [Overview of Instance Observer](https://www.servicenow.com/docs/access?context=io-overview&version=zurich&pubname=zurich-impact&ft:locale=en-US) product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
+Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the  product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -39,7 +40,7 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
 
 4.  View the performance for the scheduled job over time by analyzing the **Processing Duration** detail graph.
 
-    ![Processing duration detail graph](../image/app-insights-scheduled-jobs.png)
+    \[Omitted image "app-insights-scheduled-jobs.png"\] Alt text: Processing duration detail graph
 
     Determine whether the job is running unexpectedly, running during business hours, or running during peak usage time periods.
 
@@ -55,5 +56,5 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
 8.  Continue making adjustments to the schedule or job details until the average processing duration improves.
 
 
-**Parent Topic:**[Application Insights](../concept/application-insights.md)
+**Parent Topic:**[Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/application-insights.md)
 

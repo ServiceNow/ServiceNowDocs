@@ -2,6 +2,7 @@
 title: Create a growth plan with the help of Now Assist
 description: Use Now Assist to help create a growth plan to give your career goals guidance and structure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/egd-create-growth-plan-with-nowassist.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -51,8 +52,8 @@ Role required: No role is required, but you must be a licensed user.
 
     -   **Learning activities**: Search for a course name or keyword to find more learning activities.
     -   **Check-in**: Schedule a conversation and add it to your calendar once you have launched your plan.
-    -   **Mentorship**: Add a reminder to your growth plan that you want to connect with a mentor. See, [Enroll as a mentor or mentee](../../mentoring-egd/task/enroll-mentoring.md).
+    -   **Mentorship**: Add a reminder to your growth plan that you want to connect with a mentor. See, [Enroll as a mentor or mentee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/mentoring/enroll-mentoring.md).
     -   **Something else**: Add your own activity to your plan.
 
-**Parent Topic:**[Using the Talent Development Core application](../concept/egd-use.md)
+**Parent Topic:**[Using the Talent Development Core application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-use.md)
 

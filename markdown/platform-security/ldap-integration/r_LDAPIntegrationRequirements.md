@@ -2,6 +2,7 @@
 title: LDAP integration requirements
 description: Review the requirements for LDAP integration, which include a PKI certificate an LDAP compliant directory services server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/ldap-integration/r\_LDAPIntegrationRequirements.html
 release: zurich
 product: LDAP integration
 classification: ldap-integration
@@ -21,7 +22,7 @@ LDAP integration requires:
     -   Allows inbound network access through the firewall \(to the LDAP server\)
     -   \(Optional\) Accepts anonymous login
     -   \(Optional\) Supports paging for large LDAP queries
--   The external IP address or fully-qualified domain name of the LDAP server. You can also use a [MID server](../concept/c_LDAPIntegrationViaMIDServer.md).
+-   The external IP address or fully-qualified domain name of the LDAP server. You can also use a [MID server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/ldap-integration/c_LDAPIntegrationViaMIDServer.md).
 -   A read-only LDAP account of your choosing
 -   For multiple domains, network access for each domain controller
 -   For LDAPS, a PKI certificate

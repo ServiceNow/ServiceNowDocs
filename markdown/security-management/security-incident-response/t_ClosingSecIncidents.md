@@ -2,6 +2,7 @@
 title: Close security incidents
 description: When a security incident has transitioned to the Review state, it’s possible to close it and enter an appropriate closure code. Closure codes can be searched on later for ease of location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/t\_ClosingSecIncidents.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -25,7 +26,7 @@ Role required: sn\_si.write
 
 1.  If the security incident you want to close isn’t already open, navigate to **Security Incident** &gt; **Incidents** &gt; **Show All Incidents**, and locate the security incident you want to close.
 
-    **Note:** If there are any [post incident review assessments](t_PerformPostIncidentReview.md) that haven’t been completed for this security incident, the security incident can’t be closed. Return to **Security Incident** &gt; **Post Incident Review** &gt; **All Incomplete Reviews**, locate the reviews that are incomplete, and either ask the reviewers to complete their reviews or cancel the remaining assessments.
+    **Note:** If there are any [post incident review assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/t_PerformPostIncidentReview.md) that haven’t been completed for this security incident, the security incident can’t be closed. Return to **Security Incident** &gt; **Post Incident Review** &gt; **All Incomplete Reviews**, locate the reviews that are incomplete, and either ask the reviewers to complete their reviews or cancel the remaining assessments.
 
 2.  Select the **Closure Information** tab and fill in the fields, as appropriate.
 

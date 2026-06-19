@@ -2,6 +2,7 @@
 title: Create a commercial claim case
 description: A first-notice-of-loss representative or processor can begin the claim process by initiating a commercial claim case on behalf of your customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/create-commercial-claim-case.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims
@@ -23,19 +24,19 @@ Role required: sn\_ins\_claim\_cml.fnol\_representative or sn\_ins\_claim\_cml.a
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Create a case from the commercial auto claim cases list or an interaction record.
 
-<table><thead><tr><th align="left" id="d98273e85">
+<table><thead><tr><th align="left" id="d100329e85">
 
 Option
 
-</th><th align="left" id="d98273e88">
+</th><th align="left" id="d100329e88">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d98273e94">
+</th></tr></thead><tbody><tr><td id="d100329e94">
 
 **Commercial auto claim case from the commercial auto claim case list**
 
@@ -45,7 +46,7 @@ Steps
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d98273e124">
+</td></tr><tr><td id="d100329e124">
 
 **Commercial auto claim case from an interaction record**
 
@@ -54,7 +55,7 @@ Steps
 1.  In the **Lists** tab, under **Interactions**, click **My Interactions**.
 2.  Open the required interaction record for the customer.
 3.  Select **Create Case**.
- For information on how to create an interaction, see [Create an interaction](https://www.servicenow.com/docs/access?context=create-interactions&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+ For information on how to create an interaction, see Create an interaction.
 
 </td></tr></tbody>
 </table>4.  In the Create a new case dialog box, select **Commercial auto policy report claim**.
@@ -76,5 +77,5 @@ A commercial claim case is created in the New state and the workflow is triggere
 
 ## What to do next
 
-As a claim processor, you can assign the case to yourself and start working on it. For more information, see [Process a commercial claim](manually_validate_claim.md).
+As a claim processor, you can assign the case to yourself and start working on it. For more information, see [Process a commercial claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/manually_validate_claim.md).
 

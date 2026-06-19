@@ -2,6 +2,7 @@
 title: Delete a project
 description: Delete a project if you are not using it and want to clean up data. Deleting a project deletes the project's configurations and versions or projects it has generated. You can delete a project from the Process Mining Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/delete-project-navigator.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -32,5 +33,5 @@ If you have the sn\_process\_optimization\_analyst role, you can delete only tho
 4.  Select **Delete** on the confirmation dialog box to delete the project.
 
 
-**Parent Topic:**[Create a project using Classic view](create-proj.md)
+**Parent Topic:**[Create a project using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/create-proj.md)
 

@@ -2,6 +2,7 @@
 title: Issue Summarization skill
 description: Use the Issue Summarization skill to view a concise summary of an issue based on its life-cycle data. The skill analyzes the issue’s context and generates a short, readable overview that includes key details such as status, actions, and relevant metadata. This helps you quickly understand the issue without reviewing the full record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/issue-summarization-skill.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions

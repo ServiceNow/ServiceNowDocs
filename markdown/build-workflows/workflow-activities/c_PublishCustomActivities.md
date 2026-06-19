@@ -2,6 +2,7 @@
 title: Publish a custom workflow activity
 description: When a user creates a custom activity and saves or submits it, that activity appears in the Custom and Packs tabs of the designer palette, but is only visible to the user who created it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-activities/c\_PublishCustomActivities.html
 release: zurich
 product: Workflow Activities
 classification: workflow-activities

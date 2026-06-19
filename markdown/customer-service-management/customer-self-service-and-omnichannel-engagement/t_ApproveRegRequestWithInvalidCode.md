@@ -2,6 +2,7 @@
 title: Approve a registration request with an invalid registration code
 description: Approve a registration request from a user that was submitted from the Customer Service Portal with an invalid registration code.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/t\_ApproveRegRequestWithInvalidCode.html
 release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

@@ -2,12 +2,13 @@
 title: REST APIs
 description: REST \(REpresentational State Transfer\) is a simple stateless architecture that provides standards between computer systems on the web, making it easier for them to communicate with each other.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-api-explorer/c\_RESTAPI.html
 release: zurich
 product: REST API Explorer
 classification: rest-api-explorer
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 17
+reading_time_minutes: 16
 breadcrumb: [Web services, API implementation, API implementation and reference]
 ---
 
@@ -17,7 +18,7 @@ REST \(REpresentational State Transfer\) is a simple stateless architecture that
 
 The ServiceNow AI Platform provides various REST APIs, which are active by default. These APIs provide the ability to interact with various ServiceNow functionality within your application. Such functionality includes the ability to perform create, read, update, and delete \(CRUD\) operations on existing tables \(Table API\), insert data into, retrieve information from, and run transforms against a MetricBase database \(MetricBase Time Series API, and many others.
 
-For a list of available REST APIs, see [REST API reference](../../../build/applications/concept/api-rest.md).
+For a list of available REST APIs, see [REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/api-rest.md).
 
 **Note:** You can view inbound API transactions in the Transaction logs. Use a link like the one below to view the transactions for the current day:
 
@@ -59,7 +60,7 @@ For most ServiceNow REST APIs these request headers support the following values
 -   Accept: **application/json**, **application/xml**
 -   Content-Type: **application/json**, **application/xml**
 
-For the list of specific values supported by each endpoint, refer to the [REST API reference](../../../build/applications/concept/api-rest.md).
+For the list of specific values supported by each endpoint, refer to the [REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/api-rest.md).
 
 ## Other headers
 
@@ -76,7 +77,7 @@ The following describes some of the data handling nuances within the REST API.
 
     For example, if a user in the UK locale queries records with currency values in USD, the returned values are converted to GBP. However, if this user adds a new record with the currency field value in GBP, the value is stored in GBP without being converted to USD. This GBP value appears in USD if queried by a user in the US locale.
 
--   UI data display versus values passed in a REST endpoint: The UI shows the database [display value](https://www.servicenow.com/docs/access?context=c_DisplayValues&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US), which is manipulated data. A REST endpoint, by default, inserts and updates the actual values, which can be different from the display value. You can force a REST endpoint to treat passed values as display values by setting the [sysparm\_input\_display\_value](c_RESTAPI.md#REST-sysparm_input_display_value-row) request parameter to true.
+-   UI data display versus values passed in a REST endpoint: The UI shows the database display value, which is manipulated data. A REST endpoint, by default, inserts and updates the actual values, which can be different from the display value. You can force a REST endpoint to treat passed values as display values by setting the [sysparm\_input\_display\_value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md) request parameter to true.
 
 ## Custom query parameters
 
@@ -129,7 +130,7 @@ Data type: Boolean
 
 Default: false - This matches the data type that is returned during data retrieval \(GET methods\), which is the actual values.
 
-**Note:** To set the value of an encrypted field, you must set this parameter to `true`. If this parameter is not set to true, values submitted to encrypted fields are not saved. Additionally, the requesting user must have the appropriate encryption context prior to submitting the request. Encrypted fields are hidden for users without the appropriate encryption context. For more information on field encryption see [Encryption](https://www.servicenow.com/docs/access?context=encryption-landing&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+**Note:** To set the value of an encrypted field, you must set this parameter to `true`. If this parameter is not set to true, values submitted to encrypted fields are not saved. Additionally, the requesting user must have the appropriate encryption context prior to submitting the request. Encrypted fields are hidden for users without the appropriate encryption context. For more information on field encryption see .
 
 </td></tr><tr><td>
 
@@ -149,7 +150,7 @@ sysparm\_query
 
 </td><td id="sysparm-query-RESTAPI">
 
-[Encoded query](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`. Column names, operators, and values are case-sensitive.
+Encoded query used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`. Column names, operators, and values are case-sensitive.
 
 -   &lt;col\_name&gt;: Name of the table column to filter on.
 -   &lt;operator&gt;: Supports the following values:
@@ -162,7 +163,7 @@ sysparm\_query
     -   `^OR`: OR operator to add an additional query condition. Records included in the result set match at least one of the conditions.
 -   &lt;value&gt;: Value to filter on.
 
-For more information about operators, see [Operators available for filters and queries](https://www.servicenow.com/docs/access?context=r_OpAvailableFiltersQueries&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+For more information about operators, see .
 
 Queries can contain multiple conditions. For example, the following query returns records where the caller is the current user and the record is active.
 
@@ -265,25 +266,25 @@ The request runs on the User Roles \[sys\_user\_has\_role\] table which defines 
 
 ## REST API HTTP response codes
 
-Calls made to REST endpoints return HTTP response codes. You can use these response codes to ensure that the REST API executed properly. If it did not, the endpoint returns an error response code. Use the information in the error response to troubleshoot issues with your call format. For a list of standard response codes that an endpoint may return, see [REST API HTTP response codes](../reference/r_RESTAPIHTTPResponseCodes.md). For the list of response codes returned by a specific ServiceNow REST API, see the [REST API reference](../../../build/applications/concept/api-rest.md).
+Calls made to REST endpoints return HTTP response codes. You can use these response codes to ensure that the REST API executed properly. If it did not, the endpoint returns an error response code. Use the information in the error response to troubleshoot issues with your call format. For a list of standard response codes that an endpoint may return, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/r_RESTAPIHTTPResponseCodes.md). For the list of response codes returned by a specific ServiceNow REST API, see the [REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/api-rest.md).
 
 ## REST API security
 
-By default, ServiceNow REST APIs use basic authentication or OAuth to authorize user access to REST APIs/endpoints. You can also configure your instance to use [multi-factor authentication](c_RESTAPI.md#multi-factor-auth-inbound-REST) to access REST APIs.
+By default, ServiceNow REST APIs use basic authentication or OAuth to authorize user access to REST APIs/endpoints. You can also configure your instance to use [multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md) to access REST APIs.
 
 The user ID that you specify in a REST endpoint call is subject to access control in the same way as an interactive user. Each request requires the proper authentication information, such as user name and password. Ensure that each endpoint request includes an Authorization header with sufficient credentials to access the endpoint.
 
 ServiceNow REST APIs also support cookies that enable binding to the existing session.
 
-To use the certificate to call the API and information on mutual authentication, see [Certificate-based authentication](https://www.servicenow.com/docs/access?context=certificate-based-authentication&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+To use the certificate to call the API and information on mutual authentication, see Certificate-based authentication.
 
-REST API access policies with the filter criterias such as IP, role, group and restrict the scope of API you can use the [REST API Auth Scope](https://www.servicenow.com/docs/access?context=rest-api-auth-scope&version=zurich&pubname=zurich-platform-security&ft:locale=en-US). To know more about REST API access policy, see [REST API access policies](https://www.servicenow.com/docs/access?context=inbound-authentication-profile&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+REST API access policies with the filter criterias such as IP, role, group and restrict the scope of API you can use the . To know more about REST API access policy, see REST API access policies.
 
 You can craft one single policy to block the incoming request, at a global REST API level by using the REST API Access policy from outside trusted network and at a basic REST authentication levels.
 
 ## REST API roles
 
-In addition to user authentication, each REST endpoint can have different requirements for the roles required to access the endpoint. Some require the admin role and others require API specific roles. Role requirements are specified in the access control list \(ACL\) associated with the REST API/endpoint. For specifics on the valid roles for each REST API/endpoint, refer to the [REST API reference](../../../build/applications/concept/api-rest.md) or locate the associated ACL for the API/endpoint within an instance through **System Security** &gt; **Access Control \(ACL\)**.
+In addition to user authentication, each REST endpoint can have different requirements for the roles required to access the endpoint. Some require the admin role and others require API specific roles. Role requirements are specified in the access control list \(ACL\) associated with the REST API/endpoint. For specifics on the valid roles for each REST API/endpoint, refer to the [REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/api-rest.md) or locate the associated ACL for the API/endpoint within an instance through **System Security** &gt; **Access Control \(ACL\)**.
 
 ## REST API ACLs
 
@@ -296,7 +297,7 @@ The following ServiceNow REST API ACLs are available in the base system but are 
 -   Import Set API
 -   Attachment API
 
-For additional information on ACLs, see [Access control list rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For additional information on ACLs, see Access control list rules.
 
 **Important:** You should never modify the names of REST API ACLs.
 
@@ -342,7 +343,7 @@ The REST API Explorer is a ServiceNow tool that uses information from your insta
 
 After you build the request, the REST API Explorer provides code samples in multiple programming languages that you can use to initiate the request, and detailed request and response information.
 
-To access the REST API Explorer, in your instance, navigate to **System Web Services** &gt; **REST API Explorer**. You must have the rest\_api\_explorer role to access the REST API Explorer. For additional information, see [Use the REST API Explorer](use-REST-API-Explorer.md).
+To access the REST API Explorer, in your instance, navigate to **System Web Services** &gt; **REST API Explorer**. You must have the rest\_api\_explorer role to access the REST API Explorer. For additional information, see [Use the REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/use-REST-API-Explorer.md).
 
 **Warning:** The REST API Explorer interacts with data on the current instance. Use caution when working with requests that create, edit, or delete data on a production instance.
 
@@ -370,26 +371,26 @@ On the ServiceNow® Developer Site, you can get training for [Inbound REST integ
 
 The remainder of the REST API section contains "how to" topics that describe specific implementations using the ServiceNow REST API and provides reference information that describes various data elements used by the ServiceNow REST API.
 
--   **[Use the REST API Explorer](use-REST-API-Explorer.md)**  
+-   **[Use the REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/use-REST-API-Explorer.md)**  
 In this tutorial you will use the REST API Explorer to test the ServiceNow REST APIs.
--   **[Inbound REST API rate limiting](inbound-REST-API-rate-limiting.md)**  
+-   **[Inbound REST API rate limiting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/inbound-REST-API-rate-limiting.md)**  
 To prevent excessive inbound REST API requests, set rules that limit the number of inbound REST API requests processed per hour. You can create rules to limit requests for specific users, users with specific roles, or all users.
--   **[Debug in-bound REST queries](debugging-rest-queries.md#)**  
+-   **[Debug in-bound REST queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/debugging-rest-queries.md)**  
 You can debug in-bound REST queries by reviewing the session debug log.
--   **[Return session debug logs in a REST response](rest-session-debug-header.md)**  
+-   **[Return session debug logs in a REST response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/rest-session-debug-header.md)**  
 You can include session debug logs in a REST response body by passing the X-WantSessionDebugMessages header in the request.
--   **[CORS domain requirements](../reference/r_CORSDomainRequirements.md)**  
+-   **[CORS domain requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/r_CORSDomainRequirements.md)**  
 When you define a cross-origin resource sharing \(CORS\) rule, the value you enter in the **Domain** field must meet certain requirements. Each CORS rule supports a single wildcard to match incoming Origin headers.
--   **[Define a CORS rule](../task/t_DefineACORSRule.md)**  
+-   **[Define a CORS rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/t_DefineACORSRule.md)**  
 You can define a CORS rule to control which domains can access REST API endpoints and other web resources.
--   **[Enable OAuth with inbound REST](../task/t_EnableOAuthWithREST.md)**  
+-   **[Enable OAuth with inbound REST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/t_EnableOAuthWithREST.md)**  
 Using OAuth, you can pass a user ID and password once, and then use a token for subsequent REST requests instead of submitting credentials with each request.
--   **[REST API HTTP response codes](../reference/r_RESTAPIHTTPResponseCodes.md)**  
+-   **[REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/r_RESTAPIHTTPResponseCodes.md)**  
 REST messages sent to an instance return a specific HTTP response code.
--   **[Scripted REST APIs](../../custom-web-services/concept/c_CustomWebServices.md)**  
+-   **[Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_CustomWebServices.md)**  
 The scripted REST API feature allows application developers to build custom web service APIs.
 
-**Parent Topic:**[Web services](../../web-services/reference/r_AvailableWebServices.md)
+**Parent Topic:**[Web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/r_AvailableWebServices.md)
 
 **Related topics**  
 

@@ -2,6 +2,7 @@
 title: Activate a policy included with the Security Posture Control application
 description: Policies that are included with the application must be activated before Security Posture Control can monitor the assets that match that policy. By default, none of the policies included with the application are activated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/spc-activate-a-policy.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -19,7 +20,7 @@ You must verify that all the required prerequisites are met before you activate 
 
 -   Verify required Service Graph Connectors activated.
 -   Verify any required applications such as Vulnerability Response are installed and activated, if applicable.
--   For more information about policies used for mitigation controls monitoring, see [Mitigation controls policies](../concept/spc-mitigation-policies.md).
+-   For more information about policies used for mitigation controls monitoring, see [Mitigation controls policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-mitigation-policies.md).
 
 **Note:**
 
@@ -75,7 +76,7 @@ Clone policy
 
 Create a new policy with all the conditions from the displayed policy as a starting point.
 
- See [Create and activate custom policies for Security Posture Control](spc-create-policy.md) for more information.
+ See [Create and activate custom policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-create-policy.md) for more information.
 
 </td></tr><tr><td>
 

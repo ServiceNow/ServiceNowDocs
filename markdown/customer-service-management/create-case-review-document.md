@@ -2,7 +2,10 @@
 title: Create a post case review
 description: Create a post case review document for a resolved case that captures the configured case information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-case-review-document.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -36,7 +39,7 @@ If a case is closed while the post case review is in progress, you can still upd
 
 2.  To create a post case review record, do one of the following:
 
-    -   Agent Workspace: Click the More UI Actions icon \(![More UI Actions icon.](../image/agent-workspace-more-ui-actions-icon.jpg)\) and select **Create Post Case Review**.
+    -   Agent Workspace: Click the More UI Actions icon \(\[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: More UI Actions icon.\) and select **Create Post Case Review**.
     -   Platform interface: Click the form context menu icon and select **Create Post Case Review**.
 3.  In the Post Case Review form, enter any necessary information in the following fields.
 

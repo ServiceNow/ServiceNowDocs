@@ -2,10 +2,11 @@
 title: Map custom tables to a product subscription in Subscription Management
 description: Maintain accurate entitlement for custom tables in the global scope and stay in compliance by mapping the tables to a product subscription in Subscription Management. Mapping your custom tables keeps your custom table allotment updated and helps you avoid running out of custom table entitlements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/allocate-custom-table-subsc-app-v2.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Managing custom tables and apps, Subscription Management, Get started, Administer]
 ---
 
@@ -27,17 +28,17 @@ Role required: usage\_admin, sn\_sub\_man.admin, or admin
 
 3.  Update your entitlements by mapping one or more custom tables to a recommended product or a product of your choice.
 
-    When possible, Subscription Management displays recommendations for product subscriptions with available custom table entitlements in the **Recommended Product** column. Subscription Management can't display product subscription recommendations for some unmapped custom tables, which therefore aren't shown in the **Unmapped custom applications** tab. For more information about mapping missing custom tables to product subscriptions, see [Map a missing custom table to a product subscription in Subscription Management](map-missing-custom-table-sub-mgt.md)
+    When possible, Subscription Management displays recommendations for product subscriptions with available custom table entitlements in the **Recommended Product** column. Subscription Management can't display product subscription recommendations for some unmapped custom tables, which therefore aren't shown in the **Unmapped custom applications** tab. For more information about mapping missing custom tables to product subscriptions, see [Map a missing custom table to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/map-missing-custom-table-sub-mgt.md)
 
-<table id="choicetable_iph_zpv_2yb"><thead><tr><th align="left" id="d155330e145">
+<table id="choicetable_iph_zpv_2yb"><thead><tr><th align="left" id="d43420e145">
 
 Option
 
-</th><th align="left" id="d155330e148">
+</th><th align="left" id="d43420e148">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d155330e154">
+</th></tr></thead><tbody><tr><td id="d43420e154">
 
 **Map to a recommended product**
 
@@ -48,7 +49,7 @@ Description
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d155330e181">
+</td></tr><tr><td id="d43420e181">
 
 **Map to a product of your choice**
 
@@ -60,11 +61,27 @@ Description
 4.  Repeat these steps for each remaining unmapped table.
 
 
+</td></tr><tr><td id="d43420e211">
+
+**Manually map to a product through the Custom Applications table**
+
+</td><td>
+
+If subscription recommendations shown in the Subscription Management UI aren't correct for your environment, you can manually update custom table mappings.1.  From the platform's application navigator, select **All**.
+2.  In the navigation filter, enter `sys_app.list`.
+3.  Select the Update Personalized List icon \[Omitted image "gear.png"\] Alt text:.
+4.  Move **Subscription\(subscription\_entitlement\)** from the **Available** column to the **Selected** column.
+5.  Select **OK**.
+6.  Find and select the record for the custom table you want to map.
+7.  In the **Subscription** field, find and select the product subscription the table should be mapped to.
+8.  Select **Save**.
+
+
 </td></tr></tbody>
 </table>
 ## Result
 
 One or more custom tables are mapped to a product subscription and your custom table entitlement count is updated. If you mapped a custom table to a subscription through the Custom Table Inventory form, Subscription Management is updated the next day.
 
-**Parent Topic:**[Managing custom tables and applications in Subscription Management](../concept/allocating-custom-tables-subscr-apps-v2.md)
+**Parent Topic:**[Managing custom tables and applications in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/allocating-custom-tables-subscr-apps-v2.md)
 

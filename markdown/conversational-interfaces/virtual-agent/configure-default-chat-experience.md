@@ -2,6 +2,7 @@
 title: Configure a Virtual Agent chat experience
 description: Change the preconfigured Virtual Agent default chat experience or create a custom chat experience for your users. You can configure setup topics, specify promoted topics, and if needed, change the search profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/configure-default-chat-experience.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -111,7 +112,7 @@ Condition
 
 </td><td>
 
-Condition builder for specifying the experience context. See the list of the [available context variables](../reference/live-agent-chat-context-vars.md) that can be specified.For example, a Simple, no-code condition might specify the devicetype \(ios or android\) and the portal to which it applies. In this case, the condition applies to the Service Portal \(sp\). ![Simple condition builder for a custom chat experience, showing devicetype is iOS, or devicetype is android, and portal is SP conditions.](../images/va-custom-chat-condition-bldr.png)
+Condition builder for specifying the experience context. See the list of the [available context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/live-agent-chat-context-vars.md) that can be specified.For example, a Simple, no-code condition might specify the devicetype \(ios or android\) and the portal to which it applies. In this case, the condition applies to the Service Portal \(sp\). \[Omitted image "va-custom-chat-condition-bldr.png"\] Alt text: Simple condition builder for a custom chat experience, showing devicetype is iOS, or devicetype is android, and portal is SP conditions.
 
 </td></tr><tr><td>
 
@@ -132,15 +133,15 @@ Script editor for specifying the condition in a script, if you selected Advanced
 
     **Note:** the Live Agent and Virtual Agent Feedback topics are not listed in the Virtual Agent topic picker \(All Topics\) menu by default. You must associate a setup topic type to a setup topic as part of the default or custom chat experience.
 
-<table id="choicetable_c2f_2g2_3xb"><thead><tr><th align="left" id="d107496e338">
+<table id="choicetable_c2f_2g2_3xb"><thead><tr><th align="left" id="d41423e338">
 
 I want to...
 
-</th><th align="left" id="d107496e341">
+</th><th align="left" id="d41423e341">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d107496e347">
+</th></tr></thead><tbody><tr><td id="d41423e347">
 
 **Activate a setup topic, such as the Anything Else or Virtual Agent Feedback topic**
 
@@ -157,7 +158,7 @@ For example, **Anything Else topic**.
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d107496e390">
+</td></tr><tr><td id="d41423e390">
 
 **Remove a setup topic from a chat experience**
 
@@ -168,7 +169,7 @@ For example, **Anything Else topic**.
 3.  Select **Update**.
 
 
-</td></tr><tr><td id="d107496e420">
+</td></tr><tr><td id="d41423e420">
 
 **Add a new setup topic**
 
@@ -200,7 +201,7 @@ For example, **Anything Else topic**.
 
     4.  If needed, select **Test** to see how the promoted topics are displayed in the chat window.
 
-    ![Custom chat experience list of promoted topics.](../images/custom-chat-promoted-topics.png)
+    \[Omitted image "custom-chat-promoted-topics.png"\] Alt text: Custom chat experience list of promoted topics.
 
 7.  Select the **Search Mapping** tab to change the search application for the chat experience.
 
@@ -210,16 +211,16 @@ For example, **Anything Else topic**.
 
     1.  Select the value in the **Active** column to open the Search Profile record.
 
-        ![Default chat experience dialog box set to Search Mapping tab, with Boolean value of true highlighted in Active column.](../images/open-search-profile-record.png)
+        \[Omitted image "open-search-profile-record.png"\] Alt text: Default chat experience dialog box set to Search Mapping tab, with Boolean value of true highlighted in Active column.
 
     2.  To change the **Search Application Configuration**, select a configuration from the list of available Search Application Configurations.
 
-        ![Search Profile form displaying the Search Application Configurations for the default chat experience.](../images/va-search-profile-default.png)
+        \[Omitted image "va-search-profile-default.png"\] Alt text: Search Profile form displaying the Search Application Configurations for the default chat experience.
 
     3.  Select **Update**.
 
-    **Note:** Although you can change the **Search UI \(EVAM\) Configuration**, the Virtual Agent Search \(EVAM\) configuration provides the appropriate card views and lists of Virtual Agent search results. If you want to create your own EVAM configuration for use, see [Create an EVAM definition](https://www.servicenow.com/docs/access?context=define-composite-dataset&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    **Note:** Although you can change the **Search UI \(EVAM\) Configuration**, the Virtual Agent Search \(EVAM\) configuration provides the appropriate card views and lists of Virtual Agent search results. If you want to create your own EVAM configuration for use, see Create an EVAM definition.
 
 
-**Parent Topic:**[Customizing a Virtual Agent chat experience](../concept/va-conversation-settings.md)
+**Parent Topic:**[Customizing a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-conversation-settings.md)
 

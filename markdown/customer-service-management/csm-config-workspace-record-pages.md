@@ -2,7 +2,10 @@
 title: CSM Configurable Workspace record pages
 description: A record page provides the base structure for how a record is displayed in CSM Configurable Workspace. This structure includes records such as cases, tasks, and interactions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-config-workspace-record-pages.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-11-19"
 reading_time_minutes: 6
@@ -17,7 +20,7 @@ A record page provides the base structure for how a record is displayed in CSM C
 
 Record pages include elements such as layouts, containers, and components to display record information. Some record pages leverage additional logic using presets, controllers, and extension points. Pages with preset and controller logic benefit from reusability because they automatically inherit styling, events, and data binding. This reusability simplifies configuration and makes the pages upgrade friendly.
 
-Several record pages are included with CSM Configurable Workspace. You can use these record pages as is or you can customize them to suit your needs. For more information about customizing record pages, see [Manage UI Builder pages and page variants](https://www.servicenow.com/docs/access?context=work-pages&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+Several record pages are included with CSM Configurable Workspace. You can use these record pages as is or you can customize them to suit your needs. For more information about customizing record pages, see Manage UI Builder pages and page variants.
 
 ## Record pages available with CSM Configurable Workspace
 
@@ -33,15 +36,15 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[CSM default record page](csm-default-record-page.md)
+[CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-default-record-page.md)
 
 </td><td>
 
-This page provides the basic structure for case management, including record information, chat and phone features, and suggestions for resolving issues.**Note:** Use this page to display generative AI elements and functionality available with [Now Assist for Customer Service Management \(CSM\)](now-assist-csm.md).
+This page provides the basic structure for case management, including record information, chat and phone features, and suggestions for resolving issues.**Note:** Use this page to display generative AI elements and functionality available with [Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm.md).
 
 </td></tr><tr><td>
 
-[Front-line case page](csm-front-line-case-page.md)
+[Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-front-line-case-page.md)
 
 </td><td>
 
@@ -49,15 +52,15 @@ This page is designed for front-line agents. It provides a simplified case view 
 
 </td></tr><tr><td>
 
-[CSM Interaction record page](csm-interaction-record-page.md)
+[CSM Interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-interaction-record-page.md)
 
 </td><td>
 
-This page includes CSM-specific features for interaction management, including interaction information and related search results. It also enables agents to accept and respond to live chats, calls, email, and SMS messages.**Note:** Use this page to display generative AI elements and functionality available with [Now Assist for Customer Service Management \(CSM\)](now-assist-csm.md).
+This page includes CSM-specific features for interaction management, including interaction information and related search results. It also enables agents to accept and respond to live chats, calls, email, and SMS messages.**Note:** Use this page to display generative AI elements and functionality available with [Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm.md).
 
 </td></tr><tr><td>
 
-[Email interaction record page](csm-email-interaction-record-page.md)
+[Email interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-email-interaction-record-page.md)
 
 </td><td>
 
@@ -65,7 +68,7 @@ This page enables agents to manage email conversations with customers using inte
 
 </td></tr><tr><td>
 
-[CSM voice interaction record page](csm-native-voice-record-page.md)
+[CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-native-voice-record-page.md)
 
 </td><td>
 
@@ -73,7 +76,7 @@ This page provides a component that customers can use for integration with Conta
 
 </td></tr><tr><td>
 
-[CSM centered chat interaction record page](csm-centered-chat-interaction-page.md)
+[CSM centered chat interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-centered-chat-interaction-page.md)
 
 </td><td>
 
@@ -136,7 +139,7 @@ Components are the building blocks that you use to create pages. End users, such
 
 </td></tr><tr><td>
 
-[Presets](https://www.servicenow.com/docs/access?context=presets&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+Presets
 
 </td><td>
 
@@ -144,7 +147,7 @@ A preset is a set of instructions that define configuration values for a specifi
 
 </td></tr><tr><td>
 
-[Controllers](https://www.servicenow.com/docs/access?context=controllers&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+Controllers
 
 </td><td>
 
@@ -189,5 +192,5 @@ Upgrade customers retain their custom record pages. However, the following pages
 -   Record default
 -   Interaction record page
 
-For more information about setting the default record pages, see [Set record page order](../task/config-csm-ws-set-record-page-order.md).
+For more information about setting the default record pages, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-csm-ws-set-record-page-order.md).
 

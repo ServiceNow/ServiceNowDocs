@@ -2,6 +2,7 @@
 title: Configure HubSpot for external content indexing
 description: Create and authorize a legacy public app in HubSpot to allow the HubSpot external content connector to access your HubSpot source system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-hubspot-external-content-indexing.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -26,7 +27,7 @@ Role required: none
 
 The HubSpot external content connector retrieves tickets and notes from your HubSpot source system using the HubSpot API.
 
-To allow the connector to access your HubSpot source system via the HubSpot API, you must configure and authorize a legacy public app in HubSpot. Your connector admin can use settings copied from the public app to configure the HubSpot external connector for proper connection to your source system.
+To allow the connector to access your HubSpot source system via the HubSpot API, you must configure and authorize a legacy public app in HubSpot. Your connector administrator can use settings copied from the public app to configure the HubSpot external connector for proper connection to your source system.
 
 ## Procedure
 
@@ -74,25 +75,25 @@ To allow the connector to access your HubSpot source system via the HubSpot API,
 
     2.  Copy the client ID for your new legacy public app and store it in a secure location.
 
-        **Important:** Your external content connector admin needs this client ID when configuring the HubSpot external content connector.
+        **Important:** Your external content connector administrator needs this client ID when configuring the HubSpot external content connector.
 
     3.  Reveal the client secret by selecting **Show**.
 
     4.  Copy the client secret for your new legacy public app and store it in a secure location.
 
-        **Important:** Your external content connector admin needs this client secret when configuring the HubSpot external content connector.
+        **Important:** Your external content connector administrator needs this client secret when configuring the HubSpot external content connector.
 
 
 ## What to do next
 
-Provide the following items to your connector admin:
+Provide the following items to your connector administrator:
 
--   The client ID that you copied in step [3.b](configure-hubspot-external-content-indexing.md#copy-client-id-step).
--   The client secret that you copied in step [3.d](configure-hubspot-external-content-indexing.md#copy-client-secret-step).
+-   The client ID that you copied in step [3.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-hubspot-external-content-indexing.md).
+-   The client secret that you copied in step [3.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-hubspot-external-content-indexing.md).
 
-Your connector admin needs these items to configure a HubSpot external content connector to retrieve tickets, notes, and security principals from your HubSpot source system.
+Your connector administrator needs these items to configure a HubSpot external content connector to retrieve tickets, notes, and security principals from your HubSpot source system.
 
-For details on creating and configuring a HubSpot external content connector, see [Create a HubSpot external content connector](create-ext-cont-connector-hubspot.md).
+For details on creating and configuring a HubSpot external content connector, see [Create a HubSpot external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-hubspot.md).
 
-**Parent Topic:**[HubSpot external content connector](../concept/hubspot-external-content-connector.md)
+**Parent Topic:**[HubSpot external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/hubspot-external-content-connector.md)
 

@@ -2,6 +2,7 @@
 title: User roles for recommendation contexts
 description: Users with different roles can read, create, or edit recommendation contexts for a regulatory alert.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/user-roles-for-recommendation-contexts.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -22,5 +23,5 @@ Users with different roles can read, create, or edit recommendation contexts for
 |sn\_reco\_template.recommendation\_reader|Users with this role can read the recommendation templates.|
 |sn\_reco\_template.recommendation\_writer|User with this role can create and edit recommendation templates.|
 
-**Parent Topic:**[Recommendation contexts and templates](../concept/recommendation-contexts.md)
+**Parent Topic:**[Recommendation contexts and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/recommendation-contexts.md)
 

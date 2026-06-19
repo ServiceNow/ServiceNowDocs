@@ -2,7 +2,10 @@
 title: Roles installed with Instance Observer
 description: Several types of components are installed with activation of the Impact plugin, including tables, user roles, and scheduled jobs that are used in Instance Observer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/impact-observer-roles.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: reference
 last_updated: "2025-10-28"
 reading_time_minutes: 1

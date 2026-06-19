@@ -2,6 +2,7 @@
 title: Administering Upgrade Console
 description: The Administration module contains information about managing upgrade risks.You will be notified of the possible conflicts that might result due to several customizations in a skipped metadata file, with a new UI message on the form pages of the metadata files.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/upgrade-management/um-administer.html
 release: zurich
 product: Upgrade Management
 classification: upgrade-management
@@ -29,23 +30,23 @@ The UI message varies based on the severity of the files.
 
 -   Medium risk and non-customized: The medium risk files that are not customized might be updated in future releases. It is recommended not to modify these files unless necessary.
 
-    ![Image showing medium risk warning](../../upgrade-center/image/uc-risky-non-customized-medium.png)
+    \[Omitted image "uc-risky-non-customized-medium.png"\] Alt text: Image showing medium risk warning
 
 -   High risk and non-customized: The high risk files that are non-customized might be updated in future releases. It is recommended not to modify these files unless necessary.
 
-    ![Image showing high risk warning](../../upgrade-center/image/uc-risky-non-customized-high.png)
+    \[Omitted image "uc-risky-non-customized-high.png"\] Alt text: Image showing high risk warning
 
     **Note:** You can proceed to modify these files if the changes are absolutely required. The following modal shows up.
 
-    ![Image showing File Customizations modal](../../upgrade-center/image/uc-risk-modal.png)
+    \[Omitted image "uc-risk-modal.png"\] Alt text: Image showing File Customizations modal
 
 -   High risk and customized: The high risk files that are customized might be updated in future releases. It is recommended to revert them to the Base System to avoid conflicts.
 
-    ![Image showing high risk warning](../../upgrade-center/image/uc-risky-customized-high.png)
+    \[Omitted image "uc-risky-customized-high.png"\] Alt text: Image showing high risk warning
 
 -   Medium risk and customized: The medium risk files that are customized might be updated in future releases. It is recommended to revert it to the Base System to avoid conflicts.
 
-    ![Image showing medium risk warning](../../upgrade-center/image/uc-risky-customized-medium.png)
+    \[Omitted image "uc-risky-customized-medium.png"\] Alt text: Image showing medium risk warning
 
 -   Non-risky and non-customized: You don’t see any warning for this condition.
 -   Non-risky and customized: You don’t see any warning for this condition.
@@ -54,11 +55,11 @@ The UI message varies based on the severity of the files.
 
 The **High Risk Customizations** menu item presents the overlap between ServiceNow's high and medium risk files and your customizations.
 
-![Image showing High Risk Customizations menu item](../../upgrade-center/image/uc-menu-item.png)
+\[Omitted image "uc-menu-item.png"\] Alt text: Image showing High Risk Customizations menu item
 
 They are stored in a virtual table called v\_metadata\_customization\_risk, and is refreshed after a set period of time or when you select the **Refresh** on the list view.
 
-![Image showing the list of risk files](../../upgrade-center/image/uc-metadata-risk.png)
+\[Omitted image "uc-metadata-risk.png"\] Alt text: Image showing the list of risk files
 
 ### Risk files storage
 
@@ -66,7 +67,7 @@ The high risk and medium risk files are stored in the new sys\_metadata\_volatil
 
 **Note:** It is recommended not to modify the sys\_metadata\_volatility table and is automatically updated for every family upgrade. The sys\_metadata\_volatility table is not a part of the menu item in the navbar.
 
-![Image showing the volatility level](../../upgrade-center/image/uc-metadata-volatility.png)
+\[Omitted image "uc-metadata-volatility.png"\] Alt text: Image showing the volatility level
 
 **Note:** Risk is determined by the likelihood of a given metadata file being modified, which is predicted based on trends in updates from recent releases. Some files that may not currently exist in the system will be present in the table to account for future installation of apps/plugins.
 

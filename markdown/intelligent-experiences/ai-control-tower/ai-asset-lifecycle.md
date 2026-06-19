@@ -1,12 +1,13 @@
 ---
 title: AI asset lifecycle
-description: The AI asset lifecycle defines the series of stages that you must follow to manage an AI asset or system. It begins with onboarding and continues through to deployment.
+description: The AI asset lifecycle defines the stages for managing an AI system, model, prompt, or dataset throughout its useful life.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/ai-asset-lifecycle.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
 breadcrumb: [AI assets, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
@@ -14,7 +15,7 @@ breadcrumb: [AI assets, AI Control Tower dashboard, Explore, AI Control Tower, E
 
 # AI asset lifecycle
 
-The AI asset lifecycle defines the series of stages that you must follow to manage an AI asset or system. It begins with onboarding and continues through to deployment.
+The AI asset lifecycle defines the stages for managing an AI system, model, prompt, or dataset throughout its useful life.
 
 ## AI asset lifecycle stages
 
@@ -22,7 +23,7 @@ The AI asset lifecycle consists of the following stages:
 
 -   **Onboard**
 
-    The Onboard stage is the introduction of an AI asset into your organization. During this stage, you can define important details about the AI asset, including the asset version and documentation.
+    The onboard stage is the introduction of an AI asset into your organization. During this stage, you can define important details about the AI asset, including the asset version and documentation.
 
 -   **Assess**
 
@@ -34,12 +35,16 @@ The AI asset lifecycle consists of the following stages:
 
 -   **Deploy**
 
-    The Deploy stage is the integration of an AI asset into your existing workflows. During this stage, you can also set up monitoring to track the performance of the AI asset. You can choose to deploy each AI asset through either a gradual roll-out, in which the asset can be used only by a specific subset of users within your organization, or a full roll-out, in which the asset can be used by any user within your organization.
+    The Deploy stage is the integration of an AI asset into your existing workflows. During this stage, you can also set up monitoring to track the performance of the AI asset. Two roll-out options are available: a gradual roll-out, limited to a specific subset of users, or a full roll-out, available to all users in your organization.
+
+-   **Offboarding**
+
+    To retire a deployed AI asset, a user with the AI asset owner \(sn\_ai\_asset\_mgmt.ai\_asset\_owner\) role.
 
 
-**Note:** The AI asset lifecycle playbook feature is available for all the AI Control Tower customers.
+For information on Completing AI lifecycle stages, see [Complete AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/complete-ai-asset-lifecycle.md)
 
-For information on completing AI asset lifecycle stages, see [Complete AI asset lifecycle](../task/complete-ai-asset-lifecycle.md)
+For information on creating offboarding requests for AI assets, see [Create offboarding requests for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-ai-asset-offboarding-request.md)
 
-For information on AI assets view by lifecycle stages, see [View AI assets by life-cycle stage](../task/view-ai-assets-lifecycle-stage.md)
+For information on view AI assets by lifecycle stage, see [View AI assets by life-cycle stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/view-ai-assets-lifecycle-stage.md)
 

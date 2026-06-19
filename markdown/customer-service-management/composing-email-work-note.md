@@ -2,7 +2,10 @@
 title: Compose an email or a work note
 description: Use the Compose section in the email interaction to draft emails, create internal work notes, or draft email responses using response templates.Use the compose section to draft an email response to customers, addressing their inquiry or providing the necessary information.Use response templates to access predefined messages and compose emails. Agents can copy content from a template and add it to an email to save time.Compose a work note to document important information for internal reference. The information should be clear, concise, and relevant. This work note isn’t shared with customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/composing-email-work-note.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -26,7 +29,7 @@ Role required: sn\_customerservice\_agent
 
 1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon \(![List icon](../image/List_icon_eaai_new.png)\).
+2.  Select the List icon \(\[Omitted image "List\_icon\_eaai\_new.png"\] Alt text: List icon\).
 
 3.  In the Interactions section, select **My Interactions**.
 
@@ -36,11 +39,11 @@ Role required: sn\_customerservice\_agent
 
     The **To** and **Subject** fields are auto-populated with the relevant details.
 
-6.  Select the Pop out in modeless window icon \( ![Pop out in modeless window](../image/Pop-out_icon_eaai.png)\) to compose your email in a separate dialog.
+6.  Select the Pop out in modeless window icon \( \[Omitted image "Pop-out\_icon\_eaai.png"\] Alt text: Pop out in modeless window\) to compose your email in a separate dialog.
 
 7.  Enter the email content.
 
-    **Note:** Selecting the More Actions icon \(![More Actions icon](../image/More_icon_eaai_new.png)\) in the Email section displays the email activity history, enabling you to view past emails related to the email interaction. Additionally, you can share links to public articles in the email message.
+    **Note:** Selecting the More Actions icon \(\[Omitted image "More\_icon\_eaai\_new.png"\] Alt text: More Actions icon\) in the Email section displays the email activity history, enabling you to view past emails related to the email interaction. Additionally, you can share links to public articles in the email message.
 
 8.  Select **Send Email**.
 
@@ -59,19 +62,19 @@ Role required: sn\_customerservice\_agent with the sn\_templated\_snip.template\
 
 ### About this task
 
-The contextual side panel provides access to response templates that can help you efficiently compose an email response. Selecting the Response Template icon \(![Response template icon](../image/response-template-icon.png)\) shows reusable messages that you can copy and paste into emails.
+The contextual side panel provides access to response templates that can help you efficiently compose an email response. Selecting the Response Template icon \(\[Omitted image "response-template-icon.png"\] Alt text: Response template icon\) shows reusable messages that you can copy and paste into emails.
 
 ### Procedure
 
 1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon \(![List icon](../image/List_icon_eaai_new.png)\).
+2.  Select the List icon \(\[Omitted image "List\_icon\_eaai\_new.png"\] Alt text: List icon\).
 
 3.  In the Interactions section, select **My Interactions**.
 
 4.  Open an email interaction.
 
-5.  In the contextual side panel, select the Response Template icon \(![Response Template icon](../image/Response_template_icon_eaai_new.png)\).
+5.  In the contextual side panel, select the Response Template icon \(\[Omitted image "Response\_template\_icon\_eaai\_new.png"\] Alt text: Response Template icon\).
 
 6.  In the Response Templates side panel, search for a template.
 
@@ -96,7 +99,7 @@ The work note is visible exclusively to the agent and remains private from the c
 
 1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon \(![List icon](../image/List_icon_eaai_new.png)\).
+2.  Select the List icon \(\[Omitted image "List\_icon\_eaai\_new.png"\] Alt text: List icon\).
 
 3.  In the Interactions section, select **My Interactions**.
 
@@ -104,7 +107,7 @@ The work note is visible exclusively to the agent and remains private from the c
 
 5.  In the Compose section, select **Work notes**.
 
-6.  Select the Pop out in modeless window icon \( ![Pop out in modeless window](../image/Pop-out_icon_eaai.png)\) to compose worknote in a separate dialog.
+6.  Select the Pop out in modeless window icon \( \[Omitted image "Pop-out\_icon\_eaai.png"\] Alt text: Pop out in modeless window\) to compose worknote in a separate dialog.
 
 7.  Enter the relevant content.
 

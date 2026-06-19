@@ -2,6 +2,7 @@
 title: SNMP support for Discovery
 description: Discovery supports SNMP versions 1, 2c, and 3. If you have an active SNMP v3 credential, valid options for SNMP version are v3 or All. If you have an active SNMP v1 or v2 credential \(community string\), valid options for SNMP version are v1, v2c, or All. Default is All.Set up your credentials so Discovery can access SNMPv3 targets.You must also set the SNMP version after choosing the appropriate credential.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/c\_SNMPSupportForDiscovery.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -17,9 +18,9 @@ Discovery supports SNMP versions 1, 2c, and 3. If you have an active SNMP v3 cre
 
 MID Servers support all SNMP protocol versions by default. You can set a MID Server to support only specific versions of SNMP.
 
-For SNMP credentials information, see [SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For SNMP credentials information, see SNMP credentials.
 
-SNMP probe parameters can be used while discovering an SNMP device. See [SNMP probe parameters](../reference/r_SNMPProbeParameters.md) for more information.
+SNMP probe parameters can be used while discovering an SNMP device. See [SNMP probe parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_SNMPProbeParameters.md) for more information.
 
 ## Add an SNMPv3 user credential in Discovery
 
@@ -31,7 +32,7 @@ Role required: admin
 
 ### About this task
 
-A MID Server parameter is also available to control SNMP versions. See [MID Server parameters](https://www.servicenow.com/docs/access?context=mid-server-parameters&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+A MID Server parameter is also available to control SNMP versions. See MID Server parameters.
 
 ### Procedure
 
@@ -43,7 +44,7 @@ A MID Server parameter is also available to control SNMP versions. See [MID Serv
 
 4.  Fill in the form, using the fields in the table.
 
-    ![SNMPv3 credentials form](../image/SNMPv3UserCredentials.png "SNMPv3 credentials form")
+    \[Omitted image "SNMPv3UserCredentials.png"\] Alt text: SNMPv3 credentials form
 
 <table id="table_zxd_wc1_djb"><thead><tr><th>
 
@@ -174,7 +175,7 @@ External credential store
 
 </td><td>
 
-Select this check box to use an external credential storage system. When external storage is enabled, the **Credential ID** field appears. External credential storage is only available when the [External Credential Storage plugin](https://www.servicenow.com/docs/access?context=t_ActivateExtrnlCredStoragePlugIn&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) is activated and the **External Storage** view is selected.
+Select this check box to use an external credential storage system. When external storage is enabled, the **Credential ID** field appears. External credential storage is only available when the External Credential Storage plugin is activated and the **External Storage** view is selected.
 
 </td></tr><tr><td>
 
@@ -257,7 +258,7 @@ Role required: admin
 
 ### About this task
 
-A MID Server parameter is also available to control SNMP versions. See [MID Server parameters](https://www.servicenow.com/docs/access?context=mid-server-parameters&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+A MID Server parameter is also available to control SNMP versions. See MID Server parameters.
 
 ### Procedure
 

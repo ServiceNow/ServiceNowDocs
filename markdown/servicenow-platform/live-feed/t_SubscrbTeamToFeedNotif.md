@@ -2,6 +2,7 @@
 title: Subscribe a team to feed notification
 description: A team administrator can subscribe a team to specific feeds so the members of the team receive email notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/live-feed/t\_SubscrbTeamToFeedNotif.html
 release: zurich
 product: Live Feed
 classification: live-feed
@@ -34,5 +35,5 @@ Role required: none
     You can click the unsubscribe icon to stop receiving email notifications.
 
 
-**Parent Topic:**[Use teams in Live Feed](../concept/c_UseTeamsInLiveFeed.md)
+**Parent Topic:**[Use teams in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/live-feed/c_UseTeamsInLiveFeed.md)
 

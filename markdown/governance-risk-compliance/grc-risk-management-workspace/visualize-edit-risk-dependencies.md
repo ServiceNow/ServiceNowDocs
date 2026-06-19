@@ -2,6 +2,7 @@
 title: Visualize and edit risk dependencies using the GRC: Workbench
 description: The GRC: Workbench gives GRC administrators a graphical interface to create risk dependencies. These relationships enable consistent entity and risk mapping and modeling across the enterprise.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/visualize-edit-risk-dependencies.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -35,7 +36,7 @@ Role required: sn\_risk.manager
 
 5.  Perform one of the following actions.
 
-<table id="choicetable_ar5_2j2_pw"><tbody><tr><td id="d163602e97">
+<table id="choicetable_ar5_2j2_pw"><tbody><tr><td id="d165649e97">
 
 **To add an upstream risk dependency**
 
@@ -43,7 +44,7 @@ Role required: sn\_risk.manager
 
 Drag an eligible upstream risk from the list of eligible risks on the right and drop it on the top half of the risk in the center of the page.
 
-</td></tr><tr><td id="d163602e106">
+</td></tr><tr><td id="d165649e106">
 
 **To add a downstream risk dependency**
 
@@ -53,5 +54,5 @@ Drag an eligible downstream risk from the list of eligible risks on the right an
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use entity and risk dependencies using the GRC: Workbench](../concept/grc-workbench.md)
+**Parent Topic:**[Use entity and risk dependencies using the GRC: Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/grc-workbench.md)
 

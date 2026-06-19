@@ -2,6 +2,7 @@
 title: Translate a knowledge article from a translation task
 description: Start translating articles once they are published and assigned to you for translation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/translate-knowledge-article.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -18,15 +19,15 @@ Start translating articles once they are published and assigned to you for trans
 ## Before you begin
 
 -   Activate the Dynamic Translation plugin \(com.glide.dynamic\_translation\).
--   Enable the **glide.knowman.translation.enable\_translation\_task** property. For more information, see [Translation management](../concept/translation-management.md).
+-   Enable the **glide.knowman.translation.enable\_translation\_task** property. For more information, see [Translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/translation-management.md).
 
 Role required: admin, knowledge\_admin, or knowledge
 
 ## About this task
 
-**Note:** This procedure has been superseded by the Localization Framework. For more information see [Localization Framework support for Knowledge Base](https://www.servicenow.com/docs/access?context=lf-support-for-kb-articles&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US). This information is provided for legacy context.
+**Note:** This procedure has been superseded by the Localization Framework. For more information see . This information is provided for legacy context.
 
-For information about how administrators configure the translation API, see [DynamicTranslation API](https://www.servicenow.com/docs/access?context=dyn-translation-apis&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For information about how administrators configure the translation API, see .
 
 ## Procedure
 
@@ -36,9 +37,7 @@ For information about how administrators configure the translation API, see [Dyn
 
 3.  Select **Translate**.
 
-    The **Translate from** and **Translate to** panes are side-by-side for easy comparison, as shown in the following figure.
-
-    ![Translate knowledge article panes.](../image/translate-to-from.png)
+    The **Translate from** and **Translate to** panes are side-by-side for easy comparison.
 
 4.  Select **Machine translate** to automatically translate to the targeted languages.
 
@@ -55,5 +54,5 @@ For information about how administrators configure the translation API, see [Dyn
 
 The newly created draft is listed in the **Translated Versions** tab.
 
-**Parent Topic:**[Use translation management](../concept/use-translation-management.md)
+**Parent Topic:**[Use translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/use-translation-management.md)
 

@@ -2,6 +2,7 @@
 title: Workday configuration for time off correction event report
 description: Retrieve the Correct Time Off event data based on time duration by creating the time off correction event report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/wdhr-time-off-correction-event-rep.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
@@ -33,15 +34,15 @@ Create all calculated fields so that these fields can be used while developing r
 -   Calculated field 1:
     -   Create Aggregate Related Instances type calculated field named **CF\_Comment\_By\_Employee\_ID**.
 
-        ![Aggregate Related Instances calculated field CF_Comment_By_Employee_ID configuration, showing source field, related business object, and fields to aggregate.](../image/wdhr-time-off-correction-event-rep-1.png)
+        \[Omitted image "wdhr-time-off-correction-event-rep-1.png"\] Alt text: Aggregate Related Instances calculated field CF\_Comment\_By\_Employee\_ID configuration, showing source field, related business object, and fields to aggregate.
 
     -   Create Aggregate Related Instances type calculated field named **CF\_Comment\_by\_worker** and use **CF\_Comment\_By\_Employee\_ID** in source field.
 
-        ![Aggregate Related Instances calculated field CF_Comment_by_worker configuration, using CF_Comment_By_Employee_ID as source field.](../image/wdhr-time-off-correction-event-rep-2.png)
+        \[Omitted image "wdhr-time-off-correction-event-rep-2.png"\] Alt text: Aggregate Related Instances calculated field CF\_Comment\_by\_worker configuration, using CF\_Comment\_By\_Employee\_ID as source field.
 
 -   Calculated field 2: Create Aggregate Related Instances type calculated field named **CF\_Time\_off\_entry**.
 
-    ![Aggregate Related Instances calculated field CF_Time_off_entry configuration, showing source field, related business object, and fields to aggregate.](../image/wdhr-time-off-correction-event-rep-3.png)
+    \[Omitted image "wdhr-time-off-correction-event-rep-3.png"\] Alt text: Aggregate Related Instances calculated field CF\_Time\_off\_entry configuration, showing source field, related business object, and fields to aggregate.
 
 
 ## Procedure
@@ -58,51 +59,51 @@ Create all calculated fields so that these fields can be used while developing r
 
 6.  Leave the **Temporary report** option unchecked and click **OK**.
 
-    ![Create Custom Report dialog showing report name RPT_time_off_correction_event, report type Advanced, data source Business Process Transactions, and temporary report option.](../image/wdhr-time-off-correction-event-rep-4.png)
+    \[Omitted image "wdhr-time-off-correction-event-rep-4.png"\] Alt text: Create Custom Report dialog showing report name RPT\_time\_off\_correction\_event, report type Advanced, data source Business Process Transactions, and temporary report option.
 
 7.  Select the report business object and report fields.
 
-    ![Columns tab showing report business object and report fields selection for time off correction event report.](../image/wdhr-spend-auth-rep-6.png)![Columns tab continued, showing additional report fields for time off correction event report.](../image/wdhr-spend-auth-rep-7.png)
+    \[Omitted image "wdhr-spend-auth-rep-6.png"\] Alt text: Columns tab showing report business object and report fields selection for time off correction event report.\[Omitted image "wdhr-spend-auth-rep-7.png"\] Alt text: Columns tab continued, showing additional report fields for time off correction event report.
 
 8.  In **Group Column Heading** section, select all business object as below.
 
-    **Group Column Heading** for each business object will be blank. ![Group Column Headings section listing business objects with blank group column headings and XML aliases.](../image/wdhr-time-off-correction-event-rep-8.png)
+    **Group Column Heading** for each business object will be blank. \[Omitted image "wdhr-time-off-correction-event-rep-8.png"\] Alt text: Group Column Headings section listing business objects with blank group column headings and XML aliases.
 
 9.  In **Filter** section, select the value as given below.
 
-    Ensure to add parenthesis. ![Filter tab showing conditions for Last Functionally Updated field, using starting and ending prompts for comparison values.](../image/wdhr-time-off-correction-event-rep-9.png)
+    Ensure to add parenthesis. \[Omitted image "wdhr-time-off-correction-event-rep-9.png"\] Alt text: Filter tab showing conditions for Last Functionally Updated field, using starting and ending prompts for comparison values.
 
 10. In **Prompts** section, select the **Populate Undefined Prompt Defaults** option.
 
-    ![Prompts section showing Populate Undefined Prompt Defaults checkbox selected.](../image/wdhr-time-off-correction-event-rep-10.png)
+    \[Omitted image "wdhr-time-off-correction-event-rep-10.png"\] Alt text: Prompts section showing Populate Undefined Prompt Defaults checkbox selected.
 
 11. Select the value of prompts as given below under Prompt default section.
 
     Make sure the **Label For Prompt XML Alias** of all prompt fields must be same.
 
-    ![Prompt Defaults section showing Business Processes, Transaction Status, and date prompt fields with Label For Prompt XML Alias values.](../image/wdhr-time-off-correction-event-rep-11.png)![Prompt Defaults section continued, showing Last Functionally Updated prompt fields configuration.](../image/wdhr-time-off-correction-event-rep-12.png)
+    \[Omitted image "wdhr-time-off-correction-event-rep-11.png"\] Alt text: Prompt Defaults section showing Business Processes, Transaction Status, and date prompt fields with Label For Prompt XML Alias values.\[Omitted image "wdhr-time-off-correction-event-rep-12.png"\] Alt text: Prompt Defaults section continued, showing Last Functionally Updated prompt fields configuration.
 
 12. In **Advanced** section, select **Enable as webservice** option and click **OK**.
 
 13. Click on three dots icon and navigate to **Web Services** &gt; **View URLs** option once report configuration is done.
 
-    ![View Custom Report screen for “RPT_time_off_correction_event” showing Actions menu open and “View URLs” option highlighted for accessing report web service URLs.](../image/wdhr-time-off-correction-event-rep-13.png)
+    \[Omitted image "wdhr-time-off-correction-event-rep-13.png"\] Alt text: View Custom Report screen for “RPT\_time\_off\_correction\_event” showing Actions menu open and “View URLs” option highlighted for accessing report web service URLs.
 
 14. Select **Business process** as **Correct Time Off**, **Transaction Status** as **In Progress**, time range in **Start Date** and **End Date**, and click **OK**.
 
     **Note:** This step is one-time process required to get the WID of business process and transaction status. After the initial full load, transaction status ID is not needed as details of all events will be retrieved; **In Progress** as well as **Completed**.
 
-    ![Report prompt dialog showing Business process set to Correct Time Off, Transaction Status set to In Progress, and date range parameters.](../image/wdhr-time-off-correction-event-rep-14.png)![Report prompt dialog continued, showing Start Date and End Date parameters with OK and Cancel buttons.](../image/wdhr-time-off-correction-event-rep-15.png)
+    \[Omitted image "wdhr-time-off-correction-event-rep-14.png"\] Alt text: Report prompt dialog showing Business process set to Correct Time Off, Transaction Status set to In Progress, and date range parameters.\[Omitted image "wdhr-time-off-correction-event-rep-15.png"\] Alt text: Report prompt dialog continued, showing Start Date and End Date parameters with OK and Cancel buttons.
 
 15. In View URLs Web Service page, click the marked icon under the **CSV** section.
 
     A new browser tab is opened.
 
-    ![View URLs Web Service page showing JSON, CSV, GData, and simplexml output format options with CSV section highlighted.](../image/wdhr-time-off-correction-event-rep-16.png)
+    \[Omitted image "wdhr-time-off-correction-event-rep-16.png"\] Alt text: View URLs Web Service page showing JSON, CSV, GData, and simplexml output format options with CSV section highlighted.
 
     The RaaS URL of the report is displayed in new browser tab and you can obtain these details from the link.
 
-    ![RaaS URL displayed in browser tab showing the report web service URL with tenant name, report owner, report name, and WID parameters.](../image/wdhr-time-off-correction-event-rep-17.png)
+    \[Omitted image "wdhr-time-off-correction-event-rep-17.png"\] Alt text: RaaS URL displayed in browser tab showing the report web service URL with tenant name, report owner, report name, and WID parameters.
 
     -   `https://wd2-impl-services1.workday.com` is the base URL of customer's workday tenant.
     -   **Tenant\_Name** is the customer's workday tenant.

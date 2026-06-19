@@ -2,6 +2,7 @@
 title: Map an Operational Technology system service to an equipment model entity
 description: Map an Operational Technology \(OT\) system service to an ISA equipment model entity by enabling a scheduled job. When the relationship between an OT device and an equipment model entity changes, the scheduled job recomputes the relationship between the OT system service and the equipment model entity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-manager/map-ot-system-service-to-equipment-model-entity.html
 release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -23,7 +24,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Scheduled Jobs**.
 
-2.  Select the Show/hide filter \(![Show/hide filter icon in the table header.](../image/show-hide-filter-icon.png)\) icon.
+2.  Select the Show/hide filter \(\[Omitted image "show-hide-filter-icon.png"\] Alt text: Show/hide filter icon in the table header.\) icon.
 
 3.  Add the following filter.
 
@@ -38,5 +39,5 @@ Role required: admin
 7.  Select **Update**.
 
 
-**Parent Topic:**[Modeling an Operational Technology system service](../concept/modeling-ot-system.md)
+**Parent Topic:**[Modeling an Operational Technology system service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/modeling-ot-system.md)
 

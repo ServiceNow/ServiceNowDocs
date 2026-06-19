@@ -2,6 +2,7 @@
 title: Update a metric
 description: Update a metric to add goals, metric data, and targets. Associate citations to the metric.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/t\_update-a-metric.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -23,7 +24,7 @@ Role required: sn\_grc\_metric.manager, sn\_risk.user, and sn\_compliance.user
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Select the list ![](../../grc-workspace-risk/image/list-icon-risk-workspace.png) icon.
+2.  Select the list \[Omitted image "list-icon-risk-workspace.png"\] Alt text: icon.
 
 3.  Navigate to **Metrics** &gt; **Metrics**.
 
@@ -325,5 +326,5 @@ Details of the citations, such as reference, name, authority document, descripti
 9.  To visually explore the 360° relationship view of the metric definition, click **360° view**.
 
 
-**Parent Topic:**[Configuring metrics](../concept/configuring-irm-metrics.md)
+**Parent Topic:**[Configuring metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/configuring-irm-metrics.md)
 

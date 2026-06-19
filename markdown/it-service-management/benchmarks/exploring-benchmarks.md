@@ -2,6 +2,7 @@
 title: Exploring Benchmarks
 description: Use Benchmarks for ITSM to get a comparative insight relative to industry averages of your peers and to the industry top performers. With Benchmarks get a quick visibility into your key performance indicators \(KPIs\) and trends.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/benchmarks/exploring-benchmarks.html
 release: zurich
 product: Benchmarks
 classification: benchmarks
@@ -20,8 +21,6 @@ The ServiceNow Benchmarks application securely collects daily data on your insta
 Performance Analytics collects daily data on customer instances. The data from the previous month is uploaded at the beginning of the following month via a scheduled job. If there are any errors, there are multiple retries.
 
 This video provides an overview of how you can get started with Benchmarks.
-
-Getting started with Benchmarks
 
 During the month the data is uploaded, the data is aggregated and monthly results \(your instance results, global results, and your ranking\) are downloaded to the customer instance by 21st of every month. Monthly recommendation candidates are provided that you can implement to help improve your KPI performance. An email notification is sent when the global data is available.
 
@@ -50,7 +49,7 @@ Managed Service Providers \(MSPs\) and MSP-managed instances are supported and h
 
 ## Key features
 
--   Available KPIs from other ServiceNow applications such as ITSM, ITOM, Security Operations. For more information, see [Benchmark KPIs](c_BenchKPIConfig.md).
+-   Available KPIs from other ServiceNow applications such as ITSM, ITOM, Security Operations. For more information, see [Benchmark KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/benchmarks/c_BenchKPIConfig.md).
 -   Ability to change KPI definitions to match customizations.
 -   Benchmarks dashboard in Service Portal \(mobile friendly\).
 -   Ability to download KPI reports.
@@ -63,7 +62,7 @@ Managed Service Providers \(MSPs\) and MSP-managed instances are supported and h
 -   Product category-based roles to limit data access.
 -   Integration with Performance Analytics for daily data collection and drill-down on KPI data.
 
-![Benchmarks dashboard](../image/BenchITSMTileView.png "Benchmarks dashboard")
+\[Omitted image "BenchITSMTileView.png"\] Alt text: Benchmarks dashboard
 
 ## Benchmarks benefits
 

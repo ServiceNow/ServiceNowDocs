@@ -2,6 +2,7 @@
 title: Import a spreadsheet
 description: Upload a Microsoft Excel spreadsheet and use it to create your application data model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/spreadsheet-importing-spreadsheet.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -24,7 +25,7 @@ Check that the spreadsheet meets the following requirements:
 
 **Note:** The Excel spreadsheet you upload can have multiple worksheet tabs, each of which you might use to create a data table. If multiple worksheets are present, you will be prompted to select which worksheet tab to create the table from after you upload the file.
 
-Role required: sn\_app\_eng\_studio.user, sn\_app\_eng\_studio.admin, or delegated developer for AES. For more information about granular admin roles, see [Granular admin roles required to secure your instance](https://www.servicenow.com/docs/access?context=roles-within-platform-security&version=zurich&pubname=zurich-platform-security&ft:locale=en-US). For more information about delegated development, see [Delegate developers using AES](../concept/aes-app-dev-workflow.md).
+Role required: sn\_app\_eng\_studio.user, sn\_app\_eng\_studio.admin, or delegated developer for AES. For more information about granular admin roles, see . For more information about delegated development, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Procedure
 
@@ -32,7 +33,7 @@ Role required: sn\_app\_eng\_studio.user, sn\_app\_eng\_studio.admin, or delegat
 
 2.  From the My Apps page, open your application.
 
-3.  Next to the Data heading, select the Add icon \(![Add icon](../image/plus-icon.png)\).
+3.  Next to the Data heading, select the Add icon \(\[Omitted image "plus-icon.png"\] Alt text: Add icon\).
 
 4.  Select **Import a spreadsheet**, and then select **Continue**.
 
@@ -60,31 +61,31 @@ Role required: sn\_app\_eng\_studio.user, sn\_app\_eng\_studio.admin, or delegat
 
 8.  Based on what you would like to do with your spreadsheet data, navigate to one of the following procedures to continue.
 
-<table id="choicetable_f24_f5g_vvb"><tbody><tr><td id="d95331e231">
+<table id="choicetable_f24_f5g_vvb"><tbody><tr><td id="d44805e230">
 
 **Create a new table directly from the spreadsheet import**
 
 </td><td>
 
-Refer to [Create new table from spreadsheet import](spreadsheet-create-new-table.md) for next steps.
+Refer to [Create new table from spreadsheet import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/spreadsheet-create-new-table.md) for next steps.
 
-</td></tr><tr><td id="d95331e250">
+</td></tr><tr><td id="d44805e249">
 
 **Create a new table by extending an existing table, and then using the spreadsheet import to update it**
 
 </td><td>
 
-Refer to [Create new table from extensible table and spreadsheet import](spreadsheet-create-new-ext-table.md) for next steps.
+Refer to [Create new table from extensible table and spreadsheet import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/spreadsheet-create-new-ext-table.md) for next steps.
 
-</td></tr><tr><td id="d95331e269">
+</td></tr><tr><td id="d44805e268">
 
 **Use spreadsheet import to update an existing application table**
 
 </td><td>
 
-Refer to [Modify existing table using spreadsheet import](spreadsheet-import-existing-table.md) for next steps.
+Refer to [Modify existing table using spreadsheet import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/spreadsheet-import-existing-table.md) for next steps.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use a spreadsheet to add data](upload-multi-sheets.md)
+**Parent Topic:**[Use a spreadsheet to add data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/upload-multi-sheets.md)
 

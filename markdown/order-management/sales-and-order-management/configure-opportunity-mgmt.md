@@ -2,6 +2,7 @@
 title: Install and configure Opportunity Management
 description: Install the Opportunity Management application, which enables sales agents and account executives to get pre-sales product recommendations based on customer needs. You then assign the user roles and configure related features, such as needs analysis, used in Opportunity Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configure-opportunity-mgmt.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -31,7 +32,7 @@ Role
 
 </th></tr></thead><tbody><tr><td>
 
-[Install Opportunity Management](../task/install-opportunity-management.md)
+[Install Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/install-opportunity-management.md)
 
 </td><td>
 
@@ -43,7 +44,7 @@ Admin
 
 </td></tr><tr><td>
 
-[Assign user roles in Sales Customer Relationship Management applications](configure-SOM-roles.md)
+[Assign user roles in Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/configure-SOM-roles.md)
 
 </td><td>
 
@@ -55,7 +56,7 @@ Admin
 
 </td></tr><tr><td>
 
-[Configuring product offerings and catalogs](som-managing-product-catalogs.md)
+[Configuring product offerings and catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-managing-product-catalogs.md)
 
 </td><td>
 
@@ -67,11 +68,11 @@ Product catalog admin
 
 </td></tr><tr><td>
 
-[Configuring product pricing](../task/som-create-price-list-line.md)
+[Configuring product pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-create-price-list-line.md)
 
 </td><td>
 
-Define the [price lists](../task/som-create-price-list.md), pricing strategies, and other pricing features that you want to use, unless they've been previously defined.
+Define the [price lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-create-price-list.md), pricing strategies, and other pricing features that you want to use, unless they've been previously defined.
 
 </td><td>
 
@@ -79,7 +80,7 @@ Pricing admin
 
 </td></tr><tr><td>
 
-[Configure needs analysis](configuring-needs-analysis.md)
+[Configure needs analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/configuring-needs-analysis.md)
 
 </td><td>
 
@@ -91,7 +92,7 @@ Product catalog admin
 
 </td></tr><tr><td>
 
-[Configure location-based transactions](config-location-transaction.md)Configure location-based transactions
+[Configure location-based transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/config-location-transaction.md)Configure location-based transactions
 
 </td><td>
 
@@ -103,7 +104,7 @@ Admin and product catalog admin
 
 </td></tr><tr><td>
 
-[Create opportunity stages](../task/opportunity-management-opportunity-stages.md)
+[Create opportunity stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-management-opportunity-stages.md)
 
 </td><td>
 
@@ -115,7 +116,7 @@ Opportunity setup writer
 
 </td></tr><tr><td>
 
-[Create a sales cycle for an opportunity](../task/opportunity-management-sales-cycle-types.md)
+[Create a sales cycle for an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-management-sales-cycle-types.md)
 
 </td><td>
 
@@ -127,7 +128,7 @@ Opportunity setup writer
 
 </td></tr><tr><td>
 
-[Associate a sales cycle with the opportunity stage](../task/opportunity-management-sales-cycle-stages.md)
+[Associate a sales cycle with the opportunity stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-management-sales-cycle-stages.md)
 
 </td><td>
 

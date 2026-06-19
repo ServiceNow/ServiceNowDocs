@@ -2,6 +2,7 @@
 title: Create a custom search matcher for global search
 description: Customize the global search experience to return exact match search results from a specified table and column \(field\). You can configure custom search matchers for search terms with prefixes followed by numbers, such as INT470271, or for numeric search terms with delimiter characters, such as 525-326-3827 or 2016/01/08.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/create-search-matcher-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -19,7 +20,7 @@ Customize the global search experience to return exact match search results from
 
 You must have Next Experience enabled.
 
-AI Search must be configured as the search engine for global search. For details on configuring AI Search as the search engine for global search, see [AI Search for Next Experience](../concept/ais-next-experience-app.md).
+AI Search must be configured as the search engine for global search. For details on configuring AI Search as the search engine for global search, see [AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-next-experience-app.md).
 
 **Note:** If your instance was originally created running Utah or a later family release, AI Search is automatically configured as the search engine for global search.
 
@@ -33,7 +34,7 @@ Custom search matchers take precedence over the default AI Search exact match fu
 
 **Note:** Users with the admin role can disable this fallback behavior by setting the value of the **glide.ais.custom\_matcher.legacy\_fallback\_enabled** system property to **false**. With this value set, if a search query doesn't match any custom search matcher's regular expression patterns, AI Search treats it as a normal full-text search, ignoring exact matches in tables with defined prefixes.
 
-To learn how AI Search evaluates global search queries for exact matches, see [Using global search with AI Search for Next Experience](../concept/using-ais-next-experience-app.md).
+To learn how AI Search evaluates global search queries for exact matches, see [Using global search with AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/using-ais-next-experience-app.md).
 
 ## Procedure
 
@@ -43,7 +44,7 @@ To learn how AI Search evaluates global search queries for exact matches, see [U
 
 3.  On the Custom Matcher form, fill in the **Name**, **Table**, and **Column** fields.
 
-    For a description of the field values, see [Custom Matcher form](../reference/custom-matcher-form-ais.md).
+    For a description of the field values, see [Custom Matcher form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/custom-matcher-form-ais.md).
 
 4.  Populate the form's **Regex** field.
 
@@ -111,5 +112,5 @@ The name of the search application configuration record for the AI Search applic
         A linkage record for your custom search matcher and the selected AI Search application appears in the Custom matchers for Search Application \[m2m\_search\_context\_config\_custom\_matcher\] table.
 
 
-**Parent Topic:**[Configuring AI Search](../concept/configuring-ais.md)
+**Parent Topic:**[Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configuring-ais.md)
 

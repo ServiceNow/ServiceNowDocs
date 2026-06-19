@@ -2,6 +2,7 @@
 title: Schedule interview form
 description: The schedule interview form provides the field descriptions required to schedule an interview with an applicant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/interview-management/schedule-interview-form.html
 release: zurich
 product: Interview Management
 classification: interview-management
@@ -31,7 +32,7 @@ Interview phase
 
 Phase you're scheduling the interview for.**Note:**
 
--   You must have interview phase set up for the job requisition to be able to select this. For more information, see [Add interview phase](../task/add-interview-phase.md).
+-   You must have interview phase set up for the job requisition to be able to select this. For more information, see [Add interview phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/interview-management/add-interview-phase.md).
 -   If you select an interview phase, the associated **Interview type**, **Duration**, **Format**, **Interviewers**, **Channel**, and **Interview title** are auto-populated.
 -   You can leave this field blank to schedule ad-hoc interview rounds.
 
@@ -136,7 +137,7 @@ Selected time slots
 
 Selected time slots. You can select up to three slots by default.**Note:**
 
--   If a time slot conflicts with any attendee's availability, a warning icon \(![time slot conflict](../images/ta_slot_conflict.png)\) appears next to the slot, and an alert message is displayed.
+-   If a time slot conflicts with any attendee's availability, a warning icon \(\[Omitted image "ta\_slot\_conflict.png"\] Alt text: time slot conflict\) appears next to the slot, and an alert message is displayed.
 -   You can update the **maximum\_slots\_for\_interview\_scheduling** property to enable up to 10 slot selection.
 
 </td></tr><tr><td>
@@ -153,7 +154,7 @@ Select template
 
 </td><td>
 
-Predefined interview invite email template.For more information, see [Create interview invite email template](../task/create-interview-email-template.md).
+Predefined interview invite email template.For more information, see [Create interview invite email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/interview-management/create-interview-email-template.md).
 
 </td></tr><tr><td>
 
@@ -172,5 +173,5 @@ Meeting invite
 Body text of the interview invite email. It’s auto-generated if you have selected an email template and can be edited.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Interview Management reference](../concept/interview-management-reference.md)
+</table>**Parent Topic:**[Interview Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/interview-management/interview-management-reference.md)
 

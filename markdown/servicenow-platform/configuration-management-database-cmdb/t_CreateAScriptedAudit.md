@@ -2,6 +2,7 @@
 title: Create a scripted audit
 description: A scripted audit is an audit whose conditions are defined by a script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/t\_CreateAScriptedAudit.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -162,7 +163,7 @@ The specific user this audit assigns to follow-on tasks. This field is available
 
 -   Assignment type is set to Specific User.
 -   Assign to empty is set to Create Assigned Task, and Assignment type is set to User Field.
- **Note:** Ensure that the specified user has the [certification role](../../data-certification/reference/r_InstalledWithDataCertification.md).
+ **Note:** Ensure that the specified user has the [certification role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/r_InstalledWithDataCertification.md).
 
 </td></tr><tr><td>
 
@@ -307,7 +308,7 @@ Run this script
 
 </td><td>
 
-Audit script to run. This field is available only when the audit type is Scripted. The Audit form includes a sample script with instructions for performing the audit and generating the follow-on tasks. See [Script Methods](../reference/r_ScriptMethods.md) for a list of the methods provided and the accepted parameters.
+Audit script to run. This field is available only when the audit type is Scripted. The Audit form includes a sample script with instructions for performing the audit and generating the follow-on tasks. See [Script Methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/r_ScriptMethods.md) for a list of the methods provided and the accepted parameters.
 
 </td></tr></tbody>
 </table>

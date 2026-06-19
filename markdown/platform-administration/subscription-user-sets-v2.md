@@ -2,6 +2,7 @@
 title: User sets and groups in Subscription Management
 description: Subscription Management uses groups \(previously user sets\) to provide entitlement to sets of users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/subscription-user-sets-v2.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -27,7 +28,7 @@ On upgrade to Quebec or later releases, all current user sets convert to groups.
 
 Admins and user\_admins create groups and add users in the **User Administration** application.
 
-To learn more about creating and editing groups, see [Creating groups](../../roles/concept/ua-creating-groups.md).
+To learn more about creating and editing groups, see [Creating groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/ua-creating-groups.md).
 
-**Parent Topic:**[Subscription Management reference](../reference/subscription-management-reference-v2.md)
+**Parent Topic:**[Subscription Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/subscription-management-reference-v2.md)
 

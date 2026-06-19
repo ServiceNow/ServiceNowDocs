@@ -2,6 +2,7 @@
 title: ACH dispute AI agents overview
 description: Agentic AI streamlines ACH dispute resolution by automating merchant analysis, Nacha eligibility checks, ACH dispute return recommendations, and communications with customers or ODFI \(Originating Depository Financial Institution\). This solution enhances efficiency, accuracy, and conformance, enabling financial institutions to resolve ACH disputes faster, reduce errors, and improve customer satisfaction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/ach-agentic-ai-workflow.html
 release: zurich
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso
@@ -31,9 +32,9 @@ The key agents for ACH dispute resolution are.
 
 ## ACH disputes workflow with AI agents
 
-The following diagram illustrates the workflow in ACH disputes with the AI agents.![ACH disputes workflow](../image/now-assist-ach-disputeworkflw.png)
+The following diagram illustrates the workflow in ACH disputes with the AI agents.\[Omitted image "now-assist-ach-disputeworkflw.png"\] Alt text: ACH disputes workflow
 
-For information about the workflow in ACH disputes, see [Processing an ACH dispute](../../fso-card-operations/concept/process-dispute-ach.md).
+For information about the workflow in ACH disputes, see [Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/process-dispute-ach.md).
 
 ## Access the AI agents
 
@@ -55,7 +56,7 @@ To access the agents:
 
 Required roles: sn\_bom\_credit\_card.dispute\_agent\_connector, sn\_bom\_credit\_card.dispute\_agent, and now\_assist\_panel\_user.
 
-[Role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) enables users to limit the roles and privileges of AI agents during tool execution. AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an AI agent](https://www.servicenow.com/docs/access?context=define-sec-controls-aia&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+Role masking enables users to limit the roles and privileges of AI agents during tool execution. AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see Define security controls for an AI agent.
 
 In the data access settings, you must also add the necessary roles to the following FSO AI agents:
 
@@ -64,5 +65,5 @@ In the data access settings, you must also add the necessary roles to the follow
 -   ACH dispute return recommendation AI agent
 -   Dispute communication AI agent
 
-**Parent Topic:**[Standalone AI agents in FSO](ai-agents-fso.md)
+**Parent Topic:**[Standalone AI agents in FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/ai-agents-fso.md)
 

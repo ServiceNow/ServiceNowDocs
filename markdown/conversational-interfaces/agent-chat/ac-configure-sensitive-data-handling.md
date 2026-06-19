@@ -2,6 +2,7 @@
 title: Configuring Sensitive Data Handler
 description: Detect and mask sensitive information that is shared in Agent Chat or Virtual Agent conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/agent-chat/ac-configure-sensitive-data-handling.html
 release: zurich
 product: Agent Chat
 classification: agent-chat
@@ -19,7 +20,7 @@ Detect and mask sensitive information that is shared in Agent Chat or Virtual Ag
 
 **Note:** This feature is being prepared for future deprecation. It will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
-Install the Data Privacy application as a replacement. For more information, see [Data Privacy for Virtual Agent](https://www.servicenow.com/docs/access?context=data-privacy-for-virtual-agent&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+Install the Data Privacy application as a replacement. For more information, see .
 
 Activate the Sensitive Data Handler plugin \(com.glide.sensitive\_data\_handling\).
 
@@ -202,5 +203,5 @@ Indicates whether the regular expression is processed from left to right or righ
 9.  Select **Save**.
 
 
-**Parent Topic:**[Configuring Agent Chat](../concept/ci-agent-chat-configuring.md)
+**Parent Topic:**[Configuring Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/agent-chat/ci-agent-chat-configuring.md)
 

@@ -1,31 +1,40 @@
 ---
-title: Exploring AIOps LEAP
-description: AIOps LEAP categorizes similar incidents into groups, performs incident analysis using AI, and creates standard, dynamic resolution steps, problem records, knowledge base articles, and playbooks to promote fast incident resolution.
+title: Exploring LEAP
+description: LEAP categorizes similar incidents into groups and uses AI to generate resolution steps, problem records, AI-enhanced knowledge base articles, and playbooks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/exploring-aiops-leap.html
 release: zurich
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [AIOps Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 4
+breadcrumb: [Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
 ---
 
-# Exploring AIOps LEAP
+# Exploring LEAP
 
-AIOps LEAP categorizes similar incidents into groups, performs incident analysis using AI, and creates standard, dynamic resolution steps, problem records, knowledge base articles, and playbooks to promote fast incident resolution.
+LEAP categorizes similar incidents into groups and uses AI to generate resolution steps, problem records, AI-enhanced knowledge base articles, and playbooks.
 
-## AIOps LEAP overview
+## LEAP overview
 
-AIOps LEAP helps you manage incidents and operational tasks efficiently. It uses AI to gather information from existing incidents and generates resolutions that can be automated. The AIOps LEAP automation provides tools to manage incidents early, speed up resolution, use prebuilt automation, and follow clear steps to handle issues. These tools help support smooth operations.
+LEAP helps you manage incidents and operational tasks efficiently. It uses AI to gather information from existing incidents and generates resolutions that can be automated. The LEAP automation provides tools to manage incidents early, speed up resolution, use prebuilt automation, and follow clear steps to handle issues. These tools help support smooth operations.
 
-**Note:** The plugin name has been updated from AIOps Learning Enhanced Automation Playbook to AIOps Learning Enhanced Automation Platform \(LEAP\) to reflect its expanded capabilities and strategic direction.
+**Note:** The plugin name has been updated from AIOps Learning Enhanced Automation Playbook to Learning Enhanced Automation Platform \(LEAP\) to reflect its expanded capabilities and strategic direction.
 
-![LEAP dashboard with records analyzed](../images/leap-dashboard-records-analyzed.png)
+\[Omitted image "aiops-leap-landing-page.png"\] Alt text: LEAP landing page
 
 The landing page displays the number of records analyzed on the right-hand side of Automation opportunities section. The tool tip provides details about the duration considered for record analysis.
 
-## AIOps LEAP users
+## Grouping of automation opportunities in LEAP
+
+GAF \(Group Action Framework\) is the clustering engine that LEAP uses to group incidents into Automation Opportunities \(AOs\). GAF analyzes incident records using the short description field and applies ML-powered clustering to group incidents that share similar problem patterns. LEAP surfaces recurring issue types as discrete automation opportunities \(AOs\) rather than treating every incident in isolation.
+
+GAF runs on a scheduled job, by default monthly. The schedule is configured during LEAP skill activation through the installer. On the first run, GAF processes up to six months of historical incident data using the filter set in the installer.
+
+Before clustering begins, GAF selects the top N incidents from the eligible incident pool, where N is configurable and can be set to a maximum of 50. This selection confirms that clustering focuses on the most relevant and recent incidents within the defined scope. You can configure the fields GAF considers during analysis such as tables and columns in the LEAP settings. You can also modify the schedule run frequency in the LEAP settings.
+
+## LEAP users
 
 <table id="table_pny_2gg_42c"><thead><tr><th>
 
@@ -37,40 +46,40 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-AIOps LEAP admin
+LEAP admin
 
 </td><td>
 
-You have full control over AIOps LEAP capabilities, including the following:
+You have full control over LEAP capabilities, including the following:
 
 -   Turn features on and off
 -   Execute scheduled jobs
--   Manage AIOps LEAP tables and the AIOps LEAP Workspace
+-   Manage LEAP tables and the LEAP Workspace
 -   Generate and update resolution steps
--   Create and view knowledge base articles, problem records and playbooks from automation opportunities \(AO\)
+-   Generate AI-enhanced knowledge base articles, problem records, and playbooks from automation opportunities \(AO\)
 
 </td></tr><tr><td>
 
-AIOps LEAP viewer
+LEAP viewer
 
 </td><td>
 
-You can access and view data related to AIOps LEAP, including tables, the workspace, and problems originating from AOs.
+You can access and view data related to LEAP, including tables, the workspace, and problems originating from AOs.
 
 </td></tr><tr><td>
 
-AIOps LEAP agent
+LEAP agent
 
 </td><td>
 
-You can access the AIOps LEAP menu from the Service Operations Workspace \(SOW\) and trigger AIOps LEAP executions directly from within SOW.
+You can access the LEAP menu from the Service Operations Workspace \(SOW\) and trigger LEAP executions directly from within SOW.
 
 </td></tr></tbody>
 </table>These roles work together to create a streamlined and secure approach for managing automation, resolving incidents, and sharing knowledge across teams.
 
-## Personas in AIOps LEAP
+## Personas in LEAP
 
-AIOps LEAP supports different personas who can have different roles assigned to enhance IT Operations Management.
+LEAP supports different personas who can have different roles assigned to enhance IT Operations Management.
 
 <table id="table_nj3_glg_42c"><thead><tr><th>
 
@@ -119,18 +128,18 @@ Buyer, Business goal owner
 
 </td><td>
 
-A buyer or a business goal owner gains strategic and operational advantages using AIOps LEAP.
+A buyer or a business goal owner gains strategic and operational advantages using LEAP.
 
 </td><td>
 
--   Uses AIOps LEAP to improve IT operations
+-   Uses LEAP to improve IT operations
 -   Optimizes resource allocation
 -   Automates recurring issue resolution
 
 </td></tr></tbody>
-</table>An automation architect can use AIOps LEAP to gather feedback and refine solutions. In a similar manner, IT operators will use AIOps LEAP to detects recurring issues and displays suggestions for preventive automation. This enables faster resolution and operators can resolve more incidents independently leading to improved efficiency and service quality.
+</table>An automation architect can use LEAP to gather feedback and refine solutions. In a similar manner, IT operators will use LEAP to detect recurring issues and LEAP displays suggestions for preventive automation. This enables faster resolution and operators can resolve more incidents independently leading to improved efficiency and service quality.
 
-## AIOps LEAP benefits
+## LEAP benefits
 
 |Benefit|Feature|
 |-------|-------|
@@ -139,12 +148,23 @@ A buyer or a business goal owner gains strategic and operational advantages usin
 |Targets Outcomes for L1 Operators|Interpret data and automate records|
 |Improves MTTR|Measure and enhance performance|
 |Optimize Resource Allocation|Identify and prioritize high impact areas|
+|Provides cost predictability|Fixed pricing model for incident analysis operations|
+
+## LEAP AI agent
+
+The LEAP AI agent uses automation opportunities created by LEAP analysis to generate artifacts — problem records, knowledge base articles, or playbooks — based on user requests.
+
+|AI agent|AI agent role|
+|--------|-------------|
+|LEAP AI agent|Uses the automation opportunities created by LEAP analysis, and creates artifacts — problem records, AI-enhanced knowledge base articles, or playbooks — based on user requests.|
+
+**Important:** This agent is turned on by default. For more information, see .
 
 ## What to explore next
 
-To learn more about configuring and using AIOps LEAP, see:
+To learn more about configuring and using LEAP, see:
 
--   [Configuring AIOps LEAP](configuring-aiops-leap.md)
--   [Using AIOps LEAP](../task/using-aiops-leap.md)
--   [AIOps LEAP reference](../reference/references-aiops-leap.md)
+-   [Configuring LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/configuring-aiops-leap.md)
+-   [Using LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/using-aiops-leap.md)
+-   [LEAP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/references-aiops-leap.md)
 

@@ -2,6 +2,7 @@
 title: Turn on the flow generation with images skill
 description: Turn on the flow generation with images skill to use generative AI to create flows and subflows from an image.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/now-assist-for-creator/turn-on-the-flow-generation-with-images-skill.html
 release: zurich
 product: Now Assist for Creator
 classification: now-assist-for-creator
@@ -36,7 +37,7 @@ Turn on the flow generation with images skill to use generative AI to create flo
 
 5.  In the Flow card, verify that the **Flow Generation with Images** skill is activated under **Active skills**.
 
-    ![Confirmation page with all skills active.](../images/flowgen-image-skill.jpg)
+    \[Omitted image "flowgen-image-skill.jpg"\] Alt text: Confirmation page with all skills active.
 
 
 ## What to do next

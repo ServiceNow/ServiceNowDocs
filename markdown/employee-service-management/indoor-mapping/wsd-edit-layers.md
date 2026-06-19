@@ -2,6 +2,7 @@
 title: Configure layers
 description: Select a layer on the Map Configuration preview and edit it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/indoor-mapping/wsd-edit-layers.html
 release: zurich
 product: Indoor Mapping
 classification: indoor-mapping
@@ -29,7 +30,7 @@ Role required: sn\_map\_core.map\_admin
 
     The Map Configuration preview page is brought into focus.
 
-2.  Expand **Layers** by selecting the chevron toggle icon \(![Expand Layers icon.](../images/wsd-chevron-up-icon.png)\).
+2.  Expand **Layers** by selecting the chevron toggle icon \(\[Omitted image "wsd-chevron-up-icon.png"\] Alt text: Expand Layers icon.\).
 
 3.  Select **Layers** to select a layer.
 
@@ -37,9 +38,9 @@ Role required: sn\_map\_core.map\_admin
 
     The edit panel appears.
 
-    **Note:** **Use for floor surface area calculation** option is not available for selection after it’s enabled for a layer. For more information, see [Compute Autocad floor surface area](compute-autocad-floor-surface.md).
+    **Note:** **Use for floor surface area calculation** option is not available for selection after it’s enabled for a layer. For more information, see [Compute Autocad floor surface area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/compute-autocad-floor-surface.md).
 
-    ![Layer summary pill showing configuration information for a selected layer type.](../images/wsd-layers-expanded-autocadv2.png)
+    \[Omitted image "wsd-layers-expanded-autocadv2.png"\] Alt text: Layer summary pill showing configuration information for a selected layer type.
 
     The selected layer shows the layer name along with the number of elements in it. For example: Logo \(1442 elements\)
 
@@ -60,11 +61,11 @@ Role required: sn\_map\_core.map\_admin
 
     The selected layer elements are displayed on the Map configuration preview panel based on your selection.
 
-    ![Selected layer type shown on the map preview.](../images/wsd-layer-elements-in-map-preview.png)
+    \[Omitted image "wsd-layer-elements-in-map-preview.png"\] Alt text: Selected layer type shown on the map preview.
 
 7.  Resolve a missing layer type \(highlighted in red in the summary pill\) by selecting a layer type from the **Select layer type** options.
 
-    ![Summary pill showing the missing layer type information and the preview for the missing layer.](../images/wsd-missing-layer-type-map-config-page.png)
+    \[Omitted image "wsd-missing-layer-type-map-config-page.png"\] Alt text: Summary pill showing the missing layer type information and the preview for the missing layer.
 
     The missing layer type is resolved and the summary pill shows the Layer type highlighted in green. The Map Configuration preview shows the missing layer type with the newly assigned layer type.
 
@@ -81,9 +82,9 @@ Role required: sn\_map\_core.map\_admin
 10. Repeat the steps for the layers that you want to import to your CAD source file.
 
 
-**Parent Topic:**[Configure CAD objects using the Map Configuration tab](../concept/manage-cad-map-config.md)
+**Parent Topic:**[Configure CAD objects using the Map Configuration tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/manage-cad-map-config.md)
 
-**Previous topic:**[Georeference your floor plan](georeference-floor-plan.md)
+**Previous topic:**[Georeference your floor plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/georeference-floor-plan.md)
 
-**Next topic:**[Configure places](edit-places.md)
+**Next topic:**[Configure places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/edit-places.md)
 

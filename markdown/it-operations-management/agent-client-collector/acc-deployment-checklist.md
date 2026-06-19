@@ -2,6 +2,7 @@
 title: Agent Client Collector deployment checklist
 description: Successful Agent Client Collector \(ACC\) implementations, especially involving large numbers of endpoints or servers, require careful deployment. When proceeding with a large-scale ACC deployment, follow the steps described in the deployment checklist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-deployment-checklist.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -164,5 +165,5 @@ Update deployment calendar and continue with next install cohorts
 After successful deployment, continue with data collection.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Preparing for Agent Client Collector implementation](acc-preparation.md)
+</table>**Parent Topic:**[Preparing for Agent Client Collector implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-preparation.md)
 

@@ -2,6 +2,7 @@
 title: Components installed with Now Mobile for HR Service Delivery
 description: Several types of components install with the activation of the Now Mobile for HR Service Delivery plugin, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery-for-mobile/components-installed-with-now-mobile-hr.html
 release: zurich
 product: HR Service Delivery for mobile
 classification: hr-service-delivery-for-mobile
@@ -15,9 +16,9 @@ breadcrumb: [Activate HR Service Delivery for mobile, HR Service Delivery for mo
 
 Several types of components install with the activation of the Now Mobile for HR Service Delivery plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
-Demo data is available for this feature. Load demo data at the time of the plugin installation, or add the demo data using the repair feature for plugin installations. See [Now Mobile app demo](../../../administer/tablet-mobile-ui/concept/sg-mobile-demo.md).
+Demo data is available for this feature. Load demo data at the time of the plugin installation, or add the demo data using the repair feature for plugin installations. See [Now Mobile app demo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/sg-mobile-demo.md).
 
 **Note:** The Now Mobile \[sn\_me\] plugin activates the sn\_hr\_mobile.min\_admin\_count system property \[sys\_properties.list\]. This property prevents you from deleting your only mobile admin user by requiring a minimum number \(default is two\) of active users with this role.
 
@@ -69,5 +70,5 @@ Scripted Activity Set Context\[v\_st\_hr\_activity\_set\_context\]
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate HR Service Delivery for mobile](../task/activate-mobile-employee-experience-for-hr-service-delivery.md)
+</table>**Parent Topic:**[Activate HR Service Delivery for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery-for-mobile/activate-mobile-employee-experience-for-hr-service-delivery.md)
 

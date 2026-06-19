@@ -2,6 +2,7 @@
 title: Edit code with Now Assist
 description: Quickly enhance your scripts by instructing Now Assist on how to improve the code.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/edit-code-now-assist.html
 release: zurich
 product: Scripts
 classification: scripts
@@ -21,7 +22,7 @@ Role required: authenticated user
 
 ## About this task
 
-When code generation is enabled on an instance, a Now Assist icon \(![Now Assist icon.](../../../common/image/icon-ai-sparkle.png)\) appears in the script editor.
+When code generation is enabled on an instance, a Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: Now Assist icon.\) appears in the script editor.
 
 ## Procedure
 
@@ -33,13 +34,13 @@ When code generation is enabled on an instance, a Now Assist icon \(![Now Assist
 
     -   Select the code that you want to edit. Right-click and select **Open Code with Now Assist**.
 
-        ![Open code with Now Assist](../image/now-assist-code-open-code.png)
+        \[Omitted image "now-assist-code-open-code.png"\] Alt text: Open code with Now Assist
 
-    -   Select the code and then select the **Quick Actions** button.![Edit code with Quick Actions](../image/now-assist-code-quick-actions.png)
+    -   Select the code and then select the **Quick Actions** button.\[Omitted image "now-assist-code-quick-actions.png"\] Alt text: Edit code with Quick Actions
     -   Select the code and use one of the following keyboard shortcuts:
         -   Windows: Ctrl-Enter
         -   Mac: Cmd-Enter
-    **Tip:** Select the Help icon \(![Help icon.](../../general-scripting/image/Help.png)\) to access the list of relevant keyboard shortcuts.
+    **Tip:** Select the Help icon \(\[Omitted image "Help.png"\] Alt text: Help icon.\) to access the list of relevant keyboard shortcuts.
 
 3.  In the **Edit code with Now Assist** dialog box, enter text that describes how you want to refactor the code.
 
@@ -49,16 +50,16 @@ When code generation is enabled on an instance, a Now Assist icon \(![Now Assist
 
     A view comparing the original code and the edited code suggestion appears in the script editor.
 
-    ![Original code and edited code suggestion compared in the script editor.](../image/now-assist-code-edit-diff.png)
+    \[Omitted image "now-assist-code-edit-diff.png"\] Alt text: Original code and edited code suggestion compared in the script editor.
 
 5.  Review the edited code suggestion and complete one of the following steps:
 
     -   To overwrite the original code with the edited code suggestion, select **Accept**.
-    -   To regenerate a suggestion, revise the text in the dialog box and select the arrow icon \(![Arrow icon.](../image/now-assist-code-arrow.png)\).
+    -   To regenerate a suggestion, revise the text in the dialog box and select the arrow icon \(\[Omitted image "now-assist-code-arrow.png"\] Alt text: Arrow icon.\).
     -   To remove the edited code from the script and keep only the original code, select **Reject**.
     When you accept a code suggestion, a line next to the line numbers indicates which code was created by AI and hasn't been edited. If you edit AI-generated code, the line indicator doesn’t appear for those lines of code.
 
-    ![Line indicating which lines of code are AI-generated.](../image/now-assist-code-edit-indicator.png)
+    \[Omitted image "now-assist-code-edit-indicator.png"\] Alt text: Line indicating which lines of code are AI-generated.
 
     If the code suggestion doesn’t meet your requirements, try rephrasing your prompt according to the prompt guidance and generating another code suggestion.
 

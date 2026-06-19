@@ -2,7 +2,10 @@
 title: Create a proactive case from an alert
 description: Create a case for customer install base affected by an alert to anticipate customer issues and address them proactively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/case-alert-workspace.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -23,13 +26,13 @@ Role required: evt\_mgmt\_admin, evt\_mgmt\_operator
 
 A proactive case is a case created on behalf of customers, whose install base is directly affected by an alert. You can open a proactive case manually or through automation. Customer service agents then work on cases. From the Alert form, you can also track the install base items affected by the alert.
 
-If the **Create Proactive Case** rule is enabled, a case is automatically created when an incident is created from an alert and the system has determined that there are external customer install base items affected. For more information, see [Activate an alert rule to automatically create a proactive case from an alert](automate-case-creation-alert.md).
+If the **Create Proactive Case** rule is enabled, a case is automatically created when an incident is created from an alert and the system has determined that there are external customer install base items affected. For more information, see [Activate an alert rule to automatically create a proactive case from an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/automate-case-creation-alert.md).
 
 ITOM Event Management calculates the services \(CIs\) impacted by an alert and populates the em\_impacted\_ci\_table with the impacted services \(CIs\) and alert CI on the given alert.
 
 The Affected Install Base related list on the Alert form displays the install base items that are linked to the impacted services \(CIs\).
 
-The **Refresh Affected Install Base Items** button on the Alert form recalculates the impacted services \(CIs\) and updates the em\_impacted\_ci\_table and affected install base items with the latest changes. For more details, see [Alert Impact Calculation](https://www.servicenow.com/docs/access?context=c_EMImpactCalculation&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+The **Refresh Affected Install Base Items** button on the Alert form recalculates the impacted services \(CIs\) and updates the em\_impacted\_ci\_table and affected install base items with the latest changes. For more details, see Alert Impact Calculation.
 
 ## Procedure
 

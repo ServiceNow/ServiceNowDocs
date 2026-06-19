@@ -2,6 +2,7 @@
 title: Optional: Copy a IBM QRadar profile
 description: Copy an existing profile and its associated settings instead of creating new profiles. If you are creating multiple profiles, and you want to reuse the settings of an existing profile, you may prefer to copy profiles to save time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/qradar-ibm-copy-profile.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -29,11 +30,11 @@ As a user with the sn\_si.admin role, if you copy a profile, the profile name is
 
 2.  In the IBM QRadar Profiles list that is displayed, select a profile that you want to copy, and, from the Actions on selected rows choice list, select **Copy**.
 
-    ![IBM QRadar: copy profile](../image/ibm-qradar-profile-copy.png)
+    \[Omitted image "ibm-qradar-profile-copy.png"\] Alt text: IBM QRadar: copy profile
 
     The profile is copied and displayed on the list. The copy has all the settings of the original profile including the mapping and scheduling configuration. The name of the profile contains copy. Although the original profile is enabled \(`true`\), the copy is disabled at this point \(`false`\). You may prefer to edit values of the copied profile and rename it so the configuration settings apply to the new profile as required.
 
-    **Note:** If you select a different source for the profile, you must select new rules \([Select IBM QRadar rules](qradar-ibm-create-profile-eventsearch.md)\) for the profile. But if you use the same source and select new rules, the sample offenses will be cleared.
+    **Note:** If you select a different source for the profile, you must select new rules \([Select IBM QRadar rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/qradar-ibm-create-profile-eventsearch.md)\) for the profile. But if you use the same source and select new rules, the sample offenses will be cleared.
 
     You have successfully copied the settings from an existing profile to a new profile. Note that the **Active** column status is set to false as the profile needs to be activated.
 

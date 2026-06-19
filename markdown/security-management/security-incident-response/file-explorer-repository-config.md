@@ -2,6 +2,7 @@
 title: Configure File Explorer Repository Drive
 description: The Microsoft SharePoint connector provides various capabilities to be implemented in Microsoft SharePoint File Explorer features by managing and tracking the file metadata.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/file-explorer-repository-config.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -23,7 +24,7 @@ Role required: sn\_msi.workspace\_admin
 
 1.  Navigate to **All** &gt; **Major Security Incident** &gt; **File Explorer** &gt; **File Repository Configuration**.
 
-2.  Fill the following fields as described in the following table:
+2.  On the form, fill in the fields.
 
 <table id="table_xcc_rjh_zpb"><thead><tr><th>
 
@@ -47,7 +48,7 @@ Provider
 
 </td><td>
 
-Name of the provider that is the third-party file hosting repository provider. For example,Microsoft SharePoint.
+Name of the provider that is the third-party file hosting repository provider. For example, Microsoft SharePoint.
 
 </td></tr><tr><td colspan="2">
 
@@ -75,7 +76,7 @@ Graph Connection
 
 </td><td>
 
-Select the File Explorer Graph tenant record. For more information on the tenant connection configuration, see [Microsoft SharePoint spoke](https://www.servicenow.com/docs/access?context=sharepoint-online-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+Select the File Explorer Graph tenant record. For more information on the tenant connection configuration, see Microsoft SharePoint spoke.
 
 </td></tr><tr><td>
 
@@ -83,25 +84,21 @@ Rest Connection
 
 </td><td>
 
-Select the File Explorer REST tenant record. For more information on the tenant connection configuration, see [Microsoft SharePoint spoke](https://www.servicenow.com/docs/access?context=sharepoint-online-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+Select the File Explorer REST tenant record. For more information on the tenant connection configuration, see Microsoft SharePoint spoke.
 
 </td></tr></tbody>
 </table>3.  Select **Save**.
 
-4.  Click **Test Connection** tab to test the connection and validate the file repository drive configuration properties.
+4.  Select **Test Connection** tab to test the connection and validate the file repository drive configuration properties.
 
     **Note:** Before **Activating** the file repository, make sure that the corresponding document library at Microsoft SharePoint doesn't have any folder or file data.
 
-5.  Click **Activate** to activate the file repository.
-
-    ![File Repository Drive](../image/file-explorer-drive-config.png)
+5.  Select **Activate** to activate the file repository.
 
 6.  Select the **Troubleshooting** check box to verify the file repository **Execution Details** and verify the **Fetch State** is complete and make sure that the Microsoft SharePoint Drive Subscriptions is created and state is complete.
-
-    ![File explorer execution details](../image/file-exp-drive-execution-details.png)
 
     **Note:** Using the **Test Connection** button, either MSI Administrator or MSI Manager can only validate the file repository configuration.
 
 
-**Parent Topic:**[Configure File Explorer Component](../concept/file-explorer.md)
+**Parent Topic:**[Configure File Explorer Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/file-explorer.md)
 

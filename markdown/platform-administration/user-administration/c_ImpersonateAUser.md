@@ -2,6 +2,7 @@
 title: Impersonating users
 description: Administrators are able to impersonate other authenticated users, a feature primarily used for testing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/user-administration/c\_ImpersonateAUser.html
 release: zurich
 product: User Administration
 classification: user-administration
@@ -17,11 +18,11 @@ Administrators are able to impersonate other authenticated users, a feature prim
 
 This function enables the administrator to access the system exactly as the impersonated user, including identical menus and modules. All actions performed by the administrator during impersonation are recorded as if they were executed by the impersonated user.
 
-![Impersonation example](../image/imperson_general.png)
+\[Omitted image "imperson\_general.png"\] Alt text: Impersonation example
 
 ## Impersonation limitations
 
-When you impersonate a user, all scope-protected roles and encryption module roles are supported if the **Impersonation** option is configured in the module access policy. See [Create a module access policy](https://www.servicenow.com/docs/access?context=create-module-access-policy&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) for details.
+When you impersonate a user, all scope-protected roles and encryption module roles are supported if the **Impersonation** option is configured in the module access policy. See Create a module access policy for details.
 
 Impersonating a user enables access to scope-protected and encryption roles, as defined in the access policy. However, if impersonating a user with an admin role, access to certain features and modules is limited unless the impersonator already possesses those roles.
 
@@ -51,14 +52,14 @@ More logins may be required to adequately test the system.
 
 ## Mobile impersonation
 
-Mobile impersonation is available on ServiceNow mobile apps. For information on mobile impersonations, see [Mobile impersonation](https://www.servicenow.com/docs/access?context=mobile-impersonation&version=zurich&pubname=zurich-mobile&ft:locale=en-US).
+Mobile impersonation is available on ServiceNow mobile apps. For information on mobile impersonations, see Mobile impersonation.
 
--   **[Manage the visibility of the impersonation feature](manage-the-visibility-of-the-impersonation-feature.md)**  
+-   **[Manage the visibility of the impersonation feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/manage-the-visibility-of-the-impersonation-feature.md)**  
 Before users can impersonate another user, an administrator must make the feature visible.
--   **[Impersonate a user](../task/t_ImpersonateAUserInUI16.md)**  
+-   **[Impersonate a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/t_ImpersonateAUserInUI16.md)**  
 You can select a user or enter a different user name to perform an impersonation.
--   **[Impersonation logs](c_LogImpersonations.md)**  
+-   **[Impersonation logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/c_LogImpersonations.md)**  
 Impersonations are logged in the system log.
 
-**Parent Topic:**[Monitoring user activity](../../roles/concept/user-admin-tools-landing.md)
+**Parent Topic:**[Monitoring user activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/user-admin-tools-landing.md)
 

@@ -2,6 +2,7 @@
 title: Configure security
 description: Record feeds honor the access control rules \(ACLs\) for the associated record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/live-feed/c\_ConfigureSecurity.html
 release: zurich
 product: Live Feed
 classification: live-feed
@@ -22,5 +23,5 @@ Users can only view messages on the record feed if they have access to the same 
 
 **Note:** Access control rules are only checked when a user first accesses the record feed. After users view the feed, an administrator must remove them manually to change their access.
 
-**Parent Topic:**[Record feeds](c_RecordFeeds.md)
+**Parent Topic:**[Record feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/live-feed/c_RecordFeeds.md)
 

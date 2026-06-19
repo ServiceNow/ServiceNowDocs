@@ -2,6 +2,7 @@
 title: Client-side scripting
 description: Run JavaScript on the client \(web browser\) when client-based events occur, such as when a form loads, after form submission, or when a field changes value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/client-side-scripting-overview.html
 release: zurich
 product: Scripts
 classification: scripts
@@ -15,24 +16,24 @@ breadcrumb: [Scripting, API implementation, API implementation and reference]
 
 Run JavaScript on the client \(web browser\) when client-based events occur, such as when a form loads, after form submission, or when a field changes value.
 
-The client-side [Glide](../../general-scripting/reference/r_GlideClassOverview.md) API provides classes and methods that you can use in client scripts.
+The client-side [Glide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/r_GlideClassOverview.md) API provides classes and methods that you can use in client scripts.
 
 ## Before you begin
 
-Understand the limitations of your scripting environment. For example, client scripts run on forms in the Service Portal or Mobile environments can only include certain APIs. For more information, see [Mobile client GlideForm \(g form\) scripting and migration](../reference/r_MobilePlatformMigrationImpacts.md).
+Understand the limitations of your scripting environment. For example, client scripts run on forms in the Service Portal or Mobile environments can only include certain APIs. For more information, see [Mobile client GlideForm \(g form\) scripting and migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/r_MobilePlatformMigrationImpacts.md).
 
--   **[Client-side scripting design and processing](client-script-best-practices.md#)**  
+-   **[Client-side scripting design and processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/client-script-best-practices.md)**  
 Well-designed client scripts can reduce the amount of time it takes users to complete a form.
--   **[Client scripts](client-scripts.md)**  
+-   **[Client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/client-scripts.md)**  
 Client scripts allow the system to run JavaScript on the client \(web browser\) when client-based events occur, such as when a form loads, after form submission, or when a field changes value.
--   **[UI scripts](c_UIScripts.md#)**  
+-   **[UI scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_UIScripts.md)**  
 UI scripts provide a way to package client-side JavaScript into a reusable form, similar to how script includes store server-side JavaScript. Administrators can create UI scripts and run them from client scripts and other client-side script objects and from HTML code.
--   **[Catalog client scripts](c_CatalogClientScriptCreation.md#)**  
+-   **[Catalog client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_CatalogClientScriptCreation.md)**  
 Client-side scripts can add dynamic effects and validation to forms. Scripts can apply to service catalog items or variable sets, allowing administrators to use the same functionality that is available on other forms.
--   **[Mobile client GlideForm \(g form\) scripting and migration](../reference/r_MobilePlatformMigrationImpacts.md)**  
+-   **[Mobile client GlideForm \(g form\) scripting and migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/r_MobilePlatformMigrationImpacts.md)**  
 Client scripting for mobile is identical to scripting for the web, with some exceptions. All new scripts must conform to certain guidelines. The following items are affected on the mobile platform: client scripts, UI policies, navigator modules, and UI actions.
--   **[AJAX](../../ajax/topic/p_AJAX.md#)**  
+-   **[AJAX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/p_AJAX.md)**  
 AJAX \(asynchronous JavaScript and XML\) is a group of interrelated, client-side development techniques used to create asynchronous Web applications.
 
-**Parent Topic:**[Scripting](../../topic/c_Script.md)
+**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_Script.md)
 

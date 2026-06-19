@@ -2,6 +2,7 @@
 title: Export OSCAL catalog
 description: Export selected control objectives from Continuous Authorization and Monitoring to Open Security Controls Assessment Language \(OSCAL\) JSON format for external system integration or catalog backup.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/export-catalog-cam-ws.html
 release: zurich
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -23,15 +24,13 @@ Role required: sn\_irm\_cont\_auth.authorization\_official, sn\_irm\_cont\_auth.
 
 1.  Navigate to **Workspaces** &gt; **CAM Workspace**.
 
-2.  In the CAM Workspace, select the List icon \(![List](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the CAM Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List\).
 
 3.  Select Control objectives from the **Compliance** list.
 
 4.  From the list view, select one or more control objectives records which need to be exported.
 
 5.  Select **OSCAL Export**.
-
-    ![Export OSCAL of control objectives.](../image/cam-export-oscal-control-objective.gif)
 
     **OSCAL Export** pop-window displays.
 
@@ -42,5 +41,5 @@ Role required: sn\_irm\_cont\_auth.authorization\_official, sn\_irm\_cont\_auth.
     The catalog JSON file is downloaded in your local repository.
 
 
-**Parent Topic:**[Export in OSCAL format](../concept/oscal-support-cam.md)
+**Parent Topic:**[Export in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-support-cam.md)
 

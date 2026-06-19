@@ -2,6 +2,7 @@
 title: Requiring basic authentication for incoming JSONv2 requests
 description: The following system property controls whether basic authentication is required for incoming JSONv2 requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/c\_ReqBasicAuthIncomJSONv2Requ.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -34,7 +35,7 @@ Enables \(true\) or disables \(false\) requiring basic authentication for incomi
 -   Location:Add to the System Properties \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>**Note:** To learn more about this property, see [Basic auth: JSONv2 requests](https://www.servicenow.com/docs/access?context=sc-jsonv2-request-authorization&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) in Instance Security Hardening Settings.
+</table>**Note:** To learn more about this property, see Basic auth: JSONv2 requests in Instance Security Hardening Settings.
 
-**Parent Topic:**[JSONv2 web service](c_JSONv2WebService.md)
+**Parent Topic:**[JSONv2 web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_JSONv2WebService.md)
 

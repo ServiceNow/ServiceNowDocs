@@ -2,6 +2,7 @@
 title: Keyboard shortcuts
 description: The keyboard shortcuts provided with Indoor Mapping allow Map Studio administrators to quickly perform common administrative tasks by using keys in the Map Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/indoor-mapping/keyboard-shortcuts.html
 release: zurich
 product: Indoor Mapping
 classification: indoor-mapping
@@ -25,13 +26,13 @@ Role required: map admin, map editor, map editor limited
 
 2.  Select a campus.
 
-3.  Click the help icon \(![icon for showing the keyboard shortcuts list](../images/keyboard-shortcut-icon.png)\) to display the list of keyboard shortcuts available.
+3.  Click the help icon \(\[Omitted image "keyboard-shortcut-icon.png"\] Alt text: icon for showing the keyboard shortcuts list\) to display the list of keyboard shortcuts available.
 
     You can also use **cmd + :** \(Mac\) or **ctrl+:** \(Windows\) to display the keyboards shortcut list. Press **esc** to close the dialog box.
 
-    ![List of keyboard shortcuts](../images/keyboard-shortcuts2-use.png "List of keyboard shortcuts")
+    \[Omitted image "keyboard-shortcuts2-use.png"\] Alt text: List of keyboard shortcuts
 
-4.  To display the keyboard shortcuts for **Directions** click the help icon \(![Help or question mark icon](../images/help_question_mark_icon.png)\) available on the top right pane of the Map Studio.
+4.  To display the keyboard shortcuts for **Directions** click the help icon \(\[Omitted image "help\_question\_mark\_icon.png"\] Alt text: Help or question mark icon\) available on the top right pane of the Map Studio.
 
     -   Toggle draw mode; **cmd + m** \(Mac\) or **ctrl+m** \(Windows\).
     -   Save all updated graphs: **cmd +s** \(Mac\) or **ctrl+m** \(Windows\).
@@ -46,9 +47,9 @@ Role required: map admin, map editor, map editor limited
     -   Cancel the create a place process: **esc** \(Mac\) or **Esc** \(Windows\)
     -   Delete a selected place: **fn + delete** \(Mac\) or **Backspace** \(Windows\).
 
-**Parent Topic:**[Manage map objects and data](../concept/using-indoor-mapping.md)
+**Parent Topic:**[Manage map objects and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/using-indoor-mapping.md)
 
-**Previous topic:**[Create Snapshots to migrate Indoor Mapping data](snapshot-ind-mapping.md)
+**Previous topic:**[Create Snapshots to migrate Indoor Mapping data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/snapshot-ind-mapping.md)
 
-**Next topic:**[Synchronize Indoor Mapping with Workplace Service Delivery](synchronize-ind-mapping-wsd.md)
+**Next topic:**[Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md)
 

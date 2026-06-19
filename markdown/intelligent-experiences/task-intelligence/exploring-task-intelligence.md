@@ -2,6 +2,7 @@
 title: Exploring Task Intelligence
 description: Learn more about Task Intelligence and how machine learning models can learn from your data to make predictions and achieve important outcomes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/task-intelligence/exploring-task-intelligence.html
 release: zurich
 product: Task Intelligence
 classification: task-intelligence
@@ -26,7 +27,7 @@ With Task Intelligence, agents:
 -   Reduce  error  rates  and  drive down  costs
 -   Improve time to value with intuitive experiences
 
-![GIF of the Admin Console.](../images/setup-screen.png)
+\[Omitted image "setup-screen.png"\] Alt text: GIF of the Admin Console.
 
 The Admin Console supports the following model types:
 
@@ -48,11 +49,11 @@ Incident field prediction
 
 </td><td>
 
-[Task Intelligence for ITSM](https://www.servicenow.com/docs/access?context=c-itsm-task-intelligence&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+Task Intelligence for ITSM
 
 </td><td>
 
-[Create an incident field prediction model](https://www.servicenow.com/docs/access?context=create-incident-prediction-model&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+Create an incident field prediction model
 
 </td></tr><tr><td>
 
@@ -60,11 +61,11 @@ Similarity model management
 
 </td><td>
 
-[Task Intelligence for ITSM](https://www.servicenow.com/docs/access?context=c-itsm-task-intelligence&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+Task Intelligence for ITSM
 
 </td><td>
 
-[Create a similar records prediction model in Task Intelligence for ITSM](https://www.servicenow.com/docs/access?context=create-a-similar-records-model-in-task-intelligence-for-itsm&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+
 
 </td></tr><tr><td>
 
@@ -72,13 +73,13 @@ Case field prediction
 
 </td><td>
 
-[Task Intelligence for CSM](https://www.servicenow.com/docs/access?context=csm-task-intelligence&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
+Task Intelligence for CSM
 
 </td><td>
 
 Predicts output fields on case forms, including categorization.
 
- [Record categorization](https://www.servicenow.com/docs/access?context=case-categorization-overview&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
+ 
 
 </td></tr><tr><td>
 
@@ -86,7 +87,7 @@ Sentiment prediction
 
 </td><td>
 
-[Task Intelligence for CSM](https://www.servicenow.com/docs/access?context=csm-task-intelligence&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
+Task Intelligence for CSM
 
 </td><td>
 
@@ -100,7 +101,7 @@ Language detection
 
 </td><td>
 
-[Task Intelligence for CSM](https://www.servicenow.com/docs/access?context=csm-task-intelligence&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
+Task Intelligence for CSM
 
 </td><td>
 
@@ -121,14 +122,14 @@ Training a machine learning model is when the model learns patterns in past data
 
 The Task Intelligence Admin Console provides admins with a no-code experience for deploying Task Intelligence solutions. The seamless experience helps you automate and optimize task creation, deflection, triaging, and resolution.
 
-Features are implemented by two applications: [Task Intelligence for Customer Service](https://www.servicenow.com/docs/access?context=csm-task-intelligence&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US) and [Task Intelligence for ITSM](https://www.servicenow.com/docs/access?context=c-itsm-task-intelligence&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+Features are implemented by two applications:  and Task Intelligence for ITSM.
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
 |Predict form field values to auto-populate or recommend as suggestions|Create a field prediction model|Admins, agents|
-|Categorize emails and cases based on language and attachment content|[Record categorization](https://www.servicenow.com/docs/access?context=case-categorization-overview&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)|Agents|
+|Categorize emails and cases based on language and attachment content||Agents|
 |Predict incident category and priority based on previous incidents to lower time to resolution|Create an incident prediction model|Agents|
-|Analyze initial and ongoing sentiment during customer service cases|[Sentiment Analysis](https://www.servicenow.com/docs/access?context=case-sentiment-analysis&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)|Agents|
-|Identify the language used to create customer service cases|[Language detection](https://www.servicenow.com/docs/access?context=case-language-detection&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)|Agents|
+|Analyze initial and ongoing sentiment during customer service cases||Agents|
+|Identify the language used to create customer service cases||Agents|
 |Analyze and assess the performance of models|Task Intelligence Analytics and Monitoring|Admins|
 

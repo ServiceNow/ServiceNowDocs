@@ -2,6 +2,7 @@
 title: MID Server selection
 description: You can configure MID Server selection by application, IP address ranges, network capability, or behavior. Specific MID Servers can be assigned to particular tasks, or the MID Server can be selected automatically. MID Servers can use domain separation to limit the scope of discoveries and event management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/mid-server/c\_MIDServerSelector.html
 release: zurich
 product: MID Server
 classification: mid-server
@@ -26,7 +27,7 @@ You can configure MID Server selection by application, IP address ranges, networ
 -   **Use specific MID Server**: Automatic reassignment to another MID Server is not supported.
 -   **Use specific MID Server cluster**: Automatic reassignment to another MID Server only selects from members of the specified cluster.
 
-For Agent Client Collector, refer to [Automatic MID Server selection](https://www.servicenow.com/docs/access?context=acc-auto-mid-selection&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+For Agent Client Collector, refer to .
 
 ## MID Server criteria
 
@@ -40,12 +41,12 @@ MID Servers offer these types of criteria that help an application determine whi
     -   Event Management
     -   Operational Intelligence
     -   Cloud Management
-    An **ALL** application option is also available. By default, this option includes all applications. You can [configure which applications](../task/t_SpecifyMIDServerApplications.md#) are included in the **ALL** designation.
+    An **ALL** application option is also available. By default, this option includes all applications. You can [configure which applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/t_SpecifyMIDServerApplications.md) are included in the **ALL** designation.
 
--   **IP address or range**: The IP address or the IP ranges that the MID Server is allowed to work within. You can specify an IP address or IP range in the application, such as on a Discovery schedule or an Orchestration activity, and for the MID Server. If the IP configured in the application matches the IP address or falls within the allowable IP range configured on the MID Server, a match is possible, and that MID Server passes this criteria. To have the instance automatically assign IP ranges \(subnets\) to available MID Servers, see [Using MID Server IP range auto-assignment](mid-servers-auto-assignment.md#).
--   **Capabilities**: The [network capability](../reference/r_MIDServerCapabilities.md) an application needs to use, such as the [PowerShell Orchestration activity](../../orchestration/reference/mid-server-powershell-files.md) or the Workflow Studio [PowerShell step](https://www.servicenow.com/docs/access?context=powershell-step-action-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US). Some applications, like Cloud Management, require a specific capability.
+-   **IP address or range**: The IP address or the IP ranges that the MID Server is allowed to work within. You can specify an IP address or IP range in the application, such as on a Discovery schedule or an Orchestration activity, and for the MID Server. If the IP configured in the application matches the IP address or falls within the allowable IP range configured on the MID Server, a match is possible, and that MID Server passes this criteria. To have the instance automatically assign IP ranges \(subnets\) to available MID Servers, see [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-servers-auto-assignment.md).
+-   **Capabilities**: The [network capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown) an application needs to use, such as the [PowerShell Orchestration activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/mid-server-powershell-files.md) or the Workflow Studio PowerShell step. Some applications, like Cloud Management, require a specific capability.
 
-    **Note:** Discovery and Service Mapping can also use behaviors, which determine the type of port probes used during the port scan phase of Discovery. Both Discovery and Service Mapping use a behavior to discover [Create a discovery behavior for Unix-based load balancers](https://www.servicenow.com/docs/access?context=t_CreateDiscoBehavior4LB&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US). Other applications do not use behaviors. Behaviors are not used for auto-selection, default MID Servers, or specific MID Servers as described below. See [Discovery behaviors](https://www.servicenow.com/docs/access?context=c_DiscoveryBehaviors&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US) for more information.
+    **Note:** Discovery and Service Mapping can also use behaviors, which determine the type of port probes used during the port scan phase of Discovery. Both Discovery and Service Mapping use a behavior to discover Create a discovery behavior for Unix-based load balancers. Other applications do not use behaviors. Behaviors are not used for auto-selection, default MID Servers, or specific MID Servers as described below. See Discovery behaviors for more information.
 
 
 ## How an application selects a MID Server
@@ -74,11 +75,11 @@ Discovery\(Select **Auto-Select MID Server** on the Discovery schedule\)
 
 </td><td>
 
-The **Discovery** or **ALL** application must be [specified on the MID Server](../task/t_SpecifyMIDServerApplications.md#).
+The **Discovery** or **ALL** application must be [specified on the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/t_SpecifyMIDServerApplications.md).
 
 </td><td>
 
-Discovery uses IP ranges that you configure on the [Discovery Schedule form](https://www.servicenow.com/docs/access?context=t_CreateADiscoverySchedule&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US) to see if they fall within the IP ranges that you configure on the MID Server, or the **ALL** IP ranges option must be selected on the MID Server.
+Discovery uses IP ranges that you configure on the Discovery Schedule form to see if they fall within the IP ranges that you configure on the MID Server, or the **ALL** IP ranges option must be selected on the MID Server.
 
 </td><td>
 
@@ -98,7 +99,7 @@ The target IP address that you configure in an Orchestration activity must fall 
 
 </td><td>
 
-The capability that is required for an Orchestration activity must match the [capabilities you configure on the MID Server](../task/t_ConfigureCapabilities.md#), or the MID Server capability must be set to **ALL**.
+The capability that is required for an Orchestration activity must match the [capabilities you configure on the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/t_ConfigureCapabilities.md), or the MID Server capability must be set to **ALL**.
 
 </td></tr><tr><td>
 
@@ -126,7 +127,7 @@ The **Event Management** or **ALL** application must be specified on the MID Ser
 
 </td><td>
 
-The IP configured in the event connector instances, such as [Configure event collection from HPOM](https://www.servicenow.com/docs/access?context=t_EMConfigureHPOMConnector&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US), must fall within the IP range configured on the MID Server.
+The IP configured in the event connector instances, such as Configure event collection from HPOM, must fall within the IP range configured on the MID Server.
 
 </td><td>
 
@@ -192,7 +193,7 @@ A MID server is picked from set of MID servers at the highest status level as fo
 
 Discovery and Event Management can use a MID Server that you specifically call out.
 
-**Note:** Selecting a specific MID Server is not the same as specifying the [default MID Server for an application](../task/t_SpecifyMIDServerApplications.md#). A specific MID Server is always used. If it is **Down** or not validated, the application does not execute commands against the MID Server. A default MID Server is fallback that is used when the auto-selection of MID Servers does not find any eligible MID Server.
+**Note:** Selecting a specific MID Server is not the same as specifying the [default MID Server for an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/t_SpecifyMIDServerApplications.md). A specific MID Server is always used. If it is **Down** or not validated, the application does not execute commands against the MID Server. A default MID Server is fallback that is used when the auto-selection of MID Servers does not find any eligible MID Server.
 
 <table id="table_nbd_23b_vw"><thead><tr><th>
 
@@ -212,7 +213,7 @@ Discovery
 
 </td><td>
 
-Choose the MID Server on the Discovery schedule.**Note:** You can also specify [a cluster of MID Servers](../task/t_ConfigureAMIDServerCluster.md#).
+Choose the MID Server on the Discovery schedule.**Note:** You can also specify [a cluster of MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md).
 
 </td><td>
 
@@ -248,7 +249,7 @@ Event Management
 
 </td><td>
 
-Choose one or more MID Servers on the connector instance event collection, such as [Configure event collection from HPOM](https://www.servicenow.com/docs/access?context=t_EMConfigureHPOMConnector&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+Choose one or more MID Servers on the connector instance event collection, such as Configure event collection from HPOM.
 
 </td><td>
 
@@ -267,7 +268,7 @@ N/A
 N/A
 
 </td></tr></tbody>
-</table>**Note:** If a MID Server manages resources within defined IP ranges for Orchestration, you must map the fully-qualified domain name \(FQDN\) of a server with its IP address to run certain activities, such as [Exchange activities](../../../administer/orchestration-activities/task/t_ConfigureMIDServerForExchange.md).
+</table>**Note:** If a MID Server manages resources within defined IP ranges for Orchestration, you must map the fully-qualified domain name \(FQDN\) of a server with its IP address to run certain activities, such as [Exchange activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_ConfigureMIDServerForExchange.md).
 
 ## Domain separation
 
@@ -279,14 +280,16 @@ If you are using domain separation, you can configure MID Servers to be in separ
 
 If Service Mapping is active, you can preview which MID Server that Service Mapping uses for a specific target device or computer. To do this, navigate to **Service Mapping** &gt; **MID Servers** and click **MID Selection Test**. Enter the IP address and an optional application and capability, and then click **OK**. The name of the MID Server that Service Mapping will use appears in the window.
 
+**Note:** The MID Server selection test lists suitable MID Servers based on IP address range, application, and capability assignment only. It does not test or validate MID Affinity selection logic.
+
 ## Related topics
 
--   **[Configure a default MID Server for each application](../task/t_SpecifyMIDServerApplications.md#)**  
+-   **[Configure a default MID Server for each application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/t_SpecifyMIDServerApplications.md)**  
 You can configure a default MID Server that an application can use if all other possible MID Servers are unavailable. You can narrow down the list of applications that are included in the definition of ALL.
--   **[Configure an IP address range for the MID Server](../task/t_ConfigureMIDIPRange.md)**  
+-   **[Configure an IP address range for the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/t_ConfigureMIDIPRange.md)**  
 You can manually configure an IP address range for the MID Server to explore.
--   **[Override the MID Server selection filter](../task/override_mid_server_selector.md)**  
+-   **[Override the MID Server selection filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/override_mid_server_selector.md)**  
 Use the override feature to write your own filter condition that overrides the normal MID Server selection criteria for an application. An override has precedence over the default filter and can be defined for a specific selection condition.
 
-**Parent Topic:**[Configuring MID Servers](c_MIDServerConfiguration.md)
+**Parent Topic:**[Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/c_MIDServerConfiguration.md)
 

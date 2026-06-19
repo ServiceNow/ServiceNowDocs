@@ -2,6 +2,7 @@
 title: Create a strict mode connection for Microsoft Exchange On-Premises
 description: Configure a strict mode connection between the Microsoft Exchange On-Premises and ServiceNow. Specify your strict mode setting and email address.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-calendar-synchronization/create-a-strict-mode-connection-for-onprem.html
 release: zurich
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization

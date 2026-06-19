@@ -2,6 +2,7 @@
 title: Configure content filtering definitions
 description: Specify which content a user can access by creating content definitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/configure-content-filtering.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -49,5 +50,5 @@ Workflow Studio includes several content definitions and filtering rules by defa
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Content filtering for Workflow Studio flows](../concept/content-filtering-flow-designer.md)
+**Parent Topic:**[Content filtering for Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/content-filtering-flow-designer.md)
 

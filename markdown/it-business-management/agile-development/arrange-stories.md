@@ -2,6 +2,7 @@
 title: Arrange Agile Development 2.0 stories in Agile Board using the keyboard
 description: Learn how to use the keyboard to move and rearrange Agile Development 2.0 stories in the Backlog and Sprint Planning tabs of your Agile board.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/arrange-stories.html
 release: zurich
 product: Agile Development
 classification: agile-development
@@ -25,7 +26,7 @@ Role required: scrum\_admin, scrum\_master, scrum\_product\_owner, or scrum\_spr
 
     1.  Highlight the desired story by pressing the Tab key.
 
-    2.  Highlight the context menu \(![Context menu icon](../image/plan-sprint-activity.png)\) icon on the story by pressing the Tab key again.
+    2.  Highlight the context menu \(\[Omitted image "plan-sprint-activity.png"\] Alt text: Context menu icon\) icon on the story by pressing the Tab key again.
 
     3.  Select the story by pressing the Enter key.
 
@@ -46,16 +47,16 @@ Role required: scrum\_admin, scrum\_master, scrum\_product\_owner, or scrum\_spr
 
             Repeat this process to select other stories.
 
-    4.  Highlight the context menu \(![Context menu icon](../image/plan-sprint-activity.png)\) icon on the story by pressing the Tab key again.
+    4.  Highlight the context menu \(\[Omitted image "plan-sprint-activity.png"\] Alt text: Context menu icon\) icon on the story by pressing the Tab key again.
 
     5.  Press the Enter key to group all the selected stories.
 
-        Multiple stories that you selected appear grouped.![Image showing multiple stories selected on the Agile Board.](../../agile-development/image/stories-grouped-using-keyboard.png)
+        Multiple stories that you selected appear grouped.\[Omitted image "stories-grouped-using-keyboard.png"\] Alt text: Image showing multiple stories selected on the Agile Board.
 
     6.  Move the stories to the desired position using the up and down arrow keys.
 
     7.  Fix the position of the stories by pressing the Enter key.
 
 
-**Parent Topic:**[Manage your product backlog in Agile Development 2.0](manage-maintain-backlog.md)
+**Parent Topic:**[Manage your product backlog in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/manage-maintain-backlog.md)
 

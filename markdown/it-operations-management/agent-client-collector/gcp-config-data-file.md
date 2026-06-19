@@ -2,6 +2,7 @@
 title: Configure the Google Cloud Platform \(GCP\) configuration data file
 description: Configure the Google Cloud Platform \(GCP\) configuration data file to monitor metrics in your GCP environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/gcp-config-data-file.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -31,10 +32,10 @@ The GCP configuration data file is a .json file which contains all of the metric
 
 3.  Download and add the GCP metrics to the configuration file that you want to be monitored.
 
-    For details on the available GCP metrics, see [Google Cloud Platform \(GCP\) metrics](../reference/gcp-metrics.md).
+    For details on the available GCP metrics, see [Google Cloud Platform \(GCP\) metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/gcp-metrics.md).
 
-4.  Select the Manage Attachments icon \(![](../image/paper-clip-icon.png)\) to attach the updated configuration file.
+4.  Select the Manage Attachments icon \(\[Omitted image "paper-clip-icon.png"\] Alt text:\) to attach the updated configuration file.
 
 
-**Parent Topic:**[Agent Client Collector deployment - shared between servers and endpoints](../concept/acc-shared-deployment.md)
+**Parent Topic:**[Agent Client Collector deployment - shared between servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-shared-deployment.md)
 

@@ -2,6 +2,7 @@
 title: Restrict an incident access
 description: You can restrict an incident ticket that contains sensitive information. By marking an incident as restricted, you limit its access for the agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/restrict-incident-access.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -41,5 +42,5 @@ Both agents and users can mark an incident as restricted. Users can mark an inci
 4.  Click **Update**.
 
 
-**Parent Topic:**[Universal Request integration - Incident Management](../concept/inci-mgmt-integ-with-univ-req.md)
+**Parent Topic:**[Universal Request integration - Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/inci-mgmt-integ-with-univ-req.md)
 

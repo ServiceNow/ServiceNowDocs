@@ -2,6 +2,7 @@
 title: Optimizing technician schedules at set intervals throughout the day
 description: Efficiently reassign tasks and maximize productivity by continuously running schedule optimization at selected intervals throughout the day.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -23,7 +24,7 @@ Create a policy, a grouping of optimization features that run in combination, to
 
 The basic intra-day flow runs every 60 minutes by default, with a minimum option of every 15 minutes. When a trigger condition is met, an intraday event is created. When the next intraday flow runs, an intra-day job is created for each of the groups or territories that have intraday events and those qualifiers are optimized. When a group or territory is selected for optimization, all tasks within the group are considered for optimization, except for schedule-locked tasks. When optimization is complete and the tasks are updated, the intraday job shows a status of Assignment Complete.
 
-Dispatchers can manually trigger optimization to run from the Dispatcher Workspace when the intraday on demand optimization configuration is enabled and an on demand applicable policy has been added to the scheduling attribute. See [Create a scheduling attribute for Schedule Optimization](configure-scheduling-attributes.md) to add an on demand applicable policy to the configuration.
+Dispatchers can manually trigger optimization to run from the Dispatcher Workspace when the intraday on demand optimization configuration is enabled and an on demand applicable policy has been added to the scheduling attribute. See [Create a scheduling attribute for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/configure-scheduling-attributes.md) to add an on demand applicable policy to the configuration.
 
 Note that agent schedules can't be manually updated until intraday optimization is complete.
 

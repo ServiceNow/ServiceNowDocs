@@ -2,6 +2,7 @@
 title: Manage a control objective from the overview page
 description: The Overview page of the control objective record gives you the overall details of its compliance status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/co-overview-pc-ws.html
 release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -19,7 +20,7 @@ The Overview page of the control objective record gives you the overall details 
 
 The control assurance section helps you to know if different attestations are in place, which demonstrates that the control has been implemented correctly. The indicators, in addition to control attestations, help to assess the controls or to monitor their compliance continuously. The ongoing and overdue status of tests conducted on controls is the key determinant by which the organization determines that its policies and authority documents are being followed.
 
-For more contextual information about the control objective, select the sidebar icon \(![Sidebar icon.](../image/pc-ws-sidebar-icon.png)\). For a given control objective record, you can view the hierarchy of mappings back to the authority documents and policies that show why you do the actions indicated in the control objective.
+For more contextual information about the control objective, select the sidebar icon \(\[Omitted image "pc-ws-sidebar-icon.png"\] Alt text: Sidebar icon.\). For a given control objective record, you can view the hierarchy of mappings back to the authority documents and policies that show why you do the actions indicated in the control objective.
 
 A control objective record has many related lists that come from different applications such as Advanced Risk, GRC Metric, PaCE, and others, which are listed next to the Overview. You can map or associate any of these available related list item with the control objective. For example, if you would like to add an entity type to the control objective, you can navigate to the Entity types related list, select the **Add** button, and map the required entity type.
 

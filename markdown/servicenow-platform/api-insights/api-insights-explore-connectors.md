@@ -2,6 +2,7 @@
 title: Exploring Service Graph Connectors for API data within API Insights
 description: You can explore available options for onboarding and maintaining API data using Service Graph Connectors within API Insights.Keep a Service Graph Connector for importing API data up-to-date within API Insights.Install a Service Graph Connector for importing API data that matches an entitlement available in Application Manager from within API Insights.Explore ServiceNow Store to request and use a Service Graph Connector with no available entitlements for importing API data from within API Insights.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/api-insights/api-insights-explore-connectors.html
 release: zurich
 product: API Insights
 classification: api-insights
@@ -15,13 +16,13 @@ breadcrumb: [Monitor connections, Manage API data connections, API Insights, Con
 
 You can explore available options for onboarding and maintaining API data using Service Graph Connectors within API Insights.
 
-Service Graph Connectors are integrations that facilitate data ingestion into the Configuration Management Database \(CMDB\) from various third-party sources. To learn more, see [Getting started with Service Graph Connectors](../../configuration-management/concept/cmdb-sgc-intro.md) and [API Service Graph Connectors](../../configuration-management/concept/api-sgc-available.md).
+Service Graph Connectors are integrations that facilitate data ingestion into the Configuration Management Database \(CMDB\) from various third-party sources. To learn more, see [Getting started with Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md) and [API Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-available.md).
 
 Options for maintaining Service Graph Connectors for importing API data within API Insights include:
 
--   [Update an installed Service Graph Connector in API Insights](api-insights-explore-connectors.md#).
--   [Install a Service Graph Connector with an available entitlement in API Insights](api-insights-explore-connectors.md#).
--   [Install a Service Graph Connector from ServiceNow Store within API Insights](api-insights-explore-connectors.md#).
+-   [Update an installed Service Graph Connector in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/api-insights/api-insights-explore-connectors.md).
+-   [Install a Service Graph Connector with an available entitlement in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/api-insights/api-insights-explore-connectors.md).
+-   [Install a Service Graph Connector from ServiceNow Store within API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/api-insights/api-insights-explore-connectors.md).
 
 ## Update an installed Service Graph Connector in API Insights
 
@@ -45,7 +46,7 @@ Role required: sn\_cmdb\_admin and cmdb\_inst\_admin
 
     -   Select a connector to access the connector in Application Manager and then install any updates.
     -   Select **Install updates** to open Application Manager, and then view and install updates for a connector from the **Updates** tab.
-    For more information, see [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For more information, see .
 
 
 ## Install a Service Graph Connector with an available entitlement in API Insights
@@ -68,7 +69,7 @@ Role required: sn\_cmdb\_admin and cmdb\_inst\_admin
 
 5.  In Application Manager, review the entitlements and install a connector for API data.
 
-    For more information, see [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For more information, see .
 
 
 ## Install a Service Graph Connector from ServiceNow Store within API Insights

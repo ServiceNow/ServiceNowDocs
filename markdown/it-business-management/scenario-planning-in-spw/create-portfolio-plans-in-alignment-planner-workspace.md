@@ -2,6 +2,7 @@
 title: Create a portfolio plan
 description: Use lens and build a personalized portfolio plan in Strategic Planning Workspace so that you can start to prioritize and align work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -26,7 +27,7 @@ Use a four-step wizard to select a lens, add conditions to filter the planning i
 
 \(For Enterprise Architecture Workspace users only\) You must install Enterprise Architecture Workspace to create a portfolio plan using the Business Capability lens. You must have the sn\_apm.apm\_user role to create a portfolio plan using the Business Capability lens.
 
-This task guides you on creating a regular work item-level portfolio plan. To create high-level portfolio plans, see [Create a high-level portfolio plan](high-level-portfolio-plan-strategic-wkspc.md).
+This task guides you on creating a regular work item-level portfolio plan. To create high-level portfolio plans, see [Create a high-level portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/high-level-portfolio-plan-strategic-wkspc.md).
 
 ## Procedure
 
@@ -54,7 +55,7 @@ This task guides you on creating a regular work item-level portfolio plan. To cr
 
         You can also add multiple conditions to set a complex filter and add the right planning items to your portfolio plan.
 
-        ![Select planning items and add conditions for portfolio plan.](../images/portfolio-plan-wizard.png)
+        \[Omitted image "portfolio-plan-wizard.png"\] Alt text: Select planning items and add conditions for portfolio plan.
 
     4.  Fill in the details of the portfolio plan.
 
@@ -66,7 +67,7 @@ This task guides you on creating a regular work item-level portfolio plan. To cr
 
     5.  Select a scoring framework using the drop-down values or from the Scoring framework window.
 
-        To create a custom scoring framework for your portfolio plan, select **Explore scoring frameworks**.![Select a scoring framework for your portfolio plan.](../images/scoring.png)
+        To create a custom scoring framework for your portfolio plan, select **Explore scoring frameworks**.\[Omitted image "scoring.png"\] Alt text: Select a scoring framework for your portfolio plan.
 
     You can use **Previous** and **Next** to navigate between the steps.
 
@@ -88,7 +89,7 @@ Planning items that meet the following criteria appear in the portfolio plan:
 
 ## What to do next
 
--   Define goals for your portfolio plan and align your work to them. See [Managing portfolio plan goals in Strategic Planning Workspace](../../spw-goals/concept/managing-goals-in-alignment-planner-workspace.md).
--   Analyze the backlog and prioritize work for your portfolio plan. See [Prioritizing portfolio plan work in Strategic Planning Workspace](../../spw-prioritization/concept/managing-backlog-alignment-planner-workspace.md).
--   Show or hide features for your portfolio plan according to your requirement while sharing a portfolio plan with your stakeholders. See, [Show or hide the features for a portfolio plan](show-or-hide-the-features-for-your-portfolio-plan-spw.md).
+-   Define goals for your portfolio plan and align your work to them. See [Managing portfolio plan goals in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/managing-goals-in-alignment-planner-workspace.md).
+-   Analyze the backlog and prioritize work for your portfolio plan. See [Prioritizing portfolio plan work in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/managing-backlog-alignment-planner-workspace.md).
+-   Show or hide features for your portfolio plan according to your requirement while sharing a portfolio plan with your stakeholders. See, [Show or hide the features for a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/show-or-hide-the-features-for-your-portfolio-plan-spw.md).
 

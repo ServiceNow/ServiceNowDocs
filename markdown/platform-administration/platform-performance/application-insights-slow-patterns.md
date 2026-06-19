@@ -2,6 +2,7 @@
 title: Solving slow patterns
 description: You can identify, prioritize, and troubleshoot performance issues related to slow patterns in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-performance/application-insights-slow-patterns.html
 release: zurich
 product: Platform Performance
 classification: platform-performance
@@ -15,7 +16,7 @@ breadcrumb: [Application Insights, Monitor, Platform performance, Maintain and m
 
 You can identify, prioritize, and troubleshoot performance issues related to slow patterns in your instance.
 
-Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the [Overview of Instance Observer](https://www.servicenow.com/docs/access?context=io-overview&version=zurich&pubname=zurich-impact&ft:locale=en-US) product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
+Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the  product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -28,8 +29,8 @@ Identify performance issues related to slow patterns, for example, poorly perfor
 
 For example, the Slow Queries table shows which queries have high average execution times within the selected time range compared to the overall average execution time. A high average execution time indicates that an entry is performing poorly. Once you identify a slow query that needs investigating, select the query to view a graph of the performance over time, and then access the slow query record for details.
 
--   **[Troubleshoot a slow pattern](../task/troubleshoot-slow-pattern.md)**  
+-   **[Troubleshoot a slow pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/troubleshoot-slow-pattern.md)**  
 Identify the source of a slow pattern and prioritize potential performance improvements.
 
-**Parent Topic:**[Application Insights](application-insights.md)
+**Parent Topic:**[Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/application-insights.md)
 

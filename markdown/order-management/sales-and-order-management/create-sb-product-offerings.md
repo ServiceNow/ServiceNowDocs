@@ -2,11 +2,12 @@
 title: Create a product offering for a remote catalog item
 description: Create a product offering in a Service Exchange provider instance. When you publish the product offering, a remote record producer is created for the remote catalog item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/create-sb-product-offerings.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Configuring Service Exchange Order Management for Providers, Order Management for providers with Service Exchange, Integrate, Sales Customer Relationship Management]
 ---
@@ -21,11 +22,11 @@ Role required: sn\_prd\_pm.product\_catalog\_admin or sn\_prd\_pm.product\_catal
 
 ## About this task
 
-When you're creating the product offering, use the **Distribution channel** field to set the channel to Service Bridge.
+When you're creating the product offering, use the **Distribution channel** field to set the channel to Service Exchange.
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace on the provider instance, select the **List** ![image.Lists] view.
+1.  In the CSM Configurable Workspace on the provider instance, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Offerings** &gt; **Product Offerings**.
 
@@ -109,7 +110,7 @@ Start date
 
 </td><td>
 
-Date and time that the product offering is available for Sales Customer Relationship Management applications. Select the Calendar icon ![](../image/field-calendar.png) to choose the start date and time, then select **OK**.
+Date and time that the product offering is available for Sales Customer Relationship Management applications. Select the Calendar icon \[Omitted image "field-calendar.png"\] Alt text: to choose the start date and time, then select **OK**.
 
 </td></tr><tr><td>
 
@@ -117,7 +118,7 @@ End date
 
 </td><td>
 
-Date and time that the product offering is deleted from Sales Customer Relationship Management applications. Select the Calendar icon ![](../image/field-calendar.png) to choose the end date and time, then select **OK**.
+Date and time that the product offering is deleted from Sales Customer Relationship Management applications. Select the Calendar icon \[Omitted image "field-calendar.png"\] Alt text: to choose the end date and time, then select **OK**.
 
 </td></tr><tr><td>
 
@@ -276,15 +277,15 @@ Name of the previous version of the product offering, For example:-   When you c
 
 7.  When you finish creating the product offering version, select one of the following actions.
 
-<table id="choicetable_dt3_z1p_ccc"><thead><tr><th align="left" id="d56554e533">
+<table id="choicetable_dt3_z1p_ccc"><thead><tr><th align="left" id="d57860e536">
 
 Action
 
-</th><th align="left" id="d56554e536">
+</th><th align="left" id="d57860e539">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d56554e542">
+</th></tr></thead><tbody><tr><td id="d57860e545">
 
 **Publish**
 
@@ -294,7 +295,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 -   After you publish a product offering, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d56554e560">
+</td></tr><tr><td id="d57860e563">
 
 **Update**
 
@@ -302,7 +303,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 
 Update the product offering with the new data that you added, but don't publish it for use in a product catalog.
 
-</td></tr><tr><td id="d56554e569">
+</td></tr><tr><td id="d57860e572">
 
 **Copy**
 
@@ -321,5 +322,5 @@ Copy the data in this product offering so that you can create a product offering
 </table>
 ## What to do next
 
-[Associate consumer criteria to a remote record producer](associate-criteria-remote-catalog.md) for this remote catalog item.
+[Associate consumer criteria to a remote record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/associate-criteria-remote-catalog.md) for this remote catalog item.
 

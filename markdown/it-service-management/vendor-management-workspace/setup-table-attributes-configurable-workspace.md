@@ -2,6 +2,7 @@
 title: Set up table attributes in Vendor Management Workspace
 description: Configure attributes for a table to compare them with top-performing vendors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/vendor-management-workspace/setup-table-attributes-configurable-workspace.html
 release: zurich
 product: Vendor Management Workspace
 classification: vendor-management-workspace
@@ -21,7 +22,7 @@ Role required: sn\_vlm.vendor\_admin
 
 ## About this task
 
-The fields for a selected table display all supported string and numeric data types. The allowed data types are defined in the **sn\_app\_ml\_insights.attr\_datatype\_inclusion\_list** system property. For more information, see [Properties installed with Vendor Success Indicators](../reference/installed-w-vendor-manager-configurable-workspace.md).
+The fields for a selected table display all supported string and numeric data types. The allowed data types are defined in the **sn\_app\_ml\_insights.attr\_datatype\_inclusion\_list** system property. For more information, see [Properties installed with Vendor Success Indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/installed-w-vendor-manager-configurable-workspace.md).
 
 ## Procedure
 
@@ -35,15 +36,15 @@ The fields for a selected table display all supported string and numeric data ty
 
 5.  Set up the field attributes.
 
-<table id="choicetable_tvq_1b2_lnb"><thead><tr><th align="left" id="d45698e123">
+<table id="choicetable_tvq_1b2_lnb"><thead><tr><th align="left" id="d47654e123">
 
 To configure attributes for
 
-</th><th align="left" id="d45698e126">
+</th><th align="left" id="d47654e126">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d45698e132">
+</th></tr></thead><tbody><tr><td id="d47654e132">
 
 **The Company \[core\_company\] table**
 
@@ -52,7 +53,7 @@ Do this
 In the **Configuration** section, select Company \[core\_company\] from the Table list. This table is the same as the base evaluating table.-   For configuring a field that has a string datatype:
     1.  From the **Field Name** list, select the string datatype, for example, Country. A pop-up shows the number of distinct values available for this field. You can categorize these values based on how you want to evaluate your vendors.
 
-**Note:** Set the number of string datatype values you want to allow before you categorize them using the **sn\_app\_ml\_insights.attr\_category\_string\_value\_limit** system property. For more information, see [Properties installed with Vendor Success Indicators](../reference/installed-w-vendor-manager-configurable-workspace.md).
+**Note:** Set the number of string datatype values you want to allow before you categorize them using the **sn\_app\_ml\_insights.attr\_category\_string\_value\_limit** system property. For more information, see [Properties installed with Vendor Success Indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/installed-w-vendor-manager-configurable-workspace.md).
 
     2.  Right-click the form header and click **Save**.
     3.  In the Success Indicator Attribute Categories related list, click **New**.
@@ -69,7 +70,7 @@ In the **Configuration** section, select Company \[core\_company\] from the Tabl
 
 **Note:** The **Upper Threshold \(Age in Days\)**, **Lower Threshold \(Age in Days\)**, and **Direction** fields are populated automatically. If you select a numeric field type with a date value, the application calculates the number of days between the threshold values and represents them as age.
 
-</td></tr><tr><td id="d45698e246">
+</td></tr><tr><td id="d47654e246">
 
 **Any table other than the Company \[core\_company\] table**
 
@@ -102,10 +103,10 @@ The pop-up message shows that the attribute Country has nine distinct values.
 
 The nine values for Country are Germany, Ireland, Switzerland, Israel, Japan, South Korea, Canada, U.S., and USA. You have the option of configuring the attributes for Country by grouping them into categories such as EMEA, APAC, and AMS.
 
-![Success Indicator String Type](../image/success-indicator-string-type.png)
+\[Omitted image "success-indicator-string-type.png"\] Alt text: Success Indicator String Type
 
 Example 2: In the example configuration shown in the following image:
 
 -   The table used for configuring the vendor success attributes is not the same as the base table, Company \[core\_company\].
--   The field selected for setting attributes has the numeric data type, **sourceId**. ![Success Indicator - Numeric Type](../image/success-indicator-numeric-type.png)
+-   The field selected for setting attributes has the numeric data type, **sourceId**. \[Omitted image "success-indicator-numeric-type.png"\] Alt text: Success Indicator - Numeric Type
 

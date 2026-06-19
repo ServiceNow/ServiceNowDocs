@@ -2,6 +2,7 @@
 title: Table flattening
 description: Table flattening stores a hierarchy of related tables as one table in a relational database.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/c\_TaskTableFlattening.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -55,8 +56,8 @@ To find records in the Table per partition extension model, the system queries t
 
 The system uses the Table per partition extension model for the Base Configuration Item \[cmdb\] table hierarchy on MySQL databases. To use Table per partition on an Oracle database, contact Technical Support.
 
--   **[View a table hierarchy and the extension model](../task/t_TableHierarchyAndTheExtModel.md)**  
+-   **[View a table hierarchy and the extension model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/t_TableHierarchyAndTheExtModel.md)**  
 Determine the extension model used by a table.
 
-**Parent Topic:**[Managing tables and indexes](../../table-administration/concept/using-table-administration.md)
+**Parent Topic:**[Managing tables and indexes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/using-table-administration.md)
 

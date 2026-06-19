@@ -2,6 +2,7 @@
 title: Restrict access to emails with empty target table
 description: Activate the glide.email.email\_with\_no\_target\_visible\_to\_all property to restrict user access to emails, unless they were the one who sent the email or have an admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-restrict-access-to-emails-with-empty-target-table.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -51,7 +52,7 @@ Configure
 
 </td><td>
 
-[Access control](sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -107,12 +108,12 @@ References
 
 </td><td>
 
-[Advanced email properties](https://www.servicenow.com/docs/access?context=r_AdditionalProperties&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+Advanced email properties
 
  [https://support.servicenow.com/kb\_view.do?sysparm\_article=KB0690043](https://support.servicenow.com/kb_view.do?sysparm_article=KB0690043)
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Access control](sc-access-control.md)
+**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

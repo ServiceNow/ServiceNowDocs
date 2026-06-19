@@ -2,6 +2,7 @@
 title: Managing the price basis for MACD products
 description: As a pricing admin or manager, you can control how prices are calculated for sold products after negotiating changes during quoting or when contract modifications occur to quote lines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/net-pricing-sp-contracts.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

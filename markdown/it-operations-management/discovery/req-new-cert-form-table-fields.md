@@ -1,19 +1,20 @@
 ---
-title: Requesting a new certificate form table
-description: A table of the fields to request a new form.
+title: Certificate request form
+description: The Request New Certificate \(Automated\) and Renew Certificate \(Automated\) forms enable you to submit or update a Certificate Signing Request \(CSR\) to be submitted to a certificate authority.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/req-new-cert-form-table-fields.html
 release: zurich
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2025-09-07"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Certificate Inventory and Management reference, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Requesting a new certificate form table
+# Certificate request form
 
-A table of the fields to request a new form.
+The Request New Certificate \(Automated\) and Renew Certificate \(Automated\) forms enable you to submit or update a Certificate Signing Request \(CSR\) to be submitted to a certificate authority.
 
 <table id="table_lhb_ppz_wfc"><thead><tr><th>
 
@@ -29,7 +30,33 @@ Certificate Purpose
 
 </td><td>
 
-The Internal option requires you to fill out the form. Options are **Internal** or **External**. The External option requires you to import the Certificate Signing Request \(CSR\) and private key from an external source like certificatetools.com.
+Determines whether the Certificate is internal or external.-   Internal: Requires a completed form
+-   External: Requires importing the CSR and private key from an external source
+
+</td></tr><tr><td>
+
+Environment
+
+</td><td>
+
+Environment where the certificate must be deployed or installed. The available options are Development, Disaster recovery, Production, or Sub-Production.
+
+</td></tr><tr><td>
+
+Validity Period for Certificate \(In Days\)
+
+</td><td>
+
+The number of days the certificate is valid. This field appears only when External is selected from the Certificate Purpose field.
+
+</td></tr><tr><td>
+
+Choose how to generate CSR
+
+</td><td>
+
+Determines which CSR is used to generate the certificate. The available values are:-   Use external CSR
+-   Generate CSR in CyberArk: Available only when CyberArk Certificate Manager SaaS is selected as the **Select how to manage your certificate** value when requesting or revoking a certificate.
 
 </td></tr><tr><td>
 
@@ -37,23 +64,7 @@ Certificate Signing Request \(CSR\)
 
 </td><td>
 
-The CSR is sent to the Certificate Authority \(CA\) to request the new certificate. This field is auto-populated when you select the **Want to generate CSR?** check box.
-
-</td></tr><tr><td>
-
-Private Key
-
-</td><td>
-
-Private key for the certificate. This field appears only when you select the **Want to generate CSR?** check box, and it is auto-populated.
-
-</td></tr><tr><td>
-
-Want to generate CSR?
-
-</td><td>
-
-Option to generate a certificate signing request \(CSR\). If activated, the CSR form must be filled.
+CSR sent to the external Certificate Authority \(CA\) to request the certificate.
 
 </td></tr><tr><td>
 
@@ -61,7 +72,7 @@ Subject Common Name
 
 </td><td>
 
-Specific entity or domain name that the certificate is issued to. Enter a name or `*`.
+Entity or domain name the certificate is issued to.
 
 </td></tr><tr><td>
 
@@ -69,7 +80,7 @@ Subject Alternative Name
 
 </td><td>
 
-Domain or subdomain included in the Subject Common Name. Enter an alternative name or `*`.
+Domain or subdomain included in the Subject Common Name.
 
 </td></tr><tr><td>
 
@@ -77,7 +88,7 @@ Organization
 
 </td><td>
 
-Organization making the certificate signing request for the given Subject Common Name. Enter the organization or `*`.
+Organization submitting the CSR.
 
 </td></tr><tr><td>
 
@@ -85,7 +96,7 @@ Organizational Unit
 
 </td><td>
 
-Organizational unit making the certificate signing request for the given Subject Common Name. Enter the unit or `*`.
+Organizational unit submitting the CSR.
 
 </td></tr><tr><td>
 
@@ -93,7 +104,7 @@ Locality/City
 
 </td><td>
 
-Locality \(city\) of the organization making the certificate signing request for the given Subject Common Name. Enter the locality or `*`.
+Locality \(city\) of the organization submitting the CSR.
 
 </td></tr><tr><td>
 
@@ -101,7 +112,7 @@ Province
 
 </td><td>
 
-State or province of the organization making the certificate signing request for the given Subject Common Name. Enter the state or `*`.
+State or province of the organization submitting the CSR.
 
 </td></tr><tr><td>
 
@@ -109,7 +120,7 @@ Country
 
 </td><td>
 
-Country of the organization making the certificate signing request for the given Subject Common Name. Enter the country or `*`.
+Country of the organization submitting the CSR.
 
 </td></tr><tr><td>
 
@@ -117,7 +128,15 @@ Email Address
 
 </td><td>
 
-Email address of the administrator in the organization making the certificate signing request for the given Subject Common Name. Enter an email address or `*`.
+Email address of the administrator in the organization submitting the CSR.
+
+</td></tr><tr><td>
+
+Key Algorithm
+
+</td><td>
+
+Cryptographic algorithm for generating the certificate key pair, based on algorithms supported by CyberArk. The available options are RSA 1024, RSA 2048, RSA 3072, RSA 4096, EC P256, EC P384, EC P521, and EC ED25519.
 
 </td></tr><tr><td>
 
@@ -169,22 +188,11 @@ Specific entity that the certificate is issued to.
 
 </td></tr><tr><td>
 
-Environment
-
-</td><td>
-
-The environment that you want your certificate for. Options are: -   Development
--   Disaster recovery
--   Production
--   Sub-Production
-
-</td></tr><tr><td>
-
 Renewal Tracking
 
 </td><td>
 
-Option to enable automatic-renewal of your certificate. This option only applies if you don’t select the **Renew automatically** field.
+Determines whether to track certificate renewal automatically. The available options are Create priority 1 tasks, Create prioirty 3 tasks, and Do not create renewal tasks.
 
 </td></tr><tr><td>
 
@@ -192,7 +200,7 @@ Renew Automatically
 
 </td><td>
 
-Option to set the automatically renew your certificate.
+Option to automatically renew the certificate.
 
 </td></tr><tr><td>
 
@@ -200,8 +208,8 @@ How many days before expiry does the certificate need to be renewed?
 
 </td><td>
 
-Number of days before the expiration of your certificate, such that you want to renew the certificate before those days.
+Number of days before certificate expiration to trigger renewal.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Certificate Inventory and Management reference](cert-invt-mgmt-references.md)
+</table>**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cert-invt-mgmt-references.md)
 

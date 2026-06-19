@@ -2,6 +2,7 @@
 title: Activate data privacy \(Classic\)
 description: You can activate the data privacy plugin \(com.glide.data\_privacy\) for Platform Security if you have the admin role. If the application doesn't include demo data or it doesn't install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they aren't already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-privacy-classic/install-data-privacy.html
 release: zurich
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
@@ -17,7 +18,7 @@ You can activate the data privacy plugin \(com.glide.data\_privacy\) for Platfor
 
 ## Before you begin
 
-**Important:** This section is for Data Privacy\(Classic\). See [Data privacy](../../data-privacy-store/concept/dps-data-privacy.md) for the latest up to date store version.
+**Important:** This section is for Data Privacy\(Classic\). See [Data privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-data-privacy.md) for the latest up to date store version.
 
 Data privacy requires a separate subscription from the rest of the ServiceNow AI Platform®.
 
@@ -35,7 +36,7 @@ The following items are installed with data privacy:
 -   Roles
 -   Tables
 
-For more information, see [Installed with data privacy \(Classic\)](../../security/reference/installed-with-data-privacy.md#).
+For more information, see [Installed with data privacy \(Classic\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/installed-with-data-privacy.md).
 
 ## Procedure
 
@@ -49,6 +50,6 @@ For more information, see [Installed with data privacy \(Classic\)](../../securi
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 

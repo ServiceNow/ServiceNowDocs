@@ -2,6 +2,7 @@
 title: Alert merchant regarding dispute
 description: Review merchant response regarding the dispute. The merchant can choose to resolve the disputed transaction or decline to resolve, during the investigation stage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/alert-merchant-dispute-mc.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -19,13 +20,13 @@ Review merchant response regarding the dispute. The merchant can choose to resol
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -45,7 +46,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 9.  In the **Merchant response** field, select one of the following options:
 
-    -   **Accepted Dispute**: Merchant agrees to resolve the dispute with the cardholder. The dispute is resolved and the next task is displayed based on the policy. For more information, see [About Financial adjustments in Mastercard disputes](../concept/financial-adjustments.md).
+    -   **Accepted Dispute**: Merchant agrees to resolve the dispute with the cardholder. The dispute is resolved and the next task is displayed based on the policy. For more information, see [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/financial-adjustments.md).
     -   **Declined Dispute**: Merchant declines to resolve the dispute with the cardholder. The transaction dispute continues through the dispute process workflow stages.
 10. Select **Add file** to attach supporting documents to the task.
 
@@ -58,5 +59,5 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 The task state updates to Closed Complete if the merchant resolves the dispute. If the merchant declines the dispute, the transaction continues through the dispute workflow stages.
 
-**Parent Topic:**[Processing a Mastercard dispute](../concept/processing-mastercard-dispute-case.md)
+**Parent Topic:**[Processing a Mastercard dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/processing-mastercard-dispute-case.md)
 

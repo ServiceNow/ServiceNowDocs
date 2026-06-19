@@ -2,6 +2,7 @@
 title: Reference for Generative AI Controller
 description: Reference topics provide information about Generative AI Controller tables, and properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/generative-ai-controller/reference-for-generative-ai-controller.html
 release: zurich
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -147,7 +148,7 @@ sys\_generative\_ai\_log
 
 </td><td>
 
-Logs Generative AI prompts, responses, and edited responses for debugging LLM calls. HR-related logs are exclusively restricted to HR Administrators, ensuring sensitive information remains protected.For more information, see [Generative AI Controller tables](generative-ai-controller-tables.md).
+Logs Generative AI prompts, responses, and edited responses for debugging LLM calls. HR-related logs are exclusively restricted to HR Administrators, ensuring sensitive information remains protected.For more information, see [Generative AI Controller tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/generative-ai-controller/generative-ai-controller-tables.md).
 
 </td></tr></tbody>
 </table>## Properties
@@ -228,7 +229,7 @@ Default value: true
 |Provider|Data policy|Usage policy|
 |--------|-----------|------------|
 |Amazon Bedrock|[Data protection](https://docs.aws.amazon.com/bedrock/latest/userguide/data-protection.html)|[AWS Service Terms](https://aws.amazon.com/service-terms/)|
-|Aleph Alpha|[Data privacy](https://aleph-alpha.com/data-privacy/)|[Terms and Conditions](https://aleph-alpha.com/terms-conditions/)|
+||||
 |Google Cloud|[Google Cloud Platform Terms of Service](https://cloud.google.com/terms)|[Google Cloud Platform Terms of Service](https://cloud.google.com/terms)|
 |IBM watsonx|[Keeping your data secure and compliant](https://www.ibm.com/docs/en/watsonx/saas?topic=security-keeping-your-data-secure-compliant)|[Foundation model terms of use in watsonx.ai](https://www.ibm.com/docs/en/watsonx/saas?topic=solutions-terms-use)|
 |Microsoft Azure OpenAI|[Data, privacy, and security for Azure OpenAI Service](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy)|[Code of conduct for Azure OpenAI Service](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/code-of-conduct)|

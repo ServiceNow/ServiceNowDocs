@@ -2,6 +2,7 @@
 title: Order Management integration with Strategic Portfolio Management
 description: The Order Management application provides an integration with the ServiceNow Strategic Portfolio Management \(SPM\) application enables project oversight of complex order fulfillment tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/order-mgt-integrating-spm.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -84,8 +85,8 @@ The Order Management integration with Strategic Portfolio Management uses the Pr
 
 The SPM integration is included with the Order Management application. The integration requires the following plugins, which are activated by users with the admin role:
 
--   PPM Standard plugin \(com.snc.financial\_planning\_pmo\): Activates the Project Portfolio Management Standard application, which installs Financial Management and the Project Portfolio Suite. The suite includes various applications for handling projects in your organization, such as Program Management, Project Management, and Demand Management. For more information on the Project Portfolio Suite, see [Project Portfolio Suite with Financials](https://www.servicenow.com/docs/access?context=c_ProjectPortfolioSuiteWithFinancials&version=zurich&pubname=zurich-it-business-management&ft:locale=en-US).
--   Customer Project Management plugin \(com.snc.csm\_ppm\): Activates the Customer Project Management integration with the PPM Standard application. This integration enables customer project managers to create and manage complex projects with multiple tasks. This integration also provides end users with visibility into those projects. For details on Customer Project Management, see [Integrating with Customer Project Management](https://www.servicenow.com/docs/access?context=csm-ppm-integration&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+-   PPM Standard plugin \(com.snc.financial\_planning\_pmo\): Activates the Project Portfolio Management Standard application, which installs Financial Management and the Project Portfolio Suite. The suite includes various applications for handling projects in your organization, such as Program Management, Project Management, and Demand Management. For more information on the Project Portfolio Suite, see Project Portfolio Suite with Financials.
+-   Customer Project Management plugin \(com.snc.csm\_ppm\): Activates the Customer Project Management integration with the PPM Standard application. This integration enables customer project managers to create and manage complex projects with multiple tasks. This integration also provides end users with visibility into those projects. For details on Customer Project Management, see Integrating with Customer Project Management.
 
 ## Access controls in the SPM integration
 
@@ -193,5 +194,5 @@ Administrator \[admin\]
 </td></tr></tbody>
 </table>## Next step
 
-As an admin, review the setup tasks in [Configuring the Strategic Portfolio Management integration](configuring-spm-integration.md).
+As an admin, review the setup tasks in [Configuring the Strategic Portfolio Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/configuring-spm-integration.md).
 

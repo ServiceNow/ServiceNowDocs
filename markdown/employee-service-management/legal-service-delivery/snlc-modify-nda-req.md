@@ -2,6 +2,7 @@
 title: Modify a non-disclosure agreement legal request
 description: As a requester, modify the legal request for a non-disclosure agreement \(NDA\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/snlc-modify-nda-req.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -32,15 +33,15 @@ Note the following:
 
 1.  Open an NDA legal request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d709056e105">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d369454e105">
 
 Method
 
-</th><th align="left" id="d709056e108">
+</th><th align="left" id="d369454e108">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d709056e114">
+</th></tr></thead><tbody><tr><td id="d369454e114">
 
 **__Employee Center__**
 
@@ -50,7 +51,7 @@ Actions
 2.  Select **My Requests** from the header.
 
 
-</td></tr><tr><td id="d709056e144">
+</td></tr><tr><td id="d369454e144">
 
 **__Legal Service Portal__**
 
@@ -79,5 +80,5 @@ Actions
 -   A new document revision is created and the file name is appended with the version number.
 -   The Contract status is marked as Ready revision.
 
-**Parent Topic:**[Non-disclosure agreement requests](../concept/snlc-request-nda-1.md)
+**Parent Topic:**[Non-disclosure agreement requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

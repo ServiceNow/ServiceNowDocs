@@ -2,6 +2,7 @@
 title: Troubleshooting Predictive Intelligence for User Reported Phishing
 description: This section covers a few common problem scenarios.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/cj-sir-ml-urp-trouble.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

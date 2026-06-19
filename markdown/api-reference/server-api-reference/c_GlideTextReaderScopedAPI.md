@@ -2,6 +2,7 @@
 title: GlideTextReader - Scoped
 description: The GlideTextReader API provides the ability to read single lines from an input stream. Because an input stream is used, it is not subject to the 5MB attachment size limit.Creates a scoped GlideTextReader object for the specified input stream.Returns the character encoding of the input stream.Returns a single line from the input stream and returns a string. Since this is working off of a stream, it is not subject to the 5MB size limit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_GlideTextReaderScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideTextReader API provides the ability to read single lines from an input stream. Because an input stream is used, it is not subject to the 5MB attachment size limit.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideTextReader - GlideTextReader\( GlideScriptableInputStream inputStream\)
 

@@ -2,6 +2,7 @@
 title: Understanding how FX Currency field conversions work
 description: You can use existing system currency rates or define a custom conversion rate table for use in FX Currency processing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/currency-administration/fx-currency-conversions.html
 release: zurich
 product: Currency Administration
 classification: currency-administration
@@ -26,15 +27,15 @@ FX Currency fields expose the values inside the Currency Instance \[fx\_currency
 
     The conversion rate is based on the settings of the **Conversion Rate Table** and **Conversion Date Source** fields in **System Localization** &gt; **FX Currency Configuration.**
 
-    **Note:** To learn more about these settings, see [Specify the rate table and date source for currency conversions](../task/fx-currency-conv-rate-table-date-source.md).
+    **Note:** To learn more about these settings, see [Specify the rate table and date source for currency conversions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/fx-currency-conv-rate-table-date-source.md).
 
 
 ## Conversion rates
 
 FX Currency conversion rates are stored in the following ways:
 
--   System rate \[fx\_system\_rate\] table: Contains system conversion rates. Each record contains the conversion rate from the Euro to a given currency. The rates are downloaded daily from the ECB website by a scheduled job called Retrieve System Rates. To learn more, see [Schedule the rate update job](../../localization/task/t_SetAConversionRate.md).
--   Custom rate table: Contains custom currency conversion rates, and custom rate tables extend the Currency Conversion Rate \[fx\_conversion\_rate\] table. To learn more about creating custom rate tables, see [Add conversion rates using a custom rate table](../task/custom-rate-table.md).
+-   System rate \[fx\_system\_rate\] table: Contains system conversion rates. Each record contains the conversion rate from the Euro to a given currency. The rates are downloaded daily from the ECB website by a scheduled job called Retrieve System Rates. To learn more, see [Schedule the rate update job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/t_SetAConversionRate.md).
+-   Custom rate table: Contains custom currency conversion rates, and custom rate tables extend the Currency Conversion Rate \[fx\_conversion\_rate\] table. To learn more about creating custom rate tables, see [Add conversion rates using a custom rate table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/custom-rate-table.md).
 
-**Parent Topic:**[FX Currency fields](fx-currency.md)
+**Parent Topic:**[FX Currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/fx-currency.md)
 

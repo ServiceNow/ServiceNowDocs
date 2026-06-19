@@ -2,6 +2,7 @@
 title: Jumpstart Your Upgrade
 description: Guidance on upgrade planning and preparation
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/jumpstart-your-upgrade.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

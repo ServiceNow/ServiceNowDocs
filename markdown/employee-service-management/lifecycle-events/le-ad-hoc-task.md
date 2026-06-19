@@ -2,6 +2,7 @@
 title: Ad hoc cases and tasks for lifecycle event cases
 description: You can add an ad hoc task or case to an active lifecycle event case and associate it to a specific activity set. When tasks are added they appear for the subject person under My Tasks or the Review your work in the Employee Center or Employee Center Pro.You can create a case or task and add it to a stage \(bundle\) while a lifecycle event is in progress.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/lifecycle-events/le-ad-hoc-task.html
 release: zurich
 product: Lifecycle Events
 classification: lifecycle-events
@@ -76,7 +77,7 @@ Role required: sn\_hr\_le.case\_writer
 
 4.  Select **Add a child case** or **Add task**.
 
-    For more information, see [Create an HR case for a lifecycle event](../task/create-hr-lifecycle-event-case.md) and [Adding an HR task to an HR case](../task/t_ViewAnHRTask.md).
+    For more information, see [Create an HR case for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/create-hr-lifecycle-event-case.md) and [Adding an HR task to an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_ViewAnHRTask.md).
 
 5.  After filling in the required fields, ensure you select a value from the **Stage** field.
 
@@ -84,6 +85,6 @@ Role required: sn\_hr\_le.case\_writer
 
     If you do not associate a task or case with a stage in the lifecycle event, the task or case becomes a child of the parent case, but is not included in the lifecycle event.
 
-    **Note:** Stage is also known as an activity set or bundle. For more information, see [Configure a lifecycle event activity set](../task/configure-hr-lifecycle-event-activity-set.md).
+    **Note:** Stage is also known as an activity set or bundle. For more information, see [Configure a lifecycle event activity set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity-set.md).
 
 

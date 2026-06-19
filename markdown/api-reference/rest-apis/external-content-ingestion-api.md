@@ -2,6 +2,7 @@
 title: External Content Ingestion API
 description: The External Content Ingestion API provides endpoints that enable ingestion of content from sources outside of your ServiceNow instance into the ServiceNow AI Search application's index.Deletes all external documents that match the specified query from the AI Search index.Deletes the external document with a specified unique identifier from the AI Search index.Sends a list of external documents to the AI Search ingestion batcher for indexing. After indexing completes, content from the ingested documents becomes searchable.Stores binary content as a content object in AI Search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-apis/external-content-ingestion-api.html
 release: zurich
 product: REST APIs
 classification: rest-apis
@@ -15,7 +16,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The External Content Ingestion API provides endpoints that enable ingestion of content from sources outside of your ServiceNow® instance into the ServiceNow® AI Search application's index.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/api-rest.md)
 
 ## External Content Ingestion API – DELETE /ais/external\_content/deleteByQuery/\{schema\_table\_name\}
 
@@ -25,7 +26,7 @@ Deletes all external documents that match the specified query from the AI Search
 
 Versioned URL: `/api/now/{api_version}/ais/external_content/deleteByQuery/{schema_table_name}?query={query}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -81,7 +82,7 @@ A valid URL-escaped query for the schema table specified by **schema\_table\_nam
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -93,7 +94,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -198,7 +199,7 @@ Deletes the external document with a specified unique identifier from the AI Sea
 
 Versioned URL: `/api/now/{api_version}/ais/external_content/deleteDocument/{schema_table_name}/{document_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -249,7 +250,7 @@ The name of the external content schema table that defines the schema for the in
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -261,7 +262,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -366,7 +367,7 @@ You can use this endpoint to feed external documents with text content and metad
 
 If you need to associate searchable binary content and metadata with an external document, follow these steps:
 
-1.  Store the binary content in AI Search using the [POST /ais/external\_content/storeContent](external-content-ingestion-api.md#) endpoint. Record the value of the **result** response body parameter.
+1.  Store the binary content in AI Search using the [POST /ais/external\_content/storeContent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/external-content-ingestion-api.md) endpoint. Record the value of the **result** response body parameter.
 2.  Send the external document to AI Search using this endpoint. Set the document's **content\_pointer** request body parameter to match the recorded **result** response body parameter value.
 
 During ingestion, AI Search parses the binary content and adds its searchable content to the indexed record that represents the external document. Parsing removes the stored content object.
@@ -375,7 +376,7 @@ During ingestion, AI Search parses the binary content and adds its searchable co
 
 Versioned URL: `/api/now/{api_version}/ais/external_content/ingestDocument/{schema_table_name}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -445,7 +446,7 @@ Required. Unnamed array of objects in which each object represents an external d
 
 </td><td>
 
-Identifier for an instance of binary content stored using the [POST /ais/external\_content/storeContent](external-content-ingestion-api.md#) endpoint. During ingestion, AI Search parses the binary content and adds its searchable content to the indexed record that represents the external document. Parsing removes the stored content object.
+Identifier for an instance of binary content stored using the [POST /ais/external\_content/storeContent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/external-content-ingestion-api.md) endpoint. During ingestion, AI Search parses the binary content and adds its searchable content to the indexed record that represents the external document. Parsing removes the stored content object.
 
 **Note:** This identifier should match the **result** response body element returned by the storeContent endpoint.
 
@@ -525,7 +526,7 @@ Array of strings where each string is the name of an externally defined group th
 
  This parameter takes precedence over **\[array\].principals.groups.read**. If the same user is mapped to external groups with both read and deny access permissions for a document, AI Search denies that user access to the indexed record.
 
- By default, **\[array\].principals.users.read** takes precedence over this parameter. To reverse this precedence order for an indexed source, see [Change the precedence of user read and group deny permissions for an external content indexed source.](https://www.servicenow.com/docs/access?context=defining-access-perms-ext-docs-ais&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+ By default, **\[array\].principals.users.read** takes precedence over this parameter. To reverse this precedence order for an indexed source, see Change the precedence of user read and group deny permissions for an external content indexed source..
 
  Data type: Array
 
@@ -624,7 +625,7 @@ Array of strings where each string is the name of an externally defined user tha
 
  **\[array\].principals.users.deny** takes precedence over this parameter. If the same user is mapped to external users with both read and deny access permissions for a document, AI Search denies that user access to the indexed record.
 
- By default, this parameter takes precedence over **\[array\].principals.groups.deny**. To reverse this precedence order for an indexed source, see [Change the precedence of user read and group deny permissions for an external content indexed source.](https://www.servicenow.com/docs/access?context=defining-access-perms-ext-docs-ais&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+ By default, this parameter takes precedence over **\[array\].principals.groups.deny**. To reverse this precedence order for an indexed source, see Change the precedence of user read and group deny permissions for an external content indexed source..
 
  Data type: Array
 
@@ -665,7 +666,7 @@ Object containing name-value pairs where each pair represents a field name and v
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -678,7 +679,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -912,12 +913,12 @@ From highest precedence to lowest:
 2.  **\[array\].principals.users.deny**, **\[array\].principals.groups.deny**
 3.  **\[array\].principals.users.read**, **\[array\].principals.groups.read**
 
-**Note:** For instructions on setting this attribute value, see [Change the precedence of user read and group deny permissions for an external content indexed source](https://www.servicenow.com/docs/access?context=defining-access-perms-ext-docs-ais&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** For instructions on setting this attribute value, see Change the precedence of user read and group deny permissions for an external content indexed source.
 
 </td></tr></tbody>
 </table>### cURL request
 
-Feed two external documents \(with content pointers to binary content objects previously stored using the [POST /ais/external\_content/storeContent](external-content-ingestion-api.md#) endpoint\) for indexing into the u\_ext\_content schema table.
+Feed two external documents \(with content pointers to binary content objects previously stored using the [POST /ais/external\_content/storeContent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/external-content-ingestion-api.md) endpoint\) for indexing into the u\_ext\_content schema table.
 
 ```
 curl 'https://instance.servicenow.com/api/now/v2/ais/external_content/ingestDocument/u_ext_content' \
@@ -983,7 +984,7 @@ Stores binary content as a content object in AI Search.
 You can associate stored binary content with an external document by following these steps:
 
 1.  Store the binary content using this endpoint. Record the value of the **result** response body parameter.
-2.  Send the external document to AI Search using the [POST /ais/external\_content/ingestDocument/\{schema\_table\_name\}](external-content-ingestion-api.md#) endpoint. Set the document's **content\_pointer** request body parameter to match the recorded **result** response body parameter value.
+2.  Send the external document to AI Search using the [POST /ais/external\_content/ingestDocument/\{schema\_table\_name\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/external-content-ingestion-api.md) endpoint. Set the document's **content\_pointer** request body parameter to match the recorded **result** response body parameter value.
 
 During ingestion, AI Search parses the binary content and adds its searchable content to the indexed record that represents the external document. Parsing removes the stored content object.
 
@@ -991,7 +992,7 @@ During ingestion, AI Search parses the binary content and adds its searchable co
 
 Versioned URL: `/api/now/{api_version}/ais/external_content/storeContent`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -1022,7 +1023,7 @@ Optional. Version of the endpoint to access. For example, `v1` or `v2`. Only spe
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1071,7 +1072,7 @@ Data format of the request body.
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

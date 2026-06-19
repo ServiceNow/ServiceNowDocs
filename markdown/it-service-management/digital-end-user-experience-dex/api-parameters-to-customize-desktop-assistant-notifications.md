@@ -2,6 +2,7 @@
 title: API parameters to customize Desktop Assistant notifications
 description: Use these parameters in the API to customize Desktop Assistant notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/api-parameters-to-customize-desktop-assistant-notifications.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -90,5 +91,5 @@ var notifyUtils = new sn_dex_desktop.DesktopAppNotificationUtils();
 notifyUtils.sendDANotification(notificationObj);
 ```
 
-**Parent Topic:**[DEX Desktop Assistant reference](dex-desktop-experience-reference.md)
+**Parent Topic:**[DEX Desktop Assistant reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dex-desktop-experience-reference.md)
 

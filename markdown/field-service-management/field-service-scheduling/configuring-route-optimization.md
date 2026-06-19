@@ -2,6 +2,7 @@
 title: Configuring Route Optimization
 description: Route optimization is essential for improving resource allocation in field service management. It strategically reorders tasks to reduce travel time for field agents, enhancing both productivity and customer service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/configuring-route-optimization.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -27,7 +28,7 @@ The steps to set up Route Optimization are:
 
 ## Understanding Route Optimization Modes
 
-You must select the work.management.optimization.conflict\_handling system property to avoid conflicts due to overflow tasks when optimizing the route. For more information, see [Properties installed with Field Service Management](../../planning-and-policy/reference/r_PropInstallWFieldServMgmnt.md).
+You must select the work.management.optimization.conflict\_handling system property to avoid conflicts due to overflow tasks when optimizing the route. For more information, see [Properties installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/r_PropInstallWFieldServMgmnt.md).
 
 Route optimization operates in three distinct modes, each designed to address specific scenarios:
 

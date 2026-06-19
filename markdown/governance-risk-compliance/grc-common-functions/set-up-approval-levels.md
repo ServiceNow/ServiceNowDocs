@@ -2,6 +2,7 @@
 title: Assign an approval level for the approval configuration record
 description: Assign one or more approval levels for the approval configuration record to support each step of approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/set-up-approval-levels.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -39,8 +40,8 @@ Role required: sn\_grc\_appr.admin
 5.  Click **Submit**.
 
 
--   **[Approval Level New Record form](../reference/approval-level-new-record-form.md)**  
+-   **[Approval Level New Record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/approval-level-new-record-form.md)**  
 Use the Approval Level New Record form to create an approval configuration on a policy record.
 
-**Parent Topic:**[Using Approver Configurator for setting up approvals](../concept/approval-configuration.md)
+**Parent Topic:**[Using Approver Configurator for setting up approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/approval-configuration.md)
 

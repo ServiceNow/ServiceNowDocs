@@ -2,6 +2,7 @@
 title: Setting up jeopardy management
 description: Learn about how to set up and configure Jeopardy Management for Order Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/jeopardy-management-setup-overview.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -32,7 +33,7 @@ To use Jeopardy Management, fulfillment managers must either reconfigure existin
 
 ## Create SLA Definitions
 
-SLA definitions and SLA Processing flows are linked to tasks in a fulfillment plan and track and report on the time jeopardy-enabled tasks take to complete. See [Create Service Level Agreement definitions in Jeopardy Management](../task/create-sla-definitions.md) for more information.
+SLA definitions and SLA Processing flows are linked to tasks in a fulfillment plan and track and report on the time jeopardy-enabled tasks take to complete. See [Create Service Level Agreement definitions in Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-sla-definitions.md) for more information.
 
 -   SLA Definitions: Set start condition, pause condition, cancel condition, and reset conditions according to use case.
 -   SLA Durations: Durations are specified so that tracking can be achieved when task SLA is created.

@@ -2,6 +2,7 @@
 title: Dark mode in Creator Studio
 description: Creator Studio is available in light and dark mode.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/creator-studio/crs-enabling-dark-mode.html
 release: zurich
 product: Creator Studio
 classification: creator-studio
@@ -17,5 +18,5 @@ Creator Studio is available in light and dark mode.
 
 You can choose light or dark via **User menu** &gt; **Preferences** while in Creator Studio.
 
-![Select light or dark mode in preferences](../image/crs-dark-mode.png "Light and dark mode within Creator Studio")
+\[Omitted image "crs-dark-mode.png"\] Alt text: Select light or dark mode in preferences
 

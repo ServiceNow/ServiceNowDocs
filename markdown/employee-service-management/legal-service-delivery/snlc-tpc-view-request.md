@@ -2,6 +2,7 @@
 title: View and track third-party contract review request as a legal user
 description: View the details of a third-party contract review request after it has been submitted and track the activities in the request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/snlc-tpc-view-request.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -21,41 +22,13 @@ Role required: sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user
 
 ## Procedure
 
-1.  Open a legal request.
+1.  Navigate to **All** &gt; **Employee Center**.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d229882e74">
+    **Note:** If you’re using Legal Service Portal, open the request by navigating to it and selecting **My Requests** &gt; **View all requests** from the header.
 
-Method
+2.  Select **My Requests** from the header.
 
-</th><th align="left" id="d229882e77">
-
-Actions
-
-</th></tr></thead><tbody><tr><td id="d229882e83">
-
-**__Employee Center__**
-
-</td><td>
-
-1.  Navigate to **All** &gt; **Employee Center**
-2.  Select **My Requests** option on the header menu.
-3.  Open your submitted third-party contract review request.
-
-
-</td></tr><tr><td id="d229882e116">
-
-**__Legal Service Portal__**
-
-</td><td>
-
-1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Service Portal**
-2.  Select **My Requests** option on the header menu.
-3.  Select **View all requests**.
-4.  Open your submitted third-party contract review request.
-
-
-</td></tr></tbody>
-</table>2.  View details of the request.
+3.  View details of the request.
 
     -   View the contract document by accessing **Contract documents** tab.
     -   View the supporting documents by accessing the **Supporting documents** tab.
@@ -67,5 +40,5 @@ Actions
 
     -   View the final contract documents by accessing the **Legal Contract** tab. When multiple contract documents are attached, a separate record is created for each contract type.
 
-**Parent Topic:**[Third-party contract review requests](../concept/snlc-request-third-party-contract-1.md)
+**Parent Topic:**[Third-party contract review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

@@ -2,6 +2,7 @@
 title: Fulfill evidence requests through the Asset Response Guided Experience
 description: Use the Asset Response Guided Experience to fulfill and respond to evidence requests for financial regulatory audit engagements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/asset-audits/fulfill-evidence-requests-guided-experience.html
 release: zurich
 product: Asset Audits
 classification: asset-audits

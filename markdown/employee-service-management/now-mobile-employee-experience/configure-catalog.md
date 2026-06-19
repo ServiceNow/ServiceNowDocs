@@ -2,6 +2,7 @@
 title: Configure catalogs
 description: Enable your users to view and request their associated items in the Now Mobile app. If no catalogs are selected, users can view and request items from all catalogs in the system. By default, the app uses Service Catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-mobile-employee-experience/configure-catalog.html
 release: zurich
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
@@ -20,8 +21,6 @@ Enable your users to view and request their associated items in the Now Mobile a
 Role required: admin
 
 ## About this task
-
-Demonstrates configuring service catalogs, knowledge bases, and My Requests in the Now Mobile App.
 
 ## Procedure
 

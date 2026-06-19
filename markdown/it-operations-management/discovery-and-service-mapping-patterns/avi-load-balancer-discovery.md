@@ -2,6 +2,7 @@
 title: Avi Vantage load balancer discovery
 description: The ServiceNow Discovery and Service Mapping applications use the Avi load balancer discovery patterns to find Avi Vantage load balancer components. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/avi-load-balancer-discovery.html
 release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -25,7 +26,7 @@ You can use these patterns on the ServiceNow AI Platform® using the release Mad
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -46,7 +47,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
             |User name|Name of the user for performing Avi Load Balancer discovery.|
             |Password|Password for this user.|
 
-        4.  [Run a Quick Discovery](../../discovery/task/t_CreateADiscoverySchedule.md#) on the IP address of the Avi Controller Cluster.
+        4.  [Run a Quick Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_CreateADiscoverySchedule.md) on the IP address of the Avi Controller Cluster.
 -   For the Avi Load Balancer Controller - Session-based pattern:
     -   Create a Basic Authentication credential with an alias:
         1.  Navigate to **Connections &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
@@ -64,7 +65,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
             |Password|Password for this user.|
 
         8.  Click **Update**.
-    -   Create a [serverless discovery](../../discovery/concept/serverless-discovery.md) schedule.
+    -   Create a [serverless discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/serverless-discovery.md) schedule.
 
         Then do the following:
 
@@ -95,7 +96,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   /api/gslbservice
     -   /api/tenant
 -   For the Avi Load Balancer VIP pattern:
-    -   [Create an service instance](https://www.servicenow.com/docs/access?context=create-it-services&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    -   Create an service instance.
     -   Before using the Avi Load Balancer VIP pattern, use one of the horizontal Avi load balancer discovery patterns to find the Avi infrastructure.
 
 ## Data collected by Discovery during horizontal discovery
@@ -325,11 +326,11 @@ URL to the Tenant​.
 </td></tr></tbody>
 </table>The Dependency Views map shows discovered load balancer CIs and the relationships between them.
 
-![CIs and connections on a Dependency Views map.](../image/avi-lb-dependency-views-map1.png)
+\[Omitted image "avi-lb-dependency-views-map1.png"\] Alt text: CIs and connections on a Dependency Views map.
 
 The following image shows the results of top-down discovery using the Avi Load Balancer VIP pattern.
 
-![This image shows top-down discovery using the Avi Load Balancer VIP pattern.](../image/avi-lb-top-down-discovery.png "Top-down discovery using the Avi Load Balancer VIP pattern")
+\[Omitted image "avi-lb-top-down-discovery.png"\] Alt text: This image shows top-down discovery using the Avi Load Balancer VIP pattern.
 
 ## CI relationships
 
@@ -394,5 +395,5 @@ The Pattern Designer fails because of a timeout during pattern debugging \(and n
 By default, the **sa.debugger.max\_timeout**parameter is set to 240 seconds.Increase the value of this parameter on the relevant MID Server.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Available on-premise discovery patterns](../concept/available-patterns.md)
+</table>**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

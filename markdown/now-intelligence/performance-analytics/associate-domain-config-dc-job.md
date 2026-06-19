@@ -2,6 +2,7 @@
 title: Associate a domain configuration with a data collection job
 description: To collect Performance Analytics indicator scores from the domains specified in a domain configuration, associate that domain configuration with a collection job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/associate-domain-config-dc-job.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -23,11 +24,11 @@ The Performance Analytics - Domain Support plugin \(com.snc.pa.domain\_support\)
 
 ## About this task
 
-**Important:** Regardless of whether a domain configuration is used, the **Run as** user always determines the domain context of where the [data collection job](../concept/performance-analytics-glossary.md#) runs.
+**Important:** Regardless of whether a domain configuration is used, the **Run as** user always determines the domain context of where the [data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md) runs.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Jobs**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Data Collector** &gt; **Jobs**.
 
 2.  Select a data collection job.
 
@@ -46,5 +47,5 @@ The Performance Analytics - Domain Support plugin \(com.snc.pa.domain\_support\)
     **Tip:** When using multiple domain configurations with a single job, ensure each domain configuration specifies a unique set of domains.
 
 
-**Parent Topic:**[Grouping domains in Performance Analytics domain configurations](../concept/pa-domain-separation-msp.md)
+**Parent Topic:**[Grouping domains in Performance Analytics domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/pa-domain-separation-msp.md)
 

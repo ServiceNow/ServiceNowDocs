@@ -2,6 +2,7 @@
 title: Model categories for Operational Technology
 description: When configuration items \(CIs\) are created in the CMDB, asset records are created. The asset record contains the model category for the CI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-manager/model-categories-for-ot.html
 release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -45,5 +46,5 @@ The following table describes the model categories available for Operational Tec
 |OT Supervisory OPC|OPC Client \[cmdb\_ci\_ot\_opc\_client\]|
 |OT Supervisory SCADA|cmdb\_ci\_ot\_scada\_client|
 
-**Parent Topic:**[Operational Technology Manager reference](operational-technology-manager-reference.md)
+**Parent Topic:**[Operational Technology Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/operational-technology-manager-reference.md)
 

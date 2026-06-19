@@ -2,6 +2,7 @@
 title: Reference Multi Provider Document Services framework
 description: 
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/reference-mp-doc-framework.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -13,10 +14,10 @@ breadcrumb: [Multi Provider Document Services Framework, Document Services, Mana
 
 # Reference Multi Provider Document Services framework
 
--   **[Installed with Multi Provider Document Services Framework](installed-with-multi-provider-framework.md)**  
+-   **[Installed with Multi Provider Document Services Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/installed-with-multi-provider-framework.md)**  
 Several types of components are installed with activation of the Multi Provider Document Services Framework plugin, including tables and user roles.
--   **[Multi Provider Document Services Framework Framework roles](multi-provider-roles.md#)**  
+-   **[Multi Provider Document Services Framework Framework roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/multi-provider-roles.md)**  
 Multi Provider Document Services Framework Framework is installed with these roles.
 
-**Parent Topic:**[Multi Provider Document Services Framework](mp-document-services-framework-landing.md)
+**Parent Topic:**[Multi Provider Document Services Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/mp-document-services-framework-landing.md)
 

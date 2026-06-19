@@ -2,6 +2,7 @@
 title: Create a policy hierarchy
 description: Policies are attached to groups of related CIs. If you have a subgroup of related CIs, you can attach a new policy to the subgroup using a policy hierarchy, without creating the new policy from scratch.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-create-policy-hierarchy.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector

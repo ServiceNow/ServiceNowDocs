@@ -2,6 +2,7 @@
 title: Exploring Legal Simple Contracts
 description: Legal Simple Contracts enables employees to submit legal requests for the creation or review of contracts with third parties, such as vendors, customers, and partners. The legal department can manage and process these submitted legal requests for contracts from a centralized location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-simple-contracts/legal-simple-contracts-overview.html
 release: zurich
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -29,9 +30,9 @@ Legal Simple Contracts enables employees to submit legal requests for the creati
 
 Legal Simple Contracts enables your organization to provide legal support for the following contract requests:
 
--   [Non-disclosure agreement requests in Legal Simple Contracts](legal-request-nda.md)
--   [Sales contract review requests](legal-request-sales-contracts.md)
--   [Third-party contract review requests](legal-request-third-party-contract.md)
+-   [Non-disclosure agreement requests in Legal Simple Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/legal-request-nda.md)
+-   [Sales contract review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/legal-request-sales-contracts.md)
+-   [Third-party contract review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/legal-request-third-party-contract.md)
 
-To find out how to provide legal support for a custom contract type, see [Create a legal contract intake workflow](../task/create-legal-contract.md).
+To find out how to provide legal support for a custom contract type, see [Create a legal contract intake workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/create-legal-contract.md).
 

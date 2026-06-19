@@ -2,6 +2,7 @@
 title: Change Management integration with ITOM Visibility
 description: If your organization is subscribed to ITOM Discovery or ITOM Visibility, integration with these ITOM products is automatically enabled. With this integration, any configuration item \(CI\) with an IP address that is part of a change request process can be maintained automatically. Change request fulfillers can also manually request the discovery process for a CI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/change-mgmt-integ-wth-Discovery.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -87,41 +88,41 @@ The Discovery State value is presented as a link to the corresponding Discovery 
 
 If you have opted to manually initiate the Discovery module, or opted for both manual and automatic initiation, then the **Initiate Discovery** related link appears in the Related Links section when the state of the change request matches one of the defined states in the property. When Discovery is triggered, the values in the **Discovery State** and the **Discovery last updated** fields change.
 
-![change management integration with discovery](../image/cm-integration-discovery.png "Change management integration with discovery")
+\[Omitted image "cm-integration-discovery.png"\] Alt text: change management integration with discovery
 
 ## Integration with ITOM Visibility
 
 You can view the changes in the context of application services. Service maps available in Service Mapping show changes to an application service as a whole and to the individual configuration items \(CIs\) comprising the service.
 
-If the ServiceNow AI Platform is configured to validate changes, all changes are evaluated and rendered as valid or not. If a change is valid, its change record on the service instance map is marked as approved. For more information about configuring the platform for change validation, see [Managing proposed changes](https://www.servicenow.com/docs/access?context=c_ProposedChanges&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+If the ServiceNow AI Platform is configured to validate changes, all changes are evaluated and rendered as valid or not. If a change is valid, its change record on the service instance map is marked as approved. For more information about configuring the platform for change validation, see Managing proposed changes.
 
 The type of change mark depends on the nature of changes that it represents:
 
--   **Light gray balloon \(![Light grey balloon icon](../../service-mapping/image/ChangeHistoryBalloonsLightGray.png)\)**
+-   **Light gray balloon \(\[Omitted image "ChangeHistoryBalloonsLightGray.png"\] Alt text: Light grey balloon icon\)**
 
     Unapproved change that does not influence the service instance behavior. For example, a change in a network path or adding a node to a cluster.
 
--   **Dark gray balloon \(![Dark gray balloon icon](../../service-mapping/image/ChangeHistoryBalloonsDarkGray.png)\)**
+-   **Dark gray balloon \(\[Omitted image "ChangeHistoryBalloonsDarkGray.png"\] Alt text: Dark gray balloon icon\)**
 
     Unapproved change that changes the service instance behavior.
 
--   **Green balloon \(![Green balloon icon](../../service-mapping/image/ChangeHistoryBalloonsGreen.png)\)**
+-   **Green balloon \(\[Omitted image "ChangeHistoryBalloonsGreen.png"\] Alt text: Green balloon icon\)**
 
     An approved change in deployments where the ServiceNow AI Platform is configured to validate changes.
 
--   **Double balloon \(![Green balloon icon](../../service-mapping/image/ChangeHistoryBalloonsDouble.png)\)**
+-   **Double balloon \(\[Omitted image "ChangeHistoryBalloonsDouble.png"\] Alt text: Green balloon icon\)**
 
     Multiple separate changes that happened a short time from each other.
 
 
-**Parent Topic:**[Change management integrations](change-mgmt-integrations.md)
+**Parent Topic:**[Change management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-mgmt-integrations.md)
 
 **Related topics**  
 
 
-[Discovery](https://www.servicenow.com/docs/access?context=r-discovery&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)
+[bundle-itom.r-discovery]
 
-[View the change history of application services](https://www.servicenow.com/docs/access?context=t_ViewCIChanges&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)
+[bundle-itom.t_ViewCIChanges]
 
-[View the change history of application services in Agent Workspace](https://www.servicenow.com/docs/access?context=workspace-view-history-app-service&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)
+[bundle-itom.workspace-view-history-app-service]
 

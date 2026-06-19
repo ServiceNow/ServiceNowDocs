@@ -2,6 +2,7 @@
 title: Configuring ATF Test Generator and Cloud Runner
 description: Configure the ATF Test Generator and Cloud Runner store application by setting up the cloud user.Set the credentials for the cloud user to be able to generate and run tests. This is a one time setup after the admin user installs the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-configure.html
 release: zurich
 product: ATF Test Generator and Cloud Runner
 classification: atf-test-generator-and-cloud-runner
@@ -37,11 +38,11 @@ Role required: admin
 
     If the admin user is selected successfully, the following message shows up:
 
-    ![Image showing user selection success message](../image/atf-app-credentials-success.png)
+    \[Omitted image "atf-app-credentials-success.png"\] Alt text: Image showing user selection success message
 
     If the selected user is not an admin, an error message shows up. The following message is an example of one of the possible error messages. The error messages vary depending on the reason of the error.
 
-    ![Image showing user selection failed message](../image/atf-app-credentials-failed.png)
+    \[Omitted image "atf-app-credentials-failed.png"\] Alt text: Image showing user selection failed message
 
     The selection of a cloud user can fail for the following reasons:
 

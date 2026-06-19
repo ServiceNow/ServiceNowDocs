@@ -2,6 +2,7 @@
 title: View job postings in Opportunity Marketplace
 description: Job postings forms can be viewed from the Job Posting \[sn\_ta\_hiring\_core\_job\_posting\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-view-job-posting.html
 release: zurich
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -38,5 +39,5 @@ You must view job postings forms from the Job Posting \[sn\_ta\_hiring\_core\_jo
 4.  You can only view the form for the selected job posting.
 
 
-**Parent Topic:**[Use Opportunity Marketplace](../concept/egd-oppt-mrktplc-using.md)
+**Parent Topic:**[Use Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-using.md)
 

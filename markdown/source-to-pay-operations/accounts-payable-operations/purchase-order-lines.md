@@ -2,13 +2,14 @@
 title: Purchase order lines
 description: Purchase order lines provide information of the individual lines under a purchase requisition or a sourcing request for the referenced supplier.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/purchase-order-lines.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Master data table for Accounts Payable Operations, Reference, Accounts Payable Operations, Finance and Supply Chain]
+reading_time_minutes: 1
+breadcrumb: [Data required for invoice processing, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Purchase order lines
@@ -290,5 +291,5 @@ General Ledger Account
 The account to which capital or operational expenses will be posted.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Master data table for Accounts Payable Operations](master-data-table-apo.md)
+</table>**Parent Topic:**[Data required for invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
 

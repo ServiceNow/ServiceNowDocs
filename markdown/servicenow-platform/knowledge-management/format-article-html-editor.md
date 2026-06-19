@@ -2,6 +2,7 @@
 title: Formatting options for knowledge articles
 description: You can apply formatting to a knowledge article using the HTML editor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/format-article-html-editor.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -28,5 +29,5 @@ You can use the options on the HTML toolbar to apply the following formatting in
 -   Insert bookmarks to the article content that can link to specific parts of the text with an ID.
 -   Identify and resolve accessibility related issues in a knowledge article using the Accessibility checker in the toolbar.
 
-For more information, see [Formatting icons for HTML fields](https://www.servicenow.com/docs/access?context=r_Formatting&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For more information, see Formatting icons for HTML fields.
 

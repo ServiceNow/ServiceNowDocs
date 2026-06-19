@@ -2,6 +2,7 @@
 title: User criteria diagnostics for Knowledge Management
 description: Manage user access to a knowledge base or an article using user criteria diagnostics. Understand what access users have to a knowledge base or an article and determine which user criteria define those permissions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/diagnose-knowledge-user-criteria.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -19,27 +20,27 @@ User access to a knowledge base or an article can be restricted based on:
 
 -   Domain separation
 -   Access control list \(ACL\) rules
--   [Knowledge workflows](../reference/r_KnowledgeWorkflows.md)
--   User criteria set for a [knowledge base](../task/t_SelectUserCriteria.md) or an [article](../task/t_SelectUCArticle.md)
+-   [Knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md)
+-   User criteria set for a [knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/t_SelectUserCriteria.md) or an [article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/t_SelectUCArticle.md)
 
 This feature considers domain separation and user criteria to determine the user access to knowledge bases and articles.
 
 ## Activation information
 
-The user criteria diagnostics feature is activated with the Knowledge Management v3 plugin \(com.snc.knowledge3\). For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+The user criteria diagnostics feature is activated with the Knowledge Management v3 plugin \(com.snc.knowledge3\). For more information, see Activate a plugin.
 
 **Note:**
 
-Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](knowledge-service-portal-pages.md).
+Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md).
 
--   **[Diagnose user access to a knowledge base](../task/diagnose-access-criteria-at-kb-level.md)**  
+-   **[Diagnose user access to a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/diagnose-access-criteria-at-kb-level.md)**  
 Identify which users have access to a knowledge base and what enables that access.
--   **[Diagnose user access to an article](../task/diagnose-access-criteria-at-an-article-level.md)**  
+-   **[Diagnose user access to an article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/diagnose-access-criteria-at-an-article-level.md)**  
 Identify which users have access to an article and what enables that access.
--   **[Configure access to knowledge bases for unauthenticated users](../task/configure-unauthenticated-user.md)**  
+-   **[Configure access to knowledge bases for unauthenticated users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/configure-unauthenticated-user.md)**  
 Identify knowledge bases accessible to unauthenticated users based on the user criteria and the system property settings.
--   **[Collect knowledge usage metrics](../task/Guest-user-diagnostic.md)**  
+-   **[Collect knowledge usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/Guest-user-diagnostic.md)**  
 Capture metrics such as article views, page views, and portal searches to track aggregated knowledge usage by users.
 
-**Parent Topic:**[Configuring Knowledge Management](configuring-knowledge-management.md)
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 

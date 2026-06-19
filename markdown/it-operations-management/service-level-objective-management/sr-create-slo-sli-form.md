@@ -2,6 +2,7 @@
 title: Create SLO form
 description: Learn about the available fields for adding a service level objective \(SLO\) to Service Reliability Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-level-objective-management/sr-create-slo-sli-form.html
 release: zurich
 product: Service Level Objective Management
 classification: service-level-objective-management
@@ -17,7 +18,7 @@ Learn about the available fields for adding a service level objective \(SLO\) to
 
 ## Service level objective form
 
-The following table describes the available options in the Service level objective form. For step-by-step instructions, see [Create SLOs, SLIs, and error budget policies](../../slo-management/task/sr-create-slo-sli.md).
+The following table describes the available options in the Service level objective form. For step-by-step instructions, see [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-level-objective-management/sr-create-slo-sli.md).
 
 <table id="id_sdb_v2n_y1c"><thead><tr><th>
 
@@ -137,5 +138,5 @@ Period for which the metrics are calculated. The available options are:-   **Mon
 </td></tr></tbody>
 </table>**Note:** The **Assignment group** is auto-populated.
 
-**Parent Topic:**[SLO Management reference](../../slo-management/reference/service-level-objective-management-reference.md)
+**Parent Topic:**[SLO Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-level-objective-management/service-level-objective-management-reference.md)
 

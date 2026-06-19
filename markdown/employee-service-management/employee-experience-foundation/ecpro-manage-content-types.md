@@ -2,11 +2,12 @@
 title: Add or modify content type for Content Publishing
 description: Use Content Types to associate the content type category with a service portal widget to determine where content resides on your service portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ecpro-manage-content-types.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Setup employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
@@ -27,15 +28,15 @@ The base system provides content types and content that you can use.
 
 2.  Click **New** or an existing content type to edit.
 
-<table id="choicetable_ztg_fx1_vbb"><thead><tr><th align="left" id="d139558e78">
+<table id="choicetable_ztg_fx1_vbb"><thead><tr><th align="left" id="d140091e78">
 
 Field
 
-</th><th align="left" id="d139558e81">
+</th><th align="left" id="d140091e81">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d139558e87">
+</th></tr></thead><tbody><tr><td id="d140091e87">
 
 **Name**
 
@@ -43,7 +44,7 @@ Description
 
 Unique name that describes the content.
 
-</td></tr><tr><td id="d139558e96">
+</td></tr><tr><td id="d140091e96">
 
 **Category**
 
@@ -55,9 +56,9 @@ The content type category. The types are:-   Portal Content
 -   To-do Content
 -   Mobile Content
 
-See [Portal content](../concept/ec-streamline-content.md).
+See [Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-streamline-content.md).
 
-</td></tr><tr><td id="d139558e135">
+</td></tr><tr><td id="d140091e135">
 
 **Associated widgets**
 
@@ -65,7 +66,7 @@ See [Portal content](../concept/ec-streamline-content.md).
 
 Widgets that can show the type of content you are defining or editing.
 
-</td></tr><tr><td id="d139558e144">
+</td></tr><tr><td id="d140091e144">
 
 **Active**
 
@@ -73,7 +74,7 @@ Widgets that can show the type of content you are defining or editing.
 
 Indicates that the content type is active and available to use.
 
-</td></tr><tr><td id="d139558e154">
+</td></tr><tr><td id="d140091e154">
 
 **Value**
 

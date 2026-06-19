@@ -2,6 +2,7 @@
 title: Define extension rules for policy exceptions
 description: Enable the GRC Approval Configurator from the Policy and Compliance Properties page to allow multiple approvers for policy extension approvals, replacing the single default approver \(Compliance Manager\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/define-policy-exception-extension-rules.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -220,5 +221,5 @@ Approval options: Select **All** to make it required for all the selected users 
 </table>    3.  Select **Submit**.
 
 
-**Parent Topic:**[Define policy exceptions and extensions with the GRC Approval Configurator](../concept/define-policy-exceptions-and-extensions-with-the-grc-approval-configurator.md)
+**Parent Topic:**[Define policy exceptions and extensions with the GRC Approval Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

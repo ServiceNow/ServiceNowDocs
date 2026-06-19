@@ -2,6 +2,7 @@
 title: Risk indicators, control indicators, and indicator templates
 description: Indicators are an important tool used to manage your organization's risks. Indicators collect data to monitor controls and risks, and to collect audit evidence. Indicators monitor a single control or risk. They are used to enhance and facilitate the monitoring, mitigation, and reporting of risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/manage-indicators-risk.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -27,9 +28,9 @@ The **GRC indicator nightly run** job executes the indicators. When an indicator
 
 Indicators yield results when the indicator tasks are closed. Those results are then used to create issues for controls, update risk scores, and provide supporting information for audit activities and control testing. Starting with version 10.1, the system displays the actual historical data for the supporting data records from the indicator results or indicator tasks. For more information on how to create the various types of indicators, see:
 
--   [Create and run a manual risk indicator in the Risk Workspace](../../grc-workspace-risk/task/create-a-manual-indicator-risk-ws.md)
--   [Create and run a basic risk indicator in the Risk Workspace](../../grc-workspace-risk/task/create-a-basic-risk-indicator-ws.md)
--   [Create and run a scripted risk indicator in the Risk Workspace](../../grc-workspace-risk/task/create-a-scripted-indicator.md)
+-   [Create and run a manual risk indicator in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/create-a-manual-indicator-risk-ws.md)
+-   [Create and run a basic risk indicator in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/create-a-basic-risk-indicator-ws.md)
+-   [Create and run a scripted risk indicator in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/create-a-scripted-indicator.md)
 
 ## Indicator templates
 

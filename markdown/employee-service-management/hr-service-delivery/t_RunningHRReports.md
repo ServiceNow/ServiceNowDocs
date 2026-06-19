@@ -2,6 +2,7 @@
 title: Run Reports
 description: You can run reports to view and monitor the status of HR cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/t\_RunningHRReports.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -43,15 +44,15 @@ Use HR reports to improve overall efficiency and effectiveness. For example, you
 
 ## What to do next
 
-If you want to create additional HR reports, click **Create a report** above the Reports list. After you create reports, share them with the HR report group. Once on the Reports list, the group can view them. For more information, see [Create a report](https://www.servicenow.com/docs/access?context=t_CreateYourOwnReport&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+If you want to create additional HR reports, click **Create a report** above the Reports list. After you create reports, share them with the HR report group. Once on the Reports list, the group can view them. For more information, see .
 
--   **[Available HR reports](../reference/r_AvailableReports.md)**  
+-   **[Available HR reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/r_AvailableReports.md)**  
 Predefined HR reports are available in the **HR Dashboards &amp; Reports** &gt; **Reports** list.
 
-**Parent Topic:**[HR Dashboards &amp; Reports](../concept/c_HRDashboardsReports.md)
+**Parent Topic:**[HR Dashboards &amp; Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRDashboardsReports.md)
 
 **Related topics**  
 
 
-[Getting started with reports](https://www.servicenow.com/docs/access?context=c_GenerateReports&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US)
+[bundle-par.c_GenerateReports]
 

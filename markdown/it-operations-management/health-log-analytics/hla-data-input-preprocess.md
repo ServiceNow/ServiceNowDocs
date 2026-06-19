@@ -2,6 +2,7 @@
 title: Edit raw log data before processing in Health Log Analytics
 description: You can modify raw log data and drop or break up log messages before they are treated in the MID Server, and therefore before Health Log Analytics maps and structures them. For example, you could prevent sensitive data from reaching Health Log Analytics by replacing user names and passwords with an asterisk \(\*\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-data-input-preprocess.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -46,7 +47,7 @@ Role required: evt\_mgmt\_admin
 
     **Note:**
 
-    \(ACC data inputs only\) When the Agent Client Collector switches to a different MID Server to provide failover protection, it must switch to a different ACC data input. Therefore, all ACC data inputs must have the same JavaScript function. Health Log Analytics provides the latest published JavaScript function to all existing and future ACC data inputs, replacing the previous script. This feature is supported in the Health Log Analytics application, Version 22.0.12 - December 2021 and later, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). For information about failover protection in Agent Client Collector Log Analytics \(ACC-L\), see [Agent Client Collector Log Analytics](../../agent-client-collector/concept/acc-log-analytics.md).
+    \(ACC data inputs only\) When the Agent Client Collector switches to a different MID Server to provide failover protection, it must switch to a different ACC data input. Therefore, all ACC data inputs must have the same JavaScript function. Health Log Analytics provides the latest published JavaScript function to all existing and future ACC data inputs, replacing the previous script. This feature is supported in the Health Log Analytics application, Version 22.0.12 - December 2021 and later, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). For information about failover protection in Agent Client Collector Log Analytics \(ACC-L\), see [Agent Client Collector Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-log-analytics.md).
 
     1.  In the JavaScript console, either change the provided default JavaScript function, modify an existing custom JavaScript function, or define a new one.
 
@@ -126,5 +127,5 @@ The new script is automatically added to the list of JS function templates from 
 
 ## What to do next
 
-Proceed to the **Data Input Mapping** page by selecting the **Go to Mapping** related link. [Map raw data](hla-data-input-mapping.md) that streams into your instance to determine how Health Log Analytics processes it.
+Proceed to the **Data Input Mapping** page by selecting the **Go to Mapping** related link. [Map raw data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-mapping.md) that streams into your instance to determine how Health Log Analytics processes it.
 

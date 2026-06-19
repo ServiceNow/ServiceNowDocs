@@ -2,6 +2,7 @@
 title: Points
 description: Users earn gamification points by performing activities in the community.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/communities/gamification-components-points.html
 release: zurich
 product: Communities
 classification: communities
@@ -24,5 +25,5 @@ The Points list has a widget instance option to **Show points for private forum*
 
 The Points list also has a widget instance options for the **Page size**, which determines the number of results displayed in the list. If there are more results than the number specified in this option, a button to show additional results appears at the bottom of the points page.
 
-**Parent Topic:**[Gamification components](gamification-components.md)
+**Parent Topic:**[Gamification components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/gamification-components.md)
 

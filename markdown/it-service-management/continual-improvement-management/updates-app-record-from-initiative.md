@@ -2,6 +2,7 @@
 title: Updates after application record creation from improvement initiatives
 description: UI changes display on the source improvement initiative or CIM task record and on the corresponding application records of some applications when you create application records from improvement initiatives or CIM tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/continual-improvement-management/updates-app-record-from-initiative.html
 release: zurich
 product: Continual Improvement Management
 classification: continual-improvement-management
@@ -75,5 +76,5 @@ Demands related list is added that contains the demand \(DMND\) record.
     |The story \(STRY\) record is added to the Stories related list.|No change.|
 
 
-**Parent Topic:**[Continual Improvement Management reference](cim-reference.md)
+**Parent Topic:**[Continual Improvement Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/cim-reference.md)
 

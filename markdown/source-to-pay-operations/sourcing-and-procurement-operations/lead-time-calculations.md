@@ -2,13 +2,14 @@
 title: Lead time calculations
 description: Lead time \(in days\) of a supplier product consist of the time for sourcing, supplier onboarding, purchasing, and shipping for a supplier product, product model, or a product category. Each of these durations are used to calculate the total lead time which determines the number of days to execute a purchase order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/lead-time-calculations.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 7
-breadcrumb: [Setting up primary data for Shopping Hub, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Setting up primary data Shopping, Configure Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Lead time calculations
@@ -269,11 +270,9 @@ For a supplier product, the total lead time is calculated as:
     Total lead time = \[Purchasing time for the supplier product\] + \[Shipping time of the supplier product\].
 
 
-![Total lead time for a supplier product](../image/total-lead-time.png)
-
 The total lead time of a supplier product is recalculated every time the values of the above fields on the supplier product form are updated.
 
 **Note:** All the lead times are recalculated and refreshed after completion of each purchase requisition. For these calculations, only the purchase requisition data of the recent 12 months is considered.
 
-**Parent Topic:**[Setting up primary data for Shopping Hub](set-up-master-data-shopping-hub.md)
+**Parent Topic:**[Setting up primary data for Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/set-up-master-data-shopping-hub.md)
 

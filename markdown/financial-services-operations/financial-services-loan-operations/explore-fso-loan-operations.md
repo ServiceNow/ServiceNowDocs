@@ -2,6 +2,7 @@
 title: Exploring Financial Services Loan Operations
 description: You can use ServiceNow Financial Services Loan Operations to manage servicing for all types of loans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-loan-operations/explore-fso-loan-operations.html
 release: zurich
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
@@ -104,5 +105,5 @@ Agents in the middle or back office of financial institutions who work with loan
 -   Document agents
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Financial Services Loan Operations](loan-ops-landing-page.md)
+</table>**Parent Topic:**[Financial Services Loan Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-loan-operations/loan-ops-landing-page.md)
 

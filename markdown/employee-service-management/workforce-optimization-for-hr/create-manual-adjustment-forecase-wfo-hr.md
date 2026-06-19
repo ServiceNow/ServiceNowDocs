@@ -2,6 +2,7 @@
 title: Create a manual adjustment for a forecast
 description: Adjust forecasts manually to fine-tune them for greater accuracy. Create the adjustment for a specified time period and analyze how it impacts your forecast.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workforce-optimization-for-hr/create-manual-adjustment-forecase-wfo-hr.html
 release: zurich
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -25,7 +26,7 @@ The user with these roles must also be a manager of the assignment group that is
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule \(![Schedule icon](../../workforce-optimization-for-customer-service-configurable/image/schedule-new.png)\) icon.
+2.  Click the Schedule \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon\) icon.
 
 3.  Click **Forecasts**.
 
@@ -122,5 +123,5 @@ The total is 34.
     -   The adjusted values will be used in the resource conversion formula and the demand forecast displayed on the calendar.
     -   Any other manual adjustment configurations that were created would be unpublished and moved to **Draft** state.
 
-**Parent Topic:**[Setting up Demand Forecast in Workforce Optimization for HR](../concept/setup-demand-forecast-wfo-hr.md)
+**Parent Topic:**[Setting up Demand Forecast in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workforce-optimization-for-hr/setup-demand-forecast-wfo-hr.md)
 

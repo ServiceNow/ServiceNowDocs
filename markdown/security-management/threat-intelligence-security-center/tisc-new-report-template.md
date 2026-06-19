@@ -2,6 +2,7 @@
 title: Create a new Report Template
 description: Create a new case report template according to your business needs of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-new-report-template.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -33,15 +34,15 @@ Role required: sn\_sec\_tisc.admin
 
 4.  Fill in the details as appropriate.
 
-<table id="choicetable_dzs_2xx_ghc"><thead><tr><th align="left" id="d159642e101">
+<table id="choicetable_dzs_2xx_ghc"><thead><tr><th align="left" id="d156263e101">
 
 Field
 
-</th><th align="left" id="d159642e104">
+</th><th align="left" id="d156263e104">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d159642e110">
+</th></tr></thead><tbody><tr><td id="d156263e110">
 
 **Name**
 
@@ -49,7 +50,7 @@ Description
 
 Name of the report template.
 
-</td></tr><tr><td id="d159642e119">
+</td></tr><tr><td id="d156263e119">
 
 **Report Category**
 
@@ -59,7 +60,7 @@ Select the desired option from the drop down list. The available report categori
 2.  **Intelligence Reports**: Intelligence Reports allow users to curate reports using data available across the entire Threat Intelligence Library.
 
 
-</td></tr><tr><td id="d159642e140">
+</td></tr><tr><td id="d156263e140">
 
 **Description**
 

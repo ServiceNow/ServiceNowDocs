@@ -2,6 +2,7 @@
 title: Reconcile changes
 description: Reconciling changes compares the local instance to the parent instance. A report is generated of local changes and calculates the number of changes that are ready to pull from the parent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/t\_Reconcile.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -43,10 +44,10 @@ A reconcile occurs automatically whenever you select a parent instance. You can 
     -   The On Local and not on Remote related list shows the local versions that are ready to queue or ignore.
 5.  Select **Team Dashboard**.
 
-6.  [Pull versions](t_PullAVersion.md) from the parent instance and then [resolve any collisions](t_ResolveACollision.md).
+6.  [Pull versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_PullAVersion.md) from the parent instance and then [resolve any collisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_ResolveACollision.md).
 
-7.  Review the local changes list and [queue or ignore changes](t_QueueALocalChangeForAPush.md), as appropriate.
+7.  Review the local changes list and [queue or ignore changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_QueueALocalChangeForAPush.md), as appropriate.
 
 
-**Parent Topic:**[Pushing changes](../concept/pushing-changes.md)
+**Parent Topic:**[Pushing changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/pushing-changes.md)
 

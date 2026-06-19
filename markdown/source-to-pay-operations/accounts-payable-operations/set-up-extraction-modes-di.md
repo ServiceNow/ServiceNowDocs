@@ -2,6 +2,7 @@
 title: Configure data extraction modes
 description: Configure the extraction modes for use cases to define how Document Intelligence extracts fields from documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/set-up-extraction-modes-di.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -28,9 +29,9 @@ Role required: sn\_docintel.manager
 
 3.  Select the **Invoice Processing - Gen AI** use case.
 
-4.  Select the settings ![docintel settings](../image/icon-docintel-settings-gear.png) icon.
+4.  Select the settings \[Omitted image "icon-docintel-settings-gear.png"\] Alt text: docintel settings icon.
 
-5.  Select the extraction mode for the use case **Accounts Payable Operations**.![Extraction mode](../image/settings-na.png)
+5.  Select the extraction mode for the use case **Accounts Payable Operations**.\[Omitted image "settings-na.png"\] Alt text: Extraction mode
 
 6.  Adjust the DocIntel full automation mode.
 

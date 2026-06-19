@@ -2,6 +2,7 @@
 title: Service contract form
 description: The Customer Contracts and Entitlements application uses the Service contract form to create service contracts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/service-contract-form.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -56,7 +57,7 @@ Account
 The name of the account associated with the service contract.**Note:**
 
 -   A service contract can be associated with either an account or a consumer.
--   An account can be created if no account is found by selecting **New** on the Account form. For more information on the fields in the Account form, see [Account form](https://www.servicenow.com/docs/access?context=customer-service-account-form&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+-   An account can be created if no account is found by selecting **New** on the Account form. For more information on the fields in the Account form, see .
 
 </td></tr><tr><td>
 
@@ -64,7 +65,7 @@ Consumer
 
 </td><td>
 
-The name of the consumer associated with the contract.**Note:** If no consumer record is found, you can create a consumer and add it to the service contract. For more information, see [Create a consumer record](https://www.servicenow.com/docs/access?context=create-a-consumer-record&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+The name of the consumer associated with the contract.**Note:** If no consumer record is found, you can create a consumer and add it to the service contract. For more information, see .
 
 </td></tr><tr><td>
 
@@ -111,5 +112,5 @@ Renewed from
 A service contract can be renewed multiple times. Renewed from field refers to the previous service contract that was renewed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Customer Contracts and Entitlements reference](../concept/pss-reference.md)
+</table>**Parent Topic:**[Customer Contracts and Entitlements reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/pss-reference.md)
 

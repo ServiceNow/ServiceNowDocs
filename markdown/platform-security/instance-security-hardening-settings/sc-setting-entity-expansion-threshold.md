@@ -2,6 +2,7 @@
 title: Minimize Entity Expansion Threshold for GlideXMLUtil Scriptable \[Updated in Security Center 1.3, 1.5, and 2.0\]
 description: Use the glide.xmlutil.max\_entity\_expansion property to change the maximum entity expansion limit to a smaller number.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-setting-entity-expansion-threshold.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -27,7 +28,7 @@ Ensure the property **glide.xmlutil.max\_entity\_expansion** is set to 3000 or l
 |---------|-----------|
 |Property name|**glide.xmlutil.max\_entity\_expansion**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Validation, sanitization, and encoding](validation-sanitization-encoding.md)|
+|Category|[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)|
 |Purpose|This remediation control must be enabled to defend against XML Entity Expansion/Billion Laugh attack.|
 |Recommended value|3000|
 |Default value|100000|
@@ -35,7 +36,7 @@ Ensure the property **glide.xmlutil.max\_entity\_expansion** is set to 3000 or l
 |Functional impact|If the customization is using large entity expansion, then, the ServiceNow AI Platform might block further processing.|
 |Security risk|\(Moderate\) An attacker can use this vulnerability to expand data exponentially, quickly consuming all system resources.|
 
-To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

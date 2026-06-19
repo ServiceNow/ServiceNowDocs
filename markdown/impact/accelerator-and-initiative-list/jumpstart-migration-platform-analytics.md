@@ -2,6 +2,7 @@
 title: Jumpstart Your Migration of Platform Analytics
 description: The Jumpstart Your Migration of Platform Analytics Accelerator provides a demonstration of how to successfully prepare and migrate your Platform Analytics content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/jumpstart-migration-platform-analytics.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,7 +20,7 @@ The Jumpstart Your Migration of Platform Analytics Accelerator provides a demons
 
 Jumpstart Your Migration of Platform Analytics provides Impact customers with an overview of the changes required to migrate your Platform Analytics content. The Accelerator includes walking through the migration process with a clone of the customer's instance and highlighting some typical questions, issues, and next steps. Advice and direction are provided to prepare for the change.
 
-See [Platform Analytics](https://www.servicenow.com/docs/access?context=c_performanceAnalyticsAndReporting&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US) for additional information on Platform Analytics applications.
+See  for additional information on Platform Analytics applications.
 
 **Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 

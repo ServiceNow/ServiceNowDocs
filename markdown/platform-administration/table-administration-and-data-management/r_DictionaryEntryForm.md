@@ -2,6 +2,7 @@
 title: Dictionary entry form
 description: The Dictionary Entry form was redesigned to provide an Advanced view and additional fields. You might need to configure the form to see all fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/r\_DictionaryEntryForm.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -37,7 +38,7 @@ Type
 
 </td><td>
 
-Defines the field type of the column or, if the **Type** is **Collection**, indicates that the dictionary entry represents the table. For more information, see [Field administration](../../reference-pages/concept/c_IntroductionToFields.md).You can change the type of a field. To preserve existing data, only change between logical types that map to the same physical type on the database. For example, Choice and String.
+Defines the field type of the column or, if the **Type** is **Collection**, indicates that the dictionary entry represents the table. For more information, see [Field administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_IntroductionToFields.md).You can change the type of a field. To preserve existing data, only change between logical types that map to the same physical type on the database. For example, Choice and String.
 
 </td></tr><tr><td>
 
@@ -70,7 +71,7 @@ Read only
 
 Determines whether the users can change the field value in the user interface. When this checkbox is selected, it gets grayed out. The system calculates and displays the data for the field.
 
- **Note:** You can [override this option](../concept/c_DictionaryOverrides.md) for extended tables.
+ **Note:** You can [override this option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_DictionaryOverrides.md) for extended tables.
 
 </td></tr><tr><td>
 
@@ -86,7 +87,7 @@ Text index
 
 </td><td>
 
-Determines whether searches index the text in a table.**Note:** This option only applies to tables. To exclude fields from indexing, see [Remove an index for a specific field](../../search-administration/task/t_RemoveAnIndexForASpecificField.md).
+Determines whether searches index the text in a table.**Note:** This option only applies to tables. To exclude fields from indexing, see [Remove an index for a specific field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/search-administration/t_RemoveAnIndexForASpecificField.md).
 
 </td></tr><tr><td>
 
@@ -135,7 +136,7 @@ Mandatory
 
 </td><td>
 
-Determines whether this field must contain a value to save a record. For more information, see [Make a field mandatory](../../field-administration/task/t_MakingAFieldMandatory.md).**Note:** You can override this option for extended tables.
+Determines whether this field must contain a value to save a record. For more information, see [Make a field mandatory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_MakingAFieldMandatory.md).**Note:** You can override this option for extended tables.
 
 </td></tr><tr><td>
 
@@ -143,11 +144,11 @@ Display
 
 </td><td>
 
-Indicates that this field is the [Display values](../../field-administration/concept/c_DisplayValues.md) for reference fields. Set this to true for the one field whose value you want to use as the text displayed in links to this table on lists and forms. By default, the **Number** field is the display value for all task tables.**Note:**
+Indicates that this field is the [Display values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_DisplayValues.md) for reference fields. Set this to true for the one field whose value you want to use as the text displayed in links to this table on lists and forms. By default, the **Number** field is the display value for all task tables.**Note:**
 
--   This option does not control whether a list or form displays this field as part of the layout. Instead, see [List configuration](../../list-administration/concept/c_ListConfiguration.md) and Personalizing Forms.
+-   This option does not control whether a list or form displays this field as part of the layout. Instead, see [List configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/list-administration/c_ListConfiguration.md) and Personalizing Forms.
 -   The display value becomes part of the form title when viewing an individual record from a table.
--   You can set a different display value on an extended table than the display value on a parent table by using a [dictionary override](../concept/c_DictionaryOverrides.md).
+-   You can set a different display value on an extended table than the display value on a parent table by using a [dictionary override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_DictionaryOverrides.md).
 
 </td></tr><tr><td>
 
@@ -161,7 +162,7 @@ For example, the following function definition creates a field that shows the sh
 
 `glidefunction:concat(short_description, ' ', caller_id.name)`
 
-**Note:** Function parameters support dot-walking. See [Dot-walking to data in related tables](https://www.servicenow.com/docs/access?context=c_DotWalking&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+**Note:** Function parameters support dot-walking. See .
 
 </td></tr><tr><td>
 
@@ -169,7 +170,7 @@ Attributes \[Advanced view\]
 
 </td><td>
 
-Alters the behavior of a field or functionality that depends on the field. For more information, see [Dictionary Attributes](../../reference-pages/concept/c_DictionaryAttributes.md). Attributes can be overridden for extended tables with [dictionary overrides](../concept/c_DictionaryOverrides.md). You can also configure attributes for this dictionary entry through the **Attributes** related list.
+Alters the behavior of a field or functionality that depends on the field. For more information, see [Dictionary Attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md). Attributes can be overridden for extended tables with [dictionary overrides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_DictionaryOverrides.md). You can also configure attributes for this dictionary entry through the **Attributes** related list.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -189,7 +190,7 @@ Dynamic filter value \[Advanced view\]
 
 </td><td>
 
-Specifies the [Create a dynamic filter option](https://www.servicenow.com/docs/access?context=t_DynamicFilterOptions&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) that determines the default value if the **Use dynamic default** option is selected.
+Specifies the Create a dynamic filter option that determines the default value if the **Use dynamic default** option is selected.
 
 </td></tr><tr><td>
 
@@ -197,7 +198,7 @@ Default value
 
 </td><td>
 
-Specifies the default value of the field for any new record. Ensure that this value uses the correct field type. For example, an integer field uses a default value of 2 but cannot use a default value of two. These values can be overridden with [dictionary overrides](../concept/c_DictionaryOverrides.md).
+Specifies the default value of the field for any new record. Ensure that this value uses the correct field type. For example, an integer field uses a default value of 2 but cannot use a default value of two. These values can be overridden with [dictionary overrides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_DictionaryOverrides.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -209,7 +210,7 @@ Reference
 
 </td><td>
 
-Makes the field into a [Reference field type](../../field-administration/concept/c_ReferenceField.md).If you enter a name that does not match an existing table, a new table is created when you save your changes to the dictionary record. If the current table has a module in the application navigator, a module for the new table is automatically created in the same application menu.
+Makes the field into a [Reference field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_ReferenceField.md).If you enter a name that does not match an existing table, a new table is created when you save your changes to the dictionary record. If the current table has a module in the application navigator, a module for the new table is automatically created in the same application menu.
 
 </td></tr><tr><td>
 
@@ -218,7 +219,7 @@ Use reference qualifier \[Advanced view\]
 </td><td>
 
 Specifies the type of qualifier to use:-   Simple: A set of choice lists where you can specify a reference qualifier condition.
--   Dynamic: A [Create a dynamic filter option](https://www.servicenow.com/docs/access?context=t_DynamicFilterOptions&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) that you can use to build the qualifier.
+-   Dynamic: A Create a dynamic filter option that you can use to build the qualifier.
 -   Advanced: A static encoded query string or JavaScript code that you can use to build the qualifier.
 
 </td></tr><tr><td>
@@ -235,7 +236,7 @@ Dynamic ref qual \[Advanced view\]
 
 </td><td>
 
-Specifies the [Create a dynamic filter option](https://www.servicenow.com/docs/access?context=t_DynamicFilterOptions&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) that determines the reference qualifier when the **Dynamic** qualifier type is selected.
+Specifies the Create a dynamic filter option that determines the reference qualifier when the **Dynamic** qualifier type is selected.
 
 </td></tr><tr><td>
 
@@ -243,7 +244,7 @@ Reference qual \[Advanced view\]
 
 </td><td>
 
-Filters the records available for a reference field if the **Advanced** qualifier type is selected. Reference qualifiers can be overridden with [dictionary overrides](../concept/c_DictionaryOverrides.md).
+Filters the records available for a reference field if the **Advanced** qualifier type is selected. Reference qualifiers can be overridden with [dictionary overrides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_DictionaryOverrides.md).
 
 </td></tr><tr><td>
 
@@ -298,7 +299,7 @@ Dependent on field \[Advanced view\]
 
 </td><td>
 
-Specifies a field on which the current field depends. For more information, see [Make a field dependent](../../field-administration/task/t_MakingAFieldDependent.md) **Note:** You can override this value for extended tables.
+Specifies a field on which the current field depends. For more information, see [Make a field dependent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_MakingAFieldDependent.md) **Note:** You can override this value for extended tables.
 
 .
 
@@ -314,9 +315,9 @@ Choice
 
 Allows users to see a list of suggested values in one of the following ways:-   List menu without -- None --
 -   List menu with -- None --
--   [Suggestion field type](../../field-administration/task/t_AddingASuggestionField.md)
+-   [Suggestion field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_AddingASuggestionField.md)
 
- If a choice is used, either define a [Choice list field type](../../field-administration/concept/c_ChoiceLists.md) or use the fields **Choice** table and **Choice** field to copy choices from another field elsewhere in the dictionary.
+ If a choice is used, either define a [Choice list field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_ChoiceLists.md) or use the fields **Choice** table and **Choice** field to copy choices from another field elsewhere in the dictionary.
 
 </td></tr><tr><td>
 
@@ -352,7 +353,7 @@ Calculation Type \[Advanced view\]
 
 </td><td>
 
-Allows you to select script based calculation or formula based calculation for a column. For more information about predefined functions and example formulas, see [Formulas for column values in Table Builder](https://www.servicenow.com/docs/access?context=formulas-columns-table-builder&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+Allows you to select script based calculation or formula based calculation for a column. For more information about predefined functions and example formulas, see Formulas for column values in Table Builder.
 
 </td></tr><tr><td>
 
@@ -362,7 +363,7 @@ Calculation \[Advanced view\]
 
 Allows you to enter a script or formula based on the selected Calculation Type. When the **Calculation Type** is **Formula**, you can enter a predefined function or formula for calculating the value of the field. You can use a predefined formula or combine other formulas to create a formula according to your requirements.
 
- When the **Calculation Type** is **Script**, you can enter a script for calculating the value of the field. These can be overridden for extended tables with [dictionary overrides](../concept/c_DictionaryOverrides.md). You can use the current object in this script. As with access control rules, the script can:
+ When the **Calculation Type** is **Script**, you can enter a script for calculating the value of the field. These can be overridden for extended tables with [dictionary overrides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_DictionaryOverrides.md). You can use the current object in this script. As with access control rules, the script can:
 
 -   Evaluate to true or false.
 -   Return an answer variable set to true or false.
@@ -471,5 +472,5 @@ Labels
 Provides access to the labels used for the table or field you are editing.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Modify dictionary entries](../task/t_ModifyADictionaryEntryFromAForm.md)
+</table>**Parent Topic:**[Modify dictionary entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/t_ModifyADictionaryEntryFromAForm.md)
 

@@ -2,6 +2,7 @@
 title: Default currency values in reports
 description: Currency values in reports appear in the user’s session currency, and are formatted in the user’s locale with a currency symbol.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/currency-administration/currency-values-reports.html
 release: zurich
 product: Currency Administration
 classification: currency-administration
@@ -27,5 +28,5 @@ The two user-specific values in the report are:
 
 **Note:** A user that has a different session currency than the person who runs a report might receive unexpected results.
 
-**Parent Topic:**[Standard currency fields](configure-and-use-default-currency-fields.md)
+**Parent Topic:**[Standard currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/configure-and-use-default-currency-fields.md)
 

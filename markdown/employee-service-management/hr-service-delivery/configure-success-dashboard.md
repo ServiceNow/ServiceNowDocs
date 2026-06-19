@@ -1,28 +1,31 @@
 ---
 title: Configure HR Success Dashboard indicators
-description: Set up the HR Success Dashboard so that IT leadership teams and process owners can start using the dashboard.
+description: Set up the HR Success Dashboard so that HR leadership teams and process owners can start using the dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/configure-success-dashboard.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [HR Success Dashboard indicators, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure HR Success Dashboard indicators
 
-Set up the HR Success Dashboard so that IT leadership teams and process owners can start using the dashboard.
+Set up the HR Success Dashboard so that HR leadership teams and process owners can start using the dashboard.
 
 ## Get started with HR Success Dashboard indicators
 
-1.  Get the HRSM Pro license for ServiceNow HR Service Delivery applications.
-2.  Install the HR Success Dashboard indicators application \(com.snc.success\_dashboard\_hrsm\).
-3.  Configure the Knowledge Base for HR Service Delivery.
-4.  [Configure the Virtual Agent](../task/instrument-virtual-agent-sdb.md) topics with VA deflection nodes.
-5.  Set fulfillment automation level for the HR catalog item.
-6.  Configure the Key Performance Indicators \(KPI\)s in the HR Success Dashboard indicators.
-7.  Run the `UpdateFormulasSD` script to recalculate formulae.
-8.  Activate Performance Analytics jobs.
+1.  [Install the HR Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/install-success-dashboard.md)
+2.  The dashboard tracks the Human Resources General knowledge base. To change the tracked knowledge base or add additional knowledge bases, follow the steps to: [Configure tracked Knowledge Base for the self-solved KPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-knowledge-sdb.md)
+3.  If you have topics other than the base system topics, configure the Virtual Agent deflection nodes: [Configure the Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/instrument-virtual-agent-sdb.md)
+4.  Set fulfillment automation level of catalog item
+5.  Configure the dashboard key performance indicators \(KPIs\), add contributing indicators, or update the More information card
+    1.  Configure Success Dashboard indicators KPIs.
+    2.  Add contributing indicators.
+    3.  Update more information cards.
+6.  [Run Update formula script for HR Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/run-the-update-formula-script.md)
+7.  [Activate Performance Analytics jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/activae-pa-indicator-jobs-sdb.md)
 

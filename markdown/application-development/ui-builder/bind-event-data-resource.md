@@ -2,6 +2,7 @@
 title: Bind an event to a data resource
 description: Assign event handlers within UI Builder to individual data resources on your page. When a data resource successfully fetches new data, it executes an event handler to take a user to the next step in a flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/bind-event-data-resource.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -29,41 +30,41 @@ Bind an event to a data resource, to perform data-related actions on your page. 
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    For more information, see [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md).
+    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md).
 
 3.  Create or open a page.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/create-page.md).
 
 4.  If you do not have any components on your page, add one to your page.
 
-    For more information, see [Add and configure components](add-components.md#).
+    For more information, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/add-components.md).
 
 5.  Add a data resource to your page.
 
-    For more information, see [Add and configure data resources to a page](add-data-resources.md).
+    For more information, see [Add and configure data resources to a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/add-data-resources.md).
 
 6.  Select a data resource instance.
 
-    ![Arrow pointing to the look up a single record data resource.](../image/data-resource-select-look-record.png)
+    \[Omitted image "data-resource-select-look-record.png"\] Alt text: Arrow pointing to the look up a single record data resource.
 
 7.  To add an event handler to your data resource, select the **Events** tab in the configuration panel of the data resource.
 
     You can add event handlers to your data resource to handle actions for Operation Initiated, Operation Succeeded, and Operation Failed.
 
-    ![Events tab in data resources panel.](../image/data-resource-events.png)
+    \[Omitted image "data-resource-events.png"\] Alt text: Events tab in data resources panel.
 
 8.  Select **Add event mapping**.
 
 9.  Select an event from the list.
 
-    ![List of events that can be bound to data resources.](../image/data-resource-events-list.png)
+    \[Omitted image "data-resource-events-list.png"\] Alt text: List of events that can be bound to data resources.
 
 10. Select **Continue**.
 
 11. Select an event handler from the list.
 
-    ![List of event handlers that can be assigned to an event.](../image/data-resource-event-handler-list.png)
+    \[Omitted image "data-resource-event-handler-list.png"\] Alt text: List of event handlers that can be assigned to an event.
 
 12. Select **Continue**.
 
@@ -75,11 +76,11 @@ Bind an event to a data resource, to perform data-related actions on your page. 
 
 15. Select **Save**.
 
-16. To preview your page and test the data resource event that you set up, select ![Preview button](../image/preview-button.png) in the UI Builder header.
+16. To preview your page and test the data resource event that you set up, select \[Omitted image "preview-button.png"\] Alt text: Preview button in the UI Builder header.
 
 
--   **[Link an event to another page](link-component-destination.md)**  
+-   **[Link an event to another page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/link-component-destination.md)**  
 Add a link to the destination event handler within UI Builder so that an event action can open another page. You can also configure the event handler to follow the App Route to the desired page.
 
-**Parent Topic:**[Bind events to add actions](../concept/bind-events.md)
+**Parent Topic:**[Bind events to add actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/bind-events.md)
 

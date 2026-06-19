@@ -2,6 +2,7 @@
 title: Create a work order from incident record in the CSM Configurable Workspace
 description: Create a work order directly from the incident record using the CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-integrations/create-wo-from-inc-cofig-wrkspc.html
 release: zurich
 product: Field Service Integrations
 classification: field-service-integrations
@@ -27,7 +28,7 @@ An incident record can accommodate only one work order at a time. You can create
 
 1.  Log in to the CSM Configurable Workspace.
 
-2.  Click the **List** icon \(![List icon.](../../../administer/workspace/image/list-icon-black.png)\).
+2.  Click the **List** icon \(\[Omitted image "list-icon-black.png"\] Alt text: List icon.\).
 
 3.  In the Lists panel, navigate to **Incident** &gt; **All**
 
@@ -40,5 +41,5 @@ An incident record can accommodate only one work order at a time. You can create
 
 A work order is created successfully from the incident.
 
-**Parent Topic:**[Integration with Incident Management](../concept/incident-for-fsm.md)
+**Parent Topic:**[Integration with Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-integrations/incident-for-fsm.md)
 

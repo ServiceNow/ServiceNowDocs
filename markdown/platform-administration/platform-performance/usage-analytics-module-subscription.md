@@ -2,6 +2,7 @@
 title: Monitoring instance usage
 description: You can track application usage on your instance through the Application Usage Overview and the ServiceNow Store Usage overview dashboards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-performance/usage-analytics-module-subscription.html
 release: zurich
 product: Platform Performance
 classification: platform-performance
@@ -35,10 +36,10 @@ The ServiceNow Store Usage Overview dashboard contains information about applica
 
 To view the ServiceNow Store Usage Overview, navigate to **Self-Service** &gt; **Dashboards**. From the available dashboards, select **ServiceNow Store Usage Overview**.
 
--   **[Application usage overview dashboard](../../platform-performance/reference/app-usage-overview-dashboard.md)**  
+-   **[Application usage overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/app-usage-overview-dashboard.md)**  
 The Application Usage Overview dashboard displays reports on the use of ServiceNow applications on your instance.
--   **[ServiceNow Store usage overview dashboard](../../platform-performance/reference/store-usage-overview-dash.md)**  
+-   **[ServiceNow Store usage overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/store-usage-overview-dash.md)**  
 The ServiceNow Store Usage Overview dashboard displays reports on the use of ServiceNow Store applications on your instance.
 
-**Parent Topic:**[Monitoring platform performance](../../platform-performance/concept/monitoring-platform-performance.md)
+**Parent Topic:**[Monitoring platform performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/monitoring-platform-performance.md)
 

@@ -2,6 +2,7 @@
 title: Explore Digest token authentication
 description: 
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/explore-digest-token.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -19,7 +20,7 @@ Digest token authentication is more secure than simple unencrypted HTTP headers 
 
 To know more about digest link expiry, see this [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1186365).
 
-**Note:** Use Time Limited Authentication \(TLA\) to configure time based expiry links. To know more, see [Time limited authentication](time-limited-authentication.md).
+**Note:** Use Time Limited Authentication \(TLA\) to configure time based expiry links. To know more, see [Time limited authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/time-limited-authentication.md).
 
 ## Integration requirements
 

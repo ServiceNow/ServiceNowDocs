@@ -2,6 +2,7 @@
 title: Modify decision table rules in Workflow Studio
 description: Evolve with your business logic by modifying the rows, default result values, or content of your decision table in Workflow Studio.Account for changing business logic by defining default result values in your decision tables in Workflow Studio. Defining a default result accounts for scenarios when no decision rules are met by the input data.Modify conditions and results to update decision rules in a decision table in Workflow Studio.Save time and effort creating decision rules by strategically duplicating rows in a decision table in Workflow Studio. Determine or change the sequence in which your decision rules are evaluated by reordering the rows in a decision table in Workflow Studio. Enter a different number for your row in the Rank column to quickly reorder rows in large tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/modify-decision-table-rules.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -15,7 +16,7 @@ breadcrumb: [Using decision tables, Use, Workflow Studio, Build workflows]
 
 Evolve with your business logic by modifying the rows, default result values, or content of your decision table in Workflow Studio.
 
-**Parent Topic:**[Using decision tables](using-decision-builder.md)
+**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/using-decision-builder.md)
 
 ## Define default result values
 
@@ -56,7 +57,7 @@ Modify conditions and results to update decision rules in a decision table in Wo
 
 ### Before you begin
 
-Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://www.servicenow.com/docs/access?context=aes-app-dev-workflow&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
 
 ### Procedure
 
@@ -73,13 +74,13 @@ Role required: admin, decision\_table\_admin, or delegated developer permissions
         -   Select the condition value and provide a new value.
         -   Update both the operator and the condition value.
     -   To modify a result, select the result value and provide a new value.
-5.  To modify a decision table condition in Decision rule view, select the Decision rule row menu options icon \(![Decision rule row menu options.](../image/ellipses.png)\) to the left of the row number, and then select **Open in Decision rule view**.
+5.  To modify a decision table condition in Decision rule view, select the Decision rule row menu options icon \(\[Omitted image "ellipses.png"\] Alt text: Decision rule row menu options.\) to the left of the row number, and then select **Open in Decision rule view**.
 
     Decision rule view supports complex conditions that may not fit into the table structure.
 
-    ![Decision rule view.](../image/decision-rule-view.png "Decision rule view")
+    \[Omitted image "decision-rule-view.png"\] Alt text: Decision rule view.
 
-    **Note:** Using Decision rule view can result in creating complex conditions. Tables with advanced rows can be edited in Excel but advanced rows are read-only. For more information, see [Manage decision tables in Excel](manage-decision-tables-ms-excel.md). Where possible, split complex decisions into multiple simplified decision rule rows.
+    **Note:** Using Decision rule view can result in creating complex conditions. Tables with advanced rows can be edited in Excel but advanced rows are read-only. For more information, see [Manage decision tables in Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/manage-decision-tables-ms-excel.md). Where possible, split complex decisions into multiple simplified decision rule rows.
 
     1.  Edit the condition as needed.
 
@@ -108,7 +109,7 @@ Plan the best way to duplicate rows to maximize efficiency and save time creatin
 
 3.  Open a decision table.
 
-4.  On the far left side of the row you want to duplicate, select the Duplicate decision row below this row icon \(![](../image/db-duplicate-row.png)\).
+4.  On the far left side of the row you want to duplicate, select the Duplicate decision row below this row icon \(\[Omitted image "db-duplicate-row.png"\] Alt text:\).
 
 
 ## Reorder decision rows in a decision table
@@ -117,7 +118,7 @@ Determine or change the sequence in which your decision rules are evaluated by r
 
 ### Before you begin
 
-Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://www.servicenow.com/docs/access?context=aes-app-dev-workflow&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
 
 ### Procedure
 
@@ -129,7 +130,7 @@ Role required: admin, decision\_table\_admin, or delegated developer permissions
 
 4.  Reorder the rows using either of the following methods.
 
-<table id="choicetable_zvf_qr5_sbc"><tbody><tr><td id="d160109e563">
+<table id="choicetable_zvf_qr5_sbc"><tbody><tr><td id="d148684e563">
 
 **Reorder by changing the Rank number**
 
@@ -141,13 +142,13 @@ Role required: admin, decision\_table\_admin, or delegated developer permissions
 
  This method is most effective for reordering rows in large decision tables.
 
-</td></tr><tr><td id="d160109e596">
+</td></tr><tr><td id="d148684e596">
 
 **Reorder by dragging and dropping a row**
 
 </td><td>
 
-1.  Point to a decision row and select the Row drag and drop gripper icon \(![Row drag and drop gripper icon](../image/Drag.png)\) in the far left.
+1.  Point to a decision row and select the Row drag and drop gripper icon \(\[Omitted image "Drag.png"\] Alt text: Row drag and drop gripper icon\) in the far left.
 2.  Reorder the rows by dragging the row to a new location.
  This method is most effective for reordering rows in smaller decision tables, as you can only see 20 rows at a time.
 

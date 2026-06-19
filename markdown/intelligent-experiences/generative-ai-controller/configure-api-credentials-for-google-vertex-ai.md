@@ -2,6 +2,7 @@
 title: Create API credentials for Google Vertex AI
 description: Configure your API credentials to use Google Vertex AI in custom workflows and Virtual Agent Designer topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-google-vertex-ai.html
 release: zurich
 product: Generative AI Controller
 classification: generative-ai-controller

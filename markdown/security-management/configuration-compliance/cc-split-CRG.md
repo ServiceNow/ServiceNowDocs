@@ -2,6 +2,7 @@
 title: Split a remediation task
 description: From an existing remediation task in the Configuration Compliance application, identify a subset of test results that you want to move to a new Remediation Task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/cc-split-CRG.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance
@@ -15,7 +16,7 @@ breadcrumb: [Remediation, Configuration Compliance, Unified Security Exposure Ma
 
 From an existing remediation task in the Configuration Compliance application, identify a subset of test results that you want to move to a new Remediation Task.
 
-**Important:** As an admin and a remediation owner, you can split a remediation task from the [Vulnerability Manager Workspace](../../vulnerability-response/concept/vr-ws-exceptions-split-VMGR-ws.md) and [IT Remediation Workspace](../../vulnerability-response/task/vr-ws-split-task.md) respectively.
+**Important:** As an admin and a remediation owner, you can split a remediation task from the [Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-manager-workspace/vr-ws-exceptions-split-VMGR-ws.md) and [IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/it-remediation-workspace/vr-ws-split-task.md) respectively.
 
 ## Before you begin
 
@@ -29,7 +30,7 @@ When you specify the conditions for the test results that you want to move to a 
 
 The following image illustrates the basic flow for splitting a remediation task. The detailed steps for this flow follow the image.
 
-![States for splitting a Remediation Task and move test results to another remediation task](../image/CC-Split-CRG-01.png "Flow for splitting a remediation task")
+\[Omitted image "CC-Split-CRG-01.png"\] Alt text: States for splitting a Remediation Task and move test results to another remediation task
 
 Use cases for splitting test results from existing Remediation Tasks into new tasks might include the following examples:
 
@@ -118,10 +119,10 @@ Use cases for splitting test results from existing Remediation Tasks into new ta
 
         **Note:** You can still manually move change requests and remediation tasks through the states of their life cycles on their respective records with state synchronization enabled, but when the system registers that a change request has changed its state, or you add a change request or remove it from a remediation task, state synchronization potentially can override your manual intervention. However, change requests states do not automatically move the remediation task from the `Closed` or `Deferred` states.
 
-        For more information, see [State synchronization between change requests and remediation tasks](cc-cr-state-synch.md).
+        For more information, see [State synchronization between change requests and remediation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/configuration-compliance/cc-cr-state-synch.md).
 
 
 ## What to do next
 
-You can create or associate change requests for your new remediation tasks. For more information, see [Associate a remediation task to an existing change request](cc-CR-v12-assoc.md) and [Create a change request in Configuration Compliance](cc-CR-v12-create.md).
+You can create or associate change requests for your new remediation tasks. For more information, see [Associate a remediation task to an existing change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/configuration-compliance/cc-CR-v12-assoc.md) and [Create a change request in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/configuration-compliance/cc-CR-v12-create.md).
 

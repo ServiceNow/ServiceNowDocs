@@ -2,6 +2,7 @@
 title: Add a standard service to workplace
 description: Add a standard service to a workplace space or room based on where it is made available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-reservation-management/add-std-service-to-workplaceitem.html
 release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -17,7 +18,7 @@ Add a standard service to a workplace space or room based on where it is made av
 
 ## Before you begin
 
-[Create a standard service](add-standard-services.md)
+[Create a standard service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/add-standard-services.md)
 
 Role required: sn\_wsd\_rsv.admin
 
@@ -39,7 +40,7 @@ Role required: sn\_wsd\_rsv.admin
 
     2.  Move the selection to the **Standard Services List** column on the right.
 
-        Use the Add-remove. ![Standard services Add-remove icon](../image/add-remove-icon.png) icon to move the services.
+        Use the Add-remove. \[Omitted image "add-remove-icon.png"\] Alt text: Standard services Add-remove icon icon to move the services.
 
 6.  Click **Save**.
 
@@ -48,5 +49,5 @@ Role required: sn\_wsd\_rsv.admin
 
 The Standard service is added to the selected workplace space or room.
 
-**Parent Topic:**[Create a standard service](add-standard-services.md)
+**Parent Topic:**[Create a standard service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/add-standard-services.md)
 

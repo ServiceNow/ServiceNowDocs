@@ -2,6 +2,7 @@
 title: Link existing documents to a parent record
 description: Link documents that are in your repository to a parent record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/link-doc-parent-rec.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -34,5 +35,5 @@ You must have sufficient permissions to access the document.
 5.  In the **Actions on selected rows** drop-down menu, select **Link Documents**.
 
 
-**Parent Topic:**[Linking documents to a parent record](../concept/doc-linked-parent-rec.md)
+**Parent Topic:**[Linking documents to a parent record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/doc-linked-parent-rec.md)
 

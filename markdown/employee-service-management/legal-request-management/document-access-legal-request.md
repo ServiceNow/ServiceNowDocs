@@ -2,6 +2,7 @@
 title: Document access in a legal request
 description: Documents attached to legal requests are uploaded to the configured external storage system when the external storage option is enabled on the legal request intake form. The access of these documents to various personas is controlled in real time, via a scheduled job, or on-demand.Request access to documents attached to a legal request that you do not currently have access to.Remove existing users' access to documents attached to a legal request when they are no longer required to view those documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-request-management/document-access-legal-request.html
 release: zurich
 product: Legal Request Management
 classification: legal-request-management
@@ -164,7 +165,7 @@ User is delegated
 -   Ad hoc approvers lose document access after they approve or reject the requested item.
 -   Delegates lose access after the delegation period expires.
 
-**Parent Topic:**[Manage attachments for a legal request](../task/manage-attachments-legal-request.md)
+**Parent Topic:**[Manage attachments for a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/manage-attachments-legal-request.md)
 
 ## Request document access for a legal request
 
@@ -180,7 +181,7 @@ Role required: sn\_lg\_ops.legal\_user or sn\_lg\_ops.legal\_fulfiller
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Click the list icon \(![List icon](../image/lsd-lcc-list-icon.png)\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, under **Legal Requests**, click **All**.
 
@@ -205,7 +206,7 @@ Role required: sn\_lg\_ops.request\_admin
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Click the list icon \(![List icon](../image/lsd-lcc-list-icon.png)\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, under **Legal Requests**, click **All**.
 

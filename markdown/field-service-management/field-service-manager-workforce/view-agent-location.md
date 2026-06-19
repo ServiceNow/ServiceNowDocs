@@ -2,6 +2,7 @@
 title: View agent location and assign tasks to agents
 description: View the location of agents in your assignment group so you can assign agents to nearby tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-manager-workforce/view-agent-location.html
 release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce

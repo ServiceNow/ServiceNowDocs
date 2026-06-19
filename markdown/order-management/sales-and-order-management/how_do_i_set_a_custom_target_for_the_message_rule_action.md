@@ -2,6 +2,7 @@
 title: Setting a custom target for a message rule action
 description: You can set a layout element as the target of a message action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/how\_do\_i\_set\_a\_custom\_target\_for\_the\_message\_rule\_action.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

@@ -2,6 +2,7 @@
 title: Install PPM Collaboration
 description: Install the PPM Collaboration \(sn\_ppm\_collab\) application from ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-management/install-ppm-collab-store-app.html
 release: zurich
 product: Project Management
 classification: project-management
@@ -68,11 +69,11 @@ The following components are installed with installation of the application:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with PPM Collaboration](../reference/components-installed-with-ppm-collab.md).
+For more information, see [Components installed with PPM Collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/components-installed-with-ppm-collab.md).
 
 ## What to do next
 
-[Setting up PPM collaboration for Slack](../concept/set-up-collab-ppm.md).
+[Setting up PPM collaboration for Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/set-up-collab-ppm.md).
 
-**Parent Topic:**[Using Project Management](../../project-management/concept/using-project-management.md)
+**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/using-project-management.md)
 

@@ -2,6 +2,7 @@
 title: Test values in a page
 description: Add test values to your URL as a way to bring test data into a page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/test-value.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -23,7 +24,7 @@ For example, say that you’re building a record page that displays a form for a
 
 To get test values to show data, add a data resource, then configure the data resource to bind a record to the test value in the URL. For example, you could add `incident` as a test value.
 
-![Edit test values for URL parameters popup displayed with required and optional parameter fields.](../image/test-values.png)
+\[Omitted image "test-values.png"\] Alt text: Edit test values for URL parameters popup displayed with required and optional parameter fields.
 
-**Parent Topic:**[Manage UI Builder pages and page variants](work-pages.md)
+**Parent Topic:**[Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-pages.md)
 

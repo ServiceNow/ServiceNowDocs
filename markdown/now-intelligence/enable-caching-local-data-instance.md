@@ -2,6 +2,7 @@
 title: Enable data caching for a local data instance
 description: To help reduce the load time of data visualizations, and if real time or very fresh data is not necessary, enable data caching on the data source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/enable-caching-local-data-instance.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -36,5 +37,5 @@ Role required: ui\_builder\_admin, admin
     |Additional key|Enter a string that will contribute to generating the unique hash key for each data cache created on this data instance. Use a unique additional key value for each local data instance.|
 
 
-**Parent Topic:**[Use a local data instance with a data visualization](dv-local-data-instance.md)
+**Parent Topic:**[Use a local data instance with a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dv-local-data-instance.md)
 

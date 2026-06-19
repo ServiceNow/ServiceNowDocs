@@ -2,6 +2,7 @@
 title: Add a custom column \(field\) to an HR table
 description: You can add custom columns \(fields\) to an HR table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/configure-custom-column-hr-table.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -31,12 +32,12 @@ Role required: sn\_hr\_core.admin
 
 4.  Fill in the fields for the **Dictionary Entry**.
 
-    **Note:** For more information on columns and fields, see [Field administration](https://www.servicenow.com/docs/access?context=c_IntroductionToFields&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    **Note:** For more information on columns and fields, see Field administration.
 
 5.  Select **Save** or **Submit**.
 
-    **Note:** If you added a custom column to an HR COE table, you must create a UI policy action \(**Visible** field is set to **False**\) to hide it from other HR services that use that HR COE table. For example, if you add a custom column to the HR Payroll Case \[sn\_hr\_core\_case\_payroll\] table, it appears in all HR services related to this table. The custom column appears even after you add it for a specific HR service. For more information, see [UI policies](https://www.servicenow.com/docs/access?context=t_CreateAUIPolicy&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    **Note:** If you added a custom column to an HR COE table, you must create a UI policy action \(**Visible** field is set to **False**\) to hide it from other HR services that use that HR COE table. For example, if you add a custom column to the HR Payroll Case \[sn\_hr\_core\_case\_payroll\] table, it appears in all HR services related to this table. The custom column appears even after you add it for a specific HR service. For more information, see UI policies.
 
 
-**Parent Topic:**[Configure an HR service](configure-hr-service.md)
+**Parent Topic:**[Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-service.md)
 

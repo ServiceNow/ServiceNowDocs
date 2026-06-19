@@ -2,6 +2,7 @@
 title: MetricBase reference
 description: These reference topics provide additional information about MetricBase developer resources and domain separation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/metricbase/reference-metricbase.html
 release: zurich
 product: MetricBase
 classification: metricbase
@@ -15,12 +16,12 @@ breadcrumb: [MetricBase, Manage instance data sources, Extend ServiceNow AI Plat
 
 These reference topics provide additional information about MetricBase developer resources and domain separation.
 
--   **[Developer resources](developer-resources.md)**  
+-   **[Developer resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/metricbase/developer-resources.md)**  
 Developers can use JavaScript or REST APIs to insert and retrieve time-series data from the MetricBase database and to run transforms on the data. The transformations enable you to visualize time-series data in a variety of ways.
--   **[Domain separation and MetricBase](domain-separation-metricbase.md)**  
+-   **[Domain separation and MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/metricbase/domain-separation-metricbase.md)**  
 Domain separation is supported in the MetricBase application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
--   **[MetricBase roles](../reference/metricbase-roles.md#)**  
+-   **[MetricBase roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/metricbase/metricbase-roles.md)**  
 MetricBase is installed with these roles.
 
-**Parent Topic:**[MetricBase](metricbase.md)
+**Parent Topic:**[MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/metricbase/metricbase.md)
 

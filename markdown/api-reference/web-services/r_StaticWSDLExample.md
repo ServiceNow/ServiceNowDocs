@@ -2,6 +2,7 @@
 title: Static WSDL example
 description: This example demonstrates the FakeStockValue WSDL.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/r\_StaticWSDLExample.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -33,5 +34,5 @@ This example demonstrates the FakeStockValue WSDL.
 </definitions>
 ```
 
-**Parent Topic:**[Create a static WSDL](../task/t_CreateAStaticWSDL.md)
+**Parent Topic:**[Create a static WSDL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/t_CreateAStaticWSDL.md)
 

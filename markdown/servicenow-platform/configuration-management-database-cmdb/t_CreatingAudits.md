@@ -2,6 +2,7 @@
 title: Create a compliance audit
 description: Create a compliance audit. Compliance offers two types of audits: one uses templates to define conditions and the other uses a script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/t\_CreatingAudits.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

@@ -2,6 +2,7 @@
 title: Complete a security best practice
 description: Learn how to complete a security best practice on your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/security-center/complete-a-security-best-practice-on-your-servicenow-instance.html
 release: zurich
 product: Security Center
 classification: security-center
@@ -31,7 +32,7 @@ Complete the following steps to implement security best practices on your Servic
 
     1.  Navigate to the **Best Practices** table in the UI.
 
-    2.  Select the kebab menu, or the item with three vertical dots \(![vertical dots](../../../reuse/icons/product-icons/ellipsis-vertical-outline-24.svg)\) in the **Status** column.
+    2.  Select the kebab menu, or the item with three vertical dots \(\[Omitted image "ellipsis-vertical-outline-24.svg"\] Alt text: vertical dots\) in the **Status** column.
 
     3.  Select the **Open** and **In progress** options, and then select **apply**.
 
@@ -54,5 +55,5 @@ Complete the following steps to implement security best practices on your Servic
     You can complete a security best practice at any time. You don’t have to complete all the steps and it’s ok if you skip them. However, consider inserting a comment in the Activity subtab when completing a security best practice when you have not completed all the steps for an audit reference.
 
 
-**Parent Topic:**[Security Best Practices](../concept/security-best-practices-manager.md)
+**Parent Topic:**[Security Best Practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/security-best-practices-manager.md)
 

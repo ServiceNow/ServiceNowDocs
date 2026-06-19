@@ -2,6 +2,7 @@
 title: Fill and sign a PDF document
 description: Complete your document task by filling in the required details and submitting the PDF document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/fill-sign-document.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -18,7 +19,7 @@ Complete your document task by filling in the required details and submitting th
 ## Before you begin
 
 -   Role required: none
--   This content applies only to the document templates that are created in the Document Templates application \(sn\_doc\). Document Templates is different from HR Document Templates. For HR Document Templates, refer to [HR document templates](../concept/c_HRDocumentTemplates.md).
+-   This content applies only to the document templates that are created in the Document Templates application \(sn\_doc\). Document Templates is different from HR Document Templates. For HR Document Templates, refer to [HR document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRDocumentTemplates.md).
 
 ## Procedure
 
@@ -50,8 +51,8 @@ Complete your document task by filling in the required details and submitting th
 
     The task is complete and appears in your Completed To Dos section. You can view and print the document with the submitted details.
 
-    ![Fillable PDf document](../image/fill-sign-document1.png "Example of a fillable PDF document") ![Fillable document](../image/fill-sign-document2.png "Example of a fillable PDF document")
+    \[Omitted image "fill-sign-document1.png"\] Alt text: Fillable PDf document \[Omitted image "fill-sign-document2.png"\] Alt text: Fillable document
 
 
-**Parent Topic:**[Working on a document task](work-doctemp-tasks.md)
+**Parent Topic:**[Working on a document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/work-doctemp-tasks.md)
 

@@ -2,6 +2,7 @@
 title: Step 6. Create business rules for a Security Case
 description: Create required business rules for a Security Case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/creating-required-business-rules-for-security-case.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -19,7 +20,7 @@ Create required business rules for a Security Case.
 
 Role required: admin
 
-Create the three following business rules for the new source table Security Case \(sn\_ti\_case\). These business rules are required to maintain the consistency in behavior with out of the box provided source table such as Security incident \(sn\_si\_incident\).
+Create the three following business rules for the new source table Security Case \(sn\_ti\_case\). These business rules are required to maintain the consistency in behavior with base system provided source table such as Security incident \(sn\_si\_incident\).
 
 Business rules for the new source table:
 
@@ -37,18 +38,18 @@ Business rules for the new source table:
 
     -   **Name**: Deactivate link when inactive
     -   **Table**: sn\_si\_incident
-    ![Business rules](../image/business-rules-step6.png)
+    \[Omitted image "business-rules-step6.png"\] Alt text: Business rules
 
 3.  Open record and change the table name to a new source table: sn\_ti\_case.
 
-4.  Right-click the menu on the page and click **Insert and Stay** to create the record.
+4.  Select and hold \(or right-click\) the menu on the page and select **Insert and Stay** to create the record.
 
-    ![Change the table name](../image/change-table-name-step6.png)
+    \[Omitted image "change-table-name-step6.png"\] Alt text: Change the table name
 
 5.  Repeat the procedure for another two business rules as well.
 
     -   Sync up team info on delete
     -   Sync up team info on update
 
-**Parent Topic:**[Rollup example use case implementation for a Security Case](../concept/use-case-for-a-security-case.md)
+**Parent Topic:**[Rollup example use case implementation for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/use-case-for-a-security-case.md)
 

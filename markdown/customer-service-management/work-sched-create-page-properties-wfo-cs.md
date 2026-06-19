@@ -1,0 +1,55 @@
+---
+title: Define the workItem property in the Work scheduler page configuration
+description: Add the workItem property to the Work scheduler page configuration to receive the workItem object provided by the work queue.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/work-sched-create-page-properties-wfo-cs.html
+release: zurich
+product: Customer Service Management
+classification: customer-service-management
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Create a Work scheduler card using the Next Experience UI Builder, Setting up Work scheduler, Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
+---
+
+# Define the workItem property in the Work scheduler page configuration
+
+Add the **workItem** property to the Work scheduler page configuration to receive the **workItem** object provided by the work queue.
+
+## Before you begin
+
+Role required: admin, workspace\_admin, or ui\_builder\_admin​
+
+## Procedure
+
+1.  In the **Page configuration** section, select the **Config** tab.
+
+2.  In the **Properties** section, select **Edit**.
+
+3.  In the **Edit properties** pop-up window, select **+Add**.
+
+4.  In the **Property name** field, enter **workItem**.
+
+5.  From the **Type** menu, select **JSON**.
+
+6.  Select **Add**.
+
+7.  Select **Save**.
+
+    The **workItem** property is created.
+
+8.  Hover over the **workItem** property and select the Dynamic data binding icon \(\[Omitted image "dynamic-data-binding-icon.png"\] Alt text: Dynamic data binding icon\).
+
+9.  In the **workItem** field, type **@state.workItem**.
+
+10. Click **Save**.
+
+    Here's a demo on how to define the workItem property in the Work scheduler page configuration.
+
+
+## What to do next
+
+Define event mappings for Work scheduler
+
+**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-workscheduler-card-wfo-cs.md)
+

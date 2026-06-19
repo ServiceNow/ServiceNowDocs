@@ -2,6 +2,7 @@
 title: Use case: Configuration line item to quote line flow
 description: By making a few adjustments to a flow template includes with the CPQ Extension package version 1.8 or later, you can parse the extended information from a configuration and map it to custom fields without using a QCP script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/use-case-configuration-line-item-to-quote-line-flow.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -15,11 +16,11 @@ breadcrumb: [Use cases, Using ServiceNow CPQ, Configure, price, quote apps, Use,
 
 By making a few adjustments to a flow template includes with the CPQ Extension package version 1.8 or later, you can parse the extended information from a configuration and map it to custom fields without using a QCP script.
 
-**Note:** This article applies to the ServiceNow CPQ Extension for Salesforce CPQ package version 1.8 or later. If your ServiceNow CPQ CPQ package is version 1.7 or earlier, see [Use case: Using the Salesforce Quote Calculator plugin to integrate data from ServiceNow CPQ to Salesforce quotes and quote lines](integrate_config_data_from_productlist_extended_to_salesforce_quote_and_quote_lines_using_quote_calculator_pluginqcp.md).
+**Note:** This article applies to the ServiceNow CPQ Extension for Salesforce CPQ package version 1.8 or later. If your ServiceNow CPQ CPQ package is version 1.7 or earlier, see [Use case: Using the Salesforce Quote Calculator plugin to integrate data from ServiceNow CPQ to Salesforce quotes and quote lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/integrate_config_data_from_productlist_extended_to_salesforce_quote_and_quote_lines_using_quote_calculator_pluginqcp.md).
 
 By default, if you add any extended info to a line item \(using ProductList.extended\), it will be added as a JSON to the corresponding configuration line item object created as the following:
 
-![configuration line item objects](../images/cpq-config-to-quote-line-flow-1.png)
+\[Omitted image "cpq-config-to-quote-line-flow-1.png"\] Alt text: configuration line item objects
 
 Before this flow was created, the only way to parse the individual keys and map them to custom fields on the configuration line items or their corresponding Quote Lines was to write a QCP script to do so. This guide will show you how to achieve the same result by making a few adjustments to a flow template included with our CPQ Extension package starting versions 1.8 or later.
 
@@ -34,27 +35,27 @@ You must create a `SG_Freight_c` field on the configuration line item and Quote 
 
 Next, in SFDC, go to Setup &gt; Process Automation &gt; Flows. Look for the “Configuration Line Item to Quote Line” flow and click it. It should look like this:
 
-![Workflow](../images/cpq-config-to-quote-line-flow-2.png)
+\[Omitted image "cpq-config-to-quote-line-flow-2.png"\] Alt text: Workflow
 
 Select the Update Fields flow element and click `Edit Element`. This will open a popup window:
 
-![Edit update records](../images/cpq-config-to-quote-line-flow-3.png)
+\[Omitted image "cpq-config-to-quote-line-flow-3.png"\] Alt text: Edit update records
 
 Click **+ Add Field**, and then in the Field column, enter the SFDC field name as below \(autocomplete should help you type it in\):
 
-![Set filter condition](../images/cpq-config-to-quote-line-flow-4.png)
+\[Omitted image "cpq-config-to-quote-line-flow-4.png"\] Alt text: Set filter condition
 
 If the data is entered correctly, you should see the value for the created field change to the same format as the value above it:
 
-![Set filter conditions](../images/cpq-config-to-quote-line-flow-5.png)
+\[Omitted image "cpq-config-to-quote-line-flow-5.png"\] Alt text: Set filter conditions
 
 Save the flow and activate. Itʼs recommended to save the flow as a a new flow instead of as a new version, so that youʼll always have the original template to go back to if needed.
 
 Add your fields to the configuration line item and quote line layouts in order to see these values where they belong:
 
-![list](../images/cpq-config-to-quote-line-flow-6.png)
+\[Omitted image "cpq-config-to-quote-line-flow-6.png"\] Alt text: list
 
-![Quote line screen](../images/cpq-config-to-quote-line-flow-7.png)
+\[Omitted image "cpq-config-to-quote-line-flow-7.png"\] Alt text: Quote line screen
 
-**Parent Topic:**[Use cases](use-cases.md)
+**Parent Topic:**[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/use-cases.md)
 

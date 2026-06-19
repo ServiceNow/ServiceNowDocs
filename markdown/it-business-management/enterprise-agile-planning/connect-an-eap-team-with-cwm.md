@@ -2,6 +2,7 @@
 title: Connect an EAP team with CWM
 description: Establish a connection to CWM by setting your EAP team's Agile tool to Collaborative Work Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/enterprise-agile-planning/connect-an-eap-team-with-cwm.html
 release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -31,7 +32,7 @@ Role required: sn\_apw\_advanced.eap\_admin
 
 4.  Set the **Team agile tool** field to **Collaborative Work Management**.
 
-    ![Setting Team Agile tool to Collaborative Work Management for an EAP Team.](../images/eap-connect-cwm.png)
+    \[Omitted image "eap-connect-cwm.png"\] Alt text: Setting Team Agile tool to Collaborative Work Management for an EAP Team.
 
 5.  Select **Save**.
 
@@ -40,14 +41,14 @@ Role required: sn\_apw\_advanced.eap\_admin
 
 -   Collaborative Work Management is displayed underneath this team in EAP.
 
-    ![EAP team connected to Collaborative Work Management.](../images/eap-cwm-connection.png)
+    \[Omitted image "eap-cwm-connection.png"\] Alt text: EAP team connected to Collaborative Work Management.
 
 -   A Space and Board are created for this team in Collaborative Work Management.
 
-    ![EAP team's Space and Board in CWM.](../images/eap-cwm-space-board.png)
+    \[Omitted image "eap-cwm-space-board.png"\] Alt text: EAP team's Space and Board in CWM.
 
 
 ## What to do next
 
-Navigate to **Workspaces** &gt; **Collaborative Work Management** to start managing this team's work. To learn more, see [Managing work using Boards in CWM](../../collab-work-mgmt/concept/cwm-boards.md) and [Sprint planning in CWM](../../collab-work-mgmt/concept/agile-sprint-planning-in-cwm.md).
+Navigate to **Workspaces** &gt; **Collaborative Work Management** to start managing this team's work. To learn more, see [Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/cwm-boards.md) and [Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md).
 

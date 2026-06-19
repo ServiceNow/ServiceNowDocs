@@ -2,6 +2,7 @@
 title: Card Data Security Reference
 description: Learn about the components and properties that are installed with Card Data Security.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/card-data-security-reference.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -15,10 +16,10 @@ breadcrumb: [Card Data Security, Dispute Management, Banking applications, Finan
 
 Learn about the components and properties that are installed with Card Data Security.
 
--   **[Components installed with Card Data Security](../reference/components-installed-with-card-data-security.md)**  
+-   **[Components installed with Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/components-installed-with-card-data-security.md)**  
 Several types of components are installed with the activation of Card Data Security.
--   **[Domain separation and Card Data Security](domain-separation-and-card-data-security.md)**  
+-   **[Domain separation and Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/domain-separation-and-card-data-security.md)**  
 Domain separation is supported for Card Data Security. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[Card Data Security](card-data-security.md)
+**Parent Topic:**[Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/card-data-security.md)
 

@@ -2,6 +2,7 @@
 title: AWS discovery solutions comparison
 description: ITOM Visibility applications discover a variety of AWS resources and populate the relevant configuration item \(CI\) classes in the Configuration Management Database \(CMDB\) with their attributes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/aws-discovery-methods-platcap.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -38,12 +39,12 @@ Discovery and Service Mapping Patterns and Visibility Content
 
 </td><td>
 
-[Discovery patterns used by ITOM Visibility](https://www.servicenow.com/docs/access?context=c_MappingPatternsCustomization&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)
+
 
 </td><td>
 
 -   You must update your store apps to the latest release version.
--   You must provide ITOM Visibility with access permissions. For more information, see [Setting up AWS service accounts](https://www.servicenow.com/docs/access?context=setup-aws-service-accounts&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)
+-   You must provide ITOM Visibility with access permissions. For more information, see 
 
 </td></tr><tr><td>
 
@@ -51,11 +52,11 @@ Service Graph Connector for AWS
 
 </td><td>
 
-[Service Graph Connector for AWS](../../configuration-management/concept/cmdb-integration-aws-sg.md)
+[Service Graph Connector for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-integration-aws-sg.md)
 
 </td><td>
 
-[Configure Service Graph Connector for AWS using the guided setup](../../configuration-management/task/configure-aws-integration.md)
+[Configure Service Graph Connector for AWS using the guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-aws-integration.md)
 
 </td></tr></tbody>
 </table>**Note:**
@@ -219,5 +220,5 @@ The CI class, in most cases, is applicable to both solutions. If it's not applic
 |AWS::MWAA::Environment|Yes|No|cmdb\_aws\_managed\_workflows\_for\_apache\_airflow\_environment|
 |AWS::NetworkFirewall::Firewall|Yes|No|cmdb\_aws\_network\_firewall\_firewall|
 
-**Parent Topic:**[Service Graph Connector for AWS reference](../../configuration-management/concept/sgc-cmdb-aws-reference.md)
+**Parent Topic:**[Service Graph Connector for AWS reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-reference.md)
 

@@ -2,6 +2,7 @@
 title: Edit a category or subcategory
 description: Edit your existing Operational Technology incident categories and subcategories to classify your incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-incident-management/configure-category-or-subcategory.html
 release: zurich
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -37,5 +38,5 @@ Edit your existing Operational Technology incident categories and subcategories 
 
 Now, the changes to the existing category or subcategory appear on the record.
 
-**Parent Topic:**[Incident categories and subcategories](../reference/ot-incident-categories-subcategories.md)
+**Parent Topic:**[Incident categories and subcategories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-incident-management/ot-incident-categories-subcategories.md)
 

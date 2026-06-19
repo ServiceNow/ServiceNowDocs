@@ -2,6 +2,7 @@
 title: Microsoft OneDrive integration with Document Services
 description: Use Microsoft OneDrive to copy, delete, restore, and get version actions on documents directly in your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/one-drive-integration.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -32,16 +33,16 @@ With Microsoft OneDrive integration you can do the following:
 
 ## Activation information
 
-To integrate Microsoft OneDrive with Document Services, install the Multi Provider Document Services Framework plugin \(com.snc.multiprovider\_documents\). For more information, see [Activate Multi Provider Document Services Framework](../task/activate-multi-provider-doc-framework.md).
+To integrate Microsoft OneDrive with Document Services, install the Multi Provider Document Services Framework plugin \(com.snc.multiprovider\_documents\). For more information, see [Activate Multi Provider Document Services Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/activate-multi-provider-doc-framework.md).
 
 You also need to install the Document Services Framework for Microsoft OneDrive.
 
--   **[Document Services Framework for Microsoft OneDrive](onedrive-spoke-document-services-framework.md)**  
+-   **[Document Services Framework for Microsoft OneDrive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/onedrive-spoke-document-services-framework.md)**  
 Integrate the Document Services Framework with Microsoft OneDrive.
--   **[Setup Microsoft OneDrive for Document Services](../task/configure-ms-onedrive-doc-services.md)**  
+-   **[Setup Microsoft OneDrive for Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/configure-ms-onedrive-doc-services.md)**  
 Integrate the ServiceNow instance and Microsoft OneDrive for Document Services by creating a custom OAuth application in Document Services to authenticate ServiceNow requests.
--   **[Register Microsoft OneDrive as an OAuth provider for Document Services](../task/register-ms-onedrive-oauth-provider.md)**  
+-   **[Register Microsoft OneDrive as an OAuth provider for Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/register-ms-onedrive-oauth-provider.md)**  
 Use the information generated during Microsoft OneDrive account configuration to register Microsoft OneDrive as an OAuth provider and allow the instance to request OAuth 2.0 tokens.
 
-**Parent Topic:**[Integrate with Document Services](../reference/integrate-with-document-services-mp.md)
+**Parent Topic:**[Integrate with Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/integrate-with-document-services-mp.md)
 

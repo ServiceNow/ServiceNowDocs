@@ -2,6 +2,7 @@
 title: Smart Assessments
 description: Supplier managers can configure smart assessments in bulk for internal and external users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/slo-campaign-mgmt.html
 release: zurich
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -20,7 +21,7 @@ Supplier managers use the segmentation rules and assessment templates to create 
 -   Internal users \(supplier owners/managers\) respond to the assessment through the Source-to-Pay Workspace.
 -   External users \(supplier contacts\) receive emails with a link to the assessment and respond through the Supplier Collaboration Portal.
 
-**Note:** Users can reassign the assessments based on the reassignment configuration. For more information, see [Configure user criteria for reassigning assessments](configure-user-criteria-for-reassigning-assessments.md).
+**Note:** Users can reassign the assessments based on the reassignment configuration. For more information, see [Configure user criteria for reassigning assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/configure-user-criteria-for-reassigning-assessments.md).
 
-For more information about how to configure smart assessments, see [Configure smart assessments](configure-smart-assessments.md).
+For more information about how to configure smart assessments, see [Configure smart assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/configure-smart-assessments.md).
 

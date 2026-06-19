@@ -2,6 +2,7 @@
 title: Apply scope to a service in Service Portfolio Management
 description: Define the limits of a service with scope details to grant or deny specific service views. Out of Scope items define what a service cannot provide and In Scope items define what a service provides. For example, nightly backups may be In Scope for the Desktop Support service, but Out of Scope for the Disaster Recovery service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-portfolio-management/SPM2-apply-scope-to-service.html
 release: zurich
 product: Service Portfolio Management
 classification: service-portfolio-management
@@ -42,5 +43,5 @@ To view the list of scope entries in your system, enter `service_scope.list` in 
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Using Service Portfolio Management](../concept/SPM2-using.md)
+**Parent Topic:**[Using Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/SPM2-using.md)
 

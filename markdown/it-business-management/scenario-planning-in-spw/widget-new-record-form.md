@@ -2,6 +2,7 @@
 title: Widget New Record form
 description: Use these form fields to create a new widget for your project administration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/widget-new-record-form.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -106,5 +107,5 @@ Short description
 Description of the widget.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Strategic Planning](../../alignment-planner-workspace/reference/form-field-information-for-strategic-planning.md)
+</table>**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
 

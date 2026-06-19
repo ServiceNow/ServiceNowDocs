@@ -2,6 +2,7 @@
 title: HR Service Delivery Integration with Magnit
 description: The ServiceNow HR Service Delivery Integration with Magnit application provides a seamless experience to track and manage onboarding activities of contingent workers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-magnit-int.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,30 +26,30 @@ The ServiceNow® HR Service Delivery Integration with Magnit application provide
 
 First, activate the HR Service Delivery Integration with Magnit application from ServiceNow Store. Activating the application automatically activates the Magnit spoke, Enterprise Service Management Integrations Framework and Human Resources Scoped App: Lifecycle Events for Enterprise.
 
-Next, [Set up Magnit spoke](https://www.servicenow.com/docs/access?context=magnit-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+Next, Set up Magnit spoke.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Get started
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore](explore-magnit.md) ![](../../../reuse/icons/brand-icons/bus-explore.svg)Detailed information on the integration
+[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/explore-magnit.md) \[Omitted image "bus-explore.svg"\] Alt text:Detailed information on the integration
 
 </td><td>
 
-[Configure](../task/configure-magnit.md) ![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure the application to get started
+[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-magnit.md) \[Omitted image "bus-sdlc.svg"\] Alt text:Configure the application to get started
 
 </td><td>
 
-[Reference](../reference/reference-magnit.md) ![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about user roles, tables, default configurations
+[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/reference-magnit.md) \[Omitted image "bus-learn.svg"\] Alt text:Get details about user roles, tables, default configurations
 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://www.servicenow.com/docs/access?context=hr-service-delivery-landing&version=zurich&pubname=zurich-release-notes&ft:locale=en-US).
+-   Learn more about what's new and changed, see the .
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

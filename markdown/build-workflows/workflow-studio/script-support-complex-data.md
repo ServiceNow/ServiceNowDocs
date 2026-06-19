@@ -2,6 +2,7 @@
 title: Script support for complex data
 description: Create and reference complex data from a script. Use a script when your source data comes from a data stream, a REST step response, or a Look Up Records step.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/script-support-complex-data.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -25,13 +26,13 @@ Use script to create complex data when data comes from these sources.
 
 ## Data Stream action response stream
 
-Data Stream actions use a parser script to map stream item values to complex object values. When writing a parser script, use JavaScript methods appropriate to the data stream format. For example, use the [JSON - Scoped](https://www.servicenow.com/docs/access?context=JSONScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) class to parse or encode a JSON data stream.
+Data Stream actions use a parser script to map stream item values to complex object values. When writing a parser script, use JavaScript methods appropriate to the data stream format. For example, use the JSON - Scoped class to parse or encode a JSON data stream.
 
-Parser scripts have access to the data stream input and output objects as well as a targetObject property. See [Data Stream actions](https://www.servicenow.com/docs/access?context=create-data-stream-action&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) for more information about parsing a response stream to create complex data.
+Parser scripts have access to the data stream input and output objects as well as a targetObject property. See Data Stream actions for more information about parsing a response stream to create complex data.
 
 ## REST step response
 
-You can convert a REST step response into one or more complex objects by parsing it with a Script step. To access a response from a Script step, you must create an input script variable and map it to the response payload from the prior REST step. See [Script step](../reference/javascript-step-action-designer.md) for more information about creating script input variables.
+You can convert a REST step response into one or more complex objects by parsing it with a Script step. To access a response from a Script step, you must create an input script variable and map it to the response payload from the prior REST step. See [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/javascript-step-action-designer.md) for more information about creating script input variables.
 
 Write a script that maps REST response values to complex object values. When writing REST response script, use JavaScript methods appropriate to the response format such as the JSON parse\(\) method.
 
@@ -39,17 +40,17 @@ Write a script that maps REST response values to complex object values. When wri
 
 You do not need to use a Script step to create a REST request from complex data. You can generate complex data in a prior action or step and then map it to a string input of the REST step. At run time, the action or flow converts the complex data into a JSON representation.
 
-For example, see the script steps used in [Get started with dynamic inputs](../task/getting-started-dynamic-input.md#) for the data gathering actions. The data gathering actions for getting table and field names both use a Script step to parse a REST response into a JSON object. Both data gathering actions also create output variables that store complex data as JSON objects.
+For example, see the script steps used in [Get started with dynamic inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/getting-started-dynamic-input.md) for the data gathering actions. The data gathering actions for getting table and field names both use a Script step to parse a REST response into a JSON object. Both data gathering actions also create output variables that store complex data as JSON objects.
 
 ## Look Up Records step
 
 While flows can use **For each** flow logic to process a list of records, actions require a Script step. The Script step replaces the **For each** flow logic with JavaScript such as a `For` or `While` loop.
 
-To access record data from a Script step, you must create an input script variable and map it to the record data from the prior look up step. See [Script step](../reference/javascript-step-action-designer.md) for more information about creating script input variables.
+To access record data from a Script step, you must create an input script variable and map it to the record data from the prior look up step. See [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/javascript-step-action-designer.md) for more information about creating script input variables.
 
-See [Create a custom action to generate an array of objects from a list of records](../task/create-custom-action-array-objects.md) for an example action that converts a list of user records into an array of contact objects.
+See [Create a custom action to generate an array of objects from a list of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-custom-action-array-objects.md) for an example action that converts a list of user records into an array of contact objects.
 
-**Note:** The Look Up Records action does not require a Script step to convert record data into complex data. You can create a custom action to convert a record into an object and apply **For each** flow logic to the custom action. See [Create a custom action to generate an object from a record](../task/create-custom-action-object.md) and [Create a custom flow to generate an object for each record in a list](../task/create-custom-flow-object.md) for an example of creating a complex object without using script.
+**Note:** The Look Up Records action does not require a Script step to convert record data into complex data. You can create a custom action to convert a record into an object and apply **For each** flow logic to the custom action. See [Create a custom action to generate an object from a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-custom-action-object.md) and [Create a custom flow to generate an object for each record in a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-custom-flow-object.md) for an example of creating a complex object without using script.
 
 ## Dot-walking object structures
 
@@ -61,7 +62,7 @@ Next in the path are the names of each structural element referenced separated b
 
 For example, suppose that you define a contact object as an Output variable. The object has the following structure.
 
-![A script step output variable containing a complex object for Contact.](../images/complex-object-contacts.png "Sample Contact object")
+\[Omitted image "complex-object-contacts.png"\] Alt text: A script step output variable containing a complex object for Contact.
 
 |Place in structure|Label|Name|Type|
 |------------------|-----|----|----|
@@ -104,10 +105,10 @@ Keep these general guidelines in mind when scripting with complex data.
     When you want a custom action to output complex data, add an action output and map it to the data pill for your Script step output variable. For example, create a contacts array and load the contact object template you saved earlier. Map the action output to the contacts array produced by your Script step.
 
 
--   **[Create a custom action to generate an array of objects from a list of records](../task/create-custom-action-array-objects.md)**  
+-   **[Create a custom action to generate an array of objects from a list of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-custom-action-array-objects.md)**  
 Generate an array of objects from a list of User records. Learn how to use a Script step to iterate through a list of records.
--   **[Create a custom action to generate an array of strings from a list of records](../task/create-custom-action-array-strings.md)**  
+-   **[Create a custom action to generate an array of strings from a list of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-custom-action-array-strings.md)**  
 Generate an array of strings from a list of User Role records. Learn how to use a Script step to iterate through a list of records.
 
-**Parent Topic:**[Complex data](complex-data.md)
+**Parent Topic:**[Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/complex-data.md)
 

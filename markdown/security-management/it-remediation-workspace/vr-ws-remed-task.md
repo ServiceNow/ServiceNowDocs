@@ -2,6 +2,7 @@
 title: Use remediation task records in the IT Remediation Workspace
 description: Remediation tasks are created and assigned automatically from remediation efforts. IT teams and remediation owners can view remediation tasks in the IT Remediation Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/it-remediation-workspace/vr-ws-remed-task.html
 release: zurich
 product: IT Remediation Workspace
 classification: it-remediation-workspace
@@ -40,7 +41,7 @@ See the vulnerable CIs assigned to you and your groups that have vulnerabilities
 
 3.  Alternatively, you can click the List icon in the upper left on the home page to see all the remediation tasks \(VULs, AVULs, CVULs and CRGs\) and records \(VITs, AVITs, CVITs and TRs\) assigned to you and your groups.
 
-    For more information about how to use the list view, see [Create a list in the IT Remediation Workspace](vr-ws-IT-list-view.md).
+    For more information about how to use the list view, see [Create a list in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/it-remediation-workspace/vr-ws-IT-list-view.md).
 
 4.  From either the Home page or the List view, click a remediation task to open it.
 
@@ -48,15 +49,15 @@ See the vulnerable CIs assigned to you and your groups that have vulnerabilities
 
 5.  Refer to the following table for the UI actions you can perform from the remediation task record.
 
-<table id="choicetable_rrb_qt4_1qb"><thead><tr><th align="left" id="d301626e145">
+<table id="choicetable_rrb_qt4_1qb"><thead><tr><th align="left" id="d39907e145">
 
 Task
 
-</th><th align="left" id="d301626e148">
+</th><th align="left" id="d39907e148">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d301626e154">
+</th></tr></thead><tbody><tr><td id="d39907e154">
 
 **Click a related items link**
 
@@ -70,7 +71,7 @@ Description
 -   State Change Approvals - View the false positive and exception requests associated with this record. If there are no requests, this related list item is not displayed.
  Opened records remain displayed as tabs until you close them.
 
-</td></tr><tr><td id="d301626e188">
+</td></tr><tr><td id="d39907e188">
 
 **Click a link to open a record**
 
@@ -78,7 +79,7 @@ Description
 
 From list displayed on opened records from the related items links, view more details about the records, the associated vulnerabilities, affected CIs \(assets\), detection data, impacted services, and associated records.
 
-</td></tr><tr><td id="d301626e197">
+</td></tr><tr><td id="d39907e197">
 
 **Click a UI action**
 
@@ -93,7 +94,7 @@ From list displayed on opened records from the related items links, view more de
 -   Save - Save any changes and update the record.
 
 
-</td></tr><tr><td id="d301626e231">
+</td></tr><tr><td id="d39907e231">
 
 **Add a work note or attach a file**
 
@@ -101,7 +102,7 @@ From list displayed on opened records from the related items links, view more de
 
 In the far right of the screen, click the **Activity** icon \(lightening icon\) and enter a work note. Click the icon to toggle the panel.You can also upload a file.
 
-</td></tr><tr><td id="d301626e247">
+</td></tr><tr><td id="d39907e247">
 
 **Set filters for a column on a list**
 
@@ -109,7 +110,7 @@ In the far right of the screen, click the **Activity** icon \(lightening icon\) 
 
 Select a column and expand the vertical three dots menu to view options that further filter the data in the column. For example, with the Overview-related item selected, you might prefer to sort the Risk rating column so that only critical items display.
 
-</td></tr><tr><td id="d301626e259">
+</td></tr><tr><td id="d39907e259">
 
 **Filter a column by a selected row**
 

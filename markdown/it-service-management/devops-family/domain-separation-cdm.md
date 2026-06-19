@@ -2,13 +2,14 @@
 title: Domain separation and CDM
 description: Domain separation is supported for CDM. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-family/domain-separation-cdm.html
 release: zurich
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Domain separation and DevOps Config, Reference, DevOps Config, IT Service Management]
+breadcrumb: [Domain separation and DevOps Config, DevOps Config reference, DevOps Config, IT Service Management]
 ---
 
 # Domain separation and CDM
@@ -27,7 +28,7 @@ Domain separation is supported for CDM. Domain separation enables you to separat
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## Domain separation and CDM overview
 
@@ -74,10 +75,10 @@ CDM tables include a **Domain** column.
 -   sn\_cdm\_restricted\_groups
 -   sn\_cdm\_snapshot
 
-**Parent Topic:**[Domain separation and DevOps Config](../../devops-config/concept/devops-config-domain-separation.md)
+**Parent Topic:**[Domain separation and DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/devops-config-domain-separation.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

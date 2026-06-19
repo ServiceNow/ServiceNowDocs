@@ -2,6 +2,7 @@
 title: Configure Azure credentials on a CyberArk vault
 description: Configure your CyberArk vault with the Azure credentials to be retrieved for use by your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/connections-and-credentials/create-cred-azure.html
 release: zurich
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -56,5 +57,5 @@ To store an Azure credential, first create an Azure credential template in the C
 13. Select **Save**.
 
 
-**Parent Topic:**[CyberArk integration configuration](../../credentials/concept/c_CyberArkIntegrationConfiguration.md)
+**Parent Topic:**[CyberArk integration configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/c_CyberArkIntegrationConfiguration.md)
 

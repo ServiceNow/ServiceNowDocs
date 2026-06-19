@@ -2,6 +2,7 @@
 title: Rank planning items
 description: Rank the planning items that are added to the pipeline of your portfolio plan and decide on their priority so that you can start planning your portfolio roadmap.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/rank-and-prioritize-work-portfolio-planning-workspace.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -18,7 +19,7 @@ Rank the planning items that are added to the pipeline of your portfolio plan an
 
 ## Before you begin
 
--   [Create a portfolio plan](create-portfolio-plan-in-portfolio-planning-workspace.md).
+-   [Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/create-portfolio-plan-in-portfolio-planning-workspace.md).
 -   Ensure that the planning items in the Prioritization tab are sorted by the Rank column in ascending order.
 
 Role required: sn\_align\_core.apw\_user
@@ -41,40 +42,40 @@ The Rank column helps you quickly identify the rank of an item relative to the o
 
 3.  From the Prioritization tab, rank the planning items according to your priority by rearranging their order.
 
-<table id="choicetable_pfl_vwb_zsb"><thead><tr><th align="left" id="d126350e146">
+<table id="choicetable_pfl_vwb_zsb"><thead><tr><th align="left" id="d84249e146">
 
 Choice
 
-</th><th align="left" id="d126350e149">
+</th><th align="left" id="d84249e149">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d126350e155">
+</th></tr></thead><tbody><tr><td id="d84249e155">
 
 **Reorder a single planning item**
 
 </td><td>
 
-Use the Rearrange rows icon \(![Rearrange rows icon.](../../alignment-planner-workspace/images/icon-rearrange.png)\) to drag and drop the row to the required position.
+Use the Rearrange rows icon \(\[Omitted image "icon-rearrange.png"\] Alt text: Rearrange rows icon.\) to drag and drop the row to the required position.
 
- ![Prioritization page single row reorder](../../spw-prioritization/images/backlog-v2-single-reorder.gif)
+ \[Omitted image "backlog-v2-single-reorder.gif"\] Alt text: Prioritization page single row reorder
 
-</td></tr><tr><td id="d126350e180">
+</td></tr><tr><td id="d84249e180">
 
 **Reorder multiple planning items at once**
 
 </td><td>
 
-1.  Use the Select row checkbox \(![Select checkbox.](../../alignment-planner-workspace/images/icon-select.png)\) to select the items that you want to reorder.
-2.  Use the Rearrange rows icon \(![Rearrange rows icon.](../../alignment-planner-workspace/images/icon-rearrange.png)\) to drag and drop the rows to the required position.
- ![Prioritization page multi-row reorder](../../spw-prioritization/images/backlog-v2-multi-row-reorder.gif)
+1.  Use the Select row checkbox \(\[Omitted image "icon-select.png"\] Alt text: Select checkbox.\) to select the items that you want to reorder.
+2.  Use the Rearrange rows icon \(\[Omitted image "icon-rearrange.png"\] Alt text: Rearrange rows icon.\) to drag and drop the rows to the required position.
+ \[Omitted image "backlog-v2-multi-row-reorder.gif"\] Alt text: Prioritization page multi-row reorder
 
 </td></tr></tbody>
 </table>    Repeat this step until the ranking of the planning items align with your business priorities. To get better visibility of data that you need:
 
-    -   Sort or group the list by the required columns. See [Personalize Prioritization view](personalize-prioritization-page-portfolio-planning-workspace.md).
-    -   Filter the planning items. See [Apply quick filters for Prioritization and Roadmap data in Portfolio Planning](quick-fiters-prioitization-roadmap-ppw.md).
-    **Tip:** Using the Row context menu \(![Row context menu](../../project-workspace/image/icon-row-context-menu.png)\), you can also assign the highest and lowest ranks to the planning items using the **Move to top** and **Move to bottom** options respectively.
+    -   Sort or group the list by the required columns. See [Personalize Prioritization view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/personalize-prioritization-page-portfolio-planning-workspace.md).
+    -   Filter the planning items. See [Apply quick filters for Prioritization and Roadmap data in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/quick-fiters-prioitization-roadmap-ppw.md).
+    **Tip:** Using the Row context menu \(\[Omitted image "icon-row-context-menu.png"\] Alt text: Row context menu\), you can also assign the highest and lowest ranks to the planning items using the **Move to top** and **Move to bottom** options respectively.
 
 
 ## Result

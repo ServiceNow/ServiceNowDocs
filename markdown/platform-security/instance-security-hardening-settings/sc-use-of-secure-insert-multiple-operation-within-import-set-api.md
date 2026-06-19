@@ -2,6 +2,7 @@
 title: Use of secure insert multiple operation within import set API \[New in Security Center 1.3\]
 description: Use the com.glide.import\_set\_api.insert\_multiple\_optimize property to control whether GlideRecordSecure or GlideRecord is used for the Insert Multiple operation within the Import Set API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-use-of-secure-insert-multiple-operation-within-import-set-api.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -73,7 +74,7 @@ Category
 
 </td><td>
 
-[Access control](sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -118,5 +119,5 @@ References
 [https://developer.servicenow.com/blog.do?p=/post/gliderecord-vs-gliderecordsecure](https://developer.servicenow.com/blog.do?p=/post/gliderecord-vs-gliderecordsecure)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

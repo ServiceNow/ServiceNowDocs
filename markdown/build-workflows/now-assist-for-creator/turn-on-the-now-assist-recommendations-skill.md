@@ -2,6 +2,7 @@
 title: Turn on the flow recommendations skill
 description: Turn on the flow recommendations skill to get recommendations for the next step of your flow with generative AI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/now-assist-for-creator/turn-on-the-now-assist-recommendations-skill.html
 release: zurich
 product: Now Assist for Creator
 classification: now-assist-for-creator
@@ -17,7 +18,7 @@ Turn on the flow recommendations skill to get recommendations for the next step 
 
 ## Before you begin
 
--   Install the Now Assist for Creator application. See [Install Now Assist for Creator](install-now-assist-for-creator.md).
+-   Install the Now Assist for Creator application. See [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/install-now-assist-for-creator.md).
 -   Role required: admin
 
 ## About this task
@@ -30,18 +31,18 @@ Turn on the flow recommendations skill to get recommendations for the next step 
 
 2.  In the workflow list, select **Creator**.
 
-    ![List of cards displayed when selecting Now Assist skills for Creator](../../now-assist-skills/image/na-creator-skill-cards.png)
+    \[Omitted image "na-creator-skill-cards.png"\] Alt text: List of cards displayed when selecting Now Assist skills for Creator
 
 3.  In the Flow recommendations card, select **Turn on**.
 
 4.  In the Flow recommendations card, verify that the skill is active.
 
-    ![Flow recommendations skill listed as active skill](../../now-assist-skills/image/na-creator-flow-skills-active.png)
+    \[Omitted image "na-creator-flow-skills-active.png"\] Alt text: Flow recommendations skill listed as active skill
 
 
 ## What to do next
 
-For Flow generation v 28.2 and later releases, grant a flow creation role to each user who will use the Flow recommendations skill. For a list of available flow creation roles, see [User access to Workflow Studio flows](../concept/user-access-flow-designer.md).
+For Flow generation v 28.2 and later releases, grant a flow creation role to each user who will use the Flow recommendations skill. For a list of available flow creation roles, see [User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/user-access-flow-designer.md).
 
 For earlier versions of the Flow generation application, grant the now.assist.creator role and a flow creation role to each user who will use the Flow recommendations skill.
 

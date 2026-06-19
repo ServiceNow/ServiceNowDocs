@@ -2,6 +2,7 @@
 title: Configure HR Service Delivery Integration with SuccessFactors properties
 description: System properties control system behavior. The integrations source properties can be used to configure the HR Service Delivery Integration with SuccessFactors. You can access system properties for HR Service Delivery Integration with SuccessFactors by navigating to All &gt; HRSD SuccessFactors Integration &gt; System Properties. These system properties are only applicable for HR Service Delivery Integration with SuccessFactors and cannot be leveraged with SuccessFactors spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hrsd-sf-properties.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

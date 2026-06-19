@@ -2,13 +2,14 @@
 title: Open DEX Application and Device Health
 description: DEX Application and Device Health provides proactive visibility that helps you understand your organization end-user experience and diagnose any issues. With features such as application and user navigation, trend analysis, and other useful metrics, the DEX Application and Device Health enables you to identify the root cause of an issue, rather than just treating the symptoms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/open-dex-workspace.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Application and Device Health, Monitor, Digital End-User Experience, IT Service Management]
+breadcrumb: [DEX Application and Device Health pages, Monitor, Digital End-User Experience, IT Service Management]
 ---
 
 # Open DEX Application and Device Health
@@ -28,5 +29,5 @@ Role required: sn\_dex.user
 
 ## Result
 
-The home page icon \(![The Home icon that displays the home page.](../image/icon-home-selected.png)\) is selected by default. For more information, see [Landing page cards](../reference/dashboard-cards.md).
+The home page icon \(\[Omitted image "icon-home-selected.png"\] Alt text: The Home icon that displays the home page.\) is selected by default. For more information, see [Landing page cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dashboard-cards.md).
 

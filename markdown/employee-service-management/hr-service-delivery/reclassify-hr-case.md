@@ -2,6 +2,7 @@
 title: Transfer an HR case
 description: You can create and use methods to reclassify or transfer an opened HR case from one HR service to another. Oftentimes an HR case opens as a General Benefits Inquiry. After investigating, you can transfer it to the applicable HR service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/reclassify-hr-case.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -76,14 +77,14 @@ Sent to the subject person with closed and transferred case information
 -   Attachments are copied and moved from the current case to the new case.
 -   Previous interaction records from the current case are copied and moved to the new case.
 
-The sn\_hr\_core.reclassify\_default\_transfer sys property determines the default method to use after upgrade. For more information, see [HR properties](../task/t_HRProperties.md).
+The sn\_hr\_core.reclassify\_default\_transfer sys property determines the default method to use after upgrade. For more information, see [HR properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_HRProperties.md).
 
-You can configure additional transfer case scenarios by following these steps: [Configure HR transfer case](../task/config-hr-transfer-case.md).
+You can configure additional transfer case scenarios by following these steps: [Configure HR transfer case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/config-hr-transfer-case.md).
 
--   **[Configure HR transfer case](../task/config-hr-transfer-case.md)**  
+-   **[Configure HR transfer case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/config-hr-transfer-case.md)**  
 The base system provides examples of HR transfer case configuration types. You can also create your own.
--   **[Move an HR case from one HR service to another](../task/TransferHRCase.md)**  
+-   **[Move an HR case from one HR service to another](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/TransferHRCase.md)**  
 You can reclassify an HR case that you originally create under one HR service but want to move it under a different HR service.
 
-**Parent Topic:**[Use HR Case Management](c_HRCaseManagement.md)
+**Parent Topic:**[Use HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
 

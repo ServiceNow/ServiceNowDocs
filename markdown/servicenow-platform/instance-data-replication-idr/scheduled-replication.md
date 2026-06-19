@@ -2,6 +2,7 @@
 title: Scheduled replication
 description: Replicate historical inserts and updates from a producer instance to one or more consumer instances on a scheduled basis in Instance Data Replication \(IDR\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/instance-data-replication-idr/scheduled-replication.html
 release: zurich
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -19,5 +20,5 @@ Instead of continuously replicating data as it's created or changed on your prod
 
 For example, you should avoid continuous replication of CMDB tables. Replicating CMDB data as changes occur can create performance issues or unforeseen consequences with replication due to the number of records involved. Instead, you can use scheduled replication to periodically replicate CMDB data that accumulates on the producer instance.
 
-For more information, see [Set up scheduled replication](../task/set-up-scheduled-replication-idr.md).
+For more information, see [Set up scheduled replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/instance-data-replication-idr/set-up-scheduled-replication-idr.md).
 

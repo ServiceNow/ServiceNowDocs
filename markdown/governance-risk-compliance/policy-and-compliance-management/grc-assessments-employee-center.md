@@ -2,6 +2,7 @@
 title: Complete control assessments from the Employee Center portal
 description: Use the Employee Center Home page to view all your requests, raise issue requests and policy exceptions, and complete all your GRC assessments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/grc-assessments-employee-center.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -34,14 +35,6 @@ The **Risk identification questionnaires** tile is available only if GRC: Advanc
 1.  Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**.
 
 2.  Select **My GRC Assessments** in the **My active items** pane of the Home page.
-
-    ![Employee Center home page.](../image/EmpCenterHomePage_1.png "Employee Center home page")
-
-    The Control attestations tile is highlighted listing all your attestations that are active and due. It also displays the number of control attestations that are overdue and they’re enlisted first in the list.
-
-    ![My GRC assessments in employee center.](../image/MyGRCAssessEmpCent.png "My GRC assessments in the Employee Center")
-
-    There’s a pagination limitation of displaying only 15 items at a time.
 
 3.  Select **Show More Requests** to display more requests.
 

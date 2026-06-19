@@ -2,6 +2,7 @@
 title: Number field properties in layouts
 description: Control how number fields behave and display in ServiceNow CPQ layouts using the step and precision properties. Define valid input intervals, enforce decimal formatting, and ensure consistent numeric entry for use cases like quantities and currency values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cpq-number-field-properties-in-layouts.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -31,7 +32,7 @@ Using a rule to set a value that is not a multiple of the step is not recommende
 
 The following Field Properties dialog illustrates one use of the step property.
 
-![Number field properties in layouts](../images/cpq-step-property-example.png)
+\[Omitted image "cpq-step-property-example.png"\] Alt text: Number field properties in layouts
 
 ## The precision property
 
@@ -41,17 +42,17 @@ The precision property defaults to 0 if not set.
 
 The following Field Properties dialog illustrates one use of the precision property.
 
-![Number field properties in layouts](../images/cpq-precision-property-example.png)
+\[Omitted image "cpq-precision-property-example.png"\] Alt text: Number field properties in layouts
 
 ## The Display-Type-Specific Constraints Slider
 
-![Number field properties in layouts](../images/cpq-layout-number-field-props-slider.png)
+\[Omitted image "cpq-layout-number-field-props-slider.png"\] Alt text: Number field properties in layouts
 
 The step property is required for this component. Minimum and maximum values are included, but precision is not.
 
 ## NumberWithSubmit
 
-![Number field properties in layouts](../images/cpq-layout-number-field-props-num-w-submit.png)
+\[Omitted image "cpq-layout-number-field-props-num-w-submit.png"\] Alt text: Number field properties in layouts
 
 The precision property is included and defaults to 0. The step property is not included.
 

@@ -2,6 +2,7 @@
 title: Request many to many task relations
 description: The Many to Many Task Relations plugin \(com.snc.task\_relations\) is included with several plugins. You can request activation of the plugin by itself.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/t\_RequestManyToManyTaskRelations.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -76,5 +77,5 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Creating many-to-many task relations](../concept/c_ManyToManyTaskRelations.md)
+**Parent Topic:**[Creating many-to-many task relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_ManyToManyTaskRelations.md)
 

@@ -2,6 +2,7 @@
 title: Enforce Security Scope for Service Application Information \[New in Security Center 2.0\]
 description: Use the glide.enforce\_security\_scope.sn\_svc\_appl property to ensure that the data in master scope tables is secured.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-enforce-security-scope-for-service-application-information.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -75,7 +76,7 @@ Category
 
 </td><td>
 
-[Access control](sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -96,5 +97,5 @@ Dependencies and prerequisites
 The Service Applicant Information plugin \(**com.sn\_svc\_appl\_info**\) must be activated for the **glide.enforce\_security\_scope.sn\_svc\_appl\_info** property to be effective.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

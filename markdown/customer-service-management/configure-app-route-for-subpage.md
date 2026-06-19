@@ -2,7 +2,10 @@
 title: Configure the app route to use an existing subpage
 description: Create an app route to make an existing page a part of the page collection. For example, the dynamic related record is a global subpage that you can use at any application level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-app-route-for-subpage.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-08-25"
 reading_time_minutes: 1
@@ -43,7 +46,7 @@ Configuring an app route enables you to utilize an existing page in a page colle
 
     You can also create a screen collection by selecting **New** on the UX Screen Collections pop-up window and entering the name, route, and screen collection.
 
-    ![Select a UX Screen Collections name or create a new one by selecting New.](../image/app-route-ux-screen-collection.png "UX Screen Collections pop-up window")
+    \[Omitted image "app-route-ux-screen-collection.png"\] Alt text: Select a UX Screen Collections name or create a new one by selecting New.
 
 8.  Select **Submit** to create the app route.
 

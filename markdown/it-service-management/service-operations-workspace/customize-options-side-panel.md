@@ -2,6 +2,7 @@
 title: Configure contextual side panel tabs in Service Operations Workspace
 description: Add or delete tabs from the contextual side panel that is available in all record pages in Service Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/customize-options-side-panel.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -23,7 +24,7 @@ Role required: admin, workspace\_admin, sn\_sow\_admin.sn\_sow\_admin, or ui\_bu
 
 By default, all record pages such as an incident and interaction record page have a contextual side panel with multiple tabs in Service Operations Workspace. From these tabs, you can perform multiple tasks such as viewing the record information, collaborating through Microsoft Teams, viewing recommendations and so on.
 
-![Contextual side panel in Service Operations Workspace](../image/sow-contextual-side-panel.png "Contextual side panel in Service Operations Workspace")
+\[Omitted image "contextual-side-panel-coral-theme.png"\] Alt text: Contextual side panel in SOW
 
 ## Procedure
 
@@ -37,13 +38,13 @@ By default, all record pages such as an incident and interaction record page hav
 
 5.  From the right of the UI builder, navigate to the **Config** &gt; **Tabs**, and select the **SOW - sidebar tabs top**.
 
-6.  Select the ![Open contextual side panel tab](../image/open-side-panel-tab.png) icon to open the tab configuration.
+6.  Select the \[Omitted image "open-side-panel-tab.png"\] Alt text: Open contextual side panel tab icon to open the tab configuration.
 
     The pages and variants associated with contextual sidebar appears. For example, select the Agent assist SNC to add the Agent assist option in the sidebar.
 
 7.  Edit the screen condition for the UX screen.
 
-    1.  From the left of the page, select ![Menu](../../../reuse/icons/product-icons/menu-fill-24.svg) and navigate to **Developer** &gt; **Open variant record**.
+    1.  From the left of the page, select \[Omitted image "menu-fill-24.svg"\] Alt text: Menu and navigate to **Developer** &gt; **Open variant record**.
 
     2.  On the UX screen form, edit the **Screen Condition** field to add or delete records to get the tab to the required position.
 
@@ -55,7 +56,7 @@ By default, all record pages such as an incident and interaction record page hav
 
     1.  Select the previously opened tab of the UI Builder page, for example, the Agent assist SNC tab page.
 
-    2.  From the left of the page, select ![Menu](../../../reuse/icons/product-icons/menu-fill-24.svg)and navigate to **Developer** &gt; **Open variant record**.
+    2.  From the left of the page, select \[Omitted image "menu-fill-24.svg"\] Alt text: Menuand navigate to **Developer** &gt; **Open variant record**.
 
     3.  From the UX Screen Conditions related list on the UX screen form, open the associated record.
 
@@ -64,5 +65,5 @@ By default, all record pages such as an incident and interaction record page hav
     5.  Select **Update**.
 
 
-**Parent Topic:**[Contextual side panel configurations in Service Operations Workspace for ITSM](../concept/contextual-side-panel-configurations-sow-itsm.md)
+**Parent Topic:**[Contextual side panel configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/contextual-side-panel-configurations-sow-itsm.md)
 

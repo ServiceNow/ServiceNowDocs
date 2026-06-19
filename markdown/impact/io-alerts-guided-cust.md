@@ -2,7 +2,10 @@
 title: Track instance performance with the top six timely alerts – Guided users
 description: Use the Instance Observer alerting feature to receive notifications on the performance of your instance. Monitor the alerts that are system driven.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/io-alerts-guided-cust.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -55,6 +58,6 @@ If you’re an Impact Guided tier customer, then the important top 6 and commonl
 
 8.  Select **Save**.
 
-    For more information on configuring alerts and setting notifications, see [Configure Key Alerts](configuring-io-alerts.md).
+    For more information on configuring alerts and setting notifications, see [Configure Key Alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-io-alerts.md).
 
 

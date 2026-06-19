@@ -2,6 +2,7 @@
 title: Update planning item details from Prioritization view
 description: Update the details of your planning items or delete them so that the Prioritization page in Portfolio Planning Workspace reflects the latest work pipeline.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/modify-planing-item-details-from-prioritization-portfolio-planning-workspace.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -32,15 +33,15 @@ Update the details of a planning item using the Prioritization and Hierarchy tab
 
 3.  Update item details, attach files to the item, or delete the item.
 
-<table id="choicetable_rz1_dn4_hvb"><thead><tr><th align="left" id="d205061e113">
+<table id="choicetable_rz1_dn4_hvb"><thead><tr><th align="left" id="d84255e113">
 
 Choice
 
-</th><th align="left" id="d205061e116">
+</th><th align="left" id="d84255e116">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d205061e122">
+</th></tr></thead><tbody><tr><td id="d84255e122">
 
 **Update planning item details**
 
@@ -52,9 +53,9 @@ Edit using one of the following ways:
 -   Select the item name to open the full details page.
  The full details page shows the item's related lists such as Milestones, Dependencies, and others.
 
- For field information, see [Planning item form](../../alignment-planner-workspace/reference/planning-item-form.md).
+ For field information, see [Planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/planning-item-form.md).
 
-</td></tr><tr><td id="d205061e159">
+</td></tr><tr><td id="d84255e159">
 
 **Attach files to planning item**
 
@@ -62,7 +63,7 @@ Edit using one of the following ways:
 
 In the Attachments section of the full details page, select **Browse** and upload a file.
 
-</td></tr><tr><td id="d205061e174">
+</td></tr><tr><td id="d84255e174">
 
 **Delete planning item**
 
@@ -70,7 +71,7 @@ In the Attachments section of the full details page, select **Browse** and uploa
 
 From the full details page:
 
-1.  Select the More Actions icon \(![More actions icon.](../../alignment-planner-workspace/images/more-actions-icon.png)\) and select **Delete**.
+1.  Select the More Actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon.\) and select **Delete**.
 
 **Note:** You can't delete the project record from Portfolio Planning Workspace if it has associated execution item. To delete such projects, open the record in PPM Standard.
 

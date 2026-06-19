@@ -2,6 +2,7 @@
 title: Security Incident Response
 description: The ServiceNow Security Incident Response application tracks the progress of security incidents from discovery and initial analysis, through containment, eradication, and recovery, and into the final post incident review, knowledge base article creation, and closure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/sir-landing-page.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -17,31 +18,31 @@ The ServiceNow® Security Incident Response application tracks the progress of s
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 <table id="table_cmj_pv1_abc" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about the features of Security Incident Response](../concept/what-is-sir.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the features of Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/what-is-sir.md)
 
 </td><td>
 
-[Set up and Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Install and set up your Security Incident Response application](../concept/setup-sir.md)
+[Set up and Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and set up your Security Incident Response application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/setup-sir.md)
 
 </td><td>
 
-[Administer![](../../../reuse/icons/brand-icons/bus-optimize-manage.svg)Manage and customize your security incidents](../task/t_ConfigureSIM.md#)
+[Administer\[Omitted image "bus-optimize-manage.svg"\] Alt text:Manage and customize your security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/t_ConfigureSIM.md)
 
 </td></tr><tr><td>
 
-[Integrate![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Extend Security Incident Response by integrating it with other applications](../concept/sir_integrations.md)
+[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Extend Security Incident Response by integrating it with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/sir_integrations.md)
 
 </td><td>
 
-[Use the Security Incident Response Workspace![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Learn how to use the Security Incident Response and IT Remediation Workspaces](../../secops-analyst-workspace/reference/sir-workspace-landing-page.md)
+[Use the Security Incident Response Workspace\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Learn how to use the Security Incident Response and IT Remediation Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/sir-workspace-landing-page.md)
 
 </td><td>
 
-[Analytics and Reporting![](../../../reuse/icons/brand-icons/bus-infographic.svg)Monitor remediation progress](../../../use/dashboards/application-content-packs/security-incident-content-pack.md)
+[Analytics and Reporting\[Omitted image "bus-infographic.svg"\] Alt text:Monitor remediation progress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/security-incident-content-pack.md)
 
 </td></tr><tr><td>
 
@@ -49,7 +50,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 </td><td>
 
-[\`![](../../../reuse/icons/brand-icons/bus-learn.svg)Get additional information about Security Incident Response](../../security-incident-response-orchestration/concept/c_SecIncRespOrchestration.md)
+[\`\[Omitted image "bus-learn.svg"\] Alt text:Get additional information about Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/c_SecIncRespOrchestration.md)
 
 </td><td>
 

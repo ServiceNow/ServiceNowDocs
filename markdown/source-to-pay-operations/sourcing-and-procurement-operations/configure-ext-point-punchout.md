@@ -2,20 +2,21 @@
 title: Configure extension point for Product search API
 description: The sn\_spend\_intg.ThirdPartySystemApiExtension scripted extension point provides the configuration that punchout suppliers can use to ensure that all details about their product, such as product's name, brand, manufacturer, price, availability, SKU, and so on, is displayed in Shopping Hub.View the format of the sn\_spend\_intg.ThirdPartySystemApiExtension extension point.Create script include that enables you to display all the products details for the punchout supplier in Shopping Hub.Create an extension instance to associate the punchout supplier's script include with the sn\_spend\_intg.ThirdPartySystemApiExtension scripted extension point.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/configure-ext-point-punchout.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Configure punchout for third-party site purchases, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Configure punchout third-party site purchases, Configure Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Configure extension point for Product search API
 
 The sn\_spend\_intg.ThirdPartySystemApiExtension scripted extension point provides the configuration that punchout suppliers can use to ensure that all details about their product, such as product's name, brand, manufacturer, price, availability, SKU, and so on, is displayed in Shopping Hub.
 
-**Parent Topic:**[Configure punchout for third-party site purchases](../task/configure-supplier-punchout.md)
+**Parent Topic:**[Configure punchout for third-party site purchases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/configure-supplier-punchout.md)
 
 ## View the third-party system API extension point format
 
@@ -180,7 +181,7 @@ An extension instance is a registered instance of a scripted extension point tha
 
 4.  In the **Class** field, select the script include that you created.
 
-    For more information, see [Create script include for punchout supplier products](configure-ext-point-punchout.md#).
+    For more information, see [Create script include for punchout supplier products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/configure-ext-point-punchout.md).
 
 5.  In the **Order** field, enter a number.
 

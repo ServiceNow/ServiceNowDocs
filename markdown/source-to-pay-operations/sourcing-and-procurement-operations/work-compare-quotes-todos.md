@@ -2,13 +2,14 @@
 title: Compare quotes and select a supplier from Shopping Hub Home
 description: Review the quotes that you have received from the various suppliers for the product you had requested sourcing for. These quotes are displayed after the sourcing requests have listed similar suppliers for the product model you requested for. You can choose to award the supplier with the quote that best fulfills your requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/work-compare-quotes-todos.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Shopper to-dos, Using Shopping Hub, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Shopper to-dos, Using Shopping Hub, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Compare quotes and select a supplier from Shopping Hub Home
@@ -31,23 +32,23 @@ Role required: sn\_shop.shopper
 
 4.  Do one of these actions.
 
-<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d110388e91">
+<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d110044e100">
 
 Action
 
-</th><th align="left" id="d110388e94">
+</th><th align="left" id="d110044e103">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d110388e100">
+</th></tr></thead><tbody><tr><td id="d110044e109">
 
 **Checkout now**
 
 </td><td>
 
-Select the quote that works best for you and proceed to checkout. The quick checkout pane is displayed, with the details for your purchase already filled in. For more information on how to proceed, see [Order a product](order-a-product.md).
+Select the quote that works best for you and proceed to checkout. The quick checkout pane is displayed, with the details for your purchase already filled in. For more information on how to proceed, see [Order a product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/order-a-product.md).
 
-</td></tr><tr><td id="d110388e119">
+</td></tr><tr><td id="d110044e128">
 
 **Reject all quotes**
 
@@ -59,5 +60,5 @@ Reject all the quotes if none of them serve your purpose.**Note:** When rejectin
 </table>5.  Select **Submit**.
 
 
-**Parent Topic:**[Shopper to-dos](../reference/shopper-todos.md)
+**Parent Topic:**[Shopper to-dos](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos.md)
 

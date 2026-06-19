@@ -2,6 +2,7 @@
 title: User experience dashboard
 description: The user experience dashboard helps get a consolidated view of the feedback data. It provides a quick view of all types of feedback data in the User Experience Analytics dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ued-ec.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation

@@ -2,7 +2,10 @@
 title: CSM Configurable Workspace chat session tabs
 description: Use visual indicators on chat session tabs, such as colors and icons, to alert agents to unread chat messages and SLA threshold timers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-workspace-chat-session-tabs.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 8
@@ -49,7 +52,7 @@ This feature actively tracks the duration of a chat and alerts the agent when pr
 
 </td></tr><tr><td>
 
-[SLA threshold timers](csm-workspace-chat-session-tabs.md#section_u4x_lgx_s2c)
+[SLA threshold timers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-workspace-chat-session-tabs.md)
 
 </td><td>
 
@@ -61,7 +64,7 @@ System administrators can configure a minimum of one and a maximum of three leve
 
 </td></tr><tr><td>
 
-[Tab colors](csm-workspace-chat-session-tabs.md#section_rsb_4j2_fdc)
+[Tab colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-workspace-chat-session-tabs.md)
 
 </td><td>
 
@@ -69,7 +72,7 @@ Tab colors indicate the status of a chat with one or more unread messages.Inacti
 
 </td></tr><tr><td>
 
-[Unread message counters](csm-workspace-chat-session-tabs.md#section_zq4_1k2_fdc)
+[Unread message counters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-workspace-chat-session-tabs.md)
 
 </td><td>
 
@@ -138,7 +141,7 @@ This timer alerts the agent to a severe SLA breach by changing the color of an i
 **Note:** The length of time for the Level 3 timer must be greater than the Level 2 timer.
 
 </td></tr></tbody>
-</table>For more information, see [Configure chat session tabs](../task/csm-workspace-chat-session-tabs-configure.md).
+</table>For more information, see [Configure chat session tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-workspace-chat-session-tabs-configure.md).
 
 ## Tab colors
 
@@ -151,7 +154,7 @@ System administrators can configure up to three SLA threshold levels for chat se
 
 The background tab color changes when an inactive tab with unread messages reaches the first SLA threshold level. The tab maintains the current color until the timer reaches the next configured SLA threshold level.
 
-For more information, see [Configure chat session tabs](../task/csm-workspace-chat-session-tabs-configure.md).
+For more information, see [Configure chat session tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-workspace-chat-session-tabs-configure.md).
 
 ## Unread message counters
 
@@ -159,7 +162,7 @@ Each inactive tab includes a counter that displays the number of unread chat mes
 
 The counter uses a background color that is a darker shade of the configured tab color.
 
-![Unread message counters appear as a square on the tab that is a darker shade of the configured tab color. The number of unread messages appears in the square.](../image/chat-session-tabs-unread-message-counters.png "Chat session tab unread message counters")
+\[Omitted image "chat-session-tabs-unread-message-counters.png"\] Alt text: Unread message counters appear as a square on the tab that is a darker shade of the configured tab color. The number of unread messages appears in the square.
 
 When a chat message is received, the counter updates to display the total number of unread messages. After selecting the tab, an agent can see the unread messages in the chat window.
 
@@ -212,7 +215,7 @@ When a chat is automatically transferred to another agent or to a queue:-   The 
 </td></tr></tbody>
 </table>If a chat is transferred to a queue, SLA threshold timers and tab colors are applicable to the next agent who picks up the case.
 
-When an agent seeks help from a colleague or manager using the [Agent Whisper](https://www.servicenow.com/docs/access?context=ci-agent-whisper&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US) feature, the SLA threshold timers and tab behavior are applicable only for the owner agent and not for anyone else participating in the interaction.
+When an agent seeks help from a colleague or manager using the  feature, the SLA threshold timers and tab behavior are applicable only for the owner agent and not for anyone else participating in the interaction.
 
 ## Configuring the chat session tabs feature
 
@@ -220,5 +223,5 @@ Users with the system administrator role can enable the chat sessions tab featur
 
 When this feature is enabled, chat session tabs display colors to indicate the chat status. These colors are determined by SLA threshold timers that alert agents to impending SLA breaches.
 
-For more information, see [Configure chat session tabs](../task/csm-workspace-chat-session-tabs-configure.md).
+For more information, see [Configure chat session tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-workspace-chat-session-tabs-configure.md).
 

@@ -2,7 +2,10 @@
 title: Front-line case page keyboard shortcuts
 description: Use keyboard shortcuts to create comments, work notes, and emails quickly, when using the Front-line case page in CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-front-line-case-page-keyboard-shortcuts.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -26,5 +29,5 @@ When composing a comment or work note:
 |Compose a comment|Shift+Alt+c|Shift+Option+c|
 |Compose a work note|Shift+Alt+w|Shift+Option+w|
 
-For more information, see [Next Experience keyboard shortcuts](https://www.servicenow.com/docs/access?context=next-experience-keyboard-shortcuts&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+For more information, see Next Experience keyboard shortcuts.
 

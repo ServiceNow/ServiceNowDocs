@@ -2,6 +2,7 @@
 title: Stream Connect Alerting properties
 description: Specify alert properties and how alerts are managed in Stream Connect.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/sc-alert-properties.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
@@ -343,5 +344,5 @@ Select **Per Topic Replication** to create an alert for each topic replication, 
  Default: Per Topic Replication
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Stream Connect alerting](../concept/stream-connect-alert.md)
+</table>**Parent Topic:**[Stream Connect alerting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/stream-connect-alert.md)
 

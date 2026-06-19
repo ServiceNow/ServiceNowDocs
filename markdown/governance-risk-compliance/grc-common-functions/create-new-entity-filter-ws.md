@@ -2,6 +2,7 @@
 title: Create an entity filter
 description: Create an entity filter under an entity type in the workspace view. Entities in entity type are created based on the conditions set in the Entity Filter. The entity filter defines the table from which data is pulled into each entity type for display.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/create-new-entity-filter-ws.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -134,5 +135,5 @@ Attachments associated with the entity that are displayed in the side panel.
 </table>5.  To save the entity filter, click **Save**.
 
 
-**Parent Topic:**[Entity filters](../../grc-common/concept/what-is-an-entity-filter.md)
+**Parent Topic:**[Entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/what-is-an-entity-filter.md)
 

@@ -2,6 +2,7 @@
 title: Create a knowledge base article from the Source-to-Pay Workspace
 description: Create knowledge base articles within a knowledge base to share information across your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/source-to-pay-workspace/create-kb-s2p.html
 release: zurich
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
@@ -23,7 +24,7 @@ Role required: sn\_slm.manager, sn\_shop.procurement\_specialist\_manager, or ad
 
 1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\).
 
 3.  Navigate to **Lists** &gt; **Knowledge**, and then select one of the following:
 
@@ -57,5 +58,5 @@ Role required: sn\_slm.manager, sn\_shop.procurement\_specialist\_manager, or ad
 7.  Select **Save**.
 
 
-**Parent Topic:**[Use Source-to-Pay Workspace](../../accounts-payable-operations/concept/using-source-to-pay-ws.md)
+**Parent Topic:**[Use Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-workspace/using-source-to-pay-ws.md)
 

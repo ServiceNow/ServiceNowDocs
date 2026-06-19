@@ -2,6 +2,7 @@
 title: Limitations in Proactive Engagement
 description: You must be aware of a few limitations when you create a new metric rule and choose the remedial action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/proactive-engagement/limitations-proactive-engagement.html
 release: zurich
 product: Proactive Engagement
 classification: proactive-engagement
@@ -20,5 +21,5 @@ Limitations in Proactive Engagement:
 -   Remedial action resolution type cannot be used if the remedial actions require any runtime parameters.
 -   Actionable notifications for LLM will be supported from WP3 and Xanadu. However, In Vancouver, the portal with NLU will get notifications.
 
-**Parent Topic:**[Proactive Engagement reference](../proactive-engagement-reference.md)
+**Parent Topic:**[Proactive Engagement reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/proactive-engagement/proactive-engagement-reference.md)
 

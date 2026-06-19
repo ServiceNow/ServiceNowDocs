@@ -2,6 +2,7 @@
 title: Configure Trello for external content indexing
 description: Create and authorize a Power-Up in the Trello Power-Up Admin Portal to allow the Trello external content connector to access your Trello source system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-trello-external-content-indexing.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -32,7 +33,7 @@ Role required: none
 
 The Trello external content connector retrieves content from publicly accessible boards in your Trello source system using the Trello REST API.
 
-To allow the connector to access your Trello source system via the Trello REST API, you must configure and authorize a Power-Up in the Trello Power-Up Admin Portal. Your connector admin can use settings copied from the Power-Up to configure the Trello external connector for proper connection to your source system.
+To allow the connector to access your Trello source system via the Trello REST API, you must configure and authorize a Power-Up in the Trello Power-Up Admin Portal. Your connector administrator can use settings copied from the Power-Up to configure the Trello external connector for proper connection to your source system.
 
 ## Procedure
 
@@ -66,7 +67,7 @@ To allow the connector to access your Trello source system via the Trello REST A
 
     4.  Copy your new API key and store it in a secure location.
 
-        **Important:** Your external content connector admin needs this API key when configuring the Trello external content connector.
+        **Important:** Your external content connector administrator needs this API key when configuring the Trello external content connector.
 
     5.  Select **Token**.
 
@@ -74,7 +75,7 @@ To allow the connector to access your Trello source system via the Trello REST A
 
     7.  Copy your new token and store it in a secure location.
 
-        **Important:** Your external content connector admin needs this API token when configuring the Trello external content connector.
+        **Important:** Your external content connector administrator needs this API token when configuring the Trello external content connector.
 
 3.  Get the ID for your enterprise \(organization\) from Trello.
 
@@ -88,21 +89,21 @@ To allow the connector to access your Trello source system via the Trello REST A
 
     2.  Copy the `idEnterprise` value from the curl response and store it in a secure location.
 
-        **Important:** Your external content connector admin needs this enterprise ID when configuring the Trello external content connector.
+        **Important:** Your external content connector administrator needs this enterprise ID when configuring the Trello external content connector.
 
 
 ## What to do next
 
-Provide the following items to your connector admin:
+Provide the following items to your connector administrator:
 
--   The API key that you copied in step [2.d](configure-trello-external-content-indexing.md#copy-api-key-step).
--   The API token that you copied in step [2.g](configure-trello-external-content-indexing.md#copy-api-token-step).
--   The enterprise ID that you copied in step [3.b](configure-trello-external-content-indexing.md#copy-enterpriseid-step).
+-   The API key that you copied in step [2.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-trello-external-content-indexing.md).
+-   The API token that you copied in step [2.g](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-trello-external-content-indexing.md).
+-   The enterprise ID that you copied in step [3.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-trello-external-content-indexing.md).
 -   The base URL for the Trello REST API. This is usually `https://api.trello.com`.
 
-Your connector admin needs these items to configure a Trello external content connector to retrieve boards from your Trello source system.
+Your connector administrator needs these items to configure a Trello external content connector to retrieve boards from your Trello source system.
 
-For details on creating and configuring a Trello external content connector, see [Create a Trello external content connector](create-ext-cont-connector-trello.md).
+For details on creating and configuring a Trello external content connector, see [Create a Trello external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-trello.md).
 
-**Parent Topic:**[Trello external content connector](../concept/trello-external-content-connector.md)
+**Parent Topic:**[Trello external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/trello-external-content-connector.md)
 

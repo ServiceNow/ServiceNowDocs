@@ -2,6 +2,7 @@
 title: Supporting information for Now Assist for WSD
 description: Get a quick overview for supported patch versions and application information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-wsd/support-info-wsd-nowassist.html
 release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd

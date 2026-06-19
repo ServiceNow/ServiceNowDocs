@@ -2,11 +2,12 @@
 title: Tool throttling
 description: In DevOps Change Velocity, when a tool is throttled, processing of new events is delayed until the throttling expires and the tool status changes to Throttled. This is available for Azure DevOps, GitHub, and GitLab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/rate-limit-throttling.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Manage, DevOps Change Velocity, IT Service Management]
 ---
@@ -15,7 +16,7 @@ breadcrumb: [Manage, DevOps Change Velocity, IT Service Management]
 
 In DevOps Change Velocity, when a tool is throttled, processing of new events is delayed until the throttling expires and the tool status changes to **Throttled**. This is available for Azure DevOps, GitHub, and GitLab.
 
-When the tool is throttled, you will receive an error message.![Error message for throttled tools.](../image/rate-limit-01.png)
+When the tool is throttled, you will receive an error message.\[Omitted image "rate-limit-01.png"\] Alt text: Error message for throttled tools.
 
 **Throttled status**
 
@@ -35,9 +36,9 @@ If a tool doesn't provide the throttle reset time, the default value, which is 1
 
 **Where to check for the throttled status and reset status**
 
-Tool Connection Status \(sn\_devops\_tool\_connection\_status\) table contains tool throttling related information. It has columns like tool, throttle reset time, throttle active, which indicates which tool is under throttle, when this throttle will be reset, and whether the throttle is active or not.![Tool connection status table.](../image/rate-limit-02.png)
+Tool Connection Status \(sn\_devops\_tool\_connection\_status\) table contains tool throttling related information. It has columns like tool, throttle reset time, throttle active, which indicates which tool is under throttle, when this throttle will be reset, and whether the throttle is active or not.\[Omitted image "rate-limit-02.png"\] Alt text: Tool connection status table.
 
 REST\_RATE\_LIMIT\_ERROR will be logged in DevOps error logs. Also, the tool under throttle will have **Throttled** status.
 
-**Parent Topic:**[Managing DevOps Change Velocity](../concept/using-devops-change-velocity.md)
+**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
 

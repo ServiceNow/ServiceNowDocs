@@ -2,6 +2,7 @@
 title: Delete AQI reviews
 description: Delete an AQI review that was created by mistake or is no longer required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/delete-aqi-reviews.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -31,5 +32,5 @@ Roles required:
 3.  Click **Delete**.
 
 
-**Parent Topic:**[Use Article Quality Index](../concept/use-article-quality-index.md)
+**Parent Topic:**[Use Article Quality Index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/use-article-quality-index.md)
 

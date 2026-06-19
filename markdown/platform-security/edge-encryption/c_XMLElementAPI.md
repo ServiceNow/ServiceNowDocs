@@ -2,6 +2,7 @@
 title: XMLElement
 description: Provides methods for iterating through XML elements and mapping values to fields in a table.Returns an XMLElementIterator object for the XML element based on the specified parameter.Returns an XMLElementIterator object that includes all sub-elements for the XML element based on the specified parameter.Specifies that the value of the element maps to the specified field in the specified table.Specifies that the value of the element is an encoded query for the specified table.Returns the element name.Returns the value of the specified attribute.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/c\_XMLElementAPI.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -17,7 +18,7 @@ Provides methods for iterating through XML elements and mapping values to fields
 
 You get an XMLElement object by calling the next\(\) method of an XMLElementIterator object.
 
-**Parent Topic:**[XML APIs](xml-overview.md)
+**Parent Topic:**[XML APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/xml-overview.md)
 
 ## XMLElement - getIterator\(String xPath\)
 
@@ -47,7 +48,7 @@ Returns an XMLElementIterator object that includes all sub-elements for the XML 
 
 Specifies that the value of the element maps to the specified field in the specified table.
 
-Calling this method on an element value tells the proxy that the value for this element maps to the specified field in the specified table. The proxy then checks if the field must be encrypted. If the table and field names are unknown, you can call the valueFor\(\) method on a table and a field that are [dynamically assigned](xml-overview.md#xml-dynamic) based on the request.
+Calling this method on an element value tells the proxy that the value for this element maps to the specified field in the specified table. The proxy then checks if the field must be encrypted. If the table and field names are unknown, you can call the valueFor\(\) method on a table and a field that are [dynamically assigned](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/xml-overview.md) based on the request.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -62,7 +63,7 @@ Calling this method on an element value tells the proxy that the value for this 
 
 Specifies that the value of the element is an encoded query for the specified table.
 
-Calling this function on an element tells the proxy that the value of the element is an [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) for the specified table. The proxy parses the encoded query and encrypts the fields in the encoded query that must be encrypted.
+Calling this function on an element tells the proxy that the value of the element is an Encoded query strings for the specified table. The proxy parses the encoded query and encrypts the fields in the encoded query that must be encrypted.
 
 |Name|Type|Description|
 |----|----|-----------|

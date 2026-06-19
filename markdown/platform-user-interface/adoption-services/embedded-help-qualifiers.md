@@ -2,6 +2,7 @@
 title: Use qualifiers in Embedded Help
 description: The embedded help administrator can use qualifiers to customize content for a common page in the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/embedded-help-qualifiers.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
@@ -31,7 +32,7 @@ Imagine that your organization wants to provide specific instructions for the SL
 
     Notice that the query parameter uses underscores between words instead of hyphens or dashes.
 
-    ![Shows a query parameter in URL and the module link type](../image/query-parameter.png)
+    \[Omitted image "query-parameter.png"\] Alt text: Shows a query parameter in URL and the module link type
 
     You can also select the query parameter from the **Arguments** field on the module link type. To see the module link type, select the pencil icon beside the module in the application navigator, and then select the **Link Type** tab.
 
@@ -88,7 +89,7 @@ Enter the qualifier to use, for example `sla_homepage`. Record the qualifier to 
 </td></tr></tbody>
 </table>5.  Select **Submit**.
 
-6.  Follow the steps in [Add custom Embedded Help content](add-custom-help-topic.md) to create the content, and include the following information.
+6.  Follow the steps in [Add custom Embedded Help content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/add-custom-help-topic.md) to create the content, and include the following information.
 
     -   **Name** and **Page**: The page you created the qualifier for, for example, **home**.
     -   **Qualifier**: The qualifier you entered, for example **sla\_homepage**.
@@ -99,5 +100,5 @@ Enter the qualifier to use, for example `sla_homepage`. Record the qualifier to 
     **Note:** If you added a role to the Embedded Help content, log in as a user with the role, or impersonate a user with that role.
 
 
-**Parent Topic:**[Embedded Help planning](../concept/embedded-help-planning.md)
+**Parent Topic:**[Embedded Help planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/embedded-help-planning.md)
 

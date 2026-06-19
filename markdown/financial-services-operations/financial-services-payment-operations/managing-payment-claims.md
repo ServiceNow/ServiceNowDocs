@@ -2,6 +2,7 @@
 title: Managing payment claims and debit approvals
 description: Using the payment claims capability of the Financial Services Payment Operations application, you can submit and manage payment claims and debit approvals for your financial institution. The application supports both personal and business claims and debits.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-payment-operations/managing-payment-claims.html
 release: zurich
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
@@ -48,18 +49,18 @@ Using the payment claims capability of the Financial Services Payment Operations
 
 Claim agents can create debit approval cases to get approval from their customers for a refund against claims. Customers can either accept the debit or reject them.
 
--   **[Create a case for an external claim](../task/create-case-external-claim.md)**  
+-   **[Create a case for an external claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/create-case-external-claim.md)**  
 As a claim agent, you can create a case for a refund request that comes from a third-party bank.
--   **[Submit a request for an internal claim](../task/submit-request-internal-claim.md)**  
+-   **[Submit a request for an internal claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/submit-request-internal-claim.md)**  
 As a front-office worker \(branch employee or call center agent\), you can submit a claim request on behalf of a customer.
--   **[Assign a payment claim](../task/assign-payment-claim.md)**  
+-   **[Assign a payment claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/assign-payment-claim.md)**  
 Assign a case for a payment claim to yourself or to another claim agent so that you or another agent can start working on the case.
--   **[Work on a claim with an external refund](../task/work-claim-with-external-refund.md)**  
+-   **[Work on a claim with an external refund](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/work-claim-with-external-refund.md)**  
 Work on an internal claim to determine if it’s valid and where to get the refund from.
--   **[Work on a claim with an internal refund](../task/work-claim-with-internal-refund.md)**  
+-   **[Work on a claim with an internal refund](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/work-claim-with-internal-refund.md)**  
 Work on a claim to determine if it's valid and where to get the refund from.
--   **[Close a claim case](../task/close-claim-case.md)**  
+-   **[Close a claim case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/close-claim-case.md)**  
 Close the claim case when you've completed the claimed refund process.
 
-**Parent Topic:**[Using Financial Services Payment Operations](using-payment-operations.md)
+**Parent Topic:**[Using Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/using-payment-operations.md)
 

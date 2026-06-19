@@ -2,6 +2,7 @@
 title: Orient target
 description: After you've identified a target, orient the target to use with the NIST CSF framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/orient-target.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -36,5 +37,5 @@ NIST CSF role required: sn\_irm\_nist\_csf.risk\_executive or sn\_irm\_nist\_csf
 6.  Click **Update**.
 
 
-**Parent Topic:**[Align and prioritize cybersecurity activities](../concept/align-prioritize-activities.md)
+**Parent Topic:**[Align and prioritize cybersecurity activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/align-prioritize-activities.md)
 

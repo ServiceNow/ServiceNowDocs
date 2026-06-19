@@ -2,6 +2,7 @@
 title: Swap your agents' shifts in Workforce Optimization for HR
 description: Swap an agent's shift in your assignment group with another agent who can work on that shift and skip the approval process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workforce-optimization-for-hr/swap-agent-shift-wfo-hr.html
 release: zurich
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -23,11 +24,11 @@ Role required: sn\_hr\_wfo.admin
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule icon \(![Schedule icon](../../workforce-optimization-for-customer-service-configurable/image/schedule-new.png)\).
+2.  Click the Schedule icon \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon\).
 
 3.  In the **Team Calendar** tab, navigate and point to the shift for the agent that you want to swap with another agent.
 
-4.  In the shift pop-up window, click the Shift Swap icon \(![Shift Swap icon](../image/shift_swap_icon.png)\).
+4.  In the shift pop-up window, click the Shift Swap icon \(\[Omitted image "shift\_swap\_icon.png"\] Alt text: Shift Swap icon\).
 
 5.  In the **Requested Shift** section, click the **Agent** field and select the agent who can work on that shift.
 
@@ -36,5 +37,5 @@ Role required: sn\_hr\_wfo.admin
     The team calendar displays the updated schedule.
 
 
-**Parent Topic:**[Scheduling in Workforce Optimization for HR](../concept/scheduling-configurable-wfo-hr.md)
+**Parent Topic:**[Scheduling in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workforce-optimization-for-hr/scheduling-configurable-wfo-hr.md)
 

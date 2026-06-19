@@ -2,6 +2,7 @@
 title: Components installed with Microsoft Outlook Add-In for Legal Service Delivery
 description: Several types of components are installed with activation of the Microsoft Outlook Add-In for Legal Service Delivery application, including user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/lsd-outlook-addin-components.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -15,7 +16,7 @@ breadcrumb: [Microsoft outlook add-in for Legal Service Delivery, Microsoft Outl
 
 Several types of components are installed with activation of the Microsoft Outlook Add-In for Legal Service Delivery application, including user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles
 
@@ -44,5 +45,5 @@ Provides administrative access to Microsoft Outlook Add-In for legal application
 sn\_outlook\_addin.outlook\_addin\_setup
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Microsoft Outlook Add-In for Legal Service Delivery reference](lsd-outlook-addin-refrence.md)
+</table>**Parent Topic:**[Microsoft Outlook Add-In for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/lsd-outlook-addin-refrence.md)
 

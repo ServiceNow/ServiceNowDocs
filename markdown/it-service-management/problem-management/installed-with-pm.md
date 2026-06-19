@@ -2,6 +2,7 @@
 title: Components installed with Problem Management
 description: Several types of components are installed with activation of the Problem Management plugin, including tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/problem-management/installed-with-pm.html
 release: zurich
 product: Problem Management
 classification: problem-management
@@ -34,5 +35,5 @@ Problem\[problem\]
 The Problem table is extended from the Task \[task\] table. It inherits all the fields, rules and policies from task.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate Problem Management](../task/activate-prob-mgmt.md)
+</table>**Parent Topic:**[Activate Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/activate-prob-mgmt.md)
 

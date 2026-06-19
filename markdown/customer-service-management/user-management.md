@@ -2,7 +2,10 @@
 title: User management
 description: Configure the internal and external users for Customer Service Management to provide the right access to features, capabilities, and case data. Create relationships that facilitate case management and fulfill support roles for specific accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/user-management.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -23,7 +26,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Configure users and groups](../task/configure-csm-users-groups.md)
+[Configure users and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-csm-users-groups.md)
 
 </td><td>
 
@@ -31,7 +34,7 @@ Configure the individual users and the user groups who can access your instance.
 
 </td></tr><tr><td>
 
-[Assign roles to CSM users](../task/assign-csm-roles.md)
+[Assign roles to CSM users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/assign-csm-roles.md)
 
 </td><td>
 
@@ -39,7 +42,7 @@ Assign roles to individual users and user groups to control access to features, 
 
 </td></tr><tr><td>
 
-[Create multiple consumer profiles for a user](consumer-profiles-configuration.md)
+[Create multiple consumer profiles for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/consumer-profiles-configuration.md)
 
 </td><td>
 
@@ -47,7 +50,7 @@ Individual consumers can have multiple profiles for different needs. You can cre
 
 </td></tr><tr><td>
 
-[Configure a unified user](configuring-unified-user.md)
+[Configure a unified user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configuring-unified-user.md)
 
 </td><td>
 
@@ -55,7 +58,7 @@ Enable users to maintain multiple profiles within the Customer Service Managemen
 
 </td></tr><tr><td>
 
-[Create customer relationships](c_CustomerServiceRelationships.md)
+[Create customer relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/c_CustomerServiceRelationships.md)
 
 </td><td>
 
@@ -65,7 +68,7 @@ Establish different types of relationships between partners, customers, and cont
 
 </td></tr><tr><td>
 
-[Create account teams](configure-csm-account-teams.md)
+[Create account teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-csm-account-teams.md)
 
 </td><td>
 
@@ -73,7 +76,7 @@ Create teams made up of employees and customer contacts who fulfill the roles an
 
 </td></tr><tr><td>
 
-[Configure Contributor Users](../task/config-contributor-user.md)
+[Configure Contributor Users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-contributor-user.md)
 
 </td><td>
 
@@ -81,7 +84,7 @@ Configure contributor users to engage middle office teams in resolving customer 
 
 </td></tr><tr><td>
 
-[Configuring customer access management](configuring-cam.md)
+[Configuring customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configuring-cam.md)
 
 </td><td>
 
@@ -89,7 +92,7 @@ Configure customer access management to support multiple contacts and consumers 
 
 </td></tr><tr><td>
 
-[Fix external user role assignments](fixing-external-role-assignment.md)
+[Fix external user role assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/fixing-external-role-assignment.md)
 
 </td><td>
 

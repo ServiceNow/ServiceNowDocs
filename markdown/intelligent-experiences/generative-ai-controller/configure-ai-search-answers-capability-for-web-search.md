@@ -2,6 +2,7 @@
 title: Configure AI Search answers capability for web search
 description: AI web search is a OneExtend capability that enables end users to perform web searches and receive AI-powered answers. The capability supports multiple AI providers and integrates with virtual assistants and workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/generative-ai-controller/configure-ai-search-answers-capability-for-web-search.html
 release: zurich
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -18,7 +19,7 @@ AI web search is a OneExtend capability that enables end users to perform web se
 
 ## Before you begin
 
-When web search is turned on, Gemini is the default AI provider. To switch AI providers, admins must configure the AI Search answers OneExtend capability. The instance or skills default AI provider that is set in Now Assist Admin can differ from the web search AI provider. For more information on the default instance or skills AI provider, see [Manage model providers](../../now-assist-admin/task/edit-model-providers.md).
+When web search is turned on, Gemini is the default AI provider. To switch AI providers, admins must configure the AI Search answers OneExtend capability. The instance or skills default AI provider that is set in Now Assist Admin can differ from the web search AI provider. For more information on the default instance or skills AI provider, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/edit-model-providers.md).
 
 Some of the AI providers require API keys whereas others don’t require API keys because they use OEM. The following table highlights the four AI providers and whether they use API keys or OEM.
 
@@ -71,15 +72,15 @@ Azure**Note:** Azure doesn’t currently support web search.
 
 6.  Complete one of the following actions based on the following scenarios.
 
-<table id="choicetable_qlm_kmw_xfc"><thead><tr><th align="left" id="d32783e220">
+<table id="choicetable_qlm_kmw_xfc"><thead><tr><th align="left" id="d36285e220">
 
 Scenario
 
-</th><th align="left" id="d32783e223">
+</th><th align="left" id="d36285e223">
 
 Action required
 
-</th></tr></thead><tbody><tr><td id="d32783e229">
+</th></tr></thead><tbody><tr><td id="d36285e229">
 
 **Connection is available**
 
@@ -87,7 +88,7 @@ Action required
 
 If a connection is already available within the Connections related list, continue to the next step.
 
-</td></tr><tr><td id="d32783e238">
+</td></tr><tr><td id="d36285e238">
 
 **Connection isn’t available and must be created**
 
@@ -98,9 +99,9 @@ If a connection is already available within the Connections related list, contin
 
 For example, `Open AI connection`.
 
-**Note:** For more information about the fields on the HTTP\(s\) Connections New record form, see [Create an HTTP\(s\) connection](https://www.servicenow.com/docs/access?context=create-https-connection&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+**Note:** For more information about the fields on the HTTP\(s\) Connections New record form, see .
 
-3.  Select the Lookup using list icon \( ![List lookup icon with magnifying glass.](../image/icon-magnifying-glass-blue.png)\) next to **Credential**.
+3.  Select the Lookup using list icon \[Omitted image "icon-magnifying-glass-blue.png"\] Alt text: next to **Credential**.
 4.  Select **New** to create a credential for your connection.
 
 **Note:** You may see an existing credential that you can select from the Credentials list, but some AI providers, like OpenAI, do not come with default credentials.
@@ -112,7 +113,7 @@ For example, `Open AI key`.
 
 7.  Enter the API key in the **API key** field.
 
-**Note:** For more information about the fields on the API Key Credentials New record form, see [API key credentials](https://www.servicenow.com/docs/access?context=API-key-credential-form&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+**Note:** For more information about the fields on the API Key Credentials New record form, see .
 
 8.  Select **Submit**.
 
@@ -137,9 +138,9 @@ For example, enter `https://api.openai.com` for Open AI.
 
 ## Result
 
-End users can now perform an internet search to answer a query whenever in web search mode. For more information about web search mode for end users, see [Web search](https://www.servicenow.com/docs/access?context=web-search-requestor&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+End users can now perform an internet search to answer a query whenever in web search mode. For more information about web search mode for end users, see .
 
 ## What to do next
 
-If you switched the AI provider to Perplexity, you must work with the **sn\_ai\_websearch.perplexity\_model\_name** system property. For more information on this system property, see [Now Assist in Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+If you switched the AI provider to Perplexity, you must work with the **sn\_ai\_websearch.perplexity\_model\_name** system property. For more information on this system property, see .
 

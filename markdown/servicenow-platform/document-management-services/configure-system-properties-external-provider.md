@@ -2,6 +2,7 @@
 title: Configure system properties to access files and folders from external content providers
 description: Configure system properties to enable access to files and folders from external content providers like Microsoft OneDrive V3.1 and Google Drive V3.1 when using the sn-document-explorer-connected component in Document Management with Personal authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/configure-system-properties-external-provider.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -36,5 +37,5 @@ Role required: mp\_document\_admin
     The base\_alias is the system ID of the personal authentication connection alias and the current\_alias is the system authentication connection alias.
 
 
-**Parent Topic:**[Document Management integration with external content providers](../concept/integration-external-content-providers.md)
+**Parent Topic:**[Document Management integration with external content providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/integration-external-content-providers.md)
 

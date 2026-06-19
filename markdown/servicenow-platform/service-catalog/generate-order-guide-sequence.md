@@ -2,6 +2,7 @@
 title: Configure a sequence to fulfill items in order guides
 description: Configure a sequence in Playbooks to fulfill items in order guides. Once you define a sequence, you don't have to manually check whether required items have been fulfilled before fulfilling their dependent items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/generate-order-guide-sequence.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -45,7 +46,7 @@ Sequence generated for order guides with only record producers as rule base item
 
     You can change the default name of the first lane, Lane 1, by selecting **Lane actions &gt; Configure lane** and modifying the name.
 
-    ![Process Automation Designer page for sequencing](../image/SequencePad.png)
+    \[Omitted image "SequencePad.png"\] Alt text: Process Automation Designer page for sequencing
 
 6.  In the lane, select an activity card for the item you want to configure.
 
@@ -83,13 +84,13 @@ Sequence generated for order guides with only record producers as rule base item
 
 16. Publish the sequencing process by selecting **Activate**.
 
-    Watch this six-minute video to understand how to configure a sequence to fulfill items in order guides.Configure a sequence to fulfill items in order guides
+    Watch this six-minute video to understand how to configure a sequence to fulfill items in order guides.
 
 
-**Parent Topic:**[Create an order guide](t_CreateAnOrderGuide.md)
+**Parent Topic:**[Create an order guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/t_CreateAnOrderGuide.md)
 
 **Related topics**  
 
 
-[Process Automation Designer](https://www.servicenow.com/docs/access?context=process-automation-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.process-automation-designer]
 

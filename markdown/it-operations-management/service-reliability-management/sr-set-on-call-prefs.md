@@ -2,6 +2,7 @@
 title: Set on-call team preferences in SRM
 description: Set on-call preferences for team members to increase the efficiency of your business operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-reliability-management/sr-set-on-call-prefs.html
 release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
@@ -27,7 +28,7 @@ Role required: srm\_manager or srm\_admin
 
     **Note:** If you use other Service Operations Workspace \(SOW\) applications, you may see the SOW Home page instead of the SRM Home page. The SOW Home page includes SRM alerts and incidents in its metrics.
 
-2.  From the primary navigation, select **Teams** \(![Teams.](../image/icon-sr-teams.png)\).
+2.  From the primary navigation, select **Teams** \(\[Omitted image "icon-sr-teams.png"\] Alt text: Teams.\).
 
 3.  Select the team card to open.
 
@@ -35,15 +36,15 @@ Role required: srm\_manager or srm\_admin
 
 5.  On the form, fill in the fields.
 
-<table id="choicetable_pxz_gj2_mbc"><thead><tr><th align="left" id="d295329e106">
+<table id="choicetable_pxz_gj2_mbc"><thead><tr><th align="left" id="d279657e106">
 
 Field
 
-</th><th align="left" id="d295329e109">
+</th><th align="left" id="d279657e109">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d295329e115">
+</th></tr></thead><tbody><tr><td id="d279657e115">
 
 **On-call shift managers**
 
@@ -51,7 +52,7 @@ Description
 
 Team managers for the on-call shift.
 
-</td></tr><tr><td id="d295329e124">
+</td></tr><tr><td id="d279657e124">
 
 **PTO requests**
 
@@ -63,7 +64,7 @@ Requests for Paid Time Off \(PTO\) made by team members. Choices are:-   System 
 -   Not allowed
 
 
-</td></tr><tr><td id="d295329e147">
+</td></tr><tr><td id="d279657e147">
 
 **First day of the week**
 
@@ -71,7 +72,7 @@ Requests for Paid Time Off \(PTO\) made by team members. Choices are:-   System 
 
 First day of your work week.**Note:** This option is available for Washington DC and later releases only.
 
-</td></tr><tr><td id="d295329e158">
+</td></tr><tr><td id="d279657e158">
 
 **Allow shift schedule overlap**
 
@@ -79,7 +80,7 @@ First day of your work week.**Note:** This option is available for Washington DC
 
 Option to allow schedules to overlap
 
-</td></tr><tr><td id="d295329e168">
+</td></tr><tr><td id="d279657e168">
 
 **Escalation rule on shift overlap**
 
@@ -95,5 +96,5 @@ Choices are:-   System default \(Escalate to all shifts\)
 </table>6.  Select **Save**.
 
 
-**Parent Topic:**[Create an SRM on-call schedule](sr-create-on-call-schedule.md)
+**Parent Topic:**[Create an SRM on-call schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-create-on-call-schedule.md)
 

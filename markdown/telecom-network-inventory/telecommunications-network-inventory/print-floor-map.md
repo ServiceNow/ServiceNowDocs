@@ -2,6 +2,7 @@
 title: Print floor map
 description: Print the entire canvas of the floor map based on your map selection in the Telecommunications Network Inventory application. You can use it as a reference to view the floor map details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/print-floor-map.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -27,7 +28,7 @@ You can print the floor map by configuring relevant options and applying filters
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the blue hub icon ![Blue Hub Icon.](../image/icon-blue-hub.png).
+2.  Select the blue hub icon \[Omitted image "icon-blue-hub.png"\] Alt text: Blue Hub Icon..
 
     The Network viewer window is displayed.
 
@@ -35,9 +36,9 @@ You can print the floor map by configuring relevant options and applying filters
 
 4.  Apply filters and select your floor.
 
-5.  Select the print icon \(![Print Icon.](../image/icon-print-floor-map.png)\).
+5.  Select the print icon \(\[Omitted image "icon-print-floor-map.png"\] Alt text: Print Icon.\).
 
-6.  On the map pane, select the download icon \(![Download Icon](../image/icon-download.png)\).
+6.  On the map pane, select the download icon \(\[Omitted image "icon-download.png"\] Alt text: Download Icon\).
 
 7.  On the Edit Map Content panel, configure the fields.
 
@@ -96,7 +97,7 @@ Size of the place label text on the map.
 
 10. Select the paper size and orientation from the Print Layout panel.
 
-    For more information about the options, see [Map printing options](https://www.servicenow.com/docs/access?context=map-printing-options&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+    For more information about the options, see .
 
 11. In the preview area, zoom and drag the map based on your requirement.
 
@@ -104,7 +105,7 @@ Size of the place label text on the map.
 
 12. Configure the options in the Print Layout panel.
 
-    For a description of the field values, see [Map printing options](https://www.servicenow.com/docs/access?context=map-printing-options&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+    For a description of the field values, see .
 
 13. Select **Print**.
 
@@ -116,5 +117,5 @@ You can use your web browser to print the map or save it as a PDF.
 -   If the aspect ratio of the map is not the same as your instance, verify that the layout settings \(like page size and orientation\) of the print dialog of your browser are the same as the settings on your instance.
 -   If the map is shifted on the printed page, or the position of icons or the pin isn’t the same as your instance, set the margins in the print dialog of your browser to **None**.
 
-**Parent Topic:**[Floor map](../concept/using-floor-map.md)
+**Parent Topic:**[Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.md)
 

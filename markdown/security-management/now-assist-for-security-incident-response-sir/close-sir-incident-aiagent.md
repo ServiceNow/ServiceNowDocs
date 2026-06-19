@@ -2,6 +2,7 @@
 title: Close a security incident
 description: Chat with an AI agent in the Now Assist panel to help you close a security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/now-assist-for-security-incident-response-sir/close-sir-incident-aiagent.html
 release: zurich
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -22,7 +23,7 @@ Role required: sn\_si.analyst or sn\_si.manager
 
 ## About this task
 
-**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Important:** This agentic workflow is turned on by default. For more information, see .
 
 ## Procedure
 
@@ -30,21 +31,21 @@ Role required: sn\_si.analyst or sn\_si.manager
 
 2.  Open the security incident that you want to close by using the AI agent.
 
-3.  Select the Now Assist \(![Now assist panel for AI agent icon.](../image/ai-icon-now-assist.png)\) icon.
+3.  Select the Now Assist \(\[Omitted image "ai-icon-now-assist.png"\] Alt text: Now assist panel for AI agent icon.\) icon.
 
     The Now Assist panel is displayed.
 
 4.  Close the security incident by using one of the following options.
 
-<table id="choicetable_ytr_35h_m2c"><thead><tr><th align="left" id="d36853e117">
+<table id="choicetable_ytr_35h_m2c"><thead><tr><th align="left" id="d39533e116">
 
 Option
 
-</th><th align="left" id="d36853e120">
+</th><th align="left" id="d39533e119">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d36853e126">
+</th></tr></thead><tbody><tr><td id="d39533e125">
 
 **Close a security incident**
 
@@ -70,7 +71,7 @@ The AI agent closes the security incident.
 
 **Note:** When a field is changed, the activity stream appends the words "AI AGENT:" with a description of the update made by the AI agent. For example, `AI AGENT: Close code is updated`.
 
-</td></tr><tr><td id="d36853e220">
+</td></tr><tr><td id="d39533e219">
 
 **Close a security incident as false positive**
 

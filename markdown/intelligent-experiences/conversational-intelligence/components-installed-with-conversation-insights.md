@@ -2,6 +2,7 @@
 title: Components installed with Conversation Insights
 description: Installation of the Conversation Insights application also installs the Conversation Insights \[sn\_aci\_insights\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/conversational-intelligence/components-installed-with-conversation-insights.html
 release: zurich
 product: Conversational Intelligence
 classification: conversational-intelligence
@@ -35,5 +36,5 @@ The installation of Conversation Insights installs the Conversation Insights \[s
 |Resolved|Estimated CSAT score that indicates whether the issue was resolved. The values are Yes or No.|
 |Confusion|Estimated CSAT score that indicates whether the user expressed confusion or the agent didn’t understand the user's intent. The values are Yes or No.|
 
-**Parent Topic:**[Conversation Insights reference](conversation-insights-reference.md)
+**Parent Topic:**[Conversation Insights reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/conversational-intelligence/conversation-insights-reference.md)
 

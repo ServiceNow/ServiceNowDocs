@@ -2,6 +2,7 @@
 title: Auditor checks
 description: Use the Auditor suite to SecureCheck to detect misconfiguration that can impact the security posture of your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/security-center/auditor.html
 release: zurich
 product: Security Center
 classification: security-center
@@ -121,7 +122,7 @@ Review fields with HTML Sanitization disabled
 
 </td><td>
 
-Identifies HTML fields where [HTML Sanitization](../../security/concept/c_HTMLSanitizer.md) is inactive.
+Identifies HTML fields where [HTML Sanitization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/c_HTMLSanitizer.md) is inactive.
 
  HTML sanitization removes or replaces potentially harmful elements and attributes within HTML code. Review HTML fields where sanitization is inactive to confirm whether this configuration is necessary.
 
@@ -320,5 +321,5 @@ Identifies UI actions that can be accessed by a user with no roles who doesn’t
 Resolution Recommended
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Scan suites](../concept/sec-center-suites.md)
+</table>**Parent Topic:**[Scan suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/sec-center-suites.md)
 

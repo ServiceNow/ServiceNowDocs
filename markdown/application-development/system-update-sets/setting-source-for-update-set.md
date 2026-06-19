@@ -2,6 +2,7 @@
 title: Set up the source instance for an update set
 description: Set up the source instance for an update set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/system-update-sets/setting-source-for-update-set.html
 release: zurich
 product: System Update Sets
 classification: system-update-sets

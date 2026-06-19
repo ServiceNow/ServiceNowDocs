@@ -2,6 +2,7 @@
 title: Configure Sales Forecasting
 description: Use the Sales Forecasting application to project your future sales volumes and revenue based data from opportunities and pipeline analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configure-sales-forecasting.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -17,7 +18,7 @@ Use the Sales Forecasting application to project your future sales volumes and r
 
 ## Activate Sales Forecasting
 
-As an admin, you can activate the following plugins to enable users to access Sales Forecasting. For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+As an admin, you can activate the following plugins to enable users to access Sales Forecasting. For more information, see .
 
 <table id="table_o13_hpv_v2c"><thead><tr><th>
 

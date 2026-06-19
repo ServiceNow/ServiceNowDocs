@@ -2,6 +2,7 @@
 title: Properties of the XmlTemplate methods
 description: Learn about the properties of the XmlTemplate methods in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/xmltemplate-methods-properties.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -22,5 +23,5 @@ Learn about the properties of the XmlTemplate methods in RPA Desktop Design Stud
 |Enable Timeout|Option to set a timeout value.|
 |Timeout|Number of seconds that the operation ends after if not completed. To apply this value, you must set the **Enable Timeout** property.|
 
-**Parent Topic:**[Data Modellers](../concept/data-modellers.md)
+**Parent Topic:**[Data Modellers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/data-modellers.md)
 

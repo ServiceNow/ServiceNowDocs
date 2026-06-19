@@ -2,6 +2,7 @@
 title: Creating View for associated info tables
 description: The investigation screen leverages the related list views created on security incident to configure associated lists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/creating-view-for-associated-info-tables.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -31,18 +32,18 @@ The following is a procedure to create a view and add related lists to it.
 
     The slush bucket window is displayed.
 
-    ![Related list classic UI](../image/related-list-classic-ui.png)
+    \[Omitted image "related-list-classic-ui.png"\] Alt text: Related list classic UI
 
 4.  Go to **View name** drop-down list and click **New** to create a new view.
 
     You must add a name to the view.
 
-    ![Create new view](../image/create-new-view-related-list.png)
+    \[Omitted image "create-new-view-related-list.png"\] Alt text: Create new view
 
 5.  Add the desired related lists to the right bucket under the newly created view and save the view.
 
     This view will be used to render the associated info on the Investigation tab.
 
 
-**Parent Topic:**[Configure SI design time investigation](../concept/configure-investigation-canvas-records.md)
+**Parent Topic:**[Configure SI design time investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/configure-investigation-canvas-records.md)
 

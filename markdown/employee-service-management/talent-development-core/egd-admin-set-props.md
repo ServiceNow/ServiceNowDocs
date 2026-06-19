@@ -2,6 +2,7 @@
 title: Set Talent Development Properties
 description: Set properties to control manager skill approvals and activity completion flows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/egd-admin-set-props.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -38,10 +39,10 @@ Set the following Talent properties:
 
 2.  Select the property settings.
 
-    For more information on Talent properties, read [Talent Properties reference](../reference/egd-properties-reference.md).
+    For more information on Talent properties, read [Talent Properties reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-properties-reference.md).
 
 3.  Select **Save**.
 
 
-**Parent Topic:**[Administer and maintain the Talent Development Core app](../concept/egd-administration.md)
+**Parent Topic:**[Administer and maintain the Talent Development Core app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-administration.md)
 

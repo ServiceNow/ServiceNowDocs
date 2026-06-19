@@ -2,6 +2,7 @@
 title: Determine Shell Script by OS activity
 description: The Determine Shell Script by OS workflow activity determines which operating system to use in the workflow
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/determine-shell-script-by-os-activity.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -45,5 +46,5 @@ The output variables contain data that can be used in subsequent activities.
 |executionTemplate|Determines whether the script is run through a probe or using PowerShell.|
 |enrichmentMappingId|System identifier of the enrichment mapping used to transform the response data.|
 
-**Parent Topic:**[Security Incident Response - Get Running Services workflow](../../security-incident-response-orchestration/task/get-running-services-workflow.md)
+**Parent Topic:**[Security Incident Response - Get Running Services workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/get-running-services-workflow.md)
 

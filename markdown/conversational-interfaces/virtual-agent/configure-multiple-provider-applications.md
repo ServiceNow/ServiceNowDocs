@@ -2,6 +2,7 @@
 title: Configure multiple provider applications
 description: You can configure multiple provider applications to support AI agents where there are multiple primary bots using Virtual Agent API and you must distinguish between them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/configure-multiple-provider-applications.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -34,7 +35,7 @@ Be sure you're in Virtual Agent API application scope.
     |Name|Name of the provider application, such as `Virtual Agent API Custom Bot`.|
     |Provider|Select the provider as **VA Bot to Bot Provider**.|
     |Inbound Id|Unique inbound Id used in the request message, for example, custom\_1.|
-    |Message Auth|Configure Message Authentication with a token for inbound communication. See [Configure Message Authentication for inbound communication](set-up-message-auth-va-api.md) for more details.|
+    |Message Auth|Configure Message Authentication with a token for inbound communication. See [Configure Message Authentication for inbound communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/set-up-message-auth-va-api.md) for more details.|
 
 4.  Select **Submit**.
 
@@ -58,7 +59,7 @@ Be sure you're in Virtual Agent API application scope.
     |Name|Name of the HTTP Method. Enter `postMessage`.|
     |HTTP method|Select **POST**.|
     |Endpoint|Enter the response endpoint of the primary bot.|
-    |Authentication Type|Configure Basic or OAuth 2.0 authentication according to your requirement. For details about configuring basic authentication, see [Configure a REST message with basic auth](https://www.servicenow.com/docs/access?context=t_ConfigureRESTMsgBasicAuth&version=zurich&pubname=zurich-api-reference&ft:locale=en-US). For information about configuring OAuth 2.0, see [Configure a REST message with OAuth](https://www.servicenow.com/docs/access?context=t_ConfigureARESTMessageWithOAuth&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).|
+    |Authentication Type|Configure Basic or OAuth 2.0 authentication according to your requirement. For details about configuring basic authentication, see Configure a REST message with basic auth. For information about configuring OAuth 2.0, see Configure a REST message with OAuth.|
 
 10. To use the newly created provider application, pass the Inbound Id of the provider application in the **appInboundId** parameter of the Virtual Agent API request.
 
@@ -85,5 +86,5 @@ Be sure you're in Virtual Agent API application scope.
     You can test the configuration by viewing the outbound HTTP logs to verify that your response endpoint was called.
 
 
-**Parent Topic:**[Using Virtual Agent API](../concept/use-virtual-agent-api.md)
+**Parent Topic:**[Using Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/use-virtual-agent-api.md)
 

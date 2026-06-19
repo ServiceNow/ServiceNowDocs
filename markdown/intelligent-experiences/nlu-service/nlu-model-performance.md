@@ -2,6 +2,7 @@
 title: NLU Model Performance
 description: Use NLU Model Performance to see how well your models predicted intents in Virtual Agent \(VA\) based on end-user confirmation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/nlu-service/nlu-model-performance.html
 release: zurich
 product: NLU Service
 classification: nlu-service
@@ -25,15 +26,15 @@ To access this application, use the nlu\_admin or admin role and navigate to **A
 
 ## Installation
 
-NLU Model Performance is an application available on the ServiceNow® Store. To use this application, ensure that the NLU Workbench - Advanced Features \(sn\_nlu\_workbench\) plugin is active on your instance. For more information, see [Install NLU Workbench - Advanced Features](../task/install-nlu-workbench-adv-features.md) and [Activate the NLU Workbench](../task/activate-nlu-workbench.md). Because NLU Model Performance relies on data coming in from VA, ensure that the Glide Virtual Agent \(com.glide.cs.chatbot\) plugin is also active. See [Activate Virtual Agent](https://www.servicenow.com/docs/access?context=activate-virtual-agent&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+NLU Model Performance is an application available on the ServiceNow® Store. To use this application, ensure that the NLU Workbench - Advanced Features \(sn\_nlu\_workbench\) plugin is active on your instance. For more information, see [Install NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/install-nlu-workbench-adv-features.md) and [Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/activate-nlu-workbench.md). Because NLU Model Performance relies on data coming in from VA, ensure that the Glide Virtual Agent \(com.glide.cs.chatbot\) plugin is also active. See Activate Virtual Agent.
 
 ## Configuring Conversational Interfaces settings for ServiceNow NLU
 
 To help with tracking NLU performance, you must first configure the Conversational Interfaces \(CI\) settings in Virtual Agent. To access these settings, navigate to the top of the **NLU Model Performance for Virtual Agent** landing page and click **Conversational Interfaces Settings**. This action takes you to the CI settings page in Virtual Agent, as shown in the image below.
 
-![Setting Conversational Interfaces settings](../images/nlu-model-performance0.png)
+\[Omitted image "nlu-model-performance0.png"\] Alt text: Setting Conversational Interfaces settings
 
-To configure the settings, you need to use the virtual\_agent\_admin or admin role. For configuration guidance, see [Implement NLU in Virtual Agent](https://www.servicenow.com/docs/access?context=implement-nlu-va&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US) and [Enable NLU languages in Virtual Agent settings](https://www.servicenow.com/docs/access?context=enable-langs-va-gen-settings&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+To configure the settings, you need to use the virtual\_agent\_admin or admin role. For configuration guidance, see Implement NLU in Virtual Agent and Enable NLU languages in Virtual Agent settings.
 
 ## Reviewing the user interface \(UI\)
 
@@ -45,11 +46,11 @@ The NLU Model Performance UI is comprised of the listed parts below, which are h
 -   There are also other views you can see depending on which scenario you're viewing. For example, when you first access NLU Model Performance and you click a scenario in the first row of the legend, the system hides the bars of the other two scenarios. This helps to keep the UI less cluttered because it partially isolates the scenario you're focusing on from the rest of the scenarios. These actions don't change any data, they simply show you different views of the legend and bars within the chart.
 -   The **Unsupported utterances** tab, which shows utterances that are grouped into clusters for use in the performance analysis. This section of the UI is where you can navigate to and return from the Expert Feedback Loop application, and also where you can run the analysis.
 
-    Unsupported utterances are different from irrelevant utterances. For more information, see [Irrelevance detection in NLU](irrelevance-detection-nlu.md).
+    Unsupported utterances are different from irrelevant utterances. For more information, see [Irrelevance detection in NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/irrelevance-detection-nlu.md).
 
 -   The **Performance Details** section located underneath the bar chart. This section has these four columns: **Utterance**, **Predicted intent**, **Prediction model**, and **Prediction outcome**. The details shown in this section interact with the legend data and bar data above them.
 
-![NLU Model Performance](../images/nlu-model-performance00.png)
+\[Omitted image "nlu-model-performance00.png"\] Alt text: NLU Model Performance
 
 ## Reviewing the VA user scenarios
 
@@ -71,7 +72,7 @@ In the legend section of the UI, the text and percentages are accompanied by Inf
 
 On the Performance tab, you can see the Language and Model filters. Next to them, you can also see the most recent Date range values you set above the legend and bars of the chart. Click the **Language** filter to see all languages that are available in NLU. Click the **Model** filter to see all prediction models that are available in your instance. The default setting for the **Language** filter is **All languages**, and the default setting for the **Model** filter is **All models**.
 
-The Language and Model filters interact with each other. For example, if you choose `French-fr` in the **Language** filter, the **Model** filter automatically shows all prediction models in your instance that use the French language, as shown in the following image. ![The Language and Model filters interact with each other.](../images/nlu-model-performance1.png)
+The Language and Model filters interact with each other. For example, if you choose `French-fr` in the **Language** filter, the **Model** filter automatically shows all prediction models in your instance that use the French language, as shown in the following image. \[Omitted image "nlu-model-performance1.png"\] Alt text: The Language and Model filters interact with each other.
 
 There are other interactions. For example, from the default view of the NLU Model Performance landing page:
 
@@ -84,26 +85,24 @@ Underneath the Language and Model filters, you can see the **Include translated 
 
 On the Performance tab, use the **Date range** to define how far back you want the system to pull VA data from. Choose **Past 30 days**, **Past 60 days**, **Past 90 days**, or **Custom range**. The further back you go in the date range, the more data you will have in your analysis.
 
-![If you want your report to cover data that extends back beyond 90 days, then use the Custom range.](../images/nlu-model-performance3.png)
+\[Omitted image "nlu-model-performance3.png"\] Alt text: If you want your report to cover data that extends back beyond 90 days, then use the Custom range.
 
 ## Running an analysis
 
-To run a performance analysis, click the **Unsupported utterances** tab. This section of the UI shows rows of expandable clusters containing VA utterances where NLU didn't make a topic prediction, or where the VA end-user confirmed that the predicted topic was incorrect. The next thing you want to do is to click **Expert Feedback Loop**. This action takes you to the [NLU Expert Feedback Loop](nlu-expert-feedback-loop.md) application where you review and provide feedback on the utterances that were pulled in from VA.
+To run a performance analysis, click the **Unsupported utterances** tab. This section of the UI shows rows of expandable clusters containing VA utterances where NLU didn't make a topic prediction, or where the VA end-user confirmed that the predicted topic was incorrect. The next thing you want to do is to click **Expert Feedback Loop**. This action takes you to the [NLU Expert Feedback Loop](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/nlu-expert-feedback-loop.md) application where you review and provide feedback on the utterances that were pulled in from VA.
 
-![Navigating to the Expert Feedback Loop and returning to NLU Model Performance](../images/nlu-model-performance4.png "Reviewing unsupported utterances")
+\[Omitted image "nlu-model-performance4.png"\] Alt text: Navigating to the Expert Feedback Loop and returning to NLU Model Performance
 
 When you leave the Expert Feedback Loop application and return to NLU Model Performance, click the **caret** icon in any cluster to open it. Within the cluster you can then see the top most representative VA utterances, as shown in the following image.
 
-![Opening a cluster of utterances so you can see the VA utterances inside it.](../images/nlu-model-performance5.png "Reviewing the top representative utterances in a cluster")
+\[Omitted image "nlu-model-performance5.png"\] Alt text: Opening a cluster of utterances so you can see the VA utterances inside it.
 
 Click **Run analysis** or **Rerun analysis**, whichever is available. Each time you run an analysis, the system pulls the most recent VA utterances into the analysis.
-
-**Parent Topic:**[NLU Workbench - Advanced Features](nlu-workbench-advanced-features.md)
 
 **Related topics**  
 
 
-[Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US)
+[bundle-convint.virtual-agent-landing-page]
 
-[Natural Language Understanding in Virtual Agent](https://www.servicenow.com/docs/access?context=va-NLU&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US)
+[bundle-convint.va-NLU]
 

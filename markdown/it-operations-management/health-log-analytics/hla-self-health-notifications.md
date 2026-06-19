@@ -2,6 +2,7 @@
 title: Health Log Analytics self-health checks, notifications, and proposed actions
 description: Health Log Analytics provides self-health checks, notifications, and proposed problem-solving steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-self-health-notifications.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -24,7 +25,7 @@ Health Log Analytics provides self-health checks, notifications, and proposed pr
 |Excessive data volume for data input %s.|The data volume for data input %s is too high. Log messages are being discarded.|Contact ServiceNow support.|
 |Log messages are being dropped due to failed auto-structuring|Log messages are being dropped because auto-structuring of Source Type %s failed.|In the Source Type, find out what could be causing auto-structuring to fail. Inspect the error logs to determine which component or parsing action is failing.|
 |Excessive number of script errors per second in %s:%s|The rate of script errors in %s:%s is too high.|Review the JavaScript Parsing Error in the source given in the message: Data Input Mapping Screen or Source Type Structure Screen.|
-|Log messages that exceed the permitted number of properties are being discarded|The source type %s contains multiple log messages with too many properties. Such log messages are discarded. Review the Source Type Structure record.|On the relevant Source Type Structure record, review the properties that are being extracted. Check for script loops or conditions that might cause too many properties to be created. Avoid using a dynamic property name. For more information, see [Refine the source type structure in Health Log Analytics](../task/hla-source-type-structure-refine.md).|
+|Log messages that exceed the permitted number of properties are being discarded|The source type %s contains multiple log messages with too many properties. Such log messages are discarded. Review the Source Type Structure record.|On the relevant Source Type Structure record, review the properties that are being extracted. Check for script loops or conditions that might cause too many properties to be created. Avoid using a dynamic property name. For more information, see [Refine the source type structure in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-source-type-structure-refine.md).|
 |Too many clusters are being generated. The accuracy of anomaly detection might deteriorate.|Too many clusters are being generated for Source Type %s. As a result, the accuracy of anomaly detection might deteriorate.|Inspect the created patterns and verify that the Message label is being assigned correctly. On the Source Type Structure form, review the Message property.|
 |Sources are being created at a very high rate|Sources are being created at a very high rate. Data input %s was stopped automatically.|On the Data Input Mapping form, inspect the Mapping script and fix any JavaScript errors that might cause too many sources to be created.|
 |Source Types are being created at a very high rate|Source Types are being created at a very high rate. Data input %s was stopped automatically.|On the Data Input Mapping form, inspect the Mapping script and fix any JavaScript errors that might cause too many Source Types to be created.|
@@ -39,5 +40,5 @@ Health Log Analytics provides self-health checks, notifications, and proposed pr
 |Uses the Glide client connection check to determine the health of the connection|Glide connectivity problems.|Contact ServiceNow support.|
 |The data input is in Failed state|The data input %s failed to stream logs.|On the Data Input form, check the connection to the MID Server and review the error message.|
 
-**Parent Topic:**[Health Log Analytics reference](../concept/hla-reference.md)
+**Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-reference.md)
 

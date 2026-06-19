@@ -2,6 +2,7 @@
 title: Provide external users access to a table
 description: To enable users with only the snc\_external role to access the list view of a table, you must create a series of ACLs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/t\_ProvideExternalUsersAccessToTables.html
 release: zurich
 product: Access Control
 classification: access-control
@@ -21,9 +22,9 @@ Role required: security\_admin
 
 ## Procedure
 
-1.  [Elevate to a privileged role](../../security/task/t_ElevateToAPrivilegedRole.md).
+1.  [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/t_ElevateToAPrivilegedRole.md).
 
-2.  [Create an ACL rule](t_CreateAnACLRule.md) with the following settings:
+2.  [Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/t_CreateAnACLRule.md) with the following settings:
 
     -   **Type**: ui\_page
     -   **Operation**: read

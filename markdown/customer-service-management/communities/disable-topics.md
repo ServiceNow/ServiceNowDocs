@@ -2,6 +2,7 @@
 title: Disable topics in a community
 description: Disable the topics feature so that no topic information is visible in your community.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/communities/disable-topics.html
 release: zurich
 product: Communities
 classification: communities
@@ -37,5 +38,5 @@ The administrator can change the **sn\_communities.enable\_topics** property so 
     -   Topic fields do not appear when creating, editing, or viewing content.
     -   Topics do not appear in the search results page.
 
-**Parent Topic:**[Configure community forums](configure-forums-topics.md)
+**Parent Topic:**[Configure community forums](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/configure-forums-topics.md)
 

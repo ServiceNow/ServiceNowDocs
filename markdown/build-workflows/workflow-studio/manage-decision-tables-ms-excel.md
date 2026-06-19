@@ -2,6 +2,7 @@
 title: Manage decision tables in Excel
 description: If you have large decision tables to build or want to enhance decision tables outside of the ServiceNow AI Platform, manage them in Excel. Export a decision table to an Excel file, edit the downloaded file to add and edit rows, and then import the file back into Workflow Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/manage-decision-tables-ms-excel.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -71,5 +72,5 @@ The following are scenarios when you cannot modify a decision table in Excel.
 
 **Note:** The Localization Framework is integrated in decision tables. However, because the Edit in Excel feature doesn’t support localization, you cannot use this feature in any instance that doesn't use English.
 
-**Parent Topic:**[Using decision tables](using-decision-builder.md)
+**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/using-decision-builder.md)
 

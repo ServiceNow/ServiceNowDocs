@@ -2,6 +2,7 @@
 title: Exploring Collaboration services for Zoom
 description: Collaboration services for Zoom provides employees with seamless self-service without leaving the Zoom client and enables agents to resolve their task records faster.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/explore-sn-zoom.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -26,8 +27,8 @@ Collaboration services for Zoom offers the following capabilities:
 -   Enables agents to import the Zoom Team Chat transcript back to the task record as a comment.
 -   Enables employees with specific permissions to view Zoom Team Chat from a task record.
 
--   **[Collaboration services for Zoom Team Chat](sn-cs-zoom-team-chat.md)**  
+-   **[Collaboration services for Zoom Team Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/sn-cs-zoom-team-chat.md)**  
 Collaboration services for Zoom helps employees to interact with agents and resolve their IT-related issues from within  the Zoom application.
 
-**Parent Topic:**[ServiceNow for Zoom](sn_zoomIntegration.md)
+**Parent Topic:**[ServiceNow for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/sn_zoomIntegration.md)
 

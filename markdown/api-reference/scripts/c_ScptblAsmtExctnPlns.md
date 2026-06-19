@@ -2,6 +2,7 @@
 title: Scriptable assignment of execution plans
 description: Each catalog item has an associated execution plan, used whenever an item of that type is ordered; if no plan is specified, the default plan is used. This default is effective for most organizations, but your execution plan may need to vary based on additional criteria.Execution plan scripts have limitations that need to be considered during their implementation.Follow these guidelines when writing execution plan scripts.You can add a script to a catalog item so that the script runs each time a user requests that item.You can use an approval rule script to approve an execution plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/c\_ScptblAsmtExctnPlns.html
 release: zurich
 product: Scripts
 classification: scripts
@@ -19,7 +20,7 @@ For example, in the base system service catalog, a request for a new PC always u
 
 To provide this flexibility, you can use a script to override the default execution plan on a specific catalog item.
 
-**Parent Topic:**[Server-side scripting](c_ServerScripting.md)
+**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_ServerScripting.md)
 
 ## Limitations during script execution
 

@@ -2,6 +2,7 @@
 title: Create a Live Feed team
 description: When you create a team, you become the team administrator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/live-feed/t\_CreateATeam.html
 release: zurich
 product: Live Feed
 classification: live-feed
@@ -23,10 +24,10 @@ Role required: admin
 
 As team administrator, you can do the following:
 
--   [Modify team properties](t_ModifyATeam.md)
--   [Accept or reject membership requests](t_ManageAMembershipRequest.md)
--   [Remove members from the team](t_RemoveAMember.md)
--   [Delete the team](t_DeleteATeam.md)
+-   [Modify team properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/live-feed/t_ModifyATeam.md)
+-   [Accept or reject membership requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/live-feed/t_ManageAMembershipRequest.md)
+-   [Remove members from the team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/live-feed/t_RemoveAMember.md)
+-   [Delete the team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/live-feed/t_DeleteATeam.md)
 
 ## Procedure
 
@@ -56,5 +57,5 @@ As team administrator, you can do the following:
     **Note:** A team administrator can create one or more group feeds specifically for the members of this team by clicking the **Group Feeds** tab and **Create Group Feed**. Additionally, the team can be invited to join a feed. Having multiple feeds for the team facilitates focused discussions on topics of interest to the team and allows the team to selectively invite other teams and members to collaborate on specific feeds.
 
 
-**Parent Topic:**[Use teams in Live Feed](../concept/c_UseTeamsInLiveFeed.md)
+**Parent Topic:**[Use teams in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/live-feed/c_UseTeamsInLiveFeed.md)
 

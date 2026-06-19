@@ -2,6 +2,7 @@
 title: Update Outlook Actionable Messages authentication to Microsoft Entra ID
 description: Microsoft will retire External Access Token \(EAT\) authentication for Outlook Actionable Messages on March 31, 2026. Microsoft Entra ID token authentication is required for Outlook Actionable Messages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/update-outlook-actionable-msgs-auth-to-ms-entra-id.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -35,9 +36,9 @@ To ensure uninterrupted functionality with actionable message, you must migrate 
 
 2.  After completing the setup, copy the **App ID Uri** and the **Provider Id \(originator\)**.
 
-    ![App ID URI on the Outlook Actionable App in Microsoft.](../images/outlookactionable-appiduri.png)
+    \[Omitted image "outlookactionable-appiduri.png"\] Alt text: App ID URI on the Outlook Actionable App in Microsoft.
 
-    ![Provider ID.](../images/outlookactionable-providerid.png)
+    \[Omitted image "outlookactionable-providerid.png"\] Alt text: Provider ID.
 
 3.  On your ServiceNow instance, update the **sn\_ms\_oam.outlookactionable.originator** System property value with the new **Provider Id \(originator\)** copied from Step 2.
 
@@ -51,13 +52,13 @@ To ensure uninterrupted functionality with actionable message, you must migrate 
 
     On the Microsoft Office OIDC Provider Configuration form, do the following:
 
-    ![Outlook actionable Application Registry form.](../images/outlookactionable-appregistry.png)
+    \[Omitted image "outlookactionable-appregistry.png"\] Alt text: Outlook actionable Application Registry form.
 
     1.  Update the **OIDC Metadata URL** to this format: `https://sts.windows.net/{tenant-id}/.well-known/openid-configuration`.
 
     2.  Set the **User Claim** field to **upn**.
 
-        ![OIDC Provider form.](../images/outlookactionable-metadaturl.png)
+        \[Omitted image "outlookactionable-metadaturl.png"\] Alt text: OIDC Provider form.
 
     3.  Save the form.
 
@@ -68,5 +69,5 @@ To ensure uninterrupted functionality with actionable message, you must migrate 
 
 You are now migrated to Microsoft Entra ID token authentication and the Outlook Actionable Messages app registration is updated in your ServiceNow instance.
 
-**Parent Topic:**[Using ServiceNow for Microsoft Outlook](../concept/using-sn-ms-outlook.md)
+**Parent Topic:**[Using ServiceNow for Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/using-sn-ms-outlook.md)
 

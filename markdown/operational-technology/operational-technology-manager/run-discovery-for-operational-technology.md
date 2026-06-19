@@ -2,6 +2,7 @@
 title: Create an Operational Technology Discovery schedule and run the Discovery process
 description: Define Operational Technology \(OT\) Discovery schedules that orchestrate how and when the Discovery for an OT function should run. You can also perform an immediate Quick Discovery or an actual OT Discovery run.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-manager/run-discovery-for-operational-technology.html
 release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -19,9 +20,9 @@ Define Operational Technology \(OT\) Discovery schedules that orchestrate how an
 
 Do the following actions before you run IT Discovery for OT Networks:
 
--   Install and configure the standard Discovery application. To learn more, see [Discovery setup](https://www.servicenow.com/docs/access?context=discovery-setup&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
--   Install the CMDB CI Class Models plugin. To learn more, see [Operational Technology \(OT\) extension classes installation](install-operation-technology-ot-extension-classes.md).
--   Install the Mid Server. To learn more, see [Installing the MID Server](https://www.servicenow.com/docs/access?context=mid-server-installation&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+-   Install and configure the standard Discovery application. To learn more, see Discovery setup.
+-   Install the CMDB CI Class Models plugin. To learn more, see [Operational Technology \(OT\) extension classes installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/install-operation-technology-ot-extension-classes.md).
+-   Install the Mid Server. To learn more, see Installing the MID Server.
 
 Role required: ot\_discovery\_admin
 
@@ -31,15 +32,15 @@ Role required: ot\_discovery\_admin
 
 2.  Run Quick Discovery or select or create an OT discovery schedule.
 
-<table id="choicetable_dcf_hl5_vpb"><thead><tr><th align="left" id="d23423e149">
+<table id="choicetable_dcf_hl5_vpb"><thead><tr><th align="left" id="d25782e149">
 
 Task
 
-</th><th align="left" id="d23423e152">
+</th><th align="left" id="d25782e152">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d23423e158">
+</th></tr></thead><tbody><tr><td id="d25782e158">
 
 **Run an immediate Quick Discovery**
 
@@ -50,7 +51,7 @@ Click **Quick Discovery** and do the following actions:1.  In the **Target IP** 
 3.  Click **OK**.
 
 
-</td></tr><tr><td id="d23423e200">
+</td></tr><tr><td id="d25782e200">
 
 **Select or create an OT discover schedule**
 
@@ -63,15 +64,15 @@ Click **Quick Discovery** and do the following actions:1.  In the **Target IP** 
 </td></tr></tbody>
 </table>3.  In the form, fill in the OT Discovery Schedule fields.
 
-<table id="choicetable_fxf_qpx_nsb"><thead><tr><th align="left" id="d23423e233">
+<table id="choicetable_fxf_qpx_nsb"><thead><tr><th align="left" id="d25782e233">
 
 Field
 
-</th><th align="left" id="d23423e236">
+</th><th align="left" id="d25782e236">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d23423e242">
+</th></tr></thead><tbody><tr><td id="d25782e242">
 
 **Name**
 
@@ -79,7 +80,7 @@ Description
 
 Unique, descriptive name for your OT discovery schedule.
 
-</td></tr><tr><td id="d23423e251">
+</td></tr><tr><td id="d25782e251">
 
 **Discover**
 
@@ -93,7 +94,7 @@ Uses Discovery identifiers to match devices with configuration items \(CIs\) in 
 
 Scans devices without the use of credentials. These scans discover all the active IP addresses in the specified range and create device history records, but do not update the CMDB. IP address scans also show multiple IP addresses that are running on a single device. Identify devices by class and by type, such as Windows computers and Cisco network gear.
 
-</td></tr><tr><td id="d23423e305">
+</td></tr><tr><td id="d25782e305">
 
 **Default Purdue level**
 
@@ -102,7 +103,7 @@ Scans devices without the use of credentials. These scans discover all the activ
 Purdue level that you want the OT discovery schedule to run in or select **--None--** for all Purdue levels.**Note:** To learn more about Purdue levels, see [https://subscription.packtpub.com/book/networking\_and\_servers/9781788395151/1/ch01lvl1sec10/the-purdue-model-for-industrial-control-systems](https://subscription.packtpub.com/book/networking_and_servers/9781788395151/1/ch01lvl1sec10/the-purdue-model-for-industrial-control-systems).
 
 </td></tr></tbody>
-</table>    Most of the fields on this form are identical to or operate in the same manner as the standard Discovery form. Only those fields that differ from the standard Discovery scheduling appear in this topic. To learn more about the remaining fields, see [Schedule a horizontal discovery](https://www.servicenow.com/docs/access?context=t_CreateADiscoverySchedule&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)
+</table>    Most of the fields on this form are identical to or operate in the same manner as the standard Discovery form. Only those fields that differ from the standard Discovery scheduling appear in this topic. To learn more about the remaining fields, see Schedule a horizontal discovery
 
 4.  Run the Discovery process right away, or save the OT discovery schedule to run at the times you designated in the record.
 
@@ -116,5 +117,5 @@ Purdue level that you want the OT discovery schedule to run in or select **--Non
 
 When the IT Discovery for OT Networks process runs, it creates a history record in the Discovery Status related list.
 
-**Parent Topic:**[IT Discovery for Operational Technology \(OT\) Networks](../concept/discovery-for-operational-technology.md)
+**Parent Topic:**[IT Discovery for Operational Technology \(OT\) Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/discovery-for-operational-technology.md)
 

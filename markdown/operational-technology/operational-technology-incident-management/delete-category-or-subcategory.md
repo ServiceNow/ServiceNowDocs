@@ -2,6 +2,7 @@
 title: Delete a category or subcategory
 description: Delete an Operational Technology incident category or subcategory if your organization no longer uses that category or subcategory.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-incident-management/delete-category-or-subcategory.html
 release: zurich
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -35,5 +36,5 @@ Delete an Operational Technology incident category or subcategory if your organi
 
 The deleted category or subcategory is no longer available on an Operational Technology incident record.
 
-**Parent Topic:**[Incident categories and subcategories](../reference/ot-incident-categories-subcategories.md)
+**Parent Topic:**[Incident categories and subcategories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-incident-management/ot-incident-categories-subcategories.md)
 

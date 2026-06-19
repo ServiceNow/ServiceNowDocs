@@ -2,6 +2,7 @@
 title: Medication Prescription form
 description: The Medication Prescription form includes the details of the prescription ordered for a patient.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-med-prescription-form.html
 release: zurich
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -252,5 +253,5 @@ Instructions for patient
 Instructions for the dosage of the medication product.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Healthcare and Life Sciences Service Management Core reference](hcls-serv-mgmt-core-reference.md)
+</table>**Parent Topic:**[Healthcare and Life Sciences Service Management Core reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-serv-mgmt-core-reference.md)
 

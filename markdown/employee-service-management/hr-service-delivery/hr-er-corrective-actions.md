@@ -2,6 +2,7 @@
 title: Create a corrective action
 description: Create a corrective action record for an ER case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-er-corrective-actions.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -50,7 +51,7 @@ From the Agent Workspace for HR Case Management UI
 </td><td>
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
-2.  Click the **Lists** icon \(![HR Workspace Lists icon](../image/agent-ws-hr-list-icon.png)\).
+2.  Click the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: HR Workspace Lists icon\).
 3.  In the ER category, select an ER case.
 4.  Select **More tabs**.
 5.  Select the **Corrective Actions** tab.
@@ -90,7 +91,7 @@ Involved party
 
 </td><td>
 
-The person the corrective action is for.Click the Lookup using list icon ![Lookup using list icon](../image/magnifying-glass.png) and select from the list.
+The person the corrective action is for.Click the Lookup using list icon \[Omitted image "magnifying-glass.png"\] Alt text: Lookup using list icon and select from the list.
 
 </td></tr><tr><td>
 
@@ -130,7 +131,7 @@ Discussion held by
 
 </td><td>
 
-The lead user of the corrective action discussion. Click the Lookup using list icon ![Lookup using list icon](../image/magnifying-glass.png) and search for the person who led the discussion.
+The lead user of the corrective action discussion. Click the Lookup using list icon \[Omitted image "magnifying-glass.png"\] Alt text: Lookup using list icon and search for the person who led the discussion.
 
 </td></tr><tr><td>
 
@@ -138,7 +139,7 @@ Also present
 
 </td><td>
 
-Identifies other people that were part of the discussion.Click the **Add me** icon ![Add me icon](../image/icon-hr-add-me.png) to add yourself or the **Unlock additional parties** icon ![Unlock additional parties icon](../image/icon-hr-unlock-add-parties.png) to add yourself or other people.
+Identifies other people that were part of the discussion.Click the **Add me** icon \[Omitted image "icon-hr-add-me.png"\] Alt text: Add me icon to add yourself or the **Unlock additional parties** icon \[Omitted image "icon-hr-unlock-add-parties.png"\] Alt text: Unlock additional parties icon to add yourself or other people.
 
 </td></tr><tr><td>
 

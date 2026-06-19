@@ -2,6 +2,7 @@
 title: Activate translation management
 description: You can activate the Knowledge Management Advanced \(com.snc.knowledge\_advanced\) and I18N:Knowledge Management Internationalization Plugin v2 \(com.glideapp.knowledge.i18n2\) plugins for translation management if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/activate-translation-mgt.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -40,8 +41,8 @@ Translation management also requires enabling the **glide.knowman.translation.en
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
-**Parent Topic:**[Configure translation management](../concept/configure-translation-management.md)
+**Parent Topic:**[Configure translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/configure-translation-management.md)
 

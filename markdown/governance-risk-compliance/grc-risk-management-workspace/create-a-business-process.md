@@ -2,6 +2,7 @@
 title: Create a business process
 description: Create a business process and define the owners, approvers, business criticality, and review frequency for the process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/create-a-business-process.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -190,8 +191,8 @@ Risk rating for the risk of impact to integrity. Impact to integrity has consequ
     The values in the **Life cycle stage** field and the **Life cycle stage status** field change. The Approvals related list appears, and the members of the Approval list can view the record in their list of approvals.
 
 
--   **[Approve, reject, or delete a business process](review-a-business-process.md)**  
+-   **[Approve, reject, or delete a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/review-a-business-process.md)**  
 If a new business process has identified approvers, then the approvers must review and approve the process before it can be published. The approvers can also reject or delete the process as necessary.
 
-**Parent Topic:**[Manage a business process](../concept/use-business-process.md)
+**Parent Topic:**[Manage a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/use-business-process.md)
 

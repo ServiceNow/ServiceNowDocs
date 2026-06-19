@@ -2,6 +2,7 @@
 title: Record Producer form
 description: Description of the fields on the Record Producer form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/record-producer-form.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -143,7 +144,7 @@ Meta
 
 </td><td>
 
-Comma-separated list of tags used to search for the record producer. See [Configure keyword search for catalog items](../task/search-catalog-item.md).
+Comma-separated list of tags used to search for the record producer. See [Configure keyword search for catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/search-catalog-item.md).
 
 </td></tr><tr><td>
 
@@ -259,7 +260,7 @@ Universal Request Config
 
 </td></tr><tr><td colspan="2">
 
-This section is available only when the Universal Request plugin \(com.snc.universal\_request\) is activated. For information about this configuration, see [Service Catalog configuration for Universal Request](../concept/ur-catalog-config.md).
+This section is available only when the Universal Request plugin \(com.snc.universal\_request\) is activated. For information about this configuration, see [Service Catalog configuration for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/ur-catalog-config.md).
 
 </td></tr><tr><td>
 
@@ -275,10 +276,10 @@ Requires Additional Review
 
 </td><td>
 
-Option to automatically select the **Needs resolution review** check box on the corresponding universal request. For information about the universal request fields, see [Universal Request form](https://www.servicenow.com/docs/access?context=new-ur-record-form&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).The **Requires Additional Review** field appears only when the **UR certified/enabled item** check box is selected.
+Option to automatically select the **Needs resolution review** check box on the corresponding universal request. For information about the universal request fields, see Universal Request form.The **Requires Additional Review** field appears only when the **UR certified/enabled item** check box is selected.
 
 </td></tr></tbody>
-</table>For information about creating record producers, see [Create a record producer](../task/t_DefRecProdInSCat.md).
+</table>For information about creating record producers, see [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/t_DefRecProdInSCat.md).
 
-**Parent Topic:**[Service Catalog Reference](../concept/service-catalog-reference.md)
+**Parent Topic:**[Service Catalog Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/service-catalog-reference.md)
 

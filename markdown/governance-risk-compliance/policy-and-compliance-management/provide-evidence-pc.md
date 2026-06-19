@@ -2,6 +2,7 @@
 title: Provide requested evidence
 description: Provide evidence when you are requested. When evidence is requested, the person who must provide the evidence receives an email. The process to provide the evidence begins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/provide-evidence-pc.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

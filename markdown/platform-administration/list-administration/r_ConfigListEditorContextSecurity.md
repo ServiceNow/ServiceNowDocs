@@ -2,6 +2,7 @@
 title: Configuring contextual security for the list editor
 description: The list editor enforces existing access control rules \(ACLs\) and additional security controls to restrict editing from a list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/list-administration/r\_ConfigListEditorContextSecurity.html
 release: zurich
 product: List Administration
 classification: list-administration

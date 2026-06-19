@@ -2,6 +2,7 @@
 title: Bulk Translation for knowledge articles
 description: Perform bulk translations of knowledge articles in multiple languages using the Localization Framework application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/bulk-translation.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -19,15 +20,15 @@ The Bulk Translations feature extends the localization service in Knowledge Mana
 
 ## Translation workflow
 
-You can define a workflow to determine the actions required to complete a translation. For information, see [Workflows in the Localization Framework](https://www.servicenow.com/docs/access?context=workflow-localization-framework&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) .
+You can define a workflow to determine the actions required to complete a translation. For information, see Workflows in the Localization Framework .
 
 ## Preferences configuration
 
-Through preferences, define the translations, workflow, and project preferences to request translation for activated languages. For more information, see [Configure the Localization Framework preferences](https://www.servicenow.com/docs/access?context=define-translation-preferences&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Through preferences, define the translations, workflow, and project preferences to request translation for activated languages. For more information, see Configure the Localization Framework preferences.
 
 ## Artifact configuration
 
-The Knowledge artifact is included in the Artifact Configurations \[sn\_lf\_config\] table and is active by default. For more information, see [Localization Framework support for Knowledge Base](https://www.servicenow.com/docs/access?context=lf-support-for-kb-articles&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) .
+The Knowledge artifact is included in the Artifact Configurations \[sn\_lf\_config\] table and is active by default. For more information, see Localization Framework support for Knowledge Base .
 
 ## Translation validations
 
@@ -40,10 +41,10 @@ Translation validation enables you to review and manage the translation request 
 -   The source article shouldn’t be a translated article.
 -   The total number of selected articles is less than 200.
 
--   **[Use Bulk Translation for manual translation](use-bts-manual-translation.md)**  
+-   **[Use Bulk Translation for manual translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/use-bts-manual-translation.md)**  
 Translate knowledge articles into different languages through bulk translations.
--   **[Use Bulk Translation for Dynamic Translation](bts-for-dynamic-translations.md)**  
+-   **[Use Bulk Translation for Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/bts-for-dynamic-translations.md)**  
 Translate knowledge articles into different languages using machine translations.
 
-**Parent Topic:**[Use translation management](use-translation-management.md)
+**Parent Topic:**[Use translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/use-translation-management.md)
 

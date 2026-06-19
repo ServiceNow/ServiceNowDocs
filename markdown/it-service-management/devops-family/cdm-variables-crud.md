@@ -2,13 +2,14 @@
 title: Create or update a variable CDI
 description: Define variables and set their values in components, collections, and deployables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-family/cdm-variables-crud.html
 release: zurich
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Viewing and editing config data, Use, DevOps Config, IT Service Management]
+breadcrumb: [Viewing and editing config data, Using DevOps Config, DevOps Config, IT Service Management]
 ---
 
 # Create or update a variable CDI
@@ -43,10 +44,10 @@ Role required: cdm\_editor or cdm\_admin
 
         In this example, the **dbName** variable and several others reside in the **database** folder. In addition, the **backup** folder \(a child of the **database** folder\) holds the **dbServer** variable.
 
-        ![A var folder and its contents](../image/cdm-var-folder-example.png)
+        \[Omitted image "cdm-var-folder-example.png"\] Alt text: A var folder and its contents
 
     -   Create the variable in a dialog box. Follow the procedure in the next step.
-2.  Select the more actions menu icon \(![More actions icon.](../../site-reliability-ops/image/icon-actions-menu.png)\) for the appropriate **vars** folder, select **Create variable**, and then specify its settings.
+2.  Select the more actions menu icon \(\[Omitted image "icon-actions-menu.png"\] Alt text: More actions icon.\) for the appropriate **vars** folder, select **Create variable**, and then specify its settings.
 
 <table id="table_prr_pzv_1qb"><thead><tr><th>
 

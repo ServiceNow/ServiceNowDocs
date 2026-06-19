@@ -2,6 +2,7 @@
 title: Associate a request header with a resource
 description: Define which request headers are expected for each resource within a scripted REST API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-api-explorer/associate-header-api-resource.html
 release: zurich
 product: REST API Explorer
 classification: rest-api-explorer
@@ -23,21 +24,21 @@ Role required: web\_service\_admin
 
 ## About this task
 
-The following procedure describes the process for manually associating a REST API request header with a resource. For details about automatically generating request header definitions in non-production instances, see [Automatically generate API request definitions](autogenerate-api-request-definitions.md).
+The following procedure describes the process for manually associating a REST API request header with a resource. For details about automatically generating request header definitions in non-production instances, see [Automatically generate API request definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/autogenerate-api-request-definitions.md).
 
 ## Procedure
 
 1.  Create a Scripted REST Header Association record in one of the following ways
 
-<table id="choicetable_fv4_myc_j3c"><thead><tr><th align="left" id="d299772e67">
+<table id="choicetable_fv4_myc_j3c"><thead><tr><th align="left" id="d276906e67">
 
 Option
 
-</th><th align="left" id="d299772e70">
+</th><th align="left" id="d276906e70">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d299772e76">
+</th></tr></thead><tbody><tr><td id="d276906e76">
 
 **Navigate through a scripted REST API record**
 
@@ -49,7 +50,7 @@ Procedure
 4.  In the **Request Header Associations** tab, select **New**.
 
 
-</td></tr><tr><td id="d299772e121">
+</td></tr><tr><td id="d276906e121">
 
 **Navigate directly to a new Scripted REST Header Association record**
 
@@ -69,7 +70,7 @@ Navigate to **All** &gt; **Filter** and enter `sys_ws_header_map.form`.
 
 ## Result
 
-The request headers that you added are included in the exportable OpenAPI specification in the REST API Explorer with a "type: string" schema definition. For more information about exporting OpenAPI specifications, see [Export to OpenAPI specification](../../inbound-rest/task/export-openapi-specification.md).
+The request headers that you added are included in the exportable OpenAPI specification in the REST API Explorer with a "type: string" schema definition. For more information about exporting OpenAPI specifications, see [Export to OpenAPI specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/export-openapi-specification.md).
 
-**Parent Topic:**[Create a scripted REST API](t_CreateAScriptedRESTService.md)
+**Parent Topic:**[Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/t_CreateAScriptedRESTService.md)
 

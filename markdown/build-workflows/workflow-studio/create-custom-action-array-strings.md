@@ -2,6 +2,7 @@
 title: Create a custom action to generate an array of strings from a list of records
 description: Generate an array of strings from a list of User Role records. Learn how to use a Script step to iterate through a list of records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/create-custom-action-array-strings.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -38,7 +39,7 @@ Use this example to see demonstrations of these operations and steps.
 
 1.  Create an application to store your work.
 
-    You can use App Engine Studio to plan, create, and deploy applications. For more information about building a custom application, see [Building apps in App Engine Studio](https://www.servicenow.com/docs/access?context=aes-app-creation&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+    You can use App Engine Studio to plan, create, and deploy applications. For more information about building a custom application, see .
 
     For example, create an application called `My Application`.
 
@@ -70,7 +71,7 @@ Use this example to see demonstrations of these operations and steps.
 
 8.  Configure the action input with these values.
 
-    ![Create an action input that stores a role record.](../images/array-strings-config-inputs.png)
+    \[Omitted image "array-strings-config-inputs.png"\] Alt text: Create an action input that stores a role record.
 
     |Field|Value|
     |-----|-----|
@@ -86,7 +87,7 @@ Use this example to see demonstrations of these operations and steps.
 
 11. Configure the step with these values.
 
-    ![Configure the Look Up Records step condition to use the role input variable.](../images/array-strings-config-look-up-records-step.png)
+    \[Omitted image "array-strings-config-look-up-records-step.png"\] Alt text: Configure the Look Up Records step condition to use the role input variable.
 
 <table id="table_cvp_l5p_lhb"><thead><tr><th>
 
@@ -149,7 +150,7 @@ Max Results
 
 15. Configure the input variable with these values.
 
-    ![Configure the Script step input variable to use the User Role records data pill from the Look Up Records step.](../images/array-strings-config-script-step-input-variable.png)
+    \[Omitted image "array-strings-config-script-step-input-variable.png"\] Alt text: Configure the Script step input variable to use the User Role records data pill from the Look Up Records step.
 
 <table id="table_uby_5zp_lhb"><thead><tr><th>
 
@@ -201,7 +202,7 @@ Value
 
 18. Configure the output variable with these values.
 
-    ![Create an array of strings called users. Within the array create a string variable called user.](../images/array-strings-config-script-step-output-variable.png)
+    \[Omitted image "array-strings-config-script-step-output-variable.png"\] Alt text: Create an array of strings called users. Within the array create a string variable called user.
 
     |Label|Name|Type|Mandatory|
     |-----|----|----|---------|
@@ -219,7 +220,7 @@ Value
 
 22. Configure the Action Output with these values.
 
-    ![Create an action output called users to store an array of strings.](../images/array-strings-config-outputs.png)
+    \[Omitted image "array-strings-config-outputs.png"\] Alt text: Create an action output called users to store an array of strings.
 
     |Label|Name|Type|Mandatory|
     |-----|----|----|---------|
@@ -239,7 +240,7 @@ Value
 
 26. For **users**, select **\[step-&gt;Script step-&gt;users\]**.
 
-    ![Configure the action output variable to use the users data pill from the Script step.](../images/array-strings-config-outputs-users.png)
+    \[Omitted image "array-strings-config-outputs-users.png"\] Alt text: Configure the action output variable to use the users data pill from the Script step.
 
     **Note:** You can select the Script step **users** data pill from the data panel or from the Data Pill Picker button.
 
@@ -251,7 +252,7 @@ Value
 
 29. Enter the following test value:
 
-    ![Select the admin role to test your action.](../images/array-strings-test-action-role.png)
+    \[Omitted image "array-strings-test-action-role.png"\] Alt text: Select the admin role to test your action.
 
     |Input|Value|
     |-----|-----|
@@ -267,7 +268,7 @@ Value
 
 32. Review the runtime value for the action Output data.
 
-    ![Execution details page listing three user names in the users array.](../images/array-strings-execution-details.png)
+    \[Omitted image "array-strings-execution-details.png"\] Alt text: Execution details page listing three user names in the users array.
 
     The system displays output data in JSON format.
 
@@ -293,5 +294,5 @@ You have a custom action that looks up the Users who have a given role and conve
 
 Customize this action to use your own logic.
 
-**Parent Topic:**[Script support for complex data](../concept/script-support-complex-data.md)
+**Parent Topic:**[Script support for complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/script-support-complex-data.md)
 

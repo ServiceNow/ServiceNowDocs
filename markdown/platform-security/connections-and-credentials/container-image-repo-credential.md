@@ -2,6 +2,7 @@
 title: Container image repository credentials
 description: The container image repository credentials manage access to private repositories for container image scanning. This credential type is available for Discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/connections-and-credentials/container-image-repo-credential.html
 release: zurich
 product: Connections and Credentials
 classification: connections-and-credentials

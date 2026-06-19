@@ -2,6 +2,7 @@
 title: Create a queue for product issues
 description: Create a queue for the Chat service channel that routes product issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/product-context-example.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -56,5 +57,5 @@ Role required: awa\_admin or admin
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Tutorial: Route interactions by context](context-routing-tutorial.md)
+**Parent Topic:**[Tutorial: Route interactions by context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/context-routing-tutorial.md)
 

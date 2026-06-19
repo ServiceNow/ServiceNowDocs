@@ -2,6 +2,7 @@
 title: Configure knowledge base tile widget instance options
 description: Configure widget instance options for the knowledge base tile widgets on the Knowledge Management Service Portal homepage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/config-kb-tile-widget-options.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -37,7 +38,7 @@ The homepage uses the Knowledge Bases Browse widget to display knowledge base ti
     |---------------|-----------|
     |Title|The title that appears above the knowledge base tiles. The default is **Explore our Knowledge Bases**.|
     |Bootstrap color|The color of the widget.|
-    |CSS|Custom configurations that determine the look and feel of the elements in the widget. For more information, see [Service Portal SCSS Primer](https://www.servicenow.com/docs/access?context=scss-primer&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).|
+    |CSS|Custom configurations that determine the look and feel of the elements in the widget. For more information, see Service Portal SCSS Primer.|
     |Order By|The order in which the knowledge base tiles appear on the homepage. Use any field on the Knowledge table. If this field is empty, tiles are displayed in alphabetical order. Other available options include article\_count.|
     |Reverse Order|Enable this check box to display knowledge base tiles in the reverse order.|
     |Post Question Label|The label on the button used to post a question. The default is **Ask a Question**.|
@@ -48,5 +49,5 @@ The homepage uses the Knowledge Bases Browse widget to display knowledge base ti
 5.  Click **Save**.
 
 
-**Parent Topic:**[Knowledge Management Service Portal widgets](../concept/km-service-portal-widget-instances.md)
+**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
 

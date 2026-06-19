@@ -2,6 +2,7 @@
 title: cabrillo.camera - Client
 description: Cabrillo JS camera functions to provide camera access for bar code scanning.Provides a standard interface for scanning bar codes. Use this to present a bar code scanner and capture scanned result.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/cllent-mobile-api-reference/cabrillo-camera-namespace.html
 release: zurich
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Client mobile API reference, API reference, API implementation and 
 
 Cabrillo JS camera functions to provide camera access for bar code scanning.
 
-**Parent Topic:**[Client mobile API reference](../../../../../build/applications/concept/api-client-mobile.md)
+**Parent Topic:**[Client mobile API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/api-client-mobile.md)
 
 ## cabrillo.camera - getBarcode\(\)
 

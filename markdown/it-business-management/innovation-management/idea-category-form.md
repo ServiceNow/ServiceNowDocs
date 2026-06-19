@@ -2,6 +2,7 @@
 title: Idea category form
 description: Learn about the fields of the Idea category form. Use this form to create or edit the details of an idea category in Innovation Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/innovation-management/idea-category-form.html
 release: zurich
 product: Innovation Management
 classification: innovation-management
@@ -64,5 +65,5 @@ Domain
 The domain to which the idea category belongs.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Innovation Management](form-field-information-for-innovation-management.md)
+</table>**Parent Topic:**[Form field information for Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/form-field-information-for-innovation-management.md)
 

@@ -2,6 +2,7 @@
 title: Copy a document
 description: A document can be duplicated at any time. This is useful if you have an existing document that you want to use as a base for a new document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/t\_CopyADocument.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -40,5 +41,5 @@ The new document is renamed and includes the word "Copy".
 
 **Note:** Only the latest revision is copied.
 
-**Parent Topic:**[Create a document](../concept/c_CreateADocument.md)
+**Parent Topic:**[Create a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/c_CreateADocument.md)
 

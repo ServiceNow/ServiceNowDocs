@@ -2,6 +2,7 @@
 title: Connections and Credentials
 description: Credentials and connection information are required to gain access to a computer or network device for Discovery, Service Mapping, and Cloud Management or to perform work using Orchestration. When adding content to Share or AppStore, you can configure connections and credentials relevant to your environment without modifying built content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/connections-and-credentials/r-credentials.html
 release: zurich
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -17,19 +18,19 @@ Credentials and connection information are required to gain access to a computer
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![Exploring](../../../common/image/icon-explore.png) Learn about Credentials.](../concept/credentials-connections-alias.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Exploring Learn about Credentials.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/credentials-connections-alias.md)
 
 </td><td>
 
-[Configure ![Configuring](../../../common/image/icon-set-up.png) Configure Credentials.](../task/t_CreateCredential.md)
+[Configure \[Omitted image "icon-set-up.png"\] Alt text: Configuring Configure Credentials.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/t_CreateCredential.md)
 
 </td></tr><tr><td>
 
-[Reference ![Reference](../../../common/image/icon-reference.png) Get details about Credentials.](../concept/c_ExternalCredentialStorage.md)
+[Reference \[Omitted image "icon-reference.png"\] Alt text: Reference Get details about Credentials.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/c_ExternalCredentialStorage.md)
 
 </td><td>
 
-[Troubleshoot ![Advanced](../../../common/image/icon-workspace.png) Learn how to troubleshoot issues in connections and credentials.](r_CredentialTroubleshooting.md)
+[Troubleshoot \[Omitted image "icon-workspace.png"\] Alt text: Advanced Learn how to troubleshoot issues in connections and credentials.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/r_CredentialTroubleshooting.md)
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: Set up PDF document signers
 description: Sales operations specialists can set up signers in Quote Management so that PDF quotes can be sent to either internal and external signers for review and signatures.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/quote-mgt-configure-pdf-document-signers.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,7 +26,7 @@ Contacts listed in the account for a quote can be external signers. The email li
 
 Internal signers are all the users that have either sales\_agent or sales\_ops\_specialist roles.
 
-To assign roles for internal users, see [Assign user roles in Sales Customer Relationship Management applications](../concept/configure-SOM-roles.md).
+To assign roles for internal users, see [Assign user roles in Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/configure-SOM-roles.md).
 
 ## Procedure
 

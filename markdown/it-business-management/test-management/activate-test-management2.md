@@ -2,6 +2,7 @@
 title: Activate Test Management 2.0
 description: Activate the Test Management 2.0 plugin \(com.snc.test\_management.2.0\) if you've the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/test-management/activate-test-management2.html
 release: zurich
 product: Test Management
 classification: test-management
@@ -31,6 +32,6 @@ Role required: admin
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 

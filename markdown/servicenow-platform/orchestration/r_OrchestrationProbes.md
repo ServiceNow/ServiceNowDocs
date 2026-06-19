@@ -2,6 +2,7 @@
 title: Probes used by Orchestration
 description: Certain probes, controlled by MID Servers, perform Orchestration tasks on remote computers, such as restarting a server or creating virtual machines from templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/orchestration/r\_OrchestrationProbes.html
 release: zurich
 product: Orchestration
 classification: orchestration
@@ -21,7 +22,7 @@ When a Workflow executes an Orchestration activity, that activity launches a pro
 
 **Note:** The probe parameters are set by the activities that launch the probe.
 
-![How Orchestration uses probes](../image/RunbookProbesDiagram.png "How Orchestration uses probes")
+\[Omitted image "RunbookProbesDiagram.png"\] Alt text: How Orchestration uses probes
 
 ## Probe List
 
@@ -205,5 +206,5 @@ A probe that runs a Windows PowerShell script on the MID Server. The PowerShell 
 -   *$cred*: A PowerShell credential, using a user name and password from the Credentials table, that logs into *$computer* successfully.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Deprecated Orchestration activities](../../../administer/orchestration-activities/reference/r_OrchestrationBasicActivities.md)
+</table>**Parent Topic:**[Deprecated Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/r_OrchestrationBasicActivities.md)
 

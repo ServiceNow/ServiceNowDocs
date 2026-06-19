@@ -2,11 +2,12 @@
 title: Configurations
 description: Explore the AI Control Tower Configurations page to manage and govern ServiceNow AI assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/configurations.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
 ---
@@ -15,24 +16,17 @@ breadcrumb: [AI Control Tower dashboard, Explore, AI Control Tower, Enable AI ex
 
 Explore the AI Control Tower Configurations page to manage and govern ServiceNow® AI assets.
 
-The **Configurations** page contains the following sections to manage the workflow of AI Control Tower:
+Role required: AI steward
 
--   [Data sharing, Data overflow processing, and Security &amp; privacy in AI Control Tower](data.md)
--   [Controls](controls.md)
--   [Multi-instance Setup](multi-instance-management.md)
--   [AI connections](ai-discovery-setup.md)
--   [AI Gateway](ai-gateway.md)
--   [Playbooks](playbooks.md)
+The **Configurations** page contains the following sections to manage the workflow of AI Control Tower
 
-**Note:** The AI steward can access and modify the configurations.
+-   [Data sharing, Data overflow processing, and Security &amp; privacy in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/data.md)
+-   [Controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/controls.md)
+-   [Multi-instance Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/multi-instance-management.md)
+-   [AI connections setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-discovery-setup.md)
+-   [Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/playbooks.md)
 
-For information on configuring AI Control Tower, see [Configure AI Control Tower](configuring-ai-governance.md)
+For information on configuring AI Control Tower, see [Configure AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/configuring-ai-governance.md).
 
-For information on the AI assets by lifecycle stages, see [View AI assets by life-cycle stage](../task/view-ai-assets-lifecycle-stage.md)
-
-For information on configuring Multi-instance management for AI Control Tower, see [Configure Multi-instance management for AI Control Tower](../task/configure-multi-instance-management-for-aict.md)
-
-For information on configuring third party LLMs using AI Control Tower, see [Configure third-party LLMs using AI Control Tower](../task/configure-third-party-llms-using-ai-control-tower.md)
-
-For information on creating an AI Control Tower playbook workflow, see [Create an AI Control Tower Playbook Workflow](../task/create-a-playbook-workflow-for-now-assist-approvals.md)
+For information on completing the AI asset lifecycle, see [Complete AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/complete-ai-asset-lifecycle.md).
 

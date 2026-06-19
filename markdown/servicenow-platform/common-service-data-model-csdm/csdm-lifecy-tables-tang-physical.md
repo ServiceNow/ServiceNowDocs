@@ -2,6 +2,7 @@
 title: Tangible/physical tables in the CMDB
 description: List of tangible/physical tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/common-service-data-model-csdm/csdm-lifecy-tables-tang-physical.html
 release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -36,5 +37,5 @@ The tangible/physical life-cycle states represent the overall life cycle of phys
 |Rack​|cmdb\_ci\_rack​|
 |Storage Device​|cmdb\_ci\_storage\_device​|
 
-**Parent Topic:**[Life cycle of tangible/physical CIs](../concept/csdm-lifecycle-hardware.md)
+**Parent Topic:**[Life cycle of tangible/physical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-hardware.md)
 

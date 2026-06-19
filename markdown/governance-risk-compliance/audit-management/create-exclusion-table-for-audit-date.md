@@ -2,6 +2,7 @@
 title: Create exclusion table for audit date
 description: Create exclusion lists for the various policy types used in Audit Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/create-exclusion-table-for-audit-date.html
 release: zurich
 product: Audit Management
 classification: audit-management
@@ -43,5 +44,5 @@ Role required: sn\_audit.admin
 4.  Select **Submit** to add the record to the exclusion list.
 
 
-**Parent Topic:**[Create an engagement](t_CreateEngagement.md)
+**Parent Topic:**[Create an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/t_CreateEngagement.md)
 

@@ -2,6 +2,7 @@
 title: Changes in perspective
 description: Use the range selectors at the top of the timeline to change the perspective.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/time-configuration/c\_ChangingPerspective.html
 release: zurich
 product: Time Configuration
 classification: time-configuration
@@ -17,11 +18,11 @@ Use the range selectors at the top of the timeline to change the perspective.
 
 The increments go from one day to one year. To limit the timeline to an increment between the start date of the first span and the end date of the last span, select **Max**. Use the starting and ending calendar fields to select the timeline perspective. These fields control the same perspective as the slider at the bottom of the timeline. The green, vertical line indicates the current date and time, and sweeps across the timeline automatically.
 
-![timeline perspective bar](../image/TimelinePerspectiveBar.png "Timeline Perspective Bar")
+\[Omitted image "TimelinePerspectiveBar.png"\] Alt text: timeline perspective bar
 
 The pink slider at the bottom of the timeline offers another way to change the perspective. Move the slider from right to left to view all the spans on a long timeline. Adjust the end points of the slider to make arbitrary changes to the magnification. A narrow slider zooms in on the spans and provides a more detailed view of complex timelines. A wide slider pulls the view out and makes more of the timeline visible on the screen.
 
-![timeline perspective slider](../image/TimelinePerspectiveSlider.png "Timeline Perspective Slider")
+\[Omitted image "TimelinePerspectiveSlider.png"\] Alt text: timeline perspective slider
 
-**Parent Topic:**[Timelines](c_UsingTimelines.md)
+**Parent Topic:**[Timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/c_UsingTimelines.md)
 

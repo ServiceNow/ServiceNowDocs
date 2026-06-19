@@ -2,6 +2,7 @@
 title: Configure stages and add them to a flow
 description: Configure when stages display to a user, define stage state labels, and add stages to a flow or subflows within Workflow Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/add-stages.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -17,7 +18,7 @@ Configure when stages display to a user, define stage state labels, and add stag
 
 ## Before you begin
 
-This task assumes that you're familiar with flow and subflow stages, stage fields, and stage sets. For more information about stages, see [Flow and subflow stages](../concept/flow-designer-stages.md).
+This task assumes that you're familiar with flow and subflow stages, stage fields, and stage sets. For more information about stages, see [Flow and subflow stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-designer-stages.md).
 
 Role required: flow\_designer or admin
 
@@ -29,7 +30,7 @@ Role required: flow\_designer or admin
 
     For a stage field to report stages on a record-based flow, a stage field must be present on the same table as the triggering record.
 
-    To add a field to a table, see [Add and customize a field in a table](https://www.servicenow.com/docs/access?context=t_CreatingNewFields&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    To add a field to a table, see Add and customize a field in a table.
 
 2.  If adding stages to a flow with a Service Catalog trigger, select the flow in the **Flow** field of the Service Catalog Item \[sc\_cat\_item\] table.
 
@@ -41,13 +42,13 @@ Role required: flow\_designer or admin
 
 4.  Create and configure stages.
 
-    1.  Select ![The More Actions icon](../images/more-actions-menu-icon.png) and select **Flow stages**.
+    1.  Select \[Omitted image "more-actions-menu-icon.png"\] Alt text: The More Actions icon and select **Flow stages**.
 
         The Flow stages menu opens.
 
     2.  From **Add stages from a template**, select a stage set to import existing stages from the Stage Sets table, and select **Add stages**.
 
-        To learn more about stage sets, see [Workflow stage sets](../../using-workflows/concept/c_WorkflowStageSets.md#). Any changes made to the copy do not affect the original stage set record.
+        To learn more about stage sets, see [Workflow stage sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/c_WorkflowStageSets.md). Any changes made to the copy do not affect the original stage set record.
 
         In general, use stage sets when you want to reuse stages across multiple flows or subflows.
 
@@ -57,7 +58,7 @@ Role required: flow\_designer or admin
         |-----|-----------|
         |Name|Display name for the stage. Must be unique.|
         |Value|Internal name for the stage. Must be unique.|
-        |Duration|Estimated duration displayed to the user. If you want to update stages based on flow run times, consider adding one or more Wait for a duration flow logic blocks. For more information, see [Wait for a duration flow logic](../concept/flow-logic-wait-for-a-duration.md).|
+        |Duration|Estimated duration displayed to the user. If you want to update stages based on flow run times, consider adding one or more Wait for a duration flow logic blocks. For more information, see [Wait for a duration flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-logic-wait-for-a-duration.md).|
         |Always Show|If selected, the stage displays in the stage field, even if the stage is set within a flow logic block that might not execute.|
 
         In general, create stages inline when you do not plan to reuse stages in other flows or subflows.
@@ -80,7 +81,7 @@ Role required: flow\_designer or admin
 
     **Important:** Stages are unavailable from within a **For Each** flow logic block. You can only add stages before and after a **For Each** flow logic block.
 
-    ![Add a stage to a flow.](../images/add-stage.png)
+    \[Omitted image "add-stage.png"\] Alt text: Add a stage to a flow.
 
 6.  Create stages inline.
 
@@ -90,7 +91,7 @@ Role required: flow\_designer or admin
 
     3.  Select **+**.
 
-    **Important:** When you create stages inline, stage fields display the stages in the order they were created, not in the order they appear in the flow. To configure or change the order of stages you create inline, open the More Actions menu ![The More Actions icon](../images/more-actions-menu-icon.png).
+    **Important:** When you create stages inline, stage fields display the stages in the order they were created, not in the order they appear in the flow. To configure or change the order of stages you create inline, open the More Actions menu \[Omitted image "more-actions-menu-icon.png"\] Alt text: The More Actions icon.
 
 7.  Set a stage to the Error state within a conditional flow logic block.
 
@@ -103,7 +104,7 @@ Role required: flow\_designer or admin
         -   The flow or subflow must have at least one stage defined.
         -   The Error can only be set within a stage. When an Error condition is reached, the current stage is set to Error.
         -   The Error can only be set within a conditional flow logic block.
-        ![Set a stage to the Error state.](../images/set-error-example.png)
+        \[Omitted image "set-error-example.png"\] Alt text: Set a stage to the Error state.
 
     When the flow reaches the indicated point, the currently executing stage is set to Error in the stage field.
 
@@ -112,5 +113,5 @@ Role required: flow\_designer or admin
 
 When the flow runs, the stage details appear in any field of type Workflow. In a flow with a record-based trigger, the Workflow field of the triggering table displays the current stage state. In a flow with a Service Catalog trigger, the **Stage** field of the Requested Items \[sc\_req\_item\] table displays the current stage state.
 
-**Parent Topic:**[Flow and subflow stages](../concept/flow-designer-stages.md)
+**Parent Topic:**[Flow and subflow stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-designer-stages.md)
 

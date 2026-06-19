@@ -2,6 +2,7 @@
 title: Linear assets on ServiceNow Agent
 description: Manage work order tasks for linear assets to ensure efficient and effective maintenance and inspection processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/working-on-linear-asset-wot.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

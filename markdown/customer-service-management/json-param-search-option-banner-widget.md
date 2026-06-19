@@ -2,7 +2,10 @@
 title: Script parameters for the search option in the Portal Banner widget
 description: Description of the JSON parameters for the search option in the Portal Banner widget.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/json-param-search-option-banner-widget.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1

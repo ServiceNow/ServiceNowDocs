@@ -2,6 +2,7 @@
 title: Exploring Security Posture Control
 description: Security Posture Control enables cybersecurity teams to get visibility into their complete enterprise asset inventory and determine their overall security posture.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/spc-overview.html
 release: zurich
 topic_type: concept
 last_updated: "2025-08-18"
@@ -35,8 +36,6 @@ Security Posture Control Core: v6.2, v6.1, v6.0.
 
 For compatibility information, see [KB0856498 Vulnerability Response Compatibility Matrix and Release Schema Changes](https://support.servicenow.com/kb_view.do?sysparm_article=KB0856498)
 
-[Security Posture Control release notes](https://www.servicenow.com/docs/access?context=secops-security-posture-control-rn&version=zurich&pubname=zurich-release-notes&ft:locale=en-US)
-
 </td></tr><tr><td>
 
 Asset Security Posture Management: v5.3, v5.1, v5.0
@@ -54,7 +53,7 @@ Mitigation Controls Monitoring v4.0, v3.0, v2.0
  
 
 </td></tr></tbody>
-</table>Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+</table>Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 With the SPC product, Info-Sec teams can perform the following tasks:
 
@@ -62,11 +61,11 @@ With the SPC product, Info-Sec teams can perform the following tasks:
 -   Monitor your assets for their compliance with internal security tool configuration standards. For example, ensure that the latest version of an endpoint protection product is being used.
 -   Automate your remediation workflow for the security posture gaps you find with the ServiceNow Configuration Compliance application.
 -   Create custom policies and insights based on asset metadata, security tool coverage data, and vulnerability data.
--   Gain insight into which threats to your assets are mitigated by available mitigation controls based on how various security tools are configured with [Mitigation Controls Monitoring](spc-mitigation-exploring.md).
+-   Gain insight into which threats to your assets are mitigated by available mitigation controls based on how various security tools are configured with [Mitigation Controls Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-mitigation-exploring.md).
 
 ## How Asset Security Posture Management works
 
-![How it works workflow](../image/spc-How-it-works-1.png)
+\[Omitted image "spc-How-it-works-1.png"\] Alt text: How it works workflow
 
 Asset Security Posture Management \(ASPM\) identifies security tool coverage gaps in assets by using API integrations with various third-party tools \(Service Graph Connectors\) along with ServiceNow products.
 
@@ -95,7 +94,7 @@ Asset Security Posture Management identifies security tool coverage gaps in asse
 
 Identifying security tool gaps involves the following steps:
 
-1.  Set up and activate API connections with any of the tools that you are using in various categories. You can use Service Graph Connectors for products that are available from the ServiceNow Store for the API connections that are required. For more information about the supported service graph connectors, see [Service Graph Connectors](https://www.servicenow.com/docs/access?context=cmdb-sgc-available&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US). Supported service graph connectors are available from the ServiceNow® Store with separate subscriptions.
+1.  Set up and activate API connections with any of the tools that you are using in various categories. You can use Service Graph Connectors for products that are available from the ServiceNow Store for the API connections that are required. For more information about the supported service graph connectors, see . Supported service graph connectors are available from the ServiceNow® Store with separate subscriptions.
 2.  Activate the policies shipped with the Security Posture Control application. The Security Posture Control product finds security tool gaps by performing the following tasks:
     1.  Identifies the list of all unique assets populated by various Service Graph Connectors in the CMDB.
     2.  Identifies assets that are not reported by specific categories from this asset pool, for example, Endpoint Protection. Assets are identified based on the active policy that is being evaluated.
@@ -110,5 +109,5 @@ Some of the policies shipped with the Security Posture Control application look 
 
 ## Mitigation Controls Monitoring
 
-From within in the Security Posture Control \(SPC\) Workspace, gain insight into which threats to your assets are mitigated by available mitigation controls based on how various security tools are configured. See [Mitigation Controls Monitoring](spc-mitigation-exploring.md) for more information.
+From within in the Security Posture Control \(SPC\) Workspace, gain insight into which threats to your assets are mitigated by available mitigation controls based on how various security tools are configured. See [Mitigation Controls Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-mitigation-exploring.md) for more information.
 

@@ -2,6 +2,7 @@
 title: Breakdown and indicator Performance Analytics properties
 description: These properties set limits on breakdown elements and indicators, mostly in the context of visualizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/pa-limit-setting-props.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -29,7 +30,7 @@ com.snc.pa.scoresheet.max\_elements
 
 </td><td>
 
-Maximum number of [breakdown elements](../concept/performance-analytics-glossary.md#) of a breakdown that can be shown in a scoresheetDefault: 500
+Maximum number of [breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md) of a breakdown that can be shown in a scoresheetDefault: 500
 
 </td></tr><tr><td>
 
@@ -43,9 +44,9 @@ Maximum number of elements that a breakdown can have where the Analytics Hub and
 
 -   For real-time scores, the element has never had a score.
 
--   For a formula indicator, the element has never had a score in one or more of the [contributing indicators](../concept/performance-analytics-glossary.md#).
+-   For a formula indicator, the element has never had a score in one or more of the [contributing indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md).
 
--   For the collected scores of an automated indicator, the element has never had a score. However, if the number of elements that would still be displayed exceeds the **com.snc.pa.breakdown\_element\_cutoff** value, only the elements that have a score or change value on the selected date are displayed. For more information and examples, see [Collected scores and com.snc.pa.breakdown\_element\_cutoff](../concept/collected-element-display-cutoff.md).
+-   For the collected scores of an automated indicator, the element has never had a score. However, if the number of elements that would still be displayed exceeds the **com.snc.pa.breakdown\_element\_cutoff** value, only the elements that have a score or change value on the selected date are displayed. For more information and examples, see [Collected scores and com.snc.pa.breakdown\_element\_cutoff](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/collected-element-display-cutoff.md).
 
 
  **Note:** This parameter does not affect whether unmatched elements are shown.
@@ -130,5 +131,5 @@ Restrict widget visibility following the ACLs of indicators and breakdowns. True
 -   Default on upgraded instances from before Quebec: false
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Performance Analytics properties](pa-properties.md)
+</table>**Parent Topic:**[Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/pa-properties.md)
 

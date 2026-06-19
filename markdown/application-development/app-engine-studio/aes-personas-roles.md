@@ -2,11 +2,12 @@
 title: Configure AES personas and roles
 description: The responsibilities of your staff are controlled by roles assigned to each member. Personas aren’t explicitly part of App Engine Studio \(AES\) but administrators assign roles to give team members permission to configure or use AES.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/aes-personas-roles.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-06-02"
 reading_time_minutes: 4
 breadcrumb: [Configure AES, Configure, App Engine Studio, Building low-code applications, Developing your application, Building applications]
 ---
@@ -200,11 +201,11 @@ sn\_app\_eng\_studio.admin
 
 </td><td>
 
-Granular admin role that provides access to App Engine Studio and enables administrative access to AES tables. Can be combined with other granular admin roles or delegated development for additional permissions. For more information about granular admin roles, see [Granular admin roles required to secure your instance](https://www.servicenow.com/docs/access?context=roles-within-platform-security&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+Granular admin role that provides access to App Engine Studio and enables administrative access to AES tables. Can be combined with other granular admin roles or delegated development for additional permissions. For more information about granular admin roles, see .
 
 </td></tr><tr><td>
 
-AES collaboration admin
+Collaboration request admin
 
 </td><td>
 
@@ -216,7 +217,7 @@ Granular admin role that provides administrative access to collaboration tables.
 
 </td></tr><tr><td>
 
-AES table admin
+AES Table Builder Wizard admin
 
 </td><td>
 
@@ -227,7 +228,7 @@ sn\_table\_bldr\_wzd.table\_bldr\_wzd\_admin
 Granular admin role that provides access to manage permissions during table creation in AES.
 
 </td></tr></tbody>
-</table>**Important:** Granular admin roles cannot manage tables that depend on ServiceNow AI Platform tables, such as the Experience Visibility Control table \(sn\_udc\_experience\_visibility\_control\) or Preferred Tables \(sn\_preferred\_table\). To manage such tables, additional granular admin roles are necessary. For more information, see [Granular admin roles required to secure your instance](https://www.servicenow.com/docs/access?context=roles-within-platform-security&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+</table>**Important:** Granular admin roles cannot manage tables that depend on ServiceNow AI Platform tables, such as the Experience Visibility Control table \(sn\_udc\_experience\_visibility\_control\) or Preferred Tables \(sn\_preferred\_table\). To manage such tables, additional granular admin roles are necessary. For more information, see .
 
-**Parent Topic:**[Configure App Engine Studio](configure-aes.md)
+**Parent Topic:**[Configure App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/configure-aes.md)
 

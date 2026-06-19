@@ -2,6 +2,7 @@
 title: View agent errors
 description: Agent Client Collector \(ACC\) errors are visible in logs related to the agent and the ServiceNow instance. This feature provides improved visibility of agent errors, enabling faster error resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/view-agent-errors.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -23,7 +24,7 @@ Role required: agent\_client\_collector\_admin
 
 1.  Navigate to **All** &gt; **Agent Client Collector** &gt; **Agent Issues**.
 
-    The **ACC Error Messages** page appears and lists the agents containing errors.![ACC Error Messages page](../image/acc-error-messages.png)
+    The **ACC Error Messages** page appears and lists the agents containing errors.\[Omitted image "acc-error-messages.png"\] Alt text: ACC Error Messages page
 
     The following columns display the indicated information about the errors.
 
@@ -119,11 +120,11 @@ A reference to the **ecc\_queue** record that was processed and triggered the er
 </table>    **Note:**
 
     -   Not all columns are visible by default on the page.
-    -   Select the info icon \(![Info icon](../../event-management/image/info.png)\) next to an error to view a pop-up window with full information about the error.
+    -   Select the info icon \(\[Omitted image "info.png"\] Alt text: Info icon\) next to an error to view a pop-up window with full information about the error.
 
-        ![ACC Error Message popup window](../image/acc-error-message-popup.png "ACC Error Message pop-up window")
+        \[Omitted image "acc-error-message-popup.png"\] Alt text: ACC Error Message popup window
 
-        The info icon is visible when hovering under the search icon \(![Search icon](../../cloud-management-v2/image/search-icon-magnifyingGlass.png)\) next to the error entry.
+        The info icon is visible when hovering under the search icon \(\[Omitted image "search-icon-magnifyingGlass.png"\] Alt text: Search icon\) next to the error entry.
 
 2.  To view errors for a specific agent:
 

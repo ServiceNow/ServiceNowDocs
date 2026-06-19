@@ -2,6 +2,7 @@
 title: Generate an email response for supplier tasks
 description: Generate an email response for supplier tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/generate-email-response-for-supplier-tasks.html
 release: zurich
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -17,7 +18,7 @@ Generate an email response for supplier tasks.
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 Role required: sn\_supplier\_gen\_ai.now\_assist\_fulfiller and sn\_slm.fulfiller
 
@@ -39,21 +40,21 @@ The Email response skill uses supplier task details such as task type, short des
 
 5.  Go to the **Email** tab.
 
-6.  Click anywhere within the email body textbox.
+6.  Select anywhere within the email body textbox.
 
-7.  Generate an email draft by selecting the Now Assist ![](../../../common/image/icon-ai-sparkle.png) icon.
+7.  Generate an email draft by selecting the Now Assist \[Omitted image "icon-ai-sparkle.png"\] icon.
 
-    ![Generated email response for a supplier task.](../image/slo-email-generation-task.png)
+    \[Omitted image "slo-email-generation-task.png"\] Alt text: Generated email response for a supplier task.
 
 8.  Select **Insert**.
 
 9.  Elaborate, shorten, or change the tone of an email body.
 
-    1.  Selecting the required content.
+    1.  Select the required content.
 
-    2.  Select the Now Assist icon ![](../../../common/image/icon-ai-sparkle.png).
+    2.  Select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\].
 
-10. Apply templates by selecting the template icon![](../../finance-case-management/image/apply-template-icon.png).
+10. Apply templates by selecting the template icon\[Omitted image "apply-template-icon.png"\].
 
 
 ## Result

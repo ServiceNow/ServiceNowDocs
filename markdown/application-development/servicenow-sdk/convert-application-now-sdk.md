@@ -2,11 +2,12 @@
 title: Convert an application with the ServiceNow SDK
 description: Convert an existing scoped application to support development in source code with the ServiceNow SDK.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-sdk/convert-application-now-sdk.html
 release: zurich
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Add applications, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -17,7 +18,7 @@ Convert an existing scoped application to support development in source code wit
 
 ## Before you begin
 
-Use the ServiceNow SDK to authenticate to a ServiceNow instance. For more information, see [Authenticating to a ServiceNow instance with the ServiceNow SDK](../concept/authenticate-instance-now-sdk.md).
+Use the ServiceNow SDK to authenticate to a ServiceNow instance. For more information, see [Authenticating to a ServiceNow instance with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/authenticate-instance-now-sdk.md).
 
 Role required: admin
 
@@ -25,7 +26,7 @@ Role required: admin
 
 Existing scoped applications that weren't created with the ServiceNow IDE or ServiceNow SDK must be converted to support development in source code. Converting an application adds the necessary files and directories for developing it in source code. You can choose whether to convert existing application metadata into ServiceNow Fluent code. The application isn't changed on the instance until you build and install it on the instance.
 
-This procedure uses the ServiceNow SDK command-line interface \(CLI\). From a command-line tool, enter `now-sdk --help` to get information about the available commands and global options. To get additional information about a command and its parameters, enter the command and `--help` or `-h`. For example, `now-sdk auth --help`. For more information about the CLI, see [ServiceNow SDK CLI](../reference/servicenow-sdk-cli-commands.md#).
+This procedure uses the ServiceNow SDK command-line interface \(CLI\). From a command-line tool, enter `now-sdk --help` to get information about the available commands and global options. To get additional information about a command and its parameters, enter the command and `--help` or `-h`. For example, `now-sdk auth --help`. For more information about the CLI, see [ServiceNow SDK CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/servicenow-sdk-cli-commands.md).
 
 ## Procedure
 
@@ -82,7 +83,7 @@ This procedure uses the ServiceNow SDK command-line interface \(CLI\). From a co
               Ex: Run "npm install" if using npm.
     ```
 
-    The application is available locally with the default application structure and supports development in source code. Existing application metadata is downloaded into in the `metadata` directory. For information about the application structure, see the [Application structure](../../custom-application/concept/building-applications-source-code.md#application-structure) section of the Building applications in source code topic.
+    The application is available locally with the default application structure and supports development in source code. Existing application metadata is downloaded into in the `metadata` directory. For information about the application structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/building-applications-source-code.md) section of the Building applications in source code topic.
 
 6.  Install the required third-party dependencies using your preferred package manager.
 
@@ -123,11 +124,11 @@ This procedure uses the ServiceNow SDK command-line interface \(CLI\). From a co
 
 ## Result
 
-The converted application is added to your local directory with the necessary files and directories to support development in source code. If you installed the application successfully, it’s updated on the instance. For more information about installing applications, see [Build and install an application with the ServiceNow SDK](build-deploy-application-now-sdk.md). After installing a converted application, the **Package JSON** field of the custom application record \[sys\_app\] contains the path to the `package.json` file for the application.
+The converted application is added to your local directory with the necessary files and directories to support development in source code. If you installed the application successfully, it’s updated on the instance. For more information about installing applications, see [Build and install an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/build-deploy-application-now-sdk.md). After installing a converted application, the **Package JSON** field of the custom application record \[sys\_app\] contains the path to the `package.json` file for the application.
 
 New application metadata added after converting an application is automatically transformed into source code in the `src/fluent/generated` directory when you use the `transform` command. If metadata exists in the local application as both XML and source code, the XML version takes precedence when installed on the instance.
 
 ## What to do next
 
-In Visual Studio Code, start developing your application in source code with ServiceNow Fluent, writing custom JavaScript modules, or adding third-party libraries. For more information, see [Developing applications with the ServiceNow SDK](../concept/developing-applications-sdk.md).
+In Visual Studio Code, start developing your application in source code with ServiceNow Fluent, writing custom JavaScript modules, or adding third-party libraries. For more information, see [Developing applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/developing-applications-sdk.md).
 

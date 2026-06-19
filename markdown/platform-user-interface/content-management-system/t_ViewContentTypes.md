@@ -2,6 +2,7 @@
 title: View content types
 description: The following is an example of where you might use Content Types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/content-management-system/t\_ViewContentTypes.html
 release: zurich
 product: Content Management System
 classification: content-management-system
@@ -60,5 +61,5 @@ Use any out-of-box instance of a CMS site.
     The table `sysparm_document_key=kb_knowledge` and sys\_id `02255450d731310013ab49547e61038e` determine the record. The associated content type, kb\_knowledge, renders the content on the Default Detail Page, Portal - Knowledge Detail / url\_suffix=knowledge.
 
 
-**Parent Topic:**[Content types](../concept/c_ContentTypes.md)
+**Parent Topic:**[Content types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/content-management-system/c_ContentTypes.md)
 

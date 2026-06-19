@@ -2,6 +2,7 @@
 title: Performance Analytics data flow
 description: Before you get started with Performance Analytics, understand how the data flows through the platform, ultimately resulting in your ability to visualize process improvements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/pa-data-flow.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -30,7 +31,7 @@ Before you get started with Performance Analytics, understand how the data flows
 
 5.  Multiple Performance Analytics widgets are presented in a single Dashboard view, allowing stakeholders to view all relevant business process information in a single place.
 
-![Diagram showing the flow of data in Performance Analytics, from generation to consumption](../image/pa-data-flow.png "Data flow in Performance Analytics")
+\[Omitted image "pa-data-flow.png"\] Alt text: Diagram showing the flow of data in Performance Analytics, from generation to consumption
 
-**Parent Topic:**[Implement Performance Analytics](implementing-pa.md)
+**Parent Topic:**[Implement Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/implementing-pa.md)
 

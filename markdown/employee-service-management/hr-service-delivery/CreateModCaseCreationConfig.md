@@ -2,6 +2,7 @@
 title: Configure how HR cases are created
 description: Modify how search results for an employee appear and configure the default HR case creation form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/CreateModCaseCreationConfig.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -30,7 +31,7 @@ HR case creation has multiple steps:
 
 Using the **Case Creation Configuration** form you can control the information returned from a search and the required fields when creating an initial HR case.
 
-**Note:** Zing text search is used to search on indexed fields in the User \[sys\_user\], HR Profile \[sn\_hr\_core\_profile\], and HR Case \[sn\_hr\_core\_case\] tables. Refer to [Zing text indexing and search engine](https://www.servicenow.com/docs/access?context=c_ZingTextSearch&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** Zing text search is used to search on indexed fields in the User \[sys\_user\], HR Profile \[sn\_hr\_core\_profile\], and HR Case \[sn\_hr\_core\_case\] tables. Refer to Zing text indexing and search engine.
 
 ## Procedure
 
@@ -103,7 +104,7 @@ Links
 
 </td><td>
 
-A URL link configured in **Link Generator**. See [Link generator for HR Service Delivery](../concept/HRLinkGenerator.md).
+A URL link configured in **Link Generator**. See [Link generator for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/HRLinkGenerator.md).
 
 </td></tr><tr><td>
 
@@ -147,7 +148,7 @@ Allow skipping verification
 
 </td><td>
 
-Option for providing the ability to enter or skip the employee name or case number when creating an HR case. For more information, see [Create an HR case](search-hr-case.md).For example, if your company receives a complaint from an external individual or an anonymous user, providing this option enables an HR agent to create a case without having to enter an employee name or case number.
+Option for providing the ability to enter or skip the employee name or case number when creating an HR case. For more information, see [Create an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/search-hr-case.md).For example, if your company receives a complaint from an external individual or an anonymous user, providing this option enables an HR agent to create a case without having to enter an employee name or case number.
 
 </td></tr></tbody>
 </table>4.  In the **Case Search** related list, modify the default search parameters when searching by case number.
@@ -238,12 +239,12 @@ Determines the fields that appear on the bottom of the CDS. The base system conf
 </td></tr></tbody>
 </table>7.  In the **Case Creation Service Configurations** section, configure the HR case creation form for individual HR services.
 
-    For more information, see [Configure the HR case creation form for an HR service](configure-case-creation-form-for-hr-service.md).
+    For more information, see [Configure the HR case creation form for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-case-creation-form-for-hr-service.md).
 
 8.  Save your modifications.
 
     -   To save the modifications and remain on the form, click **Save**.
     -   To save the modifications and exit from the form, click **Update**.
 
-**Parent Topic:**[HR Administration](../concept/c_AdministerHRServiceManagement.md)
+**Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 

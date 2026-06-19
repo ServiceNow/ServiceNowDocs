@@ -2,6 +2,7 @@
 title: Customize a quote summarization skill in Now Assist for Configure, Price, Quote \(CPQ\)
 description: Configure the Now Assist for Configure, Price, Quote \(CPQ\) application so that the agent can use the generative AI skills in the CSM/FSM Configurable Workspace and Business Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/customize-quote-summarization-skill.html
 release: zurich
 topic_type: task
 last_updated: "2026-02-13"
@@ -21,9 +22,9 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
 
-2.  In the **Customer** workflow group, view the skills for Now Assist for CPQ under SOM.
+2.  In the **Customer** workflow group, view the skills for Now Assist for CPQ under Sales CRM.
 
-3.  Make a copy of an active quote summarization skill by selecting the More actions icon ![](../../tmt-order-mgt/image/more-options.png) and then select **Make a copy** to create a version that you can customize.
+3.  Make a copy of an active quote summarization skill by selecting the More actions icon \[Omitted image "more-options.png"\] Alt text: and then select **Make a copy** to create a version that you can customize.
 
 4.  In the General details step, fill in the fields.
 
@@ -94,7 +95,7 @@ Description of the base input field value.
 
     Review and test the default prompt provided. The prompt is fixed and can’t be customized directly within this step or from the Now Assist Admin screen.
 
-    To customize or create prompts, select **Edit prompt in Now Assist Skill Kit**. You are redirected to the Now Assist Skill Kit, where you can manage prompt configurations for the skill. For more information, see [Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=now-assist-skill-kit-landing&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+    To customize or create prompts, select **Edit prompt in Now Assist Skill Kit**. You are redirected to the Now Assist Skill Kit, where you can manage prompt configurations for the skill. For more information, see Now Assist Skill Kit.
 
     1.  Select a record in the Test output section and test the prompt response output format by selecting **Run Test**.
 
@@ -136,5 +137,5 @@ Description of the base input field value.
     2.  Generate the quote summary by selecting **Summarize** in a quote.
 
 
-**Parent Topic:**[Configuring Now Assist for Configure, Price, Quote \(CPQ\)](../concept/configure-now-assist-cpq.md)
+**Parent Topic:**[Configuring Now Assist for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-now-assist-cpq.md)
 

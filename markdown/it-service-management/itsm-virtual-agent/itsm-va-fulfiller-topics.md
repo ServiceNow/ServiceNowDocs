@@ -2,6 +2,7 @@
 title: Fulfiller pre-built topics for ITSM Virtual Agent
 description: Fulfiller topic conversations are designed specifically for ITSM professionals with the itil role. These pre-built topics include resolving an incident, creating a problem, and updating data in the system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-virtual-agent/itsm-va-fulfiller-topics.html
 release: zurich
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -30,7 +31,7 @@ For normal and emergency change requests, Virtual Agent prompts the user to ente
 
 For standard change requests, Virtual Agent sends a carousel link to a catalog of standard change items. After the user selects an item, Virtual Agent provides a link to open the associated category page to request the change.
 
-![Create Change Request topic.](../image/CreateChangeRequest.png)
+\[Omitted image "CreateChangeRequest.png"\] Alt text: Create Change Request topic.
 
 ## Create Problem
 
@@ -40,7 +41,7 @@ Users with the itil role can create problem records. Users provide a description
 
 Users with the itil role can check the next available change window for a configuration item. For example, you can determine the next available change window for a specific asset assigned to a user, regarding maintenance or black-out calendars. Users must enter the configuration item to check, such as `PROmonitor`, and then select a planned start and end date and time.
 
-![Identify Available Change Windows topic.](../image/IdentifyAvailableChangeWindows.png)
+\[Omitted image "IdentifyAvailableChangeWindows.png"\] Alt text: Identify Available Change Windows topic.
 
 ## Identify Scheduled Changes
 
@@ -50,7 +51,7 @@ Users with the itil role can find upcoming change requests for a specific config
 
 Users with the itil role can resolve an incident through support chat by providing a close code, for example, **Solved \(Permanently\)** or **Solved \(Workaround\)**, and resolution notes.
 
-![Resolve Incident topic.](../image/ResolveIncident.png)
+\[Omitted image "ResolveIncident.png"\] Alt text: Resolve Incident topic.
 
 ## Update Assigned Task
 
@@ -60,5 +61,5 @@ Users with the itil role can update comments or work notes in assigned tasks. Wh
 
 Users with the itil role can update the actual start and end time of a change, as well as move it to work in progress or closed states.
 
-**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](../concept/using-itsm-va.md)
+**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-virtual-agent/using-itsm-va.md)
 

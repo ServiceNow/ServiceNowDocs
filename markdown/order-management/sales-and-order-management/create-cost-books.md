@@ -2,6 +2,7 @@
 title: Create and publish a cost book
 description: Create a cost book that defines the unit costs for products and services in Sales Customer Relationship Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/create-cost-books.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -27,7 +28,7 @@ You can create multiple cost books for a given currency, but the first cost book
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![image.Lists] view.
+1.  In the CSM Configurable Workspace, select the **List** view.
 
 2.  Navigate to **Prices** &gt; **Cost Books**.
 
@@ -109,7 +110,7 @@ Start date
 
 </td><td>
 
-Starting date and time that the cost book is effective. Select the Calendar icon ![](../image/field-calendar.png) to choose the start date and time, then select **OK**. **Note:** If this date is for a default cost book, the start date must be either the current date or a date that is earlier than the current date.
+Starting date and time that the cost book is effective. Select the Calendar icon \[Omitted image "field-calendar.png"\] Alt text: to choose the start date and time, then select **OK**. **Note:** If this date is for a default cost book, the start date must be either the current date or a date that is earlier than the current date.
 
 </td></tr><tr><td>
 
@@ -117,7 +118,7 @@ End date
 
 </td><td>
 
-Ending date and time of the cost book. After the ending time, the cost book is no longer active. Select the Calendar ![](../image/field-calendar.png) icon to choose the end date and time, then select **OK**.**Note:** If this date is for a default cost book, the end date is ignored.
+Ending date and time of the cost book. After the ending time, the cost book is no longer active. Select the Calendar \[Omitted image "field-calendar.png"\] Alt text: icon to choose the end date and time, then select **OK**.**Note:** If this date is for a default cost book, the end date is ignored.
 
 </td></tr></tbody>
 </table>5.  Select **Save**.
@@ -133,5 +134,5 @@ Ending date and time of the cost book. After the ending time, the cost book is n
 
 ## What to do next
 
-[Create a cost book line](create-cost-book-lines.md).
+[Create a cost book line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-cost-book-lines.md).
 

@@ -2,6 +2,7 @@
 title: Implement pre-upgrade activities on a prod instance
 description: Complete the pre-upgrade tasks for a successful upgrade experience on your production instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/upgrade-management/um-pre-upgrade-prod.html
 release: zurich
 product: Upgrade Management
 classification: upgrade-management
@@ -116,7 +117,7 @@ Role required: admin
     -   Upgrade preview: You can view the current version and the previewing version of the upgrade in this section. You can also see if there is any upgrade been scheduled.
     -   Skipped record summary: You can view the following information.
 
-        ![](../image/um-skipped-without-tests.png)
+        \[Omitted image "um-skipped-without-tests.png"\] Alt text:
 
         -   Total records changed: Gives the total number of records that have changed since last upgrade. Select the Review changes link to see the list of records that have changed.
         -   Total skipped records: Shows the numbers of skipped records that have been resolved, total skipped records that need to be reviewed and the number of skipped records that have already been reviewed.
@@ -138,7 +139,7 @@ Role required: admin
 
         **Note:** This step is completed within the Review predicted skipped records step.
 
-        ![Screenshot showing skipped record rules editor in a prod instance](../image/um-skipped-record-rules-prod.png)
+        \[Omitted image "um-skipped-record-rules-prod.png"\] Alt text: Screenshot showing skipped record rules editor in a prod instance
 
         The skipped records matching the set conditions in the skipped record rules editor, perform the previously selected actions. Select **View latest upgrade history** to determine the actions and conditions to be set depending on the previous upgrades.
 
@@ -158,5 +159,5 @@ Role required: admin
     -   Ensure to review and update the list of skipped records after the upgrade.
     -   Once done with the reviewing of the skipped records, complete the next activities required in the pre-upgrade process.
 
-**Parent Topic:**[Access guided upgrade on a production instance](um-guided-tour-implement-prod.md)
+**Parent Topic:**[Access guided upgrade on a production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-guided-tour-implement-prod.md)
 

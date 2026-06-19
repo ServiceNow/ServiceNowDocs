@@ -2,6 +2,7 @@
 title: Upgrade Plan overview
 description: Accelerate your upgrades using the Upgrade Plan that automates the installation of applications during upgrades, giving you a seamless upgrade experience. It helps you define applications and target versions to be installed in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/upgrade-center/uc-upgrade-plan.html
 release: zurich
 product: Upgrade Center
 classification: upgrade-center
@@ -22,7 +23,7 @@ You will need the following instances to use Upgrade Plan.
 -   Builder instance: Build your upgrade plan
 -   Consumer instance: Implement your created upgrade plan
 
-**Note:** Ensure that your instance is upgraded to the desired version to build the upgrade plan. It is recommended to configure your dev instance as your builder instance. You are required to install the upgrade plan before upgrading your consumer instance. For example, to move from Yokohama to Zurich Patch 1, you must first install the Upgrade Plan - Zurich Patch 1 from the applications page. Once installed, you can then start the upgrade process to Zurich Patch 1. See [Upgrade Plan Properties](../reference/uc-properties.md#table_h4b_wq2_5tb) for more details.
+**Note:** Ensure that your instance is upgraded to the desired version to build the upgrade plan. It is recommended to configure your dev instance as your builder instance. You are required to install the upgrade plan before upgrading your consumer instance. For example, to move from Yokohama to Zurich Patch 1, you must first install the Upgrade Plan - Zurich Patch 1 from the applications page. Once installed, you can then start the upgrade process to Zurich Patch 1. See [Upgrade Plan Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-center/uc-properties.md) for more details.
 
 When you upgrade an instance, resolutions are skipped, and customizations are often loaded post upgrade. This causes temporary breakdown of features until fully loaded. Tasks like committing update sets, installing new plugins and applications, and multiple update are also time consuming. Use the Upgrade Plan feature to automate these post-upgrade tasks by tracking your actions and replay the steps on all the required instances. You don’t have to manually apply post-upgrade tasks which helps in reducing downtime.
 
@@ -37,19 +38,19 @@ You will see one of the following modal messages depending on the scenario:
 
 -   First time user: When you are building your Upgrade Plan for the first time \(the property is disabled by default\)
 
-    ![Screenshot showing first time user for Upgrade Plan](../image/uc_up_first_time_user.png)
+    \[Omitted image "uc\_up\_first\_time\_user.png"\] Alt text: Screenshot showing first time user for Upgrade Plan
 
 -   Building the upgrade plan with the property enabled
 
-    ![Screenshot showing building of Upgrade Plan with property enabled](../../upgrade-management/image/uc_build_up_property_enabled.png)
+    \[Omitted image "uc\_build\_up\_property\_enabled.png"\] Alt text: Screenshot showing building of Upgrade Plan with property enabled
 
 -   Refreshing the Upgrade Plan with the property disabled \(default\)
 
-    ![Screenshot showing refreshing of the Upgrade Plan with property disabled](../../upgrade-management/image/uc_refresh_up_property_disabled.png)
+    \[Omitted image "uc\_refresh\_up\_property\_disabled.png"\] Alt text: Screenshot showing refreshing of the Upgrade Plan with property disabled
 
 -   Refreshing the Upgrade Plan with the property enabled
 
-    ![Screenshot showing refreshing of the Upgrade Plan with property enabled](../../upgrade-management/image/uc_refresh_up_property_enabled.png)
+    \[Omitted image "uc\_refresh\_up\_property\_enabled.png"\] Alt text: Screenshot showing refreshing of the Upgrade Plan with property enabled
 
 
 ## Advantages of Upgrade Plan over Update Sets
@@ -98,7 +99,7 @@ During the building of the upgrade plan, the following operations are done at th
     -   The global records are packaged into the global customization upgrade plan app and published to the app repo
     -   The scoped skipped records are packaged into the respective app customization packages
     -   When the upgrade plan is published, a global application is created, for example, **Upgrade Plan - release name**
--   Existing ServiceNow features like Global Application and App customization are used as application containers that can be installed in all the required instances. See [Legacy - Global application file management](https://www.servicenow.com/docs/access?context=manage_global_application_files&version=zurich&pubname=zurich-application-development&ft:locale=en-US) and [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=zurich&pubname=zurich-application-development&ft:locale=en-US) for more information.
+-   Existing ServiceNow features like Global Application and App customization are used as application containers that can be installed in all the required instances. See  and  for more information.
 -   If you install any applications or plugins, they are also captured in the Upgrade plan. But, since they are application life cycle items, they are never pushed to the App Repository.
 
 During the consumption of the upgrade plan, the following operations are done at the background:

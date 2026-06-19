@@ -2,6 +2,7 @@
 title: Start a conference call using Webex in Service Operations Workspace
 description: Start a conference call using Webex from to work towards the resolution of an incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/start-conference-call-webex.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -23,13 +24,13 @@ Role required: itil
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the **List** \(![List icon](../image/list-icon-new.png)\) icon.
+2.  Select the **List** \(\[Omitted image "list-icon-new.png"\] Alt text: List icon\) icon.
 
 3.  Select **Incidents** &gt; **Open**.
 
 4.  Select the incident record.
 
-5.  Select the **Collaborate** icon \(![Collaborate icon](../image/collab-icon-02.png)\) from the contextual side panel.
+5.  Select the **Collaborate** icon \(\[Omitted image "collab-icon-02.png"\] Alt text: Collaborate icon\) from the contextual side panel.
 
 6.  Select **Calls** tab, and then select plus \(+\) icon.
 
@@ -81,5 +82,5 @@ Provide a brief summary about the issue to be discussed in the conference call.
 </table>9.  Select **Start**.
 
 
-**Parent Topic:**[Use Webex for conference calls in Service Operations Workspace](../concept/cisco-webex-sow.md)
+**Parent Topic:**[Use Webex for conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/cisco-webex-sow.md)
 

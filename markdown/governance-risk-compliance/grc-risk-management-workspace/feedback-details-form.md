@@ -2,6 +2,7 @@
 title: Feedback Details form
 description: Use the Feedback Details form to provide feedback on a record or fields in a record from the record side panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/feedback-details-form.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -27,5 +28,5 @@ See the following table for a description of the field values.
 |Respondent|Individual responding to the feedback.|
 |Priority|Priority of the feedback.|
 
-**Parent Topic:**[Create Feedback from the record side panel](../task/create-feedback-from-record-side-panel.md)
+**Parent Topic:**[Create Feedback from the record side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/create-feedback-from-record-side-panel.md)
 

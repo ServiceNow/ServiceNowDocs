@@ -2,6 +2,7 @@
 title: Sign an HTML document
 description: Complete your document task by signing and generating a PDF copy of the HTML document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/sign-html-document.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -40,5 +41,5 @@ Role required: none
     The task is complete and appears in your Completed To Dos section. You can view and print the document with the signatures.
 
 
-**Parent Topic:**[Working on a document task](work-doctemp-tasks.md)
+**Parent Topic:**[Working on a document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/work-doctemp-tasks.md)
 

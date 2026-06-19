@@ -2,6 +2,7 @@
 title: Deprecated Orchestration activities
 description: These Orchestration activities have been deprecated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/orchestration/r\_OrchestrationBasicActivities.html
 release: zurich
 product: Orchestration
 classification: orchestration
@@ -19,7 +20,7 @@ These Orchestration activities have been deprecated.
 
 The Run Probe activity launches a MID Server probe on behalf of a document. All Orchestration activities that launch a probe on a target machine are based on the Run Probe activity. Your ServiceNow instance must have access to a MID Server configured to use SSH to run this activity.
 
-**Important:** This activity is deprecated and is unavailable for new workflows. To replace the functionality of this probe, use the [Probe activity template](../../orchestration-activity-designer/task/t_CreateAProbeActivity.md#) to create a custom activity. Workflows from a previous release that use the Run Probe activity can continue to do so.
+**Important:** This activity is deprecated and is unavailable for new workflows. To replace the functionality of this probe, use the [Probe activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateAProbeActivity.md) to create a custom activity. Workflows from a previous release that use the Run Probe activity can continue to do so.
 
 |Field|Description|
 |-----|-----------|
@@ -31,7 +32,7 @@ The Run Probe activity launches a MID Server probe on behalf of a document. All 
 
 The SOAP Request activity executes a SOAP request on a target server.
 
-**Important:** This activity is deprecated and is replaced by the [SOAP Message workflow activity](r_SOAPMessageActivity.md) activity. Workflows from a previous release that use the SOAP Request activity can continue to do so. However, this activity is not available for new workflows.
+**Important:** This activity is deprecated and is replaced by the [SOAP Message workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/r_SOAPMessageActivity.md) activity. Workflows from a previous release that use the SOAP Request activity can continue to do so. However, this activity is not available for new workflows.
 
 |Field|Description|
 |-----|-----------|
@@ -41,16 +42,16 @@ The SOAP Request activity executes a SOAP request on a target server.
 |Envelope Script|Script for setting up parameters for the web service.|
 |Sensor Script|The script to execute after the request has been made and a response has been received.|
 
--   **[Reactivate a deprecated activity](../task/t_ReactivateDeprecatedActivity.md)**  
+-   **[Reactivate a deprecated activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_ReactivateDeprecatedActivity.md)**  
 Orchestration activities that were converted to activity packs are deprecated for upgraded and new instances but can be reactivated for use in new workflows.
--   **[SOAP Message workflow activity](r_SOAPMessageActivity.md)**  
+-   **[SOAP Message workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/r_SOAPMessageActivity.md)**  
 The **SOAP Message** activity uses SOAP messages defined in the System Web Services plugin and can call the messages using a MID Server.
--   **[Probes used by Orchestration](../../../product/orchestration/reference/r_OrchestrationProbes.md)**  
+-   **[Probes used by Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/r_OrchestrationProbes.md)**  
 Certain probes, controlled by MID Servers, perform Orchestration tasks on remote computers, such as restarting a server or creating virtual machines from templates.
--   **[PowerShell activities](../concept/c_OrchestrPowerShellActivities.md#)**  
+-   **[PowerShell activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_OrchestrPowerShellActivities.md)**  
 PowerShell is built on the Windows .NET Framework and is designed to control and automate the administration of Windows machines and applications.
--   **[SSH activities](../concept/c_OrchestrationSSHActivities.md#)**  
+-   **[SSH activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_OrchestrationSSHActivities.md)**  
 SSH activities allow workflows to perform operations on Linux and Unix computers.
 
-**Parent Topic:**[Activate Orchestration](../../../product/orchestration/task/t_ActivateOrchestration.md)
+**Parent Topic:**[Activate Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_ActivateOrchestration.md)
 

@@ -2,6 +2,7 @@
 title: Skill review request components in Workforce Optimization for ITSM
 description: Workforce Optimization for ITSM installs roles and enables notifications when you install the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-skill-review-request-reference.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -24,7 +25,7 @@ Workforce Optimization for ITSM installs roles and enables notifications when yo
 
 ## Notifications
 
-Navigate to **All** &gt; **System Notifications** &gt; **Provider** &gt; **Notifications** to access the notifications below that are provided by default. For more information on adding notifications, see [Provider notification](https://www.servicenow.com/docs/access?context=notification-provider&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+Navigate to **All** &gt; **System Notifications** &gt; **Provider** &gt; **Notifications** to access the notifications below that are provided by default. For more information on adding notifications, see 
 
 <table id="table_nhy_chs_35b"><thead><tr><th>
 
@@ -71,5 +72,5 @@ When enabled, the agent receives a notification that their manager has submitted
 -   **Default value:**true
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Skills Management in Workforce Optimization for ITSM](../concept/skills-management-wfo-itsm.md)
+</table>**Parent Topic:**[Skills Management in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/skills-management-wfo-itsm.md)
 

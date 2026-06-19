@@ -2,6 +2,7 @@
 title: Connect Support
 description: Connect Support is a real-time messaging tool that enables support agents to easily track their support cases, find solutions, and resolve problems quickly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/connect/c\_ConnectSupport.html
 release: zurich
 product: Connect
 classification: connect
@@ -17,9 +18,9 @@ Connect Support is a real-time messaging tool that enables support agents to eas
 
 **Important:**
 
-Starting in Utah, Connect Support has been deprecated and is no longer supported or available for new activation. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://www.servicenow.com/docs/access?context=migrate-from-connect-support&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+Starting in Utah, Connect Support has been deprecated and is no longer supported or available for new activation. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see Move from Connect Support to Advanced Work Assignment and Agent Chat.
 
-Connect Support builds on the messaging platform provided with Connect. For general information about the Connect interface, setup, and administration, see [Connect](c_Connect.md). When Connect Support is enabled, users designated as support agents can access the support tab of the Connect sidebar.
+Connect Support builds on the messaging platform provided with Connect. For general information about the Connect interface, setup, and administration, see [Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/connect/c_Connect.md). When Connect Support is enabled, users designated as support agents can access the support tab of the Connect sidebar.
 
 Using Connect Support:
 

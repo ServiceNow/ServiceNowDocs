@@ -2,6 +2,7 @@
 title: Add and configure the Portal Browse Taxonomy widget
 description: Add the Portal Browse Taxonomy widget to your portal and modify its behavior. The widget displays taxonomy topics along with the articles and catalog items related to them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-browse-taxo-widget.html
 release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -17,15 +18,15 @@ Add the Portal Browse Taxonomy widget to your portal and modify its behavior. Th
 
 ## Before you begin
 
-The UI Components for Customer Portals plugin must have been activated. For more information, see [Activate the UI Components for Customer Portals plugin](activate-config-portal-widget.md).
+The UI Components for Customer Portals plugin must have been activated. For more information, see [Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-config-portal-widget.md).
 
 You must have the following setup in order to add, update, and use this widget:
 
--   The page to which you want to add the widget. For more information, see [Create a page for Configurable Portal widgets](create-page-configurable-portal-widget.md)
--   A taxonomy to map your content. For more information, see [Create taxonomy](https://www.servicenow.com/docs/access?context=create-taxonomy-content&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
--   At least one taxonomy associated with your portal. For more information, see [Add a taxonomy to your portal](add-taxo-to-portal.md).
--   At least one topic associated with the taxonomy. For more information, see [Create and associate topics](https://www.servicenow.com/docs/access?context=create-topics-for-taxonomy&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
--   Topics associated with knowledge categories and catalog categories. For more information, see [Associate content categories to topics](https://www.servicenow.com/docs/access?context=associate-knowledge-categories-to-topics-in-bulk&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US) and [Associate content from catalog categories to a topic](https://www.servicenow.com/docs/access?context=associate-catalog-categories-to-topics-in-bulk&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+-   The page to which you want to add the widget. For more information, see [Create a page for Configurable Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/create-page-configurable-portal-widget.md)
+-   A taxonomy to map your content. For more information, see .
+-   At least one taxonomy associated with your portal. For more information, see [Add a taxonomy to your portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/add-taxo-to-portal.md).
+-   At least one topic associated with the taxonomy. For more information, see .
+-   Topics associated with knowledge categories and catalog categories. For more information, see  and .
 
 Role required: admin or sp\_admin
 
@@ -47,10 +48,10 @@ Role required: admin or sp\_admin
 
 8.  In the Edit page, select a Portal Browse Taxonomy widget.
 
-9.  Select the Pencil icon \(![Pencil icon](../image/icon-pencil-ac.png)\).
+9.  Select the Pencil icon \(\[Omitted image "icon-pencil-ac.png"\] Alt text: Pencil icon\).
 
 10. On the Instance form, fill in the fields.
 
-    For a description of the field values, see [Portal Browse Taxonomy widget instance options form](../reference/port-browse-taxo-widget-inst-options.md).
+    For a description of the field values, see [Portal Browse Taxonomy widget instance options form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/port-browse-taxo-widget-inst-options.md).
 
 

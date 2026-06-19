@@ -2,6 +2,7 @@
 title: SOAPMessageV2 - Scoped, Global
 description: The SOAPMessageV2 API provides methods to send an outbound SOAP message using JavaScript.Instantiates an empty SOAPMessageV2 object.Instantiates a SOAPMessageV2 object from a SOAP message record and a function associated with that record.Sends the SOAP message to the endpoint.Sends the SOAP message to the External Communication Channel \(ECC\) queue.Gets the endpoint for the SOAP message.Returns the content of the SOAP message body.Gets the value for an HTTP header specified by the SOAP client.Gets HTTP headers that were set by the SOAP client and the associated values.Sets one or more URIs allowed to be redirected to. Controlling the allowed outbound URIs reduces security concerns and helps prevent URL redirect attacks that send users to malicious sites.Sets basic authentication headers for the SOAP message.Associates outbound requests and the resulting response record in the ECC queue.Overrides a value from the database by writing to the SOAP message payload.Sets the endpoint for the SOAP message.Sets the parameter in the API that controls automatic HTTP redirects. By default, automatic redirects are turned off.Sets the amount of time the SOAP message waits for a response from the web service provider before the request times out.Sets the log level for this message and the corresponding response.Configures the SOAP message to be sent through a MID Server.Sets the mutual authentication protocol profile for the SOAP message.Sets the body content to send to the web service provider.Sets an HTTP header in the SOAP message to the specified value.Defines the SOAP action this SOAP message performs.Sets a variable with the specified name from the SOAP message record to the specified value.Sets a variable with the specified name from the SOAP message record to the specified value.Sets web service security values for the SOAP message.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_SOAPMessageV2API.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -21,12 +22,12 @@ You can use this API in scoped applications or within the global scope. This API
 
 See also:
 
--   [Direct SOAPMessageV2 example](../reference/r_DirectSOAPMessageV2Example.md)
--   [Recordless SOAPMessageV2 example](../reference/r_RecordlessSOAPMessageV2Example.md)
--   [Asynchronous SOAPMessageV2 example](../reference/r_AsyncronousSOAPMessageV2Example.md)
--   [SOAPMessageV2 MID server example](../reference/r_SOAPMessageV2MIDServerExample.md)
+-   [Direct SOAPMessageV2 example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/r_DirectSOAPMessageV2Example.md)
+-   [Recordless SOAPMessageV2 example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/r_RecordlessSOAPMessageV2Example.md)
+-   [Asynchronous SOAPMessageV2 example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/r_AsyncronousSOAPMessageV2Example.md)
+-   [SOAPMessageV2 MID server example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/r_SOAPMessageV2MIDServerExample.md)
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## SOAPMessageV2 - SOAPMessageV2\(\)
 
@@ -75,7 +76,7 @@ Things to consider when using this method:
 
 |Type|Description|
 |----|-----------|
-|[SOAPResponseV2](../../SOAPResponseV2/concept/c_SOAPResponseV2API.md#)|Response returned by the SOAP provider.|
+|[SOAPResponseV2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_SOAPResponseV2API.md)|Response returned by the SOAP provider.|
 
 ```
 var sm = new sn_ws.SOAPMessageV2("StockQuote","GetQuote"); //Might throw exception if message doesn't exist or not visible due to scope.
@@ -137,7 +138,7 @@ var endpoint = sm.getEndpoint();
 
 Returns the content of the SOAP message body.
 
-**Note:** Before calling the getRequestBody\(\) method, you must call the [execute\(\)](c_SOAPMessageV2API.md#) method to obtain the response object.
+**Note:** Before calling the getRequestBody\(\) method, you must call the [execute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_SOAPMessageV2API.md) method to obtain the response object.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -195,7 +196,7 @@ var requestHeaders = sm.getRequestHeaders();
 
 Sets one or more URIs allowed to be redirected to. Controlling the allowed outbound URIs reduces security concerns and helps prevent URL redirect attacks that send users to malicious sites.
 
-For a more comprehensive means of redirecting URIs, see [UriMatcher - Scoped](../../UriMatcherScoped/concept/UriMatcherScopedAPI.md#).
+For a more comprehensive means of redirecting URIs, see [UriMatcher - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/UriMatcherScopedAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -288,7 +289,7 @@ sm.setEccParameter("source","http://very.long.endpoint");
 
 Sets the endpoint for the SOAP message.
 
-By default, the SOAP message uses the endpoint specified in the SOAP message record. Use this method to override the default. You must call this method when using the [SOAPMessageV2\(\)](c_SOAPMessageV2API.md#) constructor with no parameters.
+By default, the SOAP message uses the endpoint specified in the SOAP message record. Use this method to override the default. You must call this method when using the [SOAPMessageV2\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_SOAPMessageV2API.md) constructor with no parameters.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -517,7 +518,7 @@ sm.setRequestHeader("Accept","Application/json");
 
 Defines the SOAP action this SOAP message performs.
 
-The WSDL for your web service provider lists SOAP actions you can perform. You must call this method when using the [SOAPMessageV2\(\)](c_SOAPMessageV2API.md#) constructor with no parameters.
+The WSDL for your web service provider lists SOAP actions you can perform. You must call this method when using the [SOAPMessageV2\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_SOAPMessageV2API.md) constructor with no parameters.
 
 |Name|Type|Description|
 |----|----|-----------|

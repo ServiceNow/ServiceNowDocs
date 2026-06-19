@@ -2,7 +2,10 @@
 title: ITOM AIOps
 description: The ServiceNow ITOM AIOps product includes the ServiceNow Event Management and ServiceNow Metric Intelligence applications, which help you track and maintain the health of services in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-health-landing-page.html
 release: zurich
+product: IT Operations Management
+classification: it-operations-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -42,11 +45,11 @@ The ServiceNow® ITOM AIOps product includes the ServiceNow® Event Management a
 
 ## ITOM AIOps licensing
 
-The ServiceNow AI Platform® uses a licensing method where your organization is billed for using ITOM AIOps applications. ITOM AIOps and Health Log Analytics are available as separate licenses. The ServiceNow Product Documentation doesn't provide information on prices, packaging, or other details determined by your organization customer contract. For general information about licensing and subscriptions, see [ITOM/OT SU Licensing and subscriptions](itom-su-licensing-landing-page.md).
+The ServiceNow AI Platform® uses a licensing method where your organization is billed for using ITOM AIOps applications. ITOM AIOps and Health Log Analytics are available as separate licenses. The ServiceNow Product Documentation doesn't provide information on prices, packaging, or other details determined by your organization customer contract. For general information about licensing and subscriptions, see [ITOM/OT SU Licensing and subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-su-licensing-landing-page.md).
 
 ## Using guided setup to implement IT Operations Management applications
 
-IT Operations Management Guided Setup provides a sequence of tasks that help you configure IT Operations Management applications on your ServiceNow instance. To open IT Operations Management guided setup, navigate to **Guided Setup** &gt; **ITOM Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) .
+IT Operations Management Guided Setup provides a sequence of tasks that help you configure IT Operations Management applications on your ServiceNow instance. To open IT Operations Management guided setup, navigate to **Guided Setup** &gt; **ITOM Guided Setup**. For more information about using the guided setup interface, see Using guided setup .
 
 ## Configure the MID Web Server extension
 

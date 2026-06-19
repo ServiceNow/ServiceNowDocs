@@ -2,6 +2,7 @@
 title: Create a Board in CWM
 description: Manage work assigned to your team as tasks and track them to completion using customizable Boards for your shared Spaces in Collaborative Work Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/collaborative-work-management/create-boards-in-cwm.html
 release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -17,7 +18,7 @@ Manage work assigned to your team as tasks and track them to completion using cu
 
 ## Before you begin
 
-[Create a Space in CWM](create-spaces-in-cwm.md).
+[Create a Space in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/create-spaces-in-cwm.md).
 
 Role required: sn\_cwm.cwm\_user
 
@@ -27,11 +28,11 @@ Role required: sn\_cwm.cwm\_user
 
 2.  From the Spaces menu, open a Space that you want to add a Board to.
 
-    ![Spaces menu in CWM.](../images/cwm-spaces-navigation.png)
+    \[Omitted image "cwm-spaces-navigation.png"\] Alt text: Spaces menu in CWM.
 
-3.  From the More options menu of the Space \(![More options icon.](../images/cwm-icon-column-actions.png)\), select **New Board**
+3.  From the More options menu of the Space \(\[Omitted image "cwm-icon-column-actions.png"\] Alt text: More options icon.\), select **New Board**
 
-    s![Spaces more options menu.](../images/cwm-spaces-menu.png)
+    s\[Omitted image "cwm-spaces-menu.png"\] Alt text: Spaces more options menu.
 
 4.  In the **Board name** field, enter a name for the Board.
 
@@ -44,8 +45,8 @@ A Board is created within the Space that you selected and an empty Board is show
 
 ## What to do next
 
--   Add tasks to the Board. See [Add tasks to a CWM Board](add-tasks-to-board-in-cwm.md).
--   Rename or edit other details of the Board using the Edit icon \(![Edit icon.](../images/cwm-icon-edit-pencil.png)\) on the Board header.
+-   Add tasks to the Board. See [Add tasks to a CWM Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/add-tasks-to-board-in-cwm.md).
+-   Rename or edit other details of the Board using the Edit icon \(\[Omitted image "cwm-icon-edit-pencil.png"\] Alt text: Edit icon.\) on the Board header.
 
-**Parent Topic:**[Managing work using Boards in CWM](../concept/cwm-boards.md)
+**Parent Topic:**[Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/cwm-boards.md)
 

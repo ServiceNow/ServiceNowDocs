@@ -2,6 +2,7 @@
 title: Filter data in the risk heatmap workbench
 description: As a risk user, filter data in the risk heatmap workbench to get a granular view of your risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/filtering-in-the-risk-heatmap.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -27,9 +28,9 @@ Using the condition builder feature, the risk heatmap workbench enables you to f
 
 1.  Navigate to **All** &gt; **Risk Management** &gt; **Risk Workspace**.
 
-2.  From the Home page, select the launch workbench icon \(![Launch workbench icon.](../image/risk_heatmap_workbench.png)\).
+2.  From the Home page, select the launch workbench icon \(\[Omitted image "risk\_heatmap\_workbench.png"\] Alt text: Launch workbench icon.\).
 
-3.  Select the filter![Filter icon.](../image/filter-icon.png) icon.
+3.  Select the filter\[Omitted image "filter-icon.png"\] Alt text: Filter icon. icon.
 
 4.  In the Advanced view dialog box, provide the values for field, operator, and value.
 
@@ -41,7 +42,7 @@ Using the condition builder feature, the risk heatmap workbench enables you to f
 
 7.  To clear the filter condition results, select **Clear results**.
 
-8.  To save the filter, select the save filter button \(![Save icon.](../image/save-filter.png)\) in the Contextual side panel.
+8.  To save the filter, select the save filter button \(\[Omitted image "save-filter.png"\] Alt text: Save icon.\) in the Contextual side panel.
 
     1.  In the **Title** field, provide a title for the filter.
 
@@ -49,8 +50,8 @@ Using the condition builder feature, the risk heatmap workbench enables you to f
 
     The saved filter appears in the My saved filters related list.
 
-9.  To delete a filter condition that you have built, open the Filter dialog box, and select the delete condition button \(![Delete icon.](../image/delete-condition.png)\) and click **Submit**.
+9.  To delete a filter condition that you have built, open the Filter dialog box, and select the delete condition button \(\[Omitted image "delete-condition.png"\] Alt text: Delete icon.\) and click **Submit**.
 
 
-**Parent Topic:**[Using the Risk Workspace](../concept/using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

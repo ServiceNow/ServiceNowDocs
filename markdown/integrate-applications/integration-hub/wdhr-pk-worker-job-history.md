@@ -2,6 +2,7 @@
 title: Workday configuration for worker job history report
 description: Retrieve worker's job history based on employee ID or contingent worker ID by creating the worker job history report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/wdhr-pk-worker-job-history.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
@@ -42,53 +43,53 @@ Role required: User with access to report creation and the Worker from Prompt da
 
 6.  Do not select the **Temporary report** option and click **OK**.
 
-    ![](../image/wdhr-pk-worker-job-history-1.png)
+    \[Omitted image "wdhr-pk-worker-job-history-1.png"\] Alt text:
 
 7.  Select the report business object and report fields.
 
-    ![](../image/wdhr-pk-worker-job-history-2.png)
+    \[Omitted image "wdhr-pk-worker-job-history-2.png"\] Alt text:
 
 8.  In **Group Column Heading** section, select all business object as below.
 
-    **Group Column Heading** for each business object will be blank. ![](../image/wdhr-pk-worker-job-history-3.png)
+    **Group Column Heading** for each business object will be blank. \[Omitted image "wdhr-pk-worker-job-history-3.png"\] Alt text:
 
 9.  In **Filter** section, select the value.
 
     Ensure to add parenthesis.
 
-    ![](../image/wdhr-pk-worker-job-history-4.png)
+    \[Omitted image "wdhr-pk-worker-job-history-4.png"\] Alt text:
 
 10. In **Prompts** section, select the highlighted effective date as **Prompt for effective as of date** and select the **Populate Undefined Prompt Defaults** option.
 
-    ![](../image/wdhr-pk-worker-job-history-5.png)
+    \[Omitted image "wdhr-pk-worker-job-history-5.png"\] Alt text:
 
 11. Select the value of prompts under Prompt default section.
 
     Make sure the **Label For Prompt XML Alias** of all prompt fields must be same as shown below.
 
-    ![](../image/wdhr-pk-worker-job-history-6.png)
+    \[Omitted image "wdhr-pk-worker-job-history-6.png"\] Alt text:
 
 12. In **Advanced** section, select **Enable as webservice** option and click **OK**.
 
 13. Click on three dots icon and navigate to **Web Services** &gt; **View URLs** option once report configuration is done.
 
-    ![](../image/wdhr-pk-worker-job-history-7.png)
+    \[Omitted image "wdhr-pk-worker-job-history-7.png"\] Alt text:
 
 14. Select any worker in **Worker** parameter and click **OK**.
 
-    ![](../image/wdhr-pk-worker-job-history-8.png)
+    \[Omitted image "wdhr-pk-worker-job-history-8.png"\] Alt text:
 
 15. In View URLs Web Service page, click the marked icon under the **CSV** section.
 
     A new browser tab is opened.
 
-    ![](../image/wdhr-pk-worker-job-history-9.png)
+    \[Omitted image "wdhr-pk-worker-job-history-9.png"\] Alt text:
 
 16. Review the RaaS URL of the report displayed in the new browser tab.
 
     You can obtain these details from the link.
 
-    ![](../image/wdhr-pk-worker-job-history-10.png)
+    \[Omitted image "wdhr-pk-worker-job-history-10.png"\] Alt text:
 
     -   `https://wd2-impl-services1.workday.com` is the base URL of customer's workday tenant.
     -   **Tenant\_Name** is the customer's workday tenant.

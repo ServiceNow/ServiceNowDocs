@@ -2,6 +2,7 @@
 title: Add or delete edges to a Knowledge Graph schema
 description: Add, edit, or delete edges that connect the nodes to customize a Knowledge Graph schema.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/knowledge-graph/add-or-delete-edges.html
 release: zurich
 product: Knowledge Graph
 classification: knowledge-graph
@@ -35,17 +36,17 @@ Role required: kg\_admin
 
     Each related node displays a list of connecting edges and available edges.
 
-    ![Related nodes.](../Images/related-nodes.png)
+    \[Omitted image "related-nodes.png"\] Alt text: Related nodes.
 
-5.  To establish a connection to an available edge, select the plus icon \(![Plus icon.](../../../common/image/icon-zoom-in.png)\) against the edge.
+5.  To establish a connection to an available edge, select the plus icon \(\[Omitted image "icon-zoom-in.png"\] Alt text: Plus icon.\) against the edge.
 
     The available edge is moved to **Connecting edges**. Select an edge to see its parent node and grandparent nodes in the hierarchy.
 
-6.  To reconfigure a connecting edge, select the edit icon \(![Edit icon.](../../document-intelligence/image/icon-docintel-edit.png) and update the following:
+6.  To reconfigure a connecting edge, select the edit icon \(\[Omitted image "icon-docintel-edit.png"\] Alt text: Edit icon. and update the following:
 
     -   Edge type
     -   Edge description
-7.  To delete an edge and move it to available edges, select the remove edge \(![Remove edge.](../../../common/image/Form_DeleteIcon.png)
+7.  To delete an edge and move it to available edges, select the remove edge \(\[Omitted image "Form\_DeleteIcon.png"\] Alt text: Remove edge.
 
 8.  To delete the edge, select **Remove edge** when prompted.
 

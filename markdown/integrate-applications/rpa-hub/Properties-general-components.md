@@ -2,6 +2,7 @@
 title: Properties of the General components
 description: Learn about the properties of the General components in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/Properties-general-components.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -29,5 +30,5 @@ Learn about the properties of the General components in RPA Desktop Design Studi
 |Enable Timeout|Option to set a timeout value.|
 |Timeout|Number of seconds that the operation ends after if not completed. To apply this value, you must set the **Enable Timeout** property.|
 
-**Parent Topic:**[General](../concept/general-component.md)
+**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/general-component.md)
 

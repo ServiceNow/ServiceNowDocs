@@ -2,6 +2,7 @@
 title: State model and transitions
 description: Change Management offers a state model to move and track change requests through several states.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/c\_ChangeStateModel.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -15,7 +16,7 @@ breadcrumb: [Configure, Change Management, IT Service Management]
 
 Change Management offers a state model to move and track change requests through several states.
 
-![State transitions in a normal change request](../image/change-state-model.png "Example of state transitions for a normal change request")
+\[Omitted image "change-state-model.png"\] Alt text: State transitions in a normal change request
 
 The following table provides a list of all the states that a change request can progress through. Email notifications can be sent to the user who requested the change when it progresses to the following states: **Scheduled**, **Implement**, **Review**, and **Canceled**.
 
@@ -168,10 +169,10 @@ By default, there are two attributes to manage a change request:
 -   allow\_ci\_modification – Allows to modify the CI. Attributes are only considered if they are included in a model. If the `allow_ci_modification` attribute is not added to a model, it defaults to its initial state.
 -   allow\_implementation – Indicates that the change will be implemented. By enabling `allow_implementation`, this feature replaces the implementation states field currently present on the Change model. Both the states listed in the implementation states field and the attribute will be respected.
 
--   **[Add a state to the state model](../task/t_AddANewState.md#)**  
+-   **[Add a state to the state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/t_AddANewState.md)**  
 You can add a new state to the existing state model for different change types based on the requirements of your organization.
--   **[Configure state model transitions](../task/t_ConfigStateModelTransit.md)**  
+-   **[Configure state model transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/t_ConfigStateModelTransit.md)**  
 You can use script includes or UI policies to configure state models and the criteria for moving change requests from one state to another.
 
-**Parent Topic:**[Configuring Change Management](configure-change-management.md)
+**Parent Topic:**[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/configure-change-management.md)
 

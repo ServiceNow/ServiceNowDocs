@@ -2,6 +2,7 @@
 title: Architecture Compliance Overview module
 description: The Architecture Compliance Overview module displays various architecture compliance reports. The Overview module is a type of homepage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/r\_ArchCompOVMod.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -69,5 +70,5 @@ The available reports are:
 |Outstanding Architecture Compliance Tasks|All follow-on tasks in the **Pending**, **Open**, or **Work in Progress** state|Follow On Task|
 |Upcoming Architecture Compliance Audits|All scheduled audits|Audit|
 
-![Architecture compliance module graphics.](../../../administer/assessments/images/ArchitectureComplianceOverview.png "Architecture Compliance module")
+\[Omitted image "ArchitectureComplianceOverview.png"\] Alt text: Architecture compliance module graphics.
 

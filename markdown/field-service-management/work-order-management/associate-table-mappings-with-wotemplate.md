@@ -2,6 +2,7 @@
 title: Enable work order template to fetch data from the source table
 description: Enable work order template to identify the source of work order and then map data from that source table to the work order fields. This can be achieved by associating a table map with the work order template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/associate-table-mappings-with-wotemplate.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

@@ -2,6 +2,7 @@
 title: Configure the Generate closure notes UI action
 description: Add generative AI-specific functionality to the task closure screens by configuring the Generate closure notes UI action that is included with the Now Assist for Field Service Management \(FSM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/now-assist-for-field-service-management-fsm/configure-close-ui-actions.html
 release: zurich
 product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm
@@ -62,5 +63,5 @@ The Now Assist for FSM application includes generative AI-specific functionality
 
 ## Result
 
-The Generate closure notes UI action is enabled. Agents can generate closure notes when closing work order tasks on the Mobile Agent® application. For more information, see [Generate work order task closure summaries in ServiceNow Agent](generate-close-now-assist-fsm.md).
+The Generate closure notes UI action is enabled. Agents can generate closure notes when closing work order tasks on the Mobile Agent® application. For more information, see [Generate work order task closure summaries in ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/now-assist-for-field-service-management-fsm/generate-close-now-assist-fsm.md).
 

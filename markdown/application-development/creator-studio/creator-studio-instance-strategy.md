@@ -2,6 +2,7 @@
 title: Creator Studio development instance strategy
 description: Make sure to install Creator Studio on all ServiceNow instances where users will be building applications, including the production instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/creator-studio/creator-studio-instance-strategy.html
 release: zurich
 product: Creator Studio
 classification: creator-studio
@@ -31,9 +32,9 @@ You should ensure that developers build apps in Creator Studio on a non-producti
 
 When you deploy an app, the records are referenced in the Store Apps \[sys\_store\_app\] table on the production instance. But when you're developing an app, the records are referenced in the System Applications \[sys\_app\] table. So if you develop in production, you're developing using the \[sys\_app\] table instead of \[sys\_store\_app\].
 
-After you establish your instance strategy, you must also establish and automate your approval or review process. Creator Studio runs on your non-production environment, and admins then deploy apps to the production environment. For more information on the deployment process, see [Deploying your Creator Studio app](creator-studio-publishing-apps.md).
+After you establish your instance strategy, you must also establish and automate your approval or review process. Creator Studio runs on your non-production environment, and admins then deploy apps to the production environment. For more information on the deployment process, see [Deploying your Creator Studio app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-publishing-apps.md).
 
-If your organization has multiple non-production environments, you must decide which non-production environment Creator Studio will run on. You must also determine which pipeline to use for promoting apps from a particular non-production instance to your test instance, and then finally to production where the app will be running live. For more information, see [Pipelines and Deployments](../../app-engine-studio/concept/manage-deployments-using-p-and-d-aemc.md).
+If your organization has multiple non-production environments, you must decide which non-production environment Creator Studio will run on. You must also determine which pipeline to use for promoting apps from a particular non-production instance to your test instance, and then finally to production where the app will be running live. For more information, see [Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/manage-deployments-using-p-and-d-aemc.md).
 
 ## Catalog configuration requirement for Creator Studio
 
@@ -49,5 +50,5 @@ Let's say that a user is in the Creator Studio Users group, so when that user bu
 
 However, that user won't be able to fulfill requests or access the Request App Workspace because that user won't have the x\_acme\_user\_app.agent role, and that user can't give that role to themself. Administrators must assign additional roles as necessary.
 
-**Parent Topic:**[Installing Creator Studio from the ServiceNow Store](installing-creator-studio-from-the-store.md)
+**Parent Topic:**[Installing Creator Studio from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/installing-creator-studio-from-the-store.md)
 

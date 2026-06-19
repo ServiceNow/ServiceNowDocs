@@ -2,6 +2,7 @@
 title: Workplace Connectors references
 description: Learn more about the roles, tables, system properties, and scheduled jobs tables that are installed with Workplace Connectors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-connectors/workplace-connectors-references.html
 release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
@@ -15,16 +16,16 @@ breadcrumb: [Workplace Connectors, Workplace Service Delivery, Employee Service 
 
 Learn more about the roles, tables, system properties, and scheduled jobs tables that are installed with Workplace Connectors.
 
-1.  [Components installed with Workplace Connectors](../reference/component-workplace-connectors.md)  
+1.  [Components installed with Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/component-workplace-connectors.md)  
 Several types of components are installed with the installation of the Workplace Connectors application, including user roles and tables.
-2.  [Environmental data form for Workplace Connectors](../reference/wsd-environmental-data-form-fields.md)  
+2.  [Environmental data form for Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/wsd-environmental-data-form-fields.md)  
 Environmental sensor data form has pre-filled environmental data values and units of measure.
-3.  [Data summarization](../reference/data-summarization-workplace-connectors.md)  
+3.  [Data summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/data-summarization-workplace-connectors.md)  
 Execute the **DataSummarization** scheduled job to retrieve the daily aggregate summary data. When the scheduled job runs, it collects the data from the target table and MetricBase and stores the daily aggregate data into the respective summary table.
 
-**Parent Topic:**[Workplace Connectors](workplace-connectors-landing-page.md)
+**Parent Topic:**[Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/workplace-connectors-landing-page.md)
 
-**Previous topic:**[Execute the Temperature Beyond Threshold MetricBase trigger](../task/execute-the-temperature-beyond-threshold-metricbase-trigger.md)
+**Previous topic:**[Execute the Temperature Beyond Threshold MetricBase trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/execute-the-temperature-beyond-threshold-metricbase-trigger.md)
 
-**Next topic:**[Components installed with Workplace Connectors](../reference/component-workplace-connectors.md)
+**Next topic:**[Components installed with Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/component-workplace-connectors.md)
 

@@ -2,6 +2,7 @@
 title: View all mapped OT devices
 description: View a list of all the Operational Technology \(OT\) devices that are mapped to an equipment model entity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-process-manager/view-all-mapped-ot-devices.html
 release: zurich
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -28,7 +29,7 @@ When you open a parent record in the CI Relationships table, you can view the Ma
 1.  To view the mapped OT devices in the Industrial Workspace, complete the following actions.
 
     1.  Navigate to the Industrial Workspace.
-    2.  Select the Equipment model \(![Equipment model icon in the Industrial Workspace to access the Equipment Model Manager](../../mftg-manufacturing-process-mgr/image/equip-model-manager-button.png)\) icon.
+    2.  Select the Equipment model \(\[Omitted image "equip-model-manager-button.png"\] Alt text: Equipment model icon in the Industrial Workspace to access the Equipment Model Manager\) icon.
     3.  Open the equipment model entity that you want to view the mapped devices for.
     4.  Select the **Mapped OT Devices** tab.
 
@@ -38,8 +39,8 @@ When you open a parent record in the CI Relationships table, you can view the Ma
 
     This list contains all the devices that are mapped with different equipment model entities. The **Automates by :: Automates** CI relationship is applied to the parent and child entities.
 
-    In this list, you can use the **Mapped Equipment Model Entity** column to identify the equipment model entity the device is mapped to. For more information on how to add a column to a list, see [Personalize a list](https://www.servicenow.com/docs/access?context=c_PersonalLists&version=zurich&pubname=zurich-platform-user-interface&section=t_PersonalizeAList&ft:locale=en-US).
+    In this list, you can use the **Mapped Equipment Model Entity** column to identify the equipment model entity the device is mapped to. For more information on how to add a column to a list, see .
 
 
-**Parent Topic:**[Automated Mapping Across Zone-based IP Network Groups](automate-mappings-between-ot-assets-and-equipment-model-entity.md)
+**Parent Topic:**[Automated Mapping Across Zone-based IP Network Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
 

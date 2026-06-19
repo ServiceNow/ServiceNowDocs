@@ -2,6 +2,7 @@
 title: Picklists and picklist extensions in rules
 description: Learn how to use picklist extensions \(PLEs\) effectively in rules. Understand how filtering, inclusion, and exclusion interact, and apply correct operators like equals and contains for single- and multi-select picklists to ensure accurate rule behavior in advanced configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cpq-picklists-and-picklist-extensions-in-rules.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -36,27 +37,27 @@ If you are using selections in a PLE to drive actions, make sure to note the dif
 
 For example: A user creates a multi-select picklist field with four options.
 
-![Picklists and picklist extensions in rules](../images/cpq-picklist-field-four-options.png)
+\[Omitted image "cpq-picklist-field-four-options.png"\] Alt text: Picklists and picklist extensions in rules
 
 Suppose the condition of a rule \(in this case, a determination action\) is set to fire if the multi-select field equals multi option 4.
 
-![Picklists and picklist extensions in rules](../images/cpq-picklist-field-equals.png)
+\[Omitted image "cpq-picklist-field-equals.png"\] Alt text: Picklists and picklist extensions in rules
 
 If the end user selects only multi option 4, the rule fires:
 
-![Picklists and picklist extensions in rules](../images/cpq-picklist-field-fires.png)
+\[Omitted image "cpq-picklist-field-fires.png"\] Alt text: Picklists and picklist extensions in rules
 
 If the end user selects multi option 3 and multi option 4, the rule does not fire:
 
-![Picklists and picklist extensions in rules](../images/cpq-picklist-field-does-not-fire.png)
+\[Omitted image "cpq-picklist-field-does-not-fire.png"\] Alt text: Picklists and picklist extensions in rules
 
 On the other hand, if the condition is set to fire if the multi-select field contains option 4, it fires in both instances.
 
-![Picklists and picklist extensions in rules](../images/cpq-picklist-field-contains-option-4.png)
+\[Omitted image "cpq-picklist-field-contains-option-4.png"\] Alt text: Picklists and picklist extensions in rules
 
-![Picklists and picklist extensions in rules](../images/cpq-picklist-field-fires-both-instances-1.png)
+\[Omitted image "cpq-picklist-field-fires-both-instances-1.png"\] Alt text: Picklists and picklist extensions in rules
 
-![Picklists and picklist extensions in rules](../images/cpq-picklist-field-fires-both-instances-2.png)
+\[Omitted image "cpq-picklist-field-fires-both-instances-2.png"\] Alt text: Picklists and picklist extensions in rules
 
 ## How PLE filters interact with exclusion rules
 
@@ -94,9 +95,9 @@ For other manipulations with the multi-select picklist array in advanced functio
 
 ## Additional reading
 
-For an overview of the picklist extension feature, see [Picklist extensions](cpq-picklist-extensions-ples.md).
+For an overview of the picklist extension feature, see [Picklist extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/cpq-picklist-extensions-ples.md).
 
-For a deeper understanding of the back end and how to display PLEs, see [Displaying a picklist extension on a layout](csv_layouts_how_do_i_display_a_picklist_extension.md).
+For a deeper understanding of the back end and how to display PLEs, see [Displaying a picklist extension on a layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/csv_layouts_how_do_i_display_a_picklist_extension.md).
 
-For an overview of the Picklist Extension Pricing enrichment feature, see [The Picklist Extension Pricing enrichment](picklist-extension-pricing-scripts.md).
+For an overview of the Picklist Extension Pricing enrichment feature, see [The Picklist Extension Pricing enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/picklist-extension-pricing-scripts.md).
 

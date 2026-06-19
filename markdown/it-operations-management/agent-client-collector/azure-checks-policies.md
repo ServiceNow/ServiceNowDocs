@@ -2,6 +2,7 @@
 title: Azure Health Monitoring default checks and policies
 description: Agent Client Collector provides the following default checks and policies for Azure health monitoring.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/azure-checks-policies.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -55,5 +56,5 @@ Example: `metrics-azure-k8s-service.rb -S {{.labels.params_subscription_id}} -r 
 `metrics-azure-k8s-service.rb -r {{.labels.params_ci_region}} {{-s {{if.labels.params_subscription_id}} -S {{.labels.params_subscription_id}} {{end}}`
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](agent-policies-checks.md)
+</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-policies-checks.md)
 

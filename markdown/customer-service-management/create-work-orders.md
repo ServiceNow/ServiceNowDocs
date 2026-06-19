@@ -2,7 +2,10 @@
 title: Create a work order
 description: Create a work order to manage your regular maintenance and service requirements for an install base item. You can do this task by using the Customer Service Management \(CSM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-work-orders.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

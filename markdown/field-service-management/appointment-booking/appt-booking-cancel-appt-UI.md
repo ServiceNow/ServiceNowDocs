@@ -2,6 +2,7 @@
 title: Cancel an appointment as a customer
 description: Cancel a service appointment from either the Customer or the Consumer Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/appointment-booking/appt-booking-cancel-appt-UI.html
 release: zurich
 product: Appointment Booking
 classification: appointment-booking

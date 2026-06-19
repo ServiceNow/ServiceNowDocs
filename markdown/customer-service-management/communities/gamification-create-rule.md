@@ -2,6 +2,7 @@
 title: Create a gamification rule
 description: Create gamification rules so that users can earn points for community activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/communities/gamification-create-rule.html
 release: zurich
 product: Communities
 classification: communities
@@ -115,5 +116,5 @@ The points accrued can be used towards a forum or topic level expertise. Click t
     The newly created rule appears on the Gamification Rules list. This rule appears on the How to Earn Points page.
 
 
-**Parent Topic:**[Administer gamification](../concept/communities-gamification-administer.md)
+**Parent Topic:**[Administer gamification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/communities-gamification-administer.md)
 

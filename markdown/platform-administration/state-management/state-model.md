@@ -2,6 +2,7 @@
 title: State Management
 description: State Management enables an administrator to define State Models and State Transitions that control how a record is allowed to transition through a predefined list of states.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/state-management/state-model.html
 release: zurich
 product: State Management
 classification: state-management

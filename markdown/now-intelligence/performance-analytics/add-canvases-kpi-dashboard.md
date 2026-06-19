@@ -2,6 +2,7 @@
 title: Add canvases to a dashboard tab
 description: Combine analytics artifacts and widgets to create visual components, called canvases, on a KPI Composer dashboard mock-up. "Widgets" include reports, interactive filters, Spotlight, and content blocks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/add-canvases-kpi-dashboard.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -16,9 +17,9 @@ breadcrumb: [Designing dashboards, Design your indicator solution, Configure fun
 Combine analytics artifacts and widgets to create visual components, called canvases, on a KPI Composer dashboard mock-up. "Widgets" include reports, interactive filters, Spotlight, and content blocks.
 
 Prerequisites
-:   [Add a dashboard](add-dashboard-kpi-comp.md#)
+:   [Add a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/add-dashboard-kpi-comp.md)
 
-:   [Add tabs and rows to a dashboard](add-tabs-kpi-dashboard.md)
+:   [Add tabs and rows to a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/add-tabs-kpi-dashboard.md)
 
 ## Before you begin
 
@@ -34,7 +35,7 @@ Role required: sn\_kpi\_composer.user \(own project\), sn\_kpi\_composer.admin \
 
     Select a dashboard with at least one tab and a row with empty canvas slots.
 
-3.  In the upper right of the Dashboard Visualization tab, expand the Artifacts icon \(![](../image/kpi-comp-elements-icon.png)\).
+3.  In the upper right of the Dashboard Visualization tab, expand the Artifacts icon \(\[Omitted image "kpi-comp-elements-icon.png"\] Alt text:\).
 
 4.  Select an artifact that you want to represent in a canvas slot, and drag the artifact to the slot.
 
@@ -46,7 +47,7 @@ Role required: sn\_kpi\_composer.user \(own project\), sn\_kpi\_composer.admin \
 
     If you have selected any personas in the dashboard properties, only the artifacts that are linked to those personas are available.
 
-5.  In the upper right of the Dashboard Visualization tab, expand the Widgets icon \(![](../image/kpi-comp-widgets-icon.png)\).
+5.  In the upper right of the Dashboard Visualization tab, expand the Widgets icon \(\[Omitted image "kpi-comp-widgets-icon.png"\] Alt text:\).
 
 6.  Decide which widget represents the data in the artifact you previously selected, and drag it to the same canvas slot.
 
@@ -54,7 +55,7 @@ Role required: sn\_kpi\_composer.user \(own project\), sn\_kpi\_composer.admin \
 
     Interactive Filter widgets only affect Report widgets that are on the same dashboard.
 
-    Spotlight "widgets" represent Spotlight interactive analysis, which is usually accessed through a shared URL instead of a report on a dashboard. For more inforrmation, see [Spotlight interactive analysis](../concept/spotlight-interactive-analysis.md).
+    Spotlight "widgets" represent Spotlight interactive analysis, which is usually accessed through a shared URL instead of a report on a dashboard. For more inforrmation, see [Spotlight interactive analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/spotlight/spotlight-interactive-analysis.md).
 
     To replace a widget on a canvas, drag another widget onto it. The title of the original widget remains, unless you replace it with a Content Block. Replacing widgets does not affect artifacts associated with a canvas.
 
@@ -62,7 +63,7 @@ Role required: sn\_kpi\_composer.user \(own project\), sn\_kpi\_composer.admin \
 
 7.  Fill in the Canvas Details, as follows:
 
-    **Note:** To change the Canvas Details of an existing widget, click the pencil icon \(![](../image/kpi-composer-edit-item.png)\) on the canvas. This icon appears when you point to the top-right corner of a canvas.
+    **Note:** To change the Canvas Details of an existing widget, click the pencil icon \(\[Omitted image "kpi-composer-edit-item.png"\] Alt text:\) on the canvas. This icon appears when you point to the top-right corner of a canvas.
 
 <table id="table_hqq_c3t_tnb"><thead><tr><th>
 
@@ -145,7 +146,7 @@ PA Widget
 
 </td><td>
 
-Select an existing Performance Analytics widget that matches this mock-up widget. For more information, see [Performance Analytics widgets](../concept/c_Widgets.md).
+Select an existing Performance Analytics widget that matches this mock-up widget. For more information, see [Performance Analytics widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_Widgets.md).
 
 </td></tr></tbody>
 </table><table id="table_content-block"><thead><tr><th>
@@ -162,7 +163,7 @@ Content block
 
 </td><td>
 
-Select from an existing content block. For more information, see [Content blocks](https://www.servicenow.com/docs/access?context=c_ContentBlocks&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+Select from an existing content block. For more information, see Content blocks.
 
 </td></tr></tbody>
 </table><table id="table_interactive-filters"><thead><tr><th>
@@ -187,7 +188,7 @@ Interactive filter
 
 </td><td>
 
-Select an existing interactive filter. For more information, see [Interactive Filters](../../dashboards/concept/c_HomepagePublishers.md)
+Select an existing interactive filter. For more information, see [Interactive Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters/c_HomepagePublishers.md)
 
 </td></tr></tbody>
 </table><table id="table_reports"><thead><tr><th>
@@ -228,7 +229,7 @@ Report
 
 </td><td>
 
-Select an existing Report. For more information, see [Creating reports](../../reporting/reference/report-types-creation-details-rd.md)
+Select an existing Report. For more information, see [Creating reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-types-creation-details-rd.md)
 
 </td></tr></tbody>
 </table><table id="table_spotlights"><thead><tr><th>
@@ -253,7 +254,7 @@ Spotlight group
 
 </td><td>
 
-Select an existing Spotlight group. For more information, see [Ranking records with Spotlight](../concept/spotlight.md).
+Select an existing Spotlight group. For more information, see [Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/spotlight/spotlight.md).
 
 </td></tr></tbody>
 </table>
@@ -263,17 +264,17 @@ You have an artifact from your analysis and a visualization to illustrate that a
 
 ## Adding a canvas to a dashboard
 
-**Note:** In this short animation, a canvas is added to the Quality of Service tab of the Customer Experience dashboard. The user first picks an artifact from their KPI Tree and then selects a widget to illustrate that artifact. ![Adding a canvas to a dashboard](../image/kpi-comp-add-canvas.gif)
+**Note:** In this short animation, a canvas is added to the Quality of Service tab of the Customer Experience dashboard. The user first picks an artifact from their KPI Tree and then selects a widget to illustrate that artifact. \[Omitted image "kpi-comp-add-canvas.gif"\] Alt text: Adding a canvas to a dashboard
 
 ## What to do next
 
 When you have populated a dashboard, you can change the row order, widget order, or widget title in the artifact banner. The following short animation demonstrates how to move dashboard components.
 
-![Design artifacts being moved around a KPI Composer dashboard mock-up](../image/kpi-comp-move-elements.gif)
+\[Omitted image "kpi-comp-move-elements.gif"\] Alt text: Design artifacts being moved around a KPI Composer dashboard mock-up
 
-**Parent Topic:**[Designing dashboards](../concept/create-a-dashboard-mock-up.md)
+**Parent Topic:**[Designing dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-a-dashboard-mock-up.md)
 
-**Previous topic:**[Add tabs and rows to a dashboard](add-tabs-kpi-dashboard.md)
+**Previous topic:**[Add tabs and rows to a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/add-tabs-kpi-dashboard.md)
 
-**Next topic:**[Create a dashboard tab template](kpi-comp-create-dashboard-template.md)
+**Next topic:**[Create a dashboard tab template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/kpi-comp-create-dashboard-template.md)
 

@@ -2,6 +2,7 @@
 title: Approve or reject a permit-to-work request
 description: Review the permit and approve or reject it through Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-risk-management/hs-approve-reject-permit.html
 release: zurich
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -40,5 +41,5 @@ After assessing the risks associated with the job and checking whether safety pa
 
 The permit is approved or rejected in the system and the permit requestor can view the response from the Employee Center under **My Tasks**.
 
-**Parent Topic:**[Permit-to-work system](../concept/hs-permit-to-work.md)
+**Parent Topic:**[Permit-to-work system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/hs-permit-to-work.md)
 

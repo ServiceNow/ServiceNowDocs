@@ -2,6 +2,7 @@
 title: Certificate routing policy form table
 description: To automate the processes of your certificate life cycle, you must fill out a routing policy form that populates your Certificate Signing Requests. This table shows you the required fields and values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/certificate-routing-policy-form-table.html
 release: zurich
 product: Discovery
 classification: discovery

@@ -2,11 +2,12 @@
 title: Resource owner password credential grant workflow
 description: This flow is used in legacy or highly controlled environments where secure alternatives aren't feasible. The client app directly collects and sends user credentials to ServiceNow to obtain an access token, making it suitable only for trusted internal use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/resource-owner-password-credential-workflow.html
 release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [ROPC Grant, Inbound integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
@@ -25,7 +26,7 @@ This procedure outlines how a trusted client application obtains an access token
 
 The user logs in through the app, which sends both its own credentials and the user's to ServiceNow. ServiceNow validates the credentials and issues an access token that the app uses to call APIs.
 
-![Resource owner password credential grant workflow](../images/mic-jwt-grant-workflow.png "Resource owner password credential grant workflow")
+\[Omitted image "mic-jwt-grant-workflow.png"\] Alt text: Resource owner password credential grant workflow
 
 ## Procedure
 

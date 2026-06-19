@@ -2,6 +2,7 @@
 title: Deactivate data snapshots for an indicator
 description: You can turn data snapshots off or back on for an indicator, provided that indicator supports data snapshots.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/deactivate-mlb-for-indicator.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -21,7 +22,7 @@ Role required: pa\_data\_collector or higher
 
 ## About this task
 
-The limitations of data snapshots could make an indicator unusable. In this case, you can deactivate data snapshots on that indicator. You can re-activate data snapshots on that indicator later. For more information, see [Limitations and requirements for data snapshots](../reference/limitations-mlb.md).
+The limitations of data snapshots could make an indicator unusable. In this case, you can deactivate data snapshots on that indicator. You can re-activate data snapshots on that indicator later. For more information, see [Limitations and requirements for data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/limitations-mlb.md).
 
 **Important:** An admin can disable data snapshots across an instance by setting the system property com.snc.pa.dm.enable.mlb to false.
 
@@ -40,5 +41,5 @@ The limitations of data snapshots could make an indicator unusable. In this case
 
 At any time in the future, you can reverse this procedure. The indicator is then moved to the new source type that supports data snapshots. If an admin disables data snapshots for an instance and then re-enables them, data snapshots are re-enabled automatically for those indicators that previously had them enabled.
 
-**Parent Topic:**[Data snapshots and multiple breakdowns](../concept/multi-level-breakdowns.md)
+**Parent Topic:**[Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/multi-level-breakdowns.md)
 

@@ -2,7 +2,10 @@
 title: Review and submit a time sheet for a customer service agent
 description: Agents can review and submit time sheets to managers for approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/cust-service-agent-submit-time.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

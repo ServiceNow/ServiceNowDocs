@@ -2,6 +2,7 @@
 title: Data collection process and logging
 description: Performance Analytics data collection jobs collect indicator scores. To debug data collection, it is helpful to understand the data collection process and how it is reflected in the job logs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/data-collection-process-logging.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -23,18 +24,18 @@ As an administrator, sometimes you have to debug a data collection job. Each job
 
 The Admin Console also provides daily, weekly, and monthly overviews of data collection jobs.
 
--   **[Optimizing data collection](optimized-data-collection.md)**  
+-   **[Optimizing data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/optimized-data-collection.md)**  
 The optimized Performance Analytics data collector reduces the time, memory, and CPU usage for processing large data sets.
--   **[View a data collection job event](../task/t_ViewingADataCollectionJobEvent.md)**  
+-   **[View a data collection job event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_ViewingADataCollectionJobEvent.md)**  
 Job events show which jobs have been executed for Performance Analytics and which actions have been triggered in your ServiceNow instance, such as notifications or business rules.
--   **[View the data collection job logs](../task/t_ViewingADataCollectionJobLog.md)**  
+-   **[View the data collection job logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_ViewingADataCollectionJobLog.md)**  
 Job logs display information about the data collection jobs that have run for Performance Analytics. You can view job logs, create events, and view and edit the event registry. The list view displays all log entries, unless filtered.
--   **[Log details for optimized data collector](../reference/log-details-optimized-dc.md)**  
+-   **[Log details for optimized data collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/log-details-optimized-dc.md)**  
 Starting with the Tokyo release, a new, optimized data collector is available. The log details for this data collector differ from the log details of the classic data collector.
--   **[Log details for classic data collector](../reference/original-data-collection-process.md)**  
+-   **[Log details for classic data collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/original-data-collection-process.md)**  
 Performance Analytics score collection follows the process described here. To aid troubleshooting, a mapping between job steps and log entries is provided.
--   **[View data collection usage](../task/view-data-collection-usage-statistics.md)**  
+-   **[View data collection usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/view-data-collection-usage-statistics.md)**  
 To view statistics about data collection jobs, click **Data Collection Overview** in the Usage tile on the Performance Analytics Admin Console.
 
-**Parent Topic:**[Configure Performance Analytics advanced features](c_PADataArchitecture.md)
+**Parent Topic:**[Configure Performance Analytics advanced features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_PADataArchitecture.md)
 

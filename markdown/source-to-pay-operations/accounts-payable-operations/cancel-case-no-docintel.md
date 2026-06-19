@@ -2,6 +2,7 @@
 title: Close the additional invoice processing case for an invoice
 description: Close the auto-created invoice processing case if one already exists for an invoice.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/cancel-case-no-docintel.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -27,7 +28,7 @@ If you create an invoice manually, a new invoice processing case is created for 
 
 1.  Navigate to **All** &gt; **Accounts Payable Operations** &gt; **Accounts Payable Workspace**.
 
-2.  Select the list icon \(![List icon](../../supplier-lifecycle-operations/image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon\).
 
 3.  Do one of the following:
 
@@ -53,5 +54,5 @@ If you create an invoice manually, a new invoice processing case is created for 
 
 The invoice processing case is closed and its state updates to Closed complete.
 
-**Parent Topic:**[Invoice ingestion process when Document Intelligence is unavailable](../concept/invoice-ingest-docintel-unavailable.md)
+**Parent Topic:**[Invoice ingestion process when Document Intelligence is unavailable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/invoice-ingest-docintel-unavailable.md)
 

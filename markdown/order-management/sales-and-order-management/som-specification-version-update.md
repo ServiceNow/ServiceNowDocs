@@ -2,6 +2,7 @@
 title: Updating specification versions
 description: Enterprises frequently create and update new versions of product and service specifications. When these changes occur, it's important to update the existing product specification in ServiceNow. Failure to update the product specifications can lead to difficulties with MACD \(Modify, Add, Change, Delete\) operation when orders enter fulfillment.OM content revamp - Check with Judy if this and sub-topics are covered in configuring product catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/som-specification-version-update.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -44,14 +45,14 @@ A set of specification versions can be updated using the batch specification uti
 
 **What to do next**
 
-[Configure update specification versions](../task/som-configure-specification-version-update.md)
+[Configure update specification versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-configure-specification-version-update.md)
 
--   **[Configure update specification versions](../task/som-configure-specification-version-update.md)**  
+-   **[Configure update specification versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-configure-specification-version-update.md)**  
 Configure specification version updates so that product specification versions can be updated to reflect changes and updates.
--   **[Batch update for product specification versions](../task/som-configure-specification-version-update-silent-batch-utility.md)**  
+-   **[Batch update for product specification versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-configure-specification-version-update-silent-batch-utility.md)**  
 Use the inventory batch update job to update product specifications when changes occur from one version to another.
--   **[View upgrade inventory job status](../task/som-view-upgrade-inventory-job-status.md)**  
+-   **[View upgrade inventory job status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-view-upgrade-inventory-job-status.md)**  
 View the status of a specification upgrade job using the upgrade inventory Job status list form.
 
-**Parent Topic:**[Setting up specifications and product offerings](order-mgt-product-catalog.md)
+**Parent Topic:**[Setting up specifications and product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-mgt-product-catalog.md)
 

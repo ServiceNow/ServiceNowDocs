@@ -2,6 +2,7 @@
 title: Configure Search Assistant for Windows
 description: The Search Assistant feature of Pattern Designer allows you to search within files or registries. Upload grep files on to your instance to enable this feature to search on Windows servers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/t\_ConfigSearchAssistant4Windows.html
 release: zurich
 product: Service Mapping
 classification: service-mapping
@@ -51,7 +52,7 @@ Grep is a utility that the Search Assistant feature uses to search files for mat
 
 6.  Click **OS Types** and select **Windows**.
 
-    ![Selecting the operating system option for uploading a file.](../image/UploadFileOSType.png)
+    \[Omitted image "UploadFileOSType.png"\] Alt text: Selecting the operating system option for uploading a file.
 
 7.  Click **OS Architectures** and select both 32-bit and 64-bit option.
 
@@ -65,7 +66,7 @@ Grep is a utility that the Search Assistant feature uses to search files for mat
 
 12. Close the Attachments window.
 
-13. Repeat [Step 3](t_ConfigSearchAssistant4Windows.md#clickNewStep) to [Step 11](t_ConfigSearchAssistant4Windows.md#CloseAttachmentWindow) to upload the rest of the files:
+13. Repeat [Step 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/t_ConfigSearchAssistant4Windows.md) to [Step 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/t_ConfigSearchAssistant4Windows.md) to upload the rest of the files:
 
     -   libiconv2.dll
     -   libintl3.dll

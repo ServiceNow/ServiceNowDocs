@@ -2,6 +2,7 @@
 title: Run fix scripts to update Contract Management Pro
 description: Manually run fix scripts after you have installed the demo data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/run-fix-scripts-update-contract-management-pro.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

@@ -2,6 +2,7 @@
 title: Update UI scripts to use customized indicators for Agile 2.0 dashboards
 description: Customize UI scripts by overriding methods in empty implementation \(Impl\) classes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/update-ui-scripts-to-use-your-indicators.html
 release: zurich
 product: Agile Development
 classification: agile-development
@@ -32,5 +33,5 @@ Role required: admin
 4.  Click **Update**.
 
 
-**Parent Topic:**[Customizing Agile 2.0 dashboard reports](../concept/customizing-dashboard-reports.md)
+**Parent Topic:**[Customizing Agile 2.0 dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/customizing-dashboard-reports.md)
 

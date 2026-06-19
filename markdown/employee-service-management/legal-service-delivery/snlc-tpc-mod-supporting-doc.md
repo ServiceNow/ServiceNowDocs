@@ -2,6 +2,7 @@
 title: Modify supporting documents in third-party contract review request as a legal fulfiller
 description: As a legal fulfiller, add, remove, or reclassify supporting documents submitted in a third-party contract review request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/snlc-tpc-mod-supporting-doc.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -25,7 +26,7 @@ Role required: sn\_lg\_cnt.contract\_fulfiller
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Select the List icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  Open the request for which you want to reclassify the documents.
 
@@ -35,15 +36,15 @@ Role required: sn\_lg\_cnt.contract\_fulfiller
 
 6.  Modify the supporting documents.
 
-<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d370810e144">
+<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d356532e144">
 
 Action
 
-</th><th align="left" id="d370810e147">
+</th><th align="left" id="d356532e147">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d370810e153">
+</th></tr></thead><tbody><tr><td id="d356532e153">
 
 **Add supporting documents**
 
@@ -60,15 +61,15 @@ The available storage types are:
 3.  \(Optional\) Add more information about the document in the **Work notes** field.
 
 
-</td></tr><tr><td id="d370810e216">
+</td></tr><tr><td id="d356532e216">
 
 **Reclassify supporting documents**
 
 </td><td>
 
-[Reclassify contract documents in third-party contract review request as a legal fulfiller](snlc-tpc-reclassify-doc.md)
+[Reclassify contract documents in third-party contract review request as a legal fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-tpc-reclassify-doc.md)
 
-</td></tr><tr><td id="d370810e230">
+</td></tr><tr><td id="d356532e230">
 
 **Remove the supporting document**
 
@@ -83,5 +84,5 @@ The available storage types are:
 </table>7.  Select **Save** to save the record.
 
 
-**Parent Topic:**[Work on a third-party contract review request](snlc-work-tpc-review-request.md)
+**Parent Topic:**[Work on a third-party contract review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-work-tpc-review-request.md)
 

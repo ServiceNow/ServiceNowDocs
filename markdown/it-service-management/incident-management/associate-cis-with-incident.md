@@ -2,6 +2,7 @@
 title: Associate CIs with incident
 description: Associate affected or impacted configuration items \(CIs\) with an incident record to find out how the incident affects other CIs with dependent relationships.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/associate-cis-with-incident.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -45,7 +46,7 @@ Configuration item
 
 </td><td>
 
-1.  Click the lookup icon \(![Lookup icon](../../itsm-workspace/image/look-up-icon.png)\).
+1.  Click the lookup icon \(\[Omitted image "look-up-icon.png"\] Alt text: Lookup icon\).
 2.  Select configuration item.
 
 **Note:** By default, Service Offering is filtered out and CIs with Principal Class are selected. The Principal Class filter functionality is applicable to the new customers starting the Paris release.
@@ -61,7 +62,7 @@ Affected CIs
 
 **Note:** By default, Service Offering is filtered out and CIs with Principal Class are selected. The Principal Class filter functionality is applicable to the new customers starting the Paris release.
 
-![Filter in Affected CIs related list](../image/affected-ci-offering-filter.png)
+\[Omitted image "affected-ci-offering-filter.png"\] Alt text: Filter in Affected CIs related list
 
 3.  Click **Add Selected**.
 

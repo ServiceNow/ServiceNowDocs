@@ -2,6 +2,7 @@
 title: Work with Live Feed messages
 description: This portion of the UI gives the user access to various types of messages and tools for grouping and categorizing messages. Also included are methods for identifying which user feeds you are following and which users are following you.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/live-feed/r\_WorkingWithLiveFeedMessages.html
 release: zurich
 product: Live Feed
 classification: live-feed
@@ -38,5 +39,5 @@ Description
 -   Hashtags: Hashtags are words marked with a hash \(\#\) symbol in messages. Hashtags are used to categorize messages by keyword or topic for improved search results messages filtered from all conversations that include specific hashtags.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Live Feed UI overview](r_LiveFeedUIOverview.md)
+</table>**Parent Topic:**[Live Feed UI overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/live-feed/r_LiveFeedUIOverview.md)
 

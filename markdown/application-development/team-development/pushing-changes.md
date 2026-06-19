@@ -2,6 +2,7 @@
 title: Pushing changes
 description: You can push versions of customized records to synchronize your instance to the parent instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/pushing-changes.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -26,51 +27,51 @@ Developers should consider the following when preparing to push changes.
 
 ## Workflow when pushing changes
 
-1.  [Queue a local change for a push](../task/t_QueueALocalChangeForAPush.md)
+1.  [Queue a local change for a push](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_QueueALocalChangeForAPush.md)
 
     Application developers can queue a local change for a push to confirm the changes are available to other developers.
 
-2.  [Push a version](../task/t_PushAVersion.md)
+2.  [Push a version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_PushAVersion.md)
 
     Pushing promotes changes from the development instance to the parent instance.
 
-3.  [Code reviews](c_CodeReview.md)
+3.  [Code reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_CodeReview.md)
 
     Team Development administrators can require that pushes undergo code review before accepting pushes.
 
-4.  [Approve or reject a push](../task/t_ApproveOrRejectAPush.md)
+4.  [Approve or reject a push](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_ApproveOrRejectAPush.md)
 
     Code reviewers must approve or reject a push from the Team Development application.
 
-5.  [Check the review status of a pushed change](../task/t_CheckReviewStatusOfAPushedChange.md)
+5.  [Check the review status of a pushed change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_CheckReviewStatusOfAPushedChange.md)
 
     If the parent instance requires pushed changes to undergo code review, changes are placed in the Awaiting Code Review stage.
 
-6.  [Compare a pushed version to a local version](../task/t_ComparePushedVerLocalVer.md)
+6.  [Compare a pushed version to a local version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_ComparePushedVerLocalVer.md)
 
     Code reviewers can compare the pushed versions to the local versions to see the potential effect of incoming changes.
 
-7.  [Back out a push](../task/t_BackOutAPush.md)
+7.  [Back out a push](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_BackOutAPush.md)
 
     Application developers can back out a push to remove unwanted changes.
 
 
--   **[Queue a local change for a push](../task/t_QueueALocalChangeForAPush.md)**  
+-   **[Queue a local change for a push](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_QueueALocalChangeForAPush.md)**  
 Application developers can queue a local change for a push to confirm that the changes are available to other developers.
--   **[Push a version](../task/t_PushAVersion.md)**  
+-   **[Push a version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_PushAVersion.md)**  
 You can push a version from the development instance to the parent instance.
--   **[Code reviews](c_CodeReview.md)**  
+-   **[Code reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_CodeReview.md)**  
 Team Development administrators can require that pushes undergo code review before accepting pushes.
--   **[Approve or reject a push](../task/t_ApproveOrRejectAPush.md)**  
+-   **[Approve or reject a push](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_ApproveOrRejectAPush.md)**  
 Code reviewers must approve or reject a push from the Team Development application.
--   **[Check the review status of a pushed change](../task/t_CheckReviewStatusOfAPushedChange.md)**  
+-   **[Check the review status of a pushed change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_CheckReviewStatusOfAPushedChange.md)**  
 If the parent instance requires pushed changes to be sent to code review, changes are placed in the Awaiting Code Review stage.
--   **[Back out a push](../task/t_BackOutAPush.md)**  
+-   **[Back out a push](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_BackOutAPush.md)**  
 Application developers can back out a push to remove unwanted changes.
--   **[Compare a pushed version to a local version](../task/t_ComparePushedVerLocalVer.md)**  
+-   **[Compare a pushed version to a local version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_ComparePushedVerLocalVer.md)**  
 Code reviewers can compare the pushed versions to the local versions to see the potential effect of incoming changes.
--   **[Reconcile changes](../task/t_Reconcile.md)**  
+-   **[Reconcile changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_Reconcile.md)**  
 Reconciling changes compares the local instance to the parent instance. A report is generated of local changes and calculates the number of changes that are ready to pull from the parent.
 
-**Parent Topic:**[Local changes](c_LocalChanges.md)
+**Parent Topic:**[Local changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_LocalChanges.md)
 

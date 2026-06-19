@@ -2,6 +2,7 @@
 title: Create an SSH activity
 description: Create an activity that extracts data from a target host that uses the SSH network protocol.Use execution parameters to create the input process script in the Pre Processing form of the activity designer.Use these parameters to create a post-processing script, payload parsing, and tagging.Use the input variables you created to configure the command that Orchestration executes on the host target.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/orchestration/t\_CreateAnSSHActivity.html
 release: zurich
 product: Orchestration
 classification: orchestration
@@ -21,25 +22,25 @@ Role required: activity\_creator or workflow\_admin
 
 ## About this task
 
-For instructions on using the activity template process flow, see [create custom activities](create-custom-activities.md).
+For instructions on using the activity template process flow, see [create custom activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/create-custom-activities.md).
 
 ## Procedure
 
-1.  Create a [custom activity](https://www.servicenow.com/docs/access?context=create-custom-activities&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+1.  Create a custom activity.
 
     This action creates a custom activity using a template.
 
-2.  After setting up [general properties](../reference/General-Flds-Templates.md) and [creating input variables](CreateInputVariables.md#), configure the SSH Execution Command.
+2.  After setting up [general properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/General-Flds-Templates.md) and [creating input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/CreateInputVariables.md), configure the SSH Execution Command.
 
-<table id="choicetable_j2l_k2s_d1b"><tbody><tr><td id="d342001e117">
+<table id="choicetable_j2l_k2s_d1b"><tbody><tr><td id="d80666e117">
 
-**[Map the input variables](CreateInputVariables.md#)**
+**[Map the input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/CreateInputVariables.md)**
 
 </td><td>
 
 Use the variables you created to configure the command that Orchestration executes.
 
-</td></tr><tr><td id="d342001e133">
+</td></tr><tr><td id="d80666e133">
 
 **Target host**
 
@@ -47,7 +48,7 @@ Use the variables you created to configure the command that Orchestration execut
 
 Host name or IP address of the target server for this activity.
 
-</td></tr><tr><td id="d342001e142">
+</td></tr><tr><td id="d80666e142">
 
 **Command**
 
@@ -55,7 +56,7 @@ Host name or IP address of the target server for this activity.
 
 Command this activity runs on the target host. You can invoke a MID Server script from this field using any script type that the SSH command line supports. For more information, see **Advanced SSH script options** below the table.
 
-</td></tr><tr><td id="d342001e154">
+</td></tr><tr><td id="d80666e154">
 
 **Directory**
 
@@ -63,7 +64,7 @@ Command this activity runs on the target host. You can invoke a MID Server scrip
 
 Directory on the target host where the command is run.
 
-</td></tr><tr><td id="d342001e163">
+</td></tr><tr><td id="d80666e163">
 
 **Credential tag**
 
@@ -71,7 +72,7 @@ Directory on the target host where the command is run.
 
 The Orchestration credential tag to use when running the command.
 
-</td></tr><tr><td id="d342001e173">
+</td></tr><tr><td id="d80666e173">
 
 **Required MID Server capabilities**
 
@@ -79,7 +80,7 @@ The Orchestration credential tag to use when running the command.
 
 MID Server with the appropriate capabilities for connecting to the host. By default, the system selects a MID Server with SSH capabilities.
 
-</td></tr><tr><td id="d342001e182">
+</td></tr><tr><td id="d80666e182">
 
 **Long running**
 
@@ -87,16 +88,16 @@ MID Server with the appropriate capabilities for connecting to the host. By defa
 
 If checked, disables the SSH connection timeout for commands that might take longer to run than the default 60 seconds. Orchestration periodically checks the running process to determine its status until it is finished.
 
-</td></tr><tr><td id="d342001e191">
+</td></tr><tr><td id="d80666e191">
 
 **Must Sudo**
 
 </td><td>
 
-If checked, enables the use of [sudo](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) to run commands.
+If checked, enables the use of sudo to run commands.
 
 </td></tr></tbody>
-</table>    **Note:** You can map parameter values in a test payload to variables in the **Outputs** tab automatically. See [automap output variables](automap-output-variable-inputs.md).
+</table>    **Note:** You can map parameter values in a test payload to variables in the **Outputs** tab automatically. See [automap output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/automap-output-variable-inputs.md).
 
 
 ## Advanced SSH script options
@@ -134,16 +135,16 @@ rm ~/specialFunctions.py
 
 ## What to do next
 
--   Use [auto-mapping](automap-output-variable-inputs.md) to generate outputs and parsing rules
--   If you do not use auto-mapping, you can manually [create output variables](t_CreateAnOutputVariable.md#) and [create parsing rules](t_CreateAParsingRule.md#)
+-   Use [auto-mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/automap-output-variable-inputs.md) to generate outputs and parsing rules
+-   If you do not use auto-mapping, you can manually [create output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateAnOutputVariable.md) and [create parsing rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateAParsingRule.md)
 
-**Parent Topic:**[Orchestration custom activity templates](../concept/c_ActivityDesignerComponents.md)
+**Parent Topic:**[Orchestration custom activity templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_ActivityDesignerComponents.md)
 
 ## SSH template execution parameters
 
 Use execution parameters to create the input process script in the **Pre Processing** form of the activity designer.
 
-For descriptions of the command fields, see [Configure the SSH execution command](t_CreateAnSSHActivity.md#).
+For descriptions of the command fields, see [Configure the SSH execution command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateAnSSHActivity.md).
 
 **Note:** You must use the `executionParam.` prefix with all variables in this table.
 
@@ -257,7 +258,7 @@ Array of hashmap
 
 </td><td>
 
-Capability values used to select the MID Server. For more information, see [MID Server capabilities](../../../product/mid-server/reference/r_MIDServerCapabilities.md). If there are additional capabilities that are assigned by value, use this example to customize the MID Server selection:```
+Capability values used to select the MID Server. For more information, see [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown). If there are additional capabilities that are assigned by value, use this example to customize the MID Server selection:```
 var valueCapability = {'NEW_MID_CAPABIILTY':'NEW_MID_CAPABILITY_VALUE'};
 executionParam.valueCapabilities.push(valueCapability);
 ```
@@ -292,7 +293,7 @@ Boolean
 
 </td><td>
 
-Indicates whether or not this activity must use sudo to run root commands. A value of true indicates that [sudo](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) must be used.
+Indicates whether or not this activity must use sudo to run root commands. A value of true indicates that sudo SSH credentials must be used.
 
 </td></tr></tbody>
 </table>## SSH post-processing parameters and payload parsing
@@ -416,7 +417,7 @@ Role required: activity\_creator, admin
 
     The system formats the variable in the proper syntax for the command.
 
-    ![SSH execution command](../image/SSHExecutionCommand.png "SSH execution command")
+    \[Omitted image "SSHExecutionCommand.png"\] Alt text: SSH execution command
 
 2.  Complete the fields shown in the table.
 
@@ -434,7 +435,7 @@ Input
 
 </td><td>
 
-Input variable builder. [Create input variables](CreateInputVariables.md#) to map to available fields.
+Input variable builder. [Create input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/CreateInputVariables.md) to map to available fields.
 
 </td></tr><tr><td>
 
@@ -466,7 +467,7 @@ Credential tag
 
 </td><td>
 
-The [Credential aliases for Orchestration activities](https://www.servicenow.com/docs/access?context=c_AssignCredsOrchActivities&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) to use when running the command.
+The Credential aliases for Orchestration activities to use when running the command.
 
 </td></tr><tr><td>
 
@@ -490,7 +491,7 @@ Must Sudo
 
 </td><td>
 
-Check box to allow the use of [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) to run commands.
+Check box to allow the use of SSH credentials to run commands.
 
 </td></tr></tbody>
 </table>3.  Click **Save**.

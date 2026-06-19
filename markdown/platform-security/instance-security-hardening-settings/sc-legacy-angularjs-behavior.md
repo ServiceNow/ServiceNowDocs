@@ -2,6 +2,7 @@
 title: Disable legacy AngularJS behavior \[Removed in Security Center 2.2\]
 description: Use the glide.angular.legacy property to protect from potential security risks arising from attacks on vulnerabilities discovered in outdated AngularJS library versions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-legacy-angularjs-behavior.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -23,12 +24,12 @@ Set **glide.angular.legacy** to the recommended value of **false** to prevent ol
 |---------|-----------|
 |Property name|**glide.angular.legacy**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Architecture, design, and threat modeling](sc-architecture-design-threat-molding.md)|
+|Category|[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)|
 |Purpose|The system property is a failsafe in case any organizations depend on the non-patched versions of angularJS to run their custom implementations.|
 |Recommended value|False|
 |Configuration type|Boolean|
 |Security risk|\(High\) Using older versions of angularJS could potentially lead to security risks arising from attacks on vulnerabilities discovered in outdated AngularJS library versions.|
 |Security risk rating|7.1|
 
-**Parent Topic:**[Architecture, design, and threat modeling](sc-architecture-design-threat-molding.md)
+**Parent Topic:**[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
 

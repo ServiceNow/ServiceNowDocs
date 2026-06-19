@@ -2,6 +2,7 @@
 title: Domain separation and Service Graph Connectors
 description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is supported for Service Graph Connectors. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-domain-separation.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -25,7 +26,7 @@ The support level is Standard but has some exceptions or special conditions.
 
 Sample use case: An Admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## How domain separation works in Service Graph Connectors
 
@@ -33,9 +34,9 @@ Domain separation is supported only for multi-instance Service Graph Connectors.
 
 **Note:** The Identification and Reconciliation Engine \(IRE\) uses strict domain separation in releases prior to San Diego. That is, hierarchical domains are not supported.
 
-You must install the Domain Support - Domain Extensions Installer \(`com.glide.domain.msp_extensions.installer`\) plugin before working with the Service Graph Connectors tables. See [Request domain separation](https://www.servicenow.com/docs/csh?topicname=t_ActivateDomainSeparation&version=latest).
+You must install the Domain Support - Domain Extensions Installer \(`com.glide.domain.msp_extensions.installer`\) plugin before working with the Service Graph Connectors tables. See [Request domain separation](https://www.servicenow.com/docs/access?context=t_ActivateDomainSeparation).
 
-Tables that do not have a Domain \(sys\_domain\) column are not domain-separated. You can add a Domain \(sys\_domain\) column to an existing table. See [Add a domain field to a table](https://servicenow.com/docs/csh?topicname=t_AddADomainFieldToATable.html&version=latest).
+Tables that do not have a Domain \(sys\_domain\) column are not domain-separated. You can add a Domain \(sys\_domain\) column to an existing table. See [Add a domain field to a table](https://www.servicenow.com/docs/access?context=t_AddADomainFieldToATable).
 
 **Note:**
 
@@ -48,5 +49,5 @@ For more information about domain separation for Service Graph Connectors, see t
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

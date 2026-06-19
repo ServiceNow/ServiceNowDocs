@@ -2,6 +2,7 @@
 title: Testing common control and implementing results on multiple reliant entities
 description: Instead of generating controls for individual entities and testing each entity separately with an individual control, you can use a common control and associate a primary entity to it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/common-controls-multiple-rel-entities.html
 release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -17,7 +18,7 @@ Instead of generating controls for individual entities and testing each entity s
 
 Test the common control for control tests, indicators, attestations, issues, and policy exceptions. Use the test results that are inheritable and implement them on all the reliant entities associated to the common control.
 
-![Multiple entities linked to a common control.](../image/CommonControlOverview.png "Multiple entities linked to a common control")
+\[Omitted image "CommonControlOverview.png"\] Alt text: Multiple entities linked to a common control.
 
 Using common controls gives you the ability to:
 
@@ -37,10 +38,10 @@ Requirements and use case:
 
 For more information, see:
 
--   [Tables installed](../../grc-policy-and-compliance/reference/r_InstallWPolAndCompl.md#) for descriptions of the common item m2m tables.
--   [Control form changes](../task/create-control-ws.md) with respect to common controls.
--   [Convert standard control to common control](../task/convert-standard-control-common.md) to add reliant entities.
--   [Action handler components](../../grc-common/reference/components-item-gen-process.md#table_cgt_f4d_ftb) for common controls.
--   [Operational changes in item generation of common controls](../../grc-common/reference/item-gen-action-types.md).
--   [Impact of common control on compliance score calculation](compliance-score-common-control.md).
+-   [Tables installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md) for descriptions of the common item m2m tables.
+-   [Control form changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/create-control-ws.md) with respect to common controls.
+-   [Convert standard control to common control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/convert-standard-control-common.md) to add reliant entities.
+-   [Action handler components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/components-item-gen-process.md) for common controls.
+-   [Operational changes in item generation of common controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/item-gen-action-types.md).
+-   [Impact of common control on compliance score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/compliance-score-common-control.md).
 

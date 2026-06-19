@@ -2,7 +2,10 @@
 title: Cloud Observability
 description: Gain insights to detect and quickly respond to changes in cloud-native and monolithic applications.placeholder
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/cloud-observability/cloud-observability-landing.html
 release: zurich
+product: Cloud Observability
+classification: cloud-observability
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -22,13 +25,13 @@ Cloud Observability offers a holistic solution that unifies critical telemetry d
 
 ## Cloud Observability Workflow
 
-![Cloud Observability Workflow diagram](../image/cloud-observability-workflow-v4.png)
+\[Omitted image "cloud-observability-workflow-v4.png"\] Alt text: Cloud Observability Workflow diagram
 
 ## Important Links
 
 <table id="table_uw5_lxw_sjb"><tbody><tr><td>
 
-![](../image/observability-login.svg)
+\[Omitted image "observability-login.svg"\] Alt text:
 
 </td><td>
 
@@ -38,7 +41,7 @@ Cloud Observability offers a holistic solution that unifies critical telemetry d
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-documentation.svg)
+\[Omitted image "bus-documentation.svg"\] Alt text:
 
 </td><td>
 
@@ -48,7 +51,7 @@ Cloud Observability offers a holistic solution that unifies critical telemetry d
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)
+\[Omitted image "bus-integration-and-apis.svg"\] Alt text:
 
 </td><td>
 
@@ -58,7 +61,7 @@ Cloud Observability offers a holistic solution that unifies critical telemetry d
 
 </td></tr><tr><td>
 
-![](../image/observability-github.svg)
+\[Omitted image "observability-github.svg"\] Alt text:
 
 </td><td>
 

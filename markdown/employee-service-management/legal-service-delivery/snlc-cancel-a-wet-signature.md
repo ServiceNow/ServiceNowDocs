@@ -2,6 +2,7 @@
 title: Cancel a wet signature process for non-disclosure agreement legal requests
 description: As a legal user, cancel the wet signature process for contract documents in NDA legal requests that have been sent to signatories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/snlc-cancel-a-wet-signature.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -27,15 +28,15 @@ The state of the contract request should be Awaiting signature.
 
 1.  Open a legal request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d695257e74">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d281868e74">
 
 Method
 
-</th><th align="left" id="d695257e77">
+</th><th align="left" id="d281868e77">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d695257e83">
+</th></tr></thead><tbody><tr><td id="d281868e83">
 
 **__Employee Center__**
 
@@ -46,7 +47,7 @@ Actions
 3.  Open the non-disclosure agreement request.
 
 
-</td></tr><tr><td id="d695257e116">
+</td></tr><tr><td id="d281868e116">
 
 **__Legal Service Portal__**
 
@@ -68,5 +69,5 @@ Actions
 
 The contract status updates to Signature cancelled, and a notification email is sent to all signatories.
 
-**Parent Topic:**[Signature workflow for a request](../concept/snlc-lsd-signature-workflow.md)
+**Parent Topic:**[Signature workflow for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md)
 

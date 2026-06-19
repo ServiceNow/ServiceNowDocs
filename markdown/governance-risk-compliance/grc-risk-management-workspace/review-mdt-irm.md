@@ -2,6 +2,7 @@
 title: Review a metric data task
 description: Review a metric data task and then either approve or reject the task based on your review.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/review-mdt-irm.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -27,19 +28,19 @@ If you have been assigned as an approver as part of a metric definition record, 
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Select the Metric tasks ![](../images/metric-tasks-irm.png) icon.
+2.  Select the Metric tasks \[Omitted image "metric-tasks-irm.png"\] Alt text: icon.
 
 3.  Review the metric data tasks and perform one of the following actions.
 
-<table id="choicetable_ypj_xgr_z5b"><thead><tr><th align="left" id="d376210e85">
+<table id="choicetable_ypj_xgr_z5b"><thead><tr><th align="left" id="d127623e85">
 
 Choice
 
-</th><th align="left" id="d376210e88">
+</th><th align="left" id="d127623e88">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d376210e94">
+</th></tr></thead><tbody><tr><td id="d127623e94">
 
 **Reject**
 
@@ -49,7 +50,7 @@ Action
 2.  Select **Reject** and provide your reason for rejection.
 
 
-</td></tr><tr><td id="d376210e115">
+</td></tr><tr><td id="d127623e115">
 
 **Approve**
 
@@ -65,5 +66,5 @@ Action
 4.  Select the check boxes that you want and then select **Reject** or **Approve**.
 
 
-**Parent Topic:**[Using GRC: Metrics to provide data](../concept/using-metrics-irm.md)
+**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/using-metrics-irm.md)
 

@@ -2,6 +2,7 @@
 title: Factors affecting compliance score for citations
 description: Compliance scores for citations dynamically change based on changes to controls and control objectives.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/factors-affecting-compliance-score-for-citations.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

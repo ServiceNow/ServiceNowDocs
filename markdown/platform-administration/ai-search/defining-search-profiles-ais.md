@@ -2,6 +2,7 @@
 title: Search profiles in AI Search
 description: Search profiles contain settings for a search experience, including synonyms, stop words, typo handling, Genius Results, and result improvement rules. Define a search profile for each unique search experience that you want to offer in a ServiceNow AI Platform application. Publish search profiles to make them available in your search applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/defining-search-profiles-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -18,7 +19,7 @@ Search profiles contain settings for a search experience, including synonyms, st
 
 A search profile contains settings that determine how AI Search generates search results for a given search experience. Publishing a search profile makes it available so you can link it to one or more search application configurations.
 
-A search application configuration specifies a search profile to use, and also determines how generated search results are displayed in the application. To learn about search application configuration display settings, see [Search application configurations](defining-search-app-cfgs-ais.md).
+A search application configuration specifies a search profile to use, and also determines how generated search results are displayed in the application. To learn about search application configuration display settings, see [Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/defining-search-app-cfgs-ais.md).
 
 The following table describes the search experience settings that you can configure in a search profile.
 
@@ -32,7 +33,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Search sources](search-sources-ais.md)
+[Search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/search-sources-ais.md)
 
 </td><td>
 
@@ -40,7 +41,7 @@ Link one or more search sources to a search profile. Search sources give adminis
 
 </td></tr><tr><td>
 
-[Synonyms](synonyms-ais.md)
+[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/synonyms-ais.md)
 
 </td><td>
 
@@ -48,7 +49,7 @@ Define language-specific dictionaries of terms that AI Search treats as equivale
 
 </td></tr><tr><td>
 
-[Stop words](stop-words-ais.md)
+[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/stop-words-ais.md)
 
 </td><td>
 
@@ -56,7 +57,7 @@ Define language-specific dictionaries of common terms for AI Search to remove fr
 
 </td></tr><tr><td>
 
-[Typo handling](typo-handling-ais.md)
+[Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/typo-handling-ais.md)
 
 </td><td>
 
@@ -64,7 +65,7 @@ Configure settings for derivation of auto-correction terms from search source in
 
 </td></tr><tr><td>
 
-[Genius Results](genius-results-ais.md)
+[Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/genius-results-ais.md)
 
 </td><td>
 
@@ -72,7 +73,7 @@ Analyze search query intent and display the best answers as Genius Result answer
 
 </td></tr><tr><td>
 
-[Result improvement rules](result-improvement-rules-ais.md)
+[Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/result-improvement-rules-ais.md)
 
 </td><td>
 
@@ -93,26 +94,26 @@ A search profile can have one of these states:
 -   **Draft**: The search profile is saved with unpublished changes.
 -   **Published**: The search profile is saved with all changes published.
 
-In the **All** &gt; **AI Search** &gt; **Search Experience** &gt; **Search Profiles** list, search profiles with the **New** state display an alert triangle icon ![](../image/icon-alert-triangle.png). An informational message notifies you to publish these search profiles.
+In the **All** &gt; **AI Search** &gt; **Search Experience** &gt; **Search Profiles** list, search profiles with the **New** state display an alert triangle icon \[Omitted image "icon-alert-triangle.png"\] Alt text:. An informational message notifies you to publish these search profiles.
 
--   **[Create a search profile](../task/create-search-profile-ais.md)**  
+-   **[Create a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-search-profile-ais.md)**  
 Create a new search profile to store search experience settings for a search application.
--   **[Clone a search profile](../task/clone-search-profile-ais.md)**  
+-   **[Clone a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/clone-search-profile-ais.md)**  
 Create a copy of an existing search profile. The cloned search profile retains search sources, stop word and synonym dictionaries, Genius Result configurations, and result improvement rules from the original search profile.
--   **[Publish an AI Search search profile](../task/publish-search-profile-ais.md)**  
+-   **[Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/publish-search-profile-ais.md)**  
 Publish a search profile to make pending changes to its settings take effect in linked search applications.
--   **[Link a search source to a search profile](../task/link-search-source-profile-ais.md)**  
+-   **[Link a search source to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/link-search-source-profile-ais.md)**  
 Link search sources to a search profile to specify the content users can search through that profile.
--   **[Synonyms](synonyms-ais.md)**  
+-   **[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/synonyms-ais.md)**  
 Synonyms expand search queries to include additional terms with equivalent meaning or usage. Improve search recall by configuring synonym dictionaries and defining synonyms.
--   **[Stop words](stop-words-ais.md)**  
+-   **[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/stop-words-ais.md)**  
 Stop words remove search query terms that don't produce meaningful results. Improve search precision and relevancy by configuring stop word dictionaries and defining stop words.
--   **[Typo handling](typo-handling-ais.md)**  
+-   **[Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/typo-handling-ais.md)**  
 AI Search replaces misspelled search query terms with auto-correction terms derived from indexed content. Configure typo handling dictionary settings to control derivation of auto-correction terms.
--   **[Genius Results](genius-results-ais.md)**  
+-   **[Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/genius-results-ais.md)**  
 Configure Genius Results to display AI-powered answer cards alongside search results. These cards provide direct answers to user queries, reducing the need to browse multiple search results.
--   **[Result improvement rules](result-improvement-rules-ais.md)**  
+-   **[Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/result-improvement-rules-ais.md)**  
 Define rules with configurable trigger conditions to boost, block, or promote search results for specific searches. You can also boost search results for documents matching elements of the user context, such as a user's country, OS, or device type.
 
-**Parent Topic:**[Configuring AI Search](configuring-ais.md)
+**Parent Topic:**[Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configuring-ais.md)
 

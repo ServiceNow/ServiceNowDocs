@@ -2,6 +2,7 @@
 title: Activate the CI Lifecycle Management scheduled job
 description: When starting to use the CI Lifecycle Management module, ensure to activate the CI Lifecycle Management - Restore Internal State Management Tables scheduled job which is disabled by default. This scheduled job continuously checks and maintains the data integrity of all internal CI Lifecycle Management tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/enable-cilifecyclemgmt-job.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -37,5 +38,5 @@ When CI Lifecycle Management operations do not complete properly, for example du
 4.  Click the **Save** icon.
 
 
-**Parent Topic:**[CMDB CI Lifecycle Management \(legacy\)](../concept/cmdb-ci-lifecycle-mgmt.md)
+**Parent Topic:**[CMDB CI Lifecycle Management \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-ci-lifecycle-mgmt.md)
 

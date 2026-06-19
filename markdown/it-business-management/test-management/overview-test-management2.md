@@ -2,6 +2,7 @@
 title: Test Management 2.0 overview
 description: Test Management 2.0 helps you deliver software products more efficiently and with fewer defects by managing and streamlining testing processes for both testers and managers. You can create multiple versions of a test and integrate with Agile Development 2.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/test-management/overview-test-management2.html
 release: zurich
 product: Test Management
 classification: test-management
@@ -15,11 +16,11 @@ breadcrumb: [Test Management 2.0, Test Management applications, Strategic Portfo
 
 Test Management 2.0 helps you deliver software products more efficiently and with fewer defects by managing and streamlining testing processes for both testers and managers. You can create multiple versions of a test and integrate with Agile Development 2.0.
 
-To learn about the different versions of Test Management and to choose the version that helps you meet your testing requirements, see [Test Management applications](test-management-overview.md).
+To learn about the different versions of Test Management and to choose the version that helps you meet your testing requirements, see [Test Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/test-management-overview.md).
 
 **Important:**
 
-Test Management 2.0 is not active by default on all instances. To use Test Management 2.0, activate the `com.snc.test_management.2.0` plugin. For more information, see [Activate Test Management 2.0](../task/activate-test-management2.md).
+Test Management 2.0 is not active by default on all instances. To use Test Management 2.0, activate the `com.snc.test_management.2.0` plugin. For more information, see [Activate Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/activate-test-management2.md).
 
 <table id="table_y12_nws_jdb"><thead><tr><th>
 
@@ -75,7 +76,7 @@ Test
 
 </td><td>
 
-A collection of conditions or steps used to determine whether a feature is working correctly. A test can also include an expected result, which is used to determine if the test case passes or fails. You can use the [Tests](../task/create-test2.md) module to create and maintain different versions of a test.
+A collection of conditions or steps used to determine whether a feature is working correctly. A test can also include an expected result, which is used to determine if the test case passes or fails. You can use the [Tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/create-test2.md) module to create and maintain different versions of a test.
 
 </td></tr><tr><td>
 
@@ -83,7 +84,7 @@ Test set
 
 </td><td>
 
-A collection of related tests. A test can be a part of one or more test sets.You can use the [Test Sets](../task/create-test-set.md) module to create a test set and group related tests into that test set.
+A collection of related tests. A test can be a part of one or more test sets.You can use the [Test Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/create-test-set.md) module to create a test set and group related tests into that test set.
 
 </td></tr><tr><td>
 
@@ -91,7 +92,7 @@ Test plan
 
 </td><td>
 
-Plan describing how a product or a feature is to be tested and the time frame in which it must be executed. A test plan can be further broken into test cycles, and test cycles into test execution suites.You can use the [Test Plans](../task/create-test-plan.md#) module to create test plans.
+Plan describing how a product or a feature is to be tested and the time frame in which it must be executed. A test plan can be further broken into test cycles, and test cycles into test execution suites.You can use the [Test Plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/create-test-plan.md) module to create test plans.
 
 </td></tr><tr><td>
 
@@ -120,11 +121,11 @@ Detailed report of tests results, such as start time and end time of test execut
 </td></tr></tbody>
 </table>## Getting started with Test Management 2.0
 
-1.  Activate the Test Management 2.0 plugin. For more information, see [Activate Test Management 2.0](../task/activate-test-management2.md).
-2.  Create your first test. For more information, see [Create a test in Test Management 2.0](../task/create-test2.md).
-3.  Create a test set to organize related tests. For more information, see [Create a test set in Test Management 2.0](../task/create-test-set.md).
-4.  Create a test plan and assign tests to testers. For more information, see [Create a test plan using Test Board in Test Management 2.0](../task/create-test-plan.md#).
-5.  Run your assigned tests. For more information, see [Run your test assignments in Test Management 2.0](../task/run-your-test-assignments.md).
+1.  Activate the Test Management 2.0 plugin. For more information, see [Activate Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/activate-test-management2.md).
+2.  Create your first test. For more information, see [Create a test in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/create-test2.md).
+3.  Create a test set to organize related tests. For more information, see [Create a test set in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/create-test-set.md).
+4.  Create a test plan and assign tests to testers. For more information, see [Create a test plan using Test Board in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/create-test-plan.md).
+5.  Run your assigned tests. For more information, see [Run your test assignments in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/run-your-test-assignments.md).
 
-**Parent Topic:**[Test Management 2.0](../reference/test-management2-landing-page.md)
+**Parent Topic:**[Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/test-management2-landing-page.md)
 

@@ -2,6 +2,7 @@
 title: Using Issue Auto Resolution
 description: You can proactively deflect issues and expedite the resolution process for your agent and user with the Issue Auto Resolution \(IAR\) application. Through machine learning and Natural Language Understanding \(NLU\), users get immediate self-service and can access Virtual Agent topics, Knowledge articles, and catalog items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/auto-resolution-va.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -31,14 +32,14 @@ For information about using a custom NLU model and intents with Issue Auto Resol
 
 ## Issue Auto Resolution agentic workflows
 
-To learn more about the agentic workflows for Issue Auto Resolution for ITSM and HR Service Delivery, see [Issue Auto Resolution for ITSM Virtual Agent](https://www.servicenow.com/docs/access?context=itsm-va-auto-resolution&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US) and [Issue Auto Resolution for HR Service Delivery](https://www.servicenow.com/docs/access?context=issue-auto-resolution-hr&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+To learn more about the agentic workflows for Issue Auto Resolution for ITSM and HR Service Delivery, see Issue Auto Resolution for ITSM Virtual Agent and Issue Auto Resolution for HR Service Delivery.
 
--   **[Configure and run an Issue Auto Resolution simulation](../task/configure-ar-simulations.md)**  
+-   **[Configure and run an Issue Auto Resolution simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-ar-simulations.md)**  
 Use the incident data from your organization to run simulations from the matching intents that the Issue Auto Resolution application based its predictions on from the case descriptions.
--   **[Issue Auto Resolution configuration settings](iar-channels.md)**  
+-   **[Issue Auto Resolution configuration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/iar-channels.md)**  
 Learn about the different configuration settings that you can use for the Issue Auto Resolution \(IAR\) application. For example, you can see the status of your Issue Auto Resolution configurations and decide to turn off or edit each configuration setting to fit your organization's needs.
--   **[Issue Auto Resolution diagnostic chat](iar-diagnostic-chat.md)**  
+-   **[Issue Auto Resolution diagnostic chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/iar-diagnostic-chat.md)**  
 Admin users can initiate a chat conversation to troubleshoot the settings and functionality of Issue Auto Resolution if an issue arises that wasn't addressed as expected.
 
-**Parent Topic:**[Case and incident deflection in Virtual Agent](case-incident-deflection-virtual-agent.md)
+**Parent Topic:**[Case and incident deflection in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/case-incident-deflection-virtual-agent.md)
 

@@ -2,6 +2,7 @@
 title: Supported browsers for Visual Task Boards
 description: The system supports Visual Task Boards on most modern browsers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/visual-task-boards/r\_BrowsersVTB.html
 release: zurich
 product: Visual Task Boards
 classification: visual-task-boards
@@ -20,13 +21,13 @@ The system supports Visual Task Boards on most modern browsers.
 -   The latest public release of Firefox or Firefox ESR
 -   The latest public release of Chrome
 -   Safari version 12
--   Access Visual Task Boards on your mobile device using either a browser or the native mobile app. For more information, see [Tested devices and supported versions for ServiceNow mobile apps](https://www.servicenow.com/docs/access?context=mobile-supported-devices&version=zurich&pubname=zurich-mobile&ft:locale=en-US).
+-   Access Visual Task Boards on your mobile device using either a browser or the native mobile app. For more information, see .
 
-For more information, see [Browser support](../../../administer/navigation-and-ui/reference/browser-support.md).
+For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configure-user-experiences/browser-support.md).
 
 ## Scripting support
 
 Visual task boards do not interact with client scripts. Use a UI policy or a data policy instead.
 
-**Parent Topic:**[Visual Task Boards reference](../concept/vis-task-boards-ref.md)
+**Parent Topic:**[Visual Task Boards reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/vis-task-boards-ref.md)
 

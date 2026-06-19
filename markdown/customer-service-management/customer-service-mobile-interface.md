@@ -2,7 +2,10 @@
 title: Mobile experience for CSM
 description: Manage customer service cases from a mobile device with the Customer Service Management mobile application. Stay connected and access information in real time to complete tasks quickly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-service-mobile-interface.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -19,9 +22,9 @@ Activate the Customer Service Mobile plugin \(com.sn\_csm\_mobile\) to use the a
 
 **Note:** The Customer Service Management mobile application supports product cases.
 
-For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For more information, see Activate a plugin.
 
-![Customer service mobile launcher screen that displays the agent's cases needing attention and cases that are new, active, and active critical.](../image/csm-mobile-agent.png "Customer Service mobile application applet launcher for agent")
+\[Omitted image "csm-mobile-agent.png"\] Alt text: Customer service mobile launcher screen that displays the agent's cases needing attention and cases that are new, active, and active critical.
 
 With the customer service agent role \(sn\_customerservice\_agent\), you can:
 
@@ -40,7 +43,7 @@ With the system administrator role, you can configure the Customer Service Manag
 -   Configure the functions associated with swipe actions and top menu actions.
 -   Configure and create push notifications.
 
-![Customer Service mobile launcher screen that displays the manager's cases that are new, active, and active critical, and also approvals needed for escalations and change requests.](../image/csm-mobile-manager.png "Customer Service mobile application applet launcher for manager")
+\[Omitted image "csm-mobile-manager.png"\] Alt text: Customer Service mobile launcher screen that displays the manager's cases that are new, active, and active critical, and also approvals needed for escalations and change requests.
 
 With the customer service manager role \(sn\_customerservice\_manager\) you can:
 
@@ -64,17 +67,17 @@ Once the Customer Service Management mobile application is activated and configu
 
 **Note:** You can activate the Customer Service Mobile plugin \(com.sn\_csm\_mobile\) from the Customer Service Management guided setup.
 
-For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For more information, see Activate a plugin.
 
--   **[CSM application overview](../reference/customer-service-mobile-overview.md)**  
+-   **[CSM application overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-mobile-overview.md)**  
 Customer service agents and managers can use the applet launcher and applets in the Customer Service mobile application to view notifications and manage customer service cases.
--   **[Get started with the Customer Service mobile application](../task/install-customer-service-mobile-app.md)**  
+-   **[Get started with the Customer Service mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/install-customer-service-mobile-app.md)**  
 Use the ServiceNow Agent mobile app to access the Customer Service mobile application. Then log in to an instance as an agent or manager and work on your customer service cases.
 
-**Parent Topic:**[Customer Service Management](c_CustomerServiceManagement.md)
+**Parent Topic:**[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/c_CustomerServiceManagement.md)
 
 **Related topics**  
 
 
-[Getting started with ServiceNow Agent](https://www.servicenow.com/docs/access?context=mobile-experience&version=zurich&pubname=zurich-mobile&ft:locale=en-US)
+[bundle-mobile.mobile-experience]
 

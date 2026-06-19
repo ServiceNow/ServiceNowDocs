@@ -2,6 +2,7 @@
 title: Change Management considerations
 description: Consider these points while implementing the CSDM framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/itsm-change-use-case-trouble.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -23,5 +24,5 @@ Consider these points while implementing the CSDM framework.
 
 [See the video: How Change Management leverages the CSDM](https://www.youtube.com/watch?v=3iCxTeU4ZTA&list=PLkGSnjw5y2U7QNr9jL6TAgwQvYBI_LEtK&index=43)
 
-**Parent Topic:**[Applying CSDM guidelines to Change Management](itsm-change-use-case-product-view.md)
+**Parent Topic:**[Applying CSDM guidelines to Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/itsm-change-use-case-product-view.md)
 

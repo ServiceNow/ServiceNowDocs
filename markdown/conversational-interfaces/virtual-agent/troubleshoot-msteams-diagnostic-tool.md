@@ -2,6 +2,7 @@
 title: Capture common errors and provide resolution steps for Microsoft Teams using the Conversational Interfaces Diagnostic Tool
 description: The Conversational Interfaces Diagnostic Tool runs a health report to define and capture information for different categories of the Conversational Integration with Microsoft Teams app, such as plugin details, configuration settings, system properties, integration failures, and so on, and lets the user validate and review these settings to start a bot-conversation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/troubleshoot-msteams-diagnostic-tool.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -77,5 +78,5 @@ Resolving errors using the CI Diagnostic Tool includes the following steps:
     Finally, the CI Diagnostic Tool asks you to check if your issue is resolved. Select **Yes** if the issue is resolved.
 
 
-**Parent Topic:**[Virtual Agent feature support in Microsoft Teams conversations](va-teams-other-features.md)
+**Parent Topic:**[Virtual Agent feature support in Microsoft Teams conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-teams-other-features.md)
 

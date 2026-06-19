@@ -2,6 +2,7 @@
 title: Create a Learning challenge
 description: Create a Learning challenge to challenge yourself to complete a particular number of courses within a time frame that you choose.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/learning-challenge.html
 release: zurich
 product: Learning Core
 classification: learning-core

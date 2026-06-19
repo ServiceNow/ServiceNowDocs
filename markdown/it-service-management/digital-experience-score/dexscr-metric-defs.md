@@ -2,6 +2,7 @@
 title: DEX Score metric definitions
 description: List of the base system DEX Score metric definitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-experience-score/dexscr-metric-defs.html
 release: zurich
 product: Digital Experience Score
 classification: digital-experience-score
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Digital Experience Score, Digital End-User Experience, I
 
 List of the base system DEX Score metric definitions.
 
-The DEX Score metrics are calculated for a specific application or device group within a defined time range and location. Device and application metrics that are aggregated periodically at daily, weekly, or monthly intervals are normalized on a scale of 0-100. For more information, see [DEX Score normalization for metric scores](dexscr-dex-score-normalization.md).
+The DEX Score metrics are calculated for a specific application or device group within a defined time range and location. Device and application metrics that are aggregated periodically at daily, weekly, or monthly intervals are normalized on a scale of 0-100. For more information, see [DEX Score normalization for metric scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-experience-score/dexscr-dex-score-normalization.md).
 
 ## Application Metrics
 
@@ -231,9 +232,9 @@ The speed at which a device sends data to the network.
 </td></tr></tbody>
 </table>## User sentiment metric
 
-The user sentiment metric is calculated based on survey ratings collected from application and device users. Users rate their experiences in the range of 1-5. These ratings are then normalized on a scale of 0-100 based on weightage defined in the survey calculation table. For more information, see [DEX Score normalization for metric scores](dexscr-dex-score-normalization.md).
+The user sentiment metric is calculated based on survey ratings collected from application and device users. Users rate their experiences in the range of 1-5. These ratings are then normalized on a scale of 0-100 based on weightage defined in the survey calculation table. For more information, see [DEX Score normalization for metric scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-experience-score/dexscr-dex-score-normalization.md).
 
-You can configure the DEX Score survey configuration to identify the recipients, methods, and timing for sending surveys. For more information, see [Update DEX Score survey configuration](../task/dexscr-set-survey-config.md).
+You can configure the DEX Score survey configuration to identify the recipients, methods, and timing for sending surveys. For more information, see [Update DEX Score survey configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-experience-score/dexscr-set-survey-config.md).
 
 |Metric|Description|
 |------|-----------|
@@ -256,7 +257,7 @@ Customer satisfaction scores for incident resolved
 
 </td><td>
 
-The score for customer satisfaction surveys sent to users for resolved incidents. Scores are calculated only for those surveys that have been successfully submitted by users.Normalized values for surveys are considered and surveys with normalized values greater than zero are assigned weights on a scale of 0–100. For more information, see [Normalized value for an assessment](https://www.servicenow.com/docs/access?context=example-normalized-value-calc&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+The score for customer satisfaction surveys sent to users for resolved incidents. Scores are calculated only for those surveys that have been successfully submitted by users.Normalized values for surveys are considered and surveys with normalized values greater than zero are assigned weights on a scale of 0–100. For more information, see .
 
 </td></tr><tr><td>
 
@@ -317,5 +318,5 @@ The total duration of outages or degradation \(in hours\) caused by incidents.It
 </td></tr></tbody>
 </table>The number of closed major incidents, resolved incidents, and total outages due to incidents are metrics that help evaluate service desk experience but don’t contribute to the experience score.
 
-**Parent Topic:**[Digital Experience Score​ reference](../concept/dexscr-dex-score-reference.md)
+**Parent Topic:**[Digital Experience Score​ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-experience-score/dexscr-dex-score-reference.md)
 

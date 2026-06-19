@@ -2,6 +2,7 @@
 title: Set improvement opportunities using Finding Builder
 description: Set improvement opportunities from the Classic view using Finding Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/find-build-classic.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -35,12 +36,12 @@ Set improvement opportunities from the Classic view using Finding Builder.
 
 4.  To create a rule-based improvement opportunity, select **Create** on the Rule-based card.
 
-    For more information, see [Set rule-based improvement opportunity](rule-based-builder.md).
+    For more information, see [Set rule-based improvement opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/rule-based-builder.md).
 
 5.  To create an automated improvement opportunity, select **Create** on any of the automated opportunity card.
 
-    For more information, see [Automated improvement opportunities](../concept/automated-findings.md).
+    For more information, see [Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/automated-findings.md).
 
 
-**Parent Topic:**[Setting improvement opportunities from Classic view](../concept/impr-opp-classic-project.md)
+**Parent Topic:**[Setting improvement opportunities from Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/impr-opp-classic-project.md)
 

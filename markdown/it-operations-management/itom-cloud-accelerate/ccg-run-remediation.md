@@ -2,6 +2,7 @@
 title: Run remediation
 description: Run the appropriate remediation action to fix the non-compliant cloud configuration identified during the Cloud Configuration Governance scan run.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-cloud-accelerate/ccg-run-remediation.html
 release: zurich
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate

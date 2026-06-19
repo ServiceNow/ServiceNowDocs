@@ -2,6 +2,7 @@
 title: Sign document templates for PDF documents using CAC or PIV smart card
 description: Use the PDF document template to initiate digital signing, review, and generate a filled PDF document using a Common Access Card \(CAC\) or Personal Identification Verification \(PIV\) card.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/sign-pdf-documents-cac-piv.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -19,7 +20,7 @@ Use the PDF document template to initiate digital signing, review, and generate 
 
 Adobe Acrobat Reader must be installed on your desktop.
 
-A document template must be set up for signing documents. For more information, see [Set up a document template for signing documents using a CAC or PIV smart card](create-document-template.md).
+A document template must be set up for signing documents. For more information, see [Set up a document template for signing documents using a CAC or PIV smart card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/create-document-template.md).
 
 Role required: none
 
@@ -29,7 +30,7 @@ Role required: none
 
 1.  Initiate the PDF document signing process with a custom implementation using script.
 
-    For more information, see [Using Document Templates: Custom use case](https://www.servicenow.com/docs/access?context=doc-temp-gen&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+    For more information, see .
 
     **Note:** HR cases can skip this step as custom implementation using scripts is for cases related to non-HR applications.
 
@@ -56,5 +57,5 @@ Role required: none
     The signature is successfully captured and authenticated after document validation.
 
 
-**Parent Topic:**[Digital signature for PDF documents using CAC or PIV smart cards](../concept/digital-signature.md)
+**Parent Topic:**[Digital signature for PDF documents using CAC or PIV smart cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/digital-signature.md)
 

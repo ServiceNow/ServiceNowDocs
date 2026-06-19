@@ -2,6 +2,7 @@
 title: Update or add text attributes
 description: Add, edit, update, or remove text attributes in the CAD Editor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/indoor-mapping/update-text-autocadv2.html
 release: zurich
 product: Indoor Mapping
 classification: indoor-mapping
@@ -27,13 +28,13 @@ Role required: admin
 
 2.  Select the appropriate **Active layer** on the CAD editor can.
 
-3.  Select the Text tool icon \(![Text tool icon.](../images/wsd-text-icon.png)\) from the menu.
+3.  Select the Text tool icon \(\[Omitted image "wsd-text-icon.png"\] Alt text: Text tool icon.\) from the menu.
 
 4.  Select to add the text.
 
 5.  The text edit panel opens.
 
-    ![Text panel to add a text element.](../images/wsd-add-text-panel.png)
+    \[Omitted image "wsd-add-text-panel.png"\] Alt text: Text panel to add a text element.
 
 6.  Add the text and close the panel.
 
@@ -46,5 +47,5 @@ Role required: admin
 8.  Select **Remove** to remove a text.
 
 
-**Parent Topic:**[Drawing and editing tools in the CAD editor](../concept/editing-tools-cad-editor.md)
+**Parent Topic:**[Drawing and editing tools in the CAD editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/editing-tools-cad-editor.md)
 

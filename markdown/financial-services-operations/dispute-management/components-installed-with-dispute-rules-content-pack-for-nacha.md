@@ -2,6 +2,7 @@
 title: Components installed with Dispute Rules Content Pack for Nacha
 description: Several types of components are installed with Dispute Rules Content Pack for Nacha.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/components-installed-with-dispute-rules-content-pack-for-nacha.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -57,5 +58,5 @@ Dispute Rules Content Pack for Nacha includes 10 reason codes and the predefined
 |R37|Source Document Presented|60 days|Yes|
 |R39|Improper Source Document|2 banking days|No|
 
-**Parent Topic:**[Dispute Rules Content Pack for Nacha reference](dispute-rules-content-pack-nacha-reference.md)
+**Parent Topic:**[Dispute Rules Content Pack for Nacha reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/dispute-rules-content-pack-nacha-reference.md)
 

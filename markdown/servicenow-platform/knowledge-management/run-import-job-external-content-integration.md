@@ -2,6 +2,7 @@
 title: Import content from an external knowledge source
 description: Run an import job manually or set up a schedule to process the integrated external content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/run-import-job-external-content-integration.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -44,5 +45,5 @@ For each file in the external content source, a blank knowledge article is creat
 
 **Note:** If the externally imported content is infected, a notification about each infected file is sent to the users with the knowledge\_admin role and Knowledge Base owners. The notified users can then take required actions on the infected files.
 
-**Parent Topic:**[Integration with external knowledge sources](../concept/knowledge-external-content-integration.md)
+**Parent Topic:**[Integration with external knowledge sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/knowledge-external-content-integration.md)
 

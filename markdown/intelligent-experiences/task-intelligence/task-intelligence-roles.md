@@ -2,6 +2,7 @@
 title: Task Intelligence roles
 description: Task Intelligence is installed with these roles.Admin user with rights to all actions in the application. Creates, edits, and monitors all Task Intelligence models.Views and monitors Task Intelligence models. Requires additional accesses to see training.Monitors Task Intelligence models through the Analytics dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/task-intelligence/task-intelligence-roles.html
 release: zurich
 product: Task Intelligence
 classification: task-intelligence
@@ -15,7 +16,7 @@ breadcrumb: [Task Intelligence references, Task Intelligence, Enable AI experien
 
 Task Intelligence is installed with these roles.
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing per-user subscriptions, see  and contact your account representative.
 
 ## Task Intelligence Admin \[tia\_admin\]
 

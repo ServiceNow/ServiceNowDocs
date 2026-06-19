@@ -2,6 +2,7 @@
 title: Install MID-less Agent Client Collector using a single-line command in a macOS environment
 description: Install MID-less Agent Client Collector on a macOS machine to enable sending data from the agent to the instance through the cloud. Sending information through the cloud allows the MID Server to be used for more persistent resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-install-ics-macos.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -109,5 +110,5 @@ Optional **ACC\_VALIDATE\_SIG=0** string that you can add to disable the verific
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Installing MID-less Agent Client Collector](../concept/acc-itom-cloud-services.md)
+**Parent Topic:**[Installing MID-less Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-itom-cloud-services.md)
 

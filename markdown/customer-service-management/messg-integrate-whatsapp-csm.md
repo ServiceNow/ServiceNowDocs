@@ -2,7 +2,10 @@
 title: Integrating WhatsApp with Customer Service Management through Twilio
 description: Deliver a pre-integrated chat conversation experience with the WhatsApp messaging app for consumers and customer contacts. Integrate WhatsApp by using the ServiceNow Conversational Integration with WhatsApp \(powered by Twilio\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/messg-integrate-whatsapp-csm.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -13,9 +16,9 @@ breadcrumb: [Integrating with consumer messaging apps, Integrate, Customer Servi
 
 Deliver a pre-integrated chat conversation experience with the WhatsApp messaging app for consumers and customer contacts. Integrate WhatsApp by using the ServiceNow® Conversational Integration with WhatsApp \(powered by Twilio\) application.
 
-As an administrator, if you have configured the Conversational Integration with WhatsApp \(powered by Twilio\) application, then your customer contacts and consumers can initiate a WhatsApp chat conversation with a virtual agent or live agent. An agent can initiate a conversation or accept a conversation initiated from a WhatsApp chat conversation. For more information, see [Configure Conversational Integration with WhatsApp \(powered by Twilio\)](https://www.servicenow.com/docs/access?context=messg-whatsapp-configure&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+As an administrator, if you have configured the Conversational Integration with WhatsApp \(powered by Twilio\) application, then your customer contacts and consumers can initiate a WhatsApp chat conversation with a virtual agent or live agent. An agent can initiate a conversation or accept a conversation initiated from a WhatsApp chat conversation. For more information, see Configure Conversational Integration with WhatsApp \(powered by Twilio\).
 
-**Note:** As an administrator, you can also use any predefined Customer Service Virtual Agent conversations to capture information from customer contacts or consumers. For more information, see [Customer Service Virtual Agent conversations](csm-virtual-agent-chatbot.md).
+**Note:** As an administrator, you can also use any predefined Customer Service Virtual Agent conversations to capture information from customer contacts or consumers. For more information, see [Customer Service Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-virtual-agent-chatbot.md).
 
 Key features of the integration include the following:
 

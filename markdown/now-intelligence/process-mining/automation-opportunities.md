@@ -2,6 +2,7 @@
 title: Automation opportunities page
 description: Use the automation opportunities page to find automation opportunities using machine learning and process-based analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/automation-opportunities.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -15,7 +16,7 @@ breadcrumb: [Process details page, Process Mining workspace, Exploring Process M
 
 Use the automation opportunities page to find automation opportunities using machine learning and process-based analysis.
 
-![Automation opportunities page](../image/auto-opp-dash.png "Automation opportunities page")
+\[Omitted image "auto-opp-dash.png"\] Alt text: Automation opportunities page
 
 ## Summary cards
 
@@ -36,11 +37,11 @@ The cards displayed at the top of the page give you a quick overview of the disc
 
 ## Automation opportunities list
 
-![Automation opportunities list](../image/auto-opp-list.png)
+\[Omitted image "auto-opp-list.png"\] Alt text: Automation opportunities list
 
 Use the **Automation opportunities** list to see an overview of your opportunities, the estimated mean time to resolve, and what actions you can take to implement these automations.
 
 **Note:** Automation taxonomy is only available for ITSM.
 
-**Parent Topic:**[Process details page](project-view-screen.md)
+**Parent Topic:**[Process details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/project-view-screen.md)
 

@@ -2,6 +2,7 @@
 title: Activate knowledge blocks
 description: You can activate knowledge blocks \[com.snc.knowledge\_blocks\] if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/activate-knowledge-blocks.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -37,7 +38,7 @@ Knowledge Management Advanced\[com.snc.knowledge\_advanced\]
 
 </td><td>
 
-Enables advanced features for Knowledge Management, such as article versioning. For a full list of features, see [activate the Knowledge Management Advanced plugin](activate-knowledge-advanced-plugin.md).**Note:** Knowledge blocks can be used with or without the article versioning feature. To disable the feature, see [Disable the article versioning feature](article-versioning-disable-property.md).
+Enables advanced features for Knowledge Management, such as article versioning. For a full list of features, see [activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md).**Note:** Knowledge blocks can be used with or without the article versioning feature. To disable the feature, see [Disable the article versioning feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/article-versioning-disable-property.md).
 
 </td></tr></tbody>
 </table>## Procedure
@@ -52,8 +53,8 @@ Enables advanced features for Knowledge Management, such as article versioning. 
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
-**Parent Topic:**[Configuring Knowledge Management](../concept/configuring-knowledge-management.md)
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 

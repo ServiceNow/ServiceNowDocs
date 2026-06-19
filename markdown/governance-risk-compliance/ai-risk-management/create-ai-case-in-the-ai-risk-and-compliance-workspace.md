@@ -2,6 +2,7 @@
 title: Create an AI case in the AI Risk and Compliance workspace
 description: Create an AI case in the AI Risk and Compliance workspace by providing a detailed description, such as system behavior, affected users, and any relevant data. Ensure all necessary information, such as supporting attachments, is included for prompt resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/ai-risk-management/create-ai-case-in-the-ai-risk-and-compliance-workspace.html
 release: zurich
 product: AI Risk Management
 classification: ai-risk-management
@@ -27,7 +28,7 @@ Role required: sn\_ai\_case\_mgmt.ai\_case\_business\_user or sn\_ai\_case\_mgmt
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values on the Create New AI case form, see [Create New AI case form](../reference/create-new-ai-case-form.md).
+    For a description of the field values on the Create New AI case form, see [Create New AI case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/create-new-ai-case-form.md).
 
 4.  Select **Save**.
 
@@ -42,10 +43,10 @@ An AI case passes through: New, Triage, Investigate, Resolve, Post case review, 
 
 ## What to do next
 
-[Initiate AI assessment on an AI asset](initiate-assessment-on-an-ai-asset.md)
+[Initiate AI assessment on an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/initiate-assessment-on-an-ai-asset.md)
 
--   **[Create New AI case form](../reference/create-new-ai-case-form.md)**  
+-   **[Create New AI case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/create-new-ai-case-form.md)**  
 Use the Create New AI case form in the AI Risk and Compliance workspace to report an AI case with the necessary details.
 
-**Parent Topic:**[Using AI Risk and Compliance](../concept/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

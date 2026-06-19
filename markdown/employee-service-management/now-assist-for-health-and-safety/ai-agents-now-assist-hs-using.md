@@ -2,11 +2,12 @@
 title: Using agentic workflows in Now Assist for Health and Safety
 description: Use the Health and Safety agentic workflow collection to complete tasks autonomously through the Now Assist panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-health-and-safety/ai-agents-now-assist-hs-using.html
 release: zurich
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Now Assist for Health and Safety, Health and Safety, Employee Service Management]
 ---
@@ -69,11 +70,11 @@ Health and safety pattern intelligence orchestrator
 
 To run the AI agents autonomously, duplicate the agentic workflow if needed and then do the following steps:
 
--   Activate the agentic workflow. For more information, see [Activate an agentic workflow template](https://www.servicenow.com/docs/access?context=activate-aia-use-case&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+-   Activate the agentic workflow. For more information, see .
 -   Activate the trigger to invoke the agentic workflow automatically.
 
 Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 

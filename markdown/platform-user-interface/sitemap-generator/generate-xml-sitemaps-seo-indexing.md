@@ -2,6 +2,7 @@
 title: Generate XML sitemaps for SEO indexing
 description: Create XML sitemaps for web crawlers to index your public portal pages and improve search engine optimization for your portals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/sitemap-generator/generate-xml-sitemaps-seo-indexing.html
 release: zurich
 product: Sitemap Generator
 classification: sitemap-generator
@@ -17,9 +18,9 @@ Create XML sitemaps for web crawlers to index your public portal pages and impro
 
 ## Before you begin
 
-Add SEO information to portal pages, such as meta tags that improve the searchability of Service Portal pages. For more information, see [Improving search engine optimization for portals](../concept/seo-sp.md).
+Add SEO information to portal pages, such as meta tags that improve the searchability of Service Portal pages. For more information, see [Improving search engine optimization for portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/seo-sp.md).
 
-Review the "Sitemap requirements" section of the [Sitemap Generator](../concept/sitemap-generator.md) documentation topic to determine what content should be in the sitemap.
+Review the "Sitemap requirements" section of the [Sitemap Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/sitemap-generator/sitemap-generator.md) documentation topic to determine what content should be in the sitemap.
 
 Role required: admin
 
@@ -43,19 +44,19 @@ Role required: admin
 
     **Important:**
 
-    -   You must ensure that the contents of your sitemap meet the [Sitemap requirements](../concept/sitemap-generator.md#section_w52_vbq_ytb).
+    -   You must ensure that the contents of your sitemap meet the [Sitemap requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/sitemap-generator/sitemap-generator.md).
     -   You don’t need to add the header and footer of the sitemap XML. These are added automatically when the sitemap is generated.
 6.  In the **Type** field of the UX Sitemap Definition form, select one of the following options to define the contents of the sitemap either with a script or by specifying static URL elements.
 
-<table id="choicetable_fff_fps_gtb"><thead><tr><th align="left" id="d119374e211">
+<table id="choicetable_fff_fps_gtb"><thead><tr><th align="left" id="d123202e211">
 
 Type
 
-</th><th align="left" id="d119374e214">
+</th><th align="left" id="d123202e214">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d119374e220">
+</th></tr></thead><tbody><tr><td id="d123202e220">
 
 **Script**
 
@@ -65,7 +66,7 @@ Dynamically generate the content from a script.
 
  **Note:** If special characters such as &lt;,&gt;, &amp;, or " are included in URLs, you must replace them with their equivalent escape characters.
 
-</td></tr><tr><td id="d119374e235">
+</td></tr><tr><td id="d123202e235">
 
 **Static**
 
@@ -90,7 +91,7 @@ The approximate frequency at which the page is updated.
 </td></tr></tbody>
 </table>7.  Select **Active** and then select **Submit**.
 
-8.  Repeat steps [5](generate-xml-sitemaps-seo-indexing.md#new-sitemap-def) through [7](generate-xml-sitemaps-seo-indexing.md#save-definition-type) to define additional content to include in the sitemap.
+8.  Repeat steps [5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/sitemap-generator/generate-xml-sitemaps-seo-indexing.md) through [7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/sitemap-generator/generate-xml-sitemaps-seo-indexing.md) to define additional content to include in the sitemap.
 
     You can create multiple sitemap definitions with any combination of types that combine to create the sitemap. For example, you could include both static XML and dynamic content from a script or you could include content from multiple scripts.
 
@@ -114,7 +115,7 @@ The approximate frequency at which the page is updated.
 
     **Note:** This URL accesses the latest sitemap or, if the sitemap is paginated, the latest sitemap index. It doesn’t execute scripts on the fly to regenerate the sitemap.
 
-    For information about using Google Search Console, see [Manage your sitemaps using the Sitemaps report](https://support.google.com/webmasters/answer/7451001) in the Google documentation. For information about the Google Custom Search integration, see [ServiceNow provided integrations](https://www.servicenow.com/docs/access?context=r_ServiceNowProvidedintegrations&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For information about using Google Search Console, see [Manage your sitemaps using the Sitemaps report](https://support.google.com/webmasters/answer/7451001) in the Google documentation. For information about the Google Custom Search integration, see ServiceNow provided integrations.
 
 12. Review any portals URLs that were excluded from the sitemap because they aren't publicly accessible.
 
@@ -129,5 +130,5 @@ The approximate frequency at which the page is updated.
 
 All active sitemaps automatically regenerate once a day and include content from any of their active sitemap definitions. Previous versions of the sitemap are deleted. You can check the status of the daily job at **All** &gt; **System Logs** &gt; **System Log** &gt; **Application Logs** using the filter **\[App Scope\] \[is\] \[Sitemap Generator\]**.
 
-**Parent Topic:**[Sitemap Generator](../concept/sitemap-generator.md)
+**Parent Topic:**[Sitemap Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/sitemap-generator/sitemap-generator.md)
 

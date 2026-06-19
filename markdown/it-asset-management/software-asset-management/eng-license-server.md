@@ -2,6 +2,7 @@
 title: Engineering license servers
 description: View the list of all the license management servers that OpenLM or Open iT connect with to get data into your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/eng-license-server.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -19,5 +20,5 @@ You can view information about all the license management servers by navigating 
 
 Information such as the name of the server, the current status of the server, and the last connection time is displayed in the Engineering Application License Servers form layout.
 
-**Parent Topic:**[Software Asset Management administration](c_SAMAdministration.md)
+**Parent Topic:**[Software Asset Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_SAMAdministration.md)
 

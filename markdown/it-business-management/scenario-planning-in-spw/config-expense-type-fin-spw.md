@@ -2,6 +2,7 @@
 title: Change the default expense type for your planning items
 description: Configure the default expense type to create or edit cost plans for your planning items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/config-expense-type-fin-spw.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw

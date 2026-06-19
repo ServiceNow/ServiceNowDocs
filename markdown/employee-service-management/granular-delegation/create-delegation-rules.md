@@ -2,6 +2,7 @@
 title: Create delegation rules
 description: Specify which records are available for service delegation. Specify records by table name, by a condition, and by whether they are an approval or an assignment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/granular-delegation/create-delegation-rules.html
 release: zurich
 product: Granular Delegation
 classification: granular-delegation
@@ -19,7 +20,7 @@ Specify which records are available for service delegation. Specify records by t
 
 Role required: delegation\_admin
 
-If you have not done so already, create a delegation rule table. See [Add delegation rule tables](add-delegation-rules-tables.md).
+If you have not done so already, create a delegation rule table. See [Add delegation rule tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/granular-delegation/add-delegation-rules-tables.md).
 
 ## About this task
 
@@ -89,7 +90,7 @@ Conditions
 
 </td><td>
 
-Filter applied to records in the table. Delegates can only access records that match these conditions.**Note:** When defining conditions like case sensitivity or null values, see API[GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+Filter applied to records in the table. Delegates can only access records that match these conditions.**Note:** When defining conditions like case sensitivity or null values, see APIGlideFilter - Scoped, Global.
 
 </td></tr><tr><td>
 
@@ -147,9 +148,9 @@ Option to delegate assignments.
 
 ## What to do next
 
-Organize the delegation rules into categories to make delegating large batches of tasks easy and efficient for your employees. See [Create delegation rule categories](create-delegation-rule-categories.md).
+Organize the delegation rules into categories to make delegating large batches of tasks easy and efficient for your employees. See [Create delegation rule categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/granular-delegation/create-delegation-rule-categories.md).
 
-Delegate assigned tasks for a specific period of time. See [Create a delegate](create-delegation-admin.md).
+Delegate assigned tasks for a specific period of time. See [Create a delegate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/granular-delegation/create-delegation-admin.md).
 
-Employees can now delegate their assigned tasks to other employees. See [Delegate on-demand tasks](../concept/granular-delegation-use.md#).
+Employees can now delegate their assigned tasks to other employees. See [Delegate on-demand tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/granular-delegation/granular-delegation-use.md).
 

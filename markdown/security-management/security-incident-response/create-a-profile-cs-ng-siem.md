@@ -2,6 +2,7 @@
 title: Create a detection profile
 description: Determine the CrowdStrike Next-Gen SIEM detections that are suitable for creating security incidents by creating a detection profile in your ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/create-a-profile-cs-ng-siem.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -95,5 +96,5 @@ Optional description of the profile.
 
 ## What to do next
 
-[Set correlation rules](select-correlation-rules-cs-ng-siem.md)
+[Set correlation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/select-correlation-rules-cs-ng-siem.md)
 

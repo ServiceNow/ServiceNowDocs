@@ -2,6 +2,7 @@
 title: Manage time-off requests with On-Call Scheduling
 description: Use the Time-off requests tab to approve or reject the time-off request that you've received.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/time-off-request.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -31,9 +32,9 @@ Role required: rota\_Manager
 
     **Note:** Add a reason for the time-off request rejection.
 
-4.  Tap the filter icon \(![Filter icon.](../../../product/knowledge-management/image/filter-settings.png)\) to view specific time-off requests.
+4.  Tap the filter icon \(\[Omitted image "filter-settings.png"\] Alt text: Filter icon.\) to view specific time-off requests.
 
-5.  Tap the menu icon \(![Icon menu.](../image/inveted-menu-ocs.png)\) and select **Request time-off** to go to the Request time-off form.
+5.  Tap the menu icon \(\[Omitted image "inveted-menu-ocs.png"\] Alt text: Icon menu.\) and select **Request time-off** to go to the Request time-off form.
 
 6.  Complete the required fields on the form and tap **Submit**.
 

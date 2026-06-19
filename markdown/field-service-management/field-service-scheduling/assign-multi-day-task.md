@@ -2,6 +2,7 @@
 title: Assign multi-day tasks to agents
 description: Assign a work order task that requires multiple schedules or days to complete the job to a field service agent. This capability avoids having to create more than one task for the same job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/assign-multi-day-task.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -17,7 +18,7 @@ Assign a work order task that requires multiple schedules or days to complete th
 
 ## Before you begin
 
-If you are scheduling a task across multiple schedule entries or days, a work schedule must have been assigned to the agent. For more information, see [Create a work schedule for agents](../../customer-service-management/task/create-agent-work-schedule.md).
+If you are scheduling a task across multiple schedule entries or days, a work schedule must have been assigned to the agent. For more information, see [Create a work schedule for agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-manager-workforce/create-agent-work-schedule.md).
 
 **Note:** If the agent schedule has not been defined and you are auto-assigning a task, the system uses the default schedule.
 
@@ -25,9 +26,9 @@ Role required: wm\_admin
 
 ## About this task
 
-For information about how to assign a multi-day task to a crew, see [Assign work order tasks to crews](assign-wot-crew-operations.md).
+For information about how to assign a multi-day task to a crew, see [Assign work order tasks to crews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-manager-workforce/assign-wot-crew-operations.md).
 
-This procedure explains how you can assign a multi-day task to an agent using ServiceNow AI Platform. For information about how to assign a multi-day task using Dispatcher Workspace, see [Assign work order tasks to agents](../concept/manage-work-order-tasks-dw.md#).
+This procedure explains how you can assign a multi-day task to an agent using ServiceNow AI Platform. For information about how to assign a multi-day task using Dispatcher Workspace, see [Assign work order tasks to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/manage-work-order-tasks-dw.md).
 
 ## Procedure
 
@@ -39,15 +40,15 @@ This procedure explains how you can assign a multi-day task to an agent using Se
 
 4.  Assign the task.
 
-<table id="choicetable_jln_msm_dsb"><thead><tr><th align="left" id="d114906e139">
+<table id="choicetable_jln_msm_dsb"><thead><tr><th align="left" id="d111155e139">
 
 Option
 
-</th><th align="left" id="d114906e142">
+</th><th align="left" id="d111155e142">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d114906e148">
+</th></tr></thead><tbody><tr><td id="d111155e148">
 
 **To assign a task manually**
 
@@ -57,7 +58,7 @@ Description
 2.  Click **Update**.
 
 
-</td></tr><tr><td id="d114906e172">
+</td></tr><tr><td id="d111155e172">
 
 **To auto-assign a task**
 

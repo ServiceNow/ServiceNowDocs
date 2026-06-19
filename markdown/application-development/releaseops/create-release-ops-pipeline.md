@@ -2,6 +2,7 @@
 title: Create a custom pipeline
 description: Create a custom pipeline to move changes from your development environment to production \(or your target instance\) by duplicating one of the ReleaseOps playbooks.Create a custom pipeline to move changes through your non-production environment by duplicating the Deployment Request Assessment playbook. Add the deployment analyzer to detect if there are code changes in the deployment and skip Automated Test Framework \(ATF\) tests during assessment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/releaseops/create-release-ops-pipeline.html
 release: zurich
 product: ReleaseOps
 classification: releaseops
@@ -20,7 +21,7 @@ Create a custom pipeline to move changes from your development environment to pr
 
 Role required: releaseops.pipeline\_admin and playbook.admin or pd\_author
 
-For more information about playbooks, see [Exploring Playbook](https://www.servicenow.com/docs/access?context=process-automation-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+For more information about playbooks, see .
 
 ## Procedure
 
@@ -30,17 +31,17 @@ For more information about playbooks, see [Exploring Playbook](https://www.servi
 
     2.  Enter a name for your new playbook and update any other required details.
 
-    For more information, see [Duplicate Playbooks](https://www.servicenow.com/docs/access?context=duplicate-process&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+    For more information, see .
 
 2.  Add or update stages in the playbook as desired.
 
     **Note:** Certain stages make sense at certain parts of the flow. For example, the deployment analyzer runs before the deployment state Move To Test. Other stages might need to be run after Move to Test or after Run ATF Tests. Typically, you shouldn’t add anything after Ready for Deploy.
 
-    For more information, see [Add and configure a stage in a playbook](https://www.servicenow.com/docs/access?context=add-configure-stage&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+    For more information, see .
 
 3.  Add or update decisions in the playbook as needed.
 
-    For more information, see [Decision activities](https://www.servicenow.com/docs/access?context=create-a-decision-activity&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+    For more information, see .
 
 4.  Select **Activate** to finalize your updates and make your new playbook available for use.
 
@@ -97,7 +98,7 @@ Role required: releaseops.pipeline\_admin and playbook.admin or pd\_author
 
 5.  Locate the Run ATF Tests section of the playbook, and add a new decision after the Transition to Assessing activity by selecting the + icon, and then selecting **Add a decision \(if/then\)**.
 
-    For more information, see [Decision activities](https://www.servicenow.com/docs/access?context=create-a-decision-activity&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+    For more information, see .
 
 6.  Select the newly added decision to configure it.
 

@@ -2,6 +2,7 @@
 title: Revert record page templates to the pre-17.x version
 description: If you’re an existing customer and have a customized record page, you can revert to that old page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/revert-to-previous-record-page.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -29,7 +30,7 @@ Role required: workspace\_admin.
 
 4.  In the record page, click **Developer** listed under **Menu** tab and click **Open variant collection**.
 
-    ![UX screen variants](../image/revert-old-record-page.png "UX screen variants")
+    \[Omitted image "revert-old-record-page.png"\] Alt text: UX screen variants
 
     In the **UX Screens** tab, you see two screens, **Record default** and **Risk record page**.
 
@@ -40,5 +41,5 @@ Role required: workspace\_admin.
     If you give a high-order value, you revert to the old record page. If you want to switch to the new record page, set to low-order value.
 
 
-**Parent Topic:**[Configure workspace page](configure-workspace-page.md)
+**Parent Topic:**[Configure workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/configure-workspace-page.md)
 

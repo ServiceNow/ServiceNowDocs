@@ -2,6 +2,7 @@
 title: Migrate the server script from ITSM Agent Workspace to Service Operations Workspace for field decorators actions
 description: Configure the server script to migrate field decorators actions from ITSM Agent Workspace to Service Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/migrate-field-declarative-server-script-aw-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -42,5 +43,5 @@ Role required: admin
 10. Select **Update**.
 
 
-**Parent Topic:**[Migration of field decorators from ITSM Agent Workspace to Service Operations Workspace for ITSM](../reference/field-declarative-actions-aw-sow.md)
+**Parent Topic:**[Migration of field decorators from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/field-declarative-actions-aw-sow.md)
 

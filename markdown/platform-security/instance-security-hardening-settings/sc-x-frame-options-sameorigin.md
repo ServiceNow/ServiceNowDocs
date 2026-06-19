@@ -2,6 +2,7 @@
 title: Implement the x-frame-options: SAMEORIGIN security header \[Updated in Security Center 1.3\]
 description: Use the glide.set\_x\_frame\_options property to set the X-Frame-Options response header to SAMEORIGIN for all UI pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-x-frame-options-sameorigin.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -49,7 +50,7 @@ Category
 
 </td><td>
 
-[Configuration](sc-configuration.md)
+[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-configuration.md)
 
 </td></tr><tr><td>
 
@@ -108,12 +109,12 @@ References
 
 </td><td>
 
-[Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+Available system properties
 
- [Configure iFrames](https://www.servicenow.com/docs/access?context=t_IFrame&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
+ Configure iFrames
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Configuration](sc-configuration.md)
+**Parent Topic:**[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-configuration.md)
 

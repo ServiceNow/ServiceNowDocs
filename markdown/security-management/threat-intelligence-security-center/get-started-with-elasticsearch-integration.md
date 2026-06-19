@@ -2,6 +2,7 @@
 title: Get started with Elasticsearch integration
 description: The Elasticsearch enrichment integration searches your logs and adds relevant sighting information to your observables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/get-started-with-elasticsearch-integration.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -15,8 +16,8 @@ breadcrumb: [Configure Sighting Search, Sighting Search, TISC Enrichment Integra
 
 The Elasticsearch enrichment integration searches your logs and adds relevant sighting information to your observables.
 
--   **[Configure and enable Elasticsearch integration](../task/tisc-elasticsearch-integration.md)**  
+-   **[Configure and enable Elasticsearch integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-elasticsearch-integration.md)**  
 Elasticsearch is a distributed, RESTful search and analytics engine that easily integrates with Security Operations.
 
-**Parent Topic:**[Configure Sighting Search](../task/configure-sighting-search.md)
+**Parent Topic:**[Configure Sighting Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/configure-sighting-search.md)
 

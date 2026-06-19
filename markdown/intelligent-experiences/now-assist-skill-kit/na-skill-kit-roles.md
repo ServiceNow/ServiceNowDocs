@@ -2,6 +2,7 @@
 title: Now Assist Skill Kit roles
 description: Certain roles are required to use Now Assist Skill Kit functionality.This user can create, update, and publish skills in Now Assist Skill Kit. This role is mandatory to use Now Assist Skill Kit.This user can create and update custom large language models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-skill-kit/na-skill-kit-roles.html
 release: zurich
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -15,7 +16,7 @@ breadcrumb: [Now Assist Skill Kit reference, Now Assist Skill Kit, Enable AI exp
 
 Certain roles are required to use Now Assist Skill Kit functionality.
 
-**Parent Topic:**[Now Assist Skill Kit reference](na-skill-kit-reference.md)
+**Parent Topic:**[Now Assist Skill Kit reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/na-skill-kit-reference.md)
 
 ## Skill kit admin \(sn\_skill\_builder.admin\)
 

@@ -2,6 +2,7 @@
 title: Review actions taken on rationalization process
 description: After acting on the recommendations, the owner sends it for review to the configured reviewers. The reviewers then analyze the actions taken and either approve or reject them, providing proper justification for their decisions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/privacy-review-actions-taken-on-rationalization-process.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace

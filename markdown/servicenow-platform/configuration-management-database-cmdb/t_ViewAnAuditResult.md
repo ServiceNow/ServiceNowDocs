@@ -2,6 +2,7 @@
 title: View an audit result
 description: View audit results after you certify the elements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/t\_ViewAnAuditResult.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -27,6 +28,6 @@ Role required: admin
 
 2.  Click the links in the list to open any of the related records.
 
-    ![Data cert audit results](../image/DataCertAuditResults.png "Data cert audit results")
+    \[Omitted image "DataCertAuditResults.png"\] Alt text: Data cert audit results
 
 

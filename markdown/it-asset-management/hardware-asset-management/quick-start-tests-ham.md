@@ -2,6 +2,7 @@
 title: Quick start tests for Hardware Asset Management
 description: Validate that Hardware Asset Management \(HAM\) still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/quick-start-tests-ham.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -174,10 +175,10 @@ Validates the Contract Renewal flow with Contract Manager user.
 Tokyo
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Hardware Asset Management reference](../../../product/hardware-asset-management/concept/reference-hardware-asset-management.md)
+</table>**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
 
 **Related topics**  
 
 
-[Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+[bundle-cadev.quick-start-tests]
 

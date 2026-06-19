@@ -2,6 +2,7 @@
 title: Configuring product offer eligibility
 description: You can filter the product catalog, offering categories, and product offerings dynamically, to display only the appropriate catalog, categories, and offerings for which a customer is eligible. Your agents see this filtered product information when they're creating opportunities, quotes, and orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configuring-sales-eligibility.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -31,7 +32,7 @@ Complete the following tasks to set up product eligibility matrices.
 
 |Task|Description|Role|
 |----|-----------|----|
-|[Create a custom context variable](../task/som-create-context-variable.md) \(if needed\)|Review system-defined and existing custom context variables. If needed, add a new context variable, then [map the customer variable to a transaction entity](../task/som-map-variable.md).|Admin|
-|[Create a rule entity filter](../task/som-create-rule-entity-filter.md)|Define the eligibility filters for a product entity.|Product catalog admin or manager|
-|[Define product eligibility rules in a product eligibility matrix](../task/som-define-eligibility-rules.md)|Define the eligibility rules in the decision table of a product eligibility matrix.|Product catalog admin or manager|
+|[Create a custom context variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-create-context-variable.md) \(if needed\)|Review system-defined and existing custom context variables. If needed, add a new context variable, then [map the customer variable to a transaction entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-map-variable.md).|Admin|
+|[Create a rule entity filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-create-rule-entity-filter.md)|Define the eligibility filters for a product entity.|Product catalog admin or manager|
+|[Define product eligibility rules in a product eligibility matrix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-define-eligibility-rules.md)|Define the eligibility rules in the decision table of a product eligibility matrix.|Product catalog admin or manager|
 

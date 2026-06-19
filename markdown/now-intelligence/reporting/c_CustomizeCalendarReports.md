@@ -2,6 +2,7 @@
 title: Customize calendar reports
 description: You can specify the fields that are displayed in calendar tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/c\_CustomizeCalendarReports.html
 release: zurich
 product: Reporting
 classification: reporting
@@ -17,14 +18,14 @@ You can specify the fields that are displayed in calendar tasks.
 
 By default, the **number**and **short\_description** fields are displayed, but this behavior is configurable. Radio buttons on reports can be configured for various fields to highlight calendar entries by properties such as priority level and approval status. You can select a unique highlight color for each task property.
 
--   **[Configure how calendar entries look](../task/t_ConfigureACalendarAttribute.md)**  
+-   **[Configure how calendar entries look](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_ConfigureACalendarAttribute.md)**  
 To configure how calendar entries appear for a table, add calendar\_elements attributes to the System Dictionary entry for that table.
--   **[Modifying and adding calendar report system properties](../task/modify-add-calendar-sys-props.md#)**  
+-   **[Modifying and adding calendar report system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/modify-add-calendar-sys-props.md)**  
 Specify system property values to override Task table highlighting in calendar events, limit the number of events in a calendar cell, or change the day the calendar week starts.
--   **[Change highlighting of calendar report events](../task/t_HighlightACalendarEntry.md)**  
+-   **[Change highlighting of calendar report events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_HighlightACalendarEntry.md)**  
 Field styles control the highlighting of events in calendar reports. Manage field styles to change how highlighting works.
--   **[Customize start and end dates](../task/t_CustomizeAStartAndEndDate.md)**  
+-   **[Customize start and end dates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_CustomizeAStartAndEndDate.md)**  
 You can configure calendar reports to support the spanning of multi-day events across calendar cells.
 
-**Parent Topic:**[Administering reports](c_AdminsteringReports.md)
+**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_AdminsteringReports.md)
 

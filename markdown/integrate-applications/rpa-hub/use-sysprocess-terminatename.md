@@ -2,6 +2,7 @@
 title: Use the TerminateByName component
 description: Use the TerminateByName component to end the specified process or application, for example Chrome browser, Excel, Notepad, by its respective name.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/use-sysprocess-terminatename.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the TerminateByName component. For more information about these properties, see [Properties of the System Process components](../reference/util-sysprocess-prop.md).
+You can configure the properties for the TerminateByName component. For more information about these properties, see [Properties of the System Process components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/util-sysprocess-prop.md).
 
 During high density robots execution, the TerminateByName component checks and terminates the specified process or application only with in the current user session. When an automation runs on a virtual machine, it queries for the process and terminates it within the same user session of the robot. If the same process is running inside other user sessions on virtual machine, those process instances are not terminated.
 
@@ -33,7 +34,7 @@ During high density robots execution, the TerminateByName component checks and t
 
 2.  Drag the TerminateByName component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the TerminateByName component to the corresponding ports of the other component as described in the following table.
 
@@ -46,5 +47,5 @@ During high density robots execution, the TerminateByName component checks and t
 5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[System process](../concept/system-process-utilities.md)
+**Parent Topic:**[System process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/system-process-utilities.md)
 

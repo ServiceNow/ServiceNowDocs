@@ -2,6 +2,7 @@
 title: Attendee List and RSVP for company events
 description: Attendee list can be viewed for company events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ec-attendee-list-company-events.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -18,7 +19,7 @@ Attendee list can be viewed for company events.
 ## Before you begin
 
 -   Role required: sn\_cd.content\_manager
--   Complete the steps to [Create a company event](create-company-event.md).
+-   Complete the steps to [Create a company event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/create-company-event.md).
 
 ## About this task
 
@@ -41,20 +42,20 @@ Attendee list can be viewed for company events.
 
 5.  Select **View attendee list**
 
-    ![Allows you to view the attendee list and options for RSVP and Allow waitlist](../images/ce-rsvp-allow-waitlist.png "View attendee list")
+    \[Omitted image "ce-rsvp-allow-waitlist.png"\] Alt text: Allows you to view the attendee list and options for RSVP and Allow waitlist
 
 6.  View the listed attendees for the event.
 
-    ![The list of attendees for the company event](../images/ce-attendee-list.png "Attendee list")
+    \[Omitted image "ce-attendee-list.png"\] Alt text: The list of attendees for the company event
 
 7.  An email notification is sent when the RSVP is created.
 
-    ![Shows a detailed overview of a completed RSVP](../images/ce-rsvp-complete.png "RSVP Overview")
+    \[Omitted image "ce-rsvp-complete.png"\] Alt text: Shows a detailed overview of a completed RSVP
 
 8.  After an RSVP has been completed it can be edited, if needed, to indicate whether you will attend or not. Making this change will update the RSVP status.
 
     **Note:** If an event has reached capacity, you may opt to join the waitlist, and you will be notified should a spot become available. You can also update or remove yourself from the waitlist. An event is closed once the deadline has passed. If the event is full at the RSVP deadline, it will also be marked as closed. After the RSVP deadline, you can only cancel your RSVP and cannot rejoin the event.
 
 
-**Parent Topic:**[Company events](../concept/ec-company-events.md)
+**Parent Topic:**[Company events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-company-events.md)
 

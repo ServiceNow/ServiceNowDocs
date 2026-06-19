@@ -2,6 +2,7 @@
 title: Perform smart assessment on privacy action task
 description: Use the Tasks page on the Employee Center for a consolidated view of all your privacy tasks, including all assessments, enabling you to access and complete them efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/perform-smart-assessment-on-privacy-action-task.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -53,5 +54,5 @@ When a privacy case action task moves from **Draft** to **Assigned** state, an a
 
 After the assessment is submitted, the state of the assessment gets updated to **Review** and the status of the assessment is set to **Completed**. A compliance case analyst reviews the assessment and updates the state of the assessment to **Close Complete**.
 
-**Parent Topic:**[Using Privacy Case Management](../concept/using-pcm.md)
+**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/using-pcm.md)
 

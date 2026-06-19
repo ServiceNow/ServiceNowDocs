@@ -2,6 +2,7 @@
 title: Assigning work order tasks to agents manually
 description: When all of the work order tasks associated with a work order are qualified, you can dispatch the work order tasks. You can dispatch them from either the task form, the task map, or Dispatcher Workspace.Dispatch a work order task from the dispatch queue. You can also reassign the task from the queue.Dispatch a work order task from the task map. You can also reassign the task from the map.Automatically match a task to a nearby agent who has the necessary skills and a schedule that can accommodate the task.Request more details from the qualifier if there is not enough information in the task record to dispatch a work order task.Quickly sort a list of the best agents to assign a work order task based on the criteria that you choose from. This feature works the same way as using assignment assistance in Dispatcher Workspace.You can flag a task from the work order task page. This makes it easier to follow up on work order tasks that might need attention later.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/c\_DispatchWorkOrderTasks.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -15,17 +16,17 @@ breadcrumb: [Scheduling and dispatching, Use, Field Service Management]
 
 When all of the work order tasks associated with a work order are qualified, you can dispatch the work order tasks. You can dispatch them from either the task form, the task map, or Dispatcher Workspace.
 
-When all of the associated work order tasks are qualified, the state of the parent work order changes to Qualified. If you have already [sourced parts](c_SourceParts.md) and created [transfer order lines](../task/create-transfer-order.md), then you are ready to begin dispatching the work order tasks to agents.
+When all of the associated work order tasks are qualified, the state of the parent work order changes to Qualified. If you have already [sourced parts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/c_SourceParts.md) and created [transfer order lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/create-transfer-order.md), then you are ready to begin dispatching the work order tasks to agents.
 
 Users with the following roles can dispatch work order tasks: wm\_dispatcher, wm\_initiator\_qualifier\_dispatcher, or wm\_admin.
 
 You can dispatch work order tasks to qualified work agents from these locations:
 
--   [Dispatch queue](c_DispatchWorkOrderTasks.md#): Dispatch tasks to agents from task records.
--   [Task map](c_DispatchWorkOrderTasks.md#): Dispatch tasks to agents using a Google map with geolocation.
+-   [Dispatch queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/c_DispatchWorkOrderTasks.md): Dispatch tasks to agents from task records.
+-   [Task map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/c_DispatchWorkOrderTasks.md): Dispatch tasks to agents using a Google map with geolocation.
 -   Dispatcher Workspace: Dispatch tasks to agents using the drag-and-drop and auto-assign capabilities.
 
-**Note:** When dynamic scheduling is enabled, dispatchers can manually double-book an agent for more than one work order task with overlapping time. You can enable double booking using **work.management.allow.doublebooking.dynamicscheduling** [system property](../reference/r_InstalledWithFSM.md).
+**Note:** When dynamic scheduling is enabled, dispatchers can manually double-book an agent for more than one work order task with overlapping time. You can enable double booking using **work.management.allow.doublebooking.dynamicscheduling** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/r_InstalledWithFSM.md).
 
 ## Assign work order tasks to agents or crews from the dispatch queue
 
@@ -43,15 +44,15 @@ Role required: wm\_dispatcher, wm\_initiator\_qualifier\_dispatcher, or wm\_admi
 
 3.  Assign task to an agent or a crew.
 
-<table id="choicetable_rqt_352_vtb"><thead><tr><th align="left" id="d87403e236">
+<table id="choicetable_rqt_352_vtb"><thead><tr><th align="left" id="d38001e236">
 
 Option
 
-</th><th align="left" id="d87403e239">
+</th><th align="left" id="d38001e239">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d87403e245">
+</th></tr></thead><tbody><tr><td id="d38001e245">
 
 **If Territory Planning is not enabled**
 
@@ -64,7 +65,7 @@ Description
 
 A warning message appears if the assigned task is outside the radius between the task location and the agent's location.
 
-</td></tr><tr><td id="d87403e277">
+</td></tr><tr><td id="d38001e277">
 
 **If Territory Planning is enabled**
 
@@ -111,7 +112,7 @@ You can use the dispatch map if you urgently need to dispatch a task or to reass
 
     This button is available only if the task contains a location with a defined latitude and longitude. The map displays a red task icon with a black spot for the task, and shows icons for all nearby agents.
 
-    ![view task on map button](../../field-service-management/image/task-map.png)
+    \[Omitted image "task-map.png"\] Alt text: view task on map button
 
 4.  To apply filters on the agents, do the following:
 
@@ -130,7 +131,7 @@ You can use the dispatch map if you urgently need to dispatch a task or to reass
 
 5.  Click an agent icon to show the agent's name, skills, and schedule.
 
-6.  Click the icon![paper with a plus sign on top of it](../../field-service-management/image/WM_Assign_Task_icon.png) beside the agent's name to assign the task to that agent.
+6.  Click the icon\[Omitted image "WM\_Assign\_Task\_icon.png"\] Alt text: paper with a plus sign on top of it beside the agent's name to assign the task to that agent.
 
 
 ### Result
@@ -221,13 +222,13 @@ Role required: wm\_dispatcher
 
 3.  Select **Assignment assistance**.
 
-    ![assignment assistance on records page](../../field-service-management/image/assign-assistance-task.png)
+    \[Omitted image "assign-assistance-task.png"\] Alt text: assignment assistance on records page
 
 4.  Sort the agent list based on the criteria that you want.
 
     |Sort option|Description|
     |-----------|-----------|
-    |Best Match|Best match is the default sorting method. Match percentage is calculated the same way that Dynamic Scheduling calculates agents to assign tasks to. For more information, see [Matching criteria for assigning tasks](../../field-service-management/task/create-dynamic-scheduling-config.md#).|
+    |Best Match|Best match is the default sorting method. Match percentage is calculated the same way that Dynamic Scheduling calculates agents to assign tasks to. For more information, see [Matching criteria for assigning tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md).|
     |Distance|Sorts agents based on how far each agent is from the work order task.|
     |Skills|Sorts agents based on the number of required skills that each agent has. Agents with more skills are at the top.|
     |Parts|Sorts agents based on how many required parts each agent has. Agents with the most parts to complete the task are at the top.|
@@ -259,7 +260,7 @@ Role required: wm\_dispatcher
 
 3.  Select **Flag Task**.
 
-    ![flag task button on records page](../../field-service-management/image/select-flag-task.png)
+    \[Omitted image "select-flag-task.png"\] Alt text: flag task button on records page
 
     The work order task is flagged and can be found under **All** &gt; **Field Service** &gt; **Work Order** &gt; **My Flagged Tasks**.
 

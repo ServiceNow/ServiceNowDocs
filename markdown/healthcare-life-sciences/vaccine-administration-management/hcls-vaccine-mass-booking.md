@@ -2,6 +2,7 @@
 title: Mass book vaccine appointments
 description: Schedule appointments for multiple users at the same time instead of having users individually request appointments in the self-service portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/vaccine-administration-management/hcls-vaccine-mass-booking.html
 release: zurich
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -85,7 +86,7 @@ If there’s no appointment slot available at the user’s preferred location, i
     -   Long-term health problem with heart disease, lung disease, asthma, kidney disease, metabolic disease like diabetes, anemia, or other blood disorder \(Yes/No\)
     **Note:** This data is required to book appointments for users. If users book the appointments in the self-service portal, the users provide this information at the time of booking. When a user with the admin role mass-books appointments for users, the data must be imported instead.
 
-    For more information about importing data, see [Import sets](https://www.servicenow.com/docs/access?context=import-sets-landing-page&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+    For more information about importing data, see Import sets.
 
 3.  Navigate to **Vaccine Administration Management** &gt; **Administration** &gt; **Mass Booking Configurations** and click **New**.
 
@@ -117,5 +118,5 @@ When you're ready to schedule the appointments, return to the configuration reco
 
 **Note:** Whenever you process a booking, a new record gets created on the **Mass Booking Jobs** tab. Use this tab to view the progress of the scheduled appointments. For example, you can view the number of total appointments booked, appointments booked in a preferred center, the number of bookings failed for users, and so on.
 
-**Parent Topic:**[Configuring Vaccine Administration Management](../concept/vaccine-mgmt-config.md)
+**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 

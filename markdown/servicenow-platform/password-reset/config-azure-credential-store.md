@@ -2,6 +2,7 @@
 title: Configure the connection to the Microsoft Entra ID Credential Store
 description: Create a Password Reset credential store record to configure access to your Microsoft Entra ID server while a user is changing or resetting a password. In addition to host connection information, you can specify the password hints that users should see and other settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/password-reset/config-azure-credential-store.html
 release: zurich
 product: Password Reset
 classification: password-reset
@@ -116,8 +117,8 @@ Check this option to select either a default password policy or one you created 
 
     **Note:**
 
-    -   The **Enable Password Policy** option was added in the Quebec release. Checking the option displays your password policy choices right from your instance. To learn more, see [Enable password policies on your instance](https://www.servicenow.com/docs/access?context=enable-password-policies&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+    -   The **Enable Password Policy** option was added in the Quebec release. Checking the option displays your password policy choices right from your instance. To learn more, see Enable password policies on your instance.
     -   Since the Microsoft Entra ID doesn't support the history policy, the **Enforce history policy** option is hidden.
 
-**Parent Topic:**[Credential Store for Password Reset for Microsoft Entra ID](../concept/credentials-store-micro-ad.md)
+**Parent Topic:**[Credential Store for Password Reset for Microsoft Entra ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/credentials-store-micro-ad.md)
 

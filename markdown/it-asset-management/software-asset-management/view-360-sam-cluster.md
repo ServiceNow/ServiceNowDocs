@@ -2,6 +2,7 @@
 title: View your cluster setup in 360 degrees
 description: Get a 360-degree perspective of your cluster setup to manage license consumption across the cluster.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/view-360-sam-cluster.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -37,8 +38,6 @@ Role required: sam\_admin
 
     The cluster setup appears.
 
-    ![Cluster 360](../image/cluster360.png)
-
 7.  View the following details on the cluster.
 
     -   Infrastructure: View entities such as hosts, virtual machines \(VMs\), host affinity rules, and software installations in the cluster. Select an entity to view the complete list. For example, select **Software Installs** to view all software installations. You can group the software installations by normalized publisher, normalized product, or by software model results. You can also select any software installation from the list such as SQL Server to view all SQL Server software installations in that cluster.
@@ -48,8 +47,8 @@ Role required: sam\_admin
 
 8.  Select **Open Dependency View** to view the relationship between the nodes of the cluster.
 
-    For details on Dependency Views, see [Dependency Views map menus and controls](https://www.servicenow.com/docs/access?context=r_NGBSMMenus&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    For details on Dependency Views, see .
 
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/using-sam-workspace.md)
 

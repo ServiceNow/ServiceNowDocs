@@ -2,6 +2,7 @@
 title: Viewing API data connections for a Service Graph Connector within API Insights
 description: You can view installed and draft API data connections that were added using Service Graph Connectors within API Insights.View the details of an installed connection that was added using a Service Graph Connector within SGC Central.View the details and resume setting up draft connections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/api-insights/api-insights-viewing-installed-connection.html
 release: zurich
 product: API Insights
 classification: api-insights
@@ -17,8 +18,8 @@ You can view installed and draft API data connections that were added using Serv
 
 The following connection types are available for viewing:
 
--   Installed connection \(see [View an installed connection within API Insights](api-insights-viewing-installed-connection.md#).\)
--   Draft connection \(see [View a draft connection within API Insights](api-insights-viewing-installed-connection.md#).\)
+-   Installed connection \(see [View an installed connection within API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/api-insights/api-insights-viewing-installed-connection.md).\)
+-   Draft connection \(see [View a draft connection within API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/api-insights/api-insights-viewing-installed-connection.md).\)
 
 ## View an installed connection within API Insights
 

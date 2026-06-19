@@ -2,6 +2,7 @@
 title: Create a change, incident, or problem from a security incident
 description: After you have created and saved a security incident, you can create a change request \(CHG\), incident \(INC\), or problem \(PRB\) record from it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/t\_CrtChgOrPrbFromSI.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

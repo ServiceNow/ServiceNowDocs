@@ -2,6 +2,7 @@
 title: Create new process start/end condition
 description: Crop your process by setting the new process start condition and new process end condition. This configuration defines which part of the process should be included in the Process Mining project and made available for analysis. The Create new process start and end condition forms have the same fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/process-start-condition.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -84,7 +85,7 @@ The qualifier for the condition.-   is
 -   contains
 -   does not contain
 
-**Note:** When you select "is one of", you can select multiple values at once. Type the first two letters, and select the **Select all** icon to select all matching values.![Selecting multiple values for is one of predicate](../image/filter-isoneof.gif)
+**Note:** When you select "is one of", you can select multiple values at once. Type the first two letters, and select the **Select all** icon to select all matching values.\[Omitted image "filter-isoneof.gif"\] Alt text: Selecting multiple values for is one of predicate
 
 </td></tr><tr><td>
 
@@ -92,7 +93,7 @@ Field value
 
 </td><td>
 
-The value use along with the predicate to define this condition. If the field is a reference field, you can select values using the reference icon \(![Reference icon](../image/reference-icon.png)\).
+The value use along with the predicate to define this condition. If the field is a reference field, you can select values using the reference icon \(\[Omitted image "reference-icon.png"\] Alt text: Reference icon\).
 
 </td></tr><tr><td>
 
@@ -113,5 +114,5 @@ Contextual Condition
 Additional condition that must be true when the current condition is triggered. For example, you configure your condition to trigger when a record is in the New state. If you wanted to also specify that the **Priority** is high, you can do that using the **Contextual Condition** field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Process Mining reference](../concept/process-mining-reference.md)
+</table>**Parent Topic:**[Process Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/process-mining-reference.md)
 

@@ -2,6 +2,7 @@
 title: Managing post-fulfillment order changes
 description: Efficiently handle a variety of post-fulfillment changes to maintain service quality and operational accuracy after initial order fulfillment. These changes include canceling, suspending, resuming, disconnecting, and modifying orders. Each change type has distinct workflows, dependencies, and impacts on inventory and service states.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/managing-orders.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -15,7 +16,7 @@ breadcrumb: [Order Management, Use, Sales Customer Relationship Management]
 
 Efficiently handle a variety of post-fulfillment changes to maintain service quality and operational accuracy after initial order fulfillment. These changes include canceling, suspending, resuming, disconnecting, and modifying orders. Each change type has distinct workflows, dependencies, and impacts on inventory and service states.
 
-After an initial order is fulfilled, existing customers may want to disconnect, suspend, or resume a product or service or change specifications or location for a product they’ve purchased. For example, a customer might want to disconnect their current 4G connectivity and upgrade it to 5G connectivity. You can manage such requests by creating orders with action type as Change, Move, Disconnect, Suspend, and Resume. For more information, see [Action types for customer and service orders](order-mgt-customer-order-types.md).
+After an initial order is fulfilled, existing customers may want to disconnect, suspend, or resume a product or service or change specifications or location for a product they’ve purchased. For example, a customer might want to disconnect their current 4G connectivity and upgrade it to 5G connectivity. You can manage such requests by creating orders with action type as Change, Move, Disconnect, Suspend, and Resume. For more information, see [Action types for customer and service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-mgt-customer-order-types.md).
 
 When you change a product or service inventory record, the ServiceNow AI Platform creates the order line items from the specifications that you have defined. In a change service order inventory, the order line items are created only for your selected service inventories. If you select inventories that are top-order parent items, the order line items are created only for the parent items, not for the child order items. When the additional product is added to the change order, an inventory record is created for the added product. The new inventory is mapped to the new hierarchy.
 
@@ -40,14 +41,14 @@ The process to capture post-sale modification requests is similar to order captu
 
 5.  Fulfill the orders by closing the order tasks, domain orders, and work orders, if any.
 
-You can also manage post-sale change requests from the customer accounts page, not only for products and services sold to a customer, but also to contracts and entitlements associated with the products and services. For more information about customer life cycle workflows, see [Customer Life Cycle Management Workflows](https://www.servicenow.com/docs/access?context=customer-life-cycle-management-workflows&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+You can also manage post-sale change requests from the customer accounts page, not only for products and services sold to a customer, but also to contracts and entitlements associated with the products and services. For more information about customer life cycle workflows, see .
 
--   **[Request post-sale change orders](../task/create-macd-orders.md)**  
+-   **[Request post-sale change orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-macd-orders.md)**  
 Learn how to create orders for disconnecting, suspending, resuming products or services and changing specifications, characteristics, or service location for orders after an initial order has been fulfilled.
--   **[Move order](move-order.md)**  
+-   **[Move order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/move-order.md)**  
 The move order helps agents to change the location for product inventory at the order line level.
--   **[Suspend and resume products and services](order-mgt-suspend-resume-action.md)**  
+-   **[Suspend and resume products and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-mgt-suspend-resume-action.md)**  
 You can use suspend and resume actions to temporarily suspend or inactivate your product and service inventories. That way, you can capture a customer's suspend request and resume the products and services later.
 
-**Parent Topic:**[Using Order Management](using-order-management.md)
+**Parent Topic:**[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/using-order-management.md)
 

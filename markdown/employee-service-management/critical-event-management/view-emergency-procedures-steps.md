@@ -2,6 +2,7 @@
 title: View emergency procedures
 description: View the emergency procedures as an employee by logging in to the employee portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/critical-event-management/view-emergency-procedures-steps.html
 release: zurich
 product: Critical Event Management
 classification: critical-event-management
@@ -32,6 +33,6 @@ Role required: sn\_critical.user
     -   To view what to do in case of an emergency at your organization, select the Emergency Plan page.
     -   To view who to contact in case of an emergency, select the Emergency Contacts page.
     -   To view when and how to submit an emergency request, select the Emergency submission guidelines page.
-    For more information on the types of emergency procedures, see [Employee portal](../concept/employee-center-portal-overview.md).
+    For more information on the types of emergency procedures, see [Employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/critical-event-management/employee-center-portal-overview.md).
 
 

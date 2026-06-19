@@ -2,6 +2,7 @@
 title: Enable a sales agreement in a quote
 description: Agents can enable a sales agreement for a quote. Once enabled in Quote Management, sales agreements are generated that show the product and service lines and other relevant details for the quote.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/quote-create-sales-agreement.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -29,13 +30,13 @@ Sales agreements filter the product catalog according to the agreement.
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Quote** &gt; **All-Quotes** and select **New**.
 
 3.  Add quote details to the quote and select **Enable sales agreement quote**.
 
-    When the **Enable sales agreement quote** is selected, the quote is set on a sales agreement workflow. See [Using Sales Agreement Management](../concept/sales-agreement-mgmt-using.md) for more information.
+    When the **Enable sales agreement quote** is selected, the quote is set on a sales agreement workflow. See [Using Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/sales-agreement-mgmt-using.md) for more information.
 
 4.  Fill in the **Sales agreement start date** and **Sales agreement end date**.
 
@@ -43,13 +44,13 @@ Sales agreements filter the product catalog according to the agreement.
 
 6.  Use the **Catalog** tab to add quote line items to the quote.
 
-    See [Add products to a quote](quote-management-catalog-tab.md) for more information.
+    See [Add products to a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-management-catalog-tab.md) for more information.
 
 7.  Make other updates to the quote.
 
 8.  Once the quote is ready, select **Submit for approval**.
 
-9.  When the quote is at an **Approved** state, change the quote to **Completed** by either updating the **State** field or selecting the context menu ![](../image/icon-three-dots.png) and choosing **Mark as complete**.
+9.  When the quote is at an **Approved** state, change the quote to **Completed** by either updating the **State** field or selecting the context menu \[Omitted image "icon-three-dots.png"\] Alt text: and choosing **Mark as complete**.
 
     The quote is saved to a **Completed** state and the **Create sales agreement** button appears in the quote details form.
 
@@ -60,5 +61,5 @@ Sales agreements filter the product catalog according to the agreement.
 11. Select the sales agreement message to open the sales agreement.
 
 
-**Parent Topic:**[Using Quote Management](../concept/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-mgmt-using.md)
 

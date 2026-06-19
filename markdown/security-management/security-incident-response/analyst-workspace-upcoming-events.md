@@ -2,6 +2,7 @@
 title: View upcoming tasks
 description: The Security Analyst can view the upcoming tasks related to the Security Incidents and Response Tasks that are due, overdue or breached the defined SLA.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/analyst-workspace-upcoming-events.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -33,10 +34,10 @@ Role required: sn\_si.analyst
 
     For example, if you click on the link, **More than 10 security incidents with breached SLA** then the list of breached SLA incidents are displayed in a new tab within the workspace.
 
-    ![security incidents that breached SLAs.](../image/breached-sla.png)
+    \[Omitted image "breached-sla.png"\] Alt text: security incidents that breached SLAs.
 
     **Note:** You can perform New, Assign, Export, and Delete operations from any list view.
 
 
-**Parent Topic:**[Upcoming section](upcoming-section.md)
+**Parent Topic:**[Upcoming section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/upcoming-section.md)
 

@@ -1,19 +1,20 @@
 ---
 title: Prompts
-description: Explore prompts in detail with examples.
+description: Explore the prompts in detail with examples.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/ai-prompts.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2025-08-24"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Definitions of AI asset inventory, Explore, AI Control Tower, Enable AI experiences]
 ---
 
 # Prompts
 
-Explore prompts in detail with examples.
+Explore the prompts in detail with examples.
 
 A prompt is a question or instruction provided to an AI system, indicating what you want it to accomplish. Prompts are commonly used in tools like ChatGPT or image generators.
 

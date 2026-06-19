@@ -2,6 +2,7 @@
 title: Automated Send Email activity
 description: Create an email from previously gathered or generated data without pausing the playbook to ask for user input. When the activity runs, it immediately sends the email and continues to the next activity in the playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/automated-send-email-activity.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -21,7 +22,7 @@ This activity is available as a common activity. Users with the admin, playbook.
 
 ## Inputs
 
-Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see [Dot-walking examples](https://www.servicenow.com/docs/access?context=dot-walking-examples&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see .
 
 <table id="table_ajt_sr3_plb"><thead><tr><th>
 
@@ -97,7 +98,7 @@ True/False
 
 </td><td>
 
-Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
+Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -114,7 +115,7 @@ Recipient list for the email. There are 2 ways to configure this field:-   Enter
 
 You would select the customer record from the trigger \(when the application was submitted\), because that is where the applicant's email address is found.
 
-![Using the pill picker to reference the email address.](../images/send-to-customer-pillpicker.png)
+\[Omitted image "send-to-customer-pillpicker.png"\] Alt text: Using the pill picker to reference the email address.
 
 
 </td></tr><tr><td>
@@ -156,7 +157,7 @@ Body of the email.**Tip:** You can use both text and multiple pills in your mess
 </td></tr></tbody>
 </table>## Advanced inputs
 
-After configuring the required inputs for your activity, you can also choose to configure additional inputs. In the side panel, select **Show additional options** to display these advanced inputs. For more information, see [Activity experience](../concept/activity-definitions.md#activity-experience).
+After configuring the required inputs for your activity, you can also choose to configure additional inputs. In the side panel, select **Show additional options** to display these advanced inputs. For more information, see [Activity experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/activity-definitions.md).
 
 |Input|Type|Description|
 |-----|----|-----------|
@@ -176,5 +177,5 @@ These outputs can provide data to other activities in your playbook. You can acc
 |Record|Reference.Task\[task\]|Reference to record created.|
 |Email|Reference.Notification\[sysevent\_email\_action\]|Reference to the newly created email notification record|
 
-**Parent Topic:**[Non-Interactive activities](../concept/non-interactive-activities.md)
+**Parent Topic:**[Non-Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/non-interactive-activities.md)
 

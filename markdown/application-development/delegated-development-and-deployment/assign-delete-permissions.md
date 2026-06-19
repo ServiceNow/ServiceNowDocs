@@ -2,6 +2,7 @@
 title: Assign delete permissions
 description: Ability to assign the ability to delete an application to a delegated developer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/delegated-development-and-deployment/assign-delete-permissions.html
 release: zurich
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
@@ -31,7 +32,7 @@ Role required: admin
 
 5.  Toggle on **Delete Application**, and then select **Save**.
 
-    ![Delete application](../image/delegated-dev-delete-application.png "Delete Application")
+    \[Omitted image "delegated-dev-delete-application.png"\] Alt text: Delete application
 
 6.  The delegated developer can now delete the application.
 

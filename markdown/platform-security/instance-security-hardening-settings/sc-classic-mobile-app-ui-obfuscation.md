@@ -2,6 +2,7 @@
 title: Require obfuscation of classic mobile app UI \[Updated in Security Center 1.3\]
 description: Use the glide.ui.m.blur\_ui\_when\_backgrounded property to obfuscate all fields from the snapshot as the image is saved during the backgrounding process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-classic-mobile-app-ui-obfuscation.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -21,7 +22,7 @@ On iOS devices, the iOS operating system also allows applications to save an ima
 
 **Note:** This setting or configuration is per instance basis so the user must connect to the instance with the property configured.
 
-To obfuscate all fields from the snapshot in the ServiceNow Classic app, see [Configure the blur app option to improve security](https://www.servicenow.com/docs/access?context=t_BlurApp&version=zurich&pubname=zurich-mobile&ft:locale=en-US).
+To obfuscate all fields from the snapshot in the ServiceNow Classic app, see Configure the blur app option to improve security.
 
 ## Example
 
@@ -59,7 +60,7 @@ Category
 
 </td><td>
 
-[Authentication](sc-authentication.md)
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)
 
 </td></tr><tr><td>
 
@@ -106,7 +107,7 @@ Security risk
 \(Medium\) A compromised \(jailbroken\) device would enable an attacker to have full access to the file system, with access those files/snapshots with sensitive information embedded in them.
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Authentication](sc-authentication.md)
+**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

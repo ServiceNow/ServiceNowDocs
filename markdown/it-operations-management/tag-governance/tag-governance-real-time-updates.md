@@ -2,6 +2,7 @@
 title: Performing real-time updates to tags for cloud resources
 description: You can set up cloud events processing and map a tag policy to update tags for cloud resources in real time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/tag-governance/tag-governance-real-time-updates.html
 release: zurich
 product: Tag Governance
 classification: tag-governance
@@ -26,9 +27,9 @@ You can set up cloud events processing and map a tag policy to update tags for c
 
 See the following setup instructions for cloud event processing:
 
--   [Configure the Amazon AWS Config service to auto-update the CMDB](../task/aws-config-service-cloud-mgt.md)
--   [Configure the Microsoft Azure Alert service to auto-update the CMDB](microsoft-azure-alert-driven-discovery.md#)
--   [Configure the Google Cloud's Operations Suite Logging service to auto-update the CMDB](../task/gcp-stackdriver-service.md)
+-   [Configure the Amazon AWS Config service to auto-update the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/aws-config-service-cloud-mgt.md)
+-   [Configure the Microsoft Azure Alert service to auto-update the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/microsoft-azure-alert-driven-discovery.md)
+-   [Configure the Google Cloud's Operations Suite Logging service to auto-update the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/gcp-stackdriver-service.md)
 
 Process cloud events related to changes in tags and execute tag audits on the events in real time.
 

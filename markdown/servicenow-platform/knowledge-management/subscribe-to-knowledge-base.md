@@ -2,6 +2,7 @@
 title: Subscribe to a knowledge base
 description: Subscribe to a knowledge base and receive notifications when articles are added to that knowledge base.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/subscribe-to-knowledge-base.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -17,7 +18,7 @@ Subscribe to a knowledge base and receive notifications when articles are added 
 
 ## Before you begin
 
-You must activate the Knowledge Management Advanced \(com.snc.knowledge\_advanced\) plugin. For more information, see [Configure knowledge subscriptions](configure-subscription-properties.md).
+You must activate the Knowledge Management Advanced \(com.snc.knowledge\_advanced\) plugin. For more information, see [Configure knowledge subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/configure-subscription-properties.md).
 
 Role required: knowledge
 
@@ -27,7 +28,7 @@ Users can subscribe to a knowledge base from either the Knowledge Management v3 
 
 **Note:**
 
-Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](../concept/knowledge-service-portal-pages.md).
+Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md).
 
 ## Procedure
 
@@ -42,5 +43,5 @@ Starting with the Washington DC release, the Knowledge Management v3 homepage \(
 
 Receive notifications when articles are added to the subscribed knowledge base.
 
-**Parent Topic:**[Use knowledge subscriptions](../concept/use-knowledge-subscriptions.md)
+**Parent Topic:**[Use knowledge subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/use-knowledge-subscriptions.md)
 

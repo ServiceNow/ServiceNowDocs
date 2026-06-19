@@ -2,6 +2,7 @@
 title: Create implementation in Scripted Extension Point
 description: Create the implementation in the Scripted Extension Point, provided out-of-the-box, by placing it in the script include in the base application code.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-request-management/create-scripted-extension-point.html
 release: zurich
 product: Legal Request Management
 classification: legal-request-management
@@ -37,17 +38,17 @@ If you want to send additional information while uploading the document, you mus
 
 5.  On the form, fill in the fields.
 
-    For more information, see [Scripted Extension Point form fields](../reference/scripted-extension-point-form-fields.md).
+    For more information, see [Scripted Extension Point form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/scripted-extension-point-form-fields.md).
 
 
 ## Result
 
-The Implementation is created in Scripted Extension Point. For more information on how to use the script include for Scripted Extension point, see [Use the script include for Scripted Extension Point](../reference/implement-script-include-for-extn-pt.md).
+The Implementation is created in Scripted Extension Point. For more information on how to use the script include for Scripted Extension point, see [Use the script include for Scripted Extension Point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/implement-script-include-for-extn-pt.md).
 
--   **[Use the script include for Scripted Extension Point](../reference/implement-script-include-for-extn-pt.md)**  
+-   **[Use the script include for Scripted Extension Point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/implement-script-include-for-extn-pt.md)**  
 Use the script include for Scripted Extension Point to update the custom fields on the iManage storage based on the mapping provided in the functions.
--   **[Scripted Extension Point form fields](../reference/scripted-extension-point-form-fields.md)**  
+-   **[Scripted Extension Point form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/scripted-extension-point-form-fields.md)**  
 List of fields in the Scripted Extension Point.
 
-**Parent Topic:**[Configure an external storage system for legal requests and legal matters](integrate-legal-ext-storage.md)
+**Parent Topic:**[Configure an external storage system for legal requests and legal matters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/integrate-legal-ext-storage.md)
 

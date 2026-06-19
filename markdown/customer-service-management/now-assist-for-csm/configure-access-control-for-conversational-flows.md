@@ -2,6 +2,7 @@
 title: Customize access control for conversational flows
 description: You must define an access control list \(ACL\) for conversational flows. An ACL enables you to restrict who is able to access and execute a skill to only users with the correct role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/configure-access-control-for-conversational-flows.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm

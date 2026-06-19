@@ -2,6 +2,7 @@
 title: Submit a legal request for a NDA
 description: Submit a legal request for a non-disclosure agreement with third parties such as vendors, customers, or partners.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-simple-contracts/submit-legal-contract-request.html
 release: zurich
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -23,15 +24,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 1.  Access the non-disclosure agreement intake form.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d216541e71">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d212622e71">
 
 Option
 
-</th><th align="left" id="d216541e74">
+</th><th align="left" id="d212622e74">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d216541e80">
+</th></tr></thead><tbody><tr><td id="d212622e80">
 
 **Using __Employee Center__**
 
@@ -42,7 +43,7 @@ Description
 3.  Search for and open the **Non-disclosure agreement** request item.
 
 
-</td></tr><tr><td id="d216541e123">
+</td></tr><tr><td id="d212622e123">
 
 **Using __Legal Service Portal__**
 
@@ -70,7 +71,7 @@ Is this for a Vendor, Customer, or Partner?
 
 </td><td>
 
-Category of the third party.
+Category of the third-party.
 
 </td></tr><tr><td>
 
@@ -86,7 +87,7 @@ Company legal name
 
 </td><td>
 
-Legal name of the third party with whom you are making an agreement.If the company name isn’t listed, select **\[Company not listed\]** option and enter the name in the **New company legal name**.
+Legal name of the third-party with whom you are making an agreement.If the company name isn’t listed, select **\[Company not listed\]** option and enter the name in the **New company legal name**.
 
 </td></tr><tr><td>
 
@@ -94,7 +95,7 @@ Address
 
 </td><td>
 
-Mailing address of the third party.
+Mailing address of the third-party.
 
 </td></tr><tr><td>
 
@@ -102,7 +103,7 @@ Country
 
 </td><td>
 
-Country of the third party.
+Country of the third-party.
 
 </td></tr><tr><td>
 
@@ -128,21 +129,21 @@ External signatory details
 
 </td><td>
 
-List of people from the selected third party who would sign the agreement.
+List of people from the selected third-party who would sign the agreement.
 
 </td></tr></tbody>
 </table>3.  Modify the list of signatories.
 
     -   To add a signatory, select **Add** and provide the signatory's details.
 
-    -   To modify a signatory's information, select the Edit row icon \(![Edit row icon.](../../legal-digital-forensics/image/rename-icon.png)\) on the signatory's row and update the details.
+    -   To modify a signatory's information, select the Edit row icon \(\[Omitted image "rename-icon.png"\] Alt text: Edit row icon.\) on the signatory's row and update the details.
 
-    -   To remove a signatory, select the Remove row icon \(![Remove row icon.](../../legal-digital-forensics/image/delete-icon.png)\) on the signatory's row.
+    -   To remove a signatory, select the Remove row icon \(\[Omitted image "delete-icon.png"\] Alt text: Remove row icon.\) on the signatory's row.
 
 4.  Select **Submit**.
 
     -   A legal request for generating a contract document for non-disclosure agreement is created in the New state.
-    -   A contract document in the Document Ready status is generated with data from the request using a contract template based on the contract template rules. Internal signatories based on the template are also populated in the generated document. For more information, see [Configure a rule for selecting a legal contract template](configure-legal-contract-template-rules.md).
+    -   A contract document in the Document Ready status is generated with data from the request using a contract template based on the contract template rules. Internal signatories based on the template are also populated in the generated document. For more information, see [Configure a rule for selecting a legal contract template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/configure-legal-contract-template-rules.md).
 
         **Note:**
 
@@ -151,20 +152,20 @@ List of people from the selected third party who would sign the agreement.
         In either case, you can submit a change request to update the number of signatories as required for your contract.
 
     -   A record for each external signatory is created in the Signer \[sn\_lg\_contracts\_signer\] table.
-    For more information on how to view and track a legal request, see [View and track legal request details](../../legal-request-management/task/view-legal-request-details.md).
+    For more information on how to view and track a legal request, see [View and track legal request details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/view-legal-request-details.md).
 
 5.  If you need changes in the generated document, submit a change request to the legal department.
 
-    For more information, see [Review and finalize the contract document](finalize-contract-document-nda.md).
+    For more information, see [Review and finalize the contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/finalize-contract-document-nda.md).
 
 6.  Modify the request details or manage signatories by selecting **Actions** and then selecting **Edit Request**.
 
-    This option is available only if the request state is New and the document status is Document Ready. For more information, see [Modify a legal request](update-legal-contract-request-tpc.md).
+    This option is available only if the request state is New and the document status is Document Ready. For more information, see [Modify a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/update-legal-contract-request-tpc.md).
 
 7.  When the contract document is finalized, send it to the signatories for getting it signed.
 
-    For more information, see [Review and finalize the contract document](finalize-contract-document-nda.md).
+    For more information, see [Review and finalize the contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/finalize-contract-document-nda.md).
 
 
-**Parent Topic:**[Non-disclosure agreement requests in Legal Simple Contracts](../concept/legal-request-nda.md)
+**Parent Topic:**[Non-disclosure agreement requests in Legal Simple Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/legal-request-nda.md)
 

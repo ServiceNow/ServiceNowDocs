@@ -2,6 +2,7 @@
 title: Configuring needs analysis
 description: As a product catalog administrator, you can create needs templates, which are questionnaires that agents use to find product offers to add to a lead or opportunity. Questionnaires function as product selection guides. When agents complete a questionnaire based on customer input, they get product recommendations that they can add to a lead or opportunity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configuring-needs-analysis.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -19,7 +20,7 @@ As a product catalog administrator, you can create needs templates, which are qu
 
 When agents create a lead in the Lead Management application or an opportunity in the Opportunity Management application, a product selection guide is displayed in the product catalog. The product selection guide lists the needs templates that agents can choose to get product offer recommendations.
 
-![Product catalog page with needs template, needs questionnaire and product recommendations in Opportunity Management, and decision tree start node in Decision Tree Builder](../image/needs-analysis-elements.png "Elements of needs analysis")
+\[Omitted image "needs-analysis-elements.png"\] Alt text: Product catalog page with needs template, needs questionnaire and product recommendations in Opportunity Management, and decision tree start node in Decision Tree Builder
 
 -   **Needs template**
 
@@ -40,16 +41,16 @@ You configure decision trees by adding nodes, defining paths, and attaching guid
 
 Before creating decision trees for needs templates, review how decision trees work:
 
--   [Decision trees in Guided decision](https://www.servicenow.com/docs/access?context=decision-trees-in-guided-decisions&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US) - Learn the basic elements of a decision tree, such as node types, linking inputs in nodes, and decision tree paths.
--   [Example configuration of a decision tree](https://www.servicenow.com/docs/access?context=example-decision-tree&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US) - Review an example decision tree, including preparations for creating a decision tree, to understand the end-to-end configuration of a decision tree.
--   [Answer types for questions](https://www.servicenow.com/docs/access?context=type-of-answer&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US) - Learn about the various types of answers to questions, such as Choice, Date, or Integers.
+-    - Learn the basic elements of a decision tree, such as node types, linking inputs in nodes, and decision tree paths.
+-    - Review an example decision tree, including preparations for creating a decision tree, to understand the end-to-end configuration of a decision tree.
+-    - Learn about the various types of answers to questions, such as Choice, Date, or Integers.
 
 ## Setting up needs analysis
 
 Follow these steps to configure needs analysis:
 
-1.  [Create a needs-based product offering recommendation](../task/create-product-recommendations.md).
-2.  [Create a decision tree for a needs template](../task/configure-needs-decision-tree.md).
-3.  [Build a needs decision tree](../task/build-needs-decision-tree.md).
-4.  [Create a needs template and set the catalog relationship](../task/create-publish-needs-template.md).
+1.  [Create a needs-based product offering recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-product-recommendations.md).
+2.  [Create a decision tree for a needs template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/configure-needs-decision-tree.md).
+3.  [Build a needs decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/build-needs-decision-tree.md).
+4.  [Create a needs template and set the catalog relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-publish-needs-template.md).
 

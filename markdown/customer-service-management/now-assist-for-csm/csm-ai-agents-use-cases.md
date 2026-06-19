@@ -2,6 +2,7 @@
 title: Using agentic AI in Now Assist for Customer Service Management \(CSM\)
 description: The Customer Service Management \(CSM\) AI Agent Collection provides a set of prebuilt, fully configured AI agents and agentic workflows designed to address common Customer Service Management scenarios.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/csm-ai-agents-use-cases.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -32,7 +33,7 @@ Available AI agents
 
 </th></tr></thead><tbody><tr><td>
 
-[Triage cases](case-resolving-use-case.md)
+[Triage cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/case-resolving-use-case.md)
 
 </td><td>
 
@@ -50,7 +51,7 @@ Handles end-to-end case or case type validation, creation, verification, and esc
 
 </td></tr><tr><td>
 
-[Provide customer 360 insights](customer-service-management-ai-agent-collection-customer-360.md)
+[Provide customer 360 insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/customer-service-management-ai-agent-collection-customer-360.md)
 
 </td><td>
 
@@ -63,7 +64,7 @@ Provides agents with real-time, context aware responses to queries on customer d
 
 </td></tr><tr><td>
 
-[Complaint Case AI Agent collection](csm-ai-agents-use-cases.md)
+[Complaint Case AI Agent collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/csm-ai-agents-use-cases.md)
 
 </td><td>
 
@@ -80,17 +81,17 @@ Automate and enhance the complaint resolution process by gathering missing infor
 
 **Note:**
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://www.servicenow.com/docs/access?context=ai-model-providers&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://www.servicenow.com/docs/access?context=manage-large-language-models&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US). For more information, see [Large language models on the ServiceNow AI Platform®](https://www.servicenow.com/docs/access?context=exploring-large-language-models&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the Now Assist Admin console. For more information, see .
 
 ## Security implementation considerations
 
-Enable security implementation to execute AI agents and agentic workflows through Access Control Lists \(ACLs\) and user identities. For more information, see [Implement access control in Now Assist AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)
+Enable security implementation to execute AI agents and agentic workflows through Access Control Lists \(ACLs\) and user identities. For more information, see 
 
 ## Considerations for running the autonomous AI Agents
 
 **Important:** By default, all agentic workflows and AI agent records are read only.
 
-To run the AI agents autonomously, you must first [duplicate the agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US), and then proceed with the following steps:
+To run the AI agents autonomously, you must first duplicate the agentic workflow, and then proceed with the following steps:
 
 -   Activate the agentic workflow.
 -   Activate all agents within the agentic workflow.
@@ -100,6 +101,6 @@ To run the AI agents autonomously, you must first [duplicate the agentic workflo
 
 Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 

@@ -2,6 +2,7 @@
 title: Add field security in HR
 description: You can secure a field on a form so that specific HR users cannot view it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/FieldSecurity.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -31,7 +32,7 @@ Use **Access Control** \(ACL\) on a field to secure it.
 
 2.  Elevate your role to add **security\_admin**.
 
-    Select your login name and select **Elevate Roles**.![Select Elevate Roles from login name.](../image/ElevateRoles.png)
+    Select your login name and select **Elevate Roles**.\[Omitted image "ElevateRoles.png"\] Alt text: Select Elevate Roles from login name.
 
 3.  Check **security\_admin**.
 
@@ -43,11 +44,11 @@ Use **Access Control** \(ACL\) on a field to secure it.
 
 6.  Right-click the **Ethnicity** field and select **Configure Security**.
 
-    ![Reveal the Configure Security field from the HR profile form.](../image/HRProfile.png)
+    \[Omitted image "HRProfile.png"\] Alt text: Reveal the Configure Security field from the HR profile form.
 
 7.  The **Security Mechanic** menu appears.
 
-    Change the **Operation to secure** field to **read**. ![Operation Secure field on Security Mechanic menu.](../image/SecurityMechanic.png)
+    Change the **Operation to secure** field to **read**. \[Omitted image "SecurityMechanic.png"\] Alt text: Operation Secure field on Security Mechanic menu.
 
 8.  Move a role that you want to view the field to the **Selected** column.
 
@@ -57,15 +58,15 @@ Use **Access Control** \(ACL\) on a field to secure it.
 
     Because HRSM is a scoped application, you have to ensure that you are in the scoped version within the form.
 
-    -   Click the Settings ![Gear icon](../../../common/image/Banner_GearIcon.png) icon.
+    -   Click the Settings \[Omitted image "Banner\_GearIcon.png"\] Alt text: Gear icon icon.
     -   Select **Developer** under **System Settings**.
-    -   Change **Application** to **Human Resources: Core**.![Change to scoped version of HR through System Settings.](../image/ChangeScope.png)
+    -   Change **Application** to **Human Resources: Core**.\[Omitted image "ChangeScope.png"\] Alt text: Change to scoped version of HR through System Settings.
     -   Close the window.
 
-**Parent Topic:**[Use HR Profile](../concept/c_HRProfileRecords.md)
+**Parent Topic:**[Use HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
 
 **Related topics**  
 
 
-[Access control list rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.access-control-rules]
 

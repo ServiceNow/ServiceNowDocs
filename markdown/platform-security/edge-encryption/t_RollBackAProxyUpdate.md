@@ -2,6 +2,7 @@
 title: Roll back an Edge Encryption proxy server upgrade
 description: If a proxy upgrade is unsuccessful, you can go back to the earlier version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/t\_RollBackAProxyUpdate.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -40,5 +41,5 @@ If you would like to roll back a manual upgrade, you can follow these steps.
 5.  Check the proxy log and the instance to verify that the proxy is online.
 
 
-**Parent Topic:**[Upgrading Edge Encryption](../concept/c_UpdateEdgeEncryptionProxy.md)
+**Parent Topic:**[Upgrading Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/c_UpdateEdgeEncryptionProxy.md)
 

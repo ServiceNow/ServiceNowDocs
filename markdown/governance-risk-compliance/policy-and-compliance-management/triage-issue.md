@@ -2,12 +2,13 @@
 title: Triage a self-identified issue
 description: After an issue has been identified and submitted by employees or business users via the Service Portal, the issue triage process begins. The actual problem is identified and assigned to the appropriate owner for prioritization and resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/triage-issue.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-03-12"
+reading_time_minutes: 4
 breadcrumb: [Report self-identified issues, Manage issues, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
@@ -32,7 +33,7 @@ The assigned triage teams identify whether the self-identified issues are actual
 
 The end-to-end flow of the issue triage life cycle is illustrated and described here.
 
-![Issue triage](../image/issue-triage_lifecycle-01.png "Issue triage life cycle")
+\[Omitted image "issue-triage\_lifecycle-01.png"\] Alt text: Issue triage
 
 <table id="table_exh_nm3_b4b"><thead><tr><th>
 
@@ -136,13 +137,7 @@ Ability to resolve the reportable issue assigned to them
 
     The list shows triage issues previously created and assigned to you.
 
-    ![Issue Triages](../image/issue-triages.png "Issue Triages")
-
 2.  Click the number of the issue that you want to triage.
-
-    ![Issue Triage - new record](../image/issue-triage-new.png "Issue Triage - new record")
-
-    **Note:** The **Classification** field is automatically pre-filled based on the **Issue type** selected. Similarly, an assignment rule called sn\_grc\_advanced\_issue\_triage runs and pre-fills the **Triage group**. This rule uses the **Source** and **Classification** to determine the group to which the triage is assigned. Assignment rules also handle issue triages in Risk Management and triages where the **Classification** is set to **Other** \(that is, it is initially unknown\). For the second use case, you must manually set the **Triage group** to **Risk** or **Compliance**.
 
 3.  When you are ready for triage of this issue to begin, select a **Triage owner** and click **Analyze**.
 
@@ -159,15 +154,13 @@ Ability to resolve the reportable issue assigned to them
     -   Select the **Details** related list to provide additional enrichment to the issue.
 6.  After it has been determined what action \(if any\) should be performed on the issue, the triage owner can select a result of the analysis from the **Results** related list.
 
-    ![Triage results](../image/triage-results.png "Results")
+    \[Omitted image "triage-results.png"\] Alt text: Triage results
 
     **Note:** The options available in the **Result** field depend on the **Issue type** identified for this issue. For example, if you select **Control design effectiveness failure** as the **Issue type**, the following results may be selected.
 
-    ![Additional results](../image/triage-results-addl.png "Additional results")
+    \[Omitted image "triage-results-addl.png"\] Alt text: Additional results
 
-7.  If you select a result, such as **Confirmed as a new compliance issue**, which requires more action than simple observation, additional analysis fields display, as shown in the following screen.
-
-    ![Additional fields displayed as result of Result selection](../image/issue-results-addl-fields.png "Additional fields displayed after selecting Result")
+7.  If you select a result, such as **Confirmed as a new compliance issue**, which requires more action than simple observation, additional analysis fields display.
 
     If the result is **Confirmed as an existing compliance issue**, then an **Existing issue** field appears where you must identify the existing issue that you are referring to.
 
@@ -177,12 +170,10 @@ Ability to resolve the reportable issue assigned to them
 
     The issue triage transitions to the **Closed** state and a link to the issue displays at the top of the screen.
 
-    ![Triage closed and new issue created](../image/triage-closed.png "Triage closed and new issue created")
-
 9.  The issue can be analyzed using the usual issue management procedures.
 
     One significant change on the **Issue** form is the addition of an **Issue Triages** related list. Opening the triage record provides the analyst with the details of the triage that resulted in the creation of this issue.
 
 
-**Parent Topic:**[Report self-identified issues via the Service Portal](create-self-identified-issues.md)
+**Parent Topic:**[Report self-identified issues via the Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/create-self-identified-issues.md)
 

@@ -2,6 +2,7 @@
 title: Configure search resource context properties
 description: Configure the properties to limit the search to a specific catalog or knowledge base. For example, if you want to limit the knowledge search to an IT knowledge base or a service catalog search to software service catalog, you can configure the properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/contextual-search/t\_ApplyConfigurationToSearch.html
 release: zurich
 product: Contextual Search
 classification: contextual-search
@@ -31,7 +32,7 @@ The following procedure uses Incident Deflection as an example.
 
 3.  View the Resource Configurations related list.
 
-    ![Resource Configurations related list on Search Context form.](../image/resource-configuraion-related-list.png)
+    \[Omitted image "resource-configuraion-related-list.png"\] Alt text: Resource Configurations related list on Search Context form.
 
     In the Resource Configurations related list, edit a resource configuration record to view the properties of the search resource.
 
@@ -66,7 +67,7 @@ Search operator
 
 </td><td>
 
-Value of the operator is used in the Zing search engine to instruct how to combine the AND and OR conditions when parsing the search string. The integration of the search strings helps to [score](../../search-administration/concept/c_DocumentScoring.md) the displayed results. The value can only be one of the following values: -   **IR\_AND\_OR\_QUERY** \(the default\): Display results with exact matches of all terms if the number of results is greater than the value of the **glide.ts.query.and\_or\_limit** property \(default 0\) or the \(overriding\) value of the table custom attribute **text\_search\_and\_or\_limit** \(when added\). Otherwise display results with any matches of any terms.
+Value of the operator is used in the Zing search engine to instruct how to combine the AND and OR conditions when parsing the search string. The integration of the search strings helps to [score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/search-administration/c_DocumentScoring.md) the displayed results. The value can only be one of the following values: -   **IR\_AND\_OR\_QUERY** \(the default\): Display results with exact matches of all terms if the number of results is greater than the value of the **glide.ts.query.and\_or\_limit** property \(default 0\) or the \(overriding\) value of the table custom attribute **text\_search\_and\_or\_limit** \(when added\). Otherwise display results with any matches of any terms.
 -   **IR\_AND\_QUERY**: Display results with exact matches of all terms only.
 -   **IR\_OR\_QUERY**: Display results with any matches of any terms.
 
@@ -74,10 +75,10 @@ Value of the operator is used in the Zing search engine to instruct how to combi
 </td></tr></tbody>
 </table>4.  To edit the value of any property, click the property name and in the Search Resource Context Property form, update the **Value** field to `true` or `false`.
 
-    ![Search resource context property](../image/search-resource-context-property.png)
+    \[Omitted image "search-resource-context-property.png"\] Alt text: Search resource context property
 
 5.  Click **Update**.
 
 
-**Parent Topic:**[Configuring contextual search](../concept/configuring-contextual-search.md)
+**Parent Topic:**[Configuring contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/configuring-contextual-search.md)
 

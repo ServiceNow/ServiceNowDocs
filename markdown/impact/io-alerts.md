@@ -2,7 +2,10 @@
 title: Key alerts – activation and notifications
 description: Use the Instance Observer Key Alerts Activation functionality for flexibility to set alerts with historical thresholds from four week increments specific to your business needs and configure who on your team receives notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/io-alerts.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -31,5 +34,5 @@ Instance Observer utilizes the P-Score to assess instance usage, then calculate 
 -   When an instance meets the required P-Score for eligibility, users will see a banner to opt-in for the alerts activation feature. Users will receive intelligent thresholds under the **IO recommended** condition for all six metrics derived from historical data.
 -   If an instance has a low P-Score, the banner to opt-in for alerts activation feature will not be visible. The P-Score is regularly refreshed, and as instances grow in the future, you will see the option to opt-in for the alerts activation feature. Thresholds are refreshed automatically weekly for instances meeting the minimum P-Score criteria.
 
-To set up alerts, see [Configure Key Alerts](../task/configuring-io-alerts.md).
+To set up alerts, see [Configure Key Alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-io-alerts.md).
 

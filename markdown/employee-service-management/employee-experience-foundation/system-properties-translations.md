@@ -2,11 +2,12 @@
 title: Enable translated topic path updates
 description: Improve the accuracy and reliability of topic translations with a new system property that helps keep translated topic paths up to date automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/system-properties-translations.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 keywords: [translation, localization, topic paths, multilingual]
 breadcrumb: [Create and associate topics, Unified Taxonomy for Employee Center, Setup Employee Center browse experience features, Configure, Employee Center, Unified Employee Experience, Employee Service Management]

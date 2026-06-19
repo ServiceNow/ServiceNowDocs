@@ -2,6 +2,7 @@
 title: EIF events warning severity
 description: If the EIF event payload has a warning severity, it will be mapped differently in the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/eif-events-severity.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -23,5 +24,5 @@ If the EIF event payload has a warning severity, it will be mapped differently i
 |Critical|Critical|
 |Fatal|Critical|
 
-**Parent Topic:**[Integrate Event Integration \(EIF\) format event connector](../task/eif-events-integration.md)
+**Parent Topic:**[Integrate Event Integration \(EIF\) format event connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/eif-events-integration.md)
 

@@ -2,6 +2,7 @@
 title: Supported field types for anonymization
 description: Check which field types are supported when anonymizing data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-privacy-classic/data-privacy-supported-data-types.html
 release: zurich
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
@@ -17,7 +18,7 @@ Check which field types are supported when anonymizing data.
 
 **Note:** Not all field types that have been classified are available for anonymization.
 
-Some high risk field types are turned off by default, as detailed in the table. For more information about fields, see [Field Types](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Some high risk field types are turned off by default, as detailed in the table. For more information about fields, see Field Types.
 
 |Field type|Available by default|
 |----------|--------------------|

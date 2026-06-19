@@ -2,6 +2,7 @@
 title: Integrating with SAP SuccessFactors
 description: Integrating your Software Asset Management application with the SAP SuccessFactors application enables you to track your software subscriptions and to reclaim unused licenses.Set up basic authentication to enable access to the SAP SuccessFactors API.Create a connection between your SAP SuccessFactors OData API and your ServiceNow instance.Enable client certificate authentication for the outbound communication from SAP Master Data service by generating the keystore.jks and keystore.cer files.Enable client certificate authentication for the outbound communication by uploading the JKS certificate in your ServiceNow instance.Use the API key generated during the client application configuration to register the application as an OAuth provider.Create a SAML2 assertion record to generate the SAML2 assertion and exchange the assertion for the access tokens with the provider.Create a connection record for the OData API in SuccessFactors. The SuccessFactors spoke connection and credential alias uses these connections to perform actions in SuccessFactors.Create a connection record for the OData API in SuccessFactors. The SuccessFactors spoke connection and credential alias uses these connections to perform actions in SuccessFactors.Create an SAP SuccessFactors integration profile to track software subscriptions and optimize licensing for your SAP SuccessFactors applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/saas-license-management/integrate-with-successfactors.html
 release: zurich
 product: SaaS License Management
 classification: saas-license-management
@@ -24,17 +25,17 @@ You must request and install the following applications from [ServiceNow Store](
 -   Software Asset Management integration with SuccessFactors
 
 -   If your installed SAP SuccessFactors spoke version is 3.1.5 or lower, follow these steps:
-    1.  [Set up basic authentication for SAP SuccessFactors](integrate-with-successfactors.md#)
-    2.  [Create an SAP SuccessFactors connection](integrate-with-successfactors.md#)
-    3.  [Create an SAP SuccessFactors integration profile](integrate-with-successfactors.md#)
+    1.  [Set up basic authentication for SAP SuccessFactors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-successfactors.md)
+    2.  [Create an SAP SuccessFactors connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-successfactors.md)
+    3.  [Create an SAP SuccessFactors integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-successfactors.md)
 -   If your installed SAP SuccessFactors spoke version is 4.0.0 or higher, follow these steps:
-    1.  [Register OAuth application in SuccessFactors](integrate-with-successfactors.md#)
-    2.  [Upload the JKS certificate in your ServiceNow instance](integrate-with-successfactors.md#)
-    3.  [Register SuccessFactors as an OAuth provider](integrate-with-successfactors.md#)
-    4.  [Create the SAML2 assertion producer record](integrate-with-successfactors.md#)
-    5.  [Create credential record for the OData API](integrate-with-successfactors.md#)
-    6.  [Create connection record for the OData API](integrate-with-successfactors.md#)
-    7.  [Create an SAP SuccessFactors integration profile](integrate-with-successfactors.md#)
+    1.  [Register OAuth application in SuccessFactors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-successfactors.md)
+    2.  [Upload the JKS certificate in your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-successfactors.md)
+    3.  [Register SuccessFactors as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-successfactors.md)
+    4.  [Create the SAML2 assertion producer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-successfactors.md)
+    5.  [Create credential record for the OData API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-successfactors.md)
+    6.  [Create connection record for the OData API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-successfactors.md)
+    7.  [Create an SAP SuccessFactors integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-successfactors.md)
 
 **Important:** Minimize security risks and protect information by granting access only to the necessary user or API permissions.
 
@@ -106,7 +107,7 @@ SAP SuccessFactors Role required: admin
 
         The dialog box closes and you return to the Permission Role Detail form.
 
-    11. Under the **Grant this role to...** tab, select **Add...** to search for and select the permission groups that you created in step [4](integrate-with-successfactors.md#create-group).
+    11. Under the **Grant this role to...** tab, select **Add...** to search for and select the permission groups that you created in step [4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-successfactors.md).
 
         Adding this permission group allows the associated users and user groups to access the APIs that are enabled in this permission role.
 
@@ -141,8 +142,8 @@ ServiceNow Role required: admin
     |-----|-----------|
     |Connection Name|Name of the SuccessFactors\_OData connection.|
     |Connection URL|OData API URL of your SAP SuccessFactors instance.|
-    |User name|Username for your SAP SuccessFactors admin account. Enter the same username that you used to log in to your SAP SuccessFactors instance in [Set up basic authentication for SAP SuccessFactors](integrate-with-successfactors.md#).|
-    |Password|Password for your SAP SuccessFactors admin account. Enter the same password that you used to log in to your SAP SuccessFactors instance in [Set up basic authentication for SAP SuccessFactors](integrate-with-successfactors.md#).|
+    |User name|Username for your SAP SuccessFactors admin account. Enter the same username that you used to log in to your SAP SuccessFactors instance in [Set up basic authentication for SAP SuccessFactors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-successfactors.md).|
+    |Password|Password for your SAP SuccessFactors admin account. Enter the same password that you used to log in to your SAP SuccessFactors instance in [Set up basic authentication for SAP SuccessFactors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-successfactors.md).|
 
 7.  Select **Configure Connection**.
 
@@ -192,7 +193,7 @@ Role required: admin
 
 5.  Select **Register Client Application**.
 
-    ![Managing OAuth2 client applications](../image/manage-oauth-client-sf.png)
+    \[Omitted image "manage-oauth-client-sf.png"\] Alt text: Managing OAuth2 client applications
 
 6.  In the **X.509 Certificate** field, provide the contents of the `publickey.cer` file \(public key\) without the headers.
 
@@ -221,7 +222,7 @@ Role required: admin
 
 2.  Upload the JKS certificate to your ServiceNow instance.
 
-    For instructions to upload the JKS certificate, see [Upload a certificate to an instance](https://www.servicenow.com/docs/access?context=t_UploadACertificateToAnInstance&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).![Uploading certificate to an instance](../image/saml-oauth-sf.png)
+    For instructions to upload the JKS certificate, see Upload a certificate to an instance.\[Omitted image "saml-oauth-sf.png"\] Alt text: Uploading certificate to an instance
 
 
 ## Register SuccessFactors as an OAuth provider
@@ -291,7 +292,7 @@ Token URL
 SuccessFactors OAuth server endpoint URL that includes the Company ID in this format: `https://<SuccessFactors_Instance_Name>/oauth/token?company_id=<Company_ID>`. For example, `https://example.successfactors.eu/oauth/token?company_id=SFCPART123456`.
 
 </td></tr></tbody>
-</table>    ![Application Registries form](../image/app-registry-sf.png)
+</table>    \[Omitted image "app-registry-sf.png"\] Alt text: Application Registries form
 
 4.  Select **Submit**.
 
@@ -324,7 +325,7 @@ Role required: admin
         |Audience|Intended audience for the assertion. Enter the value, `www.successfactors.com`.|
         |Recipient|Intended recipient for the assertion. Enter URL in this format, `https://<SuccessFactors-Instance-Name>/oauth/token`.|
 
-        ![SAML2 Assertion Producer](../image/saml-assert-prov.png)
+        \[Omitted image "saml-assert-prov.png"\] Alt text: SAML2 Assertion Producer
 
     4.  Select and hold \(or right-click\) the form header and select **Save**.
 
@@ -337,9 +338,9 @@ Role required: admin
         |Name|Unique name to identify the SAML2 assertion keystore record. For example, `successfactors`.|
         |Signing Key Alias|Alias of key entry stored in the Keystore used to sign the assertion. For example, `successfactors`.|
         |Signing Key Password|Password of the key entry stored in the keystore used to sign the assertion.|
-        |Signing Keystore|Required X.509 certificate record. Select the X.509 certificate record that you had earlier created. For more information, see[Upload the JKS certificate in your ServiceNow instance](integrate-with-successfactors.md#).|
+        |Signing Keystore|Required X.509 certificate record. Select the X.509 certificate record that you had earlier created. For more information, see[Upload the JKS certificate in your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-successfactors.md).|
 
-        ![SAML2 Assertion Keystore.](../image/saml-assert-keystore.png)
+        \[Omitted image "saml-assert-keystore.png"\] Alt text: SAML2 Assertion Keystore.
 
     7.  Select **Submit**.
 
@@ -359,7 +360,7 @@ Role required: admin
         |Type|Type of the **Value** field. Select **String**.|
         |Value|API key generated after the OAuth client application is created in SuccessFactors.|
 
-        ![SAML2 Assertion Attribute.](../image/saml2-assertion-att.png)
+        \[Omitted image "saml2-assertion-att.png"\] Alt text: SAML2 Assertion Attribute.
 
     12. Select **Submit**.
 
@@ -369,7 +370,7 @@ Role required: admin
 
     2.  Open the application registry record that you had created.
 
-        For example, **SuccessFactors OAuth Reg**. For more information about creating the application registry, see [Register SuccessFactors as an OAuth provider](integrate-with-successfactors.md#).
+        For example, **SuccessFactors OAuth Reg**. For more information about creating the application registry, see [Register SuccessFactors as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-successfactors.md).
 
     3.  Under the **OAuth Entity Profiles** tab, open the default OAuth entity profile record.
 
@@ -377,7 +378,7 @@ Role required: admin
 
     4.  For the **Assertion Producer** field, select the SAML2 assertion producer record you had created.
 
-        For example, **Successfactor SAML OAuth**.![Defining OAuth scoped for this profile](../image/oauth-ent-profile-sf.png)
+        For example, **Successfactor SAML OAuth**.\[Omitted image "oauth-ent-profile-sf.png"\] Alt text: Defining OAuth scoped for this profile
 
     5.  Select **Update**.
 
@@ -426,7 +427,7 @@ OAuth Entity Profile
 
 </td><td>
 
-OAuth entity profile record that is associated with the OAuth application registry you had created. For example, `Successfactor SAML default_profile`.For more information about creating the application registry, see [Register SuccessFactors as an OAuth provider](integrate-with-successfactors.md#).
+OAuth entity profile record that is associated with the OAuth application registry you had created. For example, `Successfactor SAML default_profile`.For more information about creating the application registry, see [Register SuccessFactors as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-successfactors.md).
 
 </td></tr><tr><td>
 
@@ -445,7 +446,7 @@ Order
 Order to apply this credential. For example, enter `100`.
 
 </td></tr></tbody>
-</table>    ![OAuth 2.0 credentials](../image/saml-sf-odata-cred.png)
+</table>    \[Omitted image "saml-sf-odata-cred.png"\] Alt text: OAuth 2.0 credentials
 
 5.  Click **Submit**.
 
@@ -502,7 +503,7 @@ Change the application scope to **Global**.
 
 ServiceNow Role required: sam\_integrator or admin
 
-**Important:** You must select the **Software Asset Management integration with SuccessFactors** check box for this integration while installing optional features on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **Software Asset Management integration with SuccessFactors** check box for this integration while installing optional features on the  page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### About this task
 
@@ -512,15 +513,15 @@ If you’re using Software Asset Workspace, the option to create the SuccessFact
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d55678e2331">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d57940e2330">
 
 Interface
 
-</th><th align="left" id="d55678e2334">
+</th><th align="left" id="d57940e2333">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d55678e2340">
+</th></tr></thead><tbody><tr><td id="d57940e2339">
 
 **Core UI**
 
@@ -531,7 +532,7 @@ Action
 3.  Select **SuccessFactors Integration Profile**.
 
 
-</td></tr><tr><td id="d55678e2382">
+</td></tr><tr><td id="d57940e2381">
 
 **Software Asset Workspace**
 
@@ -583,7 +584,7 @@ Type of integration profile. This field is automatically set to `SuccessFactors 
 </td></tr></tbody>
 </table>3.  Review the required user roles or API permissions specified in the **Vendor configuration** field for each process to minimize security risks and optimize SaaS licenses.
 
-    **Note:** For more information, see [Minimal user permissions](integrate-with-workfront.md#) table.
+    **Note:** For more information, see [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-workfront.md) table.
 
     1.  In the Download Subscription Subflow section, verify that the **Subflow** field is set to **SuccessFactors Download Subscriptions**.
 
@@ -642,7 +643,7 @@ Type of integration profile. This field is automatically set to `SuccessFactors 
         |Field|Description|
         |-----|-----------|
         |Team Manager|Manager of the team for which you want to create this report. Select **Logged In User**.|
-        |Team Reporting Type|Type of report that you want to create for the team. Select **Other Filters**. When you select this report type, you can define report scopes to filter the user groups that you want to include in the report. See [step 14](integrate-with-successfactors.md#filter-criteria) for more details.|
+        |Team Reporting Type|Type of report that you want to create for the team. Select **Other Filters**. When you select this report type, you can define report scopes to filter the user groups that you want to include in the report. See [step 14](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-successfactors.md) for more details.|
         |Include inactive users|Option to include all inactive team members in the report. Leave this option unselected.|
 
     12. Select **OK**.
@@ -687,7 +688,7 @@ Type of integration profile. This field is automatically set to `SuccessFactors 
 
     25. Return to your SAP SuccessFactors integration profile form.
 
-    26. On the Integration Profile form header, select the Manage Attachments icon \(![Manage attachments icon.](../image/manage-attachments-icon.png)\).
+    26. On the Integration Profile form header, select the Manage Attachments icon \(\[Omitted image "manage-attachments-icon.png"\] Alt text: Manage attachments icon.\).
 
     27. In the Attachments dialog box, select **Choose file** to locate and select your user login report.
 
@@ -727,22 +728,22 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](subscription-exclusions.md#).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/subscription-exclusions.md).
 
-If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](../reuse/create-child-alias-saas.md).
+If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
 **Important:** Child aliases and alias overrides aren't supported for the **SuccessFactors Update User Activity** subflow because this subflow doesn't use REST steps directly where aliases are required.
 
-Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](../task/track-software-rights.md).
--   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](../task/create-entitlements-workspace.md).
--   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](../task/guidedwalk-workspace.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-entitlements-workspace.md).
+-   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 
-Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
+Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
 
--   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](../task/t_RunReconciliation.md).
--   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](../task/run-recon-workspace.md).
+-   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_RunReconciliation.md).
+-   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/run-recon-workspace.md).
 

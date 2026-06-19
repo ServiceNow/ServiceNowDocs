@@ -2,6 +2,7 @@
 title: Create an SLA definition
 description: You can create one or more Service Level Agreement \(SLA\) definitions and use them to create an SLA record. This SLA record enables you to use an SLA system for your organization's task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-level-management/t\_CreateAnSLADefinition.html
 release: zurich
 product: Service Level Management
 classification: service-level-management
@@ -75,7 +76,7 @@ Table
 
 </td><td>
 
-Table that determines the records tracked by the SLA. SLAs can be defined for any table that extends the task table, including incident, change request, and service catalog tasks. **Note:** Starting with the Helsinki release, you can and [create an SLA definition for configuration items and business services](https://www.servicenow.com/docs/access?context=c_EMSLAsForBSAndCIs&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US) for Event Management.
+Table that determines the records tracked by the SLA. SLAs can be defined for any table that extends the task table, including incident, change request, and service catalog tasks. **Note:** Starting with the Helsinki release, you can and create an SLA definition for configuration items and business services for Event Management.
 
 </td></tr><tr><td>
 
@@ -236,5 +237,5 @@ Select the condition type to determine when an SLA attaches, pauses, completes, 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Service Level Agreement \(SLA\) definition](../concept/c_SLADefinitions.md)
+**Parent Topic:**[Service Level Agreement \(SLA\) definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-level-management/c_SLADefinitions.md)
 

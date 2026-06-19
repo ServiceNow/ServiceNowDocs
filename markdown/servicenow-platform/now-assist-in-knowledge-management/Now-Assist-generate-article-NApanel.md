@@ -2,6 +2,7 @@
 title: Generate a Knowledge article from the Now Assist panel
 description: Generate a new knowledge article for a case or an incident from the Now Assist panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-NApanel.html
 release: zurich
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
@@ -25,13 +26,13 @@ Role required: agent
 
 1.  Open a case or an incident that is assigned to you.
 
-2.  Open the Now Assist panel by selecting the Now Assist icon \(![Now Assist icon.](../../../common/image/icon-ai-sparkle.png)\).
+2.  Open the Now Assist panel by selecting the Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: Now Assist icon.\).
 
 3.  In the Now Assist panel, select or enter **Generate Article**.
 
     Now Assist generates a Knowledge \(KB\) article.
 
-    ![Generate KB article from task record using Now Assist panel.](../image/KB-gen-article-from-taskrecord.png)
+    \[Omitted image "KB-gen-article-from-taskrecord.png"\] Alt text: Generate KB article from task record using Now Assist panel.
 
 4.  View the draft article by selecting the **View KB article** link in the chat window.
 
@@ -41,14 +42,14 @@ Role required: agent
 
 6.  View, edit, and publish the article by using the respective buttons on the screen.
 
-7.  Provide feedback on whether the article is helpful or not by selecting the liked icon \(![Liked icon.](../image/KnowledgeHelpful.png)\) or the not liked icon \(![Not Liked icon.](../image/KnowledgeNotHelpful.png)\).
+7.  Provide feedback on whether the article is helpful or not by selecting the liked icon \(\[Omitted image "KnowledgeHelpful.png"\] Alt text: Liked icon.\) or the not liked icon \(\[Omitted image "KnowledgeNotHelpful.png"\] Alt text: Not Liked icon.\).
 
-    ![KB article feedback in the Now Assist panel.](../image/KB-gen-article-feedback-NAP.png)
+    \[Omitted image "KB-gen-article-feedback-NAP.png"\] Alt text: KB article feedback in the Now Assist panel.
 
 8.  Alternatively, create an article directly from the Now Assist panel without opening the case or incident, by entering the task number and proceed with the same steps as above.
 
-    ![Generate KB article from Now Assist panel](../image/gen-article-from-NApanel.png)
+    \[Omitted image "gen-article-from-NApanel.png"\] Alt text: Generate KB article from Now Assist panel
 
 
-**Parent Topic:**[Using Now Assist in Knowledge Management](../concept/using-now-assist-in-km.md)
+**Parent Topic:**[Using Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)
 

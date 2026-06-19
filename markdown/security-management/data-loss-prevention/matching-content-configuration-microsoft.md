@@ -2,6 +2,7 @@
 title: Configure the match content for the incident
 description: Provide the configuration to store the sensitive information internally, on the ServiceNow storage, or on the external cloud storage, such as Azure Storage or AWS S3 bucket. Retrieve the stored content while accessing the DLP IR Incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/data-loss-prevention/matching-content-configuration-microsoft.html
 release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -44,7 +45,7 @@ Store Match Content
 
 Option to store the matched content. **Important:** Enable this option to store the match content, and retrieve and display the match content when a DLP incident is opened in the workspace.
 
-For information on the External Cloud Storage configuration, see [Install and configure the Microsoft DLP integration](install-configure-microsoft-dlp-integration.md).
+For information on the External Cloud Storage configuration, see [Install and configure the Microsoft DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/install-configure-microsoft-dlp-integration.md).
 
 </td></tr><tr><td>
 
@@ -74,5 +75,5 @@ Option to delete the incident match content from the external cloud storage. Thi
 </table>3.  Click **Continue** and move to the Scheduling section.
 
 
-**Parent Topic:**[Create a new incident profile for Microsoft DLP integration](create-profile-microsoft-dlp-integration.md)
+**Parent Topic:**[Create a new incident profile for Microsoft DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/create-profile-microsoft-dlp-integration.md)
 

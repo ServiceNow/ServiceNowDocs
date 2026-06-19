@@ -2,6 +2,7 @@
 title: Create a template for your Enterprise Asset Management work orders
 description: Create a work order template to automatically populate information, generate appropriate tasks, and create asset or part requirements for your work orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/create-eam-work-order-template.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -21,9 +22,9 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
 ## About this task
 
-Work order templates are added to the Field Service Catalog, which is part of the ServiceNow® Field Service Management application. You can access the Field Service Catalog by navigating to **All** &gt; **Field Service** &gt; **Catalog and Knowledge**. See [Field Service Management](https://www.servicenow.com/docs/access?context=fsm-application-landing-page&version=zurich&pubname=zurich-field-service-management&ft:locale=en-US) for more information on the Field Service Management application.
+Work order templates are added to the Field Service Catalog, which is part of the ServiceNow® Field Service Management application. You can access the Field Service Catalog by navigating to **All** &gt; **Field Service** &gt; **Catalog and Knowledge**. See Field Service Management for more information on the Field Service Management application.
 
-**Note:** The Field Service Management application is automatically activated when you request and install the Enterprise Asset Management application from the ServiceNow Store. See [Install Enterprise Asset Management](request-enterprise-asset-management.md) for more details.
+**Note:** The Field Service Management application is automatically activated when you request and install the Enterprise Asset Management application from the ServiceNow Store. See [Install Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/request-enterprise-asset-management.md) for more details.
 
 ## Procedure
 
@@ -77,7 +78,7 @@ Checklist template of all items that you must complete as part of a work order.
 
 </td></tr><tr><td>
 
-Workflow**Note:** This field appears only if you select the Add icon ![](../../hardware-asset-management/image/add_content_icon.png) next to the **Name** field.
+Workflow**Note:** This field appears only if you select the Add icon \[Omitted image "add\_content\_icon.png"\] Alt text: next to the **Name** field.
 
 </td><td>
 
@@ -171,7 +172,7 @@ Type of work that an agent must perform to complete the task. The options includ
 
     1.  In the Model Knowledges related list, select **New**.
 
-    2.  On the Model Knowledge form, select the Lookup using list icon ![](../../software-asset-management2/image/search-icon.png) in the **Knowledge** field to search for and select the knowledge base article that you want to attach to the work order template.
+    2.  On the Model Knowledge form, select the Lookup using list icon \[Omitted image "search-icon.png"\] Alt text: in the **Knowledge** field to search for and select the knowledge base article that you want to attach to the work order template.
 
     3.  Select **Submit** in the Model Knowledge form header.
 

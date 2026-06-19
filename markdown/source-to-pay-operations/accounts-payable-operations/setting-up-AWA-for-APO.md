@@ -2,6 +2,7 @@
 title: Setting up Advanced Work Assignment for Accounts Payable Operations
 description: Set up the AWA and required plugins through the plugin page after selecting any Get \[plugin\]button on the Advanced Work Assignment home page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/setting-up-AWA-for-APO.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -25,7 +26,7 @@ Set up the following components for AWA in Accounts Payable Operations
 -   Agent availability- States that indicate whether an agent is busy, available or offline. AWA uses agent availability to determine if an agent is able to receive work.
 -   Inbox layout- A configuration tied to a service channel that defines which fields of a record representing a work item are shown in agent inboxes. A layout defines what the agent sees in Account Payable Operations workspace.
 
-For more information about AWA components, refer [Exploring Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-overview&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+For more information about AWA components, refer .
 
-**Parent Topic:**[Advanced Work Assignment in Accounts Payable Operations](advanced-work-assignment.md)
+**Parent Topic:**[Advanced Work Assignment in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/advanced-work-assignment.md)
 

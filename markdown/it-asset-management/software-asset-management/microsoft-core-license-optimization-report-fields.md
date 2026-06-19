@@ -2,6 +2,7 @@
 title: Microsoft Core License Optimization Reports fields
 description: Field descriptions for the Microsoft Core License Optimization Reports \[samp\_ms\_optimization\_report\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/microsoft-core-license-optimization-report-fields.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -248,5 +249,5 @@ Potential Savings
 Amount of money that you can save by implementing the recommended licensing optimization.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/references.md)
 

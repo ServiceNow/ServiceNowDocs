@@ -2,6 +2,7 @@
 title: Set up Connector Configuration for Environmental sensor data
 description: Configure the Connector Configurations table for loading the Environmental data. Connector configuration table retrieves the sensor data from different environmental sensor data providers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-connectors/wsd-connectorconfiguration-environment.html
 release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
@@ -17,7 +18,7 @@ Configure the Connector Configurations table for loading the Environmental data.
 
 ## Before you begin
 
-Make sure that vendor or provider is selected for fetching environmental sensor data. For more information, see [Configure sensor data providers](providers-occupancy.md).
+Make sure that vendor or provider is selected for fetching environmental sensor data. For more information, see [Configure sensor data providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/providers-occupancy.md).
 
 **Note:** Seed data or out-of-the box table record is provided with the application and provides pre-filled values. If you want to create a new table record follow these steps.
 
@@ -45,7 +46,7 @@ Target Table
 
 </td><td>
 
-Target or destination table to store the environmental sensor data.Select Environmental data \(sn\_wsd\_wc\_space\_environment\) table. For more information, see [Configure environmental sensor data for a workplace location](config-connectors-env-sensor.md).
+Target or destination table to store the environmental sensor data.Select Environmental data \(sn\_wsd\_wc\_space\_environment\) table. For more information, see [Configure environmental sensor data for a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/config-connectors-env-sensor.md).
 
 </td></tr><tr><td>
 
@@ -61,7 +62,7 @@ Extension Point Definition
 
 </td><td>
 
-Search for extension point definition for the environmental data. Search using the lookup list icon \(![Look up list icon to search for required extension point definition.](../images/wsd-lookup-list-icon.png)\) to locate the extension point definition **EnvironmentDataHandler**.
+Search for extension point definition for the environmental data. Search using the lookup list icon \(\[Omitted image "wsd-lookup-list-icon.png"\] Alt text: Look up list icon to search for required extension point definition.\) to locate the extension point definition **EnvironmentDataHandler**.
 
 **Note:** Extension point definition defines how the data is transformed from third-party environmental sensor data providers. The data is loaded after transformation into the target environmental data table . The external IDs provided by Metrikus or other data providers are processed and transformed. Environmental data providers or vendors should have a separate implementation framework for these extension points.
 
@@ -69,7 +70,7 @@ For example, if you have two different vendors providing environmental data reco
 
 Make sure that you are storing the environmental data in the units as per the units configured in the Units of measure table. The units should match.
 
-For example, If the environmental data provider or vendor is sharing Temperature sensor data records in Fahrenheit and the temperature unit in the Units of measure table is in Celsius, the Fahrenheit units should be converted to Celsius. The conversion can be done using the Extension point definition. For more information, see [Set up the Units of measure data table for environmental sensors](wsd-enviromental-unit-measure.md).
+For example, If the environmental data provider or vendor is sharing Temperature sensor data records in Fahrenheit and the temperature unit in the Units of measure table is in Celsius, the Fahrenheit units should be converted to Celsius. The conversion can be done using the Extension point definition. For more information, see [Set up the Units of measure data table for environmental sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/wsd-enviromental-unit-measure.md).
 
 </td></tr><tr><td>
 
@@ -83,9 +84,9 @@ Time \(in minutes\) beyond which data is considered stale.Beyond this time, fres
 </table>4.  Select **Submit** to save the connector configuration.
 
 
-**Parent Topic:**[Setup Workplace Connectors for environmental data](../concept/setup-environmental-data-connectors.md)
+**Parent Topic:**[Setup Workplace Connectors for environmental data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/setup-environmental-data-connectors.md)
 
-**Previous topic:**[Setup Workplace Connectors for environmental data](../concept/setup-environmental-data-connectors.md)
+**Previous topic:**[Setup Workplace Connectors for environmental data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/setup-environmental-data-connectors.md)
 
-**Next topic:**[Provider Connector Configuration for Environmental sensors](wsd-env-provider-connectorconfig.md)
+**Next topic:**[Provider Connector Configuration for Environmental sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/wsd-env-provider-connectorconfig.md)
 

@@ -1,19 +1,20 @@
 ---
 title: Digital End-User Experience Remedial Actions
-description: ServiceNow Digital End-User Experience \(DEX\) provides base system remedial actions to resolve issues on DEX-monitored devices.
+description: ServiceNow Digital End-User Experience \(DEX\) provides base system remedial actions to resolve issues on DEX monitored devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/dex-diff-ra.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 10
 breadcrumb: [Administration cards, DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Service Management]
 ---
 
 # Digital End-User Experience Remedial Actions
 
-ServiceNow® Digital End-User Experience \(DEX\) provides base system remedial actions to resolve issues on DEX-monitored devices.
+ServiceNow® Digital End-User Experience \(DEX\) provides base system remedial actions to resolve issues on DEX monitored devices.
 
 <table id="table_opb_n5d_zfc"><thead><tr><th>
 
@@ -515,5 +516,5 @@ Policy ID
 ID of the policy defined in Jamf server for the corresponding action.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Administration cards](administration-cards.md)
+</table>**Parent Topic:**[Administration cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/administration-cards.md)
 

@@ -2,6 +2,7 @@
 title: Create data relationships
 description: Create a path to go from a record in the template configuration to any table that you require. When you create these paths, you can get the necessary data from each of these paths in your audit report template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/create-data-relationships.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -103,5 +104,5 @@ Table from which the data is obtained. This field is automatically populated.
 
 ## What to do next
 
-Create content configurations to specify the type of data you want to fetch on the report. For more information, see [Create content configurations](create-content-configurations.md).
+Create content configurations to specify the type of data you want to fetch on the report. For more information, see [Create content configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/create-content-configurations.md).
 

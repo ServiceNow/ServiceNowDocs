@@ -2,6 +2,7 @@
 title: Create page scripts for Work scheduler
 description: Add custom page scripts for the Work scheduler so that you can update the client state through events or update transform workItem object to properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/work-sched-create-page-scripts.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -25,11 +26,11 @@ Add the **Handle card clicked** and the **Handle card action clicked** page scri
 
 Add the **Transform workItem to cardProps** page script to transform the **workItem** object in the Work queue to properties for the card components.
 
-**Note:** If you have [customized a Work scheduler card](customize-workscheduler-card-wfo-itsm.md), you can follow the steps below to add client scripts.
+**Note:** If you have [customized a Work scheduler card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/customize-workscheduler-card-wfo-itsm.md), you can follow the steps below to add client scripts.
 
 ## Procedure
 
-1.  Select the Client Scripts icon \(![Client scripts icon](../image/client-scripts-icon.png)\).
+1.  Select the Client Scripts icon \(\[Omitted image "client-scripts-icon.png"\] Alt text: Client scripts icon\).
 
 2.  Create the **Handle card clicked** page script.
 
@@ -134,21 +135,21 @@ Add the **Transform workItem to cardProps** page script to transform the **workI
 
 5.  Click **Save**.
 
-    Here's a demo on how to create page scripts for Work scheduler.Create page scripts
+    Here's a demo on how to create page scripts for Work scheduler.
 
 
 ## What to do next
 
-[Define the workItem property in the Work scheduler page configuration](work-sched-create-page-properties.md)
+[Define the workItem property in the Work scheduler page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/work-sched-create-page-properties.md)
 
-**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](create-workscheduler-card-wfo-itsm.md)
+**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/create-workscheduler-card-wfo-itsm.md)
 
-**Previous topic:**[Create a client state parameter for Work scheduler](work-sched-create-client-state-params.md)
+**Previous topic:**[Create a client state parameter for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/work-sched-create-client-state-params.md)
 
-**Next topic:**[Define the workItem property in the Work scheduler page configuration](work-sched-create-page-properties.md)
+**Next topic:**[Define the workItem property in the Work scheduler page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/work-sched-create-page-properties.md)
 
 **Related topics**  
 
 
-[Define and bind client scripts to components](https://www.servicenow.com/docs/access?context=define-client-scripts&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+[bundle-cadev.define-client-scripts]
 

@@ -2,13 +2,14 @@
 title: Create a procurement case
 description: As a procurement specialist, create a procurement case from the list view of Source-to-Pay Workspace to address your procurement-related business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-procurement-case.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Using Procurement Case Management, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Using Procurement Case Management, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Create a procurement case
@@ -29,7 +30,7 @@ Role required: sn\_shop.procurement\_specialist
 
 3.  Select **New**.
 
-4.  On the **Create a new case** dialog box, select the case type from the **What would you like to create?** list.![Displays the Create new case dialog box.](../image/create_procurement_case_new.png)
+4.  On the **Create a new case** dialog box, select the case type from the **What would you like to create?** list.\[Omitted image "create\_procurement\_case\_new.png"\] Alt text: Displays the Create new case dialog box.
 
     A procurement specialist can also create a case or task by navigating to **Related cases and tasks** in the contextual panel of a procurement object details page, and selecting the + icon.
 
@@ -268,5 +269,5 @@ Reason why the case was created.
 </table>7.  Select **Save**.
 
 
-**Parent Topic:**[Using Procurement Case Management](../concept/using-pcm.md)
+**Parent Topic:**[Using Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/using-pcm.md)
 

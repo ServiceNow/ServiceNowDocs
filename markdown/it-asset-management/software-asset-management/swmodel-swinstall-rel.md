@@ -2,6 +2,7 @@
 title: Software model relationship to software installation
 description: Associating each software installation with a software model lets you perform audit reporting of licensable and non-licensable software.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/swmodel-swinstall-rel.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -93,5 +94,5 @@ No match found.
  If the system property is enabled, a new software model will be created: SQL Server Enterprise \(Version is anything\)​.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Software Asset Management](explore-sam-workspace.md)
+</table>**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

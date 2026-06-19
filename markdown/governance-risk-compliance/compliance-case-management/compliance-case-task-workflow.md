@@ -2,6 +2,7 @@
 title: Compliance case task workflow
 description: You can collaborate with multiple teams to investigate, perform an impact assessment, and gather the evidence to capture the details and responses for review in the GRC: Compliance Case Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/compliance-case-management/compliance-case-task-workflow.html
 release: zurich
 product: Compliance Case Management
 classification: compliance-case-management
@@ -34,12 +35,12 @@ After the case task owners work on a task, they submit the task for the case ana
 
 The following example displays the life cycle of a case task.
 
-![Life cycle of a case task.](../image/case-task-workflow.png "Case task workflow")
+\[Omitted image "case-task-workflow.png"\] Alt text: Life cycle of a case task.
 
--   **[Create an action task](../task/create-a-case-task.md)**  
+-   **[Create an action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/create-a-case-task.md)**  
 Create an action task to investigate, gather evidence, and perform an assessment so that you can analyze and assess a reported case in the GRC: Compliance Case Management application. Each case can have multiple case tasks that you can assign to different owners across multiple teams.
--   **[Work on an action task](../task/work-on-compliance-case-task.md)**  
+-   **[Work on an action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/work-on-compliance-case-task.md)**  
 Accept the Action task, provide the details requested by the case analyst, and submit the Action task for a review in the GRC: Compliance Case Management application. When an action task is assigned to an assignment group, any user from the assignment group can accept and work on the task.
 
-**Parent Topic:**[Using Compliance Case Management](use-compliance-case-management.md)
+**Parent Topic:**[Using Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/use-compliance-case-management.md)
 

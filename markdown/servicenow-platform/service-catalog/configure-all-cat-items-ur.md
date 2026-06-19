@@ -2,6 +2,7 @@
 title: Configure all catalog items or record producers to create a universal request
 description: Reduce the implementation time by configuring all catalog items or all record producers at a time for universal request creation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/configure-all-cat-items-ur.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -25,7 +26,7 @@ For catalog items, RITM should be registered as a service in Universal Request.
 
 For record producers, the target table should be registered as a service in Universal Request.
 
-For information about service configurations, see [Service Configuration form](https://www.servicenow.com/docs/access?context=ur-service-config-form&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+For information about service configurations, see Service Configuration form.
 
 ## Procedure
 
@@ -58,5 +59,5 @@ For information about service configurations, see [Service Configuration form](h
     2.  Click **Submit**.
 
 
-**Parent Topic:**[Service Catalog configuration for Universal Request](../concept/ur-catalog-config.md)
+**Parent Topic:**[Service Catalog configuration for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/ur-catalog-config.md)
 

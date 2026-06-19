@@ -2,6 +2,7 @@
 title: Request additional information for a finance case
 description: Request additional information from the requester to continue working on the finance inquiry case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/finance-case-management/req-info-for-fin-inquiry-case.html
 release: zurich
 product: Finance Case Management
 classification: finance-case-management
@@ -31,7 +32,7 @@ Role required: sn\_fin\_ops.specialist
     -   **All work** &gt; **Tasks**
 3.  From the Number column, select a link to open the finance inquiry case.
 
-4.  Select the more actions icon \(![More actions icon](../image/fin-ops-more-icon.png)\)
+4.  Select the more actions icon \(\[Omitted image "fin-ops-more-icon.png"\] Alt text: More actions icon\)
 
 5.  Select **Request info**.
 
@@ -40,7 +41,7 @@ Role required: sn\_fin\_ops.specialist
     -   The case is assigned to you.
     -   The requester is available.
     -   The case is in Work in Progress state.
-    ![The Request info option](../image/fin-ops-request-info.png)
+    \[Omitted image "fin-ops-request-info.png"\] Alt text: The Request info option
 
 6.  In the Request Info dialog, provide the reason for requesting additional information.
 
@@ -51,5 +52,5 @@ Role required: sn\_fin\_ops.specialist
 
 You can see the reason in the activity stream. The requester receives an email requesting additional information.
 
-**Parent Topic:**[Use the Finance Operations Workspace](../concept/using-fin-case-mgmt-workspace.md)
+**Parent Topic:**[Use the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/finance-case-management/using-fin-case-mgmt-workspace.md)
 

@@ -2,6 +2,7 @@
 title: Preview single content
 description: Use the Schedule of content tab to view specific content or a stage in your campaign.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ecpro-campaign-pre-piece.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,16 +28,16 @@ Role required: sn\_ca.campaign\_manager
 
 3.  Select the **Schedule of content** tab.
 
-4.  Select the show preview icon \(![Show Preview icon](../images/campaign-prev-icon.png)\) in the content you want to view.
+4.  Select the show preview icon \(\[Omitted image "campaign-prev-icon.png"\] Alt text: Show Preview icon\) in the content you want to view.
 
-    ![Campaign content preview icon](../images/campaign-content-prev.png)
+    \[Omitted image "campaign-content-prev.png"\] Alt text: Campaign content preview icon
 
-5.  Select the show preview icon \(![Show Preview icon](../images/campaign-prev-icon.png)\) in a stage to preview all content for that stage.
+5.  Select the show preview icon \(\[Omitted image "campaign-prev-icon.png"\] Alt text: Show Preview icon\) in a stage to preview all content for that stage.
 
-    ![Campaign preview - Stage](../images/campaign-prev-stage.png)
+    \[Omitted image "campaign-prev-stage.png"\] Alt text: Campaign preview - Stage
 
 6.  Close the preview to return to the schedule of content view of the campaign.
 
-    **Note:** When the show preview icon \(![Campaign content preview greyed out icon](../images/campaign-preview-grey-icon.png)\) is gray, a preview is not supported at this time.
+    **Note:** When the show preview icon \(\[Omitted image "campaign-preview-grey-icon.png"\] Alt text: Campaign content preview greyed out icon\) is gray, a preview is not supported at this time.
 
 

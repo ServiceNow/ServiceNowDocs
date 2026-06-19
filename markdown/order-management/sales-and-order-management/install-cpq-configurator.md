@@ -2,6 +2,7 @@
 title: Install CPQ Configurator
 description: You can install the CPQ Configurator application \(sn\_cpq\_config\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/install-cpq-configurator.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

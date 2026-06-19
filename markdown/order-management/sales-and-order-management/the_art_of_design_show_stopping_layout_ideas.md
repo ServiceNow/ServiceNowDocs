@@ -2,6 +2,7 @@
 title: The art of design: show-stopping layout ideas
 description: Discover how thoughtful layout design can transform complex configurations into clear, intuitive, and visually engaging user experiences. Learn best-practice patterns, spacing strategies, and industry-inspired structures to create polished, high-impact layouts for your product configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/the\_art\_of\_design\_show\_stopping\_layout\_ideas.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

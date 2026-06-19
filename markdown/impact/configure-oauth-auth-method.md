@@ -2,7 +2,10 @@
 title: Configure the OAuth authentication method
 description: To configure the OAuth authentication method, you need create an OAuth authentication record, producer and consumer application registries for each instance that will send data, and then import the user, OAuth authentication record, and consumer application registries to the instances that will use the scan engine.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/configure-oauth-auth-method.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-11-18"
 reading_time_minutes: 3
@@ -21,7 +24,7 @@ Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\).
 
 1.  To assign a user or users the Integration role \(sn\_se.internal\_rest\_integration\), navigate to **ALL** &gt; **System Security** &gt; **Users and Groups** &gt; **Users**, and then select **New**.
 
-    For more information on creating a new user, see [Create new user form](https://www.servicenow.com/docs/access?context=eaw-create-new-user-form&version=zurich&pubname=zurich-application-portfolio-management&ft:locale=en-US).
+    For more information on creating a new user, see .
 
 2.  To create an OAuth authentication record, navigate to `sys_auth_profile_oauth2.list`, and then select **New**.
 

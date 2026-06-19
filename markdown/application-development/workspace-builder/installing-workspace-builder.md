@@ -2,6 +2,7 @@
 title: Installing Workspace Builder
 description: Workspace Builder is available on the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/workspace-builder/installing-workspace-builder.html
 release: zurich
 product: Workspace Builder
 classification: workspace-builder
@@ -29,5 +30,5 @@ When you install Workspace Builder, you also install the following related items
 
 ## Licensing for Workspace Builder
 
-Workspace Builder requires an App Engine Enterprise license. For more information, see [App Engine products and offerings](../../applications/concept/app-engine-products-offerings.md).
+Workspace Builder requires an App Engine Enterprise license. For more information, see [App Engine products and offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/app-engine-products-offerings.md).
 

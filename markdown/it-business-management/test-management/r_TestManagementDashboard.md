@@ -2,6 +2,7 @@
 title: Test Management dashboard
 description: View test plan reports on the Test Management dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/test-management/r\_TestManagementDashboard.html
 release: zurich
 product: Test Management
 classification: test-management
@@ -19,7 +20,7 @@ From each report on the Test Management dashboard, you can select an individual 
 
 To access the dashboard, navigate to **Test Management** &gt; **Overview**. Then select a test plan that you want to analyze the progress of, from the **Select a Test Plan** field in the reports. The data in the report updates automatically.
 
-![Test Management Dashboard.](../image/TestManagementDashboard.png "Test Management Dashboard")
+\[Omitted image "TestManagementDashboard.png"\] Alt text: Test Management Dashboard.
 
 <table id="table_aqk_ykw_yq"><thead><tr><th>
 
@@ -39,7 +40,7 @@ Overall Test Coverage
 
 </td><td>
 
-Pie![](../../../use/reporting/image/inline-data-vis-pie.png)
+Pie\[Omitted image "inline-data-vis-pie.png"\] Alt text:
 
 </td><td>
 
@@ -55,7 +56,7 @@ Test Coverage By Component Tags
 
 </td><td>
 
-Bar![](../../../use/reporting/image/inline-data-vis-bar-vertical.png)
+Bar\[Omitted image "inline-data-vis-bar-vertical.png"\] Alt text:
 
 </td><td>
 
@@ -71,7 +72,7 @@ Defect Distribution By Component Tags
 
 </td><td>
 
-Bar![](../../../use/reporting/image/inline-data-vis-bar-vertical.png)
+Bar\[Omitted image "inline-data-vis-bar-vertical.png"\] Alt text:
 
 </td><td>
 
@@ -86,7 +87,7 @@ Pending Test Cases By Assignee
 
 </td><td>
 
-List![](../../../use/reporting/image/inline-data-vis-list.png)
+List\[Omitted image "inline-data-vis-list.png"\] Alt text:
 
 </td><td>
 

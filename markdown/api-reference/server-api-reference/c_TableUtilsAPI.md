@@ -2,6 +2,7 @@
 title: TableUtils - Global
 description: The TableUtils script include provides shortcuts for accessing table related information.Creates an instance of a TableUtils class.Drops a database table.Drops a database table and cleans up references to the table.Drops a database table, all of it's extended tables, and cleans up references to the tables.Returns the base table name from which the table was extended.Returns the list of tables that extend a table, includes the base table.Returns a list of all classes participating in the hierarchy of the specified table.Returns the table hierarchy.Returns a list of tables that extend a table.Determines if a table has been extended.Determines if a table is a base class, meaning it has no parents and has extensions.Determines if the table has no parents and no extensions.Checks to see if a table exists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_TableUtilsAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The TableUtils script include provides shortcuts for accessing table related inf
 
 This class is available to server-side scripts.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## TableUtils - TableUtils\(String tableName\)
 

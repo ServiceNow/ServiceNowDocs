@@ -2,6 +2,7 @@
 title: Cancel a Google Cloud Billing download job
 description: A Billing download job obtains billing and usage data from each payer account for Google Cloud. The Rightsizing, Unused resources, and Business hours processes use billing and usage data when generating recommendations. You can cancel any Billing download job individually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/gcp-bill-dwnld-cancl-cloudin.html
 release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management

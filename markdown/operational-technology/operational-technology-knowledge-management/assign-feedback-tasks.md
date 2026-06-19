@@ -2,6 +2,7 @@
 title: Assign feedback tasks
 description: Assign feedback tasks to a user to help make sure that the feedback task is addressed and the related knowledge article is updated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-knowledge-management/assign-feedback-tasks.html
 release: zurich
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
@@ -40,5 +41,5 @@ To view other assigned feedback tasks, select the Assigned Feedback Tasks list u
 
 To view the unassigned OT knowledge gaps, select the Unassigned OT Knowledge Gaps list under the Knowledge module list view in the Industrial Workspace.
 
-**Parent Topic:**[Using Operational Technology Knowledge Management](../concept/using-operational-technology-knowledge-management.md)
+**Parent Topic:**[Using Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-knowledge-management/using-operational-technology-knowledge-management.md)
 

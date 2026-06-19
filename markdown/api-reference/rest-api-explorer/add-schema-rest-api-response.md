@@ -2,6 +2,7 @@
 title: Define an API resource response structure
 description: Add a schema and relevant response headers to a REST response to define the response's expected data structure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-api-explorer/add-schema-rest-api-response.html
 release: zurich
 product: REST API Explorer
 classification: rest-api-explorer
@@ -17,7 +18,7 @@ Add a schema and relevant response headers to a REST response to define the resp
 
 ## Before you begin
 
-At least one REST API resource and at least one schema must already be defined for use in the relevant REST API. You must also define any response headers you want to use. For more information, see [Define a REST API response header](define-scripted-api-response-header.md).
+At least one REST API resource and at least one schema must already be defined for use in the relevant REST API. You must also define any response headers you want to use. For more information, see [Define a REST API response header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/define-scripted-api-response-header.md).
 
 Role required: web\_service\_admin
 
@@ -27,15 +28,15 @@ Role required: web\_service\_admin
 
     If you navigate through the scripted REST API record, most fields in the REST Response record are pre-populated.
 
-<table id="choicetable_mvh_34d_j3c"><thead><tr><th align="left" id="d702230e64">
+<table id="choicetable_mvh_34d_j3c"><thead><tr><th align="left" id="d318342e64">
 
 Option
 
-</th><th align="left" id="d702230e67">
+</th><th align="left" id="d318342e67">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d702230e73">
+</th></tr></thead><tbody><tr><td id="d318342e73">
 
 **Navigate through a scripted REST API record**
 
@@ -47,7 +48,7 @@ Procedure
 4.  In the **Response Schema** tab, select **New**.
 
 
-</td></tr><tr><td id="d702230e121">
+</td></tr><tr><td id="d318342e121">
 
 **Navigate directly to the REST Response record**
 
@@ -69,7 +70,7 @@ Procedure
 
 4.  Add relevant response headers associated with the API.
 
-    1.  Select the Unlock Response Headers icon ![](../../../reuse/icons/product-icons/lock-outline-24.svg).
+    1.  Select the Unlock Response Headers icon \[Omitted image "lock-outline-24.svg"\] Alt text:.
 
     2.  Find or enter relevant response headers associated with the API.
 
@@ -80,7 +81,7 @@ Procedure
 
 ## Result
 
-The schema you used to define the response body structure is included in the exportable OpenAPI specification in the REST API Explorer. For more information about exporting OpenAPI specifications, see [Export to OpenAPI specification](../../inbound-rest/task/export-openapi-specification.md).
+The schema you used to define the response body structure is included in the exportable OpenAPI specification in the REST API Explorer. For more information about exporting OpenAPI specifications, see [Export to OpenAPI specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/export-openapi-specification.md).
 
-**Parent Topic:**[Create a scripted REST API](t_CreateAScriptedRESTService.md)
+**Parent Topic:**[Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/t_CreateAScriptedRESTService.md)
 

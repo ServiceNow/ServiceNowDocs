@@ -2,11 +2,12 @@
 title: Document Approval template
 description: Build an application in App Engine Studio \(AES\) using the Document Approval template to manage the approval of documents in your organization.The following tables, experiences, automated workflows, and roles are included in the Document Approval template for App Engine Studio \(AES\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/document-approval-template.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-05-07"
 reading_time_minutes: 3
 breadcrumb: [Available templates, Use an app template, Create your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
 ---
@@ -17,7 +18,7 @@ Build an application in App Engine Studio \(AES\) using the Document Approval te
 
 To use the Document Approval template, install this application from the ServiceNow Store.
 
-![Document Approval template](../image/template-document-approval.png)
+\[Omitted image "template-document-approval.png"\] Alt text: Document Approval template
 
 A document approval app enables your users to quickly create and use document approval workflows. Document owners and submitters can upload documents needing approvals and check the progress on those approvals. Designated approvers can approve, reject, or return documents with comments.
 
@@ -25,11 +26,11 @@ Admins can use the document approval application to create different workflows f
 
 This app template is an ideal way to quickly and efficiently make your internal workflows for processing documents. Document owners and submitters can upload a document needing approval to a portal using simple upload functionality that automatically sends submissions through a unique workflow. Once a document has been received, submitters follow the progress of their documents while designated users approve, reject, or return their document for edits. Both submitters and approvers use comments to add notes and feedback to the submission, which is stored in the system for future reference. To give this app even more variety, admins can create unlimited workflows that are customized for each document type and user that allows for multiple stages and approvers depending on what the document category requires.
 
-![Document Approval template](../image/template-doc-approval.png "Document Approval template")
+\[Omitted image "template-doc-approval.png"\] Alt text: Document Approval template
 
-For more information on creating an application using a template, see [Create your app using an application template](../task/use-app-template.md).
+For more information on creating an application using a template, see [Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/use-app-template.md).
 
-**Parent Topic:**[Available templates](template-library.md)
+**Parent Topic:**[Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/template-library.md)
 
 ## Document Approval template contents
 

@@ -2,6 +2,7 @@
 title: Add or modify a PDF template mapping
 description: With PDF template mapping you can pre-fill information from specified tables into a reuseable HR document configured in a PDF document template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/PDFTemplateMapping.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,11 +26,11 @@ Role required: sn\_hr.core\_admin
 
 Starting with the Zurich release, HR Document Templates is deprecated and no longer supported or available for new activation.
 
-Use [Document Templates](../concept/document-templates-overview.md) that provides the latest experience for this functionality. For migration guidelines, see [Migrating from HR Document Templates to Document Templates](../concept/migration-hrdt-dt.md#).
+Use [Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/document-templates-overview.md) that provides the latest experience for this functionality. For migration guidelines, see [Migrating from HR Document Templates to Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/migration-hrdt-dt.md).
 
 For deprecation details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
-PDF template mappings are derived from the table associated with the PDF document template. PDF template mapping is accessed from a PDF document template that contains fields that can be mapped. Refer to [Configure an HR PDF document template](PDFTemplate.md).
+PDF template mappings are derived from the table associated with the PDF document template. PDF template mapping is accessed from a PDF document template that contains fields that can be mapped. Refer to [Configure an HR PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/PDFTemplate.md).
 
 The PDF Template Mappings section appears when a new fillable PDF document has been uploaded from Managed Documents and the **Parse PDF** link is selected.
 

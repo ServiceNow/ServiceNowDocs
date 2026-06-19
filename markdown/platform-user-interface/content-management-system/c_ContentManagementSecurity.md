@@ -2,6 +2,7 @@
 title: Content Management security
 description: There are several methods for securing CMS sites and pages. Site security is set in the Login page field on the site record. You can control if a page is public or private through the URL.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/content-management-system/c\_ContentManagementSecurity.html
 release: zurich
 product: Content Management System
 classification: content-management-system
@@ -49,5 +50,5 @@ You set a login page on the site record to allow users to log in or out directly
 
 Login rules were used in earlier versions to dictate what users saw after logging in, based on their roles or permissions. Login rules still work, but their use is deprecated.
 
-**Parent Topic:**[Content sites](c_ContentSite.md)
+**Parent Topic:**[Content sites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/content-management-system/c_ContentSite.md)
 

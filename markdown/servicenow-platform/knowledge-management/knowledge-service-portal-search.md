@@ -2,6 +2,7 @@
 title: Using search in Knowledge Management Service Portal
 description: View a list of search results as well as options for sorting and filtering the items in the list. You can also use knowledge search in other Service Portals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/knowledge-service-portal-search.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -100,7 +101,7 @@ Use filter facets to refine your search results. The selections you make filter 
 -   Resource: lists the types of items available, such as knowledge articles
 -   Rating: lists article ratings from 0-5 stars \(clicking a rating displays articles that have the selected rating and higher\)
 -   Last Modified: lists selections based on the timing of knowledge item modifications such as Past Month or Past Week
--   View Count: lists the knowledge item view counts such as More Than 50 or Less Than 10. Set the number of days to consider when calculating view count using the **glide.knowman.view\_age.days** property. For more information on this property, see [Knowledge portal properties](../reference/r_KnowledgeProperties.md#).
+-   View Count: lists the knowledge item view counts such as More Than 50 or Less Than 10. Set the number of days to consider when calculating view count using the **glide.knowman.view\_age.days** property. For more information on this property, see [Knowledge portal properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
 
 </td></tr><tr><td>
 
@@ -122,7 +123,7 @@ Depending on the system setup, view additional search results using one of these
 
 4.  Click **Update**.
 
-The search functionality in Knowledge Management Service Portal pages uses the **Knowledge Base Search** search context to fetch results. As an administrator, you must not update the definition of this search context because it may impact the search behavior. For more information about contextual search, see [Contextual search concepts](https://www.servicenow.com/docs/access?context=contextual-search-concepts&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+The search functionality in Knowledge Management Service Portal pages uses the **Knowledge Base Search** search context to fetch results. As an administrator, you must not update the definition of this search context because it may impact the search behavior. For more information about contextual search, see Contextual search concepts.
 
-**Parent Topic:**[Using Knowledge Management](using-knowledge-management.md)
+**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/using-knowledge-management.md)
 

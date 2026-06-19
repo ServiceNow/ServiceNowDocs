@@ -2,6 +2,7 @@
 title: Deactivate a document
 description: To change the document state to Inactive, deactivate the document. This is useful when changes to a document have been put on hold. An inactive document can be reopened at any time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/t\_DeactivateADocument.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -32,5 +33,5 @@ Role required: document\_management\_user
     **Note:** To activate a document, right-click on the header and click **Reopen Document**.
 
 
-**Parent Topic:**[Create a document](../concept/c_CreateADocument.md)
+**Parent Topic:**[Create a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/c_CreateADocument.md)
 

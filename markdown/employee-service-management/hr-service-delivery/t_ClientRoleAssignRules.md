@@ -2,6 +2,7 @@
 title: Client role assignment rules
 description: Use Client Role Assignment Rules to automatically assign or reassign a role to an employee.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/t\_ClientRoleAssignRules.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -45,15 +46,15 @@ To map conditions to a client role:
 
     You can also click the **Preview this record** icon to open the record.
 
-<table id="choicetable_myd_4sm_b2b"><thead><tr><th align="left" id="d362566e147">
+<table id="choicetable_myd_4sm_b2b"><thead><tr><th align="left" id="d348258e147">
 
 Field
 
-</th><th align="left" id="d362566e150">
+</th><th align="left" id="d348258e150">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d362566e156">
+</th></tr></thead><tbody><tr><td id="d348258e156">
 
 **Name**
 
@@ -61,7 +62,7 @@ Description
 
 Name of the HR condition.
 
-</td></tr><tr><td id="d362566e165">
+</td></tr><tr><td id="d348258e165">
 
 **Table**
 
@@ -69,7 +70,7 @@ Name of the HR condition.
 
 Table conditions are built on the HR profile \[sn\_hr\_core\_profile\] table only.Changing the table for client role assignment is not recommended.
 
-</td></tr><tr><td id="d362566e177">
+</td></tr><tr><td id="d348258e177">
 
 **Active**
 
@@ -77,7 +78,7 @@ Table conditions are built on the HR profile \[sn\_hr\_core\_profile\] table onl
 
 Check box for enabling condition.**Note:** Deactivate at the client role assignment level and not the conditions level.
 
-</td></tr><tr><td id="d362566e189">
+</td></tr><tr><td id="d348258e189">
 
 **User column**
 
@@ -85,7 +86,7 @@ Check box for enabling condition.**Note:** Deactivate at the client role assignm
 
 Together with the HR profile \[sn\_hr\_core\_profile\] table, filters users when evaluating a condition.
 
-</td></tr><tr><td id="d362566e199">
+</td></tr><tr><td id="d348258e199">
 
 **Condition**
 
@@ -95,7 +96,7 @@ Conditions the Assign HR Roles business rule uses to automatically assign a role
 -   Part Time Employee or
 -   Temporary Employee and
 -   Employment start date is after Today
- **Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+ **Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 </td></tr></tbody>
 </table>6.  Click **Submit** or **Update**.
@@ -105,5 +106,5 @@ Conditions the Assign HR Roles business rule uses to automatically assign a role
 8.  Click **Submit** or **Update** to save your changes.
 
 
-**Parent Topic:**[Client roles](../concept/c_ClientRoles.md)
+**Parent Topic:**[Client roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_ClientRoles.md)
 

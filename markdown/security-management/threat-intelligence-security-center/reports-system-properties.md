@@ -2,6 +2,7 @@
 title: System properties for TISC Reports
 description: The following section describes the system properties applicable to TISC reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/reports-system-properties.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

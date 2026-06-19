@@ -2,6 +2,7 @@
 title: Activate a content pack
 description: Activate a content pack from the application list on your instance
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/activate-po-content-pack.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -29,7 +30,7 @@ Role required: sm\_cim\_requestor, administrator
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -42,5 +43,5 @@ Role required: sm\_cim\_requestor, administrator
 5.  Select **Install**.
 
 
-**Parent Topic:**[Activate Process Mining content packs](../concept/po-content-pack.md)
+**Parent Topic:**[Activate Process Mining content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/po-content-pack.md)
 

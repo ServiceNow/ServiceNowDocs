@@ -2,6 +2,7 @@
 title: Configuring AI Control Tower workflow
 description: Configure the AI Control Tower workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/configuring-ai-control-tower-workflows.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
@@ -17,15 +18,15 @@ Configure the AI Control Tower workflow.
 
 ## Configuration overview
 
-1.  [Activation and installation of AI Control Tower](activation-and-installation-of-ai-control-tower.md)
-2.  [Configure AI Control Tower](configuring-ai-governance.md)
-3.  [Configure Multi-instance management for AI Control Tower](../task/configure-multi-instance-management-for-aict.md)
+1.  [Activation and installation of AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/activation-and-installation-of-ai-control-tower.md)
+2.  [Configure AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/configuring-ai-governance.md)
+3.  [Configure Multi-instance management for AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/configure-multi-instance-management-for-aict.md)
 
 **Note:**
 
 Some AI capabilities are available only when the required plugins are installed.
 
--   AI Risk and Asset Management capabilities in AI Control Tower with Now Assist require the AI Risk and Asset Management for Now Assist plugin \(sn\_aict\_irm\_aiam\), which depends on:
+-   AI Risk and Asset Management capabilities require the AI Risk and Asset Management for Now Assist plugin \(sn\_aict\_irm\_aiam\). This plugin depends on the following plugins:
     -   AI Risk and Compliance Integration with Control Tower \(sn\_grc\_ai\_irm\_intg\)
     -   AI Asset Management \(sn\_ai\_asset\_mgmt\)
 -   AI Control Tower supports governance of both enterprise AI assets and ServiceNow AI assets, while AI Control Tower with Now Assist supports governance of ServiceNow AI assets only.

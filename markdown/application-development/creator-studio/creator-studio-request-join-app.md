@@ -2,6 +2,7 @@
 title: Ask to work on an app in Creator Studio
 description: Want to work on an app but don't have access to it? No problem. We'll show you how to ask for access.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/creator-studio/creator-studio-request-join-app.html
 release: zurich
 product: Creator Studio
 classification: creator-studio
@@ -21,7 +22,7 @@ First things first, you need the right access to get involved. Your system admin
 
 ## About this task
 
-Getting permission to work on an app delegates you to its development, which means you can start pitching in and making things happen. For more information, see [Exploring Delegated Development](../../applications/concept/c_DelegatedDevelopment.md).
+Getting permission to work on an app delegates you to its development, which means you can start pitching in and making things happen. For more information, see [Exploring Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
 **Note:** Admins don't see the **Request access** option because their permissions enable them to access all apps.
 
@@ -33,7 +34,7 @@ Getting permission to work on an app delegates you to its development, which mea
 
 2.  Look for the app you want to help with and select its **Request access** link.
 
-    ![Request access link](../image/cs-request-access-count.png "Request access")
+    \[Omitted image "cs-request-access-count.png"\] Alt text: Request access link
 
 3.  Use the **Enter an optional message** field if you want to leave a little note explaining why you're interested in joining the app. Maybe you've got some great ideas, or just want to learn the process.
 
@@ -52,7 +53,7 @@ With any luck, the App Engine admin will approve your request, and you'll be in!
 
 If your organization uses App Engine Management Center \(AEMC\), App Engine admins approve collaboration requests there.
 
-If your organization doesn't have AEMC, admins approve requests to join apps in the Collaboration Tasks table. For more information, see [Approve a collaboration request](approve-collaboration-request.md).
+If your organization doesn't have AEMC, admins approve requests to join apps in the Collaboration Tasks table. For more information, see [Approve a collaboration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/approve-collaboration-request.md).
 
-**Parent Topic:**[Collaborating with others to build apps in Creator Studio](../reference/creator-studio-collaboration-roles.md)
+**Parent Topic:**[Collaborating with others to build apps in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-collaboration-roles.md)
 

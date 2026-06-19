@@ -2,6 +2,7 @@
 title: Create a success goal category for software assets
 description: Create a success goal category for adding the category to the Software Asset Management success goal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/create-sam-suc-cat.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -30,5 +31,5 @@ Role required: sam\_admin
 
 ## Result
 
-The category that you add gets listed as an option in the **Category** field while creating a success goal for Software Asset Management. For more information, see [Create success goals for Software Asset Management](create-success-goals.md).
+The category that you add gets listed as an option in the **Category** field while creating a success goal for Software Asset Management. For more information, see [Create success goals for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-success-goals.md).
 

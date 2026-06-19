@@ -2,6 +2,7 @@
 title: Unsupported password characters
 description: There are password characters that are not supported. Users cannot use these characters, based on ServiceNow password complexity requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/unsupported-password-characters.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -22,5 +23,5 @@ To enable a secure network environment, it is necessary for users to use strong 
 
 **Note:** User or company-specific characters that cannot be used in the password can be configured in the exclude password list.
 
-For more information about the password policy properties, see [password policy properties](../reference/password-policy-properties.md).
+For more information about the password policy properties, see [password policy properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/password-policy-properties.md).
 

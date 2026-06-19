@@ -2,6 +2,7 @@
 title: Create a Report Template in Security Incident Response
 description: Create a new report template for analyst summary or an executive summary for an incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/create-report-template-sir.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -58,5 +59,5 @@ Role required: sn\_si.admin
 11. Select the **More actions** icon, and then select **Delete** to delete the report template.
 
 
-**Parent Topic:**[Configure report templates in Security Incident Response](../concept/daily-status-sir.md)
+**Parent Topic:**[Configure report templates in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/daily-status-sir.md)
 

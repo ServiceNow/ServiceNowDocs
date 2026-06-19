@@ -2,6 +2,7 @@
 title: Deployment Request form in the Pipelines and Deployments app
 description: The Deployment Request form is accessed from within the Pipelines and Deployments section of the App Engine Management Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-management-center/deployment-req-form-d-and-p.html
 release: zurich
 product: App Engine Management Center
 classification: app-engine-management-center
@@ -213,5 +214,5 @@ Internal notes.
 </td></tr></tbody>
 </table>When you have saved the form, additional tabs for approval-related information display. The App Engine admin can use these tabs to approve the request.
 
-**Parent Topic:**[Managing deployments using Pipelines and Deployments](../concept/manage-deployments-using-p-and-d-aemc.md)
+**Parent Topic:**[Managing deployments using Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/manage-deployments-using-p-and-d-aemc.md)
 

@@ -2,6 +2,7 @@
 title: Identify potentially exposed contacts
 description: As a case manager, run the diagnostic request to identify other employees who might have come in contact with the affected employee.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contact-tracing/identify-exposed-contacts.html
 release: zurich
 product: Contact Tracing
 classification: contact-tracing
@@ -23,7 +24,7 @@ Role required: sn\_imt\_tracing.case\_manager
 
 ## About this task
 
-**Note:** You cannot create or run a diagnostic request for affected employees who have not consented to use their data for contact tracing. For more information, see [User privacy consent for Contact Tracing](../concept/contact-tracing-user-privacy.md).
+**Note:** You cannot create or run a diagnostic request for affected employees who have not consented to use their data for contact tracing. For more information, see [User privacy consent for Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/contact-tracing-user-privacy.md).
 
 ## Procedure
 
@@ -51,7 +52,7 @@ Role required: sn\_imt\_tracing.case\_manager
 
     4.  Select users from the All Impacted Users related list and select the **Add Users to Case** option in the Actions on selected rows list.
 
-    For more information on running a diagnostic request, see [Run a diagnostic request](../../business-continuity/task/use-emergency-exposure-mgnt.md).
+    For more information on running a diagnostic request, see [Run a diagnostic request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/emergency-exposure-management/use-emergency-exposure-mgnt.md).
 
 6.  If you know of other employees in addition to employees identified from the diagnostics, click **New** in the Exposed Contacts list and add them as potentially exposed contacts.
 
@@ -64,15 +65,15 @@ If automatic case task creation is enabled by the **sn\_imt\_tracing.auto\_creat
 
 **Note:** If a potentially exposed employee added to the case has an active case, the health status of the employee in the current exposed contact record is automatically set from the corresponding exposed contact record of the active case.
 
-These potentially exposed contacts also appear in the exposed contacts visualization section. For more information, see [Working on a case through contact tracing visualization](../reference/contact-tracing-case-visualization.md).
+These potentially exposed contacts also appear in the exposed contacts visualization section. For more information, see [Working on a case through contact tracing visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/contact-tracing-case-visualization.md).
 
-If you have the [Employee Readiness Core](../../employee-readiness-core/concept/employee-readiness-core.md) application installed and a health and safety requirement for the potentially exposed contacts activated, a record is created with the requirement status as Not Cleared for these potentially exposed employees.
+If you have the [Employee Readiness Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-readiness-core/employee-readiness-core.md) application installed and a health and safety requirement for the potentially exposed contacts activated, a record is created with the requirement status as Not Cleared for these potentially exposed employees.
 
 ## What to do next
 
-[Send notification to potentially exposed contacts in a case](send-notification-to-exposed-contact.md).
+[Send notification to potentially exposed contacts in a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/send-notification-to-exposed-contact.md).
 
-If the automatic case task creation is disabled, [create a case task for each exposed contact](create-task-exposed-contact.md).
+If the automatic case task creation is disabled, [create a case task for each exposed contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/create-task-exposed-contact.md).
 
-**Parent Topic:**[Managing cases to follow up with potentially exposed contacts](../concept/exposure-case-management.md)
+**Parent Topic:**[Managing cases to follow up with potentially exposed contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/exposure-case-management.md)
 

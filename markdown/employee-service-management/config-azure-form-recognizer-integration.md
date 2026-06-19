@@ -2,6 +2,7 @@
 title: Configure Azure Form Recognizer integration for automatic vaccine response reviews
 description: As a Vaccination Status admin, configure Vaccination Status to work with Azure Form Recognizer service and automate vaccine response approvals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/config-azure-form-recognizer-integration.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -51,15 +52,15 @@ When you add your credentials to connect to the Azure Form Recognizer service, y
 
 3.  Add your connection credentials and trained model to the Azure Form Recognizer validator service.
 
-<table id="choicetable_gy1_qhr_4sb"><thead><tr><th align="left" id="d665391e219">
+<table id="choicetable_gy1_qhr_4sb"><thead><tr><th align="left" id="d83158e219">
 
 Trained model
 
-</th><th align="left" id="d665391e222">
+</th><th align="left" id="d83158e222">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d665391e228">
+</th></tr></thead><tbody><tr><td id="d83158e228">
 
 **ServiceNow model**
 
@@ -78,7 +79,7 @@ Steps
 
 **Note:** Contact ServiceNow Customer Service and Support or your account management team for "Vaccination Status – Azure Integration setup support". ServiceNow Customer Service and Support and your account management team can complete the steps required to add the trained model with you. Model copy authorizations only last for an hour.
 
-</td></tr><tr><td id="d665391e324">
+</td></tr><tr><td id="d83158e324">
 
 **Customer-trained model**
 
@@ -115,5 +116,5 @@ When users add CDC Vaccination Card attachments to their vaccine responses and s
 -   The confidence score is compared to the configured threshold
 -   The validation engine sets the Vaccine Review Outcomes based on whether the first and last names matched
 
-**Parent Topic:**[Automating vaccine response reviews with the Azure Form Recognizer service](../concept/automate-vaccine-validation-with-azure-form-recognizer.md)
+**Parent Topic:**[Automating vaccine response reviews with the Azure Form Recognizer service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/automate-vaccine-validation-with-azure-form-recognizer.md)
 

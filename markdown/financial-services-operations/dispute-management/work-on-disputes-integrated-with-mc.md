@@ -2,6 +2,7 @@
 title: Managing disputes integrated with Mastercard
 description: The integration of Mastercard APIs into Dispute Management enables you to resolve card disputes faster and more efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/work-on-disputes-integrated-with-mc.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -27,8 +28,8 @@ This integration enables you to:
 -   Review pre-arbitration and arbitration actions
 -   Get pre-arbitration and arbitration response updates
 
--   **[Processing a Mastercard dispute](processing-mastercard-dispute-case.md)**  
+-   **[Processing a Mastercard dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/processing-mastercard-dispute-case.md)**  
 You can view all the transactions of the dispute in the **Processing** stage of the playbook. This stage provides transaction information such as dispute amount, transaction date and time, merchant name, transaction state, current activity, and activity SLA.
 
-**Parent Topic:**[Managing Disputes](managing-disputes.md)
+**Parent Topic:**[Managing Disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/managing-disputes.md)
 

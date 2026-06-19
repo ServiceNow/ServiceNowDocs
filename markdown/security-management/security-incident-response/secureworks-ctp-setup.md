@@ -2,6 +2,7 @@
 title: Set up your ServiceNow AI Platform instance for the Secureworks CTP ticket ingestion integration
 description: The following section lists the setup tasks that you are required to complete in your ServiceNow AI Platform instance prior to installing the application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/secureworks-ctp-setup.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -49,7 +50,7 @@ The following roles are required for the installation, setup, and use of the int
     -   Assigns the security incident analyst \(sn\_si.analyst\) role.
     -   Users with the sn\_si.analyst work with security incidents.
 
- For more information about roles and assigning roles to users, see [Managing roles](https://www.servicenow.com/docs/access?context=ua-creating-roles&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+ For more information about roles and assigning roles to users, see 
 
 </td></tr><tr><td>
 
@@ -77,7 +78,7 @@ Verify that the following Security Operations applications are installed and act
 **Note:** The Integration Hub components are installed along with the Event and Alert Ingestion plugin. If these are not installed, contact Customer Support for assistance.
 
 
- For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](../../../security-incident-response/task/entitle-secops-product.md) and [Activate a ServiceNow Store application](../../../security-incident-response/task/activate-entitled-store-app.md).
+ For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/activate-entitled-store-app.md).
 
 </td></tr></tbody>
 </table>

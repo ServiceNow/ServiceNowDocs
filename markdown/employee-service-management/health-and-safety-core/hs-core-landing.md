@@ -2,11 +2,12 @@
 title: Health and Safety Core
 description: The ServiceNow Health and Safety Core application provides the data model that is required for consistent employee and operational experiences in Health and Safety.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-core/hs-core-landing.html
 release: zurich
 product: Health and Safety Core
 classification: health-and-safety-core
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Health and Safety, Employee Service Management]
 ---
@@ -19,19 +20,19 @@ The ServiceNow® Health and Safety Core application provides the data model that
 
 <table id="table_crx_kff_3fc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn how different personas use Health and Safety Core.](../concept/explore-hs-core.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how different personas use Health and Safety Core.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-core/explore-hs-core.md)
 
 </td><td>
 
-[Set up![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set up Health and Safety Core.](../concept/setting-up-hs-core.md)
+[Set up\[Omitted image "bus-sdlc.svg"\] Alt text:Set up Health and Safety Core.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-core/setting-up-hs-core.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Manage safety meetings, safety actions, and safety documents.](../concept/using-hs-core.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Manage safety meetings, safety actions, and safety documents.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-core/using-hs-core.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about components such as roles, tables, plugins, and store applications that are installed.](../concept/hs-core-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-core/hs-core-reference.md)
 
 </td></tr></tbody>
 </table>## Health and Safety Core overview
@@ -45,5 +46,5 @@ The Health and Safety Core data model supports the functionality of the followin
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 

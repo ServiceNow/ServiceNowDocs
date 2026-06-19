@@ -2,7 +2,10 @@
 title: Create a new case from an email message in Microsoft Outlook
 description: If a customer whose contact details are available sends an email stating an issue, you can easily create a customer service case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-new-case.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -25,7 +28,7 @@ Role required: sn\_customerservice.contact\_manager and sn\_customerservice.prox
 
     The Outlook add-in panel opens in the right pane.
 
-3.  Click the more icon \(![More icon.](../image/more_icon.png)\).
+3.  Click the more icon \(\[Omitted image "more\_icon.png"\] Alt text: More icon.\).
 
 4.  Select **Create Case** from the menu.
 

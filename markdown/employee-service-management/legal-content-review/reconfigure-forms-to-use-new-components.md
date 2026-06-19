@@ -2,6 +2,7 @@
 title: Reconfigure forms to use new components
 description: As an administrator, after installing Legal Content Review reconfigure forms to use the new content review record producer, catalog category, and content taxonomy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-content-review/reconfigure-forms-to-use-new-components.html
 release: zurich
 product: Legal Content Review
 classification: legal-content-review
@@ -34,11 +35,11 @@ The content review request, that was part of Legal Request Management, has been 
 
     2.  From the list, select Legal Content Review.
 
-    3.  In the **Request record producer** field, select the Lookup using list icon \(![Lookup using list icon](../../contact-tracing/image/icon-lookup.png)\)
+    3.  In the **Request record producer** field, select the Lookup using list icon \(\[Omitted image "icon-lookup.png"\] Alt text: Lookup using list icon\)
 
     4.  If you aren’t able to edit the form in the current application scope, select the word **here** in the message at the top of the page.
 
-    5.  In the record producers list, select the Show/hide filter icon \(![Show/hide filter icon](../../legal-simple-privacy/image/LSD-filter-icon.png)\).
+    5.  In the record producers list, select the Show/hide filter icon \(\[Omitted image "LSD-filter-icon.png"\] Alt text: Show/hide filter icon\).
 
     6.  In the **choose field** field, select **Application**.
 
@@ -56,15 +57,15 @@ The content review request, that was part of Legal Request Management, has been 
 
     1.  In the navigation filter, enter `sc_cat_item_category.list`.
 
-    2.  In the Catalog item categories list, locate **Content Review** and select the Preview this record icon \(![Preview this record icon](../../human-resources/reference/images/icon-global-search.png)\).
+    2.  In the Catalog item categories list, locate **Content Review** and select the Preview this record icon \(\[Omitted image "icon-global-search.png"\] Alt text: Preview this record icon\).
 
     3.  Select **Open Record**.
 
-    4.  In the **Catalog item** field, select the Lookup using list icon \(![Lookup using list icon](../../contact-tracing/image/icon-lookup.png)\).
+    4.  In the **Catalog item** field, select the Lookup using list icon \(\[Omitted image "icon-lookup.png"\] Alt text: Lookup using list icon\).
 
         If you are unable to edit the record, select **here** in the access message at the top of the form.
 
-    5.  In the catalog items list, select the show/hide filter icon \(![Show/hide filter icon](../../legal-simple-privacy/image/LSD-filter-icon.png)\).
+    5.  In the catalog items list, select the show/hide filter icon \(\[Omitted image "LSD-filter-icon.png"\] Alt text: Show/hide filter icon\).
 
     6.  In the **choose field** field, select **Application**.
 
@@ -84,9 +85,9 @@ The content review request, that was part of Legal Request Management, has been 
 
         The Connected Content Catalog Item: Content Review form is displayed.
 
-    2.  In the **Catalog item** field, select the Lookup using list icon \(![Lookup using list icon](../../contact-tracing/image/icon-lookup.png)\).
+    2.  In the **Catalog item** field, select the Lookup using list icon \(\[Omitted image "icon-lookup.png"\] Alt text: Lookup using list icon\).
 
-    3.  In the catalog items list, select the show/hide filter icon \(![Show/hide filter icon](../../legal-simple-privacy/image/LSD-filter-icon.png)\).
+    3.  In the catalog items list, select the show/hide filter icon \(\[Omitted image "LSD-filter-icon.png"\] Alt text: Show/hide filter icon\).
 
     4.  In the **choose field** field, select **Application**.
 
@@ -101,5 +102,5 @@ The content review request, that was part of Legal Request Management, has been 
     9.  Select **Update**.
 
 
-**Parent Topic:**[Configure Legal Content Review](../concept/setting-up-legal-content-review.md)
+**Parent Topic:**[Configure Legal Content Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-content-review/setting-up-legal-content-review.md)
 

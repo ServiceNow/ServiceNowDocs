@@ -2,6 +2,7 @@
 title: Activate Field Service Marketplace
 description: You can activate the Field Service Marketplace plugin \( com.snc.fsm\_marketplace\) for Field Service Management if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data if they aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/activate-contractor-marketplace.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -29,7 +30,7 @@ The following items are installed with Field Service Marketplace:
 -   Business rules
 -   Script includes
 
-For more information, see [Field Service Marketplace components](../reference/contractor-marketplace-cmpnts.md).
+For more information, see [Field Service Marketplace components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/contractor-marketplace-cmpnts.md).
 
 **Note:** To utilize automation in Field Service Marketplace, the Dynamic Scheduling plugin must be installed and the **Use task filters for determining contractor tasks** property must be enabled.
 
@@ -45,6 +46,6 @@ For more information, see [Field Service Marketplace components](../reference/co
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 

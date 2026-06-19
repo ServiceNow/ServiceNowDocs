@@ -2,6 +2,7 @@
 title: Configure Walk-up Experience service channel
 description: Configure the Walk-up Experience service channel to meet the needs of your walk-up agents and how they are assigned to and manage interactions in Agent Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/walk-up-experience/configure-walkup-service-channel.html
 release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -29,10 +30,10 @@ The Walk-up Experience service channel is viewed and configured through Advanced
 
 2.  Select **Walk-up** to open the Walk-up Experience service channel.
 
-3.  Refer to [Configure a service channel](https://www.servicenow.com/docs/access?context=awa-create-service-channel&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US) for detailed information regarding the Service Channel Walk-up form values and conditions.
+3.  Refer to Configure a service channel for detailed information regarding the Service Channel Walk-up form values and conditions.
 
-    For more information regarding Advanced Work Assignment service channels, including configuring capacity and utilization, inbox layout, and overriding agent capacity for selected agents, refer to [Service channels](https://www.servicenow.com/docs/access?context=awa-service-channels&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+    For more information regarding Advanced Work Assignment service channels, including configuring capacity and utilization, inbox layout, and overriding agent capacity for selected agents, refer to .
 
 
-**Parent Topic:**[Configuring Walk-up Experience](../concept/walkup-experience-configuration.md)
+**Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walkup-experience-configuration.md)
 

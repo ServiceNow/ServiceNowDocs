@@ -2,6 +2,7 @@
 title: Price fields
 description: A price field is a currency field that enables control over conversions and display.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/currency-administration/price-fields.html
 release: zurich
 product: Currency Administration
 classification: currency-administration
@@ -69,5 +70,5 @@ Calculated, Fixed, Multiple.-   When you change the price type to Multiple, the 
 -   You can modify the price type at any time.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Standard currency fields](configure-and-use-default-currency-fields.md)
+</table>**Parent Topic:**[Standard currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/configure-and-use-default-currency-fields.md)
 

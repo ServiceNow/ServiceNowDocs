@@ -2,11 +2,12 @@
 title: Cisco Unified Computing System \(UCS\)-HD device discovery
 description: Discovery and Service Mapping Patterns application uses the to find Cisco UCS equipment, including chassis and blades. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/r-CiscoUCSHD.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-06-01"
 reading_time_minutes: 2
 breadcrumb: [Network device discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -19,18 +20,33 @@ Discovery and Service Mapping Patterns application uses the to find Cisco UCS eq
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
 -   **Create SNMP credentials**
 
-    For more information, see [SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+    For more information, see .
 
 -   **Create applicative credentials**
 
-    Create applicative credentials for the **Cisco UCS Equipment \[cmdb\_ci\_ucs\_equipment\]** CI type. For more information, see [Applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+    Create applicative credentials for the **Cisco UCS Equipment \[cmdb\_ci\_ucs\_equipment\]** CI type. For more information, see .
 
+-   **Verify network connectivity**
+
+    Verify that the MID Server has HTTPS access to the UCS Manager on port 443 and is able to reach the management IP address of the UCS equipment.
+
+-   **Verify UCS Manager account requirements**
+
+    Verify that the account has at least the **read-only** role in UCS Manager and has permissions to execute XML API queries for the following object classes:
+
+    -   `computeRackUnit`
+    -   `equipmentChassis`
+    -   `computeBlade`
+    -   `mgmtIf`
+    -   `topSystem`
+    -   `versionEp`
+    -   `equipmentFan`
 -   **Classifier, pattern, and OIDs**
 
     The UCS classifier uses HorzontalDiscoveryProbe to launch the UCS - HD pattern. The classifier also uses these SNMP OIDs, which specify the Cisco UCS Equipment `[cmdb_ci_ucs_equipment]` table:
@@ -106,5 +122,5 @@ These relationships are created to support UCS - HD discovery.
 |cmdb\_ci\_ucs\_equipment|Contains::Contained by|cmdb\_ci\_ucs\_chassis|
 |cmdb\_ci\_server|Runs on::Runs|cmdb\_ci\_ucs\_blade|
 
-**Parent Topic:**[Network device discovery](../concept/c_NetworkDevices.md)
+**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_NetworkDevices.md)
 

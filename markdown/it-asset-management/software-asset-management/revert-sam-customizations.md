@@ -2,6 +2,7 @@
 title: Revert Software Asset Management customizations
 description: After installing the Software Asset Management application for the first time, or upgrading from the Software Asset Management Foundation plugin, you need to revert customizations for all features work. The Revert Customizations module in the Software Asset Management application can revert customized files related to Software Asset Management back to the base configurations that were skipped during the installation or upgrade process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/revert-sam-customizations.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management

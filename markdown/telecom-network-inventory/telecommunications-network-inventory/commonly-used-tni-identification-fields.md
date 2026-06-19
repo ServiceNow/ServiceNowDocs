@@ -2,6 +2,7 @@
 title: Commonly used network asset instance identification fields
 description: Some network asset instance fields are common in the identification sections of the Telecommunications Network Inventory forms. The ServiceNow AI Platform uses these fields to identify and categorize your network inventory assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/commonly-used-tni-identification-fields.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -74,7 +75,7 @@ Function
 
 </td><td>
 
-Optional user-defined function code that you use to categorize the functions of the various network entities or assets. Select the search icon \(![Search icon.](../image/search.png)\) and select a function code.
+Optional user-defined function code that you use to categorize the functions of the various network entities or assets. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a function code.
 
 </td></tr><tr><td>
 
@@ -140,7 +141,7 @@ Location
 
 </td><td>
 
-Geographic location of the network site. Select the search icon \(![Search icon.](../image/search.png)\) and select a location from the Location hierarchy. To learn more about the Location hierarchy, see [17d5ab04176723ba602d3da0ccbd65a6205cccb4.dita](../task/define-tni-locations.md).
+Geographic location of the network site. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a location from the Location hierarchy. To learn more about the Location hierarchy, see [17d5ab04176723ba602d3da0ccbd65a6205cccb4.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-locations.md).
 
 </td></tr><tr><td>
 
@@ -148,7 +149,7 @@ Managed by
 
 </td><td>
 
-Name of the person who manages this network asset. Select the search icon \(![Search icon.](../image/search.png)\) and select a user from the listing.
+Name of the person who manages this network asset. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a user from the listing.
 
 </td></tr><tr><td>
 
@@ -177,7 +178,7 @@ Product Model
 
 </td><td>
 
-Product model, if any, that is associated with this network asset. Select the search icon \(![Search icon.](../image/search.png)\) and select a product model.
+Product model, if any, that is associated with this network asset. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a product model.
 
 </td></tr><tr><td>
 
@@ -193,7 +194,7 @@ Role
 
 </td><td>
 
-Optional user-defined role code that you use to categorize the roles or purposes of the various network entities or assets. Select the search icon \(![Search icon.](../image/search.png)\) and select a role code.
+Optional user-defined role code that you use to categorize the roles or purposes of the various network entities or assets. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a role code.
 
 </td></tr><tr><td>
 
@@ -217,7 +218,7 @@ Type
 
 </td><td>
 
-Optional user-defined type code that you use to categorize the types of the various network entities or assets. Select the search icon \(![Search icon.](../image/search.png)\) and select a type code.
+Optional user-defined type code that you use to categorize the types of the various network entities or assets. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a type code.
 
 </td></tr><tr><td>
 
@@ -304,5 +305,5 @@ Number of the addresses that are reserved for this IP pool or IP subnet.
 |Spare length Z|Length of the cable that connects to site Z in millimeters \(mm\).|
 |KML Route|Option that designates the fiber route maps in a KML format.|
 
-**Parent Topic:**[Telecommunications Network Inventory reference](../concept/telecommunications-network-inventory-reference.md)
+**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 

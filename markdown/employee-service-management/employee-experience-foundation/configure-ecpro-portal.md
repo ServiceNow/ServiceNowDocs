@@ -2,6 +2,7 @@
 title: Employee Center Pro admin configurations
 description: As the system admin, install Employee Center Pro plugins, assign roles to users so they can configure Employee Center Pro features, set the theme, header, and footer, and enable support for right-to-left languages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/configure-ecpro-portal.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,18 +18,18 @@ As the system admin, install Employee Center Pro plugins, assign roles to users 
 
 The Employee Center Pro application provides out-of-the-box portal pages with relevant widgets necessary to deliver an employee-centric portal experience.
 
-1.  [Install plugins](ecpro-plugins.md)
-2.  [Assign roles](ecpro-roles.md)
+1.  [Install plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-plugins.md)
+2.  [Assign roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-roles.md)
 3.  Configure the portal:
-    -   [Customize Employee Center portal theme](../task/customize-theme.md)
-    -   [Employee Center global header](config-global-header.md)
-    -   [Footer configuration](emp-center-footer-config.md)
-    -   [Enable support for right-to-left languages](ec-direction-right-to-left-languages.md)
+    -   [Customize Employee Center portal theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/customize-theme.md)
+    -   [Employee Center global header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/config-global-header.md)
+    -   [Footer configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/emp-center-footer-config.md)
+    -   [Enable support for right-to-left languages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-direction-right-to-left-languages.md)
     -   Customize the portal pages, such as the home page:
 
         Navigate to **Service Portal** &gt; **Pages** to view all the pages.
 
         The Employee Center Pro home page is `ec_pro_home`
 
-    -   Modify the email notification subject and body, such as when a new task is assigned: [Modify email notification layout](../task/activate-notification-template.md)
+    -   Modify the email notification subject and body, such as when a new task is assigned: [Modify email notification layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/activate-notification-template.md)
 

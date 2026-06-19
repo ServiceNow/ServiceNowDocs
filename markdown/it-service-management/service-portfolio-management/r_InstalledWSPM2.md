@@ -2,6 +2,7 @@
 title: Installed with Service Portfolio Management
 description: Service Portfolio Management Core is active by default for users with ITSM licenses. Service Portfolio Management Foundation is administrator activated and enables you to document portfolios, taxonomies, services, and service offerings using a standardized, structured format.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-portfolio-management/r\_InstalledWSPM2.html
 release: zurich
 product: Service Portfolio Management
 classification: service-portfolio-management
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Service Portfolio Management, IT Service Management]
 
 Service Portfolio Management Core is active by default for users with ITSM licenses. Service Portfolio Management Foundation is administrator activated and enables you to document portfolios, taxonomies, services, and service offerings using a standardized, structured format.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Service Portfolio Management plugins
 
@@ -26,7 +27,7 @@ The following two plugins enable you to use the full functionality of Service Po
 
 The Service Portfolio Management Foundation plugin automatically activates the Service Portfolio Management Core plugin. Each plugin independently installs a set of roles and tables.
 
-If you install Service Builder from the ServiceNow Store, its plugin \[com.snc.service\_builder\] automatically installs. Service Builder uses the same role set as Service Portfolio Management. See [Service Builder](../../service-builder/concept/service-builder.md) for more information.
+If you install Service Builder from the ServiceNow Store, its plugin \[com.snc.service\_builder\] automatically installs. Service Builder uses the same role set as Service Portfolio Management. See [Service Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-builder/service-builder.md) for more information.
 
 ## Service Portfolio Management Core roles and tables
 
@@ -190,7 +191,7 @@ Used to create or modify a service portfolio.
 
 Used to define the order of a taxonomy layer associated with a service portfolio.
 
-**Note:** Use this table with the legacy portfolio structure. The standard portfolio structure doesn’t have taxonomy layers. For more information, see [Service Portfolio Management portfolios](../concept/SPM2-service-portfolios.md).
+**Note:** Use this table with the legacy portfolio structure. The standard portfolio structure doesn’t have taxonomy layers. For more information, see [Service Portfolio Management portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/SPM2-service-portfolios.md).
 
 </td></tr><tr><td>
 
@@ -313,5 +314,5 @@ service\_out\_scope
 Used to create and define services Out of Scope and specify the scope parameters.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Portfolio Management reference](SPM2-reference.md)
+</table>**Parent Topic:**[Service Portfolio Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/SPM2-reference.md)
 

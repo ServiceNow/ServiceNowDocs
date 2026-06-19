@@ -2,7 +2,10 @@
 title: Field Service Territory Capacity Analytics dashboard
 description: Use the Field Service Territory Capacity Analytics dashboard to track capacity trends with interactive charts and graphs, perform gap analysis with a customizable pivot table, and apply filters for targeted data viewing and informed decision-making.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/capacity-dashboard.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -13,7 +16,7 @@ breadcrumb: [Analytics and reporting, Field Service Management]
 
 Use the Field Service Territory Capacity Analytics dashboard to track capacity trends with interactive charts and graphs, perform gap analysis with a customizable pivot table, and apply filters for targeted data viewing and informed decision-making.
 
-![Dashboard showing interactive charts and graphs for tracking capacity trends, a customizable pivot table for gap analysis by territory and demand channel, and filter options to view data.](../image/field-service-capacity-analytics-dashboard.jpg)
+\[Omitted image "field-service-capacity-analytics-dashboard.jpg"\] Alt text: Dashboard showing interactive charts and graphs for tracking capacity trends, a customizable pivot table for gap analysis by territory and demand channel, and filter options to view data.
 
 ## Required ServiceNow AI Platform roles
 
@@ -201,5 +204,5 @@ Reference
 Filter the results based on a selected demand channel and other filter selections such as Territory, Frequency, Capacity By etc.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Analytics and reporting for Field Service Management](../../../product/field-service-management/concept/analytics-reporting-fsm.md)
+</table>**Parent Topic:**[Analytics and reporting for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/analytics-reporting-fsm.md)
 

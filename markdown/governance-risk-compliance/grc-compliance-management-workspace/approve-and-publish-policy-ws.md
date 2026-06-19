@@ -2,6 +2,7 @@
 title: Approve and publish a policy using the Compliance Workspace
 description: When a policy is approved, it is automatically published.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/approve-and-publish-policy-ws.html
 release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -23,7 +24,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst or sn\_complian
 
 Prior to Version 11.0.2 of the GRC: Policy and Compliance Management application, a new knowledge base article overwrote the previous version whenever you made changes to a policy. Starting with Version 11.0.2, when you again approve a policy, a new version of the KB article is created and listed in the **Policy Versions** tab, along with a history of previous versions.
 
-This feature requires that you manually install and activate the Knowledge Management Advanced Installer \[com.snc.knowledge\_advanced.installer\] plugin. For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+This feature requires that you manually install and activate the Knowledge Management Advanced Installer \[com.snc.knowledge\_advanced.installer\] plugin. For more information, see Activate a plugin.
 
 ## Procedure
 

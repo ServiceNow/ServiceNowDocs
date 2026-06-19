@@ -2,6 +2,7 @@
 title: Create Service Level Agreement definitions in Jeopardy Management
 description: Create and link Service Level Agreements \(SLAs\) to tasks in a fulfillment workflow as part of configuring Jeopardy Management. SLAs are assigned to tasks and define the amount of time a task should take. After SLAs are linked to a task, the SLA monitors the task and the fulfillment process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/create-sla-definitions.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -151,7 +152,7 @@ Pause condition
 
 </td><td>
 
-Define the conditions under which the SLA suspends the elapsed time.**Note:** The Start and Suspend conditions in the SLA definition must match the same conditions in the Order Task Duration Assignment Policy. For more information, see [Configure the Order Task Duration Assignment Policy](configure-order-task-duration-assignment-policy.md).
+Define the conditions under which the SLA suspends the elapsed time.**Note:** The Start and Suspend conditions in the SLA definition must match the same conditions in the Order Task Duration Assignment Policy. For more information, see [Configure the Order Task Duration Assignment Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/configure-order-task-duration-assignment-policy.md).
 
 </td></tr><tr><td>
 
@@ -175,5 +176,5 @@ Determines whether the existing task is canceled or completed on task SLA reset.
 
 ## What to do next
 
-Configure the decision tables. For more information, see [Configure the Order Line Jeopardy Level Calculation Policy](configure-order-line-jeopardy-level-calculation-policy.md).
+Configure the decision tables. For more information, see [Configure the Order Line Jeopardy Level Calculation Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/configure-order-line-jeopardy-level-calculation-policy.md).
 

@@ -2,6 +2,7 @@
 title: ConnectionInfoProvider - Scoped, Global
 description: The ConnectionInfoProvider API provides methods to select connection information through the connection alias.Selects connection information through the connection alias.Retrieves a ConnectionInfo object identified by the given aliasID in the current domain.Retrieves a ConnectionInfo object identified by the given aliasID for a specific domain.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/connection-info-provider-api.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -56,7 +57,7 @@ if (connectionInfo != null) {
 
 ```
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## ConnectionInfoProvider - ConnectionInfoProvider\(\)
 

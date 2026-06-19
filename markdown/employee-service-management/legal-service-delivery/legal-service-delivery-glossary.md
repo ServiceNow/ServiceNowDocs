@@ -2,6 +2,7 @@
 title: Legal Service Delivery glossary
 description: Learn about the terms and concepts used in Legal Service Delivery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/legal-service-delivery-glossary.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -17,7 +18,7 @@ Learn about the terms and concepts used in Legal Service Delivery.
 
 Glossary terms are grouped alphabetically.
 
-[A](legal-service-delivery-glossary.md#) \| [C](legal-service-delivery-glossary.md#) \| [D](legal-service-delivery-glossary.md#) \| [G](legal-service-delivery-glossary.md#) \| [I](legal-service-delivery-glossary.md#) \| [L](legal-service-delivery-glossary.md#) \| [N](legal-service-delivery-glossary.md#) \| [O](legal-service-delivery-glossary.md#) \| [R](legal-service-delivery-glossary.md#) \| [S](legal-service-delivery-glossary.md#) \| [V](legal-service-delivery-glossary.md#) \| [W](legal-service-delivery-glossary.md#)
+[A](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/legal-service-delivery-glossary.md) \| [C](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/legal-service-delivery-glossary.md) \| [D](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/legal-service-delivery-glossary.md) \| [G](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/legal-service-delivery-glossary.md) \| [I](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/legal-service-delivery-glossary.md) \| [L](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/legal-service-delivery-glossary.md) \| [N](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/legal-service-delivery-glossary.md) \| [O](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/legal-service-delivery-glossary.md) \| [R](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/legal-service-delivery-glossary.md) \| [S](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/legal-service-delivery-glossary.md) \| [V](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/legal-service-delivery-glossary.md) \| [W](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/legal-service-delivery-glossary.md)
 
 ## A
 

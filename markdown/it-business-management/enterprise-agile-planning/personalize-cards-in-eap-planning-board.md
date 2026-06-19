@@ -2,6 +2,7 @@
 title: Personalize the EAP Planning board
 description: Choose metrics and indicators to be shown on cards so that key information is available at a glance on the Planning board in Enterprise Agile Planning workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/enterprise-agile-planning/personalize-cards-in-eap-planning-board.html
 release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -25,7 +26,7 @@ Role required: sn\_apw\_advanced.eap\_user
 
 2.  From the Agile structure section of the left navigation panel, select your EAP Team.
 
-3.  From the Planning board, select the Planning board personalize panel icon \(![Personalize icon.](../images/eap-personalize-icon.png)\).
+3.  From the Planning board, select the Planning board personalize panel icon \(\[Omitted image "eap-personalize-icon.png"\] Alt text: Personalize icon.\).
 
 4.  From the Personalize side panel, update one or more of the following:
 
@@ -35,15 +36,15 @@ Role required: sn\_apw\_advanced.eap\_user
 
     -   Card size: Compact or Full.
 
-        ![Compact and Full work item cards in EAP planning board.](../images/eap-card-sizes.png)
+        \[Omitted image "eap-card-sizes.png"\] Alt text: Compact and Full work item cards in EAP planning board.
 
     -   Indicators and data points that you want displayed on the cards.
     The selections are automatically applied to the cards. The following screenshot shows an ART planning board and its personalization options.
 
-    ![Personalizing data on story cards in EAP Planning board.](../images/eap-personalize-planning-board.png)
+    \[Omitted image "eap-personalize-planning-board.png"\] Alt text: Personalizing data on story cards in EAP Planning board.
 
 5.  After making all the required selections, close the side panel.
 
 
-**Parent Topic:**[Perform PI planning in EAP](../concept/pi-planning-eap.md)
+**Parent Topic:**[Perform PI planning in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/pi-planning-eap.md)
 

@@ -2,6 +2,7 @@
 title: Input variable movement use case - two input variables
 description: An existing workflow already contains two input variables.You can verify the variables that are included in a specific workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/legacy-workflow/r\_InptVrblMvmntTwo.html
 release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
@@ -38,7 +39,7 @@ An existing workflow already contains two input variables.
     -   The new published workflow version uses all four variables.
     -   The user tests the new workflow version and it runs as expected.
 
-**Parent Topic:**[Input variable movement](../concept/c_InputVariableMovement.md)
+**Parent Topic:**[Input variable movement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/c_InputVariableMovement.md)
 
 ## Verify variables included in a specific workflow
 

@@ -2,6 +2,7 @@
 title: Create indicators
 description: Create and manage threat indicators that synchronize directly with CrowdStrike Falcon Insight, enabling consistent, up‑to‑date threat intelligence across your security environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/create-indicator-cs-falcon-insight.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

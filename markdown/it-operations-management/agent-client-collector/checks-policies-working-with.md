@@ -2,6 +2,7 @@
 title: Collecting data from your system devices
 description: Run a check command on your server or database to gather data from those devices. Depending on the check that is invoked, collected data may be monitoring data, visibility data, log data, or user metrics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/checks-policies-working-with.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -50,7 +51,7 @@ Policy checks run based on one of the following scheduling models:
 
 ## Determining where checks run
 
-Policies monitor the configuration items \(CIs\) that are mapped to the agent hosts. To determine the specific CI types to be monitored, you can create filters. For details on configuring policy filters, see [Create a service filter for a policy](../task/create-service-filter-policy.md).
+Policies monitor the configuration items \(CIs\) that are mapped to the agent hosts. To determine the specific CI types to be monitored, you can create filters. For details on configuring policy filters, see [Create a service filter for a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/create-service-filter-policy.md).
 
 ## Updating policy mappings
 

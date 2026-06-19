@@ -2,6 +2,7 @@
 title: Summarize test for a technology product support case using Now Assist for Telecommunications, Media and Technology \(TMT\)
 description: Generate the test run summary for a technology product support case record to understand the context of test outcomes and the root cause of the problem.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-tech-support-case.html
 release: zurich
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -40,13 +41,13 @@ The test summarization skill checks the test results record to determine if ther
 
 3.  In the **Troubleshoot** tab, select **Test results**.
 
-    ![Hi-tech test.](../image/test-result-hi-tech-cases.png)
+    \[Omitted image "test-result-hi-tech-cases.png"\] Alt text: Hi-tech test.
 
-4.  Identify the test result that you want to open and select the View Details icon \(![View details](../image/mab-icon-launch-weblink-sol.png)\)
+4.  Identify the test result that you want to open and select the View Details icon \(\[Omitted image "mab-icon-launch-weblink-sol.png"\] Alt text: View details\)
 
 5.  In the Test Run summary by Now Assist component, select **Summarize**.
 
-    ![Summarize the hi-tech test.](../image/test-result-summarize-hi-tech-cases.png)
+    \[Omitted image "test-result-summarize-hi-tech-cases.png"\] Alt text: Summarize the hi-tech test.
 
     The Test Run summary by Now Assist component appears in the test result record. The component is collapsed by default and expands to display the summary. For longer summaries that don't fit in the window, select **View more** and use the scroll bar to view the rest of the content.
 
@@ -54,49 +55,49 @@ The test summarization skill checks the test results record to determine if ther
 
 6.  After you're finished summarizing the test for the technology product support case, manage the results.
 
-<table id="choicetable_ebh_5tm_vdc"><thead><tr><th align="left" id="d28093e198">
+<table id="choicetable_ebh_5tm_vdc"><thead><tr><th align="left" id="d23465e198">
 
 Option
 
-</th><th align="left" id="d28093e201">
+</th><th align="left" id="d23465e201">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d28093e207">
+</th></tr></thead><tbody><tr><td id="d23465e207">
 
 **Expand or collapse the summary**
 
 </td><td>
 
--   See more summary details by selecting the expand card icon \(![Expand card icon.](../image/icon-expand.png)\).
--   See fewer summary details by selecting the collapse card icon \(![Collapse card icon.](../image/icon-collapse.png)\).
+-   See more summary details by selecting the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\).
+-   See fewer summary details by selecting the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\).
 
 
-</td></tr><tr><td id="d28093e237">
+</td></tr><tr><td id="d23465e237">
 
 **Provide feedback for the summary**
 
 </td><td>
 
--   If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../image/icon-helpful.png)\).
--   If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../image/icon-not-helpful.png)\).
+-   If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\).
+-   If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d28093e270">
+</td></tr><tr><td id="d23465e270">
 
 **Copy the test summary**
 
 </td><td>
 
-Select the copy to clipboard icon \(![Copy to clipboard icon.](../image/icon-copy.png)\) to use the case summary information for another purpose, such as pasting into an email.
+Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d28093e285">
+</td></tr><tr><td id="d23465e285">
 
 **Refresh the test summary**
 
 </td><td>
 
-Fetch the latest test run summary by selecting the refresh icon \(![Refresh test summary](../image/refresh-sync-new.png)\).
+Fetch the latest test run summary by selecting the refresh icon \(\[Omitted image "refresh-sync-new.png"\] Alt text: Refresh test summary\).
 
 </td></tr></tbody>
 </table>7.  Set the test result to either fail or pass by selecting the **Set result**.
@@ -106,5 +107,5 @@ Fetch the latest test run summary by selecting the refresh icon \(![Refresh test
     -   To set the results, select **Save**.
     -   To go back to the test results list, select **Cancel**.
 
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](../concept/now-assist-spm-using.md)
+**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

@@ -2,6 +2,7 @@
 title: Integrating Innovation Management with Universal Request
 description: Integration of Innovation Management with Universal Request extends the capabilities of Universal Request and enables your employees and agents to create an idea from a universal request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/innovation-management/universal-req-idea-mgmt.html
 release: zurich
 product: Innovation Management
 classification: innovation-management
@@ -22,7 +23,7 @@ A Universal Request is created from an Interaction Record or New Call record whe
 -   Resolve the Universal Request immediately without assigning it to a specific department.
 -   Transfer the Universal Request to a different department by assigning it to a Tier 1 assignment group.
 
-Universal Request serves as a parent record for other records created as child records, such as INC, HRC, and custom task types. It is also used for all cross-departmental reporting. For more information about universal request, see [Exploring Universal Request](https://www.servicenow.com/docs/access?context=explore-universal-request&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+Universal Request serves as a parent record for other records created as child records, such as INC, HRC, and custom task types. It is also used for all cross-departmental reporting. For more information about universal request, see Exploring Universal Request.
 
 ## Features
 
@@ -48,16 +49,16 @@ The integration provides the following functionalities:
 Activate the following plugins if you have the admin role. These plugins are not active by default, and you must install them to integrate Innovation Management with Universal Request applications.
 
 -   PPM Standard plugin \(com.snc.financial\_planning\_pmo\).
--   Universal Request plugin \(com.snc.universal\_request\). For activation information, see [Activate Universal Request](https://www.servicenow.com/docs/access?context=activate-ur-plugin&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+-   Universal Request plugin \(com.snc.universal\_request\). For activation information, see Activate Universal Request.
 
 Activate other related plugins such as Human Resources Scoped App: Core \(com.sn\_hr\_core\), and Employee Center \(com.snc.employee\_center\) plugins to facilitate inter-department transfers of ideas.
 
--   **[Create an Idea from Universal Request](../task/create-idea-from-ur.md)**  
+-   **[Create an Idea from Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/create-idea-from-ur.md)**  
 Create an idea from a universal request after initial evaluation for a new product, feature, enhancement, or change.
--   **[Idea state mapping](../task/idea-state-mapping.md)**  
+-   **[Idea state mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/idea-state-mapping.md)**  
 Map your idea states to the Universal Request states to provide a better user experience during the idea state transition and to track the progress of the idea.
--   **[Transfer an Idea to another department](../task/transfer-idea-ur.md)**  
+-   **[Transfer an Idea to another department](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/transfer-idea-ur.md)**  
 Transfer an idea to another department with or without resolution if the idea is rejected or cannot be implemented.
 
-**Parent Topic:**[Innovation Management](innovation-management-landing.md)
+**Parent Topic:**[Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/innovation-management-landing.md)
 

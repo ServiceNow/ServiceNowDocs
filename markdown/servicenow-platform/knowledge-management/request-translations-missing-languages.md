@@ -2,6 +2,7 @@
 title: Request missing translations for available languages
 description: Manually create translation tasks if an article does not have translation tasks created for all the languages you have configured.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/request-translations-missing-languages.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -37,5 +38,5 @@ Manually create translation tasks if an article does not have translation tasks 
 
 The translation tasks for the languages are created and listed in the Knowledge Translation Tasks tab.
 
-**Parent Topic:**[Use translation management](../concept/use-translation-management.md)
+**Parent Topic:**[Use translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/use-translation-management.md)
 

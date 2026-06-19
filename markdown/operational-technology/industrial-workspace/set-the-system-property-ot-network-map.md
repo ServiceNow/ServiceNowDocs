@@ -2,6 +2,7 @@
 title: Set the system property for the OT Network Map
 description: Set the Max CI Nodes per Site \(sn\_ot\_core.node\_map.max\_ci\_nodes\_per\_site\) system property to determine the maximum number of configuration item \(CI\) nodes shown per site on the OT Network Map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-workspace/set-the-system-property-ot-network-map.html
 release: zurich
 product: Industrial Workspace
 classification: industrial-workspace
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  Select the **sn\_ot\_core.node\_map.max\_ci\_nodes\_per\_site** system property record.
 
-    To find this system property, you can set a filter by selecting the **Show / hide filter** ![](../../mftg-manufacturing-process-mgr/image/filter-list-icon.png) icon and applying a **\[Name\] \[is\] \[sn\_ot\_core.node\_map.max\_ci\_nodes\_per\_site\]** filter value.
+    To find this system property, you can set a filter by selecting the **Show / hide filter** \[Omitted image "filter-list-icon.png"\] Alt text: icon and applying a **\[Name\] \[is\] \[sn\_ot\_core.node\_map.max\_ci\_nodes\_per\_site\]** filter value.
 
 3.  If needed, edit the **Value** field to change the number of CI nodes shown per site.
 
@@ -34,5 +35,5 @@ Role required: admin
 4.  Select **Update**.
 
 
-**Parent Topic:**[Setting up the OT Network Map](../concept/setting-up-ot-network-map.md)
+**Parent Topic:**[Setting up the OT Network Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/setting-up-ot-network-map.md)
 

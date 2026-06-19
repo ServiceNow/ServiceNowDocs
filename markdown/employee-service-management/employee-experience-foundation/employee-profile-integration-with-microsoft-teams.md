@@ -2,6 +2,7 @@
 title: Employee Profile integration with Microsoft Teams
 description: Employee Profile provides integration with Microsoft Teams that show the current statuses of employees on their respective Employee Profile pages itself.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/employee-profile-integration-with-microsoft-teams.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -23,14 +24,14 @@ The statuses available for display are **Available**, **Away**, **Busy**, and **
 
 If you are not already logged in to Microsoft Teams from your profile page, the screen shows a prompt **Login to Microsoft Teams to view status** to connect with your Microsoft Teams account using a login form.
 
-You can [disable the status view](../task/disable-microsoft-teams-status-view.md) if you do not wish to see it on your profile page.
+You can [disable the status view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/disable-microsoft-teams-status-view.md) if you do not wish to see it on your profile page.
 
 **Note:**
 
 To use this integrated feature, the user must install either the HR Service Delivery integration with Microsoft Teams version 3.1.0 app or the IT Service Management integration with Microsoft Teams version 2.4.0 app.
 
--   **[Disable Microsoft Teams status view](../task/disable-microsoft-teams-status-view.md)**  
+-   **[Disable Microsoft Teams status view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/disable-microsoft-teams-status-view.md)**  
 You can disable the status view of Microsoft Teams on your Employee Profile page.
 
-**Parent Topic:**[Employee Center Integrations](integrate-ec.md)
+**Parent Topic:**[Employee Center Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/integrate-ec.md)
 

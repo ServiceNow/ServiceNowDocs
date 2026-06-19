@@ -2,6 +2,7 @@
 title: Policy logic condition fields
 description: Policy logic is a set of conditions that is used for determining whether a policy is compliant or non-compliant. You can use the condition builder to specify conditions for the policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/policy-as-code-engine-pace/pace-policy-logic-fields.html
 release: zurich
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
@@ -17,9 +18,9 @@ Policy logic is a set of conditions that is used for determining whether a polic
 
 ## Policy logic page
 
-![Policy builder.](../image/pace-low-code-policy-builder-3.jpg)
+\[Omitted image "pace-low-code-policy-builder-3.jpg"\] Alt text: Policy builder.
 
-Select the **or** and **and** button to add multiple rules in the condition set. Select the minus icon ![Minus icon.](../../devops-config/image/pace-output-type-delete.png) to delete a condition.
+Select the **or** and **and** button to add multiple rules in the condition set. Select the minus icon \[Omitted image "pace-output-type-delete.png"\] Alt text: Minus icon. to delete a condition.
 
 You can add a condition set by selecting the **New condition set** button.
 
@@ -61,7 +62,7 @@ Value
 
 </td><td>
 
-Value to enter text. Select the Data picker icon ![Data pill picker icon.](../image/pace-pill-picker-icon-2.jpg) to concatenate multiple text strings with multiple data pills to select a variable for the log.**Note:** If your Source is choice, the Data pill picker icon is inactive.
+Value to enter text. Select the Data picker icon \[Omitted image "pace-pill-picker-icon-2.jpg"\] Alt text: Data pill picker icon. to concatenate multiple text strings with multiple data pills to select a variable for the log.**Note:** If your Source is choice, the Data pill picker icon is inactive.
 
 </td></tr></tbody>
 </table>The **else if** statement enables you to specify a new condition if the first condition is false. The **else** statement enables you to specify a new condition if it does not apply to the **if** statement.
@@ -102,7 +103,7 @@ Log message
 
 </td><td>
 
-Log message field to enter text or select the Data picker icon ![Data pill picker icon.](../image/pace-pill-picker-icon-2.jpg) to concatenate multiple text strings with multiple data pills to select a variable for the log.
+Log message field to enter text or select the Data picker icon \[Omitted image "pace-pill-picker-icon-2.jpg"\] Alt text: Data pill picker icon. to concatenate multiple text strings with multiple data pills to select a variable for the log.
 
 </td></tr><tr><td>
 
@@ -110,7 +111,7 @@ Output type
 
 </td><td>
 
-Output type of the log. You can select the plus icon ![Add icon.](../../devops-config/image/pace-output-type-add.png) to add multiple output types or the minus icon ![Minus icon.](../../devops-config/image/pace-output-type-delete.png) to delete the output type.
+Output type of the log. You can select the plus icon \[Omitted image "pace-output-type-add.png"\] Alt text: Add icon. to add multiple output types or the minus icon \[Omitted image "pace-output-type-delete.png"\] Alt text: Minus icon. to delete the output type.
 
 </td></tr><tr><td>
 
@@ -118,16 +119,16 @@ Data
 
 </td><td>
 
-Data field to enter text. Select the Data picker icon ![Data pill picker icon.](../image/pace-pill-picker-icon-2.jpg) to concatenate multiple text strings with multiple data pills to select a variable for the log.
+Data field to enter text. Select the Data picker icon \[Omitted image "pace-pill-picker-icon-2.jpg"\] Alt text: Data pill picker icon. to concatenate multiple text strings with multiple data pills to select a variable for the log.
 
 </td></tr></tbody>
 </table>The following images show you are able to use the data pill picker to concatenate data in the fields:
 
-![Selecting data from pill picker.](../image/pace-low-code-data-picker.jpg)
+\[Omitted image "pace-low-code-data-picker.jpg"\] Alt text: Selecting data from pill picker.
 
-![Data concatenated.](../image/pace-low-code-concatenate-data.jpg)
+\[Omitted image "pace-low-code-concatenate-data.jpg"\] Alt text: Data concatenated.
 
-You can see a list of the data sources under the Data source tab.![Data source tab.](../image/pace-data-source-tab-3.jpg)
+You can see a list of the data sources under the Data source tab.\[Omitted image "pace-data-source-tab-3.jpg"\] Alt text: Data source tab.
 
 You can calculate fields using numeric operators and use these variables to calculate the desired value in a policy logic.
 

@@ -2,6 +2,7 @@
 title: Testing and sending events
 description: You can manually test and send events to confirm that Event Management properly manages events and generates alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/t\_EMCreateEventManually.html
 release: zurich
 product: Event Management
 classification: event-management

@@ -2,6 +2,7 @@
 title: Modify schedule adherence and conformance formulas by using extension points
 description: Configure and adjust the schedule adherence and conformance formulas using scripted extension points so that you can customize their calculations for your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/modify-schedule-adherence-wfo-fsm.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

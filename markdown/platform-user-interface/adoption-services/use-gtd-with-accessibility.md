@@ -2,6 +2,7 @@
 title: Create Guided Tours with accessibility enabled
 description: The Guided Tour Designer has accessibility features so that users can design tours using screen readers and keyboard navigation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/use-gtd-with-accessibility.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
@@ -21,7 +22,7 @@ Role required: guided\_tour\_admin or admin
 
 ## About this task
 
-Overall, the accessibility features of the Guided Tour Designer align with those of the ServiceNow AI Platform®. See the [Accessibility features](../../../administer/accessibility-508-compliance/concept/c_SetUpSect508ComplianceFeature.md#) section for more information.
+Overall, the accessibility features of the Guided Tour Designer align with those of the ServiceNow AI Platform®. See the [Accessibility features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configure-user-experiences/c_SetUpSect508ComplianceFeature.md) section for more information.
 
 ## Procedure
 
@@ -63,5 +64,5 @@ Overall, the accessibility features of the Guided Tour Designer align with those
 
 Tab to the panel on the right side to edit the name of the tour, copy the tour's URL, and rearrange the tour's steps.
 
-**Parent Topic:**[Configuring Guided Tours](configure-guided-tours.md)
+**Parent Topic:**[Configuring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/configure-guided-tours.md)
 

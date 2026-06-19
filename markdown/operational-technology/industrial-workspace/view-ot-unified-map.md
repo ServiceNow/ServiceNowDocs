@@ -2,6 +2,7 @@
 title: View an Operational Technology Unified Map
 description: View an Operational Technology \(OT\) Unified Map in the Industrial Workspace that displays the relationships between devices and other CIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-workspace/view-ot-unified-map.html
 release: zurich
 product: Industrial Workspace
 classification: industrial-workspace
@@ -33,7 +34,7 @@ You can access the OT Unified Map in the following locations in the Industrial W
 
 2.  To access the OT Unified Map in an equipment model entity record, complete the following actions.
 
-    1.  Open the Equipment Model Manager by selecting the Equipment Model \(![Equipment model entity icon](../../mftg-manufacturing-process-mgr/image/equip-model-manager-button.png)\) icon.
+    1.  Open the Equipment Model Manager by selecting the Equipment Model \(\[Omitted image "equip-model-manager-button.png"\] Alt text: Equipment model entity icon\) icon.
 
     2.  Open the equipment model entity record that you want to view the Unified Map for.
 
@@ -41,7 +42,7 @@ You can access the OT Unified Map in the following locations in the Industrial W
 
 3.  To access the OT Unified Map in a related record, such as an OT incident record, or change record, complete the following actions.
 
-    1.  Open the Industrial Workspace list view by selecting the List \(![List icon in the Industrial Workspace](../../../common/image/icon-list.png)\) icon.
+    1.  Open the Industrial Workspace list view by selecting the List \(\[Omitted image "icon-list.png"\] Alt text: List icon in the Industrial Workspace\) icon.
 
     2.  Select the record that you want to view the Unified Map for.
 
@@ -49,7 +50,7 @@ You can access the OT Unified Map in the following locations in the Industrial W
 
     3.  To open the map in a new window, select the **View OT Unified Map** button.
 
-    4.  To open the map in the side panel of the record, select the **OT Health** \( ![OT Health icon in the side panel](../image/industrial-process-health-icon.png)\) icon.
+    4.  To open the map in the side panel of the record, select the **OT Health** \( \[Omitted image "industrial-process-health-icon.png"\] Alt text: OT Health icon in the side panel\) icon.
 
 
 ## What to do next
@@ -63,5 +64,5 @@ You can now view the OT Unified Map. On the Unified Map, you can also see the hi
 -   Active OT Alerts
 -   OT Vulnerable Items
 
-**Parent Topic:**[Using the Industrial Workspace](../../operational-technology-management/concept/using-industrial-workspace.md)
+**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/using-industrial-workspace.md)
 

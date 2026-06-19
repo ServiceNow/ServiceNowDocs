@@ -2,6 +2,7 @@
 title: Create a service fulfillment step type
 description: Expand the coverage of service fulfillment use cases beyond those supported by step types in base system. Using a service fulfillment step type, catalog item owners can define multiple steps that are part of the request fulfilment process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/create-sf-step-type.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -31,15 +32,15 @@ The following step types are available in the base system.
 
 1.  Set up a data store to store information needed for running the step. This information is provided by a catalog item owner while defining the request fulfillment process. Do one of the following.
 
-<table id="choicetable_lxs_24x_jpb"><thead><tr><th align="left" id="d353828e67">
+<table id="choicetable_lxs_24x_jpb"><thead><tr><th align="left" id="d348033e67">
 
 Option
 
-</th><th align="left" id="d353828e70">
+</th><th align="left" id="d348033e70">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d353828e76">
+</th></tr></thead><tbody><tr><td id="d348033e76">
 
 **When additional input is required from the catalog item owner for a step type**
 
@@ -51,7 +52,7 @@ Create a table by extending the Service Fulfillment Step \[sc\_service\_fulfillm
 
  For tables extending the Service Fulfillment Step \[sc\_service\_fulfillment\_step\] table, the **Domain master** attribute should be added and its value should be set as **service\_fulfillment\_stage**. The domain of a service fulfillment step is then inherited from the catalog item.
 
-</td></tr><tr><td id="d353828e101">
+</td></tr><tr><td id="d348033e101">
 
 **When no input is required for a step type**
 
@@ -60,7 +61,7 @@ Create a table by extending the Service Fulfillment Step \[sc\_service\_fulfillm
 Use the Service Fulfillment Step \[sc\_service\_fulfillment\_step\] base table. For example, a department head approval does not require any additional input from the catalog item owner and does not need a new table.
 
 </td></tr></tbody>
-</table>2.  Create a record producer to store the values provided by the catalog item owner to the data store \(base table or extended table\) of that step. For information about creating a record producer, see [Create a record producer](t_DefRecProdInSCat.md).
+</table>2.  Create a record producer to store the values provided by the catalog item owner to the data store \(base table or extended table\) of that step. For information about creating a record producer, see [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/t_DefRecProdInSCat.md).
 
     **Note:**
 
@@ -68,7 +69,7 @@ Use the Service Fulfillment Step \[sc\_service\_fulfillment\_step\] base table. 
     -   All additional columns defined in the extended table should have corresponding variables mapped in the record producer.
     -   Configure the Record Producer form to display the **Allow edit** option and **Save Options** field. Also, select the **Allow edit** option and set the value of the **Save Options** field to **Save in Destination**.
     -   Ensure that the record producer is not restricted for the users with catalog\_builder\_editor role.
-3.  Create a subflow to perform a sequence of actions by copying the Template: Service Fulfillment Steps subflow and then defining your subflow. For information about subflows, see [Subflows](https://www.servicenow.com/docs/access?context=subflows&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+3.  Create a subflow to perform a sequence of actions by copying the Template: Service Fulfillment Steps subflow and then defining your subflow. For information about subflows, see Subflows.
 
 <table id="table_x2q_phd_jpb"><thead><tr><th>
 
@@ -122,7 +123,7 @@ Reference
 Step defined on a catalog item. It must refer to a table in which the record producer defined in the step configuration inserts a record.Do not update the step record.
 
 </td></tr></tbody>
-</table>    For information about subflow field types, see [Field types](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+</table>    For information about subflow field types, see Field types.
 
 4.  Create a step configuration to define the behavior and display of a service fulfillment step type.
 
@@ -174,7 +175,7 @@ Order of the step configuration.Based on the order of step configurations, the c
 
  The step type corresponding to the step configuration with the least order is displayed beside the list and step types for all other step configurations are included in the list based on their order.
 
- ![order of service fulfillment step types](../image/step-type-order.png "Order of service fulfillment step types")
+ \[Omitted image "step-type-order.png"\] Alt text: order of service fulfillment step types
 
 </td></tr><tr><td>
 
@@ -224,5 +225,5 @@ Text that should be displayed for the corresponding service fulfillment step in 
 </table>    4.  Click **Submit**.
 
 
-**Parent Topic:**[Setting up the Catalog Builder](set-up-cat-builder.md)
+**Parent Topic:**[Setting up the Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/set-up-cat-builder.md)
 

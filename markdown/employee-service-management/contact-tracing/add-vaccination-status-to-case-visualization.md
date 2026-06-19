@@ -2,6 +2,7 @@
 title: Configure contact tracing visualization to show vaccination status
 description: Configure Contact Tracing so case managers can view the vaccination status of potentially exposed contacts in the contact tracing visualization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contact-tracing/add-vaccination-status-to-case-visualization.html
 release: zurich
 product: Contact Tracing
 classification: contact-tracing
@@ -17,7 +18,7 @@ Configure Contact Tracing so case managers can view the vaccination status of po
 
 ## Before you begin
 
-The Vaccination Status application must be installed and configured. For more information, see [Vaccination Status](../../vaccination-status/concept/vaccination-status.md).
+The Vaccination Status application must be installed and configured. For more information, see [Vaccination Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/vaccination-status.md).
 
 Role required: admin
 
@@ -40,9 +41,9 @@ Role required: admin
 
 ## Result
 
-Case managers can see the vaccination status of users on the case form in both the contact tracing visualization and the **Exposed Contacts** list. For more information, see [Working on a case through contact tracing visualization](../reference/contact-tracing-case-visualization.md).
+Case managers can see the vaccination status of users on the case form in both the contact tracing visualization and the **Exposed Contacts** list. For more information, see [Working on a case through contact tracing visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/contact-tracing-case-visualization.md).
 
 If a case manager can't see vaccination statuses even though the **sn\_imt\_tracing.show\_contact\_vaccination\_status** property is set to **Yes**, confirm that the case manager has the sn\_imt\_vaccine.vaccine\_profile\_reader role.
 
-**Parent Topic:**[Setting up Contact Tracing](../concept/set-up-contact-tracing.md)
+**Parent Topic:**[Setting up Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/set-up-contact-tracing.md)
 

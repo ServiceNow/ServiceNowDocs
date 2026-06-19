@@ -2,6 +2,7 @@
 title: IP allow-listing update
 description: To better support our growing needs and increase capacity, we have expanded the pool of outbound addresses used for requests from ServiceNow CPQ.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/ip-allow-listing-update.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

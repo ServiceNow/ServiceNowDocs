@@ -2,6 +2,7 @@
 title: Linking Canvas from a Case
 description: Use this section to link a canvas from a case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-link-canvas-from-case.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -33,7 +34,7 @@ Role required: sn\_sec\_tisc.analyst
 
 6.  Select **Link Case** from the drop down list on the empty canvas page \(the option is shown in the following screenshot\).
 
-    ![Link Canvas from a Case](../image/tisc-link-canvas-from-case.png)
+    \[Omitted image "tisc-link-canvas-from-case.png"\] Alt text: Link Canvas from a Case
 
 7.  Select the canvas.
 
@@ -42,5 +43,5 @@ Role required: sn\_sec\_tisc.analyst
     An information message is displayed indicating that the canvas data is refreshed successfully.
 
 
-**Parent Topic:**[Working with Investigation Canvas](../concept/tisc-investigation-canvases.md)
+**Parent Topic:**[Working with Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-investigation-canvases.md)
 

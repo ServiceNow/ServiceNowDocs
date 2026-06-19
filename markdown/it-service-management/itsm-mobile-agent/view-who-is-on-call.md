@@ -2,6 +2,7 @@
 title: View on-call group members
 description: View the members of your group that are available on call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/view-who-is-on-call.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

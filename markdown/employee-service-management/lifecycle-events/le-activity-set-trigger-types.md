@@ -2,6 +2,7 @@
 title: Lifecycle Events activity set trigger types
 description: Administrators can configure activity set triggers to make activities in an activity set available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/lifecycle-events/le-activity-set-trigger-types.html
 release: zurich
 product: Lifecycle Events
 classification: lifecycle-events
@@ -104,5 +105,5 @@ The number of offset units to be evaluated.
     Combines the use for **Date**, **Other Activity Sets**, and **Condition**. All three conditions must be met to trigger the activity set.
 
 
-**Parent Topic:**[Configure a Lifecycle Events trigger for activity sets](../task/le-config-event-trigger.md)
+**Parent Topic:**[Configure a Lifecycle Events trigger for activity sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/le-config-event-trigger.md)
 

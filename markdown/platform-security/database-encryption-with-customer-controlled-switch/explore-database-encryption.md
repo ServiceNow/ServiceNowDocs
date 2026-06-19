@@ -2,6 +2,7 @@
 title: Exploring Database Encryption
 description: ServiceNow offers database encryption \(DBE\) and full-disk encryption methods for customers with statutory obligations for data protection which may require at-rest protection for all data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/database-encryption-with-customer-controlled-switch/explore-database-encryption.html
 release: zurich
 product: Database Encryption with Customer Controlled Switch
 classification: database-encryption-with-customer-controlled-switch
@@ -15,14 +16,14 @@ breadcrumb: [Database Encryption, Encryption]
 
 ServiceNow® offers database encryption \(DBE\) and full-disk encryption methods for customers with statutory obligations for data protection which may require at-rest protection for all data.
 
-**Important:** Starting with the Washington DC release, Database Encryption is being prepared for future deprecation. Cloud Encryption is the replacement solution for data at rest encryption. For details, see [Cloud Encryption with Key Management](../../encryption-dare/concept/dare-overview.md)
+**Important:** Starting with the Washington DC release, Database Encryption is being prepared for future deprecation. Cloud Encryption is the replacement solution for data at rest encryption. For details, see [Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/cloud-encryption/dare-overview.md)
 
 Database Encryption enables all data to be protected with symmetric AES-256 encryption, whether the database is online or offline. From the ServiceNow AI Platform perspective, all data flows in decrypted.
 
 -   Database Encryption supports all stored data to be encrypted in real time providing protection for data online and offline with no loss of functionality.
 -   Full disk encryption protects offline data if there is disk loss or theft.
 
-![Database Encryption](../image/fig-5-database-encryption.png)
+\[Omitted image "fig-5-database-encryption.png"\] Alt text: Database Encryption
 
 With Database Encryption, all stored data is encrypted and individual records or tables are decrypted in memory while being accessed. New or changed data is encrypted as it is entered into a table and associated activity log files \(bin, redo, undo, and error\) are also encrypted.
 
@@ -30,7 +31,7 @@ Database Encryption is transparent to users, with no loss of functionality. When
 
 As illustrated, ServiceNow stores and manages keys using a three-level key hierarchy:
 
-![Key management](../image/fig-6-key-management.png)
+\[Omitted image "fig-6-key-management.png"\] Alt text: Key management
 
 1.  A customer specific AES-256 key is created by the database engine and is used to encrypt the data.
 2.  A second customer specific AES-256 key is created by the database engine and is used to protect the first-level key.
@@ -40,7 +41,7 @@ The ServiceNow AI Platform also supports database encryption with a customer sup
 
 **Note:** Database Encryption is not supported for on-premise instances.
 
-If you are using your own keys for database encryption, see [Database Encryption with Customer Controlled Switch](dbe-with-ccs.md).
+If you are using your own keys for database encryption, see [Database Encryption with Customer Controlled Switch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/database-encryption-with-customer-controlled-switch/dbe-with-ccs.md).
 
-**Parent Topic:**[Database Encryption](db-full-disk-encryption.md)
+**Parent Topic:**[Database Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/database-encryption-with-customer-controlled-switch/db-full-disk-encryption.md)
 

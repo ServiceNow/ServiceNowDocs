@@ -2,6 +2,7 @@
 title: GlideMultiRecurrence - Scoped
 description: The GlideMultiRecurrence API provides methods that return GlideDateTime objects that describe the run times for a specified scheduled job.Returns a GlideDateTime object for each scheduled run time \(occurrence\) that a specified scheduled job should execute within a specific time period, based on the triggers defined in the associated schedule record \(GlideRecord\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/GlideMultiRecurrenceScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -130,7 +131,7 @@ table_nameGR.query();
 table_nameGR.next();  // Retrieve the scheduling record
 ```
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideMultiRecurrence - getOccurrences\(\)
 
@@ -182,11 +183,11 @@ Number of GlideDateTime objects returned = 500.
 
 |Name|Type|Description|
 |----|----|-----------|
-|grSchedule|[GlideRecord](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)|GlideRecord object pointing to the record containing the job for which you want to get the schedule occurrences.|
+|grSchedule|[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)|GlideRecord object pointing to the record containing the job for which you want to get the schedule occurrences.|
 
 |Type|Description|
 |----|-----------|
-|Array of [GlideDateTime](../../GlideDateTime/concept/c_GlideDateTimeAPI.md#) objects|GlideDateTime object for each time that the schedule job should run.|
+|Array of [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideDateTimeAPI.md) objects|GlideDateTime object for each time that the schedule job should run.|
 
 The following example shows how to retrieve GlideDateTime objects for all scheduled run date/time for a specific period for a specified job schedule record. The selected job is scheduled to run every hour.
 

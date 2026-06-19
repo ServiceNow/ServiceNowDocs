@@ -2,7 +2,10 @@
 title: Installing Core Business Suite applications
 description: Install Core Business Suite applications to be able to submit inquiries, create and track requests, and manage workflows. These applications support departments such as Legal, Human Resources, Workplace Services, Health and Safety, Procurement, Finance, Supplier Lifecycle Operations, and Accounts Payable Operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/core-business-suite/install-cbs-applications.html
 release: zurich
+product: Core Business Suite
+classification: core-business-suite
 topic_type: concept
 last_updated: "2025-12-02"
 reading_time_minutes: 2
@@ -35,7 +38,7 @@ Legal services
 
 </td><td>
 
-Submit and manage general legal requests. See [Install Legal Request Management](https://www.servicenow.com/docs/access?context=install-legal-request-management&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+Submit and manage general legal requests. See .
 
 </td><td>
 
@@ -48,7 +51,7 @@ Human Resources \(HR\) services
 
 </td><td>
 
-Manage payroll inquiries, benefits questions, and general HR requests. See [Activate Case and Knowledge Management](https://www.servicenow.com/docs/access?context=activate-case-and-knowledge-management-scoped&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+Manage payroll inquiries, benefits questions, and general HR requests. See .
 
 </td><td>
 
@@ -65,7 +68,7 @@ Workplace Services Delivery
 
 </td><td>
 
-Handle general service requests and managing space arrangements efficiently.See [Install Workplace Case Management](https://www.servicenow.com/docs/access?context=install-workplace-case-mgmt&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+Handle general service requests and managing space arrangements efficiently.See .
 
 </td><td>
 
@@ -80,7 +83,7 @@ Health and Safety services
 
 </td><td>
 
-Enable employees to make health and safety related inquiries. See [Install Health and Safety Risk Management](https://www.servicenow.com/docs/access?context=install-hs-risk-mgmt&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+Enable employees to make health and safety related inquiries. See .
 
 </td><td>
 
@@ -93,7 +96,7 @@ Procurement services
 
 </td><td>
 
-Enable employees to make procurement related inquiries. See [Install Sourcing and Procurement Operations](https://www.servicenow.com/docs/access?context=activate-finance-spend-central&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US).
+Enable employees to make procurement related inquiries. See .
 
 </td><td>
 
@@ -110,7 +113,7 @@ Finance services
 
 </td><td>
 
-Enable employees to make finance related inquiries. See [Install Finance Case Management](https://www.servicenow.com/docs/access?context=install-fin-case-mgmt&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US).
+Enable employees to make finance related inquiries. See .
 
 </td><td>
 
@@ -127,7 +130,7 @@ Supplier Lifecycle Operations
 
 </td><td>
 
-Streamline procurement, supplier, and invoice requests from submission to fulfillment. See [Install Supplier Case Management](https://www.servicenow.com/docs/access?context=install-supp-mgmt&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US).
+Streamline procurement, supplier, and invoice requests from submission to fulfillment. See .
 
 </td><td>
 
@@ -142,7 +145,7 @@ Accounts Payable Operations
 
 </td><td>
 
-Enable suppliers to view purchase orders, invoices, and inquiry cases, and submit invoice-related questions. See [Install Accounts Payable Invoice Processing](https://www.servicenow.com/docs/access?context=install-acc-pay-mgmt&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US).
+Enable suppliers to view purchase orders, invoices, and inquiry cases, and submit invoice-related questions. See .
 
 </td><td>
 
@@ -156,5 +159,5 @@ Enable suppliers to view purchase orders, invoices, and inquiry cases, and submi
 </td></tr></tbody>
 </table>What to do next:
 
-Import Core Business Suite configuration files. For more information, see [Import Core Business Suite configuration files](../task/cbs-import-update-sets.md).
+Import Core Business Suite configuration files. For more information, see [Import Core Business Suite configuration files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/core-business-suite/cbs-import-update-sets.md).
 

@@ -2,7 +2,10 @@
 title: Launching the simulator
 description: This feature lets agents set up and test their voice workflow in a simulated environment without the hassle of uploading payloads. The Voice Controls Simulator is only available in the CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/launch-voice-controls-simulator.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-10-03"
 reading_time_minutes: 1
@@ -25,7 +28,7 @@ Role required: CCaaS admin
 
 2.  Select **Launch test tool** to open the simulator in a new tab to begin configuration.
 
-    ![Launch the simulator from you workspace](../image/int-launch-simulator-tool.png)
+    \[Omitted image "int-launch-simulator-tool.png"\] Alt text: Launch the simulator from you workspace
 
 3.  Begin the simulation by setting the idle state capabilities.
 
@@ -34,5 +37,5 @@ Role required: CCaaS admin
 
 ## What to do next
 
-Configure idle state capabilities, such as outbound call, logout, and phone directory. See [Setting idle state](setup-idle-state-and-directory.md).
+Configure idle state capabilities, such as outbound call, logout, and phone directory. See [Setting idle state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/setup-idle-state-and-directory.md).
 

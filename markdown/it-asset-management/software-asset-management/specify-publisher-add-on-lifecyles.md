@@ -2,6 +2,7 @@
 title: Use publisher add-on lifecycles in the Software Lifecycle Report
 description: If you purchase an add-on or optional support for a software product, enable the Software Asset Management application to automatically update the life-cycle dates of that product with the extended life-cycle dates of the add-on or optional support. These updated life-cycle dates are populated in the Software Lifecycle Report \[sam\_sw\_product\_lifecycle\_report\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/specify-publisher-add-on-lifecyles.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -79,5 +80,5 @@ Publisher of the software product that you want to update the life-cycle dates f
 
 When the next SAM - Generate Software Lifecycle Report scheduled job runs, the Software Asset Management application uses life-cycle information from the Software Product Lifecycle \[sam\_sw\_product\_lifecycle\] table to automatically update the life-cycle dates of the specified software product with the extended life-cycle dates of the add-on or optional support that you have purchased.
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/using-sam-workspace.md)
 

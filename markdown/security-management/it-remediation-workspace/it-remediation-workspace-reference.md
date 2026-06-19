@@ -2,6 +2,7 @@
 title: IT Remediation Workspace reference information
 description: The following topics provide you with links, reference information, in addition to field data on the forms and records found in IT Remediation Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/it-remediation-workspace/it-remediation-workspace-reference.html
 release: zurich
 product: IT Remediation Workspace
 classification: it-remediation-workspace
@@ -15,10 +16,10 @@ breadcrumb: [IT Remediation Workspace, Vulnerability Response Workspaces, Unifie
 
 The following topics provide you with links, reference information, in addition to field data on the forms and records found in IT Remediation Workspace.
 
--   **[Create change request form fields](../reference/itr-ws-create-cr-fields.md)**  
+-   **[Create change request form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/it-remediation-workspace/itr-ws-create-cr-fields.md)**  
 The following table shows the fields and their description in the Create change request form.
--   **[Request exception form fields for policy exceptions](../reference/itr-ws-request-exception-form-grc.md)**  
+-   **[Request exception form fields for policy exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/it-remediation-workspace/itr-ws-request-exception-form-grc.md)**  
 The following table shows the fields that you must fill on the Request exception form for policy exceptions.
--   **[Request exception form for risk reduction](../reference/itr-ws-request-exception-form-rr.md)**  
+-   **[Request exception form for risk reduction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/it-remediation-workspace/itr-ws-request-exception-form-rr.md)**  
 The following table shows the fields that you must fill on the Request exception form for risk reduction requests.
 

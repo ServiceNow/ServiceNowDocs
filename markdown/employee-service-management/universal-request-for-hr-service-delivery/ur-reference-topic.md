@@ -2,6 +2,7 @@
 title: Universal Request reference
 description: Reference topics provide additional information about the universal requests, including lists and forms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-reference-topic.html
 release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -15,18 +16,18 @@ breadcrumb: [Universal Request, Employee Service Management]
 
 Reference topics provide additional information about the universal requests, including lists and forms.
 
--   **[Universal Request properties](ur-properties.md)**  
+-   **[Universal Request properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-properties.md)**  
 Administrators can use Universal Request properties to determine and configure the application behavior.
--   **[State mapping form](ur-state-mapping-form.md)**  
+-   **[State mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-state-mapping-form.md)**  
 Use the State Mapping form to map your service specific state to the Universal request states.
--   **[Transfer configuration form](ur-route-config-form.md)**  
+-   **[Transfer configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-route-config-form.md)**  
 Use the **Transfer configuration** form to configure your transfer details in the Universal Request application.
--   **[Mapping configuration form](ur-direct-transfer-config-form.md)**  
+-   **[Mapping configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-direct-transfer-config-form.md)**  
 Use the **Mapping Configuration** form to configure your fields and field mapping for cross-departmental transfers.
--   **[Service Configuration form](ur-service-config-form.md)**  
+-   **[Service Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-service-config-form.md)**  
 Use the **Service Configuration** form to register your service to use the Universal Request application.
--   **[Universal Request form](new-ur-record-form.md)**  
+-   **[Universal Request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/new-ur-record-form.md)**  
 Use the **Universal Request** form to create a universal request task record.
 
-**Parent Topic:**[Universal Request](../concept/ur-landing-limitedaccess.md)
+**Parent Topic:**[Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-landing-limitedaccess.md)
 

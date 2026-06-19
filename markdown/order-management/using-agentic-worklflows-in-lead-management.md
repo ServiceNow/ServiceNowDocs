@@ -2,6 +2,7 @@
 title: Use agentic workflows in Now Assist for Sales Force Automation \(SFA\)
 description: Use the Now Assist for Sales Force Automation \(SFA\) AI agent collection to complete tasks autonomously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/using-agentic-worklflows-in-lead-management.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -59,7 +60,7 @@ Help nurture new leads
 </td></tr></tbody>
 </table>**Important:** By default, all agent workflow and AI agent records are read-only.
 
-To run the AI agents autonomously, you must first [duplicate the agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US), and then proceed with the following steps:
+To run the AI agents autonomously, you must first duplicate the agentic workflow, and then proceed with the following steps:
 
 -   Activate the agentic workflow.
 -   Activate all agents within the agentic workflow.
@@ -67,11 +68,11 @@ To run the AI agents autonomously, you must first [duplicate the agentic workflo
 
 Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 
--   **[Help nurture new leads agentic workflow](help-nurture-new-leads-agentic-workflow.md)**  
+-   **[Help nurture new leads agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/help-nurture-new-leads-agentic-workflow.md)**  
 Use the Help nurture new leads agentic workflow to process the entire lead record process.
 
-**Parent Topic:**[Now Assist for Sales Force Automation \(SFA\)](now-assist-for-sales-and-order-management-som.md)
+**Parent Topic:**[Now Assist for Sales Force Automation \(SFA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-sales-and-order-management-som.md)
 

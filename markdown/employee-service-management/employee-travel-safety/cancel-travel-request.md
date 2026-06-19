@@ -2,6 +2,7 @@
 title: Cancel a travel request
 description: Cancel a travel request when appropriate, such as when a meeting can be held virtually. You, your manager, or a user with the sn\_imt\_travel.approver role can cancel a travel request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-travel-safety/cancel-travel-request.html
 release: zurich
 product: Employee Travel Safety
 classification: employee-travel-safety
@@ -40,5 +41,5 @@ Role required: sn\_imt\_travel.approver or admin
 
 An email notification stating that the request was canceled is sent to the requester. The notification includes the name of the person who canceled the travel request.
 
-**Parent Topic:**[Employee Travel Safety](../concept/employee-travel-safety.md)
+**Parent Topic:**[Employee Travel Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-travel-safety/employee-travel-safety.md)
 

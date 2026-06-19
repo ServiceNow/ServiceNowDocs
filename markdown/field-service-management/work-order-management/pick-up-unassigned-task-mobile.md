@@ -2,6 +2,7 @@
 title: Pick up an unassigned task
 description: If you are available, you can assign a task to yourself.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/pick-up-unassigned-task-mobile.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -31,7 +32,7 @@ Role required: wm\_agent or wm\_dispatcher
 
 4.  Select the desired work order task.
 
-5.  Tap the more actions \(![More actions icon](../image/OverflowIcon.png)\) icon and then select **Assign To Me**.
+5.  Tap the more actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon and then select **Assign To Me**.
 
 
 ## Result

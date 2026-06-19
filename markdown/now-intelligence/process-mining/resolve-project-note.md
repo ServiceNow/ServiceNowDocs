@@ -2,6 +2,7 @@
 title: Delete a note
 description: Delete a project note once you resolve or want to remove it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/resolve-project-note.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -25,7 +26,7 @@ A note can be deleted from the main or linked process in which it was created. D
 
 ## Procedure
 
-1.  From the project view, select the Notes icon \(![Notes icon](../image/notes-icon.png)\).
+1.  From the project view, select the Notes icon \(\[Omitted image "notes-icon.png"\] Alt text: Notes icon\).
 
 2.  From the Notes panel, select the context menu of a note, then select **Delete**.
 
@@ -34,5 +35,5 @@ A note can be deleted from the main or linked process in which it was created. D
     The note is removed from the refreshed list.
 
 
-**Parent Topic:**[Adding notes to a project](../concept/annotate-project.md)
+**Parent Topic:**[Adding notes to a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/annotate-project.md)
 

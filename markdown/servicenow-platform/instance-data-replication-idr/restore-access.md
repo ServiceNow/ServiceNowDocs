@@ -2,6 +2,7 @@
 title: Restore access to replication data for Instance Data Replication
 description: Restore Instance Data Replication \(IDR\) access to replicated data by sending a request to the producer replication set admin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/instance-data-replication-idr/restore-access.html
 release: zurich
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -38,5 +39,5 @@ When the producer replication set administrator generates a new encryption key, 
 5.  To get the latest data in the producer replication set, on the **Inbound Entries** tab, select all the tables and click **Activate**.
 
 
-**Parent Topic:**[Manage consumer access to replication data in Instance Data Replication](approve-consumer.md)
+**Parent Topic:**[Manage consumer access to replication data in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/instance-data-replication-idr/approve-consumer.md)
 

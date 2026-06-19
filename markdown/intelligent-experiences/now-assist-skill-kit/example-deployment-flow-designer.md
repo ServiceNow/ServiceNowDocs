@@ -2,6 +2,7 @@
 title: Example deployment with Workflow Studio
 description: As an AI developer, you can deploy custom skills with many integrations, including Workflow Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-skill-kit/example-deployment-flow-designer.html
 release: zurich
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -38,7 +39,7 @@ To execute the skill:
 1.  Finalize and publish the skill.
 2.  Activate the skill.
 3.  Navigate to Workflow Studio.
-4.  Add the [Execute Skill action](https://www.servicenow.com/docs/access?context=execute-skill-action&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+4.  Add the .
 
-**Parent Topic:**[Configure skill deployment settings](../task/configure-skill-settings.md)
+**Parent Topic:**[Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md)
 

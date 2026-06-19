@@ -2,6 +2,7 @@
 title: Create a Vendor to a Vulnerability
 description: Use this feature to create a vendor. Once created, you can associate the vendor to a product or link them to a vendor comment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-add-vendor-to-vul.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -64,5 +65,5 @@ Role required: sn\_sec\_tisc.analyst
 
 The vendor comment is created and appears in the **Vulnerability Vendor Comments** related list of the vendor record.
 
-**Parent Topic:**[Vulnerability Artifacts](../concept/vulnerability.md)
+**Parent Topic:**[Vulnerability Artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/vulnerability.md)
 

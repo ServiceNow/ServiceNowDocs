@@ -2,6 +2,7 @@
 title: Budget view
 description: Understand budget compliance by groups and service accounts can significantly improve oversight and reduce cloud spend.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/budget-view-ws.html
 release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -22,9 +23,9 @@ Use the Budget view to:
 -   View your total budget and spend on your cloud assets.
 -   Analyze your future spend and understand if you're within or over the budget.
 -   Manage your cloud spend, you can define and monitor custom Budget plans.
--   Create and manage a budget policy. For more information, see [Create or update a budget policy](manage-cloud-budgets.md#).
+-   Create and manage a budget policy. For more information, see [Create or update a budget policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/manage-cloud-budgets.md).
 
-![Budget view in Cloud Cost Management Workspace.](../image/ccm-budget-view-ws.png)
+\[Omitted image "ccm-budget-view-ws.png"\] Alt text: Budget view in Cloud Cost Management Workspace.
 
 <table id="table_est_kbv_ywb"><thead><tr><th>
 
@@ -76,5 +77,5 @@ Comparison between budget and current or forecasted spend of each budget policy.
 
 After you create or modify a budget policy, the policies get displayed on the **All Budgets** page. Find the details of the budget such as overrun, surplus, or invalid budgets. You can view only the overrun budgets by toggling the **Show overrun budget only** toggle button. Search a budget by its name, owner, or provider.
 
-![All budgets page in the Budgets view of Cloud Cost Management Workspace.](../image/all-budgets.png)
+\[Omitted image "all-budgets.png"\] Alt text: All budgets page in the Budgets view of Cloud Cost Management Workspace.
 

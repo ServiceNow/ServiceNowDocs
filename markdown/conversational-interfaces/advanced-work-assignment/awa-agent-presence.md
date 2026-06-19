@@ -2,6 +2,7 @@
 title: Check for an agent's presence and capacity
 description: View a list of agents in Advanced Work Assignment, their presence status, and capacity for each of the agent's service channels to see which agent can handle a case. This list is filtered across different teams, channels in teams, and channels dashboards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/awa-agent-presence.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -35,5 +36,5 @@ Role required: awa\_admin or admin
     |Capacity|Maximum capacity that the agent can handle.|
 
 
-**Parent Topic:**[Using Advanced Work Assignment](../concept/using-awa.md)
+**Parent Topic:**[Using Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/using-awa.md)
 

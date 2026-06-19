@@ -2,6 +2,7 @@
 title: Create entitlements for Microsoft Software Assurance in Software Asset Management classic
 description: Define license details for Microsoft Software Assurance \(SA\) to manage your contracts start and end dates, software upgrades, and related software entitlements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/create-entitlement-microsoft-sa.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -23,13 +24,13 @@ Role required: sam\_user or sam\_admin
 
 1.  Navigate to **All** &gt; **Software Asset** &gt; **Licensing** &gt; **Software Entitlements**.
 
-2.  Click **New**.
+2.  Select **New**.
 
-3.  On the Software Entitlement form, fill in the details about the software publisher rights that you've purchased and select **Maintenance** in the **License type** field.
+3.  On the Software Entitlement form, fill in the details about the software publisher rights that you have purchased and select **Maintenance** in the **License type** field.
 
     **Note:** Make sure that you enter the number of rights to be granted for the SA entitlement in the **Active rights** field. You can't add user or device allocations for SA entitlements.
 
-    For a detailed description of the fields related to all entitlements, see [Create entitlements in Software Asset Management classic](track-software-rights.md).
+    For a detailed description of the fields related to all entitlements, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/track-software-rights.md).
 
 4.  Right-click the form header and select **Save**.
 
@@ -43,52 +44,48 @@ Role required: sam\_user or sam\_admin
 
         1.  On the Software Entitlement form, select the **Related Entitlements** tab.
         2.  In the **Related Entitlement** field of the Related Entitlements list, double-click **Insert a new row...**.
-        3.  When prompted, search for and select the related perpetual or SA entitlement that you want to link and then click the Save \(![Save icon.](../image/save-icon.png)\) icon.
+        3.  When prompted, search for and select the related perpetual or SA entitlement that you want to link and then select the Save \[Omitted image "save-icon.png"\] icon.
         4.  Double-click the corresponding **Active rights** field.
-        5.  When prompted, enter the number of rights that you want to grant to the related perpetual or SA entitlement and then click the Save \(![Save icon.](../image/save-icon.png)\) icon.
-        6.  Click **Save** on the Software Entitlement form header.
+        5.  When prompted, enter the number of rights that you want to grant to the related perpetual or SA entitlement and then select the Save \[Omitted image "save-icon.png"\] icon.
+        6.  Select **Save** on the Software Entitlement form header.
         To remove the relationship between the perpetual and SA entitlement, remove the entitlement from the Related Entitlements list.
 
         If you delete either the perpetual or SA entitlement that is linked, the other entitlement isn't deleted.
 
-        If the entitlement has split and you've deleted the SA entitlement, the perpetual entitlement is not removed.
+        If the entitlement has split and you have deleted the SA entitlement, the perpetual entitlement is not removed.
 
-    2.  To link your software to a newer version as part of your maintenance contract, click the Upgraded Entitlements related list.
+    2.  To link your software to a newer version as part of your maintenance contract, select the Upgraded Entitlements related list.
 
         **Note:** This related list is only available if you selected **Step-up** as the entitlement license type.
 
         If the **Next Version** field is populated on the software model, entitlements with active SA are updated to the new version of the software model.
 
-        After you've linked your related entitlements, if there aren't enough SA rights to cover the perpetual entitlement rights, an error message displays.
+        After you have linked your related entitlements, if there aren't enough SA rights to cover the perpetual entitlement rights, an error message displays.
 
-    3.  To view all previously related entitlements that are linked, click the Entitlement History related list.
+    3.  To view all previously related entitlements that are linked, select the Entitlement History related list.
 
         **Note:** Validation is run against the active rights of all related entitlements automatically. If there's an error with the calculation, a message with additional information on how to resolve the problem is displayed.
 
-6.  Click **Update**.
+6.  Select **Update**.
 
 
 ## Result
 
-After you've created an entitlement, you can begin [viewing license usage](../concept/sam-license-workbench.md).
+After you have created an entitlement, you can begin [viewing license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-license-workbench.md).
 
 ## Record software rights for Microsoft Software Assurance
 
-You have purchased 100 rights of Microsoft SQL Server 2016.
+You have purchased 50 rights of Microsoft SQL Server 2016.
 
-![Software Entitlement form with a Perpetual License Type selected.](../image/sa-perpetual-entitlement.png)
+\[Omitted image "sa-perpetual-entitlement.png"\] Alt text: Software Entitlement form with a Perpetual License Type selected.
 
 You have also purchased SA for your Microsoft SQL Server 2016 licenses.
 
-![Software Entitlement form with a Software Assurance License Type selected.](../image/sa-license-entitlement.png)
+\[Omitted image "sa-license-entitlement.png"\] Alt text: Software Entitlement form with a Software Assurance License Type selected.
 
 To accurately track your licenses, associate your perpetual and SA entitlements.
 
-![Add the related SA software entitlement to the perpetual entitlement.](../image/sa-perpetual-related.gif)
+While you're under active maintenance, Microsoft releases SQL Server 2016 datacenter. Step up from your current version to the new release by creating an entitlement for your upgraded software and link the related entitlements.
 
-While you are under active maintenance, Microsoft releases SQL Server 2016 datacenter. Step up from your current version to the new release by creating an entitlement for your upgraded software and link the related entitlements.
-
-![Add the entitlement that is being upgraded to the new software entitlement you created.](../image/step-up-sql-server.png)
-
-**Parent Topic:**[Create entitlements in Software Asset Management classic](track-software-rights.md)
+**Parent Topic:**[Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/track-software-rights.md)
 

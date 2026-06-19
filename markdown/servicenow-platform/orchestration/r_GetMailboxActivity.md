@@ -2,6 +2,7 @@
 title: Get Mailbox activity
 description: The Get Mailbox activity gets the mailbox for the specified user or all mailboxes on a Microsoft Exchange server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/orchestration/r\_GetMailboxActivity.html
 release: zurich
 product: Orchestration
 classification: orchestration
@@ -19,7 +20,7 @@ This activity implements the Microsoft Exchange [Get-Mailbox](https://technet.mi
 
 To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Exchange** &gt; **Mailbox**.
 
-**Note:** This activity replaces an Exchange activity by the same name available in releases prior to Geneva. If you have a workflow created in a previous version that uses the deprecated activity, your workflow will continue to work normally after upgrading to Geneva. However, all new workflows must use the custom version of this activity. This activity was built with the [PowerShell activity designer](../../orchestration-activity-designer/concept/c_PowershellActivityDesigner.md), which gives workflow administrators the ability to store input and output variables in the [databus](../../orchestration-activity-designer/concept/c_OrchestrationDatabus.md#).
+**Note:** This activity replaces an Exchange activity by the same name available in releases prior to Geneva. If you have a workflow created in a previous version that uses the deprecated activity, your workflow will continue to work normally after upgrading to Geneva. However, all new workflows must use the custom version of this activity. This activity was built with the [PowerShell activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_PowershellActivityDesigner.md), which gives workflow administrators the ability to store input and output variables in the [databus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_OrchestrationDatabus.md).
 
 ## Input variables
 
@@ -81,5 +82,5 @@ Optional parameters to pass to the Exchange server written in JavaScript Object 
 |Success|The activity succeeded in retrieving the attributes of the specified mailbox.|
 |Failure|The activity failed to retrieve the attributes of the specified mailbox.|
 
-**Parent Topic:**[Exchange activity pack](../concept/c_OrchestrationExchangeActivities.md)
+**Parent Topic:**[Exchange activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_OrchestrationExchangeActivities.md)
 

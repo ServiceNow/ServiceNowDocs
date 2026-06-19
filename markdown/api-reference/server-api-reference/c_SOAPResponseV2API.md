@@ -2,6 +2,7 @@
 title: SOAPResponseV2 - Scoped, Global
 description: The SOAPResponseV2 API provides methods that use the data returned by an outbound SOAP message in JavaScript code.Returns all headers contained in the response, including any duplicate headers.Gets the content of the SOAP response body.Returns all cookies included in the response.Gets the numeric error code if there was an error during the SOAP transaction.Gets the error message if there was an error during the SOAP transaction.Gets the value for a specified HTTP header.Gets all HTTP headers returned in the SOAP response and the associated values.Gets the numeric HTTP status code returned by the SOAP provider.Indicates if there was an error during the SOAP transaction.Sets the amount of time the instance waits for a response from the web service provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_SOAPResponseV2API.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -23,12 +24,12 @@ This API runs in the `sn_ws` namespace.
 
 See also:
 
--   [Direct SOAPMessageV2 example](../../SOAPMessageV2/reference/r_DirectSOAPMessageV2Example.md)
--   [Recordless SOAPMessageV2 example](../../SOAPMessageV2/reference/r_RecordlessSOAPMessageV2Example.md)
--   [Asynchronous SOAPMessageV2 example](../../SOAPMessageV2/reference/r_AsyncronousSOAPMessageV2Example.md)
--   [SOAPMessageV2 MID server example](../../SOAPMessageV2/reference/r_SOAPMessageV2MIDServerExample.md)
+-   [Direct SOAPMessageV2 example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/r_DirectSOAPMessageV2Example.md)
+-   [Recordless SOAPMessageV2 example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/r_RecordlessSOAPMessageV2Example.md)
+-   [Asynchronous SOAPMessageV2 example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/r_AsyncronousSOAPMessageV2Example.md)
+-   [SOAPMessageV2 MID server example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/r_SOAPMessageV2MIDServerExample.md)
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## SOAPResponseV2 - getAllHeaders\(\)
 

@@ -2,6 +2,7 @@
 title: Activate playbooks
 description: Activate the Workflow Studio application to create flows, playbooks, and more for any of your use cases.Activate Playbooks on your instance to create playbooks in App Engine.Activate Workflow Studio Playbooks on your instance so that you can create Playbooks triggered by CSM tables.Activate Workflow Studio Playbooks on your instance so that you can create Playbooks triggered by tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/activate-process-automation-designer.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -27,7 +28,7 @@ Each application subscription entitles you to create playbooks for its associate
 
 See the following sections to learn how to activate Workflow Studio Playbooks for your application.
 
-**Parent Topic:**[Configuring playbooks](setting-up-process-automation-designer.md)
+**Parent Topic:**[Configuring playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/setting-up-process-automation-designer.md)
 
 ## Activate Playbooks for App Engine
 
@@ -97,7 +98,7 @@ Select the date and time to activate the plugin.
 
 ### Result
 
-You can create triggers in Playbooks for [custom tables that you create](https://www.servicenow.com/docs/access?context=t_CreateATable&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US). Enabling the **Process Automation Designer for App Engine \[com.glide.pad.license\]** plugin lets you create playbooks for these tables and their [extensions](https://www.servicenow.com/docs/access?context=table-extension-and-classes&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US):
+You can create triggers in Playbooks for custom tables that you create. Enabling the **Process Automation Designer for App Engine \[com.glide.pad.license\]** plugin lets you create playbooks for these tables and their extensions:
 
 -   Affected CIs \[cmdb\_outage\_ci\_mtom\]
 -   Agent Capacity \[awa\_agent\_capacity\]
@@ -283,7 +284,7 @@ Select the date and time to activate the plugin.
 
 ### Result
 
-Enabling the **Playbooks for Customer Service Management \[com.sn\_csm\_playbook\]** plugin lets you create playbooks for these tables and their [extensions](https://www.servicenow.com/docs/access?context=table-extension-and-classes&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US):
+Enabling the **Playbooks for Customer Service Management \[com.sn\_csm\_playbook\]** plugin lets you create playbooks for these tables and their extensions:
 
 -   Account \[customer\_account\]
 -   Case \[sn\_customerservice\_case\]
@@ -371,7 +372,7 @@ Select the date and time to activate the plugin.
 
 ### Result
 
-Enabling the **Playbooks for Field Service Management \[com.sn\_fsm\_playbook\]** plugin lets you create Playbooks for these tables and their [extensions](https://www.servicenow.com/docs/access?context=table-extension-and-classes&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US):
+Enabling the **Playbooks for Field Service Management \[com.sn\_fsm\_playbook\]** plugin lets you create Playbooks for these tables and their extensions:
 
 -   Work Task Flow \[sf\_work\_task\]
 -   Work Order Flow \[sf\_work\_order\]

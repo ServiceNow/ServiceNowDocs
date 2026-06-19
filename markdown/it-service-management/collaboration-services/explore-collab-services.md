@@ -2,6 +2,7 @@
 title: Exploring Collaboration services
 description: Collaboration services provides a way to communicate and collaborate in real-time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/collaboration-services/explore-collab-services.html
 release: zurich
 product: Collaboration Services
 classification: collaboration-services
@@ -16,8 +17,8 @@ breadcrumb: [Collaboration services, IT Service Management]
 
 Collaboration services provides a way to communicate and collaborate in real-time.
 
--   **[Process flow for Slack communication](process-flow-slack.md)**  
+-   **[Process flow for Slack communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/process-flow-slack.md)**  
 Collaborate with the stakeholders from major incident management workbench using slack for an open and transparent communication.
 
-**Parent Topic:**[Collaboration services](collab-services-tcm.md)
+**Parent Topic:**[Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/collab-services-tcm.md)
 

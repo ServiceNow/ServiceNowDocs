@@ -2,6 +2,7 @@
 title: Application Risk and Compliance Overview dashboard
 description: The Application Risk and Compliance Overview dashboard provides the current view of risk and compliance posture for the business applications that are used in an enterprise. You can now view the dashboard in Next Experience UI Framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/application-risk-comp-ovrvw-db-pc.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -19,7 +20,7 @@ The Application Risk and Compliance Overview dashboard provides the current view
 
 If you are on Vancouver or Washington DC, you can view the dashboard in the Next Experience UI Framework.
 
-![Application Risk and Compliance Overview dashboard in the Next Experience UI Framework.](../image/app-risk-compl-overvvw-pa-db-pc.png "Application Risk and Compliance Overview dashboard in the Next Experience UI Framework")
+\[Omitted image "app-risk-compl-overvvw-pa-db-pc.png"\] Alt text: Application Risk and Compliance Overview dashboard in the Next Experience UI Framework.
 
 ## Required ServiceNow AI Platform roles
 
@@ -139,5 +140,5 @@ Filters used to filter data on the reports available from the Audit Overview tab
 -   Criticality
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Analytics and Reporting solutions for GRC: Policy and Compliance Management](grc-policy-compliance-content-pack.md)
+</table>**Parent Topic:**[Analytics and Reporting solutions for GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/grc-policy-compliance-content-pack.md)
 

@@ -2,6 +2,7 @@
 title: Enable cost allocation in AWS for Kubernetes cluster
 description: Enable cost allocation for a Kubernetes cluster in AWS Management Console before you run a AWS Billing download job to view the Kubernetes spend.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/enable-cost-allocation-aws.html
 release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -20,9 +21,9 @@ Enable cost allocation for a Kubernetes cluster in AWS Management Console before
 Role required: AWS Management Console administrator
 
 -   You should be familiar with AWS policies.
--   Install Discovery and Service Mapping Patterns application \(sn\_itom\_pattern\) 1.10.2 or higher. For more information, see [Install Discovery and Service Mapping Patterns](https://www.servicenow.com/docs/access?context=install-discovery-service-mapping-patterns&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
--   Install CMDB CI Class Models \(sn\_cmdb\_ci\_class\) version 1.53.1 or higher. For more information, see [CMDB CI Class Models](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
--   To set up Kubernetes discovery, see [Kubernetes discovery using patterns](https://www.servicenow.com/docs/access?context=kubernetes-discovery&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+-   Install Discovery and Service Mapping Patterns application \(sn\_itom\_pattern\) 1.10.2 or higher. For more information, see .
+-   Install CMDB CI Class Models \(sn\_cmdb\_ci\_class\) version 1.53.1 or higher. For more information, see .
+-   To set up Kubernetes discovery, see .
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: Now Assist in Virtual Agent reference
 description: Virtual Agent topic developers can create topics for use in the Now Assist panel channel. The following Virtual Agent Designer controls are currently supported.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-reference.html
 release: zurich
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -15,7 +16,7 @@ breadcrumb: [Now Assist in Virtual Agent, Conversational Interfaces]
 
 Virtual Agent topic developers can create topics for use in the Now Assist panel channel. The following Virtual Agent Designer controls are currently supported.
 
-For more information about the Now Assist panel channel, see [Channels in Conversational Interfaces](../../conversational-interfaces/concept/ci-channels-overview.md).
+For more information about the Now Assist panel channel, see [Channels in Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/ci-channels-overview.md).
 
 <table id="table_nhv_kwx_jzb"><thead><tr><th>
 
@@ -39,7 +40,7 @@ User input controls
 -   Date Time
 -   Carousel
 
- For more information, see [Assistant Designer user input controls](../../virtual-agent/reference/va-user-inputs.md).
+ For more information, see [Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-user-inputs.md).
 
 </td></tr><tr><td>
 
@@ -52,7 +53,7 @@ Bot response controls
 -   HTML
 -   Card \(record card and record card with action only\)
 
- For more information, see [Virtual Agent Designer bot responses](../../virtual-agent/reference/va-bot-responses.md).
+ For more information, see [Virtual Agent Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md).
 
 </td></tr></tbody>
 </table>

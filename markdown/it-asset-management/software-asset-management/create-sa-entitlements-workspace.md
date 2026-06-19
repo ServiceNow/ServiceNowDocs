@@ -2,6 +2,7 @@
 title: Create Microsoft Software Assurance entitlements in workspace
 description: Define license details for Microsoft Software Assurance \(SA\) in the Software Asset Workspace to manage your contracts start and end dates, software upgrades, and related software entitlements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/create-sa-entitlements-workspace.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -35,7 +36,7 @@ Role required: sam\_user or sam\_admin
 
     You must enter the number of rights to be granted for the SA entitlement in the **Active rights** field.
 
-    For a detailed description of the fields related to all entitlements, see [Create entitlements in Software Asset Management classic](track-software-rights.md).
+    For a detailed description of the fields related to all entitlements, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/track-software-rights.md).
 
     **Note:** You can't add user or device allocations for SA entitlements.
 
@@ -84,5 +85,5 @@ Role required: sam\_user or sam\_admin
 7.  Select **Update**.
 
 
-**Parent Topic:**[Create entitlements in workspace](create-entitlements-workspace.md)
+**Parent Topic:**[Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-entitlements-workspace.md)
 

@@ -2,6 +2,7 @@
 title: Initiate an amendment request
 description: Initiate an amendment request from your workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-initiate-amedment.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -26,11 +27,11 @@ The initiated amendment is assigned according to an assignment rule or manually 
 
 ## Before you begin
 
--   Amendment requests can only be submitted for contracts in the Active state. If a contract is in Draft state and Awaiting Review substate, manually approve it before submitting an amendment request. For more information on how to approve a contract, see [Approve contracts to allow amendments](cmpro-approve-draft-cntr.md).
--   Verify that the initiate contract button has been added to your workspace. For more information, see [Add a workspace action button for initiating a contract request](cncore-config-initiate-cont.md).
--   To copy field values from the parent contract request to the amendment request, configure the ContractManagementExt extension point. For more information, see [Copy fields from parent request to amendment request](cncore-cpy-fld-parent-amedreq.md).
--   Verify you have a contract configuration with the request type set as amendment to copy values from amendment request to the contract repository. For more information, see [Create a contract configuration](cncore-contract-config.md).
--   Verify you have a contract template rule to identify the amendment document template to be used for generating the contract document for an amendment request. For more information, see [Configure contract template rules](cncore-config-template-rules.md).
+-   Amendment requests can only be submitted for contracts in the Active state. If a contract is in Draft state and Awaiting Review substate, manually approve it before submitting an amendment request. For more information on how to approve a contract, see [Approve contracts to allow amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-approve-draft-cntr.md).
+-   Verify that the initiate contract button has been added to your workspace. For more information, see [Add a workspace action button for initiating a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-config-initiate-cont.md).
+-   To copy field values from the parent contract request to the amendment request, configure the ContractManagementExt extension point. For more information, see [Copy fields from parent request to amendment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-cpy-fld-parent-amedreq.md).
+-   Verify you have a contract configuration with the request type set as amendment to copy values from amendment request to the contract repository. For more information, see [Create a contract configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-contract-config.md).
+-   Verify you have a contract template rule to identify the amendment document template to be used for generating the contract document for an amendment request. For more information, see [Configure contract template rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-config-template-rules.md).
 
 Role required: sn\_cm\_core.contract\_user, sn\_cm\_core.contract\_fulfiller
 
@@ -50,11 +51,11 @@ Role required: sn\_cm\_core.contract\_user, sn\_cm\_core.contract\_fulfiller
     -   For third party paper based amendment request, select **Third Party Paper**. Amendment is supported for third-party contracts with a single contract type.
 6.  In the **Contract type** field, select the type of contract for which the contract request is created.
 
-    ![Use initiate contract modal from the workspace to submit an contract amendment request](../image/cmpro-amend-initiate.png)
+    \[Omitted image "cmpro-amend-initiate.png"\] Alt text: Use initiate contract modal from the workspace to submit an contract amendment request
 
 7.  In the **Signature type** drop-down list, select the signature type for the contract document.
 
-    For more information on the signature flow, see [Signature workflow for a contract request](../concept/cncore-signature-workflow.md)
+    For more information on the signature flow, see [Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-signature-workflow.md)
 
 8.  In the **Amendment description** field, enter the details of the changes required to the existing contract document and any other details.
 
@@ -81,5 +82,5 @@ Role required: sn\_cm\_core.contract\_user, sn\_cm\_core.contract\_fulfiller
 
 An amendment request is submitted in the New state and a contract request is created for the contract fulfiller to work on it.
 
-**Parent Topic:**[Initiating a contract or amendment request](cncore-initiate-contract.md)
+**Parent Topic:**[Initiating a contract or amendment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-initiate-contract.md)
 

@@ -2,6 +2,7 @@
 title: NLU Service updates
 description: Refer to this documentation so you are up to date with changes to the NLU Service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/nlu-service/nlu-service-updates.html
 release: zurich
 product: NLU Service
 classification: nlu-service
@@ -41,6 +42,4 @@ This service is updated independently of your instance upgrade, and without any 
 -   Upgraded the ServiceNow Language Model for the Danish, Swedish, Finnish, and Norwegian languages, improving their average prediction quality by 17% from Tokyo.
 -   Improved the handling of punctuation in entities and special characters in vocabulary sources.
 -   Incorporated feedback provided on intent predictions by admin users in the NLU Workbench to improve model training data for Virtual Agent.
-
-**Parent Topic:**[Exploring Natural Language Understanding](nlu-explore.md)
 

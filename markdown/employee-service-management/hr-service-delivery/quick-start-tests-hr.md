@@ -2,6 +2,7 @@
 title: Quick start tests for HR Service Delivery
 description: Validate the continued functionality of HR Service Delivery after any configuration change such as an upgrade or after developing an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/quick-start-tests-hr.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -429,5 +430,5 @@ Requires the following plugin activation: Human Resources Scoped App: Core \[com
 **Related topics**  
 
 
-[Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+[bundle-cadev.quick-start-tests]
 

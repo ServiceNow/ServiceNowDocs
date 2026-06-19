@@ -1,7 +1,8 @@
 ---
 title: Run scheduled job to populate product offering categories
-description: After upgrading to the Zurich release and the Now Assist for Sales and Order Management plugin is installed, run a scheduled job that generates the product offering categories for pre-existing product offerings in the product catalog with AI Search.
+description: After upgrading to the Zurich release and the Now Assist for Sales Force Automation \(SFA\) plugin is installed, run a scheduled job that generates the product offering categories for pre-existing product offerings in the product catalog with AI Search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/run-scheduled-job-prod-offer-categories.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -13,7 +14,7 @@ breadcrumb: [AI Search for product catalog, Product offerings and catalogs, Lead
 
 # Run scheduled job to populate product offering categories
 
-After upgrading to the Zurich release and the Now Assist for Sales and Order Management plugin is installed, run a scheduled job that generates the product offering categories for pre-existing product offerings in the product catalog with AI Search.
+After upgrading to the Zurich release and the Now Assist for Sales Force Automation \(SFA\) plugin is installed, run a scheduled job that generates the product offering categories for pre-existing product offerings in the product catalog with AI Search.
 
 ## Before you begin
 
@@ -34,5 +35,5 @@ Run the scheduled job called **Scheduled job to populate product\_offering\_cate
 
 ## What to do next
 
-[Run the scheduled job to publish the stop words dictionary, search profiles, and index tables](run-sched-job-index-stopwords-profile.md).
+[Run the scheduled job to publish the stop words dictionary, search profiles, and index tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/run-sched-job-index-stopwords-profile.md).
 

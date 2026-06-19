@@ -2,6 +2,7 @@
 title: Proactive Engagement solution
 description: The base system solution detects and enables you to resolve high disk usage issues by providing a detailed self-help instruction specific to the operating system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/proactive-engagement/proactive-engagement-solution.html
 release: zurich
 product: Proactive Engagement
 classification: proactive-engagement
@@ -26,5 +27,5 @@ These base system solutions can be accessed from the metric rule tab in the DEX 
 2.  Select **Name the rule**.
 3.  Select **Active** under rule status.
 
-**Parent Topic:**[Using Proactive Engagement](../using-proactive-engagement.md)
+**Parent Topic:**[Using Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/proactive-engagement/using-proactive-engagement.md)
 

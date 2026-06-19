@@ -2,6 +2,7 @@
 title: Install Insurance claims
 description: If you have the admin role, you can install the Insurance claims application \(sn\_ins\_gen\_claim\). The application includes demo data and installs related ServiceNow Store applications and plugins that aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/install-insurance-claims-flow.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims

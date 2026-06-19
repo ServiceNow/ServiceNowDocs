@@ -2,6 +2,7 @@
 title: Copy a flow
 description: Copy a flow to give it a new name and move it to another application scope.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/copy-flow.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -33,13 +34,13 @@ You can't copy flows that have a protection policy. You must have write access t
 
 3.  Open the flow that you want to copy.
 
-4.  Click the more actions icon \(![More actions menu](../images/more-actions-menu-icon.png)\) and select **Copy flow**.
+4.  Click the more actions icon \(\[Omitted image "more-actions-menu-icon.png"\] Alt text: More actions menu\) and select **Copy flow**.
 
     **Note:** If the **Copy flow** option is not visible, then you don't have permission to copy the flow. This could be because the flow has a protection policy or because you lack the necessary user role or developer permissions.
 
 5.  In **New flow name**, enter a unique name you want the copied flow to have.
 
-    ![Copying an email flow.](../images/example-copy-flow-modal.png)
+    \[Omitted image "example-copy-flow-modal.png"\] Alt text: Copying an email flow.
 
 6.  From **Application**, select the application scope where you want to copy the flow.
 
@@ -48,9 +49,9 @@ You can't copy flows that have a protection policy. You must have write access t
 
 ## Result
 
-![New copied flow.](../images/example-copy-flow-result.png)
+\[Omitted image "example-copy-flow-result.png"\] Alt text: New copied flow.
 
 Workflow Studio opens the new flow.
 
-**Parent Topic:**[Create a flow in Workflow Studio](create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-flow.md)
 

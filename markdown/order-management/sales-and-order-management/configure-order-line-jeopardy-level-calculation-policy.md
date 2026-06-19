@@ -2,6 +2,7 @@
 title: Configure the Order Line Jeopardy Level Calculation Policy
 description: Configure the Order Line Jeopardy Level Calculation Policy using Workflow Studio to set the jeopardy risk level for order line items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configure-order-line-jeopardy-level-calculation-policy.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -29,7 +30,7 @@ You must provide a time range for each jeopardy level. When the time range is re
 
 2.  Select **Order Line Item Jeopardy Level Calculation Policy**.
 
-    ![The image shows the Order Line Item Jeopardy Level Calculation policy window in Workflow Studio.](../image/jm-order-line-item-jeopardy-level-calc.png)
+    \[Omitted image "jm-order-line-item-jeopardy-level-calc.png"\] Alt text: The image shows the Order Line Item Jeopardy Level Calculation policy window in Workflow Studio.
 
 3.  On the Order Line Item Jeopardy Level Calculation Policy decision table, fill in the fields.
 
@@ -73,5 +74,5 @@ For example, if the minimum and maximum values in the **Delayed Percentage** fie
 
 ## What to do next
 
-[Configure the Order Task Jeopardy Level Calculation Policy](configure-order-task-jeopardy-level-calculation-policy.md)
+[Configure the Order Task Jeopardy Level Calculation Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/configure-order-task-jeopardy-level-calculation-policy.md)
 

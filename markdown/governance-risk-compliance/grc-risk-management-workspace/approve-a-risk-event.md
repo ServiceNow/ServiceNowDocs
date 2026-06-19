@@ -2,6 +2,7 @@
 title: Approve a risk event
 description: A user with the sn\_risk.manager role must approve a valid risk event. If any risk approver rejects the event, the state of the risk event changes to rejected.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/approve-a-risk-event.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -28,5 +29,5 @@ Role required: sn\_risk.manager
 3.  Click **Approve**.
 
 
-**Parent Topic:**[Use Risk Events](../concept/use-risk-events.md)
+**Parent Topic:**[Use Risk Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/use-risk-events.md)
 

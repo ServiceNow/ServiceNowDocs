@@ -2,6 +2,7 @@
 title: View asset usage
 description: The Field Service Management application tracks the consumable and non-consumable parts that are used or changed during the execution of work order tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/t\_RecordAssetUsage.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

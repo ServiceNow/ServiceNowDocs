@@ -2,6 +2,7 @@
 title: Set up or update preferred currency options
 description: Set up or update the preferred currency options for your cloud cost and usage data to gain reporting flexibility. These currency options become available for Cloud Cost Management users to choose from.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/setup-update-currency.html
 release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -31,7 +32,7 @@ Setting up currency options enables Cloud Cost Management users to choose from t
 
 2.  Select a currency code from the **Currency Option 1** drop-down list
 
-    ![Multi-currency setup in the Cloud Cost Management Workspace](../image/multicurrency-setup.png "Multi-currency setup")
+    \[Omitted image "multicurrency-setup.png"\] Alt text: Multi-currency setup in the Cloud Cost Management Workspace
 
 3.  Select the **Active** check box for **Currency Option 1** to activate the currency.
 
@@ -50,5 +51,5 @@ Setting up currency options enables Cloud Cost Management users to choose from t
 
 After the **Status** field changes to Ready, the selected currencies become available for selection in the **Currency preference** list on the Operations view.
 
-**Parent Topic:**[Using Cloud Cost Management](../concept/using-cloud-insights.md)
+**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/using-cloud-insights.md)
 

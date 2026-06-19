@@ -1,7 +1,8 @@
 ---
 title: SNAnalytics - Client
-description: The SNAnalytics API provides methods to push custom analytics data \(events, pages, and user properties\) to the User Experience Analytics for Service Portal dashboard.Stores the specified event information in the analytics data store.Appends the specified string to the specified user string property in the analytics data store.Increments or decrements the specified user property value with the specified number value in the analytics data store.Removes the specified property for the current user from the analytics data store.Sets the specified properties with the specified values for the current user in the analytics data store.Sets the specified property with the specified value for the current user in the analytics data store.Saves the name and description of a page in the analytics data store.
+description: The SNAnalytics API provides methods to push custom analytics data \(events, pages, and user properties\) to the Usage Insights for Service Portal dashboard.Stores the specified event information in the analytics data store.Appends the specified string to the specified user string property in the analytics data store.Increments or decrements the specified user property value with the specified number value in the analytics data store.Removes the specified property for the current user from the analytics data store.Sets the specified properties with the specified values for the current user in the analytics data store.Sets the specified property with the specified value for the current user in the analytics data store.Saves the name and description of a page in the analytics data store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/SNAnalyticsClientAPI.html
 release: zurich
 product: API Reference
 classification: api-reference
@@ -13,9 +14,9 @@ breadcrumb: [Client API reference, API reference, API implementation and referen
 
 # SNAnalytics- Client
 
-The SNAnalytics API provides methods to push custom analytics data \(events, pages, and user properties\) to the User Experience Analytics for Service Portal dashboard.
+The SNAnalytics API provides methods to push custom analytics data \(events, pages, and user properties\) to the Usage Insights for Service Portal dashboard.
 
-User Experience Analytics for Service Portal provides dashboard views for monitoring the key performance indicators \(KPIs\) of web applications built on Service Portal. You can use these insights to optimize your portal. For example, User Experience Analytics tracks when a user orders a catalog item or views a knowledge article. You can use this data to infer which items or articles are the most popular among users.
+Usage Insights for Service Portal provides dashboard views for monitoring the key performance indicators \(KPIs\) of web applications built on Service Portal. You can use these insights to optimize your portal. For example, Usage Insights tracks when a user orders a catalog item or views a knowledge article. You can use this data to infer which items or articles are the most popular among users.
 
 To access this API, the Service Portal Analytics \(com.glide.service-portal.analytics\) plugin must be activated on the instance. In addition, within your application, you must import the snAnalytics Angular service, such as:
 
@@ -23,9 +24,9 @@ To access this API, the Service Portal Analytics \(com.glide.service-portal.anal
 <client_script><![CDATA[function($rootScope, $scope, $window, $timeout, spUtil, $sce, spModal, $uibModal, $location, cabrillo, snAnalytics)
 ```
 
-For additional information, see [User Experience Analytics for Service Portal](https://www.servicenow.com/docs/access?context=sp-analytics&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+For additional information, see User Experience Analytics for Service Portal.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/api-client.md)
 
 ## SNAnalytics - addEvent\(Object payload\)
 
@@ -45,9 +46,9 @@ payload.data["Company"] = c.data.company_name;
 snAnalytics.addEvent(payload);
 ```
 
-The screen capture below shows the information that appears on the analytics dashboard for the event "Manage Account." The timeline at the top represents the number of times that the event occurred. The pie charts below the timeline reflect the properties that were captured in the addEvent\(\) call. ![Dashboard with events](../image/Dashboard_with_events.png)
+The screen capture below shows the information that appears on the analytics dashboard for the event "Manage Account." The timeline at the top represents the number of times that the event occurred. The pie charts below the timeline reflect the properties that were captured in the addEvent\(\) call. \[Omitted image "Dashboard\_with\_events.png"\] Alt text: Dashboard with events
 
-If you want to capture when users access a web page, use the [SNAnalytics - startPage\(String name, String description\)](SNAnalyticsClientAPI.md#) method instead of this method.
+If you want to capture when users access a web page, use the [SNAnalytics - startPage\(String name, String description\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/SNAnalyticsClientAPI.md) method instead of this method.
 
 <table id="table_u1m_5gr_z4b" class="parameters"><thead><tr><th>
 
@@ -286,7 +287,7 @@ Sets the specified properties with the specified values for the current user in 
 
 These properties are saved in the analytics data store and appear on the user session details page as illustrated below. If a property already exists in the analytics data store, the current value is overwritten with the new value.
 
-![Session page with properties](../image/User_session_properties.png)
+\[Omitted image "User\_session\_properties.png"\] Alt text: Session page with properties
 
 <table id="table_iz1_41q_dpb" class="parameters"><thead><tr><th>
 
@@ -348,7 +349,7 @@ Sets the specified property with the specified value for the current user in the
 
 These properties are saved in the analytics data store and appear on the user session details page as illustrated below. If a property already exists in the analytics data store, the current value is overwritten with the new value.
 
-![Session page with properties](../image/User_session_properties.png)
+\[Omitted image "User\_session\_properties.png"\] Alt text: Session page with properties
 
 <table id="table_uj2_rfp_dpb" class="parameters"><thead><tr><th>
 
@@ -404,11 +405,11 @@ snAnalytics.setUserProperty('Company', "ABC Company")
 
 Saves the name and description of a page in the analytics data store.
 
-This information appears in the user session timeline and on the analytics dashboard. Call this method within your custom widgets to track the pages visited by a user. You can also use this method to track user navigation within an individual page. For more information, see [Exploring User Experience Analytics](https://www.servicenow.com/docs/access?context=exploring-user-exp-analytics&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+This information appears in the user session timeline and on the analytics dashboard. Call this method within your custom widgets to track the pages visited by a user. You can also use this method to track user navigation within an individual page. For more information, see .
 
 **Note:** In general, portal pages are automatically tagged with this tracking capability. Use this method for custom scenarios, such as a single page custom widget in a wizard scenario.
 
-![Page properties in timeline](../image/Page_properties_in_timeline.png)
+\[Omitted image "Page\_properties\_in\_timeline.png"\] Alt text: Page properties in timeline
 
 <table id="table_lmt_pl3_dpb" class="parameters"><thead><tr><th>
 

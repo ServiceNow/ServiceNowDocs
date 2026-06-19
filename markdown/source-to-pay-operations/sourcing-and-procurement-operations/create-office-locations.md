@@ -2,13 +2,14 @@
 title: Add office locations
 description: Add all the office locations that your suppliers deliver to in your primary data. That way, your employees using Shopping Hub can select any of these pre-approved office locations for delivery while placing an order for a product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-office-locations.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Setting up primary data for Shopping Hub, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Setting up primary data Shopping, Configure Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Add office locations
@@ -84,11 +85,11 @@ Legal entity that is responsible for this office location.
 </td></tr></tbody>
 </table>5.  Select **Submit**.
 
-    ![Office location.](../image/add_office_location.png)
+    \[Omitted image "add\_office\_location.png"\] Alt text: Office location.
 
 
--   **[Manage delivery to valid address](manage-shipping-address.md)**  
+-   **[Manage delivery to valid address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/manage-shipping-address.md)**  
 As an administrator, you can define one or multiple valid countries where a supplier can deliver the products.
 
-**Parent Topic:**[Setting up primary data for Shopping Hub](../reference/set-up-master-data-shopping-hub.md)
+**Parent Topic:**[Setting up primary data for Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/set-up-master-data-shopping-hub.md)
 

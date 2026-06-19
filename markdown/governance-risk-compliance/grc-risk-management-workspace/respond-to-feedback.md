@@ -2,6 +2,7 @@
 title: Respond to the feedback
 description: Provide comments or explanations regarding the submitted feedback using the Advanced Risk application. You can either remediate or reject the feedback, provided that there’s proper justification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/respond-to-feedback.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -25,7 +26,7 @@ Role required: sn\_rvw\_feedback.respondent
 
 2.  Open the Feedback that you want to respond.
 
-3.  To respond to the feedback from the record side panel, select the list ![side panel list icon.](../image/side-panel-list-icon.jpg) icon on the record and do the following:
+3.  To respond to the feedback from the record side panel, select the list \[Omitted image "side-panel-list-icon.jpg"\] Alt text: side panel list icon. icon on the record and do the following:
 
     1.  Provide comments or explanations regarding the feedback submitted in the **Response** field.
 
@@ -62,5 +63,5 @@ Role required: sn\_rvw\_feedback.respondent
     You must close all the open items to send the feedback to the reviewer.
 
 
-**Parent Topic:**[Parallel Review and Feedback in Advanced Risk](../concept/integrate-advanced-risk-with-parallel-review-feedback.md)
+**Parent Topic:**[Parallel Review and Feedback in Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/integrate-advanced-risk-with-parallel-review-feedback.md)
 

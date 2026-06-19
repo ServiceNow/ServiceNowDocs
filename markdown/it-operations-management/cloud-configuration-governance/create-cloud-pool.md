@@ -2,6 +2,7 @@
 title: Create a resource pool
 description: Based on blueprint settings, resource pools control the values that a user sees in a catalog item when they request a resource. Only values that pass the pool filter or script appear as options on the catalog item request form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/create-cloud-pool.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -70,7 +71,7 @@ Enter the lookup field label that should appear to the user.
 
 4.  On the Resource Pool Filters related list, click **New**, enter a unique and descriptive **Filter Name**, and then fill in the form.
 
-    ![Resource Pool for security group filter](../image/reource-pool-filter-form.png)
+    \[Omitted image "reource-pool-filter-form.png"\] Alt text: Resource Pool for security group filter
 
 <table id="table_ftb_bfn_2z"><thead><tr><th>
 
@@ -176,7 +177,7 @@ Order
 Enter an order number that determines when the value applies, relative to other resource pool filter values. Lower values are applied first.
 
 </td></tr></tbody>
-</table>    ![Resource Pool for security group filter value](../image/resource-pool-filter-value.png)
+</table>    \[Omitted image "resource-pool-filter-value.png"\] Alt text: Resource Pool for security group filter value
 
     The resource pool filter is created.
 

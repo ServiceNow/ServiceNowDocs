@@ -2,6 +2,7 @@
 title: Install all applications in a product
 description: Install all applications and plugins included in a product using Application Manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/application-manager/install-all-product-apps.html
 release: zurich
 product: Application Manager
 classification: application-manager
@@ -44,7 +45,7 @@ Role required: admin, sn\_appclient.app\_client\_user, or sn\_appclient.app\_cli
 
     2.  Procure any dependencies that aren't licensed from the ServiceNow Store.
 
-        For more information, see [Getting apps and trials from the ServiceNow Store](../../servicenow-store/concept/getting-apps-trials.md).
+        For more information, see [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/getting-apps-trials.md).
 
     3.  Go back to the product details page and repeat for each application dependency.
 
@@ -58,15 +59,15 @@ Role required: admin, sn\_appclient.app\_client\_user, or sn\_appclient.app\_cli
 
 8.  Install the product now or schedule installation for a later time.
 
-<table id="choicetable_dm4_3km_yfc"><thead><tr><th align="left" id="d284665e229">
+<table id="choicetable_dm4_3km_yfc"><thead><tr><th align="left" id="d167625e229">
 
 Installation option
 
-</th><th align="left" id="d284665e232">
+</th><th align="left" id="d167625e232">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d284665e238">
+</th></tr></thead><tbody><tr><td id="d167625e238">
 
 **Install now**
 
@@ -76,7 +77,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d284665e262">
+</td></tr><tr><td id="d167625e262">
 
 **Install later**
 
@@ -93,5 +94,5 @@ Procedure
 
 If you choose to install the product now, it and its dependencies begin to install immediately. Scheduled installations begin at the chosen date and time.
 
-**Parent Topic:**[Installing applications, plugins, and products](../concept/installing-apps-app-manager.md)
+**Parent Topic:**[Installing applications, plugins, and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/application-manager/installing-apps-app-manager.md)
 

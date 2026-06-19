@@ -2,6 +2,7 @@
 title: Manage default related items list
 description: You can add or remove items from the default list of related items which is used in duplicate CI remediation for all de-duplication tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/manage-related-items-list.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -23,7 +24,7 @@ Role required: itil\_admin
 
 The default related items list is used by the Duplicate CI Remediator, appearing on the **Merge Relationships and Related Items** tab. You can modify the list for only a specific task in the Duplicate CI Remediator without affecting the default global list.
 
-The default related items list is also used by the [De-duplication dashboard](../concept/dedup-ci-exp-cmdb-workspace.md) in CMDB Workspaceand in Service Graph Workspace for remediation.
+The default related items list is also used by the [De-duplication dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md) in CMDB Workspaceand in Service Graph Workspace for remediation.
 
 Globally modifying the list affects the remediation of all de-duplication tasks in the Duplicate CI Remediatorand in the De-duplication dashboard in CMDB Workspaceand in Service Graph Workspace.
 
@@ -38,5 +39,5 @@ Globally modifying the list affects the remediation of all de-duplication tasks 
 3.  Click **Save**.
 
 
-**Parent Topic:**[Duplicate CIs remediation](../concept/de-duplication-tasks.md)
+**Parent Topic:**[Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md)
 

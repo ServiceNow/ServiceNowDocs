@@ -2,7 +2,10 @@
 title: Email Interaction record page
 description: The Email interaction record page enables customer service agents to work on incoming emails as interactions, similar to the chat and voice interaction record pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-email-interaction-record-page.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-10-28"
 reading_time_minutes: 3
@@ -15,7 +18,7 @@ The Email interaction record page enables customer service agents to work on inc
 
 Email interactions help client support teams triage and obtain proper approvals before proceeding with any work on an account. Email interactions act as a staging record before agents create cases for additional work.
 
-![The Email Interaction record page enables agents to work on incoming emails in the activity stream of an interaction record.](../image/email-interaction-record-page.png "Email Interaction record page")
+\[Omitted image "email-interaction-record-page.png"\] Alt text: The Email Interaction record page enables agents to work on incoming emails in the activity stream of an interaction record.
 
 ## Email Interaction record page variant
 
@@ -35,7 +38,7 @@ Active
 
 </td><td>
 
-Enabling the **Active** check box makes the page variant available to the selected audience. The Email Interaction record page variant is inactive by default.The active setting combined with the page order determines the page that CSM Configurable Workspace uses to display record information. For more information, see [Set record page order](../task/config-csm-ws-set-record-page-order.md).
+Enabling the **Active** check box makes the page variant available to the selected audience. The Email Interaction record page variant is inactive by default.The active setting combined with the page order determines the page that CSM Configurable Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-csm-ws-set-record-page-order.md).
 
 </td></tr><tr><td>
 
@@ -62,7 +65,7 @@ Audience
 
 </td><td>
 
-The audience determines who can see the page variant. The Email Interaction record page does not have a defined audience.For more information, see [Learn about audiences](https://www.servicenow.com/docs/access?context=add-audiences&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+The audience determines who can see the page variant. The Email Interaction record page does not have a defined audience.For more information, see Learn about audiences.
 
 </td></tr></tbody>
 </table>To access the settings for this page variant:
@@ -98,7 +101,7 @@ Record tags
 
 </td><td>
 
-Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Group and find records using tags in workspace](https://www.servicenow.com/docs/access?context=setting-record-tags-agent-workspace&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see Group and find records using tags in workspace.
 
 </td></tr><tr><td>
 
@@ -129,7 +132,7 @@ Activity stream
 
 The activity stream component displays a list of activities occurring on a case record. This list can be collapsed to provide a quick view of case activities or expanded to provide more detail about individual activities.Agents can use the activity stream to compose work notes or emails.
 
-For more information, see [Activity stream component](csm-front-line-case-page.md#section_ntx_lnh_s1c).
+For more information, see [Activity stream component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-front-line-case-page.md).
 
 </td></tr><tr><td>
 

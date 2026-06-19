@@ -2,6 +2,7 @@
 title: Get insights from the FDIH Dashboard
 description: Use the FDIH Dashboard to get insights on flow executions and historical performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/get-insights-fdih-dashboard.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -31,28 +32,28 @@ Role required: admin
 
 4.  Use ServiceNow AI Platform list controls to filter list reports.
 
-    For example, select the filter parameter icon \(![Filter by parameter icon.](../../integrationhub/images/group-by-icon.png), and then select **Show matching** to show records that have the same selected value.
+    For example, select the filter parameter icon \(\[Omitted image "group-by-icon.png"\] Alt text: Filter by parameter icon., and then select **Show matching** to show records that have the same selected value.
 
 5.  To customize the columns in the report table, do the following actions:
 
     1.  Drill down the report.
 
-    2.  Click the column settings icon \(![Column settings icon.](../../integrationhub/images/column-settings-icon.png)\).
+    2.  Click the column settings icon \(\[Omitted image "column-settings-icon.png"\] Alt text: Column settings icon.\).
 
     3.  Click **Edit columns**.
 
     4.  In the Available columns section, click the column name.
 
-    5.  To include a column, click the include column icon \(![Include column icon.](../../integrationhub/images/include-column.png)\).
+    5.  To include a column, click the include column icon \(\[Omitted image "include-column.png"\] Alt text: Include column icon.\).
 
-    6.  To exclude a column from the table, in the Selected columns section, click the remove column icon \(![Remove column icon.](../../integrationhub/images/remove-column.png)\).
+    6.  To exclude a column from the table, in the Selected columns section, click the remove column icon \(\[Omitted image "remove-column.png"\] Alt text: Remove column icon.\).
 
-    7.  To change the positions of the columns in the report table, in the Selected columns section, click and drag the drag column icon \( ![Drag column icon.](../../integrationhub/images/drag-column.png)\).
+    7.  To change the positions of the columns in the report table, in the Selected columns section, click and drag the drag column icon \( \[Omitted image "drag-column.png"\] Alt text: Drag column icon.\).
 
     8.  To apply the changes, click **OK**.
 
-6.  To reset the column width, click the column settings icon \(![Column settings icon.](../../integrationhub/images/column-settings-icon.png)\), and then click **Reset widths**.
+6.  To reset the column width, click the column settings icon \(\[Omitted image "column-settings-icon.png"\] Alt text: Column settings icon.\), and then click **Reset widths**.
 
 
-**Parent Topic:**[FDIH Dashboard](../concept/fdih-dashboard.md)
+**Parent Topic:**[FDIH Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/fdih-dashboard.md)
 

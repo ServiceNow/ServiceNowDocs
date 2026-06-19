@@ -2,6 +2,7 @@
 title: Configure datacenters for Cloud vs Non-cloud resources in Service Graph Workspace
 description: The Cloud vs Non-cloud resources chart in the insights view in Service Graph Workspace determines which CIs and service instances \(application services\) are stored on a cloud and which aren't in the organization. In addition to base system classifications, you can add cloud vs. non-cloud classifications that reflect specific datacenter deployments in the organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-config-datacenter.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

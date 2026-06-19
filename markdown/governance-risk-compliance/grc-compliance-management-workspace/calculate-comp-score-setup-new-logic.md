@@ -2,6 +2,7 @@
 title: Set up the steps required for entity compliance score calculation
 description: Enable the system property and run the on-demand job to calculate the compliance score of an entity based on its downstream entities' compliance scores and also its direct controls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/calculate-comp-score-setup-new-logic.html
 release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -25,7 +26,7 @@ Role required: sn\_compliance.admin, sn\_compliance.manager
 
 2.  Select the **Entity hierarchy based scoring** property to set it to **true**.
 
-    By default the property is set to false. When it is false, the compliance score is calculated based on direct controls, which is the average of the controls that are directly associated with the entity. See [Compliance score calculation of an entity](../concept/compliance-score-calculation-pc-ws.md).
+    By default the property is set to false. When it is false, the compliance score is calculated based on direct controls, which is the average of the controls that are directly associated with the entity. See [Compliance score calculation of an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/compliance-score-calculation-pc-ws.md).
 
     However, if you want to calculate the compliance score of an entity based on its downstream entities and direct controls, then you must set the property to true. There can be a scenario where you might have to update the existing entities' compliance score by this new logic. For this purpose, there is a scheduled job that you must execute manually whenever you want to calculate the compliance score.
 

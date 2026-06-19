@@ -2,6 +2,7 @@
 title: Reschedule a scan suite
 description: Change the schedule of your scan suites to suit your needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/security-center/reschedule-suite-scan.html
 release: zurich
 product: Security Center
 classification: security-center
@@ -93,5 +94,5 @@ Which timezone the schedule uses when determining when to run.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Scan suites](../concept/sec-center-suites.md)
+**Parent Topic:**[Scan suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/sec-center-suites.md)
 

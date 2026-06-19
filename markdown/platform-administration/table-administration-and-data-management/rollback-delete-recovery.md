@@ -2,6 +2,7 @@
 title: Roll back and delete recovery
 description: With rollback contexts, you can roll back certain actions such as a patch upgrade, plugin activation, and background script executions, and you can recover record deletions and all related changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/rollback-delete-recovery.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -58,7 +59,7 @@ A rollback context is created when:
 
 Rollbacks do not impact other database activities. If a database activity modifies a record that is part of a rollback context, the rollback does not affect that record.
 
-Because rollback contexts contain a significant amount of data, rollback contexts are deleted after 10 days. Therefore, rollbacks must occur within 10 days of the latest upgrade or plugin activation. If you need to retain a rollback context for more than 10 days, you can do so by adding a system property. See [Rollback context properties](../reference/rollback-context-properties.md).
+Because rollback contexts contain a significant amount of data, rollback contexts are deleted after 10 days. Therefore, rollbacks must occur within 10 days of the latest upgrade or plugin activation. If you need to retain a rollback context for more than 10 days, you can do so by adding a system property. See [Rollback context properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/rollback-context-properties.md).
 
 **Note:** Do not roll back a rollback context until checking with Customer Service and Support. A roll back deletes data and may remove evidence of the upgrade or activation issue preventing debugging of the problem.
 
@@ -83,16 +84,16 @@ The rollback process on Now Support does the following:
 -   Displays the message, "Desired war matches reverted war specified by property \[**glide.war.no\_upgrade**\]. Upgrade script will NOT run".
 -   Changes the state to **Expired** and the rollback purges all stored data.
 
--   **[Roll back patch upgrades or plugin activations](../task/roll-back-rollback-context.md)**  
+-   **[Roll back patch upgrades or plugin activations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/roll-back-rollback-context.md)**  
 Use the **Rollback Contexts** module to roll back patch upgrades and plugin activations.
--   **[Use the Deleted Records module to restore a deleted record](../task/t_RestoreADeletedRecordAndRef.md)**  
+-   **[Use the Deleted Records module to restore a deleted record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/t_RestoreADeletedRecordAndRef.md)**  
 You can recover deleted records that are in audited tables.
--   **[Use the Delete Recovery module to restore a deleted record](../task/delete-recovery.md)**  
+-   **[Use the Delete Recovery module to restore a deleted record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/delete-recovery.md)**  
 You can recover a deleted record and all related changes. The recovery must be done within seven days of the record being deleted.
--   **[Use the Script Execution History module to roll back a Scripts-Background execution](../task/background-script-recovery.md)**  
+-   **[Use the Script Execution History module to roll back a Scripts-Background execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/background-script-recovery.md)**  
 You can roll back the database actions of a script executed using the Scripts-Background module.
--   **[Rollback context properties](../reference/rollback-context-properties.md)**  
+-   **[Rollback context properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/rollback-context-properties.md)**  
 Change the default expiration period for different types of rollback context records.
 
-**Parent Topic:**[ServiceNow AI Platform tables and data](../../general/concept/tables-fields-and-forms.md)
+**Parent Topic:**[ServiceNow AI Platform tables and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/tables-fields-and-forms.md)
 

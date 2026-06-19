@@ -2,6 +2,7 @@
 title: Reject orders in Order Management
 description: Reject a customer or service order in scenarios where the customer request is invalid, the product or service is no longer available, or the pricing or terms are incorrect.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/som-on-reject-order.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,7 +24,7 @@ Role required: sn\_ind\_tmt\_orm.order\_fulfilment\_manager, sn\_ind\_tmt\_orm.o
 
 1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace.** .
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Customer Orders** &gt; **All**.
 

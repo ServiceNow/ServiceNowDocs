@@ -2,6 +2,7 @@
 title: Add new rules to Exclusion Framework
 description: Add terms and patterns that shouldn't be machine translated to the Exclusion Rules table. You can create either exact match rules or pattern match rules, and you can edit your rules later.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/dynamic-translation/dyn-translation-add-exclusion-rule.html
 release: zurich
 product: Dynamic Translation
 classification: dynamic-translation
@@ -43,23 +44,23 @@ Exclusion rules must be unique within a domain. An attempted duplicate submissio
 
 ## Procedure
 
-1.  Ensure that you are in the application scope that you want for your rules, then navigate to **All** &gt; **Dynamic Translation** &gt; **Exclusion Framework** &gt; **Create New Rules**.![Record producer for Create Exclusion Rules.](../image/dyn-translation-add-exclusion-rule1X.png)
+1.  Ensure that you are in the application scope that you want for your rules, then navigate to **All** &gt; **Dynamic Translation** &gt; **Exclusion Framework** &gt; **Create New Rules**.\[Omitted image "dyn-translation-add-exclusion-rule1X.png"\] Alt text: Record producer for Create Exclusion Rules.
 
     A modal for a record producer opens, so you can add multiple rules at one time.
 
-2.  From the record producer, select **Add** for either exact match or pattern match, as appropriate. ![Modal for adding an exact match exclusion term.](../image/dyn-translation-add-exclusion-rule2X.png)
+2.  From the record producer, select **Add** for either exact match or pattern match, as appropriate. \[Omitted image "dyn-translation-add-exclusion-rule2X.png"\] Alt text: Modal for adding an exact match exclusion term.
 
 3.  On the **Add Row** form, configure the fields according to the following guidance.
 
-<table id="choicetable_kb3_lpm_ddc"><thead><tr><th align="left" id="d328785e188">
+<table id="choicetable_kb3_lpm_ddc"><thead><tr><th align="left" id="d90125e188">
 
 Rule type
 
-</th><th align="left" id="d328785e191">
+</th><th align="left" id="d90125e191">
 
 Fields
 
-</th></tr></thead><tbody><tr><td id="d328785e197">
+</th></tr></thead><tbody><tr><td id="d90125e197">
 
 **Exact Match**
 
@@ -70,7 +71,7 @@ Fields
 -   **Order**: Optional. See the previous explanation.
 
 
-</td></tr><tr><td id="d328785e223">
+</td></tr><tr><td id="d90125e223">
 
 **Pattern Match**
 
@@ -97,7 +98,7 @@ For exact match rules, you can modify the case sensitivity in its Exclusion Rule
 -   Select the **Ignore Case** check box to enable case insensitive matching \(for example, the entry "hello" would match "Hello", "hEllo", "helLo" and so forth.\)
 -   Clear the **Ignore Case** check box to match the entry exactly as it appears in the table, including its casing.
 
-From the Zurich release, you can manually test your pattern. For more information see [Test Exclusion Rule](dyn-translation-test-exclusion-rule.md).
+From the Zurich release, you can manually test your pattern. For more information see [Test Exclusion Rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/dyn-translation-test-exclusion-rule.md).
 
-**Parent Topic:**[Exclusion Framework in Dynamic Translation](../concept/dyn-translation-exclusion-framework.md)
+**Parent Topic:**[Exclusion Framework in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/dyn-translation-exclusion-framework.md)
 

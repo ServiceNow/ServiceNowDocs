@@ -2,6 +2,7 @@
 title: Inbound web service examples
 description: Inbound web service examples demonstrate how to access ServiceNow web services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/c\_InboundWebServiceExamples.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -15,20 +16,20 @@ breadcrumb: [Inbound, Web services, API implementation, API implementation and r
 
 Inbound web service examples demonstrate how to access ServiceNow web services.
 
--   **[Java Apache Axis2 web services client examples](c_JAAWbSrvcsClntEx.md)**  
+-   **[Java Apache Axis2 web services client examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_JAAWbSrvcsClntEx.md)**  
 Examples demonstrating an integration with Axis2 Version 1.4.
--   **[Microsoft .NET web services client examples](c_MS.NETWebServicesClientExamples.md)**  
+-   **[Microsoft .NET web services client examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_MS.NETWebServicesClientExamples.md)**  
 Examples demonstrating an integration with Microsoft .NET Web Services Client.
--   **[Perl web services client examples](c_PerlWebServicesClientExamples.md)**  
+-   **[Perl web services client examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_PerlWebServicesClientExamples.md)**  
 Examples demonstrating an integration with a Perl web services client.
--   **[Python web services client examples](c_PythonWebServicesClientExamples.md)**  
+-   **[Python web services client examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_PythonWebServicesClientExamples.md)**  
 Examples demonstrating an integration with a Python web services client.
--   **[Web services C Sharp .NET end to end tutorial](c_CSharpNETEndEnd.md)**  
+-   **[Web services C Sharp .NET end to end tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_CSharpNETEndEnd.md)**  
 Examples demonstrating how to use .NET to consume a ServiceNow web service.
--   **[Sample ASP.NET with C Sharp redirect with cookies](../../../script/useful-scripts/reference/r_ASPNETCSharpRdrctCks.md)**  
+-   **[Sample ASP.NET with C Sharp redirect with cookies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/r_ASPNETCSharpRdrctCks.md)**  
 This sample ASP.NET code creates a simple authentication portal and passes an unencrypted HTTP header as a cookie.
--   **[Sample ASP Script for unencrypted single sign-on](../../../script/useful-scripts/concept/c_SampleASPScriptUnencryptedSSO.md)**  
+-   **[Sample ASP Script for unencrypted single sign-on](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_SampleASPScriptUnencryptedSSO.md)**  
 This sample ASP.NET code creates a simple authentication portal and passes an unencrypted HTTP header as a URL parameter.
 
-**Parent Topic:**[Inbound web services](../../web-services/concept/inbound-web-services.md)
+**Parent Topic:**[Inbound web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/inbound-web-services.md)
 

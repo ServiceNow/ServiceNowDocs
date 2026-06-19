@@ -2,6 +2,7 @@
 title: Working with Actions on the Investigation Canvas
 description: This section describes the various actions that you can perform on the investigation canvas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-canvas-actions.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -23,7 +24,7 @@ Investigation canvas includes:
 4.  Edge actions
 5.  Toolbar actions
 
-![TISC Investigation canvas view.](../image/tisc-investigation-canvas-view.png "Investigation Canvas")
+\[Omitted image "tisc-investigation-canvas-view.png"\] Alt text: TISC Investigation canvas view.
 
 <table id="table_mtp_jkv_gdc"><thead><tr><th>
 
@@ -269,7 +270,7 @@ Edit Timeline Event\(s\)
 
 This option allows you to add/update timeline to canvas.**Note:** This option is not available for new node or internal intelligence nodes. This action is also not available when a new canvas is linked to a case.
 
-For detailed explanation on Timeline events, see [Using Timeline in Investigation Canvas](../task/tisc-timeline-events.md) [Adding Timeline Events to the Canvas](../task/tisc-add-timeline-events.md).
+For detailed explanation on Timeline events, see [Using Timeline in Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-timeline-events.md) [Adding Timeline Events to the Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-add-timeline-events.md).
 
 </td></tr></tbody>
 </table>|Action|Operation|
@@ -348,7 +349,9 @@ This option provides you a visual representation of the nodes and entities curre
 -   **Internal Intelligence**: Shows the internal intelligence records associated with the Canvas.
 
 </td></tr></tbody>
-</table>The following illustrates the legends for node, entities, and internal intelligence representations:![TISC Investigation Canvas legends representation](../image/tisc-legends-canvas.png)
+</table>The following illustrates the legends for node, entities, and internal intelligence representations:\[Omitted image "tisc-legends-canvas.png"\] Alt text: TISC Investigation Canvas legends representation
+
+\[Omitted image "tisc-entities-legend.png"\] Alt text: Entities representation
 
 ## Grouping or Ungrouping records from Investigation Canvas
 
@@ -419,5 +422,5 @@ Other Actions
 Actions such as removing a node or modifying edges follow all grouping rules and behaviors.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Working with Investigation Canvas](tisc-investigation-canvases.md)
+</table>**Parent Topic:**[Working with Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-investigation-canvases.md)
 

@@ -2,6 +2,7 @@
 title: Create new AI issue form
 description: Use the Create New Issue form to identify and manage issues related to the impacted areas for the reported AI case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/create-a-new-ai-issue-form.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
@@ -105,7 +106,7 @@ Workflow state of the issue. This field is automatically set to **Review**. The 
 -   **Closed Complete**
 -   **Closed Incomplete**
 
-For more information on issue management workflow and lifecycle, see [AI asset lifecycle](../concept/ai-asset-lifecycle.md).
+For more information on issue management workflow and lifecycle, see [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-asset-lifecycle.md).
 
 </td></tr><tr><td>
 
@@ -350,5 +351,5 @@ Functional domain
 Functional domain that the issue belongs to. For example, an issue may belong to the AI Risk and Compliance domain.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create an AI issue in the AI Control Tower](create-an-ai-issue-in-the-ai-control-tower.md)
+</table>**Parent Topic:**[Create an AI issue in the AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-an-ai-issue-in-the-ai-control-tower.md)
 

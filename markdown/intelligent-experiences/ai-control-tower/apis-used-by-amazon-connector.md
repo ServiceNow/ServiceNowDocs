@@ -1,23 +1,24 @@
 ---
-title: APIs used by Microsoft- Azure &amp; Copilot
-description: Explore the AWS APIs used in AI service Graph Connector for Amazon.
+title: APIs used by Azure and Copilot
+description: Explore the APIs used in AI Service Graph Connector for Azure and Copilot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/apis-used-by-amazon-connector.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-03-05"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Microsoft, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Microsoft, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# APIs used by Microsoft- Azure &amp; Copilot
+# APIs used by Azure and Copilot
 
-Explore the AWS APIs used in AI service Graph Connector for Amazon.
+Explore the APIs used in AI Service Graph Connector for Azure and Copilot.
 
-The table lists all the Amazon API endpoints used by the connector.
+The table lists all the API endpoints used by the connector.
 
-## New Azure Foundry — Discovery &amp; Usage
+## Azure Foundry— Discovery &amp; Usage
 
 <table id="table_pv1_zxq_m3c"><tbody><tr><td>
 
@@ -152,7 +153,7 @@ List Assistants
 
 </td><td>
 
-Lists all assistants \(agents\) in a project List
+Lists all assistants \(agents\) in a project
 
 </td></tr><tr><td>
 
@@ -266,7 +267,7 @@ List Thread Runs from ML Service
 Lists all thread runs within a specific thread in an AzureML workspace
 
 </td></tr></tbody>
-</table>## AWS APIs used for Copilot
+</table>## APIs used for Copilot
 
 <table id="table_jnz_xcr_m3c"><tbody><tr><td>
 
@@ -290,7 +291,7 @@ List of all the agents in the Copilot environment
 
 </td><td>
 
-Returns metadata about all Copilot Studio bots \(agents\) registered in a Dataverse environment, including their name, status, authentication config, and ownership details. This is the primary endpoint to discover and inventory deployed copilots.
+Returns metadata about all Copilot Studio bots \(agents\) registered in a Dataverse environment.
 
 </td></tr><tr><td>
 
@@ -302,7 +303,7 @@ List of all the components per agent
 
 </td><td>
 
-Exposes the internal authoring components of a Copilot, such as topics, entities, variables, and trigger phrases, stored in the botcomponent table. Essential for inspecting or programmatically analyzing a bot's conversational logic and structure.
+Exposes the internal authoring components of a Copilot.
 
 </td></tr><tr><td>
 

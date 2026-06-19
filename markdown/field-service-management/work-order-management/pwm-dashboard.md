@@ -2,6 +2,7 @@
 title: Planned Work Management Home page
 description: Planned Work Management Home page enables you to monitor your work plans, schedules, and work orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/pwm-dashboard.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -15,7 +16,7 @@ breadcrumb: [Manage a work order for the planned work, Manage work orders, Prepa
 
 Planned Work Management Home page enables you to monitor your work plans, schedules, and work orders.
 
-![Planned Work Management dashboard displaying work plans, work schedules, and planned work orders represented by tiles and graphs.](../../../product/field-service-management/image/pwm-home-page.png)
+\[Omitted image "pwm-home-page.png"\] Alt text: Planned Work Management dashboard displaying work plans, work schedules, and planned work orders represented by tiles and graphs.
 
 ## End user and roles
 
@@ -86,7 +87,7 @@ Active plans
 
 </td><td>
 
-Single Score ![](../../reporting/image/icon-single-score-report.png)
+Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:
 
 </td><td>
 
@@ -102,7 +103,7 @@ Plans expiring in the next 30 days
 
 </td><td>
 
-Single Score ![](../../reporting/image/icon-single-score-report.png)
+Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:
 
 </td><td>
 
@@ -118,7 +119,7 @@ Overdue work orders
 
 </td><td>
 
-Single Score ![](../../reporting/image/icon-single-score-report.png)
+Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:
 
 </td><td>
 
@@ -134,7 +135,7 @@ Upcoming schedules with no work orders
 
 </td><td>
 
-Single Score ![](../../reporting/image/icon-single-score-report.png)
+Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:
 
 </td><td>
 
@@ -166,7 +167,7 @@ Work orders by state
 
 </td><td>
 
-Stacked bar chart ![](../../../reuse/reporting/image/bar-stacked.svg)
+Stacked bar chart \[Omitted image "bar-stacked.svg"\] Alt text:
 
 </td><td>
 

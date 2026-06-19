@@ -2,6 +2,7 @@
 title: Configure notification content for portal
 description: Configure the notification display messages for each notification type on the Employee Center portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/config-notif-content.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -32,11 +33,11 @@ Role required: notification\_provider\_admin
     -   **Virtual Agent Content - Messaging**
     -   **Workspace**
     -   **Next Experience**
-    For more information on setting up different types of notification content, see [Provider notifications](https://www.servicenow.com/docs/access?context=provider-notifications-landing&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For more information on setting up different types of notification content, see .
 
 3.  On the Portal notification content form, fill in the fields and select **Submit**.
 
-    For a description of the field values, see [Portal notification content form](../reference/notif-content-form.md).
+    For a description of the field values, see [Portal notification content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/notif-content-form.md).
 
 
 ## Result

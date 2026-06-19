@@ -2,6 +2,7 @@
 title: SNMP probe parameters
 description: This list of parameters may be passed to the SNMP probes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/r\_SNMPProbeParameters.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -15,7 +16,7 @@ breadcrumb: [SNMP probes, List of Discovery probes, Discovery probes and sensors
 
 This list of parameters may be passed to the SNMP probes.
 
-For instructions on configuring probe parameters, see [Set probe parameters](../task/t_SetProbeParameters.md).
+For instructions on configuring probe parameters, see [Set probe parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_SetProbeParameters.md).
 
 <table id="table_mmh_pny_5p"><thead><tr><th>
 
@@ -191,8 +192,8 @@ use\_getbulk
 Enables the use of SNMP GETBULK requests to retrieve tabular data from SNMP devices instead of using multiple SNMP GETNEXT requests. For tabular data, GETBULK is more efficient. Regardless of the request type, certain devices may not return any results when they are busy with other tasks. This parameter is used to configure at the probe level. GETBULK can also be set for an individual MID Server or globally for all MID servers. Settings are listed in the order of precedence:
 
 -   SNMP probe parameter
--   [MID Server configuration parameter](https://www.servicenow.com/docs/access?context=mid-server-parameters&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
--   [MID Server properties](https://www.servicenow.com/docs/access?context=r_MIDServerProperties&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+-   MID Server configuration parameter
+-   MID Server properties
 
  The **established\_session\_timeout, request\_interval,** and **request\_delay** parameters are ignored when **use\_getbulk** is set to **true**. Instead, the **retries** parameter is available. The timeout configuration is the same one used by **use\_getscalar**.
 
@@ -237,5 +238,5 @@ The number of additional attempts Discovery makes to complete an individual GETB
 2
 
 </td></tr></tbody>
-</table>**Parent Topic:**[SNMP probes](../concept/c_SNMPProbe.md)
+</table>**Parent Topic:**[SNMP probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_SNMPProbe.md)
 

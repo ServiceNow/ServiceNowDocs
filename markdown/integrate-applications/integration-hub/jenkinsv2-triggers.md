@@ -2,6 +2,7 @@
 title: Set up triggers for the Jenkins spoke
 description: Set up triggers for the Jenkins spoke for the required events. The endpoint enables webhooks to connect with your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/jenkinsv2-triggers.html
 release: zurich
 product: Integration Hub
 classification: integration-hub

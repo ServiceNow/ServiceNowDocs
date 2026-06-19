@@ -2,6 +2,7 @@
 title: Enable Zoom chat integration
 description: Enable the Zoom Team Chat feature on your ServiceNow instance by setting the related system properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/enable-zoom-chat-integration.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -44,5 +45,5 @@ Role required: admin
 
 The Zoom Team Chat feature on the ServiceNow instance is enabled.
 
-**Parent Topic:**[Configuring Collaboration services for Zoom](../concept/configure-sn-zoom.md)
+**Parent Topic:**[Configuring Collaboration services for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/configure-sn-zoom.md)
 

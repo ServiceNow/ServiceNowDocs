@@ -2,6 +2,7 @@
 title: Journey overview guided tour
 description: Use Guided Tours in Journey designer to get instructions on how to perform a task.​ Guided Tours use a series of steps that may span multiple pages. The tour includes links to detailed documentation.​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/journey-overview-gt.html
 release: zurich
 product: Journey Designer
 classification: journey-designer

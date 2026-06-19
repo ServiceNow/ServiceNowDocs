@@ -2,7 +2,10 @@
 title: Migrating the install base information for existing cases
 description: Your customer service agents can use the case form on the CSM Agent Workspace to add an install base item to an existing case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/install-base-existing-cases.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -20,5 +23,5 @@ var installBaseMigrationUtil = new sn_install_base.InstallBaseMigrationUtils();â
 installBaseMigrationUtil.populateInstallBaseOnCases(); 
 ```
 
-The migration script populates cases with the install base information, only if the case is associated with the install base item. To associate a case to an install base item, see [Associate multiple Install base items to a case](../task/associate-multiple-install-base-items-case.md).
+The migration script populates cases with the install base information, only if the case is associated with the install base item. To associate a case to an install base item, see [Associate multiple Install base items to a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/associate-multiple-install-base-items-case.md).
 

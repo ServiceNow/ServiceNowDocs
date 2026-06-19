@@ -2,6 +2,7 @@
 title: Edit a copy of a shared dashboard element
 description: To configure a shared element that you added to a dashboard from a library, make a local copy that is not linked to a library. You only have to do this if you do not have permission to edit the version in the library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/editing-local-copy-saved-dv.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -21,7 +22,7 @@ Role required: Any
 
 You may find yourself needing to reconfigure a data visualization or a filter on a dashboard to which you have editing rights. However, if it is a visualization or filter that is shared from the library, you would be editing the library copy that other people use. You might not have the permissions to do so. In this case, you see a notification that the owner has not shared the element with editing permissions.
 
-![Message that you cannot configure an element because you do not have editing permissions.](../../par-for-workspace/image/cannot-configure-element.png)
+\[Omitted image "cannot-configure-element.png"\] Alt text: Message that you cannot configure an element because you do not have editing permissions.
 
 However, as long as you can edit the dashboard, you can unlink a visualization on the dashboard from the library. Then you have a local version that you can edit freely.
 
@@ -37,7 +38,7 @@ However, as long as you can edit the dashboard, you can unlink a visualization o
 
 4.  On the element, expand the **Actions** menu.
 
-    ![Actions menu on data visualization, showing Unlink from library action.](../../par-for-workspace/image/dv-on-db-unlink.png)
+    \[Omitted image "dv-on-db-unlink.png"\] Alt text: Actions menu on data visualization, showing Unlink from library action.
 
 5.  Select **Unlink from library**.
 
@@ -47,8 +48,8 @@ However, as long as you can edit the dashboard, you can unlink a visualization o
 
 7.  Proceed as described in one of the following topics:
 
-    -   [Creating data visualizations](../../reporting/concept/creating-data-visualizations.md)
-    -   [Create or add a filter on an inline dashboard](../../par-for-workspace/task/select-workspace-filter-type.md)
+    -   [Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/creating-data-visualizations.md)
+    -   [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/select-workspace-filter-type.md)
 
-**Parent Topic:**[Edit Platform Analytics dashboards](edit-db-in-ac.md)
+**Parent Topic:**[Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/edit-db-in-ac.md)
 

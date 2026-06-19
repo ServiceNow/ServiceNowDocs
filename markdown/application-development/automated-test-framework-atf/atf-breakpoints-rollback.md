@@ -2,6 +2,7 @@
 title: Implementing breakpoints
 description: Breakpoints allow you to pause your test at any step of a test run in order to troubleshoot and test authoring.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/atf-breakpoints-rollback.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -21,10 +22,10 @@ Breakpoints are useful when a test fails. You can add breakpoints to the test st
 
 ## Rollback of test data
 
-Test runs can also be paused immediately before rollback of test data. Check the **Pause before rollback** option to pause the test just before rollback of test data happens after the completion of the test. See [Debug an automated test using breakpoints](../task/atf-breakpoint.md) to learn more about using rollback option in a test run.
+Test runs can also be paused immediately before rollback of test data. Check the **Pause before rollback** option to pause the test just before rollback of test data happens after the completion of the test. See [Debug an automated test using breakpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-breakpoint.md) to learn more about using rollback option in a test run.
 
--   **[Debug an automated test using breakpoints](../task/atf-breakpoint.md)**  
+-   **[Debug an automated test using breakpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-breakpoint.md)**  
 Pause a test to troubleshoot failures or unexpected behavior by adding a breakpoint for a particular test step.
 
-**Parent Topic:**[Building and running automated tests with the Automated Test Framework](atf-build-overview.md)
+**Parent Topic:**[Building and running automated tests with the Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-build-overview.md)
 

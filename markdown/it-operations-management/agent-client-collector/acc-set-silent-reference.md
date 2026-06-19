@@ -2,6 +2,7 @@
 title: Agent Client Collector CPU protection thresholds
 description: When an agent meets the configured thresholds specified in the agent's acc.yml file, it enters CPU protection mode, either for an individual check or for all checks. Agents in CPU protection mode appear in the agent logs with the syntax Agent Protection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-set-silent-reference.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -76,5 +77,5 @@ Indicates the frequency, in seconds, that the agent monitor runs to check if the
 The percentage of the agent's CPU usage when the agent is running proxy checks too frequently, that sends the agent into CPU protection mode.Default=80
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Framework reference](agent-client-collector-reference.md)
+</table>**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

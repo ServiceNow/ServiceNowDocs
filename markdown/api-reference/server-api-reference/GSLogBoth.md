@@ -2,6 +2,7 @@
 title: GSLog - Scoped, Global
 description: GSLog is a script include that simplifies script logging and debugging by implementing levels of log output, selectable by per-caller identified sys\_properties values.Instantiates a GSLog object.Determines if debug is turned on.Returns the log level.Called by the Prototype JavaScript Framework during object creation to initialize a new instance of this class. Provide the input parameters, but do not call this method directly.Logs a message at the specified level.Logs alert events.Logs critical events.Logs debug events.Logs emergency events.Logs error events.Logs information events.Logs notice events.Logs warning events.Sets the log level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/GSLogBoth.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -21,9 +22,9 @@ Logs can be at the level of debug, info, notice, warning, err, or crit \(after B
 
 Use for any server-side script where you want to implement event logging.
 
-For more information, see [Debugging scripts](../../../../../script/debugging/concept/script-debug-overview.md).
+For more information, see [Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/script-debug-overview.md).
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GSLog – GSLog\(\)
 

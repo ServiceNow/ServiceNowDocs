@@ -2,6 +2,7 @@
 title: Archive your application for publishing
 description: It is important to disable rebuild from bitcode when archiving your application for publication for release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/developer-guides/mobsdk-ios-archiving-app.html
 release: zurich
 product: Developer Guides
 classification: developer-guides
@@ -17,5 +18,5 @@ It is important to disable **rebuild from bitcode** when archiving your applicat
 
 To disable rebuild from bitcode, either set **ENABLE\_BITCODE** to `NO` in your project settings or clear the **Rebuild from Bitcode** check box when using Xcode to distribute your application.
 
-![Xcode rebuild bitcode screen](../image/mobile_sdk-ios-rebuild-bitcode.png)
+\[Omitted image "mobile\_sdk-ios-rebuild-bitcode.png"\] Alt text: Xcode rebuild bitcode screen
 

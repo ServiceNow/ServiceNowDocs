@@ -2,6 +2,7 @@
 title: Select baseline control definitions
 description: Within the NIST RMF application, the Select section focuses on the review of the initial set of baseline control definitions. You can also tailor the control definitions, by tagging them based on organizational requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/rmf-select.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -15,7 +16,7 @@ breadcrumb: [Process overview, \(Deprecated\) NIST RMF Use Case Accelerator, GRC
 
 Within the NIST RMF application, the **Select** section focuses on the review of the initial set of baseline control definitions. You can also tailor the control definitions, by tagging them based on organizational requirements.
 
-**Note:** Starting with version 10.1.0, the NIST RMF Use Case Accelerator will be supported only for customers who currently use the product. New and existing customers should consider using the GRC: Continuous Authorization Monitoring application. For details, [Continuous Authorization and Monitoring](../../grc-cam/reference/grc-cam-landing-page.md).
+**Note:** Starting with version 10.1.0, the NIST RMF Use Case Accelerator will be supported only for customers who currently use the product. New and existing customers should consider using the GRC: Continuous Authorization Monitoring application. For details, [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/grc-cam-landing-page.md).
 
 After performing **Impact Analysis**, the user selects and tailors the baseline controls for that target. A dashboard provides an overview of the baseline policy statements in the catalog, alongside the catalog of baseline controls being implemented.
 
@@ -23,10 +24,10 @@ Next, the user tailors the baseline controls. Another dashboard contains several
 
 **Note:** Both **Review Baseline Controls** and **Tailor Baseline Controls** require that you implement all necessary controls following the standard Policy and Compliance Management application procedures. Return to these dashboards for the selecting and tailoring of those controls.
 
--   **[Review baseline controls](../task/rmf-review-baseline-controls.md)**  
+-   **[Review baseline controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/rmf-review-baseline-controls.md)**  
 Review the baseline policy statements and baseline controls.
--   **[Tailor baseline controls](../task/rmf-tailor-baseline-controls.md)**  
+-   **[Tailor baseline controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/rmf-tailor-baseline-controls.md)**  
 Tailor the baseline policy statements and baseline controls.
 
-**Parent Topic:**[NIST RMF process overview](nist-rmf-process.md)
+**Parent Topic:**[NIST RMF process overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/nist-rmf-process.md)
 

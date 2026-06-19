@@ -2,6 +2,7 @@
 title: Submit obligation tasks
 description: As an obligation user, work on obligation tasks to fulfill the obligation specified in the contract, and submit them for review.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-work-on-ob-tasks.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -23,15 +24,15 @@ Role required: sn\_cm\_obligation.obligation\_user
 
 1.  Open the obligation task from the email notification or Employee Center.
 
-<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d388315e58">
+<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d215048e58">
 
 Options
 
-</th><th align="left" id="d388315e61">
+</th><th align="left" id="d215048e61">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d388315e67">
+</th></tr></thead><tbody><tr><td id="d215048e67">
 
 **From the email notification**
 
@@ -39,7 +40,7 @@ Steps
 
 Select the link in the notification email sent when an obligation task is assigned to you to access the task.
 
-</td></tr><tr><td id="d388315e76">
+</td></tr><tr><td id="d215048e76">
 
 **From Employee Center**
 
@@ -64,5 +65,5 @@ Select the link in the notification email sent when an obligation task is assign
 
 The obligation task is sent for approval and the state of the task changes to Awaiting approval.
 
-**Parent Topic:**[Obligation Management](../concept/cncore-obligation-management.md)
+**Parent Topic:**[Obligation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-obligation-management.md)
 

@@ -2,6 +2,7 @@
 title: Adobe JRun discovery
 description: Discovery creates or updates a CMDB record when it detects a running instance of Adobe JRun.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/r-AdobeJRun.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -21,7 +22,7 @@ By default, Discovery uses the **Jrun** pattern to perform the Discovery.
 
 ## Privileged commands
 
-For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](../../service-mapping/reference/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
+For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
 
 ## Data collected for Adobe JRun
 
@@ -35,5 +36,5 @@ The following data is collected in the Jrun `[cmdb_ci_app_server_jrun]` table:
 |Configuration directory|config\_directory|
 |Configuration file|config\_file|
 
-**Parent Topic:**[Software discovery](../concept/c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_Software.md)
 

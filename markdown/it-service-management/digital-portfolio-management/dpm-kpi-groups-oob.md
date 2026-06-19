@@ -2,6 +2,7 @@
 title: KPI groups installed with Digital Portfolio Management
 description: Digital Portfolio Management \(DPM\) enables you to view standard key performance indicator \(KPI\) groups that are included with the base system. You can also configure KPIs with the sn\_dpm.dpm\_admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-portfolio-management/dpm-kpi-groups-oob.html
 release: zurich
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -17,9 +18,9 @@ Digital Portfolio Management \(DPM\) enables you to view standard key performanc
 
 Admins view the back-end details of KPI groups by navigating to **Digital Portfolio Management** &gt; **All** &gt; **KPI Groups**.
 
-In addition to viewing the KPIs that come with the base DPM system, you can also configure them. For more information, see [Configure KPIs in Digital Portfolio Management](../task/dpm-configure-kpi-availability.md).
+In addition to viewing the KPIs that come with the base DPM system, you can also configure them. For more information, see [Configure KPIs in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-configure-kpi-availability.md).
 
-To see the latest score of KPIs, enable the latest score system property. For more information on this system property, see [KPI groups in Digital Portfolio Management](../concept/dpm-configure-kpi.md).
+To see the latest score of KPIs, enable the latest score system property. For more information on this system property, see [KPI groups in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-configure-kpi.md).
 
 <table id="table_rgl_hz1_hsb"><thead><tr><th>
 
@@ -363,5 +364,5 @@ Average CSAT is 5 rating \(highest\) to 1 rating \(lowest\)
 </td></tr></tbody>
 </table>**Note:** To view more details, select the KPI number. KPI charts aren’t selectable.
 
-**Parent Topic:**[Digital Portfolio Management reference](dpm-reference-cfw.md)
+**Parent Topic:**[Digital Portfolio Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-reference-cfw.md)
 

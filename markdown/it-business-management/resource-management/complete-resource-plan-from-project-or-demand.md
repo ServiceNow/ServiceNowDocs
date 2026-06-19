@@ -2,6 +2,7 @@
 title: Complete a resource plan from a project, planning console, or demand record
 description: If a project or a project task is marked Closed, the project manager can complete the associated Allocated resource plans. Similarly, the demand manager can complete the resource plans for a Closed or Deferred demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/resource-management/complete-resource-plan-from-project-or-demand.html
 release: zurich
 product: Resource Management
 classification: resource-management
@@ -34,7 +35,7 @@ A similar message for completing the resource plans appears on the Demand form w
 
 1.  Open a project, task, or demand record in the Closed state.
 
-<table id="choicetable_en2_dhy_bcb"><tbody><tr><td id="d109325e82">
+<table id="choicetable_en2_dhy_bcb"><tbody><tr><td id="d108060e82">
 
 **Open a Closed project record**
 
@@ -45,7 +46,7 @@ A similar message for completing the resource plans appears on the Demand form w
 3.  Select the **Details** tab to display the project form.
 
 
-</td></tr><tr><td id="d109325e118">
+</td></tr><tr><td id="d108060e118">
 
 **Open a Closed project task record**
 
@@ -56,7 +57,7 @@ A similar message for completing the resource plans appears on the Demand form w
 3.  In the **Project Tasks** related list, open the project task record in the Closed state.
 
 
-</td></tr><tr><td id="d109325e154">
+</td></tr><tr><td id="d108060e154">
 
 **Open a Closed project in Planning Console**
 
@@ -67,7 +68,7 @@ A similar message for completing the resource plans appears on the Demand form w
 3.  Select the **Planning** tab to display the project in planning console.
 
 
-</td></tr><tr><td id="d109325e190">
+</td></tr><tr><td id="d108060e190">
 
 **Open a Closed or Deferred demand record**
 
@@ -80,7 +81,7 @@ A similar message for completing the resource plans appears on the Demand form w
 </td></tr></tbody>
 </table>    The message for completing the associated resource plans appears at the top of the record.
 
-    ![Screenshot for completing a resource plan message](../image/ResourcePlanCompleteMessage.png "Message for completing a resource plan")
+    \[Omitted image "ResourcePlanCompleteMessage.png"\] Alt text: Screenshot for completing a resource plan message
 
     **Note:** In the Planning Console, irrespective of the Closed state of the project tasks, the message appears only when the project is in Closed state.
 
@@ -106,5 +107,5 @@ A similar message for completing the resource plans appears on the Demand form w
 -   If the completion date is earlier than the resource plan end date, the end date of the resource plan is updated with the completion date. If the completion date was entered later than the resource plan end date, the resource plan end date is retained.
 -   All the requested and resource allocations for the resource plan that are past the completion date are deleted. If there are any actual hours logged against an allocation, that allocation record is not deleted. But the allocated hours become zero and the actual hours are retained. The available and allocated hours for the resources are also updated in the aggregate tables.
 
-**Parent Topic:**[Complete a resource plan](t_CloseAResourcePlan.md)
+**Parent Topic:**[Complete a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/t_CloseAResourcePlan.md)
 

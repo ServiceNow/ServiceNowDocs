@@ -2,6 +2,7 @@
 title: Ship the prepared asset
 description: Ship the prepared asset and capture the shipment details by using the Asset ship task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/ship-daas-asset.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -80,7 +81,7 @@ Asset
 
 </td><td>
 
-The asset that is selected in the Asset selection task. For more information, see [Select an asset](select-daas-asset.md).
+The asset that is selected in the Asset selection task. For more information, see [Select an asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/select-daas-asset.md).
 
 </td></tr><tr><td>
 
@@ -198,5 +199,5 @@ Notes about the task that are visible to all users within your organization.
 
 ## What to do next
 
-[Receive the shipped asset](receive-daas-asset.md)
+[Receive the shipped asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/receive-daas-asset.md)
 

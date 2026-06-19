@@ -2,6 +2,7 @@
 title: Expense line form
 description: Use the expense line form to associate specific costs to a demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/demand-management/expense-line-form-demand.html
 release: zurich
 product: Demand Management
 classification: demand-management
@@ -93,7 +94,7 @@ Cost type
 
 </td><td>
 
-Select the [cost type](../../project-management/task/t_CreateAResourceTypeDefinition.md).
+Select the [cost type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/t_CreateAResourceTypeDefinition.md).
 
 </td></tr><tr><td>
 
@@ -126,5 +127,5 @@ Select the records for the sources of the expense line. These sources include:- 
 -   **Cost centers**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Demand Management forms](../concept/demand-management-forms.md)
+</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/demand-management-forms.md)
 

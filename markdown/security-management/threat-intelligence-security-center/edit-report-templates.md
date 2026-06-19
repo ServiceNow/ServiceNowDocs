@@ -2,6 +2,7 @@
 title: Edit a Published Report Template
 description: Use this section to edit a published report template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/edit-report-templates.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

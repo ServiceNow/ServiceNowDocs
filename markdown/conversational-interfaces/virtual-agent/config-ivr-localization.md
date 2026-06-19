@@ -2,6 +2,7 @@
 title: Configure localization in Conversational IVR with Amazon Connect
 description: Configure localization in Conversational IVR to use localization with Virtual Agent in other supported languages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/config-ivr-localization.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -32,7 +33,7 @@ Ensure that you have completed the IVR setup on both AWS Console and ServiceNow 
 
     2.  On the instance page, open the connect instance.
 
-    3.  Hover over the Routing icon ![Routing icon.](../images/routing-icon.png) on the left navigation bar and select **Contact flows**.
+    3.  Hover over the Routing icon \[Omitted image "routing-icon.png"\] Alt text: Routing icon. on the left navigation bar and select **Contact flows**.
 
     4.  Select the **SN\_CI\_CC\_Inbound\_Contact\_Flow**.
 
@@ -56,8 +57,8 @@ Ensure that you have completed the IVR setup on both AWS Console and ServiceNow 
 
     The following image illustrates the flow:
 
-    ![Illustration to set up language attributes for the new language added.](../images/ivr-set-lang-flow.png "Workflow to set language attribute")
+    \[Omitted image "ivr-set-lang-flow.png"\] Alt text: Illustration to set up language attributes for the new language added.
 
 
-**Parent Topic:**[Configuring your AWS account for use with Conversational IVR](../concept/configure-aws-account.md)
+**Parent Topic:**[Configuring your AWS account for use with Conversational IVR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-aws-account.md)
 

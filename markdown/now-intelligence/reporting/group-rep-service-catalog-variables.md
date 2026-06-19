@@ -2,6 +2,7 @@
 title: Group a report by service catalog variables
 description: You can create reports grouped by variable on a selected service catalog item. In addition, you can create filters on the same variable. For example, if a mobile phone item has a storage variable, you can create a report that only shows those phones with 32 GB of storage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/group-rep-service-catalog-variables.html
 release: zurich
 product: Reporting
 classification: reporting
@@ -48,14 +49,14 @@ You can apply these steps to any report type as long as the report source has va
 
 6.  On the **Configure** tab, select **Variables** from the **Group by** or **Stack by** filters.
 
-    ![Configure tab > group by or stack by variables](../image/group-by-variables.png)
+    \[Omitted image "group-by-variables.png"\] Alt text: Configure tab &gt; group by or stack by variables
 
 7.  Search for and select the variable associated with the item to group or stack by.
 
 8.  Continue to configure and style the report according to its report type.
 
-    See [Report types](../reference/report-types-creation-details-rd.md).
+    See [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-types-creation-details-rd.md).
 
 
-**Parent Topic:**[Report on service catalog variables](../concept/rep-service-catalog-variables.md)
+**Parent Topic:**[Report on service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/rep-service-catalog-variables.md)
 

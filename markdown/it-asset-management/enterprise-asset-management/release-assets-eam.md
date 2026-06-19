@@ -2,6 +2,7 @@
 title: Release assets from the parent asset
 description: Release a child asset that is no longer required to be associated with its parent asset.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/release-assets-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -58,5 +59,5 @@ You can release an asset that isn't required or an add-on asset that's in one of
 -   The asset that you released isn't listed in the **Child assets** tab.
 -   The state of the released asset changes to In stock and the substate changes to Pending disposal.
 
-**Parent Topic:**[Create and manage enterprise assets](../concept/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

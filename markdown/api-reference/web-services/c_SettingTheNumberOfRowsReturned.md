@@ -2,6 +2,7 @@
 title: Setting the number of rows returned
 description: The following system property controls how many rows JSON returns with each query.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/c\_SettingTheNumberOfRowsReturned.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -31,8 +32,8 @@ glide.processor.json.row\_limit
 
 Specify the maximum number of rows a JSON query returns.-   Type: Integer
 -   Default value: 10,000
--   Location: [Add glide.processor.json.row\_limit to the system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) `[sys_properties]` table
+-   Location: Add glide.processor.json.row\_limit to the system properties `[sys_properties]` table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[JSONv2 web service](c_JSONv2WebService.md)
+</table>**Parent Topic:**[JSONv2 web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_JSONv2WebService.md)
 

@@ -2,6 +2,7 @@
 title: Event Management setup
 description: After activating Event Management, set it up to receive and process events, and generate and analyze alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/c\_EMConfiguration.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -19,14 +20,14 @@ After activating Event Management, set it up to receive and process events, and 
 
 Set up Event Management by completing these tasks in the following order:
 
-1.  Configure a [MID Server](https://www.servicenow.com/docs/access?context=r_MIDServerSystemRequirements&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) to receive and process events via the MID Server.
-2.  [Configure the MID Web Server extension](../task/configure-mid-web-server-extension.md).
-3.  Configure [Configure Event Management connectors](../reference/connectors-and-listeners.md).
-4.  Configure [event field mappings](c_EMEventFieldMapping.md) and [Binding alerts to CIs](ci-binding-alert.md) to manage alert generation.
-5.  [Alert management rules for resolving alerts](alert-management-rule.md), perform, and [CI remediation](../task/t_SACreateCIRemediation.md) for alert management.
-6.  [Request Service Mapping](../../service-mapping/task/t_ActivateServiceMappingPlugin.md) and get a top-down [discovery](../task/t_EMGetBaselineServiceMapping.md) to receive CI relationships for software and hardware.
-7.  Configure [impact calculation](c_EMImpactCalculation.md) for services, to establish priority for alert resolution.
-8.  Configure [alert groups](../task/t_EMCreateAlertGroup.md) to consolidate related alerts.
+1.  Configure a MID Server to receive and process events via the MID Server.
+2.  [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-mid-web-server-extension.md).
+3.  Configure [Configure Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/connectors-and-listeners.md).
+4.  Configure [event field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/c_EMEventFieldMapping.md) and [Binding alerts to CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/ci-binding-alert.md) to manage alert generation.
+5.  [Alert management rules for resolving alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/alert-management-rule.md), perform, and [CI remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_SACreateCIRemediation.md) for alert management.
+6.  [Request Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/t_ActivateServiceMappingPlugin.md) and get a top-down [discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMGetBaselineServiceMapping.md) to receive CI relationships for software and hardware.
+7.  Configure [impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/c_EMImpactCalculation.md) for services, to establish priority for alert resolution.
+8.  Configure [alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMCreateAlertGroup.md) to consolidate related alerts.
 9.  Configure the Predictive Intelligence plugin \(com.glide.platform\_ml\) to enable machine learning and finding similar alerts.
 10. Configure any other general tasks that appear in this section as appropriate.
 
@@ -34,5 +35,5 @@ Set up Event Management by completing these tasks in the following order:
 
 ## Event Management setup using guided setup
 
-Event Management guided setup provides a sequence of tasks that help you configure Event Management on your ServiceNow instance. To open Event Management guided setup, navigate to **Guided Setup** &gt; **ITOM Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+Event Management guided setup provides a sequence of tasks that help you configure Event Management on your ServiceNow instance. To open Event Management guided setup, navigate to **Guided Setup** &gt; **ITOM Guided Setup**. For more information about using the guided setup interface, see Using guided setup.
 

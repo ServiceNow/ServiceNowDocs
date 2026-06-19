@@ -2,6 +2,7 @@
 title: View external matter details
 description: As a legal fulfiller, view the external matter details fetched from in the legal matter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-matter-management/lmm-lt-view-em-details.html
 release: zurich
 product: Legal Matter Management
 classification: legal-matter-management
@@ -23,15 +24,15 @@ Role required: sn\_lg\_matter.matter\_fulfiller, sn\_lg\_ops.legal\_fulfiller
 
 1.  Open a legal matter.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d151483e51">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d151049e51">
 
 Method
 
-</th><th align="left" id="d151483e54">
+</th><th align="left" id="d151049e54">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d151483e60">
+</th></tr></thead><tbody><tr><td id="d151049e60">
 
 **Using Legal Counsel Center homepage**
 
@@ -41,18 +42,18 @@ Action
 2.  Select **View All** option on the Matters widget.
 
 
-</td></tr><tr><td id="d151483e95">
+</td></tr><tr><td id="d151049e95">
 
 **Using Legal Counsel Center lists**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**
-2.  Select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  In the Lists tab, navigate to **Matters** &gt; **All**.
 
 
-</td></tr><tr><td id="d151483e145">
+</td></tr><tr><td id="d151049e145">
 
 **Using platform view**
 
@@ -70,5 +71,5 @@ Action
 4.  Select link in the Legal Tracker matter link field to open and view the matter in Legal Tracker.
 
 
-**Parent Topic:**[Engage with outside counsel](../../legal-matter-management/task/lmm-eng-outcounsel.md)
+**Parent Topic:**[Engage with outside counsel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/lmm-eng-outcounsel.md)
 

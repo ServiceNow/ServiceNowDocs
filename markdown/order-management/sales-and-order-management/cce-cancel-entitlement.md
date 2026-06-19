@@ -2,6 +2,7 @@
 title: Cancel an entitlement
 description: Cancel an entitlement by creating an order on the CSM Configurable Workspace. By canceling an entitlement, you are canceling or disabling the services and characteristics associated with that entitlement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cce-cancel-entitlement.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -52,5 +53,5 @@ Role required: sn\_customerservice\_manager and sn\_ind\_tmt\_orm.order\_agent
 
 The entitlement is permanently cancelled and will move to Cancelled state.
 
-**Parent Topic:**[Using Contracts and Entitlements Workflows](../concept/using-customer-cnt-ent-wf.md)
+**Parent Topic:**[Using Contracts and Entitlements Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/using-customer-cnt-ent-wf.md)
 

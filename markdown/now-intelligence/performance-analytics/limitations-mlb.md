@@ -2,6 +2,7 @@
 title: Limitations and requirements for data snapshots
 description: Several features of indicators and breakdowns are not supported with data snapshots and multiple breakdowns.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/limitations-mlb.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -19,7 +20,7 @@ Several features of indicators and breakdowns are not supported with data snapsh
 
 |Limitation or unsupported feature|Notes|
 |---------------------------------|-----|
-|Database requirements|Only instances with the [RaptorDB Professional \(PostgreSQL\) database](https://www.servicenow.com/docs/access?context=raptordb&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) are supported, not Oracle or MariaDB/MySQL. \(Checked when plugin is activated.\)|
+|Database requirements|Only instances with the RaptorDB Professional \(PostgreSQL\) database are supported, not Oracle or MariaDB/MySQL. \(Checked when plugin is activated.\)|
 |Domain separation|Domain-separated instances are not supported.|
 
 ## Table-level limitations
@@ -92,7 +93,7 @@ Formula indicators
 
 </td><td>
 
-All [contributing indicators](../concept/performance-analytics-glossary.md#) must support data snapshots.
+All [contributing indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md) must support data snapshots.
 
 </td></tr><tr><td>
 
@@ -108,11 +109,11 @@ Manual or external indicators or breakdowns
 
 </td><td>
 
-Only [automated indicators](../concept/performance-analytics-glossary.md#), [formula indicators](../concept/performance-analytics-glossary.md#), and [automated breakdowns](../concept/performance-analytics-glossary.md#) are supported. All contributing indicators in a formula indicator must be supported for the formula indicator to be supported.
+Only [automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md), [formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md), and [automated breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md) are supported. All contributing indicators in a formula indicator must be supported for the formula indicator to be supported.
 
 </td></tr><tr><td>
 
-Indicators based on [database views](../concept/performance-analytics-glossary.md#)
+Indicators based on [database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md)
 
 </td><td>
 
@@ -183,5 +184,5 @@ All collections are daily.
 |Scoresheets|Manual changes to scoresheets for indicators that are enabled for data snapshots have no effect.|
 |String fields in indicator or source conditions|4000-character limit|
 
-**Parent Topic:**[Data snapshots and multiple breakdowns](../concept/multi-level-breakdowns.md)
+**Parent Topic:**[Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/multi-level-breakdowns.md)
 

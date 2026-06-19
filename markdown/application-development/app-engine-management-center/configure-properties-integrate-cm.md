@@ -2,6 +2,7 @@
 title: Configure properties to integrate Change Management
 description: Configure predefined properties through the Pipelines and Deployments Guided Setup to tailor your Change Management and AEMC integration to your company's needs. Configuring these properties is optional.Configure the change model you would like to use during application deployments. If not configured, the Normal change model is used by default.Configure the default change template used to create change requests during application deployments.Customize how Configuration Items \(CIs\) are created during application deployment using AEMC.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-management-center/configure-properties-integrate-cm.html
 release: zurich
 product: App Engine Management Center
 classification: app-engine-management-center
@@ -25,7 +26,7 @@ Role required: admin
 
 ### About this task
 
-There are several change models you can use to tailor change activities and flows for specific use cases. For more information about each type of model, see [Change models](https://www.servicenow.com/docs/access?context=change-models&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US). Use the steps below to select which change model you would like to use during app deployments.
+There are several change models you can use to tailor change activities and flows for specific use cases. For more information about each type of model, see . Use the steps below to select which change model you would like to use during app deployments.
 
 This task can be completed within the Guided Setup system. This task opens within Guided Setup when you select **Configure**. If you prefer, you can follow the instructions below to access the same configuration task outside of the Guided Setup.
 
@@ -60,7 +61,7 @@ Role required: admin
 
 ### About this task
 
-There are several templates that you can choose from to use as the default template for creating change requests. For more information, see [Create a change request template](https://www.servicenow.com/docs/access?context=create-a-change-request-template&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US). Use the following steps to select which change template you would like to use during app deployments.
+There are several templates that you can choose from to use as the default template for creating change requests. For more information, see . Use the following steps to select which change template you would like to use during app deployments.
 
 This task can be completed within the Guided Setup system. This task opens within Guided Setup when you select **Configure**. If you prefer, you can follow the instructions below to access the same configuration task outside of the Guided Setup.
 
@@ -74,9 +75,9 @@ This task can be completed within the Guided Setup system. This task opens withi
 
     1.  Navigate to **All** &gt; **Change** &gt; **Standard Change** &gt; **All Templates**.
 
-    2.  Select the update personalized list icon \(![](../image/update-personalized-list-icon.png)\) from the list header.
+    2.  Select the update personalized list icon \(\[Omitted image "update-personalized-list-icon.png"\]\) from the list header.
 
-    3.  In the Available column, select **Template** and use the move icon \(![](../../app-engine-studio/image/app-tutorial-move-right-icon.png)\) to add it to the Selected column.
+    3.  In the Available column, select **Template** and use the move icon \(\[Omitted image "app-tutorial-move-right-icon.png"\]\) to add it to the Selected column.
 
     4.  Select **OK**.
 
@@ -117,7 +118,7 @@ By default, the **Create CMDB CI if not present** subflow will run automatically
 
     3.  In the **Name** column, search for and open `Template: Create CMDB CI if not present` or `Create CMDB CI if not present`.
 
-    4.  Select the More Actions menu icon \(![](../../../administer/task-table/image/MoreActionsIcon.png)\), and select **Copy subflow**.
+    4.  Select the More Actions menu icon \(\[Omitted image "MoreActionsIcon.png"\] Alt text:\), and select **Copy subflow**.
 
     5.  Enter a name for the subflow, and make sure the application is in the **Deployment Pipeline** scope.
 
@@ -125,13 +126,13 @@ By default, the **Create CMDB CI if not present** subflow will run automatically
 
     7.  Modify the subflow, and select **Save**.
 
-    8.  To find the sys\_id of the subflow, select the More Actions menu icon \(![](../../../administer/task-table/image/MoreActionsIcon.png)\), and select **Executions**.
+    8.  To find the sys\_id of the subflow, select the More Actions menu icon \(\[Omitted image "MoreActionsIcon.png"\] Alt text:\), and select **Executions**.
 
     9.  Copy the sys\_id.
 
         The sys\_id is listed at the top of the page, after **All&gt; Flow=**.
 
-        ![Subflow's sys_id](../image/subflow-sys-id.png)
+        \[Omitted image "subflow-sys-id.png"\] Alt text: Subflow's sys\_id
 
 3.  In the **sn\_deploy\_pipeline.change\_management.config\_ci\_creation\_subflow** property, paste the sys\_id you have copied into the **Value** field, replacing its current contents.
 

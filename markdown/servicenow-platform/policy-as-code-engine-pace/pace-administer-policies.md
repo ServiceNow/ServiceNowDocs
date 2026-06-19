@@ -2,6 +2,7 @@
 title: Administer PaCE policies
 description: Use PaCE to manage the life cycle of a policy and create, update, review, and execute policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/policy-as-code-engine-pace/pace-administer-policies.html
 release: zurich
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

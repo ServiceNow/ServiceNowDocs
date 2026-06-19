@@ -2,6 +2,7 @@
 title: Workspace for fraud agent
 description: The Intelligent Servicing for Fraud workspace provides a single location for fraud agent to process cases and tasks. Agents can use it to respond to all task types, view the full context of an issue, and get relevant recommendations to resolve issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/intelligent-servicing-for-fraud/workspace-for-fraud-agent.html
 release: zurich
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
@@ -21,5 +22,5 @@ On the workspace landing page, you can get a quick overview of the cases and tas
 
 The following is an example of the workspace landing page for the fraud agent.
 
-![Example landing page in workspace for fraud agent showing number and list of open cases, as well as indicators such as SLA at risk and breached.](../image/fraud-agent-workspace.png "Example of the landing page for fraud agent")
+\[Omitted image "fraud-agent-workspace.png"\] Alt text: Example landing page in workspace for fraud agent showing number and list of open cases, as well as indicators such as SLA at risk and breached.
 

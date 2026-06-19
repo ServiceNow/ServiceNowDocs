@@ -2,6 +2,7 @@
 title: Install Legal Simple Compliance
 description: Install the Legal Simple Compliance application to offer prebuilt workflows for various legal compliance needs. It enables you to manage legal compliance requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-simple-compliance/install-legal-simple-compliance.html
 release: zurich
 product: Legal Simple Compliance
 classification: legal-simple-compliance
@@ -25,9 +26,9 @@ Role required: admin
 
 When you install the Legal Simple Compliance application, the following applications are installed along with the other dependent applications and plugins if they aren’t already installed:
 
--   [Gifts and Entertainment Compliance](../../legal-gifts-entertainment/reference/lsd-ge-landing-page.md)
--   [Legal Conflict of Interest](../../legal-conflict-of-interest/reference/legal-conflict-of-interest-landing-page.md)
--   [Legal Stock Preclearance](../../legal-stock-preclearance/reference/legal-stock-preclearance-landing-page.md)
+-   [Gifts and Entertainment Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-gifts-and-entertainment/lsd-ge-landing-page.md)
+-   [Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-conflict-of-interest/legal-conflict-of-interest-landing-page.md)
+-   [Legal Stock Preclearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-stock-preclearance/legal-stock-preclearance-landing-page.md)
 
 **Note:** You can also install these applications separately.
 
@@ -50,5 +51,5 @@ When you install the Legal Simple Compliance application, the following applicat
 5.  Select **Install**.
 
 
-**Parent Topic:**[Legal Simple Compliance](../concept/legal-simple-compliance-applications.md)
+**Parent Topic:**[Legal Simple Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-compliance/legal-simple-compliance-applications.md)
 

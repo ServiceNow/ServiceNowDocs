@@ -2,6 +2,7 @@
 title: View, edit, and assign high priority incidents with the Security Incident Response Mobile app
 description: From your mobile device, view, edit, and assign high priority Security Incident Response \(SIR\) incidents. View related lists and the audit trail of work notes for more details about incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/mobile-sir-high-priority-incndts.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -25,37 +26,37 @@ From the list of records, assign an open, critical security incident to yourself
 
 ## Procedure
 
-1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the Security Incident Response Mobile app](mobile-sir-get-started.md).
+1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/mobile-sir-get-started.md).
 
 2.  With the Security Incidents landing screen displayed, tap **High Priority Incidents**.
 
     If you navigate away from the Security Incident Response Mobile app after you have logged in, tap the Now Agent app at any time to return to the last screen you had displayed.
 
-    ![High priority incidents applet highlighted.](../image/mobile_SIR_applet_hiprisi.jpg)
+    \[Omitted image "mobile\_SIR\_applet\_hiprisi.jpg"\] Alt text: High priority incidents applet highlighted.
 
     The High Priority Incidents screen is displayed with a list of critical \(high priority\) security incidents.
 
-    ![High Priority security incidents list.](../image/mobile-sir-hipri-si-list.jpg)
+    \[Omitted image "mobile-sir-hipri-si-list.jpg"\] Alt text: High Priority security incidents list.
 
-3.  Refer to [Search for security incidents with the Security Incident Response Mobile app](mobile-sir-search.md) to search for security incidents that match specific criteria.
+3.  Refer to [Search for security incidents with the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/mobile-sir-search.md) to search for security incidents that match specific criteria.
 
-    Alternatively, with the filter icon \(![Filter.](../image/sir-filter-image.png)\) displayed, [Set filters to limit the number of records](mobile-sire-filters.md) on the list. Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform.
+    Alternatively, with the filter icon \(\[Omitted image "sir-filter-image.png"\] Alt text: Filter.\) displayed, [Set filters to limit the number of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/mobile-sire-filters.md) on the list. Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform.
 
 4.  With the list of open high priority security incident records displayed, swipe left on a record to open the menu.
 
-    ![High Priority incidents swipe menu.](../image/mobile-sir-hipri-swipe.jpg)
+    \[Omitted image "mobile-sir-hipri-swipe.jpg"\] Alt text: High Priority incidents swipe menu.
 
 5.  Choose one to continue.
 
-<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d148571e186">
+<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d145325e186">
 
 Option
 
-</th><th align="left" id="d148571e189">
+</th><th align="left" id="d145325e189">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d148571e195">
+</th></tr></thead><tbody><tr><td id="d145325e195">
 
 **Assign to Me**
 
@@ -63,7 +64,7 @@ Description
 
 Assign the security incident to yourself. If the security incident is already assigned to you, this option is not displayed.
 
-</td></tr><tr><td id="d148571e204">
+</td></tr><tr><td id="d145325e204">
 
 **Reassign**
 
@@ -75,42 +76,42 @@ To assign or reassign the assignment group:1.  Tap **Assignment group**
 
  1.  Tap **Assigned to**.
 2.  Tap a name from the list that is displayed, or enter text in the search field.
- Tap the send icon \(![Send in Android.](../../vulnerability-response/image/mobile_instances_send_droid.png)\) or **Submit** to save and submit your changes.
+ Tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send in Android.\) or **Submit** to save and submit your changes.
 
 </td></tr></tbody>
 </table>6.  To view the details of an open security incident record and to see more associated records and related lists, with the High Priority Incidents screen displayed, tap a record on the list.
 
 7.  On the open record that is displayed, choose one option from the following table to continue.
 
-    ![High Priority security incident record with tabs highlighted.](../image/mobile-hipri-si-record.jpg)
+    \[Omitted image "mobile-hipri-si-record.jpg"\] Alt text: High Priority security incident record with tabs highlighted.
 
-<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d148571e279">
+<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d145325e279">
 
 Option
 
-</th><th align="left" id="d148571e282">
+</th><th align="left" id="d145325e282">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d148571e288">
+</th></tr></thead><tbody><tr><td id="d145325e288">
 
-**Tap the menu icon \(![Menu.](../../vulnerability-response/image/mobile-top-menu.png)\) on the upper right of the screen.**
+**Tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Menu.\) on the upper right of the screen.**
 
 </td><td>
 
 From the menu that is displayed, choose from the following options.-   Tap **Edit**. With the Edit Security Incident screen displayed, tap a field to expand it and choose one or more of the options that are displayed. Alternatively, tap the search icon and enter text.
 -   To reassign the incident, tap **Reassign** or **Assign to Me**. Follow the instructions described in the previous table.
- After you complete your edits, tap the send icon \(![Send in Android.](../../vulnerability-response/image/mobile_instances_send_droid.png)\) or **Submit** to save your changes and update the security incident.
+ After you complete your edits, tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send in Android.\) or **Submit** to save your changes and update the security incident.
 
-</td></tr><tr><td id="d148571e333">
+</td></tr><tr><td id="d145325e333">
 
 **Activity Stream tab**
 
 </td><td>
 
-With the Activity tab selected, review the audit trail of work notes, activities, and additional comments of the record. Tap the plus icon \(![Plus.](../../vulnerability-response/image/mobile_instances_plus.png)\) to add a work note or attach a file.
+With the Activity tab selected, review the audit trail of work notes, activities, and additional comments of the record. Tap the plus icon \(\[Omitted image "mobile\_instances\_plus.png"\] Alt text: Plus.\) to add a work note or attach a file.
 
-</td></tr><tr><td id="d148571e351">
+</td></tr><tr><td id="d145325e351">
 
 **Related List tab**
 
@@ -118,7 +119,7 @@ With the Activity tab selected, review the audit trail of work notes, activities
 
 With the Related List tab selected, view the items on any of the Related Lists that are populated on the security incident. Tap an item on the list that is displayed to view the details for a related list. From the lists of items that are displayed, tap an item to continue to view the activity streams and related lists associated with the parent security incident.
 
-</td></tr><tr><td id="d148571e363">
+</td></tr><tr><td id="d145325e363">
 
 **Tap a screen icon at the bottom of the screen.**
 

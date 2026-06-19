@@ -2,6 +2,7 @@
 title: Cluster nodes in a Dependency Views map
 description: Dependency Views maps can display cluster group nodes alongside individual CI nodes, and the child nodes of these cluster groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/dependency-views/c\_CollapsedNodesInNGBSM.html
 release: zurich
 product: Dependency Views
 classification: dependency-views
@@ -30,5 +31,5 @@ By default, Dependency Views collapses all cluster groups and displays clusters 
 
 Icons for cluster nodes and cluster group CI nodes are noted by the string "Cluster" and by a unique cluster icon. The system searches through all the component nodes in a cluster CI or collapsed node looking for tasks, outages, and trouble, such as incidents, problems, or change requests. This search evaluates only the number of levels that are displayed in the diagram.
 
-![An expanded cluster node displays its child nodes.](../image/ClusterExpandedandCollapsed.png "An expanded cluster node displaying its child nodes")
+\[Omitted image "ClusterExpandedandCollapsed.png"\] Alt text: An expanded cluster node displays its child nodes.
 

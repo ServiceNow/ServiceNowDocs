@@ -2,6 +2,7 @@
 title: Configure API metrics
 description: Configure the API metrics feature in Application Insights to enable instance administrators to proactively monitor instance performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-performance/configure-api-metrics.html
 release: zurich
 product: Platform Performance
 classification: platform-performance
@@ -27,7 +28,7 @@ The **API metrics** tab shows up under Application Insights if the following con
 
 Role required: admin
 
-Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the [Overview of Instance Observer](https://www.servicenow.com/docs/access?context=io-overview&version=zurich&pubname=zurich-impact&ft:locale=en-US) product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
+Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the  product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -42,5 +43,5 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
     -   Plugin ID: com.glide.rest.analytics.metricbase
     -   Name: API Metrics
 
-**Parent Topic:**[Monitoring API performance](../concept/api-metrics.md)
+**Parent Topic:**[Monitoring API performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/api-metrics.md)
 

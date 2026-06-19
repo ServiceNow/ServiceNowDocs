@@ -2,6 +2,7 @@
 title: Create a user permission crawl for an external content connector
 description: Retrieve security principals from your source system with a user permission crawl. Run the crawl as a one-time task or schedule it to run on a recurring basis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/create-user-mapping-crawl-external-content-connector.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -18,7 +19,7 @@ Retrieve security principals from your source system with a user permission craw
 
 ## Before you begin
 
-To run crawls for external content connectors, your instance must have inbound mTLS support enabled. For details on verifying that this feature is enabled on your instance, see [Verify whether inbound mTLS support is enabled for your instance](verify-adcv2-inbound-mtls-enabled.md).
+To run crawls for external content connectors, your instance must have inbound mTLS support enabled. For details on verifying that this feature is enabled on your instance, see [Verify whether inbound mTLS support is activated for your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/verify-adcv2-inbound-mtls-enabled.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
@@ -34,7 +35,7 @@ You can run a user permission crawl as a one-time task or set it to recur on a s
 
 **Note:** Beginning with External Content Connectors 6.0, the External Content Connectors application allows a maximum of five connector crawls to run simultaneously on your ServiceNow AI Platform® instance. Both content crawls and user permission crawls count against this limit. You can schedule and run external content connector crawls throughout the day to avoid overlap, or create a Customer Service and Support case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to request a limit increase.
 
-For external content connectors that support user permission crawls, you can also start a user permission crawl by selecting the **Update user permissions** option when creating or scheduling a content crawl. For more details on this option and defining content crawls, see [Create a content crawl for an external content connector](create-content-crawl-external-content-connector.md).
+For external content connectors that support user permission crawls, you can also start a user permission crawl by selecting the **Update user permissions** option when creating or scheduling a content crawl. For more details on this option and defining content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-content-crawl-external-content-connector.md).
 
 **Note:** The following external content connectors don't retrieve user or group access permissions. You can't run user permission crawls for these connectors.
 
@@ -77,20 +78,20 @@ The Atlassian Confluence Cloud external content connector only retrieves permiss
         -   **a**: any of `A`, `a`, `AM`, or `am` for AM \(morning\) or any of `P`, `p`, `PM`, or `pm` for PM \(afternoon\)
 5.  Create your new user permission crawl by selecting the appropriate option.
 
-    -   If you skipped step [4](create-user-mapping-crawl-external-content-connector.md#schedule-crawl), select **Crawl user permissions**.
-    -   If you selected the **Make recurring** option in step [4](create-user-mapping-crawl-external-content-connector.md#schedule-crawl), select **Create user crawl schedule**.
+    -   If you skipped step [4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-user-mapping-crawl-external-content-connector.md), select **Crawl user permissions**.
+    -   If you selected the **Make recurring** option in step [4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-user-mapping-crawl-external-content-connector.md), select **Create user crawl schedule**.
 
 ## Result
 
-If you skipped step [4](create-user-mapping-crawl-external-content-connector.md#schedule-crawl), your new user permission crawl is added to the system's crawl queue. The system runs your crawl when it has resources available to do so.
+If you skipped step [4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-user-mapping-crawl-external-content-connector.md), your new user permission crawl is added to the system's crawl queue. The system runs your crawl when it has resources available to do so.
 
-If you selected the **Make recurring** option in step [4](create-user-mapping-crawl-external-content-connector.md#schedule-crawl), your new crawl appears in the Crawl schedules list in the external content connector editor's Create crawls tab.
+If you selected the **Make recurring** option in step [4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-user-mapping-crawl-external-content-connector.md), your new crawl appears in the Crawl schedules list in the external content connector editor's Create crawls tab.
 
 ## What to do next
 
-You can monitor your user permission crawl's status or review its results using the crawl history and analytics. For details on these metrics, see [Review crawl history for an external content connector](review-crawl-ext-cont-connector.md) and [Review user permissions for an external content connector](review-usr-maps-ext-cont-connector.md).
+You can monitor your user permission crawl's status or review its results using the crawl history and analytics. For details on these metrics, see [Review crawl history for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/review-crawl-ext-cont-connector.md) and [Review user permissions for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/review-usr-maps-ext-cont-connector.md).
 
-If you need to cancel your running user permission crawl, see [Cancel a running external content connector crawl](cancel-ext-cont-connector-crawl.md).
+If you need to cancel your running user permission crawl, see [Cancel a running external content connector crawl](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/cancel-ext-cont-connector-crawl.md).
 
-**Parent Topic:**[Crawling content with External Content Connectors](../concept/using-ext-cont-connectors.md)
+**Parent Topic:**[Crawling content with External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/using-ext-cont-connectors.md)
 

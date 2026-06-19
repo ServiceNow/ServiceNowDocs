@@ -2,6 +2,7 @@
 title: Scan results
 description: Scan Results dashboard helps you with an overview of all details of an executed scan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/instance-scan/hc-scan-results.html
 release: zurich
 product: Instance Scan
 classification: instance-scan
@@ -17,7 +18,7 @@ Scan Results dashboard helps you with an overview of all details of an executed 
 
 Navigate to **All** &gt; **Instance Scan** &gt; **Results**. Select a scan result from the Scan Results list. Click the **Results Dashboard**link on the Scan Result form.
 
-![Image showing scan results dashboard](../image/hc-scan-results-dashboard.png)
+\[Omitted image "hc-scan-results-dashboard.png"\] Alt text: Image showing scan results dashboard
 
 Select **Rescan** to execute the same scan again. If you want to see all the findings grouped by checks, select **Findings** at the top right corner.
 
@@ -100,7 +101,7 @@ Findings By Developer
 Name of the user whose changes generated the findings.**Note:** Only the top 5 user names appear on the list. Click **View All** to view all the findings grouped by users.
 
 </td></tr></tbody>
-</table>If a scan is in progress and at least one of the checks fails, the following warning message shows up.![Image showing warning message for scan results](../image/hc-scan-results-warning.png)
+</table>If a scan is in progress and at least one of the checks fails, the following warning message shows up.\[Omitted image "hc-scan-results-warning.png"\] Alt text: Image showing warning message for scan results
 
-**Parent Topic:**[Results](hs-results.md)
+**Parent Topic:**[Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/instance-scan/hs-results.md)
 

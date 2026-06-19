@@ -2,6 +2,7 @@
 title: Information on the Alert Insight Similar Alerts tab
 description: View the list of alerts that are provided by the Alert Insight feature on the Alert Insight Similar Alerts tab. The Alert Insight feature generates the information to help you resolve the alert.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-op-alrt-inst-simlr-alrts-tab.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -26,5 +27,5 @@ Service Operations Workspace provides a context-aware alert triage based on data
 -   Perform remediation \(based on orchestration\)
 -   Launch a subflow \(workflow based on flow designer\).
 
-**Parent Topic:**[Health Log Analytics reference](../../health-log-analytics-admin/concept/hla-reference.md)
+**Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-reference.md)
 

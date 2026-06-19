@@ -2,6 +2,7 @@
 title: AutomationException - Global
 description: The AutomationException script include provides generic exception wrapping for automation.Retrieves the error message.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_AutomationException.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The AutomationException script include provides generic exception wrapping for a
 
 Include this in automation code to implement error handling.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## AutomationException - getMessage\(\)
 

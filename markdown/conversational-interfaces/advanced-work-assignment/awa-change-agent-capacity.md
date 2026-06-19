@@ -2,6 +2,7 @@
 title: Override agent capacity for selected agents
 description: Change the default number of work items that an agent can handle for a service channel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/awa-change-agent-capacity.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -80,7 +81,7 @@ Agents to which this override applies. Move the agent names from the **Available
 
 ## What to do next
 
-If you’re configuring a service channel, you can [create or change an inbox layout](awa-modify-inbox-layout.md) for the channel.
+If you’re configuring a service channel, you can [create or change an inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-modify-inbox-layout.md) for the channel.
 
-**Parent Topic:**[Configuring Advanced Work Assignment](installing-awa.md)
+**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

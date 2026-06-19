@@ -2,6 +2,7 @@
 title: GlideOAuthClientResponse - Scoped, Global
 description: The GlideOAuthClientResponse API provides methods for handling OAuth client responses.Retrieves all of the response information, including instance information.Retrieves the HTTP response content header from an external OAuth provider.Retrieves the error message if authentication is not successful.Retrieves the HTTP response code from the external OAuth provider.Retrieves the error message if authentication is not successful.Retrieves the refresh token.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_GlideOAuthClientResponse.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The GlideOAuthClientResponse API provides methods for handling OAuth client resp
 
 You can use this API in global and scoped scripts. In scoped scripts use the `sn_auth` namespace identifier.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideOAuthClientResponse - getBody\(\)
 

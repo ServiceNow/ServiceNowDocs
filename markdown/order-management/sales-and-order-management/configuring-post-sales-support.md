@@ -2,6 +2,7 @@
 title: Configure Customer Contracts and Entitlements
 description: Use the Customer Contracts and Entitlements application to configure and display customer service contracts and entitlements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configuring-post-sales-support.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -17,7 +18,7 @@ Use the Customer Contracts and Entitlements application to configure and display
 
 ## Activate Customer Contracts and Entitlements
 
-As an admin, you can activate the following plugins to enable users to create and manage Customer Contracts and Entitlements. For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+As an admin, you can activate the following plugins to enable users to create and manage Customer Contracts and Entitlements. For more information, see .
 
 <table id="table_yct_wrv_4zb"><thead><tr><th>
 
@@ -64,7 +65,7 @@ Customer Contracts and Entitlements \[com.sn\_pss\_core\]​
 
 </td></tr><tr><td>
 
-[Contracts and Entitlement Workflows​](configure-cont-ent-workflows-csm.md)\[com.sn\_contract\_ent\_wf\]
+[Contracts and Entitlement Workflows​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/configure-cont-ent-workflows-csm.md)\[com.sn\_contract\_ent\_wf\]
 
 </td><td>
 
@@ -88,9 +89,9 @@ Provides workflows to manage changes on Customer Contracts and Entitlements.
 </td></tr></tbody>
 </table>With the activation of Customer Contracts and Entitlements, the existing contracts are available for viewing only.
 
-For more information on the installed roles and tables, see [Components installed with Customer Contracts and Entitlements](../reference/components-installed-pss.md).
+For more information on the installed roles and tables, see [Components installed with Customer Contracts and Entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/components-installed-pss.md).
 
 ## Request apps from the ServiceNow Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 

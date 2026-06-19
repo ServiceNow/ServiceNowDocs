@@ -2,6 +2,7 @@
 title: NowAttachmentService class - iOS
 description: The NowAttachmentService class provides functions that enable you to upload and query attachments that are associated with records within a table on a ServiceNow instance.Retrieves the attachment with the specified sys\_id and validates the attachment by comparing the computed hash of the attachment to the expected SHA256 checksum.Retrieves the attachment with the specified sys\_id and validates the attachment by comparing the computed hash of the attachment to the expected SHA256 checksum. Once finished, it executes the passed completion handler.Retrieves the attachment with the specified sys\_id and validates the attachment by comparing the computed hash of the attachment to the expected hash.Retrieves the metadata for all the attachments that meet the specified criteria.Retrieves the metadata for all the attachments that meet the specified criteria.Retrieves the metadata for all the attachments that meet the specified criteria.Retrieves the metadata for the attachment associated with the specified sys\_id.Retrieves the metadata for the attachment associated with the specified sys\_id and then executes the completion handler after the metadata is retrieved.Retrieves the metadata for the attachment associated with the specified sys\_id.Retrieves the metadata for all the attachments that meet the specified criteria and returns a Paginator object for iterating through the pages of the returned metadata.Deletes the attachment with the specified sys\_id.Deletes the attachment with the specified sys\_id and then executes the passed completion handler after the attachment is deleted.Deletes the attachment with the specified sys\_id.Initializes a new NowAttachmentService instance.Uploads the attachment data and attaches it to a record in a table as specified in the upload configuration.Uploads the attachment data and attaches it to a record in a table as specified in the upload configuration.Uploads the attachment data and attaches it to a record in a table as specified in the upload configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/cllent-mobile-api-reference/NowAttachmentServiceiOSAPI.html
 release: zurich
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -21,9 +22,9 @@ You can upload or retrieve a single file with each request. NowAttachmentService
 
 |Name|Type|Description|
 |----|----|-----------|
-|configuration|[NowServiceConfiguration](../../NowServiceConfiguration/concept/NowServiceConfigurationiOSStruct.md#)|Configuration settings provided when the service was initialized.|
+|configuration|[NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowServiceConfigurationiOSStruct.md)|Configuration settings provided when the service was initialized.|
 
-**Parent Topic:**[Mobile SDK - iOS](../../concept/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowAttachmentService - attachment\(for sysId: String, validateAttachment: Boolean\) async throws
 
@@ -225,13 +226,13 @@ completion
 
 </td><td>
 
-@escaping \(Result​&lt;[NowAttachment](../../NowAttachment/concept/NowAttachmentiOSStructure.md#), NowDataError&gt;\)
+@escaping \(Result​&lt;[NowAttachment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAttachmentiOSStructure.md), NowDataError&gt;\)
 
 </td><td>
 
 Completion handler to execute after the attachment is retrieved. Return values for the completion handler:
 
--   Success: [NowAttachment](../../NowAttachment/concept/NowAttachmentiOSStructure.md#) - Requested attachment
+-   Success: [NowAttachment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAttachmentiOSStructure.md) - Requested attachment
 -   Failure: NowDataError
     -   `accessToken(AccessTokenProviderError)`
 
@@ -376,11 +377,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-AnyPublisher​&lt;[NowAttachment](../../NowAttachment/concept/NowAttachmentiOSStructure.md#), NowDataError&gt;
+AnyPublisher​&lt;[NowAttachment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAttachmentiOSStructure.md), NowDataError&gt;
 
 </td><td>
 
-Success: [NowAttachment](../../NowAttachment/concept/NowAttachmentiOSStructure.md#) - Contains the specified attachment.Failure: NowDataError
+Success: [NowAttachment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAttachmentiOSStructure.md) - Contains the specified attachment.Failure: NowDataError
 
 -   `accessToken(AccessTokenProviderError)`
 
@@ -486,7 +487,7 @@ filter
 
 </td><td>
 
-[Filter](../../Filter/concept/FilteriOSStructure.md#)
+[Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/FilteriOSStructure.md)
 
 </td><td>
 
@@ -625,7 +626,7 @@ filter
 
 </td><td>
 
-[Filter](../../Filter/concept/FilteriOSStructure.md#)
+[Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/FilteriOSStructure.md)
 
 </td><td>
 
@@ -649,7 +650,7 @@ completion
 
 </td><td>
 
-@escaping \(Result​&lt;\[[NowAttachmentMetadata](../../NowAttachmentMetadata/concept/NowAttachmentMetadataiOSStructure.md#)\], NowDataError&gt;\)
+@escaping \(Result​&lt;\[[NowAttachmentMetadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAttachmentMetadataiOSStructure.md)\], NowDataError&gt;\)
 
 </td><td>
 
@@ -770,7 +771,7 @@ filter
 
 </td><td>
 
-[Filter](../../Filter/concept/FilteriOSStructure.md#)
+[Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/FilteriOSStructure.md)
 
 </td><td>
 
@@ -799,7 +800,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-AnyPublisher​&lt;\[[NowAttachmentMetadata](../../NowAttachmentMetadata/concept/NowAttachmentMetadataiOSStructure.md#)\], NowDataError&gt;
+AnyPublisher​&lt;\[[NowAttachmentMetadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAttachmentMetadataiOSStructure.md)\], NowDataError&gt;
 
 </td><td>
 
@@ -1024,13 +1025,13 @@ completion
 
 </td><td>
 
-@escaping \(Result​&lt;[NowAttachmentMetadata](../../NowAttachmentMetadata/concept/NowAttachmentMetadataiOSStructure.md#), NowDataError&gt;\)
+@escaping \(Result​&lt;[NowAttachmentMetadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAttachmentMetadataiOSStructure.md), NowDataError&gt;\)
 
 </td><td>
 
 Completion handler to execute after the metadata is retrieved. Return values for the completion handler:
 
--   Success: [NowAttachmentMetadata](../../NowAttachmentMetadata/concept/NowAttachmentMetadataiOSStructure.md#) - Requested metadata
+-   Success: [NowAttachmentMetadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAttachmentMetadataiOSStructure.md) - Requested metadata
 -   Failure: NowDataError
     -   `accessToken(AccessTokenProviderError)`
 
@@ -1140,7 +1141,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-AnyPublisher​&lt;\[[NowAttachmentMetadata](../../NowAttachmentMetadata/concept/NowAttachmentMetadataiOSStructure.md#)\], NowDataError&gt;
+AnyPublisher​&lt;\[[NowAttachmentMetadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAttachmentMetadataiOSStructure.md)\], NowDataError&gt;
 
 </td><td>
 
@@ -1249,7 +1250,7 @@ filter
 
 </td><td>
 
-[Filter](../../Filter/concept/FilteriOSStructure.md#)
+[Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/FilteriOSStructure.md)
 
 </td><td>
 
@@ -1278,7 +1279,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Paginator](../../Paginator/concept/PaginatorIOSAPI.md#)​&lt;\[[NowAttachmentMetadata](../../NowAttachmentMetadata/concept/NowAttachmentMetadataiOSStructure.md#)\]&gt;
+[Paginator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/PaginatorIOSAPI.md)​&lt;\[[NowAttachmentMetadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAttachmentMetadataiOSStructure.md)\]&gt;
 
 </td><td>
 
@@ -1715,7 +1716,7 @@ configuration
 
 </td><td>
 
-[NowServiceConfiguration](../../NowServiceConfiguration/concept/NowServiceConfigurationiOSStruct.md#)
+[NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowServiceConfigurationiOSStruct.md)
 
 </td><td>
 
@@ -1787,7 +1788,7 @@ configuration
 
 </td><td>
 
-[NowAttachmentUpload Configuration](../../NowAttachmentUploadConfiguration/concept/NowAttachUploadConfigiOSStruct.md#)
+[NowAttachmentUpload Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAttachUploadConfigiOSStruct.md)
 
 </td><td>
 
@@ -1956,7 +1957,7 @@ configuration
 
 </td><td>
 
-[NowAttachmentUpload Configuration](../../NowAttachmentUploadConfiguration/concept/NowAttachUploadConfigiOSStruct.md#)
+[NowAttachmentUpload Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAttachUploadConfigiOSStruct.md)
 
 </td><td>
 
@@ -1987,13 +1988,13 @@ completion
 
 </td><td>
 
-@escaping \(Result&lt;[NowAttachmentMetadata](../../NowAttachmentMetadata/concept/NowAttachmentMetadataiOSStructure.md#), NowDataError&gt;\)
+@escaping \(Result&lt;[NowAttachmentMetadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAttachmentMetadataiOSStructure.md), NowDataError&gt;\)
 
 </td><td>
 
 Completion handler to execute after the metadata is uploaded. Return values for the completion handler:
 
--   Success: [NowAttachmentMetadata](../../NowAttachmentMetadata/concept/NowAttachmentMetadataiOSStructure.md#) - Object containing the metadata for the uploaded attachment.
+-   Success: [NowAttachmentMetadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAttachmentMetadataiOSStructure.md) - Object containing the metadata for the uploaded attachment.
 -   Error: NowDataError
     -   `accessToken(AccessTokenProviderError)`
 
@@ -2138,7 +2139,7 @@ configuration
 
 </td><td>
 
-[NowAttachmentUploadConfiguration](../../NowAttachmentUploadConfiguration/concept/NowAttachUploadConfigiOSStruct.md#)
+[NowAttachmentUploadConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAttachUploadConfigiOSStruct.md)
 
 </td><td>
 
@@ -2174,11 +2175,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-AnyPublisher​&lt;[NowAttachmentMetadata](../../NowAttachmentMetadata/concept/NowAttachmentMetadataiOSStructure.md#), NowDataError&gt;
+AnyPublisher​&lt;[NowAttachmentMetadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAttachmentMetadataiOSStructure.md), NowDataError&gt;
 
 </td><td>
 
-Success: [NowAttachmentMetadata](../../NowAttachmentMetadata/concept/NowAttachmentMetadataiOSStructure.md#) - Object that contains the metadata for the requested attachment.Failure: NowDataError
+Success: [NowAttachmentMetadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAttachmentMetadataiOSStructure.md) - Object that contains the metadata for the requested attachment.Failure: NowDataError
 
 -   `accessToken(AccessTokenProviderError)`
 

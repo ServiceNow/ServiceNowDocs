@@ -2,6 +2,7 @@
 title: Configure an event push connector
 description: Integrate with an event push connector to connect to an external event source and push event information to your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/push-connector.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -23,7 +24,7 @@ Role required: evt\_mgmt\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the bottom of the navigation pane, select the AIOps configuration center icon ![ITOM AIOps configuration center icon](../../health-log-analytics-admin/image/icon-itom-aiops-config.png).
+2.  From the bottom of the navigation pane, select the AIOps configuration center icon \[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon.
 
     The ITOM AIOps configuration center page appears. The configuration center is a centralized workspace. Use it to configure and manage AIOps features from a single place.
 
@@ -33,13 +34,13 @@ Role required: evt\_mgmt\_admin
 
     Only push connector tiles are displayed.
 
-    ![Filtering with Push connectors](../image/push-connectors-page.png "Push connectors")
+    \[Omitted image "push-connectors-page.png"\] Alt text: Filtering with Push connectors
 
 5.  Select a push connector type tile.
 
 6.  Provide details about the connector type on the **Provide details** screen.
 
-    ![Push connector details page](../image/push-connectors-details.png "Push connectors details page")
+    \[Omitted image "push-connectors-details.png"\] Alt text: Push connector details page
 
     1.  In the **Connector name** field, enter a unique name for the connector type.
 
@@ -60,7 +61,7 @@ Role required: evt\_mgmt\_admin
 
         The connector is saved in draft mode, and the process advances to the Set-up push connector section.
 
-        ![Connector set up page](../image/push-connector-setup.png)
+        \[Omitted image "push-connector-setup.png"\] Alt text: Connector set up page
 
 7.  In the **URL parameter value** field, select **Copy to clipboard** to copy the auto-generated URL parameter value to the clipboard.
 
@@ -75,5 +76,5 @@ Role required: evt\_mgmt\_admin
 
 ## What to do next
 
-To confirm the successful configuration of the pull connector and the flow of events into the system, go to the **Related events** tab. If the setup is successful, proceed to **Add automation** to establish an alert automation. For details on **Related events** tab, see [Review integration and configuration health](review-integration-config-health.md) and for information on alert automation, see [Alert automation in Service Operations Workspace for ITOM](../concept/sow-itom-alert-automation.md).
+To confirm the successful configuration of the pull connector and the flow of events into the system, go to the **Related events** tab. If the setup is successful, proceed to **Add automation** to establish an alert automation. For details on **Related events** tab, see [Review integration and configuration health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/review-integration-config-health.md) and for information on alert automation, see [Alert automation in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/sow-itom-alert-automation.md).
 

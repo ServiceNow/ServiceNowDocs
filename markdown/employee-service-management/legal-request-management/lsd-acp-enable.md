@@ -2,6 +2,7 @@
 title: Disable attorney client privilege for a legal request
 description: Disable attorney client privilege for a legal request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-request-management/lsd-acp-enable.html
 release: zurich
 product: Legal Request Management
 classification: legal-request-management
@@ -27,19 +28,19 @@ As a fulfiller, you can disable Privilege and Confidential status for a legal re
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Click the list icon \(![List icon](../image/lsd-lcc-list-icon.png)\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d712321e102">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d197261e102">
 
 Option
 
-</th><th align="left" id="d712321e105">
+</th><th align="left" id="d197261e105">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d712321e111">
+</th></tr></thead><tbody><tr><td id="d197261e111">
 
 **As an assignee**
 
@@ -51,7 +52,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d712321e140">
+</td></tr><tr><td id="d197261e140">
 
 **As a collaborator**
 
@@ -64,11 +65,11 @@ The state of the legal request is Work in progress and the document is Legal rev
 </td></tr></tbody>
 </table>4.  Disable Privileged and Confidential status.
 
-    1.  Click the More actions icon \(![More actions icon](../../workplace-central/images/more-actions-move-schedule.png)\).
+    1.  Click the More actions icon \(\[Omitted image "more-actions-move-schedule.png"\] Alt text: More actions icon\).
 
     2.  Select **Remove Privileged and Confidential**.
 
-        ![Disable privileged and confidential](../image/lr-disable-acp.png)
+        \[Omitted image "lr-disable-acp.png"\] Alt text: Disable privileged and confidential
 
     3.  In the confirmation modal enter work notes and select **Disable**.
 
@@ -81,5 +82,5 @@ The state of the legal request is Work in progress and the document is Legal rev
 -   In the Privileged Document Access tab, the document permissions is marked as Public.
 -   Stakeholders are notified of the change.
 
-**Parent Topic:**[Work on a legal request](../task/work-on-legal-request.md)
+**Parent Topic:**[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/work-on-legal-request.md)
 

@@ -2,6 +2,7 @@
 title: Monitor my tasks in the Tasks page in the workspace
 description: Configure and monitor the tasks that are related to an assigned user in the workspace. Configure the landing pages and the widgets that are displayed in the workspaces using the Landing Page Configurations module. The configurations performed using the Landing Page Configurations module help you to filter the data that is displayed in different workspaces.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/configure-my-tasks-in-ws.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -35,7 +36,7 @@ Navigate to the individual workspaces to view the tasks, items, and watchlist fo
     -   **All** &gt; **Risk** &gt; **Risk workspace**.
     -   **All** &gt; **Risk** &gt; **Risk Portal**.
     -   **All** &gt; **Vendor Management** &gt; **Workspace**.
-2.  To navigate to the Tasks page, select the tasks icon \(![Tasks icon](../image/tasks-icon-new.png)\).
+2.  To navigate to the Tasks page, select the tasks icon \(\[Omitted image "tasks-icon-new.png"\] Alt text: Tasks icon\).
 
 3.  Navigate to the tab that you want to view, and monitor the tasks.
 
@@ -52,5 +53,5 @@ Navigate to the individual workspaces to view the tasks, items, and watchlist fo
     **Note:** When a user or user group does not have any pending or associated tasks, a message displays under the respective tab that `All your tasks are done`.
 
 
-**Parent Topic:**[My tasks in the workspace](../concept/configuration-of-tasks.md)
+**Parent Topic:**[My tasks in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/configuration-of-tasks.md)
 

@@ -2,6 +2,7 @@
 title: Set up forecast schedule
 description: Forecast schedule automatically fetches all the opportunities in the system and generates forecast data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/setup-forecast-schedule.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -31,7 +32,7 @@ Role required: admin
 
 4.  From the Run list, select the option to customize the timing of the scheduler according to your requirements.
 
-    ![Forecast scheduler](../image/forecast-scheduler.png)
+    \[Omitted image "forecast-scheduler.png"\] Alt text: Forecast scheduler
 
 5.  Select **Update** to save the settings of your scheduler.
 

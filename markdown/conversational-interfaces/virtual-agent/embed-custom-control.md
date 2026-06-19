@@ -2,6 +2,7 @@
 title: Add a custom control to a Virtual Agent topic or topic block
 description: Add a custom control to a Virtual Agent topic or topic block. During the conversation, you can gather inputs from the user or display outputs to the user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/embed-custom-control.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -20,7 +21,7 @@ Add a custom control to a Virtual Agent topic or topic block. During the convers
 
 Do the following before you start this task:
 
--   [Create and publish the custom input or response control](create-custom-control.md).
+-   [Create and publish the custom input or response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-custom-control.md).
 -   Create a calling topic or topic block in which the custom control will be embedded.
 
 Role required: virtual\_agent\_admin or admin
@@ -71,7 +72,7 @@ Input mapping
 
 The variables to be used as input to the selected custom control. For example, the following image has example variables:
 
- ![Input mapping variables on this custom control include transaction date and time, customer name, and product issue.](../images/map-cc-input-values-topic-block.png)
+ \[Omitted image "map-cc-input-values-topic-block.png"\] Alt text: Input mapping variables on this custom control include transaction date and time, customer name, and product issue.
 
  The contents of this area change according to the custom control you selected. Options may include string input, referenced records, scripts, and so forth.
 
@@ -83,7 +84,7 @@ Output mapping
 
 The variables to be output by the selected custom control. For example, the following image has example variables that are enabled:
 
- ![Output mapping variables for this custom control include issue and username.](../images/cc-output-mapping-topic.png)
+ \[Omitted image "cc-output-mapping-topic.png"\] Alt text: Output mapping variables for this custom control include issue and username.
 
  The contents of this area change according to the custom control you selected.
 

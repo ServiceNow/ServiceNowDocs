@@ -2,6 +2,7 @@
 title: Configure event collection from an Icinga2 connector
 description: Configure the Icinga 2 \(Icinga\) connector instance to receive events while monitoring your network resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/configure-icinga-connector.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -45,7 +46,7 @@ Supported version: 2.4.1.
 
     The connector instance values are added to the form and the parameters that are relevant to the connector appear.
 
-    ![Icinga Connector Instance Values](../image/icinga2-connector-values.png)
+    \[Omitted image "icinga2-connector-values.png"\] Alt text: Icinga Connector Instance Values
 
     1.  debug: Display debug messages. Default value: false. Specify true to see debug messages.
     2.  logPayloadForDebug: Display payload related debug messages. Default value: false. Specify true to see payload related debug messages.
@@ -117,5 +118,5 @@ Provide the Icinga alert type details. There are 2 types of an alert in Icinga2:
 9.  Click **Update**.
 
 
-**Parent Topic:**[Configure a pull connector](t_EMConfigureConnectorInstance.md)
+**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 

@@ -2,6 +2,7 @@
 title: Roll back a document
 description: A document can be rolled back to an earlier revision at any time. Before rolling back to an earlier revision, ensure that the document is not checked out and that you have Editor or Owner permissions for the document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/t\_RollBackADocument.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -40,5 +41,5 @@ Role required: document\_management\_user
     The latest revision is now the revision that you selected for rollback.
 
 
-**Parent Topic:**[Create a document](../concept/c_CreateADocument.md)
+**Parent Topic:**[Create a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/c_CreateADocument.md)
 

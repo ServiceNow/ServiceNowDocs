@@ -2,7 +2,10 @@
 title: Install the Task Intelligence for Customer Service application
 description: You can install the Task Intelligence for Customer Service application \(com.snc.csm\_ml\_task\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence. JW - No demo data per dev team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/install-task-intelligence-cs-app.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -34,7 +37,7 @@ The following items are installed with Task Intelligence for Customer Service:
 -   Flows
 -   Scheduled jobs
 
-For more information, see [Components installed with Task Intelligence for Customer Service](../reference/case-categorization-components.md).
+For more information, see [Components installed with Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/case-categorization-components.md).
 
 ## Procedure
 

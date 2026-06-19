@@ -2,6 +2,7 @@
 title: NowCoreService class - iOS
 description: The NowCoreService class provides fundamental services to the various SDK feature services. This class should only be instantiated by NowSDK.Notifies the SDK core that the access token used to authorize the API requests to the ServiceNow instance for the specified service is no longer valid.Notifies the SDK core that the access token used to authorize the API requests to the ServiceNow instance for the specified service is no longer valid.Queries the host application as to whether the service is allowed to request the device permission.Checks whether the current user is a guest user.Refreshes all SDK settings for all services by re-fetching them from the active servers.Refreshes the SDK settings for the specified service by re-fetching them from the server.Refreshes the SDK settings for the specified service by re-fetching them from the server.Acquires an access token for the specified service.Acquires an access token for the specified service.Returns a reference to a shared network service that you can use to make API requests.Returns the SDK settings for the specified feature service.Returns the SDK settings for the specified feature service.Retrieves the settings for the publisher of the specified service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/cllent-mobile-api-reference/NowCoreServiceiOSAPI.html
 release: zurich
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -17,7 +18,7 @@ The NowCoreService class provides fundamental services to the various SDK featur
 
 Feature services, such as Now Analytics and NowChat, can access a shared core instance through the NowSDK.core property.
 
-**Parent Topic:**[Mobile SDK - iOS](../../concept/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowCoreService - accessTokenDidFail\(for service: NowService\)
 
@@ -29,7 +30,7 @@ The SDK core returns a valid access token if it is able to generate one or retur
 
 |Name|Type|Description|
 |----|----|-----------|
-|for service|[NowService](../../NowService/concept/NowServiceiOSProtocol.md#)|Feature service requesting the access token.|
+|for service|[NowService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowServiceiOSProtocol.md)|Feature service requesting the access token.|
 
 <table id="table_q5n_vcb_npb" class="returns"><thead><tr><th>
 
@@ -70,7 +71,7 @@ The SDK core returns a valid access token if it is able to generate one or retur
 
 |Name|Type|Description|
 |----|----|-----------|
-|for service|[NowService](../../NowService/concept/NowServiceiOSProtocol.md#)|Feature service requesting the access token.|
+|for service|[NowService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowServiceiOSProtocol.md)|Feature service requesting the access token.|
 
 <table id="table_q5n_vcb_npb" class="returns"><thead><tr><th>
 
@@ -214,7 +215,7 @@ let isGuestUser = await NowSDK.core()?.isGuestUser(for: someService)
 
 Refreshes all SDK settings for all services by re-fetching them from the active servers.
 
-To receive updated SDK settings values whenever they're refreshed, subscribe to the publisher provided by the [NowCoreService - settingsPublisher\(for service: NowService\)](NowCoreServiceiOSAPI.md#) function.
+To receive updated SDK settings values whenever they're refreshed, subscribe to the publisher provided by the [NowCoreService - settingsPublisher\(for service: NowService\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowCoreServiceiOSAPI.md) function.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -340,7 +341,7 @@ Acquires an access token for the specified service.
 
 |Name|Type|Description|
 |----|----|-----------|
-|for service|[NowService](../../NowService/concept/NowServiceiOSProtocol.md#)|Feature service requesting the access token.|
+|for service|[NowService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowServiceiOSProtocol.md)|Feature service requesting the access token.|
 
 <table id="table_et1_ftb_npb" class="returns"><thead><tr><th>
 
@@ -375,7 +376,7 @@ Acquires an access token for the specified service.
 
 |Name|Type|Description|
 |----|----|-----------|
-|for service|[NowService](../../NowService/concept/NowServiceiOSProtocol.md#)|Feature service requesting the access token.|
+|for service|[NowService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowServiceiOSProtocol.md)|Feature service requesting the access token.|
 
 <table id="table_et1_ftb_npb" class="returns"><thead><tr><th>
 
@@ -424,7 +425,7 @@ Returns a reference to a shared network service that you can use to make API req
 
 |Name|Type|Description|
 |----|----|-----------|
-|for service|[NowService](../../NowService/concept/NowServiceiOSProtocol.md#)|Feature service requesting the network service.|
+|for service|[NowService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowServiceiOSProtocol.md)|Feature service requesting the network service.|
 
 |Type|Description|
 |----|-----------|
@@ -545,7 +546,7 @@ Retrieves the settings for the publisher of the specified service.
 
 |Name|Type|Description|
 |----|----|-----------|
-|for service|[NowService protocol - iOS](../../NowService/concept/NowServiceiOSProtocol.md#)|Feature service requesting the publisher subscription.|
+|for service|[NowService protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowServiceiOSProtocol.md)|Feature service requesting the publisher subscription.|
 
 |Type|Description|
 |----|-----------|

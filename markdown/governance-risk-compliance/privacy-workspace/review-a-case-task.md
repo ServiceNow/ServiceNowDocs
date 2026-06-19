@@ -2,6 +2,7 @@
 title: Review and close a case task
 description: Review a case task after a case task owner provides their responses and observations for the case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/review-a-case-task.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -27,15 +28,15 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 3.  Review the case task and then do one of the following.
 
-<table id="choicetable_l5k_yst_1wb"><thead><tr><th align="left" id="d365905e77">
+<table id="choicetable_l5k_yst_1wb"><thead><tr><th align="left" id="d83278e77">
 
 Choice
 
-</th><th align="left" id="d365905e80">
+</th><th align="left" id="d83278e80">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d365905e86">
+</th></tr></thead><tbody><tr><td id="d83278e86">
 
 **To request revision of the details provided by the case task owner**
 
@@ -46,7 +47,7 @@ Steps
 3.  Select **Request revision**.
 
 
-</td></tr><tr><td id="d365905e113">
+</td></tr><tr><td id="d83278e113">
 
 **To close the task as complete**
 
@@ -57,7 +58,7 @@ Steps
 3.  Select **Close as complete**.
 
 
-</td></tr><tr><td id="d365905e140">
+</td></tr><tr><td id="d83278e140">
 
 **To close the task as incomplete**
 
@@ -68,7 +69,7 @@ Steps
 3.  Select **Close as incomplete**.
 
 
-</td></tr><tr><td id="d365905e167">
+</td></tr><tr><td id="d83278e167">
 
 **To cancel the case task**
 
@@ -81,5 +82,5 @@ Steps
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Work on a case task](accept-a-case-task.md)
+**Parent Topic:**[Work on a case task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/accept-a-case-task.md)
 

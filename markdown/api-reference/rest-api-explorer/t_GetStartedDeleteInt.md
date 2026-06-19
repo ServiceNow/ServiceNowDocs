@@ -2,6 +2,7 @@
 title: Delete the incident
 description: Delete the incident using a DELETE request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-api-explorer/t\_GetStartedDeleteInt.html
 release: zurich
 product: REST API Explorer
 classification: rest-api-explorer
@@ -37,10 +38,10 @@ Use the REST API Explorer to send the following request:
 
     The response indicates the **Status code** and **Execution time** \(in milliseconds\) of the request.
 
-    ![REST API Explorer DELETE response](../image/rest-api-exp-delete-response.png)
+    \[Omitted image "rest-api-exp-delete-response.png"\] Alt text: REST API Explorer DELETE response
 
 5.  Verify that the response **Status code** is `204`.
 
 
-**Parent Topic:**[Use the REST API Explorer](../concept/use-REST-API-Explorer.md)
+**Parent Topic:**[Use the REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/use-REST-API-Explorer.md)
 

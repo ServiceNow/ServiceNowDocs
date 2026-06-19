@@ -2,6 +2,7 @@
 title: Components installed with Workplace Core
 description: Several types of components are installed with installation of the Workplace Core application, including user roles, scheduled jobs, tables, and business rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/components-installed-with-workplace-safety-mgmt-hr.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace
@@ -15,7 +16,7 @@ breadcrumb: [Install Workplace Core, Workplace Core, Safe Workplace, Health and 
 
 Several types of components are installed with installation of the Workplace Core application, including user roles, scheduled jobs, tables, and business rules.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -319,7 +320,7 @@ User Shift\[sn\_wsd\_core\_m2m\_user\_shift\]
 
 </td><td>
 
-Stores the relationship between shifts and employees.For existing users who are upgrading from the first version of the app, ensure that you have the **User** field as the display value. For more information, see [Select a field as the table display value](https://www.servicenow.com/docs/access?context=t_SelectTheDisplayValue&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Stores the relationship between shifts and employees.For existing users who are upgrading from the first version of the app, ensure that you have the **User** field as the display value. For more information, see Select a field as the table display value.
 
 </td></tr><tr><td>
 
@@ -361,7 +362,7 @@ Workplace Task\[sn\_wsd\_core\_workplace\_task\]
 
 Stores all the workplace tasks created for shifts.
 
- If you are upgrading from version 1.1.1 or earlier of the app, ensure that the **Default Value** field is empty for the workplace\_task\_type column of this table. For more information on how to modify the default display value of a table column, see [Specify a default field value](https://www.servicenow.com/docs/access?context=t_SpecifyingADefaultValue&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+ If you are upgrading from version 1.1.1 or earlier of the app, ensure that the **Default Value** field is empty for the workplace\_task\_type column of this table. For more information on how to modify the default display value of a table column, see Specify a default field value.
 
 </td></tr><tr><td>
 
@@ -372,5 +373,5 @@ Workplace rooms\[sn\_wsd\_core\_room\]
 Extends the Space \[sn\_wsd\_core\_space\] table. It holds the reservable items of a room that are available to reserve.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Workplace Core](../task/install-workplace-safety-mgmt-hr.md)
+</table>**Parent Topic:**[Install Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/install-workplace-safety-mgmt-hr.md)
 

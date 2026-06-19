@@ -2,6 +2,7 @@
 title: Create a deflection rule for sales contracts
 description: Create a deflection rule for providing guidance to requesters for a sales contract based on the specified conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-simple-contracts/create-contract-deflection-rule.html
 release: zurich
 product: Legal Simple Contracts
 classification: legal-simple-contracts

@@ -2,6 +2,7 @@
 title: Machine learning solutions for Search administration
 description: Machine learning in Search administration helps to enhance business scalability and improve business operations for organizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/machine-learning-solutions-for-search/machine-learning-search.html
 release: zurich
 product: Machine Learning solutions for Search
 classification: machine-learning-solutions-for-search

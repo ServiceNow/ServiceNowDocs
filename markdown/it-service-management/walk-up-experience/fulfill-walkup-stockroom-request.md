@@ -2,6 +2,7 @@
 title: Use platform view to fulfill a Walk-up Experience request from a stockroom
 description: Walk-up Experience agents can access an associated stockroom and fulfill user requests directly from an interaction in platform view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/walk-up-experience/fulfill-walkup-stockroom-request.html
 release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -51,8 +52,8 @@ When a walk-up queue requester requests a consumable, such as a computer monitor
 
     Alternatively, you can click **Close** to complete the interaction.
 
-    If you cannot fulfill the request from the associated stockroom, click the **Create Request** related link from the interaction form to access the Service Catalog. Refer to [Create a request through a catalog](https://www.servicenow.com/docs/access?context=t_CreateARequestThroughTheCatalog&version=zurich&pubname=zurich-service-management-for-the-enterprise&ft:locale=en-US) to order an item for the requester.
+    If you cannot fulfill the request from the associated stockroom, click the **Create Request** related link from the interaction form to access the Service Catalog. Refer to  to order an item for the requester.
 
 
-**Parent Topic:**[View Walk-up Experience location stockroom and assets](view-walkup-location-stockroom.md)
+**Parent Topic:**[View Walk-up Experience location stockroom and assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/view-walkup-location-stockroom.md)
 

@@ -2,6 +2,7 @@
 title: View the dependency map for an Operational Technology system service
 description: View the dependency map for an Operational Technology \(OT\) system service to see the graphical representation of the hierarchical structure of the selected OT system service and its relationship with other entities in the production process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-manager/view-dependency-map-for-ot-system-service.html
 release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -36,10 +37,10 @@ Role required: cmdb\_ot\_editor
 2.  If you want to view the dependency map for an OT system service in the Industrial Workspace, complete the following actions:
 
     1.  Navigate to **All** &gt; **Industrial Workspace**.
-    2.  Select the List \(![List icon](../../../common/image/icon-list.png)\) icon.
+    2.  Select the List \(\[Omitted image "icon-list.png"\] Alt text: List icon\) icon.
     3.  Under the **Operational Technology \(OT\)** module, select the **OT Systems** list.
     4.  Select the OT system service record you want to view the OT dependency map for.
     5.  Select **View OT Dependency map**.
 
-**Parent Topic:**[Modeling an Operational Technology system service](../concept/modeling-ot-system.md)
+**Parent Topic:**[Modeling an Operational Technology system service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/modeling-ot-system.md)
 

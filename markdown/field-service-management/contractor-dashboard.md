@@ -2,7 +2,10 @@
 title: Contractor dashboard
 description: Use this dashboard to review the status of work order tasks, agents, agent feedback, and appointments of contractor companies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/contractor-dashboard.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -13,7 +16,7 @@ breadcrumb: [Analytics and reporting, Field Service Management]
 
 Use this dashboard to review the status of work order tasks, agents, agent feedback, and appointments of contractor companies.
 
-![Contractor dashboard with graphical representations organized by work type and state. For the text description, refer to the table in the Reports section.](../image/contractor_dashboard.png)
+\[Omitted image "contractor\_dashboard.png"\] Alt text: Contractor dashboard with graphical representations organized by work type and state. For the text description, refer to the table in the Reports section.
 
 ## Required ServiceNow AI Platform roles
 
@@ -44,14 +47,14 @@ Reviews the work order task progress and agent feedback results based on the sel
 
 |Title|Type|Source table|Description|
 |-----|----|------------|-----------|
-|Non Compliant Appointments|Single Score ![](../../reporting/image/icon-single-score-report.png)|\[wm\_task\]|Number of appointments not started on time.|
-|Task SLA Breach Status|Semi Donut ![](../../reporting/image/icon-semidonut-report.png)|\[Task\_sla\]|Data work order tasks that have breached the task SLA.|
-|Closed Complete Tasks|Single Score ![](../../reporting/image/icon-single-score-report.png)|\[wm\_task\]|Number of work order tasks closed by agents.|
-|Agents|Single Score ![](../../reporting/image/icon-single-score-report.png)|\[Sys\_user\]|Number of agents associated with the contractor company.|
-|Task Rejections|Single Score ![](../../reporting/image/icon-single-score-report.png)|\[wm\_task\_rejection\]|Number of work order tasks rejected by the contractor manager.|
-|Average Agent Rating|Single Score ![](../../reporting/image/icon-single-score-report.png)|\[wm\_agent\_rating\]|Average rating of all the agents in the company.|
-|Work Distribution By Work Type|Pie ![](../../reporting/image/icon-pie-report.png)|\[wm\_task\]|Percentage of work order tasks divided based on the type of work, such as install, break fix, and so on.|
-|Work Distribution by state|Pie ![](../../reporting/image/icon-pie-report.png)|\[wm\_task\]|Percentage of work order tasks divided based on their real-time status, such as Assigned, Work in Progress, and so on.|
+|Non Compliant Appointments|Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:|\[wm\_task\]|Number of appointments not started on time.|
+|Task SLA Breach Status|Semi Donut \[Omitted image "icon-semidonut-report.png"\] Alt text:|\[Task\_sla\]|Data work order tasks that have breached the task SLA.|
+|Closed Complete Tasks|Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:|\[wm\_task\]|Number of work order tasks closed by agents.|
+|Agents|Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:|\[Sys\_user\]|Number of agents associated with the contractor company.|
+|Task Rejections|Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:|\[wm\_task\_rejection\]|Number of work order tasks rejected by the contractor manager.|
+|Average Agent Rating|Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:|\[wm\_agent\_rating\]|Average rating of all the agents in the company.|
+|Work Distribution By Work Type|Pie \[Omitted image "icon-pie-report.png"\] Alt text:|\[wm\_task\]|Percentage of work order tasks divided based on the type of work, such as install, break fix, and so on.|
+|Work Distribution by state|Pie \[Omitted image "icon-pie-report.png"\] Alt text:|\[wm\_task\]|Percentage of work order tasks divided based on their real-time status, such as Assigned, Work in Progress, and so on.|
 
 ## Filters
 
@@ -60,5 +63,5 @@ Reviews the work order task progress and agent feedback results based on the sel
 |Contractor|Reference|Select Single Input|Filter the report results based on a selected contractor company or all.|
 |Date Range|Date|Select Single Input|Filter the report results based on the selected date range, such as last 30 days.|
 
-**Parent Topic:**[Analytics and reporting for Field Service Management](../../../product/field-service-management/concept/analytics-reporting-fsm.md)
+**Parent Topic:**[Analytics and reporting for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/analytics-reporting-fsm.md)
 

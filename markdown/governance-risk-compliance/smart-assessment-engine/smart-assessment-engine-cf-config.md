@@ -2,6 +2,7 @@
 title: Configuring Smart Assessment Engine
 description: You can activate or upgrade the Smart Assessment Engine application by downloading it from the ServiceNow Store and then configuring the settings in the initial setup checklist to meet your needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-config.html
 release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -27,7 +28,7 @@ Activate the following plugins to set up the core SAE application. Role required
 -   **Smart Assessment Designer** plugin \(com.sn\_smart\_asmt\_desg\)
 -   **Smart Assessment Connected** plugin \(com.sn\_smart\_asmt\_conn\)
 
-To see the instructions for downloading a GRC application from the ServiceNow® Store, see [Download a GRC application from the ServiceNow Store for the first time](../../grc-common/task/download-grc-first-time.md).
+To see the instructions for downloading a GRC application from the ServiceNow® Store, see [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/download-grc-first-time.md).
 
 ## Advanced feature plugins for SAE
 
@@ -35,7 +36,7 @@ Activate the following plugins to enable additional SAE capabilities. Role requi
 
 -   **Smart Assessment Migration Tools** plugin \(com.sn\_smart\_asmt\_mig\)
 
-    **Note:** The migration plugin is necessary only if you have existing assessment designs. This plugin migrates your existing metric types to the new assessment templates. For more information on migrating metric types to assessment templates, see [Creating an assessment template from legacy assessment metric types](sae-asmnt-template-migrating.md).
+    **Note:** The migration plugin is necessary only if you have existing assessment designs. This plugin migrates your existing metric types to the new assessment templates. For more information on migrating metric types to assessment templates, see [Creating an assessment template from legacy assessment metric types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-migrating.md).
 
 -   **Smart Assessment Dependencies** plugin \(com.sn\_smart\_asmt\_dep\)
 
@@ -49,11 +50,11 @@ Activate the following plugins to enable additional SAE capabilities. Role requi
 -   **Basic Scoring for Smart Assessment** plugin \(com.sn\_smart\_scoring\)
 -   **Smart Assessment Collaboration** plugin \(com.sn\_smart\_collab\)
 
-To see the instructions for downloading a GRC application from the ServiceNow® Store, see [Download a GRC application from the ServiceNow Store for the first time](../../grc-common/task/download-grc-first-time.md).
+To see the instructions for downloading a GRC application from the ServiceNow® Store, see [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/download-grc-first-time.md).
 
 **Note:** After installing the required plugins, you can do the following:
 
--   Assign SAE roles to users and user groups. Roles determine the permissions and access in the Smart Assessment Engine application. For more information, see [Roles in Smart Assessment Engine](../reference/sae-roles-defined.md).
--   Activate a language. The ServiceNow AI Platform uses American English by default. You can configure SAE to use a different language. For more information, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+-   Assign SAE roles to users and user groups. Roles determine the permissions and access in the Smart Assessment Engine application. For more information, see [Roles in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md).
+-   Activate a language. The ServiceNow AI Platform uses American English by default. You can configure SAE to use a different language. For more information, see .
 -   Refer to the upstream application documentation for further steps. For example, after installing the plugins from the setup checklist, you can refer to the Policy and Compliance Management documentation to enable smart assessments in Policy and Compliance Management.
 

@@ -2,6 +2,7 @@
 title: Assign a regulatory event alert to a coordinator
 description: Log in to the GRC: Regulatory Change Management application, review the regulatory event alert, update the details, and assign it to a coordinator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/regulatory-change-management-service-portal/perform-actions-on-reg-alerts-using-ws.html
 release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -77,5 +78,5 @@ The regulatory event alert is assigned to the selected coordinator.
 
 ## What to do next
 
-[Assess the impact of a regulatory event alert](assess-impact-of-reg-change-using-ws.md)
+[Assess the impact of a regulatory event alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/assess-impact-of-reg-change-using-ws.md)
 

@@ -2,6 +2,7 @@
 title: Reviewing the Knowledge Management property for an Operational Technology knowledge base
 description: As an administrator, you can configure the look and functionalities of Operational Technology \(OT\) knowledge bases with the Knowledge Management properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-knowledge-management/reviewing-knowledge-management-properties.html
 release: zurich
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
@@ -36,7 +37,7 @@ List of roles \(comma-separated\) that can flag incomplete/inaccurate articles \
 Enter the role names exactly as they appear in **User Administration** &gt; **Roles**. If both the **Show article rating section** and **Show "Flag Article" option** properties are selected, the users with the roles listed in this property see the flag article option in the article view.All roles listed in this property must also be listed in the **List of roles that can see an article's rating section** property.
 
 </td></tr></tbody>
-</table>For more information about the other available Knowledge Management properties, see [Knowledge Management properties](https://www.servicenow.com/docs/access?context=r_KnowledgeProperties&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+</table>For more information about the other available Knowledge Management properties, see .
 
-**Parent Topic:**[Configuring Operational Technology Knowledge Management](configuring-operational-technology-knowledge-management.md)
+**Parent Topic:**[Configuring Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-knowledge-management/configuring-operational-technology-knowledge-management.md)
 

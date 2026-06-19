@@ -2,6 +2,7 @@
 title: Activate an HR flow
 description: HR flows help automate task and case creation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/activate-hr-flow.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -40,5 +41,5 @@ Activation is immediate. These flows create an HR case adding an entry in the HR
 3.  Click the **Activate** button.
 
 
-**Parent Topic:**[HR flows and triggers](../concept/hr-flows-and-triggers.md)
+**Parent Topic:**[HR flows and triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-flows-and-triggers.md)
 

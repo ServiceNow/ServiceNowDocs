@@ -2,6 +2,7 @@
 title: Flow diagramming view
 description: Create and view flows as diagrams. See the paths a flow can follow and the connections between elements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/flow-diagramming-view.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -29,7 +30,7 @@ Enable the flow diagramming view of a flow to gain these benefits.
 
 ## Flow Diagramming components
 
-![Example flow displaying the eight user interface components of the flow diagramming view](../images/flow-diagramming-view-ui.png "Flow Diagramming user interface components")
+\[Omitted image "flow-diagramming-view-ui.png"\] Alt text: Example flow displaying the eight user interface components of the flow diagramming view
 
 The Flow diagramming view consists of these components.
 
@@ -154,5 +155,5 @@ The flow diagramming view supports a limited selection of flow components. Workf
     -   Service Catalog
     -   SLA Task
 
-**Parent Topic:**[Exploring flows](../../workflow-studio/concept/exploring-flows.md)
+**Parent Topic:**[Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-flows.md)
 

@@ -2,6 +2,7 @@
 title: Available templates
 description: Use an application template to create an application in App Engine Studio \(AES\) with preconfigured data, experience, logic and automation, and security.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/template-library.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -17,24 +18,24 @@ Use an application template to create an application in App Engine Studio \(AES\
 
 Templates are a good starting place for many applications you might want to build. You can also begin your application using a template and then customize the application. Use any of the templates below to build a fully-fledged application, or use them as a starting point to create an app customized to your needs.
 
--   **[Document Approval template](document-approval-template.md#)**  
+-   **[Document Approval template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/document-approval-template.md)**  
 Build an application in App Engine Studio \(AES\) using the Document Approval template to manage the approval of documents in your organization.
--   **[Emergency Alert template](emergency-alert-template.md#)**  
+-   **[Emergency Alert template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/emergency-alert-template.md)**  
 Build an application in App Engine Studio \(AES\) using the Emergency Alert template to manage communications and track essential resources during an emergency.
--   **[Event Registration template](event-reg-template.md#)**  
+-   **[Event Registration template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/event-reg-template.md)**  
 Build an application in App Engine Studio \(AES\) using the Event Registration template to manage scheduling, booking, and registration for company events.
--   **[Expense Pre-Approval template](cost-approval-template.md#)**  
+-   **[Expense Pre-Approval template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/cost-approval-template.md)**  
 Build an application in App Engine Studio \(AES\) using the Expense Pre-Approval template to create, track, and manage planned expenses in your organization.
--   **[Inventory Tracker template](inventory-tracker-template.md#)**  
+-   **[Inventory Tracker template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/inventory-tracker-template.md)**  
 Build an application in App Engine Studio \(AES\) using the Inventory Tracker template to track the status of inventory and assets.
--   **[Performance Review template](performance-appraisal-template.md#)**  
+-   **[Performance Review template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/performance-appraisal-template.md)**  
 Build an application in App Engine Studio \(AES\) using the Performance Review template to automate scheduling, notifications, and feedback for performance reviews.
--   **[Service Request Management template](service-request-management-template.md#)**  
+-   **[Service Request Management template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/service-request-management-template.md)**  
 Build an application in App Engine Studio \(AES\) using the Service Request Management template to create, track, and manage service requests in your organization.
--   **[Team Contacts template](team-contacts-template.md#)**  
+-   **[Team Contacts template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/team-contacts-template.md)**  
 Build an application in App Engine Studio \(AES\) using the Team Contacts template to manage contact information for the people in your organization.
--   **[Time Off template](time-off-requests-template.md#)**  
+-   **[Time Off template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/time-off-requests-template.md)**  
 Build an application in App Engine Studio \(AES\) using the Time Off Requests template to schedule employee vacations and time-off.
 
-**Parent Topic:**[Create your app using an application template](../task/use-app-template.md)
+**Parent Topic:**[Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/use-app-template.md)
 

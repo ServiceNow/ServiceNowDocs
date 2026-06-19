@@ -2,6 +2,7 @@
 title: Association of citations to controls
 description: A direct citation-to-control mapping feature that improves compliance score accuracy and provides flexibility to manage associations between controls and citations without relying on control objectives.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/citation-to-control-mapping.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -21,7 +22,7 @@ In many compliance frameworks, a single control objective may be referenced by m
 
 The new Citation to Control Mapping feature remedies this by introducing an association table called \[sn\_compliance\_mtm\_citation\_control\], which allows direct mapping between citations and controls. This enhancement enables users to manually associate or disassociate controls with citations, ensuring flexibility and accuracy. It also improves compliance score calculations by basing them on controls rather than indirect relationships through control objectives.
 
-To enable this feature, a property named **Association of Citations to Controls Mapping** is added. This property is disabled by default. To enable this feature, see [Enable associations of citation to controls mapping](../task/enable-citation-to-control-mapping.md).
+To enable this feature, a property named **Association of Citations to Controls Mapping** is added. This property is disabled by default. To enable this feature, see [Enable associations of citation to controls mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/enable-citation-to-control-mapping.md).
 
 ## New compliance score formula
 
@@ -31,7 +32,7 @@ When this feature is enabled, the compliance score formula changes to:
 Citation compliance score = Average(Child Citations) + Average(Directly Linked Controls)
 ```
 
-This shift ensures that the compliance scores reflect only the relevant controls associated with each citation. For more information on compliance score calculations, see [Compliance score calculation for a citation](compliance-score-calculation-for-a-citation.md).
+This shift ensures that the compliance scores reflect only the relevant controls associated with each citation. For more information on compliance score calculations, see [Compliance score calculation for a citation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/compliance-score-calculation-for-a-citation.md).
 
 ## UI changes to Citation page
 

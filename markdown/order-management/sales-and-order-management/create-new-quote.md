@@ -2,11 +2,12 @@
 title: Create a quote
 description: Create a quote in Quote Management to start the quote building process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/create-new-quote.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -28,21 +29,21 @@ When you start a quote, a dialog box prompts you for quote information. You can 
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![image.Lists] view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Quotes** &gt; **All** and select **New**.
 
 3.  On the **Create new quote** form, fill in the fields.
 
-<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d120431e111">
+<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d84341e105">
 
 To
 
-</th><th align="left" id="d120431e114">
+</th><th align="left" id="d84341e108">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d120431e120">
+</th></tr></thead><tbody><tr><td id="d84341e114">
 
 **Create quote for an account**
 
@@ -54,7 +55,7 @@ Select the **Account** and enter the following:-   Contact: Name of the primary 
 -   Channel partner: \(Optional\) The name of the organization selling a product or service.
 
 
-</td></tr><tr><td id="d120431e146">
+</td></tr><tr><td id="d84341e140">
 
 **Create quote for a consumer**
 
@@ -69,14 +70,14 @@ Select the **Consumer** name and enter the following:-   Short description: Brie
 
     The quote is saved and you return to the **Quotes** list view.
 
-5.  Select refresh ![](../../tmt-telecom-network-inventory/image/icon-refresh.png) to see the new quote in the list.
+5.  Select refresh \[Omitted image "icon-refresh.png"\] Alt text: to see the new quote in the list.
 
 6.  Select **Add Line Items** to save the quote and begin adding quote line items.
 
 
 ## What to do next
 
-[Add and view details of a quote](quote-management-details-tab.md).
+[Add and view details of a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-management-details-tab.md).
 
-**Parent Topic:**[Using Quote Management](../concept/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-mgmt-using.md)
 

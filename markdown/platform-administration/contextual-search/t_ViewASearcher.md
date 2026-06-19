@@ -2,6 +2,7 @@
 title: View a searcher
 description: View the details of a searcher to know which search resources it searches and which search contexts use it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/contextual-search/t\_ViewASearcher.html
 release: zurich
 product: Contextual Search
 classification: contextual-search
@@ -29,12 +30,12 @@ ServiceNow provides pre-defined searchers. You can't create, update, or delete s
 
 2.  Edit a searcher record.
 
-    ![Searcher form showing Search Resources related list.](../image/ContextualSearcherConfiguration.png)
+    \[Omitted image "ContextualSearcherConfiguration.png"\] Alt text: Searcher form showing Search Resources related list.
 
 3.  In the Search Resources related list, view the resources searched by this searcher.
 
 4.  In the Search Contexts related list, view all the search contexts that use this specific searcher.
 
 
-**Parent Topic:**[Managing contextual search](../concept/working-with-contextual-search.md)
+**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/working-with-contextual-search.md)
 

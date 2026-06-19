@@ -2,6 +2,7 @@
 title: Service Instance form
 description: The Service Instance form enables you to create, review, and modify the details of an application service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/application-service-instance-form.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -154,5 +155,5 @@ Comments
 Any additional comments.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Telecommunications Network Inventory reference](../concept/telecommunications-network-inventory-reference.md)
+</table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 

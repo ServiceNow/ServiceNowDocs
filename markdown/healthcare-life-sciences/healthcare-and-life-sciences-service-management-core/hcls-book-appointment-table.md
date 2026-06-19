@@ -2,6 +2,7 @@
 title: Book appointment table
 description: The Book appointment \[sn\_hcls\_book\_appt\_task\] table stores the task details for booking an appointment associated with a healthcare case or its extended case types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-book-appointment-table.html
 release: zurich
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -22,7 +23,7 @@ The Book appointment \[sn\_hcls\_book\_appt\_task\] table stores the task detail
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](../concept/hcls-serv-mgmt-core-1.md).
+For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
 <table id="table_gsz_dbb_npb"><thead><tr><th>
 
@@ -62,7 +63,7 @@ Alpha-numeric profile identifier of the appointment booking task.
 
  The value is auto-generated and is incremented every time you add a new appointment booking task to your ServiceNow instance. The initial value for the **Number** field is APPTS00001001.
 
-**Note:** To customize the number, define the auto-numbering format for the Book appointment \[sn\_hcls\_book\_appt\_task\] table. For more information, see [Add auto-numbering records in a table](https://www.servicenow.com/docs/access?context=t_AutoNumberingRecordsInATable&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** To customize the number, define the auto-numbering format for the Book appointment \[sn\_hcls\_book\_appt\_task\] table. For more information, see Add auto-numbering records in a table.
 
 </td></tr><tr id="patient"><td>
 
@@ -143,5 +144,5 @@ Status of the appointment booking task.
 -   Requested
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](hcls-healthcare-data-tables.md)
+</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)
 

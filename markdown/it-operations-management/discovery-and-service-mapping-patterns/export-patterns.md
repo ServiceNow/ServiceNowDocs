@@ -2,6 +2,7 @@
 title: Copy patterns from one instance to another
 description: To copy patterns from one instance to another, create an update set containing new or modified patterns with their related items in your development instance. Then, import the update set into your production instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/export-patterns.html
 release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -93,11 +94,11 @@ The update set is an XML file with the following name convention: sys\_remote\_u
 
         The customization is now available as a retrieved update set with state Loaded.
 
-3.  [Preview the imported update set](https://www.servicenow.com/docs/access?context=t_PreviewARemoteUpdateSet&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+3.  Preview the imported update set.
 
     The system scans and validates the update set and displays its contents on the **Customer Updates** tab.
 
-4.  [Commit the update set](https://www.servicenow.com/docs/access?context=t_CommitAnUpdateSet&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+4.  Commit the update set.
 
 5.  Click **Close** in the success message.
 
@@ -114,14 +115,14 @@ The update set is an XML file with the following name convention: sys\_remote\_u
 7.  If the discovery fails or the result is not as expected, restart the MID Server to make sure that the MID Server runs the latest set of patterns.
 
 
-**Parent Topic:**[Discovery patterns used by ITOM Visibility](../concept/c_MappingPatternsCustomization.md)
+**Parent Topic:**[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)
 
-**Previous topic:**[Finalize a pattern](t_FinalizePatternPatDef.md)
+**Previous topic:**[Finalize a pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/t_FinalizePatternPatDef.md)
 
-**Next topic:**[Choose the pattern version](t_ChoosePatternVersionPatDef.md)
+**Next topic:**[Choose the pattern version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/t_ChoosePatternVersionPatDef.md)
 
 **Related topics**  
 
 
-[System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+[bundle-cadev.system-update-sets]
 

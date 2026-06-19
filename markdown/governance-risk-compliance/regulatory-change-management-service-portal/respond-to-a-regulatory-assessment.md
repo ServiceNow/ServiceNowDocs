@@ -2,6 +2,7 @@
 title: Respond to a regulatory assessment
 description: Utilize the Smart Assessment Engine to respond to regulatory assessments from the Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/regulatory-change-management-service-portal/respond-to-a-regulatory-assessment.html
 release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal

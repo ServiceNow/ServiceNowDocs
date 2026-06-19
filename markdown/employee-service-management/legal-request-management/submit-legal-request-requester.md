@@ -2,6 +2,7 @@
 title: Update a legal request by requester
 description: Update the variables in the form fields and submit the legal request by the requester once the request is sent back by the fulfiller.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-request-management/submit-legal-request-requester.html
 release: zurich
 product: Legal Request Management
 classification: legal-request-management
@@ -23,7 +24,7 @@ Role required: sn\_lg\_ops.legal\_user
 
 ## About this task
 
-After the legal request is transferred and the fulfiller sends the request back to the requester, an email notification is sent to the requester. For more information on the transfer of a legal request, see [Transfer a legal request](transfer-existing-legal-request.md).
+After the legal request is transferred and the fulfiller sends the request back to the requester, an email notification is sent to the requester. For more information on the transfer of a legal request, see [Transfer a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/transfer-existing-legal-request.md).
 
 **Note:** If the legal request is created by a different user on behalf of the requester, both users receive the email notification and both can update the request.
 
@@ -48,5 +49,5 @@ The legal request is updated with the new variable information.
 
 A success confirmation message is displayed.
 
-**Parent Topic:**[Work on a legal request](work-on-legal-request.md)
+**Parent Topic:**[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/work-on-legal-request.md)
 

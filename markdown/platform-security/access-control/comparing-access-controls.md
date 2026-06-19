@@ -2,6 +2,7 @@
 title: Compare user access
 description: Compare the user's access control using the Access Analyzer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/comparing-access-controls.html
 release: zurich
 product: Access Control
 classification: access-control
@@ -33,7 +34,7 @@ The following procedure describes the steps for comparing the access control bet
 
 3.  Fill in the following fields:
 
-    ![Compare user access](../images/comparing-access-controls.png)
+    \[Omitted image "comparing-access-controls.png"\] Alt text: Compare user access
 
 <table id="table_urw_xh5_szb"><thead><tr><th>
 
@@ -98,7 +99,7 @@ Specify a field name to select from the list.
 
     The compare user access results show the operation and the access evaluation status for the users. For example, Abel Tuter and ITIL User.
 
-    ![Compare user access results](../images/comparing-access-controls-results.png)
+    \[Omitted image "comparing-access-controls-results.png"\] Alt text: Compare user access results
 
 5.  Select the Operation to know more about the permission evaluation and the roles the users are assigned to.
 
@@ -106,17 +107,17 @@ Specify a field name to select from the list.
 
 6.  Select any of the **Access Control** to know more about the access.
 
-    ![ACL details](../images/comparing-access-controls-operation.png)
+    \[Omitted image "comparing-access-controls-operation.png"\] Alt text: ACL details
 
     The Access Control details such as Roles, Security Attribute, Condition, and Script evaluation status are displayed.
 
-    ![ACL details](../images/comparing-access-controls-details.png)
+    \[Omitted image "comparing-access-controls-details.png"\] Alt text: ACL details
 
 7.  Select **Show role Hierarchy** to know more about the roles and groups the user is assigned and compare both the users.
 
     Based on the role hierarchy, you can assign the necessary role and group assignments to the user to have access to the resources \(table\).
 
-    ![Role or group details](../images/comparing-access-controls-role-details.png)
+    \[Omitted image "comparing-access-controls-role-details.png"\] Alt text: Role or group details
 
     In the example, **Abel Tuter** doesn't have `itil` assigned. You can determine the necessary role and group assignments to the user by looking into the role hierarchy.
 

@@ -2,6 +2,7 @@
 title: Issue form
 description: Use the issue form to add an issue to a demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/demand-management/issue-form.html
 release: zurich
 product: Demand Management
 classification: demand-management
@@ -97,7 +98,7 @@ Brief description of the issue and its potential impact on the success of the de
 
  As you start entering the title for your issue, related issues that potentially match your issue are displayed.
 
- Select the suggestion icon \(![](../image/demand-suggestion-icon.png)\) to select from the list of predefined issue descriptions.
+ Select the suggestion icon \(\[Omitted image "demand-suggestion-icon.png"\] Alt text:\) to select from the list of predefined issue descriptions.
 
 </td></tr><tr><td>
 
@@ -116,5 +117,5 @@ Work notes
 Information to record and track the work accomplished for resolving the issue.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Demand Management forms](../concept/demand-management-forms.md)
+</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/demand-management-forms.md)
 

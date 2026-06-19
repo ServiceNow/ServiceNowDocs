@@ -2,12 +2,14 @@
 title: Asset performance reports in the Hardware Asset Workspace
 description: Gain insights into the overall operational efficiency of your organization's hardware assets by using the asset performance reports available in the Asset analytics view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/asset-performance-reports-ham.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-04-20"
 reading_time_minutes: 7
+keywords: [asset performance reports, hardware assets efficiency]
 breadcrumb: [Explore, Hardware Asset Management, IT Asset Management]
 ---
 
@@ -26,7 +28,7 @@ Asset performance involves assessing how effectively and efficiently assets fulf
 
 -   **Reduce unplanned downtime**
 
-    Monitoring asset health in real-time help prevent and predict issues before they cause downtime.
+    Real-time asset health monitoring can prevent and predict issues before they cause downtime.
 
 -   **Improve maintenance efficiency**
 
@@ -38,29 +40,31 @@ Asset performance involves assessing how effectively and efficiently assets fulf
 
 -   **Enhance financial planning**
 
-    Insights into performance help identify models or locations that aren't performing well or have ongoing problems, guiding better investment choices.
+    Performance insights help identify models or locations with poor performance or ongoing problems, guiding better investment choices.
 
 -   **Align operations with service levels**
 
-    Tracking availability helps assets meet the required uptime targets set by service level agreements \(SLAs\), compliance standards, or production schedules.
+    Tracking availability ensures that assets achieve the required uptime targets set by service level agreements \(SLAs\), compliance standards, or production schedules.
 
 
 ## Considerations, requirements, and limitations
 
+-   To track additional hardware model categories in KPIs, [opt in the relevant HAM resource categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/optin-optout-ham-license-resource-categories.md). Otherwise, newly added model categories do not appear in performance metrics or dashboards.
+-   The **First Used** field on HAM assets must contain a valid timestamp for accurate asset performance tracking. Assets with missing or invalid First Used values are excluded from performance calculations, creating gaps in lifecycle and utilization reporting.
 -   Asset key performance indicators \(KPIs\) aren't calculated for pallets, consumable, and bundle assets.
 -   Asset KPIs aren't calculated by default.
--   To track the asset KPIs that include Asset availability, MTBF, and MTTR, you must perform the following configurations:
-    1.  [Opt in to the model categories of the assets for which you want to monitor the KPIs](../task/opt-in-kpi-tracking-ham.md).
+-   To track asset KPIs including Asset availability, MTBF, and MTTR, complete these configurations:
+    1.  [Opt in to the model categories of the assets for which you want to monitor the KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/opt-in-kpi-tracking-ham.md).
 
         **Note:** If a model category has child categories, selecting the parent category for performance tracking doesn’t automatically include the child categories. You need to opt in to the specific child categories you want to track.
 
     2.  Define an operation schedule, which is a collection of schedule entries that specify the operational status and total operational duration for any entity that references the schedule. The schedule entries define calendar hours of operation within a schedule.
 
-        For details, see [Create an operational schedule for hardware assets](../task/create-operational-schedule-ham.md).
+        For details, see [Create an operational schedule for hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-operational-schedule-ham.md).
 
         **Note:** If an operational schedule isn't defined, the Default operation schedule is applied.
 
-    3.  [Create an Asset schedule to associate the hardware assets with an operational schedule](../task/create-asset-schedule-ham.md).
+    3.  [Create an Asset schedule to associate the hardware assets with an operational schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-asset-schedule-ham.md).
 
         **Note:** If an asset isn't associated with an operational schedule, the Default asset schedule will be applied.
 
@@ -192,9 +196,9 @@ The count of total outage records for an asset. Overlapping and concurrent outag
 </table>## Accessing asset KPI reports
 
 -   Contextual sidebar of the asset Form: You can view the following reports by using the options available in the contextual sidebar of the asset form.
-    -   [Asset availability and related KPIs report for an individual asset](../task/view-availability-for-hardware-aaset.md).
-    -   [Asset task time summary report for all hardware assets](../task/view-total-time-spent-on-asset-ham.md).
--   Asset performance tab on the Asset analytics view: You can view the average values of the KPIs, including Average availability, Average MTTR, and Average MTBF, for all the assets that are being tracked. Additionally, you can see a list of the assets that contributed to the calculation of these KPIs. For details, see [Asset analytics view in the Hardware Asset Workspace](asset-analytics-view.md).
+    -   [Asset availability and related KPIs report for an individual asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/view-availability-for-hardware-aaset.md).
+    -   [Asset task time summary report for all hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/view-total-time-spent-on-asset-ham.md).
+-   Asset performance tab on the Asset analytics view: You can view the average values of the KPIs, including Average availability, Average MTTR, and Average MTBF, for all the assets that are being tracked. Additionally, you can see a list of the assets that contributed to the calculation of these KPIs. For details, see [Asset analytics view in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/asset-analytics-view.md).
 
 ## Scheduled job for calculation of asset KPIs
 

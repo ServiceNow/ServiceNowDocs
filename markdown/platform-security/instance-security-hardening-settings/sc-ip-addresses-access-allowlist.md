@@ -2,6 +2,7 @@
 title: Define allowed ServiceNow internal IP addresses \[Updated in Security Center 1.3 and 1.5\]
 description: Use the glide.ip.authenticate.strict property to specify IP ranges that can make inbound connections on an instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-ip-addresses-access-allowlist.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -26,9 +27,11 @@ Use the **glide.ip.authenticate.strict** property to reduce the scope of the IP 
     The default IP allow list is used which contains a wider set of ServiceNow IP ranges. The default IP allow list is replaced by the contents of glide.ip.authenticate.allow.self\_hosted\_list if the instance is self-hosted.
 
 
+**Note:** The **glide.ip.authenticate.allow.secured** property contains the ServiceNow data center and secure VPN IP ranges used when **glide.ip.authenticate.strict** is set to true. This property is maintained and deployed automatically by ServiceNow. Customers do not need to configure it. The only customer action required by this hardening setting is to set **glide.ip.authenticate.strict** to `true`.
+
 **Note:** Regardless of the value of **glide.ip.authenticate.strict** or if the instance is self-hosted, the allow list includes IP addresses in the **glide.custom.ip.authenticate.allow** and **glide.custom.ip.outbound.authenticate.allow** system properties, if defined.
 
-All IP list properties share the same format, which is a comma separated range of IP addresses in IPv4 or IPv6 format. IP ranges are specified using a hyphen \(10.0.10.14-10.0.10.19\), using CIDR notation \(10.0.10.0/24\), or consist of a single IP address \(10.0.10.5\). At runtime, you can make additions to the IP allow list by adding entries to the IP Address Access Controls \[ip\_access\] table. This table can also be used to explicitly deny IP ranges access to an instance.
+All IP list properties share the same format, which is a comma separated range of IP addresses in IPv4 or IPv6 format. IP ranges are specified using a hyphen \(10.0.10.14-10.0.10.19\), using CIDR notation \(10.0.10.0/24\), or consist of a single IP address \(10.0.10.5\). At runtime, you can make additions to the IP allow list by adding entries to the IP Address Access Controls \[ip\_access\] table. To restrict all inbound access to a defined set of IP addresses, add a deny-all entry to the \[ip\_access\] table and then add the specific IP addresses or ranges that you want to allow.
 
 **Warning:** The value for this property is a no DB override. It can't be altered or overridden.
 
@@ -75,7 +78,7 @@ Recommended value
 </td><td>
 
 -   true
--   Contains only trusted values
+-   Managed by ServiceNow. Contains ServiceNow data center and secure VPN IP ranges. This value is deployed automatically and cannot be modified by customers.
 
 </td></tr><tr><td>
 
@@ -83,7 +86,7 @@ Default value
 
 </td><td>
 
--   &lt;empty&gt;
+-   false
 -   &lt;empty&gt;
 
 </td></tr><tr><td>
@@ -92,8 +95,8 @@ Fallback value
 
 </td><td>
 
--   &lt;empty&gt;
 -   false
+-   &lt;empty&gt;
 
 </td></tr><tr><td>
 
@@ -101,7 +104,7 @@ Category
 
 </td><td>
 
-[Architecture, design, and threat modeling](sc-architecture-design-threat-molding.md)
+[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
 
 </td></tr><tr><td>
 
@@ -130,9 +133,7 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Note:** A deny all rule is needed to be added into IP access control to restrict access from any IP's not added into IP access control. All required allowed IP's are then needed to be added into IP access control.
+</table>To learn more about adding or creating a system property, see .
 
-To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
-
-**Parent Topic:**[Architecture, design, and threat modeling](sc-architecture-design-threat-molding.md)
+**Parent Topic:**[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
 

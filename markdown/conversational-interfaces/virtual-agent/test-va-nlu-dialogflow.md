@@ -2,6 +2,7 @@
 title: Test Virtual Agent with Google Dialogflow ES NLU in Virtual Agent Designer
 description: Test topic discovery with Google Dialogflow and Virtual Agent in the Virtual Agent Designer interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/test-va-nlu-dialogflow.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -44,9 +45,9 @@ Role required: virtual\_agent\_admin or admin
     Ensure that the entity you select is configured in your Google Dialogflow ES agent. When a matching utterance is entered in the Test this topic window, the topic should be triggered, and the entity should slot-fill automatically.
 
 
-**Parent Topic:**[Configure Google Dialogflow ES as the NLU provider for Virtual Agent](../concept/configure-dialogflow-es-integration.md)
+**Parent Topic:**[Configure Google Dialogflow ES as the NLU provider for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-dialogflow-es-integration.md)
 
-**Previous topic:**[Activate the Google Dialogflow ES service and enable it in your instance](activate-ggl-df-es-service.md)
+**Previous topic:**[Activate the Google Dialogflow ES service and enable it in your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/activate-ggl-df-es-service.md)
 
-**Next topic:**[Enhanced natural language handling of user inputs in NLU topic discovery](../concept/natural-language-user-response-handling.md)
+**Next topic:**[Enhanced natural language handling of user inputs in NLU topic discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/natural-language-user-response-handling.md)
 

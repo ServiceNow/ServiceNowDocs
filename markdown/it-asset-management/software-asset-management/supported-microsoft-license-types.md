@@ -2,6 +2,7 @@
 title: Supported Microsoft license types
 description: The Software Asset Management publisher pack for Microsoft adds license metrics that are specific to Microsoft.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/supported-microsoft-license-types.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -17,7 +18,7 @@ The Software Asset Management publisher pack for Microsoft adds license metrics 
 
 The license metrics are available when Microsoft is selected as the **Metric group** for the entitlement.
 
-**Note:** For details on the license metrics that are supported by each Microsoft product, see [License metrics for Microsoft products](mapping-ms-license-metrics.md).
+**Note:** For details on the license metrics that are supported by each Microsoft product, see [License metrics for Microsoft products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/mapping-ms-license-metrics.md).
 
 ## Per user licenses
 
@@ -51,7 +52,7 @@ System hardware runs in an operating system environment \(OSE\) and they act as 
 
 Regardless of whether your processor is in a physical or virtual OSE, Microsoft requires that every processor core running SQL Server, Windows Server, or any of their components must be licensed. However, the number of core licenses you need will depend on whether you are licensing a physical server or an individual virtual OSE. The number of licenses you need is based on the core factor table provided by Microsoft.
 
-**Note:** If you are licensing a Microsoft cluster that contains both physical servers and virtual OSEs, you can use cost-based licensing optimizations to determine if it is more cost-effective to license the physical servers only, virtual OSEs only, or a combination of both. See [Cost-based licensing optimization for Microsoft](../concept/cost-based-microsoft-cluster-licensing.md) for more information on these optimizations.
+**Note:** If you are licensing a Microsoft cluster that contains both physical servers and virtual OSEs, you can use cost-based licensing optimizations to determine if it is more cost-effective to license the physical servers only, virtual OSEs only, or a combination of both. See [Cost-based licensing optimization for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/cost-based-microsoft-cluster-licensing.md) for more information on these optimizations.
 
 Use the per core license metric for any of your physical or virtual core-based licenses. If you are licensing a virtual OSE, you must use either an active Microsoft Software Assurance \(SA\) or Microsoft software subscription license.
 
@@ -61,7 +62,7 @@ If other editions of software are found in a virtual environment and no other ri
 
 You can manage device allocations. Devices are assigned a quantity of rights. Even if they don't need all of the allocations, the device will consume the number of rights you've allocated to them. For this license metric, all device allocations should be created against the physical server. No matter what edition of the software it is, if the normalized core count is less than the specified value in the **Minimum cores per processor metric** attribute related to the software model, then the minimum number of rights will be consumed.
 
-For more information on Microsoft per core licenses, see [Microsoft Per Core licensing rules](../concept/microsoft-sw-license-metrics.md).
+For more information on Microsoft per core licenses, see [Microsoft Per Core licensing rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/microsoft-sw-license-metrics.md).
 
 ## Per core \(with CAL\) licenses
 
@@ -69,7 +70,7 @@ You can manage device allocations for this license metric. Devices are assigned 
 
 For the Per core \(with CAL\) license metric, device allocations can be created against a physical server or virtual machine \(VM\). Device allocations that are created against a VM must be licensed using either an active Microsoft Software Assurance \(SA\) or Microsoft software subscription license. If the core count is less than the specified value in either the **Minimum cores per processor** or **Minimum cores per server** metric attributes of the software model, the minimum number of rights will be consumed.
 
-**Note:** If you are licensing device allocations on a Microsoft cluster that contains both physical servers and VMs, you can use cost-based licensing optimizations to determine if it is more cost-effective to license the physical servers only, VMs only, or a combination of both. See [Cost-based licensing optimization for Microsoft](../concept/cost-based-microsoft-cluster-licensing.md) for more information on these optimizations.
+**Note:** If you are licensing device allocations on a Microsoft cluster that contains both physical servers and VMs, you can use cost-based licensing optimizations to determine if it is more cost-effective to license the physical servers only, VMs only, or a combination of both. See [Cost-based licensing optimization for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/cost-based-microsoft-cluster-licensing.md) for more information on these optimizations.
 
 This license metric should be used with device or user CAL license metrics. You need to create software entitlements using those license metrics separately.
 
@@ -77,7 +78,7 @@ During reconciliation, for a software model that has one or more software entitl
 
 If the specified number of installs and OSEs are exceeded, core rights that are equal to the number of cores or minimum cores on either the physical server or VM will be consumed until all installs and OSEs are licensed or there are no more available rights.
 
-For more information on Microsoft per core \(with CAL\) licenses, see [Microsoft Per Core \(with CAL\) licensing rules](../concept/microsoft-percore-withcal.md).
+For more information on Microsoft per core \(with CAL\) licenses, see [Microsoft Per Core \(with CAL\) licensing rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/microsoft-percore-withcal.md).
 
 ## User CAL licenses
 
@@ -125,7 +126,7 @@ During reconciliation, for a software model that has one or more software entitl
 
 ## Software Assurance licenses
 
-Microsoft Software Assurance \(SA\) is the maintenance program used by Microsoft to provide active maintenance to its users. For more information, see [Software license maintenance](../concept/software-license-maintenance.md).
+Microsoft Software Assurance \(SA\) is the maintenance program used by Microsoft to provide active maintenance to its users. For more information, see [Software license maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-license-maintenance.md).
 
-**Parent Topic:**[Software Asset Management publisher pack for Microsoft](../concept/microsoft-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/microsoft-publisher-pack.md)
 

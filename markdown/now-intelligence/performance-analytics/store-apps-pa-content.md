@@ -2,6 +2,7 @@
 title: ServiceNow Store applications with Performance Analytics content
 description: The following applications on the ServiceNow Store include Performance Analytics components, such as a dashboard showing widgets for indicators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/store-apps-pa-content.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -17,49 +18,49 @@ The following applications on the ServiceNow® Store include Performance Analyti
 
 Unlike Platform Analytics solutions, these applications include stand-alone functionality. The Performance Analytics components included in the application support this functionality.
 
-A Performance Analytics administrator may need to reschedule the [data collection jobs](../../performance-analytics/concept/performance-analytics-glossary.md#) provided with these applications. Most of the applications do not have historical data collection jobs, and their scheduled jobs are active by default.
+A Performance Analytics administrator may need to reschedule the [data collection jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md) provided with these applications. Most of the applications do not have historical data collection jobs, and their scheduled jobs are active by default.
 
 **Note:** Be aware that these applications may have licensing requirements. Check the entry for the app on the ServiceNow Store.
 
 ## Configuration Management Database applications
 
-[CSDM and CMDB Data Foundations dashboards](https://www.servicenow.com/docs/access?context=csdm-cmdb-foundations-dashboards&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+CSDM and CMDB Data Foundations dashboards
 
 ## Customer Service applications
 
--   [Conversational Analytics dashboard](https://www.servicenow.com/docs/access?context=VA-dashboard-landing-page-pae&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US)
--   [Workforce Optimization for Customer Service Management](https://www.servicenow.com/docs/access?context=configurable-wfo-cs&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
+-   
+-   Workforce Optimization for Customer Service Management
 
 ## DevOps applications
 
-[DevOps Insights](https://www.servicenow.com/docs/access?context=insights-dashboard-dev-ops&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+DevOps Insights
 
 ## Employee Service Management
 
-[Safe Workplace dashboard](https://www.servicenow.com/docs/access?context=safe-workplace-dashboard&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US)
+Safe Workplace dashboard
 
 ## IT Asset Management applications
 
-[Cloud Insights](https://www.servicenow.com/docs/access?context=cloud-insights-landing-page&version=zurich&pubname=zurich-it-asset-management&ft:locale=en-US)
+Cloud Insights
 
 ## Strategic Portfolio Management applications
 
-[Strategic Spend Tracking for PPM](https://www.servicenow.com/docs/access?context=ppm-strategic-spend-tracking-dashboard&version=zurich&pubname=zurich-it-business-management&ft:locale=en-US)
+Strategic Spend Tracking for PPM
 
 ## IT Operations Management applications
 
-[Firewall Audits and Reporting](https://www.servicenow.com/docs/access?context=firewall-audit-reporting&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)
+Firewall Audits and Reporting
 
 ## IT Service Management applications
 
 -   Coaching
 -   Continual Improvement Management
--   [On-Call Scheduling](https://www.servicenow.com/docs/access?context=viewing-performance-report-oncall&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+-   On-Call Scheduling
 -   Service Portfolio Management Premium \(Service Owner Workspace\)
 
 ## AI Experience applications
 
-[NLU Workbench](https://www.servicenow.com/docs/access?context=nlu-landing&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)
+NLU Workbench
 
-**Parent Topic:**[Platform Analytics solutions](../concept/content-packs-in-form-analytics-published.md)
+**Parent Topic:**[Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/content-packs-in-form-analytics-published.md)
 

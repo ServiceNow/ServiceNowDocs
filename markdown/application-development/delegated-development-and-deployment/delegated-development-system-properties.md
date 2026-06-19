@@ -2,6 +2,7 @@
 title: Delegated Development System Properties
 description: The update-set deployment permissions are hidden by default and require a system administrator to enable them with system properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/delegated-development-and-deployment/delegated-development-system-properties.html
 release: zurich
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
@@ -64,5 +65,5 @@ com.snc.dd.upgrade\_app\_enabled
 Enables or disables display of the **Upgrade App** permission. The default value for this system property is **true**. To disable display of this permission, set this value to **false**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Delegated Development reference](delegated-development-reference.md)
+</table>**Parent Topic:**[Delegated Development reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/delegated-development-reference.md)
 

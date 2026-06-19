@@ -2,6 +2,7 @@
 title: Operational Technology and CSDM tables
 description: Operational Technology manages and uses CSDM tables. Several ServiceNow products benefit from and add value to Operational Technology.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-manager/ot-use-case.html
 release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -25,18 +26,18 @@ There are three primary categories of tables managed by Operational Technology \
 
 The numbers in this figure correspond to the CSDM tables managed by Incident Management.
 
-![CSDM tables managed by Operational Technology Service Management.](../image/tables-used-by-ot.png)
+\[Omitted image "tables-used-by-ot.png"\] Alt text: CSDM tables managed by Operational Technology Service Management.
 
 ## CSDM tables used by Operational Technology
 
 1.  OT devices:
-    1.  Configuration Item classes were created for Operational Technology hardware classes \(cmdb\_ci\_ot\) by extending hardware. See [Operational Technology \(OT\) extension classes](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-operation-technology&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) for details.
+    1.  Configuration Item classes were created for Operational Technology hardware classes \(cmdb\_ci\_ot\) by extending hardware. See  for details.
     2.  Any CI Class \(any relevant existing hardware class as well as new OT classes can be designated as OT devices by adding OT device details using the OT Device Details \(cmdb\_ot\_entity\) reference to the cmdb\_ot\_entity table. OT Device Details include OT-specific characteristics like Purdue Level and OT device type.
     3.  OT device types describe the function of any CI that automates an industrial or production process. The cmdb\_ot\_entity\_type table describes these functions or roles.
 
         As shown here, a single OT device is represented by at least two records: one CI and one OT entity record. The device can contain six or more records in up to six tables \(for example, if the CI has more than one IP and MAC address\).
 
-        ![OT table schema.](../image/ot-table-schema.png)
+        \[Omitted image "ot-table-schema.png"\] Alt text: OT table schema.
 
 2.  Equipment model entities:
     1.  The equipment model entity class extends the Calculated Application Service and is used to:
@@ -46,7 +47,7 @@ The numbers in this figure correspond to the CSDM tables managed by Incident Man
         1.  Levels \(isa\_entity\_level\) describe the hierarchical level of the equipment model entity. For the default ISA-95 template, the levels shown here \(area, work center, and work units\) are included in the base system.
         2.  Level types \(isa\_entity\_type\) describe the type of process represented by the equipment model entities at a given level. For the default ISA-95 template, the types shown here \(process cell, production unit, production line, and storage zone\) are included in the base system.
 
-            ![OT equipment model entity types.](../image/ot-equip-model-entity-types.png)
+            \[Omitted image "ot-equip-model-entity-types.png"\] Alt text: OT equipment model entity types.
 
 3.  OT system service:
     1.  The OT system service class extends the Calculated Application Service and is used to create the OT system service
@@ -65,9 +66,9 @@ CSDM includes relationship types \(specific to Operational Technology\) that mor
 
 The following dependency maps show the relationships between OT devices and equipment model entities:
 
-![Contains Element::Element of — Describes the hierarchical relationship between equipment model entities.](../image/ot-element-elementof-relation.png)
+\[Omitted image "ot-element-elementof-relation.png"\] Alt text: Contains Element::Element of — Describes the hierarchical relationship between equipment model entities.
 
-![Producer for::Consumer of — Describes the production process material flow between equipment model entities.](../image/ot-producer-consumer-relation.png)
+\[Omitted image "ot-producer-consumer-relation.png"\] Alt text: Producer for::Consumer of — Describes the production process material flow between equipment model entities.
 
 ## Products that add value to Operational Technology
 
@@ -127,5 +128,5 @@ When you use OT with any of the following ServiceNow products, you increase the 
     Manages the impact of the software and hardware life cycle process on the production processes.
 
 
-**Parent Topic:**[Implementing the CSDM framework for Operational Technology](../concept/ot-use-case-product-view.md)
+**Parent Topic:**[Implementing the CSDM framework for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/ot-use-case-product-view.md)
 

@@ -2,6 +2,7 @@
 title: Create transform maps in Enterprise Service Management Integrations Framework
 description: Create a transform map to specify data relationships between the import set table and the target table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/transform-maps-HR.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -40,6 +41,6 @@ For every transformation, you must either create a transform map or select an ex
 
 3.  To create a transform map, click **New**.
 
-    For details of how to create a transform map, refer to the table in [Transformation scripts](https://www.servicenow.com/docs/access?context=t_CreateATransformMap&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+    For details of how to create a transform map, refer to the table in Transformation scripts.
 
 

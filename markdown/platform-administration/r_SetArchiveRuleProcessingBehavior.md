@@ -2,6 +2,7 @@
 title: System properties
 description: These system properties control the behavior of the Data Management capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/r\_SetArchiveRuleProcessingBehavior.html
 release: zurich
 topic_type: reference
 last_updated: "2025-07-31"
@@ -27,7 +28,7 @@ The archive process uses a producer and consumer model. Records are queued for a
 
 **Note:** The archive and destroy properties listed in the table are not used if the Archive Job Execution Chunks \[sys\_archive\_run\_chunk\] table is deleted.
 
-To manually control how many records the archive rule and destroy processes at one interval, you can change these default settings by [adding the following system properties](../../reference-pages/reference/r_AvailableSystemProperties.md#).
+To manually control how many records the archive rule and destroy processes at one interval, you can change these default settings by [adding the following system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 |Name|Description|Type|Default Value|
 |----|-----------|----|-------------|
@@ -77,5 +78,5 @@ Limits how long the cleaner spends trying to batch-delete records per rule durin
 -   Default value: 1200
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data Management reference](../../managing-data/reference/data-management-reference.md)
+</table>**Parent Topic:**[Data Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/data-management-reference.md)
 

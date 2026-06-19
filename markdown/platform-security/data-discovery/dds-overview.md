@@ -2,6 +2,7 @@
 title: Data Discovery Store overview
 description: Get visibility into sensitive data on your instance and work towards implementing security measures to prevent loss or exposure of sensitive data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-discovery/dds-overview.html
 release: zurich
 product: Data Discovery
 classification: data-discovery
@@ -19,11 +20,11 @@ The **Overview** tab provides an easy starting point for using Data Discovery, a
 
 ## Create discovery policy and schedule discovery job
 
-You can begin using Data Discovery with the recommended action items. Select **Create Policy** to define what sensitive data patterns should be identified and how they should be handled. See [Data Discovery policy](dds-policy.md) for more information on creating a new policy. Select **Schedule Job** to schedule a data discovery jobs that will scan your instance for sensitive information. See [Data Discovery scheduled discovery](dds-scheduled-discovery.md) for more information on scheduling a new discovery job.
+You can begin using Data Discovery with the recommended action items. Select **Create Policy** to define what sensitive data patterns should be identified and how they should be handled. See [Data Discovery policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-discovery/dds-policy.md) for more information on creating a new policy. Select **Schedule Job** to schedule a data discovery jobs that will scan your instance for sensitive information. See [Data Discovery scheduled discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-discovery/dds-scheduled-discovery.md) for more information on scheduling a new discovery job.
 
 ## Data discovery summary
 
-You can review at a glance important Data Discovery metrics. Additionally, you can select the charts to drill-down further. For more information on reviewing discovery findings see [Review discovery findings](../../task/concept/dds-review-discovery-findings.md).
+You can review at a glance important Data Discovery metrics. Additionally, you can select the charts to drill-down further. For more information on reviewing discovery findings see [Review discovery findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-discovery/dds-review-discovery-findings.md).
 
 -   **Discovered data**
 
@@ -36,7 +37,7 @@ You can review at a glance important Data Discovery metrics. Additionally, you c
 
 ## Discovered data and recent jobs
 
-You can review newly discovered data and recent discovery jobs in this section. For a more detailed review of these tables and their contents see [Data Discovery scheduled discovery](dds-scheduled-discovery.md)
+You can review newly discovered data and recent discovery jobs in this section. For a more detailed review of these tables and their contents see [Data Discovery scheduled discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-discovery/dds-scheduled-discovery.md)
 
 .
 

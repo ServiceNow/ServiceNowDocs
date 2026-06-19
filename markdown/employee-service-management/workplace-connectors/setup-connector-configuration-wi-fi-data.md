@@ -2,6 +2,7 @@
 title: Setup Connector Configuration Wi-Fi data
 description: Configure the Connector Configurations table for loading the Wi-Fi data in the target Wi-Fi Access Data table \(sn\_wsd\_wc\_wifi\_access\_data\). The connector configuration table retrieves the data from different Wi-Fi data providers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-connectors/setup-connector-configuration-wi-fi-data.html
 release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
@@ -61,7 +62,7 @@ Extension Point Definition
 
 </td><td>
 
-Extension point definition for the Wi-Fi data. Search using the lookup list icon \(![Lookup list icon.](../images/wsd-lookup-list-icon.png)\) to locate the extension point definition **WifiAccessLogDataHandler**.
+Extension point definition for the Wi-Fi data. Search using the lookup list icon \(\[Omitted image "wsd-lookup-list-icon.png"\] Alt text: Lookup list icon.\) to locate the extension point definition **WifiAccessLogDataHandler**.
 
 </td></tr><tr><td>
 
@@ -83,5 +84,5 @@ Target record for supported metrics. Select Event Data.
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Setup Workplace Connectors for Wi-Fi data](setup-workplace-connectors-for-wi-fi-data.md)
+**Parent Topic:**[Setup Workplace Connectors for Wi-Fi data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/setup-workplace-connectors-for-wi-fi-data.md)
 

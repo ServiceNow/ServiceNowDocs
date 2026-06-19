@@ -2,6 +2,7 @@
 title: CEM Notification center tab
 description: On a critical event record, the Notification center has preformatted communication templates that agents can send to impacted people and on-site responders during critical situations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/critical-event-management/notification-templates.html
 release: zurich
 product: Critical Event Management
 classification: critical-event-management
@@ -17,9 +18,9 @@ On a critical event record, the **Notification center** has preformatted communi
 
 The notification center serves as a centralized hub for creating, viewing, and managing communications during an ongoing or new critical event. This feature is used to send mass notifications or to coordinate directly with on-site responders or employees.
 
-When you navigate to the notification center tab for a new critical event, you can start a new communication task by selecting the **Create new communication** button. For more information, see [Create a communication task](../task/create-new-communication.md).
+When you navigate to the notification center tab for a new critical event, you can start a new communication task by selecting the **Create new communication** button. For more information, see [Create a communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/critical-event-management/create-new-communication.md).
 
-You can compose an email for mass notification by using the available email templates or editing the email body to suit your specific need. The email templates promote consistency and save time. For more information on email templates, see [CEM email templates](../reference/cem-email-template-description.md).
+You can compose an email for mass notification by using the available email templates or editing the email body to suit your specific need. The email templates promote consistency and save time. For more information on email templates, see [CEM email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/critical-event-management/cem-email-template-description.md).
 
 ## Example use case
 

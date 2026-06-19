@@ -2,6 +2,7 @@
 title: Configuring Now Assist for Telecommunications, Media and Technology \(TMT\)
 description: Configure the Now Assist for Telecommunications, Media and Technology \(TMT\) application so that your agents can use the generative AI skills in the CSM/FSM Configurable Workspace and in Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-configuring.html
 release: zurich
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for TMT. For information needed to install the Now Assist plugins and configure generative AI skills, see [Overview tab in Now Assist Admin](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+Use the Now Assist Admin console to configure Now Assist for TMT. For information needed to install the Now Assist plugins and configure generative AI skills, see .
 
 <table id="table_vy3_nbk_5bc"><thead><tr><th>
 
@@ -73,8 +74,8 @@ Transform mapping
 
 1.  Install the Now Assist for Telecommunications, Media and Technology \(TMT\) plugin \(sn\_tmt\_gen\_ai\).
 
-    -   For information about the plugin dependencies and plugin activation order, see [Application information](../concept/now-assist-tmt-supporting-info.md).
-    -   For information about the installation process, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+    -   For information about the plugin dependencies and plugin activation order, see [Application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-supporting-info.md).
+    -   For information about the installation process, see .
 2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
 
     If you’re already in the Now Assist Admin console, you can select the **Now Assist Skills** tab on the screen.
@@ -91,7 +92,7 @@ Transform mapping
 
 6.  Review the inputs for the selected skill.
 
-    The input table fields are read-only. For information about the inputs and triggers for each skill, see [Skill inputs for Now Assist for Telecommunications, Media and Technology \(TMT\)](../concept/now-assist-skill-inputs.md).
+    The input table fields are read-only. For information about the inputs and triggers for each skill, see [Skill inputs for Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-skill-inputs.md).
 
 7.  After reviewing the inputs for the selected skill, select **Save and continue** to go to the next step.
 

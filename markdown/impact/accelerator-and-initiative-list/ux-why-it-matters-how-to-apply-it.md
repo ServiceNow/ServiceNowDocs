@@ -2,6 +2,7 @@
 title: UX: Why It Matters and How to Apply It
 description: This accelerator takes examples directly from the Impact customer’s instance to develop their understanding of UX and demonstrate how investing in UX directly influences the success of their ServiceNow investment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/ux-why-it-matters-how-to-apply-it.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

@@ -2,6 +2,7 @@
 title: Create a Microsoft Azure service principal
 description: To securely access resource and billing data on your Microsoft Azure account, the Discovery process must present appropriate Microsoft Azure account credentials. You create a special programmatic account — a Microsoft Azure service principal — to generate the required credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/azure-create-serv-princ-cloud-mgt.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -43,7 +44,7 @@ Roles required:
 
     Enter the following information for your application:
 
-    ![Register an application](../../discovery/image/register-app-azure.png)
+    \[Omitted image "register-app-azure.png"\] Alt text: Register an application
 
     |Field|Description|
     |-----|-----------|
@@ -94,7 +95,7 @@ Expiration for the key.**Note:** Your organization may apply policies to restric
 
     1.  Paste the subscription ID into the text editor and label it **Subscription ID**.
 
-        The text file that you generate during this procedure might look something like this: ![Text file that temporarily holds Azure service principal credential values](../../discovery/image/azure-text-file.png)
+        The text file that you generate during this procedure might look something like this: \[Omitted image "azure-text-file.png"\] Alt text: Text file that temporarily holds Azure service principal credential values
 
     2.  Navigate to the subscription and select **Access Control \(IAM\)** from the menu.
 
@@ -108,7 +109,7 @@ Expiration for the key.**Note:** Your organization may apply policies to restric
 
     5.  Select the name you created in step 2 in the **Select** field and click **Save**.
 
-        ![Add role assignment](../../discovery/image/add-role-assignment.png)
+        \[Omitted image "add-role-assignment.png"\] Alt text: Add role assignment
 
 10. Perform the appropriate action.
 
@@ -151,7 +152,7 @@ Select **Client secret**.The **Secret key** field appears when you select **Clie
 </td></tr></tbody>
 </table>12. Copy and paste values from the temporary text file into the remaining fields.
 
-    ![Azure credentials](../../discovery/image/azure-copy-to-service-principal.png)
+    \[Omitted image "azure-copy-to-service-principal.png"\] Alt text: Azure credentials
 
     |Credentials form field|Azure Service Principal value|
     |----------------------|-----------------------------|
@@ -174,5 +175,5 @@ Select **Client secret**.The **Secret key** field appears when you select **Clie
 
 ## What to do next
 
-Cloud Provisioning and Governance only: Create a record of the service principal credentials on the ServiceNow instance so that Cloud Provisioning and Governance processes can access Microsoft Azure data. See [Store the Azure service principal credentials in the instance](azure-create-creds-cloud-mgt-1.md).
+Cloud Provisioning and Governance only: Create a record of the service principal credentials on the ServiceNow instance so that Cloud Provisioning and Governance processes can access Microsoft Azure data. See [Store the Azure service principal credentials in the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 

@@ -2,6 +2,7 @@
 title: TuneUp Your Virtual Agent - Assessment
 description: The TuneUp Your Virtual Agent - Assessment Accelerator provides guidance on fine-tuning Virtual Agent setup to optimize value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/tuneup-virtual-agent-assessment.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,7 +20,7 @@ The TuneUp Your Virtual Agent - Assessment Accelerator provides guidance on fine
 
 The TuneUp Your Virtual Agent - Assessment Accelerator provides Impact customers with an assessment of Virtual Agent with leading practices and prescriptive guidance to enhance Virtual Agent setup. Reviewing the Virtual Agent assessment readout, recommendations to improve Virtual Agent topics, and exploring additional capabilities designed to optimize value from Virtual Agent are included.
 
-See [Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US) for additional information on Virtual Agent.
+See  for additional information on Virtual Agent.
 
 **Note:** This Accelerator is available for Impact Advanced and Total packages.
 

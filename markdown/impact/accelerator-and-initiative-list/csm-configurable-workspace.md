@@ -2,6 +2,7 @@
 title: Jumpstart Your CSM Configurable Workspace
 description: The Jumpstart Your Customer Service Management \(CSM\) Configurable Workspace Accelerator provides a demonstration of the possibilities and capabilities of the CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/csm-configurable-workspace.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,7 +20,7 @@ The Jumpstart Your Customer Service Management \(CSM\) Configurable Workspace Ac
 
 Jumpstart Your \(CSM\) Configurable Workspace helps Impact customers gain a deeper understanding of how to get started with CSM Configurable Workspace by providing a comprehensive overview and applied  demonstration. This Accelerator guides you through the setup process and clearly illustrates the value of the workspace. Additionally, key resources and leading practices are offered to enhance product adoption and usage.
 
-For additional information on the feature, see [CSM Configurable Workspace](https://www.servicenow.com/docs/access?context=csm-workspaces-configure&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+For additional information on the feature, see .
 
 **Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 

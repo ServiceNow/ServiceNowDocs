@@ -2,6 +2,7 @@
 title: Generate correlation insights in the Now Assist panel with Now Assist for Security Incident Response
 description: Generate correlation insights from the Now Assist panel to help you connect past events to the security incident that you are working on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/now-assist-for-security-incident-response-sir/generate-correlation-insights-now-assist-for-security.html
 release: zurich
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -21,7 +22,7 @@ Roles required: sn\_si.analyst, sn\_si.manager, or sn\_si.basic
 
 ## About this task
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 ## Procedure
 
@@ -29,7 +30,7 @@ Roles required: sn\_si.analyst, sn\_si.manager, or sn\_si.basic
 
 2.  Alternatively, in the legacy UI \(UI16\), locate a security incident on the Security Incidents \[sn\_si\_incident\] table and open it.
 
-3.  Select the Now Assist icon \(![AI Sparkle icon.](../../../common/image/icon-ai-sparkle.png)\) in the top header to open the Now Assist panel.
+3.  Select the Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: AI Sparkle icon.\) in the top header to open the Now Assist panel.
 
 4.  Select **Generate correlation insights**.
 
@@ -42,7 +43,7 @@ Roles required: sn\_si.analyst, sn\_si.manager, or sn\_si.basic
     -   **Observables**: Records that are linked by shared observables that suggest potential ongoing attacks or repeated use of malicious infrastructure. Examples might include IP addresses, URLs, or file hashes. You must enter an exact value for an observable, for example, a complete file hash.
     If no matching data exists for any of these filters, none are displayed. You are prompted to add one of these values to the security incident that you are working from, save it, and reset your conversation in the panel and try again.
 
-5.  Reset your conversation by selecting the Now Assist more options menu icon \(![More options menu icon.](../image/now-assist-reset-icon.png)\) in the panel and select **Reset Conversation**.
+5.  Reset your conversation by selecting the Now Assist more options menu icon \(\[Omitted image "now-assist-reset-icon.png"\] Alt text: More options menu icon.\) in the panel and select **Reset Conversation**.
 
 6.  Select a filter.
 
@@ -55,7 +56,7 @@ Roles required: sn\_si.analyst, sn\_si.manager, or sn\_si.basic
     -   The Affected users filter returns: SIR, INC, and CHG records.
     -   The Configuration filter item returns: SIR, INC, CHG, PRB, and VIT records.
     -   The Observables filter returns SIR records.
-    ![Now Assist panel with returned records for a configuration item for correlation insights.](../image/NAP-C-Insights.png)
+    \[Omitted image "NAP-C-Insights.png"\] Alt text: Now Assist panel with returned records for a configuration item for correlation insights.
 
 7.  Modify the 30-day limit for the query by following these steps:
 

@@ -2,13 +2,14 @@
 title: To-do refinement options
 description: You can refine your to-dos through filtering, sorting, and searching options on the My to-dos landing page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/todo-refinement-options.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Shopper to-dos, Using Shopping Hub, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Shopper to-dos, Using Shopping Hub, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # To-do refinement options
@@ -27,7 +28,7 @@ You can filter your to-dos by:
     -   Receipt tasks that are in the Open, Shipped, or Partially Complete state.
     -   Milestones that are in the Confirmation Required state.
 -   **Due this week**: All tasks that are due in the next seven days.
--   **Overdue**: All tasks that are past their due date.![Filtering the to-do list by open items, items due this week, or overdue items](../image/spo-sh-filter-my-todos.png)
+-   **Overdue**: All tasks that are past their due date.\[Omitted image "spo-sh-filter-my-todos.png"\] Alt text: Filtering the to-do list by open items, items due this week, or overdue items
 
 ## Sort
 
@@ -37,7 +38,7 @@ You can sort your to-dos by:
     -   Sort your to-dos by due dates. Those with earlier due dates are displayed first.
     -   This is the default option.
 -   **Last due**: Sort your to-dos by due dates. Those with later due dates are displayed first.
--   **Last updated**: Sort your to-dos by the last updated date. Those updated recently are displayed first.![Sorting the to-do list by first due, last due, and last updated items](../image/spo-sh-sort-my-todos.png)
+-   **Last updated**: Sort your to-dos by the last updated date. Those updated recently are displayed first.\[Omitted image "spo-sh-sort-my-todos.png"\] Alt text: Sorting the to-do list by first due, last due, and last updated items
 
 ## Search
 
@@ -51,5 +52,5 @@ The following fields are searchable:
 
 You can select the associated cards, view the details, and perform available actions.
 
-**Parent Topic:**[Shopper to-dos](shopper-todos.md)
+**Parent Topic:**[Shopper to-dos](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos.md)
 

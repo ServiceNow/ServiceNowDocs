@@ -2,6 +2,7 @@
 title: Configuration Hub
 description: Experience the ability to zoom into an application or a group of applications and view all the relevant tables and records on a single page using the Configuration Hub. As an admin you can access all relevant details related to the selected application\(s\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/admin-center/ac-configuration-hub.html
 release: zurich
 product: Admin Center
 classification: admin-center
@@ -25,16 +26,16 @@ You can achieve the following by using Configuration Hub.
 
 **Note:** Configuration Hub store application is available by default with any instance upgrade of Vancouver patch 2 and above. You can navigate to Configuration Hub from the **Admin** menu.
 
-![](../image/ac-configuration-hub.png)
+\[Omitted image "ac-configuration-hub.png"\] Alt text:
 
 You can search through all the application, console or product names that have been installed on the instance within a certain scope.
 
 **Note:** The application name doesn’t populate in the search bar if it’s not yet installed on the instance. The number under the family name shows the number of applications in the selected family have been installed on the instance. If there is a product family that doesn’t have any app installed, it won’t show up on the list.
 
-It can also help you search applications that have been grouped by SN store, taxonomy or product families. When you select a product family, it takes to the product home page. See [Configure the product home page](../task/ac-explore-product-home.md) for more information.![](../image/ac-product-home-page.png)
+It can also help you search applications that have been grouped by SN store, taxonomy or product families. When you select a product family, it takes to the product home page. See [Configure the product home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-explore-product-home.md) for more information.\[Omitted image "ac-product-home-page.png"\] Alt text:
 
--   **[Configure the product home page](../task/ac-explore-product-home.md)**  
+-   **[Configure the product home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-explore-product-home.md)**  
 Track delta changes, over-allocated subscriptions, customizations, and slow execution on the product home page by selecting a product family
 
-**Parent Topic:**[Admin Center](admin-center-intro.md)
+**Parent Topic:**[Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/admin-center-intro.md)
 

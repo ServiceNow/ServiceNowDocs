@@ -2,6 +2,7 @@
 title: Customer Service Agent dashboard
 description: The Customer Service Agent dashboard provides quick access to your cases based on criteria that help you prioritize your work. The dashboard also displays summary data on metrics for your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/analytics-and-reporting-solutions-for-customer-service/csm-agent-dashboard.html
 release: zurich
 product: Analytics and Reporting Solutions for Customer Service
 classification: analytics-and-reporting-solutions-for-customer-service
@@ -30,7 +31,7 @@ The Customer Service Agent dashboard includes the following end users and roles.
 |Content administrator: Can edit the dashboard and manage users, groups, and roles for the dashboard.|pa\_admin|
 |Content creator: Can view the dashboard.|pa\_viewer|
 
-![Tab displaying different report types from the Customer Service Agent dashboard. For the text description, refer to the Reports section.](../image/csm-agent-my-work.png "My Work tab")
+\[Omitted image "csm-agent-my-work.png"\] Alt text: Tab displaying different report types from the Customer Service Agent dashboard. For the text description, refer to the Reports section.
 
 ## Reports
 
@@ -93,7 +94,7 @@ My KBs Created
 List of all KB articles that I created.
 
 </td></tr></tbody>
-</table>![Customer Service Agent dashboard displaying overall organizational trends in various line graphs. For the text description, refer to the following Indicators table.](../image/csm-agent-org-trends.png "Organizational Trends tab")
+</table>\[Omitted image "csm-agent-org-trends.png"\] Alt text: Customer Service Agent dashboard displaying overall organizational trends in various line graphs. For the text description, refer to the following Indicators table.
 
 ## Indicators
 
@@ -113,7 +114,7 @@ CSAT
 
 </td><td>
 
-Average customer satisfaction based on survey results. The percent change in the current period appears under the total percentage. For more information about CSAT, see [Customer service satisfaction surveys](c_CustomerServiceSatisfactionSurvey.md).
+Average customer satisfaction based on survey results. The percent change in the current period appears under the total percentage. For more information about CSAT, see [Customer service satisfaction surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/c_CustomerServiceSatisfactionSurvey.md).
 
 </td></tr><tr><td>
 
@@ -129,7 +130,7 @@ Exceeding Chat Target
 
 </td><td>
 
-Percentage of all Chat work items that have exceeded the target wait time. For more information about the Chat service channel, see [Advanced Work Assignment service channels](https://www.servicenow.com/docs/access?context=awa-service-channels&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US) **Note:** This indicator is only viewable on the Customer Service Agent - Advanced dashboard.
+Percentage of all Chat work items that have exceeded the target wait time. For more information about the Chat service channel, see Advanced Work Assignment service channels **Note:** This indicator is only viewable on the Customer Service Agent - Advanced dashboard.
 
 </td></tr><tr><td>
 
@@ -137,7 +138,7 @@ Exceeding Case Target
 
 </td><td>
 
-Percentage of all Case work items that have exceeded the target wait time. For more information about the Case service channel, see [Advanced Work Assignment service channels](https://www.servicenow.com/docs/access?context=awa-service-channels&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US) **Note:** This indicator is only viewable on the Customer Service Agent - Advanced dashboard.
+Percentage of all Case work items that have exceeded the target wait time. For more information about the Case service channel, see Advanced Work Assignment service channels **Note:** This indicator is only viewable on the Customer Service Agent - Advanced dashboard.
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: Set a recurring price
 description: A catalog item can have a recurring price in addition to an initial price.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/c\_SetARecurringPrice.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -40,5 +41,5 @@ For example, a subscription to a mobile phone contract could cost $500.00, with 
 3.  If a request record contains multiple items with the same recurring frequency, select the arrow next to the corresponding recurring prices record to view details.
 
 
-**Parent Topic:**[Service Catalog customization](../topic/p_ServiceCatalogCustomization.md)
+**Parent Topic:**[Service Catalog customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/p_ServiceCatalogCustomization.md)
 

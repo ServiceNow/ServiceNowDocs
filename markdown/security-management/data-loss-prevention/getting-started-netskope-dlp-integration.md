@@ -2,6 +2,7 @@
 title: Getting started with Netskope DLP integration for Data Loss Prevention
 description: Review the following information before you start setting up your Netskope DLP integration for Data Loss Prevention.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/data-loss-prevention/getting-started-netskope-dlp-integration.html
 release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -53,5 +54,5 @@ Verify that the following DLP applications and security support common applicati
 -   Data Loss Prevention Incident Response
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data Loss Prevention Incident Response Integration with Netskope](../concept/dlp-incident-response-integration-netskope.md)
+</table>**Parent Topic:**[Data Loss Prevention Incident Response Integration with Netskope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/dlp-incident-response-integration-netskope.md)
 

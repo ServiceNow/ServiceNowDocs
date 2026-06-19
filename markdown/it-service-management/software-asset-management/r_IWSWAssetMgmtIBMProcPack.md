@@ -2,6 +2,7 @@
 title: Installed with the legacy IBM PVU Process Pack
 description: The following tables, fields, script includes, and business rules are installed with the legacy IBM PVU process pack.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/software-asset-management/r\_IWSWAssetMgmtIBMProcPack.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -54,5 +55,5 @@ One and only one default mapping`[sam_ibm_pvu_mapping]`
 Ensures only one default mapping by resetting the last resort flag for modified records and setting it to false for new records.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legacy IBM PVU Process Pack](../concept/c_IBMPVUProcessPack.md)
+</table>**Parent Topic:**[Legacy IBM PVU Process Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management/c_IBMPVUProcessPack.md)
 

@@ -2,6 +2,7 @@
 title: Create a part requirement in Dispatcher Workspace
 description: Create a part requirement for a work order task in Dispatcher Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/create-part-requirement-dw.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling

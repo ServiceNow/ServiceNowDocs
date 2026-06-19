@@ -2,6 +2,7 @@
 title: Test Management 2.0
 description: The ServiceNow Test Management 2.0 application streamlines the management of testing processes to help you deliver software products more efficiently and with fewer errors. You can create multiple versions of a test and integrate with Agile Development 2.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/test-management/test-management2-landing-page.html
 release: zurich
 product: Test Management
 classification: test-management
@@ -15,28 +16,28 @@ breadcrumb: [Test Management applications, Strategic Portfolio Management]
 
 The ServiceNow® Test Management 2.0 application streamlines the management of testing processes to help you deliver software products more efficiently and with fewer errors. You can create multiple versions of a test and integrate with Agile Development 2.0.
 
-To learn about the different versions of Test Management and to choose the version that helps you meet your testing requirements, see [Test Management applications](../concept/test-management-overview.md).
+To learn about the different versions of Test Management and to choose the version that helps you meet your testing requirements, see [Test Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/test-management-overview.md).
 
 <table id="simpletable_g33_wwg_vt" class="simpletableBody"><tbody><tr><td>
 
 Explore
 
- -   [Test Management 2.0 overview](../concept/overview-test-management2.md)
--   [Testing using Test Management 2.0](../concept/release-readiness-testing.md)
--   [Sprint testing](../concept/sprint-testing.md)
+ -   [Test Management 2.0 overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/overview-test-management2.md)
+-   [Testing using Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/release-readiness-testing.md)
+-   [Sprint testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/sprint-testing.md)
 
 </td><td>
 
 Set up
 
- -   [Activate Test Management 2.0](../task/activate-test-management2.md)
--   [Quick start tests for Test Management 2.0](../../../administer/atf-quick-start-tests/reference/quick-start-tests-test-management.md)
+ -   [Activate Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/activate-test-management2.md)
+-   [Quick start tests for Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/quick-start-tests-test-management.md)
 
 </td><td>
 
 Use
 
- [Test Board in Test Management 2.0](../concept/test-board.md)
+ [Test Board in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/test-board.md)
 
 </td></tr><tr><td>
 
@@ -44,7 +45,7 @@ Develop
 
  -   [Developer training](https://developer.servicenow.com/dev.do#!/learn/courses/utah)
 -   [Developer documentation](https://developer.servicenow.com/app.do#!/documentation)
--   [Installed with Test Management 2.0](installed-with-testmanagement2.0.md)
+-   [Installed with Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/installed-with-testmanagement2.0.md)
 
 </td><td>
 

@@ -2,6 +2,7 @@
 title: Components installed with Contextual Search
 description: Several types of components are installed with the activation of the Contextual Search plugin \(com.snc.contextual\_search\), including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/contextual-search/components-installed-with-cxs.html
 release: zurich
 product: Contextual Search
 classification: contextual-search
@@ -15,7 +16,7 @@ breadcrumb: [Contextual search plugin, Plugins, Contextual search, Search admini
 
 Several types of components are installed with the activation of the Contextual Search plugin \(com.snc.contextual\_search\), including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](../../plugins/task/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/find-components.md).
 
 ## Tables installed
 
@@ -59,7 +60,7 @@ Relevant Document \[cxs\_relevant\_doc\]
 
 Groups the Relevant Document Detail individual recorded actions by search session.**Note:** A new search session group is created every time you create or open a record or reload the page.
 
-For more information on the table, refer [Feedback information on contextual search](r_QueryFeedbackInformation.md).
+For more information on the table, refer [Feedback information on contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/r_QueryFeedbackInformation.md).
 
 </td></tr><tr><td>
 
@@ -67,7 +68,7 @@ Relevant Document Detail \[cxs\_rel\_doc\_detail\]
 
 </td><td>
 
-List of individual recorded actions. For example, **Preview**, **This helped**, **Attach**, or **Order**. For more information on the table, refer [Feedback information on contextual search](r_QueryFeedbackInformation.md).
+List of individual recorded actions. For example, **Preview**, **This helped**, **Attach**, or **Order**. For more information on the table, refer [Feedback information on contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/r_QueryFeedbackInformation.md).
 
 </td></tr><tr><td>
 
@@ -150,5 +151,5 @@ Base UI Configuration \[cxs\_ui\_config\_base\]
 Common elements for the record producer, table, and wizard configurations.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Contextual search plugin](../task/contextual-search-plugin.md)
+</table>**Parent Topic:**[Contextual search plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/contextual-search-plugin.md)
 

@@ -2,6 +2,7 @@
 title: AI Search External User Mapping API
 description: The AI Search External User Mapping API provides endpoints that enable ingestion of user mapping information from external sources into the ServiceNow AI Search application's index.Imports a list of external user mappings into an AI Search user mapping table. Each mapping specifies externally defined user and group aliases for a ServiceNow AI Platform user. AI Search uses these aliases to determine which external document search results the user can view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-apis/ext-user-mapping-api.html
 release: zurich
 product: REST APIs
 classification: rest-apis
@@ -15,15 +16,15 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The AI Search External User Mapping API provides endpoints that enable ingestion of user mapping information from external sources into the ServiceNow® AI Search application's index.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/api-rest.md)
 
 ## AI Search External User Mapping - POST /ais/external\_content/user\_mapping/import\_multiple/\{target\_table\}
 
 Imports a list of external user mappings into an AI Search user mapping table. Each mapping specifies externally defined user and group aliases for a ServiceNow AI Platform user. AI Search uses these aliases to determine which external document search results the user can view.
 
-To learn how AI Search external content security utilizes external user mappings, see [External content security for AI Search](https://www.servicenow.com/docs/access?context=external-content-security-ais&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+To learn how AI Search external content security utilizes external user mappings, see External content security for AI Search.
 
-User and group names in external user mappings should match those specified in security access permissions for external documents ingested via the External Content Ingestion API's POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint. For more information on ingesting external documents with security access permissions for externally defined users and groups, see [External Content Ingestion API](external-content-ingestion-api.md#).
+User and group names in external user mappings should match those specified in security access permissions for external documents ingested via the External Content Ingestion API's POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint. For more information on ingesting external documents with security access permissions for externally defined users and groups, see [External Content Ingestion API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/external-content-ingestion-api.md).
 
 To view import histories for external user mapping records imported through this endpoint, navigate to **AI Search** &gt; **External Content** &gt; **User mapping import history**. From a history record, you can view the Import Set \[sys\_import\_set\] and Multi Import Set \[sys\_multi\_import\_set\] records for an import task. Use information from these records to verify that your external user mappings were imported correctly.
 
@@ -31,7 +32,7 @@ To view import histories for external user mapping records imported through this
 
 Versioned URL: `/api/now/{api_version}/ais/external_content/user_mapping/import_multiple/{target_table}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -169,7 +170,7 @@ Array of strings where each string is the name of an externally defined user to 
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -182,7 +183,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

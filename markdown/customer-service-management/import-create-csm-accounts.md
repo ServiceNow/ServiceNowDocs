@@ -2,7 +2,10 @@
 title: Create customer accounts
 description: An account is a supported external customer. Use the Customer Service Management application to create account records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/import-create-csm-accounts.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -29,7 +32,7 @@ A partner is a supported external customer that sells to and supports other cust
 
     -   To create a customer account, select **Accounts**.
     -   To create a partner account, select **Partners**.
-2.  Select **New** and fill in the fields on the [Account form](../reference/customer-service-account-form.md).
+2.  Select **New** and fill in the fields on the [Account form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-account-form.md).
 
     When a new customer account record is created, the system uses the **com.snc.cs\_base.last.generated.code.tree.path** system property to determine a unique account code value for the account. The property is updated with the latest value to confirm the next account record receives a unique account code.
 

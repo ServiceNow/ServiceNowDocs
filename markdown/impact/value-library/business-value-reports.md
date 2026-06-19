@@ -2,6 +2,7 @@
 title: Value reports
 description: Your impact squad can work with you to calculate the operational or monetized value you have realized with ServiceNow in a Value Report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/value-library/business-value-reports.html
 release: zurich
 product: Value Library
 classification: value-library

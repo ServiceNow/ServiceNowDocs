@@ -2,6 +2,7 @@
 title: Install Agile Development v2
 description: Install the Agile Development v2 mobile app \(sn\_store\_agile\_mob\) from ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/activate-agile-mobile.html
 release: zurich
 product: Agile Development
 classification: agile-development
@@ -50,7 +51,7 @@ Role required: admin
 
 ## What to do next
 
-[Get started with Agile Development v2 mobile app](get-started-agile-2-mobile.md)
+[Get started with Agile Development v2 mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/get-started-agile-2-mobile.md)
 
 .
 

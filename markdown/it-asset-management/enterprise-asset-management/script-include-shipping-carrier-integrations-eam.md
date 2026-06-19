@@ -2,6 +2,7 @@
 title: Script include for third-party shipping carrier integrations
 description: Before you can integrate the Enterprise Asset Management application with a third-party shipping carrier, that shipping carrier must create a script include that extends the base ITAMShipmentIntegration script. By extending this script, you can connect to the third-party shipping carrier application and retrieve shipment details in real-time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/script-include-shipping-carrier-integrations-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -17,7 +18,7 @@ Before you can integrate the Enterprise Asset Management application with a thir
 
 ## Structure of the ITAMShipmentIntegration script include
 
-![ITAM Shipment Integration script include](../../hardware-asset-management/image/itam-integration-script.png)
+\[Omitted image "itam-integration-script.png"\] Alt text: ITAM Shipment Integration script include
 
 ## fetchShipmentInfo function
 
@@ -38,5 +39,5 @@ The processResponse function within the ITAMShipmentIntegration script include r
 
 **Important:** The IT Asset Management application automatically defines the business logic within this function. The business logic should not be modified.
 
-**Parent Topic:**[Managing enterprise asset shipments](../concept/manage-shipments-eam.md)
+**Parent Topic:**[Managing enterprise asset shipments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/manage-shipments-eam.md)
 

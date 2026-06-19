@@ -2,6 +2,7 @@
 title: Download Compliance Case Management
 description: Before you run the Compliance Case Management application in your instance, you must download it from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/compliance-case-management/download-compliance-case-management.html
 release: zurich
 product: Compliance Case Management
 classification: compliance-case-management
@@ -27,10 +28,10 @@ The ServiceNow Store application enables you to download the core products and a
 
 1.  In the ServiceNow Store application, you must ensure that you have entitlements, or licenses, to the application and its dependent applications.
 
-    **Note:** This process applies only to the applications that are downloaded to the production instances. If you’re downloading the applications to your non-production or development instances, it isn’t necessary to get entitlements. Proceed to [Activate a ServiceNow Store application](https://www.servicenow.com/docs/access?context=activate-entitled-store-app&version=zurich&pubname=zurich-security-management&ft:locale=en-US).
+    **Note:** This process applies only to the applications that are downloaded to the production instances. If you’re downloading the applications to your non-production or development instances, it isn’t necessary to get entitlements. Proceed to Activate a ServiceNow Store application.
 
 2.  Activate the application and run it on your instance.
 
 
-**Parent Topic:**[Configuring Compliance Case Management](../concept/configure-compliance-case-management.md)
+**Parent Topic:**[Configuring Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/configure-compliance-case-management.md)
 

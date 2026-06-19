@@ -2,6 +2,7 @@
 title: Datadog connector instance form
 description: The Datadog connector instance form displays the fields you must fill in when creating a Datadog connector instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/datadog-connector-instance-form.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -81,7 +82,7 @@ Enter the base URL for your Datadog API endpoint \(e.g., api.datadoghq.com\).
 </td></tr></tbody>
 </table>**Note:** For collecting cloud-native metrics \(e.g., from AWS, Azure, GCP\), it is recommended to set the collection schedule to 300 seconds \(5 minutes\). This accounts for potential data latency from the cloud provider to the Datadog platform.
 
-To go back to the procedure page, see [Configure the Datadog metrics connector instance](../task/configure-datadog-connector.md).
+To go back to the procedure page, see [Configure the Datadog metrics connector instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-datadog-connector.md).
 
-**Parent Topic:**[Event Management reference](event-management-reference.md)
+**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/event-management-reference.md)
 

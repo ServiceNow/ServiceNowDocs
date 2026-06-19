@@ -2,6 +2,7 @@
 title: Use a flow or subflow in Oracle Financial Cloud \(Outbound\)
 description: A flow or subflow can be executed in Oracle Financial Cloud using the Workflow Studio. Follow these steps to run a flow or subflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/source-to-pay-integration-framework/use-flow-subflow-oracle-fin-cloud.html
 release: zurich
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -31,7 +32,7 @@ Role required: sn\_fcms\_intg.integration\_user
 
     For example, select **Fetch currencies from Oracle Financial Cloud** subflow.
 
-    ![Use a flow or subflow in Oracle Financial Cloud](../image/oracle-fin-use-subflow.png "Use a flow or subflow in Oracle Financial Cloud")
+    \[Omitted image "oracle-fin-use-subflow.png"\] Alt text: Use a flow or subflow in Oracle Financial Cloud
 
 5.  In the Trigger field, specify the time and interval at which you want to run the scheduled flow automatically.
 

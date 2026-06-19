@@ -2,6 +2,7 @@
 title: Version record navigation
 description: There are a variety of methods for viewing a list of versions for an object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/c\_NavigatingVersionRecords.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -36,5 +37,5 @@ You can navigate from a version record to:
 -   The customized object: Select the **Show Related Record** related link.
 -   The application file records for the object: Select the **Show Application File** related link.
 
-**Parent Topic:**[Versions and local changes](c_VersionsAndLocalChanges.md)
+**Parent Topic:**[Versions and local changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_VersionsAndLocalChanges.md)
 

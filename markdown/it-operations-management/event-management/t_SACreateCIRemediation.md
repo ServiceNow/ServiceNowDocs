@@ -2,6 +2,7 @@
 title: Create or edit CI remediation
 description: Create a CI remediation rule that lets users manually apply an Orchestration workflow for resolving issues with specific CIs associated with alerts. Define these CIs in the CI filter conditions of the rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/t\_SACreateCIRemediation.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -29,7 +30,7 @@ Then submit the workflow definition, and add the following conditions to the wor
     **\[Workflow\]\[is\]\[CI remediation\]**
 
 
-After you finish configuring the workflow, make sure that you publish it. For more details, see [Create a workflow](https://www.servicenow.com/docs/access?context=t_CreateAWorkflow&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+After you finish configuring the workflow, make sure that you publish it. For more details, see Create a workflow.
 
 Role required: evt\_mgmt\_admin
 
@@ -55,5 +56,5 @@ A CI remediation rule associates a set of CIs that might experience problems wit
 
 In service maps that are opened from the Event Management dashboard, this remediation can be applied to any CIs that match the filter conditions.
 
-**Parent Topic:**[CI Remediation](../concept/ci-remediation.md)
+**Parent Topic:**[CI Remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/ci-remediation.md)
 

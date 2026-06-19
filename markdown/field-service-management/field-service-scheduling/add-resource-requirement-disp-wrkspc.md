@@ -2,6 +2,7 @@
 title: Add resource requirement for a work order task in Dispatcher Workspace
 description: Add or update the resource requirements for a work order task that requires crew, such as number of agents with specific skills or types of equipment required to work on the task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/add-resource-requirement-disp-wrkspc.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -33,7 +34,7 @@ Role required: wm\_admin, wm\_dispatcher
 
 3.  Open a work order task that is in the Draft or Pending Dispatch state for which you want to configure the resource requirement.
 
-    For more information, see [Search for tasks that need a crew on Dispatcher Workspace](search-crew-task.md).
+    For more information, see [Search for tasks that need a crew on Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/search-crew-task.md).
 
 4.  Select the **Resource requirement** option if not already selected, and then click **Save**.
 

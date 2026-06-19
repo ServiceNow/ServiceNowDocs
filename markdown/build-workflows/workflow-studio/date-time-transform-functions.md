@@ -2,6 +2,7 @@
 title: Date and time transform functions
 description: Use date and time transform functions to recalculate or reformat data pills for Date/Time values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/date-time-transform-functions.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -15,9 +16,9 @@ breadcrumb: [Transform functions, Flows, subflows, and actions reference, Refere
 
 Use date and time transform functions to recalculate or reformat data pills for Date/Time values.
 
-Date and time transform functions require a Date/Time or String input data pill. Some functions also support Duration data pills. Make sure to use the correct input [data pill type](action-inputs-outputs.md) when applying date and time transform functions. If a date and time transform function is applied to an improper data pill type, the data is not transformed at runtime and the input value is returned instead. For more information on confirming your flow runtime values, see [Test a flow](../task/flow-test.md).
+Date and time transform functions require a Date/Time or String input data pill. Some functions also support Duration data pills. Make sure to use the correct input [data pill type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/action-inputs-outputs.md) when applying date and time transform functions. If a date and time transform function is applied to an improper data pill type, the data is not transformed at runtime and the input value is returned instead. For more information on confirming your flow runtime values, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-test.md).
 
-**Note:** Runtime Date/Time values are not localized and appear in the UTC \(Coordinated Universal Time\) time zone. For more information, see [Time zones](https://www.servicenow.com/docs/access?context=r_TimeZones&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) and [time zone representation](https://support.servicenow.com/kb_view.do?sysparm_article=KB0594661).
+**Note:** Runtime Date/Time values are not localized and appear in the UTC \(Coordinated Universal Time\) time zone. For more information, see Time zones and [time zone representation](https://support.servicenow.com/kb_view.do?sysparm_article=KB0594661).
 
 ## Add Time
 
@@ -87,7 +88,7 @@ Date/Time - Transformed Date/Time value after subtracting the specified **Durati
 
 In this example, the flow retrieves a CMDB Configuration Item record from a remote instance. The Subtract Time transform function then localizes the value of the **Created** field by subtracting three hours from the input Date/Time.
 
-![Localize a field value's time zone.](../images/subtract-time-transform-function-example.png "Localize a field value's time zone")
+\[Omitted image "subtract-time-transform-function-example.png"\] Alt text: Localize a field value's time zone.
 
 ## String to Date
 
@@ -167,7 +168,7 @@ String formatted as specified in the **Output Date Format**
 
 In this example, the flow retrieves a User \[sys\_user\] record from a third-party database. The Date to String transform function converts the format of the **Created** field and then logs the date, time, and name that is associated with the record.
 
-![Concatenate a Date/Time value with a String value.](../images/date-to-string-transform-function-example.png "Concatenate a Date/Time value with a String value")
+\[Omitted image "date-to-string-transform-function-example.png"\] Alt text: Concatenate a Date/Time value with a String value.
 
 ## Custom date formats
 
@@ -311,5 +312,5 @@ Evaluates the last day of the month after adding the specified number of the mon
 -   Number of Months: `3`
 -   Output: `2022-02-28`
 
-**Parent Topic:**[Transform functions](../concept/transform-functions.md)
+**Parent Topic:**[Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/transform-functions.md)
 

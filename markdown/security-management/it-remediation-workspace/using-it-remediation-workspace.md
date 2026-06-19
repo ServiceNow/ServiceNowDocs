@@ -2,6 +2,7 @@
 title: Using the IT Remediation Workspace
 description: The IT Remediation Workspace provides a consolidated list of host vulnerabilities, application vulnerabilities, container vulnerabilities, and misconfigurations that are assigned to you and your group. You can use this workspace to remediate, and request exceptions for vulnerabilities and misconfigurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/it-remediation-workspace/using-it-remediation-workspace.html
 release: zurich
 product: IT Remediation Workspace
 classification: it-remediation-workspace

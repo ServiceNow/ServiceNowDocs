@@ -2,6 +2,7 @@
 title: Add a note
 description: Add a note to a project to review later.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/add-project-note.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -23,7 +24,7 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 1.  Select the project to add a note to.
 
-2.  From the project view, select the Notes \(![Notes icon](../image/notes-icon.png)\) icon to open the Notes panel.
+2.  From the project view, select the Notes \(\[Omitted image "notes-icon.png"\] Alt text: Notes icon\) icon to open the Notes panel.
 
 3.  Select **New note** and type a note into the box.
 
@@ -38,5 +39,5 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 5.  Select **Post**.
 
 
-**Parent Topic:**[Adding notes to a project](../concept/annotate-project.md)
+**Parent Topic:**[Adding notes to a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/annotate-project.md)
 

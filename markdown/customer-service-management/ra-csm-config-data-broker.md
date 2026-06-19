@@ -2,7 +2,10 @@
 title: Configure force refresh for recommendations
 description: Configure the Trigger Recommendation Refresh data broker to refresh and update the recommendations based on the results from UI events for precise recommendations. Similarly, use the ForceRefreshRecommendations method for configuring an explicit refresh mechanism.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ra-csm-config-data-broker.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -87,15 +90,15 @@ Refreshes recommendations for all the active agents, when set to true. By defaul
 </td></tr></tbody>
 </table>7.  In the **When to trigger** drop-down, select one of the following.
 
-<table id="choicetable_eqc_b33_yfc"><thead><tr><th align="left" id="d75674e231">
+<table id="choicetable_eqc_b33_yfc"><thead><tr><th align="left" id="d77924e231">
 
 Option
 
-</th><th align="left" id="d75674e234">
+</th><th align="left" id="d77924e234">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d75674e240">
+</th></tr></thead><tbody><tr><td id="d77924e240">
 
 **Always**
 
@@ -103,7 +106,7 @@ Description
 
 Triggers the refresh every time there’s an update.
 
-</td></tr><tr><td id="d75674e249">
+</td></tr><tr><td id="d77924e249">
 
 **Conditional**
 

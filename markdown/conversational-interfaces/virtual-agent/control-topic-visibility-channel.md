@@ -2,6 +2,7 @@
 title: Control topic visibility in Virtual Agent messaging channels
 description: Suppress the display of a topic in a Virtual Agent messaging channel by using a condition script that excludes the topic from a channel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/control-topic-visibility-channel.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -56,5 +57,5 @@ In your condition script for the topic, use a context variable to identify the m
 
 Publishing the topic deploys it to the Virtual Agent messaging channels, except for the Virtual Agent channels that you specified in the topic condition script. A keyword or an intent \(if using NLU\) does not trigger the topic.
 
-**Parent Topic:**[Integrating Virtual Agent with messaging apps](../concept/va-integration-messaging-apps.md)
+**Parent Topic:**[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md)
 

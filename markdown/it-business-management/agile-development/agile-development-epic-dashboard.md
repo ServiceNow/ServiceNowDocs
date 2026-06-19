@@ -2,6 +2,7 @@
 title: Agile 2.0 Epic Dashboard
 description: Visually analyze the progress of the stories of an epic over a given period using the Epic Dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/agile-development-epic-dashboard.html
 release: zurich
 product: Agile Development
 classification: agile-development
@@ -17,9 +18,9 @@ Visually analyze the progress of the stories of an epic over a given period usin
 
 Navigate to **All** &gt; **Agile Development** &gt; **Dashboards** and select **Agile 2.0 Epic Dashboard**.
 
-![Epic Summary](../image/agile-epic-summary.png "Epic Summary tab")
+\[Omitted image "agile-epic-summary.png"\] Alt text: Epic Summary
 
-![Epic cycle time report](../image/agile-epic-cycle-time.png "Cycle Time tab")
+\[Omitted image "agile-epic-cycle-time.png"\] Alt text: Epic cycle time report
 
 The Agile 2.0 Epic Dashboard provides the following information:
 
@@ -104,7 +105,7 @@ If you are upgrading from version 1.0.2 or earlier of Performance Analytics Cont
 -   Epic Cumulative Flow Diagram
 -   Story Cycle Time
 
-For more information, see [Upgrading the layout of Agile 2.0 dashboards](../reference/using-solution-library-for-agile-2.0-dashboards.md).
+For more information, see [Upgrading the layout of Agile 2.0 dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/using-solution-library-for-agile-2.0-dashboards.md).
 
 <table id="table_fcx_vdk_k3b"><thead><tr><th>
 
@@ -124,7 +125,7 @@ Epic Burnup
 
 </td><td>
 
-Line chart![](../../reporting/image/inline-data-vis-96px-line.png)
+Line chart\[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
 
 </td><td>
 
@@ -145,7 +146,7 @@ Epic Cumulative Flow Diagram
 
 </td><td>
 
-Area chart![](../../reporting/image/inline-data-vis-96px-area.png)
+Area chart\[Omitted image "inline-data-vis-96px-area.png"\] Alt text:
 
 </td><td>
 
@@ -182,7 +183,7 @@ Story Cycle Time
 
 </td><td>
 
-Bubble chart![](../../reporting/image/inline-data-vis-96px-bubble.png)
+Bubble chart\[Omitted image "inline-data-vis-96px-bubble.png"\] Alt text:
 
 </td><td>
 
@@ -201,10 +202,10 @@ From the Story State section towards the right of the report, you can filter the
 
  If there are too many stories at any area of the chart and the bubbles appear crowded on the report, you can zoom in that particular area of the report for a clearer view.
 
-![Cycle Time Zoom](../image/cycle-time-zoom.gif)
+\[Omitted image "cycle-time-zoom.gif"\] Alt text: Cycle Time Zoom
 
 </td></tr></tbody>
-</table>You can customize the Burnup and Cumulative Flow Diagram reports. For more information, see [Customizing Agile 2.0 dashboard reports](../concept/customizing-dashboard-reports.md).
+</table>You can customize the Burnup and Cumulative Flow Diagram reports. For more information, see [Customizing Agile 2.0 dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/customizing-dashboard-reports.md).
 
-**Parent Topic:**[Performance Analytics Content Pack for Agile 2.0](pa-content-pack-for-agile-2.0.md)
+**Parent Topic:**[Performance Analytics Content Pack for Agile 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/pa-content-pack-for-agile-2.0.md)
 

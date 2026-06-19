@@ -2,6 +2,7 @@
 title: Start or stop self-health monitoring
 description: You can control the starting or stopping of the self-health monitor feature by configuring the self-health monitoring property. The first time that the self-health monitoring property is enabled, it automatically creates the ServiceNow Event Management application services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/start-self-health.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -44,5 +45,5 @@ Configure the self-health monitoring property to monitor and track application s
 
 The ServiceNow Event Management application services is set according to the value selected for the **evt\_mgmt.self\_health\_active** property.
 
-**Parent Topic:**[Self-health monitors for Event Management](../concept/self-monitoring.md)
+**Parent Topic:**[Self-health monitors for Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/self-monitoring.md)
 

@@ -2,6 +2,7 @@
 title: Activate Conversational Messaging
 description: You can activate the Conversational Messaging plugin \(com.glide.messaging.awa\) if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/activate-messaging-actions.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -32,5 +33,5 @@ Role required: admin
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
 
-**Parent Topic:**[Configuring Advanced Work Assignment](../../advanced-work-assignment/task/installing-awa.md)
+**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

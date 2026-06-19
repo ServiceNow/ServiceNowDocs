@@ -2,6 +2,7 @@
 title: Localization Framework support for Service Catalog items
 description: Localization Framework enables translation of Service Catalog items when a catalog item is requested for translation into a language and a localization requested item \(LRITM\) is created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/localization-framework/lf-support-for-catalog-items.html
 release: zurich
 product: Localization Framework
 classification: localization-framework
@@ -19,7 +20,7 @@ Localization Framework enables translation of Service Catalog items when a catal
 
 You can do the following tasks in Localization Framework for translating the Service Catalog items.
 
--   Select multiple languages from the available languages in the instance to configure settings with the Catalog Item artifact. To configure localization settings, see [Localization Framework settings](localization-settings.md).
+-   Select multiple languages from the available languages in the instance to configure settings with the Catalog Item artifact. To configure localization settings, see [Localization Framework settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/localization-settings.md).
 -   Create LRITM's by requesting translations into one or more languages.
 -   Translate the content of the Service Catalog items directly using the edit translations option.
 -   Read, edit, and machine translate the content, send the content to TMS, send the content via email, export, and import the content of the Service Catalog item.
@@ -27,12 +28,12 @@ You can do the following tasks in Localization Framework for translating the Ser
     **Note:** Activate the Dynamic Translation plugin \(com.glide.dynamic\_translation\) to use machine translation in Localization Framework.
 
 -   Approve and publish the translated content.
--   Monitor the overall localization health of the Service Catalog items from the [Localization Insights dashboard](../../../use/dashboards/application-content-packs/localization-insights-dashboard.md).
+-   Monitor the overall localization health of the Service Catalog items from the [Localization Insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/localization-insights-dashboard.md).
 
-To request translations for a catalog item, see [Request translations for Service Catalog items](../task/request-translations-multiple-items.md).
+To request translations for a catalog item, see [Request translations for Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/request-translations-multiple-items.md).
 
--   **[Localization Framework support for catalog builder in Service Catalog](lf-support-for-catalog-builder.md)**  
+-   **[Localization Framework support for catalog builder in Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/lf-support-for-catalog-builder.md)**  
 Localization Framework enables translation of Service Catalog items directly from the catalog builder dashboard in Service Catalog.
 
-**Parent Topic:**[Explore Localization Framework](exploring-localization-framework.md)
+**Parent Topic:**[Explore Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/exploring-localization-framework.md)
 

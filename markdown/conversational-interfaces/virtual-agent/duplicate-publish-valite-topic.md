@@ -2,6 +2,7 @@
 title: Duplicate and publish Virtual Agent Lite topics
 description: Copy and publish a pre-built ITSM Virtual Agent Lite topic to deploy it to your users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/duplicate-publish-valite-topic.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -18,7 +19,7 @@ Copy and publish a pre-built ITSM Virtual Agent Lite topic to deploy it to your 
 
 ## Before you begin
 
-[Preview \(test\) the pre-built ITSM Virtual Agent Lite topics](test-valite-topic.md).
+[Preview \(test\) the pre-built ITSM Virtual Agent Lite topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/test-valite-topic.md).
 
 Role required: virtual\_agent\_admin or admin
 

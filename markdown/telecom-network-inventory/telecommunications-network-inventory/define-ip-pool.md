@@ -2,12 +2,13 @@
 title: Create an IP pool record
 description: Created topic as per DOC1067583Create an IP pool record so that you can organize and categorize all your sequential IP addresses within a network. You can create an IP pool record by using the Telecommunications Network Inventory application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/define-ip-pool.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Create IP address allocation, Inventory number allocation, Defining inventory records, Use, Telecommunications Network Inventory]
 ---
 
@@ -28,7 +29,7 @@ You can review, create, or delete an IP pool in your network.
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/ni-workspace-list-icon.png)\), and then go to **Inventory Number Allocation** &gt; **IP Pools**.
+2.  Select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List icon.\), and then go to **Inventory Number Allocation** &gt; **IP Pools**.
 
 3.  Select **New**
 
@@ -38,7 +39,7 @@ You can review, create, or delete an IP pool in your network.
     |-----|-----------|
     |Name|User-friendly name for this IP pool.|
 
-    To learn about the other fields, see [Inventory number allocation fields](../reference/inventory-number-allocation-fields.md).
+    To learn about the other fields, see [Inventory number allocation fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/inventory-number-allocation-fields.md).
 
 5.  Create the Telecommunications Network Inventory attributes for this IP pool form by selecting the **Set Inventory Attributes** button.
 
@@ -50,24 +51,24 @@ You can review, create, or delete an IP pool in your network.
     -   In the TNI CI attributes form, by default, the name is fetched from the **Name** field and the **Inventory Category** is set as **IP Address**.
 6.  Add packs to this service by selecting **Add Packs**.
 
-    To learn more about the packs, see [Attribute packs](../concept/telecommunication-network-inventory-pack.md).
+    To learn more about the packs, see [Attribute packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/telecommunication-network-inventory-pack.md).
 
-7.  Add the attachments, such as the graphics or documents, by selecting the attachment icon \(![Attachment icon.](../image/attachments-icon.png)\) in the right panel.
+7.  Add the attachments, such as the graphics or documents, by selecting the attachment icon \(\[Omitted image "attachments-icon.png"\] Alt text: Attachment icon.\) in the right panel.
 
 8.  Select **Save**.
 
-    The related tabs appear on the form. To learn more, see [Related tabs in the network inventory forms](../reference/inventory-related-tab.md).
+    The related tabs appear on the form. To learn more, see [Related tabs in the network inventory forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/inventory-related-tab.md).
 
 9.  View the hierarchy or flow chart of the created IP pool by selecting the **Dependency View** button.
 
-10. View the related network inventories by selecting the brick icon \(![brick icon.](../image/infrastructure-relashionship.png)\).
+10. View the related network inventories by selecting the brick icon \(\[Omitted image "infrastructure-relashionship.png"\] Alt text: brick icon.\).
 
     The Infrastructure Relationships section shows all the related network inventories that are grouped by the individual network instance.
 
 
 ## What to do next
 
-You can review and update the fields, create a related tab record, or delete a record. To learn more, see [Update or delete a record of an inventory number allocation](update_and_delete_ip_address_space.md).
+You can review and update the fields, create a related tab record, or delete a record. To learn more, see [Update or delete a record of an inventory number allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/update_and_delete_ip_address_space.md).
 
-**Parent Topic:**[Create IP address allocation](../concept/ip_pool_ip_network_subnet_allocated_ip_address_and_ip_address.md)
+**Parent Topic:**[Create IP address allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/ip_pool_ip_network_subnet_allocated_ip_address_and_ip_address.md)
 

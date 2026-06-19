@@ -2,6 +2,7 @@
 title: Manage a task for a third party or engagement
 description: Verify that the Assigned to user at your organization or the third-party contact responds to a task and update the state of the task as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-ws-task-manage.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -21,13 +22,13 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessor
 
 ## Procedure
 
-1.  Select **Workspaces** &gt; **Vendor Management Workspace** and then select the **Risk** tab to open the workspace to the home page and then select the task icon ![](../../grc-workspace-vrm/image/icon-tprm-ws-tasks.png).
+1.  Select **Workspaces** &gt; **Vendor Management Workspace** and then select the **Risk** tab to open the workspace to the home page and then select the task icon \[Omitted image "icon-tprm-ws-tasks.png"\] Alt text:.
 
 2.  On either the **My pending tasks** or **My group's tasks** tab, select **Tasks**, and then select the task number.
 
     **Note:** The other options in the list \(**Due diligence requests**, **Issues**, and so on\) also enable you to select a task to work on.
 
-    ![Creating a task.](../../grc-workspace-vrm/image/tprm-ws-task-page.png)
+    \[Omitted image "tprm-ws-task-page.png"\] Alt text: Creating a task.
 
 <table id="table_krg_p53_2yb"><thead><tr><th>
 

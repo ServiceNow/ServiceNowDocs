@@ -2,6 +2,7 @@
 title: Activate a block list for the Check Point NGTP integration
 description: After the Block List has been created in your ServiceNow AI Platform and the URL is available, the Check Point administrator configures the Block List as Custom Intelligence Feed on all the Check Point Next Generation Gateways. Before it can accept Block List entries, the Block List must be configured in Check Point and activated in the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/activate-blk-list.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -33,7 +34,7 @@ After the Block List is configured, as the security incident administrator, you 
 
     Also note that the Active check box is cleared.
 
-    ![Malware Outboind IP](../image/malware-outbound-ip.png)
+    \[Omitted image "malware-outbound-ip.png"\] Alt text: Malware Outboind IP
 
     **Note:** With Tabbed forms cleared in your system settings, the Block List Retrieval URL appears in Retrieval URL section.
 
@@ -41,7 +42,7 @@ After the Block List is configured, as the security incident administrator, you 
 
     The following figure shows the Block List Retrieval URL displayed as a tab with Tabbed forms selected in your system settings. The link to the change request \(CH0030270\) is also displayed.
 
-    ![Malware Outbound IP showing Change Requests](../image/malware-outbound-ip2.png)
+    \[Omitted image "malware-outbound-ip2.png"\] Alt text: Malware Outbound IP showing Change Requests
 
 5.  To complete the configuration and move the Block List from inactive to active, you must choose one of the following options to notify the firewall administrator that the retrieval URL is available.
 

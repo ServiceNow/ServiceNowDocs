@@ -2,6 +2,7 @@
 title: Components installed with Learning
 description: Several types of components are installed with the activation of Learning, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/components-installed-with-learning.html
 release: zurich
 product: Learning Core
 classification: learning-core
@@ -112,5 +113,5 @@ sn\_lep.achievement\_manager
 |Achievement rule item \[sn\_lep\_achievement\_rule\_item\]|Stores information of all the achievement rules on Learning.|
 |Achievement skill \[sn\_lep\_m2m\_achievement\_skill\]|Maps the achievements to the associated skill.|
 
-**Parent Topic:**[Learning reference](learning-experience-reference.md)
+**Parent Topic:**[Learning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/learning-experience-reference.md)
 

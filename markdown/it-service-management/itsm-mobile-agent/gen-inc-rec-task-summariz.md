@@ -2,6 +2,7 @@
 title: Generating task summarization for incident records
 description: Generate incident record and task summarization using GenAI task summarization capabilties which help reduce the effort required to draft work notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/gen-inc-rec-task-summariz.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -25,7 +26,7 @@ The summarize feature is available for the following applets:
 -   Major incidents
 -   My work
 
-![Summarize option for incident record](../image/itsm-ma-summarize-option.png)
+\[Omitted image "itsm-ma-summarize-option.png"\] Alt text: Summarize option for incident record
 
 After the information summary is generated, you can edit and add the information as work notes. Some of the information that is included but not limited to:
 
@@ -33,15 +34,15 @@ After the information summary is generated, you can edit and add the information
 -   Activities such as action taken or existing work notes or comments
 -   Affected CIs and impacted services
 
-You can also customize the information summary \(prompt\) from Now Assist for ITSM admin console. For more information, see [Customize a Now Assist for IT Service Management \(ITSM\) skill](../../now-assist-itsm/task/cust-now-assist-itsm-skill.md).
+You can also customize the information summary \(prompt\) from Now Assist for ITSM admin console. For more information, see [Customize a Now Assist for IT Service Management \(ITSM\) skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-skill.md).
 
-![Incident record summarized as work notes](../image/itsm-ma-summarize-worknote.png)
+\[Omitted image "itsm-ma-summarize-worknote.png"\] Alt text: Incident record summarized as work notes
 
-For more information on Now Assist for mobile, see [Now Assist for Mobile](https://www.servicenow.com/docs/access?context=now-assist-mobile-landing&version=zurich&pubname=zurich-mobile&ft:locale=en-US).
+For more information on Now Assist for mobile, see .
 
 ## Activation of incident record summarization skill
 
-To enable the summarization feature in ITSM Mobile Agent application, you must activate or customize the incident summarization skill from the Now Assist for ITSM admin console. For more information on activating and customizing the incident summarization skill, see [Customize a Now Assist for IT Service Management \(ITSM\) skill](../../now-assist-itsm/task/cust-now-assist-itsm-skill.md).
+To enable the summarization feature in ITSM Mobile Agent application, you must activate or customize the incident summarization skill from the Now Assist for ITSM admin console. For more information on activating and customizing the incident summarization skill, see [Customize a Now Assist for IT Service Management \(ITSM\) skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-skill.md).
 
 If you have already configured the incident summarization skill in the Now Assist for ITSM application console and then installed ITSM Mobile Agent application, you must do the following actions:
 

@@ -2,7 +2,10 @@
 title: Creating a decision table for recommending assignment groups
 description: Create a decision table with name Assignment group for a router issue that provides an assignment group as a result for a given product and problem combination.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ex-decision-tree-for-assgment-grp-recommendation.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -22,7 +25,7 @@ This decision table requires two inputs:
 
 For the result, create the Assignment group column with Result type selected as Reference and Result table selected as Group \[sys\_user\_group\].
 
-Configure the decision table conditions, results, and values as displayed in the following table. For more information, see [Decision Tables](https://www.servicenow.com/docs/access?context=decision-table&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+Configure the decision table conditions, results, and values as displayed in the following table. For more information, see .
 
 |Condition columns|Result column|
 |Product|Problem|Assignment group|

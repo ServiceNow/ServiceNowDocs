@@ -2,6 +2,7 @@
 title: Resolve multiple collisions
 description: You can resolve multiple collisions without reviewing the differences between the local and pulled versions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/t\_ResolveMultipleCollisions.html
 release: zurich
 product: Team Development
 classification: team-development

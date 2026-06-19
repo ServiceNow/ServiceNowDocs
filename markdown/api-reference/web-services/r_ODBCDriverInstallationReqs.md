@@ -2,6 +2,7 @@
 title: ODBC driver installation requirements and supported software
 description: Install the ServiceNow ODBC driver on Microsoft Windows computers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/r\_ODBCDriverInstallationReqs.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -135,7 +136,7 @@ End User License Agreement
 Read the End User License Agreement for the ServiceNow ODBC driver.
 
 </td></tr></tbody>
-</table>For more information, see [Application access settings](https://www.servicenow.com/docs/access?context=c_ApplicationAccessSettings&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+</table>For more information, see Application access settings.
 
 ## Supported software
 
@@ -261,5 +262,5 @@ The ODBC driver provides only basic support for Informatica. Use the ODBC driver
 8.1
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Installing the ODBC driver](../concept/c_InstallingTheODBCDriver.md)
+</table>**Parent Topic:**[Installing the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_InstallingTheODBCDriver.md)
 

@@ -2,6 +2,7 @@
 title: Review and respond to a pre-arbitration request
 description: Review and respond to the pre-arbitration request created by the acquirer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/review-and-respond-to-pre-arbitration.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -27,7 +28,7 @@ The acquirer might choose to initiate pre-arbitration. You can review and respon
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -51,15 +52,15 @@ The acquirer might choose to initiate pre-arbitration. You can review and respon
 
 10. Respond in one of the following ways.
 
-<table id="choicetable_hxf_hdv_n2c"><thead><tr><th align="left" id="d70696e202">
+<table id="choicetable_hxf_hdv_n2c"><thead><tr><th align="left" id="d51290e202">
 
 Option
 
-</th><th align="left" id="d70696e205">
+</th><th align="left" id="d51290e205">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d70696e211">
+</th></tr></thead><tbody><tr><td id="d51290e211">
 
 **Resolved**
 
@@ -69,7 +70,7 @@ Determine whether to reverse provisional credit using the **Reverse provisional 
 
  As a result, the issuer accepts the pre-arbitration request of the acquirer. It reverses provisional credit or convert provisional credit to final credit.
 
-</td></tr><tr><td id="d70696e238">
+</td></tr><tr><td id="d51290e238">
 
 **Unresolved**
 
@@ -91,5 +92,5 @@ After the request executes successfully, the transaction state changes to **Awai
 
 You can recall the request if you're within three days from the submission date and you haven't received a response yet. To recall the request, select **Recall**. When an arbitration case filing is received, the **Incoming arbitration received** value changes to **Yes** and the transaction state moves to **Work to Progress**.
 
-**Parent Topic:**[Allocation dispute workflow](../concept/allocation-dispute-work-flow.md)
+**Parent Topic:**[Allocation dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/allocation-dispute-work-flow.md)
 

@@ -2,6 +2,7 @@
 title: NowSDK architecture
 description: The NowSDK is the top-level entity of the Mobile SDK class framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/developer-guides/mobsdk-ios-nowsdk-arch.html
 release: zurich
 product: Developer Guides
 classification: developer-guides
@@ -34,21 +35,21 @@ NowSDK provides the following feature services and associated APIs:
 
     Primary APIs:
 
-    -   [NowAPIService](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowAPIService/concept/NowAPIServiceiOSAPI.md#): This API provides functionality that enables you to interact with the publicly exposed [REST APIs](../../../../inbound-rest/concept/c_RESTAPI.md) on your ServiceNow instance.
-    -   [NowAttachmentService](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowAttachmentService/concept/NowAttachmentServiceiOSAPI.md#): This API provides functionality to upload and query file attachments on your ServiceNow instance within your iOS application.
-    -   [NowGraphQLService](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowGraphQLService/concept/NowGraphQLServiceiOSAPI.md#): This API provides functionality that enables you to use GraphQL queries to obtain data from tables within your ServiceNow instance using the ServiceNow REST GraphQL API.
-    -   [NowTableService](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowTableService/concept/NowTableServiceiOSAPI.md#): This API provides functionality that enables you to perform create, read, update, and delete \(CRUD\) operations on existing tables in your ServiceNow instance that are serviced through the ServiceNow REST Table API.
+    -   [NowAPIService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAPIServiceiOSAPI.md): This API provides functionality that enables you to interact with the publicly exposed [REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md) on your ServiceNow instance.
+    -   [NowAttachmentService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAttachmentServiceiOSAPI.md): This API provides functionality to upload and query file attachments on your ServiceNow instance within your iOS application.
+    -   [NowGraphQLService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowGraphQLServiceiOSAPI.md): This API provides functionality that enables you to use GraphQL queries to obtain data from tables within your ServiceNow instance using the ServiceNow REST GraphQL API.
+    -   [NowTableService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowTableServiceiOSAPI.md): This API provides functionality that enables you to perform create, read, update, and delete \(CRUD\) operations on existing tables in your ServiceNow instance that are serviced through the ServiceNow REST Table API.
 -   NowAnalytics
 
     Enables you to gather and track usage analytics within your mobile applications.
 
-    Primary API: [NowAnalyticsService](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowAnalyticsService/concept/NowAnalyticsServiceiOSProtocol.md#): This API provides functionality to gather user analytics data and store it within the ServiceNow platform for later analysis and tracking.
+    Primary API: [NowAnalyticsService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAnalyticsServiceiOSProtocol.md): This API provides functionality to gather user analytics data and store it within the ServiceNow platform for later analysis and tracking.
 
 -   NowChat
 
-    Enables you to embed a native [Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US) chat window in your applications. This service includes UI/UX features.
+    Enables you to embed a native  chat window in your applications. This service includes UI/UX features.
 
-    Primary API: [NowChatService](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowChatService/concept/NowChatServiceiOSAPI.md#): This API provides Virtual Agent and Live Agent chat capabilities to your iOS applications. Leverage the full-service chat capabilities provided by the ServiceNow platform by simply implementing NowChatService within your application.
+    Primary API: [NowChatService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowChatServiceiOSAPI.md): This API provides Virtual Agent and Live Agent chat capabilities to your iOS applications. Leverage the full-service chat capabilities provided by the ServiceNow platform by simply implementing NowChatService within your application.
 
 -   NowPush
 
@@ -56,12 +57,12 @@ NowSDK provides the following feature services and associated APIs:
 
     Primary APIs:
 
-    -   [NowPushPayload](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowPushPayload/concept/NowPushPayloadiOSProtocol.md#): This is a generic protocol that you can use to define a push notification protocol within the `NowSDK` framework.
-    -   [NowPushService](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowPushService/concept/NowPushServiceiOSAPI.md#): This API provides functions that enable interaction with the Push Notification service.
+    -   [NowPushPayload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowPushPayloadiOSProtocol.md): This is a generic protocol that you can use to define a push notification protocol within the `NowSDK` framework.
+    -   [NowPushService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowPushServiceiOSAPI.md): This API provides functions that enable interaction with the Push Notification service.
 -   NowWeb
 
     Enables you to load web pages hosted on your ServiceNow instance in a native web view, with support for Cabrillo. It automatically handles user authentication and session management instead of forcing users to log in to the instance via a login web page.
 
-    Primary API: [NowWebService](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowWebService/concept/NowWebServiceiOSAPI.md#): This API provides functionality that enables the browsing of web pages on your ServiceNow instance.
+    Primary API: [NowWebService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowWebServiceiOSAPI.md): This API provides functionality that enables the browsing of web pages on your ServiceNow instance.
 
 

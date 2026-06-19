@@ -2,6 +2,7 @@
 title: Service Level Agreement \(SLA\) definition
 description: An SLA definition is used to create and progress SLAs, enabling you to use an SLA system for your organization's tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-level-management/c\_SLADefinitions.html
 release: zurich
 product: Service Level Management
 classification: service-level-management
@@ -19,8 +20,8 @@ An SLA definition record defines the timings, conditions, workflows, and other i
 
 For example, the default **Priority 1 resolution \(8 hour\)** SLA Definition defines the Task SLAs to attach to incidents with a P1 - Critical priority, specifies appropriate conditions for those Task SLAs, and uses the default SLA workflow to create events such as to send a notification, when an incident's Task SLA reaches 50% of its allotted time.
 
--   **[Create an SLA definition](../task/t_CreateAnSLADefinition.md)**  
+-   **[Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-level-management/t_CreateAnSLADefinition.md)**  
 You can create one or more Service Level Agreement \(SLA\) definitions and use them to create an SLA record. This SLA record enables you to use an SLA system for your organization's task.
 
-**Parent Topic:**[Configure Service Level Agreement \(SLA\)](c_ConfigureSLAs.md)
+**Parent Topic:**[Configure Service Level Agreement \(SLA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-level-management/c_ConfigureSLAs.md)
 

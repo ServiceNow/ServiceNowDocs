@@ -2,6 +2,7 @@
 title: Use external IDs to match spaces between Workplace Service Delivery for Mappedin
 description: After importing a new Mappedin building or after importing an existing Mappedin building, if the locations don't match in Mappedin and Workplace Service Delivery, then use external IDs to resolve space location issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/wsm-mappedin-ext-ids.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -40,5 +41,5 @@ Role required: employee and admin
     An email notification verifies the generated external IDs for the spaces, floors, and buildings. Use the links in the email to export a file that you can provide to Mappedin.
 
 
-**Parent Topic:**[Using Workplace Space Mapping](../concept/wsm-using-workplace-space-mapping.md)
+**Parent Topic:**[Using Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/wsm-using-workplace-space-mapping.md)
 

@@ -2,6 +2,7 @@
 title: Analyze Knowledge Graph logs for debugging
 description: Review Knowledge Graph logs and history to analyze performance and diagnose issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/knowledge-graph/debugging-logs-in-knowledge-graph.html
 release: zurich
 product: Knowledge Graph
 classification: knowledge-graph

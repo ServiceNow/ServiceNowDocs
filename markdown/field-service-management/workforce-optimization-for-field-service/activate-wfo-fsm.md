@@ -2,6 +2,7 @@
 title: Activate Workforce Optimization for Field Service
 description: You can activate the Workforce Optimization for Field Service plugin \(com.snc.app\_fsm\_wfo\) for Field Service Management if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -17,7 +18,7 @@ You can activate the Workforce Optimization for Field Service plugin \(com.snc.a
 
 ## Before you begin
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 Workforce Optimization for Field Service solution is highly modular, offering a wide range of capabilities such as Scheduling, Coaching, and Teams applications in Field Service Manager Workspace. Workforce Optimization for Field Service \(com.snc.app\_fsm\_wfo\) plugin activates all other dependent plugins to enable users to the Scheduling, Coaching, and Teams applications in Workforce Optimization for Field Service.
 
@@ -26,19 +27,19 @@ Workforce Optimization for Field Service requires the following ServiceNow Store
 -   **Required ServiceNow Store applications to use in Field Service Manager Workspace**
     -   **Shift Scheduling for Field Service \(com.snc.sn\_fsm\_shift\_schdl\)**
 
-        Integrate the agent shift scheduling functionalities for Field Service Management Workforce Optimization. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallApplications&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+        Integrate the agent shift scheduling functionalities for Field Service Management Workforce Optimization. For ServiceNow Store installation steps, see Install a ServiceNow Store application.
 
     -   **Team Management for Field Service \(com.snc.sn\_fsm\_team\_mgmt \)**
 
-        Implements team performance functionalities for Field Service Management Workforce Optimization. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallApplications&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+        Implements team performance functionalities for Field Service Management Workforce Optimization. For ServiceNow Store installation steps, see Install a ServiceNow Store application.
 
     -   **Coaching \(com.sn\_coaching\)**
 
-        Facilitates the coaching of employees on their work through the use of coaching opportunities that can be conditionally configured. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallApplications&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+        Facilitates the coaching of employees on their work through the use of coaching opportunities that can be conditionally configured. For ServiceNow Store installation steps, see Install a ServiceNow Store application.
 
     -   **Coaching with Learning \(com.sn\_coach\_learning\)**
 
-        Coach employees on their work through the use of coaching opportunities, taking advantage of critical moments in a process, that can be conditionally configured. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallApplications&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+        Coach employees on their work through the use of coaching opportunities, taking advantage of critical moments in a process, that can be conditionally configured. For ServiceNow Store installation steps, see Install a ServiceNow Store application.
 
 
 Role required: admin
@@ -51,7 +52,7 @@ The following items are installed with Workforce Optimization for Field Service:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Workforce Optimization for Field Service components](../reference/components-wfo-fsm.md).
+For more information, see [Workforce Optimization for Field Service components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/components-wfo-fsm.md).
 
 ## Procedure
 
@@ -65,7 +66,7 @@ For more information, see [Workforce Optimization for Field Service components](
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
 ## Result

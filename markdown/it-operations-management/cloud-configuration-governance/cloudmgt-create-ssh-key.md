@@ -2,6 +2,7 @@
 title: Create an SSH key
 description: A stack might include a virtual machine that requires an SSH key for access. To request such a stack, you can either use a key pair that is assigned to you or you can generate another key.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/cloudmgt-create-ssh-key.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

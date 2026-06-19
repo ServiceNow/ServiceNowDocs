@@ -2,6 +2,7 @@
 title: Manage template activation
 description: Manage template activation and deactivation to ensure that users creating apps in App Engine Studio \(AES\) have access to the best application templates for their needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/manage-template-activation.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -38,5 +39,5 @@ App template admins manage the templates that are active in non-production insta
 5.  Select **Update**.
 
 
-**Parent Topic:**[Create your app using an application template](use-app-template.md)
+**Parent Topic:**[Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/use-app-template.md)
 

@@ -2,6 +2,7 @@
 title: Quick start tests for On-Call Scheduling
 description: Validate that On-Call Scheduling still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/on-call-scheduling/quick-start-tests-oncallscheduling.html
 release: zurich
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -38,12 +39,12 @@ Activate the On-Call Scheduling plugin \(com.snc.on\_call\_rotation\) to run the
 |On-call: Verify On-Call workbench|Test to verify the On-Call workbench layout.|Orlando|
 |On-call: Hide or show shifts|Verify whether you can hide or show shifts from On-Call calendar|Orlando|
 
-To learn more about On-Call Scheduling, see [On-Call Scheduling](../../on-call-scheduling/concept/c_OnCallScheduling.md).
+To learn more about On-Call Scheduling, see [On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/c_OnCallScheduling.md).
 
-**Parent Topic:**[Reference for on-call scheduling](../../user-administration/concept/reference-for-on-call-scheduling.md)
+**Parent Topic:**[Reference for on-call scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/reference-for-on-call-scheduling.md)
 
 **Related topics**  
 
 
-[Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+[bundle-cadev.quick-start-tests]
 

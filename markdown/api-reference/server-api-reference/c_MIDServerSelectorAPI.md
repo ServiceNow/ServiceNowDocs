@@ -2,6 +2,7 @@
 title: MIDServerSelector - Global
 description: The MIDServerSelector script include provides methods to find a MID Server based on capabilities and target IP address.Creates an instance of MIDServerSelector.Finds the MID server based on the capabilities and target IP address.Gets the error messages for the current MID server.Gets the warning messages for the current MID server.Sets the technologies for which to look.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_MIDServerSelectorAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The MIDServerSelector script include provides methods to find a MID Server based
 
 Use in server scripts to find a MID Server with specific capabilities.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## MIDServerSelector - MIDServerSelector\(\)
 

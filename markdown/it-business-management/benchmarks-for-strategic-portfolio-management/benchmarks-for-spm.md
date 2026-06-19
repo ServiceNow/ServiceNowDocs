@@ -2,6 +2,7 @@
 title: SPM Benchmarks
 description: The ServiceNow SPM Benchmarks application provides you with an insight into the industry averages of your peers. Use your key performance indicators \(KPIs\) to compare your performance with global benchmarks, which contributes to improved performance for your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/benchmarks-for-strategic-portfolio-management/benchmarks-for-spm.html
 release: zurich
 product: Benchmarks for Strategic Portfolio Management
 classification: benchmarks-for-strategic-portfolio-management
@@ -15,16 +16,16 @@ breadcrumb: [Strategic Portfolio Management]
 
 The ServiceNow® SPM Benchmarks application provides you with an insight into the industry averages of your peers. Use your key performance indicators \(KPIs\) to compare your performance with global benchmarks, which contributes to improved performance for your organization.
 
-Getting started with SPM BenchmarkingThis video provides an overview of how you can get started with SPM Benchmarks.
+This video provides an overview of how you can get started with SPM Benchmarks.
 
--   **[Exploring SPM Benchmarks](exploring-benchmarks.md)**  
+-   **[Exploring SPM Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/benchmarks-for-strategic-portfolio-management/exploring-benchmarks.md)**  
 The SPM Benchmarks application provides clear visibility into your key performance indicators \(KPIs\) and trends, providing comparative insights relative to the industry averages of your peers. It enables you to gain deeper insights by comparing your performance with your peers based on industry, size, or region.
--   **[Configuring SPM Benchmarks](configuring-benchmarks.md)**  
+-   **[Configuring SPM Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/benchmarks-for-strategic-portfolio-management/configuring-benchmarks.md)**  
 Learn about the process required to set up SPM Benchmarks to view the comparative understandings on your key performance indicators \(KPIs\).
--   **[Customize the SPM Benchmarks KPIs](using-benchmarks.md)**  
+-   **[Customize the SPM Benchmarks KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/benchmarks-for-strategic-portfolio-management/using-benchmarks.md)**  
 You can customize the KPI information you would want to see in your SPM Benchmarks dashboard.
--   **[SPM Benchmarks reference](../reference/benchmarks-reference.md)**  
+-   **[SPM Benchmarks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/benchmarks-for-strategic-portfolio-management/benchmarks-reference.md)**  
 Reference information to provide additional details about SPM Benchmarks such as the fields, user roles, and scheduled job information.
 
-**Parent Topic:**[Strategic Portfolio Management](../../it-business-management/reference/r_ITBusinessManagement.md)
+**Parent Topic:**[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-portfolio-management/r_ITBusinessManagement.md)
 

@@ -2,7 +2,10 @@
 title: View Task Intelligence prediction history
 description: View details about historical predictions in the Predictor Result \[ml\_predictor\_results\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-task-intel-prediction-history.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -60,5 +63,5 @@ If the values for a case or interaction have been predicted using a record categ
 
 ## Email sentiment replies
 
-Duplicate entries can be posted in the Predictor Result table for email sentiment replies. To help prevent these duplicate entries, deactivate the **Predict Sentiment for Cases** inbound email action. For more information, see [Inbound email actions](https://www.servicenow.com/docs/access?context=c_InboundEmailActions&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Duplicate entries can be posted in the Predictor Result table for email sentiment replies. To help prevent these duplicate entries, deactivate the **Predict Sentiment for Cases** inbound email action. For more information, see Inbound email actions.
 

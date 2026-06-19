@@ -2,6 +2,7 @@
 title: Software asset overview
 description: Enhance your software asset management experience by using the modernized and user-friendly software asset overview view. The software asset overview is a simplified and intuitive environment that helps you use the application more effectively by reducing complexity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/sam-workspace-landing.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -34,7 +35,7 @@ Use the software asset overview view to:
     However, you can also view reports related to the products that aren't published by setting this filter to **Unpublished**. To view reports related to all the products, clear the Published status filter.
 
 
-![Software asset overview landing page](../image/asset-overview-workspace.png "Software asset overview view")
+\[Omitted image "asset-overview-workspace.png"\] Alt text: Software asset overview landing page
 
 Select any widget to view detailed information. All the widgets are updated whenever a new reconciliation result is available.
 
@@ -335,7 +336,7 @@ Entitlement Import Errors \[samp\_entitlement\_import\]
 
 </td><td>
 
-The number of entitlement import errors where the purchase orders have an associated procurement integration profile.**Note:** This alert appears only when the Asset Management - Procurement Integration \(app-itam-procurement-integration\) store application is installed. For more information, see [Install Asset Management - Procurement Integration](../../procurement/task/install-proc-int.md).
+The number of entitlement import errors where the purchase orders have an associated procurement integration profile.**Note:** This alert appears only when the Asset Management - Procurement Integration \(app-itam-procurement-integration\) store application is installed. For more information, see [Install Asset Management - Procurement Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/procurement/install-proc-int.md).
 
 </td></tr><tr><td>
 
@@ -500,7 +501,7 @@ Software Entitlements \[alm\_license\]
 
 </td><td>
 
-Number of entitlements created from purchase orders that have an associated procurement integration profile.**Note:** This notification appears only when the Asset Management - Procurement Integration \(app-itam-procurement-integration\) store application is installed. For more information, see [Install Asset Management - Procurement Integration](../../procurement/task/install-proc-int.md).
+Number of entitlements created from purchase orders that have an associated procurement integration profile.**Note:** This notification appears only when the Asset Management - Procurement Integration \(app-itam-procurement-integration\) store application is installed. For more information, see [Install Asset Management - Procurement Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/procurement/install-proc-int.md).
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: Create field level restrictions
 description: Set field level restrictions in DLP incidents to protect sensitive information from being exposed. You can use field level restrictions to control the users or groups who can access specific fields in the DLP incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/data-loss-prevention/setup-field-level-restrictions-dlp.html
 release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -134,5 +135,5 @@ Select the custom fields that you want to allow access to from the Available col
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[DLP Incident Access Restrictions](../concept/dlp-incident-access-restrictions.md)
+**Parent Topic:**[DLP Incident Access Restrictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/dlp-incident-access-restrictions.md)
 

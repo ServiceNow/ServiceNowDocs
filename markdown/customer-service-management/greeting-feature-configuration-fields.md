@@ -2,7 +2,10 @@
 title: Greeting feature configuration
 description: Understand the configuration of the Greeting feature in the Engagement Messenger to configure the field values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/greeting-feature-configuration-fields.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -71,5 +74,5 @@ Tagline for the user greeting on the header of the messenger home page.
  \[\[URL\|Display Text\]\] indicates format to define URL and display text. For example, `[[https://www.example.com|Example]]`
 
 </td></tr></tbody>
-</table>![Greeting feature widget screen with a user greeting, a list of featured articles, and a search bar to search for answers.](../image/em-greeting-feature-widget.png "Greeting feature widget")
+</table>\[Omitted image "em-greeting-feature-widget.png"\] Alt text: Greeting feature widget screen with a user greeting, a list of featured articles, and a search bar to search for answers.
 

@@ -2,6 +2,7 @@
 title: onShow script for list context menus
 description: The onShow script field defines a script that runs before the context menu is displayed to determine which options appear in the context menu.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/list-administration/r\_OnShowScript.html
 release: zurich
 product: List Administration
 classification: list-administration

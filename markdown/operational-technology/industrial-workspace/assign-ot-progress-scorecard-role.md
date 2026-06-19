@@ -2,6 +2,7 @@
 title: Assign the Operational Technology Progress Scorecard roles
 description: Assign the Operational Technology \(OT\) Progress Scorecard roles to your users so that you can control their access to the features, capabilities, and data for OT Progress Scorecard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-workspace/assign-ot-progress-scorecard-role.html
 release: zurich
 product: Industrial Workspace
 classification: industrial-workspace
@@ -34,9 +35,9 @@ Users with the role that are listed in the following table can use the OT Progre
 
     |Task|User administration feature|
     |----|---------------------------|
-    |**Assign a role to a user**|See [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).|
-    |**Assign a role to a group**|See [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).|
+    |**Assign a role to a user**|See Assign a role to a user.|
+    |**Assign a role to a group**|See Assign a role to a group.|
 
 
-**Parent Topic:**[Setting up the Operational Technology Progress Scorecard](../concept/setting-up-the-ot-progress-scorecard.md)
+**Parent Topic:**[Setting up the Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/setting-up-the-ot-progress-scorecard.md)
 

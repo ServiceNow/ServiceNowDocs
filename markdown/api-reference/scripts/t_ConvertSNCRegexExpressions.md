@@ -2,6 +2,7 @@
 title: Convert SNC Regex expressions to enhanced regex expressions
 description: When you upgrade to Eureka Patch 5 or later releases, you should convert scripts that use the SNC.Regex API to use regular JavaScript expressions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/t\_ConvertSNCRegexExpressions.html
 release: zurich
 product: Scripts
 classification: scripts
@@ -64,5 +65,5 @@ var replaced = str.replace(r, 'there');
 // replaced == 'hellothere'
 ```
 
-**Parent Topic:**[Using regular expressions in server-side scripts](../concept/c_RegularExpressionsInScripts.md)
+**Parent Topic:**[Using regular expressions in server-side scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_RegularExpressionsInScripts.md)
 

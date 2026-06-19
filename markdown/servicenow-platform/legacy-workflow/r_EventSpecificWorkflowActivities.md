@@ -2,6 +2,7 @@
 title: Event-specific workflow activities
 description: The following workflow activities trigger events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/legacy-workflow/r\_EventSpecificWorkflowActivities.html
 release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
@@ -59,9 +60,9 @@ Fires the notification event specified in the Workflow Activity \[wf\_activity\]
 
 1.  Navigate to **System Policy** &gt; **Events** &gt; **Registry**
 2.  Create an event.
-3.  Navigate to **System Policy** &gt; **Templates** and create an [Email templates](https://www.servicenow.com/docs/access?context=c_EmailTemplates&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+3.  Navigate to **System Policy** &gt; **Templates** and create an Email templates.
 4.  Navigate to **System Policy** &gt; **Email** &gt; **Notifications**.
-5.  [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) that is triggered by the event you created and sends the template you created.
+5.  Create an email notification that is triggered by the event you created and sends the template you created.
 6.  On the workflow canvas, drag the **Create Event** activity onto the canvas and associate it with the newly registered event.
 
 When the workflow executes, the event is created and the email associated with the event is sent.
@@ -80,11 +81,11 @@ On the notification thread, outside of workflow
 
 </td></tr><tr><td>
 
-[Wait for WF Event](../../workflow-activities/reference/r_WaitForWFEvent.md)
+[Wait for WF Event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/workflow-activities/r_WaitForWFEvent.md)
 
 </td><td>
 
-Listens for workflow events, as described in the [Workflow Events in the Base System](r_WorkflowEventsInTheBaseSystem.md) table, and only within the current context. This activity is located in the **Conditions** category of the workflow tree.
+Listens for workflow events, as described in the [Workflow Events in the Base System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/r_WorkflowEventsInTheBaseSystem.md) table, and only within the current context. This activity is located in the **Conditions** category of the workflow tree.
 
 </td><td>
 
@@ -107,5 +108,5 @@ Triggered in the current thread or from a script include
 The onUnhandledEvent of the **Wait for WF Event** activity
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workflow events in the base system](r_WorkflowEventsInTheBaseSystem.md)
+</table>**Parent Topic:**[Workflow events in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/r_WorkflowEventsInTheBaseSystem.md)
 

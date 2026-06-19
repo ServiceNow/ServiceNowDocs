@@ -2,6 +2,7 @@
 title: Enable AI search in the Business Portals for unauthenticated users
 description: Activate the AI search widgets to allow guest users logging in to the Business portal to use the AI search feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/configure\_search\_businessportal\_guestuser.html
 release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -19,7 +20,7 @@ Activate the AI search widgets to allow guest users logging in to the Business p
 
 Role required: admin
 
-You must configure AI Search for the business portal. For more information, see [Enable and configure AI Search in Service Portal](https://www.servicenow.com/docs/access?context=enable-ais-sp&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+You must configure AI Search for the business portal. For more information, see Enable and configure AI Search in Service Portal.
 
 ## Procedure
 

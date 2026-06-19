@@ -2,7 +2,10 @@
 title: Using Impact
 description: Using Impact available directly through your ServiceNow instance and the Impact Delivery Instance offers a similar experience, but the user interface may vary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/impact-in-app.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-10-08"
 reading_time_minutes: 2
@@ -29,11 +32,11 @@ Details
 
 </th></tr></thead><tbody><tr><td align="center">
 
-![](../../../reuse/icons/brand-icons/bus-home.svg)
+\[Omitted image "bus-home.svg"\] Alt text:
 
 </td><td>
 
-[Navigating Impact](impact-in-platform-home.md)
+[Navigating Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-in-platform-home.md)
 
 </td><td>
 
@@ -44,11 +47,11 @@ Details
 
 </td></tr><tr><td align="center">
 
-![](../../../reuse/icons/brand-icons/bus-featured.svg)
+\[Omitted image "bus-featured.svg"\] Alt text:
 
 </td><td>
 
-[Use the recommendations list](../task/using-recommendations-iip-ws.md)
+[Use the recommendations list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/using-recommendations-iip-ws.md)
 
 </td><td>
 
@@ -56,11 +59,11 @@ Use the recommendations full list to view the recommendations tailored for you.
 
 </td></tr><tr><td align="center">
 
-![](../../../reuse/icons/brand-icons/bus-root-cause-issue-resolution.svg)
+\[Omitted image "bus-root-cause-issue-resolution.svg"\] Alt text:
 
 </td><td>
 
-[Platform Health](platform-health-idi.md)
+[Platform Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/platform-health-idi.md)
 
 </td><td>
 
@@ -68,11 +71,11 @@ Use diagnostic tools that help you understand the current health of your instanc
 
 </td></tr><tr><td align="center">
 
-![](../../../reuse/icons/brand-icons/bus-datasheet.svg)
+\[Omitted image "bus-datasheet.svg"\] Alt text:
 
 </td><td>
 
-[Value management](impact-in-platform-business-outcomes.md)
+[Value management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/value-library/impact-in-platform-business-outcomes.md)
 
 </td><td>
 
@@ -80,11 +83,11 @@ Captures your objectives, which are high-level goals tied to measurable outcomes
 
 </td></tr><tr><td align="center">
 
-![](../../../reuse/icons/brand-icons/bus-workflow.svg)
+\[Omitted image "bus-workflow.svg"\] Alt text:
 
 </td><td>
 
-[Product Adoption Roadmaps](impact-par.md)
+[Product Adoption Roadmaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-product-adoption-roadmap/impact-par.md)
 
 </td><td>
 
@@ -93,29 +96,29 @@ View your capabilities and product adoption roadmaps for your ServiceNow instanc
 
 </td></tr><tr><td align="center">
 
-![](../../../reuse/icons/brand-icons/bus-rocketship.svg)
+\[Omitted image "bus-rocketship.svg"\] Alt text:
 
 </td><td>
 
-[Initiatives and Accelerators](impact-initiatives.md)
+[Initiatives and Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/impact-initiatives.md)
 
 </td><td>
 
--   [Initiatives catalog](https://servicenow.com/docs/csh?topicname=initiatives-catalog.html&version=latest): Actionable engagements and workstreams that support your digital transformation.
--   [Accelerator catalog](https://servicenow.com/docs/csh?topicname=accelerator-catalog.html&version=latest): Fixed-scope offerings with experts behind each option to quickly provide value exactly where you need it
+-   [Initiatives catalog](https://www.servicenow.com/docs/access?context=initiatives-catalog): Actionable engagements and workstreams that support your digital transformation.
+-   [Accelerator catalog](https://www.servicenow.com/docs/access?context=accelerator-catalog): Fixed-scope offerings with experts behind each option to quickly provide value exactly where you need it
 
 </td></tr><tr><td align="center">
 
-![](../../../reuse/icons/brand-icons/bus-management-console.svg)
+\[Omitted image "bus-management-console.svg"\] Alt text:
 
 </td><td>
 
-[Consumption Report](ide-consumption-report.md#)
+[Consumption Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/ide-consumption-report.md)
 
 </td><td>
 
 View your tier features across various accounts including used and unused accelerators, initiatives, instance observer users, developer support users, and active case breakdowns.
 
 </td></tr></tbody>
-</table>**Important:** In order to access various levels of Impact, a role must be assigned to you. Your Impact Administrator can assign the appropriate roles to you. See [Manage Impact users](../task/ide-user-management.md) for additional information.
+</table>**Important:** In order to access various levels of Impact, a role must be assigned to you. Your Impact Administrator can assign the appropriate roles to you. See [Manage Impact users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/ide-user-management.md) for additional information.
 

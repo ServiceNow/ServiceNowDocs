@@ -2,6 +2,7 @@
 title: Configure small talk filters
 description: Redirect users to different Virtual Agent topics if small talk, such as greetings, expressions of gratitude, complaints, or requests to close, are detected in conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/generative-ai-controller/configure-small-talk-filters.html
 release: zurich
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -45,7 +46,7 @@ When engaging with generative AI, many people send conversational messages that 
 
     Use a comma-separated list to select multiple values.
 
-    ![Small talk filter record for the Gratitude filter](../image/configure-small-talk-filters-record.png)
+    \[Omitted image "configure-small-talk-filters-record.png"\] Alt text: Small talk filter record for the Gratitude filter
 
 7.  Select **Submit**.
 
@@ -65,7 +66,7 @@ When engaging with generative AI, many people send conversational messages that 
 
         An example might be the "Thanks for your assistance with my task" sample filter for the Gratitude filter.
 
-        ![Small talk sample record for the Gratitude filter that says "Thanks for your assistance with my task"](../image/configure-small-talk-filters-sample-record.png)
+        \[Omitted image "configure-small-talk-filters-sample-record.png"\] Alt text: Small talk sample record for the Gratitude filter that says "Thanks for your assistance with my task"
 
     5.  Select **Submit** to create additional example statements to trigger the filter.
 

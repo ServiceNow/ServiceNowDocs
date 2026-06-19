@@ -2,6 +2,7 @@
 title: Change Management use case
 description: For ITSM, specifically incident and change, identifying the location of critical data can help reduce mean time to resolve incidents and eliminate outages caused by change.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/itsm-change-use-case-example.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -23,7 +24,7 @@ Applying the CSDM framework provides value to Change Management in the following
 -   Changes are dynamically routed.
 -   Change Management identifies and notifies all affected services to support the approval decision.
 
-![Data elements available for use by Change Management.](../image/csdm-v5-tables-use-case-change-mgmt.png)
+\[Omitted image "csdm-v5-tables-use-case-change-mgmt.png"\] Alt text: Data elements available for use by Change Management.
 
 1.  Subscription: Related lists on service offerings that identify who has access to the offering and thus may be impacted in an outage. An incident or change can identify impact using the subscribed by tables. The related lists are as follows:
     -   Service Subscriptions by Company \[service\_subscribe\_company\]
@@ -56,5 +57,5 @@ Use the Change Request form to see the impact of the change. Complete the follow
 
 [See the video: How Change Management leverages the CSDM](https://www.youtube.com/watch?v=3iCxTeU4ZTA&list=PLkGSnjw5y2U7QNr9jL6TAgwQvYBI_LEtK&index=43)
 
-**Parent Topic:**[Applying CSDM guidelines to Change Management](itsm-change-use-case-product-view.md)
+**Parent Topic:**[Applying CSDM guidelines to Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/itsm-change-use-case-product-view.md)
 

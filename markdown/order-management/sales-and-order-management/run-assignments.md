@@ -2,6 +2,7 @@
 title: Run Assignments
 description: Run sales territory assignments to assign CRM entities to the most eligible territory. Each territory is checked against its own or cascaded territory conditions related to the CRM entity.​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/run-assignments.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

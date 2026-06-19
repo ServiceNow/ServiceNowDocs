@@ -2,6 +2,7 @@
 title: Explore Upgrade Preview in Upgrade Console
 description: Leverage the Upgrade Preview module to conduct in-depth assessments of your ServiceNow instance prior to an upgrade. Explore how different release versions may affect your current configurations and fine-tune your upgrade plan accordingly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/upgrade-management/um-upgrade-preview-explore.html
 release: zurich
 product: Upgrade Management
 classification: upgrade-management
@@ -17,11 +18,11 @@ Leverage the Upgrade Preview module to conduct in-depth assessments of your Serv
 
 The preview status info and link in the message displayed on top of the Upgrade Preview page states the current status of the ongoing preview process. Since you can get an accurate prediction on the new and existing applications and their skipped records, the preview execution time has increased considerably. Click on the link in the message to see the status of the preview process.
 
-![Image showing the status message and link](../../upgrade-center/image/uc-status-message-link.png)
+\[Omitted image "uc-status-message-link.png"\] Alt text: Image showing the status message and link
 
 The Execution Tracker record shows up on clicking the progress link in the message. Click Show status related list to show the current status of the executed preview process.
 
-![Image showing the preview screen](../../upgrade-center/image/uc-preview-screen.png)
+\[Omitted image "uc-preview-screen.png"\] Alt text: Image showing the preview screen
 
 **Note:** Depending on the eligibility of your instance, the list of available target versions for preview varies. Only versions that are allowed for a particular instance to be upgraded to, show up on the list. If your instance is not eligible to be upgraded to any version, the drop-down menu is empty.
 
@@ -89,7 +90,7 @@ Skipped list prediction**Note:** If you are using Upgrade Plan, the card name ch
 
 </td><td>
 
-Information about the predicted skipped records. See [Preview predicted changes](../reference/um-previewed-changes.md) for more details.-   Total record changes: Total number of records that are predicted to change when the upgrade occurs. Total record changes also include possible predicted skipped files known as Predicted skipped records.
+Information about the predicted skipped records. See [Preview predicted changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-previewed-changes.md) for more details.-   Total record changes: Total number of records that are predicted to change when the upgrade occurs. Total record changes also include possible predicted skipped files known as Predicted skipped records.
 
 Review changes: Link to the list of records that have changed and can be reviewed
 
@@ -102,7 +103,7 @@ Review changes: Link to the list of records that have changed and can be reviewe
 
 **Note:** This entry shows up on the card only when rules are executed on the skipped records. You will also see a link to create a skipped record rule if either there are no existing rules or the existing rules aren't executed.
 
-**Note:** Skipped record rules and upgrade plans can't be implemented together. See [Execute a skipped record rule automatically](../task/um-execute-skipped-record-rule.md#) for more information.
+**Note:** Skipped record rules and upgrade plans can't be implemented together. See [Execute a skipped record rule automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-execute-skipped-record-rule.md) for more information.
 
 -   Predicted skipped records by priority: Pie chart to represent the predicted skipped records by priority.
 
@@ -122,7 +123,7 @@ Predicted skipped records by product
 
 </td><td>
 
-Records that have been predicted to be skipped and are sorted as per their product families.![](../../upgrade-center/image/uc-skipped_records_product.png)
+Records that have been predicted to be skipped and are sorted as per their product families.\[Omitted image "uc-skipped\_records\_product.png"\] Alt text:
 
  **Note:** The products sorted under the Other category don't have any specific product family.
 
@@ -134,7 +135,7 @@ Application Upgrade Preview
 
 Accurate prediction on the installs and upgrades for new and existing applications and for their specific skipped records. It states the total number of applications that have been either upgraded or installed.**Note:** The skipped records prediction is reflected on the Predicted skipped records by product card.
 
-![Image showing Application Upgrade Preview card](../../upgrade-center/image/uc-upgrade-preview-apps.png)
+\[Omitted image "uc-upgrade-preview-apps.png"\] Alt text: Image showing Application Upgrade Preview card
 
 By default, 10 applications preview details show up. Click View all applications preview details link to view the entire list. It states the name of the application and the following information:
 
@@ -154,7 +155,7 @@ Predicted Schema Changes
 
 </td><td>
 
-Prediction about the kind of changes in the database based on the upgrade on your instance.![Image showing the Predicted Schema Changes list](../../upgrade-center/image/uc-predicted-schema.png)
+Prediction about the kind of changes in the database based on the upgrade on your instance.\[Omitted image "uc-predicted-schema.png"\] Alt text: Image showing the Predicted Schema Changes list
 
 By default, 10 predicted schema changes show up. Click View all predicted schema changes link to view the entire list. Changes like new columns, new tables, and new indexes are captured in this section.
 
@@ -170,5 +171,5 @@ Percentage of passing ATF tests that ran in the last 30 days.-   Most recent ATF
  **Note:** Only the tests which are finished and have passed are considered for the ATF results. If one test runs more than once, only the recent execution is considered in the results.
 
 </td></tr></tbody>
-</table>See [Upgrade Preview tool in Upgrade Console](um-upgrade-preview-tool.md) for more information.
+</table>See [Upgrade Preview tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-upgrade-preview-tool.md) for more information.
 

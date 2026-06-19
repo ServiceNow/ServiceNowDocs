@@ -2,6 +2,7 @@
 title: View recently closed work order tasks on a mobile device
 description: View the work order tasks that are closed in the last seven days in the ServiceNow Agent mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/view-recently-closed-tasks.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

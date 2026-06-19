@@ -2,6 +2,7 @@
 title: Sales Territory Management​
 description: Sales territory management enables you to structure and optimize the sales efforts of your organization based on territories. It focuses on dividing CRM entities, such as accounts, leads, opportunities, and consumers, into manageable segments \(geographical, product, or industry-based\) to promote efficient coverage and accountability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/explore-sales-territory-management.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -44,7 +45,7 @@ Sales Territory Management​ executes and refines the territory plan so that th
 
 The following topics provide more information about configuring and using Sales Territory Management​:
 
--   [Configuring Sales Territory Management​](configure-sales-territory-management.md)
--   [Using Sales Territory Management​](../task/use-sales-territory-management.md)
--   [Components installed with Sales Territory Management​](../reference/components-installed-sales-territory-management.md)
+-   [Configuring Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/configure-sales-territory-management.md)
+-   [Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/use-sales-territory-management.md)
+-   [Components installed with Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/components-installed-sales-territory-management.md)
 

@@ -2,13 +2,14 @@
 title: Activate a component library
 description: Activate a component library to make all of its shared components available for use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-family/cdm-comp-library-activate.html
 release: zurich
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Sharing components among applications — Component libraries, Use, DevOps Config, IT Service Management]
+breadcrumb: [Sharing components among applications — Component libraries, Using DevOps Config, DevOps Config, IT Service Management]
 ---
 
 # Activate a component library
@@ -37,7 +38,7 @@ When the library is ready for use, you can activate it.
 
 1.  Navigate to **All** &gt; **DevOps Config** &gt; **DevOps Config Workspace**.
 
-2.  Click the component libraries icon \(![Component libraries icon.](../image/icon-component-libraries.png)\) in the left navigation to open the **Component libraries** tab.
+2.  Click the component libraries icon \(\[Omitted image "icon-component-libraries.png"\] Alt text: Component libraries icon.\) in the left navigation to open the **Component libraries** tab.
 
 3.  In the left pane, select a component library.
 

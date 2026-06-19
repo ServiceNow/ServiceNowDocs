@@ -2,6 +2,7 @@
 title: Select user criteria for a knowledge block
 description: Control which users can read or not read knowledge block content within an article in a knowledge base by setting user criteria at the knowledge base and knowledge block level. As a knowledge contributor, you can apply user criteria at the knowledge block level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/select-user-criteria-for-knowledge-block.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -17,7 +18,7 @@ Control which users can read or not read knowledge block content within an artic
 
 ## Before you begin
 
-[Activate knowledge blocks](activate-knowledge-blocks.md)
+[Activate knowledge blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/activate-knowledge-blocks.md)
 
 Role required: knowledge\_admin or admin
 
@@ -36,19 +37,19 @@ Role required: knowledge\_admin or admin
 
     **Note:**
 
-    -   You can use existing or create new user criteria records. To create a new record, see [Create a user criteria record in Knowledge Management](create-user-criteria-record-in-knowledge-management.md).
+    -   You can use existing or create new user criteria records. To create a new record, see [Create a user criteria record in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/create-user-criteria-record-in-knowledge-management.md).
     -   If a user meets any **Can Contribute** criteria at the knowledge base level, they can read all knowledge block content, regardless of the **Can read** and **Cannot read** criteria set at the knowledge block level.
     -   If a user meets any **Cannot read** criteria at the knowledge block level, they cannot read the block content, regardless of the **Can read** criteria set at the knowledge block level.
     -   If a user has access to knowledge article and doesn't have access to one or more blocks within article then user can still read the content but without specify block content.
-    ![Who can read or not read knowledge block content based on user criteria set at the knowledge base and knowledge block level.](../image/knowledge-block-user-criteria-flow.png)
+    \[Omitted image "knowledge-block-user-criteria-flow.png"\] Alt text: Who can read or not read knowledge block content based on user criteria set at the knowledge base and knowledge block level.
 
 4.  Right-click the form header and click **Save**.
 
 
 ## What to do next
 
--   To finish and publish the block, see [Create a knowledge block](create-modify-knowledge-block.md).
--   To add the block to an article, as well as preview the article by impersonating different users, see [Add knowledge blocks to a knowledge article](add-knowledge-block-to-knowledge-article.md).
+-   To finish and publish the block, see [Create a knowledge block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/create-modify-knowledge-block.md).
+-   To add the block to an article, as well as preview the article by impersonating different users, see [Add knowledge blocks to a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/add-knowledge-block-to-knowledge-article.md).
 
-**Parent Topic:**[Create a knowledge block](create-modify-knowledge-block.md)
+**Parent Topic:**[Create a knowledge block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/create-modify-knowledge-block.md)
 

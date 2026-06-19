@@ -2,6 +2,7 @@
 title: Create a content page
 description: Pages are built from content blocks and organized into sites.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/content-management-system/t\_CreateAContentPage.html
 release: zurich
 product: Content Management System
 classification: content-management-system
@@ -145,5 +146,5 @@ Type a description of the page that displays for users when they access the page
 </table>5.  Click **Submit**.
 
 
-**Parent Topic:**[Content pages in CMS](../concept/c_ContentPages.md)
+**Parent Topic:**[Content pages in CMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/content-management-system/c_ContentPages.md)
 

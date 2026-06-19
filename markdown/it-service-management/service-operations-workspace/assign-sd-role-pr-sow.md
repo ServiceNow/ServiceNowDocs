@@ -2,6 +2,7 @@
 title: Assign the Password Reset Service Desk role to the user
 description: Assign the password reset service desk agent \(password\_reset\_service\_desk\) role to the users to work on the incidents or interactions related to the password reset issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/assign-sd-role-pr-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -43,5 +44,5 @@ Role required: admin
 6.  Select **Submit**.
 
 
-**Parent Topic:**[Setting up Service Desk assisted Password Reset in Service Operations Workspace](../concept/setup-password-reset-sow.md)
+**Parent Topic:**[Setting up Service Desk assisted Password Reset in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/setup-password-reset-sow.md)
 

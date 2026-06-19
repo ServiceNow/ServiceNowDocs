@@ -2,6 +2,7 @@
 title: Product hierarchy in Release Management
 description: A release can be an enterprise release, in which it is associated to all products or services or to more than one product. In either case, defining a product is not required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/release-management/c\_ProductHierarchy.html
 release: zurich
 product: Release Management
 classification: release-management
@@ -17,7 +18,7 @@ A release can be an enterprise release, in which it is associated to all product
 
 If a product has releases defined, the **Product Hierarchy** related link displays the hierarchy of releases, phases, and phase tasks associated with the product.
 
-![Product hierarchy in Release Management](../image/product-hierarchy.png)
+\[Omitted image "product-hierarchy.png"\] Alt text: Product hierarchy in Release Management
 
-**Parent Topic:**[Using Release Management v2](c_Release.md)
+**Parent Topic:**[Using Release Management v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/release-management/c_Release.md)
 

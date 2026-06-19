@@ -2,6 +2,7 @@
 title: Create a connection and credential alias for Notify connector for Cisco Webex Spoke
 description: Create a credential record for the Notify connector for Cisco Webex account. The Notify connector for Cisco Webex Spoke connection and credential alias uses these credentials to authorize actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/notify/create-connection-credential-alias-notify-webex.html
 release: zurich
 product: Notify
 classification: notify
@@ -69,5 +70,5 @@ Option to provide the connection URL.
 </table>5.  Right-click the form header and click **Submit**.
 
 
-**Parent Topic:**[Configure Notify Cisco Webex Connector](../concept/setup-cisco-webex-notify.md)
+**Parent Topic:**[Configure Notify Cisco Webex Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/setup-cisco-webex-notify.md)
 

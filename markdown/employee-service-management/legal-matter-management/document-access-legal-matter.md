@@ -2,6 +2,7 @@
 title: Document access in a legal matter
 description: Documents attached to legal matters are uploaded to the configured external storage system when the external storage option is enabled on an intake form with All or matter type selected. The access permission of these documents to various personas is controlled in real time, via a scheduled job, or on-demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-matter-management/document-access-legal-matter.html
 release: zurich
 product: Legal Matter Management
 classification: legal-matter-management
@@ -47,10 +48,10 @@ The scheduled job **Process External Storage Permissions** runs at the defined i
 -   Ad hoc approvers lose document access after they approve or reject the requested item.
 -   Delegates lose access after the delegation period expires.
 
--   **[Request document access for a legal matter](../task/request-doc-access-legal-matter.md)**  
+-   **[Request document access for a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/request-doc-access-legal-matter.md)**  
 Request access to documents attached to a legal matter that you do not currently have access to.
--   **[Remove document access of users in a legal matter](../task/remove-doc-access-legal-matter.md)**  
+-   **[Remove document access of users in a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/remove-doc-access-legal-matter.md)**  
 Remove existing users' access to documents attached to a legal matter's artifact when they are no longer required to view those documents.
 
-**Parent Topic:**[Create an artifact for a legal matter](../task/add-artifact-to-legal-matter.md)
+**Parent Topic:**[Create an artifact for a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/add-artifact-to-legal-matter.md)
 

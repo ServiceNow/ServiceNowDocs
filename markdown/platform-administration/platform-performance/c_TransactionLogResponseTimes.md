@@ -2,6 +2,7 @@
 title: Reviewing transaction logs
 description: The instance automatically logs the vital statistics of every transaction that it processes, and that information is available to you as an administrator. Reviewing transaction logs can help identify latency and performance issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-performance/c\_TransactionLogResponseTimes.html
 release: zurich
 product: Platform Performance
 classification: platform-performance
@@ -32,7 +33,7 @@ For each completed transaction, available information includes the following \(t
 -   **Business rule count**: number of business rules executed.
 -   **Network time**: network transmission time, both from and to the user.
 
-**Note:** You can change which columns are shown and their order by selecting the Update Personalized List icon \(![](../../../common/image/gear.png)\)
+**Note:** You can change which columns are shown and their order by selecting the Update Personalized List icon \(\[Omitted image "gear.png"\] Alt text:\)
 
-**Parent Topic:**[Monitoring platform performance](monitoring-platform-performance.md)
+**Parent Topic:**[Monitoring platform performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/monitoring-platform-performance.md)
 

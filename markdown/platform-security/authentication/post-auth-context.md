@@ -2,6 +2,7 @@
 title: Post-authentication context
 description: The Post Authentication policy context defines how and when a policy is enforced during the login process. The policy used in this context executes after your users see a login screen.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/post-auth-context.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -79,9 +80,9 @@ The policy used for this context uses. This field appears only when the **Defaul
 </td></tr></tbody>
 </table>## Policy inputs and conditions
 
-The **Policy Input** and **Policy Conditions** tabs display the inputs and conditions of the policy selected in the **Allow Policy** or **Deny Policy** field. These tabs serve as a reference, but cannot be used to change the policy inputs or conditions. To modify your policy settings, navigate to the policy using the reference icon \(![Reference icon](../images/reference-icon.png)\) next to the **Allow Policy** or **Deny Policy** field.
+The **Policy Input** and **Policy Conditions** tabs display the inputs and conditions of the policy selected in the **Allow Policy** or **Deny Policy** field. These tabs serve as a reference, but cannot be used to change the policy inputs or conditions. To modify your policy settings, navigate to the policy using the reference icon \(\[Omitted image "reference-icon.png"\] Alt text: Reference icon\) next to the **Allow Policy** or **Deny Policy** field.
 
 This example shows a post-authentication policy context record configured to deny access by default. The context uses a policy called **Deny access policy**. That policy has a set of inputs and conditions that are displayed in the **Policy Input** and **Policy Condition** tabs.
 
-![Post-authentication policy context record](../images/pre-auth-context.png "Post-authentication policy context form")
+\[Omitted image "pre-auth-context.png"\] Alt text: Post-authentication policy context record
 

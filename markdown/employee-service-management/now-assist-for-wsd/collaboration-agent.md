@@ -2,12 +2,13 @@
 title: Get space suggestions using the Workplace collaboration agent
 description: The Workplace collaboration agent provides space recommendations and insights for collaboration based on employee's workplace presence data, team members or frequent collaborators, attendees in your reservation, and workplace profile \(assigned space\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-wsd/collaboration-agent.html
 release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: task
 last_updated: "2026-01-09"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Using the workplace collaboration Agent for space suggestions, Using Now Assist in Virtual Agent, Now Assist for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -23,7 +24,7 @@ Make sure that you have installed and configured the following applications:
 
 -   Now Assist in Virtual Agent.
 
-    Confirm that the enhanced chat is configured for the Employee Center portal by virtual\_agent\_admin. Select Employee Center from the Portals tab and select the enhanced chat. For more information, see [Display your chat assistant on a portal, channel, or mobile app](https://www.servicenow.com/docs/access?context=display-assistant-portal-channel&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+    Confirm that the enhanced chat is configured for the Employee Center portal by virtual\_agent\_admin. Select Employee Center from the Portals tab and select the enhanced chat. For more information, see .
 
 -   Workplace Reservation Management
 -   Workplace Concierge
@@ -50,7 +51,7 @@ Role required: admin
 
     While the LLM processes the utterance, animated dots in the chat window let employees know that the bot is working on their request. After you enter an utterance and a search result is found, a synthesized response may appear. A synthesized response includes a brief summary of the requested information and search results.
 
-    ![Now Assist for Virtual Agent showing employee preferred space for reservation.](../image/wsd-now-assist-virtual-agent-start-resv.png)
+    \[Omitted image "wsd-now-assist-virtual-agent-start-resv.png"\] Alt text: Now Assist for Virtual Agent showing employee preferred space for reservation.
 
     The Virtual Agent response includes feedback icons. Employees can indicate if the response was helpful by selecting thumbs up or select thumbs down if the response wasn't helpful.
 
@@ -72,9 +73,9 @@ Role required: admin
     -   Time: 1:00pm to 5:00pm \(Europe/Amsterdam\)
     Would you like to proceed with reserving this workspace?
 
-    ![Collaboration agent getting information to reserve a space near a colleague.](../image/now-assist-collab-agent-rsv-space-one.png)
+    \[Omitted image "now-assist-collab-agent-rsv-space-one.png"\] Alt text: Collaboration agent getting information to reserve a space near a colleague.
 
-    ![Collaboration agent showing in-office presence information for a colleague.](../image/now-assist-collab-agent-presence-two.png)
+    \[Omitted image "now-assist-collab-agent-presence-two.png"\] Alt text: Collaboration agent showing in-office presence information for a colleague.
 
     If you respond "yes, that sounds good", the agent creates a reservation and sends you a notification.
 
@@ -88,11 +89,11 @@ Role required: admin
 
     The Collaboration agent also shares insights on the team members available on a particular day. For example, "Who will be in office on Friday? You can also get insights on a team member if they are visiting office "Is Daniel coming to office today?". The agent also makes a reservation for you for a specified day near a team member. "
 
-    ![Collaboration Agent fetiching information about team members who are present in office. Agentic Studio showing decision logs for collaboration agent.](../image/now-assist-collab-agentic-studio-activity-one.png)
+    \[Omitted image "now-assist-collab-agentic-studio-activity-one.png"\] Alt text: Collaboration Agent fetiching information about team members who are present in office. Agentic Studio showing decision logs for collaboration agent.
 
 6.  Make a reservation for a specified day near a team member.
 
-    ![Collaboration agent showing best available space for reservation near a colleague.](../image/now-assist-collab-agent-reservation-one-hour.png)
+    \[Omitted image "now-assist-collab-agent-reservation-one-hour.png"\] Alt text: Collaboration agent showing best available space for reservation near a colleague.
 
 <table id="table_q4w_f4h_xhc"><thead><tr><th>
 
@@ -142,11 +143,11 @@ I have reserved this space for you.
 
         -   When the employee enters a name, the collaboration agent tries to identify the collaborator. It takes into account the following factors:
             -   Your team \(this includes your manager. If you are a manager and not an individual contributor, the agent also considers employees reporting to you as your collaborators\).
-            -   Workplace presence Collaborator information. This includes Employee Presence Routine and Employee Presence Exceptions. For more information, see [Components installed with Workplace Concierge](../../workplace-concierge/reference/components-installed-with-workplace-concierge.md) and [Set Employee Presence](../../workplace-concierge/concept/use-workplace-concierge.md)
+            -   Workplace presence Collaborator information. This includes Employee Presence Routine and Employee Presence Exceptions. For more information, see [Components installed with Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-concierge/components-installed-with-workplace-concierge.md) and [Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-concierge/use-workplace-concierge.md)
             -   Your current reservations in the system and invitees added by you.
             -   Your workplace profile and the primary location assigned to you.
             -   If multiple colleagues are found with the same name, the agent allows you to select a colleague from a list of employee names.
-    -   Time: All day reservation is considered first, and then, the reservation Start time and End time reservation is taken into consideration. For more information, see [Properties installed with Workplace Reservation Management](../../wsd-reservation-management/reference/properties-installed-with-wsd-reservation-mgmt.md).
+    -   Time: All day reservation is considered first, and then, the reservation Start time and End time reservation is taken into consideration. For more information, see [Properties installed with Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/properties-installed-with-wsd-reservation-mgmt.md).
 
         In the case multiple desk reservations exist, earliest start time is used to find an available space for collaboration.
 

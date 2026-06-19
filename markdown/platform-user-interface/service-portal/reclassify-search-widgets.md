@@ -2,6 +2,7 @@
 title: Reclassify cloned or customized search widgets
 description: Search widgets that you cloned or customized before a system upgrade may not be compatible with AI Search. You can resolve this issue by running a fix script that reclassifies search widget instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/reclassify-search-widgets.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -17,8 +18,8 @@ Search widgets that you cloned or customized before a system upgrade may not be 
 
 ## Before you begin
 
-1.  [Enable and configure AI Search in Service Portal](enable-ais-sp.md)
-2.  Run the Portal Analyzer to identify all cloned or customized search widgets. For more information, see [Get a list of widgets per page](../concept/portal-analyzer.md#).
+1.  [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/enable-ais-sp.md)
+2.  Run the Portal Analyzer to identify all cloned or customized search widgets. For more information, see [Get a list of widgets per page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/portal-analyzer.md).
 3.  For each cloned or customized search widget, copy the sys\_id value of each widget instance that is associated with the widget.
 4.  For each cloned or customized search widget, ensure that the widget and its corresponding widget instances have the latest AI Search code from the base system search widget.
 
@@ -50,5 +51,5 @@ If you're unable to use AI Search in Service Portal, you may need to reclassify 
 5.  Select **Run Fix Script**.
 
 
-**Parent Topic:**[Enable and configure AI Search in Service Portal](enable-ais-sp.md)
+**Parent Topic:**[Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/enable-ais-sp.md)
 

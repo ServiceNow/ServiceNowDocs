@@ -2,6 +2,7 @@
 title: Create a service account and private key in Google Dialogflow ES
 description: To use Google Dialogflow as your NLU provider for Virtual Agent, create a service account and private key for your agent in Google Dialogflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/vad-create-srvc-acct-key-dialogflow.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -28,23 +29,23 @@ Role required: admin
 
 2.  Select the agent settings icon, and then select the project ID on the **General** tab.
 
-    ![Select settings, and then find the Google Project ID on the General tab.](../images/ggl-dialogflow-projectid.png)
+    \[Omitted image "ggl-dialogflow-projectid.png"\] Alt text: Select settings, and then find the Google Project ID on the General tab.
 
 3.  On the Google Cloud dashboard, select **Go to project settings**.
 
-    ![On the Google Cloud Home dashboard, Go to project settings displays on the Project info card.](../images/ggl-dialogflow-go-project-settings.png)
+    \[Omitted image "ggl-dialogflow-go-project-settings.png"\] Alt text: On the Google Cloud Home dashboard, Go to project settings displays on the Project info card.
 
 4.  On the IAM &amp; Admin page, select **Service Accounts**.
 
 5.  Select **+ Create Service Account**.
 
-    ![When you select the Service Accounts option in the side menu, the Create Service Account option appears in the header bar.](../images/ggl-dialogflow-create-srvc-account.png)
+    \[Omitted image "ggl-dialogflow-create-srvc-account.png"\] Alt text: When you select the Service Accounts option in the side menu, the Create Service Account option appears in the header bar.
 
 6.  Provide a name, and then select **Create and Continue**.
 
 7.  Under the Grant this service account access to project section, select **Owner** as the role.
 
-    ![Select Owner from the Role list.](../images/ggl-srvc-acct-owner-role.png)
+    \[Omitted image "ggl-srvc-acct-owner-role.png"\] Alt text: Select Owner from the Role list.
 
 8.  Select **Continue**.
 
@@ -52,19 +53,19 @@ Role required: admin
 
 10. In the **Email** column, select the link for the record.
 
-    ![The Service accounts screen displays the email, name, and description. Select the Email address displayed in the column to open the Details page for the service account.](../images/ggl-dialogflow-srvc-account-record.png)
+    \[Omitted image "ggl-dialogflow-srvc-account-record.png"\] Alt text: The Service accounts screen displays the email, name, and description. Select the Email address displayed in the column to open the Details page for the service account.
 
     The Service account details page opens.
 
 11. Copy the Email and the Unique ID and save them for a later step.
 
-    ![The email address and unique ID are displayed on the Details tab for the service account.](../images/ggl-srvacct-email-id.png)
+    \[Omitted image "ggl-srvacct-email-id.png"\] Alt text: The email address and unique ID are displayed on the Details tab for the service account.
 
 12. On the Service account details page, select the **Keys** tab.
 
 13. Select **Add Key** &gt; **Create new key**.
 
-    ![The Add Key option is on the Keys tab for the service account.](../images/ggl-dialogflow-create-new-key.png)
+    \[Omitted image "ggl-dialogflow-create-new-key.png"\] Alt text: The Add Key option is on the Keys tab for the service account.
 
 14. When prompted for the key type, select **P12**, and then select **Create**.
 
@@ -72,14 +73,14 @@ Role required: admin
 
 15. Make note of the private key password \(`notasecret`\).
 
-    You will need this password in a [later step](vad-configure-dialogflow-security.md).
+    You will need this password in a [later step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-configure-dialogflow-security.md).
 
-    ![The private key password is shown onscreen when you download the P12 file.](../images/ggl-p12-key-downloaded.png "Private key password example")
+    \[Omitted image "ggl-p12-key-downloaded.png"\] Alt text: The private key password is shown onscreen when you download the P12 file.
 
 
-**Parent Topic:**[Configure Google Dialogflow ES as the NLU provider for Virtual Agent](../concept/configure-dialogflow-es-integration.md)
+**Parent Topic:**[Configure Google Dialogflow ES as the NLU provider for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-dialogflow-es-integration.md)
 
-**Previous topic:**[Configure Google Dialogflow ES as the NLU provider for Virtual Agent](../concept/configure-dialogflow-es-integration.md)
+**Previous topic:**[Configure Google Dialogflow ES as the NLU provider for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-dialogflow-es-integration.md)
 
-**Next topic:**[Generate a Java Keystore \(JKS\) file and configure security on your ServiceNow instance](vad-configure-dialogflow-security.md)
+**Next topic:**[Generate a Java Keystore \(JKS\) file and configure security on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-configure-dialogflow-security.md)
 

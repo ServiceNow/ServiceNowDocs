@@ -2,6 +2,7 @@
 title: Using Sales Forecasting
 description: Sales Forecasting uses the current opportunities in the system to predict future opportunity amounts.​ The Opportunity Management application contains the list of opportunities created for the customers and each of these opportunities are in different stages of the sales cycles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/using-sales-forecasting.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,9 +24,9 @@ You can view the Sales Forecast dashboard to see the current sales status and ta
 
 ## Using the Sales Forecast dashboard
 
-To access the Sales Forecast dashboard, navigate to **CSM/FSM Configurable Workspace** and select the **Sales Forecast** view. Select the refresh icon ![](../image/form-refresh.png) to see the latest sales forecast data. Select **Update Forecast** on the dashboard to fetch the data to generate the latest forecast information.
+To access the Sales Forecast dashboard, navigate to **CSM/FSM Configurable Workspace** and select the **Sales Forecast** view. Select the refresh icon \[Omitted image "form-refresh.png"\] Alt text: to see the latest sales forecast data. Select **Update Forecast** on the dashboard to fetch the data to generate the latest forecast information.
 
-![Sales Forecast dashboard.](../image/sales-forecasting-dashboard.png)
+\[Omitted image "sales-forecasting-dashboard.png"\] Alt text: Sales Forecast dashboard.
 
 Select the options from these three filters to view the data for your group or manager for a selected time-period.
 
@@ -39,20 +40,20 @@ Commit, Strong Upside, Upside, and Pipeline represent different stages of certai
 
 The Rest of American group with the owner as Mathew Moore in FY 2025 Q4 displays that the team’s quota has been set at $1,500. The agent working under the owner is Charlotte Turner who has already closed \(Won column\) $1,900 in sales. You can select the “i” icon for an agent and view all the opportunities for that agent and the total value in each forecast category.
 
-![Icon for agent details.](../image/icon-dashboard.png)
+\[Omitted image "icon-dashboard.png"\] Alt text: Icon for agent details.
 
 As a sales agent, you can view the status of each opportunity that you own. As the sale progresses, you can update the Forecast Category field of the opportunity and the new data is updated on the dashboard. You can view the total amount in each sales stage and track the status of the quota target assigned to you. Select **Submit Forecast** to view the Submission Entry tab.
 
-**Note:** Submit Forecast is available only if you select **Submission Required** in the Forecast model. For more info, [Sales Forecasting terminology](sales-forecasting-terminology.md).
+**Note:** Submit Forecast is available only if you select **Submission Required** in the Forecast model. For more info, [Sales Forecasting terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/sales-forecasting-terminology.md).
 
-![Forcecast view for agent](../image/adjust-forecast.png)
+\[Omitted image "adjust-forecast.png"\] Alt text: Forcecast view for agent
 
 The Submission Entry tab displays the cumulative value of all the opportunities for each category for that agent. The agent can adjust the value of the forecast for any category depending on the latest insights. For any of the categories, enter the adjusted value of the forecast in **Owner Adjusted Value** field. Enter a reason for the adjusted forecast value in the **Owner Adjustment Reason** field. Select **Update** to save the adjusted forecast values. Select **Submit Forecast** to finalize the forecast values. After submitting these forecast values, they cannot be changed.
 
--   **[Create forecast adjustment](create-forecast-adjustment.md)**  
+-   **[Create forecast adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-forecast-adjustment.md)**  
 Modify system-generated forecast values based on your judgment and prediction. Sales agents can adjust their individual forecasts and managers can modify team forecasts to align with overall targets. Sales managers can override team-level adjustments and the system automatically recalculates the roll-ups to reflect the updated forecast values.
--   **[Submitting a forecast](submitting-a-forecast.md)**  
+-   **[Submitting a forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/submitting-a-forecast.md)**  
 Sales agents and managers can finalize and submit forecasts within defined periods to ensure accurate projections. Agents can adjust forecast values, lock them, and submit them within the specified time frame.
 
-**Parent Topic:**[Using lead and opportunity management applications](using-lead-opportunity-mgt.md)
+**Parent Topic:**[Using lead and opportunity management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/using-lead-opportunity-mgt.md)
 

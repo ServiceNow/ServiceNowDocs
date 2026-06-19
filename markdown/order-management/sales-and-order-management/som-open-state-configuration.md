@@ -2,6 +2,7 @@
 title: Use extension points for open state management
 description: Control the options displayed in the product configurator by using extension points in Open state management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/som-open-state-configuration.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

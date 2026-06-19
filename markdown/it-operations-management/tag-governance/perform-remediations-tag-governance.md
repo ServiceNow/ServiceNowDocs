@@ -2,6 +2,7 @@
 title: Preview and remediate tag audit failures
 description: Preview audit reports for resources that tag policies identify as non-compliant. Remediate failures by adding or updating tags.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/tag-governance/perform-remediations-tag-governance.html
 release: zurich
 product: Tag Governance
 classification: tag-governance
@@ -17,7 +18,7 @@ Preview audit reports for resources that tag policies identify as non-compliant.
 
 ## Before you begin
 
-Configure tag policies and remediation policies. See [Configure a tag policy for Tag Governance](configure-tag-governance-policy.md) and [Configure remediation policies on tag audit findings](configure-remediation-tag-governance-.md).
+Configure tag policies and remediation policies. See [Configure a tag policy for Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/tag-governance/configure-tag-governance-policy.md) and [Configure remediation policies on tag audit findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/tag-governance/configure-remediation-tag-governance-.md).
 
 **Note:** The update to cloud works only for AWS and Microsoft Azure Cloud resources for CMDB classes listed in the Tag Remediation form.
 
@@ -25,7 +26,7 @@ Role required: sn\_itom\_tag.tag\_admin, admin
 
 ## About this task
 
-Based on the tag policies that you create, you can preview remediation flows and auto-generate missing tags for non-compliant CIs. The Tag Remediation Preview related list displays this information. See [Flows](https://www.servicenow.com/docs/access?context=flows&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US) and [Subflows](https://www.servicenow.com/docs/access?context=subflows&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+Based on the tag policies that you create, you can preview remediation flows and auto-generate missing tags for non-compliant CIs. The Tag Remediation Preview related list displays this information. See Flows and Subflows.
 
 **Note:**
 
@@ -47,7 +48,7 @@ Based on the tag policies that you create, you can preview remediation flows and
 
 5.  On the Tag Remediation Keys related list, select **New** to create a tag remediation key.
 
-    The fields on the Tag Remediation Key form are described in [Tag Remediation Key form](../reference/tag-gov-tag-remediation-key-form.md).
+    The fields on the Tag Remediation Key form are described in [Tag Remediation Key form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/tag-governance/tag-gov-tag-remediation-key-form.md).
 
 6.  Select **Submit**.
 

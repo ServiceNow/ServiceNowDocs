@@ -2,6 +2,7 @@
 title: Configure On-Call communication channel
 description: Configure notification messages sent from a communication channel for on-call escalations. You can customize the notification content, the response keywords, table and the domain they apply, for a specific channel available in the base system such as Email and Microsoft Teams or a custom channel that is created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/on-call-scheduling/config-oncall-communication-channel.html
 release: zurich
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -211,5 +212,5 @@ Instruction that is used to reject escalation sent to the catch all users from c
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Managing schedules and shifts](../../user-administration/concept/manage-schedules-and-shifts.md)
+**Parent Topic:**[Managing schedules and shifts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/manage-schedules-and-shifts.md)
 

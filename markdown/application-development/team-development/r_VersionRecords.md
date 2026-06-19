@@ -2,6 +2,7 @@
 title: Version records
 description: The sys\_update\_version table contains records that represent the state of a customizable object at a particular time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/r\_VersionRecords.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -83,7 +84,7 @@ Reverted from
 
 </td><td>
 
-A reference to the older version record, if this version was created by [reverting to an older version](../task/t_RevertAChange.md). This field is only visible in the list view.
+A reference to the older version record, if this version was created by [reverting to an older version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_RevertAChange.md). This field is only visible in the list view.
 
 </td></tr><tr><td>
 
@@ -110,5 +111,5 @@ Version List
 All versions of the customized record that are available on the instance. This field is only visible in the form view.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Team Development Reference](team-development-reference.md)
+</table>**Parent Topic:**[Team Development Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/team-development-reference.md)
 

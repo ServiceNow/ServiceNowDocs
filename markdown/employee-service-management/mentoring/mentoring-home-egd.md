@@ -2,6 +2,7 @@
 title: Mentoring home page
 description: Mentoring home page provides you with a bird's eye view of all your mentorship relationships, requests, and programs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/mentoring/mentoring-home-egd.html
 release: zurich
 product: Mentoring
 classification: mentoring

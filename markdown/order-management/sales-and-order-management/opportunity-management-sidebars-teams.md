@@ -2,11 +2,12 @@
 title: Collaborate with stakeholders by using the sidebar
 description: Initiate a discussion with internal and external stakeholders, such as sales agents, solution consultants, and subject matter experts using sidebar integration with Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/opportunity-management-sidebars-teams.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
@@ -19,11 +20,11 @@ Initiate a discussion with internal and external stakeholders, such as sales age
 
 Role required: sales\_agent or sales\_manager
 
-Before using the sidebar integration, you must first complete configuring the sidebar integration with your opportunity. To learn more, see [Configuring Sidebar](https://www.servicenow.com/docs/access?context=configure-sidebar&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+Before using the sidebar integration, you must first complete configuring the sidebar integration with your opportunity. To learn more, see .
 
 ## Procedure
 
-1.  Navigate to the **List** view ![image.Lists] and select **Opportunity - All**.
+1.  Navigate to the **List** view \[Omitted image "list-outline-24.svg"\] Alt text: and select **Opportunity - All**.
 
 2.  From the **Opportunity List** window, select the opportunity you want to work with.
 
@@ -47,5 +48,5 @@ Before using the sidebar integration, you must first complete configuring the si
 
 Make your collaboration more effective by sharing emojis, messages, and attachments.
 
-**Parent Topic:**[Using Opportunity Management](../concept/opportunity-mgmt-using.md)
+**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-mgmt-using.md)
 

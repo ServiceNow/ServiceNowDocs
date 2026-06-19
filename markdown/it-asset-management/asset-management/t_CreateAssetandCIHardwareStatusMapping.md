@@ -2,6 +2,7 @@
 title: Map asset state and CI hardware status
 description: Map the asset State and Substate fields to the CI Hardware Status field. Don't use the Substatus field on hardware CIs because the CI synchronization does not update the field when assets are updated. When you create the mapping, you can set the synchronization direction from the asset, CI, or both.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/asset-management/t\_CreateAssetandCIHardwareStatusMapping.html
 release: zurich
 product: Asset Management
 classification: asset-management
@@ -21,7 +22,7 @@ Role required: admin or asset
 
 **Note:** If you upgraded from a prior release and you've customized the AssetAndCISynchronizer script before the upgrade, overwrite the customization and then recreate the custom mappings.
 
-The hardware and consumable assets don't have the Build state and Design substate because they are already prepared. Therefore, the Asset CI hardware state mappings table doesn't have a mapping for the Build state. For more details on asset states, see [Set asset states and substates](t_SettingAssetStatesAndSubstates.md).
+The hardware and consumable assets don't have the Build state and Design substate because they are already prepared. Therefore, the Asset CI hardware state mappings table doesn't have a mapping for the Build state. For more details on asset states, see [Set asset states and substates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/t_SettingAssetStatesAndSubstates.md).
 
 ## About this task
 
@@ -54,5 +55,5 @@ The **Install Status** and **Hardware Status** fields of a CI are independent of
 9.  Click **Submit**.
 
 
-**Parent Topic:**[Work with Asset and CI](../../hardware-asset-management/concept/work-with-asset-ci.md)
+**Parent Topic:**[Work with Asset and CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/work-with-asset-ci.md)
 

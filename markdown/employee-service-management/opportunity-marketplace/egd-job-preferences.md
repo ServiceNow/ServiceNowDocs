@@ -2,6 +2,7 @@
 title: Update Job Preferences
 description: Make updates to your job preferences to help you apply for opportunities. Your job preferences are used by Opportunity Marketplace to do a match analysis with roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/opportunity-marketplace/egd-job-preferences.html
 release: zurich
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -51,5 +52,5 @@ Updating your internal job preferences let's you apply for roles related to your
 
 Continue to apply for jobs based on your updated preferences.
 
-**Parent Topic:**[Use Opportunity Marketplace](../../egd-oppt-mrktplc/concept/egd-oppt-mrktplc-using.md)
+**Parent Topic:**[Use Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-using.md)
 

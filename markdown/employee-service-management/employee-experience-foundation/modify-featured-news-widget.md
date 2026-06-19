@@ -2,6 +2,7 @@
 title: Modify the Featured News widget
 description: The Featured News widget displays featured articles on company news and announcements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/modify-featured-news-widget.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,7 +20,7 @@ The Featured News widget displays featured articles on company news and announce
 
 Role required: sp\_admin or admin
 
-Learn more about the news widgets: [News articles](../concept/ec-news-articles.md)
+Learn more about the news widgets: [News articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-news-articles.md)
 
 ## Procedure
 
@@ -95,8 +96,8 @@ Layout
 
 </td><td>
 
-How you want the news articles to appear in the widget. The choices are:-   **Card**: Displays a maximum of three articles where the thumbnail appears above the heading and subheading.![Featured news widget card display](../images/ec-news-widget-card.png)
--   **Tile**: Displays up to five news articles with one large tile and four small tiles where each tile has the news article thumbnail as the background.![Featured news widget tile display](../images/ec-news-widget-tile.png)
+How you want the news articles to appear in the widget. The choices are:-   **Card**: Displays a maximum of three articles where the thumbnail appears above the heading and subheading.\[Omitted image "ec-news-widget-card.png"\] Alt text: Featured news widget card display
+-   **Tile**: Displays up to five news articles with one large tile and four small tiles where each tile has the news article thumbnail as the background.\[Omitted image "ec-news-widget-tile.png"\] Alt text: Featured news widget tile display
 
 
 </td></tr><tr><td>
@@ -119,5 +120,5 @@ Enables viewing of nested call insights for total load time in parent and child 
 </table>5.  Select **Save**.
 
 
-**Parent Topic:**[Configure employee communications widgets](../concept/employee-comms-widgets.md)
+**Parent Topic:**[Configure employee communications widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-comms-widgets.md)
 

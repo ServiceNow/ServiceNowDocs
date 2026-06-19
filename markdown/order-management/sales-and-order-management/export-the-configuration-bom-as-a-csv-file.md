@@ -2,6 +2,7 @@
 title: Export the configuration BOM to a CSV file
 description: Export the configuration bill of materials \(BOM\) to a customizable CSV file before the quote is finalized.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/export-the-configuration-bom-as-a-csv-file.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -27,7 +28,7 @@ ServiceNow CPQ lets you export the configuration bill of materials \(BOM\) befor
 
 1.  In your blueprint, navigate to Layouts.
 
-2.  In your layout, scroll to Product List and select Product List Settings.![Product List](../images/cpq-product-list.png)
+2.  In your layout, scroll to Product List and select Product List Settings.\[Omitted image "cpq-product-list.png"\] Alt text: Product List
 
 3.  In Settings, scroll to Raw Value and insert the following code block:
 
@@ -54,7 +55,7 @@ ServiceNow CPQ lets you export the configuration bill of materials \(BOM\) befor
 
     In the UI, you see two new icons on the far right of the product list:
 
-    ![Product List](../images/cpq-product-list-new-items.png)
+    \[Omitted image "cpq-product-list-new-items.png"\] Alt text: Product List
 
     The icon to the left of **Export** lets you manipulate the columns via the UI, such as hiding and pinning certain columns. You can also manually resize columns as you would in a spreadsheet.
 

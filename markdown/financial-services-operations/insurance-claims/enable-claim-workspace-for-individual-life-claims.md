@@ -2,6 +2,7 @@
 title: Enable the claim workspace for Individual Life Claims
 description: Enable the claim workspace page on the claim case so that a claims manager or adjuster can view the page in Individual Life Claims.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/enable-claim-workspace-for-individual-life-claims.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims
@@ -27,21 +28,21 @@ Role required: admin
 
 3.  In CSM/CSM/FSM Configurable Workspace, enable the CSM default record page.
 
-    For more information, see [CSM Configurable Workspace record pages](https://www.servicenow.com/docs/access?context=csm-config-workspace-record-pages&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+    For more information, see .
 
 4.  From the CSM default record page, set the page order.
 
 5.  Set the variant conditions and audience on the following record pages.
 
-<table id="choicetable_zkh_1dq_4bc"><thead><tr><th align="left" id="d39331e132">
+<table id="choicetable_zkh_1dq_4bc"><thead><tr><th align="left" id="d41800e131">
 
 Claims page variant
 
-</th><th align="left" id="d39331e135">
+</th><th align="left" id="d41800e134">
 
 Navigation to page records
 
-</th></tr></thead><tbody><tr><td id="d39331e141">
+</th></tr></thead><tbody><tr><td id="d41800e140">
 
 **Claim workspace page**
 
@@ -53,5 +54,5 @@ Navigation to page records
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Setting up Individual Life Claims](../concept/setting-up-individual-life-claims.md)
+**Parent Topic:**[Setting up Individual Life Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/setting-up-individual-life-claims.md)
 

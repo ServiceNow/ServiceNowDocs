@@ -2,6 +2,7 @@
 title: DCManager - Global
 description: The DCManager API enables you to group data by type.Assigns pre-defined or user-defined data classifications to existing dictionary entries.Removes all data classifications for the specified dictionary entries.Returns a list of all data classifications available in the current domain.Retrieves all data classifications for the specified dictionary entries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/DCManagerAPIGlobal.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -24,9 +25,9 @@ Using this API you can:
 
 This API requires the Data Classification \[com.glide.data\_classification\] plugin.
 
-For more information, see [Data Classification](https://www.servicenow.com/docs/access?context=data-classification&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information, see Data Classification.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## DCManager - classify\(String dictEntries, String dataClasses\)
 

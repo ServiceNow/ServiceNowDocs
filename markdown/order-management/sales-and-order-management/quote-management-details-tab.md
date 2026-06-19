@@ -2,6 +2,7 @@
 title: Add and view details of a quote
 description: Use the Details tab to add and view basic information for a quote.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/quote-management-details-tab.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,13 +26,13 @@ Use the Details tab to add more information about your quote, such as addresses 
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![image.Lists] view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Quotes** &gt; **All** and select your quote.
 
 3.  In the Details tab, fill in the basic information.
 
-    ![Quote Management Details tab showing basic quote information to be entered and the other tabs for creating and managing quotes.](../image/l2c_quote-main-window.png)
+    \[Omitted image "l2c\_quote-main-window.png"\] Alt text: Quote Management Details tab showing basic quote information to be entered and the other tabs for creating and managing quotes.
 
 <table id="table_c12_hxd_x1c"><thead><tr><th>
 
@@ -63,7 +64,7 @@ Options that reflect the quote status.-   Draft - The default state of a quote t
 -   Expired - Shows that the quote is beyond its expiration date. Reset the expiration date to make the quote active again.
 -   Canceled - Use this state to show that the quote is canceled.
 -   Closed - Shows that the quote is closed.
--   Completed - Shows that the quote is completed. When a quote is set to **Completed**, the quote can be used to create an order. For more info, see [Convert quotes into orders](quote-management-customer-orders-tab.md).
+-   Completed - Shows that the quote is completed. When a quote is set to **Completed**, the quote can be used to create an order. For more info, see [Convert quotes into orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-management-customer-orders-tab.md).
 
 
 </td></tr><tr><td>
@@ -83,7 +84,7 @@ The fields are:-   Currency - The currency for the price matches the currency st
 
 ## What to do next
 
-[Add products to a quote](quote-management-catalog-tab.md) vb.
+[Add products to a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-management-catalog-tab.md) vb.
 
-**Parent Topic:**[Using Quote Management](../concept/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-mgmt-using.md)
 

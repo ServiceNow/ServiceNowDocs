@@ -2,6 +2,7 @@
 title: Check out a published article and create a new version
 description: Create a new version of a knowledge article by checking out the latest published version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/create-new-article-version.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -23,7 +24,7 @@ Roles required: knowledge owner, knowledge manager, or knowledge administrator
 
 You cannot check out a published article unless there is already a checked out version. If a version has been checked out, the **Checkout** button does not appear on the Knowledge form header and you cannot edit the knowledge article. To make changes, you must first publish the knowledge article.
 
-When you check out an article, the default value of **Valid to** field of the article is derived from the **Article Validity** field configured for the knowledge base \(see [Create a knowledge base](create-a-knowledgebase.md)\). If the **Article Validity** field is blank, the date in the **Valid to** field date is set to January 1, 2100. An article author or editor can select whether to keep or change the default **Valid to** date.
+When you check out an article, the default value of **Valid to** field of the article is derived from the **Article Validity** field configured for the knowledge base \(see [Create a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/create-a-knowledgebase.md)\). If the **Article Validity** field is blank, the date in the **Valid to** field date is set to January 1, 2100. An article author or editor can select whether to keep or change the default **Valid to** date.
 
 When you check out an article, attachments from the article's base version are copied into the new article version and relative paths to these attachments are also updated.
 
@@ -44,5 +45,5 @@ When you check out an article, attachments from the article's base version are c
     The new version of the article is added to the Knowledge list and to the **Article Versions** related list on the Knowledge form.
 
 
-**Parent Topic:**[Use article versioning](../concept/use-article-versioning_0.md)
+**Parent Topic:**[Use article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/use-article-versioning_0.md)
 

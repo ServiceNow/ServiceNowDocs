@@ -2,6 +2,7 @@
 title: View all alerts by the maintenance status
 description: The Maintenance status indicates that the CI is under maintenance. For example, there is a software upgrade, and the issues can result from that activity, therefore all maintenance alerts are discarded.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/t\_EMViewAlertmaintenance.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -40,8 +41,8 @@ The alert maintenance status can change due to any of these reasons:
 
     A value of **true** indicates that the CI is under maintenance.
 
-    **Note:** If the **Maintenance** field is not visible on the Alert form, personalize the list to add the field. For more information, see [Personal lists](https://www.servicenow.com/docs/access?context=c_PersonalLists&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    **Note:** If the **Maintenance** field is not visible on the Alert form, personalize the list to add the field. For more information, see Personal lists.
 
 
-**Parent Topic:**[View alert information](t_EMViewAlert.md)
+**Parent Topic:**[View alert information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMViewAlert.md)
 

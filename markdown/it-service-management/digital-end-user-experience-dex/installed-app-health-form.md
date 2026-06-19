@@ -2,6 +2,7 @@
 title: Installed application — Performance page
 description: The installed application performance section presents details on the location and app version, number of crashes and freezes, as well as the CPU, memory, and I/O performance information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/installed-app-health-form.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -73,5 +74,5 @@ Number of application freezes over the last 2 hours by version.
 
 **Note:** You can filter the performance metrics by either searching by location of the device or by app version running on the device in a selected time period.
 
-**Parent Topic:**[Applications list](application-form.md)
+**Parent Topic:**[Applications list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/application-form.md)
 

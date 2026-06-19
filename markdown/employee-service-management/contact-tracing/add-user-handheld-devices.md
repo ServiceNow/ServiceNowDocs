@@ -2,6 +2,7 @@
 title: Map handheld computing devices assigned to employees
 description: Map handheld computing devices that are assigned to employees and running the Zebra MotionWorks software to record proximity logs for contact tracing using those devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contact-tracing/add-user-handheld-devices.html
 release: zurich
 product: Contact Tracing
 classification: contact-tracing
@@ -17,13 +18,13 @@ Map handheld computing devices that are assigned to employees and running the Ze
 
 ## Before you begin
 
-Handheld computing device data is stored in the Handheld Computing Device \[cmdb\_ci\_handheld\_computing\] table. The table is installed with the CMDB CI Class Models application available on the ServiceNow Store. Ensure that you have that application installed and active. For more information, see [CMDB CI Class Models](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-iot&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+Handheld computing device data is stored in the Handheld Computing Device \[cmdb\_ci\_handheld\_computing\] table. The table is installed with the CMDB CI Class Models application available on the ServiceNow Store. Ensure that you have that application installed and active. For more information, see CMDB CI Class Models.
 
 Role required: sn\_imt\_tracing.wearable\_manager
 
 ## About this task
 
-You can also import your handheld computing devices data from an Excel spreadsheet that you use with the Zebra MotionWorks software. For more information, see [Easy import data from a list](https://www.servicenow.com/docs/access?context=c_EasyImport&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+You can also import your handheld computing devices data from an Excel spreadsheet that you use with the Zebra MotionWorks software. For more information, see Easy import data from a list.
 
 ## Procedure
 
@@ -47,5 +48,5 @@ You can also import your handheld computing devices data from an Excel spreadshe
 
 A mapping of the handheld computing device and the employee to whom it is assigned is created.
 
-**Parent Topic:**[Setting up Contact Tracing](../concept/set-up-contact-tracing.md)
+**Parent Topic:**[Setting up Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/set-up-contact-tracing.md)
 

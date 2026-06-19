@@ -2,6 +2,7 @@
 title: Favorite a child equipment model entity
 description: Favorite a child equipment model entity in the Equipment Model Manager of the Industrial Workspace so that you can access a tailored view of your favorites while working.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-process-manager/favorite-child-equipment-model-entity.html
 release: zurich
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -23,15 +24,15 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Industrial Workspace**.
 
-2.  Select the Equipment Model Manager \( ![Equipment Model Manager icon in the Industrial Workspace](../image/equip-model-manager-button.png)\) icon.
+2.  Select the Equipment Model Manager \( \[Omitted image "equip-model-manager-button.png"\] Alt text: Equipment Model Manager icon in the Industrial Workspace\) icon.
 
-3.  Next to the child equipment model entity or entities that you want to favorite, select the **Mark as Favorite** \(![Favorite icon](../image/mark-as-favorite.png)\) icon.
+3.  Next to the child equipment model entity or entities that you want to favorite, select the **Mark as Favorite** \(\[Omitted image "mark-as-favorite.png"\] Alt text: Favorite icon\) icon.
 
     **Note:** You cannot select an ISA site as a favorite.
 
     If you select a higher level entity as a favorite, the related child entities underneath won't be shown. But if you select a lower level child entity, the full hierarchy including the parent entity is shown.
 
-4.  To remove a child entity from your favorites, select the **Remove as Favorite** \(![Remove as favorite icon](../image/remove-as-favorite.png)\) icon.
+4.  To remove a child entity from your favorites, select the **Remove as Favorite** \(\[Omitted image "remove-as-favorite.png"\] Alt text: Remove as favorite icon\) icon.
 
 
 ## Result
@@ -42,5 +43,5 @@ To view only favorite child equipment model entities, you can select the Show Fa
 
 When you switch on the Show Favorites toggle, the configuration is saved. When you log out and log back in, or open a different site, the Show Favorites toggle is still switched on.
 
-**Parent Topic:**[Review and update the equipment model details](equipment-model-workspace.md)
+**Parent Topic:**[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/equipment-model-workspace.md)
 

@@ -2,6 +2,7 @@
 title: Link a search source to a search profile
 description: Link search sources to a search profile to specify the content users can search through that profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/link-search-source-profile-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -17,7 +18,7 @@ Link search sources to a search profile to specify the content users can search 
 
 ## Before you begin
 
-You must have already created at least one search source. For instructions on creating search sources, see [Create a search source for AI Search](create-search-source-ais.md).
+You must have already created at least one search source. For instructions on creating search sources, see [Create a search source for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-search-source-ais.md).
 
 Role required: ais\_admin
 
@@ -37,7 +38,7 @@ When linking a search source to a search profile, you can specify options that c
 
 4.  On the Search Profile - Search Source Mapping form, fill in the fields.
 
-    For a description of the field values, see [Search Profile - Search Source Mapping form](../reference/search-prof-src-mapping-form-ais.md).
+    For a description of the field values, see [Search Profile - Search Source Mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/search-prof-src-mapping-form-ais.md).
 
 5.  Select **Submit**.
 
@@ -48,7 +49,7 @@ The new search source appears in the Search Sources related list. Search query r
 
 ## What to do next
 
-Derived auto-correction term lists for the search profile's typo handling dictionary don't automatically update to reflect changes to the set of searchable records. To update these auto-correction term lists, publish the search profile you edited. For details on publishing a search profile, see [Publish an AI Search search profile](publish-search-profile-ais.md).
+Derived auto-correction term lists for the search profile's typo handling dictionary don't automatically update to reflect changes to the set of searchable records. To update these auto-correction term lists, publish the search profile you edited. For details on publishing a search profile, see [Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/publish-search-profile-ais.md).
 
-**Parent Topic:**[Search profiles in AI Search](../concept/defining-search-profiles-ais.md)
+**Parent Topic:**[Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/defining-search-profiles-ais.md)
 

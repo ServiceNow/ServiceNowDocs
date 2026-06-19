@@ -2,6 +2,7 @@
 title: Access Enterprise Graph schema
 description: View and manage Enterprise Graph schema, select tables and test the schema with Knowledge Graph Designer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/knowledge-graph/access-enterprise-graph-schema.html
 release: zurich
 product: Knowledge Graph
 classification: knowledge-graph
@@ -19,7 +20,7 @@ You can view and manage the Enterprise Graph schema, go to **All** &gt; **Knowle
 
 Use Enterprise Graph to view and test the schema. You can also contribute synonyms to the schema for your use case. Synonyms will help improve the accuracy of Enterprise Graph for answering queries.
 
-![Enterprise Graph start page](../Images/GG-landing.png)
+\[Omitted image "GG-landing.png"\] Alt text: Enterprise Graph start page
 
 On the Enterprise Graph start page, use the search bar to search and select a table you want to view or manage. Alternately, you can use the **Open your last view** or **Start with user tables** to view the user and the related table.
 

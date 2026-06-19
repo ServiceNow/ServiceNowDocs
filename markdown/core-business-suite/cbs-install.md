@@ -2,7 +2,10 @@
 title: Install Core Business Suite
 description: Install the Core Business Suite set of applications to streamline core business workflows across parts of your organization such as Legal, Human Resources, Workplace Services, Health and Safety, Procurement, Finance, Supplier Lifecycle Operations, and Accounts Payable Operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/core-business-suite/cbs-install.html
 release: zurich
+product: Core Business Suite
+classification: core-business-suite
 topic_type: task
 last_updated: "2025-11-17"
 reading_time_minutes: 2
@@ -30,7 +33,7 @@ The following items are installed with Core Business Suite:
 -   Dependent store applications
 -   Roles
 
-For more information, see [Components installed with Core Business Suite](../reference/comp-inst-with-cbs.md).
+For more information, see [Components installed with Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/core-business-suite/comp-inst-with-cbs.md).
 
 ## Procedure
 
@@ -52,10 +55,10 @@ For more information, see [Components installed with Core Business Suite](../ref
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
 ## What to do next
 
-Install the Core Business Suite applications. For more information, see [Installing Core Business Suite applications](../concept/install-cbs-applications.md).
+Install the Core Business Suite applications. For more information, see [Installing Core Business Suite applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/core-business-suite/install-cbs-applications.md).
 

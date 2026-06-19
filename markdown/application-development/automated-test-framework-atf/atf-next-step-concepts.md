@@ -2,6 +2,7 @@
 title: Next steps with the Automated Test Framework
 description: After you feel comfortable creating and running simple tests, explore the more advanced features of the Automated Test Framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/atf-next-step-concepts.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -17,15 +18,15 @@ After you feel comfortable creating and running simple tests, explore the more a
 
 ## Batch tests together with test suites
 
-If you commonly run a set of tests together, you can group them using test suites. To learn about test suites, see [Building and running automated test suites](atf-suites-overview.md).
+If you commonly run a set of tests together, you can group them using test suites. To learn about test suites, see [Building and running automated test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-suites-overview.md).
 
 ## Pass data from one test step to another with input and output variables
 
-You can pass data from one test step to another using input variables and output variables. For more information, see [Passing data from one automated test step to another](atf-passing-data.md).
+You can pass data from one test step to another using input variables and output variables. For more information, see [Passing data from one automated test step to another](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-passing-data.md).
 
 ## Reuse common sequences of steps with templates
 
-If you frequently add the same sequence of steps to your tests, save time by creating a template. To learn more about templates, see [Add a predefined list of steps \(template\) to an automated test](../task/atf-use-template.md)
+If you frequently add the same sequence of steps to your tests, save time by creating a template. To learn more about templates, see [Add a predefined list of steps \(template\) to an automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-use-template.md)
 
-**Parent Topic:**[Getting started with the Automated Test Framework](atf-intro.md)
+**Parent Topic:**[Getting started with the Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-intro.md)
 

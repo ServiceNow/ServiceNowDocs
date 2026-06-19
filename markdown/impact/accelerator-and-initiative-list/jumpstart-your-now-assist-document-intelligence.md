@@ -2,6 +2,7 @@
 title: Jumpstart Your Now Assist in Document Intelligence
 description: This accelerator provides a demonstration of the possibilities and capabilities of Now Assist in Document Intelligence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/jumpstart-your-now-assist-document-intelligence.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

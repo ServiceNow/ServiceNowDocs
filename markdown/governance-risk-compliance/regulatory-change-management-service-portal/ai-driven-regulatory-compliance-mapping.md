@@ -2,6 +2,7 @@
 title: Associating an AI-recommended citation to an open regulatory alert
 description: Associate a citation to an open regulatory alert by using the GRC: Predictive Intelligence application and a similarity solution model that uses an AI-recommended citation. Your compliance team can check the incoming regulatory alerts to determine if the citations or requirements apply to your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/regulatory-change-management-service-portal/ai-driven-regulatory-compliance-mapping.html
 release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -27,7 +28,7 @@ Now, you can use AI and machine learning \(ML\) to train a similarity solution m
 
 The Governance, Risk, and Compliance: Predictive Intelligence application uses AI and ML to make the GRC application adding citations smarter. These suggestions are based on a confidence score that is based on the recommended citation.
 
-A user with the sn\_compliance\_admin role must train the solution definition after they install the GRC: Predictive Intelligence application with its dependencies. A user with the ml\_admin role can also customize the solution definition. This modification is based on the data in the \[`sn_complaince_citation`\] and the \[`sn_grc_reg_change_reg_feed`\] table. If you have the sn\_compliance\_admin role, you can select how frequently you want to refresh the data that you use to retrieve your similarity results. For more information about solution definitions, see [https://servicenow.com/docs/bundle/xanadu-customer-service-management/page/product/customer-service-management/reference/similar-cases-solution-definitions.html](https://servicenow.com/docs/bundle/xanadu-customer-service-management/page/product/customer-service-management/reference/similar-cases-solution-definitions.html).
+A user with the sn\_compliance\_admin role must train the solution definition after they install the GRC: Predictive Intelligence application with its dependencies. A user with the ml\_admin role can also customize the solution definition. This modification is based on the data in the \[`sn_complaince_citation`\] and the \[`sn_grc_reg_change_reg_feed`\] table. If you have the sn\_compliance\_admin role, you can select how frequently you want to refresh the data that you use to retrieve your similarity results. For more information about solution definitions, see .
 
 ## Key benefits of associating a citation to a regulatory alert
 

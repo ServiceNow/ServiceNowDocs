@@ -2,7 +2,10 @@
 title: Components installed with Case Management for Invoice Operations
 description: Several types of components are installed with the Case Management for Invoice Operations application, including tables, roles, and service definitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/invoice-ops-installed-components.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 8
@@ -44,7 +47,7 @@ Stores the case line items created for invoice cases. This table extends the Cas
 Records in the Order Case Line table use the prefix **INVCSL**.
 
 </td></tr></tbody>
-</table>The Case Management for Invoice Operations application also uses the following tables from the [Case lines and workflows](csm-case-mgmt-case-lines.md) application.
+</table>The Case Management for Invoice Operations application also uses the following tables from the [Case lines and workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-case-mgmt-case-lines.md) application.
 
 <table id="table_jcd_55l_fdc"><thead><tr><th>
 
@@ -229,7 +232,7 @@ The Case Management for Invoice Operations application provides the following in
 
 Agents can use this service definition to raise a dispute for one or more invoices or for specific lines on a single invoice.
 
-This service definition belongs to the Invoice service definition category, which stores services for invoice-related issues. When creating an invoice case, agents can select this service definition in the [case type selector](csm-case-type-select-modals.md).
+This service definition belongs to the Invoice service definition category, which stores services for invoice-related issues. When creating an invoice case, agents can select this service definition in the [case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-case-type-select-modals.md).
 
 **Note:** The **Invoice Disputes** service definition is not active by default. To activate this service definition, the system administrator can:
 
@@ -240,8 +243,8 @@ This service definition belongs to the Invoice service definition category, whic
 
 For more information about service definitions and categories, see the following topics:
 
--   [Service definitions](csm-service-definitions.md)
--   [Service definition categories](csm-service-definitions.md#section_e5p_mzw_jzb)
+-   [Service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-service-definitions.md)
+-   [Service definition categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-service-definitions.md)
 
 ## Service level agreements \(SLAs\)
 
@@ -317,7 +320,7 @@ In addition to the fields on the customer service case record, the Invoice Case 
     -   Specific invoice lines, single invoice
     -   Invoice header details, multiple invoices
 
-For more information about case types, see [Customer service case types](customer-service-case-types.md).
+For more information about case types, see [Customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-case-types.md).
 
 To view the Invoice case type, navigate to **All** &gt; **Customer Service** &gt; **Case Types** &gt; **Manage Case Types** and select **Invoice**.
 
@@ -325,7 +328,7 @@ To view the Invoice case type, navigate to **All** &gt; **Customer Service** &gt
 
 The Case Management for Invoice Operations application includes form views to display invoice cases in CSM Configurable Workspace and in the Core UI.
 
-This application uses the [CSM default record page](csm-default-record-page.md) to display Invoice case records in CSM Configurable Workspace.
+This application uses the [CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-default-record-page.md) to display Invoice case records in CSM Configurable Workspace.
 
 Invoice cases include the following related lists:
 
@@ -335,8 +338,8 @@ Invoice cases include the following related lists:
 
 For more information, see the following topics:
 
--   [Invoice case form](../reference/invoice-case-form.md)
--   [Invoice case line form](../reference/invoice-case-lines-form.md)
+-   [Invoice case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/invoice-case-form.md)
+-   [Invoice case line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/invoice-case-lines-form.md)
 
 ## Invoice case archive rules
 

@@ -2,11 +2,12 @@
 title: SonarQube integration with DevOps Change Velocity
 description: Connect to your SonarQube instance that is integrated with your CI/CD pipelines to retrieve code quality and code security results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/sonarqube-devops-integration-devops.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -45,16 +46,16 @@ On the SonarQube side, the following permissions are required.
 
 Sonar custom action and extension are available in the GitHub and Azure DevOps marketplace respectively. For Jenkins, the Sonar scan results are retrieved using ServiceNow Jenkins plugin.
 
-For more information on the scan results captured in ServiceNow, see [Software Quality Results](dev-ops-software-quality-results.md#).
+For more information on the scan results captured in ServiceNow, see [Software Quality Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/dev-ops-software-quality-results.md).
 
 Use one of the following options to onboard SonarQube. For a guided experience, use the workspace to onboard a tool. Alternatively, you can use the Service Catalog or Classic experience.
 
--   **[Onboard SonarQube to DevOps Change Velocity — Workspace](../task/sonar-connect-workspace.md)**  
+-   **[Onboard SonarQube to DevOps Change Velocity — Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/sonar-connect-workspace.md)**  
 Connect to your Sonar instance using the DevOps Change Workspace playbook.
--   **[Onboard SonarQube to DevOps Change Velocity — Service Catalog](../task/sc-sonar.md)**  
+-   **[Onboard SonarQube to DevOps Change Velocity — Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/sc-sonar.md)**  
 Connect your Sonar instance using the ServiceNow Service Catalog.
--   **[Onboard SonarQube to DevOps Change Velocity — Classic](../task/create-sonar-tool-devops.md)**  
+-   **[Onboard SonarQube to DevOps Change Velocity — Classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/create-sonar-tool-devops.md)**  
 Connect to your Sonar instance to retrieve scan results.
 
-**Parent Topic:**[Integrating DevOps Change Velocity with third party tools](integrating-devops-change-with-third-party-tools.md)
+**Parent Topic:**[Integrating DevOps Change Velocity with third party tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/integrating-devops-change-with-third-party-tools.md)
 

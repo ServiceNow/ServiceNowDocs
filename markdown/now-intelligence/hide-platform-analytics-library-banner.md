@@ -2,6 +2,7 @@
 title: Hide the Platform Analytics library banner
 description: On instances that will not be migrated to Platform Analytics experience, set a system property to hide the banner that links to the Platform Analytics experience library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/hide-platform-analytics-library-banner.html
 release: zurich
 topic_type: task
 last_updated: "2026-03-20"
@@ -23,7 +24,7 @@ Role required: admin
 
 2.  Create the system property **com.glide.par.unified\_analytics.enabled**.
 
-    For more information, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+    For more information, see .
 
 3.  Set the value of the property to `false`.
 

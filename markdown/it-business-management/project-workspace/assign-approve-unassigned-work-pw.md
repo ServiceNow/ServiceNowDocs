@@ -2,6 +2,7 @@
 title: Access, assign, and approve unassigned work in Project Workspace
 description: View, assign and authorize resources directly from Project Workspace without navigating to Resource Management Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/assign-approve-unassigned-work-pw.html
 release: zurich
 product: Project Workspace
 classification: project-workspace
@@ -36,25 +37,25 @@ In Project Workspace, when you select **Resources** page from the left menu, you
 
 2.  Open the resource page of the project by selecting **Resources** page from the left menu.
 
-3.  Enable the Unassigned tasks toggle \(![Unassigned tasks toggle.](../../resource-management-workspace/images/rmw-unassigned-tasks-toggle.png)\) to view the unassigned work requests in the lower pane.
+3.  Enable the Unassigned tasks toggle \(\[Omitted image "rmw-unassigned-tasks-toggle.png"\] Alt text: Unassigned tasks toggle.\) to view the unassigned work requests in the lower pane.
 
-    ![Resource board view of a Project in Project Workspace.](../image/resource-board-pw.png)
+    \[Omitted image "resource-board-pw.png"\] Alt text: Resource board view of a Project in Project Workspace.
 
     You can create resource assignments based on the primary attributes \(Group, Skill, or Role\). You can see a comprehensive view resource allocations and group them by primary group, skill, role, owner, and parent item.
 
-4.  From unassigned tasks pane, select the context menu row \(![3 vertical dots denoting the row context menu.](../../spw-financials/images/row-context-menu-icon.png)\) for any task and select **Assign Work**.
+4.  From unassigned tasks pane, select the context menu row \(\[Omitted image "row-context-menu-icon.png"\] Alt text: 3 vertical dots denoting the row context menu.\) for any task and select **Assign Work**.
 
 5.  You can assign work using one of the following ways.
 
-<table id="choicetable_qth_yqy_khc"><thead><tr><th align="left" id="d229179e158">
+<table id="choicetable_qth_yqy_khc"><thead><tr><th align="left" id="d217809e158">
 
 Assign work choices
 
-</th><th align="left" id="d229179e161">
+</th><th align="left" id="d217809e161">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d229179e167">
+</th></tr></thead><tbody><tr><td id="d217809e167">
 
 **Auto Assign**
 
@@ -62,7 +63,7 @@ Description
 
 The system automatically identifies all resources based on the selected primary attributes and distributes the work equally among the resources.In the Assign resources window, select **Assign resources automatically** from the Assign resources list.
 
-</td></tr><tr><td id="d229179e181">
+</td></tr><tr><td id="d217809e181">
 
 **Manual Assign**
 
@@ -81,13 +82,13 @@ Enables you to choose specific resources and decide how much effort to allocate.
 
 7.  Select the **Assign** button to assign work to the resources.
 
-    The assigned work is reflected in the top pane nested by resource view and will be in Pending state \(![Yellow rectangular pending state icon.](../../resource-management-workspace/images/rmw-pending-state.png)\).
+    The assigned work is reflected in the top pane nested by resource view and will be in Pending state \(\[Omitted image "rmw-pending-state.png"\] Alt text: Yellow rectangular pending state icon.\).
 
-8.  Expand a resource row using the expand row icon \(![expand row icon.](../../resource-management-workspace/images/icon-expand-arrow.png)\) to view assigned tasks.
+8.  Expand a resource row using the expand row icon \(\[Omitted image "icon-expand-arrow.png"\] Alt text: expand row icon.\) to view assigned tasks.
 
 9.  Double-click in the Resource status column and select **Approve** to confirm the assigned work so the resource can start working.
 
-    While assigning the work, you can easily identify if a resource is available \(![Green tick mark within a green circle indicating the resource allocation is within the available bandwidth.](../../resource-management-workspace/images/rmw-green-tick.png)\) or overutilized \(![Red exclamation mark within a red triangle indication the resource is overallocated.](../../resource-management-workspace/images/rmw-red-warning.png)\), even for the future periods, using the iconography.
+    While assigning the work, you can easily identify if a resource is available \(\[Omitted image "rmw-green-tick.png"\] Alt text: Green tick mark within a green circle indicating the resource allocation is within the available bandwidth.\) or overutilized \(\[Omitted image "rmw-red-warning.png"\] Alt text: Red exclamation mark within a red triangle indication the resource is overallocated.\), even for the future periods, using the iconography.
 
 10. You can change the status of any assigned assignments using one of the following options.
 
@@ -100,12 +101,12 @@ Enables you to choose specific resources and decide how much effort to allocate.
 
 ## Result
 
-The assigned work items are Approved \(![Green rectangular approved state icon.](../../resource-management-workspace/images/rmw-approved-state.png)\) or Unapproved \(![Pink rectangular approved state icon.](../../resource-management-workspace/images/rmw-unapproved-state.png)\) and the status of the work assignments is rolled up to the resource level.
+The assigned work items are Approved \(\[Omitted image "rmw-approved-state.png"\] Alt text: Green rectangular approved state icon.\) or Unapproved \(\[Omitted image "rmw-unapproved-state.png"\] Alt text: Pink rectangular approved state icon.\) and the status of the work assignments is rolled up to the resource level.
 
 ## What to do next
 
--   Reassign or unassign any assigned work from the Project Workspace. For more information, see [Reassign or unassign work using Resource Management Workspace](../../resource-management-workspace/task/rmw-reassign-unassign-work.md).
--   Split resource assignments at a specific date from the Project Workspace. For more information, see [Split resource assignments using Resource Management Workspace](../../resource-management-workspace/task/split-resource-assignment-rmw.md).
+-   Reassign or unassign any assigned work from the Project Workspace. For more information, see [Reassign or unassign work using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rmw-reassign-unassign-work.md).
+-   Split resource assignments at a specific date from the Project Workspace. For more information, see [Split resource assignments using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/split-resource-assignment-rmw.md).
 
-**Parent Topic:**[Resource assignments in Project Workspace](../concept/resource-assignments-pw.md)
+**Parent Topic:**[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/resource-assignments-pw.md)
 

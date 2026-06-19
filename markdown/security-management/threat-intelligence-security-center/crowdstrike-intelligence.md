@@ -2,6 +2,7 @@
 title: Configure and Enable CrowdStrike Falcon Intelligence integration
 description: Before you can use the CrowdStrike Falcon Intelligence, you must download it from the ServiceNow Store and add the appropriate Client ID and Client Secret.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/crowdstrike-intelligence.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -27,7 +28,7 @@ Role required: sn\_sec\_tisc.admin
 
 1.  Using your instance, access **Threat Intelligence Security Center**.
 
-2.  [Download the integration from the ServiceNow Store](../../security-incident-response/reference/download-app-first-time.md).
+2.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/download-app-first-time.md).
 
 3.  Navigate to **Workspaces** &gt; **Threat Intelligence Security Center**.
 
@@ -60,5 +61,5 @@ Role required: sn\_sec\_tisc.admin
 
 After it is configured, CrowdStrike Falcon Intelligence can be selected for performing lookups on observables in Threat Intelligence Security Center.
 
-**Parent Topic:**[TISC CrowdStrike Falcon Intelligence integration](../concept/tisc-crowdstrike-falcon-intelligence-integration.md)
+**Parent Topic:**[TISC CrowdStrike Falcon Intelligence integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-crowdstrike-falcon-intelligence-integration.md)
 

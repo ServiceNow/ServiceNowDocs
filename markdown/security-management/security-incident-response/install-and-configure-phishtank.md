@@ -2,11 +2,12 @@
 title: Install and configure PhishTank
 description: Before you run the integration on your instance, complete the installation and configuration steps so the PhishTank application properly integrates with ServiceNow AI Platform Security Operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/install-and-configure-phishtank.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [PhishTank integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -17,7 +18,7 @@ Before you run the integration on your instance, complete the installation and c
 
 ## Before you begin
 
-Complete the following setup checklist prior to installation. These setup tasks are required for a smooth installation and configuration.
+Complete the following setup checklist before installation. These setup tasks are required for a smooth installation and configuration.
 
 <table id="table_xxz_jyj_4cb"><thead><tr><th>
 
@@ -61,24 +62,24 @@ Madrid and later release requirements
 3.  Security Support Common
 4.  Security Support Orchestration
 
- For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product or application](../../security-incident-response/task/entitle-secops-product.md) and [Activate a ServiceNow Store application](../../security-incident-response/task/activate-entitled-store-app.md).
+ For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/activate-entitled-store-app.md).
 
 </td></tr></tbody>
 </table>Role required: admin
 
 ## Procedure
 
-1.  If you have not installed the application for the integration, see [Install a Security Operations integration](../../security-incident-response/task/install-non-core-apps.md) and follow the steps to install it.
+1.  If you have not installed the application for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/install-non-core-apps.md) and follow the steps to install it.
 
 2.  After the installation completes, navigate to **Integrations** &gt; **Integrations Configurations** and locate the PhishTank tile.
 
-3.  Click **Configure**.
+3.  Select **Configure**.
 
-    ![The tile with a description of the app and the button used to initiate the configuration.](../image/phishtank-card.png)
+    \[Omitted image "phishtank-card.png"\] Alt text: The tile with a description of the app and the button used to initiate the configuration.
 
-4.  In the **PhishTank Configuration** dialog box, enter the Name of the configuration, the Username \(developer account created in PhishTank\), and the API key you obtained from the PhishTank website and click **Submit**.
+4.  In the **PhishTank Configuration** dialog box, enter the Name of the configuration, the Username \(developer account created in PhishTank\), and the API key you obtained from the PhishTank website and select **Submit**.
 
-    ![This field is populated with encrypted account information.](../image/phishtank-configure.png)
+    \[Omitted image "phishtank-configure.png"\] Alt text: This field is populated with encrypted account information.
 
 5.  Verify successful configuration.
 
@@ -87,9 +88,9 @@ Madrid and later release requirements
     If an error message is displayed during the configuration, the PhishTank API key may be invalid.
 
 
-**Parent Topic:**[PhishTank integration](../concept/phishtank-lookups.md)
+**Parent Topic:**[PhishTank integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/phishtank-lookups.md)
 
-**Previous topic:**[PhishTank integration](../concept/phishtank-lookups.md)
+**Previous topic:**[PhishTank integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/phishtank-lookups.md)
 
-**Next topic:**[Verify expected results for PhishTank](verify-expected-results-phishtank.md)
+**Next topic:**[Verify expected results for PhishTank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/verify-expected-results-phishtank.md)
 

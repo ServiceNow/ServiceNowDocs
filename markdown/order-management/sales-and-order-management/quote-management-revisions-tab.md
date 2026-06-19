@@ -2,6 +2,7 @@
 title: Create quote versions
 description: Use the Revisions tab to create and view the versions of your quote.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/quote-management-revisions-tab.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,7 +26,7 @@ The Revisions tab shows all the versions of a quote. Version numbers are sequent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+1.  In the CSM Configurable Workspace, select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 2.  Select **Quotes****All**.
 
@@ -33,9 +34,9 @@ The Revisions tab shows all the versions of a quote. Version numbers are sequent
 
 4.  Select the **Revisions** tab.
 
-    ![Image shows the quote form with the Details tab open which allows agents to fill in details for a quote.](../image/l2c-quote-revisions-2.png)
+    \[Omitted image "l2c-quote-revisions-2.png"\] Alt text: Image shows the quote form with the Details tab open which allows agents to fill in details for a quote.
 
-5.  Select the More Actions icon ![](../image/more-options.png) and select **Create new version**.
+5.  Select the More Actions icon \[Omitted image "more-options.png"\] Alt text: and select **Create new version**.
 
     A new version of the quote is created. Select the quote in the message to open the new version. The **Active** option, if selected indicates the **Active** version of the quote. Use the Revisions tab to view a list of all the current quote versions. Version numbers are sequential.
 
@@ -46,7 +47,7 @@ The Revisions tab shows all the versions of a quote. Version numbers are sequent
 
 ## What to do next
 
-Use the Customer Order tab to start an order from the Quote. See [Convert quotes into orders](quote-management-customer-orders-tab.md) for more information.
+Use the Customer Order tab to start an order from the Quote. See [Convert quotes into orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-management-customer-orders-tab.md) for more information.
 
-**Parent Topic:**[Using Quote Management](../concept/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-mgmt-using.md)
 

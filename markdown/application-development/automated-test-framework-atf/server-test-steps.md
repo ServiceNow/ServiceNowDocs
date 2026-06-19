@@ -2,6 +2,7 @@
 title: Server test steps
 description: Test business logic and background processes by performing operations on the server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/server-test-steps.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -15,10 +16,10 @@ breadcrumb: [Building and running automated tests with the Automated Test Framew
 
 Test business logic and background processes by performing operations on the server.
 
-Server test steps mimic non-interactive actions such as impersonating users, submitting or saving records, running server-side script, or making REST calls. Since server test steps run directly on the server, they do not require a client test runner. For more information about the server test steps, see [Server category](../reference/test-steps-server-category.md#).
+Server test steps mimic non-interactive actions such as impersonating users, submitting or saving records, running server-side script, or making REST calls. Since server test steps run directly on the server, they do not require a client test runner. For more information about the server test steps, see [Server category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/test-steps-server-category.md).
 
--   **[REST test steps](rest-test-steps.md)**  
+-   **[REST test steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/rest-test-steps.md)**  
 Test custom inbound web services and backwards compatibility by making REST calls.
 
-**Parent Topic:**[Building and running automated tests with the Automated Test Framework](atf-build-overview.md)
+**Parent Topic:**[Building and running automated tests with the Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-build-overview.md)
 

@@ -2,6 +2,7 @@
 title: Transaction Manager: Rules and rule groupings
 description: Rules in Transaction Manager are similar to configuration rules. You can also group rules together when they are intended to run together.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/transaction-manager-rules-and-rule-groupings.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -41,7 +42,7 @@ Each type of action has a unique set of rule parameters that must be defined. We
 
 Navigate to the Transaction Manager Admin UI. In the Admin menu Click "Related Rules". To create a new rule, click the **+ New Rule** button.
 
-![Create a New rule](../images/cpq-txn-mgr-rules-create-new-rule-1.jpeg)
+\[Omitted image "cpq-txn-mgr-rules-create-new-rule-1.jpeg"\] Alt text: Create a New rule
 
 On the New Rule popup enter the name of the new rule, verify the Variable Name \(use the Pencil icon on the right if you would like to change the Variable Name\).
 
@@ -49,29 +50,29 @@ Click either Transaction or Transaction Line to determine the level of this new 
 
 Click the Save button to save the new rule.
 
-![Create a New rule](../images/cpq-txn-mgr-rules-create-new-rule-2.jpeg)
+\[Omitted image "cpq-txn-mgr-rules-create-new-rule-2.jpeg"\] Alt text: Create a New rule
 
 On the rule Editor page you can modify the name of the rule, or the Description. Above the Variable Name field is the Active toggle, this allows you to make the rule Active or Inactive.
 
 Below the Description field is the Conditions area. Clicking the Take Action When menu displays the various options you have for implementing the conditions for this new rule. The meaning of each of these values is described earlier in this article. Select the conditions method to use for this new rule.
 
-![Create a New rule](../images/cpq-txn-mgr-rules-create-conditions-3.jpeg)
+\[Omitted image "cpq-txn-mgr-rules-create-conditions-3.jpeg"\] Alt text: Create a New rule
 
 If you change the value of the Take Action When menu from the default value ofAlways, you will then need to specify the list of conditions that will determine if this rule executes or not. You can define one or more individual conditions for a rule. To define a condition use the Enter/Select a field menu to select the Transaction Manager field to test, then choose the operator for the condition in the Equals menu, then set the test value for the field in the Enter/Select a Value menu to determine whether the condition will be TRUE or FALSE. Use the +Add Condition button to add multiple conditions to the rule.
 
-![Transaction Manager: rules and rule groupings](../images/cpq-txn-mgr-rules-create-conditions-4.jpeg)
+\[Omitted image "cpq-txn-mgr-rules-create-conditions-4.jpeg"\] Alt text: Transaction Manager: rules and rule groupings
 
 Once the conditions are defined, then you can define the actions that the rule will execute. As with conditions you can add one or more actions to a given rule, and different types of actions can be included in the same rule.
 
 To add an action, select the type of action you want to add and click it in the Actions area. You will then be taken to the specific Action Type parameter set to define the action. A review of the different action parameter sets follows.
 
-![New rule actions](../images/cpq-txn-mgr-rules-create-actions-5.jpeg)
+\[Omitted image "cpq-txn-mgr-rules-create-actions-5.jpeg"\] Alt text: New rule actions
 
 ## The Hiding action
 
 The Hiding action allows you to hide a field on the buyside layout. The only parameter for this type of action is the field to hide from view. Use the field search box to identify the field to be hidden.
 
-![The Hiding action](../images/cpq-txn-mgr-rules-hiding-action.jpeg)
+\[Omitted image "cpq-txn-mgr-rules-hiding-action.jpeg"\] Alt text: The Hiding action
 
 ## The Message action
 
@@ -85,7 +86,7 @@ Error Message - Uses a triangular red icon and red message text, icon and text c
 
 Custom Message: Admin has control over the icon used with the display of the message as well as the text color of the message.
 
-![The Message action](../images/cpq-txn-mgr-rules-message-action.jpeg)
+\[Omitted image "cpq-txn-mgr-rules-message-action.jpeg"\] Alt text: The Message action
 
 Use the **Show the message on** field to define where on the buyside layout you want the message to appear. The message is often attached to a field, but can also be attached to a Layout component like a Tier or Columnset.
 
@@ -97,7 +98,7 @@ Exclusion and Inclusion actions allow you to manipulate the visibility and use o
 
 Use the **For this Field** menu to select the picklist field whose menu options you will Exclude or Include in the menu.
 
-![The Exclusion/Inclusion action](../images/cpq-txn-mgr-rules-exclusion-action.jpeg)
+\[Omitted image "cpq-txn-mgr-rules-exclusion-action.jpeg"\] Alt text: The Exclusion/Inclusion action
 
 Use the **I want to exclude/include these options** menu to select the specific menu options for the selected picklist field that will be Excluded or Included in the menu. You can select multiple options; they are selected one at a time. Use the Advanced toggle to allow for the writing of script to determine which menu options will be part of the rule execution.
 
@@ -118,17 +119,17 @@ Determination actions allow you to set and clear the value of a field in Transac
 
 Use the **For this Field** menu to search for and select the field for the rule to act upon.
 
-![The Determination action](../images/cpq-txn-mgr-rules-determination-action-1.jpeg)
+\[Omitted image "cpq-txn-mgr-rules-determination-action-1.jpeg"\] Alt text: The Determination action
 
 Next we need to define what we want to do with the field we have chosen. In the fields under **I want to…** you define whether you want to **Set** the value of the chosen field or Clear the value of the chosen field, and whether you will **Allow** or **Prevent** the buyside user from editing the value of the chosen field after it has been modified by the rule.
 
 In the **If user has modified values** menu you can choose whether you want to **Retain** a value in the chosen field that was modified by the buyside user or if you want to Override that value with the value in the rule. Further, if you decide to Retain the modified value from the buyside user you can use the **When user values are retained** menu to define if you want to **Show** the buyside user a message with a recommendation about the value of the chosen field or not.
 
-![The Determination action](../images/cpq-txn-mgr-rules-determination-action-2.jpeg)
+\[Omitted image "cpq-txn-mgr-rules-determination-action-2.jpeg"\] Alt text: The Determination action
 
 Finally, you need to define the value that would be assigned to the chosen field. You can use the **Use this value** field define the value you want to place in the chosen field. You can also use the **Advanced** toggle to allow the Administrator to write a script that will determine the value that will be placed in the chosen field.
 
-![The Determination action](../images/cpq-txn-mgr-rules-determination-action-3.jpeg)
+\[Omitted image "cpq-txn-mgr-rules-determination-action-3.jpeg"\] Alt text: The Determination action
 
 ## Rule groupings
 
@@ -136,33 +137,33 @@ Rule groupings are collections of rules designed for easier association and acce
 
 Rule groupings will then be utilized in Stages and/or Events to link groups of rules for execution. Each stage can have 0 to N rule groupings associated with it, determining which rules will execute when a user makes any changes to a specific field in that stage. The Admin will have to associate a rule grouping with a Stage and/or Event for rules to execute. For instructions on how to associate a rule grouping to a Stage or Event, see the following articles:
 
-[Transaction Manager: Events](transaction-manager-events.md)
+[Transaction Manager: Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/transaction-manager-events.md)
 
-[Transaction Manager: Stages](transaction-manager-stages.md)
+[Transaction Manager: Stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/transaction-manager-stages.md)
 
 ## Creating a rule grouping
 
 To begin, click **Rule Groupings** in the Admin menu, then click the **+ New Rule Grouping** button.
 
-![Creating a rule grouping](../images/cpq-txn-mgr-rules-grouping-new-1.jpeg)
+\[Omitted image "cpq-txn-mgr-rules-grouping-new-1.jpeg"\] Alt text: Creating a rule grouping
 
 In the **New Rule Grouping** popup, provide a **Variable Name** for the new rule grouping. Once the **Variable Name** is satisfactory, click the **Save** button.
 
-![Creating a rule grouping](../images/cpq-txn-mgr-rules-grouping-new-2.jpeg)
+\[Omitted image "cpq-txn-mgr-rules-grouping-new-2.jpeg"\] Alt text: Creating a rule grouping
 
 Next we need to associate rules with the new rule grouping. When you click **Save** in the New Rule Grouping popup, you are taken to the rule Grouping Editor page. Here you need to click the **+ Associate Rules** button.
 
-![Creating a rule grouping](../images/cpq-txn-mgr-rules-grouping-editor-3.jpeg)
+\[Omitted image "cpq-txn-mgr-rules-grouping-editor-3.jpeg"\] Alt text: Creating a rule grouping
 
 Clicking the **+ Associate Rules** button will open a slideout where you can select the individual rules that you want to include in the new rule grouping. Click the “+” sign to the left of a rule in the **Results** column of rules and the rule will be moved over to the **Selected** column. Do this for each rule you want to include in the rule Grouping.
 
-![Associating a rule grouping](../images/cpq-txn-mgr-rules-grouping-associate-4.jpeg)
+\[Omitted image "cpq-txn-mgr-rules-grouping-associate-4.jpeg"\] Alt text: Associating a rule grouping
 
-![Associating rules](../images/cpq-txn-mgr-rules-grouping-associate-5.jpeg)
+\[Omitted image "cpq-txn-mgr-rules-grouping-associate-5.jpeg"\] Alt text: Associating rules
 
 Once all rules have been selected, click the **Done** button. You will be taken back to the rule Grouping Editor page where you will see the rules that have been added to the group.
 
-![Associating rules](../images/cpq-txn-mgr-rules-grouping-approved-6.jpeg)
+\[Omitted image "cpq-txn-mgr-rules-grouping-approved-6.jpeg"\] Alt text: Associating rules
 
 ## Rule Aggregates
 
@@ -206,17 +207,17 @@ Remember that conditional checks for text are case sensitive.
 
 In a draft-stage sample transaction as shown below, I want to sum the list prices of items whose BOM type isSALES. The BOM type is a system-derived line field reflecting the type set first when the configuration item was created.
 
-![Rule Aggregates](../images/cpq-txn-mgr-rules-aggregates-use-case-1.png)
+\[Omitted image "cpq-txn-mgr-rules-aggregates-use-case-1.png"\] Alt text: Rule Aggregates
 
 Steps:
 
 1.  Create a header field named **Total Sales Type Price**.
 
-    ![Total Sales Type Price](../images/cpq-txn-mgr-rules-aggregates-use-case-2.png)
+    \[Omitted image "cpq-txn-mgr-rules-aggregates-use-case-2.png"\] Alt text: Total Sales Type Price
 
 2.  Add it to the layout and deploy the transaction.
 
-    ![deploy the transaction](../images/cpq-txn-mgr-rules-aggregates-use-case-3.png)
+    \[Omitted image "cpq-txn-mgr-rules-aggregates-use-case-3.png"\] Alt text: deploy the transaction
 
 3.  Set up a determination rule using the`sumFieldIf` function, applied at the draft stage with the following script:
 
@@ -227,11 +228,11 @@ Steps:
 
     **Note:** The conditional check is case sensitive. Use `SALES`, not `sales`. Incorrect casing yields no error, but results in a sum of 0 as in the use case there are no lines where bom type is Sales.
 
-    ![deploy the transaction](../images/cpq-txn-mgr-rules-aggregates-use-case-4.png)
+    \[Omitted image "cpq-txn-mgr-rules-aggregates-use-case-4.png"\] Alt text: deploy the transaction
 
 4.  Deploy and reload the transaction. The field correctly returns the total of matching line prices: $46,000 \(from 0, 40,000, 2,500, 1,000, 2,500\).
 
-    ![deploy the transaction](../images/cpq-txn-mgr-rules-aggregates-use-case-5.jpeg)
+    \[Omitted image "cpq-txn-mgr-rules-aggregates-use-case-5.jpeg"\] Alt text: deploy the transaction
 
 
 ## SumChildren

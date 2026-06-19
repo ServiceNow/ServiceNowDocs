@@ -2,6 +2,7 @@
 title: api - UI Builder
 description: The api API provides methods that you can use when developing client scripts in the UI Builder.Page properties can be configured within UI Builder. The configuration values depend on the context in which the page is used.Context session properties associated with the current user.Boolean flag that indicates whether the last fetch attempt for the specified data resource instance finished successfully.Displays the specified error message at the top of the current form.Displays the specified informational message at the top of the current form.Adds an option to the specified choice type field.Displays the specified warning message at the top of the current form.Removes all informational and error messages from the top of the current form.Clears all options from the specified choice type field.Executes the specified UI action.Triggers an execute operation on the specified data resource.Hides the oldest message next to the specified field or clears all messages associated with the field.Hides the specified related list on the current form.Hides all related lists on the current form.Triggers a refresh operation for the specified non-mutating data resource instance.Reloads the current form using the same table and sys\_id.Removes an option from the specified choice type field.Triggers form submission using the Save UI action.Sets whether the specified form field is mandatory.Sets the read/write capabilities of the specified form field.Updates a specified GlideForm field with the specified value. Optionally, you can also update the display value with the same specified value.Sets the visibility of the specified form field.Displays the specified message next to the specified field.Displays the specified related list on the current form.Displays all related lists associated with the current form.Triggers form submission using the specified UI action.Emits an event with the specified name and payload.Sets the value of the specified client state parameter.Sets the value of the specified client state parameter to the value returned by the specified callback function.Current value of the specified client state parameter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/ui-builder-api-reference/apiAPI.html
 release: zurich
 product: UI Builder API Reference
 classification: ui-builder-api-reference
@@ -32,7 +33,7 @@ These scripts cannot be written as an asynchronous function. They also cannot in
 
 The api object contains both configuration dependent and configuration independent properties that you can access within the context of the associated page or component. You cannot directly modify the properties within this object. Modification can only be made through the available methods.
 
-**Parent Topic:**[UIB API reference](../../../../../build/applications/concept/api-uib.md)
+**Parent Topic:**[UIB API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/ui-builder-api-reference/api-uib.md)
 
 ## api - api.context.props.&lt;page\_property\_name&gt;
 
@@ -120,7 +121,7 @@ The system property glide.awa.enabled that indicates whether the auto assignment
 -   true: AWA is enabled for the user.
 -   false: AWA is not enabled for the user.
 
- For additional information, see [Components installed with Advanced Work Assignment](https://www.servicenow.com/docs/access?context=installed-with-awa&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+ For additional information, see Components installed with Advanced Work Assignment.
 
 </td></tr><tr><td>
 
@@ -137,7 +138,7 @@ The property glide.ui.forgetme that indicates whether to remove the **Remember M
 -   true: Remove the **Remember Me** check box.
 -   false: Display the **Remember Me** check box.
 
- For additional information, see [Remove remember me](https://www.servicenow.com/docs/access?context=sc-remove-remember-me&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+ For additional information, see Remove remember me.
 
 </td></tr><tr><td>
 
@@ -163,7 +164,7 @@ StringNumber coerced to string
 
 The system property glide.ui.session\_timeout that determines the initial session time out value.Unit: Minutes - Values greater than 1440 minutes are treated as one day.
 
- For additional information, see [Session activity timeout](https://www.servicenow.com/docs/access?context=sc-session-activity-timeout&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+ For additional information, see Session activity timeout
 
 </td></tr><tr><td>
 
@@ -274,7 +275,7 @@ Array of objects
 
 </td><td>
 
-Name-value pairs that describe the user preferences. These user preferences are stored as records in the User Preference \[sys\_user\_preference\] table, and are updated each time the user changes their settings.For additional information, see [Exploring user administration](https://www.servicenow.com/docs/access?context=exploring-user-administration&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Name-value pairs that describe the user preferences. These user preferences are stored as records in the User Preference \[sys\_user\_preference\] table, and are updated each time the user changes their settings.For additional information, see .
 
 </td></tr><tr><td>
 
@@ -1088,7 +1089,7 @@ Triggers a refresh operation for the specified non-mutating data resource instan
 
 Call this method if the underlying data being fetched by the data resource changes. A data resource is considered non-mutating if the **mutates\_server\_data** field on the record is set to false.
 
-This method is asynchronous and emits an internal event to trigger the refresh of the specified data resource instance. The UI Builder allows you to trigger client scripts in response to data resource lifecycle events, such as DATA\_FETCH\_SUCCEEDED and DATA\_FETCH\_FAILED. For additional information on these events, see [Event mapping](https://www.servicenow.com/docs/access?context=event-mapping&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+This method is asynchronous and emits an internal event to trigger the refresh of the specified data resource instance. The UI Builder allows you to trigger client scripts in response to data resource lifecycle events, such as DATA\_FETCH\_SUCCEEDED and DATA\_FETCH\_FAILED. For additional information on these events, see Event mapping.
 
 This method is only available if the data resource is one of the following types:
 
@@ -1901,7 +1902,7 @@ Emits an event with the specified name and payload.
 
 The event name being emitted must be part of the associated page definition's dispatched events list, which is stored in the UX Macroponent Definition \[sys\_ux\_macroponent\] table. Any api.emit call that dispatches events not declared in this table are ignored.
 
-For additional information on events, see [Work with events](https://www.servicenow.com/docs/access?context=work-events&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+For additional information on events, see Work with events.
 
 <table id="table_yyz_njj_n4b" class="parameters"><thead><tr><th>
 
@@ -1999,7 +2000,7 @@ String
 
 </td><td id="stateParm-entry-api">
 
-Name of the client state parameter to update. This name must be declared in the client state parameters of the associated page. For additional information on declaring client state parameters, see [Work with client state parameters](https://www.servicenow.com/docs/access?context=state-parameters&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+Name of the client state parameter to update. This name must be declared in the client state parameters of the associated page. For additional information on declaring client state parameters, see Work with client state parameters.
 
 </td></tr><tr><td>
 
@@ -2058,7 +2059,7 @@ String
 
 </td><td id="stateParm-entry-api">
 
-Name of the client state parameter to update. This name must be declared in the client state parameters of the associated page. For additional information on declaring client state parameters, see [Work with client state parameters](https://www.servicenow.com/docs/access?context=state-parameters&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+Name of the client state parameter to update. This name must be declared in the client state parameters of the associated page. For additional information on declaring client state parameters, see Work with client state parameters.
 
 </td></tr><tr><td>
 
@@ -2130,7 +2131,7 @@ function showRelatedLists({api}) {
 } 
 ```
 
- **Note:** These property values are read-only. To update a client state parameter, use [api.setState\(\)](apiAPI.md#). Mutating nested object values from scripts is not supported.
+ **Note:** These property values are read-only. To update a client state parameter, use [api.setState\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/ui-builder-api-reference/apiAPI.md). Mutating nested object values from scripts is not supported.
 
 </td></tr></tbody>
 </table>

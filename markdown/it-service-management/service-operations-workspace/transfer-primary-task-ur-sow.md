@@ -2,6 +2,7 @@
 title: Transfer a primary ticket in Service Operations Workspace
 description: You can transfer a primary ticket to Universal Request, service set \(department\), or service either with resolution or without resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/transfer-primary-task-ur-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -44,5 +45,5 @@ Role required: itil, the agents part of the assignment group or the agents on th
 7.  Select **Transfer**.
 
 
-**Parent Topic:**[Universal Request in Service Operations Workspace](../concept/using-ur-sow.md)
+**Parent Topic:**[Universal Request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/using-ur-sow.md)
 

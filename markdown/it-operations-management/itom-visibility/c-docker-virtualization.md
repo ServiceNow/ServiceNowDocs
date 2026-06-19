@@ -2,6 +2,7 @@
 title: Docker virtualization
 description: Discovery uses the Docker Pattern to collect data about specific objects in a Docker engine, running on a Linux host.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/c-docker-virtualization.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -19,6 +20,8 @@ The ServiceNow® platform supports the discovery of [Docker](https://www.docker.
 
 Discovery runs the Docker Engine process classifier in the network. If the classifier identifies the **dockerd** or **docker daemon** process, the classifier triggers the Horizontal Pattern \(HorizontalDiscoveryProbe\) probe, which launches the Docker Pattern and begins collecting data from Docker components.
 
+Starting with Discovery and Service Mapping Patterns version 1.31.0, you can choose to discover Docker image CIs only, without discovering Docker container CIs. Check your entitlements to determine whether you have access to 2026 Container Packaging. For more information, see [Disable Docker container CI discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/disable-docker-container-discovery.md).
+
 **Note:** For information on Probe to Pattern migration see the knowledge article [KB0694477](https://support.servicenow.com/kb_view.do?sysparm_article=KB0694477).
 
 ## Prerequisites
@@ -27,7 +30,7 @@ Discovery runs the Docker Engine process classifier in the network. If the class
 
     The user whose credentials are used to perform Docker Discovery must have privileges defined by one of these methods:
 
-    -   Provide a user with elevated rights for running commands, since the Docker daemon runs as the root user. The Docker pattern supports the use of [privileged commands](https://www.servicenow.com/docs/access?context=c_PrivilegedCommandsForMIDServer&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US), such as **sudo** or **pbrun**, to run as the root user.
+    -   Provide a user with elevated rights for running commands, since the Docker daemon runs as the root user. The Docker pattern supports the use of privileged commands, such as **sudo** or **pbrun**, to run as the root user.
     -   Assigned to a group named **docker**, which has special privileges for running Docker commands. For instructions on setting up a group, see documentation on [Docker](https://www.docker.com/).
 -   **Latest patterns**
 
@@ -351,7 +354,7 @@ Discovery uses an application rule identifier to find the Docker engine and then
 
 -   **Containment and hosting rules**
 
-    Docker Discovery uses these [Create or edit a collection of containment rules](https://www.servicenow.com/docs/access?context=create-dependent-relationship&version=zurich&pubname=zurich-servicenow-platform&section=t_CreateContainmentSvcRuleMetadata&ft:locale=en-US) and [Create or edit a collection of hosting rules](https://www.servicenow.com/docs/access?context=create-dependent-relationship&version=zurich&pubname=zurich-servicenow-platform&section=t_CreateHostingServiceRuleMetadata&ft:locale=en-US) rules to create configuration items \(CI\) from the data returned by the Docker Pattern. After Discovery identifies the Docker engine by its relationship to the Application \[cmdb\_ci\_appl\] table, it uses these rules to identify the specific CIs connected to that engine from their relationships to one another. By connecting the components to one another in this fashion, from the application down, starting with the engine, Discovery avoids creating duplicate CIs for components from other Docker engines that use the same name or image\_id.
+    Docker Discovery uses these Create or edit a collection of containment rules and Create or edit a collection of hosting rules rules to create configuration items \(CI\) from the data returned by the Docker Pattern. After Discovery identifies the Docker engine by its relationship to the Application \[cmdb\_ci\_appl\] table, it uses these rules to identify the specific CIs connected to that engine from their relationships to one another. By connecting the components to one another in this fashion, from the application down, starting with the engine, Discovery avoids creating duplicate CIs for components from other Docker engines that use the same name or image\_id.
 
     |Parent|Child|Relationship|
     |------|-----|------------|
@@ -363,5 +366,5 @@ Discovery uses an application rule identifier to find the Docker engine and then
     |Docker Local Image|Docker Engine|Managed by|
 
 
-**Parent Topic:**[Operating system-level virtualization discovery](c-oslv-discovery.md)
+**Parent Topic:**[Operating system-level virtualization discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c-oslv-discovery.md)
 

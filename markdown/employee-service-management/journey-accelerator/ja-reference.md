@@ -2,6 +2,7 @@
 title: Journey Accelerator reference
 description: Reference topics provide additional information about the lists and forms that you use to configure and use Journey Accelerator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-accelerator/ja-reference.html
 release: zurich
 product: Journey Accelerator
 classification: journey-accelerator
@@ -15,14 +16,14 @@ breadcrumb: [Journey Accelerator, Employee Journey Management, HR Service Delive
 
 Reference topics provide additional information about the lists and forms that you use to configure and use Journey Accelerator.
 
--   **[Journey Accelerator task template fields](journey-accelerator-task-template.md)**  
+-   **[Journey Accelerator task template fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/journey-accelerator-task-template.md)**  
 To make a task template, fill in the Journey Accelerator task template fields.
--   **[Journey Accelerator Model Task fields](ja-model-task-fields.md)**  
+-   **[Journey Accelerator Model Task fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/ja-model-task-fields.md)**  
 Managers create to-do tasks that are saved as templates. The templates are stored as a Journey Accelerator Model Task.
--   **[Action plan to-do task fields](ja-todo-fields.md)**  
+-   **[Action plan to-do task fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/ja-todo-fields.md)**  
 The to-do form contains fields that a manager uses to customize tasks for employees and mentors to complete as part of a transition plan.
--   **[Components installed with Journey Accelerator](components-installed-with-journey-accelerator.md)**  
+-   **[Components installed with Journey Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/components-installed-with-journey-accelerator.md)**  
 Several types of components install with the activation of the Journey Accelerator application, including user roles and tables. There are also dependencies on other features or apps.
 
-**Parent Topic:**[Journey Accelerator](../concept/journey-accelerator-1.md)
+**Parent Topic:**[Journey Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

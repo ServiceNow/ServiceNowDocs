@@ -2,6 +2,7 @@
 title: Approve application restricted caller access privileges
 description: Approve restricted caller access \(RCA\) privileges in the target scope so that you can provide scope access privileges. Approving the RCA privileges enables the script includes in Universal Request scope to be accessed from the Universal Request integration with Microsoft Teams scope.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ur-mst-approve-rca.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-RCA privileges define cross-scope access to an application, an event, or an application resource. Application resources include access control roles, business rules, UI actions, and script includes. RCA privileges can also be used to allow or deny requests for access. Restricted caller access \[sys\_restricted\_caller\_access\] records track cross-scope applications or scripts that request access to an application, application resource, or event. For more information, see [Requested restricted caller access \(RCA\)](https://www.servicenow.com/docs/access?context=requested-rca&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+RCA privileges define cross-scope access to an application, an event, or an application resource. Application resources include access control roles, business rules, UI actions, and script includes. RCA privileges can also be used to allow or deny requests for access. Restricted caller access \[sys\_restricted\_caller\_access\] records track cross-scope applications or scripts that request access to an application, application resource, or event. For more information, see Requested restricted caller access \(RCA\).
 
 ## Procedure
 
@@ -42,7 +43,7 @@ RCA privileges define cross-scope access to an application, an event, or an appl
 
 ## Result
 
-The RCA is approved. The records get updated as shown in the following figure. The **Application** column and the **Target Scope** column now have the same values, and the **Status** column changes to **Allowed**.![Universal Request integration with MS Teams RCA approval.](../images/ur-mst-rca-result.png)
+The RCA is approved. The records get updated as shown in the following figure. The **Application** column and the **Target Scope** column now have the same values, and the **Status** column changes to **Allowed**.\[Omitted image "ur-mst-rca-result.png"\] Alt text: Universal Request integration with MS Teams RCA approval.
 
-**Parent Topic:**[Install Universal Request integration with Microsoft Teams application](install-ur-ms-teams-app.md)
+**Parent Topic:**[Install Universal Request integration with Microsoft Teams application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/install-ur-ms-teams-app.md)
 

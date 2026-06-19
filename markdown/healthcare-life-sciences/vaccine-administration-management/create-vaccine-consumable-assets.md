@@ -2,6 +2,7 @@
 title: Create vaccine consumable assets
 description: Create a vaccine consumable asset and associate it with a vaccine model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/vaccine-administration-management/create-vaccine-consumable-assets.html
 release: zurich
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -209,5 +210,5 @@ Work notes related to the asset.
 </table>5.  Click **Submit**.
 
 
-**Parent Topic:**[Configuring Vaccine Administration Management](../concept/vaccine-mgmt-config.md)
+**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 

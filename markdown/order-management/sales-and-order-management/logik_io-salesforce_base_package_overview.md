@@ -2,6 +2,7 @@
 title: ServiceNow CPQ and Salesforce base package overview
 description: The ServiceNow CPQ and Salesforce base package lets the user use Salesforce Product2 records as configurable products in ServiceNow CPQ, launch the ServiceNow CPQ Admin from Salesforce, and integrate the two applications in other useful ways.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/logik\_io-salesforce\_base\_package\_overview.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -17,10 +18,10 @@ The ServiceNow CPQ and Salesforce base package lets the user use Salesforce Prod
 
 The base package provides the minimum components and configuration for ServiceNow CPQ interacting with Salesforce. This package allows the user to:
 
--   Enable Salesforce Product2 records to be a ServiceNow CPQ configurable product through custom fields added to the Product2 record. For detailed steps, see [Configurable products](configurable-products-explore.md).
+-   Enable Salesforce Product2 records to be a ServiceNow CPQ configurable product through custom fields added to the Product2 record. For detailed steps, see [Configurable products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/configurable-products-explore.md).
 -   Launch the ServiceNow CPQ Admin from Salesforce, from enabled Product2 records
--   Embed the ServiceNow CPQ configuration UI in other Salesforce pages or applications outside CPQ using Visualforce. See [Use case: Embed ServiceNow CPQ UI in a Salesforce VisualForce page](use_case_embed_logik_io_ui_in_salesforce_visualforce_page.md).
--   Access ServiceNow CPQ admin APIs using Salesforce tokens. For detailed steps, see [Admin APIs: Authentication using a Salesforce-connected app](admin-apis-authentication-via-salesforce-connected-app.md).
+-   Embed the ServiceNow CPQ configuration UI in other Salesforce pages or applications outside CPQ using Visualforce. See [Use case: Embed ServiceNow CPQ UI in a Salesforce VisualForce page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/use_case_embed_logik_io_ui_in_salesforce_visualforce_page.md).
+-   Access ServiceNow CPQ admin APIs using Salesforce tokens. For detailed steps, see [Admin APIs: Authentication using a Salesforce-connected app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/admin-apis-authentication-via-salesforce-connected-app.md).
 
 ## Product2 integration
 
@@ -46,7 +47,7 @@ ServiceNow CPQ writes the configuration line item objects when a ServiceNow CPQ 
 
 **Note:** ServiceNow CPQ writes these records into Salesforce, but does not read them. Any changes made to these records will not affect a ServiceNow CPQ configuration.
 
-![Configuration line items](../images/cpq-fields-and-relationships-1.png)
+\[Omitted image "cpq-fields-and-relationships-1.png"\] Alt text: Configuration line items
 
 ## Configuration field data
 
@@ -58,13 +59,13 @@ Writes the configuration Field Data objects when a ServiceNow CPQ configuration 
 
 **Note:** ServiceNow CPQ writes these records into Salesforce, but does not read them. Any changes made to these records will not affect a ServiceNow CPQ configuration.
 
-![Configuration line items](../images/cpq-fields-and-relationships-2.png)
+\[Omitted image "cpq-fields-and-relationships-2.png"\] Alt text: Configuration line items
 
 ## Configuration tenant
 
 LGK\_\_ConfigurationTenant\_\_c controls aspects of the ServiceNow CPQ integration with Salesforce.
 
-![Tenant screen](../images/cpq-logik-tenant.png)
+\[Omitted image "cpq-logik-tenant.png"\] Alt text: Tenant screen
 
 A single record for org-wide defaults should be created and populated with the Administration URL and Runtime Configuration URL values of your ServiceNow CPQ instance.
 

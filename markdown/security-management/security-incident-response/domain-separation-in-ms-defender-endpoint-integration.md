@@ -2,6 +2,7 @@
 title: Domain separation in Microsoft Defender for Endpoint integration
 description: Domain separation is supported in Microsoft Defender for Endpoint integration. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can then control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/domain-separation-in-ms-defender-endpoint-integration.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

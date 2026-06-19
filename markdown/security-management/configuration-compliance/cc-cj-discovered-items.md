@@ -2,6 +2,7 @@
 title: Discovered Items for Configuration Compliance
 description: Assets are automatically matched to configuration items \(CIs\) using CI lookup rules, when they are imported using the host and test results integrations. Discovered Items give you visibility into how asset identification is mapped to CIs in the CMDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/cc-cj-discovered-items.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance
@@ -21,9 +22,9 @@ To make it easier to find potential matching issues, the CI Lookup Rule that mat
 
 **Note:** **CI matching rule** field support is available only for the Qualys integration.
 
-If a match was not found, a CI is created in the Unmatched CI class `[sn_sec_cmn_unmatched_ci]`, `[cmdb_ci_unclassed_hardware]`, or `[cmdb_ci_incomplete_ip]` of the CMDB. If the original unmatched CI was reclassified, Discovered item records are updated to reflect that state. For more information, see [Unmatched CIs](../../vulnerability-response/concept/unmatchedCIs.md) and [View and reclassify unmatched configuration items](../../vulnerability-response/task/view-discovered-items.md) for more information.
+If a match was not found, a CI is created in the Unmatched CI class `[sn_sec_cmn_unmatched_ci]`, `[cmdb_ci_unclassed_hardware]`, or `[cmdb_ci_incomplete_ip]` of the CMDB. If the original unmatched CI was reclassified, Discovered item records are updated to reflect that state. For more information, see [Unmatched CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/unmatchedCIs.md) and [View and reclassify unmatched configuration items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/view-discovered-items.md) for more information.
 
 By default, the **Security Operations** &gt; **CMDB** &gt; **Discovered Items** module lists unmatched configuration items. You can view all discovered items from an import by removing the filter.
 
-For a description of the fields in Discovered Items, see [Discovered Items form fields](../../vulnerability-response/reference/discovered-items-fields.md).
+For a description of the fields in Discovered Items, see [Discovered Items form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/discovered-items-fields.md).
 

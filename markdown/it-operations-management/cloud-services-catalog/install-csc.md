@@ -2,6 +2,7 @@
 title: Install Cloud Services Catalog
 description: You can install the Cloud Services Catalog application purchased from the ServiceNow Store, to make it available on your instance.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application also includes demo data and installs related to ServiceNow applications and plugins, if you don’t have them installed already.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/install-csc.html
 release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -37,7 +38,7 @@ If you’re an existing user of Cloud Services Catalog or CSC Innovation Labs:
 -   An upgrade from the previous version isn’t currently supported. To upgrade an existing instance with Cloud Services Catalog or CSC apps, do the following actions:
 -   -   Uninstall the previously installed CSC apps with table clean-ups \(CSC content pack and CSC in order\).
 -   Install new CSC apps \(CSC and CSC content pack in the same order\).
--   As you can run Guided Setup only once in an instance, manually place new Terraform templates in the Terraform box and update the Out Of Box Terraform config provider accordingly and run [Discovery](../../discovery/reference/r-discovery.md).
+-   As you can run Guided Setup only once in an instance, manually place new Terraform templates in the Terraform box and update the Out Of Box Terraform config provider accordingly and run [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r-discovery.md).
 
 For more information, see the components links.
 
@@ -58,5 +59,5 @@ For more information, see the components links.
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Cloud Services Catalog](configuring-csc.md)
+**Parent Topic:**[Configuring Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/configuring-csc.md)
 

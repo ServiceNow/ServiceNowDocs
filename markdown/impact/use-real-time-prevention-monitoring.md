@@ -2,7 +2,10 @@
 title: Using real-time prevention monitoring
 description: When working with application or configuration file types, if the real-time scanning functionality is configured and active, the Scan Engine displays information for the findings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/use-real-time-prevention-monitoring.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-11-13"
 reading_time_minutes: 1
@@ -77,11 +80,11 @@ Impact
 </table>Using the information provided, you can do one of the following:
 
 -   Correct the issue. If the issue is corrected, the Scan Engine will not return a new finding notice.
--   In the case of a Recommend level finding, submit an exception, then **Update** the page. See [Submit exceptions for the Scan Engine findings](submitting-exception-reasons-scan-engine.md).
+-   In the case of a Recommend level finding, submit an exception, then **Update** the page. See [Submit exceptions for the Scan Engine findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/submitting-exception-reasons-scan-engine.md).
 
 Real-time messaging enforcement can be disabled with the Scan Engine properties page. By disabling enforcement, users will see the messaging but will not be required to make corrections for Act and Recommend findings.
 
 In addition, visibility of real-time messaging for certain users can also be configured with the Scan Engine properties page. You can limit the users that will receive real-time messaging to a specific group if necessary.
 
-For more information, refer to [Configure Scan Engine properties](../task/configure-scan-engine-properties.md).
+For more information, refer to [Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md).
 

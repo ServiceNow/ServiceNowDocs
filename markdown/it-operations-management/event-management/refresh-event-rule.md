@@ -2,6 +2,7 @@
 title: Refresh event rules
 description: Manually update event rules to reflect current event information because once an event rule is created, the Event Additional info and Event Raw info fields are not automatically updated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/refresh-event-rule.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -36,5 +37,5 @@ Role required: evt\_mgmt\_admin
     **Note:** If the current event rule regex expressions do not match the selected event after the refresh, the update fails and an error message appears specifying the problematic fields. This safeguard ensures that your previously defined event rule regex expressions are not broken due to the refresh.
 
 
-**Parent Topic:**[Event rules](../concept/create-event-rules.md)
+**Parent Topic:**[Event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-event-rules.md)
 

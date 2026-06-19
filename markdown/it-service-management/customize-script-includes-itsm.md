@@ -2,7 +2,10 @@
 title: Script includes and customization
 description: Many Script Includes are provided by default with the ITSM products. You can call existing script includes from a script or create your own script includes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/customize-script-includes-itsm.html
 release: zurich
+product: IT Service Management
+classification: it-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1

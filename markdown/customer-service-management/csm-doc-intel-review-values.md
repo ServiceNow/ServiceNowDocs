@@ -2,7 +2,10 @@
 title: Review and submit values predicted by Document Intelligence
 description: Agents can extract, validate, and update the key values from valid attachments in the case using the Document Intelligence interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-doc-intel-review-values.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -25,7 +28,7 @@ The task definition includes an extraction mode that determines how the system h
 
 1.  Open a case in CSM Configurable Workspace.
 
-2.  Select **Review in DocIntel** to open the [Document Intelligence workspace](https://www.servicenow.com/docs/access?context=doc-intel-workspace&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) in a separate tab and view the attachments and extracted values.
+2.  Select **Review in DocIntel** to open the Document Intelligence workspace in a separate tab and view the attachments and extracted values.
 
     In this tab:
 

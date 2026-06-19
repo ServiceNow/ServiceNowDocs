@@ -2,7 +2,10 @@
 title: Catalog feature configuration
 description: Understand the configuration of the Catalog feature in Engagement Messenger to configure the field values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/catalog-feature-configuration.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -43,10 +46,10 @@ Catalogs
 
 </td><td>
 
-List of catalogs that are associated with your messenger. Use the Edit option \(![Lock icon.](../image/lock-icon.png)\) and search for a catalog to add to your messenger.
+List of catalogs that are associated with your messenger. Use the Edit option \(\[Omitted image "lock-icon.png"\] Alt text: Lock icon.\) and search for a catalog to add to your messenger.
 
 </td></tr></tbody>
-</table>![Engagement Messenger home page displaying catalog feature widget to request various services.](../image/em-catalog-feature.png "Catalog feature widget")
+</table>\[Omitted image "em-catalog-feature.png"\] Alt text: Engagement Messenger home page displaying catalog feature widget to request various services.
 
 **Note:** When you upgrade Engagement Messenger application from v1.0.0 to a newer version, the Catalog feature is disabled for all the existing messenger modules. However, AI search results from the home page of the Engagement Messenger still show catalogs to the users. For more information, see the [Known issues in Engagement Messenger \[KB0952509\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0952509) article.
 

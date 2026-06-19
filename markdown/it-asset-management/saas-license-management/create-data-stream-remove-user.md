@@ -2,6 +2,7 @@
 title: Create an action to remove a user
 description: Create an action to deactivate or delete a user account in the SaaS application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/saas-license-management/create-data-stream-remove-user.html
 release: zurich
 product: SaaS License Management
 classification: saas-license-management
@@ -93,7 +94,7 @@ Connection Alias
 
 </td><td>
 
-Connection alias that you created when you created the integration profile. If you have not yet created an integration profile, follow the steps to [create a custom integration profile with a connection alias.](create-integration-custom.md)
+Connection alias that you created when you created the integration profile. If you have not yet created an integration profile, follow the steps to [create a custom integration profile with a connection alias.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/create-integration-custom.md)
 
 </td></tr><tr><td>
 
@@ -138,7 +139,7 @@ XML request message to delete a user. See the documentation for your chosen API 
     |-----|-----|
     |Connection Details|
     |Connection|**Use Connection Alias**.|
-    |Connection Alias|Connection alias that you created when you created the integration profile. If you have not yet created an integration profile, follow the steps to [create a custom integration profile with a connection alias.](create-integration-custom.md)|
+    |Connection Alias|Connection alias that you created when you created the integration profile. If you have not yet created an integration profile, follow the steps to [create a custom integration profile with a connection alias.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/create-integration-custom.md)|
     |Base URL|This value is automatically populated when you select the connection alias. It's set to the Connection URL from the HTTP\(s\) Connection record linked to the alias.|
     |Request Details|
     |Build Request|**Manually**.|

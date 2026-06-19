@@ -2,6 +2,7 @@
 title: Granular Findings
 description: Granular findings may be reviewed using the Granular Findings tool.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-discovery/granular-findings.html
 release: zurich
 product: Data Discovery
 classification: data-discovery
@@ -17,7 +18,7 @@ Granular findings may be reviewed using the Granular Findings tool.
 
 ## Reviewing Granular Findings
 
-**Granular Findings** is used to review up to 500 findings from [Granular Configurations](../task/granular-configuration.md). When there are 500 findings, scanning of Granular Configurations is paused until action is taken.
+**Granular Findings** is used to review up to 500 findings from [Granular Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-discovery/granular-configuration.md). When there are 500 findings, scanning of Granular Configurations is paused until action is taken.
 
 <table id="table_m35_cwt_dcc"><thead><tr><th>
 

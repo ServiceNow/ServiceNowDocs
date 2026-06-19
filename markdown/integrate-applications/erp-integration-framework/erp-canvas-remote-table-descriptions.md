@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP remote table form field descriptions
 description: The Remote table form in Zero Copy Connector for ERP enables you to create and edit remote tables in the ERP \(Enterprise Resource Planning\) model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erp-canvas-remote-table-descriptions.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -16,7 +17,7 @@ breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Cop
 
 The Remote table form in Zero Copy Connector for ERP enables you to create and edit remote tables in the ERP \(Enterprise Resource Planning\) model.
 
-For process details, see [View and edit ERP remote table details with Zero Copy Connector for ERP](../task/erpi-find-tables.md).
+For process details, see [View and edit ERP remote table details with Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erpi-find-tables.md).
 
 <table id="table_ep5_44s_wxb"><thead><tr><th>
 
@@ -80,7 +81,7 @@ ERP system
 
 </td><td>
 
-ERP system that the remote table is linked to. The connected system represents the ERP instance that is linked to the model, enabling data flow and interaction between the model and the connected ERP system. For more information, see [Create an ERP system in Zero Copy Connector for ERP](../task/create-an-erp-system.md).
+ERP system that the remote table is linked to. The connected system represents the ERP instance that is linked to the model, enabling data flow and interaction between the model and the connected ERP system. For more information, see [Create an ERP system in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/create-an-erp-system.md).
 
 </td></tr><tr><td>
 
@@ -131,5 +132,5 @@ Enable schedule
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](erp-canvas-field-descriptions.md)
+</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
 

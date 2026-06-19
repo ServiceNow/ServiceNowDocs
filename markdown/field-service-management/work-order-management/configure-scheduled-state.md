@@ -2,6 +2,7 @@
 title: Configure the Scheduled state
 description: Administrators can optionally enable the Scheduled state flow for work orders and work order tasks. By configuring these settings, you can control when and how tasks are dispatched to technicians.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/configure-scheduled-state.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

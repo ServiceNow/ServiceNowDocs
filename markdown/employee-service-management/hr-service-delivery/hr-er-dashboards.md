@@ -2,6 +2,7 @@
 title: HR Service Delivery Employee Relations dashboards
 description: The HR Service Delivery Employee Relations dashboards provides visual reports that give you statistics on ER cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-er-dashboards.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -33,5 +34,5 @@ Map showing the number of ER cases per geographic region. Click the country and 
 
 Shows the number of ER cases by company department. Click the image and the Involved Parties list appears.
 
-![ER Dashboards](../image/hr-er-db.png)
+\[Omitted image "hr-er-db.png"\] Alt text: ER Dashboards
 

@@ -2,6 +2,7 @@
 title: Define a priority lookup rule for incidents
 description: Define the impact and urgency of an Operational Technology incident to calculate its priority. You can then use the priority calculation to prioritize your work and to drive service level agreements \(SLAs\) in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-incident-management/define-priority-lookup-rules.html
 release: zurich
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -57,5 +58,5 @@ Role required: ot\_incident\_admin
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Operational Technology Incident Management](../concept/configuring-operational-technology-incident-mgt.md)
+**Parent Topic:**[Configuring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-incident-management/configuring-operational-technology-incident-mgt.md)
 

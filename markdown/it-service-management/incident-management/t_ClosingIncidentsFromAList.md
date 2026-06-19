@@ -2,6 +2,7 @@
 title: Close multiple incidents from list
 description: Close multiple incidents from the incident list simultaneously that can have the same resolution code.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/t\_ClosingIncidentsFromAList.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -25,7 +26,7 @@ Role required: itil, list\_updater, sn\_incident\_write, or admin
 
 2.  Right-click on any list column header and select **Update Selected**.
 
-    ![Update selected UI action](../image/close-inci-from-list.png)
+    \[Omitted image "close-inci-from-list.png"\] Alt text: Update selected UI action
 
 3.  Set the value of **State** to **Closed**.
 
@@ -36,5 +37,5 @@ Role required: itil, list\_updater, sn\_incident\_write, or admin
     The changes apply to all the selected records.
 
 
-**Parent Topic:**[Incident resolution and closure](../concept/c_IncidentResolutionAndRecovery.md)
+**Parent Topic:**[Incident resolution and closure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/c_IncidentResolutionAndRecovery.md)
 

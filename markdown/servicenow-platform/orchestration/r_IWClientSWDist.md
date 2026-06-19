@@ -2,6 +2,7 @@
 title: Installed with client software distribution
 description: Several types of components are installed with client software distribution \(CSD\).These tables are installed with the Orchestration - Client Software Distribution plugin \(com.snc.orchestration.client\_sf\_distribution\).These plugins are installed with the Orchestration - Client Software Distribution plugin, if they are not already active.These roles are installed with the Orchestration - Client Software Distribution plugin.These script includes are installed with the Orchestration - Client Software Distribution pluginProperties for client software distribution \(CSD\) manage the installation status of requested software deployments and configure scheduled Discoveries.These workflows are installed with the Orchestration - Client Software Distribution plugin
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/orchestration/r\_IWClientSWDist.html
 release: zurich
 product: Orchestration
 classification: orchestration
@@ -15,7 +16,7 @@ breadcrumb: [Client Software Distribution, Orchestration applications, Classic O
 
 Several types of components are installed with client software distribution \(CSD\).
 
-**Parent Topic:**[Client Software Distribution](../concept/c_ClientSoftwareDistribution.md)
+**Parent Topic:**[Client Software Distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_ClientSoftwareDistribution.md)
 
 ## Tables installed with client software distribution
 
@@ -41,7 +42,7 @@ These tables are installed with the Orchestration - Client Software Distribution
 
 These plugins are installed with the Orchestration - Client Software Distribution plugin, if they are not already active.
 
-For instructions on requesting activation of Client Software Distribution \(CSD\) see [Request client software distribution](../task/t_ActivateClientSWDistribution.md).
+For instructions on requesting activation of Client Software Distribution \(CSD\) see [Request client software distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_ActivateClientSWDistribution.md).
 
 <table id="table_zvn_hpc_ks"><thead><tr><th>
 
@@ -65,7 +66,7 @@ Orchestration - Asset Lease Management \[com.snc.orchestration.asset\_lease\_man
 
 </td><td>
 
-Installs the [lease functionality](../task/t_CreateLicsAndCountsForDistSW.md#) for software distributed through the Service Catalog. This includes starting, stopping, and extending leases.
+Installs the [lease functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateLicsAndCountsForDistSW.md) for software distributed through the Service Catalog. This includes starting, stopping, and extending leases.
 
 </td></tr><tr><td>
 
@@ -230,7 +231,7 @@ Controls how many days the system waits before ignoring the software installatio
  -   **Not installed**: User has not installed requested software prior to the expiration of the configured time limit.
 -   **Installed**: Software was installed within the configured time limit.
 -   **Status check expired**: Time limit has expired for the user to install the requested software. The system no longer checks the status of this deployment.
--   **Revoked**: Software was [revoked](../concept/c_SCCMSoftwareRevocation.md#) by the administrator.
+-   **Revoked**: Software was [revoked](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_SCCMSoftwareRevocation.md) by the administrator.
 
  -   **Type**: integer
 -   **Default value**: 30
@@ -294,7 +295,7 @@ These workflows are installed with the Orchestration - Client Software Distribut
 
 |Workflow|Description|
 |--------|-----------|
-|Discover SCCM|Retrieves lists of applications, collections, and deployments from SCCM servers using custom CSD orchestration activities. An administrator runs this workflow from a UI action in a [SCCM Server Instance record](../task/t_RetrieveSCCMDataClientSWDist.md#).|
+|Discover SCCM|Retrieves lists of applications, collections, and deployments from SCCM servers using custom CSD orchestration activities. An administrator runs this workflow from a UI action in a [SCCM Server Instance record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_RetrieveSCCMDataClientSWDist.md).|
 |Order Client Software|Runs automatically when a user orders software from the service catalog.|
 |Deploy SCCM Application|Triggered by the Order Client Software workflow to deploy software through SCCM server. This workflow adds either the user or the device into the SCCM collection.|
 |Revoke Client Software|Begins the software revocation process for software deployed by an external provider. Administrators run this workflow from a UI action on the Requested Software record and the Installed Software Not Entitled record. This workflow triggers the appropriate provider workflow that performs the actual recovation. For example, this workflow triggers the Revoke SCCM Application workflow for applications in SCCM uninstall collections.|
@@ -303,11 +304,11 @@ These workflows are installed with the Orchestration - Client Software Distribut
 **Related topics**  
 
 
-[Using extension points to extend application functionality](https://www.servicenow.com/docs/access?context=extension-points&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.extension-points]
 
-[Using scripted extension points in server-side scripts](https://www.servicenow.com/docs/access?context=scripted-extension-points&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.scripted-extension-points]
 
-[Using UI extension points in server-side UI macros](https://www.servicenow.com/docs/access?context=ui-extension-points&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.ui-extension-points]
 
-[Using client extension points in client-side UI scripting](https://www.servicenow.com/docs/access?context=client-extension-points&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.client-extension-points]
 

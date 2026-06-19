@@ -2,6 +2,7 @@
 title: Initiate a PIP request
 description: Initiate a PIP request for your employee. Have structured conversations with your employee on performance improvement, and have an agreed course of action with HR or the Employee Relations department.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/raise-pip.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

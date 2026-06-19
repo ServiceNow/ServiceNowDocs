@@ -2,6 +2,7 @@
 title: Run quick start test for Workplace Visitor Management
 description: Workplace Visitor Management provides quick start test that you can run on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-visitor-management/quick-start-test-visitor-mgmt.html
 release: zurich
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  Search and select the quick start test you want to run.
 
-    For information on available quick start test, see [Quick start test for Workplace Visitor Management](../../../administer/atf-quick-start-tests/reference/quick-start-tests-wsd-visitor-mgmt.md).
+    For information on available quick start test, see [Quick start test for Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-visitor-management/quick-start-tests-wsd-visitor-mgmt.md).
 
 3.  Select **Run Test**.
 
@@ -34,5 +35,5 @@ Role required: admin
     After running the test, the **Step Results** tab shows the status of test steps. Screen shots also appear at the top of the form as attachments.
 
 
-**Parent Topic:**[Quick start test for Workplace Visitor Management](../../../administer/atf-quick-start-tests/reference/quick-start-tests-wsd-visitor-mgmt.md)
+**Parent Topic:**[Quick start test for Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-visitor-management/quick-start-tests-wsd-visitor-mgmt.md)
 

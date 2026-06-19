@@ -2,6 +2,7 @@
 title: Add related controls to a citation manually
 description: Add related controls to a citation manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/add-related-controls-to-citations-manually.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -23,7 +24,7 @@ Role required: Compliance Manager \(sn\_compliance\_ws.corporate\_compliance\_ma
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the List icon \(![List icon.](../../grc-compliance-case-mgmt/image/list-icon.png)\).
+2.  Select the List icon \(\[Omitted image "list-icon.png"\] Alt text: List icon.\).
 
 3.  Navigate to **Compliance library** &gt; **Citations**.
 

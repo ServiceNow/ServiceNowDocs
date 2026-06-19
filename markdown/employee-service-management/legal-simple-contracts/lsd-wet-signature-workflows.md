@@ -2,6 +2,7 @@
 title: Wet Signature workflow
 description: The wet signature workflow is triggered when a legal request with signature type as Wet Signature is sent to the signatories for signing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-simple-contracts/lsd-wet-signature-workflows.html
 release: zurich
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -15,7 +16,7 @@ breadcrumb: [Signature process for a legal request, Non-disclosure agreement req
 
 The wet signature workflow is triggered when a legal request with signature type as Wet Signature is sent to the signatories for signing.
 
-The signature type is specified while submitting a legal request. For more information, see [Submit a legal request for a NDA](../task/submit-legal-contract-request.md).
+The signature type is specified while submitting a legal request. For more information, see [Submit a legal request for a NDA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/submit-legal-contract-request.md).
 
 The generic workflow for wet signature might progress as follows.
 
@@ -29,7 +30,7 @@ As a signatory:
 As a legal requester:
 
 -   After receiving the signed contract document from all signatories, generate digital copy in PDF format.
--   Attach the digital copy of the contract document to the legal request. For more information, see [Add a manually signed contract](../task/upload-contract-document-for-wet-signature.md).
+-   Attach the digital copy of the contract document to the legal request. For more information, see [Add a manually signed contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/upload-contract-document-for-wet-signature.md).
 
-**Parent Topic:**[Signature process for a legal request](lsd-signature-workflow.md)
+**Parent Topic:**[Signature process for a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/lsd-signature-workflow.md)
 

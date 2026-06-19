@@ -2,6 +2,7 @@
 title: Create a problem
 description: A problem is a cause of one or more incidents. Create a problem to identify the root cause of the incidents and try to prevent them from happening again.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/problem-management/create-a-problem-v2.html
 release: zurich
 product: Problem Management
 classification: problem-management
@@ -19,7 +20,7 @@ A problem is a cause of one or more incidents. Create a problem to identify the 
 
 Role required: itil, sn\_problem\_write, admin, problem\_admin, problem\_manager, or problem\_coordinator
 
-If you do not have Problem Management Best Practice — Madrid plugin \(com.snc.best\_practice.problem.madrid\) activated, see [Create a problem \(legacy\)](create-problem.md#).
+If you do not have Problem Management Best Practice — Madrid plugin \(com.snc.best\_practice.problem.madrid\) activated, see [Create a problem \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/create-problem.md).
 
 ## About this task
 
@@ -32,7 +33,7 @@ If you do not have Problem Management Best Practice — Madrid plugin \(com.snc.
 
 1.  Create the problem with one of these options.
 
-<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d331776e77">
+<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d76368e77">
 
 **From the Problem module**
 
@@ -40,7 +41,7 @@ If you do not have Problem Management Best Practice — Madrid plugin \(com.snc.
 
 Navigate to **Problem** &gt; **Create New**.
 
-</td></tr><tr><td id="d331776e95">
+</td></tr><tr><td id="d76368e95">
 
 **From an incident**
 
@@ -53,11 +54,11 @@ Navigate to **Problem** &gt; **Create New**.
 </td></tr></tbody>
 </table>2.  On the Problem form, fill in the fields.
 
-    For a description of the field values, see [Problem form](../reference/problem-form.md)
+    For a description of the field values, see [Problem form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/problem-form.md)
 
 3.  Click **Submit**.
 
-    The problem enters the **New** state. If you have filled the mandatory fields that are necessary to move a problem record to the **Assess** state, the problem record directly moves to the **Assess** state. If you want to add any additional field for the assess state, you must add the field at **System UI** &gt; **Form Sections**. For more information, refer [Add a field in the assess mandatory field dialog](add-field-in-assess-dialog-form.md).
+    The problem enters the **New** state. If you have filled the mandatory fields that are necessary to move a problem record to the **Assess** state, the problem record directly moves to the **Assess** state. If you want to add any additional field for the assess state, you must add the field at **System UI** &gt; **Form Sections**. For more information, refer [Add a field in the assess mandatory field dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/add-field-in-assess-dialog-form.md).
 
     **Note:**
 
@@ -76,8 +77,8 @@ Navigate to **Problem** &gt; **Create New**.
 
 Assess the problem.
 
--   **[Create a problem \(legacy\)](create-problem.md#)**  
+-   **[Create a problem \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/create-problem.md)**  
 A problem is a cause of one or more incidents. Create a problem to identify the root cause of the incidents and try to prevent them from happening again.
 
-**Parent Topic:**[Managing Problems](../concept/problem-mgmt-lifecycle.md)
+**Parent Topic:**[Managing Problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/problem-mgmt-lifecycle.md)
 

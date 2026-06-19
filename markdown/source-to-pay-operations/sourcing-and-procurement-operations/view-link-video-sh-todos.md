@@ -2,13 +2,14 @@
 title: View a link or video from Shopping Hub Home
 description: Complete your task by viewing a link or video that your procurement specialist has assigned to you, directly from Shopping Hub Home. This action is listed as a task under My to-dos.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/view-link-video-sh-todos.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Shopper to-dos, Using Shopping Hub, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Shopper to-dos, Using Shopping Hub, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # View a link or video from Shopping Hub Home
@@ -38,5 +39,5 @@ Role required: sn\_shop.shopper
 7.  Select **Complete**.
 
 
-**Parent Topic:**[Shopper to-dos](../reference/shopper-todos.md)
+**Parent Topic:**[Shopper to-dos](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos.md)
 

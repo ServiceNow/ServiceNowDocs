@@ -2,6 +2,7 @@
 title: Initiate chargeback
 description: Initiate a chargeback for Mastercard transaction disputes and request collaboration from merchants.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/initiate-chargeback-mastercard.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -19,24 +20,24 @@ Initiate a chargeback for Mastercard transaction disputes and request collaborat
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector.
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
 When you initiate a chargeback, the process follows one of these paths:
 
 -   Mastercard attempts to resolve the dispute through the merchant-cardholder collaboration step.
-    -   If **Card network collaboration** is **Yes**, the task [Review and respond to collaboration](review-respond-collaboration.md) displays, indicating collaboration has started.
+    -   If **Card network collaboration** is **Yes**, the task [Review and respond to collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/review-respond-collaboration.md) displays, indicating collaboration has started.
     -   If the **Card network collaboration** is **No**, then the merchant has the option to proceed with a second presentment.
 -   You select the proper action based on the merchant's decision on the second presentment as follows:
-    -   If **Yes**, the task [Review chargeback response and decide on pre-arbitration or arbitration](review-and-decide-prearbitration.md) displays, starting the formal chargeback process.
-    -   If **No**, the case favors the cardholder and, based on the policy, the transaction moves to one of the Financial Adjustments 1, ending the dispute. For more information about Financial adjustments, see [About Financial adjustments in Mastercard disputes](../concept/financial-adjustments.md).
+    -   If **Yes**, the task [Review chargeback response and decide on pre-arbitration or arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/review-and-decide-prearbitration.md) displays, starting the formal chargeback process.
+    -   If **No**, the case favors the cardholder and, based on the policy, the transaction moves to one of the Financial Adjustments 1, ending the dispute. For more information about Financial adjustments, see [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/financial-adjustments.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -76,20 +77,20 @@ When you initiate a chargeback, the process follows one of these paths:
 
 13. If you want to proceed, select one of the following options from the **Card network collaboration** drop-down.
 
-    -   **Yes** if the merchant wants to proceed with a collaboration by providing a voucher or a refund. Then the [Review and respond to collaboration](review-respond-collaboration.md) task is displayed.
+    -   **Yes** if the merchant wants to proceed with a collaboration by providing a voucher or a refund. Then the [Review and respond to collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/review-respond-collaboration.md) task is displayed.
     -   **No** if the merchant rejects the collaboration and wants to go with a second presentment. The **Second presentment by merchant** drop-down is displayed.
 
         Select one of the following options:
 
-        -   **Yes** to indicate that the acquirer came in with the second presentment. The [Review chargeback response and decide on pre-arbitration or arbitration](review-and-decide-prearbitration.md) task is displayed.
+        -   **Yes** to indicate that the acquirer came in with the second presentment. The [Review chargeback response and decide on pre-arbitration or arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/review-and-decide-prearbitration.md) task is displayed.
         -   **No**  if there’s no response. The case goes in the favor of the cardholder and the transaction moves to Financial adjustments 1.
 14. Select **Close task**.
 
 
 ## What to do next
 
--   If the **Card network collaboration** is marked as **Yes**, the [Review and respond to collaboration](review-respond-collaboration.md) displays.
+-   If the **Card network collaboration** is marked as **Yes**, the [Review and respond to collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/review-respond-collaboration.md) displays.
 -   Otherwise, based on the second presentment done by the merchant, the appropriate task is displayed.
 
-**Parent Topic:**[Chargeback in Mastercard transaction disputes](../concept/chargeback-stage-mastercard.md)
+**Parent Topic:**[Chargeback in Mastercard transaction disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/chargeback-stage-mastercard.md)
 

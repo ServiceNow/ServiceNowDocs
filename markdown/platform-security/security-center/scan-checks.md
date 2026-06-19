@@ -2,6 +2,7 @@
 title: Scan checks
 description: Use checks to detect anomalies within an instance, running against tables, records, or metadata.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/security-center/scan-checks.html
 release: zurich
 product: Security Center
 classification: security-center
@@ -15,20 +16,20 @@ breadcrumb: [Security scanner, Security configuration console, Security Center, 
 
 Use checks to detect anomalies within an instance, running against tables, records, or metadata.
 
-![SC Auditor suite findings](../images/sec-center-checks.png)
+\[Omitted image "sec-center-checks.png"\] Alt text: SC Auditor suite findings
 
 Checks are rules designed to detect anomalies within an instance. Select a check on the list to view details including what the check evaluates, and possible steps to correct the issue if the check returns any findings.
 
-Select the **+Create task** button to create a Security Task related to a scan check. For details on Security Tasks, see [Security Tasks](security-task-manager.md).
+Select the **+Create task** button to create a Security Task related to a scan check. For details on Security Tasks, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/security-task-manager.md).
 
 Checks are divided into four classes to identify issues and implement security recommendations for your organization: table checks, column type checks, script only checks, and linter checks.
 
 |Check class|Description|
 |-----------|-----------|
-|[Table checks](https://www.servicenow.com/docs/access?context=hs-create-table-health-check&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)|Use this check class when you know the specific tables and checks you want to test.|
-|[Column checks](https://www.servicenow.com/docs/access?context=hs-create-column-health-check&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)|Use this check class to implement the rule you created to iterate all records matching the target column field type.|
-|[Script checks](https://www.servicenow.com/docs/access?context=hs-create-script-health-check&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)|Use this check class to verify meta data, configurations, and execute complex checks by writing your own checks.|
-|[Linter checks](https://www.servicenow.com/docs/access?context=hc-linter-check&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)|Use this check class to identify any issues in a script. When a linter check is run on a record, an abstract syntax tree for its code is generated which can be used to analyze issues with the code.|
+|Table checks|Use this check class when you know the specific tables and checks you want to test.|
+|Column checks|Use this check class to implement the rule you created to iterate all records matching the target column field type.|
+|Script checks|Use this check class to verify meta data, configurations, and execute complex checks by writing your own checks.|
+|Linter checks|Use this check class to identify any issues in a script. When a linter check is run on a record, an abstract syntax tree for its code is generated which can be used to analyze issues with the code.|
 
-**Parent Topic:**[Security scanner](sc-scanning.md)
+**Parent Topic:**[Security scanner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/sc-scanning.md)
 

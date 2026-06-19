@@ -2,6 +2,7 @@
 title: Integrate Logicmonitor events
 description: Integrate Logicmonitor with Event Management to send events into ServiceNow by adding a webhook using Basic Authentication, it will also be available with bi-directional functionality.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/logicmonitor-events-integration.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -57,9 +58,9 @@ Starting from the Xanadu release, the OOTB \(Out-Of-The-Box\) event rules provid
 
     2.  In the Manage Testing chain form, fill in the **Name** and **Description** field and select the rate at which the alerts should be notified.
 
-    3.  Under the Stages section, select the Add icon ![logicmonitor add icon](../image/logicmonitor-add-icon.png) to add a stage and click **Save**.
+    3.  Under the Stages section, select the Add icon \[Omitted image "logicmonitor-add-icon.png"\] Alt text: logicmonitor add icon to add a stage and click **Save**.
 
-    4.  When you create the new stage, select the Add icon ![logicmonitor add icon](../image/logicmonitor-add-icon.png) again to search for the user and add the integration as the Contact Method and click **Save**.
+    4.  When you create the new stage, select the Add icon \[Omitted image "logicmonitor-add-icon.png"\] Alt text: logicmonitor add icon again to search for the user and add the integration as the Contact Method and click **Save**.
 
 3.  After creating the escalation chain, configure alert rules for the chain you created.
 
@@ -74,5 +75,5 @@ Starting from the Xanadu release, the OOTB \(Out-Of-The-Box\) event rules provid
     **Note:** To map the CI to the **cmdb\_ci\_vm\_object** record instead of the **cmdb\_ci\_server**, enable the event rule created for Logicmonitor. The Logicmonitor's collector name, which comes in as a hostname in the payload, should be the same as the object\_id of the virtual machine discovered in the **cmdb\_ci\_vm\_object** record.
 
 
-**Parent Topic:**[Integrate with push connectors](configure-listener-transform-script.md)
+**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-listener-transform-script.md)
 

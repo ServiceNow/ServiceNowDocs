@@ -2,6 +2,7 @@
 title: Installed With Data Certification
 description: Activating the Data Certification plugin installs the following components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/r\_InstalledWithDataCertification.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

@@ -2,6 +2,7 @@
 title: Create a baseline
 description: A Planned Task Baseline is a record of the start and end times of the planned task at a particular moment in time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/c\_CreateABaseline.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -17,13 +18,13 @@ A Planned Task Baseline is a record of the start and end times of the planned ta
 
 To create a baseline, navigate to the form of the top planned task and select the **Create a Baseline** related link:
 
-![Create baseline for the current task.](../image/PTBaseline.png "Create baseline")
+\[Omitted image "PTBaseline.png"\] Alt text: Create baseline for the current task.
 
 To view the baseline, configure the related lists to add a related list of baselines:
 
-![Baseline related list](../image/PTBaseline2.png "Baselines tab")
+\[Omitted image "PTBaseline2.png"\] Alt text: Baseline related list
 
 The baseline can be viewed on a Gantt Chart using the related link.
 
-**Parent Topic:**[Extending the Task table with Planned tasks](c_PlannedTask.md)
+**Parent Topic:**[Extending the Task table with Planned tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_PlannedTask.md)
 

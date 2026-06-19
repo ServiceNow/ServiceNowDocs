@@ -2,6 +2,7 @@
 title: Create prospects in job requisitions
 description: Create a prospect within a job requisition as a potential fit for the job opening.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/create-lead-req.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -33,7 +34,7 @@ Role required: sn\_ta\_hiring\_core.recruiter
 
 6.  On the Create New Candidate form, fill in the fields.
 
-    For a description of the field values, see [Create talent form](../reference/new-talent-form.md).
+    For a description of the field values, see [Create talent form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/new-talent-form.md).
 
 7.  Select **Save**.
 
@@ -42,5 +43,5 @@ Role required: sn\_ta\_hiring\_core.recruiter
 
 You have created a prospect within a job requisition.
 
-**Parent Topic:**[Job prospects](../concept/job-leads.md)
+**Parent Topic:**[Job prospects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/job-leads.md)
 

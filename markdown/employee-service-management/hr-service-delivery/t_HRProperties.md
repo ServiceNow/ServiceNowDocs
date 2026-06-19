@@ -2,6 +2,7 @@
 title: HR properties
 description: HR properties control the behavior of HR Service Delivery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/t\_HRProperties.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -174,7 +175,7 @@ Determines how you want your instance to behave when you transfer an HR case to 
 
 -   true: Use the default transfer case to use the standard method. The HR case number changes when transferring an HR case from one HR service to another. Both HR case numbers appear on the HR case for reference.
 -   false: Use the reclassify method to transfer an HR case. The HR case number does not change after transferring an HR case from one HR service to another.
-**Note:** For more information, see [Transfer an HR case](../concept/reclassify-hr-case.md).
+**Note:** For more information, see [Transfer an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/reclassify-hr-case.md).
 
 </td></tr><tr><td>
 
@@ -205,5 +206,5 @@ Limits access to cases, through inactive tasks, based on a time limit in months.
 </table>3.  Click **Save**.
 
 
-**Parent Topic:**[HR Administration](../concept/c_AdministerHRServiceManagement.md)
+**Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 

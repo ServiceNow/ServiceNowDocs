@@ -2,6 +2,7 @@
 title: Enterprise Asset Management normalization
 description: The Enterprise Asset Management normalization process enables you to normalize your manufacturer, model name, model number, and model type data of your enterprise models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/normalization-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management

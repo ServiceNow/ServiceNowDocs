@@ -2,6 +2,7 @@
 title: Configure MID Server as WinRM trusted host
 description: In environments using Windows Remote Management \(WinRM\), Discovery or Service Mapping can discover servers using the WinRM protocol. Add servers, which are part of WinRM, as trusted hosts on all MID Servers that Discovery or Service Mapping use for discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/mid-server/enable-winRM-MID-servers.html
 release: zurich
 product: MID Server
 classification: mid-server
@@ -45,5 +46,5 @@ Perform this procedure on each MID Server used by Service Mapping or Discovery.
     `winrm s winrm/config/client '@{TrustedHosts="serverA,serverB,serverC"}'`
 
 
-**Parent Topic:**[Configuring MID Servers](../concept/c_MIDServerConfiguration.md)
+**Parent Topic:**[Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/c_MIDServerConfiguration.md)
 

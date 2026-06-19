@@ -2,6 +2,7 @@
 title: Create Core UI reports from MetricBase time-series data
 description: Use the MetricBase application to create time-series reports from MetricBase data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/create-report-with-metricbase-data.html
 release: zurich
 product: Reporting
 classification: reporting
@@ -17,7 +18,7 @@ Use the MetricBase application to create time-series reports from MetricBase dat
 
 ## Before you begin
 
-You must have the MetricBase product. To get it, see [Requesting the MetricBase product](https://www.servicenow.com/docs/access?context=request-metricbase&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US). For more information about MetricBase, see [MetricBase](https://www.servicenow.com/docs/access?context=metricbase&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+You must have the MetricBase product. To get it, see Requesting the MetricBase product. For more information about MetricBase, see MetricBase.
 
 Roles required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
@@ -38,7 +39,7 @@ Roles required: itil, report\_user, report\_group, report\_global, report\_admin
         -   2 datasets used with 20 series: 10K / \(20\*2\) = 250
         -   1 dataset used with 100 series: 10K / \(100\*1\) = 100
     -   If the actual number of data points in a series exceeds the limit, the data is resampled.
-    ![Create a report with MetricBase source type selected](../image/create-mb-report-source-type.png)
+    \[Omitted image "create-mb-report-source-type.png"\] Alt text: Create a report with MetricBase source type selected
 
 4.  Choose an existing MetricBase table.
 
@@ -46,7 +47,7 @@ Roles required: itil, report\_user, report\_group, report\_global, report\_admin
 
 6.  On the **Type** tab, select the type of report to create and click **Next**.
 
-    Only time series reports are available. For information on specific reports types, see [Report types](../reference/report-types-creation-details-rd.md). To view the updated report, click **Run**.
+    Only time series reports are available. For information on specific reports types, see [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-types-creation-details-rd.md). To view the updated report, click **Run**.
 
 7.  On the **Configure** tab, fill in the following fields and select **Next**.
 
@@ -83,7 +84,7 @@ Transform
 Data is altered.-   Select no transforms to show the raw data in your report.
 -   Select one transform.
 -   Select multiple transforms to create a transform chain. A transform chain applies a new transform to the results of the previous transform.
-For more information, see [MetricBase transforms](../reference/metricbase-transforms.md).
+For more information, see [MetricBase transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/metricbase-transforms.md).
 
 </td></tr><tr><td>
 
@@ -99,12 +100,12 @@ Display data table
 
 </td><td>
 
-Select this option to show report data in a list below the report. The list appears on dashboards where the report is added.All report visualizations show the report data when the [glide.ui.section508](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) system property is set to **true**. The glide.ui.section508 property overrides the **Display data table** field.
+Select this option to show report data in a list below the report. The list appears on dashboards where the report is added.All report visualizations show the report data when the glide.ui.section508 system property is set to **true**. The glide.ui.section508 property overrides the **Display data table** field.
 
 </td></tr></tbody>
-</table>8.  To limit the information displayed in the report, select the filter icon \(![Filter icon](../../../common/image/List_FilterIcon.png)\) and specify conditions to filter the report data.
+</table>8.  To limit the information displayed in the report, select the filter icon \(\[Omitted image "List\_FilterIcon.png"\] Alt text: Filter icon\) and specify conditions to filter the report data.
 
-    To learn how to construct conditions, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    To learn how to construct conditions, see Condition builder.
 
     **Note:** In aggregated and list reports, language-dependent filter conditions may return zero results on localized instances.
 
@@ -112,9 +113,9 @@ Select this option to show report data in a list below the report. The list appe
 
     See the Style options section of the report that you are creating for more information.
 
-    -   [Area and spline report style options](../concept/c_CreateAreaAndSplineCharts.md#)
-    -   [Line report style options](../concept/c_CreateLineCharts.md#)
-    -   [Step line report style options](../concept/step-reports.md#)
+    -   [Area and spline report style options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_CreateAreaAndSplineCharts.md)
+    -   [Line report style options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_CreateLineCharts.md)
+    -   [Step line report style options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/step-reports.md)
 10. Select **Save** to continue editing the visualization, or **Save and close** to return to the Analytics Center main screen.
 
 
@@ -124,11 +125,11 @@ The report is created from the MetricBase source. If the report visualization is
 
 ## What to do next
 
--   Select the Report info icon \(![Info icon](../../../common/image/Form_ReferenceLookupIcon.png)\) and add a description of the report.
--   Select the sharing icon \(![Sharing icon](../image/ShareIcon.png)\) to open the **Sharing** menu. On this menu, you can add the report to a dashboard, export the report to PDF, publish the report to the web, and set visibility and schedules.
+-   Select the Report info icon \(\[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text: Info icon\) and add a description of the report.
+-   Select the sharing icon \(\[Omitted image "ShareIcon.png"\] Alt text: Sharing icon\) to open the **Sharing** menu. On this menu, you can add the report to a dashboard, export the report to PDF, publish the report to the web, and set visibility and schedules.
 
--   **[MetricBase transforms](../reference/metricbase-transforms.md)**  
+-   **[MetricBase transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/metricbase-transforms.md)**  
 Transforms enable you to visualize MetricBase data in different ways.
 
-**Parent Topic:**[Advanced Core UI reporting topics](../concept/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_AdvancedReporting.md)
 

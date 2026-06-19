@@ -2,6 +2,7 @@
 title: Application Mapping for UNIX discovery
 description: To perform the mapping that establishes application relationships, Discovery must be able to detect TCP connections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/c\_DiscoveryAppMapForUNIX.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -21,8 +22,8 @@ On Linux machines, Discovery uses the `lsof` command \(installed by default on L
 
 **Note:** Discovery of active connections on HP-UX is not supported.
 
--   **[Using the lsof Command](../task/t_UsingTheLsofCommand.md)**  
+-   **[Using the lsof Command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/t_UsingTheLsofCommand.md)**  
 Use the ls of command to return active TCP connections and can be installed on Solaris and AIX target machines.
 
-**Parent Topic:**[Software discovery](c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_Software.md)
 

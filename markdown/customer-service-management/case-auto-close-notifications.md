@@ -2,7 +2,10 @@
 title: Notifications for resolved cases
 description: Customers receive notifications about resolved cases that are automatically closed if no action is taken.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/case-auto-close-notifications.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -20,7 +23,7 @@ The system administrator can configure the settings for the notifications that a
 -   After 5 days, the customer receives a reminder message about the resolved case on the Customer Service Portal: **This case is pending solution acceptance. It will be auto closed if you do not take action.**
 -   If the customer doesn’t take any action after 10 days, the system automatically closes the case and adds the following message to the case: **This case was auto closed.**
 
-This feature uses the **Auto Close Resolved Cases** Flow Designer flow. For more information, see [Automatically close customer service cases](auto-close-customer-service-case.md).
+This feature uses the **Auto Close Resolved Cases** Flow Designer flow. For more information, see [Automatically close customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/auto-close-customer-service-case.md).
 
 **Note:** The **Auto Close Resolved Cases** flow isn’t active by default.
 

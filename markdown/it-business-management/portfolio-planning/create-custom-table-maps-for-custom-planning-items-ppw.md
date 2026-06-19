@@ -2,6 +2,7 @@
 title: Create a table map
 description: Create a table map to define the mapping between tables in Portfolio Planning with the tables in Project Portfolio Management \(PPM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/create-custom-table-maps-for-custom-planning-items-ppw.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -27,7 +28,7 @@ Role required: sn\_align\_core.apw\_admin
 
 3.  Create a new table map by selecting **New** in the **Table maps** tab.
 
-4.  In the [Table map form](../reference/table-map-form-ppw.md), fill in the fields.
+4.  In the [Table map form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/table-map-form-ppw.md), fill in the fields.
 
 5.  Select **Submit**.
 
@@ -40,5 +41,5 @@ A new table map is created with your alignment and execution table configuration
 
 ## What to do next
 
-Create a business rule to support export of this new table map configuration to PPM. For more information, see [Create a business rule to apply a custom table map configuration](create-a-bussiness-rule-ppw.md).
+Create a business rule to support export of this new table map configuration to PPM. For more information, see [Create a business rule to apply a custom table map configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/create-a-bussiness-rule-ppw.md).
 

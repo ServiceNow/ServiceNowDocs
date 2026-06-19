@@ -2,6 +2,7 @@
 title: Domain separation and Data Management
 description: Domain separation is supported in Data Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/domain-separation-data-management.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -23,12 +24,12 @@ Use case: As a service provider when I use chat to respond to a tenant-customerâ
 
 ## Overview
 
-Data archiving supports [Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US). For example, incidents that belong to a domain keep their domain designation even after they are archived.
+Data archiving supports Domain separation for service providers. For example, incidents that belong to a domain keep their domain designation even after they are archived.
 
-**Parent Topic:**[Data Management reference](../reference/data-management-reference.md)
+**Parent Topic:**[Data Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/data-management-reference.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

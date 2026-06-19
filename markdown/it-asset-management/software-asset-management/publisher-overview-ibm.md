@@ -2,6 +2,7 @@
 title: Publisher overview for IBM in the Software Asset Workspace
 description: View license usage information related to IBM in the publisher overview for IBM in the Software Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/publisher-overview-ibm.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -19,7 +20,7 @@ From the Software Asset Workspace, access the IBM publisher overview by navigati
 
 Results are updated whenever a new reconciliation result is available.
 
-![IBM publisher overview.](../image/publisher-overview-ibm.png)
+\[Omitted image "publisher-overview-ibm.png"\] Alt text: IBM publisher overview.
 
 You can view a summary of your license usage information in the Summary section of the IBM publisher overview.
 
@@ -95,7 +96,7 @@ Top 10 products by PVU sub-capacity usage
 Peak PVU utilization for your top 10 IBM software products.
 
 </td></tr></tbody>
-</table>For more details on the license usage information that is provided in the publisher overview, see [License usage publisher fields in workspace](workbench-publisherfields-workspace.md).
+</table>For more details on the license usage information that is provided in the publisher overview, see [License usage publisher fields in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/workbench-publisherfields-workspace.md).
 
-**Parent Topic:**[Software Asset Management publisher pack for IBM](../concept/ibm-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/ibm-publisher-pack.md)
 

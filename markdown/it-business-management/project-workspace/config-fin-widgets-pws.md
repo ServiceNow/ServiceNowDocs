@@ -2,6 +2,7 @@
 title: Configure a widget and associate it with project
 description: Enable and associate a widget to view financial summary of your projects at high-level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/config-fin-widgets-pws.html
 release: zurich
 product: Project Workspace
 classification: project-workspace
@@ -27,7 +28,7 @@ Role required: admin
 
 3.  On the Widget New Record form, fill the fields.
 
-    For a description of the field names, see [Widget New Record form](../../spw-financials/reference/widget-new-record-form.md).
+    For a description of the field names, see [Widget New Record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/widget-new-record-form.md).
 
 4.  Select the **Additional actions menu** and select **Save**
 
@@ -35,10 +36,10 @@ Role required: admin
 
 6.  On the Widget association New Record form, fill the fields.
 
-    For a description of the field names, see [Widget association form](../../spw-financials/reference/widget-association-form-spw-fin.md).
+    For a description of the field names, see [Widget association form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/widget-association-form-spw-fin.md).
 
 7.  Select **Submit**.
 
 
-**Parent Topic:**[Configure financials for Project Workspace](../concept/config-fin-pws.md)
+**Parent Topic:**[Configure financials for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/config-fin-pws.md)
 

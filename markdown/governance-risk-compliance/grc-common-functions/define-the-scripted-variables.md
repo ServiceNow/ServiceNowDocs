@@ -2,6 +2,7 @@
 title: Define the scripted variables
 description: Define data for the scripted variables using the Template Configurations module for creating a report template in the Audit application. You can configure the data in either text or HTML format.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/define-the-scripted-variables.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -27,11 +28,11 @@ Role required: sn\_grc\_doc\_design.developer
 
 3.  Select the **Scripted variables** tab.
 
-    ![](../image/scripted-variable.png)
+    \[Omitted image "scripted-variable.png"\] Alt text:
 
 4.  In the Scripted variables related list, select **New** to create a scripted variable.
 
-    ![](../image/new-scripted-variable.png)
+    \[Omitted image "new-scripted-variable.png"\] Alt text:
 
 5.  In the **Name** field, provide a descriptive name for the template.
 

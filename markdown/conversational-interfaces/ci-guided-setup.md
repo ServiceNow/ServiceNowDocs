@@ -2,6 +2,7 @@
 title: Conversational Interfaces Guided Setup
 description: Use the Conversational Interfaces Guided Setup to create a personalized setup process for just the conversational interface features you need. The Conversational Interfaces Guided Setup starts with a survey and creates a personalized task list based on your survey responses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/ci-guided-setup.html
 release: zurich
 product: Conversational Interfaces
 classification: conversational-interfaces
@@ -47,5 +48,5 @@ After you've completed the setup tasks, you and your topic authors can explore t
 **Related topics**  
 
 
-[Guided Setup](https://www.servicenow.com/docs/access?context=guided-setup&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
+[bundle-platux.guided-setup]
 

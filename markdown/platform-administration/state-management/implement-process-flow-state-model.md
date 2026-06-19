@@ -2,6 +2,7 @@
 title: Implement process flow and UI actions with a state model
 description: You can implement a process flow and UI actions with a state model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/state-management/implement-process-flow-state-model.html
 release: zurich
 product: State Management
 classification: state-management
@@ -23,21 +24,21 @@ Role required: state\_model\_admin or admin
 
 State models provide a way to limit the choices for moving between states in a form. If you set up only a state model, users manually change states in the form. Additional steps are required to add the process flow or UI actions, as illustrated in the following example.
 
-![Change Request form highlighting the UI Action and Process Flow.](../image/change-form-ui-actions-process.png)
+\[Omitted image "change-form-ui-actions-process.png"\] Alt text: Change Request form highlighting the UI Action and Process Flow.
 
 ## Procedure
 
 1.  Verify the choices for the **State** field for the table and ensure that you created transitions for them.
 
-    For more information about how to add **State** field choices, see [Best practices for state field choice values](../../field-administration/concept/c_BPForStateFieldChoiceValues.md#).
+    For more information about how to add **State** field choices, see [Best practices for state field choice values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_BPForStateFieldChoiceValues.md).
 
 2.  After creating the state model, define the process flow.
 
-    For more information about process flows, see [Process flow formatter](../../form-administration/reference/r_ProcessFlowFormatter.md#).
+    For more information about process flows, see [Process flow formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/r_ProcessFlowFormatter.md).
 
 3.  Define UI actions as desired to move between states.
 
-    For more information about UI actions, see [UI actions](../../list-administration/concept/c_UIActions.md).
+    For more information about UI actions, see [UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_UIActions.md).
 
 
 ## Result

@@ -2,6 +2,7 @@
 title: Configuring GRC Compliance Workspace
 description: Configuring the Compliance Workspace requires setting up certain pre-requisite steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/configure-grc-compliance-ws.html
 release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -17,10 +18,10 @@ Configuring the Compliance Workspace requires setting up certain pre-requisite s
 
 The following configurations are required to set up the compliance workspace for different users who would be using the workspace:
 
--   To set up the IT Compliance Home page, see [Configuring IT compliance workspace](../reference/set-up-steps-it-compliance-ws.md).
--   For different components installed with GRC: Policy and Compliance Management, see [Components installed with Policy and Compliance Management](../../grc-policy-and-compliance/reference/r_InstallWPolAndCompl.md#).
--   For user roles and access control limitations, see [GRC business user role](../../grc-policy-and-compliance/reference/r_InstallWPolAndCompl.md#) and [Assign policy and compliance management roles to your users](../../grc-policy-compliance-implementation/task/assign-user-roles.md).
--   To set up system properties required in policy and compliance, see [Set Policy and Compliance Management properties](../../grc-policy-compliance-implementation/task/set-policy-compliance-properties.md).
--   For mandatory setup steps, see [Policy and Compliance mandatory steps](../../grc-policy-compliance-implementation/concept/policy-compliance-mandatory-setup.md).
--   To define other properties, rules, templates, and other integrations, see [Policy and Compliance enhancement steps](../../grc-policy-compliance-implementation/concept/policy-compliance-optional-steps.md).
+-   To set up the IT Compliance Home page, see [Configuring IT compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/set-up-steps-it-compliance-ws.md).
+-   For different components installed with GRC: Policy and Compliance Management, see [Components installed with Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md).
+-   For user roles and access control limitations, see [GRC business user role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md) and [Assign policy and compliance management roles to your users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/assign-user-roles.md).
+-   To set up system properties required in policy and compliance, see [Set Policy and Compliance Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/set-policy-compliance-properties.md).
+-   For mandatory setup steps, see [Policy and Compliance mandatory steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/policy-compliance-mandatory-setup.md).
+-   To define other properties, rules, templates, and other integrations, see [Policy and Compliance enhancement steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/policy-compliance-optional-steps.md).
 

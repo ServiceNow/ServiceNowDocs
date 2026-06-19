@@ -2,6 +2,7 @@
 title: Create a model
 description: You can create a custom large language model \(LLM\) using ServiceNow models or models from different providers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/servicenow-large-language-model-now-llm/create-model.html
 release: zurich
 product: ServiceNow Large Language Model \(Now LLM\)
 classification: servicenow-large-language-model-now-llm
@@ -27,7 +28,7 @@ Role required: sn\_skill\_builder.sb\_model\_admin
 
 3.  On the form, fill in the fields.
 
-    ![Create a custom model form](../../now-assist-skill-kit/image/llm-custom-model.png)
+    \[Omitted image "llm-custom-model.png"\] Alt text: Create a custom model form
 
     |Field|Description|
     |-----|-----------|
@@ -80,7 +81,7 @@ Add the connection URL and API key.
 
 7.  If you created a custom LLM provider, add transformer information.
 
-    ![Add transformer form](../../now-assist-skill-kit/image/llm-transformer.png)
+    \[Omitted image "llm-transformer.png"\] Alt text: Add transformer form
 
 <table id="table_r3n_fbg_hhc"><thead><tr><th>
 
@@ -122,5 +123,5 @@ Add transformer request and response information for your model.
 11. Review and select **Finish**.
 
 
-**Parent Topic:**[Providers and Models](../concept/providers-and-models.md)
+**Parent Topic:**[Providers and Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-large-language-model-now-llm/providers-and-models.md)
 

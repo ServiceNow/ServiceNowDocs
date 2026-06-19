@@ -2,7 +2,10 @@
 title: Exploring Now Assist for Operational Technology Service Management \(OTSM\)
 description: With the Now Assist for Operational Technology Service Management \(OTSM\) application, your team can summarize the OT incident details and generate the incident resolution notes to share with other users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/exploring-now-assist-otsm.html
 release: zurich
+product: Operational Technology
+classification: operational-technology
 topic_type: concept
 last_updated: "2026-01-14"
 reading_time_minutes: 1
@@ -42,5 +45,5 @@ The incident summary includes the following information:
 
 Automatically generates the resolution notes for an OT incident and provides the context to another user who might encounter similar incidents.
 
-**Parent Topic:**[Now Assist for Operational Technology Service Management \(OTSM\)](now-assist-for-operational-technology-service-management.md)
+**Parent Topic:**[Now Assist for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/now-assist-for-operational-technology-service-management.md)
 

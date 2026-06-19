@@ -2,7 +2,10 @@
 title: Share a task plan template with other users or groups
 description: Share templates and grant access to the template with specific users, groups, or service organization or service organization criteria and member type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/share-task-plan-template-with-user-groups-serviceorg.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-09-24"
 reading_time_minutes: 1
@@ -33,7 +36,7 @@ If the template is in Draft state, users can edit it. If the template is in a pu
 
 4.  Specify task plan template access field details.
 
-    For access record fields and description see: [Task plan template access record](../reference/task-plan-template-access-record.md)
+    For access record fields and description see: [Task plan template access record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/task-plan-template-access-record.md)
 
 5.  Select **Submit** to save the access record.
 

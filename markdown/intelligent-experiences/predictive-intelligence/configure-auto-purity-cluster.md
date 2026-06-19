@@ -2,6 +2,7 @@
 title: Apply purity on a clustering solution
 description: Apply purity to learn details about the composition of each cluster. For example, see what percentage of incidents in a cluster have the same value for Assignment Group. You can specify which fields to focus on, or you can let auto-purity display fields by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/predictive-intelligence/configure-auto-purity-cluster.html
 release: zurich
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -35,13 +36,13 @@ If you do not select any fields, auto-purity automatically determines which insi
 
 2.  Select a solution definition or create a new one.
 
-3.  Select the **Calculate Purity** check box.![The solution definition form for Clustering solutions, with the Calculate Purity check box highlighted and selected.](../images/calculate_purity_checkbox.png)
+3.  Select the **Calculate Purity** check box.\[Omitted image "calculate\_purity\_checkbox.png"\] Alt text: The solution definition form for Clustering solutions, with the Calculate Purity check box highlighted and selected.
 
 4.  Select the **Purity Fields** lock icon and choose the fields that you want displayed in cluster results.
 
     **Note:** If you don't select any fields, auto-purity displays the most significant fields based on distribution.
 
-    ![Purity Fields selection in the Clustering Definition form.](../images/select_purity_fields.png)
+    \[Omitted image "select\_purity\_fields.png"\] Alt text: Purity Fields selection in the Clustering Definition form.
 
 5.  Select **Update** or **Update &amp; Retrain**.
 
@@ -52,5 +53,5 @@ View your insights by opening the **Cluster Visualization** tab of your retraine
 
 field name : value : percent.
 
-For example, the row priority : 5 : 100% means that 100% of the members of this cluster have the value of 5 for the priority field.![Pop up for an individual cluster on the Cluster Visualization view.](../images/purity_insights_cluster.png)
+For example, the row priority : 5 : 100% means that 100% of the members of this cluster have the value of 5 for the priority field.\[Omitted image "purity\_insights\_cluster.png"\] Alt text: Pop up for an individual cluster on the Cluster Visualization view.
 

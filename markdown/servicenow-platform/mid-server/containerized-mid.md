@@ -2,6 +2,7 @@
 title: Containerized MID Server
 description: Containerized MID Server uses a Docker image of the MID Server that allows you to quickly deploy MID Servers at scale. MID Servers are deployed using orchestration tools like OpenShift or Kubernetes. Orchestration tools can automate their deployment and maintenance and add new containers on demand or replace failed containers automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/mid-server/containerized-mid.html
 release: zurich
 product: MID Server
 classification: mid-server
@@ -72,9 +73,9 @@ Basic operations are supported on container side. For example, you can stop, sta
 
 ## Build MID Server Docker Image
 
-[Build a MID Server Docker Image](../task/mid-build-docker-linux.md#) with the provided recipes to deploy a Containerized MID Server. Containerized MID Server uses a Docker image of the MID Server that allows you to quickly deploy MID Servers at scale.
+[Build a MID Server Docker Image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-build-docker-linux.md) with the provided recipes to deploy a Containerized MID Server. Containerized MID Server uses a Docker image of the MID Server that allows you to quickly deploy MID Servers at scale.
 
 ## Containerized MID Server Deployment and Auto-configuration
 
-With the [deployment and auto-configuration feature](containerized-mid-deployment.md), an agent admin can enter all required MID Server  settings in a MID Server Profile on the instance and then submit a deployment request to K8s cluster. After the request is  processed, the new MID servers are automatically created and auto-configured. They are ready  to use in seconds.  If the MID Server profile is changed, the related Containerized MID Servers can also be updated on demand.
+With the [deployment and auto-configuration feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/containerized-mid-deployment.md), an agent admin can enter all required MID Server  settings in a MID Server Profile on the instance and then submit a deployment request to K8s cluster. After the request is  processed, the new MID servers are automatically created and auto-configured. They are ready  to use in seconds.  If the MID Server profile is changed, the related Containerized MID Servers can also be updated on demand.
 

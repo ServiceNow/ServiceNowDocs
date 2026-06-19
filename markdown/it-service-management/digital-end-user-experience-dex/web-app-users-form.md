@@ -2,6 +2,7 @@
 title: Web application — Devices page
 description: The Active and Impacted devices list captures data about the devices, latest logged-in user, last logged in location, and time when the application was last accessed on the device. This information helps with security, access control, and provides insights into user behavior and application usage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/web-app-users-form.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -73,5 +74,5 @@ This field represents the number of active alerts for the application on the dev
 -   The list displays active devices and refreshes every five minutes, a maximum of 1000 devices listed. If no new data is available, the last available data is displayed.
 -   Only device name filter is available on web applications.
 
-**Parent Topic:**[Applications list](application-form.md)
+**Parent Topic:**[Applications list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/application-form.md)
 

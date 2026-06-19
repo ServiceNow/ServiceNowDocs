@@ -2,6 +2,7 @@
 title: Require authorization for RSS requests \[Updated in Security Center 1.3\]
 description: Use the glide.basicauth.required.rss property to designate if incoming RSS requests should require basic authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-rss-request-authorization.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -49,7 +50,7 @@ Category
 
 </td><td>
 
-[API and web service](sc-api-web-service.md)
+[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 
 </td></tr><tr><td>
 
@@ -84,7 +85,7 @@ Functional impact
 This remediation enforces a combination of authentication methods, in the form of basic authentication and system level access control. -   It performs this authentication while processing RSS requests on the instance.
 -   It restricts any guest users who are currently accessing this data. If applicable, you may need to create a new account for users who need access to this content, with necessary access control permissions.
 
- To learn more, see [RSS feed generator](https://www.servicenow.com/docs/access?context=c_RSSFeedGenerator&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+ To learn more, see RSS feed generator.
 
 </td></tr><tr><td>
 
@@ -100,8 +101,8 @@ References
 
 </td><td>
 
-[RSS basic authentication](https://www.servicenow.com/docs/access?context=c_BasicAuthentication&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+RSS basic authentication
 
 </td></tr></tbody>
-</table>**Parent Topic:**[API and web service](sc-api-web-service.md)
+</table>**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 

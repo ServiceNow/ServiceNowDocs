@@ -2,6 +2,7 @@
 title: Create a lifecycle event case using Agent Workspace for HR Case Management
 description: There are multiple ways to create a Lifecycle Event case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-create-ls.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -25,7 +26,7 @@ Role required: sn\_hr\_le.case\_writer
 
 2.  From the Lifecycle Events Cases list, select the **New** button.
 
-    Alternatively, click the ![HR Agent Workspace - Add New icon](../image/IconCreateRecordMenu.png) Add New icon and select **HR Case**.
+    Alternatively, click the \[Omitted image "IconCreateRecordMenu.png"\] Alt text: HR Agent Workspace - Add New icon Add New icon and select **HR Case**.
 
 3.  Enter an employee name or case number.
 
@@ -37,6 +38,6 @@ Role required: sn\_hr\_le.case\_writer
 
 7.  Select **Ready for Work**.
 
-    The **State** changes to **Ready**. In the Details section, the **Assignment group** and **Assigned to** fields populate based on your case assignment rules or HR case template. For more information, see [Assignment and matching rules in HR](../concept/c_UseAssignmentRules-1.md) and [HR templates](../concept/hr-template-configuration.md).
+    The **State** changes to **Ready**. In the Details section, the **Assignment group** and **Assigned to** fields populate based on your case assignment rules or HR case template. For more information, see [Assignment and matching rules in HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown) and [HR templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-template-configuration.md).
 
 

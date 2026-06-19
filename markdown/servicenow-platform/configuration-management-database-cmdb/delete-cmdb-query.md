@@ -2,6 +2,7 @@
 title: Delete a CMDB query
 description: Delete a CMDB query that is no longer used or needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/delete-cmdb-query.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

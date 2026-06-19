@@ -2,6 +2,7 @@
 title: Standalone AI agents in FSO
 description: Leverage AI agents in FSO to accelerate dispute resolution. These agents automate routine steps and provide recommendations, keeping humans in the loop for final decisions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/ai-agents-fso.html
 release: zurich
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso
@@ -26,10 +27,10 @@ The following table describes the available AI agents in the Now Assist for FSO.
 
 **Note:** Ensure that AI Search is enabled on the instance before configuring the agents.
 
--   **[ACH dispute AI agents overview](ach-agentic-ai-workflow.md)**  
+-   **[ACH dispute AI agents overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/ach-agentic-ai-workflow.md)**  
 Agentic AI streamlines ACH dispute resolution by automating merchant analysis, Nacha eligibility checks, ACH dispute return recommendations, and communications with customers or ODFI \(Originating Depository Financial Institution\). This solution enhances efficiency, accuracy, and conformance, enabling financial institutions to resolve ACH disputes faster, reduce errors, and improve customer satisfaction.
--   **[Resolve ACH disputes with AI agents](../task/resolve-ach-disputes-with-ai-agents.md)**  
+-   **[Resolve ACH disputes with AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/resolve-ach-disputes-with-ai-agents.md)**  
 Use AI agents to streamline ACH dispute resolution in Now Assist for FSO.
 
-**Parent Topic:**[Agentic AI use cases for FSO](usecase-now-assist.md)
+**Parent Topic:**[Agentic AI use cases for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/usecase-now-assist.md)
 

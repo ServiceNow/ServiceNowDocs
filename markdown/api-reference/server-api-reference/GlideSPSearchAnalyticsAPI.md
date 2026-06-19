@@ -2,6 +2,7 @@
 title: GlideSPSearchAnalytics - Global
 description: The GlideSPSearchAnalytics API provides methods to generate search analytics from custom ServiceNow search widgets.Sends search data to the Search Event \[sys\_search\_event\], Search Event per source \[sys\_search\_source\_event\], and Search Signal Event \[sys\_search\_signal\_event\] tables for search results, or to the Search Result Clicked \[sys\_search\_result\_clicked\] and Search Signal Result Event \[sys\_search\_signal\_result\_event\] tables when a user clicks a search result.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/GlideSPSearchAnalyticsAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -25,9 +26,9 @@ This API collects the following search data:
 -   Table names and record identifiers from the first page of search results
 -   Search results clicked, including browser and location
 
-Search Suggestions is a ServiceNow AI Platform feature. For more information, see [Search Suggestions](https://www.servicenow.com/docs/access?context=search-suggestions-overview&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Search Suggestions is a ServiceNow AI Platform feature. For more information, see Search Suggestions.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideSPSearchAnalytics - publish\(String payload\)
 

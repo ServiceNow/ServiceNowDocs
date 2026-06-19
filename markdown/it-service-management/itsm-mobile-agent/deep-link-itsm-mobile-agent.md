@@ -2,6 +2,7 @@
 title: Add deep linking support to ITSM Mobile Agent
 description: Deep linking enables instances to support direct communication to a messaging application from a particular record in the system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/deep-link-itsm-mobile-agent.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

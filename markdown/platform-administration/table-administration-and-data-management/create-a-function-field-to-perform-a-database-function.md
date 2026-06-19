@@ -2,6 +2,7 @@
 title: Create a function field to perform a database function
 description: Create a function field that displays the results of a database function, such as a mathematical operation, field length computation, or day of the week calculation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/create-a-function-field-to-perform-a-database-function.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -25,7 +26,7 @@ If you create a function field directly on the database view, you must use the v
 
 For example, if the variable prefix for the Incidents table is `inc2` and you want to return the length of the description field, the function definition would be `glidefunction:length(inc2_description)`. If the variable prefix for the Metric Instance table is `mi` and you want to concatenate the Definition and Value fields, the function definition would be `glidefunction:concat(mi_definition.name,' ',mi_value)`.
 
-For information on supported functions, see [Report on function fields](https://www.servicenow.com/docs/access?context=function-fields-reporting&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+For information on supported functions, see .
 
 ## Procedure
 
@@ -111,13 +112,13 @@ The function that the field performs.The format for functions starts with `glide
 
 In this example, a new Function field, CallerDesc, is added to the Incident Metric database view. The field concatenates the caller name, a hyphen, and the short description.
 
-![Function field on the Incident Metric database view](../../../administer/table-administration/image/FunctionFieldDatabaseView.png)
+\[Omitted image "FunctionFieldDatabaseView.png"\] Alt text: Function field on the Incident Metric database view
 
 The variable prefix `inc` is included because the function field is defined on the Incident Metric database view and not on a physical table. The prefix is necessary to distinguish which short\_description and caller\_id columns to use from the tables that are part of the database view.
 
 ## What to do next
 
-[Display function results in a database view](display-function-results-in-a-database-view.md)
+[Display function results in a database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/display-function-results-in-a-database-view.md)
 
-**Parent Topic:**[Displaying function results in a database view](displaying-function-results-in-a-database-view.md)
+**Parent Topic:**[Displaying function results in a database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/displaying-function-results-in-a-database-view.md)
 

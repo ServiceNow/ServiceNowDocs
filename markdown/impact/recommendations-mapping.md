@@ -2,7 +2,10 @@
 title: Recommendations tables
 description: Following are the tables that are synced with recommendations and information that will inform future recommendations \(for example, recommendations you’ve used, or recommendations you’ve liked or disliked\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/recommendations-mapping.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: reference
 last_updated: "2025-11-18"
 reading_time_minutes: 1
@@ -86,5 +89,5 @@ Following are the tables that are synced with recommendations and information th
 |sys\_updated\_by|sn\_impact\_common\_content\_recommendation\_feedback|sys\_updated\_by|x\_snc\_impact\_rec\_content\_recommendation\_feedback|
 |dismissal\_time|sn\_impact\_common\_content\_recommendation\_feedback|dismissal\_time|x\_snc\_impact\_rec\_content\_recommendation\_feedback|
 
-**Parent Topic:**[Table and field level mapping](../concept/table-field-level-mapping.md)
+**Parent Topic:**[Table and field level mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/table-field-level-mapping.md)
 

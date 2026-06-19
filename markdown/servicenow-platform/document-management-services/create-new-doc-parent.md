@@ -2,6 +2,7 @@
 title: Create a document record in a parent record
 description: Add documents to a parent record so they are available for downloading, sharing, or viewing directly from the record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/create-new-doc-parent.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -133,5 +134,5 @@ The document version used for document download.
 6.  Click **Submit**.
 
 
-**Parent Topic:**[Linking documents to a parent record](../concept/doc-linked-parent-rec.md)
+**Parent Topic:**[Linking documents to a parent record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/doc-linked-parent-rec.md)
 

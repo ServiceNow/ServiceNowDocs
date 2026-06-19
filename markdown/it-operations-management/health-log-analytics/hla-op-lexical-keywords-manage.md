@@ -2,6 +2,7 @@
 title: View the lexical keywords that generate alerts in Health Log Analytics
 description: View the list of lexical keywords that can indicate important issues in log entries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-op-lexical-keywords-manage.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -25,10 +26,10 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
     The Lexical Keywords table appears. By default, the table lists only global keywords.
 
-    For information about adding, editing, or deleting global keywords, see [Add, edit, or delete lexical keywords in Health Log Analytics](../../health-log-analytics-admin/task/hla-lexical-keywords-admin.md).
+    For information about adding, editing, or deleting global keywords, see [Add, edit, or delete lexical keywords in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-lexical-keywords-admin.md).
 
-    To add a specified keyword that is associated with a specific source type, see [Configure source type capabilities in Health Log Analytics](../../health-log-analytics-admin/task/hla-source-types.md).
+    To add a specified keyword that is associated with a specific source type, see [Configure source type capabilities in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-source-types.md).
 
 
-**Parent Topic:**[Influence anomaly detection in Health Log Analytics with lexical keywords](../../health-log-analytics-admin/concept/hla-log-anomaly-detection.md)
+**Parent Topic:**[Influence anomaly detection in Health Log Analytics with lexical keywords](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-log-anomaly-detection.md)
 

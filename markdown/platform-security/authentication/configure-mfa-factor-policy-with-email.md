@@ -2,6 +2,7 @@
 title: Configure Email as an MFA factor
 description: Configure policy input and condition to display Email OTP as an MFA factor policy for authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/configure-mfa-factor-policy-with-email.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -29,7 +30,7 @@ Role required: admin
 
 3.  Select the **Display Email OTP as an MFA Factor Policy**.
 
-    ![Email - Factor](../images/email-factor.png)
+    \[Omitted image "email-factor.png"\] Alt text: Email - Factor
 
 4.  Click **New** to add **Policy Inputs**.
 
@@ -37,16 +38,16 @@ Role required: admin
 
     Following are the types of filter criteria:
 
-    -   [IP Filter Criteria](create-ip-filter-criteria.md)
-    -   [Role Filter Criteria](create-role-filter-criteria.md)
-    -   [Group Filter Criteria](create-group-filter-criteria.md)
+    -   [IP Filter Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-ip-filter-criteria.md)
+    -   [Role Filter Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-role-filter-criteria.md)
+    -   [Group Filter Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-group-filter-criteria.md)
     For example, Role Filter Criteria.
 
-    ![Filter Criteria](../images/mfa-email-filter.png)
+    \[Omitted image "mfa-email-filter.png"\] Alt text: Filter Criteria
 
 6.  Click **Role Filter Criteria**, fill the fields for the role filter criteria and submit the record.
 
-    The new policy is created. For more information, see [Role Filter Criteria](create-role-filter-criteria.md).
+    The new policy is created. For more information, see [Role Filter Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-role-filter-criteria.md).
 
 7.  On the Policy - Display Email OTP as an MFA Factor Policy page, click **Policy conditions**.
 

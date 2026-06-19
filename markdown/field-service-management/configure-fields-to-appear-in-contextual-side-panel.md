@@ -2,7 +2,10 @@
 title: Configure territory fields to appear in Territory Planning console
 description: Customize the information displayed for territories in the Territory Planning console by configuring the contextual side panel fields. This enhances planning efficiency with personalized data, helping to take informed decisions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/configure-fields-to-appear-in-contextual-side-panel.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -46,5 +49,5 @@ You can configure both predefined and calculated fields for territories.
 
 ## Result
 
-The configured fields appear in the Territory Planning console. To view the changes, log in as a territory planner and navigate to the console. For more information, see [View territory information in contextual side panel](view-territory-details-in-csp.md).
+The configured fields appear in the Territory Planning console. To view the changes, log in as a territory planner and navigate to the console. For more information, see [View territory information in contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-manager-workforce/view-territory-details-in-csp.md).
 

@@ -2,6 +2,7 @@
 title: Create an asset group in Enterprise Asset Management
 description: Create asset groups to create a logical group of entities that includes assets, locations, and users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/create-asset-groups-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -212,17 +213,17 @@ Any comments to add.
 
     The asset group record opens with related lists for adding subgroups and assets.
 
-5.  Select the View dependency map icon, ![View dependency map](../image/dependency-map-icon.png), next to an asset group, in the Asset groups page, to view the relationship between an asset group, subgroups, and assets.
+5.  Select the View dependency map icon, \[Omitted image "dependency-map-icon.png"\] Alt text: View dependency map, next to an asset group, in the Asset groups page, to view the relationship between an asset group, subgroups, and assets.
 
-    ![Dependency map](../image/dependency-map-graphic.png)
+    \[Omitted image "dependency-map-graphic.png"\] Alt text: Dependency map
 
     If you have the sn\_cmdb\_user role, you can further drill down by selecting the dependency map icon. For example, in the screenshot, select the dependency map icon on the Surgery Room 1 node to further drill down. Additionally, if you have the app\_service\_admin role, you can view the **Related items** contextual panel on the right side of the Dependency map page.
 
 
--   **[Create an asset subgroup in Enterprise Asset Management](create-asset-subgroup-eam.md)**  
+-   **[Create an asset subgroup in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-asset-subgroup-eam.md)**  
 Create a subgroup to add child asset groups to an asset group.
--   **[Add assets to an asset group or subgroup](add-assets-assetgroups.md)**  
+-   **[Add assets to an asset group or subgroup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/add-assets-assetgroups.md)**  
 Add existing assets to an asset group or a subgroup.
 
-**Parent Topic:**[Create and manage enterprise assets](../concept/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

@@ -2,6 +2,7 @@
 title: Use Issue summarization skill to summarize an issue
 description: Use Issue summarization skill to summarize an issue, and obtain a quick context and awareness about an issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/privacy-summarize-an-issue.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -22,7 +23,7 @@ Role required: sn\_prm\_gen\_ai.user
 
 ## About this task
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 The Issue summarization skill analyzes the issue records including the description, activity log, and remediation tasks, and generates a concise summary that captures the essential information that you need.
 

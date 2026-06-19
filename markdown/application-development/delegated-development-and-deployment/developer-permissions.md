@@ -2,6 +2,7 @@
 title: Developer permissions
 description: Using Manage Developers, administrators can assign one or more developer and deployment permissions to a group or user for a specific application. These permissions designate the specific actions the assigned user can perform for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/delegated-development-and-deployment/developer-permissions.html
 release: zurich
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
@@ -105,5 +106,5 @@ Submit for Deployment
 Enables a user with assigned delegated developer role permission to submit the associated application for review and deployment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Delegated Development reference](delegated-development-reference.md)
+</table>**Parent Topic:**[Delegated Development reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/delegated-development-reference.md)
 

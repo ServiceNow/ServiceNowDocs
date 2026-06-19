@@ -2,6 +2,7 @@
 title: Example: Bind alerts to CIs using dynamic CI types
 description: Use event field mapping to dynamically bind alerts to the appropriate CIs based on event attributes, eliminating the need for separate event rules for each CI type \(also known as CI class\). This approach simplifies configuration, improves accuracy, and enhances alert to CI binding.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/bind-ci-event-mapping.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -29,13 +30,13 @@ To resolve this—in other words, to determine the correct CI class to search—
 
 1.  Navigate to **All** &gt; **Event Management** &gt; **Rules** &gt; **Event Field Mapping**.
 
-    ![Event Field Mapping page.](../image/em-example-dynamic-ci-type-oracle-cloud.png)
+    \[Omitted image "em-example-dynamic-ci-type-oracle-cloud.png"\] Alt text: Event Field Mapping page.
 
 2.  Select **Oracle Cloud**.
 
     This is an existing event field map used as an example. The event field map details page opens.
 
-    ![Event Field Mapping details page for Oracle Cloud.](../image/em-example-dynamic-ci-type.png)
+    \[Omitted image "em-example-dynamic-ci-type.png"\] Alt text: Event Field Mapping details page for Oracle Cloud.
 
 3.  Review the event field mapping details page and understand the relevant fields and their corresponding values.
 

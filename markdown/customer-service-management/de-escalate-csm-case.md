@@ -2,7 +2,10 @@
 title: De-escalate a case or an account
 description: The de-escalation requester can de-escalate cases or accounts when the cause of the escalation is resolved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/de-escalate-csm-case.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -27,7 +30,7 @@ Role required: sn\_customerservice.deescalation\_requester
 
     This opens the De-escalate Case pop-up window.
 
-    ![Escalated case form with De-escalate UI action in the form header](../image/escalated-case-form.png)
+    \[Omitted image "escalated-case-form.png"\] Alt text: Escalated case form with De-escalate UI action in the form header
 
 3.  Enter the necessary information in the **De-escalation Justification** field.
 

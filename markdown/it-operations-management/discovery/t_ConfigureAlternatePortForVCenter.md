@@ -2,6 +2,7 @@
 title: Configure an alternate port for vCenter
 description: Specify an alternate port for the VMware - vCenter datacenters probe.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/t\_ConfigureAlternatePortForVCenter.html
 release: zurich
 product: Discovery
 classification: discovery

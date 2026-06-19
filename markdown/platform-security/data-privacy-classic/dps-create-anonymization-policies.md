@@ -2,6 +2,7 @@
 title: Create anonymization policies
 description: Configure an anonymization policy to specify which techniques are used when anonymizing your data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-privacy-classic/dps-create-anonymization-policies.html
 release: zurich
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
@@ -19,7 +20,7 @@ Configure an anonymization policy to specify which techniques are used when anon
 
 The data privacy configuration defines tables, sys\_user and other, and columns to the de-identified, depending on the use case and specifies parameterized types of the techniques to be used while de-identifying data.
 
-**Note:** To complete a privacy configuration, you must first configure a data privacy technique configuration. See [Create anonymization techniques](dps-create-anonymization-techniques.md)for more information.
+**Note:** To complete a privacy configuration, you must first configure a data privacy technique configuration. See [Create anonymization techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-create-anonymization-techniques.md)for more information.
 
 Role required: data\_privacy\_admin and admin
 
@@ -27,7 +28,7 @@ Role required: data\_privacy\_admin and admin
 
 1.  Elevate to the **data\_privacy\_admin** role.
 
-    For details on role elevation, see [Elevate to a privileged role](../../security/task/t_ElevateToAPrivilegedRole.md).
+    For details on role elevation, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/t_ElevateToAPrivilegedRole.md).
 
 2.  Navigate to **System Security** &gt; **Data Privacy** &gt; **Anonymization**.
 
@@ -37,7 +38,7 @@ Role required: data\_privacy\_admin and admin
 
 4.  Select to either anonymize **Data tables or columns**, **User specific data**, or **Real time data**.
 
-    ![New policy selection window.](../image/create-new-policy.png)
+    \[Omitted image "create-new-policy.png"\] Alt text: New policy selection window.
 
     |Data Type|Description|
     |---------|-----------|
@@ -45,7 +46,7 @@ Role required: data\_privacy\_admin and admin
     |User specific data|Select a set of users or user groups to be anonymized.|
     |Real time data|Anonymize real time entries for a set of columns.|
 
-    Data privacy policies can only apply to classified data, for more information on data classification, see [Data classification](../concept/dps-data-classification.md).
+    Data privacy policies can only apply to classified data, for more information on data classification, see [Data classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-data-classification.md).
 
 5.  Select **Create**.
 
@@ -61,25 +62,25 @@ Role required: data\_privacy\_admin and admin
 
     After selecting a data class, the Assign techniques form displays for each record returned for the defined data class.
 
-7.  Assign anonymization techniques for the selected data class.![The bulk assign techniques form.](../image/bulk-assign-technique.png)
+7.  Assign anonymization techniques for the selected data class.\[Omitted image "bulk-assign-technique.png"\] Alt text: The bulk assign techniques form.
 
-<table id="choicetable_ywk_ywc_dwb"><thead><tr><th align="left" id="d179289e269">
+<table id="choicetable_ywk_ywc_dwb"><thead><tr><th align="left" id="d48860e269">
 
 Option
 
-</th><th align="left" id="d179289e272">
+</th><th align="left" id="d48860e272">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d179289e278">
+</th></tr></thead><tbody><tr><td id="d48860e278">
 
 **Select __Bulk Assign Techniques__**
 
 </td><td>
 
-Applies anonymization to all data records in the chosen data class. Select the data type and the anonymization technique to apply to all entries with the selected data type. Repeat this step for additional bulk assignments of different data types.See [Supported field types for anonymization](../../security/reference/data-privacy-supported-data-types.md) for a list of data types.
+Applies anonymization to all data records in the chosen data class. Select the data type and the anonymization technique to apply to all entries with the selected data type. Repeat this step for additional bulk assignments of different data types.See [Supported field types for anonymization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/data-privacy-supported-data-types.md) for a list of data types.
 
-</td></tr><tr><td id="d179289e300">
+</td></tr><tr><td id="d48860e300">
 
 **Select an __anonymization technique__ for each data column record**
 
@@ -88,7 +89,7 @@ Applies anonymization to all data records in the chosen data class. Select the d
 Your data privacy processor users can choose which records to anonymize when creating data privacy jobs. Individually apply anonymization to each data record in the chosen data class.
 
 </td></tr></tbody>
-</table>    ![Individually assign a technique.](../image/assign-technique.png)
+</table>    \[Omitted image "assign-technique.png"\] Alt text: Individually assign a technique.
 
 8.  Enter child tables to be scanned.
 
@@ -115,5 +116,5 @@ Your data privacy processor users can choose which records to anonymize when cre
 
 ## What to do next
 
-[Create anonymization job](dps-create-anonymization-job.md).
+[Create anonymization job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-create-anonymization-job.md).
 

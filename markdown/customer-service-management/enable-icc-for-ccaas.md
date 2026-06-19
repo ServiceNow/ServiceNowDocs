@@ -2,7 +2,10 @@
 title: Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integration
 description: Implement prebuilt, certified integrations with Contact Center as a Service \(CCaaS\) providers using the ServiceNow voice reference architecture.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/enable-icc-for-ccaas.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -18,7 +21,7 @@ Implement prebuilt, certified integrations with Contact Center as a Service \(CC
 
 The Interaction Controls Component \(ICC\) feature enables CCaaS providers to display native voiceand callbackintegrations so agents can manage customer calls directly from their configurable workspace.
 
-For more information, see [Interaction Controls Component \(ICC\) for voice calls](../concept/contact-center-integration-with-icc.md) and [Integrating contact centers with Interaction Controls Component \(ICC\) for callbacks](../concept/interaction-controls-component-icc-callback-integration-features.md).
+For more information, see [Interaction Controls Component \(ICC\) for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/contact-center-integration-with-icc.md) and [Integrating contact centers with Interaction Controls Component \(ICC\) for callbacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/interaction-controls-component-icc-callback-integration-features.md).
 
 The voice controls and callback controls display under the following conditions:
 
@@ -60,5 +63,5 @@ Role required: admin
 
 ## What to do next
 
-Refer to [Plugin requirements for voice and callback integrations with contact centers](plugin-requirements-for-external-call-routing-integration-for-contact-centers.md) for dependencies and address all prerequisite requirements to access the ICC features.
+Refer to [Plugin requirements for voice and callback integrations with contact centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/plugin-requirements-for-external-call-routing-integration-for-contact-centers.md) for dependencies and address all prerequisite requirements to access the ICC features.
 

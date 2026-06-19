@@ -2,10 +2,13 @@
 title: Working with callback requests using Virtual Agent
 description: As a customer, you can request a callback from a customer service agent through a Virtual Agent conversation. You can request an immediate voice callback or schedule a voice or video callback that you can reschedule or cancel.Request an immediate voice callback or schedule a voice or video callback from a Virtual Agent chat on the ServiceNow portal.Reschedule a callback from a Virtual Agent chat on the ServiceNow portal.Cancel a callback from a Virtual Agent chat on the ServiceNow portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/request-callback-from-virtual-agent.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Callback requests from agents, Use omnichannel callback, Customer communication, Use, Customer Service Management]
 ---
 
@@ -13,7 +16,7 @@ breadcrumb: [Callback requests from agents, Use omnichannel callback, Customer c
 
 As a customer, you can request a callback from a customer service agent through a Virtual Agent conversation. You can request an immediate voice callback or schedule a voice or video callback that you can reschedule or cancel.
 
-For more information about setting up Omnichannel Callback, refer to [Configuring Omnichannel Callback](https://www.servicenow.com/docs/access?context=configuring-omnichannel-callback&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US)
+For more information about setting up Omnichannel Callback, refer to 
 
 ## Request a callback from a Virtual Agent chat
 
@@ -33,7 +36,7 @@ You can request an immediate callback only for a voice channel. Use the **Schedu
 
     For example: `https://yourportalurl.com/csm`
 
-2.  Select the Chat icon \(![Chat icon for Customer Service portal.](../image/chat_icon.png)\) to open the chat window and begin a Virtual Agent chat.
+2.  Select the Chat icon \(\[Omitted image "chat\_icon.png"\] Alt text: Chat icon for Customer Service portal.\) to open the chat window and begin a Virtual Agent chat.
 
 3.  Select **Show me everything**.
 
@@ -43,15 +46,15 @@ You can request an immediate callback only for a voice channel. Use the **Schedu
 
 6.  Select whether to receive an immediate voice callback from an agent or schedule a voice or video callback for later.
 
-<table id="choicetable_x1h_2hr_2wb"><thead><tr><th align="left" id="d80626e181">
+<table id="choicetable_x1h_2hr_2wb"><thead><tr><th align="left" id="d82714e180">
 
 Type of callback
 
-</th><th align="left" id="d80626e184">
+</th><th align="left" id="d82714e183">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d80626e190">
+</th></tr></thead><tbody><tr><td id="d82714e189">
 
 **Immediate voice callback**
 
@@ -59,7 +62,7 @@ Action
 
 Select **Right now**.
 
-</td></tr><tr><td id="d80626e202">
+</td></tr><tr><td id="d82714e201">
 
 **Scheduled voice or video callback**
 
@@ -99,7 +102,7 @@ Only logged-in users can reschedule callbacks.
 
     For example: `https://yourportalurl.com/csm`
 
-2.  Select the chat icon \(![Chat icon for Customer Service Portal.](../image/chat_icon.png)\) to open the chat window and begin a Virtual Agent chat.
+2.  Select the chat icon \(\[Omitted image "chat\_icon.png"\] Alt text: Chat icon for Customer Service Portal.\) to open the chat window and begin a Virtual Agent chat.
 
 3.  Select **Show me everything**.
 
@@ -136,7 +139,7 @@ Role required: none
 
     For example: `https://yourportalurl.com/csm`
 
-2.  Select the chat icon \(![Chat icon for Customer Service Portal.](../image/chat_icon.png)\) to open the chat window and begin a Virtual Agent chat.
+2.  Select the chat icon \(\[Omitted image "chat\_icon.png"\] Alt text: Chat icon for Customer Service Portal.\) to open the chat window and begin a Virtual Agent chat.
 
 3.  Select **Show me everything**.
 

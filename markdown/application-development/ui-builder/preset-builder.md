@@ -2,6 +2,7 @@
 title: Create custom presets for components
 description: Create presets to save time and make your component configurations reusable across different experiences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/preset-builder.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -40,7 +41,7 @@ Role required: ui\_builder\_admin
 
     The preset building window opens.
 
-    ![Preset building window with no data added.](../image/preset-builder-window.png)
+    \[Omitted image "preset-builder-window.png"\] Alt text: Preset building window with no data added.
 
 6.  Enter controller test values to preview data in the component preset.
 
@@ -48,18 +49,18 @@ Role required: ui\_builder\_admin
 
 8.  Bind data from the controller to the component preset by dragging items from the data preview section to the fields in the configure panel.
 
-    ![Configuration panel for component preset](../image/preset-builder-configured.png)
+    \[Omitted image "preset-builder-configured.png"\] Alt text: Configuration panel for component preset
 
 9.  Add events to the component.
 
-    For more information, see [Configure an event handler manually](event-handler.md).
+    For more information, see [Configure an event handler manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/event-handler.md).
 
 10. Select **Save**.
 
 
 ## What to do next
 
-Apply the preset you just created by [selecting a preset in UI Builder](../concept/presets.md#).
+Apply the preset you just created by [selecting a preset in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/presets.md).
 
-**Parent Topic:**[Customize UI Builder pages using components](../concept/work-components.md)
+**Parent Topic:**[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-components.md)
 

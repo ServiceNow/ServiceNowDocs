@@ -2,6 +2,7 @@
 title: Map LogRhythm alarm fields to security incident fields
 description: You map individual alarm fields to the security incident fields. The preconfigured mapping can be edited, and color coding provided for the fields helps you monitor alarms you have already mapped. This step helps you visualize how your edits impact the fields on the security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/logrhythm-map-alarms.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -35,7 +36,7 @@ On the left side of this form in the following figure, the LogRhythm alarm rules
 
 2.  In the **Alarm Sample Ingestion** field, enter up to five sample LogRhythm Alarm IDs separated by commas \(`9468,9474`\).
 
-    ![Task: Enter alarms to pull for an alarm profile.](../image/profilemapping01__pull_alarms_entered_but_not_submitted.png)
+    \[Omitted image "profilemapping01\_\_pull\_alarms\_entered\_but\_not\_submitted.png"\] Alt text: Task: Enter alarms to pull for an alarm profile.
 
 3.  Next to the alarm field, click **Pull Alarms**.
 
@@ -57,7 +58,7 @@ On the left side of this form in the following figure, the LogRhythm alarm rules
 
 5.  To edit the default configuration on the security incident, follow these steps to add a field:
 
-    ![Example illustrates how to search and add a field and map it.](../image/logrhythm-map-alarm.png)
+    \[Omitted image "logrhythm-map-alarm.png"\] Alt text: Example illustrates how to search and add a field and map it.
 
     1.  On the lower right of the form, click the plus icon.
 
@@ -89,12 +90,12 @@ On the left side of this form in the following figure, the LogRhythm alarm rules
 
 7.  Continue editing the preconfigured mapping as required.
 
-    If you need to translate values from LogRhythm alarm fields to values that are supported by the fields on the security incident, you can use the script editor. See [Use the script editor to format LogRhythm values](add-scripted-values-logrhythm.md).
+    If you need to translate values from LogRhythm alarm fields to values that are supported by the fields on the security incident, you can use the script editor. See [Use the script editor to format LogRhythm values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/add-scripted-values-logrhythm.md).
 
 
 ## What to do next
 
-After you complete the field mapping, the next step is to [Filter alarms for LogRhythm](filter-alarms-logrhythm.md).
+After you complete the field mapping, the next step is to [Filter alarms for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/filter-alarms-logrhythm.md).
 
-**Parent Topic:**[Mapping](../concept/mapping-logrhythm.md)
+**Parent Topic:**[Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/mapping-logrhythm.md)
 

@@ -2,6 +2,7 @@
 title: Modifications in the delivery screen
 description: In the final checkout step, a summary screen provides a list of all items and services ordered.After you enable the two-step checkout process, the Requested for field appears on the Request form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/c\_ModifyTheDeliveryScreen.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -15,11 +16,11 @@ breadcrumb: [Legacy flexible checkout and delivery forms, Cart layout, Service C
 
 In the final checkout step, a summary screen provides a list of all items and services ordered.
 
-**Warning:** Modifying the Order Status or Summary screen requires advanced scripting and a knowledge of [Jelly](https://www.servicenow.com/docs/access?context=r_JellyTags&version=zurich&pubname=zurich-api-reference&ft:locale=en-US). Also, the upgrade process skips updates to the summary screen after a customization. With these constraints in mind, you can modify the summary screen by editing the **com.glideapp.servicecatalog\_checkout\_view** UI page.
+**Warning:** Modifying the Order Status or Summary screen requires advanced scripting and a knowledge of Jelly. Also, the upgrade process skips updates to the summary screen after a customization. With these constraints in mind, you can modify the summary screen by editing the **com.glideapp.servicecatalog\_checkout\_view** UI page.
 
-![Summary of ordered items and link to the request](../image/CatalogOrderSummaryStatus.png "Catalog order summary status")
+\[Omitted image "CatalogOrderSummaryStatus.png"\] Alt text: Summary of ordered items and link to the request
 
-**Parent Topic:**[Legacy flexible checkout and delivery forms](c_FlexibleCheckoutAndDeliveryForms.md)
+**Parent Topic:**[Legacy flexible checkout and delivery forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_FlexibleCheckoutAndDeliveryForms.md)
 
 ## Requester search results
 

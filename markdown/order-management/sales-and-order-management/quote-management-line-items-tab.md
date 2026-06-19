@@ -2,6 +2,7 @@
 title: View and update products using the line items tab
 description: Use the line items tab to review and update products in your quote and to add additional line items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/quote-management-line-items-tab.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,11 +22,11 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) and select **Quotes** &gt; **All**.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: and select **Quotes** &gt; **All**.
 
 2.  Select the quote that you’re working with and select the **Quote Line Items** tab.
 
-    ![Image shows the quote form with the quote line items tab open.](../image/l2c-quote-line-item.png)
+    \[Omitted image "l2c-quote-line-item.png"\] Alt text: Image shows the quote form with the quote line items tab open.
 
 3.  Select **New** to start a new quote line item or select an existing quote line item to make changes.
 
@@ -59,7 +60,7 @@ Role required: sales\_agent
 
 ## What to do next
 
-Add a pricing adjustment to a quote line item. See [View and update manual pricing adjustments in quotes](quote-management-pricing-adjustments-tab.md) for more information.
+Add a pricing adjustment to a quote line item. See [View and update manual pricing adjustments in quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-management-pricing-adjustments-tab.md) for more information.
 
-**Parent Topic:**[Using Quote Management](../concept/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-mgmt-using.md)
 

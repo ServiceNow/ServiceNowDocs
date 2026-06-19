@@ -2,6 +2,7 @@
 title: Chief Procurement Officer \(CPRO\) Dashboard
 description: The Chief Procurement Officer Dashboard provides a consolidated view of the enterprise procurement performance across spending, requisitions, sourcing operations, negotiations, and contract life cycle management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/cpro-dashboard.html
 release: zurich
 topic_type: concept
 last_updated: "2025-08-15"
@@ -17,5 +18,5 @@ The CPRO dashboard serves as a centralized workspace for tracking end-to-end pro
 
 This dashboard visualizes essential procurement insights including requisition aging, sourcing request trends, negotiation timeliness, department-level sourcing delays, contract renewal pipelines, and spend categorization. These metrics help procurement executives identify bottlenecks, improve cycle time, enhance spend governance, and maximize value from procurement operations.
 
-![CPRO Dashboard with Spend, Requisitions, Sourcing, Negotiations, and Contracts pillars, each containing procurement metrics and visualizations.](../image/cpro-db-tab.png)
+\[Omitted image "cpro-db-tab.png"\] Alt text: CPRO Dashboard with Spend, Requisitions, Sourcing, Negotiations, and Contracts pillars, each containing procurement metrics and visualizations.
 

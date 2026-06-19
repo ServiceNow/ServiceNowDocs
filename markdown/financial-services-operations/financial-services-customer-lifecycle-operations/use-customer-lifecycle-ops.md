@@ -2,6 +2,7 @@
 title: Using Financial Services Customer Lifecycle Operations
 description: Learn how branch workers and agents use the Financial Services Customer Lifecycle Operations application to create, document, and resolve the new account creation process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-customer-lifecycle-operations/use-customer-lifecycle-ops.html
 release: zurich
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations
@@ -25,7 +26,7 @@ Relationship managers, administrators, and agents use workspaces and landing pag
 -   Customizing your workflow.
 -   Monitoring workload and performance.
 
-For more information on workspaces and playbooks, see [Workspaces](../../fso-common/concept/fso-workspace.md).
+For more information on workspaces and playbooks, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-workspace.md).
 
 ## Workflows
 
@@ -33,11 +34,11 @@ Several predefined workflows exist for Financial Services Business Lifecycle and
 
 When a client applies for a new account, an agent creates a case and assigns it to either themselves or another agent. After the agent updates the case details, the appropriate lifecycle workflow is triggered. The flow triggers various tasks from the case, including document verification and Know Your Customer protocols. New tasks become available as the previous tasks are completed.
 
-For more information, see [Customer Lifecycle Operations workflows](customer-lifecycle-ops-workflows.md).
+For more information, see [Customer Lifecycle Operations workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-customer-lifecycle-operations/customer-lifecycle-ops-workflows.md).
 
 ## Dashboards
 
 ServiceNow® Performance Analytics give business owners insight into how the team and business are performing. Dashboards with customizable views are available for Business Lifecycle and Client Lifecycle within their respective applications.
 
-For more information, see [Business Lifecycle Operations dashboard](../../../use/dashboards/application-content-packs/fso-business-lifecycle-dashboard.md) and [Client Lifecycle dashboard](../../../use/dashboards/application-content-packs/fso-client-lifecycle-dashboard.md).
+For more information, see [Business Lifecycle Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-business-lifecycle-dashboard.md) and [Client Lifecycle dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-client-lifecycle-dashboard.md).
 

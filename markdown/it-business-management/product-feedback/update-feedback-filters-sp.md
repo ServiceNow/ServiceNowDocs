@@ -2,6 +2,7 @@
 title: Update feedback filters in Strategic Planning
 description: Edit the details of a feedback filters and make real-time updates on your feedback filter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/product-feedback/update-feedback-filters-sp.html
 release: zurich
 product: Product Feedback
 classification: product-feedback
@@ -25,21 +26,21 @@ Role required: pf\_user
 
 2.  Create a feedback filter.
 
-    For more information, see [Create feedback filters in Strategic Planning](create-feedback-filters.md).
+    For more information, see [Create feedback filters in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/create-feedback-filters.md).
 
 3.  From the feedback page, select the feedback filter card that you want to edit.
 
 4.  Update the record details or delete the feedback filter card.
 
-<table id="choicetable_pxx_tl2_2bc"><thead><tr><th align="left" id="d261657e94">
+<table id="choicetable_pxx_tl2_2bc"><thead><tr><th align="left" id="d82659e94">
 
 Choice
 
-</th><th align="left" id="d261657e97">
+</th><th align="left" id="d82659e97">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d261657e103">
+</th></tr></thead><tbody><tr><td id="d82659e103">
 
 **Edit feedback filter card**
 
@@ -47,12 +48,12 @@ Action
 
 From the feedback page:
 
-1.  Select the Actions icon \(![Actions icon.](../../alignment-planner-workspace/images/icon-more-actions.png)\).
+1.  Select the Actions icon \(\[Omitted image "icon-more-actions.png"\] Alt text: Actions icon.\).
 2.  Select **Edit** to update the feedback filter card.
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d261657e138">
+</td></tr><tr><td id="d82659e138">
 
 **Delete feedback filter card**
 
@@ -60,7 +61,7 @@ From the feedback page:
 
 From the feedback page:
 
-1.  Select the Actions icon \(![Actions icon.](../../alignment-planner-workspace/images/icon-more-actions.png)\).
+1.  Select the Actions icon \(\[Omitted image "icon-more-actions.png"\] Alt text: Actions icon.\).
 2.  Select **Delete** to delete the feedback filter card.
 3.  Select **Delete** to confirm your action.
 

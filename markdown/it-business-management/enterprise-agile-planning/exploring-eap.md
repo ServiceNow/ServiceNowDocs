@@ -2,6 +2,7 @@
 title: Exploring Enterprise Agile Planning
 description: Learn more about Enterprise Agile Planning \(EAP\) and review the benefits it can provide for your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/enterprise-agile-planning/exploring-eap.html
 release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -33,7 +34,7 @@ Manage backlog and prioritize work.
 
 </td><td>
 
-[Backlog](using-eap.md)
+[Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/using-eap.md)
 
 </td></tr><tr><td>
 
@@ -41,7 +42,7 @@ Create and plan activities such as creating PIs and Sprints, assigning work to t
 
 </td><td>
 
-[Backlog](using-eap.md)
+[Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/using-eap.md)
 
 </td></tr><tr><td>
 
@@ -49,7 +50,7 @@ Manage dependencies across teams and Agile release trains \(ARTs\).
 
 </td><td>
 
-[Planning Board](pi-planning-eap.md)
+[Planning Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/pi-planning-eap.md)
 
 </td></tr><tr><td>
 
@@ -57,7 +58,7 @@ Track activities and visualize progress.
 
 </td><td>
 
-[Backlog](using-eap.md)
+[Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/using-eap.md)
 
 </td></tr><tr><td>
 
@@ -65,7 +66,7 @@ Collaborate real-time and asynchronously to discuss resolutions for blockers.
 
 </td><td>
 
-[Backlog](using-eap.md)
+[Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/using-eap.md)
 
 </td></tr><tr><td>
 
@@ -73,7 +74,7 @@ Manage work and track progress efficiently for Kanban teams that don't operate i
 
 </td><td>
 
-[Backlog](using-eap.md) and [Planning Board](pi-planning-eap.md) for Kanban-type teams
+[Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/using-eap.md) and [Planning Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/pi-planning-eap.md) for Kanban-type teams
 
 </td></tr><tr><td>
 
@@ -81,7 +82,7 @@ Get a unified, end-to-end view of your entire work item hierarchy from strategic
 
 </td><td>
 
-[Work item hierarchy for EAP teams](eap-hierarchy-tab.md)
+[Work item hierarchy for EAP teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/eap-hierarchy-tab.md)
 
 </td></tr><tr><td>
 
@@ -89,7 +90,7 @@ Flexibly configure team and work hierarchies.
 
 </td><td>
 
-[Agile configurations in EAP](agile-configurations-in-eap.md)
+[Agile configurations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/agile-configurations-in-eap.md)
 
 </td></tr><tr><td>
 
@@ -97,7 +98,7 @@ Store and manage all kinds of documentation for Agile teams and their work items
 
 </td><td>
 
-[Collaborate using Docs in EAP](docs-for-eap-teams-and-planning-items.md)
+[Collaborate using Docs in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/docs-for-eap-teams-and-planning-items.md)
 
 </td></tr><tr><td>
 
@@ -105,7 +106,7 @@ Gain insights into the page content by summarizing it or improve content quality
 
 </td><td>
 
-[Summarize and refine Docs content in EAP using Now Assist for SPM](../task/summarize-and-refine-docs-content-in-eap.md)
+[Summarize and refine Docs content in EAP using Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/summarize-and-refine-docs-content-in-eap.md)
 
 </td></tr><tr><td>
 
@@ -113,7 +114,7 @@ Save time and reduce manual effort by automatically generate stories for work it
 
 </td><td>
 
-[Generate stories for epics and features using Now Assist for SPM](../task/create-single-or-multiple-child-items-for-epic-in-eap.md)
+[Generate stories for epics and features using Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/create-single-or-multiple-child-items-for-epic-in-eap.md)
 
 </td></tr><tr><td>
 
@@ -121,7 +122,7 @@ Define goals at the iteration level or the team level iterations so that teams a
 
 </td><td>
 
-[Iteration goals and work item goals in EAP](iteration-goals-in-eap.md)
+[Iteration goals and work item goals in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/iteration-goals-in-eap.md)
 
 </td></tr><tr><td>
 
@@ -129,7 +130,7 @@ Analyze team progress, performance, and keep track of key metrics using preconfi
 
 </td><td>
 
-[EAP Dashboards](using-eap-dashboard.md)
+[EAP Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/using-eap-dashboard.md)
 
 </td></tr></tbody>
 </table>

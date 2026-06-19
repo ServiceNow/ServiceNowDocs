@@ -2,6 +2,7 @@
 title: Statistics for external content connector content crawls
 description: Each crawl history entry for an external content connector's content crawl includes statistics about the documents \(items or files with searchable content and metadata\) retrieved by the crawl.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/document-statistics-external-content-connectors.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -89,7 +90,7 @@ Discovered
 Score shows the total number of items that were processed during the content crawl.Chart shows the number of items processed by the content crawl for each of these result statuses:
 
 -   Indexed: the number of items successfully added to or updated in the AI Search index.
--   Skipped: the number of items not added to or updated in the AI Search index because they don't satisfy indexing limits. This includes binary files that exceed the 25 MB file-size limit as well as binary files with unsupported file formats. For the list of supported binary file formats, see [Binary file extensions supported in External Content Connectors](file-extensions-ext-cont-connector.md).
+-   Skipped: the number of items not added to or updated in the AI Search index because they don't satisfy indexing limits. This includes binary files that exceed the 25 MB file-size limit as well as binary files with unsupported file formats. For the list of supported binary file formats, see [Binary file extensions supported in External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/file-extensions-ext-cont-connector.md).
 -   Not indexed: the number of items not added to or updated in the AI Search index because of processing errors.
 
 </td></tr></tbody>
@@ -97,5 +98,5 @@ Score shows the total number of items that were processed during the content cra
 |----------------------------|-----------|
 |Average crawl speed|Score shows the average speed of the content crawl, expressed in documents \(items\) processed per second of crawl time.|
 
-**Parent Topic:**[External Content Connectors reference](../concept/reference-ext-cont-connectors.md)
+**Parent Topic:**[External Content Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/reference-ext-cont-connectors.md)
 

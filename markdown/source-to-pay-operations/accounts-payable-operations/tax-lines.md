@@ -2,6 +2,7 @@
 title: Invoice Tax lines fields
 description: Use the tax lines tab to record tax lines on purchases that are invoiced.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/tax-lines.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -32,5 +33,5 @@ The following table displays the fields in the invoice tax lines tab.
 |Invoice line|Invoice line for which the tax is applicable.|
 |Invoice|Invoice for which this tax is applicable.|
 
-**Parent Topic:**[Tax lines](create-tax-lines-apo.md)
+**Parent Topic:**[Tax lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/create-tax-lines-apo.md)
 

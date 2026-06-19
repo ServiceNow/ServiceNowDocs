@@ -2,6 +2,7 @@
 title: Reassign a certification task
 description: If you have the certification\_admin role, you can reassign any certification task in the Work in Progress state. Tasks in Closed Complete, Closed Incomplete, or Cancelled state cannot be reassigned. When a task is reassigned, the current task owner and the new task owner are sent a message.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/t\_ReassignACertificationTask.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -23,7 +24,7 @@ Role required: certification\_admin
 
 The event associated with the reassignment is named cert\_task.reassign and the email notification is named Certification Task Reassignment. To edit the text of the email message that is sent, edit the Certification Task Reassignment email notification directly.
 
-For more information, see [Email notifications](https://www.servicenow.com/docs/access?context=c_EmailNotifications&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For more information, see Email notifications.
 
 To reassign a certification task:
 

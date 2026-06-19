@@ -2,6 +2,7 @@
 title: AbstractTimelineSchedulePage - Global
 description: The AbstractTimelineSchedulePage script include is a helper class to facilitate working with the data displayed on timelines.Adds a TimelineItem object that will be returned to the client and appropriately displayed on the timeline.Adds a horizontal frame separator into the list of timeline items. All future items added via add\(\) will be added into the subsequent timeline frame.Event handler for when a timeline span moves horizontally.Event handler for when a timeline span moves both horizontally and vertically.Event handler for when a timeline span moves vertically.Event handler for when a timeline relationship has been created between two spans.Event handler for when a timeline span's end date was modified.Event handler for when a timeline span's start date was modified.Event handler for returning schedule items to display on the timeline.Event handler for when a string was typed into the left pane input box.Event handler for when a timeline row item was moved and dragged into another row item.Specifies whether or not to re-render all of the timeline items using the getItems\(\) function.Specifies the text to display as the title of the timeline.Sets the current event request to an error status with a specified title and message to display in phase two of the GlideTimeline event processing.Sets the current event request to a prompt error status with a specified title and message to display in a confirmation dialog box during phase two of the GlideTimeline event processing. The confirmation box displays an OK and Cancel button that each generate new events that will call the functions specified the parameter arguments. The custom defined functions for OK, Cancel, and Close receive the same parameter arguments as those for the current event.Sets the current event request to a success status with a specified title and message to display in phase two of the GlideTimeline event processing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_AbstractTimelineSchedulePage.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -38,7 +39,7 @@ A script include class that extends AbstractTimelineSchedulePage automatically r
 
 This is useful if you need to display a schedule page from a dynamic element, such as from a context menu from a list. By passing in dynamic data via the URL the schedule page auto-includes these parameters inside the Ajax calls and therefore will be accessible inside the AbstractTimelineSchedulePage script include.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## AbstractTimelineSchedulePage - add\(Object ObjTimeline\)
 

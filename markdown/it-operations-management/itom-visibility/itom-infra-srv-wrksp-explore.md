@@ -2,6 +2,7 @@
 title: Explore ITOM Infra Services Workspace
 description: The workspace provides real-time monitoring, proactive alerts, automation of common tasks, and centralized diagnostics to reduce downtime and support tickets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/itom-infra-srv-wrksp-explore.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility

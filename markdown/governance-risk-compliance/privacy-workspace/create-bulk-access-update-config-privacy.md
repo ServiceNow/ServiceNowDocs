@@ -2,13 +2,14 @@
 title: Set access restrictions using an entity based record access update utility
 description: Set access restrictions for the existing records in bulk by using the Entity based record access update utility guided-experience. Use the workflow to enable or disable access to record types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/create-bulk-access-update-config-privacy.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configuring access control, Accessing control through organizational structure, Use, Privacy Management, Governance, Risk, and Compliance]
+breadcrumb: [Configuring access control, Access control by legal entity, Use, Privacy Management, Governance, Risk, and Compliance]
 ---
 
 # Set access restrictions using an entity based record access update utility
@@ -75,5 +76,5 @@ The system provides real-time status tracking of update operations, categorized 
 
 Entity-based restrictions are enabled at the record level for the scoped entity. The system creates a scheduled job that runs at intervals \(default: 1 hour\) to update records in batches for entity-based access restrictions.
 
-**Parent Topic:**[Configuring access control](../configure-access-control-by-legal-entity.md)
+**Parent Topic:**[Configuring access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/configure-access-control-by-legal-entity.md)
 

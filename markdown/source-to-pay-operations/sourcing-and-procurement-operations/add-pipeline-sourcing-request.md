@@ -1,36 +1,34 @@
 ---
-title: Add a sourcing request to a pipeline project
-description: Add a sourcing request to a pipeline project to link project details, reduce manual data entry, and track sourcing progress against project timelines.
+title: Add a pipeline project to a sourcing request
+description: Add a pipeline project to a sourcing request to link project details, reduce manual data entry, and track sourcing progress against project timelines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/add-pipeline-sourcing-request.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-keywords: [sourcing request, new sourcing request, create sourcing request]
-breadcrumb: [Using Sourcing Pipeline Management, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Using Sourcing Pipeline Management, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
-# Add a sourcing request to a pipeline project
+# Add a pipeline project to a sourcing request
 
-Add a sourcing request to a pipeline project to link project details, reduce manual data entry, and track sourcing progress against project timelines.
-
-Describes a procedure to add a sourcing request to a pipeline project in the Source-to-Pay Workspace. 
+Add a pipeline project to a sourcing request to link project details, reduce manual data entry, and track sourcing progress against project timelines.
 
 ## Before you begin
 
-Role required: sn\_shop.procurement\_specialist or admin
+Role required: sn\_shop.procurement\_specialist
 
 ## About this task
 
-You can add sourcing requests that are in either the Pending Review or Pending Approval state to pipeline projects.
+You can add pipeline projects to sourcing requests that are in either the Pending Review or Pending Approval state.
 
 ## Procedure
 
 1.  Navigate to **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon.](../../supplier-lifecycle-operations/image/cases-list-icon.png)\) and do one of the following:
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and do one of the following:
 
     -   Navigate to **Lists** &gt; **My work** &gt; **Sourcing requests**.
     -   Navigate to **Lists** &gt; **All work** &gt; **Sourcing requests**.
@@ -38,7 +36,7 @@ You can add sourcing requests that are in either the Pending Review or Pending A
 
 4.  Select **Add to pipeline project**.
 
-    ![Add to pipeline project option.](../image/pipeline-add-option.png)
+    \[Omitted image "pipeline-add-option.png"\] Alt text: Add to pipeline project option.
 
 5.  In the Add to pipeline project dialog box, do one of the following:
 
@@ -56,12 +54,12 @@ Add the sourcing request to an existing pipeline project.
 
 </td><td>
 
-![Add sourcing request to existing pipeline project.](../image/pipeline-existing-sourcing.png)
+\[Omitted image "pipeline-existing-sourcing.png"\] Alt text: Add SR to existing pipeline project.
 
  -   Select **Add to an existing pipeline project**.
--   Search for and select a project from the **Pipeline project** list.
+-   From the **Pipeline project** list, search for and select a project.
 
-**Note:** The list displays only those pipeline projects that are in either the Draft or Planned state and share spend category as the sourcing request.
+**Note:** The list displays only those pipeline projects that are in either the Draft or Planned state and that share the same spend category as the sourcing request.
 
 </td></tr><tr><td>
 
@@ -69,7 +67,7 @@ Add the sourcing request to a new pipeline project.
 
 </td><td>
 
-![Add sourcing request to new pipeline project.](../image/pipeline-new-sourcing.png)
+\[Omitted image "pipeline-new-sourcing.png"\] Alt text: Add SR to new pipeline project.
 
  -   Select **Add to a new pipeline project**.
 -   In the **Short description** field, enter a brief summary of the pipeline project.
@@ -87,13 +85,8 @@ Add the sourcing request to a new pipeline project.
 </td></tr></tbody>
 </table>6.  Select **Add**.
 
-    The sourcing request is associated with either an existing or a new pipeline project. It’s displayed in the **Sourcing Requests** tab of the pipeline project.
+    The sourcing request is associated with either an existing or a new pipeline project. It is displayed in the **Sourcing Requests** tab of the pipeline project.
 
 
-**Parent Topic:**[Using Sourcing Pipeline Management](../concept/use-pipeline-sourcing-mgmt.md)
-
-**Related topics**  
-
-
-[Sourcing request](../reference/sourcing-request.md)
+**Parent Topic:**[Using Sourcing Pipeline Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/use-pipeline-sourcing-mgmt.md)
 

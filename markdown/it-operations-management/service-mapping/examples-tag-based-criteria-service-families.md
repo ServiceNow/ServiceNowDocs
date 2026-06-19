@@ -2,6 +2,7 @@
 title: Example definitions for service families in tag-based mapping
 description: When preparing to map application services based on tags, create tag categories that contain tags with similar use. Define a tag-based service family and the tags you want to use for mapping. In addition to tag categories, you can also define tag values to narrow the criteria for the service candidates created by Service Mapping. Use these examples for guidance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/examples-tag-based-criteria-service-families.html
 release: zurich
 product: Service Mapping
 classification: service-mapping
@@ -15,7 +16,7 @@ breadcrumb: [Service Mapping reference, Service Mapping, ITOM Visibility, IT Ope
 
 When preparing to map application services based on tags, create tag categories that contain tags with similar use. Define a tag-based service family and the tags you want to use for mapping. In addition to tag categories, you can also define tag values to narrow the criteria for the service candidates created by Service Mapping. Use these examples for guidance.
 
-For detailed information about defining service families in tag-based mapping, see [Prepare for mapping application services based on tags](../task/prepare-map-service-tag.md).
+For detailed information about defining service families in tag-based mapping, see [Prepare for mapping application services based on tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/prepare-map-service-tag.md).
 
 **Note:** Starting with Service Mapping Plus version 1.16.3, take advantage of the Tag-based Service Mapping workspace to efficiently map your application services. .
 
@@ -142,5 +143,5 @@ Production,Staging
 Service Mapping creates four service candidates: production::hr, production::finance, staging::hr, staging::finance.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Mapping reference](service-mapping-reference.md)
+</table>**Parent Topic:**[Service Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-reference.md)
 

@@ -2,6 +2,7 @@
 title: Using post-sales engagement applications
 description: Learn how to use post-sales engagement applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/using-post-sales-engagement.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -15,9 +16,9 @@ breadcrumb: [Use, Sales Customer Relationship Management]
 
 Learn how to use post-sales engagement applications.
 
-[Customer Life Cycle Management Workflows](https://www.servicenow.com/docs/access?context=customer-life-cycle-management-workflows&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
+
 
 Modify, suspend, resume, or disconnect the sold products and their complete hierarchy.
 
-**Parent Topic:**[Using Sales Customer Relationship Management applications](som-using.md)
+**Parent Topic:**[Using Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-using.md)
 

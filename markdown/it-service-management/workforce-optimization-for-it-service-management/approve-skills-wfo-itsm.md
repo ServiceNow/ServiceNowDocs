@@ -2,6 +2,7 @@
 title: Approve or reject a skill review request
 description: Review skills when your team updates their skill proficiencies and requests approval. You can approve or reject each of those skills. The skills that you approve are added to the agent's profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/approve-skills-wfo-itsm.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -27,7 +28,7 @@ You will receive a notification when an agent in your assignment group submits a
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Select the Coaching icon \(![Coaching icon](../image/coaching-icon-uib.png)\).
+2.  Select the Coaching icon \(\[Omitted image "coaching-icon-uib.png"\] Alt text: Coaching icon\).
 
 3.  Select the **Assessments** tab.
 
@@ -44,5 +45,5 @@ You will receive a notification when an agent in your assignment group submits a
     The skills you've approved gets added to the agent's skill set.
 
 
-**Parent Topic:**[Skills Management in Workforce Optimization for ITSM](../concept/skills-management-wfo-itsm.md)
+**Parent Topic:**[Skills Management in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/skills-management-wfo-itsm.md)
 

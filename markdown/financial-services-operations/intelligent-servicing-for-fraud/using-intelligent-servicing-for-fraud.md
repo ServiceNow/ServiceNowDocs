@@ -2,6 +2,7 @@
 title: Using Intelligent Servicing for Fraud
 description: Learn how fraud agents and managers use the Intelligent Servicing for Fraud application to initiate, investigate, and resolve fraud cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/intelligent-servicing-for-fraud/using-intelligent-servicing-for-fraud.html
 release: zurich
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud

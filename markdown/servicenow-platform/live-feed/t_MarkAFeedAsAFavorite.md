@@ -2,6 +2,7 @@
 title: Mark a feed as a favorite
 description: Top-level messages in feeds can be marked as favorites on a per user basis only.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/live-feed/t\_MarkAFeedAsAFavorite.html
 release: zurich
 product: Live Feed
 classification: live-feed
@@ -34,5 +35,5 @@ You can also search for messages marked as favorites, and remove the favorite de
     To unfavorite a message, click the star iconof a message that is already a favorite.
 
 
-**Parent Topic:**[Use feeds in Live Feed](../concept/c_UseFeedsInLiveFeed.md)
+**Parent Topic:**[Use feeds in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/live-feed/c_UseFeedsInLiveFeed.md)
 

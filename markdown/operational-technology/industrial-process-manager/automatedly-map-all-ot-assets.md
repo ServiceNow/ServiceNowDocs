@@ -2,6 +2,7 @@
 title: Automatically map all OT devices to an equipment model entity
 description: An Operational Technology \(OT\) Amazing admin can trigger automated mapping of all OT devices to the appropriate ISA equipment model entity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-process-manager/automatedly-map-all-ot-assets.html
 release: zurich
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -19,8 +20,8 @@ An Operational Technology \(OT\) Amazing admin can trigger automated mapping of 
 
 The following plugins must be installed:
 
--   [Operational Technology Manager](../../mftg-manufacturing-oper-tech-mgr/concept/operational-technology-manager.md)
--   [Industrial Process Manager](../../mftg-manufacturing-process-mgr/concept/industrial-process-manager-overview.md)
+-   [Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/operational-technology-manager.md)
+-   [Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/industrial-process-manager-overview.md)
 
 Role required: sn\_ot\_amazing\_admin
 
@@ -37,14 +38,14 @@ OT devices are automatically mapped to the Equipment Model Entities listed on al
 
 **Note:** Subnet mapping also supports Discovery created configuration items \(CIs\) for ISA equipment models.
 
--   **[Create a new OT subnet mapping record](create-a-new-ot-subnet-mapping-record.md)**  
+-   **[Create a new OT subnet mapping record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/create-a-new-ot-subnet-mapping-record.md)**  
 Create a new OT subnet mapping to associate with an equipment model entity.
--   **[Map all OT devices within a subnet](map-all-ot-assets-within-subnet.md)**  
+-   **[Map all OT devices within a subnet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/map-all-ot-assets-within-subnet.md)**  
 An OT admin can trigger automated mapping of all OT devices within a selected subnet.
--   **[Map OT devices to equipment model entities from the Equipment Model Manager](../../mftg-manufacturing-process-mgr/task/map-ot-devices-in-iw.md)**  
+-   **[Map OT devices to equipment model entities from the Equipment Model Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/map-ot-devices-in-iw.md)**  
 Map Operational Technology \(OT\) devices to equipment model entities from the Equipment Model Manager in the Industrial Workspace.
--   **[Map an individual OT device to an equipment model entity](automatedly-map-ot-assets-to-isa-entities.md)**  
+-   **[Map an individual OT device to an equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/automatedly-map-ot-assets-to-isa-entities.md)**  
 Perform on-demand mapping of an OT device to the ISA equipment model entity for the sites that you have access to.
 
-**Parent Topic:**[Automated Mapping Across Zone-based IP Network Groups](automate-mappings-between-ot-assets-and-equipment-model-entity.md)
+**Parent Topic:**[Automated Mapping Across Zone-based IP Network Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
 

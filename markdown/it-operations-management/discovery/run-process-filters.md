@@ -2,6 +2,7 @@
 title: Running process filters
 description: Filter any processes, using combinations of name and key parameters, from coming back to the instance. Out-of-the box, you can filter OS processes. Filtering processes helps reduce the number of records created, updated, or deleted in the database which can improve overall database performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/run-process-filters.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -31,7 +32,7 @@ To add processes to the filter, you must setup configurations using the Running 
 
     The form and descriptions are explained below.
 
-    ![Running process filters form](../image/running_process_filter_record.png)
+    \[Omitted image "running\_process\_filter\_record.png"\] Alt text: Running process filters form
 
 <table id="table_rxm_mty_rxb"><thead><tr><th>
 
@@ -101,7 +102,7 @@ Any process matching the filter will not be added to the Running Processes \[cmd
 
  -   name is svchost.exe
 -   parameters does not contain iissvcs
- For information on setting filter conditions see: [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
+ For information on setting filter conditions see: 
 
 </td></tr><tr><td>
 
@@ -117,14 +118,14 @@ OOB filters
 
 </td><td>
 
-There are Linux and Windows filters to choose from. See [Out-of-the-box process filters](out-of-the-box-process-filters.md) for more details.
+There are Linux and Windows filters to choose from. See [Out-of-the-box process filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/out-of-the-box-process-filters.md) for more details.
 
 </td></tr></tbody>
 </table>3.  Enter the details and select **Submit**.
 
 
--   **[Out-of-the-box process filters](out-of-the-box-process-filters.md)**  
+-   **[Out-of-the-box process filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/out-of-the-box-process-filters.md)**  
 There are a variety of Linux and Windows out-of-the-box running process filters that are turned on and used for filtering processes.
 
-**Parent Topic:**[Advanced Discovery configuration](c_DiscoveryExtendedCapabilities.md)
+**Parent Topic:**[Advanced Discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_DiscoveryExtendedCapabilities.md)
 

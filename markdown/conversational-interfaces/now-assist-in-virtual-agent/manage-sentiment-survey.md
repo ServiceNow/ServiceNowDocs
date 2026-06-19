@@ -2,6 +2,7 @@
 title: Manage response feedback
 description: When a user rates a response, they may provide response feedback. Configure the options so that users can share feedback regarding what worked about the response, or what needs improvement. Managing response feedback is accessible when editing an assistant and not when creating a new assistant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/now-assist-in-virtual-agent/manage-sentiment-survey.html
 release: zurich
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -17,7 +18,7 @@ When a user rates a response, they may provide response feedback. Configure the 
 
 ## Before you begin
 
-See [View assistants](view-assistants.md).
+See [View assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/view-assistants.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -35,7 +36,7 @@ Response feedback is available across all chat experiences except for Now Assist
 
     By default, response feedback is turned off.
 
-    ![Toggle response feedback on or off.](../image/NAinVA-response-feedback-0426.png "Toggle response feedback on or off")
+    \[Omitted image "NAinVA-response-feedback-0426.png"\] Alt text: Toggle response feedback on or off.
 
 4.  Turn on response feedback to configure the feedback form options.
 

@@ -2,6 +2,7 @@
 title: Republish a retired article
 description: Instantly republish a retired article.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/republish-retired-article.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -21,7 +22,7 @@ You must activate the Knowledge Management Advanced \(com.snc.knowledge\_advance
 
 Role required: admin or knowledge admin
 
-**Note:** You need a scoped admin role to republish a retired article in the [Scoped knowledge bases](../concept/scoped-knowledge-base-administration.md).
+**Note:** You need a scoped admin role to republish a retired article in the [Scoped knowledge bases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/scoped-knowledge-base-administration.md).
 
 ## About this task
 
@@ -38,5 +39,5 @@ There may be cases where you will need to republish a retired article. For examp
 
 The article is instantly published as the previous last published version.
 
-**Parent Topic:**[Creating and maintaining articles](../concept/creating-and-maintaining-articles.md)
+**Parent Topic:**[Creating and maintaining articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/creating-and-maintaining-articles.md)
 

@@ -2,6 +2,7 @@
 title: Use AI agents to create job requisition
 description: Use an AI agent to help hiring managers to create requisitions more efficiently and accurately on the first attempt by providing the necessary guidance through the agentic workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-hrsd/use-ai-agents-to-create-job-req.html
 release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd

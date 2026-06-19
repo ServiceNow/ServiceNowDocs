@@ -2,7 +2,10 @@
 title: Explicit Roles in CSM
 description: You can give both internal users and external users access to your instance. However, you might not want both types of users to have the same level of access. To provide added security, every user must have at least one role so that the instance can distinguish between internal and external users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/explicit-roles-in-csm.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 11
@@ -51,19 +54,19 @@ The Customer Service plugin \(com.sn\_customerservice\) activates the Explicit R
 -   To restrict access to processors to internal users, the plugin automatically assigns the snc\_internal role to the **\*** ACL with a **Type** of **processor**.
 -   External users must obtain, at minimum, the snc\_external role to access the instance. This role is automatically assigned to external Customer Service Portal contacts. If the Customer Service Portal is not activated, this role must be manually granted to external users'. Access to records is granted through ACLs.
 
-    **Note:** You can use the `isPublic()` function in scripts for Customer Service Portal to change the privacy setting for a single client-callable script include. For more detail, see [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+    **Note:** You can use the `isPublic()` function in scripts for Customer Service Portal to change the privacy setting for a single client-callable script include. For more detail, see Script includes.
 
--   [Content Management System](https://www.servicenow.com/docs/access?context=c_ContentManagementSystem&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) site access is also affected. CMS is set up with Sites \(content\_site\), Pages \(content\_page\), and other resources. Some of the sites may have the **Login page** configured.
+-   Content Management System site access is also affected. CMS is set up with Sites \(content\_site\), Pages \(content\_page\), and other resources. Some of the sites may have the **Login page** configured.
     -   If CMS sites do not have the **Login page** configured, the public role is automatically added to the **Read Roles** field on Pages \(content\_page\) if the field is empty.
     -   If CMS sites have the **Login page** configured, the snc\_internal role is automatically added to the **Read Roles** field on Pages \(content\_page\) if the field is empty.
--   [Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) site access is also affected.
+-   Service Portal site access is also affected.
 
-    The snc\_internal role is not automatically added to sp\_page, sp\_widget or sp\_instance records. If desired, you can give new records the role by assigning snc\_internal as a default value in the **Roles** field for these records. For details on this process see [Specify a default field value](https://www.servicenow.com/docs/access?context=t_SpecifyingADefaultValue&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    The snc\_internal role is not automatically added to sp\_page, sp\_widget or sp\_instance records. If desired, you can give new records the role by assigning snc\_internal as a default value in the **Roles** field for these records. For details on this process see Specify a default field value.
 
 
-Do not move [System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=zurich&pubname=zurich-application-development&ft:locale=en-US) among instances with and without the Explicit Roles plugin enabled.
+Do not move System update sets among instances with and without the Explicit Roles plugin enabled.
 
-**Note:** This plugin also requires the [Contextual Security Manager](https://www.servicenow.com/docs/access?context=r_ContextualSecurity&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) plugin.
+**Note:** This plugin also requires the Contextual Security Manager plugin.
 
 ## The glide.security.explicit\_roles.internal\_user\_blacklist property
 
@@ -79,7 +82,7 @@ For the Paris release, this property is enabled by default for zBoot instances a
 
 ## Providing table access to external users
 
-You can provide external users access to a table by adding a role to the table that inherits the snc\_external role. For more information, see [Provide external users access to a table](../task/t_ProvideExternalUsersAccessToTables.md).
+You can provide external users access to a table by adding a role to the table that inherits the snc\_external role. For more information, see [Provide external users access to a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_ProvideExternalUsersAccessToTables.md).
 
 ## The hasRoles\(\) method
 
@@ -359,5 +362,5 @@ For indirect cases,such as adding an explicit role to a group \(so that a group 
 
 Note that the ServiceNow AI Platform reports only the first potential collision encountered. If repeated attempts continue to fail after remediation, with a new root cause each time, re-evaluate the relevant user/group/role interdependence more broadly. You may want to rethink how groups and role containments are structured.
 
-**Parent Topic:**[Roles installed with Customer Service Management](../../../product/customer-service-management/reference/r_RolesInstalledWithCustomerService.md)
+**Parent Topic:**[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/r_RolesInstalledWithCustomerService.md)
 

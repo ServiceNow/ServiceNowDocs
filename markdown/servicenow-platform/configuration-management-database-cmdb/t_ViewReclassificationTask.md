@@ -2,6 +2,7 @@
 title: View a reclassification task
 description: Reclassification tasks are created for CIs that couldn't be automatically reclassified during the identification process. Review these tasks to locate the CIs and decide if to reclassify them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/t\_ViewReclassificationTask.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -22,7 +23,7 @@ The properties you use to disable automatic CI reclassification determine whethe
 -   Using any one of the 'glide.class.&lt;reclassification operation&gt;.enabled' properties \(such as **glide.class.upgrade.enabled**\): Reclassification tasks are created.
 -   Using any one of the 'glide.identification\_engine.update\_without\_&lt;reclassification operation&gt;\_enabled' properties \(such as **glide.identification\_engine.update\_without\_switch\_enabled**\): Reclassification tasks aren't created.
 
-For more information about reclassification during IRE processing, see [Configure CI reclassification during IRE processing](../concept/c_CIReclassification.md#).
+For more information about reclassification during IRE processing, see [Configure CI reclassification during IRE processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_CIReclassification.md).
 
 ## Before you begin
 
@@ -46,7 +47,7 @@ Role required: admin or itil
 
 ## What to do next
 
-After examining the task details, you can locate the CI that is noted in the task **Description** and manually reclassify it. For details, see [Reclassify a CI](t_ManuallyReclassifyCI.md).
+After examining the task details, you can locate the CI that is noted in the task **Description** and manually reclassify it. For details, see [Reclassify a CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/t_ManuallyReclassifyCI.md).
 
-**Parent Topic:**[CMDB Identification and Reconciliation \(IRE\)](../concept/c_CMDBIdentifyandReconcile.md)
+**Parent Topic:**[CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md)
 

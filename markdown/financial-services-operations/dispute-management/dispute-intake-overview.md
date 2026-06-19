@@ -2,6 +2,7 @@
 title: About dispute intake
 description: The dispute intake process is designed to capture the relevant information required for capturing dispute details. This can be through the customer or consumer service portal, agent workspace, or via Disputes intake via Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/dispute-intake-overview.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -19,7 +20,7 @@ The dispute intake process is designed to capture the relevant information requi
 
 The dispute intake form is designed to gather all necessary information before submitting a claim to the card network or processing an ACH dispute. The field questionnaire includes a variety of questions that help identify the dispute reason code based on the case type and responses to specific questions such as "Did you authorize this transaction?".
 
-The Event Inquiry application provides a comprehensive overview of the events that led to the dispute. To understand how the Event Inquiry application works and how to customize the dispute intake form, see [Configure intake questionnaire](../task/configuring-additional-questions-for-dispute-intake.md).
+The Event Inquiry application provides a comprehensive overview of the events that led to the dispute. To understand how the Event Inquiry application works and how to customize the dispute intake form, see [Configure intake questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/configuring-additional-questions-for-dispute-intake.md).
 
 The intake process simplifies data collection, making it easier for dispute agents to complete the intake and assess chargeback eligibility. This streamlined approach ensures that all relevant information is captured efficiently, enhancing the overall dispute resolution process.
 
@@ -42,7 +43,7 @@ Key tables in Event Inquiry include:
 
 The Dispute Intake form has been extended into the Dispute Intake table. The table includes both cardholder and agent related questions, while the Dispute Cardholder Intake table addresses cardholder-related questions. These tables are available in Financial Services Card Operations.
 
-![Shows the questionnaire data model tables.](../image/questionnaire-data-model.png "Questionnaire data model")
+\[Omitted image "questionnaire-data-model.png"\] Alt text: Shows the questionnaire data model tables.
 
 ## Unified intake experience with a generic questionnaire design
 
@@ -58,14 +59,14 @@ A generic questionnaire design:
 -   Enables for seamless collection of standardized questions across different transaction networks, with easy updates as needed for each network.
 -   Simplifies the data model across multiple transaction networks, optimizing the dispute processing regardless of the network involved.
 
--   **[Create a dispute case with Dispute Intake in Portal](creating-an-onboarding-case-with-dispute-playbook-for-portal.md)**  
+-   **[Create a dispute case with Dispute Intake in Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/creating-an-onboarding-case-with-dispute-playbook-for-portal.md)**  
 Whether you're a contact or a consumer, you can create a dispute case with a step-by-step guidance for the case flow process in either the Customer Service Portal or Consumer Service Portal, respectively.
--   **[Create a case with Disputes intake via Virtual Agent](create-a-case-with-virtual-agent.md)**  
+-   **[Create a case with Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/create-a-case-with-virtual-agent.md)**  
 Disputes intake via Virtual Agent streamlines the card dispute submission process for cardholders by providing a chat interface.
--   **[Initiate a dispute](../task/create-case-with-intake-workspace.md#)**  
+-   **[Initiate a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/create-case-with-intake-workspace.md)**  
 Create a dispute case and initiate the dispute for a transaction associated with an account. You can enter dispute information, fill out the dispute questionnaire, upload supporting documentation, and submit the case for investigation.
--   **[Create a card disputes case request from the service catalog](../task/create-an-onboarding-request-from-the-service-catalog.md)**  
+-   **[Create a card disputes case request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/create-an-onboarding-request-from-the-service-catalog.md)**  
 Create a card disputes case request from the Customer or Consumer Service Portals by navigating to the service catalog.
 
-**Parent Topic:**[Managing dispute service requests](managing-card-disputes.md)
+**Parent Topic:**[Managing dispute service requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/managing-card-disputes.md)
 

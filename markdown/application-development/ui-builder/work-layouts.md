@@ -2,6 +2,7 @@
 title: Organize components in UI Builder pages
 description: Column layouts organize components on a UI Builder page. Learn how column layouts are used in UI Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/work-layouts.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -19,22 +20,22 @@ Column layouts enable you to create useful and visually appealing pages in an ex
 
 Think about the layout of your page before you begin building it. Analyze what you want to achieve and how complex the page layout must be. These questions determine what type of column layout or layouts you should use.
 
-![Examples of column layouts available in UI Builder.](../image/column-layout-examples.png)
+\[Omitted image "column-layout-examples.png"\] Alt text: Examples of column layouts available in UI Builder.
 
 Column layouts in UI Builder use standards-based Cascading Style Sheets \(CSS\) rules and web layout technologies such as Flexbox, CSS grid, and absolute positioning. So whatever you can do in CSS you can do here. Visit [Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS) to learn more about CSS.
 
 **Note:** If you have existing UI Builder pages created in an earlier release \(Utah or Tokyo\), you can upgrade to Vancouver or Washington DC and add column layouts to the pages.
 
--   **[Column layouts](column-layout.md#)**  
+-   **[Column layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/column-layout.md)**  
 Column layouts are used to design and organize UI Builder pages.
--   **[Upgrading layouts in UI Builder](upgrade-layout-uib.md#)**  
+-   **[Upgrading layouts in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/upgrade-layout-uib.md)**  
 Upgrade layouts created in Quebec and Rome to the new layout system.
--   **[Using Flexbox layouts in UI Builder](flexbox-uib.md#)**  
+-   **[Using Flexbox layouts in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/flexbox-uib.md)**  
 Create a Flexbox layout in UI Builder to build powerful pages so that you can customize with cascading style sheets \(CSS\) and can improve your performance.
--   **[Using CSS Grid layouts to build a page](css-grid-uib.md#)**  
+-   **[Using CSS Grid layouts to build a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/css-grid-uib.md)**  
 Create a CSS Grid layout in UI Builder to build powerful pages so that you can customize with cascading style sheets \(CSS\) and can improve your performance.
--   **[Change the layout of a page created in Quebec or Rome](../task/change-layout.md)**  
+-   **[Change the layout of a page created in Quebec or Rome](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/change-layout.md)**  
 Add and modify your layout design to change the way your page looks. Choose how components are displayed on a page through Cascading Style Sheets \(CSS\) web layout technologies, such as Flexbox and CSS Grid.
 
-**Parent Topic:**[Working in UI Builder](using-ui-builder.md)
+**Parent Topic:**[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/using-ui-builder.md)
 

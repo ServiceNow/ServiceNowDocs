@@ -2,6 +2,7 @@
 title: Data archiving
 description: Move data that's no longer needed every day from a primary table to an archive table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/c\_ArchiveData.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -19,7 +20,7 @@ Move data that's no longer needed every day from a primary table to an archive t
 -   Preserve data for auditing or historical purposes.
 -   Delete archived data after a specified period using a destroy rule.
 
-![Sample Benefits of Archiving Data](../image/SampleBenefitsOfArchivingData.png "Sample Benefits of Archiving Data")
+\[Omitted image "SampleBenefitsOfArchivingData.png"\] Alt text: Sample Benefits of Archiving Data
 
 ## Accessing archive rules
 
@@ -31,5 +32,5 @@ You can define and access archive rules for a table by navigating to **All** &gt
 -   Archive records when table queries are slow. For example, assume the Incident \[incident\] table on your instance has grown and users are reporting that queries against the table are slow. You can create an archive rule with conditions like **\[Closed\] \[relative\] \[on or before\] \[150\] \[Days\] \[ago\]** and **\[Active\] \[is\] \[false\]** to move records to the Archived Incidents \[ar\_incident\] table when they're closed for more than 150 days.
 -   Archive records in a primary table, including any records in other tables that reference those records. For example, you can archive records in the Problem \[problem\] table, and include any incidents that reference a problem record in the Problem in Incident field.
 
-For information on using the data archive feature, see [Archiving records](../../managing-data/concept/archiving-older-records.md).
+For information on using the data archive feature, see [Archiving records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/archiving-older-records.md).
 

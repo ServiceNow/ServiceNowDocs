@@ -2,7 +2,10 @@
 title: Report a knowledge gap
 description: If you cannot find relevant knowledge articles that could help resolve a case, you can report a knowledge gap.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-workspace-report-knowledge-gap.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -21,7 +24,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, 
 
 You can search for and attach knowledge articles to a customer service case. If you cannot find any relevant articles, you can report a knowledge gap. If you have permission, you can also create a knowledge article.
 
-Customer service case managers can use the Demand Insights for Cases dashboard to identify which cases have no or insufficient knowledge coverage. For more information, see [Demand Insights for Cases dashboard](https://www.servicenow.com/docs/access?context=demand-insights-cases-dashboard&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+Customer service case managers can use the Demand Insights for Cases dashboard to identify which cases have no or insufficient knowledge coverage. For more information, see Demand Insights for Cases dashboard.
 
 ## Procedure
 
@@ -31,7 +34,7 @@ Customer service case managers can use the Demand Insights for Cases dashboard t
 
 3.  Search for existing knowledge articles or create a knowledge article to help resolve a case.
 
-4.  Click the More UI Actions icon \(![More UI Actions icon.](../../../product/customer-service-management/image/agent-workspace-more-ui-actions-icon.jpg)\) and then click **Report Knowledge Gap**.
+4.  Click the More UI Actions icon \(\[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: More UI Actions icon.\) and then click **Report Knowledge Gap**.
 
     In the platform interface, click the **Report Knowledge Gap** related link on the Case form and provide information in the resulting pop-up window.
 

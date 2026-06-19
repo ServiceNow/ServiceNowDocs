@@ -2,6 +2,7 @@
 title: Business rules installed with Product Catalog
 description: Product Catalog plugin adds the following business rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/product-catalog/r\_BusinessRulesProductCatalog.html
 release: zurich
 product: Product Catalog
 classification: product-catalog
@@ -22,10 +23,10 @@ Product Catalog plugin adds the following business rules.
 |Sync to Product catalog item|\[pc\_vendor\_cat\_item\]|Updates the corresponding field in the product catalog when a field is updated.|
 |Sync to Product catalog item|\[cmdb\_model\]|Updates the corresponding field in the product catalog when a field is updated.|
 
-**Parent Topic:**[Components installed with Product Catalog](r_InstalledWithProductCatalog.md)
+**Parent Topic:**[Components installed with Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/product-catalog/r_InstalledWithProductCatalog.md)
 
 **Related topics**  
 
 
-[Business rules](https://www.servicenow.com/docs/access?context=c_BusinessRules&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.c_BusinessRules]
 

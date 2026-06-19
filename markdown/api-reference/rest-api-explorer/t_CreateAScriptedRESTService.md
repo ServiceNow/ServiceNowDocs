@@ -2,6 +2,7 @@
 title: Create a scripted REST API
 description: Create a scripted REST API to define web service endpoints.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-api-explorer/t\_CreateAScriptedRESTService.html
 release: zurich
 product: REST API Explorer
 classification: rest-api-explorer
@@ -40,34 +41,34 @@ Role required: web\_service\_admin
 
 After you create the API, configure the service as needed such as by creating resources, assigning ACLs, or specifying supported request and response formats.
 
--   **[Create a scripted REST API resource](t_CreateAScriptedRESTAPIResource.md)**  
+-   **[Create a scripted REST API resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/t_CreateAScriptedRESTAPIResource.md)**  
 Create a scripted REST API resource to define the HTTP method, the processing script, and to override settings from the parent service.
--   **[Define a REST API response header](define-scripted-api-response-header.md)**  
+-   **[Define a REST API response header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/define-scripted-api-response-header.md)**  
 Define one or more REST API response headers in a REST API.
--   **[Define a scripted REST API request header](t_DefineRESTServiceHeaders.md)**  
+-   **[Define a scripted REST API request header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/t_DefineRESTServiceHeaders.md)**  
 Define scripted REST API requestheaders to control which headers the API accepts.
--   **[Associate a request header with a resource](associate-header-api-resource.md)**  
+-   **[Associate a request header with a resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/associate-header-api-resource.md)**  
 Define which request headers are expected for each resource within a scripted REST API.
--   **[Define a REST API schema](define-scripted-rest-api-schema.md)**  
+-   **[Define a REST API schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/define-scripted-rest-api-schema.md)**  
 Specify the expected data structure for requests or responses within a REST API by defining a schema.
--   **[Define an API resource request structure](add-schema-rest-api-request.md)**  
+-   **[Define an API resource request structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/add-schema-rest-api-request.md)**  
 Add a schema to a REST request record to define the request's expected data structure.
--   **[Define an API resource response structure](add-schema-rest-api-response.md)**  
+-   **[Define an API resource response structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/add-schema-rest-api-response.md)**  
 Add a schema and relevant response headers to a REST response to define the response's expected data structure.
--   **[Define available query parameters](t_DefineAvailableQueryParameters.md)**  
+-   **[Define available query parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/t_DefineAvailableQueryParameters.md)**  
 Define available query parameters to control what values a requesting user can pass in the request URI.
--   **[Associate query parameters with a resource](AssocQueryParmResource.md)**  
+-   **[Associate query parameters with a resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/AssocQueryParmResource.md)**  
 Associate scripted REST API query parameters with a resource.
--   **[Automatically generate API request definitions](autogenerate-api-request-definitions.md)**  
+-   **[Automatically generate API request definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/autogenerate-api-request-definitions.md)**  
 Use sample requests made to an API resource to generate request header associations, query parameter associations, and a request schema for that resource.
--   **[Configure a scripted REST API to require an ACL](t_WbSvcRqACL.md)**  
+-   **[Configure a scripted REST API to require an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/t_WbSvcRqACL.md)**  
 Requests to scripted REST APIs respect platform ACLs, and the requesting user must meet any table ACL requirements to access instance data. Additionally, you can configure the scripted REST API to require a specific ACL.
--   **[Enable versioning for a scripted REST API](t_EnableVersioning.md)**  
+-   **[Enable versioning for a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/t_EnableVersioning.md)**  
 Enable versioning for a scripted REST API to provide multiple versions of the API while maintaining compatibility with existing integrations.
--   **[Control request and response content type](../concept/c_SpecifyContentType.md)**  
+-   **[Control request and response content type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_SpecifyContentType.md)**  
 Controls which content types are allowed in scripted REST API requests and responses.
--   **[Controlling maximum request size](../reference/r_ControllingMaxRequestSize.md)**  
+-   **[Controlling maximum request size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/r_ControllingMaxRequestSize.md)**  
 You can specify the maximum file size allowed in a scripted REST API request payload.
 
-**Parent Topic:**[Scripted REST APIs](../concept/c_CustomWebServices.md)
+**Parent Topic:**[Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_CustomWebServices.md)
 

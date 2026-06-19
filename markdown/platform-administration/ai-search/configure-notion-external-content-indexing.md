@@ -2,6 +2,7 @@
 title: Configure Notion for external content indexing
 description: Create and authorize an internal integration in the Notion integrations dashboard to allow the Notion external content connector to access your Notion source system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-notion-external-content-indexing.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -26,7 +27,7 @@ Role required: none
 
 The Notion external content connector retrieves pages and files from your Notion source system using the Notion REST API.
 
-To allow the connector to access your Notion source system via the Notion REST API, you must configure and authorize an internal integration in the Notion integrations dashboard. Your connector admin can use settings copied from the internal integration to configure the Notion external connector for proper connection to your source system.
+To allow the connector to access your Notion source system via the Notion REST API, you must configure and authorize an internal integration in the Notion integrations dashboard. Your connector administrator can use settings copied from the internal integration to configure the Notion external connector for proper connection to your source system.
 
 **Important:** The Notion external content connector doesn't retrieve per-user permissions when running content crawls. All content indexed by the connector is searchable by all mapped users who have access to your configured AI Search experience.
 
@@ -60,7 +61,7 @@ To allow the connector to access your Notion source system via the Notion REST A
 
     3.  Copy the internal integration secret and record it in a secure location.
 
-        **Important:** Your external content connector admin needs this internal integration secret when configuring the Notion external content connector.
+        **Important:** Your external content connector administrator needs this internal integration secret when configuring the Notion external content connector.
 
 3.  Configure the capabilities for your new internal integration.
 
@@ -85,11 +86,11 @@ To allow the connector to access your Notion source system via the Notion REST A
 
 ## What to do next
 
-Provide the internal integration secret that you copied in step [2.c](configure-notion-external-content-indexing.md#copy-internal-integration-secret-step) to your connector admin.
+Provide the internal integration secret that you copied in step [2.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-notion-external-content-indexing.md) to your connector administrator.
 
-Your connector admin needs this item to configure a Notion external content connector to retrieve pages, files, and security principals from your Notion source system.
+Your connector administrator needs this item to configure a Notion external content connector to retrieve pages, files, and security principals from your Notion source system.
 
-For details on creating and configuring a Notion external content connector, see [Create a Notion external content connector](create-ext-cont-connector-notion.md).
+For details on creating and configuring a Notion external content connector, see [Create a Notion external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-notion.md).
 
-**Parent Topic:**[Notion external content connector](../concept/notion-external-content-connector.md)
+**Parent Topic:**[Notion external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/notion-external-content-connector.md)
 

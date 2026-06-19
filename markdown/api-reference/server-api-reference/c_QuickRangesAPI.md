@@ -2,6 +2,7 @@
 title: QuickRanges - Global
 description: The QuickRanges script include provides methods to generate IP network, range, and address entries from a convenient comma-separated input field using conventional Classless Inter-Domain Range \(CIDR\) network notation, hyphenated range entries, or individual IP addresses.Creates a new discovery range item.Returns the IP network, range, and address information to use when generating the entries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_QuickRangesAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The QuickRanges script include provides methods to generate IP network, range, a
 
 You can use this script include with any server-side discovery script.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## QuickRanges - createItem\(String table, String id, String type\)
 

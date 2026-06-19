@@ -2,6 +2,7 @@
 title: Assign roles to your users
 description: Assign roles to your users in the Operational Technology Incident Management application so that you can control their access to the features, capabilities, and data.Assign new roles to users who had the OT Incident User \[ot\_incident\_user\] role through a scheduled job in the Operational Technology Incident Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-incident-management/assign-operational-technology-incident-management-roles.html
 release: zurich
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -23,7 +24,7 @@ Role required: admin or user\_admin
 
 Users with the roles that are listed in the following table can use the Operational Technology Incident Management application.
 
-**Note:** The OT Incident User \[ot\_incident\_user\] role is deprecated. For users who are assigned with this role, you can execute the scheduled job "Assign New OT Incident Roles” to assign them with new Operational Technology Incident Management roles. For more information, see [Assign new roles to your users](assign-operational-technology-incident-management-roles.md#).
+**Note:** The OT Incident User \[ot\_incident\_user\] role is deprecated. For users who are assigned with this role, you can execute the scheduled job "Assign New OT Incident Roles” to assign them with new Operational Technology Incident Management roles. For more information, see [Assign new roles to your users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-incident-management/assign-operational-technology-incident-management-roles.md).
 
 <table id="table_q55_vpq_4nb"><thead><tr><th>
 
@@ -64,11 +65,11 @@ Can create, view, and edit OT incident records.
 
     |Task|User administration feature|
     |----|---------------------------|
-    |**Assign a role to a user**|See [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).|
-    |**Assign a role to a group**|See [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).|
+    |**Assign a role to a user**|See Assign a role to a user.|
+    |**Assign a role to a group**|See Assign a role to a group.|
 
 
-**Parent Topic:**[Configuring Operational Technology Incident Management](../concept/configuring-operational-technology-incident-mgt.md)
+**Parent Topic:**[Configuring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-incident-management/configuring-operational-technology-incident-mgt.md)
 
 ## Assign new roles to your users
 

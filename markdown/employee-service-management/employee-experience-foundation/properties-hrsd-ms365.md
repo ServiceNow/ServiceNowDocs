@@ -2,6 +2,7 @@
 title: Properties installed with HR Service Delivery for Microsoft 365
 description: The following properties are installed with the HR Service Delivery for Microsoft 365 plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/properties-hrsd-ms365.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -71,5 +72,5 @@ List of HR Case table fields that are displayed as recommended participants for 
 -   Default value: opened\_for,subject\_person,collaborators
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow for Microsoft Teams reference](reference-sn-teams.md)
+</table>**Parent Topic:**[ServiceNow for Microsoft Teams reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/reference-sn-teams.md)
 

@@ -2,6 +2,7 @@
 title: TuneUp Your Platform Analytics
 description: The TuneUp Your Platform Analytics Accelerator provides guidance on maintaining and governing Platform Analytics health to optimize value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/tuneup-platform-analytics.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

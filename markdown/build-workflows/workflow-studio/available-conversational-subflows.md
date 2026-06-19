@@ -2,6 +2,7 @@
 title: Available conversational subflows
 description: Workflow Studio provides a set of subflows that are preconfigured to be compatible with and callable by conversational interfaces such as Now Assist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/available-conversational-subflows.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -56,20 +57,20 @@ sn\_conv\_fa.csa\_email\_write
 
 |Name|Application Scope|User roles required|
 |----|-----------------|-------------------|
-|Look up Opportunities|[Microsoft Dynamics CRM Spoke](https://www.servicenow.com/docs/access?context=microsoft-dynamics-crm-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)|admin|
-|Look up Contacts|[Microsoft Dynamics CRM Spoke](https://www.servicenow.com/docs/access?context=microsoft-dynamics-crm-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)|admin|
-|Look up Accounts|[Microsoft Dynamics CRM Spoke](https://www.servicenow.com/docs/access?context=microsoft-dynamics-crm-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)|admin|
-|Look up Leads|[Microsoft Dynamics CRM Spoke](https://www.servicenow.com/docs/access?context=microsoft-dynamics-crm-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)|admin|
-|Create Lead|[Microsoft Dynamics CRM Spoke](https://www.servicenow.com/docs/access?context=microsoft-dynamics-crm-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)|admin|
-|Add User to Group using Email Address|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://www.servicenow.com/docs/access?context=microsoft-azure-ad-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)|admin|
-|Add User to Group|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://www.servicenow.com/docs/access?context=microsoft-azure-ad-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)|admin|
-|Look up Direct Reports|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://www.servicenow.com/docs/access?context=microsoft-azure-ad-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)|admin|
-|Look up Group Members|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://www.servicenow.com/docs/access?context=microsoft-azure-ad-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)|admin|
-|Look up Groups|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://www.servicenow.com/docs/access?context=microsoft-azure-ad-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)|admin|
-|Look up Users|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://www.servicenow.com/docs/access?context=microsoft-azure-ad-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)|admin|
-|Look up Purchase Order|[Coupa Spoke](https://www.servicenow.com/docs/access?context=coupa-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)|admin|
-|Look up Images|[Amazon EC2 Spoke](https://www.servicenow.com/docs/access?context=amazon-ec2-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)|admin|
-|Run Instances|[Amazon EC2 Spoke](https://www.servicenow.com/docs/access?context=amazon-ec2-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)|admin|
+|Look up Opportunities||admin|
+|Look up Contacts||admin|
+|Look up Accounts||admin|
+|Look up Leads||admin|
+|Create Lead||admin|
+|Add User to Group using Email Address||admin|
+|Add User to Group||admin|
+|Look up Direct Reports||admin|
+|Look up Group Members||admin|
+|Look up Groups||admin|
+|Look up Users||admin|
+|Look up Purchase Order||admin|
+|Look up Images||admin|
+|Run Instances||admin|
 
-**Parent Topic:**[Conversational subflows](../concept/conversational-subflows.md)
+**Parent Topic:**[Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/conversational-subflows.md)
 

@@ -2,6 +2,7 @@
 title: Talent Profile
 description: Talent profile provides an aggregated view of internal and external talent types, enabling quicker hiring decisions by consolidating information on applicants, employees, contingent workers, and alumni in one place.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/talent-profile-landing.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,24 +20,24 @@ Talent profile provides an aggregated view of internal and external talent types
 
 <table id="table_iky_zqc_1gc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Talent profile](exploring-talent-profile.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/exploring-talent-profile.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Install and configure the Talent profile application](config-tp.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and configure the Talent profile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/config-tp.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-3-person.svg)Learn how to use Talent profile](config-t-pool.md)
+[Use\[Omitted image "bus-3-person.svg"\] Alt text:Learn how to use Talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/config-t-pool.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Important reference information about Talent profile](talent-profile-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Important reference information about Talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/talent-profile-reference.md)
 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [Now Assist for HR Service Delivery \(HRSD\) release notes](https://www.servicenow.com/docs/access?context=hr-na-rn&version=zurich&pubname=zurich-release-notes&ft:locale=en-US).
+-   Learn more about what's new and changed, see the .
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

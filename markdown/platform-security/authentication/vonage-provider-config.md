@@ -2,6 +2,7 @@
 title: Vonage Provider custom configuration \(Tutorial\)
 description: Configure a SMS with Vonage Provider to ensure every user can login securely.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/vonage-provider-config.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -23,13 +24,13 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Web Services** &gt; **Outbound** &gt; **REST Message** and perform the REST message configuration based on the information from Vonage API Dashboard.
 
-    ![Vonage API Dashboard](../../../administer/security-center/images/vonage-dashboard.png)
+    \[Omitted image "vonage-dashboard.png"\] Alt text: Vonage API Dashboard
 
 2.  Click **New** to create a new **REST Message**.
 
 3.  Provide a **Name** and **Endpoint**.
 
-    ![Vonage REST Message configuration](../../../administer/security-center/images/vonage-rest.png)
+    \[Omitted image "vonage-rest.png"\] Alt text: Vonage REST Message configuration
 
 4.  Click **Submit**.
 
@@ -40,7 +41,7 @@ Role required: admin
     -   Endpoint: `https://${baseURL}/sms/json`
     -   Content:`api_key=${apiKey}&api_secret=${apiSecret}&text=${text}&from=${from}&to=${to}`
     -   Content-Type: `application/x-www-form-urlencoded`
-    ![HTTP Method](../../../administer/security-center/images/vonage-http-method.png)
+    \[Omitted image "vonage-http-method.png"\] Alt text: HTTP Method
 
 7.  Update the record.
 
@@ -52,18 +53,18 @@ Role required: admin
 
     The apiKey and secret are located in your Vonage account settings in the Vonage Dashboard.
 
-    ![Script](../../../administer/security-center/images/vonage-script.png)
+    \[Omitted image "vonage-script.png"\] Alt text: Script
 
 10. Create a custom Table Phone Numbers with two columns, For example:
 
     -   **Column Label**: User, **Type**: Reference, **Reference**: User \(sys\_user\).
     -   **Column Label**: Phone Number, **Type**: Phone Number\(E164\).
-    ![Phone Number](../../../administer/security-center/images/vonage-phone-number.png)
+    \[Omitted image "vonage-phone-number.png"\] Alt text: Phone Number
 
 11. Create a custom provider in Multi-Factor Provider table.
 
-    ![Provider Configuration page](../../../administer/security-center/images/vonage-provider-config.png)
+    \[Omitted image "vonage-provider-config.png"\] Alt text: Provider Configuration page
 
-    To know more about provider configuration, see [Configure MFA Provider](configure-mfa-provider.md).
+    To know more about provider configuration, see [Configure MFA Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/configure-mfa-provider.md).
 
 

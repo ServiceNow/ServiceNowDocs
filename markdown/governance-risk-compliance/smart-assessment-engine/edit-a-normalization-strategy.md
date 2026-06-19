@@ -2,6 +2,7 @@
 title: Edit a normalization strategy
 description: You can edit a normalization strategy only if it is in a draft state and not being used by any category.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/smart-assessment-engine/edit-a-normalization-strategy.html
 release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine

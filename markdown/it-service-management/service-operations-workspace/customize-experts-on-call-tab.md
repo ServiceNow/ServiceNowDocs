@@ -2,6 +2,7 @@
 title: Configure the experts On-call panel for an incident
 description: Configure the Experts on-call panel for an incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/customize-experts-on-call-tab.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -106,5 +107,5 @@ Boolean – return true to enable the Expert On-call for this table.
 </table>5.  Select **Update**.
 
 
-**Parent Topic:**[Configuring record pages in Service Operations Workspace for ITSM](../concept/configuring-record-pages-sow-itsm.md)
+**Parent Topic:**[Configuring record pages in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/configuring-record-pages-sow-itsm.md)
 

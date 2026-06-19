@@ -2,6 +2,7 @@
 title: MID Server Deployment Request
 description: After creating a MID server profile, the user can make a new deployment request to prepare the deployment process.​ A deployment request can be different for different container orchestrators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/mid-server/containerized-mid-deploy-request.html
 release: zurich
 product: MID Server
 classification: mid-server

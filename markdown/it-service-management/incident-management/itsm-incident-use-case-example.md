@@ -2,6 +2,7 @@
 title: Incident Management use case
 description: Incident Management restores normal service operation, while also minimizing impact to your business and maintaining the quality of your data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/itsm-incident-use-case-example.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -44,5 +45,5 @@ Use the Incident form to see the impact of an incident and restore affected serv
 4.  \(Optional\) Add the **Affected CI** related list \[task\_ci\] to identify the CIs that might have caused the incident.
 5.  \(Optional\) Add the **Impacted Services** related list \[task\_cmdb\_ci\_service\] to see the services and CIs that are impacted by the incident.
 
-**Parent Topic:**[Applying CSDM guidelines to Incident Management](itsm-incident-use-case-product-view.md)
+**Parent Topic:**[Applying CSDM guidelines to Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/itsm-incident-use-case-product-view.md)
 

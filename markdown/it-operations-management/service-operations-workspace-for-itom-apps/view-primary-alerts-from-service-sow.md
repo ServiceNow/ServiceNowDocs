@@ -2,6 +2,7 @@
 title: View primary alerts associated with a service
 description: View the primary alerts associated with a service to help troubleshoot issues with the service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/view-primary-alerts-from-service-sow.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -23,17 +24,17 @@ Role required: evt\_mgmt\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the left navigation bar, select the Service Dashboard icon: ![Service Dashboard icon](../image/icon-service-dashboard.png).
+2.  From the left navigation bar, select the Service Dashboard icon: \[Omitted image "icon-service-dashboard.png"\] Alt text: Service Dashboard icon.
 
     The Service Dashboard page appears.
 
-    **Note:** The application services that appear in the Service Dashboard are those added to the Impact Filter Services list. For more information, see [Add application services for impact calculation](../../event-management/task/add-impact-cal-services.md).
+    **Note:** The application services that appear in the Service Dashboard are those added to the Impact Filter Services list. For more information, see [Add application services for impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/add-impact-cal-services.md).
 
 3.  Select a service tile.
 
     A pop-up window displays the business criticality and severity of a service.
 
-    ![Application service tile with options to see service details and service map.](../image/sow-itom-service-app-tile-options.png)
+    \[Omitted image "sow-itom-service-app-tile-options.png"\] Alt text: Application service tile with options to see service details and service map.
 
 4.  Select **Service Details**.
 
@@ -43,7 +44,7 @@ Role required: evt\_mgmt\_admin
 
 6.  From the left pane, select **Related Alerts**.
 
-    ![View primary alerts associated with the service.](../image/sow-related-alerts.png)
+    \[Omitted image "sow-related-alerts.png"\] Alt text: View primary alerts associated with the service.
 
     View details about an alert by selecting its number in the **Number** column.
 

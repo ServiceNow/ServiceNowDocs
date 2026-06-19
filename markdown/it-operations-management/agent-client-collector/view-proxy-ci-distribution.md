@@ -2,6 +2,7 @@
 title: Enable load balancing between proxy agents in a cluster
 description: Enable load balancing between proxy agents in a cluster so that if an agent is not functioning properly, monitored CIs are redistributed to another agent. After enabling load balancing, you can view the CIs monitored by each proxy agent in a policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/view-proxy-ci-distribution.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector

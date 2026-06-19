@@ -2,6 +2,7 @@
 title: Embed video content in help topics
 description: You can embed a link to video content in a custom Embedded Help topic. YouTube and Vimeo video content is supported.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/embed-video-help-content.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
@@ -23,9 +24,9 @@ Role required: embedded\_help\_admin or admin
 
 You cannot use the insert/edit video icon in the HTML editor to embed the video. You must enter the source code.
 
-![Use the source code icon, not the insert video icon, to embed video.](../image/html-editor-video.png "HTML editor icons")
+\[Omitted image "html-editor-video.png"\] Alt text: Use the source code icon, not the insert video icon, to embed video.
 
-The administrator can disable the ability for users to see embedded video in the [Embedded Help system properties](../reference/embedded-help-sys-properties.md).
+The administrator can disable the ability for users to see embedded video in the [Embedded Help system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/embedded-help-sys-properties.md).
 
 ## Procedure
 
@@ -81,5 +82,5 @@ The administrator can disable the ability for users to see embedded video in the
 7.  To test that the video appears, open the page that displays the content you just updated, and then open the help panel.
 
 
-**Parent Topic:**[Configure Embedded Help](../concept/configuring-embedded-help.md)
+**Parent Topic:**[Configure Embedded Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/configuring-embedded-help.md)
 

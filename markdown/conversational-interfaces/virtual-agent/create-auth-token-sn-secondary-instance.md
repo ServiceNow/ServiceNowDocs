@@ -2,6 +2,7 @@
 title: Create an auth token in the ServiceNow secondary instance
 description: To use ServiceNow Virtual Agent as a secondary bot with Virtual Agent Bot Interconnect, create an authentication token in the secondary instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/create-auth-token-sn-secondary-instance.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ To use ServiceNow® Virtual Agent as a secondary bot with Virtual Agent Bot Inte
 
 ## Before you begin
 
-[Create a connection and credential in Virtual Agent Bot Interconnect](create-connection-credential-two-sn-instances.md).
+[Create a connection and credential in Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-connection-credential-two-sn-instances.md).
 
 Role required: admin
 
@@ -69,9 +70,9 @@ Ensure that the type of authentication \(Static or Hash\) and token or hash secr
 12. Click **Update**.
 
 
-**Parent Topic:**[Using ServiceNow Virtual Agent as a secondary bot with Virtual Agent Bot Interconnect](../concept/using-sn-secondary-bot-with-sn-primary.md)
+**Parent Topic:**[Using ServiceNow Virtual Agent as a secondary bot with Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/using-sn-secondary-bot-with-sn-primary.md)
 
-**Previous topic:**[Create a connection and credential in Virtual Agent Bot Interconnect](create-connection-credential-two-sn-instances-uploading-attachments.md)
+**Previous topic:**[Create a connection and credential in Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-connection-credential-two-sn-instances-uploading-attachments.md)
 
-**Next topic:**[Create a Virtual Agent Bot Interconnect shell topic to call Virtual Agent secondary topics](create-va-topic-sn-primary-secondary-config.md)
+**Next topic:**[Create a Virtual Agent Bot Interconnect shell topic to call Virtual Agent secondary topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-va-topic-sn-primary-secondary-config.md)
 

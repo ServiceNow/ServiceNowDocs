@@ -2,6 +2,7 @@
 title: Discovery for Alibaba Cloud
 description: Alibaba Cloud discovery is one of the overall Cloud discovery offerings within the IT Operations Management \(ITOM\) Visibility framework. It’s an automated process used to scan and identify Alibaba Cloud resources within your organization's cloud infrastructure. This discovery process is critical for maintaining an accurate and trustworthy data foundation—the Configuration Management Database \(CMDB\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/alibaba-cloud-discovery.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -22,7 +23,7 @@ Using Discovery and Service Mapping Patterns to perform horizontal discovery ena
 
 Discovery and Service Mapping Patterns create configuration items \(CIs\) for your Alibaba Cloud resources. Additionally, patterns discover the relationships between your organization's Alibaba Cloud resources, such as Hosted On :: Hosts.
 
-See [Alibaba Cloud discovery using patterns](../../service-mapping/concept/alibaba-cloud-discovery-pattern.md) to learn about all Alibaba Cloud resources you can discover using Patterns.
+See [Alibaba Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/alibaba-cloud-discovery-pattern.md) to learn about all Alibaba Cloud resources you can discover using Patterns.
 
 ## Verify the REST API Permissions
 
@@ -76,7 +77,7 @@ Install the store applications and update them on every store release:-   Discov
 
 </td><td>
 
-[ITOM Store upgrades](store-upgrades-landing.md)
+[ITOM Store upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/store-upgrades-landing.md)
 
 </td></tr><tr><td>
 
@@ -93,7 +94,7 @@ admin
 
 </td><td>
 
-[Create the MID Server user and grant the role](https://www.servicenow.com/docs/access?context=t_SetupMIDServerRole&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+
 
 </td></tr><tr><td>
 
@@ -109,9 +110,9 @@ Install a MID Server.
 
 </td><td>
 
--   [Install a MID Server on Linux](https://www.servicenow.com/docs/access?context=t_InstallAMIDServerOnLinux&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
--   [Install a MID Server on Windows](https://www.servicenow.com/docs/access?context=mid-server-install-prereqs&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
--   [Install and configure MID Servers to access cloud environments](../../it-operations-management/task/mid-server-configuration-cloud.md)
+-   
+-   
+-   [Install and configure MID Servers to access cloud environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/mid-server-configuration-cloud.md)
 
 </td></tr><tr><td>
 
@@ -127,7 +128,7 @@ Validate that the MID Server is installed correctly.
 
 </td><td>
 
-[Validate the MID Server](https://www.servicenow.com/docs/access?context=t_ValidateAMIDServer&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+
 
 </td></tr><tr><td>
 
@@ -143,7 +144,7 @@ Assigning users with discovery\_admin roles and giving them permission for disco
 
 </td><td>
 
-[Managing roles](https://www.servicenow.com/docs/access?context=ua-creating-roles&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+
 
 </td></tr><tr><td>
 
@@ -159,7 +160,7 @@ Creating Alibaba Cloud service accounts
 
 </td><td>
 
-[Set up Alibaba Cloud service accounts](../task/set-up-alibaba-cloud-service-account.md)
+[Set up Alibaba Cloud service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/set-up-alibaba-cloud-service-account.md)
 
 </td></tr><tr><td>
 
@@ -175,7 +176,7 @@ Configuring Alibaba Cloud API credentials
 
 </td><td>
 
-[Create Alibaba Cloud API Credentials](../task/create-alibaba-cloud-api-credentials.md)
+[Create Alibaba Cloud API Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/create-alibaba-cloud-api-credentials.md)
 
 </td></tr><tr><td>
 
@@ -191,7 +192,7 @@ Use Discovery and Service Mapping Patterns
 
 </td><td>
 
-[Alibaba Cloud discovery using patterns](../../service-mapping/concept/alibaba-cloud-discovery-pattern.md)
+[Alibaba Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/alibaba-cloud-discovery-pattern.md)
 
 </td></tr><tr><td>
 
@@ -207,8 +208,8 @@ Set up a discovery schedule for Alibaba Cloud
 
 </td><td>
 
--   [Create a Discovery schedule for Alibaba Cloud](../task/create-alibaba-cloud-discovery-schedule.md)
--   [Create an Alibaba Cloud Discovery schedule in Discovery Admin Workspace](../task/create-alibaba-schedule-DAW.md)
+-   [Create a Discovery schedule for Alibaba Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/create-alibaba-cloud-discovery-schedule.md)
+-   [Create an Alibaba Cloud Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/create-alibaba-schedule-DAW.md)
 
 </td></tr></tbody>
 </table>

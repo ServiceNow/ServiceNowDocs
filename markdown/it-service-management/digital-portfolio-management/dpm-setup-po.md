@@ -2,6 +2,7 @@
 title: Configure Digital Portfolio Management to integrate with Process Mining
 description: Use Process Mining in Digital Portfolio Management \(DPM\) to see the status of a key performance indicators \(KPI\) on your solutions, and adjust as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-portfolio-management/dpm-setup-po.html
 release: zurich
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -33,7 +34,7 @@ In general, to use Process Mining in DPM, you access the KPI group and select **
     3.  Verify that the system property **sn\_dpm.enable.po.dpm** is set to true. If not, then select it, and set the Value field to true \(you may get a text banner that provides a link to edit the record\).
     4.  Select **Update**.
 
-The primary role to use Process Mining is Process Mining Analyst \[process\_optimization\_analyst\]. For details about properties, roles, and scheduled jobs, see [Process Mining components for Digital Portfolio Management](../reference/dpm-po-integration.md).
+The primary role to use Process Mining is Process Mining Analyst \[process\_optimization\_analyst\]. For details about properties, roles, and scheduled jobs, see [Process Mining components for Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-po-integration.md).
 
-**Parent Topic:**[Configuring Digital Portfolio Management](dpm-configure-cfw.md)
+**Parent Topic:**[Configuring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-configure-cfw.md)
 

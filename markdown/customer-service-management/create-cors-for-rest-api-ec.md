@@ -2,7 +2,10 @@
 title: Configure a CORS rule for Engagement Messenger
 description: Configure a cross-origin resource sharing \(CORS\) rule to enable cross-domain requests between Engagement Messenger and your website where you want to deploy the messenger.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-cors-for-rest-api-ec.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -19,8 +22,8 @@ Role required: admin
 
 You must complete the following tasks:
 
--   [Configure Engagement Messenger](create-engagement-messenger-module.md).
--   [Create an identity provider \(IdP\) for Engagement Messenger](../concept/create-identity-providers-for-engagement-messenger.md).
+-   [Configure Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-engagement-messenger-module.md).
+-   [Create an identity provider \(IdP\) for Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-identity-providers-for-engagement-messenger.md).
 
 ## About this task
 
@@ -110,5 +113,5 @@ Comma-separated list of HTTP headers to send in the response. You can leave this
 
 ## What to do next
 
-[Create HTTP response headers for Engagement Messenger](create-http-response-headers-for-ec.md).
+[Create HTTP response headers for Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-http-response-headers-for-ec.md).
 

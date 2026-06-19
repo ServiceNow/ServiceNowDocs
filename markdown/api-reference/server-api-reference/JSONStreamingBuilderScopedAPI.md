@@ -2,6 +2,7 @@
 title: JSONStreamingBuilder - Scoped
 description: Create a builder object used to build a large streaming JSON payload to use in a REST or SOAP request to send bulk data to a third-party API. You can also create the payload as a JSON string for a non-streaming option.Instantiates the JSONStreamingBuilder object.Returns a JSONStreamingAPI object.Sets a time when the attachment expires. Must also call the withAttachment\(\) method. If you do not call this method, the attachment expires two hours from the time the attachment is created.Creates the JSON object as a streaming attachment and stores it in the Streaming Attachments \[streaming\_attachment\] table. If you do not call this method, the API creates the payload as a JSON string.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/JSONStreamingBuilderScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 Create a builder object used to build a large streaming JSON payload to use in a REST or SOAP request to send bulk data to a third-party API. You can also create the payload as a JSON string for a non-streaming option.
 
-Use these methods in the Workflow Studio script step with the `sn_ih` namespace identifier. For example, you can use this API to create a JSON payload in the Workflow Studio Script step and pass the returned value to the REST step to send the request to a third-party service. For more information, see the Workflow Studio [Script step](https://www.servicenow.com/docs/access?context=javascript-step-action-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+Use these methods in the Workflow Studio script step with the `sn_ih` namespace identifier. For example, you can use this API to create a JSON payload in the Workflow Studio Script step and pass the returned value to the REST step to send the request to a third-party service. For more information, see the Workflow Studio Script step.
 
 You can only use this API within the Workflow Studio environment.
 
@@ -168,7 +169,7 @@ Output:
 }
 ```
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## JSONStreamingBuilder - JSONStreamingBuilder\(\)
 
@@ -268,7 +269,7 @@ expiresAt
 
 </td><td>
 
-[GlideDateTime](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#)
+[GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideDateTimeScoped.md)
 
 </td><td>
 

@@ -2,6 +2,7 @@
 title: Set up HR Service Delivery Conversational SMS service channel
 description: Configure the Conversational SMS service channel store app for HR Service Delivery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/setup-hr-sms-service-channel.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -33,21 +34,21 @@ The HR Service Delivery base system includes the **HR SMS** service channel queu
 
     **Note:** By default, most of the form is populated for you. **Capacity and Utilization** fields are set to 1 for **Default work item size** and 4 for **Default capacity**. You can change these, and any form values, if desired.
 
-    ![HR SMS Service Channel SMS form](../image/setup-hr-sms-service-channel.png)
+    \[Omitted image "setup-hr-sms-service-channel.png"\] Alt text: HR SMS Service Channel SMS form
 
 4.  Click the Queues related list to view and configure the HR SMS queue.
 
-    ![HR SMS Queues related list](../image/Queues-related-list-hr-sms.png)
+    \[Omitted image "Queues-related-list-hr-sms.png"\] Alt text: HR SMS Queues related list
 
 5.  View the default configurations on the Queue HR SMS form, ensuring the **Active** check box is checked.
 
 6.  Modify values as you desire.
 
-    ![Queue HR SMS form configuration](../image/hr-sms-queue-configuration.png)
+    \[Omitted image "hr-sms-queue-configuration.png"\] Alt text: Queue HR SMS form configuration
 
 7.  Click on any of the related lists to view or modify default configured values.
 
-    **Note:** Notice that the Assignment Eligibility related list defaults to the **HR SMS Support Group**. Manually add users to this group to route assignments. Refer to [Add a user to a group](https://www.servicenow.com/docs/access?context=t_CreateAGroup&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) to learn how to add users to this group.
+    **Note:** Notice that the Assignment Eligibility related list defaults to the **HR SMS Support Group**. Manually add users to this group to route assignments. Refer to Add a user to a group to learn how to add users to this group.
 
 8.  Click **Update** to save any changes you made.
 
@@ -57,10 +58,10 @@ The HR Service Delivery base system includes the **HR SMS** service channel queu
 
 11. In the Presence State Available form, select **SMS** in the **Service channels Available** column and move it to the **Selected** column using the right-pointing arrow.
 
-    ![HR SMS Advanced Work Assignment Presence States configuration](../image/sms-hr-presence-state-config.png)
+    \[Omitted image "sms-hr-presence-state-config.png"\] Alt text: HR SMS Advanced Work Assignment Presence States configuration
 
 12. Click **Update**.
 
-    **Note:** For complete information regarding Conversational SMS service channels and setup guidance, refer to [Conversational SMS service channel](https://www.servicenow.com/docs/access?context=conversation-sms-service-channel-store-app&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+    **Note:** For complete information regarding Conversational SMS service channels and setup guidance, refer to Conversational SMS service channel.
 
 

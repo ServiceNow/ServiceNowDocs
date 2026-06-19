@@ -2,6 +2,7 @@
 title: Cost plan updates and cost recalculation in demand currency
 description: Updating the unit cost, quantity, or fiscal period of a cost plan updates all related amount fields in the cost plan and its breakdowns. The amounts in the related demand fields are recalculated and reflected in the demand currency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/cost-plan-recalculation-in-dw.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning

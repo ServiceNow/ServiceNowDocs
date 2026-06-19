@@ -2,6 +2,7 @@
 title: Create New Action Item form
 description: Use the Create New Action Item form to define the plan of action, assign responsibilities, set priorities, and establish milestones for the action item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/create-new-action-item-form.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -40,5 +41,5 @@ See the following table for a description of the field values.
 |Assignee comment|Comments or actions taken by the assignee responsible for implementing the action item. This field is read only for risk response task owner.|
 |Additional comments|Additional information or details about the action item.|
 
-**Parent Topic:**[Create an action item in the risk response task](../task/create-action-item-risk-response-task.md)
+**Parent Topic:**[Create an action item in the risk response task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/create-action-item-risk-response-task.md)
 

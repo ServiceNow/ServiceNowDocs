@@ -2,6 +2,7 @@
 title: Review a utility customization for Agile Development 2.0
 description: Use the Agile\_2.0\_Upgrade\_Diagnostics update set to analyze your customizations on the platform artifacts \(such as form layout, list layout, business rules, and client scripts\) that are modified as part of the Agile Development 2.0 enhancements. Delete the customizations prior to upgrade.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/utility-review-customizations.html
 release: zurich
 product: Agile Development
 classification: agile-development
@@ -22,7 +23,7 @@ Use the Agile\_2.0\_Upgrade\_Diagnostics update set to analyze your customizatio
 
 ## About this task
 
-**Important:** Agile Development 1.0 and its features such as Sprint burndown chart and release burndown chart are deprecated and no longer available. [Agile Development 2.0](../reference/agile-landing-page.md) provides the latest experience for supporting your Agile work methodology.
+**Important:** Agile Development 1.0 and its features such as Sprint burndown chart and release burndown chart are deprecated and no longer available. [Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/agile-landing-page.md) provides the latest experience for supporting your Agile work methodology.
 
 ## Procedure
 
@@ -41,5 +42,5 @@ Use the Agile\_2.0\_Upgrade\_Diagnostics update set to analyze your customizatio
 6.  Click the file name of the artifact, or click the **View Update** link to review the latest update on the file.
 
 
-**Parent Topic:**[Agile Development 2.0 enhancements over Agile Development 1.0](../concept/appendix.md)
+**Parent Topic:**[Agile Development 2.0 enhancements over Agile Development 1.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/appendix.md)
 

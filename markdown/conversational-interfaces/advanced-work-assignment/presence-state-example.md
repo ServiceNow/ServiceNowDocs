@@ -2,6 +2,7 @@
 title: Make your service channel available in Agent Workspace
 description: Make your service channel available in Agent Workspace so that agents can receive change requests in their inbox.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/presence-state-example.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -37,5 +38,5 @@ Role required: awa\_admin or admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configuring Advanced Work Assignment](installing-awa.md)
+**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

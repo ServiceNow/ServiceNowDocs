@@ -2,6 +2,7 @@
 title: Configuring Service Exchange Order Management for Providers
 description: Configure the Service Exchange Order Management for Providers application, which enables providers to use Order Management to create and fulfill product orders over Service Exchange. Providers publish the product offerings and service specifications as remote catalog items so that consumers can order from the Service Catalog on their own instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configuring-sb-om.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -33,23 +34,11 @@ Role
 
 </th></tr></thead><tbody><tr><td>
 
-[Install Service Exchange for Providers](https://www.servicenow.com/docs/access?context=install-service-bridge-v2-provider&version=zurich&pubname=zurich-service-bridge&ft:locale=en-US)
+
 
 </td><td>
 
-Install the Service Exchange for Providers application from the ServiceNow Store. For more information on configuring this application, see [Installing and configuring Service Exchange for Providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-configure-provider&version=zurich&pubname=zurich-service-bridge&ft:locale=en-US).
-
-</td><td>
-
-Admin
-
-</td></tr><tr><td>
-
-[Install Service Exchange for Consumers](https://www.servicenow.com/docs/access?context=install-service-bridge-v2-customer&version=zurich&pubname=zurich-service-bridge&ft:locale=en-US)
-
-</td><td>
-
-Install the Service Exchange for Consumers application from theServiceNow Store. For details on configuring this application, see [Installing and configuring Service Exchange for Consumers](https://www.servicenow.com/docs/access?context=service-bridge-v2-install&version=zurich&pubname=zurich-service-bridge&ft:locale=en-US).
+Install the Service Exchange for Providers application from the ServiceNow Store. For more information on configuring this application, see .
 
 </td><td>
 
@@ -57,7 +46,19 @@ Admin
 
 </td></tr><tr><td>
 
-[Install Service Exchange Order Management for Providers](../task/install-service-bridge-om-providers.md)
+
+
+</td><td>
+
+Install the Service Exchange for Consumers application from theServiceNow Store. For details on configuring this application, see .
+
+</td><td>
+
+Admin
+
+</td></tr><tr><td>
+
+[Install Service Exchange Order Management for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/install-service-bridge-om-providers.md)
 
 </td><td>
 
@@ -69,7 +70,7 @@ Admin
 
 </td></tr><tr><td>
 
-[Create a product offering for a remote catalog item](../task/create-sb-product-offerings.md)
+[Create a product offering for a remote catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-sb-product-offerings.md)
 
 </td><td>
 
@@ -81,7 +82,7 @@ Product catalog admin or manager
 
 </td></tr><tr><td>
 
-[Create a service specification for a remote catalog item](../task/create-sb-service-specs.md)
+[Create a service specification for a remote catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-sb-service-specs.md)
 
 </td><td>
 
@@ -93,7 +94,7 @@ Product catalog admin or manager
 
 </td></tr><tr><td>
 
-[Associate consumer criteria to a remote record producer](../task/associate-criteria-remote-catalog.md)
+[Associate consumer criteria to a remote record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/associate-criteria-remote-catalog.md)
 
 </td><td>
 
@@ -117,7 +118,7 @@ Review the remote record producer for managing inventory and associate the custo
 
 </td></tr><tr><td>
 
-[Activate the remote record producer](../task/activate-entitlements-sb-consumer.md)
+[Activate the remote record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/activate-entitlements-sb-consumer.md)
 
 </td><td>
 
@@ -129,7 +130,7 @@ Service Exchange consumer admin
 
 </td></tr><tr><td>
 
-[Retire a remote catalog item](../task/retire-product-offer.md)
+[Retire a remote catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/retire-product-offer.md)
 
 </td><td>
 

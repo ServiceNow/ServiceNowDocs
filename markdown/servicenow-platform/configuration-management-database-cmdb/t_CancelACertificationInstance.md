@@ -2,6 +2,7 @@
 title: Cancel a certification instance
 description: Users with the certification\_admin role can cancel a certification instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/t\_CancelACertificationInstance.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

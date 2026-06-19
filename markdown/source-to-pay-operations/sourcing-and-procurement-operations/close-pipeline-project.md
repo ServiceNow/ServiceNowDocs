@@ -2,6 +2,7 @@
 title: Close a pipeline project
 description: As a sourcing manager, you can close the pipeline project when all the activities related to the sourcing pipeline project have been completed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/close-pipeline-project.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -9,7 +10,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [close pipeline project]
-breadcrumb: [Using Sourcing Pipeline Management, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Using Sourcing Pipeline Management, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Close a pipeline project
@@ -28,7 +29,7 @@ Describes a procedure to close a pipeline project in Source-to-Pay Workspace.
 
 1.  Navigate to **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon.](../../supplier-lifecycle-operations/image/cases-list-icon.png)\) and do one of the following:
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and do one of the following:
 
     -   Navigate to **Lists** &gt; **My work** &gt; **Pipeline projects**.
     -   Navigate to **Lists** &gt; **All work** &gt; **Pipeline projects**.
@@ -40,7 +41,7 @@ Describes a procedure to close a pipeline project in Source-to-Pay Workspace.
 
     The Close pipeline project dialog box is displayed.
 
-    ![Close pipeline project.](../image/pipeline-close.png)
+    \[Omitted image "pipeline-close.png"\] Alt text: Close pipeline project.
 
     The **Hard savings** field is auto-populated and displays the cumulative savings from all sourcing events associated with the pipeline project. This value is calculated by summing the Negotiated savings from all closed purchase requisition lines \(PRLs\) within the sourcing events.
 
@@ -55,5 +56,5 @@ Describes a procedure to close a pipeline project in Source-to-Pay Workspace.
     The pipeline project moves to the Closed Complete state.
 
 
-**Parent Topic:**[Using Sourcing Pipeline Management](../concept/use-pipeline-sourcing-mgmt.md)
+**Parent Topic:**[Using Sourcing Pipeline Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/use-pipeline-sourcing-mgmt.md)
 

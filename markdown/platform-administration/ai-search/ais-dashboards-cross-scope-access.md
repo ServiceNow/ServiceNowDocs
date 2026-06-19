@@ -2,6 +2,7 @@
 title: Create a cross-scope access privilege for the AI Search dashboards
 description: Enable the AI Search dashboards to read records from tables that cannot be accessed from the Advanced AI Search Management Tools application scope.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/ais-dashboards-cross-scope-access.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -17,7 +18,7 @@ Enable the AI Search dashboards to read records from tables that cannot be acces
 
 ## Before you begin
 
-The Platform Analytics Solution for Advanced AI Search Management Tools must be activated on your instance. For details on activating this solution, see [Activate the Platform Analytics Solution for Advanced AI Search Management Tools](install-adv-ais-mgmt-tools.md).
+The Platform Analytics Solution for Advanced AI Search Management Tools must be activated on your instance. For details on activating this solution, see [Activate the Platform Analytics Solution for Advanced AI Search Management Tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/install-adv-ais-mgmt-tools.md).
 
 Role required: admin
 
@@ -31,11 +32,11 @@ If an indexed source or search source table can't be accessed from this scope, t
 
 To resolve this issue, define a cross-scope table access privilege for the Advanced AI Search Management Tools application.
 
-For more information on cross-scope privileges, see [Cross-scope privilege record](https://www.servicenow.com/docs/access?context=c_CrossScopePrivilegeRecord&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+For more information on cross-scope privileges, see Cross-scope privilege record.
 
 ## Procedure
 
-1.  Set your current application scope context to Advanced AI Search Management Tools using [the application picker](../../../build/applications/task/t_SelectAnAppFromTheAppPicker.md).
+1.  Set your current application scope context to Advanced AI Search Management Tools using [the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_SelectAnAppFromTheAppPicker.md).
 
 2.  Navigate to **All** &gt; **System Applications** &gt; **Application Cross-Scope Access**.
 

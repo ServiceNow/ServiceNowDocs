@@ -2,6 +2,7 @@
 title: Widget diagnostics
 description: Resolve Service Portal page issues by identifying widget customization levels and checking widget code directly from a portal page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/sp-diagnostic-tool.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -76,35 +77,35 @@ Base widget that you configured in any of the following ways:-   Modified the wi
 -   Blue: new widget
 -   Red: customized widget
 
-![Identifying customization levels](../image/diagnostic-tool.png "Widget customizations highlighted on a portal page")
+\[Omitted image "diagnostic-tool.png"\] Alt text: Identifying customization levels
 
 ## Checking the widget code
 
 After you've identified the customization levels of widgets on a portal page, check the code in each widget.
 
-To view the widget code from the portal page, click the information icon \(![Information icon](../image/info-icon.png)\) on a widget.
+To view the widget code from the portal page, click the information icon \(\[Omitted image "info-icon.png"\] Alt text: Information icon\) on a widget.
 
-![Widget diagnostics window](../image/widget-diagnostics-window.png)
+\[Omitted image "widget-diagnostics-window.png"\] Alt text: Widget diagnostics window
 
 From the widget diagnostics window, you can check the widget code in several ways:
 
--   [View a widget record from a portal page](../task/view-widget-record.md)
+-   [View a widget record from a portal page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/view-widget-record.md)
 
     View and identify potentially problematic code in the widget record without navigating away from the portal page.
 
--   [Identify customizations in widget related records](../task/view-related-records.md)
+-   [Identify customizations in widget related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/view-related-records.md)
 
     View and identify potentially problematic code in the widget dependencies, Angular Providers, and ng-templates that are being used by the widget.
 
--   [Compare versions of a widget related record](../task/compare-related-record-changes.md)
+-   [Compare versions of a widget related record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/compare-related-record-changes.md)
 
     Compare an Angular Provider or ng-template against its previous version so that you check if your most recent code changes are causing issues on a portal page.
 
--   [Compare versions of a customized widget](../task/compare-widget-versions.md)
+-   [Compare versions of a customized widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/compare-widget-versions.md)
 
     Compare your most recent update of a customized widget against the previous version to check if your recent changes are causing issues on a portal page.
 
--   [Compare a cloned or customized widget against a base widget](../task/compare-with-base-system.md)
+-   [Compare a cloned or customized widget against a base widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/compare-with-base-system.md)
 
     Identify customizations to a widget so that you can revert your cloned or customized widgets and resolve issues on a portal page.
 
@@ -113,13 +114,13 @@ From the widget diagnostics window, you can check the widget code in several way
 
 Of the four customization levels, the highest priority issue is customized widgets. These widgets aren't supported in system upgrades. If you're experiencing page issues during an upgrade, it may be because you have a customized widget on your portal page.
 
-To resolve page issues that may be caused by customized widgets, identify which parts of the widget code have been customized. Then revert the code to the original configuration. For more information on identifying these code differences, see [Compare a cloned or customized widget against a base widget](../task/compare-with-base-system.md).
+To resolve page issues that may be caused by customized widgets, identify which parts of the widget code have been customized. Then revert the code to the original configuration. For more information on identifying these code differences, see [Compare a cloned or customized widget against a base widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/compare-with-base-system.md).
 
 **Tip:** Even if a customized widget is not causing page issues now, you may want to revert to the original widget to prevent issues during upgrades later.
 
 If you're still experiencing page issues after reverting customized widgets, check your new and cloned widgets next.
 
-With a new widget, it's likely that your most recent code changes are causing issues on your portal page. To identify your most recent changes so that you can debug your code, follow the steps in [Compare versions of a widget related record](../task/compare-related-record-changes.md).
+With a new widget, it's likely that your most recent code changes are causing issues on your portal page. To identify your most recent changes so that you can debug your code, follow the steps in [Compare versions of a widget related record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/compare-related-record-changes.md).
 
 If you cloned a widget prior to a system upgrade, it's likely that the cloned widget didn't receive the same updated code as the base widget. In this case, it's recommended that you clone the widget again and add your customizations to the clone.
 

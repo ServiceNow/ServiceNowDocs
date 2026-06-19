@@ -2,13 +2,14 @@
 title: Monetary benefit breakdown form
 description: The monetary benefit breakdown form information is used to create and edit a monetary benefit breakdown record for the demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/monetary-benefit-breakdown-form-dw.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
 last_updated: "2026-01-19"
 reading_time_minutes: 1
-breadcrumb: [Form field information, Reference, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Forms, Reference, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Monetary benefit breakdown form
@@ -77,7 +78,7 @@ Fiscal period
 
 </td><td>
 
-Fiscals generated at the period level. For information on periods, see [fiscal calendars](https://www.servicenow.com/docs/access?context=c_FiscalCalendar&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Fiscals generated at the period level. For information on periods, see fiscal calendars.
 
 </td></tr><tr><td>
 

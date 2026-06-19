@@ -2,6 +2,7 @@
 title: Resolve related incidents from a problem
 description: After you consider a problem to be resolved, the incidents related to the problem with the state On Hold may be resolved using a UI action from the Problem form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/problem-management/t\_CloseRelatedIncFromAPRB.html
 release: zurich
 product: Problem Management
 classification: problem-management
@@ -36,5 +37,5 @@ The topic only applies to legacy problem — Jakarta to London.
     The state of the incidents in the problem related list is changed to **Resolved** and work notes are added to the activity feed.
 
 
-**Parent Topic:**[Managing Problems](../concept/problem-mgmt-lifecycle.md)
+**Parent Topic:**[Managing Problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/problem-mgmt-lifecycle.md)
 

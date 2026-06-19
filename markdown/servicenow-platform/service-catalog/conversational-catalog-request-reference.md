@@ -2,6 +2,7 @@
 title: Conversational catalog request reference
 description: Reference topics provide additional information about configuration properties, roles, and more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/conversational-catalog-request-reference.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -16,8 +17,10 @@ breadcrumb: [Now Assist in Conversational Catalog Request, Service Catalog, Mana
 
 Reference topics provide additional information about configuration properties, roles, and more.
 
--   **[Topic blocks to request catalog items through conversational experience](../concept/request-topic-blocks-va-llm.md)**  
+-   **[Topic blocks to request catalog items through conversational experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/request-topic-blocks-va-llm.md)**  
 You can design a topic conversation in Virtual Agent powered Now LLM by including reusable topic blocks to perform request submission tasks.
+-   **[What makes catalog items non-conversational in premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/catalog-conv-limitations.md)**  
+Let's understand what determines whether a catalog item can deliver a fully conversational experience in the Premium Chat interface.
 
-**Parent Topic:**[Now Assist in Conversational Catalog Request](../concept/now-assist-in-conversational-catalog-request.md)
+**Parent Topic:**[Now Assist in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/now-assist-in-conversational-catalog-request.md)
 

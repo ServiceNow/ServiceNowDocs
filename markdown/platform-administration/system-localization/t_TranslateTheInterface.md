@@ -2,6 +2,7 @@
 title: Export and edit translation records
 description: Export translation records to translate to additional languages in your preferred translation environment and import the new or edited translation records through import sets.The System Import Sets application contains import tables and corresponding transform maps to assist with importing translations from an Excel spreadsheet.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/system-localization/t\_TranslateTheInterface.html
 release: zurich
 product: System Localization
 classification: system-localization
@@ -17,7 +18,7 @@ Export translation records to translate to additional languages in your preferre
 
 ## Before you begin
 
-**Note:** Using the Localization Framework application is recommend for translating to an unsupported language or translating large amounts of custom UI string content in a supported language. For more information, see [Localization Framework](../../localization-framework/concept/localization-framework-landing.md).
+**Note:** Using the Localization Framework application is recommend for translating to an unsupported language or translating large amounts of custom UI string content in a supported language. For more information, see [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/localization-framework-landing.md).
 
 Role required: admin
 
@@ -27,19 +28,19 @@ In the following cases, translate strings in the UI outside of the ServiceNow AI
 
 -   You have a significant amount of customer-created UI components and you want to translate these components into other languages.
 -   You want to modify translations that ServiceNow provides in internationalization plugins.
--   You want to translate an instance into a language that ServiceNow does not support with internationalization plugins. For more information, see [Translating to an unsupported language](self-localize.md).
+-   You want to translate an instance into a language that ServiceNow does not support with internationalization plugins. For more information, see [Translating to an unsupported language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/self-localize.md).
 
-All translatable UI strings items are stored in translation table records. The only time you would translate UI directly in translation records is when you have a small amount of customer-created UI components and you know exactly where they are. For more information about translation tables, see [Translation tables](../reference/r_TranslationTables.md) and [Translating individual UI strings](../concept/c_TranslateIndFieldLabelsAndValues.md).
+All translatable UI strings items are stored in translation table records. The only time you would translate UI directly in translation records is when you have a small amount of customer-created UI components and you know exactly where they are. For more information about translation tables, see [Translation tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/r_TranslationTables.md) and [Translating individual UI strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/c_TranslateIndFieldLabelsAndValues.md).
 
 ## Procedure
 
 1.  If you are translating customer-created UI components, locate the translatable strings.
 
-    For more information, [Locating translatable UI strings](../concept/c_TranslateNewCustomizations.md).
+    For more information, [Locating translatable UI strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/c_TranslateNewCustomizations.md).
 
 2.  Export the relevant translation table records into a format \(such as Excel\) that can be easily manipulated.
 
-    For more information about exporting a list of records, see [Export data from a list](../../exporting-data/task/export-list-data.md).
+    For more information about exporting a list of records, see [Export data from a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/export-list-data.md).
 
 3.  Within the exported document, translate the following fields in each row, depending on the translation table:
 
@@ -62,7 +63,7 @@ All translatable UI strings items are stored in translation table records. The o
 
 Import the translated document back into the instance as an import set.
 
-**Parent Topic:**[Translating custom content](../concept/translating-applications.md)
+**Parent Topic:**[Translating custom content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/translating-applications.md)
 
 ## Import a translation from an Excel spreadsheet
 

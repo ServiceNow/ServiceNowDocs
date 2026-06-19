@@ -2,11 +2,12 @@
 title: Integration settings on Source-to-Pay side
 description: Configure your Source-to-Pay \(S2P\) instance to support inbound and outbound integration with your ERP system. This integration configuration enables you to automatically post purchase order, receipt, invoice, and download primary data from the ERP.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/source-to-pay-integration-framework/integration-settings-psm-side.html
 release: zurich
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Source-to-Pay integration framework, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -28,15 +29,15 @@ Before you start the integration configuration, you must complete the following 
 
 1.  Define an ERP source.
 
-    Define the ERP source that you want to integrate with Procurement Service Management. This information is required for any primary data. For more information, see [ERP source](erp-source.md) and [Primary data integration](master-data-integration.md).
+    Define the ERP source that you want to integrate with Procurement Service Management. This information is required for any primary data. For more information, see [ERP source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-integration-framework/erp-source.md) and [Primary data integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-integration-framework/master-data-integration.md).
 
 2.  Set up the authentication profile.
 
-    Create a basic authentication profile that can be used for web service integration with ERP. Register the ERP integration username and password to create the authentication profile and associate it to service maps. For more information, see [Set up the authentication profile](../task/setup-authentication-profile-erp-intg.md).
+    Create a basic authentication profile that can be used for web service integration with ERP. Register the ERP integration username and password to create the authentication profile and associate it to service maps. For more information, see [Set up the authentication profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-integration-framework/setup-authentication-profile-erp-intg.md).
 
 3.  Define source configuration for ERP.
 
-    ERP source configuration determines the ERP source to which your ERP system connects. For more information, see [ERP source configuration](erp-source-configuration.md) and [Define ERP source configuration for Source-to-Pay](../task/define-erp-source-config-psm.md).
+    ERP source configuration determines the ERP source to which your ERP system connects. For more information, see [ERP source configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-integration-framework/erp-source-configuration.md) and [Define ERP source configuration for Source-to-Pay](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-integration-framework/define-erp-source-config-psm.md).
 
 4.  Configure service maps for the following entities:
 
@@ -78,7 +79,7 @@ Before you start the integration configuration, you must complete the following 
 
     **Note:** For configuring each of these service maps, provide the connection end point and the ERP credentials that you set up for your authentication profile. Also, create a separate web service record for each service request that you want to customize.
 
-    For more information, see [Configure service maps for Source-to-Pay](../task/configure-service-maps-psm-erp.md).
+    For more information, see [Configure service maps for Source-to-Pay](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-integration-framework/configure-service-maps-psm-erp.md).
 
 5.  Configure scheduled job to synchronize primary data updates from ERP.
 
@@ -86,7 +87,7 @@ Before you start the integration configuration, you must complete the following 
 
 6.  Load data to ERP user mapping table.
 
-    Set up S2P and ERP User ID mapping for the integration to work. The mapping is maintained for all active users who have the procurement buyer role in ERP. These users should be used in the requisition assignment rule. For more information, see [Load data to ERP user mapping table for Source-to-Pay](../task/load-data-erp-user-mapping-psm.md).
+    Set up S2P and ERP User ID mapping for the integration to work. The mapping is maintained for all active users who have the procurement buyer role in ERP. These users should be used in the requisition assignment rule. For more information, see [Load data to ERP user mapping table for Source-to-Pay](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-integration-framework/load-data-erp-user-mapping-psm.md).
 
 7.  Map the following entities:
     -   Purchasing entity.

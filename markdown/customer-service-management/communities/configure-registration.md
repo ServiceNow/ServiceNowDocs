@@ -2,6 +2,7 @@
 title: Enable users to self-register to a community
 description: Once users have accessed public forums and decided they want to join the community, they can self-register to the community. External user registration provides a way of validating users and requires them to accept the community Terms and Conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/communities/configure-registration.html
 release: zurich
 product: Communities
 classification: communities
@@ -17,10 +18,10 @@ Once users have accessed public forums and decided they want to join the communi
 
 Community administrators perform the following tasks to configure external user registration.
 
--   Configure the [external user registration properties](../reference/communities-properties.md).
--   [Configure moderation filters](../task/configure-moderation-filters.md) to enter banned words for the user name.
--   [Configure the required strength for passwords](https://www.servicenow.com/docs/access?context=config-pwd-strength-rqmts&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
--   [Create an email template](https://www.servicenow.com/docs/access?context=t_CreateAnEmailTemplate&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) and content. The email template that you can change is **communities.ext.regn.confirm**.
--   If not already configured, [create community terms and conditions](../task/create-terms-conditions.md) that each community user must review and accept. Communities delivers preconfigured Terms and Conditions that you can modify according to your needs.
+-   Configure the [external user registration properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/communities-properties.md).
+-   [Configure moderation filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/configure-moderation-filters.md) to enter banned words for the user name.
+-   Configure the required strength for passwords.
+-   Create an email template and content. The email template that you can change is **communities.ext.regn.confirm**.
+-   If not already configured, [create community terms and conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/create-terms-conditions.md) that each community user must review and accept. Communities delivers preconfigured Terms and Conditions that you can modify according to your needs.
 -   To enable external users to update their time zone when registering, add ACLs to external users in the User table \[sys\_user\].
 

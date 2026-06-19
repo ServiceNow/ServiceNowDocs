@@ -2,6 +2,7 @@
 title: Security Incident Response Overview dashboard
 description: The Security Incident Response Overview dashboard provides an executive view into security incident activity, providing trends and reports, and drill-downs into specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/c\_SIROverview.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -17,7 +18,7 @@ The Security Incident Response Overview dashboard provides an executive view int
 
 The Overview module displays security incident information that is tailored to the role of the user. You can point to any part of a chart \(bar, pie, data point, heatmap, and so on\) to view general data specific to that part. See the following image. If you click any part of a report, a list opens to provide detailed information.
 
-![Sample report from Security Incident Manager Overview](../image/TrendAllSecIncidents.png "Trend of All Security Incidents")
+\[Omitted image "TrendAllSecIncidents.png"\] Alt text: Sample report from Security Incident Manager Overview
 
 ## Security Incident Manager Overview
 
@@ -93,16 +94,16 @@ When the Security Incident Analytics plugin is not activated, users with the Sec
 |Average Time to Contain Critical|Single score|The average time it takes to contain all critical security incidents.|
 |Average Time to Identity|Single score|The average time it takes to identify all security incidents.|
 
-**Note:** The Security Incident Response base system includes Performance Analytics Solutions for displaying preconfigured best practice dashboards. The dashboards present important metrics for analyzing your Security Incident Response process, such as new security incidents or the average age of open security incidents. For more information and installation instructions, see [Security Incident Response Platform Analytics Solutions](../../../use/dashboards/application-content-packs/security-incident-content-pack.md).
+**Note:** The Security Incident Response base system includes Performance Analytics Solutions for displaying preconfigured best practice dashboards. The dashboards present important metrics for analyzing your Security Incident Response process, such as new security incidents or the average age of open security incidents. For more information and installation instructions, see [Security Incident Response Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/security-incident-content-pack.md).
 
--   **[Access Security Incident Response Explorer](../task/access-sec-in-resp-explorer.md)**  
+-   **[Access Security Incident Response Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/access-sec-in-resp-explorer.md)**  
 You can access the Security Incident Response Explorer dashboard to view security incident activity in order to instantly pinpoint areas of concern and quickly resolve issues.
--   **[Security incident map](c_SecurityIncidentGeoHeatmap.md)**  
+-   **[Security incident map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/c_SecurityIncidentGeoHeatmap.md)**  
 The security incident map provides data by geographical location. The world map is highlighted in every area in which an incident occurs. When the Security Incident Analytics plugin is activated, you can add the security incident map to the Security Incident Response overview. After it has been added, you can configure the map by modifying the map filters.
--   **[Security incident treemaps](c_ConfigureTreemaps.md)**  
+-   **[Security incident treemaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/c_ConfigureTreemaps.md)**  
 When the Security Incident Analytics plugin is activated, you can add the security incident - service impact and security incident - real-time treemaps to the Security Incident Response overview. After they have been added, you can configure the treemaps by modifying treemap categories and indicators.
--   **[Add vulnerability significance charts to an overview](../task/t_AddVulnSignTreemaps.md)**  
+-   **[Add vulnerability significance charts to an overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/t_AddVulnSignTreemaps.md)**  
 If the Vulnerability Response plugin is activated, you can add vulnerability significance definition charts and other visualizations to the Overview.
 
-**Parent Topic:**[Visual representation of Security Incident Response reporting](c_SIRHomepage.md)
+**Parent Topic:**[Visual representation of Security Incident Response reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/c_SIRHomepage.md)
 

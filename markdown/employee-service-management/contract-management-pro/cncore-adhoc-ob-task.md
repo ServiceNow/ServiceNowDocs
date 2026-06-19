@@ -2,6 +2,7 @@
 title: Create an ad hoc obligation task
 description: Create an obligation task required only once or at irregular intervals to track and fulfill an obligation specified in a contract.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-adhoc-ob-task.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -27,28 +28,28 @@ Role required: sn\_cm\_obligation.obligation\_fulfiller
 
 1.  Open an obligation from the workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d284520e64">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d81017e64">
 
 Method
 
-</th><th align="left" id="d284520e67">
+</th><th align="left" id="d81017e67">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d284520e73">
+</th></tr></thead><tbody><tr><td id="d81017e73">
 
 **Contract Workspace**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Contract Workspace**.
-2.  Select the List icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **Obligations**.
 4.  Select **All obligations**.
 5.  Select an active obligation record.
 
 
-</td></tr><tr><td id="d284520e121">
+</td></tr><tr><td id="d81017e121">
 
 **Workspace used by your application**
 
@@ -78,5 +79,5 @@ Steps
 
 The obligation task is created and the assigned user is notified through email.
 
-**Parent Topic:**[Create obligation records](cncore-create-obligations.md)
+**Parent Topic:**[Create obligation records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-create-obligations.md)
 

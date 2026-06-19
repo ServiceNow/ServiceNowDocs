@@ -2,6 +2,7 @@
 title: Activate Problem Management Best Practice — Madrid — State Model
 description: You can activate the Problem Management Best Practice — Madrid — State Model plugin \(com.snc.best\_practice.problem.madrid.state\_model\) on your instance using the Problem Management Migration Utility store app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/problem-management/activate-plugin-problem-management.html
 release: zurich
 product: Problem Management
 classification: problem-management
@@ -17,7 +18,7 @@ You can activate the Problem Management Best Practice — Madrid — State Model
 
 ## Before you begin
 
-Before you activate the plugin, be sure to resolve blocking modifications. For more information, see [Resolve blocking modifications](resolve-blocking-modifications.md).
+Before you activate the plugin, be sure to resolve blocking modifications. For more information, see [Resolve blocking modifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/resolve-blocking-modifications.md).
 
 Role required: admin
 
@@ -33,7 +34,7 @@ New York Patch 9 or Orlando Patch 3 or later are required before the administrat
 
     If you have the required patch level, you have access to the plugin and can activate it. If you do not have the patch level, you must request it.
 
-<table id="choicetable_zxl_xhm_plb"><tbody><tr><td id="d375269e92">
+<table id="choicetable_zxl_xhm_plb"><tbody><tr><td id="d120323e92">
 
 **Activate the plugin \(required patch level is installed\)**
 
@@ -46,7 +47,7 @@ New York Patch 9 or Orlando Patch 3 or later are required before the administrat
 
 The plugin status changes to **Activated**. You can return to the Migration Utility and continue with the migration.
 
-</td></tr><tr><td id="d375269e130">
+</td></tr><tr><td id="d120323e130">
 
 **Request the plugin**
 
@@ -68,5 +69,5 @@ The plugin status changes to **Activated**. You can return to the Migration Util
 
 ## What to do next
 
-[Prepare base plugins](prepare-base-plugins.md).
+[Prepare base plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/prepare-base-plugins.md).
 

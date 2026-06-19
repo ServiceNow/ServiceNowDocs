@@ -2,6 +2,7 @@
 title: Activate Workflow Data Fabric Hub
 description: Access Workflow Data Fabric Hub on your instance by activating the Workflow Data Fabric Hub plugin \(sn\_data\_fabric\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/workflow-data-fabric-hub/activate-workflow-data-fabric-hub.html
 release: zurich
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -25,7 +26,7 @@ Follow the steps below to activate Workflow Data Fabric Hub on your instance. Fo
 
 Roles are installed with Workflow Data Fabric Hub.
 
-For more information, see [Workflow Data Fabric Hub roles](../reference/workflow-data-fabric-roles.md#).
+For more information, see [Workflow Data Fabric Hub roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/workflow-data-fabric-roles.md).
 
 ## Procedure
 
@@ -39,8 +40,8 @@ For more information, see [Workflow Data Fabric Hub roles](../reference/workflow
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
-**Parent Topic:**[Configuring Workflow Data Fabric Hub](../concept/configuring-wdf.md)
+**Parent Topic:**[Configuring Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/configuring-wdf.md)
 

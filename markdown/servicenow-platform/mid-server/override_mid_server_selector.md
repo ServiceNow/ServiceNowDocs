@@ -2,6 +2,7 @@
 title: Override the MID Server selection filter
 description: Use the override feature to write your own filter condition that overrides the normal MID Server selection criteria for an application. An override has precedence over the default filter and can be defined for a specific selection condition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/mid-server/override\_mid\_server\_selector.html
 release: zurich
 product: MID Server
 classification: mid-server
@@ -17,7 +18,7 @@ Use the override feature to write your own filter condition that overrides the n
 
 ## Before you begin
 
-Before attempting to create an override filter, be sure you understand the criteria the platform uses to select MID Servers. See [MID Server selection](../concept/c_MIDServerSelector.md) for details.
+Before attempting to create an override filter, be sure you understand the criteria the platform uses to select MID Servers. See [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/c_MIDServerSelector.md) for details.
 
 Role required: admin
 
@@ -54,7 +55,7 @@ There are four MID Server selection filters included in the base ServiceNow syst
     -   **Type**: Type of override being configured. Select one of the four default filters to override with your condition, or select **Override selector** to create a filter that overrides all the others.
 4.  Select **Submit**.
 
-    ![MID Server override filter script](../image/MIDSelectionOverride.png)
+    \[Omitted image "MIDSelectionOverride.png"\] Alt text: MID Server override filter script
 
 
 ## Example
@@ -73,5 +74,5 @@ var result = [];
  }
 ```
 
-**Parent Topic:**[MID Server selection](../concept/c_MIDServerSelector.md)
+**Parent Topic:**[MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/c_MIDServerSelector.md)
 

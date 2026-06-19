@@ -2,6 +2,7 @@
 title: Create the card vault table in the tokenizer service
 description: As part of the onboarding procedure, you will create a card vault table in the FSO tokenizer service to manage tokenized data for use in Dispute Cases and Dispute Transactions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/create-tokenization-vault.html
 release: zurich
 product: Dispute Management
 classification: dispute-management

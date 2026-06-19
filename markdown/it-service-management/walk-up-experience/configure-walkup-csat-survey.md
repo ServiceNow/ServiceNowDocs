@@ -2,6 +2,7 @@
 title: Create or modify a Walk-up Experience customer satisfaction survey
 description: Improve your Walk-up Experience operations and customer service by using surveys and monitoring survey results. Walk-up surveys capture important information from users about the interaction experience provided to them at the venue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/walk-up-experience/configure-walkup-csat-survey.html
 release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -29,8 +30,8 @@ Creating a new customer satisfaction survey requires that you first define a new
 
 2.  To modify an existing walk-up survey, click the survey name, otherwise navigate to **Survey** &gt; **View Surveys** and click **New** to define a new survey if none of the base-system surveys are optimal for your walk-up location.
 
-3.  To modify or complete the form, refer to [Modify a survey definition](https://www.servicenow.com/docs/access?context=t_ModifySurveyDefinitions&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+3.  To modify or complete the form, refer to Modify a survey definition.
 
 
-**Parent Topic:**[Configure Walk-up Experience customer satisfaction surveys](../concept/walkup-survey.md)
+**Parent Topic:**[Configure Walk-up Experience customer satisfaction surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walkup-survey.md)
 

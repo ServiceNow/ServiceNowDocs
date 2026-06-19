@@ -2,7 +2,10 @@
 title: Configure update set scanning properties
 description: The Scan Engine provides several options to further configure update set scanning and enhance the governance over update set management. Update set scanning occurs during scheduled instance scans. The settings on this tab define which update sets will be scanned, and the parameters those update sets have to meet in order to be marked complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/update-set-scanning-properties.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-11-04"
 reading_time_minutes: 2
@@ -21,6 +24,14 @@ Update sets are scanned in two scenarios:
 
 -   During scheduled instance scans, based on the scanning condition
 -   When a user attempts to mark an update set as Complete \(if enforcement is enabled\)
+
+**Important:** Filter conditions should be set for completing an update set with respect to parent and child update sets where if the update set being committed is a child update set.
+
+Otherwise, an error, `Update set "xxx" does not meet the completion criteria defined by the Scan Engine. Please resolve the identified finding(s) before proceeding.` may be returned as there are additional checks performed between a parent vs a child update set.
+
+.
+
+Role required: Scan Engine Admin \(`sn_se.scan_engine_admin`\).
 
 ## Procedure
 

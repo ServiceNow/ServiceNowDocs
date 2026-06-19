@@ -2,6 +2,7 @@
 title: Modify display limit in Hierarchy tab of EAP
 description: Configure an initial load limit system property to control how many work items the Hierarchy tab displays at each portfolio level in the Enterprise Agile Planning \(EAP\) workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/enterprise-agile-planning/hierarchy-display-limit-eap.html
 release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning

@@ -2,11 +2,12 @@
 title: Configure webhooks in Jira manually
 description: Configure webhooks in your Jira Server or Jira Cloud instance to send sync notifications to the DevOps Change Velocity application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/config-webhooks-jira-manually.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Jira, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -30,7 +31,7 @@ If you have connected your Jira tool using OAuth 2.0 based authentication, the w
 
 1.  In DevOps Change Velocity, in the Configure to send data playbook activity, select **Configure manually** when configuring the tool instance to send data.
 
-    ![Jira webhook configuration.](../image/jira-plybk-05.png)
+    \[Omitted image "jira-plybk-05.png"\] Alt text: Jira webhook configuration.
 
     **Note:** You can also access manual configuration from the Jira tool record in DevOps Change Velocity. From the tool record, select **Configure** &gt; **Configure manually**.
 
@@ -38,7 +39,7 @@ If you have connected your Jira tool using OAuth 2.0 based authentication, the w
 
     **Note:** Select **Copy** in the appropriate field to copy the value to your clipboard. The field label changes to **Copied**, but you can copy multiple times.
 
-    ![Jira configure webhooks manually.](../image/jira-manual-webhooks-2.png)
+    \[Omitted image "jira-manual-webhooks-2.png"\] Alt text: Jira configure webhooks manually.
 
 3.  Navigate to:
 
@@ -90,13 +91,13 @@ Events
 
 Select the events to be tracked.For example:
 
-![Events for tracking.](../image/jira-manual-webhooks-1.png)
+\[Omitted image "jira-manual-webhooks-1.png"\] Alt text: Events for tracking.
 
 </td></tr></tbody>
 </table>6.  Select **Create**.
 
-    If you want to test the webhook, see the section on Jira in [Test webhooks manually](../reference/test-wehooks-manually.md).
+    If you want to test the webhook, see the section on Jira in [Test webhooks manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/test-wehooks-manually.md).
 
 
-**Parent Topic:**[Jira integration with DevOps Change Velocity](../concept/jira-integration-dev-ops.md)
+**Parent Topic:**[Jira integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/jira-integration-dev-ops.md)
 

@@ -2,6 +2,7 @@
 title: Components installed with CSD 2.0
 description: Several types of components are installed with the CSD 2.0 application.These tables are installed with the Client Software Distribution 2.0 application plugin \(com.sn.csd\).These roles are installed with the CSD 2.0 application.Properties for CSD 2.0 manage the installation status of requested software deployments and configure scheduled Discoveries.These flows, subflows, and actions are with the CSD 2.0 application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/csd2-installed.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
@@ -15,7 +16,7 @@ breadcrumb: [Client Software Distribution 2.0 application, Integration Hub solut
 
 Several types of components are installed with the CSD 2.0 application.
 
-**Parent Topic:**[Client Software Distribution 2.0 application](../concept/csd-app-2.md)
+**Parent Topic:**[Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/csd-app-2.md)
 
 ## Tables installed
 

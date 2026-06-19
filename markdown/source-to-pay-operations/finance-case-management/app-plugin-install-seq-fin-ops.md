@@ -2,6 +2,7 @@
 title: Application plugin installation sequence in Finance Case Management
 description: View the consolidated list of plugins, high-level description of each plugin, and the dependencies that are required before installing each plugin in Finance Case Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/finance-case-management/app-plugin-install-seq-fin-ops.html
 release: zurich
 product: Finance Case Management
 classification: finance-case-management
@@ -107,5 +108,5 @@ Provides configurations to support automatic routing, queuing, and assignment of
 Advanced Work Assignment \(glide.awa\)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Finance Case Management](installed-with-fin-ops.md)
+</table>**Parent Topic:**[Components installed with Finance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/finance-case-management/installed-with-fin-ops.md)
 

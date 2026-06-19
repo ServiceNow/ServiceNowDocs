@@ -2,6 +2,7 @@
 title: Create a module access policy
 description: Create module access policies to decide which users and scripts can access data encrypted by a cryptographic module.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/platform-encryption/create-module-access-policy.html
 release: zurich
 product: Platform Encryption
 classification: platform-encryption
@@ -39,10 +40,10 @@ CLE\_Ent functionality is available with a paid subscription. Refer to for suppo
 
 2.  Select **New**.
 
-    -   Select **Specify purpose** to choose a **Crypto spec** and set the **Granular operation**.![When selecting the Specify purpose check box, Cryptographic spec fields are available.](../image/map-cryptospec-granularity.png)
+    -   Select **Specify purpose** to choose a **Crypto spec** and set the **Granular operation**.\[Omitted image "map-cryptospec-granularity.png"\] Alt text: When selecting the Specify purpose check box, Cryptographic spec fields are available.
     -   With cryptographic specifications for symmetric data encryption/decryption and symmetric wrapping/unwrapping, the **Granular operation** field is available if you select the **Specify purpose** check box.
 
-        ![Granular operation list.](../image/granular-operations.png)
+        \[Omitted image "granular-operations.png"\] Alt text: Granular operation list.
 
 3.  Complete the form.
 
@@ -70,7 +71,7 @@ Crypto module
 
 </td><td>
 
-Select the search icon \(![Search icon.](../image/IconUI11GlobalTextSearch.png)\) to select a module.
+Select the search icon \(\[Omitted image "IconUI11GlobalTextSearch.png"\] Alt text: Search icon.\) to select a module.
 
 </td></tr><tr><td>
 
@@ -203,5 +204,5 @@ Select one of the following: -   **StrictReject** rejects access under all circu
     **Note:** A maximum of five module access policies are permitted with Field Encryption. See for configuration options.
 
 
-**Parent Topic:**[Configuring the Key Management Framework](../../encryption/concept/configure-kmf.md)
+**Parent Topic:**[Configuring the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/configure-kmf.md)
 

@@ -2,6 +2,7 @@
 title: Domain separation and Automated Test Framework
 description: Domain separation is supported in the Automated Test Framework. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/domain-separation-auto-test-framework.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -25,7 +26,7 @@ The support level is Standard but has some exceptions or special conditions.
 
 Sample use case: An Admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## ATF use case
 
@@ -33,12 +34,12 @@ Automated test framework design and runtime access are solely for the owner of t
 
 ## Testing
 
-When testing domain separation during ATF test steps, you must set the domain first. This should be part of the first impersonation step of each of the ATF test steps when they are dependent on a domain being set. To learn more about domain separation recommended practices, see [Domain separation recommended practices for service providers](https://www.servicenow.com/docs/access?context=bp-domain-sep-recommended&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+When testing domain separation during ATF test steps, you must set the domain first. This should be part of the first impersonation step of each of the ATF test steps when they are dependent on a domain being set. To learn more about domain separation recommended practices, see Domain separation recommended practices for service providers
 
-**Parent Topic:**[Getting started with the Automated Test Framework](atf-intro.md)
+**Parent Topic:**[Getting started with the Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-intro.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

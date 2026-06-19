@@ -2,13 +2,14 @@
 title: Create ledger assignment rules
 description: Automate ledger account assignment for a purchase line by relating ledger accounts to a supplier product, product model, product category, spend category, and cost center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-ledger-assignment-rules.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Ledger assignment rules, Setting up primary data for Shopping Hub, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Ledger assignment rules, Setting up primary data Shopping, Configure Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Create ledger assignment rules
@@ -159,5 +160,5 @@ Ledger account to post the purchase expenses of this product after the purchase 
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Ledger assignment rules](../concept/ledger-assignment-rules.md)
+**Parent Topic:**[Ledger assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/ledger-assignment-rules.md)
 

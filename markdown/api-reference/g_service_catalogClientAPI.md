@@ -2,6 +2,7 @@
 title: g\_service\_catalog - Client
 description: The g\_service\_catalog API provides methods to access data in a multi-row variable set \(MRVS\) when a model is open.Returns the value of the specified field on the catalog item form when used in a client script on multi-row variable sets \(MRVS\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/g\_service\_catalogClientAPI.html
 release: zurich
 product: API Reference
 classification: api-reference
@@ -17,7 +18,7 @@ The g\_service\_catalog API provides methods to access data in a multi-row varia
 
 This API is available in all environments, such as, Service Portal, ServiceNow AI Platform, Workspace, and Now® Mobile.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/api-client.md)
 
 ## g\_service\_catalog - getValue\(String variableName\)
 

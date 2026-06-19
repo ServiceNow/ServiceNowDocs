@@ -2,6 +2,7 @@
 title: HttpRequestAuthedData - Scoped
 description: The HttpRequestAuthedData\(\) API provides methods to access and set values in a signed REST or SOAP request.Instantiates an HttpRequestAuthedData object.Adds a header to the HttpRequestAuthedData object.Adds a query parameter to the HttpRequestAuthedData object.Returns the credential value that was included when the request was signed.Returns whether the signature is applied to the request in the header, as a query parameter, or as a credential value.Returns an object containing the headers that were included when the request was signed.Returns an object containing the query parameters included when the request was signed.Returns the status of the request signing.Returns a detailed message about the request signing. If the request signing fails, this method returns the error message.Sets a credential value for the HttpRequestAuthedData object.Defines whether to apply the signature to the signed request in the header, as a query parameter, or as a credential value.Sets the status of the request signing.Sets a status message for the request signing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/HttpRequestAuthedDataAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -23,11 +24,11 @@ Generate outbound signing requests using these APIs in the following order:
 4.  HttpRequestAuthedData: Get information about the signed request.
 5.  GlideHTTPRequest: Send the signed request.
 
-Before using these APIs, you must [configure an authentication algorithm](https://www.servicenow.com/docs/access?context=configure-authentication-algorithm&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) to sign the request and associate it with the credential used to authenticate the request.
+Before using these APIs, you must configure an authentication algorithm to sign the request and associate it with the credential used to authenticate the request.
 
 Use this API in scoped scripts with the `sn_auth` namespace identifier. You can instantiate this class using the constructor, or you can return an HttpRequestAuthedData object from the generateAuth\(\) method in the RequestAuthAPI class.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## HttpRequestAuthedData - HttpRequestAuthedData\(\)
 
@@ -423,7 +424,7 @@ String
 
 </td><td>
 
-Message about the request signing. If the request signing fails, returns one of these error messages:-   `credential is not valid`: Check the AuthCredential object you used to sign the request. Make sure an authentication algorithm is associated with the credential. For more information, see [Configure an authentication algorithm](https://www.servicenow.com/docs/access?context=configure-authentication-algorithm&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+Message about the request signing. If the request signing fails, returns one of these error messages:-   `credential is not valid`: Check the AuthCredential object you used to sign the request. Make sure an authentication algorithm is associated with the credential. For more information, see Configure an authentication algorithm.
 -   `Request data is empty. Request auth is skipped`: Check the HttpRequestData object because required information may be missing.
 -   `Can't find script includes scope`: Verify that the authentication algorithm record and associated script includes used to sign the request are in the correct scope.
 

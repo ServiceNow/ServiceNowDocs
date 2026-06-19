@@ -2,6 +2,7 @@
 title: Create or modify a record producer for legal services through Catalog Builder
 description: Create or modify a record producer using a catalog template to define an intake form for a legal service. Employees can use these intake forms on the Legal Service Portal to submit a legal request or legal matter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-request-management/create-record-producer-catalog-builder-legal.html
 release: zurich
 product: Legal Request Management
 classification: legal-request-management
@@ -26,31 +27,31 @@ Use the following base system catalog item templates installed with Legal Reques
 -   Legal request intake form template: For creating a record producer for legal requests
 -   Legal matter intake form template: For creating a record producer for legal matters
 
-For more information about catalog item templates and catalog items, see [Catalog Builder](https://www.servicenow.com/docs/access?context=catalog-builder&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+For more information about catalog item templates and catalog items, see Catalog Builder.
 
 ## Procedure
 
 1.  Open Catalog Builder from the application navigator or from an intake form.
 
-<table id="choicetable_umx_jtg_cvb"><thead><tr><th align="left" id="d573435e97">
+<table id="choicetable_umx_jtg_cvb"><thead><tr><th align="left" id="d257800e97">
 
 Option
 
-</th><th align="left" id="d573435e100">
+</th><th align="left" id="d257800e100">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d573435e106">
+</th></tr></thead><tbody><tr><td id="d257800e106">
 
 **From an Intake form**
 
 </td><td>
 
-1.  [Open an intake form](associate-categories-practice-area.md) that has a record producer selected.
+1.  [Open an intake form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/associate-categories-practice-area.md) that has a record producer selected.
 2.  Click the **Edit in Catalog Builder** related link.
 
 
-</td></tr><tr><td id="d573435e133">
+</td></tr><tr><td id="d257800e133">
 
 **From the application navigator**
 
@@ -67,7 +68,7 @@ Steps
 </td></tr></tbody>
 </table>2.  Based on how each step is defined in the template, specify the required information.
 
-    For more information, see [Create a catalog item using a template](https://www.servicenow.com/docs/access?context=create-item-cat-builder&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    For more information, see Create a catalog item using a template.
 
     In addition to entering other details, make sure to provide the following information for a record producer for a legal service:
 
@@ -87,11 +88,11 @@ Destination
 
 **Table**: -   For legal requests: Default is **Legal Request \[sn\_lg\_ops\_request\]**.
 
-You can select a [practice area table for legal requests](../reference/legal-request-pa-tables.md) as required.
+You can select a [practice area table for legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/legal-request-pa-tables.md) as required.
 
 -   For legal matters: Default is **Legal Matter \[sn\_lg\_matter\_matter\]**.
 
-You can select a [practice area table for legal matters](../../legal-matter-management/reference/legal-matter-pa-tables.md) as required.
+You can select a [practice area table for legal matters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/legal-matter-pa-tables.md) as required.
 
 </td></tr><tr><td>
 
@@ -102,7 +103,7 @@ Location
 -   **Catalogs**: Default is **Legal Operations Catalog**.
 -   **Categories**: Legal Request for legal requests and Legal Matter for legal matters.
 
-You can select a different catalog and [category](add-catalog-categories.md) based on your requirements.
+You can select a different catalog and [category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/add-catalog-categories.md) based on your requirements.
 
 </td></tr><tr><td>
 
@@ -119,7 +120,7 @@ Select users with specific roles who are granted access to the record producer.
 -   **Not available for**: Select users with specific roles who are denied access to the record producer.
  **Note:** If you don’t specify a user criteria in any option, access is granted to everyone.
 
- For more information on creating a user criteria, see [Set up the user criteria](https://www.servicenow.com/docs/access?context=t_CreateAUserCriteriaRecord&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+ For more information on creating a user criteria, see Set up the user criteria.
 
 </td></tr></tbody>
 </table>3.  To save your changes in each step, click **Save**.
@@ -131,5 +132,5 @@ Select users with specific roles who are granted access to the record producer.
 5.  In the **Review and Submit** step, review the record producer and click **Submit** to publish the record producer in the selected catalog.
 
 
-**Parent Topic:**[Managing record producers for legal services](../concept/record-producers-legal-services.md)
+**Parent Topic:**[Managing record producers for legal services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/record-producers-legal-services.md)
 

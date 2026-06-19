@@ -2,29 +2,30 @@
 title: Kubernetes policies in DevOps Config
 description: By default, the DevOps Config Policy content pack contains a set of policies to validate your Kubernetes configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-family/devops-config-k8s-policies.html
 release: zurich
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [PaCE content, PaCE policies, PaCE content policies, DevOps Config policies, Default DevOps Config policies, PaCE default policies, DevOps Config Policy content pack]
-breadcrumb: [Default DevOps Config policies, Reference, DevOps Config, IT Service Management]
+breadcrumb: [Default DevOps Config policies, DevOps Config reference, DevOps Config, IT Service Management]
 ---
 
 # Kubernetes policies in DevOps Config
 
 By default, the DevOps Config Policy content pack contains a set of policies to validate your Kubernetes configuration.
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
-You can use or customize these default DevOps Config policies to validate that your configuration data content is conformable, or [administrate the full life cycle of PaCE policies](https://www.servicenow.com/docs/access?context=pace-managing-policies&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+You can use or customize these default DevOps Config policies to validate that your configuration data content is conformable, or administrate the full life cycle of PaCE policies.
 
 **Note:** You can’t modify the default policies. However, you can make a copy of the policy and customize your copy.
 
 <table id="table_gsp_4vm_nzb"><tbody><tr><td>
 
-[A](devops-config-k8s-policies.md#a) \| [B](devops-config-k8s-policies.md#b) \| [C](devops-config-k8s-policies.md#c) \| [D](devops-config-k8s-policies.md#d) \| [I](devops-config-k8s-policies.md#i) \| [K](devops-config-k8s-policies.md#k) \| [M](devops-config-k8s-policies.md#m) \| [N](devops-config-k8s-policies.md#n) \| [P](devops-config-k8s-policies.md#p) \| [R](devops-config-k8s-policies.md#r) \| [S](devops-config-k8s-policies.md#s) \| [T](devops-config-k8s-policies.md#t)
+[A](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/devops-config-k8s-policies.md) \| [B](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/devops-config-k8s-policies.md) \| [C](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/devops-config-k8s-policies.md) \| [D](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/devops-config-k8s-policies.md) \| [I](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/devops-config-k8s-policies.md) \| [K](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/devops-config-k8s-policies.md) \| [M](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/devops-config-k8s-policies.md) \| [N](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/devops-config-k8s-policies.md) \| [P](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/devops-config-k8s-policies.md) \| [R](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/devops-config-k8s-policies.md) \| [S](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/devops-config-k8s-policies.md) \| [T](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/devops-config-k8s-policies.md)
 
 </td></tr></tbody>
 </table>## Always Pull Images Admission Control Plugin Is Enabled \(container\_always\_pull\_images\_plugin\_is\_enabled\)

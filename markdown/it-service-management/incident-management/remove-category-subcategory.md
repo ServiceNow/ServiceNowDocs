@@ -2,6 +2,7 @@
 title: Delete a category or a subcategory
 description: Delete a category or subcategory if your organization no longer uses the category or subcategory.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/remove-category-subcategory.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -36,5 +37,5 @@ Role required: admin
 6.  Click **Actions on selected rows** menu and select **Delete**.
 
 
-**Parent Topic:**[Incident categories and subcategories](../reference/r_CategorizingIncidents.md)
+**Parent Topic:**[Incident categories and subcategories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/r_CategorizingIncidents.md)
 

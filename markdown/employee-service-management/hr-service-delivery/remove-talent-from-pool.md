@@ -2,6 +2,7 @@
 title: Remove talent profiles from a pool
 description: Remove the talent profiles that are no longer required within a pool.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/remove-talent-from-pool.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -38,5 +39,5 @@ You have removed the selected talent profiles from the pool.
 
 **Note:** You can only remove a talent profile from a pool if you're the owner of the pool or one of the collaborators.
 
-**Parent Topic:**[Using Talent profile](../concept/config-t-pool.md)
+**Parent Topic:**[Using Talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/config-t-pool.md)
 

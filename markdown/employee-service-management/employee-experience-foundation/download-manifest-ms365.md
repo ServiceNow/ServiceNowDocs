@@ -2,6 +2,7 @@
 title: Create and download manifest file for Employee Center and Microsoft 365 integration
 description: Create and download the manifest file from your instance to make Employee Center available in Microsoft 365 applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/download-manifest-ms365.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -67,7 +68,7 @@ Unfurl Links
 
 </td><td>
 
-Option to unfurl the links in Microsoft Teams.Link unfurling generates a content-rich preview \(adaptive card\) when a supported link is shared in a conversation with a user in Microsoft Teams. For more details about link unfurling, refer [Unfurl the web links in Microsoft Teams chat](../concept/enable-link-unfurling.md).
+Option to unfurl the links in Microsoft Teams.Link unfurling generates a content-rich preview \(adaptive card\) when a supported link is shared in a conversation with a user in Microsoft Teams. For more details about link unfurling, refer [Unfurl the web links in Microsoft Teams chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/enable-link-unfurling.md).
 
 </td></tr><tr><td>
 
@@ -98,15 +99,15 @@ Option to choose a custom color for the conversations in Microsoft Teams as per 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
 
-    ![Submit manifest for Microsoft 365 applications](../images/submit-manifest-ms365.png)
+    \[Omitted image "submit-manifest-ms365.png"\] Alt text: Submit manifest for Microsoft 365 applications
 
 5.  In the Generic Info section, select **Next** to navigate to **Configure Virtual Agent** tab.
 
 6.  Configure the Virtual Agent in your instance by selecting **Configure Virtual Agent**.
 
-    For more information, see [Conversational Integration with Microsoft Teams](https://www.servicenow.com/docs/access?context=teams-conv-integration&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+    For more information, see Conversational Integration with Microsoft Teams.
 
-    ![Configure Virtual Agent tab](../images/configure-va-tab-ms365.png)
+    \[Omitted image "configure-va-tab-ms365.png"\] Alt text: Configure Virtual Agent tab
 
 7.  In the Configure Virtual Agent section, to connect to a single or multiple ServiceNow instances.
 
@@ -115,7 +116,7 @@ Option to choose a custom color for the conversations in Microsoft Teams as per 
         The Virtual Agent Bot ID is auto-populated if you select this option.
 
     -   If you want to connect multiple ServiceNow instances to one Microsoft Teams tenant, select **Connect multiple ServiceNow instances to your Microsoft Teams tenant**.
-    To integrate Virtual Agent with Microsoft Teams by configuring your own bots, see [Integrating Virtual Agent with Microsoft Teams using the self-configured bot](https://www.servicenow.com/docs/access?context=va-integ-teams-self-configured-bot&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+    To integrate Virtual Agent with Microsoft Teams by configuring your own bots, see Integrating Virtual Agent with Microsoft Teams using the self-configured bot.
 
 8.  In the Configure Tab section, fill in the following fields and select **Next**.
 
@@ -158,7 +159,7 @@ Option to enable activity feed to receive campaign notifications in Microsoft Te
 </td></tr></tbody>
 </table>9.  For self-configured apps, provide the Application \(client\) ID and Directory \(tenant\) ID in the **Configure Tab** section.
 
-    ![self-configured app options](../images/single-tenant-configure-tab-ms365.png)
+    \[Omitted image "single-tenant-configure-tab-ms365.png"\] Alt text: self-configured app options
 
     **Important:** The above step is not applicable for pre-published apps.
 
@@ -166,7 +167,7 @@ Option to enable activity feed to receive campaign notifications in Microsoft Te
 
 11. Verify the details provided and select **Download Manifest** to download the manifest file.
 
-    ![Manifest file](../images/manifest-ready-ms365.png)
+    \[Omitted image "manifest-ready-ms365.png"\] Alt text: Manifest file
 
     The manifest file downloads in the zip format.
 
@@ -175,5 +176,5 @@ Option to enable activity feed to receive campaign notifications in Microsoft Te
 
 An application registry is created.
 
-**Parent Topic:**[Integrating ServiceNow with Microsoft 365 applications for Employee Experience](../concept/setup-sn-ms-teams-ms365.md)
+**Parent Topic:**[Integrating ServiceNow with Microsoft 365 applications for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/setup-sn-ms-teams-ms365.md)
 

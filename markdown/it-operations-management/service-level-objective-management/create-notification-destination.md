@@ -2,6 +2,7 @@
 title: Create a notification destination in SRM
 description: Set up notification destinations to help keep teams informed about service reliability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-level-objective-management/create-notification-destination.html
 release: zurich
 product: Service Level Objective Management
 classification: service-level-objective-management
@@ -22,7 +23,7 @@ Before creating notification destinations, set up the Microsoft Teams Graph spok
 -   `ChannelMessage.Send`
 -   `Group.ReadWrite.All**`
 
-For setup instructions, see [Set up the Microsoft Teams Graph spoke](https://www.servicenow.com/docs/access?context=set-up-msteams&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+For setup instructions, see Set up the Microsoft Teams Graph spoke.
 
 Role required: srm\_manager, srm\_admin, or admin
 
@@ -34,21 +35,21 @@ Create a notification destination to deliver messages to a specific Microsoft Te
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the primary navigation, select **Teams** \(![Teams icon](../../service-reliability/image/icon-sr-teams.png)\).
+2.  From the primary navigation, select **Teams** \(\[Omitted image "icon-sr-teams.png"\] Alt text: Teams icon\).
 
 3.  On the Teams page, select the team you want to use the notification destination.
 
 4.  Select the **SLO Notification destinations** tab, select **Create a destination**, and then fill out the form.
 
-<table id="choicetable_q13_wwy_vfc"><thead><tr><th align="left" id="d83415e141">
+<table id="choicetable_q13_wwy_vfc"><thead><tr><th align="left" id="d88723e141">
 
 Field
 
-</th><th align="left" id="d83415e144">
+</th><th align="left" id="d88723e144">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d83415e150">
+</th></tr></thead><tbody><tr><td id="d88723e150">
 
 **Channel URL**
 
@@ -56,7 +57,7 @@ Description
 
 Deep link to the relevant Microsoft Teams channel. You can find deep links to channels in Microsoft Teams. They follow this general format: `https://teams.microsoft.com/l/channel/19%abcdef`.
 
-</td></tr><tr><td id="d83415e170">
+</td></tr><tr><td id="d88723e170">
 
 **Destination name**
 
@@ -82,10 +83,10 @@ Display name of the notification destination.Teams see this name when adding not
 
 To use and learn more about notification destinations, visit the following pages:
 
--   [Create SLOs, SLIs, and error budget policies](sr-create-slo-sli.md)
--   [Notifications for breached error budgets](../reference/srm-notifications-messages.md)
+-   [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-level-objective-management/sr-create-slo-sli.md)
+-   [Notifications for breached error budgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-level-objective-management/srm-notifications-messages.md)
 
 You can also edit and delete notification destinations from the SLO Notification destinations tab. Deleting a notification destination removes it from all error budget policies where it was previously used.
 
-**Parent Topic:**[Using SLO Management](using-service-level-objective-management.md)
+**Parent Topic:**[Using SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-level-objective-management/using-service-level-objective-management.md)
 

@@ -2,6 +2,7 @@
 title: Archive firewall rule audit, rule requests, and audit tasks
 description: Archive firewall rule requests, audit requests, and audit tasks that are older than a specific time period to enhance system performance. At a later time, you can delete them from the archive table altogether to reduce the size of that table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/archive-firewall-rule-req-tasks.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -42,5 +43,5 @@ Role required: firewall\_admin
     -   State is Closed Complete
     -   Update before Last 12 months
 
-**Parent Topic:**[Visibility to Firewall inventory](../concept/use-firewall-audit-rep.md)
+**Parent Topic:**[Visibility to Firewall inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/use-firewall-audit-rep.md)
 

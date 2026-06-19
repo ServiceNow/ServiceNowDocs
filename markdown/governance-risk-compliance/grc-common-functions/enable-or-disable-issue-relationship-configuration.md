@@ -2,6 +2,7 @@
 title: Configure an issue relationship
 description: Enable or disable an issue relationship configuration record so that you can automatically link an issue with its related objects in the GRC application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/enable-or-disable-issue-relationship-configuration.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -27,13 +28,13 @@ Role required: sn\_grc.admin.
 
 3.  Enable or disable the configuration records by selecting or deselecting the **Active** field.
 
-    ![Issue relationship configuration form.](../image/issue-relationship-configuration-form.png "Issue relationship configuration form")
+    \[Omitted image "issue-relationship-configuration-form.png"\] Alt text: Issue relationship configuration form.
 
-    For more information about the fields in the issue relationship configuration form, see [Issue Relationship Configuration form](../reference/issue-relationship-configuration-fields.md).
+    For more information about the fields in the issue relationship configuration form, see [Issue Relationship Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/issue-relationship-configuration-fields.md).
 
 
--   **[Issue Relationship Configuration form](../reference/issue-relationship-configuration-fields.md)**  
+-   **[Issue Relationship Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/issue-relationship-configuration-fields.md)**  
 Use the Issue Relationship Configuration form in the GRC application to automatically link a destination record with an issue when it’s linked to the source record.
 
-**Parent Topic:**[Configuring an issue relationship](../concept/issue-relationship-configuration.md)
+**Parent Topic:**[Configuring an issue relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/issue-relationship-configuration.md)
 

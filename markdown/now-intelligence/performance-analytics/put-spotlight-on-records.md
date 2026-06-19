@@ -2,6 +2,7 @@
 title: Put a Spotlight on records
 description: Use the Spotlight feature to illuminate records that you might overlook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/put-spotlight-on-records.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -17,5 +18,5 @@ Use the Spotlight feature to illuminate records that you might overlook.
 
 You can define weighted criteria to identify and rank records that require attention, such as when triaging incidents or performing lead scoring. You can rank records based on multiple dimensions, instead of by a single field value such as priority. While most organizations address high-priority items in a timely manner, lower priority items sometimes are not addressed for an extended period of time. Spotlight helps you focus on items based on business need.
 
-**Parent Topic:**[Performance Analytics concepts](c_PerformanceAnalytics.md)
+**Parent Topic:**[Performance Analytics concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_PerformanceAnalytics.md)
 

@@ -2,6 +2,7 @@
 title: Delete a part requirement
 description: Delete a part requirement from a work order task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/t\_DeleteAPartRequirement.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -17,7 +18,7 @@ Delete a part requirement from a work order task.
 
 ## Before you begin
 
-Role required: wm\_qualifier or [qualifier combination role](../reference/r_UserRoleInstallWFieldSrvMgmnt.md)
+Role required: wm\_qualifier or [qualifier combination role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md)
 
 ## Procedure
 

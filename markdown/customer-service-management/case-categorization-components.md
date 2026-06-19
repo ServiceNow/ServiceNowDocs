@@ -2,7 +2,10 @@
 title: Components installed with Task Intelligence for Customer Service
 description: Several types of components are installed with the Task Intelligence for Customer Service application, including tables, roles, properties, flows, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/case-categorization-components.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 11
@@ -78,7 +81,7 @@ This table stores prediction results and feedback for record categorization, sen
 -   **True**: The prediction was skipped.
 -   **False**: The prediction was not skipped.
 
-For more details about skipped predictions, see [Logic for Skipped field values](case-categorization-components.md#table_njw_ztt_d1c) below.
+For more details about skipped predictions, see [Logic for Skipped field values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/case-categorization-components.md) below.
 
  **Note:** The Predictor Result list includes a filter on the **Capability** field, which displays results where the capability is Classification. Remove this filter to display all of the prediction results.
 
@@ -393,7 +396,7 @@ Sentiment analysis properties
 
 </td><td>
 
-Enables sentiment predictions for customer service cases. The default setting is false. To enable sentiment predictions, set this property to true.**Note:** This property is automatically set to true when a sentiment model is trained and deployed from the [Task Intelligence Admin Console](../concept/csm-task-intel-admin-center.md).
+Enables sentiment predictions for customer service cases. The default setting is false. To enable sentiment predictions, set this property to true.**Note:** This property is automatically set to true when a sentiment model is trained and deployed from the [Task Intelligence Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-task-intel-admin-center.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -407,7 +410,7 @@ Language detection properties
 
 Enables language detection for customer service cases. The default setting is false. To enable language detection, set this property to true.
 
-**Note:** This property is automatically set to true when a language detection module is tested and deployed from the [Task Intelligence Admin Console](../concept/csm-task-intel-admin-center.md).
+**Note:** This property is automatically set to true when a language detection module is tested and deployed from the [Task Intelligence Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-task-intel-admin-center.md).
 
 </td></tr><tr><td>
 
@@ -518,7 +521,7 @@ Language detection determines the language used to create a case.
 
  Depending on configuration, the system can add this value to the **Language** field on the Case form. This field is a reference to the Language \[sys\_language\] table. It can also add the language as a skill to the Task Skills related list on the Case form.
 
- This flow is automatically activated when a language detection module is trained and deployed from the [Task Intelligence Admin Console](../concept/csm-task-intel-admin-center.md).
+ This flow is automatically activated when a language detection module is trained and deployed from the [Task Intelligence Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-task-intel-admin-center.md).
 
 </td></tr><tr><td>
 

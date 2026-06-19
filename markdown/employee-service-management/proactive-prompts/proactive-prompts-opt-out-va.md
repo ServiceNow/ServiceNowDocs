@@ -2,6 +2,7 @@
 title: Opting out of a prompt in Virtual Agent
 description: Choose not to receive a specific prompt by opting out of the signal displayed in Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/proactive-prompts/proactive-prompts-opt-out-va.html
 release: zurich
 product: Proactive Prompts
 classification: proactive-prompts
@@ -23,7 +24,7 @@ Role required: none
 
 1.  Navigate to **All** &gt; **Employee Center**.
 
-2.  Select the chat icon \(![Chat icon for Virtual Agent](../../universal-request/images/icon-chat-va.png)\) to start the Virtual Agent.
+2.  Select the chat icon \(\[Omitted image "icon-chat-va.png"\] Alt text: Chat icon for Virtual Agent\) to start the Virtual Agent.
 
 3.  Type `Show notifications`.
 

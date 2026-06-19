@@ -2,6 +2,7 @@
 title: Preview matching records for an AI Search search source
 description: View the ServiceNow AI Platform table records that match a search source's indexed source table and filter conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/preview-search-source-records-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -27,7 +28,7 @@ Role required: ais\_admin
 
 3.  On the Search Source form, select the **preview** link in the informational message that reports the number of matching records.
 
-    For a description of the field values, see [Search Source form](../reference/search-source-form-ais.md).
+    For a description of the field values, see [Search Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/search-source-form-ais.md).
 
 
 ## Result
@@ -36,5 +37,5 @@ The ServiceNow AI Platform table specified in the search source's indexed source
 
 **Note:** Preview uses the saved conditions from the search source. If you change a search source's conditions, preview doesn't reflect your changes until you save them.
 
-**Parent Topic:**[Search sources in AI Search](../concept/search-sources-ais.md)
+**Parent Topic:**[Search sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/search-sources-ais.md)
 

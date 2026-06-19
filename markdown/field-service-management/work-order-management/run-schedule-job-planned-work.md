@@ -2,6 +2,7 @@
 title: Run a scheduled job to execute a planned work schedule
 description: Planned work schedules are implemented regularly using the Planned Maintenance Nightly Run scheduled job. Planned work schedules are executed whenever it's meter, duration, script, or condition criteria meets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/run-schedule-job-planned-work.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -43,7 +44,7 @@ For example, consider the job is scheduled to run at 12.00 AM on 12 March, 2026.
 **Note:**
 
 -   The work orders are generated only for the next immediate implementation.
--   You can generate the work orders manually as well for a schedule occurrence. This creates the work orders only for that specific schedule occurrence. For more information, see [Generate work orders for schedule occurrences](create_wo_schedule_occurrence.md)
+-   You can generate the work orders manually as well for a schedule occurrence. This creates the work orders only for that specific schedule occurrence. For more information, see [Generate work orders for schedule occurrences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/create_wo_schedule_occurrence.md)
 
 ## Procedure
 
@@ -55,7 +56,7 @@ For example, consider the job is scheduled to run at 12.00 AM on 12 March, 2026.
 
 4.  To specify a different schedule for running the job, change the **Run** and **Time** fields.
 
-    A scheduled job does not run based on the value set in the Next run time field in the maintenance plan record for this job. For more information, see [Configure a work schedule](configure-work-plan.md).
+    A scheduled job does not run based on the value set in the Next run time field in the maintenance plan record for this job. For more information, see [Configure a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/configure-work-plan.md).
 
     **Note:**
 

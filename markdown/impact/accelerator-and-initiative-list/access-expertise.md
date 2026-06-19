@@ -2,6 +2,7 @@
 title: Request Access to Expertise
 description: Use the Access to Expertise Initiative to connect to ServiceNow subject matter experts via personalized virtual coaching sessions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/access-expertise.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

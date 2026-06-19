@@ -2,6 +2,7 @@
 title: Create New Legal entity form
 description: On the Create New Legal entity form, fill in the fields to set up the digital resilience information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-create-new-legal-entity.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management

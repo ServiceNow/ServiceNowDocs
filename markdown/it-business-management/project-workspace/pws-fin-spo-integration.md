@@ -2,12 +2,13 @@
 title: Project financials and Source-to-Pay Operations integration
 description: Request, track, and manage procurement requests of assets for your projects.As a Project Manager, you can directly access the Source-to-Pay Operations shopping hub portal to place a request to meet your project requirements.After the purchase request is placed, you can track the request details such as Purchase line number, Purchased quantity, unit cost, tax, and state from Project Workspace.Once the requested purchase orders are approved and processed, a purchase order line and a cost plan is automatically created. You can view cost plans for the requisition in Project Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/pws-fin-spo-integration.html
 release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -17,13 +18,13 @@ Request, track, and manage procurement requests of assets for your projects.
 
 ## Before you begin
 
-[Install Sourcing and Procurement Operations](https://www.servicenow.com/docs/access?context=activate-finance-spend-central&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US)
+Install Sourcing and Procurement Operations
 
 Role required: it\_project\_manager
 
 ## About this task
 
-Project managers can navigate from Project Workspace to procurement applications and create purchase requests for their projects. The ordered purchase requests are reflected in the Project Workspace. After the purchase request is processed, the purchase line, cost plan, and expense lines are automatically generated. For more information about the integration, see [Sourcing and Procurement Operations integration with Project Management](https://www.servicenow.com/docs/access?context=integration-psm-ppm&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US).![Financials SPO better together workflow diagram.](../images/Financials-SPO-better-together.png)
+Project managers can navigate from Project Workspace to procurement applications and create purchase requests for their projects. The ordered purchase requests are reflected in the Project Workspace. After the purchase request is processed, the purchase line, cost plan, and expense lines are automatically generated. For more information about the integration, see .\[Omitted image "Financials-SPO-better-together.png"\] Alt text: Financials SPO better together workflow diagram.
 
 ## Procedure
 
@@ -32,7 +33,7 @@ Project managers can navigate from Project Workspace to procurement applications
 2.  Open a project and select **Details** from the left menu.
 
 
-**Parent Topic:**[Managing projects with Project Workspace](../../project-workspace/concept/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/use-projects-pw.md)
 
 ## Create purchase request
 
@@ -44,13 +45,13 @@ Role required: it\_project\_manager
 
 ### Procedure
 
-1.  In the project details page, select More Actions \(![More actions icon.](../../alignment-planner-workspace/images/icon-more-actions-horizontal.png)\) icon and select **Create Purchase Requests**.
+1.  In the project details page, select More Actions \(\[Omitted image "icon-more-actions-horizontal.png"\] Alt text: More actions icon.\) icon and select **Create Purchase Requests**.
 
     The Source-to-Pay Operations shopping hub portal opens in a new tab.
 
 2.  Place the request for an asset.
 
-    For more details on how to request a product using Source-to-Pay Common Architecture, see [Order a product with quick checkout](https://www.servicenow.com/docs/access?context=order-a-product&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US).
+    For more details on how to request a product using Source-to-Pay Common Architecture, see .
 
     **Note:** While placing the request for the asset, enter the project number in the **What project is this request for?** field.
 
@@ -104,7 +105,7 @@ Role required: it\_project\_manager
     1.  Open the project selected while creating the purchase request.
     2.  Select **Financials** from the left menu.
     3.  Locate the cost plan created for the Purchase Order Line.
-    4.  Scroll through the cost plan monthly breakdown, select the row options ![Vertical ellipses option to view expense lines](../../spw-financials/images/fin-options.png) for fiscal period in which the purchase order is created and select **View expense lines**.
+    4.  Scroll through the cost plan monthly breakdown, select the row options \[Omitted image "fin-options.png"\] Alt text: Vertical ellipses option to view expense lines for fiscal period in which the purchase order is created and select **View expense lines**.
     5.  In the Expense lines view, select the **Auto generated expense line for cost plan:** option.
     6.  Total expense incurred while generating the purchase order are displayed in the **Amount** field.
 

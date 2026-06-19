@@ -2,6 +2,7 @@
 title: Embedded widgets
 description: Embed a widget in the HTML template, server script, or client script.Embed the cool clock widget multiple times using custom options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/c\_NestedWidgets.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -50,7 +51,7 @@ Alternatively, you can define options in the widget server script.
 
 ## Embed a widget in a client script
 
-Use [spUtil.get\(\)](https://www.servicenow.com/docs/access?context=spUtilAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) to get a widget model in the client script.
+Use spUtil.get\(\) to get a widget model in the client script.
 
 ```
 spUtil.get("widget-sc-cat-item", {sys_id: "your_catalog_item_sys_id"}).then(function(response) {
@@ -80,7 +81,7 @@ When using the spUtil class in a widget client script, you must inject the class
 
 ## Embed a widget in a server script
 
-Use [$sp.getWidget\(\)](https://www.servicenow.com/docs/access?context=c_GlideSPScriptableScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) to get a widget model in the server script.
+Use $sp.getWidget\(\) to get a widget model in the server script.
 
 ```
 data.catalogItemWidget = $sp.getWidget("widget-sc-cat-item");
@@ -117,7 +118,7 @@ When a widget model is called from within another widget, the HTML template, cli
 |options|object|Options used to initialize the widget.|
 |template|string|HTML template field for the widget.|
 
-**Parent Topic:**[Developing custom widgets](widget-dev-guide.md)
+**Parent Topic:**[Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/widget-dev-guide.md)
 
 ## Embed a widget multiple times with custom options
 
@@ -131,7 +132,7 @@ Role required: admin or sp\_admin
 
 Create a widget that embeds multiple instances of the cool clock widget, each with a different time zone and title. Open the cool clock widget in the Widget Editor to see widget options referenced in the HTML template and the Client Script.
 
-![Cool Clock widget with c.options.title, c.options.c_color, and c.options.zone highlighted](../image/CoolClockOptionsHighlighted.png "Cool Clock widget with Options highlighted")
+\[Omitted image "CoolClockOptionsHighlighted.png"\] Alt text: Cool Clock widget with c.options.title, c.options.c\_color, and c.options.zone highlighted
 
 ### Procedure
 
@@ -193,5 +194,5 @@ Create a widget that embeds multiple instances of the cool clock widget, each wi
 
 Each instance of the clock in the embedded clock widget appears with a different time zone.
 
-![Embedded clock with four embedded widgets with four different time zones](../image/SampleClockOptions.png "Sample clock options")
+\[Omitted image "SampleClockOptions.png"\] Alt text: Embedded clock with four embedded widgets with four different time zones
 

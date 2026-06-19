@@ -2,6 +2,7 @@
 title: Create an inbound asset order line
 description: Create an inbound asset order line for every asset in an inbound asset order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/create-inbound-order-line.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -118,5 +119,5 @@ Asset that is selected matching the model.This field automatically populates whe
 
 ## What to do next
 
-[Select a DaaS asset matching the model specified by the DaaS provider.](select-daas-asset.md)
+[Select a DaaS asset matching the model specified by the DaaS provider.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/select-daas-asset.md)
 

@@ -2,6 +2,7 @@
 title: Update your Live Feed profile
 description: Your profile information includes a photo or image, and tabs for different types of information including messages, feeds, teams, followers, and those who are following you. You can update your profile information and picture at any time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/live-feed/t\_UpdateYourProfile.html
 release: zurich
 product: Live Feed
 classification: live-feed
@@ -19,7 +20,7 @@ Your profile information includes a photo or image, and tabs for different types
 
 **Important:**
 
-Core UI is required to use Live Feed. Live Feed is not supported in Next Experience. If you turn on Next Experience, Live Feed is automatically disabled and will no longer work. See [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) for more information.
+Core UI is required to use Live Feed. Live Feed is not supported in Next Experience. If you turn on Next Experience, Live Feed is automatically disabled and will no longer work. See Next Experience UI for more information.
 
 While Live Feed has been discontinued, we are always exploring new ways to enhance our services. Stay tuned for future updates and improvements.
 
@@ -50,5 +51,5 @@ You can provide details about yourself, such as your role in your organization. 
     **Note:** Your profile picture is used by the Connect and legacy chat features as well, if they are activated.
 
 
-**Parent Topic:**[Live Feed UI overview](../reference/r_LiveFeedUIOverview.md)
+**Parent Topic:**[Live Feed UI overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/live-feed/r_LiveFeedUIOverview.md)
 

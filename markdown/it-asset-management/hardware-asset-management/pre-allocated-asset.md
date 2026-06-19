@@ -2,6 +2,7 @@
 title: Pre-allocated assets
 description: Pre-allocated assets are often assets that the vendor still owns, but has agreed to store in a customer stockroom for just-in-time procurement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/pre-allocated-asset.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -21,5 +22,5 @@ For example, pre-installed, pre-allocated servers can be set up in server racks 
 
 **Note:** Warranties aren’t active until an item is installed. Therefore, until an asset is allocated and assigned, it isn’t under warranty.
 
-You can create a pre-allocated asset, allocate the assets from pre-allocated asset records, and also split a pre-allocated asset to create a group that can be moved to a different stockroom. For more information, see [Manage pre-allocated assets](manage-preallocated-asset.md).
+You can create a pre-allocated asset, allocate the assets from pre-allocated asset records, and also split a pre-allocated asset to create a group that can be moved to a different stockroom. For more information, see [Manage pre-allocated assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/manage-preallocated-asset.md).
 

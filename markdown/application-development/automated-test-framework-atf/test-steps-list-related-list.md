@@ -2,6 +2,7 @@
 title: List and Related List
 description: Validate the functionality and visibility of records and UI actions in lists and related lists.Validate the visibility of the selected related lists on a form.Apply a filter to a list to find the required record.Validate the presence of a record in a list. A valid form must be open and the list containing the record must be visible to proceed.Open a specific record in a list.Validate that a UI action is visible in a list. If you're impersonating a user, the visibility of a UI action can change depending on the user being impersonated.Select a list UI action in a list on a form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/test-steps-list-related-list.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf

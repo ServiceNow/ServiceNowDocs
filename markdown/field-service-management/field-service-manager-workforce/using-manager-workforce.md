@@ -2,6 +2,7 @@
 title: Managing agents and tasks from Workforce
 description: Workforce is a configurable application that provides a centralized location for managing schedules, events, and tasks. Users with the wm\_basic role can access the team calendar, agent schedules, and map to stay organized and informed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-manager-workforce/using-manager-workforce.html
 release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -33,19 +34,19 @@ Technicians can:
 -   View schedules.
 -   Create personal events.
 
-![Hybrid view of Workforce](../image/workforce-hybrid-view.png)
+\[Omitted image "workforce-hybrid-view.png"\] Alt text: Hybrid view of Workforce
 
 To manage agents and tasks effectively, explore these topics:
 
--   [Using the team calendar](using-team-calendar.md)
+-   [Using the team calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-manager-workforce/using-team-calendar.md)
 
     Access and manage schedules, events, and availability in one place.
 
--   [Using the map](using-manager-map.md)
+-   [Using the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-manager-workforce/using-manager-map.md)
 
     View tasks and agent locations on an interactive map.
 
--   [View agent location history map](../task/view_agent_location_history_map.md)
+-   [View agent location history map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-manager-workforce/view_agent_location_history_map.md)
 
     Track historical movements of agents for planning and analysis.
 

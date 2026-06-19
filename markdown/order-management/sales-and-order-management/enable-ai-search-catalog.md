@@ -2,6 +2,7 @@
 title: Enable AI Search in product catalog
 description: Use the enable\_ai\_search\_in\_catalog property to enable AI Search in the product catalog interface for Sales Customer Relationship Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/enable-ai-search-catalog.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

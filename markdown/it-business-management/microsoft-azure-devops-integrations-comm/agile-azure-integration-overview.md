@@ -2,6 +2,7 @@
 title: Microsoft Azure DevOps Integration for Agile Development
 description: Enable bidirectional synchronization of work items between Microsoft Azure DevOps and ServiceNow Agile Development 2.0 by integrating the two applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/microsoft-azure-devops-integrations-comm/agile-azure-integration-overview.html
 release: zurich
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
@@ -29,16 +30,16 @@ Starting with version 1.3, Microsoft Azure DevOps Integration for Agile Developm
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
--   **[Components installed with Microsoft Azure DevOps integration for Agile Development](../task/components-installed-with-agile-azure-integration.md)**  
+-   **[Components installed with Microsoft Azure DevOps integration for Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/microsoft-azure-devops-integrations-comm/components-installed-with-agile-azure-integration.md)**  
 Several types of components are installed with activation of the Microsoft Azure DevOps integration for Agile Development application, including user roles, scheduled jobs, and tables.
--   **[Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0](setting-up-agile-azure-integration.md)**  
+-   **[Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/microsoft-azure-devops-integrations-comm/setting-up-agile-azure-integration.md)**  
 Understand the setup process of Microsoft Azure DevOps Integration for Agile Development 2.0.
--   **[Importing and exporting work items between Agile Development and Azure DevOps](../reference/import-export-issues-azure-agile-workflow.md#)**  
+-   **[Importing and exporting work items between Agile Development and Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/microsoft-azure-devops-integrations-comm/import-export-issues-azure-agile-workflow.md)**  
 Understand the workflow for the import and export of work items between Agile Development and Azure DevOps.
--   **[Troubleshooting issues for Azure DevOps integration with Agile Development](../reference/troubleshooting-issues-agile-azure-int.md)**  
+-   **[Troubleshooting issues for Azure DevOps integration with Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/microsoft-azure-devops-integrations-comm/troubleshooting-issues-agile-azure-int.md)**  
 Resolve common issues that you might face while working with the integration of Azure DevOps and Agile Development 2.0.
 
-**Parent Topic:**[Integrating Agile Development 2.0 with third-party applications](../../agile-development/concept/integrating-agile-dev-with-third-party-apps.md)
+**Parent Topic:**[Integrating Agile Development 2.0 with third-party applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/integrating-agile-dev-with-third-party-apps.md)
 

@@ -2,6 +2,7 @@
 title: Directory Scan monitoring default checks and policies
 description: The Agent Client Collector provides the following default checks and policies for Directory Scan monitoring.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/directory-scan-checks-policies.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -511,5 +512,5 @@ linuxchecks check-directory-space \(options\)-d, --dirpath DIRPATH: Absolute pat
 Linux Checks CRITICAL: Directory &lt;path to file&gt; space: 374.00 KB exceeds critical threshold 10.00 KB
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](agent-policies-checks.md)
+</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-policies-checks.md)
 

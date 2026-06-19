@@ -2,6 +2,7 @@
 title: Account recovery \(ACR\)
 description: Administrators can configure account recovery \(ACR\) to perform recovery activities such as addressing SSO misconfiguration or expired certificates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/sso-acct-recovery.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -32,7 +33,7 @@ For a fresh instance to use ACR, you must do the following:
 -   Enable ACR \(`glide.sso.acr.enabled`\) - This is enabled by default in case of a fresh instance.
 -   Before enabling SSO property \(`glide.authenticate.multisso.enabled`\), the administrator must enroll as an ACR user.
 
-    **Note:** Setting this property to false will not disable multi-provider SSO if Account Recovery \(ACR\) is also enabled on the instance. To log in with a username and password ACR must also be disabled using the **glide.sso.acr.enabled** property. For details on this property see [Account recovery properties](../reference/acr-properties.md).
+    **Note:** Setting this property to false will not disable multi-provider SSO if Account Recovery \(ACR\) is also enabled on the instance. To log in with a username and password ACR must also be disabled using the **glide.sso.acr.enabled** property. For details on this property see [Account recovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/acr-properties.md).
 
 -   Administrator must set a password for local login and register MFA before enrolling as an ACR user.
 
@@ -50,17 +51,17 @@ For an upgraded instance to use ACR, you must do the following:
 
 ## Configure account recovery users
 
-To use account recovery, you must register at least one admin account as an account recovery user. Single sign-on can’t be activated on your instance until there is at least one account configured. For details on this process, see [Configure an account recovery user from the Account Recovery Properties page](config-acr.md#).
+To use account recovery, you must register at least one admin account as an account recovery user. Single sign-on can’t be activated on your instance until there is at least one account configured. For details on this process, see [Configure an account recovery user from the Account Recovery Properties page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/config-acr.md).
 
 **Note:** If you’re upgrading an instance already using single sign-on to Rome or a later release, single-sign on will continue to function without a recovery user configured.
 
 ## Account recovery configuration
 
-The account recovery feature is included with the **Integration - Multiple Provider Single Sign-On Installer \(com.snc.integration.sso.multi.installer\) plugins**. The feature is enabled by default. You can change this and other account recovery settings using system properties. For details on these properties, see [Account recovery properties](../reference/acr-properties.md).
+The account recovery feature is included with the **Integration - Multiple Provider Single Sign-On Installer \(com.snc.integration.sso.multi.installer\) plugins**. The feature is enabled by default. You can change this and other account recovery settings using system properties. For details on these properties, see [Account recovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/acr-properties.md).
 
 ## Account recovery policy context
 
-After you’ve registered an account recovery user and enabled single sign-on \(SSO\), your instance restricts all local logins. This restriction is defined in the **SSO - ACR Context** auth policy context. For more information about the context, see [Account recovery context](account-recovery-context.md).
+After you’ve registered an account recovery user and enabled single sign-on \(SSO\), your instance restricts all local logins. This restriction is defined in the **SSO - ACR Context** auth policy context. For more information about the context, see [Account recovery context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/account-recovery-context.md).
 
-For details on how authentication policies and policy contexts, and how they work on your instance, see [Adaptive authentication](../../authentication/concept/adaptive-authentication.md).
+For details on how authentication policies and policy contexts, and how they work on your instance, see [Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/adaptive-authentication.md).
 

@@ -2,6 +2,7 @@
 title: Complete the Prepare task for a recalled enterprise asset
 description: Complete the Prepare task for a recalled enterprise asset so that you can proceed with replacing, repairing, or retiring the given enterprise asset.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/complete-prepare-task-recall-order.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -21,7 +22,7 @@ Role required: sn\_eam.enterprise\_asset\_manager or enterprise\_asset\_technici
 
 ## About this task
 
-**Important:** The Prepare task is applicable only to recall orders in which the **Remediation** field set to **Repair**, **Replace**, or **Retire**. If the **Remediation** field is set to **Notation**, you can proceed directly to the Notation task instead. See [Complete the Notation task for a recalled enterprise asset](complete-notation-task-recall-order.md) for more information on the Notation task.
+**Important:** The Prepare task is applicable only to recall orders in which the **Remediation** field set to **Repair**, **Replace**, or **Retire**. If the **Remediation** field is set to **Notation**, you can proceed directly to the Notation task instead. See [Complete the Notation task for a recalled enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/complete-notation-task-recall-order.md) for more information on the Notation task.
 
 ## Procedure
 
@@ -39,7 +40,7 @@ Role required: sn\_eam.enterprise\_asset\_manager or enterprise\_asset\_technici
 
 5.  On the **Recall Tasks** tab, select the task number for the **Prepare** task.
 
-    Alternatively, select the task number that is displayed in the **Current task** field of the recalled asset record header.![Current task field.](../image/current-task-recall-orders.png)
+    Alternatively, select the task number that is displayed in the **Current task** field of the recalled asset record header.\[Omitted image "current-task-recall-orders.png"\] Alt text: Current task field.
 
     The Prepare task opens.
 
@@ -65,8 +66,8 @@ Stockroom
 
 Stockroom of the recalled enterprise asset.**Note:** This field is editable only under the following conditions:
 
--   The **Remediation** field in the associated [recall order](submit-recall-order.md) is set to **Repair**. In addition, the **Remediation action** field in this Prepare task is set to **Off-site Repair**.
--   The **Remediation** field in the associated [recall order](submit-recall-order.md) is set to **Retire**.
+-   The **Remediation** field in the associated [recall order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/submit-recall-order.md) is set to **Repair**. In addition, the **Remediation action** field in this Prepare task is set to **Off-site Repair**.
+-   The **Remediation** field in the associated [recall order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/submit-recall-order.md) is set to **Retire**.
  **Important:** If the recalled enterprise asset has not already been moved to a stockroom, you must move it to an available stockroom before you can proceed with the asset retirement or off-site repair.
 
 </td></tr><tr><td>
@@ -75,7 +76,7 @@ Remediation action
 
 </td><td>
 
-Option that indicates how you want to proceed with the recall process for the enterprise asset.**Note:** This field is editable only if the **Remediation** field in the associated [recall order](submit-recall-order.md) is set to **Repair**.
+Option that indicates how you want to proceed with the recall process for the enterprise asset.**Note:** This field is editable only if the **Remediation** field in the associated [recall order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/submit-recall-order.md) is set to **Repair**.
 
 </td></tr><tr><td>
 
@@ -157,5 +158,5 @@ If you are proceeding with an asset retirement, enterprise assets are updated wi
 
 Complete all subsequent replacement, repair, or retirement tasks.
 
-**Parent Topic:**[Completing a recall order for your enterprise assets](../concept/completing-recall-order-enterprise-assets.md)
+**Parent Topic:**[Completing a recall order for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/completing-recall-order-enterprise-assets.md)
 

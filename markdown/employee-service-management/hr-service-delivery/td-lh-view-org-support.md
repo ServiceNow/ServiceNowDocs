@@ -2,6 +2,7 @@
 title: View organizations you support
 description: View your designated leader's organization so you can provide support in the capacity required for the organization to succeed. Supporters to whom the leader has delegated tasks and responsibilities can access Leader Hub to provide support accordingly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/td-lh-view-org-support.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -38,5 +39,5 @@ Role required: organizational supporter \[sn\_egd\_lh.supporter\]
 7.  Select **Send email** to send a message to the employee who you have been requested to contact.
 
 
-**Parent Topic:**[Using Leader Hub](../concept/td-lh-using.md)
+**Parent Topic:**[Using Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/td-lh-using.md)
 

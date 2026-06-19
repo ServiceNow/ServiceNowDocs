@@ -2,6 +2,7 @@
 title: Configure the Google Cloud Logging service to auto-update the CMDB
 description: You can activate the Google Cloud Logging \(formerly Stackdriver Logging\) service to auto-update Configuration Management Database \(CMDB\) configuration items \(CI\) data whenever Google Cloud Connector or your Google account makes a life-cycle state or configuration change to a Google Cloud Platform \(GCP\) resource. As a result, the CI data in the CMDB is updated without having to wait for Discovery to run.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/gcp-stackdriver-service.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -17,8 +18,8 @@ You can activate the Google Cloud Logging \(formerly Stackdriver Logging\) servi
 
 ## Before you begin
 
--   Activate Discovery and Service Mapping Patterns. For more information, see [Google Cloud Platform Discovery](../../service-mapping/reference/google-gcp-discovery-pattern.md).
--   Verify that Discovery has successfully discovered logical datacenters of the Google Cloud project. For more information, see [Set up a cloud account and service account for Google Cloud Platform](../../cloud-management-v2-setup/task/gcp-first-cld-and-srvc-accts.md).
+-   Activate Discovery and Service Mapping Patterns. For more information, see [Google Cloud Platform Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/google-gcp-discovery-pattern.md).
+-   Verify that Discovery has successfully discovered logical datacenters of the Google Cloud project. For more information, see [Set up a cloud account and service account for Google Cloud Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/gcp-first-cld-and-srvc-accts.md).
 
     **Note:** Verify that you have selected the **Should pull events** check box in the Google Service Account page before you execute datacenter discovery.
 
@@ -59,7 +60,7 @@ When configured, Discovery pulls the Cloud Logging API at regular intervals to d
 
 3.  To modify the schedule, navigate to **System Scheduler** &gt; **Scheduled Jobs** and then select **GCP-Events-job** and then update the **Repeat** setting as needed.
 
-    ![Google Cloud Event Scheduler form](../../cloud-management-v2-setup/image/google-cloud-event-scheduler.png)
+    \[Omitted image "google-cloud-event-scheduler.png"\] Alt text: Google Cloud Event Scheduler form
 
 4.  Select **Update**.
 

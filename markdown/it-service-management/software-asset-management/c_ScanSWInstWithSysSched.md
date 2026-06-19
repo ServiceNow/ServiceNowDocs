@@ -2,6 +2,7 @@
 title: Scan software installations with the system scheduler
 description: The legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin adds a scheduled job for scanning software installations named SAM License Counters in System Scheduler Scheduled Jobs .
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/software-asset-management/c\_ScanSWInstWithSysSched.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -17,5 +18,5 @@ The legacy Software Asset Management \(com.snc.software\_asset\_management\) plu
 
 The **SAM License Counters** job occurs at 2:00am \(local time\) every morning. The job queries the Software Installation \[cmdb\_sam\_sw\_install\] table and captures any installations that have not been scanned in the past 7 days.
 
-**Parent Topic:**[Determine where software is installed using the legacy Software Asset Management plugin](c_DeterminWhereSWInstalled.md)
+**Parent Topic:**[Determine where software is installed using the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management/c_DeterminWhereSWInstalled.md)
 

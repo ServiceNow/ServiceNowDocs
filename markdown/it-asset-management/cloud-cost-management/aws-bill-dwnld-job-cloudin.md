@@ -2,12 +2,13 @@
 title: Schedule and manage the jobs that download AWS billing data
 description: Billing Download jobs download, organize, and store billing data for your payer account on the schedule that you specify. The system analyzes the data to generate reports and to make recommendations for changes in your cloud operations that can lead to cost savings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/aws-bill-dwnld-job-cloudin.html
 release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-05-01"
-reading_time_minutes: 9
+last_updated: "2026-06-18"
+reading_time_minutes: 10
 breadcrumb: [Set up access to AWS billing and usage data, Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management]
 ---
 
@@ -21,7 +22,7 @@ Role required: Cloud Integrations Admin \[sn\_cld\_intg\_core.cloud\_integration
 
 Ensure that your system has 8 GB Clotho memory and 4 GB mid memory.
 
-Enable cost allocation for each Kubernetes cluster before you run an AWS Billing download job to view the Kubernetes spend. For more information, see [Enable cost allocation in AWS for Kubernetes cluster](enable-cost-allocation-aws.md).
+Enable cost allocation for each Kubernetes cluster before you run an AWS Billing download job to view the Kubernetes spend. For more information, see [Enable cost allocation in AWS for Kubernetes cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/enable-cost-allocation-aws.md).
 
 ## About this task
 
@@ -41,6 +42,7 @@ If you have installed the Cloud Cost Management Infra Stack application, then to
 -   Each successful execution of a Billing Download job triggers the Budget Forecast, Business hours, Reservation/saving plans, Rightsizing, and Unused resources jobs to analyze spend and usage data and to update the actionable recommendations in reports.
 -   Each successful execution of a Billing Download job updates tagged costs. Recent updates that you make to tag category definitions \(for example, adding a tag name to a category\) might not be reflected in cost reports. You should map tag values to tag categories after the first run because populating tag values needs at least one successful run. You can apply the latest tag category definitions to cost data without running a Billing Download job, by selecting **Cloud Cost Management Workspace** &gt; **Operations** &gt; **Cost usage tags** &gt; **Tag categories** and then selecting **Re-Apply Categories**.
 -   When the scheduled time arrives, job execution happens in multiple stages \(for example, connect to the provider, download the data, perform the post-import sort, and so on\). The system logs status and results on the Price Sheet Executions page for each stage.
+-   All user-defined tags for cost allocation are assigned the prefix `user:` from AWS while all AWS-generated tag names are automatically assigned the prefix `aws:`. For example, if the tag name is `owner`, in the billing data it is displayed as `user:owner`.
 -   Cost categories are updated with new cost tag values each time billing data is downloaded. \(You define cost tags in the provider portal to associate usage data with a particular business entity. For example, the Cost Center category might include the tags `development`, `testing`, and `QA`. The User category might include the names of your users.\)
 -   Billing data is downloaded in reverse chronological order by month. For example, if the range is from March to June, data for June is downloaded first.
 -   To ensure meaningful results for the first billing data download, the app downloads data for at least 30 days. For example, if today is June 10 and you specify June for download, the system downloads data for both May and June to ensure at least 30 days of data for analysis.
@@ -51,7 +53,7 @@ For AWS.
 -   You can create only one Billing Download job for each service account.
 -   Only costs of the unblended type are supported.
 -   The Billing Download job updates the billing node data table \[sn\_cld\_intg\_aws\_cost\_usage\] with the CIs in the CMDB that correspond to each resource ID.
--   The CI placement process associates downloaded cost and usage data with the appropriate CIs in the CMDB. See [Add an AWS CI class type to ensure accurate billing data](aws-class-type-add-cloudin.md) for the details.
+-   The CI placement process associates downloaded cost and usage data with the appropriate CIs in the CMDB. See [Add an AWS CI class type to ensure accurate billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/aws-class-type-add-cloudin.md) for the details.
 
 ## Procedure
 
@@ -114,7 +116,7 @@ Notify users/groups
 
 The users or groups to be notified by email about the status of the job execution \(for example, download failure\). The system doesn’t send a notification for success.Users or groups with the Cloud Integrations Admin \[sn\_cld\_intg\_core.cloud\_integrations\_admin\] role are well suited to handle these issues.
 
-To update the email template, navigate to **System Notification** &gt; **Email** &gt; **Notifications** and open the Notify on billing job execution error template. For information on configuring the email, see [Create an email template](https://www.servicenow.com/docs/access?context=t_CreateAnEmailTemplate&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+To update the email template, navigate to **System Notification** &gt; **Email** &gt; **Notifications** and open the Notify on billing job execution error template. For information on configuring the email, see .
 
 </td></tr><tr><td>
 
@@ -249,7 +251,7 @@ Option for overwriting data from an earlier download attempt.
     1.  **Ready**: The job is in the queue. For example, when a job is created to download billing data for a few months, the jobs for all months except the latest month are in Ready state.
     2.  **Requested**: The job is fetched and processed immediately. For example, the job that's created to download billing data for a month is in the Requested state. Also, when a job is created to download billing data for more than a month, the latest month job is also in the Requested state.
 
-        **Note:** If you have installed the Cloud Cost Management Infra Stack application, it takes some time for the job to change from Ready to Requested state for AWS billing download job with Assume role authentication. This is because it takes time for the files to be downloaded to Cloud Cost Management MID Server. For details, see [Processing AWS billing jobs with Assume role authentication](../concept/process-aws-assume-infra.md).
+        **Note:** If you have installed the Cloud Cost Management Infra Stack application, it takes some time for the job to change from Ready to Requested state for AWS billing download job with Assume role authentication. This is because it takes time for the files to be downloaded to Cloud Cost Management MID Server. For details, see [Processing AWS billing jobs with Assume role authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/process-aws-assume-infra.md).
 
     3.  **Reserved**: Job is picked by the Kubernetes cluster for processing. The Kubernetes cluster also sends the Job Id to Cloud Cost Management Glide to show which Kubernetes job is processing the billing job.
 

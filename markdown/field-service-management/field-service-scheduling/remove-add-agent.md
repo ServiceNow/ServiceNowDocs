@@ -2,6 +2,7 @@
 title: Remove a temporarily added agent from Dispatcher Workspace
 description: You can remove an agent from Dispatcher Workspace that you temporarily added.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/remove-add-agent.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -19,7 +20,7 @@ You can remove an agent from Dispatcher Workspace that you temporarily added.
 
 Role required: wm\_dispatcher
 
-![dispatcher workspace showing removing all added agents](../image/remove-all-added.png)
+\[Omitted image "remove-all-added.png"\] Alt text: dispatcher workspace showing removing all added agents
 
 ## Procedure
 
@@ -35,7 +36,7 @@ To remove a single agent from the top of the calendar
 
 </td><td>
 
-Select the more actions ![more actions](../image/more_actions.png) icon next to the agent you want to remove, then select **Remove**.
+Select the more actions \[Omitted image "more\_actions.png"\] Alt text: more actions icon next to the agent you want to remove, then select **Remove**.
 
 </td></tr><tr><td>
 
@@ -43,7 +44,7 @@ To remove all agents that were added to the top of the calendar
 
 </td><td>
 
-Select the more actions ![more actions](../image/more_actions.png) icon at the top of the calendar next to where it says **Added agents**, then select **Remove**.
+Select the more actions \[Omitted image "more\_actions.png"\] Alt text: more actions icon at the top of the calendar next to where it says **Added agents**, then select **Remove**.
 
 </td></tr></tbody>
 </table>

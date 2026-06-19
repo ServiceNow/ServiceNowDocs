@@ -2,7 +2,10 @@
 title: Configure Data Collection for CSM
 description: Configure Data Collection for CSM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/dc-csm-config.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -40,11 +43,11 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
 
 5.  Repeat these steps for all assignment groups.
 
-    ![Illustration of Type: Tier 1.](../image/dct_config_1.png)
+    \[Omitted image "dct\_config\_1.png"\] Alt text: Illustration of Type: Tier 1.
 
 6.  To validate, run a query against the incident table for assignment groups that are still unclassified to validate you have classified all groups.
 
-    ![Illustration showing query for Assignment.group.Type > does not contain > Tier 1 AND Assignment.group.Type > does not contain > Tier 2+.](../image/dct_config_2.png)
+    \[Omitted image "dct\_config\_2.png"\] Alt text: Illustration showing query for Assignment.group.Type &gt; does not contain &gt; Tier 1 AND Assignment.group.Type &gt; does not contain &gt; Tier 2+.
 
     If your assignment groups change, you will have to reclassify them.
 
@@ -70,6 +73,6 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
 
     2.  Enter the data point in the relevant month cell.
 
-        ![Illustration with Mar 2024 cell selected.](../image/dct_man_data_points_csm.png)
+        \[Omitted image "dct\_man\_data\_points\_csm.png"\] Alt text: Illustration with Mar 2024 cell selected.
 
 

@@ -2,6 +2,7 @@
 title: Share a Process Mining project
 description: Share a project so that other have access to the data, and enable a process owner to analyze further.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/share-project.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -34,7 +35,7 @@ You can share a project in two ways:
 
     Alternatively, you can share a project from the Overview page after creating a project.
 
-    ![Share button on Process Mining Workspace](../image/po-share-button.png)
+    \[Omitted image "po-share-button.png"\] Alt text: Share button on Process Mining Workspace
 
     The Share project window is displayed.
 
@@ -53,5 +54,5 @@ You can share a project in two ways:
     5.  To remove any user, group, or role from giving the access to the project, from the **Actions** list for that user, group, or role select **Remove**.
 
 
-**Parent Topic:**[Using Process Mining](../concept/use-process-mining.md)
+**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/use-process-mining.md)
 

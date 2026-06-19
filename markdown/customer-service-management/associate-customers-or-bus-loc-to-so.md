@@ -2,7 +2,10 @@
 title: Associate customers or business locations to a service organization
 description: Associate your customers or business locations with a service organization \(SO\) using the Customer Service Management \(CSM\) application. By establishing a relationship between your customers or business locations and the SO, your service organization staff can create or resolve cases for the customers and business locations raised by other business location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/associate-customers-or-bus-loc-to-so.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -21,7 +24,7 @@ Role required: admin, sn\_customerservice\_manager, sn\_customerservice.svc\_loc
 
 You can associate customers \(accounts, consumers, and households\) and business locations \(both internal and external\) by using the service organization criteria \[service\_organization\_criteria\] table. This association helps your organization to gain access to all customers and business locations associated with a service organization.
 
-For more information about defining service organization criteria, see [Create the criteria for a service organization](create-service-organization-criteria.md).
+For more information about defining service organization criteria, see [Create the criteria for a service organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-service-organization-criteria.md).
 
 ## Procedure
 

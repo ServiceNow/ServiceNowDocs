@@ -2,6 +2,7 @@
 title: Activate dynamic scheduling
 description: Activate the dynamic scheduling feature by activating the Field Service Management plugin \(com.snc.work\_management\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/activate-dynamic-scheduling-plugin.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -86,6 +87,6 @@ Stores the task unassignment constraints for a dynamic scheduling configuration.
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 

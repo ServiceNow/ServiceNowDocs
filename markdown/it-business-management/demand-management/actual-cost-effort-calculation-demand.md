@@ -2,6 +2,7 @@
 title: Actual cost and effort calculation for a demand and demand task
 description: The actual cost and effort are realized cost incurred and time spent for the work performed on a demand and demand task during a specific time period. Actual cost and effort are calculated based on the approved time cards and hourly rate for the resources and vary based on how the hourly rate for the resource is derived.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/demand-management/actual-cost-effort-calculation-demand.html
 release: zurich
 product: Demand Management
 classification: demand-management
@@ -83,5 +84,5 @@ The **Demand Actual Cost** and **Demand Actual Effort** fields on the Financials
 2.  If the resource rate for the demand task is derived from the default labor rate \(Scenario 2\), the value in the Demand Actual Cost field is displayed as $3600. The value in the Demand Actual Effort field is displayed as 24 hours.
 3.  If the resource rate for demand task is derived from the default system property \(Scenario 3\), the value in the Demand Actual Cost field is displayed as $1200. The value in the Demand Actual Effort field is displayed as 24 hours.
 
-**Parent Topic:**[Demand Management reference](../../service-portfolio-management2/concept/demand-management-reference.md)
+**Parent Topic:**[Demand Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/demand-management-reference.md)
 

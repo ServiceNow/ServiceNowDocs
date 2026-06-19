@@ -2,6 +2,7 @@
 title: Approve or reject a document version
 description: Approve or reject a document version after the review process is complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/approve-document.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -28,5 +29,5 @@ Role required: approver\_user
 3.  Select **Approve** to approve the document version or select **Reject** to reject the document version.
 
 
-**Parent Topic:**[Document approval and publish process](../concept/document-review-approval.md)
+**Parent Topic:**[Document approval and publish process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/document-review-approval.md)
 

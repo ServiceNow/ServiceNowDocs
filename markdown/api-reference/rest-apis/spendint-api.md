@@ -2,6 +2,7 @@
 title: SpendInt APIs
 description: SpendInt APIs are inbound REST APIs that enable external procurement systems to send catalog, pricing, order, shipment, and invoice data into ServiceNow Sourcing and Procurement Operations, synchronizing structured procurement data from third-party systems.Allows suppliers to post multiple catalogs for creating supplier products, model products, contracts, and pricing records.Updates any pricing for supplier product records.Updates the availability for supplier product records.Updates order information for when a user shops for a product from a third-party catalog. When the user checks out, a purchase line is created so that approvals or other tasks for the purchase can be completed.Use this endpoint to accept updates on purchases from third parties.Accepts invoices from third-party providers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-apis/spendint-api.html
 release: zurich
 product: REST APIs
 classification: rest-apis
@@ -35,7 +36,7 @@ Each inbound procurement scenario is handled by a dedicated SpendInt endpoint un
 |Shipment updates|Send shipping and delivery status for orders|`POST /sn_spend_intg/spendint/shipment`|
 |Invoice ingestion|Send invoice data generated in third-party external systems into ServiceNow|`POST /sn_spend_intg/spendint/invoice`|
 
-For details about individual APIs, request payloads, and field mappings, see [SpendInt APIs](spendint-api.md#).
+For details about individual APIs, request payloads, and field mappings, see [SpendInt APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/spendint-api.md).
 
 ## How SpendInt APIs process data
 
@@ -43,7 +44,7 @@ SpendInt endpoints receive inbound payloads and write them to integration stagin
 
 This design separates data ingestion from record creation, allowing consistent handling of supplier data across integration scenarios.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/api-rest.md)
 
 ## Spendint API - POST /sn\_spend\_intg/spendint/catalog
 

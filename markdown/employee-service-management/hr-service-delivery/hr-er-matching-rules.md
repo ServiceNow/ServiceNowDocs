@@ -2,6 +2,7 @@
 title: Employee Relations matching rules
 description: Because ER cases do not use a subject person, matching rules try to find an agent with the required skills and in the same country where the case was opened to determine case assignment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-er-matching-rules.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -22,7 +23,7 @@ Matching rules look for:
 -   If there are no involved parties with type of complainant, look for involved parties with type of subject of allegation and use their country.
 -   If there are no involved parties with a country that can be used, then only skills are used.
 
-**Note:** For more information, see [Add or modify a matching rule](../task/CreateModMatchingRule.md).
+**Note:** For more information, see [Add or modify a matching rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/CreateModMatchingRule.md).
 
-You can restrict an ER case to be assigned to only members of a specific group. See [Configure an employee relations case restriction](../task/hr-er-create-case-restriction.md).
+You can restrict an ER case to be assigned to only members of a specific group. See [Configure an employee relations case restriction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-er-create-case-restriction.md).
 

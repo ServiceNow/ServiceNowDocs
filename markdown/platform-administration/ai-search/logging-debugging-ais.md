@@ -2,6 +2,7 @@
 title: AI Search logging and debugging
 description: Review AI Search logs and history to analyze performance and diagnose issues. View log messages and ingestion history, or use session debugging to capture detailed messages for a user session.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/logging-debugging-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -15,14 +16,14 @@ breadcrumb: [Administer, AI Search, Search administration, Configure core featur
 
 Review AI Search logs and history to analyze performance and diagnose issues. View log messages and ingestion history, or use session debugging to capture detailed messages for a user session.
 
--   **[View AI Search ingestion log messages](../task/view-ingestion-log-ais.md)**  
+-   **[View AI Search ingestion log messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/view-ingestion-log-ais.md)**  
 Review AI Search ingestion and indexing events by viewing log messages.
--   **[View all AI Search log messages](../task/view-all-log-ais.md)**  
+-   **[View all AI Search log messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/view-all-log-ais.md)**  
 Review AI Search events by viewing log messages.
--   **[Review ingestion history for an indexed source](../task/review-history-indexed-source-ais.md)**  
+-   **[Review ingestion history for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/review-history-indexed-source-ais.md)**  
 View processing results and performance statistics associated with an ingestion event for an indexed source.
--   **[Enable session debugging for AI Search](../task/session-debugging-ais.md)**  
+-   **[Enable session debugging for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/session-debugging-ais.md)**  
 Capture and review detailed AI Search log messages for a user session.
 
-**Parent Topic:**[Administering AI Search](administer-ais.md)
+**Parent Topic:**[Administering AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/administer-ais.md)
 

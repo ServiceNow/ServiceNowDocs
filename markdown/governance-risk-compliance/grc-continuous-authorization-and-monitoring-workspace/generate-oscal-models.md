@@ -2,6 +2,7 @@
 title: Export OSCAL SSP
 description: Generate and download Open Security Controls Assessment Language \(OSCAL\) JSON formatted System Security Plan \(SSP\) files containing authorization package data including controls, boundaries, and system implementation details from the Authorization package overview record page. The authorization package must be in Implement state or later to generate OSCAL System Security Plan \(SSP\) files.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/generate-oscal-models.html
 release: zurich
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -23,7 +24,7 @@ Role required: sn\_irm\_cont\_auth.admin, sn\_irm\_cont\_auth.system\_owner, sn\
 
 1.  Navigate to **Workspaces** &gt; **CAM Workspace**.
 
-2.  In the CAM Workspace, select the List icon \(![List](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the CAM Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List\).
 
 3.  Select **Authorization packages** from the **RMF** list.
 
@@ -33,13 +34,13 @@ Role required: sn\_irm\_cont\_auth.admin, sn\_irm\_cont\_auth.system\_owner, sn\
 
 5.  To export OSCAL SSP, select **Generate OSCAL SSP** from the **Generate OSCAL** drop-down.
 
-    **Note:** If you’re using the Xanadu version, start from Step 5 in [Export data in OSCAL format](https://www.servicenow.com/docs/bundle/xanadu-governance-risk-compliance/page/product/grc-cam-workspace/task/generate-oscal-models.html).
+    **Note:** If you’re using the Xanadu version, start from Step 5 in [Export data in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/generate-oscal-models.md).
 
     A message appears indicating file generation is in progress. The system generates files containing JSON data and associated diagrams. Refresh the page before downloading the JSON files.
 
 6.  To download the SSP zip file, select the **Download OSCAL SSP** from the **Download OSCAL** drop-down list.
 
-    ![Dowloading OSCAL SSP.](../image/cam-oscal-ssp-without-zip.gif)
+    \[Omitted image "cam-oscal-ssp-without-zip.gif"\] Alt text: Dowloading OSCAL SSP.
 
     **Important:** Verify that the pop-up blocker is disabled for the URL so that the SSP zip file is automatically downloaded to your local repository.
 
@@ -53,5 +54,5 @@ Role required: sn\_irm\_cont\_auth.admin, sn\_irm\_cont\_auth.system\_owner, sn\
     For more information on OSCAL import error, see the [OSCAL Import \[KB1794095\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1794095) article in the Now Support Knowledge Base.
 
 
-**Parent Topic:**[Export OSCAL files from authorization package](../concept/export-oscal-files-from-authorization-package.md)
+**Parent Topic:**[Export OSCAL files from authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/export-oscal-files-from-authorization-package.md)
 

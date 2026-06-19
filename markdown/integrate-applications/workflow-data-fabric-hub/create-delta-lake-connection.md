@@ -2,6 +2,7 @@
 title: Create a Delta Lake connection
 description: Establish a zero copy connection to Delta Lake in Workflow Data Fabric Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/workflow-data-fabric-hub/create-delta-lake-connection.html
 release: zurich
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -49,15 +50,15 @@ Work with your data source admin to create a connection to Delta Lake. For addit
 
 4.  Configure the metastore that you want to use with Delta Lake.
 
-<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d192305e243">
+<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d196900e243">
 
 Option
 
-</th><th align="left" id="d192305e246">
+</th><th align="left" id="d196900e246">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d192305e252">
+</th></tr></thead><tbody><tr><td id="d196900e252">
 
 **Hive Thrift**
 
@@ -73,7 +74,7 @@ Description
 3.  Enter the truststore password.
 
 
-</td></tr><tr><td id="d192305e287">
+</td></tr><tr><td id="d196900e287">
 
 **AWS Glue**
 
@@ -94,7 +95,7 @@ A test connection is made to the external data source, verifying that the connec
 
 ## What to do next
 
-If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](manage-access-connection-wdf.md).
+If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/manage-access-connection-wdf.md).
 
 If the connection fails, verify the connection details with your data source administrator and try again.
 

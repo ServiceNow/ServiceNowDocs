@@ -2,6 +2,7 @@
 title: Activate the Google Dialogflow ES service and enable it in your instance
 description: When you activate the Google Dialogflow ES service in the Open NLU Drivers \[open\_nlu\_driver\] table, the service becomes available as an option in Virtual Agent NLU settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/activate-ggl-df-es-service.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -27,7 +28,7 @@ Role required: admin
 
 3.  In the Active column, set the value to **true**.
 
-    ![Open NLU Drivers portal, with the Active column for Google Dialogflow set to true.](../images/open-nlu-drivers-ggl-df.png)
+    \[Omitted image "open-nlu-drivers-ggl-df.png"\] Alt text: Open NLU Drivers portal, with the Active column for Google Dialogflow set to true.
 
 4.  To enable NLU in your instance, navigate to **Conversational Interfaces** &gt; **Settings**, and then do the following:
 
@@ -41,7 +42,7 @@ Role required: admin
 
     5.  If you plan to use language-specific NLU models, enable the languages in the Supported NLU Languages list.
 
-        A language is enabled if the Enabled column displays **true**. For more information, see [Enable NLU languages in Virtual Agent settings](enable-langs-va-gen-settings.md).
+        A language is enabled if the Enabled column displays **true**. For more information, see [Enable NLU languages in Virtual Agent settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-langs-va-gen-settings.md).
 
     6.  Click **Save**.
 
@@ -50,9 +51,9 @@ Role required: admin
 
 Google Dialogflow ES is the NLU service provider for your instance.
 
-**Parent Topic:**[Configure Google Dialogflow ES as the NLU provider for Virtual Agent](../concept/configure-dialogflow-es-integration.md)
+**Parent Topic:**[Configure Google Dialogflow ES as the NLU provider for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-dialogflow-es-integration.md)
 
-**Previous topic:**[Generate a Java Keystore \(JKS\) file and configure security on your ServiceNow instance](vad-configure-dialogflow-security.md)
+**Previous topic:**[Generate a Java Keystore \(JKS\) file and configure security on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-configure-dialogflow-security.md)
 
-**Next topic:**[Test Virtual Agent with Google Dialogflow ES NLU in Virtual Agent Designer](test-va-nlu-dialogflow.md)
+**Next topic:**[Test Virtual Agent with Google Dialogflow ES NLU in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/test-va-nlu-dialogflow.md)
 

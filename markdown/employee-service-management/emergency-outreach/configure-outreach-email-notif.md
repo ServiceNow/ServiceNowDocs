@@ -2,6 +2,7 @@
 title: Add email notifications for use with Emergency Outreach
 description: Add an email notification to customize the send conditions and notification for your employees and use it in place of the default notification for an Emergency Outreach notification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/emergency-outreach/configure-outreach-email-notif.html
 release: zurich
 product: Emergency Outreach
 classification: emergency-outreach
@@ -205,7 +206,7 @@ Daily Health Verification Outreach
 
 5.  In the **Who will receive** tab, select the audience to whom the notification will be sent.
 
-    You can also select the target audience while configuring or sending the associated outreach notification. For more information, see [Send notifications for an emergency](send-eo-notification-outreach.md).
+    You can also select the target audience while configuring or sending the associated outreach notification. For more information, see [Send notifications for an emergency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/emergency-outreach/send-eo-notification-outreach.md).
 
 6.  In the **What it will contain** tab, enter the subject and text of the email message.
 

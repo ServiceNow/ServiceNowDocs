@@ -2,11 +2,12 @@
 title: Compose and send an email about a regulatory agency record
 description: Compose and send an email about a regulatory agency record to multiple stakeholders within or outside your organization by using the Compliance Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/compose-emails-regulatory-agency.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Regulatory Agency Library, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -27,9 +28,9 @@ You can compose and send emails regarding regulatory agencies to multiple stakeh
 
 1.  Navigate to **Workspaces** &gt; **Compliance Workspace**.
 
-2.  Select the list icon ![](../../grc-ai-risk-compliance/image/list-icon-airc-ws.png) and then Navigate to **Regulatory information** &gt; **Agencies** and select the agency you want to compose an email for.
+2.  Select the list icon \[Omitted image "list-icon-airc-ws.png"\] and then Navigate to **Regulatory information** &gt; **Agencies** and select the agency you want to compose an email for.
 
-3.  Select the More actions icon ![](../../grc-workspace-audit/image/MoreActionsIcon.jpg).
+3.  Select the More actions icon \[Omitted image "MoreActionsIcon.jpg"\] Alt text:.
 
 4.  Select **Compose Email**.
 
@@ -75,5 +76,5 @@ Body of your message that includes any information, requests, or details that yo
     The email has been sent to the recipient. You can view emails associated with the regulatory agency record by navigating to the Emails tab of that record.
 
 
-**Parent Topic:**[Regulatory Agency Library](../concept/regulatory-agency-library-rcm.md)
+**Parent Topic:**[Regulatory Agency Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/regulatory-agency-library-rcm.md)
 

@@ -2,6 +2,7 @@
 title: Delete a data fabric table
 description: Remove a data fabric table from your instance by deleting it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/workflow-data-fabric-hub/delete-data-fabric-table.html
 release: zurich
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -32,7 +33,7 @@ Role required: One of the following role combinations or admin.
 
     1.  Find the data fabric table that you want to delete.
 
-    2.  Select the More Actions icon \(![More actions icon](../../integrationhub/images/more-actions-menu-icon.png)\), and select **Delete**.
+    2.  Select the More Actions icon \(\[Omitted image "more-actions-menu-icon.png"\] Alt text: More actions icon\), and select **Delete**.
 
     3.  Confirm that you want to remove the table by selecting **Delete**.
 
@@ -41,5 +42,5 @@ Role required: One of the following role combinations or admin.
 
 The data fabric table is deleted and its data is no longer available on your instance.
 
-**Parent Topic:**[Managing data fabric tables in Workflow Data Fabric Hub](../concept/managing-data-fabric-tables-wdf.md)
+**Parent Topic:**[Managing data fabric tables in Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/managing-data-fabric-tables-wdf.md)
 

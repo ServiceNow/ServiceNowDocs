@@ -2,6 +2,7 @@
 title: Create or update a treemap category
 description: You can modify the predefined categories for the security incident treemaps or create categories as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/t\_DfnSvcImpctTmapDmn.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -59,5 +60,5 @@ In the base system, treemap categories such as Incident Risk, Denial of Service,
 7.  Click **Submit** or **Update**.
 
 
-**Parent Topic:**[Security incident treemaps](../concept/c_ConfigureTreemaps.md)
+**Parent Topic:**[Security incident treemaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/c_ConfigureTreemaps.md)
 

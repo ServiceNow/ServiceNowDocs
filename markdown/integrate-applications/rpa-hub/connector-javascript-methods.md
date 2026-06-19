@@ -2,6 +2,7 @@
 title: JavaScript connector methods
 description: Execute custom JavaScript with the Execute method as part of an automation in the RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/connector-javascript-methods.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -19,12 +20,12 @@ Execute custom JavaScript with the Execute method as part of an automation in th
 
 Executes the custom JavaScript you have written. Before executing,
 
--   Configure the JavaScript connector before executing the method. To configure, see [Configure the JavaScript connector](../task/configure-javascript-connector.md).
+-   Configure the JavaScript connector before executing the method. To configure, see [Configure the JavaScript connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-javascript-connector.md).
 -   Configure the Execute method.
 
 ## Configure the Execute method
 
-1.  Click the method settings icon \(![Method settings icon](../image/component-settings-icon.png)\).
+1.  Click the method settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Method settings icon\).
 2.  Select the class from the **Classes** list as set in the custom JavaScript you had written.
 3.  Select the method from the **Methods** list as set in the custom JavaScript you had written.
 4.  Click **OK**.
@@ -37,5 +38,5 @@ Executes the custom JavaScript you have written. Before executing,
 |Function value|Accepts the value for the function you have created.|Data in|Object|None|Yes|
 |Result|Returns the output of the custom JavaScript execution.|Data out|String|None|Not applicable|
 
-**Parent Topic:**[JavaScript](../concept/javascript.md)
+**Parent Topic:**[JavaScript](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/javascript.md)
 

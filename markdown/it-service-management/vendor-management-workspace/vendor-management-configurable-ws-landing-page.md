@@ -2,6 +2,7 @@
 title: Vendor Management Workspace landing page
 description: Monitor vendor metrics, the number of recently created contracts, the ones that are ending soon and the number of active improvement initiatives at any given time. See which characteristics contribute to the success of your vendors. View how your vendors are ranked against those characteristics in comparison to other vendors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/vendor-management-workspace/vendor-management-configurable-ws-landing-page.html
 release: zurich
 product: Vendor Management Workspace
 classification: vendor-management-workspace
@@ -15,9 +16,9 @@ breadcrumb: [Manage, Vendor Management Workspace, IT Service Management]
 
 Monitor vendor metrics, the number of recently created contracts, the ones that are ending soon and the number of active improvement initiatives at any given time. See which characteristics contribute to the success of your vendors. View how your vendors are ranked against those characteristics in comparison to other vendors.
 
-You can clone an existing landing page and customize it using the Next Experience UI Builder. For more information, see [Customize a Vendor Management Workpace page using the Next Experience UI Builder](../../../product/vendor-management-workspace/task/customize-vmw-page.md).
+You can clone an existing landing page and customize it using the Next Experience UI Builder. For more information, see [Customize a Vendor Management Workpace page using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/customize-vmw-page.md).
 
-![Vendor Manager Workspace Landing Page](../../../product/vendor-management-workspace/image/vendor-management-workspace-landing-page.png)
+\[Omitted image "vendor-management-workspace-landing-page.png"\] Alt text: Vendor Manager Workspace Landing Page
 
 ## Required Vendor Manager Workspace roles
 
@@ -69,10 +70,10 @@ Select a visualization to drill down and analyze further details.
 
 |Title|Type|Source table|Description|
 |-----|----|------------|-----------|
-|Vendors by KPI group|Donut![Donut](../../reporting/image/icon-donut-report.png)|Company \[core\_company\]|Breakdown of vendors KPI groups.|
-|New contracts|Single score![Single score report](../../performance-analytics/image/single-score.png)|Contract \[ast\_contract\]|Number of contracts created in the last 30 days.|
-|Contracts ending|Single score![Single score report](../../performance-analytics/image/single-score.png)|Contract \[ast\_contract\]|Number of contracts ending the next 90 days.|
-|Improvement initiatives|Single score![Single score report](../../performance-analytics/image/single-score.png)|Improvement Initiative \[sn\_cim\_register\]|Number of active improvement initiatives.|
+|Vendors by KPI group|Donut\[Omitted image "icon-donut-report.png"\] Alt text: Donut|Company \[core\_company\]|Breakdown of vendors KPI groups.|
+|New contracts|Single score\[Omitted image "single-score.png"\] Alt text: Single score report|Contract \[ast\_contract\]|Number of contracts created in the last 30 days.|
+|Contracts ending|Single score\[Omitted image "single-score.png"\] Alt text: Single score report|Contract \[ast\_contract\]|Number of contracts ending the next 90 days.|
+|Improvement initiatives|Single score\[Omitted image "single-score.png"\] Alt text: Single score report|Improvement Initiative \[sn\_cim\_register\]|Number of active improvement initiatives.|
 
-**Parent Topic:**[Managing vendors using Vendor Management Workspace](../../../product/vendor-management-workspace/concept/using-vendor-management-workspace.md)
+**Parent Topic:**[Managing vendors using Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/using-vendor-management-workspace.md)
 

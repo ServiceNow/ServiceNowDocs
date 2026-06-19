@@ -2,6 +2,7 @@
 title: Assign higher or lower significance to an alert in Health Log Analytics
 description: Label an alert in Health Log Analytics as meaningful or insignificant, or restore normal importance to the metric involved in generating it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-op-alert-significance.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -24,31 +25,31 @@ Assigning higher or lower significance to an alert helps you prioritize the aler
 
 You can do the following to adjust the importance of an alert or reduce sensitivity to specific anomalies:
 
--   [Mark an alert as significant in Health Log Analytics](../task/hla-op-alert-make-significant-sow.md)
+-   [Mark an alert as significant in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-alert-make-significant-sow.md)
 
     Make an alert more likely to be included in a Log Analytics group when the associated metric behaves anomalously by labeling the alert as meaningful.
 
--   [Mute an unimportant alert in Health Log Analytics](../task/hla-op-alert-mute-sow.md)
+-   [Mute an unimportant alert in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-alert-mute-sow.md)
 
-    Eliminate distracting new alerts for insignificant issues by muting them. [View the list of metrics that were muted](../task/hla-op-alert-view-ignored-list.md) and no longer generate alerts.
+    Eliminate distracting new alerts for insignificant issues by muting them. [View the list of metrics that were muted](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-alert-view-ignored-list.md) and no longer generate alerts.
 
--   [Decrease sensitivity to similar anomalies in Health Log Analytics](../task/hla-op-alert-raise-feedback-sow.md)
+-   [Decrease sensitivity to similar anomalies in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-alert-raise-feedback-sow.md)
 
     Make Health Log Analytics anomaly detection less sensitive to anomalies like the one that triggered the current Log Analytics alert.
 
--   [Restore normal importance to an alert metric in Health Log Analytics](../task/hla-op-alert-restore-user-defined-sow.md)
+-   [Restore normal importance to an alert metric in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-alert-restore-user-defined-sow.md)
 
     Return normal significance to the metric involved in generating a Log Analytics alert.
 
 
-For detailed information about alert metrics, see [How Health Log Analytics generates alerts](hla-op-anomalies-detecting.md).
+For detailed information about alert metrics, see [How Health Log Analytics generates alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-anomalies-detecting.md).
 
--   **[Mark an alert as significant in Health Log Analytics](../task/hla-op-alert-make-significant.md)**  
+-   **[Mark an alert as significant in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-alert-make-significant.md)**  
 Make an alert more likely to be included in a Log Analytics group when the associated metric behaves anomalously by labeling the alert as meaningful.
--   **[Mute an unimportant alert in Health Log Analytics](../task/hla-op-alert-mute.md)**  
+-   **[Mute an unimportant alert in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-alert-mute.md)**  
 Eliminate distracting new alerts for insignificant issues by muting them.
--   **[Restore normal importance to an alert metric in Health Log Analytics](../task/hla-op-alert-restore-user-defined.md)**  
+-   **[Restore normal importance to an alert metric in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-alert-restore-user-defined.md)**  
 If you no longer want a muted alert or an alert that was marked as significant to be treated specially, you can restore normal importance to the metric involved in generating it.
 
-**Parent Topic:**[Controlling Health Log Analytics alert generation, prioritization, and anomaly detection](hla-controlling-alert-generation.md)
+**Parent Topic:**[Controlling Health Log Analytics alert generation, prioritization, and anomaly detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-controlling-alert-generation.md)
 

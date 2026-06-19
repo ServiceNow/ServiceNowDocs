@@ -2,6 +2,7 @@
 title: Add assigned studio users to an unattended robot
 description: In RPA Hub, assign one or more users \(RPA developers or RPA admins\) to an unattended robot, so that the users can access the specific robot in the Assigned Bot Process section of the RPA Desktop Design Studio application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/assigned-studio-users-rpa.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -17,7 +18,7 @@ In RPA Hub, assign one or more users \(RPA developers or RPA admins\) to an unat
 
 ## Before you begin
 
-Familiarise yourself with the Assigned Bot Process feature in RPA Desktop Design Studio. For more information, see [Assign bot process to an automation project](../../rpa-studio/task/assign-bot-process.md).
+Familiarise yourself with the Assigned Bot Process feature in RPA Desktop Design Studio. For more information, see [Assign bot process to an automation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/assign-bot-process.md).
 
 Only users with RPA developer or RPA admin roles can be associated to a robot.
 
@@ -34,7 +35,7 @@ This helps in impersonating as a robot, so that the following benefits are achie
 
 You can select a robot for impersonating as a robot in two ways. One way is by enabling **sn\_rpa\_fdn.restrict\_robots\_in\_assign\_bot\_process\_by\_machine\_name** system property. Then, the robots assigned to the bot process are filtered based on the robot machine name, where the RPA Desktop Design Studio is launched. For example, if the user launches the RPA Desktop Design Studio from the `ABC` robot machine, then the user can access only the `ABC` robot machine.
 
-For more information about this system property, see [Configure RPA Hub properties](../reference/rpahub-sys-properties.md).
+For more information about this system property, see [Configure RPA Hub properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/rpahub-sys-properties.md).
 
 **Important:**
 
@@ -48,7 +49,7 @@ The other way is by adding one or more users to an unattended robot from the **A
 
 1.  Navigate to **All** &gt; **Robotic Process Automation** &gt; **RPA Hub Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/rpahublist-icon.png)\).
+2.  Select the list icon \(\[Omitted image "rpahublist-icon.png"\] Alt text: List icon.\).
 
 3.  On the **Lists** tab, under **Administration**, select **Robots**.
 

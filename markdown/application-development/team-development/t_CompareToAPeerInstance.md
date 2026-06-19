@@ -2,6 +2,7 @@
 title: Compare to peer instances
 description: You can compare the local instance to any other remote instance and commit any current versions from the remote instance on your development instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/t\_CompareToAPeerInstance.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -27,7 +28,7 @@ You can selectively commit a version from the remote instance or compare it with
 
 ## Procedure
 
-1.  Confirm that the peer instance is [defined as a remote instance](t_DefineARemoteInstance.md).
+1.  Confirm that the peer instance is [defined as a remote instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_DefineARemoteInstance.md).
 
 2.  Navigate to **Team Development** &gt; **Team Dashboard**.
 
@@ -46,5 +47,5 @@ You can selectively commit a version from the remote instance or compare it with
     -   Compare the current remote version to the current local version by select and hold \(or right-click\) a row and selecting **Compare to Current**.
     -   Load the current remote version as the current local version by select and hold \(or right-click\) a row and selecting **Load This Change**.
 
-**Parent Topic:**[Working with version records](../concept/c_Versions.md)
+**Parent Topic:**[Working with version records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_Versions.md)
 

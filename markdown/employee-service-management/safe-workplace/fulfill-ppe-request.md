@@ -2,6 +2,7 @@
 title: Fulfill a request for PPE
 description: View employee requests for personal protective equipment \(PPE\). Fulfill the requests to make sure that employees get the PPE they need to stay safe at the workplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/fulfill-ppe-request.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace
@@ -44,5 +45,5 @@ When the employee receives their PPE, update the request state to **Closed Compl
 
 If the request won't be fulfilled, update the state to **Closed Incomplete**.
 
-**Parent Topic:**[Workplace PPE Inventory Management](../concept/ppe-inventory-management.md)
+**Parent Topic:**[Workplace PPE Inventory Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/ppe-inventory-management.md)
 

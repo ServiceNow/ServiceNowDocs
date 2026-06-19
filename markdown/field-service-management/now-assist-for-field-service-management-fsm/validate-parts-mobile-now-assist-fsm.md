@@ -2,6 +2,7 @@
 title: Validate parts on ServiceNow Agent using the Parts Manager AI agent
 description: Use the Parts Manager AI agent to track and validate parts usage when closing a work order task on the ServiceNow Agent mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/now-assist-for-field-service-management-fsm/validate-parts-mobile-now-assist-fsm.html
 release: zurich
 product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm
@@ -34,11 +35,11 @@ The Parts Manager AI agent analyzes your work notes to identify which parts were
 
 2.  Tap a work order task under **My Tasks**.
 
-3.  Tap the Now Assist icon ![](../image/now-assist-panel-icon.png) in the navigation bar to open Now Assist Virtual Agent.
+3.  Tap the Now Assist icon \[Omitted image "now-assist-panel-icon.png"\] Alt text: in the navigation bar to open Now Assist Virtual Agent.
 
 4.  Ask Now Assist to validate parts for the work order task.
 
-    ![The validate parts conversation in Now Assist Virtual Agent on the mobile app.](../image/now-assist-mobile-validate-parts.png)
+    \[Omitted image "now-assist-mobile-validate-parts.png"\] Alt text: The validate parts conversation in Now Assist Virtual Agent on the mobile app.
 
     If the Parts Manager AI agent cannot determine the work order task, provide the work order task number when prompted.
 

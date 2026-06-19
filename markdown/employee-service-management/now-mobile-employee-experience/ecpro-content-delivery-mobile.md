@@ -2,6 +2,7 @@
 title: Configure mobile content
 description: Configure mobile content such as banners, text cards, and video for content delivery or for use in campaigns. Mobile content is delivered to users that meet the audience criteria on Now Mobile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-mobile-employee-experience/ecpro-content-delivery-mobile.html
 release: zurich
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
@@ -37,12 +38,12 @@ Mobile content displays in a carousel section on the Now Mobile app to users tha
     For each content type, follow the applicable task.
 
 
--   **[For mobile banner](ecpro-mobile-content-for-mobile-banner.md)**  
+-   **[For mobile banner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/ecpro-mobile-content-for-mobile-banner.md)**  
 Configure content for a mobile banner.
--   **[For mobile text card](ecpro-mobile-content-for-mobile-text-card.md)**  
+-   **[For mobile text card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/ecpro-mobile-content-for-mobile-text-card.md)**  
 Configure content for a mobile text card.
--   **[For mobile video](ecpro-mobile-content-for-mobile-video.md)**  
+-   **[For mobile video](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/ecpro-mobile-content-for-mobile-video.md)**  
 Configure content for a mobile video.
 
-**Parent Topic:**[Configuring Employee Center for mobile](../concept/ec-mobile-configrations.md)
+**Parent Topic:**[Configuring Employee Center for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/ec-mobile-configrations.md)
 

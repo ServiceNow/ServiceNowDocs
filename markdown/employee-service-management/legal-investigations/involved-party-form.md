@@ -2,6 +2,7 @@
 title: Involved Party form
 description: Legal fulfillers or matter owners can use the Involved Party form to add or modify an involved party in a legal request or legal matter assigned to them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-investigations/involved-party-form.html
 release: zurich
 product: Legal Investigations
 classification: legal-investigations
@@ -69,5 +70,5 @@ Notes
 Any additional information about the involved party.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legal Investigations reference](legal-investigations-reference.md)
+</table>**Parent Topic:**[Legal Investigations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-investigations/legal-investigations-reference.md)
 

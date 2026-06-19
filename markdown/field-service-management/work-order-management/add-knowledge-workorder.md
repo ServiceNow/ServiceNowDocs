@@ -2,6 +2,7 @@
 title: Assign a knowledge article to a work order or work order task
 description: Add additional information to complete tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/add-knowledge-workorder.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -52,5 +53,5 @@ The articles are added and appear under the **Attached Articles** tab.
 **Related topics**  
 
 
-[Knowledge properties](https://www.servicenow.com/docs/access?context=r_KnowledgeProperties&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.r_KnowledgeProperties]
 

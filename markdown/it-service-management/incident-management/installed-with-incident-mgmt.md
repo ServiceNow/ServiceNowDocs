@@ -2,6 +2,7 @@
 title: Component installed with KCS Integration for Incident Management plugin
 description: The Incident KCS Article table is installed with the activation of the KCS Integration for Incident Management plugin \(com.snc.incident.knowledge\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/installed-with-incident-mgmt.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -15,7 +16,7 @@ breadcrumb: [Activate KCS Integration for Incident Management, Incident Manageme
 
 The Incident KCS Article table is installed with the activation of the KCS Integration for Incident Management plugin \(com.snc.incident.knowledge\).
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Tables installed
 
@@ -36,5 +37,5 @@ Incident KCS Article\[kb\_template\_incident\_kcs\_article\]
 The table is used to store knowledge articles created from the Incident KCS template.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate KCS Integration for Incident Management](../task/activate-kcs-integration-for-im.md)
+</table>**Parent Topic:**[Activate KCS Integration for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/activate-kcs-integration-for-im.md)
 

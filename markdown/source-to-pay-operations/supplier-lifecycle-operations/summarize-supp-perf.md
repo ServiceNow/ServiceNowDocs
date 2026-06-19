@@ -2,6 +2,7 @@
 title: Summarize supplier performance in Source-to-Pay Workspace
 description: Generate comprehensive performance summary including overall performance scores, trends, and action items by using the supplier performance summarization skill in the Now Assist for Supplier Lifecycle Operations \(SLO\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/summarize-supp-perf.html
 release: zurich
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -17,9 +18,9 @@ Generate comprehensive performance summary including overall performance scores,
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
-Role required: admin, slm manager
+Role required: sn\_kpi.admin, slm manager
 
 ## About this task
 
@@ -29,7 +30,7 @@ You can use the supplier performance summarization skill in the Source-to-Pay Wo
 
 1.  Navigate to **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\).
 
 3.  Navigate to **Lists** &gt; **Suppliers** and select the legal name of the supplier for which you want to generate the performance summary.
 
@@ -37,7 +38,7 @@ You can use the supplier performance summarization skill in the Source-to-Pay Wo
 
 4.  Under the **KPI management** tab, select **Summarize** to generate the performance summary with Now Assist.
 
-    ![Select Summarize button to generate the performance summary](../image/supp-perf-summararize.png)
+    \[Omitted image "supp-perf-summararize.png"\] Alt text: Select Summarize button to generate the performance summary
 
 5.  Review the summary details.
 

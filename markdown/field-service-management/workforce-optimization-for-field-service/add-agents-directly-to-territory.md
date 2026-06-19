@@ -2,6 +2,7 @@
 title: Add agents to a territory
 description: Add agents directly to a territory without adding them to the assignment groups. Enables agents to start working on tasks right away.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/add-agents-directly-to-territory.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

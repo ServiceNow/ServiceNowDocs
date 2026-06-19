@@ -2,6 +2,7 @@
 title: Use the LockUIDialog component
 description: Provide additional authentication to any step of your attended automation by using the LockUIDialog component in the RPA Desktop Design Studio application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/use-lockuidialog.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -77,7 +78,7 @@ Data Out
 
 </td><td>
 
-True or false value of the authentication. If the authentication is successful, the result is true. If the authentication is unsuccessful, the result is false.The true or false value of the result can be further used to connect to any condition. For more information on how to use the condition components, see [Conditions](../concept/conditions-components.md).
+True or false value of the authentication. If the authentication is successful, the result is true. If the authentication is unsuccessful, the result is false.The true or false value of the result can be further used to connect to any condition. For more information on how to use the condition components, see [Conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/conditions-components.md).
 
 </td><td>
 
@@ -121,5 +122,5 @@ No
     You can also run the automation by selecting **Run** from the **Design** tab.
 
 
-**Parent Topic:**[Dialogs](../concept/dialogs.md)
+**Parent Topic:**[Dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/dialogs.md)
 

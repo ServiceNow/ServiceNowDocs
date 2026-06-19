@@ -2,6 +2,7 @@
 title: Regulatory agency form
 description: Use the Create Regulatory Agency form in the Privacy Workspace to create a regulatory agency. The regulatory agency is a new record type that handles regulatory changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/regulatory-agency-form.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -151,5 +152,5 @@ Functional domain
 Functional domain of the regulatory agency. This field is automatically set to **Privacy** when the regulatory agency is created from the Privacy Workspace.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Add a regulatory agency](../task/add-a-regulatory-agency.md)
+</table>**Parent Topic:**[Add a regulatory agency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/add-a-regulatory-agency.md)
 

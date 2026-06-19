@@ -2,6 +2,7 @@
 title: getRecords
 description: Query the targeted table by example values and return all matching records and their fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/r\_GetRecords.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -103,13 +104,13 @@ Sample SOAP response that contains more than 1 record
 
 For language-specific getRecords samples, refer to the following topics:
 
-[Perl SOAP::Lite](../../examples/concept/c_PerlWebServicesClientExamples.md#getRecords)
+[Perl SOAP::Lite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_PerlWebServicesClientExamples.md)
 
-[Java Apache Axis2](../../examples/concept/c_JAAWbSrvcsClntExUpdt.md)
+[Java Apache Axis2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_JAAWbSrvcsClntExUpdt.md)
 
-[Microsoft .NET web services client examples](../../examples/concept/c_MS.NETWebServicesClientExamples.md)
+[Microsoft .NET web services client examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_MS.NETWebServicesClientExamples.md)
 
-[Python](../../examples/concept/c_PythonWebServicesClientExamples.md#getRecords)
+[Python](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_PythonWebServicesClientExamples.md)
 
-**Parent Topic:**[Data Retrieval API](r_DataRetrievalAPI.md)
+**Parent Topic:**[Data Retrieval API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/r_DataRetrievalAPI.md)
 

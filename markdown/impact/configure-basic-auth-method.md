@@ -2,7 +2,10 @@
 title: Configure the basic authentication method
 description: For instances that use the basic authentication method, you must assign users the Integration role, create an authentication record, import both into each instance that will use Scan Engine integrations, then connect your instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/configure-basic-auth-method.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-11-18"
 reading_time_minutes: 2
@@ -21,7 +24,7 @@ Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\).
 
 1.  Create an integration account with the required role \(sn\_se.internal\_rest\_integration\) by navigating to **All** &gt; **System Security** &gt; **Users and Groups** &gt; **Users**. Then select **New**.
 
-    For more information on creating a new user, see [Create new user form](https://www.servicenow.com/docs/access?context=eaw-create-new-user-form&version=zurich&pubname=zurich-application-portfolio-management&ft:locale=en-US).
+    For more information on creating a new user, see .
 
     **Note:** You can also use an existing integration user by ensuring they are provisioned for the required role.
 

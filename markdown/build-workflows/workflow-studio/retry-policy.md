@@ -2,6 +2,7 @@
 title: Retry policy
 description: Automatically retry failed requests when a step encounters an intermittent issue such as a network failure or request rate limit. Set a retry policy to prevent having to manually trigger the step again.Automatically retry failed requests when a step encounters an intermittent issue such as a network failure or request rate limit. Set a retry policy to prevent having to manually trigger the step again.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/retry-policy.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -33,7 +34,7 @@ Associate a default retry policy to a Connection &amp; Credentials alias and app
 
 **Note:** You can only create retry policies for JDBC, REST, and SOAP steps.
 
-**Parent Topic:**[Create an action in Workflow Studio](../task/create-action.md)
+**Parent Topic:**[Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-action.md)
 
 ## Create a retry policy
 
@@ -107,7 +108,7 @@ Count
 
 </td><td>
 
-Maximum number of retry attempts. This field applies only to **Exponential Backoff** and **Fixed Interval** retry strategies. If no value is specified, the maximum number of retry attempts is based on the value provided in the **glide.fdih.retry.max\_count** system property. Default value of the **glide.fdih.retry.max\_count** system property is 0. For more information about system properties, see [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Maximum number of retry attempts. This field applies only to **Exponential Backoff** and **Fixed Interval** retry strategies. If no value is specified, the maximum number of retry attempts is based on the value provided in the **glide.fdih.retry.max\_count** system property. Default value of the **glide.fdih.retry.max\_count** system property is 0. For more information about system properties, see Available system properties.
 
 </td></tr><tr><td>
 
@@ -120,7 +121,7 @@ Maximum cumulative time in seconds after which the retry attempts are stopped. T
 </td></tr></tbody>
 </table>3.  Create a global system property with the following attributes.
 
-    For more information on how to create a property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US). You can use this system property to specify the maximum time in seconds for a retry policy.
+    For more information on how to create a property, see Add a system property. You can use this system property to specify the maximum time in seconds for a retry policy.
 
     |Field|Value|
     |-----|-----|
@@ -133,7 +134,7 @@ Maximum cumulative time in seconds after which the retry attempts are stopped. T
 
 ### Retry policy with Retry Strategy as Exponential Backoff
 
-![Sample retry policy when Retry Strategy is Exponential Backoff](../images/exponential-backoff.png "Sample retry policy")
+\[Omitted image "exponential-backoff.png"\] Alt text: Sample retry policy when Retry Strategy is Exponential Backoff
 
 In this example, the policy is defined to attempt retry when one of these conditions is met:
 
@@ -144,11 +145,11 @@ When the condition is met, retry attempts are made for a maximum number of three
 
 ### What to do next
 
--   [Create a Connection &amp; Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=zurich&pubname=zurich-platform-security&ft:locale=en-US), if you do not have the required alias.
+-   Create a Connection &amp; Credential alias, if you do not have the required alias.
 -   Assign the retry policy as **Default Retry Policy** to the required Connection &amp; Credential alias.
 
     **Note:** A default retry policy is provided and is selected as **Default Retry Policy**. If you have created retry policies, you can select the required policy as **Default Retry Policy**.
 
--   Create an HTTP\(s\) Connection in the Connections related list for the Connection &amp; Credential alias. For more information, see [Connections and Credentials](https://www.servicenow.com/docs/access?context=r-credentials&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+-   Create an HTTP\(s\) Connection in the Connections related list for the Connection &amp; Credential alias. For more information, see Connections and Credentials.
 -   Verify and view the details of the retry attempts by navigating to **System Logs** &gt; **Outbound HTTP Requests**.
 

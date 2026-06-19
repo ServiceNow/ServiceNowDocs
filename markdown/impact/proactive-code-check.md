@@ -2,7 +2,10 @@
 title: Proactive Code Check for the Impact Store Application
 description: Developers scan update sets for leading practice violations in non-production instances before promoting to production and Platform Owners gain insight into technical debt and stability of both non-production and production instances, resulting in improved code quality, reduced errors, and compliance verification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/proactive-code-check.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -53,5 +56,5 @@ Proactive Code Check performs leading practice checks related to the categories 
 |Security|Measures implementation of protocols across a ServiceNow instance to prevent unauthorized access, data breaches, cyber attacks, and potential vulnerabilities.|
 |Upgradeability|Assesses the ease of enhancing a ServiceNow instance or application with new features, improvements, security patches, or compatibility adjustments.|
 
-**Note:** For the complete list checks performed by a Proactive Code Check scan, see [Proactive Code Check scan suite matrix for the Impact Store Application](proactive-code-check-scan-suite.md).
+**Note:** For the complete list checks performed by a Proactive Code Check scan, see [Proactive Code Check scan suite matrix for the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/proactive-code-check-scan-suite.md).
 

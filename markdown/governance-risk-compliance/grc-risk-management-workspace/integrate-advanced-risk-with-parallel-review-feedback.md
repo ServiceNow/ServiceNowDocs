@@ -2,6 +2,7 @@
 title: Parallel Review and Feedback in Advanced Risk
 description: Learn how to use the Review and feedback workflow to enable the 2nd and 3rd line managers to review records, capture feedback, and track the closure of feedback.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/integrate-advanced-risk-with-parallel-review-feedback.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -33,22 +34,22 @@ The Parallel Review and Feedback application enables you to do the following:
 -   Initiate and link further actions as outcomes of the feedback, such as creating an issue or linking to an existing one.
 -   Configure a feedback integration setup for any record type, including custom tables where you can define the table or record type to create feedback from.
 
--   **[Parallel Review and Feedback workflow](review-feedback-workflow.md)**  
+-   **[Parallel Review and Feedback workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/review-feedback-workflow.md)**  
 The Parallel Review and Feedback workflow outlines the systematic process by which the solution facilitates the submission of feedback on a record or specific fields within a record. Feedback could be related to any improvement or recommendation at a record level, such as data integrity, compliance, and operational procedures.
--   **[Feedback dashboard](feedback-dashboard.md)**  
+-   **[Feedback dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/feedback-dashboard.md)**  
 Use the Feedback dashboard to track and manage feedback using the Risk Workspace. The Feedback dashboard organizes feedback according to its status, importance, type, and other specific factors.
--   **[Configure a feedback integration](../task/configure-feedback-integration.md)**  
+-   **[Configure a feedback integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/configure-feedback-integration.md)**  
 Configure a feedback integration setup in the Advanced Risk application to define the table on which you want to use Parallel Review and Feedback. This setup enables you to define the workspace, reviewer, and respondent for creating feedback on the table records.
--   **[Create feedback in Advanced Risk](create-a-feedback-risk.md)**  
+-   **[Create feedback in Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/create-a-feedback-risk.md)**  
 Create feedback on a record or fields in a record in the Advanced Risk application. The feedback enables you to recommend improvements related to data integrity, compliance, operational procedures, and other pertinent areas.
--   **[Initiate a chat from Sidebar in Parallel Review and Feedback](../task/initiate-chat-sidebar-review-and-feedback.md)**  
+-   **[Initiate a chat from Sidebar in Parallel Review and Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/initiate-chat-sidebar-review-and-feedback.md)**  
 Initiate a Sidebar chat to collaborate among different stakeholders to brainstorm solutions, clarify details, or coordinate actions regarding the feedback received.
--   **[Respond to the feedback](../task/respond-to-feedback.md)**  
+-   **[Respond to the feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/respond-to-feedback.md)**  
 Provide comments or explanations regarding the submitted feedback using the Advanced Risk application. You can either remediate or reject the feedback, provided that there’s proper justification.
--   **[Review and close the feedback](../task/review-and-close-feedback.md)**  
+-   **[Review and close the feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/review-and-close-feedback.md)**  
 Review the feedback response and take further actions using the Advanced Risk application.
--   **[Roles for Parallel Review and Feedback](../reference/roles-for-parallel-review-and-feedback.md)**  
+-   **[Roles for Parallel Review and Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/roles-for-parallel-review-and-feedback.md)**  
 When you integrate Parallel Review and Feedback with other applications, users must have the necessary roles to review records, capture feedback, and track the closure of feedback.
 
-**Parent Topic:**[Using the Risk Workspace](using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

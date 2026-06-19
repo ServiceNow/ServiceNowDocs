@@ -2,6 +2,7 @@
 title: Reopen a legal matter
 description: If a legal matter requires further investigation after it was closed or canceled, you can reopen it to work on it again.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-matter-management/reopen-legal-matter.html
 release: zurich
 product: Legal Matter Management
 classification: legal-matter-management
@@ -27,19 +28,19 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d416497e105">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d399491e105">
 
 Option
 
-</th><th align="left" id="d416497e108">
+</th><th align="left" id="d399491e108">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d416497e114">
+</th></tr></thead><tbody><tr><td id="d399491e114">
 
 **As an assignee**
 
@@ -51,7 +52,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d416497e143">
+</td></tr><tr><td id="d399491e143">
 
 **As a collaborator**
 
@@ -85,7 +86,7 @@ The state of the legal matter updates to Work in Progress.
 
 ## What to do next
 
-[Work on the legal matter](work-on-legal-matter-1.md) to complete it.
+[Work on the legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown) to complete it.
 
-**Parent Topic:**[Work on a legal matter](work-on-legal-matter-1.md)
+**Parent Topic:**[Work on a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

@@ -2,6 +2,7 @@
 title: Edit source filters
 description: You can edit a source filter in the Interactive Analysis Filter Info panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/modify-source-filter-criteria.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -27,11 +28,11 @@ You must have access to the list of records that you want to analyze.
 
 2.  Right-click on the header of the column you want to analyze and select **Launch Interactive Analysis**.
 
-3.  Click the information icon \(![info icon](../../common-ui-elements/image/PreviewIcon.png)\) to open the **Filter Info** panel.
+3.  Click the information icon \(\[Omitted image "PreviewIcon.png"\] Alt text: info icon\) to open the **Filter Info** panel.
 
 4.  Click **Edit Source Filter**.
 
-    ![Filter info panel with Edit Source Filter button highlighted](../image/edit-source-filter.png)
+    \[Omitted image "edit-source-filter.png"\] Alt text: Filter info panel with Edit Source Filter button highlighted
 
 5.  Click **Load Filter** and select the filter to edit.
 
@@ -44,10 +45,10 @@ You must have access to the list of records that you want to analyze.
 
 The interactive analysis updates with the new source filter. The **Filter Info** panel shows the updated conditions.
 
-**Parent Topic:**[Interactive Analysis](../../dashboards/concept/interactive-analysis.md)
+**Parent Topic:**[Interactive Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/interactive-analysis.md)
 
 **Related topics**  
 
 
-[Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
+[bundle-platux.c_ConditionBuilder]
 

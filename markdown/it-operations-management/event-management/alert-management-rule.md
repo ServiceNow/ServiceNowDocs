@@ -2,6 +2,7 @@
 title: Alert management rules for resolving alerts
 description: You can configure Event Management to respond to alerts automatically. An alert management rule determines the required alert response, such as to open an incident, knowledge base article, open a task, launch remediation action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/alert-management-rule.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -17,7 +18,7 @@ You can configure Event Management to respond to alerts automatically. An alert 
 
 Alert management rules provided with the base system as a store application \(Alert Rules Management \[sn\_em\_arm\]\) to help you respond to alerts. You can create filters to specify conditions for the rule so that the remedial action specified in the rule takes effect only when the conditions are met. For example, launch the required subflow or open an incident based on an alert. The alert's execution history is automatically updated to indicate the actions that were invoked.
 
-Users with the evt\_mgmt\_admin role can use the alert management rule designer to create and customize alert management rules to act on specified alerts. Define rules with filters to determine which alerts the rule applies to. You can create rules to launch applications, URLs, subflows, remediation actions, or take other actions, such as to open an incident. For more information, see [Create an alert management rule](../task/create-alert-management-rule.md).
+Users with the evt\_mgmt\_admin role can use the alert management rule designer to create and customize alert management rules to act on specified alerts. Define rules with filters to determine which alerts the rule applies to. You can create rules to launch applications, URLs, subflows, remediation actions, or take other actions, such as to open an incident. For more information, see [Create an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-alert-management-rule.md).
 
 Users with the evt\_mgmt\_operator role can manually run alert management rules.
 
@@ -25,7 +26,7 @@ Users with the evt\_mgmt\_operator role can manually run alert management rules.
 
 The flow to create and run an alert management rule is:
 
-![Alert Management workflow](../image/alert-mgmt-workflow.png)
+\[Omitted image "alert-mgmt-workflow.png"\] Alt text: Alert Management workflow
 
 <table id="table_bmf_1ht_zcb"><thead><tr><th>
 
@@ -86,26 +87,26 @@ Alert management rules are checked every 11 seconds by the default **Event Manag
 
 Don’t modify the **sn\_em\_arm.alert\_management.num\_of\_jobs** property.
 
-By default, the alert grouping job \(**Service Analytics group alerts using RCA/Alert Aggregation**\) and the alert management \(**Event Management - Evaluate Scoped Alert Rules Management0**\) jobs run independently of each other. For more information about coordinating the alert response and the automated alert grouping, see [Synchronizing alert response with automated alert grouping](../task/coordinating-alert-response-with-automated-alert-grouping.md).
+By default, the alert grouping job \(**Service Analytics group alerts using RCA/Alert Aggregation**\) and the alert management \(**Event Management - Evaluate Scoped Alert Rules Management0**\) jobs run independently of each other. For more information about coordinating the alert response and the automated alert grouping, see [Synchronizing alert response with automated alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/coordinating-alert-response-with-automated-alert-grouping.md).
 
 ## Migrate existing alert action rules
 
-Existing alert action rules from an earlier release can be migrated to become alert management rules. You can modify an alert action rule only after migrating it to an alert management rule. For more information, see [Migrate an alert action rule to an alert management rule](../task/t_EMCreateAlertRule.md).
+Existing alert action rules from an earlier release can be migrated to become alert management rules. You can modify an alert action rule only after migrating it to an alert management rule. For more information, see [Migrate an alert action rule to an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMCreateAlertRule.md).
 
--   **[Create an alert management rule](../task/create-alert-management-rule.md)**  
+-   **[Create an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-alert-management-rule.md)**  
 Create an alert management rule to track alerts and resolve them by determining the required response, for example, to open an incident or launch remediation action.
--   **[Event Management subflows in the base system](../reference/subflows-provided.md)**  
+-   **[Event Management subflows in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/subflows-provided.md)**  
 The subflows provided with the base system appear in the Remediation Subflows area of alert management rules.
--   **[Create a custom subflow for alerts](../task/create-custom-create-incident-subflow.md)**  
+-   **[Create a custom subflow for alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-custom-create-incident-subflow.md)**  
 You can create a subflow according to your requirements. For example, you can resolve alerts, notify teams, or run remediation actions.
--   **[Alert executions information](alert-rule-execution.md)**  
+-   **[Alert executions information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/alert-rule-execution.md)**  
 Alert executions information provides a reference to the alert management rule actions that are performed. This information appears in the Alert Management Rule record only if an alert matches the filter in the rule and an action was performed. You can click any link in the Alert Executions list to open the referenced item.
--   **[Migrate an alert action rule to an alert management rule](../task/t_EMCreateAlertRule.md)**  
+-   **[Migrate an alert action rule to an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMCreateAlertRule.md)**  
 Existing alert action rules from an earlier release can be executed, but cannot be modified. Alert action rules that have been migrated become alert management rules and all the definitions of the alert action rules are migrated to the alert management rule format. Migrated rules can be modified.
--   **[Synchronizing alert response with automated alert grouping](../task/coordinating-alert-response-with-automated-alert-grouping.md)**  
+-   **[Synchronizing alert response with automated alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/coordinating-alert-response-with-automated-alert-grouping.md)**  
 Synchronize alert response with grouping by ensuring alert management jobs runs after alert grouping jobs—this prevents duplicate actions like incident creation on secondary alerts.
--   **[Configure alert remediation actions](../task/configure-alert-remediation-subflows.md)**  
+-   **[Configure alert remediation actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-alert-remediation-subflows.md)**  
 Run commands to perform alert remediation on remote Linux and Windows CIs.
 
-**Parent Topic:**[Manage and monitor alerts](c_EMAlert.md)
+**Parent Topic:**[Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/c_EMAlert.md)
 

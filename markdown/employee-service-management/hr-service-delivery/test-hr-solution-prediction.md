@@ -2,6 +2,7 @@
 title: Test an HR solution prediction
 description: Test the solution prediction by sending emails to the general email address for HR requests. Verify that the corresponding HR cases are automatically categorized to the appropriate HR service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/test-hr-solution-prediction.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -34,5 +35,5 @@ Role required: sn\_hr\_core.admin or sn\_hr\_core.case\_reader
 
 ## What to do next
 
-If you need to retrain and review your predictive model, see [Create and train a solution definition](https://www.servicenow.com/docs/access?context=create-solution-definition&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) and [Review classification solution statistics](https://www.servicenow.com/docs/access?context=review-solution-statistics&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+If you need to retrain and review your predictive model, see Create and train a solution definition and Review classification solution statistics.
 

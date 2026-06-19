@@ -2,6 +2,7 @@
 title: Restore a subflow to a previous flow history entry
 description: Restore a subflow to a previous configuration. Create a new flow history entry for the restore operation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/restore-subflow-to-previous-flow-history-entry.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -41,18 +42,18 @@ You can restore a subflow when you want to set the current configuration to that
 
 7.  From the Flow History view, select **Restore**.
 
-    ![Flow history entry for 5th June, 5:14 AM with option to Restore](../images/subflow-history-restore-01.png)
+    \[Omitted image "subflow-history-restore-01.png"\] Alt text: Flow history entry for 5th June, 5:14 AM with option to Restore
 
 8.  From the Restore confirmation dialog box, select **Restore**.
 
-    ![Restore past version dialog box. Proceeding will duplicate version "5th June, 5:14am" and make it the current version.](../images/subflow-history-restore-02.png)
+    \[Omitted image "subflow-history-restore-02.png"\] Alt text: Restore past version dialog box. Proceeding will duplicate version "5th June, 5:14am" and make it the current version.
 
 
 ## Result
 
-![The Flow history list has a new entry of type Restored.](../images/subflow-history-restore-03.png)
+\[Omitted image "subflow-history-restore-03.png"\] Alt text: The Flow history list has a new entry of type Restored.
 
 Workflow Studio displays the restored subflow configuration.
 
-**Parent Topic:**[Subflow history](../concept/subflow-history.md)
+**Parent Topic:**[Subflow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/subflow-history.md)
 

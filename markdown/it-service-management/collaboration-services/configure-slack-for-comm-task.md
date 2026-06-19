@@ -2,6 +2,7 @@
 title: Configure Slack as a communication channel for a communication task
 description: Configure Slack as a mode of communication for a communication task to send direct message to the users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/collaboration-services/configure-slack-for-comm-task.html
 release: zurich
 product: Collaboration Services
 classification: collaboration-services
@@ -34,5 +35,5 @@ Role required: admin
     Slack gets added as a communication channel for the communication task.
 
 
-**Parent Topic:**[Configuring Collaboration services](../concept/configuring-collab-services.md)
+**Parent Topic:**[Configuring Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/configuring-collab-services.md)
 

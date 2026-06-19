@@ -2,6 +2,7 @@
 title: Review the active notifications for Microsoft Teams
 description: The notifications added by ServiceNow for Microsoft Teams, might duplicate existing notifications in your instance. Review and disable any duplicate notifications to avoid notifying users multiple times for the same event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/disable-notifications-teams-hr.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -38,5 +39,5 @@ You will find HR Case as a duplicate notification after installing the HR Servic
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configure HR Service Delivery integration with Microsoft Teams](../concept/sn-ms-teams-config-hr.md)
+**Parent Topic:**[Configure HR Service Delivery integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/sn-ms-teams-config-hr.md)
 

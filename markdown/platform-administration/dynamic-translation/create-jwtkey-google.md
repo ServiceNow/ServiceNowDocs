@@ -2,6 +2,7 @@
 title: Create a JWT signing key for Google Cloud Translator Service spoke
 description: Assign a JSON Web Token \(JWT\) signing key to your Java KeyStore certificate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/dynamic-translation/create-jwtkey-google.html
 release: zurich
 product: Dynamic Translation
 classification: dynamic-translation
@@ -33,15 +34,15 @@ Role required: admin
     |Signing Keystore|Valid JKS certificate for which you want to assign the key.|
     |Key Id|Key ID to identify which key is used when multiple keys are used to sign tokens.|
     |Signing Algorithm|Algorithm to sign with the key.|
-    |Signing Key Password|Password associated with the key. Use the export password or the source keystore password specified when creating the JKS certificate. For more information on this password, see [Create a Java KeyStore certificate](create-jks-google.md).|
+    |Signing Key Password|Password associated with the key. Use the export password or the source keystore password specified when creating the JKS certificate. For more information on this password, see [Create a Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/create-jks-google.md).|
     |Active|Option to activate the key.|
 
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Set up the Google Cloud Translator Service spoke](setup-google-translator.md)
+**Parent Topic:**[Set up the Google Cloud Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/setup-google-translator.md)
 
-**Previous topic:**[Attach a Java KeyStore certificate to Google Cloud Translator Service spoke](attach-jks-google-translator.md)
+**Previous topic:**[Attach a Java KeyStore certificate to Google Cloud Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/attach-jks-google-translator.md)
 
-**Next topic:**[Create a JWT provider for Google Cloud Translator Service spoke](create-jwtprovider-google.md)
+**Next topic:**[Create a JWT provider for Google Cloud Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/create-jwtprovider-google.md)
 

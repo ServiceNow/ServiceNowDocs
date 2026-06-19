@@ -2,6 +2,7 @@
 title: Provider Connector Configuration for Wi-Fi data
 description: Configure the Provider Connector Configurations table for setting up Wi-Fi data in workplace locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-connectors/provider-connector-config-for-wi-fi-data.html
 release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
@@ -121,5 +122,5 @@ Metric table.
     When records are updated in the Provider Connector Configuration table, the selected spaces or location records are updated in the Provider Space Mapping table. The location records are updated with the location hierarchy \(Region, Campus, Building, floor, and space records\).
 
 
-**Parent Topic:**[Setup Workplace Connectors for Wi-Fi data](setup-workplace-connectors-for-wi-fi-data.md)
+**Parent Topic:**[Setup Workplace Connectors for Wi-Fi data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/setup-workplace-connectors-for-wi-fi-data.md)
 

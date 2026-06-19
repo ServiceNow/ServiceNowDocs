@@ -2,11 +2,12 @@
 title: Integrating with Calendly
 description: Integrating your Software Asset Management application with the Calendly service enables you to track your software subscriptions and to reclaim unused licenses.Register a public application with the Calendly service so that you can access the Calendly API using OAuth 2.0.Create an integration profile to track software subscriptions and optimize stale licenses for the Calendly service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/saas-license-management/integrate-with-calendly.html
 release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-05-13"
 reading_time_minutes: 8
 breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
 ---
@@ -17,33 +18,78 @@ Integrating your Software Asset Management application with the Calendly service
 
 **Important:** Minimize security risks and protect information by granting access only to the necessary user or API permissions.
 
-|Process|Required user role in the Calendly application|Authentication scopes|
-|-------|----------------------------------------------|---------------------|
-|Download subscriptions|admin|None|
-|Pull user activity|admin|None|
-|Reclaim subscription|admin|None|
+<table id="table_box"><thead><tr><th>
 
-## Create a Calendly OAuth application
+Process
+
+</th><th>
+
+Required user role in the Calendly application
+
+</th><th>
+
+Authentication scopes
+
+</th></tr></thead><tbody><tr><td>
+
+Download subscriptions
+
+</td><td>
+
+admin
+
+</td><td>
+
+-   users:read
+-   organizations:read
+
+</td></tr><tr><td>
+
+Pull user activity
+
+</td><td>
+
+admin
+
+</td><td>
+
+-   users:read
+-   scheduled\_events:read
+
+</td></tr><tr><td>
+
+Reclaim subscription
+
+</td><td>
+
+admin
+
+</td><td>
+
+organizations:write
+
+</td></tr></tbody>
+</table>## Create a Calendly OAuth application
 
 Register a public application with the Calendly service so that you can access the Calendly API using OAuth 2.0.
 
 ### Before you begin
 
-Calendly Role required: admin
+You must have a Google or GitHub account to sign up for a Calendly developer account.
 
-You must have a Google or GitHub account to sign up for a Calendly developer.
+Calendly Role required: admin
 
 ### Procedure
 
 1.  Navigate to [Calendly developer portal](https://developer.calendly.com/).
 
     -   If you already have a Calendly developer account, sign in with your credentials and go to step 3.
-    -   If you don't have a Calendly developer account account, complete step 2.
-2.  Sign up for a Calendly developer account through your GitHub or Google account by selecting **Sign Up** on the top-right corner of the Calendly Developer Site page.
+    -   If you don't have a Calendly developer account, complete step 2.
+2.  Sign up for a Calendly developer account through your GitHub or Google account by selecting **Sign Up** on the Calendly Developer Site page.
 
     This account isn't associated with your Calendly Google user account.
 
-3.  Navigate to **Account** &gt; **My Apps** to create a OAuth application.
+3.  Navigate to **Account** &gt; **My Apps** to create an OAuth application.
 
 4.  Select **Create a new app**.
 
@@ -52,20 +98,26 @@ You must have a Google or GitHub account to sign up for a Calendly developer.
     |Field|Description|
     |-----|-----------|
     |Name of app|Name of your application.|
-    |Kind of app|The application type such as Web or Native.|
-    |Environment type|The environment type that you want to associate your application to, such as Sandbox or Production.|
+    |Kind of app|Application type such as Web or Native.|
+    |Environment type|Environment type that you want to associate your application to, such as Sandbox or Production.|
     |Redirect URI|ServiceNow redirect URL. For example, `https://app.example.com/auth`.|
 
-6.  Select **Save &amp; Continue**.
+6.  Select **Next**.
+
+7.  In the **Scopes** tab, add the following scopes as needed.
+
+    -   users:read
+    -   organizations:read
+    -   scheduled\_events:read
+    -   organizations:write
+8.  Select **Create**.
 
 
 ### What to do next
 
 Copy your Client ID and Client Secret.
 
-**Important:**
-
-You must copy these values as you can't access the Client Secret again.
+**Warning:** You must copy these values as you can't access the Client Secret again.
 
 ## Create a Calendly integration profile
 
@@ -77,7 +129,7 @@ To create a Calendly integration profile, request the Software Asset Management 
 
 ServiceNow Role required: sam\_integrator or admin
 
-**Important:** You must select the **Calendly Spoke** check box for this integration while installing optional features on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **Calendly Spoke** check box for this integration while installing optional features on the  page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### About this task
 
@@ -87,15 +139,15 @@ If you’re using Software Asset Workspace, the option to create the Calendly in
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d86132e472">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d87182e524">
 
 Interface
 
-</th><th align="left" id="d86132e475">
+</th><th align="left" id="d87182e527">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d86132e481">
+</th></tr></thead><tbody><tr><td id="d87182e533">
 
 **Core UI**
 
@@ -106,7 +158,7 @@ Action
 3.  Select **Calendly Integration Profile**.
 
 
-</td></tr><tr><td id="d86132e523">
+</td></tr><tr><td id="d87182e575">
 
 **Software Asset Workspace**
 
@@ -158,7 +210,7 @@ Type of integration profile.This field is automatically set to **Calendly Subscr
 </td></tr></tbody>
 </table>3.  Review the required user roles or API permissions specified in the **Vendor configuration** field for each process to minimize security risks and optimize SaaS licenses.
 
-    **Note:** For more information, see [Minimal user permissions](integrate-with-calendly.md#) table.
+    **Note:** For more information, see [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-calendly.md) table.
 
     1.  In the Download Subscription Subflow section, verify that the **Subflow** field is set to **Calendly Download Subscriptions**.
 
@@ -172,7 +224,7 @@ Type of integration profile.This field is automatically set to **Calendly Subscr
 
         **Note:** Software Asset Management pulls the events from the time that you start analyzing user activity irrespective of the profile creation date.
 
-        You can modify this value in the Last activity threshold field of your software reclamation rules. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+        You can modify this value in the Last activity threshold field of your software reclamation rules. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
     3.  In the Reclaim Subscription Subflow section, verify that the **Subflow** field is set to **Calendly Reclaim Subscription**.
 
@@ -184,7 +236,7 @@ Type of integration profile.This field is automatically set to **Calendly Subscr
 
     The **Connection &amp; Credential** field appears and is automatically set to **sn\_calendly\_spoke.Calendly**.
 
-5.  Open the connection &amp; credential aliases record by selecting the preview icon ![](../image/preview-icon.png) next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
+5.  Open the connection &amp; credential aliases record by selecting the preview icon \[Omitted image "preview-icon.png"\] next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
 
 6.  On the Connection &amp; Credential Aliases form, select the **Create New Connection &amp; Credential** related link.
 
@@ -241,7 +293,7 @@ URL of the OAuth provider that users are redirected to after authentication. Thi
 </td></tr></tbody>
 </table>8.  Select **Create and Get OAuth Token**.
 
-    **Note:** For the role required to perform this step, refer to the [Minimal user permissions](integrate-with-calendly.md#) table.
+    **Note:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-calendly.md) table.
 
 9.  In the Authorize App dialog box, log in to your Calendly account.
 
@@ -275,20 +327,20 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](subscription-exclusions.md#).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/subscription-exclusions.md).
 
-If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](../reuse/create-child-alias-saas.md).
+If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
-Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](../task/track-software-rights.md).
--   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](../task/create-entitlements-workspace.md).
--   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](../task/guidedwalk-workspace.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-entitlements-workspace.md).
+-   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 
-Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
+Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
 
--   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](../task/t_RunReconciliation.md).
--   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](../task/run-recon-workspace.md).
+-   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_RunReconciliation.md).
+-   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/run-recon-workspace.md).
 

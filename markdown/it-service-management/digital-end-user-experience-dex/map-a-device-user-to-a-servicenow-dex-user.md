@@ -2,11 +2,12 @@
 title: Map a device user to a ServiceNow DEX user
 description: Complete this procedure to map a device user to a DEX user so you can notify the user about any of the device metrics breaching a predetermined threshold.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/map-a-device-user-to-a-servicenow-dex-user.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2025-11-04"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure, Digital End-User Experience, IT Service Management]
 ---

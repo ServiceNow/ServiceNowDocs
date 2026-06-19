@@ -1,27 +1,26 @@
 ---
 title: MITRE ATT&amp;CK Technique Extraction Rules
-description: The system automatically extracts MITRE techniques from observables, objects, and RSS feeds ingested across various data sources. In addition, as part of the enrichment process, MITRE techniques are also extracted from threat lookup results, observable enrichment results associated with observables.
+description: Extract MITRE techniques automatically from observables or objects ingested from various data sources and from threat lookup results on observable records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/mitre-extraction-rules.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-02"
-reading_time_minutes: 6
+last_updated: "2026-05-19"
+reading_time_minutes: 5
 breadcrumb: [About Rules Engine in TISC, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # MITRE ATT&amp;CK Technique Extraction Rules
 
-The system automatically extracts MITRE techniques from observables, objects, and RSS feeds ingested across various data sources. In addition, as part of the enrichment process, MITRE techniques are also extracted from threat lookup results, observable enrichment results associated with observables.
+Extract MITRE techniques automatically from observables or objects ingested from various data sources and from threat lookup results on observable records.
 
 ## Before you begin
 
 Role required: sn\_sec\_tisc.admin
 
-**Note:** Ensure that the MITRE ATT&amp;CK repository data available in the instance you are using. If the repository data is unavailable then the application cannot perform the extraction.
-
-MITRE ATT&amp;CK repository data can be fetched by running the relevant MITRE collections.
+**Note:** Ensure that MITRE ATT&amp;CK repository data is available in the instance. If the data is not available, extraction does not occur.
 
 ## Procedure
 
@@ -35,153 +34,123 @@ MITRE ATT&amp;CK repository data can be fetched by running the relevant MITRE co
 
 3.  Select **New**.
 
-<table id="choicetable_vcd_cj4_zbc"><thead><tr><th align="left" id="d474074e164">
+4.  On the form, fill in the fields in the **Extraction Rule** and **Extraction Method** sections.
+
+<table id="choicetable_vcd_cj4_zbc"><thead><tr><th align="left" id="d456909e113">
 
 Field
 
-</th><th align="left" id="d474074e167">
+</th><th align="left" id="d456909e116">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d474074e173">
+</th></tr></thead><tbody><tr><td id="d456909e122">
 
 **Name**
 
 </td><td>
 
-Enter a name for the MITRE ATT&amp;CK Technique Extraction rule.
+Name of the MITRE ATT&amp;CK Technique Extraction rule.
 
-</td></tr><tr><td id="d474074e182">
+</td></tr><tr><td id="d456909e131">
 
 **Description**
 
 </td><td>
 
-Enter a description for the MITRE ATT&amp;CK Technique Extraction rule.
+Description of the MITRE ATT&amp;CK Technique Extraction rule.
 
-</td></tr><tr><td id="d474074e191">
+</td></tr><tr><td id="d456909e140">
 
 **Integration Type**
 
 </td><td>
 
-Indicates the MITRE ATT&amp;CK Technique Extraction rule for Data Sources or Threat Lookup Results or Observable enrichment results.
+MITRE ATT&amp;CK Technique Extraction rule scope, based on data sources or threat lookup results. Select the data sources from the lookup.Options for Data Sources:
 
- The following options are available under Data Sources:
+-   **Data Sources - All**: The rule applies to all data source types, including Threat Intel Feeds, Import Intelligence records, API Sources \(for example, observables created from API\), Sent from SIR \(observables sent from SIR\), and entities manually created in the Threat Intelligence library.
+-   **Data Sources - Threat Intel Feeds**: The rule applies only to threat intelligence feeds.
+-   **Data Sources - API Sources**: The rule applies only to API sources.
+-   **RSS Feeds Only**: The rule applies only to the RSS feeds.
+-   **Threat Lookup integrations**: The rule applies to all threat lookup integrations, such as VirusTotal.
 
- -   **Data Sources - All**: This means that the rule is applicable for all the type of data sources such as Threat Intel Feeds, Import Intelligence records, API Sources \(for example, observables created from API\), Sent from SIR \(observables that are sent from SIR\) and various entities that are manually created by the users in the Threat Intelligence library.
--   **Data Sources- Threat Intel Feeds**: This corresponds to the extraction rules that are only applicable for threat intelligence feeds.
+**Note:** When you select this option, enter the vendor name for the threat lookup. Vendor names are automatically populated only when the threat lookup integrations are installed from the ServiceNow store. For threat intelligence data sources, extraction rules are supported only for STIX, MISP, and Custom Feed types.
 
-**Note:** For the threat intelligence data sources, the extraction rules are only supported for STIX, MISP, and Custom Feed types.
+-   **Observable Enrichment integrations**: The rule applies to all observable enrichment integrations.
 
--   **Data Sources- API Sources**: This corresponds to the extraction rules that are only applicable for observables created from API sources.
--   **RSS Feeds Only**: This corresponds to extract MITRE Techniques from any RSS feed data source.
--   **Threat Lookup integrations**: This corresponds to the extraction rule is applicable to all threat lookup integrations such as Virustotal.
 
-**Note:** Optionally, you can provide specific vendor which indicates the extraction rule will only be applied for threat lookup results which corresponds to that specific vendor.
-
--   **Observable Enrichment integrations**: When you select this option, the extraction rule is applied across available observable enrichment integrations.
-
-**Note:** Optionally, you can provide specific vendor which indicates the extraction rule will only be applied for observable enrichment integrations which corresponds to that specific vendor.
-
--   
-
-</td></tr><tr><td id="d474074e329">
+</td></tr><tr><td id="d456909e189">
 
 **Threat Feed Type**
 
 </td><td>
 
-Following are the available options for Threat Feed Type:-   **STIX\(TAXII/HTTPS\)**: Filters threat feeds of the STIX TAXII or HTTPS type.
--   **MISP**: Filters threat feeds of the MISP type.
--   **Custom feed**: Filters threat feeds configured as Custom feeds.
-**Note:** This field appears when you select the **Integration Type**: **Data Sources- Threat Intel Feeds**.
+For **Data Sources - Threat Intel Feeds**, select one of the following options:-   **STIX\(TAXII/HTTPS\)**: Filters threat feeds of the STIX TAXII or HTTPS feed type. Select the associated feeds from the lookup.
+-   **MISP**: Filters threat feeds of the MISP feed type. Search for associated feeds using the lookup icon.
+-   **Custom feed**: Filters threat feeds of the custom feed type. Search for associated feeds using the lookup icon.
 
-</td></tr><tr><td id="d474074e384">
+
+</td></tr><tr><td id="d456909e219">
 
 **Feeds**
 
 </td><td>
 
-Select one or more enabled data sources for the selected feed type.
+For **RSS Feeds Only**, select one or more threat feed integrations.**Note:** If this field is blank, all threat feed integrations for the selected feed type are used for extraction.
 
-**Note:** This field appears when you select the **Integration Type**: **Data Sources- Threat Intel Feeds/RSS Feeds**.
-
-</td></tr><tr><td id="d474074e410">
+</td></tr><tr><td id="d456909e233">
 
 **Method to extract MITRE ATT&amp;CK tactics and techniques**
 
 </td><td>
 
-Select the method used to extract MITRE ATT&amp;CK tactics and techniques.The following methods are available:
-
--   Use Regex \(default\)
--   Use Script
-MITRE ATT&amp;CK tactic and technique extraction is supported for the following entities:
-
--   Observable source
--   Object source
--   Indicator source
--   Threat lookup results
--   RSS feeds
--   Observable enrichment results
+Method for extracting MITRE ATT&amp;CK tactics and techniques. Available methods are-   **Tactic and Technique Regex**: Extracts paired tactic and technique IDs from the data using regex patterns, preserving the explicit tactic-to-technique mapping.
+-   **Technique Regex**: Extracts only technique IDs using regex; all possible tactic-technique pairs from MITRE ATT&amp;CK are mapped automatically, which may lead to multiple tactics per technique.
+-   **Script**:Runs a custom script to handle extraction with full control over the logic.
 
 
-</td></tr><tr><td id="d474074e476">
+</td></tr><tr><td id="d456909e259">
 
-**Extraction Method - Use Regex**
+**Combined Tactic-Technique Regex**
 
 </td><td>
 
-This method uses a regular expression that allows the threat analysts to define a pattern with a sequence of characters to perform extraction method.
+Regex pattern that matches a MITRE ATT&amp;CK tactic ID and its associated technique or sub-technique ID, so that they are extracted as a linked pair. Applies when the extraction method is set to Tactic and Technique Regex.
 
-</td></tr><tr><td id="d474074e485">
-
-**Tactic Regex**
-
-</td><td>
-
-Option to provide regular expression for the extraction of MITRE ATT&amp;CK tactic ID\(s\).
-
-</td></tr><tr><td id="d474074e494">
+</td></tr><tr><td id="d456909e268">
 
 **Technique Regex**
 
 </td><td>
 
-Option to provide regular expression for the extraction of MITRE ATT&amp;CK technique ID\(s\).
+Regex pattern that matches MITRE ATT&amp;CK technique or sub-technique IDs, extracting them independently without tactic association. Applies when the extraction method is set to Technique Regex.
 
-</td></tr><tr><td id="d474074e503">
+</td></tr><tr><td id="d456909e277">
 
-**Extraction Method - Use script**
+**Tactic Regex**
 
 </td><td>
 
-This method uses a script format to perform the extraction. The following are the supported entities:
+Regex pattern that matches MITRE ATT&amp;CK tactic IDs. Used alongside the combined tactic-technique regex to identify tactic IDs within the matched tactic-technique pairs.
 
--   Observable source
--   Object source
--   Indicator source
--   Threat lookup results
--   RSS feeds
--   Observable enrichment results
-**Note:**
+</td></tr><tr><td id="d456909e286">
 
--   This script method can be used to extract MITRE tactics and techniques from entity source record and link the tactics and techniques to the entity source record itself.
--   This script method can be used to extract MITRE tactics and techniques from threat lookup results and observable enrichment results, and link the tactics and techniques to the entity record.
--   This method can also be used to extract MITRE tactics and techniques from RSS feed records, and link the tactics and techniques to the entity record.
-The sample script is shown below for your reference:
+**Script**
 
-```
-(function process(lookupResultRawData, RssFeed Data,recordGr, ruleGr, lookupResultGr) {
+</td><td>
+
+Uses a script to perform extraction on the observable source, object source, indicator source, or threat lookup results. Use this method as an alternative to extract MITRE tactics and techniques from an entity source record and threat lookup results and link them to the entity source record. The following sample script extracts MITRE data from a threat lookup integration by parsing the raw payload and extracting from a specific field, then associates the extracted tactics and techniques to the observable record.
+
+ ```
+(function process(lookupResultRawData, recordGr, ruleGr, lookupResultGr) {
 /*********************************
  
 * - threatLookupResult: The raw data of the threat lookup result  in stringified JSON format.
 * - recordGr: The GlideRecord of the observable record.
 * - ruleGr: GlideRecord of matched MITRE extraction rule
 *
-* Once you extracted MITRE tactic IDs and technique IDs,
-* then you can use this method to link the tactics and techniques to the observable record.
+* After extracting MITRE tactic IDs and technique IDs,
+* use this method to link the tactics and techniques to the observable record.
   **********************************/  
 var utils = new MITREExtractionUtils();
 var parsedRawData =JSON.parse(lookupResultRawData);
@@ -190,34 +159,32 @@ var response = utils.extractMITREDataUsingRegex(mitreDataField,'TA[0-9][0-9][0-9
 utils.addTacticTechniquesForLookup(response.tacticIds, response.techniqueIds, recordGr, ruleGr.getUniqueValue(), lookupResultGr);
  
 })(lookupResultRawData, recordGr, ruleGr, lookupResultGr);
- 
-Here is a sample script example for the extraction rule for threat lookup integrations where the script logic is parsing the threat lookup raw payload and performing the extraction only on a specific field inside the raw payload and associates the extracted tactics/techniques to the observable record.
 ```
 
 </td></tr></tbody>
-</table>4.  Select **Enable** to enable the MITRE ATT&amp;CK Technique Extraction rule after you create a new rule.
+</table>5.  Select **Enable** to enable the MITRE ATT&amp;CK Technique Extraction rule after creating a rule.
 
-    **Note:** If you don't enable the MITRE ATT&amp;CK Technique Extraction rule then the rule will not be applied to the record.
+    If the rule is not enabled, it is not applied to records.
 
-    -   Data sources: Whenever you enable the extraction rule, the combination of data sources and integration type should not be matching any of the existing enabled extraction rules, and if so then the application will display an error message for you to modify the existing combinations and re enable the rule.
-    -   Threat Lookup/Observable enrichment results: Whenever you enable the extraction rule, the vendor name should not be matching any of the existing enabled extraction rules, and if so then the application will display an error message for you to modify the vendor name and re enable the rule.
-    -   A sample MITRE ATT&amp;CK Technique Extraction rules are provisioned for the users in the base system and these rules will be in disabled state by default and you must enable and activate the rule.
-    -   MITRE ATT&amp;CK Technique Extraction rules are executed automatically when an RSS feed record is inserted or updated. The rule is evaluated for every insert or update operation on the RSS feed records. The extraction rule is executed only during the insertion of observable/object source.
-    |Name|Description|Status|Integration Type|Method to extract MITRE ATT&amp;CK tactics and techniques|
-    |----|-----------|------|----------------|---------------------------------------------------------|
-    |Generic Rule for data sources ingestion|This is a generic rule for ingestion from all types of data sources including Import Intelligence and manual creation.|Disabled|Data Sources - All|Use regex|
-    |Generic Rule for Observable Enrichment Integrations|This is a generic rule for any Observable enrichment integrations.|Disabled|Observable Enrichment Integrations|Use regex|
-    |Generic Rule for RSS Feeds|This is a generic rule for extracting MITRE Techniques from any RSS feed data source.|Disabled|RSS Feeds Only|Use regex|
-    |Generic Rule for Threat Lookup|This is a generic rule for any threat lookup integrations.|Disabled|Threat Lookup Integrations|Use regex|
+    **Note:** When enabling a rule for data sources, the combination of data sources and integration type must not match any existing enabled extraction rule. If a conflict exists, an error message appears — modify the existing combination and re-enable the rule. When enabling a rule for threat lookup, the vendor name must not match any existing enabled extraction rule. If a conflict exists, an error message appears — modify the vendor name and re-enable the rule.
 
-5.  Select **Duplicate** to create a copy of the extraction rule.
+    Sample MITRE ATT&amp;CK Technique Extraction rules are available in the base system in a disabled state by default. Enable and activate each rule before use.
 
-6.  Select **Disable** to disable the extraction rule.
+    |Rule|Description|
+    |----|-----------|
+    |Generic Rule for data sources ingestion|Generic rule for ingestion from all data source types, including Import Intelligence and manual creation.|
+    |Generic rule for CrowdStrike Feed|Generic rule for extracting MITRE Tactic &amp; Technique pairs from the data ingested by CrowdStrike Feed.|
+    |Generic Rule for Threat Lookup|Generic rule for any threat lookup integrations.|
+    |Generic Rule for Observable Enrichment Integrations|Generic rule for any observable enrichment integrations.|
 
-    **Important:** Once it is disabled the rule will no longer be considered for the extraction of MITRE ATT&amp;CK data.
+6.  Select **Duplicate** to copy the extraction rule.
 
-7.  Select **Save**.
+7.  Select **Disable** to disable the extraction rule.
 
-8.  Select **Delete** if you wish to delete any MITRE ATT&amp;CK Technique Extraction rule.
+    **Note:** After disabling the rule, it is no longer used for MITRE data extraction.
+
+8.  Select **Save**.
+
+9.  Select **Delete** to delete a MITRE ATT&amp;CK Technique Extraction rule.
 
 

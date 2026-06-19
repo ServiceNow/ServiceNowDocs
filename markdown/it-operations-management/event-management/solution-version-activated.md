@@ -2,6 +2,7 @@
 title: Activate Event Management solution version
 description: The system activates the most recent version of the solution, but you can activate any previously trained Event Management solution version if it is more appropriate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/solution-version-activated.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -25,7 +26,7 @@ Role required: evt\_mgmt\_admin
 
 1.  Navigate to **All** &gt; **Predictive Intelligence** &gt; **Similarity** &gt; **Solutions**.
 
-2.  In the ML Solutions list, click the Reference icon \(![Reference icon](../image/info.png)\) for the trained solution that you want to activate.
+2.  In the ML Solutions list, click the Reference icon \(\[Omitted image "info.png"\] Alt text: Reference icon\) for the trained solution that you want to activate.
 
 3.  Click **Open Record**.
 
@@ -36,5 +37,5 @@ Role required: evt\_mgmt\_admin
     The system activates this solution version and deactivates any other solution version.
 
 
-**Parent Topic:**[Alert similarity](../concept/alert-similarity.md)
+**Parent Topic:**[Alert similarity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/alert-similarity.md)
 

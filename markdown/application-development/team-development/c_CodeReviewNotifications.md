@@ -2,6 +2,7 @@
 title: Code review notifications
 description: You can enable email notifications on the instance requiring a code review.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/c\_CodeReviewNotifications.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -64,5 +65,5 @@ Push or Pull \[sys\_sync\_history\]
 -   The push that was canceled
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Code reviews](c_CodeReview.md)
+</table>**Parent Topic:**[Code reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_CodeReview.md)
 

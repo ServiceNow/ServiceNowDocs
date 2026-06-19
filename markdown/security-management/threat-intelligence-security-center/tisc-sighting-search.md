@@ -2,6 +2,7 @@
 title: Sighting Search
 description: This section describes the TISC Sighting Search and Elastic Search integrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-sighting-search.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -15,10 +16,10 @@ breadcrumb: [TISC Enrichment Integrations, TISC Integrations, Integrate, Threat 
 
 This section describes the TISC Sighting Search and Elastic Search integrations.
 
--   **[Configure Sighting Search](../task/configure-sighting-search.md)**  
+-   **[Configure Sighting Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/configure-sighting-search.md)**  
 You can perform sightings search on one or multiple observables to determine the number of times the observables are sighted in your organisation logs. You can perform sighting search on observables within a selected number of days or within a date range.
--   **[Configure Threat Lookup](../task/configure-threat-lookup.md)**  
+-   **[Configure Threat Lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/configure-threat-lookup.md)**  
 You can configure the threat lookup to perform a lookup on selected observables. If the observables are of a type recognized by Threat Intelligence, the observables are scanned for malware, and the results are returned. You can perform threat lookup on one or more observables to determine maliciousness of an observable.
 
-**Parent Topic:**[TISC Enrichment Integrations](tisc-enrichment-integrations.md)
+**Parent Topic:**[TISC Enrichment Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-enrichment-integrations.md)
 

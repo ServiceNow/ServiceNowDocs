@@ -2,6 +2,7 @@
 title: get
 description: Query a single record from the targeted table by sys\_id and return the record and its fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/r\_Get.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -74,5 +75,5 @@ The resulting response of a `get` function call looks like this:
 </soap:Envelope>
 ```
 
-**Parent Topic:**[Data Retrieval API](r_DataRetrievalAPI.md)
+**Parent Topic:**[Data Retrieval API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/r_DataRetrievalAPI.md)
 

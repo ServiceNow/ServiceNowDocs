@@ -2,6 +2,7 @@
 title: Tables installed with CAM
 description: Tables are added with the activation of the CAM plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/continuous-risk-monitoring/tables-installed-with-cam.html
 release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -43,5 +44,5 @@ Tables are added with the activation of the CAM plugin.
 |Impact \(sn\_irm\_cont\_auth\_workflow\_impact\)|Stores impact configuration data for frameworks, used in risk and compliance analysis.|
 |Version \(sn\_irm\_cont\_auth\_workflow\_version\)|Stores version details of workflow configurations for frameworks.|
 
-**Parent Topic:**[CAM reference](../concept/reference-grc-cam.md)
+**Parent Topic:**[CAM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
 

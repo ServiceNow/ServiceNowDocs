@@ -2,6 +2,7 @@
 title: Add or delete tag keys for Tag Categorization
 description: Add or delete tag keys to ensure that they align with your requirements for data management and classification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/tag-governance/update-tag-keys-tag-categorization.html
 release: zurich
 product: Tag Governance
 classification: tag-governance
@@ -17,7 +18,7 @@ Add or delete tag keys to ensure that they align with your requirements for data
 
 ## Before you begin
 
-Verify that you have installed version 1.16.3 of Service Mapping Plus to access to the CI tag category and CI tag key tables. For more information, see [Install Service Mapping Plus](../../service-mapping/task/install-service-mapping-plus.md).
+Verify that you have installed version 1.16.3 of Service Mapping Plus to access to the CI tag category and CI tag key tables. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/install-service-mapping-plus.md).
 
 Role required: tag\_governance\_admin
 
@@ -27,7 +28,7 @@ Role required: tag\_governance\_admin
 
 2.  Verify that you are in the leaf domain.
 
-    1.  In the page header, select the globe icon ![](../image/globe-icon.png).
+    1.  In the page header, select the globe icon \[Omitted image "globe-icon.png"\].
 
     2.  Select **Domain scope**, and choose the appropriate leaf domain.
 
@@ -35,15 +36,15 @@ Role required: tag\_governance\_admin
 
 4.  Under **CI tag keys**, either add a new tag key or delete an existing tag key.
 
-<table id="choicetable_dvx_hzd_5fc"><thead><tr><th align="left" id="d609422e137">
+<table id="choicetable_dvx_hzd_5fc"><thead><tr><th align="left" id="d566464e137">
 
 Action
 
-</th><th align="left" id="d609422e140">
+</th><th align="left" id="d566464e140">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d609422e146">
+</th></tr></thead><tbody><tr><td id="d566464e146">
 
 **Add a tag key**
 
@@ -51,18 +52,18 @@ Steps
 
 1.  Double-click the empty row under **Tag key**, where you see **Insert a new row**.
 2.  In the field, add a key name.
-3.  Select the Save icon ![Check mark](../../cloud-management-v2/image/icon-check-mark.png).
+3.  Select the Save icon \[Omitted image "icon-check-mark.png"\] Alt text: Check mark.
 4.  Repeat the previous steps to add more tag keys.
 5.  Select **Update** to save your changes.
 
 
-</td></tr><tr><td id="d609422e186">
+</td></tr><tr><td id="d566464e187">
 
 **Delete a tag key**
 
 </td><td>
 
-1.  Under **Tag key**, select the Mark for deletion icon ![](../image/marked-for-deletion.png) next to the tag key you want to remove.
+1.  Under **Tag key**, select the Mark for deletion icon \[Omitted image "marked-for-deletion.png"\] Alt text: next to the tag key you want to remove.
 2.  Select **Update** to save your changes.
 
 

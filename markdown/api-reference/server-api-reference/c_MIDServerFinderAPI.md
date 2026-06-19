@@ -2,6 +2,7 @@
 title: MIDServerFinder - Global
 description: The MIDServerFinder script include provides methods to find a list of MID Servers for specified IP addresses.Creates an instance of MIDServerFinder.Gets the names of MID servers available for a given range and capability.Gets the sys\_ids of MID servers available for a given range and capability.Gets the state of the finder operation.Sets whether to look for active or inactive MID servers. By default, searches are for active MID servers unless inactive is specified by this method.Sets the technologies for which to look.Turns debugging on or off.Sets the range of IP addresses for which to look.Determines if the input is a single IP or a hostname, and passes the IP or multiple IPs to the setRanges\(\) method.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_MIDServerFinderAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The MIDServerFinder script include provides methods to find a list of MID Server
 
 Use in server scripts to get the MID Server list.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## MIDServerFinder - MIDServerFinder\(\)
 

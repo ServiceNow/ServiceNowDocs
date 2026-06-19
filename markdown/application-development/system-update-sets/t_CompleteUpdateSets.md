@@ -2,6 +2,7 @@
 title: Mark an update set complete
 description: When you have completed the customizations and compared local update sets to resolve conflicts, mark the update set as Complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/system-update-sets/t\_CompleteUpdateSets.html
 release: zurich
 product: System Update Sets
 classification: system-update-sets
@@ -31,6 +32,6 @@ Mark an update set as Complete only when it is ready to migrate. Once an update 
 
     -   The update set is available for other instances to retrieve.
     -   No additional customizations are tracked in the update set.
-    ![update set record](../image/Us20.png "update set reord")
+    \[Omitted image "Us20.png"\] Alt text: update set record
 
 

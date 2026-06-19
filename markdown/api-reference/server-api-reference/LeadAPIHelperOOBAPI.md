@@ -2,6 +2,7 @@
 title: LeadAPIHelperOOB - Scoped
 description: The LeadAPIHelperOOB script include provides helper methods called by the lead REST API to perform various functions, such as converting a set of lead records from a GlideRecord object into a JSON array or JSON object and transforming fields within a lead object.Converts a GlideRecord object into a JSON object. This method iterates over the fields of the GlideRecord, checks their types, and appropriately formats their values into a JSON-compatible structure.Converts a set of lead records from a GlideRecord object to a JSON array. You must specify the lead record fields that you want included in the JSON array.Transforms the specified lead object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/LeadAPIHelperOOBAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -19,9 +20,9 @@ If you want to customize these helper functions, override the methods in this sc
 
 This API is provided within the `sn_lead_mgmt_core` namespace. To access the API, the Lead Management Data Model \(sn\_lead\_mgmt\_core\) plugin must be activated on the instance, and the calling user must have the sn\_lead\_mgmt\_core.lead\_integrator role.
 
-For additional information on Lead Management, see [Using Lead Management](https://www.servicenow.com/docs/access?context=lead-management-using&version=zurich&pubname=zurich-order-management&ft:locale=en-US).
+For additional information on Lead Management, see .
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## LeadAPIHelperOOB - getJSONFromGR\(GlideRecord gr, Array fields\)
 

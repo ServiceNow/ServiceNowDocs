@@ -2,6 +2,7 @@
 title: Run the DataSummarization on-demand job
 description: Use the on-demand OnDemandDataSummarization scheduled job to retrieve summary data for the required connector type if the DataSummarization scheduled job fails to populate the occupancy, environmental, or Wi-Fi summary reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-connectors/run-datasummarization-on-demand-job.html
 release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
@@ -30,5 +31,5 @@ Role required: admin
 4.  Select **Execute Now**.
 
 
-**Parent Topic:**[Data summarization](../reference/data-summarization-workplace-connectors.md)
+**Parent Topic:**[Data summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/data-summarization-workplace-connectors.md)
 

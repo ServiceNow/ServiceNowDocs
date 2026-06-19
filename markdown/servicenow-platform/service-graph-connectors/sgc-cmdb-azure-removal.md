@@ -2,6 +2,7 @@
 title: Record removal process in Service Graph Connector for Microsoft Azure
 description: The Service Graph Connector for Microsoft Azure uses the Integration Commons record removal process for life cycle management during full data loads. For delta loads, life cycle management of records is based on updates from Microsoft Azure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-azure-removal.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -40,5 +41,5 @@ Starting with the Service Graph Connector for Microsoft Azure 1.14.0 version, li
 
 When you run a full data load for the first time after upgrading to version 1.14.0, the Install Status of all the records that aren't discovered is set to retired.
 
-**Parent Topic:**[Service Graph Connector for Microsoft Azure reference](sgc-azure-reference.md)
+**Parent Topic:**[Service Graph Connector for Microsoft Azure reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-azure-reference.md)
 

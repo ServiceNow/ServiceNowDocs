@@ -2,6 +2,7 @@
 title: Assign a cloud permission
 description: Assign a permission to refine the actions that are allowed or prohibited for users based on the user group they belong to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/create-permissions.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -18,7 +19,7 @@ Assign a permission to refine the actions that are allowed or prohibited for use
 ## Before you begin
 
 -   Role required: sn\_cmp.cloud\_governor
--   The [user group](https://www.servicenow.com/docs/access?context=t_CreateAGroup&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) to which you want the permission applied.
+-   The user group to which you want the permission applied.
 
 ## Procedure
 
@@ -26,18 +27,18 @@ Assign a permission to refine the actions that are allowed or prohibited for use
 
 2.  Fill out the form fields \(see table\).
 
-    ![Read permissions on cloud accounts](../image/permission-form.png "Read permissions on cloud accounts")
+    \[Omitted image "permission-form.png"\] Alt text: Read permissions on cloud accounts
 
     |Field|Description|
     |-----|-----------|
     |Target type|Select the cloud table in which the target record belongs.|
     |All Entities|Select this option to apply the permission to all records in the table.|
-    |Permission|Select the [permission type](../concept/cloud-permissions.md#default-permission).|
+    |Permission|Select the [permission type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloud-permissions.md).|
     |Target Entity|Select the record that the permission is based upon.|
     |Group|Select the user group.|
 
 3.  Click **Submit**.
 
 
-**Parent Topic:**[Permissions management for Cloud Governance roles](../concept/cloud-permissions.md)
+**Parent Topic:**[Permissions management for Cloud Governance roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloud-permissions.md)
 

@@ -2,6 +2,7 @@
 title: Status communication to Magnit
 description: Understand how the status of user onboarding tasks are communicated from the ServiceNow instance to the Magnit application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/magnit-com-status.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

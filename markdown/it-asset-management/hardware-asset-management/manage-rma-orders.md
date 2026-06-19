@@ -2,6 +2,7 @@
 title: Managing RMA response orders for DaaS assets
 description: Following a request for a hardware asset return or replacement, a Return Merchandise Authorization \(RMA\) order is associated with this request by creating an RMA response order in the DaaS provider interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/manage-rma-orders.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -17,10 +18,10 @@ Following a request for a hardware asset return or replacement, a Return Merchan
 
 Completing the following tasks in the RMA order workflow results in the completion and success of an RMA response order:
 
-1.  [Create an RMA response order](../task/create-rma-response-order.md)
-2.  [Create an RMA response order line](../task/create-rma-response-order-line.md)
-3.  [Assess the RMA asset](../task/assess-rma.md)
-4.  [Schedule a visit to the customer site](../task/schedule-rma-daas.md) or [Ship the asset to the DaaS provider](../task/ship-rma-asset.md)
+1.  [Create an RMA response order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-rma-response-order.md)
+2.  [Create an RMA response order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-rma-response-order-line.md)
+3.  [Assess the RMA asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/assess-rma.md)
+4.  [Schedule a visit to the customer site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/schedule-rma-daas.md) or [Ship the asset to the DaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/ship-rma-asset.md)
 
     **Note:** Follow the next steps according to the values you select when scheduling a visit to the customer site or shipping the asset to the DaaS provider for assessing the RMA asset.
 

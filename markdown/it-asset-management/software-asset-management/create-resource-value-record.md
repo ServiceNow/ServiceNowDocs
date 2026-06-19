@@ -2,6 +2,7 @@
 title: Create a resource value record
 description: Create a resource value record for each software model for which you want to calculate licensing requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/create-resource-value-record.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -101,5 +102,5 @@ Cost center that is financially responsible for the resource value.
 
 The resource value record that you created appears in the Resource Value list view.
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/using-sam-workspace.md)
 

@@ -2,6 +2,7 @@
 title: Workday configuration for compensation change event report
 description: Retrieve compensation change event data based on time duration by creating the compensation change event report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/wdhr-conf-comp-chng-event-rep.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
@@ -42,53 +43,53 @@ Role required: User with access to report creation and the Business Process Tran
 
 6.  Do not select the **Temporary report** option and click **OK**.
 
-    ![RPT_Compensation_change_event report.](../image/wdhr-conf-comp-chng-event-rep-1.jpg)
+    \[Omitted image "wdhr-conf-comp-chng-event-rep-1.jpg"\] Alt text: RPT\_Compensation\_change\_event report.
 
 7.  Select the report business object and report fields.
 
-    ![Report business object and report fields.](../image/wdhr-conf-comp-chng-event-rep-2.jpg)
+    \[Omitted image "wdhr-conf-comp-chng-event-rep-2.jpg"\] Alt text: Report business object and report fields.
 
 8.  In **Group column Headings** section, select the business object.
 
     **Group Column heading** for each business object is blank.
 
-    ![Select the business object.](../image/wdhr-conf-comp-chng-event-rep-3.jpg)
+    \[Omitted image "wdhr-conf-comp-chng-event-rep-3.jpg"\] Alt text: Select the business object.
 
 9.  In the **Filter** section, select the value.
 
     Ensure that you add parenthesis.
 
-    ![Select the value.](../image/wdhr-conf-comp-chng-event-rep-4.jpg)
+    \[Omitted image "wdhr-conf-comp-chng-event-rep-4.jpg"\] Alt text: Select the value.
 
 10. In **Prompts** section, select the **Populate Undefined Prompt Defaults** option.
 
-    ![Select the Populate Undefined Prompt Defaults option.](../image/wdhr-conf-comp-chng-event-rep-5.jpg)
+    \[Omitted image "wdhr-conf-comp-chng-event-rep-5.jpg"\] Alt text: Select the Populate Undefined Prompt Defaults option.
 
 11. Select the value of prompts and ensure the **Label For Prompt XML Alias** of all prompt fields is as shown.
 
-    ![Label For Prompt XML Alias of all prompt fields.](../image/wdhr-conf-comp-chng-event-rep-6.jpg)![Label For Prompt XML Alias of all prompt fields.](../image/wdhr-conf-comp-chng-event-rep-7.jpg)
+    \[Omitted image "wdhr-conf-comp-chng-event-rep-6.jpg"\] Alt text: Label For Prompt XML Alias of all prompt fields.\[Omitted image "wdhr-conf-comp-chng-event-rep-7.jpg"\] Alt text: Label For Prompt XML Alias of all prompt fields.
 
 12. In the **Advanced** section, select the **Enable as webservice** option and click **OK**.
 
 13. After report configuration, click the three dots icon and navigate to **Web Services** &gt; **View URLs**.
 
-    ![Click View URLs.](../image/wdhr-conf-comp-chng-event-rep-8.jpg)
+    \[Omitted image "wdhr-conf-comp-chng-event-rep-8.jpg"\] Alt text: Click View URLs.
 
 14. Select **Business Processes**, **Transaction Status** as **In Progress**, required time range in **Start Date** and **End Date**, and click **OK**.
 
     **Note:** This step is one-time process required to get the WID of business process and transaction status. After the initial full load, transaction status ID is not needed as details of all events will be retrieved; **In Progress** as well as **Completed**.
 
-    ![Provide the required details.](../image/wdhr-conf-comp-chng-event-rep-9.jpg)![Provide the required details.](../image/wdhr-conf-comp-chng-event-rep-10.jpg)
+    \[Omitted image "wdhr-conf-comp-chng-event-rep-9.jpg"\] Alt text: Provide the required details.\[Omitted image "wdhr-conf-comp-chng-event-rep-10.jpg"\] Alt text: Provide the required details.
 
 15. In View URLs Web Service page, click the marked icon under the **CSV** section.
 
     A new browser tab is opened.
 
-    ![CSV section.](../image/wdhr-conf-comp-chng-event-rep-11.jpg)
+    \[Omitted image "wdhr-conf-comp-chng-event-rep-11.jpg"\] Alt text: CSV section.
 
     The RaaS URL of the report is displayed in new browser tab and you can obtain these details from the link.
 
-    ![RaaS URL of the report.](../image/wdhr-conf-comp-chng-event-rep-12.jpg)
+    \[Omitted image "wdhr-conf-comp-chng-event-rep-12.jpg"\] Alt text: RaaS URL of the report.
 
     -   `https://wd2-impl-services1.workday.com` is the base URL of customer’s workday tenant.
     -   **Tenant\_Name** is the customer’s workday tenant.

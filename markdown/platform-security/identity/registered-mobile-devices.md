@@ -2,6 +2,7 @@
 title: View Registered Mobile Devices in Identity Center
 description: Provide details about your registered mobile on the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/registered-mobile-devices.html
 release: zurich
 product: Identity
 classification: identity
@@ -21,7 +22,7 @@ If the Adaptive Authentication module is enabled and a registered mobile device 
 
 Further, it also displays details of the devices such as Operating System, Device Id, and Status of the device along with the Registration Time of the device.
 
-To register your mobile device, you must make sure the Adaptive Authentication \(**com.snc.adaptive\_authentication**\) plugin is installed and you’ve activated your Trusted Mobile App feature. For more information, see [Activate Trusted Mobile App](../../authentication/task/activate-trusted-mobile-app.md).
+To register your mobile device, you must make sure the Adaptive Authentication \(**com.snc.adaptive\_authentication**\) plugin is installed and you’ve activated your Trusted Mobile App feature. For more information, see [Activate Trusted Mobile App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/activate-trusted-mobile-app.md).
 
-![Registered Mobile Devices](../images/registered-mobile-devices.png)
+\[Omitted image "registered-mobile-devices.png"\] Alt text: Registered Mobile Devices
 

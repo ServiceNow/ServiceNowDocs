@@ -2,6 +2,7 @@
 title: GlideCurrencyFormatter - Scoped
 description: The GlideCurrencyFormatter API provides methods to format FX Currency strings.Instantiates a GlideCurrencyFormatter object and defines the format string to use to format FX Currency.Formats a specified currency value using the specified currency code.Sets the default language and country, which constitutes the locale, for the currency formatter.Sets the maximum number of digits to the right of the decimal point/decimal comma to return.Sets the minimum number of fraction digits \(right of the decimal point/decimal comma\) to return.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/GlideCurrencyFormatterScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -25,7 +26,7 @@ The GlideCurrencyFormatter\(\) API also provides optional methods that enable yo
 
 This class runs is in the `sn_currency` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideCurrencyFormatter - GlideCurrencyFormatter\(String formatString\)
 

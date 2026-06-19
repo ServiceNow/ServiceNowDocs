@@ -2,6 +2,7 @@
 title: Cloud file configuration record form
 description: Update the access permissions for a record in the Cloud file configuration record form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/document-access-configuration-record-form.html
 release: zurich
 product: Audit Management
 classification: audit-management

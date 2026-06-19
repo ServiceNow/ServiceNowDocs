@@ -2,6 +2,7 @@
 title: Create a campaign stage with dynamic trigger
 description: The campaign bundle triggers based on a trigger table \(sn\_hr\_core\_profile or sys\_user\), trigger field, and date offsets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/create-stage-dynamic-trigger.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,7 +20,7 @@ The campaign bundle triggers based on a trigger table \(sn\_hr\_core\_profile or
 
 Role required: sn\_ca.campaign\_manager
 
-Complete the steps to [Create a campaign](ecpro-create-campaign.md)
+Complete the steps to [Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-create-campaign.md)
 
 ## About this task
 
@@ -27,7 +28,7 @@ Stages organize and manage the delivery of campaign content. When configuring a 
 
 **Note:** Some parts of the interface use the term "bundles" to refer to stages.
 
-![Dynamic trigger can be used for a welcome message in an onboarding campaign that lasts for 7 days after the employment start date](../images/dynamic-trigger.png)
+\[Omitted image "dynamic-trigger.png"\] Alt text: Dynamic trigger can be used for a welcome message in an onboarding campaign that lasts for 7 days after the employment start date
 
 ## Procedure
 
@@ -35,13 +36,13 @@ Stages organize and manage the delivery of campaign content. When configuring a 
 
 2.  Select the campaign and click the **Schedule of content** tab or click **Next**.
 
-    ![Schedule of content tab](../images/campaign-content-builder-1.png)
+    \[Omitted image "campaign-content-builder-1.png"\] Alt text: Schedule of content tab
 
 3.  Click **Create stage**.
 
     A stage is a visible area to add content.
 
-    ![Campaign - Create stage](../images/campaign-create-stage.png)
+    \[Omitted image "campaign-create-stage.png"\] Alt text: Campaign - Create stage
 
 4.  On the form, fill in the fields.
 
@@ -160,5 +161,5 @@ Specifies which audience members can view the content in the campaign stage, bas
 ## What to do next
 
 -   Click **Add stage** to configure additional stages
--   Add content to the stage, specify an audience, and set the location where the content will be delivered. For more information on creating content in the Content Experience Builder, see [Add content to a campaign using Content Experience Builder](ecpro-campaigns-manage-content-builder.md)
+-   Add content to the stage, specify an audience, and set the location where the content will be delivered. For more information on creating content in the Content Experience Builder, see [Add content to a campaign using Content Experience Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-campaigns-manage-content-builder.md)
 

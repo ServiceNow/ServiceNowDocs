@@ -2,7 +2,10 @@
 title: Root cause correlation
 description: Root Cause Correlation \(RCC\) finds a root cause by automatically correlating metrics, logs, and event information for supported symptoms on production instances for the last 24 hours.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/root-cause-correlation.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

@@ -2,6 +2,7 @@
 title: Choosing the right AI capability
 description: Choosing the right AI capability for your custom application is important. Learn about the differences between skills, AI agents, and agentic workflows, use cases for each, and when to choose one capability over another.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/now-assist-for-app-engine/choosing-the-right-ai-capability.html
 release: zurich
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
@@ -9,7 +10,7 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [Now Assist, AI capability, AI feature, AI product, AI agent, skill, generative AI, genAI, Now Assist for App Engine, App Engine, custom app]
-breadcrumb: [Explore, Now Assist for App Engine, AI in custom applications, Developing your application, Building applications]
+breadcrumb: [Explore, Now Assist for App Engine, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 
 # Choosing the right AI capability

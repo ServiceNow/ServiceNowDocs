@@ -2,6 +2,7 @@
 title: Event queue login events
 description: The SAML 2.0 integration creates events for login activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/r\_EventQueueLoginEvents.html
 release: zurich
 product: Authentication
 classification: authentication

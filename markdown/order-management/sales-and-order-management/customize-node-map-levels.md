@@ -2,6 +2,7 @@
 title: Customize hierarchical node map levels for Lead-to-Cash Process Management
 description: Customize the number of node levels to display in the Lead-to-Cash Process Management hierarchical node map visualization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/customize-node-map-levels.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -36,5 +37,5 @@ By default, the Lead-to-Cash Process Management hierarchical node map shows thre
 5.  Select **Update**.
 
 
-**Parent Topic:**[Customizing the sales process dashboard](../concept/customizing-sales-process-dashboard.md)
+**Parent Topic:**[Customizing the sales process dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/customizing-sales-process-dashboard.md)
 

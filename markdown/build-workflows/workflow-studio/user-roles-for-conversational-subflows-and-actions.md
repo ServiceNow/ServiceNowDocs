@@ -2,6 +2,7 @@
 title: User roles for conversational subflows and actions
 description: Provide personnel with one or more user roles to grant them access to conversational subflows and actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/user-roles-for-conversational-subflows-and-actions.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -24,5 +25,5 @@ Provide personnel with one or more user roles to grant them access to conversati
 |Flow Designer \[flow\_designer\]|Provides read and write access to Workflow Studio flows and subflows.|sn\_conv\_fa.conv\_fa\_designer|None|This is a specialized role with limited access.|
 |Email Write \[sn\_conv\_fa.csa\_email\_write\]|Provides write access to the sys\_email table to conversational subflows and actions.|None|None|This is a specialized role with limited access.|
 
-**Parent Topic:**[Flows, subflows, and actions reference](flow-designer-reference.md)
+**Parent Topic:**[Flows, subflows, and actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-designer-reference.md)
 

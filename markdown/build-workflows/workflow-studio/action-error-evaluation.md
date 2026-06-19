@@ -2,6 +2,7 @@
 title: Action error evaluation
 description: Enable actions to catch step failures and continue running. Identify when specific error conditions occur and return your own action status code, status message, and error state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/action-error-evaluation.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -27,7 +28,7 @@ Enable action error evaluation to gain these benefits.
 
 Each step offers these error evaluation components.
 
-![Sample step configured to Don't stop the action and go to the next step if this step fails.](../images/action-error-evaluation-ui-01.png "Error evaluation step components")
+\[Omitted image "action-error-evaluation-ui-01.png"\] Alt text: Sample step configured to Don't stop the action and go to the next step if this step fails.
 
 -   **1. If this step fails option**
 
@@ -50,13 +51,13 @@ Each step offers these error evaluation components.
 
 Action error evaluation consists of these configuration components.
 
-![Sample Error Evaluation section with an error condition. The sample error condition returns an Action Status Code of 100 and an Action Status Message of No Incident Task Created.](../images/action-error-evaluation-ui-02.png "Error evaluation configuration components")
+\[Omitted image "action-error-evaluation-ui-02.png"\] Alt text: Sample Error Evaluation section with an error condition. The sample error condition returns an Action Status Code of 100 and an Action Status Message of No Incident Task Created.
 
 -   **5. Error Evaluation section**
 
     Section containing possible error conditions. When an action runs, it evaluates the available error conditions from top to bottom looking for a possible match. An action returns the Action Status specified by the first matching error condition. If there is no matching error condition, the Action status is set to the Step Status of the last step run.
 
-    **Note:** Data stream actions have an error evaluation section for REST, SOAP, and JDBC steps. For more information see [Data Stream actions and pagination](https://www.servicenow.com/docs/access?context=data-stream-actions&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+    **Note:** Data stream actions have an error evaluation section for REST, SOAP, and JDBC steps. For more information see .
 
 -   **6. Add error condition option**
 
@@ -118,8 +119,8 @@ Follow these general guidelines to achieve the benefits offered by action error 
     Identify an error condition without having to edit it. By default, you can only see error conditions when you edit them.
 
 
--   **[Add error condition](../task/add-error-condition.md)**  
+-   **[Add error condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/add-error-condition.md)**  
 Enable an action to return custom status information when specific conditions are met. Specify whether a flow considers your custom action status as an error or a successful run.
 
-**Parent Topic:**[Create an action in Workflow Studio](../task/create-action.md)
+**Parent Topic:**[Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-action.md)
 

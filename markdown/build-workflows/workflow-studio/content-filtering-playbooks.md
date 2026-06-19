@@ -2,6 +2,7 @@
 title: Content filtering for playbooks
 description: Specify which content a user can access based on the user's role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/content-filtering-playbooks.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -41,9 +42,9 @@ Content filtering rules specify the role that a user must have to access the con
 
 ## Role-based activity definition access
 
-Manage activity definition access by specifying the **Required Roles** to access an activity definition. This overrides any content access filtering. To learn more about roles, see [Playbooks roles](../reference/process-automation-designer-roles.md). To learn more about activity definitions, see [Activity definitions](activity-definitions.md).
+Manage activity definition access by specifying the **Required Roles** to access an activity definition. This overrides any content access filtering. To learn more about roles, see [Playbooks roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer-roles.md). To learn more about activity definitions, see [Activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/activity-definitions.md).
 
-![Required roles field in an activity definition](../images/required-roles-activity-def.png)
+\[Omitted image "required-roles-activity-def.png"\] Alt text: Required roles field in an activity definition
 
 **Note:** Both playbook.admin and pd\_content\_author roles can edit activity definitions, but only the playbook.admin role can edit the **Required Roles** field.
 
@@ -89,5 +90,5 @@ Activity Definition
     Give users access to the subset of activity definitions in a content definition by assigning the playbook.write role, not the pd\_author role.
 
 
-**Parent Topic:**[User access to playbooks in Workflow Studio](user-access-playbooks.md)
+**Parent Topic:**[User access to playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/user-access-playbooks.md)
 

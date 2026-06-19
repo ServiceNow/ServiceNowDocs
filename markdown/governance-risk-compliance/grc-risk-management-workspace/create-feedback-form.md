@@ -2,6 +2,7 @@
 title: Create New Feedback form
 description: Use the Create new feedback form to provide feedback on a record or fields in a record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/create-feedback-form.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -162,5 +163,5 @@ Additional comments \(Customer visible\)
 Additional information about the feedback that you want to share with the customers.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create feedback in the Risk Workspace](../task/create-feedback.md)
+</table>**Parent Topic:**[Create feedback in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/create-feedback.md)
 

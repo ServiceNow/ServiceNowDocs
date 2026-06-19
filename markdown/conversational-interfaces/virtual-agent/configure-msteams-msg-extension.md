@@ -2,6 +2,7 @@
 title: Configure Microsoft Teams Message Extension
 description: Configure Microsoft Teams Message Extension to enable users to use AI Search to find content \(Knowledge articles and catalog items\), and share information in a one-on-one or group chat. For the base system Virtual Agent integration with Microsoft Teams, this feature is enabled by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/configure-msteams-msg-extension.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -33,8 +34,8 @@ Administrators have the option to configure the number of search results that ap
 
 3.  Navigate to **All****&gt; System Properties****&gt; All Properties** and select **message\_extension\_guest\_access\_only** to control the access of the Guest user.
 
-    When the flag is set to true, Message Extension returns the results that are only visible to the Guest users. Only the items that are publicly available are returned while the property is set to true. By default, this value is set to false, which means that a user can see all search results that they have access to. However, if you set the system property value to true, a user can only access the search results that are publicly available. This system property is useful if you want to avoid having a user accidentally sharing something that they shouldn't be sharing. You don't typically have to change the value. For self-configured bots, see the procedure in [Auto-generate the manifest file for uploading on Microsoft Teams](generate-manifest-file-msteams.md) for more information.
+    When the flag is set to true, Message Extension returns the results that are only visible to the Guest users. Only the items that are publicly available are returned while the property is set to true. By default, this value is set to false, which means that a user can see all search results that they have access to. However, if you set the system property value to true, a user can only access the search results that are publicly available. This system property is useful if you want to avoid having a user accidentally sharing something that they shouldn't be sharing. You don't typically have to change the value. For self-configured bots, see the procedure in [Auto-generate the manifest file for uploading on Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/generate-manifest-file-msteams.md) for more information.
 
 
-**Parent Topic:**[Configure Virtual Agent for Microsoft Teams](configure-va-msteams-settings.md)
+**Parent Topic:**[Configure Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-va-msteams-settings.md)
 

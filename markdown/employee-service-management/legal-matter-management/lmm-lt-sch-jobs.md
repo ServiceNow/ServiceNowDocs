@@ -2,6 +2,7 @@
 title: Scheduled jobs installed for Legal Tracker
 description: Scheduled jobs that are installed when the Legal Tracker spoke is enabled. These jobs are used to fetch data from Legal Tracker.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-matter-management/lmm-lt-sch-jobs.html
 release: zurich
 product: Legal Matter Management
 classification: legal-matter-management
@@ -26,5 +27,5 @@ Scheduled jobs that are installed when the Legal Tracker spoke is enabled. These
 |Fetch Practice Group Data|LegalTracker Practice Group \[sn\_lg\_matter\_legal\_tr acker\_practice\_group\]|True|Retrieves Practice Group data from the Legal Tracker portal.|
 |Fetch Substantive Law Data|Legal Tracker Substantive Law \[sn\_lg\_matter\_legal\_tr acker\_substantive\_law\]|True|Retrieves Substantive Law data from the Legal Tracker portal.|
 
-**Parent Topic:**[Legal Matter Management reference](../../legal-matter-management/reference/legal-matter-management-reference.md)
+**Parent Topic:**[Legal Matter Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/legal-matter-management-reference.md)
 

@@ -2,6 +2,7 @@
 title: AI Search Admin console roles
 description: Roles are associated with the AI Search Admin console.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/ais-admin-console-roles.html
 release: zurich
 product: AI Search
 classification: ai-search

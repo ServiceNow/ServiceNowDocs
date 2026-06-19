@@ -2,6 +2,7 @@
 title: Reclaim SurveyMonkey user subscriptions in Software Asset Management classic
 description: Reclaim unused SurveyMonkey subscriptions to reduce your total software costs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/saas-license-management/reclaim-surveymonkey-subscription.html
 release: zurich
 product: SaaS License Management
 classification: saas-license-management
@@ -43,7 +44,7 @@ The SaaS License Management SurveyMonkey integration does not support reclamatio
 
 2.  Remove the associated users from your SurveyMonkey team.
 
-    Based on the list of removal candidates that you identified in [step 1](reclaim-surveymonkey-subscription.md#identify-removal-candidate), you can reclaim user subscriptions by reassigning or deleting the associated users from your SurveyMonkey team.
+    Based on the list of removal candidates that you identified in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/reclaim-surveymonkey-subscription.md), you can reclaim user subscriptions by reassigning or deleting the associated users from your SurveyMonkey team.
 
     1.  From a web browser, open [SurveyMonkey](https://www.surveymonkey.com/).
 
@@ -55,7 +56,7 @@ The SaaS License Management SurveyMonkey integration does not support reclamatio
 
     4.  Click the ellipsis icon \(…\) for the user that you want to remove from your team.
 
-        You can identify which user you want to remove based on the associated username. The username corresponds directly to the user principal name of each removal candidate that you identified in [step 1](reclaim-surveymonkey-subscription.md#identify-removal-candidate).
+        You can identify which user you want to remove based on the associated username. The username corresponds directly to the user principal name of each removal candidate that you identified in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/reclaim-surveymonkey-subscription.md).
 
     5.  When prompted, select either **Reassign Account** or **Delete Account**.
 
@@ -73,7 +74,7 @@ The SaaS License Management SurveyMonkey integration does not support reclamatio
 
     4.  On the Software Model form, select the **Reclamation Candidates** related tab.
 
-    5.  From the list of available removal candidates, select the removal candidate number \(RCCxxxxxxx\) for a user that you removed from your SurveyMonkey team in [step 2](reclaim-surveymonkey-subscription.md#remove-user).
+    5.  From the list of available removal candidates, select the removal candidate number \(RCCxxxxxxx\) for a user that you removed from your SurveyMonkey team in [step 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/reclaim-surveymonkey-subscription.md).
 
     6.  On the Removal Candidate form, update the state of the removal candidate by clicking **Closed Skipped**.
 
@@ -82,5 +83,5 @@ The SaaS License Management SurveyMonkey integration does not support reclamatio
     7.  Repeat steps d through f for each user that you removed from your SurveyMonkey team.
 
 
-**Parent Topic:**[Reclaim user subscriptions in Software Asset Management classic](reclaim-user-subscription-saas-classic.md)
+**Parent Topic:**[Reclaim user subscriptions in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/reclaim-user-subscription-saas-classic.md)
 

@@ -2,6 +2,7 @@
 title: Create iteration goals for a PI or sprint in EAP
 description: Create iteration goals for your Agile teams to highlight the overall objectives to be accomplished for a planning interval or sprint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/enterprise-agile-planning/create-iteration-goals-for-a-pi-or-sprint-in-eap.html
 release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -42,9 +43,9 @@ Role required: sn\_apw\_advanced.eap\_user
 
 The goal is created for the PI or sprint and is displayed in the **Goals** tab.
 
-![Iteration goals in EAP for a planning interval and sprint.](../images/eap-iteration-goals-list.png)
+\[Omitted image "eap-iteration-goals-list.png"\] Alt text: Iteration goals in EAP for a planning interval and sprint.
 
 ## What to do next
 
-You can add details to your goal or add sub-goals to it by updating its fields. For information on the form fields for a goal, see [Goal form](../../spw-goals/reference/goal-form-egm.md).
+You can add details to your goal or add sub-goals to it by updating its fields. For information on the form fields for a goal, see [Goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/goal-form-egm.md).
 

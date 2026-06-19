@@ -2,6 +2,7 @@
 title: Planned task scripts
 description: Several business rules and one script include determines the dynamic calculation of crucial Planned Task fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/r\_PlannedTaskScripts.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -20,7 +21,7 @@ Several business rules and one script include determines the dynamic calculation
 |Set actual work start value|Sets the Actual Start Date of the planned task when State is set to the default work state.|
 |Set close data on inactive|Sets the close data of the planned task when task becomes inactive.|
 |Recalculate|Recalculates the planned task schedule fields when one of the schedule fields changes.|
-|Planned task global events|Raises global event for every insert or update of planned task record. For more information, see [Global events](https://www.servicenow.com/docs/access?context=r_GlobalEvents&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).|
+|Planned task global events|Raises global event for every insert or update of planned task record. For more information, see Global events.|
 |Update parent actual effort|Rolls up actual effort from child task to parent task.|
 |Update parent effort|Rolls up planned effort from child task to parent task.|
 |Update parent percent complete|Rolls up percent complete from child task to parent task.|
@@ -30,5 +31,5 @@ Several business rules and one script include determines the dynamic calculation
 |Set top task|Sets top tasks to maintain hierarchy of tasks.|
 |Set top task on children|Sets top tasks on child tasks to maintain hierarchy of tasks.|
 
-**Parent Topic:**[Extending the Task table with Planned tasks](../concept/c_PlannedTask.md)
+**Parent Topic:**[Extending the Task table with Planned tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_PlannedTask.md)
 

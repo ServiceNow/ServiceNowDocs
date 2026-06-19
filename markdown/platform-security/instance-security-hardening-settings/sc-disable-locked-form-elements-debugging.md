@@ -2,6 +2,7 @@
 title: Disable locked form elements debugging
 description: Here's the description for glide.security.explain.write.locks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-disable-locked-form-elements-debugging.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -23,7 +24,7 @@ Set **glide.security.explain.write.locks** to the recommended value of **false**
 |---------|-----------|
 |Property name|**glide.security.explain.write.locks**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Configuration](sc-configuration.md)|
+|Category|[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-configuration.md)|
 |Purpose|Limits display behavior of SecurityDebugger without dependence on other properties.|
 |Recommended value|false|
 |Default value|false|
@@ -31,7 +32,7 @@ Set **glide.security.explain.write.locks** to the recommended value of **false**
 |Security risk|\(Low\) Will prevent the display of the explanation on locked form elements. This makes the application slightly more secure, as less information is being provided by the security debugger.|
 |Security risk rating|3.5|
 
-To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Configuration](sc-configuration.md)
+**Parent Topic:**[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-configuration.md)
 

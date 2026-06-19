@@ -2,6 +2,7 @@
 title: Request repair of an enterprise asset using the Repair option
 description: Request repair of a defective enterprise asset in your stockroom directly through the asset form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/repair-requests-using-asset-form-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -27,7 +28,7 @@ Role required: sn\_eam.enterprise\_asset\_manager or sn\_eam.enterprise\_asset\_
 
 3.  Select an asset with state as **In stock** and substate as **Defective** or **Pending repair**.
 
-4.  Select the More Options icon ![](../../hardware-asset-management/image/more-actions-icon.png) on the Asset form.
+4.  Select the More Options icon \[Omitted image "more-actions-icon.png"\] Alt text: on the Asset form.
 
 5.  Select **Repair**.
 
@@ -36,5 +37,5 @@ Role required: sn\_eam.enterprise\_asset\_manager or sn\_eam.enterprise\_asset\_
 
 A repair order with a repair order line in the **Troubleshoot** stage is created.
 
-**Parent Topic:**[Request repair of defective enterprise assets](../concept/request-repair-defective-eam-assets.md)
+**Parent Topic:**[Request repair of defective enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/request-repair-defective-eam-assets.md)
 

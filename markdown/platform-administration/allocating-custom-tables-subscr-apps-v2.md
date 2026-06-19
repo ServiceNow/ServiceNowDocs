@@ -2,6 +2,7 @@
 title: Managing custom tables and applications in Subscription Management
 description: Keep your custom table entitlements updated by mapping all of your custom applications and tables to valid subscriptions in Subscription Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/allocating-custom-tables-subscr-apps-v2.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -17,17 +18,17 @@ Keep your custom table entitlements updated by mapping all of your custom applic
 
 To successfully manage your custom tables and applications, follow the process in this infographic.
 
-![The usage administrator maps custom applications and custom tables to subscriptions, and monitors end dates prior to renewal.](../image/mmasset0021658-subscription-management-workflow-manage-tables-and-apps-landing.png "Managing custom tables and applications")
+\[Omitted image "mmasset0021658-subscription-management-workflow-manage-tables-and-apps-landing.png"\] Alt text: The usage administrator maps custom applications and custom tables to subscriptions, and monitors end dates prior to renewal.
 
--   [Map a custom application to a product subscription in Subscription Management](../task/map-custom-applications-v2.md)
+-   [Map a custom application to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/map-custom-applications-v2.md)
 
     Map a custom application to a product subscription so that when developers add more tables to the application, they're automatically mapped to the subscription. Track your custom table usage to ensure that your organization doesn't run out of custom table entitlements.
 
--   [Map custom tables to a product subscription in Subscription Management](../task/allocate-custom-table-subsc-app-v2.md)
+-   [Map custom tables to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/allocate-custom-table-subsc-app-v2.md)
 
     Map custom applications and custom tables on your production instance to a valid subscription. On non-production instances, mapping is recommended but not required.
 
--   [Maintain custom table and application mappings at renewal in Subscription Management](../task/maintain-mappings-renewal.md)
+-   [Maintain custom table and application mappings at renewal in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/maintain-mappings-renewal.md)
 
     When a subscription renews, a new product SKU might be added to your account. Maintain your current custom table mappings during the renewal process by documenting your mappings before the renewal date.
 
@@ -36,7 +37,7 @@ To successfully manage your custom tables and applications, follow the process i
 
 A custom table is defined as a table that you create on the ServiceNow AI Platform that isn't provided by ServiceNow. Some tables are exempted from being classified as a custom table.
 
-**Note:** For more information on custom tables on the ServiceNow AI Platform, see [Table administration](../../table-administration/concept/c_TableAdministration.md). For a detailed description of custom table use rights and exempt tables, see the Custom Table Guide on [http://www.servicenow.com/upgrade-schedules.html](http://www.servicenow.com/upgrade-schedules.html)
+**Note:** For more information on custom tables on the ServiceNow AI Platform, see [Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_TableAdministration.md). For a detailed description of custom table use rights and exempt tables, see the Custom Table Guide on [http://www.servicenow.com/upgrade-schedules.html](http://www.servicenow.com/upgrade-schedules.html)
 
 Subscriptions come with custom table entitlements that dictate the number of custom tables that you can map to a subscription. The number of custom table entitlements depends on the subscription.
 
@@ -54,18 +55,18 @@ App Engine subscriptions entitle you to develop applications and deploy custom t
     For details on auditing App Engine V1 usage, see [KB0999383](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0999383).
 
 
--   **[Map a custom application to a product subscription in Subscription Management](../task/map-custom-applications-v2.md)**  
+-   **[Map a custom application to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/map-custom-applications-v2.md)**  
 Maintain accurate entitlement for custom tables in a scoped application by mapping the application to a product subscription in Subscription Management. To stay in compliance, you must map custom tables to a product subscription.
--   **[Map a missing custom application to a product subscription in Subscription Management](../task/map-missing-custom-app-sub-mgt.md)**  
+-   **[Map a missing custom application to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/map-missing-custom-app-sub-mgt.md)**  
 Map a custom application to a product subscription when that application isn't shown in the **Unmapped custom applications** tab of **Subscription Management**. To stay in compliance, you must map custom tables that belong to a custom application to a product subscription.
--   **[Map custom tables to a product subscription in Subscription Management](../task/allocate-custom-table-subsc-app-v2.md)**  
+-   **[Map custom tables to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/allocate-custom-table-subsc-app-v2.md)**  
 Maintain accurate entitlement for custom tables in the global scope and stay in compliance by mapping the tables to a product subscription in Subscription Management. Mapping your custom tables keeps your custom table allotment updated and helps you avoid running out of custom table entitlements.
--   **[Map a missing custom table to a product subscription in Subscription Management](../task/map-missing-custom-table-sub-mgt.md)**  
+-   **[Map a missing custom table to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/map-missing-custom-table-sub-mgt.md)**  
 Map a custom table in the global scope to a product subscription when that table isn't shown in the **Unmapped global custom tables** tab of Subscription Management. To stay in compliance, all custom tables must be mapped to a product subscription.
--   **[Maintain custom table and application mappings at renewal in Subscription Management](../task/maintain-mappings-renewal.md)**  
+-   **[Maintain custom table and application mappings at renewal in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/maintain-mappings-renewal.md)**  
 Ensure custom table and application mappings remain consistent throughout the renewal process.
--   **[Grandfathered and exempted tables](../reference/grandfathered-and-exempt-tables-v2.md)**  
+-   **[Grandfathered and exempted tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/grandfathered-and-exempt-tables-v2.md)**  
 Grandfathered and exempted custom tables are treated differently than other custom tables on your instance. Refer to your organization’s ServiceNow® contract for additional information.
 
-**Parent Topic:**[Subscription Management](../reference/subscription-management-landing-page-v2.md)
+**Parent Topic:**[Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/subscription-management-landing-page-v2.md)
 

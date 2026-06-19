@@ -2,7 +2,10 @@
 title: Chat with an agent from the Consumer Service Portal
 description: Chat with a virtual agent or a customer service agent from the Consumer Service Portal to resolve issues quickly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/start-chat-agent-consumer-portal.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ Role required: sn\_customerservice.consumer
 
 ## Procedure
 
-1.  Select the Chat icon \( ![Chat icon.](../image/chat-icon.png)\) in the Consumer Service Portal to start a conversation.
+1.  Select the Chat icon \( \[Omitted image "chat-icon.png"\] Alt text: Chat icon.\) in the Consumer Service Portal to start a conversation.
 
 2.  Select an option from the pre chat survey.
 
@@ -27,7 +30,7 @@ Role required: sn\_customerservice.consumer
 
 3.  Enter your query to continue conversation.
 
-4.  To talk to a person instead of a virtual agent, select ![Connect Support icon.](../../customer-communities/images/contact-support-icon.png) and then **Contact Support**.
+4.  To talk to a person instead of a virtual agent, select \[Omitted image "contact-support-icon.png"\] Alt text: Connect Support icon. and then **Contact Support**.
 
 5.  When you’re finished with the chat, select **End Conversation**.
 

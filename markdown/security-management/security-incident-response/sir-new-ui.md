@@ -2,6 +2,7 @@
 title: Manage security threats using the Security Analyst Workspace
 description: Security Incident Response includes a new user interface called the Security Analyst Workspace that features powerful tools for assisting in analysis, including the playbook, peek view, and tabs for working on multiple security incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/sir-new-ui.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -19,7 +20,7 @@ Purpose-built for security analysts, the powerful tools in the Security Analyst 
 
 ## Before using the Security Analyst Workspace
 
-Before you can begin using the Security Analyst Workspace, you must ensure that your instance has at least London Patch 3 installed, you have the correct roles defined, and have [downloaded the Security Incident Response UI application from the ServiceNow Store](../task/install-and-configure-new-ui.md).
+Before you can begin using the Security Analyst Workspace, you must ensure that your instance has at least London Patch 3 installed, you have the correct roles defined, and have [downloaded the Security Incident Response UI application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/install-and-configure-new-ui.md).
 
 **Note:** If your instance is running a version earlier than London Patch 3, you must request the Security Incident Response UI plugin through the HI Customer Service system.
 
@@ -37,7 +38,7 @@ Simply click the quick filter you want to use.
 
 **Note:** You can click an **Edit** button to identify which quick filters you want displayed on the list screen. A minimum of one filter must be selected, up to a maximum of six.
 
-You can define additional quick filters, as well as primary filters for the Security Analyst Workspace, using the classic environment. For more information, see [Set up primary and secondary filters for Security Analyst Workspace](../task/set-up-filters-for-new-ui.md).
+You can define additional quick filters, as well as primary filters for the Security Analyst Workspace, using the classic environment. For more information, see [Set up primary and secondary filters for Security Analyst Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/set-up-filters-for-new-ui.md).
 
 ## Personalize the security incident list
 
@@ -57,7 +58,7 @@ After you have selected and opened a specific security incident, you can perform
 -   Click **Manage Attachments** to attach files to the security incident. You can also download or remove attached files and edit the encryption applied to the attachments.
 -   Click **Compose Email** to send a quick email to a colleague. Emails can be free-form, or you can send canned emails selected from a list of templates. Emails sent and replies received are captured in the Incident Timeline.
 
-    **Note:** You can create custom templates that contain reusable content for emails and email notifications. Variables can be used for inserting information specific to the security incident or alert, such as the subject line, priority, or threat category. Use the Security Incident \[sn\_si\_incident\] table for emails and email notifications related to Security Incident Response. For more information, see [Email templates](https://www.servicenow.com/docs/access?context=c_EmailTemplates&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+    **Note:** You can create custom templates that contain reusable content for emails and email notifications. Variables can be used for inserting information specific to the security incident or alert, such as the subject line, priority, or threat category. Use the Security Incident \[sn\_si\_incident\] table for emails and email notifications related to Security Incident Response. For more information, see Email templates
 
 -   Click **More** to view a quick snapshot of the security incident, such as the description, business impact, and priority. You can also click the down-arrow in the **Assignment group** and **Assigned to** fields to make on-the-fly changes to those fields.
 
@@ -104,5 +105,5 @@ Use the **Incident Timeline** tab during your investigation for tracking purpose
 
 ## Handle security incidents using the Playbook
 
-Resolve certain types of security threats in a step-by-step manner using the built-in Security Analyst Playbooks. For example, an analyst can use the playbook to resolve phishing attacks and threats caused by malicious code activities. For more information, see [Resolve security threats with the playbook](../task/use-the-playbook.md#).
+Resolve certain types of security threats in a step-by-step manner using the built-in Security Analyst Playbooks. For example, an analyst can use the playbook to resolve phishing attacks and threats caused by malicious code activities. For more information, see [Resolve security threats with the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/use-the-playbook.md).
 

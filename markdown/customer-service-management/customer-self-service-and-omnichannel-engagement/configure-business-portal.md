@@ -2,6 +2,7 @@
 title: Configure Business Portal
 description: Configure the business portal to provide information and support for your customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-business-portal.html
 release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -38,7 +39,7 @@ Use the portals to provide information and support for your customers. The porta
 
 You can add additional self-service capabilities such as order management by installing the respective plugin.
 
-**Note:** The Business Portal Store app is automatically installed when you install the Customer Service Portal store app \(from version 24.0.0 and above\). For details, see [Activate the Consumer and Customer Service Portals](activate-consumer-portal.md).
+**Note:** The Business Portal Store app is automatically installed when you install the Customer Service Portal store app \(from version 24.0.0 and above\). For details, see [Activate the Consumer and Customer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-consumer-portal.md).
 
 ## Procedure
 
@@ -62,5 +63,5 @@ You can add additional self-service capabilities such as order management by ins
 **Related topics**  
 
 
-[Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
+[bundle-platux.c_ServicePortal]
 

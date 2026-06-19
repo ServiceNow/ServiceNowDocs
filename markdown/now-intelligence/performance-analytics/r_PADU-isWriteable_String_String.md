@@ -2,6 +2,7 @@
 title: PADomainUtils - isWriteable\(String table, String id\)
 description: Evaluate if you can write to a specific record identified by table and sys\_id.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/r\_PADU-isWriteable\_String\_String.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -29,5 +30,5 @@ var pa = new SNC.PADomainUtils();
 pa.isWriteable('pa_incidents','cd8125b5140012007665a83e633b028d');
 ```
 
-**Parent Topic:**[PADomainUtils - Global](../concept/c_PADomainUtils.md)
+**Parent Topic:**[PADomainUtils - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_PADomainUtils.md)
 

@@ -2,6 +2,7 @@
 title: Exploring Vaccine Administration Management
 description: The ServiceNow Vaccine Administration Management application provides a workflow for users, healthcare providers, and clinicians to manage vaccinations for infectious diseases, such as COVID-19, from start to finish.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/vaccine-administration-management/exploring-vaccine-administration-management.html
 release: zurich
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -19,7 +20,7 @@ The Vaccine Administration Management application accelerates the immunization p
 
 ## Vaccine Administration Management workflow
 
-![Workflow for the Vaccine Administration Management application.](../../healthcare-life-sciences/image/hclw-vam-workflow.png)
+\[Omitted image "hclw-vam-workflow.png"\] Alt text: Workflow for the Vaccine Administration Management application.
 
 In the Vaccine Administration Management workflow:
 
@@ -49,7 +50,7 @@ Manage appointment types and time slots available for patients to book online.
 
 </td><td>
 
-[Use the Patient Portal to register for a vaccination program](hcls-vam-user-experience.md)
+[Use the Patient Portal to register for a vaccination program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/vaccine-administration-management/hcls-vam-user-experience.md)
 
 </td><td>
 
@@ -61,7 +62,7 @@ Users can learn more about vaccines and schedule vaccinations through a self-ser
 
 </td><td>
 
-[Use Clinician Portal to find and manage vaccination appointments for users](hcls-vam-clinician-experience.md)
+[Use Clinician Portal to find and manage vaccination appointments for users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/vaccine-administration-management/hcls-vam-clinician-experience.md)
 
 </td><td>
 
@@ -73,7 +74,7 @@ View vaccine appointments by day, week, and month. View scheduled, completed, an
 
 </td><td>
 
-[Vaccine Administration Management dashboard](VAM-dashboard.md)
+[Vaccine Administration Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/vaccine-administration-management/VAM-dashboard.md)
 
 </td><td>
 

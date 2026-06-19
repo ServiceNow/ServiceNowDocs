@@ -2,6 +2,7 @@
 title: C Sharp integration results
 description: If you have followed the tutorial correctly, you should receive the result whether you used a Service Reference or a Web Reference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/c\_Results.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -17,7 +18,7 @@ If you have followed the tutorial correctly, you should receive the result wheth
 
 
 
-![](../image/DotNetTutorialResults.png)
+\[Omitted image "DotNetTutorialResults.png"\] Alt text:
 
-**Parent Topic:**[Web services C Sharp .NET end to end tutorial](c_CSharpNETEndEnd.md)
+**Parent Topic:**[Web services C Sharp .NET end to end tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_CSharpNETEndEnd.md)
 

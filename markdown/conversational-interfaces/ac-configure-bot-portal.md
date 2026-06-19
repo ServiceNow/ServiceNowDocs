@@ -2,6 +2,7 @@
 title: Add your bot to a portal
 description: Give your users a place to interact with your bot and human agents. Choose a Service Portal chat configuration provided with your base system, such as the Service Portal Agent Chat configuration used for Agent Chat and Virtual Agent. Your end users can initiate and maintain a bot or Agent Chat conversation in any page of the portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/ac-configure-bot-portal.html
 release: zurich
 product: Conversational Interfaces
 classification: conversational-interfaces
@@ -102,7 +103,7 @@ Server script
 
 </td><td>
 
-A script that passes page and widget data to an Agent Chat conversation when a user initiates the conversation. For example, pass a field to the chat conversation to enable Agent Chat to access the value. Data passed in this script is available to every page in the portal associated with this record. This script has access to the [GlideSPScriptable](https://www.servicenow.com/docs/access?context=c_GlideSPScriptableScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) API.
+A script that passes page and widget data to an Agent Chat conversation when a user initiates the conversation. For example, pass a field to the chat conversation to enable Agent Chat to access the value. Data passed in this script is available to every page in the portal associated with this record. This script has access to the GlideSPScriptable API.
 
  **Note:** The portal suffix, page ID, and language are automatically available to Agent Chat and do not require a custom script. Sys ID and table are automatically available to Agent Chat when they are present in the URL.
 
@@ -134,8 +135,8 @@ Your end users can initiate and maintain an Agent Chat or Virtual Agent conversa
 
 -   **Configure other Service Portal Agent Chat features**
 
-    In Service Portal, you can customize the Agent Chat button and pass page data to Agent Chat. For more information, see [Configure Agent Chat in Service Portal](https://www.servicenow.com/docs/access?context=configure-va-in-sp&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    In Service Portal, you can customize the Agent Chat button and pass page data to Agent Chat. For more information, see Configure Agent Chat in Service Portal.
 
 
-**Parent Topic:**[General chat settings](../concept/ci-configuring-chat-features.md)
+**Parent Topic:**[General chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/ci-configuring-chat-features.md)
 

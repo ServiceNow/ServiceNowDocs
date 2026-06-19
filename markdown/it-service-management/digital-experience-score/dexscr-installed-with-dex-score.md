@@ -2,6 +2,7 @@
 title: Components installed with Digital Experience Score​
 description: Several types of components are installed with activation of the Digital Experience Score​ app, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-experience-score/dexscr-installed-with-dex-score.html
 release: zurich
 product: Digital Experience Score
 classification: digital-experience-score
@@ -119,5 +120,5 @@ DEX Score Metric Definition
 Stores the metric definition with predefined values for the upper bound, lower bound, and other info.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Digital Experience Score​ reference](../concept/dexscr-dex-score-reference.md)
+</table>**Parent Topic:**[Digital Experience Score​ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-experience-score/dexscr-dex-score-reference.md)
 

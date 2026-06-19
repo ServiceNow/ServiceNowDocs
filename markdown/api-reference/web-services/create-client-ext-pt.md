@@ -2,6 +2,7 @@
 title: Create a client extension point
 description: Create a client extension point that you can place in the UI scripts in the application code. By placing the client extension point, you designate the specific location in the application code where data or objects can be sent to a customization, and where data is returned.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/create-client-ext-pt.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -19,7 +20,7 @@ Create a client extension point that you can place in the UI scripts in the appl
 
 Role required: admin or the specific role for the developer or administrator of the application
 
-**Note:** To learn about application-specific administrator roles and delegated development, see [Access control rules in application administration apps](https://www.servicenow.com/docs/access?context=ACL-access-checks&version=zurich&pubname=zurich-application-development&ft:locale=en-US) and [Delegated development and deployment](https://www.servicenow.com/docs/access?context=c_DelegatedDevelopment&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+**Note:** To learn about application-specific administrator roles and delegated development, see Access control rules in application administration apps and Delegated development and deployment.
 
 ## About this task
 
@@ -65,7 +66,7 @@ Application
 
 </td><td>
 
-Application scope against which the extension point is assigned. This is system-assigned and cannot be changed. For more information about the protections that are offered by the use of scoping, see [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+Application scope against which the extension point is assigned. This is system-assigned and cannot be changed. For more information about the protections that are offered by the use of scoping, see .
 
 </td></tr><tr><td>
 
@@ -81,7 +82,7 @@ Allow access over AJAX/REST
 
 </td><td>
 
-Option for enabling access to the client extension point over AJAX or REST. To learn more about these development architectures and techniques, see [AJAX](../../../script/ajax/topic/p_AJAX.md#) and [REST APIs](../../../integrate/inbound-rest/concept/c_RESTAPI.md).
+Option for enabling access to the client extension point over AJAX or REST. To learn more about these development architectures and techniques, see [AJAX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/p_AJAX.md) and [REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 </td></tr><tr><td>
 
@@ -103,5 +104,5 @@ Example of how a custom UI script that interacts with this extension point shoul
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Creating and adding a client extension point](../concept/impl-client-ext-pts-base-code.md)
+**Parent Topic:**[Creating and adding a client extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/impl-client-ext-pts-base-code.md)
 

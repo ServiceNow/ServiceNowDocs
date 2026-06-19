@@ -2,7 +2,10 @@
 title: Respond to a case using an email quick message
 description: Use predefined quick email messages to quickly draft replies to customers. Agents can select predefined quick messages to add content into the message body of emails.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-use-email-quick-messages.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-09-03"
 reading_time_minutes: 1
@@ -25,14 +28,14 @@ You can incorporate icons, business logos, pictures, HTML layout, and rich text 
 
 For more information, see the following topics:
 
--   [Composing emails with quick messages](https://www.servicenow.com/docs/access?context=quick-message&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
--   [Define a quick message](https://www.servicenow.com/docs/access?context=t_QuickMessages&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+-   Composing emails with quick messages
+-   Define a quick message
 
 ## Procedure
 
 1.  Open a customer service case.
 
-2.  Select the More Actions icon \(![More options icon.](../image/more_icon.png)\) and then select **Email**.
+2.  Select the More Actions icon \(\[Omitted image "more\_icon.png"\] Alt text: More options icon.\) and then select **Email**.
 
 3.  Select the Quick Messages drop-down menu in the Compose Email header and select a predefined message.
 
@@ -46,7 +49,7 @@ For more information, see the following topics:
 **Related topics**  
 
 
-[Define a quick message](https://www.servicenow.com/docs/access?context=t_QuickMessages&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+[bundle-platadm.t_QuickMessages]
 
-[Composing emails with quick messages](https://www.servicenow.com/docs/access?context=quick-message&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+[bundle-platadm.quick-message]
 

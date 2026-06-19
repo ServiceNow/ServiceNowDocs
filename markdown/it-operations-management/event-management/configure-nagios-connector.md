@@ -2,6 +2,7 @@
 title: Configure event collection from NagiosXI
 description: Configure the NagiosXI connector instance to receive events from the Nagios Core monitor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/configure-nagios-connector.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -19,7 +20,7 @@ Configure the NagiosXI connector instance to receive events from the Nagios Core
 
 Supported version: 5.5.2.
 
-The NagiosXI connector instance requires a credential that lets the instance access NagiosXI accounts. You can use an existing credential or create a new one. For more information, see [Create Nagios XI server credentials](create-credentials-nagiosix.md).
+The NagiosXI connector instance requires a credential that lets the instance access NagiosXI accounts. You can use an existing credential or create a new one. For more information, see [Create Nagios XI server credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-credentials-nagiosix.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -69,7 +70,7 @@ Credential
 
 </td><td>
 
-Select the credential with basic authentication that you created for this connector. For more information, see [Create Nagios XI server credentials](create-credentials-nagiosix.md). Ensure that the user password contains the NagiosXI user API key, for example 04lquEPqf4JimWCm8RWbJokOpW8LYBUfEvJp9OSHSRYe4QDrHPFndYbWcCHapBpk.
+Select the credential with basic authentication that you created for this connector. For more information, see [Create Nagios XI server credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-credentials-nagiosix.md). Ensure that the user password contains the NagiosXI user API key, for example 04lquEPqf4JimWCm8RWbJokOpW8LYBUfEvJp9OSHSRYe4QDrHPFndYbWcCHapBpk.
 
 </td></tr><tr><td>
 
@@ -158,8 +159,8 @@ Optional. Name of a MID Server. If no MID Server is specified, an available MID 
 9.  After a successful test, select the **Active** check box and then click **Update**.
 
 
--   **[Create Nagios XI server credentials](create-credentials-nagiosix.md)**  
+-   **[Create Nagios XI server credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-credentials-nagiosix.md)**  
 Create credentials to access Nagios XI server.
 
-**Parent Topic:**[Configure a pull connector](t_EMConfigureConnectorInstance.md)
+**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 

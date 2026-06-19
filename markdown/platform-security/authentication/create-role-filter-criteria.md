@@ -2,6 +2,7 @@
 title: Create role filter criteria
 description: Role filter criteria allows you to filter users based on the roles. You can configure an authentication policy to allow or deny access to a list of user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/create-role-filter-criteria.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -33,13 +34,13 @@ Role required: admin
     |Application|Scope of the application.|
     |Description|Short description of the role.|
 
-    ![Role filter criteria form](../images/role-filter-criteria-2.png "Example role filter criteria record")
+    \[Omitted image "role-filter-criteria-2.png"\] Alt text: Role filter criteria form
 
 4.  From the **Roles for criteria**, double-click **Insert a new row**.
 
 5.  Create a condition for a specific role using the Condition Builder.
 
-    For example, you can create a condition that allows only users with admin, itil, or snc\_internal roles. For more information about Condition Builder, see [Create a condition statement using the condition builder](https://www.servicenow.com/docs/access?context=create-cond-state-using-cond-build&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    For example, you can create a condition that allows only users with admin, itil, or snc\_internal roles. For more information about Condition Builder, see Create a condition statement using the condition builder.
 
     **Note:**
 
@@ -52,6 +53,6 @@ Role required: admin
         -   Is same as
         -   Is not empty
         -   Is empty string
-    ![Role filter criteria sample](../images/role-filter-criteria.png)
+    \[Omitted image "role-filter-criteria.png"\] Alt text: Role filter criteria sample
 
 

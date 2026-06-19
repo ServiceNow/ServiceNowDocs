@@ -2,6 +2,7 @@
 title: Jumpstart Your Now Assist for Creator
 description: The Jumpstart Your Now Assist for Creator Accelerator provides a demonstration of the possibilities and capabilities of Now Assist for Creator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/jumpstart-now-assist-creator.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,7 +20,7 @@ The Jumpstart Your Now Assist for Creator Accelerator provides a demonstration o
 
 Jumpstart Your Now Assist for Creator provides Impact customers with an overview of Now Assist for Creator and an applied demonstration on how  to use Generative AI capabilities to reduce app development time, increase productivity, and improve overall coding experiences. This accelerator will demonstrate the features of Now Assist for Creator and provide key resources and leading practices for getting started.
 
-For additional information on the feature, see [Now Assist for Creator](https://www.servicenow.com/docs/access?context=now-assist-for-creator-landing&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
+For additional information on the feature, see 
 
 **Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 

@@ -2,6 +2,7 @@
 title: Create enterprise portfolios in Digital Portfolio Management
 description: Admins create enterprise portfolios for business applications and service instances. Enterprise portfolios are structured in a nesting tree format to navigate service-related items and taxonomy nodes. Similar to personal portfolios, you can see metrics to assess the portfolio performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-portfolio-management/dpm-create-enterprise-portfolios.html
 release: zurich
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -26,9 +27,9 @@ Create and edit portfolios in enterprise portfolio builder.
 
 Create enterprise portfolios to monitor business applications and service instances. Enterprise Portfolios enable you to roll up key metrics through each level of the portfolio taxonomy. You can see the overall performance at the node and portfolio levels. A breakdown of key metrics enables you to see which areas of the portfolio are contributing to good or to poor performance.
 
-For overview information, see [Enterprise portfolios](../concept/dpm-enterprise-portfolios.md). For more detailed information, see [Navigate portfolio types in Digital Portfolio Management](../concept/dpm-navigating-enterprise-portfolios.md).
+For overview information, see [Enterprise portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-enterprise-portfolios.md). For more detailed information, see [Navigate portfolio types in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-navigating-enterprise-portfolios.md).
 
-Enterprise service portfolio templates provide a springboard to help you get started. For more information, see [Navigate service enterprise portfolio templates in DPM](../concept/dpm-enterprise-portfolio-templates.md) and [Create enterprise service portfolios using a template](dpm-create-enterprise-portfolio-using-template.md).
+Enterprise service portfolio templates provide a springboard to help you get started. For more information, see [Navigate service enterprise portfolio templates in DPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-enterprise-portfolio-templates.md) and [Create enterprise service portfolios using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-create-enterprise-portfolio-using-template.md).
 
 ## Procedure
 
@@ -116,5 +117,5 @@ Status of the portfolio. DPM managers will only be able to view active portfolio
     After you submit, access the portfolio by navigating to **All** &gt; **Digital Portfolio Management** &gt; **DPM Enterprise Portfolios**, and then selecting the type \(Business Application or Service Instance\).
 
 
-**Parent Topic:**[Enterprise portfolios](../concept/dpm-enterprise-portfolios.md)
+**Parent Topic:**[Enterprise portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-enterprise-portfolios.md)
 

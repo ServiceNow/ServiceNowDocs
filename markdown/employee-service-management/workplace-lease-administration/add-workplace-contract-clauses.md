@@ -2,6 +2,7 @@
 title: Add workplace contract clauses in Core UI
 description: Add workplace contract clauses, including insurance clause, parking clause, warranty clauses to store the lease contract clauses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-lease-administration/add-workplace-contract-clauses.html
 release: zurich
 product: Workplace Lease Administration
 classification: workplace-lease-administration
@@ -43,5 +44,5 @@ Role required: sn\_wsd\_la.manager or sn\_wsd\_la.admin
 
 The contract clauses are added to the contract.
 
-**Parent Topic:**[Create workplace contracts in Core UI](create-lease-contracts.md)
+**Parent Topic:**[Create workplace contracts in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-lease-administration/create-lease-contracts.md)
 

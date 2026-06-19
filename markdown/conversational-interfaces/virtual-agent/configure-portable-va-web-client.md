@@ -2,6 +2,7 @@
 title: Configure the portable Virtual Agent chat widget
 description: Configure the portable Virtual Agent chat widget to run Virtual Agent on third-party web pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/configure-portable-va-web-client.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Configure the portable Virtual Agent chat widget to run Virtual Agent on third-p
 
 ## Before you begin
 
-**Note:** For new customers onboarding from Vancouver onward, the chat widget is only accessible to authenticated users by default. To allow unauthenticated users to access the chat widget, you must enable the sn\_va\_web\_client\_app\_embed page for public access. For more information, see [Make UI pages public or private](https://www.servicenow.com/docs/access?context=t_MakeAPagePublic&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+**Note:** For new customers onboarding from Vancouver onward, the chat widget is only accessible to authenticated users by default. To allow unauthenticated users to access the chat widget, you must enable the sn\_va\_web\_client\_app\_embed page for public access. For more information, see .
 
 Role required: admin
 
@@ -195,7 +196,7 @@ The number of seconds to cache the client session. After an initial CORS request
 
 ## What to do next
 
-[Add the portable Virtual Agent chat widget to a third-party website](add-portable-va-client-website.md).
+[Add the portable Virtual Agent chat widget to a third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/add-portable-va-client-website.md).
 
-**Parent Topic:**[Use the portable chat widget to add Virtual Agent to your web page](../concept/use-portable-va-web-client.md)
+**Parent Topic:**[Use the portable chat widget to add Virtual Agent to your web page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/use-portable-va-web-client.md)
 

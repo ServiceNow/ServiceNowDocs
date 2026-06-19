@@ -2,6 +2,7 @@
 title: Configure reasons for rejecting work items
 description: Define the reasons that agents can use to decline work assignments that they receive in their Agent Workspace inbox. A reject reason can apply to all service channels or a single channel that you specify.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/awa-configure-reject-reasons.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -48,8 +49,8 @@ Role required: awa\_admin or admin
     The rejection reason is added to or updated in the Reject Reasons \[awa\_reject\_reason\] table.
 
 
--   **[Tutorial: Route interactions by context](context-routing-tutorial.md)**  
+-   **[Tutorial: Route interactions by context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/context-routing-tutorial.md)**  
 Learn how you can configure Advanced Work Assignment to route conversations to agents according to the context of the conversation.
 
-**Parent Topic:**[Configuring Advanced Work Assignment](installing-awa.md)
+**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

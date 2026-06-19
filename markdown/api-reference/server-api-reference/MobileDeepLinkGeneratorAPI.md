@@ -2,6 +2,7 @@
 title: MobileDeepLinkGenerator - Global
 description: The MobileDeepLinkGenerator script include provides methods to embed a link to a mobile app list or form applet.Instantiates a MobileDeepLinkGenerator object for a specific mobile app.Create a link to a form applet.Create a link to a list applet.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/MobileDeepLinkGeneratorAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -22,9 +23,9 @@ Use this script include in a global server-side script to create a link to a lis
 
 For example, create a link from an email, push notification, or Virtual Agent conversation that opens a record or list of records in the app. The form or list only includes data that the user has access rights to view.
 
-For an example of this API used in a push notification, see [Configure push notification message content](https://www.servicenow.com/docs/access?context=config-push-notification-message-content&version=zurich&pubname=zurich-mobile&ft:locale=en-US). For additional information on deep links, see [Deep linking for mobile](https://www.servicenow.com/docs/access?context=deep-link-mobile&version=zurich&pubname=zurich-mobile&ft:locale=en-US).
+For an example of this API used in a push notification, see Configure push notification message content. For additional information on deep links, see .
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## MobileDeepLinkGenerator - MobileDeepLinkGenerator\(String clientType\)
 

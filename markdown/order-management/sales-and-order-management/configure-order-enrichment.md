@@ -2,6 +2,7 @@
 title: Configure order enrichment flows using Decision Tables
 description: Associate enrichment subflows with the product or service specifications by using the Order Enrichment Flow Policy in Decision Tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configure-order-enrichment.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -33,14 +34,14 @@ Add rows to the Order Enrichment Flow Policy decision table to specify which pro
 
 4.  Select the product offering in the **Offering** column.
 
-    ![Order Enrichment Flow Policy decision table for configuring the order enrichment process.](../image/order-mgt-enrichment-decision-table.png "Decision table for order enrichment process")
+    \[Omitted image "order-mgt-enrichment-decision-table.png"\] Alt text: Order Enrichment Flow Policy decision table for configuring the order enrichment process.
 
 5.  Select **Save**.
 
 
 ## Result
 
-A list of subflows appear in the results section. These sub flows create the enrichment tasks for an order line item during the enrichment process. For more information, see [Decision Builder user interface](https://www.servicenow.com/docs/access?context=decision-builder-user-interface&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+A list of subflows appear in the results section. These sub flows create the enrichment tasks for an order line item during the enrichment process. For more information, see .
 
-**Parent Topic:**[Configuring Order Management](../concept/order-mgt-configuring.md)
+**Parent Topic:**[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-mgt-configuring.md)
 

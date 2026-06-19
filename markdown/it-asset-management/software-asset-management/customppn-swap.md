@@ -2,6 +2,7 @@
 title: Custom publisher part numbers \(PPN\)
 description: Propagate changes to entitlements and software models by replacing your custom PPNs and custom discovery maps \(DMAPs\) with the Software Asset Management Content Service PPNs and DMAPs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/customppn-swap.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -21,7 +22,7 @@ Once the Content Service updates are downloaded to your instance, the scheduled 
 
 **Note:** If you have excluded custom PPNs from the Content Service by selecting the **Exclude from content service** option in the Custom Part Number form, then suggestions aren't shown for those custom PPNs.
 
-**Note:** For details on viewing the suggestion records, see [View publisher part number \(PPN\) suggestions in workspace](../task/view-customppn-workspace.md) or [View publisher part number \(PPN\) suggestions in Software Asset Management classic](../task/View-customppn-classic.md).
+**Note:** For details on viewing the suggestion records, see [View publisher part number \(PPN\) suggestions in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/view-customppn-workspace.md) or [View publisher part number \(PPN\) suggestions in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/View-customppn-classic.md).
 
 You can accept or reject the suggestions. If you accept the suggestion, the custom PPN and DMAP are replaced with the Content Service PPN and DMAP. All changes to entitlements and software models are propagated automatically.
 
@@ -42,5 +43,5 @@ The propagation of the Content Service DMAP results in the following changes:
     -   Any custom components that were added are deleted, as stated in a warning.
     -   Life cycles get overwritten \(with a warning message\).
 
-**Parent Topic:**[Software models and Software entitlements](software-models-and-entitlements.md)
+**Parent Topic:**[Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-models-and-entitlements.md)
 

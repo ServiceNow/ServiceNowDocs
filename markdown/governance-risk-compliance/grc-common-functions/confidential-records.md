@@ -2,6 +2,7 @@
 title: Confidential records
 description: You can mark sensitive GRC records as confidential. You can then make sure that the right people have access to these records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/confidential-records.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -52,7 +53,7 @@ The **Confidentiality** tab on the form displays the following lists and options
 
     **Note:** A user with write access to the record can enable the **Confidential** option.
 
-    ![Confidential tab on a form.](../image/confidential-record-risk-event1.png "Confidentiality field on a form")
+    \[Omitted image "confidential-record-risk-event1.png"\] Alt text: Confidential tab on a form.
 
 -   Allowed users list: When a record is marked as confidential, only the users in the Allowed users list have access to the record. A user who is listed in the Allowed users list should either have read access to the record or have the sn\_grc.confidential\_user role to access the confidential records.
 
@@ -89,7 +90,7 @@ Starting with Utah, confidential configuration for all the default confidentiali
 
 To know more about the confidentiality feature, see [KB1218856](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1218856).
 
-[Configure confidentiality in your GRC tables](../task/configure-confidentilaity-on-grc-tables.md)
+[Configure confidentiality in your GRC tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/configure-confidentilaity-on-grc-tables.md)
 
 To enable confidentiality in your GRC tables, you must perform additional configuration, such as updating the client scripts and updating access control lists \(ACLs\). After you update the configuration for a specific ServiceNow platform table, the confidentiality functionality can be used on those table's forms.
 
@@ -99,14 +100,14 @@ For information on how to enable confidentiality in your GRC tables, see [KB1497
 
 You can also enable Confidentiality on a form in the workspace view as shown in the following figure.
 
-![Confidentiality section in the workspace view.](../image/confidentiality-fields-ws-view.png "Confidentiality in the workspace view")
+\[Omitted image "confidentiality-fields-ws-view.png"\] Alt text: Confidentiality section in the workspace view.
 
--   **[Create a confidential record](../task/configure-confidential-record.md)**  
+-   **[Create a confidential record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/configure-confidential-record.md)**  
 Create a record and mark it as confidential so that you can make sure that only the users with a specific role can access it.
--   **[Configure confidentiality in GRC tables](../task/configure-confidentilaity-on-grc-tables.md)**  
+-   **[Configure confidentiality in GRC tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/configure-confidentilaity-on-grc-tables.md)**  
 You can create a confidentiality configuration record in your GRC tables.
--   **[Configuring confidential inheritance in your tables](confidential-inheritance.md)**  
+-   **[Configuring confidential inheritance in your tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/confidential-inheritance.md)**  
 You can set up confidentiality inheritance in the tables that are already configured in the confidentiality configuration module. In the GRC application, whenever a parent record is marked or unmarked as confidential, its related table records are also marked or unmarked as confidential.
 
-**Parent Topic:**[Common Governance, Risk, and Compliance features](common-grc-features.md)
+**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

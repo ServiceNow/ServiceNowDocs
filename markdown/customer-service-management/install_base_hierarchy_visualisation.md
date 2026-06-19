@@ -2,9 +2,12 @@
 title: Install base hierarchy visualization
 description: Use the Install Base Hierarchy tab on the CSM Configurable Workspace to view the parent-child hierarchy structure of an install base item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/install\_base\_hierarchy\_visualisation.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 2
 breadcrumb: [Install base items, Configure Install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -28,7 +31,7 @@ You can use the hierarchy structure of an install base item to perform the follo
 -   Set any node as a home node.
 -   Create a case from the node.
 
-    To learn about different case types and how to create a case from an install base node, see [Customer service case types](customer-service-case-types.md).
+    To learn about different case types and how to create a case from an install base node, see [Customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-case-types.md).
 
 -   View details of a node. This opens up the entire record of the install base item.
 

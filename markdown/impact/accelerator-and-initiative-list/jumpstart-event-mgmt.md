@@ -2,6 +2,7 @@
 title: Jumpstart Your Event Management
 description: The Jumpstart Your Event Management Accelerator provides a demonstration of the possibilities and capabilities of Event Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/jumpstart-event-mgmt.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -17,7 +18,7 @@ The Jumpstart Your Event Management Accelerator provides a demonstration of the 
 
 ## Accelerator overview
 
-Jumpstart Your Event Management provides Impact customers with a comprehensive overview of Event Management. Through an applied demonstration, we highlight how you can leverage the power of the ServiceNow Configuration Management Database \(CMDB\) to receive and review near real-time alerts from your infrastructure directly within the ServiceNow platform. This offering equips our customers with essential ServiceNow resources and leading practice guides on  how to get started with Event Management. See [Event Management](https://www.servicenow.com/docs/access?context=c_EM&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US) for additional information about the feature.
+Jumpstart Your Event Management provides Impact customers with a comprehensive overview of Event Management. Through an applied demonstration, we highlight how you can leverage the power of the ServiceNow Configuration Management Database \(CMDB\) to receive and review near real-time alerts from your infrastructure directly within the ServiceNow platform. This offering equips our customers with essential ServiceNow resources and leading practice guides on  how to get started with Event Management. See  for additional information about the feature.
 
 **Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 

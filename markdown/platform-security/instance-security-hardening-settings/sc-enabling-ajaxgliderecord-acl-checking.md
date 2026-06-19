@@ -2,6 +2,7 @@
 title: Require AJAXGlideRecord ACL checking \[Updated in Security Center 1.3\]
 description: Use the glide.script.secure.ajaxgliderecord property to perform access control rule \(ACL\) validation when server-side records, such as tables, are accessed using GlideAjax APIs within a client script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-enabling-ajaxgliderecord-acl-checking.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -15,7 +16,7 @@ breadcrumb: [Access control, Hardening settings, Platform Security]
 
 Use the **glide.script.secure.ajaxgliderecord** property to perform access control rule \(ACL\) validation when server-side records, such as tables, are accessed using GlideAjax APIs within a client script.
 
-From client scripts, it is possible to query arbitrary data from the server using the AJAXGlideRecord \([GlideAjax - Client](https://www.servicenow.com/docs/access?context=c_GlideAjaxAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)\) API, by using a syntax such as a server-side glide record. It is a powerful and useful tool in many deployments.
+From client scripts, it is possible to query arbitrary data from the server using the AJAXGlideRecord \(GlideAjax - Client\) API, by using a syntax such as a server-side glide record. It is a powerful and useful tool in many deployments.
 
 If you choose to apply Access Control Lists \(ACL\) to GlideAjax API calls, you can only query data to which the currently connected user has access. For example, if an ESS user who has no rights to read the cmn\_location table is logged in, any GlideAjax API call to that table would fail.
 
@@ -57,7 +58,7 @@ Category
 
 </td><td>
 
-[Access control](sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -125,10 +126,10 @@ References
 
 </td><td>
 
-[Apply ACLs to AJAXGlideRecord \(client-side Glide record\)](../../security/reference/r_ApplyACLsToAJAXGlideRecord.md) This property belongs to the same family of properties that secure and restrict execution of scripts originating from the client, such as **glide.script.allow.ajaxevaluate**. For more information, see [Enable AJAXEvaluate](sc-disable-ajaxevaluate.md).
+[Apply ACLs to AJAXGlideRecord \(client-side Glide record\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/r_ApplyACLsToAJAXGlideRecord.md) This property belongs to the same family of properties that secure and restrict execution of scripts originating from the client, such as **glide.script.allow.ajaxevaluate**. For more information, see [Enable AJAXEvaluate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-disable-ajaxevaluate.md).
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Access control](sc-access-control.md)
+**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

@@ -2,6 +2,7 @@
 title: Verify integration for the Sterling service
 description: The integration is configured to push background check data between the HR service in HR Service Delivery and the Sterling service. You can verify the preconfigured settings and determine whether they meet your needs or if further customization is required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/verify-base-integration-for-sterling.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -68,9 +69,9 @@ Role required: sn\_hr\_integrations.admin
         |HR Integrations Background Check Staging \[sn\_hr\_integrations\_background\_check\_staging\]|HR Talent Management Case \[sn\_hr\_core\_case\_talent\_management\]|
 
 
-**Parent Topic:**[Integrating with the Sterling Talent Solutions service](../concept/integrate-with-sterling-service.md)
+**Parent Topic:**[Integrating with the Sterling Talent Solutions service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/integrate-with-sterling-service.md)
 
-**Previous topic:**[Provide source credentials for the Sterling service](hr-integrations-sources-sterling.md)
+**Previous topic:**[Provide source credentials for the Sterling service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-integrations-sources-sterling.md)
 
-**Next topic:**[Add background check packages for the Sterling service](background-check-package-for-sterling.md)
+**Next topic:**[Add background check packages for the Sterling service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/background-check-package-for-sterling.md)
 

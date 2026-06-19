@@ -2,6 +2,7 @@
 title: Conversational Integration with Facebook Messenger
 description: Use this application to empower customers to engage with your business using Facebook Messenger.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/messg-fbm.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -21,20 +22,20 @@ Select a tile to get started.
 
 <table id="table_ev3_ndm_v4b" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Integrate Conversational Integration with Facebook Messenger with Virtual Agent.](exploring-va-fb-messenger.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Integrate Conversational Integration with Facebook Messenger with Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/exploring-va-fb-messenger.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Install and configure your Conversational Integration with Facebook Messenger implementation.](../task/messg-fbm-configure.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text: Install and configure your Conversational Integration with Facebook Messenger implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-fbm-configure.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-chat.svg) Agents and requesters can use Conversational Integration with Facebook Messenger in portals on your instance.](messg-fbm-using.md)
+[Use\[Omitted image "bus-chat.svg"\] Alt text: Agents and requesters can use Conversational Integration with Facebook Messenger in portals on your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-fbm-using.md)
 
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Notice regarding use by customers
 
@@ -44,12 +45,12 @@ Customers are solely responsible for the implementation of the Conversational In
 2.  Facebook Pre-Launch Checklist: [https://developers.facebook.com/docs/messenger-platform/prelaunch-checklist](https://developers.facebook.com/docs/messenger-platform/prelaunch-checklist)
 3.  Facebook review and submission process for applications: [https://developers.facebook.com/docs/messenger-platform/\#review---submission-process](https://developers.facebook.com/docs/messenger-platform/#review---submission-process)
 
--   **[Exploring Conversational Integration with Facebook Messenger](exploring-va-fb-messenger.md)**  
+-   **[Exploring Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/exploring-va-fb-messenger.md)**  
 Use this application to enable your users to initiate a Facebook Messenger chat conversation with Virtual Agent.
--   **[Configure Conversational Integration with Facebook Messenger](../task/messg-fbm-configure.md)**  
+-   **[Configure Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-fbm-configure.md)**  
 Install and set up the Conversational Integration with Facebook Messenger application to enable your users to interact with virtual and live agents.
--   **[Using Conversational Integration with Facebook Messenger](messg-fbm-using.md)**  
+-   **[Using Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-fbm-using.md)**  
 Enable a requester to converse with an agent using the Facebook Messenger chat conversations.
 
-**Parent Topic:**[Integrating Virtual Agent with messaging apps](va-integration-messaging-apps.md)
+**Parent Topic:**[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md)
 

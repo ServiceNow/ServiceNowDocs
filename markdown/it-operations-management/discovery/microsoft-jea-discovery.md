@@ -2,6 +2,7 @@
 title: Microsoft Just Enough Administration \(JEA\) for Discovery
 description: Using Microsoft JEA with Discovery improves security by forcing the MID Server to run remote Windows commands through a constrained endpoint, which validates commands on the target before execution. To configure the ServiceNow instance for Discovery with Microsoft Just Enough Administration \(JEA\), define the Windows credential with the domain name and set the MID Server configuration parameters appropriately.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/microsoft-jea-discovery.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -16,8 +17,6 @@ breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Ma
 Using Microsoft JEA with Discovery improves security by forcing the MID Server to run remote Windows commands through a constrained endpoint, which validates commands on the target before execution.
 
 Microsoft JEA enables role-based administration through PowerShell Remoting, which uses Windows Remote Management \(WinRM\) to manage communication and authentication. This framework provides a secure and reliable method for managing computers that use the HTTP protocol. PowerShell Remoting uses two total ports \(5985, 5986\) for HTTP and HTTPS, which is easier to secure than the multiple ports used in WMI dynamic port mapping. For more information about Microsoft JEA, see [Just Enough Administration](https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/jea/overview).
-
-![Overview of the connection between the ServiceNow Instance, the MID Server, and the JEA Endpoint and Windows Server being discovered.](../image/jea-discovery-overview.png)
 
 ## Requirements for Discovery with JEA
 
@@ -119,7 +118,7 @@ Role required: discovery\_admin or admin
 
 7.  Select the **Configuration Parameters** related list.
 
-8.  Set the following [MID Server config parameters](https://www.servicenow.com/docs/access?context=mid-server-parameters&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) as indicated:
+8.  Set the following MID Server config parameters as indicated:
 
     1.  **mid.windows.management\_protocol:** This parameter is required for Discovery with JEA.
 
@@ -131,7 +130,7 @@ Role required: discovery\_admin or admin
 
         For example, the PowerShell command **Register-PSConfiguration -name JEA\_DISCO\_V2 -path &lt;session\_configuration\_file&gt;** sets the endpoint name to JEA\_DISCO\_V2. In that case, **mid.powershell.jea.endpoint** must be updated to JEA\_DISCO\_V2.
 
-9.  Use the following [MID Server property](https://www.servicenow.com/docs/access?context=r_MIDServerProperties&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) and [System property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) to troubleshoot issues:
+9.  Use the following MID Server property and System property to troubleshoot issues:
 
     1.  **mid.probe.collect\_debug\_info**: This is an optional MID Server property to collect debug information.
 

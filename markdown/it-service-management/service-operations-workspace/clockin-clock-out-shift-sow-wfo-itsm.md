@@ -2,6 +2,7 @@
 title: Clock-in and clock-out your work shift in Service Operations Workspace
 description: Clock in and clock out your work shifts using Service Operations Workspace. You can track details, such as time attendance and time worked summary to know how close you are adhering to your schedules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/clockin-clock-out-shift-sow-wfo-itsm.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -27,7 +28,7 @@ The clock-in event is generated when you either login or set your status as **Av
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Click the Inbox icon \(![Inbox icon](../../configurable-workforce-optimization-itsm/image/inbox-icon.jpg)\).
+2.  Click the Inbox icon \(\[Omitted image "inbox-icon.jpg"\] Alt text: Inbox icon\).
 
     -   To clock-in your shift, set your status to **Available**.
     -   To clock-out from your shift, set your status to **Offline** or **Break**.
@@ -36,5 +37,5 @@ The clock-in event is generated when you either login or set your status as **Av
 
 You can view your time attendance and adherence in **Lists** &gt; **Schedule Adherence** &gt; **Time Attendance** &gt; **Time Worked Summary** lists.
 
-**Parent Topic:**[Service Operations Workspace - Scheduling](../concept/itsm-sow-workspace-scheduling.md)
+**Parent Topic:**[Service Operations Workspace - Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/itsm-sow-workspace-scheduling.md)
 

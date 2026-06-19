@@ -2,6 +2,7 @@
 title: Enable the user criteria property
 description: Enable the user criteria property to configure access for users based on role, department, group, location, or company in UI Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/enable-user-criteria-property.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -32,7 +33,7 @@ Role required: admin
 
 ## What to do next
 
-Add audiences to your pages in UI Builder. For more information, see [Add an audience to your UI Builder page](configure-audiences.md).
+Add audiences to your pages in UI Builder. For more information, see [Add an audience to your UI Builder page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/configure-audiences.md).
 
-**Parent Topic:**[Add an audience to your UI Builder page](configure-audiences.md)
+**Parent Topic:**[Add an audience to your UI Builder page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/configure-audiences.md)
 

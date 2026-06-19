@@ -2,6 +2,7 @@
 title: View an available hashtag
 description: View a hashtag from any feed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/live-feed/t\_ViewAnAvailableHashtag.html
 release: zurich
 product: Live Feed
 classification: live-feed
@@ -30,5 +31,5 @@ Role required: none
 3.  Click a hashtag to view all messages containing that hashtag.
 
 
-**Parent Topic:**[Use hashtags in Live Feed](../concept/c_UseHashtagsInLiveFeed.md)
+**Parent Topic:**[Use hashtags in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/live-feed/c_UseHashtagsInLiveFeed.md)
 

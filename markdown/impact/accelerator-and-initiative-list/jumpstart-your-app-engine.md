@@ -2,6 +2,7 @@
 title: Jumpstart Your App Engine
 description: Prescriptive guidance on enabling Citizen Development and utilizing App Engine Studio
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/jumpstart-your-app-engine.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

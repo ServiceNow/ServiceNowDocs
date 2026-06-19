@@ -2,6 +2,7 @@
 title: GlideAggregate - Global
 description: The GlideAggregate API enables creating database aggregation queries.Adds an aggregate to a database query.Adds trending by a business calendar to the aggregate query. This method allows you to pick a date and time field in the corresponding GlideRecord and group records based on a specified business calendar time span.Adds an encoded query to the other queries that may have been set for this aggregate.Adds a "having" element to the aggregate, such as select category, count\(\*\) from incident group by category HAVING count\(\*\) &gt; 5.Adds a "having" element to the aggregate, such as select category, count\(\*\) from incident group by category HAVING count\(\*\) &gt; 5. This implementation of the method enables you to specify a specific field within a table or a dynamic attribute to act upon.Adds a trend for a field. Use a trend to show patterns over a period of time.Gets the value of an aggregate from the current record.Returns the value of the dynamic attribute located at a specified path.Returns the value of the dynamic attribute located at a specified field in the current table and a specified attribute path.Returns the display value of the dynamic attribute located at the specified path.Returns the display value of the dynamic attribute located in a specified table field and attribute path.Retrieves the query necessary to return the current aggregate.Retrieves the number of rows in the GlideAggregate object.Returns the number of records by summing an aggregate.Returns the value of a field or a dynamic attribute.Provides the name of a field, or an attribute within a dynamic attribute store, to use when grouping the aggregates.Orders the aggregates using the value of the specified field, dynamic attribute path, or glidefunction. The field is also added to the group-by list.Orders the aggregates based on the specified aggregate and field or dynamic attribute.Issues the query and gets the results.Limits the number of rows from the table to include in the aggregate query.Sets whether to group the results.Sets whether to group results by year for day-of-week trends. These trends are created using the addTrend\(\) method with the dayofweek time interval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_GlideAggregateAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,15 +18,15 @@ The GlideAggregate API enables creating database aggregation queries.
 
 The GlideAggregate class is an extension of the GlideRecord class and provides database aggregation \(AVG, COUNT, GROUP\_CONCAT, GROUP\_CONCAT\_DISTINCT, MAX, MIN, STDDEV, SUM\) queries. This functionality can be helpful when creating customized reports or in calculations for calculated fields.
 
-When you use GlideAggregate methods on currency or price fields, you are working with the reference currency value. Be sure to convert the aggregate values to the user's session currency for display. Because the conversion rate between the currency or price value \(displayed value\) and its reference [currency](https://www.servicenow.com/docs/access?context=currency&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) value \(aggregation value\) might change, the result may not be what the user expects.
+When you use GlideAggregate methods on currency or price fields, you are working with the reference currency value. Be sure to convert the aggregate values to the user's session currency for display. Because the conversion rate between the currency or price value \(displayed value\) and its reference currency value \(aggregation value\) might change, the result may not be what the user expects.
 
 To use this API to create dynamic attributes you must have the dynamic\_schema\_writer role. To read dynamic data using this API you must have the dynamic\_schema\_reader role.
 
-See also [Dynamic Schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+See also .
 
 **Note:** When using an on-premise system, the database server time zone must be set to GMT/UTC for this class to work properly.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideAggregate - addAggregate\(String agg, String name\)
 
@@ -82,9 +83,9 @@ Optional for field name. Name of the field, or path to an attribute within a dyn
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also [Dynamic Schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+See also .
 
-See also [Dynamic Schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+See also .
 
 Default: Null
 
@@ -292,7 +293,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the addAggregate\(\) method in a scoped application, use the corresponding scoped method: [addAggregate\(\)](../../glideAggregateScoped/concept/c_GlideAggregateScopedAPI.md#).
+To use the addAggregate\(\) method in a scoped application, use the corresponding scoped method: [addAggregate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 ## GlideAggregate - addBizCalendarTrend\(String fieldName, String bizCalendarSysId\)
 
@@ -386,7 +387,7 @@ while (agg.next()) {
 
 ### Scoped equivalent
 
-To use the addEncodedQuery\(\) method in a scoped application, use the corresponding scoped method: [addEncodedQuery\(\)](../../glideAggregateScoped/concept/c_GlideAggregateScopedAPI.md#).
+To use the addEncodedQuery\(\) method in a scoped application, use the corresponding scoped method: [addEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 ## GlideAggregate - addHaving\(String name, String operator, String value\)
 
@@ -470,9 +471,9 @@ Field name or path to an attribute within a dynamic attribute store.Format of th
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also [Dynamic Schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+See also .
 
-See also [Dynamic Schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+See also .
 
 </td></tr><tr><td>
 
@@ -565,7 +566,7 @@ Incidents by month 11/2018 where count is more than 2 count is: 14
 
 Adds a trend for a field. Use a trend to show patterns over a period of time.
 
-**Note:** To control whether to group **dayofweek** results by year, use [GlideAggregate - setIntervalYearIncluded\(Boolean b\)](c_GlideAggregateAPI.md#).
+**Note:** To control whether to group **dayofweek** results by year, use [GlideAggregate - setIntervalYearIncluded\(Boolean b\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideAggregateAPI.md).
 
 <table id="table_tlk_cdk_ws" class="parameters"><thead><tr><th>
 
@@ -650,7 +651,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the addTrend\(\) method in a scoped application, use the corresponding scoped method: [addTrend\(\)](../../glideAggregateScoped/concept/c_GlideAggregateScopedAPI.md#).
+To use the addTrend\(\) method in a scoped application, use the corresponding scoped method: [addTrend\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 ## GlideAggregate - getAggregate\(String agg, String name\)
 
@@ -707,9 +708,9 @@ Name of the field, or path to an attribute within a dynamic schema, to get the a
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also [Dynamic Schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+See also .
 
-See also [Dynamic Schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+See also .
 
 </td></tr></tbody>
 </table><table id="table_vdy_sdk_ws" class="returns"><thead><tr><th>
@@ -879,7 +880,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the getAggregate\(\) method in a scoped application, use the corresponding scoped method: [getAggregate\(\)](../../glideAggregateScoped/concept/c_GlideAggregateScopedAPI.md#).
+To use the getAggregate\(\) method in a scoped application, use the corresponding scoped method: [getAggregate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 ## GlideAggregate - getDynamicAttributeValue\(String fullPath\)
 
@@ -915,7 +916,7 @@ Path to use to locate the desired dynamic attribute. Format of the attribute pat
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also [Dynamic Schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+See also .
 
 </td></tr></tbody>
 </table><table id="table_ph3_x1x_1bc" class="returns"><thead><tr><th>
@@ -1077,7 +1078,7 @@ Path to use to locate the desired dynamic attribute. Format of the attribute pat
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also [Dynamic Schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+See also .
 
 </td></tr></tbody>
 </table><table id="table_oht_nbx_1bc" class="returns"><thead><tr><th>
@@ -1289,7 +1290,7 @@ Software Update counts: MIN = 4 MAX = 98 AVG = 24.0000
 
 ### Scoped equivalent
 
-To use the getRowCount\(\) method in a scoped application, use the corresponding scoped method: [Scoped GlideAggregate - getRowCount\(\)](../../glideAggregateScoped/concept/c_GlideAggregateScopedAPI.md#).
+To use the getRowCount\(\) method in a scoped application, use the corresponding scoped method: [Scoped GlideAggregate - getRowCount\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 ## GlideAggregate - getTotal\(String agg, String name\)
 
@@ -1401,7 +1402,7 @@ Field name or path to an attribute within a dynamic attribute store.Format of th
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also [Dynamic Schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+See also .
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -1432,7 +1433,7 @@ Incidents by month 11/2018 where count is more than 2 count is: 14
 
 ### Scoped equivalent
 
-To use the getValue\(\) method in a scoped application, use the corresponding scoped method: [getValue\(\)](../../glideAggregateScoped/concept/c_GlideAggregateScopedAPI.md#).
+To use the getValue\(\) method in a scoped application, use the corresponding scoped method: [getValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 ## GlideAggregate - groupBy\(String name\)
 
@@ -1470,9 +1471,9 @@ Field name or path to an attribute within a dynamic attribute store.Format of th
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also [Dynamic Schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+See also .
 
-See also [Dynamic Schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+See also .
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -1509,7 +1510,7 @@ ga.query();
 
 ### Scoped equivalent
 
-To use the groupBy\(\) method in a scoped application, use the corresponding scoped method: [groupBy\(\)](../../glideAggregateScoped/concept/c_GlideAggregateScopedAPI.md#).
+To use the groupBy\(\) method in a scoped application, use the corresponding scoped method: [groupBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 ## GlideAggregate - orderBy\(String name\)
 
@@ -1545,11 +1546,11 @@ Field name, path to an attribute within a dynamic attribute store, or glidefunct
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also [Dynamic Schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+See also .
 
-See also [Dynamic Schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+See also .
 
-glidefunction format: `glidefunction:length(short_description)`. For more information about glidefunctions, see [glidefunction operations](https://www.servicenow.com/docs/access?context=platform-support-functions&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+glidefunction format: `glidefunction:length(short_description)`. For more information about glidefunctions, see glidefunction operations.
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -1586,7 +1587,7 @@ while (agg.next()) {
 
 ### Scoped equivalent
 
-To use the orderBy\(\) method in a scoped application, use the corresponding scoped method: [orderBy\(\)](../../glideAggregateScoped/concept/c_GlideAggregateScopedAPI.md#).
+To use the orderBy\(\) method in a scoped application, use the corresponding scoped method: [orderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 ## GlideAggregate - orderByAggregate\(String agg, String fieldName\)
 
@@ -1643,9 +1644,9 @@ Name of the field or path to an attribute within a dynamic attribute store to ag
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also [Dynamic Schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+See also .
 
-See also [Dynamic Schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+See also .
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -1683,7 +1684,7 @@ while (agg.next()) {
 
 ### Scoped equivalent
 
-To use the orderByAggregate\(\) method in a scoped application, use the corresponding scoped method: [orderByAggregate\(\)](../../glideAggregateScoped/concept/c_GlideAggregateScopedAPI.md#).
+To use the orderByAggregate\(\) method in a scoped application, use the corresponding scoped method: [orderByAggregate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 ## GlideAggregate - query\(\)
 
@@ -1726,7 +1727,7 @@ while (agg.next()) {
 
 ### Scoped equivalent
 
-To use the query\(\) method in a scoped application, use the corresponding scoped method: [query\(\)](../../glideAggregateScoped/concept/c_GlideAggregateScopedAPI.md#).
+To use the query\(\) method in a scoped application, use the corresponding scoped method: [query\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 ## GlideAggregate - setAggregateWindow\(Number firstRow, Number lastRow\)
 
@@ -1765,7 +1766,7 @@ software count: 1
 
 ### Scoped equivalent
 
-To use the setAggregateWindow\(\) method in a scoped application, use the corresponding scoped method: [setAggregateWindow\(\)](../../glideAggregateScoped/concept/c_GlideAggregateScopedAPI.md#).
+To use the setAggregateWindow\(\) method in a scoped application, use the corresponding scoped method: [setAggregateWindow\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 ## GlideAggregate - setGroup\(Boolean b\)
 
@@ -1812,13 +1813,13 @@ ga.setGroup(true);
 
 ### Scoped equivalent
 
-To use the setGroup\(\) method in a scoped application, use the corresponding scoped method: [setGroup\(\)](../../glideAggregateScoped/concept/c_GlideAggregateScopedAPI.md#).
+To use the setGroup\(\) method in a scoped application, use the corresponding scoped method: [setGroup\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 ## GlideAggregate - setIntervalYearIncluded\(Boolean b\)
 
 Sets whether to group results by year for day-of-week trends. These trends are created using the addTrend\(\) method with the **dayofweek** time interval.
 
-Dependency: [GlideAggregate - addTrend\('&lt;fieldName&gt;', 'dayofweek'\)](c_GlideAggregateAPI.md#).
+Dependency: [GlideAggregate - addTrend\('&lt;fieldName&gt;', 'dayofweek'\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideAggregateAPI.md).
 
 <table class="parameters"><thead><tr><th>
 
@@ -1880,5 +1881,5 @@ Saturday: 1
 
 ### Scoped equivalent
 
-To use the setIntervalYearIncluded\(\) method in a scoped application, use the corresponding scoped method: [setIntervalYearIncluded\(\)](../../glideAggregateScoped/concept/c_GlideAggregateScopedAPI.md#).
+To use the setIntervalYearIncluded\(\) method in a scoped application, use the corresponding scoped method: [setIntervalYearIncluded\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 

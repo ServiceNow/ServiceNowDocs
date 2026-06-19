@@ -2,7 +2,10 @@
 title: Create a matching rule for case routing
 description: Create a matching rule for a customer service case that identifies the case attributes as well as the agent resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_CreateARoutingRule.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -150,7 +153,7 @@ For **Scripted** matching. Use this field to create a customized script for iden
 
 8.  In the **Use for** field, specify how you want the matching criterion to be used.
 
-<table id="choicetable_wzv_ztm_sx"><tbody><tr><td id="d108349e355">
+<table id="choicetable_wzv_ztm_sx"><tbody><tr><td id="d109541e355">
 
 **Ranking and display**
 
@@ -158,7 +161,7 @@ For **Scripted** matching. Use this field to create a customized script for iden
 
 Use the criterion to determine agent ranking and displays it in a column on the workbench.
 
-</td></tr><tr><td id="d108349e364">
+</td></tr><tr><td id="d109541e364">
 
 **Display only**
 
@@ -166,7 +169,7 @@ Use the criterion to determine agent ranking and displays it in a column on the 
 
 Displays the criterion in a column on the workbench but does not use it to determine agent ranking.
 
-</td></tr><tr><td id="d108349e373">
+</td></tr><tr><td id="d109541e373">
 
 **Ranking only**
 
@@ -177,7 +180,7 @@ Uses the criterion to determine agent ranking but does not display it on the wor
 </td></tr></tbody>
 </table>9.  Select a **Ranking Method**.
 
-<table id="choicetable_ccn_j5m_sx"><tbody><tr><td id="d108349e394">
+<table id="choicetable_ccn_j5m_sx"><tbody><tr><td id="d109541e394">
 
 **More is better**
 
@@ -185,7 +188,7 @@ Uses the criterion to determine agent ranking but does not display it on the wor
 
 For example, more availability is better when determining the agent ranking.
 
-</td></tr><tr><td id="d108349e403">
+</td></tr><tr><td id="d109541e403">
 
 **Less is better**
 

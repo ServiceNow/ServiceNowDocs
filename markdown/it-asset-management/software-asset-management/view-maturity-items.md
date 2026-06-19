@@ -2,6 +2,7 @@
 title: View all maturity items for Software Asset Management
 description: View the maturity of your Software Asset Management \(SAM\) program to analyze the status of each maturity stage, where each stage shows the number of maturity items completed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/view-maturity-items.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -29,7 +30,7 @@ The maturity of your SAM program is divided into three stages:
 -   Walk
 -   Run
 
-For more information, see [Maturity stages of your Software Asset Management program](../reference/sam-maturity-stages.md).
+For more information, see [Maturity stages of your Software Asset Management program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-maturity-stages.md).
 
 **Note:** The maturity level can’t be modified for a required maturity item.
 
@@ -43,11 +44,11 @@ For more information, see [Maturity stages of your Software Asset Management pro
 
 3.  Select a maturity item to view its details.
 
-    For a description of the field values, see [Maturity item details](../reference/sam-maturity-item-details.md).
+    For a description of the field values, see [Maturity item details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-maturity-item-details.md).
 
 4.  If you want to create a Value builder task for the maturity item, select the **Value builder tasks** tab.
 
-    For more information about creating a Value builder task, see [Create a Value builder task](create-valuebuilder-task.md).
+    For more information about creating a Value builder task, see [Create a Value builder task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-valuebuilder-task.md).
 
 5.  Select **Save**.
 

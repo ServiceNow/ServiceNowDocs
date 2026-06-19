@@ -2,6 +2,7 @@
 title: System Administrator \[admin\]
 description: The admin role is required to access and use the ATF Test Generator and Cloud Runner store application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-roles-1.html
 release: zurich
 product: ATF Test Generator and Cloud Runner
 classification: atf-test-generator-and-cloud-runner
@@ -40,5 +41,5 @@ It is recommended to select a dedicated admin user who meets the following condi
 -   is not Web services access only
 -   is not an Internal Integration User
 
-**Parent Topic:**[ATF Test Generator and Cloud Runner roles](atf-tg-cr-roles.md)
+**Parent Topic:**[ATF Test Generator and Cloud Runner roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-roles.md)
 

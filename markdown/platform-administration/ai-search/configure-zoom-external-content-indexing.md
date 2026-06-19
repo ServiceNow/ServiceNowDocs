@@ -2,6 +2,7 @@
 title: Configure Zoom for external content indexing
 description: Create and activate a Server-to-Server OAuth app in the Zoom App Marketplace to allow the Zoom external content connector to access your Zoom source system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-zoom-external-content-indexing.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -26,7 +27,7 @@ Role required: none
 
 The Zoom external content connector retrieves webinars and meetings from your Zoom source system using the Zoom APIs.
 
-To allow the connector to access your Zoom source system via the Zoom APIs, you must configure and activate a Server-to-Server OAuth app in the Zoom App Marketplace. Your connector admin can use settings copied from this app to configure the Zoom external connector for proper connection to your source system.
+To allow the connector to access your Zoom source system via the Zoom APIs, you must configure and activate a Server-to-Server OAuth app in the Zoom App Marketplace. Your connector administrator can use settings copied from this app to configure the Zoom external connector for proper connection to your source system.
 
 ## Procedure
 
@@ -52,15 +53,15 @@ To allow the connector to access your Zoom source system via the Zoom APIs, you 
 
     1.  Copy the account ID for your new Server-to-Server OAuth app and store it in a secure location.
 
-        **Important:** Your external content connector admin needs this account ID when configuring the Zoom external content connector.
+        **Important:** Your external content connector administrator needs this account ID when configuring the Zoom external content connector.
 
     2.  Copy the client ID for your new Server-to-Server OAuth app and store it in a secure location.
 
-        **Important:** Your external content connector admin needs this client ID when configuring the Zoom external content connector.
+        **Important:** Your external content connector administrator needs this client ID when configuring the Zoom external content connector.
 
     3.  Copy the client secret for your new Server-to-Server OAuth app and store it in a secure location.
 
-        **Important:** Your external content connector admin needs this client secret when configuring the Zoom external content connector.
+        **Important:** Your external content connector administrator needs this client secret when configuring the Zoom external content connector.
 
     4.  Select **Continue**.
 
@@ -122,15 +123,15 @@ To allow the connector to access your Zoom source system via the Zoom APIs, you 
 
 ## What to do next
 
-Provide the following items to your connector admin:
+Provide the following items to your connector administrator:
 
--   The account ID that you copied in step [2.a](configure-zoom-external-content-indexing.md#copy-account-id-step).
--   The client ID that you copied in step [2.b](configure-zoom-external-content-indexing.md#copy-client-id-step).
--   The client secret that you copied in step [2.c](configure-zoom-external-content-indexing.md#copy-client-secret-step).
+-   The account ID that you copied in step [2.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-zoom-external-content-indexing.md).
+-   The client ID that you copied in step [2.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-zoom-external-content-indexing.md).
+-   The client secret that you copied in step [2.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-zoom-external-content-indexing.md).
 
-Your connector admin needs these items to configure a Zoom external content connector to retrieve meetings, webinars, and security principals from your Zoom source system.
+Your connector administrator needs these items to configure a Zoom external content connector to retrieve meetings, webinars, and security principals from your Zoom source system.
 
-For details on creating and configuring a Zoom external content connector, see [Create a Zoom external content connector](create-ext-cont-connector-zoom.md).
+For details on creating and configuring a Zoom external content connector, see [Create a Zoom external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-zoom.md).
 
-**Parent Topic:**[Zoom external content connector](../concept/zoom-external-content-connector.md)
+**Parent Topic:**[Zoom external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/zoom-external-content-connector.md)
 

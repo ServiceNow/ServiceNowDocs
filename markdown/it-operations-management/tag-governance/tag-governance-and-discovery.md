@@ -2,6 +2,7 @@
 title: Discovery's contribution to Tag Governance
 description: The Discovery and Cloud Discovery features discover all resources in the CMDB as well as cloud resources from cloud providers such as Amazon AWS Cloud, Microsoft Azure Cloud, and Google Cloud Platform \(GCP\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/tag-governance/tag-governance-and-discovery.html
 release: zurich
 product: Tag Governance
 classification: tag-governance
@@ -17,7 +18,7 @@ The Discovery and Cloud Discovery features discover all resources in the CMDB as
 
 ## The role of discovery
 
-Discovery and Cloud Provisioning and Governance can discover tags that are used by all major cloud providers and container ecosystems through Service Mapping patterns. Once the tags are discovered, Service Mapping can create application services that are based on the tags. Typically, organizations use tagging in virtualized, hyper-converged, or multi-cloud infrastructures. For examples of the infrastructure types and tags used for them, see [Tag-based discovery in Service Mapping](../../service-mapping/concept/tag-based-mapping.md).
+Discovery and Cloud Provisioning and Governance can discover tags that are used by all major cloud providers and container ecosystems through Service Mapping patterns. Once the tags are discovered, Service Mapping can create application services that are based on the tags. Typically, organizations use tagging in virtualized, hyper-converged, or multi-cloud infrastructures. For examples of the infrastructure types and tags used for them, see [Tag-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/tag-based-mapping.md).
 
 Discovery also collects cloud tags that are specific to each virtual machine \(VM\) and saves them to the Key Value \[cmdb\_key\_value\] table.
 

@@ -2,6 +2,7 @@
 title: Configure Application Insights threshold triggers
 description: Detect that a threshold has been exceeded and create a trigger to perform a sequence of actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-performance/conf-app-insights-thresh-triggers.html
 release: zurich
 product: Platform Performance
 classification: platform-performance
@@ -19,7 +20,7 @@ Detect that a threshold has been exceeded and create a trigger to perform a sequ
 
 Role required: sn\_app\_insights.admin or admin
 
-Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the [Overview of Instance Observer](https://www.servicenow.com/docs/access?context=io-overview&version=zurich&pubname=zurich-impact&ft:locale=en-US) product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
+Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the  product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -41,7 +42,7 @@ Application Insights uses the ServiceNow® Workflow Studio to create the trigger
 
     Modify the base template to fit your needs.
 
-    For more information about using the Workflow Studio, see [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+    For more information about using the Workflow Studio, see Flow Designer.
 
 5.  Select **Send Email**.
 
@@ -68,5 +69,5 @@ Application Insights uses the ServiceNow® Workflow Studio to create the trigger
     5.  Select **Save**.
 
 
-**Parent Topic:**[Application Insights](../concept/application-insights.md)
+**Parent Topic:**[Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/application-insights.md)
 

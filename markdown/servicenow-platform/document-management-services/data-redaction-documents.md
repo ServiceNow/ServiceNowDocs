@@ -2,6 +2,7 @@
 title: Redact sensitive data from documents
 description: Manually mask sensitive content or data from your PDF documents. Data redaction is available in configurable workspaces.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/data-redaction-documents.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -28,8 +29,8 @@ Sensitive data can be redacted by searching for a keyword or by selecting and dr
 -   In some cases during manual redaction, the text or redaction marks may overlap other sections of the PDF. This overlap can cause the original text to be removed and replaced with white space.
 -   Data redaction is not possible if the PDF includes non-parseable images, like those in JBIG2 format.
 
--   **[Redact data from documents](../task/redact-sensitive-data.md)**  
+-   **[Redact data from documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/redact-sensitive-data.md)**  
 Redact sensitive data from PDF documents by either searching keywords or selecting text.
 
-**Parent Topic:**[Using Document Management](using-document-management.md)
+**Parent Topic:**[Using Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/using-document-management.md)
 

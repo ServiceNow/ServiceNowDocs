@@ -2,6 +2,7 @@
 title: Customize a Now Assist for IT Service Management \(ITSM\) Incident activity response generation skill
 description: If you have the admin role, you can customize a Now Assist for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-activity-response-skill.html
 release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -44,7 +45,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
     -   Comments
     The table input table and the input fields are read-only.
 
-    ![Choose input data screen for activity response generation that contains the input table and fields to define the prompt.](../image/now-assist-itsm-activity-resp-gen-input.png)
+    \[Omitted image "now-assist-itsm-activity-resp-gen-input.png"\] Alt text: Choose input data screen for activity response generation that contains the input table and fields to define the prompt.
 
 6.  Define availability.
 
@@ -58,7 +59,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 7.  Define access.
 
-    Define the user access and role restrictions that you need for the skill. For information on role restrictions, see [Role masking](../concept/supporting-information-now-assist-itsm.md).
+    Define the user access and role restrictions that you need for the skill. For information on role restrictions, see [Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/supporting-information-now-assist-itsm.md).
 
 8.  Select display.
 
@@ -111,9 +112,9 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
         The **Define access** screen displays.
 
-        **Note:** By default this screen shows that an itil user can access the **Incident activity response in NACM** skill. The role restrictions defined in the **Define access** screen overrides the user access defined in this screen. For information on role restrictions, see [Role masking](../concept/supporting-information-now-assist-itsm.md).
+        **Note:** By default this screen shows that an itil user can access the **Incident activity response in NACM** skill. The role restrictions defined in the **Define access** screen overrides the user access defined in this screen. For information on role restrictions, see [Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/supporting-information-now-assist-itsm.md).
 
-        ![Define access screen in the Incident activity response in NACM screen](../image/now-assist-itsm-act-resp-define-access.png)
+        \[Omitted image "now-assist-itsm-act-resp-define-access.png"\] Alt text: Define access screen in the Incident activity response in NACM screen
 
     4.  Select **Save and continue**.
 

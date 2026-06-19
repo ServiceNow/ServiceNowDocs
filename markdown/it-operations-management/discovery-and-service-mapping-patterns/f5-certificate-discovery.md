@@ -2,6 +2,7 @@
 title: F5 certificate discovery
 description: The ServiceNow Discovery application uses The F5-SSH-SSL Certification pattern extension to find all associated certificates on F5 load balancers that use IPv4 addresses, IPv6 addresses, or both.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/f5-certificate-discovery.html
 release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -15,13 +16,13 @@ breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by
 
 The ServiceNow® Discovery application uses **The F5-SSH-SSL Certification** pattern extension to find all associated certificates on F5 load balancers that use IPv4 addresses, IPv6 addresses, or both.
 
-The **The F5-SSH-SSL Certification** pattern extension is part of the **F5 load balancer** and **F5 load balancer SSH** patterns that discover [F5 BIG-IP load balancer](../../discovery/concept/c_LoadBalancerF5BIGIP.md). The **The F5-SSH-SSL Certification** pattern extension discovers F5 load balancer instances running on the hosts via SNMP/SSH, and then discovers certifications used by the running node of the load balancer.
+The **The F5-SSH-SSL Certification** pattern extension is part of the **F5 load balancer** and **F5 load balancer SSH** patterns that discover [F5 BIG-IP load balancer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_LoadBalancerF5BIGIP.md). The **The F5-SSH-SSL Certification** pattern extension discovers F5 load balancer instances running on the hosts via SNMP/SSH, and then discovers certifications used by the running node of the load balancer.
 
 **Note:** For load balancers running IPv6, only SSH is supported.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
@@ -99,7 +100,7 @@ Displays components that you have permission to view or are passed as arguments.
 
 ## F5 certificate discovery class model
 
-![F5 certification discovery class model](../image/F5cert-classmodel.png)
+\[Omitted image "F5cert-classmodel.png"\] Alt text: F5 certification discovery class model
 
 ## Data collected by Discovery during horizontal discovery
 
@@ -140,5 +141,5 @@ The discovered data includes the following tables and fields.
 
 The **The F5-SSH-SSL Certification** pattern extension does not create any CI relationships.
 
-**Parent Topic:**[Available on-premise discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

@@ -2,6 +2,7 @@
 title: Benchmarks reference
 description: Refer to the different roles, dashboard, KPI categories and trends offered by ServiceNow Benchmarks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/benchmarks/reference-benchmarks.html
 release: zurich
 product: Benchmarks
 classification: benchmarks

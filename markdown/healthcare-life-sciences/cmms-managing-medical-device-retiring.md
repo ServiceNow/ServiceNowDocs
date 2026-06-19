@@ -1,0 +1,64 @@
+---
+title: Managing medical device out-of-service cases in Workspace
+description: You can use Workspace to manage medical device out-of-service cases.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/cmms-managing-medical-device-retiring.html
+release: zurich
+topic_type: concept
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Manage medical device cases, Healthcare Computerized Maintenance Management System, Clinical Device Management, Healthcare and Life Sciences]
+---
+
+# Managing medical device out-of-service cases in Workspace
+
+You can use Workspace to manage medical device out-of-service cases.
+
+**Important:** Healthcare Computerized Maintenance Management System is now deprecated and no longer supported or available for new activation. For details on the deprecation process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+To use maintenance and servicing workflows or inventory and management workflows, please see [Clinical Device Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/clinical-device-mgmt-overview.md).
+
+When a request for setting a medical device to out-of-service is submitted from a service portal, a medical device out-of-service case is created for a clinical engineer to work on. As a clinical engineer with the sn\_hcls\_cmms.clinical\_engineer role, you can manage the setting of a medical device to out-of-service. To learn more, see [Healthcare Computerized Maintenance Management System - Medical devices out-of-service scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cmms-retiring-medical-devices-scenario.md).
+
+<table id="table_aqr_bcc_bvb"><thead><tr><th>
+
+Task
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+[Access the Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cmms-viewing-cd.md).
+
+</td><td>
+
+Use the home page in Workspace to quickly scan and access medical device out-of-service cases.
+
+</td></tr><tr><td>
+
+[View a medical device out-of-service case in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cmms-view-retire-cases.md).
+
+</td><td>
+
+View a medical device out-of-service case in Workspace to complete out-of-service activities for a medical device.
+
+</td></tr><tr><td>
+
+[Understand the life cycle of a medical device out-of-service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cmms-retire-device-life-cycle.md).
+
+</td><td>
+
+Understand the various states of a medical device out-of-service case.
+
+</td></tr><tr><td>
+
+[Work on a medical device out-of-service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cmms-cd-retire-playbook.md).
+
+</td><td>
+
+Use the playbook available with the Healthcare CMMS application to manage medical device out-of-service cases.
+
+</td></tr></tbody>
+</table>

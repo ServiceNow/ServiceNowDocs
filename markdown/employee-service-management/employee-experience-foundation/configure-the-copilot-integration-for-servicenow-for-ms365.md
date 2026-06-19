@@ -2,6 +2,7 @@
 title: Setup Copilot integration for ServiceNow for Microsoft 365
 description: Enable co-pilot integration for ServiceNow for Microsoft 365.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/configure-the-copilot-integration-for-servicenow-for-ms365.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -33,16 +34,16 @@ After you upgrade to the latest Microsoft Integrations - Core, you must regenera
 
 2.  Regenerate the latest manifest file.
 
-    You must generate a new manifest file and download it. For more information, refer to [Create and download the manifest file for self-configured apps](download-manifest-file-st.md#).
+    You must generate a new manifest file and download it. For more information, refer to [Create and download the manifest file for self-configured apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/download-manifest-file-st.md).
 
 3.  Re-upload the latest manifest file.
 
-    Upload the newly downloaded manifest file. For more information, refer to [Upload manifest file in Microsoft Teams](upload-manifest-ms-teams-st.md).
+    Upload the newly downloaded manifest file. For more information, refer to [Upload manifest file in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/upload-manifest-ms-teams-st.md).
 
 
 ## Result
 
 The co-pilot integration is complete.
 
-**Parent Topic:**[Setting up the ServiceNow instance for Microsoft Teams integration](../concept/setup-tenants.md)
+**Parent Topic:**[Setting up the ServiceNow instance for Microsoft Teams integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/setup-tenants.md)
 

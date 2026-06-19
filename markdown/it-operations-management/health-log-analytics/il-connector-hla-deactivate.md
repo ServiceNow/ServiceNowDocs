@@ -2,6 +2,7 @@
 title: Deactivate a log data integration in Health Log Analytics
 description: Deactivate an integration for streaming log data to Health Log Analytics on the Integrations Launchpad. A deactivated integration stops streaming logs to your ServiceNow instance, but is still available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/il-connector-hla-deactivate.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -24,7 +25,7 @@ Role required: evt\_mgmt\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the bottom of the navigation pane, select the AIOps configuration center icon ![ITOM AIOps configuration center icon](../image/icon-itom-aiops-config.png).
+2.  From the bottom of the navigation pane, select the AIOps configuration center icon \[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon.
 
     The ITOM AIOps configuration center page appears. The configuration center is a centralized workspace. Use it to configure and manage AIOps features from a single place.
 
@@ -41,5 +42,5 @@ Role required: evt\_mgmt\_admin
 
 The integration is deactivated and stops streaming log data to the instance. The deactivated integration is still available on the Integrations Launchpad in the **Installed integrations** tab, under **Waiting for your action**.
 
-**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](../concept/hla-implement.md)
+**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-implement.md)
 

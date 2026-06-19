@@ -2,6 +2,7 @@
 title: Install the Edge Encryption proxy server using the command line installer
 description: Manually install multiple Edge Encryption proxy servers in your network.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/manual-proxy-install.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -25,30 +26,30 @@ If order preserving encryption types or encryption patterns are to be used, set 
 
 ## About this task
 
-First, set up a single Edge Encryption proxy server. After your first proxy server is successfully running, add additional proxy servers for one instance to ensure an optimal environment. See [Sizing your Edge Encryption environment](../concept/edge-environment-size.md) to determine the number of additional proxy servers needed.
+First, set up a single Edge Encryption proxy server. After your first proxy server is successfully running, add additional proxy servers for one instance to ensure an optimal environment. See [Sizing your Edge Encryption environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/edge-environment-size.md) to determine the number of additional proxy servers needed.
 
-1.  [Install the Edge Encryption proxy server \(command line installer\)](install-edge-linux-windows.md)  
+1.  [Install the Edge Encryption proxy server \(command line installer\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/install-edge-linux-windows.md)  
 Install an Edge Encryption proxy on a 64-bit Windows or Linux computer.
-2.  [Create and configure the RSA key pair for the digital signature](t_SetUpAKeyPair.md)  
+2.  [Create and configure the RSA key pair for the digital signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_SetUpAKeyPair.md)  
 Create an RSA key pair that the proxy server can use to create the digital signature for signing changes to the encryption properties and configuration.
-3.  [Import and configure the certificate for secure SSL connection](t_SetUpSecureSSLConnection.md)  
+3.  [Import and configure the certificate for secure SSL connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_SetUpSecureSSLConnection.md)  
 To use a secure SSL connection, import a server certificate and add it to the Java KeyStore.
-4.  [Set up a keystore and encryption keys](set-up-keystore.md)  
+4.  [Set up a keystore and encryption keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/set-up-keystore.md)  
 Set up the keystore and encryption keys used by the Edge Encryption proxy server.
-5.  [Configure encryption keys on the instance](t_RotateEncryptionKeys.md)  
+5.  [Configure encryption keys on the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_RotateEncryptionKeys.md)  
 Edge Encryption provides the tools to manage encryption keys without taking the proxy offline.
-6.  [Configure additional properties in the Edge Encryption properties file](set-props.md)  
+6.  [Configure additional properties in the Edge Encryption properties file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/set-props.md)  
 After installing the Edge Encryption proxy server in your network and setting up your keystore and keys, configure the additional Edge Encryption properties.
-7.  [Configure a web proxy](t_SetUpWebProxyProperties.md)  
+7.  [Configure a web proxy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_SetUpWebProxyProperties.md)  
 If your network uses a web proxy, you can set up the Edge Encryption proxy to use the web proxy.
-8.  [Set the proxy server initial memory limit and upper bound memory limit](increase-memory.md)  
+8.  [Set the proxy server initial memory limit and upper bound memory limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/increase-memory.md)  
 Set the initial memory limit and upper bound memory limit to specify how much memory the proxy server can consume. Set these limits to avoid performance issues in your Edge Encryption implementation.
-9.  [Start the Edge Encryption proxy](t_RuntheProxy.md)  
+9.  [Start the Edge Encryption proxy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_RuntheProxy.md)  
 After an Edge Encryption proxy is installed and configured, you can start the proxy from the command line.
-10. [Obfuscate passwords in the properties file](t_SetUpPasswordEncryption.md)  
+10. [Obfuscate passwords in the properties file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_SetUpPasswordEncryption.md)  
 Obfuscate passwords in the `edgeencryption.properties` file to be able to share the properties file without revealing clear text passwords.
-11. [Manually add an additional proxy](t_AddAdditionalProxies.md)  
+11. [Manually add an additional proxy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_AddAdditionalProxies.md)  
 After the first Edge Encryption proxy is properly configured and tested, you can set up additional proxies on a Linux or Windows machine. Installing multiple proxies on the same machine is not recommended.
 
-**Parent Topic:**[Installing Edge Encryption](../concept/c_InstallEdgeEncryptionProxy.md)
+**Parent Topic:**[Installing Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/c_InstallEdgeEncryptionProxy.md)
 

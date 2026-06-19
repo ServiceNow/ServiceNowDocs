@@ -2,6 +2,7 @@
 title: Enable search-based auto-complete suggestions in AI Search for Next Experience
 description: Run a scheduled job to make search-based auto-complete suggestions available in AI Search for Next Experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/enable-srch-autosugg-ais-next-exp.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -17,9 +18,9 @@ Run a scheduled job to make search-based auto-complete suggestions available in 
 
 ## Before you begin
 
-The AI Search for Next Experience ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install AI Search for Next Experience](install-ais-next-experience-app.md).
+The AI Search for Next Experience ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/install-ais-next-experience-app.md).
 
-You only need to perform this task if you installed AI Search for Next Experience 3.x on a San Diego instance that you then upgraded to Tokyo or a later release.
+Only perform this task if you installed AI Search for Next Experience 3.x on a San Diego instance that you then upgraded to Tokyo or a later release.
 
 Role required: admin
 
@@ -39,7 +40,7 @@ The scheduled job removes these two legacy auto-complete suggestion types from t
 -   Suggested Query Reader Group for \[AIS\] Next Experience Search Configuration
 -   Suggested Result Reader Group for \[AIS\] Next Experience Search Configuration
 
-To learn more about auto-complete suggestion types in AIS applications, see [Auto-complete suggestions in AI Search applications](../concept/auto-complete-ais.md#).
+To learn more about auto-complete suggestion types in AIS applications, see [Auto-complete suggestions in AI Search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/auto-complete-ais.md).
 
 ## Procedure
 
@@ -64,5 +65,5 @@ The scheduled job removes these auto-complete suggestion types from the **\[AIS\
 
 Global search uses the updated set of auto-complete suggestion types.
 
-**Parent Topic:**[Configuring AI Search for Next Experience](../concept/configuring-ais-next-experience.md)
+**Parent Topic:**[Configuring AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configuring-ais-next-experience.md)
 

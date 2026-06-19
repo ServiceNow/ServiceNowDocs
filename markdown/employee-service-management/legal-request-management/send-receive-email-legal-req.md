@@ -2,6 +2,7 @@
 title: Communicate using emails from Legal Counsel Center
 description: Compose and send emails directly from legal request record form in the Legal Counsel Center. You can also save the email as draft to send it later.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-request-management/send-receive-email-legal-req.html
 release: zurich
 product: Legal Request Management
 classification: legal-request-management
@@ -23,30 +24,30 @@ Role required: sn\_lg\_ops.legal\_fulfiller
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Click the list icon \(![List icon](../image/lsd-lcc-list-icon.png)\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, under **Legal Requests**, click **Assigned to Me**.
 
 4.  Open a legal request.
 
-5.  Click the more actions button \(![More actions button icon.](../image/more-button-icon.png)\) and select **Compose Email**.
+5.  Click the more actions button \(\[Omitted image "more-button-icon.png"\] Alt text: More actions button icon.\) and select **Compose Email**.
 
     The **Compose Email** button is available only when the legal request is in the Assigned or Work in progress state.
 
 6.  In the **New Email Draft** tab, compose a new email or respond to the email received.
 
-    Using response templates, you can insert predefined content into the email body. Select the response template icon \(![Response template icon.](../image/response-template-email-icon.png)\) and find an appropriate response template based on the subject of your email. Copy and paste the template's content into the email body.
+    Using response templates, you can insert predefined content into the email body. Select the response template icon \(\[Omitted image "response-template-email-icon.png"\] Alt text: Response template icon.\) and find an appropriate response template based on the subject of your email. Copy and paste the template's content into the email body.
 
-    **Note:** Only response templates configured for the email channel are available to use. For more information, see [Response templates configured for email channel](create-lsd-response-template.md).
+    **Note:** Only response templates configured for the email channel are available to use. For more information, see [Response templates configured for email channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/create-lsd-response-template.md).
 
-    For more information, see [Communicating via email](https://www.servicenow.com/docs/access?context=using-email&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    For more information, see Communicating via email.
 
 7.  Send it right away or save it as a draft to send later.
 
     -   To send the email instantly, click **Send Email**.
     -   To save the email as draft, click **Save as draft**.
 
-        **Note:** You can view the draft emails by clicking the list icon \(![List icon](../image/lsd-lcc-list-icon.png)\), selecting the **Drafts** list item under the **Email** category, and opening a draft email.
+        **Note:** You can view the draft emails by clicking the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\), selecting the **Drafts** list item under the **Email** category, and opening a draft email.
 
 
 ## Result
@@ -55,5 +56,5 @@ After the email is sent, it is added to the activity stream on the legal request
 
 Legal requests marked as Privileged and Confidential, contain confidentiality markers to comply with legal requirements. This applies to both system-generated notifications and fulfiller-initiated outbound emails.
 
-**Parent Topic:**[Work on a legal request](work-on-legal-request.md)
+**Parent Topic:**[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/work-on-legal-request.md)
 

@@ -2,6 +2,7 @@
 title: Domain separation and Vendor Management Workspace
 description: Domain separation is supported in Vendor Management Workspace. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/vendor-management-workspace/domain-sep-vendor-management-workspace.html
 release: zurich
 product: Vendor Management Workspace
 classification: vendor-management-workspace
@@ -24,7 +25,7 @@ Domain separation is supported in Vendor Management Workspace. Domain separation
 
 Sample use case: An Admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 The Vendor Management Workspace application uses performance analytics to collect data and provides domain separation support.
 
@@ -34,13 +35,13 @@ The Domain Support - Domain Extensions Installer plugin \(com.glide.domain.msp\_
 
 The Performance Analytics - Domain Support plugin \(com.snc.pa.domain\_support\) must be activated to enable the features for Vendor Manager Workspace
 
--   **[Configure domain separation for Vendor Management Workspace](../task/config-domain-sep-vendor-management-configurable-workspace.md)**  
+-   **[Configure domain separation for Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/config-domain-sep-vendor-management-configurable-workspace.md)**  
 Configure domain separation for Vendor Management Workspace to collect vendor scores and analyze the data for a specific domain. Configure domains for vendor score metric models.
 
-**Parent Topic:**[Vendor Management Workspace reference](../reference/vendor-manager-workspace-reference.md)
+**Parent Topic:**[Vendor Management Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/vendor-manager-workspace-reference.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

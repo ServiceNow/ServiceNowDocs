@@ -2,6 +2,7 @@
 title: Employee Relations
 description: With Employee Relations \(ER\), handle a sensitive complaint with tighter security. Maintain complete confidentiality and protect the privacy of the user who has raised the complaint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-case-employee-relations.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,23 +20,23 @@ With Employee Relations \(ER\), handle a sensitive complaint with tighter securi
 
 <table id="table_nyp_yyr_qbc" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about Employee Relations](explore-er.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/explore-er.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Plan and configure your implementation](hr-er-setting-up.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-er-setting-up.md)
 
 </td><td>
 
-[Reporting![](../../../reuse/icons/brand-icons/bus-performance-forecasting-2.svg)Use historical trends and data comparisons for Employee Relations to assess organizational performance.](../../../use/application-content-packs/concept/er-hr-par.md)
+[Reporting\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Use historical trends and data comparisons for Employee Relations to assess organizational performance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/er-hr-par.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-manage.svg)Use Employee relations to efficiently handle and resolve sensitive cases.](hr-er-using.md)
+[Use\[Omitted image "bus-manage.svg"\] Alt text:Use Employee relations to efficiently handle and resolve sensitive cases.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-er-using.md)
 
 </td><td>
 
-[Integration![](../../../reuse/icons/brand-icons/bus-learn.svg)Integrate with different applications to expand the capabilities and effectiveness of Employee Relations](emp-relations-legal.md#)
+[Integration\[Omitted image "bus-learn.svg"\] Alt text:Integrate with different applications to expand the capabilities and effectiveness of Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/emp-relations-legal.md)
 
 </td><td>
 

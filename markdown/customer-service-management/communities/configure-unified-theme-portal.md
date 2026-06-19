@@ -2,6 +2,7 @@
 title: Configure Community Service Portal header menus
 description: Configure Community Service Portal header menus to create a consistent user experience across all your end-user facing service portals using a modern interface and a unified navigation menu structure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/communities/configure-unified-theme-portal.html
 release: zurich
 product: Communities
 classification: communities
@@ -65,5 +66,5 @@ Add a theme and header menu to your service portal to define its look and behavi
 11. Select **Submit**.
 
 
-**Parent Topic:**[Community Service Portal](../concept/community-service-portal.md)
+**Parent Topic:**[Community Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/community-service-portal.md)
 

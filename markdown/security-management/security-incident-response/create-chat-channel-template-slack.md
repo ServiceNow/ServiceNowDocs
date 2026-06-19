@@ -2,6 +2,7 @@
 title: Create a chat channel template for Slack
 description: Configure Chat Teams and Channel Templates to create chat teams and channels to collaborate, track the chat conversations, and add users and user groups to those Chat Channels. These Channel templates are created in Slack when a major security incident is promoted.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/create-chat-channel-template-slack.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -45,15 +46,15 @@ The new channel that you create will be your channel name in Slack as well. You 
 
 8.  On the form, fill the fields.
 
-<table id="choicetable_t4z_2qt_gbc"><thead><tr><th align="left" id="d202644e162">
+<table id="choicetable_t4z_2qt_gbc"><thead><tr><th align="left" id="d177582e162">
 
 Field
 
-</th><th align="left" id="d202644e165">
+</th><th align="left" id="d177582e165">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d202644e171">
+</th></tr></thead><tbody><tr><td id="d177582e171">
 
 **__Chat Team Configuration__**
 
@@ -61,7 +62,7 @@ Description
 
 Name of the Chat Team configuration. For example, Slack channel configuration.
 
-</td></tr><tr><td id="d202644e181">
+</td></tr><tr><td id="d177582e181">
 
 **__Channel Name__**
 
@@ -73,7 +74,7 @@ Name of the channel. For example, legal.**Note:**
 -   The new channel that you create here will be your channel name in Slack as well. You can search for the same channel and add your conversations.
 
 
-</td></tr><tr><td id="d202644e205">
+</td></tr><tr><td id="d177582e205">
 
 **__Channel Description__**
 
@@ -81,7 +82,7 @@ Name of the channel. For example, legal.**Note:**
 
 Unique description for the channel.
 
-</td></tr><tr><td id="d202644e215">
+</td></tr><tr><td id="d177582e215">
 
 **__Channel Users__**
 
@@ -89,7 +90,7 @@ Unique description for the channel.
 
 Select the **Unlock Channel Users** icon, and add the users who can access this channel from the lookup list. Select the **Lock Channel Users** icon to lock the selected list of channel users.
 
-</td></tr><tr><td id="d202644e234">
+</td></tr><tr><td id="d177582e234">
 
 **__Channel User Groups__**
 
@@ -98,7 +99,7 @@ Select the **Unlock Channel Users** icon, and add the users who can access this 
 Select the **Unlock Channel User Groups** icon, and add the user groups who can access this channel from the lookup list. You can also use the **Add me** icon to add yourself.Select the **Lock Channel User Groups** icon to lock the selected list of channel user groups.
 
 </td></tr></tbody>
-</table>    ![Slack Chat Channel Configuration](../image/msim-chat-channel-config-slack.png "Slack Chat Channel Configuration")
+</table>    \[Omitted image "msim-chat-channel-config-slack.png"\] Alt text: Slack Chat Channel Configuration
 
 9.  Select **Submit**.
 
@@ -107,5 +108,5 @@ Select the **Unlock Channel User Groups** icon, and add the user groups who can 
 
 The chat channel is now created and the users are assigned to those chat channel groups. You can view the collaboration chat activities both in Slack and in the Collaboration activity stream of the MSIM Workspace with the organized chat channel hierarchy structure as configured in the Chat Channel provider configuration.
 
-**Parent Topic:**[Configure Slack chat connector for major security incidents](../concept/configure-slack-chat-connector-msi.md)
+**Parent Topic:**[Configure Slack chat connector for major security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/configure-slack-chat-connector-msi.md)
 

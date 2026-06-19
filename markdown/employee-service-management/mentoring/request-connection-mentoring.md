@@ -2,6 +2,7 @@
 title: Request a connection
 description: Request a connection with a mentor who seems like the right fit for you.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/mentoring/request-connection-mentoring.html
 release: zurich
 product: Mentoring
 classification: mentoring

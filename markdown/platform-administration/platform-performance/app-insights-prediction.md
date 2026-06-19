@@ -2,6 +2,7 @@
 title: Application Insights p1 prediction model
 description: Application Insights enables you to receive a warning when your instance is about to experience a priority 1 \(p1\) event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-performance/app-insights-prediction.html
 release: zurich
 product: Platform Performance
 classification: platform-performance
@@ -15,11 +16,11 @@ breadcrumb: [Application Insights, Monitor, Platform performance, Maintain and m
 
 Application Insights enables you to receive a warning when your instance is about to experience a priority 1 \(p1\) event.
 
-Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the [Overview of Instance Observer](https://www.servicenow.com/docs/access?context=io-overview&version=zurich&pubname=zurich-impact&ft:locale=en-US) product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
+Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the  product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-When the p1 prediction feature is enabled, the system monitors system performance and models it to predict when a p1 condition is likely. If the system determines that a p1 condition is likely, a warning icon \(![Warning icon.](../image/app-insights-warning-icon.png)\) is displayed on the graphs in the Application Insights application.
+When the p1 prediction feature is enabled, the system monitors system performance and models it to predict when a p1 condition is likely. If the system determines that a p1 condition is likely, a warning icon \(\[Omitted image "app-insights-warning-icon.png"\] Alt text: Warning icon.\) is displayed on the graphs in the Application Insights application.
 
 You must install the Predictive Intelligence \(com.glide.platform\_ml\) plugin and the Application Insights application to enable the p1 prediction feature.
 
@@ -33,7 +34,7 @@ After you take corrective action to successfully avoid the p1 condition from occ
 
 `P1 Predicted: Ending current p1 alert state. We no longer predict a p1 might occur. <p>Performed on the instance at 2021-07-16 12:11:26</p>`
 
-The default system properties settings for the p1 prediction model are appropriate for most environments. You can change the properties for your environment. For more information about changing the default settings, see [Application Insights properties](../reference/app-insights-properties.md).
+The default system properties settings for the p1 prediction model are appropriate for most environments. You can change the properties for your environment. For more information about changing the default settings, see [Application Insights properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/app-insights-properties.md).
 
-**Parent Topic:**[Application Insights](application-insights.md)
+**Parent Topic:**[Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/application-insights.md)
 

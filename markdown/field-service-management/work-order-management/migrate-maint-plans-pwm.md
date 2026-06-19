@@ -2,6 +2,7 @@
 title: Migrate maintenance plans to Planned Work Management
 description: You can migrate plans from Planned Maintenance to Planned Work Management so that plans can utilize the features in Planned Work Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/migrate-maint-plans-pwm.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

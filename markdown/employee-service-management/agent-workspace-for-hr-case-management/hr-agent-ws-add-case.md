@@ -2,6 +2,7 @@
 title: Creating a case from an HR case
 description: Create additional cases directly from the HR case you are working on in the Agent Workspace for HR Case Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-add-case.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -32,7 +33,7 @@ To create a case, you don't have to leave a case you are working on and try to f
 
 2.  Select a case from which you want to create additional case.
 
-3.  Click the ![More Actions icon](../reference/images/more-icon.png) icon at the top right hand corner of the Details tab.
+3.  Click the \[Omitted image "more-icon.png"\] Alt text: More Actions icon icon at the top right hand corner of the Details tab.
 
 4.  Select **Create Additional Case**.
 

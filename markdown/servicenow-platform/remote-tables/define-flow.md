@@ -2,6 +2,7 @@
 title: Define a flow logic
 description: Set the triggers and actions to define a remote table flow logic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/remote-tables/define-flow.html
 release: zurich
 product: Remote Tables
 classification: remote-tables
@@ -64,5 +65,5 @@ Role required: admin
     3.  Select **Done** to create logs for the set condition.
 
 
-**Parent Topic:**[Create a flow definition for a remote table](create-remote-table-flow.md)
+**Parent Topic:**[Create a flow definition for a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/remote-tables/create-remote-table-flow.md)
 

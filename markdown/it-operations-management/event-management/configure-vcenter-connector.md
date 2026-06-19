@@ -2,6 +2,7 @@
 title: Configure event collection from vCenter
 description: Configure the VMware vCenter Server \(vCenter or vCenter\_V2\) connector instance to receive events from your VMware vSphere environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/configure-vcenter-connector.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -53,7 +54,7 @@ This connector has the **debug** and **logPayloadForDebug** log parameters enabl
 
 4.  Right-click the form header and select **Save**.
 
-    The connector instance values are added to the form and the parameters that are relevant to the connector appear.![vCenter Connector Instance Values](../image/vcenter-connector-values.png)
+    The connector instance values are added to the form and the parameters that are relevant to the connector appear.\[Omitted image "vcenter-connector-values.png"\] Alt text: vCenter Connector Instance Values
 
 5.  In the Connector Instance Values section, specify the vCenter values.
 
@@ -84,5 +85,5 @@ This connector has the **debug** and **logPayloadForDebug** log parameters enabl
 9.  Click **Update**.
 
 
-**Parent Topic:**[Configure a pull connector](t_EMConfigureConnectorInstance.md)
+**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 

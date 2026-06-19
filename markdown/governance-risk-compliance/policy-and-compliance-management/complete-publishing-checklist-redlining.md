@@ -2,6 +2,7 @@
 title: Complete publishing checklist and request policy approval
 description: Use the playbook available with Compliance Workspace to complete the publishing checklist before you request approval. If approvals are complete, then the policy is automatically published.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/complete-publishing-checklist-redlining.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -23,11 +24,11 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the list icon \(![Lists icon.](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the Compliance Workspace, select the list icon \(\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon.\).
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 
-4.  Select the policy publishing checklist icon \(![Publishing checklist icon.](../image/PublishingChecklistIcon.png)\) in the right panel.
+4.  Select the policy publishing checklist icon \(\[Omitted image "PublishingChecklistIcon.png"\] Alt text: Publishing checklist icon.\) in the right panel.
 
     A playbook checklist is created.
 
@@ -75,7 +76,7 @@ Attach policy as PDF
 
 Attach the policy document as a PDF to the Knowledge Base article. Attaching a PDF is recommended if your Microsoft OneDrive, Microsoft SharePoint, or Google Drive document and the **Policy text** field aren’t in sync.1.  Select **Attach** to append the PDF to the policy.
 2.  Select **Mark Complete**.
-**Note:** Starting with the Xanadu release you can also generate accessible PDFs. In order to generate an accessible PDF you must set the property **com.snc.document.conversion.accessibility\_enabled** to true. To enable the property, see [Enable accessibility features for DOCX to PDF conversion](https://www.servicenow.com/docs/access?context=enable-accessibility-docx-to-pdf&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+**Note:** Starting with the Xanadu release you can also generate accessible PDFs. In order to generate an accessible PDF you must set the property **com.snc.document.conversion.accessibility\_enabled** to true. To enable the property, see .
 
 </td></tr><tr><td>
 
@@ -88,7 +89,7 @@ Refresh the browser after completing this step. Update the policy Knowledge base
 </td></tr></tbody>
 </table>    The **Complete publishing checklist** button is no longer available.
 
-6.  To view your attachments, select ![Attachment icon.](../../../common/image/AttachmentIcon.png) in the right panel.
+6.  To view your attachments, select \[Omitted image "AttachmentIcon.png"\] Alt text: Attachment icon. in the right panel.
 
 7.  Select the **Request approval** button to request approval for the policy.
 

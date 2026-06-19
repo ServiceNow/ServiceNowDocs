@@ -2,6 +2,7 @@
 title: Example - Restrict a field with a script
 description: This access control prevents everyone from editing an incident with a category of Software in a list. It is defined by a script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/list-administration/r\_ExampleRestrictAFieldWithAScript.html
 release: zurich
 product: List Administration
 classification: list-administration
@@ -15,7 +16,7 @@ breadcrumb: [Configuring contextual security, List editor, Administer, List admi
 
 This access control prevents everyone from editing an incident with a category of Software in a list. It is defined by a script.
 
-![](../image/RestrictSoftwareIncidents.png "Restrict Software Incidents")
+\[Omitted image "RestrictSoftwareIncidents.png"\] Alt text:
 
 -   **Type:** record
 -   **Operation:** list\_edit

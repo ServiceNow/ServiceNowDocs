@@ -2,6 +2,7 @@
 title: Configure schedule adherence properties
 description: Configure schedule adherence properties to calculate the adherence to improve the operational efficiency of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workforce-optimization-for-hr/configure-scheduling-adherence-wfo-hr.html
 release: zurich
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -41,5 +42,5 @@ The threshold settings for adherence and conformance indicate how many minutes e
 3.  Click **Save**.
 
 
-**Parent Topic:**[Setting up Scheduling for Workforce Optimization for HR](setup-scheduling-wfo-hr.md)
+**Parent Topic:**[Setting up Scheduling for Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workforce-optimization-for-hr/setup-scheduling-wfo-hr.md)
 

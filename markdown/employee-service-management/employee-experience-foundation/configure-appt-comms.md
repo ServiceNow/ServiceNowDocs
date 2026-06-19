@@ -2,6 +2,7 @@
 title: Configure appointment communication
 description: Configure the communication channels and location consent for appointment bookings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/configure-appt-comms.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,10 +28,10 @@ Role required: sn\_hr\_core.walkup\_admin, sn\_walkup.walkup\_manager
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Location Consent form](../reference/location-consent-form.md).
+    For a description of the field values, see [Location Consent form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/location-consent-form.md).
 
 
 ## What to do next
 
-Link the communication configuration to the walk-up location queue that you want to use for appointment booking. For more information, see [Create or modify Walk-up Experience locations](https://www.servicenow.com/docs/access?context=configure-walkup-location&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+Link the communication configuration to the walk-up location queue that you want to use for appointment booking. For more information, see .
 

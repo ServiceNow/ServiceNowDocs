@@ -2,6 +2,7 @@
 title: Create expense line form
 description: The expense line form information is used to create an expense line for your actual expenses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/create-expense-line-form-ppw.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning

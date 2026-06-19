@@ -2,6 +2,7 @@
 title: Add a personal task to a freeform Visual Task Board
 description: You can add cards directly to a freeform board lane. These cards are called personal tasks and represent records on the Private Task \[vtb\_task\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/visual-task-boards/t\_AddAPersonalTaskToAFreeformBoard.html
 release: zurich
 product: Visual Task Boards
 classification: visual-task-boards
@@ -34,5 +35,5 @@ Role required: none
 5.  To save the card, select another area of the board or press **Enter**.
 
 
-**Parent Topic:**[Freeform Visual Task Boards](../concept/c_FreeformBoardTasks.md)
+**Parent Topic:**[Freeform Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/c_FreeformBoardTasks.md)
 

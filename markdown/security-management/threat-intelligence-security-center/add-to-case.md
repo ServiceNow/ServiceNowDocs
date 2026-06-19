@@ -2,6 +2,7 @@
 title: Add to Case
 description: Add observables, indicators, or other objects to the case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/add-to-case.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -31,7 +32,7 @@ Following is the procedure that shows how to add a case to an observable record.
 
     This displays only the cases where the record is not already associated.
 
-    ![Add to Case](../image/tisc-add-to-case-steps.png)
+    \[Omitted image "tisc-add-to-case-steps.png"\] Alt text: Add to Case
 
 4.  Verify if you want to add the record to the existing cases and if so select the exiting case otherwise click **Create New Case**.
 
@@ -114,5 +115,5 @@ The Analyst who is responsible for working on a case.
     An information message is displayed that the selected records are added to case\(s\) successfully.
 
 
-**Parent Topic:**[Observables](../concept/observables.md)
+**Parent Topic:**[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/observables.md)
 

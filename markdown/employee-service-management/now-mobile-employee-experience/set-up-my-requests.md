@@ -2,6 +2,7 @@
 title: Configure My Requests to track open records
 description: Specify which records that you want your users to see under My Requests so that they can track their work assignments. For example, you can add a filter to display records that are opened by the user from the Problem table. By default, the app displays records that are opened by the user from the Incident and Requested Item tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-mobile-employee-experience/set-up-my-requests.html
 release: zurich
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
@@ -20,8 +21,6 @@ Specify which records that you want your users to see under **My Requests** so t
 Role required: admin
 
 ## About this task
-
-Demonstrates configuring service catalogs, knowledge bases, and My Requests in the Now Mobile App.
 
 ## Procedure
 

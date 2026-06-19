@@ -2,11 +2,12 @@
 title: Onboard Azure DevOps to DevOps Change Velocity — Classic
 description: Create an Azure DevOps tool record in DevOps Change Velocity to connect, discover, and import Azure DevOps tool data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/create-azure-tool-dev-ops.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 breadcrumb: [Azure DevOps, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -28,7 +29,7 @@ Actions:
 -   **Configure** webhooks in Azure DevOps.
 -   **Import** work item, plan version, and feature records, branch and commit records, and task execution and step execution records.
 
-To [customize Azure Boards import](../reference/dev-ops-azure-work-item-import.md) of work item states or types, use the **DevOpsAzureDevOpsWorkItemHelper** script include.
+To [customize Azure Boards import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/dev-ops-azure-work-item-import.md) of work item states or types, use the **DevOpsAzureDevOpsWorkItemHelper** script include.
 
 ## Procedure
 
@@ -91,27 +92,27 @@ Type of credential, **Basic Auth** or **OAuth 2.0**.**Basic Auth**
 
 **Note:**
 
-When you generate a Personal access token \(PAT\) for Azure DevOps, you must select the scopes to authorize if you aren’t granting complete access. See [Azure DevOps PAT scopes for DevOps](../reference/dev-ops-pat-scopes-azure.md).
+When you generate a Personal access token \(PAT\) for Azure DevOps, you must select the scopes to authorize if you aren’t granting complete access. See [Azure DevOps PAT scopes for DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/dev-ops-pat-scopes-azure.md).
 
 **OAuth 2.0**
 
 Pre-requisites:
 
--   [Create a tenant in Microsoft Entra](set-up-azure-devops-oauth-2-0-credential.md#)
--   [Add a user to tenant in Microsoft Entra](set-up-azure-devops-oauth-2-0-credential.md#)
--   [Create an organization in Azure portal](set-up-azure-devops-oauth-2-0-credential.md#)
--   [Create an Azure DevOps app](set-up-azure-devops-oauth-2-0-credential.md#)
--   [Register Azure DevOps as an OAuth provider](set-up-azure-devops-oauth-2-0-credential.md#)
--   [Configure organization and project level settings](set-up-azure-devops-oauth-2-0-credential.md#)
--   [Create credential record and get OAuth token](set-up-azure-devops-oauth-2-0-credential.md#)
+-   [Create a tenant in Microsoft Entra](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
+-   [Add a user to tenant in Microsoft Entra](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
+-   [Create an organization in Azure portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
+-   [Create an Azure DevOps app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
+-   [Register Azure DevOps as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
+-   [Configure organization and project level settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
+-   [Create credential record and get OAuth token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
 In the **Tool credential** field, select an OAuth 2.0 tool credential record.**Note:** Only records that are not in use and configured for ADO can be selected as an existing credential record.
 
 </td></tr></tbody>
-</table>    For a list of all the permissions required on the credentials for connecting to Azure DevOps, see Azure DevOps permissions in [Permissions required for DevOps tools](../reference/tool-req-permission.md).
+</table>    For a list of all the permissions required on the credentials for connecting to Azure DevOps, see Azure DevOps permissions in [Permissions required for DevOps tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/tool-req-permission.md).
 
 3.  If your Azure DevOps instance is attached to a MID Server, select the **Use MID Server** option and enter its details.
 
-    For more information about MID server, see [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+    For more information about MID server, see MID Server selection
 
 4.  Select **Submit**.
 
@@ -146,7 +147,7 @@ In the **Tool credential** field, select an OAuth 2.0 tool credential record.**N
         -   To configure from the project records page, first select the project from the tool records page and select **Configure**.
     2.  Enter the DevOps integration user and password and select **Send**.
 
-        On send, webhooks and service connections are automatically created in Azure DevOps. This sends the notifications from Azure DevOps tools to DevOps Change Velocity using the DevOps Integration user. For information on setting up Integration user account, see [Set up integration user account in DevOps Change Velocity](devops-plybk-set-up-system-accts.md).
+        On send, webhooks and service connections are automatically created in Azure DevOps. This sends the notifications from Azure DevOps tools to DevOps Change Velocity using the DevOps Integration user. For information on setting up Integration user account, see [Set up integration user account in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/devops-plybk-set-up-system-accts.md).
 
         **Note:**
 
@@ -189,11 +190,11 @@ In the **Tool credential** field, select an OAuth 2.0 tool credential record.**N
 
 ## What to do next
 
-For Azure pipelines, [Model an Azure pipeline in DevOps](model-azure-pipeline-dev-ops.md) to complete the configuration in DevOps Change Velocity.
+For Azure pipelines, [Model an Azure pipeline in DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/model-azure-pipeline-dev-ops.md) to complete the configuration in DevOps Change Velocity.
 
 -   Map each pipeline to a specific app.
 -   Create pipeline steps and map each step to an Azure pipeline job.
 -   Configure change control.
 
-**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](../concept/azure-devops-integration-dev-ops.md)
+**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
 

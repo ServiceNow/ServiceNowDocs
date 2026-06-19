@@ -2,6 +2,7 @@
 title: Center of Excellence and Innovation Maturity Assessment Accelerator
 description: This accelerator assesses your current ServiceNow  CoEI processes and functional maturity within ServiceNow, providing targeted recommendations on next steps to unlock additional value from the platform
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/coei-maturity-assessment-accelerator.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

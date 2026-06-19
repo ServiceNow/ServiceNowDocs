@@ -2,6 +2,7 @@
 title: Configure the search option for your portal header
 description: Configure search feature to display search option on you portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-config-header-search.html
 release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

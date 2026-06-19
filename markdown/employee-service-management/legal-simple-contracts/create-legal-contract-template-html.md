@@ -2,6 +2,7 @@
 title: Create a legal contract template of type HTML
 description: Create a document template of type HTML.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-simple-contracts/create-legal-contract-template-html.html
 release: zurich
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -84,7 +85,7 @@ Body
 Content to include in the generated legal contract document.Insert columns from the selected table to the document template:
 
 1.  Point the cursor to the desired location in the text editor.
-2.  In **Select variables**, click the plus icon \(![Plus icon.](../image/plus_icon.png)\) beside **Fields**.
+2.  In **Select variables**, click the plus icon \(\[Omitted image "plus\_icon.png"\] Alt text: Plus icon.\) beside **Fields**.
 3.  From the fields list, select a column name.
  The selected column is added at the cursor position.
 

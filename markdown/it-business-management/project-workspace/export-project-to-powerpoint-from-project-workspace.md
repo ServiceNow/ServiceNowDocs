@@ -2,6 +2,7 @@
 title: Export a project from Project Workspace
 description: Export your project as a file from Project Workspace. Use this file to provide project updates to external stakeholders or a wider audience. Save time by generating an export file with the latest information and avoid copying information into different files.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/export-project-to-powerpoint-from-project-workspace.html
 release: zurich
 product: Project Workspace
 classification: project-workspace
@@ -19,8 +20,8 @@ Export your project as a file from Project Workspace. Use this file to provide p
 
 For Microsoft PowerPoint:
 
--   Install the Export to PowerPoint for Strategic Portfolio Management application from the ServiceNow store. For more information, see [Install Export to PowerPoint for Strategic Portfolio Management](../../export-to-ppt/task/install-export-to-ppt.md).
--   Create and upload a Microsoft PowerPoint template to apply to your status report. For more information on how to create and upload a template, see [Create a Microsoft PowerPoint template](../../export-to-ppt/task/create-ppt-template.md) and [Upload your Microsoft PowerPoint template](../../export-to-ppt/task/upload-ppt-template.md).
+-   Install the Export to PowerPoint for Strategic Portfolio Management application from the ServiceNow store. For more information, see [Install Export to PowerPoint for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/export-to-powerpoint-for-application-portfolio-management/install-export-to-ppt.md).
+-   Create and upload a Microsoft PowerPoint template to apply to your status report. For more information on how to create and upload a template, see [Create a Microsoft PowerPoint template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/export-to-powerpoint-for-application-portfolio-management/create-ppt-template.md) and [Upload your Microsoft PowerPoint template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/export-to-powerpoint-for-application-portfolio-management/upload-ppt-template.md).
 
 **Important:** Export to PowerPoint is currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. Please check for availability updates in future releases.
 
@@ -36,9 +37,9 @@ Exporting the project is beneficial if your stakeholders prefer a file rather th
 
 1.  Open a project from the planning page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access the new Project Workspace](access-new-project-workspace.md).
+    For information on how to navigate to the planning page, see [Access the new Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
 
-2.  From the More actions menu \(![More actions menu icon.](../../project-management/image/more_options_icon.png)\), select **Export project**.
+2.  From the More actions menu \(\[Omitted image "more\_options\_icon.png"\] Alt text: More actions menu icon.\), select **Export project**.
 
 3.  Select the file format and then select a template if needed.
 
@@ -51,5 +52,5 @@ Exporting the project is beneficial if your stakeholders prefer a file rather th
 
 The project is downloaded in the selected file format.
 
-**Parent Topic:**[Managing projects with Project Workspace](../concept/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/use-projects-pw.md)
 

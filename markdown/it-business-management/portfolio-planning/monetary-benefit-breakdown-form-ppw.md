@@ -2,6 +2,7 @@
 title: Monetary benefit breakdown form
 description: The monetary benefit breakdown form information is used to create and edit a monetary benefit breakdown record for the demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/monetary-benefit-breakdown-form-ppw.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -77,7 +78,7 @@ Fiscal period
 
 </td><td>
 
-Fiscals generated at the period level. For information on periods, see [fiscal calendars](https://www.servicenow.com/docs/access?context=c_FiscalCalendar&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Fiscals generated at the period level. For information on periods, see fiscal calendars.
 
 </td></tr><tr><td>
 

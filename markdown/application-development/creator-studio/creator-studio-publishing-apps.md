@@ -2,6 +2,7 @@
 title: Deploying your Creator Studio app
 description: Congrats, you’ve built your app and are ready to share the first version of it with the world. That’s great! Deployment is the next step in the process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/creator-studio/creator-studio-publishing-apps.html
 release: zurich
 product: Creator Studio
 classification: creator-studio
@@ -16,19 +17,19 @@ breadcrumb: [Build apps, Creator Studio, Building no-code applications, Developi
 
 Congrats, you’ve built your app and are ready to share the first version of it with the world. That’s great! Deployment is the next step in the process.
 
-[Deployment](creator-studio-glossary.md#) is a term that describes the process of an app moving from a non-production instance like development or QA through to production. Production is the instance that your customers see, or your “live” instance. To kick this process off, you should build your app in a non-production instance, and request that an admin deploy it to a production instance when you're ready.
+[Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-glossary.md) is a term that describes the process of an app moving from a non-production instance like development or QA through to production. Production is the instance that your customers see, or your “live” instance. To kick this process off, you should build your app in a non-production instance, and request that an admin deploy it to a production instance when you're ready.
 
 Deploying an app automatically publishes the app, as well as all of the published forms and activated playbooks that you include, to a production instance.
 
 Deployment uses pipelines configured in Pipelines and Deployments. If you don't have a pipeline configured, the Creator Studio home page alerts you and suggests you ask an admin to set it up for you.
 
-The ServiceNow AI Platform uses the Application Repository to move apps between instances, so release notes and a version number are required. Find out more in [App versioning and release notes for Creator Studio apps](creator-studio-app-release-versioning.md).
+The ServiceNow AI Platform uses the Application Repository to move apps between instances, so release notes and a version number are required. Find out more in [App versioning and release notes for Creator Studio apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-app-release-versioning.md).
 
 ## Requesting app deployment to production
 
-You should test your app and all of its published forms and activated playbooks on a non-production instance. Once it's ready, you can submit the app for deployment to production. For more information, see [Request deployment for your app from Creator Studio to production](../task/creator-studio-deploy-app-to-prod.md).
+You should test your app and all of its published forms and activated playbooks on a non-production instance. Once it's ready, you can submit the app for deployment to production. For more information, see [Request deployment for your app from Creator Studio to production](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-deploy-app-to-prod.md).
 
-Apps aren't deployed directly from Creator Studio. Instead, your admin uses Pipelines and Deployments. Admins should check out [Managing deployments using Pipelines and Deployments](../../app-engine-studio/concept/manage-deployments-using-p-and-d-aemc.md).
+Apps aren't deployed directly from Creator Studio. Instead, your admin uses Pipelines and Deployments. Admins should check out [Managing deployments using Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/manage-deployments-using-p-and-d-aemc.md).
 
 ## Deploying forms and automation with the app
 
@@ -45,12 +46,12 @@ If you don't activate a playbook and its app is deployed to production, the auto
 
 Your app is officially published and ready to be used, congratulations! But, who gets to use it, and do they have access? Your admin gets to take charge here.
 
-After your admin deploys the app to production, the admin must assign users and groups that can access the app. That is, you can't assign user access in the deployment/publishing process. See [I've built my app in Creator Studio, now what?](creator-studio-made-your-app-now-what.md) to find out more about where to access published parts of your app.
+After your admin deploys the app to production, the admin must assign users and groups that can access the app. That is, you can't assign user access in the deployment/publishing process. See [I've built my app in Creator Studio, now what?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-made-your-app-now-what.md) to find out more about where to access published parts of your app.
 
--   **[App versioning and release notes for Creator Studio apps](creator-studio-app-release-versioning.md)**  
+-   **[App versioning and release notes for Creator Studio apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-app-release-versioning.md)**  
 Each deployed version of an app must have a version number and release notes, which helps administrators track app usage and changes.
--   **[Request deployment for your app from Creator Studio to production](../task/creator-studio-deploy-app-to-prod.md)**  
+-   **[Request deployment for your app from Creator Studio to production](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-deploy-app-to-prod.md)**  
 After you've tested your app's forms, playbooks, and workspace category on a non-production instance, for example a development instance, deploy it to a production instance so users can access it.
 
-**Parent Topic:**[Building apps with Creator Studio](building-apps-with-creator-studio.md)
+**Parent Topic:**[Building apps with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/building-apps-with-creator-studio.md)
 

@@ -2,6 +2,7 @@
 title: Modifying replication behavior in Instance Data Replication
 description: Modify how data is replicated by configuring optional settings in Instance Data Replication \(IDR\).Coalesce records using a different column when records on the consumer instance have a different sys\_id than the same record on the producer instance in Instance Data Replication \(IDR\).Preserve producer values in system fields when replicating data in Instance Data Replication \(IDR\).Trigger workflows after replication using platform business rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/instance-data-replication-idr/modifying-replication-behavior-idr.html
 release: zurich
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -59,7 +60,7 @@ For example, the **Work Notes** field is an Activity type in change request reco
 -   If you do not select **Preserve Modified By**, Instance Data Replication appears in place of the user name in the consumer records.
 -   If you select **Preserve Modified By**, the user who updated the change request is identified in the entry and the system prepends IDR to their name.
 
-![Preserve modified by.](../image/preserved-modified-by-2.png)
+\[Omitted image "preserved-modified-by-2.png"\] Alt text: Preserve modified by.
 
 When replicating changes, **Preserve modified by** affects values for the **Updated by**, **Updated**, **Created**, and **Created by** system fields:
 
@@ -77,7 +78,7 @@ Trigger workflows after replication using platform business rules.
 
 Inserts and updates that are replicated to a consumer instance can trigger business rules configured on the target table. A business rule is a server-side script that is associated with a table. Use business rules to trigger workflows that are associated with replications, such as sending a notification or validating the replicated data.
 
-Business rules are part of the ServiceNow AI Platform. For more information, see [Business rules](https://www.servicenow.com/docs/access?context=c_BusinessRules&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+Business rules are part of the ServiceNow AI Platform. For more information, see Business rules.
 
 To run a business rule after replication, select the **Run Business Rule** option on the Inbound Entry form in a consumer replication set. IDR will invoke the business rules that are associated with the specified table after replicating the data to the table.
 

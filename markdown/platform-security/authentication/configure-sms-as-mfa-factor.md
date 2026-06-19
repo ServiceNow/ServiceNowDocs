@@ -2,6 +2,7 @@
 title: Configure SMS as an MFA factor
 description: Configure policy input and condition to display SMS OTP as an MFA factor policy for authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/configure-sms-as-mfa-factor.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -31,30 +32,30 @@ Role required: admin
 
 3.  Select the **Display SMS OTP as an MFA Factor Policy**.
 
-    ![SMS - Factor](../images/sms-factor.png)
+    \[Omitted image "sms-factor.png"\] Alt text: SMS - Factor
 
 4.  Click **New** to add **Policy Inputs**.
 
-    ![Policy Inputs](sms-mfa.png)
+    \[Omitted image "sms-mfa.png"\] Alt text: Policy Inputs
 
 5.  Select the filter criteria that you want to create.
 
     Following are the types of filter criteria:
 
-    -   [IP Filter Criteria](create-ip-filter-criteria.md)
-    -   [Role Filter Criteria](create-role-filter-criteria.md)
-    -   [Group Filter Criteria](create-group-filter-criteria.md)
+    -   [IP Filter Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-ip-filter-criteria.md)
+    -   [Role Filter Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-role-filter-criteria.md)
+    -   [Group Filter Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-group-filter-criteria.md)
     For example, Role Filter Criteria.
 
-    ![Filter Criteria.](../images/mfa-email-filter.png)
+    \[Omitted image "mfa-email-filter.png"\] Alt text: Filter Criteria.
 
 6.  Click **Role Filter Criteria**, fill the fields for the role filter criteria and submit the record.
 
-    The new policy is created. For more information, see [Role Filter Criteria](create-role-filter-criteria.md).
+    The new policy is created. For more information, see [Role Filter Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-role-filter-criteria.md).
 
 7.  On the Policy - Display SMS OTP as an MFA Factor Policy page, click Policy conditions.
 
-    ![Policy form with Policy Conditions highlighted.](sms-mfa-condition.png)
+    \[Omitted image "sms-mfa-condition.png"\] Alt text: Policy form with Policy Conditions highlighted.
 
 8.  Click **New** to add **Policy Conditions**.
 

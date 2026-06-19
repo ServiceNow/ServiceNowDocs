@@ -2,6 +2,7 @@
 title: Flows that ship with Zero Copy Connector for ERP
 description: Zero Copy Connector for ERP includes two ERP \(Enterprise Resource Planning\) flows that run automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erpc-flows-installed-with.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -16,7 +17,7 @@ breadcrumb: [Reference, Zero Copy Connector for ERP overview, Workflow Data Fabr
 
 Zero Copy Connector for ERP includes two ERP \(Enterprise Resource Planning\) flows that run automatically.
 
-You don't need to do anything to activate the flows, but you can customize them in Workflow Studio. For example, to change the time that they run daily. For more information, see [Edit a flow](https://www.servicenow.com/docs/access?context=flow-edit&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+You don't need to do anything to activate the flows, but you can customize them in Workflow Studio. For example, to change the time that they run daily. For more information, see .
 
 **Note:** Zero Copy Connector for ERP appears as **ERP Integration** when you work with it in Workflow Studio.
 
@@ -30,5 +31,5 @@ The flows save their changes to the following tables:
 -   sn\_erp\_integration\_sap\_tables
 -   sn\_erp\_integration\_sap\_bapi\_list
 
-**Parent Topic:**[Zero Copy Connector for ERP reference](erp-integration-reference.md)
+**Parent Topic:**[Zero Copy Connector for ERP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-integration-reference.md)
 

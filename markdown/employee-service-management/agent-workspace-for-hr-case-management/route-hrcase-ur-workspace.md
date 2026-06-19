@@ -2,6 +2,7 @@
 title: Transfer an HR case to Universal Request HR Service Delivery Agent Workspace
 description: Transfer an HR case back to the Universal Request queue, or to another department with or without resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/route-hrcase-ur-workspace.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -21,7 +22,7 @@ Role required: routing\_agent and sn\_hr\_core.case\_writer
 
 ## About this task
 
-Configure the **sn\_uni\_req.transfer\_type** property in the Universal Request properties page to determine how to handle the primary ticket transfers. For more information, see [Universal Request properties](../../universal-request/reference/ur-properties.md).
+Configure the **sn\_uni\_req.transfer\_type** property in the Universal Request properties page to determine how to handle the primary ticket transfers. For more information, see [Universal Request properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-properties.md).
 
 ## Procedure
 
@@ -33,7 +34,7 @@ Configure the **sn\_uni\_req.transfer\_type** property in the Universal Request 
 
 3.  In the transfer dialog box, provide the following details.
 
-    **Note:** Based on your transfer type configuration, the given fields are displayed. For more information, see [Universal Request Properties](../../universal-request/reference/ur-properties.md).
+    **Note:** Based on your transfer type configuration, the given fields are displayed. For more information, see [Universal Request Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-properties.md).
 
     -   **Action**: Select if the case should be transferred to another department or back to Universal Request
     -   **Department**: Select the department from the list.
@@ -53,5 +54,5 @@ Configure the **sn\_uni\_req.transfer\_type** property in the Universal Request 
 -   The state of the HR case is changed to **Closed Incomplete** and the transfer reason and transfer notes are copied to the universal request.
 -   The state of the universal request remains **In progress**.
 
-**Note:** The state changes mentioned can be configured. See [Transfer configuration](../../universal-request/task/configure-route-state.md) for more information.
+**Note:** The state changes mentioned can be configured. See [Transfer configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/configure-route-state.md) for more information.
 

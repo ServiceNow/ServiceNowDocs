@@ -2,6 +2,7 @@
 title: Provide data for a metric data task
 description: Use the metric data task to provide data for a manual metric.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/t\_provide-data-for-metric-data-task.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -23,7 +24,7 @@ Role required: sn\_grc\_metric.user, sn\_risk.reader, and sn\_compliance.reader
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Select the list ![](../../grc-workspace-risk/image/list-icon-risk-workspace.png) icon.
+2.  Select the list \[Omitted image "list-icon-risk-workspace.png"\] Alt text: icon.
 
 3.  Navigate to **Metrics** &gt; **Metrics**.
 
@@ -109,5 +110,5 @@ Add notes or explanations related to the metric data task. These comments are vi
 12. Select **Submit**.
 
 
-**Parent Topic:**[Using GRC: Metrics to provide data](../concept/using-metrics-irm.md)
+**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/using-metrics-irm.md)
 

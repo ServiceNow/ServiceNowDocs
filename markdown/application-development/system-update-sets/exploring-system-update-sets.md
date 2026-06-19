@@ -2,6 +2,7 @@
 title: Exploring System Update Sets
 description: An update set is a group of configuration changes that can be moved from one instance to another. Update sets enable developers to create functionality on a non-production instance, and promote the changes to another instance for testing or deployment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/system-update-sets/exploring-system-update-sets.html
 release: zurich
 product: System Update Sets
 classification: system-update-sets
@@ -29,7 +30,7 @@ Update sets track changes to applications and system platform features. This ena
 
 ## System properties
 
-Administrators can exclude system properties from update sets by making them private. Keeping system properties private helps prevent settings in one instance from overwriting values in another instance. For example, you may not want a system property in a production instance to use a particular value from a development instance. See [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+Administrators can exclude system properties from update sets by making them private. Keeping system properties private helps prevent settings in one instance from overwriting values in another instance. For example, you may not want a system property in a production instance to use a particular value from a development instance. See Add a system property.
 
 ## Applications
 
@@ -42,7 +43,7 @@ Application developers have additional options with update sets such as:
 
 Each update set is stored in the Update Set `[sys_update_set]` table, and the customizations that are associated with the update set, which is entries in the Customer Update `[sys_update_xml]` table, appear as a related list on the update set record.
 
-When a tracked object is customized, a corresponding record is added or updated in the Customer Update `[sys_update_xml]` table and is associated with the user current update set. The [associated application file properties](../../applications/concept/c_ApplicationFiles.md) are tracked and transferred along with the customized object in a single update record. A corresponding record is also added to the Versions `[sys_update_version]` table.
+When a tracked object is customized, a corresponding record is added or updated in the Customer Update `[sys_update_xml]` table and is associated with the user current update set. The [associated application file properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/c_ApplicationFiles.md) are tracked and transferred along with the customized object in a single update record. A corresponding record is also added to the Versions `[sys_update_version]` table.
 
 The Customer Update table contains one record per customized object, per update set. The Versions table contains one record per change to a customized object.
 
@@ -96,24 +97,24 @@ A common process for developing customizations with update sets involves moving 
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Create an update set to store local changes.|[Create and select an update set as the current set](../task/create-select-update-set.md)|Developer|
-|Select the current update set to store local changes.|[Select the current update set in Unified Navigation](../task/select-update-set-system-settings.md)|Admin|
-|Commit an update set to prepare it for distribution.|[Commit an update set](../task/t_CommitAnUpdateSet.md)|Admin|
-|Compare update sets to determine what differences they contain.|[Compare local update sets](../task/t_CompareLocalUpdateSets.md#)|Admin|
-|Create an external file from an update set.|[Save an update set as a local XML file](../task/t_SaveAnUpdateSetAsAnXMLFile.md#)|Admin|
-|Retrieve update sets from remote instances.|[Retrieve an update set](../task/t_RetrieveAnUpdateSet.md)|Admin|
-|Back out changes applied from an update set.|[Back out an update set](../task/t_BackOutUpdateSet.md)|Admin|
-|Set system properties related to update sets.|[Update sets properties](../reference/update-sets-properties.md)|Admin|
-|Track customizations to application tables, fields, and records.|[Customizations tracked by update sets](../reference/customizations-tracked-update-sets.md)|Admin|
-|Batch update sets together so you can preview and commit them in bulk.|[Working with batched update sets](../hier-update-sets/concept/us-hier-overview.md)|Admin|
+|Create an update set to store local changes.|[Create and select an update set as the current set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/create-select-update-set.md)|Developer|
+|Select the current update set to store local changes.|[Select the current update set in Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/select-update-set-system-settings.md)|Admin|
+|Commit an update set to prepare it for distribution.|[Commit an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/t_CommitAnUpdateSet.md)|Admin|
+|Compare update sets to determine what differences they contain.|[Compare local update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/t_CompareLocalUpdateSets.md)|Admin|
+|Create an external file from an update set.|[Save an update set as a local XML file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/t_SaveAnUpdateSetAsAnXMLFile.md)|Admin|
+|Retrieve update sets from remote instances.|[Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/t_RetrieveAnUpdateSet.md)|Admin|
+|Back out changes applied from an update set.|[Back out an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/t_BackOutUpdateSet.md)|Admin|
+|Set system properties related to update sets.|[Update sets properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/update-sets-properties.md)|Admin|
+|Track customizations to application tables, fields, and records.|[Customizations tracked by update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/customizations-tracked-update-sets.md)|Admin|
+|Batch update sets together so you can preview and commit them in bulk.|[Working with batched update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/us-hier-overview.md)|Admin|
 
 ## What to explore next
 
 To learn more about configuring, using, and managing system update sets see:
 
--   [Configuring System Update Sets](configure-system-update-sets.md)
--   [Administer system update sets](administer-system-update-sets.md)
--   [Working with update sets](using-system-update-sets.md)
--   [Working with batched update sets](../hier-update-sets/concept/us-hier-overview.md)
--   [Update set transfers](../reference/update-set-transfers.md)
+-   [Configuring System Update Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/configure-system-update-sets.md)
+-   [Administer system update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/administer-system-update-sets.md)
+-   [Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/using-system-update-sets.md)
+-   [Working with batched update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/us-hier-overview.md)
+-   [Update set transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/update-set-transfers.md)
 

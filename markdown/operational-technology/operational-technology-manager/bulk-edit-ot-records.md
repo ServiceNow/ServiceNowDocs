@@ -2,6 +2,7 @@
 title: Convert your OT devices to IT hardware devices in a bulk edit
 description: Bulk edit your Operational Technology \(OT\) devices to remove the OT device details. Then convert your OT devices to IT hardware devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-manager/bulk-edit-ot-records.html
 release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -42,7 +43,7 @@ If you encounter OT devices that don't have an OT function and should be classif
 
     **Note:** None of the CI details, network adapters, or IP addresses are removed. Only the OT-specific data is removed.
 
-    ![Remove OT device details dialog box.](../image/remove-ot-asset-details.png)
+    \[Omitted image "remove-ot-asset-details.png"\] Alt text: Remove OT device details dialog box.
 
 5.  Select **Confirm**.
 
@@ -51,5 +52,5 @@ If you encounter OT devices that don't have an OT function and should be classif
 
 The OT device details are removed from the selected OT devices and the OT devices are converted to IT hardware devices. You can view these IT hardware devices in the IT Hardware list view on the Industrial Workspace.
 
-**Parent Topic:**[OT device related items and related lists](../reference/ot-assets-related-links-and-lists.md)
+**Parent Topic:**[OT device related items and related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/ot-assets-related-links-and-lists.md)
 

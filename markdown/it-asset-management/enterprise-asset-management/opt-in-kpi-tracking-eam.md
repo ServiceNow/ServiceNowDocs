@@ -2,6 +2,7 @@
 title: Opt in to model categories to track performance KPIs for enterprise assets
 description: Monitor the performance KPIs of enterprise assets in your organization by enabling the KPI tracking for the models to which the assets belong.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/opt-in-kpi-tracking-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -34,5 +35,5 @@ Role required: sn\_eam.enterprise\_admin
 
 ## What to do next
 
-[Create an operational schedule for enterprise assets](create-operational-schedule-eam.md).
+[Create an operational schedule for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-operational-schedule-eam.md).
 

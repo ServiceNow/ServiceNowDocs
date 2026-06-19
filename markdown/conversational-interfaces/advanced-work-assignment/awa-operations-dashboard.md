@@ -2,6 +2,7 @@
 title: Advanced Work Assignment dashboard for operations
 description: Enable managers to monitor work items across all service channels so that their agents can better support customer needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/awa-operations-dashboard.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -15,7 +16,7 @@ breadcrumb: [Platform Analytics Solutions for Advanced Work Assignment, Analytic
 
 Enable managers to monitor work items across all service channels so that their agents can better support customer needs.
 
-This dashboard is available in the Performance Analytics - Content Pack - Advanced Work Assignment plugin. For information on activating the content pack, see [Platform Analytics Solutions for Advanced Work Assignment](../../application-content-packs/concept/awa-content-pack.md).
+This dashboard is available in the Performance Analytics - Content Pack - Advanced Work Assignment plugin. For information on activating the content pack, see [Platform Analytics Solutions for Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-content-pack.md).
 
 The Overview tab of the Operations dashboard displays information across all queues, teams, and channels.
 
@@ -45,7 +46,7 @@ Breakdowns divide information into different categories. To analyze data accordi
 -   Service Channel
 -   Queue
 
-For more information on analyzing data with breakdowns, see [Using breakdowns on dashboards](https://www.servicenow.com/docs/access?context=c_SpecialDashboards&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+For more information on analyzing data with breakdowns, see Using breakdowns on dashboards.
 
 ## Data visualizations
 
@@ -67,7 +68,7 @@ Work Items Waiting
 
 </td><td>
 
-Single Score![Single score report](../../../reuse/reporting/image/single-score.svg)
+Single Score\[Omitted image "single-score.svg"\] Alt text: Single score report
 
 </td><td>
 
@@ -79,7 +80,7 @@ Available Agents
 
 </td><td>
 
-Single Score![Single score report](../../../reuse/reporting/image/single-score.svg)
+Single Score\[Omitted image "single-score.svg"\] Alt text: Single score report
 
 </td><td>
 
@@ -91,7 +92,7 @@ Accepted Work Items \(Today\)
 
 </td><td>
 
-Single Score![Single score report](../../../reuse/reporting/image/single-score.svg)
+Single Score\[Omitted image "single-score.svg"\] Alt text: Single score report
 
 </td><td>
 
@@ -103,7 +104,7 @@ Average Wait Time \(Today\)
 
 </td><td>
 
-Single Score![Single score report](../../../reuse/reporting/image/single-score.svg)
+Single Score\[Omitted image "single-score.svg"\] Alt text: Single score report
 
 </td><td>
 
@@ -115,7 +116,7 @@ Timed out Work Items \(Today\)
 
 </td><td>
 
-Single Score![Single score report](../../../reuse/reporting/image/single-score.svg)
+Single Score\[Omitted image "single-score.svg"\] Alt text: Single score report
 
 </td><td>
 
@@ -127,7 +128,7 @@ Rejected Work Items \(Today\)
 
 </td><td>
 
-Single Score![Single score report](../../../reuse/reporting/image/single-score.svg)
+Single Score\[Omitted image "single-score.svg"\] Alt text: Single score report
 
 </td><td>
 
@@ -165,5 +166,5 @@ Count and list of agents in an assignment group with their current presence stat
 -   Max Universal Capacity
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Platform Analytics Solutions for Advanced Work Assignment](../../application-content-packs/concept/awa-content-pack.md)
+</table>**Parent Topic:**[Platform Analytics Solutions for Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-content-pack.md)
 

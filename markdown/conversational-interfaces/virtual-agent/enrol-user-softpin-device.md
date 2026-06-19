@@ -2,6 +2,7 @@
 title: Enroll user Soft PIN and Device in ServiceNow instance
 description: Enroll the user Soft PIN and Device in your ServiceNow instance to setup callback authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/enrol-user-softpin-device.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -48,5 +49,5 @@ Role required: admin
 
 After adding the phone number, verify the device. An OTP is sent to the user's phone number.
 
-**Parent Topic:**[Configure Conversational IVR with Amazon Connect](configure-va-ivr.md)
+**Parent Topic:**[Configure Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-va-ivr.md)
 

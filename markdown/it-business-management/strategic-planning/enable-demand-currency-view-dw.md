@@ -1,46 +1,38 @@
 ---
-title: Enable demand currency view
-description: Switch to the demand currency view to track the planned costs of a demand in the selected currency.
+title: Enable the demand currency view
+description: Enable the demand currency view to track the planned costs of a demand in the selected demand currency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/enable-demand-currency-view-dw.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-02-04"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Multicurrency, Configure, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage financials for demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Enable demand currency view
+# Enable the demand currency view
 
-Switch to the demand currency view to track the planned costs of a demand in the selected currency.
+Enable the demand currency view to track the planned costs of a demand in the selected demand currency.
 
 ## Before you begin
 
-Activate the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin.
+The PPM Standard Multicurrency feature must have been installed. For more information, see [Activate PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/t_ActivateProjectPortfolioSuiteWithFinancials.md).
 
-Role required: admin or it\_demand\_manager
+Role required: it\_demand\_manager
 
 ## About this task
 
-To manage demands in a currency different from the functional currency, demand currency fields are added to the demand tables such as dmn\_demand and dmn\_demand\_task.
-
-|Table|Description|
-|-----|-----------|
-|Demand \[dmn\_demand\]|Demands can be tracked in a different currency. When you create a demand, select another currency by navigating to the **Financials** tab and selecting a currency in the **Demand Currency** field.|
-|Demand Task \[dmn\_demand\_task\]|Demand tasks delegate cost, effort, risk, and benefit assessment activities.|
-|Cost Plans \[cost\_plan\]|Cost plans capture the costs of demands.|
-|Cost Plan Breakdown \[cost\_plan\_breakdown\]|Cost plan breakdowns specify the estimated cost and actual cost at a granular level for a fiscal period.|
-|Benefit Plan \[benefit\_plan\]|When you open the demand form in Demand Currency view, fields related to the demand currency appear in the Benefit Plans related list by default.|
-|Benefit Plan Breakdowns \[benefit\_plan\_breakdown\]|Benefit plans capture the potential benefits accrued when the demand is executed.|
-|Expense Line \[fm\_expense\_line\]|Expense lines are part of demand cost plans and store costs associated with a specific resource.|
-|Project Funding \[project\_funding\]|Stores the demand target and budget expense values for both capital and operating expenses for a single fiscal period.|
+The demand currency view enables you to see the planned cost fields in some demand forms in the selected demand currency. For more information about which fields are supported in the demand currency view, see [Multicurrency fields in demand forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/demand-tables-with-demand-currency-fields.md).
 
 ## Procedure
 
-1.  Navigate to the form in which you want to enable the demand currency view.
+1.  Navigate to each form in which you want to enable the demand currency view.
 
-2.  Right-click the form header or select the additional actions icon to open the context menu.
+    The demand currency view is available in the following forms: Demand, Demand Task, Cost Plan, Cost Plan Breakdown, Benefit Plan, Benefit Plan Breakdown, Expense Line, and Project Funding.
+
+2.  Select and hold \(or right-click\) the form header to display the context menu or select the additional actions icon.
 
 3.  Select **View**.
 
@@ -49,5 +41,5 @@ To manage demands in a currency different from the functional currency, demand c
 
 ## What to do next
 
-Review the form fields exclusive to the **Demand Currency** view. All other form tabs and fields remain the same in both default view and demand currency view. Continue entering values as you would in the default view. For more information, see [Multicurrency fields in demand-related forms](../reference/demand-tables-with-demand-currency-fields.md).
+Review the form fields exclusive to the demand currency view. All other form tabs and fields remain the same in both default view and demand currency view.
 

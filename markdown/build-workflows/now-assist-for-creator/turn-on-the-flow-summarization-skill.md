@@ -2,6 +2,7 @@
 title: Turn on the flow summarization skill
 description: Turn on the flow summarization skill to generate a summary of what a flow or subflow does.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/now-assist-for-creator/turn-on-the-flow-summarization-skill.html
 release: zurich
 product: Now Assist for Creator
 classification: now-assist-for-creator
@@ -17,7 +18,7 @@ Turn on the flow summarization skill to generate a summary of what a flow or sub
 
 ## Before you begin
 
--   Install the Now Assist for Creator application. See [Install Now Assist for Creator](install-now-assist-for-creator.md).
+-   Install the Now Assist for Creator application. See [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/install-now-assist-for-creator.md).
 -   Role required: admin
 
 ## About this task
@@ -30,12 +31,12 @@ Turn on the flow summarization skill to generate a summary of what a flow or sub
 
 2.  In the workflow list, select **Creator**.
 
-    ![List of cards displayed when selecting Now Assist skills for Creator](../../now-assist-skills/image/na-creator-skill-cards.png)
+    \[Omitted image "na-creator-skill-cards.png"\] Alt text: List of cards displayed when selecting Now Assist skills for Creator
 
 3.  In the Flow summarization card, select **Turn on**.
 
 4.  In the Flow summarization card, verify that the skill is active.
 
-    ![Flow summarization skill listed as active skill](../../now-assist-skills/image/na-creator-flow-skills-active.png)
+    \[Omitted image "na-creator-flow-skills-active.png"\] Alt text: Flow summarization skill listed as active skill
 
 

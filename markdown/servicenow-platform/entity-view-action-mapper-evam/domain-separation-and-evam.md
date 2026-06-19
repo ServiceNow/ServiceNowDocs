@@ -2,6 +2,7 @@
 title: Domain separation and EVAM
 description: The Entity View Action Mapper \(EVAM\) in ServiceNow supports domain separation. This means you can configure EVAM to separate data, processes, and administrative tasks into logical groupings called domains, ensuring that users have access only to the data pertinent to their specific domain.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/entity-view-action-mapper-evam/domain-separation-and-evam.html
 release: zurich
 product: Entity View Action Mapper \(EVAM\)
 classification: entity-view-action-mapper-evam
@@ -15,5 +16,5 @@ breadcrumb: [EVAM Reference, EVAM, Manage instance data sources, Extend ServiceN
 
 The Entity View Action Mapper \(EVAM\) in ServiceNow supports domain separation. This means you can configure EVAM to separate data, processes, and administrative tasks into logical groupings called domains, ensuring that users have access only to the data pertinent to their specific domain.
 
-**Parent Topic:**[Entity View Action Mapper reference](entity-view-action-mapper-reference.md)
+**Parent Topic:**[Entity View Action Mapper reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/entity-view-action-mapper-evam/entity-view-action-mapper-reference.md)
 

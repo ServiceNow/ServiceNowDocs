@@ -2,6 +2,7 @@
 title: Customizing highlighted fields on prioritization tab of Portfolio Planning workspace
 description: Customize the fields to be highlighted on the Prioritization tab of a portfolio plan according to your planning manager's needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/customizing-highlighted-fields-prioritization-page-portfolio-planning-workspace.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -21,10 +22,10 @@ By default, the Prioritization and Hierarchy tabs of a portfolio plan highlight 
 -   Modifying the Prioritization view Script Includes \(APWBacklogConfigImpl for List view and APWGanttConfigImpl for Hierarchy view\).
 -   Configuring a new record for the required field in the sys\_highlighted\_value table.
 
--   **[Modify Script Includes for Prioritization page in Portfolio Planning](../task/modify-script-includes-prioritization-page-portfolio-planning.md)**  
+-   **[Modify Script Includes for Prioritization page in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/modify-script-includes-prioritization-page-portfolio-planning.md)**  
 Modify the Script Includes for List and Hierarchy views of the Prioritization page to change the columns to be highlighted in these views in the workspace.
--   **[Create new highlighted values for Prioritization columns in Portfolio Planning](../task/create-highlighted-values-prioritization-portfolio-planning.md)**  
+-   **[Create new highlighted values for Prioritization columns in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/create-highlighted-values-prioritization-portfolio-planning.md)**  
 Customize the fields to be highlighted on the Prioritization page of a portfolio plan according to your planning manager's needs.
 
-**Parent Topic:**[Configuring Prioritization and Roadmap settings in Portfolio Planning](configuring-prioritization-and-roadmap-settings-in-portfolio-planning.md)
+**Parent Topic:**[Configuring Prioritization and Roadmap settings in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/configuring-prioritization-and-roadmap-settings-in-portfolio-planning.md)
 

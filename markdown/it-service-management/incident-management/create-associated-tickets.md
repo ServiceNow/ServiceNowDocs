@@ -2,6 +2,7 @@
 title: Create an associated ticket from an incident
 description: Create an associated ticket for another relevant department from an incident \(primary ticket\) when you realize that the issue can be resolved in that department.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/create-associated-tickets.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -32,7 +33,7 @@ Role required: Ensure you have one of the following roles.
 
 3.  Click **Create Associated Ticket**.
 
-    ![Create associated ticket from incident](../image/inci-form-asso-tick.png)
+    \[Omitted image "inci-form-asso-tick.png"\] Alt text: Create associated ticket from incident
 
 4.  In the Create Associated Ticket dialog box, fill in the fields.
 
@@ -50,7 +51,7 @@ Role required: Ensure you have one of the following roles.
 
 The ticket is created for the relevant department and is associated with the universal request record. You can view the associated tickets in the Associated Tickets related list of the Universal Request form.
 
-**Note:** When an associated ticket is created, the information is copied from the fields of the universal request record to the fields of the associated ticket record. You can use the **Associated Ticket Information** and **Associated Ticket Mappings** tabs of the Mapping Configuration form for incidents. For more information, see [Mapping configuration](https://www.servicenow.com/docs/access?context=ur-direct-transfer-config-form&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+**Note:** When an associated ticket is created, the information is copied from the fields of the universal request record to the fields of the associated ticket record. You can use the **Associated Ticket Information** and **Associated Ticket Mappings** tabs of the Mapping Configuration form for incidents. For more information, see Mapping configuration.
 
-**Parent Topic:**[Universal Request integration - Incident Management](../concept/inci-mgmt-integ-with-univ-req.md)
+**Parent Topic:**[Universal Request integration - Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/inci-mgmt-integ-with-univ-req.md)
 

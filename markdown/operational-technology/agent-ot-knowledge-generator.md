@@ -2,7 +2,10 @@
 title: Generate OT KB articles agentic workflow
 description: Use the Generate OT KB articles agentic workflow to generate a KB article when an Operational Technology \(OT\) incident is resolved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/agent-ot-knowledge-generator.html
 release: zurich
+product: Operational Technology
+classification: operational-technology
 topic_type: concept
 last_updated: "2026-01-14"
 reading_time_minutes: 1
@@ -48,7 +51,7 @@ With the Generate OT KB articles agentic workflow, you can automatically generat
 
 The article is then automatically published and appears in the Attached Knowledge related list of the OT incident record in the Industrial Workspace. The KB Article Generation process isn't triggered if there's an article already attached to current OT incident.
 
-If you want to change this agentic workflow, you can [duplicate it](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US), adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
+If you want to change this agentic workflow, you can duplicate it, adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure you update all instructions accordingly.
 
@@ -58,5 +61,5 @@ The minimum role needed to duplicate an agentic workflow is the **sn\_aia.admin*
 
 The OT knowledge generator AI agent is used to generate a KB article related for a resolved OT incident.
 
-**Important:** This agent is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Important:** This agent is turned on by default. For more information, see .
 

@@ -2,6 +2,7 @@
 title: TuneUp Your Configuration Management Database
 description: The TuneUp Your Configuration Management Database \(CMDB\) Accelerator provides insight and guidance to improve CMDB health.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/tuneup-your-cmdb.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -17,7 +18,7 @@ The TuneUp Your Configuration Management Database \(CMDB\) Accelerator provides 
 
 ## Overview
 
-TuneUp Your CMDB provides Impact Customers with an analysis of common CMDB problem areas through HealthScan along with recommendations on how to address those findings. It helps gain insight into CMDB health and leading practices and ultimately aims to assist you in improving the effectiveness of your instance data foundation. See [Configuration Management](https://www.servicenow.com/docs/access?context=manage-cmdb&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) for information on CMDB.
+TuneUp Your CMDB provides Impact Customers with an analysis of common CMDB problem areas through HealthScan along with recommendations on how to address those findings. It helps gain insight into CMDB health and leading practices and ultimately aims to assist you in improving the effectiveness of your instance data foundation. See  for information on CMDB.
 
 **Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 

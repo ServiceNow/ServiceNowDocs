@@ -2,6 +2,7 @@
 title: Visibility into Cloud Cost Management KPIs using the Asset Management Executive Dashboard
 description: Use the Asset Management Executive Dashboard to gain visibility into critical KPIs for Hardware Asset Management, Software Asset Management, and Cloud Cost Management applications via a single dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/itam-exec-dashboard-cloudinsights.html
 release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -19,7 +20,7 @@ To access the Asset Management Executive dashboard, you must either have Softwar
 
 To view the Asset Management Executive dashboard, navigate to **Asset Executive Workspace** &gt; **Asset Management Executive Dashboard**. A user with the role of sn\_itam\_common.asset\_exec can access the dashboard.
 
-![Asset Management Executive Dashboard](../../hardware-asset-management/image/itam-exec-dashboard.png "Asset Management Executive Dashboard")
+\[Omitted image "itam-exec-dashboard.png"\] Alt text: Asset Management Executive Dashboard
 
 You can filter the results in the dashboard by product, domain, or by both product and domain. If you filter by domain, the filter gets applied to all the widgets. If you filter by product, since some widgets are applicable for certain products, the filter isn’t applied to all the widgets.
 

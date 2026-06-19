@@ -2,6 +2,7 @@
 title: Create sources for classification codes
 description: Create sources that you can then assign to classification codes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/create-class-source-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -17,7 +18,7 @@ Create sources that you can then assign to classification codes.
 
 ## Before you begin
 
-A source is a system of classification for a particular industry. For more details on sources, see [Classification codes](../concept/classification-codes.md).
+A source is a system of classification for a particular industry. For more details on sources, see [Classification codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/classification-codes.md).
 
 Role required: sn\_eam.enterprise\_asset\_manager
 
@@ -36,5 +37,5 @@ Role required: sn\_eam.enterprise\_asset\_manager
     The source appears in the Create sources page.
 
 
-**Parent Topic:**[Create and manage enterprise models](../concept/create-manage-enterprise-models.md)
+**Parent Topic:**[Create and manage enterprise models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-manage-enterprise-models.md)
 

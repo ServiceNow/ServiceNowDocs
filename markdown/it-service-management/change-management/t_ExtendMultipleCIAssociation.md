@@ -2,6 +2,7 @@
 title: Extend or disable multiple CI association
 description: The ability to associate multiple CIs to a task can be extended to other types of tasks. You can also disable multiple CI association from the related lists on change request records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/t\_ExtendMultipleCIAssociation.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -59,5 +60,5 @@ Open the entry with the **task\_cmdb\_ci\_service.task** related list and clear 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configuring Change Management](../concept/configure-change-management.md)
+**Parent Topic:**[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/configure-change-management.md)
 

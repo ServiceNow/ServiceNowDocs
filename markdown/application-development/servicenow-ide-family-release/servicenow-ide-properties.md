@@ -2,6 +2,7 @@
 title: ServiceNow IDE properties
 description: Manage how the ServiceNow IDE functions on an instance using the following system properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-ide-family-release/servicenow-ide-properties.html
 release: zurich
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
@@ -15,7 +16,7 @@ breadcrumb: [Reference, ServiceNow IDE, Building applications in source code, Bu
 
 Manage how the ServiceNow IDE functions on an instance using the following system properties.
 
-**Note:** To open the System Properties \[sys\_properties\] table, enter `sys_properties.list` in the navigation filter. To add properties to the table, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+**Note:** To open the System Properties \[sys\_properties\] table, enter `sys_properties.list` in the navigation filter. To add properties to the table, see .
 
 <table id="table_acm_jnt_tdc"><thead><tr><th>
 
@@ -54,7 +55,7 @@ sn\_glider.fluent\_convert\_enabled
 Enables converting existing scoped applications that weren't created with the ServiceNow IDE or ServiceNow SDK to support development in source code from the ServiceNow IDE.-   Type: true \| false
 -   Default value: true
 -   Location: Add the property to the System Property \[sys\_properties\] table
--   Learn more: [Convert an application with the ServiceNow IDE](../task/convert-application-servicenow-ide.md)
+-   Learn more: [Convert an application with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-ide-family-release/convert-application-servicenow-ide.md)
 
 </td></tr><tr><td>
 
@@ -67,7 +68,7 @@ Defines a custom extension for attachment files with binary content types \(for 
 -   Type: string
 -   Default value: gitdata
 -   Location: Add the property to the System Property \[sys\_properties\] table
--   Learn more: [ServiceNow IDE MID Server User \[sn\_glider.ide\_git\_user\]](servicenow-ide-roles.md#)
+-   Learn more: [ServiceNow IDE MID Server User \[sn\_glider.ide\_git\_user\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-ide-family-release/servicenow-ide-roles.md)
 
 </td></tr><tr><td>
 
@@ -80,7 +81,7 @@ Defines a custom extension for attachment files with text content types \(for ex
 -   Type: string
 -   Default value: txt
 -   Location: Add the property to the System Property \[sys\_properties\] table
--   Learn more: [ServiceNow IDE MID Server User \[sn\_glider.ide\_git\_user\]](servicenow-ide-roles.md#)
+-   Learn more: [ServiceNow IDE MID Server User \[sn\_glider.ide\_git\_user\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-ide-family-release/servicenow-ide-roles.md)
 
 </td></tr><tr><td>
 

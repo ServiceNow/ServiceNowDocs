@@ -2,6 +2,7 @@
 title: Mobile Experience for Security Incident Response
 description: Use your Android or iOS mobile device to manage your security operations center \(SOC\) tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/mobile-sir.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -17,11 +18,11 @@ Use your Android or iOS mobile device to manage your security operations center 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Security Incident Response
 
-If you’re unfamiliar with the basic concepts of the Security Incident Response \( SIR\) product on your ServiceNow AI Platform® instance, see [Security Incident Response Overview dashboard](c_SIROverview.md) for more information about threat intelligence and how this product can help you prioritize and resolve cyberthreats to your organization.
+If you’re unfamiliar with the basic concepts of the Security Incident Response \( SIR\) product on your ServiceNow AI Platform® instance, see [Security Incident Response Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/c_SIROverview.md) for more information about threat intelligence and how this product can help you prioritize and resolve cyberthreats to your organization.
 
 ## Mobile experience for SIR overview
 
@@ -52,7 +53,7 @@ When they’re populated, you can view the following related lists on SIR securi
 
 The following figure illustrates how you log in to your ServiceNow AI Platform instance from your mobile device and the structure of the landing screen of the Security Incident Response Mobile app that is displayed after you log in.
 
-For step-by-step instructions about how to set up your ServiceNow AI Platform instance and install the Security Incident Response Mobile app, see [Set up checklist for the Security Incident Response Mobile app](../task/mobile-sir-setupinstll-mobile-app.md). For instructions about how to log in, see [Log in to the Security Incident Response Mobile app](../task/mobile-sir-get-started.md).
+For step-by-step instructions about how to set up your ServiceNow AI Platform instance and install the Security Incident Response Mobile app, see [Set up checklist for the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/mobile-sir-setupinstll-mobile-app.md). For instructions about how to log in, see [Log in to the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/mobile-sir-get-started.md).
 
 -   **Applications**
 

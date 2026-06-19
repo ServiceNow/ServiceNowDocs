@@ -2,6 +2,7 @@
 title: Increase the allowed number of breadcrumb entries
 description: You can add a property to allow for a larger number of breadcrumb entries in the filter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/list-administration/increase-breadcrumb-entries.html
 release: zurich
 product: List Administration
 classification: list-administration
@@ -41,6 +42,6 @@ Role required: admin
 
     The number of entries you entered in the Value field displays before ending in a \[…\].
 
-    ![Breadcrumb entries for incidents numbering from INC0010001 to INC0010015](../image/BreadcrumbEntries.png "Breadcrumb entries")
+    \[Omitted image "BreadcrumbEntries.png"\] Alt text: Breadcrumb entries for incidents numbering from INC0010001 to INC0010015
 
 

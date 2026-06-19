@@ -2,6 +2,7 @@
 title: Set up the Workforce Optimization for ITSM agent calendar integration with their Microsoft Outlook calendar
 description: Display the schedules, shifts, and events from the agent's calendar also in their Microsoft Outlook calendar when you synchronize both the calendars.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/synchronize-microsoft-calendar-wfo-itsm.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -21,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Set up the [Microsoft Exchange Online spoke](https://www.servicenow.com/docs/access?context=setup-ms-exch-ol&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+1.  Set up the Microsoft Exchange Online spoke.
 
     **Note:** Verify that the following Microsoft Graph permissions are set correctly in the Microsoft Azure portal:
 
@@ -33,7 +34,7 @@ Role required: admin
 
 2.  Set the **sn\_wfo\_outlook.enable\_outlook\_sync** system property to **true**.
 
-    For more information, see [Scheduling components in Workforce Optimization for ITSM](../reference/configurable-wfo-itsm-scheduling-reference.md).
+    For more information, see [Scheduling components in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.md).
 
 3.  Add the email IDs of the users that you want to synchronize to the User \[sys\_user\] table.
 
@@ -42,5 +43,5 @@ Role required: admin
     **Important:** If the swapped shifts don't appear in the Microsoft Outlook calendar, verify that you've followed all steps in this procedure to make sure that the schedule for the shifts have been synchronized with Microsoft Outlook.
 
 
-**Parent Topic:**[Synchronize agent calendar in Workforce Optimization for ITSM with the Microsoft Outlook calendar](../concept/synchronize-microsoft-outlook-wfo-itsm.md)
+**Parent Topic:**[Synchronize agent calendar in Workforce Optimization for ITSM with the Microsoft Outlook calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/synchronize-microsoft-outlook-wfo-itsm.md)
 

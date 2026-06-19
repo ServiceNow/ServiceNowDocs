@@ -2,11 +2,12 @@
 title: Configure user-created security tool
 description: Connect your custom security tool that is integrated with your CI/CD pipelines to DevOps Change Velocity to retrieve security scan results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/configure-a-user-created-security-tool.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [DevOps user-created security tool integration, User created, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -37,7 +38,7 @@ Role required:
     |Tool label|Name of the tool integration.|
     |Integration version|Version of the tool integration.|
 
-    ![Tool integration record for custom security tool integration](../image/custom-sec-tool-01.png)
+    \[Omitted image "custom-sec-tool-01.png"\] Alt text: Tool integration record for custom security tool integration
 
 3.  Select **Submit**.
 
@@ -50,7 +51,7 @@ Role required:
     |Tool integration|Sample tool|
     |Tool type capability|Security|
 
-    ![Tool Integration Capability Mapping record for custom security tool integration](../image/custom-sec-tool-02.png)
+    \[Omitted image "custom-sec-tool-02.png"\] Alt text: Tool Integration Capability Mapping record for custom security tool integration
 
 6.  Select **Submit**.
 
@@ -125,7 +126,7 @@ Domain
 global
 
 </td></tr></tbody>
-</table>    ![Integration capability record for connect action](../image/custom-sec-tool-03.png)![Integration capability record for validate action](../image/custom-sec-tool-04.png)
+</table>    \[Omitted image "custom-sec-tool-03.png"\] Alt text: Integration capability record for connect action\[Omitted image "custom-sec-tool-04.png"\] Alt text: Integration capability record for validate action
 
 9.  Open the newly created tool integration record and add the **SecOps source integration** and **Integration handler** name fields to the form by navigating to **Configure &gt; Form layout**.
 
@@ -156,8 +157,8 @@ By default, when you onboard your tool from workspace, you have to enter the man
     } 
     ```
 
-    ![JSON entry in the securityToolsUIConfig UX page property](../image/cus-sec-tool-05.png)
+    \[Omitted image "cus-sec-tool-05.png"\] Alt text: JSON entry in the securityToolsUIConfig UX page property
 
 
-**Parent Topic:**[DevOps user-created security tool integration](../concept/devops-security-tool-integration.md)
+**Parent Topic:**[DevOps user-created security tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/devops-security-tool-integration.md)
 

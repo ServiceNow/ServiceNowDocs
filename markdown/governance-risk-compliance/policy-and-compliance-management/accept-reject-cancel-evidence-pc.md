@@ -2,6 +2,7 @@
 title: Review and manage evidence requests
 description: Accept, reject, or cancel an evidence request when you receive the evidence you requested. After requesting an evidence request, when the requester receives the evidence, the requester can accept, reject, or cancel the evidence request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/accept-reject-cancel-evidence-pc.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

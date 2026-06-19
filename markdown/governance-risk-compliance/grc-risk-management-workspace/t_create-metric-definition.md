@@ -2,6 +2,7 @@
 title: Create an automated metric definition
 description: Create an automated metric definition to collect the data for a metric. A metric definition specifies the method and key properties of the metric, such as the unit, direction, or nature of the metric.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/t\_create-metric-definition.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -27,7 +28,7 @@ In automated metric definitions, the data is collected automatically based on th
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Select the list ![](../../grc-workspace-risk/image/list-icon-risk-workspace.png) icon.
+2.  Select the list \[Omitted image "list-icon-risk-workspace.png"\] Alt text: icon.
 
 3.  Navigate to **Metrics** &gt; **Automated metric definitions**.
 
@@ -35,7 +36,7 @@ In automated metric definitions, the data is collected automatically based on th
 
 5.  On the form, fill in the fields.
 
-    For a description of the field values on the Automated metric definition form, see [Automated metric definition form](../reference/automated-metric-definition-fields-irm.md).
+    For a description of the field values on the Automated metric definition form, see [Automated metric definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/automated-metric-definition-fields-irm.md).
 
 6.  Select **Save**.
 
@@ -48,10 +49,10 @@ The automated metric definition is saved in the Metric definitions list.
 
 ## What to do next
 
-You can associate an entity type, create metrics, and add citations to the metric definition. See [Update a metric definition](t_update-automated-metric-definition.md) for more information.
+You can associate an entity type, create metrics, and add citations to the metric definition. See [Update a metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/t_update-automated-metric-definition.md) for more information.
 
--   **[Automated metric definition form](../reference/automated-metric-definition-fields-irm.md)**  
+-   **[Automated metric definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/automated-metric-definition-fields-irm.md)**  
 The fields of the automated metric definition form are explained in this topic.
 
-**Parent Topic:**[Configuring metrics](../concept/configuring-irm-metrics.md)
+**Parent Topic:**[Configuring metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/configuring-irm-metrics.md)
 

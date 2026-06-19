@@ -2,6 +2,7 @@
 title: Edit the Order Qualification Request
 description: Use the Order Qualification Request integration request type in the Order Management for Telecommunications application to process the customer order qualification requests and retrieve the results from the external inventory systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/edit-order-mgt-tsq-spoke.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -45,8 +46,8 @@ The Order Qualification Request type is used to integrate order management with 
 5.  In the Request adapter field, select the subflow that will communicate with the third-party system to update the customer order and click **Submit**.
 
     -   Each request type can have multiple request definitions. For example, if you have multiple inventory systems or vendors, depending on the system you want to invoke, you can add multiple request definitions for each system. You must create a separate spoke to interact with each vendor or third-party system, create a flow within the spoke, and point the request adapter to this flow.
-    -   For more information on how to create a spoke, see [Spokes](https://www.servicenow.com/docs/access?context=spokes&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US). As shown in the demo subflow, ensure that the response from the third-party system passed to the Process Qualification Response block.
+    -   For more information on how to create a spoke, see Spokes. As shown in the demo subflow, ensure that the response from the third-party system passed to the Process Qualification Response block.
     -   When the Process Qualification Request subflow is invoked, the response from the third-party inventory system is received either synchronously or asynchronously, and the Result is updated in the customer order.
 
-**Parent Topic:**[Service qualification requests](../concept/order-mgt-tsq-about.md)
+**Parent Topic:**[Service qualification requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-mgt-tsq-about.md)
 

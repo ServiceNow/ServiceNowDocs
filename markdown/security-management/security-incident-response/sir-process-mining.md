@@ -2,6 +2,7 @@
 title: Process Mining Workspace for Security Incident Response
 description: Process Mining scan through security incident audit logs and identify factors contributing to inefficiencies such as multiple reassignments, prolonged hold times, and periods of inactivity for security incidents. Organizations can use this information to address the inefficiencies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/sir-process-mining.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -27,7 +28,7 @@ With process mining, you can identify the following opportunities of improvement
 |Review \(Max repetitions is 2\)|Incidents that were move to review state for two times.|
 |Eradicate \(Max repetitions is 2\)|Incidents that were move to eradicate state for two times.|
 
-The Process Mining Content Pack for Security Incident Response adds a prebuilt project that includes a predefined process model definition for security incidents. To create a project, see [Create process mining project for security incidents](../task/create-proj-proc-min-sir.md).
+The Process Mining Content Pack for Security Incident Response adds a prebuilt project that includes a predefined process model definition for security incidents. To create a project, see [Create process mining project for security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/create-proj-proc-min-sir.md).
 
-**Note:** To use the Process Mining in Security Incident Response, download and install the content pack. For more information, see [Content pack for Security Incident Response](https://www.servicenow.com/docs/access?context=sir-proc-min-content-pack&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+**Note:** To use the Process Mining in Security Incident Response, download and install the content pack. For more information, see .
 

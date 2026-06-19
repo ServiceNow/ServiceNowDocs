@@ -2,6 +2,7 @@
 title: Procurement process visibility
 description: You can track the complete procurement process post request submission. The process steps and work items can be configured to meet your business requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/process-visibility.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -28,19 +29,19 @@ As a shopper, you can:
 
 You can view the list of all the purchases made from your shopping account by selecting My purchases from your Shopping Hub profile.
 
-![My purchases view](../image/my-purchases.png)
+\[Omitted image "my-purchases.png"\] Alt text: My purchases view
 
 ## Purchase requisitions, purchase orders, and sourcing requests detail view
 
 In the detail view, you can track the step dependencies and progress of the sequential and concurrent steps.
 
-![purchase detail view](../image/purchase-detail.png)
+\[Omitted image "purchase-detail.png"\] Alt text: purchase detail view
 
 ## Process visibility configuration requirements
 
 As a procurement administrator, you can use the configuration framework to modify and edit your own content to your business process. With this framework, you can easily define and modify steps and work items within each step, including sequencing and label changes.
 
-For more information on how to configure process steps, work items, and link them together, see [Shopping Hub process visibility configuration](process-visibility-configuration.md).
+For more information on how to configure process steps, work items, and link them together, see [Shopping Hub process visibility configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/process-visibility-configuration.md).
 
 ## Process visibility customer adoption
 
@@ -50,5 +51,5 @@ For existing customers using custom tables \(and not sourcing requests, purchase
 
 For new customers, use the configuration framework to modify your steps and processes and populate them on Shopping Hub.
 
-**Parent Topic:**[My purchases on Shopping Hub](my-purchases.md)
+**Parent Topic:**[Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/shopping-hub-overview.md)
 

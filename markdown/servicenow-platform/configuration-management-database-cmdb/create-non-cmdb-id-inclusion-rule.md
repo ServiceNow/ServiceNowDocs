@@ -2,6 +2,7 @@
 title: Create an identification inclusion rule for a non-CMDB table
 description: Narrow the scope of records that are included in the identification process of non-CMDB records by creating an identification inclusion rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/create-non-cmdb-id-inclusion-rule.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -43,5 +44,5 @@ In the base system, there are no predefined identification inclusion rules. Iden
 4.  Click **Save**.
 
 
-**Parent Topic:**[IRE support for non-CMDB tables](../concept/ire-support-non-cmdb-tables.md)
+**Parent Topic:**[IRE support for non-CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ire-support-non-cmdb-tables.md)
 

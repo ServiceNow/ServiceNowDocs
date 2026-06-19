@@ -2,6 +2,7 @@
 title: Embedded Help planning
 description: Before writing custom embedded help, plan the content and note the information used in the Embedded Help form. Careful planning ensures that the topic appears for the correct page and role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/embedded-help-planning.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
@@ -17,7 +18,7 @@ Before writing custom embedded help, plan the content and note the information u
 
 Each UI page can display embedded help, specified in the **Page** field as shown in the following example.
 
-![Page name in URL pointing to page name in form](../image/embedded-help-planning-form.png "Embedded Help topic for the Service Catalog home page")
+\[Omitted image "embedded-help-planning-form.png"\] Alt text: Page name in URL pointing to page name in form
 
 In planning for embedded help topics, consider how the following fields are used and note the values that you need for your custom topics.
 
@@ -68,12 +69,12 @@ In planning for embedded help topics, consider how the following fields are used
     -   Any changes you make to embedded help are not automatically deployed to another instance.
     -   Changes to the embedded help table are not captured in update sets, update\_sync=false is set intentionally.
 
--   **[Use qualifiers in Embedded Help](../task/embedded-help-qualifiers.md)**  
+-   **[Use qualifiers in Embedded Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/embedded-help-qualifiers.md)**  
 The embedded help administrator can use qualifiers to customize content for a common page in the instance.
--   **[Embedded Help roles](embedded-help-roles.md)**  
+-   **[Embedded Help roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/embedded-help-roles.md)**  
 Embedded help content can be targeted to users with a specified role who access the UI page. All roles that contain the role also see the content, unless another topic targeted to their role exists for the same page.
--   **[Embedded Help internationalization](embedded-help-internationalization.md)**  
+-   **[Embedded Help internationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/embedded-help-internationalization.md)**  
 Embedded Help internationalization provides the ability for you to localize your embedded help content to a variety of languages to meet global user needs. You can write your embedded help content in a language of your choice and decide what languages to display.
 
-**Parent Topic:**[Configure Embedded Help](configuring-embedded-help.md)
+**Parent Topic:**[Configure Embedded Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/configuring-embedded-help.md)
 

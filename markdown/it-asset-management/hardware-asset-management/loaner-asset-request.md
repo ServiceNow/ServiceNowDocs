@@ -2,6 +2,7 @@
 title: Request a loaner asset
 description: Request a temporary or loaner asset or consumable and use it for a short period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/loaner-asset-request.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -31,7 +32,7 @@ You can submit a loaner order even if the product isn’t available at the momen
 
 1.  Navigate to **All** &gt; **Service Catalog** &gt; **Asset Lifecycle**.
 
-    The **Asset Lifecycle** category isn't on the Service Catalog page by default. To add this category, log in with admin credentials, select the add content icon ![Add content icon.](../image/add_content_icon.png) next to the search catalog bar and then select **Asset Lifecycle**.
+    The **Asset Lifecycle** category isn't on the Service Catalog page by default. To add this category, log in with admin credentials, select the add content icon \[Omitted image "add\_content\_icon.png"\] Alt text: Add content icon. next to the search catalog bar and then select **Asset Lifecycle**.
 
 2.  Select **Loaner Asset Request**.
 
@@ -67,7 +68,7 @@ Location
 
 </td><td>
 
-Location where the requested asset should be provided.When the location that you specified is a service location of multiple stockrooms, the Model field shows the list of loaner asset models that are available in all those stockrooms in addition to the models available in the stockroom of that location. For more details on service locations, see [Associate a stockroom with service locations](associate-stockroom-with-service-locations.md).
+Location where the requested asset should be provided.When the location that you specified is a service location of multiple stockrooms, the Model field shows the list of loaner asset models that are available in all those stockrooms in addition to the models available in the stockroom of that location. For more details on service locations, see [Associate a stockroom with service locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/associate-stockroom-with-service-locations.md).
 
 </td></tr><tr><td>
 
@@ -115,5 +116,5 @@ To view your request, navigate to **Self-Service** &gt; **My Requests**. You can
 
 Before you receive your loaner asset, you can cancel the loaner asset request by selecting **Cancel**. After you receive your loaner asset, the **Cancel** button doesn't appear anymore. You can also return your loaner asset before the specified **Return date**.
 
-**Parent Topic:**[Manage loaner assets](manage-loaner-asset.md)
+**Parent Topic:**[Manage loaner assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-loaner-asset.md)
 

@@ -1,7 +1,8 @@
 ---
 title: Source Facet Bucket form
-description: The Source Facet Bucket form contains information about source facet buckets defined for search application configurations in AI Search. Use this form when configuring display settings for a source facet bucket.
+description: The Source Facet Bucket form enables you to configure display settings for a source facet bucket in the search application configuration for an AI Search application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/navigation-tab-form-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -13,9 +14,9 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 # Source Facet Bucket form
 
-The Source Facet Bucket form contains information about source facet buckets defined for search application configurations in AI Search. Use this form when configuring display settings for a source facet bucket.
+The Source Facet Bucket form enables you to configure display settings for a source facet bucket in the search application configuration for an AI Search application.
 
-For information on configuring source facet bucket display settings for an AI Search application, see [Configure source facet buckets in an AI Search application configuration](../task/config-nav-tabs-ais.md).
+For information on configuring source facet bucket display settings for an AI Search application, see [Configure source facet buckets in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/config-nav-tabs-ais.md).
 
 |Field|Description|
 |-----|-----------|
@@ -25,5 +26,5 @@ For information on configuring source facet bucket display settings for an AI Se
 |Label|Label to display for the source facet bucket in the search application.|
 |Search Context Config|Search application configuration for the source facet bucket.|
 
-**Parent Topic:**[AI Search reference](../concept/reference-ais.md)
+**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/reference-ais.md)
 

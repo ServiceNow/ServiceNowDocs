@@ -2,6 +2,7 @@
 title: Populating users based on type for Agent Client Collector for Visibility - Content
 description: You can persist the type of users that populate the CMDB depending on your particular interests. Currently, local and system are supported for Windows, Linux, and macOS.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/filter-list-of-users-for-acc-v.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -16,7 +17,7 @@ breadcrumb: [ACC Discovery, ACC deployment - servers, Agent Client Collector, IT
 
 You can persist the type of users that populate the CMDB depending on your particular interests. Currently, local and system are supported for Windows, Linux, and macOS.
 
-You can filter the types of users by using the system property: **sn\_acc\_visibility.persist\_os\_user\_type**. See [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) for more information.
+You can filter the types of users by using the system property: **sn\_acc\_visibility.persist\_os\_user\_type**. See Available system properties for more information.
 
 -   **For Windows**
 
@@ -37,5 +38,5 @@ You can filter the types of users by using the system property: **sn\_acc\_visib
     Use OSquery commands to get user information through ACC-VC: select `uid`, `username`, `directory` from users. User names that are preceded by ‘\_’ are treated as system accounts. Others are local accounts.
 
 
-**Parent Topic:**[Agent Client Collector Discovery](../concept/acc-discovery.md)
+**Parent Topic:**[Agent Client Collector Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-discovery.md)
 

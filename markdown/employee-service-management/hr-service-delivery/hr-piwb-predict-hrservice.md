@@ -2,6 +2,7 @@
 title: HR PIWB template: Predict the HR service for incoming cases
 description: Use a guided template that walks you through setting up a machine learning model to predict the correct HR service for cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-piwb-predict-hrservice.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -132,5 +133,5 @@ Role required: sn\_piwb\_hr\_content.admin
     **Note:** For details regarding trained use case integration implementation, refer to Predictive Intelligence Workbench integration and customization.
 
 
-**Parent Topic:**[HR Predictive Intelligence Workbench implementation](../concept/hr-piwb-implementation-guidance.md)
+**Parent Topic:**[HR Predictive Intelligence Workbench implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-piwb-implementation-guidance.md)
 

@@ -2,6 +2,7 @@
 title: Configure a Space Recommender Rule set
 description: Create a space recommender rule set consisting multiple rules. The rule set calculates the qualifying spaces when a user submits a space assistance request using the Workplace Service Portal. You must have Workplace Central plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-space-management/configure-space-recommender-rule-sets.html
 release: zurich
 product: Workplace Space Management
 classification: workplace-space-management
@@ -58,7 +59,7 @@ The Space Recommender Rule set is created.
 
 ## What to do next
 
-[Create a Space Recommender rule](create-a-space-recommender-rule.md)
+[Create a Space Recommender rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-space-management/create-a-space-recommender-rule.md)
 
-**Parent Topic:**[Create a Space Recommender rule](create-a-space-recommender-rule.md)
+**Parent Topic:**[Create a Space Recommender rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-space-management/create-a-space-recommender-rule.md)
 

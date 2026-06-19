@@ -2,6 +2,7 @@
 title: View contained application services in classic Service Mapping
 description: A contained application service is a reference included into another, dependent application service. You can open the contained service map directly from within the dependent service map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/view-contained-services.html
 release: zurich
 product: Service Mapping
 classification: service-mapping
@@ -23,7 +24,7 @@ Roles required: service\_mapping\_user
 
 The service that contains a reference to another service instance, becomes a dependent service. The service that you include as a reference is a contained service.
 
-![Map showing a contained service.](../image/linked-services-dependent-contained.png "Dependent service map with a reference to a contained application service")
+\[Omitted image "linked-services-dependent-contained.png"\] Alt text: Map showing a contained service.
 
 ## Procedure
 
@@ -40,5 +41,5 @@ The service that contains a reference to another service instance, becomes a dep
     The map shows an automatic redirection to the web address for the contained service. No additional tabs need to open.
 
 
-**Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](../concept/c_SvcPlanningAndAnalysisUsingMaps.md)
+**Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/c_SvcPlanningAndAnalysisUsingMaps.md)
 

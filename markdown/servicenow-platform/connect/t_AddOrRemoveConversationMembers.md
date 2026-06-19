@@ -2,6 +2,7 @@
 title: Add or remove conversation members
 description: In Connect Chat, any member of a group or record conversation can add or remove other conversation members. In a direct conversation with only two people, you cannot add members to the conversation after you create it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/connect/t\_AddOrRemoveConversationMembers.html
 release: zurich
 product: Connect
 classification: connect
@@ -23,11 +24,11 @@ Role required: none
 
 1.  Open a group or record conversation in the Connect workspace.
 
-2.  In the conversation tools to the right of the conversation pane, click the member list tab \(![Member list tab](../image/IconMemberList.png)\).
+2.  In the conversation tools to the right of the conversation pane, click the member list tab \(\[Omitted image "IconMemberList.png"\] Alt text: Member list tab\).
 
 3.  Do one of the following actions.
 
-<table id="choicetable_qdq_dmf_ct"><tbody><tr><td id="d151278e81">
+<table id="choicetable_qdq_dmf_ct"><tbody><tr><td id="d156050e81">
 
 **Add a member**
 
@@ -37,7 +38,7 @@ Role required: none
 2.  Use the search field to find and select a user.
 
 
-</td></tr><tr><td id="d151278e102">
+</td></tr><tr><td id="d156050e102">
 
 **Remove a member**
 

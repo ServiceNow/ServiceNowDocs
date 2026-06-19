@@ -2,6 +2,7 @@
 title: Enable configuration of components with inherited controllers in component builder
 description: Learn how components can inherit page resources.Configure components to automatically inherit controllers and data resources when placed on pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/inherited-controllers.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -33,7 +34,7 @@ When you place a component configured for inheritance on a page, the inheritance
 |One|Connects to that resource|
 |Multiple|Connects to the first instance of that resource|
 
-**Parent Topic:**[Component Builder](component-builder-uib.md)
+**Parent Topic:**[Component Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/component-builder-uib.md)
 
 ## Enable configuration of components with inherited controllers
 
@@ -53,7 +54,7 @@ In this Component Builder example, we will create a text component and configure
 
 2.  Select **Create** from the UI Builder home page.
 
-    ![UI Builder home page with the Create component button.](../image/create-component-button.png)
+    \[Omitted image "create-component-button.png"\] Alt text: UI Builder home page with the Create component button.
 
 3.  Select **Component**.
 
@@ -80,7 +81,7 @@ In this Component Builder example, we will create a text component and configure
 
     5.  Select **Add**.
 
-    ![Select a data resource modal with List controller selected and Inherit configurations from parent enabled.](../image/inherit-controllers-inherit.png)
+    \[Omitted image "inherit-controllers-inherit.png"\] Alt text: Select a data resource modal with List controller selected and Inherit configurations from parent enabled.
 
 7.  Create the component.
 
@@ -96,7 +97,7 @@ In this Component Builder example, we will create a text component and configure
 
 8.  Configure the component to use the List controller.
 
-    1.  In the configuration panel, hover over **Text** and select the bind data ![](../image/data-icon.png) icon.
+    1.  In the configuration panel, hover over **Text** and select the bind data \[Omitted image "data-icon.png"\] Alt text: icon.
 
     2.  On the left, select the **Formulas** tab, then double-click **CONCAT**.
 
@@ -112,6 +113,6 @@ In this Component Builder example, we will create a text component and configure
 
 10. Place the component on a list page to see it automatically inherit the List controller and display the table name.
 
-    ![UI Builder editor showing custom component inheriting the list controller and displaying the table name.](../image/inherit-controllers-result.png)
+    \[Omitted image "inherit-controllers-result.png"\] Alt text: UI Builder editor showing custom component inheriting the list controller and displaying the table name.
 
 

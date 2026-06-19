@@ -2,6 +2,7 @@
 title: View the XmlTemplate methods
 description: After configuring the XmlTemplate connector, you can expose its methods.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/view-xmltemplate-methods.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -32,5 +33,5 @@ Role required: none
     The methods appear under the Object Explorer pane.
 
 
-**Parent Topic:**[Data Modellers](../concept/data-modellers.md)
+**Parent Topic:**[Data Modellers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/data-modellers.md)
 

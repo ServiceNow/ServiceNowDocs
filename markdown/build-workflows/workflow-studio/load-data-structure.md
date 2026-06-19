@@ -2,6 +2,7 @@
 title: Load data structure
 description: Load a data structure of child variables within an Object variable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/load-data-structure.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -19,7 +20,7 @@ Load a data structure of child variables within an Object variable.
 
 -   Role required: action\_designer, flow\_designer, or admin
 -   Set up an application in Guided Application Creator to store Workflow Studio content.
--   [Create an action in Workflow Studio](create-action.md) or [Create a subflow in Workflow Studio](create-subflow.md)
+-   [Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-action.md) or [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-subflow.md)
 
 ## Procedure
 
@@ -38,5 +39,5 @@ Load a data structure of child variables within an Object variable.
     If the Object variable has no existing data structure, Workflow Studio loads the data structure into it. If the Object variable has an existing data structure, Workflow Studio displays a confirmation dialog to replace the existing structure.
 
 
-**Parent Topic:**[Complex data](../concept/complex-data.md)
+**Parent Topic:**[Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/complex-data.md)
 

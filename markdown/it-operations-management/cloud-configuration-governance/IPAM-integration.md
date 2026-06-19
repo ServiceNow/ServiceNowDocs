@@ -2,11 +2,12 @@
 title: IPAM integration
 description: Use an IP address management \(IPAM\) tool like Infoblox to manage cloud IP addresses, networks, and subnets within your cloud catalog offerings. However, it's important to note that this functionality is not supported with our template-based cloud catalogs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/IPAM-integration.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -17,7 +18,7 @@ Use an IP address management \(IPAM\) tool like Infoblox to manage cloud IP addr
 
 ## Infoblox integration
 
-By default, Cloud Provisioning and Governance supports Infoblox integration. You can create Infoblox credentials and then set up an Infoblox instance record. See [Register an Infoblox server](../task/create-infoblox.md) for instructions.
+By default, Cloud Provisioning and Governance supports Infoblox integration. You can create Infoblox credentials and then set up an Infoblox instance record. See [Register an Infoblox server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-infoblox.md) for instructions.
 
 **Note:** IPAM integration is not supported with template based cloud catalog items.
 

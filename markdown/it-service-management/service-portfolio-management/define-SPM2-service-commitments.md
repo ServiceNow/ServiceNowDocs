@@ -2,6 +2,7 @@
 title: Add a commitment to a service offering in Service Portfolio Management
 description: Service commitments are specific services that define the unique availability guarantees, scope, and pricing for a service offering.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-portfolio-management/define-SPM2-service-commitments.html
 release: zurich
 product: Service Portfolio Management
 classification: service-portfolio-management
@@ -41,7 +42,7 @@ To create service commitments, each service needs at least one associated servic
 
 5.  Select the **Type** of commitment from the list.
 
-<table id="choicetable_zjg_yyd_d1b"><tbody><tr><td id="d269855e128">
+<table id="choicetable_zjg_yyd_d1b"><tbody><tr><td id="d263146e128">
 
 **Availability or Maintenance Window**
 
@@ -49,7 +50,7 @@ To create service commitments, each service needs at least one associated servic
 
 Used in system processing. If you select **Maintenance Window**, the **Schedule** field is required. Creates Availability records for the service offering based on the outages for that offering. If an Availability commitment exists, when an Outage is created against a service offering with the Availability commitment, it will begin tracking down time and availability.
 
-</td></tr><tr><td id="d269855e146">
+</td></tr><tr><td id="d263146e146">
 
 **Response Time, Delivery or Other**
 
@@ -57,7 +58,7 @@ Used in system processing. If you select **Maintenance Window**, the **Schedule*
 
 Display additional information in the service catalog. This information details the type of service commitment the user may expect from a given service offering. These service commitment types do not provide additional functionality or a homepage gauge.
 
-</td></tr><tr><td id="d269855e155">
+</td></tr><tr><td id="d263146e155">
 
 **Recovery time objective**
 
@@ -65,7 +66,7 @@ Display additional information in the service catalog. This information details 
 
 Guarantee of how long it takes to recover the system from the recovery point. Set the recovery time in the **Time Amount** field that appears when you select this commitment type. This field is available with vendor ticketing.**Note:** These service commitment types do not provide additional functionality or a homepage gauge.
 
-</td></tr><tr><td id="d269855e170">
+</td></tr><tr><td id="d263146e170">
 
 **Recovery point objective**
 
@@ -73,7 +74,7 @@ Guarantee of how long it takes to recover the system from the recovery point. Se
 
 Guarantee of how often backups are performed. Set the backup interval in the **Time amount** field that appears when you select this commitment type. This field is available with vendor ticketing.**Note:** These service commitment types do not provide additional functionality or a homepage gauge.
 
-</td></tr><tr><td id="d269855e185">
+</td></tr><tr><td id="d263146e185">
 
 **SLA**
 
@@ -102,5 +103,5 @@ Allows commitments defined by a service level agreement \(SLA\) that tracks whet
 9.  Select **New** to add another service commitment or select **Edit** to add an existing commitment to this offering.
 
 
-**Parent Topic:**[Service offerings in Service Portfolio Management](../concept/SPM2-service-offerings.md)
+**Parent Topic:**[Service offerings in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/SPM2-service-offerings.md)
 

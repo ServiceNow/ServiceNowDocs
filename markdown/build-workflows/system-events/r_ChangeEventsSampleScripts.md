@@ -2,6 +2,7 @@
 title: Sample scripts from the change events business rule
 description: Several scripts are found in the baseline change events business rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/system-events/r\_ChangeEventsSampleScripts.html
 release: zurich
 product: System Events
 classification: system-events
@@ -60,5 +61,5 @@ if (current.start_date.changes() || current.end_date.changes() || current.assign
 }
 ```
 
-**Parent Topic:**[System events reference](system-events-reference.md)
+**Parent Topic:**[System events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/system-events/system-events-reference.md)
 

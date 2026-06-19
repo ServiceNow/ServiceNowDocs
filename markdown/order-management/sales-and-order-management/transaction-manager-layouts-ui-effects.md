@@ -2,6 +2,7 @@
 title: Transaction Manager: Layouts - UI effects
 description: Learn how to add functionality to a button by programming UI effects in either YAML or JSON.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/transaction-manager-layouts-ui-effects.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -42,7 +43,7 @@ One example of a UI effect in action would be having a button to open a searchab
 
 Here’s how that button might appear in the resulting UI:
 
-![Add products](../images/cpq-txn-mgr-layouts-ui-effects-add-button.png)
+\[Omitted image "cpq-txn-mgr-layouts-ui-effects-add-button.png"\] Alt text: Add products
 
 ## Programming UI effects
 
@@ -95,7 +96,7 @@ Some UI effects will, by their very nature, involve running certain related even
 
 A user’s ability to access a UI effect cannot be controlled directly, the way it can with events. There are no setting comparable to the following event settings:
 
-![Transaction Manager: Layouts - UI effects](../images/cpq-txn-mgr-layouts-ui-effects-event-access.png)
+\[Omitted image "cpq-txn-mgr-layouts-ui-effects-event-access.png"\] Alt text: Transaction Manager: Layouts - UI effects
 
 However, the access conditions for a UI effect can be changed by its context in the transaction or by any related events.
 

@@ -2,6 +2,7 @@
 title: Talent Activity Types reference
 description: Administrators create activity types that are used by managers and employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/egd-activity-type-form.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -23,5 +24,5 @@ Administrators create activity types that are used by managers and employees.
 |**Order**|A numeric value used to determine the display order of activity types.|
 |**Value**|The value used to track the activity type.|
 
-**Parent Topic:**[Talent Development Core application reference](../concept/egd-reference.md)
+**Parent Topic:**[Talent Development Core application reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-reference.md)
 

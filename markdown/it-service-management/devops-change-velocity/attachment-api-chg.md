@@ -2,12 +2,13 @@
 title: Add attachments to change requests using attachment API
 description: Add test report xmls as attachments to DevOps change requests using the attachment API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/attachment-api-chg.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [DevOps test tool integration, User created, Integrate, DevOps Change Velocity, IT Service Management]
 ---
 
@@ -15,7 +16,7 @@ breadcrumb: [DevOps test tool integration, User created, Integrate, DevOps Chang
 
 Add test report xmls as attachments to DevOps change requests using the attachment API.
 
-For more information about the API, see [Attachment - POST /now/attachment/file](https://www.servicenow.com/docs/access?context=c_AttachmentAPI&version=zurich&pubname=zurich-api-reference&section=attachment-POST-file&ft:locale=en-US).
+For more information about the API, see .
 
 The attachment API URL is:
 
@@ -29,10 +30,10 @@ The attachment API URL is:
 
 **Prerequisites**
 
--   Create an active user with the option **Web service access only** selected. For information on how to create a user, see [Create a user](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
--   Assign the role **sn\_change\_write** to the user. For information on how to assign the role, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+-   Create an active user with the option **Web service access only** selected. For information on how to create a user, see .
+-   Assign the role **sn\_change\_write** to the user. For information on how to assign the role, see .
 
-    ![Create user.](../image/attachment-api-01.png)
+    \[Omitted image "attachment-api-01.png"\] Alt text: Create user.
 
 -   The system property **sn\_devops.enable\_ado\_generic\_connection** must be enabled.
 -   While configuring your Azure DevOps project, to upload to chg. table, the generic connection used should have a user having the role **sn\_change\_write**.
@@ -67,7 +68,7 @@ stage: PostDeploy
                waitForCompletion: 'false'
 ```
 
-![Azure DevOps pipeline.](../image/attachment-api-02.png)
+\[Omitted image "attachment-api-02.png"\] Alt text: Azure DevOps pipeline.
 
 ## GitHub
 
@@ -75,11 +76,11 @@ For GitHub pipelines, use the format given here to add attachments to change req
 
 Sample pipeline:
 
-![GitHub pipeline.](../image/attachment-api-03.png)
+\[Omitted image "attachment-api-03.png"\] Alt text: GitHub pipeline.
 
 **Attachment in the Change Request form in Now instance**:
 
-![Attachments in change record.](../image/attachment-api-04.png)
+\[Omitted image "attachment-api-04.png"\] Alt text: Attachments in change record.
 
 ## Jenkins
 
@@ -171,12 +172,12 @@ pipeline {
 
 ```
 
-![Jenkins pipeline.](../image/attachment-api-05.png)
+\[Omitted image "attachment-api-05.png"\] Alt text: Jenkins pipeline.
 
 ## Limitations of the attachment API
 
 -   The attachment xml file’s text size should be acceptable to the orchestration tool.
 -   For Azure DevOps, **sn\_change\_write** role is needed for authentication of attachment API, to upload the file to the change record.
 
-**Parent Topic:**[DevOps test tool integration](../concept/dev-ops-test-tool-integration.md)
+**Parent Topic:**[DevOps test tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/dev-ops-test-tool-integration.md)
 

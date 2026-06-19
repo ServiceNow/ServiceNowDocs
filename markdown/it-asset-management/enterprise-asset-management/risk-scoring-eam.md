@@ -2,6 +2,7 @@
 title: Risk scoring
 description: Calculate a risk score for an enterprise model record based on two vectors: likelihood and impact.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/risk-scoring-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -23,7 +24,7 @@ Access the Risk modules for the Enterprise Asset Management application by navig
 -   **Risk Impact**
 -   **Risk Score**
 
-**Note:** For details on configuring values for likelihood, impact, and score, see [Create configuration values for risk likelihood](../task/risk-likelihood-config.md), [Create configuration values for risk impact](../task/risk-impact-config.md), or [Create configuration values for risk scores](../task/risk-score-config.md).
+**Note:** For details on configuring values for likelihood, impact, and score, see [Create configuration values for risk likelihood](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/risk-likelihood-config.md), [Create configuration values for risk impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/risk-impact-config.md), or [Create configuration values for risk scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/risk-score-config.md).
 
 After you’ve configured the values in the Risk modules and frozen them, the heat maps are rendered on the following views on the Enterprise Asset Workspace:
 

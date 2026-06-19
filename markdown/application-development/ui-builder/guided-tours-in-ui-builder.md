@@ -2,6 +2,7 @@
 title: Guided tours in UI Builder
 description: Learn about UI Builder guided tours, including how to use them to build your knowledge and practice using UI Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/guided-tours-in-ui-builder.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -19,7 +20,7 @@ Learn about UI Builder guided tours, including how to use them to build your kno
 
 Guided tours are part of the default ServiceNow platform. There are guided tours available to take and you can use the Guided Tours application to create custom tours yourself in your own instances.
 
-Tours contain interactive steps to help train and teach users. Some tours show various features in the user interface, such as an overview of a homepage. Other tours help complete a task, such as creating an experience or previewing an experience page. For more information about what guided tours are and how to create them, see [Exploring Guided Tours](https://www.servicenow.com/docs/access?context=exploring-guided-tours&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+Tours contain interactive steps to help train and teach users. Some tours show various features in the user interface, such as an overview of a homepage. Other tours help complete a task, such as creating an experience or previewing an experience page. For more information about what guided tours are and how to create them, see .
 
 ## How to access and use UI Builder guided tours
 
@@ -27,23 +28,23 @@ Guided tours about UI Builder may launch automatically. You can also start them 
 
 When a guided tour starts automatically, an introduction is displayed. Select **Begin Tour**.
 
-![Introduction for navigating UI Builder homepage guided tour.](../image/guided-tour-in-uib3.png)
+\[Omitted image "guided-tour-in-uib3.png"\] Alt text: Introduction for navigating UI Builder homepage guided tour.
 
 To begin a tour manually from the homepage, navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder** and select a tour in the **Getting started** section. If no guided tours appear by default in the section, select **View more** and then select a tour on the **Find relevant resources to get you unstuck** pop-up.
 
 Alternatively, select **Help** and then select a tour on the **Find relevant resources to get you unstuck** pop-up.
 
-![Ui Builder homepage with white arrow pointing to help option.](../image/guided-tour-in-uib2.png)
+\[Omitted image "guided-tour-in-uib2.png"\] Alt text: Ui Builder homepage with white arrow pointing to help option.
 
 After a tour starts automatically or manually, you're led through a series of steps. Read the text for each step and perform the required actions or select **Next** to continue the tour.
 
-![Step nine in overview of UI Builder guided tour.](../image/guided-tour-in-uib4.png)
+\[Omitted image "guided-tour-in-uib4.png"\] Alt text: Step nine in overview of UI Builder guided tour.
 
 To stop a tour at any time, select the **X**.
 
 Select **Yes** or **No** to stop the tour from auto-launching again. You can also apply your decision to all tours that start on the same page.
 
-![Stop guided tour pop-up with options to stop the tour from auto launching and apply the decision to all tours on the page.](../image/guided-tour-in-uib5.png)
+\[Omitted image "guided-tour-in-uib5.png"\] Alt text: Stop guided tour pop-up with options to stop the tour from auto launching and apply the decision to all tours on the page.
 
-**Parent Topic:**[Navigate the UI Builder application](nav-uib.md)
+**Parent Topic:**[Navigate the UI Builder application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/nav-uib.md)
 

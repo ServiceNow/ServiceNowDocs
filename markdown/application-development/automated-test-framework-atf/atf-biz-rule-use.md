@@ -2,6 +2,7 @@
 title: Automated Test Framework use case: test a business rule
 description: This use case illustrates testing a business rule with the Automated Test Framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/atf-biz-rule-use.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -23,7 +24,7 @@ Role required: atf\_test\_admin
 
 This example tests a business rule that sets the value of **Locked out** to **true** when **active** is set to **false**.
 
-![Test steps](../image/atf-biz-rule-use-small.png "Automated Test Framework: Business rule example")
+\[Omitted image "atf-biz-rule-use-small.png"\] Alt text: Test steps
 
 ## Procedure
 
@@ -31,30 +32,30 @@ This example tests a business rule that sets the value of **Locked out** to **tr
 
     In this example, the step impersonates the admin user.
 
-    ![Form for Impersonate](../image/atf-use-biz-rule-01.png "Step 1 - Impersonate")
+    \[Omitted image "atf-use-biz-rule-01.png"\] Alt text: Form for Impersonate
 
 2.  Open a form for the table to which this business rule applies.
 
     This example opens a new User form.
 
-    ![Form for Open a New Form](../image/atf-use-biz-rule-02.png "Step 2 - Open a New Form")
+    \[Omitted image "atf-use-biz-rule-02.png"\] Alt text: Form for Open a New Form
 
 3.  Set values on the form that meet the requirements for submitting the form and for triggering the business rule.
 
     This example sets values for the **Active**, **Last name**, and **First name** fields.
 
-    ![Form for Set Field Values](../image/atf-use-biz-rule-03.png "Step 3 - Set Field Values")
+    \[Omitted image "atf-use-biz-rule-03.png"\] Alt text: Form for Set Field Values
 
 4.  Submit the form.
 
-    ![Form for Submit Form](../image/atf-use-biz-rule-04.png "Step 4 - Submit Form")
+    \[Omitted image "atf-use-biz-rule-04.png"\] Alt text: Form for Submit Form
 
 5.  Validate that the business rule ran.
 
     In this example the business rule tested sets **Locked out** to **true** if **Active** is set to **false**.
 
-    ![Form for Field Values Validation](../image/atf-use-biz-rule-05.png "Step 5 - Field Values Validation")
+    \[Omitted image "atf-use-biz-rule-05.png"\] Alt text: Form for Field Values Validation
 
 
-**Parent Topic:**[Automated Test Framework use case examples](../concept/atf-use-cases.md)
+**Parent Topic:**[Automated Test Framework use case examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-use-cases.md)
 

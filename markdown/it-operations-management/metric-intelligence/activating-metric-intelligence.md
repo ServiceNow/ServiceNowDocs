@@ -2,6 +2,7 @@
 title: Activating Metric Intelligence
 description: Metric Intelligence enables you to capture, explore and analyze operational metrics data, identifying and indicating anomalies. This analysis can prevent potential service outages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/metric-intelligence/activating-metric-intelligence.html
 release: zurich
 product: Metric Intelligence
 classification: metric-intelligence
@@ -17,5 +18,5 @@ Metric Intelligence enables you to capture, explore and analyze operational metr
 
 View and work with Metric Intelligence data in the Insight Explorer, Agent Workspace, and Service Operations Workspace interfaces.
 
-For details on the plugins activated with Metric Intelligence, see [Plugins or applications installed with ITOM AIOps](../../it-operations-management/reference/plugin-app-itom-health.md).
+For details on the plugins activated with Metric Intelligence, see [Plugins or applications installed with ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/plugin-app-itom-health.md).
 

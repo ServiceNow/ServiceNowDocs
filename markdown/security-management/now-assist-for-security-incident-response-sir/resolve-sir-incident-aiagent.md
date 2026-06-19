@@ -2,6 +2,7 @@
 title: Resolve a security incident
 description: Chat with an AI agent in the Now Assist panel to resolve an incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/now-assist-for-security-incident-response-sir/resolve-sir-incident-aiagent.html
 release: zurich
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -21,7 +22,7 @@ Role required: sn\_si.analyst
 
 ## About this task
 
-**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Important:** This agentic workflow is turned on by default. For more information, see .
 
 ## Procedure
 
@@ -29,7 +30,7 @@ Role required: sn\_si.analyst
 
 2.  Open the security incident that you want to resolve using the AI agent.
 
-3.  Select the Now Assist \(![Now Assist panel for AI agent icon.](../image/ai-icon-now-assist.png)\) icon.
+3.  Select the Now Assist \(\[Omitted image "ai-icon-now-assist.png"\] Alt text: Now Assist panel for AI agent icon.\) icon.
 
     The Resolve security incident agentic workflow is on-demand. You can enter a query in natural language to resolve a security incident by using this agentic workflow.
 
@@ -39,7 +40,7 @@ Role required: sn\_si.analyst
 
 5.  Select **Resolve security incident**.
 
-    ![Sample resolution plan for a security incident.](../image/ai-agent-resolution-plan.png)
+    \[Omitted image "ai-agent-resolution-plan.png"\] Alt text: Sample resolution plan for a security incident.
 
     The AI agent analyzes the security incident and provides a summary of the incident and its current state. Additionally, by using the incident details, knowledge articles, and similar closed security incidents, the AI agent provides a resolution plan.
 
@@ -143,7 +144,7 @@ Close the security incident
 
 </td><td>
 
-The AI agent closes the incident. For more information, see [Close a security incident](close-sir-incident-aiagent.md).
+The AI agent closes the incident. For more information, see [Close a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/close-sir-incident-aiagent.md).
 
 </td></tr></tbody>
 </table>

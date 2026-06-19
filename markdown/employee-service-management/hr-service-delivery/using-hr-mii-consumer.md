@@ -2,6 +2,7 @@
 title: Using HR Multi Instance Integration for Consumer
 description: Access a remote catalog item \(hosted by a remote service provider\) and submit the catalog item with the required details from your Employee portal. An HR case is created in the provider instance which is fulfilled by a provider agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/using-hr-mii-consumer.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -27,7 +28,7 @@ Role required: sn\_sb.requestor
 
     This request triggers an approval flow \(not a required flow\) for your managerial approval. Once the HR request is approved by your manager, a provider task is created that in turn creates a remote HR case in provider instance.
 
-    **Note:** You can access only the remote catalogs that have been enabled by your consumer administrator. See [Configure HR Multi Instance Integration for Consumer](../task/config-hr-multi-instance.md) for more information.
+    **Note:** You can access only the remote catalogs that have been enabled by your consumer administrator. See [Configure HR Multi Instance Integration for Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/config-hr-multi-instance.md) for more information.
 
 3.  Review if any tasks are assigned to you.
 

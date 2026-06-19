@@ -2,6 +2,7 @@
 title: Conversation Insights reference
 description: The following topics provide additional information about the features and properties installed with Conversation Insights.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/conversational-intelligence/conversation-insights-reference.html
 release: zurich
 product: Conversational Intelligence
 classification: conversational-intelligence
@@ -15,8 +16,8 @@ breadcrumb: [Conversation Insights, Enable AI experiences]
 
 The following topics provide additional information about the features and properties installed with Conversation Insights.
 
--   **[Components installed with Conversation Insights](components-installed-with-conversation-insights.md)**  
+-   **[Components installed with Conversation Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/conversational-intelligence/components-installed-with-conversation-insights.md)**  
 Installation of the Conversation Insights application also installs the Conversation Insights \[sn\_aci\_insights\] table.
 
-**Parent Topic:**[Enable AI experiences](../../general/reference/ai-products.md)
+**Parent Topic:**[Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/ai-products.md)
 

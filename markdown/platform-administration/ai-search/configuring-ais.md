@@ -2,6 +2,7 @@
 title: Configuring AI Search
 description: Plan and configure your AI Search implementation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configuring-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -27,7 +28,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Assign roles to AI Search administrators and users](../task/assign-ais-admin-role.md)
+[Assign roles to AI Search administrators and users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/assign-ais-admin-role.md)
 
 </td><td>
 
@@ -37,7 +38,7 @@ Assign the ais\_admin role to users who need to create, read, update, and delete
 
 </td></tr><tr><td>
 
-[Define indexed sources](indexed-sources-ais.md)
+[Define indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/indexed-sources-ais.md)
 
 </td><td>
 
@@ -45,7 +46,7 @@ Create and configure an indexed source for each ServiceNow AI Platform® table t
 
 </td></tr><tr><td>
 
-[Define search sources](search-sources-ais.md)
+[Define search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/search-sources-ais.md)
 
 </td><td>
 
@@ -53,7 +54,7 @@ Apply filter conditions to indexed sources to define search sources that users c
 
 </td></tr><tr><td>
 
-[Define search profiles](defining-search-profiles-ais.md)
+[Define search profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/defining-search-profiles-ais.md)
 
 </td><td>
 
@@ -61,7 +62,7 @@ Create and publish a search profile for each distinct search experience that you
 
 </td></tr><tr><td>
 
-[Define search application configurations](defining-search-app-cfgs-ais.md)
+[Define search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/defining-search-app-cfgs-ais.md)
 
 </td><td>
 
@@ -69,7 +70,7 @@ Create a configuration for each ServiceNow AI Platform application that supports
 
 </td></tr><tr><td>
 
-[Enable and configure AI Search in ServiceNow AI Platform applications](enable-configure-apps-ais.md)
+[Enable and configure AI Search in ServiceNow AI Platform applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/enable-configure-apps-ais.md)
 
 </td><td>
 
@@ -77,7 +78,7 @@ Specify AI Search as the search engine in supported ServiceNow AI Platform appli
 
 </td></tr><tr><td>
 
-[Create a custom search matcher for global search](../task/create-search-matcher-ais.md)
+[Create a custom search matcher for global search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-search-matcher-ais.md)
 
 </td><td>
 
@@ -88,34 +89,36 @@ Optionally configure exact-match global searches that only match results from a 
 
 Guided setup provides a sequence of tasks that help you configure AI Search on your ServiceNow instance. To open AI Search guided setup, navigate to **All** &gt; **AI Search** &gt; **Guided Setup**.
 
-For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+For more information about using the guided setup interface, see Using guided setup.
 
--   **[Assign roles to AI Search administrators and users](../task/assign-ais-admin-role.md)**  
+-   **[Assign roles to AI Search administrators and users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/assign-ais-admin-role.md)**  
 Grant users the ais\_admin, ais\_external\_content, ais\_high\_security\_admin, and search\_application\_admin roles so they can configure and manage settings and content for AI Search and search applications.
--   **[Indexed sources in AI Search](indexed-sources-ais.md)**  
+-   **[Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md)**  
+Enable automatic generation of searchable captions for images, tables, charts, and complex layouts found in indexed attachments.
+-   **[Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/indexed-sources-ais.md)**  
 Indexed sources designate ServiceNow AI Platform® tables and external document sets with alphanumeric text and string field content that you want to make searchable. AI Search ingests text and string fields from table records or external documents and stores their searchable alphanumeric content in its search index.
--   **[Search sources in AI Search](search-sources-ais.md)**  
+-   **[Search sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/search-sources-ais.md)**  
 Define search sources to make your searchable content available in search experiences. Choose an indexed source and configure optional filter conditions to limit the content that users can search.
--   **[Search profiles in AI Search](defining-search-profiles-ais.md)**  
+-   **[Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/defining-search-profiles-ais.md)**  
 Search profiles contain settings for a search experience, including synonyms, stop words, typo handling, Genius Results, and result improvement rules. Define a search profile for each unique search experience that you want to offer in a ServiceNow AI Platform® application. Publish search profiles to make them available in your search applications.
--   **[Search application configurations](defining-search-app-cfgs-ais.md)**  
+-   **[Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/defining-search-app-cfgs-ais.md)**  
 A search application configuration specifies the search engine and settings to use for search in a ServiceNow AI Platform® application. When you choose AI Search as an application's search engine, you can select a search profile for the application and configure its search result display and refinement settings.
--   **[Activate fuzzy numeric search in AI Search](../task/activate-fuzzy-numeric-search-ais.md)**  
+-   **[Activate fuzzy numeric search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/activate-fuzzy-numeric-search-ais.md)**  
 Activate fuzzy numeric search to let users find indexed records by their Number field values without needing to enter alphabetic prefixes or leading zeroes.
--   **[Configure EVAM display settings for search results in AI Search applications](../task/configure-search-result-card-opts.md)**  
+-   **[Configure EVAM display settings for search results in AI Search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-search-result-card-opts.md)**  
 Customize display settings for Search Result EVAM \(Entity View Action Mapping\) cards in portal and non-portal AI Search applications.
--   **[Show borders between search result cards in portal search](../task/show-borders-search-result-cards-portal-search.md)**  
+-   **[Show borders between search result cards in portal search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/show-borders-search-result-cards-portal-search.md)**  
 Display borders between search result cards on the search results page for portal search applications.
--   **[Show borders between search result cards in global search](../task/show-borders-search-result-cards-global-search.md)**  
+-   **[Show borders between search result cards in global search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/show-borders-search-result-cards-global-search.md)**  
 Display borders between search result cards on the global search results page.
--   **[Enabling and configuring AI Search in ServiceNow AI Platform applications](enable-configure-apps-ais.md)**  
+-   **[Enabling and configuring AI Search in ServiceNow AI Platform applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/enable-configure-apps-ais.md)**  
 Configure and use the AI Search engine in the Customer Service Management, Now Mobile, Service Portal, and Virtual Agent applications.
--   **[Create a custom search matcher for global search](../task/create-search-matcher-ais.md)**  
+-   **[Create a custom search matcher for global search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-search-matcher-ais.md)**  
 Customize the global search experience to return exact match search results from a specified table and column \(field\). You can configure custom search matchers for search terms with prefixes followed by numbers, such as `INT470271`, or for numeric search terms with delimiter characters, such as `525-326-3827` or `2016/01/08`.
--   **[Domain separation and AI Search](ai-search-domain-separation.md)**  
+-   **[Domain separation and AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ai-search-domain-separation.md)**  
 Domain separation is unsupported for the AI Search application tables, but user search queries respect domain restrictions from indexed ServiceNow AI Platform® table records. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
--   **[Indexing and searching external content in AI Search](external-content-ais.md)**  
+-   **[Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/external-content-ais.md)**  
 With a subscription for the External Content for AI Search plugin, you can enable AI Search users to search content and metadata from documents in external repositories and remote tables.
 
-**Parent Topic:**[AI Search](overview-ais.md)
+**Parent Topic:**[AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/overview-ais.md)
 

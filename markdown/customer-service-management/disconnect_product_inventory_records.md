@@ -2,9 +2,12 @@
 title: Disconnect product inventory records
 description: Perform the Disconnect operation on single or multiple product inventory records that result in the creation of orders or quotes on the CSM Configurable Workspace so that you can permanently disconnect a product and its services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/disconnect\_product\_inventory\_records.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Product inventory configurations, Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---

@@ -2,6 +2,7 @@
 title: Test one of your forms for an app
 description: Use the Try it button on the Request forms tab to submit a request, which triggers any associated playbooks and creates a record that you can work with in Creator Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/creator-studio/creator-studio-try-it.html
 release: zurich
 product: Creator Studio
 classification: creator-studio
@@ -28,7 +29,7 @@ Trying out a form differs from the preview that appears when you first view an a
 
 ## Before you begin
 
-You must first create and publish \(mark as ready\) a form for you to test it using the **Try it** button. For more information, see [Publish a form for your app in Creator Studio](creator-studio-publish-form.md).
+You must first create and publish \(mark as ready\) a form for you to test it using the **Try it** button. For more information, see [Publish a form for your app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-publish-form.md).
 
 To test an app, you must be given permission to work on the app.
 
@@ -42,7 +43,7 @@ To test an app, you must be given permission to work on the app.
 
 3.  Select the **Try it** button.
 
-    ![Select the Try it button](../image/crs-try-it-btn.png "Try it button")
+    \[Omitted image "crs-try-it-btn.png"\] Alt text: Select the Try it button
 
     The Try form that appears tells you which user will receive your request. For example, the administrator.
 
@@ -57,10 +58,10 @@ After you submit your responses, the ServiceNow AI Platform runs any playbooks a
 
 The record that your submitted form creates appears in Creator Studio. You can view the results of the playbooks and interact with the record to see how it appears in the Request App Workspace.
 
--   Answers to the form's questions \(which are catalog variables\) appear on the **Details** tab of the submitted record. For more on form questions, see [Working with forms in Creator Studio](../concept/creator-studio-work-with-forms.md).
--   Results of any playbooks appear on the **Automations** tab of the submitted record. For more on playbooks, see [Working with automation in Creator Studio](../concept/creator-studio-working-with-automations.md).
+-   Answers to the form's questions \(which are catalog variables\) appear on the **Details** tab of the submitted record. For more on form questions, see [Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-work-with-forms.md).
+-   Results of any playbooks appear on the **Automations** tab of the submitted record. For more on playbooks, see [Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-working-with-automations.md).
 
-For details, see [Preview how an app's records appear](creator-studio-preview-record.md).
+For details, see [Preview how an app's records appear](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-preview-record.md).
 
-**Parent Topic:**[Testing and previewing Creator Studio apps and records](../concept/creator-studio-testing-apps.md)
+**Parent Topic:**[Testing and previewing Creator Studio apps and records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-testing-apps.md)
 

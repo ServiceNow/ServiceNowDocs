@@ -2,6 +2,7 @@
 title: Activate time limited authentication
 description: Time limited authenication activates through the Integration - Multiple Provider Single Sign-On Installer plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/activate-time-limited-authentication.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -33,6 +34,6 @@ Role required: admin
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 

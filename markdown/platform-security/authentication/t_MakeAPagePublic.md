@@ -2,6 +2,7 @@
 title: Make UI pages public or private
 description: You can make pages public if you want your users to see the pages without logging in.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/t\_MakeAPagePublic.html
 release: zurich
 product: Authentication
 classification: authentication

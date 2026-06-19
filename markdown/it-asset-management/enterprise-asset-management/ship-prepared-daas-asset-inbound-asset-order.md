@@ -2,6 +2,7 @@
 title: Complete the Asset ship task for a requested Device as a Service \(DaaS\) asset
 description: After you prepare the DaaS asset that you picked for an inbound asset order line, complete the Asset ship task for it by shipping it to the customer that it is requested for.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/ship-prepared-daas-asset-inbound-asset-order.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -17,7 +18,7 @@ After you prepare the DaaS asset that you picked for an inbound asset order line
 
 ## Before you begin
 
-Before you can begin the Asset ship task, you must complete the preceding Asset prepare task by preparing the asset for shipment. For detailed instructions, see [Complete the Asset prepare task for a requested Device as a Service \(DaaS\) asset](prepare-picked-daas-asset-inbound-asset-order.md).
+Before you can begin the Asset ship task, you must complete the preceding Asset prepare task by preparing the asset for shipment. For detailed instructions, see [Complete the Asset prepare task for a requested Device as a Service \(DaaS\) asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/prepare-picked-daas-asset-inbound-asset-order.md).
 
 Role required: sn\_eam\_provider.provider\_asset\_technician
 
@@ -27,15 +28,15 @@ Role required: sn\_eam\_provider.provider\_asset\_technician
 
 2.  Open the Asset tasks list.
 
-<table id="choicetable_wwt_xxs_1hc"><thead><tr><th align="left" id="d163397e91">
+<table id="choicetable_wwt_xxs_1hc"><thead><tr><th align="left" id="d120795e91">
 
 Navigation option
 
-</th><th align="left" id="d163397e94">
+</th><th align="left" id="d120795e94">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d163397e100">
+</th></tr></thead><tbody><tr><td id="d120795e100">
 
 **Provider inbound asset order**
 
@@ -51,7 +52,7 @@ Procedure
 5.  On the inbound asset order line record, select the **Asset tasks** tab.
 
 
-</td></tr><tr><td id="d163397e144">
+</td></tr><tr><td id="d120795e144">
 
 **Provider inbound asset order line**
 
@@ -65,7 +66,7 @@ Procedure
 3.  On the inbound asset order line record, select the **Asset tasks** tab.
 
 
-</td></tr><tr><td id="d163397e179">
+</td></tr><tr><td id="d120795e179">
 
 **Provider asset tasks**
 
@@ -100,12 +101,12 @@ From the navigation menu of the Asset operations view, navigate to **Provider** 
 ## Result
 
 -   The Asset ship task closes with an updated state of Closed Complete.
--   A corresponding shipment record is automatically created for the asset shipment. A reference to the shipment record is populated in the **Shipment order** field of the Asset ship task. You can view and manage the shipment record from the Shipments list of the Asset operations view. For detailed instructions, see [View and add enterprise asset shipments](view-enterprise-asset-shipments.md).
+-   A corresponding shipment record is automatically created for the asset shipment. A reference to the shipment record is populated in the **Shipment order** field of the Asset ship task. You can view and manage the shipment record from the Shipments list of the Asset operations view. For detailed instructions, see [View and add enterprise asset shipments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/view-enterprise-asset-shipments.md).
 -   A corresponding Receive task is automatically generated.
 
 ## What to do next
 
-Complete the corresponding Receive task by verifying that the customer successfully received the shipped asset. For detailed instructions, see [Complete the Receive task for a requested Device as a Service \(DaaS\) asset](receive-shipped-daas-asset-inbound-asset-order.md).
+Complete the corresponding Receive task by verifying that the customer successfully received the shipped asset. For detailed instructions, see [Complete the Receive task for a requested Device as a Service \(DaaS\) asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/receive-shipped-daas-asset-inbound-asset-order.md).
 
-**Parent Topic:**[Completing an inbound asset order for requested Device as a Service \(DaaS\) assets](../concept/completing-inbound-asset-order-daas-assets.md)
+**Parent Topic:**[Completing an inbound asset order for requested Device as a Service \(DaaS\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/completing-inbound-asset-order-daas-assets.md)
 

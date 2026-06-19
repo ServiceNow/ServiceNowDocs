@@ -2,6 +2,7 @@
 title: Collaborate on a free-form roadmap with stakeholders
 description: Add comments and attachments to a free-form roadmap for other users of your organization can review and share their feedback. Collaborate and ensure that your roadmap aligns with your company's priorities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/collaborate-on-a-roadmap.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -31,23 +32,23 @@ Using the Comments side panel, add attachments or notes at the roadmap-level or 
 
 3.  Select the appropriate tab at the roadmap-level or planning item-level.
 
-<table id="choicetable_vbs_zrn_hvb"><thead><tr><th align="left" id="d210682e93">
+<table id="choicetable_vbs_zrn_hvb"><thead><tr><th align="left" id="d201267e93">
 
 Choice
 
-</th><th align="left" id="d210682e96">
+</th><th align="left" id="d201267e96">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d210682e102">
+</th></tr></thead><tbody><tr><td id="d201267e102">
 
 **Roadmap-level**
 
 </td><td>
 
-From the roadmap header, select the **Comments** icon \(![Comments icon.](../../alignment-planner-workspace/images/icon-comments.png)\)
+From the roadmap header, select the **Comments** icon \(\[Omitted image "icon-comments.png"\] Alt text: Comments icon.\)
 
-</td></tr><tr><td id="d210682e123">
+</td></tr><tr><td id="d201267e123">
 
 **Planning item-level**
 
@@ -60,15 +61,15 @@ From the roadmap header, select the **Comments** icon \(![Comments icon.](../../
 </td></tr></tbody>
 </table>4.  Add attachments or worknotes.
 
-<table id="choicetable_yrk_wkj_gvb"><thead><tr><th align="left" id="d210682e151">
+<table id="choicetable_yrk_wkj_gvb"><thead><tr><th align="left" id="d201267e151">
 
 Choice
 
-</th><th align="left" id="d210682e154">
+</th><th align="left" id="d201267e154">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d210682e160">
+</th></tr></thead><tbody><tr><td id="d201267e160">
 
 **Attachments**
 
@@ -76,7 +77,7 @@ Action
 
 In the Attachments tab, select **Browse** and upload a file.
 
-</td></tr><tr><td id="d210682e175">
+</td></tr><tr><td id="d201267e175">
 
 **Comments**
 

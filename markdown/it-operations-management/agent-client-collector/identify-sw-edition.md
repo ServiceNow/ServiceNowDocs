@@ -2,6 +2,7 @@
 title: Identify software editions on Windows devices
 description: Determine which edition of software is in use on Windows devices in your environment, to maintain an accurate software inventory. Software products commonly support multiple editions, making it difficult to identify which edition is in use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/identify-sw-edition.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -27,7 +28,7 @@ Role required: agent\_client\_collector\_admin
 
 2.  Select **New** to set edition configuration for a Windows device.
 
-    The **Software Edition Configuration - New record** page appears. For details on the fields displayed on the page, see [Software edition configuration fields](../reference/software-edition-configuration.md).
+    The **Software Edition Configuration - New record** page appears. For details on the fields displayed on the page, see [Software edition configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/software-edition-configuration.md).
 
 3.  Select **Submit**.
 

@@ -2,6 +2,7 @@
 title: Add assets to a pallet in the Enterprise Asset Workspace
 description: Add enterprise, hardware, base, bundle, or consumable assets to a pallet so that you can track and manage them as a group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/add-assets-pallet.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -65,5 +66,5 @@ You can add an asset to a pallet only under the following conditions:
 
 The assets are added to the **Assets** tab of the pallet asset record.
 
-**Parent Topic:**[Create pallet assets in the Enterprise Asset Workspace](create-pallet-asset-eam.md)
+**Parent Topic:**[Create pallet assets in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-pallet-asset-eam.md)
 

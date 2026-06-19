@@ -2,6 +2,7 @@
 title: Perform a life-cycle operation on a stack or resource
 description: Operations like Start/Stop, Deprovision, and ExecuteScript are called life-cycle operations or day-2 operations. When you request a life-cycle operation on a stack or resource, the system generates a change request. An approval policy specifies either that the change is auto-approved or that a user on the approver list must approve the change.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/cloudmgt-lifecycle-operation.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -24,7 +25,7 @@ Life-cycle operations require the user with `sn_cmp.cloud_service_user` role who
 ## About this task
 
 -   As noted in the descriptions, not all operations are supported for all providers or for all service categories \(resource types\).
--   All other configuration management providers: If a stack or resource requires login, then you must download the associated SSH key before you can access the resource. See [Download an SSH key](cloudmgt-download-ssh-key.md).
+-   All other configuration management providers: If a stack or resource requires login, then you must download the associated SSH key before you can access the resource. See [Download an SSH key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloudmgt-download-ssh-key.md).
 
 ## Procedure
 
@@ -32,7 +33,7 @@ Life-cycle operations require the user with `sn_cmp.cloud_service_user` role who
 
 2.  While viewing the **Stack Details** page, select the operation from the **Select Stack Operation** or **Select Resource Operation** list.
 
-    For for full descriptions of the operations, see [Life-cycle operations in Cloud Provisioning and Governance](../reference/life-cycle-operation-cloudmgt.md).
+    For for full descriptions of the operations, see [Life-cycle operations in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/life-cycle-operation-cloudmgt.md).
 
     Some operations require settings \(for example, the name of a script or new schedule settings\).
 

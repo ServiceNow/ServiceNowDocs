@@ -2,6 +2,7 @@
 title: Extend user criteria
 description: Extend the user criteria table when the available user criteria fields are not sufficient. User criteria references various user fields \(fields from the User \[sys\_user\] table\), such as department, company, and groups. You can extend user criteria with a custom field to include any other user reference field \(field from the User \[sys\_user\] table\) of interest.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/t\_ExtendUserCriteria.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -31,7 +32,7 @@ Meet the following rules to extend the user criteria table.
 
 This example demonstrates how to extend the current user criteria record to include **Cost center** as an option.
 
-![User criteria record that you want to add cost center to](../image/user-criteria-b4-extended.png "User criteria record before extending Cost center")
+\[Omitted image "user-criteria-b4-extended.png"\] Alt text: User criteria record that you want to add cost center to
 
 ## Procedure
 
@@ -60,9 +61,9 @@ This example demonstrates how to extend the current user criteria record to incl
 
 Test the user criteria record by navigating to **Service Catalog** &gt; **Catalog Definition** &gt; **User Criteria**, and opening any record. Verify that the extended field is available.
 
-![The Cost center field is in the user criteria record](../image/user-criteria-extended.png "User criteria with cost center")
+\[Omitted image "user-criteria-extended.png"\] Alt text: The Cost center field is in the user criteria record
 
 You can extend the User \[sys\_user\] table if there are fields in other tables that you want considered in user criteria. After extending the User table, follow the steps in this procedure to extend it to user criteria.
 
-**Parent Topic:**[Set security for items and categories](../concept/c_ServiceCatalogAccessControls.md)
+**Parent Topic:**[Set security for items and categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_ServiceCatalogAccessControls.md)
 

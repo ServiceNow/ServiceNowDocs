@@ -2,6 +2,7 @@
 title: \(Deprecated\) NIST RMF Use Case Accelerator
 description: Note: Starting with version 10.1.0, the NIST RMF Use Case Accelerator will be supported only for customers who currently use the product. New and existing customers should consider using the Continuous Authorization and Monitoring application. For details, refer to Continuous Authorization and Monitoring documentation. The NIST RMF Use Case Accelerator gives customers an operational head-start when adopting the NIST RMF. When the accelerator is downloaded and activated in the GRC applications, pre-configured policies, scopes \(profile, profile type recommendations\), indicators, risks and other GRC elements appear.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/grc-and-nistrmf-usecase-accelerator.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -109,16 +110,16 @@ GRC admin
 Access to the following sections: **NIST RMF** &gt; **Administration**
 
 </td></tr></tbody>
-</table>-   **[Install the NIST RMF Use Case Accelerator](../task/install-nist-rmf.md)**  
+</table>-   **[Install the NIST RMF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/install-nist-rmf.md)**  
 The NIST RMF Use Case Accelerator is used with the GRC core applications: Policy and Compliance Management, Risk Management, and Audit Management applications.
--   **[Verify the NIST RMF Use Case Accelerator](../task/verify-nist-rmf.md)**  
+-   **[Verify the NIST RMF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/verify-nist-rmf.md)**  
 After installing the GRC: NIST RMF Use Case Accelerator, review the NIST RMF application structure, core content, and demo data, if selected during installation.
--   **[NIST RMF supporting concepts](../reference/grc-nist-rmf-key-concepts.md)**  
+-   **[NIST RMF supporting concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-nist-rmf-key-concepts.md)**  
 Familiarize yourself with these concepts, developed from the NIST RMF guidance.
--   **[NIST RMF Use Case Accelerator dashboards and reports](../reference/rmf-dashboard-reports.md)**  
+-   **[NIST RMF Use Case Accelerator dashboards and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/rmf-dashboard-reports.md)**  
 The NIST RMF Use Case Accelerator contains various reports displayed on different dashboards, available within each of the sections in the NIST RMF process: Categorize, Select, Implement, Assess, Authorize, and Monitor.
--   **[NIST RMF process overview](nist-rmf-process.md)**  
+-   **[NIST RMF process overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/nist-rmf-process.md)**  
 The NIST RMF navigation structure facilitates the management of the NIST security controls through activities of categorization, selection, implementation, assessment, authorization, and monitoring. These security controls are described in the NIST 800-37.r1 special publication.
 
-**Parent Topic:**[Governance, Risk, and Compliance use case accelerators](../../grc-common/reference/grc-use-case-accelerators.md)
+**Parent Topic:**[Governance, Risk, and Compliance use case accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-use-case-accelerators.md)
 

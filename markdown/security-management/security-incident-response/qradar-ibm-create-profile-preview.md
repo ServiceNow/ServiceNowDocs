@@ -2,6 +2,7 @@
 title: Preview security incident
 description: After you complete the mapping step, preview the values that you mapped in a SIR security incident. This preview permits you to verify that you have mapped all the offense fields that you want displayed on the security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/qradar-ibm-create-profile-preview.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -33,7 +34,7 @@ As a user with the sn\_si.admin role, preview a security incident and edit the m
 
 3.  Review the field mapping of the offense values on the security incident.
 
-    ![IBM QRadar: Create Profile: Preview](../image/ibm-qradar-profile-preview-1.png)
+    \[Omitted image "ibm-qradar-profile-preview-1.png"\] Alt text: IBM QRadar: Create Profile: Preview
 
     The preceding image is an example of a preview with a mapping error of the samples that were ingested.
 
@@ -45,7 +46,7 @@ As a user with the sn\_si.admin role, preview a security incident and edit the m
 
     The following figure is an example of the Incident Details tab on the bottom half of a SIR security incident after all error messages are resolved.
 
-    ![Work note and Description fields on the security incident preview.](../image/ibm-qradar-profile-preview-2.png)
+    \[Omitted image "ibm-qradar-profile-preview-2.png"\] Alt text: Work note and Description fields on the security incident preview.
 
     **Note:** The Profile Preview section displays related items for **Unmatched Affected User** and **Unmatched Configuration Item** when matching CMDB or identity records are not found. After ingestion, Security Incident records show **Unmatched CI** in the **Configuration Items** related list and **Unmatched Affected Users** in a dedicated related list, ensuring complete visibility of affected entities throughout the incident life-cycle.
 
@@ -54,5 +55,5 @@ As a user with the sn\_si.admin role, preview a security incident and edit the m
 
 ## What to do next
 
-If no error messages are displayed, and you are satisfied with the field mapping on the security incident, the next step is to define the schedule. For more information, see [Define schedule](qradar-ibm-create-profile-schedule.md).
+If no error messages are displayed, and you are satisfied with the field mapping on the security incident, the next step is to define the schedule. For more information, see [Define schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/qradar-ibm-create-profile-schedule.md).
 

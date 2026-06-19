@@ -2,6 +2,7 @@
 title: Delete a Talent pool
 description: Delete a Talent pool when it has served its purpose or it’s no longer relevant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/delete-talent-pool.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -38,5 +39,5 @@ Role required: sn\_ta\_hiring\_core.recruiter
 
 You have deleted the selected Talent pool.
 
-**Parent Topic:**[Using Talent profile](../concept/config-t-pool.md)
+**Parent Topic:**[Using Talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/config-t-pool.md)
 

@@ -2,6 +2,7 @@
 title: Print workplace tasks
 description: Workplace coordinators can print the workplace task details and the associated workplace activities that are created and scheduled in the workplace for each shift. The task reports contain reservation details, description, services, and all other relevant information for effective task management and resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-core/print-workplace-tasks-core.html
 release: zurich
 product: Workplace Core
 classification: workplace-core
@@ -36,5 +37,5 @@ Role required: sn\_wsd\_core.task\_reader
     **Note:** The Print task button is visible to the sn\_wsd\_case.case\_reader role only.
 
 
-**Parent Topic:**[Managing workplace tasks](../concept/managing-workplace-maintenance-tasks.md)
+**Parent Topic:**[Managing workplace tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/managing-workplace-maintenance-tasks.md)
 

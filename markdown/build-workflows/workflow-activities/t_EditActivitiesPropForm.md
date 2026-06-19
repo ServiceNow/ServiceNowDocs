@@ -2,6 +2,7 @@
 title: Edit the workflow activity properties form
 description: Customize which workflow variables appear on an activity properties form and how the variables are arranged on the form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-activities/t\_EditActivitiesPropForm.html
 release: zurich
 product: Workflow Activities
 classification: workflow-activities
@@ -31,6 +32,6 @@ Role required: admin
 
     The activity variables appear as separate items that you can rearrange on the form.
 
-    For more details on using the form design interface, see [Using the form designer](https://www.servicenow.com/docs/access?context=c_FormDesign&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For more details on using the form design interface, see Using the form designer.
 
 

@@ -2,6 +2,7 @@
 title: Review Proofpoint integration settings
 description: Review the Proofpoint integration settings so that you can modify the system properties for your environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/review-proofpoint-integration-setting-sir.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

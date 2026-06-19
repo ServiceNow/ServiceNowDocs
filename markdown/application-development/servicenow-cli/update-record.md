@@ -2,6 +2,7 @@
 title: Update a record
 description: Updates the specified record with the given data attributes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-cli/update-record.html
 release: zurich
 product: ServiceNow CLI
 classification: servicenow-cli
@@ -148,5 +149,5 @@ The system returns field-value pairs for the updated record.
 }
 ```
 
-**Parent Topic:**[Perform record operations using ServiceNow CLI](manage-records.md)
+**Parent Topic:**[Perform record operations using ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-cli/manage-records.md)
 

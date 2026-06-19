@@ -2,6 +2,7 @@
 title: Action tasks in Regulatory Change Management
 description: The action tasks facilitating the change management process are associated with Regulatory Change. The ownership of these action tasks is managed by the respective business owners affected due to the regulatory change.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/regulatory-change-management-service-portal/action-tasks.html
 release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal

@@ -2,6 +2,7 @@
 title: AI Search within App Engine Help Panel
 description: AI Search extends support to search within Help Panel for knowledge articles and embedded help documents. Only relevant content to the user will be displayed based on their role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/ai-search-within-help-panel.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
@@ -21,5 +22,5 @@ AI Search extends support to search within Help Panel for knowledge articles and
 
 **Note:** The search results will be from knowledge tables and embedded help tables. Results are based on context that are relevant to the users.
 
-For more information about AI Search see [AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For more information about AI Search see AI Search.
 

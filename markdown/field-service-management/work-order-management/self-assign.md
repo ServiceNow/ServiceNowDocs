@@ -2,6 +2,7 @@
 title: Accept or reject a work order task on a mobile device
 description: Accept or reject a work order task assigned to you through the Field Service Contractor for mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/self-assign.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

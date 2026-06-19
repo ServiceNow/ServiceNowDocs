@@ -2,6 +2,7 @@
 title: Manage scenarios
 description: Use the Manage scenarios option to view a list of all scenarios, rename scenarios, or delete scenarios.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/manage-scenarios-in-strategic-planning.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -33,15 +34,15 @@ Role required:sn\_align\_core.apw\_user
 
 4.  Do any of the following actions.
 
-<table id="choicetable_qhd_5v3_ccc"><thead><tr><th align="left" id="d186804e115">
+<table id="choicetable_qhd_5v3_ccc"><thead><tr><th align="left" id="d164272e115">
 
 Action
 
-</th><th align="left" id="d186804e118">
+</th><th align="left" id="d164272e118">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d186804e124">
+</th></tr></thead><tbody><tr><td id="d164272e124">
 
 **Delete a scenario**
 
@@ -51,7 +52,7 @@ Description
 2.  Select **Delete**.
 
 
-</td></tr><tr><td id="d186804e145">
+</td></tr><tr><td id="d164272e145">
 
 **Rename a scenario**
 

@@ -2,6 +2,7 @@
 title: Create a content crawl for an external content connector
 description: Retrieve searchable content and metadata from your source system with a content crawl. Run the crawl as a one-time task or schedule it to run on a recurring basis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/create-content-crawl-external-content-connector.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -18,7 +19,7 @@ Retrieve searchable content and metadata from your source system with a content 
 
 ## Before you begin
 
-To run crawls for external content connectors, your instance must have inbound mTLS support enabled. For details on verifying that this feature is enabled on your instance, see [Verify whether inbound mTLS support is enabled for your instance](verify-adcv2-inbound-mtls-enabled.md).
+To run crawls for external content connectors, your instance must have inbound mTLS support enabled. For details on verifying that this feature is enabled on your instance, see [Verify whether inbound mTLS support is activated for your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/verify-adcv2-inbound-mtls-enabled.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
@@ -28,7 +29,7 @@ Search administrators can retrieve searchable content and metadata from an exter
 
 **Note:** Both full and partial content crawls honor the crawl settings defined for your external content connector, including any inclusion/exclusion content filters. Running a full content crawl does not bypass these settings.
 
-Some external content connectors include an **Update user permissions** content crawl option. When you select this option, running the crawl launches both a content crawl and a user permission crawl for your source system. For more details on user permission crawls, see [Create a user permission crawl for an external content connector](create-user-mapping-crawl-external-content-connector.md).
+Some external content connectors include an **Update user permissions** content crawl option. When you select this option, running the crawl launches both a content crawl and a user permission crawl for your source system. For more details on user permission crawls, see [Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-user-mapping-crawl-external-content-connector.md).
 
 You can run a content crawl as a one-time task or set it to recur on a scheduled basis.
 
@@ -80,20 +81,20 @@ You can run a content crawl as a one-time task or set it to recur on a scheduled
         -   **a**: any of `A`, `a`, `AM`, or `am` for AM \(morning\) or any of `P`, `p`, `PM`, or `pm` for PM \(afternoon\)
 7.  Create your new content crawl by selecting the appropriate option.
 
-    -   If you skipped step [6](create-content-crawl-external-content-connector.md#schedule-crawl), select **Create one-time crawl**.
-    -   If you selected the **Make recurring** option in step [6](create-content-crawl-external-content-connector.md#schedule-crawl), select **Create crawl schedule**.
+    -   If you skipped step [6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-content-crawl-external-content-connector.md), select **Create one-time crawl**.
+    -   If you selected the **Make recurring** option in step [6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-content-crawl-external-content-connector.md), select **Create crawl schedule**.
 
 ## Result
 
-If you skipped step [6](create-content-crawl-external-content-connector.md#schedule-crawl), your new content crawl is added to the system's crawl queue. The system runs your crawl when it has resources available to do so.
+If you skipped step [6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-content-crawl-external-content-connector.md), your new content crawl is added to the system's crawl queue. The system runs your crawl when it has resources available to do so.
 
-If you selected the **Make recurring** option in step [6](create-content-crawl-external-content-connector.md#schedule-crawl), your new crawl appears in the Crawl schedules list in the external content connector editor's Create crawls tab.For partial crawls, the list entry includes a link with the ID of the chosen start point. Selecting this link displays the record for the start point, showing its label as well as its ID.
+If you selected the **Make recurring** option in step [6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-content-crawl-external-content-connector.md), your new crawl appears in the Crawl schedules list in the external content connector editor's Create crawls tab.For partial crawls, the list entry includes a link with the ID of the chosen start point. Selecting this link displays the record for the start point, showing its label as well as its ID.
 
 ## What to do next
 
-You can monitor your content crawl's status or review its results using the crawl history and analytics. For details on these metrics, see [Review crawl history for an external content connector](review-crawl-ext-cont-connector.md).
+You can monitor your content crawl's status or review its results using the crawl history and analytics. For details on these metrics, see [Review crawl history for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/review-crawl-ext-cont-connector.md).
 
-If you need to cancel your running content crawl, see [Cancel a running external content connector crawl](cancel-ext-cont-connector-crawl.md).
+If you need to cancel your running content crawl, see [Cancel a running external content connector crawl](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/cancel-ext-cont-connector-crawl.md).
 
-**Parent Topic:**[Crawling content with External Content Connectors](../concept/using-ext-cont-connectors.md)
+**Parent Topic:**[Crawling content with External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/using-ext-cont-connectors.md)
 

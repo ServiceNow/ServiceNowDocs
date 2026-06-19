@@ -2,6 +2,7 @@
 title: Set the factoid extraction mode for Q&amp;A Genius Results
 description: Specify how you want factoid extraction to display and highlight answers for Q&amp;A Genius Results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/set-factoid-extraction-mode-qna-gr.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -42,10 +43,10 @@ As a search administrator, you can specify the factoid extraction mode for Q&amp
     -   **none** if you want to disable factoid extraction and highlighting for Q&amp;A Genius Results.
     -   **sentence** if you want Q&amp;A Genius Result answer cards to display only the sentence containing the factoid \(and to highlight the factoid\).
     -   **snippet** if you want Q&amp;A Genius Result answer cards to display the full extracted text snippet containing the factoid \(and to highlight the factoid\).
-    For details on these system property values, see the [System properties for factoid extraction in Q&amp;A Genius Results](../reference/sys-props-factoid-extract-qna-gr.md) section.
+    For details on these system property values, see the [System properties for factoid extraction in Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/sys-props-factoid-extract-qna-gr.md) section.
 
 4.  Save the modified System Property record by selecting **Submit** or **Update**.
 
 
-**Parent Topic:**[Q&amp;A Genius Results](../concept/genius-result-q-a-ais.md)
+**Parent Topic:**[Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/genius-result-q-a-ais.md)
 

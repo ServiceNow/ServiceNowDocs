@@ -2,6 +2,7 @@
 title: NIST CSF process overview
 description: The NIST CSF navigation structure facilitates the management of the NIST cybersecurity through activities of identification and prioritization, as described in the NIST Framework for Improving Critical Infrastructure Cybersecurity version 1.1 and version 2.0 special publications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/nist-csf-process.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -39,10 +40,10 @@ These roles enable users to perform the following critical activities:
 
 To create and manage controls, users must have the sn\_compliance.user role or a higher-level compliance role.
 
--   **[Identify the framework core](identify-framework-core.md)**  
+-   **[Identify the framework core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/identify-framework-core.md)**  
 Within the NIST CSF application, the **Framework Core** section is used to identify categories and subcategories as cybersecurity policies and their statement policies.
--   **[Align and prioritize cybersecurity activities](align-prioritize-activities.md)**  
+-   **[Align and prioritize cybersecurity activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/align-prioritize-activities.md)**  
 Within the NIST CSF application, the **Framework Profiling** section is used to help an organization to align and prioritize its cybersecurity activities with its requirements, risk tolerances, and resources.
 
-**Parent Topic:**[NIST CSF Use Case Accelerator](grc-csf-usecase-accelerator.md)
+**Parent Topic:**[NIST CSF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-csf-usecase-accelerator.md)
 

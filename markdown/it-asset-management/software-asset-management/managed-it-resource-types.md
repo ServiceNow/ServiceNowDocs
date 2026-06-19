@@ -2,6 +2,7 @@
 title: Managed IT Resource types
 description: There are five IT Resource categories in ServiceNow Software Asset Management - Server, End User Computing Device, SaaS Subscription User, PaaS Resources, and IaaS Storage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/managed-it-resource-types.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -112,5 +113,5 @@ IaaS storage
 cmdb\_ci\_storage\_volumeAny child classes of the above listed classes.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Subscriptions for Software Asset Management](sam-subscription.md)
+</table>**Parent Topic:**[Subscriptions for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-subscription.md)
 

@@ -2,6 +2,7 @@
 title: Inventory overview for Enterprise Asset Workspace
 description: Use the Inventory view in the Enterprise Asset Workspace to optimize inventory thresholds and automate re-order process. You can create workflows and view detailed information on your inventory.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/inventory-overview-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -21,7 +22,7 @@ You can access the Inventory view by navigating to **Enterprise Asset Workspace*
 
 To access detailed information and take relevant action, select any widget. You can also narrow your results by using the **Location**, **Stockroom**, and **Model category** filters.
 
-![Inventory view for Enterprise Asset Workspace](../image/eam-inventoryview.png "Inventory view")
+\[Omitted image "eam-inventoryview.png"\] Alt text: Inventory view for Enterprise Asset Workspace
 
 Use the following tabs to view your inventory:
 

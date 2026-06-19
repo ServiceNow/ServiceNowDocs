@@ -2,6 +2,7 @@
 title: Common IdP connection errors
 description: The following table describes some of the common IdP connection errors and their solutions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/r\_CommonConnectionErrors.html
 release: zurich
 product: Authentication
 classification: authentication

@@ -2,6 +2,7 @@
 title: SAML 2.0 concepts
 description: Familiarize yourself with these SAML concepts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/c\_SAMLConcepts.html
 release: zurich
 product: Authentication
 classification: authentication

@@ -2,6 +2,7 @@
 title: Create expense lines for closed tasks in Enterprise Asset Workspace
 description: Automatically create expense lines for previously closed tasks, that originally had no expense lines, in order to calculate costs for those tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/create-expenselines-closed-tasks-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -43,5 +44,5 @@ Role required: sn\_eam.enterprise\_asset\_manager
     The background job **Asset Common Expense Lines for Historical tasks** runs only once and looks for closed tasks without any expense lines and creates expense lines for all those closed tasks. Once the expense lines are created, the **Create expense lines for tasks** button is no longer visible.
 
 
-**Parent Topic:**[Configuring Total Cost of Ownership for enterprise assets](../concept/confifure-eam-asset-tco.md)
+**Parent Topic:**[Configuring Total Cost of Ownership for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/confifure-eam-asset-tco.md)
 

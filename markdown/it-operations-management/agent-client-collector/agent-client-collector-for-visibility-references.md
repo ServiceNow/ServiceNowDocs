@@ -2,6 +2,7 @@
 title: Agent Client Collector for Visibility - Content reference
 description: Review this information for details on OS query scripts, data collected, and definition of terms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -219,7 +220,7 @@ ACC-VC uses the same classification criteria as IP-based Discovery for classifyi
 -   Local User – cmdb\_os\_user \(Populates the local users for all the Operating Systems that ACC-VC supports by adding a new module called local\_user​\)
 -   Enhanced inventory – Collects enhanced data \(such CPU info, start\_date, object\_id\) which is not necessary for identifying a unique host.
 
-![This diagram shows the layout and relationships](../image/acc_v_relationships.png "Relationships between host computer, file systems, and storage devices")
+\[Omitted image "acc\_v\_relationships.png"\] Alt text: This diagram shows the layout and relationships
 
 ## Agent Client Collector terms
 

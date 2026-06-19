@@ -2,6 +2,7 @@
 title: Cancel a purchase order
 description: You can cancel purchase orders with a status of Requested, Ordered, or Pending Delivery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/procurement/t\_CancelAPurchaseOrder.html
 release: zurich
 product: Procurement
 classification: procurement
@@ -34,5 +35,5 @@ Purchase order line items can also be canceled from a purchase order.
     All associated purchase order line items that have not been received are canceled. Any assets created for the purchase order are deleted.
 
 
-**Parent Topic:**[Create a purchase order](t_CreateAPurchaseOrder.md)
+**Parent Topic:**[Create a purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/procurement/t_CreateAPurchaseOrder.md)
 

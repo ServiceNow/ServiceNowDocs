@@ -2,11 +2,12 @@
 title: Control the default cost book on transaction header or header line
 description: Set the default cost book displayed to your sales agents on the transaction header or header line for a Sales Customer Relationship Management application by using the Cost Book Defaulting Matrix.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/som-control-default-costbook.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Pricing Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -17,7 +18,7 @@ Set the default cost book displayed to your sales agents on the transaction head
 
 ## Before you begin
 
-Role required: sn\_csm\_pricing\_pricelist\_administrator, sn\_csm\_pricing\_pricelist\_manager
+Role required: sn\_csm\_pricing.pricelist\_administrator, sn\_csm\_pricing.pricelist\_manager
 
 ## About this task
 
@@ -25,7 +26,7 @@ The transaction header is a record that contains general information about an en
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![image.Lists] view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Pricing** &gt; **Pricing Matrices**.
 

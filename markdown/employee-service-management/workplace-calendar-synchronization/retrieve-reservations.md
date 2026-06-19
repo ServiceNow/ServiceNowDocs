@@ -2,6 +2,7 @@
 title: Retrieve reservations
 description: Retrieves all the events for the active Reservable Sync Configurations from Microsoft Outlook to Workplace Service Delivery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-calendar-synchronization/retrieve-reservations.html
 release: zurich
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization

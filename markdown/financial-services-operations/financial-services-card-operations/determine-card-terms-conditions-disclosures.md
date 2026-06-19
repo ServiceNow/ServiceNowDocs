@@ -2,6 +2,7 @@
 title: Determine a card's Terms and Conditions and Disclosures for a customer
 description: Determine a card's terms and conditions and disclosures and update the customer agreement for a customer. This information is shared with the customer before you issue a new credit card.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-card-operations/determine-card-terms-conditions-disclosures.html
 release: zurich
 product: Financial Services Card Operations
 classification: financial-services-card-operations
@@ -19,29 +20,29 @@ Determine a card's terms and conditions and disclosures and update the customer 
 
 Role required: sn\_bom\_credit\_card.agent or sn\_bom\_credit\_card.agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
-This credit card task is automatically created for a new credit card case when the document service task to [check the completeness of the customer's supporting documents](check-completeness-supporting-documents.md) completes.
+This credit card task is automatically created for a new credit card case when the document service task to [check the completeness of the customer's supporting documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-card-operations/check-completeness-supporting-documents.md) completes.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Open the task from a credit card service case or from the Credit Card Task list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d81695e127">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d77209e127">
 
 Option
 
-</th><th align="left" id="d81695e130">
+</th><th align="left" id="d77209e130">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d81695e136">
+</th></tr></thead><tbody><tr><td id="d77209e136">
 
 **From a credit card service case**
 
@@ -52,7 +53,7 @@ Steps
 3.  In the case, click the **Tasks** tab and select the credit card task.
 
 
-</td></tr><tr><td id="d81695e169">
+</td></tr><tr><td id="d77209e169">
 
 **From the Credit Card Task list**
 

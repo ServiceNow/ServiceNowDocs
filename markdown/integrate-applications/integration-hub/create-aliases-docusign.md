@@ -2,6 +2,7 @@
 title: Create child aliases for additional Docusign accounts
 description: Create a child connection alias under the base alias for each account if your Docusign implementation includes multiple Docusign accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/create-aliases-docusign.html
 release: zurich
 product: Integration Hub
 classification: integration-hub

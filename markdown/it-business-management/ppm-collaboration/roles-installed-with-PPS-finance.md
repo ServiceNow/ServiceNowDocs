@@ -2,6 +2,7 @@
 title: Roles installed with PPM Standard \(Project Portfolio Management\)
 description: Roles are added with activation of PPM Standard plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/ppm-collaboration/roles-installed-with-PPS-finance.html
 release: zurich
 product: PPM Collaboration
 classification: ppm-collaboration
@@ -421,5 +422,5 @@ View rate model and rate lines.
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Project Portfolio Management \(PPM\) Standard](r_InstalledWithProjectPortfolioSuiteWithFinancials.md)
+</table>**Parent Topic:**[Components installed with Project Portfolio Management \(PPM\) Standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/r_InstalledWithProjectPortfolioSuiteWithFinancials.md)
 

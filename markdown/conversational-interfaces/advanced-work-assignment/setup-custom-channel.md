@@ -2,6 +2,7 @@
 title: Set up a custom service channel
 description: Set up a custom service channel to expand the type and scope of work that is routed automatically to your agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/setup-custom-channel.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -41,21 +42,21 @@ You can create a service channel record from the Service Channel module, but you
 
 3.  Complete the service channel fields, and then select **Submit**.
 
-    For more information, see [Create or configure a service channel](awa-create-service-channel.md).
+    For more information, see [Create or configure a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-create-service-channel.md).
 
 4.  Create an assignment rule.
 
-    For more information, see [Configure agent assignment rules](awa-create-assignment-rule.md).
+    For more information, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md).
 
 5.  Create a work item queue for your service channel.
 
-    For more information, see [Create a work item queue](awa-create-queue.md).
+    For more information, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-create-queue.md).
 
 6.  On the form for the work item queue that you created, go to the **Assignment Eligibility** related link and create an eligible assignment pool.
 
     Make sure to associate your assignment rule to the eligible assignment pool.
 
-    For more information, see [Define agent pools eligible for assignment](awa-specify-assignment-eligibility.md).
+    For more information, see [Define agent pools eligible for assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-specify-assignment-eligibility.md).
 
 7.  Make your service channel available in Agent Workspace.
 
@@ -71,19 +72,19 @@ You can create a service channel record from the Service Channel module, but you
 
 8.  Create or change the inbox card layout to show the most important information from a work item.
 
-    For more information, see [Create or change an inbox layout](awa-modify-inbox-layout.md).
+    For more information, see [Create or change an inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-modify-inbox-layout.md).
 
 
 ## Result
 
 Your custom service channel routes work to agents. In Agent Workspace, the service channel appears as an available service channel in the agent inbox.
 
--   **[Tutorial: Set up a custom service channel for change requests](../concept/custom-channel-tutorial.md)**  
+-   **[Tutorial: Set up a custom service channel for change requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/custom-channel-tutorial.md)**  
 Learn how to configure Advanced Work Assignment to automatically assign change requests to agents. Use this tutorial as a guideline to help you understand how service channel records, queues, and assignment rules work together to create a custom service channel.
--   **[Create a service channel to route requests](custom-service-channel-tutorial.md)**  
+-   **[Create a service channel to route requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/custom-service-channel-tutorial.md)**  
 Create a service channel in Advanced Work Assignment so that you can route change requests to agents.
--   **[Create an assignment rule for change requests](assignment-rule-example.md)**  
+-   **[Create an assignment rule for change requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/assignment-rule-example.md)**  
 Create an assignment rule in Advanced Work Assignment that assigns change requests to agents who are available to do the tasks.
 
-**Parent Topic:**[Configuring Advanced Work Assignment](installing-awa.md)
+**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

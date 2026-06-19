@@ -2,6 +2,7 @@
 title: Approve or reject model assessment and validation tasks
 description: Approve or reject the model assessment and validation tasks either from the Employee Center or Model Risk Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/model-risk-management/approve-or-reject-model-assessment-task.html
 release: zurich
 product: Model Risk Management
 classification: model-risk-management
@@ -25,7 +26,7 @@ Role required: sn\_model\_risk\_mgmt.task\_approver
 
     1.  Under My active items, select **GRC tasks**.
 
-    2.  Select **Approvals** from the My to-dos card.![GRC tasks page.](../image/grc-task-page-mrm.png)
+    2.  Select **Approvals** from the My to-dos card.\[Omitted image "grc-task-page-mrm.png"\] Alt text: GRC tasks page.
 
     3.  To approve or reject model assessment tasks, select **Model assessment tasks** and open the task.
 
@@ -33,7 +34,7 @@ Role required: sn\_model\_risk\_mgmt.task\_approver
 
 2.  To approve or reject model assessment and validation tasks from the Model Risk Workspace, navigate to **All** &gt; **Model Risk Workspace** and do the following:
 
-    1.  Select the tasks icon ![](../image/tasks-icon-mrm.png).
+    1.  Select the tasks icon \[Omitted image "tasks-icon-mrm.png"\] Alt text:.
 
     2.  To approve or reject model assessment tasks, select **MRM Assessments** and open the task.
 
@@ -41,7 +42,7 @@ Role required: sn\_model\_risk\_mgmt.task\_approver
 
 3.  Select **Approve**.
 
-4.  To reject the task, select **Reject** and do the following:![Reject task dialog box.](../image/reject-task-mrm.png)
+4.  To reject the task, select **Reject** and do the following:\[Omitted image "reject-task-mrm.png"\] Alt text: Reject task dialog box.
 
     1.  Provide rejection comments.
 
@@ -50,5 +51,5 @@ Role required: sn\_model\_risk\_mgmt.task\_approver
         This action terminates the current workflow and initiates it again from the beginning.
 
 
-**Parent Topic:**[Using Model Risk Management](../concept/using-mrm.md)
+**Parent Topic:**[Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/model-risk-management/using-mrm.md)
 

@@ -2,6 +2,7 @@
 title: Glide events relative to workflows
 description: Workflow uses several Glide events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/legacy-workflow/r\_GlideEventsRelativeToWorkflows.html
 release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
@@ -22,5 +23,5 @@ Workflow uses several Glide events.
 |Delete|Global event set upon the delete of a GlideRecord that causes the script engine, and through that the workflow engine, to wake up.|Looks to the Workflow Context \[wf\_context\] table to find running workflows that are associated with the current GlideRecord by document ID.|There is no explicit customer-facing use for this in a workflow. It is part of the Glide engine, and with this event, the only thing workflows can do is advance through the next set of transitions.|Workflow Engine, RunEngine|Current thread, current mutex|User action of delete of a GlideRecord|
 |Query|Global event set upon the query of the Glide database that causes the script engine, and through that the workflow engine, to wake up.|Looks to the Workflow Context \[wf\_context\] table to find running workflows that are associated with the current GlideRecord by document ID.|There is no explicit customer-facing use for this in a workflow. It is part of the Glide engine, and with this event, the only thing workflows can do is advance through the next set of transitions.|Workflow Engine, RunEngine|Current thread, current mutex|User action of query of a GlideRecord|
 
-**Parent Topic:**[Workflow events in the base system](r_WorkflowEventsInTheBaseSystem.md)
+**Parent Topic:**[Workflow events in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/r_WorkflowEventsInTheBaseSystem.md)
 

@@ -2,6 +2,7 @@
 title: Domain separation and Asset Management - Procurement Integration
 description: Domain separation is supported for Asset Management - Procurement Integration. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/procurement/asset-mgmt-proc-domain-separation.html
 release: zurich
 product: Procurement
 classification: procurement
@@ -23,7 +24,7 @@ Domain separation is supported for Asset Management - Procurement Integration. D
 
 Sample use case: Tenant-customers of a shared environment must be able to change the impact, urgency, or priority matrix to set priority within their domain.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## Asset Management - Procurement integration overview
 

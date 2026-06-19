@@ -2,6 +2,7 @@
 title: Get started with Mobile SDK - Android
 description: You must complete the tasks outlined in this section to prepare your development environment to support writing Android applications that integrate with the ServiceNow Mobile SDK.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/developer-guides/mobsdk-and-get-started.html
 release: zurich
 product: Developer Guides
 classification: developer-guides
@@ -15,10 +16,10 @@ breadcrumb: [Mobile SDK Developer Guide - Android, Developer guides, API impleme
 
 You must complete the tasks outlined in this section to prepare your development environment to support writing Android applications that integrate with the ServiceNow Mobile SDK.
 
--   Download and install the ServiceNow Mobile SDK libraries. For detailed instructions, see [Download and install the Mobile SDK library](../task/mobsdk-and-down-install-sdk.md).
--   Install and configure the Mobile SDK scoped application. For detailed instructions, see [Install and configure the Mobile SDK scoped application](../task/mobsdk-and-install_config-sdk_plugin.md).
--   Configure your project. For more information, see [Configure your project](../task/mobsdk-and-config-project.md).
--   Activate and configure the Mobile SDK on your ServiceNow instance. For details, see [Configure certificate and create an OAuth Entity](../task/mobsdk-and-config-certificate.md).
+-   Download and install the ServiceNow Mobile SDK libraries. For detailed instructions, see [Download and install the Mobile SDK library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/developer-guides/mobsdk-and-down-install-sdk.md).
+-   Install and configure the Mobile SDK scoped application. For detailed instructions, see [Install and configure the Mobile SDK scoped application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/developer-guides/mobsdk-and-install_config-sdk_plugin.md).
+-   Configure your project. For more information, see [Configure your project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/developer-guides/mobsdk-and-config-project.md).
+-   Activate and configure the Mobile SDK on your ServiceNow instance. For details, see [Configure certificate and create an OAuth Entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/developer-guides/mobsdk-and-config-certificate.md).
 
 Once all of these tasks are completed, you can then start creating mobile applications that leverage the significant resources on your ServiceNow instance.
 

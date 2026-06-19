@@ -2,6 +2,7 @@
 title: Get product recommendations for opportunities using needs analysis
 description: Choose a needs template from the product selection guide in the product catalog to get product recommendations for sales opportunities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/opp-mgmt-use-needs-analysis.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -43,12 +44,12 @@ A needs template is a questionnaire that you complete to get product recommendat
 
 6.  After replying to the last question, review or select the recommendations:
 
-    -   To review your responses, select the **Edit** ![](../../../reuse/itom/image/workspace-icon-edit.png) icon. You can change your responses if needed.
+    -   To review your responses, select the **Edit** \[Omitted image "workspace-icon-edit.png"\] Alt text: icon. You can change your responses if needed.
     -   To view product recommendations, choose **Select Recommendations**. The Catalog tab displays the recommended products.
 7.  Choose a recommendation by selecting **Add** in the card for the product that best matches your customer needs.
 
     The selected product is added to the opportunity. The Needs tab displays the needs template that you selected. You can review the needs template and if needed, change your answers, which might result in different product recommendations.
 
 
-**Parent Topic:**[Using Opportunity Management](../concept/opportunity-mgmt-using.md)
+**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-mgmt-using.md)
 

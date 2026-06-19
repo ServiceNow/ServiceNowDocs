@@ -2,6 +2,7 @@
 title: Activate the Journey Summarization for Managers skill
 description: Activate the Journey Summarization for Managers skill in Now Assist for HRSD using the Now Assist Admin console. Managers use this generative AI skill to produce and view a summary of an employee's journey based on the information that appears on the Journey detail page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/activate-jny-summarization.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -48,8 +49,8 @@ Role required: \[sn\_jny.admin\], \[sn\_nowassist\_admin.nsa\_admin\]
     A dialog box displays the following message: `Journey Summarization for Managers is now active for HRSD!`
 
 
--   **[Summarize a journey with Now Assist for HR Service Delivery \(HRSD\)](summarize-jny.md)**  
+-   **[Summarize a journey with Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/summarize-jny.md)**  
 Managers can instantly summarize the information that appears on the Journey detail page to acquire an overview of an employee's journey. This summary also reflects the blockers that are impeding the journey's progress and the steps required to resume the journey's progress.
 
-**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](../concept/jny-working-with-journeys.md)
+**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-working-with-journeys.md)
 

@@ -2,6 +2,7 @@
 title: APIs for IT to OT and OT to IT conversion
 description: There are 2 APIs used for handling refresh workflow scenarios for converting IT to Operational Technology \(OT\) and vice versa with the OT Asset Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-manager/api-for-it-to-ot-and-ot-to-it-conversion.html
 release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -32,9 +33,9 @@ The Convert IT to OT Asset API is used in refresh workflows where an OT configur
 
 The Convert OT to IT Asset API is used if an asset needs to be replaced. The API deletes the OT entity record of the passed CI.
 
-For more information about Asset and Configuration Item \(CI\) synchronization for Operational Technology \(OT\) assets, see [Asset and Configuration Item \(CI\) synchronization for Operational Technology \(OT\) assets](https://www.servicenow.com/docs/access?context=asset-ci-sync-ot-assets&version=zurich&pubname=zurich-it-asset-management&ft:locale=en-US).
+For more information about Asset and Configuration Item \(CI\) synchronization for Operational Technology \(OT\) assets, see .
 
-For more information about OT Asset Management, see [OT Asset Management](https://www.servicenow.com/docs/access?context=ot-asset-management&version=zurich&pubname=zurich-it-asset-management&ft:locale=en-US).
+For more information about OT Asset Management, see .
 
-**Parent Topic:**[Operational Technology Manager reference](operational-technology-manager-reference.md)
+**Parent Topic:**[Operational Technology Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/operational-technology-manager-reference.md)
 

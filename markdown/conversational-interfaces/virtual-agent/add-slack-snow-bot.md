@@ -2,6 +2,7 @@
 title: Integrate ServiceNow Virtual Agent with Slack
 description: Add the Virtual Agent bot to your ServiceNow instance to integrate with Slack.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/add-slack-snow-bot.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -34,11 +35,11 @@ Role required: admin
 
     **Note:** The **Add Integrations** drop-down is available only after installing the Conversational Integration with Slack plugin \(sn\_va\_slack\) on your ServiceNow instance.
 
-    ![Slack Add integration drop-down list. The Integrate with ServiceNow Virtual Agent option is highlighted.](../images/add-slack-snow-integ.png)
+    \[Omitted image "add-slack-snow-integ.png"\] Alt text: Slack Add integration drop-down list. The Integrate with ServiceNow Virtual Agent option is highlighted.
 
 4.  Enter your Slack workspace URL to sign into your Slack workspace, and select **Continue**.
 
-    ![Enter your workspace URL to sign in.](../images/sign-into-slack-workspace.png)
+    \[Omitted image "sign-into-slack-workspace.png"\] Alt text: Enter your workspace URL to sign in.
 
     **Note:** Ensure that you input the name of the Slack workspace for which you have access.
 
@@ -50,7 +51,7 @@ Role required: admin
 
     **Note:**
 
-    Starting from Utah release, if your Slack workspace is already associated with another ServiceNow instance, but if you intend to associate it with a new instance, then you're asked to reach out to the administrator to first uninstall it from the previously associated instance. For more information, see [Override Slack integration](override-slack-install.md).
+    Starting from Utah release, if your Slack workspace is already associated with another ServiceNow instance, but if you intend to associate it with a new instance, then you're asked to reach out to the administrator to first uninstall it from the previously associated instance. For more information, see [Override Slack integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/override-slack-install.md).
 
     When Virtual Agent has been successfully installed on the Slack workspace, a completion message appears.
 
@@ -65,7 +66,7 @@ Role required: admin
 
 If you would like to integrate your ServiceNow instance with another Slack bot, select the plus icon in the ServiceNow Virtual Agent tile, or select the **Add integration** list on the Manage Slack channel page.
 
-For more information, see [Manage the ServiceNow Virtual Agent integration with Slack](configure-va-slack.md).
+For more information, see [Manage the ServiceNow Virtual Agent integration with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-va-slack.md).
 
-**Parent Topic:**[Integrating ServiceNow Virtual Agent with Slack](../concept/va-integ-slack.md)
+**Parent Topic:**[Integrating ServiceNow Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integ-slack.md)
 

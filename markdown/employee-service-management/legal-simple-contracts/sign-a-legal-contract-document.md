@@ -2,6 +2,7 @@
 title: Sign or decline a legal contract electronically in Legal Simple Contracts
 description: As a signatory, you can review and sign or decline to sign a contract document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-simple-contracts/sign-a-legal-contract-document.html
 release: zurich
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -65,5 +66,5 @@ The Signatory status in the request updates to Cancelled.
 -   The document status in the request updates from Pending Signature to Contract Declined.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Signature process for a legal request](../concept/lsd-signature-workflow.md)
+</table>**Parent Topic:**[Signature process for a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/lsd-signature-workflow.md)
 

@@ -2,6 +2,7 @@
 title: CPQ Configurator
 description: The CPQ Configurator interface streamlines the process of configuring and pricing customizable products that are added to Sales Customer Relationship Management transactions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/explore-servicenowcpq.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -45,7 +46,7 @@ The CPQ Configurator is an attribute-based interface embedded in Sales Customer 
 
 The following workflow describes the tasks involved in configuring and using the CPQ Configurator to configure customizable products.
 
-![Workflow that shows the tasks involved in configuring and using the CPQ Configurator, as described in the following steps](../image/configurable-product-offering-setup.svg "CPQ Configurator workflow for generating product blueprints and configuring customizable products")
+\[Omitted image "configurable-product-offering-setup.svg"\] Alt text: Workflow that shows the tasks involved in configuring and using the CPQ Configurator, as described in the following steps
 
 1.  If upgrading from a release before Zurich, the system admin enables the system property that runs the CPQ Configurator in Sales Customer Relationship Management applications.
 2.  The product catalog admin creates and saves a configurable product offering in Product Catalog Management.
@@ -60,15 +61,15 @@ The following workflow describes the tasks involved in configuring and using the
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Generate and maintain blueprints that contain configuration logic \(rules, attributes, product relationships\) for complex products.|[Create configurable product offerings and associated blueprints](../task/som-create-configurable-prod-offerings.md)|Product catalog admins|
-|Quickly and accurately configure complex products based on requirements and product attributes, without requiring extensive knowledge of product structure and hierarchies.|[Using the CPQ Configurator](using-servicenowcpq.md)|Sales and order agents, customers|
+|Generate and maintain blueprints that contain configuration logic \(rules, attributes, product relationships\) for complex products.|[Create configurable product offerings and associated blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-create-configurable-prod-offerings.md)|Product catalog admins|
+|Quickly and accurately configure complex products based on requirements and product attributes, without requiring extensive knowledge of product structure and hierarchies.|[Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/using-servicenowcpq.md)|Sales and order agents, customers|
 
 ## What to explore next
 
 To learn more about configuring and using the CPQ Configurator, see:
 
--   [Configuring CPQ Configurator](configuring-servicenow-cpq.md)
--   [Create configurable product offerings and associated blueprints](../task/som-create-configurable-prod-offerings.md)
--   [Using the CPQ Configurator](using-servicenowcpq.md)
+-   [Configuring CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/configuring-servicenow-cpq.md)
+-   [Create configurable product offerings and associated blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-create-configurable-prod-offerings.md)
+-   [Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/using-servicenowcpq.md)
 -   Online help \(access Logik help topics in the CPQ Configurator interface for product catalog admins\)
 

@@ -2,6 +2,7 @@
 title: Entitle an application
 description: Entitle an application from your ServiceNow AI Platform instance if the application has been purchased but not yet linked to the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/application-manager/entitle-applications-in-application-manager.html
 release: zurich
 product: Application Manager
 classification: application-manager
@@ -36,5 +37,5 @@ Role required: admin
 
 The application is entitled and can be installed.
 
-**Parent Topic:**[Installing applications, plugins, and products](../../../administer/application-manager/concept/installing-apps-app-manager.md)
+**Parent Topic:**[Installing applications, plugins, and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/application-manager/installing-apps-app-manager.md)
 

@@ -2,6 +2,7 @@
 title: Add signatories in self-served contract request
 description: Add signatories in self-served contract requests when the contract is generated from a template configured with signature blocks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-update-sign-ss-cmr.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -29,19 +30,19 @@ Role required: sn\_cm\_core.contract\_fulfiller or sn\_cm\_core.contract\_user
 
 4.  On the Add Signatory form, indicate whether you are configuring an internal or external signatory by selecting **Internal** or **External**.
 
-    ![Add signatories in contract request.](../image/cmpro-add-sign.png "Add signatory")
+    \[Omitted image "cmpro-add-sign.png"\] Alt text: Add signatories in contract request.
 
 5.  Configure the signatories.
 
-<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d432263e110">
+<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d414676e110">
 
 Option
 
-</th><th align="left" id="d432263e113">
+</th><th align="left" id="d414676e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d432263e119">
+</th></tr></thead><tbody><tr><td id="d414676e119">
 
 **Internal**
 
@@ -55,7 +56,7 @@ The fields **Authorized signatory name**, **Signatory**, and **Signatory email**
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d432263e160">
+</td></tr><tr><td id="d414676e160">
 
 **External**
 
@@ -70,5 +71,5 @@ The fields **Authorized signatory name**, **Signatory**, and **Signatory email**
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use self-served contract request](../concept/cncore-request-ss-contract-1.md)
+**Parent Topic:**[Use self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

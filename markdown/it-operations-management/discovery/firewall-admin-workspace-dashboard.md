@@ -2,6 +2,7 @@
 title: Firewall Admin Workspace dashboard
 description: The unified dashboard enables security and risk teams to oversee tasks, change requests, and the entire firewall inventory life cycle, with daily or manual updates for accurate and current information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/firewall-admin-workspace-dashboard.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -19,19 +20,19 @@ The unified dashboard enables security and risk teams to oversee tasks, change r
 
 The **Insights** tab offers a snapshot of firewall policies and associated devices, showcasing trends in policies without owners over time. Track new and unaudited policies, and view the distribution of device manufacturers and models within the network.
 
-![The Firewall Insights tab visualizes the data of the firewall records tables.](../image/firewall-insights-tab.png)
+\[Omitted image "firewall-insights-tab.png"\] Alt text: The Firewall Insights tab visualizes the data of the firewall records tables.
 
 ## Requests and Audits tab
 
 Within the **Tasks** tab, explore the **Requests** and **Audits** sub-tabs. The **Requests** tab provides breakdowns of request tasks by state and ownership, along with fulfillment trends over time. Similarly, the **Audits** tab displays outstanding audits by state and ownership, along with response trends over time.
 
-![Select the requests sub-tab near the top of the page.](../image/firewall-requests-tab.png)![Select the audits sub-tab near the top of the page.](../image/firewall-audits-tab.png)
+\[Omitted image "firewall-requests-tab.png"\] Alt text: Select the requests sub-tab near the top of the page.\[Omitted image "firewall-audits-tab.png"\] Alt text: Select the audits sub-tab near the top of the page.
 
 ## Firewall Records tab
 
 The **Firewall Records** tab offers consolidated access to Records, Rules Requests, and Audits tables. Users can filter, edit, and export individual or groups of records. The **Devices** and **Security Policy** sub-tabs feature a dependency viewer for selected records.
 
-![The Firewall Records tab displays categories on the sidebar, and records in the tables.](../image/firewall-records-tab.png)
+\[Omitted image "firewall-records-tab.png"\] Alt text: The Firewall Records tab displays categories on the sidebar, and records in the tables.
 
 ## End user and roles
 
@@ -44,5 +45,5 @@ The **Firewall Records** tab offers consolidated access to Records, Rules Reques
 
 To update the dashboard manually, navigate to **Performance Analytics** &gt; **Data Collector** &gt; **Jobs** and select **Firewall Scheduled Job**. Open the record and select **Execute Now** to update the dashboard elements with the latest information.
 
-**Parent Topic:**[Firewall Audits and Reporting reference](../reference/firewall-audit-report-reference.md)
+**Parent Topic:**[Firewall Audits and Reporting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/firewall-audit-report-reference.md)
 

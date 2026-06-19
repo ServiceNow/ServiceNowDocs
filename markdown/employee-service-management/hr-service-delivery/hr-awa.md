@@ -2,6 +2,7 @@
 title: Advanced Work Assignment \(AWA\) for HR Service Delivery
 description: Use the ServiceNow Advanced Work Assignment for HR Service Delivery feature to automatically assign HR cases to agents based on availability, capacity, and skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-awa.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -21,5 +22,5 @@ For more information, see Agent Workspace Advanced Work Assignment \(AWA\).
 
 AWA is also available for HR Service Delivery Agent Workspace. For more information, see .
 
-**Parent Topic:**[HR Service Delivery case assignment](hr-case-assignment.md)
+**Parent Topic:**[HR Service Delivery case assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-case-assignment.md)
 

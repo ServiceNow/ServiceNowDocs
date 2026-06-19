@@ -1,7 +1,8 @@
 ---
-title: User Experience Analytics data options for Single Score data visualizations
-description: When you select a User Experience Analytics data source for a single score visualization, the following Data configuration options are available.
+title: Usage Insights data options for Single Score data visualizations
+description: When you select a Usage Insights data source for a single score visualization, the following Data configuration options are available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/config-dv-sing-sc-uxa-data.html
 release: zurich
 topic_type: reference
 last_updated: "2025-07-31"
@@ -9,11 +10,11 @@ reading_time_minutes: 4
 breadcrumb: [Single score visualization, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# User Experience Analytics data options for Single Score data visualizations
+# Usage Insights data options for Single Score data visualizations
 
-When you select a User Experience Analytics data source for a single score visualization, the following Data configuration options are available.
+When you select a Usage Insights data source for a single score visualization, the following Data configuration options are available.
 
-**Note:** If you add a Platform Analytics data visualization with User Experience Analytics \(UXA\) data to an inline dashboard, the default drilldown for that data visualization is to open the corresponding UXA analytics page. This feature provides a quick and efficient way to drill down and explore specific user behavior from your Platform Analytics dashboard.
+**Note:** If you add a Platform Analytics data visualization with Usage Insights \(UXA\) data to an inline dashboard, the default drilldown for that data visualization is to open the corresponding UXA analytics page. This feature provides a quick and efficient way to drill down and explore specific user behavior from your Platform Analytics dashboard.
 
 <table id="simpletable_wqy_sjr_qtb"><thead><tr><th>
 
@@ -33,7 +34,7 @@ Data source
 
 </td><td>
 
-You have selected a User Experience Analytics data source in [Create a single score data visualization](../task/create-dv-sing-sc-ac.md).
+You have selected a Usage Insights data source in [Create a single score data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-dv-sing-sc-ac.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -53,7 +54,7 @@ Format values
 
 </td><td id="entry_format-values">
 
-Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](value-formatting-reports.md#).
+Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/value-formatting-reports.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -282,5 +283,5 @@ Alignment
 The alignment of the illustration and text in the message.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a single score data visualization](../task/create-dv-sing-sc-ac.md)
+</table>**Parent Topic:**[Create a single score data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-dv-sing-sc-ac.md)
 

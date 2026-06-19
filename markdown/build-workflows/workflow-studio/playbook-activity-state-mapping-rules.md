@@ -2,6 +2,7 @@
 title: Playbook activity state-mapping rules
 description: Map playbook activity states to states from the given experience record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/playbook-activity-state-mapping-rules.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -21,7 +22,7 @@ The out-of-the-box Global Playbook Experience includes default rules for the **s
 
 Find the default mapping rules under the **Status Mapping** tab of a playbook experience.
 
-![Playbook Experience status mapping tab](../image/activity-status-mapping.png "Status Mapping tab")
+\[Omitted image "activity-status-mapping.png"\] Alt text: Playbook Experience status mapping tab
 
 ## Experience status mapping records
 
@@ -32,23 +33,23 @@ A Experience Status Mapping record pulls the states \(**Experience Status value*
 
 The **Experience Status to Activity State** tab controls which activity state is shown in a card for a given experience status record value. The **Activity State to Experience Status** tab controls how the experience status record is updated when a playbook user updates an activity state, such as skipping an activity.
 
-![Mapping from flow states to playbook activity states](../image/activity-state-mapping-flow-exp2act.png "Bidirectional status mapping between flows and playbook activity states")
+\[Omitted image "activity-state-mapping-flow-exp2act.png"\] Alt text: Mapping from flow states to playbook activity states
 
-![Mapping from playbook activity states to flow states](../image/activity-state-mapping-flow-act2exp.png "Bidirectional status mapping between flows and playbook activity states")
+\[Omitted image "activity-state-mapping-flow-act2exp.png"\] Alt text: Mapping from playbook activity states to flow states
 
 **Note:** There is always a default set of activity states, but the set of states for an experience record depends on the table in your activity definition.
 
-![Mapping from task status values to playbook activity states](../image/activity-state-mapping-task-exp2act.png "Task Status to Activity State Map and vice versa")
+\[Omitted image "activity-state-mapping-task-exp2act.png"\] Alt text: Mapping from task status values to playbook activity states
 
-![Mapping from playbook activity states to task status values](../image/activity-state-mapping-act2exp.png "Task Status to Activity State Map and vice versa")
+\[Omitted image "activity-state-mapping-act2exp.png"\] Alt text: Mapping from playbook activity states to task status values
 
 **Note:** The number values shown indicate these task statuses:
 
-![Task status values](../image/activity-state-mapping-task-values.png)
+\[Omitted image "activity-state-mapping-task-values.png"\] Alt text: Task status values
 
 Default playbook activity states will always be set.
 
-![Default activity states in a drop-down for the Activity Card Value field](../image/activity-state-mapping-card.png)
+\[Omitted image "activity-state-mapping-card.png"\] Alt text: Default activity states in a drop-down for the Activity Card Value field
 
-**Parent Topic:**[Playbook activity state mapping](playbook-activity-state-mapping.md)
+**Parent Topic:**[Playbook activity state mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-activity-state-mapping.md)
 

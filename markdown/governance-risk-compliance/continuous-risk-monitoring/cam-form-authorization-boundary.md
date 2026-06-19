@@ -2,6 +2,7 @@
 title: Fields on the Authorization Boundary form
 description: An authorization boundary defines the scope of a particular system that can be continuously managed and monitored using the CAM application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/continuous-risk-monitoring/cam-form-authorization-boundary.html
 release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -123,5 +124,5 @@ Option to set the classification of the boundary. The types are as follows.-   *
 -   **CUI**: Controlled unclassified information \(CUI\) requires specific safeguarding and handling per federal regulations or policies.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[CAM reference](../concept/reference-grc-cam.md)
+</table>**Parent Topic:**[CAM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
 

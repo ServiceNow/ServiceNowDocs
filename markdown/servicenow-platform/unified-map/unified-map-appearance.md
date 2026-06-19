@@ -2,6 +2,7 @@
 title: Controlling Unified Map contents and appearance
 description: Controlling the contents and layout of a map can greatly assist with becoming familiar with and optimizing your CMDB. You can control which elements appear on the map, isolate and analyze relationships between CIs, and simplify the map to isolate issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/unified-map/unified-map-appearance.html
 release: zurich
 product: Unified Map
 classification: unified-map
@@ -15,11 +16,11 @@ breadcrumb: [Use, Unified Map, Configuration Management Database \(CMDB\), Confi
 
 Controlling the contents and layout of a map can greatly assist with becoming familiar with and optimizing your CMDB. You can control which elements appear on the map, isolate and analyze relationships between CIs, and simplify the map to isolate issues.
 
-**Important:** This topic describes changes that you can make to your view of the map. The changes do not affect other users. In contrast, administrators can configure general settings that affect all users in the workspace, as described in [Configuring Unified Map — Admin settings](../concept/administer-unified-map.md).
+**Important:** This topic describes changes that you can make to your view of the map. The changes do not affect other users. In contrast, administrators can configure general settings that affect all users in the workspace, as described in [Configuring Unified Map — Admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/unified-map/administer-unified-map.md).
 
 ## Save a map as a PDF document
 
-In the toolbox, select the Export map icon ![](../image/icon-um-save-as-pdf.png) to save the current appearance of the map as a PDF document on your local drive.
+In the toolbox, select the Export map icon \[Omitted image "icon-um-save-as-pdf.png"\] to save the current appearance of the map as a PDF document on your local drive.
 
 ## Controlling map content
 
@@ -56,7 +57,7 @@ Reload the map after a change
 
 </td><td>
 
-Select the Reload map icon ![](../image/icon-um-reload-map.png)
+Select the Reload map icon \[Omitted image "icon-um-reload-map.png"\]
 
 </td></tr><tr><td>
 
@@ -64,7 +65,7 @@ Configure a filter to display only pertinent items
 
 </td><td>
 
-Select the Filter icon ![](../image/icon-um-filter.png)
+Select the Filter icon \[Omitted image "icon-um-filter.png"\]
 
  When a user applies a shared preset or a user preset, all filter settings are overridden. Filter attributes from a shared preset or a user preset that do not apply to the current map are listed in the **Unused filter attributes** section of the filter panel. The order of filter-setting precedence from the various sources is as follows:
 
@@ -75,7 +76,7 @@ Select the Filter icon ![](../image/icon-um-filter.png)
 
  **Note:** Filter settings that would filter out the home node might appear in the list. You can't, however, filter out the home node even if it meets filter settings.
 
- For more information, see [Use filters to specify which nodes should appear on a map](../task/unified-map-configure-filters.md).
+ For more information, see [Use filters to specify which nodes should appear on a map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/unified-map/unified-map-configure-filters.md).
 
 </td></tr><tr><td>
 
@@ -83,9 +84,9 @@ Show/hide filtered items
 
 </td><td>
 
-Select the Show/Hide filtered items icon ![](../image/icon-um-show-hide-filtered-items.png) to expose the filtered items on the map as dimmed view-only nodes.
+Select the Show/Hide filtered items icon \[Omitted image "icon-um-show-hide-filtered-items.png"\] to expose the filtered items on the map as dimmed view-only nodes.
 
- For more information, see [Use filters to specify which nodes should appear on a map](../task/unified-map-configure-filters.md).
+ For more information, see [Use filters to specify which nodes should appear on a map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/unified-map/unified-map-configure-filters.md).
 
 </td></tr><tr><td>
 
@@ -157,7 +158,7 @@ Show or hide the timeline
 
 </td><td>
 
-Select the Show/Hide timeline icon ![](../image/icon-um-toggle-timeline.png). For more information, see [Viewing related items on the Unified Map timeline](../concept/unified-map-timeline-working-on.md).
+Select the Show/Hide timeline icon \[Omitted image "icon-um-toggle-timeline.png"\]. For more information, see [Viewing related items on the Unified Map timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/unified-map/unified-map-timeline-working-on.md).
 
 </td></tr><tr><td>
 
@@ -169,7 +170,7 @@ View non-operational CIs
 -   The **Open Map** button on a CI form isn't available for non-operational CIs.
 -   Only CIs for which the **Life Cycle Stage** attribute is **Operational** or empty appear on maps.
 
- An administrator can change the default behavior to show non-operational CIs or CIs of any combination of **Life Cycle Stage** values. For more information, see [Configure CIs to appear based on life cycle stage value](../task/unified-map-confg-operational-state.md).
+ An administrator can change the default behavior to show non-operational CIs or CIs of any combination of **Life Cycle Stage** values. For more information, see [Configure CIs to appear based on life cycle stage value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/unified-map/unified-map-confg-operational-state.md).
 
 </td></tr></tbody>
 </table>## Controlling map appearance
@@ -200,7 +201,7 @@ Align the map to the home node
 
 </td><td>
 
-In the toolbox, select the Align to home node icon ![](../image/icon-um-home-node.png).
+In the toolbox, select the Align to home node icon \[Omitted image "icon-um-home-node.png"\].
 
 </td></tr><tr><td>
 
@@ -208,7 +209,7 @@ Fit all CIs on the map
 
 </td><td>
 
-Select the Fit to map icon ![](../image/icon-um-fit-to-map.png).
+Select the Fit to map icon \[Omitted image "icon-um-fit-to-map.png"\].
 
  Result: Center the map on the canvas and set the zoom level to the maximum level that enables the entire map to fit on the canvas. By default, up to 250 nodes can appear on a map. CIs in a collapsed group CI are counted.
 
@@ -247,8 +248,8 @@ Switch the layout of the map
 
 </td><td>
 
--   Vertical layout: Displays nodes in a vertical tree pattern: upstream relationships top and downstream bottom. This is the default layout for displaying mapped application services and service instances. In the toolbox, select the Vertical layout icon ![](../image/icon-um-vertical-layout.png).
--   Force layout: Displays nodes in a clustered arrangement around the home node, regardless of upstream or downstream relationships. In the toolbox, select the Force layout icon ![](../image/icon-um-force-layout.png).
+-   Vertical layout: Displays nodes in a vertical tree pattern: upstream relationships top and downstream bottom. This is the default layout for displaying mapped application services and service instances. In the toolbox, select the Vertical layout icon \[Omitted image "icon-um-vertical-layout.png"\].
+-   Force layout: Displays nodes in a clustered arrangement around the home node, regardless of upstream or downstream relationships. In the toolbox, select the Force layout icon \[Omitted image "icon-um-force-layout.png"\].
 
  **Note:** Connecting lines between nodes represent relationships and references, not data flow.
 

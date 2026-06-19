@@ -2,6 +2,7 @@
 title: Manage connection pooling
 description: Outbound HTTP\(S\) connections from a base system instance or inbound connections from MID Servers, the ODBC driver, and other clients are maintained and reused where possible.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/r\_HTTPClientConnectionManagement.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -28,8 +29,8 @@ ServiceNow HTTP client code means:
 
 Users should monitor performance, such as the decreased time for loading Discovery data and improved ODBC driver performance. For systems with an unusually large amount of simultaneous outbound HTTP\(S\) activity, such as numerous third-party integrations or high-volume automated activities which generate HTTP\(S\) requests from the base system instance to other places, review the `max_connections` and `max_connections_per_host` properties to ensure that the settings are sufficient. This enhancement has no impact on end-user connections from browsers and no impact on connections from customer-developed Web Services client applications.
 
--   **[HTTP Connection Management Properties](r_HTTPConnectionManagementProps.md)**  
+-   **[HTTP Connection Management Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/r_HTTPConnectionManagementProps.md)**  
 Connection pooling is controlled by three properties.
 
-**Parent Topic:**[Additional integration resources](../../outbound-web-services/concept/additional-integration-resources.md)
+**Parent Topic:**[Additional integration resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/additional-integration-resources.md)
 

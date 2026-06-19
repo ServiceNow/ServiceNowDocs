@@ -2,6 +2,7 @@
 title: Create a Board or Doc from a template in CWM
 description: Create Boards or Docs using predefined or custom templates from the Template Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/collaborative-work-management/create-a-space-board-or-doc-from-a-template-in-cwm.html
 release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -27,7 +28,7 @@ Role required: sn\_cwm.cwm\_user
 
 3.  Open the Template Center by selecting **Explore templates**.
 
-    ![Main create menu of CWM.](../images/cwm-templates-explore.png)
+    \[Omitted image "cwm-templates-explore.png"\] Alt text: Main create menu of CWM.
 
 4.  Locate the template that you want to use.
 
@@ -35,7 +36,7 @@ Role required: sn\_cwm.cwm\_user
     -   Search for the template using its title or keyword.
 5.  From the template card that you want to apply, select **Use**.
 
-    ![Template card in CWM.](../images/cwm-templates-card.png)
+    \[Omitted image "cwm-templates-card.png"\] Alt text: Template card in CWM.
 
 6.  Enter the Board or Doc name.
 
@@ -48,8 +49,8 @@ Role required: sn\_cwm.cwm\_user
 
 The Board or Doc is created in the Space that you selected.
 
--   For a Board, any template tasks and custom columns that the template contains are applied to the Board. To learn more about Board views, see [Board views in CWM](../concept/board-views-in-cwm.md).
+-   For a Board, any template tasks and custom columns that the template contains are applied to the Board. To learn more about Board views, see [Board views in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/board-views-in-cwm.md).
 -   For a Doc, any template pages and content formatting is applied to the Doc.
 
-**Parent Topic:**[Templates in CWM for Boards and Docs](../concept/templates-in-cwm-for-spaces-boards-and-docs.md)
+**Parent Topic:**[Templates in CWM for Boards and Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/templates-in-cwm-for-spaces-boards-and-docs.md)
 

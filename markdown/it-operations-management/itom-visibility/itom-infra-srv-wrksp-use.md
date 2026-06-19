@@ -2,6 +2,7 @@
 title: Use ITOM Infra Services Workspace
 description: The dashboard integrates different applications to provide real-time monitoring, proactive alerts, automation of common tasks, and centralized diagnostics to reduce downtime and support tickets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/itom-infra-srv-wrksp-use.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -15,10 +16,10 @@ breadcrumb: [ITOM Infra Services Workspace, ITOM Visibility, IT Operations Manag
 
 The dashboard integrates different applications to provide real-time monitoring, proactive alerts, automation of common tasks, and centralized diagnostics to reduce downtime and support tickets.
 
--   **[MID Server Workspace](itom-infra-srv-wrksp-mid.md)**  
+-   **[MID Server Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/itom-infra-srv-wrksp-mid.md)**  
 See a concise overview of MID Server activity. The workspace provides real-time monitoring and enables corrective actions across multiple MID Servers.
--   **[Use the Agent Client Collector \(ACC\) admin workspace](../../agent-client-collector/task/use-acc-admin-workspace.md)**  
+-   **[Use the Agent Client Collector \(ACC\) admin workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/use-acc-admin-workspace.md)**  
 Use the Agent Client Collector \(ACC\) admin workspace to monitor the status of your agents.
 
-**Parent Topic:**[ITOM Infra Services Workspace](itom-infra-srv-wrksp-landing.md)
+**Parent Topic:**[ITOM Infra Services Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/itom-infra-srv-wrksp-landing.md)
 

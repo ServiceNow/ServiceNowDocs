@@ -2,6 +2,7 @@
 title: Decision Builder user interface
 description: Learn more about the decision tables user interface in Workflow Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/decision-builder-user-interface.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -17,19 +18,19 @@ Learn more about the decision tables user interface in Workflow Studio.
 
 ## Decision tables home page in Workflow Studio
 
-![Decision tables section of Workflow Studio](../image/workflow-studio-home-dec.png)
+\[Omitted image "workflow-studio-home-dec.png"\] Alt text: Decision tables section of Workflow Studio
 
 You can do the following on the Decision tables home page in Workflow Studio:
 
 -   Create a table by selecting **New** and selecting **Decision table**.
 -   Open a table that you have already created.
 -   Sort and filter the list of your decision tables.
--   Edit the available columns by selecting the List Actions icon \(![Gear icon](../../../build/app-engine-studio/image/gear-icon.png)\).
+-   Edit the available columns by selecting the List Actions icon \(\[Omitted image "gear-icon.png"\] Alt text: Gear icon\).
 -   Delete selected decision tables.
 
 ## New decision table
 
-![New decision table page](../image/db-new-table.png)
+\[Omitted image "db-new-table.png"\] Alt text: New decision table page
 
 You can do the following on a new decision table:
 
@@ -40,7 +41,7 @@ You can do the following on a new decision table:
 
 ## Decision table
 
-![New decision table with an input being created](../image/db-empty-table.png)
+\[Omitted image "db-empty-table.png"\] Alt text: New decision table with an input being created
 
 When you first create a decision table, you can do the following:
 
@@ -53,7 +54,7 @@ When you first create a decision table, you can do the following:
 
 ## Complete decision table
 
-![Complete decision table](../image/db-complete-table.png)
+\[Omitted image "db-complete-table.png"\] Alt text: Complete decision table
 
 On a saved decision table, you can do the following:
 
@@ -73,5 +74,5 @@ Pagination is a method used to present large data sets by breaking them down int
 -   If a new row is added at the end of the page, the added row moves to the next page after saving.
 -   Post export/import, filtering, or when changing the number of rows in the page, you’re redirected to the first page.
 
-**Parent Topic:**[Exploring Decision Tables](decision-designer-overview.md)
+**Parent Topic:**[Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/decision-designer-overview.md)
 

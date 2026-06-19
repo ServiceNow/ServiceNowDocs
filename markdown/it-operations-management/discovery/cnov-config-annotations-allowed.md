@@ -2,6 +2,7 @@
 title: Define include and exclude lists of Labels and Annotations
 description: In Kubernetes Visibility Agent, define include and exclude lists of Labels and Annotations in Kubernetes resources that the Informer pulls into the Configuration Management Database \(CMDB\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/cnov-config-annotations-allowed.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -24,15 +25,15 @@ Role required: none
 
 1.  Create an include or exclude list by performing the appropriate procedure.
 
-<table id="choicetable_zc3_nht_51c"><thead><tr><th align="left" id="d387058e88">
+<table id="choicetable_zc3_nht_51c"><thead><tr><th align="left" id="d92532e88">
 
 Task
 
-</th><th align="left" id="d387058e91">
+</th><th align="left" id="d92532e91">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d387058e97">
+</th></tr></thead><tbody><tr><td id="d92532e97">
 
 **Create an include list**
 
@@ -45,7 +46,7 @@ For example: `--set IncludeLabelsAndAnnotations="label1,label2"`
 -   When using the k8s\_informer.yaml file, add values under the environment variable INCLUDE\_LABELS\_AND\_ANNOTATIONS.
 
 
-</td></tr><tr><td id="d387058e119">
+</td></tr><tr><td id="d92532e119">
 
 **Create an exclude list**
 
@@ -60,5 +61,5 @@ For example: `--set ExcludeLabelsAndAnnotations="label1,label2"`
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\)](cnov-deploy-install.md)
+**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cnov-deploy-install.md)
 

@@ -2,6 +2,7 @@
 title: Reopen a closed risk event
 description: Reopen closed risk events to identify and address overlooked or underestimated risks, updating existing risk events instead of creating another risk event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/reopen-a-risk-event.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -23,7 +24,7 @@ Role required: sn\_risk\_advanced.risk\_event\_admin
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Select the list icon ![List icon.](../../grc-workspace-risk/image/list-icon-riskworkspace.png) and navigate to the closed risk events.
+2.  Select the list icon \[Omitted image "list-icon-riskworkspace.png"\] Alt text: List icon. and navigate to the closed risk events.
 
 3.  Open the risk event that you want to reopen.
 
@@ -36,5 +37,5 @@ Role required: sn\_risk\_advanced.risk\_event\_admin
     The risk event moves to the Analyze state.
 
 
-**Parent Topic:**[Use Risk Events](../concept/use-risk-events.md)
+**Parent Topic:**[Use Risk Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/use-risk-events.md)
 

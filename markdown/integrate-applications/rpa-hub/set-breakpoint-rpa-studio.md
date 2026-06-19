@@ -2,6 +2,7 @@
 title: Set a breakpoint to pause a component in RPA Desktop Design Studio
 description: Set a breakpoint on a component in RPA Desktop Design Studio so that you can pause it for debugging purposes during an automation execution. You can set a breakpoint for any number of components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/set-breakpoint-rpa-studio.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -19,7 +20,7 @@ Set a breakpoint on a component in RPA Desktop Design Studio so that you can pau
 
 Ensure that the component or components where you want to set a breakpoint in are a part of your automation.
 
-Configure a component. For more information, see [Use a component in RPA Desktop Design Studio](configure-components.md).
+Configure a component. For more information, see [Use a component in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-components.md).
 
 Role required: none
 
@@ -29,23 +30,23 @@ Role required: none
 
     After a breakpoint is set on a component, you can see a red icon as shown in the following example.
 
-    ![Red icon that appears after a breakpoint is set on a component.](../image/set-breakpoint-red.png "Red icon that appears after a breakpoint is set on a component")
+    \[Omitted image "set-breakpoint-red.png"\] Alt text: Red icon that appears after a breakpoint is set on a component.
 
     During the automation execution, when the robot reaches a component that has a breakpoint, the execution pauses and the component is highlighted with a red border, as shown in the following example.
 
-    ![Red border that appears when the robot reaches a component that has a breakpoint.](../image/set-breakoint-red-border.png "Red border that appears when the robot reaches a component that has a breakpoint")
+    \[Omitted image "set-breakoint-red-border.png"\] Alt text: Red border that appears when the robot reaches a component that has a breakpoint.
 
 2.  Choose an option and complete the action.
 
-<table id="choicetable_otx_hcg_wrb"><thead><tr><th align="left" id="d614435e122">
+<table id="choicetable_otx_hcg_wrb"><thead><tr><th align="left" id="d96991e122">
 
 Option
 
-</th><th align="left" id="d614435e125">
+</th><th align="left" id="d96991e125">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d614435e131">
+</th></tr></thead><tbody><tr><td id="d96991e131">
 
 **To execute the component where the breakpoint is set**
 
@@ -53,7 +54,7 @@ Action
 
 Click **Move next** under the **Design** tab or press the **Ctrl+F8** keys.For a step-by-step execution of the workflow, continue clicking the **Move next** button.
 
-</td></tr><tr><td id="d614435e155">
+</td></tr><tr><td id="d96991e155">
 
 **To continue the execution of the remaining components**
 
@@ -61,7 +62,7 @@ Click **Move next** under the **Design** tab or press the **Ctrl+F8** keys.For a
 
 Click **Run** under the **Design** tab.
 
-</td></tr><tr><td id="d614435e170">
+</td></tr><tr><td id="d96991e170">
 
 **To find all the breakpoints in the automation**
 
@@ -69,7 +70,7 @@ Click **Run** under the **Design** tab.
 
 Click the down arrow button next to the **Clear Breakpoints** button under the **Design** tab and select **Find all**.A list of breakpoints appears in the Find All References section.
 
-</td></tr><tr><td id="d614435e191">
+</td></tr><tr><td id="d96991e191">
 
 **To remove a breakpoint**
 
@@ -77,7 +78,7 @@ Click the down arrow button next to the **Clear Breakpoints** button under the *
 
 Right-click a desired component and select **Breakpoint**.
 
-</td></tr><tr><td id="d614435e204">
+</td></tr><tr><td id="d96991e204">
 
 **To remove all the breakpoints**
 
@@ -87,5 +88,5 @@ Click **Clear breakpoints** under the **Design** tab.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using automations](../concept/rpa-studio-use.md)
+**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/rpa-studio-use.md)
 

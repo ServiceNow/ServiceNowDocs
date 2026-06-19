@@ -2,6 +2,7 @@
 title: Analytics and Reporting Solutions for Employee Relations
 description: Analytics and Reporting Solutions contain prepackaged Performance Analytics content for use with other ServiceNow AI Platform products. This Analytics and Reporting Solution provides you with historical trends and data comparisons for Employee Relations to assess organizational performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/er-hr-par.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

@@ -2,6 +2,7 @@
 title: Define ServiceNow AI Lens behavior with Lens actions
 description: As a Lens admin, you can create Lens actions in ServiceNow AI Lens to customize Lens behavior by providing default instructions, configuring context, and more.Create a Lens action to define custom context, trigger options, and default instructions for the ServiceNow AI Lens execution.Enable customers to scan documents related to car accident on their desktop to auto-fill the Insurance Request form on the ServiceNow instance.Enable compliance analysts to digitize and review several vendor agreements. Instead of manually entering details, they can launch ServiceNow AI Lens directly from the desktop, scan agreements, and adjust extracted values in the preview window before saving.Enable service agents to create user records by extracting specific information from identity documents using ServiceNow AI Lens, directly from the ServiceNow instance.Use ServiceNow AI Lens to map the column headers of an Excel sheet that you specify with ServiceNow table columns and then insert the Excel sheet data into the table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/servicenow-lens/servicenow-lens-actions.html
 release: zurich
 product: ServiceNow Lens
 classification: servicenow-lens
@@ -29,10 +30,10 @@ Whenever ServiceNow AI Lens is launched from an instance, it checks if any activ
 
 Refer to the following examples to understand the different use cases of setting up the Lens actions.
 
--   [Example: Scan documents to auto-fill the Insurance Request form](servicenow-lens-actions.md#)
--   [Example: Extract structured data from vendor agreements](servicenow-lens-actions.md#)
--   [Example: Auto-fill user records on a user table](servicenow-lens-actions.md#)
--   [Auto-map Excel sheet column headers with ServiceNow table columns](servicenow-lens-actions.md#)
+-   [Example: Scan documents to auto-fill the Insurance Request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
+-   [Example: Extract structured data from vendor agreements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
+-   [Example: Auto-fill user records on a user table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
+-   [Auto-map Excel sheet column headers with ServiceNow table columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
 
 ## Customize ServiceNow AI Lens behavior by creating a Lens action
 
@@ -62,7 +63,7 @@ Trigger For
 
 Auto-fill a form with a custom context and default instructions when triggered from the instance.When ServiceNow AI Lens is triggered from the instance in the context of the Lens action, the default instructions are always applied and specific form fields are extracted.
 
-To view the procedure to define default instructions, see [Define default instructions for ServiceNow AI Lens](../task/default-prompt-system-property-lens.md).
+To view the procedure to define default instructions, see [Define default instructions for ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/default-prompt-system-property-lens.md).
 
 </td><td>
 
@@ -86,7 +87,7 @@ Form
 
 </td></tr><tr><td>
 
-Auto-map the column headers of an Excel sheet with the columns of a specified table, and then insert the Excel sheet data into the table.To view the procedure to auto-map the column headers of an Excel sheet with the columns of a table, and insert Excel data into the table, see [Auto-map Excel sheet column headers with table columns.](servicenow-lens-actions.md#)
+Auto-map the column headers of an Excel sheet with the columns of a specified table, and then insert the Excel sheet data into the table.To view the procedure to auto-map the column headers of an Excel sheet with the columns of a table, and insert Excel data into the table, see [Auto-map Excel sheet column headers with table columns.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
 
 </td><td>
 
@@ -158,7 +159,7 @@ Trigger For
 
 </td><td>
 
--   **Form** - Lens action is used when ServiceNow AI Lens is triggered to auto-fill a form. Apply a transformation logic to the Lens response before the form is auto-filled by using the [servicenow-lens-actions.md\#transform-response](servicenow-lens-actions.md#transform-response) option.
+-   **Form** - Lens action is used when ServiceNow AI Lens is triggered to auto-fill a form. Apply a transformation logic to the Lens response before the form is auto-filled by using the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md) option.
 
 This option is available when you select **Desktop** or **Instance** from the Trigger From list.
 
@@ -212,7 +213,7 @@ Fields
 
 </td><td>
 
-Table fields that you can select to provide enhanced context for Lens execution. Select fields to help Lens determine what information to extract from images. Only fields supported by Lens are available for selection. For more information, see [Field types supported](../reference/field-types-supported.md).This field appears only when **Supported Fields** is selected from the **Request Context** choice field.
+Table fields that you can select to provide enhanced context for Lens execution. Select fields to help Lens determine what information to extract from images. Only fields supported by Lens are available for selection. For more information, see [Field types supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/field-types-supported.md).This field appears only when **Supported Fields** is selected from the **Request Context** choice field.
 
 </td></tr><tr><td>
 
@@ -409,11 +410,11 @@ Option to attach the captured images to the record that is auto-filled using Ser
 </td></tr></tbody>
 </table>7.  To assign users or groups or rolesto the Lens action, under the Assigned Users and Groups or Roles heading, select **New**, and then use any one of the following methods.
 
-<table id="choicetable_hnt_fq4_13c"><thead><tr><th align="left" id="d37623e951">
+<table id="choicetable_hnt_fq4_13c"><thead><tr><th align="left" id="d41492e951">
 
 Method
 
-</th><th align="left" id="d37623e954">
+</th><th align="left" id="d41492e954">
 
 Steps
 
@@ -423,12 +424,12 @@ Steps
 
 </td><td>
 
-Select **Enable Roles** and perform the following steps.1.  Select the Unlock Roles \(![Roles Unlock icon.](../image/lens-lock-icon.png)\) icon.
-2.  Select the Look up icon \(![Lookup Roles icon.](../image/lens-magnify-icon.png)\) and then select a role.
+Select **Enable Roles** and perform the following steps.1.  Select the Unlock Roles \(\[Omitted image "lens-lock-icon.png"\] Alt text: Roles Unlock icon.\) icon.
+2.  Select the Look up icon \(\[Omitted image "lens-magnify-icon.png"\] Alt text: Lookup Roles icon.\) and then select a role.
 
 Repeat the step to add more roles.
 
-3.  Select the Lock Roles icon \(![Lock Roles icon.](../image/lens-lock-roles-icon.png)\).
+3.  Select the Lock Roles icon \(\[Omitted image "lens-lock-roles-icon.png"\] Alt text: Lock Roles icon.\).
 
 
 </td></tr><tr><td id="assign-users-to-lens-action">
@@ -437,12 +438,12 @@ Repeat the step to add more roles.
 
 </td><td>
 
-1.  To assign yourself, select the Add Me icon \(![Add Me icon.](../image/lens-add-me-icon.png)\).
-2.  To assign one or more users, select the Unlock Users \(![Roles Lock icon.](../image/lens-lock-icon.png)\) icon.
-3.  Select the Look up icon \(![Lookup Roles icon.](../image/lens-magnify-icon.png)\) and then select a user.
+1.  To assign yourself, select the Add Me icon \(\[Omitted image "lens-add-me-icon.png"\] Alt text: Add Me icon.\).
+2.  To assign one or more users, select the Unlock Users \(\[Omitted image "lens-lock-icon.png"\] Alt text: Roles Lock icon.\) icon.
+3.  Select the Look up icon \(\[Omitted image "lens-magnify-icon.png"\] Alt text: Lookup Roles icon.\) and then select a user.
 4.  Repeat the step to add more users.
 
-5.  Select the Lock Users icon \(![Lock Roles icon.](../image/lens-lock-roles-icon.png)\).
+5.  Select the Lock Users icon \(\[Omitted image "lens-lock-roles-icon.png"\] Alt text: Lock Roles icon.\).
 
 
 </td></tr><tr><td id="assign-groups-to-lens-action">
@@ -451,12 +452,12 @@ Repeat the step to add more roles.
 
 </td><td>
 
-1.  Select the Unlock Groups \(![Groups Unlock icon.](../image/lens-lock-icon.png)\) icon.
-2.  Select the Look up icon \(![Lookup Groups icon.](../image/lens-magnify-icon.png)\) and then select a group.
+1.  Select the Unlock Groups \(\[Omitted image "lens-lock-icon.png"\] Alt text: Groups Unlock icon.\) icon.
+2.  Select the Look up icon \(\[Omitted image "lens-magnify-icon.png"\] Alt text: Lookup Groups icon.\) and then select a group.
 
 Repeat the step to add more groups.
 
-3.  Select the Lock Groups icon \(![Lock Roles icon.](../image/lens-lock-roles-icon.png)\).
+3.  Select the Lock Groups icon \(\[Omitted image "lens-lock-roles-icon.png"\] Alt text: Lock Roles icon.\).
 
 
 </td></tr></tbody>
@@ -469,51 +470,51 @@ Repeat the step to add more groups.
 
     The users or groups, or roles are assigned to the Lens action.
 
-    ![Users, groups, or roles assigned to Lens action](../image/lens-action-form.png "Users, groups, or roles assigned to Lens action")
+    \[Omitted image "lens-action-form.png"\] Alt text: Users, groups, or roles assigned to Lens action
 
 9.  Select **Update**.
 
 10. Update the assignment of users or groups or roles to the Lens action.
 
-<table id="choicetable_ugv_m32_33c"><thead><tr><th align="left" id="d37623e1164">
+<table id="choicetable_ugv_m32_33c"><thead><tr><th align="left" id="d41492e1164">
 
 Assignment type
 
-</th><th align="left" id="d37623e1167">
+</th><th align="left" id="d41492e1167">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d37623e1173">
+</th></tr></thead><tbody><tr><td id="d41492e1173">
 
 **Roles**
 
 </td><td>
 
 1.  Under the heading **Assigned Users and Groups or Roles**, select the role.
-2.  To remove a role, select a role and then select \(![Remove role icon.](../image/lens-file-attch-remove.png)\)
-3.  Assign one or more new roles. For more information, see [servicenow-lens-actions.md\#assign-roles-to-lens-action](servicenow-lens-actions.md#assign-roles-to-lens-action)
+2.  To remove a role, select a role and then select \(\[Omitted image "lens-file-attch-remove.png"\] Alt text: Remove role icon.\)
+3.  Assign one or more new roles. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
 
 
-</td></tr><tr><td id="d37623e1207">
+</td></tr><tr><td id="d41492e1207">
 
 **Users**
 
 </td><td>
 
 1.  Under the heading Assigned Users and Groups or Roles, select the user.
-2.  To remove a user, select a user and then select \(![Remove role icon.](../image/lens-file-attch-remove.png)\)
-3.  Assign one or more new users. For more information, see [servicenow-lens-actions.md\#assign-users-to-lens-action](servicenow-lens-actions.md#assign-users-to-lens-action)
+2.  To remove a user, select a user and then select \(\[Omitted image "lens-file-attch-remove.png"\] Alt text: Remove role icon.\)
+3.  Assign one or more new users. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
 
 
-</td></tr><tr><td id="d37623e1236">
+</td></tr><tr><td id="d41492e1236">
 
 **Groups**
 
 </td><td>
 
 1.  Under the heading Assigned Users and Groups or Roles, select the group.
-2.  To remove a group, select a group and then select \(![Remove role icon.](../image/lens-file-attch-remove.png)\)
-3.  Assign one or more new groups. For more information, see [servicenow-lens-actions.md\#assign-groups-to-lens-action](servicenow-lens-actions.md#assign-groups-to-lens-action)
+2.  To remove a group, select a group and then select \(\[Omitted image "lens-file-attch-remove.png"\] Alt text: Remove role icon.\)
+3.  Assign one or more new groups. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
 
 
 </td></tr></tbody>
@@ -534,7 +535,7 @@ Role required: lens\_admin
 
 You can define in the Lens action that ServiceNow AI Lens must be triggered from the desktop to auto-fill the Insurance Request form. Lens action includes the fields that must be updated with the extracted data.
 
-![Example Lens action record for auto-filling Insurance request form.](../image/lens-action-insurance-example.png)
+\[Omitted image "lens-action-insurance-example.png"\] Alt text: Example Lens action record for auto-filling Insurance request form.
 
 ### Procedure
 
@@ -779,7 +780,7 @@ Use ServiceNow AI Lens to map the column headers of an Excel sheet that you spec
 
 Role required: lens\_user
 
-Ensure that the Lens action for this purpose is already defined. To view the steps to define a Lens action, see [Define a Lens action](servicenow-lens-actions.md#). Ensure that the values in the Lens action form are exactly as specified in the following table.
+Ensure that the Lens action for this purpose is already defined. To view the steps to define a Lens action, see [Define a Lens action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md). Ensure that the values in the Lens action form are exactly as specified in the following table.
 
 |Field|Option you must select|
 |-----|----------------------|
@@ -805,13 +806,13 @@ Ensure that the Lens action for this purpose is already defined. To view the ste
 
 5.  On the onboarding journey widget, complete the onboarding and select **Got it**.
 
-    ![Onboarding journey widget with three pages to show you the highlights of the application.](../image/onboarding-widget-lens.png)
+    \[Omitted image "onboarding-widget-lens.png"\] Alt text: Onboarding journey widget with three pages to show you the highlights of the application.
 
     If you launch the ServiceNow AI Lens for the first time, the onboarding journey widget appears. You can select **Don't show me again** to hide the widget the next time you launch ServiceNow AI Lens.
 
 6.  Select the Lens action that you have defined for Excel mapping.
 
-    ![Excel mapping Lens action selected.](../image/lens-sel-excel-map-action.png)
+    \[Omitted image "lens-sel-excel-map-action.png"\] Alt text: Excel mapping Lens action selected.
 
     The **Proceed with Lens** button is disabled.
 
@@ -819,17 +820,17 @@ Ensure that the Lens action for this purpose is already defined. To view the ste
 
 7.  Attach an Excel sheet by selecting **Upload** and then perform any one of the following file upload methods on the Upload file window.
 
-    ![Excel file upload window.](../image/lens-excel-mapping-file-upload-window.png "File upload window")
+    \[Omitted image "lens-excel-mapping-file-upload-window.png"\] Alt text: Excel file upload window.
 
-<table id="choicetable_qnd_psb_13c"><thead><tr><th align="left" id="d37623e2351">
+<table id="choicetable_qnd_psb_13c"><thead><tr><th align="left" id="d41492e2351">
 
 File upload method
 
-</th><th align="left" id="d37623e2354">
+</th><th align="left" id="d41492e2354">
 
 File upload procedure
 
-</th></tr></thead><tbody><tr><td id="d37623e2360">
+</th></tr></thead><tbody><tr><td id="d41492e2360">
 
 **Add file**
 
@@ -841,24 +842,24 @@ File upload procedure
 **Note:**
 
     -   You can upload only one Excel sheet.
-    -   **Tip:** To remove an Excel sheet that you attached, select the Remove file icon \(![Remove file](../image/lens-file-attch-remove.png)\).
+    -   **Tip:** To remove an Excel sheet that you attached, select the Remove file icon \(\[Omitted image "lens-file-attch-remove.png"\] Alt text: Remove file\).
 
     -   The data only in the first worksheet of the Excel sheet will be analyzed.
 
 
-</td></tr><tr><td id="d37623e2407">
+</td></tr><tr><td id="d41492e2407">
 
 **Drag and drop files**
 
 </td><td>
 
 1.  Navigate to the location on your system and select the Excel sheet that you want to upload.
-2.  Drag the selected Excel sheet to the Drag and drop section \(![Drag and drop section.](../image/lens-drag-and-drop.png)\), and release the pointer to drop them.
+2.  Drag the selected Excel sheet to the Drag and drop section \(\[Omitted image "lens-drag-and-drop.png"\] Alt text: Drag and drop section.\), and release the pointer to drop them.
 
 **Note:**
 
     -   You can drag and drop only one Excel sheet.
-    -   **Tip:** To remove an Excel sheet that you've attached, select the Remove file icon \(![Remove file](../image/lens-file-attch-remove.png)\).
+    -   **Tip:** To remove an Excel sheet that you've attached, select the Remove file icon \(\[Omitted image "lens-file-attch-remove.png"\] Alt text: Remove file\).
 
     -   The data only in the first worksheet of the Excel sheet will be analyzed.
 
@@ -868,11 +869,11 @@ File upload procedure
 
 9.  Select **Analyze**.
 
-    ![Analyze button.](../image/lens-excel-map-analyze.png)
+    \[Omitted image "lens-excel-map-analyze.png"\] Alt text: Analyze button.
 
     ServiceNow AI Lens auto-maps the column headers of the attached Excel sheet and the table columns.
 
-    ![Lens Excel and table column mapping.](../image/lens-excel-table-mapping.png)
+    \[Omitted image "lens-excel-table-mapping.png"\] Alt text: Lens Excel and table column mapping.
 
     **Tip:** You can change the mapping by selecting one or more different table columns under the Imported as field heading.
 

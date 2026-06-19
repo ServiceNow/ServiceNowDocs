@@ -2,6 +2,7 @@
 title: Manage classic risk assessments
 description: Risk assessments are surveys to determine risk. The Risk Assessment Designer provides a single interface that users can use to create, and edit attestations, as well as change scoring parameters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/risk-assessments.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace

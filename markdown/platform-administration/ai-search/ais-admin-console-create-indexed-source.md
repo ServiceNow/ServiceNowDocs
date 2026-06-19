@@ -2,6 +2,7 @@
 title: Create an indexed source from the AI Search Admin console
 description: Define an indexed source to make content and metadata from ServiceNow AI Platform table records searchable by using AI Search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/ais-admin-console-create-indexed-source.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -29,7 +30,7 @@ Role required: admin or ais\_admin
 
 4.  On the form, fill in the fields.
 
-    For a description of the field values, see [Indexed Source form](../reference/indexed-source-form-ais.md).
+    For a description of the field values, see [Indexed Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/indexed-source-form-ais.md).
 
     **Note:**
 
@@ -40,9 +41,9 @@ Role required: admin or ais\_admin
 
 ## What to do next
 
-To control how your new indexed source processes source records and fields during indexing, configure its indexed source attributes and field settings. For more information, see [Set up a field configuration for an indexed source](ais-admin-console-setup-field-config-indexed-source.md).
+To control how your new indexed source processes source records and fields during indexing, configure its indexed source attributes and field settings. For more information, see [Set up a field configuration for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-admin-console-setup-field-config-indexed-source.md).
 
-To make content from internal indexed sources and source records searchable, perform a full table index for your new indexed source. For more information, see [Index the content from an indexed source for searchability](ais-admin-console-start-content-indexing.md).
+To make content from internal indexed sources and source records searchable, perform a full table index for your new indexed source. For more information, see [Index the content from an indexed source for searchability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-admin-console-start-content-indexing.md).
 
-**Parent Topic:**[Managing indexed sources from the AI Search Admin console](../concept/ais-managing-indexed-source.md)
+**Parent Topic:**[Managing indexed sources from the AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-managing-indexed-source.md)
 

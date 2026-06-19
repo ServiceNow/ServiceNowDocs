@@ -2,6 +2,7 @@
 title: Report or respond to DLP incidents
 description: Access the Data Loss Prevention Incident Response \(DLP\) User workspace, review the assigned DLP incidents, and report or respond to the incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/data-loss-prevention/access-the-dlp-end-user-portal.html
 release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -100,7 +101,7 @@ Respond
 Respond to an incident by selecting an incident response option. For example, user delete a file violating a DLP policy, the user can choose the option **Deleted File** to submit manual acknowledgement that the file has been deleted and provide comments. From here you can also select advanced response options. For example, **Request email release from quarantine**.
 
 </td></tr></tbody>
-</table>        For an overview of the DLP incident actions, watch the following video.DLP incident actions 
+</table>        For an overview of the DLP incident actions, watch the following video.
 
     3.  The second way is to click a particular DLP incident to open it.
 
@@ -178,8 +179,8 @@ Respond to an incident by selecting an incident response option. For example, us
 
     The user instructions card displays two different headers which provides you more information about a specific incident on the form view. Click on any user instruction header to know the additional details.
 
-    For more information about user instructions, see [Create user instructions templates](create-and-manage-user-instructions-template-for-dlp-incidents.md) and [Configure DLP UI user instructions](configure-dlp-ui-user-instructions.md).
+    For more information about user instructions, see [Create user instructions templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/create-and-manage-user-instructions-template-for-dlp-incidents.md) and [Configure DLP UI user instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/configure-dlp-ui-user-instructions.md).
 
 
-**Parent Topic:**[Data Loss Prevention Incident Response User Workspace](../concept/using-dlp-end-user-portal.md)
+**Parent Topic:**[Data Loss Prevention Incident Response User Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/using-dlp-end-user-portal.md)
 

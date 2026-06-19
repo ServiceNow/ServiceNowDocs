@@ -2,6 +2,7 @@
 title: PowerShell remoting for Discovery
 description: Probe developers can use the PowerShell remote execution framework to automatically handle remote execution of scripts on target devices. The unified framework removes inconsistencies in remote execution, increases efficiency, and improves stability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/powershell-remoting.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -23,7 +24,7 @@ To use PowerShell remote execution framework, the following requirements must be
 -   The remote target must have PowerShell 3 or higher \(up to 5.1\).
 -   For MID Servers using WinRM or WMI which choose to copy the script to the remote target, the MachinePolicy and UserPolicy scopes must be set to Undefined. If the script is not copied, the execution policy can be any other setting up to Restrictive.
 
-See [Set up MID Servers to use PowerShell](../task/t_SetUpAMIDServerToUsePowerShell.md) for more information.
+See [Set up MID Servers to use PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_SetUpAMIDServerToUsePowerShell.md) for more information.
 
 ## Application discovery
 
@@ -33,7 +34,7 @@ The PowerShell remote execution framework has options for copying files to the r
 
 The following is the configuration page for the Windows — Active Connections probe, which is included in the Windows — ADM multiprobe.
 
-![Windows — Active Connections probe configuration page](../image/powershell-remote-probe-config.png)
+\[Omitted image "powershell-remote-probe-config.png"\] Alt text: Windows — Active Connections probe configuration page
 
 The **Execute script remotely** check box is visible when the ECC queue topic is WMIRunner or PowerShell. When checked, the script executes on the remote target. Otherwise the script executes on the MID Server.
 
@@ -45,5 +46,5 @@ PowerShell remote execution framework is a unified method of executing PowerShel
 
 The framework handles remote execution whether the MID Server is configured to use WMI or WinRM. If the MID Server is configured for WMI, the probe uses launchProcess to execute commands on the remote target. Using launchProcess complicates remote execution and can cause failures. However, a MID Server configured for WinRM does not use launchProcess, and so is more efficient and stable.
 
-**Parent Topic:**[PowerShell for Discovery and Service Mapping](../reference/r_PowerShellForDiscovery.md)
+**Parent Topic:**[PowerShell for Discovery and Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_PowerShellForDiscovery.md)
 

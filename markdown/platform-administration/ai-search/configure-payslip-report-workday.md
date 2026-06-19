@@ -2,6 +2,7 @@
 title: Configure a payslip report in Workday
 description: Configure a custom report for payroll data in Workday. The Workday external content connector uses this report to make content and metadata from your payroll data searchable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-payslip-report-workday.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -18,7 +19,7 @@ Configure a custom report for payroll data in Workday. The Workday external cont
 
 ## Before you begin
 
-A Workday admin must have already an integration system user and an unconstrained integration system security group in your Workday tenant. For details on this preliminary task, see [Configure Workday security settings](configure-workday-security-settings.md).
+A Workday admin must have already an integration system user and an unconstrained integration system security group in your Workday tenant. For details on this preliminary task, see [Configure Workday security settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-workday-security-settings.md).
 
 You need an account with the following privileges in your organization's Workday tenant:
 
@@ -90,7 +91,7 @@ This task is optional. The Workday external content connector can retrieve paysl
 
     2.  On the Transfer Ownership of Custom Reports page, in the New Owner field, enter or select the **ISU SNOW ACL** integration system user account.
 
-        **Important:** If you don't see this integration system user account in the system, check that a Workday admin has completed the [Configure Workday security settings](configure-workday-security-settings.md) preliminary task.
+        **Important:** If you don't see this integration system user account in the system, check that a Workday admin has completed the [Configure Workday security settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-workday-security-settings.md) preliminary task.
 
     3.  Select **OK**.
 
@@ -123,44 +124,44 @@ This task is optional. The Workday external content connector can retrieve paysl
 
         The base URL for your Workday tenant is the `https://<hostname>.workday.com` portion of the CSV URL \(everything before the third slash character\). As an example, if your CSV URL is `https://wd2-impl-services1.workday.com/ccx/service/customreport2/Example/ISU_SNOW_ACL/Workday_connector_payslip_report?Period_Date_Indicator%21WID=e3e3e13f80904ee185eab1fbf331acef`, the base URL for your Workday tenant is `https://wd2-impl-services1.workday.com`.
 
-        **Important:** Your external content connector admin needs this base URL when configuring the Workday external content connector.
+        **Important:** Your external content connector administrator needs this base URL when configuring the Workday external content connector.
 
     2.  Copy the tenant name for your Workday tenant from the pasted CSV URL and store it in a secure location.
 
         The tenant name for your Workday tenant is the `<tenant-name>` portion of the CSV URL \(everything between the sixth and seventh slash characters\). As an example, if your CSV URL is `https://wd2-impl-services1.workday.com/ccx/service/customreport2/Example/ISU_SNOW_ACL/Workday_connector_payslip_report?Period_Date_Indicator%21WID=e3e3e13f80904ee185eab1fbf331acef`, your Workday tenant name is `Example`.
 
-        **Important:** Your external content connector admin needs this tenant name when configuring the Workday external content connector.
+        **Important:** Your external content connector administrator needs this tenant name when configuring the Workday external content connector.
 
     3.  Copy the report owner's user name for your custom payslip report from the pasted CSV URL and store it in a secure location.
 
         The report owner's user name for your custom payslip report is the `<report-owner-user-name>` portion of the CSV URL \(everything between the seventh and eighth slash characters\). As an example, if your CSV URL is `https://wd2-impl-services1.workday.com/ccx/service/customreport2/Example/ISU_SNOW_ACL/Workday_connector_payslip_report?Period_Date_Indicator%21WID=e3e3e13f80904ee185eab1fbf331acef`, your custom payslip report owner's user name is `ISU_SNOW_ACL`.
 
-        **Important:** Your external content connector admin needs this payslip report owner's user name when configuring the Workday external content connector.
+        **Important:** Your external content connector administrator needs this payslip report owner's user name when configuring the Workday external content connector.
 
     4.  Copy the report name alias for your custom payslip report from the pasted CSV URL and store it in a secure location.
 
         The report name alias for your custom payslip report is the `<report-name-alias>` portion of the CSV URL \(everything between the eighth slash character and the question mark or the end of the URL\). As an example, if your CSV URL is `https://wd2-impl-services1.workday.com/ccx/service/customreport2/Example/ISU_SNOW_ACL/Workday_connector_payslip_report?Period_Date_Indicator%21WID=e3e3e13f80904ee185eab1fbf331acef`, your custom payslip report name alias is `Workday_connector_payslip_report`.
 
-        **Important:** Your external content connector admin needs this payslip report name alias when configuring the Workday external content connector.
+        **Important:** Your external content connector administrator needs this payslip report name alias when configuring the Workday external content connector.
 
     5.  Copy the period date indicator WID \(Workday ID\) for your custom payslip report from the pasted CSV URL and store it in a secure location.
 
         The period date indicator WID for your custom payslip report is the value of the `Period_Date_Indicator_WID` URL parameter from the CSV URL. As an example, if your CSV URL is `https://wd2-impl-services1.workday.com/ccx/service/customreport2/Example/ISU_SNOW_ACL/Workday_connector_payslip_report?Period_Date_Indicator%21WID=e3e3e13f80904ee185eab1fbf331acef`, your period date indicator WID is `e3e3e13f80904ee185eab1fbf331acef`.
 
-        **Important:** Your external content connector admin needs this period date indicator WID when configuring the Workday external content connector.
+        **Important:** Your external content connector administrator needs this period date indicator WID when configuring the Workday external content connector.
 
 
 ## What to do next
 
-Provide the following items to the connector admin who creates your Workday external content connectors:
+Provide the following items to the connector administrator who creates your Workday external content connectors:
 
--   The base URL for your Workday tenant that you copied in step [10.a](configure-payslip-report-workday.md#copy-base-url-step).
--   The Workday tenant name that you copied in step [10.b](configure-payslip-report-workday.md#copy-tenant-name-step).
--   The custom payslip report owner's user name that you copied in step [10.c](configure-payslip-report-workday.md#copy-report-owner-user-name-step).
--   The custom payslip report's name alias that you copied in step [10.d](configure-payslip-report-workday.md#copy-report-name-alias-step).
--   The period date indicator WID \(Workday ID\) that you copied in step [10.e](configure-payslip-report-workday.md#copy-period-indicator-wid-step).
+-   The base URL for your Workday tenant that you copied in step [10.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-payslip-report-workday.md).
+-   The Workday tenant name that you copied in step [10.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-payslip-report-workday.md).
+-   The custom payslip report owner's user name that you copied in step [10.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-payslip-report-workday.md).
+-   The custom payslip report's name alias that you copied in step [10.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-payslip-report-workday.md).
+-   The period date indicator WID \(Workday ID\) that you copied in step [10.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-payslip-report-workday.md).
 
-Your connector admin needs these items to configure a Workday external content connector to retrieve searchable content and metadata from payroll information in your Workday source system.
+Your connector administrator needs these items to configure a Workday external content connector to retrieve searchable content and metadata from payroll information in your Workday source system.
 
-**Parent Topic:**[Workday external content connector](../concept/workday-external-content-connector.md)
+**Parent Topic:**[Workday external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/workday-external-content-connector.md)
 

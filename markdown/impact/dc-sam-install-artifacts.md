@@ -2,7 +2,10 @@
 title: Review SAM artifacts
 description: The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/dc-sam-install-artifacts.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 3

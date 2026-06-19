@@ -2,6 +2,7 @@
 title: Configure a child HR service
 description: Configure a service activity that is a child HR service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/configure-child-hr-service-to-fulfill-hr-service.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -85,5 +86,5 @@ Order number for when the service activity is made available. Lower numbered ser
 4.  Click **Update** on the HR Service form.
 
 
-**Parent Topic:**[Configure a service activity for an HR service](configure-service-activity-for-hr-service.md)
+**Parent Topic:**[Configure a service activity for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-service-activity-for-hr-service.md)
 

@@ -2,7 +2,10 @@
 title: Create additional account addresses
 description: An account can have multiple addresses, such as a main address as well as shipping and billing addresses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-account-address.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ Role required: sn\_customerservice\_manager or admin
 
 ## About this task
 
-The main address for an account is stored in fields on the [Account form](../reference/customer-service-account-form.md). Shipping and billing addresses for an account are created and stored in the **Addresses** related list. An account can have multiple shipping and billing addresses.
+The main address for an account is stored in fields on the [Account form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-account-form.md). Shipping and billing addresses for an account are created and stored in the **Addresses** related list. An account can have multiple shipping and billing addresses.
 
 ## Procedure
 

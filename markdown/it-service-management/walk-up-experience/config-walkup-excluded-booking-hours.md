@@ -2,6 +2,7 @@
 title: Configure excluded hours for Walk-up Experience appointment booking
 description: Using the Appointment Booking application, you can specify excluded appointment hours in the schedule for your Walk-up Experience location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/walk-up-experience/config-walkup-excluded-booking-hours.html
 release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -43,13 +44,13 @@ Reconfigure the **Holiday Schedule** field on the Appointment Booking Service Co
 
     Use the Schedule Entries related list to create two separate excluded hours schedule entries, one for **Friday off hours** and one for **Weekday off hours**.
 
-    ![Off hours schedule](../image/OffHoursSchedule.png)
+    \[Omitted image "OffHoursSchedule.png"\] Alt text: Off hours schedule
 
 8.  Select **New** in the Schedule Entries related list to create **Friday off hours**.
 
     You will configure Fridays to exclude all appointments after 1:00 p.m.
 
-    ![Friday off hours](../image/FridayOffHours.png)
+    \[Omitted image "FridayOffHours.png"\] Alt text: Friday off hours
 
 9.  Select **Update** to save your changes.
 
@@ -71,15 +72,15 @@ Reconfigure the **Holiday Schedule** field on the Appointment Booking Service Co
 
 13. Select **Walk-up Experience** and then the walk-up location you want to reconfigure, for example, San Diego Tech Lounge.
 
-    ![Appointment Booking Configuration](../image/AppointmentBookingConfiguration.png)
+    \[Omitted image "AppointmentBookingConfiguration.png"\] Alt text: Appointment Booking Configuration
 
-14. In the **Holiday Schedule** field, change the default, base system schedule value to **Off hours schedule**, using the list search ![list search icon](../../../common/image/List_SearchIcon.png) icon.
+14. In the **Holiday Schedule** field, change the default, base system schedule value to **Off hours schedule**, using the list search \[Omitted image "List\_SearchIcon.png"\] Alt text: list search icon icon.
 
 15. Click the **Daily Schedule** tab to configure the daily start and end times for the walk-up location.
 
     For this location, the hours of operation begin at 8:00 a.m. and end at 5:00 p.m. \(17:00\), Monday through Friday.
 
-    ![Configure location daily start and end times](../image/AppointmentBookingConfig.png)
+    \[Omitted image "AppointmentBookingConfig.png"\] Alt text: Configure location daily start and end times
 
 16. Select **Update** to save your changes.
 
@@ -87,16 +88,16 @@ Reconfigure the **Holiday Schedule** field on the Appointment Booking Service Co
 
 18. Select the walk-up location with the excluded hours you want to verify.
 
-    ![Welcome to the walk-up check-in](../image/WelcomeWalkupServicePortal.png)
+    \[Omitted image "WelcomeWalkupServicePortal.png"\] Alt text: Welcome to the walk-up check-in
 
 19. Select **Schedule an appointment**.
 
-20. Click the calendar ![calendar icon](../image/CalendarIcon.png) icon to view the available appointment times for the walk-up location.
+20. Click the calendar \[Omitted image "CalendarIcon.png"\] Alt text: calendar icon icon to view the available appointment times for the walk-up location.
 
     The appointment schedule reflects the excluded hours you configured by using the **Off hours schedule**. Scroll down in the **Select Appointment** window to view the end times.
 
-    ![Available appointments with accurate off hours times](../image/AvailableAppointments.png)
+    \[Omitted image "AvailableAppointments.png"\] Alt text: Available appointments with accurate off hours times
 
 
-**Parent Topic:**[Configure Walk-up Experience appointment booking](../concept/walkup-appointment-booking-config.md)
+**Parent Topic:**[Configure Walk-up Experience appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walkup-appointment-booking-config.md)
 

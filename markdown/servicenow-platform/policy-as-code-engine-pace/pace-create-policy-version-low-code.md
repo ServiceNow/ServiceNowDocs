@@ -2,6 +2,7 @@
 title: Create a PaCE policy version using low-code
 description: Create a policy version using low-code for any of your existing PaCE policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/policy-as-code-engine-pace/pace-create-policy-version-low-code.html
 release: zurich
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
@@ -23,7 +24,7 @@ Role required: sn\_pace.code\_editor
 
 The low-code function enables you to write policies using simple UI elements by defining conditions for the policy to determine if it’s compliant or non-compliant. If the **Is low code** check box is selected when you create a policy version, the **Policy Builder** and **Test Playground** tabs will automatically have the Policy logic page set to low-code.
 
-You can switch to the Policy Script to create a policy using JavaScript by selecting the **Switch to code editor** button, but you’ll be unable to switch back to low-code. For more information on how to write PaCE policies using JavaScript, see [How to write and test PaCE policies](../concept/pace-write-test-policies.md).
+You can switch to the Policy Script to create a policy using JavaScript by selecting the **Switch to code editor** button, but you’ll be unable to switch back to low-code. For more information on how to write PaCE policies using JavaScript, see [How to write and test PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/policy-as-code-engine-pace/pace-write-test-policies.md).
 
 **Note:** Policy Builder works best in Google Chrome and Firefox.
 

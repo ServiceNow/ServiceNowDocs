@@ -2,6 +2,7 @@
 title: Integration between EAP and Agile Development 2.0
 description: While setting up a configuration in Enterprise Agile Planning, you can establish an integration with Agile Development 2.0. Learn more about the tables connected and the way you access the information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/enterprise-agile-planning/sync-eap-and-agile-2.html
 release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Enterprise Agile Planning, Strategic Planning, Strategic
 
 While setting up a configuration in Enterprise Agile Planning, you can establish an integration with Agile Development 2.0. Learn more about the tables connected and the way you access the information.
 
-![Option to enable sync with Agile Development 2.0 in EAP Configuration.](../images/eap-new-config-form.png)
+\[Omitted image "eap-new-config-form.png"\] Alt text: Option to enable sync with Agile Development 2.0 in EAP Configuration.
 
 In the EAP configuration form, when you enable the **Sync with Agile Development** option, information of the following tables is synced between the two apps.
 
@@ -59,5 +60,5 @@ Sprint \[rm\_sprint\]
 
 **Note:** The Story records for EAP are by default saved in the Story \[rm\_story\] table, which is installed with the Agile Development 2.0 plugin.
 
-**Parent Topic:**[Enterprise Agile Planning reference](eap-reference.md)
+**Parent Topic:**[Enterprise Agile Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/eap-reference.md)
 

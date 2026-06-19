@@ -2,11 +2,12 @@
 title: Map a custom context variable to a transaction entity
 description: Associate a custom pricing context variable to a particular transaction entity type in Sales Customer Relationship Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/som-map-variable.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Pricing Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -17,13 +18,13 @@ Associate a custom pricing context variable to a particular transaction entity t
 
 ## Before you begin
 
-Verify that you're in the appropriate application scope for the transaction type. For example, if you're mapping a context variable for orders, the application scope is Order Management. Use the Globe ![](../../../reuse/icons/product-icons/globe-outline-24.svg) icon in the navigation bar to change the application scope.
+Verify that you're in the appropriate application scope for the transaction type. For example, if you're mapping a context variable for orders, the application scope is Order Management. Use the Globe \[Omitted image "globe-outline-24.svg"\] Alt text: icon in the navigation bar to change the application scope.
 
 Role required: admin
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![image.Lists] view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Context Rule Management** &gt; **Variable Mappings**.
 
@@ -37,6 +38,7 @@ Role required: admin
     |Table|Name of the application table for the transaction.|
     |Field|Field from the application table that is related to the custom context variable. Select the field.|
     |Key|Custom context variable. Select the variable from the list of pricing context variables.|
+    |Advanced| |
 
 5.  Select **Save**.
 

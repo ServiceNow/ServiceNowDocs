@@ -2,6 +2,7 @@
 title: OCRotaICalendar - Global
 description: The OCRotaICalendar script include is an extension of the OCRotaICalendarSNC script include.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_OCRotaICalendarAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,5 +16,5 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The OCRotaICalendar script include is an extension of the OCRotaICalendarSNC script include.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 

@@ -2,6 +2,7 @@
 title: Add a custom hardware model
 description: If you have a hardware model that isn't represented in the Asset Management Content Service yet, you can create a custom model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/add-custom-model.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -39,7 +40,7 @@ Role required: ham\_admin
 
 ## What to do next
 
-After you've created the hardware model, [normalize the model](normalize-hardware-consumable-models.md).
+After you've created the hardware model, [normalize the model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/normalize-hardware-consumable-models.md).
 
-**Parent Topic:**[Work with hardware normalization](../concept/Work-with-hardware-normalization.md)
+**Parent Topic:**[Work with hardware normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
 

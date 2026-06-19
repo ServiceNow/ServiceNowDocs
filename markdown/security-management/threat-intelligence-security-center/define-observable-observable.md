@@ -2,6 +2,7 @@
 title: Define observable-observable relationships
 description: Define relationships between observables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/define-observable-observable.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -31,15 +32,15 @@ Role required: sn\_sec\_tisc.analyst
 
 5.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d370090e98">
+<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d139719e98">
 
 Field
 
-</th><th align="left" id="d370090e101">
+</th><th align="left" id="d139719e101">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d370090e107">
+</th></tr></thead><tbody><tr><td id="d139719e107">
 
 **Source Observable**
 
@@ -47,7 +48,7 @@ Description
 
 Select and define the source object.
 
-</td></tr><tr><td id="d370090e116">
+</td></tr><tr><td id="d139719e116">
 
 **Target Observable**
 
@@ -55,7 +56,7 @@ Select and define the source object.
 
 Select and define the target object.
 
-</td></tr><tr><td id="d370090e125">
+</td></tr><tr><td id="d139719e125">
 
 **Relationship Type**
 
@@ -67,7 +68,7 @@ A description that provides more details and context about the relationship type
 -   Direct - This is the type of relationship between the object and observable.
 
 
-</td></tr><tr><td id="d370090e144">
+</td></tr><tr><td id="d139719e144">
 
 **Basis For Correlation**
 
@@ -79,5 +80,5 @@ Name of the correlation rule based on which the system has identified as the rel
 </table>6.  Click **Submit**.
 
 
-**Parent Topic:**[Relationships Objects](../concept/relationship-objects.md)
+**Parent Topic:**[Relationships Objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/relationship-objects.md)
 

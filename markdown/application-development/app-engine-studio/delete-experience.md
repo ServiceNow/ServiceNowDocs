@@ -2,6 +2,7 @@
 title: Delete an experience
 description: Delete an experience, such as a portal or record producer form, that you no longer need within App Engine Studio \(AES\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/delete-experience.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -17,7 +18,7 @@ Delete an experience, such as a portal or record producer form, that you no long
 
 ## Before you begin
 
-Role required: sn\_app\_eng\_studio.user, sn\_app\_eng\_studio.admin, or delegated\_developer. For more information, see [Delegate developers using AES](../concept/aes-app-dev-workflow.md).
+Role required: sn\_app\_eng\_studio.user, sn\_app\_eng\_studio.admin, or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Procedure
 
@@ -25,12 +26,12 @@ Role required: sn\_app\_eng\_studio.user, sn\_app\_eng\_studio.admin, or delegat
 
 2.  From the My Apps page, open your application.
 
-3.  Next to an experience, select the menu icon \(![Additional actions icon](../image/additional-actions-icon-purple.png)\) and then select **Delete**.
+3.  Next to an experience, select the menu icon \(\[Omitted image "additional-actions-icon-purple.png"\] Alt text: Additional actions icon\) and then select **Delete**.
 
-    ![Select Delete to remove an experience from your app](../image/aes-delete-experience-purple.png "Delete an experience")
+    \[Omitted image "aes-delete-experience-purple.png"\] Alt text: Select Delete to remove an experience from your app
 
 4.  On the dialog box that appears, enter `delete` and then select **Delete**.
 
 
-**Parent Topic:**[Editing an experience in App Engine Studio](../concept/edit-experience.md)
+**Parent Topic:**[Editing an experience in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/edit-experience.md)
 

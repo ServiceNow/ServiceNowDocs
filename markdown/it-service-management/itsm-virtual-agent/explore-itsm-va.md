@@ -2,6 +2,7 @@
 title: Exploring ITSM Virtual Agent
 description: The ServiceNow ITSM Virtual Agent provides assistance through conversations within an intelligent messaging interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-virtual-agent/explore-itsm-va.html
 release: zurich
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -23,7 +24,7 @@ Empower your IT technicians to concentrate on more challenging, demanding user r
 
 <table id="table_q3d_bf3_fwb"><tbody><tr><td>
 
-![](../image/icon-user-satisfaction-va.png)User Satisfaction
+\[Omitted image "icon-user-satisfaction-va.png"\] Alt text:User Satisfaction
 
 </td><td>
 
@@ -34,7 +35,7 @@ Provide better self-service by helping users and customers get what they need qu
 
 </td></tr><tr><td>
 
-![](../image/icon-productivity-va.png)
+\[Omitted image "icon-productivity-va.png"\] Alt text:
 
 </td><td>
 
@@ -45,7 +46,7 @@ Deliver great experiences for your users, as well as your agents and technicians
 
 </td></tr><tr><td>
 
-![](../image/icon-automation-support-va.png)
+\[Omitted image "icon-automation-support-va.png"\] Alt text:
 
 </td><td>
 
@@ -56,7 +57,7 @@ Scale your support organizations and free your agents and technicians to focus o
 
 </td></tr><tr><td>
 
-![](../image/icon-empowered-srvc-owner-va.png)
+\[Omitted image "icon-empowered-srvc-owner-va.png"\] Alt text:
 
 </td><td>
 
@@ -74,7 +75,7 @@ Enable service owners to deliver and refine AI capabilities quickly without data
 
     You can decide whether you want ITSM Virtual Agent to use only keywords, which result in quicker time-to-value in the short term. Or you can choose to use NLU, which results in a better employee experience in the long term.
 
-    ITSM Virtual Agent and the ITSM NLU Model for Virtual Agent Conversations are available from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    ITSM Virtual Agent and the ITSM NLU Model for Virtual Agent Conversations are available from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
     The ITSM NLU Model for Virtual Agent Conversations provides pre-built NLU entities, intents, and utterances. Some of the provided intents and utterances include:
 
@@ -102,5 +103,5 @@ Enable service owners to deliver and refine AI capabilities quickly without data
         These notifications are used by request management or knowledge management. When an approval is submitted, an automatic Virtual Agent message is sent to the approver alerting them of the approval request.
 
 
-**Parent Topic:**[ITSM Virtual Agent](itsm-virtual-agent.md)
+**Parent Topic:**[ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-virtual-agent/itsm-virtual-agent.md)
 

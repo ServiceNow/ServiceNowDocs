@@ -2,12 +2,13 @@
 title: Create a simple entity
 description: Create one or more simple entities from words in your utterance examples. An entity is an object of, or context for, an action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/nlu-service/create-nlu-entities.html
 release: zurich
 product: NLU Service
 classification: nlu-service
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [NLU entities, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
 ---
 
@@ -48,7 +49,7 @@ For the following example procedure, you've already created an intent that's tit
 
     For this example, click the word parking garage.
 
-    ![Utterances tab of the intent details page with the entity window open.](../images/create-entites1.png)
+    \[Omitted image "create-entites1.png"\] Alt text: Utterances tab of the intent details page with the entity window open.
 
 6.  Click **Create New Entity**.
 
@@ -56,7 +57,7 @@ For the following example procedure, you've already created an intent that's tit
 
     For this example, you enter `buildingaccess` for the **Entity Name**.
 
-    ![Create a new entity window.](../images/create-entites2.png)
+    \[Omitted image "create-entites2.png"\] Alt text: Create a new entity window.
 
     **Note:** Select **Model availability** to make the entity available to every intent in the model. If you check the box, the entity shows in the **Associated Entities** tab.
 
@@ -69,24 +70,7 @@ For the following example procedure, you've already created an intent that's tit
 
 Your utterances can reference a vocabulary source by using the @ handle. If you have a list of values that are defined in a vocabulary source, you can annotate the @ handle as a simple entity to extract it rather than repeating the utterance for all of the values. The referenced vocabulary source can be a table or a list. For example, the following image shows how you invoke a vocabulary source that lists various conference room names.
 
-![How to reference a vocabulary source from within an utterance.](../images/create-simple-entity0.png "Example utterance using a vocabulary source")
+\[Omitted image "create-simple-entity0.png"\] Alt text: How to reference a vocabulary source from within an utterance.
 
-For more information, see [NLU vocabulary](../concept/using-nlu-vocabulary.md).
-
-**Parent Topic:**[NLU entities](../concept/entities.md)
-
-**Related topics**  
-
-
-[Create a mapped entity](create-mapped-entity-lookup-source.md)
-
-[Create a pattern entity](create-pattern-entity.md)
-
-[Create a system-derived entity](create-system-derived-entity.md)
-
-[Create an open-ended entity](create-open-ended-entity.md)
-
-[Import entities](import-common-entities-nlu.md)
-
-[Using regular expressions in entities](../concept/using-regular-expressions-nlu.md)
+For more information, see [NLU vocabulary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/using-nlu-vocabulary.md).
 

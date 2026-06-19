@@ -2,6 +2,7 @@
 title: Domain separation and Omnichannel Callback
 description: Domain separation is supported for Omnichannel Callback. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/omnichannel-callback/omnichannel-callback-domain-separation.html
 release: zurich
 product: Omnichannel Callback
 classification: omnichannel-callback
@@ -24,7 +25,7 @@ Domain separation is supported for Omnichannel Callback. Domain separation enabl
 
 Sample use case: An Admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## Overview
 
@@ -48,10 +49,10 @@ The sys\_cs\_callback table is domain separated.
 
 When domain separation is used, a callback request from guest users is routed to the agent with the same domain as the guest user. For custom chat channels, the domain of the provider application is used as a reference to route the callback to the domain-specific agent.
 
-**Parent Topic:**[Omnichannel Callback reference](omnichannel-callback-reference.md)
+**Parent Topic:**[Omnichannel Callback reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/omnichannel-callback/omnichannel-callback-reference.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

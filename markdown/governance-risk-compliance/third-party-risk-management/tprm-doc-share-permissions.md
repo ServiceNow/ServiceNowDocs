@@ -2,6 +2,7 @@
 title: Define document sharing permissions
 description: Controls who can view, edit, or manage a document using the Document Management system in Third-party Risk Management \(TPRM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-doc-share-permissions.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -29,7 +30,7 @@ Sharing permissions define which users or groups can view, edit, or manage a doc
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **All Documents**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **All Documents**.
 
 2.  Select the document record that you want and then the **Versions** tab.
 

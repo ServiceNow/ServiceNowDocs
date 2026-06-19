@@ -2,6 +2,7 @@
 title: TemplatePrinter - Scoped
 description: The TemplatePrinter API provides methods to handle printing from a mail script to the email message.Prints the string to the email body.Adds non-breaking spaces to the email body.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_TemplatePrinterScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The TemplatePrinter API provides methods to handle printing from a mail script t
 
 There is no constructor for this API. The methods are called in mail scripts using the template global variable.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## TemplatePrinter - print\(String string\)
 

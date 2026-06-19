@@ -2,6 +2,7 @@
 title: Assign runtime permissions while creating sequences
 description: Use permission sets to control access to sequence records such as sequence tasks and steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configure-runtime-permission-sequence-playbooks.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -17,9 +18,9 @@ Use permission sets to control access to sequence records such as sequence tasks
 
 ## Before you begin
 
-Delegated developer roles must be assigned to designated users. For more information, see [Grant delegated developer permissions for managing sequences](grant-delegated-developer-permissions.md).
+Delegated developer roles must be assigned to designated users. For more information, see [Grant delegated developer permissions for managing sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/grant-delegated-developer-permissions.md).
 
-**Note:** Runtime permissions are available only with at least Playbooks version 28.1 on the Zurich release. For more information, see [Playbooks in Workflow Studio release notes](https://www.servicenow.com/docs/access?context=process-automation-designer-rn&version=zurich&pubname=zurich-release-notes&ft:locale=en-US).
+**Note:** Runtime permissions are available only with at least Playbooks version 28.1 on the Zurich release. For more information, see .
 
 Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
@@ -29,13 +30,13 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Sequences** &gt; **All Sequences**.
 
 4.  Select a sequence that you're creating or updating.
 
-5.  On the Workflow Studio page, select **Properties** from the More actions menu icon ![](../image/icon-three-dot-menu.png).
+5.  On the Workflow Studio page, select **Properties** from the More actions menu icon \[Omitted image "icon-three-dot-menu.png"\] Alt text:.
 
 6.  On the Playbook properties window, select **Runtime permissions**.
 
@@ -50,7 +51,7 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
     To allow agents to view only their own assigned sequence tasks for a sequence based on the Lead table, you would select Parent Record as Lead and then its **Owner** column. For instance, if user Max Blaze is overlooking a lead, only Max Blaze will be able to view the sequence steps and complete activities.
 
-9.  Confirm your selection and set the permission by selecting the Add permission set icon![](../../../reuse/icons/product-icons/circle-check-outline-24.svg).
+9.  Confirm your selection and set the permission by selecting the Add permission set icon\[Omitted image "circle-check-outline-24.svg"\] Alt text:.
 
 10. Grant the level of access by selecting View or Manage or both.
 
@@ -59,5 +60,5 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 12. Select **Save and close**.
 
 
-**Parent Topic:**[Create a customer engagement sequence](create-customer-engagement-sequence.md)
+**Parent Topic:**[Create a customer engagement sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-customer-engagement-sequence.md)
 

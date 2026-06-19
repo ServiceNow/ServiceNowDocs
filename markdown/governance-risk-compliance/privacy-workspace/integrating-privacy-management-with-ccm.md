@@ -2,6 +2,7 @@
 title: Exploring Privacy Case Management
 description: The Governance, Risk, and Compliance: Privacy Case Management application enables users to report any privacy breaches or complaints, collaborate with key stakeholders, perform breach investigations, and analyse the causes and consequences of breaches.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/integrating-privacy-management-with-ccm.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace

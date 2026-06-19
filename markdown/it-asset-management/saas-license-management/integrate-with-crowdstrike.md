@@ -2,6 +2,7 @@
 title: Integrating with CrowdStrike
 description: Integrating your Software Asset Management application with the CrowdStrike enables you to view CrowdStrike active host sensors information and check license compliance.Register the CrowdStrike OAuth application to access the CrowdStrike API and to receive a Client ID and Client secret.Create a CrowdStrike integration profile to track software subscriptions and optimize licensing for your CrowdStrike applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/saas-license-management/integrate-with-crowdstrike.html
 release: zurich
 product: SaaS License Management
 classification: saas-license-management
@@ -31,7 +32,7 @@ Register the CrowdStrike OAuth application to access the CrowdStrike API and to 
 
 ### Before you begin
 
-The CrowdStrike Integration Hub spoke must be active. For more information, see [CrowdStrike spoke](https://www.servicenow.com/docs/access?context=crowdstrike-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+The CrowdStrike Integration Hub spoke must be active. For more information, see CrowdStrike spoke.
 
 CrowdStrike Role required: Falcon administrator
 
@@ -73,7 +74,7 @@ The Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_
 
 ServiceNow Role required: admin or sam\_integrator
 
-**Important:** You must select the **CrowdStrike Spoke** check box for this integration while installing optional features on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **CrowdStrike Spoke** check box for this integration while installing optional features on the  page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### About this task
 
@@ -90,15 +91,15 @@ If you are on any version for Yokohama below patch 1, refer [KB1801232](https://
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d102207e457">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d101834e456">
 
 Interface
 
-</th><th align="left" id="d102207e460">
+</th><th align="left" id="d101834e459">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d102207e466">
+</th></tr></thead><tbody><tr><td id="d101834e465">
 
 **Core UI**
 
@@ -109,7 +110,7 @@ Action
 3.  Select **CrowdStrike Integration Profile**.
 
 
-</td></tr><tr><td id="d102207e508">
+</td></tr><tr><td id="d101834e507">
 
 **Software Asset Workspace**
 
@@ -163,7 +164,7 @@ Type of integration profile. This field is automatically set to CrowdStrike Subs
 
     **Note:** The **Download consumption** check box is selected by default and you can't clear it. Verify that the **Subflow** field is set to **CrowdStrike Download Weekly and Hourly Sensor Usage**.
 
-    For more information about the required roles and scopes, see [Minimal user permissions table](integrate-with-crowdstrike.md#).
+    For more information about the required roles and scopes, see [Minimal user permissions table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-crowdstrike.md).
 
 4.  Select **Save**.
 
@@ -171,7 +172,7 @@ Type of integration profile. This field is automatically set to CrowdStrike Subs
 
     The **Connection &amp; Credential** field appears and is automatically set to **sn\_crowdstrk\_spoke.CrowdStrike**.
 
-5.  Open the connection &amp; credential aliases record by selecting the preview icon ![](../image/preview-icon.png) next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
+5.  Open the connection &amp; credential aliases record by selecting the preview icon \[Omitted image "preview-icon.png"\] next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
 
 6.  On the Connection &amp; Credential Aliases form, select the **Create New Connection &amp; Credential** related link.
 
@@ -241,7 +242,7 @@ OAuth Redirect URL
 </td></tr></tbody>
 </table>8.  Select **Create and Get OAuth Token**.
 
-    **Note:** For the role required to perform this step, refer to the [Minimal user permissions](integrate-with-crowdstrike.md#) table.
+    **Note:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-crowdstrike.md) table.
 
     The OAuth token is generated successfully.
 
@@ -249,14 +250,14 @@ OAuth Redirect URL
 
     **Note:** The software entitlements and software models must be created before proceeding to the next step.
 
-    -   For more information on creating software entitlements in the Software Asset Management classic application, see [Create entitlements in Software Asset Management classic](../task/track-software-rights.md).
-    -   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](../task/create-entitlements-workspace.md).
-    -   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](../task/guidedwalk-workspace.md).
+    -   For more information on creating software entitlements in the Software Asset Management classic application, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/track-software-rights.md).
+    -   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-entitlements-workspace.md).
+    -   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/guidedwalk-workspace.md).
     1.  On the CrowdStrike Product Workload Mappings page, select **New**.
 
     2.  On the form, fill in the fields.
 
-        For further details on the CrowdStrike Product Workload Mapping, see [Create a product workload mapping for CrowdStrike products](../task/create-product-workload-mapping-crowdstrike.md).
+        For further details on the CrowdStrike Product Workload Mapping, see [Create a product workload mapping for CrowdStrike products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-product-workload-mapping-crowdstrike.md).
 
     3.  Select **Save**.
 
@@ -277,12 +278,12 @@ This integration pulls or creates usage records in the CrowdStrike Product Usage
 
 ### What to do next
 
-If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](../reuse/create-child-alias-saas.md).
+If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
-You can view details on the usage records and workload mappings created with the CrowdStrike integration. For more information, see [License operations view](operations-workspace.md) in the Software Asset Workspace.
+You can view details on the usage records and workload mappings created with the CrowdStrike integration. For more information, see [License operations view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/operations-workspace.md) in the Software Asset Workspace.
 
-Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
+Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
 
--   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](../task/t_RunReconciliation.md).
--   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](../task/run-recon-workspace.md).
+-   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_RunReconciliation.md).
+-   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/run-recon-workspace.md).
 

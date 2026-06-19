@@ -2,6 +2,7 @@
 title: Microsoft Azure Log Analytics integration configuration fields
 description: Description of the fields on the Microsoft Azure Log Analytics integration configuration forms for Health Log Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/il-connector-hla-azure-la-fields.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -16,7 +17,7 @@ breadcrumb: [Integration configuration field descriptions, Health Log Analytics 
 
 Description of the fields on the Microsoft Azure Log Analytics integration configuration forms for Health Log Analytics.
 
-For the Microsoft Azure Log Analytics integration setup procedure, see [Set up a Microsoft Azure Log Analytics integration for Health Log Analytics](../task/il-connector-hla-azure-la.md).
+For the Microsoft Azure Log Analytics integration setup procedure, see [Set up a Microsoft Azure Log Analytics integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/il-connector-hla-azure-la.md).
 
 <table id="table_pxx_hz1_42c"><thead><tr><th>
 
@@ -73,7 +74,7 @@ The MID Server cluster to which the log data is pulled. This field is required.T
 -   Log ingestion must be enabled for each MID Server in the cluster. If log ingestion is not enabled for the active MID Server, Health Log Analytics enables it automatically.
 -   The default maximum number of data inputs or integrations streaming logs to a single MID Server is 10. A cluster passes capacity validation if it contains at least one MID Server with fewer than 10 data inputs or integrations running on it, even when that MID Server is down.
 
-For more information about MID Server clusters, see [Configure a MID Server cluster](https://www.servicenow.com/docs/access?context=t_ConfigureAMIDServerCluster&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+For more information about MID Server clusters, see Configure a MID Server cluster.
 
 </td></tr><tr><td>
 
@@ -263,5 +264,5 @@ For example:
 ```
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integration configuration field descriptions](../concept/hla-connector-config-fields.md)
+</table>**Parent Topic:**[Integration configuration field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

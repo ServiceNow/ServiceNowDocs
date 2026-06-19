@@ -2,6 +2,7 @@
 title: Explore Workplace Reservation Management
 description: Workplace Reservation Management provides one unified interface for employees to reserve desks, meeting rooms, parking spots, workplace equipments, services, and collaboration spaces.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-reservation-management/wsd-reservation-mgmt-ovw.html
 release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -16,7 +17,7 @@ breadcrumb: [Workplace Reservation Management, Workplace Service Delivery, Emplo
 
 Workplace Reservation Management provides one unified interface for employees to reserve desks, meeting rooms, parking spots, workplace equipments, services, and collaboration spaces.
 
-![Workplace Reservation Management Overview.](../image/servicenow-infographic-branding-rsv-mgmt-landing-page.png)
+\[Omitted image "servicenow-infographic-branding-rsv-mgmt-landing-page.png"\] Alt text: Workplace Reservation Management Overview.
 
 Workplace Reservation Management provides flexibility to employees as to where to work from, where to meet, and how to collaborate with team members without wasting time or searching for an open desk or room. Workplace Reservation Management provides a single, intuitive application that makes it easy for employees to reserve desks, meeting rooms, conference spaces, or any workplace services. Employees can book a desk near their teammate or colleagues or plan a recurring meeting across multiple buildings.
 
@@ -32,7 +33,7 @@ Workplace Reservation Management provides a modern, intuitive reservation experi
 
 The following diagram explains the reservation workflow:
 
-![Reservation workflow explained for setting up reservation management, creating reservation, and managing reservations.](../image/reservation-workflow-use.png)
+\[Omitted image "reservation-workflow-use.png"\] Alt text: Reservation workflow explained for setting up reservation management, creating reservation, and managing reservations.
 
 ## Simplify reservations with self-service for employees
 
@@ -67,7 +68,7 @@ Employees can perform the following using Workplace Reservation Management:
 -   Set location privacy preferences on an organization or a building level.
 -   Integration of Workplace Reservation Management with Workplace Concierge provides employees with real-time insights to optimize their on-site presence in the workplace with their co-workers, improving team collaboration and learning. By using personalized suggestions, employees are guided to the best workspace when they plan to visit the office or travel to another office.
 
-For more information, see [Create a reservation](../task/create-reservation-request-1.md).
+For more information, see [Create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
 ## Enhanced workplace monitoring, compliance, and visibility for workplace administrators and facility managers
 
@@ -93,7 +94,7 @@ Workplace Reservation Management allows workplace administrators and facility ma
 -   Enable multi-building reservation.
 -   Enable browse by neighborhood.
 
-For more information, see [Configure a reservable module](../task/config-reservable-module.md).
+For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
 ## Smarter Integrations and Automation
 
@@ -105,7 +106,7 @@ Employees can create reservations using:
 
     When reservation conflicts arise \(such as two employees booking the same spac\), the system uses the proximity logic to automatically find the closest available alternative.
 
-    For more information, see [Manage Workplace Reservations for Microsoft Outlook Add-in](manage-outlook-addin-rsv.md).
+    For more information, see [Manage Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/manage-outlook-addin-rsv.md).
 
 
 ## Data-driven workplace optimization
@@ -126,11 +127,11 @@ As a Workplace Reservation Management manager, you can:
 -   Assign spaces to an area
 -   Assign spaces to a neighborhood
 
-For more information, see [Analytics and Reporting Solutions for Workplace Reservation Management](analytics-reporting-for-rsv-mgmt.md).
+For more information, see [Analytics and Reporting Solutions for Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/analytics-reporting-for-rsv-mgmt.md).
 
 ## Workplace Reservation Event planner
 
 The Workplace Reservation Event Planner enables you to track your organization's reservations from a single workspace in Workplace Central. The Event planner dashboard is available to both Reservation planner and Reservation viewer roles. As a reservation planner, manage the reservations on behalf of your employees. View reservation details, optimize reservations, and manage multiple workplace reservations using the schedule view.
 
-For more information, refer to [Event Planner](../../workplace-central/concept/event-planner.md).
+For more information, refer to [Event Planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/event-planner.md).
 

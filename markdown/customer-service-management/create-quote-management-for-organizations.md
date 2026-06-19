@@ -2,7 +2,10 @@
 title: Create a quote for business organizations
 description: Create a quote and manage the price breakdown of the products by verifying product price details. Agents can analyze price details, discuss with customers and resellers, and decide on the proposed quote.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-quote-management-for-organizations.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -31,7 +34,7 @@ The channel partners can view a detailed price breakdown for each quote line ite
 
 3.  On the Quote New record form, fill in the fields.
 
-    To learn more about the fields on the form, see [Create a quote](https://www.servicenow.com/docs/access?context=create-new-quote&version=zurich&pubname=zurich-order-management&ft:locale=en-US)
+    To learn more about the fields on the form, see 
 
 4.  Select **Submit**.
 

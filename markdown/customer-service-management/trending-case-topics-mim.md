@@ -2,7 +2,10 @@
 title: Add trending case topics to existing major cases
 description: Work through cases more efficiently and resolve similar cases at once by identifying any existing major cases that the backlog of cases can be linked to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/trending-case-topics-mim.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

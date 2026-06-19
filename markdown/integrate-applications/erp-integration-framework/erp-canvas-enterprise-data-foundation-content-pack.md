@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP Enterprise Data Foundation data product
 description: Find details about the models and process extensions in the Zero Copy Connector for ERP Enterprise Data Foundation data product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erp-canvas-enterprise-data-foundation-content-pack.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -16,12 +17,12 @@ breadcrumb: [Data products, Building models, Use, Zero Copy Connector for ERP ov
 
 Find details about the models and process extensions in the Zero Copy Connector for ERP Enterprise Data Foundation data product.
 
--   **[Zero Copy Connector for ERP Enterprise Data Foundation data product models](../reference/erp-canvas-content-pack-enterprise-data-models.md)**  
+-   **[Zero Copy Connector for ERP Enterprise Data Foundation data product models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-content-pack-enterprise-data-models.md)**  
 The Zero Copy Connector for ERP Enterprise Data Foundation data product contains models that you may need when interacting with an SAP system.
--   **[Zero Copy Connector for ERP Enterprise Data Foundation data product process extensions](../reference/erp-canvas-content-pack-enterprise-data-process-extensions.md)**  
+-   **[Zero Copy Connector for ERP Enterprise Data Foundation data product process extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-content-pack-enterprise-data-process-extensions.md)**  
 The Zero Copy Connector for ERP Enterprise Data Foundation data product contains process extensions that you may need when interacting with an SAP system.
--   **[Zero Copy Connector for ERP SAP Foundation data product models](../reference/erp-canvas-content-pack-sap-foundation-models.md)**  
+-   **[Zero Copy Connector for ERP SAP Foundation data product models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-content-pack-sap-foundation-models.md)**  
 The Zero Copy Connector for ERP SAP Foundation data product contains models that you may need when interacting with an SAP system.
 
-**Parent Topic:**[Zero Copy Connector for ERP data products](erp-canvas-content-packs.md)
+**Parent Topic:**[Zero Copy Connector for ERP data products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md)
 

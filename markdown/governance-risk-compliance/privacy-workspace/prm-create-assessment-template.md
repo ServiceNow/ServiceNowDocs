@@ -2,6 +2,7 @@
 title: Create a privacy case assessment template
 description: Create an assessment and send those assessments to the privacy case task owners to collect their responses. The responses help the privacy case analysts to determine the breaches that have occurred due to the privacy case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/prm-create-assessment-template.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -31,13 +32,13 @@ Instead of using the default template, you can create a questionnaire template f
 
 3.  On the Assessment Metric Type form, fill in the fields.
 
-    For a description of the field values on the Assessment Metric Type form, see [Assessment metric type form](../reference/prm-assessment-metric-form.md).
+    For a description of the field values on the Assessment Metric Type form, see [Assessment metric type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/prm-assessment-metric-form.md).
 
 4.  Select **Submit**.
 
 
--   **[Assessment metric type form](../reference/prm-assessment-metric-form.md)**  
+-   **[Assessment metric type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/prm-assessment-metric-form.md)**  
 Use the Assessment Metric Type form to create an assessment questionnaire template instead of using the default template.
 
-**Parent Topic:**[Configuring Privacy Case Management](../concept/configuring-privacy-case-management.md)
+**Parent Topic:**[Configuring Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/configuring-privacy-case-management.md)
 

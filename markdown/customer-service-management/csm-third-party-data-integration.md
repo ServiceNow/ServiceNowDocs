@@ -2,7 +2,10 @@
 title: Third-party data integration for CSM
 description: The third-party data integration feature enables you to retrieve data from third-party applications and display the data in Agent Workspace for CSM without having to store it in your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-third-party-data-integration.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -27,7 +30,7 @@ The following plugins are required to implement third-party data integration:
 
 -   Remote Tables \(com.glide.script.vtable\): Adds the Remote Table Script Definition table \(sys\_script\_vtable\) and adds the **Remote Table** flag to the Tables \(sys\_db\_object\) table. Active on the base instance.
 -   OAuth 2.0 \(com.snc.platform.security.oauth\): Adds the OAuth-related tables and extension points needed to support **OAuth 2.0 –JWT Bearer grant type**. Active on the base instance.
--   IntegrationHub \(com.glide.hub.integrations\): Provides the ability to build reusable integrations with third-party systems and call them from anywhere in the platform. IntegrationHub requires subscription and is available in several subscription packages. Different packages allow for different levels of automation and provide different subsets of predefined third-party integrations, or spokes. For more information, see [Request IntegrationHub](https://www.servicenow.com/docs/access?context=request-ih-overview&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) and [IntegrationHub available spokes](https://www.servicenow.com/docs/access?context=spokes-list&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+-   IntegrationHub \(com.glide.hub.integrations\): Provides the ability to build reusable integrations with third-party systems and call them from anywhere in the platform. IntegrationHub requires subscription and is available in several subscription packages. Different packages allow for different levels of automation and provide different subsets of predefined third-party integrations, or spokes. For more information, see Request IntegrationHub and IntegrationHub available spokes.
 -   Customer Service \(com.sn\_customerservice\)
 
 ## Configuring third-party data integration
@@ -41,7 +44,7 @@ Users with the system administrator role can configure the necessary components 
 -   Configuring ACLs for the remote table to provide user access to the third-party data.
 -   Configuring the lists and forms that display data from the remote table.
 
-For more information, see [Configure third-party data integration for CSM](../task/config-csm-third-party-integration.md).
+For more information, see [Configure third-party data integration for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-csm-third-party-integration.md).
 
 ## Using third-party data integration
 
@@ -58,15 +61,15 @@ Remote table script definitions are domain separated. If users do not have acces
 
 The data within the remote table is not domain separated.
 
-For more information, see [Domain separation and remote tables](https://www.servicenow.com/docs/access?context=domain-separation-remote-tables&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+For more information, see Domain separation and remote tables.
 
 ## Related documentation
 
 -   Authentication and credentials
-    -   [Set up OAuth provider with JWT Bearer grant type](https://www.servicenow.com/docs/access?context=JWT-Bearer-token-support&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
-    -   [Credentials and connection information](https://www.servicenow.com/docs/access?context=r-credentials&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
--   [IntegrationHub](https://www.servicenow.com/docs/access?context=integrationhub&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)
--   [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
--   [Retrieving external data using remote tables and scripts](https://www.servicenow.com/docs/access?context=remote-tables&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
--   [Salesforce spoke](https://www.servicenow.com/docs/access?context=salesforce-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)
+    -   Set up OAuth provider with JWT Bearer grant type
+    -   Credentials and connection information
+-   IntegrationHub
+-   Flow Designer
+-   Retrieving external data using remote tables and scripts
+-   Salesforce spoke
 

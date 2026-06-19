@@ -2,11 +2,12 @@
 title: Test connectivity to the ServiceNow instance
 description: Test the ServiceNow DEX instance network connectivity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/test-connectivity-to-instance.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Getting started, Configure, Digital End-User Experience, IT Service Management]
 ---

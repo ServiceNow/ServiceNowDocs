@@ -2,6 +2,7 @@
 title: Generate acceptance criteria for stories using Now Assist for Strategic Portfolio Management \(SPM\)
 description: Create clear, comprehensive, and testable acceptance criteria for user stories without writing them manually in Agile Development 2.0. Review and refine suggested options to ensure they meet your requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/generate-acceptance-criteria-for-stories.html
 release: zurich
 product: Agile Development
 classification: agile-development
@@ -22,7 +23,7 @@ Ensure that Now Assist for SPM is installed in your instance and that the follow
 -   Acceptance criteria generation
 -   Refine records
 
-For more information, see [Configure Now Assist for Strategic Portfolio Management \(SPM\)](../../now-assist-spm/task/configure-now-assist-for-spm.md).
+For more information, see [Configure Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md).
 
 Role required: scrum\_story\_editor
 
@@ -41,16 +42,16 @@ For an Agile 2.0 story, you can generate acceptance criteria by selecting **Gene
     -   From the story form header: Select **Generate acceptance criteria**.
     -   From the Acceptance criteria field:
         1.  Place your mouse cursor in the field.
-        2.  Select **Refine with Now Assist** menu \(![](../../now-assist-spm/images/icon-eap-na-context-menu.png)\).
+        2.  Select **Refine with Now Assist** menu \(\[Omitted image "icon-eap-na-context-menu.png"\] Alt text:\).
         3.  Select **Generate acceptance criteria**.
-    ![Options to generate acceptance criteria for an EAP story.](../../now-assist-spm/images/agile-na-acc-criteria.png)
+    \[Omitted image "agile-na-acc-criteria.png"\] Alt text: Options to generate acceptance criteria for an EAP story.
 
 4.  Review the generated acceptance criteria.
 
-5.  You can choose to further refine the generated content using the Now Assist context menu \(![](../../now-assist-spm/images/icon-eap-na-context-menu.png)\) or generate a new criteria.
+5.  You can choose to further refine the generated content using the Now Assist context menu \(\[Omitted image "icon-eap-na-context-menu.png"\] Alt text:\) or generate a new criteria.
 
 6.  Save the Story form.
 
 
-**Parent Topic:**[Using Agile Development 2.0](../concept/using-agile-development-2-0.md)
+**Parent Topic:**[Using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/using-agile-development-2-0.md)
 

@@ -2,6 +2,7 @@
 title: Create email notifications
 description: Vulnerability administrators can edit the notification or add new ones, specifying when to send the notification, who receives the notification, and what content is in the notification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/cc-create-email-notification.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance
@@ -21,7 +22,7 @@ Role required: sn\_vulc.admin
 
 ## About this task
 
-You can create email templates for different types of email notifications. For more on how to create email templates, see [Define Vulnerability Response email templates](../../vulnerability-response/task/t_DefiningEmailTemplates.md).
+You can create email templates for different types of email notifications. For more on how to create email templates, see [Define Vulnerability Response email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/t_DefiningEmailTemplates.md).
 
 ## Procedure
 
@@ -31,7 +32,7 @@ You can create email templates for different types of email notifications. For m
 
 3.  Fill in the fields on the form, as appropriate.
 
-    For more information on the form fields, see [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For more information on the form fields, see .
 
 4.  Select **Preview Notification** to view the message.
 

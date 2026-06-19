@@ -2,6 +2,7 @@
 title: Associate an interaction record in Accounts Payable Operations
 description: Associate an interaction record to an invoice case if your interaction is related to an existing invoice case in Source-to-Pay workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/associate-an-interaction-record.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -29,9 +30,9 @@ Role required: admin
 
 4.  Associate a record with an existing invoice case.
 
-    1.  Select More Actions ![More actions](../../supplier-lifecycle-operations/image/more-actions-icon.png) and then select **Associate record**.
+    1.  Select More Actions \[Omitted image "more-actions-icon.png"\] Alt text: More actions and then select **Associate record**.
 
-        ![Associate an interaction record](../image/apo-associate-record.png)
+        \[Omitted image "apo-associate-record.png"\] Alt text: Associate an interaction record
 
         The **Create New Interaction Related Record** form appears in a new tab.
 
@@ -49,5 +50,5 @@ Role required: admin
 
 The interaction record is associated with an existing invoice case in the Source-to-Pay Workspace.
 
-**Parent Topic:**[Interaction management in Accounts Payable Operations](../concept/interaction-record.md)
+**Parent Topic:**[Interaction management in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/interaction-record.md)
 

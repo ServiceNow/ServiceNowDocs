@@ -2,6 +2,7 @@
 title: Sending missed chat activity emails
 description: Send email to users with summaries of chat messages sent to them while they were offline.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/agent-chat/ac-missed-activity-emails.html
 release: zurich
 product: Agent Chat
 classification: agent-chat
@@ -46,5 +47,5 @@ You can send email summaries to an authenticated user or users who are verified 
 
 Email notifications of missed chat messages are automatically sent at the specified time interval.
 
-**Parent Topic:**[Configuring Agent Chat](../concept/ci-agent-chat-configuring.md)
+**Parent Topic:**[Configuring Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/agent-chat/ci-agent-chat-configuring.md)
 

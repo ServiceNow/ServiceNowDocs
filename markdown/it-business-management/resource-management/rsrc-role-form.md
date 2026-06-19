@@ -2,6 +2,7 @@
 title: Resource Role form
 description: Use the Resource Role form to create roles for project team members.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/resource-management/rsrc-role-form.html
 release: zurich
 product: Resource Management
 classification: resource-management
@@ -48,5 +49,5 @@ Description
 Detailed description of the resource role.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Resource Management reference](../task/rsrc-mgmt-reference.md)
+</table>**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rsrc-mgmt-reference.md)
 

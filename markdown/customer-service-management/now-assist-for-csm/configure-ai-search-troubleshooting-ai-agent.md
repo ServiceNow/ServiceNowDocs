@@ -2,6 +2,7 @@
 title: Configure AI Search to use with the Troubleshooting steps identification AI agent
 description: Configure AI Search with the Troubleshooting steps identification AI agent to fetch the relevant cases and knowledge articles that could help solve your issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/configure-ai-search-troubleshooting-ai-agent.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -22,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-This AI agent relies on AI Search for fetching the relevant cases and knowledge articles that could help solve your issue. For more information on configuring AI Search, see [Using AI Search with CSM Configurable Workspace](../concept/csm-config-workspace-ai-search.md) and [Semantic index configuration for indexed sources](https://www.servicenow.com/docs/access?context=semantic-index-cfg-ais&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+This AI agent relies on AI Search for fetching the relevant cases and knowledge articles that could help solve your issue. For more information on configuring AI Search, see [Using AI Search with CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-config-workspace-ai-search.md) and .
 
 ## Procedure
 

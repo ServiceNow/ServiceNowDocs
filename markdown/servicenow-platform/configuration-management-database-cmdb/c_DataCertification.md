@@ -2,6 +2,7 @@
 title: Data Certification
 description: Data Certification manages scheduled and on-demand validations of data in CMDB and non-CMDB tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/c\_DataCertification.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -34,24 +35,24 @@ Domain separated systems can use the Data Certification application.
 
 ## Data Certification experience in CMDB Workspaceand in Service Graph Workspace
 
-You can use the [CMDB Workspace](../../configuration-management/concept/cmdb-workspace.md)or Service Graph Workspace landing page and its views to fully administer and use Data Certification, view various analytics, and handle Data Certification functions such as:
+You can use the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or Service Graph Workspace landing page and its views to fully administer and use Data Certification, view various analytics, and handle Data Certification functions such as:
 
--   [Create a certification policy](../../configuration-management/task/data-manager-create-policy-wrkspc.md).
--   [Convert legacy certification schedules into Data Manager certification policies](../../configuration-management/task/convert-data-cert-definitions.md).
--   [Review certification tasks](../../configuration-management/task/data-certific-review-tasks.md).
--   [Review failed certification tasks](../../configuration-management/task/data-review-failed-tasks.md).
+-   [Create a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md).
+-   [Convert legacy certification schedules into Data Manager certification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/convert-data-cert-definitions.md).
+-   [Review certification tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-certific-review-tasks.md).
+-   [Review failed certification tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-review-failed-tasks.md).
 
 The Data Certification experience in CMDB Workspace doesn’t provide functionality such as reset, merging of multiple certification tasks, and escalation.
 
-For more information about using Data Certification in CMDB Workspace, see [Data Certification experience in CMDB Workspace and in Service Graph Workspace](../../configuration-management/concept/data-cert-exp-cmdb-workspace.md).
+For more information about using Data Certification in CMDB Workspace, see [Data Certification experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-cert-exp-cmdb-workspace.md).
 
 ## Data Certification on Core UI \(UI 16\)
 
-[Data Certification experience in CMDB Workspace and in Service Graph Workspace](../../configuration-management/concept/data-cert-exp-cmdb-workspace.md) provides the latest Data Certification functionality. However, the legacy build of Data Certification on Core UI \(UI 16\) is available by navigating to **All** &gt; **Data Certification**. For information about using the CMDB Data Manager legacy build on Core UI, see [Data Certification on Core UI](../../configuration-management/concept/data-certification-legacy.md).
+[Data Certification experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-cert-exp-cmdb-workspace.md) provides the latest Data Certification functionality. However, the legacy build of Data Certification on Core UI \(UI 16\) is available by navigating to **All** &gt; **Data Certification**. For information about using the CMDB Data Manager legacy build on Core UI, see [Data Certification on Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-certification-legacy.md).
 
 **Note:**
 
 Data Certification in CMDB Workspace and the legacy build of Data Certification on Core UI operate separately, and aren't synchronized. Therefore, any Data Certification elements, such as definitions and schedules, that you create in one of those implementations, doesn't appear and isn't included in the other implementation.
 
-To convert data created in the legacy build of Data Certification on Core UI, into draft Certification policies in CMDB Workspace, see [Convert legacy certification schedules into Data Manager certification policies](../../configuration-management/task/convert-data-cert-definitions.md).
+To convert data created in the legacy build of Data Certification on Core UI, into draft Certification policies in CMDB Workspace, see [Convert legacy certification schedules into Data Manager certification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/convert-data-cert-definitions.md).
 

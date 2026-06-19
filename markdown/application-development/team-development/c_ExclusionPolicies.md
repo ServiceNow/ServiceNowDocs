@@ -2,6 +2,7 @@
 title: Exclusion policies
 description: You can exclude certain files from change tracking by creating an exclusion policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/c\_ExclusionPolicies.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -19,8 +20,8 @@ When a change matches an exclusion policy, the change doesn’t generate records
 
 **Note:** The exclusion policy applies to changes identified during a reconciliation operation. If you create an exclusion policy after a reconciliation, Team Development still tracks the changes until the next reconciliation.
 
--   **[Create an exclusion policy](../task/t_CreateAnExclusionPolicy.md)**  
+-   **[Create an exclusion policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_CreateAnExclusionPolicy.md)**  
 Application developers can create an exclusion policy to avoid pushes or pulls to specific instances in the team development hierarchy.
 
-**Parent Topic:**[Configuring Team Development](../task/configuring-team-development.md)
+**Parent Topic:**[Configuring Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/configuring-team-development.md)
 

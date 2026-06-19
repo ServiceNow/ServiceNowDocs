@@ -2,6 +2,7 @@
 title: Federal plugin reference
 description: Reference topics provide additional information about tables in Federal plugin.Several types of components are installed with activation of the Federal \(Additional tables for Federal Agencies\) plugin, including tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/refer-fed.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

@@ -2,6 +2,7 @@
 title: Operational Success
 description: An operational KPI is a quantifiable measure that tracks the efficiency and effectiveness of day-to-day operations in your organization. The KPIs can be organized in a dashboard that highlights the areas that are running efficiently and the areas that need attention.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-success-dashboard-indicators/operational-success-ref.html
 release: zurich
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -25,9 +26,9 @@ By monitoring operational KPIs, you can identify areas for improvement, optimize
 -   Use data to drive decisions: Identify trends, uncover root causes, and use insights to improve processes and performance.
 -   Use the data to identify trends and use insights to improve processes and performance.
 
-To create a new operational dashboard, refer [Create an operational success dashboard](../task/create-operational-success-dashboard.md).
+To create a new operational dashboard, refer [Create an operational success dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-success-dashboard-indicators/create-operational-success-dashboard.md).
 
-This framework uses the PA Dashboard created as part of the Platform Analytics for ITSM. For more information see, [Platform Analytics KPIs and dashboards](operational-success-kpi.md).
+This framework uses the PA Dashboard created as part of the Platform Analytics for ITSM. For more information see, [Platform Analytics KPIs and dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/operational-success-kpi.md).
 
-**Parent Topic:**[ITSM Success Dashboard indicators KPI definitions and formulas](sd-kpi-formulae.md)
+**Parent Topic:**[ITSM Success Dashboard indicators KPI definitions and formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-success-dashboard-indicators/sd-kpi-formulae.md)
 

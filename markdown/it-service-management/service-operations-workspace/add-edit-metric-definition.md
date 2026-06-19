@@ -2,6 +2,7 @@
 title: Configure a metric definition
 description: Configure a metric definition to create or modify the existing base system CI metrics displayed on the Investigation tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/add-edit-metric-definition.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -264,7 +265,7 @@ MECM spoke flow action to look up the read operation response from the MECM serv
 
 ## What to do next
 
-After the new metric definition is created, perform the UI configuration for displaying the metric definition on the Investigate tab of the incident record page. You must get the sys\_id of the metric definition and add it to the `sn_sow.SOWInvestigateConfig` script. You can also customize the display of the metric definition, such as the labels, units, and threshold values. For more information, see [Customize the Investigate tab](../concept/customize-the-incident-record-page.md#).
+After the new metric definition is created, perform the UI configuration for displaying the metric definition on the Investigate tab of the incident record page. You must get the sys\_id of the metric definition and add it to the `sn_sow.SOWInvestigateConfig` script. You can also customize the display of the metric definition, such as the labels, units, and threshold values. For more information, see [Customize the Investigate tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/customize-the-incident-record-page.md).
 
-**Parent Topic:**[Setting up Investigation Framework in Service Operations Workspace](../concept/set-up-investigate.md)
+**Parent Topic:**[Setting up Investigation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/set-up-investigate.md)
 

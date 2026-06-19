@@ -2,6 +2,7 @@
 title: Get page route metrics
 description: Filter metrics for an application by page route in the Performance Analyzer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/performance-analyzer/get-page-route-metrics.html
 release: zurich
 product: Performance Analyzer
 classification: performance-analyzer

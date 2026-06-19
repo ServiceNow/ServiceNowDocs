@@ -2,6 +2,7 @@
 title: Refine your search results
 description: Refine your search results to narrow down the content displayed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/communities/refine-search-results.html
 release: zurich
 product: Communities
 classification: communities
@@ -34,5 +35,5 @@ Role required: sn\_communities.community\_user
     The search results page displays content based on the filter criteria.
 
 
-**Parent Topic:**[Search the community](search.md)
+**Parent Topic:**[Search the community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/search.md)
 

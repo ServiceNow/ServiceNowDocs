@@ -2,6 +2,7 @@
 title: Create calendar entries for iterations in EAP
 description: Define timelines for planning calendars so that the teams can create their own iterations in the Backlog and Planning Board of Enterprise Agile Planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/enterprise-agile-planning/create-calendar-entries-in-eap.html
 release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -51,7 +52,7 @@ By the end of this task, you define the timeline for a PI and its child Sprints.
 
     For the PI that spans from 01 January 2024 to 31 March 2024, you can create 6 Sprints with a length of 14 days each.
 
-    ![New Planning Interval Calendar entry.](../images/eap-new-calendar-entry.png)
+    \[Omitted image "eap-new-calendar-entry.png"\] Alt text: New Planning Interval Calendar entry.
 
 7.  Select **Create**.
 
@@ -64,7 +65,7 @@ A PI and its child sprints are created with the timelines that you defined. The 
 
 PI 1 is created for 2024-01-01 to 2024-03-31. Within this PI, child six Sprints are created, each with a length of 14 days.
 
-![PI1 and its child Sprints.](../images/eap-pi-and-sprint.png)
+\[Omitted image "eap-pi-and-sprint.png"\] Alt text: PI1 and its child Sprints.
 
 Under the Digital Banking portfolio, the teams create their own ARTs and Sprints as follows:
 
@@ -75,5 +76,5 @@ Under the Digital Banking portfolio, the teams create their own ARTs and Sprints
 
 The teams can use these PIs and Sprints to schedule their work.
 
-![Team-specific sprints in EAP Backlog.](../images/eap-teams-sprints.png)
+\[Omitted image "eap-teams-sprints.png"\] Alt text: Team-specific sprints in EAP Backlog.
 

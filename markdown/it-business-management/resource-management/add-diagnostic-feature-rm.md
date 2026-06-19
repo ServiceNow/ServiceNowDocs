@@ -2,6 +2,7 @@
 title: Add diagnostic features for resource
 description: Create diagnostic features to evaluate an application feature and organize various diagnostic scans for an application. The diagnostic features appear in the target application and list all the diagnostic scans associated with the diagnostic feature for that application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/resource-management/add-diagnostic-feature-rm.html
 release: zurich
 product: Resource Management
 classification: resource-management
@@ -35,18 +36,18 @@ You can check for the existing features under the **Features** module. If you do
 
 3.  On the Diagnostics Feature form, fill the fields.
 
-    For a description of the field names, see [Diagnostics Feature form](../reference/diag-feature-form.md).
+    For a description of the field names, see [Diagnostics Feature form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/diag-feature-form.md).
 
 4.  Define user input values for specifying filter conditions in the **Diagnostics Inputs** section.
 
-    The fields in this section are displayed in the application as condition builder. For a description of the field names, see [Diagnostics Inputs form](../reference/diag-input-field.md).
+    The fields in this section are displayed in the application as condition builder. For a description of the field names, see [Diagnostics Inputs form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/diag-input-field.md).
 
 5.  Select **Submit**.
 
 
 ## What to do next
 
-Create diagnostic scripts and add fix scripts to use with the diagnostic feature. For more information, see [Add diagnostics and fix scripts for resource](add-diagnostic-and-fix-script-rm.md).
+Create diagnostic scripts and add fix scripts to use with the diagnostic feature. For more information, see [Add diagnostics and fix scripts for resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/add-diagnostic-and-fix-script-rm.md).
 
-**Parent Topic:**[Use Resource Diagnostics to detect corrupt resource data](use-resource-diagnostics.md)
+**Parent Topic:**[Use Resource Diagnostics to detect corrupt resource data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/use-resource-diagnostics.md)
 

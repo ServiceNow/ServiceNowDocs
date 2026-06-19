@@ -2,6 +2,7 @@
 title: Rightsizing analysis for AWS
 description: Cloud Cost Management uses a process that is optimized for each provider. For AWS, Cloud Cost Management compares the calculated potential costs to actual billed costs and then generates recommendations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/aws-how-rs-works-cloudin.html
 release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -24,7 +25,7 @@ To generate accurate Rightsizing resources recommendations, Cloud Cost Managemen
 
     **Important:**
 
-    -   To enable Rightsizing, you must define memory metrics to obtain memory usage data. For more information, see [Define a metric threshold](../task/define-metric-threshold.md).
+    -   To enable Rightsizing, you must define memory metrics to obtain memory usage data. For more information, see [Define a metric threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/define-metric-threshold.md).
     -   Recommendations are generated only for CPU usage data.
 -   Obtain rates for resource types and sizes from the price sheet data tables.
 -   If available, obtain percentage discount rates from the discount tables and apply the appropriate discounts to the rates on the price sheet.

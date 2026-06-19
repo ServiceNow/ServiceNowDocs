@@ -2,6 +2,7 @@
 title: Configuring Operational Technology Request Management
 description: Configure Operational Technology Request Management so that you can create the data foundation for the Operational Technology \(OT\) solution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-request-management/configuring-operational-technology-request-management.html
 release: zurich
 product: Operational Technology Request Management
 classification: operational-technology-request-management
@@ -79,14 +80,14 @@ Create a fulfillment flow for an OT request in Workflow Studio.
 Create a fulfillment flow with catalog tasks in Workflow Studio for your catalog item as needed to fulfill an OT request.
 
 </td></tr></tbody>
-</table>-   **[Assign roles to your Operational Technology Request Management users](../task/assign-roles-oper-tech-request-management.md)**  
+</table>-   **[Assign roles to your Operational Technology Request Management users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-request-management/assign-roles-oper-tech-request-management.md)**  
 Assign roles to your users so that you can control their access to the features, capabilities, and data for Operational Technology Request Management.
--   **[Catalog item categories](catalog-item-categories-otrm.md)**  
+-   **[Catalog item categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-request-management/catalog-item-categories-otrm.md)**  
 You can select different categories for the catalog items you create in the Operational Technology \(OT\) Service Catalog. Categories help organize OT catalog items into logical groups. When requesters submit an OT request, they can choose the catalog item that best fits their needs based on its designated category.
--   **[Create a catalog item for your Operational Technology Service Catalog](../task/create-catalog-item.md)**  
+-   **[Create a catalog item for your Operational Technology Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-request-management/create-catalog-item.md)**  
 Create a catalog item for the Operational Technology \(OT\) Service Catalog using the catalog builder so that other users can submit OT requests categorized by catalog item.
--   **[Create a fulfillment flow for an Operational Technology request](../task/create-a-fulfillment-flow-ot-request.md)**  
+-   **[Create a fulfillment flow for an Operational Technology request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-request-management/create-a-fulfillment-flow-ot-request.md)**  
 Create a fulfillment flow with catalog tasks in Workflow Studio for your catalog item as needed to fulfill an Operational Technology \(OT\) request.
 
-**Parent Topic:**[Operational Technology Request Management](operational-technology-request-management-landing-page.md)
+**Parent Topic:**[Operational Technology Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-request-management/operational-technology-request-management-landing-page.md)
 

@@ -2,6 +2,7 @@
 title: Source-to-Pay integration framework transform maps and subflows
 description: The transform maps transform the source-to-pay data from the inbound staging tables to the Source-to-Pay primary data tables. The subflows move the source-to-pay data from the outbound staging tables to a third-party ERP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/source-to-pay-integration-framework/s2p-transform-maps-flows.html
 release: zurich
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

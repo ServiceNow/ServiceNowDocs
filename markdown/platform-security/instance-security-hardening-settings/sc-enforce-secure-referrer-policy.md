@@ -2,6 +2,7 @@
 title: Enforce secure referrer policy \[New in Security Center 1.3\]
 description: Use the com.glide.security.referrerpolicy property to ensure that the Referrer-Policy HTTP header sends the appropriate level of data to each ServiceNow page to prevent data leaks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-enforce-secure-referrer-policy.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -73,7 +74,7 @@ Category
 
 </td><td>
 
-[Configuration](sc-configuration.md)
+[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-configuration.md)
 
 </td></tr><tr><td>
 
@@ -113,5 +114,5 @@ This property controls how much information is sent via the referrer header when
 -   origin-when-cross-origin: Send full referrer URL within the instance/same domain and only the origin outside the origin
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuration](sc-configuration.md)
+</table>**Parent Topic:**[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-configuration.md)
 

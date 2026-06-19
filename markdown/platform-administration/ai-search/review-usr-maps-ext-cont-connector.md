@@ -2,6 +2,7 @@
 title: Review user permissions for an external content connector
 description: View user and group access permissions retrieved by an external content connector, and see how the connector maps those permissions to your ServiceNow AI Platform instance's users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/review-usr-maps-ext-cont-connector.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -68,7 +69,7 @@ Next Experience UI
 
 In the banner frame, select the icon for your account to open the user menu, then select **Elevate role**.
 
-![User menu with Elevate role action highlighted in Next Experience UI.](../image/elevate-role-polaris-ui.png)
+\[Omitted image "elevate-role-polaris-ui.png"\] Alt text: User menu with Elevate role action highlighted in Next Experience UI.
 
 </td></tr><tr><td>
 
@@ -76,18 +77,18 @@ Core UI
 
 </td><td>
 
-In the banner frame, select your name to open the user menu, then select **Elevate Roles**.![User menu with Elevate Roles action highlighted in Core UI.](../../../use/dashboards/image/adv-ais-tools-user-menu-before.png)
+In the banner frame, select your name to open the user menu, then select **Elevate Roles**.\[Omitted image "adv-ais-tools-user-menu-before.png"\] Alt text: User menu with Elevate Roles action highlighted in Core UI.
 
 </td></tr></tbody>
 </table>        A dialog box appears, displaying a checklist of your available privileged roles.
 
-        ![Dialog box displaying privileged roles in Next Experience UI.](../image/elevate-role-dialog-polaris-ui-ais.png)
+        \[Omitted image "elevate-role-dialog-polaris-ui-ais.png"\] Alt text: Dialog box displaying privileged roles in Next Experience UI.
 
     2.  In the dialog box, select the **ais\_high\_security\_admin** option, then select **Update** \(in Next Experience UI\) or **OK**.
 
-        The page reloads and an elevated role indicator appears next to your user name in the user menu. In Next Experience UI, this indicator displays the names of the active privileged roles. In Core UI, the indicator displays the elevated role icon ![](../../security/image/icon-elevated-role-ui16.png).
+        The page reloads and an elevated role indicator appears next to your user name in the user menu. In Next Experience UI, this indicator displays the names of the active privileged roles. In Core UI, the indicator displays the elevated role icon \[Omitted image "icon-elevated-role-ui16.png"\] Alt text:.
 
-        ![User menu showing elevated role indicator in Next Experience UI.](../image/elevated-polaris-ui.png)
+        \[Omitted image "elevated-polaris-ui.png"\] Alt text: User menu showing elevated role indicator in Next Experience UI.
 
         **Note:** When the page reloads, any unsaved edits are lost.
 
@@ -96,5 +97,5 @@ In the banner frame, select your name to open the user menu, then select **Eleva
     Each entry shows a single ServiceNow AI Platform user along with the external user mapped to them and any external group memberships associated with that external user. You can sort and filter the list to locate entries of interest.
 
 
-**Parent Topic:**[Reviewing external content connector crawl results and analytics](../concept/reviewing-external-content-connector-results-and-analytics.md)
+**Parent Topic:**[Reviewing external content connector crawl results and analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/reviewing-external-content-connector-results-and-analytics.md)
 

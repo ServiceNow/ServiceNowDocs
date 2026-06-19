@@ -2,6 +2,7 @@
 title: Quick start tests for Cloud Provisioning and Governance
 description: Validate that Cloud Provisioning and Governance still works after you make any configuration change such as applying an upgrade or developing an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/quick-start-tests-cloud-management.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -75,10 +76,10 @@ Cloud Provisioning and Governance quick start tests require activating the follo
 |CMP: Verify stack status after Day2 - Start operation|Validate the status of the stack status changed from 'Off' to 'On' after the Start operation.|Orlando|
 |CMP: Verify stack status after Day2 - De-provision operation|Validate the status of the stack status changed from 'On' to 'terminate' after the de-provisioning operation.|Orlando|
 
-To learn more about Cloud Provisioning and Governance, see [Cloud Provisioning and Governance](../../../product/cloud-management-v2/concept/cloud-management-v2-landing-page.md).
+To learn more about Cloud Provisioning and Governance, see [Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloud-management-v2-landing-page.md).
 
 **Related topics**  
 
 
-[Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+[bundle-cadev.quick-start-tests]
 

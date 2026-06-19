@@ -2,6 +2,7 @@
 title: GRC state model configuration
 description: Create a Governance, Risk, and Compliance state model to define the steps, transitions, and validations for a custom workflow in CAM. State models control how authorization packages move through workflow life cycles and determine which actions are available at each step.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/continuous-risk-monitoring/cam-create-state-model.html
 release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -35,7 +36,7 @@ Role required: sn\_irm\_cont\_auth.admin
     |State field|Select **State Model \[state\_model\]**.|
     |State model|Select **Step \[step\]**.|
 
-    ![Creating state model.](../image/WF-state-model1.png)
+    \[Omitted image "WF-state-model1.png"\] Alt text: Creating state model.
 
 4.  Select **Submit**.
 
@@ -48,9 +49,9 @@ The state model is ready to be configured with workflow states, transitions, and
 
 ## What to do next
 
-[Create GRC workflow states](add-workflow-states.md)
+[Create GRC workflow states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/add-workflow-states.md)
 
-[Add existing attributes to a GRC workflow state](configure-state-model-attributes.md)
+[Add existing attributes to a GRC workflow state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/configure-state-model-attributes.md)
 
-[Create a new state model attribute](configure-new-state-model-attributes.md)
+[Create a new state model attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/configure-new-state-model-attributes.md)
 

@@ -2,6 +2,7 @@
 title: Configure Fluid Topics for external content indexing
 description: Generate an API key in your Fluid Topics tenant to allow the Fluid Topics external content connector to access your Fluid Topics source system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-fluid-topics-external-content-indexing.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -26,7 +27,7 @@ Role required: none
 
 The Fluid Topics external content connector retrieves Topics, Articles, Publications, and associated content pages delivered through portals from your Fluid Topics source system using the Fluid Topics API.
 
-To allow the connector to access your source system via the API, you must generate an API key in Fluid Topics. Your connector admin can use this API key and the URL for your Fluid Topics tenant to configure the Fluid Topics external connector for proper connection to your source system.
+To allow the connector to access your source system via the API, you must generate an API key in Fluid Topics. Your connector administrator can use this API key and the URL for your Fluid Topics tenant to configure the Fluid Topics external connector for proper connection to your source system.
 
 ## Procedure
 
@@ -48,7 +49,7 @@ To allow the connector to access your source system via the API, you must genera
 
 3.  Copy the generated API key and store its value in a secure location.
 
-    **Important:** Your external content connector admin needs this API key when configuring the Fluid Topics external content connector.
+    **Important:** Your external content connector administrator needs this API key when configuring the Fluid Topics external content connector.
 
 4.  Create a new Fluid Topics source and assign your new API key to it.
 
@@ -75,14 +76,14 @@ To allow the connector to access your source system via the API, you must genera
 
 ## What to do next
 
-Provide the following items to your connector admin:
+Provide the following items to your connector administrator:
 
 -   The URL for your Fluid Topics tenant.
--   The API key that you copied in step [3](configure-fluid-topics-external-content-indexing.md#copy-api-key-step).
+-   The API key that you copied in step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-fluid-topics-external-content-indexing.md).
 
-Your connector admin needs these items to configure a Fluid Topics external content connector to retrieve content and security principals from your Fluid Topics source system.
+Your connector administrator needs these items to configure a Fluid Topics external content connector to retrieve content and security principals from your Fluid Topics source system.
 
-For details on creating and configuring a Fluid Topics external content connector, see [Create a Fluid Topics external content connector](create-ext-cont-connector-fluid-topics.md).
+For details on creating and configuring a Fluid Topics external content connector, see [Create a Fluid Topics external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-fluid-topics.md).
 
-**Parent Topic:**[Fluid Topics external content connector](../concept/fluid-topics-external-content-connector.md)
+**Parent Topic:**[Fluid Topics external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/fluid-topics-external-content-connector.md)
 

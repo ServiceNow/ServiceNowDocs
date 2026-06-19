@@ -2,6 +2,7 @@
 title: Enable public access to the chat widget
 description: Enable public access to the Virtual Agent chat widget for portals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/enable-public-access-web-client.html
 release: zurich
 product: Conversational Interfaces
 classification: conversational-interfaces
@@ -25,7 +26,7 @@ Public access to the Virtual Agent chat widget defaults to off. Use the followin
 
 ## Procedure
 
-1.  In the unified navigation bar, select the globe icon \(![Globe icon.](../../virtual-agent/images/icon-scope.png)\).
+1.  In the unified navigation bar, select the globe icon \(\[Omitted image "icon-scope.png"\] Alt text: Globe icon.\).
 
 2.  Select **Application Scope**, then choose the **Virtual Agent Web Client** scope.
 
@@ -38,5 +39,5 @@ Public access to the Virtual Agent chat widget defaults to off. Use the followin
     A message displays confirming that the setting has been saved.
 
 
-**Parent Topic:**[General chat settings](../concept/ci-configuring-chat-features.md)
+**Parent Topic:**[General chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/ci-configuring-chat-features.md)
 

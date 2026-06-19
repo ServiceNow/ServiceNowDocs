@@ -2,6 +2,7 @@
 title: Plan your app development
 description: The application development process in App Engine Studio \(AES\) begins with your idea for the next effective app. Careful planning is the key to creating a successful app that is beneficial to your business.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/before-you-begin.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -132,17 +133,17 @@ The Application Intake request process benefits your organization as follows:
 -   Improves planning by providing visibility into all app ideas.
 -   Provides an efficient process to filter out repetitive requests.
 
-For more information, see [Submit your idea for app development](../task/submit-intake-request.md).
+For more information, see [Submit your idea for app development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/application-intake/submit-intake-request.md).
 
--   The intake request form is available through the standard Service Catalog. For information about how you can modify this form, see [Service catalog items](https://www.servicenow.com/docs/access?context=c_IntroductionToCatalogItems&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
--   The intake request process uses Flows in Workflow Studio to determine the approval flow. To adjust the approval flow, see [Flows](https://www.servicenow.com/docs/access?context=flows&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
--   Admins review intake application requests in App Engine Management Center. For more information, see [Managing app development using the App Engine Management Center](../../app-engine-management-center/concept/managing-app-development-using-aemc.md).
+-   The intake request form is available through the standard Service Catalog. For information about how you can modify this form, see Service catalog items.
+-   The intake request process uses Flows in Workflow Studio to determine the approval flow. To adjust the approval flow, see Flows.
+-   Admins review intake application requests in App Engine Management Center. For more information, see [Managing app development using the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/managing-app-development-using-aemc.md).
 
 ## Application templates
 
 An application template provides predefined content to support a certain purpose. For example, the Travel Request template provides application content for submitting and approving employee travel requests. Choose the template that most closely fits your application goals.
 
-If the available templates don't fit your application goals, you can [create your app from scratch](../task/create-app-scratch.md) and control all aspects of the development process.
+If the available templates don't fit your application goals, you can [create your app from scratch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/create-app-scratch.md) and control all aspects of the development process.
 
 ## Additional resources for planning your app development
 
@@ -160,8 +161,8 @@ ServiceNow provides additional resources on planning your app development
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-try-a-demo.svg) [Launching an effective Citizen Development program](https://www.servicenow.com/demo/demonow-detail.html?videoid=launching-an-effective-citizen-development-program)
+\[Omitted image "bus-try-a-demo.svg"\] Alt text: [Launching an effective Citizen Development program](https://www.servicenow.com/demo/demonow-detail.html?videoid=launching-an-effective-citizen-development-program)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Building apps in App Engine Studio](aes-app-creation.md)
+</table>**Parent Topic:**[Building apps in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-creation.md)
 

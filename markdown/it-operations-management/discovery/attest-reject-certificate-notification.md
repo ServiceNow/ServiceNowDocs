@@ -2,6 +2,7 @@
 title: Attest or Reject Certificate Ownership by Email
 description: Attest or reject ownership of a certificate from your certification attestation email notification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/attest-reject-certificate-notification.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -17,7 +18,7 @@ Attest or reject ownership of a certificate from your certification attestation 
 
 ## Before you begin
 
--   Verify that your system is configured to send certificate attestation notifications. For more information, see [Configure a certificate attestation review](configure-certificate-attestation.md)
+-   Verify that your system is configured to send certificate attestation notifications. For more information, see [Configure a certificate attestation review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/configure-certificate-attestation.md)
 -   Role required: pki\_admin or admin
 
 ## Procedure

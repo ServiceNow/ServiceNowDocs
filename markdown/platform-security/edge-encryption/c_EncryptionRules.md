@@ -2,6 +2,7 @@
 title: Define a custom encryption rule
 description: It may be necessary to identify and encrypt sensitive information in HTTP requests on the way to your instance. You can write encryption rules to identify, interpret, and encrypt data in such requests, mapping fields in the request to table-field names on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/c\_EncryptionRules.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -78,16 +79,16 @@ When creating encryption rules, you can’t use APIs from the allow list manager
 
 If an encryption rule condition or action throws an exception, check the proxy log for troubleshooting information.
 
--   **[Inspect the client request](../task/request-type.md)**  
+-   **[Inspect the client request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/request-type.md)**  
 Before creating a custom encryption rule, you must determine the format of the client request entering the Edge Encryption proxy server.
--   **[Create an encryption rule](../task/t_CreateAnEncryptionRule.md)**  
+-   **[Create an encryption rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_CreateAnEncryptionRule.md)**  
 Encryption rules are used by the proxy to find content in HTTP requests that should be encrypted.
--   **[Encryption rule conditions](c_EncryptionRuleConditions.md)**  
+-   **[Encryption rule conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/c_EncryptionRuleConditions.md)**  
 Encryption rule conditions determine if the rule should be executed.
--   **[Encryption rule actions](c_EncryptionRuleActions.md)**  
+-   **[Encryption rule actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/c_EncryptionRuleActions.md)**  
 An encryption rule maps fields in a client request to fields in a table on your instance and identifies fields marked for encryption.
--   **[Encryption rule objects and APIs](api-overview.md)**  
+-   **[Encryption rule objects and APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/api-overview.md)**  
 Use encryption rule APIs to parse and encrypt values in requests moving through the Edge Encryption proxy server to the instance.
 
-**Parent Topic:**[Configuring Edge Encryption](edge-config.md)
+**Parent Topic:**[Configuring Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/edge-config.md)
 

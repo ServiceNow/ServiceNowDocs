@@ -2,6 +2,7 @@
 title: Cancel a service contract line
 description: Create an order to cancel a service contract line and its child service contract lines on the CSM Configurable Workspace. By canceling a service contract line, you are canceling or disabling the services and characteristics associated with that service contract line.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cce-cancel-service-contract-line.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -50,5 +51,5 @@ Role required: sn\_customerservice\_manager and sn\_ind\_tmt\_orm.order\_agent
 
 With the service contract line, all the associated entities in the hierarchy are also cancelled and move to Cancelled state.
 
-**Parent Topic:**[Using Contracts and Entitlements Workflows](../concept/using-customer-cnt-ent-wf.md)
+**Parent Topic:**[Using Contracts and Entitlements Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/using-customer-cnt-ent-wf.md)
 

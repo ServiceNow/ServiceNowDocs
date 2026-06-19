@@ -2,6 +2,7 @@
 title: Adopt CSDM methodology
 description: Manage services of your business unit in a standardized, structured format as suggested in the Common Service Data Model \(CSDM\) methodology. Ensure that the hierarchy in which you define services is consistent with the hierarchy of other business units.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/config-business-csdm.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -30,11 +31,11 @@ Customers require a common interface, a single place for monitoring metrics, vie
 
 1.  Create a business or technical service and corresponding service offering records for your business unit.
 
-2.  [Create a service table configuration in Service Portfolio Management](config-service-table.md).
+2.  [Create a service table configuration in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/config-service-table.md).
 
 3.  Map your BU service to CSDM Service or Service Offering.
 
-    For more information, see [Configure CSDM service mappings](config-csdm-ser-map.md).
+    For more information, see [Configure CSDM service mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/config-csdm-ser-map.md).
 
 4.  Add your business unit logic to populate Service and Service Offering columns in task records or resulting BU records that are created by using the BU service \(For example: HR service use case\).
 
@@ -42,7 +43,7 @@ Customers require a common interface, a single place for monitoring metrics, vie
 
 5.  Create a service portfolio and add the required taxonomy nodes.
 
-    For more information, see [Service Portfolio Management](https://www.servicenow.com/docs/access?context=SPM2-landing-page&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+    For more information, see .
 
 6.  Map BU service to the taxonomy nodes in the Services related list.
 
@@ -50,7 +51,7 @@ Customers require a common interface, a single place for monitoring metrics, vie
 
 7.  Configure KPI group and indicators for your business unit in the Digital Portfolio Management dashboard.
 
-    For more information, see [Digital Portfolio Management](https://www.servicenow.com/docs/access?context=dpm-landing&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+    For more information, see .
 
     -   To display the KPIs in Digital Portfolio Management, create a KPI group and add the required KPIs. Once KPIs are added, add group mapping to associate the group with correct taxonomy node where you want to display indicator data.
     -   The PA indicators must have the correct breakdown assigned. For example, if you are creating an indicator for service offering, add the **DPM: Service Offerings breakdown** to that indicator. Before adding the breakdown, make sure the record table exists in breakdown mappings.

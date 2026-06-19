@@ -2,6 +2,7 @@
 title: Generate product compliance summaries by using Now Assist for SAM
 description: Generate a comprehensive summary for a product that covers software deployment, license compliance, optimization, and issues. The detailed product compliance summary helps in gaining insights into your software assets and makes it easier to manage licenses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/now-assist-for-software-asset-management-sam/summarize-product-compliance-now-assist-sam.html
 release: zurich
 product: Now Assist for Software Asset Management \(SAM\)
 classification: now-assist-for-software-asset-management-sam
@@ -21,7 +22,7 @@ Role required: sam\_user
 
 ## About this task
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 Now Assist for SAM generates the product summaries by using reconciliation results, product life-cycle reports, and dashboards such as Discovered inventory, Normalization and content, and Health check.
 
@@ -43,21 +44,21 @@ When you run reconciliation with grouping, product summarization and recommended
 
     The Now Assist for SAM application starts generating the summary for the selected product. After the summary is compiled, the results of the summary appear under different sections. Additionally, recommended actions are also automatically generated when you select **Summarize**.
 
-    ![SQL Server product summarization](../image/now-assist-sam-product-summary.png)
+    \[Omitted image "now-assist-sam-product-summary.png"\] Alt text: SQL Server product summarization
 
     After it's generated, the product summary isn’t automatically saved. If you close the Publisher details page where you generated the summary, or if you reload the page, the product summary isn’t available. To regenerate the summary, select **Summarize**.
 
 6.  You can perform the following actions on the generated summary.
 
-<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d163749e158">
+<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d160863e157">
 
 Action
 
-</th><th align="left" id="d163749e161">
+</th><th align="left" id="d160863e160">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d163749e167">
+</th></tr></thead><tbody><tr><td id="d160863e166">
 
 **Copy to clipboard icon**
 
@@ -65,7 +66,7 @@ Description
 
 Copies the summary to a clipboard.
 
-</td></tr><tr><td id="d163749e176">
+</td></tr><tr><td id="d160863e175">
 
 **Refresh icon**
 
@@ -73,7 +74,7 @@ Copies the summary to a clipboard.
 
 Regenerates the product summary and recommended actions.
 
-</td></tr><tr><td id="d163749e185">
+</td></tr><tr><td id="d160863e184">
 
 **Feedback**
 
@@ -83,5 +84,5 @@ If you found that the summary was helpful, select the helpful icon. If you found
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using generative AI skills in Now Assist for SAM](../concept/using-now-assist-sam.md)
+**Parent Topic:**[Using generative AI skills in Now Assist for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md)
 

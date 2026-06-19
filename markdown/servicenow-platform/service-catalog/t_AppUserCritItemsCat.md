@@ -2,6 +2,7 @@
 title: Apply user criteria to items and categories
 description: Apply a user criteria record to items and categories, either from the item or category form or from the user criteria form.Apply user criteria to an item to define which users can and cannot access that item.Apply user criteria to a category to define which users can and cannot access a category.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/t\_AppUserCritItemsCat.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -36,7 +37,7 @@ To apply criteria directly from the User Criteria form, add items to the Availab
 
 The **Not Available For** settings override **Available For** settings. A user on the **Not Available For** list for an item can’t access that item, even if that user is also on the **Available For** list for that item.
 
-**Parent Topic:**[Set security for items and categories](../concept/c_ServiceCatalogAccessControls.md)
+**Parent Topic:**[Set security for items and categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_ServiceCatalogAccessControls.md)
 
 ## Apply user criteria to items
 

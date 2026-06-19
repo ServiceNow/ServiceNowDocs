@@ -2,6 +2,7 @@
 title: Managing scrum tasks on Agile Development v2 mobile app
 description: View, edit, and update the details of scrum tasks that were created for the stories of the current sprint on your mobile device.From your mobile device, track all scrum tasks of an assignment group including the scrum tasks assigned to you from multiple assignment groups.Add a scrum task for a story from the mobile app.Edit and update the details of the scrum tasks of your stories from your mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/manage-scrum-tasks-agile-mobile.html
 release: zurich
 product: Agile Development
 classification: agile-development
@@ -62,7 +63,7 @@ Role required: scrum\_product\_owner, scrum\_team\_member, or scrum\_master
 
 2.  Tap which story you want to add a new scrum task to.
 
-3.  Tap the more options icon \(![More options on iOS](../../innovation-management/image/more-options-icon.png) on iOS\) or \(![More options on Android](../image/more-options-icon-android.png) on Android\) and tap **New Scrum Task**.
+3.  Tap the more options icon \(\[Omitted image "more-options-icon.png"\] Alt text: More options on iOS on iOS\) or \(\[Omitted image "more-options-icon-android.png"\] Alt text: More options on Android on Android\) and tap **New Scrum Task**.
 
 4.  On the form, fill in the fields.
 

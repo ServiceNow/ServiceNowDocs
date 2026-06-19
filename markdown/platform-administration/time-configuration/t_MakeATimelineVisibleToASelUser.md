@@ -2,6 +2,7 @@
 title: Make a timeline visible to a selected user
 description: Create a custom module within an application and defining the roles that can access it, to make selected timelines available to users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/time-configuration/t\_MakeATimelineVisibleToASelUser.html
 release: zurich
 product: Time Configuration
 classification: time-configuration
@@ -53,5 +54,5 @@ To create a timeline page module:
     |Override application menu roles|Check box that indicates that this module should appear when the user has the specified roles. Otherwise, the user must have the roles specified by both the application menu and the module.|
 
 
-**Parent Topic:**[Timeline pages](../concept/c_TimelinePages.md)
+**Parent Topic:**[Timeline pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/c_TimelinePages.md)
 

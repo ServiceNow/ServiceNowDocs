@@ -2,7 +2,10 @@
 title: Validation errors
 description: Several types of errors are displayed for missing or incorrect information in the nodes and paths while saving an element or activating a decision tree.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ra-validation-errors.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 8
@@ -93,7 +96,7 @@ Type of answer in Question \{number\} doesn't exist
 
 </td><td>
 
-The answer type that you entered in the **Type of answer** field isn’t valid. Select the answer type from the list. For more information, see [Answer types for questions](type-of-answer.md).
+The answer type that you entered in the **Type of answer** field isn’t valid. Select the answer type from the list. For more information, see [Answer types for questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/type-of-answer.md).
 
 </td></tr><tr><td>
 
@@ -133,7 +136,7 @@ You need to add a path after this node
 
 </td><td>
 
-Question nodes require paths to add the next question or guidance nodes. Select the Add path icon ![Add path icon](../image/icon-add-path.png) on the question node in the canvas to add a new path.
+Question nodes require paths to add the next question or guidance nodes. Select the Add path icon \[Omitted image "icon-add-path.png"\] Alt text: Add path icon on the question node in the canvas to add a new path.
 
 </td></tr><tr><td>
 
@@ -145,7 +148,7 @@ After you change a question’s answer type in a prior node, the input mapping f
 
  1.  Unlink the input by deleting the link.
 2.  Either change this question's answer type to match the changed answer type in the prior node or add a question that matches it.
-3.  Select the Link input icon \(![Link input icon](../image/icon-link-input.png)\) to link the inputs.
+3.  Select the Link input icon \(\[Omitted image "icon-link-input.png"\] Alt text: Link input icon\) to link the inputs.
 
 </td></tr><tr><td>
 
@@ -165,7 +168,7 @@ You can link reference input types only if the current question node’s input t
 
  1.  Unlink the input by deleting the link.
 2.  If necessary, select the reference table that matches at the same level or at the child level.
-3.  Select the Link input icon \(![Link input icon](../image/icon-link-input.png)\) to link the reference inputs again.
+3.  Select the Link input icon \(\[Omitted image "icon-link-input.png"\] Alt text: Link input icon\) to link the reference inputs again.
 
 </td></tr></tbody>
 </table>## Guidance node errors
@@ -195,7 +198,7 @@ This node needs a guidance
 Guidance nodes must be linked to a guidance. Either select an existing guidance or create one.
 
  -   Select an available guidance from the list in the **Guidance** field.
--   Create a guidance in Core UI by selecting the Create a guidance icon ![Create a guidance icon](../image/icon-add-path.png) in the **Guidance** field. For more information, see [Create a guidance in the Core UI](../task/create-guidances.md).
+-   Create a guidance in Core UI by selecting the Create a guidance icon \[Omitted image "icon-add-path.png"\] Alt text: Create a guidance icon in the **Guidance** field. For more information, see [Create a guidance in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-guidances.md).
 
 </td></tr><tr><td>
 
@@ -203,7 +206,7 @@ You need to set inputs for this guidance
 
 </td><td>
 
-Configure the guidance inputs for the guidance that you selected. For more information, see [Provide actions to agents in a decision tree](../task/configure-guidance-in-gdb.md).
+Configure the guidance inputs for the guidance that you selected. For more information, see [Provide actions to agents in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-guidance-in-gdb.md).
 
 </td></tr><tr><td>
 
@@ -214,7 +217,7 @@ Configure the guidance inputs for the guidance that you selected. For more infor
 You can link reference input types only if the current guidance node’s input table matches the prior node’s input table at the same level or at the child level. For example, the Task table can be linked to the Task table or the Task table can be linked to the Case table, which is a child of the Task table.
 
  1.  Unlink the input by deleting the link.
-2.  Select the \(![Link input icon](../image/icon-link-input.png)\) icon to link the inputs again or enter a static value.
+2.  Select the \(\[Omitted image "icon-link-input.png"\] Alt text: Link input icon\) icon to link the inputs again or enter a static value.
 
 </td></tr><tr><td>
 
@@ -223,7 +226,7 @@ The input you linked to \{Guidance input name\} no longer exists after recent no
 </td><td>
 
 1.  Unlink the input by deleting the link.
-2.  Select the Link input icon \(![Link input icon](../image/icon-link-input.png)\) to link the inputs again or enter a static value.
+2.  Select the Link input icon \(\[Omitted image "icon-link-input.png"\] Alt text: Link input icon\) to link the inputs again or enter a static value.
 
 </td></tr><tr><td>
 
@@ -232,7 +235,7 @@ You need to reset the input\(s\) for this guidance because of changes in prior n
 </td><td>
 
 1.  Unlink the input by deleting the link.
-2.  If necessary, select the Link input icon \(![Link input icon](../image/icon-link-input.png)\) to link the new answer type from the prior node or enter a static value.
+2.  If necessary, select the Link input icon \(\[Omitted image "icon-link-input.png"\] Alt text: Link input icon\) to link the new answer type from the prior node or enter a static value.
 
 </td></tr></tbody>
 </table>## Linking node errors and warnings
@@ -262,7 +265,7 @@ This node needs a child tree
 Linking nodes must be linked to a child tree. Either select an activated decision tree or create one.
 
  -   Select an activated decision tree from the list in the **Child decision tree** field.
--   Create a decision tree in Core UI by selecting the Create a decision tree icon ![Create a decision tree icon](../image/icon-add-path.png) in the **Child decision tree** field. For more information, see [Create a decision tree in Core UI](../task/configure-decision-trees-gdb.md).
+-   Create a decision tree in Core UI by selecting the Create a decision tree icon \[Omitted image "icon-add-path.png"\] Alt text: Create a decision tree icon in the **Child decision tree** field. For more information, see [Create a decision tree in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-decision-trees-gdb.md).
 
 </td></tr><tr><td>
 
@@ -270,7 +273,7 @@ You need to map the inputs of the child decision tree to this decision tree corr
 
 </td><td>
 
-Configure the start node inputs of the child decision tree or select the Link input icon \(![Link input icon](../image/icon-link-input.png)\) to link the inputs.
+Configure the start node inputs of the child decision tree or select the Link input icon \(\[Omitted image "icon-link-input.png"\] Alt text: Link input icon\) to link the inputs.
 
 </td></tr><tr><td>
 
@@ -281,7 +284,7 @@ Configure the start node inputs of the child decision tree or select the Link in
 You can link reference input types only if the current guidance node’s input table matches the prior node’s input table at the same level or at the child level. For example, the Task table can be linked to the Task table or the Task table can be linked to the Case table, which is a child of the Task table.
 
  1.  Unlink the input by deleting the link.
-2.  Select the \(![Link input icon](../image/icon-link-input.png)\) icon to link the inputs again or enter a static value.
+2.  Select the \(\[Omitted image "icon-link-input.png"\] Alt text: Link input icon\) icon to link the inputs again or enter a static value.
 
 </td></tr></tbody>
 </table><table id="table_clj_yz5_tzb"><thead><tr><th>
@@ -299,7 +302,7 @@ The child decision tree you linked earlier changed. Double-check the mapped inpu
 </td><td>
 
 1.  Unlink the input by deleting the link.
-2.  If necessary, select the Link input icon \(![Link input icon](../image/icon-link-input.png)\) to link the input from the prior node or enter a static value.
+2.  If necessary, select the Link input icon \(\[Omitted image "icon-link-input.png"\] Alt text: Link input icon\) to link the input from the prior node or enter a static value.
 
 </td></tr><tr><td>
 
@@ -314,7 +317,7 @@ Make sure these linked decision trees can still use \{child decision tree\}:
 When you update and activate a decision tree, the parent decision trees that use this decision tree as a child tree must also be updated.1.  Select the parent decision tree.
 2.  Select the link node that references the child decision tree that has changed.
 3.  Unlink the input by deleting the link.
-4.  If necessary, select the Link input icon \(![Link input icon](../image/icon-link-input.png)\) to link the input from the prior node or enter a static value.
+4.  If necessary, select the Link input icon \(\[Omitted image "icon-link-input.png"\] Alt text: Link input icon\) to link the input from the prior node or enter a static value.
 
 </td></tr></tbody>
 </table>## Path errors

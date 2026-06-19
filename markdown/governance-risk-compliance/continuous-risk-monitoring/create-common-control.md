@@ -2,6 +2,7 @@
 title: Inherit from a common control
 description: After you have created a common control, you can identify other controls that can inherit protection and compliance from that common control.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/continuous-risk-monitoring/create-common-control.html
 release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -38,12 +39,12 @@ You are aware that the facility has a fire suppression system, fire alarms, and 
 
 4.  Select **Inherit from Provider**.
 
-    ![Inherit from Common Control](../image/inherit-confirm.png)
+    \[Omitted image "inherit-confirm.png"\] Alt text: Inherit from Common Control
 
 5.  Select the common control you want to inherit protections from and select **Confirm**.
 
     The Inherited Controls related list now shows the control objective and the common control from which it is inheriting protection and compliance.
 
-    ![Inherited Controls](../image/inherited-control.png)
+    \[Omitted image "inherited-control.png"\] Alt text: Inherited Controls
 
 

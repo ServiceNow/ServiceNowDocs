@@ -2,6 +2,7 @@
 title: Viewing search results in AI Search
 description: Learn about the components that AI Search uses to display results for search queries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/viewing-search-results-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -19,7 +20,7 @@ Learn about the components that AI Search uses to display results for search que
 
 The layout and appearance of AI Search UI elements varies from application to application. This example shows the elements as they might appear on a Service Portal search results page.
 
-![Sample search result page displaying developer laptop search query results.](../image/service-portal-search-results-ais.png "Sample search result page")
+\[Omitted image "service-portal-search-results-ais.png"\] Alt text: Sample search result page displaying developer laptop search query results.
 
 <table id="table_ljh_gxw_nnb"><thead><tr><th>
 
@@ -89,9 +90,9 @@ Displays dynamic filter options for refining search results by field value. To e
 
 </td><td>
 
-Displays the icon, summary field values, title, and text snippet for each search result. Select a result to view its source record in a new browser tab, preserving the state of your search in the current tab. The display settings for search results may be customized by modifying their EVAM properties. As an example, search results for Service Catalog items might be customized to display item images along with icons and field values. To learn about customizing search result display settings, see [Configure EVAM display settings for search results in AI Search applications](../task/configure-search-result-card-opts.md).
+Displays the icon, summary field values, title, and text snippet for each search result. Select a result to view its source record in a new browser tab, preserving the state of your search in the current tab. The display settings for search results may be customized by modifying their EVAM properties. As an example, search results for Service Catalog items might be customized to display item images along with icons and field values. To learn about customizing search result display settings, see [Configure EVAM display settings for search results in AI Search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-search-result-card-opts.md).
 
- Search results for attachments may be displayed separately or may appear grouped with their parent search results. Each grouped attachment displays an icon indicating the attachment file type. For more details on how grouped attachments appear in the search results list, see [Group attachment search results with their parent results](../task/group-attachment-srch-results-ais.md).
+ Search results for attachments may be displayed separately or may appear grouped with their parent search results. Each grouped attachment displays an icon indicating the attachment file type. For more details on how grouped attachments appear in the search results list, see [Group attachment search results with their parent results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/group-attachment-srch-results-ais.md).
 
 **Note:** When you select an attachment search result, the system may display the attachment in a new browser tab or may prompt you to download the attachment.
 
@@ -110,7 +111,7 @@ Displays the currently selected sort order for search results. By default, AI Se
 
 When AI Search auto-corrects a misspelled search query term, a `Showing results for <corrected_term>` message appears above the search results list.
 
-![Sample auto-correction message showing replacement of search query term emial with email.](../image/service-portal-auto-correction-ais.png)
+\[Omitted image "service-portal-auto-correction-ais.png"\] Alt text: Sample auto-correction message showing replacement of search query term emial with email.
 
 <table id="table_tgx_rgj_snb"><thead><tr><th>
 
@@ -129,5 +130,5 @@ Description
 Displays the auto-corrected query term used for the search. To repeat the search using your original search query term, select the link in the **Search instead for &lt;original\_term&gt;** line of the message.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Searching in AI Search](use-ais.md)
+</table>**Parent Topic:**[Searching in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/use-ais.md)
 

@@ -2,6 +2,7 @@
 title: Domain separation and Portfolio Planning
 description: If any conrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file. In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conref at the end that describes domain separation.Domain separation is supported for Portfolio Planning. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/domain-separation-and-portfolio-planning.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -25,7 +26,7 @@ Domain separation is supported for Portfolio Planning. Domain separation enables
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## Overview of domain separation in Portfolio Planning
 
@@ -37,12 +38,12 @@ After you enable domain separation on your ServiceNow instance, the data of Port
 
 ## Domain separated tables in Portfolio Planning
 
-All the tables installed with Portfolio Planning support domain separation. For a complete list of tables, see [Components installed with Portfolio Planning](installed-with-portfolio-planning.md).
+All the tables installed with Portfolio Planning support domain separation. For a complete list of tables, see [Components installed with Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/installed-with-portfolio-planning.md).
 
-**Parent Topic:**[Portfolio Planning reference](../concept/portfolio-planning-reference.md)
+**Parent Topic:**[Portfolio Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/portfolio-planning-reference.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

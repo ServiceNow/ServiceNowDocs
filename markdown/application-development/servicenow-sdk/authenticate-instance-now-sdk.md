@@ -2,11 +2,12 @@
 title: Authenticating to a ServiceNow instance with the ServiceNow SDK
 description: Authenticate to a ServiceNow instance and store user credentials for accessing the instance on your system with the ServiceNow SDK.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-sdk/authenticate-instance-now-sdk.html
 release: zurich
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -19,10 +20,10 @@ You can use basic or OAuth 2.0 credentials to authenticate to an instance. To us
 
 After authenticating to an instance with the ServiceNow SDK command-line interface \(CLI\), you can begin developing applications and installing them on your instance. A non-production instance should be used for application development.
 
--   **[Authenticate to a ServiceNow instance using basic authentication with the ServiceNow SDK](../task/authenticate-instance-basic-auth.md)**  
+-   **[Authenticate to a ServiceNow instance using basic authentication with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/authenticate-instance-basic-auth.md)**  
 Use basic authentication to connect to a ServiceNow instance with the ServiceNow SDK.
--   **[Authenticate to a ServiceNow instance using OAuth 2.0 with the ServiceNow SDK](../task/authenticate-instance-oauth.md)**  
+-   **[Authenticate to a ServiceNow instance using OAuth 2.0 with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/authenticate-instance-oauth.md)**  
 Use OAuth 2.0 authentication to connect to a ServiceNow instance with the ServiceNow SDK.
 
-**Parent Topic:**[ServiceNow SDK](servicenow-sdk-landing.md)
+**Parent Topic:**[ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/servicenow-sdk-landing.md)
 

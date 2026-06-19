@@ -2,6 +2,7 @@
 title: Edit settings form reference
 description: The Edit settings form displays information about the Amazon Web Services \(AWS\) settings used to record and deliver the AWS events to the listening endpoint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/edit-aws-event-recording-settings-form-reference.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -82,8 +83,8 @@ Amazon SNS topic
 </td><td>
 
 Amazon SNS topic to which the AWS Config service should publish the events.1.  Select the **Choose a topic from your account** option.
-2.  Select the Amazon SNS topic created in step [3](../task/aws-config-service-cloud-mgt.md#create-sns-topic) from the SNS topic name drop-down list.
+2.  Select the Amazon SNS topic created in step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/aws-config-service-cloud-mgt.md) from the SNS topic name drop-down list.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Discovery reference](../../discovery/reference/cloud-discovery-reference.md)
+</table>**Parent Topic:**[Cloud Discovery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cloud-discovery-reference.md)
 

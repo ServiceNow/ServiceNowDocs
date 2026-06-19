@@ -2,6 +2,7 @@
 title: Attribute pack table
 description: After you create an attribute pack table with the attributes that you define in the Telecommunications Network Inventory application, you can configure the mapping between the table and the inventory object that you want to use it with.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/configuring-pack-table.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -15,10 +16,10 @@ breadcrumb: [Configure, Telecommunications Network Inventory]
 
 After you create an attribute pack table with the attributes that you define in the Telecommunications Network Inventory application, you can configure the mapping between the table and the inventory object that you want to use it with.
 
--   **[Create attribute pack table](../task/create-pack-table.md)**  
+-   **[Create attribute pack table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-pack-table.md)**  
 Create an attribute pack table with the attributes that you define in the Telecommunications Network Inventory application so that you can use these attributes in the CI record.
--   **[Configure an attribute pack table against a configuration item](../task/configure-packs-for-a-ci-form.md)**  
+-   **[Configure an attribute pack table against a configuration item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configure-packs-for-a-ci-form.md)**  
 Configure an attribute pack table against a configuration item \(CI\) with filter conditions in the Telecommunications Network Inventory application. As you configure the pack table, you can use the packs for creating a CI record.
 
-**Parent Topic:**[Configuring Telecommunications Network Inventory](configuring-telecom-network-inventory.md)
+**Parent Topic:**[Configuring Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configuring-telecom-network-inventory.md)
 

@@ -2,6 +2,7 @@
 title: ClassificationSolutionVersion - Global
 description: The ClassificationSolutionVersion API is a scriptable object used in Predictive Intelligence stores.Calculates solution precision and coverage.Gets estimated precision, estimated coverage, estimated recall values from the ML Solutions \[ml\_solution\] table and records from the Class Confidence \[ml\_class\] table.Gets solution object properties and version number.Gets training completion status.Gets all the training statistics for a given solution.Gets the version number of a solution object.Gets the input data for a prediction.Sets precision, coverage, or recall values at solution level or class level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/ClassificationSolutionVersionAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,18 +18,18 @@ The ClassificationSolutionVersion API is a scriptable object used in Predictive 
 
 This API requires the Predictive Intelligence plugin \(com.glide.platform\_ml\) and is provided within the `sn_ml` namespace.
 
-This API is used for working with solution versions based on [ClassificationSolution API](../../ClassificationSolution/concept/ClassificationSolutionAPI.md#) objects in the [ClassificationSolution store](../../ClassificationSolutionStore/concept/ClassificationSolutionStoreAPI.md#).
+This API is used for working with solution versions based on [ClassificationSolution API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ClassificationSolutionAPI.md) objects in the [ClassificationSolution store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ClassificationSolutionStoreAPI.md).
 
 The system creates a solution version each time you train a solution definition. Most versions are created during scheduled solution training.
 
-Methods in this API are accessible using the following [ClassificationSolution - Global](../../ClassificationSolution/concept/ClassificationSolutionAPI.md#) methods:
+Methods in this API are accessible using the following [ClassificationSolution - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ClassificationSolutionAPI.md) methods:
 
--   [getActiveVersion\(\)](../../ClassificationSolution/concept/ClassificationSolutionAPI.md#)
--   [getAllVersions\(\)](../../ClassificationSolution/concept/ClassificationSolutionAPI.md#)
--   [getLatestVersion\(\)](../../ClassificationSolution/concept/ClassificationSolutionAPI.md#)
--   [getVersion\(\)](../../ClassificationSolution/concept/ClassificationSolutionAPI.md#)
+-   [getActiveVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ClassificationSolutionAPI.md)
+-   [getAllVersions\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ClassificationSolutionAPI.md)
+-   [getLatestVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ClassificationSolutionAPI.md)
+-   [getVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ClassificationSolutionAPI.md)
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## ClassificationSolutionVersion - getPredictionPerformance\(Object options\)
 
@@ -58,7 +59,7 @@ Object
 
 </td><td>
 
-Selects a metric to retrieve within a span of dates. For more information, see [Configuring target metrics](https://www.servicenow.com/docs/access?context=configuring-target-metrics-trained-classification-solution&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).```
+Selects a metric to retrieve within a span of dates. For more information, see Configuring target metrics.```
 {
   "fromDate": "String",
   "metricName": "String",
@@ -194,7 +195,7 @@ Object
 
 </td><td>
 
-Returns prediction settings for each class. Data includes precision, coverage, recall, and distribution values of all classes included in the trained model from the ML Solutions \[ml\_solution\] table. For details, see [Predictive model components](https://www.servicenow.com/docs/access?context=predictive-intelligence&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).```
+Returns prediction settings for each class. Data includes precision, coverage, recall, and distribution values of all classes included in the trained model from the ML Solutions \[ml\_solution\] table. For details, see Predictive model components.```
 {
   "<class name>": {Object}
 }
@@ -206,7 +207,7 @@ Returns prediction settings for each class. Data includes precision, coverage, r
 
 </td><td>
 
-Training statistics data from the Class Confidence \[ml\_class\] table. For more information, see [Configuring target metrics](https://www.servicenow.com/docs/access?context=configuring-target-metrics-trained-classification-solution&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).Data type: Object
+Training statistics data from the Class Confidence \[ml\_class\] table. For more information, see Configuring target metrics.Data type: Object
 
 ```
 {
@@ -298,7 +299,7 @@ Object
 
 </td><td>
 
-Contents of the Dataset and [ClassificationSolution](../../ClassificationSolution/concept/ClassificationSolutionAPI.md#) version details. Results vary by object property setup.```
+Contents of the Dataset and [ClassificationSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ClassificationSolutionAPI.md) version details. Results vary by object property setup.```
 {
   "algorithmConfig": {
     "algorithm": "String",
@@ -357,7 +358,7 @@ Class recall parameter to steer a solution's training to bias a specific class. 
 
 </td><td>
 
-Lists the properties of the [DatasetDefinition\(\)](../../DatasetDefinition/concept/DatasetDefinitionAPI.md#) object associated with the solution.
+Lists the properties of the [DatasetDefinition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DatasetDefinitionAPI.md) object associated with the solution.
 
  Data type: Object
 
@@ -425,7 +426,7 @@ Machine-learning field type. Data type: String
 
 </td><td>
 
-Encoded query string in standard Glide format. See [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US). Data type: String
+Encoded query string in the standard platform format. See Encoded query strings.Data type: String.
 
 </td></tr><tr><td>
 
@@ -433,7 +434,7 @@ Encoded query string in standard Glide format. See [Encoded query strings](https
 
 </td><td>
 
-Domain name associated with this dataset. See [Domain separation and Predictive Intelligence](https://www.servicenow.com/docs/access?context=domain-separation-predictive-intelligence&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US). Data type: String
+Domain name associated with this dataset. See .Type: String
 
 </td></tr><tr><td>
 
@@ -441,7 +442,7 @@ Domain name associated with this dataset. See [Domain separation and Predictive 
 
 </td><td>
 
-Encoder object assigned to this solution. See [Encoder - Encoder\(Object config\)](../../Encoder/concept/EncoderAPI.md#).Data type: Object
+Encoder object assigned to this solution. See [Encoder - Encoder\(Object config\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/EncoderAPI.md).Data type: Object
 
 </td></tr><tr><td>
 
@@ -524,7 +525,7 @@ Object scope. Currently the only valid value is `global`.Data type: String
 
 </td><td>
 
-Optional. Preset list of strings that the system automatically generates based on the **language** property setting. For details, see [Create a custom stopwords list](https://www.servicenow.com/docs/access?context=create-custom-stopwords-list&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US). Data type: Array
+Optional. Preset list of strings that the system automatically generates based on the **language** property setting. For details, see Create a custom stopwords list. Data type: Array
 
 </td></tr><tr><td>
 
@@ -639,7 +640,7 @@ Object
 
 </td><td>
 
-JavaScript object containing training status information for a [ClassificationSolution](../../ClassificationSolution/concept/ClassificationSolutionAPI.md#) object.```
+JavaScript object containing training status information for a [ClassificationSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ClassificationSolutionAPI.md) object.```
 {
   "state": "String",
   "percentComplete": "Number as a String",
@@ -766,7 +767,7 @@ Object
 
 </td><td>
 
-JavaScript object with statistics for each class included in training and values for each class that was excluded from training. For details, see [Predictive model components](https://www.servicenow.com/docs/access?context=predictive-intelligence&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).```
+JavaScript object with statistics for each class included in training and values for each class that was excluded from training. For details, see Predictive model components.```
 {
   "includedClasses": {Object},
   "excludedClasses": {Object}
@@ -804,7 +805,7 @@ Value of the outcome probability distribution for this class.Data type: String
 
 </td><td>
 
-List of objects providing training statistics data. For more information, see [Configuring target metrics](https://www.servicenow.com/docs/access?context=configuring-target-metrics-trained-classification-solution&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).Data type: Array of Objects
+List of objects providing training statistics data. For more information, see Configuring target metrics.Data type: Array of Objects
 
 ```
 [
@@ -999,7 +1000,7 @@ Object
 
 </td><td>
 
-[GlideRecord](../../GlideRecord/concept/c_GlideRecordAPI.md#) or array of JSON objects containing field names and values as key-value pairs.
+[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordAPI.md) or array of JSON objects containing field names and values as key-value pairs.
 
 </td></tr><tr><td>
 
@@ -1257,7 +1258,7 @@ Object
 
 </td><td>
 
-Metric configuration values. For information about these features, see [Configuring target metrics](https://www.servicenow.com/docs/access?context=configuring-target-metrics-trained-classification-solution&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).```
+Metric configuration values. For information about these features, see Configuring target metrics.```
 {  	 
    "metricName" : "String",
    "metricValue" : "String",
@@ -1303,7 +1304,7 @@ String
 
 </td><td>
 
-Optional. Name of the class to restrict results to. Use the [getTrainingStatistics\(\)](ClassificationSolutionVersionAPI.md#) method to retrieve a complete list of classes for a solution.
+Optional. Name of the class to restrict results to. Use the [getTrainingStatistics\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ClassificationSolutionVersionAPI.md) method to retrieve a complete list of classes for a solution.
 
 </td></tr></tbody>
 </table>|Type|Description|

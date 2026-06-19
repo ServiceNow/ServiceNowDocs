@@ -2,6 +2,7 @@
 title: Red Hat Enterprise Linux entitlements
 description: Software entitlements define the license details for your Red Hat Enterprise Linux \(RHEL\) products. You can create individual entitlements or import a list of entitlements from a spreadsheet.Create individual software entitlements for your Red Hat Enterprise Linux \(RHEL\) products.Import a list of Red Hat Enterprise Linux \(RHEL\) software entitlements from a spreadsheet.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/rhel-entitlements.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -15,9 +16,9 @@ breadcrumb: [Software Asset Management for Red Hat Enterprise Linux, Software As
 
 Software entitlements define the license details for your Red Hat Enterprise Linux \(RHEL\) products. You can create individual entitlements or import a list of entitlements from a spreadsheet.
 
-**Important:** You can create and import entitlements in both the Software Asset Management classic application and the Software Asset Workspace. The following sections provide details on how to create and import entitlements in the Software Asset Management classic application. For details on how to create entitlements in the Software Asset Workspace, see [Create entitlements in workspace](../task/create-entitlements-workspace.md). For details on how to import entitlements in the Software Asset Workspace, see [Import bulk entitlements in workspace](../task/import-entitlements-workspace.md).
+**Important:** You can create and import entitlements in both the Software Asset Management classic application and the Software Asset Workspace. The following sections provide details on how to create and import entitlements in the Software Asset Management classic application. For details on how to create entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-entitlements-workspace.md). For details on how to import entitlements in the Software Asset Workspace, see [Import bulk entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/import-entitlements-workspace.md).
 
-**Parent Topic:**[Software Asset Management for Red Hat Enterprise Linux](rhel-publisher-pack.md)
+**Parent Topic:**[Software Asset Management for Red Hat Enterprise Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/rhel-publisher-pack.md)
 
 ## Create entitlements for Red Hat Enterprise Linux
 
@@ -27,7 +28,7 @@ Create individual software entitlements for your Red Hat Enterprise Linux \(RHEL
 
 Role required: sam\_user or sam\_admin
 
-**Important:** You can create entitlements in both the Software Asset Management classic application and the Software Asset Workspace. The following steps provide details on how to create entitlements in the Software Asset Management classic application. For details on how to create entitlements in the Software Asset Workspace, see [Create entitlements in workspace](../task/create-entitlements-workspace.md).
+**Important:** You can create entitlements in both the Software Asset Management classic application and the Software Asset Workspace. The following steps provide details on how to create entitlements in the Software Asset Management classic application. For details on how to create entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-entitlements-workspace.md).
 
 ### Procedure
 
@@ -199,7 +200,7 @@ Import a list of Red Hat Enterprise Linux \(RHEL\) software entitlements from a 
 
 Role required: sam\_admin
 
-**Important:** You can import software entitlements in both the Software Asset Management classic application and the Software Asset Workspace. The following steps provide details on how to import software entitlements in the Software Asset Management classic application. For details on how to import software entitlements in the Software Asset Workspace, see [Import bulk entitlements in workspace](../task/import-entitlements-workspace.md).
+**Important:** You can import software entitlements in both the Software Asset Management classic application and the Software Asset Workspace. The following steps provide details on how to import software entitlements in the Software Asset Management classic application. For details on how to import software entitlements in the Software Asset Workspace, see [Import bulk entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/import-entitlements-workspace.md).
 
 ### Procedure
 
@@ -232,7 +233,7 @@ Role required: sam\_admin
         |Field|Description|
         |-----|-----------|
         |Import type|Type of document that you are importing software entitlements from. The options are **Standard import document** and **Microsoft license statement \(MLS\)**. Set this field to **Standard import document**.|
-        |File|Spreadsheet of software entitlements that you want to import. Select **Click to add...** to search for and select the same spreadsheet that you filled out in [step 2](rhel-entitlements.md#spreadsheet).|
+        |File|Spreadsheet of software entitlements that you want to import. Select **Click to add...** to search for and select the same spreadsheet that you filled out in [step 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/rhel-entitlements.md).|
         |Description|Brief description of the software entitlement import.|
 
     5.  Select **Import**.

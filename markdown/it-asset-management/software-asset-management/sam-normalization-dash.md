@@ -2,6 +2,7 @@
 title: Normalization and Content Service dashboard
 description: View normalization trend charts on the Normalization and Content Service dashboard integrated with Performance Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/sam-normalization-dash.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -24,8 +25,6 @@ The Normalization and Content Service dashboard tab is accessed by navigating to
 
 Normalization chart results are updated daily when the **SAM — Discovery Model Normalization** job is run. You can save charts in PNG or JPG formats.
 
-![SAMNormalizationDashboard](../image/sam-normalization-dash.png "Normalization and Content Service dashboard")
-
 |Report|Source list|Description|
 |------|-----------|-----------|
 |Overall Normalization Rates for Licensable Software|Software Installs Normalization Rates|Overall normalization status count for all licensable products.|
@@ -35,8 +34,6 @@ Normalization chart results are updated daily when the **SAM — Discovery Model
 
 The Central Data Service Download Status related list is updated daily when the **SAM — Central Data Service Download Status** job is run.
 
-![SAMNormDashStatus](../image/sam-norm-dash-cds.png "Central Data Service Download Status related list")
-
 |Field|Description|
 |-----|-----------|
 |Name|Table name from which content is pulled.|
@@ -45,5 +42,5 @@ The Central Data Service Download Status related list is updated daily when the 
 |Last updated on|Last date and time the data was pulled.|
 |Next action|Next scheduled date and time to pull data.|
 
-**Parent Topic:**[Platform Analytics Solution for Software Asset Management classic](../../../use/dashboards/application-content-packs/software-asset-mgmt-content-pack.md)
+**Parent Topic:**[Platform Analytics Solution for Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-asset-mgmt-content-pack.md)
 

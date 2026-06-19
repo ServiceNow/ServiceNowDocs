@@ -2,6 +2,7 @@
 title: Horizontal bar visualization example
 description: Horizontal bar visualizations enable you to show the comparative size or frequency of different categories or groups, such as incident priority or sales group. You can also add a group by or stack by to a bar visualization, such as the assignment group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/dv-example-h-bar.html
 release: zurich
 topic_type: task
 last_updated: "2026-03-24"
@@ -15,7 +16,7 @@ Horizontal bar visualizations enable you to show the comparative size or frequen
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../../reporting/concept/report-view-access-control.md) and [Platform Analytics roles](../reference/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -23,7 +24,7 @@ Use the horizontal bar visualization type to compare different categories or gro
 
 ## Procedure
 
-1.  Follow the first steps to [Create a horizontal or vertical bar data visualization](../../reporting/task/create-dv-bar-ac.md):
+1.  Follow the first steps to [Create a horizontal or vertical bar data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-dv-bar-ac.md):
 
     1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or open an in-line dashboard and select **Edit**.
 
@@ -45,7 +46,7 @@ Use the horizontal bar visualization type to compare different categories or gro
 
     5.  Select **Add this source**.
 
-    A horizontal bar data visualization with the current value of the selected data appears in the Visualization Designer. Because the only information you've given is that the visualization represents active incidents, you see only a single block. You add priority and assignment group in step 4.![Untitled horizontal bar visualization showing the Incident table as data source](../../reporting/image/dv-ex-h-bar-data-source.png)
+    A horizontal bar data visualization with the current value of the selected data appears in the Visualization Designer. Because the only information you've given is that the visualization represents active incidents, you see only a single block. You add priority and assignment group in step 4.\[Omitted image "dv-ex-h-bar-data-source.png"\] Alt text: Untitled horizontal bar visualization showing the Incident table as data source
 
 3.  Now that you can see the visualization, let's add some context for the user.
 
@@ -75,7 +76,7 @@ Use the horizontal bar visualization type to compare different categories or gro
 
     2.  Choose `Ascending` for the sort order.
 
-        The bars are ordered with 1 - Critical at the top followed by 2 - High, 3 - Moderate, and so forth.![Horizontal bar report sorted by name in ascending order](../../reporting/image/dv-ex-h-bar-sort-by.png)
+        The bars are ordered with 1 - Critical at the top followed by 2 - High, 3 - Moderate, and so forth.\[Omitted image "dv-ex-h-bar-sort-by.png"\] Alt text: Horizontal bar report sorted by name in ascending order
 
 7.  Under Data update, configure how the audience interacts with the visualization.
 
@@ -111,7 +112,7 @@ Use the horizontal bar visualization type to compare different categories or gro
 
         In this example, select **No tick lines** because they extend the grid, which is shown.
 
-        ![Horizontal bar visualization with X axis options](../../reporting/image/dv-ex-h-bar-x-axis.png)
+        \[Omitted image "dv-ex-h-bar-x-axis.png"\] Alt text: Horizontal bar visualization with X axis options
 
 9.  Configure the Y axis.
 
@@ -129,7 +130,7 @@ Use the horizontal bar visualization type to compare different categories or gro
 
     4.  Clear the **Wrap labels** option.
 
-        When you change the Truncation type, you can see that End replaces the ends of the longer labels with three dots. Select Start and the three dots replace the first part of the longer labels. And the same happens when you select middle.![Horizontal bar Y axis options](../../reporting/image/dv-ex-h-bar-y-axis-options.png)
+        When you change the Truncation type, you can see that End replaces the ends of the longer labels with three dots. Select Start and the three dots replace the first part of the longer labels. And the same happens when you select middle.\[Omitted image "dv-ex-h-bar-y-axis-options.png"\] Alt text: Horizontal bar Y axis options
 
 10. Configure the visualization's legend.
 
@@ -159,7 +160,7 @@ Use the horizontal bar visualization type to compare different categories or gro
 
     1.  Under Group by, select **+ Add**, choose `Assignment group`, and select **Apply**.
 
-        ![Additional group by option with Assignment group selected.](../../reporting/image/dv-ex-h-bar-addl-groupby.png)
+        \[Omitted image "dv-ex-h-bar-addl-groupby.png"\] Alt text: Additional group by option with Assignment group selected.
 
     2.  Show the data labels in the middle.
 
@@ -169,14 +170,14 @@ Use the horizontal bar visualization type to compare different categories or gro
 
         Because you added the values to each segment, the values on the axis are redundant.
 
-        ![Incidents grouped by priority and assignment group with data labels on each segment](../../reporting/image/dv-ex-h-bar-data-labels-applied.png)
+        \[Omitted image "dv-ex-h-bar-data-labels-applied.png"\] Alt text: Incidents grouped by priority and assignment group with data labels on each segment
 
 12. Choose the **Default** color type for the visualization.
 
     -   **Default** applies the colors associated with your UX theme.
     -   **Color palette** uses hues of the same color, for example Blue Light to Dark.
 
-        ![Open critical incidents with blue palette applied](../../reporting/image/dv-ex-h-bar-color-palette-blues.png)
+        \[Omitted image "dv-ex-h-bar-color-palette-blues.png"\] Alt text: Open critical incidents with blue palette applied
 
     -   **Fixed element** specifies the same color for each element, such as hardware incidents. All data visualizations that use fixed element colors show the same element in the same color.
 
@@ -184,5 +185,5 @@ Use the horizontal bar visualization type to compare different categories or gro
 
 You have created a horizontal bar visualization grouped on two fields. You have also configured the visualization's labeling, legend and ranges.
 
-**Parent Topic:**[Bar visualization examples](dv-example-bar.md)
+**Parent Topic:**[Bar visualization examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dv-example-bar.md)
 

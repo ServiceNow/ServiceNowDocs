@@ -2,6 +2,7 @@
 title: Use Notify connector for Microsoft Teams with Incident Communication Management
 description: Use Notify with an incident communication plan to start conference calls.Initiate a conference call in Microsoft Teams from an incident communication plan so you can discuss the resolution of an incident.Add a participant to a conference call on a task record from the incident communication plan.Mute a participant in a conference call to avoid unnecessary background disruption.As a host or a user with the incident communication manager role, you can end the conference call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/notify-connector-ms-teams-incident-communication-management.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -24,7 +25,7 @@ The property **com.snc.iam.enable\_notify** must be enabled in Notify Properties
 
 3.  Click **Save**.
 
-**Parent Topic:**[Use Notify connector for Microsoft Teams](c-agent-ex-use-nc.md)
+**Parent Topic:**[Use Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/c-agent-ex-use-nc.md)
 
 ## Start a conference call from an incident communication plan
 

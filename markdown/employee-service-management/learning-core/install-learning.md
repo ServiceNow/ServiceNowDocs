@@ -2,6 +2,7 @@
 title: Install Learning
 description: You can install the Learning application if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/install-learning.html
 release: zurich
 product: Learning Core
 classification: learning-core
@@ -32,7 +33,7 @@ The following items are installed with Learning:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Learning](../reference/components-installed-with-learning.md).
+For more information, see [Components installed with Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/components-installed-with-learning.md).
 
 ## Procedure
 

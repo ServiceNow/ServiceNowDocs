@@ -2,6 +2,7 @@
 title: Access Management Automation
 description: Automate access management request fulfillment using the Service Catalog or Service Portal. The catalog items and flows support requests in Okta, Microsoft Entra ID \(formerly Microsoft Entra ID\), and Microsoft Active Directory.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/access-management.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -17,7 +18,7 @@ Automate access management request fulfillment using the Service Catalog or Serv
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Application version
 

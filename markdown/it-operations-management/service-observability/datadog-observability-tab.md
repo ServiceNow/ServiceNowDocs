@@ -2,6 +2,7 @@
 title: Datadog Observability tab for Service Observability
 description: Dashboard and charts on the Datadog Observability tab of the Service Details page in the SOW.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-observability/datadog-observability-tab.html
 release: zurich
 product: Service Observability
 classification: service-observability
@@ -69,5 +70,5 @@ These dashboards display metrics for databases related to the service.
 |Buffer Hits|Number of times disk blocks were found in the buffer cache, so that a read wasn’t necessary.|Datadog|
 |All PostgreSQL Instances|Information of all databases the service is actively using. Select a database link to view more detailed information.|CMDB|
 
-**Parent Topic:**[Datadog templates for Service Observability](datadog-templates.md)
+**Parent Topic:**[Datadog templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/datadog-templates.md)
 

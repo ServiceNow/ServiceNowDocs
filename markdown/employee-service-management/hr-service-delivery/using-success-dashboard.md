@@ -2,6 +2,7 @@
 title: Measure the performance of the HR implementation
 description: Use the HR Success Dashboard indicators to measure the performance of your HR implementation using different KPIs.View and monitor the HR Success Dashboard indicators to measure the performance of your HR implementation using different KPIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/using-success-dashboard.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,9 +16,9 @@ breadcrumb: [HR Success Dashboard indicators, HR Service Delivery, Employee Serv
 
 Use the HR Success Dashboard indicators to measure the performance of your HR implementation using different KPIs.
 
-For more information on how to share the Dashboard with your leadership, see [Share the Success Dashboard indicators](https://www.servicenow.com/docs/access?context=share-itsm-success-dashboard&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+For more information on how to share the Dashboard with your leadership, see Share the Success Dashboard indicators.
 
-For more information on how to view the benchmark KPIs of the Success Dashboard indicators, see [Success Dashboard indicators benchmark](https://www.servicenow.com/docs/access?context=success-dashboard-benchmark&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+For more information on how to view the benchmark KPIs of the Success Dashboard indicators, see Success Dashboard indicators benchmark.
 
 ## Monitor the KPIs of the HR implementation
 
@@ -25,7 +26,7 @@ View and monitor the HR Success Dashboard indicators to measure the performance 
 
 Access the aggregated KPI data in the HR Success Dashboard indicators. By navigating to **All&gt;** &gt; **Success Dashboard** &gt; **Success Dashboard** if you have the sn\_sd.success\_dashboard\_admin, sn\_sd.success\_dashboard\_read, or sn\_sd.success\_dashboard\_details\_read role.
 
-![Success Dashboard indicators overview page.](../image/dashboard-perf-oview.png "HR Success Dashboard indicators")
+\[Omitted image "dashboard-perf-oview.png"\] Alt text: Success Dashboard indicators overview page.
 
 You can monitor the data in **Monthly**, **Quarterly**, or **Yearly** time aggregations.
 
@@ -35,7 +36,7 @@ You can monitor the data in **Monthly**, **Quarterly**, or **Yearly** time aggre
 
 Once the time aggregation is set, all the score-cards show the data for that period.
 
-For more information on the dashboard components, see [HR Success Dashboard indicators components](sdb-dasboard-overview.md).
+For more information on the dashboard components, see [HR Success Dashboard indicators components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/sdb-dasboard-overview.md).
 
-For more information on the KPI definitions and formulas, see [HR Success Dashboard indicators KPI definitions and formulas](sd-formulae.md).
+For more information on the KPI definitions and formulas, see [HR Success Dashboard indicators KPI definitions and formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/sd-formulae.md).
 

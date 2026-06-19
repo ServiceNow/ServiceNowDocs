@@ -2,6 +2,7 @@
 title: Assigning access permissions to Salesforce objects and fields
 description: Configure permissions for non-Admin users in Salesforce to enable configuration and reconfiguration with Logik.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cpq-access-permissions-to-salesforce-objects-and-fields.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

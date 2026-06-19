@@ -2,6 +2,7 @@
 title: Stack activities view
 description: Display the cloud actions on your stacks and resources by using the View Activities tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/using-stack-activities.html
 release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -17,7 +18,7 @@ Display the cloud actions on your stacks and resources by using the **View Activ
 
 You can do multiple actions in the stacks life cycle such as track operations, view activities, view dependency, and do actions. The following example shows the stack activities that you can perform and the following table describes the activities.
 
-![Stack activities view.](../image/using-stack-activities.png "Stack activities")
+\[Omitted image "using-stack-activities.png"\] Alt text: Stack activities view.
 
 <table id="table_wfx_dsg_h1c"><thead><tr><th>
 
@@ -63,5 +64,5 @@ List of scheduled operations that are associated with stacks and are displayed a
 -   Status
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring the My Stacks tab](manage-stacks.md)
+</table>**Parent Topic:**[Exploring the My Stacks tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/manage-stacks.md)
 

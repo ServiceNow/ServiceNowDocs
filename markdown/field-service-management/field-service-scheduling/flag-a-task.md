@@ -2,6 +2,7 @@
 title: Flag a work order task
 description: Flag tasks that you want to work on at a later time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/flag-a-task.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -25,7 +26,7 @@ Role required: wm\_dispatcher
 
 2.  Click **Dispatcher Workspace**.
 
-3.  Click the Flag icon \(![Flag icon.](../image/flag_tasks.png)\) on the task.
+3.  Click the Flag icon \(\[Omitted image "flag\_tasks.png"\] Alt text: Flag icon.\) on the task.
 
 
 ## Result

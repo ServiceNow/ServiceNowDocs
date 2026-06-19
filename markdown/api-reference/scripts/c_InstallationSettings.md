@@ -2,6 +2,7 @@
 title: Installation settings
 description: Installation settings are global business rules with calculated names. Installation settings are calculated just before a record is displayed and facilitate dynamic determination of access and roles. Installation Settings permit the programmatic determination of a setting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/c\_InstallationSettings.html
 release: zurich
 product: Scripts
 classification: scripts
@@ -56,5 +57,5 @@ This sample business rule restricts the writing of the name field in the sys\_di
 
 ```
 
-**Parent Topic:**[Server-side scripting](c_ServerScripting.md)
+**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_ServerScripting.md)
 

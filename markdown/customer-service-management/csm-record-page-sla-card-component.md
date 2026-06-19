@@ -2,7 +2,10 @@
 title: Task SLA cards component
 description: The Task SLA cards component displays the status of one or more Service Level Agreements \(SLAs\) for the current record in card format.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-record-page-sla-card-component.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-12-01"
 reading_time_minutes: 1
@@ -17,7 +20,7 @@ The Task SLA cards component can display multiple SLAs. The cards are displayed 
 
 **Note:** When there are no active SLAs, the Task SLA cards component isn't shown.
 
-![SLA card component with three SLA cards displayed in a carousel. Cards include the SLA name, time remaining and current status.](../image/component-sla-card.png "Task SLA cards component")
+\[Omitted image "component-sla-card.png"\] Alt text: SLA card component with three SLA cards displayed in a carousel. Cards include the SLA name, time remaining and current status.
 
 The Task SLA cards component is available on the Front-line case page. Previously, the SLA information appeared in the Record Information tab in the contextual side panel. Agents can find SLA information in the left column above the contact and consumer lookup components.
 

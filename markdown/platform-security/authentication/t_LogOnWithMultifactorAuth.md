@@ -2,6 +2,7 @@
 title: Log in with Multi-factor Authentication
 description: Login with MFA when it is enabled by your administrator on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/t\_LogOnWithMultifactorAuth.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -33,11 +34,11 @@ Role required: none
 
     The multi-factor authentication screen appears.
 
-    ![MFA screen](../images/new-mfa.png)
+    \[Omitted image "new-mfa.png"\] Alt text: MFA screen
 
 4.  Select one of the methods to complete the MFA setup.
 
-    For more information about each setup, see [Set up Multi-factor authentication for the first time](t_SetUpMultiFactorAuthUponLogin.md).
+    For more information about each setup, see [Set up Multi-factor authentication for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/t_SetUpMultiFactorAuthUponLogin.md).
 
     If you wish to postpone the setup, select **Postpone setup**. The maximum number of time you can postpone the setup is displayed on the screen and this value is configured by your administrator.
 
@@ -50,5 +51,5 @@ If you have already setup MFA, the recently used factor is displayed when you lo
 
 If the recent used factor was Biometric login, then upon login using your username and password, you're directly displayed with the Biometric MFA setup screen.
 
-![Used factor screen](../images/biometirc-mfa-recent.png)
+\[Omitted image "biometirc-mfa-recent.png"\] Alt text: Used factor screen
 

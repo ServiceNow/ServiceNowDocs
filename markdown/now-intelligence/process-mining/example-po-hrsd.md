@@ -2,6 +2,7 @@
 title: Example of Process Mining for HR Service Delivery
 description: Analyze a process for your HR service or, if installed, Lifecycle Events cases and identify bottlenecks to minimize delays in the case flow for a better user experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/example-po-hrsd.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -33,9 +34,9 @@ You can analyze the case process flow and suggest ways to improve the processes 
 
     **Note:** After applying one of more routes, the breakdowns listed in the **Breakdown Filters** tab display only those breakdowns applicable to those routes.
 
-6.  Add notes to the project by selecting the notes icon \(![notes icon](../image/notes-icon.png)\) and submit an analysis.
+6.  Add notes to the project by selecting the notes icon \(\[Omitted image "notes-icon.png"\] Alt text: notes icon\) and submit an analysis.
 
-![Process Mining for a standard HR Service case](../image/example-po-hrsd2.png "Process Mining for a standard HR Service case")
+\[Omitted image "example-po-hrsd2.png"\] Alt text: Process Mining for a standard HR Service case
 
-**Parent Topic:**[Content pack for HR Service Delivery](hrsd-integration-po.md)
+**Parent Topic:**[Content pack for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/hrsd-integration-po.md)
 

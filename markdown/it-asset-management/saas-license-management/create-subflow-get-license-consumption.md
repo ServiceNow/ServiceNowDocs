@@ -2,6 +2,7 @@
 title: Create a subflow to get license consumption
 description: Create a subflow to add license consumption data to the Subscription Consumption Summaries \[sam\_saas\_consumption\_summary\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/saas-license-management/create-subflow-get-license-consumption.html
 release: zurich
 product: SaaS License Management
 classification: saas-license-management
@@ -156,7 +157,7 @@ Roles with which this subflow runs.
 
     4.  From the Product \[Software Product\] list, search for and select the software product that you are connecting to with your integration.
 
-        This value must be a reference to the Software Product \(samp\_sw\_product\) table. If the product does not exist in the table, [add a custom software product](t_AddACustomProduct.md).
+        This value must be a reference to the Software Product \(samp\_sw\_product\) table. If the product does not exist in the table, [add a custom software product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_AddACustomProduct.md).
 
     5.  Use values from the Data panel to fill in the remaining action inputs.
 
@@ -185,5 +186,5 @@ Roles with which this subflow runs.
 
 ## What to do next
 
-View analytics such as subscription usage, cost, and compliance of your SaaS applications on [SaaS overview dashboard in workspace](../reference/saas-dashboard-workspace.md).
+View analytics such as subscription usage, cost, and compliance of your SaaS applications on [SaaS overview dashboard in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/saas-dashboard-workspace.md).
 

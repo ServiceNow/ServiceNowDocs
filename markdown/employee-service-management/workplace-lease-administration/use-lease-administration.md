@@ -2,6 +2,7 @@
 title: Using Workplace Lease Administration
 description: As a lease manager or administrator manager, you can create, manage, and track workplace contracts. You can add workplace contract services, relevant documents, and track important milestones.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-lease-administration/use-lease-administration.html
 release: zurich
 product: Workplace Lease Administration
 classification: workplace-lease-administration
@@ -31,10 +32,10 @@ As a lease administration user, you can only view the workplace contracts.
 
 You can access Workplace Lease Administration, either from the Core UI or Workplace Central. For more information on how to access and use the application from different views, refer to the following topics.
 
--   [Working with Workplace Lease Administration from the Core UI](use-lease-admin-core-ui.md)
--   [Working with Workplace Lease Administration from the Workplace Central](working-with-lease-administration.md)
+-   [Working with Workplace Lease Administration from the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-lease-administration/use-lease-admin-core-ui.md)
+-   [Working with Workplace Lease Administration from the Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-lease-administration/working-with-lease-administration.md)
 
-For more information about installing Workplace Central, see [Install Workplace Central](../../workplace-central/task/install-workplace-central.md).
+For more information about installing Workplace Central, see [Install Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/install-workplace-central.md).
 
-For more information on the workplace contract workflow, states, and substates, see [Contract life cycle](https://www.servicenow.com/docs/access?context=c_ContractLifeCycle&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+For more information on the workplace contract workflow, states, and substates, see Contract life cycle.
 

@@ -2,13 +2,14 @@
 title: Modify collected metrics under a child policy
 description: Turn off an existing DEX metric for certain configuration item \(CI\) criteria by creating a child policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/modify-collected-metrics.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Collecting DEX metrics, Metrics collection and metric rules, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Collecting DEX metrics, Configure, Digital End-User Experience, IT Service Management]
 ---
 
 # Modify collected metrics under a child policy
@@ -27,7 +28,7 @@ Metric collection on any device is managed using agent policies. Agent policies 
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the DEX Administration icon \(![](../image/icon-administration.png)\).
+2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text:\).
 
 3.  In the Device and application configuration section, select **Manage policies** on the Agent policies card.
 
@@ -45,7 +46,13 @@ Metric collection on any device is managed using agent policies. Agent policies 
 
 7.  Update the criteria for the child policy.
 
-    ![A new child policy form with the Name and a new parameter highlighted](../image/acc-policy-child.png)
+    1.  Enter a name for your child policy by modifying the parent policy name.
+
+    2.  On the Monitored CIs tab, confirm that **Monitored CI type by filter** is selected.
+
+    3.  In the **Filter** section, add a filter condition to scope the child policy.
+
+    4.  Select **Save**.
 
 8.  Select **Save**.
 
@@ -57,7 +64,7 @@ Metric collection on any device is managed using agent policies. Agent policies 
 
 12. In the **Check Parameter** form, modify metrics as needed.
 
-    ![Check Parameter form with the metrics value being updated](../image/acc-policy-child-metrics.png)
+    \[Omitted image "acc-policy-child-metrics.png"\] Alt text: Check Parameter form with the metrics value being updated
 
 13. Select the **Update** button.
 
@@ -67,6 +74,4 @@ Metric collection on any device is managed using agent policies. Agent policies 
 
     The **Publish status** value changes to Queued. When the publishing job runs, the value changes to Published, and the policy becomes active on the agent.
 
-
-**Parent Topic:**[Collecting DEX metrics](../concept/managing-metrics-collection.md)
 

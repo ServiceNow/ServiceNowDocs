@@ -2,6 +2,7 @@
 title: Recall an article that is being reviewed in Microsoft Word
 description: Recall a knowledge article that is being reviewed and created using Microsoft Word to stop the approval process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/recall-article-word.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -18,15 +19,15 @@ Recall a knowledge article that is being reviewed and created using Microsoft Wo
 ## Before you begin
 
 -   You must have contribute access to the knowledge base that stores the knowledge article you want to recall.
--   You must have logged in to your ServiceNow instance from the Word Online application. For more information, see [Log in to your ServiceNow instance for authoring knowledge articles in Microsoft Word](authenticate-article-word.md).
+-   You must have logged in to your ServiceNow instance from the Word Online application. For more information, see [Log in to your ServiceNow instance for authoring knowledge articles in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/authenticate-article-word.md).
 
 -   You must have signed in to your Office 365 account.
 
 Ensure that the system administrator verifies the following settings:
 
--   Knowledge Management Advanced plugin \(com.snc.knowledge\_advanced\) is activated. For more information, see [Activate the Knowledge Management Advanced plugin](activate-knowledge-advanced-plugin.md).
--   The article versioning feature is enabled. For more information, see [Article versioning](../concept/article-versioning.md).
--   The Knowledge Management - Add-in for Microsoft Word is enabled. \(For more information, see [Configure Knowledge Management - Add-in for Microsoft Word](configure-km-add-in-word.md).\)
+-   Knowledge Management Advanced plugin \(com.snc.knowledge\_advanced\) is activated. For more information, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md).
+-   The article versioning feature is enabled. For more information, see [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/article-versioning.md).
+-   The Knowledge Management - Add-in for Microsoft Word is enabled. \(For more information, see [Configure Knowledge Management - Add-in for Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/configure-km-add-in-word.md).\)
 
 ## About this task
 
@@ -42,7 +43,7 @@ If a version of a knowledge article is in the Review state, you can recall only 
 
 2.  In the New section, click **New blank document**, or open any existing Microsoft Word document.
 
-3.  On the Home tab of the Word document, click the Knowledge icon \(![Knowledge icon](../image/word-addin.png)\).
+3.  On the Home tab of the Word document, click the Knowledge icon \(\[Omitted image "word-addin.png"\] Alt text: Knowledge icon\).
 
 4.  In the Knowledge Management pane of the Word document, in the **Search** box, enter the knowledge article title or description.
 

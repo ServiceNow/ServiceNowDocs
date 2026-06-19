@@ -2,6 +2,7 @@
 title: Create a Microsoft Teams campaign with content publishing
 description: Create and distribute the Microsoft Teams campaigns using direct content publishing if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/create-campaign-content-publishing-mt.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -15,12 +16,12 @@ breadcrumb: [Sending notifications to employees using Microsoft Teams, Integrati
 
 Create and distribute the Microsoft Teams campaigns using direct content publishing if you have the admin role.
 
--   **[Create notification content for Microsoft Teams](../task/create-campaign-content-publish-teams-mt.md)**  
+-   **[Create notification content for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/create-campaign-content-publish-teams-mt.md)**  
 Create notifications to send messages directly to your employees through campaigns in Microsoft Teams.
--   **[Schedule delivery of Microsoft Teams notification content](../task/schedule-delivery-content-mt.md#)**  
+-   **[Schedule delivery of Microsoft Teams notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/schedule-delivery-content-mt.md)**  
 Schedule posting of notifications in Microsoft Teams channels.
--   **[Translation support for Microsoft Teams notification campaigns](campaign-translation-support-mt.md)**  
+-   **[Translation support for Microsoft Teams notification campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/campaign-translation-support-mt.md)**  
 ServiceNow for Microsoft Teams supports localization to ServiceNow supported languages in campaigns.
 
-**Parent Topic:**[Sending notifications to employees using Microsoft Teams](using-campaigns-ms-teams-mt.md)
+**Parent Topic:**[Sending notifications to employees using Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/using-campaigns-ms-teams-mt.md)
 

@@ -2,6 +2,7 @@
 title: Message delivery order
 description: Control message delivery order by enabling the Maintain message ordering option in the Provider Channel \[sys\_cs\_provider\] table. You can view the message order and status in the Custom Adapter Message \[sys\_cs\_ca\_message\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/ccci-message-delivery-order.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -24,5 +25,5 @@ Messages are stored in the Custom Adapter Message \[sys\_cs\_ca\_message\] table
 -   Completed
 -   Error - problem with processing an outbound message, possibly due to Integration Hub issues that could occur when the Sender Subflow is invoked
 
-**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](../concept/va-features-custom-chat-integrations.md)
+**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-features-custom-chat-integrations.md)
 

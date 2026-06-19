@@ -2,6 +2,7 @@
 title: Apply a custom theme to roadmap
 description: Apply your custom theme to ensure roadmap bar colors align with your organization’s style.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/apply-custom-theme-for-roadmap-spw.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw

@@ -2,6 +2,7 @@
 title: Configure DEX Self-service device actions
 description: Configure device actions that end users can trigger to maintain optimal device and application performance even when no issues are detected.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-self-service/configuring-dex-self-service-device-actions.html
 release: zurich
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service
@@ -27,7 +28,7 @@ Role required: sn\_dex.admin
 
 3.  Enter relevant information in the DEX Self-service device action form fields.
 
-    **Note:** For more information on DEX Self-service device actions form field descriptions, see [DEX Self-service device actions form](../reference/dex-self-service-device-actions-form.md).
+    **Note:** For more information on DEX Self-service device actions form field descriptions, see [DEX Self-service device actions form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-self-service/dex-self-service-device-actions-form.md).
 
 4.  Select **Submit** to add new device actions, and **Update** to modify existing device actions.
 

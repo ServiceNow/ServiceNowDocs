@@ -2,6 +2,7 @@
 title: Reviewing data integrations for Data Foundations
 description: Review both existing and suggested Discovery patterns and Service Graph Connectors to improve your Data Foundations data coverage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-integration-details.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

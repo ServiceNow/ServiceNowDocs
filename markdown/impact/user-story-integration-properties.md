@@ -2,7 +2,10 @@
 title: User story integration
 description: With Scan Engine, you can create agile tasks and stories directly from finding records using the multiple integration options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/user-story-integration-properties.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-11-04"
 reading_time_minutes: 2
@@ -32,7 +35,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Configure instance user story integration](../task/sn-user-story-integration.md)
+[Configure instance user story integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/sn-user-story-integration.md)
 
 </td><td>
 
@@ -40,7 +43,7 @@ With Agile 2.0, map your instances so that they create stories in Production fro
 
 </td></tr><tr><td>
 
-[Configure Azure DevOps story integration](../task/configure-azure-devops-integration-options.md#)
+[Configure Azure DevOps story integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-azure-devops-integration-options.md)
 
 </td><td>
 
@@ -48,7 +51,7 @@ With Azure DevOps as a Storyboard, you can link your organization and project to
 
 </td></tr><tr><td>
 
-[Configure Jira user story integration](../task/configure-jira-integration-options.md#)
+[Configure Jira user story integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-jira-integration-options.md)
 
 </td><td>
 
@@ -56,7 +59,7 @@ With Jira as a storyboard, you can link your domain to create specific work item
 
 </td></tr><tr><td>
 
-[Configure other integration options](../task/configure-other-integration-options.md#)
+[Configure other integration options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-other-integration-options.md)
 
 </td><td>
 

@@ -2,6 +2,7 @@
 title: Generate a representative sample of a cluster
 description: View the top 25 most representative records of a cluster.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/predictive-intelligence/generate-rep-sample-clustering.html
 release: zurich
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -32,7 +33,7 @@ Generating a sample of a cluster filters the records for that cluster. Generatin
 
 3.  Under the **Cluster Summary** related list, select a cluster ID.
 
-4.  Select **Generate Cluster Sample**.![Cluster Summary page with the Generate Cluster Sample button.](../images/generate_cluster_sample_button.png)
+4.  Select **Generate Cluster Sample**.\[Omitted image "generate\_cluster\_sample\_button.png"\] Alt text: Cluster Summary page with the Generate Cluster Sample button.
 
 
 ## Result

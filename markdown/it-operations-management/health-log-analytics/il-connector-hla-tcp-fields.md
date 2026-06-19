@@ -2,6 +2,7 @@
 title: TCP integration configuration fields
 description: Description of the fields on the TCP integration configuration forms for Health Log Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/il-connector-hla-tcp-fields.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -16,7 +17,7 @@ breadcrumb: [Integration configuration field descriptions, Health Log Analytics 
 
 Description of the fields on the TCP integration configuration forms for Health Log Analytics.
 
-For the TCP integration setup procedure, see [Set up a TCP integration for Health Log Analytics](../task/il-connector-hla-tcp.md).
+For the TCP integration setup procedure, see [Set up a TCP integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/il-connector-hla-tcp.md).
 
 <table id="table_sfp_25d_pcc"><thead><tr><th>
 
@@ -181,5 +182,5 @@ Line breaker delimiters
 The line break character separating the raw log lines.Splitting values must be separated by a comma followed by a space: ", ". For example: "\\r, \\n, , splitHere, \#".
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integration configuration field descriptions](../concept/hla-connector-config-fields.md)
+</table>**Parent Topic:**[Integration configuration field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

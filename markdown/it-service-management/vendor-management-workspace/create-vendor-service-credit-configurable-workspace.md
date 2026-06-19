@@ -2,6 +2,7 @@
 title: Create a service credit in Vendor Management Workspace
 description: Create a service credit record each time the vendor breaches the agreement. The breaches are typically associated with an outage, incident, or SLA breaches.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/vendor-management-workspace/create-vendor-service-credit-configurable-workspace.html
 release: zurich
 product: Vendor Management Workspace
 classification: vendor-management-workspace
@@ -65,15 +66,15 @@ You must have the sn\_incident\_read role enabled to view service credit reports
 
 3.  Create a service credit from a vendor, incident, outage, or a service offering.
 
-<table id="choicetable_qb5_n35_1pb"><thead><tr><th align="left" id="d155130e147">
+<table id="choicetable_qb5_n35_1pb"><thead><tr><th align="left" id="d154378e147">
 
 To create a service credit
 
-</th><th align="left" id="d155130e150">
+</th><th align="left" id="d154378e150">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d155130e156">
+</th></tr></thead><tbody><tr><td id="d154378e156">
 
 **From a vendor**
 
@@ -85,7 +86,7 @@ Do this
 4.  Click the **Service Credit** tab.
 
 
-</td></tr><tr><td id="d155130e186">
+</td></tr><tr><td id="d154378e186">
 
 **From an incident, outage, or service availability**
 

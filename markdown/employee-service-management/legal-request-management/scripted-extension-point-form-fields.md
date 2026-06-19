@@ -2,6 +2,7 @@
 title: Scripted Extension Point form fields
 description: List of fields in the Scripted Extension Point.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-request-management/scripted-extension-point-form-fields.html
 release: zurich
 product: Legal Request Management
 classification: legal-request-management
@@ -89,5 +90,5 @@ Client callable
 Options to make the scripted extension point available to client scripts, list/report filters, reference qualifiers, or, if specified, as part of the URL.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create implementation in Scripted Extension Point](../task/create-scripted-extension-point.md)
+</table>**Parent Topic:**[Create implementation in Scripted Extension Point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/create-scripted-extension-point.md)
 

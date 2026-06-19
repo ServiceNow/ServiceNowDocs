@@ -2,6 +2,7 @@
 title: View past funding details
 description: View the past funding details of your investments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/investment-funding/view-past-funding-details.html
 release: zurich
 product: Investment Funding
 classification: investment-funding
@@ -36,5 +37,5 @@ Role required: sn\_invst\_pln\_v2.investment\_user
     The graph displays the comparison between the total funds received and the total actuals for the fiscal periods in the past one year.
 
 
-**Parent Topic:**[Investment Funding](../concept/investment-funding-overview.md)
+**Parent Topic:**[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/investment-funding-overview.md)
 

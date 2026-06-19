@@ -2,6 +2,7 @@
 title: Personal authentication
 description: Personal authentication enables individual users to authenticate with their personal accounts within ServiceNow using a secure connection between the user's identity and their corresponding Microsoft OneDrive or Google Drive account, allowing users to access, view, and manage their personal files directly from ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/personal-authentication-documents.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -21,26 +22,26 @@ Personal authentication allows users to securely connect their individual Micros
 
 This authentication method uses OAuth 2.0 to authorize each user, ensuring that file access and operations are performed under their unique identity. Each user connects to their own Microsoft OneDrive account, ensuring privacy and personalized access.
 
-For more information, see [Personal authentication](https://www.servicenow.com/docs/access?context=personal-authentication&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information, see .
 
 ## Personal authentication for Google Drive
 
 Personal authentication for Google Drive enables users to securely link their individual Google accounts with Document Management. This integration allows users to access, upload, and manage files from their personal Google Drive within ServiceNow, ensuring that all document interactions are authenticated under the user’s unique identity.
 
-For more information, see [Personal authentication](https://www.servicenow.com/docs/access?context=personal-authentication&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information, see .
 
 ## Personal Authentication dashboard
 
-Use your personal credentials to connect to third-party integrations. View, authenticate, revoke, and renew your personal authentications through a simplified, consolidated interface. For more information, see [Using the Personal Authentication dashboard](https://www.servicenow.com/docs/access?context=personal-auth-dashboard&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+Use your personal credentials to connect to third-party integrations. View, authenticate, revoke, and renew your personal authentications through a simplified, consolidated interface. For more information, see .
 
 **Note:** The personal authentication dashboard can be accessed by users with `sn_personal_auth.personal_auth_user` role.
 
--   **[Configure personal authentication for Multi Provider Document Services Framework](../task/configure-personal-authentication-mp.md)**  
+-   **[Configure personal authentication for Multi Provider Document Services Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/configure-personal-authentication-mp.md)**  
 Configure and enable personal authentication for Microsoft OneDrive and Google Drive accounts in Multi Provider Document Services Framework.
--   **[Authenticate Microsoft OneDrive account](../task/authenticate-onedrive-account.md)**  
+-   **[Authenticate Microsoft OneDrive account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/authenticate-onedrive-account.md)**  
 Enable personal authentication for Microsoft OneDrive for Multi Provider Document Services Framework.
--   **[Authenticate Google Drive account](../task/authenticate-google-drive-account.md)**  
+-   **[Authenticate Google Drive account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/authenticate-google-drive-account.md)**  
 Enable personal authentication for Google Drive for Multi Provider Document Services Framework.
 
-**Parent Topic:**[Integrate with Document Services](../reference/integrate-with-document-services-mp.md)
+**Parent Topic:**[Integrate with Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/integrate-with-document-services-mp.md)
 

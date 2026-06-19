@@ -2,6 +2,7 @@
 title: Operating system and application monitoring using Agent Client Collector
 description: IT Operations Management \(ITOM\) monitoring for the Agent Client Collector is installed on the ServiceNow instance. It monitors the specific operating system and applications that are installed on the host machine.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/itom-monitoring-for-acc.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -47,7 +48,7 @@ Apache HTTP Server
 
 </td><td>
 
-See [Configure Agent Client Collector Apache HTTP server monitoring](../task/acc-apache-http-server.md).
+See [Configure Agent Client Collector Apache HTTP server monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-apache-http-server.md).
 
 </td></tr><tr><td>
 
@@ -55,7 +56,7 @@ Apache Tomcat
 
 </td><td>
 
-See [Configure Agent Client Collector Apache Tomcat monitoring](../task/acc-apache-tomcat-monitoring.md).
+See [Configure Agent Client Collector Apache Tomcat monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-apache-tomcat-monitoring.md).
 
 </td></tr><tr><td>
 
@@ -118,12 +119,12 @@ No special configuration required. Accessed via a JMX port. Default port is **70
 
 When the application is running on a port other than the default, ensure that you update the port number in the check instance's parameters.
 
--   **[Configure Agent Client Collector Apache HTTP server monitoring](../task/acc-apache-http-server.md)**  
+-   **[Configure Agent Client Collector Apache HTTP server monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-apache-http-server.md)**  
 To configure the Agent Client Collector to perform Apache HTTP server monitoring, set the following configurations in the Apache HTTP server application.
--   **[Configure Agent Client Collector Apache Tomcat monitoring](../task/acc-apache-tomcat-monitoring.md)**  
+-   **[Configure Agent Client Collector Apache Tomcat monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-apache-tomcat-monitoring.md)**  
 To configure the Agent Client Collector to perform Apache Tomcat monitoring, set the following configurations in the Apache Tomcat application.
--   **[Monitor HTTP points](../task/acc-entrypoints.md)**  
+-   **[Monitor HTTP points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-entrypoints.md)**  
 Use the **Monitoring HTTP Entry Points** and **Monitoring HTTP Entry Points Metrics** policies that come with the ITOM Monitoring scoped app to monitor `http` and `https` entry points and entry points metrics. You can customize these policies as needed, or you can configure a new policy to monitor service entry points.
 
-**Parent Topic:**[Exploring Agent Client Collector Framework](exploring-agent-client-collector-framework.md)
+**Parent Topic:**[Exploring Agent Client Collector Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/exploring-agent-client-collector-framework.md)
 

@@ -2,6 +2,7 @@
 title: View an existing opportunity
 description: View an existing opportunity to make changes, such as updating its status or additional details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/opportunity-management-viewing-an-opportunity.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  Navigate to the **List** view ![image.Lists] and select **Opportunity - All**.
+1.  Navigate to the **List** view and select **Opportunity - All**.
 
     -   All- shows all the opportunities in the instance.
     -   Opportunity Tasks- shows your opportunity tasks.
@@ -32,5 +33,5 @@ Role required: sales\_agent
 4.  Select **Save**.
 
 
-**Parent Topic:**[Using Opportunity Management](opportunity-mgmt-using.md)
+**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-mgmt-using.md)
 

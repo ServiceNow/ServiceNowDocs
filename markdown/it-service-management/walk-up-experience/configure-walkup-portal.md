@@ -2,6 +2,7 @@
 title: Configure the Walk-up Experience portal
 description: Create engaging walk-up center service portals featuring your logo, portal theme, desired catalog, links to a knowledge base and social community, and more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/walk-up-experience/configure-walkup-portal.html
 release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -30,17 +31,17 @@ Role required: sn\_walkup.walkup\_admin or admin
 
 1.  To configure the Walk-up service portal using the **Service Portal** application, navigate to **All** &gt; **Service Portal** &gt; **Service Portal Configuration**.
 
-2.  To customize the base-system walk-up portal with your unique branding, title, logo, theme colors, layout, properties, widgets, and more, or to create a new walk-up portal, refer to [Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) for detailed information.
+2.  To customize the base-system walk-up portal with your unique branding, title, logo, theme colors, layout, properties, widgets, and more, or to create a new walk-up portal, refer to Service Portal for detailed information.
 
 3.  Alternatively, to configure the Walk-up service portal using the Service Portal Walk-up form, navigate to **All** &gt; **Walk-up Experience** &gt; **Administration** &gt; **Portal Configurations**.
 
 4.  In the Service Portals list, select **Walk-up**.
 
-5.  Click the form menu icon ![form menu icon](../../../common/image/Form_MenuIcon.png) and select **Configure** &gt; **Form Design**.
+5.  Click the form menu icon \[Omitted image "Form\_MenuIcon.png"\] Alt text: form menu icon and select **Configure** &gt; **Form Design**.
 
 6.  In the form designer header drop-down list, select or search for any of the configurable walk-up forms to customize your portal appearance.
 
-<table id="choicetable_egv_2gp_ldb"><tbody><tr><td id="d280341e171">
+<table id="choicetable_egv_2gp_ldb"><tbody><tr><td id="d182711e171">
 
 **Walk-up context \[wu\_context\]**
 
@@ -48,7 +49,7 @@ Role required: sn\_walkup.walkup\_admin or admin
 
 Online check-in channel for requesters to join a walk-up queue before physically arriving at the walk-up location. Identifies a walk-up requester and the description of the associated interaction.
 
-</td></tr><tr><td id="d280341e180">
+</td></tr><tr><td id="d182711e180">
 
 **Walk-up Location Queue \[wu\_location\_queue\]**
 
@@ -56,7 +57,7 @@ Online check-in channel for requesters to join a walk-up queue before physically
 
 Physical walk-up location interaction queue to manage and administer the service center. You can establish walk-up locations, set hours of operation, enable online check-in, determine assignment groups, associate stockrooms, as well as design the queue time display and position notification system.
 
-</td></tr><tr><td id="d280341e189">
+</td></tr><tr><td id="d182711e189">
 
 **Walk-up Reason \[wu\_m2m\_location\_queue\_reason\]**
 
@@ -64,7 +65,7 @@ Physical walk-up location interaction queue to manage and administer the service
 
 Reasons why a requester needs walk-up support.
 
-</td></tr><tr><td id="d280341e198">
+</td></tr><tr><td id="d182711e198">
 
 **Walk-up Reason for Visit \[wu\_reason\]**
 
@@ -73,8 +74,8 @@ Reasons why a requester needs walk-up support.
 Order in which reasons for a visit should be prioritized at a walk-up location.
 
 </td></tr></tbody>
-</table>    You can modify the form content to meet your portal requirements. For more details, refer to [Form configuration](https://www.servicenow.com/docs/access?context=basic-form-administration&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) .
+</table>    You can modify the form content to meet your portal requirements. For more details, refer to Form configuration .
 
 
-**Parent Topic:**[Configuring Walk-up Experience](../concept/walkup-experience-configuration.md)
+**Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walkup-experience-configuration.md)
 

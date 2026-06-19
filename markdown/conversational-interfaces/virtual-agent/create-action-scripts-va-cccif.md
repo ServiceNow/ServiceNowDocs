@@ -2,6 +2,7 @@
 title: Create the action scripts for your custom chat integration
 description: Set up the transforms that your custom chat integration needs to communicate through the chat process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/create-action-scripts-va-cccif.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Set up the transforms that your custom chat integration needs to communicate thr
 
 ## Before you begin
 
-[Create and configure a scripted REST API for your custom chat integration](configure-rest-api-va-cccif.md).
+[Create and configure a scripted REST API for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-rest-api-va-cccif.md).
 
 **Note:** All action messages relevant to the chat client are displayed to requesters during live agent conversations.
 
@@ -29,10 +30,10 @@ Role required: admin
 
 2.  Click the **Actions** tab.
 
-3.  [Create the actions](https://www.servicenow.com/docs/access?context=create-action&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US) you require to complete the conversational custom chat integration.
+3.  Create the actions you require to complete the conversational custom chat integration.
 
-    For details about the input and output used in action scripts, along with script examples, see [Virtual Agent action scripts](../reference/va-action-scripts.md).
+    For details about the input and output used in action scripts, along with script examples, see [Virtual Agent action scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-action-scripts.md).
 
 
-**Parent Topic:**[Create a Virtual Agent conversational custom chat integration](create-adapter-for-virtual-agent.md)
+**Parent Topic:**[Create a Virtual Agent conversational custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-adapter-for-virtual-agent.md)
 

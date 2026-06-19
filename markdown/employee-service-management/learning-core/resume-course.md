@@ -2,6 +2,7 @@
 title: Resume a course
 description: Use this widget to easily access and resume any course that you may have left mid-way.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/resume-course.html
 release: zurich
 product: Learning Core
 classification: learning-core

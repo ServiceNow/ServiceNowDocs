@@ -2,6 +2,7 @@
 title: Workflow properties
 description: In the properties of a workflow, you can configure settings such as its application scope, start conditions, schedule, inputs, stages, and run time metrics. You can also view information such as the workflow author, version, and history.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/legacy-workflow/r\_WorkflowProperties.html
 release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
@@ -164,7 +165,7 @@ Activity pinning
 
 </td><td>
 
-List of options that control updates to custom activities at the workflow level. Pinning protects custom activities from being updated automatically when downloaded from the ServiceNow Store. For more information, see [Workflow activity pinning](../../using-workflows/concept/c_ActivityPinning.md). The possible options are: -   **Set by activity**: Allows all activities in the workflow to use their own pinning settings. This is the default pinning option.
+List of options that control updates to custom activities at the workflow level. Pinning protects custom activities from being updated automatically when downloaded from the ServiceNow Store. For more information, see [Workflow activity pinning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-activities/c_ActivityPinning.md). The possible options are: -   **Set by activity**: Allows all activities in the workflow to use their own pinning settings. This is the default pinning option.
 -   **Pin all activities**: Pins all activities in the workflow to their current version.
 -   **Unpin all activities**: Allows all activities in the workflow to be updated.
 
@@ -206,7 +207,7 @@ Accessible from
 Scope restrictions for this workflow. Possible settings are: -   **All application scopes**: Workflow is accessible to all application scopes.
 -   **This application scope only**: Workflow access is limited to the scope named in the **Application** field.
 
- For more information see [Workflow scope](../../using-workflows/concept/c_WorkflowScope.md#).
+ For more information see [Workflow scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/c_WorkflowScope.md).
 
 </td></tr></tbody>
 </table>## Schedule
@@ -264,16 +265,16 @@ The Stages section appears if you select a table with **Type** = **Workflow**.
 |Field|Description|
 |-----|-----------|
 |Stage|Displays the workflow stage progress on the selected table. Optionally, select **Stage rendering** and **Stage order** schemes to customize the appearance of the stage field. The default values cover typical scenarios.|
-|Stage rendering|The renderer to use when displaying stage icons on a form or list view. For more information about renderers, see [Workflow stage renderers](r_WorkflowStageRenderers.md#).|
-|Stage order|The order of workflow stages when you view a workflow field in a list. Select **Computed** to let the workflow engine compute the stage order from the order of execution in the workflow. Select **User Specified** to use the **Order** field from that [Workflow stages](../../using-workflows/concept/c_WorkflowStages.md).|
+|Stage rendering|The renderer to use when displaying stage icons on a form or list view. For more information about renderers, see [Workflow stage renderers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/r_WorkflowStageRenderers.md).|
+|Stage order|The order of workflow stages when you view a workflow field in a list. Select **Computed** to let the workflow engine compute the stage order from the order of execution in the workflow. Select **User Specified** to use the **Order** field from that [Workflow stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/c_WorkflowStages.md).|
 |Name|The name of the stage as it appears in workflow fields..|
 |Duration|Time allocated for the specific stage.|
-|Order|The order of workflow stages when you view a workflow field in a list. Select **Computed** to let the workflow engine compute the stage order from the order of execution in the workflow. Select **User Specified** to use the **Order** field from that [Workflow stages](../../using-workflows/concept/c_WorkflowStages.md).|
+|Order|The order of workflow stages when you view a workflow field in a list. Select **Computed** to let the workflow engine compute the stage order from the order of execution in the workflow. Select **User Specified** to use the **Order** field from that [Workflow stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/c_WorkflowStages.md).|
 |Value|The value of the stage when it is referenced from elsewhere in the system, such as in a script.|
 
 ## Estimated Runtime
 
-The **Estimated Runtime** section opens the controls for configuring the **ERT** for the workflow. Core workflows included in the base system are not configured for estimated run time by default. All new workflows are configured with default ERT values automatically. You can edit existing run time estimates or configure new ones for any existing workflow. For details about how estimated run times are configured and calculated, see [Workflow run time metrics](../../using-workflows/concept/c_WorkflowRunTimeMetrics.md#).
+The **Estimated Runtime** section opens the controls for configuring the **ERT** for the workflow. Core workflows included in the base system are not configured for estimated run time by default. All new workflows are configured with default ERT values automatically. You can edit existing run time estimates or configure new ones for any existing workflow. For details about how estimated run times are configured and calculated, see [Workflow run time metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/c_WorkflowRunTimeMetrics.md).
 
 <table id="table_EstimatedRuntimeWorkflowTab"><thead><tr><th>
 
@@ -313,8 +314,8 @@ Outlier Percentage Threshold for ERT
 
 </td><td>
 
-\[Required\] The percentage deviation from the estimated run time that identifies an outlier workflow run time. The system uses a default value of 20. For more information, see [Outlying workflow run times](../../using-workflows/concept/c_WorkflowRunTimeMetrics.md#).
+\[Required\] The percentage deviation from the estimated run time that identifies an outlier workflow run time. The system uses a default value of 20. For more information, see [Outlying workflow run times](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/c_WorkflowRunTimeMetrics.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a workflow](../task/t_CreateAWorkflow.md)
+</table>**Parent Topic:**[Create a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/t_CreateAWorkflow.md)
 

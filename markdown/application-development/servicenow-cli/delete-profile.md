@@ -2,6 +2,7 @@
 title: Remove a profile
 description: Remove a named connection profile that you no longer need from the configuration file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-cli/delete-profile.html
 release: zurich
 product: ServiceNow CLI
 classification: servicenow-cli
@@ -40,5 +41,5 @@ You cannot remove the default connection profile using this command. To remove t
 
 The CLI removes the specified profile from the configuration file.
 
-**Parent Topic:**[Configuring and managing your ServiceNow CLI connection profiles](configure-profile.md)
+**Parent Topic:**[Configuring and managing your ServiceNow CLI connection profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-cli/configure-profile.md)
 

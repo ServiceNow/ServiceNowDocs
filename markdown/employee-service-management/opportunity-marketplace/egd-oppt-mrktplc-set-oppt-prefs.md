@@ -2,6 +2,7 @@
 title: Set opportunity preferences
 description: Set your preferences for opportunities so that your preferences match any opportunities you’re interested in.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-set-oppt-prefs.html
 release: zurich
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -86,5 +87,5 @@ Save and close the preferences form to make your preferences immediately availab
 </table>3.  Select **Save and close** to save your selections and make the immediately available for opportunities.
 
 
-**Parent Topic:**[Use Opportunity Marketplace](../concept/egd-oppt-mrktplc-using.md)
+**Parent Topic:**[Use Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-using.md)
 

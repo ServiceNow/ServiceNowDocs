@@ -2,6 +2,7 @@
 title: Order API
 description: The Order API provides endpoints for retrieving and creating orders with order line items for the Customer Service Management application.Retrieves complete order details by specifying the sys\_id or order number.Creates a new order with line items and characteristics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-apis/order\_csm-api.html
 release: zurich
 product: REST APIs
 classification: rest-apis
@@ -15,7 +16,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Order API provides endpoints for retrieving and creating orders with order line items for the Customer Service Management application.
 
-This API requires the Order Management \(app-csm-order-mgmt\) store application and is provided within the `sn_ind_tmt_orm` namespace. For information, see [Sales Customer Relationship Management](https://www.servicenow.com/docs/access?context=order-mgt-overview&version=zurich&pubname=zurich-order-management&ft:locale=en-US).
+This API requires the Order Management \(app-csm-order-mgmt\) store application and is provided within the `sn_ind_tmt_orm` namespace. For information, see .
 
 This API requires sn\_csm\_om.order\_integrator for access, and one of the following:
 
@@ -23,9 +24,9 @@ This API requires sn\_csm\_om.order\_integrator for access, and one of the follo
 -   sn\_csm\_om.customer\_agent – API write access restricted to B2B orders.
 -   sn\_csm\_om.order\_admin – API write access for B2B or B2C orders.
 
-For information on B2B and B2C orders, see [Customer Data Models for B2B2C](https://www.servicenow.com/docs/access?context=customer-data-model-b2b2c&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+For information on B2B and B2C orders, see Customer Data Models for B2B2C.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/api-rest.md)
 
 ## Order API – GET /sn\_ind\_tmt\_orm/order/\{id\}
 
@@ -37,7 +38,7 @@ Versioned URL: `/api/sn_ind_tmt_orm/{api_version}/order/{id}`
 
 Default URL: `/api/sn_ind_tmt_orm/order/{id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -98,7 +99,7 @@ Flag that indicates whether to show the display value of the reference fields.
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -123,7 +124,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -1577,7 +1578,7 @@ Versioned URL: `/api/sn_ind_tmt_orm/{api_version}/order`
 
 Default URL: `/api/sn_ind_tmt_orm/order`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -2273,7 +2274,7 @@ Total cost for the entire order.Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -2298,7 +2299,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 

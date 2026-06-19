@@ -2,6 +2,7 @@
 title: Unlink a topic recommendation from a Virtual Agent topic
 description: You can unlink a topic recommendation from a topic. This lets you link it to a new or alternate topic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/unlink-tr-va-topic.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -26,15 +27,15 @@ You can either add a recommendation as a new topic or link it to an existing top
 
 The following example shows the difference between a linked recommendation and an added recommendation.
 
-![A linked card reads, "Linked to topic on May 5, 2021. An added card reads, "Added on Mar 13, 2021."](../images/tr-linked-topic-card-example.png "Example of linked and added cards in the Topic Recommendations page")
+\[Omitted image "tr-linked-topic-card-example.png"\] Alt text: A linked card reads, "Linked to topic on May 5, 2021. An added card reads, "Added on Mar 13, 2021."
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Topic Recommendations**.
 
-2.  Select the info icon ![Info icon.](../images/icon-info-blue.png) to open the overlay card for a linked topic.
+2.  Select the info icon \[Omitted image "icon-info-blue.png"\] Alt text: Info icon. to open the overlay card for a linked topic.
 
-    ![Key details from ITSM Issue - Software - Files - PDF.](../images/tr-unlink-topic.png)
+    \[Omitted image "tr-unlink-topic.png"\] Alt text: Key details from ITSM Issue - Software - Files - PDF.
 
 3.  Select **Unlink**.
 

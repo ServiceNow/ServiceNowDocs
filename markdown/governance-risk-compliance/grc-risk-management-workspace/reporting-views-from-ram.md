@@ -2,11 +2,12 @@
 title: Reporting views from Risk Assessment Methodology
 description: The reporting view provides an overview of all completed assessments under a specific Risk Assessment Methodology \(RAM\). It consolidates assessment data such as factor responses, scores, issues, controls, and associated risks into a single structure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/reporting-views-from-ram.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2025-12-09"
+last_updated: "2026-04-28"
 reading_time_minutes: 1
 breadcrumb: [Explore, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -29,9 +30,9 @@ The reporting view enables you to:
 
 You can navigate to a published RAM and select **Open reporting view** to access the consolidated assessment list, which is grouped by risk assessment.
 
-![Open reporting view button the published RAM.](../image/risk-reporting-view.png)
+\[Omitted image "risk-reporting-view.png"\] Alt text: Open reporting view button the published RAM.
 
-You can expand individual records to review detailed factor responses, scores, and other assessment information.![View of expanded risk assessment records.](../image/risk-reporting-view-expanded.png)
+You can expand individual records to review detailed factor responses, scores, and other assessment information.
 
 **Note:** Automatic creation of Reporting views isn’t supported on Xanadu. For instructions on creating them manually, refer to [KB2547071](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2547071).
 

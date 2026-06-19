@@ -2,6 +2,7 @@
 title: Workspace for fraud manager
 description: Managers can use Intelligent Servicing for Fraud workspace to view the cases and tasks, approve or reject records sent to them for review, and track their related activities. Also, you can view the performance analytics dashboard and process optimization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/intelligent-servicing-for-fraud/workspace-for-fraud-manager.html
 release: zurich
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
@@ -17,7 +18,7 @@ Managers can use Intelligent Servicing for Fraud workspace to view the cases and
 
 The following is an example of the workspace landing page for the fraud manager.
 
-![Example landing page in workspace for fraud agent showing number and list of pending approval tasks, number and list of team's open cases, and SLA indicators.](../image/fso-manager-workspace.png "Example of the landing page for fraud manager")
+\[Omitted image "fso-manager-workspace.png"\] Alt text: Example landing page in workspace for fraud agent showing number and list of pending approval tasks, number and list of team's open cases, and SLA indicators.
 
-![Example landing page in workspace for fraud manager showing number and list of team's closed cases, total write off amount and total recovered cases.](../image/fraud-manager-dashboard.png "Example of the fraud manager dashboard")
+\[Omitted image "fraud-manager-dashboard.png"\] Alt text: Example landing page in workspace for fraud manager showing number and list of team's closed cases, total write off amount and total recovered cases.
 

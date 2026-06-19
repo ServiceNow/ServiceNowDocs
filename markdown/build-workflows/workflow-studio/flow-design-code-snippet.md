@@ -2,6 +2,7 @@
 title: Create code snippets for flows, subflows, and actions
 description: Generate a code snippet to call a specific flow, subflow or action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/flow-design-code-snippet.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -41,5 +42,5 @@ Role required: flow\_designer or admin
 
 Edit the script to add any mandatory values, such as inputs.
 
-**Parent Topic:**[API access to Workflow Studio flows](../concept/api-access-flow-designer.md)
+**Parent Topic:**[API access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/api-access-flow-designer.md)
 

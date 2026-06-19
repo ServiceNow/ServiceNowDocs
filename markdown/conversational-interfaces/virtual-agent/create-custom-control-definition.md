@@ -2,6 +2,7 @@
 title: Create a custom control definition
 description: Define a custom input or response control definition that maps to a custom component.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/create-custom-control-definition.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -131,5 +132,5 @@ The custom control definition is available for use. You can specify it when you 
 
 ## What to do next
 
-[Create the custom control](create-custom-control.md) in Virtual Agent Designer.
+[Create the custom control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-custom-control.md) in Virtual Agent Designer.
 

@@ -2,11 +2,12 @@
 title: Using the Manual Phishing playbook
 description: Use these steps to learn how you can use the Manual Phishing playbook in the SIR Analyst Workspace and its capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/using-manual-phishing-playbook.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Playbook for Manual Phishing, Process-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -23,26 +24,26 @@ Role required: sn\_si.admin or sn\_si.manager or sn\_si.analyst
 
 1.  In the SIR workspace, open a security incident.
 
-2.  Click the **Playbook** tab.
+2.  Select the **Playbook** tab.
 
     You can view the playbooks that have been enabled for the security incident. You can also see details like the category of the security incident, risk score.
 
     **Note:** If you don’t see any playbooks listed, then you need to go to PAD and enable them to see it in the **Playbook** tab.
 
-3.  Click the **Manual Phishing Playbook**.
+3.  Select the **Manual Phishing Playbook**.
 
-4.  Click each stage to know what tasks have been performed by this playbook.
+4.  Select each stage to know what tasks have been performed by this playbook.
 
-5.  Click **Analysis** to see the list of activities performed in the Analysis phase.
+5.  Select **Analysis** to see the list of activities performed in the Analysis phase.
 
-    You have the option to change it as per your requirements.![Manual Phishing workspace](../image/manual-phishing-workspace.gif)
+    You have the option to change it as per your requirements.
 
-6.  Similarly, you can click Contain, Eradicate, and Review to view the list of activities that have been performed in the respective phase.
+6.  Similarly, you can select Contain, Eradicate, and Review to view the list of activities that have been performed in the respective phase.
 
     You have the option to change them as per your requirements. If there’s any remaining activity or user action that you need to perform, it’s displayed in the respective phase.
 
-7.  If there’s any remaining activity or user action required in any of the phases, click the respective phase and perform the action to complete the activity.
+7.  If there’s any remaining activity or user action required in any of the phases, select the respective phase and perform the action to complete the activity.
 
 
-**Parent Topic:**[Playbook for Manual Phishing](../concept/playbook-manual-phishing.md)
+**Parent Topic:**[Playbook for Manual Phishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/playbook-manual-phishing.md)
 

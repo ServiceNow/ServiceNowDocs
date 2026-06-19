@@ -2,6 +2,7 @@
 title: Unified experience capabilities and modal screens
 description: The following table below describes the capabilities and applicable screens.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/capabilities-and-modal-screens.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -249,5 +250,5 @@ So, these can be provided in screen 3 specifically against individual selected i
 -   Crowdstrike Falcon Insight
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Unified experience framework for integrations powered by Capability Framework](../concept/security-incident-response-workspace-capability-framework.md)
+</table>**Parent Topic:**[Unified experience framework for integrations powered by Capability Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/security-incident-response-workspace-capability-framework.md)
 

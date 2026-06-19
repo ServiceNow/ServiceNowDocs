@@ -2,6 +2,7 @@
 title: Configure an automatic response for a question
 description: Set up automatic responses for assessment questions using either static responses or script-based responses based on specific conditions. You can configure default responses for text, drop-down list, radio button, check box, date, and number question types. This feature helps save assessors time and effort by reducing the number of questions that require answers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/smart-assessment-engine/configure-automatic-response-for-a-question.html
 release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -29,15 +30,15 @@ Role required: sn\_smart\_asmt.assessment\_admin or sn\_smart\_asmt.template\_ma
 
 2.  Create an assessment template or open an existing assessment template that is in the Draft state.
 
-    For more information on creating a template, see [Create an assessment template](sae-asmnt-template-create.md).
+    For more information on creating a template, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
 
 3.  Select a question for which you want to configure an automatic response.
 
-4.  Select the **Configuration options**![](../image/more-actions.png) and then select **Automated response**.
+4.  Select the **Configuration options**\[Omitted image "more-actions.png"\] Alt text: and then select **Automated response**.
 
 5.  In the **Default response is** field of the **Automated response** pop-up window, select a default response for the question based on the question type or create a script.
 
-    1.  Create a script for a dynamic response by selecting the script icon ![](../image/script-icon.png).
+    1.  Create a script for a dynamic response by selecting the script icon \[Omitted image "script-icon.png"\] Alt text:.
 
     2.  Update the `result.value = <null>` with the required input.
 
@@ -47,17 +48,17 @@ Role required: sn\_smart\_asmt.assessment\_admin or sn\_smart\_asmt.template\_ma
 
 7.  Select **+ New condition set** under **If** condition to set the condition.
 
-    -   Add details to **If** and **Then** conditions using the condition builder. For more information, refer to [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    -   Add details to **If** and **Then** conditions using the condition builder. For more information, refer to .
     -   You can set up multiple conditions within a single **If** condition by selecting **+ New condition set**. Within a single condition row, you can combine multiple conditions using **and** or **or** logical operators.
 8.  Set up one or more subsequent if-then conditions by selecting **Add If-then condition**.
 
-    -   Add details to **Otherwise if** and **Then** conditions using the condition builder. For more information, refer to [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    -   Add details to **Otherwise if** and **Then** conditions using the condition builder. For more information, refer to .
     -   The first condition that meets the criteria triggers the default response. Priority is determined by the order of the conditions. For instance, if you have three conditions and the first one is true, the system doesn't check the remaining two.
 9.  In the **Default response is** field in the **If nothing matches** section, set the default response for situations where none of the condition sets meet the set criteria.
 
-    ![Screen of the Automate response pop-up window, which shows theIf section, Then section, and If nothing matches section.](../image/automate-response-add-condition.png)
+    \[Omitted image "automate-response-add-condition.png"\] Alt text: Screen of the Automate response pop-up window, which shows theIf section, Then section, and If nothing matches section.
 
-10. Create a script for a dynamic response by selecting the script icon ![](../image/script-icon.png).
+10. Create a script for a dynamic response by selecting the script icon \[Omitted image "script-icon.png"\] Alt text:.
 
 11. Update the **result.value** field with the required input.
 

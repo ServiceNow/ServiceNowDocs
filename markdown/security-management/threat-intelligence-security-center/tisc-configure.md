@@ -2,6 +2,7 @@
 title: Configuring Threat Intelligence Security Center
 description: Set up the features, components, and integrations that you need to provide service and support to your customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-configure.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

@@ -2,6 +2,7 @@
 title: Use time-worked summary to analyze agent schedule adherence and conformance
 description: Analyze if your teams are adhering to planned schedules. Use historical adherence to see how well your agents have followed their schedules in the past.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/analyze-configurable-workspace-time-worked-summary-itsm.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -24,13 +25,13 @@ Role required: sn\_shift\_planning.admin
 **Note:**
 
 -   Historical adherence provides a reports of real-time adherence.
--   Adherence and conformance calculations are based on your agents' actual and planned work schedules. Your administrator can modify the schedule adherence and conformance configurations. For more information, see [Schedule Adherence reference](../reference/configure-adherence-parameters-wfo-itsm.md).
+-   Adherence and conformance calculations are based on your agents' actual and planned work schedules. Your administrator can modify the schedule adherence and conformance configurations. For more information, see [Schedule Adherence reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/configure-adherence-parameters-wfo-itsm.md).
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Lists icon \(![Lists icon](../../itsm-manager-workspace/image/lists_icon.png)\)
+2.  Click the Lists icon \(\[Omitted image "lists\_icon.png"\] Alt text: Lists icon\)
 
 3.  In the **Schedule Adherence** category, do any of the following:
 
@@ -52,5 +53,5 @@ To understand the computations of the fields in a time worked summary, let's con
 
 **Note:** Fatima Alonzo is adherent because the schedule adherence and conformance are within the threshold. To see which agents are non-adherent, look for the numbers that are highlighted in red.
 
-**Parent Topic:**[Schedule Adherence in Workforce Optimization for ITSM](../concept/schedule-adherence-configurable-itsm.md)
+**Parent Topic:**[Schedule Adherence in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/schedule-adherence-configurable-itsm.md)
 

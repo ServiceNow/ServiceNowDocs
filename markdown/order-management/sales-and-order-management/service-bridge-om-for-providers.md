@@ -2,6 +2,7 @@
 title: Order Management for providers with Service Exchange
 description: The Service Exchange Order Management for Providers application enables service providers to use Order Management to create product offerings and service specifications that Service Exchange consumers can order from service catalogs in their ServiceNow instances. Order agents and fulfillers can then complete the orders and requests on the provider instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/service-bridge-om-for-providers.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -69,5 +70,5 @@ During order processing, note that order status states correspond to certain pro
 
 ## Next step
 
-As a Service Exchange admin, review the setup tasks in [Configuring Service Exchange Order Management for Providers](configuring-sb-om.md).
+As a Service Exchange admin, review the setup tasks in [Configuring Service Exchange Order Management for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/configuring-sb-om.md).
 

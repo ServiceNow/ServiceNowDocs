@@ -2,6 +2,7 @@
 title: Define a SAFe team
 description: From SAFe, create an agile team and associate it to an ART.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scaled-agile-framework-safe/create-SAFeteams.html
 release: zurich
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -91,5 +92,5 @@ PI Objectives
 List of all PI objectives of this team. View, create, and update the PI objectives.This related list is visible in the SAFe view of the Group form.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[SAFe entities](../concept/key-entities-SAFe.md)
+</table>**Parent Topic:**[SAFe entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/key-entities-SAFe.md)
 

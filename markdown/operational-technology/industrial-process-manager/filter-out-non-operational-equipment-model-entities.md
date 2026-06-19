@@ -2,6 +2,7 @@
 title: Filter equipment model entities by operational status
 description: Filter how equipment model entities appear in the Equipment Model Manager on the Industrial Workspace using a system property. Filtering equipment model entities can help you organize the data shown on the Industrial Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-process-manager/filter-out-non-operational-equipment-model-entities.html
 release: zurich
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -39,5 +40,5 @@ Role required: cmdb\_ot\_isa\_viewer and cmdb\_ot\_isa\_admin
     For example, if you want to remove equipment model entities with **Operational Status** field values of **Retired** and**Not in Use**, list `6, 9`.
 
 
-**Parent Topic:**[Review and update the equipment model details](equipment-model-workspace.md)
+**Parent Topic:**[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/equipment-model-workspace.md)
 

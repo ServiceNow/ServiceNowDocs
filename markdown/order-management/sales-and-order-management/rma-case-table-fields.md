@@ -2,6 +2,7 @@
 title: Return Merchandise Authorization case table fields
 description: Information about Return Merchandise Authorization \(RMA\) case table fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/rma-case-table-fields.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -47,5 +48,5 @@ Reason for RMA request. -   Other
 -   Not as described
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Return Merchandise Authorization Case Management](return-merchandise-authorization-case-management-reference.md)
+</table>**Parent Topic:**[Return Merchandise Authorization Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/return-merchandise-authorization-case-management-reference.md)
 

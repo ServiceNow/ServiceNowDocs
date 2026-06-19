@@ -2,6 +2,7 @@
 title: Cell - Scoped, Global
 description: Creates a Cell object as a cell in a table. You can use this API to format the cell and include additional blocks, such as paragraphs and images.Instantiates a new Cell object. Creates a cell which takes a custom amount of cell spaces in the table.Adds an image to a table cell.Adds text to a table cell.Applies a predefined style to table cells.Adds a table to a cell.Gets the number of the column in which the cell is located.Gets the number of rows in which the cell is located.Specifies a background color for the cell.Sets a border for all four edges of a cell.Sets a border for the lower limit of a cell.Sets a border for the left limit of a cell.Sets a border for the right limit of a cell.Sets a border for the upper limit of a cell.Sets a colored border for all four edges of a cell.Sets a colored border for the lower limit of a cell.Sets a colored border for the left limit of a cell.Sets a colored border for the right limit of a cell.Sets a colored border for the upper limit of a cell.Sets the height of a cell.Sets the horizontal alignment for this cell.Sets the maximum height of a cell.Sets the maximum width of a cell.Sets the minimum height of a cell.Sets the minimum width of a cell.Sets the opacity of cell content, borders, and background.Sets the padding of all four sides of a cell to the same width.Sets the value of the bottom padding width of a cell.Sets the value of the left padding width of a cell.Sets the value of the right padding width of a cell.Sets the value of the top padding width of a cell.Sets the text alignment of this cell.Sets the vertical alignment for this cell.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/CellBothAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,9 +18,9 @@ Creates a Cell object as a cell in a table. You can use this API to format the c
 
 This API is part of the ServiceNow PDF Generation Utilities plugin \(com.snc.apppdfgenerator\) and is provided within the `sn_pdfgeneratorutils` namespace. The plugin is activated by default.
 
-This API is a component used with the [Document API](../../DocumentBoth/concept/DocumentBothAPI.md#) to generate a PDF.
+This API is a component used with the [Document API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) to generate a PDF.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## Cell - Cell\(Number rowspan, Number colspan\)
 
@@ -76,13 +77,13 @@ Adds an image to a table cell.
 
 |Name|Type|Description|
 |----|----|-----------|
-|image|[Image](../../ImageBoth/concept/ImageBothAPI.md#)|Image to add to a table cell.|
+|image|[Image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ImageBothAPI.md)|Image to add to a table cell.|
 
 |Type|Description|
 |----|-----------|
 |None| |
 
-The following example shows how to instantiate an existing image attachment and add it to a cell in a table. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how to instantiate an existing image attachment and add it to a cell in a table. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var cell = new sn_pdfgeneratorutils.Cell(1, 1);
@@ -98,13 +99,13 @@ Adds text to a table cell.
 
 |Name|Type|Description|
 |----|----|-----------|
-|paragraph|[Paragraph](../../ParagraphBoth/concept/ParagraphBothAPI.md#)|Text to add to a table cell.|
+|paragraph|[Paragraph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ParagraphBothAPI.md)|Text to add to a table cell.|
 
 |Type|Description|
 |----|-----------|
 |None| |
 
-The following example shows how to instantiate paragraph objects and add the content cells in a table. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how to instantiate paragraph objects and add the content cells in a table. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var cell = new sn_pdfgeneratorutils.Cell(1, 3);
@@ -118,13 +119,13 @@ Applies a predefined style to table cells.
 
 |Name|Type|Description|
 |----|----|-----------|
-|style|[Style](../../StyleBoth/concept/StyleBothAPI.md#)|Style to apply to this element.|
+|style|[Style](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/StyleBothAPI.md)|Style to apply to this element.|
 
 |Type|Description|
 |----|-----------|
 |None| |
 
-The following example shows how to apply a style to a table cell. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how to apply a style to a table cell. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var cell = new sn_pdfgeneratorutils.Cell(1, 3);
@@ -140,13 +141,13 @@ Adds a table to a cell.
 
 |Name|Type|Description|
 |----|----|-----------|
-|table|[Table](../../TableBoth/concept/TableBothAPI.md#)|Table to add to a cell.|
+|table|[Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/TableBothAPI.md)|Table to add to a cell.|
 
 |Type|Description|
 |----|-----------|
 |None| |
 
-The following example shows how to instantiate a table object and add it to a cell. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how to instantiate a table object and add it to a cell. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var cell = new sn_pdfgeneratorutils.Cell(1, 1);
@@ -232,13 +233,13 @@ Specifies a background color for the cell.
 
 |Name|Type|Description|
 |----|----|-----------|
-|color|[Color](../../ColorBoth/concept/ColorBothAPI.md#)|Background color.|
+|color|[Color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ColorBothAPI.md)|Background color.|
 
 |Type|Description|
 |----|-----------|
 |None| |
 
-The following example shows how to set cell background color. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how to set cell background color. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var cell = new sn_pdfgeneratorutils.Cell(1, 3);
@@ -260,7 +261,7 @@ Sets a border for all four edges of a cell.
 |----|-----------|
 |None| |
 
-The following example shows how to set a cell border of one point to all four edges of a cell. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how to set a cell border of one point to all four edges of a cell. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var cell = new sn_pdfgeneratorutils.Cell(1, 3);
@@ -282,7 +283,7 @@ Sets a border for the lower limit of a cell.
 |----|-----------|
 |None| |
 
-The following example shows how to set a cell border. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how to set a cell border. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var cell = new sn_pdfgeneratorutils.Cell(1, 3);
@@ -304,7 +305,7 @@ Sets a border for the left limit of a cell.
 |----|-----------|
 |None| |
 
-The following example shows how set a left-side cell border. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how set a left-side cell border. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var cell = new sn_pdfgeneratorutils.Cell(1, 3);
@@ -326,7 +327,7 @@ Sets a border for the right limit of a cell.
 |----|-----------|
 |None| |
 
-The following example shows how to set a right-side cell border. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how to set a right-side cell border. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var cell = new sn_pdfgeneratorutils.Cell(1, 3);
@@ -348,7 +349,7 @@ Sets a border for the upper limit of a cell.
 |----|-----------|
 |None| |
 
-The following example shows how to set a top cell border. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how to set a top cell border. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var cell = new sn_pdfgeneratorutils.Cell(1, 3);
@@ -364,14 +365,14 @@ Sets a colored border for all four edges of a cell.
 
 |Name|Type|Description|
 |----|----|-----------|
-|color|[Color](../../ColorBoth/concept/ColorBothAPI.md#)|Cell border color.|
+|color|[Color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ColorBothAPI.md)|Cell border color.|
 |width|Number|Cell border width in points.|
 
 |Type|Description|
 |----|-----------|
 |None| |
 
-The following example shows how to set a colored cell border. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how to set a colored cell border. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var cell = new sn_pdfgeneratorutils.Cell(1, 3);
@@ -388,14 +389,14 @@ Sets a colored border for the lower limit of a cell.
 
 |Name|Type|Description|
 |----|----|-----------|
-|color|[Color](../../ColorBoth/concept/ColorBothAPI.md#)|Cell border color.|
+|color|[Color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ColorBothAPI.md)|Cell border color.|
 |width|Number|Cell border width in points.|
 
 |Type|Description|
 |----|-----------|
 |None| |
 
-The following example shows how to set a colored lower cell border. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how to set a colored lower cell border. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var cell = new sn_pdfgeneratorutils.Cell(1, 3);
@@ -412,14 +413,14 @@ Sets a colored border for the left limit of a cell.
 
 |Name|Type|Description|
 |----|----|-----------|
-|color|[Color](../../ColorBoth/concept/ColorBothAPI.md#)|Cell border color.|
+|color|[Color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ColorBothAPI.md)|Cell border color.|
 |width|Number|Cell border width in points.|
 
 |Type|Description|
 |----|-----------|
 |None| |
 
-The following example shows how to set a colored left cell border. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how to set a colored left cell border. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var cell = new sn_pdfgeneratorutils.Cell(1, 3);
@@ -436,14 +437,14 @@ Sets a colored border for the right limit of a cell.
 
 |Name|Type|Description|
 |----|----|-----------|
-|color|[Color](../../ColorBoth/concept/ColorBothAPI.md#)|Cell border color.|
+|color|[Color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ColorBothAPI.md)|Cell border color.|
 |width|Number|Cell border width in points.|
 
 |Type|Description|
 |----|-----------|
 |None| |
 
-The following example shows how to set a colored right cell border. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how to set a colored right cell border. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var cell = new sn_pdfgeneratorutils.Cell(1, 3);
@@ -460,14 +461,14 @@ Sets a colored border for the upper limit of a cell.
 
 |Name|Type|Description|
 |----|----|-----------|
-|color|[Color](../../ColorBoth/concept/ColorBothAPI.md#)|Cell border color.|
+|color|[Color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ColorBothAPI.md)|Cell border color.|
 |width|Number|Cell border width in points.|
 
 |Type|Description|
 |----|-----------|
 |None| |
 
-The following example shows how to set a colored top cell border. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how to set a colored top cell border. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var cell = new sn_pdfgeneratorutils.Cell(1, 3);
@@ -490,7 +491,7 @@ Sets the height of a cell.
 |----|-----------|
 |None| |
 
-The following example shows how set a cell height of 10 points. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how set a cell height of 10 points. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var cell = new sn_pdfgeneratorutils.Cell(1, 3);
@@ -537,7 +538,7 @@ Horizontal alignment setting.Valid values:
 |----|-----------|
 |None| |
 
-The following example shows how to set horizontal alignment on a cell. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how to set horizontal alignment on a cell. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var cell = new sn_pdfgeneratorutils.Cell(1, 3);
@@ -559,7 +560,7 @@ Sets the maximum height of a cell.
 |----|-----------|
 |None| |
 
-The following example shows how set a maximum cell height of 409 points. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how set a maximum cell height of 409 points. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var cell = new sn_pdfgeneratorutils.Cell(1, 3);
@@ -581,7 +582,7 @@ Sets the maximum width of a cell.
 |----|-----------|
 |None| |
 
-The following example shows how set a maximum cell width of 1530 points. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how set a maximum cell width of 1530 points. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var cell = new sn_pdfgeneratorutils.Cell(1, 3);
@@ -603,7 +604,7 @@ Sets the minimum height of a cell.
 |----|-----------|
 |None| |
 
-The following example shows how set a minimum cell height of 12.75 points. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how set a minimum cell height of 12.75 points. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var cell = new sn_pdfgeneratorutils.Cell(1, 3);
@@ -625,7 +626,7 @@ Sets the minimum width of a cell.
 |----|-----------|
 |None| |
 
-The following example shows how set a minimum cell width of 50.58 points. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how set a minimum cell width of 50.58 points. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var cell = new sn_pdfgeneratorutils.Cell(1, 3);
@@ -686,10 +687,10 @@ Sets the padding of all four sides of a cell to the same width.
 
 See also:
 
--   [setPaddingBottom\(\)](CellBothAPI.md#)
--   [setPaddingLeft\(\)](CellBothAPI.md#)
--   [setPaddingRight\(\)](CellBothAPI.md#)
--   [setPaddingTop\(\)](CellBothAPI.md#)
+-   [setPaddingBottom\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CellBothAPI.md)
+-   [setPaddingLeft\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CellBothAPI.md)
+-   [setPaddingRight\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CellBothAPI.md)
+-   [setPaddingTop\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CellBothAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -699,7 +700,7 @@ See also:
 |----|-----------|
 |None| |
 
-The following example shows how to set the bottom cell to one point. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how to set the bottom cell to one point. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var cell = new sn_pdfgeneratorutils.Cell(1, 3);
@@ -715,10 +716,10 @@ Sets the value of the bottom padding width of a cell.
 
 See also:
 
--   [setPadding\(\)](CellBothAPI.md#)
--   [setPaddingLeft\(\)](CellBothAPI.md#)
--   [setPaddingRight\(\)](CellBothAPI.md#)
--   [setPaddingTop\(\)](CellBothAPI.md#)
+-   [setPadding\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CellBothAPI.md)
+-   [setPaddingLeft\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CellBothAPI.md)
+-   [setPaddingRight\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CellBothAPI.md)
+-   [setPaddingTop\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CellBothAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -728,7 +729,7 @@ See also:
 |----|-----------|
 |None| |
 
-The following example shows how to set bottom cell padding to one point. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how to set bottom cell padding to one point. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var cell = new sn_pdfgeneratorutils.Cell(1, 3);
@@ -744,10 +745,10 @@ Sets the value of the left padding width of a cell.
 
 See also:
 
--   [setPadding\(\)](CellBothAPI.md#)
--   [setPaddingBottom\(\)](CellBothAPI.md#)
--   [setPaddingRight\(\)](CellBothAPI.md#)
--   [setPaddingTop\(\)](CellBothAPI.md#)
+-   [setPadding\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CellBothAPI.md)
+-   [setPaddingBottom\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CellBothAPI.md)
+-   [setPaddingRight\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CellBothAPI.md)
+-   [setPaddingTop\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CellBothAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -757,7 +758,7 @@ See also:
 |----|-----------|
 |None| |
 
-The following example shows how to set left cell padding to one point. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how to set left cell padding to one point. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var cell = new sn_pdfgeneratorutils.Cell(1, 3);
@@ -773,10 +774,10 @@ Sets the value of the right padding width of a cell.
 
 See also:
 
--   [setPadding\(\)](CellBothAPI.md#)
--   [setPaddingBottom\(\)](CellBothAPI.md#)
--   [setPaddingLeft\(\)](CellBothAPI.md#)
--   [setPaddingTop\(\)](CellBothAPI.md#)
+-   [setPadding\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CellBothAPI.md)
+-   [setPaddingBottom\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CellBothAPI.md)
+-   [setPaddingLeft\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CellBothAPI.md)
+-   [setPaddingTop\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CellBothAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -786,7 +787,7 @@ See also:
 |----|-----------|
 |None| |
 
-The following example shows how to set right cell padding to one point. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how to set right cell padding to one point. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var cell = new sn_pdfgeneratorutils.Cell(1, 3);
@@ -802,10 +803,10 @@ Sets the value of the top padding width of a cell.
 
 See also:
 
--   [setPadding\(\)](CellBothAPI.md#)
--   [setPaddingBottom\(\)](CellBothAPI.md#)
--   [setPaddingLeft\(\)](CellBothAPI.md#)
--   [setPaddingRight\(\)](CellBothAPI.md#)
+-   [setPadding\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CellBothAPI.md)
+-   [setPaddingBottom\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CellBothAPI.md)
+-   [setPaddingLeft\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CellBothAPI.md)
+-   [setPaddingRight\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CellBothAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -815,7 +816,7 @@ See also:
 |----|-----------|
 |None| |
 
-The following example shows how to set top cell padding to one point. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how to set top cell padding to one point. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var cell = new sn_pdfgeneratorutils.Cell(1, 3);
@@ -911,7 +912,7 @@ Vertical alignment setting.Valid values:
 |----|-----------|
 |None| |
 
-The following example shows how to set vertical alignment on a cell. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how to set vertical alignment on a cell. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var cell = new sn_pdfgeneratorutils.Cell(1, 3);

@@ -2,6 +2,7 @@
 title: Create a SOAP message from a WSDL that references an external XSD file
 description: Create a SOAP message from a WSDL and external XSD file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/create-soap-msg-external-xsd.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -295,5 +296,5 @@ This task includes example WSDL and XSD files for a weather forecast SOAP messag
 
 ```
 
-**Parent Topic:**[SOAP message](../concept/c_SOAPMessage.md)
+**Parent Topic:**[SOAP message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_SOAPMessage.md)
 

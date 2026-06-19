@@ -2,6 +2,7 @@
 title: Cancel an SRM incident
 description: Close an incident, if you think it is not an issue, or if it has already been handled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-reliability-management/sr-cancel-incident.html
 release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
@@ -27,21 +28,21 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 
     **Note:** If you use other Service Operations Workspace \(SOW\) applications, you may see the SOW Home page instead of the SRM Home page. The SOW Home page includes SRM alerts and incidents in its metrics.
 
-2.  From the primary navigation, select **Reliability tasks** \(![Reliability tasks icon](../image/icon-sr-reliability-tasks.png)\).
+2.  From the primary navigation, select **Reliability tasks** \(\[Omitted image "icon-sr-reliability-tasks.png"\] Alt text: Reliability tasks icon\).
 
 3.  Open the incident you want to cancel.
 
 4.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d62053e99">
+<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d68772e99">
 
 Option
 
-</th><th align="left" id="d62053e102">
+</th><th align="left" id="d68772e102">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d62053e108">
+</th></tr></thead><tbody><tr><td id="d68772e108">
 
 **In the incident list view**
 
@@ -51,7 +52,7 @@ Steps
 2.  Select **OK**.
  **Tip:** If you have the srm\_admin role, you can update multiple incidents at once. First, select the relevant incidents and select **Edit**. Then use the **State** drop-down to choose the appropriate value and select **Update**.
 
-</td></tr><tr><td id="d62053e144">
+</td></tr><tr><td id="d68772e144">
 
 **In the incident form**
 
@@ -62,7 +63,7 @@ Steps
 
 
 </td></tr></tbody>
-</table>    For value choices, see [SRM incidents](../reference/sr-incidents-workspace.md).
+</table>    For value choices, see [SRM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-incidents-workspace.md).
 
     The new state is displayed in the incident list view, incident form, and form header.
 
@@ -75,5 +76,5 @@ Canceled incidents remain in the Incidents list view. Check your filters if you 
 
 When you cancel an incident, the related alerts are closed.
 
-**Parent Topic:**[Working with incidents in SRM](../concept/sr-work-incidents.md)
+**Parent Topic:**[Working with incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-work-incidents.md)
 

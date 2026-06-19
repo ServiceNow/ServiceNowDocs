@@ -2,11 +2,12 @@
 title: Add a Video with the Rich Content Editor
 description: Use the Rich Content Editor canvas to add videos in your content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ec-rich-content-video.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-04-02"
+last_updated: "2026-04-09"
 reading_time_minutes: 5
 breadcrumb: [Microsites, Creating employee communications, Manage, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
@@ -19,12 +20,12 @@ Use the **Rich Content Editor** canvas to add videos in your content.
 
 Role required: sn\_cd.content\_manager
 
-Fill in the New content form fields. See [Create rich content](ec-content-library-portal-rich-content.md)
+Fill in the New content form fields. See [Create rich content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-library-portal-rich-content.md)
 
 Create the page layout using modules or columns.
 
--   Modules are predefined content layouts comprised of header, paragraph text, and images. See [Add predefined content layouts with the Rich Content Editor](add-modules-rich-content-editor.md)
--   Columns are containers that enable you to define a custom layout. See [Add columns with the Rich Content Editor](ec-rich-content-canvas.md)
+-   Modules are predefined content layouts comprised of header, paragraph text, and images. See [Add predefined content layouts with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/add-modules-rich-content-editor.md)
+-   Columns are containers that enable you to define a custom layout. See [Add columns with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-rich-content-canvas.md)
 
 ## About this task
 
@@ -38,7 +39,7 @@ The **Rich Content Editor** supports the following types of video:
 -   Vimeo
 -   Video streaming service
 
-    **Note:** You must configure a content provider to use videos from a video streaming service. See [Video hosting integrations framework](../concept/content-providers.md).
+    **Note:** You must configure a content provider to use videos from a video streaming service. See [Video hosting integrations framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/content-providers.md).
 
 -   Other
 
@@ -57,25 +58,25 @@ The **Rich Content Editor** supports the following types of video:
 
     **Note:** When adding images, videos, or text, there are several functional and convenient styling features that help create Rich Content and News Articles. Some of the right-hand panel options include the ability to enable different backgrounds, opacity and shadows, improved cells and buttons add additional border settings, colors and types, as well as additional text styles, colors and fonts, and right-hand panel property setting improvements, which provide more available options when creating rich content.
 
-    **Provider "Other"**
+5.  Use the following steps to set up provider Other:
 
-5.  Navigate to **Content Publishing** and select **Content Provider** and confirm that **Other** provider is listed.
+6.  Navigate to **Content Publishing** and select **Content Provider** and confirm that **Other** provider is listed.
 
-6.  Open Other and confirm that it's mapped to a**News Article** or **Rich Content**.
+7.  Open Other and confirm that it's mapped to a**News Article** or **Rich Content**.
 
-7.  Update **glide.html.enable\_media\_sites** to add the video platform domain you’re testing.
+8.  Update **glide.html.enable\_media\_sites** to add the video platform domain you’re testing.
 
-8.  Create [Create rich content](ec-content-library-portal-rich-content.md) or [Create a news article](ec-content-library-news-article.md) and open the **Rich Content Editor**.
+9.  Create [Create rich content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-library-portal-rich-content.md) or [Create a news article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-library-news-article.md) and open the **Rich Content Editor**.
 
-9.  Add a **video component** and set **Provider** to **Other**.
+10. Add a **video component** and set **Provider** to **Other**.
 
-10. Paste your public video URL from an allowed domain.
+11. Paste your public video URL from an allowed domain.
 
-11. Save video.
+12. Save video.
 
-12. Confirm that the video renders in **Rich Content Editor**.
+13. Confirm that the video renders in **Rich Content Editor**.
 
-13. Follow the additional setting options to configure video settings, as needed.
+14. Follow the additional setting options to configure video settings, as needed.
 
 <table id="table_zx2_tgw_jyb"><thead><tr><th>
 
@@ -166,7 +167,7 @@ Show controls \(Youtube and HTML5 Source\)
 Check this box to display the video player controls that your users can interact with to start, stop, control volume, show closed captions, show the video full screen, or change the video settings.
 
 </td></tr></tbody>
-</table>14. Select **Save** or **Save and Finish**.
+</table>15. Select **Save** or **Save and Finish**.
 
     Selecting **Save** saves your content and you remain on the **Rich Content Editor** canvas. Selecting **Save and Finish** saves your record and returns you to the **New content** form.
 
@@ -175,15 +176,15 @@ Check this box to display the video player controls that your users can interact
 
 -   \(Optional\) Translate your content.
 
-    Request language translation for your content. For more information, see [Multilingual support in the Content Library](../concept/ec-switch-language.md).
+    Request language translation for your content. For more information, see [Multilingual support in the Content Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-switch-language.md).
 
     **Note:** Only translate content after you are done modifying the content. For best results, we do not recommend that you add or remove components or change the formatting after translation.
 
-    To create rich content that is formatted differently in different languages, duplicate the content and modify the formatting as needed. Then, use Audiences to target the content to users by language. See [Audiences](../concept/ecpro-audience.md)
+    To create rich content that is formatted differently in different languages, duplicate the content and modify the formatting as needed. Then, use Audiences to target the content to users by language. See [Audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-audience.md)
 
 -   Preview your content from the **Publish** tab.
 
     **Note:** Content Preview is designed to provide a general idea of how your content looks. Content may look different once published due to variations in device resolution, theme difference, or mobile app style configuration.
 
--   Configure a publish plan to control where the content is delivered, the audience, and the period of time it is available: [Create a publish plan for your content](ec-content-library-publish2.md).
+-   Configure a publish plan to control where the content is delivered, the audience, and the period of time it is available: [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md).
 

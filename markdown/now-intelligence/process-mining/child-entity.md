@@ -2,6 +2,7 @@
 title: Add a child entity
 description: Add a child or related table to track an activity from a related process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/child-entity.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -39,7 +40,7 @@ Often the start and end of a full workflow occurs outside the life cycle of your
 
     **Tip:** Select **Advanced view** on the top right corner if you want to edit the project in the Classic view.
 
-    ![New child table form](../image/child-entity.png)
+    \[Omitted image "child-entity.png"\] Alt text: New child table form
 
 5.  Fill in the form with the details.
 
@@ -118,5 +119,5 @@ Displays the selected number of related records for the filters set. You can fil
 </table>6.  Select **Save**.
 
 
-**Parent Topic:**[Scoping your analysis](../concept/scope-analysis.md)
+**Parent Topic:**[Scoping your analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/scope-analysis.md)
 

@@ -2,6 +2,7 @@
 title: Search for a campus, building and a space using AI Search
 description: The AI search capability in Workplace Service Delivery for Mobile provides AI contextual search for campuses, buildings, floors, and spaces.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-service-delivery-for-mobile/ai-search-buildings-floors.html
 release: zurich
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
@@ -37,7 +38,7 @@ Ensure that you have installed and configured AI search for Workplace Service De
 
 4.  Click **See spaces** user is directed to select a floor.
 
-5.  Select a floor to see the spaces on the floor.![](../images/AI-search-campus-buildig-spaces.png)
+5.  Select a floor to see the spaces on the floor.\[Omitted image "AI-search-campus-buildig-spaces.png"\] Alt text:
 
 6.  Select a space and click **Submit** to reserve the space.
 
@@ -54,9 +55,9 @@ AI search provides better search results based on the following.
 -   Auto-correct typos: Incorrect terminologies or words are automatically corrected while entering the search key terms.
 -   Synonym handling: The search engine looks for synonyms from the search key terms and shows the search results accordingly. For example, type 'Building A', AI searches for Building A as well as all floors that belong to Building A.
 
-**Parent Topic:**[Using Workplace Service Delivery for Mobile](../concept/using-wsd-mobile.md)
+**Parent Topic:**[Using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery-for-mobile/using-wsd-mobile.md)
 
-**Previous topic:**[Using Workplace Service Delivery for Mobile](../concept/using-wsd-mobile.md)
+**Previous topic:**[Using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery-for-mobile/using-wsd-mobile.md)
 
-**Next topic:**[Make a reservation using the Now Mobile app](make-a-reservation-on-mobile.md)
+**Next topic:**[Make a reservation using the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery-for-mobile/make-a-reservation-on-mobile.md)
 

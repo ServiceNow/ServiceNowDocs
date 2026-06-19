@@ -2,6 +2,7 @@
 title: Personalize Hierarchy view
 description: Personalize the Hierarchy view in the Planning page of Portfolio Planning Workspace so that you can view the information that is most relevant to you and your stakeholders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/personalize-prioritization-hierarchy-view-portfolio-planning-workspace.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -18,7 +19,7 @@ Personalize the Hierarchy view in the Planning page of Portfolio Planning Worksp
 
 ## Before you begin
 
-[Create a portfolio plan](create-portfolio-plan-in-portfolio-planning-workspace.md).
+[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/create-portfolio-plan-in-portfolio-planning-workspace.md).
 
 Role required: sn\_align\_core.apw\_user
 
@@ -36,11 +37,11 @@ Personalization preferences are saved as the portfolio plan's settings in Portfo
 
 3.  Personalize the timeline view and the columns on the grid view using the Personalize side panel.
 
-    1.  Select the Personalize icon \(![Personalize icon.](../../project-workspace/image/icon-settings.png)\).
+    1.  Select the Personalize icon \(\[Omitted image "icon-settings.png"\] Alt text: Personalize icon.\).
 
         The personalize side panel opens.
 
-        ![Personalize settings in the Hierarchy view](../../spw-prioritization/images/hierarchy.png)
+        \[Omitted image "hierarchy.png"\] Alt text: Personalize settings in the Hierarchy view
 
     2.  From the Timeline section, toggle the display of item names and dependency lines.
 
@@ -54,6 +55,6 @@ Personalization preferences are saved as the portfolio plan's settings in Portfo
 
     For example, you can sort the items by **Approved start date**.
 
-5.  [Apply quick filters for Prioritization and Roadmap data in Portfolio Planning](quick-fiters-prioitization-roadmap-ppw.md)
+5.  [Apply quick filters for Prioritization and Roadmap data in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/quick-fiters-prioitization-roadmap-ppw.md)
 
 

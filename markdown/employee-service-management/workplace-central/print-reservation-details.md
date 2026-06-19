@@ -2,6 +2,7 @@
 title: Print reservation details
 description: Print the details of a reservation created in your workplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-central/print-reservation-details.html
 release: zurich
 product: Workplace Central
 classification: workplace-central
@@ -27,7 +28,7 @@ Role required: sn\_wsd\_rsv.reservation\_planner or sn\_wsd\_rsv.reservation\_vi
 
     You can also open Workplace Central from the Employee Center directly by navigating to **Workspaces** &gt; **Workplace Central**.
 
-2.  On the Workplace Analytics dashboard, select the Event planner icon \(![Event planner icon.](../images/event-planner-icon.png)\).
+2.  On the Workplace Analytics dashboard, select the Event planner icon \(\[Omitted image "event-planner-icon.png"\] Alt text: Event planner icon.\).
 
 3.  View the current days reservation status in the Event Planner dashboard by doing the following:
 
@@ -56,5 +57,5 @@ Role required: sn\_wsd\_rsv.reservation\_planner or sn\_wsd\_rsv.reservation\_vi
     **Note:** The Print reservation feature is only available for single- and multi-child reservations and is not available for blocker reservations and multi-parent reservations.
 
 
-**Parent Topic:**[Working with Event planner](../concept/working-with-event-planner.md)
+**Parent Topic:**[Working with Event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/working-with-event-planner.md)
 

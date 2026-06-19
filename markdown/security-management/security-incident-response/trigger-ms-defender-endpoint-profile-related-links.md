@@ -2,11 +2,12 @@
 title: Trigger the Microsoft Defender for Endpoint capabilities from Related Links
 description: Trigger a capability profile manually after reviewing a security incident from related links.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/trigger-ms-defender-endpoint-profile-related-links.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Microsoft Defender for Endpoint integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -29,11 +30,9 @@ In addition to running the profile for the CI or the Alternate CI of the securit
 
 2.  Select the security incident that you want to review with the Microsoft Defender for Endpoint information.
 
-3.  In the Related Links section, click **Run EDR Profile\(s\)**.
+3.  In the Related Links section, select **Run EDR Profile\(s\)**.
 
-4.  Browse and select a profile from the list of available profiles, and click **Submit**.
-
-    ![Trigger a Microsoft Defender for Endpoint capability profile from Related Links](../image/select_profile.png "Select a profile")
+4.  Browse and select a profile from the list of available profiles, and select **Submit**.
 
     The selected profile is triggered manually.
 

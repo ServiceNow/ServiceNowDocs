@@ -2,6 +2,7 @@
 title: WSD Reservable Module API
 description: The Workplace Service Delivery \(WSD\) Reservable Module API provides endpoints to retrieve details of a reservable module from a ServiceNow instance.Returns the details for a specified reservable module.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-apis/wsd\_reservable\_module-api.html
 release: zurich
 product: REST APIs
 classification: rest-apis
@@ -19,9 +20,9 @@ A reservable module groups similar types of workplace items. Employees can view 
 
 To access this API, the caller must have the sn\_wsd\_core.workplace\_user role and the Workplace Reservation Management \(sn\_wsd\_rsv\) plugin must be activated. This API runs in the `sn_wsd_rsv` namespace.
 
-For additional information on Workplace Reservation Management, see [Workplace Reservation Management](https://www.servicenow.com/docs/access?context=workplace-rsv-mgmt-feat&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+For additional information on Workplace Reservation Management, see .
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/api-rest.md)
 
 ## WSD Reservable Module - GET /sn\_wsd\_rsv/reservable\_module/\{sys\_id\}
 
@@ -33,7 +34,7 @@ Versioned URL: `/api/sn_wsd_rsv/{api_version}/reservable_module/{sys_id}`
 
 Default URL: `/api/sn_wsd_rsv/reservable_module/{sys_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -97,7 +98,7 @@ Only available if the Space Management \(sn\_wsd\_spc\_mgmt\_neighborhood\) plug
 
 Sys\_id of the neighborhood record to use in the encoded query.
 
-For additional information on neighborhood space reservations, see [Create neighborhood reservations](https://www.servicenow.com/docs/access?context=create-neighborhood-reservations&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+For additional information on neighborhood space reservations, see .
 
  The endpoint checks if the neighborhood is valid and then retrieves the data required for the browse-by-neighborhood path.
 
@@ -110,7 +111,7 @@ For additional information on neighborhood space reservations, see [Create neigh
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_l3d_swn_1yb" class="rest_api_request_headers"><thead><tr><th>
 
@@ -135,7 +136,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1035,7 +1036,7 @@ result.reservable\_quantity\_field
 
 </td><td id="reservable_quantity_field-reserv_mod-entry">
 
-Reservable quantity of all the spaces. The quantity is used when assigning neighbourhood spaces to an area. For additional information, see [Assign neighborhood spaces to an area](https://www.servicenow.com/docs/access?context=add-neighbourhood-spaces-to-an-area&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).Data type: String
+Reservable quantity of all the spaces. The quantity is used when assigning neighbourhood spaces to an area. For additional information, see Assign neighborhood spaces to an area.Data type: String
 
 </td></tr><tr id="reservable_table-reserv_mod-row"><td>
 

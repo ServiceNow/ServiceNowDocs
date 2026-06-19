@@ -2,6 +2,7 @@
 title: Displaying a picklist extension on a layout
 description: Learn how to display a picklist extension \(PLE\) on a layout using either the ServiceNow CPQ Admin UI or a CSV upload. Configure foundational picklist fields, map extension columns, and design layouts that present rich, multi-column picklist data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/csv\_layouts\_how\_do\_i\_display\_a\_picklist\_extension.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -19,7 +20,7 @@ In this article, we show a simple picklist extension \(PLE\) as it appears to an
 
 ## End-user view
 
-![CSV layout display](../images/cpq-csv-layouts-display-picklist-extension-1.png)
+\[Omitted image "cpq-csv-layouts-display-picklist-extension-1.png"\] Alt text: CSV layout display
 
 In this layout, we have the following structure:
 
@@ -42,7 +43,7 @@ In this layout, we have the following structure:
 
 In the dogBreed multi-select picklist field, extension information is mapped as follows:
 
-![Picklist extendion](../images/cpq-csv-layouts-display-picklist-extension-2.png)
+\[Omitted image "cpq-csv-layouts-display-picklist-extension-2.png"\] Alt text: Picklist extendion
 
 Observe the extended info columns, marked with yellow circles. Later, in the CSV layout, we will map these as fieldExtensions to the foundational dogBreed picklist field. \(See the picklist extension CSV layout section.\)
 
@@ -50,17 +51,17 @@ Observe the extended info columns, marked with yellow circles. Later, in the CSV
 
 ServiceNow CPQ supports the ability to easily add a picklist extension to the layout using the ServiceNow CPQ Admin UI. Navigate to the layout from the Blueprint and add the picklist extension field as you normally would any other field. We’ve added a picklist extension field, “Motherboard” to our layout.
 
-![Motherboard](../images/cpq-picklist-extensions-motherboard.png)
+\[Omitted image "cpq-picklist-extensions-motherboard.png"\] Alt text: Motherboard
 
 You will see a “+” at the bottom-right of the newly added picklist extension field. Click it, and from here you can add columns that you defined on the picklist extension field itself. In the image below, we’ve added our columns for “value”, “socketType”, and “memoryCapacity”.
 
-![Motherboard](../images/cpq-picklist-extensions-motherboard-plus.png)
+\[Omitted image "cpq-picklist-extensions-motherboard-plus.png"\] Alt text: Motherboard
 
 ## Picklist extension CSV layout
 
 The following is an image of the CSV layout. Ignore the gray-highlighted rows \(1-8\), as these have nothing to do with the picklist extension definition. Focus your attention on rows 9 through 17.
 
-![CSV file](../images/cpq-csv-layouts-display-picklist-extension-3.png)
+\[Omitted image "cpq-csv-layouts-display-picklist-extension-3.png"\] Alt text: CSV file
 
 Row 9 \(green highlighted\): this is the picklist extension framework. In E9, we identify the variable name of the foundational picklist field \[dogBreed\]. As dogBreed is a multi-select picklist, we set the Component display type, F9, to 'MultiSelect picklistGrid', to match. \(If our foundational picklist field was a single-select picklist, we would set the corresponding Component display type to 'SingleSelect picklistGrid'.\)
 
@@ -73,7 +74,7 @@ In the rows highlighted yellow \(rows 10 through 17\), we reference the columns 
 
 The setup above would result in the following layout:
 
-![Layout screen](../images/cpq-picklist-extensions-resulting-layout.png)
+\[Omitted image "cpq-picklist-extensions-resulting-layout.png"\] Alt text: Layout screen
 
 For your reference, this is the [sample CSV layout in spreadsheet format](https://docs.google.com/spreadsheets/d/1xNHwJ-ROze2xmz1gPCNNhBSCl9pmtMttd9U5zFI-5Ek/edit#gid%3D1182883775).
 

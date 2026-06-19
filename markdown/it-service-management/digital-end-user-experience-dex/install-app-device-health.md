@@ -2,11 +2,12 @@
 title: Install Digital End-User Experience
 description: Digital End-User Experience \(DEX\) is available with activation of the Digital End-User Experience \[sn\_dex\] plugin. You must have the admin role to install the DEX product \[sn\_dex\]. During installation, Application and Device Health is included as a component in DEX.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/install-app-device-health.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Getting started, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -29,7 +30,7 @@ The following items are installed with Digital End-User Experience:
 -   Roles
 -   Tables
 
-For more information, see [Installed with DEX](../reference/components-installed-with-dex.md).
+For more information, see [Installed with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/components-installed-with-dex.md).
 
 For information about DEX data migration, see the [KB1646364](https://support.servicenow.com/kb_view.do?sysparm_article=KB1646364) article in the knowledge base.
 

@@ -2,6 +2,7 @@
 title: Add a quick link to the Home view of CMDB Workspace
 description: For an immediate access to tools or data that you need, add your own quick link to the Home view of CMDB Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-add-quick-link.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -44,5 +45,5 @@ The new link is available only for the user that created the link, in the Quick 
 
 Click on the Edit quick links icon to edit, delete, or reposition an added link. Then use the up and down arrows to move a link within the list, and click the Edit icon next to a link that you want to modify or delete from the list.
 
-**Parent Topic:**[Configuring CMDB Workspace](../concept/configuring-cmdb-workspace.md)
+**Parent Topic:**[Configuring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)
 

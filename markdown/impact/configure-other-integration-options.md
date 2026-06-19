@@ -2,7 +2,10 @@
 title: Configure other integration options
 description: Perform the following procedure to configure options other than ServiceNow, Azure, or Jira.The following leading practices are guidelines for creating other integration type scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/configure-other-integration-options.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-11-04"
 reading_time_minutes: 1

@@ -2,6 +2,7 @@
 title: Invoice status messages
 description: Invoice-related status messages are displayed in the Accounts Payable Operations application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/invoice-status.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -90,7 +91,7 @@ Exceptions found
 
 </td><td>
 
-An invoice is updated with the status Exceptions found, when it finds any one or more of the exceptions that were defined in Accounts Payable Operations. For more information on exceptions, see [Invoice exceptions](../concept/work-with-invoice-exceptions.md).
+An invoice is updated with the status Exceptions found, when it finds any one or more of the exceptions that were defined in Accounts Payable Operations. For more information on exceptions, see [Invoice exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/work-with-invoice-exceptions.md).
 
 </td></tr><tr><td>
 
@@ -158,5 +159,5 @@ Paid
 After the invoice is posted to ERP and paid in the ERP, the payment is posted back to Accounts Payable Operations without integration error. Then, the invoice moves to **Paid** State.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create New Invoice case form](create-new-ap-case-form.md)
+</table>**Parent Topic:**[Create New Invoice case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/create-new-ap-case-form.md)
 

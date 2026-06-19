@@ -2,7 +2,10 @@
 title: Advanced Part Sourcing components
 description: Several types of components are installed with the Advanced Part Sourcing feature, including tables, script includes and business rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/advanced-part-souring-components.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 4
@@ -15,7 +18,7 @@ Several types of components are installed with the Advanced Part Sourcing featur
 
 ## Plugin
 
-The Field Service Advanced Parts Sourcing \(com.snc.fsm\_advanced\_parts\_sourcing\) plugin must be activated. For more information on the steps to activate a plugin, see [Activate Field Service Management](../../planning-and-policy/task/t_ActivateFieldServiceManagement.md).
+The Field Service Advanced Parts Sourcing \(com.snc.fsm\_advanced\_parts\_sourcing\) plugin must be activated. For more information on the steps to activate a plugin, see [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/t_ActivateFieldServiceManagement.md).
 
 ## Business rules
 
@@ -325,5 +328,5 @@ Creates a part request when a part is added to the part requirement.-   **Type**
 -   **Location**: **Field Service** &gt; **Administration** &gt; **Properties**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](components-inst-additional-plugin.md)
+</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/components-inst-additional-plugin.md)
 

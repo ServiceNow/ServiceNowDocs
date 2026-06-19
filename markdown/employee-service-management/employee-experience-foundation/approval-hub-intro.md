@@ -2,6 +2,7 @@
 title: Approvals hub
 description: Enable the approver with the in-context information for informed and prioritized approval decisions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/approval-hub-intro.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -45,7 +46,7 @@ Meet employees where they are for approval management from all channels such as 
 -   The approver\_user or the business\_stakeholder role is required to be able to approve or reject items on the Employee Center Pro portal.
 -   The sn\_request\_read and sn\_request\_approver\_read are read-only roles.
 
-For more information, see [Approvals hub integration with SAP Concur](x-concur-sa-integration.md) and [Approvals hub integration with Workday](wd-ec-integration.md).
+For more information, see [Approvals hub integration with SAP Concur](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/x-concur-sa-integration.md) and [Approvals hub integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/wd-ec-integration.md).
 
 ## How external integration works
 
@@ -73,5 +74,5 @@ Here is what an employee can do.
     -   Submit your approval requests from any internal and external applications.
     -   View progress or status of the request.
 
-For more information, see [Approvals experience reference](../reference/approval-hub-ootb.md) and [Use approval experience](../task/ec-to-dos-use-approval-hub.md).
+For more information, see [Approvals experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/approval-hub-ootb.md) and [Use approval experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-to-dos-use-approval-hub.md).
 

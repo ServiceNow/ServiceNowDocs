@@ -2,6 +2,7 @@
 title: Manage access to an established connection using roles
 description: Manage which data stewards can access an established connection and create data fabric tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/workflow-data-fabric-hub/manage-access-connection-wdf.html
 release: zurich
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -79,5 +80,5 @@ The df\_data\_steward role is granted to or removed from the selected roles. Eac
 
 After access is granted, ITSM data stewards can only access and manage external ITSM data, while finance data stewards can only access and manage external finance data.
 
-**Parent Topic:**[Managing zero copy connections in Workflow Data Fabric Hub](../concept/managing-connections-wdf.md)
+**Parent Topic:**[Managing zero copy connections in Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/managing-connections-wdf.md)
 

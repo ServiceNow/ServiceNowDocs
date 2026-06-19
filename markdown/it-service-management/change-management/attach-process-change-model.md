@@ -2,6 +2,7 @@
 title: Attach a process for Change model states
 description: You can attach a process with defined conditions to the Change model states to enable state transitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/attach-process-change-model.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -17,10 +18,10 @@ You can attach a process with defined conditions to the Change model states to e
 
 This process can be done by using one of the following methods:
 
--   ServiceNow® Workflow Studio: See [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
--   Business Rules: See [Business rules](https://www.servicenow.com/docs/access?context=c_BusinessRules&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+-   ServiceNow® Workflow Studio: See 
+-   Business Rules: See Business rules
 
-Change flows for default Change models are available in Workflow Studio. For more information on default Change flows, see [Change flows](change-flows.md).
+Change flows for default Change models are available in Workflow Studio. For more information on default Change flows, see [Change flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-flows.md).
 
 ## Evaluating a Change model
 
@@ -34,5 +35,5 @@ You can also evaluate a Change model for a specific Change request using this ev
 |----------|---------|-----------|
 |change\_model.evaluate|Change Request sys\_id|Process that may affect the state of the Change request but doesn't change the Change request record.|
 
-**Parent Topic:**[Create a Change model](../task/create-a-change-model.md)
+**Parent Topic:**[Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/create-a-change-model.md)
 

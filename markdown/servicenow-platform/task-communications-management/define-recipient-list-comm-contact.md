@@ -2,6 +2,7 @@
 title: Define a recipient list for communication contact
 description: A recipient list lets you specify a filter to fetch a list of users. Use the recipient list as the contact for a particular communication plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/task-communications-management/define-recipient-list-comm-contact.html
 release: zurich
 product: Task Communications Management
 classification: task-communications-management
@@ -87,5 +88,5 @@ The method used to generate the recipient list.-   Upload File: Upload an Excel 
 
 Define a communication contact for the task.
 
-**Parent Topic:**[Working with Task Communications Management](../concept/working-with-tcm.md)
+**Parent Topic:**[Working with Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/task-communications-management/working-with-tcm.md)
 

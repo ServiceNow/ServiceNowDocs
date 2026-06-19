@@ -2,6 +2,7 @@
 title: Create linear assets
 description: Create linear assets to diversify your Enterprise Asset Management portfolio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/create-linear-asset.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -27,15 +28,15 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
 3.  On the form, fill in the fields.
 
-<table id="choicetable_qqz_vqx_kxb"><thead><tr><th align="left" id="d125528e77">
+<table id="choicetable_qqz_vqx_kxb"><thead><tr><th align="left" id="d124462e77">
 
 Field
 
-</th><th align="left" id="d125528e80">
+</th><th align="left" id="d124462e80">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d125528e86">
+</th></tr></thead><tbody><tr><td id="d124462e86">
 
 **Name**
 
@@ -43,7 +44,7 @@ Description
 
 Unique name of the linear asset.
 
-</td></tr><tr><td id="d125528e95">
+</td></tr><tr><td id="d124462e95">
 
 **Linear asset type**
 
@@ -51,7 +52,7 @@ Unique name of the linear asset.
 
 Type of the linear asset. Select from the list or you can create your own asset type.
 
-</td></tr><tr><td id="d125528e104">
+</td></tr><tr><td id="d124462e104">
 
 **Description**
 
@@ -59,15 +60,15 @@ Type of the linear asset. Select from the list or you can create your own asset 
 
 Description of the linear asset.
 
-</td></tr><tr><td id="d125528e113">
+</td></tr><tr><td id="d124462e113">
 
 **Location**
 
 </td><td>
 
-Vicinity of your linear asset. To draw a linear asset, select the Geomap icon to display the map. After you enter the location, the map will properly focus and zoom to that vicinity.For more information on using the Geomap icon to connect geo coordinate points on a map, watch this short video Connect geo coordinate points on a map
+Vicinity of your linear asset. To draw a linear asset, select the Geomap icon to display the map. After you enter the location, the map will properly focus and zoom to that vicinity.For more information on using the Geomap icon to connect geo coordinate points on a map, watch this short video
 
-</td></tr><tr><td id="d125528e130">
+</td></tr><tr><td id="d124462e125">
 
 **Boundary width**
 
@@ -77,7 +78,7 @@ Boundary width of the linear asset.
 
  The boundary width helps in associating discrete assets with linear assets. The discrete asset's location must fall within the linear asset's boundary widths. For example, if the boundary width of a linear asset is 500 feet, a discrete asset can be associated to it only if the discrete asset is within 250 feet of that linear asset.
 
-</td></tr><tr><td id="d125528e145">
+</td></tr><tr><td id="d124462e140">
 
 **Width unit**
 
@@ -85,7 +86,7 @@ Boundary width of the linear asset.
 
 The width of the linear asset in units.
 
-</td></tr><tr><td id="d125528e154">
+</td></tr><tr><td id="d124462e149">
 
 **Length unit**
 
@@ -93,7 +94,7 @@ The width of the linear asset in units.
 
 The unit the length of the linear asset is measured in.
 
-</td></tr><tr><td id="d125528e163">
+</td></tr><tr><td id="d124462e158">
 
 **Length**
 
@@ -101,7 +102,7 @@ The unit the length of the linear asset is measured in.
 
 The length of the linear asset. This input field is optional. If it isn’t filled out, it’s calculated using the coordinates.
 
-</td></tr><tr><td id="d125528e172">
+</td></tr><tr><td id="d124462e167">
 
 **Start marker**
 
@@ -109,7 +110,7 @@ The length of the linear asset. This input field is optional. If it isn’t fill
 
 The start point of the linear asset.
 
-</td></tr><tr><td id="d125528e181">
+</td></tr><tr><td id="d124462e176">
 
 **End marker**
 
@@ -117,7 +118,7 @@ The start point of the linear asset.
 
 The end point of the linear asset.
 
-</td></tr><tr><td id="d125528e191">
+</td></tr><tr><td id="d124462e186">
 
 **Coordinates**
 
@@ -135,5 +136,5 @@ A list of two or more geographical \(geo\) points. Each geo point has a latitude
     The linear asset is created and appears in the Linear assets list. You can perform additional configuration on the linear asset by entering details in the other related lists such as **Linear segments**, **Discreet assets**, **Related linear assets**, **Contracts**, and **Expense lines**.
 
 
-**Parent Topic:**[Create and manage enterprise assets](../concept/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

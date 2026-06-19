@@ -2,6 +2,7 @@
 title: Configure auto-launch for Guided Tours
 description: Configure one or more tours to launch automatically when a user lands on a page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/auto-launch-guided-tours.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
@@ -33,11 +34,11 @@ You can set auto-launch for any guided tour starting page. Select this option if
 
 2.  Select a tile that represents the page where you want the tour to launch automatically.
 
-    ![Configure the auto-launch page with filtered and sorted results](../image/configure-autolaunch-L.png)
+    \[Omitted image "configure-autolaunch-L.png"\] Alt text: Configure the auto-launch page with filtered and sorted results
 
     A list of tours available for the page is shown on the Configure Auto Launch screen.
 
-    ![Show users a tour in draft status with auto-launch disabled](../image/configure-autolaunch-graydraft-L.png)
+    \[Omitted image "configure-autolaunch-graydraft-L.png"\] Alt text: Show users a tour in draft status with auto-launch disabled
 
     You can enable or disable auto-launch on the tour whether it is in draft or published status. When you enable auto-launch:
 
@@ -45,7 +46,7 @@ You can set auto-launch for any guided tour starting page. Select this option if
     -   Tours in draft status don’t launch automatically. When a tour in draft state is configured for auto-launch and is published later on, it starts to launch automatically.
 3.  Select the **Auto Launch** toggle.
 
-    ![Show users a tour in draft status with auto-launch enabled](../image/configure-autolaunch-greendraft-L.png)
+    \[Omitted image "configure-autolaunch-greendraft-L.png"\] Alt text: Show users a tour in draft status with auto-launch enabled
 
     The toggle color changes to green, indicating auto-launch is enabled on the tour.
 
@@ -53,7 +54,7 @@ You can set auto-launch for any guided tour starting page. Select this option if
 
     If you have more than one tour enabled on a page, they appear as additional rows.
 
-    ![Show users tours with auto-launch enabled, disabled, published, and in draft](../image/configure-autolaunch-draftnpub-L.png)
+    \[Omitted image "configure-autolaunch-draftnpub-L.png"\] Alt text: Show users tours with auto-launch enabled, disabled, published, and in draft
 
     1.  Repeat steps 2–3 for additional tours that you want to enable for auto-launch.
 
@@ -65,9 +66,9 @@ You can set auto-launch for any guided tour starting page. Select this option if
 
     When users access a page that has a guided tour enabled for auto-launch, the tour begins immediately. If they stop the tour by selecting the **X** icon on a tour step, a message appears that provides them with the option to stop both the current tour and other tours from auto-launching the next time they access the page.
 
-    ![Show how end users can stop a tour from launching on a page](../image/configure-autolaunch-stoptour-L.png)
+    \[Omitted image "configure-autolaunch-stoptour-L.png"\] Alt text: Show how end users can stop a tour from launching on a page
 
-    ![Show how end users can stop all tours from launching on a page](../image/configure-autolaunch-stopalltours-L.png)
+    \[Omitted image "configure-autolaunch-stopalltours-L.png"\] Alt text: Show how end users can stop all tours from launching on a page
 
 5.  Reset an auto-launch tour for the page.
 
@@ -86,5 +87,5 @@ You can set auto-launch for any guided tour starting page. Select this option if
     5.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Guided Tours](configure-guided-tours.md)
+**Parent Topic:**[Configuring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/configure-guided-tours.md)
 

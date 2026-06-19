@@ -2,6 +2,7 @@
 title: Provide requested evidence using the Compliance Workspace
 description: Using the Compliance Workspace, you can provide evidence when you are requested. When evidence is requested, the person who must provide the evidence receives an email. The process to provide the evidence begins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/provide-requested-evidence-ws.html
 release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

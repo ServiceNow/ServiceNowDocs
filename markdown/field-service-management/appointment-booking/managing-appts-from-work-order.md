@@ -2,6 +2,7 @@
 title: Managing appointments from a work order or work order task
 description: Dispatchers and agents can book, reschedule, or cancel appointments from a work order or work order task on behalf of a customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/appointment-booking/managing-appts-from-work-order.html
 release: zurich
 product: Appointment Booking
 classification: appointment-booking

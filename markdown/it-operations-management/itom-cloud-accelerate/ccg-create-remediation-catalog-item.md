@@ -2,6 +2,7 @@
 title: Create a remediation catalog item
 description: Create a custom remediation catalog item in Cloud Configuration Governance for the remediations that require additional input parameters to execute.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-cloud-accelerate/ccg-create-remediation-catalog-item.html
 release: zurich
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -95,7 +96,7 @@ Status of the catalog item.The copied catalog item is active by default.
 
     2.  On the form, fill in the fields.
 
-        For more information on catalog variables, see [Service catalog variables](https://www.servicenow.com/docs/access?context=c_ServiceCatalogVariables&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+        For more information on catalog variables, see Service catalog variables.
 
     3.  Save the form.
 
@@ -107,7 +108,7 @@ Status of the catalog item.The copied catalog item is active by default.
 
     3.  Select the violation type.
 
-    4.  Select the save icon \(![Save icon.](../image/save-icon.png)\).
+    4.  Select the save icon \(\[Omitted image "save-icon.png"\] Alt text: Save icon.\).
 
 8.  Update the &lt;Catalog item name&gt;\_Action to interact with the cloud resource.
 
@@ -121,13 +122,13 @@ Status of the catalog item.The copied catalog item is active by default.
 
     4.  Refer to the cloud provider documentation and implement the &lt;Catalog item name&gt;\_Action per the business needs of your organization.
 
-        For more information on building Integration Hub actions, see [Building custom actions](https://www.servicenow.com/docs/access?context=actions&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+        For more information on building Integration Hub actions, see Building custom actions.
 
     5.  Save the updated &lt;Catalog item name&gt;\_Action.
 
     6.  Test the &lt;Catalog item name&gt;\_Action.
 
-        For more information, see [Test an action](https://www.servicenow.com/docs/access?context=test-action&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+        For more information, see Test an action.
 
     7.  Publish the &lt;Catalog item name&gt;\_Action.
 
@@ -135,7 +136,7 @@ Status of the catalog item.The copied catalog item is active by default.
 
     Cloud Configuration Governance uses the Integration Hub subflows to trigger the Integration Hub action and process the returned data.
 
-    1.  Navigate to the Workflow Studio home page by selecting the flow designer home icon \(![Flow Designer home icon.](../image/flow-designer-home.png)\).
+    1.  Navigate to the Workflow Studio home page by selecting the flow designer home icon \(\[Omitted image "flow-designer-home.png"\] Alt text: Flow Designer home icon.\).
 
     2.  Select the **Subflows** tab.
 
@@ -158,5 +159,5 @@ Status of the catalog item.The copied catalog item is active by default.
 
 ## What to do next
 
-Run the remediation action to fix the identified violation. For more information, see [Run remediation](ccg-run-remediation.md).
+Run the remediation action to fix the identified violation. For more information, see [Run remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/ccg-run-remediation.md).
 

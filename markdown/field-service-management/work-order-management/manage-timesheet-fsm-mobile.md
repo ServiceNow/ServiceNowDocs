@@ -2,6 +2,7 @@
 title: Manage time cards in the time sheet
 description: Manage your time cards in the ServiceNow Agent mobile app by performing actions such as submitting or deleting a time card or viewing notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/manage-timesheet-fsm-mobile.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -29,15 +30,15 @@ Role required: wm\_agent
 
 4.  Manage your time cards.
 
-<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d109204e94">
+<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d106688e94">
 
 Action
 
-</th><th align="left" id="d109204e97">
+</th><th align="left" id="d106688e97">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d109204e103">
+</th></tr></thead><tbody><tr><td id="d106688e103">
 
 **Submit time card**
 
@@ -45,7 +46,7 @@ Steps
 
 Tap **Submit time card**.**Note:** This option is available only when hours are posted for a day against the task.
 
-</td></tr><tr><td id="d109204e118">
+</td></tr><tr><td id="d106688e118">
 
 **View a time card**
 
@@ -53,7 +54,7 @@ Tap **Submit time card**.**Note:** This option is available only when hours are 
 
 Tap **View time card** to view time card details such as task, hours, resource plan, and notes.
 
-</td></tr><tr><td id="d109204e130">
+</td></tr><tr><td id="d106688e130">
 
 **View time card notes**
 
@@ -61,7 +62,7 @@ Tap **View time card** to view time card details such as task, hours, resource p
 
 Tap **Time card notes** to view the notes related to the time card.
 
-</td></tr><tr><td id="d109204e142">
+</td></tr><tr><td id="d106688e142">
 
 **Add time card notes**
 
@@ -69,7 +70,7 @@ Tap **Time card notes** to view the notes related to the time card.
 
 Tap **Add new note** to add a new note.
 
-</td></tr><tr><td id="d109204e155">
+</td></tr><tr><td id="d106688e155">
 
 **Delete a time card**
 

@@ -2,6 +2,7 @@
 title: Configure Tables and Fields
 description: Identity and Access Audit to understand the changes made for a user, group, role, and ACL.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/configure-tables-and-fields.html
 release: zurich
 product: Identity
 classification: identity
@@ -33,7 +34,7 @@ The following tables can be configured for auditing​:
 -   Contained Role \[sys\_user\_role\_contains\]​
 -   Group Member \[sys\_user\_grmember\]​
 
-**Note:** To understand which fields can be configured for the tables, see [Supported and unsupported fields in Identity Access and Audit](../concept/allowed-fields-for-audit.md).
+**Note:** To understand which fields can be configured for the tables, see [Supported and unsupported fields in Identity Access and Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/allowed-fields-for-audit.md).
 
 ## Procedure
 
@@ -43,13 +44,13 @@ The following tables can be configured for auditing​:
 
     For example, **sys\_user**.
 
-    ![Sys user table](../images/configure-fields.png)
+    \[Omitted image "configure-fields.png"\] Alt text: Sys user table
 
 3.  Add the field to be audited.
 
     For example, **Password**.
 
-    ![Adding password field](../images/configure-tfield-password.png)
+    \[Omitted image "configure-tfield-password.png"\] Alt text: Adding password field
 
     **Note:** The following modifications for the security auditable fields result in more processing time when doing bulk import:
 
@@ -59,10 +60,10 @@ The following tables can be configured for auditing​:
 
     Any changes to the password field add a new record to the Security Table Audits. In this example, the audit shows a changed password field for the user **Abel Tuter**.
 
-    ![New Audit](../images/conf-password-fields.png)
+    \[Omitted image "conf-password-fields.png"\] Alt text: New Audit
 
     Selecting the created record displays the details of the changes.
 
-    ![Detail of the audit](../images/confi-fields-result.png)
+    \[Omitted image "confi-fields-result.png"\] Alt text: Detail of the audit
 
 

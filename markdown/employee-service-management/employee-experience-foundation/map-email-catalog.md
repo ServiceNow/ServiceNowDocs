@@ -2,6 +2,7 @@
 title: Map email fields to a catalog item
 description: Map email fields to catalog item fields to pre-fill information and reduce the time taken to raise a request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/map-email-catalog.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,9 +28,9 @@ Role required: sn\_outlook\_addin.outlook\_addin\_setup, sn\_hr\_sp.admin, sn\_h
 
 3.  On the Catalog Mapping Configurations form, fill in the fields.
 
-    For a description of the field values, see [Catalog Mapping Configurations form](../reference/catalog-mapping-config-form.md).
+    For a description of the field values, see [Catalog Mapping Configurations form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/catalog-mapping-config-form.md).
 
-    **Note:** The fields from Microsoft Outlook are based on the Extension Point Type selected in the manifest file. Ensure that the catalog item matches the catalog item in the office controls of the add-in manifest. For more information about the manifest, see [Create a manifest file](create-ms365-addin-manifest.md).
+    **Note:** The fields from Microsoft Outlook are based on the Extension Point Type selected in the manifest file. Ensure that the catalog item matches the catalog item in the office controls of the add-in manifest. For more information about the manifest, see [Create a manifest file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/create-ms365-addin-manifest.md).
 
 4.  Save the form.
 
@@ -39,12 +40,12 @@ Role required: sn\_outlook\_addin.outlook\_addin\_setup, sn\_hr\_sp.admin, sn\_h
 
 6.  On the Office Mailbox to Catalog Field Mappings form, fill in the fields.
 
-    For a description of the field values, see [Office Mailbox to Catalog Field Mappings form](../reference/mailbox-catalog-mapping-form.md).
+    For a description of the field values, see [Office Mailbox to Catalog Field Mappings form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/mailbox-catalog-mapping-form.md).
 
 7.  Save the form.
 
     An Office Mailbox to Catalog Field Mappings record is created. You can create more records to map fields based on your requirement.
 
 
-**Parent Topic:**[Configuring ServiceNow Add-in for Microsoft 365](../concept/configuring-sn-addin-for-ms365.md)
+**Parent Topic:**[Configuring ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/configuring-sn-addin-for-ms365.md)
 

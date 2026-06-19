@@ -2,6 +2,7 @@
 title: Product Enhancement form
 description: Learn about the fields of the product enhancement form. Use this form to create or edit the details of a product enhancement in Strategic Planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/product-enhancement-form.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -30,5 +31,5 @@ These fields are displayed on the full details page of the product enhancement.
 |Start date|Start date for the product enhancement.|
 |End date|End date for the product enhancement.|
 
-**Parent Topic:**[Form field information for Strategic Planning](form-field-information-for-strategic-planning.md)
+**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
 

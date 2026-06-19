@@ -2,6 +2,7 @@
 title: Notify Zoom connector
 description: The Notify Zoom Connector expands the Notify communication channel by managing and initiating a Zoom meeting directly from any task record such as an incident or a change.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/notify/notify-zoom-connector.html
 release: zurich
 product: Notify
 classification: notify
@@ -32,8 +33,8 @@ New York and later.
 
 ## Plugins
 
--   [ServiceNow IntegrationHub Installer](https://www.servicenow.com/docs/access?context=request-ih-overview&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) \(com.glide.hub.integrations\): Suite of plugins necessary to design integration flows in the Workflow Studio application.
+-   ServiceNow IntegrationHub Installer \(com.glide.hub.integrations\): Suite of plugins necessary to design integration flows in the Workflow Studio application.
 -   The Zoom spoke, version 1.0.2 \(com.sn.zoom.spoke\) for ServiceNow Integration Hub provides actions that allow user to create and manage the conference meetings.
 
-**Parent Topic:**[Exploring Notify](exploring-notify.md)
+**Parent Topic:**[Exploring Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/exploring-notify.md)
 

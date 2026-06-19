@@ -2,6 +2,7 @@
 title: Set execution mode for running a query
 description: Configure the execution mode to use when running a query. The execution mode setting determines whether the query runs using a performance-enhancing engine \(V2\) or the legacy engine \(V1\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/config-query-builder-engine-mode.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -30,7 +31,7 @@ A query can run in either of the following execution modes:
 
 The system uses query-level settings and system-wide properties, and also checks the query structure, to determine which mode to use. The query-level setting described in this procedure has precedence over system property settings in the decision flow of which engine to use to run a query.
 
-For more information, see [CMDB Query Builder engine execution modes](../concept/query-builder-engine-execution-mode.md).
+For more information, see [CMDB Query Builder engine execution modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/query-builder-engine-execution-mode.md).
 
 ## Procedure
 

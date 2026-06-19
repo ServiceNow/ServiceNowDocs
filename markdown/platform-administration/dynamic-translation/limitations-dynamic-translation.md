@@ -2,6 +2,7 @@
 title: Limitations in Dynamic Translation
 description: You must be aware of a few limitations when you integrate with a translation service provider to enable the Dynamic Translation experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/dynamic-translation/limitations-dynamic-translation.html
 release: zurich
 product: Dynamic Translation
 classification: dynamic-translation
@@ -29,4 +30,6 @@ Not all translation service providers support the same languages that ServiceNow
 For information about languages supported by Google for translation, see the Google [documentation](https://cloud.google.com/translate/docs/languages).
 
 For information about languages supported by Microsoft for translation, see the Microsoft [documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/language-support).
+
+**Parent Topic:**[Reference for Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/reference-for-dynamic-translation.md)
 

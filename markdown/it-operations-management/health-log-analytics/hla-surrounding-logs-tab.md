@@ -2,6 +2,7 @@
 title: Surrounding logs tab fields
 description: This section describes the information displayed on the Surrounding logs tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-surrounding-logs-tab.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -87,5 +88,5 @@ Log message
 The raw log message without the header.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health Log Analytics reference](../../health-log-analytics-admin/concept/hla-reference.md)
+</table>**Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-reference.md)
 

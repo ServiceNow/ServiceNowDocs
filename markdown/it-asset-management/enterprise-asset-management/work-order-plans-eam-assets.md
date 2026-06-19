@@ -2,6 +2,7 @@
 title: Asset work order plans in Enterprise Asset Management
 description: Work order plans organize sequential asset tasks — such as shutdowns, safety inspections, calibrations, asset condition assessments, and restarts — under a single unified plan, enabling repeatable and scalable execution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/work-order-plans-eam-assets.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -40,5 +41,5 @@ The work order plan workflow involves the following stages:
 4.  Review schedule: Set the scheduled start and end times for each work order task.
 5.  Track status: Track task status updated by the assigned technicians and review the available work order plan reports.
 
-For details on creating work order plans, see [Manage asset-centric work tasks using work order plans](manage-work-order-plans.md).
+For details on creating work order plans, see [Manage asset-centric work tasks using work order plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/manage-work-order-plans.md).
 

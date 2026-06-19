@@ -2,6 +2,7 @@
 title: Adding the Discuss button for non-task tables
 description: To use Sidebar in non-task tables, follow this procedure to add the Discuss button to the layout.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/sidebar/add-sidebar-button-advanced.html
 release: zurich
 product: Sidebar
 classification: sidebar

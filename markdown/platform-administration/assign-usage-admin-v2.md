@@ -2,6 +2,7 @@
 title: Create a Subscription Management administrator
 description: Create a Subscription Management administrator by assigning the usage\_admin role to an administrator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/assign-usage-admin-v2.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -36,5 +37,5 @@ Assign the usage\_admin role to at least one person in your organization. Only a
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configuring Subscription Management](../concept/configuring-subscription-management-v2.md)
+**Parent Topic:**[Configuring Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/configuring-subscription-management-v2.md)
 

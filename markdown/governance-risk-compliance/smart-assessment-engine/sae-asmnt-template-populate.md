@@ -2,6 +2,7 @@
 title: Add instructions and questions to an assessment template
 description: Add instructions and questions to an assessment template by using the Smart Assessment Engine application. You can use instructions and questions to help gather precise and relevant information from designated responders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.html
 release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -83,7 +84,7 @@ Role that is required to view an assessment that is generated from this template
 
 6.  Select a section in the list and then select **Add question**.
 
-    ![Configuring a question. Descriptions for the sections of the form appear in the following list.](../image/sae-create-question-form-annotated.png)
+    \[Omitted image "sae-create-question-form-annotated.png"\] Alt text: Configuring a question. Descriptions for the sections of the form appear in the following list.
 
     For each question type, you configure the following settings:
 
@@ -111,14 +112,14 @@ Role that is required to view an assessment that is generated from this template
 
     |Description|Location|
     |-----------|--------|
-    |Create and configure text type questions.|[Create a text question](sae-q-text-create.md)|
-    |Create and configure drop-down list type questions.|[Create a drop-down list question](sae-q-drop-down-create.md)|
-    |Create and configure radio button type questions.|[Create a radio button question](sae-q-radio-button-create.md)|
-    |Create and configure check box type questions.|[Create a check box question](sae-q-check-box-create.md)|
-    |Create and configure number type questions.|[Create a number question](sae-q-number-create.md)|
-    |Create and configure reference type questions.|[Create a reference question](sae-q-reference-create.md)|
-    |Create and configure attachment type questions.|[Create an attachment question](sae-q-attachment-create.md)|
-    |Create and configure date type questions.|[Create a date question](sae-q-date-create.md)|
-    |Create and configure code type questions.|[Create a code question](sae-q-code-create.md)|
+    |Create and configure text type questions.|[Create a text question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-q-text-create.md)|
+    |Create and configure drop-down list type questions.|[Create a drop-down list question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-q-drop-down-create.md)|
+    |Create and configure radio button type questions.|[Create a radio button question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-q-radio-button-create.md)|
+    |Create and configure check box type questions.|[Create a check box question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-q-check-box-create.md)|
+    |Create and configure number type questions.|[Create a number question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-q-number-create.md)|
+    |Create and configure reference type questions.|[Create a reference question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-q-reference-create.md)|
+    |Create and configure attachment type questions.|[Create an attachment question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-q-attachment-create.md)|
+    |Create and configure date type questions.|[Create a date question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-q-date-create.md)|
+    |Create and configure code type questions.|[Create a code question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-q-code-create.md)|
 
 

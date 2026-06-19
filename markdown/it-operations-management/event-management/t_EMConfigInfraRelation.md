@@ -2,6 +2,7 @@
 title: Create an infrastructure relationship for related CIs
 description: Infrastructure relationships show CIs that are connected to a application service but are not necessary parts of the service. Infrastructure relationships are only available for application services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/t\_EMConfigInfraRelation.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -32,7 +33,7 @@ When you create a CI infrastructure relationship, the information is stored in t
 
 For example, based on of the cmdb\_ci\_vm\_zones Infrastructure relationship definition, Event Management adds ZoneServer@mmp1 to the application service. The Containment rule manages impact severity on alerts.
 
-![Infrastructure relationships for a manual service](../image/EventManagementRelatedCI.png "Related CIs appear on the BSM")
+\[Omitted image "EventManagementRelatedCI.png"\] Alt text: Infrastructure relationships for a manual service
 
 ## Procedure
 

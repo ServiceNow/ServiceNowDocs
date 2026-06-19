@@ -2,6 +2,7 @@
 title: GlideServletResponse - Scoped
 description: The GlideServletResponse API provides methods to use in processor scripts.Sends a temporary redirect to the client.Sets the MIME type of the responseSets a response header to the specified value.Sets the status code for the response.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_GlideServletResponseScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -21,7 +22,7 @@ A useful global variable, *g\_target*, is available in processor scripts. It con
 
 The URL to a processor has the format: `https://<instance name.servicenow.com>/<path endpoint>.do?<parameter endpoint>=<value>` where the path endpoint and parameter endpoint are defined on the processor form.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideServletResponse - sendRedirect\(String location\)
 

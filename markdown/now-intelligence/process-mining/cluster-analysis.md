@@ -2,6 +2,7 @@
 title: Cluster analysis
 description: When identifying an activity, connection, improvement opportunity, or route as a potential bottleneck, view clusters of keyword descriptions and assignment groups to gain insights.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/cluster-analysis.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -21,14 +22,14 @@ A cluster analysis groups similar records into a cluster \(one group\) so you ca
 
 Let's use a conceptual example of how clustering works. At an auto repair shop, customers have numerous service options to choose from. The general manager wants to determine which services are least used. The manager wants to decrease costs by utilizing fewer specialists over those areas. The manager begins cluster analysis that generates a view of the keyword descriptions and service category areas. After a cluster of similar groups of service activities generates, the manager has a smaller, more patterned dataset of customer groups using a limited number of services. The manager applies further filters on the smaller dataset for closer analysis.
 
--   **[Configure a process for a clustering solution](../task/process-configuration-clustering.md)**  
+-   **[Configure a process for a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/process-configuration-clustering.md)**  
 Configure a process to be able to generate a cluster analysis.
--   **[Perform a cluster analysis](../task/request-cluster-analysis.md)**  
+-   **[Perform a cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/request-cluster-analysis.md)**  
 Generate a cluster analysis on an activity, connection between activities, route, or an improvement opportunity.
--   **[Resubmit a cluster analysis request](../task/resubmit-cluster-analysis.md)**  
+-   **[Resubmit a cluster analysis request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/resubmit-cluster-analysis.md)**  
 In cases when a configuration issue or clustering solution change occurs, you can schedule a followup cluster analysis.
--   **[View a cluster analysis](../task/view-cluster-analysis.md)**  
+-   **[View a cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/view-cluster-analysis.md)**  
 View a cluster analysis of the top three clusters for an activity, connection between activities, or route.
 
-**Parent Topic:**[Analyzing and getting process insights](analyze-get-process-insights.md)
+**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/analyze-get-process-insights.md)
 

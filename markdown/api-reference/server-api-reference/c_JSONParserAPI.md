@@ -2,6 +2,7 @@
 title: JSONParser - Global \(deprecated\)
 description: The JSONParser API provides a JSON parser that does not use the JavaScript eval\(\) function.Creates a JSONParser object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_JSONParserAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -21,7 +22,7 @@ The JSONParser API provides a JSON parser that does not use the JavaScript eval\
 
 This class cannot be used in a scoped application. Use the JavaScript JSON object instead.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## JSONParser - JSONParser\(\)
 

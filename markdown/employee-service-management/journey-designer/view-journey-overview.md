@@ -2,6 +2,7 @@
 title: Journey view for an employee
 description: As an employee with journeys in Journey designer, view your journey overview and tasks associated with that journey in Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/view-journey-overview.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -34,8 +35,8 @@ Use the Activity tab to add any journey activity updates in the activity field a
 
 Use the Attachments tab to add supporting attachments to the journey, if needed.
 
--   **[Employees view and complete journeys](jny-dsgnr-employee-journey-tasks.md)**  
+-   **[Employees view and complete journeys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-employee-journey-tasks.md)**  
 Employees have access to the journeys that are assigned to them.
 
-**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](../concept/jny-working-with-journeys.md)
+**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-working-with-journeys.md)
 

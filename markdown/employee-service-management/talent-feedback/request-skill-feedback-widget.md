@@ -2,6 +2,7 @@
 title: Request skill feedback
 description: You can request skill feedback from the skill feedback requests sent widget when there no existing feedback requests sent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-feedback/request-skill-feedback-widget.html
 release: zurich
 product: Talent Feedback
 classification: talent-feedback

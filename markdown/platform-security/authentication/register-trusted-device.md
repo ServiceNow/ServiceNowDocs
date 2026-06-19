@@ -2,6 +2,7 @@
 title: Register a trusted device
 description: Register a trusted device to access the ServiceNow instance outside the network.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/register-trusted-device.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -36,11 +37,11 @@ Role required: none
 
 3.  Register a new device by clicking **Add a new trusted mobile device**.
 
-    ![Add New Trusted Device](../images/register-trusted-device-qr-code.jpg)
+    \[Omitted image "register-trusted-device-qr-code.jpg"\] Alt text: Add New Trusted Device
 
 4.  In the Device Registration screen on your ServiceNow mobile app, tap the **Scan QR code** button and scan the QR code that is displayed on your laptop or desktop.
 
-    ![Device Registration - Scan QR code](../images/device_registration_scan_qr.png)
+    \[Omitted image "device\_registration\_scan\_qr.png"\] Alt text: Device Registration - Scan QR code
 
     The Registration process will complete and you will be prompted to your login page to complete your authentication.
 
@@ -48,12 +49,12 @@ Role required: none
 
     The mobile home screen is displayed.
 
-    ![Mobile - Home screen](../images/mobile_home_screen.png)
+    \[Omitted image "mobile\_home\_screen.png"\] Alt text: Mobile - Home screen
 
 
 ## Result
 
-In the Register Trusted Devices page on your laptop or desktop, the registered device is displayed. You can use the ![Delete icon](../images/delete-icon.png) icon if you want to remove the registered device from the page.
+In the Register Trusted Devices page on your laptop or desktop, the registered device is displayed. You can use the \[Omitted image "delete-icon.png"\] Alt text: Delete icon icon if you want to remove the registered device from the page.
 
 ## What to do next
 

@@ -2,6 +2,7 @@
 title: Set the limit of maximum service locations added per day
 description: Set the limit of maximum service locations that can be added per day by an external user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/set-max-locations-limit.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

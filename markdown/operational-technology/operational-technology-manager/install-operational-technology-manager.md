@@ -2,6 +2,7 @@
 title: Install Operational Technology Manager
 description: If you have the admin role, you can install the Operational Technology Manager application. The application includes demo data and installs that are related ServiceNow Store applications and plugins, if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-manager/install-operational-technology-manager.html
 release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -19,7 +20,7 @@ If you have the admin role, you can install the Operational Technology Manager a
 
 -   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 
-**Note:** To learn more about the subscriptions required for the Operational Technology Manager, see [Subscriptions for Operational Technology Management \(OTM\)](../../operational-technology-management/concept/otm-license-module.md)
+**Note:** To learn more about the subscriptions required for the Operational Technology Manager, see [Subscriptions for Operational Technology Management \(OTM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/otm-license-module.md)
 
 Role required: admin
 
@@ -33,7 +34,7 @@ The following items are installed with Operational Technology Manager:
 -   Tables
 -   Script includes
 
-For more information on viewing components that are installed with Operational Technology Manager, see [Components installed with Operational Technology Manager](../reference/components-installed-with-operational-technology-manager.md).
+For more information on viewing components that are installed with Operational Technology Manager, see [Components installed with Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/components-installed-with-operational-technology-manager.md).
 
 ## Procedure
 
@@ -43,7 +44,7 @@ For more information on viewing components that are installed with Operational T
 
     You can search for the application by its name or ID. If you can't find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -56,5 +57,5 @@ For more information on viewing components that are installed with Operational T
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configuring the Operational Technology Manager](../concept/configuring-operational-technology-manager.md)
+**Parent Topic:**[Configuring the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/configuring-operational-technology-manager.md)
 

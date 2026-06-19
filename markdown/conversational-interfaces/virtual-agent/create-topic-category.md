@@ -2,6 +2,7 @@
 title: Create or modify custom Virtual Agent categories
 description: Create or change custom categories for organizing and grouping related Virtual Agent assets, such as topics. You can also make category labels visible in the Topic picker menu displayed to end users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/create-topic-category.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -89,12 +90,12 @@ Option to display the category label in the Topic picker menu for end users. **N
     -   Topic cards on the Topics page, for topics that have assigned categories.
     -   Topic picker menu displayed to end users, if you made the category visible. Topics with multiple categories are displayed in the appropriate categories. Topics without categories are listed in the Others category.
 
-        ![Topic picker menu that shows topics organized by categories.](../images/va-topic-picker.png "Topic picker menu")
+        \[Omitted image "va-topic-picker.png"\] Alt text: Topic picker menu that shows topics organized by categories.
 
 4.  To delete a topic category, open the category record and click **Delete**.
 
     If there are no topics associated with the category, the category is deleted. It is no longer listed in the **Category** field on the Topics Properties page and in the **Category** filter on the Topics page in Virtual Agent Designer.
 
 
-**Parent Topic:**[Configuring Virtual Agent](../concept/configure-virtual-agent.md)
+**Parent Topic:**[Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-virtual-agent.md)
 

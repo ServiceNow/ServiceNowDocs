@@ -2,6 +2,7 @@
 title: Permissions required for Azure Service Principal
 description: This table provides the permissions needed to create, close or cancel an Azure subscription, download billing details, and tag subscriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/permissions-required-for-azure-service-principal.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
@@ -102,5 +103,5 @@ Close or cancel a subscription.
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Account Management reference](cam-reference.md)
+</table>**Parent Topic:**[Cloud Account Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/cam-reference.md)
 

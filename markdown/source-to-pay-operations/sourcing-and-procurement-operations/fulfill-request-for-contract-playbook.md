@@ -2,13 +2,14 @@
 title: Fulfill request for copy of contract in playbook
 description: Attach a copy of the contract from a playbook and send it as an email to the employee who requested for it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/fulfill-request-for-contract-playbook.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Fulfilling request for copy of contract in playbook, Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Fulfilling request copy contract playbook, Working Sourcing Procurement Operations playbooks, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Fulfill request for copy of contract in playbook
@@ -19,13 +20,13 @@ Attach a copy of the contract from a playbook and send it as an email to the emp
 
 Role required: Procurement specialist
 
-![Fulfill request for copy of contract in playbook](../image/pb-request-contract.png)
+\[Omitted image "pb-request-contract.png"\] Alt text: Fulfill request for copy of contract in playbook
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Procurement Case Management** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the List icon \(![List icon.](../../supplier-lifecycle-operations/image/cases-list-icon.png)\) and select **All work** &gt; **Cases**.
+2.  Select the List icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and select **All work** &gt; **Cases**.
 
 3.  Select the applicable Request a copy of contract case from the list for further processing.
 
@@ -129,5 +130,5 @@ The request is now fulfilled and the procurement case moves to the Closed Comple
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Fulfilling request for copy of contract in playbook](../concept/fulfilling-request-for-contract.md)
+**Parent Topic:**[Fulfilling request for copy of contract in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/fulfilling-request-for-contract.md)
 

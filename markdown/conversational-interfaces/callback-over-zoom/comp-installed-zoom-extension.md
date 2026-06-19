@@ -2,6 +2,7 @@
 title: Components installed with Zoom extension for Omnichannel Callback
 description: Several types of components are installed with the Zoom extension for Omnichannel Callback application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/callback-over-zoom/comp-installed-zoom-extension.html
 release: zurich
 product: Callback over Zoom
 classification: callback-over-zoom

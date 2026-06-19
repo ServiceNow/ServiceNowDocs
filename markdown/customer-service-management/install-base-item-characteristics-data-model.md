@@ -2,7 +2,10 @@
 title: Data model for the Install base item characteristics
 description: The data model for the Install base item characteristics represents how the characteristics of an Install base item are stored in the Customer Service Management application. The data model refers to the characteristic values and options and provides a view of how to store a set of characteristics associated with an Install base item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/install-base-item-characteristics-data-model.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -13,11 +16,11 @@ breadcrumb: [Install base characteristics, Install base items, Configure Install
 
 The data model for the Install base item characteristics represents how the characteristics of an Install base item are stored in the Customer Service Management application. The data model refers to the characteristic values and options and provides a view of how to store a set of characteristics associated with an Install base item.
 
-The Customer Service Management application has several functional and granular roles that provide access levels to create, read, and update characteristics for an Install base item. The Install base item characteristics table \[sn\_install\_base\_item\_characteristic\] comes with different security roles and plugins. For more information on security roles, see [Security roles for the Install base characteristics](security-roles-for-install-base-attributes.md).
+The Customer Service Management application has several functional and granular roles that provide access levels to create, read, and update characteristics for an Install base item. The Install base item characteristics table \[sn\_install\_base\_item\_characteristic\] comes with different security roles and plugins. For more information on security roles, see [Security roles for the Install base characteristics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/security-roles-for-install-base-attributes.md).
 
 The following diagram shows the data model for the Install base characteristics. The data model represents the new and existing Install base item and Install base item characteristics tables.
 
-![Install base item characteristics data model. For the text description, refer to the section that preceded this diagram.](../image/ib-characteristics-data-model.png "Data model for Install base characteristics")
+\[Omitted image "ib-characteristics-data-model.png"\] Alt text: Install base item characteristics data model. For the text description, refer to the section that preceded this diagram.
 
 The following table describes the different fields on the Install base characteristics form.
 

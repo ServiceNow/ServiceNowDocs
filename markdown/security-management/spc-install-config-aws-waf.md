@@ -2,6 +2,7 @@
 title: Configure the AWS WAF integration for mitigation controls monitoring
 description: Determine if your virtual machines are protected with the AWS WAF integration for mitigation controls monitoring.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/spc-install-config-aws-waf.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -20,7 +21,7 @@ Data is imported by two separate applications:
 -   The Discovery and Service Mapping Patterns application imports the names and the default actions, allow or block, of the Web ACLs that you define in your AWS Service Account. The Discovery Pattern `Amazon AWS - Web ACL (LP)` is activated with the application.
 -   The Mitigations Controls Monitoring application imports the actual Web ACL rules and the relationships between associated resources like an application load balancer. This extension is included as a part of the Mitigations Controls Monitoring application.
 
-Verify you have completed the steps to define Web ACLs and rules and activated the required applications for the AWS WAF Integration described in [Exploit Protection \(WAF\) mitigation controls](../concept/spc-controls-policies-for-exploit-waf.md) prior to activating the applications.
+Verify you have completed the steps to define Web ACLs and rules and activated the required applications for the AWS WAF Integration described in [Exploit Protection \(WAF\) mitigation controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-controls-policies-for-exploit-waf.md) prior to activating the applications.
 
 Roles required:
 

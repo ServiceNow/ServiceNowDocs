@@ -2,6 +2,7 @@
 title: Exclude a stockroom from distribution channels
 description: Exclude a stockroom from distribution channels so that the stockroom isn't shown in the Stockrooms missing distribution channels important actions card in the Inventory view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/exclude-stockroom-from-distribution-channel.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -41,5 +42,5 @@ Role required: inventory\_admin
 -   The stockroom isn't shown in the Stockrooms missing distribution channels important actions card even if the stockroom isn't linked into distribution channels.
 -   The **Distribution Channel** tab doesn't show the **New** option for creating a distribution channel for the stockroom.
 
-**Parent Topic:**[Manage stockrooms](../concept/manage-your-stockrooms.md)
+**Parent Topic:**[Manage stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
 

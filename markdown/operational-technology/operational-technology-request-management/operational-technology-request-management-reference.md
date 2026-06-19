@@ -2,6 +2,7 @@
 title: Operational Technology Request Management reference
 description: Reference topics provide additional information about Operational Technology Request Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-request-management/operational-technology-request-management-reference.html
 release: zurich
 product: Operational Technology Request Management
 classification: operational-technology-request-management
@@ -15,12 +16,12 @@ breadcrumb: [Operational Technology Request Management, Operational Technology]
 
 Reference topics provide additional information about Operational Technology Request Management.
 
--   **[Components installed with Operational Technology Request Management](../reference/components-installed-operational-technology-request-management.md)**  
+-   **[Components installed with Operational Technology Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-request-management/components-installed-operational-technology-request-management.md)**  
 Several types of components may be installed with the activation of Operational Technology Request Management, including user roles and service catalogs.
--   **[Operational Technology Catalog Item form](../reference/catalog-item-form-ot-request.md)**  
+-   **[Operational Technology Catalog Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-request-management/catalog-item-form-ot-request.md)**  
 When creating a new catalog item for the Operational Technology \(OT\) Service Catalog, fill out the following form fields.
--   **[Related information](../reference/oper-tech-request-management-related-information.md)**  
+-   **[Related information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-request-management/oper-tech-request-management-related-information.md)**  
 Find more information about the Operational Technology \(OT\) extension classes and related applications.
 
-**Parent Topic:**[Operational Technology Request Management](operational-technology-request-management-landing-page.md)
+**Parent Topic:**[Operational Technology Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-request-management/operational-technology-request-management-landing-page.md)
 

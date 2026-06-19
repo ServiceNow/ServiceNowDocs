@@ -2,11 +2,12 @@
 title: Identify the source of the profile
 description: Specify the name and source of the profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/secureworks-ctp-create-profile-name.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Create a profile, Secureworks CTP Ticket Ingestion Integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -70,11 +71,7 @@ Active
 This option is cleared by default. If this option is disabled, the profile is not active.**Note:** You should complete all sections in the profile before making it active.
 
 </td></tr></tbody>
-</table>    The following figure is an example of a completed form.
-
-    ![Secureworks CTP: Create Profile: Identify Source](../image/secureworks-create-profile-name.gif)
-
-
+</table>
 ## What to do next
 
 Map the ticket fields.

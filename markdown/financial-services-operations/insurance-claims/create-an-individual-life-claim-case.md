@@ -2,6 +2,7 @@
 title: Create an Individual Life Claims case
 description: Begin the claim process by initiating an individual life claim case on behalf of the claimant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/create-an-individual-life-claim-case.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims
@@ -23,19 +24,19 @@ Role required: sn\_ins\_claim\_indl.fnol\_representative
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Create a case from the individual life claim cases list.
 
-<table id="choicetable_jsk_byx_4bc"><thead><tr><th align="left" id="d94391e92">
+<table id="choicetable_jsk_byx_4bc"><thead><tr><th align="left" id="d96519e92">
 
 Option
 
-</th><th align="left" id="d94391e95">
+</th><th align="left" id="d96519e95">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d94391e101">
+</th></tr></thead><tbody><tr><td id="d96519e101">
 
 **Individual life claim**
 
@@ -60,15 +61,15 @@ Steps
 
 9.  In the Reporter details activity, enter the details of the entity reporting the incident.
 
-<table id="choicetable_ctl_hys_1cc"><thead><tr><th align="left" id="d94391e180">
+<table id="choicetable_ctl_hys_1cc"><thead><tr><th align="left" id="d96519e180">
 
 Reporter status
 
-</th><th align="left" id="d94391e183">
+</th><th align="left" id="d96519e183">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d94391e189">
+</th></tr></thead><tbody><tr><td id="d96519e189">
 
 **Is a policy participant**
 
@@ -79,7 +80,7 @@ Steps
 3.  In the **Consumer** \(person\) or **Account** \(company\) field, use the search function to search for policy participants. The contact details populate after selecting the participant.
 
 
-</td></tr><tr><td id="d94391e222">
+</td></tr><tr><td id="d96519e222">
 
 **Is not a policy participant**
 
@@ -107,5 +108,5 @@ A claim case is created in the New state and the workflow is triggered. If appli
 
 ## What to do next
 
-Assign cases to yourself and start working on them. For more information, see [Adjuster activities](../concept/adjuster-tasks-workspace-persona.md).
+Assign cases to yourself and start working on them. For more information, see [Adjuster activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/adjuster-tasks-workspace-persona.md).
 

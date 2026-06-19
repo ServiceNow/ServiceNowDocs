@@ -2,6 +2,7 @@
 title: Create IP filter criteria
 description: Define which IP addresses or IP ranges are permitted to connect to your ServiceNow instance via the SQL API ODBC/JDBC driver. By default, all incoming IPs are blocked until you configure the SQL API Authentication Policy with an IP filter and policy condition to allow access only from trusted client machines.
 locale: en-us
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/create-ip-filter-criteria.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -38,7 +39,7 @@ By default, all incoming IP addresses are blocked for SQL API connections. You m
 
 3.  From the **Policy Inputs** tab, select **New**.
 
-    ![UI screen showing SQL API Authentication Policy.](../image/sql-api-auth-policy-new.png)
+    \[Omitted image "sql-api-auth-policy-new.png"\] Alt text: UI screen showing SQL API Authentication Policy.
 
 4.  A screen appears asking "What kind of Policy Input \(Filter Criteria\) do you want to create?" Select **IP Filter Criteria**.
 
@@ -46,7 +47,7 @@ By default, all incoming IP addresses are blocked for SQL API connections. You m
 
 6.  From the **IP Range** tab, double-click \(or use the keyboard shortcut\) **Insert a new row**.
 
-    ![UI screen example showing IP filter criteria.](../image/sql-api-IP-filter-criteria.png)
+    \[Omitted image "sql-api-IP-filter-criteria.png"\] Alt text: UI screen example showing IP filter criteria.
 
 7.  Define the specific IP addresses or IP address ranges your ODBC/JDBC client machines that should be allowed to connect to your ServiceNow instance via the SQL API drivers.
 
@@ -62,7 +63,7 @@ By default, all incoming IP addresses are blocked for SQL API connections. You m
 
 11. Create a filter condition - a logical combination of policy inputs \(filter criteria\) to evaluate authentication requests.
 
-    For example: choose the name of the IP Filter Criteria created earlier and give a condition as shown in the following example diagram.![UI screen example showing how to create a filter condition.](../image/sql-api-policy-condition.png)
+    For example: choose the name of the IP Filter Criteria created earlier and give a condition as shown in the following example diagram.\[Omitted image "sql-api-policy-condition.png"\] Alt text: UI screen example showing how to create a filter condition.
 
 12. Select **Submit**.
 
@@ -73,5 +74,5 @@ You have successfully configured IP filtering for SQL API access. Your ServiceNo
 
 Your Service Account can now connect to ServiceNow via ODBC or JDBC from the permitted client machines and query the tables for which both egress\_sql and read ACLs have been configured.
 
-**Parent Topic:**[Configure SQL API plugin on your ServiceNow instance](configure-sql-api-overview.md)
+**Parent Topic:**[Configure SQL API plugin on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configure-sql-api-overview.md)
 

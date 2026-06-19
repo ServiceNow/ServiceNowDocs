@@ -2,6 +2,7 @@
 title: Configure an indicator by threshold, weightage, and order
 description: Configure the Operational Technology \(OT\) Progress Scorecard indicators so that the display of each indicator meets your needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-workspace/configure-indicator-by-threshold-weightage-order-otpsc.html
 release: zurich
 product: Industrial Workspace
 classification: industrial-workspace
@@ -53,5 +54,5 @@ You can configure the following indicators.
 5.  Select **Update**.
 
 
-**Parent Topic:**[Setting up the Operational Technology Progress Scorecard](../concept/setting-up-the-ot-progress-scorecard.md)
+**Parent Topic:**[Setting up the Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/setting-up-the-ot-progress-scorecard.md)
 

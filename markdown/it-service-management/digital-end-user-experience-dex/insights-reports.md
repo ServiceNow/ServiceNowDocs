@@ -2,11 +2,12 @@
 title: DEX Insights reports
 description: The Digital End-User Experience \(DEX\) Insights tab provides reports on the user device battery health, system compliance, system performance, and system time, which enables efficient monitoring and issue identification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/insights-reports.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Service Management]
 ---
@@ -109,7 +110,18 @@ Last refresh time
 Last time the record was updated.
 
 </td></tr></tbody>
-</table>## File management
+</table>## Event monitoring
+
+|Field|Description|
+|-----|-----------|
+|Device|Name of the monitored digital device, like a laptop or a desktop.|
+|User|Owner of the device.|
+|Event Name|Name of the event monitored on this device.|
+|Event Count|Number of the registered events on this device.|
+|OS Type|OS that manages and controls the device hardware, as well as enables the execution of applications such as Windows or macOS.|
+|Log Level|Selects the severity level of the log event being monitored, such as Debug, Error, Fault, Info, or Warning.|
+
+## File management
 
 **Note:** The data appears on this page only after File management has been set up.
 
@@ -335,5 +347,5 @@ Number of devices that have issues with the registry key. **Note:** The number o
 The error `No value (check the configuration)` appears when the path is incomplete or the key path configured for monitoring isn’t present on the device.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DEX Application and Device Health reference](dex-console-reference.md)
+</table>**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
 

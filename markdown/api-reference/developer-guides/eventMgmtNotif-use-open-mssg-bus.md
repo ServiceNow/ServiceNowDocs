@@ -2,11 +2,12 @@
 title: Create outbound Order Management notifications using the open message bus
 description: Learn how to produce an outbound notification from a ServiceNow instance using the open message bus. Customers can consume the details of the notification from the message bus in their external system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/developer-guides/eventMgmtNotif-use-open-mssg-bus.html
 release: zurich
 product: Developer Guides
 classification: developer-guides
 topic_type: reference
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Producer Event Notification Framework developer guide, Developer guides, API implementation and reference]
 ---
@@ -43,7 +44,7 @@ Service Order Management:
 
 ## Prerequisites
 
-Before producing outbound notifications, it’s necessary to create the egress topics in the Topic \[sn\_api\_notif\_mgmt\_topic\] table in the ServiceNow® instance. When you create an egress topic, the system runs a business rule and attempts to synchronize the topic to the message bus based on configuration. To learn more about manually creating a topic in the Topic table, see [Create a topic](https://www.servicenow.com/docs/access?context=create-topic-API-notification&version=zurich&pubname=zurich-telecom-service-ops&ft:locale=en-US). The system synchronizes only the egress topic with the message bus in the external system. The `user_created` field in the associated topic record is set to `true`.
+Before producing outbound notifications, it’s necessary to create the egress topics in the Topic \[sn\_api\_notif\_mgmt\_topic\] table in the ServiceNow® instance. When you create an egress topic, the system runs a business rule and attempts to synchronize the topic to the message bus based on configuration. To learn more about manually creating a topic in the Topic table, see . The system synchronizes only the egress topic with the message bus in the external system. The `user_created` field in the associated topic record is set to `true`.
 
-Alternatively, you can create the topics on the message bus in your external system and push them into the Topic table in ServiceNow® instance. To do this, invoke the [Event Management Topic Open API](../../../inbound-rest/concept/event_management_topic-api.md#) endpoint, which stores the topic in the Topic \[sn\_api\_notif\_mgmt\_topic\] table of the instance. The user\_created field in the associated topic record is set to false.
+Alternatively, you can create the topics on the message bus in your external system and push them into the Topic table in ServiceNow® instance. To do this, invoke the [Event Management Topic Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/event_management_topic-api.md) endpoint, which stores the topic in the Topic \[sn\_api\_notif\_mgmt\_topic\] table of the instance. The user\_created field in the associated topic record is set to false.
 

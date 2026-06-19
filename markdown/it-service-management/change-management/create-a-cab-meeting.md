@@ -2,6 +2,7 @@
 title: Create a single CAB meeting occurrence
 description: Depending on your requirements, you can create an individual Change Advisory Board \(CAB\) meeting occurrence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/create-a-cab-meeting.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -203,12 +204,12 @@ Check box to capture agenda decisions automatically on the meeting widget. The a
 
 You can now add agenda items and attendees to the cab meeting.
 
--   **[View CAB meeting details](view-cab-meeting-details.md)**  
+-   **[View CAB meeting details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/view-cab-meeting-details.md)**  
 You can view the details of any past, scheduled, or in-progress CAB meeting.
--   **[Modify CAB meeting details](refresh-cab-meeting-agenda-items.md)**  
+-   **[Modify CAB meeting details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/refresh-cab-meeting-agenda-items.md)**  
 You can modify the agenda items for a specific CAB meeting.
--   **[Send CAB meeting request to attendees](send-cab-meeting-request-attendees.md)**  
+-   **[Send CAB meeting request to attendees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/send-cab-meeting-request-attendees.md)**  
 You can send CAB meeting invitations to attendees for each CAB meeting.
 
-**Parent Topic:**[Working with the CAB Workbench](../concept/using-cab-workbench-cf.md)
+**Parent Topic:**[Working with the CAB Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/using-cab-workbench-cf.md)
 

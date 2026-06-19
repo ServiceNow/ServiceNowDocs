@@ -2,6 +2,7 @@
 title: Activate a system property to close a long-running legal request
 description: As an admin, activate the sn\_lg\_ops.allow\_request\_closure\_with\_open\_matters system property to close legal requests even when they’re linked to long-running requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-request-management/activate-sys-prop-close-long-run-leg-req.html
 release: zurich
 product: Legal Request Management
 classification: legal-request-management
@@ -42,5 +43,5 @@ Role required: sn\_lg\_ops.legal\_admin
 
 The `sn_lg_ops.allow_request_closure_with_open_matters` system property is activated and the related legal requests can be closed even if the primary legal request is open.
 
-**Parent Topic:**[Configuring Legal Request Management](../concept/legal-ops-administration.md)
+**Parent Topic:**[Configuring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/legal-ops-administration.md)
 

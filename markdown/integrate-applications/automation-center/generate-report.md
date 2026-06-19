@@ -2,6 +2,7 @@
 title: Generate report
 description: Generate a report to view all the automations that you want to import.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/automation-center/generate-report.html
 release: zurich
 product: Automation Center
 classification: automation-center
@@ -23,7 +24,7 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 
 1.  Navigate to **Workspaces** &gt; **Automation Center Workspace**.
 
-2.  Select the Migration accelerator icon \(![Migration accelerator icon](../images/mig-acc-icon.png)\) on the side bar.
+2.  Select the Migration accelerator icon \(\[Omitted image "mig-acc-icon.png"\] Alt text: Migration accelerator icon\) on the side bar.
 
 3.  Select **Generate migration report**.
 
@@ -37,15 +38,15 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 
             **Note:** Repository URL us available only for UiPath. For Blue Prism you must upload a ZIP file.
 
-        -   **Repository URL** \(only if you select UiPath as the source\): This option enables you to get data from UiPath Orchestration. For information on using this option, see [Generate report using repository URL](../task/repo-url.md).
-        -   **Upload ZIP \(with XAML files\)**: This option enables you to upload a local zip with .xaml files and automations. For information on using this option, see [Generate a report using a ZIP file](../task/zip-file.md).
+        -   **Repository URL** \(only if you select UiPath as the source\): This option enables you to get data from UiPath Orchestration. For information on using this option, see [Generate report using repository URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/repo-url.md).
+        -   **Upload ZIP \(with XAML files\)**: This option enables you to upload a local zip with .xaml files and automations. For information on using this option, see [Generate a report using a ZIP file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/zip-file.md).
     **Note:** If the report generation takes longer than 300 seconds \(5 minutes\), it is marked as failed. This is controlled by a system property, `sn_ac.polling_timeout_migration_report`. A technical user \(with the role sn\_ac.automation\_technical\_user\) can make changes to the value of the system property.
 
 
--   **[Generate report using repository URL](../task/repo-url.md)**  
+-   **[Generate report using repository URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/repo-url.md)**  
 Generate a migration report using the repository URL that has all the automation files saved.
--   **[Generate a report using a ZIP file](../task/zip-file.md)**  
+-   **[Generate a report using a ZIP file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/zip-file.md)**  
 Generate a migration report using all the files that you have on your local system in a zip file.
 
-**Parent Topic:**[Migrating automations from UiPath and Blue Prism to ServiceNow RPA Hub](migrating-automations-from-uipath.md)
+**Parent Topic:**[Migrating automations from UiPath and Blue Prism to ServiceNow RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/migrating-automations-from-uipath.md)
 

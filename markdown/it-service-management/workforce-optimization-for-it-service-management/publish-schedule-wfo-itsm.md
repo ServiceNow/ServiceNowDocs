@@ -2,6 +2,7 @@
 title: Publish a schedule plan for visibility into team coverage
 description: Generate a preview of your schedule plan and publish it so that your agents can see their shifts and schedules ahead of time. You can unpublish a schedule to make changes and then publish it again.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/publish-schedule-wfo-itsm.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -41,12 +42,12 @@ When you unpublish a schedule:
 
 1.  Navigate to **All** &gt; **Workforce Optimization for ITSM** &gt; **Manager Workspace**.
 
-2.  Click the Schedule icon \(![Schedule icon](../../itsm-manager-workspace/image/schedule-icon.png)\).
+2.  Click the Schedule icon \(\[Omitted image "schedule-icon.png"\] Alt text: Schedule icon\).
 
 3.  Generate a schedule preview.
 
     1.  Click the **Team Calendar** tab.
-    2.  Click the show schedules icon \( ![Show Schedules icon.](../image/show-schedules-icon.png)\)to display in the contextual side panel.
+    2.  Click the show schedules icon \( \[Omitted image "show-schedules-icon.png"\] Alt text: Show Schedules icon.\)to display in the contextual side panel.
     The team calendar refreshes and generates the preview when you save a work shift.
 
 4.  Publish a schedule.
@@ -62,5 +63,5 @@ When you unpublish a schedule:
     **Note:** You can use pagination to scroll through your agents' schedules.
 
 
-**Parent Topic:**[Scheduling your teams' work in Workforce Optimization for ITSM](../concept/scheduling-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Scheduling your teams' work in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/scheduling-configurable-workforce-optimization-itsm.md)
 

@@ -2,11 +2,12 @@
 title: Associate tool objects to applications - Workspace
 description: After creating an application, you can associate plans, repositories, and pipelines with it. Applications group plans, repositories, and pipelines from DevOps tools, which provides traceability to user stories, commits, test results, and so on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/apps-associate-objects-wkspc.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Applications, DevOps Change Velocity, IT Service Management]
 ---
@@ -27,15 +28,15 @@ Role required: sn\_devops.admin or sn\_devops.app\_owner
 
 3.  From the application record page, select the tab for the object type that you want to associate.
 
-<table id="choicetable_ewm_tlh_wwb"><thead><tr><th align="left" id="d348627e77">
+<table id="choicetable_ewm_tlh_wwb"><thead><tr><th align="left" id="d42035e77">
 
 Object type
 
-</th><th align="left" id="d348627e80">
+</th><th align="left" id="d42035e80">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d348627e86">
+</th></tr></thead><tbody><tr><td id="d42035e86">
 
 **Pipelines**
 
@@ -66,7 +67,7 @@ You can import up to 90 days of data.
 
  **Note:** When the property **Enable automatic association of repos to apps on pipeline execution** is enabled, if a repository is already associated to an application, then the corresponding unassigned pipelines are automatically assigned to the same app.
 
-</td></tr><tr><td id="d348627e205">
+</td></tr><tr><td id="d42035e205">
 
 **Plans**
 
@@ -84,7 +85,7 @@ You can import up to 90 days of data.
 
 **Note:** Historical import of plans data is not supported for GitHub Issues.
 
-</td></tr><tr><td id="d348627e264">
+</td></tr><tr><td id="d42035e264">
 
 **Repositories**
 

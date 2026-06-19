@@ -2,13 +2,14 @@
 title: Export a snapshot
 description: Export a snapshot to generate config data for the pipeline to use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-family/cdm-cfg-data-export-from-ui.html
 release: zurich
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Use, DevOps Config, IT Service Management]
+breadcrumb: [Using DevOps Config, DevOps Config, IT Service Management]
 ---
 
 # Export a snapshot
@@ -30,11 +31,11 @@ Role required: cdm\_exporter\_editor or cdm\_editor or cdm\_admin
 -   Exporters in the content pack have the **Source** value of **ServiceNow**. You can duplicate, but cannot delete or modify content pack exporters.
 -   You can execute only active published exporters.
 -   For export, snapshots cannot exceed 10,000 config data items \(CDIs\) per deployable or 100,000 CDIs per application.
--   Records of exporter executions are deleted after a period of three years. For instructions on changing the default time period, see [Set the purge period for records of exporter executions](cdm-export-record-purge.md).
+-   Records of exporter executions are deleted after a period of three years. For instructions on changing the default time period, see [Set the purge period for records of exporter executions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/cdm-export-record-purge.md).
 
 ## Procedure
 
-1.  Select the admin icon \(![Admin icon.](../image/icon-admin-wrench.png)\) to open the **Administration** page.
+1.  Select the admin icon \(\[Omitted image "icon-admin-wrench.png"\] Alt text: Admin icon.\) to open the **Administration** page.
 
 2.  On the **Exporters** tab, select the name of the exporter.
 

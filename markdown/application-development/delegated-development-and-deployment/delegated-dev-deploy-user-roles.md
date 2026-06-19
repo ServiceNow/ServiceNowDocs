@@ -2,6 +2,7 @@
 title: System-managed developer and deployment roles
 description: Although system admins can still manually assign and remove the user roles, they’re encouraged to let the system manage the following delegated developer roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/delegated-development-and-deployment/delegated-dev-deploy-user-roles.html
 release: zurich
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
@@ -15,7 +16,7 @@ breadcrumb: [Delegated Development reference, Delegated Development, Planning yo
 
 Although system admins can still manually assign and remove the user roles, they’re encouraged to let the system manage the following delegated developer roles.
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing per-user subscriptions, see  and contact your account representative.
 
 <table id="table_wp4_wjx_hv"><thead><tr><th>
 
@@ -60,5 +61,5 @@ Default Value: true if the property is true, then all the roles, directly or ind
 </td></tr></tbody>
 </table>**Note:** Users with delegated developer roles can’t add or remove the system admin role.
 
-**Parent Topic:**[Delegated Development reference](delegated-development-reference.md)
+**Parent Topic:**[Delegated Development reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/delegated-development-reference.md)
 

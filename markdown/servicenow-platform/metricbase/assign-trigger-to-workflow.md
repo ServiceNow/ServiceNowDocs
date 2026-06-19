@@ -2,6 +2,7 @@
 title: Assign a trigger to a flow
 description: Now that you created a trigger, use Workflow Studio to specify the flow a trigger executes. The flows can provide alerts for unexpected behavior.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/metricbase/assign-trigger-to-workflow.html
 release: zurich
 product: MetricBase
 classification: metricbase
@@ -31,15 +32,15 @@ Triggers, by themselves, execute nothing. After defining a trigger in MetricBase
 
 3.  Fill in the fields.
 
-<table id="choicetable_hsk_2zm_pgb"><thead><tr><th align="left" id="d442563e95">
+<table id="choicetable_hsk_2zm_pgb"><thead><tr><th align="left" id="d73485e95">
 
 Field
 
-</th><th align="left" id="d442563e98">
+</th><th align="left" id="d73485e98">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d442563e104">
+</th></tr></thead><tbody><tr><td id="d73485e104">
 
 **Flow name**
 
@@ -47,7 +48,7 @@ Description
 
 Name of the flow to execute.
 
-</td></tr><tr><td id="d442563e113">
+</td></tr><tr><td id="d73485e113">
 
 **Description**
 
@@ -55,7 +56,7 @@ Name of the flow to execute.
 
 Explanation of what the flow does and why you are associating this flow with the trigger.
 
-</td></tr><tr><td id="d442563e122">
+</td></tr><tr><td id="d73485e122">
 
 **Application**
 
@@ -63,7 +64,7 @@ Explanation of what the flow does and why you are associating this flow with the
 
 Application scope to create your flow in. The value, **Global**, is the default.
 
-</td></tr><tr><td id="d442563e134">
+</td></tr><tr><td id="d73485e134">
 
 **Protection**
 
@@ -71,7 +72,7 @@ Application scope to create your flow in. The value, **Global**, is the default.
 
 Option to make the flow read-only. Selecting read-only prevents users who do not own the application scope from changing the flow. You can only select a value when you create the flow in an application scope you own.
 
-</td></tr><tr><td id="d442563e144">
+</td></tr><tr><td id="d73485e144">
 
 **Run As**
 
@@ -81,7 +82,7 @@ Choose whether the flow runs as **System User** or **User who initiates the sess
 
 **Note:** If you select **User who initiates the session**, ensure that security restrictions \(ACLs\) do not prevent the users who trigger the flow from performing the flow actions.
 
-</td></tr><tr><td id="d442563e170">
+</td></tr><tr><td id="d73485e170">
 
 **Run with roles**
 
@@ -106,7 +107,7 @@ Select the roles can run the flow. This option is only available when **Run as**
 
         Condition scripts add additional requirements for a trigger to execute a flow.
 
-    ![Condition script in Workflow Studio.](../image/condition-script-flow-designer.png)
+    \[Omitted image "condition-script-flow-designer.png"\] Alt text: Condition script in Workflow Studio.
 
 8.  Under **ACTIONS**, select **Click to add an Action, Flow Logic, or Subflow**
 
@@ -116,7 +117,7 @@ Select the roles can run the flow. This option is only available when **Run as**
 
     3.  Select **Done** to complete each part of the flow action.
 
-    ![Selecting a flow.](../image/flow-action.png)
+    \[Omitted image "flow-action.png"\] Alt text: Selecting a flow.
 
 9.  Select **Save**.
 
@@ -126,9 +127,9 @@ Select the roles can run the flow. This option is only available when **Run as**
 
     2.  Select the trigger **Level** to test, provide the **time of metric event**, and what **record** is triggering.
 
-        Different triggers may execute different flows. ![Test the flow.](../image/test-flow.png)
+        Different triggers may execute different flows. \[Omitted image "test-flow.png"\] Alt text: Test the flow.
 
-        **Note:** When you test a flow, the system does not execute the trigger, and therefore does not create a record. By selecting a record in the Test flow dialog box, the system acts as if that record was just created. For more information, see [Test a flow](https://www.servicenow.com/docs/access?context=flow-test&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+        **Note:** When you test a flow, the system does not execute the trigger, and therefore does not create a record. By selecting a record in the Test flow dialog box, the system acts as if that record was just created. For more information, see Test a flow.
 
     3.  Select **Submit**.
 

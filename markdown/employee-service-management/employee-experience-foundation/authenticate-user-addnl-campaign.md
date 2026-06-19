@@ -2,6 +2,7 @@
 title: Authenticate users with additional permissions to send campaign notifications in Microsoft Teams
 description: Assign additional Microsoft Azure permissions to users to enable Microsoft Teams create and send new campaign notifications on the user’s behalf in the teamwork activity feed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/authenticate-user-addnl-campaign.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -31,7 +32,7 @@ Role required: admin
 
 5.  Select **TeamsActivity** accordion, and select **TeamsActivity.Send** check box.
 
-    ![Authenticate TeamsActivity.Send permission](../images/request-api-permissions-teams-activity-send.png)
+    \[Omitted image "request-api-permissions-teams-activity-send.png"\] Alt text: Authenticate TeamsActivity.Send permission
 
 6.  Select **Add permissions**.
 
@@ -39,12 +40,12 @@ Role required: admin
 
 8.  Regenerate and upload the manifest file in Microsoft Teams.
 
-    For more information, see [Send campaign notifications automatically in Microsoft Teams](enable-activity-feed.md).
+    For more information, see [Send campaign notifications automatically in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/enable-activity-feed.md).
 
 9.  Register the Request-based chat app in your instance to use Microsoft Teams chat on a self-configured app environment.
 
-    For more information, see [Configure Application Registry on the ServiceNow instance](app-registry-chat-single-tenant.md#).
+    For more information, see [Configure Application Registry on the ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/app-registry-chat-single-tenant.md).
 
 
-**Parent Topic:**[Working on campaigns in Microsoft Teams](../concept/using-campaigns-ms-teams.md)
+**Parent Topic:**[Working on campaigns in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/using-campaigns-ms-teams.md)
 

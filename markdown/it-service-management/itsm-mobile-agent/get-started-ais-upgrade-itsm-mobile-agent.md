@@ -2,6 +2,7 @@
 title: Get started with AI search in upgraded instances
 description: Enable intelligent query features that help agents to quickly find the required answers in ITSM Mobile Agent in upgraded instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/get-started-ais-upgrade-itsm-mobile-agent.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -65,6 +66,6 @@ You can get started with AI search in upgraded instances by using the AI search 
 
     4.  Click **Update**.
 
-    **Note:** If you do not want to use the AI search configuration in the base system, migrate your search profiles and other configurations from zing search to AI search. Perform the steps mentioned in [Configure AI Search for mobile devices](https://www.servicenow.com/docs/access?context=advanced-text-search-config-now&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+    **Note:** If you do not want to use the AI search configuration in the base system, migrate your search profiles and other configurations from zing search to AI search. Perform the steps mentioned in Configure AI Search for mobile devices.
 
 

@@ -2,6 +2,7 @@
 title: UX: Design for Employee Center
 description: The UX \(User Experience\): Design for Employee Center Accelerator provides UX Design support and guidance to help customers get started with Employee Center design.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/ux-design-employee-center.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -17,7 +18,7 @@ The UX \(User Experience\): Design for Employee Center Accelerator provides UX D
 
 ## Accelerator overview
 
-UX: Design for Employee Center provides Impact customers with tailored advice on designing the user experience of their Employee Center. We offer valuable insights and recommendations to enhance the usability and effectiveness of their implementation. Additionally, this accelerator equips our customers with essential ServiceNow resources and leading practices guides on how to improve the user experience of their Employee Center. For additional information, see [Employee Center](https://www.servicenow.com/docs/csh?topicname=employee-center-landing-page.html&version=latest).
+UX: Design for Employee Center provides Impact customers with tailored advice on designing the user experience of their Employee Center. We offer valuable insights and recommendations to enhance the usability and effectiveness of their implementation. Additionally, this accelerator equips our customers with essential ServiceNow resources and leading practices guides on how to improve the user experience of their Employee Center. For additional information, see [Employee Center](https://www.servicenow.com/docs/access?context=employee-center-landing-page).
 
 **Note:** This Accelerator is available for Impact Guided+ \(Platform Governance\), Advanced and Total Packages.
 

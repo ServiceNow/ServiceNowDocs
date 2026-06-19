@@ -2,6 +2,7 @@
 title: Adjuster activities
 description: In Individual Life Claims, if you have the sn\_ins\_claim\_indl.dbn\_adjuster role you can view a summary of your claims work in the landing page. You can work on your claim tasks from the claim workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/adjuster-tasks-workspace-persona.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims
@@ -27,7 +28,7 @@ You always work from the original case. A claim is created for each policy that 
 
 The following example shows a related policy claim that is associated with a claim case.
 
-![Claim that has multiple associated policy claims.](../image/individual-death-claim-related-claims-exp.png "Related policy claims associated with a claim case")
+\[Omitted image "individual-death-claim-related-claims-exp.png"\] Alt text: Claim that has multiple associated policy claims.
 
 By using the workspace cards, you can navigate through the following sections:
 

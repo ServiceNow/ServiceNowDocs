@@ -2,6 +2,7 @@
 title: Limit access to product model data on the Business Portal
 description: Use a system property to limit customer access to data in the Product Models table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/business-portal-prod-model-access.html
 release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

@@ -2,6 +2,7 @@
 title: Set up Multi-factor authentication on your user profile
 description: Enable multi-factor authentication for your account in your user profile settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/mfa-setup-profile.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -21,7 +22,7 @@ Role required: none
 
 Multi-factor authentication must be enabled on your instance.
 
-**Note:** Your administrator may require that you use multi-factor authentication. In this case, you are automatically prompted when you log in. See [Set up Multi-factor authentication for the first time](t_SetUpMultiFactorAuthUponLogin.md). Use the process below if your administrator allows you to opt-in to multi-factor authentication.
+**Note:** Your administrator may require that you use multi-factor authentication. In this case, you are automatically prompted when you log in. See [Set up Multi-factor authentication for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/t_SetUpMultiFactorAuthUponLogin.md). Use the process below if your administrator allows you to opt-in to multi-factor authentication.
 
 ## Procedure
 
@@ -33,7 +34,7 @@ Multi-factor authentication must be enabled on your instance.
 
 3.  Choose the MFA Authenticator type that you would like to use.
 
-    ![MFA Authenticators](../images/mfa-authenticator.png)
+    \[Omitted image "mfa-authenticator.png"\] Alt text: MFA Authenticators
 
 <table id="table_k2g_xg5_nbc"><thead><tr><th>
 
@@ -51,7 +52,7 @@ Authenticator App
 
 Time-Based One Time Password \(TOTP\) authenticator appSelect **Set up authenticator app** and follow the instructions on the screen to register for an authenticator app as the second factor for authentication.
 
-![MFA Authenticator App setup screen](../images/mfa-authenticator-app.png)
+\[Omitted image "mfa-authenticator-app.png"\] Alt text: MFA Authenticator App setup screen
 
 </td></tr><tr><td>
 
@@ -61,7 +62,7 @@ Biometric authenticators
 
 Device-based authenticators such as Windows Hello or Apple Touch IDSelect **Register biometric authentication** and follow the instructions on the screen to register for an authenticator app as the second factor for authentication.
 
-![MFA Biometric setup](../images/mfa-biometric.png)
+\[Omitted image "mfa-biometric.png"\] Alt text: MFA Biometric setup
 
 </td></tr><tr><td>
 
@@ -71,7 +72,7 @@ Hardware Security Keys
 
 Hardware security keys such as YubiKeySelect **Register hardware security keys** and follow the instructions on the screen to register for an authenticator app as the second factor for authentication.
 
-![MFA - Hardware key setup](../images/mfa-hardware-key.png)
+\[Omitted image "mfa-hardware-key.png"\] Alt text: MFA - Hardware key setup
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: Previewing an upgrade
 description: Use the Upgrade Preview module to have an insight about the experience of an upgrade prior to the actual upgrade. You can explore and preview upgrades to different ServiceNow release versions and see how your instance might be impacted with your current configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/upgrade-center/uc-preview-upgrade.html
 release: zurich
 product: Upgrade Center
 classification: upgrade-center
@@ -15,6 +16,6 @@ breadcrumb: [Use, Upgrade Center, Upgrade, Administer]
 
 Use the Upgrade Preview module to have an insight about the experience of an upgrade prior to the actual upgrade. You can explore and preview upgrades to different ServiceNow release versions and see how your instance might be impacted with your current configurations.
 
--   [Preview predicted changes](../reference/uc-previewed-changes.md): Preview the changes that have been predicted to occur after an upgrade.
--   [Upgrade Preview form](../task/uc-upgrade-preview-form1.md): Alternate view of a previewed upgrade.
+-   [Preview predicted changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-center/uc-previewed-changes.md): Preview the changes that have been predicted to occur after an upgrade.
+-   [Upgrade Preview form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-center/uc-upgrade-preview-form1.md): Alternate view of a previewed upgrade.
 

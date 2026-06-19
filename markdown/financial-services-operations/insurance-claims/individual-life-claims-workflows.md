@@ -2,6 +2,7 @@
 title: Individual Life Claims workflows
 description: The Individual Life Claims application installs automated workflows that you can configure for any individual life claims tasks. These workflows create cases and routes any tasks to different departments in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/individual-life-claims-workflows.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims

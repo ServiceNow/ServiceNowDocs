@@ -2,6 +2,7 @@
 title: Software model fields
 description: Software Model form and related list field descriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/software-model-fields.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -67,7 +68,7 @@ Product
 
 Software product name. The same lookup list provided on the Software Discovery Models form. You can create a custom product from the lookup list, if desired.**Note:** If the relationship between the software publisher \[samp\_sw\_publisher\] and company \[core\_company\] tables isn’t correct, products for that publisher may not be shown.
 
- If the publisher and product don’t exist, you can [Add a custom software product in Software Asset Management classic](../task/t_AddACustomProduct.md).
+ If the publisher and product don’t exist, you can [Add a custom software product in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_AddACustomProduct.md).
 
 </td></tr><tr><td>
 
@@ -321,11 +322,11 @@ If the removal candidates don't exist, a scheduled job runs nightly that creates
 
 </td></tr><tr><td>
 
-License all installs accessed by clients**Note:** This field appears only on software models that are associated with [client access records](../task/t_AddAClientAccessRec.md), except for Oracle DB Server software models.
+License all installs accessed by clients**Note:** This field appears only on software models that are associated with [client access records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_AddAClientAccessRec.md), except for Oracle DB Server software models.
 
 </td><td>
 
-Option to license the configuration items \(CIs\) that the software is installed on, based on conditions that you specify on the software model, such as software install conditions. If any of the associated client access records are unlicensed due to insufficient rights, all CIs remain unlicensed.If you disable this option, only the CIs that have been added to your client access records are licensed. See [Add a software client access record in Software Asset Management classic](../task/t_AddAClientAccessRec.md) for detailed instructions on how to add CIs to your client access records.
+Option to license the configuration items \(CIs\) that the software is installed on, based on conditions that you specify on the software model, such as software install conditions. If any of the associated client access records are unlicensed due to insufficient rights, all CIs remain unlicensed.If you disable this option, only the CIs that have been added to your client access records are licensed. See [Add a software client access record in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) for detailed instructions on how to add CIs to your client access records.
 
 If you enable this option after you have already added CIs to your client access records, those CIs are deleted from your records and then subsequently licensed based on the conditions that you specify on the software model.
 
@@ -373,7 +374,7 @@ Option to apply this software model to only subscription-based software suites. 
 
 Auto-generate client access for allocations. **Note:** This field appears only on Oracle Database Server software models.
 
- **Important:** To use this option, you must request the Data Collection for Oracle Global Licensing and Advisory Services \(GLAS\) application from the ServiceNow Store. For details, see [Request Data Collection for Oracle Global Licensing and Advisory Services \(GLAS\)](../task/request-data-collection-oracle-glas-app.md).
+ **Important:** To use this option, you must request the Data Collection for Oracle Global Licensing and Advisory Services \(GLAS\) application from the ServiceNow Store. For details, see [Request Data Collection for Oracle Global Licensing and Advisory Services \(GLAS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/request-data-collection-oracle-glas-app.md).
 
 </td><td>
 
@@ -424,7 +425,7 @@ Notes about the work order task that are visible to all users within your organi
 </td></tr></tbody>
 </table>## Suite Components tab
 
-This list shows the software suite component details. Software components are the suite children of a software suite parent. For more information, see [Software Asset Management software suites](../concept/software-suites.md).
+This list shows the software suite component details. Software components are the suite children of a software suite parent. For more information, see [Software Asset Management software suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-suites.md).
 
 <table id="table_nyv_lmc_xhb"><thead><tr><th>
 
@@ -489,7 +490,7 @@ Option to enable automatic content changes to software models.
 </td></tr></tbody>
 </table>## Suite Parents tab
 
-This list shows the software suite parent details. For more information, see [Software Asset Management software suites](../concept/software-suites.md).
+This list shows the software suite parent details. For more information, see [Software Asset Management software suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-suites.md).
 
 <table id="table_axt_czp_l3b"><thead><tr><th>
 
@@ -534,7 +535,7 @@ Relationship that indicates that multiple software models exist for one or more 
 </td></tr></tbody>
 </table>## Software Product Lifecycles
 
-This list shows the life cycle information of a software product. For more information on life cycles, see [Product life cycles](../concept/calculated-lifecycles.md).
+This list shows the life cycle information of a software product. For more information on life cycles, see [Product life cycles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/calculated-lifecycles.md).
 
 <table id="table_hqc_5nn_dbb"><thead><tr><th>
 
@@ -668,7 +669,7 @@ Description of the software product life cycle.
 </td></tr></tbody>
 </table>## Software Entitlements tab
 
-This list shows the entitlement terms of your software license. For more information, see the Software entitlements section in [Software models and Software entitlements](../concept/software-models-and-entitlements.md).
+This list shows the entitlement terms of your software license. For more information, see the Software entitlements section in [Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-models-and-entitlements.md).
 
 <table id="table_erg_3b1_vzb"><thead><tr><th>
 
@@ -692,7 +693,7 @@ License metric
 
 </td><td>
 
-License metric for the license group that the software license is counted against when reconciliation is run. The options for license metric change based on the Metric group field. For more information, see [Software license metrics](../concept/c_SAMLicenseMetrics.md).
+License metric for the license group that the software license is counted against when reconciliation is run. The options for license metric change based on the Metric group field. For more information, see [Software license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_SAMLicenseMetrics.md).
 
 </td></tr><tr><td>
 
@@ -924,7 +925,7 @@ Status
 
 </td><td>
 
-Status of the software model. Possible values are **Compliant** or **Not Compliant**.Select the **Status** field to open the corresponding Software Model Results record, where you can view more in-depth information about the software model result. See [View software model results](../task/t_ViewSWModelResults.md) for detailed descriptions of each field on the Software Model Results form.
+Status of the software model. Possible values are **Compliant** or **Not Compliant**.Select the **Status** field to open the corresponding Software Model Results record, where you can view more in-depth information about the software model result. See [View software model results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_ViewSWModelResults.md) for detailed descriptions of each field on the Software Model Results form.
 
 </td></tr><tr><td>
 
@@ -1049,7 +1050,7 @@ Attribute
 
 </td><td>
 
-Attribute type for reconciling entitlement license metrics. For more information on each attribute type, see [Software model metric attributes](sw-metric-attributes.md).
+Attribute type for reconciling entitlement license metrics. For more information on each attribute type, see [Software model metric attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sw-metric-attributes.md).
 
 </td></tr><tr><td>
 
@@ -1070,7 +1071,7 @@ Option for setting the attribute as unlimited.
 </td></tr></tbody>
 </table>## Vendor Catalog Items tab
 
-This list shows you the details of the software models associated with a vendor. For more information, see [Vendor catalog items](../../product-catalog/concept/c_ManageVendorCatalogItems.md).
+This list shows you the details of the software models associated with a vendor. For more information, see [Vendor catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/product-catalog/c_ManageVendorCatalogItems.md).
 
 |Field|Description|
 |-----|-----------|
@@ -1098,7 +1099,7 @@ Name
 
 </td><td>
 
-Name of the client access record. Select a name to open the corresponding client access record, where you can view more in-depth information about the record, such as the users or devices that the associated client access licenses \(CALs\) are assigned to and the configuration items \(CIs\) that the associated server software is installed on. See [Add a software client access record in Software Asset Management classic](../task/t_AddAClientAccessRec.md) for more information on client access records in the Software Asset Management classic application. See [Create a software client access record in workspace](../task/create-clientaccess-workspace.md) for more information on client access records in the Software Asset Workspace.
+Name of the client access record. Select a name to open the corresponding client access record, where you can view more in-depth information about the record, such as the users or devices that the associated client access licenses \(CALs\) are assigned to and the configuration items \(CIs\) that the associated server software is installed on. See [Add a software client access record in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) for more information on client access records in the Software Asset Management classic application. See [Create a software client access record in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-clientaccess-workspace.md) for more information on client access records in the Software Asset Workspace.
 
 </td></tr><tr><td>
 
@@ -1223,7 +1224,7 @@ Profile that is associated with the subscription identifier.
 </td></tr></tbody>
 </table>## Downgrade Rights tab
 
-This list shows the downgrade rights information of a software model. For more information, see [Downgrade Rights](../concept/downgrade-rights.md).
+This list shows the downgrade rights information of a software model. For more information, see [Downgrade Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/downgrade-rights.md).
 
 <table id="table_mzw_bv2_fhb"><thead><tr><th>
 
@@ -1265,7 +1266,7 @@ Active
 
 Option that indicates if the downgrade rights on the software model are active or not. If needed, you can deactivate the downgrade rights. Only the active downgrade rights appear in the field. To see all the downgrade rights, remove the Active condition from the filter. If you deactivate a downgrade right on a software model, the change is propagated to the related software entitlement downgrade rights, irrespective of the source of the downgrade right. You cannot deactivate the downgrade right on a software model and keep the downgrade right activated on the software entitlement.
 
-To deactivate a downgrade right, double-click the field to display the toggle button, select **false**, and then select the Save icon \(![Save icon](../image/save-icon.png)\).
+To deactivate a downgrade right, double-click the field to display the toggle button, select **false**, and then select the Save icon \(\[Omitted image "save-icon.png"\] Alt text: Save icon\).
 
 -   **false**: deactivates the downgrade right on the software model and on the related software entitlements.
 -   **true**: reactivates the downgrade right on the software model and on the related software entitlements.
@@ -1554,5 +1555,5 @@ Entitlement condition
 Entitlement condition defined to apply the group user allocation on the filtered software entitlements.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/references.md)
 

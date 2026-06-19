@@ -2,6 +2,7 @@
 title: Review and work on a major incident candidate
 description: View a list of major incident candidates and add comments to the incidents proposed as major incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/major-incident-candidate.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -25,19 +26,19 @@ Role required: major incident manager
 
     The **Major incident candidates** screen opens with a list of major incident candidates.
 
-2.  If you want to reduce the number of records on the screen, see [Filter records](filter-records-agent-mobile.md) to search for records that match specific search criteria.
+2.  If you want to reduce the number of records on the screen, see [Filter records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-mobile-agent/filter-records-agent-mobile.md) to search for records that match specific search criteria.
 
 3.  On the **Major incident candidates** screen, swipe left on an incident to view the set of quick actions.
 
     1.  Add any additional comments or work notes about the incident in this field.
 
-    2.  Tap **Reject** to mention the reasons for rejection in the work notes and tap the send icon ![Send icon.](../image/mobile_instances_send_droid.png)\) to process the rejection.
+    2.  Tap **Reject** to mention the reasons for rejection in the work notes and tap the send icon \[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) to process the rejection.
 
-    3.  Tap **Promote** to mention a reason to promote the incident to a major incident, describe the business impact, and tap the send icon \(![send icon.](../image/mobile_instances_send_droid.png)\).
+    3.  Tap **Promote** to mention a reason to promote the incident to a major incident, describe the business impact, and tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: send icon.\).
 
 4.  On the **Major incident candidates** screen, tap a record in the list to open it.
 
-5.  Use the mobile top menu icon \(![Mobile top menu icon.](../image/mobile-top-menu.png)\) at the top of the screen for quick actions.
+5.  Use the mobile top menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Mobile top menu icon.\) at the top of the screen for quick actions.
 
     The quick actions available for an active major incident candidate are as follows:
 
@@ -69,7 +70,7 @@ ACTIVITY tab
 
 </td><td>
 
-View the activity on the incident like field changes or assignment changes. Tap the add icon \(![Add icon.](../image/add_icon.png)\) to perform any of the following activities on the incident. 1.  **Record Video**: Record a video to be attached to the incident.
+View the activity on the incident like field changes or assignment changes. Tap the add icon \(\[Omitted image "add\_icon.png"\] Alt text: Add icon.\) to perform any of the following activities on the incident. 1.  **Record Video**: Record a video to be attached to the incident.
 2.  **Open Gallery**: Open your photo gallery to attach an existing image or a video to the incident.
 3.  **Take Photo**: Take a picture and attach it to the incident
 4.  **Attach File**: Attach a file from another application to the incident.

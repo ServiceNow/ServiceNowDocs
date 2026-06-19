@@ -2,6 +2,7 @@
 title: Managing maintenance plans
 description: Planned Maintenance allows you to create, maintain, and schedule maintenance for equipment that requires regular maintenance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/service-management-for-the-enterprise/planned-maintenance-family/c\_MaintPlanMgmt.html
 release: zurich
 product: Planned Maintenance \(Family\)
 classification: planned-maintenance-family
@@ -36,22 +37,22 @@ To schedule the date of the first maintenance:
 
 You can update any maintenance schedule as needed. For example, if the regular interval is due next month, you can select an earlier or later date to change when the maintenance occurs.
 
--   **[Create a maintenance plan](../task/t_CreateAMaintPlan.md)**  
+-   **[Create a maintenance plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-management-for-the-enterprise/planned-maintenance-family/t_CreateAMaintPlan.md)**  
 When creating a maintenance plan, options on the form help to determine how and when maintenance should be performed.
--   **[Property settings for Planned Maintenance](../reference/planned-maint-properties.md)**  
+-   **[Property settings for Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-management-for-the-enterprise/planned-maintenance-family/planned-maint-properties.md)**  
 You configure Planned Maintenance properties at **Planned Maintenance** &gt; **Properties**.
--   **[Configure a maintenance schedule](../task/t_DefineAMaintSched.md)**  
+-   **[Configure a maintenance schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-management-for-the-enterprise/planned-maintenance-family/t_DefineAMaintSched.md)**  
 After creating a maintenance plan, define specific criteria for determining when the plan should be executed.
--   **[Associate a maintenance plan to filtered records](../task/t_AssocMaintPlanToFilterRec.md)**  
+-   **[Associate a maintenance plan to filtered records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-management-for-the-enterprise/planned-maintenance-family/t_AssocMaintPlanToFilterRec.md)**  
 You can configure a maintenance plan with filtering criteria. For example, you can apply a maintenance plan to all records containing computers that start with "apple".
--   **[Associate a schedule template to matching records](../task/t_AssocSchedTempToMatchRec.md)**  
+-   **[Associate a schedule template to matching records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-management-for-the-enterprise/planned-maintenance-family/t_AssocSchedTempToMatchRec.md)**  
 The instance adds templates to a maintenance schedule so the appropriate requests and tasks, such as work orders and facilities requests, can be auto-generated when a maintenance schedule runs.
--   **[Run a scheduled job to execute a maintenance schedule](../task/t_RunSchedJobToExecMaintSched.md)**  
+-   **[Run a scheduled job to execute a maintenance schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-management-for-the-enterprise/planned-maintenance-family/t_RunSchedJobToExecMaintSched.md)**  
 Maintenance schedules are executed whenever the meter, duration, script, or condition criteria is met. You can also use the Schedule ad-hoc feature to run a maintenance schedule manually.
--   **[Run a maintenance schedule on demand](../task/t_RunAMaintSchedOnDemand.md)**  
+-   **[Run a maintenance schedule on demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-management-for-the-enterprise/planned-maintenance-family/t_RunAMaintSchedOnDemand.md)**  
 Maintenance schedules are typically run using the scheduled job named Planned Maintenance Nightly Run. However, you may want to run the schedule immediately or change the date when a schedule runs.
--   **[View a maintenance log](../task/t_ViewAMaintLog.md)**  
+-   **[View a maintenance log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-management-for-the-enterprise/planned-maintenance-family/t_ViewAMaintLog.md)**  
 You can view all maintenance performed on a particular CI, the next scheduled maintenance, and the last time maintenance was performed.
 
-**Parent Topic:**[Planned Maintenance](c_SMPlanMaint.md)
+**Parent Topic:**[Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-management-for-the-enterprise/planned-maintenance-family/c_SMPlanMaint.md)
 

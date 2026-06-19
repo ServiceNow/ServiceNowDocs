@@ -2,6 +2,7 @@
 title: Add calibration attributes to an enterprise asset
 description: Add calibration attributes to an enterprise asset to specify and manage the calibrations that are required for the asset throughout its life cycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-asset.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -21,7 +22,7 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
 ## About this task
 
-You can add calibration attributes at the individual enterprise asset level or at the enterprise model level. Alternatively, you can create common calibration attributes that are not associated with any enterprise assets or enterprise models. For details on how to add calibration attributes to an enterprise model, see [Add calibration attributes to an enterprise model](add-calibration-attributes-enterprise-model.md). For details on how to create common calibration attributes, see [Create a calibration attribute library](create-eam-calibration-attribute-library.md).
+You can add calibration attributes at the individual enterprise asset level or at the enterprise model level. Alternatively, you can create common calibration attributes that are not associated with any enterprise assets or enterprise models. For details on how to add calibration attributes to an enterprise model, see [Add calibration attributes to an enterprise model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-model.md). For details on how to create common calibration attributes, see [Create a calibration attribute library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-eam-calibration-attribute-library.md).
 
 ## Procedure
 
@@ -87,7 +88,7 @@ Category
 
 </td><td>
 
-Type of calibration.**Note:** The Enterprise Asset Management application includes default calibration categories such as Electrical, Flow, Humidity, and Pressure. You can create additional calibration categories for any calibrations that do not fall under the default categories. For detailed instructions, see [Create a calibration category for your enterprise asset calibrations](create-eam-calibration-categories.md).
+Type of calibration.**Note:** The Enterprise Asset Management application includes default calibration categories such as Electrical, Flow, Humidity, and Pressure. You can create additional calibration categories for any calibrations that do not fall under the default categories. For detailed instructions, see [Create a calibration category for your enterprise asset calibrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-eam-calibration-categories.md).
 
 </td></tr><tr><td>
 
@@ -176,7 +177,7 @@ Quality standard
 
 </td><td>
 
-Set of requirements and guidelines that you must follow when performing the calibrations.**Note:** You can create quality standards manually in the Admin center view of the Enterprise Asset Workspace. See [Create a quality standard for your enterprise asset calibrations](create-eam-calibration-quality-standard.md) for detailed instructions.
+Set of requirements and guidelines that you must follow when performing the calibrations.**Note:** You can create quality standards manually in the Admin center view of the Enterprise Asset Workspace. See [Create a quality standard for your enterprise asset calibrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-eam-calibration-quality-standard.md) for detailed instructions.
 
 </td></tr><tr><td colspan="2">
 
@@ -279,7 +280,7 @@ Highest acceptable value that the calibration measurement can reach to stay in c
 If you set the **Value type** field to either **Accuracy % full scale** or **Accuracy % point**, this field is read-only.
 
 </td></tr></tbody>
-</table>    3.  To add an additional point to the calibration attribute, select the Add Content icon ![](../../hardware-asset-management/image/add_content_icon.png) and then fill in the fields.
+</table>    3.  To add an additional point to the calibration attribute, select the Add Content icon \[Omitted image "add\_content\_icon.png"\] Alt text: and then fill in the fields.
 
         Repeat this step for each point that you want to add.
 
@@ -291,7 +292,7 @@ If you set the **Value type** field to either **Accuracy % full scale** or **Acc
 
     1.  On the calibration attribute record, select the **Details** tab.
 
-    2.  In the Identification section of the **Details** tab, select the Search for Record icon ![](../../software-asset-management2/image/search-icon.png) next to the **Override** field.
+    2.  In the Identification section of the **Details** tab, select the Search for Record icon \[Omitted image "search-icon.png"\] Alt text: next to the **Override** field.
 
         The Override dialog box opens.
 
@@ -306,7 +307,7 @@ If you set the **Value type** field to either **Accuracy % full scale** or **Acc
 
 ## What to do next
 
-Create work orders to track the calibrations that are made to your enterprise asset. These work orders must use a work order template with tasks that have a Work type of Calibration. For more information on work orders, see [Managing work orders for your enterprise assets](../concept/create-manage-wo-enterprise-assets.md).
+Create work orders to track the calibrations that are made to your enterprise asset. These work orders must use a work order template with tasks that have a Work type of Calibration. For more information on work orders, see [Managing work orders for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-manage-wo-enterprise-assets.md).
 
-**Parent Topic:**[Create and manage enterprise assets](../concept/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

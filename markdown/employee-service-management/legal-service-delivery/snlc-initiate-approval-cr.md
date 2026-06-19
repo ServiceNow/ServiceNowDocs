@@ -2,6 +2,7 @@
 title: Initiate an ad hoc approval for a contract document revision
 description: Initiate an ad hoc approval for a contract document revision from a user or a user group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/snlc-initiate-approval-cr.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -31,19 +32,19 @@ You can assign these approvals to any user or user group in your organization wh
 
 1.  Navigate to **All** &gt; **Legal request** &gt; **Legal Counsel Center**.
 
-2.  Click the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, navigate to **Legal Requests** or **Contract Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d513622e110">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d88641e110">
 
 Option
 
-</th><th align="left" id="d513622e113">
+</th><th align="left" id="d88641e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d513622e119">
+</th></tr></thead><tbody><tr><td id="d88641e119">
 
 **As an assignee**
 
@@ -53,7 +54,7 @@ Steps
 2.  Select a contract request to work on.
 
 
-</td></tr><tr><td id="d513622e140">
+</td></tr><tr><td id="d88641e140">
 
 **As a collaborator**
 
@@ -68,7 +69,7 @@ Steps
 
 5.  In the **Approvers** tab, click **Initiate Approval**.
 
-    You can also initiate an approval by clicking the more actions button \(![More actions button icon.](../../legal-request-management/image/more-button-icon.png)\) and selecting **Initiate Approval**.
+    You can also initiate an approval by clicking the more actions button \(\[Omitted image "more-button-icon.png"\] Alt text: More actions button icon.\) and selecting **Initiate Approval**.
 
 6.  On the Initiate Approval dialog box, fill in the fields.
 
@@ -141,5 +142,5 @@ The assigned approvers get an email notification with a link to open the record 
 
 The approval details appear under the **Approvals** tab on the Standard Ticket page.
 
-**Parent Topic:**[Work on NDA legal requests](snlc-work-on-contract-request.md)
+**Parent Topic:**[Work on NDA legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-work-on-contract-request.md)
 

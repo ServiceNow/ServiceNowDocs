@@ -2,6 +2,7 @@
 title: Discovery IP address configuration
 description: Use one or more of these methods in any combination to define the network or network segment for Discovery to query. You can include or exclude specific IP ranges from your query.You can use system properties to control the selection of IP address for specified CI classes.Quick ranges allow administrators to define IP addresses to scan in a single comma-delimited string without creating separate records.One method of entering large numbers of IP networks into Discovery schedules is by using import sets.You can specify a range of IP addresses that you want to exclude from your Discovery query.Global Excludes List allows administrators to define global IP exclusions lists that work across Discovery schedules that discover configuration items, IP addresses, or networks. The list helps to prevent access to sensitive IPs as it blocks discovery when the IP is on the exclusion list. This feature is only applicable for Horizontal Discovery starting in the Rome release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/discovery-ip-address-configuration.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -15,7 +16,7 @@ breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Ma
 
 Use one or more of these methods in any combination to define the network or network segment for Discovery to query. You can include or exclude specific IP ranges from your query.
 
-**Note:** If you do not know the IP addresses in the network, run [Network discovery](../concept/c_NetworkDiscovery.md#) first to determine the IP networks. Then, convert the IP networks into IP address range sets.
+**Note:** If you do not know the IP addresses in the network, run [Network discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_NetworkDiscovery.md) first to determine the IP networks. Then, convert the IP networks into IP address range sets.
 
 If you have integrations which populate sys\_metadata and sys\_update\_xml tables, make sure to clear the update and metadata records after the discovery\_range\_item or discovery\_range\_item\_ip import occurs.
 
@@ -37,7 +38,7 @@ IP address list
 
 </td><td>
 
-Use IP address lists to add individual addresses to query. These addresses are not included in any existing IP range or IP network. You can enter the IP address of the device or a host name \(DNS name\). If you enter a host name, it must be [mapped to an IP address](https://www.servicenow.com/docs/access?context=t_MapIPAddressToDNSName&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+Use IP address lists to add individual addresses to query. These addresses are not included in any existing IP range or IP network. You can enter the IP address of the device or a host name \(DNS name\). If you enter a host name, it must be mapped to an IP address.
 
 </td></tr><tr><td>
 
@@ -55,7 +56,7 @@ IP network
 
 </td><td>
 
-You can also scan an entire IP network. [An IP network](../concept/c_NetworkDiscovery.md#) includes the range of available IP addresses in that network. The scan also includes the network address \(the lowest address in the range\) and the broadcast address \(the highest address in the range\). After you [run network discovery](../concept/c_NetworkDiscovery.md#), [convert the IP networks that were found into range sets](../concept/c_NetworkDiscovery.md#)for use in discovering other devices.
+You can also scan an entire IP network. [An IP network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_NetworkDiscovery.md) includes the range of available IP addresses in that network. The scan also includes the network address \(the lowest address in the range\) and the broadcast address \(the highest address in the range\). After you [run network discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_NetworkDiscovery.md), [convert the IP networks that were found into range sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_NetworkDiscovery.md)for use in discovering other devices.
 
  IP networks are represented in CIDR notation. Examples of CIDR notation include:
 
@@ -115,7 +116,7 @@ Quick ranges allow administrators to define IP addresses to scan in a single com
 
 ### Before you begin
 
-Only MID Servers that are up and validated are used with quick ranges. The MID Servers must specify the Discovery application \(or ALL applications\) and have IP ranges configured if you use the auto-select feature on the [Discovery schedule](../task/t_CreateADiscoverySchedule.md#).
+Only MID Servers that are up and validated are used with quick ranges. The MID Servers must specify the Discovery application \(or ALL applications\) and have IP ranges configured if you use the auto-select feature on the [Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
 Role required: discovery\_admin
 
@@ -139,7 +140,7 @@ You can enter IP addresses in one of the following formats:
 
     **Note:** The Quick Range interface is for entering IP addresses only and cannot be used to edit IP addresses that have already been submitted.
 
-    ![Entering a quick range](../image/DiscoveryQuickRanges.png "Entering a quick range from a Discovery schedule")
+    \[Omitted image "DiscoveryQuickRanges.png"\] Alt text: Entering a quick range
 
     The instance automatically displays the entries in the proper format.
 
@@ -158,9 +159,9 @@ Role required: discovery\_admin
 
 ### About this task
 
-Common groups of IP addresses, known as [ranges](discovery-ip-address-configuration.md#) can be used in Advanced Discovery schedules.
+Common groups of IP addresses, known as [ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-ip-address-configuration.md) can be used in Advanced Discovery schedules.
 
-**Note:** You can also use IPAM integration for entering large numbers of IP networks into Discovery schedules. See [IPAM Integration](../../cloud-management-v2/concept/IPAM-integration.md) for more information.
+**Note:** You can also use IPAM integration for entering large numbers of IP networks into Discovery schedules. See [IPAM Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/IPAM-integration.md) for more information.
 
 Use a data source that can be mapped. Include these fields:
 
@@ -179,7 +180,7 @@ Use a data source that can be mapped. Include these fields:
 
 5.  Click **Go** to import the file.
 
-    ![Data Sources](../image/DataSource.png "Data Source")
+    \[Omitted image "DataSource.png"\] Alt text: Data Sources
 
 6.  Navigate to **System Import Sets** &gt; **Create Transform Map** and map the items in the Excel spreadsheet to the fields of the CMDB in the target table IP Range `[ip_address_range]` table.
 
@@ -226,15 +227,15 @@ Role required: discovery\_admin or agent\_admin
 
 5.  Choose one of the following options from the **Type** drop-down list.
 
-<table id="choicetable_vp2_g1m_dgc"><thead><tr><th align="left" id="d330521e862">
+<table id="choicetable_vp2_g1m_dgc"><thead><tr><th align="left" id="d168333e862">
 
 Option
 
-</th><th align="left" id="d330521e865">
+</th><th align="left" id="d168333e865">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d330521e871">
+</th></tr></thead><tbody><tr><td id="d168333e871">
 
 **IP Address List**
 
@@ -242,7 +243,7 @@ Description
 
 Enables you to exclude non-consecutive IP addresses by listing individual IP addresses in the **Discovery Range Item IPs** related list.**Note:** After you select **IP Address List** as the **Type**, you must right-click the header and select **Save** before you can begin adding IPs to the related list.
 
-</td></tr><tr><td id="d330521e894">
+</td></tr><tr><td id="d168333e894">
 
 **IP Address Range**
 
@@ -250,7 +251,7 @@ Enables you to exclude non-consecutive IP addresses by listing individual IP add
 
 Enables you to exclude a range of IPs by providing the starting and ending IP addresses.
 
-</td></tr><tr><td id="d330521e903">
+</td></tr><tr><td id="d168333e903">
 
 **IP Network**
 

@@ -2,6 +2,7 @@
 title: Create a course catalog in Workforce Optimization for ITSM
 description: Create course catalogs and set user criteria to define user access to the course items and learning paths associated with it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/create-course-catalog-wfo-itsm.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -23,7 +24,7 @@ Role required: sn\_wfo\_cfg\_itsm.admin
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Select the Coaching icon \(![Coaching icon](../image/coaching-icon-uib.png)\).
+2.  Select the Coaching icon \(\[Omitted image "coaching-icon-uib.png"\] Alt text: Coaching icon\).
 
 3.  Select the **Learning** tab.
 
@@ -33,8 +34,8 @@ Role required: sn\_wfo\_cfg\_itsm.admin
 
 6.  Create a course catalog.
 
-    For more information, see [Create a course catalog](https://www.servicenow.com/docs/access?context=create-course-catalog&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+    For more information, see Create a course catalog.
 
 
-**Parent Topic:**[Learning in Workforce Optimization for ITSM](../concept/workforce-learning-configurable-wfo-itsm.md)
+**Parent Topic:**[Learning in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/workforce-learning-configurable-wfo-itsm.md)
 

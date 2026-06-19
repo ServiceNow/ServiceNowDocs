@@ -2,6 +2,7 @@
 title: Create a dashboard tab template
 description: To reuse a dashboard tab design, create a template from that tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/kpi-comp-create-dashboard-template.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -16,11 +17,11 @@ breadcrumb: [Designing dashboards, Design your indicator solution, Configure fun
 To reuse a dashboard tab design, create a template from that tab.
 
 Prerequisites
-:   [Add a dashboard](add-dashboard-kpi-comp.md#)
+:   [Add a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/add-dashboard-kpi-comp.md)
 
-:   [Add tabs and rows to a dashboard](add-tabs-kpi-dashboard.md)
+:   [Add tabs and rows to a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/add-tabs-kpi-dashboard.md)
 
-:   [Add canvases to a dashboard tab](add-canvases-kpi-dashboard.md)
+:   [Add canvases to a dashboard tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/add-canvases-kpi-dashboard.md)
 
 ## Before you begin
 
@@ -32,7 +33,7 @@ Role required: sn\_kpi\_composer.user \(own project\), sn\_kpi\_composer.admin \
 
 1.  Open the menu on the dashboard tab and select **Save as Template**.
 
-    ![Dashboard tab menu expanded, showing Save as Template.](../image/kpi-comp-save-tab-template.png)
+    \[Omitted image "kpi-comp-save-tab-template.png"\] Alt text: Dashboard tab menu expanded, showing Save as Template.
 
 2.  Give the template a meaningful title and description.
 
@@ -47,9 +48,9 @@ You have a personal template that you can use to create new tabs on dashboards. 
 
 For this template to be available to other users, ask a KPI Composer admin to set the **Template global** value to `true` in **KPI Composer** &gt; **Dashboard tab templates**.
 
-**Parent Topic:**[Designing dashboards](../concept/create-a-dashboard-mock-up.md)
+**Parent Topic:**[Designing dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-a-dashboard-mock-up.md)
 
-**Previous topic:**[Add canvases to a dashboard tab](add-canvases-kpi-dashboard.md)
+**Previous topic:**[Add canvases to a dashboard tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/add-canvases-kpi-dashboard.md)
 
-**Next topic:**[Defining indicators and reports](../concept/designing-indicators.md)
+**Next topic:**[Defining indicators and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/designing-indicators.md)
 

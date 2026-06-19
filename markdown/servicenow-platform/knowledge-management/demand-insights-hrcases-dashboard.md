@@ -2,6 +2,7 @@
 title: Demand Insights for HR Cases dashboard
 description: The Demand Insights for HR cases dashboard enables you as an HR agent to identify which HR cases have no or insufficient knowledge coverage. You can then create feedback tasks for knowledge gaps to deflect such HR cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/demand-insights-hrcases-dashboard.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -17,7 +18,7 @@ The Demand Insights for HR cases dashboard enables you as an HR agent to identif
 
 **Note:** For Demand Insights for HR cases dashboard, activate the Human Resources Scoped App: Core plugin \[com.sn\_hr\_core\] and Predictive Intelligence for Knowledge Management plugin \[com.snc.knowledge\_ml\].
 
-![Demand insights for HR cases](../image/demand-insights-hrcases.png)
+\[Omitted image "demand-insights-hrcases.png"\] Alt text: Demand insights for HR cases
 
 ## End user and roles
 
@@ -29,7 +30,7 @@ The Demand Insights for HR cases dashboard enables you as an HR agent to identif
 
 |Title|Type|Description|
 |-----|----|-----------|
-|Candidate Knowledge Gaps for HR cases|Pareto Chart ![Pareto report icon](../../../reuse/reporting/image/pareto-sm.png)|Candidate Knowledge Gaps for HR cases.|
+|Candidate Knowledge Gaps for HR cases|Pareto Chart \[Omitted image "pareto-sm.png"\] Alt text: Pareto report icon|Candidate Knowledge Gaps for HR cases.|
 
-**Parent Topic:**[Analytics and Reporting Solutions for Knowledge Management](analytics-and-reporting-solutions-for-knowlege-management.md)
+**Parent Topic:**[Analytics and Reporting Solutions for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/analytics-and-reporting-solutions-for-knowlege-management.md)
 

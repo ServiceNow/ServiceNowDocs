@@ -2,6 +2,7 @@
 title: Ensure that all the appropriate indicator templates are activated
 description: When you download the GRC: Technology Controls Monitoring Accelerator application, all indicator templates are available, but they are not yet active. Before activating them, you need to ensure that you have the necessary applications activated and can access the tables that are mapped to the indicator templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/ensure-ind-templates-active.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -29,7 +30,7 @@ Starting with version 12.0.1 of the Technology Controls Monitoring Accelerator a
 
 2.  Locate and open **GRC: Update Plugin Activation Status in Indicator-Plugin Mapping table**.
 
-    ![Scheduled Script Execution](../image/sched-job.png "Scheduled Script Execution")
+    \[Omitted image "sched-job.png"\] Alt text: Scheduled Script Execution
 
 3.  Click **Execute Now**.
 
@@ -38,5 +39,5 @@ Starting with version 12.0.1 of the Technology Controls Monitoring Accelerator a
     **Note:** You must repeat this process any time you upgrade this application.
 
 
-**Parent Topic:**[Technology Controls Monitoring Accelerator](../concept/tech-controls-monitoring-accel.md)
+**Parent Topic:**[Technology Controls Monitoring Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/tech-controls-monitoring-accel.md)
 

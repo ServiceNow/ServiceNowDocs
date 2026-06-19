@@ -2,6 +2,7 @@
 title: Search query parameter evaluation framework
 description: AI Search performs A/B test evaluations that compare result relevancy for alternate sets of search query parameter values. These evaluations determine the models that AI Search uses for machine learning relevancy and for Q&amp;A Genius Results.The search query parameter evaluation framework for AI Search uses tables to store results and metrics from A/B testing of live search traffic. AI Search uses the stored data when determining which relevancy model and Q&amp;A Genius Result answer validation model to publish for a search application.Exclude a search profile from A/B testing evaluations of live AI Search traffic. This procedure prevents AI Search from using A/B testing evaluation results when publishing the search profile's search result relevancy model and its Q&amp;A Genius Result answer validation model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/srch-qry-parm-eval-fw-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -17,8 +18,8 @@ AI Search performs A/B test evaluations that compare result relevancy for altern
 
 The search query parameter evaluation framework enables A/B relevancy testing on live search traffic. AI Search considers results from this live testing along with its offline evaluation of aggregated search signal data when making the following determinations:
 
--   Determining which relevancy model to publish for a search profile. For details on generation and publication of relevancy models, see [Machine learning relevancy in AI Search](machine-learning-relevancy-ais.md).
--   Determining which machine reading comprehension \(MRC\) model to use when validating potential Q&amp;A Genius Result answers. For more information on the MRC model used for Q&amp;A Genius Results, see [Q&amp;A Genius Results](genius-result-q-a-ais.md).
+-   Determining which relevancy model to publish for a search profile. For details on generation and publication of relevancy models, see [Machine learning relevancy in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/machine-learning-relevancy-ais.md).
+-   Determining which machine reading comprehension \(MRC\) model to use when validating potential Q&amp;A Genius Result answers. For more information on the MRC model used for Q&amp;A Genius Results, see [Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/genius-result-q-a-ais.md).
 
 AI Search computes A/B testing evaluation results on a nightly basis.
 
@@ -26,7 +27,7 @@ AI Search computes A/B testing evaluation results on a nightly basis.
 
 The search query parameter evaluation framework is part of the Adaptive Telemetry suite of features.
 
-**Parent Topic:**[Administering AI Search](administer-ais.md)
+**Parent Topic:**[Administering AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/administer-ais.md)
 
 ## Search query parameter evaluation framework tables
 
@@ -327,7 +328,7 @@ The search query parameter evaluation framework performs A/B testing evaluations
 
 Search administrators can exclude individual search profiles from the search query parameter evaluation framework. Excluding a search profile from the framework prevents AI Search from performing A/B testing evaluations for live search traffic that uses the excluded search profile.
 
-**Note:** When you exclude a search profile from evaluations, AI Search no longer considers evaluation results when updating the machine learning relevancy and machine reading comprehension \(MRC\) models for that search profile. As a result, relevancy scoring settings and Q&amp;A Genius Result answer filtering settings for the search profile may be less reflective of your search traffic. For more information on how AI Search uses A/B evaluation testing results when publishing these models, see [Machine learning relevancy in AI Search](machine-learning-relevancy-ais.md) and [Q&amp;A Genius Results](genius-result-q-a-ais.md).
+**Note:** When you exclude a search profile from evaluations, AI Search no longer considers evaluation results when updating the machine learning relevancy and machine reading comprehension \(MRC\) models for that search profile. As a result, relevancy scoring settings and Q&amp;A Genius Result answer filtering settings for the search profile may be less reflective of your search traffic. For more information on how AI Search uses A/B evaluation testing results when publishing these models, see [Machine learning relevancy in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/machine-learning-relevancy-ais.md) and [Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/genius-result-q-a-ais.md).
 
 ### Procedure
 
@@ -337,7 +338,7 @@ Search administrators can exclude individual search profiles from the search que
 
 3.  If the Search Profile form doesn't already display the **Exclude from evaluation** field, configure the form layout to make the field visible.
 
-    For details on configuring a form layout to make fields visible, see [Configuring the form layout](../../form-administration/concept/configure-form-layout.md#).
+    For details on configuring a form layout to make fields visible, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/configure-form-layout.md).
 
 4.  Select the **Exclude from evaluation** option.
 

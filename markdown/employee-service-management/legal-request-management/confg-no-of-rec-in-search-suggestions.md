@@ -2,6 +2,7 @@
 title: Configure number of records to display in search suggestions
 description: As an administrator, configure the sn\_lg\_cf\_workspace.workspace\_typeahead\_list\_count system property to specify the number of records that appears in the suggestion list of a typeahead search in legal requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-request-management/confg-no-of-rec-in-search-suggestions.html
 release: zurich
 product: Legal Request Management
 classification: legal-request-management
@@ -34,5 +35,5 @@ Role required: sn\_lg\_cf\_workspace.admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configuring Legal Request Management](../concept/legal-ops-administration.md)
+**Parent Topic:**[Configuring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/legal-ops-administration.md)
 

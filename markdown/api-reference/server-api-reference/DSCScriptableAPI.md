@@ -2,6 +2,7 @@
 title: DSCScriptableAPI - Global
 description: The DSCScriptableAPI provides methods for checking the health of your domain configuration for an instance.Instantiates a new DSCScriptable object.Checks a list of comma-separated tables for invalid domains.Checks a list of comma-separated tables for invalid domain paths.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/DSCScriptableAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -19,7 +20,7 @@ This API is part of the Domain Separation Center dashboard and is available in t
 
 The com.glide.domain.msp\_extensions.installer plugin must be activated for Domain Separation Center dashboard availability.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## DSCScriptableAPI - DSCScriptableAPI\(\)
 

@@ -2,6 +2,7 @@
 title: Manually map a location and campus
 description: Manually map an existing location to an existing campus and site using Campus Locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace-dashboard/man-create-campus.html
 release: zurich
 product: Safe Workplace Dashboard
 classification: safe-workplace-dashboard
@@ -29,12 +30,12 @@ Role required: sn\_imt\_dashboard.admin
 
     |Field|Description|
     |-----|-----------|
-    |Location|Click the Lookup using list icon \(![Lookup using list icon](../../human-resources/image/magnifying-glass.png)\) and select the location that you want to associate with a campus and site.|
-    |Campus|Click the Lookup using list icon \(![Lookup using list icon](../../human-resources/image/magnifying-glass.png)\) and select the campus that you want to associate with a location and site.|
-    |Site|Click the Lookup using list icon \(![Lookup using list icon](../../human-resources/image/magnifying-glass.png)\) and select the site that you want to associate with a location and campus.|
+    |Location|Click the Lookup using list icon \(\[Omitted image "magnifying-glass.png"\] Alt text: Lookup using list icon\) and select the location that you want to associate with a campus and site.|
+    |Campus|Click the Lookup using list icon \(\[Omitted image "magnifying-glass.png"\] Alt text: Lookup using list icon\) and select the campus that you want to associate with a location and site.|
+    |Site|Click the Lookup using list icon \(\[Omitted image "magnifying-glass.png"\] Alt text: Lookup using list icon\) and select the site that you want to associate with a location and campus.|
 
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Create a campus to appear on the Safe Workplace Dashboard](../concept/configrng-safe-workplce-dshbrd.md)
+**Parent Topic:**[Create a campus to appear on the Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace-dashboard/configrng-safe-workplce-dshbrd.md)
 

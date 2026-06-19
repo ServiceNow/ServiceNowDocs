@@ -2,6 +2,7 @@
 title: Asset bundles
 description: Asset bundles help you bundle a group of assets, already in your inventory, as a single entity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/asset-bundles-concept.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -24,9 +25,9 @@ An asset bundle comprises consumable and hardware assets.
 |Logitech mouse PB567VT|consumable|
 |Apple keyboard MT65021R|consumable|
 
-Asset bundles are based on bundled models. A bundled model is a grouping of models. For more information on bundled models, see [Bundled models](../../product-catalog/concept/c_CreatingBundledModels.md).
+Asset bundles are based on bundled models. A bundled model is a grouping of models. For more information on bundled models, see [Bundled models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/product-catalog/c_CreatingBundledModels.md).
 
-Existing assets from stockrooms are used to create an asset bundle. Only assets that are in the **In stock** status and **Available** substatus are added to an asset bundle. If you want to exclude any assets, you must remove the asset from the bundle. For more information about asset exclusion, see [Hardware Asset Management license exclusion](ham-license-exclusion.md). Assets that are part of an asset bundle aren’t available as individual assets. No CIs are associated with an asset bundle.
+Existing assets from stockrooms are used to create an asset bundle. Only assets that are in the **In stock** status and **Available** substatus are added to an asset bundle. If you want to exclude any assets, you must remove the asset from the bundle. For more information about asset exclusion, see [Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/ham-license-exclusion.md). Assets that are part of an asset bundle aren’t available as individual assets. No CIs are associated with an asset bundle.
 
 An asset bundle goes through the entire asset life cycle. From building an asset bundle, allocating the bundle to a user, moving it to a state of maintenance if assets need repair, and finally retiring the bundle when its purpose is fulfilled.
 
@@ -38,7 +39,9 @@ You can retire an asset bundle and release all the assets belonging to the bundl
 
 Assets belonging to a bundle are excluded from sourcing, transfer orders, and disposal orders flows.
 
-For more information on creating asset bundles, see [Manage asset bundles from your inventory](../task/create-bundled-assets.md).
+**Important:** Asset reclamation supports hardware and consumable assets. Asset bundles and pallets aren't supported by default and require customization of the reclamation flow and request to handle these asset classes.
 
-**Parent Topic:**[IT Asset Management](../../software-asset-management2/concept/it-asset-management.md)
+For more information on creating asset bundles, see [Manage asset bundles from your inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-bundled-assets.md).
+
+**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/it-asset-management.md)
 

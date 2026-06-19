@@ -2,6 +2,7 @@
 title: Enable detailed project logging in Microsoft Azure DevOps Integration with Agile Development 2.0
 description: Understand how to enable the integration project logging in Microsoft Azure DevOps integration with Agile Development 2.0 so that you can view detailed project logs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/microsoft-azure-devops-integrations-comm/enable-integration-logs-azure.html
 release: zurich
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
@@ -29,7 +30,7 @@ Enable the project logging property in the Agile Azure DevOps Integration applic
 
 2.  Select the **Enable Integration Project Logging** check box.
 
-    ![Select the Yes|No check box to enable project logging.](../image/agile-azure-integration.png)
+    \[Omitted image "agile-azure-integration.png"\] Alt text: Select the Yes\|No check box to enable project logging.
 
 3.  Click **Save**.
 

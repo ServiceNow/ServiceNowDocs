@@ -2,11 +2,12 @@
 title: Telecom Discovery Via Fortinet SD-WAN
 description: The Service Graph Connector for Fortinet provides a telecom-aware integration that imports real-time network inventory data from the Fortinet network management system into the Configuration Management Database \(CMDB\). This integration enhances visibility and management of network resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-via-fortinet.html
 release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Indirect Discovery with SGCs, Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
 ---
@@ -22,7 +23,7 @@ The Service Graph Connector for Fortinet provides a telecom-aware integration th
 -   Simplified and Guided setup: Reduce time-to-value with a built-in guided setup that walks you through connection configuration, data source management, and import scheduling with ease.
 -   Flexible discovery options: Choose how and when to run discovery. Apply custom filters by device IP or name.
 
-**Note:** For a general overview of Service Graph Connector technology, see [Getting started with Service Graph Connectors](https://www.servicenow.com/docs/access?context=cmdb-sgc-intro&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+**Note:** For a general overview of Service Graph Connector technology, see .
 
 ## Fortinet SD-WAN architecture
 
@@ -36,9 +37,9 @@ Fortinet APIs use JSON-RPC to enable programmatic interaction with FortiManager 
 
 The following infographic illustrates the architecture of the Fortinet Service Graph Connector.
 
-![Fortinet SD-WAN architecture](../images/fortinet-service-connector-vertical.svg)
+\[Omitted image "fortinet-service-connector-vertical.svg"\] Alt text: Fortinet SD-WAN architecture
 
 ## CMDB Integrations Dashboard
 
-The Integration Commons for CMDB application provides a dashboard with a central view of the status, processing results, and processing errors of all installed Service Graph Connectors. The dashboard displays metrics for all integration runs. You can filter the view to a specific integration, time duration, or integration run. For more details about monitoring integrations in the CMDB Integrations Dashboard, see [Integration Commons for CMDB](https://www.servicenow.com/docs/access?context=integration-commons-for-cmdb&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+The Integration Commons for CMDB application provides a dashboard with a central view of the status, processing results, and processing errors of all installed Service Graph Connectors. The dashboard displays metrics for all integration runs. You can filter the view to a specific integration, time duration, or integration run. For more details about monitoring integrations in the CMDB Integrations Dashboard, see .
 

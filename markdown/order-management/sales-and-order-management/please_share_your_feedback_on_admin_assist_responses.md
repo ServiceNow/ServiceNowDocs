@@ -2,6 +2,7 @@
 title: User access
 description: Learn how to grant or revoke admin access for a user. Existing users have admin access by default, while new users have only end-user access.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/please\_share\_your\_feedback\_on\_admin\_assist\_responses.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -19,13 +20,13 @@ ServiceNow CPQ Admins can control access to the Admin interface by granting admi
 
 **Note:** If you try to access ServiceNow CPQ Admin without admin access enabled, you receive the message "An unknown error occurred." If you encounter this message, ask a user who has admin access to enable your access.
 
-![Error message](../images/cpq-error-unknown.png)
+\[Omitted image "cpq-error-unknown.png"\] Alt text: Error message
 
 ## Managing user access
 
 Configure user access by visiting Utilities &gt; User Access.
 
-![User access screen](../images/cpq-user-access-pane.png)
+\[Omitted image "cpq-user-access-pane.png"\] Alt text: User access screen
 
 1.  Username: Email address of the user. Click to edit \(see below\)
 2.  Access: The level of access a user has \(END\_USER or ADMIN\)
@@ -36,7 +37,7 @@ Configure user access by visiting Utilities &gt; User Access.
 
 To edit a user, click a username in the table.
 
-![Edit user screen](../images/cpq-user-access-edit-user.png)
+\[Omitted image "cpq-user-access-edit-user.png"\] Alt text: Edit user screen
 
 1.  Username: email address of the user being edited
 2.  Enable Admin Access: Toggle for controlling access to the Admin features of ServiceNow CPQ. The toggle to the right indicates that the user has Admin privileges
@@ -51,7 +52,7 @@ To edit a user, click a username in the table.
 
 ## Troubleshooting
 
-If you have Area Based Access Controls enabled. see [ServiceNow CPQ: User Access Control](logik_admin_user_access_control.md).
+If you have Area Based Access Controls enabled. see [ServiceNow CPQ: User Access Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/logik_admin_user_access_control.md).
 
 Before being able to access ServiceNow CPQ Admin, new users may need to restart their browser, clear their browser cache, or remove any ServiceNow CPQ session cookies.
 
@@ -59,13 +60,13 @@ If users experience login issues after a CSV import, verify that the user names 
 
 For example, suppose a user's name is lower case in Salesforce but was imported with an uppercase letter in ServiceNow CPQ, as in the following image.
 
-![User access](../images/cpq-user-access-troubleshooting-1.png)
+\[Omitted image "cpq-user-access-troubleshooting-1.png"\] Alt text: User access
 
 The user would face this issue on login with ServiceNow CPQ:
 
-![URL](../images/cpq-user-access-troubleshooting-2.png)
+\[Omitted image "cpq-user-access-troubleshooting-2.png"\] Alt text: URL
 
 After the user is reimported with the user name in the correct case, the issue is rectified.
 
-![List of Blueprints](../images/cpq-user-access-troubleshooting-3.png)
+\[Omitted image "cpq-user-access-troubleshooting-3.png"\] Alt text: List of Blueprints
 

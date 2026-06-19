@@ -2,6 +2,7 @@
 title: Smart Documents skill
 description: Accelerate document insights with instant summaries, interactive Q&amp;A, and FAQs using Now Assist in Document Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-skills/now-assist-skills-smart-documents.html
 release: zurich
 product: Now Assist Skills
 classification: now-assist-skills
@@ -19,11 +20,11 @@ Accelerate document insights with instant summaries, interactive Q&amp;A, and FA
 
 The Smart Documents skill provides a concise summary of the document associated with a workflow, along with interactive Q&amp;A and FAQs, enabling you to quickly understand the content, explore key insights and get answers to specific questions.
 
-You can summarize a document in a workspace, ask interactive questions, and view FAQs. To learn how, see [Generate summary and ask questions using Now Assist in Document Management](https://www.servicenow.com/docs/access?context=ask-questions-faqs-now-assist&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+You can summarize a document in a workspace, ask interactive questions, and view FAQs. To learn how, see 
 
 The following diagram shows that by using the Smart Document skill, you can quickly get insights from a document, such as a white paper, report, policy, contract, or case file.
 
-![smart document skill using](../image/now-assist-smart-documents-skill.png)
+\[Omitted image "now-assist-smart-documents-skill.png"\] Alt text: smart document skill using
 
 ## Availability
 
@@ -41,7 +42,7 @@ Technology
 
 </td><td>
 
-[Now Assist for IT Service Management \(ITSM\)](https://www.servicenow.com/docs/access?context=now-assist-itsm&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+
 
 </td></tr><tr><td>
 
@@ -49,9 +50,9 @@ Customer
 
 </td><td>
 
-[Now Assist for Customer Service Management \(CSM\)](https://www.servicenow.com/docs/access?context=now-assist-csm&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
 
- [Now Assist for Field Service Management \(FSM\)](https://www.servicenow.com/docs/access?context=now-assist-fsm&version=zurich&pubname=zurich-field-service-management&ft:locale=en-US)
+
+ 
 
 </td></tr><tr><td>
 
@@ -59,8 +60,16 @@ Employee
 
 </td><td>
 
-[Now Assist for HR Service Delivery \(HRSD\)](https://www.servicenow.com/docs/access?context=now-assist-hrsd&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US)
+
+
+</td></tr><tr><td>
+
+Governance,Risk, and Compliance
+
+</td><td>
+
+
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Now Assist skills in the Platform workflow](now-assist-on-now-platform.md)
+</table>**Parent Topic:**[Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md)
 

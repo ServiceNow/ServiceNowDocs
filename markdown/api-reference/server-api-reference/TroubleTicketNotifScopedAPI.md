@@ -2,6 +2,7 @@
 title: TroubleTicketNotificationUtilOOB - Scoped
 description: The TroubleTicketNotificationUtilOOB script include provides methods used to define and generate the TMF-compliant payloads for trouble ticket notification events.Adds custom event header attributes to the passed TMF trouble ticket event payload. The attributes added by this method are added to the event-level header for all trouble ticket events.Generates the TMF688-compliant header attributes in the event section of the payload. These attributes are consistent across all event payloads.Constructs the TMF-compliant payload for the associated create trouble ticket for incident event type.Constructs the TMF-compliant payload for the associated create trouble ticket for case event type.Constructs the TMF-compliant payload for the trouble ticket attribute change event for incident event type.Constructs the TMF-compliant payload for the associated trouble ticket status change event for incident event type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/TroubleTicketNotifScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -20,13 +21,13 @@ Override the methods in this script include to:
 -   Add/remove attributes to an existing trouble ticket event type.
 -   Define attributes for a new trouble ticket event type.
 
-For additional information, see [Configure trouble ticket notifications using the Producer Event Notification Framework](../../../../../integrate/guides/ProducerEventNotifFramework/concept/prd_evt_not-dev_gd-cfg_trbl_tkt_not.md).
+For additional information, see [Configure trouble ticket notifications using the Producer Event Notification Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/developer-guides/prd_evt_not-dev_gd-cfg_trbl_tkt_not.md).
 
 This script include runs within the `sn_ind_tsm_sdwan` namespace.
 
 The calling user must have the ticket\_integrator role.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## TroubleTicketNotificationUtilOOB - addAdditionalEventAttributes\(Object tmfEventPayload\)
 
@@ -62,7 +63,7 @@ Generates the TMF688-compliant header attributes in the event section of the pay
 
 In the default implementation, this method adds the **eventId** and the **@type** header attributes.
 
-This method calls the helper method [addAdditionalEventAttributes\(\)](TroubleTicketNotifScopedAPI.md#). In this method you can add other header attributes to the event payload. For details, see [Modify a trouble ticket event payload](../../../../../integrate/guides/ProducerEventNotifFramework/reference/prd_evt_not-dev_gd-mod-evt-pay.md).
+This method calls the helper method [addAdditionalEventAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/TroubleTicketNotifScopedAPI.md). In this method you can add other header attributes to the event payload. For details, see [Modify a trouble ticket event payload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/developer-guides/prd_evt_not-dev_gd-mod-evt-pay.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -90,7 +91,7 @@ Constructs the TMF-compliant payload for the associated create trouble ticket fo
 
 This method is executed when the associated event type is `TROUBLE_TICKET_CREATE: "TroubleTicketCreateEvent"`. This method calls two helper methods:
 
--   [constructTMFEvent\(\)](TroubleTicketNotifScopedAPI.md#): Adds the event header attributes \(TMF688\) to the payload.
+-   [constructTMFEvent\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/TroubleTicketNotifScopedAPI.md): Adds the event header attributes \(TMF688\) to the payload.
 -   addCreateTroubleTicketAttributes\(\): Override this method to add trouble ticket attributes \(TMF621\), both mandatory and optional, to the payload. This method is just a stub in the default implementation.
 
 You can override these helper methods in the `TroubleTicketNotificationUtil` script include to configure both event header and trouble ticket attributes in the TMF-compliant payload.
@@ -186,7 +187,7 @@ Constructs the TMF-compliant payload for the associated create trouble ticket fo
 
 This method is executed when the associated event type is `TROUBLE_TICKET_CREATE_FOR_CASE: "TroubleTicketCreateEventForCase"`. This method calls two helper methods:
 
--   [constructTMFEvent\(\)](TroubleTicketNotifScopedAPI.md#): Adds the event attributes \(TMF688\) to the payload.
+-   [constructTMFEvent\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/TroubleTicketNotifScopedAPI.md): Adds the event attributes \(TMF688\) to the payload.
 -   addCreateTroubleTicketAttributesForCase\(\): Override this method to add trouble ticket attributes \(TMF621\), both mandatory and optional, to the payload. This method is just a stub in the default implementation.
 
 You can override these helper methods in the `TroubleTicketNotificationUtil` script include to configure both event header and trouble ticket attributes in the TMF-compliant payload.
@@ -282,7 +283,7 @@ Constructs the TMF-compliant payload for the trouble ticket attribute change eve
 
 This method is executed when the associated event type is `TROUBLE_TICKET_ATTRIBUTE_CHANGE: "TroubleTicketAttributeChangeEvent"`. This method calls two helper methods:
 
--   [constructTMFEvent\(\)](TroubleTicketNotifScopedAPI.md#): Adds the event attributes \(TMF688\) to the payload.
+-   [constructTMFEvent\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/TroubleTicketNotifScopedAPI.md): Adds the event attributes \(TMF688\) to the payload.
 -   addAttributeChangeTroubleTicketAttributes\(\): Override this method to add trouble ticket attributes \(TMF621\), both mandatory and optional, to the payload. This method is just a stub in the default implementation.
 
 You can override these helper methods in the `TroubleTicketNotificationUtil` script include to configure both event header and trouble ticket attributes in the TMF-compliant payload.
@@ -378,7 +379,7 @@ Constructs the TMF-compliant payload for the associated trouble ticket status ch
 
 This method is executed when the associated event type is `TROUBLE_TICKET_STATUS_CHANGE: "TroubleTicketStatusChangeEvent"`. This method calls two helper methods:
 
--   [constructTMFEvent\(\)](TroubleTicketNotifScopedAPI.md#): Adds the event attributes \(TMF688\) to the payload.
+-   [constructTMFEvent\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/TroubleTicketNotifScopedAPI.md): Adds the event attributes \(TMF688\) to the payload.
 -   addStatusChangeTroubleTicketAttributes\(\): Override this method to add trouble ticket attributes \(TMF621\), both mandatory and optional, to the payload. This method is just a stub in the default implementation.
 
 You can override these helper methods in the `TroubleTicketNotificationUtil` script include to configure both event header and trouble ticket attributes in the TMF-compliant payload.

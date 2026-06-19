@@ -2,6 +2,7 @@
 title: Define the policy exception approval rules
 description: Approval rules define how policy exception requests are reviewed and approved, enabling organizations to create customized, multi-level workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/define-approval-rules-grc-config.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -220,5 +221,5 @@ Approval options: Select **All** to make it required for all the selected users 
 </table>    3.  Select **Submit**.
 
 
-**Parent Topic:**[Define policy exceptions and extensions with the GRC Approval Configurator](../concept/define-policy-exceptions-and-extensions-with-the-grc-approval-configurator.md)
+**Parent Topic:**[Define policy exceptions and extensions with the GRC Approval Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

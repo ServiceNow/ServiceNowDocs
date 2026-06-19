@@ -2,12 +2,13 @@
 title: Define event mappings for Work scheduler
 description: Add event mappings required for card interactions and for the card properties transformation to the page configurations in Work scheduler.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/work-sched-event-mapping.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Create a Work scheduler card using the Next Experience UI Builder, Setting up, Work scheduler, Workforce Optimization for ITSM, IT Service Management]
 ---
 
@@ -51,15 +52,15 @@ Role required: workspace\_admin or ui\_builder\_admin​
 
     The **Create an event** popup screen displays.
 
-<table id="choicetable_c2r_hgm_ntb"><thead><tr><th align="left" id="d138096e216">
+<table id="choicetable_c2r_hgm_ntb"><thead><tr><th align="left" id="d94430e216">
 
 To Attach
 
-</th><th align="left" id="d138096e219">
+</th><th align="left" id="d94430e219">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d138096e225">
+</th></tr></thead><tbody><tr><td id="d94430e225">
 
 **The __CARD\_CLICKED__ event**
 
@@ -71,7 +72,7 @@ Do this
 4.  Click **Add**.
 
 
-</td></tr><tr><td id="d138096e272">
+</td></tr><tr><td id="d94430e272">
 
 **The __CARD\_ACTION\_CLICKED \(Work item cards\)__ event**
 
@@ -84,21 +85,21 @@ Do this
 
 
 </td></tr></tbody>
-</table>    Here's a demo on how to define event mappings for the Work scheduler.Define event mappings for the Work Scheduler
+</table>    Here's a demo on how to define event mappings for the Work scheduler.
 
 
 ## What to do next
 
-[Configure container components for Work scheduler](work-sched-card-based-container.md)
+[Configure container components for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/work-sched-card-based-container.md)
 
-**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](create-workscheduler-card-wfo-itsm.md)
+**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/create-workscheduler-card-wfo-itsm.md)
 
-**Previous topic:**[Define the workItem property in the Work scheduler page configuration](work-sched-create-page-properties.md)
+**Previous topic:**[Define the workItem property in the Work scheduler page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/work-sched-create-page-properties.md)
 
-**Next topic:**[Configure container components for Work scheduler](work-sched-card-based-container.md)
+**Next topic:**[Configure container components for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/work-sched-card-based-container.md)
 
 **Related topics**  
 
 
-[Events in UI Builder](https://www.servicenow.com/docs/access?context=work-events&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+[bundle-cadev.work-events]
 

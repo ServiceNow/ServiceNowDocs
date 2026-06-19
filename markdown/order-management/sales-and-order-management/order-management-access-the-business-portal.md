@@ -2,6 +2,7 @@
 title: Access the Business Portal
 description: Customers can access the Business Portal from their instance to browse products and create orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/order-management-access-the-business-portal.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

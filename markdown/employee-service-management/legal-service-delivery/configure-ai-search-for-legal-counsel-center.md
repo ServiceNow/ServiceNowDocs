@@ -2,6 +2,7 @@
 title: Configure AI Search for Legal Counsel Center
 description: Configure your AI Search implementation for Legal Counsel Center Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/configure-ai-search-for-legal-counsel-center.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -53,5 +54,5 @@ Role required: admin
 
 The AI Search for Legal Counsel Center is configured and is available for consumption in the Legal Counsel Center Workspace.
 
-**Parent Topic:**[Configure Legal Counsel Center Workspace](../concept/configure-legal-counsel-center-workspace.md)
+**Parent Topic:**[Configure Legal Counsel Center Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/configure-legal-counsel-center-workspace.md)
 

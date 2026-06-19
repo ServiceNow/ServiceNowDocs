@@ -2,6 +2,7 @@
 title: OAuth API response parameters
 description: The OAuth 2.0 API produces a JSON response containing the following parameters as name:value pairs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/r\_OAuthAPIResponseParameters.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -32,7 +33,7 @@ The OAuth 2.0 API produces a JSON response containing the following parameters a
 |Type|true\|false|
 |Value|false|
 
-For details on creating system properties, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US)
+For details on creating system properties, see Add a system property
 
 The following example illustrates the JSON string returned by an access token request. \(Spaces have been added to improve readability\).
 

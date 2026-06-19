@@ -2,6 +2,7 @@
 title: Service Catalog category
 description: Validate single catalog item transactions as well as requester and fulfiller flows in Service Catalog.Open a catalog item.Open a record producer.Set variable values for the current catalog item or the record producer.Set the quantity for the current catalog item.Validate variable values on the current catalog item or record producer.Validate the state of variables. Possible variable states are mandatory, not mandatory, read only, not read only, visible, and not visible.Validate price and recurring price of a catalog item. Use this step after opening a catalog item page using the Open a Catalog Item step, and before using the Order Catalog Item step.Add a catalog item to the shopping cart. Use this step after opening a catalog item page using the Open a Catalog Item step. After this step, you cannot use any other steps on the catalog item.Clicks Order Now for a catalog item. Use this step after opening a catalog item page using the Open a Catalog Item step.Submits the current record producer. Use this step after opening the record producer page using the Open a Record producer step. After this step, you cannot use any other steps on the catalog item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/test-steps-service-catalog-category.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -21,7 +22,7 @@ These test steps require activation of the The Automated Test Framework Service 
 
 ## Support for parametrized tests
 
-Service Catalog step configurations support parametrized tests. For more information on parametrized tests, refer to [Parameterized tests](../concept/parameterized-tests.md).
+Service Catalog step configurations support parametrized tests. For more information on parametrized tests, refer to [Parameterized tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/parameterized-tests.md).
 
 ## Variable editor support
 

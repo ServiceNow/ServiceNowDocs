@@ -2,6 +2,7 @@
 title: IT Service Management AI agent collection assess quality of a change request agentic workflow
 description: Use the assess quality of a change request agentic workflow to assess the quality of a change request, analyze the information available in the fields, and generate suggestions to improve the information in the fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-assess-quality-change-request-workflow.html
 release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -24,7 +25,7 @@ To evaluate the quality of information in a change request, the workflow finds s
 
 **Note:** The assess quality of a change request agentic workflow doesn’t have a trigger and is invoked manually.
 
-To modify the assess quality of a change request agentic workflow, [duplicate it](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US), and adjust the settings according to your requirements. To clone an agentic workflow that is available by default, you must execute the semantic index for similarChangeRequests. The Business Rule \(\[Chg Quality\] Trigger semantic index\) that is available by default that activates this workflow doesn’t run automatically for cloned cases, so you must activate it manually or execute the script in the business rule to confirm that the index is performed.
+To modify the assess quality of a change request agentic workflow, duplicate it, and adjust the settings according to your requirements. To clone an agentic workflow that is available by default, you must execute the semantic index for similarChangeRequests. The Business Rule \(\[Chg Quality\] Trigger semantic index\) that is available by default that activates this workflow doesn’t run automatically for cloned cases, so you must activate it manually or execute the script in the business rule to confirm that the index is performed.
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
@@ -67,7 +68,7 @@ The agent executes the request for the agentic workflow.
 
 ## Example of the assess quality of a change request agentic workflow output in the ServiceNow® AI Agent Studio
 
-![Assess quality of a change request agentic workflow output in AI Agent Studio.](../image/now-assist-itsm-assess-quality-of-change-request-workflow.png)
+\[Omitted image "now-assist-itsm-assess-quality-of-change-request-workflow.png"\] Alt text: Assess quality of a change request agentic workflow output in AI Agent Studio.
 
 Access and use assess quality of a change request agentic workflow from the Now Assist panel.
 
@@ -75,5 +76,5 @@ You can add a query using the change request number to use the AI agent. You can
 
 For the query instruction, follow the steps specified in the **List of steps** field of the Define key requirements screen of the agentic workflow record.
 
-In the AI Agent Studio, the human agent gets notified as soon as a text message is generated so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the Now Assist panel](../task/request-gen-ai-capabilities-itsm-now-assist-panel.md).
+In the AI Agent Studio, the human agent gets notified as soon as a text message is generated so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
 

@@ -2,6 +2,7 @@
 title: Google Cloud Platform Load Balancer
 description: Cloud Services Catalog with Google Cloud Platform HTTP Load Balancer for high availability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/google-cloud-platform-load-balancer.html
 release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -34,8 +35,8 @@ Order a HTTP load balancer to distribute user traffic across multiple instances 
 This fully functional catalog item creates a Classic Application Load Balancer - Global. Only external load balancers are available as global load balancers. Choose a global load balancer when you want the load balancer to be distributed globally. Each global load balancer is distributed across all regions. It is unaffected by zonal and regional outages.
 
 </td></tr></tbody>
-</table>-   **[Google Cloud Platform Load Balancer Out Of Box permissions](gcp-load-balancer-oob-permissions.md)**  
+</table>-   **[Google Cloud Platform Load Balancer Out Of Box permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/gcp-load-balancer-oob-permissions.md)**  
 Google Cloud Platform HTTP Load Balancer Out Of Box permissions
 
-**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](../concept/out-of-the-box-catalog-items.md)
+**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md)
 

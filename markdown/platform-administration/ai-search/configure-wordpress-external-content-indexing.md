@@ -2,11 +2,12 @@
 title: Configure WordPress for external content indexing
 description: Create an admin user and an application password in your WordPress website to allow the WordPress external content connector to access your WordPress content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-wordpress-external-content-indexing.html
 release: zurich
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2025-10-14"
+last_updated: "2026-06-08"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [WordPress external content connector, Configure, External Content Connectors, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
@@ -26,11 +27,11 @@ Role required: none
 
 The WordPress external content connector retrieves pages and blog posts and their attachments from your WordPress source system using the WordPress REST API.
 
-To allow the connector to access your WordPress source system via the WordPress REST API, you must set an application user name and password in the WordPress Admin dashboard. Your connector admin can use these credentials to configure the WordPress external connector for proper connection to your source system.
+To allow the connector to access your WordPress source system via the WordPress REST API, you must set an application user name and password in the WordPress Admin dashboard. Your connector administrator can use these credentials to configure the WordPress external connector for proper connection to your source system.
 
 ## Procedure
 
-1.  Navigate to the WordPress Admin dashboard at `https://<wordpress-site>/wp-admin/`, replacing `<wordpress-site>` with the fully-qualified hostname for your WordPress website.
+1.  Navigate to the WordPress Admin dashboard at `https://<wordpress-site>/wp-admin/`, replacing `<wordpress-site>` with the fully qualified hostname for your WordPress website.
 
     For example, if your WordPress website is in the `wordpress.com` domain, you might replace `<wordpress-hostname>` with `example.wordpress.com`. If your WordPress website has its own domain, you might replace `<wordpress-hostname>` with `example-wordpress.com`.
 
@@ -48,7 +49,7 @@ To allow the connector to access your WordPress source system via the WordPress 
 
     3.  Copy the username you entered and record it in a secure location.
 
-        **Important:** Your external content connector admin needs this user name when configuring the WordPress external content connector.
+        **Important:** Your external content connector administrator needs this user name when configuring the WordPress external content connector.
 
     4.  Replace the auto-generated password for the new user account by selecting **Generate password** or entering a password of your own choice.
 
@@ -72,22 +73,22 @@ To allow the connector to access your WordPress source system via the WordPress 
 
     4.  Copy the new application password and record it in a secure location.
 
-        **Important:** Your external content connector admin needs this application password when configuring the WordPress external content connector.
+        **Important:** Your external content connector administrator needs this application password when configuring the WordPress external content connector.
 
     5.  Select **Update User**.
 
 
 ## What to do next
 
-Provide the following items to your connector admin:
+Provide the following items to your connector administrator:
 
 -   The URL for your WordPress website.
--   The user name for the administrator user account that you copied in step [4.c](configure-wordpress-external-content-indexing.md#copy-username-step).
--   The application password for the administrator user account that you copied in step [5.d](configure-wordpress-external-content-indexing.md#copy-password-step).
+-   The user name for the administrator user account that you copied in step [4.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-wordpress-external-content-indexing.md).
+-   The application password for the administrator user account that you copied in step [5.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-wordpress-external-content-indexing.md).
 
-Your connector admin needs these items to configure a WordPress external content connector to retrieve pages and blog posts and security principals from your WordPress source system.
+Your connector administrator needs these items to configure a WordPress external content connector to retrieve pages and blog posts and security principals from your WordPress source system.
 
-For details on creating and configuring a WordPress external content connector, see [Create a WordPress external content connector](create-ext-cont-connector-wordpress.md).
+For details on creating and configuring a WordPress external content connector, see [Create a WordPress external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-wordpress.md).
 
-**Parent Topic:**[WordPress external content connector](../concept/wordpress-external-content-connector.md)
+**Parent Topic:**[WordPress external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/wordpress-external-content-connector.md)
 

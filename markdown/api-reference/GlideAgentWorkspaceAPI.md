@@ -2,6 +2,7 @@
 title: GlideAgentWorkspace \(g\_aw\) - Client
 description: The g\_aw API provides methods that enable a UI action or client script to open a specified record in an Agent Workspace tab.Closes the currently open record, such as a form, in a subtab within Agent Workspace.Opens a specified record, such as a form, in a subtab within Agent Workspace.Sets a form section to expanded or collapsed state.Gets the domain scope details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/GlideAgentWorkspaceAPI.html
 release: zurich
 product: API Reference
 classification: api-reference
@@ -17,7 +18,7 @@ The g\_aw API provides methods that enable a UI action or client script to open 
 
 There is no constructor for this class. Access GlideAgentWorkspace methods using the `g_aw` global object.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/api-client.md)
 
 ## GlideAgentWorkspace - closeRecord\(\)
 
@@ -177,7 +178,7 @@ String
 
 Name of the initial tab to display in the workspace. You can only specify related items or related lists.If not specified, the details tab appears unless **hideDetails** is set to true.
 
- For more information on the method to use to obtain a related list name, see [getRelatedListNames\(\)](../../GlideForm/concept/c_GlideFormAPI.md#).
+ For more information on the method to use to obtain a related list name, see [getRelatedListNames\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/c_GlideFormAPI.md).
 
 </td></tr><tr><td>
 
@@ -339,7 +340,7 @@ You can add this example as a client script with the type set to "onLoad" for in
 
 Gets the domain scope details.
 
-The domainScopeProvider\(\) method accesses four functions to return information about the domain scope. For information, see [Domain scope](https://www.servicenow.com/docs/access?context=c_DomainScope&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+The domainScopeProvider\(\) method accesses four functions to return information about the domain scope. For information, see .
 
 Required role – domain\_expand\_scope.
 

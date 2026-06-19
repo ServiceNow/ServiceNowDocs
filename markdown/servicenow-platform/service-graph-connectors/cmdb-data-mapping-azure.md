@@ -2,6 +2,7 @@
 title: Data mapping for Service Graph Connector for Microsoft Azure
 description: Data from the Azure data sources is mapped and transformed into the ServiceNow CMDB Configuration Item \(CI\) class definitions using the Robust Transform Engine \(RTE\). Data is inserted into the ServiceNow CMDB using the Identification and Reconciliation Engine \(IRE\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/cmdb-data-mapping-azure.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -43,9 +44,9 @@ SG Azure Subscriptions \[sn\_sg\_azure\_integ\_subscriptions\]
 
 </td><td>
 
-[Cloud Service Account](cmdb-azure-classes.md#section_vnq_lp5_vxb)
+[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Key Value](cmdb-azure-classes.md#section_spn_dp5_vxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
 </td></tr><tr><td>
 
@@ -57,7 +58,7 @@ SG-Azure Datacenter Updation \[sn\_sg\_azure\_integ\_datacenter\_updation\]
 
 </td><td>
 
-[Azure Datacenter](cmdb-azure-classes.md#section_qhy_tp5_vxb)
+[Azure Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
 </td></tr><tr><td>
 
@@ -69,9 +70,9 @@ SG-Azure Resource Group \[sn\_sg\_azure\_integ\_resource\_groups\]
 
 </td><td>
 
-[Resource Group](cmdb-azure-classes.md#section_izj_vp5_vxb)
+[Resource Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Key Value](cmdb-azure-classes.md#section_spn_dp5_vxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
 </td></tr><tr><td>
 
@@ -83,9 +84,9 @@ SG-Azure Availability Sets \[sn\_sg\_azure\_integ\_availability\_sets\]
 
 </td><td>
 
-[Availability Zone](cmdb-azure-classes.md#id_yms_cvk_gvb)
+[Availability Zone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Key Value](cmdb-azure-classes.md#section_spn_dp5_vxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
 </td></tr><tr><td>
 
@@ -97,9 +98,9 @@ SG-Azure Storage Volume \[sn\_sg\_azure\_integ\_storage\_volume\]
 
 </td><td>
 
-[Storage Volume](cmdb-azure-classes.md#section_a2s_1q5_vxb)
+[Storage Volume](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Key Value](cmdb-azure-classes.md#section_spn_dp5_vxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
 </td></tr><tr><td>
 
@@ -111,11 +112,11 @@ SG-Azure Load Balancers \[sn\_sg\_azure\_integ\_load\_balancers\]
 
 </td><td>
 
-[Cloud Load Balancer](cmdb-azure-classes.md#section_prq_dp5_vxb)
+[Cloud Load Balancer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Cloud LB IPAddress](cmdb-azure-classes.md#section_whh_cp5_vxb)
+ [Cloud LB IPAddress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Key Value](cmdb-azure-classes.md#section_spn_dp5_vxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
 </td></tr><tr><td>
 
@@ -127,13 +128,13 @@ SG-Azure Network \[sn\_sg\_azure\_integ\_network\]
 
 </td><td>
 
-[Cloud Network](cmdb-azure-classes.md#section_lg3_hp5_vxb)
+[Cloud Network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Cloud Service Account](cmdb-azure-classes.md#section_vnq_lp5_vxb)
+ [Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Cloud Subnet](cmdb-azure-classes.md#section_fh2_4p5_vxb)
+ [Cloud Subnet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Key Value](cmdb-azure-classes.md#section_spn_dp5_vxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
 </td></tr><tr><td>
 
@@ -145,15 +146,15 @@ SG-Azure Public IP Address \[sn\_sg\_azure\_integ\_public\_ip\_address\]
 
 </td><td>
 
-[Cloud Public IP Address](cmdb-azure-classes.md#section_myn_kp5_vxb)
+[Cloud Public IP Address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Cloud Mgmt Network Interface](cmdb-azure-classes.md#section_tc2_gp5_vxb)
+ [Cloud Mgmt Network Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Cloud Load Balancer](cmdb-azure-classes.md#section_prq_dp5_vxb)
+ [Cloud Load Balancer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Cloud LB IPAddress](cmdb-azure-classes.md#section_whh_cp5_vxb)
+ [Cloud LB IPAddress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Key Value](cmdb-azure-classes.md#section_spn_dp5_vxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
 </td></tr><tr><td>
 
@@ -165,9 +166,9 @@ SG-Azure Security Group \[sn\_sg\_azure\_integ\_security\_group\]
 
 </td><td>
 
-[Compute Security Group](cmdb-azure-classes.md#section_ycn_pp5_vxb)
+[Compute Security Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Key Value](cmdb-azure-classes.md#section_spn_dp5_vxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
 </td></tr><tr><td>
 
@@ -179,9 +180,9 @@ SG-Azure Storage Accounts \[sn\_sg\_azure\_integ\_storage\_accounts\]
 
 </td><td>
 
-[Cloud Storage Account](cmdb-azure-classes.md#section_ltf_np5_vxb)
+[Cloud Storage Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Key Value](cmdb-azure-classes.md#section_spn_dp5_vxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
 </td></tr><tr><td>
 
@@ -193,19 +194,19 @@ SG-Azure Virtual Machine \[sn\_sg\_azure\_integ\_virtual\_machine\]
 
 </td><td>
 
-[Virtual Machine Instance](cmdb-azure-classes.md#section_ml4_bq5_vxb)
+[Virtual Machine Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Image](cmdb-azure-classes.md#section_zfx_rp5_vxb)
+ [Image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Computer](cmdb-azure-classes.md#section_o1l_zrn_dfc)
+ [Computer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Linux Server](cmdb-azure-classes.md#section_lzf_3p5_vxb)
+ [Linux Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Server](cmdb-azure-classes.md#section_w3d_yp5_vxb)
+ [Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Windows Server](cmdb-azure-classes.md#section_rdg_xp5_vxb)
+ [Windows Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Key Value](cmdb-azure-classes.md#section_spn_dp5_vxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
 </td></tr><tr><td>
 
@@ -217,13 +218,13 @@ SG-Azure Network Interface \[sn\_sg\_azure\_integ\_network\_interface\]
 
 </td><td>
 
-[Cloud Mgmt Network Interface](cmdb-azure-classes.md#section_tc2_gp5_vxb)
+[Cloud Mgmt Network Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [IP Address](cmdb-azure-classes.md#section_bmr_bp5_zyb)
+ [IP Address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Virtual Machine Instance](cmdb-azure-classes.md#section_ml4_bq5_vxb)
+ [Virtual Machine Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Key Value](cmdb-azure-classes.md#section_spn_dp5_vxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
 </td></tr><tr><td>
 
@@ -235,13 +236,13 @@ SG-Azure SQL \[sn\_sg\_azure\_integ\_sql\]
 
 </td><td>
 
-[Cloud DataBase](cmdb-azure-classes.md#section_n41_kq5_vxb)
+[Cloud DataBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Key Value](cmdb-azure-classes.md#section_spn_dp5_vxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
 </td></tr><tr><td>
 
-SG-Azure Functions
+SG-Azure Functions and WebSites
 
 </td><td>
 
@@ -249,7 +250,9 @@ SG-Azure Functions \[sn\_sg\_azure\_integ\_functions\]
 
 </td><td>
 
-[Cloud Function](cmdb-azure-classes.md#section_dhq_hq5_zyb)
+[Cloud WebServer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
+
+ [Cloud Function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
 </td></tr><tr><td>
 
@@ -261,9 +264,9 @@ SG-Azure Generic Resources \[sn\_sg\_azure\_integ\_generic\_resources\]**Note:**
 
 </td><td>
 
-[Cloud Resource](cmdb-azure-classes.md#section_fmk_bl2_b1c)
+[Cloud Resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Key Value](cmdb-azure-classes.md#section_spn_dp5_vxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
 </td></tr><tr><td>
 
@@ -275,7 +278,7 @@ SG-Azure Scale Sets \[sn\_sg\_azure\_integ\_scale\_sets\]
 
 </td><td>
 
-[Instance Scale Set](cmdb-azure-classes.md#section_oxm_sh2_b1c)
+[Instance Scale Set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
 </td></tr><tr><td>
 
@@ -287,25 +290,25 @@ SG-Azure Scale Sets VMs \[sn\_sg\_azure\_integ\_scale\_sets\_vms\]
 
 </td><td>
 
-[Virtual Machine Instance](cmdb-azure-classes.md#section_ml4_bq5_vxb)
+[Virtual Machine Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Storage Volume](cmdb-azure-classes.md#section_a2s_1q5_vxb)
+ [Storage Volume](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Image](cmdb-azure-classes.md#section_zfx_rp5_vxb)
+ [Image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Cloud Mgmt Network Interface](cmdb-azure-classes.md#section_tc2_gp5_vxb)
+ [Cloud Mgmt Network Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Hardware Type](cmdb-azure-classes.md#section_nkn_qp5_vxb)
+ [Hardware Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Azure Datacenter](cmdb-azure-classes.md#section_qhy_tp5_vxb)
+ [Azure Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Linux Server](cmdb-azure-classes.md#section_lzf_3p5_vxb)
+ [Linux Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Server](cmdb-azure-classes.md#section_w3d_yp5_vxb)
+ [Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Windows Server](cmdb-azure-classes.md#section_rdg_xp5_vxb)
+ [Windows Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Key Value](cmdb-azure-classes.md#section_spn_dp5_vxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
 </td></tr><tr><td>
 
@@ -321,13 +324,13 @@ The SG-Azure Software import is set to inactive by default.
 
 When the Software Asset Management \(SAM\) application isn't installed:
 
- [Software](cmdb-azure-classes.md#section_aqz_yp5_vxb)
+ [Software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Software Instance](cmdb-azure-classes.md#section_s5y_zp5_vxb)
+ [Software Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
  When the SAM application is installed:
 
- [Software Installation](cmdb-azure-classes.md#section_bfy_sp5_vxb)
+ [Software Installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
 </td></tr><tr><td>
 
@@ -341,13 +344,13 @@ SG-Azure Software Remove \[sn\_sg\_azure\_integ\_software\_remove\]The SG-Azure 
 
 When the SAM application isn't installed:
 
- [Software](cmdb-azure-classes.md#section_aqz_yp5_vxb)
+ [Software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Software Instance](cmdb-azure-classes.md#section_s5y_zp5_vxb)
+ [Software Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
  When the SAM application is installed:
 
- [Software Installation](cmdb-azure-classes.md#section_bfy_sp5_vxb)
+ [Software Installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
 </td></tr><tr><td>
 
@@ -355,7 +358,7 @@ SG-Azure TCP
 
 </td><td>
 
-SG-Azure TCP \[sn\_sg\_azure\_integ\_tcp\]**Note:** The SG-Azure TCP data source imports the TCP and processes data from the VMConnection and VMProcess tables in the Log Analytics workspace of Azure. To populate the tables, you must first enable the VM insights feature in the Azure portal. For more information, see [Enabling VM insights for collecting Azure data](../concept/sgc-cmdb-azure-vm-insights.md).
+SG-Azure TCP \[sn\_sg\_azure\_integ\_tcp\]**Note:** The SG-Azure TCP data source imports the TCP and processes data from the VMConnection and VMProcess tables in the Log Analytics workspace of Azure. To populate the tables, you must first enable the VM insights feature in the Azure portal. For more information, see [Enabling VM insights for collecting Azure data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-azure-vm-insights.md).
 
 </td><td>
 
@@ -373,7 +376,7 @@ Hardware templates \[sn\_sg\_azure\_integ\_hardware\_templates\]
 
 </td><td>
 
-[Hardware Type](cmdb-azure-classes.md#section_nkn_qp5_vxb)
+[Hardware Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
 </td></tr><tr><td>
 
@@ -385,9 +388,9 @@ SG-Azure HW Consolidation \[sn\_sg\_azure\_integ\_hw\_consolidation\]
 
 </td><td>
 
-[Virtual Machine Instance](cmdb-azure-classes.md#section_ml4_bq5_vxb)
+[Virtual Machine Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
- [Computer](cmdb-azure-classes.md#section_o1l_zrn_dfc)
+ [Computer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
 </td></tr><tr><td>
 
@@ -411,7 +414,7 @@ SG-Azure Get Run Command \[sn\_sg\_azure\_integ\_get\_run\_command\]
 
 </td><td>
 
-[Application](cmdb-azure-classes.md#section_mtg_rdb_hdc)
+[Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
  TCP Connection
 
@@ -427,12 +430,12 @@ SG-Azure Kubernetes Cluster \[sn\_sg\_azure\_integ\_kubernetes\_cluster\]
 
 </td><td>
 
-[Kubernetes Cluster](cmdb-azure-classes.md#section_scm_2ws_1gc)
+[Kubernetes Cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
 </td></tr></tbody>
-</table>For more information on where data is saved when pulling data from Azure, see [CMDB classes targeted in Service Graph Connector for Microsoft Azure](cmdb-azure-classes.md) and [Supported Microsoft Azure resource types](cmdb-sgc-azure-resource-types.md).
+</table>For more information on where data is saved when pulling data from Azure, see [CMDB classes targeted in Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md) and [Supported Microsoft Azure resource types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-sgc-azure-resource-types.md).
 
-You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](../concept/integrationhub-etl.md) for more information.
+You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/integration-hub-etl/integrationhub-etl.md) for more information.
 
 Additional information about Azure data sources:
 
@@ -450,7 +453,7 @@ Additional information about Azure data sources:
 
 ## Related content
 
-[CMDB classes targeted in Service Graph Connector for Microsoft Azure](cmdb-azure-classes.md)
+[CMDB classes targeted in Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
-[Service Graph Connector for Microsoft Azure properties](cmdb-sgc-azure-props.md)
+[Service Graph Connector for Microsoft Azure properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-sgc-azure-props.md)
 

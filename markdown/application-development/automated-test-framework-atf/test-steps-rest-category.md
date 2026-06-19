@@ -2,6 +2,7 @@
 title: REST category
 description: Verify the functionality of REST calls.This test step begins with the REST API Explorer. Use the REST API Explorer to create and specify the HTTP method, path, query parameters, request headers, and body of a REST request, and then send the REST request to the current instance.Create a test step to send a REST request to the current instance. Specify the HTTP method, path, query parameters, request headers, and body of a REST request.Assert that the HTTP response status code has the specified relationship to the specified value. You specify a numeric value of the status code and the relationship.Assert that the HTTP response status code name has the specified relationship to the specified value. You specify a value of the status code name, and the relationship.Assert that the HTTP response time has the specified relationship to the specified value. You specify a value of the response time and the relationship.Assert the HTTP response header exists, or the header has the specified relationship to the specified value.Assert that the response payload is in valid JSON format.Assert that the response payload is well-formed XML.Assert the XML response payload element exists, or has the specified relationship to the specified value.Assert the JSON response payload element exists, or has the specified relationship to the specified value.Assert the HTTP response payload has the specified relationship to the specified value. You specify the value and the relationship.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/test-steps-rest-category.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -27,7 +28,7 @@ No HTTP response validation is performed as part of this step. The step fails if
 
 You cannot use this step to send a request to another instance or third party/remote address.
 
-These inputs are for the REST API Explorer. The fields you see depend upon the API selected. For more information on using REST APIs on your instance, see [REST APIs](https://www.servicenow.com/docs/access?context=c_RESTAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+These inputs are for the REST API Explorer. The fields you see depend upon the API selected. For more information on using REST APIs on your instance, see REST APIs.
 
 <table id="table_bdv_bn1_xy"><thead><tr><th>
 
@@ -102,7 +103,7 @@ No HTTP response validation is performed as part of this step. The step fails if
 
 You cannot use this step to send a request to another instance or third party/remote address.
 
-For more information on using REST APIs, see the [REST APIs](https://www.servicenow.com/docs/access?context=c_RESTAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+For more information on using REST APIs, see the REST APIs.
 
 <table id="table_gny_jkd_yy"><thead><tr><th>
 
@@ -176,7 +177,7 @@ Authentication Type
 
 The type of authentication to use. For public APIs, select **None**.
 
- To configure basic or mutual authentication, users need the atf\_ws\_designer role. For more information, see [Automated Test Framework roles](atf-roles.md).
+ To configure basic or mutual authentication, users need the atf\_ws\_designer role. For more information, see [Automated Test Framework roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-roles.md).
 
 </td></tr><tr><td>
 
@@ -184,7 +185,7 @@ Basic authentication
 
 </td><td id="basic-authentication">
 
-The basic authentication profile to use when doing the test. You must create or select a basic authentication profile to assign to test steps to avoid authentication issues when running the test. For more information, see [Create a basic auth profile using the Automated Test Framework](../task/atf-create-basic-auth-profile.md).
+The basic authentication profile to use when doing the test. You must create or select a basic authentication profile to assign to test steps to avoid authentication issues when running the test. For more information, see [Create a basic auth profile using the Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-create-basic-auth-profile.md).
 
 </td></tr><tr><td>
 
@@ -192,7 +193,7 @@ Mutual authentication
 
 </td><td>
 
-An X.509 certificate for mutual authentication. You must create or select a client certificate to assign to test steps to avoid authentication issues when running the test. For more information, see [Set up Certificate-based authentication](https://www.servicenow.com/docs/access?context=set-up-mutual-auth&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+An X.509 certificate for mutual authentication. You must create or select a client certificate to assign to test steps to avoid authentication issues when running the test. For more information, see .
 
 </td></tr><tr><td>
 
@@ -941,7 +942,7 @@ SNC path to the element to be evaluated. For example, `/result/short_description
 }
 ```
 
- See [Importing JSON files](https://www.servicenow.com/docs/access?context=json-data-source-examples&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) for more information.
+ See Importing JSON files for more information.
 
 </td></tr><tr><td>
 

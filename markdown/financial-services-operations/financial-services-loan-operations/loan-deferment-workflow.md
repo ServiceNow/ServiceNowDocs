@@ -2,6 +2,7 @@
 title: Loan Deferment workflow
 description: Learn how bank agents, using the Loan Deferment workflow, resolve a loan service request for a temporary postponement of a scheduled loan repayment. The workflow applies to both business and personal loan service requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-loan-operations/loan-deferment-workflow.html
 release: zurich
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
@@ -23,7 +24,7 @@ Forbearance is also a temporary postponement of scheduled loan repayments where 
 
 The following diagram shows how the application helps bank agents resolve a Loan Deferment service request.
 
-![Workflow that shows how a loan service request for deferment is resolved using the Loan Operations application.](../image/loan-deferment-workflow.png "Loan Deferment workflow")
+\[Omitted image "loan-deferment-workflow.png"\] Alt text: Workflow that shows how a loan service request for deferment is resolved using the Loan Operations application.
 
 The following workflow routes the case and tasks for a Loan Deferment service request to agents in different departments. The agents log in to Workspace to work on the tasks in their queue. For Loan Deferment workflow for personal loan operations, agents can also use the case playbook that guides them through the steps that are needed to resolve the case.
 

@@ -2,6 +2,7 @@
 title: Activate the sitemap configuration and definition records for the Knowledge Portal
 description: Include knowledge articles in your sitemap by activating the sitemap configuration and definition records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/config-sitemap-generator.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -17,7 +18,7 @@ Include knowledge articles in your sitemap by activating the sitemap configurati
 
 ## Before you begin
 
--   [Activate Sitemap Generator](https://www.servicenow.com/docs/access?context=activate-sitemap-generator&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
+-   Activate Sitemap Generator
 -   Verify that an unauthenticated user can access the knowledge base article by accessing it as a guest user.
 -   Verify that the Public option is selected on the Knowledge Article View form.
 
@@ -39,7 +40,7 @@ Beginning with the Zurich release, the Sitemap Generator configuration is availa
 
     2.  In the Sitemap Config Definition related list, double-click the **Type** field and select the **true** option from the list.
 
-    3.  Select the Save icon \(![Save icon](../image/save-km.png)\).
+    3.  Select the Save icon \(\[Omitted image "save-km.png"\] Alt text: Save icon\).
 
 4.  Select **Update**.
 
@@ -48,5 +49,5 @@ Beginning with the Zurich release, the Sitemap Generator configuration is availa
 
 All active sitemaps regenerate once in a day and include content from any of their active sitemap definitions.
 
-**Parent Topic:**[Configuring Knowledge Management](../concept/configuring-knowledge-management.md)
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 

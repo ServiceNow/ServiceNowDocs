@@ -2,6 +2,7 @@
 title: Add a record page for a workspace in Workspace Builder
 description: Configure a record page for a workspace in Workspace Builder. Use containers and components to guide a user through an experience. Each record page is linked to only one data table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/workspace-builder/configure-record-page-workspace.html
 release: zurich
 product: Workspace Builder
 classification: workspace-builder
@@ -20,7 +21,7 @@ Configure a record page for a workspace in Workspace Builder. Use containers and
 Role required:
 
 -   admin or Guided Application Creator for ServiceNow Studio.
--   sn\_app\_eng\_studio.user or delegated\_developer for AES. For more information, see [Delegate developers using AES](../concept/aes-app-dev-workflow.md).
+-   sn\_app\_eng\_studio.user or delegated\_developer for AES. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## About this task
 
@@ -36,7 +37,7 @@ If you don't see the record page for a table you configured for the workspace, s
 
 1.  Navigate to Workspace Builder.
 
-    For details on how to open Workspace Builder in ServiceNow Studio or AES, see [Accessing Workspace Builder](../../workspace-builder/concept/accessing-workspace-builder-aes-crs.md).
+    For details on how to open Workspace Builder in ServiceNow Studio or AES, see [Accessing Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/accessing-workspace-builder-aes-crs.md).
 
 2.  Create a record page.
 
@@ -44,7 +45,7 @@ If you don't see the record page for a table you configured for the workspace, s
 
     1.  In the Workspace Builder header, from the **Record pages** menu, select **+ Create new**.
 
-        ![Workspace tab open with Record pages menu expanded showing the create new option.](../image/wb-create-record-page2.png)
+        \[Omitted image "wb-create-record-page2.png"\] Alt text: Workspace tab open with Record pages menu expanded showing the create new option.
 
     2.  On the form, fill in the fields.
 
@@ -85,11 +86,11 @@ You can select from two sections: Tables that are already available in your app,
 
     1.  In the navigation panel, select **Record details**.
 
-        ![Record page details](../image/wb-record-page-details-purple.png)
+        \[Omitted image "wb-record-page-details-purple.png"\] Alt text: Record page details
 
     2.  In the **Form details** section of the configuration panel, select **Edit form** and fill in the fields.
 
-        ![Configuration panel with form details section highlighted.](../image/wb-create-record-page4.png)
+        \[Omitted image "wb-create-record-page4.png"\] Alt text: Configuration panel with form details section highlighted.
 
 <table id="table_jjk_wbt_l5b"><thead><tr><th>
 
@@ -107,7 +108,7 @@ Form details
 
 Select the **Edit form** link to edit the form in a Table Builder tab inside AES.**Note:** After you leave the record page in the Table Builder tab, a dialog prompts you to **Reload this page**.
 
-For more information on editing forms for a record page, see [Forms in Table Builder](../../../administer/form-builder/concept/form-view-configuration.md).
+For more information on editing forms for a record page, see [Forms in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/form-builder-glide-family-release/form-view-configuration.md).
 
 </td></tr><tr><td>
 
@@ -115,18 +116,18 @@ Activity stream
 
 </td><td>
 
-Option to enable the Activity stream for the record page. The Activity stream enables your workspace users to communicate with requesters and make internal notes about the work done on a record. For more information on the Activity stream, see [Activity streams](https://www.servicenow.com/docs/access?context=c_activity-streams&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+Option to enable the Activity stream for the record page. The Activity stream enables your workspace users to communicate with requesters and make internal notes about the work done on a record. For more information on the Activity stream, see .
 
 </td></tr></tbody>
 </table>4.  Configure the related information in the Related information section of the configuration panel for the record page.
 
-    Related information includes tables that are related to the record, which appear as tabs, such as Child Incidents. For more information on configuring related information, see [Related lists](https://www.servicenow.com/docs/access?context=c_RelatedLists&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    Related information includes tables that are related to the record, which appear as tabs, such as Child Incidents. For more information on configuring related information, see .
 
     **Note:** You can't create a table for the related information in a record page. The table must exist in ServiceNow AI Platform.
 
     1.  If no related lists exist yet, add a new related list by selecting **+ Add tabs** in the **Releated information** section.
 
-        ![Configuration panel with related information section highlighted](../image/wb-create-record-page5.png)
+        \[Omitted image "wb-create-record-page5.png"\] Alt text: Configuration panel with related information section highlighted
 
         If related lists exist for the record page, select the **Manage related information** link in the configuration panel.
 
@@ -138,11 +139,11 @@ Option to enable the Activity stream for the record page. The Activity stream en
 
     5.  View the changes that you made by selecting **Reload this page** in the dialog box that appears.
 
-    Each related information component has an information icon \(![Information icon](../image/icon-information.png)\) that, when selected, displays its related table.
+    Each related information component has an information icon \(\[Omitted image "icon-information.png"\] Alt text: Information icon\) that, when selected, displays its related table.
 
 5.  Provide fulfillers with visibility into cross-business workflows and the actionable tasks used to complete these workflows by specifying the playbook.
 
-    For more information on playbooks, see [About Playbook Experience](https://www.servicenow.com/docs/access?context=playbook-ui&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+    For more information on playbooks, see .
 
     **Note:** You must have the Playbook Experience plugin installed.If you used a template to create the app, you can't add a playbook to the record page. For details on how to add a playbook for workspaces created from templates, see [this knowledgebase article](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=13fd98de1bfd6510a4de35df034bcbce).
 
@@ -177,11 +178,11 @@ Existing playbook to add to the record.**Note:** You can choose only from the pl
 </td></tr></tbody>
 </table>    3.  Select **Add**.
 
-    4.  Update the playbook by selecting the settings icon \(![Icon to edit playbook settings](../image/wb-settings-icon-2.png)\), making the change, and then selecting **Update**.
+    4.  Update the playbook by selecting the settings icon \(\[Omitted image "wb-settings-icon-2.png"\] Alt text: Icon to edit playbook settings\), making the change, and then selecting **Update**.
 
         **Note:** If you want to make additional changes to the playbook, you must open and edit the playbook in Playbooks.
 
-    5.  Delete a playbook from the workspace by selecting its delete icon \(![Icon to delete a playbook from a workspace](../image/wb-delete-icon-2.png)\) and selecting **Delete** on the confirmation dialog.
+    5.  Delete a playbook from the workspace by selecting its delete icon \(\[Omitted image "wb-delete-icon-2.png"\] Alt text: Icon to delete a playbook from a workspace\) and selecting **Delete** on the confirmation dialog.
 
 6.  Configure the contextual side panel for the record page, which contains the icons for the tools that appear on the right side of the page.
 
@@ -191,7 +192,7 @@ Existing playbook to add to the record.**Note:** You can choose only from the pl
 
     1.  In the navigation panel for the record page, select **Contextual side panel**.
 
-        ![Contextual side panel for a record page](../image/wb-contextual-side-panel-purple.png)
+        \[Omitted image "wb-contextual-side-panel-purple.png"\] Alt text: Contextual side panel for a record page
 
     2.  In the **Context side panel settings**, select the toggle switch for each component and ribbon component that you want to appear on the record page.
 
@@ -199,7 +200,7 @@ Existing playbook to add to the record.**Note:** You can choose only from the pl
 
         To see the ribbon components, set the **Ribbon** component toggle to on.
 
-        ![Ribbon component selected in settings](../image/wb-create-record-page6.png)
+        \[Omitted image "wb-create-record-page6.png"\] Alt text: Ribbon component selected in settings
 
         To add pre-existing custom components, edit the workspace in UI Builder.
 
@@ -233,7 +234,7 @@ Display active Service License Agreements \(SLAs\) for the case, including time 
 
 </td><td>
 
-[SLA ribbon](https://www.servicenow.com/docs/access?context=csm-agent-workspace-ribbon&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
+SLA ribbon
 
 </td></tr><tr><td>
 
@@ -249,7 +250,7 @@ Add attachments to the record, such as images and PDFs.
 
 </td><td>
 
-[Attachments](https://www.servicenow.com/docs/access?context=attachments&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)
+
 
 </td></tr><tr><td>
 
@@ -265,7 +266,7 @@ Display a chronological summary of case activities, including state changes and 
 
 </td><td>
 
-[Timeline ribbon component](https://www.servicenow.com/docs/access?context=csm-agent-workspace-ribbon&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
+Timeline ribbon component
 
 </td></tr><tr><td>
 
@@ -281,7 +282,7 @@ Display customer information, such as the contact or consumer name, email addres
 
 </td><td>
 
-[Customer 360 ribbon component](https://www.servicenow.com/docs/access?context=csm-agent-workspace-ribbon&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
+Customer 360 ribbon component
 
 </td></tr><tr><td>
 
@@ -297,14 +298,14 @@ Display the contextual side panel ribbon, which contains tools to help agents re
 
 </td><td>
 
-[Viewing ribbon information in the contextual side panel](https://www.servicenow.com/docs/access?context=csm-playbooks-viewing-ribbon-info&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
+
 
 </td></tr></tbody>
 </table>        The selected tools appear in the record page preview canvas.
 
     3.  In the configuration panel, drag the components to rearrange them.
 
-    4.  Complete any additional configuration for components by selecting the settings icon \(![Settings icon for contextual side panel components](../image/wb-settings-icon-black.png)\).
+    4.  Complete any additional configuration for components by selecting the settings icon \(\[Omitted image "wb-settings-icon-black.png"\] Alt text: Settings icon for contextual side panel components\).
 
         For example, Customer 360 requires that you specify additional settings before the component works on the record page.
 
@@ -312,7 +313,7 @@ Display the contextual side panel ribbon, which contains tools to help agents re
 
 7.  Complete any additional changes and configurations.
 
-<table id="choicetable_f3l_vjr_dvb"><tbody><tr><td id="d227773e925">
+<table id="choicetable_f3l_vjr_dvb"><tbody><tr><td id="d111640e920">
 
 **Update the name of the record page**
 
@@ -329,7 +330,7 @@ A preview of the record page appears.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d227773e960">
+</td></tr><tr><td id="d111640e955">
 
 **Preview the record page in a new browser tab**
 
@@ -337,7 +338,7 @@ A preview of the record page appears.
 
 Select **Preview** in the Workspace Builder header.The record page appears in the workspace. If no data exists for the table, AES displays a page where you can add data to the table.
 
-</td></tr><tr><td id="d227773e981">
+</td></tr><tr><td id="d111640e976">
 
 **Delete a record page**
 

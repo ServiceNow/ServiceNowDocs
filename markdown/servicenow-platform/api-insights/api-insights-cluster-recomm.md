@@ -2,6 +2,7 @@
 title: Optimizing API organization with clustering recommendations in API Insights
 description: Use clustering recommendations to organize and group related API components, improving the efficiency and accuracy of API management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/api-insights/api-insights-cluster-recomm.html
 release: zurich
 product: API Insights
 classification: api-insights
@@ -19,6 +20,6 @@ The API clustering recommendations feature analyzes unlinked API components and 
 
 As a CMDB administrator, you can:
 
--   [View API clustering recommendations](api-insights-view-cluster-recomm.md).
--   [Accept clustering recommendations](../task/api-insights-accept-cluster.md).
+-   [View API clustering recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/api-insights/api-insights-view-cluster-recomm.md).
+-   [Accept clustering recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/api-insights/api-insights-accept-cluster.md).
 

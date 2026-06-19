@@ -2,6 +2,7 @@
 title: Create connection attributes for IntegrationHub
 description: Define connection-specific variables that you can use in Integration Hub integration steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/connections-and-credentials/create-connection-attributes.html
 release: zurich
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -23,13 +24,13 @@ Role required:
 -   The connection\_admin or admin role is required to assign attribute values.
 -   The action\_designer or admin role is required to use attributes in a custom action.
 
-Connection attributes are only used by integration steps, which require a subscription to Integration Hub. For more information about activating Integration Hub, see [Request an Integration Hub plugin](https://www.servicenow.com/docs/access?context=request-integrationhub&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+Connection attributes are only used by integration steps, which require a subscription to Integration Hub. For more information about activating Integration Hub, see Request an Integration Hub plugin.
 
 ## About this task
 
 When using an integration step, you must establish a connection with an external system. Use a Connection &amp; Credential alias instead of defining the connection inline. An alias enables you to update the connection details once without having to reconfigure every action. Any action step that uses an alias inherits the attributes associated with it. Workflow Studio displays attributes as data pills that you can drag into your action step. For example, you can create a page size attribute that becomes a REST step query parameter.
 
-For more information about building custom Workflow Studio actions, see [Workflow Studio](https://www.servicenow.com/docs/access?context=actions&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+For more information about building custom Workflow Studio actions, see Workflow Studio.
 
 ## Procedure
 
@@ -41,11 +42,11 @@ For more information about building custom Workflow Studio actions, see [Workflo
 
 4.  Define the attribute label and field type.
 
-    For a list of field types, see [field types](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For a list of field types, see field types.
 
 5.  Click the Advanced view related link to set advanced dictionary preferences for the attribute.
 
-    For example, to create an attribute with a dynamically calculated value. See [Dictionary entry form](https://www.servicenow.com/docs/access?context=r_DictionaryEntryForm&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For example, to create an attribute with a dynamically calculated value. See .
 
 6.  Click **Submit**.
 
@@ -78,5 +79,5 @@ For more information about building custom Workflow Studio actions, see [Workflo
     **Note:** The system does not track changes to connection attribute labels and data types after you associate the alias to a step. To refresh the connection attribute label or data type, delete the alias from the step and add it again.
 
 
-**Parent Topic:**[Get started with connections](../reference/connection-information.md)
+**Parent Topic:**[Get started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/connection-information.md)
 

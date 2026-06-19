@@ -2,7 +2,10 @@
 title: Account address access for contacts
 description: Enable contacts and similar roles to access addresses linked to their accounts. This access enables them to view and select account-related addresses and the corresponding location records tied to those accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/account-address-access-for-contacts.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2

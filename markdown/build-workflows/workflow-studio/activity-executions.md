@@ -2,6 +2,7 @@
 title: Activity executions
 description: Activity execution records provide runtime information about activities in a playbook, such as the activity's current state and associated record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/activity-executions.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -27,8 +28,8 @@ By default, each record in the Activity Executions related list contains the fol
 |-----|-----------|
 |Label|Name of the activity|
 |Stage|Stage in which the activity runs|
-|State|Execution status for the activity. See [Activity execution states](activity-executions.md).|
-|Activity Type|Experience type for the activity. See [Experience types](experience-types.md).|
+|State|Execution status for the activity. See [Activity execution states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/activity-executions.md).|
+|Activity Type|Experience type for the activity. See [Experience types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/experience-types.md).|
 |Associated Record|Record whose data renders within the playbook card.|
 |Execution index|Sequential order in which the activity runs, starting with 1 \(one\).|
 
@@ -46,5 +47,5 @@ Activity execution states indicate the status of an activity in a triggered play
 |Error|The playbook triggered, but an error with the activity's automation plan or activity experience occurred. Errors can occur when the underlying action or subflow in the activity's automation plan fails to run.|
 |Cancelled|A user with the admin, flow\_designer, or action\_designer role explicitly canceled the underlying action or subflow in the activity's automation plan.|
 
-**Parent Topic:**[Playbooks reference](../reference/process-automation-designer-reference.md)
+**Parent Topic:**[Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer-reference.md)
 

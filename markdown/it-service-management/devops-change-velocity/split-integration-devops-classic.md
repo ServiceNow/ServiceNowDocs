@@ -2,11 +2,12 @@
 title: Split.io integration with DevOps Change Velocity
 description: Connect to your Split.io instance to manage feature flags requests directly from you ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/split-integration-devops-classic.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -25,8 +26,8 @@ This integration extends the ServiceNow platform to manage the CHG approval proc
 -   Users can set CHG request fields to enable Split.io for CHG control.
 -   Upon approval/rejection of a CHG request, the callback URL in Split.io for the split or segment is invoked to resume implementation of the update to the split and segment.
 
--   **[Onboard Split to DevOps Change Velocity — Classic](../task/create-split-tool-record-devops.md)**  
+-   **[Onboard Split to DevOps Change Velocity — Classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/create-split-tool-record-devops.md)**  
 Create a Split tool record to connect and discover workspaces, environments, segments, and feature flags from the connected Split tool.
 
-**Parent Topic:**[Integrating DevOps Change Velocity with third party tools](integrating-devops-change-with-third-party-tools.md)
+**Parent Topic:**[Integrating DevOps Change Velocity with third party tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/integrating-devops-change-with-third-party-tools.md)
 

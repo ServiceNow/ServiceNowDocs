@@ -2,6 +2,7 @@
 title: Risk profile
 description: A risk profile is a comprehensive assessment of the potential risks that are associated with a particular third party. To generate a risk profile, you evaluate and document several aspects of the third party's operations, practices, and relationships. The aim is to understand the level of risk they may pose to your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-risk-profile-what-is.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -17,7 +18,7 @@ A risk profile is a comprehensive assessment of the potential risks that are ass
 
 A risk profile enables you to make informed decisions about engaging, monitoring, and mitigating risks associated with third parties. Identify areas of concern, implement risk mitigation strategies, and establish ongoing monitoring processes to help you align third-party relationships with your risk tolerance and strategic objectives.
 
-To prioritize and manage risks effectively, you assign scores or ratings to many risk factors and aggregate them to generate an overall risk assessment for the third party. TPRM [displays risk profile information on the Home page](../../grc-workspace-vrm/concept/tprm-ws-home-page.md).
+To prioritize and manage risks effectively, you assign scores or ratings to many risk factors and aggregate them to generate an overall risk assessment for the third party. TPRM [displays risk profile information on the Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-ws-home-page.md).
 
 ## Components of a third-party risk profile
 

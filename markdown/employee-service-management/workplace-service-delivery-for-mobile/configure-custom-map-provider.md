@@ -2,6 +2,7 @@
 title: Configure a custom Map provider
 description: Configure map providers so that directions are displayed from one location to another in Workplace Service Delivery for Mobile
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-service-delivery-for-mobile/configure-custom-map-provider.html
 release: zurich
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
@@ -57,7 +58,7 @@ Key
 
 </td><td>
 
-Table entry for which you want to configure the map provider. For example, if you have selected Building \[sn\_wsd\_core\_building\] as your key table. Search for a document on the Select the document dialog box that appears.and select, Building:BuildingC. Search using the lookup list icon \( ![look up list icon](../../workplace-case-mgmt/image/search-icon.png)\).
+Table entry for which you want to configure the map provider. For example, if you have selected Building \[sn\_wsd\_core\_building\] as your key table. Search for a document on the Select the document dialog box that appears.and select, Building:BuildingC. Search using the lookup list icon \( \[Omitted image "search-icon.png"\] Alt text: look up list icon\).
 
 </td></tr><tr><td>
 
@@ -103,7 +104,7 @@ Location provisioning In IndoorAtlas for indoor positioning or blue dot experien
 
  **Note:** If you have Apple as your location provider, then, this is an optional step for you.
 
- Location app Id Shows the current location or positioning of employees \(bluedot experience\) on the maps. The start location in wayfinding is automatically determined by the application. If location positioning is enabled, you can see the positioning icon \( ![icon showing enabled indoor positioning on map](../../workplace-space-mapping/images/location-bluedot-icon.png)\) on your mobile app for wayfinding.
+ Location app Id Shows the current location or positioning of employees \(bluedot experience\) on the maps. The start location in wayfinding is automatically determined by the application. If location positioning is enabled, you can see the positioning icon \( \[Omitted image "location-bluedot-icon.png"\] Alt text: icon showing enabled indoor positioning on map\) on your mobile app for wayfinding.
 
 </td></tr><tr><td>
 
@@ -138,10 +139,10 @@ App secret of the map provider \(Mappedin\). Available only if you have installe
 
     The custom map provider is configured for the table entity that you selected. For example, the map provider shows directions for locations in Building1.The custom map provider is configured for the table entity that you selected. For example, the map provider shows directions for locations in Building1.
 
-    **Note:** The **CustomMapConfigId** is mapped with sys Id of mapped reservations of Indoor Mapping and Mappedin. To get Indoor Mapping maps, users must update **CustomMapDefaultProviderId** and **CustomMapConfigId** in both **location\_custom\_map** and **locations\_custom\_map**. The **CustomMapDefaultProviderId** is the sys Id of Indoor Mapping associated record in the custom map provider. For more information, see [Enable map view to create reservations](enable-map-view-mobile-reservations.md).
+    **Note:** The **CustomMapConfigId** is mapped with sys Id of mapped reservations of Indoor Mapping and Mappedin. To get Indoor Mapping maps, users must update **CustomMapDefaultProviderId** and **CustomMapConfigId** in both **location\_custom\_map** and **locations\_custom\_map**. The **CustomMapDefaultProviderId** is the sys Id of Indoor Mapping associated record in the custom map provider. For more information, see [Enable map view to create reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery-for-mobile/enable-map-view-mobile-reservations.md).
 
-    For more information on how to select a map provider map properties, see [Customize the map properties](../../workplace-space-mapping/task/wsm-configure-map-properties.md).
+    For more information on how to select a map provider map properties, see [Customize the map properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/wsm-configure-map-properties.md).
 
 
-**Parent Topic:**[Mobile Wayfinding Administration](../concept/mobile-wayfinding.md)
+**Parent Topic:**[Mobile Wayfinding Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery-for-mobile/mobile-wayfinding.md)
 

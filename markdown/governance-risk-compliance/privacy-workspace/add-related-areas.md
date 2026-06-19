@@ -2,6 +2,7 @@
 title: Add a related area to a privacy case
 description: Add the related areas that are related to a privacy case or event reported in the Privacy Case Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/add-related-areas.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -27,7 +28,7 @@ You can specify the related areas, such as policies, citations, control objectiv
 
 1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace**.
 
-2.  Select the list ![List](../../grc-workspace-vrm/image/ws-list-icon.png) icon.
+2.  Select the list \[Omitted image "ws-list-icon.png"\] icon.
 
 3.  Select **All Cases**.
 
@@ -93,5 +94,5 @@ Brief description of the related areas.
 </table>7.  Select **Save**.
 
 
-**Parent Topic:**[Using Privacy Case Management](../concept/using-pcm.md)
+**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/using-pcm.md)
 

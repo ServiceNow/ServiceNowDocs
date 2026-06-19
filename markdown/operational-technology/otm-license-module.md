@@ -2,7 +2,10 @@
 title: Subscriptions for OTM
 description: The ServiceNow platform employs OTM for license management in the manufacturing sector. OTM encompasses licenses found in IT Operations Management, along with licenses exclusive to the OTM domain.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/otm-license-module.html
 release: zurich
+product: Operational Technology
+classification: operational-technology
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

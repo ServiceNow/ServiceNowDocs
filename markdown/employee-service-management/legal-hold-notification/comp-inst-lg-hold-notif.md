@@ -2,6 +2,7 @@
 title: Components installed with Legal Hold Notification
 description: Various components are installed with Legal Hold Notification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-hold-notification/comp-inst-lg-hold-notif.html
 release: zurich
 product: Legal Hold Notification
 classification: legal-hold-notification
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Legal Hold Notification, Legal Service Delivery Practice
 
 Various components are installed with Legal Hold Notification.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles
 
@@ -114,5 +115,5 @@ Legal hold custodiansn\_lg\_hold\_custodian
 Stores custodian details.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legal Hold Notification reference](../concept/lg-hold-notif-ref.md)
+</table>**Parent Topic:**[Legal Hold Notification reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-hold-notification/lg-hold-notif-ref.md)
 

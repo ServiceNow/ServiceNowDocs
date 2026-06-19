@@ -2,6 +2,7 @@
 title: Creating contracts and entitlements using workflows
 description: After a product offer is selected by the customer and the product is sold to the customer, this workflow creates contracts and entitlements based on the services associated with that sold product and the extra services that the customer has purchased.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/create-cont-ent-workflows-csm.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -29,7 +30,7 @@ For every order with multiple product offerings, a single contract with multiple
 
 ## Creating contracts from product inventory records
 
-If the system property sn\_ind\_tmt\_orm.enable\_prod\_invt\_for\_order\_management is set to true, order fulfillment workflows create product inventories based on customer orders, product offerings and specifications. On creation of a product inventory, contract lines and entitlements will be created. When a product inventory undergoes a state change, the associated contract lines and entitlements are synced. For more information, see [Product inventory configurations](https://www.servicenow.com/docs/access?context=product_inventory_configurations&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US). Product inventory records trigger updates to contracts and entitlements under the following conditions:
+If the system property sn\_ind\_tmt\_orm.enable\_prod\_invt\_for\_order\_management is set to true, order fulfillment workflows create product inventories based on customer orders, product offerings and specifications. On creation of a product inventory, contract lines and entitlements will be created. When a product inventory undergoes a state change, the associated contract lines and entitlements are synced. For more information, see . Product inventory records trigger updates to contracts and entitlements under the following conditions:
 
 -   Process Telecom Order Line flow: The ADD flow creates contract and entitlement records from the product inventory. The MODIFY flow updates the states of the contract line items and entitlements.
 -   Post Process Telecom Top Domain Order flow: The MODIFY flow updates the states, fields, and characteristics for contract line items and entitlements.
@@ -39,9 +40,9 @@ If the system property sn\_ind\_tmt\_orm.enable\_prod\_invt\_for\_order\_managem
 
 Customer Life Cycle Workflows Policy decision table decides the target entity while renewing and modifying service contracts, service contract lines, and entitlements. Based on this decision table, you can create a quote, an order, an opportunity, or an opportunity and a quote together while renewing or modifying a service contract. For a target entity, you can also select when you want to initiate the renewal of the service contract.
 
-![Customer Life Cycle Workflows Policy decision table](../images/customer-lc-decision-table-input.png "Inputs in Customer Life Cycle Workflows Policy decision table")
+\[Omitted image "customer-lc-decision-table-input.png"\] Alt text: Customer Life Cycle Workflows Policy decision table
 
-![Customer Life Cycle Workflows Policy decision table](../images/customer-lc-decision-table-conditions.png "Conditions in Customer Life Cycle Workflows Policy decision table")
+\[Omitted image "customer-lc-decision-table-conditions.png"\] Alt text: Customer Life Cycle Workflows Policy decision table
 
 You can configure rules based on the six available input parameters to a required target entity while renewing and modifying contracts. Select the following values in the Target Entity Name column to create the corresponding target entities.Using Customer Life Cycle Workflows Policy Decision Table 
 
@@ -88,8 +89,8 @@ Opportunity and quote together**Note:** You cannot create opportunities and quot
 </td></tr></tbody>
 </table>**Note:** To create an opportunity or opportunity and quote together during renewal, the admin needs to set up the following records:
 
--   Sales Cycle Type: In the Code field, enter **RENEW** and set the Active option to **True**. For more info, see [Create a sales cycle for an opportunity](../../tmt-order-mgt/task/opportunity-management-sales-cycle-types.md).
--   Opportunity Stage: In the Name field, enter **Develop** and set the Active option to **True**. For more info, see [Create opportunity stages](../../tmt-order-mgt/task/opportunity-management-opportunity-stages.md).
+-   Sales Cycle Type: In the Code field, enter **RENEW** and set the Active option to **True**. For more info, see [Create a sales cycle for an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-management-sales-cycle-types.md).
+-   Opportunity Stage: In the Name field, enter **Develop** and set the Active option to **True**. For more info, see [Create opportunity stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-management-opportunity-stages.md).
 
 If the user selects an opportunity and a quote as target entities, a renewal opportunity and a quote is created. The opportunity and the quote are associated to each other.
 

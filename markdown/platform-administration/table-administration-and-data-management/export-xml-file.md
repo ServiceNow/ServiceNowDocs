@@ -2,6 +2,7 @@
 title: Export data to XML
 description: Export data from a source instance to an XML file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/export-xml-file.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -25,26 +26,26 @@ Role required: admin
 
 2.  Export a record or a list of records to XML.
 
-<table id="choicetable_ndh_4j1_j1c"><thead><tr><th align="left" id="d293543e56">
+<table id="choicetable_ndh_4j1_j1c"><thead><tr><th align="left" id="d268189e56">
 
 Option
 
-</th><th align="left" id="d293543e59">
+</th><th align="left" id="d268189e59">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d293543e65">
+</th></tr></thead><tbody><tr><td id="d268189e65">
 
 **Export a record to XML**
 
 </td><td>
 
 1.  Navigate to the record that you want to export.
-2.  Select the Additional actions menu \(![Additional actions menu.](../../../common/image/Form_MenuIcon.png)\).
+2.  Select the Additional actions menu \(\[Omitted image "Form\_MenuIcon.png"\] Alt text: Additional actions menu.\).
 3.  Select **Export** &gt; **XML This Record\)**.
 
 
-</td></tr><tr><td id="d293543e101">
+</td></tr><tr><td id="d268189e101">
 
 **Export a list of records to XML**
 
@@ -60,5 +61,5 @@ Description
 </table>
 ## What to do next
 
-[Import data from XML](import-xml-file.md)
+[Import data from XML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/import-xml-file.md)
 

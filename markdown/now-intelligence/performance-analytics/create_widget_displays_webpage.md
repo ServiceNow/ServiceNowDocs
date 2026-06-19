@@ -2,6 +2,7 @@
 title: Create a widget that displays a ServiceNow UI page
 description: You can create a ServiceNow UI page that displays a web page. You can then add that UI page to a widget that can be added to dashboards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/create\_widget\_displays\_webpage.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -120,7 +121,7 @@ The name of the UI page from step 1 to show in the widget.
 
 ## What to do next
 
-[Edit a responsive dashboard](t_EditADashboard.md)
+[Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_EditADashboard.md)
 
-**Parent Topic:**[Widgets](../concept/widgets.md)
+**Parent Topic:**[Widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/widgets.md)
 

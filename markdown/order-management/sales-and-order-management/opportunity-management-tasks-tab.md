@@ -2,6 +2,7 @@
 title: Add opportunity tasks
 description: Create opportunity tasks to capture additional details of your customer's requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/opportunity-management-tasks-tab.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sales\_manager
 
 ## Procedure
 
-1.  Navigate to **List** view ![image.Lists]and select **Opportunity - All**.
+1.  Navigate to **List** view and select **Opportunity - All**.
 
 2.  Select the opportunity you want to work with and select the **Tasks** tab.
 
@@ -46,10 +47,10 @@ Role required: sales\_manager
 
 ## What to do next
 
-You can create appointments in your opportunity tasks. To learn more, see [Create appointments](opportunity-management-create-an-appoinment.md).
+You can create appointments in your opportunity tasks. To learn more, see [Create an appointment from Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-management-create-an-appoinment.md).
 
--   **[Create appointments](opportunity-management-create-an-appoinment.md)**  
+-   **[Create an appointment from Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-management-create-an-appoinment.md)**  
 Create appointments with the required stakeholders to move the business discussion forward for your opportunity.
 
-**Parent Topic:**[Using Opportunity Management](opportunity-mgmt-using.md)
+**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-mgmt-using.md)
 

@@ -2,6 +2,7 @@
 title: Add workstation users to a Task Mining project
 description: Select workstation users you want to collect activity data from and create data requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/task-mining/add-users-to-task-mining-project.html
 release: zurich
 product: Task Mining
 classification: task-mining
@@ -39,7 +40,7 @@ All data requests to collect data for the workstation users for a project must b
 
     2.  Select **Remove**.
 
-    ![Screenshot showing the workstation users interface.](../image/tm-add-users.png)
+    \[Omitted image "tm-add-users.png"\] Alt text: Screenshot showing the workstation users interface.
 
 5.  Select **Add users**.
 
@@ -47,17 +48,17 @@ All data requests to collect data for the workstation users for a project must b
 
 7.  Select the workstation users that you want to add to this project, and select **Add selected users**.
 
-    ![Screenshot showing adding users to a Task Mining project.](../image/tm-select-users.png)
+    \[Omitted image "tm-select-users.png"\] Alt text: Screenshot showing adding users to a Task Mining project.
 
 8.  Obtain permission to collect a workstation user's data if no data request has been approved for that user.
 
     **Note:**
 
-    If you want the request to be for a time period independent from a project, request workstation user data through an Employee Center data request. For more information, see [Requesting workstation user data](../concept/requesting-workstation-user-data.md).
+    If you want the request to be for a time period independent from a project, request workstation user data through an Employee Center data request. For more information, see [Requesting workstation user data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/task-mining/requesting-workstation-user-data.md).
 
     1.  In the list of workstation users, select any user for whom the **Data request status** is **Required**.
 
-        If a workstation user's data request status is **Requested**, consider reviewing the request details and contacting the approver to urge action on the data request before the project is set to begin. For more information, see [Follow data request progress](manage-data-log-requests.md).
+        If a workstation user's data request status is **Requested**, consider reviewing the request details and contacting the approver to urge action on the data request before the project is set to begin. For more information, see [Follow data request progress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/task-mining/manage-data-log-requests.md).
 
     2.  Select **Request data**.
 
@@ -65,7 +66,7 @@ All data requests to collect data for the workstation users for a project must b
 
 10. Review the project summary before proceeding.
 
-    ![Screenshot showing the project summary page.](../image/tm-project-summary.png)
+    \[Omitted image "tm-project-summary.png"\] Alt text: Screenshot showing the project summary page.
 
 
 ## Result
@@ -74,5 +75,5 @@ A data request is sent to all managers of every workstation user. Once a data re
 
 ## What to do next
 
-Generate an analysis of the project data. For more information, see [Generating a project data analysis](../concept/mining-a-task-mining-project.md).
+Generate an analysis of the project data. For more information, see [Generating a project data analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/task-mining/mining-a-task-mining-project.md).
 

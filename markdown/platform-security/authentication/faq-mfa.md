@@ -2,6 +2,7 @@
 title: Frequently asked questions - Multi-factor Authentication enforcement
 description: Details about some of the FAQs due the MFA enforcement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/faq-mfa.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -19,11 +20,11 @@ MFA being a critical security tool against various identity takeover-related att
 
 MFA enforcement is carried though a MFA policy that is activated by default from Yokohama or upgrade to Yokohama. You can check the following links to learn more about MFA enforcement related questions:
 
--   [MFA enforcement exception](faq-mfa-exception.md)
--   [MFA enforcement requirements – What and Why](faq-mfa-enforcement.md)
--   [MFA enforcement scope](mfa-enforcement-scope.md)
--   [MFA enforcement timeline](faq-mfa-enforcement-timeline.md)
--   [MFA metrics](faq-familiar-with-mfa.md)
--   [MFA types](faq-mfa-types.md)
--   [MFA reset](faq-reset-mfa.md)
+-   [MFA enforcement exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/faq-mfa-exception.md)
+-   [MFA enforcement requirements – What and Why](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/faq-mfa-enforcement.md)
+-   [MFA enforcement scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/mfa-enforcement-scope.md)
+-   [MFA enforcement timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/faq-mfa-enforcement-timeline.md)
+-   [MFA metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/faq-familiar-with-mfa.md)
+-   [MFA types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/faq-mfa-types.md)
+-   [MFA reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/faq-reset-mfa.md)
 

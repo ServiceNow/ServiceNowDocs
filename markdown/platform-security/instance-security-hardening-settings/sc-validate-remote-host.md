@@ -2,6 +2,7 @@
 title: Validate remote host
 description: Set the property to true to prevent bad actors from using internal port scanning in your network.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-validate-remote-host.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -75,7 +76,7 @@ Category
 
 </td><td>
 
-[Business Logic](sc-business-logic.md)
+[Business Logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-business-logic.md)
 
 </td></tr><tr><td>
 
@@ -103,8 +104,8 @@ References
 
 [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB0755132](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0755132)
 
- [Define a remote instance](https://www.servicenow.com/docs/access?context=t_DefineARemoteInstance&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+ 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Business Logic](sc-business-logic.md)
+</table>**Parent Topic:**[Business Logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-business-logic.md)
 

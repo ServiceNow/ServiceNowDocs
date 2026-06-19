@@ -2,6 +2,7 @@
 title: AgentNowHandler - Scoped
 description: The AgentNowHandler script include provides methods that enable running check definitions on demand, checking the status of on demand executions and test check executions and for stopping background checks that were executed on demand.Creates an AgentNowHandler instance.Gets status of the request with the given ID.Gets the test check status of the given test result.Runs a check against the given configuration item.Stops a background check.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/AgentNowHandlerAPIScoped.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,11 +16,11 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The AgentNowHandler script include provides methods that enable running check definitions on demand, checking the status of on demand executions and test check executions and for stopping background checks that were executed on demand.
 
-This script include requires the Agent Client Collector Framework \(sn\_agent\) store application and is provided within the `sn_agent` namespace. For more information, refer to [Agent Client Collector](https://www.servicenow.com/docs/access?context=acc-landing-page&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+This script include requires the Agent Client Collector Framework \(sn\_agent\) store application and is provided within the `sn_agent` namespace. For more information, refer to Agent Client Collector.
 
-For the REST API solution, refer to [Agent Client Collector API](../../../../../integrate/inbound-rest/concept/agnt_clnt_cll-api.md#).
+For the REST API solution, refer to [Agent Client Collector API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/agnt_clnt_cll-api.md).
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## AgentNowHandler - AgentNowHandler\(\)
 
@@ -174,7 +175,7 @@ cis
 
 </td><td>
 
-[GlideRecord](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)
+[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
 
 </td><td>
 

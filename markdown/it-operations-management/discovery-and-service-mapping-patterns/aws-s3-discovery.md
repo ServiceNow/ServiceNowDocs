@@ -2,6 +2,7 @@
 title: Amazon Simple Storage Service \(Amazon S3\) discovery with Patterns
 description: The ServiceNow Discovery application uses the Amazon AWS S3 pattern to find public and non-public storage buckets of Amazon Simple Storage Service. The pattern uses a set of REST API calls to find these resources. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-s3-discovery.html
 release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -23,7 +24,7 @@ You can use this pattern on the ServiceNow platform using Jakarta Patch 10, King
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -35,7 +36,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 -   Create a schedule for the relevant AWS service account as described in Schedule Discovery on a service account in the ServiceNow Cloud Provisioning and Governance documentation.
 -   To enable alert-based discovery, configure the AWS event service as described in Set up AWS event processing for Discovery and Service Mapping in the ServiceNow Cloud Provisioning and Governance documentation.
 -   For Cloud Discovery, download the Discovery and Service Mapping Patterns from the ServiceNow Store.
--   When installing the MID Server, ensure that the host machine meets or exceeds the [MID Server system requirements](https://www.servicenow.com/docs/access?context=r_MIDServerSystemRequirements&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) published on the ServiceNow documentation site.
+-   When installing the MID Server, ensure that the host machine meets or exceeds the MID Server system requirements published on the ServiceNow documentation site.
 
 ## Verify the REST API Permissions
 
@@ -146,7 +147,7 @@ Bucket ARN of the Replication Destination bucket.
 
 On the Dependency Views map you can see all discovered S3 buckets in your organization, including S3 buckets that you configured as replicas. In this example, Cloud Object Storage 1, Cloud Object Storage 2, and Cloud Object Storage 3 replicate Cloud Object Storage 2. In its turn, Cloud Object Storage 2 replicates Cloud Object Storage 1.
 
-![Result of horizontal discovery of AWS S3 as appears in Dependency Views](../image/AWS-S3-dependency-views.png "Dependency Views showing AWS S3 components")
+\[Omitted image "AWS-S3-dependency-views.png"\] Alt text: Result of horizontal discovery of AWS S3 as appears in Dependency Views
 
 ## CI relationships
 
@@ -161,7 +162,7 @@ These relationships are created to support AWS S3 discovery:
 
 Service Mapping can discover AWS S3 outgoing connections to cloud resources, for example Lambda function.
 
-![Service Mapping map showing a service with discovered S3 buckets.](../image/AWS-S3-top-down-map.png "Application service map showing an S3 bucket CI")
+\[Omitted image "AWS-S3-top-down-map.png"\] Alt text: Service Mapping map showing a service with discovered S3 buckets.
 
 ## Troubleshooting
 
@@ -206,5 +207,5 @@ The Pattern Designer fails because of a timeout during pattern debugging \(and n
 By default, the **sa.debugger.max\_timeout**parameter is set to 240 seconds.Increase the value of this parameter on the relevant MID Server.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AWS discovery using patterns](../../discovery/reference/data-discovered-aws-patterns.md)
+</table>**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

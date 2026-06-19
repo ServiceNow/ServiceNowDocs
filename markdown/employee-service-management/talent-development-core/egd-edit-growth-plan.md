@@ -2,6 +2,7 @@
 title: Edit a growth plan
 description: Edit, set a due date, or add additional activities to a growth plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/egd-edit-growth-plan.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -56,5 +57,5 @@ The activity will be added to your growth plan.
 -   Review your progress.
 -   Continue to edit your growth plan.
 
-**Parent Topic:**[Using the Talent Development Core application](../concept/egd-use.md)
+**Parent Topic:**[Using the Talent Development Core application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-use.md)
 

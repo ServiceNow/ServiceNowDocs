@@ -2,6 +2,7 @@
 title: Project opportunity
 description: Projects facilitate creating a team consisting of multiple roles filled by multiple people. Projects can be broad in scope and be long-term or short-term in duration. Projects and other opportunity types are configured by ServiceNow admins from the Opportunity Type Configuration form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-project.html
 release: zurich
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -25,5 +26,5 @@ Projects are temporary opportunities, but they can be either long-term or short-
 
 Projects enable managers to pull quickly from an available pool of resources and skills. For more information about opportunity types, see .
 
-**Parent Topic:**[Explore Opportunity Marketplace \(OPM\)](egd-oppt-mrktplc-explore.md)
+**Parent Topic:**[Explore Opportunity Marketplace \(OPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-explore.md)
 

@@ -2,6 +2,7 @@
 title: Join a conference call
 description: You can join an active conference call from an incident to discuss about the resolution of an incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/notify/join-cisco-webex-notify-call.html
 release: zurich
 product: Notify
 classification: notify
@@ -32,5 +33,5 @@ Role required: notify\_view, notify\_admin, major\_incident\_manager, or communi
 5.  Select **Join Call**.
 
 
-**Parent Topic:**[Using the Notify Cisco Webex Connector with a major incident](../concept/use-cisco-webex-notify-mi.md)
+**Parent Topic:**[Using the Notify Cisco Webex Connector with a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/use-cisco-webex-notify-mi.md)
 

@@ -2,6 +2,7 @@
 title: Create a script only check
 description: Create a check without specifying a table or a column type by selecting Create a new Script Only Check. You can verify meta data, configurations, and execute complex checks by writing your own script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/instance-scan/hs-create-script-health-check.html
 release: zurich
 product: Instance Scan
 classification: instance-scan
@@ -20,7 +21,7 @@ Create a check without specifying a table or a column type by selecting **Create
 Role required: scan\_admin
 
 ```
-Before performing this task you must complete [Create a check](hs-create-health-check.md).
+Before performing this task you must complete [Create a check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/instance-scan/hs-create-health-check.md).
 ```
 
 ## About this task
@@ -139,5 +140,5 @@ Option to write a custom script to generate findings.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create a check](hs-create-health-check.md)
+**Parent Topic:**[Create a check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/instance-scan/hs-create-health-check.md)
 

@@ -2,11 +2,12 @@
 title: Use ITSM Virtual Agent Analytics dashboard
 description: Use the ITSM Virtual Agent analytics dashboard to analyze chats from customer interactions, what ITSM Virtual Agent topics users are interested in, and measure customer satisfaction using AI transcripts and user feedback.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/using-itsm-conversational-analytics-dashboard.html
 release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-01-26"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Now Assist for IT Service Management \(ITSM\), IT Service Management]
@@ -15,6 +16,8 @@ breadcrumb: [Now Assist for IT Service Management \(ITSM\), IT Service Managemen
 # Use ITSM Virtual Agent Analytics dashboard
 
 Use the ITSM Virtual Agent analytics dashboard to analyze chats from customer interactions, what ITSM Virtual Agent topics users are interested in, and measure customer satisfaction using AI transcripts and user feedback.
+
+Access the ITSM Virtual Agent analytics dashboard from SOW or Assistant Designer with the appropriate roles.
 
 **Important:** You can access the Virtual Agent analytics dashboard from the Service Operations Workspace \(SOW\) or the Assistant Designer.
 
@@ -36,13 +39,13 @@ ITIL \(itil\) and the AI Engagement Viewer \(sn\_na\_analytics.ai\_engmt\_viewer
 </td><td>
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
-2.  Select the Dashboard icon ![](../image/now-assist-itsm-va-dashboard-icon.png).
+2.  Select the Dashboard icon \[Omitted image "now-assist-itsm-va-dashboard-icon.png"\] Alt text:.
 3.  In the IT Agent Dashboard, search for and select **ITSM Virtual Agent analytics**.
 
 The ITSM Virtual Agent analytics dashboard displays.
 
 
-![ITSM Virtual Agent analytics dashboard](../image/now-assist-itsm-va-itagent-dashboard.png)
+\[Omitted image "now-assist-itsm-va-itagent-dashboard.png"\] Alt text: ITSM Virtual Agent analytics dashboard
 
 </td></tr><tr><td>
 
@@ -61,7 +64,7 @@ The Assistant Designer screen appears.
 The ITSM Virtual Agent analytics dashboard displays.
 
 
-![ITSM Virtual Agent analytics Assistant Designer](../image/now-assist-itsm-assistant-designer-analytics.png)
+\[Omitted image "now-assist-itsm-assistant-designer-analytics.png"\] Alt text: ITSM Virtual Agent analytics Assistant Designer
 
 </td></tr></tbody>
 </table>

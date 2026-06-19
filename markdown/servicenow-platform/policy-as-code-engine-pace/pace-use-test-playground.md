@@ -2,6 +2,7 @@
 title: Use the Test Playground for PaCE policies
 description: The Test Playground enables you to test updates to a PaCE policy at any time, without the need to test or evaluate them in a Production environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/policy-as-code-engine-pace/pace-use-test-playground.html
 release: zurich
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

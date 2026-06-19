@@ -2,6 +2,7 @@
 title: Create a filter configuration using mapping
 description: Create filter conditions using mapping that you can associate with a table configuration. The search result displays result that meets the filter conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/contextual-search/create-filter-config-using-mapping.html
 release: zurich
 product: Contextual Search
 classification: contextual-search
@@ -43,7 +44,7 @@ Resource configuration
 
 </td><td>
 
-Lookup icon ![Lookup icon to select a search context](../image/look-up-icon.png) to select a resource such as Knowledge Articles.
+Lookup icon \[Omitted image "look-up-icon.png"\] Alt text: Lookup icon to select a search context to select a resource such as Knowledge Articles.
 
 </td></tr><tr><td>
 
@@ -78,7 +79,7 @@ Option to activate the filter configuration.
 
 7.  In the Filter Conditions related list, click **New**.
 
-    ![Filter conditions](../image/cxs-filter-conditions.png)
+    \[Omitted image "cxs-filter-conditions.png"\] Alt text: Filter conditions
 
 8.  In the form, fill in the fields.
 
@@ -97,5 +98,5 @@ Option to activate the filter configuration.
 9.  Click **Submit**.
 
 
-**Parent Topic:**[Filter configuration for contextual search](../concept/filter-configuration-for-cxs.md)
+**Parent Topic:**[Filter configuration for contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/filter-configuration-for-cxs.md)
 

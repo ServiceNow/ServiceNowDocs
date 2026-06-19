@@ -2,6 +2,7 @@
 title: Entity Type Configurations form
 description: Use the Entity Type Configurations form to create an entity type configuration within the Entity Based Access application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/entity-type-configurations-form.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -26,5 +27,5 @@ Use the Entity Type Configurations form to create an entity type configuration w
 |Entity group fields|User group fields from the entity table \[sn\_grc\_profile\] that the access should be granted to.|
 |Description|Description of the entity type configuration.|
 
-**Parent Topic:**[Configure an entity type for a linked object](../task/create-an-entity-type-configuration-for-entity-based-access.md)
+**Parent Topic:**[Configure an entity type for a linked object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/create-an-entity-type-configuration-for-entity-based-access.md)
 

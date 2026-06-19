@@ -2,6 +2,7 @@
 title: Java Apache Axis2 web services client examples insert
 description: An example class to insert an incident record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/c\_JAAWbSrvcsClntExInst.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -44,5 +45,5 @@ public class Insert  {
   } }
 ```
 
-**Parent Topic:**[Java Apache Axis2 web services client examples](c_JAAWbSrvcsClntEx.md)
+**Parent Topic:**[Java Apache Axis2 web services client examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_JAAWbSrvcsClntEx.md)
 

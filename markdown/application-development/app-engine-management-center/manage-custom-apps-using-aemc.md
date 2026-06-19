@@ -2,11 +2,12 @@
 title: Managing custom apps using AEMC
 description: Review custom app metrics and manage apps through the development life cycle using the App Engine Management Center \(AEMC\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-management-center/manage-custom-apps-using-aemc.html
 release: zurich
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-05-11"
 reading_time_minutes: 4
 breadcrumb: [Manage app development, Use, App Engine Management Center, Governing app development, Building applications]
 ---
@@ -19,15 +20,19 @@ The App Engine adoption metrics section of the AEMC Overview page shows how many
 
 The Custom apps page in AEMC shows more detailed metrics and a full list of your applications. In each tile in the Custom app lifecycle status section, you can see trending data for the last 90 days. You can show all apps in the Custom apps list or limit the list to only certain types of applications using the filter. Select a trend chart to filter the list to those criteria.
 
-![Custom app page, with high-level metrics and list of all apps](../image/custom-app-page.png)
+\[Omitted image "custom-app-page.png"\] Alt text: Custom app page, with high-level metrics and list of all apps
 
 The Custom app page also lists all the applications individually, with a single record for each application. If the app has been published to production, the **Published Version** column shows the version number. If the **Published Version** column is blank, the app exists in development but has never been published to production.
 
-![List of all custom apps](../image/custom-app-list-purple.png)
+\[Omitted image "custom-app-list-purple.png"\] Alt text: List of all custom apps
 
-View the app's usage data, subscription monitoring details,deployment history, and collaborators, if any, by selecting an application name from the list.
+View the app's readiness and compliance report, usage data, subscription monitoring details, deployment history, and collaborators, if any, by selecting an application name from the list. \[Omitted image "custom-app-record-page-as2.png"\] Alt text: App record page showing the app readiness and compliance report.
 
 Select **Open in App Engine Studio** to see the contents of the app and access more information. The App Engine Studio application opens in a new browser window.
+
+## Compliance check
+
+Use the **Compliance check** tab to view insights about your app's readiness for deployment, including details about the app's performance, security, and more. For more information about the compliance check, see [App Readiness and Compliance Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/app-readiness-report.md).
 
 ## App usage
 
@@ -43,7 +48,7 @@ Knowing usage data for your applications has several benefits:
 -   Investigate and fix problems with the app. Knowing when or how data was changed can help identify where something went wrong.
 -   Determine whether you must load balance the processing power of your instance by seeing when there might be consistently higher traffic in your app.
 
-In the User Experience Analytics dashboards section, see detailed data such as active users, sessions, and page views by selecting an experience. For more information about how to understand and use this data, see [User Experience Analytics](https://www.servicenow.com/docs/access?context=user-exp-analytics-landing&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+In the User Experience Analytics dashboards section, see detailed data such as active users, sessions, and page views by selecting an experience. For more information about how to understand and use this data, see User Experience Analytics.
 
 ## Subscription monitoring
 
@@ -65,7 +70,7 @@ App Engine admins do not have permissions to change subscriptions. However, if a
 
 You can select a user's name in the **Assigned Users** section to see a role inheritance map. This map shows how this user inherited the role, whether from a parent role, a group assignment, or another inheritance. This information can help you take action if someone has a role you believe they shouldn't, and you want to change it.
 
-![Role inheritance map, showing how a user got their roles](../image/role-inheritance-map.png "Role inheritance map")
+\[Omitted image "role-inheritance-map.png"\] Alt text: Role inheritance map, showing how a user got their roles
 
 ## App deployments
 
@@ -83,5 +88,5 @@ View the collaborators for the app by selecting the **Collaborators** tab. All c
 
 If you must take quick action in the application to fix an issue or defect, you can quickly see who has permissions to make changes in an app and what those permissions are.
 
-**Parent Topic:**[Managing app development using the App Engine Management Center](../../app-engine-management-center/concept/managing-app-development-using-aemc.md)
+**Parent Topic:**[Managing app development using the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/managing-app-development-using-aemc.md)
 

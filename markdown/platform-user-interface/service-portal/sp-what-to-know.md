@@ -2,6 +2,7 @@
 title: Understanding Service Portal
 description: Service Portal provides a modular user interface framework for quick and easy building of application portals and dashboards for the platform. It helps developers and non‑technical administrators create attractive and engaging user experiences that drive employee adoption of critical enterprise applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/sp-what-to-know.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -37,9 +38,9 @@ In all cases, the user configuring a portal must have the **admin** or **sp\_adm
 
 You should have a basic understanding of all the following components that make up a portal:
 
--   [Themes](c_BrandingEditor.md): Themes define the look and feel of the whole portal, but can be overridden by other style configurations.
--   [Pages](c_Pages.md): Pages control where and how you store portal content. Pages do not have a defined relationship to portal records, they simply exist.
--   [Widgets](service-portal-widgets.md): Components in Service Portal are called widgets. You can use HTML templates, CSS, client scripts, server scripts, and any JavaScript dependencies to define what a widget does. From an AngularJS standpoint, widgets are essentially a superset of an Angular directive.
+-   [Themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/c_BrandingEditor.md): Themes define the look and feel of the whole portal, but can be overridden by other style configurations.
+-   [Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/c_Pages.md): Pages control where and how you store portal content. Pages do not have a defined relationship to portal records, they simply exist.
+-   [Widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/service-portal-widgets.md): Components in Service Portal are called widgets. You can use HTML templates, CSS, client scripts, server scripts, and any JavaScript dependencies to define what a widget does. From an AngularJS standpoint, widgets are essentially a superset of an Angular directive.
 -   Most of the data in Service Portal is managed in different locations throughout the system.
 
     For example, if you are building a knowledge portal, the data exists in Service Portal, but the knowledge articles are authored and managed in the Knowledge application. The same is true for any other type of content you plan to leverage. Take time to understand which tables contain and control the data you are working with in Service Portal.
@@ -68,14 +69,14 @@ Service Portal is built using several well known technologies. Use the following
 -   [CSS 3 Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 -   [AngularJS](https://docs.angularjs.org/guide)
 
--   **[Service Portal core concepts](c_CoreConcepts.md)**  
+-   **[Service Portal core concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/c_CoreConcepts.md)**  
 Service Portal contains two parts: a framework and a portal. The framework is composed of a set of APIs, Angular services, directives, and tools that help to build portals. The portal is a group of pages linked by page IDs.
--   **[Service Portal configuration page](service-portal-configuration-page.md)**  
+-   **[Service Portal configuration page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/service-portal-configuration-page.md)**  
 Most Service Portal configuration is accessible through the Service Portal configuration page landing page.
--   **[Page navigation in Service Portal by URL](navigate-by-portal-url.md)**  
+-   **[Page navigation in Service Portal by URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/navigate-by-portal-url.md)**  
 You can navigate to a portal or a page in Service Portal using a URL.
--   **[Content Management and Service Portal](c_CMSAndSP.md)**  
+-   **[Content Management and Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/c_CMSAndSP.md)**  
 Service Portal is a compelling alternative to the Content Management System \(CMS\) with a refined user experience. It does not duplicate CMS or platform UI functionality. Users who have sophisticated experiences delivered through CMS may need to invest time into transitioning to Service Portal, especially if the CMS implementation includes complex and customized Service Catalog forms.
 
-**Parent Topic:**[Exploring Service Portal](exploring-service-portal.md)
+**Parent Topic:**[Exploring Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/exploring-service-portal.md)
 

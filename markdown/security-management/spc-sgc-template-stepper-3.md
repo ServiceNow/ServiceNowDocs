@@ -2,6 +2,7 @@
 title: Select a connector template
 description: Select a template to support your API's structure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/spc-sgc-template-stepper-3.html
 release: zurich
 topic_type: task
 last_updated: "2025-12-01"
@@ -17,7 +18,7 @@ Select a template to support your API's structure.
 
 These templates provide you with options that are based on API structures that are widely used by security tool vendors. When you select a template, you’re choosing a configuration that aligns with industry-standard ways of organizing and communicating with APIs. By selecting a common response format \(JSON\), HTTP methods \(GET or POST\), and well-known pagination strategies, connecting with a wide variety of security tools is easier, because you’re using familiar and widely adopted API patterns.
 
-You have the option to get guidance for selecting a template with a Now Assist skill for this step. See [Exploring Now Assist for Vulnerability Response](../../now-assist-vulnerability-response/concept/exploring-ai-for-now-assist-for-vulnerability-response.md) for more information about the generative AI skill and [Using Now Assist for Vulnerability Response in Security Posture Control](../../now-assist-vulnerability-response/concept/using-now-assist-api-connector.md) about using the skill in connector framework.
+You have the option to get guidance for selecting a template with a Now Assist skill for this step. See [Exploring Now Assist for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-vulnerability-response-vr/exploring-ai-for-now-assist-for-vulnerability-response.md) for more information about the generative AI skill and [Creating an API connector with generative ai](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/using-now-assist-api-connector.md) about using the skill in connector framework.
 
 Role required: sn\_sec\_spc\_core.developer
 
@@ -25,23 +26,23 @@ Role required: sn\_sec\_spc\_core.developer
 
 1.  Select one to continue.
 
-<table id="choicetable_pbd_cny_2hc"><thead><tr><th align="left" id="d132314e106">
+<table id="choicetable_pbd_cny_2hc"><thead><tr><th align="left" id="d130486e101">
 
 Option
 
-</th><th align="left" id="d132314e109">
+</th><th align="left" id="d130486e104">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d132314e115">
+</th></tr></thead><tbody><tr><td id="d130486e110">
 
 **Select Use Now Assist**
 
 </td><td>
 
-See [Create an API connector with Now Assist for Vulnerability Response](../../now-assist-vulnerability-response/task/select-api-template.md) for the steps for using Now Assist.
+See [Create an API connector with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/select-api-template.md) for the steps for using Now Assist.
 
-</td></tr><tr><td id="d132314e137">
+</td></tr><tr><td id="d130486e132">
 
 **Select one option from a list and __Apply__ to view the template cards that match your selections.**
 
@@ -55,9 +56,9 @@ Response type - JSON is supported.
 
 HTTP method - Select **GET** or **POST**.
 
-Pagination type - Select one. Select the information icon \(![lower case letter i for more information](../../../reuse/icons/product-icons/circle-info-outline-24.svg)\) to the right of the Pagination type list above the template cards for more information. Pagination strategies and sample requests and responses are also provided.
+Pagination type - Select one. Select the information icon \(\[Omitted image "circle-info-outline-24.svg"\] Alt text: lower case letter i for more information\) to the right of the Pagination type list above the template cards for more information. Pagination strategies and sample requests and responses are also provided.
 
-2.  Select the information icon \(![lower case letter i for more information](../../../reuse/icons/product-icons/circle-info-outline-24.svg)\) on a card for more information about the template.
+2.  Select the information icon \(\[Omitted image "circle-info-outline-24.svg"\] Alt text: lower case letter i for more information\) on a card for more information about the template.
 3.  To choose a template from the available results, select **Select**.
 
 The name of the selected template is displayed above the cards, for example, `CXF0000008`.
@@ -69,7 +70,7 @@ The name of the selected template is displayed above the cards, for example, `CX
     |---------------|-----------|
     |Response type|JSON is supported.|
     |HTTP method|**GET** or **POST** is displayed.|
-    |Pagination type|View the information \(![lower case letter i for more information](../../../reuse/icons/product-icons/circle-info-outline-24.svg)\) icon for more information on pagination strategies you select.|
+    |Pagination type|View the information \(\[Omitted image "circle-info-outline-24.svg"\] Alt text: lower case letter i for more information\) icon for more information on pagination strategies you select.|
 
 3.  Select **Save and continue** to save your template.
 

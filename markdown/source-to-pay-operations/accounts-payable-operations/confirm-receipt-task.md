@@ -2,6 +2,7 @@
 title: Confirm receipt of your order from Employee Center
 description: Confirm the receipt of the items that you've ordered so that the payment is made to the supplier.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/confirm-receipt-task.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -29,12 +30,12 @@ Role required: sn\_shop.acknowledgement\_task\_owner
 
     Shopping Hub is opened in a new browser tab.
 
-4.  Follow the steps starting from step 2 in [Confirm receipt of your order from Shopping Hub Home](../../sourcing-procurement-operations/task/work-receipt-todos.md).
+4.  Follow the steps starting from step 2 in [Confirm receipt of your order from Shopping Hub Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/work-receipt-todos.md).
 
 
 ## Result
 
 The receipt of the ordered items is confirmed.
 
-**Parent Topic:**[Work on an invoice exception](work-invoice-exception-case.md)
+**Parent Topic:**[Work on an invoice exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/work-invoice-exception-case.md)
 

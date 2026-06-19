@@ -2,6 +2,7 @@
 title: Create a work shift plan in Workforce Optimization for Field Service
 description: Schedule shifts for your team so that you can make sure that you are covering all work assignments and breaks. You can also specify the days of the week that you might need to override scheduled shifts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-manager-workforce/create-shift-plan-wfo-fsm.html
 release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -21,21 +22,19 @@ Role required: sn\_shift\_planning.admin
 
 ## About this task
 
-Create a work shift plan in Workforce Optimization for Field Service Management
-
 In the **Shifts** tab, the shifts are grouped by active and inactive shifts. The contextual side panel displays the active and inactive shifts in the order displayed in the **Shifts** tab.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule icon \(![Schedule icon.](../../workforce-optimization-for-customer-service-configurable/image/schedule-new.png)\).
+2.  Click the Schedule icon \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon.\).
 
 3.  Click the **Shifts** tab.
 
-4.  In the contextual side panel, click the Show Shift Plans icon \(![Show Shifts Plans icon.](../image/show-schedule-new.png)\) to display the schedules.
+4.  In the contextual side panel, click the Show Shift Plans icon \(\[Omitted image "show-schedule-new.png"\] Alt text: Show Shifts Plans icon.\) to display the schedules.
 
-5.  Click the Create Work shift plans or On-call shifts \(![Create Work shift plans or On-call shifts icon.](../image/add.png)\) icon.
+5.  Click the Create Work shift plans or On-call shifts \(\[Omitted image "add.png"\] Alt text: Create Work shift plans or On-call shifts icon.\) icon.
 
 6.  Click **Work shift**.
 

@@ -2,6 +2,7 @@
 title: CatalogJS - Scoped
 description: The CatalogJS API provides methods to check and retrieve catalog-specific properties.Creates an instance of the catalog class for the specified glide record object.Creates an instance of the Catalog class with the specified sys\_id.Determines whether a user can view the current category on a mobile device or desktop.Returns the available active catalog.Returns the catalog background color.Returns the number of catalogs active in the catalog table.Returns the categories for the current catalog.Specifies the sys\_ids of the categories in the current catalog.Returns the description of the current catalog.Returns the catalog desktop image file name.Returns the current catalog's GlideRecord.Returns the current catalog's header icon.Returns the sys\_id of the current catalog.Returns the title of the current catalog.Specifies if the current catalog has categories.Specifies if the current catalog has catalog items.Specifies if the wish list is enabled for the current catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/CatalogJSScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The CatalogJS API provides methods to check and retrieve catalog-specific proper
 
 To use this class in a scoped application, use the `sn_sc` namespace identifier. The Service Catalog Scoped API plugin \(com.glideapp.servicecatalog.scoped.api\) that is enabled by default is required to access the CatalogJS API.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## CatalogJS - Catalog\(GlideRecord now\_GR\)
 

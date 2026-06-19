@@ -2,6 +2,7 @@
 title: Application quotas
 description: You can set a limit on the number of events or jobs that can run in an application's scope within a specified time. Limiting the number of events or jobs running at the same time can help optimize bandwidth usage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-performance/c\_ApplicationQuotas.html
 release: zurich
 product: Platform Performance
 classification: platform-performance

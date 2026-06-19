@@ -2,6 +2,7 @@
 title: Getting started with checks
 description: Checks are singular focused rules that detect anomalies or opportunities in an instance. These checks can run against tables, records, or metadata. Checks are defined to identify security, upgrade best practices, manageability, user experience and performance vulnerabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/instance-scan/hs-intro-health-check.html
 release: zurich
 product: Instance Scan
 classification: instance-scan

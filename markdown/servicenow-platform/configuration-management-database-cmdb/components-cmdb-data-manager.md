@@ -2,6 +2,7 @@
 title: Components related to CMDB Data Manager
 description: The following scheduled jobs, tables, roles, and properties, are related to CMDB Data Manager. Some of those, are installed with CMDB Workspace and Service Graph Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/components-cmdb-data-manager.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -17,7 +18,7 @@ The following scheduled jobs, tables, roles, and properties, are related to CMDB
 
 ## System properties
 
-As a Data Manager Administrator \(data\_manager\_admin\) you can view CMDB Data Manager properties in [CMDB Workspace](../concept/data-mgr-exp-cmdb-workspace.md).
+As a Data Manager Administrator \(data\_manager\_admin\) you can view CMDB Data Manager properties in [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-mgr-exp-cmdb-workspace.md).
 
 1.  Open either workspace:
     -   Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Management** and then select the **Data Manager** quick link in Management tools, in the Manage section.
@@ -47,8 +48,8 @@ Retirement definitions
 
 </td><td>
 
-List of retirement definitions used in CMDB Data Manager life-cycle policies. For more information about the concept and usage of retirement definitions, see:-   [Retirement definitions](../concept/life-cycle-rules.md)
--   [Manage retirement definitions for CMDB Data Manager](../task/data-manager-manage-ret-def-wrkspc.md#)
+List of retirement definitions used in CMDB Data Manager life-cycle policies. For more information about the concept and usage of retirement definitions, see:-   [Retirement definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/life-cycle-rules.md)
+-   [Manage retirement definitions for CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-manager-manage-ret-def-wrkspc.md)
 
 </td></tr><tr><td>
 
@@ -72,7 +73,7 @@ Notifications about certification and attestation incomplete tasks. When either 
 
  Upon closing a task, sending notifications stops.
 
- For information about how the **Days to complete** setting is used to calculate when notifications are sent, see [Create a CMDB Data Manager policy](../task/data-manager-create-policy-wrkspc.md).
+ For information about how the **Days to complete** setting is used to calculate when notifications are sent, see [Create a CMDB Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md).
 
 </td></tr><tr><td>
 
@@ -134,7 +135,7 @@ System identifier of a user group to notify about tasks that are being rejected.
 
  By default, this property has no value, in which case, all data manager administrators are notified about rejected tasks.
 
- For information about how this property is used when reviewing and rejecting life-cycle tasks, see [Review CMDB Data Manager tasks](../task/data-manager-review-task-wrkspc.md).
+ For information about how this property is used when reviewing and rejecting life-cycle tasks, see [Review CMDB Data Manager tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-manager-review-task-wrkspc.md).
 
 </td></tr><tr><td>
 
@@ -321,7 +322,7 @@ Dependent CI Relations Evaluation Config\[cmdb\_dependent\_ci\_extra\_rels\_conf
 
 Information about CIs' extraneous relationships which is used for the delete and archive operations. Extraneous relationships are those relationships that are not in the CI’s chain of dependency.
 
- For more information, see [Dependent CIs management](../concept/manage-dependent-ci.md).
+ For more information, see [Dependent CIs management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md).
 
 </td></tr><tr><td>
 
@@ -331,7 +332,7 @@ CMDB Dependent CI Class Exclusions\[cmdb\_dependent\_ci\_class\_exclusion\]
 
 Excluded classes for dependent CI, which is used with the Archive/Retire/Delete policy types to determine which CIs are orphan dependent CIs.
 
- For more information, see [Dependent CIs management](../concept/manage-dependent-ci.md).
+ For more information, see [Dependent CIs management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md).
 
 </td></tr><tr><td>
 
@@ -339,7 +340,7 @@ CMDB Dependent CI Ledger\[cmdb\_dependent\_ci\_ledger\]
 
 </td><td>
 
-Staging table for orphaned dependent CI related to the deletion or archival of the main CI that they depend on. Also used in a cascade-retire dependent CIs operation.For more information, see [Dependent CIs management](../concept/manage-dependent-ci.md).
+Staging table for orphaned dependent CI related to the deletion or archival of the main CI that they depend on. Also used in a cascade-retire dependent CIs operation.For more information, see [Dependent CIs management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md).
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: TISC API
 description: The TISC API provides endpoints to add and retrieve threat intelligence data in the Threat Intelligence Security Center \(TISC\) application.Adds observable source records to the Threat Intelligence Security Center \(TISC\) application.Retrieves observables data, including relationships between observables and other threat intelligence data such as Structured Threat Information Expression \(STIX\) objects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-apis/tisc-api.html
 release: zurich
 product: REST APIs
 classification: rest-apis
@@ -21,21 +22,21 @@ This API can also be used to enrich SIEM alerts with threat intelligence context
 
 This API requires the Threat Intelligence Security Center application, which is available on the ServiceNow Store.
 
-For additional information about TISC, see [Threat Intelligence Security Center](https://www.servicenow.com/docs/access?context=tisc-landing-page&version=zurich&pubname=zurich-security-management&ft:locale=en-US).
+For additional information about TISC, see .
 
 This API runs in the `sn_sec_tisc` namespace.
 
 The current version of this API is `v1`.
 
-For information about API authentication, see the REST API security section in [REST APIs](c_RESTAPI.md).
+For information about API authentication, see the REST API security section in [REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/api-rest.md)
 
 ## TISC API - POST /sn\_sec\_tisc/threat\_intel\_data/add\_observables
 
 Adds observable source records to the Threat Intelligence Security Center \(TISC\) application.
 
-The [observable source records](https://www.servicenow.com/docs/access?context=tisc-observables-source-records&version=zurich&pubname=zurich-security-management&ft:locale=en-US) are created in the Observable Source \[sn\_sec\_tisc\_observable\_source\] table and are processed through de-duplication and aggregation in the [TISC data flow](https://www.servicenow.com/docs/access?context=tisc-data-processing-functional-flow&version=zurich&pubname=zurich-security-management&ft:locale=en-US).
+The observable source records are created in the Observable Source \[sn\_sec\_tisc\_observable\_source\] table and are processed through de-duplication and aggregation in the TISC data flow.
 
 **Note:** Observable source records can't be directly updated using this endpoint. Only new records can be created. Therefore, even if only a few fields require an update, all fields must still be included in the request.
 
@@ -47,7 +48,7 @@ Versioned URL: `/api/sn_sec_tisc/{api_version}/threat_intel_data/add_observables
 
 Default URL: `/api/sn_sec_tisc/threat_intel_data/add_observables`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -270,7 +271,7 @@ Stored in: Sources provided in the request body are added to the API Integration
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -283,7 +284,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_gcj_124_xbc"><thead><tr><th>
 
@@ -1945,7 +1946,7 @@ Retrieves observables data, including relationships between observables and othe
 
 Observables returned in the response are sorted by **sys\_id** in ascending order.
 
-For more information about observables and STIX objects, see [IoC Repository](https://www.servicenow.com/docs/access?context=ioc-repository&version=zurich&pubname=zurich-security-management&ft:locale=en-US).
+For more information about observables and STIX objects, see .
 
 To access this endpoint, the caller must have the sn\_sec\_tisc.api\_obs\_read\_access role, which by default is included in the Threat Intelligence administrator role \(sn\_sec\_tisc.admin\).
 
@@ -1955,7 +1956,7 @@ Versioned URL: `/api/sn_sec_tisc/{api_version}/threat_intel_data/observables`
 
 Default URL: `/api/sn_sec_tisc/threat_intel_data/observables`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -2394,7 +2395,7 @@ observable\_filters.filters.operator
 
 </td><td>
 
-Operator to use for the filter.For more information about operators, see [Operators available for filters and queries](https://www.servicenow.com/docs/access?context=r_OpAvailableFiltersQueries&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+Operator to use for the filter.For more information about operators, see .
 
 The data type of the filter field determines the valid operators. The following operators are valid for each data type.
 
@@ -2565,7 +2566,7 @@ Default: Empty array \(no relationships returned\)
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -2578,7 +2579,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 

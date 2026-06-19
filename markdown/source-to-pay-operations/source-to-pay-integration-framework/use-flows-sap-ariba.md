@@ -2,11 +2,12 @@
 title: Use flows in SAP Ariba
 description: Use flows to retrieve information from SAP Ariba, including invoices, cost centers, product models, payment terms, purchasing organizations, departments, GL accounts, currencies, FX rates, invoice payment details, suppliers, supplier bids, and legal entities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/source-to-pay-integration-framework/use-flows-sap-ariba.html
 release: zurich
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Use, Source-to-Pay integration with SAP Ariba, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -67,12 +68,12 @@ The Accounts Payable Operations Integration with SAP Ariba supports the followin
 |Update invoice statuses as Rejected in SAP Ariba REST|Updates invoice statuses as rejected in SAP Ariba|
 |Fetch invoices from SAP Ariba REST service|Fetches invoices from SAP Ariba REST service|
 
--   **[Manually trigger flows or subflows in SAP Ariba \(Inbound\)](../task/manually-trigger-subflows-sap-ariba.md)**  
+-   **[Manually trigger flows or subflows in SAP Ariba \(Inbound\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-integration-framework/manually-trigger-subflows-sap-ariba.md)**  
 You can manually trigger flows or subflows in SAP Ariba on demand.
--   **[Use a flow or subflow in SAP Ariba \(Outbound\)](../task/use-subflow-sap-ariba.md)**  
+-   **[Use a flow or subflow in SAP Ariba \(Outbound\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-integration-framework/use-subflow-sap-ariba.md)**  
 Execute a flow or subflow in SAP Ariba using the Workflow Studio.
--   **[Copy a flow or subflow in SAP Ariba](../task/copy-subflow-sap-ariba.md)**  
+-   **[Copy a flow or subflow in SAP Ariba](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-integration-framework/copy-subflow-sap-ariba.md)**  
 You can create a copy of the a flow or subflow, and modify based on your requirements.
 
-**Parent Topic:**[Use Source-to-Pay integration with SAP Ariba](using-source-to-pay-sap-ariba-integration.md)
+**Parent Topic:**[Use Source-to-Pay integration with SAP Ariba](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-integration-framework/using-source-to-pay-sap-ariba-integration.md)
 

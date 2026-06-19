@@ -2,6 +2,7 @@
 title: Configure the Accelerate Complaint Case Handling agentic workflow
 description: Configure the Accelerate Complaint Case Handling agentic workflow by defining key requirements and security controls. The workflow is then tested and made available through various channels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/acc-complaint-case-handling-agentic-wkfl.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -27,7 +28,7 @@ Role required: admin
 
 3.  Define the key requirements.
 
-    For more information on defining key requirements, refer to [General guidelines for creating AI agents and agentic workflows](https://www.servicenow.com/docs/access?context=gg-creating-aia&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+    For more information on defining key requirements, refer to .
 
     1.  Write a clear description and list of steps.
 

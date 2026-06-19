@@ -2,13 +2,14 @@
 title: Use Partial sync
 description: Partial sync enables callers to specify only the portions of the structure that matter. The system then populates only the requested types, maintains the full structure \(the skeleton remains intact\), and preserves empty arrays for omitted types to help prevent downstream errors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/use-partial-sync.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
 last_updated: "2026-01-10"
 reading_time_minutes: 1
-breadcrumb: [Explore Partial sync, Lead to Cash Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Lead to Cash Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Use Partial sync

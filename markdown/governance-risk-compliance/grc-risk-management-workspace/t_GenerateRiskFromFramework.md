@@ -2,6 +2,7 @@
 title: Associate a risk framework or risk statement with an entity type to generate risks
 description: Risks are automatically generated when you make associations between risk frameworks or risk statements and entity types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/t\_GenerateRiskFromFramework.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -32,5 +33,5 @@ Role required: sn\_risk.admin and sn\_risk.manager
     All risk frameworks or statements are associated to the entity type and a risk is created for every risk statement against every entity in the entity type.
 
 
-**Parent Topic:**[Use entity and risk dependencies using the GRC: Workbench](../../grc-common/concept/grc-workbench.md)
+**Parent Topic:**[Use entity and risk dependencies using the GRC: Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/grc-workbench.md)
 

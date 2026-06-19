@@ -2,6 +2,7 @@
 title: Configure your base API URL for EJBCA ACME
 description: Configure your base API URL for EJBCA ACME to your organization's root URL address.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/configure-base-api-url-for-ejbca-acme.html
 release: zurich
 product: Discovery
 classification: discovery

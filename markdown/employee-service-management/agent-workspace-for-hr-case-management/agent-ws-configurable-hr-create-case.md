@@ -2,11 +2,12 @@
 title: Create a case in Agent Workspace for HR Case Management
 description: Create a new HR case in Agent Workspace for HR Case Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-configurable-hr-create-case.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
@@ -17,7 +18,7 @@ Create a new HR case in Agent Workspace for HR Case Management.
 
 ## Before you begin
 
-Role required: sn\_hr\_core.case\_writer
+Role required: sn\_hr\_core.case\_writerCreate a case in Agent Workspace 
 
 ## Procedure
 
@@ -32,17 +33,17 @@ Role required: sn\_hr\_core.case\_writer
     **Note:**
 
     -   You can search for or create cases for inactive users in Agent Workspace for HR Case Management.
-    -   If your company uses **Employee Relations**, you can select the **Skip verification** link to create an ER case without identifying an Opened for person. For more information on Employee Relations, see [Create an Employee Relations case in Core UI](create-hr-employee-relations.md).
+    -   If your company uses **Employee Relations**, you can select the **Skip verification** link to create an ER case without identifying an Opened for person. For more information on Employee Relations, see [Create an Employee Relations case in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/create-hr-employee-relations.md).
 4.  Select **Next**.
 
 5.  On the form, fill in the fields.
 
-    For more information, see [Create a new case form](../reference/case-creation-form-aws.md).
+    For more information, see [Create a new case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/case-creation-form-aws.md).
 
 6.  Select **Create case**.
 
     If the case being created has the same subject person, HR service, and if the case is created within three days \(configurable from HR Administration/Properties\), a warning appears that a similar case might already exist. You can choose to **Create new case** or **Cancel**.
 
-    **Note:** For information on the sn\_hr\_core.duplicate\_hr\_case\_time\_out property, see [HR properties](t_HRProperties.md).
+    **Note:** For information on the sn\_hr\_core.duplicate\_hr\_case\_time\_out property, see [HR properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_HRProperties.md).
 
 

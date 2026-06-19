@@ -2,6 +2,7 @@
 title: CMDB service classes
 description: Service Reliability Management \(SRM\) typically supports several Configuration Management Database \(CMDB\) service classes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-reliability-management/sr-cmdb-service-classes.html
 release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
@@ -24,5 +25,5 @@ Types of CMDB service classes that SRM supports:
 -   Calculated application services \(cmdb\_ci\_calculated\)
 -   Tag-based application services \(cmdb\_ci\_service\_by\_tags\)
 
-**Parent Topic:**[Service Reliability Management reference](service-reliability-management-reference.md)
+**Parent Topic:**[Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
 

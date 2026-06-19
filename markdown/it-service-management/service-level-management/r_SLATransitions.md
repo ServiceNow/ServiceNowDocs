@@ -2,6 +2,7 @@
 title: SLA transitions
 description: SLA records pass through a series of transitions during processing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-level-management/r\_SLATransitions.html
 release: zurich
 product: Service Level Management
 classification: service-level-management
@@ -38,11 +39,11 @@ SLA conditions determine what action is performed on a task SLA record.
 |Stop|Complete|
 |Cancel|Cancel|
 
-![SlA transition diagram](../image/SLAConditionsMethods.png "SLA condition methods when the default cancel and resume conditions are selected")
+\[Omitted image "SLAConditionsMethods.png"\] Alt text: SlA transition diagram
 
-![SLA condition diagram](../image/SLM_SLAConsNotdefault.png "SLA Conditions Methods when the cancel and resume conditions are selected")
+\[Omitted image "SLM\_SLAConsNotdefault.png"\] Alt text: SLA condition diagram
 
 Each of these conditions is defined as a method within a Script Include, referenced by an SLA Conditions Rule record.
 
-**Parent Topic:**[Service Level Management reference](../concept/service-level-management-reference.md)
+**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-level-management/service-level-management-reference.md)
 

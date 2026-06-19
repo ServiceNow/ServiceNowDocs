@@ -2,6 +2,7 @@
 title: Activate Release Management
 description: Activate the Release Management plugin \(com.snc.release\_management\_v2\) with the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/release-management/t\_ActivateReleaseManagement.html
 release: zurich
 product: Release Management
 classification: release-management
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-For more information, see [Components installed with Release Management](../reference/components-installed-with-release-management-v2.md) v2.
+For more information, see [Components installed with Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/release-management/components-installed-with-release-management-v2.md) v2.
 
 ## Procedure
 
@@ -35,8 +36,8 @@ For more information, see [Components installed with Release Management](../refe
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
-**Parent Topic:**[Configuring Release Management v2](../concept/configuring-release-management.md)
+**Parent Topic:**[Configuring Release Management v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/release-management/configuring-release-management.md)
 

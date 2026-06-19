@@ -2,6 +2,7 @@
 title: Configure the holiday calendar report
 description: Configure the holiday calendar report to use the action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/configure-the-holiday-calendar-report.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
@@ -44,41 +45,41 @@ Confirm that
 
 8.  Provide the values in report as given in the image.
 
-    ![Holiday calendar report.](../image/holiday-calendar-report1.png)
+    \[Omitted image "holiday-calendar-report1.png"\] Alt text: Holiday calendar report.
 
 9.  Provide the values in the **Group Column Headings** section, as shown in the image.
 
-    ![Holiday calendar report.](../image/holiday-calendar-report2.png)
+    \[Omitted image "holiday-calendar-report2.png"\] Alt text: Holiday calendar report.
 
 10. Provide the values in the **filter** section.
 
-    ![Holiday calendar report.](../image/holiday-calendar-report3.png)
+    \[Omitted image "holiday-calendar-report3.png"\] Alt text: Holiday calendar report.
 
 11. In the prompt section, select Populate Undefined Prompt Defaults and confirm that the prompts are configured as shown in the image below.
 
     All prompts are populated.
 
-    ![Holiday calendar report.](../image/holiday-calendar-report4.png)
+    \[Omitted image "holiday-calendar-report4.png"\] Alt text: Holiday calendar report.
 
 12. In the advanced section, select **enable as webservice**, and select **OK**.
 
-13. Select the three dots icon \(![Three-dots icon.](../image/three-dots-icon.png)\) and navigate to **Web Service****&gt;** **View URLs**.
+13. Select the three dots icon \(\[Omitted image "three-dots-icon.png"\] Alt text: Three-dots icon.\) and navigate to **Web Service****&gt;** **View URLs**.
 
-    ![Holiday calendar report.](../image/holiday-calendar-report5.png)
+    \[Omitted image "holiday-calendar-report5.png"\] Alt text: Holiday calendar report.
 
 14. Enter an employee id in the Employee ID box, and select **OK**. 
 
-    ![Holiday calendar report.](../image/holiday-calendar-report6.png)
+    \[Omitted image "holiday-calendar-report6.png"\] Alt text: Holiday calendar report.
 
 15. In  the View URLs Web Service page, select the marked icon under  CSV section. It will open a new browser tab. 
 
     The details are shown in a new browser tab.
 
-    ![Holiday calendar report.](../image/holiday-calendar-report7.png)
+    \[Omitted image "holiday-calendar-report7.png"\] Alt text: Holiday calendar report.
 
 16. View the RaaS  URL of the report in new browser tab.
 
-    ![Holiday Calendar report.](../image/holiday-calendar-report8.png)
+    \[Omitted image "holiday-calendar-report8.png"\] Alt text: Holiday Calendar report.
 
     URL details:
 

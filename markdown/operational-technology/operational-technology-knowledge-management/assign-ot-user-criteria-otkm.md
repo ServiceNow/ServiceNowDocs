@@ -2,6 +2,7 @@
 title: Assign the user criteria to an OT knowledge base
 description: Assign the user criteria records to an Operational Technology \(OT\) knowledge base to control which users can create, read, write, and retire knowledge articles within the knowledge base.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-knowledge-management/assign-ot-user-criteria-otkm.html
 release: zurich
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
@@ -46,5 +47,5 @@ You can assign user criteria to an OT knowledge base to control read or contribu
 4.  On the knowledge base form, select **Update**.
 
 
-**Parent Topic:**[Configuring Operational Technology Knowledge Management](../concept/configuring-operational-technology-knowledge-management.md)
+**Parent Topic:**[Configuring Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-knowledge-management/configuring-operational-technology-knowledge-management.md)
 

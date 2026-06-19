@@ -2,6 +2,7 @@
 title: View your health and safety status
 description: View your health and safety status page to check your progress on company requirements for returning to the workplace or visiting a site.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-readiness-core/view-health-safety-status.html
 release: zurich
 product: Employee Readiness Core
 classification: employee-readiness-core
@@ -31,8 +32,6 @@ Your status page lists all the requirements that you must fulfill before you can
 
     **Note:** To view your status page on the Now Mobile app, navigate to **Health** &gt; **Prepare for arrival** &gt; **My readiness checklist**.
 
-    ![My Health and Safety Status page.](../image/my-status-links-32.png)
-
 2.  Select one of your upcoming reservations and travel requests to review your eligibility for a reservation or travel request.
 
 3.  Complete any unfulfilled requirements by clicking the link next to the requirement.
@@ -40,5 +39,5 @@ Your status page lists all the requirements that you must fulfill before you can
     **Note:** Some requirements might not have a link. If you need help completing the requirements, contact your organization.
 
 
-**Parent Topic:**[Employee Health and Safety Status](../concept/employee-health-safety-status.md)
+**Parent Topic:**[Employee Health and Safety Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-readiness-core/employee-health-safety-status.md)
 

@@ -2,6 +2,7 @@
 title: Create event field mappings with advanced mapping script
 description: Create event field mappings with advanced mapping scripts to transform raw event data into structured, meaningful information. This method goes beyond basic configurations, aligns fields with business context, and improves event correlation. By reducing alert noise and enhancing visibility, it helps teams respond faster and manage incidents more effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/create-event-field-mappings-advanced-mapping-script.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -115,5 +116,5 @@ try {
 
 ```
 
-**Parent Topic:**[Create event field mappings](t_EMCreateEventFieldMapping2.md)
+**Parent Topic:**[Create event field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMCreateEventFieldMapping2.md)
 

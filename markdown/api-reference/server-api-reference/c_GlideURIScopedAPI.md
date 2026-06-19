@@ -2,6 +2,7 @@
 title: GlideURI - Scoped
 description: The GlideURI API provides methods to handle URI parameters in a scoped application.Instantiates a GlideURI object.Returns the value of the specified parameter.Returns the file name portion of the URI.Sets the specified parameter to the specified value.Reconstructs the URI string and performs the proper URL encoding by converting non-valid characters to their URL code. For example, converting &amp; to '%26'.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_GlideURIScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -19,12 +20,12 @@ The GlideURI API provides methods to handle URI parameters in a scoped applicati
 
 For more information on using URIs:
 
--   [Navigate by URL](https://www.servicenow.com/docs/access?context=navigate-using-url&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
--   [Navigation stack](https://www.servicenow.com/docs/access?context=c_NavigationStack&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
+-   Navigate by URL
+-   Navigation stack
 
-See also: [GlideURI - Global](../../GlideURIGlobal/concept/GlideURIGlobalAPI.md#) .
+See also: [GlideURI - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/GlideURIGlobalAPI.md) .
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## Scoped GlideURI - GlideURI\(\)
 

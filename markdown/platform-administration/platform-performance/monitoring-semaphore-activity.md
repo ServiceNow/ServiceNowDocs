@@ -2,6 +2,7 @@
 title: Monitoring semaphore queue efficiency through Application Insights
 description: Monitor semaphore queue efficiency by tracking the queue depth and number of rejected transactions through the Application Insights semaphore graphs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-performance/monitoring-semaphore-activity.html
 release: zurich
 product: Platform Performance
 classification: platform-performance
@@ -15,7 +16,7 @@ breadcrumb: [Application Insights, Monitor, Platform performance, Maintain and m
 
 Monitor semaphore queue efficiency by tracking the queue depth and number of rejected transactions through the Application Insights semaphore graphs.
 
-Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the [Overview of Instance Observer](https://www.servicenow.com/docs/access?context=io-overview&version=zurich&pubname=zurich-impact&ft:locale=en-US) product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
+Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the  product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -38,5 +39,5 @@ Dig deeper into semaphore processing efficiency by drilling down to analyze issu
 -   Look for spikes in the queue depth graphs. A high transaction count indicates the node might be overloaded. Select a data point in the detail graph to view a list of transactions. In the table, look for long-running transactions on the semaphore and stop them. Reduce the transaction count if the queue depth is consistently high.
 -   Look for spikes in the rejection count graphs. A high rejection count indicates an unexpected proliferation in calls. If the queue depth is reached, all subsequent requests are rejected, which results in a rejected requests \(HTTP 429\) error message. Reduce the number of calls or stop long-running transactions that might be backing up the queue.
 
-**Parent Topic:**[Application Insights](application-insights.md)
+**Parent Topic:**[Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/application-insights.md)
 

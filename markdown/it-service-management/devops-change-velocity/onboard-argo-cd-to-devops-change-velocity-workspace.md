@@ -2,11 +2,12 @@
 title: Onboard Argo CD to DevOps Change Velocity – Workspace
 description: Connect to your Argo CD instance using the DevOps Change Workspace playbook to automate the deployment of applications from GitHub repositories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/onboard-argo-cd-to-devops-change-velocity-workspace.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Argo CD, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -17,7 +18,7 @@ Connect to your Argo CD instance using the DevOps Change Workspace playbook to a
 
 ## Before you begin
 
-Complete the tasks specified in the [Getting started with DevOps Change Velocity](../concept/setting-up-devops-change-velocity.md) topic.
+Complete the tasks specified in the [Getting started with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md) topic.
 
 Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
@@ -25,15 +26,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Argo CD.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d437087e80">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d295873e80">
 
 Option
 
-</th><th align="left" id="d437087e83">
+</th><th align="left" id="d295873e83">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d437087e89">
+</th></tr></thead><tbody><tr><td id="d295873e89">
 
 **Homepage**
 
@@ -43,25 +44,25 @@ Steps
 2.  On the  Connect to a tool  modal, select Argo CD from the **Orchestration** category.
 
 
-</td></tr><tr><td id="d437087e113">
+</td></tr><tr><td id="d295873e113">
 
 **Applications module**
 
 </td><td>
 
-1.  Select **Applications** \(![Applications icon.](../image/applications-icon.png)\).
-2.  Select an existing application, or create one. To create an application, see [Create an application - Classic](app-create-all.md).
+1.  Select **Applications** \(\[Omitted image "applications-icon.png"\] Alt text: Applications icon.\).
+2.  Select an existing application, or create one. To create an application, see [Create an application - Classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/app-create-all.md).
 3.  From the  Recommended actions  pane, select the  **Connect a tool ** card.
 4.  On the  Connect to a tool  modal, select Argo CD from the **Orchestration** category.
 
 
-</td></tr><tr><td id="d437087e159">
+</td></tr><tr><td id="d295873e159">
 
 **Tools module**
 
 </td><td>
 
-1.  Select **Tools** \(![Tools icon.](../image/tools-icon-wkspc.png)\).
+1.  Select **Tools** \(\[Omitted image "tools-icon-wkspc.png"\] Alt text: Tools icon.\).
 2.  From the Capability list, select **Orchestration**.
 3.  Select **Connect a tool**.
 4.  On the  Connect to a tool  modal, select Argo CD.
@@ -70,7 +71,7 @@ Steps
 </td></tr></tbody>
 </table>2.  Specify a name for the tool in the **Tool name** field, and select **Next**.
 
-    ![Connect to Argo CD tool screen](../image/argocd-5.png)
+    \[Omitted image "argocd-5.png"\] Alt text: Connect to Argo CD tool screen
 
 3.  On the Argo CD instance details playbook activity:
 
@@ -82,9 +83,9 @@ Steps
 
     3.  Select the MID Server option and enter its details if your Argo CD instance is attached to a MID Server.
 
-        A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+        A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see MID Server selection.
 
-    ![Enter Argo CD instance details playbook activity](../image/argocd-6.png)
+    \[Omitted image "argocd-6.png"\] Alt text: Enter Argo CD instance details playbook activity
 
 4.  Select **Connect**.
 
@@ -105,16 +106,16 @@ Steps
         This option enables all users having the DevOps App Owner role to access the tool. If selected, they’ll be able to view, associate, discover, import historical data, and modify pipeline steps \(if applicable\) of the tool's objects.
 
     3.  Select **Assign**.
-    ![Specify Argo CD tool access playbook activity](../image/argocd-7.png)
+    \[Omitted image "argocd-7.png"\] Alt text: Specify Argo CD tool access playbook activity
 
 6.  From the **Summary** page, select **View tool record** to review the details of the connected instance.
 
-    ![Connection summary page](../image/argocd-8.png)
+    \[Omitted image "argocd-8.png"\] Alt text: Connection summary page
 
 
 ## Result
 
 You’ve successfully onboarded your Argo CD tool to DevOps Change Velocity.
 
-**Parent Topic:**[Argo CD integration with DevOps Change Velocity](../concept/argo-cd-integration-with-devops-change-velocity.md)
+**Parent Topic:**[Argo CD integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/argo-cd-integration-with-devops-change-velocity.md)
 

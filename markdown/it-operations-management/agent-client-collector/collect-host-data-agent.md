@@ -2,6 +2,7 @@
 title: Run host data collection for an agent
 description: Collect data on the host being monitored by an agent. Manually collecting host data ensures that the host's files are up to date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/collect-host-data-agent.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -23,7 +24,7 @@ Role required: agent\_client\_collector\_admin
 
 1.  Navigate to **All** &gt; **Agent Client Collector** &gt; **Agents**.
 
-2.  Underneath the check box icon ![](../image/check-box-icon.png), hover next to an agent and select the check box that appears.
+2.  Underneath the check box icon \[Omitted image "check-box-icon.png"\] Alt text:, hover next to an agent and select the check box that appears.
 
     Repeat this step for all agents for which you want to collect data.
 
@@ -34,5 +35,5 @@ Role required: agent\_client\_collector\_admin
 
 Data is collected for the specified agents. The collection status is indicated in the page's **Host data collection** column.
 
-**Parent Topic:**[Enabling Agent Client Collector data collection](../concept/data-collection-enabling.md)
+**Parent Topic:**[Enabling Agent Client Collector data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/data-collection-enabling.md)
 

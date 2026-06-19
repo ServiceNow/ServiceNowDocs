@@ -2,6 +2,7 @@
 title: Reclassify a Windows Workstation machine as a server
 description: By default, Discovery automatically classifies computers using certain Windows operating systems as workstations. However, you might want specific computers in your network that are acting as servers to be classified by their function and not their operating system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/t\_ReClassWinWorkstnAsSvr.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -45,7 +46,7 @@ The following procedure reclassifies any Windows workstation operating system \(
 
 5.  Configure the following **Classification Criteria**:
 
-    ![classification criteria](../image/ExampleDiscoveryClassificationCriteria.png)
+    \[Omitted image "ExampleDiscoveryClassificationCriteria.png"\] Alt text: classification criteria
 
 <table id="simpletable_af1_1v2_q4"><tbody><tr><td>
 
@@ -80,10 +81,10 @@ Enter the value for the condition. In our example of a network with a server nam
 
         The completed form looks like this:
 
-        ![Windows classification](../image/DiscoveryClassificationFormTriggersProbe.png)
+        \[Omitted image "DiscoveryClassificationFormTriggersProbe.png"\] Alt text: Windows classification
 
 
 ## What to do next
 
-Run a discovery from the [Discovery schedule](t_CreateADiscoverySchedule.md#) to find Windows machines on your network, and then check the cmdb\_ci\_win\_server table and related tables to see how data is populated in the CMDB.
+Run a discovery from the [Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_CreateADiscoverySchedule.md) to find Windows machines on your network, and then check the cmdb\_ci\_win\_server table and related tables to see how data is populated in the CMDB.
 

@@ -2,6 +2,7 @@
 title: Print a map
 description: Print a map by configuring relevant options and applying filters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/indoor-mapping/print-map.html
 release: zurich
 product: Indoor Mapping
 classification: indoor-mapping
@@ -122,7 +123,7 @@ Size of the space label text on the map.
 
 6.  Select the paper size and orientation from the Print Layout panel.
 
-    For more information about the options, see [Map printing options](../reference/map-printing-options.md).
+    For more information about the options, see [Map printing options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/map-printing-options.md).
 
 7.  In the preview area, zoom and drag the map based on your requirement.
 
@@ -130,7 +131,7 @@ Size of the space label text on the map.
 
 8.  Configure the options in the Print Layout panel.
 
-    For a description of the field values, see [Map printing options](../reference/map-printing-options.md).
+    For a description of the field values, see [Map printing options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/map-printing-options.md).
 
 9.  Select **Print**.
 
@@ -143,9 +144,9 @@ You can use your web browser to print the map or save it as a PDF.
 -   If the map is shifted on the printed page, or the position of icons or the pin is not the same as your instance, set the margins in the print dialog of your browser to **None**.
 -   The license text is automatically added to the outdoor map and is included in the printed map. To remove the license text, you must remove the outdoor map by using the **Remove Outdoor Background** option.
 
-**Parent Topic:**[Manage map objects and data](../concept/using-indoor-mapping.md)
+**Parent Topic:**[Manage map objects and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/using-indoor-mapping.md)
 
-**Previous topic:**[Map preview](map-preview-indoor-mapping.md)
+**Previous topic:**[Map preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/map-preview-indoor-mapping.md)
 
-**Next topic:**[Create Snapshots to migrate Indoor Mapping data](snapshot-ind-mapping.md)
+**Next topic:**[Create Snapshots to migrate Indoor Mapping data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/snapshot-ind-mapping.md)
 

@@ -2,6 +2,7 @@
 title: Mentoring reference
 description: Mentoring Talent Development Reference
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/mentoring/mentoring-egd-reference.html
 release: zurich
 product: Mentoring
 classification: mentoring

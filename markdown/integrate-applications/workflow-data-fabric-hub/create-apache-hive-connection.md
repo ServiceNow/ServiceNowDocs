@@ -2,6 +2,7 @@
 title: Create an Apache Hive connection
 description: Establish a zero copy connection to an Apache Hive data warehouse in Workflow Data Fabric Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/workflow-data-fabric-hub/create-apache-hive-connection.html
 release: zurich
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -49,15 +50,15 @@ Work with your data source admin to create a connection to Apache Hive. For addi
 
 4.  Configure the metastore that you want to use with Apache Hive.
 
-<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d311075e243">
+<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d313453e243">
 
 Option
 
-</th><th align="left" id="d311075e246">
+</th><th align="left" id="d313453e246">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d311075e252">
+</th></tr></thead><tbody><tr><td id="d313453e252">
 
 **Hive Thrift**
 
@@ -71,7 +72,7 @@ Description
 
 `thrift://<host>:<port>`
 
-</td></tr><tr><td id="d311075e287">
+</td></tr><tr><td id="d313453e287">
 
 **AWS Glue**
 
@@ -92,7 +93,7 @@ A test connection is made to the external data source, verifying that the connec
 
 ## What to do next
 
-If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](manage-access-connection-wdf.md).
+If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/manage-access-connection-wdf.md).
 
 If the connection fails, verify the connection details with your data source administrator and try again.
 

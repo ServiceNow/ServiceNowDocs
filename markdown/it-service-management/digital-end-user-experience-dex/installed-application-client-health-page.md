@@ -2,6 +2,7 @@
 title: Installed application — Client health page
 description: The installed application Client health section presents details on the devices on which the Microsoft Configuration Manager \(MCM\) policy has run.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/installed-application-client-health-page.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -118,5 +119,5 @@ Device count
 Number of devices where a specific metric ran.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Applications list](application-form.md)
+</table>**Parent Topic:**[Applications list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/application-form.md)
 

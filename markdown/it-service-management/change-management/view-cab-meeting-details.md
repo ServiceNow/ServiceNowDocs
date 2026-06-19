@@ -2,6 +2,7 @@
 title: View CAB meeting details
 description: You can view the details of any past, scheduled, or in-progress CAB meeting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/view-cab-meeting-details.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -23,7 +24,7 @@ Role required: itil, sn\_change\_cab.cab\_manager, sn\_change\_read, sn\_change\
 
 1.  Use one of the following ways to navigate to the CAB meeting.
 
-<table id="choicetable_w32_vdm_jx"><tbody><tr><td id="d445675e52">
+<table id="choicetable_w32_vdm_jx"><tbody><tr><td id="d280242e52">
 
 **CAB meeting**
 
@@ -33,7 +34,7 @@ Role required: itil, sn\_change\_cab.cab\_manager, sn\_change\_read, sn\_change\
 2.  Click the **Go to this meeting in CAB workbench** related link.
 
 
-</td></tr><tr><td id="d445675e85">
+</td></tr><tr><td id="d280242e85">
 
 **CAB workbench**
 
@@ -46,9 +47,9 @@ Role required: itil, sn\_change\_cab.cab\_manager, sn\_change\_read, sn\_change\
 **Note:** You can only click **Open** if the meeting has an agenda.
 
 </td></tr></tbody>
-</table>    ![CAB meeting details workbench](../image/CHG_CABMeeting.png)
+</table>    \[Omitted image "CHG\_CABMeeting.png"\] Alt text: CAB meeting details workbench
 
-    ![CAB meeting details workbench expanded view](../image/CHG_CABMtgCalView.png)
+    \[Omitted image "CHG\_CABMtgCalView.png"\] Alt text: CAB meeting details workbench expanded view
 
     The following information is available:
 
@@ -127,5 +128,5 @@ Conference details of the CAB meeting.
     |Take meeting notes|Click **Meeting Notes** to take notes during the meeting. These notes can be shared with CAB attendees.|
 
 
-**Parent Topic:**[Create a single CAB meeting occurrence](create-a-cab-meeting.md)
+**Parent Topic:**[Create a single CAB meeting occurrence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/create-a-cab-meeting.md)
 

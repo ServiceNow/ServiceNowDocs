@@ -2,6 +2,7 @@
 title: Review warning modifications
 description: Warning modifications do not block the Problem Management Best Practice — Madrid — State Model plugin from being activated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/problem-management/review-warning-modifications.html
 release: zurich
 product: Problem Management
 classification: problem-management
@@ -40,5 +41,5 @@ For more information about warning and informational modifications and how to re
 
 ## What to do next
 
-[Map problem states](map-problem-state.md).
+[Map problem states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/map-problem-state.md).
 

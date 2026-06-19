@@ -1,0 +1,18 @@
+---
+title: Manage store plans to generate cases and tasks
+description: Manage store plans to plan and schedule generation of cases and tasks to simplify manual efforts.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/retail-industry/retail-operations/rahi-retail-manage-store-plan-authoring.html
+release: zurich
+product: Retail Operations
+classification: retail-operations
+topic_type: concept
+last_updated: "2026-01-22"
+reading_time_minutes: 1
+breadcrumb: [Manage store plans, Retail]
+---
+
+# Manage store plans to generate cases and tasks
+
+Manage store plans to plan and schedule generation of cases and tasks to simplify manual efforts.
+

@@ -2,6 +2,7 @@
 title: Global default fields
 description: When you create a new custom table, several fields appear in the Table Columns embedded list. For all tables, required system fields are added automatically. You cannot delete or modify these fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/r\_GlobalDefaultFields.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -24,10 +25,10 @@ These required system fields are added to all tables:
 |Class \[sys\_class\_name\]|System Class Name|If the table is extensible, a string field that indicates which child table contains the record.|
 |Created \[sys\_created\_on\]|Date/Time|A time-stamp field that indicates when a record was created.|
 |Created by \[sys\_created\_by\]|String|A string field that indicates the user who created the record.|
-|Sys\_id \[sys\_id\]|Sys ID|The [Unique record identifier \(sys\_id\)](../../../administer/table-administration/concept/c_UniqueRecordIdentifier.md#) for the record.|
+|Sys\_id \[sys\_id\]|Sys ID|The [Unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_UniqueRecordIdentifier.md) for the record.|
 |Updates \[sys\_mod\_count\]|Integer|A numeric field that counts the number of updates for this record since record creation.|
 |Updated by \[sys\_updated\_by\]|String|A string field that indicates the user who most recently updated the record.|
 |Updated \[sys\_updated\_on\]|Date/Time|A time-stamp field that indicates the date and time of the most recent update.|
 
-**Parent Topic:**[Create a table](../../../administer/table-administration/task/t_CreateATable.md)
+**Parent Topic:**[Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/t_CreateATable.md)
 

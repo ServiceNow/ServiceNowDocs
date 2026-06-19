@@ -2,6 +2,7 @@
 title: Define an SCCM configuration
 description: To create catalog items for SCCM software deployment or to configure your instance to revoke software through SCCM, you must first associate that software with a collection through an SCCM configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/orchestration/t\_ConfigureSCCMCollections.html
 release: zurich
 product: Orchestration
 classification: orchestration
@@ -23,9 +24,9 @@ Role required: sn\_client\_sf\_dist.csd\_admin or admin
 
 ## About this task
 
-The SCCM configuration process associates software with SCCM collections. To deploy software from an SCCM server, the user or device must be a member of an SCCM collection associated with an **install** deployment. Client Software Distribution \(CSD\) allows you to [revoke unentitled software](../concept/c_SCCMSoftwareRevocation.md#) using an SCCM server when that software can be removed using an **uninstall** collection. Users requesting revokable software from the Service Catalog also have the ability to define lease start and stop dates and request lease extensions.
+The SCCM configuration process associates software with SCCM collections. To deploy software from an SCCM server, the user or device must be a member of an SCCM collection associated with an **install** deployment. Client Software Distribution \(CSD\) allows you to [revoke unentitled software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_SCCMSoftwareRevocation.md) using an SCCM server when that software can be removed using an **uninstall** collection. Users requesting revokable software from the Service Catalog also have the ability to define lease start and stop dates and request lease extensions.
 
-![SCCM table references](../image/SCCMTableRelationshipsDiagram.png "SCCM table references")
+\[Omitted image "SCCMTableRelationshipsDiagram.png"\] Alt text: SCCM table references
 
 ## Procedure
 
@@ -37,7 +38,7 @@ The SCCM configuration process associates software with SCCM collections. To dep
 
 4.  Complete the form, using the fields in the table.
 
-    ![SCCM configuration form](../image/SCCMConfigurationForm.png "SCCM configuration form")
+    \[Omitted image "SCCMConfigurationForm.png"\] Alt text: SCCM configuration form
 
 <table id="table_jrj_45d_gv"><thead><tr><th>
 
@@ -92,5 +93,5 @@ Discovery model that links the unentitled software installation with the SCCM co
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configuring SCCM](../concept/configuring-sccm.md)
+**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/configuring-sccm.md)
 

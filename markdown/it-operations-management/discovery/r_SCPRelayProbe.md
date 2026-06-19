@@ -2,6 +2,7 @@
 title: SCPRelay probe
 description: The SCP Relay Probe copies a single file or the contents of a directory from one host to another, using the MID Server as a relay.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/r\_SCPRelayProbe.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -17,7 +18,7 @@ The SCP Relay Probe copies a single file or the contents of a directory from one
 
 The SCP Relay probe uses the same parameters as SSHCommand. The commands may be sent in or out of the context of a terminal \(tty\), and with or without sudo \(for those commands, such as lsof, that require being executed in the context of root to cough up the information we need\). When commands are sent in the context of a terminal, the path is automatically widened to include a set of default paths \(and this can be further widened with the path\_override parameter\). If the target machine is the local machine, SSH is not used; instead, a local shell is run to execute the command.
 
-For instructions on configuring probe parameters, see [Set probe parameters](../task/t_SetProbeParameters.md).
+For instructions on configuring probe parameters, see [Set probe parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_SetProbeParameters.md).
 
 The following parameters may be passed to the SCP Relay probe:
 
@@ -226,5 +227,5 @@ Name of the file to copy to the target.
 required
 
 </td></tr></tbody>
-</table>**Parent Topic:**[List of Discovery probes](r_ListOfDiscoveryProbes.md)
+</table>**Parent Topic:**[List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_ListOfDiscoveryProbes.md)
 

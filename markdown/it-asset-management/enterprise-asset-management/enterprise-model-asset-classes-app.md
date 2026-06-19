@@ -2,6 +2,7 @@
 title: Expanded Model and Asset Classes Store application
 description: The Expanded Model and Asset Classes Store application adds model and asset classes that extend out-of-the-box classes within the Configuration Management Database \(CMDB\) class hierarchy. These extensions include class descriptions, identification rules, identifier entries, and dependent relationships. The application also adds model categories and API categories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/enterprise-model-asset-classes-app.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -17,15 +18,15 @@ The Expanded Model and Asset Classes Store application adds model and asset clas
 
 **Note:** This application is compatible with the Rome and later family releases.
 
-For more information on the CMDB, see [Configuration Management Database \(CMDB\)](https://www.servicenow.com/docs/access?context=c_ITILConfigurationManagement&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+For more information on the CMDB, see Configuration Management Database \(CMDB\).
 
-In addition to extending CMDB model and asset classes, the Expanded Model and Asset Classes application creates model categories that associate model and asset classes with CMDB configuration item \(CI\) classes. The Enterprise Asset Management application uses these classes and model categories to create asset and model records that can be used to track and manage enterprise assets. Discovery tools, such as the ServiceNow® Discovery application, can also use these classes and model categories to create asset and model records for discovered CIs. See [Model categories](model-hierarchy.md) for more information on model categories.
+In addition to extending CMDB model and asset classes, the Expanded Model and Asset Classes application creates model categories that associate model and asset classes with CMDB configuration item \(CI\) classes. The Enterprise Asset Management application uses these classes and model categories to create asset and model records that can be used to track and manage enterprise assets. Discovery tools, such as the ServiceNow® Discovery application, can also use these classes and model categories to create asset and model records for discovered CIs. See [Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/model-hierarchy.md) for more information on model categories.
 
-The Expanded Model and Asset Classes application also adds the API and Managed API model categories, which allow the Configuration Management Database \(CMDB\) application to create and associate application models with API and Managed API CMDB CI classes. API CMDB CI classes provide classifications for APIs \(application programming interfaces\), which are sets of definitions and protocols that enable computer programs to communicate with each other. Managed API CMDB CI classes provide classifications for APIs that are discovered through gateways or management services, such as Amazon API Gateway. By associating application models with these CMDB CI classes, the Configuration Management Database \(CMDB\) application can create version-agnostic representations of your APIs. These representations can then provide a more holistic view of each API during reporting and analysis. For more information on API and Managed API CMDB CI classes, see [API extension classes](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-api&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+The Expanded Model and Asset Classes application also adds the API and Managed API model categories, which allow the Configuration Management Database \(CMDB\) application to create and associate application models with API and Managed API CMDB CI classes. API CMDB CI classes provide classifications for APIs \(application programming interfaces\), which are sets of definitions and protocols that enable computer programs to communicate with each other. Managed API CMDB CI classes provide classifications for APIs that are discovered through gateways or management services, such as Amazon API Gateway. By associating application models with these CMDB CI classes, the Configuration Management Database \(CMDB\) application can create version-agnostic representations of your APIs. These representations can then provide a more holistic view of each API during reporting and analysis. For more information on API and Managed API CMDB CI classes, see .
 
 ## Enterprise model classes added by the application
 
-The Expanded Model and Asset Classes application adds the Enterprise good model \[sn\_ent\_model\] class, Firmware model \[sn\_ent\_firmware\_model\] class, and Discovered firmware model \[sn\_ent\_discov\_firmware\_model\] class, which extend the base Product model \[cmdb\_model\] class. The Enterprise good model \[sn\_ent\_model\] class includes classifications for various enterprise model types, which are categorized into the following industry-based child classes:![Enterprise good model classes hierarchy.](../image/enterprise-model-classes-hierarchy.png)
+The Expanded Model and Asset Classes application adds the Enterprise good model \[sn\_ent\_model\] class, Firmware model \[sn\_ent\_firmware\_model\] class, and Discovered firmware model \[sn\_ent\_discov\_firmware\_model\] class, which extend the base Product model \[cmdb\_model\] class. The Enterprise good model \[sn\_ent\_model\] class includes classifications for various enterprise model types, which are categorized into the following industry-based child classes:\[Omitted image "enterprise-model-classes-hierarchy.png"\] Alt text: Enterprise good model classes hierarchy.
 
 <table id="table_o2v_sy5_25b"><thead><tr><th>
 
@@ -155,7 +156,7 @@ Reports in the Enterprise Asset Workspace that previously referred to the Classi
 
 ## Enterprise asset classes added by the application
 
-The Expanded Model and Asset Classes application adds the Enterprise asset \[sn\_ent\_asset\] class, which extends the Base asset \[alm\_base\] class. The Enterprise asset \[sn\_ent\_asset\] class includes classifications for various enterprise asset types, which are categorized into the following industry-based child classes:![Enterprise asset classes hierarchy.](../image/enterprise-asset-classes-hierarchy.png)
+The Expanded Model and Asset Classes application adds the Enterprise asset \[sn\_ent\_asset\] class, which extends the Base asset \[alm\_base\] class. The Enterprise asset \[sn\_ent\_asset\] class includes classifications for various enterprise asset types, which are categorized into the following industry-based child classes:\[Omitted image "enterprise-asset-classes-hierarchy.png"\] Alt text: Enterprise asset classes hierarchy.
 
 <table id="table_kw5_dfv_25b"><thead><tr><th>
 
@@ -542,7 +543,7 @@ Classifies the prompts, or instructions, that are given to AI models to generate
 
 You must request the Expanded Model and Asset Classes application from the ServiceNow Store.
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all available applications and for information about submitting requests to the Store. For cumulative release notes information for all released applications, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all available applications and for information about submitting requests to the Store. For cumulative release notes information for all released applications, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 1.  From a web browser, go to the [ServiceNow Store](https://store.servicenow.com/).
 2.  Log in using your HI credentials.

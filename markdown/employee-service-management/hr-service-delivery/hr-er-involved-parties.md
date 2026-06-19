@@ -2,6 +2,7 @@
 title: Create an involved parties record
 description: Capture information about people associated with the ER case. Involved parties can be the complainant, subject of the allegation, a witness, or other \(undefined\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-er-involved-parties.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -35,7 +36,7 @@ Role required: sn\_hr\_er.case\_writer
 
     1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
 
-    2.  Select the **Lists** icon \(![Lists icon](../image/agent-ws-hr-list-icon.png)\).
+    2.  Select the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: Lists icon\).
 
     3.  In the ER category, select an ER case.
 

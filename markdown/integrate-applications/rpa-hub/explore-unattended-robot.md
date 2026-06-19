@@ -2,6 +2,7 @@
 title: Exploring Unattended Robot
 description: Learn about the Unattended Robot features that enable you to run unattended automations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/explore-unattended-robot.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -30,6 +31,6 @@ The ServiceNow® Unattended Robot Login Agent is a software agent that you insta
 
 To learn more about configuring and using Unattended Robot, see:
 
--   [Configuring Unattended Robot](../../rpa-runtime/concept/rpa-runtime-setup.md)
--   [Using Unattended Robot](../../rpa-runtime/concept/using-rpa-runtime.md)
+-   [Configuring Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/rpa-runtime-setup.md)
+-   [Using Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/using-rpa-runtime.md)
 

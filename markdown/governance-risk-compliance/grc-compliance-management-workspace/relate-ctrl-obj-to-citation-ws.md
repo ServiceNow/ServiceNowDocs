@@ -2,6 +2,7 @@
 title: Relate a control objective to a citation using the Compliance Workspace
 description: Using the Compliance Workspace, you can map a single control objective to many citations from different authority documents. This function allows you to test a control objective once while complying with many different citations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/relate-ctrl-obj-to-citation-ws.html
 release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -23,7 +24,7 @@ Role required: sn\_compliance\_admin, sn\_compliance\_manager
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, click the List icon \(![List.](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the Compliance Workspace, click the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List.\).
 
 3.  Navigate to **Compliance library** &gt; **Citations**.
 

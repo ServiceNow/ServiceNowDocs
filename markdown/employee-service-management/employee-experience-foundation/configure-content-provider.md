@@ -2,6 +2,7 @@
 title: Configure content provider and mapping
 description: Connect a video hosting service to Content Publishing by configuring a content provider, then mapping the hosting service to specific content types, including rich content, news article, and styled content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/configure-content-provider.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -88,7 +89,7 @@ Makes this content provider available for use in the specific content type
 
 ## What to do next
 
--   Enable employees to view private videos without providing credentials: [Configure a video authorization](configure-content-processor.md)
--   To provide content managers with an interface where they can select a video, [Configure video content search](configure-content-search.md)
--   To add interface elements to the Content Library video picker, [Configure content rendering parameter](configure-content-rendering-parameter.md)
+-   Enable employees to view private videos without providing credentials: [Configure a video authorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/configure-content-processor.md)
+-   To provide content managers with an interface where they can select a video, [Configure video content search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/configure-content-search.md)
+-   To add interface elements to the Content Library video picker, [Configure content rendering parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/configure-content-rendering-parameter.md)
 

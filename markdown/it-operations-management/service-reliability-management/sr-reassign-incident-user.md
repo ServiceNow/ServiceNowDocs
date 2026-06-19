@@ -2,6 +2,7 @@
 title: Reassign an SRM incident
 description: Reassign an incident to a responder when the incident tasks should be addressed by a particular team member.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-reliability-management/sr-reassign-incident-user.html
 release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
@@ -29,13 +30,13 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 
     **Note:** If you use other Service Operations Workspace \(SOW\) applications, you may see the SOW Home page instead of the SRM Home page. The SOW Home page includes SRM alerts and incidents in its metrics.
 
-2.  From the primary navigation, select **Reliability tasks** \(![Reliability tasks icon](../image/icon-sr-reliability-tasks.png)\).
+2.  From the primary navigation, select **Reliability tasks** \(\[Omitted image "icon-sr-reliability-tasks.png"\] Alt text: Reliability tasks icon\).
 
 3.  Select the **Incidents** tab.
 
 4.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><tbody><tr><td id="d360357e108">
+<table id="choicetable_llb_1fq_vyb"><tbody><tr><td id="d249255e108">
 
 **Option**
 
@@ -43,7 +44,7 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 
 Description
 
-</td></tr><tr><td id="d360357e117">
+</td></tr><tr><td id="d249255e117">
 
 **In the incident list view**
 
@@ -51,7 +52,7 @@ Description
 
 Double-click the **Assigned to** field for the incident and replace the team member from the list menu.
 
-</td></tr><tr><td id="d360357e129">
+</td></tr><tr><td id="d249255e129">
 
 **In the __Details__ tab of incident form**
 
@@ -63,5 +64,5 @@ Delete the name in the **Assigned to** field and reassign. Select **Save**.
 </table>    The incident is now assigned to the new responder and an email notification sent. The assignee is displayed in the list view and on the form.
 
 
-**Parent Topic:**[Working with incidents in SRM](../concept/sr-work-incidents.md)
+**Parent Topic:**[Working with incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-work-incidents.md)
 

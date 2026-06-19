@@ -2,6 +2,7 @@
 title: View editor content
 description: Work with the View Editor content and customize the campus, buildings, layers, places, connectors, and direction modes properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/indoor-mapping/view-editor-content.html
 release: zurich
 product: Indoor Mapping
 classification: indoor-mapping
@@ -31,7 +32,7 @@ Role required: map admin, map editor, map editor limited
 
     For example: Default.
 
-    ![View editor content pane](../images/view-editor-content.png "View editor content panel")
+    \[Omitted image "view-editor-content.png"\] Alt text: View editor content pane
 
 5.  To edit a campus view content, click the Campus drop-down list to display the campus properties.
 
@@ -107,5 +108,5 @@ Click on the Default camera button to position it on the map.Set the default lat
 22. Click **Apply**.
 
 
-**Parent Topic:**[Edit with view editor](edit-with-view-editor.md)
+**Parent Topic:**[Edit with view editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/edit-with-view-editor.md)
 

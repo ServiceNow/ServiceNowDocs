@@ -2,6 +2,7 @@
 title: Getting started with Security Incident Response integration with Zscaler
 description: Activate and set up the Zscaler Internet Access product to interface with your ServiceNow AI Platform instance and Security Incident Response product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/get-started-with-zscaler.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -72,7 +73,7 @@ Verify the Zscaler versions.
 
 </td></tr><tr><td>
 
-Verify that you have the required Zscaler permissions and have configured [access to the Zscaler Internet Access APIs](../task/configure-zscaler-api-access.md).
+Verify that you have the required Zscaler permissions and have configured [access to the Zscaler Internet Access APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/configure-zscaler-api-access.md).
 
 </td><td>
 

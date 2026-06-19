@@ -2,6 +2,7 @@
 title: Use workflow stages
 description: You can add or modify workflow stages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/legacy-workflow/t\_UsingWorkflowStages.html
 release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
@@ -27,7 +28,7 @@ Role required: workflow\_admin, workflow\_creator, or admin
 
 3.  In the Workflow Properties form, if the table is not the Requested Item \[sc\_req\_item\] table, select a field to display stages in the **Stage** field property.
 
-    [Available fields](../concept/c_WorkflowStages.md) depend on the table selected for the workflow.
+    [Available fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/c_WorkflowStages.md) depend on the table selected for the workflow.
 
 4.  After assigning a list of stages to the workflow, you can set a stage value in any of the workflow activities that provide a **Stage** field in their dialog box.
 
@@ -41,7 +42,7 @@ Role required: workflow\_admin, workflow\_creator, or admin
 
     Again, these stage values are combined with the choices, defaults, and existing values.
 
-    ![Workflow Stages Menu Option](../image/WorkflowStagesMenuOption.png)
+    \[Omitted image "WorkflowStagesMenuOption.png"\] Alt text: Workflow Stages Menu Option
 
 
 ## Workflow stages
@@ -79,5 +80,5 @@ A good practice is to assign stages to the activities as follows:
 
 When the **Order equipment**, **Receive equipment**, or **Add equipment to CMDB** activity is active, the **Stage** display shows that the **Order** stage is **In progress**.
 
-**Parent Topic:**[Workflow stages](../concept/c_WorkflowStages.md)
+**Parent Topic:**[Workflow stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/c_WorkflowStages.md)
 

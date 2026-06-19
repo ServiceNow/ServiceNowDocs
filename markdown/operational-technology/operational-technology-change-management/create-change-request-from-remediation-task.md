@@ -2,6 +2,7 @@
 title: Create a change request from a remediation task
 description: Create an Operational Technology \(OT\) change request from an OT remediation task. Creating a change request from a remediation task automatically populates the information in your change request record, such as the Site and the OT Device fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-change-management/create-change-request-from-remediation-task.html
 release: zurich
 product: Operational Technology Change Management
 classification: operational-technology-change-management
@@ -25,9 +26,9 @@ Roles required: sn\_ot\_change\_write or sn\_otvr.remediation\_owner
 
 2.  Open the remediation task record that you want to create a change request from.
 
-3.  Select the **Create OT Change** button as shown in the following example. ![Create OT Change button on a remediation task record.](../image/create-ot-change-button.png)
+3.  Select the **Create OT Change** button as shown in the following example. \[Omitted image "create-ot-change-button.png"\] Alt text: Create OT Change button on a remediation task record.
 
-    **Note:** If there's no active change model, the following error appears.![Error when creating a change task without an active change model.](../image/ot-change-error-message.png)
+    **Note:** If there's no active change model, the following error appears.\[Omitted image "ot-change-error-message.png"\] Alt text: Error when creating a change task without an active change model.
 
 4.  Select the OT change model that applies to your organization.
 
@@ -35,7 +36,7 @@ Roles required: sn\_ot\_change\_write or sn\_otvr.remediation\_owner
 
 6.  Complete the playbook as needed as your team works on the change request.
 
-    For more information about the Basic OT Change Model playbook, see [Basic OT Change Model playbook](../concept/basic-ot-change-model.md). For more information about the Advanced OT Change Model playbook, see [Advanced OT Change Model playbook](../concept/advanced-ot-change-model.md).
+    For more information about the Basic OT Change Model playbook, see [Basic OT Change Model playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-change-management/basic-ot-change-model.md). For more information about the Advanced OT Change Model playbook, see [Advanced OT Change Model playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-change-management/advanced-ot-change-model.md).
 
     The following fields are automatically populated depending on the conditions that you set.
 
@@ -46,5 +47,5 @@ Roles required: sn\_ot\_change\_write or sn\_otvr.remediation\_owner
         **Note:** If multiple entities are associated with an device, the **Equipment model entity** field is left empty.
 
 
-**Parent Topic:**[Using Operational Technology Change Management](../concept/using-operational-technology-change-management.md)
+**Parent Topic:**[Using Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-change-management/using-operational-technology-change-management.md)
 

@@ -2,6 +2,7 @@
 title: Privacy policy settings for Vaccine Administration Management
 description: Users are required to provide their privacy consent at the time of registration on the Vaccine Administration Management portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/vaccine-administration-management/privacy-policy-VAM.html
 release: zurich
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -17,7 +18,7 @@ Users are required to provide their privacy consent at the time of registration 
 
 The `Migrate Terms and Condition Data` fix script is used for moving existing users who have accepted the Vaccine Administration Management policy automatically to the new Healthcare and Life Sciences policy.
 
-For more information about configuring privacy policy settings, see [Configure privacy policy settings for the Patient Portal](../../healthcare-life-sciences/task/hcls-config-privacy-policy.md).
+For more information about configuring privacy policy settings, see [Configure privacy policy settings for the Patient Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-privacy-policy.md).
 
-**Parent Topic:**[Configuring Vaccine Administration Management](vaccine-mgmt-config.md)
+**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 

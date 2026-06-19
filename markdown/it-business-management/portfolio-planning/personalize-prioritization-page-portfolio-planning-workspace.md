@@ -2,6 +2,7 @@
 title: Personalize Prioritization view
 description: Personalize the Prioritization tab view in the Planning page in the workspace so that you can view the information that is most relevant to you and your stakeholders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/personalize-prioritization-page-portfolio-planning-workspace.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -18,7 +19,7 @@ Personalize the Prioritization tab view in the Planning page in the workspace so
 
 ## Before you begin
 
-[Create a portfolio plan](create-portfolio-plan-in-portfolio-planning-workspace.md)
+[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/create-portfolio-plan-in-portfolio-planning-workspace.md)
 
 Role required: sn\_align\_core.apw\_user
 
@@ -36,13 +37,13 @@ Personalization preferences are saved as the portfolio plan's settings in Portfo
 
 3.  Use the Personalize side panel to update the display of rows and columns on the page.
 
-    1.  Select the Personalize icon \(![Personalize icon.](../../project-workspace/image/icon-settings.png)\).
+    1.  Select the Personalize icon \(\[Omitted image "icon-settings.png"\] Alt text: Personalize icon.\).
 
     2.  From the Columns section, select the columns that you want to see or hide the data of.
 
         You can reorder the columns here to change their display order on the backlog.
 
-        If you want additional columns to be available in this page, your admin can configure them. See [Configuring additional columns for Prioritization page in Portfolio Planning](../concept/customizing-the-columns-for-prioritization-page-in-portfolio-planning.md).
+        If you want additional columns to be available in this page, your admin can configure them. See [Configuring additional columns for Prioritization page in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/customizing-the-columns-for-prioritization-page-in-portfolio-planning.md).
 
     3.  From the Rows section, choose how the rows are displayed, using the **Shade alternate rows** toggle.
 
@@ -52,15 +53,15 @@ Personalization preferences are saved as the portfolio plan's settings in Portfo
 
     Use one of the following ways to group the planning items. Repeat the action to group the list by multiple attributes.
 
-<table id="choicetable_mwf_cgk_htb"><thead><tr><th align="left" id="d124622e191">
+<table id="choicetable_mwf_cgk_htb"><thead><tr><th align="left" id="d121799e191">
 
 Choice
 
-</th><th align="left" id="d124622e194">
+</th><th align="left" id="d121799e194">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d124622e200">
+</th></tr></thead><tbody><tr><td id="d121799e200">
 
 **Drag and drop**
 
@@ -70,15 +71,15 @@ Drag and drop a column name to the **Grouped by** bar above the list.
 
  In the sample list here, the Planning item type column is dropped into the **Grouped by** bar.
 
- ![Animation showing grouping the backlog list by planning item type.](../../spw-prioritization/images/backlog-grouping-animation.gif)
+ \[Omitted image "backlog-grouping-animation.gif"\] Alt text: Animation showing grouping the backlog list by planning item type.
 
-</td></tr><tr><td id="d124622e228">
+</td></tr><tr><td id="d121799e228">
 
 **Use Column actions**
 
 </td><td>
 
-Select the Column actions icon \(![Column actions.](../../alignment-planner-workspace/images/icon-column-actions.png)\) and select **Group by &lt;attribute&gt;**.![Prioritization page grouping option from column actions.](../../spw-prioritization/images/backlog-grouping-option.png)
+Select the Column actions icon \(\[Omitted image "icon-column-actions.png"\] Alt text: Column actions.\) and select **Group by &lt;attribute&gt;**.\[Omitted image "backlog-grouping-option.png"\] Alt text: Prioritization page grouping option from column actions.
 
 </td></tr></tbody>
 </table>5.  Sort the planning items by any column, by clicking the column name.
@@ -87,7 +88,7 @@ Select the Column actions icon \(![Column actions.](../../alignment-planner-work
 
 6.  Filter the planning items by an attribute.
 
-    1.  For the column that you want to filter, select the Column actions icon \(![Column actions.](../../alignment-planner-workspace/images/icon-column-actions.png)\).
+    1.  For the column that you want to filter, select the Column actions icon \(\[Omitted image "icon-column-actions.png"\] Alt text: Column actions.\).
 
     2.  Select **Filter**.
 
@@ -101,7 +102,7 @@ Select the Column actions icon \(![Column actions.](../../alignment-planner-work
 
 7.  Pin columns to the left or right of the list.
 
-    1.  For the column that you want to pin, select the Column actions icon \(![Column actions.](../../alignment-planner-workspace/images/icon-column-actions.png)\).
+    1.  For the column that you want to pin, select the Column actions icon \(\[Omitted image "icon-column-actions.png"\] Alt text: Column actions.\).
 
     2.  From the Pin column section, select **Pin to left** or **Pin to right**.
 
@@ -109,14 +110,14 @@ Select the Column actions icon \(![Column actions.](../../alignment-planner-work
 
 8.  Adjust the width of the columns as per choice or set the width to autofit.
 
-    Hold and drag the column border to adjust its width. You can set the column width to autofit using the **Autofit this column** or **Autofit all columns** options from the Column actions \(![Column actions.](../../alignment-planner-workspace/images/icon-column-actions.png)\).
+    Hold and drag the column border to adjust its width. You can set the column width to autofit using the **Autofit this column** or **Autofit all columns** options from the Column actions \(\[Omitted image "icon-column-actions.png"\] Alt text: Column actions.\).
 
-9.  Reset columns to default settings by selecting **Reset columns** from the Personalize menu \(![Personalize icon.](../../project-workspace/image/icon-settings.png)\).
+9.  Reset columns to default settings by selecting **Reset columns** from the Personalize menu \(\[Omitted image "icon-settings.png"\] Alt text: Personalize icon.\).
 
     Selecting this option reverts the column personalization, grouping, and sorting to default settings.
 
     Personalization settings that you've made so far on the Prioritization page would be cleared. Any personalization that you make after this point is set as the new preference for the portfolio.
 
-10. [Apply quick filters for Prioritization and Roadmap data in Portfolio Planning](quick-fiters-prioitization-roadmap-ppw.md)
+10. [Apply quick filters for Prioritization and Roadmap data in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/quick-fiters-prioitization-roadmap-ppw.md)
 
 

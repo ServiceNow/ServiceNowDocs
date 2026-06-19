@@ -2,6 +2,7 @@
 title: Configure Workvivo for external content indexing
 description: Create and authorize a new application in your Workvivo instance to allow the Workvivo external content connector to access your source system and content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-workvivo-external-content-indexing.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -26,7 +27,7 @@ Role required: none
 
 The Workvivo external content connector retrieves articles, comments, documents, events, kudos, pages, and updates that are present globally, in teams, or in spaces in your Workvivo source system using the Workvivo API.
 
-To allow the connector to access your Workvivo source system via the API, you must configure and configure an app in your Workvivo instance. Your connector admin can use this app's API key and settings from your instance to configure the Workvivo external connector for proper connection to your source system.
+To allow the connector to access your Workvivo source system via the API, you must configure and configure an app in your Workvivo instance. Your connector administrator can use this app's API key and settings from your instance to configure the Workvivo external connector for proper connection to your source system.
 
 ## Procedure
 
@@ -40,11 +41,11 @@ To allow the connector to access your Workvivo source system via the API, you mu
 
     4.  Copy your organization's Workvivo ID from the banner and store it in a secure location.
 
-        **Important:** Your external content connector admin needs this Workvivo ID when configuring the Workvivo external content connector.
+        **Important:** Your external content connector administrator needs this Workvivo ID when configuring the Workvivo external content connector.
 
     5.  Copy your organization's API URL from the banner and store it in a secure location.
 
-        **Important:** Your external content connector admin needs this API URL when configuring the Workvivo external content connector.
+        **Important:** Your external content connector administrator needs this API URL when configuring the Workvivo external content connector.
 
     6.  Select **Add New App**.
 
@@ -82,21 +83,21 @@ To allow the connector to access your Workvivo source system via the API, you mu
 
     4.  Copy your the token for your new API key and store it in a secure location.
 
-        **Important:** Your external content connector admin needs this API key token when configuring the Workvivo external content connector.
+        **Important:** Your external content connector administrator needs this API key token when configuring the Workvivo external content connector.
 
 
 ## What to do next
 
-Provide the following items to your connector admin:
+Provide the following items to your connector administrator:
 
 -   The host URL for your Workvivo instance. This is typically `https://<organization-name>.workvivo.us`, where `<organization-name>` is the name of your organization.
--   Your organization's Workvivo ID that you copied in step [1.d](configure-workvivo-external-content-indexing.md#copy-workvivo-id-step).
--   The API URL that you copied in step [1.e](configure-workvivo-external-content-indexing.md#copy-api-url-step).
--   The API key token that you copied in step [2.d](configure-workvivo-external-content-indexing.md#copy-api-key-step).
+-   Your organization's Workvivo ID that you copied in step [1.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-workvivo-external-content-indexing.md).
+-   The API URL that you copied in step [1.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-workvivo-external-content-indexing.md).
+-   The API key token that you copied in step [2.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-workvivo-external-content-indexing.md).
 
-Your connector admin needs these items to configure a Workvivo external content connector to retrieve articles, comments, documents, events, kudos, pages, and updates and security principals from your Workvivo source system.
+Your connector administrator needs these items to configure a Workvivo external content connector to retrieve articles, comments, documents, events, kudos, pages, and updates and security principals from your Workvivo source system.
 
-For details on creating and configuring a Workvivo external content connector, see [Create a Workvivo external content connector](create-ext-cont-connector-workvivo.md).
+For details on creating and configuring a Workvivo external content connector, see [Create a Workvivo external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-workvivo.md).
 
-**Parent Topic:**[Workvivo external content connector](../concept/workvivo-external-content-connector.md)
+**Parent Topic:**[Workvivo external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/workvivo-external-content-connector.md)
 

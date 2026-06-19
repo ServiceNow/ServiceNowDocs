@@ -2,6 +2,7 @@
 title: Splunk Enterprise Security event ingestion integration
 description: The Splunk Enterprise Security notable event ingestion integration with the Security Incident Response \(SIR\) product allows security incident analysts to collect and process notable event data \(referred to as notables\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/splunk-event-ingest-overview-security.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -44,7 +45,7 @@ The following Security Operations applications must be installed and activated f
 2.  Security Support Common
 3.  Security Incident Response
 
-For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](../../security-incident-response/task/entitle-secops-product.md) and [Activate a ServiceNow Store application](../../security-incident-response/task/activate-entitled-store-app.md).
+For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/activate-entitled-store-app.md).
 
 ## ServiceNow Addons
 
@@ -61,7 +62,7 @@ This integration has been tested with:
 
 ## MID Server
 
-This integration requires an installed and configured MID Server in your ServiceNow AI Platform® instance to connect to the Splunk service when the Splunk server is deployed within your corporate network. If you are using the Splunk Cloud service, a MID Server is not required. See [MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) for more information about MID Servers.
+This integration requires an installed and configured MID Server in your ServiceNow AI Platform® instance to connect to the Splunk service when the Splunk server is deployed within your corporate network. If you are using the Splunk Cloud service, a MID Server is not required. See MID Server for more information about MID Servers.
 
 ## References
 
@@ -92,5 +93,5 @@ Splunk product website
 </td></tr></tbody>
 </table>## Checklist
 
-For a printable checklist of these topics, see [Checklist for Splunk Enterprise Security Notable Event Ingestion integration](../task/splunk-event-ingest-checklist-security.md). You can use this list to monitor your progress as you work through the tasks of the integration.
+For a printable checklist of these topics, see [Checklist for Splunk Enterprise Security Notable Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/splunk-event-ingest-checklist-security.md). You can use this list to monitor your progress as you work through the tasks of the integration.
 

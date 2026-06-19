@@ -2,6 +2,7 @@
 title: Minimizing table queries
 description: Learn how to minimize queries to maximize performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/table\_queries.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -76,5 +77,5 @@ var tableResults=lookup(“select blue, red, green from hues where value in (:li
 
 This method is better.
 
-For more information on what is supported in a query, see [The lookup function: commands and syntax](cpq-the-lookup-function-commands-and-syntax.md).
+For more information on what is supported in a query, see [The lookup function: commands and syntax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/cpq-the-lookup-function-commands-and-syntax.md).
 

@@ -2,6 +2,7 @@
 title: Create dependencies between work order tasks
 description: If a work order contains multiple tasks, you can create dependencies between the tasks that determine the order in which tasks are performed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/t\_SetAnUpstreamTask.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -17,7 +18,7 @@ If a work order contains multiple tasks, you can create dependencies between the
 
 ## Before you begin
 
-Role required: wm\_qualifier or [qualifier combination role](../reference/r_UserRoleInstallWFieldSrvMgmnt.md)
+Role required: wm\_qualifier or [qualifier combination role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md)
 
 Activate the Field Service Task Dependency \(com.snc.fsm\_task\_dependency\) plugin to optionally define advanced task dependencies among work order tasks from different or same work order.
 
@@ -157,7 +158,7 @@ Enter the minimum delay or waiting time between tasks.Minimum lag time is the mi
 
 ## Server Installation and Configuration
 
-Consider you have a work order for setting up a new server. There are three work order tasks involved: "Install Server", "Configure Server", and "Administer Server".![task dependency form](../../field-service-management/image/task-dependencies.png)
+Consider you have a work order for setting up a new server. There are three work order tasks involved: "Install Server", "Configure Server", and "Administer Server".\[Omitted image "task-dependencies.png"\] Alt text: task dependency form
 
 -   Install Server \(Predecessor or Upstream Task\): This task involves physically installing the server hardware.
 -   Configure Server \(Successor or Downstream Task\): This task involves configuring the server software after the installation is complete.

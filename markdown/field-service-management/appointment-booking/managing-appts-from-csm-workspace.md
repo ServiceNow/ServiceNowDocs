@@ -2,6 +2,7 @@
 title: Managing appointments in the CSM Configurable Workspace
 description: Agents and dispatchers can book, reschedule, or cancel appointments on behalf of customers for the associated work orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/appointment-booking/managing-appts-from-csm-workspace.html
 release: zurich
 product: Appointment Booking
 classification: appointment-booking

@@ -2,6 +2,7 @@
 title: Adding notes to a project
 description: Add, view, and remove notes for a project to help manage tasks, ideas, and insights. Tag others to notify them to view a note.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/annotate-project.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -19,16 +20,16 @@ From the project overview panel, you can add a note or see a list of notes assoc
 
 **Note:** To add or delete notes, you must have the sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin role.
 
--   **[View a note](../task/view-note.md)**  
+-   **[View a note](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/view-note.md)**  
 Review notes posted for a project.
--   **[Add a note](../task/add-project-note.md)**  
+-   **[Add a note](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/add-project-note.md)**  
 Add a note to a project to review later.
--   **[Edit a note](../task/edit-project-note.md)**  
+-   **[Edit a note](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/edit-project-note.md)**  
 Update a project note.
--   **[Delete a note](../task/resolve-project-note.md)**  
+-   **[Delete a note](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/resolve-project-note.md)**  
 Delete a project note once you resolve or want to remove it.
--   **[View a snapshot](../task/view-snapshot.md)**  
+-   **[View a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/view-snapshot.md)**  
 Review snapshots of process maps posted for a project.
 
-**Parent Topic:**[Analyzing and getting process insights](analyze-get-process-insights.md)
+**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/analyze-get-process-insights.md)
 

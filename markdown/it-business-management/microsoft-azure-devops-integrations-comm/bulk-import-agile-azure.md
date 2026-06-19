@@ -2,6 +2,7 @@
 title: Import work items from Azure DevOps to Agile Development 2.0
 description: Import work items and iterations of an Azure DevOps project into Agile Development to track and update the status of your work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/microsoft-azure-devops-integrations-comm/bulk-import-agile-azure.html
 release: zurich
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
@@ -17,7 +18,7 @@ Import work items and iterations of an Azure DevOps project into Agile Developme
 
 ## Before you begin
 
--   Set up team integration settings for your Azure DevOps projects. For more information, see [Associate Azure DevOps projects with assignment groups in Agile Development 2.0](set-up-import-export-azure-agile.md#).
+-   Set up team integration settings for your Azure DevOps projects. For more information, see [Associate Azure DevOps projects with assignment groups in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/microsoft-azure-devops-integrations-comm/set-up-import-export-azure-agile.md).
 -   Role required: sn\_ado\_int.user
 
 ## Procedure
@@ -64,9 +65,9 @@ Import work items and iterations of an Azure DevOps project into Agile Developme
 
 ## What to do next
 
-[Schedule jobs to import projects, teams, areas, and work items from Azure DevOps](schedule-jobs-import-projects-azure.md)
+[Schedule jobs to import projects, teams, areas, and work items from Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/microsoft-azure-devops-integrations-comm/schedule-jobs-import-projects-azure.md)
 
 .
 
-**Parent Topic:**[Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0](../concept/setting-up-agile-azure-integration.md)
+**Parent Topic:**[Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/microsoft-azure-devops-integrations-comm/setting-up-agile-azure-integration.md)
 

@@ -2,6 +2,7 @@
 title: Activate Universal Request NLU Model for Virtual Agent Conversations
 description: You can activate the Universal Request: NLU Model for Virtual Agent Conversations plugin \(com.snc.universal\_request.nlu\) if you have the admin role. Activating this plugin allows you to use NLU for virtual agent conversations in Universal Request. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-request-for-hr-service-delivery/activate-ur-nlu-model.html
 release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -33,13 +34,13 @@ Role required: admin
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
-**Parent Topic:**[Universal Request plugins](../concept/ur-plugins.md)
+**Parent Topic:**[Universal Request plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-plugins.md)
 
 **Related topics**  
 
 
-[List of plugins \(Zurich\)](https://www.servicenow.com/docs/access?context=list-of-plugins&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+[bundle-platadm.list-of-plugins]
 

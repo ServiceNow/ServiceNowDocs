@@ -2,6 +2,7 @@
 title: Sign a completed workplace task
 description: As the workplace manager for a space, sign the workplace tasks Workplace Core for complete and closed activities. Signing a task generates a PDF document for the workplace activity, which is useful for compliance procedures.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/sign-completed-task.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace
@@ -27,7 +28,7 @@ Role required: sn\_wsd\_core.workplace\_manager
 
 3.  In the **Sign template** field, review the signing template selected for the task.
 
-    For more information, see [Configure a workplace task signing template](../../workplace-service-delivery/task/configure-workplace-pdf-document-template-wsd.md).
+    For more information, see [Configure a workplace task signing template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/configure-workplace-pdf-document-template-wsd.md).
 
 4.  Select **Sign Task**.
 
@@ -44,5 +45,5 @@ Role required: sn\_wsd\_core.workplace\_manager
 
 A PDF document of the signed form is generated based on the signing template associated with the task and is attached to the task.
 
-**Parent Topic:**[Managing workplace tasks](workplace-maintenance-tasks.md)
+**Parent Topic:**[Managing workplace tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/workplace-maintenance-tasks.md)
 

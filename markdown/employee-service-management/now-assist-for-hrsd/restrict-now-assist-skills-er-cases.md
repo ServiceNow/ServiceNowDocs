@@ -2,6 +2,7 @@
 title: Restrict Now Assist capabilities for employee relations cases
 description: Restrict the Now Assist capabilities for your employee relations cases and define the availability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-hrsd/restrict-now-assist-skills-er-cases.html
 release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -17,7 +18,7 @@ Restrict the Now Assist capabilities for your employee relations cases and defin
 
 ## Before you begin
 
--   Role required: admin
+-   Role required: sn\_hr\_gen\_ai.admin
 
 ## Procedure
 
@@ -28,5 +29,5 @@ Restrict the Now Assist capabilities for your employee relations cases and defin
 3.  On the **Define Availability** tab, modify the condition and add **Task type is not Employee Relations Case**.
 
 
-**Parent Topic:**[Configure Now Assist for HR Service Delivery \(HRSD\)](configure-now-assist-hr.md)
+**Parent Topic:**[Configure Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 

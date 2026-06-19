@@ -2,6 +2,7 @@
 title: Using agentic workflows in Now Assist for HAM
 description: Use the Now Assist for HAM AI agent collection to complete hardware asset sourcing tasks autonomously and optimize the asset repair workflow. These AI agents help resolve hardware requests quickly, improve the productivity of asset managers, and speed up repairs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham-agentic-workflow.html
 release: zurich
 product: Now Assist for Hardware Asset Management
 classification: now-assist-for-hardware-asset-management
@@ -75,21 +76,21 @@ Now Assist for Hardware Asset Management \(HAM\) v2.0
 -   Activate all agents within the agentic workflow.
 -   Activate the trigger to invoke the agentic workflow automatically. If you prefer to invoke it manually, activating the trigger isn’t necessary.
 
-By default, all agentic workflows and AI agent records are read-only. To customize them, you must first [duplicate the agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US), and then activate the duplicated workflow.
+By default, all agentic workflows and AI agent records are read-only. To customize them, you must first duplicate the agentic workflow, and then activate the duplicated workflow.
 
-After you duplicate the agentic workflow, you can test it in the AI Agent Studio to analyze its performance as it executes the instructions that you have defined. For details on testing your agentic workflow, see [Manually test the execution of an agentic workflow](https://www.servicenow.com/docs/access?context=test-aia-use-case&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+After you duplicate the agentic workflow, you can test it in the AI Agent Studio to analyze its performance as it executes the instructions that you have defined. For details on testing your agentic workflow, see .
 
-You can implement security in AI agents and the agentic workflow using Access Control Lists \(ACLs\) that specify which users can discover and invoke an agentic workflow or an AI agent. For more details on configuring ACLs, see [Implement access control in Now Assist AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+You can implement security in AI agents and the agentic workflow using Access Control Lists \(ACLs\) that specify which users can discover and invoke an agentic workflow or an AI agent. For more details on configuring ACLs, see .
 
 Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 
--   **[Now Assist for Hardware Asset Management \(HAM\) AI agent collection Help manage hardware asset requests agentic workflow](now-assist-ham-fulfill-req-agent-workflow.md)**  
+-   **[Now Assist for Hardware Asset Management \(HAM\) AI agent collection Help manage hardware asset requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham-fulfill-req-agent-workflow.md)**  
 Use the Help manage hardware asset requests agentic workflow, driven by AI agents, to handle your employees' hardware asset requests automatically. The AI agents fulfill requests by either consuming the available local stock, or by generating transfer orders or purchase orders.
--   **[Now Assist for Hardware Asset Management \(HAM\) AI agent collection Help repair hardware assets agentic workflow](now-assist-ham-repair-agent-workflow.md)**  
+-   **[Now Assist for Hardware Asset Management \(HAM\) AI agent collection Help repair hardware assets agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham-repair-agent-workflow.md)**  
 Use the Help repair hardware assets agentic workflow, driven by AI agents, to handle the repair requests of defective and out-of-warranty hardware assets automatically. These AI agents validate the repair tasks, provide detailed troubleshooting and repair steps, and finally close the relevant tasks after receiving user confirmation.
 
-**Parent Topic:**[IT Asset Management](../../software-asset-management2/concept/it-asset-management.md)
+**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/it-asset-management.md)
 

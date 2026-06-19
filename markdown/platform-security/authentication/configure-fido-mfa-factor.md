@@ -2,6 +2,7 @@
 title: Configure FIDO2 as an MFA factor
 description: Configure policy input and condition to display FIDO2 as an MFA factor policy for authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/configure-fido-mfa-factor.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -33,20 +34,20 @@ Role required: admin
 
     Following are the types of filter criteria:
 
-    -   [IP Filter Criteria](create-ip-filter-criteria.md)
-    -   [Role Filter Criteria](create-role-filter-criteria.md)
-    -   [Group Filter Criteria](create-group-filter-criteria.md)
+    -   [IP Filter Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-ip-filter-criteria.md)
+    -   [Role Filter Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-role-filter-criteria.md)
+    -   [Group Filter Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-group-filter-criteria.md)
     For example, Role Filter Criteria.
 
-    ![Filter Criteria.](../images/mfa-email-filter.png)
+    \[Omitted image "mfa-email-filter.png"\] Alt text: Filter Criteria.
 
 6.  Select **Role Filter Criteria**, fill the fields for the role filter criteria and submit the record.
 
-    The new policy is created. For more information, see [Role Filter Criteria](create-role-filter-criteria.md).
+    The new policy is created. For more information, see [Role Filter Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-role-filter-criteria.md).
 
     Let's take an example of using **ITIL** role for the user \(**andrew.och**\) as the policy input and submit.
 
-    ![Policy input](../images/mfa-fido-itil-role.png)
+    \[Omitted image "mfa-fido-itil-role.png"\] Alt text: Policy input
 
 7.  On the Policy - Display FIDO2 as an MFA Factor Policy page, select **Policy Conditions**.
 
@@ -87,15 +88,15 @@ Condition
 Logical combination of multiple policy inputs \(filter criteria\) that is used to evaluate authentication requests.Select the role-based filter criteria policy that was created for the condition.
 
 </td></tr></tbody>
-</table>    ![MFA FIDO - Policy conditions](../images/mfa-fido-itil-role-condition.png)
+</table>    \[Omitted image "mfa-fido-itil-role-condition.png"\] Alt text: MFA FIDO - Policy conditions
 
 10. Select **Submit**.
 
     Based on the policy input and condition, if the user \(**andrew.och**\) tries to log in to the instance, the user is shown as the FIDO screen to either enroll and register.
 
-    ![MFA- Biometric or Hardware keys](../images/biometirc-mfa.png)
+    \[Omitted image "biometirc-mfa.png"\] Alt text: MFA- Biometric or Hardware keys
 
-    To know more about different configuration example and user behaviors, see [Example Configurations and User Behaviors](../concept/mfa-with-fido.md#section_ovx_pgx_bgc).
+    To know more about different configuration example and user behaviors, see [Example Configurations and User Behaviors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/mfa-with-fido.md).
 
 11. Repeat step 8 to create additional policy conditions.
 

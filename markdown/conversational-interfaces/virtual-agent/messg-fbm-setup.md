@@ -2,6 +2,7 @@
 title: Set up Conversational Integration with Facebook Messenger
 description: Integrate Facebook Messenger with your ServiceNow instance using the Conversational Integration with Facebook Messenger application. Use the application to engage customers in conversations with bots.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/messg-fbm-setup.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -71,7 +72,7 @@ Token
 
 </td><td>
 
-Token for webhook.By default, the token for ServiceNow webhook is `nowbot`. As a user with the admin role, you can set the **glide.cs.facebook\_messenger\_verify\_token** system property to a desired value and then enter that value in this field. Because the **glide.cs.facebook\_messenger\_verify\_token** system property isn't available by default, you must add it with the data type set to string. For more information, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+Token for webhook.By default, the token for ServiceNow webhook is `nowbot`. As a user with the admin role, you can set the **glide.cs.facebook\_messenger\_verify\_token** system property to a desired value and then enter that value in this field. Because the **glide.cs.facebook\_messenger\_verify\_token** system property isn't available by default, you must add it with the data type set to string. For more information, see Add a system property.
 
 </td></tr></tbody>
 </table>        3.  Click **Verify and Save**.
@@ -124,5 +125,5 @@ Token for webhook.By default, the token for ServiceNow webhook is `nowbot`. As a
     A success message displays confirming the integration with the Facebook Messenger app.
 
 
-**Parent Topic:**[Configure Conversational Integration with Facebook Messenger](messg-fbm-configure.md)
+**Parent Topic:**[Configure Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-fbm-configure.md)
 

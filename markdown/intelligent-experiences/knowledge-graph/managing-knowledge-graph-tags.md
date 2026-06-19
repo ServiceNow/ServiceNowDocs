@@ -2,6 +2,7 @@
 title: Managing Knowledge Graph tags
 description: Edit or delete Knowledge Graph tags for Now Assist Virtual Agent, AI agent or Now Assist Panel Enterprise Graph use case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/knowledge-graph/managing-knowledge-graph-tags.html
 release: zurich
 product: Knowledge Graph
 classification: knowledge-graph
@@ -27,15 +28,15 @@ Role required: admin
 
     You can see all the tables that are part of the tag on the Knowledge Graph canvas.
 
-    ![edit tag](../Images/edit-tag.png)
+    \[Omitted image "edit-tag.png"\] Alt text: edit tag
 
 3.  Select **Edit tag** option to open the Edit Tags window or select a node to edit.
 
     If you select a node you will see the Tag configuration section on the right pane.
 
-4.  You can also select the Edit tag configuration \(![](../../../reuse/icons/product-icons/pencil-outline-24.svg)\) icon from the **Tag configuration** section to open the Edit Tags window.
+4.  You can also select the Edit tag configuration \(\[Omitted image "pencil-outline-24.svg"\]\) icon from the **Tag configuration** section to open the Edit Tags window.
 
-5.  To delete a tag, select the ![](../../now-assist-platform/images/more-options-menu-item.png) icon next to a tag on Enterprise Graph tags section on home page.
+5.  To delete a tag, select the \[Omitted image "more-options-menu-item.png"\] icon next to a tag on Enterprise Graph tags section on home page.
 
 6.  Select **Delete** from the drop-down.
 

@@ -2,6 +2,7 @@
 title: Domain separation and Service Catalog
 description: Domain separation is supported in Service Catalog. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/domain-separation-service-catalog-management.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -24,11 +25,11 @@ Domain separation is supported in Service Catalog. Domain separation enables you
 
 Sample use case: An Admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## Activation information
 
-You should activate the Service Catalog - Domain Separation plugin \(com.glideapp.servicecatalog.domain\_separation\) to enable domain separation for Service Catalog. For information on how you can request for the plugin activation, see [Request for domain separation in Service Catalog](../task/activate-domain-sep-catalog.md).
+You should activate the Service Catalog - Domain Separation plugin \(com.glideapp.servicecatalog.domain\_separation\) to enable domain separation for Service Catalog. For information on how you can request for the plugin activation, see [Request for domain separation in Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/activate-domain-sep-catalog.md).
 
 This plugin should only be activated if there is a need for the following scenarios:
 
@@ -60,11 +61,11 @@ For users with visibility to a single domain, the effective domain is the user�
 
 ## Visibility of catalog items - Item creation and maintenance
 
-A catalog item can be created or published in any domain in the hierarchy. For information on creating a catalog item, see [Create or edit a catalog item](../task/t_DefineACatalogItem.md#).The item is created in the effective domain of the user. For information on enabling the domain picker, see [Enable domain selection menus in Core UI](https://www.servicenow.com/docs/access?context=t_EnableDomainReferencePickerProperty&version=zurich&pubname=zurich-platform-security&ft:locale=en-US). Once the item is created in a specific domain, all future edits to the item are done in that domain itself.
+A catalog item can be created or published in any domain in the hierarchy. For information on creating a catalog item, see [Create or edit a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/t_DefineACatalogItem.md).The item is created in the effective domain of the user. For information on enabling the domain picker, see Enable domain selection menus in Core UI. Once the item is created in a specific domain, all future edits to the item are done in that domain itself.
 
 If a catalog item is published using Item Designer, the domain of the item is the domain selected in the domain picker while publishing the item. Once the item is published, it can only be modified and re-published in the domain it was originally published in.
 
-Catalog items are domain separated as data. Only for maintenance and administration, the visibility of the catalog items follows the data domain hierarchy rules. For information on domain separation hierarchies, see [Domain separation hierarchies](https://www.servicenow.com/docs/access?context=bp-domain-sep-hierarchies&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+Catalog items are domain separated as data. Only for maintenance and administration, the visibility of the catalog items follows the data domain hierarchy rules. For information on domain separation hierarchies, see Domain separation hierarchies.
 
 User criteria associated with a catalog item must be visible in the domain of the catalog item. If not visible, catalog item is considered to be not associated with that user criteria.
 
@@ -72,7 +73,7 @@ User criteria associated with a catalog item must be visible in the domain of th
 
 The catalog item created in a specific domain is available in the browse, search, and request experience only in that domain and not available in the peer domains, child domains, and parent domains irrespective of the hierarchy and visibility of the domains. So, requesters can only request for items in their domain as well as in the global domain.
 
-For users with access to multiple domains \(for example, IT fulfiller\), the items are available for request based on the domain selected in the domain picker. To view or request an item of a specific domain, the user should switch to that domain. For information on enabling the domain picker, see [Enable domain selection menus in Core UI](https://www.servicenow.com/docs/access?context=t_EnableDomainReferencePickerProperty&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For users with access to multiple domains \(for example, IT fulfiller\), the items are available for request based on the domain selected in the domain picker. To view or request an item of a specific domain, the user should switch to that domain. For information on enabling the domain picker, see Enable domain selection menus in Core UI.
 
 When a requester submits a request using an order guide which has items from multiple domains, only the items in the effective domain and the global domain are ordered.
 
@@ -80,7 +81,7 @@ The target records such as requests, requested items, or records created by reco
 
 ## Request fulfilment flow and reporting for a domain-separated catalog item
 
-The target records such as requests, requested items, or records created by record producers can be accessed by a fulfiller who has visibility to the domain that the record has been generated in. For information on visibility in domain hierarchies, see [Visibility domains and Contains domains](https://www.servicenow.com/docs/access?context=c_DomainVisibility&version=zurich&pubname=zurich-platform-security&ft:locale=en-US). Even when the fulfiller modifies the requested item from a domain other than the requested item’s domain, the modifications are recorded in the target record’s domain. Since the target records are separated as data, the reports retrieve data based on the effective domain of the user requesting the report.
+The target records such as requests, requested items, or records created by record producers can be accessed by a fulfiller who has visibility to the domain that the record has been generated in. For information on visibility in domain hierarchies, see Visibility domains and Contains domains. Even when the fulfiller modifies the requested item from a domain other than the requested item’s domain, the modifications are recorded in the target record’s domain. Since the target records are separated as data, the reports retrieve data based on the effective domain of the user requesting the report.
 
 ## Request flow by a fulfiller from a different domain
 
@@ -100,13 +101,13 @@ For example, consider that A is the parent domain and B is its child domain. A c
 
 An item can only be edited in the domain that it has been created. Catalog UI policies and actions added in catalog builder are created in the same domain as that of the item.
 
--   **[Request for domain separation in Service Catalog](../task/activate-domain-sep-catalog.md)**  
+-   **[Request for domain separation in Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/activate-domain-sep-catalog.md)**  
 Enable domain separation in Service Catalog by requesting for the activation of the Service Catalog - Domain Separation plugin \(com.glideapp.servicecatalog.domain\_separation\).
 
-**Parent Topic:**[Service Catalog Reference](service-catalog-reference.md)
+**Parent Topic:**[Service Catalog Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/service-catalog-reference.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

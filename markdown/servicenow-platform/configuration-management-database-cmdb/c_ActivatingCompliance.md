@@ -2,6 +2,7 @@
 title: Compliance Activation
 description: Compliance functionality is provided by the Certification Core \(com.snc.certification\_core\) plugin which contains shared functionality required for certification audits.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/c\_ActivatingCompliance.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -17,7 +18,7 @@ Compliance functionality is provided by the Certification Core \(com.snc.certifi
 
 The Certification Core \(com.snc.certification\_core\) plugin consists of the following plugins, and is activated by default.
 
--   Activated by default: [Desired State Certification](c_DesiredState.md) \(com.snc.certification\_desired\_state\)
--   [Activate](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US): [Architecture Compliance](c_ArchitectureCompliance.md) \(com.snc.architecture\_compliance\), which automatically activates the Version Management \(com.snc.version\) plugin that manages certification filter and template versions.
--   [Activate](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US): [Data Certification](../../data-certification/concept/c_DataCertification.md) \(com.snc.certification\_v2\), which automatically activates the Version Management \(com.snc.version\) plugin that manages certification filter versions.
+-   Activated by default: [Desired State Certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_DesiredState.md) \(com.snc.certification\_desired\_state\)
+-   Activate: [Architecture Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_ArchitectureCompliance.md) \(com.snc.architecture\_compliance\), which automatically activates the Version Management \(com.snc.version\) plugin that manages certification filter and template versions.
+-   Activate: [Data Certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_DataCertification.md) \(com.snc.certification\_v2\), which automatically activates the Version Management \(com.snc.version\) plugin that manages certification filter versions.
 

@@ -2,6 +2,7 @@
 title: Configure GitHub Enterprise Cloud for external content indexing
 description: Create and authorize a GitHub App to allow the GitHub Enterprise Cloud external content connector to access your GitHub Enterprise Cloud content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-github-enterprise-cloud-external-content-indexing.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -30,7 +31,7 @@ Role required: none
 
 The GitHub Enterprise Cloud external content connector retrieves searchable content and metadata from commits, issues, and pull requests found in your GitHub Enterprise Cloud source system's public and internal repositories using the GitHub REST API.
 
-To allow the connector to access your GitHub Enterprise Cloud source system via the REST API, you must configure and authorize a GitHub App for your organization in GitHub Enterprise Cloud. Your connector admin can use settings copied from the GitHub App to configure the GitHub Enterprise Cloud external connector for proper connection to your source system.
+To allow the connector to access your GitHub Enterprise Cloud source system via the REST API, you must configure and authorize a GitHub App for your organization in GitHub Enterprise Cloud. Your connector administrator can use settings copied from the GitHub App to configure the GitHub Enterprise Cloud external connector for proper connection to your source system.
 
 ## Procedure
 
@@ -78,13 +79,13 @@ To allow the connector to access your GitHub Enterprise Cloud source system via 
 
     1.  In the About section, copy the client ID for your new GitHub App and store it in a secure location.
 
-        **Important:** Your external content connector admin needs this client ID when configuring the GitHub Enterprise Cloud external content connector.
+        **Important:** Your external content connector administrator needs this client ID when configuring the GitHub Enterprise Cloud external content connector.
 
     2.  In the Private keys section, select **Generate a private key**.
 
     3.  When prompted, download the PEM-format private key certificate file to a secure location.
 
-        **Important:** Your external content connector admin needs this PEM-format private key certificate file when configuring the GitHub Enterprise Cloud external content connector.
+        **Important:** Your external content connector administrator needs this PEM-format private key certificate file when configuring the GitHub Enterprise Cloud external content connector.
 
 3.  Install your new GitHub App.
 
@@ -108,7 +109,7 @@ To allow the connector to access your GitHub Enterprise Cloud source system via 
 
         For details on generating a JWT for a GitHub App using Ruby, Python, bash, or PowerShell, see the [https://docs.github.com/en/enterprise-cloud@latest/apps/creating-github-apps/authenticating-with-a-github-app/generating-a-json-web-token-jwt-for-a-github-app](https://docs.github.com/en/enterprise-cloud@latest/apps/creating-github-apps/authenticating-with-a-github-app/generating-a-json-web-token-jwt-for-a-github-app) GitHub documentation resource.
 
-        To generate a JWT, you need the client ID that you copied in step [2.a](configure-github-enterprise-cloud-external-content-indexing.md#copy-client-id-step) and the PEM-format client secret certificate file that you downloaded in step [2.c](configure-github-enterprise-cloud-external-content-indexing.md#copy-client-secret-step).
+        To generate a JWT, you need the client ID that you copied in step [2.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-github-enterprise-cloud-external-content-indexing.md) and the PEM-format client secret certificate file that you downloaded in step [2.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-github-enterprise-cloud-external-content-indexing.md).
 
         **Important:** Your JWT expires 10 minutes after creation. If it expires before you can perform the next step, repeat this step to generate a new JWT.
 
@@ -124,20 +125,20 @@ To allow the connector to access your GitHub Enterprise Cloud source system via 
 
     4.  In the JSON response object, find the application installation's `id` key-value pair, copy its value, and store it in a secure location.
 
-        **Important:** Your external content connector admin needs this App Installation ID when configuring the GitHub Enterprise Cloud external content connector.
+        **Important:** Your external content connector administrator needs this App Installation ID when configuring the GitHub Enterprise Cloud external content connector.
 
 
 ## What to do next
 
-Provide the following items to your connector admin:
+Provide the following items to your connector administrator:
 
--   The client ID that you copied in step [2.a](configure-github-enterprise-cloud-external-content-indexing.md#copy-client-id-step).
--   The PEM-format private key certificate file that you downloaded in step [2.c](configure-github-enterprise-cloud-external-content-indexing.md#copy-client-secret-step).
--   The app installation ID that you copied in step [4.d](configure-github-enterprise-cloud-external-content-indexing.md#copy-app-installation-id-step).
+-   The client ID that you copied in step [2.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-github-enterprise-cloud-external-content-indexing.md).
+-   The PEM-format private key certificate file that you downloaded in step [2.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-github-enterprise-cloud-external-content-indexing.md).
+-   The app installation ID that you copied in step [4.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-github-enterprise-cloud-external-content-indexing.md).
 
-Your connector admin needs these items to configure a GitHub Enterprise Cloud external content connector to retrieve items and security principals from your GitHub Enterprise Cloud source system.
+Your connector administrator needs these items to configure a GitHub Enterprise Cloud external content connector to retrieve items and security principals from your GitHub Enterprise Cloud source system.
 
-For details on creating and configuring a GitHub Enterprise Cloud external content connector, see [Create a GitHub Enterprise Cloud external content connector](create-ext-cont-connector-github-enterprise-cloud.md).
+For details on creating and configuring a GitHub Enterprise Cloud external content connector, see [Create a GitHub Enterprise Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-github-enterprise-cloud.md).
 
-**Parent Topic:**[GitHub Enterprise Cloud external content connector](../concept/github-enterprise-cloud-external-content-connector.md)
+**Parent Topic:**[GitHub Enterprise Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/github-enterprise-cloud-external-content-connector.md)
 

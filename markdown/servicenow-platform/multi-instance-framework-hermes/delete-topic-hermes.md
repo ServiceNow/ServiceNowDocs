@@ -2,6 +2,7 @@
 title: Delete a topic in Hermes
 description: Remove a topic and its messages by deleting it from Hermes. Deleting a topic record deletes it from your instance and from the Hermes Kafka cluster.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/multi-instance-framework-hermes/delete-topic-hermes.html
 release: zurich
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -32,5 +33,5 @@ Role required: kafka\_admin
 
 The topic record is deleted from the Kafka Topics \[sys\_kafka\_topic\] table. The corresponding Kafka topic is deleted from the Hermes Kafka cluster.
 
-**Parent Topic:**[Managing topics in Hermes](../concept/managing-topics-hermes.md)
+**Parent Topic:**[Managing topics in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/multi-instance-framework-hermes/managing-topics-hermes.md)
 

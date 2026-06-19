@@ -2,6 +2,7 @@
 title: Monitoring API performance
 description: Monitor the performance of your integrations with the Application Insights API metrics graphs. You can monitor how these integrations are performing over time and how those APIs perform over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-performance/api-metrics.html
 release: zurich
 product: Platform Performance
 classification: platform-performance
@@ -15,7 +16,7 @@ breadcrumb: [Application Insights, Monitor, Platform performance, Maintain and m
 
 Monitor the performance of your integrations with the Application Insights API metrics graphs. You can monitor how these integrations are performing over time and how those APIs perform over time.
 
-Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the [Overview of Instance Observer](https://www.servicenow.com/docs/access?context=io-overview&version=zurich&pubname=zurich-impact&ft:locale=en-US) product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
+Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the  product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -28,8 +29,8 @@ When you select the **API metrics** tab, the list of endpoints is displayed in t
 -   Payload size \(bytes\)
 -   Failure rate \(%\)
 
--   **[Configure API metrics](../task/configure-api-metrics.md)**  
+-   **[Configure API metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/configure-api-metrics.md)**  
 Configure the API metrics feature in Application Insights to enable instance administrators to proactively monitor instance performance.
 
-**Parent Topic:**[Application Insights](application-insights.md)
+**Parent Topic:**[Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/application-insights.md)
 

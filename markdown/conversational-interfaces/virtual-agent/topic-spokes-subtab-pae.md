@@ -2,6 +2,7 @@
 title: Spokes
 description: Use the Spokes indicators to view details such as spoke usage, spoke actions, and subflows for the selected spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/topic-spokes-subtab-pae.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Use the Spokes indicators to view details such as spoke usage, spoke actions, an
 
 In Virtual Agent, conversations contain topics, topics contain spokes, and spokes contain spoke actions or subflows. The **Spokes** indicators show which spokes, actions, and subflows were used and how often.
 
-![Conversational Analytics dashboard with global spoke usage, actions, subflows, and topics indicators.](../images/dashboard-spoke-used-2-pae.png)
+\[Omitted image "dashboard-spoke-used-2-pae.png"\] Alt text: Conversational Analytics dashboard with global spoke usage, actions, subflows, and topics indicators.
 
 ## Spokes tab
 
@@ -28,5 +29,5 @@ The Spokes tab contains the following indicators.
 -   **Subflows**—Subflows indicator shows which subflows were executed for the selected spoke.
 -   **Topics**—Topics indicator shows which topics executed the selected spoke. The horizontal axis shows the topics that triggered the spoke. The vertical axis shows the number of times the spoke was triggered in a topic.
 
-**Parent Topic:**[Topics tab](topics-tab-pae.md)
+**Parent Topic:**[Topics tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/topics-tab-pae.md)
 

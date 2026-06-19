@@ -2,6 +2,7 @@
 title: Analyze your staff alignment using Demand Forecast
 description: Use Demand Forecast to plan the number of staff members that you require so that you have enough agents to do the job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/analyze-staffing-demand-forecast-wfo-itsm.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -33,7 +34,7 @@ Using Demand Forecast, you can:
 
 1.  Navigate to **All** &gt; **Workforce Optimization for ITSM** &gt; **Manager Workspace**.
 
-2.  Click the Schedule icon \( ![Schedule icon](../../itsm-manager-workspace/image/schedule-icon.png)\).
+2.  Click the Schedule icon \( \[Omitted image "schedule-icon.png"\] Alt text: Schedule icon\).
 
 3.  Click the **Team Calendar** tab.
 
@@ -41,15 +42,15 @@ Using Demand Forecast, you can:
 
     You can click the filter icon and select the assignment groups and shift plans for which you want to view the staff alignment.
 
-<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d85498e122">
+<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d86071e122">
 
 To analyze staff alignment
 
-</th><th align="left" id="d85498e125">
+</th><th align="left" id="d86071e125">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d85498e131">
+</th></tr></thead><tbody><tr><td id="d86071e131">
 
 **For each day**
 
@@ -69,7 +70,7 @@ You can also view the number of agents you have and the demand for every hour fo
 |Yellow|The number of agents you have scheduled are more than the demand you have for that hour.|
 |Red|The number of agents you have scheduled are less than the demand you have for that hour.|
 
-</td></tr><tr><td id="d85498e209">
+</td></tr><tr><td id="d86071e209">
 
 **For a given week**
 
@@ -89,8 +90,8 @@ The Total coverage/demand row has indicators for the staff alignment.
  You can also view the coverage and demand for every hour for each group.
 
 </td></tr></tbody>
-</table>    The following image shows an example of the staffing alignment in a Week view. The misaligned staffing indicator in the pop-up window shows that the forecast manager has scheduled four agents for each shift but more agents are needed to cover the shifts.![Demand Forecast](../image/demand-forecast-rome.gif)
+</table>    The following image shows an example of the staffing alignment in a Week view. The misaligned staffing indicator in the pop-up window shows that the forecast manager has scheduled four agents for each shift but more agents are needed to cover the shifts.\[Omitted image "demand-forecast-rome.gif"\] Alt text: Demand Forecast
 
 
-**Parent Topic:**[Scheduling your teams' work in Workforce Optimization for ITSM](../concept/scheduling-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Scheduling your teams' work in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/scheduling-configurable-workforce-optimization-itsm.md)
 

@@ -2,6 +2,7 @@
 title: Proactive Engagement use cases
 description: This section lists some of the most common use cases in Proactive Engagement that are designed for seamless implementation and quick results. You can deploy these use cases that are tailored to some of the common challenges seen as required by your organization to meet your specific needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/proactive-engagement/use-cases.html
 release: zurich
 product: Proactive Engagement
 classification: proactive-engagement
@@ -473,5 +474,5 @@ Zscaler is disconnected
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Proactive Engagement reference](../proactive-engagement-reference.md)
+</table>**Parent Topic:**[Proactive Engagement reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/proactive-engagement/proactive-engagement-reference.md)
 

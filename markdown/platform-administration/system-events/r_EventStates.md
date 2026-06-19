@@ -2,6 +2,7 @@
 title: Event states
 description: The event state describes where in the life cycle the event is.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/system-events/r\_EventStates.html
 release: zurich
 product: System Events
 classification: system-events
@@ -53,8 +54,8 @@ Transferred
 
 </td><td>
 
-The event was rotated to a different shard of the Event \[`sysevent`\] table. When an event is rotated, a duplicate record is created in an active shard to be processed. A scheduled job processes the event when it is next in the queue, but it is not possible to predict when this will happen as because several events may need to be processed before it. Therefore, you can reprocess the event. See [Reprocess an event](../task/t_ReprocessAnEvent.md).
+The event was rotated to a different shard of the Event \[`sysevent`\] table. When an event is rotated, a duplicate record is created in an active shard to be processed. A scheduled job processes the event when it is next in the queue, but it is not possible to predict when this will happen as because several events may need to be processed before it. Therefore, you can reprocess the event. See [Reprocess an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-events/t_ReprocessAnEvent.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[System events reference](system-events-reference.md)
+</table>**Parent Topic:**[System events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-events/system-events-reference.md)
 

@@ -2,6 +2,7 @@
 title: Create custom style classes and rules
 description: Use style classes rules in UI Builder to apply custom visual styling to UI elements by referencing CSS classes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/custom-style-classes-rules.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -29,7 +30,7 @@ Control the appearance of fields, containers, buttons, and other interface compo
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create or open a page.
 
@@ -39,7 +40,7 @@ Control the appearance of fields, containers, buttons, and other interface compo
 
 6.  Select the **...** icon next to the **Style class** field.
 
-    The **Page classes and rules** pop up will appear.![Page classes and rules pop up.](../image/style-class-pop-up.png)
+    The **Page classes and rules** pop up will appear.\[Omitted image "style-class-pop-up.png"\] Alt text: Page classes and rules pop up.
 
 7.  Select **+ Add class**.
 
@@ -68,5 +69,5 @@ Control the appearance of fields, containers, buttons, and other interface compo
 13. Select **Preview** to test the applied style class or style rule.
 
 
-**Parent Topic:**[Manage the visual style of UI Builder experiences](../concept/manage-the-visual-style-of-ui-builder-experiences.md)
+**Parent Topic:**[Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/manage-the-visual-style-of-ui-builder-experiences.md)
 

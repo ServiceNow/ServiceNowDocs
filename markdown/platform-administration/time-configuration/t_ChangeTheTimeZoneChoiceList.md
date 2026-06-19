@@ -2,6 +2,7 @@
 title: Change the time zone choice list
 description: Wherever users have a choice of time zone, the choices are populated using the Time Zone choice list on the User \[sys\_user\] table. Not all time zones appear by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/time-configuration/t\_ChangeTheTimeZoneChoiceList.html
 release: zurich
 product: Time Configuration
 classification: time-configuration
@@ -30,5 +31,5 @@ To add or remove time zones from the list of time zones:
 3.  Highlight the desired time zone from the **Available** or **Selected** lists, and then **Add** or **Remove** the time zones as needed.
 
 
-**Parent Topic:**[Using time configuration](../using-time-configuration.md)
+**Parent Topic:**[Using time configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/using-time-configuration.md)
 

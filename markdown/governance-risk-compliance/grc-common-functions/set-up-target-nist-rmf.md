@@ -2,6 +2,7 @@
 title: Set up a target for use with NIST RMF
 description: Set up a target and populate the basic information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/set-up-target-nist-rmf.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -17,7 +18,7 @@ Set up a target and populate the basic information.
 
 ## Before you begin
 
-**Note:** Starting with version 10.1.0, the NIST RMF Use Case Accelerator will be supported only for customers who currently use the product. New and existing customers should consider using the GRC: Continuous Authorization Monitoring application. For details, [Continuous Authorization and Monitoring](../../grc-cam/reference/grc-cam-landing-page.md).
+**Note:** Starting with version 10.1.0, the NIST RMF Use Case Accelerator will be supported only for customers who currently use the product. New and existing customers should consider using the GRC: Continuous Authorization Monitoring application. For details, [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/grc-cam-landing-page.md).
 
 Role required: sn\_irm\_nist\_rmf.risk\_executive or sn\_irm\_nist\_rmf.security\_officer
 
@@ -33,7 +34,7 @@ Role required: sn\_irm\_nist\_rmf.risk\_executive or sn\_irm\_nist\_rmf.security
 
 5.  Open the target record again and update the following fields:
 
-    **Note:** Review [NIST RMF supporting concepts](../reference/grc-nist-rmf-key-concepts.md), for more detailed information about these fields.
+    **Note:** Review [NIST RMF supporting concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-nist-rmf-key-concepts.md), for more detailed information about these fields.
 
     -   **RMF State**: Identify the current NIST RMF state for the target.
     -   **Scoping Considerations**: Provide guidance on the selection of security controls for implementation.
@@ -44,5 +45,5 @@ Role required: sn\_irm\_nist\_rmf.risk\_executive or sn\_irm\_nist\_rmf.security
     -   Risks
     -   Approvals
 
-**Parent Topic:**[Categorize targets](../concept/rmf-categorize.md)
+**Parent Topic:**[Categorize targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/rmf-categorize.md)
 

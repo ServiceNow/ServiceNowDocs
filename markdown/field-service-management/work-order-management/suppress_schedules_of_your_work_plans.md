@@ -2,11 +2,12 @@
 title: Suppress schedule occurrences of your planned work orders
 description: Streamline and optimize maintenance activities by suppressing duplicate planned work tasks when different schedules overlap.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/suppress\_schedules\_of\_your\_work\_plans.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 2
 breadcrumb: [Work plans, Planned Work Management, Work orders and tasks, Configure, Field Service Management]
 ---
@@ -58,7 +59,7 @@ Suppress Period
 
 </td><td>
 
-Time period during which overlapping schedule occurrences are identified, allowing the system to suppress duplicate work order tasks.The property sn\_fsm\_planned\_wm.tolerance\_span allows you to customize the time window for the suppression period. For more information, see [Planned Work Management system properties](../reference/planned_work_management_sys_properties.md).
+Time period during which overlapping schedule occurrences are identified, allowing the system to suppress duplicate work order tasks.The property sn\_fsm\_planned\_wm.tolerance\_span allows you to customize the time window for the suppression period. For more information, see [Planned Work Management system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/planned_work_management_sys_properties.md).
 
 </td></tr><tr><td>
 

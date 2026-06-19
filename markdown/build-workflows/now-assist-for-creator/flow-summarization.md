@@ -2,6 +2,7 @@
 title: Exploring Flow summarization
 description: Summarize what a flow or subflow does by using generative AI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/now-assist-for-creator/flow-summarization.html
 release: zurich
 product: Now Assist for Creator
 classification: now-assist-for-creator
@@ -28,33 +29,33 @@ Enable flow summarization to gain these benefits.
 
 ## Supported LLMs
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://www.servicenow.com/docs/access?context=ai-model-providers&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://www.servicenow.com/docs/access?context=manage-large-language-models&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US). For more information, see [Large language models on the ServiceNow AI Platform®](https://www.servicenow.com/docs/access?context=exploring-large-language-models&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the Now Assist Admin console. For more information, see .
 
 ## Flow summaries
 
-![Flow summary option from the Flow context menu.](../images/flow-summary-01.png)
+\[Omitted image "flow-summary-01.png"\] Alt text: Flow summary option from the Flow context menu.
 
 You can generate and view flow summaries from the More Actions menu.
 
-![The Flow summary dialog box has a Summarize button.](../images/flow-summary-02.png)
+\[Omitted image "flow-summary-02.png"\] Alt text: The Flow summary dialog box has a Summarize button.
 
 From the Flow summary dialog box, you can generate a new flow summary or view any previously generated summary. A flow that has never been summarized displays a **Summarize** button.
 
-![A summary of the Change - Standard flow, which also lists a creation date.](../images/flow-summary-03.png)
+\[Omitted image "flow-summary-03.png"\] Alt text: A summary of the Change - Standard flow, which also lists a creation date.
 
 An existing flow summary lists its creation date. You can regenerate a flow summary from the Flow summary dialog box.
 
 ## Subflow summaries
 
-![Subflow summary option from the Flow context menu.](../images/subflow-summary-01.png)
+\[Omitted image "subflow-summary-01.png"\] Alt text: Subflow summary option from the Flow context menu.
 
 You can generate and view subflow summaries from the More Actions menu.
 
-![The Subflow summary dialog box has a Summarize button.](../images/subflow-summary-02.png)
+\[Omitted image "subflow-summary-02.png"\] Alt text: The Subflow summary dialog box has a Summarize button.
 
 From the Subflow summary dialog box, you can generate a new subflow summary or view any previously generated summary. A subflow that has never been summarized displays a **Summarize** button.
 
-![A summary of the Change - Implementation tasks subflow, which also lists a creation date.](../images/subflow-summary-03.png)
+\[Omitted image "subflow-summary-03.png"\] Alt text: A summary of the Change - Implementation tasks subflow, which also lists a creation date.
 
 An existing subflow summary lists its creation date. You can regenerate a subflow summary from the Subflow summary dialog box.
 

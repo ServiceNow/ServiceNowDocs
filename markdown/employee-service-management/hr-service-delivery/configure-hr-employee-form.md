@@ -2,6 +2,7 @@
 title: Create an employee form
 description: Create or modify an employee form so that you can collect employee input. Configuration of the employee form is a three-part process. First, create the employee form record. Second, use the survey designer to build one or more questions for the employee form. Third, you can map questions from the employee form to corresponding fields on a target table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/configure-hr-employee-form.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -50,7 +51,7 @@ Role required: sn\_hr\_core.admin
     -   Number
     -   String
     -   Reference
-    For further details on the different question types, see [Survey designer elements](https://www.servicenow.com/docs/access?context=c_SurveyDesignerElements&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    For further details on the different question types, see Survey designer elements.
 
     **Note:** There are several limitations with native mobile screens, including custom and rating data types, validation scripts, read-only questions, and additional information fields. See this [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2769842) for more details.
 
@@ -96,7 +97,7 @@ Conditions
 
 </td><td>
 
-Use the condition builder to identify one record on the table to access. Make sure that the result is a match to a single record. This field appears when **Add Mappings** is selected.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+Use the condition builder to identify one record on the table to access. Make sure that the result is a match to a single record. This field appears when **Add Mappings** is selected.**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 </td></tr></tbody>
 </table>    For example, you can map an employee form to the HR Profile \[sn\_hr\_core\_profile\] table with the following condition:
@@ -177,5 +178,5 @@ The following GIF shows an example of an HR agent creating a collect employee in
 
 The follow GIF shows an example of the employee, Eva Seahorn, then completing the collect employee input to-do in the Employee Center.
 
-**Parent Topic:**[Collect employee input](../concept/employee-form-configuration.md)
+**Parent Topic:**[Collect employee input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/employee-form-configuration.md)
 

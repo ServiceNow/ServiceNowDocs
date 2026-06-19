@@ -2,6 +2,7 @@
 title: Create a reclamation rule to import Microsoft SCCM usage data
 description: To import your Microsoft SCCM data, create a reclamation rule for the product that you want the usage information for.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/create-reclamation-rule-sccm.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -121,7 +122,7 @@ Amount of time the software must be used to avoid being reclaimed.
 
     1.  Select **New**.
 
-    2.  On the Custom Software Product form, [fill in the details](t_AddACustomProduct.md) to add the product information.
+    2.  On the Custom Software Product form, [fill in the details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_AddACustomProduct.md) to add the product information.
 
     3.  Select **Submit**.
 
@@ -165,7 +166,7 @@ To begin creating a reclamation rule, add the following information to the Recla
 
 Select **Save**.
 
-![Reclamation Rule form filled out with Microsoft Excel as the publisher.](../image/reclamation-rule-excel.png)
+\[Omitted image "reclamation-rule-excel.png"\] Alt text: Reclamation Rule form filled out with Microsoft Excel as the publisher.
 
 A software product exists for Microsoft Excel, so you must associate the product with the reclamation rule.
 
@@ -173,15 +174,15 @@ On the Software Product related list, select **Edit**.
 
 On the Edit Members form, navigate to Excel in the Collection column and select Excel. Add it to the Software Product List column.
 
-![Adding the Microsoft Excel product to the reclamation rule.](../image/reclamation-rule-add-product.gif)
+\[Omitted image "reclamation-rule-add-product.gif"\] Alt text: Adding the Microsoft Excel product to the reclamation rule.
 
 Select **Save**.
 
-![Reclamation Rule form with Excel added to the Software Product related list.](../image/reclaimation-rule-excel-product.png)
+\[Omitted image "reclaimation-rule-excel-product.png"\] Alt text: Reclamation Rule form with Excel added to the Software Product related list.
 
 Two product processes are associated with Excel. Select the Product Process related list to view the product processes.
 
-![Reclamation Rule form with two product processes added to the Product Process related list.](../image/reclaimation-rule-product-process-excel.png)
+\[Omitted image "reclaimation-rule-product-process-excel.png"\] Alt text: Reclamation Rule form with two product processes added to the Product Process related list.
 
 On the Reclamation Rule form, select **Save**.
 
@@ -189,5 +190,5 @@ On the Reclamation Rule form, select **Save**.
 
 The reclamation rule is added to the Reclamation Rules list and the data of the product gets imported from SCCM during the next monthly scheduled import.
 
-**Parent Topic:**[Software Asset Management administration](../concept/c_SAMAdministration.md)
+**Parent Topic:**[Software Asset Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_SAMAdministration.md)
 

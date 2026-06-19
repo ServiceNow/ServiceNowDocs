@@ -2,12 +2,13 @@
 title: Jumpstart Your Natural Language Understanding
 description: The Jumpstart Your Natural Language Understanding \(NLU\) Accelerator provides a demonstration of the possibilities and capabilities of Natural Language Understanding.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/jumpstart-NLU.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
 ---
 
@@ -19,7 +20,7 @@ The Jumpstart Your Natural Language Understanding \(NLU\) Accelerator provides a
 
 Jumpstart Your Natural Language Understanding provides Impact customers with a comprehensive overview of Natural Language Understanding, including many of the underlying features, such as, Planning, Building, Sizing, Training, Vocabulary, Testing, Entity, Deployment, and Monitoring. This offering aims to educate and help you increase your Virtual Agent adoption by laying the groundwork for a healthy foundation.
 
-For related information, see [Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US) or [Natural Language Understanding](https://www.servicenow.com/docs/access?context=nlu-landing&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+For related information, see  or .
 
 **Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 
@@ -30,7 +31,7 @@ Offered pursuant to the applicable ServiceNow Impact Package and Accelerator des
 -   **Session Preparation**
 
     -   Provision a temporary instance 
-    -   Activate and run [Intent Discovery](https://www.servicenow.com/docs/access?context=intent-discovery&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)
+    -   Activate and run 
     -   Assess current NLU models, if applicable
     ​
 

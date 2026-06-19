@@ -2,6 +2,7 @@
 title: Exploring the Dispute Content Pack for US Regulations
 description: Learn how the Dispute Content Pack for US Regulations application streamlines the dispute resolution process under United States \(US\) regulatory guidelines, including Regulation E \(Reg E\) and Regulation Z \(Reg Z\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/exploring-dispute-content-pack-for-us-regulation.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -36,5 +37,5 @@ Some of the key benefits of using Dispute Content Pack for US Regulations are:
 -   Helps issuers to meet the demands of US regulations.
 -   Streamlines processes to resolve disputes more efficiently, which ensures timely resolutions that benefit both issuers and cardholders.
 
-**Parent Topic:**[Dispute Content Pack for US Regulations](dispute-content-pack-for-us-regulation-landing-page.md)
+**Parent Topic:**[Dispute Content Pack for US Regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/dispute-content-pack-for-us-regulation-landing-page.md)
 

@@ -2,6 +2,7 @@
 title: Reduce incidents and keep services flowing with AI based automation blueprint
 description: Select this adoption blueprint to leverage AI-based automation to keep the business running by reducing and prioritizing incidents and issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/admin-center/ac-ab4.html
 release: zurich
 product: Admin Center
 classification: admin-center
@@ -43,7 +44,7 @@ Build a foundation
 
 </td><td>
 
-[Event Management](https://www.servicenow.com/docs/access?context=c_EM&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -51,7 +52,7 @@ Use the Event Management application as a single management console to identify 
 
 </td><td>
 
-[Roles installed with Event Management](https://www.servicenow.com/docs/access?context=r_InstalledWithEventManagement&version=zurich&pubname=zurich-it-operations-management&section=r_RolesInstalledWithEventMgmt&ft:locale=en-US)
+Roles installed with Event Management
 
 </td><td>
 
@@ -63,7 +64,7 @@ Optimize the functionality
 
 </td><td>
 
-[Health Log Analytics](https://www.servicenow.com/docs/access?context=hla-landing-page&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -71,7 +72,7 @@ Health Log Analytics helps prevent IT issues before your users are affected. It 
 
 </td><td>
 
-[Roles installed with Health Log Analytics](https://www.servicenow.com/docs/access?context=hla-components&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US#section_okx_gk3_2nb)
+Roles installed with Health Log Analytics
 
 </td><td>
 
@@ -84,7 +85,7 @@ Add advanced features
 
 </td><td>
 
-[Managing major incidents](https://www.servicenow.com/docs/access?context=major-incident-management&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -92,7 +93,7 @@ Define an incident as a major incident to demand a response beyond the routine i
 
 </td><td>
 
-[Roles installed with Major Incident Management](https://www.servicenow.com/docs/access?context=installed-with-mim&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+Roles installed with Major Incident Management
 
 </td><td>
 
@@ -104,7 +105,7 @@ Optimize the functionality
 
 </td><td>
 
-[Service Mapping](https://www.servicenow.com/docs/access?context=c_ServiceMappingOverview&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -112,7 +113,7 @@ Service Mapping discovers all application services in your organization and buil
 
 </td><td>
 
-[Roles installed with Service Mapping](https://www.servicenow.com/docs/access?context=components-installed-with-service-mapping&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US#section_wly_yyh_wdb)
+Roles installed with Service Mapping
 
 </td><td>
 
@@ -125,7 +126,7 @@ Build a foundation
 
 </td><td>
 
-[Service Operations Workspace for ITSM](https://www.servicenow.com/docs/access?context=sow-landing-page&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -133,11 +134,11 @@ Use the Service Operations Workspace interface to unify and configure your agent
 
 </td><td>
 
-[Roles installed with Service Operations Workspace for ITSM](https://www.servicenow.com/docs/access?context=components-installed-with-sow-itom&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)
+Roles installed with Service Operations Workspace for ITSM
 
 </td><td>
 
--   [Service Operations Workspace limitations and support](https://www.servicenow.com/docs/access?context=explore-sow&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+-   Service Operations Workspace limitations and support
 -   [Service Operations Workspace overview](https://www.servicenow.com/products/service-operations-workspace.html)
 
 </td></tr><tr><td>
@@ -162,5 +163,5 @@ Roles installed with Site Reliability Operations
 -   [Site Reliability Operations overview \(video\)](https://www.youtube.com/watch?v=lObGvjmJ7Ts&t=1s)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Select your adoption blueprint](../task/ac-select-business-objective.md)
+</table>**Parent Topic:**[Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-select-business-objective.md)
 

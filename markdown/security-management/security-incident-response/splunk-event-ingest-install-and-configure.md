@@ -2,6 +2,7 @@
 title: Install and configure the ServiceNow application for the Splunk Enterprise Event Ingestion integration
 description: Install and configure Splunk Enterprise security- Event Ingestion integration from the ServiceNow Store on your ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/splunk-event-ingest-install-and-configure.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -23,7 +24,7 @@ Role required: sn\_si.ingestion\_profile\_admin
 
 ## Procedure
 
-1.  If you have not installed the Splunk Enterprise Event Ingestion application from the ServiceNow Store for the integration, see [Install a Security Operations integration](../../security-incident-response/task/install-non-core-apps.md) and follow the steps to install it.
+1.  If you have not installed the Splunk Enterprise Event Ingestion application from the ServiceNow Store for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/install-non-core-apps.md) and follow the steps to install it.
 
 2.  Navigate to **All** &gt; **Integrations** &gt; **Integrations Configurations**
 
@@ -31,15 +32,15 @@ Role required: sn\_si.ingestion\_profile\_admin
 
 4.  On the form, fill in the fields.
 
-<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d233784e131">
+<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d70792e131">
 
 Field
 
-</th><th align="left" id="d233784e134">
+</th><th align="left" id="d70792e134">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d233784e140">
+</th></tr></thead><tbody><tr><td id="d70792e140">
 
 **Name**
 
@@ -47,7 +48,7 @@ Description
 
 Name of the Splunk Enterprise console or Splunk Cloud instance used for the integration.Spaces are supported for names, but parentheses are not supported. For example, enter `HQ-USA`, or `HQ USA`.
 
-</td></tr><tr><td id="d233784e164">
+</td></tr><tr><td id="d70792e164">
 
 **Splunk API Base URL**
 
@@ -55,7 +56,7 @@ Name of the Splunk Enterprise console or Splunk Cloud instance used for the inte
 
 URL for your Splunk Enterprise console or Splunk Cloud instance.
 
-</td></tr><tr><td id="d233784e179">
+</td></tr><tr><td id="d70792e179">
 
 **Basic Authentication**
 
@@ -63,7 +64,7 @@ URL for your Splunk Enterprise console or Splunk Cloud instance.
 
 Default is disabled.If you are using API Account User Name and API Password for configuration, enable the check box.
 
-</td></tr><tr><td id="d233784e191">
+</td></tr><tr><td id="d70792e191">
 
 **API Account User Name**
 
@@ -71,7 +72,7 @@ Default is disabled.If you are using API Account User Name and API Password for 
 
 User name that you created for your individual user account on the Splunk Enterprise console.
 
-</td></tr><tr><td id="d233784e204">
+</td></tr><tr><td id="d70792e204">
 
 **API Password**
 
@@ -79,7 +80,7 @@ User name that you created for your individual user account on the Splunk Enterp
 
 Password that you created for your individual user account on the Splunk Enterprise console.
 
-</td></tr><tr><td id="d233784e216">
+</td></tr><tr><td id="d70792e216">
 
 **Token Based \(available from version 12.0.0\)**
 
@@ -87,7 +88,7 @@ Password that you created for your individual user account on the Splunk Enterpr
 
 Token based authentication that you created for your API user account on the Splunk Enterprise console.
 
-</td></tr><tr><td id="d233784e231">
+</td></tr><tr><td id="d70792e231">
 
 **Token**
 
@@ -95,7 +96,7 @@ Token based authentication that you created for your API user account on the Spl
 
 Token that you created for your API user account on the Splunk Enterprise console.
 
-</td></tr><tr><td id="d233784e243">
+</td></tr><tr><td id="d70792e243">
 
 **MID Server**
 
@@ -103,7 +104,7 @@ Token that you created for your API user account on the Splunk Enterprise consol
 
 Specific MID Server that is set up in your environment. Only MID Servers that are active and validated are available from this choice list.
 
-</td></tr><tr><td id="d233784e252">
+</td></tr><tr><td id="d70792e252">
 
 **On Premises Deployment**
 
@@ -135,12 +136,12 @@ If an error message is displayed after you click **Submit**, enter your informat
 
 You have successfully installed and configured the application. The next step is to create an event profile.
 
--   **[Configure Splunk Enterprise Event Ingestion settings](configure-splunk-enterprise-event-ingestion-settings.md)**  
+-   **[Configure Splunk Enterprise Event Ingestion settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/configure-splunk-enterprise-event-ingestion-settings.md)**  
 Use the Splunk Enterprise Event Ingestion settings to modify the preset configurations and their values as per you requirements.
 
-**Parent Topic:**[Splunk Enterprise Event Ingestion integration for Security Operations by ServiceNow](../concept/splunk-event-ingest-overview.md)
+**Parent Topic:**[Splunk Enterprise Event Ingestion integration for Security Operations by ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/splunk-event-ingest-overview.md)
 
-**Previous topic:**[Set up your ServiceNow AI Platform instance for the Splunk Enterprise Event Ingestion integration](splunk-event-ingest-setup-sn.md)
+**Previous topic:**[Set up your ServiceNow AI Platform instance for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/splunk-event-ingest-setup-sn.md)
 
-**Next topic:**[Configure Splunk Enterprise Event Ingestion settings](configure-splunk-enterprise-event-ingestion-settings.md)
+**Next topic:**[Configure Splunk Enterprise Event Ingestion settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/configure-splunk-enterprise-event-ingestion-settings.md)
 

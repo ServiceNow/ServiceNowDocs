@@ -2,6 +2,7 @@
 title: Translate a knowledge article from a translation task
 description: Start translating articles once they are published and assigned to you for translation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/dynamic-translation/translate-knowledge-article.html
 release: zurich
 product: Dynamic Translation
 classification: dynamic-translation
@@ -18,15 +19,15 @@ Start translating articles once they are published and assigned to you for trans
 ## Before you begin
 
 -   Activate the Dynamic Translation plugin \(com.glide.dynamic\_translation\).
--   Enable the **glide.knowman.translation.enable\_translation\_task** property. For more information, see [Translation management](https://www.servicenow.com/docs/access?context=translation-management&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+-   Enable the **glide.knowman.translation.enable\_translation\_task** property. For more information, see Translation management.
 
 Role required: admin, knowledge\_admin, or knowledge
 
 ## About this task
 
-**Note:** This procedure has been superseded by the Localization Framework. For more information see [Localization Framework support for Knowledge Base](../../../administer/localization-framework/concept/lf-support-for-kb-articles.md). This information is provided for legacy context.
+**Note:** This procedure has been superseded by the Localization Framework. For more information see [Localization Framework support for Knowledge Base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/lf-support-for-kb-articles.md). This information is provided for legacy context.
 
-For information about how administrators configure the translation API, see [DynamicTranslation API](../../../administer/dynamic-translation/concept/dyn-translation-apis.md).
+For information about how administrators configure the translation API, see [DynamicTranslation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/dyn-translation-apis.md).
 
 ## Procedure
 
@@ -36,9 +37,7 @@ For information about how administrators configure the translation API, see [Dyn
 
 3.  Select **Translate**.
 
-    The **Translate from** and **Translate to** panes are side-by-side for easy comparison, as shown in the following figure.
-
-    ![Translate knowledge article panes.](../image/translate-to-from.png)
+    The **Translate from** and **Translate to** panes are side-by-side for easy comparison.
 
 4.  Select **Machine translate** to automatically translate to the targeted languages.
 

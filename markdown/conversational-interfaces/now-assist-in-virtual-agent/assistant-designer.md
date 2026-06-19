@@ -2,6 +2,7 @@
 title: Assistant Designer
 description: Create, configure, manage, and test LLM-based chat and voice assistants within Assistant Designer, a centralized assistant administrator experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/now-assist-in-virtual-agent/assistant-designer.html
 release: zurich
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -20,11 +21,11 @@ To access Assistant Designer navigate to **All** &gt; **Assistant Designer**.
 
 Assistant Designer is comprised of three main areas:
 
-1.  Assistants: From the **Assistants** tab, an admin creates, manages, and tests assistants. Voice assistants can't be tested within Assistant Designer at this time. Assistant Designer is only available if you have installed a Now Assist product. Customers who are only using Natural Language Understanding \(NLU\) can't access Assistant Designer. For more information about configuring chat or voice assistants, see [Configuring assistants overview](../task/configure-now-assist-va.md).
-2.  Asset library: The **Asset library** tab opens the Virtual Agent Designer home page where you can create NLU/Keyword topics and LLM assets. For more information, see [Getting started with Virtual Agent Designer](../../virtual-agent/reference/conversation-designer-virtual-agent.md).
-3.  Analytics: Monitor, evaluate, and optimize the performance of your chat and voice assistants from the **Analytics** tab. For more information, see [Analyzing assistants](ai-engagement-analytics.md).
+1.  Assistants: From the **Assistants** tab, an admin creates, manages, and tests assistants. Voice assistants can't be tested within Assistant Designer at this time. Assistant Designer is only available if you have installed a Now Assist product. Customers who are only using Natural Language Understanding \(NLU\) can't access Assistant Designer. For more information about configuring chat or voice assistants, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+2.  Asset library: The **Asset library** tab opens the Virtual Agent Designer home page where you can create NLU/Keyword topics and LLM assets. For more information, see [Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
+3.  Analytics: Monitor, evaluate, and optimize the performance of your chat and voice assistants from the **Analytics** tab. For more information, see [Analyzing assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/ai-engagement-analytics.md).
 
-![Assistant Designer home page showing the Assistants, Asset library, and Analytics tabs.](../image/NAinVA-assistant-designer-home-122025.png "Assistant Designer")
+\[Omitted image "NAinVA-assistant-designer-home-122025.png"\] Alt text: Assistant Designer home page showing the Assistants, Asset library, and Analytics tabs.
 
 <table id="table_f55_ytn_pgc"><thead><tr><th>
 

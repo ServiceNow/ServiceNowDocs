@@ -2,6 +2,7 @@
 title: Add a role to an existing role
 description: When you add a new role to an existing role for a user, the user inherits the access that is granted by the new role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/user-administration/t\_AddARoleToAnExistingRole.html
 release: zurich
 product: User Administration
 classification: user-administration
@@ -32,5 +33,5 @@ Role required: admin
     The users with the existing role inherit the access that is granted by the new role.
 
 
-**Parent Topic:**[Create a role](t_CreateARole.md)
+**Parent Topic:**[Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/t_CreateARole.md)
 

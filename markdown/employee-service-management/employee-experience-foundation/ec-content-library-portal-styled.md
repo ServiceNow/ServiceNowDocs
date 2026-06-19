@@ -2,6 +2,7 @@
 title: Create customized media with styled content
 description: Create banners, block/announcements, or videos using the styled content type to customize settings such as text color, text alignment, links, background colors, and images on Employee Center Pro.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ec-content-library-portal-styled.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,19 +20,19 @@ Create banners, block/announcements, or videos using the styled content type to 
 
 Role required: sn\_cd.content\_manager
 
-If you are creating video content, you must first upload the video: [Add or modify links to other content sources](ecpro-manage-link-content.md)
+If you are creating video content, you must first upload the video: [Add or modify links to other content sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-manage-link-content.md)
 
 ## About this task
 
 This content type offers three options:
 
--   Banner: appears at the top of the page ![Banner containing header, heading, body text, and button content](../images/ec-rich-text-content.png)
--   Block: appears in a widget on the page ![Block content containing heading, body, and a button](../images/ec-block-styled.png)
+-   Banner: appears at the top of the page \[Omitted image "ec-rich-text-content.png"\] Alt text: Banner containing header, heading, body text, and button content
+-   Block: appears in a widget on the page \[Omitted image "ec-block-styled.png"\] Alt text: Block content containing heading, body, and a button
 -   Video: can appear anywhere on a page, including at the top in place of a banner
 
 When creating or editing a banner using styled content, you can view and edit the background image rather than editing your image externally and then importing it.
 
-The Form Context menu \(![Form Context menu](../images/ec-hamburger-menu.png)\) at the top, left of the form provides the ability to quickly accomplish tasks when creating content. Select the icon and the following choices appear:
+The Form Context menu \(\[Omitted image "ec-hamburger-menu.png"\] Alt text: Form Context menu\) at the top, left of the form provides the ability to quickly accomplish tasks when creating content. Select the icon and the following choices appear:
 
 -   Clone: duplicate the content record.
 -   Delete: remove the content record and associated scheduled content records.
@@ -286,7 +287,7 @@ Select the link to add an image.This field only appears when you activate **Back
 
 </td></tr><tr><td>
 
-![Edit image button](../images/ec-edit-image-button.png)
+\[Omitted image "ec-edit-image-button.png"\] Alt text: Edit image button
 
 </td><td>
 
@@ -302,67 +303,67 @@ Allows you to edit your background image within the Content Library module.This 
 
  The following icons and buttons appear to help edit your image:
 
- ![Edit image icons](../images/ec-image-editor-icons.png)
+ \[Omitted image "ec-image-editor-icons.png"\] Alt text: Edit image icons
 
  Each icon allows you to edit the image you imported:
 
--   Reset to original ![Reset to original icon](../images/ec-reset-orig-icon.png)
+-   Reset to original \[Omitted image "ec-reset-orig-icon.png"\] Alt text: Reset to original icon
     -   Activates after you make edits to your image.
     -   Select and the **Reset to original?** pop-up appears. Select the **Reset image** button to back out any edits you made to your image.
 
 **Note:** After you select **Save**, you can no longer reset your image. You must upload the image again if you are not satisfied with your edits.
 
     -   If you do not want to keep your edits, select **Cancel**.
--   Move image mode ![Move image mode icon](../images/ec-drag-move-icon.png)
+-   Move image mode \[Omitted image "ec-drag-move-icon.png"\] Alt text: Move image mode icon
     -   Select your image in any place outside of the crop box and with your mouse, move your image.
     -   Use the points to resize the image.
     -   Press and hold your mouse to move the crop box.
--   Crop image mode ![Crop image mode icon](../images/ec-crop-icon.png)
+-   Crop image mode \[Omitted image "ec-crop-icon.png"\] Alt text: Crop image mode icon
     -   Select and your cursor is set to crop.
     -   Create a new crop box by holding and dragging your cursor.
     -   Hold and press your mouse to move the crop box.
     -   Resize the crop box using the points.
--   Zoom in ![Zoom in icon](../images/ec-zoom-in-icon.png)
+-   Zoom in \[Omitted image "ec-zoom-in-icon.png"\] Alt text: Zoom in icon
     -   Click to make the image larger and closer.
     -   Continue clicking to incrementally zoom in on the image.
--   Zoom out ![Zoom out icon](../images/ec-zoom-out-icon.png)
+-   Zoom out \[Omitted image "ec-zoom-out-icon.png"\] Alt text: Zoom out icon
     -   Click to make the image smaller and farther away.
     -   Continue clicking to incrementally zoom out on the image.
--   Move left 10 pixels ![Move icon](../images/ec-move-left-icon.png)
+-   Move left 10 pixels \[Omitted image "ec-move-left-icon.png"\] Alt text: Move icon
     -   Click to move the image to the left by 10 pixels.
     -   Continue clicking to move the image to the left in 10 pixel increments.
--   Move right 10 pixels ![Move icon](../images/ec-move-right-icon.png)
+-   Move right 10 pixels \[Omitted image "ec-move-right-icon.png"\] Alt text: Move icon
     -   Click to move the image to the right by 10 pixels.
     -   Continue clicking to move the image to the right in 10 pixel increments.
--   Move up 10 pixels ![Move up icon](../images/ec-move-up-icon.png)
+-   Move up 10 pixels \[Omitted image "ec-move-up-icon.png"\] Alt text: Move up icon
     -   Click to move the image up by 10 pixels.
     -   Continue clicking to move the image up in 10 pixel increments.
--   Move down 10 pixels ![Move down icon](../images/ec-move-down-icon.png)
+-   Move down 10 pixels \[Omitted image "ec-move-down-icon.png"\] Alt text: Move down icon
     -   Click to move the image down.
     -   Continue clicking to move the image down in 10 pixel increments.
--   Rotate left 45 degrees ![Rotate icon](../images/ec-rotate-left-icon.png)
+-   Rotate left 45 degrees \[Omitted image "ec-rotate-left-icon.png"\] Alt text: Rotate icon
     -   Click to rotate the image 45 degrees counter clockwise.
     -   Continue clicking to rotate the image counter clockwise in 45 degree increments.
--   Rotate right 45 degrees ![Rotate icon](../images/ec-rotate-right-icon.png)
+-   Rotate right 45 degrees \[Omitted image "ec-rotate-right-icon.png"\] Alt text: Rotate icon
     -   Click to rotate the image 45 degrees clockwise.
     -   Continue clicking to rotate the image clockwise in 45 degree increments.
--   Crop-short rectangle ![Crop-short rectangle icon](../images/ec-crop-short-rectangle-icon.png)
+-   Crop-short rectangle \[Omitted image "ec-crop-short-rectangle-icon.png"\] Alt text: Crop-short rectangle icon
     -   Click to change the crop tool to a short rectangle shape.
     -   Use the square points of the rectangle to further crop your image.
--   Crop-tall rectangle ![Crop-tall rectangle icon](../images/ec-crop-tall-rectangle-icon.png)
+-   Crop-tall rectangle \[Omitted image "ec-crop-tall-rectangle-icon.png"\] Alt text: Crop-tall rectangle icon
     -   Click to change the crop tool to a tall rectangle shape.
     -   Use the square points of the rectangle to further crop your image.
--   Crop-square ![Crop-square icon](../images/ec-crop-square-icon.png)
+-   Crop-square \[Omitted image "ec-crop-square-icon.png"\] Alt text: Crop-square icon
     -   Click to change the crop tool to a square shape.
     -   Use the square points of the square to further crop your image.
--   Custom ![Custom crop and rotate](../images/ec-custom-crop-rotate-icon.png)
+-   Custom \[Omitted image "ec-custom-crop-rotate-icon.png"\] Alt text: Custom crop and rotate
     -   Click to display the **Detail Editing** pop-up.
     -   You can define the size of the crop tool and the size of your image by pixels.
     -   You can also specify the angle you want your image rotated.
--   Preview ![Preview icon](../images/ec-preview-icon.png)
+-   Preview \[Omitted image "ec-preview-icon.png"\] Alt text: Preview icon
     -   Select to display a preview of your edited image.
-    -   Enter location information similar to when you publish your content. This allows you to view your image where you want it to appear. For information on the fields, see [Create a publish plan for your content](ec-content-library-publish2.md).
--   Cancel and Save![Cancel and save buttons](../images/ec-cancel-crop-buttons.png)
+    -   Enter location information similar to when you publish your content. This allows you to view your image where you want it to appear. For information on the fields, see [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md).
+-   Cancel and Save\[Omitted image "ec-cancel-crop-buttons.png"\] Alt text: Cancel and save buttons
     -   Select **Cancel** to exit editing your image and not save your changes.
     -   Select **Save** to save the edits you made to your image. You can select **Crop and continue** to continue editing.
 
@@ -413,15 +414,15 @@ Indicates that you want the text to include color gradient to make your text eas
 
 -   \(Optional\) Translate your content.
 
-    Request language translation for your content. For more information, see [Multilingual support in the Content Library](../concept/ec-switch-language.md).
+    Request language translation for your content. For more information, see [Multilingual support in the Content Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-switch-language.md).
 
     **Note:** Only translate content after you are done modifying the content. For best results, we do not recommend that you add or remove components or change the formatting after translation.
 
-    To create rich content that is formatted differently in different languages, duplicate the content and modify the formatting as needed. Then, use Audiences to target the content to users by language. See [Audiences](../concept/ecpro-audience.md)
+    To create rich content that is formatted differently in different languages, duplicate the content and modify the formatting as needed. Then, use Audiences to target the content to users by language. See [Audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-audience.md)
 
 -   Preview your content from the **Publish** tab.
 
     **Note:** Content Preview is designed to provide a general idea of how your content looks. Content may look different once published due to variations in device resolution, theme difference, or mobile app style configuration.
 
--   Configure a publish plan to control where the content is delivered, the audience, and the period of time it is available: [Create a publish plan for your content](ec-content-library-publish2.md).
+-   Configure a publish plan to control where the content is delivered, the audience, and the period of time it is available: [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md).
 

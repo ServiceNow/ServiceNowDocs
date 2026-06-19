@@ -2,6 +2,7 @@
 title: Client software distribution extension points
 description: The client software distribution \(CSD\) extension points create the customization code for the specific provider and the extension keys.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/orchestration/r\_CSDExtensionPoints.html
 release: zurich
 product: Orchestration
 classification: orchestration
@@ -42,16 +43,16 @@ The script must set the **csdExtensionResult** object with these attributes:
 -   **softwareModel**: Software model sys\_id.
 -   **deploymentType**: An integer. Use **1** for deployment to a user and **2** for deployment to a device.
 
-**Parent Topic:**[Client software distribution extension framework](../concept/c_CSDExtensionFramework.md)
+**Parent Topic:**[Client software distribution extension framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_CSDExtensionFramework.md)
 
 **Related topics**  
 
 
-[Using extension points to extend application functionality](https://www.servicenow.com/docs/access?context=extension-points&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.extension-points]
 
-[Using scripted extension points in server-side scripts](https://www.servicenow.com/docs/access?context=scripted-extension-points&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.scripted-extension-points]
 
-[Using UI extension points in server-side UI macros](https://www.servicenow.com/docs/access?context=ui-extension-points&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.ui-extension-points]
 
-[Using client extension points in client-side UI scripting](https://www.servicenow.com/docs/access?context=client-extension-points&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.client-extension-points]
 

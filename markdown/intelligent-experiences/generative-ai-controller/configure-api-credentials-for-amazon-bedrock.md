@@ -2,6 +2,7 @@
 title: Configure API Credentials for Amazon Bedrock
 description: Configure your API credentials to use AWS Bedrock in custom workflows and Virtual Agent Designer topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-amazon-bedrock.html
 release: zurich
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -31,7 +32,7 @@ To use Amazon Bedrock as your LLM provider for Generative AI Controller capabili
 
 2.  Open the record for Amazon Bedrock.
 
-    ![Create New Connection & Credential related link highlighted on the screen.](../image/gai-create-new-connection-amazon.png)
+    \[Omitted image "gai-create-new-connection-amazon.png"\] Alt text: Create New Connection &amp; Credential related link highlighted on the screen.
 
 3.  Select the **Create New Connection &amp; Credential** related link.
 

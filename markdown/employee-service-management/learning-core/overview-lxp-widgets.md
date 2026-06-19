@@ -2,6 +2,7 @@
 title: Overview
 description: The Overview tab on My Learning provides a variety of widgets that help you track courses, view your progress, view achievements among other things.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/overview-lxp-widgets.html
 release: zurich
 product: Learning Core
 classification: learning-core
@@ -19,7 +20,7 @@ The overview tab has the following widgets that help you with a seamless learnin
 
 
 
-![The learning dashboard displays learning tasks, your current challenges, latests achievements and more.](../image/overview-lxp.png)
+\[Omitted image "overview-lxp.png"\] Alt text: The learning dashboard displays learning tasks, your current challenges, latests achievements and more.
 
 |Widget|Description|
 |------|-----------|

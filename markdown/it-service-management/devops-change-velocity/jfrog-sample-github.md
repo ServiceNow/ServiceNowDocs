@@ -2,11 +2,12 @@
 title: Sample pipeline to upload and download artifacts for GitHub
 description: Pipeline samples for GitHub containing steps to upload and download artifacts for GitHub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/jfrog-sample-github.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [JFrog, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -96,5 +97,5 @@ jobs:
           jf rt bp
 ```
 
-**Parent Topic:**[JFrog integration with DevOps Change Velocity](../concept/devops-jfrog-integration.md)
+**Parent Topic:**[JFrog integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/devops-jfrog-integration.md)
 

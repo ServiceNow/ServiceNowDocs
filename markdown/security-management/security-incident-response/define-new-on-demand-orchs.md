@@ -2,6 +2,7 @@
 title: Define new on-demand orchestrations
 description: In the base system, you can select on-demand orchestrations that execute predefined workflows. You can define new on-demand orchestrations to customize how workflows are invoked from the Run Orchestration choice lists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/define-new-on-demand-orchs.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -23,9 +24,9 @@ Role required: sn\_si.write
 
 1.  Navigate to **All** &gt; **Security Operations** &gt; **Utilities** &gt; **On-Demand Orchestration**
 
-2.  Click **New**.
+2.  Select **New**.
 
-    ![Add a new on-demand orchestration](../image/on-demand-orch.png)
+    \[Omitted image "on-demand-orch.png"\] Alt text: Add a new on-demand orchestration
 
 3.  Fill in the fields, as appropriate.
 
@@ -86,17 +87,15 @@ Execution script
 Modify the execution script so that it passes the correct record to the selected table for this workflow.This field appears only if the **Advanced** check box is selected.
 
 </td></tr></tbody>
-</table>4.  Right-click in the record header, and select **Save**.
+</table>4.  Select and hold \(or right-click\) in the record header, and select **Save**.
 
     The **Workflow Versions** related list appears.
 
-    ![Workflow versions related list](../image/workflow-versions.png)
-
-5.  If you need to make additional modifications to the workflow, you need to check it out.
+5.  To make additional modifications to the workflow, you must check it out.
 
 
 **Related topics**  
 
 
-[Work with workflow versions](https://www.servicenow.com/docs/access?context=c_WorkflowVersions&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.c_WorkflowVersions]
 

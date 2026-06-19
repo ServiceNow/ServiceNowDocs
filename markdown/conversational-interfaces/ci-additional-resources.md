@@ -2,7 +2,10 @@
 title: Additional resources for Conversational Interfaces
 description: If you’re looking for Conversational Interfaces \(CI\) best practices, troubleshooting, or other implementation guidelines, select a feature or resource type to discover ServiceNow resources on other relevant websites.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/ci-additional-resources.html
 release: zurich
+product: Conversational Interfaces
+classification: conversational-interfaces
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -59,7 +62,7 @@ Release notes
 
 </td><td>
 
-[Now Assist in Virtual Agent release notes](https://www.servicenow.com/docs/access?context=now-assist-va-rn&version=zurich&pubname=zurich-release-notes&ft:locale=en-US)
+
 
 </td></tr><tr><td>
 
@@ -89,7 +92,7 @@ Release notes
 
 </td><td>
 
-[Sidebar release notes](https://www.servicenow.com/docs/access?context=sidebar-rn&version=zurich&pubname=zurich-release-notes&ft:locale=en-US)
+
 
 </td></tr><tr><td>
 
@@ -125,7 +128,7 @@ Release notes
 
 </td><td>
 
-[Virtual Agent release notes](https://www.servicenow.com/docs/access?context=virtual-agent-rn&version=zurich&pubname=zurich-release-notes&ft:locale=en-US)
+
 
 </td></tr><tr><td>
 

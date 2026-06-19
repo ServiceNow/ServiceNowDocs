@@ -2,6 +2,7 @@
 title: Use Manager Hub
 description: Support your team and find resources to grow as leaders using the Manager Hub application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/use-manager-hub.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,18 +20,18 @@ Support your team and find resources to grow as leaders using the Manager Hub ap
 
 -   Role required: sn\_mh.manager\_hub\_user
 -   Activate Manager Hub from ServiceNow Store. Manager Hub is available with the Employee Center Pro application. Some of the features of Manager Hub work only when the HR Service Delivery and Employee Journey Management applications are activated.
--   [Configure Manager Hub](set-up-managerhub.md).
+-   [Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/set-up-managerhub.md).
 
 ## Procedure
 
-1.  [Get your team brief](use-overview-mh.md).
+1.  [Get your team brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/use-overview-mh.md).
 
-2.  [Know your team members](use-mr-mh.md).
+2.  [Know your team members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/use-mr-mh.md).
 
-3.  [Get team insights](team-insights-mh.md).
+3.  [Get team insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/team-insights-mh.md).
 
-4.  [Utilize Manager Library](use-team-mh.md).
+4.  [Utilize Manager Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/use-team-mh.md).
 
-5.  [View and Edit Employees Growth Plans](../../employee-service-management/task/egd-view-edit-employees-growth-plans.md)
+5.  [View and Edit Employees Growth Plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-view-edit-employees-growth-plans.md)
 
 

@@ -2,6 +2,7 @@
 title: Create content configurations
 description: Define the data that you want to view or fetch, whether it's a list of records or an aggregation when creating an audit report. For example, specify if you want to see a list of remediation tasks or the list of the top five high priority issues. A maximum of 200 records can be fetched from any table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/create-content-configurations.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -27,7 +28,7 @@ Role required: sn\_grc\_doc\_design.admin and sn\_audit.admin
 
 3.  On the Content configurations related list, select **New**.
 
-    ![](../image/template-configuration.png)
+    \[Omitted image "template-configuration.png"\] Alt text:
 
 4.  On the form, fill in the fields.
 
@@ -51,11 +52,11 @@ Role required: sn\_grc\_doc\_design.admin and sn\_audit.admin
 
 7.  In the Data columns related list, specify the columns you want on the report from the table that you have selected.
 
-    For more information, see [Configure Data columns](configure-data-columns.md).
+    For more information, see [Configure Data columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/configure-data-columns.md).
 
 8.  In the Intermediate filters related list, define the filters that should apply to the dataset to refine the results displayed in the report.
 
-    For more information, see [Configure Intermediate filters](configure-intermediate-filters.md).
+    For more information, see [Configure Intermediate filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/configure-intermediate-filters.md).
 
 9.  Select **Update**.
 

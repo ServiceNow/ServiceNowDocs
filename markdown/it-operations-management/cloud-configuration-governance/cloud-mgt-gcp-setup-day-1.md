@@ -2,6 +2,7 @@
 title: Day 1 setup guide for Google Cloud through Cloud Services Catalog Terraform Connector
 description: To set up Google Cloud for the first time, follow the steps in this Day 1 setup guide in the order they are presented. After completing the Day 1 setup, you can proceed with the optional Day 2 configuration steps as needed, in any order. Detailed instructions for each step are provided in the sections below.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/cloud-mgt-gcp-setup-day-1.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -31,14 +32,14 @@ Cloud providers often use different names for accounts, regions, and credential 
 Your Day 1 setup process includes these tasks:
 
 -   If needed: Request the Cloud Provisioning and Governance application.
--   [Download the Connector app](https://www.servicenow.com/docs/access?context=download-app-first-time&version=zurich&pubname=zurich-security-management&ft:locale=en-US) and supporting store apps on the ServiceNow Store and [activate](https://www.servicenow.com/docs/access?context=activate-entitled-store-app&version=zurich&pubname=zurich-security-management&ft:locale=en-US) the store applications.
+-   Download the Connector app and supporting store apps on the ServiceNow Store and activate the store applications.
 -   Assign appropriate roles to cloud admins and end users.
 -   On the provider portal, collect your account settings and the credentials that the Discovery process will use \(through a MID Server\) to programmatically access your provider accounts. Securely associate the account settings and credentials with a service account in Cloud Provisioning.
 -   Set up the MID Servers that will handle secure communications with the provider API endpoints.
 -   Set up a cloud account to represent your entire managed cloud infrastructure and set up a service account that works with one of your provider accounts. You specify which datacenters in the service account should be included in the cloud account. \(Later, on "Day 2", you can set up additional cloud accounts and service accounts from the same or other providers.\)
 -   To populate the CMDB with resource data for all datacenters, you manually run the Discovery process on each datacenter in the service account. Then, to ensure that the data continues to be updated, you configure Discovery to run on a regular schedule. Your cloud account might look like this:
 
-    ![Structure of a cloud account on Day 1](../image/cloud-acct-day-1.png "Structure of a cloud account on Day 1")
+    \[Omitted image "cloud-acct-day-1.png"\] Alt text: Structure of a cloud account on Day 1
 
 -   Providers offer services that can auto-update the CMDB whenever a create/modify/terminate life-cycle change or configuration update occurs to a resource. You can configure the service to integrate directly with Cloud Provisioning and Governance.
 
@@ -51,7 +52,7 @@ Detailed instructions for each procedure follow this overview.
 
     You assign Cloud Provisioning and Governance roles to user groups and to individual users based on user activities and responsibilities.
 
-3.  [Install and configure MID Servers to access cloud environments](../../it-operations-management/task/mid-server-configuration-cloud.md)
+3.  [Install and configure MID Servers to access cloud environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/mid-server-configuration-cloud.md)
 
     To ensure secure and reliable communications, the Discovery process communicates with your cloud provider accounts and cloud resources through one or more MID Servers. You can set up the MID Servers on your network or in one of your cloud networks.
 
@@ -68,5 +69,5 @@ Detailed instructions for each procedure follow this overview.
 
 ## Next steps
 
-When you have finished all Day-1 and Day-2 procedures in this setup guide, see the [Cloud Provisioning and Governance administration guide](../../cloud-management-v2/concept/cloud-configuration.md) for information on using the Cloud Provisioning and Governance application in your organization.
+When you have finished all Day-1 and Day-2 procedures in this setup guide, see the [Cloud Provisioning and Governance administration guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloud-configuration.md) for information on using the Cloud Provisioning and Governance application in your organization.
 

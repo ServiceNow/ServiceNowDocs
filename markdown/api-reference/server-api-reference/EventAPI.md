@@ -2,6 +2,7 @@
 title: Event - Global
 description: The Event API provides methods that enable the setting and getting of values within an event.Instantiates an Event constructor.Returns the current value of the passed in event management field.Replaces the existing additional\_info field in the associated event with the passed in JSON string.Sets the specified field in the associated event.Sets the description field of the associated event to the passed in value.Sets the time\_of\_event field in the associated event to the passed in UTC time value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/EventAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -21,9 +22,9 @@ Use the Event API to add/update fields within an event. Use the SNEventSenderPro
 
 You must activate the Event Management \(com.glideapp.itom.snac\) plugin before attempting to access this API. The Event Management plugin requires a separate subscription and must be activated. This plugin includes demo data and activates related plugins if they are not already active.
 
-For additional information on event management, see [Event Management](https://www.servicenow.com/docs/access?context=c_EM&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+For additional information on event management, see Event Management.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## Event - Event\(\)
 
@@ -63,7 +64,7 @@ var eventSeverity = event.getField("severity");
 
 Replaces the existing **additional\_info** field in the associated event with the passed in JSON string.
 
-**Note:** You can use the [setField\(\)](EventAPI.md#) method to update a specific field within the **additional\_info** field.
+**Note:** You can use the [setField\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/EventAPI.md) method to update a specific field within the **additional\_info** field.
 
 <table id="table_pc2_dbh_kkb" class="parameters"><thead><tr><th>
 
@@ -259,9 +260,9 @@ Metric type to which the event is related, such as Disk or CPU. This value is us
  Default: Null
 
 </td></tr></tbody>
-</table>**Note:** You can also use the [setText\(\)](EventAPI.md#) method to update the **description** field and the [setTimeOfEvent\(\)](EventAPI.md#) method to update the event time.
+</table>**Note:** You can also use the [setText\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/EventAPI.md) method to update the **description** field and the [setTimeOfEvent\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/EventAPI.md) method to update the event time.
 
-For additional information on events, see [Event Management](https://www.servicenow.com/docs/access?context=c_EM&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+For additional information on events, see Event Management.
 
 <table id="table_ijd_4ck_jkb" class="parameters"><thead><tr><th>
 
@@ -285,7 +286,7 @@ String
 
 </td><td>
 
-Name of the key to add or update in the event. For additional information on the predefined event fields, see [Event field format for event collection](https://www.servicenow.com/docs/access?context=c_EMIntegrateRequirementEvent&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+Name of the key to add or update in the event. For additional information on the predefined event fields, see Event field format for event collection.
 
 </td></tr><tr><td>
 
@@ -318,7 +319,7 @@ event.setField("user", "admin"); // parameter will be added to additional_info s
 
 Sets the **description** field of the associated event to the passed in value.
 
-**Note:** You can also use the [Event - setField\(String key, String value\)](EventAPI.md#) method to set the **text** field in the current event. Unlike the setField\(\) method, this method does not trim the passed in text.
+**Note:** You can also use the [Event - setField\(String key, String value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/EventAPI.md) method to set the **text** field in the current event. Unlike the setField\(\) method, this method does not trim the passed in text.
 
 <table id="table_r2j_mgh_kkb" class="parameters"><thead><tr><th>
 
@@ -359,7 +360,7 @@ event.setText("SAP Solman");
 
 Sets the **time\_of\_event** field in the associated event to the passed in UTC time value.
 
-**Note:** You can also use the [Event - setField\(String key, String value\)](EventAPI.md#) method to set the **time\_of\_event** field.
+**Note:** You can also use the [Event - setField\(String key, String value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/EventAPI.md) method to set the **time\_of\_event** field.
 
 <table id="table_m43_kwg_kkb" class="parameters"><thead><tr><th>
 

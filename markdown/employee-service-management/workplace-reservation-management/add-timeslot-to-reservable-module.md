@@ -2,6 +2,7 @@
 title: Add a time slot to a reservable module
 description: After you create a time slot, assign the time slot to a reservable module that is configured for reservation on the Quick Reservation widget. When an employee wants to reserve a workplace item of this reservable module, the employee can select a time slot for reservation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-reservation-management/add-timeslot-to-reservable-module.html
 release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -17,7 +18,7 @@ After you create a time slot, assign the time slot to a reservable module that i
 
 ## Before you begin
 
-[Create a quick reservation time slot](add-reservable-time-slots.md).
+[Create a quick reservation time slot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/add-reservable-time-slots.md).
 
 Role required: sn\_wsd\_rsv.admin
 
@@ -43,7 +44,7 @@ After you create a time slot, you must assign the time slot to the reservable mo
 
     2.  Move the selection to the **Time Slots List** column on the right.
 
-        To move the time slot, use the add/remove icon \(![Add remove time slot icon](../image/add-remove-icon.png)\).
+        To move the time slot, use the add/remove icon \(\[Omitted image "add-remove-icon.png"\] Alt text: Add remove time slot icon\).
 
     3.  Click **Save**.
 
@@ -54,5 +55,5 @@ The time slot is added to the reservable module. When an employee uses the Quick
 
 **Important:** When the reservable module is configured, the minimum and maximum duration set to 4 and 8 hours are not validated it impacts quick reservation.
 
-**Parent Topic:**[Create a quick reservation time slot](add-reservable-time-slots.md)
+**Parent Topic:**[Create a quick reservation time slot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/add-reservable-time-slots.md)
 

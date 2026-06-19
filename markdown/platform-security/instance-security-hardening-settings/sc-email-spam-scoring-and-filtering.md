@@ -2,6 +2,7 @@
 title: Enable email spam scoring and filtering \[Updated in Security Center 1.3\]
 description: Install the Email Filter \(com.glide.email\_filter\) plugin to install email filtering within the instance. This filtering identifies existing headers, which enables you to decide what to do with the email based on the associated header. Alternatively, set com.glide.email\_filter to false.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-email-spam-scoring-and-filtering.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -23,7 +24,7 @@ Every message sent through ServiceNow AI Platform email servers is assessed for 
 
 Before setting this property:
 
-Set the **glide.email.read.active** property to true. To learn more, see [Enable using your own POP3 server](https://www.servicenow.com/docs/access?context=t_ConfAltEmailConfPOP3Server&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Set the **glide.email.read.active** property to true. To learn more, see Enable using your own POP3 server.
 
 ## More information
 
@@ -57,7 +58,7 @@ Category
 
 </td><td>
 
-[File and resources](sc-file-resources.md)
+[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 
 </td></tr><tr><td>
 
@@ -116,12 +117,12 @@ References
 
 </td><td>
 
-[Email filters](https://www.servicenow.com/docs/access?context=c_EmailFilters&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+Email filters
 
  [https://support.servicenow.com/kb\_view.do?sysparm\_article=KB0549426](https://support.servicenow.com/kb_view.do?sysparm_article=KB0549426)
 
 </td></tr></tbody>
-</table>To learn more about activating a plugin, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+</table>To learn more about activating a plugin, see .
 
-**Parent Topic:**[File and resources](sc-file-resources.md)
+**Parent Topic:**[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 

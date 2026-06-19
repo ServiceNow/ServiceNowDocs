@@ -2,11 +2,12 @@
 title: Create a boundary filter
 description: Create boundary filters to define system elements within an authorization boundary based on specific table conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/create-boundary-filter.html
 release: zurich
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [View authorization boundary details, CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -21,13 +22,13 @@ Role required: sn\_irm\_cont\_auth.authorization\_official, sn\_irm\_cont\_auth.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CAM Workspace** and then select the lists icon \(![Lists icon.](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+1.  Navigate to **All** &gt; **CAM Workspace** and then select the lists icon \(\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon.\).
 
 2.  From the Authorization boundaries in the Risk Management Framework \(RMF\) list, select an authorization boundary record.
 
 3.  In the **Boundary Filters** related list, select **New**.
 
-    ![New boundary filter.](../image/auth-bound-filter1.png)
+    \[Omitted image "auth-bound-filter1.png"\] Alt text: New boundary filter.
 
 4.  In the **Create New Boundary Filter** form, fill in the fields.
 
@@ -38,13 +39,13 @@ Role required: sn\_irm\_cont\_auth.authorization\_official, sn\_irm\_cont\_auth.
     |Dynamic Filter|Select the **Dynamic Filter** option to create a filter that automatically updates based on the conditions you define. When selected, the filter operates dynamically and updates system elements daily. When **Dynamic Filter** option is cleared, the filter creates system elements that meet the conditions at the time you select **Save**. The system element doesn’t update automatically update the system elements.|
     |Table|The table you select determines which fields are available when defining filter conditions and which records the filter can evaluate. You must select a table before you can define filter conditions. For dynamic filters, the selected table is evaluated daily to update system elements based on changes that might affect which records meet the filter conditions.|
 
-    ![Entering filter details.](../image/auth-bound-filter2.png)
+    \[Omitted image "auth-bound-filter2.png"\] Alt text: Entering filter details.
 
     **Filter condition**: Select **Set conditions** define your conditions using field values, operators, and AND/OR logic. For dynamic filters, these conditions are evaluated daily, and system elements are automatically added or removed. For static filters, the conditions are evaluated only once at the time of boundary filter creation.
 
     You can select **View matching results** to preview the system elements that match your conditions before saving.
 
-    ![Adding filter conditions.](../image/auth-bound-filter3.png)
+    \[Omitted image "auth-bound-filter3.png"\] Alt text: Adding filter conditions.
 
 5.  Select **Save**.
 
@@ -55,5 +56,5 @@ Role required: sn\_irm\_cont\_auth.authorization\_official, sn\_irm\_cont\_auth.
 
 Assets matching the filter conditions are automatically listed in the **System Elements** related list.
 
-**Parent Topic:**[View authorization boundary details](auth-bound-overview-ws.md)
+**Parent Topic:**[View authorization boundary details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/auth-bound-overview-ws.md)
 

@@ -2,6 +2,7 @@
 title: Copy a Microsoft Azure Sentinel profile
 description: Copy an existing profile and its associated settings instead of creating a profile. When you create multiple profiles, you can reuse the settings of an existing profile by copying these profiles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/copy-an-azure-sentinel-profile.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -37,11 +38,11 @@ When you copy a profile, the profile name is initially modified to avoid creatin
 
 2.  In the Azure Sentinel Profiles list, select a profile that you want to copy, and then from the Actions on selected rows list, click **Copy** as shown in the following example.
 
-    ![Copying a profile.](../image/sentinel-copying-profile.png "Copying a profile")
+    \[Omitted image "sentinel-copying-profile.png"\] Alt text: Copying a profile.
 
     The profile is copied and displayed on the list as shown in the following example. The copy has all the settings of the original profile including the mapping and scheduling configuration. The name of the profile contains the word "copy." Although the original profile is enabled \(true\), the copy is turned off at this point \(false\). You may prefer to edit values of the copied profile and rename them so that the configuration settings apply to the new profile as required.
 
-    ![Copied profile.](../image/sentinel-copied-profile.png "Viewing the copied incident profiles")
+    \[Omitted image "sentinel-copied-profile.png"\] Alt text: Copied profile.
 
     You have successfully copied the settings from an existing profile to a new profile. The Active column status is set to false, which means that the profile must be activated.
 

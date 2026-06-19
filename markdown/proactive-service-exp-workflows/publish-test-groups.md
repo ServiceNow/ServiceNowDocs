@@ -2,6 +2,7 @@
 title: Publish a test groups
 description: Publish the test groups to ensure that agents only see the approved versions of test groups for execution. This also helps maintain consistency and control over both current and future test versions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/publish-test-groups.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"

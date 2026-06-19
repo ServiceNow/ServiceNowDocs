@@ -2,6 +2,7 @@
 title: Publish a document in Managed Documents
 description: After the document is reviewed and approved, publish the document within Managed Documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/t\_PubADocInManagedDocs.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -36,5 +37,5 @@ Role required: document\_management\_user
     In the Document Revisions list, the revision you just published is now in the Published stage.
 
 
-**Parent Topic:**[Managed Documents](../concept/c_ManagedDocuments.md)
+**Parent Topic:**[Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/c_ManagedDocuments.md)
 

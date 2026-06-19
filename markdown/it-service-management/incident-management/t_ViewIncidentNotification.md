@@ -2,6 +2,7 @@
 title: View incident notifications
 description: View incident notifications that are sent during specific events in an incident life cycle. These notifications are sent to various recipients including the ESS and the ITIL users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/t\_ViewIncidentNotification.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -38,17 +39,17 @@ Incident notifications use the email notification layout and template that are s
 
 ## What to do next
 
-You can redirect the users to the incident or major incident record in Service Operations Workspace instead of opening in the UI16 interface of Incident Management or Major Incident Management. For more information, see [Email notification redirection for incident and major incident](../concept/email-notif-redirt-inci-major-inci.md).
+You can redirect the users to the incident or major incident record in Service Operations Workspace instead of opening in the UI16 interface of Incident Management or Major Incident Management. For more information, see [Email notification redirection for incident and major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/email-notif-redirt-inci-major-inci.md).
 
-To receive these notifications, the end user must enable notifications. For more information, see [Subscription-based notifications](https://www.servicenow.com/docs/access?context=c_SubscriptionBasedNotifications&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+To receive these notifications, the end user must enable notifications. For more information, see Subscription-based notifications.
 
--   **[Email notification redirection for incident and major incident](../concept/email-notif-redirt-inci-major-inci.md)**  
+-   **[Email notification redirection for incident and major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/email-notif-redirt-inci-major-inci.md)**  
 You can redirect the users to the incident or major incident record in Service Operations Workspace \(SOW\) instead of opening in the UI16 interface of Incident Management or Major Incident Management.
 
-**Parent Topic:**[Configuring Incident Management](../concept/incident-configuration.md)
+**Parent Topic:**[Configuring Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/incident-configuration.md)
 
 **Related topics**  
 
 
-[Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+[bundle-platadm.t_CreateANotification]
 

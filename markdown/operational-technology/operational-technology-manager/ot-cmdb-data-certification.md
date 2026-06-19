@@ -2,6 +2,7 @@
 title: Create CMDB Data Certification Policy for Operational Technology
 description: Create a CMDB Data Certification Policy for Operational Technology \(OT\) to validate and maintain accurate configuration item \(CI\) data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-manager/ot-cmdb-data-certification.html
 release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -114,5 +115,5 @@ Review the policy in detail and select **Publish Policy**.
 
 You can view the policy in the **Published Policies** section on the main page after publishing.
 
-**Parent Topic:**[Using the Operational Technology Manager](../concept/using-operational-technology-manager.md)
+**Parent Topic:**[Using the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/using-operational-technology-manager.md)
 

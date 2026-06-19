@@ -2,6 +2,7 @@
 title: Approve orders in Order Management
 description: Approve an order in Order Management to begin decomposition and fulfillment process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/som-om-approve-product-order.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,7 +24,7 @@ Role required: sn\_ind\_tmt\_orm.order\_fulfilment\_manager, sn\_ind\_tmt\_orm.o
 
 1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace.** .
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Customer Orders** &gt; **All**.
 

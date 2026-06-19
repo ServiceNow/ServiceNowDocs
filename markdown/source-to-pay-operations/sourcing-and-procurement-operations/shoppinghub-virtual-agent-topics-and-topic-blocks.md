@@ -2,13 +2,14 @@
 title: Sourcing and Procurement Operations Virtual Agent conversations and topic blocks
 description: A topic conversation defines the dialog between the Virtual Agent \(chat support bot\) and the user, which enables you to gather information for a specific business need.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/shoppinghub-virtual-agent-topics-and-topic-blocks.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Virtual Agent for Sourcing and Procurement Operations, Sourcing and Procurement Operations integration with Employee Center, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Virtual Agent Sourcing Procurement Operations, Sourcing Procurement Operations integration Employee, Integrate Sourcing Procurement Operations other, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Sourcing and Procurement Operations Virtual Agent conversations and topic blocks
@@ -40,7 +41,7 @@ As part of the Sourcing and Procurement Operations product, the following Virtua
 -   See my procurement cases: View Procurement Case
 -   Get help from procurement: Browse PSM Content
 
-To view just the reusable topic functions, navigate to the Topics page in Virtual Agent Designer and select the **Topic Blocks** tab. For detailed information, see [Reusable topic blocks](https://www.servicenow.com/docs/access?context=topic-blocks-overview&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+To view just the reusable topic functions, navigate to the Topics page in Virtual Agent Designer and select the **Topic Blocks** tab. For detailed information, see Reusable topic blocks.
 
-**Parent Topic:**[Virtual Agent for Sourcing and Procurement Operations](virtual-agent-for-psm.md)
+**Parent Topic:**[Virtual Agent for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/virtual-agent-for-psm.md)
 

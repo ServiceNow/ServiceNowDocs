@@ -2,6 +2,7 @@
 title: Use the Input Password component
 description: Set up a password input form by using the Input Password component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/use-general-messagebox-input-password.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -23,7 +24,7 @@ Role required: none
 
 The Input Password component is used in Attended Robot automations.
 
-To configure the properties for the Input Password component, see [Properties of Confirm components](../reference/Properties-general-components.md#confirm-components).
+To configure the properties for the Input Password component, see [Properties of Confirm components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/Properties-general-components.md).
 
 ## Procedure
 
@@ -31,7 +32,7 @@ To configure the properties for the Input Password component, see [Properties of
 
 2.  Drag the Input Password component to the Design surface.
 
-3.  To provide inputs to the parameters, see [Configure port properties](configure-input-port-properties.md).
+3.  To provide inputs to the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the Input Password component to the corresponding ports of the other components as described in the following table.
 
@@ -43,5 +44,5 @@ To configure the properties for the Input Password component, see [Properties of
 5.  To test the component, right-click the component bar and click **Run From Here**.
 
 
-**Parent Topic:**[General](../concept/general-component.md)
+**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/general-component.md)
 

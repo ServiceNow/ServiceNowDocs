@@ -2,6 +2,7 @@
 title: Walk-up Experience appointment booking configuration
 description: Create or modify appointment booking configurations for the Walk-up Experience. You can view or modify the Walk-up Experience application appointment booking configuration and create or modify related service appointment configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-appt-booking-config.html
 release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

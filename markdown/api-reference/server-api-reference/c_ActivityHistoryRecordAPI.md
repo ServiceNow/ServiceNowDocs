@@ -2,6 +2,7 @@
 title: ActivityHistoryRecord - Global
 description: The ActivityHistoryRecord API provides methods that facilitate interacting with a WorkflowModelManager object. It is a data object that is a member of the WorkflowModelManager class.Changes the arrivedState of already known ids to true.Seeds all the expected wf\_activity sys\_ids that are expected to pass through this join and sets their arriveState = false.As model is cached by \_getExecutedTransitions\(\), this method adds transitions that have gone FROM this activity towards the .to activity.Prints debug information.Tests the incoming wf\_activity sys\_id, presumed to be seeded in this history record. If it is, it is tested to see if it is an activity that would come through this join.Returns the log string from the history record.Returns the sys\_ids of the history records that transition to this Join activity that have already come through.Returns the transition count for this activity.Returns the sys\_ids of the history records that transition to this Join activity that the join is still waiting for.Determines if this activity is one of the rollback activities.Determines if the sys\_id passed in is a destination of any of the transitions associated with this instance of an ActivityHistoryRecord.Determines if this activity is a join.Examines the value of the arriveState.Tests the incoming wf\_activity sys\_id, presumed to be seeded in this history record.Determines if this workflow was rolled back.Determines if the current activity is a turnstile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_ActivityHistoryRecordAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The ActivityHistoryRecord API provides methods that facilitate interacting with 
 
 This API is basically a copy of the data from a glide record on the table Activity History \[wf\_history\]. There are some helper methods defined for this class as well. There are no accessors or mutator to the simple data elements of this class.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## ActivityHistoryRecord - addArrivedActivityToJoin\(String Array activityIds\)
 
@@ -778,7 +779,7 @@ Boolean
 
 </td><td>
 
-Flag that indicates whether the activity is a [turnstile](https://www.servicenow.com/docs/access?context=r_TurnstileActivity&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+Flag that indicates whether the activity is a turnstile.
 
  Valid values:
 
@@ -786,7 +787,7 @@ Flag that indicates whether the activity is a [turnstile](https://www.servicenow
 -   false: Activity is not a turnstile.
 
 </td></tr></tbody>
-</table>The following code example shows how to use this method to detect a turnstile. It is based on the workflow found in [Rollback To workflow activity](https://www.servicenow.com/docs/access?context=r_RollbackTo&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US). You can confirm the output of this script by examining the **Workflow Activity History** tab when you **Show Workflow** on the requested items \(RITM\) form.
+</table>The following code example shows how to use this method to detect a turnstile. It is based on the workflow found in Rollback To workflow activity. You can confirm the output of this script by examining the **Workflow Activity History** tab when you **Show Workflow** on the requested items \(RITM\) form.
 
 ```
 var wfhGR = new GlideRecord ('wf_history');

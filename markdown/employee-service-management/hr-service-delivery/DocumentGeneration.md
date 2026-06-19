@@ -2,6 +2,7 @@
 title: HR document generation
 description: There are multiple ways to generate documents in HR Service Delivery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/DocumentGeneration.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -32,13 +33,13 @@ The document is made available for the subject person to sign. Only after the si
     An administrator selects the template on the HR service. An HR case is created with that HR service. The HR agent previews the document using the **Preview Document** option, generates the document, and sends an email to the employee using the **Send email** option on the case.
 
 
-![Case options for HR service form.](../image/HRService.png)
+\[Omitted image "HRService.png"\] Alt text: Case options for HR service form.
 
 ## Multiple signatures are collected
 
 Documents like offer letters can require multiple signatures. When all signatures are collected, the document is automatically generated.
 
-**Note:** For more information on setting this feature up, please see [Advanced form configuration](https://www.servicenow.com/docs/access?context=advanced-form-administration&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) and [Advanced Forms Management in HR Service Delivery](https://community.servicenow.com/community?id=community_article&sys_id=a1676d67dba71410b1b102d5ca961941).
+**Note:** For more information on setting this feature up, please see Advanced form configuration and [Advanced Forms Management in HR Service Delivery](https://community.servicenow.com/community?id=community_article&sys_id=a1676d67dba71410b1b102d5ca961941).
 
 ## Preview, Sign, or Save
 
@@ -46,7 +47,7 @@ Some documents require an HR agent to review, sign, or save it prior to sending 
 
 -   Open a case requiring a document to be sent to the subject person.
 -   Ensure that the state is **Work in Progress**.
--   The Form Header shows:![Form header for HR workforce administration case form.](../image/HRCaseButtons.png)
+-   The Form Header shows:\[Omitted image "HRCaseButtons.png"\] Alt text: Form header for HR workforce administration case form.
 -   Click **Preview Document** to view the document.
 -   Click **Sign Document** for documents that require an HR signature.
 
@@ -61,8 +62,8 @@ When there are errors in the document:
 -   Check the HR case to ensure correct case information.
 -   Check the document template for errors within the body of the document, incorrect field mapping, or variable information.
 
--   **[Edit a generated document](../task/agent-edit-document.md)**  
+-   **[Edit a generated document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/agent-edit-document.md)**  
 Support rendering values of variables, scripts, and blocks in edit mode in Preview Document. View the content of variables, scripts, or blocks rather than only viewing the variable or block names.
 
-**Parent Topic:**[Work an HR case](../task/t_CreateAnHRCase.md)
+**Parent Topic:**[Work an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateAnHRCase.md)
 

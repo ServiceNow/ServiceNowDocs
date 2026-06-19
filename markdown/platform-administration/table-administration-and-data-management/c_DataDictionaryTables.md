@@ -2,6 +2,7 @@
 title: Data dictionary tables
 description: Access details related to tables, columns, and field labels in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/c\_DataDictionaryTables.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -31,7 +32,7 @@ Access the Tables \[sys\_db\_object\] table by navigating to **System Definition
 
 The following image shows a list of the tables that extend the Application File table.
 
-![A list of tables that extend the Application File table.](../image/Tables2.png "Tables")
+\[Omitted image "Tables2.png"\] Alt text: A list of tables that extend the Application File table.
 
 ## Dictionary Entries
 
@@ -44,7 +45,7 @@ Access the system dictionary in one of these ways:
 
 The following image shows a filtered list of dictionary entries for the Incident table and the Task table, which it extends.
 
-![A filtered list of dictionary entries for the Incident table and the Task table.](../image/DictionaryIncTask2.png "Dictionary Inc Task")
+\[Omitted image "DictionaryIncTask2.png"\] Alt text: A filtered list of dictionary entries for the Incident table and the Task table.
 
 ## Field Labels
 
@@ -57,7 +58,7 @@ Access the language file in one of these ways:
 
 The following image shows the language file filtered to display only labels on the Incident table.
 
-![A list showing field labels on the Incident table.](../image/Fieldlabels2.png "Field Labels")
+\[Omitted image "Fieldlabels2.png"\] Alt text: A list showing field labels on the Incident table.
 
-**Parent Topic:**[Exploring ServiceNow AI Platform tables](../../table-administration/concept/exploring-table-administration.md)
+**Parent Topic:**[Exploring ServiceNow AI Platform tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/exploring-table-administration.md)
 

@@ -2,6 +2,7 @@
 title: Simulate event processing
 description: You can simulate event processing logic on events and display the resulting alert to better understand which rules are executed on a given event and how the event fields change after the rule is executed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/simulate-event-processing.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -32,5 +33,5 @@ Role required: evt\_mgmt\_admin
 5.  View which event rules and event field mapping rules were applied and the event field values by selecting the **Activities** tab.
 
 
-**Parent Topic:**[Event rules](../concept/create-event-rules.md)
+**Parent Topic:**[Event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-event-rules.md)
 

@@ -2,6 +2,7 @@
 title: Follow up on work notes and review service candidate
 description: Track and follow up on work notes while reviewing the service candidate to ensure all actions and updates are captured. This helps maintain clarity and continuity in the review process, reducing the chances of missed details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/followup-worknotes-review-service-candidate.html
 release: zurich
 product: Event Management
 classification: event-management

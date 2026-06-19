@@ -2,7 +2,10 @@
 title: Additional resources for Impact
 description: If you’re looking for Impact leading practices, troubleshooting, or other informational guidelines, select a feature or resource type to discover additional ServiceNow resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/additional-resources-impact.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: reference
 last_updated: "2025-12-22"
 reading_time_minutes: 1
@@ -87,6 +90,18 @@ Getting started
 </td><td>
 
 [Platform Health: Community](https://www.servicenow.com/community/servicenow-impact-articles/the-new-impact-platform-health-see-what-s-inside-and-how-to-get/ta-p/3447206)
+
+</td></tr><tr><td>
+
+Applicable Impact Descriptions
+
+</td><td>
+
+Terms and Conditions
+
+</td><td>
+
+[Impact legal](https://www.servicenow.com/legal/servicenow-impact.html)
 
 </td></tr><tr><td>
 

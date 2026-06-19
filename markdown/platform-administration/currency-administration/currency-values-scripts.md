@@ -2,6 +2,7 @@
 title: Default currency values in scripts
 description: You can use currency fields in scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/currency-administration/currency-values-scripts.html
 release: zurich
 product: Currency Administration
 classification: currency-administration
@@ -55,7 +56,7 @@ You can have the system use two decimal places. When you set it to two decimal p
 -   APIs that return display values such as getDisplayValue\(\) contain up to two decimal places. It could sometimes return two places even for values such as 7.10, but could remove trailing zeros at other times. The number of trailing zeros returned is not consistent.
 -   GlideAggregate returns two decimal places.
 
-**Note:** To learn how to change the number of decimal places used by the system, see [Change default currency decimal places](../task/change-currency-fraction-digits.md).
+**Note:** To learn how to change the number of decimal places used by the system, see [Change default currency decimal places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/change-currency-fraction-digits.md).
 
 The following example, the user’s locale is set to German \(de.DE\), and the reference currency set to USD. The values use a currency value of 21345.67 in Japanese yen, 1563.72 in Euros, and 1152.48 in US dollars.
 
@@ -242,5 +243,5 @@ Sets the currency value as:-   A number formatted in the user's locale that is t
 4369.21 or JPY 4369.21
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Standard currency fields](configure-and-use-default-currency-fields.md)
+</table>**Parent Topic:**[Standard currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/configure-and-use-default-currency-fields.md)
 

@@ -2,11 +2,12 @@
 title: Exploring External Content Connectors
 description: Using External Content Connectors, AI Search applications can search content and metadata from external content repositories such as Atlassian Confluence Cloud and Microsoft SharePoint Online. Expanding search recall to include external content makes it easier and faster for search users to locate the information they need.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/exploring-ext-cont-connectors.html
 release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-10-07"
+last_updated: "2026-05-07"
 reading_time_minutes: 9
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [External Content Connectors, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
@@ -62,17 +63,21 @@ The current release includes these external content connectors:
 
 Connector administrators can schedule content and user permission crawls to suit your indexing requirements. If the need arises, connector administrators can also run either type of crawl on demand.
 
-**Important:** The External Content Connectors application consumes Integration Hub transactions when feeding crawled content to AI Search. You can monitor available and used transactions for your Integration Hub subscription packages in the Integration Hub Usage Dashboard. For details on transaction monitoring, see [Transaction reports in Integration Hub Usage Dashboard](https://www.servicenow.com/docs/access?context=use-the-integration-hub-usage-dashboard&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+**Important:** The External Content Connectors application consumes Integration Hub transactions when feeding crawled content to AI Search. You can monitor available and used transactions for your Integration Hub subscription packages in the Integration Hub Usage Dashboard. For details on transaction monitoring, see .
 
-Each external content connector has its own indexed source for crawled content. You can configure search sources for an external content connector's indexed source and include those search sources in your search profiles, just as you would for any other indexed source. To learn more about indexed sources, see [Indexed sources in AI Search](indexed-sources-ais.md).
+Each external content connector has its own indexed source for crawled content. You can configure search sources for an external content connector's indexed source and include those search sources in your search profiles, just as you would for any other indexed source. To learn more about indexed sources, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/indexed-sources-ais.md).
 
-All external content connectors support semantic vector indexing of content retrieved from crawled source systems. Only features which use semantic vector search with the Now LLM Service can take advantage of this support. For details on semantic vector indexing and search, see [Semantic vector search in AI Search](semantic-search-ais.md).
+All external content connectors support semantic vector indexing of content retrieved from crawled source systems. Only features which use semantic vector search with the Now LLM Service can take advantage of this support. For details on semantic vector indexing and search, see [Semantic vector search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/semantic-search-ais.md).
+
+## External Content Connectors availability
+
+The External Content Connectors application is only supported on cloud-hosted ServiceNow AI Platform® instances. It's not supported on on-premise \(self-hosted\) instances.
 
 ## External Content Connectors workflow
 
 In this infographic, see a sample workflow of how different users in an organization interact with External Content Connectors to enable indexing and search of content and metadata from supported external sources.
 
-![Infographic showing how connector admins, AI Search users, and AI Search high security administrators work with the External Content Connectors to enable search for content from source systems. For details, refer to the following description.](../image/exploring-external-content-connectors.svg "Configuring and using External Content Connectors")
+\[Omitted image "exploring-external-content-connectors.svg"\] Alt text: Infographic showing how connector admins, AI Search users, and AI Search high security administrators work with the External Content Connectors to enable search for content from source systems. For details, refer to the following description.
 
 In this External Content Connectors workflow:
 
@@ -83,26 +88,26 @@ In this External Content Connectors workflow:
 
 **Important:**
 
-By default, each external content connector can index up to ten million \(10,000,000\) content items from its source system. When a connector exceeds this limit, it continues to crawl the source system, but only sends content item deletions and updates to AI Search for indexing, ignoring new content items. The connector logs an error message for every 10,000 content items it crawls beyond the indexing limit.
+By default, each external content connector can index up to one million \(1,000,000\) content items from its source system. When a connector exceeds this limit, it continues to crawl the source system, but only sends content item deletions and updates to AI Search for indexing, ignoring new content items. The connector logs an error message for every 10,000 content items it crawls beyond the indexing limit.
 
 When a connector's indexed content item count exceeds 800,000, a warning message appears in the connector's UI to indicate that it's approaching the indexing limit. If the connector reaches the indexing limit, an error message appears in its UI.
 
-External content connectors that support user permissions crawls can retrieve up to five hundred thousand \(500,000\) users.
+External content connectors that support user permissions crawls can handle permissions for up to five hundred thousand \(500,000\) users and their groups. If a connector retrieves users in excess of this limit, user and group permissions may not be correctly applied to the connector's retrieved content. As a result, the content may not be searchable.
 
-If one of your connectors reaches the content indexing limit, you can update its crawl settings and file inclusion/exclusion filters to reduce the number of content items it retrieves. Alternately, if you need a connector to index more than 10,000,000 content items or to retrieve more than 500,000 users, you can create a Customer Service and Support case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to request a limit increase for the connector.
+If one of your connectors reaches the content indexing limit, you can update its crawl settings and file inclusion/exclusion filters to reduce the number of content items it retrieves. Alternatively, if you need a connector to index more than 1,000,000 content items, you can create a Customer Service and Support case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to request a limit increase for the connector.
 
 ## External Content Connectors benefits
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Configure source systems for external content indexing|[Configuring source systems for external content indexing](cfg-src-sys-ext-content-indexing.md)|Source system administrators|
-|Create connectors to retrieve searchable content and metadata and user permissions from supported external data source systems|[Creating external content connectors](../task/creating-ext-cont-connectors.md)|Connector administrators|
-|Control the scope of external content connector crawls by specifying source system locations to crawl and content types to feed to AI Search for indexing|[Configuring crawl settings for external content connectors](cfg-crawl-settings-ext-cont-connector.md)|Connector administrators|
-|Update searchable content and metadata from source systems on demand or on a scheduled recurring basis|[Create a content crawl for an external content connector](../task/create-content-crawl-external-content-connector.md)|Connector administrators|
-|Update user and group access permissions from source systems on demand or on a scheduled recurring basis|[Create a user permission crawl for an external content connector](../task/create-user-mapping-crawl-external-content-connector.md)|Connector administrators|
-|Review metrics for source system items retrieved by content crawls|[Review crawl history for an external content connector](../task/review-crawl-ext-cont-connector.md)|Connector administrators|
-|Review user and group access permissions retrieved by user permission crawls|[Review user permissions for an external content connector](../task/review-usr-maps-ext-cont-connector.md)|Search high security administrators|
-|Search content and metadata indexed from external data source systems|[Searching in AI Search](use-ais.md)|AI Search users|
+|Configure source systems for external content indexing|[Configuring source systems for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/cfg-src-sys-ext-content-indexing.md)|Source system administrators|
+|Create connectors to retrieve searchable content and metadata and user permissions from supported external data source systems|[Creating external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/creating-ext-cont-connectors.md)|Connector administrators|
+|Control the scope of external content connector crawls by specifying source system locations to crawl and content types to feed to AI Search for indexing|[Configuring crawl settings for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/cfg-crawl-settings-ext-cont-connector.md)|Connector administrators|
+|Update searchable content and metadata from source systems on demand or on a scheduled recurring basis|[Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-content-crawl-external-content-connector.md)|Connector administrators|
+|Update user and group access permissions from source systems on demand or on a scheduled recurring basis|[Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-user-mapping-crawl-external-content-connector.md)|Connector administrators|
+|Review metrics for source system items retrieved by content crawls|[Review crawl history for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/review-crawl-ext-cont-connector.md)|Connector administrators|
+|Review user and group access permissions retrieved by user permission crawls|[Review user permissions for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/review-usr-maps-ext-cont-connector.md)|Search high security administrators|
+|Search content and metadata indexed from external data source systems|[Searching in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/use-ais.md)|AI Search users|
 
 ## Interaction with Now Assist Genius Results
 
@@ -110,16 +115,16 @@ If you have the Now Assist in AI Search and Now Assist in Virtual Agent ServiceN
 
 External content search results are ignored when generating Now Assist Q&amp;A or Now Assist Actions Genius Result answers.
 
--   **[Estimating document volume for source systems](estimating-doc-volume-src-sys.md)**  
+-   **[Estimating document volume for source systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/estimating-doc-volume-src-sys.md)**  
 Source system tools allow you to estimate the number of documents available for retrieval by external content connectors. By estimating the available document count for a source system, you can determine whether you need to apply crawl scope restrictions when configuring an external content connector for that source system.
--   **[Configuring source systems for external content indexing](cfg-src-sys-ext-content-indexing.md)**  
+-   **[Configuring source systems for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/cfg-src-sys-ext-content-indexing.md)**  
 Source system administrators configure settings to allow external content connectors to index your documents and security settings for search. These settings must be configured for a source system before you create an external content connector to crawl that source system.
--   **[Creating external content connectors](../task/creating-ext-cont-connectors.md)**  
+-   **[Creating external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/creating-ext-cont-connectors.md)**  
 Connector administrators can create external content connectors to retrieve searchable content and metadate and security permissions from supported source systems.
--   **[Configuring crawl settings for external content connectors](cfg-crawl-settings-ext-cont-connector.md)**  
+-   **[Configuring crawl settings for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/cfg-crawl-settings-ext-cont-connector.md)**  
 Connector administrators can configure crawl settings for each external content connector, such as which source system locations it crawls and which types of content it sends to AI Search for indexing.
--   **[Domain separation and External Content Connectors](ext-cont-connectors-domain-separation.md)**  
+-   **[Domain separation and External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ext-cont-connectors-domain-separation.md)**  
 Domain separation is unsupported for External Content Connectors. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[External Content Connectors](../reference/ext-cont-connectors-landing-page.md)
+**Parent Topic:**[External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ext-cont-connectors-landing-page.md)
 

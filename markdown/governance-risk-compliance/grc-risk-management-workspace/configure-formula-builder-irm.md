@@ -2,6 +2,7 @@
 title: Configure the formula builder
 description: Specify the formula context, the tables, and the identifiers before you can build a formula.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/configure-formula-builder-irm.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -133,5 +134,5 @@ Preferred label of the secondary column selected.**Note:** This field appears on
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Formula building in a calculated metric definition](../concept/formula-building-at-metric-definition-and-entity-level-irm.md)
+**Parent Topic:**[Formula building in a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/formula-building-at-metric-definition-and-entity-level-irm.md)
 

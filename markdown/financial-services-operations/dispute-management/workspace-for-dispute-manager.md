@@ -2,6 +2,7 @@
 title: Dispute manager workspace
 description: As a dispute manager, you can work on your assigned cases and coordinate real-time updates on your team's cases from the dispute manager workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/workspace-for-dispute-manager.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -26,12 +27,12 @@ The workspace has a simple interface that provides you with a list of high-level
 
 **Note:** As a dispute manager, you can also act as a fullfiller and submit tasks for approval.
 
-The following example shows the landing page of a dispute manager.![Dispute manager landing page](../image/dispute-manager1.png)
+The following example shows the landing page of a dispute manager.\[Omitted image "dispute-manager1.png"\] Alt text: Dispute manager landing page
 
--   **[Preconfigured email templates in a card dispute flow](pre-cofigured-email-template.md)**  
+-   **[Preconfigured email templates in a card dispute flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/pre-cofigured-email-template.md)**  
 Email templates are pre-formatted files that you can use to start creating email notifications.
--   **[Implement 4-eyes policy for approval tasks](implementing-4-eyes-principle.md)**  
+-   **[Implement 4-eyes policy for approval tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/implementing-4-eyes-principle.md)**  
 The 4-eyes policy, implemented in the case dispute flow, can enhance your dispute management process. This policy ensures that two authorized individuals handle the critical tasks and establish an efficient risk control mechanism.
 
-**Parent Topic:**[Managing Disputes](managing-disputes.md)
+**Parent Topic:**[Managing Disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/managing-disputes.md)
 

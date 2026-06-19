@@ -2,6 +2,7 @@
 title: Add reference information to an assessment template
 description: Add reference information to an assessment template to help ensure that assessors can access to the information they need while responding to assessments by using the Smart Assessment Engine. With an assessment template, you can minimize the need for external references and can improve the efficiency of the assessment process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/smart-assessment-engine/sae-asmnt-add-reference.html
 release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -17,7 +18,7 @@ Add reference information to an assessment template to help ensure that assessor
 
 ## Before you begin
 
-You must select one or more assessment targets as part of the assessment template. The assessment targets are the table records that are selected to be assessed, otherwise known as the assessment scope. Multiple tables can be added as the assessment target, which makes the scope a combination of records from each table. For more information, see [Create an assessment template](sae-asmnt-template-create.md).
+You must select one or more assessment targets as part of the assessment template. The assessment targets are the table records that are selected to be assessed, otherwise known as the assessment scope. Multiple tables can be added as the assessment target, which makes the scope a combination of records from each table. For more information, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
 
 Role required: sn\_smart\_asmt.template\_manager or sn\_smart\_asmt.assessment\_admin
 

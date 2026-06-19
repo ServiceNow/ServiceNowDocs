@@ -2,6 +2,7 @@
 title: Add learning course sections
 description: Add learning course sections to collections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/add-learning-course-sections.html
 release: zurich
 product: Learning Core
 classification: learning-core
@@ -19,7 +20,7 @@ Add learning course sections to collections.
 
 Role required: sn\_lc.learning\_admin
 
-Create a collection. For more information, see [Create a content collection](create-course-collection.md).
+Create a collection. For more information, see [Create a content collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/create-course-collection.md).
 
 ## Procedure
 
@@ -41,5 +42,5 @@ Create a collection. For more information, see [Create a content collection](cre
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Create a content collection](create-course-collection.md)
+**Parent Topic:**[Create a content collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/create-course-collection.md)
 

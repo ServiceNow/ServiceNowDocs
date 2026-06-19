@@ -2,6 +2,7 @@
 title: Post-sales engagement
 description: Learn how to configure the Customer Life Cycle Management Workflows application to manage post-sale workflows on sold products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configuring-post-sales-engagement.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -15,5 +16,5 @@ breadcrumb: [Configure, Sales Customer Relationship Management]
 
 Learn how to configure the Customer Life Cycle Management Workflows application to manage post-sale workflows on sold products.
 
-Installing and configuring the [Customer Life Cycle Management Workflows](https://www.servicenow.com/docs/access?context=customer-life-cycle-management-workflows&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US) application helps manage ongoing customer relationships and product life cycle activities after an order is completed or fulfilled.
+Installing and configuring the  application helps manage ongoing customer relationships and product life cycle activities after an order is completed or fulfilled.
 

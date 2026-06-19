@@ -2,7 +2,10 @@
 title: View product information from the Customer Service Portal
 description: View a list of products to track the products or services sold to your account and manage your services using service catalogs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/view-product-info-csp.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

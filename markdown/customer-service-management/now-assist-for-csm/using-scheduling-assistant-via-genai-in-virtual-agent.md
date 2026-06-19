@@ -2,6 +2,7 @@
 title: Using scheduling assistant via GenAI in Virtual Agent
 description: Book, reschedule, and cancel appointments with Virtual Agent conversations using Now Assist. Set up a new appointment, modify an existing one, or cancel an appointment with a streamlined and user-friendly flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/using-scheduling-assistant-via-genai-in-virtual-agent.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -48,5 +49,5 @@ To cancel an appointment:
 
 Now LLM Service ensures that these interactions are smooth and efficient, allowing you to manage your schedule with ease.
 
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](now-assist-csm-using.md)
+**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

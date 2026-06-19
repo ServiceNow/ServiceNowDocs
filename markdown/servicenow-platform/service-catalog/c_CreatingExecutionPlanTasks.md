@@ -2,6 +2,7 @@
 title: Creating execution plan tasks
 description: An execution plan contains one or more task templates. Each task template defines work that can be completed by a specific fulfillment group.Each execution plan contains one or more task templates that define actions that must be taken to fulfill a request.Administrators and catalog administrators can define conditions under which a particular execution plan task runs, or is skipped, when the relevant item is requested.Administrators can use a condition script in addition to or instead of any condition to determine whether a task runs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/c\_CreatingExecutionPlanTasks.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -37,7 +38,7 @@ Requested Item ITEM0004 -- 1 X executive desktop
 -   Catalog Task0003 -- Install standard corporate application
 -   Catalog Task0004 -- Deliver computer to requester
 
-**Parent Topic:**[Execution Plans](c_ExecutionPlans.md)
+**Parent Topic:**[Execution Plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_ExecutionPlans.md)
 
 ## Define task templates
 
@@ -192,7 +193,7 @@ If no conditions are set, the task runs every time a user orders an item associa
 
 Here is an example of conditional task for an IT lab based in Atlanta:
 
-![](../image/ApplyConditionToTasks.png "Applying Conditions to Execution Plan Tasks")
+\[Omitted image "ApplyConditionToTasks.png"\] Alt text:
 
 In this example, the **Deliver to IT Labs** step does not run if the request itself is in Atlanta. There is no need to deliver something to the IT lab if it is already there.
 
@@ -206,5 +207,5 @@ To use a script, you must configure the Execution Plan Task form to add the "Con
 
 Ensure that you add the variable used in the script to the execution plan task.
 
-![Use Condition Scripts](../image/UseConditionScriptsToRunTasks.png "Use Condition Scripts")
+\[Omitted image "UseConditionScriptsToRunTasks.png"\] Alt text: Use Condition Scripts
 

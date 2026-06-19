@@ -2,14 +2,15 @@
 title: Now Assist for App Engine
 description: Use Now Assist for App Engine to supercharge custom applications with AI agents and skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.html
 release: zurich
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-06-02"
 reading_time_minutes: 3
 keywords: [now assist, app engine, AI capability, AI feature, AI product, AI agent, skill, generative AI, genAI, Now Assist for App Engine, custom app]
-breadcrumb: [AI in custom applications, Developing your application, Building applications]
+breadcrumb: [Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 
 # Now Assist for App Engine
@@ -20,15 +21,15 @@ Use Now Assist for App Engine to supercharge custom applications with AI agents 
 
 <table id="table_wjh_cz5_bfc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Now Assist for App Engine concepts and features.](exploring-now-assist-for-app-generation-enterprise.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Now Assist for App Engine concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/exploring-now-assist-for-app-generation-enterprise.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-cloud-download.svg)Configure Now Assist for App Engine.](../../now-assist-app-engine/concept/configuring-now-assist-for-app-engine.md)
+[Configure\[Omitted image "bus-cloud-download.svg"\] Alt text:Configure Now Assist for App Engine.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/configuring-now-assist-for-app-engine.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Use Now Assist for App Engine.](use-now-assist-for-app-engine-enterprise.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Now Assist for App Engine.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)
 
 </td><td>
 
@@ -58,5 +59,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 

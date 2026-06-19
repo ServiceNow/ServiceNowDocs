@@ -2,6 +2,7 @@
 title: Password2 encryption for patterns
 description: The Password \(two-way encrypted\) field type is used to encrypt and decrypt data. The field type works in accordance with NIST 800-57 guidelines and provides FIPS 140-2-L3 protection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/password2-encryption-patterns.html
 release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -29,8 +30,8 @@ From Quebec, Key Management Framework enables you to manage keys used for Passwo
 
 -   **Verify Password2 is included in XML records**
 
-    View the XML records in the ServiceNow AI Platform instance, and verify that the encryption looks similar to this example:![Password2 encryption](../image/password2-encryption-patterns.jpg)
+    View the XML records in the ServiceNow AI Platform instance, and verify that the encryption looks similar to this example:\[Omitted image "password2-encryption-patterns.jpg"\] Alt text: Password2 encryption
 
 
-**Parent Topic:**[Configuring Pattern Designer and related applications](../reference/configuring-pattern-designer-plugins.md)
+**Parent Topic:**[Configuring Pattern Designer and related applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/configuring-pattern-designer-plugins.md)
 

@@ -2,6 +2,7 @@
 title: Configure the cart layout
 description: Configure cart layout records to define functionality for widgets or screens in the shopping cart.When you enable cart layouts, service catalog properties are impacted. Consider the possible outcomes and alter the settings or properties to achieve the cart layout and functionality you require.Configure macros that define functionality for elements within each widget or screen.Create macros for cart layout records using Jelly scripts to define customized behavior and display within a widget or screen.Set fields in the Catalog Item form to configure the cart layout for specific items.Service catalog enables you to use additional methods to configure cart behavior or layouts, which override cart layout record settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/t\_ConfigureCartLayout.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -25,9 +26,9 @@ Role required: admin
 
 2.  Select a widget or screen.
 
-    -   [Cart widgets](service-catalog-cart-widgets.md#): Item Ordering Widget, Shopping Cart Widget, or Item Ordering Widget \(Order Guide\)
-    -   [Preview screens](service-catalog-screens.md#): Cart Preview Screen, Cart Preview Screen \(Two Step\), Cart Preview Screen \(Wish List\), or Cart Preview Screen \(Classic Mobile\)
-    -   [Order status screens](service-catalog-status-screens.md#): Order Status Screen or Order, Status Screen \(Classic Mobile\)
+    -   [Cart widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/service-catalog-cart-widgets.md): Item Ordering Widget, Shopping Cart Widget, or Item Ordering Widget \(Order Guide\)
+    -   [Preview screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/service-catalog-screens.md): Cart Preview Screen, Cart Preview Screen \(Two Step\), Cart Preview Screen \(Wish List\), or Cart Preview Screen \(Classic Mobile\)
+    -   [Order status screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/service-catalog-status-screens.md): Order Status Screen or Order, Status Screen \(Classic Mobile\)
 3.  Update the **Title** field to change the title that appears on the widget.
 
 4.  Leave the default **Target** value.
@@ -52,7 +53,7 @@ Role required: admin
     Some settings and properties in your instance can override or affect your cart layout.
 
 
-**Parent Topic:**[Cart layout](../concept/c_ConfigureCartLayout.md)
+**Parent Topic:**[Cart layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_ConfigureCartLayout.md)
 
 ## Cart layout considerations
 
@@ -137,7 +138,7 @@ You can configure these macros to alter the display order of elements, or hide e
 
 2.  Click the order number entry of a macro to edit its display order, or to activate or deactivate it.
 
-    ![Configure widgets and column macros.](../image/Service_Catalog_Cart_Layout_Widget_Macro-Editable-Details.png)
+    \[Omitted image "Service\_Catalog\_Cart\_Layout\_Widget\_Macro-Editable-Details.png"\] Alt text: Configure widgets and column macros.
 
 3.  Click **Update**.
 
@@ -212,7 +213,7 @@ Role required: admin
 
 ### About this task
 
-Overrides any general [cart layout settings](t_ConfigureCartLayout.md#). For example, you can hide the price of an item by setting the **Omit price in cart** field to **true** for that item.
+Overrides any general [cart layout settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/t_ConfigureCartLayout.md). For example, you can hide the price of an item by setting the **Omit price in cart** field to **true** for that item.
 
 ### Procedure
 
@@ -232,7 +233,7 @@ Overrides any general [cart layout settings](t_ConfigureCartLayout.md#). For exa
 
 5.  Set the item configuration field values as required.
 
-    ![](../image/SC_ConfigCartLayoutSpec.png)
+    \[Omitted image "SC\_ConfigCartLayoutSpec.png"\] Alt text:
 
 6.  Click **Update**.
 
@@ -245,5 +246,5 @@ For example, your cart layout record settings can hide item prices, but you migh
 
 **Note:**
 
-If you are [migrating to cart layouts](../concept/c_MigrateCartLayouts.md), you can have defined additional settings and properties that impact your cart layout settings.
+If you are [migrating to cart layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_MigrateCartLayouts.md), you can have defined additional settings and properties that impact your cart layout settings.
 

@@ -2,11 +2,12 @@
 title: Natural language queries use cases and examples
 description: View example use cases of some natural language queries used in Knowledge Graph and Enterprise Graph.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/knowledge-graph/natural-language-queries-example-usecases.html
 release: zurich
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: concept
-last_updated: "2025-12-03"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Exploring Knowledge Graph, Knowledge Graph, Enable AI experiences]
 ---
@@ -19,7 +20,7 @@ Natural Language Query support in Knowledge Graph and Enterprise Graph allows us
 
 ## Supported Queries
 
-Knowledge Graph and Enterprise Graph, understand and process queries that reference specific tables, columns, choice values, and conditions. It also handles queries involving system-generated identifiers \(sys-ids\), person names, dates, and contextual pronouns. Additionally, it supports aggregate and sorting queries, enabling users to perform simple statistical analyses and order results.
+Knowledge Graph and Enterprise Graph, understand and process queries that reference specific tables, columns, choice values, and conditions. It also handles queries involving system-generated identifiers \(sys-ids\), person names, dates, and contextual pronouns. Additionally, it supports aggregate and sorting queries, enabling users to perform simple statistical analysis and order results.
 
 Here are some examples of the supported query types:
 
@@ -63,11 +64,11 @@ Here are some example queries and description of how they works in Knowledge Gra
 |What are the Problems open with my group?|Problem refers to problem table, group refers to column, ‘my’ reference will be resolved to the person asking the query.|
 |Show my open incidents.|Uses Incident table and 'my' reference is the person asking the query.|
 |What is the status of my request?|Uses request table and 'my' reference is the person asking the query.|
-|What are their pending approvals?|Uses sysapproval\_approver table and 'their' reference is the person who was referred to in previous turn of conversation.|
+|What are their pending approvals?|Uses `sysapproval_approver` table and 'their' reference is the person who was referred to in previous turn of conversation.|
 
 ## Aggregate or Sorting Queries
 
-These queries allow users to perform simple statistics and sorting directly in the Virtual Agent or Now Assist panel.
+These queries let users perform simple statistics and sorting directly in the Virtual Agent or Now Assist panel.
 
 Here are some example queries and description of how they works in Knowledge Graph.
 
@@ -75,13 +76,13 @@ Here are some example queries and description of how they works in Knowledge Gra
 |-------|-----------|
 |Count of incidents grouped by priority.|Counts the records in incident table grouped by priority column.|
 |Count of problems grouped by stage.|Counts the records in problem table grouped by stage column.|
-|Count case task assigned to group “Dev – Knowledge Graph”.|Counts the records in case task table that are assigned to assignment group = Dev – Knowledge Graph.|
+|Count case task assigned to group “Dev - Knowledge Graph ”.|Counts the records in case task table that are assigned to assignment group = Dev – Knowledge Graph.|
 |List in progress hr cases by ordered by created date.|Lists the HR cases from HR cases table ordered by the created date field.|
 |Show top 5 users by number of incident assigned to them.|Lists the top 5 user by number of incidents from the incident table assigned to them.|
 
 ## Unsupported Query Categories
 
-ServiceNow's Knowledge Graph does not support the following types of queries:
+Knowledge Graph does not support the following types of queries:
 
 ## Queries Missing References or with Misspellings
 
@@ -120,4 +121,8 @@ Here are a few examples of unsupported queries:
 -   Incident SLA
 -   How can I request a windsurf license?
 -   How to install global protect for PC?
+
+## CMDB query support
+
+Knowledge Graph supports CI Relationship \(Rel CI\) queries, enabling natural language questions about CMDB configuration item dependencies and infrastructure topology. For more details see [Configuration item relationships and Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/knowledge-graph/ci-relationships-knowledge-graph.md)
 

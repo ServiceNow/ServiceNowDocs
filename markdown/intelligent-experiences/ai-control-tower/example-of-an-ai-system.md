@@ -2,6 +2,7 @@
 title: Example of an AI system
 description: The AI Control Tower application and the AI Risk and Compliance application play a critical role in managing and governing the responsible use of AI systems, especially in high-stakes domains such as banking and finance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/example-of-an-ai-system.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
@@ -25,5 +26,5 @@ For instance, an organization might use AI to generate credit scores for loan ap
 
 The figure in the following example illustrates how an AI system is interrelated with datasets, models, and the broader ecosystem.
 
-![Illustration displaying how an AI system is fed data from various LLMs](../image/example-ai-system.png "Example of an AI system")
+\[Omitted image "example-ai-system.png"\] Alt text: Illustration displaying how an AI system is fed data from various LLMs
 

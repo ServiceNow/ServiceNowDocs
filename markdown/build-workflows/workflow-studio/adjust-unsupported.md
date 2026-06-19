@@ -2,6 +2,7 @@
 title: Modify Decision Tables in the Classic UI
 description: Workflow Studio supports decision tables that were created in the classic environment. However, some data types and conditions from the classic environment aren’t fully supported in Workflow Studio. For unsupported field types and decisions with complex conditional logic, use the decision rule view to modify these condition expressions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/adjust-unsupported.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -18,7 +19,7 @@ Workflow Studio supports decision tables that were created in the classic enviro
 The first time you open a decision table that was created in the classic environment, Workflow Studio automatically creates condition columns for all unique fields evaluated in the condition criteria.
 
 -   If the table contains table-compatible decision rules, one condition per cell is displayed.
--   If a decision rule contains unsupported field types or complex logic, all the conditions in the condition columns are merged into a single condition expression. This expression is a hyperlink to Condition Builder that you can use to modify the conditions for the decision rule. For more information, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+-   If a decision rule contains unsupported field types or complex logic, all the conditions in the condition columns are merged into a single condition expression. This expression is a hyperlink to Condition Builder that you can use to modify the conditions for the decision rule. For more information, see Condition builder.
 -   If you remove the aspects of the condition expression that define the decision as complex, the decision is displayed in the supported format.
 
 The following sections provide summaries of complex types of conditional logic.
@@ -44,5 +45,5 @@ If a condition column has an unsupported data type, you can still change the lab
 -   In an unsupported condition column, cells without values are inactive. Users must use decision rule view to enter a value.
 -   When a value is entered for an unsupported condition column, the resulting decision row will be an unsupported decision.
 
-**Parent Topic:**[Using decision tables](using-decision-builder.md)
+**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/using-decision-builder.md)
 

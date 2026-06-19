@@ -1,19 +1,20 @@
 ---
-title: Define metric rule name and status
-description: Define metric rule attributes, including the name and state, such as active or inactive.
+title: Define alert rule name and status
+description: Define alert rule attributes, including the name and state, such as active or inactive.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/define-alert-name-state.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create metric rules, Metrics collection and metric rules, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Creating a metric rule, Alert rules, Configure, Digital End-User Experience, IT Service Management]
 ---
 
-# Define metric rule name and status
+# Define alert rule name and status
 
-Define metric rule attributes, including the name and state, such as active or inactive.
+Define alert rule attributes, including the name and state, such as active or inactive.
 
 ## Before you begin
 
@@ -23,12 +24,14 @@ Role required: sn\_dex.admin
 
 1.  In the **Name** field, enter a name for the rule.
 
-    The metric rule is active by default.
+    The alert rule is active by default.
 
-2.  For setting the status of the metric rule, use the **Active** slider \(![Use the toggle switch to activate the metric rule.](../image/icon-toggle-button-enabled.png)\) to enable or disable the rule.
+2.  For setting the status of the alert rule, use the **Active** slider \(\[Omitted image "icon-toggle-button-enabled.png"\] Alt text: Use the toggle switch to activate the alert rule.\) to enable or disable the rule.
 
 3.  Select **Finish**.
 
-    A metric rule is created and displayed in the Metric rules page.
+    An alert rule is created and displayed in the Alert rules page.
 
+
+**Parent Topic:**[Creating an event rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/creating-an-event-rule.md)
 

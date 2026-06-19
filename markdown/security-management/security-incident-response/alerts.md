@@ -2,6 +2,7 @@
 title: Single-record Splunk alerts
 description: Within any alert, you can specify security events or security incidents to be created when the alert is fired.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/alerts.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

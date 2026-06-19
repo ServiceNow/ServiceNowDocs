@@ -2,6 +2,7 @@
 title: Reflow for playbook components
 description: Apply reflow to out-of-the-box standalone and custom layout Playbook Experience components so that the UI adjusts when you resize your window or zoom.Apply reflow to out-of-the-box standalone and custom layout Playbook Experience components so that the UI adjusts when you resize your window o r zoom.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/reflow-for-playbook-components.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -19,11 +20,11 @@ Reflow, is a configurable workspace feature that enables pages and content to be
 
 
 
-If you want Reflow to work for your Playbook Experience components, see [Apply Reflow to playbook components](reflow-for-playbook-components.md#).
+If you want Reflow to work for your Playbook Experience components, see [Apply Reflow to playbook components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/reflow-for-playbook-components.md).
 
 For more information about Reflow, see .
 
-**Parent Topic:**[Designing playbooks](../../workspace/concept/playbook-experience-admins.md)
+**Parent Topic:**[Designing playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-experience-admins.md)
 
 ## Apply Reflow to playbook components
 

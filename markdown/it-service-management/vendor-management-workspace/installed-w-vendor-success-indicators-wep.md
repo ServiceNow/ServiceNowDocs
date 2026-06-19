@@ -2,6 +2,7 @@
 title: Installed with Vendor Success Indicators in Vendor Management Workspace
 description: Using the Vendor Success Indicators application, you can compare the performance of your vendors against other top-performing vendors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/vendor-management-workspace/installed-w-vendor-success-indicators-wep.html
 release: zurich
 product: Vendor Management Workspace
 classification: vendor-management-workspace
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Vendor Management Workspace, IT Service Management]
 
 Using the Vendor Success Indicators application, you can compare the performance of your vendors against other top-performing vendors.
 
-**Important:** You must install the Success Indicators \(com.snc.vendor.insights\) plugin separately from the ServiceNow Store. For more information, see [Activate Vendor Management Workspace](../task/activate-vendor-management-configurable-workspace.md).
+**Important:** You must install the Success Indicators \(com.snc.vendor.insights\) plugin separately from the ServiceNow Store. For more information, see [Activate Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/activate-vendor-management-configurable-workspace.md).
 
 |Name|Description|
 |----|-----------|
@@ -108,5 +109,5 @@ The threshold for the critical value for the chi-square test. Default value is 5
 |Vendor State|Company \[core\_company\]|false|
 |Vendor Type|Company \[core\_company\]|false|
 
-**Parent Topic:**[Vendor Management Workspace reference](vendor-manager-workspace-reference.md)
+**Parent Topic:**[Vendor Management Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/vendor-manager-workspace-reference.md)
 

@@ -2,6 +2,7 @@
 title: Update an installed Service Graph Connector in SGC Central
 description: Keep a Service Graph Connector up-to-date within SGC Central.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/sgcc-update-connectors.html
 release: zurich
 topic_type: task
 last_updated: "2026-02-27"
@@ -31,6 +32,6 @@ Role required: admin
 
     -   Select a connector to access the connector in Application Manager and then install any updates.
     -   Select **Install updates** to open Application Manager, and then view and install updates for a connector from the **Updates** tab.
-    For more information, see [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For more information, see .
 
 

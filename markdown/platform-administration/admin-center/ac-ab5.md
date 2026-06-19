@@ -2,6 +2,7 @@
 title: Ensure technology teams meet compliance and performance standards blueprint
 description: Select this adoption blueprint to ensure that your technology teams meet all of the required compliance standards for vendors, security, and performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/admin-center/ac-ab5.html
 release: zurich
 product: Admin Center
 classification: admin-center
@@ -43,7 +44,7 @@ Enhance the experience
 
 </td><td>
 
-[Certificate Inventory and Management](https://www.servicenow.com/docs/access?context=cert-inventory-mgmt&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -51,7 +52,7 @@ Certificate Inventory and Management discovers, takes inventory of, and proactiv
 
 </td><td>
 
-[Roles installed with Certificate Inventory and Management](https://www.servicenow.com/docs/access?context=cert-inventory-mgmt-user-roles&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US#section_i3j_qfd_mjb)
+Roles installed with Certificate Inventory and Management
 
 </td><td>
 
@@ -63,7 +64,7 @@ Add advanced features
 
 </td><td>
 
-[Cloud Provisioning and Governance](https://www.servicenow.com/docs/access?context=cloud-management-v2-landing-page&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -71,7 +72,7 @@ Use the Cloud Provisioning and Governance application to provide a single interf
 
 </td><td>
 
-Uses bases system roles. See [Base system roles](../../roles/reference/r_BaseSystemRoles.md).
+Uses bases system roles. See [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/r_BaseSystemRoles.md).
 
 </td><td>
 
@@ -83,7 +84,7 @@ Enhance the experience
 
 </td><td>
 
-[Firewall Audits and Reporting](https://www.servicenow.com/docs/access?context=firewall-audit-reporting&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -91,7 +92,7 @@ Firewall Audits and Reporting discovers and takes inventory of your firewall sec
 
 </td><td>
 
-[Roles installed with Firewall Audits and Reporting](https://www.servicenow.com/docs/access?context=firewall-audit-reporting-users-roles&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US#section_e1j_1f1_plb)
+Roles installed with Firewall Audits and Reporting
 
 </td><td>
 
@@ -103,7 +104,7 @@ Build a foundation
 
 </td><td>
 
-[Service Level Management](https://www.servicenow.com/docs/access?context=service-level-mgmt-landing-page&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -111,7 +112,7 @@ Service Level Management \(SLM\) helps to gather service requirements and monito
 
 </td><td>
 
-[Roles installed with Service Level Management](https://www.servicenow.com/docs/access?context=r_InstalledWithServiceLevelMgmt&version=zurich&pubname=zurich-it-service-management&section=roles-installed-with-SLA&ft:locale=en-US)
+
 
 </td><td>
 
@@ -124,7 +125,7 @@ Optimize the functionality
 
 </td><td>
 
-[Vendor Management Workspace](https://www.servicenow.com/docs/access?context=vendor-management-workspace-landing-page&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -139,5 +140,5 @@ pa\_data\_collector
 [Vendor Management Workspace overview \(video\)](https://www.youtube.com/watch?v=qecN5VLItiA&t=3s)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Select your adoption blueprint](../task/ac-select-business-objective.md)
+</table>**Parent Topic:**[Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-select-business-objective.md)
 

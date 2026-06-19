@@ -2,6 +2,7 @@
 title: Request the IBM License Compliance for Software Asset Management application for authorized Software Asset Management provider integrations
 description: Request the IBM License Compliance for Software Asset Management application from the ServiceNow Store so that you can integrate the Software Asset Management publisher pack for IBM with an authorized Software Asset Management provider. Use the integration to track and manage your IBM licenses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/request-ibm-license-compliance-sam-application.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -53,8 +54,8 @@ If your request is approved, you will receive an email with detailed instruction
 
 Install the application according to the instructions in the email.
 
--   **[License metrics added by the IBM License Compliance for Software Asset Management application](../reference/license-metrics-added-by-ibm-license-compliance-sam-application.md)**  
+-   **[License metrics added by the IBM License Compliance for Software Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/license-metrics-added-by-ibm-license-compliance-sam-application.md)**  
 The IBM License Compliance for Software Asset Management application adds license metrics that enable you to classify your IBM software products.
 
-**Parent Topic:**[Setting up an IBM Authorized SAM Provider \(IASP\) integration](../concept/setting-up-anglepoint-integration.md)
+**Parent Topic:**[Setting up an IBM Authorized SAM Provider \(IASP\) integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/setting-up-anglepoint-integration.md)
 

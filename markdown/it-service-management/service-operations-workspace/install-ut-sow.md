@@ -2,6 +2,7 @@
 title: Install Universal Task for Service Operations Workspace
 description: You can install the Universal Task application \(sn\_uni\_task\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/install-ut-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -30,7 +31,7 @@ The following items are installed with Universal Task:
 -   Store applications
 -   Roles
 
-For more information, see [Universal Task in Service Operations Workspace reference](../reference/components-installed-ut-sow.md).
+For more information, see [Universal Task in Service Operations Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/components-installed-ut-sow.md).
 
 ## Procedure
 
@@ -55,5 +56,5 @@ For more information, see [Universal Task in Service Operations Workspace refere
 6.  Select **Install**.
 
 
-**Parent Topic:**[Setting up integrations in Service Operations Workspace for ITSM](../concept/setting-up-sow-itsm.md)
+**Parent Topic:**[Setting up integrations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/setting-up-sow-itsm.md)
 

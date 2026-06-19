@@ -2,6 +2,7 @@
 title: IBM ILMT setup success guide
 description: This success guide provides information on the IBM License Metric Tool \(ILMT\) or IBM BigFix Inventory integration with the Software Asset Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/ilmt-sg.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -33,19 +34,19 @@ For IBM license compliance to work with this integration, you must complete the 
 -   Bundle IBM components into IBM products through ILMT or BigFix Inventory.
 -   Install ILMT version 9.2.7 or later.
 
-Complete the following steps for the [IBM License Metric Tool \(ILMT\) and BigFix Inventory integrations](ibm-ilmt-bigfix-inventory-integration.md) with the Software Asset Management application:
+Complete the following steps for the [IBM License Metric Tool \(ILMT\) and BigFix Inventory integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/ibm-ilmt-bigfix-inventory-integration.md) with the Software Asset Management application:
 
-1.  [Create a connection to ILMT or BigFix Inventory](../task/set-up-ibm-platform.md)
-2.  [Validate your ILMT connection health](../task/validate-ilmt-connection-health.md)
+1.  [Create a connection to ILMT or BigFix Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/set-up-ibm-platform.md)
+2.  [Validate your ILMT connection health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/validate-ilmt-connection-health.md)
 
 ## Alternative to ILMT or BigFix Inventory
 
-You can track and manage IBM licenses in both VMware vSphere environments and IBM LPAR infrastructures by integrating the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Client Value Acceleration \(CVA\) Program. With these integrations, you can track and manage IBM licensing directly without having to integrate with the IBM License Metric Tool \(ILMT\) or BigFix Inventory. For more information, see [Authorized SAM Provider \(ASP\) integrations for IBM](ibm-asp-integration.md).
+You can track and manage IBM licenses in both VMware vSphere environments and IBM LPAR infrastructures by integrating the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Client Value Acceleration \(CVA\) Program. With these integrations, you can track and manage IBM licensing directly without having to integrate with the IBM License Metric Tool \(ILMT\) or BigFix Inventory. For more information, see [Authorized SAM Provider \(ASP\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/ibm-asp-integration.md).
 
 ## Additional resources
 
 -   IBM license management by the Software Asset Management application
-    -   [Software Asset Management publisher pack for IBM](ibm-publisher-pack.md)
-    -   [Supported IBM license types](supported-ibm-license-types.md)
+    -   [Software Asset Management publisher pack for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/ibm-publisher-pack.md)
+    -   [Supported IBM license types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/supported-ibm-license-types.md)
 -   [Fix invalid computer serial numbers](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0691430)
 

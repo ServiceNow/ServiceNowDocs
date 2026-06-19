@@ -2,6 +2,7 @@
 title: Installing and configuring Employee Goals
 description: Install the Employee Goals application to import the goal management data stored on your human capital management \(HCM\) system to the ServiceNow AI Platform. When configuration options are available, administrators can configure components of the application to meet the specifications of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-goals/egd-goals-install-config.html
 release: zurich
 product: Employee Goals
 classification: employee-goals

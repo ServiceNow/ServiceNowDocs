@@ -2,11 +2,12 @@
 title: Localization Framework Hub and Spoke architecture
 description: Enable one central instance to fulfill translation requests submitted from other instances using the Localization Framework Hub and Spoke architecture. Install optional Localization Framework plugins to configure one of your instances as a hub and other instances as spokes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/localization-framework/localization-framework-hub-spoke-architecture.html
 release: zurich
 product: Localization Framework
 classification: localization-framework
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-06-10"
 reading_time_minutes: 2
 breadcrumb: [Configure the Localization Framework, Localization Framework, Translation and localization, Configure core features, Administer]
 ---
@@ -15,7 +16,7 @@ breadcrumb: [Configure the Localization Framework, Localization Framework, Trans
 
 Enable one central instance to fulfill translation requests submitted from other instances using the Localization Framework Hub and Spoke architecture. Install optional Localization Framework plugins to configure one of your instances as a hub and other instances as spokes.
 
-By default, translations are requested and fulfilled on the same instance. However, in the Zurich release, there is an available hub-spoke model for translation requests and fulfillment. With this architecture, translation requests are a two-step process:
+By default, translations are requested and fulfilled on the same instance. Alternatively, there is an available hub-spoke model for translation requests and fulfillment. With this architecture translation requests are a two-step process:
 
 1.  The spoke instance submits a translation request to the hub instance.
 2.  The hub instance manages the fulfillment of the request, such as by sending the content to a translation management system \(TMS\). The hub returns the translated contents to the spoke instance.
@@ -27,7 +28,7 @@ To set up this architecture, use the admin role to install the following plugins
 -   Localization Framework Hub \[com.sn.localization\_framework.hub\]. Install this plugin on the instance you designate as a hub.
 -   Localization Framework Spoke \[com.sn.localization\_framework.spoke\]. Install this plugin on the instances you designate as spokes.
 
-For more information on installation, see [Activate Localization Framework](../task/activate-lf-plugin.md).
+For more information on installation, see [Activate Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/activate-lf-plugin.md).
 
 When both plugins are installed, use the admin or localization\_admin role to configure the connection between hub and spoke instances. On the hub instance:
 
@@ -49,7 +50,7 @@ On a spoke instance:
 3.  Navigate to the **Connection &amp; Credential Aliases** table. Find and open the record named **Localization Framework Hub TMS**.
 4.  Add the connection to the hub in the **Connections** tab. You can enter the URL to your hub in the **Connection URL** field. Set authentication and other attributes appropriate to your environment.
 
-From the perspective of the spoke instance, the hub acts as a TMS.
+From the perspective of the spoke instance, the hub acts as a TMS. The application scope for the Hub and Spoke architecture is Localization Framework Hub.
 
-**Parent Topic:**[Configure the Localization Framework](configuring-localization-framework.md)
+**Parent Topic:**[Configure the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/configuring-localization-framework.md)
 

@@ -2,6 +2,7 @@
 title: Viewing and updating Governance, Risk, and Compliance exceptions
 description: Report exceptions as it is critical for businesses to quickly identify and address key business process issues before they become a problem. Using exceptions to manage errors has advantages over traditional error-management techniques.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/viewing-and-updating-grc-exceptions.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -135,5 +136,5 @@ Displays the stream of activities on the exception.
 5.  Click **Delete** to delete the record.
 
 
-**Parent Topic:**[Common Governance, Risk, and Compliance features](../../grc-common/concept/common-grc-features.md)
+**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

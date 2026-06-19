@@ -2,7 +2,10 @@
 title: Configure anonymous chat properties
 description: Users with the system administrator role can set properties to limit the number of chat requests created by guest users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/set-anonymous-chat-properties.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -23,7 +26,7 @@ Role required: admin
 
 2.  Set the following properties.
 
-<table id="choicetable_ggp_x2b_fx"><tbody><tr><td id="d272472e96">
+<table id="choicetable_ggp_x2b_fx"><tbody><tr><td id="d269489e96">
 
 **Limit maximum number of guest conversations created in the last hour. \(__connect.support.max\_guest\_sessions\_per\_hour__\)**
 
@@ -31,7 +34,7 @@ Role required: admin
 
 Limits the number of guest chat requests that can be created in a one-hour time frame. The default value is 200.
 
-</td></tr><tr><td id="d272472e108">
+</td></tr><tr><td id="d269489e108">
 
 **Message shown to user when rate limit for guest conversations is breached. \(__connect.support.guest\_sessions\_rate\_limit\_reached\_message__\)**
 

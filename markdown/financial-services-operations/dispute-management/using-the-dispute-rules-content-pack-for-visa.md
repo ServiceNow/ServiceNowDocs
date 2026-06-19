@@ -2,6 +2,7 @@
 title: Using the Dispute Rules Content Pack for Visa
 description: Dispute agents use the Dispute Rules Content Pack for Visa's questionnaire to help customers in completing the reason code mapping. This enables the categorization of the dispute and determines eligibility according to the Visa Core Rules. Learn how agents initiate, investigate, and resolve dispute cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/using-the-dispute-rules-content-pack-for-visa.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -26,5 +27,5 @@ When an agent disputes a transaction on behalf of a customer, a dispute service 
 3.  Submit the case for investigation by updating the dispute amount and determine your eligibility for a chargeback through the questionnaire and reason code mapping.
 
 
-For more information, see [Initiate a dispute](../../fso-card-operations/task/create-case-with-intake-workspace.md#).
+For more information, see [Initiate a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/create-case-with-intake-workspace.md).
 

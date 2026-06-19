@@ -2,6 +2,7 @@
 title: Add customized variables in a document template
 description: Customize variables at a record producer level, and call out those variables in the HTML document template that you are configuring.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/add-variables-html.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

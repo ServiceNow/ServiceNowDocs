@@ -2,6 +2,7 @@
 title: Utility workflow activities
 description: Utility activities provide controls over the path of the workflow, and other useful tools.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/workflow-activities/c\_UtilityActivities.html
 release: zurich
 product: Workflow Activities
 classification: workflow-activities

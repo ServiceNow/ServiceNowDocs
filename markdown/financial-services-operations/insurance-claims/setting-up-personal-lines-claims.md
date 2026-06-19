@@ -2,6 +2,7 @@
 title: Setting up Personal Lines Claims
 description: Install and configure Personal Lines Claims so that your first-notice-of-loss \(FNOL\) representatives, processors, adjusters, and others can begin servicing your personal insurance claims.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/setting-up-personal-lines-claims.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims

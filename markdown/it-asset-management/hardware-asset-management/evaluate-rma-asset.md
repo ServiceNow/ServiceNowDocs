@@ -2,6 +2,7 @@
 title: Evaluate the RMA asset
 description: Evaluate the Return Merchandise Authorization \(RMA\) asset on the scheduled date at the customer location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/evaluate-rma-asset.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -118,7 +119,7 @@ Asset
 
 </td><td>
 
-The asset that is selected while creating an RMA response order line.For more information, see [Create an RMA response order line](create-rma-response-order-line.md).
+The asset that is selected while creating an RMA response order line.For more information, see [Create an RMA response order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-rma-response-order-line.md).
 
 </td></tr><tr><td>
 
@@ -157,5 +158,5 @@ Notes about the task that are visible to all users within your organization.
 
 ## What to do next
 
-[Repair the RMA asset](repair-asset-daas.md) or [Ship the asset to the DaaS provider](ship-rma-asset.md)
+[Repair the RMA asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/repair-asset-daas.md) or [Ship the asset to the DaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/ship-rma-asset.md)
 

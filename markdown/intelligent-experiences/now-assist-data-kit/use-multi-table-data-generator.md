@@ -2,6 +2,7 @@
 title: Use multi-table data generator
 description: The multi-table data generator enables you to create synthetic test data across multiple related ServiceNow tables in a single run. It automatically maintains referential integrity between tables and generates semantically consistent data based on scenarios you define.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-data-kit/use-multi-table-data-generator.html
 release: zurich
 product: Now Assist Data Kit
 classification: now-assist-data-kit
@@ -37,7 +38,7 @@ Role required: sn\_data\_kit.admin
 
 6.  Select the tables and columns.
 
-    ![Select table screen for using the multi-table data generator.](../image/nadk-select-tables.png)
+    \[Omitted image "nadk-select-tables.png"\] Alt text: Select table screen for using the multi-table data generator.
 
 7.  Select **next**.
 
@@ -58,7 +59,7 @@ Role required: sn\_data\_kit.admin
 
     Scenarios guide the content of the generated data. The system generates records that are semantically consistent with the scenario you describe across all related tables.
 
-    ![The scenarios screen for the multi-table data generator.](../image/nadk-scenarios.png)
+    \[Omitted image "nadk-scenarios.png"\] Alt text: The scenarios screen for the multi-table data generator.
 
 11. Select **next**.
 

@@ -2,6 +2,7 @@
 title: Jumpstart Your Strategic Portfolio Management - Project Workspace
 description: This accelerator provides a demonstration of the possibilities and capabilities of Project Workspaces within Strategic Portfolio Management \(SPM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/jumpstart-your-SPM-project-workspace.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

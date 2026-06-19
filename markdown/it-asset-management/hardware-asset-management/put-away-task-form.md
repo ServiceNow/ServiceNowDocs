@@ -2,6 +2,7 @@
 title: Asset put away task fields
 description: Fields on the Asset put away task form help you create a put away task for the in stock assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/put-away-task-form.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -28,5 +29,5 @@ Fields on the Asset put away task form help you create a put away task for the i
 |Due date|Date by which the Asset put away task should be closed.|
 |Notes|Notes about the task. The **Short description** and **Description** field values are automatically populated.|
 
-**Parent Topic:**[Hardware Asset Management reference](../concept/reference-hardware-asset-management.md)
+**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
 

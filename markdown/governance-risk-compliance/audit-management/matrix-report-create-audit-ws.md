@@ -2,6 +2,7 @@
 title: Create matrix report configuration for Audit Workspace
 description: Create the matrix report configuration giving a name to the report, determining its display type either as a landing page or as a record page, and setting filter conditions on the base table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/matrix-report-create-audit-ws.html
 release: zurich
 product: Audit Management
 classification: audit-management
@@ -27,12 +28,12 @@ Role required: sn\_matrix\_report.admin
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Matrix report configuration form](../reference/mat-report-config-form-audit-ws.md).
+    For a description of the field values, see [Matrix report configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/mat-report-config-form-audit-ws.md).
 
 4.  Select **Submit**.
 
 
 ## What to do next
 
-This configuration helps the Audit Workspace user to see the matrix report in the Audit Workspace. As an admin you have completed all the steps of matrix report configurations. Now, as a user you can [View matrix report in landing page and record page of Audit Workspace](matrix-report-view-audit-ws.md).
+This configuration helps the Audit Workspace user to see the matrix report in the Audit Workspace. As an admin you have completed all the steps of matrix report configurations. Now, as a user you can [View matrix report in landing page and record page of Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/matrix-report-view-audit-ws.md).
 

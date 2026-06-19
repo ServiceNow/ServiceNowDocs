@@ -2,6 +2,7 @@
 title: Log analytics alert grouping
 description: ServiceNow Health Log Analytics identifies patterns in log data and learns pattern behavior. When its artificial intelligence engine detects anomalous behavior, it sends an event to the ServiceNow Event Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/log-analytics-alert-grouping.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -15,5 +16,5 @@ breadcrumb: [Alert grouping types and creation methods, Alert grouping, Configur
 
 ServiceNow Health Log Analytics identifies patterns in log data and learns pattern behavior. When its artificial intelligence engine detects anomalous behavior, it sends an event to the ServiceNow Event Management application.
 
-Log analytics alert groups are created by the Health Log Analytics application. For more information, see [Types of Health Log Analytics alerts](../../health-log-analytics-operator/reference/hla-op-log-analytics-alert-types.md).
+Log analytics alert groups are created by the Health Log Analytics application. For more information, see [Types of Health Log Analytics alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-log-analytics-alert-types.md).
 

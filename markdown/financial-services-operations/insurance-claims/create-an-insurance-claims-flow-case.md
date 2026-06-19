@@ -2,6 +2,7 @@
 title: Initiate an Insurance claims case
 description: Initiate an Insurance claims case on behalf of a claimant by using the Insurance claims application. When a customer calls in to report a claim, a claim intake specialist follows this procedure to capture important details and initiate a case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/create-an-insurance-claims-flow-case.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims
@@ -45,15 +46,15 @@ This procedure references service definitions and products that are used in the 
 
 10. In the Add claim participant form, enter the details of the participant, and then select **Save**.
 
-<table id="choicetable_x5k_v1y_tcc"><thead><tr><th align="left" id="d36840e177">
+<table id="choicetable_x5k_v1y_tcc"><thead><tr><th align="left" id="d39387e177">
 
 Reporter status
 
-</th><th align="left" id="d36840e180">
+</th><th align="left" id="d39387e180">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d36840e186">
+</th></tr></thead><tbody><tr><td id="d39387e186">
 
 **Is a policy participant**
 
@@ -65,7 +66,7 @@ Steps
 -   Enter how the participant is related to the insured in the **Relationship to insured** field.
 
 
-</td></tr><tr><td id="d36840e225">
+</td></tr><tr><td id="d39387e225">
 
 **Is not a policy participant**
 
@@ -78,7 +79,7 @@ Steps
 </td></tr></tbody>
 </table>11. Confirm that all claim participants are added, and then select **Continue**.
 
-12. In the Incident details activity, add an incident that is related to the claim by selecting the add \(![](../../../reuse/icons/product-icons/plus-fill-24.svg)\) icon.
+12. In the Incident details activity, add an incident that is related to the claim by selecting the add \(\[Omitted image "plus-fill-24.svg"\]\) icon.
 
 13. For each incident, fill in the incident form with the details of the incident.
 
@@ -101,5 +102,5 @@ A claim case is created in the New state and the workflow is triggered. The case
 
 ## What to do next
 
-Processors and adjusters assign cases to themselves and start working on them. For more information, see [Process an Insurance claims case](process-an-insurance-claims-flow-case.md) and [Work on Insurance claims adjuster tasks](manage-an-insurance-claims-flow-case.md).
+Processors and adjusters assign cases to themselves and start working on them. For more information, see [Process an Insurance claims case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/process-an-insurance-claims-flow-case.md) and [Work on Insurance claims adjuster tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/manage-an-insurance-claims-flow-case.md).
 

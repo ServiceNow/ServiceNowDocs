@@ -2,6 +2,7 @@
 title: Now Assist in Document Intelligence
 description: With ServiceNow Now Assist in Document Intelligence, you can use generative AI to get key information from digital documents into your automation workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.html
 release: zurich
 product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
@@ -22,19 +23,19 @@ Video that shows you how you can use Now Assist in Document Intelligence to get 
 
 <table id="table_ekk_gb3_xcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about the generative AI skills that are available in Now Assist in Document Intelligence](docintel-exploring-now-assist.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about the generative AI skills that are available in Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-in-document-intelligence/docintel-exploring-now-assist.md)
 
 </td><td>
 
-[Configure ![](../image/icon-configure-docintel.png) Activate Now Assist in Document Intelligence and configure the generative AI skills](docintel-configuring-now-assist.md)
+[Configure \[Omitted image "icon-configure-docintel.png"\] Alt text: Activate Now Assist in Document Intelligence and configure the generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-in-document-intelligence/docintel-configuring-now-assist.md)
 
 </td></tr><tr><td>
 
-[Use ![](../image/icon-use-docintel.png) Use the generative AI capabilities that are offered by Now Assist in Document Intelligence](docintel-using-now-assist.md)
+[Use \[Omitted image "icon-use-docintel.png"\] Alt text: Use the generative AI capabilities that are offered by Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-in-document-intelligence/docintel-using-now-assist.md)
 
 </td><td>
 
-[Reference ![](../image/icon-docintel-references.png) Get details about forms, tables, and more](../reference/now-assist-in-document-intelligence-reference.md)
+[Reference \[Omitted image "icon-docintel-references.png"\] Alt text: Get details about forms, tables, and more](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-in-document-intelligence/now-assist-in-document-intelligence-reference.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -46,7 +47,7 @@ Video that shows you how you can use Now Assist in Document Intelligence to get 
 
 ## Troubleshoot and get help
 
--   [Additional resources for AI products and solutions](../../general/reference/ai-additional-resources.md).
+-   [Additional resources for AI products and solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/ai-additional-resources.md).
 -   [ServiceNow Community on AI and Intelligence](https://www.servicenow.com/community/ai-intelligence/ct-p/ai-intelligence).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
 -   Search the [Known Error Portal](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477) for known error articles.
@@ -66,7 +67,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information extracted from documents. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](../../now-assist-admin/task/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information extracted from documents. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](../../now-assist-platform/concept/platform-now-assist-landing.md).
+For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/platform-now-assist-landing.md).
 

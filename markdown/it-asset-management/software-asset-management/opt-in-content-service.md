@@ -2,6 +2,7 @@
 title: Opt in to Content Service
 description: Opt in to Content Service for Software Spend Transactions to get more accurate predictions in Software Spend Detection by sharing financial transaction data with the ServiceNow Content Service team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/opt-in-content-service.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -37,7 +38,7 @@ If you opt in after you've already imported data into Software Spend Detection, 
 
     **Note:** If you already opted in to Content Service through Software Asset Management, you don't see the opt-in screen.
 
-    Data sharing for Software Discovery Models, Software Model Lifecycles, Part Numbers and Discovery Maps, and Processor Names KPIs is automatically enabled after opting in. If you don't want to share data for some KPIs, individually disable sharing by selecting the toggle button next to the KPI and then selecting **Save**. For more information about Content Service KPIs, see [Software Asset Management Content Service](../concept/c_SAMContentService.md).
+    Data sharing for Software Discovery Models, Software Model Lifecycles, Part Numbers and Discovery Maps, and Processor Names KPIs is automatically enabled after opting in. If you don't want to share data for some KPIs, individually disable sharing by selecting the toggle button next to the KPI and then selecting **Save**. For more information about Content Service KPIs, see [Software Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_SAMContentService.md).
 
 3.  To turn on sharing for software spend transaction data, select the toggle button next to Software Spend Transactions and then select **Save**.
 
@@ -46,8 +47,8 @@ If you opt in after you've already imported data into Software Spend Detection, 
 
 You can return to the Content Service Setup page to adjust your data sharing settings for each KPI. You can completely opt out by selecting **I would like to opt my company out of the Software Asset Management Content Service Program**. After opting out, you can opt back in at any time.
 
--   **[Content Service for Software Spend Detection](../concept/content-service-spend-detection.md)**  
+-   **[Content Service for Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/content-service-spend-detection.md)**  
 Opt in to Software Asset Management Content Service for Software Spend Transactions to get more accurate predictions in Software Spend Detection by sharing financial transaction data with the ServiceNow Content Service team.
 
-**Parent Topic:**[Software Spend Detection](../concept/software-spend-detection.md)
+**Parent Topic:**[Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-spend-detection.md)
 

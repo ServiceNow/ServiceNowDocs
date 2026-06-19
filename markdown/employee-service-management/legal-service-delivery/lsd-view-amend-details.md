@@ -2,6 +2,7 @@
 title: View amendment details
 description: View the amendment details in the contract repository record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/lsd-view-amend-details.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -35,7 +36,7 @@ You can view the certificate of completion from the Attachment pane.
 
 1.  Navigate to **All** &gt; **Legal Counsel Center**.
 
-2.  Select the List icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  View all contract repository records by navigating to **Legal contracts** &gt; **All Contracts**.
 
@@ -58,8 +59,8 @@ You can view the certificate of completion from the Attachment pane.
 
 9.  To view certificate of completion for the contract and amendment request, navigate to **Attachments** pane.
 
-    The certification of completion is available for electronic signature workflow only. For more information, see [Activate a system property to generate a certificate of completion](../../contract-mgmt-pro/task/cncore-config-system-prop-COC.md)
+    The certification of completion is available for electronic signature workflow only. For more information, see [Activate a system property to generate a certificate of completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-config-system-prop-COC.md)
 
 
-**Parent Topic:**[Contract amendments](../concept/snlc-amend-req-landing.md)
+**Parent Topic:**[Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-amend-req-landing.md)
 

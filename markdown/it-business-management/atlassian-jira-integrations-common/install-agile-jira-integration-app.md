@@ -2,6 +2,7 @@
 title: Install Atlassian Jira Integration for Agile Development
 description: Install the Atlassian Jira Integration for Agile Development \(sn\_agile\_jira\_int\) application v2.0.1 from ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/atlassian-jira-integrations-common/install-agile-jira-integration-app.html
 release: zurich
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
@@ -66,5 +67,5 @@ The following components are installed with installation of the application:
 -   Scheduled Jobs
 -   Tables
 
-For more information, see [Components installed with Atlassian Jira integration for Agile Development](components-installed-with-atlassian-jira-integration-for-agile-development.md).
+For more information, see [Components installed with Atlassian Jira integration for Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/components-installed-with-atlassian-jira-integration-for-agile-development.md).
 

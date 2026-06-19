@@ -2,6 +2,7 @@
 title: Backing up CMDB data
 description: The cmdb\_backup\_storage\_information table \(part of the \[app-cmdb-content\] ServiceNow Store application\) holds generic backup storage information for a CI as a platform related item. The table includes a CI as a reference attribute and stores information for hardware, cloud, containers, and other CI types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-backup-storage-info-table.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -21,7 +22,7 @@ The table captures backup policy, last successful backup, last backup attempt, e
 
 To mitigate the risk of uncontrolled growth of the table, a cascade-delete rule applies to the Backup Source \(CI\) reference field. When a CI is deleted, the corresponding rows in the table are deleted.
 
-![Diagram of the references that the cmdb_backup_storage_information table makes to the technical service and backup source tables.](../image/cmdb-backup-storage-info-table.png)
+\[Omitted image "cmdb-backup-storage-info-table.png"\] Alt text: Diagram of the references that the cmdb\_backup\_storage\_information table makes to the technical service and backup source tables.
 
 ## Tables related to backup operations
 

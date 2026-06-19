@@ -2,6 +2,7 @@
 title: Use the script editor to format correlation event values
 description: In addition to the directly mapped fields from the ingested correlation event values, use the script editor to format field values on the security incident during the mapping step.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/arcsight-esm-create-profile-script.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

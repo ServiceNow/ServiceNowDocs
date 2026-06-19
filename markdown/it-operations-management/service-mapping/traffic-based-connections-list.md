@@ -2,6 +2,7 @@
 title: Traffic-based connections list
 description: Refer to this chart for information about traffic-based connections when you remove CIs from an application service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/traffic-based-connections-list.html
 release: zurich
 product: Service Mapping
 classification: service-mapping
@@ -73,5 +74,5 @@ User decision
 \(Optional\) The setting overrides the System decision setting, which defines if Service Mapping keeps the discovered traffic-based connection or removes it. For example, if the System decision setting for a connection is Keep, and you want to remove this connection, select `Remove`.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Mapping reference](service-mapping-reference.md)
+</table>**Parent Topic:**[Service Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-reference.md)
 

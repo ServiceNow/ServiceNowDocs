@@ -2,6 +2,7 @@
 title: Operational Technology Network Map
 description: The Operational Technology \(OT\) Network Map is an interactive map that visualizes your OT network through connected nodes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-workspace/utilizing-ot-network-map.html
 release: zurich
 product: Industrial Workspace
 classification: industrial-workspace
@@ -23,7 +24,7 @@ With this visibility, you can analyze the impact of network changes, identify co
 
 You can access the OT Network Map by navigating to Equipment Model Manager in the Industrial Workspace and selecting a site.
 
-The following image is an example of the network map in its default state.![OT Network Map filtered by subnet](../image/ot-network-map.png)
+The following image is an example of the network map in its default state.\[Omitted image "ot-network-map.png"\] Alt text: OT Network Map filtered by subnet
 
 ## Node map representation
 
@@ -46,15 +47,15 @@ When you hover over the device node, you can view the following information for 
 -   Device type
 -   Criticality status
 
-The device node also contains an option to view its device-to-device connections. For more information about device-to-device connections, see [OT device related items and related lists](../../mftg-manufacturing-oper-tech-mgr/reference/ot-assets-related-links-and-lists.md) and [View and edit device to device connections](../../mftg-manufacturing-oper-tech-mgr/task/view-device-to-device-connections.md).
+The device node also contains an option to view its device-to-device connections. For more information about device-to-device connections, see [OT device related items and related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/ot-assets-related-links-and-lists.md) and [View and edit device to device connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/view-device-to-device-connections.md).
 
 **Map refresh**
 
-When the **OT Network Map Cache Handler** scheduled job runs and the **Refreshed at** field in the map is updated with the new refresh time. For more information about the scheduled job, see [Run the OT Network Map Cache Handler scheduled job](../task/run-ot-network-map-cache-handler-scheduled-job.md).
+When the **OT Network Map Cache Handler** scheduled job runs and the **Refreshed at** field in the map is updated with the new refresh time. For more information about the scheduled job, see [Run the OT Network Map Cache Handler scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/run-ot-network-map-cache-handler-scheduled-job.md).
 
 ## Populating the map
 
-To populate the OT Network Map, you must run the **OT Network Map Cache Handler** scheduled job. For more information about the scheduled job, see [Run the OT Network Map Cache Handler scheduled job](../task/run-ot-network-map-cache-handler-scheduled-job.md).
+To populate the OT Network Map, you must run the **OT Network Map Cache Handler** scheduled job. For more information about the scheduled job, see [Run the OT Network Map Cache Handler scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/run-ot-network-map-cache-handler-scheduled-job.md).
 
 The data must be available in the following tables for the network map to load properly.
 
@@ -63,7 +64,7 @@ The data must be available in the following tables for the network map to load p
 
 ## Map legend
 
-The OT Network Map contains a legend that describes the visual components of the map and their meaning. The legend covers the relationship lines between nodes, the different nodes you may see in your network, and the device node criticality. The following image shows the map legend made available by selecting the **Legend** ![](../image/legend-icon.png) icon from node map control panel in the top-right corner.![Legend in the OT Network Map](../image/network-map-legend.png)
+The OT Network Map contains a legend that describes the visual components of the map and their meaning. The legend covers the relationship lines between nodes, the different nodes you may see in your network, and the device node criticality. The following image shows the map legend made available by selecting the **Legend** \[Omitted image "legend-icon.png"\] Alt text: icon from node map control panel in the top-right corner.\[Omitted image "network-map-legend.png"\] Alt text: Legend in the OT Network Map
 
 ## Map filters
 
@@ -91,10 +92,10 @@ The following list contains the limitations of the network map.
 
 ## What to do next
 
--   [Setting up the OT Network Map](setting-up-ot-network-map.md)
-    -   [Run the OT Network Map Cache Handler scheduled job](../task/run-ot-network-map-cache-handler-scheduled-job.md)
-    -   [Set the system property for the OT Network Map](../task/set-the-system-property-ot-network-map.md)
--   [View and edit the OT Network Map](../task/view-edit-ot-network-map.md)
+-   [Setting up the OT Network Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/setting-up-ot-network-map.md)
+    -   [Run the OT Network Map Cache Handler scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/run-ot-network-map-cache-handler-scheduled-job.md)
+    -   [Set the system property for the OT Network Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/set-the-system-property-ot-network-map.md)
+-   [View and edit the OT Network Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/view-edit-ot-network-map.md)
 
-**Parent Topic:**[Exploring the Industrial Workspace](../../operational-technology-management/concept/exploring-industrial-workspace.md)
+**Parent Topic:**[Exploring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/exploring-industrial-workspace.md)
 

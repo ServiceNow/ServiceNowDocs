@@ -2,6 +2,7 @@
 title: Resume a lifecycle event case
 description: Resume a lifecycle event case after a workflow error or workflow timeout.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/lifecycle-events/resume-hr-lifecycle-event-case.html
 release: zurich
 product: Lifecycle Events
 classification: lifecycle-events

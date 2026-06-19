@@ -2,6 +2,7 @@
 title: Add more actions to the custom spoke
 description: Add more reusable actions to your custom spoke to automate an integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/actions-cust-spk.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -29,10 +30,10 @@ Role required: admin or action\_designer with delegated access to the specific a
 
 4.  On the spoke details page, click **New action**.
 
-    -   To create actions by importing the OpenAPI Specification, click **From OpenAPI Specification**. For information about selecting the required operations and creating actions, see [Create spoke and build actions by importing an OpenAPI Specification](create-spoke-fd.md).
-    -   To create actions manually, click **Manually**. The Action Properties screen is displayed. You should create and publish the action in the Action Designer. For more information, see [Building actions](../concept/actions.md).
+    -   To create actions by importing the OpenAPI Specification, click **From OpenAPI Specification**. For information about selecting the required operations and creating actions, see [Create spoke and build actions by importing an OpenAPI Specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-spoke-fd.md).
+    -   To create actions manually, click **Manually**. The Action Properties screen is displayed. You should create and publish the action in the Action Designer. For more information, see [Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/actions.md).
     You can use the published actions to create flows or subflows as per your requirement.
 
 
-**Parent Topic:**[Building spokes using Spoke Generator](../concept/spoke-builder.md)
+**Parent Topic:**[Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/spoke-builder.md)
 

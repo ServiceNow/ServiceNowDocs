@@ -2,6 +2,7 @@
 title: Link or customize a benchmark KPI
 description: You can customize KPI conditions to fit the needs of your organization better.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/benchmarks/t\_CustomBenchKPIConditions.html
 release: zurich
 product: Benchmarks
 classification: benchmarks
@@ -38,17 +39,17 @@ For further analysis, you can link a Performance Analytics indicator that you ar
 
 For example, link **Number of resolved incidents by first assigned group** to **Benchmark: Number of incidents resolved on first assignment** to view breakdown values by priority, assignment group, and category.
 
-**Note:** Individual scores are shown by default but you must have [Performance Analytics](https://www.servicenow.com/docs/access?context=pa-overview&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US) to use linking to show breakdowns.
+**Note:** Individual scores are shown by default but you must have Performance Analytics to use linking to show breakdowns.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Benchmarks** &gt; **Setup** and click a KPI to access the KPI conditions.
 
-    ![Number of high-priority incidents resolved](../image/BenchConditions.png)
+    \[Omitted image "BenchConditions.png"\] Alt text: Number of high-priority incidents resolved
 
 2.  Change the conditions, as appropriate.
 
-3.  To link a Performance Analytics indicator to a Benchmarks indicator, follow the procedure in [Link an automated indicator to a benchmark](https://www.servicenow.com/docs/access?context=link-automated-indicator-benchmark&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+3.  To link a Performance Analytics indicator to a Benchmarks indicator, follow the procedure in Link an automated indicator to a benchmark.
 
 <table id="table_aqj_hjl_tfb"><thead><tr><th>
 

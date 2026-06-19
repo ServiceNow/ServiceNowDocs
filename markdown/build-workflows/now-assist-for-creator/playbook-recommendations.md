@@ -2,6 +2,7 @@
 title: Exploring Playbook recommendations
 description: Get AI-generated recommendations for placeholder activities. The system generates recommendations based on an activity’s name and description.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/now-assist-for-creator/playbook-recommendations.html
 release: zurich
 product: Now Assist for Creator
 classification: now-assist-for-creator
@@ -29,11 +30,17 @@ Activating the Now Assist Recommendations skill helps to search through all avai
 
 Access the Now Assist Recommendations skill from the Playbooks user interface.
 
-![Five sample playbook recommendations for a placeholder activity](../images/playbook-recommendations.png "Example Now Assist recommendations")
+\[Omitted image "playbook-recommendations.png"\] Alt text: Five sample playbook recommendations for a placeholder activity
 
 The Now Assist Recommendations skill uses the name and description of the activity to generate one to five recommendations for the activity definition to use for a placeholder activity. If there are no recommendations listed, then no activity definitions are considered relevant to the activity name and description.
+
+The system can only recommend activity definitions, flows, subflows, and actions that are available from ServiceNow. Recommendations can’t include user-created activity definitions, flows, subflows, or actions.
 
 ## Generative AI model training
 
 This Generative AI large language model was pre-trained with internal ServiceNow playbooks to learn playbook creation patterns. The goal was to understand what playbook activities are most relevant for a certain position in a playbook given the trigger and previous activities.
+
+## Playbook preference
+
+By default, Workflow Studio shows Playbook recommendations as you configure placeholder activities in a playbook outline. You can hide these recommendations on playbook by playbook basis by turning off the Show recommendations playbook preference. See [User preferences for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-preferences.md) for more information.
 

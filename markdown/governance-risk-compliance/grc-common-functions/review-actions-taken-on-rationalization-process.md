@@ -2,6 +2,7 @@
 title: Review actions taken on rationalization process
 description: After acting on the recommendations, the owner sends it for review to the configured reviewers. The reviewers then analyze the actions taken and either approve or reject them, providing proper justification for their decisions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/review-actions-taken-on-rationalization-process.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -19,7 +20,7 @@ After acting on the recommendations, the owner sends it for review to the config
 
 Role required: sn\_reco\_template.rationalization\_process\_writer and sn\_grc\_shared\_genai.compliance\_gen\_ai\_user
 
-For more information on related roles, see [Roles installed with GRC: Policy and Compliance Management](../reference/r_InstallWPolAndCompl.md#).
+For more information on related roles, see [Roles installed with GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md).
 
 ## About this task
 
@@ -37,7 +38,7 @@ During the review process, the reviewer has several options to manage the action
 
 1.  Navigate to **Workspaces** &gt; **Compliance Workspace**.
 
-2.  Select ![](../../grc-compliance-case-mgmt/image/list-icon.png)\).
+2.  Select \[Omitted image "list-icon.png"\]\).
 
 3.  On the list, select the control objective under **Rationalization Process**.
 

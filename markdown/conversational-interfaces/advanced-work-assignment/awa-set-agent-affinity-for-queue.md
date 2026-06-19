@@ -2,6 +2,7 @@
 title: Set Agent Affinity rules
 description: Specify the Agent Affinity rules to determine the order in which work items in a queue are sorted.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/awa-set-agent-affinity-for-queue.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -66,5 +67,5 @@ Value of this rule relative to the other rules in the queue. Rules are ordered f
     You can specify a maximum of three Agent Affinity rules per queue.
 
 
-**Parent Topic:**[Configuring Advanced Work Assignment](installing-awa.md)
+**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

@@ -2,7 +2,10 @@
 title: Use Guided Setup to onboard users to the Impact Store Application
 description: Onboard new and existing users to the Impact Store Application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/onboard\_users\_impact\_store\_application.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-11-14"
 reading_time_minutes: 1
@@ -27,7 +30,7 @@ Role required: impact admin
 
     The Assign users to group assignment table contains a list of available Impact group roles to assign users to. You can also create a new group.
 
-    **Note:** For information on Impact groups and roles, see [Manage Impact users](ide-user-management.md).
+    **Note:** For information on Impact groups and roles, see [Manage Impact users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/ide-user-management.md).
 
 3.  In the Groups table, select a **\[Group name\]** to open the user assignment page for the selected group.
 
@@ -35,13 +38,13 @@ Role required: impact admin
 
 5.  Add users to the Group Members List and select **Save**.
 
-    ![The assign users to groups assignment page.](../image/guided-setup-assign-users.png)
+    \[Omitted image "guided-setup-assign-users.png"\] Alt text: The assign users to groups assignment page.
 
     You are returned to the selected Group page. The added members display as Group Members for the selected group.
 
 6.  Select the back arrow on the header of the Group page to return to the Assign users to group table.
 
-    ![The back arrow to return to the Groups selection list.](../image/guided-setup-group-selection-arrow.png)
+    \[Omitted image "guided-setup-group-selection-arrow.png"\] Alt text: The back arrow to return to the Groups selection list.
 
 7.  Repeat the user assignment steps for each relevant group.
 
@@ -52,11 +55,11 @@ Role required: impact admin
 
 ## What to do next
 
-[Assign users to Scan Engine groups](assign-users-scan-engine-groups.md)
+[Assign users to Scan Engine groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/assign-users-scan-engine-groups.md)
 
-**Parent Topic:**[Configure the Impact Store Application](../concept/configuring-impact-platform.md)
+**Parent Topic:**[Configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-impact-platform.md)
 
-**Previous topic:**[Use Guided Setup for Impact Store Application configuration](guided-setup-impact-in-app.md)
+**Previous topic:**[Use Guided Setup for Impact Store Application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/guided-setup-impact-in-app.md)
 
-**Next topic:**[Assign users to Scan Engine groups](assign-users-scan-engine-groups.md)
+**Next topic:**[Assign users to Scan Engine groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/assign-users-scan-engine-groups.md)
 

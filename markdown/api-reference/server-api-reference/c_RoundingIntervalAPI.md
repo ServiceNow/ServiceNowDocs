@@ -2,6 +2,7 @@
 title: RoundingInterval - Global
 description: The RoundingInterval script include provides methods that handle all the details of rounding intervals for CPU speed and RAM size.Creates an instance of the RoundingInterval class.Returns the value after applying the rounding interval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_RoundingIntervalAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The RoundingInterval script include provides methods that handle all the details
 
 Use in any server-side Discovery script.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## RoundingInterval - RoundingInterval\(String type\)
 

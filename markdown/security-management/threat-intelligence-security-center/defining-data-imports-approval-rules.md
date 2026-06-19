@@ -2,6 +2,7 @@
 title: Defining Data Imports Approval Rules
 description: Use this section to define the approval rules and integrate the approval flow within the Import Intelligence section after submitting the data import.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/defining-data-imports-approval-rules.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

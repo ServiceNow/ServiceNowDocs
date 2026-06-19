@@ -2,6 +2,7 @@
 title: Configure an activity definition
 description: Report on steps that occur within your business process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/configure-activity.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -19,7 +20,7 @@ Report on steps that occur within your business process.
 
 Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
 
--   [Create a project or template using Project Builder](define-workflow-model.md)
+-   [Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/define-workflow-model.md)
 
 **Note:** You can configure a maximum of 10 activity definitions for the parent table configuration and 5 activity definitions for any child table configuration. You cannot generate more than 5000 elements for any activity definition.
 
@@ -43,7 +44,7 @@ You can also group multiple activities to track changes made to each of the acti
 
 2.  On the form, fill in the fields.
 
-    For a description of the field values, see [Activity definition form](../reference/activity-def.md).
+    For a description of the field values, see [Activity definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/activity-def.md).
 
 3.  Select **Submit**.
 
@@ -52,5 +53,5 @@ You can also group multiple activities to track changes made to each of the acti
 
 Configure a breakdown or generate a project.
 
-**Parent Topic:**[Create a project using Classic view](create-proj.md)
+**Parent Topic:**[Create a project using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/create-proj.md)
 

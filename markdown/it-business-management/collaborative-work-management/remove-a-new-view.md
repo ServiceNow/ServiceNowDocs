@@ -2,6 +2,7 @@
 title: Delete a custom CWM Board view
 description: Delete the custom personal or shared views for your CWM Boards and keep your Board views current for your workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/collaborative-work-management/remove-a-new-view.html
 release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -27,11 +28,11 @@ Role required: sn\_cwm.cwm\_user
 
 3.  From the view switcher, select a view that you want to delete.
 
-    ![View switcher in CWM Board.](../images/cwm-views-switcher.png)
+    \[Omitted image "cwm-views-switcher.png"\] Alt text: View switcher in CWM Board.
 
-4.  From the More view options menu \(![More view options icon.](../images/cwm-icon-board-more-options.png)\), select **Delete view**.
+4.  From the More view options menu \(\[Omitted image "cwm-icon-board-more-options.png"\] Alt text: More view options icon.\), select **Delete view**.
 
-    ![Delete view option.](../images/cwm-views-delete-view.png)
+    \[Omitted image "cwm-views-delete-view.png"\] Alt text: Delete view option.
 
 5.  Select **Delete** to confirm.
 
@@ -40,5 +41,5 @@ Role required: sn\_cwm.cwm\_user
 
 The view is deleted and no longer available in the view switcher for this Board.
 
-**Parent Topic:**[Board views in CWM](../concept/board-views-in-cwm.md)
+**Parent Topic:**[Board views in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/board-views-in-cwm.md)
 

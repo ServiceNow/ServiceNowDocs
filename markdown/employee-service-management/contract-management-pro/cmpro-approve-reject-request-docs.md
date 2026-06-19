@@ -2,6 +2,7 @@
 title: Approve or reject a contract document
 description: Review a contract request or attachment and approve or reject it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cmpro-approve-reject-request-docs.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -25,15 +26,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 1.  Open the approval record from the email notification, Self-Service, or Employee Center portal.
 
-<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d195458e54">
+<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d86208e54">
 
 Options
 
-</th><th align="left" id="d195458e57">
+</th><th align="left" id="d86208e57">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d195458e63">
+</th></tr></thead><tbody><tr><td id="d86208e63">
 
 **From the email notification**
 
@@ -41,7 +42,7 @@ Steps
 
 Click the link in the email to open the record that needs approval.
 
-</td></tr><tr><td id="d195458e72">
+</td></tr><tr><td id="d86208e72">
 
 **From Self-Service**
 
@@ -51,7 +52,7 @@ Click the link in the email to open the record that needs approval.
 2.  In the My Approvals list, click a record to open for approval.
 
 
-</td></tr><tr><td id="d195458e102">
+</td></tr><tr><td id="d86208e102">
 
 **From Employee Center**
 
@@ -99,5 +100,5 @@ If the requested item was assigned to a user group for approval, then the state 
 -   Any approver who isn’t added to **Watch list** in the request loses access to the rejected contract document.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Initiate an ad hoc approval for a contract document revision](cmpro-initiate-approval-contract-request.md)
+</table>**Parent Topic:**[Initiate an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-initiate-approval-contract-request.md)
 

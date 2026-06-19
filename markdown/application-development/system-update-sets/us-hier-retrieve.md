@@ -2,6 +2,7 @@
 title: Retrieve batched update sets
 description: You retrieve a batch of update sets using the same process you would as for any individual update set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/system-update-sets/us-hier-retrieve.html
 release: zurich
 product: System Update Sets
 classification: system-update-sets
@@ -23,6 +24,6 @@ Role required: admin
 
 1.  To retrieve a batch of update sets, follow the same process for the batch base as you would for any individual update set.
 
-    The system will process the entire batch at once. For details, see [Retrieve an update set](../../task/t_RetrieveAnUpdateSet.md).
+    The system will process the entire batch at once. For details, see [Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/t_RetrieveAnUpdateSet.md).
 
 

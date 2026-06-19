@@ -2,6 +2,7 @@
 title: Explore Time limited authentication
 description: Support time limited authentication for your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/explore-tla.html
 release: zurich
 product: Authentication
 classification: authentication

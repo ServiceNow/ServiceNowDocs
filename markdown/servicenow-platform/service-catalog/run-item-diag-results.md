@@ -2,6 +2,7 @@
 title: Run the Item Diagnostic Results report
 description: Identify the catalog items that are not designed per ServiceNow recommended practices to run your catalog efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/run-item-diag-results.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -39,10 +40,10 @@ This report runs every weekend on all catalog items of all types.
     -   The higher the score, the more is the catalog item deviating from ServiceNow recommended practices.
 4.  Click the score of the required catalog item.
 
-    Diagnostic results are displayed for the catalog item with violated rules. For information on default diagnostic rules per ServiceNow recommended practices, see [Item diagnostic report](../concept/c_ItemDiagnostic.md).
+    Diagnostic results are displayed for the catalog item with violated rules. For information on default diagnostic rules per ServiceNow recommended practices, see [Item diagnostic report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_ItemDiagnostic.md).
 
 5.  To understand details of each violated rule, click the **Count** value for that rule.
 
 
-**Parent Topic:**[Item diagnostic report](../concept/c_ItemDiagnostic.md)
+**Parent Topic:**[Item diagnostic report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_ItemDiagnostic.md)
 

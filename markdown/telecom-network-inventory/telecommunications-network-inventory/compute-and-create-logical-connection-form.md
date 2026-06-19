@@ -2,6 +2,7 @@
 title: Compute and Create Logical Connection form
 description: The Compute and Create Logical Connection form enables you to create, review, and modify the connection details for a logical connection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/compute-and-create-logical-connection-form.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -128,5 +129,5 @@ Allowed physical connection model
 Filter that captures all the supported models for the physical connection.**Note:** The list of available physical connection model changes when the **Logical connection model** is selected from the **Model relationship** field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[GPON Broadband Change model forms](gpon-broadband-change-model-forms.md)
+</table>**Parent Topic:**[GPON Broadband Change model forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-change-model-forms.md)
 

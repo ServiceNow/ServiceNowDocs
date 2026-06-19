@@ -2,7 +2,10 @@
 title: Configure anomaly alerts
 description: Configure anomaly alerts based on metrics outliers on historical patterns in Instance Observer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/configure-anomaly-alerts.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -23,7 +26,7 @@ Role required: admin
 
 2.  From the **Performance** menu, select **Transactions/Response Times**.
 
-    ![Anomaly reporting options configuration section.](../image/io-anomaly-config.png)
+    \[Omitted image "io-anomaly-config.png"\] Alt text: Anomaly reporting options configuration section.
 
 3.  Select the reporting options:
 
@@ -43,7 +46,7 @@ Role required: admin
     -   Select and drag across the chart to drill down.
     -   Download to PNG, SVG, or CSV files or view transactions on the instance.
     -   Change the report type.
-    ![Configure anomaly alerts](../image/io-anomaly-alert-tab.png)
+    \[Omitted image "io-anomaly-alert-tab.png"\] Alt text: Configure anomaly alerts
 
 5.  Fine tune the alerts using the listed options.
 

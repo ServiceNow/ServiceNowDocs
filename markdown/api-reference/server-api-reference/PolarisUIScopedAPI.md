@@ -2,6 +2,7 @@
 title: PolarisUI - Scoped
 description: The PolarisUI API provides methods for enabling Next Experience on direct UI pages.Checks if the current page can use the Next Experience UI.Returns a list of CSS class names used by the Next Experience UI.Checks if the Next Experience UI is enabled for the current user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/PolarisUIScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -19,11 +20,11 @@ A UI page \[sys\_ui\_page\] is direct if the **Direct** field is **Selected**. A
 
 All non-direct UI pages use Next Experience by default.
 
-For more information about Next Experience, see [the Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+For more information about Next Experience, see the Next Experience UI.
 
 The PolarisUI API is provided within the `sn_ui` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## PolarisUI - canUsePolarisCSS\(\)
 
@@ -36,7 +37,7 @@ This method returns `true` if all of the following conditions are met.
 -   The referrer HTTP request header does not contain `sysparm_use_polaris=false`.
 -   The page or its parent plugin are not denied use of Next Experience by a record in the Page Theme Support \[sys\_page\_theme\] table.
 
-Use this method to conditionally change behavior or [jelly](../../../../../script/general-scripting/reference/r_JellyTags.md) output if Next Experience is enabled.
+Use this method to conditionally change behavior or [jelly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/r_JellyTags.md) output if Next Experience is enabled.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -142,7 +143,7 @@ This method checks if the **glide.ui.polaris.experience** system property and **
 -   **glide.ui.polaris.experience** enables Next Experience on the instance.
 -   **glide.ui.polaris.use** disables Next Experience for specified users when set to **false**.
 
-For more information about Next Experience system properties and user preferences, see [Next Experience system properties](https://www.servicenow.com/docs/access?context=pol-sys-properties&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+For more information about Next Experience system properties and user preferences, see Next Experience system properties.
 
 **Note:** This method returns true even if Next Experience is disabled for the current page. This method is useful for conditionally enabling entire experiences or redirecting to different pages when Next Experience is enabled globally.
 

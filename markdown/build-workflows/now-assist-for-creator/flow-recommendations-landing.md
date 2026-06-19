@@ -2,6 +2,7 @@
 title: Flow recommendations
 description: Select the next component in your flow from a list of AI-generated recommendations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/now-assist-for-creator/flow-recommendations-landing.html
 release: zurich
 product: Now Assist for Creator
 classification: now-assist-for-creator
@@ -19,19 +20,19 @@ Select the next component in your flow from a list of AI-generated recommendatio
 
 <table id="table_t25_zqk_1gc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about flow recommendations](../concept/exploring-flow-recommendations.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about flow recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/exploring-flow-recommendations.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Activate the Now Assist for Creator plugin and the flow recommendations skill](../task/turn-on-the-flow-recommendations-skill.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate the Now Assist for Creator plugin and the flow recommendations skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 
 </td></tr><tr><td>
 
-[Generate![](../../../reuse/icons/brand-icons/bus-start-developing.svg)Create a flow using Now Assist](../task/create-flow-now-assist.md)
+[Generate\[Omitted image "bus-start-developing.svg"\] Alt text:Create a flow using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-flow-now-assist.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about Now Assist for Creator roles](../../creator/reference/creator-roles-1.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about Now Assist for Creator roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/creator-roles-1.md)
 
 </td></tr></tbody>
 </table>## AI limitations

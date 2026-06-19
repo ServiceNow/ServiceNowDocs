@@ -2,6 +2,7 @@
 title: Complete and close a work order for an enterprise asset
 description: Close an assigned work order by completing all work that is required for the associated enterprise asset.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/complete-eam-work-order.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -99,7 +100,7 @@ Option to swap an asset or part. You can also swap a discrete asset associated w
 If the asset or part is associated with a multi-component enterprise model that has hot-swappable model components, this field can also be set to **In use**.
 
     -   The asset or part is either displayed on the **Asset Usages** tab or located in your personal stockroom.
-    -   The asset or part is associated with either the same enterprise model as the existing asset or part or a substitute enterprise model that is supported by the existing asset or part. For more information on substitute enterprise models, see [Add a substitute model for an enterprise model](add-enterprise-model-substitute.md).
+    -   The asset or part is associated with either the same enterprise model as the existing asset or part or a substitute enterprise model that is supported by the existing asset or part. For more information on substitute enterprise models, see [Add a substitute model for an enterprise model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/add-enterprise-model-substitute.md).
 3.  Select **OK**.
 -   **Result**
 
@@ -183,7 +184,7 @@ Option to deploy an asset or part. You can also deploy a discrete asset to a lin
 
         4.  In the work area of the Calibration lines lane, select the calibration line that you want to complete or skip.
 
-            Each calibration line corresponds with a calibration attribute on the associated enterprise asset. If any calibration attribute contains multiple points at which you can measure accuracy, the Enterprise Asset Management application creates a separate calibration line for each point. You can choose to complete or skip each calibration line as needed. For more details on calibration attributes, see [Add calibration attributes to an enterprise asset](add-calibration-attributes-enterprise-asset.md) or [Add calibration attributes to an enterprise model](add-calibration-attributes-enterprise-model.md).
+            Each calibration line corresponds with a calibration attribute on the associated enterprise asset. If any calibration attribute contains multiple points at which you can measure accuracy, the Enterprise Asset Management application creates a separate calibration line for each point. You can choose to complete or skip each calibration line as needed. For more details on calibration attributes, see [Add calibration attributes to an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-asset.md) or [Add calibration attributes to an enterprise model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-model.md).
 
         5.  On the calibration line record, use one of the following options to complete or skip the calibration line:
 
@@ -259,7 +260,7 @@ Additional comments about the calibration.
 
         6.  Repeat steps d and e for each calibration line in the Calibration lines lane.
 
-            **Note:** If any of your calibration lines have a Result of Failed, you can remediate the entire calibration event by initiating a new work order and corresponding work order tasks. See [Remediate an unsuccessful enterprise asset calibration](remediate-unsuccessful-enterprise-asset-calibration.md) for detailed instructions.
+            **Note:** If any of your calibration lines have a Result of Failed, you can remediate the entire calibration event by initiating a new work order and corresponding work order tasks. See [Remediate an unsuccessful enterprise asset calibration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/remediate-unsuccessful-enterprise-asset-calibration.md) for detailed instructions.
 
         7.  Select **Mark as complete**.
 
@@ -274,5 +275,5 @@ Additional comments about the calibration.
     The state of both the work order task and associated work order changes from Work In Progress to Closed Complete.
 
 
-**Parent Topic:**[Managing work for your enterprise assets](../concept/managing-work-enterprise-assets.md)
+**Parent Topic:**[Managing work for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/managing-work-enterprise-assets.md)
 

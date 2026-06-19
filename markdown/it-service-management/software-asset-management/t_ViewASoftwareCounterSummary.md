@@ -2,6 +2,7 @@
 title: View software counter summaries for the legacy Software Asset Management plugin
 description: Software counter summaries provide information about each software counter type that is supported by the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/software-asset-management/t\_ViewASoftwareCounterSummary.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -27,7 +28,7 @@ Role required: sam
 
     All fields on the form are read-only.
 
-    ![SAM software counter results](../image/SAMSoftwareCounterResults.png "SAM software counter results")
+    \[Omitted image "SAMSoftwareCounterResults.png"\] Alt text: SAM software counter results
 
 <table id="table_zrz_xcd_zq"><thead><tr><th>
 
@@ -141,9 +142,9 @@ Software Counter Details
 
 Shows every entitlement, software install, and software usage for the software. The related list also shows the Workstation and User, if applicable, for each software counter detail. A software asset manager can, for example, identify people who are using the license but are not entitled. The software can then be uninstalled from machines that are not in compliance or people can be entitled a license to meet compliance rules.
 
- Click a type to view the [software counter detail](t_ViewSoftwareCounterDetail.md).
+ Click a type to view the [software counter detail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management/t_ViewSoftwareCounterDetail.md).
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Software license reconciliation counters for the legacy Software Asset Management plugin](../concept/c_UseCountersSWLicenseReconcil.md)
+**Parent Topic:**[Software license reconciliation counters for the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management/c_UseCountersSWLicenseReconcil.md)
 

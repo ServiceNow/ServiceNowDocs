@@ -2,6 +2,7 @@
 title: Properties installed with IT Service Management for Microsoft 365
 description: The following properties are installed with the IT Service Management for Microsoft 365 plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/properties-itsm-ms365.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -44,5 +45,5 @@ Use this property to enable the approval notifications sent by the Virtual Agent
 -   Default value: true
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow for Microsoft Teams reference](reference-sn-teams.md)
+</table>**Parent Topic:**[ServiceNow for Microsoft Teams reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/reference-sn-teams.md)
 

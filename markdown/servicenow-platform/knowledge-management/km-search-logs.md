@@ -2,6 +2,7 @@
 title: Search Log fields and description
 description: The knowledge search log stores the history of all knowledge searches performed by the users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/km-search-logs.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -88,7 +89,7 @@ Session Id
 Unique identifier for the user session.
 
 </td></tr></tbody>
-</table>For information about finding the source used for searching a knowledge article, see [View the source of a knowledge article search](../task/find-knowledge-search-source.md).
+</table>For information about finding the source used for searching a knowledge article, see [View the source of a knowledge article search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/find-knowledge-search-source.md).
 
-**Parent Topic:**[View knowledge logs](../task/view-knowledge-logs.md)
+**Parent Topic:**[View knowledge logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/view-knowledge-logs.md)
 

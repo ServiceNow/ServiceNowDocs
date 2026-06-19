@@ -2,6 +2,7 @@
 title: Work on a contract change request
 description: As a contract fulfiller, review the change request, update the contract document and send it back to the contract user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/snlc-finalize-document-nda.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -23,7 +24,7 @@ Role required: sn\_cm\_core.contract \_fulfiller and sn\_lg\_cnt.contract\_fulfi
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Select the List icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  Select **Legal Requests**.
 
@@ -44,15 +45,15 @@ Role required: sn\_cm\_core.contract \_fulfiller and sn\_lg\_cnt.contract\_fulfi
 
 8.  Access and edit the contract document.
 
-<table id="choicetable_szm_zjq_gbc"><thead><tr><th align="left" id="d762077e148">
+<table id="choicetable_szm_zjq_gbc"><thead><tr><th align="left" id="d590603e148">
 
 Choice
 
-</th><th align="left" id="d762077e151">
+</th><th align="left" id="d590603e151">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d762077e157">
+</th></tr></thead><tbody><tr><td id="d590603e157">
 
 **Download contract document from the internal storage**
 
@@ -61,11 +62,11 @@ Steps
 1.  Select **Preview document**.
 2.  In the drop-down list, select the contract type.
 3.  Select **Preview**.
-4.  Select the Download icon \(![Download icon](../../contract-mgmt-pro/image/cncore-int-storage-dwnld.png)\).
+4.  Select the Download icon \(\[Omitted image "cncore-int-storage-dwnld.png"\] Alt text: Download icon\).
 5.  Edit the downloaded document.
 
 
-</td></tr><tr><td id="d762077e196">
+</td></tr><tr><td id="d590603e196">
 
 **Download contract document from the external storage**
 
@@ -79,7 +80,7 @@ The document opens from the external storage.
 3.  Edit the downloaded document.
 
 
-</td></tr><tr><td id="d762077e219">
+</td></tr><tr><td id="d590603e219">
 
 **Edit the contract document directly from the external storage**
 
@@ -110,7 +111,7 @@ The document is automatically saved in the external storage.
         -   **External Storage**- In the Document field, select the document. This option is displayed only if external storage is configured.
 10. Get approval of the updated document from stakeholders.
 
-    For more information, see [Initiate an ad hoc approval for a contract document revision](snlc-initiate-approval-cr.md).
+    For more information, see [Initiate an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-initiate-approval-cr.md).
 
 11. Return the contract document to the change requester.
 
@@ -123,5 +124,5 @@ The document is automatically saved in the external storage.
 
 The document is sent back to the user and the Contract status updates to Document ready to indicate that the contract document has been updated according to the change request.
 
-**Parent Topic:**[Reviewing and finalizing a self-served contract document](snlc-review-finalize-contract.md)
+**Parent Topic:**[Reviewing and finalizing a self-served contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-review-finalize-contract.md)
 

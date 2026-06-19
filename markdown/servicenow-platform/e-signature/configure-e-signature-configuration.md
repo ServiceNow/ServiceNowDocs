@@ -2,6 +2,7 @@
 title: Create or modify an e-signature template
 description: Create or modify an e-signature template to define an electronic document and signature configuration for use in task forms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/e-signature/configure-e-signature-configuration.html
 release: zurich
 product: e-Signature
 classification: e-signature
@@ -61,7 +62,7 @@ Document type
 
 Document type of the e-signature template. Select one of the following:-   **HR document template**: Make sure that the **Task table** field is set to HR Task \[sn\_hr\_core\_task\].
 
-The HR document template that the signatory will sign is selected on the HR case form. See [Select an HR document template for an e-signature task](https://www.servicenow.com/docs/access?context=select-hr-document-template-for-e-signature-task&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US) for more information.
+The HR document template that the signatory will sign is selected on the HR case form. See Select an HR document template for an e-signature task for more information.
 
 -   **Knowledge article**: In the **Knowledge article** field, select the knowledge article that the signatory will sign.
 -   **Managed document**: In the **Managed document** field, select the managed document that the signatory will sign.
@@ -100,5 +101,5 @@ Adds a check box with accompanying acknowledgment text that the user must select
 
 You can use the e-signature template in task forms to request electronic signatures from users.
 
-**Parent Topic:**[Using e-signature](../concept/using-esignature.md)
+**Parent Topic:**[Using e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/e-signature/using-esignature.md)
 

@@ -2,6 +2,7 @@
 title: Sort Visual Task Boards
 description: You can sort Visual Task Boards using criteria that you create with a Sort-Filter option, grouping items by properties to help organize your cards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/visual-task-boards/sort-visual-task-boards.html
 release: zurich
 product: Visual Task Boards
 classification: visual-task-boards
@@ -39,7 +40,7 @@ Only the owner of the board can create the sorting criteria, and add, edit, or d
 
     3.  Select **Add sort**, choose the conditions you want from the fields and then select **Create**.
 
-        ![Select Add Sort to create sorting options.](../image/datadrivenAddSort.png)
+        \[Omitted image "datadrivenAddSort.png"\] Alt text: Select Add Sort to create sorting options.
 
     4.  In the Add Sort window, choose your sorting order and then select **Save**.
 
@@ -51,12 +52,12 @@ Only the owner of the board can create the sorting criteria, and add, edit, or d
 
     2.  Create task cards for the board.
 
-    3.  Select the info icon \(![Info icon](../../collaboration/image/IconInfoTab.png)\).
+    3.  Select the info icon \(\[Omitted image "IconInfoTab.png"\] Alt text: Info icon\).
 
-        The sorting criteria and filtering appear in the Info navigation pane. ![Sorting criteria displays in the navigation pane](../image/vtb-add-sort-criteria-displayed.png)
+        The sorting criteria and filtering appear in the Info navigation pane. \[Omitted image "vtb-add-sort-criteria-displayed.png"\] Alt text: Sorting criteria displays in the navigation pane
 
         You can edit your sorting criteria for both Freeform and Data Driven boards by selecting the **Edit Filter and Sort** button.
 
 
-**Parent Topic:**[Customizing and configuring Visual Task Boards](../concept/configuring-vis-task-boards.md)
+**Parent Topic:**[Customizing and configuring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/configuring-vis-task-boards.md)
 

@@ -2,6 +2,7 @@
 title: Product offer bundling with product specifications
 description: Product Catalog Management supports the bundling of product offers that have associated product specifications or specification hierarchies at any level of the bundle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/som-offer-bundles-with-specs.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -27,12 +28,12 @@ When offer bundles that have a specification reference at different levels are a
 
 ## Characteristics inherited from product specifications
 
-When you [create a product offering](som-create-product-offering.md) and reference a product specification hierarchy, you can select an option called **Copy child specification characteristics**. When you select this option, the product offer inherits all the characteristics from the specification or specification hierarchy. For example, if a product offer has an associated product specification, the characteristics are inherited from the child specifications in addition to the parent specification. The attributes from parent specification are always inherited by the product offer.
+When you [create a product offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-create-product-offering.md) and reference a product specification hierarchy, you can select an option called **Copy child specification characteristics**. When you select this option, the product offer inherits all the characteristics from the specification or specification hierarchy. For example, if a product offer has an associated product specification, the characteristics are inherited from the child specifications in addition to the parent specification. The attributes from parent specification are always inherited by the product offer.
 
 You can also do the following when you create a bundle product offering:
 
 -   Add other characteristics to the offering, such as attributes for order enrichment, aside from characteristics inherited from the specification.
 -   Delete product offering characteristics that were inherited from the specification.
 
-To learn more about product offerings, see [Create product offerings](som-create-product-offering.md).
+To learn more about product offerings, see [Create product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-create-product-offering.md).
 

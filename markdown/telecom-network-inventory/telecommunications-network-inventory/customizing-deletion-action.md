@@ -2,6 +2,7 @@
 title: Customizing deletion action
 description: Customizing deletion action enables you to create your own process of the deletion.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/customizing-deletion-action.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -34,5 +35,5 @@ Role required: Admin
 6.  Under **Decision table**, update the **Action Type** against the appropriate **CI Type**.
 
 
-**Parent Topic:**[Viewing your network inventory configuration items with CMDB Workspace or Service Graph Workspace](../concept/viewing-network-inventory-using-cmdb-workspace.md)
+**Parent Topic:**[Viewing your network inventory configuration items with CMDB Workspace or Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/viewing-network-inventory-using-cmdb-workspace.md)
 

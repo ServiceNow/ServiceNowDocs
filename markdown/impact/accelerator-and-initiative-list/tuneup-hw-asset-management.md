@@ -2,6 +2,7 @@
 title: TuneUp Your Hardware Asset Management
 description: The TuneUp Your Hardware Asset Management \(HAM\) Accelerator provides guidance on maintaining and governing Hardware Asset Management health to optimize value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/tuneup-hw-asset-management.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,7 +20,7 @@ The TuneUp Your Hardware Asset Management \(HAM\) Accelerator provides guidance 
 
 TuneUp Your Hardware Asset Management provides Impact customers with an assessment of their current HAM implementation. This Accelerator includes an  applied demonstration of HAM capabilities to standardize asset lifecycle. Customers obtain assistance for better insight into their HAM investment and  are provided leading practices on how to best increase adoption and usage.
 
-See [Hardware Asset Management](https://www.servicenow.com/docs/access?context=ham-landing-page&version=zurich&pubname=zurich-it-asset-management&ft:locale=en-US) for additional information about HAM.
+See  for additional information about HAM.
 
 **Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 

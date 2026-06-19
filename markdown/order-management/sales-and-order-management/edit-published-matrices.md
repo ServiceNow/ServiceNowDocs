@@ -2,6 +2,7 @@
 title: Allow changes to published pricing and product eligiblity matrices
 description: Use the allow\_edit\_on\_published\_matrices system property to allow changes to published pricing and product eligibility matrices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/edit-published-matrices.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

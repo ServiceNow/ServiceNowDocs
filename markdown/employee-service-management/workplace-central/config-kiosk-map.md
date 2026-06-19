@@ -2,6 +2,7 @@
 title: Configure the kiosk position and map settings
 description: Configure the kiosk position and camera position on the map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-central/config-kiosk-map.html
 release: zurich
 product: Workplace Central
 classification: workplace-central
@@ -17,7 +18,7 @@ Configure the kiosk position and camera position on the map.
 
 ## Before you begin
 
-Create a kiosk configuration to use for the kiosk indoor mapping feature. For more information about creating a kiosk configuration, see [Create a kiosk configuration](../../workplace-services-kiosk/task/create-kiosk-device-config.md).
+Create a kiosk configuration to use for the kiosk indoor mapping feature. For more information about creating a kiosk configuration, see [Create a kiosk configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-services-kiosk/create-kiosk-device-config.md).
 
 Role required: sn\_wsd\_indoor\_map.admin and sn\_wsd\_central.workspace\_user
 
@@ -25,11 +26,11 @@ Role required: sn\_wsd\_indoor\_map.admin and sn\_wsd\_central.workspace\_user
 
 1.  Navigate to **All** &gt; **Workplace Central**.
 
-2.  Select the Kiosk Indoor Mapping icon \(![Kiosk Indoor Mapping icon.](../images/kiosk-indoor-mapping-icon.png)\).
+2.  Select the Kiosk Indoor Mapping icon \(\[Omitted image "kiosk-indoor-mapping-icon.png"\] Alt text: Kiosk Indoor Mapping icon.\).
 
 3.  On the Kiosk Map Configurations list, select the record that you want to configure.
 
-    For more information about creating a kiosk configuration, see [Create a kiosk configuration](../../workplace-services-kiosk/task/create-kiosk-device-config.md).
+    For more information about creating a kiosk configuration, see [Create a kiosk configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-services-kiosk/create-kiosk-device-config.md).
 
     The **Map configuration** tab is open by default.
 
@@ -68,11 +69,11 @@ If you get the `Map can't be initialized` error on the Map configuration tab, tr
 -   Provide the view type permissions to the user who must have access to kiosk indoor mapping.
 -   Navigate to **All** &gt; **Indoor Mapping** &gt; **View types**
     -   Ensure that the **Kiosk** view type is active.
-    -   If the **Kiosk** view type is not available, ensure that you have installed [Workplace Services Kiosk](../../workplace-services-kiosk/concept/workplace-services-kiosk.md).
+    -   If the **Kiosk** view type is not available, ensure that you have installed [Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-services-kiosk/workplace-services-kiosk.md).
 
-**Parent Topic:**[Working with Kiosk Indoor Mapping](../concept/working-kiosk-ind-map.md)
+**Parent Topic:**[Working with Kiosk Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/working-kiosk-ind-map.md)
 
-**Previous topic:**[Configure map features for kiosk](config-map-features.md)
+**Previous topic:**[Configure map features for kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/config-map-features.md)
 
-**Next topic:**[Configure a module for kiosk indoor mapping](config-kiosk-ind-map-module.md)
+**Next topic:**[Configure a module for kiosk indoor mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/config-kiosk-ind-map-module.md)
 

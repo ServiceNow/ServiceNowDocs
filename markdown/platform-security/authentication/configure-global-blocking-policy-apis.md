@@ -2,6 +2,7 @@
 title: Configure global blocking policy for APIs
 description: Global blocking policy denies the authentication requests of users and APIs based on the specified policy conditions. This policy can be used as an alternative to the IP Address Access Control.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/configure-global-blocking-policy-apis.html
 release: zurich
 product: Authentication
 classification: authentication

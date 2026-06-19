@@ -2,6 +2,7 @@
 title: Using Multi Provider Document Services Framework
 description: Create provider details, document actions, provider permissions and configure permission.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/use-mp-document-services-framework.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -15,14 +16,14 @@ breadcrumb: [Multi Provider Document Services Framework, Document Services, Mana
 
 Create provider details, document actions, provider permissions and configure permission.
 
--   **[Create provider details](../task/create-provider-details-mp.md)**  
+-   **[Create provider details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/create-provider-details-mp.md)**  
 Create provider details for multi provider documents.
--   **[Create document actions](../task/create-document-actions.md)**  
+-   **[Create document actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/create-document-actions.md)**  
 Create document actions for multi provider documents.
--   **[Create provider permissions](../task/create-provider-permissions-mp.md)**  
+-   **[Create provider permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/create-provider-permissions-mp.md)**  
 Create provider permissions for multi provider documents.
--   **[Configure permissions](../task/configure-permissions-mp.md)**  
+-   **[Configure permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/configure-permissions-mp.md)**  
 Configure permission for roles and groups for multi provider documents.
 
-**Parent Topic:**[Multi Provider Document Services Framework](mp-document-services-framework-landing.md)
+**Parent Topic:**[Multi Provider Document Services Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/mp-document-services-framework-landing.md)
 

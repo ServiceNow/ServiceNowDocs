@@ -2,7 +2,10 @@
 title: Customer Service Cases list
 description: The Cases list displays a list of customer service cases for the current user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/c\_CustomerServiceCaseList.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -90,7 +93,7 @@ sn\_customerservice.customer\_admin
 -   Cases created for the customer administrator's account
 -   Cases created by contacts who have a contact relationship with the customer administrator's account
 
- **Note:** A [contact relationship](c_ContactRelationships.md) enables a contact with the customer role or customer admin role to manage the account for which the contact relationship has been established.
+ **Note:** A [contact relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/c_ContactRelationships.md) enables a contact with the customer role or customer admin role to manage the account for which the contact relationship has been established.
 
 </td></tr><tr><td>
 

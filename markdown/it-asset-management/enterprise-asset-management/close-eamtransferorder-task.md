@@ -2,6 +2,7 @@
 title: Close transfer order line tasks in Enterprise Asset Workspace
 description: Close transfer order line tasks to move transfer order lines from one stage to the other.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/close-eamtransferorder-task.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -51,5 +52,5 @@ Closing a transfer order line task completes the task and creates the next task 
     Once you close the Delivered task, the transfer order line is completed.
 
 
-**Parent Topic:**[Create a transfer order in Enterprise Asset Workspace](create-eam-transferorder.md)
+**Parent Topic:**[Create a transfer order in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-eam-transferorder.md)
 

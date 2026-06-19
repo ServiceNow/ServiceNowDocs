@@ -2,11 +2,12 @@
 title: Telecom data model
 description: The telecom data model serves as a comprehensive framework that organizes and interconnects data within telecommunications networks. It covers a broad range of elements, including the underlying network infrastructure, the services offered, and the data related to network operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-service-ops/telecommunications-service-operations-management/telecom-data-model.html
 release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
 ---
@@ -17,7 +18,7 @@ The telecom data model serves as a comprehensive framework that organizes and in
 
 The SD-WAN data model is a focused subset of a much larger, more generic Telecom data model. The full Telecom data model is extensive and built to cover a very broad range of telecommunications aspects. Our SD-WAN data model acts as your practical guide. Instead of navigating the entire, generic Telecom model, it provides clear actionable guidelines on which specific classes from the broader Telecom model are relevant to SD-WAN and how these classes should be related to accurately represent SD-WAN technology.
 
-**Note:** The SD-WAN data model is a specialized framework that manages multiple wide-area network \(WAN\) connections. For more information, see [SD-WAN data model](sd-wan-data-model.md).
+**Note:** The SD-WAN data model is a specialized framework that manages multiple wide-area network \(WAN\) connections. For more information, see [SD-WAN data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/sd-wan-data-model.md).
 
 ## Key components
 

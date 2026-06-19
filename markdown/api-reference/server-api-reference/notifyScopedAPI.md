@@ -2,6 +2,7 @@
 title: NotifyScoped - Scoped
 description: The NotifyScoped API allows you to interact with Notify calls and SMS messages using scripts.Calls the specified E.164-compliant telephone number.Creates a new conference call GlideRecord.Resumes a call after it was put in a queue \(on hold\).Forwards the specified call to a different call recipient.Returns a list of client sessions that are available to receive calls.Returns all phone numbers and short codes available to Notify.Returns all short codes available to Notify.Returns client tokens for any active telephony drivers for use in WebRTC or mobile clients.Returns the maximum amount of time that a client session stays active for a specified telephony driver before automatically timing out.Determines whether the specified phone number has the specified capability.Removes the specified caller from the current Notify conference call.Performs one or more activities on an active Notify phone call.Mutes the specified conference call participant.Puts the specified call into a queue \(on hold\).Sends a specified SMS message to the specified list of Notify clients \(phone numbers\).Sends an SMS text message to an E.164-compliant phone number.Unmutes the specified conference call participant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/notifyScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The NotifyScoped API allows you to interact with Notify calls and SMS messages u
 
 Execute the NotifyScoped class and its associated methods from the `sn_notify` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## NotifyScoped - call\(String notifyPhoneNumber, String toPhoneNumber, GlideRecord conferenceCall, GlideRecord conferenceCallRecord, String userSysId, String groupSysId, GlideRecord sourceRecord\)
 
@@ -524,7 +525,7 @@ Performs one or more activities on an active Notify phone call.
 
 Use this method to change the behavior of a call. For example, transferring a call, playing audio, or forcing a hangup.
 
-**Note:** The scoped implementation of this method only supports custom Notify activities. Unlike the global implementation, it does not provide a NotifyAction API. For details on how to create a custom Notify activity, see [Notify workflow activities](https://www.servicenow.com/docs/access?context=c_NotifyActivities&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+**Note:** The scoped implementation of this method only supports custom Notify activities. Unlike the global implementation, it does not provide a NotifyAction API. For details on how to create a custom Notify activity, see Notify workflow activities.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -602,7 +603,7 @@ notifyPhoneNumber
 
 </td><td>
 
-[NotifyPhoneNumber](../../NotifyPhoneNumberScoped/concept/NPNScopedAPI.md#)
+[NotifyPhoneNumber](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/NPNScopedAPI.md)
 
 </td><td>
 
@@ -638,7 +639,7 @@ source
 
 </td><td>
 
-[GlideRecord](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)
+[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
 
 </td><td>
 
@@ -667,10 +668,10 @@ This method creates a new record on the Notify Message \[notify\_message\] table
 
 |Name|Type|Description|
 |----|----|-----------|
-|notifyPhoneNumber|[NotifyPhoneNumber](../../NotifyPhoneNumberScoped/concept/NPNScopedAPI.md#)|Notify phone number or short code to which to send this SMS message.|
+|notifyPhoneNumber|[NotifyPhoneNumber](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/NPNScopedAPI.md)|Notify phone number or short code to which to send this SMS message.|
 |toPhoneNumber|String|E.164-compliant phone number to which to send the SMS message.|
 |messageBody|String|SMS text message.|
-|source|[GlideRecord](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)|Source record that prompted this SMS message, such as an incident.|
+|source|[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)|Source record that prompted this SMS message, such as an incident.|
 
 |Type|Description|
 |----|-----------|

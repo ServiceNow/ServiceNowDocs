@@ -2,6 +2,7 @@
 title: TISC Data Processing Functional Flow
 description: Threat Intelligence Security Center \(TISC\) provides a solution that automates the data collection and processing which helps reduce the burden on Threat Intel Analysts by avoiding manual steps involved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-data-processing-functional-flow.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -44,5 +45,5 @@ Threat Intelligence Security Center \(TISC\) collects intelligence using one of 
 9.  If any of the existing source record \(Existing Source Record1\) of AggregateRecord1 is identified as duplicate of incoming source record \(SourceRecord1\), then existing source record \(Existing Source Record1\) is marked as Duplicate and incoming source record \(SourceRecord1\) is marked for aggregation by setting the processing status to Ready for Aggregation.
 10. As part of aggregation, fields of aggregated record AggregateRecord1 will be updated based on values from multiple source records will be aggregated as per the predefined criteria defined in the system.
 
-![Data Processing in TISC](../image/tisc-data-processing.png)
+\[Omitted image "tisc-data-processing.png"\] Alt text: Data Processing in TISC
 

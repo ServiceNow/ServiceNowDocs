@@ -2,6 +2,7 @@
 title: Analyzing table relationships
 description: The schema map shows the selected table in yellow, typically centered, and all tables related to that table, typically shown at the sides.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/c\_ViewTheSchemaMap.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -15,7 +16,7 @@ breadcrumb: [View table refs and extensions, Managing tables and indexes, Table 
 
 The schema map shows the selected table in yellow, typically centered, and all tables related to that table, typically shown at the sides.
 
-![](../../../use/using-forms/image/SchemaMapv31.png "Example schema map")
+\[Omitted image "SchemaMapv31.png"\] Alt text:
 
 From this map:
 
@@ -27,7 +28,7 @@ From this map:
 
 Using the Table Selector:
 
-To view a schema map as a list, point to the table selector in the right corner:![List view of tables.](../../../use/using-forms/image/SchemaMapv32.png)
+To view a schema map as a list, point to the table selector in the right corner:\[Omitted image "SchemaMapv32.png"\] Alt text: List view of tables.
 
 You can:
 
@@ -54,17 +55,17 @@ For tables that are part of their own derivation hierarchy, click the expand but
 
 Click the expand button \(**+**\) beside **Columns** to expand the table fields.
 
-![Expanded view of tables.](../../../use/using-forms/image/ERD10.png)
+\[Omitted image "ERD10.png"\] Alt text: Expanded view of tables.
 
 The reference fields show a red notation of the table they refer to.
 
 If any tables extend from a table, their columns are displayed in reverse derivation order. For example:
 
-![Server is derived from Computer, which is derived from Hardware, which is derived from Configuration Item.](../../../use/using-forms/image/SchemaMapRelatedTables.png)
+\[Omitted image "SchemaMapRelatedTables.png"\] Alt text: Server is derived from Computer, which is derived from Hardware, which is derived from Configuration Item.
 
 Here, the Server `[cmdb_ci_server]` table extends from Computer `[cmdb_ci_computer]`, Hardware`[cmdb_ci_hardware]`, and Configuration Item `[cmdb_ci]`, and displays the columns from those tables.
 
 Similarly, the Computer table displays the columns from the Hardware and Configuration Item tables.
 
-**Parent Topic:**[Viewing table references and extensions](c_SchemaMapForTables.md)
+**Parent Topic:**[Viewing table references and extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_SchemaMapForTables.md)
 

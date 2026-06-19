@@ -2,6 +2,7 @@
 title: Create or modify a request filter
 description: Create or modify a request filter for the requests page in the Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/configure-ec-requests-page-filters.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -79,7 +80,7 @@ Filter
 
 </td><td>
 
-Conditions that a request must meet to appear on the requests page in the Employee Center.When defining conditions like case sensitivity or null values, see API[GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+Conditions that a request must meet to appear on the requests page in the Employee Center.When defining conditions like case sensitivity or null values, see APIGlideFilter - Scoped, Global.
 
  **Note:** The conditions available to use are dependent on the table you select.
 

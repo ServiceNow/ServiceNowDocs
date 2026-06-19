@@ -2,6 +2,7 @@
 title: Enable log monitoring in a Windows environment
 description: To enable monitoring logs in a Windows environment, select the relevant policy and assign specific check parameters to the policy. When log monitoring is enabled and a specified string is discovered in the log being monitored, the system creates an event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-enable-log-monitoring-windows.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector

@@ -2,6 +2,7 @@
 title: Using Upgrade Console
 description: Use the Upgrade Console experience to access all the tools, information, and guided setup for a smooth upgrade on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/upgrade-management/um-using.html
 release: zurich
 product: Upgrade Management
 classification: upgrade-management
@@ -17,8 +18,8 @@ Use the Upgrade Console experience to access all the tools, information, and gui
 
 Review the following for a seamless upgrade experience.
 
--   **[Upgrade Console tools](../reference/um-tools.md)**  
+-   **[Upgrade Console tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-tools.md)**  
 Access all the necessary tools you might require for a seamless upgrade experience on your instance.
 
-**Parent Topic:**[Upgrade Console](um-landing-page.md)
+**Parent Topic:**[Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-landing-page.md)
 

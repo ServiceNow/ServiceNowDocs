@@ -2,6 +2,7 @@
 title: Configure project oversight for order tasks
 description: Specify the conditions and decision rules that qualify order tasks for project oversight. You also specify the project template task used by Order Management to create the project for order tasks. The project template task defines the project tasks for the order tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configure-proj-oversight-order-tasks.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -110,7 +111,7 @@ How every row in the condition column evaluates a user-specified value. A defaul
 
     1.  Select the **Add** action and enter the conditions and project template task to be used.
 
-        **Note:** If there are duplicate project template tasks that have the same **Short description**, it may be difficult to identify and select the appropriate project template task. For details on differentiating between similar project template tasks, see [Choosing a project template task when duplicates exist](../concept/Determining-correct-project-task-template.md).
+        **Note:** If there are duplicate project template tasks that have the same **Short description**, it may be difficult to identify and select the appropriate project template task. For details on differentiating between similar project template tasks, see [Choosing a project template task when duplicates exist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/Determining-correct-project-task-template.md).
 
     2.  Select **Save**.
 

@@ -2,6 +2,7 @@
 title: Create a public/private key pair for the Microsoft SharePoint Online external content connector
 description: Generate a public/private key pair for the Microsoft SharePoint Online external content connector. Extract the public key as a DER-encoded binary X.509 format certificate for use in configuring API access for the connector in the Microsoft Entra admin center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/gen-cert-spo-ext-cont-connector.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -29,7 +30,7 @@ The Microsoft SharePoint Online external content connector uses a public/private
 To configure public/private key pair authentication for the connector, you need to create the following items:
 
 1.  A public/private key pair in Java KeyStore \(JKS\) format.
-    -   Your connector admin needs this JKS keystore file and its password when configuring settings for the Microsoft SharePoint Online external content connector.
+    -   Your connector administrator needs this JKS keystore file and its password when configuring settings for the Microsoft SharePoint Online external content connector.
     -   When the Microsoft SharePoint Online external content connector runs a crawl, it uses the private key from this JKS keystore file to sign the authentication request it sends to the OAuth 2.0 app defined in the Microsoft Entra admin center.
 2.  A copy of the public key in DER-encoded binary X.509 certificate format.
     -   Your administrator needs to upload this certificate file to the OAuth 2.0 app defined in the Microsoft Entra admin center that grants API access to the Microsoft SharePoint Online external content connector.
@@ -63,13 +64,13 @@ To configure public/private key pair authentication for the connector, you need 
 
     5.  When prompted for a key password, press Enter to use the same password you specified for the keystore file.
 
-        **Important:** The key must use the same password as the keystore. Record this password in a secure location. Your connector admin needs this password when configuring the Microsoft SharePoint Online external content connector.
+        **Important:** The key must use the same password as the keystore. Record this password in a secure location. Your connector administrator needs this password when configuring the Microsoft SharePoint Online external content connector.
 
     The keytool utility generates a new Java KeyStore \(.jks\) file containing your public/private key pair.
 
     **Important:** Ignore the keytool warning message about migrating your keystore to the PKCS12 format. The external content connector only supports the Java KeyStore format.
 
-2.  Export your public key in DER-encoded binary X.509 certificate format by running the following keytool command, replacing `<cer-file>` with a filename of your choice and replacing `<alias>`, `<jks-file>`, and `<password>` with the same values you used in step [1](gen-cert-spo-ext-cont-connector.md#generate-keypair-jks):
+2.  Export your public key in DER-encoded binary X.509 certificate format by running the following keytool command, replacing `<cer-file>` with a filename of your choice and replacing `<alias>`, `<jks-file>`, and `<password>` with the same values you used in step [1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/gen-cert-spo-ext-cont-connector.md):
 
     ```
     keytool -export -alias <alias> -file <cer-file>.cer -keystore <jks-file>.jks -storepass "<password>" -storetype JKS
@@ -104,7 +105,7 @@ DER-encoded binary X.509 format public key certificate file
 
 </td><td>
 
-Provide this certificate file to your Microsoft SharePoint Online administrator. They will need to upload the certificate to the Microsoft Entra admin center when configuring an OAuth 2.0 application for the Microsoft SharePoint Online external content connector. For more information on configuring an OAuth 2.0 application in the Microsoft Entra admin center for the Microsoft SharePoint Online external content connector, see [Configure Microsoft SharePoint Online for external content indexing](cfg-azure-spo-ext-cont-connector.md).
+Provide this certificate file to your Microsoft SharePoint Online administrator. They will need to upload the certificate to the Microsoft Entra admin center when configuring an OAuth 2.0 application for the Microsoft SharePoint Online external content connector. For more information on configuring an OAuth 2.0 application in the Microsoft Entra admin center for the Microsoft SharePoint Online external content connector, see [Configure Microsoft SharePoint Online for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/cfg-azure-spo-ext-cont-connector.md).
 
 </td></tr><tr><td>
 
@@ -112,8 +113,8 @@ JKS keystore file and password
 
 </td><td>
 
-Provide this Java KeyStore file and its password to your ServiceNow AI Platform admins. They will need the file and password when configuring the Microsoft SharePoint Online external content connector. For details on creating and configuring the Microsoft SharePoint Online external content connector, see [Create a Microsoft SharePoint Online external content connector](create-ext-cont-connector-mspo.md).
+Provide this Java KeyStore file and its password to your ServiceNow AI Platform admins. They will need the file and password when configuring the Microsoft SharePoint Online external content connector. For details on creating and configuring the Microsoft SharePoint Online external content connector, see [Create a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-mspo.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Microsoft SharePoint Online external content connector](../concept/microsoft-sharepoint-online-external-content-connector.md)
+</table>**Parent Topic:**[Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/microsoft-sharepoint-online-external-content-connector.md)
 

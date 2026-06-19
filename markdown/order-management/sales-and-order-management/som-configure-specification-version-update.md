@@ -2,6 +2,7 @@
 title: Configure update specification versions
 description: Configure specification version updates so that product specification versions can be updated to reflect changes and updates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/som-configure-specification-version-update.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -38,5 +39,5 @@ To configure the product specification version change, modify the check-for-an-i
     The specification version update is activated.
 
 
-**Parent Topic:**[Updating specification versions](../concept/som-specification-version-update.md)
+**Parent Topic:**[Updating specification versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-specification-version-update.md)
 

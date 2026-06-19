@@ -2,6 +2,7 @@
 title: Create a personalized backlog in Agile Development 2.0
 description: Create filters to define which stories appear in your backlog in Agile Development 2.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/create-a-backlog.html
 release: zurich
 product: Agile Development
 classification: agile-development
@@ -61,7 +62,7 @@ Visible to
 
 </td><td>
 
-Users that you want to share the backlog with. Use the Unlock Visible to icon \(![Unlock Visible to icon.](../image/visibleto.png)\) to add users.
+Users that you want to share the backlog with. Use the Unlock Visible to icon \(\[Omitted image "visibleto.png"\] Alt text: Unlock Visible to icon.\) to add users.
 
 </td></tr><tr><td>
 
@@ -69,7 +70,7 @@ Visible to Groups
 
 </td><td>
 
-Groups of users that you want to share the backlog with. Use the Unlock Visible to icon \(![Unlock Visible to icon.](../image/visibleto.png)\) to add groups.
+Groups of users that you want to share the backlog with. Use the Unlock Visible to icon \(\[Omitted image "visibleto.png"\] Alt text: Unlock Visible to icon.\) to add groups.
 
 </td></tr><tr><td>
 
@@ -80,7 +81,7 @@ Filter
 Filter criteria that are applied to stories in the backlog.The default filter criteria is **Active is True** and **Sprint is Empty**.
 
 </td></tr></tbody>
-</table>    ![Personal Backlog form.](../image/agile-personal-backlog-form.png)
+</table>    \[Omitted image "agile-personal-backlog-form.png"\] Alt text: Personal Backlog form.
 
 4.  Select **Submit**.
 
@@ -89,5 +90,5 @@ Filter criteria that are applied to stories in the backlog.The default filter cr
 
 You can create any number of personal backlogs that match different priorities. Access all your personal backlogs by navigating to **Agile Development** &gt; **Personal Backlogs** and also on the Backlog tab of your Agile Board.
 
-**Parent Topic:**[Using Agile Development 2.0](../../agile-development/concept/using-agile-development-2-0.md)
+**Parent Topic:**[Using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/using-agile-development-2-0.md)
 

@@ -2,6 +2,7 @@
 title: All Security Metrics
 description: Navigate to All Security Metrics to view a table with the data related to the Security Metrics of your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/security-center/all-security-metrics.html
 release: zurich
 product: Security Center
 classification: security-center
@@ -17,11 +18,11 @@ Navigate to **All Security Metrics** to view a table with the data related to th
 
 Access the list of all Security Metrics on a filterable list by accessing the Security Metrics Dashboard, and selecting the **All Security Metrics** option on from the list on the left.
 
-![Security metrics](../images/sc-metrics-1.png)
+\[Omitted image "sc-metrics-1.png"\] Alt text: Security metrics
 
 Select any item on the list to view details on each metric.
 
-Select the **+Create task** button to create a Security Task related to a metric. For details on Security Tasks, see [Security Tasks](security-task-manager.md).
+Select the **+Create task** button to create a Security Task related to a metric. For details on Security Tasks, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/security-task-manager.md).
 
-**Parent Topic:**[Security metrics](sc-metrics.md)
+**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/sc-metrics.md)
 

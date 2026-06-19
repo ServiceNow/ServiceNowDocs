@@ -2,6 +2,7 @@
 title: Create an API account for the Check Point NGTP integration
 description: An API account role is required in your ServiceNow AI Platform instance for this integration. The Username and Password associated with this account are created in the ServiceNow AI Platform and entered in Check Point, so the Check Point authenticates with the ServiceNow AI Platform when retrieving Block List entries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/create-api-acct.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -29,15 +30,15 @@ The ServiceNow AI Platform admin creates an API account role \(sn\_sec\_checkpoi
 
 2.  Click the **Users** module.
 
-    ![Users module](../image/users-module.png)
+    \[Omitted image "users-module.png"\] Alt text: Users module
 
 3.  On the Users list that is displayed, click **New**.
 
-    ![New user record](../image/new-user.png)
+    \[Omitted image "new-user.png"\] Alt text: New user record
 
     A new form is displayed.
 
-    ![New user record](../image/user-new-record.png)
+    \[Omitted image "user-new-record.png"\] Alt text: New user record
 
 4.  Fill in the form, as needed.
 
@@ -58,15 +59,15 @@ The ServiceNow AI Platform admin creates an API account role \(sn\_sec\_checkpoi
 
 6.  On the Users list in the User ID column, click the name of the user ID you entered, CKPTAPI account SN, for example.
 
-    ![Users - New form](../image/user-id.png)
+    \[Omitted image "user-id.png"\] Alt text: Users - New form
 
 7.  On the open record in the Roles section, click **Edit**.
 
-    ![Edit roles](../image/edit-roles.png)
+    \[Omitted image "edit-roles.png"\] Alt text: Edit roles
 
 8.  On the **Edit Members** form that is displayed, enter sn\_sec\_checkpoint.api\_account\_access in the **Collection** field.
 
-    ![Collection slushbucket](../image/edit-members-slushbucket.png)
+    \[Omitted image "edit-members-slushbucket.png"\] Alt text: Collection slushbucket
 
 9.  In the **Collection** column, select then move sn\_sec\_checkpoint.api\_account\_access to the **Roles List**.
 
@@ -74,9 +75,9 @@ The ServiceNow AI Platform admin creates an API account role \(sn\_sec\_checkpoi
 
 11. Navigate to **Users**, and in the **User** column on the list, click the ID name that you created for the role \(CKPT API account SN\).
 
-    ![Collection slushbucket](../image/edit-members-slushbucket2.png)
+    \[Omitted image "edit-members-slushbucket2.png"\] Alt text: Collection slushbucket
 
-12. ![Edit roles](../image/edit-roles2.png)
+12. \[Omitted image "edit-roles2.png"\] Alt text: Edit roles
 
     The user record is displayed. This record verifies that the user account has been assigned.
 

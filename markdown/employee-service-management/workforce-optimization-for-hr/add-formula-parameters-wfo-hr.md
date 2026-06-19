@@ -2,6 +2,7 @@
 title: Add parameters to be defined in the formula
 description: Add parameters to be defined in the formula to calculate agent count per hour in a day.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workforce-optimization-for-hr/add-formula-parameters-wfo-hr.html
 release: zurich
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -29,10 +30,10 @@ Role required: admin
 
     -   If you need to add a value to be calculated for the formula, in the **Value** field, enter a value.
     -   If you want to use the performance analytics score card API or a custom API, select **Advanced**, and add a script.
-    The Average Case Work Time and Average Chat Work Time forecast parameters provided by default are examples of how you can use scripts to add the parameters. For a list of parameters provided by default, see [Components installed with Workforce Optimization for HR](../reference/wfo-hr-reference.md#).
+    The Average Case Work Time and Average Chat Work Time forecast parameters provided by default are examples of how you can use scripts to add the parameters. For a list of parameters provided by default, see [Components installed with Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workforce-optimization-for-hr/wfo-hr-reference.md).
 
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Configure data collection for Demand Forecast](configure-data-collection-df-wfo-hr.md)
+**Parent Topic:**[Configure data collection for Demand Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workforce-optimization-for-hr/configure-data-collection-df-wfo-hr.md)
 

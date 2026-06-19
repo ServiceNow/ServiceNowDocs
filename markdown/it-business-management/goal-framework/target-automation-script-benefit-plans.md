@@ -2,6 +2,7 @@
 title: Target automation script for benefit plans
 description: Use the predefined Benefit Plans script as a target source to automate the actual value of your targets from the benefit plans of relevant work items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/goal-framework/target-automation-script-benefit-plans.html
 release: zurich
 product: Goal Framework
 classification: goal-framework
@@ -43,5 +44,5 @@ else
     result = hasMonetary ? monetaryBenefitSum : nonMonetaryBenefitSum;
 ```
 
-**Parent Topic:**[Goal Framework and Goal Framework for SPM reference](goal-framework-reference.md)
+**Parent Topic:**[Goal Framework and Goal Framework for SPM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/goal-framework-reference.md)
 

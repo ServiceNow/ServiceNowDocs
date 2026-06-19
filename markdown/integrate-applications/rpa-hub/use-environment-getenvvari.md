@@ -2,6 +2,7 @@
 title: Use the GetEnvironmentVariable component
 description: Retrieve the value of an environment variable by using the GetEnvironmentVariable component in RPA Desktop Design Studio. For example, you can get the value of the TEMP variable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/use-environment-getenvvari.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the GetEnvironmentVariable component. For more information about these properties, see [Properties of the Environment components](../reference/util-environment-prop.md).
+You can configure the properties for the GetEnvironmentVariable component. For more information about these properties, see [Properties of the Environment components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/util-environment-prop.md).
 
 ## Procedure
 
@@ -29,7 +30,7 @@ You can configure the properties for the GetEnvironmentVariable component. For m
 
 2.  Drag the GetEnvironmentVariable component to the Design surface.
 
-3.  To configure the input field, see [Configure port properties](configure-input-port-properties.md).
+3.  To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the GetEnvironmentVariable component to the corresponding ports of the other components as described in the following table.
 
@@ -107,7 +108,7 @@ You want your robot to process files and save logs to different folders dependin
     -   `LOG_PATH = C:\RPA\Dev\Logs`
     This variable defines if robot is running in the development mode, where to store the log files.
 
-    ![SetEnvironmentVariable with development environment details.](../image/set-env-var-dev-rpa.png)
+    \[Omitted image "set-env-var-dev-rpa.png"\] Alt text: SetEnvironmentVariable with development environment details.
 
 2.  Later in the workflow, when saving log files, use **GetEnvironmentVariable** to retrieve the value of `LOG_PATH`.
 
@@ -117,10 +118,10 @@ You want your robot to process files and save logs to different folders dependin
 
     -   `ENV_MODE = Production`
     -   `LOG_PATH = C:\RPA\Prod\Logs`
-    ![SetEnvironmentVariable with production environment details.](../image/set-env-var-prod-rpa.png)
+    \[Omitted image "set-env-var-prod-rpa.png"\] Alt text: SetEnvironmentVariable with production environment details.
 
     The robot now logs to the production folder automatically, because it reads the `LOG_PATH` value from the environment variable.
 
 
-**Parent Topic:**[Environment](../concept/environment-utility.md)
+**Parent Topic:**[Environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/environment-utility.md)
 

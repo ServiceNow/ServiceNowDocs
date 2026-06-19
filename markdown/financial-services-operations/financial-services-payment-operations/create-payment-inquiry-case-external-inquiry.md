@@ -2,6 +2,7 @@
 title: Create a payment inquiry case for an external inquiry
 description: As an inquiry agent, you can create an inquiry case for an external inquiry that you receive from a third-party bank.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-payment-operations/create-payment-inquiry-case-external-inquiry.html
 release: zurich
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
@@ -29,7 +30,7 @@ An external inquiry is the inquiry that comes from a third-party bank, which mea
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Payment Inquiry Cases**, click **All**.
 
@@ -41,7 +42,7 @@ An external inquiry is the inquiry that comes from a third-party bank, which mea
 
 7.  On the form, fill in the required fields and any other information that is related to the request that you've received from the sender bank.
 
-    For information on Payment Inquiry Case form field descriptions, see [Field descriptions for a payment inquiry case](../reference/payment-inquiry-case-form-fields.md).
+    For information on Payment Inquiry Case form field descriptions, see [Field descriptions for a payment inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/payment-inquiry-case-form-fields.md).
 
 8.  Click **Save**.
 
@@ -52,9 +53,9 @@ The payment inquiry case is created in the New state and is assigned to an assig
 
 ## What to do next
 
--   As an inquiry agent, if the case is not assigned to you, you can assign the case to yourself and start investigating it. For more information on working on a payment inquiry case, see [Investigate a payment inquiry case](investigate-payment-inquiry-case.md).
+-   As an inquiry agent, if the case is not assigned to you, you can assign the case to yourself and start investigating it. For more information on working on a payment inquiry case, see [Investigate a payment inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/investigate-payment-inquiry-case.md).
 
--   You can also assign the case to any other inquiry agent. For more information, see [Assign a payment inquiry case](assign-payment-inquiry-case.md).
+-   You can also assign the case to any other inquiry agent. For more information, see [Assign a payment inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/assign-payment-inquiry-case.md).
 
-**Parent Topic:**[Managing payment inquiries](../concept/managing-payment-inquiries.md)
+**Parent Topic:**[Managing payment inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/managing-payment-inquiries.md)
 

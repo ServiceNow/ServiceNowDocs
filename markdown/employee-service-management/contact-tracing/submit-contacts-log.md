@@ -2,6 +2,7 @@
 title: Submit a list of contacts that you interacted with at the workplace
 description: Submit a list of people that you've come into contact with at the workplace to help your organization identify on-site employees who may have been in contact with a potentially exposed coworker.If you receive a mobile push notification to submit the daily contact log, you can submit a list of people that you interacted with on a day.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contact-tracing/submit-contacts-log.html
 release: zurich
 product: Contact Tracing
 classification: contact-tracing
@@ -42,7 +43,7 @@ If you're among the employees who have returned to the workplace, you receive mo
 6.  Click **Submit**.
 
 
-**Parent Topic:**[Tracking employee contacts using daily logs](../concept/employee-daily-log.md)
+**Parent Topic:**[Tracking employee contacts using daily logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/employee-daily-log.md)
 
 ## Submit the daily contact log from a mobile phone
 
@@ -50,7 +51,7 @@ If you receive a mobile push notification to submit the daily contact log, you c
 
 ### Before you begin
 
-To receive mobile push notifications, you must have the [Now® Mobile](../../../administer/mobile-employee/concept/mobile-employee-experience.md) app.
+To receive mobile push notifications, you must have the [Now® Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app.
 
 Role required: sn\_imt\_checkin.dailylog\_user
 
@@ -74,7 +75,7 @@ Role required: sn\_imt\_checkin.dailylog\_user
 
 7.  To send your daily contact log, tap **Submit**.
 
-    ![Set of screens displayed on the mobile app to submit daily contact log.](../image/mobile-checkin-daily-log.png)
+    \[Omitted image "mobile-checkin-daily-log.png"\] Alt text: Set of screens displayed on the mobile app to submit daily contact log.
 
 
 ### Result

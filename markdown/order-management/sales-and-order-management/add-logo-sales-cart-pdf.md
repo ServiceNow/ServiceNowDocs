@@ -2,6 +2,7 @@
 title: Add a logo to the sales cart PDF
 description: Customize and embed your company logo in sales cart summary PDFs to ensure consistent branding and alignment with corporate identity standards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/add-logo-sales-cart-pdf.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

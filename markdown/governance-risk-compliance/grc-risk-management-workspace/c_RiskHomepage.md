@@ -2,6 +2,7 @@
 title: View the Risk Overview
 description: The Risk Overview is contained in the Risk Management application and provides an executive view, allowing risk managers to quickly identify areas of concern by pinpointing entities with known high risk.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/c\_RiskHomepage.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -37,5 +38,5 @@ The Risk Overview contains the following reports in the base system.
 |Inherent Risk Heatmap| | |
 |Residual Risk Heatmap| | |
 
-**Parent Topic:**[Using Risk Management](using-risk-mgmt.md)
+**Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
 

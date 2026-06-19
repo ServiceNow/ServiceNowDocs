@@ -2,6 +2,7 @@
 title: Install Project Workspace
 description: You can install the Project Workspace application \(sn\_pw\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/install-project-workspace.html
 release: zurich
 product: Project Workspace
 classification: project-workspace
@@ -53,5 +54,5 @@ Role required: admin
 
 Planning attributes dependency plug-in is installed along with Project Workspace.
 
-**Parent Topic:**[Configuring projects with Project Workspace](../../pw-resource-management/concept/configure-projects-pw.md)
+**Parent Topic:**[Configuring projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/configure-projects-pw.md)
 

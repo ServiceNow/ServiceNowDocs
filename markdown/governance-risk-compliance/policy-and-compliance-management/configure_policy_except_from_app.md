@@ -2,6 +2,7 @@
 title: Configure policy exceptions from other applications
 description: Before you can request policy exceptions from applications other than Policy and Compliance Management, you must add a UI action for making the request and, optionally, create a new list view to see policy exception target records on the Policy Exception form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/configure\_policy\_except\_from\_app.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -67,5 +68,5 @@ Starting with Version 10.1 of Policy and Compliance Management, if you have inst
 6.  To create a new list view to see policy exception target records on the Policy Exception form, see [KB0783018](https://support.servicenow.com/kb_view.do?sysparm_article=KB0783018).
 
 
-**Parent Topic:**[Allow policy exception requests from other applications](../concept/allow-other-app-policy-except.md)
+**Parent Topic:**[Allow policy exception requests from other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/allow-other-app-policy-except.md)
 

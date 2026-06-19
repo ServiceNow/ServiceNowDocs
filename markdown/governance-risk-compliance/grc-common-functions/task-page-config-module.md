@@ -2,6 +2,7 @@
 title: Tasks Page Configuration module
 description: The Tasks Page Configuration module in the classic user interface displays the configurations related to the Tasks section in the landing pages of the workspaces. The configurations in the Tasks Page Configuration module help the users to view the data in different workspaces.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/task-page-config-module.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -34,7 +35,7 @@ The task administrators can change the order of the tabs in the UI. If the same 
 
 The following image shows the updated Task Configuration record.
 
-![Task Configuration](../image/task-page-config-module-new-button.png "Task Configuration record")
+\[Omitted image "task-page-config-module-new-button.png"\] Alt text: Task Configuration
 
 GRC administrators can configure the names of the task configuration records that are displayed in the landing pages. Administrators can do the following:
 
@@ -46,5 +47,5 @@ GRC administrators can configure the names of the task configuration records tha
 -   Add, update, remove, or override the state labels of the tables.
 -   Update the type of the tab such as group tab or regular tab.
 
-**Parent Topic:**[Landing Page Configurations module](../../grc-common/reference/admin-config-using-grc-common.md)
+**Parent Topic:**[Landing Page Configurations module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/admin-config-using-grc-common.md)
 

@@ -2,11 +2,12 @@
 title: Viewing cloud account records
 description: The Cloud account records page is a comprehensive dashboard that provides information to help you manage a cloud account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/viewing-cloud-account-records.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Viewing Cloud Account Management dashboards, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---

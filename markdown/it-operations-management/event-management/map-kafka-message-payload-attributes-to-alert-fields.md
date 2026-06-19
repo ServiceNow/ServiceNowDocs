@@ -2,6 +2,7 @@
 title: Map Kafka message payload attributes to alert fields
 description: Map Kafka message attributes to alert fields to make alerts based on the messages more meaningful. Use event field mapping to map Kafka severity values to appropriate ServiceNow values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/map-kafka-message-payload-attributes-to-alert-fields.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -140,7 +141,7 @@ Flattened payload in the Additional Info field
 
     5.  In the Mapping type field, select the appropriate mapping type
 
-    6.  For a list of the available mapping types, see [Event Field Mappings](t_EMCreateEventFieldMapping2.md).
+    6.  For a list of the available mapping types, see [Event Field Mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMCreateEventFieldMapping2.md).
 
 2.  To map the Kafka message attributes to the predefined alert fields to generate alerts by creating event rules.
 
@@ -170,7 +171,7 @@ Flattened payload in the Additional Info field
 
     11. Select **Submit**.
 
-        For more information, see [Create or edit an event rule](create-or-edit-event-rule.md).
+        For more information, see [Create or edit an event rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-or-edit-event-rule.md).
 
 3.  In the All Events screen, check whether any of the events from Kafka are in an error state due to a missing event rule and provide missing rules.
 
@@ -182,14 +183,14 @@ Flattened payload in the Additional Info field
 
     3.  On the All Events screen, create a new event rule by selecting **Create Event Rule**.
 
-        For more information on creating event rules, see [Event Rules.](create-or-edit-event-rule.md)
+        For more information on creating event rules, see [Event Rules.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-or-edit-event-rule.md)
 
-        If no event field mappings exist to handle the new type of event, create event field mappings. For more information, see [Create event field mappings](t_EMCreateEventFieldMapping2.md).
+        If no event field mappings exist to handle the new type of event, create event field mappings. For more information, see [Create event field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMCreateEventFieldMapping2.md).
 
 
 ## Result
 
 Your Apache Kafka consumer connector is configured. When new messages arrive into the Kafka topic, they are received into the ServiceNow instance as events, and alerts are then created from those events.
 
-**Parent Topic:**[Apache Kafka Consumer Connector](../concept/apache-kafka-consumer-connector.md)
+**Parent Topic:**[Apache Kafka Consumer Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/apache-kafka-consumer-connector.md)
 

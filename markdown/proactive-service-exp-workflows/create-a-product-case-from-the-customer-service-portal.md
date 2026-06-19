@@ -2,6 +2,7 @@
 title: Create a service problem case from the Customer Service Portal
 description: Customers can create a service problem case to report an issue about the service from the Customer Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/create-a-product-case-from-the-customer-service-portal.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -27,11 +28,11 @@ Role required: sn\_sprb\_mgmt.customer
 
 4.  Select **Create a Service Problem Case**.
 
-    Case form as been created using record producer. For more information about how to create record producer, see [Record Producer](https://www.servicenow.com/docs/access?context=c_RecordProducer&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    Case form as been created using record producer. For more information about how to create record producer, see .
 
 5.  On the form, fill in the fields.
 
-    ![Service problem case from customer service portal.](../image/create-service-problem-case-customerportal.png)
+    \[Omitted image "create-service-problem-case-customerportal.png"\] Alt text: Service problem case from customer service portal.
 
     |Field|Description|
     |-----|-----------|

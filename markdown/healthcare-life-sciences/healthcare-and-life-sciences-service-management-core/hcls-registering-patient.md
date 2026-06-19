@@ -2,6 +2,7 @@
 title: Register on the Patient Portal
 description: As a patient, you can create an account on a patient portal to avail your healthcare services online including scheduling your vaccinations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-registering-patient.html
 release: zurich
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -17,5 +18,5 @@ As a patient, you can create an account on a patient portal to avail your health
 
 Depending on your portal settings, you can register yourself as a patient on the Patient Portal by clicking **Create account** on the Patient Portal landing page and then providing your information on the registration form. After you submit your information, a verification link with instructions for the next step is emailed to you automatically. You can then confirm your account settings to start logging in to and using the Patient Portal.
 
-**Parent Topic:**[Use the Patient Portal for Healthcare and Life Sciences Service Management](hcls-patient-portal.md)
+**Parent Topic:**[Use the Patient Portal for Healthcare and Life Sciences Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-patient-portal.md)
 

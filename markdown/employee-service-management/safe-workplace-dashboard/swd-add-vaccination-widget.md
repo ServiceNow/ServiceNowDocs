@@ -2,6 +2,7 @@
 title: Add a vaccination widget to the Safe Workplace Dashboard
 description: As an admin, add the Safe Workplace Dashboard Vaccination widget to the Safe Workplace Dashboard Site View portal page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace-dashboard/swd-add-vaccination-widget.html
 release: zurich
 product: Safe Workplace Dashboard
 classification: safe-workplace-dashboard
@@ -19,8 +20,8 @@ As an admin, add the Safe Workplace Dashboard Vaccination widget to the Safe Wor
 
 To successfully add the Safe Workplace Dashboard Vaccination widget and populate it with data, note the following requirements:
 
--   The Vaccination Status application must be installed and configured. For more information, see [Vaccination Status](../../vaccination-status/concept/vaccination-status.md).
--   The Safe Workplace Dashboard application must be installed and configured. For more information, see [Safe Workplace Dashboard](../concept/safe-workplace-dashboard.md).
+-   The Vaccination Status application must be installed and configured. For more information, see [Vaccination Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/vaccination-status.md).
+-   The Safe Workplace Dashboard application must be installed and configured. For more information, see [Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace-dashboard/safe-workplace-dashboard.md).
 
 Role required: admin
 
@@ -49,5 +50,5 @@ Role required: admin
 
 The Safe Workplace Dashboard Vaccination widget appears in the Safe Workplace Dashboard.
 
-**Parent Topic:**[Using the Safe Workplace Dashboard](../concept/using-safe-wkplc-dashboard.md)
+**Parent Topic:**[Using the Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace-dashboard/using-safe-wkplc-dashboard.md)
 

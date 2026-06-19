@@ -2,6 +2,7 @@
 title: Indicator management and Performance Analytics
 description: Indicator data sources are created and managed through the architecture of the Performance Analytics application. This functionality is now part of Platform Analytics administration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/indicator-data-sources-pa.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -18,7 +19,7 @@ Long-term users of the ServiceNow AI Platform® may be familiar with Performance
 
 In Platform Analytics, the old Performance Analytics front end is replaced. Data Visualizations, which can apply to many data sources, replace both PA Widgets and reports. They can go either on a new type of dashboard or on UIB pages. KPI Details replaces the Analytics Hub.
 
-If you are a new customer, or if you have [fully migrated](../task/data-migration-perform.md) to Platform Analytics, the back end functions of Performance Analytics are grouped under Platform Analytics administration. However, the following material that refers to Performance Analytics continues to apply, at least regarding the back end:
+If you are a new customer, or if you have [fully migrated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/data-migration-perform.md) to Platform Analytics, the back end functions of Performance Analytics are grouped under Platform Analytics administration. However, the following material that refers to Performance Analytics continues to apply, at least regarding the back end:
 
 -   Training material
 -   ServiceNow University courses
@@ -27,5 +28,5 @@ If you are a new customer, or if you have [fully migrated](../task/data-migratio
 
 If you have upgraded your instance but not yet fully migrated to Platform Analytics, you continue to have Performance Analytics as a navigation area on your instance. Also, administrators who maintain Service Portal pages with Performance Analytics content continue to have access to the Core UI Performance Analytics front end objects on those pages.
 
-**Parent Topic:**[Data visualization reference](../reference/data-visualization-reference.md)
+**Parent Topic:**[Data visualization reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/data-visualization-reference.md)
 

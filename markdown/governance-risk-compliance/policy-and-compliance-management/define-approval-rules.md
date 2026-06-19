@@ -2,6 +2,7 @@
 title: Define policy exception approval rules
 description: Approval rules define the criteria \(risk rating, policy or control objective\) that is used for sending approval requests for an exception. Rules can be configured for an application and you can identify multiple levels of approvers, as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/define-approval-rules.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -27,7 +28,7 @@ You can configure approvals to be sent out automatically or manually after revie
 
 For policy exceptions created using Policy and Compliance Management, exceptions can be requested for a policy without impacted controls being present, even if both policies and control objectives are added to the exception form. However, for policy exceptions created for control objectives alone, impacted controls must be present before you can request approval.
 
-You can also use the GRC Approval Configurator to configure policy exception rules. For more information, see [Define the policy verification rules](define-policy-exception-verification-rules.md).
+You can also use the GRC Approval Configurator to configure policy exception rules. For more information, see [Define the policy verification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/define-policy-exception-verification-rules.md).
 
 ## Procedure
 
@@ -35,7 +36,7 @@ You can also use the GRC Approval Configurator to configure policy exception rul
 
 2.  Click **New**.
 
-    ![Approval rules](../image/approval-rules.png)
+    \[Omitted image "approval-rules.png"\] Alt text: Approval rules
 
 3.  On the form, fill in the fields.
 
@@ -56,11 +57,11 @@ You can also use the GRC Approval Configurator to configure policy exception rul
 
     The Approver Levels related list appears. This related list allows you to define multiple approver levels for a rule. One or more users, or a group of users can be selected as approvers for each level. Approvers must be assigned the survey\_reader role. You can make it mandatory for all selected users to approve the exception or optionally allow a single user to approve on behalf of all approvers.
 
-    ![Approver levels](../image/approval-levels.png)
+    \[Omitted image "approval-levels.png"\] Alt text: Approver levels
 
 5.  Click **New**.
 
-    ![New approval level](../image/approver-level-new.png)
+    \[Omitted image "approver-level-new.png"\] Alt text: New approval level
 
 6.  On the form, fill in the fields.
 
@@ -126,5 +127,5 @@ Select the order to determine the sequence of levels used with respect to other 
     If you selected the **Auto-trigger approvals** check box, the designated approvers are notified that their approvals are required. Alternatively, the approvers are notified when the compliance manager clicks the **Send for Approval** button.
 
 
-**Parent Topic:**[Allow policy exception requests from other applications](../concept/allow-other-app-policy-except.md)
+**Parent Topic:**[Allow policy exception requests from other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/allow-other-app-policy-except.md)
 

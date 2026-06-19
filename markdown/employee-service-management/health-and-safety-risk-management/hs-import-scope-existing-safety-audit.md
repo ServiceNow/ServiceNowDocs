@@ -2,6 +2,7 @@
 title: Import scope from an existing safety audit
 description: Import scope to copy the audit details, people involved, and objectives \(including criteria and items for review\) from an existing audit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-risk-management/hs-import-scope-existing-safety-audit.html
 release: zurich
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -27,7 +28,7 @@ Importing scope from a previous audit lets you get the new safety audit up and r
 
 1.  Navigate to **Workspaces** &gt; **Health and Safety Workspace**.
 
-2.  Select the risk management icon \(![Risk assessment icon](../image/icon-risk-assessment.png)\).
+2.  Select the risk management icon \(\[Omitted image "icon-risk-assessment.png"\] Alt text: Risk assessment icon\).
 
 3.  In the **Audits** list, select **All** and open the audit into which you want to import the scope.
 
@@ -52,5 +53,5 @@ The following information is copied from the selected audit to the current audit
 
 After importing, review all copied fields before saving. In particular, update the audit dates, locations, and assigned person as these values typically differ for the new audit period.
 
-**Parent Topic:**[Create and manage a safety audit](hs-create-manage-safety-audit-workspace.md)
+**Parent Topic:**[Create and manage a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/hs-create-manage-safety-audit-workspace.md)
 

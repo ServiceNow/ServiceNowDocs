@@ -2,12 +2,13 @@
 title: Email notifications for pipeline projects
 description: Sourcing managers receive email notifications when a pipeline project is created automatically, and before its estimated start and end dates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-email-notifications.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Sourcing Pipeline Management, Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -63,5 +64,5 @@ To access these properties, navigate to **All** and enter `sys_properties_list.d
     -   When a pipeline project's estimated start date exceeds the value specified in the system property, the Trigger pipe end or start notification business rule runs. This business rule immediately sends email notifications to sourcing managers to keep them informed about project timelines. Email notifications are sent only for pipeline projects in the Draft or Planned state.
     -   When a pipeline project's estimated end date exceeds the value specified in the system property, the Trigger pipe end or start notification business rule runs. It immediately notifies sourcing managers via email. Email notifications are sent only for pipeline projects that are not in the Closed Complete or Closed Canceled state.
 
-**Parent Topic:**[Sourcing Pipeline Management](spo-sourcing-pipeline-mgmt.md)
+**Parent Topic:**[Sourcing Pipeline Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/spo-sourcing-pipeline-mgmt.md)
 

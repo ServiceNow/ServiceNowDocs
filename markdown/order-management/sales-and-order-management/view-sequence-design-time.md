@@ -2,6 +2,7 @@
 title: Review sequences in Workflow Studio
 description: Review sequences in Workflow Studio so you can suggest optimizations and share high-performing sequences across territories to promote best practices across the organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/view-sequence-design-time.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,7 +24,7 @@ Role required: Sequence reader \[sn\_crm\_sequence.reader\]
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Sequences** &gt; **All Sequences**.
 
@@ -34,5 +35,5 @@ Role required: Sequence reader \[sn\_crm\_sequence.reader\]
     You're redirected to Workflow Studio where you can view the sequence diagram.
 
 
-**Parent Topic:**[Using Customer Engagement Sequences](../concept/using-customer-engagement-sequences.md)
+**Parent Topic:**[Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/using-customer-engagement-sequences.md)
 

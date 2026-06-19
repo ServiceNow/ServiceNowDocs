@@ -2,6 +2,7 @@
 title: Customize UI actions for IT Service Management with Microsoft Teams
 description: Enables you to extend the UI actions to the tables you require.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ui-actions-ms-teams.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -20,10 +21,10 @@ You can extend the following UI actions to any other tables:
 -   Start Microsoft Teams chat
 -   Import Messages from Microsoft Teams
 
--   **[Customize Start Microsoft Teams chat UI action](../task/start-chat.md)**  
+-   **[Customize Start Microsoft Teams chat UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/start-chat.md)**  
 Enables you to extend the Start Microsoft Teams chat UI actions to the tables you require.
--   **[Customize Import Messages from Microsoft Teams UI action](../task/import-messages-ui-action.md)**  
+-   **[Customize Import Messages from Microsoft Teams UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/import-messages-ui-action.md)**  
 Enables you to extend the **Import Messages from Microsoft Teams** UI action to the tables you require.
 
-**Parent Topic:**[Customize IT Service Management integration with ServiceNow](customize-sn-ms-teams.md)
+**Parent Topic:**[Customize IT Service Management integration with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/customize-sn-ms-teams.md)
 

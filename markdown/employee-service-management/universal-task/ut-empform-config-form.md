@@ -2,6 +2,7 @@
 title: Employee Input Task Configuration form
 description: Use the Employee Input Task configuration form to configure the roles that can view completed Universal Task employee form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-task/ut-empform-config-form.html
 release: zurich
 product: Universal Task
 classification: universal-task
@@ -56,5 +57,5 @@ Application
 Name of the application scope. This field is auto-selected.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Universal Task reference](../concept/universal-task-reference.md)
+</table>**Parent Topic:**[Universal Task reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-task/universal-task-reference.md)
 

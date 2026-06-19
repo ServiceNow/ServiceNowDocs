@@ -2,6 +2,7 @@
 title: WorkflowScheduler - Global
 description: The WorkflowScheduler script include provides a method to start a workflow.Starts the workflow specified in current, which is a record in the Workflow Schedule \[wf\_workflow\_schedule\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_WorkflowSchedulerAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The WorkflowScheduler script include provides a method to start a workflow.
 
 This code is executed in the business rule "Set workflow scheduler script" on the Workflow Schedule \[wf\_workflow\_schedule\] table.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## WorkflowScheduler - run\( \)
 

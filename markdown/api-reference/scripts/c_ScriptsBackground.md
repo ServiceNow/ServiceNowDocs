@@ -2,6 +2,7 @@
 title: Scripts - Background module
 description: Administrators can use the Scripts - Background module to run arbitrary JavaScript code from the server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/c\_ScriptsBackground.html
 release: zurich
 product: Scripts
 classification: scripts
@@ -30,9 +31,9 @@ When a script is run, the instance displays results, information, and error mess
 
 **Important:** Running free-form JavaScript can cause system disruption or data loss. Do not run free-form scripts from a production instance.
 
-To stop a transaction, see [View and kill active transaction](https://www.servicenow.com/docs/access?context=t_ViewAndKillAnActiveTransaction&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+To stop a transaction, see .
 
-For examples of scripts you could run, see [Useful scripts](../../useful-scripts/concept/usefulScripts.md).
+For examples of scripts you could run, see [Useful scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/usefulScripts.md).
 
-**Parent Topic:**[Server-side scripting](c_ServerScripting.md)
+**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_ServerScripting.md)
 

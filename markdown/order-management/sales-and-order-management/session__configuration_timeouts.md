@@ -2,6 +2,7 @@
 title: Session and configuration timeouts
 description: Learn how timeouts for inactive or abandoned configurations improve system efficiency and prevent resource waste.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/session\_\_configuration\_timeouts.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -41,5 +42,5 @@ Here are a few example scenarios.
 
 The most effective approach to avoid a timeout is to manually save your configurations, especially when working across multiple tabs. This way, progress is not lost when completing other work.
 
-**Parent Topic:**[ServiceNow CPQ reference](../reference/servicenow-cpq-reference.md)
+**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/servicenow-cpq-reference.md)
 

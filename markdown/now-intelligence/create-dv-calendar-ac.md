@@ -2,6 +2,7 @@
 title: Create a calendar report data visualization
 description: Create calendar report visualizations to show and highlight date-driven events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/create-dv-calendar-ac.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -16,7 +17,7 @@ Create calendar report visualizations to show and highlight date-driven events.
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../concept/report-view-access-control.md) and [Platform Analytics roles](../../par-for-workspace/reference/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics-roles.md).
 
 For information about the use of the Calendar report visualizations on dashboards, see [the Developer Site](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/shared-components/sn-par-calendar-connected/usage). This site gives information about Calendar report components in the UI Builder, and some configuration options may differ from the Visualization Designer.
 
@@ -32,7 +33,7 @@ The calendar visualization is used to show activity over the course of a longer 
 
 2.  Select **Create data visualization**.
 
-3.  Select the Calendar Report \(![calendar icon](../image/inline-data-vis-calendar-days.png)\) visualization type.
+3.  Select the Calendar Report \(\[Omitted image "inline-data-vis-calendar-days.png"\] Alt text: calendar icon\) visualization type.
 
 4.  In the configuration panel, configure the **Component header**.
 
@@ -74,7 +75,7 @@ Show description
 
 </td><td>
 
-Adds an information icon \(![Information icon](../../par-for-workspace/image/icon-info.png)\) to the visualization. This icon opens the component description in a popup.
+Adds an information icon \(\[Omitted image "icon-info.png"\] Alt text: Information icon\) to the visualization. This icon opens the component description in a popup.
 
 </td></tr></tbody>
 </table>5.  In the **Data** section, specify the source table, predefined condition, date range, and filter options.
@@ -93,7 +94,7 @@ Table
 
 </td><td>
 
-Select the table or [database view](../../performance-analytics/concept/performance-analytics-glossary.md#) to report calendar events from.Default value: task
+Select the table or [database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md) to report calendar events from.Default value: task
 
 </td></tr><tr><td>
 
@@ -182,9 +183,9 @@ Default value: Month
 
 ## What to do next
 
--   [Add a visualization to a dashboard from the Visualization Designer](add-dv-new-db.md)
--   [Share a data visualization in the Visualization Designer](share-dv-ac.md#)
--   [Bookmark a visualization in the Visualization Designer](../../dashboards/task/bookmark-dv-ac.md)
+-   [Add a visualization to a dashboard from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/add-dv-new-db.md)
+-   [Share a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/share-dv-ac.md)
+-   [Bookmark a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/bookmark-dv-ac.md)
 
-**Parent Topic:**[Creating data visualizations](../concept/creating-data-visualizations.md)
+**Parent Topic:**[Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/creating-data-visualizations.md)
 

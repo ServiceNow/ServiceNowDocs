@@ -2,6 +2,7 @@
 title: Reviewing the Components module in the Software Bill of Materials Workspace
 description: The Components module in the Software Bill of Materials \(SBOM\) Workspace displays current information about vulnerable, stale, abandoned, and high-risk combinations for the components you import.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sbom-core/vr-sbom-components-module.html
 release: zurich
 product: SBOM Core
 classification: sbom-core
@@ -83,9 +84,9 @@ The Component List under the visualizations enables you to see the name, descrip
 </td></tr></tbody>
 </table>## Assessing your risk with vulnerability intelligence
 
-See [Checking a Software Bill of Materials entity for vulnerabilities](../task/vr-sbom-check-vulnerability-use-case.md) for more information about how to review vulnerability intelligence data in the workspace.
+See [Checking a Software Bill of Materials entity for vulnerabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sbom-core/vr-sbom-check-vulnerability-use-case.md) for more information about how to review vulnerability intelligence data in the workspace.
 
 ## Assessing your risk with license compliance
 
-See [Classifying licenses and resolving component licenses in the Software Bill of Materials workspace](vr-sbom-license-overview.md) for more information about how to license data your import with your components and viewing your over-all license compliance in the workspace.
+See [Classifying licenses and resolving component licenses in the Software Bill of Materials workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sbom-core/vr-sbom-license-overview.md) for more information about how to license data your import with your components and viewing your over-all license compliance in the workspace.
 

@@ -2,6 +2,7 @@
 title: Install the Now Assist for Complaint Case \(CSM\) application
 description: You can install the Now Assist for Complaint Case \(CSM\) application \(sn\_cmpl\_gen\_ai\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/acc-complaint-case-handling-collection.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm

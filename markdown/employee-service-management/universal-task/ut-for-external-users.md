@@ -2,6 +2,7 @@
 title: Universal Task for external users
 description: Enable external users to have access to the tasks assigned through Universal Task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-task/ut-for-external-users.html
 release: zurich
 product: Universal Task
 classification: universal-task
@@ -19,7 +20,7 @@ Users that aren’t yet part of your organization are external users \(snc\_exte
 
 The following points must be considered to enable Universal Task for the external users.
 
--   The Explicit Role \(com.glide.explicit\_roles\) plugin must be installed to assign external and internal roles to the users. For more information, see [Explicit Roles](https://www.servicenow.com/docs/access?context=explicit-roles&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+-   The Explicit Role \(com.glide.explicit\_roles\) plugin must be installed to assign external and internal roles to the users. For more information, see Explicit Roles.
 -   When creating a Universal Task, all pre-defined task types like Upload Documents, Mark When Complete, Checklist, and Collect Employee Input are available for external users except for Submit Catalog Item. If you try to create a Submit Catalog Item, you will get an error.
 -   All the Universal Task widgets, tables, and ACLs are enabled for both internal and external roles.
 -   The portal and pages where the Universal Task is embedded must also be supported for the external users. For example,
@@ -27,5 +28,5 @@ The following points must be considered to enable Universal Task for the externa
     -   The **To-Do** tab of the Employee Service Center.
     -   The hrm\_todos\_page where the Universal Task is displayed.
 
-**Parent Topic:**[Using Universal Task](use-universal-task.md)
+**Parent Topic:**[Using Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-task/use-universal-task.md)
 

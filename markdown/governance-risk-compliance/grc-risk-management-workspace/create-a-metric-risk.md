@@ -2,6 +2,7 @@
 title: Create a metric
 description: Create a metric to perform calculations on your data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/create-a-metric-risk.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -27,7 +28,7 @@ To create a metric, you need a metric definition and an entity. A metric definit
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Select the list ![](../../grc-workspace-risk/image/list-icon-risk-workspace.png) icon.
+2.  Select the list \[Omitted image "list-icon-risk-workspace.png"\] Alt text: icon.
 
 3.  Navigate to **Metrics** &gt; **Metrics**.
 
@@ -35,7 +36,7 @@ To create a metric, you need a metric definition and an entity. A metric definit
 
 5.  On the form, fill in the fields.
 
-    For a description of the field values on the Create New Metric form, see [Create New Metric form](../reference/create-new-metric-form-irm.md).
+    For a description of the field values on the Create New Metric form, see [Create New Metric form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/create-new-metric-form-irm.md).
 
 6.  Select **Save**.
 
@@ -46,8 +47,8 @@ To create a metric, you need a metric definition and an entity. A metric definit
 
 The metric is saved in the Metrics list.
 
--   **[Create New Metric form](../reference/create-new-metric-form-irm.md)**  
+-   **[Create New Metric form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/create-new-metric-form-irm.md)**  
 Use the Create New Metric form to create a metric.
 
-**Parent Topic:**[Configuring metrics](../concept/configuring-irm-metrics.md)
+**Parent Topic:**[Configuring metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/configuring-irm-metrics.md)
 

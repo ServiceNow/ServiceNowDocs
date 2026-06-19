@@ -2,6 +2,7 @@
 title: Initiate a skill review for teams or groups
 description: Start a skill review process for your groups or specific team members so that they can review and update their existing skills or to add new skills. Provide a due date for them to complete the skill review.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/generate-skill-review-wfo-itsm.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -17,15 +18,13 @@ Start a skill review process for your groups or specific team members so that th
 
 ## Before you begin
 
-Skill Review
-
 Role required: sn\_wfo\_skillreview.manager
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Select the Coaching icon \(![Coaching icon](../image/coaching-icon-uib.png)\).
+2.  Select the Coaching icon \(\[Omitted image "coaching-icon-uib.png"\] Alt text: Coaching icon\).
 
 3.  Select the **Skills** tab.
 
@@ -87,5 +86,5 @@ Skills to review
     The agent will receive a notification to review the request.
 
 
-**Parent Topic:**[Skills Management in Workforce Optimization for ITSM](../concept/skills-management-wfo-itsm.md)
+**Parent Topic:**[Skills Management in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/skills-management-wfo-itsm.md)
 

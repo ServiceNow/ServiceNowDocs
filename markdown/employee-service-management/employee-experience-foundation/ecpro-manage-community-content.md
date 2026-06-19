@@ -2,6 +2,7 @@
 title: Add or modify forum content
 description: Provide content to your employees through employee forums.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ecpro-manage-community-content.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -23,8 +24,8 @@ Role required: sn\_cd.content\_manager
 
 Creating forum content also requires the following to post to a community or forum:
 
--   A forum to post community content. For information on creating forums, see [Configure community forums](https://www.servicenow.com/docs/access?context=configure-forums-topics&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
--   The `Content Publishing: Post to Forums` scheduled job runs every hour by default to process posts. For more information on scheduled jobs, see [Components installed with Content Publishing](../reference/installed-with-content-delivery.md).
+-   A forum to post community content. For information on creating forums, see Configure community forums.
+-   The `Content Publishing: Post to Forums` scheduled job runs every hour by default to process posts. For more information on scheduled jobs, see [Components installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/installed-with-content-delivery.md).
 
 **Note:** The Communities \(com.sn\_communities\) plugin must be activated in order to use this feature.
 
@@ -60,7 +61,7 @@ Classification of the community post. Fields used to define the post change base
 -   Community Event
 -   Community Video
 -   Forums Post List \(lists posts from a specific forum\)
- **Note:** For more information on community content types, see [Community content types](https://www.servicenow.com/docs/access?context=c_communities-content-types&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+ **Note:** For more information on community content types, see Community content types.
 
 </td></tr><tr><td>
 
@@ -89,7 +90,7 @@ Use block content
 
 </td><td>
 
-Indicates that you are using block content and not rich text. For information on creating block content, see [Add or modify block content](ecpro-manage-block-content.md).
+Indicates that you are using block content and not rich text. For information on creating block content, see [Add or modify block content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-manage-block-content.md).
 
 </td></tr><tr><td>
 
@@ -261,7 +262,7 @@ Link to the video you want to post to your community, use as part of a campaign,
 -   facebook.com
 -   vimeo.com
 -   youtube.com
- For more information on video content, see [Add or modify links to other content sources](ecpro-manage-link-content.md).
+ For more information on video content, see [Add or modify links to other content sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-manage-link-content.md).
 
 </td></tr><tr><td>
 
@@ -330,9 +331,9 @@ The number of forum posts you want to appear.Only appears when you select **Most
 
 ## What to do next
 
--   Go to Schedule Content to define the audience, date, and time your content is available. For more information, see [Scheduling the delivery of content](ecpro-schedule-content.md).
+-   Go to Schedule Content to define the audience, date, and time your content is available. For more information, see [Scheduling the delivery of content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-schedule-content.md).
 
     **Note:** If you edit published forum content, you must create a new Schedule content record to publish the updates.
 
--   Or, go to Campaign Content to add your content to a campaign bundle. For more information, see [Create campaign bundles/stages](ecpro-manage-campaign-bundles.md).
+-   Or, go to Campaign Content to add your content to a campaign bundle. For more information, see [Create campaign bundles/stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-manage-campaign-bundles.md).
 

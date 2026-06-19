@@ -2,6 +2,7 @@
 title: Multicurrency fields in demand-related forms
 description: When you enable the Demand Currency view in Demand, Cost Plan, and Cost Plan Breakdown forms, multicurrency fields appear in the Financials section of these forms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/multicurrency-fields-in-demand-related-forms-ppw.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -29,7 +30,7 @@ Demand currency
 
 </td><td>
 
-Currency for managing and tracking the demand. The available currency options depend on your selection in **Preferences-Project** under **Project Administration**. For more information, see [Select demand currency preference](../task/select-demand-currency-preference-ppw.md).This field becomes read only once you create a cost plan, cost plan breakdown, benefit plan, or benefit plan breakdown.
+Currency for managing and tracking the demand. The available currency options depend on your selection in **Preferences-Project** under **Project Administration**. For more information, see [Select demand currency preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/select-demand-currency-preference-ppw.md).This field becomes read only once you create a cost plan, cost plan breakdown, benefit plan, or benefit plan breakdown.
 
 </td></tr><tr><td>
 
@@ -124,7 +125,7 @@ Total cost incurred while working on a demand and demand tasks in the selected d
 |Demand currency|Currency specified in the **Demand currency**Demand currency field of the Demand form.|
 |Cost in demand currency|Value that is rolled up from the **Entered cost** field of all cost plan breakdowns.|
 
-**Note:** Any change to the unit cost, quantity, or fiscal period of a cost plan recalculates the amounts in demand currency. See [Cost plan updates and cost recalculation in demand currency](cost-plan-updates-and-cost-recalculation-ppw.md).
+**Note:** Any change to the unit cost, quantity, or fiscal period of a cost plan recalculates the amounts in demand currency. See [Cost plan updates and cost recalculation in demand currency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/cost-plan-updates-and-cost-recalculation-ppw.md).
 
 |Field|Description|
 |-----|-----------|

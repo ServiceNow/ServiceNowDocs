@@ -2,6 +2,7 @@
 title: MIDServerAjax - Global
 description: The MIDServerAjax script include provides AJAX functionality for sending a test probe to a MID ServerCreates an instance of MIDServerAjax.Sends a test probe to the MID server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_MIDServerAjaxAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The MIDServerAjax script include provides AJAX functionality for sending a test 
 
 Use in server scripts to test a MID Server using AJAX.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## MIDServerAjax - MIDServerAjax\(\)
 

@@ -2,6 +2,7 @@
 title: Add additional resources to the source selector of a form
 description: Add additional resources when you want the user to search beyond Knowledge and Service Catalog search resources. For example, add additional resources for Open Incidents, Resolved Incidents, or Similar Open Incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/contextual-search/add-addi-resource-to-source-list.html
 release: zurich
 product: Contextual Search
 classification: contextual-search
@@ -23,7 +24,7 @@ Role required: admin
 
 Additional resources are pre-defined. An additional resource is either a searchable source table with query conditions or a reference to a Predictive Intelligence Similarity solution definition.
 
-**Note:** You can only view the Predictive Intelligence resources if you are licensed for Predictive Intelligence and have activated [Predictive Intelligence for Contextual Search](../concept/predictive-intelligence-for-cxs.md).
+**Note:** You can only view the Predictive Intelligence resources if you are licensed for Predictive Intelligence and have activated [Predictive Intelligence for Contextual Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/machine-learning-solutions-for-search/predictive-intelligence-for-cxs.md).
 
 ## Procedure
 
@@ -41,7 +42,7 @@ Additional resources are pre-defined. An additional resource is either a searcha
 
     For example, if you want to move additional resources whose type is **Predictive Intelligence Similarity**, then move **Similar Incidents**, **Similar Knowledge Articles**, **Similar Open Change Requests**, **Similar Open Incidents**, **Similar Open Problems**, and **Similar Resolved Incidents** from the **Collection** field to the **Additional Resource Configurations List** field.
 
-    ![Edit Members form showing Predictive Intelligence Similarity additional resources moved to Additional Resource Configurations List.](../image/predictive-intelli-similarity.png)
+    \[Omitted image "predictive-intelli-similarity.png"\] Alt text: Edit Members form showing Predictive Intelligence Similarity additional resources moved to Additional Resource Configurations List.
 
     **Note:** You can view the Predictive Intelligence sources only if you have license for Predictive Intelligence.
 
@@ -49,15 +50,15 @@ Additional resources are pre-defined. An additional resource is either a searcha
 
     The additional resources appear under **Additional Resource Configurations**.
 
-    ![Additional resources displayed in Additional Resource Configurations related list.](../image/predictive-intelli-similarity1.png)
+    \[Omitted image "predictive-intelli-similarity1.png"\] Alt text: Additional resources displayed in Additional Resource Configurations related list.
 
 
-**Parent Topic:**[Managing contextual search](../concept/working-with-contextual-search.md)
+**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/working-with-contextual-search.md)
 
 **Related topics**  
 
 
-[Additional search resources](https://www.servicenow.com/docs/access?context=similar-cases-additional-resources&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
+[bundle-csm.similar-cases-additional-resources]
 
-[Similarity solution definitions](https://www.servicenow.com/docs/access?context=similar-cases-solution-definitions&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
+[bundle-csm.similar-cases-solution-definitions]
 

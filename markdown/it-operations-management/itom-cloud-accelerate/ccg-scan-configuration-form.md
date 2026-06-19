@@ -2,6 +2,7 @@
 title: Cloud Configuration Governance Scan configuration form
 description: The Cloud Configuration Governance Scan configuration form displays detailed information about the scan configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-cloud-accelerate/ccg-scan-configuration-form.html
 release: zurich
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -60,7 +61,7 @@ You can select an Amazon Web Services \(AWS\) management account, and then add a
 
     -   An assume role configuration exists for the management account.
     -   Cloud Discovery has completed the datacenter discovery for the member accounts.
-For more information on creating assume role configurations, see [Configure access using temporary credentials based on trusted AWS accounts with AWS credentials](../../it-operations-management/task/configure-iam-role-aws-account.md).
+For more information on creating assume role configurations, see [Configure temporary credential access for trusted AWS accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/configure-iam-role-aws-account.md).
 
 2.  Save the form.
 3.  In the empty row of the Datacenter Filters list, double-click the datacenter cell, and then select a datacenter.
@@ -109,5 +110,5 @@ Resources
 Comma-separated list of the cloud identifiers.This field appears only when the **Freeform** option is selected.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Configuration Governance reference](ccg-reference.md)
+</table>**Parent Topic:**[Cloud Configuration Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/ccg-reference.md)
 

@@ -2,6 +2,7 @@
 title: Create issue form
 description: The issue form information is used to create an issue for the demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/create-issue-form-ppw.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning

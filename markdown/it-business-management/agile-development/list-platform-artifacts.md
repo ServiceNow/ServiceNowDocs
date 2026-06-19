@@ -2,6 +2,7 @@
 title: List of platform artifacts modified after upgrading to Agile Development 2.0
 description: Post migration, you can review the list of artifacts that are modified in Agile Development 2.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/list-platform-artifacts.html
 release: zurich
 product: Agile Development
 classification: agile-development
@@ -15,7 +16,7 @@ breadcrumb: [Agile Development 2.0 enhancements over Agile Development 1.0, Migr
 
 Post migration, you can review the list of artifacts that are modified in Agile Development 2.0.
 
-**Important:** Agile Development 1.0 and its features such as Sprint burndown chart and release burndown chart are deprecated and no longer available. [Agile Development 2.0](agile-landing-page.md) provides the latest experience for supporting your Agile work methodology.
+**Important:** Agile Development 1.0 and its features such as Sprint burndown chart and release burndown chart are deprecated and no longer available. [Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/agile-landing-page.md) provides the latest experience for supporting your Agile work methodology.
 
 -   sys\_ui\_list\_control\_3f85b6907f00000135a05e41c7547354,
 -   sys\_ui\_list\_control\_3f8607b47f0000012aaff213c654be45,
@@ -172,5 +173,5 @@ Post migration, you can review the list of artifacts that are modified in Agile 
 -   sys\_script\_8cd24091ef52200099620fa3f8225619,
 -   sys\_script\_9f298c85efa1200099620fa3f82256ba
 
-**Parent Topic:**[Agile Development 2.0 enhancements over Agile Development 1.0](../concept/appendix.md)
+**Parent Topic:**[Agile Development 2.0 enhancements over Agile Development 1.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/appendix.md)
 

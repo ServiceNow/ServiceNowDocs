@@ -2,6 +2,7 @@
 title: Action form of Project Workspace
 description: Learn about the fields on the Action form of the Project Workspace. Use this form to add an action to your projects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/action-form-project-workspace.html
 release: zurich
 product: Project Workspace
 classification: project-workspace
@@ -138,5 +139,5 @@ Work notes
 Information about the action. Add work notes to communicate about the status of action approval, rejection, or implementation with other users.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Project Workspace](form-field-information-for-project-workspace.md)
+</table>**Parent Topic:**[Form field information for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/form-field-information-for-project-workspace.md)
 

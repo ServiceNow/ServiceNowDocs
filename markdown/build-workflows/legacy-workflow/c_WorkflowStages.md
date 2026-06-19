@@ -2,6 +2,7 @@
 title: Workflow stages
 description: Workflows can indicate workflow progress by updating any field designated as a stage field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/legacy-workflow/c\_WorkflowStages.html
 release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
@@ -19,7 +20,7 @@ For example, the Incident \[incident\] table has an **Incident state** field tha
 
 To indicate the workflow's progress through the possible stage values, the interface updates the **Stage field** selected in the workflow properties. Available fields depend on the table used by the workflow. If the field provides a choice list, then the choices are available as stage values for the workflow. If the field is a workflow field, it displays an icon to indicate the workflow's progress, as with the Service Catalog's **Stage** field.
 
-![](../image/WorkflowFieldIcons.png "Service Catalog Stage field with icons")
+\[Omitted image "WorkflowFieldIcons.png"\] Alt text:
 
 After stages are added to the workflow, they can be assigned to each workflow activity. If an activity with an assigned stage is encountered when the workflow runs, the workflow engine assigns the stage to the record associated with the workflow context.
 
@@ -33,7 +34,7 @@ For workflows that use the Requested Item \[sc\_req\_item\] table, the stage fie
 
 Stage values are derived from various sources in the interface.
 
-**Note:** An updated method for managing workflow stages as a set is also available. For information about grouping and reusing stages, see [Workflow stage sets](c_WorkflowStageSets.md#).
+**Note:** An updated method for managing workflow stages as a set is also available. For information about grouping and reusing stages, see [Workflow stage sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/c_WorkflowStageSets.md).
 
 Stage values are derived from the following sources:
 
@@ -44,7 +45,7 @@ Stage values are derived from the following sources:
 
 If the stage field for a workflow is the table column named **Stage**, then the progress of the workflow appears in any list view containing the **Stage** column.
 
-![](../image/StagesInList.png "Stages in a list")
+\[Omitted image "StagesInList.png"\] Alt text:
 
 Stage values shown in the list views are accompanied by the state, based on the workflow activities being executed. If an activity has a stage specified for it, and the activity is currently active in the workflow, then the stage is shown with a state of **In progress**. Similarly, if the activity is in the **Pending** or **Completed** state, the stage reflects this state.
 
@@ -73,20 +74,20 @@ When you edit available activity stages in the Workflow Editor, the list display
 
 The following diagram depicts the process used to gather stage values from the Request Item table to populate the **Stages** list in workflow activities.
 
-![Gathering stage values for workflow activities](../image/ScReqStagesDiagram.png)
+\[Omitted image "ScReqStagesDiagram.png"\] Alt text: Gathering stage values for workflow activities
 
 **Note:** If you are creating a workflow with a table other than Request Item \[sc\_req\_item\], you must select a **Stage field** in the workflow properties for the workflow to have stages.
 
--   **[Use workflow stages](../task/t_UsingWorkflowStages.md)**  
+-   **[Use workflow stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/t_UsingWorkflowStages.md)**  
 You can add or modify workflow stages.
--   **[Add and translate stages](../task/add-translate-stages.md#)**  
+-   **[Add and translate stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/add-translate-stages.md)**  
 You can add default stages to use for a table, and stages to existing workflow
--   **[Workflow stage sets](c_WorkflowStageSets.md#)**  
+-   **[Workflow stage sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/c_WorkflowStageSets.md)**  
 Stage sets are named groups of workflow stages commonly used together. Create a stage set and assign it as a default set to any number of tables. You can import the choice list values of a workflow field as stages for a workflow, and export a stage set to create a new one.
--   **[Create a workflow stage field](../../workflow-administration/task/t_CreateAWorkflowStageField.md)**  
+-   **[Create a workflow stage field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/t_CreateAWorkflowStageField.md)**  
 Workflows can provide a summary of workflow progress by updating any field of the **Workflow** type. If the field is a workflow field, it displays an icon to indicate the workflow stage progress.
--   **[Workflow fields with deleted records](../../workflow-administration/concept/c_WorkflowFieldsWithDeletedRecords.md)**  
+-   **[Workflow fields with deleted records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/c_WorkflowFieldsWithDeletedRecords.md)**  
 Workflow fields may indicate when a record required by the workflow is deleted.
 
-**Parent Topic:**[Workflow management](../../workflow-administration/concept/managing-workflows.md)
+**Parent Topic:**[Workflow management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/managing-workflows.md)
 

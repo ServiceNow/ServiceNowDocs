@@ -2,7 +2,10 @@
 title: Quick start tests for Field Service Management
 description: Validate that Field Service Management still works after you make any configuration change, such as applying an upgrade or developing an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/quick-start-tests-fsm.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 6
@@ -444,5 +447,5 @@ Zurich
 </table>**Related topics**  
 
 
-[Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+[bundle-cadev.quick-start-tests]
 

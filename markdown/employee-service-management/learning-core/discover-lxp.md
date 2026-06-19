@@ -2,6 +2,7 @@
 title: Discover
 description: The Discover tab on My Learning provides a variety of widgets that help you browse through courses, paths, and collections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/discover-lxp.html
 release: zurich
 product: Learning Core
 classification: learning-core
@@ -17,7 +18,7 @@ The **Discover** tab on My Learning provides a variety of widgets that help you 
 
 The **Discover** tab has the following widgets that help you with a seamless learning experience:
 
-![Discover tab](../image/discover-lxp.png "Discover tab")
+\[Omitted image "discover-lxp.png"\] Alt text: Discover tab
 
 |Widget|Description|
 |------|-----------|

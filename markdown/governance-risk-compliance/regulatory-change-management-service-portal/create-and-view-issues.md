@@ -2,6 +2,7 @@
 title: Create an issue related to the regulatory tasks
 description: Create an issue as part of the regulatory change tasks and source document tasks workflow to capture any problems or exceptions that are observed during the workflow. You can create and view issues related to regulatory tasks using the issues related list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/regulatory-change-management-service-portal/create-and-view-issues.html
 release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -44,5 +45,5 @@ You can view the issues related to the Regulatory tasks in the respective module
 
 ## What to do next
 
-For information about how to enable or disable menu items, see [Enable/disable application menu](https://www.servicenow.com/docs/bundle/xanadu-platform-user-interface/page/administer/navigation-and-ui/task/t_EnDisableAppMenuOrMod.html).
+For information about how to enable or disable menu items, see Enable/disable application menu.
 

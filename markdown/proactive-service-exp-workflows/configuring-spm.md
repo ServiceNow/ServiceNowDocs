@@ -2,6 +2,7 @@
 title: Configuring Customer Service Problem Management
 description: With Customer Service Problem Management \(CSPM\) define the tests to diagnose the service problems. Implement targeted solutions based on test results to resolve those problems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/configuring-spm.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -27,6 +28,6 @@ The configuration of CSPM requires setting up the following applications to mana
 As an administrator, follow these steps to configure the Customer Service Problem Management:
 
 -   Activate the Customer Service Problem Management application.
--   Define Test groups. For more information, see [Setting up a test group](setting-test-group.md).
--   Define Test definitions. For more information, see [Setting up test definitions](settingup-test-specifications.md).
+-   Define Test groups. For more information, see [Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/setting-test-group.md).
+-   Define Test definitions. For more information, see [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/settingup-test-specifications.md).
 

@@ -2,6 +2,7 @@
 title: Preview existing OT records in the CMDB
 description: Preview existing Operational Technology \(OT\) device records in the Configuration Management Database \(CMDB\) before you import any new records from the staging table. By previewing existing records, you can avoid reconciling or merging unrelated records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-manager/preview-existing-asset-records.html
 release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -27,7 +28,7 @@ If a matching configuration item \(CI\) is in the CMDB when you import OT device
 
 1.  Navigate to **All** &gt; **Industrial Workspace**.
 
-2.  Select the **List** \(![List icon](../../../common/image/icon-list.png)\) icon.
+2.  Select the **List** \(\[Omitted image "icon-list.png"\] Alt text: List icon\) icon.
 
 3.  Under the OT Excel SGC - Import Task module, select one of the available lists.
 
@@ -46,5 +47,5 @@ If a matching configuration item \(CI\) is in the CMDB when you import OT device
 6.  View the matching CI by selecting it from the Matching CI in the CMDB column.
 
 
-**Parent Topic:**[Validate imported staging records](run-validations.md)
+**Parent Topic:**[Validate imported staging records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/run-validations.md)
 

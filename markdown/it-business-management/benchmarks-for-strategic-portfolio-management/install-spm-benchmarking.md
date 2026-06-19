@@ -2,6 +2,7 @@
 title: Install SPM Benchmarks
 description: As an admin, you can install the SPM Benchmarks application \(sn\_spm\_bm\) from the ServiceNow Store.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/benchmarks-for-strategic-portfolio-management/install-spm-benchmarking.html
 release: zurich
 product: Benchmarks for Strategic Portfolio Management
 classification: benchmarks-for-strategic-portfolio-management
@@ -29,7 +30,7 @@ The following items are installed with SPM Benchmarks:
 -   Roles
 -   Scheduled jobs
 
-For more information, see [Components installed with SPM Benchmarking](../reference/components-installed-with-spm-benchmarking.md).
+For more information, see [Components installed with SPM Benchmarking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/benchmarks-for-strategic-portfolio-management/components-installed-with-spm-benchmarking.md).
 
 ## Procedure
 
@@ -50,5 +51,5 @@ For more information, see [Components installed with SPM Benchmarking](../refere
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configuring SPM Benchmarks](configuring-benchmarks.md)
+**Parent Topic:**[Configuring SPM Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/benchmarks-for-strategic-portfolio-management/configuring-benchmarks.md)
 

@@ -2,7 +2,10 @@
 title: Customer Data Models for B2B2C
 description: The Customer Data Models for B2B2C supports complex business models with multi-level customer relationships. This model can be used to support employees of a business customer or end consumers of a business customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-data-model-b2b2c.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ The Customer Data Models for B2B2C supports complex business models with multi-l
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Overview
 
@@ -26,7 +29,7 @@ With the business-to-business-to-consumer \(B2B2C\) model, you can support busin
 -   Employees of a business customer.
 -   End consumers of a business customer.
 
-![Infographic showing supported business relationships between a company and its direct or business customers. For a text description, refer to the text that follows.](../image/customer-data-model-for-b2b2c.png)
+\[Omitted image "customer-data-model-for-b2b2c.png"\] Alt text: Infographic showing supported business relationships between a company and its direct or business customers. For a text description, refer to the text that follows.
 
 The business-to-business-to-consumer \(B2B2C\) data model supports different multi-level relationships between a company and the following types of customers:
 
@@ -43,7 +46,7 @@ For details on the advantages of using the B2B2C Data Model application, see the
 -   Enable service provider to have a complete view of the end consumers where they hold the relationship as direct customers \(B2C\) or through a business customer \(B2B2C\).
 -   Reduce costs by enabling self-service for various relationships \(B2C, B2B2C, B2B2E\).
 
-To get started with this application, see [Configure Customer Data Models for B2B2C](configure-customer-data-model-b2b2c.md).
+To get started with this application, see [Configure Customer Data Models for B2B2C](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-customer-data-model-b2b2c.md).
 
-To use this application, see [Using Customer Data Models for B2B2C](using-b2b2c.md).
+To use this application, see [Using Customer Data Models for B2B2C](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/using-b2b2c.md).
 

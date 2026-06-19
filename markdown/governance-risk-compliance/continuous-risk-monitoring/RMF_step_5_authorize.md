@@ -2,6 +2,7 @@
 title: Risk Management Framework \(RMF\) step 5 - Authorize the authorization package
 description: Request final approval to operate, download the Authority to Operate report granting privileges, and set next authorization and engagement dates to define the validity of the package.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/continuous-risk-monitoring/RMF\_step\_5\_authorize.html
 release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -25,7 +26,7 @@ Before you authorize the authorization package the system owner must review and 
 
 1.  When the review is complete for an authorization package in the Access state, select **Authorize**.
 
-2.  You can select **Generate Report\(s\)** to generate a FedRAMP System Security Plan \(SSP\) document for the authorization package in PDF format.![Authorizing the Authorization Package](../image/rmf-5-authorize-ssp.png)
+2.  You can select **Generate Report\(s\)** to generate a FedRAMP System Security Plan \(SSP\) document for the authorization package in PDF format.\[Omitted image "rmf-5-authorize-ssp.png"\] Alt text: Authorizing the Authorization Package
 
 3.  When you’re satisfied that all is in order, select **Request Approval**.
 

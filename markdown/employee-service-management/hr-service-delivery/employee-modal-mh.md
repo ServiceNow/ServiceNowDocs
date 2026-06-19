@@ -2,6 +2,7 @@
 title: View employee details
 description: Use the employee modal for a quick overview of your employee's details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/employee-modal-mh.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

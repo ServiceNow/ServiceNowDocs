@@ -2,6 +2,7 @@
 title: Proactive Prompts dashboard
 description: Use the Proactive Prompts dashboard to view the usage analytics and key metrics of the prompts that are generated to provide actionable insights in the flow of work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/proactive-prompts/proactive-prompts-dashboard.html
 release: zurich
 product: Proactive Prompts
 classification: proactive-prompts
@@ -21,7 +22,7 @@ To access the dashboard, navigate to **All** &gt; **Proactive Prompts** &gt; **A
 
 Dashboard Viewer \(sn\_pp.dashboard\_viewer\) can view the dashboard with various prompt metrics for the selected time period.
 
-![Proactive prompts analytics dashboard](../image/proactive-prompts-dasboard.png)
+\[Omitted image "proactive-prompts-dasboard.png"\] Alt text: Proactive prompts analytics dashboard
 
 ## Reports and indicators
 

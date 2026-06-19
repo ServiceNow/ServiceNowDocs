@@ -2,6 +2,7 @@
 title: Run a contract report
 description: A variety of contract reports are available to help track and manage contracts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/contract-management/t\_CreatingContractReports.html
 release: zurich
 product: Contract Management
 classification: contract-management
@@ -41,5 +42,5 @@ Role required: contract\_manager or admin
     |Expiring Contracts|All contracts expiring in the next 90 days.|
 
 
-**Parent Topic:**[Monitor a contract](t_MonitoringContracts.md)
+**Parent Topic:**[Monitor a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/contract-management/t_MonitoringContracts.md)
 

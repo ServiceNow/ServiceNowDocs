@@ -2,6 +2,7 @@
 title: Upgrade Management references
 description: Find all the miscellaneous information about Upgrade Management in this section.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/upgrade-management/um-references.html
 release: zurich
 product: Upgrade Management
 classification: upgrade-management
@@ -15,8 +16,8 @@ breadcrumb: [Upgrade Console, Upgrade, Administer]
 
 Find all the miscellaneous information about Upgrade Management in this section.
 
--   **[Upgrade Management roles](um-roles.md)**  
+-   **[Upgrade Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-roles.md)**  
 Upgrade Management is installed with these roles.
 
-**Parent Topic:**[Upgrade Console](../concept/um-landing-page.md)
+**Parent Topic:**[Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-landing-page.md)
 

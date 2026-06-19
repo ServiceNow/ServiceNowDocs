@@ -2,6 +2,7 @@
 title: Cloud Configuration Governance Policy form
 description: The Cloud Configuration Governance Policy form displays detailed information about the policy such as cloud provider, resource type, policy type, and policy violation reporting settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-cloud-accelerate/ccg-policy-form.html
 release: zurich
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -46,7 +47,7 @@ Resource type
 
 </td><td>
 
-Cloud resource type to be scanned through the policy. If the required resource type is not available, you can create a resource type. For more information, see [Create a resource collector](../task/create-ccg-resource-collector.md).
+Cloud resource type to be scanned through the policy. If the required resource type is not available, you can create a resource type. For more information, see [Create a resource collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/create-ccg-resource-collector.md).
 
 </td></tr></tbody>
 </table>## Policy condition
@@ -71,7 +72,7 @@ Cloud Configuration Governance supports the following types:-   **Condition buil
 -   **Integration Hub Flow**: The low-code method for creating policies.
 -   **Script**: The code-based method for creating policies.
 
- Select the show available keys icon \(![Show available keys icon.](../image/show-available-keys-icon.png)\) to view the list of all available configuration keys for the selected resource type. You can use any of the keys in the policy.
+ Select the show available keys icon \(\[Omitted image "show-available-keys-icon.png"\] Alt text: Show available keys icon.\) to view the list of all available configuration keys for the selected resource type. You can use any of the keys in the policy.
 
 </td></tr><tr><td>
 
@@ -125,9 +126,9 @@ Condition script
 
 </td><td>
 
-Script that implements the policy conditions to identify and report the policy violations. Cloud Configuration Governance contains several scriptable objects and variables for use in the policy scripts. For more information see, [Scripting reference](ccg-scripting-reference.md).
+Script that implements the policy conditions to identify and report the policy violations. Cloud Configuration Governance contains several scriptable objects and variables for use in the policy scripts. For more information see, [Scripting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/ccg-scripting-reference.md).
 
- You can create script includes to externalize the decision making and reuse the code across different scripts. For more information on creating the script includes, see [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+ You can create script includes to externalize the decision making and reuse the code across different scripts. For more information on creating the script includes, see Script includes.
 
  **Note:** If you create a custom audit result record through the script, then the **Audit Violation Reporting** configuration defined in the policy doesn’t take effect.
 
@@ -154,7 +155,7 @@ Report violation as
 
 Violation definition to be included in the audit violation report. Cloud Configuration Governance uses the violation definition to report the policy non-compliances.If an appropriate violation definition is not available, you can create one as follows:
 
-1.  Select the lookup using list icon \(![Lookup using list icon.](../image/lookup-using-list.png)\).
+1.  Select the lookup using list icon \(\[Omitted image "lookup-using-list.png"\] Alt text: Lookup using list icon.\).
 2.  Select **New**.
 3.  Enter a name that uniquely identifies the violation definition.
 
@@ -172,5 +173,5 @@ Severity
 Severity level of the violation. If you do not select the severity level in the policy, Cloud Configuration Governance uses the default severity defined in the violation definition.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Configuration Governance reference](ccg-reference.md)
+</table>**Parent Topic:**[Cloud Configuration Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/ccg-reference.md)
 

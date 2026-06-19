@@ -2,6 +2,7 @@
 title: Workday configuration for performance goals report
 description: Retrieve the Goals details based on Organization by creating the performance goals report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/wdhr-performance-goals-rep.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
@@ -40,53 +41,53 @@ Role required: User with access to report creation and the Goals by Organization
 
 6.  Do not select the **Temporary report** option and click **OK**.
 
-    ![RPT Employee Goals.](../image/wd-config-perf-goal1.png)
+    \[Omitted image "wd-config-perf-goal1.png"\] Alt text: RPT Employee Goals.
 
 7.  Select the report business object and report fields.
 
-    ![Workday performance goals.](../image/wdhr-performance-goals-rep-2.png)
+    \[Omitted image "wdhr-performance-goals-rep-2.png"\] Alt text: Workday performance goals.
 
-    ![Workday performance goals.](../image/wdhr-performance-goals-rep-3.png)
+    \[Omitted image "wdhr-performance-goals-rep-3.png"\] Alt text: Workday performance goals.
 
-    ![Workday performance goals.](../image/wdhr-performance-goals-rep-4.png)
+    \[Omitted image "wdhr-performance-goals-rep-4.png"\] Alt text: Workday performance goals.
 
-    ![Workday performance goals.](../image/wdhr-performance-goals-rep-5.png)
+    \[Omitted image "wdhr-performance-goals-rep-5.png"\] Alt text: Workday performance goals.
 
-    ![Workday performance goals.](../image/wdhr-performance-goals-rep-6.png)
+    \[Omitted image "wdhr-performance-goals-rep-6.png"\] Alt text: Workday performance goals.
 
-    ![Workday performance goals.](../image/wdhr-performance-goals-rep-7.png)
+    \[Omitted image "wdhr-performance-goals-rep-7.png"\] Alt text: Workday performance goals.
 
-    ![Workday performance goals.](../image/wdhr-performance-goals-rep-8.png)
+    \[Omitted image "wdhr-performance-goals-rep-8.png"\] Alt text: Workday performance goals.
 
 8.  In **Prompts** section, select the highlighted effective date as **prompt for effective as of date** and select the **Populate Undefined Prompt Defaults** option.
 
-    ![Workday performance goals.](../image/wdhr-performance-goals-rep-9.png)
+    \[Omitted image "wdhr-performance-goals-rep-9.png"\] Alt text: Workday performance goals.
 
 9.  Select the value of prompts under Prompt default section.
 
     Make sure the **Label For Prompt XML Alias** of all prompt fields must be same.
 
-    ![Workday performance goals.](../image/wdhr-performance-goals-rep-10.png)
+    \[Omitted image "wdhr-performance-goals-rep-10.png"\] Alt text: Workday performance goals.
 
 10. In **Advanced** section, select **Enable as webservice** option and click **OK**.
 
 11. Click on three dots icon and navigate to **Web Services** &gt; **View URLs** option once report configuration is done.
 
-    ![Workday performance goals.](../image/wdhr-performance-goals-rep-11.png)
+    \[Omitted image "wdhr-performance-goals-rep-11.png"\] Alt text: Workday performance goals.
 
 12. Select any organization in **Organizations** parameter and optionally select the **Include manager** and **Include subordinate organizations** options, then click **OK**.
 
-    ![Workday performance goals.](../image/wdhr-performance-goals-rep-12.png)
+    \[Omitted image "wdhr-performance-goals-rep-12.png"\] Alt text: Workday performance goals.
 
 13. In View URLs Web Service page, click the marked icon under the **CSV** section.
 
     A new browser tab is opened.
 
-    ![Workday performance goals.](../image/wdhr-performance-goals-rep-13.png)
+    \[Omitted image "wdhr-performance-goals-rep-13.png"\] Alt text: Workday performance goals.
 
     The RaaS URL of the report is displayed in new browser tab and you can obtain these details from the link.
 
-    ![Workday performance goals.](../image/wdhr-performance-goals-rep-14.png)
+    \[Omitted image "wdhr-performance-goals-rep-14.png"\] Alt text: Workday performance goals.
 
     -   `https://wd2-impl-services1.workday.com` is the base URL of customer's workday tenant.
     -   **Tenant\_Name** is the customer's workday tenant.

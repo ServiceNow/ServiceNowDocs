@@ -2,6 +2,7 @@
 title: Scripted REST APIs good practices
 description: Follow these guidelines when designing and implementing scripted REST APIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-api-explorer/scripted-rest-good-practices.html
 release: zurich
 product: REST API Explorer
 classification: rest-api-explorer
@@ -66,5 +67,5 @@ Build tests that verify your scripted REST web services functionality as part of
 
 Tests should validate the response code, headers, and body content as appropriate for each resource you implement. You can also use tests to validate authentication requirements, and to confirm that errors return useful responses.
 
-**Parent Topic:**[Scripted REST APIs](../../../../integrate/custom-web-services/concept/c_CustomWebServices.md)
+**Parent Topic:**[Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_CustomWebServices.md)
 

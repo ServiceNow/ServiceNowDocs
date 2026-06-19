@@ -2,6 +2,7 @@
 title: System Upgrade form
 description: When an upgrade is complete, the System Upgrades form displays key statistics about the upgrade and a related list of skipped records \(the skipped list\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/upgrade-center/uc-system-upgrades-form.html
 release: zurich
 product: Upgrade Center
 classification: upgrade-center
@@ -15,7 +16,7 @@ breadcrumb: [Process the skipped records list, Scheduling and monitoring an upgr
 
 When an upgrade is complete, the System Upgrades form displays key statistics about the upgrade and a related list of skipped records \(the skipped list\).
 
-![Image showing the System Upgrades form](../image/uc-system-upgrade-form.png)
+\[Omitted image "uc-system-upgrade-form.png"\] Alt text: Image showing the System Upgrades form
 
 <table id="table_b5b_p14_dlb"><thead><tr><th>
 

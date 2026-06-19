@@ -2,6 +2,7 @@
 title: Subscriptions for Software Asset Management
 description: The ServiceNow platform uses a licensing method where your organization is charged for using the IT Asset Management applications- ServiceNow Software Asset Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/sam-subscription.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -15,12 +16,14 @@ breadcrumb: [Software Asset Management, IT Asset Management]
 
 The ServiceNow platform uses a licensing method where your organization is charged for using the IT Asset Management applications- ServiceNow Software Asset Management.
 
-Software Asset Management licensing enables you to pay for resource categories that you use. To calculate the cost, Software Asset Management uses Subscription Units. A Subscription Unit is a unit of measure used to Managed IT Resources using defined ratios. The customer value of managing different types of IT resources varies. Subscription Units allows for a single unit price to be applied via ratios to those different IT resource type to reflect that varying customer value. To know more about managed IT resources and Subscription Unit ratios, see the Subscription Unit Overview on the [https://www.servicenow.com/products/entitlements-packages.html](https://www.servicenow.com/products/entitlements-packages.html).
+Software Asset Management licensing is based on the resource categories you use. To calculate costs, Software Asset Management uses Subscription Units, a standardized unit of measure for managed IT resources, applied through defined ratios.
 
--   **[Managed IT Resource types](managed-it-resource-types.md)**  
+Since the value of managing different types of IT resources varies, Subscription Units use these ratios to reflect that difference. This allows a single unit price to be applied consistently across different IT resource types. To learn more about managed IT resources and subscription unit ratios, see the Subscription Unit Overview on the [https://www.servicenow.com/products/entitlements-packages.html](https://www.servicenow.com/products/entitlements-packages.html).
+
+-   **[Managed IT Resource types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/managed-it-resource-types.md)**  
 There are five IT Resource categories in ServiceNow Software Asset Management - Server, End User Computing Device, SaaS Subscription User, PaaS Resources, and IaaS Storage.
--   **[View license report for the IT Asset Management application](../../hardware-asset-management/task/view-itam-license-sum.md)**  
+-   **[View license report for the IT Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/view-itam-license-sum.md)**  
 Resources that the IT Asset Management applications discover, monitor, and provision are configuration items \(CIs\) stored in the CMDB. The ITAM licensing module combines this information on CIs with the information on subscriptions your organization purchased to produce statistics on subscription use by IT Asset Management applications.
 
-**Parent Topic:**[Software Asset Management](c_SoftwareAssetMgmt.md)
+**Parent Topic:**[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)
 

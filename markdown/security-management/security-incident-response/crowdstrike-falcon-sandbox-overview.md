@@ -2,6 +2,7 @@
 title: CrowdStrike Falcon X Sandbox for Security Operations integration
 description: With the CrowdStrike Falcon X Sandbox for Security Operations integration, you can submit files and URLs as part of the security incident response process to CrowdStrike Falcon X Sandbox to perform a detailed malware and threat analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/crowdstrike-falcon-sandbox-overview.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -55,7 +56,7 @@ ServiceNow product documentation website
 
 </td><td>
 
-[ServiceNow Product Documentation website](https://servicenow.com/docs)
+[ServiceNow Product Documentation website](https://www.servicenow.com/docs)
 
 </td></tr></tbody>
 </table>

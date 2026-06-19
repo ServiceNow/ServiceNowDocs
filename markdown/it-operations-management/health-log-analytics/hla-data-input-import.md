@@ -2,6 +2,7 @@
 title: Import a Health Log Analytics data input to a target instance
 description: Import a data input configuration that you've exported from another instance as an update set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-data-input-import.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -18,9 +19,9 @@ Import a data input configuration that you've exported from another instance as 
 
 ## Before you begin
 
-For an overview of this feature, see [Migrating a Health Log Analytics data input configuration between instances](../concept/hla-data-input-migration.md).
+For an overview of this feature, see [Migrating a Health Log Analytics data input configuration between instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-migration.md).
 
-Before performing this procedure, export the data input to an update set. For more information, see [Export a Health Log Analytics data input configuration](hla-data-input-migrate.md).
+Before performing this procedure, export the data input to an update set. For more information, see [Export a Health Log Analytics data input configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-migrate.md).
 
 Role required: admin
 
@@ -48,7 +49,7 @@ Role required: admin
 
     3.  Close the dialog and resolve the errors in the **Update Set Preview Problems** related list.
 
-        For more information, see [Preview a remote update set](https://www.servicenow.com/docs/access?context=t_PreviewARemoteUpdateSet&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+        For more information, see Preview a remote update set.
 
         You can ignore errors that start with 'Could not find a record in \[table\]' for the following tables:
 
@@ -84,12 +85,12 @@ Role required: admin
         **Note:** Whether you need to configure credentials depends on the data input that you've imported. For example, you must configure Amazon Web Services \(AWS\) credentials for Amazon CloudWatch and Amazon S3 data inputs.
 
     -   \(Optional\) The service instance to which to bind the log data.
-    For more information, see the configuration documentation for the relevant data input: [Set up data inputs in Health Log Analytics manually](hla-data-input-setup-manual.md).
+    For more information, see the configuration documentation for the relevant data input: [Set up data inputs in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-setup-manual.md).
 
 
 ## Result
 
 You can begin using the data input for streaming and processing log data.
 
-**Parent Topic:**[Migrating a Health Log Analytics data input configuration between instances](../concept/hla-data-input-migration.md)
+**Parent Topic:**[Migrating a Health Log Analytics data input configuration between instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-migration.md)
 

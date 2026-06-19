@@ -2,6 +2,7 @@
 title: Activate Process Inefficiency Highlights skill
 description: Activate the Process Inefficiency Highlights skill to be able to use Now Assist for Process Mining to generate highlights for improvement opportunities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/activate-highlight-skills.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -29,10 +30,10 @@ Role required: admin
 
 4.  Select **Turn on** for the Process Inefficiency Highlights skill.
 
-    ![Process Inefficiency Highlights skill activated](../image/skill-acti-highli.png)
+    \[Omitted image "skill-acti-highli.png"\] Alt text: Process Inefficiency Highlights skill activated
 
     The skill is activated for your instance.
 
 
-**Parent Topic:**[Working with process inefficiency highlights using Now Assist](../concept/highlights.md)
+**Parent Topic:**[Working with process inefficiency highlights using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/highlights.md)
 

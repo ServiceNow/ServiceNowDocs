@@ -2,6 +2,7 @@
 title: Manage processing for a high number of concurrent vaccine events
 description: Manage multiple parallel queues to help process vaccine events run in a parallel mode. You can distribute the vaccine queue events process to different nodes rather than keeping the load on a single node.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/vaccine-administration-management/managing-high-number-of-concurrent-vaccine-events.html
 release: zurich
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -38,5 +39,5 @@ You can implement the vaccine queue events process flow in a parallel mode. With
     This configuration creates multiple sys\_trigger records for each node.
 
 
-**Parent Topic:**[Configuring Vaccine Administration Management](vaccine-mgmt-config.md)
+**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 

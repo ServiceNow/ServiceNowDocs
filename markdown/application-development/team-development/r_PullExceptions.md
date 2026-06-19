@@ -2,6 +2,7 @@
 title: Pull exceptions
 description: A reference topic that covers versions that are ignored during pulling when certain conditions occur.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/r\_PullExceptions.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -23,5 +24,5 @@ A reference topic that covers versions that are ignored during pulling when cert
 |Previously resolved collisions|When you resolved a collision by accepting either the pulled version or local version of a record, the pull remembers your decision and accepts the version that you indicated as a previously resolved collision.|
 |Skipped version|Pulls skip versions where there’s a problem with the version record such as a corrupt or missing version.|
 
-**Parent Topic:**[Team Development Reference](team-development-reference.md)
+**Parent Topic:**[Team Development Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/team-development-reference.md)
 

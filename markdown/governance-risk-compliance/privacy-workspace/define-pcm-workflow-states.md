@@ -2,6 +2,7 @@
 title: Define the workflow states for a privacy case
 description: Define the workflow states for a privacy case that govern the lifecycle of the case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/define-pcm-workflow-states.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -122,5 +123,5 @@ Option to select the state as optional. This field appears only when **As node**
 6.  Select **Submit**.
 
 
-**Parent Topic:**[Create state model transition](prm-create-state-model-transition.md)
+**Parent Topic:**[Create state model transition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/prm-create-state-model-transition.md)
 

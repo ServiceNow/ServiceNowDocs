@@ -2,6 +2,7 @@
 title: ApcPduOutletReconciler - Global
 description: The ApcPduOutletReconciler API provides methods to reconcile outlets for power distribution units.Returns the reconciliation field.Returns the reconciliation key.Determines if the outlet state has changed.Reads the outlet database fields.Reads the discovered outlet database fields.Sets the outlet database fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_ApcPduOutletReconcilerAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The ApcPduOutletReconciler API provides methods to reconcile outlets for power d
 
 Use this API for SNMP-related discovery.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## ApcPduOutletReconciler - getReconcilationField\(\)
 

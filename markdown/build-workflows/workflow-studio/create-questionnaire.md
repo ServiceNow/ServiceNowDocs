@@ -2,6 +2,7 @@
 title: Create a questionnaire
 description: Create and insert a new questionnaire for agents to respond to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/create-questionnaire.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -19,7 +20,7 @@ Create and insert a new questionnaire for agents to respond to.
 
 Role required: admin, playbook\_admin, playbook\_author, or playbook\_content\_author
 
-Familiarize yourself with the [questionnaire activity inputs and outputs](../reference/questionnaire-activity.md).
+Familiarize yourself with the [questionnaire activity inputs and outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/questionnaire-activity.md).
 
 ## Procedure
 
@@ -81,7 +82,7 @@ After the activity starts, the activity runs only if specific conditions are met
 
 </td><td>
 
-Specify a duration of time to wait before running an activity whose start rule and conditions have been met. Give users a specific amount of time to complete actions. For more information, see [Start with delay input properties](../reference/start-with-delay-properties.md).
+Specify a duration of time to wait before running an activity whose start rule and conditions have been met. Give users a specific amount of time to complete actions. For more information, see [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/start-with-delay-properties.md).
 
 </td></tr><tr><td>
 
@@ -92,7 +93,7 @@ Specify a duration of time to wait before running an activity whose start rule a
 Choose what this activity does when a playbook is restarted:-   **Skip on restart**: Skip this activity when the playbook run is due to a restart.
 -   **Run always**: Always run this activity, including first runs.
 -   **Skip on first run**: Skip this activity during the first run.
-For more information, see [Restart a playbook](restart-a-playbook.md).
+For more information, see [Restart a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/restart-a-playbook.md).
 
 </td></tr></tbody>
 </table>4.  Under the **Questionnaire** tab, select **New questionnaire**.
@@ -102,5 +103,5 @@ For more information, see [Restart a playbook](restart-a-playbook.md).
     **Note:** In the canvas, hover over the activity to see additional actions to edit a questionnaire.
 
 
-**Parent Topic:**[Questionnaire activity](../reference/questionnaire-activity.md)
+**Parent Topic:**[Questionnaire activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/questionnaire-activity.md)
 

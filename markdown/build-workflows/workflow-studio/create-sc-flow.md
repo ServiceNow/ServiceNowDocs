@@ -2,6 +2,7 @@
 title: Create a flow with a Service Catalog trigger
 description: Start a flow when a Service Catalog item is requested to automate the fulfillment process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/create-sc-flow.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -37,7 +38,7 @@ Unlike a record trigger which runs on all records in a table, the Service Catalo
 
     3.  Complete the fields.
 
-        For a detailed description of catalog item fields, see [Catalog Item form](https://www.servicenow.com/docs/access?context=catalog-item-form&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+        For a detailed description of catalog item fields, see .
 
         **Note:** If you plan to add stages to your flow, verify that there is not an existing workflow associated with the item that also has stages. Clear the values of the **Workflow** and **Execution Plan** fields to prevent conflicting stages from reporting to the requested item stage field.
 
@@ -53,7 +54,7 @@ Unlike a record trigger which runs on all records in a table, the Service Catalo
 
     3.  Define the flow properties.
 
-        For more information, see [Create a flow in Workflow Studio](create-flow.md).
+        For more information, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-flow.md).
 
     4.  In the Trigger section, add a trigger and select **Service Catalog**.
 
@@ -61,19 +62,19 @@ Unlike a record trigger which runs on all records in a table, the Service Catalo
 
     5.  Create flow-specific catalog variables available only to flow actions.
 
-        See [Create flow Service Catalog variables](create-flow-catalog-variables.md).
+        See [Create flow Service Catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-flow-catalog-variables.md).
 
     6.  Add actions, subflows, and flow logic to the flow.
 
-        Some actions enable you to manage catalog items. For example, the Create Catalog Task action generates a task for the requested item, and the Get Catalog Variables action enables you to access catalog variables as data pills in the flow. See [Create Catalog Task action](../reference/create-catalog-task-flow-designer.md) and [Get Catalog Variables action](../reference/get-cat-variables-flow-designer.md).
+        Some actions enable you to manage catalog items. For example, the Create Catalog Task action generates a task for the requested item, and the Get Catalog Variables action enables you to access catalog variables as data pills in the flow. See [Create Catalog Task action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-catalog-task-flow-designer.md) and [Get Catalog Variables action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/get-cat-variables-flow-designer.md).
 
     7.  Add stages to the flow to report progress to the requester.
 
-        See [Flow and subflow stages](../concept/flow-designer-stages.md).
+        See [Flow and subflow stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-designer-stages.md).
 
     8.  Test the flow.
 
-        Once behaving as desired, activate the flow. For more information, see [Test a flow](flow-test.md) and [Activate a flow](flow-activate.md).
+        Once behaving as desired, activate the flow. For more information, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-test.md) and [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-activate.md).
 
         **Note:** You can't activate a flow if it references catalog variables that are inactive or don't exist.
 
@@ -98,5 +99,5 @@ Create and deploy catalog item records to your instances.
 
 **Note:** Service Catalog records are created in the global scope. They are not part of the source control or application repository transfer, and they are not part of the default Workflow Studio update set.
 
-**Parent Topic:**[Create a flow in Workflow Studio](create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-flow.md)
 

@@ -2,6 +2,7 @@
 title: GlideSession - Scoped
 description: The scoped GlideSession API provides methods to find information about the current session.Retrieves a session client value previously set with putClientData\(\).Returns the client IP address.Returns the application currently selected in the application picker.Returns the sys\_id of the current domain for the logged-in user session.Returns the session's language code.Returns the session token.Returns the name of the session's time zone.Returns the URL on the stack. Returns null if the stack is empty.Returns true if the user is impersonating another user.Returns true if the session is interactive.Returns true if the user is logged in.Sets a session client value that can be retrieved with getClientData\(\). This method is used in a server side script that runs when a form is created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_GlideSessionScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The scoped GlideSession API provides methods to find information about the curre
 
 There are no constructors for creating an instance of a scoped GlideSession object. Instead, use the getSession\(\) method of the scoped GlideSystem API.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## Scoped GlideSession - getClientData\(String paramName\)
 

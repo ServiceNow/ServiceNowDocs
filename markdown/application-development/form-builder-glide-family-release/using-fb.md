@@ -1,0 +1,29 @@
+---
+title: Using Table Builder
+description: Use Table Builder, to design and customize tables, forms, and form elements for users from a single interface without needing to navigate between existing ServiceNow AI Platform tools.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/form-builder-glide-family-release/using-fb.html
+release: zurich
+product: Form Builder \(Glide Family Release\)
+classification: form-builder-glide-family-release
+topic_type: concept
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Table Builder, Builder library, Developing your application, Building applications]
+---
+
+# Using Table Builder
+
+Use Table Builder, to design and customize tables, forms, and form elements for users from a single interface without needing to navigate between existing ServiceNow AI Platform tools.
+
+-   **[Data in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/form-builder-glide-family-release/table-builder.md)**  
+With Table Builder, you can modify the table properties and manage the fields that are available for a selected data table.
+-   **[Forms in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/form-builder-glide-family-release/form-view-configuration.md)**  
+On the **Forms** tab in Table Builder, you can visually create, configure, and customize the different form views for your users using the form editor. The views that you define contain the elements that appear when a user opens that form or list.
+-   **[Policies and rules in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/form-builder-glide-family-release/form-builder-policies-rules.md)**  
+Policies and rules define how information appears to users based on role and entries, as well as who can access tables and forms built in Table Builder.
+-   **[Flows in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/form-builder-glide-family-release/flows-tb.md)**  
+You can use the Workflow Studio functionality that is integrated within Table Builder to manage your table's record-based flows. You can manage these flows by using the **Flows** tab.
+
+**Parent Topic:**[Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/form-builder-glide-family-release/tb-landing-page.md)
+

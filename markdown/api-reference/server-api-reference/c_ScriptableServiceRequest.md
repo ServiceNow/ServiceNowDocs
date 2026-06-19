@@ -2,6 +2,7 @@
 title: RESTAPIRequest - Scoped, Global
 description: The RESTAPIRequest API provides methods that allow you to access scripted REST API request details in scripts.The body of the request.Returns the value of a specific header from the web service request.Get the content types specified in the request Accept header.All headers from the request.The path parameters passed in the request URI.The query parameters from the web service request.The entire query added to the endpoint URI.The request URI, excluding domain information.The entire request URL.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_ScriptableServiceRequest.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -19,7 +20,7 @@ This API runs in the `sn_ws` namespace.
 
 **Note:** You cannot instantiate objects of this type. Objects of this type are created automatically and are accessible only in scripted REST API resource scripts.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## RESTAPIRequest - body
 
@@ -27,7 +28,7 @@ The body of the request.
 
 |Name|Type|Description|
 |----|----|-----------|
-|body|[RESTAPIRequestBody](../../ScriptableServiceRequestBody/concept/c_ScriptableServiceRequestBody.md#)|The body of the request. You can access data from the body object using the RESTAPIRequestBody API.|
+|body|[RESTAPIRequestBody](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_ScriptableServiceRequestBody.md)|The body of the request. You can access data from the body object using the RESTAPIRequestBody API.|
 
 ```
 var requestBody = request.body // Returns instance of RESTAPIRequestBody

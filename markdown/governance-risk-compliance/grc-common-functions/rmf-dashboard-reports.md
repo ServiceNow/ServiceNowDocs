@@ -2,6 +2,7 @@
 title: NIST RMF Use Case Accelerator dashboards and reports
 description: The NIST RMF Use Case Accelerator contains various reports displayed on different dashboards, available within each of the sections in the NIST RMF process: Categorize, Select, Implement, Assess, Authorize, and Monitor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/rmf-dashboard-reports.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -15,7 +16,7 @@ breadcrumb: [\(Deprecated\) NIST RMF Use Case Accelerator, GRC use case accelera
 
 The NIST RMF Use Case Accelerator contains various reports displayed on different dashboards, available within each of the sections in the NIST RMF process: Categorize, Select, Implement, Assess, Authorize, and Monitor.
 
-**Note:** Starting with version 10.1.0, the NIST RMF Use Case Accelerator will be supported only for customers who currently use the product. New and existing customers should consider using the GRC: Continuous Authorization Monitoring application. For details, [Continuous Authorization and Monitoring](../../grc-cam/reference/grc-cam-landing-page.md).
+**Note:** Starting with version 10.1.0, the NIST RMF Use Case Accelerator will be supported only for customers who currently use the product. New and existing customers should consider using the GRC: Continuous Authorization Monitoring application. For details, [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/grc-cam-landing-page.md).
 
 |Reports|Purpose|
 |-------|-------|
@@ -162,5 +163,5 @@ Baseline Security Controls are recommended set of security controls from Nationa
 |Test Plan effectiveness|Provides an overview of the test plan effectiveness of security controls based on the effectiveness of the associated control tests.|
 |Risks|List of Risks grouped by profiles and associated with security controls.|
 
-**Parent Topic:**[\(Deprecated\) NIST RMF Use Case Accelerator](../concept/grc-and-nistrmf-usecase-accelerator.md)
+**Parent Topic:**[\(Deprecated\) NIST RMF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-and-nistrmf-usecase-accelerator.md)
 

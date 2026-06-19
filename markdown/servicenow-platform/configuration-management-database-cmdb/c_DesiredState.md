@@ -2,6 +2,7 @@
 title: Desired State
 description: Desired State performs scheduled or on-demand audits of CMDB data to determine which records match the expected attributes, CI relationships, and relationships to other records in the system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/c\_DesiredState.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

@@ -2,6 +2,7 @@
 title: Create an Apache Iceberg connection
 description: Establish a zero copy connection to Apache Iceberg in Workflow Data Fabric Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/workflow-data-fabric-hub/create-apache-iceberg-connection-primary.html
 release: zurich
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -47,15 +48,15 @@ Work with your data source admin to create a connection to Apache Iceberg. For a
 
 4.  Configure the object storage system that you want to use with Apache Iceberg.
 
-<table id="choicetable_q5x_dvj_xhc"><thead><tr><th align="left" id="d301592e238">
+<table id="choicetable_q5x_dvj_xhc"><thead><tr><th align="left" id="d304089e238">
 
 Option
 
-</th><th align="left" id="d301592e241">
+</th><th align="left" id="d304089e241">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d301592e247">
+</th></tr></thead><tbody><tr><td id="d304089e247">
 
 **Amazon S3**
 
@@ -67,7 +68,7 @@ Description
 4.  Configure the metastore that you want to use with Apache Iceberg.
 
 
-</td></tr><tr><td id="d301592e271">
+</td></tr><tr><td id="d304089e271">
 
 **Azure Data Lake Storage \(ADLS\)**
 
@@ -80,15 +81,15 @@ Enter the ADLS Access Key.
 
     **Note:** AWS Glue is only applicable when you select Amazon S3 as the object storage system.
 
-<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d301592e295">
+<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d304089e295">
 
 Option
 
-</th><th align="left" id="d301592e298">
+</th><th align="left" id="d304089e298">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d301592e304">
+</th></tr></thead><tbody><tr><td id="d304089e304">
 
 **Hive Thrift**
 
@@ -102,7 +103,7 @@ Description
 
 `thrift://<host>:<port>`
 
-</td></tr><tr><td id="d301592e339">
+</td></tr><tr><td id="d304089e339">
 
 **AWS Glue**
 
@@ -123,7 +124,7 @@ A test connection is made to the external data source, verifying that the connec
 
 ## What to do next
 
-If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](manage-access-connection-wdf.md).
+If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/manage-access-connection-wdf.md).
 
 If the connection fails, verify the connection details with your data source administrator and try again.
 

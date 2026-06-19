@@ -2,6 +2,7 @@
 title: Export financials as Excel or CSV file
 description: Export the costs or baseline comparison data of your planning items to easily share them with your stakeholders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/export-financials-pp.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -25,9 +26,9 @@ Role required: sn\_align\_ws.spw\_financial\_user
 
 2.  Select the **Financials** tab.
 
-3.  Select the Export option \(![Downward facing arrow indicating download option.](../../spw-financials/images/fin-export-option.png)\).
+3.  Select the Export option \(\[Omitted image "fin-export-option.png"\] Alt text: Downward facing arrow indicating download option.\).
 
-4.  In the Export side panel, select **Excel** or **CSV** from the File type list and select the **Export** button \(![Export button.](../../spw-financials/images/fin-export-button.png)\).
+4.  In the Export side panel, select **Excel** or **CSV** from the File type list and select the **Export** button \(\[Omitted image "fin-export-button.png"\] Alt text: Export button.\).
 
     The financials data is download as an Excel or CSV file with `name_fin_mmddyy` naming convention. The breakdown of the naming convention:
 

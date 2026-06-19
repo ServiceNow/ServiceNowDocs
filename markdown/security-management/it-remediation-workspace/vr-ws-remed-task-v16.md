@@ -2,6 +2,7 @@
 title: View configuration items with vulnerabilities in the IT Remediation Workspace
 description: The following enhancements were added to remediation tasks with version 16.1 of the Vulnerability Response application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/it-remediation-workspace/vr-ws-remed-task-v16.html
 release: zurich
 product: IT Remediation Workspace
 classification: it-remediation-workspace
@@ -44,8 +45,8 @@ See the configuration items \(CI\)s that are assigned to you that have vulnerabi
 
     |Option|Description|
     |------|-----------|
-    |**Assigned remediation tasks**|Remediation tasks \(RT\). For more information about the actions you can take from an RT, see [Use remediation task records in the IT Remediation Workspace](vr-ws-remed-task.md).|
-    |**Preferred solution on VIs**|Records \(VITs\) that have preferred solutions mapped to them. If the Vulnerability Solution Management application is installed, Preferred Solutions are the highest-superseding solutions that are applied to records. The list of solutions is based on the records in the remediation task record. To see what you can do from solution records, see [Use remediation task records in the IT Remediation Workspace](vr-ws-remed-task.md).|
+    |**Assigned remediation tasks**|Remediation tasks \(RT\). For more information about the actions you can take from an RT, see [Use remediation task records in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/it-remediation-workspace/vr-ws-remed-task.md).|
+    |**Preferred solution on VIs**|Records \(VITs\) that have preferred solutions mapped to them. If the Vulnerability Solution Management application is installed, Preferred Solutions are the highest-superseding solutions that are applied to records. The list of solutions is based on the records in the remediation task record. To see what you can do from solution records, see [Use remediation task records in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/it-remediation-workspace/vr-ws-remed-task.md).|
     |**Impacted CIs**|\(CI\)s with vulnerabilities. After its initial population, this scorecard shows updated counts of your vulnerable CIs after new VIs that have vulnerabilities are added, or when there are state changes to existing VIs. See the following steps for how to view this record and what you can do from this list.|
 
 4.  Click the **Impacted CIs** scorecard.

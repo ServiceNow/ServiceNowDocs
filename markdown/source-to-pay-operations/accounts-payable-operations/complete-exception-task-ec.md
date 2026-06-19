@@ -2,6 +2,7 @@
 title: Mark an exception task as complete from Employee Center
 description: As a task owner, when you finish working on an assigned exception task, you can mark the task as complete from Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/complete-exception-task-ec.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -29,7 +30,7 @@ Role required: sn\_shop.invoice\_owner or sn\_ap\_cm.task\_owner
 
     The Marking the task complete dialog box is displayed.
 
-4.  Enter your comments and select **Mark Complete**.![Mark exception task as complete](../image/apo-mark-complete.png)
+4.  Enter your comments and select **Mark Complete**.\[Omitted image "apo-mark-complete.png"\] Alt text: Mark exception task as complete
 
     The status of the exception task changes to Closed complete.
 
@@ -38,5 +39,5 @@ Role required: sn\_shop.invoice\_owner or sn\_ap\_cm.task\_owner
 
 The assigned exception task is marked as complete from the Employee Center.
 
-**Parent Topic:**[Work on an invoice exception](work-invoice-exception-case.md)
+**Parent Topic:**[Work on an invoice exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/work-invoice-exception-case.md)
 

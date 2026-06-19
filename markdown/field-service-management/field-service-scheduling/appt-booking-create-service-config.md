@@ -2,6 +2,7 @@
 title: Create or modify service configuration for Appointment Booking
 description: Service-level appointment booking enables customers to easily schedule specific services by customizing appointment availability, lead times, notifications, and booking rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/appt-booking-create-service-config.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -51,9 +52,9 @@ Use appointment schedule
 
 </td><td>
 
-Option to configure schedule based on appointment window and service mapping configurations. For more information, see [Create an Appointment schedule](create-appt-sched.md)**Note:**
+Option to configure schedule based on appointment window and service mapping configurations. For more information, see [Create an Appointment schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/create-appt-sched.md)**Note:**
 
-The Advanced Appointment Booking plugin is required to use appointment schedules. For more information, see [Activate Advanced Appointment Booking](activate-adv-appt-booking.md).
+The Advanced Appointment Booking plugin is required to use appointment schedules. For more information, see [Activate Advanced Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/activate-adv-appt-booking.md).
 
 .
 
@@ -91,11 +92,11 @@ Availability Method
 
 Use one of the methods to determine appointment availability. The selection depends on the Field Service Management configuration setting in the **Assignment method for tasks** field: -   **Number of appointments per slot**: Sets a fixed number of available appointments per time slot. Recommended if task assignment is manual.
 -   **Scripted**: Dynamically calculates availability based on Field Service Management settings. Recommended if auto-assignment or dynamic scheduling is used. This is the default setting.
--   **Based on capacity**: Calculates availability based on the capacity defined in the capacity management settings. For more information, see [Create a capacity assignment](../concept/assign-work-based-on-the-defined-capacity-.md)
+-   **Based on capacity**: Calculates availability based on the capacity defined in the capacity management settings. For more information, see [Create a capacity assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/assign-work-based-on-the-defined-capacity-.md)
 
 This option is available when the Task Table is selected as work\_order and Field Service Capacity and Reservations Management plugin is installed.
 
-For more information on appointment availability methods, see [Learn about appointment availability settings](../reference/appt-booking-task-assignment.md).
+For more information on appointment availability methods, see [Learn about appointment availability settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/appt-booking-task-assignment.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -161,7 +162,7 @@ Appointment is mandatory
 
 </td><td>
 
-Enable this check box if it is mandatory that a customer create an appointment when requesting this service. -   If enabled, the **Appointment** field appears on the record producer and the user must select an available appointment on the [Select Appointment window](../reference/appt-booking-select-appt-window.md) before submitting the service request.
+Enable this check box if it is mandatory that a customer create an appointment when requesting this service. -   If enabled, the **Appointment** field appears on the record producer and the user must select an available appointment on the [Select Appointment window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/appointment-booking/appt-booking-select-appt-window.md) before submitting the service request.
 -   If disabled, the user can submit the service request without selecting an appointment.
 
 
@@ -353,5 +354,5 @@ The service-level appointment booking configuration is set up or updated. Users 
 
 ## What to do next
 
-For further customization, you can create **service configuration rules** to define specific booking conditions or exceptions for individual locations or scenarios. For more information, see [Create service configuration rules for a service configuration](create-appt-booking-service-config-rules.md).
+For further customization, you can create **service configuration rules** to define specific booking conditions or exceptions for individual locations or scenarios. For more information, see [Create service configuration rules for a service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/create-appt-booking-service-config-rules.md).
 

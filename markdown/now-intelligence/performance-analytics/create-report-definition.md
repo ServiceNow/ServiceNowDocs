@@ -2,6 +2,7 @@
 title: Create a report definition
 description: You can create a new KPI Composer report definition directly from the relevant artifact in the Data Definition tab. Fill the report definition with the necessary information for creating a report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/create-report-definition.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -17,7 +18,7 @@ You can create a new KPI Composer report definition directly from the relevant a
 
 ## Before you begin
 
-You have an existing [KPI Composer project](../concept/kpi-composer-projects.md) with a complete draft of the [KPI tree](../concept/design-kpi-tree.md#) in the Analytics tab. You also need technical knowledge of Reporting.
+You have an existing [KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/kpi-composer-projects.md) with a complete draft of the [KPI tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/design-kpi-tree.md) in the Analytics tab. You also need technical knowledge of Reporting.
 
 **Note:** This feature supports only Core UI reports on Core UI dashboards. If you install KPI Composer 4.2.8 from the ServiceNow® Store, only users with the pa\_admin role will be able to use the Dashboard Visualization tab or create report definitions on new projects.
 
@@ -48,5 +49,5 @@ Role required: sn\_kpi\_composer.admin or admin to link to an existing report, s
     You can write the conditions in plain text instead of the condition builder syntax.
 
 
-**Parent Topic:**[Defining indicators and reports](../concept/designing-indicators.md)
+**Parent Topic:**[Defining indicators and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/designing-indicators.md)
 

@@ -2,6 +2,7 @@
 title: Exploring MetricBase
 description: Collect, retain, analyze, and act on time-series data using MetricBase.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/metricbase/exploring-metricbase.html
 release: zurich
 product: MetricBase
 classification: metricbase
@@ -44,7 +45,7 @@ MetricBase works with:
 
 The following figure shows that machine-generated data is sampled every 4 seconds. You send the average of the values in each sampling period to the MetricBase database, which stores the data until its expiration date.
 
-![Infographic showing how machine-generated data is sampled at regular intervals and sent to the MetricBase database by the API. For details, refer to the following description.](../image/mb-time-series-data.png "Storing time series data")
+\[Omitted image "mb-time-series-data.png"\] Alt text: Infographic showing how machine-generated data is sampled at regular intervals and sent to the MetricBase database by the API. For details, refer to the following description.
 
 1.  The administrator specifies a metric to store and how often to collect it by creating a time-series definition in MetricBase.
 2.  The administrator sends data from the instance to the MetricBase server using the MetricBase REST or JavaScript APIs.
@@ -56,19 +57,19 @@ The following figure shows that machine-generated data is sampled every 4 second
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Store time series summary of a large collection of data|[Create a time-series definition in MetricBase](../task/set-up-data-monitoring.md)|Administrator|
-|Insert and retrieve time-series data from the MetricBase database|[Developer resources](developer-resources.md)|Administrator|
-|Access and visualize time-series data in the MetricBase database|[Accessing MetricBase data](accessing-metricbase-data.md)|Administrator|
-|Trigger flows when new data is significantly different than the trained data|[Detecting anomalies in MetricBase data using predictive models](metricbase-predictive-models.md)|Administrator|
-|Trigger flows that can log incidents, send emails, and create other alerts|[Triggering flows using MetricBase data](metricbase-triggers.md)|Administrator|
+|Store time series summary of a large collection of data|[Create a time-series definition in MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/metricbase/set-up-data-monitoring.md)|Administrator|
+|Insert and retrieve time-series data from the MetricBase database|[Developer resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/metricbase/developer-resources.md)|Administrator|
+|Access and visualize time-series data in the MetricBase database|[Accessing MetricBase data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/metricbase/accessing-metricbase-data.md)|Administrator|
+|Trigger flows when new data is significantly different than the trained data|[Detecting anomalies in MetricBase data using predictive models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/metricbase/metricbase-predictive-models.md)|Administrator|
+|Trigger flows that can log incidents, send emails, and create other alerts|[Triggering flows using MetricBase data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/metricbase/metricbase-triggers.md)|Administrator|
 
 ## What to explore next
 
 To learn more about configuring and using MetricBase, see:
 
--   [Configuring MetricBase](configuring-metricbase.md)
--   [Defining and collecting MetricBase data](collecting-metricbase-data.md)
--   [Triggering flows using MetricBase data](metricbase-triggers.md)
--   [Managing MetricBase](maintain-metricbase.md#)
--   [MetricBase reference](reference-metricbase.md)
+-   [Configuring MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/metricbase/configuring-metricbase.md)
+-   [Defining and collecting MetricBase data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/metricbase/collecting-metricbase-data.md)
+-   [Triggering flows using MetricBase data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/metricbase/metricbase-triggers.md)
+-   [Managing MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/metricbase/maintain-metricbase.md)
+-   [MetricBase reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/metricbase/reference-metricbase.md)
 

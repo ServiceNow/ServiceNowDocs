@@ -2,6 +2,7 @@
 title: Safe Workplace Dashboard
 description: The ServiceNow Safe Workplace Dashboard provides leaders in HR, Workplace Services, and Health &amp; Safety with a complete view of operations. Leaders have visual insight into the status of work sites and users to determine whether a site is ready to resume a safe operation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace-dashboard/safe-workplace-dashboard.html
 release: zurich
 product: Safe Workplace Dashboard
 classification: safe-workplace-dashboard
@@ -17,7 +18,7 @@ The ServiceNow® Safe Workplace Dashboard provides leaders in HR, Workplace Serv
 
 The Safe Workplace Dashboard relies on ServiceNow® Performance Analytics Premium features to evaluate and display data that comes from other Safe Workplace suite applications and the COVID-19 Global Health Data Set.
 
-![The Safe Workplace Dashboard provides a geographic view of locations and employees and includes COVID-19 data via the COVID-19 Global Health Data Set.](../image/safe-workplace-dashboard-n.png "Safe Workplace Dashboard and Safe Workplace suite applications")
+\[Omitted image "safe-workplace-dashboard-n.png"\] Alt text: The Safe Workplace Dashboard provides a geographic view of locations and employees and includes COVID-19 data via the COVID-19 Global Health Data Set.
 
 Install and configure the listed Safe Workplace suite and Emergency Response Management applications. Follow the configuration instructions to ensure that the data feeds to the dashboard successfully.
 
@@ -25,7 +26,7 @@ Install and configure the listed Safe Workplace suite and Emergency Response Man
 
 -   **Use guided setup to implement Safe Workplace suite apps**
 
-    The Safe Workplace guided setup provides a sequence of tasks that help you configure the Safe Workplace and Emergency Response Management applications on your ServiceNow instance. To open the Safe Workplace guided setup, navigate to **Guided Setup** &gt; **Safe Workplace Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    The Safe Workplace guided setup provides a sequence of tasks that help you configure the Safe Workplace and Emergency Response Management applications on your ServiceNow instance. To open the Safe Workplace guided setup, navigate to **Guided Setup** &gt; **Safe Workplace Guided Setup**. For more information about using the guided setup interface, see Using guided setup.
 
 
 ## Safe Workplace suite for federal customers
@@ -87,14 +88,14 @@ ServiceNow is offering this application to government agencies and their authori
 
 All decisions in connection with the implementation of this application are at the sole decision of the government agency utilizing this application. Agencies remain solely responsible for complying with their legal obligations under applicable laws and regulations, including \(but not limited to\) data protection and employment laws and regulations, and should modify any language within the templates provided to meet the agency’s specific requirements.
 
--   **[Install the Safe Workplace Dashboard](../task/install-safe-workplace-dashboard.md#)**  
+-   **[Install the Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace-dashboard/install-safe-workplace-dashboard.md)**  
 Install the Safe Workplace Dashboard application. You can install this application If you have the admin role.
--   **[Create a campus to appear on the Safe Workplace Dashboard](configrng-safe-workplce-dshbrd.md)**  
+-   **[Create a campus to appear on the Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace-dashboard/configrng-safe-workplce-dshbrd.md)**  
 You can create a campus from existing locations to appear on the Safe Workplace Dashboard.
--   **[Alert types used with the Safe Workplace Dashboard](../reference/safe-wkplc-dashboard-alert-types.md)**  
+-   **[Alert types used with the Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace-dashboard/safe-wkplc-dashboard-alert-types.md)**  
 Alert types define the ServiceNow® Performance Analytics \(PA\) thresholds used to generate alerts on the Safe Workplace Dashboard. Alerts are generated from application data once per day.
--   **[Using the Safe Workplace Dashboard](using-safe-wkplc-dashboard.md)**  
+-   **[Using the Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace-dashboard/using-safe-wkplc-dashboard.md)**  
 By using a map, you can review your organization's status regarding personnel and facility readiness to reopen.
 
-**Parent Topic:**[Safe Workplace](../../human-resources/concept/safe-workplace.md)
+**Parent Topic:**[Safe Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/safe-workplace.md)
 

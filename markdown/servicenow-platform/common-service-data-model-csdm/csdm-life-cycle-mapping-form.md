@@ -2,6 +2,7 @@
 title: Life cycle mapping form
 description: Use the Life Cycle Mapping module to specify how existing legacy status values should be converted to CSDM life-cycle value pairs \(life cycle stage and life cycle stage status\). You map both asset and CI legacy status values to life-cycle value pairs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-mapping-form.html
 release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -128,5 +129,5 @@ Standard life cycle stage status to map the specified **Legacy field value** to.
  If there is no match in the life\_cycle\_mapping table, the value is set to **TBD**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[CSDM reference](../../csdm-implementation/concept/csdm-content-frame-reference.md)
+</table>**Parent Topic:**[CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
 

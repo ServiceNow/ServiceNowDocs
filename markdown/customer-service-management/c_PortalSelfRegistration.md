@@ -2,7 +2,10 @@
 title: Customer contact self-registration
 description: The self-registration feature enables new customer contacts to submit registration requests through the customer portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/c\_PortalSelfRegistration.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -13,7 +16,7 @@ breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer 
 
 The self-registration feature enables new customer contacts to submit registration requests through the customer portal.
 
-A customer contact can submit a registration request using a valid registration code. The request is then sent to the customer administrator of that account for approval. For details, see [Approve a change request, or registration request](../task/approve-request-from-cust-portal.md).
+A customer contact can submit a registration request using a valid registration code. The request is then sent to the customer administrator of that account for approval. For details, see [Approve a change request, or registration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/approve-request-from-cust-portal.md).
 
 If an account has multiple customer administrators, they all receive the registration request, but only one approval is necessary.
 
@@ -21,12 +24,12 @@ The request is either accepted or rejected. If accepted, a new account is create
 
 **Note:** If a request is submitted with an incorrect registration code, a notification message appears `Invalid Registration Code`.
 
-![A self-registration form with various fields for customer contact information.](../image/customer-self-registration.png "Customer contact self-registration form")
+\[Omitted image "customer-self-registration.png"\] Alt text: A self-registration form with various fields for customer contact information.
 
 The administrator creates a unique registration code for each account and stores it in the **Registration Code** field on the Account form. After the code is created, customer administrators can distribute the code to customers as needed.
 
 **Related topics**  
 
 
-[Example: The default self-service Password Reset process](https://www.servicenow.com/docs/access?context=c_SelfServicePasswordReset&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.c_SelfServicePasswordReset]
 

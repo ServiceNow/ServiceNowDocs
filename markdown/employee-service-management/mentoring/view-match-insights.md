@@ -2,6 +2,7 @@
 title: View match insights
 description: View the Match Insights score that is calculated based on the match score of the preferences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/mentoring/view-match-insights.html
 release: zurich
 product: Mentoring
 classification: mentoring
@@ -17,9 +18,9 @@ View the Match Insights score that is calculated based on the match score of the
 
 ## Before you begin
 
-Enroll as a mentee. See [Enroll as a mentor or mentee](enroll-mentoring.md).
+Enroll as a mentee. See [Enroll as a mentor or mentee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/mentoring/enroll-mentoring.md).
 
-Add mentee preferences. See [Add mentee preferences](add-preferences-mentee.md).
+Add mentee preferences. See [Add mentee preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/mentoring/add-preferences-mentee.md).
 
 Role required: none
 

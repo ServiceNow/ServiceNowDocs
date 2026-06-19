@@ -2,6 +2,7 @@
 title: TaskStateUtil - Global
 description: The TaskStateUtil script include provides methods for working with task-type table state attributes.Creates a TaskStateUtil object.The name of the attribute that identifies default work state.The name of the attribute that identifies the default close state.The name of the attribute that identifies inactive states.The value of the default close state is Closed Complete on the Task table.The value of the default work state is Work in progress on the Task table.The values of the default inactive states: Closed Complete, Closed Incomplete, Closed Skipped on the Task table.Returns the value for the default closed state.Returns the value for the default work state.Returns a list of the inactive state values.Returns the active status of the specified state.Decides whether the mark closed business rule should be run or not.Decides whether the task closer business rule should be run or not.Decides whether the task reopener business rule should be run or not.Enables the user to specify their own default work state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_TaskStateUtil.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -56,7 +57,7 @@ default\_work\_state
 Optional. Attribute to define the state value of the default working state if you want to define business rules that automatically set a task for working. Default: 2, typically Work in Progress if the attribute is not defined.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+</table>**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## TaskStateUtil - TaskStateUtil\(GlideRecord task\)
 

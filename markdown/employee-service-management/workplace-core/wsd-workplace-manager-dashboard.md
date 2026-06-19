@@ -2,6 +2,7 @@
 title: Workplace manager dashboard
 description: Use the Workplace manager dashboard to monitor the space allocation and workplace maintenance activities at your office campus. For any given day, you can view the details for available spaces, space reservations, pending workplace requests, arrival times for different locations, employee arrivals, and maintenance tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-core/wsd-workplace-manager-dashboard.html
 release: zurich
 product: Workplace Core
 classification: workplace-core
@@ -15,7 +16,7 @@ breadcrumb: [Workplace dashboards, Analytics and reporting, Workplace Core, Work
 
 Use the Workplace manager dashboard to monitor the space allocation and workplace maintenance activities at your office campus. For any given day, you can view the details for available spaces, space reservations, pending workplace requests, arrival times for different locations, employee arrivals, and maintenance tasks.
 
-![Workplace manager dashboard](../image/workplace-mgr-dashboard.png "Workplace manager dashboard")
+\[Omitted image "workplace-mgr-dashboard.png"\] Alt text: Workplace manager dashboard
 
 To access the Workplace Manager Dashboard, navigate to **Workplace Core** &gt; **Workplace dashboards** &gt; **Safety management**.
 
@@ -56,18 +57,18 @@ sn\_wsd\_core.workplace\_manager
 
 |Title|Type|Description|
 |-----|----|-----------|
-|Pending workplace requests|Single score ![Single-score icon](../../performance-analytics/image/single-score.png)|Number of workplace requests that are pending.|
-|Today's available spaces|Single score ![Single-score icon](../../performance-analytics/image/single-score.png)|Number of active workspaces available for reservations today.|
-|Today's scheduled arrivals|Single score ![Single-score icon](../../performance-analytics/image/single-score.png)|Number of employee arrivals scheduled for today for different locations on the campus.|
-|All unassigned cleaning tasks|Single score ![Single-score icon](../../performance-analytics/image/single-score.png)|Number of active workplace tasks that are not assigned to anyone and not in the Closed state.|
+|Pending workplace requests|Single score \[Omitted image "single-score.png"\] Alt text: Single-score icon|Number of workplace requests that are pending.|
+|Today's available spaces|Single score \[Omitted image "single-score.png"\] Alt text: Single-score icon|Number of active workspaces available for reservations today.|
+|Today's scheduled arrivals|Single score \[Omitted image "single-score.png"\] Alt text: Single-score icon|Number of employee arrivals scheduled for today for different locations on the campus.|
+|All unassigned cleaning tasks|Single score \[Omitted image "single-score.png"\] Alt text: Single-score icon|Number of active workplace tasks that are not assigned to anyone and not in the Closed state.|
 |Pending requests|List|List of pending workplace requests for this campus.|
 |Today's available spaces|List|List of active workspaces available for reservations today.|
 |Today's arrival times|List|List of arrival times scheduled for today for different locations on the campus.|
 |Today's scheduled arrivals|List|List of employee arrivals scheduled for today for different locations on the campus.|
-|Today's reservations by shift|Bar ![Bar graph icon](../../performance-analytics/image/column-icon.png)|Number of workplace reservations for today grouped by their shifts.|
+|Today's reservations by shift|Bar \[Omitted image "column-icon.png"\] Alt text: Bar graph icon|Number of workplace reservations for today grouped by their shifts.|
 |Today's reservations|List|Number of workplace reservations for today.|
-|Unassigned cleaning tasks by day|Trend ![Trend over time icon](../../performance-analytics/image/column-time-icon.png)|Trend of the number of active cleaning tasks per day that are not assigned to anyone and not in the Closed state. The cleaning tasks in this report have a due date between today and the next seven days and include all task types such as planned, unplanned, and ad hoc.|
+|Unassigned cleaning tasks by day|Trend \[Omitted image "column-time-icon.png"\] Alt text: Trend over time icon|Trend of the number of active cleaning tasks per day that are not assigned to anyone and not in the Closed state. The cleaning tasks in this report have a due date between today and the next seven days and include all task types such as planned, unplanned, and ad hoc.|
 |Unassigned cleaning tasks|List|List of active workplace tasks that are not assigned to anyone and not in the Closed state.|
 
-**Parent Topic:**[Workplace dashboards](../concept/wsd-workplace-dashboards.md)
+**Parent Topic:**[Workplace dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/wsd-workplace-dashboards.md)
 

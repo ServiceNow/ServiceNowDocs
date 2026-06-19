@@ -2,7 +2,10 @@
 title: IT Asset Management
 description: Manage software licenses, hardware assets, and cloud assets with intuitive work flows and life cycle visibility.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/it-asset-management.html
 release: zurich
+product: IT Asset Management
+classification: it-asset-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 11
@@ -12,7 +15,7 @@ reading_time_minutes: 11
 
 Manage software licenses, hardware assets, and cloud assets with intuitive work flows and life cycle visibility.
 
-![IT Asset Management](../image/itamlandingpage-overview.svg "IT Asset Management")
+\[Omitted image "itamlandingpage-overview.svg"\] Alt text: IT Asset Management
 
 ## Take command of your software, hardware, and cloud assets
 
@@ -26,7 +29,7 @@ View and download the full [Software Asset Management](https://downloads.docs.se
 
 <table id="table_uw5_lxw_sjb"><tbody><tr><td>
 
-![Image for normalizing software assets](../image/Filter-01.png)
+\[Omitted image "Filter-01.png"\] Alt text: Image for normalizing software assets
 
 </td><td>
 
@@ -34,7 +37,7 @@ Normalize software assetsAutomatically normalize your software assets with updat
 
 </td></tr><tr><td>
 
-![Image for managing software rights](../image/Problem_benefit-01.png)
+\[Omitted image "Problem\_benefit-01.png"\] Alt text: Image for managing software rights
 
 </td><td>
 
@@ -42,7 +45,7 @@ Manage software rightsTrack and manage rights for your software products by crea
 
 </td></tr><tr><td>
 
-![Image for leveraging publisher packs](../image/Customize-01.png)
+\[Omitted image "Customize-01.png"\] Alt text: Image for leveraging publisher packs
 
 </td><td>
 
@@ -50,7 +53,7 @@ Leverage publisher packsUse license metric data for specific software publishers
 
 </td></tr><tr><td>
 
-![Image for tracking SaaS subscriptions](../image/Servicemap-01.png)
+\[Omitted image "Servicemap-01.png"\] Alt text: Image for tracking SaaS subscriptions
 
 </td><td>
 
@@ -58,7 +61,7 @@ Track SaaS subscription usageIntegrate with SaaS applications and SSO providers 
 
 </td></tr><tr><td>
 
-![Image for viewing your license position](../image/Balance_scale-01.png)
+\[Omitted image "Balance\_scale-01.png"\] Alt text: Image for viewing your license position
 
 </td><td>
 
@@ -66,7 +69,7 @@ View and take action on your license positionUse the License usage view \(Softwa
 
 </td></tr><tr><td>
 
-![Image for tracking software spend](../image/Elevate-01.png)
+\[Omitted image "Elevate-01.png"\] Alt text: Image for tracking software spend
 
 </td><td>
 
@@ -74,7 +77,7 @@ Track software spendTrack and manage financial transaction data for your softwar
 
 </td></tr><tr><td>
 
-![Image for analyzing business processes using software asset analytics and reporting solutions](../image/Infographic-01.png)
+\[Omitted image "Infographic-01.png"\] Alt text: Image for analyzing business processes using software asset analytics and reporting solutions
 
 </td><td>
 
@@ -82,7 +85,7 @@ Analyze and improve your business processes using software asset analytics dashb
 
 </td></tr><tr><td>
 
-![Image for normalizing hardware assets](../image/Filter-01.png)
+\[Omitted image "Filter-01.png"\] Alt text: Image for normalizing hardware assets
 
 </td><td>
 
@@ -90,7 +93,7 @@ Normalize hardware assetsLeverage the extensive hardware Content Library to norm
 
 </td></tr><tr><td>
 
-![Image for automating your asset life cycle](../image/Low_code-01.png)
+\[Omitted image "Low\_code-01.png"\] Alt text: Image for automating your asset life cycle
 
 </td><td>
 
@@ -98,7 +101,7 @@ Automate your asset life cycleReduce manual effort and improve service delivery 
 
 </td></tr><tr><td>
 
-![Image for refreshing hardware assets](../image/Optimize_manage-01.png)
+\[Omitted image "Optimize\_manage-01.png"\] Alt text: Image for refreshing hardware assets
 
 </td><td>
 
@@ -106,7 +109,7 @@ Refresh aging hardware assetsProactively track and plan for aging assets that ar
 
 </td></tr><tr><td>
 
-![Image for auditing your asset inventory](../image/Laptop-01.png)
+\[Omitted image "Laptop-01.png"\] Alt text: Image for auditing your asset inventory
 
 </td><td>
 
@@ -114,7 +117,7 @@ Audit your asset inventoryConduct scheduled or ad-hoc audits of your asset stock
 
 </td></tr><tr><td>
 
-![Image for managing expiring maintenance and lease contracts](../image/Agent_workspace-01.png)
+\[Omitted image "Agent\_workspace-01.png"\] Alt text: Image for managing expiring maintenance and lease contracts
 
 </td><td>
 
@@ -122,7 +125,7 @@ Manage expiring maintenance and lease contractsTake action on your expiring main
 
 </td></tr><tr><td>
 
-![Image for driving asset manager productivity using the Hardware Asset Workspace](../image/Infographic-01.png)
+\[Omitted image "Infographic-01.png"\] Alt text: Image for driving asset manager productivity using the Hardware Asset Workspace
 
 </td><td>
 
@@ -130,7 +133,7 @@ Drive asset manager productivity using a purpose-built workspaceUse the Hardware
 
 </td></tr><tr><td>
 
-![Image for accelerating cloud strategy](../image/Rocketship-01.png)
+\[Omitted image "Rocketship-01.png"\] Alt text: Image for accelerating cloud strategy
 
 </td><td>
 
@@ -191,7 +194,7 @@ Use the Hardware Asset Workspace for an intuitive and centralized view of your h
 
 ## Accelerate your cloud strategy and reduce costs
 
-The [Cloud Cost Management](../../cloud-insights/reference/cloud-insights-landing-page.md) application enables you to analyze the full range of costs that are associated with your cloud assets. You can identify and correct cost optimization targets, such as underused, over-provisioned, and stranded cloud assets, with the choice of automated or semi-automated operations.
+The [Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/cloud-insights-landing-page.md) application enables you to analyze the full range of costs that are associated with your cloud assets. You can identify and correct cost optimization targets, such as underused, over-provisioned, and stranded cloud assets, with the choice of automated or semi-automated operations.
 
 ## Learn
 
@@ -215,16 +218,16 @@ The [Cloud Cost Management](../../cloud-insights/reference/cloud-insights-landin
 
 ## Applications and features
 
--   [Asset Management](../../asset-management/reference/am-landing-page.md)
--   [Software Asset Management](c_SoftwareAssetMgmt.md)
--   [Now Assist for Software Asset Management \(SAM\)](../../now-assist-sam/concept/now-assist-sam.md)
--   [Hardware Asset Management](../../hardware-asset-management/reference/ham-landing-page.md)
--   [Enterprise Asset Management](../../enterprise-asset-management/concept/enterprise-asset-management.md)
--   [Cloud Cost Management](../../cloud-insights/reference/cloud-insights-landing-page.md)
--   [Asset Audit Response](../../asset-audit-response/concept/asset-audit-response.md)
--   [Contract Management](https://www.servicenow.com/docs/access?context=c_ContractManagement&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
--   [Procurement](https://www.servicenow.com/docs/access?context=c_Procurement&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
--   [Product Catalog](https://www.servicenow.com/docs/access?context=c_ProductCatalog&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
--   [IT Asset Management content request](content-request-itam.md)
--   [Licensing for IT Asset Management](../../hardware-asset-management/concept/subscription-itam-licensing.md)
+-   [Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/am-landing-page.md)
+-   [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)
+-   [Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)
+-   [Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/ham-landing-page.md)
+-   [Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/enterprise-asset-management.md)
+-   [Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/cloud-insights-landing-page.md)
+-   [Asset Audit Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-audits/asset-audit-response.md)
+-   Contract Management
+-   Procurement
+-   Product Catalog
+-   [IT Asset Management content request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/content-request-itam.md)
+-   [Licensing for IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/subscription-itam-licensing.md)
 

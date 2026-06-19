@@ -2,6 +2,7 @@
 title: Dial visualization example
 description: Dial visualizations show where a single value lies across a range from minimum to maximum expected values. Visually, a "needle" points to the value, and the dial is colored in for values up to the needle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/dv-example-dial.html
 release: zurich
 topic_type: task
 last_updated: "2026-03-23"
@@ -15,7 +16,7 @@ Dial visualizations show where a single value lies across a range from minimum t
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../../reporting/concept/report-view-access-control.md) and [Platform Analytics roles](../reference/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -23,7 +24,7 @@ Use the dial visualization when you want to compare a current value to a target 
 
 ## Procedure
 
-1.  Follow the first steps to [Create a dial data visualization](../../reporting/task/create-dv-dial-ac.md):
+1.  Follow the first steps to [Create a dial data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-dv-dial-ac.md):
 
     1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or open an in-line dashboard and select **Edit**.
 
@@ -45,7 +46,7 @@ Use the dial visualization when you want to compare a current value to a target 
 
     5.  Select **Add this source**.
 
-    A dial data visualization with the current value of the selected data appears in the Visualization Designer![Untitled dial visualization showing the Incident table as data source](../../reporting/image/dv-ex-dial-data-source.png).
+    A dial data visualization with the current value of the selected data appears in the Visualization Designer\[Omitted image "dv-ex-dial-data-source.png"\] Alt text: Untitled dial visualization showing the Incident table as data source.
 
 3.  Now that you can see the visualization, let's add some context for the user.
 
@@ -111,7 +112,7 @@ Use the dial visualization when you want to compare a current value to a target 
 
         Retain the order 100.
 
-        ![Color rule options with lower than operator selected, value set to 6, and color options set to Positive Green](../../reporting/image/dv-ex-single-score-color-rule-1.png)
+        \[Omitted image "dv-ex-single-score-color-rule-1.png"\] Alt text: Color rule options with lower than operator selected, value set to 6, and color options set to Positive Green
 
     4.  To indicate a value that requires more attention, create a second rule with the **Operator** `between`, the values `5` and `25`, the color and icon color `Warning Orange`, and the order `50`.
 
@@ -119,12 +120,12 @@ Use the dial visualization when you want to compare a current value to a target 
 
     You've created three rules to show whether the single score value is in line with what you want to see.
 
-    ![Dial visualization with Large size and a red arc color that reflects defined coloring rules.](../../reporting/image/dv-ex-dial-complete.png)
+    \[Omitted image "dv-ex-dial-complete.png"\] Alt text: Dial visualization with Large size and a red arc color that reflects defined coloring rules.
 
 
 ## Result
 
 You have created a dial visualization based on a single metric, open incidents. You have also configured user options regarding filters and drilldowns, and configured the visualization's size and coloring rules.
 
-**Parent Topic:**[Create a dial data visualization](../../reporting/task/create-dv-dial-ac.md)
+**Parent Topic:**[Create a dial data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-dv-dial-ac.md)
 

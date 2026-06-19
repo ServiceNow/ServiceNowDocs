@@ -2,6 +2,7 @@
 title: Report statistics
 description: The Report Stats list enables you to view how often each of your Core UI reports is run and how long it takes for the reports to run.The Reports Usage dashboard provides an overview of how reports are used in a ServiceNow instance or domain.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/report-statistics.html
 release: zurich
 product: Reporting
 classification: reporting
@@ -15,11 +16,9 @@ breadcrumb: [Administering reports, Reporting, Reporting, dashboards, and Perfor
 
 The **Report Stats** list enables you to view how often each of your Core UI reports is run and how long it takes for the reports to run.
 
-To view report statistics, navigate to **All** &gt; **Reports** &gt; **Administration** &gt; **Report Statistics**. The admin or report\_admin role is required. By default, the Report Statistics list displays all reports that have been run. To view reports that haven't been run, select the context menu icon \(![Context menu icon](../image/ContextMenuIcon.png)\) and choose **Add Unused Reports**.
+To view report statistics, navigate to **All** &gt; **Reports** &gt; **Administration** &gt; **Report Statistics**. The admin or report\_admin role is required. By default, the Report Statistics list displays all reports that have been run. To view reports that haven't been run, select the context menu icon \(\[Omitted image "ContextMenuIcon.png"\] Alt text: Context menu icon\) and choose **Add Unused Reports**.
 
 **Note:** Adding unused reports to this list takes some time, especially if your instance has many reports.
-
-Overview and suggestions on how to manage reports within the ServiceNow environment.
 
 The **Report Stats** list has the following columns:
 
@@ -37,7 +36,7 @@ The **Report Stats** list has the following columns:
 -   To view used reports, filter out the value 0 from the **Runs** column.
 -   To view the most used reports, sort the **Runs** column from z-a.
 
-**Parent Topic:**[Administering reports](c_AdminsteringReports.md)
+**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_AdminsteringReports.md)
 
 ## Reports Usage dashboard
 

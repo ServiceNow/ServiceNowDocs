@@ -2,6 +2,7 @@
 title: Automatically generate control tests from an engagement
 description: After adding an entity to an engagement, you can automatically generate control tests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/automatically-generate-control-test.html
 release: zurich
 product: Audit Management
 classification: audit-management
@@ -36,5 +37,5 @@ Role required: sn\_audit.admin and sn\_audit.manager
 
 The controls tests for each test plan is created under the Audit Task related list.
 
-**Parent Topic:**[Create a control test from an engagement](t_CreateControlTest.md)
+**Parent Topic:**[Create a control test from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/t_CreateControlTest.md)
 

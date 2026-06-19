@@ -2,6 +2,7 @@
 title: Controlling idle live chat sessions
 description: Configure how active chat sessions are handled by the system when live chats become idle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/agent-chat/ci-idle-chats.html
 release: zurich
 product: Agent Chat
 classification: agent-chat
@@ -21,7 +22,7 @@ You can change the idle chat reminder message and the default time after which t
 
 **Important:**
 
-Idle live chats are not available for Connect Support. Starting with the Paris release, Connect Support no longer receives enhancements or non-priority bug fixes. Consider moving to ServiceNow® Advanced Work Assignment and Agent Chat in workspace to automatically assign chat requests and other work items to agents. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](../../advanced-work-assignment/task/migrate-from-connect-support.md).
+Idle live chats are not available for Connect Support. Starting with the Paris release, Connect Support no longer receives enhancements or non-priority bug fixes. Consider moving to ServiceNow® Advanced Work Assignment and Agent Chat in workspace to automatically assign chat requests and other work items to agents. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/migrate-from-connect-support.md).
 
 ## Change the idle chat reminder message
 
@@ -82,7 +83,7 @@ Value
 
 Enter the number of seconds before the idle chat reminder message is displayed, after the requester's last response. This value must be equal to or greater than 120 seconds, since the Idle Chat Timer Task job runs every 120 seconds to check active chat sessions.For example, if the idle chat reminder message is to be displayed 5 minutes after the requester's last response, enter 300 seconds.
 
- **Note:** If you want to set an idle chat message reminder timeout that is under 120 seconds, you must also change the time at which the Idle Chat Timer Task job runs. The job must check for idle chats within a shorter time frame. For example, if the reminder message timeout is 60 seconds after the requester's last response, set the Idle Chat Timer Task job to run every 60 seconds. For more information on base system scheduled jobs, see [System scheduler](https://www.servicenow.com/docs/access?context=c_SystemScheduler&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+ **Note:** If you want to set an idle chat message reminder timeout that is under 120 seconds, you must also change the time at which the Idle Chat Timer Task job runs. The job must check for idle chats within a shorter time frame. For example, if the reminder message timeout is 60 seconds after the requester's last response, set the Idle Chat Timer Task job to run every 60 seconds. For more information on base system scheduled jobs, see System scheduler.
 
 </td></tr></tbody>
 </table>    2.  Select **Submit**.
@@ -191,5 +192,5 @@ Example 2: In this example, **com.glide.cs.start\_idle\_timeout\_after\_agent\_r
         3.  If the requester does not respond within 60 seconds after the automated message, then the system sends the message `It seems you have left the conversation` and ends the chat.
     -   If **com.glide.cs.start\_idle\_timeout\_after\_agent\_response** is set to true, the system does not start the inactivity timer and the chat will not time out.
 
-**Parent Topic:**[Configuring Agent Chat](ci-agent-chat-configuring.md)
+**Parent Topic:**[Configuring Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/agent-chat/ci-agent-chat-configuring.md)
 

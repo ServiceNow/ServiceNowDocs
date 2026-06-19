@@ -2,6 +2,7 @@
 title: Add the Enrollment Reader role to the Microsoft Azure service principal
 description: Assign the Enrollment Reader role to the Azure service principal for your Enterprise Agreement \(EA\) account to retrieve billing, purchase, and pricing data. You can assign this role using a Microsoft API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/add-enrollment-reader-ms-azure.html
 release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -84,5 +85,5 @@ For details on the object ID and tenant ID, see [Microsoft documentation](https:
 
 ## What to do next
 
-[Schedule and manage the jobs that download Azure billing data](schedule-azure-billing-job.md)
+[Schedule and manage the jobs that download Azure billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/schedule-azure-billing-job.md)
 

@@ -2,6 +2,7 @@
 title: Create a vendor in Vendor Management Workspace
 description: Add vendors to your existing vendor list or modify the existing vendor-related information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/vendor-management-workspace/create-or-modify-vendor-wep.html
 release: zurich
 product: Vendor Management Workspace
 classification: vendor-management-workspace

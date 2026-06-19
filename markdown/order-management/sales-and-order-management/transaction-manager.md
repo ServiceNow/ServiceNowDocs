@@ -2,6 +2,7 @@
 title: Transaction Manager
 description: Set up, govern, and troubleshoot Transaction Manager so sales teams can capture non-configuration commercial data—such as contacts, addresses, quotes, discounts, and presentation options—alongside ServiceNow CPQ configuration outcomes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/transaction-manager.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

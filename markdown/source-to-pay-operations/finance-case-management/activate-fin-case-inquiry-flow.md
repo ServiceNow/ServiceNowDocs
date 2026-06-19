@@ -2,6 +2,7 @@
 title: Activate the Create Finance Inquiry for inbound email flow
 description: Activate the Create Finance case on Inbound email inquiry flow to create a finance inquiry case automatically based on the information in an inbound email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/finance-case-management/activate-fin-case-inquiry-flow.html
 release: zurich
 product: Finance Case Management
 classification: finance-case-management
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  Search for and select the **Create Finance case on Inbound email inquiry** flow to open it.
 
-3.  Select the more actions icon \(![More actions](../../supplier-lifecycle-operations/image/more-actions-icon.png)\), scroll, and select **Copy flow**.![Copy the flow](../image/fin-ops-copy-flow.png)
+3.  Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions\), scroll, and select **Copy flow**.\[Omitted image "fin-ops-copy-flow.png"\] Alt text: Copy the flow
 
     The Create a copy of this flow dialog box is displayed.
 
@@ -39,12 +40,12 @@ Role required: admin
 
 7.  Under TRIGGER, specify the conditions that trigger this flow.
 
-8.  Select **Done**.![Set triggers for the copied flow](../image/fin-ops-trigger.png)
+8.  Select **Done**.\[Omitted image "fin-ops-trigger.png"\] Alt text: Set triggers for the copied flow
 
 9.  Save and select **Activate**.
 
     The **Create Finance case on Inbound email inquiry** flow is activated and a finance inquiry case is created automatically based on the information in an inbound email.
 
 
-**Parent Topic:**[Components installed with Finance Case Management](../reference/installed-with-fin-ops.md)
+**Parent Topic:**[Components installed with Finance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/finance-case-management/installed-with-fin-ops.md)
 

@@ -2,6 +2,7 @@
 title: Properties of the Attachment components
 description: Learn about the various properties of the Attachment components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/properties-attachment-components.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -22,5 +23,5 @@ Learn about the various properties of the Attachment components.
 |Enable Timeout|Option to set a timeout value.|
 |Timeout|Number of seconds that the operation ends after if not completed. To apply this value, you must set the **Enable Timeout** property.|
 
-**Parent Topic:**[Attachments](../concept/attachments.md)
+**Parent Topic:**[Attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/attachments.md)
 

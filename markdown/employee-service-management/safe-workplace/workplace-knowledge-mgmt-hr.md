@@ -2,6 +2,7 @@
 title: Workplace knowledge management
 description: As a workplace admin, you can create knowledge base articles for employees. In the articles, provide information to your employees about workplace services, such as workplace updates, self-help, troubleshoot, and others.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/workplace-knowledge-mgmt-hr.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace
@@ -15,7 +16,7 @@ breadcrumb: [Workplace Core, Safe Workplace, Health and Safety, Employee Service
 
 As a workplace admin, you can create knowledge base articles for employees. In the articles, provide information to your employees about workplace services, such as workplace updates, self-help, troubleshoot, and others.
 
-With the Workplace Service Delivery application, you can create knowledge base articles and display them as wiki pages or HTML pages. The Workplace Service Delivery Knowledge Management is the same as the ServiceNow AI Platform Knowledge Management, for more information, see [Configuring Knowledge Management](https://www.servicenow.com/docs/access?context=configuring-knowledge-management&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+With the Workplace Service Delivery application, you can create knowledge base articles and display them as wiki pages or HTML pages. The Workplace Service Delivery Knowledge Management is the same as the ServiceNow AI Platform Knowledge Management, for more information, see .
 
 You can perform the following actions on a knowledge base article:
 

@@ -2,6 +2,7 @@
 title: Remove a linked contract
 description: Remove a linked parent contract from contract requests when you have linked a wrong contract request or the linking is no longer required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cmpro-remove-linked-cntr.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -27,27 +28,27 @@ The **Remove linked contract** button is not available when there are no linked 
 
 1.  Open the contract request from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d441921e63">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d294207e63">
 
 Method
 
-</th><th align="left" id="d441921e66">
+</th><th align="left" id="d294207e66">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d441921e72">
+</th></tr></thead><tbody><tr><td id="d294207e72">
 
 **Contract Workspace listing**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Contract Workspace**.
-2.  Click the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **Contract requests** &gt; **All**
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d441921e119">
+</td></tr><tr><td id="d294207e119">
 
 **Workspace used by your application**
 
@@ -63,7 +64,7 @@ Steps
 
 3.  Select **Remove linked contract**.
 
-    ![Unlink parent contracts in the Related contract requests tab.](../image/cmpro-remove-link-cmr.png "Remove linked contract")
+    \[Omitted image "cmpro-remove-link-cmr.png"\] Alt text: Unlink parent contracts in the Related contract requests tab.
 
 4.  In the confirmation message, select **Remove**.
 
@@ -74,5 +75,5 @@ Steps
     The parent contract request number is removed from the **Parent contract request** field. The activity stream displays the parent-child linking history.
 
 
-**Parent Topic:**[Linking parent-child contracts](../concept/cmpro-linking-parent-child.md)
+**Parent Topic:**[Linking parent-child contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-linking-parent-child.md)
 

@@ -2,6 +2,7 @@
 title: Capacity planning in Portfolio Planning
 description: The Capacity Planning screen provides portfolio managers a comprehensive view of capacity, allocations, and utilization of resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/capacity-planning-pp.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -24,7 +25,7 @@ Analyzing the Capacity Planning screen, you can easily:
 -   Plan for resources with specific skills or roles for future assignments.
 -   View the resource allocation health instantly with the new intuitive user interface that gives you a detailed breakdown of portfolio duration by month having over allocations.
 
-    ![Capacity Planning screen.](../../spw-capacity-planning/images/cp-capacity-planning-screen.png "Capacity Planning screen")
+    \[Omitted image "cp-capacity-planning-screen.png"\] Alt text: Capacity Planning screen.
 
 -   The top tray of the screen displays:
     -   Resource capacity details depending on the defined resource criteria.
@@ -38,7 +39,7 @@ Analyzing the Capacity Planning screen, you can easily:
 
         You can move the Gantt chart to adjust your resource capacity details accordingly.
 
-    -   Toggle option \(![Toggle options to view capacity.](../../spw-capacity-planning/images/cp-toggle-buttons.png)\) to adjust your view of the Capacity Planning screen.
+    -   Toggle option \(\[Omitted image "cp-toggle-buttons.png"\] Alt text: Toggle options to view capacity.\) to adjust your view of the Capacity Planning screen.
 
 ## Using the Capacity Planning screen
 
@@ -53,7 +54,7 @@ Follow these steps to analyze and manage resource capacity for your portfolio:
 
     **Note:** Planning items with actual dates \(indicated by the in-progress icon\) cannot be adjusted.
 
-7.  Use the toggle option \(![Toggle options to view capacity.](../../spw-capacity-planning/images/cp-toggle-buttons.png)\) to adjust your capacity view between different display modes.
+7.  Use the toggle option \(\[Omitted image "cp-toggle-buttons.png"\] Alt text: Toggle options to view capacity.\) to adjust your capacity view between different display modes.
 
-**Parent Topic:**[Exploring Portfolio Planning](exploring-portfolio-planning.md)
+**Parent Topic:**[Exploring Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/exploring-portfolio-planning.md)
 

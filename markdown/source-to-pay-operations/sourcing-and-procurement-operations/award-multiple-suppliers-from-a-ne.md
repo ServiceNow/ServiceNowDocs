@@ -2,13 +2,14 @@
 title: Award multiple suppliers from a sourcing event
 description: When negotiations are complete for a sourcing event, you can award one or multiple suppliers from the sourcing event, or reject all bids, as required. Awarding suppliers create purchase requisitions for the selected suppliers and items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/award-multiple-suppliers-from-a-ne.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Using Procurement Case Management, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Using Procurement Case Management, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Award multiple suppliers from a sourcing event
@@ -44,5 +45,5 @@ Role required: sn\_shop.procurement\_specialist
     **Note:** The sourcing event is moved to Closed Complete, with the individual negotiations under it moved to Closed Decided or Closed Rejected based on your selection. The awarded sourcing requests are moved to Closed Complete, with purchase requisitions automatically created for the purchase lines. All the other sourcing requests are moved to the Closed Rejected state.
 
 
-**Parent Topic:**[Using Procurement Case Management](../concept/using-pcm.md)
+**Parent Topic:**[Using Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/using-pcm.md)
 

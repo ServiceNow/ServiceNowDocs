@@ -2,6 +2,7 @@
 title: Configure a connector user in Atlassian Jira Cloud
 description: Create a user and group in your Atlassian Jira Cloud tenant with access and permissions required by the Atlassian Jira Cloud external content connector. The connector runs as this user when accessing data from your tenant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-connector-user-jira-cloud.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -63,5 +64,5 @@ Atlassian administrators need to create and configure this user as part of confi
 
 Provide the technical user credentials to your search administrators so they can use them when creating Atlassian Jira Cloud external content connectors.
 
-**Parent Topic:**[Atlassian Jira Cloud external content connector](../concept/atlassian-jira-cloud-external-content-connector.md)
+**Parent Topic:**[Atlassian Jira Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/atlassian-jira-cloud-external-content-connector.md)
 

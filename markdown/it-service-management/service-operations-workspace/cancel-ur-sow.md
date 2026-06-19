@@ -2,6 +2,7 @@
 title: Cancel a Universal Request in Service Operations Workspace
 description: Cancel the Universal Request if the issue is resolved already or you no longer require the request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/cancel-ur-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-You can cancel a universal request only if there are no active or closed primary tickets attached to it. You can cancel a universal request in **New** or **In Progress** state's only. When the universal request is canceled, email notifications are sent to the stakeholders associated with the request.
+You can cancel a universal request only if there are no active or closed primary tickets attached to it. You can cancel a universal request in **New** or **In Progress** states only. When the universal request is canceled, email notifications are sent to the stakeholders associated with the request.
 
 ## Procedure
 
@@ -40,5 +41,5 @@ You can cancel a universal request only if there are no active or closed primary
 6.  Select **Update**.
 
 
-**Parent Topic:**[Universal Request in Service Operations Workspace](../concept/using-ur-sow.md)
+**Parent Topic:**[Universal Request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/using-ur-sow.md)
 

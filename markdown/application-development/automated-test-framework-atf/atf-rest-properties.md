@@ -2,6 +2,7 @@
 title: Automated Test Framework REST properties
 description: These properties are installed with ATF REST.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/atf-rest-properties.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -59,5 +60,5 @@ The maximum size of the response payload.-   **Type**: String
 -   **Maximum value**: System Property \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Administering REST test step configurations](../concept/atf-administer-rest.md)
+</table>**Parent Topic:**[Administering REST test step configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-administer-rest.md)
 

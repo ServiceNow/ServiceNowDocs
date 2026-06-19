@@ -2,6 +2,7 @@
 title: Enable contextual security plugin \[Updated in Security Center 1.3\]
 description: Activate the Contextual Security Plugin \(com.glide.role\_management\) plugin to enable contextual security, which secures a record/information using create, read, write, and delete functionality.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-contextual-security-plugin.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -49,7 +50,7 @@ Category
 
 </td><td>
 
-[Access control](sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -105,8 +106,8 @@ References
 
 </td><td>
 
-[Contextual Security Manager](../../roles/reference/r_ContextualSecurity.md)
+[Contextual Security Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/r_ContextualSecurity.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

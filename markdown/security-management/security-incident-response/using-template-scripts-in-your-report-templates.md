@@ -2,6 +2,7 @@
 title: Use Template Scripts in your Report Templates
 description: Create a script to include the related lists data, date operations, and any other data that aren’t directly dot-walkable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/using-template-scripts-in-your-report-templates.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -63,5 +64,5 @@ Example: `${template_script:msi_collab_cards}`
     **Note:** You can also create your own template script to include the related lists data, date operations, and any other data that aren’t directly dot-walkable, in addition to the listed template scripts.
 
 
-**Parent Topic:**[Create a Report Template](create-report-template.md)
+**Parent Topic:**[Create a Report Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/create-report-template.md)
 

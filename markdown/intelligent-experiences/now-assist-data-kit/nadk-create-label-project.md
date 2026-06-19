@@ -2,6 +2,7 @@
 title: Create a labeling project from scratch
 description: Create a labeling project to review datasets, mark data quality, categorize information, and provide structured feedback on individual records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-data-kit/nadk-create-label-project.html
 release: zurich
 product: Now Assist Data Kit
 classification: now-assist-data-kit

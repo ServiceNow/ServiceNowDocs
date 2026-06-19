@@ -2,6 +2,7 @@
 title: Monitor and plan improvements
 description: Monitor and plan improvements using the Continual Improvement Workbench that displays improvements in progress, under review, and in the backlog to help you plan your sprint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/continual-improvement-management/plan-cim-initiatives.html
 release: zurich
 product: Continual Improvement Management
 classification: continual-improvement-management
@@ -31,7 +32,7 @@ Role required: sn\_cim.improvement\_manager, sn\_cim.improvement\_coordinator
 
 3.  Customize fields shown in workbench lists from Workbench Review.
 
-    1.  In the Improvement Register, select the List Controls menu icon ![](../image/cim-list-controls.png).
+    1.  In the Improvement Register, select the List Controls menu icon \[Omitted image "cim-list-controls.png"\] Alt text:.
 
     2.  Navigate to **List Controls** &gt; **View** &gt; **Workbench Review** to customize the fields.
 
@@ -39,7 +40,7 @@ Role required: sn\_cim.improvement\_manager, sn\_cim.improvement\_coordinator
 
 4.  In the Planning tab, customize fields shown in workbench lists to build the contents of your current sprint according to capacity.
 
-    1.  In the Improvement Register, select the List Controls menu icon ![](../image/cim-list-controls.png).
+    1.  In the Improvement Register, select the List Controls menu icon \[Omitted image "cim-list-controls.png"\] Alt text:.
 
     2.  Navigate to **List Controls** &gt; **View** &gt; **Workbench Planning** to customize the fields.
 
@@ -49,7 +50,7 @@ Role required: sn\_cim.improvement\_manager, sn\_cim.improvement\_coordinator
 
         **Note:** The filters are dynamic and show only the fields visible in the Workbench Planning view.
 
-    5.  Select the Configuration menu icon ![](../image/cim-config-menu.png) to toggle the Filter menu and customize the columns shown in the Planning tab.
+    5.  Select the Configuration menu icon \[Omitted image "cim-config-menu.png"\] Alt text: to toggle the Filter menu and customize the columns shown in the Planning tab.
 
         **Note:** Only the fields visible in the Improvement Register or Workbench Planning view are shown in the workbench planning section.
 

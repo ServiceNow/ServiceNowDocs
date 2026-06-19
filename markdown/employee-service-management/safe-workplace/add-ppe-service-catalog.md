@@ -2,6 +2,7 @@
 title: Add PPE models to Service Catalog
 description: Add PPE models through Service Catalog so employees can request the items they need.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/add-ppe-service-catalog.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace
@@ -42,11 +43,11 @@ Role required: catalog\_admin
 
 ## What to do next
 
-Add the Personal Protective Equipment \(PPE\) category to your service catalog so employees can see the items. To add the category, navigate to **Self-Service** &gt; **Service Catalog** and click the plus icon \(![plus icon](../image/plus-icon.png)\) in the upper right.
+Add the Personal Protective Equipment \(PPE\) category to your service catalog so employees can see the items. To add the category, navigate to **Self-Service** &gt; **Service Catalog** and click the plus icon \(\[Omitted image "plus-icon.png"\] Alt text: plus icon\) in the upper right.
 
-**Parent Topic:**[Set up Workplace PPE Inventory Management](set-up-ppe.md)
+**Parent Topic:**[Set up Workplace PPE Inventory Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/set-up-ppe.md)
 
-**Previous topic:**[Create models for PPE items](create-ppe-model.md)
+**Previous topic:**[Create models for PPE items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/create-ppe-model.md)
 
-**Next topic:**[Add PPE stock](add-ppe-stock.md)
+**Next topic:**[Add PPE stock](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/add-ppe-stock.md)
 

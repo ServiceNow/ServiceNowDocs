@@ -2,6 +2,7 @@
 title: Timer workflow activity
 description: The Timer activity pauses the workflow for a specified period of time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-activities/r\_Timer.html
 release: zurich
 product: Workflow Activities
 classification: workflow-activities
@@ -15,7 +16,7 @@ breadcrumb: [Timer workflow activities, Workflow activities reference, Workflow 
 
 The **Timer** activity pauses the workflow for a specified period of time.
 
-This duration can be an absolute time value or a relative value based on a defined [Creating and using schedules](https://www.servicenow.com/docs/access?context=c_UseSchedules&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US). It is best to adjust the **Duration** so the workflow can progress in a timely manner. To pause a workflow indefinitely until a condition is met, see [wait for condition](https://www.servicenow.com/docs/access?context=r_WaitForCondition&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+This duration can be an absolute time value or a relative value based on a defined Creating and using schedules. It is best to adjust the **Duration** so the workflow can progress in a timely manner. To pause a workflow indefinitely until a condition is met, see wait for condition.
 
 **Note:** Timer activities run as the System user because the system scheduler advances the workflow.
 
@@ -197,7 +198,7 @@ The activity state tells the workflow engine what to do with the activity.
 
 You can use a **Timer** activity to pause the workflow until the end of the business day.
 
-![](../image/WFTimerExample.png "Timer example")
+\[Omitted image "WFTimerExample.png"\] Alt text:
 
 In this example, the script evaluates the time between the *now* variable and the *eod* variable. The *eod* variable is defined, in 24 hour time, as 4:00 PM. The script then sets the *answer* variable to the difference between these variables, in seconds, and logs a message.
 
@@ -216,5 +217,5 @@ answer =(eod.getTime()- now.getTime())/1000;
 workflow.debug('Timer will fire @: '+ eod +'  '+(answer/60)+' minutes from now');
 ```
 
-**Parent Topic:**[Timer workflow activities](../concept/c_TimerActivities.md)
+**Parent Topic:**[Timer workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-activities/c_TimerActivities.md)
 

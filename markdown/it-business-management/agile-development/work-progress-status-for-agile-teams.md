@@ -2,6 +2,7 @@
 title: Work Progress Status for Agile Teams
 description: The Work Progress Status for Agile Teams application provides you with indicators such as estimated completion date and progress status \(green, yellow, red\) for all your Agile Development 2.0 epics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/work-progress-status-for-agile-teams.html
 release: zurich
 product: Agile Development
 classification: agile-development
@@ -19,10 +20,10 @@ As a product owner or a team lead, these indicators help you understand if your 
 
 **Note:** You must enter a value for the **Planned end date** field for an Agile Development 2.0 epic for these work progress status indicators to populate.
 
--   **[Install Work Progress Status for Agile Teams](../task/install-work-progress-status-for-agile-teams.md)**  
+-   **[Install Work Progress Status for Agile Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/install-work-progress-status-for-agile-teams.md)**  
 Install the Work Progress Status for Agile Teams \(sn\_scrum\_progress\) application from ServiceNow Store.
--   **[Reviewing progress status for Agile Development 2.0 epics](review-work-progress-status-in-agile-2.0.md)**  
+-   **[Reviewing progress status for Agile Development 2.0 epics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/review-work-progress-status-in-agile-2.0.md)**  
 Understand if your work would be completed by the planned end dates by reviewing progress status of your Agile Development 2.0 epics.
 
-**Parent Topic:**[Agile Development 2.0](../../agile-development/reference/agile-landing-page.md)
+**Parent Topic:**[Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/agile-landing-page.md)
 

@@ -2,6 +2,7 @@
 title: Complete the Asset pick task for a requested Device as a Service \(DaaS\) asset
 description: Complete the Asset pick task for a requested DaaS asset by picking the asset that a provider asset manager selected for an inbound asset order line. You must pick the asset from the stockroom that the provider asset manager specified when selecting the asset.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/pick-selected-daas-asset-inbound-asset-order.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -17,7 +18,7 @@ Complete the Asset pick task for a requested DaaS asset by picking the asset tha
 
 ## Before you begin
 
-Before you can begin the Asset pick task, a provider asset manager must complete the preceding Asset selection task by selecting an asset for the inbound asset order line. For detailed instructions, see [Complete the Asset selection task for a requested Device as a Service \(DaaS\) asset](select-daas-asset-inbound-asset-order.md).
+Before you can begin the Asset pick task, a provider asset manager must complete the preceding Asset selection task by selecting an asset for the inbound asset order line. For detailed instructions, see [Complete the Asset selection task for a requested Device as a Service \(DaaS\) asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/select-daas-asset-inbound-asset-order.md).
 
 Role required: sn\_eam\_provider.provider\_asset\_technician
 
@@ -27,15 +28,15 @@ Role required: sn\_eam\_provider.provider\_asset\_technician
 
 2.  Open the Asset tasks list.
 
-<table id="choicetable_wwt_xxs_1hc"><thead><tr><th align="left" id="d313908e91">
+<table id="choicetable_wwt_xxs_1hc"><thead><tr><th align="left" id="d127631e91">
 
 Navigation option
 
-</th><th align="left" id="d313908e94">
+</th><th align="left" id="d127631e94">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d313908e100">
+</th></tr></thead><tbody><tr><td id="d127631e100">
 
 **Provider inbound asset order**
 
@@ -51,7 +52,7 @@ Procedure
 5.  On the inbound asset order line record, select the **Asset tasks** tab.
 
 
-</td></tr><tr><td id="d313908e144">
+</td></tr><tr><td id="d127631e144">
 
 **Provider inbound asset order line**
 
@@ -65,7 +66,7 @@ Procedure
 3.  On the inbound asset order line record, select the **Asset tasks** tab.
 
 
-</td></tr><tr><td id="d313908e179">
+</td></tr><tr><td id="d127631e179">
 
 **Provider asset tasks**
 
@@ -102,7 +103,7 @@ From the navigation menu of the Asset operations view, navigate to **Provider** 
 
 ## What to do next
 
-Complete the corresponding Asset prepare task by preparing the picked asset for shipment. For detailed instructions, see [Complete the Asset prepare task for a requested Device as a Service \(DaaS\) asset](prepare-picked-daas-asset-inbound-asset-order.md).
+Complete the corresponding Asset prepare task by preparing the picked asset for shipment. For detailed instructions, see [Complete the Asset prepare task for a requested Device as a Service \(DaaS\) asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/prepare-picked-daas-asset-inbound-asset-order.md).
 
-**Parent Topic:**[Completing an inbound asset order for requested Device as a Service \(DaaS\) assets](../concept/completing-inbound-asset-order-daas-assets.md)
+**Parent Topic:**[Completing an inbound asset order for requested Device as a Service \(DaaS\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/completing-inbound-asset-order-daas-assets.md)
 

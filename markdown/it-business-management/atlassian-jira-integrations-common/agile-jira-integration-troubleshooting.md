@@ -2,6 +2,7 @@
 title: Troubleshooting issues of Jira integration with Agile Development 2.0
 description: Resolve common issues that you might face while working with the integration of Jira and Agile Development 2.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/atlassian-jira-integrations-common/agile-jira-integration-troubleshooting.html
 release: zurich
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
@@ -125,7 +126,7 @@ Sub tasks information is neither imported nor exported between Jira and Agile De
 
 </td><td>
 
-To enable import of sub tasks from Jira to Agile Development 2.0, you must manually configure custom mapping for this task type. For more information, see [Customize your table map configuration](../task/custom-table-map-configuration.md).
+To enable import of sub tasks from Jira to Agile Development 2.0, you must manually configure custom mapping for this task type. For more information, see [Customize your table map configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/custom-table-map-configuration.md).
 
 </td></tr><tr><td>
 
@@ -157,7 +158,7 @@ While fetching Jira project metadata, the API call fails in the Flow designer, w
 
 </td><td>
 
-Reduce the value of the batch size property by setting it to any value between 1 and 50. For more information, see [Define batch size for Jira project metadata](../task/define-batch-size.md).
+Reduce the value of the batch size property by setting it to any value between 1 and 50. For more information, see [Define batch size for Jira project metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/define-batch-size.md).
 
 </td></tr><tr><td>
 
@@ -178,5 +179,5 @@ Reduce the value of **MAX\_LIMIT** in the JiraConstants Script Include and then 
 </td></tr></tbody>
 </table>## Enabling detailed project logs
 
-To view all the details on project logging, enable the integration project logging property. For more information, see [Enable detailed project logging in Jira Integration with Agile Development](../task/enable-integration-logs-jira.md).
+To view all the details on project logging, enable the integration project logging property. For more information, see [Enable detailed project logging in Jira Integration with Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/enable-integration-logs-jira.md).
 

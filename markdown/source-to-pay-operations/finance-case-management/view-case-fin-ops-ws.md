@@ -2,6 +2,7 @@
 title: View a case from Finance Operations Workspace
 description: View a case from the Finance Operations Workspace for further processing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/finance-case-management/view-case-fin-ops-ws.html
 release: zurich
 product: Finance Case Management
 classification: finance-case-management
@@ -25,7 +26,7 @@ Role required: sn\_fin\_ops.specialist
 
     -   **All** &gt; **Finance Operations** &gt; **Finance Operations Workspace**.
     -   **Workspaces** &gt; **Finance Operations Workspace**.
-2.  In the Finance Operations Workspace, select the List icon ![](../image/fin-ops-list-icon.png) to open the List page.
+2.  In the Finance Operations Workspace, select the List icon \[Omitted image "fin-ops-list-icon.png"\] Alt text: to open the List page.
 
 3.  From the list page, navigate to either of the following submodules:
 
@@ -36,11 +37,11 @@ Role required: sn\_fin\_ops.specialist
 
 ## Result
 
-The details of finance cases are displayed on the **Details** tab of the Finance Operations Workspace. For more information, see [Finance Operations Workspace Case Details page](../concept/case-details-fin-ops-ws.md).
+The details of finance cases are displayed on the **Details** tab of the Finance Operations Workspace. For more information, see [Finance Operations Workspace Case Details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/finance-case-management/case-details-fin-ops-ws.md).
 
-![View a finance case](../image/fin-ops-view-case.png)
+\[Omitted image "fin-ops-view-case.png"\] Alt text: View a finance case
 
 If you have access to the Source-to-Pay Workspace, you can see invoice, procurement, and supplier cases in the list. If you open any of these cases, the details of the case are displayed in the Source-to-Pay Workspace.
 
-**Parent Topic:**[Finance Operations Workspace list page](../concept/fin-ops-ws-list-page.md)
+**Parent Topic:**[Finance Operations Workspace list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/finance-case-management/fin-ops-ws-list-page.md)
 

@@ -2,6 +2,7 @@
 title: Enable Dynamic Translation for languages in Virtual Agent
 description: Enable Dynamic Translation for one or more languages in Chat Settings for Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/enable-dynamic-lang-detection.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Enable Dynamic Translation for one or more languages in Chat Settings for Virtua
 
 ## Before you begin
 
-Install and configure the plugins for Dynamic Translation, as described in [Prerequisites for using Dynamic Translation in Virtual Agent](../concept/prereq-using-dt-va.md). If these prerequisites aren’t completed, the Multi language support card described in the following steps doesn’t appear.
+Install and configure the plugins for Dynamic Translation, as described in [Prerequisites for using Dynamic Translation in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/prereq-using-dt-va.md). If these prerequisites aren’t completed, the Multi language support card described in the following steps doesn’t appear.
 
 Role required: virtual\_agent\_admin or admin
 
@@ -35,7 +36,7 @@ Role required: virtual\_agent\_admin or admin
 
     2.  Turn on the **Dynamic language translation** toggle switch to enable it.
 
-        Turning on this toggle is only applicable to NLU conversations. For more information about turning on translation for LLM conversations, see [Configure multilingual service for Now Assist applications](../../now-assist-admin/task/enable-dynamic-translation-for-now-assist-applications.md).
+        Turning on this toggle is only applicable to NLU conversations. For more information about turning on translation for LLM conversations, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.md).
 
     3.  Select **View All**.
 
@@ -43,11 +44,11 @@ Role required: virtual\_agent\_admin or admin
 
 4.  In the **Dynamic Translation Enabled** column, select **false** for the language you want to enable.
 
-    ![Virtual Agent Multi-language support page with highlighted false value under Dynamic Translation Enabled.](../../conversational-interfaces/image/dtac-language-flag.png)
+    \[Omitted image "dtac-language-flag.png"\] Alt text: Virtual Agent Multi-language support page with highlighted false value under Dynamic Translation Enabled.
 
     1.  If prompted, select **Edit record**.
 
-        ![Banner message with Edit record option highlighted.](../images/edit-language-record-link.png)
+        \[Omitted image "edit-language-record-link.png"\] Alt text: Banner message with Edit record option highlighted.
 
     2.  Select **Dynamic Translation Enabled**.
 
@@ -65,8 +66,8 @@ Role required: virtual\_agent\_admin or admin
 
     3.  In the **Value** column, change the setting to `true`.
 
-        ![System Properties page with com.glide.cs.guest_session_resumable value set to true.](../images/sysproperties-dt-guest-session-resumable.png)
+        \[Omitted image "sysproperties-dt-guest-session-resumable.png"\] Alt text: System Properties page with com.glide.cs.guest\_session\_resumable value set to true.
 
 
-**Parent Topic:**[Localization options for Virtual Agent](../concept/multi-language-options-va.md)
+**Parent Topic:**[Localization options for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/multi-language-options-va.md)
 

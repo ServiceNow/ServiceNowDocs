@@ -2,6 +2,7 @@
 title: Create a domain by creating an account for Now Assist for Customer Service Management \(CSM\)
 description: Create a domain by creating an account in the account table in the Customer Service Management \(CSM\) application. By creating an account, you also create a domain. If you have the admin role, you can create multiple domains by creating different accounts as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/create-domain-by-creating-an-account-for-csm.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -37,7 +38,7 @@ When creating a domain, follow these general guidelines:
 
     For example, if you want to create a domain under the global scope that would inherit its settings by default, select the global domain in the domain scope. If you want to create a child domain under a specific parent domain, change the domain scope to that parent domain.
 
-    ![Different domains that are created under the global scope.](../image/domain-separation-change-domain.png "Example of the different domains under domain scope")
+    \[Omitted image "domain-separation-change-domain.png"\] Alt text: Different domains that are created under the global scope.
 
 2.  Navigate to **All** &gt; **Customer Service** &gt; **Customer** &gt; **Accounts** or **All** &gt; **customer\_account.list**.
 
@@ -45,7 +46,7 @@ When creating a domain, follow these general guidelines:
 
 4.  Create a domain with the same name as the account by selecting **Save**.
 
-    ![Parent and child domains that were created under the global domain scope.](../image/domain-separation-domain-names.png "Different domain names")
+    \[Omitted image "domain-separation-domain-names.png"\] Alt text: Parent and child domains that were created under the global domain scope.
 
     For example, when you create an account named ParentDomain under the global scope, you also create a domain with the same name. All the domains that are created under the global scope will be under the TOP \(top level\) domain. If you create an account called ChildDomain within the ParentDomain domain, the domain with the same name is also created under the ParentDomain domain.
 

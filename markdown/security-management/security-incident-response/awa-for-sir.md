@@ -2,6 +2,7 @@
 title: Advanced Work Assignment for Security Incident Response
 description: Advanced Work Assignment \(AWA\) intelligently routes and assigns security incidents to security analysts on the basis on their availability, capacity, and skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/awa-for-sir.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -17,7 +18,7 @@ Advanced Work Assignment \(AWA\) intelligently routes and assigns security incid
 
 AWA streamlines the assignment process, ensuring that critical incidents are handled by the most appropriate and available analysts. AWA improves overall response times and efficiency in security operations.
 
-The ability to make configuration changes requires the AWA admin role \(awa\_admin\), which isn’t provided by default with SIR Workspace. For more information, see [Components installed with Security Incident Response](../../security-incident-response/reference/installed-with-sir.md).
+The ability to make configuration changes requires the AWA admin role \(awa\_admin\), which isn’t provided by default with SIR Workspace. For more information, see [Components installed with Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/installed-with-sir.md).
 
 ## Key features
 
@@ -28,5 +29,5 @@ The ability to make configuration changes requires the AWA admin role \(awa\_adm
 
 **Note:**
 
-You can’t use multiple security incident assignment methods simultaneously. For more information, see [Assigning security analysts](https://www.servicenow.com/docs/bundle/zurich-security-management/page/product/security-incident-response/reference/r_AgentAssignment.html).
+You can’t use multiple security incident assignment methods simultaneously. For more information, see [Assigning security analysts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/r_AgentAssignment.md).
 

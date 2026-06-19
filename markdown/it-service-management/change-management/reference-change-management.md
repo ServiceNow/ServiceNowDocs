@@ -2,6 +2,7 @@
 title: Reference section for Change Management
 description: Reference sections provide additional information about components installed with Change Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/reference-change-management.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -15,26 +16,26 @@ breadcrumb: [Change Management, IT Service Management]
 
 Reference sections provide additional information about components installed with Change Management.
 
--   **[Configuring maintenance schedules - Best practices](configuring-maintenance-schedules-best-practices.md)**  
+-   **[Configuring maintenance schedules - Best practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/configuring-maintenance-schedules-best-practices.md)**  
 Maintenance schedules define the periods during which a Configuration Item or change can be implemented.
--   **[Change Management properties](../reference/r_ChangeManagementProperties.md)**  
+-   **[Change Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/r_ChangeManagementProperties.md)**  
 Administrators can use change properties to configure Change Management behavior.
--   **[Analyze change request risk and impact rating](change-risk-conflict-analysis.md)**  
+-   **[Analyze change request risk and impact rating](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-risk-conflict-analysis.md)**  
 After you create a change request, you can assess and analyze the risk and impact rating for the change request. You can review any conflicts that are detected by reviewing the change request.
--   **[Success Probability definitions](success-probability-definition.md)**  
+-   **[Success Probability definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/success-probability-definition.md)**  
 Success Probability definition is a configuration that defines the probability and the matching conditions of a change request.
--   **[Calculated Risk Score](risk-lookup.md)**  
+-   **[Calculated Risk Score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/risk-lookup.md)**  
 Risk lookup table is to get the risk value corresponding to the success probability value and impact value.
--   **[Change management integrations](change-mgmt-integrations.md)**  
+-   **[Change management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-mgmt-integrations.md)**  
 You can integrate Change Management with other ServiceNow applications such as Discovery, Software Asset Management, and Hardware Asset Management.
--   **[Domain separation and Change Management](domain-separation-change-mgt.md)**  
+-   **[Domain separation and Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/domain-separation-change-mgt.md)**  
 Domain separation is supported in Change Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
--   **[Tutorial: add a new change management state](../task/t_AddNewStateTutorial.md)**  
+-   **[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/t_AddNewStateTutorial.md)**  
 This tutorial provides an example of adding a new state to the existing state model.
--   **[Change flows](change-flows.md)**  
+-   **[Change flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-flows.md)**  
 The Change Management Change flows provide a library of reusable actions and end-to-end implementations of the Change models provided in the base system.
--   **[ITSM Enhanced Security Features for Change Management](../reference/features-itsm-enhanced-security-change.md)**  
+-   **[ITSM Enhanced Security Features for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/features-itsm-enhanced-security-change.md)**  
 Help prevent unauthorized access to change-related tables using deny-unless ACLs. A deny-unless authentication ACL restricts access for a non-authenticated user.
 
-**Parent Topic:**[Change Management](c_ITILChangeManagement.md)
+**Parent Topic:**[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/c_ITILChangeManagement.md)
 

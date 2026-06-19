@@ -2,6 +2,7 @@
 title: Create a workspace in the ServiceNow IDE
 description: Create a workspace to view and organize the applications you're working on in the ServiceNow IDE.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-ide-family-release/create-workspace-servicenow-ide.html
 release: zurich
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
@@ -37,7 +38,7 @@ In a workspace in the ServiceNow IDE, you can add any applications that you're w
 
     The workspace becomes the active workspace.
 
-    ![A workspace on the homepage.](../image/servicenow-ide-empty-workspace.png)
+    \[Omitted image "servicenow-ide-empty-workspace.png"\] Alt text: A workspace on the homepage.
 
 5.  Add existing applications to the workspace.
 
@@ -50,7 +51,7 @@ In a workspace in the ServiceNow IDE, you can add any applications that you're w
 
 ## What to do next
 
-Create, convert, or clone an application and add it to your workspace. For more information, see [Adding applications in ServiceNow IDE](../concept/creating-applications-servicenow-ide.md).
+Create, convert, or clone an application and add it to your workspace. For more information, see [Adding applications in ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-ide-family-release/creating-applications-servicenow-ide.md).
 
 To switch the active workspace, you can browse and select other workspaces from the ServiceNow IDE home page or from the command palette with the `Workspaces: Browse Workspaces` command.
 

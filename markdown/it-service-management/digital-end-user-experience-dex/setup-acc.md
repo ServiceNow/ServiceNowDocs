@@ -2,6 +2,7 @@
 title: Create an ACC registration key
 description: Set up an Agent Client Collector \(ACC\) by creating an agent registration key to identify and authenticate agents that are enabled to send data to the collector. The key helps promote the security and integrity of the data collected from the system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/setup-acc.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -40,5 +41,5 @@ Role required: sn\_dex.admin
 
 ## What to do next
 
-[Install ACC for DEX on Windows](install-acc-for-dex-windows.md) or [Install ACC for DEX on macOS](install-acc-for-dex-macos.md).
+[Install ACC for DEX on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/install-acc-for-dex-windows.md) or [Install ACC for DEX on macOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/install-acc-for-dex-macos.md).
 

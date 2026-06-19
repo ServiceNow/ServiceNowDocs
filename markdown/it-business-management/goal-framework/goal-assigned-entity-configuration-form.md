@@ -2,6 +2,7 @@
 title: Goal Assigned Entity Configuration form
 description: Use the Goal Assigned Entity Configuration form to configure a table for an assigned entity type so that the goal user can associate goals with the required assigned entity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/goal-framework/goal-assigned-entity-configuration-form.html
 release: zurich
 product: Goal Framework
 classification: goal-framework
@@ -21,5 +22,5 @@ Use the Goal Assigned Entity Configuration form to configure a table for an assi
 |Application|Name of the application scope.|
 |Assigned entity field|Reference field on the goal form.|
 
-**Parent Topic:**[Goal Framework and Goal Framework for SPM reference](goal-framework-reference.md)
+**Parent Topic:**[Goal Framework and Goal Framework for SPM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/goal-framework-reference.md)
 

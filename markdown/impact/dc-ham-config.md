@@ -2,7 +2,10 @@
 title: Configure Data Collection for HAM
 description: Configure Data Collection for HAM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/dc-ham-config.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -27,6 +30,6 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
 
 2.  Enter the data point in the relevant month cell.
 
-    ![Example with Mar 2024 cell selected with no Indicator score entered.](../image/dct_config_ham.png)
+    \[Omitted image "dct\_config\_ham.png"\] Alt text: Example with Mar 2024 cell selected with no Indicator score entered.
 
 

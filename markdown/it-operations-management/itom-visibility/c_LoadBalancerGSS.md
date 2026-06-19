@@ -2,6 +2,7 @@
 title: Cisco GSS load balancer discovery
 description: Discovery of Cisco GSS load balancers is performed by both SNMP and SSH.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/c\_LoadBalancerGSS.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -25,7 +26,7 @@ Discovery uses the Cisco GSS Load Balancer classifier, which contains the condit
 
 Discovery uses several probes, including an SNMP probe to discover the specific GSS device and a **Serial Number** probe to identify the serial number of the device. See the table below for the list of related probes.
 
-**Warning:** You must have SNMP and [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) configured correctly for the GSS load balancers on your network.
+**Warning:** You must have SNMP and SSH credentials configured correctly for the GSS load balancers on your network.
 
 The following probes are triggered after classification:
 
@@ -38,9 +39,9 @@ The following probes are triggered after classification:
 
 ## Tables
 
-Discovery creates a record for each GSS device in the Cisco GSS \[cmdb\_ci\_lb\_cisco\_gss\] table. Domains are populated in the DNS Names \[cmdb\_ci\_dns\_name\] table. Host names and IP addresses are stored in the IP Address to DNS Name \[cmdb\_ip\_address\_dns\_name\] table. [Service Mapping](../../service-mapping/reference/c_ServiceMappingOverview.md) uses this information. You can see the DNS name information on the **DNS Names for CIs** related list of the Load Balancer form.
+Discovery creates a record for each GSS device in the Cisco GSS \[cmdb\_ci\_lb\_cisco\_gss\] table. Domains are populated in the DNS Names \[cmdb\_ci\_dns\_name\] table. Host names and IP addresses are stored in the IP Address to DNS Name \[cmdb\_ip\_address\_dns\_name\] table. [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/c_ServiceMappingOverview.md) uses this information. You can see the DNS name information on the **DNS Names for CIs** related list of the Load Balancer form.
 
-**Note:** The Cisco GSS pattern is available by default to use with the [Pattern Designer](../../service-mapping/concept/c_MappingPatternsCustomization.md).
+**Note:** The Cisco GSS pattern is available by default to use with the [Pattern Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md).
 
-**Parent Topic:**[Load balancer discovery](c_LoadBalancers.md)
+**Parent Topic:**[Load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_LoadBalancers.md)
 

@@ -2,6 +2,7 @@
 title: Service catalog variable sets
 description: Administrators and catalog administrators often define multiple catalog items that use the same group of service catalog variables. Catalog managers and catalog editors can attach a variable set for items to which they are assigned. However, catalog managers and catalog editors cannot create a variable set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/c\_ServiceCatalogVariableSets.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -53,7 +54,7 @@ You cannot include the following variable types in an MRVS:
 
 **Note:**
 
--   You can configure an MRVS variable to disallow duplicate values. For information about the **Unique** field, see [Create a service catalog variable](../task/t_CreateAVariableForACatalogItem.md).
+-   You can configure an MRVS variable to disallow duplicate values. For information about the **Unique** field, see [Create a service catalog variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/t_CreateAVariableForACatalogItem.md).
 -   You can hide a variable in the MRVS so that it does not appear when the dialog box is open.
 -   The **Map to field** functionality is not supported for variables used in an MRVS.
 -   Only the glide list interface is supported for the List Collector variable.
@@ -73,7 +74,7 @@ An MRVS form changes dynamically based on the data in the catalog item form that
 -   Other rows of that MRVS
 -   Other variables outside of that MRVS on the catalog item form.
 
-For information about accessing data in a multi-row variable set \(MRVS\) when a dialog box is open, see [g\_service\_catalog - Client](https://www.servicenow.com/docs/access?context=g_service_catalogClientAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+For information about accessing data in a multi-row variable set \(MRVS\) when a dialog box is open, see g\_service\_catalog - Client.
 
 You can define catalog client scripts, catalog UI policies, and catalog data lookups for an MRVS. Visibility is honored just on the MRVS form and not in the list.
 
@@ -96,10 +97,10 @@ You cannot select variables of an MRVS when defining the following for a catalog
 -   Unsupported ATF step configurations. You can only validate if an MRVS is visible, mandatory, or read only.
 -   Reporting
 
--   **[Create a variable set and add it to an item](../task/t_CreateAVariableSet.md#)**  
+-   **[Create a variable set and add it to an item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/t_CreateAVariableSet.md)**  
 Create a set of variables and add them to multiple catalog items and order guides for reuse.
--   **[Variable set layout](c_DefineVariableSetLayout.md#)**  
+-   **[Variable set layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_DefineVariableSetLayout.md)**  
 Variable sets can have one of many layouts. You can define the order of the variables for each item.
 
-**Parent Topic:**[Service Catalog Reference](service-catalog-reference.md)
+**Parent Topic:**[Service Catalog Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/service-catalog-reference.md)
 

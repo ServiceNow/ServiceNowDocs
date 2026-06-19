@@ -2,6 +2,7 @@
 title: View your workplace floor plan update logs
 description: After updating your workplace floor plan, you can view all changes made.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/view-workplace-floor-map-logs.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace
@@ -30,5 +31,5 @@ Role required: sn\_wsd\_core.workplace\_manager
 3.  Select the **Floor** link to view the floor record.
 
 
-**Parent Topic:**[Update a workplace floor plan](edit-workplace-floor-map.md)
+**Parent Topic:**[Update a workplace floor plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/edit-workplace-floor-map.md)
 

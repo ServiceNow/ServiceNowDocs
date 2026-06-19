@@ -2,6 +2,7 @@
 title: Add internal stakeholders from the Source-to-Pay Workspace
 description: Assign relationship types such as Primary relationship manager and Category manager to internal users associated with a supplier.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/add-internal-stakeholder.html
 release: zurich
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -41,7 +42,7 @@ Role required: sn\_slm.owner, sn\_slm.manager, sn\_slm.admin
 
 7.  From the Relationship type drop-down, select the user's relationship type with the supplier.
 
-    ![Selected option from the Relationship drop down menu.](../image/add-internal-stakeholder.png)
+    \[Omitted image "add-internal-stakeholder.png"\] Alt text: Selected option from the Relationship drop down menu.
 
 8.  From the **Importance** drop-down, select how critical the stakeholder is to the supplier relationship.
 
@@ -52,5 +53,5 @@ Role required: sn\_slm.owner, sn\_slm.manager, sn\_slm.admin
 
 The user is added to the list of internal stakeholders on the **Stakeholders** tab.
 
-**Parent Topic:**[Manage internal stakeholders](manage-internal-stakeholders.md)
+**Parent Topic:**[Manage internal stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/manage-internal-stakeholders.md)
 

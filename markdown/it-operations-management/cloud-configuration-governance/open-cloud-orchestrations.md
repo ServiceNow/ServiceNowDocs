@@ -2,6 +2,7 @@
 title: Open cloud orchestrations
 description: Cloud orchestration records show you the orders that your instance processed for each attempted operation on a stack. They also show you the values of the fields that the user submitted through the Cloud User Portal. Use cloud orchestrations to troubleshoot issues that occur when a user provisions a cloud resource or runs another operation on an existing cloud resource.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/open-cloud-orchestrations.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -23,7 +24,7 @@ Role required: sn\_cmp.cloud\_operator or sn\_cmp.cloud\_admin
 
 1.  On the instance \(not the Cloud User Portal\), enter the following text into the application filter:
 
-    ![Opening cloud orchestrations](../image/snmp-order-list.png)
+    \[Omitted image "snmp-order-list.png"\] Alt text: Opening cloud orchestrations
 
     The list of Cloud Orchestrations appear.
 
@@ -35,7 +36,7 @@ Role required: sn\_cmp.cloud\_operator or sn\_cmp.cloud\_admin
 
 4.  Review the form fields:
 
-    ![Cloud Orchestrations form](../image/cloud-orchestration-form.png)
+    \[Omitted image "cloud-orchestration-form.png"\] Alt text: Cloud Orchestrations form
 
     The example form shows you the type of message you can see when an operation fails due to the incorrect credentials. The OrderForm Data field shows the Sys ID of the credential record and the service account ID.
 

@@ -2,6 +2,7 @@
 title: Viewing SSO subscription information
 description: You can view information about the Single Sign-On \(SSO\) applications, SSO users, and SSO groups that are associated with your SSO integrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/saas-license-management/sso-subscriptions.html
 release: zurich
 product: SaaS License Management
 classification: saas-license-management
@@ -15,7 +16,7 @@ breadcrumb: [Viewing your SaaS and SSO subscriptions, SaaS License Management, S
 
 You can view information about the Single Sign-On \(SSO\) applications, SSO users, and SSO groups that are associated with your SSO integrations.
 
-**Important:** You can view information about your SSO applications, users, and groups in both the Software Asset Management Core UI and Software Asset Workspace. The following sections provide details on viewing this information in the Software Asset Management classic application. For details on viewing this information in the Software Asset Workspace, see [License operations view](../concept/operations-workspace.md).
+**Important:** You can view information about your SSO applications, users, and groups in both the Software Asset Management Core UI and Software Asset Workspace. The following sections provide details on viewing this information in the Software Asset Management classic application. For details on viewing this information in the Software Asset Workspace, see [License operations view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/operations-workspace.md).
 
 ## Viewing SSO integration information
 
@@ -94,7 +95,7 @@ Status of the directory jobs.
 </td></tr></tbody>
 </table>## Viewing SSO application information
 
-To view the users, groups, and reclamation candidates for an application, navigate to **All** &gt; **SaaS License** &gt; **SSO Applications** and select an application. The related lists show information for the application. For viewing the SSO application information in Software Asset Workspace, see [View SSO applications in workspace](../task/view-ssoapps-workspace.md).
+To view the users, groups, and reclamation candidates for an application, navigate to **All** &gt; **SaaS License** &gt; **SSO Applications** and select an application. The related lists show information for the application. For viewing the SSO application information in Software Asset Workspace, see [View SSO applications in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/view-ssoapps-workspace.md).
 
 <table id="id_acl_q5h_bzb"><thead><tr><th>
 
@@ -152,5 +153,5 @@ SSO groups that are mapped to specific software models for managing licenses at 
 
 If you delete a user, group, or app in the Azure AD portal or in the Okta Developer Console, then the corresponding records in Software Asset Management are deleted when the daily scheduled jobs run. If you revoke a user's access to an application in the Azure AD portal or in the Okta Developer Console, either directly or indirectly by removing them from a group, then the corresponding user subscription record is deleted when the daily scheduled jobs run.
 
-**Parent Topic:**[Viewing your SaaS and SSO subscriptions](../concept/usage-summary-saas.md)
+**Parent Topic:**[Viewing your SaaS and SSO subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/usage-summary-saas.md)
 

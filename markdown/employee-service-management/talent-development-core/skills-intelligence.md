@@ -2,6 +2,7 @@
 title: Skills Foundation
 description: The ServiceNow Skills Foundation application is an AI-driven platform that you can use in your organization to develop a workforce that is based on skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/skills-intelligence.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -15,7 +16,7 @@ breadcrumb: [Growth Experiences, HR Service Delivery, Employee Service Managemen
 
 The ServiceNow® Skills Foundation application is an AI-driven platform that you can use in your organization to develop a workforce that is based on skills.
 
-**Important:** Skills Foundation uses Artificial Intelligence \(AI\) to help your organization in talent management and employee development. Skills Management application enables you to manually create skills and skill categories, and also assign them to users manually. Activating the Skills Foundation plugin \(com.sn\_skills\_int\) will also activate the Skills Management plugin \(com.snc.skills\_management\). For information on Skills Management, see [Skills Management](https://www.servicenow.com/docs/access?context=skills-management&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+**Important:** Skills Foundation uses Artificial Intelligence \(AI\) to help your organization in talent management and employee development. Skills Management application enables you to manually create skills and skill categories, and also assign them to users manually. Activating the Skills Foundation plugin \(com.sn\_skills\_int\) will also activate the Skills Management plugin \(com.snc.skills\_management\). For information on Skills Management, see .
 
 Skills Foundation overview 
 
@@ -43,24 +44,24 @@ Build a complete profile of your talent with a comprehensive view of the skills 
 
 <table id="jny-dsgn-info-model-table" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn how the Skills Foundation application empowers customers on their journey toward Talent Development.](exploring-skills-intelligence.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how the Skills Foundation application empowers customers on their journey toward Talent Development.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/exploring-skills-intelligence.md)
 
 </td><td>
 
-[Install and configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Install and configure the Skills Foundation app and related features.](configuring-skills-intelligence.md)
+[Install and configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and configure the Skills Foundation app and related features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/configuring-skills-intelligence.md)
 
 </td></tr><tr><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Learn how to view and manage your skills profile.](using-skills-intelligence.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Learn how to view and manage your skills profile.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/using-skills-intelligence.md)
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about components like fields, tables, and properties.](skills-intelligence-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text:Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/skills-intelligence-reference.md)
 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://www.servicenow.com/docs/access?context=hr-service-delivery-landing&version=zurich&pubname=zurich-release-notes&ft:locale=en-US).
+-   Learn more about what's new and changed, see the .
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

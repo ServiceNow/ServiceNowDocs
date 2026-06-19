@@ -2,6 +2,7 @@
 title: Create consumption rules
 description: Create consumption rules to restrict license consumption to certain entities within your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/create-consumption-rule.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -43,8 +44,8 @@ Role required: sam\_user
 
 4.  Select **Save**.
 
-    The new consumption rule appears in the Consumption rules list view. You must [link this rule](link-consumption-rules.md) to one or many entitlements.
+    The new consumption rule appears in the Consumption rules list view. You must [link this rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/link-consumption-rules.md) to one or many entitlements.
 
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/using-sam-workspace.md)
 

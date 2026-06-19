@@ -2,6 +2,7 @@
 title: Datadog connector instance value parameters
 description: The following table displays the Datadog connector instance value parameters that you can fill in, as needed, when creating a Datadog connector instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/datadog-connector-instance-value-parameters.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -118,7 +119,7 @@ The protocol for the connection.Default: https
 </td></tr></tbody>
 </table>In the Connector Instance Metrics related list, specify which metrics to collect. To use all 23 out-of-the-box metrics, no action is needed.
 
-To go back to the procedure page, see [Configure the Datadog metrics connector instance](../task/configure-datadog-connector.md).
+To go back to the procedure page, see [Configure the Datadog metrics connector instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-datadog-connector.md).
 
-**Parent Topic:**[Event Management reference](event-management-reference.md)
+**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/event-management-reference.md)
 

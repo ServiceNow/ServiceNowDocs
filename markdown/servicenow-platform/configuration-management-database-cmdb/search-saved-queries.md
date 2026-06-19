@@ -2,6 +2,7 @@
 title: Search for a saved query
 description: The CMDB Query Builder allows you to search for a specific saved query using any combination of search criteria such as the query's name, type, custom tags, and who created or updated the query.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/search-saved-queries.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -17,7 +18,7 @@ The CMDB Query Builder allows you to search for a specific saved query using any
 
 ## Before you begin
 
-To locate a saved query using a **Query Tags** search criteria, the query must have a query tag associated with it. For more information see [Build a CMDB query using the CMDB Query Builder](use-cmdb-query-builder.md), or [Build a Service Mapping query using the CMDB Query Builder](build-service-mapping-query.md).
+To locate a saved query using a **Query Tags** search criteria, the query must have a query tag associated with it. For more information see [Build a CMDB query using the CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/use-cmdb-query-builder.md), or [Build a Service Mapping query using the CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/build-service-mapping-query.md).
 
 Role required: cmdb\_query\_builder \(contained for itil, itil\_admin, and asset\)
 

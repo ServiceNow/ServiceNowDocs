@@ -2,6 +2,7 @@
 title: Ensure dashboards creation/deletion requires access check \[New in Security Center 1.3 and updated in 2.0\]
 description: The glide.processors.check\_access\_before\_process system property enables access control list \(ACL\) enforcement for creating or deleting dashboards when a user is logged in.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-ensure-dashboards-creation-deletion-requires-access-check.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -81,7 +82,7 @@ Category
 
 </td><td>
 
-[Access control](sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -110,5 +111,5 @@ Functional impact
 This property controls the ability to create new sys\_dashboards and delete existing dashboards when a user lacks the necessary access rights. When the value is set to false, users with inappropriate roles can add and delete sys\_dashboard entries \(though the GlideRecord layer should recheck the existing ACLs\). A value of true restricts add and delete operations for users without the required access rights.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

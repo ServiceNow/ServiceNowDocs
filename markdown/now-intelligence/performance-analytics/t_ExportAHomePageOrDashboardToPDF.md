@@ -2,6 +2,7 @@
 title: Export a responsive dashboard to PDF
 description: Export a dashboard as a PDF so you can archive, print, or distribute it.It's possible to export any dashboard or homepage to PDF using your browser's print functionality.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/t\_ExportAHomePageOrDashboardToPDF.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -17,9 +18,9 @@ Export a dashboard as a PDF so you can archive, print, or distribute it.
 
 ## Before you begin
 
-This topic refers to Dashboards in the Core UI. If your instance is migrated to Platform Analytics experience, see [Export a Platform Analytics dashboard](../../dashboards/task/export-pae-dashboard-ppt.md).
+This topic refers to Dashboards in the Core UI. If your instance is migrated to Platform Analytics experience, see [Export a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/export-pae-dashboard-ppt.md).
 
-Roles required: No role is required to export dashboards to PDF, however, an admin has to configure the instance for PDF export. See [Enable PDF export of dashboards](../../dashboards/task/enable-pdf-export.md) for more information.
+Roles required: No role is required to export dashboards to PDF, however, an admin has to configure the instance for PDF export. See [Enable PDF export of dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/enable-pdf-export.md) for more information.
 
 ## About this task
 
@@ -27,15 +28,15 @@ Interactive filters that are applied to the dashboard are also applied to the PD
 
 **Note:** To generate the PDF locally, set the interactive filters, click the user icon, and select **Printer Friendly Version**. The dashboard opens in a new window or tab. Export the dashboard using the print settings of the browser.
 
-![Opening printer friendly version.](../image/polaris-printer-friendly.png)
+\[Omitted image "polaris-printer-friendly.png"\] Alt text: Opening printer friendly version.
 
 If you do not have Next Experience activated, select **Printer Friendly Version** from the **Settings** menu.
 
-![](../image/settings-icon.png)
+\[Omitted image "settings-icon.png"\] Alt text:
 
 Limitations:
 
--   Custom content may not generate as expected when exported to PDF. For more information, see [Custom content PDF export limitations](../../dashboards/reference/custom-content-pdf-export-limitations.md).
+-   Custom content may not generate as expected when exported to PDF. For more information, see [Custom content PDF export limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/custom-content-pdf-export-limitations.md).
 -   Dashboards that are exported to PDF do not include the dashboard layout. Widgets are stacked on top of each other and take up the full page width.
 -   Widgets are exported to a fixed height. Large widgets, such as workbench or list widgets, are truncated.
 -   Calendar reports exported from a dashboard may be truncated because exporting calendar reports to PDF is not supported.
@@ -55,13 +56,13 @@ Limitations:
 
 2.  From the dashboard picker in the upper left, select the dashboard that you want to export.
 
-3.  Click the context menu \(![Context menu icon](../../../common/image/Form_MenuIcon.png)\) and select **Export to PDF**.
+3.  Click the context menu \(\[Omitted image "Form\_MenuIcon.png"\] Alt text: Context menu icon\) and select **Export to PDF**.
 
-    ![Context menu with Export to PDF highlighted](../../dashboards/image/export-resp-db-pdf.png)
+    \[Omitted image "export-resp-db-pdf.png"\] Alt text: Context menu with Export to PDF highlighted
 
 4.  Configure your print and delivery options.
 
-    ![Export to PDF pop-up with print and delivery options: Print all dashboard tabs, orientation, paper size, and delivery options, generate now and send as email](../../dashboards/image/export-pdf-print-del-options.png)
+    \[Omitted image "export-pdf-print-del-options.png"\] Alt text: Export to PDF pop-up with print and delivery options: Print all dashboard tabs, orientation, paper size, and delivery options, generate now and send as email
 
 5.  Click **Export**.
 
@@ -90,7 +91,7 @@ You can use your browser's print functionality to export a PDF on demand, and to
 
 3.  Select your user icon to show the Settings menu.
 
-    ![User settings menu with Printer friendly version menu item outlined](../../dashboards/image/user-menu-printer-friendly.png)
+    \[Omitted image "user-menu-printer-friendly.png"\] Alt text: User settings menu with Printer friendly version menu item outlined
 
     A browser tab opens with the dashboard's widgets stacked one on top of another.
 

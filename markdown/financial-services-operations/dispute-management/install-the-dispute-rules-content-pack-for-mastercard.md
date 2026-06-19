@@ -2,6 +2,7 @@
 title: Install the Dispute Rules Content Pack for Mastercard
 description: If you have the admin role, you can install the Dispute Rules Content Pack for Mastercard application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/install-the-dispute-rules-content-pack-for-mastercard.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -27,7 +28,7 @@ Role required: admin
 
     You can search for the application by its name or ID. If you can't find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application.
 
@@ -38,5 +39,5 @@ Role required: admin
 5.  Select **Install**.
 
 
-**Parent Topic:**[Dispute Rules Content Pack for Mastercard](../concept/dispute-rules-content-pack-for-mastercard-landing-page.md)
+**Parent Topic:**[Dispute Rules Content Pack for Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/dispute-rules-content-pack-for-mastercard-landing-page.md)
 

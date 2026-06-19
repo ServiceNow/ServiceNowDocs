@@ -2,6 +2,7 @@
 title: Configure callback routing
 description: Configure callback requests to route them to the external CCaaS providers using Callback Actions API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/omnichannel-callback/configure-callback-route-ccaas-api.html
 release: zurich
 product: Omnichannel Callback
 classification: omnichannel-callback
@@ -21,7 +22,7 @@ To send callback requests to the external CCaaS providers, you have to define ro
 
 ## Before you begin
 
-Ensure that you have copied the External Callback Operations template in Subflows. To learn more, see [Copy subflow template for callback routing](configure-callback-route-copy-subflow-template.md).
+Ensure that you have copied the External Callback Operations template in Subflows. To learn more, see [Copy subflow template for callback routing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/omnichannel-callback/configure-callback-route-copy-subflow-template.md).
 
 Role required: admin
 

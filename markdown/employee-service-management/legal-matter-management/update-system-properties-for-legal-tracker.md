@@ -2,6 +2,7 @@
 title: Configure Legal Tracker instance URL
 description: Update the system properties to generate the URL specific to External Matter that is displayed in the Legal Tracker matter link field. By selecting the URL, the user can directly open the matter in the Legal Tracker application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-matter-management/update-system-properties-for-legal-tracker.html
 release: zurich
 product: Legal Matter Management
 classification: legal-matter-management
@@ -17,7 +18,7 @@ Update the system properties to generate the URL specific to External Matter tha
 
 ## Before you begin
 
-Ensure you have installed and activated Legal Tracker spoke. For more information, see [Legal Tracker](https://www.servicenow.com/docs/access?context=legal-tracker-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+Ensure you have installed and activated Legal Tracker spoke. For more information, see Legal Tracker.
 
 Role required: admin
 
@@ -40,5 +41,5 @@ Role required: admin
 
 The system property update to add the new URL to directly open external matters for the Legal Tracker application that is to be integrated with Legal Matter Management.
 
-**Parent Topic:**[Configure Legal Matter Management to engage with outside counsel using Legal Tracker](../concept/configurations-for-legal-tracker-integration.md)
+**Parent Topic:**[Configure Legal Matter Management to engage with outside counsel using Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/configurations-for-legal-tracker-integration.md)
 

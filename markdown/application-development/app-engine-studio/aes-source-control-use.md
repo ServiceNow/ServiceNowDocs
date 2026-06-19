@@ -2,6 +2,7 @@
 title: Use AES with a Git source control repository
 description: App developers working in App Engine Studio \(AES\) can manage their data repository in numerous ways.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/aes-source-control-use.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -15,7 +16,7 @@ breadcrumb: [Build, App Engine Studio, Building low-code applications, Developin
 
 App developers working in App Engine Studio \(AES\) can manage their data repository in numerous ways.
 
-After your [admin has linked an application to Source control](aes-source-control-integration.md), all application developers on a non-production instance can perform these actions:
+After your [admin has linked an application to Source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-source-control-integration.md), all application developers on a non-production instance can perform these actions:
 
 -   Import applications from a Git repository.
 -   Pull and apply remote changes from a Git repository.
@@ -36,7 +37,7 @@ After an application has been linked to source control, application developers c
 -   Switch branches.
 -   Import an application from a remote repository.
 
-Source control integration does not support managing applications on a production instance. Instead, you can manage applications on a production instance using the application repository, an update set, or App Engine Studio. For more information about managing applications on a production instance, see [Application sharing](../../applications/concept/c_SharingApplications.md).
+Source control integration does not support managing applications on a production instance. Instead, you can manage applications on a production instance using the application repository, an update set, or App Engine Studio. For more information about managing applications on a production instance, see [Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/c_SharingApplications.md).
 
 ## Options available from a Git repository
 
@@ -60,22 +61,22 @@ The source control integration sanitizes only content within the application pat
 
 Use an existing MID Server to connect to a source control repository. Accessing an application through a MID Server enables access to repositories behind a firewall.
 
--   **[Source control operations in App Engine Studio](../reference/source-control-operations.md)**  
+-   **[Source control operations in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/source-control-operations.md)**  
 The source control integration primarily supports operations from App Engine Studio \(AES\), but can also support some operations directly from the Git repository.
--   **[Import application or application-customization from source control](../task/source-control-import.md)**  
+-   **[Import application or application-customization from source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/source-control-import.md)**  
 Import an app or app customization from a source control repository into App Engine Studio \(AES\) to continue developing it on this instance.
--   **[Work with changes in Git](work-changes-in-git.md)**  
+-   **[Work with changes in Git](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/work-changes-in-git.md)**  
 Developers using App Engine Studio \(AES\) can pull and commit changes in their Git repository.
--   **[Create versions and branches in Git](create-versions-branches-git.md#)**  
+-   **[Create versions and branches in Git](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/create-versions-branches-git.md)**  
 App developers using App Engine Studio \(AES\) can create versions and branches in their Git repositories.
--   **[Stash changes](stash-changes.md)**  
+-   **[Stash changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/stash-changes.md)**  
 Developers can remove and save changes locally to apply them later, and manage stashed changes from App Engine Studio \(AES\).
--   **[Resolve conflicts](../task/source-control-resolve-conflicts.md)**  
+-   **[Resolve conflicts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/source-control-resolve-conflicts.md)**  
 App developers can select the app file version to use when applying remote or stashed changes in App Engine Studio \(AES\).
--   **[View commit history](../task/source-control-view-commit-history.md)**  
+-   **[View commit history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/source-control-view-commit-history.md)**  
 App developers can view the commit history of apps linked to a source control repository in App Engine Studio \(AES\).
--   **[Move application files in a Git repository](../task/source-control-move-files-git.md)**  
+-   **[Move application files in a Git repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/source-control-move-files-git.md)**  
 Move application files linked to source control to any folder of the repository when working in App Engine Studio \(AES\). Allow application developers to store supporting content such as automated tests in the same repository as the applications they support.
 
-**Parent Topic:**[Building apps in App Engine Studio](aes-app-creation.md)
+**Parent Topic:**[Building apps in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-creation.md)
 

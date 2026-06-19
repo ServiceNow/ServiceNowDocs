@@ -2,6 +2,7 @@
 title: View and manage Walk-up Experience appointments from application navigator
 description: Viewing upcoming scheduled Walk-up Experience appointments provides technicians with an estimate of future queue demand and workload. Managers can view future appointments and adjust staffing at walk-up queue locations to best support demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/walk-up-experience/view-manage-walkup-appoint-nav.html
 release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -35,7 +36,7 @@ Upcoming appointments also display with a small calendar icon next to the user n
 
 2.  Select an appointment number to view the details, such as the requester name, the interaction number and description, and the appointment time.
 
-    1.  If desired, to preview the associated interaction details, click the preview record icon ![record icon](../../../common/image/Form_ReferenceLookupIcon.png) next to the appointment number.
+    1.  If desired, to preview the associated interaction details, click the preview record icon \[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text: record icon next to the appointment number.
 
     2.  To begin working on the interaction, click **Accept appointment** on the **Walk-up Appointment** form.
 
@@ -46,5 +47,5 @@ Upcoming appointments also display with a small calendar icon next to the user n
     3.  Select **Update** to save any changes you make to the interaction form.
 
 
-**Parent Topic:**[Manage Walk-up Experience queue and interaction](../concept/use-walkup-to-manage-demand.md)
+**Parent Topic:**[Manage Walk-up Experience queue and interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
 

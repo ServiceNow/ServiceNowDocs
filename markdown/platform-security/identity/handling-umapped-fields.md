@@ -2,6 +2,7 @@
 title: Handle unmapped fields
 description: You can handle unmapped fields in SCIM customization in different ways.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/handling-umapped-fields.html
 release: zurich
 product: Identity
 classification: identity

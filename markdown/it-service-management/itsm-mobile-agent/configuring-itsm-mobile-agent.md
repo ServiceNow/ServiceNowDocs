@@ -2,6 +2,7 @@
 title: Configuring ITSM Mobile Agent
 description: Plan and configure ITSM Mobile Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/configuring-itsm-mobile-agent.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

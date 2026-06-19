@@ -2,6 +2,7 @@
 title: URL navigation in Conversational Interfaces
 description: Use URL navigation settings to specify where and how chat links open. You can configure certain links to open in a specific portal. You can also specify the link target, such as a popup window.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/url-navigation-ci.html
 release: zurich
 product: Conversational Interfaces
 classification: conversational-interfaces
@@ -26,7 +27,7 @@ To determine the portals to be used for chat links, the system evaluates the fol
 
 1.  `sysparm` portal parameter - If you specified a sysparm\_portal parameter in the instance URL for the chat widget, that portal is used.
 2.  Topic script variable - If you specified a portal in a topic script variable, that portal is used.
-3.  Default portal for Provider Channel Identity - If you specified a default portal in the Provider Channel Identity \[sys\_cs\_provider\_application\] table for pre-built chat integrations or custom chat integrations, that portal is used. The default portal applies to the chat and messaging channels for the provider. For details on configuring the Provider Channel Identity, see [Create a channel identifier for your custom chat integration](../../virtual-agent/task/create-channel-id-va-cccif.md) in Custom chat integration framework.
+3.  Default portal for Provider Channel Identity - If you specified a default portal in the Provider Channel Identity \[sys\_cs\_provider\_application\] table for pre-built chat integrations or custom chat integrations, that portal is used. The default portal applies to the chat and messaging channels for the provider. For details on configuring the Provider Channel Identity, see [Create a channel identifier for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-channel-id-va-cccif.md) in Custom chat integration framework.
 4.  Default portal for a table - Uses the portal value in the default portal mapping listed in **URL navigation** Chat Setting.
 5.  Global default portal - If you defined a global default portal using the **com.glide.cs.url\_redirect.default.portal** system property, that global portal is used.
 6.  Service Portal - If you didn't define a global portal using the **com.glide.cs.url\_redirect.default.portal** property, Service Portal is used.
@@ -148,12 +149,12 @@ Default URL mapping for records other than knowledge articles, Service Catalog i
 </table>
 ## Smart links
 
-As an admin, you can specify the target for URL links based on patterns that you specify. For example, if you want all KB articles to open in a new window, you can configure the mapping in general chat settings. For more information, see [Create a smart link preference](../task/create-smart-link-preference.md).
+As an admin, you can specify the target for URL links based on patterns that you specify. For example, if you want all KB articles to open in a new window, you can configure the mapping in general chat settings. For more information, see [Create a smart link preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/create-smart-link-preference.md).
 
--   **[Configure URL navigation for chat links](../task/ac-configure-url-navigation.md)**  
+-   **[Configure URL navigation for chat links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/ac-configure-url-navigation.md)**  
 Configure the portals in which links to ServiceNow records in Live Agent and Virtual Agent conversations are opened, including links in output cards and cards for Virtual Agent notifications and AI Search results.
--   **[Create a smart link preference](../task/create-smart-link-preference.md)**  
+-   **[Create a smart link preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/create-smart-link-preference.md)**  
 Create smart links to specify where a URL should open. For example, the URL could open in a new browser window, in a new browser tab, in the chat window, or in a pop-up window.
 
-**Parent Topic:**[General chat settings](ci-configuring-chat-features.md)
+**Parent Topic:**[General chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/ci-configuring-chat-features.md)
 

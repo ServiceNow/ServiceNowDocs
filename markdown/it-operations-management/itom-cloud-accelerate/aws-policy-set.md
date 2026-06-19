@@ -2,6 +2,7 @@
 title: Policy sets
 description: The Cloud Configuration Governance policy sets and its policies are listed for your reference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-cloud-accelerate/aws-policy-set.html
 release: zurich
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -120,5 +121,5 @@ Ensure that logging for Azure KeyVault is 'Enabled' \(Automated\)
 Microsoft Azure Foundations Benchmark v1.4.0 - 11-26-2021
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Configuration Governance reference](ccg-reference.md)
+</table>**Parent Topic:**[Cloud Configuration Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/ccg-reference.md)
 

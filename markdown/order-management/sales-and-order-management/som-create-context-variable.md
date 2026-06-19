@@ -2,11 +2,12 @@
 title: Create a custom context variable
 description: Create custom context variables to represent product or non-product characteristics that can be used by pricing admins to apply control different pricing features, such as pricing adjustments, or product catalog admins to set product offering eligibility rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/som-create-context-variable.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Pricing Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -19,17 +20,19 @@ Create custom context variables to represent product or non-product characterist
 
 Before creating a custom variable, review the context variables available in the Context Variables \[sn\_csm\_ctxrul\_mgt\_context\_variable\] table to verify whether you need a new one. This table identifies the system-defined variables provided with Product Catalog Management and Pricing Management and also any custom variables that have been created.
 
+For example, the system-defined context variables provided for non-product attributes include: Account, Shipping Country, Shipping City, Shipping State, Shipping Zip, Billing Country, Billing City, Billing State, Billing Zip, and Transaction Date.
+
 Role required: admin
 
 ## About this task
 
 As an administrator, you can create custom context variables for items such as non-product characteristics, that your pricing and product catalog administrators can use in rule matrices to control pricing features or product offering eligibility. For example, your pricing administrator might want to define pricing adjustments based on sales segment, but sales segment isn’t a system-defined context variable.
 
-You create the variable name and define the variable type, so that the variable can be used in a decision rule for a rule matrix. After you create the variable, you must also [map the context variable to the transaction entity](som-map-variable.md), such as quote or order, from which the system retrieves the context.
+You create the variable name and define the variable type, so that the variable can be used in a decision rule for a rule matrix. After you create the variable, you must also [map the context variable to the transaction entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-map-variable.md), such as quote or order, from which the system retrieves the context.
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![image.Lists] view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Context Rule Management** &gt; **Context Variables**.
 
@@ -51,7 +54,7 @@ Type
 
 </td><td>
 
-Context variable type. Choose the type of field for the variable. For example, the choice list field type lets your user select from a pre-defined list of choices.For more information on the different field types, see [Field types reference](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Context variable type. Choose the type of field for the variable. For example, the choice list field type lets your user select from a pre-defined list of choices.For more information on the different field types, see .
 
 </td></tr><tr><td>
 
@@ -115,5 +118,5 @@ Option that indicates the context variable is available for use in rule matrices
 
 ## What to do next
 
-[Map the custom context variable to a transaction entity](som-map-variable.md).
+[Map the custom context variable to a transaction entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-map-variable.md).
 

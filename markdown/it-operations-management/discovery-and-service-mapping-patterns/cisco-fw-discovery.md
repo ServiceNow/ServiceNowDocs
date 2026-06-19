@@ -2,6 +2,7 @@
 title: Next-Generation Cisco Firewall discovery
 description: The ServiceNow Discovery application uses the Next Generation Cisco Firewall pattern to find Cisco firewalls. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/cisco-fw-discovery.html
 release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -21,17 +22,17 @@ You can use this pattern on the ServiceNow AI Platform® using the Madrid releas
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
 -   Ensure that your network firewall device has SNMP access.
--   On the ServiceNow instance, configure SNMP credentials. For more information, see [SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+-   On the ServiceNow instance, configure SNMP credentials. For more information, see .
 -   Add the SNMP system OID record for the Cisco device to the ServiceNow instance. Update the following:
     -   Classifier: Cisco Firewall
     -   Class: Cisco Firewall Device
 -   Deploy the pattern as follows:
-    1.  Download and install [Firewall extension classes](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-fw&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) from the ServiceNow Store. The app adds the new CMDB classes required for network firewall discovery.
+    1.  Download and install Firewall extension classes from the ServiceNow Store. The app adds the new CMDB classes required for network firewall discovery.
     2.  Download and install the Discovery and Service Mapping Patterns application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
     3.  Sync the pattern with the appropriate MID Server.
 
@@ -76,7 +77,7 @@ Discovery populates the data in the CMDB when running the Next Generation Cisco 
 
 This Dependency Views map on the Cisco Firewall Device CI shows the Cisco Firewall Device.
 
-![CIs and connections on a Dependency Views map](../image/cisco-fw-dependency-views.png)
+\[Omitted image "cisco-fw-dependency-views.png"\] Alt text: CIs and connections on a Dependency Views map
 
 ## CI relationships
 
@@ -93,5 +94,5 @@ These relationships are created to support Cisco firewall discovery.
 |Router Interface \[dscy\_router\_interface\]|References|Cisco Firewall Device \[cmdb\_ci\_firewall\_device\_cisco\]|
 |Serial Number \[cmdb\_serial\_number\]|References|Cisco Firewall Device \[cmdb\_ci\_firewall\_device\_cisco\]|
 
-**Parent Topic:**[Available on-premise discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

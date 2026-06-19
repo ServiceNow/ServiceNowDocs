@@ -2,6 +2,7 @@
 title: Configure multicurrency for planning items
 description: Select investment currency as an additional currency, which can be different from your functional currency, to manage financial records of your planning items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/config-investment-currency-ppw-fin.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -17,7 +18,7 @@ Select investment currency as an additional currency, which can be different fro
 
 ## Before you begin
 
--   [Enable monetary benefit plans for planning items](../../spw-financials/task/enable-benefitplans-spw-fin.md)
+-   [Enable monetary benefit plans for planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/enable-benefitplans-spw-fin.md)
 -   Role required: admin
 
 ## Procedure
@@ -30,15 +31,15 @@ Select investment currency as an additional currency, which can be different fro
 
     In the **Currency** field, the current system currency is displayed. For example, if your Functional currency is in USD, the field is displayed as **USD \(Functional\)**.
 
-<table id="choicetable_d3h_yqx_jhc"><thead><tr><th align="left" id="d260073e110">
+<table id="choicetable_d3h_yqx_jhc"><thead><tr><th align="left" id="d236251e110">
 
 Planning item type
 
-</th><th align="left" id="d260073e113">
+</th><th align="left" id="d236251e113">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d260073e119">
+</th></tr></thead><tbody><tr><td id="d236251e119">
 
 **Demands**
 
@@ -55,7 +56,7 @@ Edit investment currency modal is displayed with options to select investment cu
 3.  Define investment currency for the future artifact using the **Investment currency for converted artefact** list.
 
 
-</td></tr><tr><td id="d260073e165">
+</td></tr><tr><td id="d236251e165">
 
 **Other planning items**
 

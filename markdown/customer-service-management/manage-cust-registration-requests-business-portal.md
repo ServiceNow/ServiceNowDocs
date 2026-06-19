@@ -2,7 +2,10 @@
 title: Manage customer registration requests from Business Portal
 description: Users with the customer administrator role can approve or reject registration requests that customers submit from the business portal.Approve a registration request from a user that was submitted from the business portal with a valid registration code.Reject a registration request from a user that was submitted from Business Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/manage-cust-registration-requests-business-portal.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

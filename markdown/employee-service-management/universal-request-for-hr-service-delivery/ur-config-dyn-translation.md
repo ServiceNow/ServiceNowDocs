@@ -2,6 +2,7 @@
 title: Configure Dynamic translation for Universal Request
 description: Activate and configure the Dynamic Translation plugin to translate the text on a Universal Request record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-config-dyn-translation.html
 release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -21,24 +22,24 @@ Role required: admin
 
 ## About this task
 
-After activating the Dynamic Translation plugin, you can configure one of the translator service spokes available by default. You can also configure a custom translator service provider. For more information on translation service providers, see [Integration with other translation services](https://www.servicenow.com/docs/access?context=integration-with-other-translation-services&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+After activating the Dynamic Translation plugin, you can configure one of the translator service spokes available by default. You can also configure a custom translator service provider. For more information on translation service providers, see .
 
 ## Procedure
 
 1.  Activate the Dynamic Translation plugin.
 
-    For more information, see [Activate Dynamic Translation](https://www.servicenow.com/docs/access?context=activate-dynamic-translation&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For more information, see .
 
 2.  Configure and activate the translator configuration for the spoke you are using.
 
     Available spokes include the following.
 
-    -   [Configure Microsoft Azure Translator Service spoke](https://www.servicenow.com/docs/access?context=microsoft-translation-spoke&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
-    -   [Configure Google Cloud Translator Service spoke](https://www.servicenow.com/docs/access?context=google-translator-spoke&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+    -   Configure Microsoft Azure Translator Service spoke
+    -   Configure Google Cloud Translator Service spoke
 3.  Activate the I18N plugin for the specific language you want to translate to.
 
-    For a list of available languages, see [Activate a Language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For a list of available languages, see Activate a Language.
 
 
-**Parent Topic:**[Configuring Universal Request](../concept/configure-ur.md)
+**Parent Topic:**[Configuring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/configure-ur.md)
 

@@ -2,13 +2,14 @@
 title: Considerations for implementing the ITAM-SPO better together flow
 description: This section provides information on considerations for implementing the ITAM-SPO better together solution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-key-consideration.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Sourcing and Procurement Operations integration with IT Asset Management, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Sourcing Procurement Operations integration Asset, Integrate Sourcing Procurement Operations other, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Considerations for implementing the ITAM-SPO better together flow
@@ -86,5 +87,5 @@ Creation of assets for services
 The creation of inventory assets for services in the alm\_asset table is disabled in the Sourcing and Purchasing Automation and Asset Management Integration for Sourcing and Procurement Operations plugins. The previously created inventory assets for services are not affected. For fixed assets, ITAM continues to create corresponding records in the alm\_asset table for services. Inventory asset creation for goods continues to function as before.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Sourcing and Procurement Operations integration with IT Asset Management](spo-itam-better-together.md)
+</table>**Parent Topic:**[Sourcing and Procurement Operations integration with IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-better-together.md)
 

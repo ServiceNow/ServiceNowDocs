@@ -2,11 +2,12 @@
 title: Load data to ERP user mapping table for Source-to-Pay
 description: Set up Source-to-Pay \(S2P\) and ERP User ID mapping for the integration to work. The mapping is maintained for all active users who have the procurement buyer role in ERP. These users should be used in the requisition assignment rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/source-to-pay-integration-framework/load-data-erp-user-mapping-psm.html
 release: zurich
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Integration settings on Source-to-Pay side, Source-to-Pay integration framework, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -33,13 +34,13 @@ Role required: sn\_shop.procurement\_administrator
 
     The imported data is now available in the new Import Set table.
 
-6.  [Create a transform map](https://www.servicenow.com/docs/access?context=t_CreateATransformMap&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) to define the field mapping between columns of the import set and columns of the target ERP User Mapping \[sn\_fcms\_intg\_erp\_user\_map\] table.
+6.   to define the field mapping between columns of the import set and columns of the target ERP User Mapping \[sn\_fcms\_intg\_erp\_user\_map\] table.
 
     The ERP User Mapping table maintains mapping between ERP user IDs and ServiceNow user IDs.
 
 7.  Transform the data from the import set table to the target table.
 
-    For more information, see [Run an import](https://www.servicenow.com/docs/access?context=t_RunImport&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+    For more information, see .
 
 
 ## Result

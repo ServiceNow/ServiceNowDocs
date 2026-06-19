@@ -2,6 +2,7 @@
 title: Risk Management reference
 description: Reference topics provide additional information such as tables, roles, and properties that are installed with the Risk Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/risk-management-reference.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -15,14 +16,14 @@ breadcrumb: [Risk Management, Governance, Risk, and Compliance]
 
 Reference topics provide additional information such as tables, roles, and properties that are installed with the Risk Management application.
 
--   **[Components installed with Risk Management](r_InstallWRisk.md)**  
+-   **[Components installed with Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/r_InstallWRisk.md)**  
 Several types of components are installed with activation of the Risk Management plugin, including tables, user roles, and scheduled jobs.
--   **[Components installed with Advanced Risk](components-risk-advanced.md)**  
+-   **[Components installed with Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/components-risk-advanced.md)**  
 Activating the GRC: Advanced Risk \(sn\_risk\_advanced\) plugin adds or modifies several tables, user roles, and other components. The Advanced Risk plugin enables you to perform advanced risk assessments and manage risk events.
--   **[Business process roles](../concept/business-process-roles.md)**  
+-   **[Business process roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/business-process-roles.md)**  
 Various roles are available for business process users and managers.
--   **[Domain separation in Risk Management](../concept/domain-separation-risk-management.md)**  
+-   **[Domain separation in Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/domain-separation-risk-management.md)**  
 Domain separation is supported for Risk Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[Governance, Risk, and Compliance](../../grc-common/reference/r_WhatIsGRC.md)
+**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/r_WhatIsGRC.md)
 

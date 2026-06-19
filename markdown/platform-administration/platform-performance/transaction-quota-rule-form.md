@@ -2,6 +2,7 @@
 title: Transaction quota rule form
 description: A description of the fields on the Transaction Quota Rule form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-performance/transaction-quota-rule-form.html
 release: zurich
 product: Platform Performance
 classification: platform-performance
@@ -31,5 +32,5 @@ A description of the fields on the Transaction Quota Rule form.
 |Maximum Outbound Request Duration|The number of seconds for an outbound HTTP request.|
 |Description|A description of the transaction quota rule.|
 
-**Parent Topic:**[Platform performance reference](../concept/platform-performance-references.md)
+**Parent Topic:**[Platform performance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/platform-performance-references.md)
 

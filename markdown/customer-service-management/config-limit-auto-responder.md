@@ -2,7 +2,10 @@
 title: Limit the number of articles in Auto-Responder notifications for cases
 description: Send the most relevant knowledge articles in Auto-Responder notifications for customer service cases by limiting the number of knowledge articles that are included.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/config-limit-auto-responder.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -15,8 +18,8 @@ Send the most relevant knowledge articles in Auto-Responder notifications for cu
 
 ## Before you begin
 
--   Activate the Predictive Intelligence for Customer Service Management plugin \(com.snc.csm\_ml\). For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) and [Predictive Intelligence for CSM solution definitions](../concept/predictive-intelligence-for-csm.md).
--   Set the application scope to Customer Service using the application picker. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+-   Activate the Predictive Intelligence for Customer Service Management plugin \(com.snc.csm\_ml\). For more information, see Activate a plugin and [Predictive Intelligence for CSM solution definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/predictive-intelligence-for-csm.md).
+-   Set the application scope to Customer Service using the application picker. For more information, see Application picker.
 
 Role required: admin
 
@@ -30,7 +33,7 @@ Role required: admin
 
 4.  In the Email Configurations related list, double-click the value in the Limit column for the **Case auto-responder recommendations** row.
 
-5.  Enter the maximum number of knowledge articles you want to include in the Auto-Responder email notifications for customer service cases and click the save icon \(![Save icon.](../image/save.png)\).
+5.  Enter the maximum number of knowledge articles you want to include in the Auto-Responder email notifications for customer service cases and click the save icon \(\[Omitted image "save.png"\] Alt text: Save icon.\).
 
     The maximum allowed limit value is 20. If you enter a limit value of more than 20, the Auto-Responder email notification includes up to 20 articles only.
 

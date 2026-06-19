@@ -2,6 +2,7 @@
 title: Send certification task reminders
 description: The Certification Task Escalations workflow sends automatic email reminders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/r\_SendCertificationTaskReminders.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

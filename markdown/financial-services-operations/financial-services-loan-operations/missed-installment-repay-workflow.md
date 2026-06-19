@@ -2,6 +2,7 @@
 title: Missed Installment Repayment workflow
 description: Learn how bank agents, using the Missed Installment Repayment workflow, proactively contact a loan customer for a missed installment of an outstanding loan and decide on an action plan. The workflow applies to both business and personal loans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-loan-operations/missed-installment-repay-workflow.html
 release: zurich
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
@@ -17,7 +18,7 @@ Learn how bank agents, using the Missed Installment Repayment workflow, proactiv
 
 The following diagram shows how the application helps bank agents handle a missed installment payment by a borrower.
 
-![Workflow that shows how a missed repayment is handled using the Loan Operations application.](../image/missed-repayment-workflow.png "Missed Installment Repayment workflow")
+\[Omitted image "missed-repayment-workflow.png"\] Alt text: Workflow that shows how a missed repayment is handled using the Loan Operations application.
 
 The following workflow routes the case and tasks for a Missed Repayment to agents in different departments. The agents log in to Workspace to work on the tasks in their queue.
 

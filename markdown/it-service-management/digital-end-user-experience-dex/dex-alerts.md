@@ -2,11 +2,12 @@
 title: DEX Alerts
 description: Digital End-User Experience \(DEX\) Alerts provide details on the active alerts, their severity, impacted services, and the duration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/dex-alerts.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -15,13 +16,11 @@ breadcrumb: [Configure, Digital End-User Experience, IT Service Management]
 
 Digital End-User Experience \(DEX\) Alerts provide details on the active alerts, their severity, impacted services, and the duration.
 
-On the Service Operations Workspace home page, Active alerts, Impacted devices, and Active devices are displayed. The Active alerts section displays the number of active alerts as of that selected time. Select the Active alerts section to view all the active alerts list or Navigate to **Workspaces** &gt; **Service Operation Workspace** &gt; **Express List**.
+On the Service Operations Workspace home page, Active alerts, Impacted devices, and Active devices are displayed. The Active alerts section displays the number of active alerts as of that selected time. Select the Active alerts section to view all the active alerts list.
 
-Role Required: `Event_management_user` or `Event_management_operator`
+\[Omitted image "active-alerts-list.png"\] Alt text: Active alerts list
 
-![Active alerts list](../image/expresslist.png)
-
-By selecting a specific alert, you can find the details of the alert in different tabs that are listed in the table. ![Active alert overview window](../image/active-alerts.png)
+By selecting a specific alert, you can find the details of the alert in different tabs that are listed in the table. \[Omitted image "active-alerts.png"\] Alt text: Active alert overview window
 
 |Tab name|Description|
 |--------|-----------|
@@ -32,7 +31,7 @@ By selecting a specific alert, you can find the details of the alert in differen
 
 View alerts for both your device and its applications in the Alerts section of the Devices page.
 
-**Note:** For details on the active alerts listed see, [Monitor incoming alerts](https://www.servicenow.com/docs/access?context=t_EMUseAlertConsole&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+**Note:** For details on the active alerts listed see, .
 
 ## The Overview tab
 
@@ -42,13 +41,13 @@ View alerts for both your device and its applications in the Alerts section of t
 -   It displays any impacted services caused due to the alert.
 -   The cause section displays the probable root cause and also shows the number of alerts created due to this cause.
 
-![Overview tab](../image/alert-overviewtab.png)
+\[Omitted image "alert-overviewtab.png"\] Alt text: Overview tab
 
 ## The Details tab
 
 Access the Details tab to learn more about the history of the alert, metric name, and other metrics.
 
-![Details tab](../image/alert-detailstab.png)
+\[Omitted image "alert-detailstab.png"\] Alt text: Details tab
 
 ## Related records tab
 
@@ -56,7 +55,7 @@ Access the Details tab to learn more about the history of the alert, metric name
 -   To access the related lists information displayed on the impacted devices and impacted users tabs, install the latest version \(26.3.1\) of the Service Operations Workspace alert management plugin `(sn_sow_em)` store plugin.
 -   You can view the history of the bulk remedial action from the related records. All the remedial actions executed and their respective states are displayed.
 
-![Related records tab](../image/alert-relatedrectab.png)
+\[Omitted image "alert-relatedrectab.png"\] Alt text: Related records tab
 
 ## Remediate issue on devices
 
@@ -65,5 +64,5 @@ Access the Details tab to learn more about the history of the alert, metric name
 -   Based on the device selected. If one device is selected, remedial actions applicable for a single device are displayed. If multiple devices are selected, it displays all the available remedial actions for bulk remediation.
 -   Enables you to execute a remedial action for a single device or multiple devices. To view the history of remedial action execution, access the related records tab \(remedial action history\).
 
-![Remediate issue on devices tab](../image/alert-ritab.png)
+\[Omitted image "alert-ritab.png"\] Alt text: Remediate issue on devices tab
 

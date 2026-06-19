@@ -2,6 +2,7 @@
 title: Create a multi-asset onboarding process
 description: Onboard multiple assets at one go by creating a multi-asset onboarding playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/create-multi-asset-onboarding.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -70,7 +71,7 @@ To close an onboarding task, you should either complete or skip all the activiti
         **Note:** You can assign a work order task only to the Enterprise Field Technicians support group.
 
     -   Skip the Deployment activity by selecting **Skip**.
-    The asset technicians complete the deploy tasks assigned to them. For more information, see [Complete and close the Pick Up task for an enterprise asset](complete-pickup-task-work-order.md) and [Complete and close a work order for an enterprise asset](complete-eam-work-order.md).
+    The asset technicians complete the deploy tasks assigned to them. For more information, see [Complete and close the Pick Up task for an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/complete-pickup-task-work-order.md) and [Complete and close a work order for an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/complete-eam-work-order.md).
 
 9.  After all the lanes show a status of skipped or complete, select **Close Task** to complete the multi-asset onboarding process.
 

@@ -2,6 +2,7 @@
 title: Duplicate an ETL transform map
 description: Use an existing ETL transform map if you need to create a map that is mostly similar to that existing map. Select an existing map, specify a new data source for the new duplicate map, and then change or retain other settings such as data transforms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/integration-hub-etl/duplicate-cmdb-transform-map.html
 release: zurich
 product: Integration Hub ETL
 classification: integration-hub-etl

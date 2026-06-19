@@ -2,6 +2,7 @@
 title: Show borders between search result cards in portal search
 description: Display borders between search result cards on the search results page for portal search applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/show-borders-search-result-cards-portal-search.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -23,7 +24,7 @@ Role required: sp\_admin or admin
 
 By default, AI Search displays no borders between search result cards on the portal search results page. You can enable display of borders between search result cards on the portal search results page by configuring the Faceted Search Service Portal widget.
 
-To learn more about Service Portal widgets, see [Using portal widgets](https://www.servicenow.com/docs/access?context=service-portal-widgets&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+To learn more about Service Portal widgets, see .
 
 ## Procedure
 
@@ -44,7 +45,7 @@ AI Search displays borders between search result cards on the search results pag
 
 ## What to do next
 
-For details on showing borders between search results cards in global search, see [Show borders between search result cards in global search](show-borders-search-result-cards-global-search.md).
+For details on showing borders between search results cards in global search, see [Show borders between search result cards in global search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/show-borders-search-result-cards-global-search.md).
 
-**Parent Topic:**[Configuring AI Search](../concept/configuring-ais.md)
+**Parent Topic:**[Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configuring-ais.md)
 

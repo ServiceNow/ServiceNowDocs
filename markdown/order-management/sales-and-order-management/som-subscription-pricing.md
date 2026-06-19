@@ -2,6 +2,7 @@
 title: Subscription revenue metrics
 description: Subscription pricing is a pricing model where customers pay a recurring fee for products or services, usually at regular intervals such as monthly or annually. In Sales Customer Relationship Management, various subscription revenue amounts are calculated automatically for opportunities and quotes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/som-subscription-pricing.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -17,7 +18,7 @@ Subscription pricing is a pricing model where customers pay a recurring fee for 
 
 Subscription revenue amounts are metrics that help sales agents and sales managers track and analyze the revenue impact of sales deals. Sales agents and managers can view these system-calculated revenue amounts in the pricing details for opportunities and quotes, both at the header and line levels. These revenue amounts, such as monthly recurring revenue \(MRR\) or annual recurring revenue \(ARR\), are useful for monitoring sales performance, forecasting subscription revenue, and providing relevant subscription amounts when agents engage with customers.
 
-![Opportunity line and Opportunity header records that display system-calculated subscription revenue values described in the opportunity subscription tables that follow](../image/opportunity-subscription-revenue.png "Example opportunity subscription revenue details")
+\[Omitted image "opportunity-subscription-revenue.png"\] Alt text: Opportunity line and Opportunity header records that display system-calculated subscription revenue values described in the opportunity subscription tables that follow
 
 ## Subscription pricing metrics
 
@@ -280,7 +281,7 @@ Cumulative margin %
 |Total monthly margin %|\(Total monthly margin/Total monthly price\) × 100|
 |Total margin %|\(Total Margin Amount/Total amount\) × 100|
 
-To learn more about the revenue metrics in opportunity details, see [Add and view the details of an opportunity](opportunity-management-details-tab.md) and [Add line items to an opportunity](opportunity-management-line-items-tab.md).
+To learn more about the revenue metrics in opportunity details, see [Add and view the details of an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-management-details-tab.md) and [Add line items to an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-management-line-items-tab.md).
 
-To learn more about the revenue metrics in quote details, see [Add and view details of a quote](../task/quote-management-details-tab.md).
+To learn more about the revenue metrics in quote details, see [Add and view details of a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-management-details-tab.md).
 

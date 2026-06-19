@@ -2,6 +2,7 @@
 title: User privacy consent for Contact Tracing
 description: The Contact Tracing application enables you to send notification to users seeking their consent for contact tracing. You can use user data for contact tracing based on the privacy configuration set for a location and the user response to the privacy consent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contact-tracing/contact-tracing-user-privacy.html
 release: zurich
 product: Contact Tracing
 classification: contact-tracing
@@ -35,11 +36,11 @@ Privacy consent requirements ensure that your users complete a privacy consent b
 
 As an admin, you must configure the following settings to use privacy consents with Contact Tracing:
 
-1.  [Modify or add a privacy consent template for Contact Tracing](../task/define-privacy-consent-template.md)
-2.  [Generate location-based privacy configurations for Contact Tracing](../task/generate-location-privacy-configuration.md)
-3.  [Create a custom Emergency Outreach notification channel](../task/create-additional-channel-notif.md)
-4.  [Configure an email notification for a privacy consent request](../task/configure-privacy-email.md)
-5.  [Configure an Emergency Outreach notification for Contact Tracing privacy consents](../task/configure-outreach-notif-privacy.md)
+1.  [Modify or add a privacy consent template for Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/define-privacy-consent-template.md)
+2.  [Generate location-based privacy configurations for Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/generate-location-privacy-configuration.md)
+3.  [Create a custom Emergency Outreach notification channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/create-additional-channel-notif.md)
+4.  [Configure an email notification for a privacy consent request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/configure-privacy-email.md)
+5.  [Configure an Emergency Outreach notification for Contact Tracing privacy consents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/configure-outreach-notif-privacy.md)
 
-**Parent Topic:**[Maintaining user data privacy in Contact Tracing](contact-tracing-user-privacy-options.md)
+**Parent Topic:**[Maintaining user data privacy in Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/contact-tracing-user-privacy-options.md)
 

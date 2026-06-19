@@ -2,6 +2,7 @@
 title: Workflow Studio flow integrations
 description: Expand the capabilities of Workflow Studio flows with additional subscriptions and spokes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/flow-designer-integrations.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -29,7 +30,7 @@ Content available
 
 </th></tr></thead><tbody><tr><td>
 
-[App Engine Studio](https://www.servicenow.com/docs/access?context=aes-overview&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+App Engine Studio
 
 </td><td>
 
@@ -38,7 +39,7 @@ Content available
 
 </td></tr><tr><td>
 
-[Integration Hub](https://www.servicenow.com/docs/access?context=integrationhub&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)
+Integration Hub
 
 </td><td>
 
@@ -47,7 +48,7 @@ Content available
 
 </td></tr><tr><td>
 
-[Process Automation Designer](../../process-automation-designer/concept/process-automation-designer.md)
+[Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer.md)
 
 </td><td>
 
@@ -56,7 +57,7 @@ Content available
 
 </td></tr><tr><td>
 
-[Robotic Process Automation \(RPA\) Hub](https://www.servicenow.com/docs/access?context=rpa-main-landing-page&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)
+Robotic Process Automation \(RPA\) Hub
 
 </td><td>
 
@@ -67,8 +68,8 @@ Build flows to run robots on Microsoft Windows systems.
 
 Add application-specific content to Workflow Studio by installing spokes.
 
--   **[Spokes](spokes.md)**  
+-   **[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/spokes.md)**  
 Add application-specific content to Workflow Studio by installing spokes.
 
-**Parent Topic:**[Flows, subflows, and actions reference](../reference/flow-designer-reference.md)
+**Parent Topic:**[Flows, subflows, and actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-designer-reference.md)
 

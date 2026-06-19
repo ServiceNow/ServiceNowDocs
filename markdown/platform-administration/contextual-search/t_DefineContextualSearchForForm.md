@@ -2,6 +2,7 @@
 title: Configure table for a contextual search
 description: Configure the options for the contextual search that a table performs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/contextual-search/t\_DefineContextualSearchForForm.html
 release: zurich
 product: Contextual Search
 classification: contextual-search
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  On the form, fill in the fields.
 
-    ![Table configuration form when the UI type is platform](../image/ContextualSearchTableConfig.png "Table Configuration form")
+    \[Omitted image "ContextualSearchTableConfig.png"\] Alt text: Table configuration form when the UI type is platform
 
 <table id="table_gh2_gtj_lq"><thead><tr><th>
 
@@ -51,7 +52,7 @@ UI type
 
 User interface differs depending on whether you use the table configuration for Platform or Workspace. **Note:** The **When to display** section appears only when you select **Platform** from **UI type**.
 
- ![Table configuration when the UI type is Workspace](../image/cxs-table-config-workspace.png)
+ \[Omitted image "cxs-table-config-workspace.png"\] Alt text: Table configuration when the UI type is Workspace
 
 </td></tr><tr><td>
 
@@ -59,7 +60,7 @@ Search context
 
 </td><td>
 
-Lookup icon ![Lookup icon to select a search context](../image/look-up-icon.png) to select a search context for which you are configuring the table.
+Lookup icon \[Omitted image "look-up-icon.png"\] Alt text: Lookup icon to select a search context to select a search context for which you are configuring the table.
 
 </td></tr><tr><td>
 
@@ -67,7 +68,7 @@ Title
 
 </td><td>
 
-Unique title for the search results area that appears in the form. For example, if you enter `Knowledge results` as the value in this field, the related search area displays **Knowledge results** as the title. ![Related search area](../image/related-search-results.png)
+Unique title for the search results area that appears in the form. For example, if you enter `Knowledge results` as the value in this field, the related search area displays **Knowledge results** as the title. \[Omitted image "related-search-results.png"\] Alt text: Related search area
 
 </td></tr><tr><td>
 
@@ -179,7 +180,7 @@ Enable search as
 
 </td><td>
 
-Option to enable searching as a different user. The message box describes the settings available when you select this option.![Search as field](../image/search-as.png) For more information on using **Search as**, see [Enable viewing of search results for the current and another selected user](t_SearchAsDifferentUser.md).
+Option to enable searching as a different user. The message box describes the settings available when you select this option.\[Omitted image "search-as.png"\] Alt text: Search as field For more information on using **Search as**, see [Enable viewing of search results for the current and another selected user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/t_SearchAsDifferentUser.md).
 
 </td></tr></tbody>
 </table>3.  Click **Submit**.
@@ -189,5 +190,5 @@ Option to enable searching as a different user. The message box describes the se
     **Note:** Search results only appear for Search Fields that are visible on the form.
 
 
-**Parent Topic:**[Configuring contextual search](../concept/configuring-contextual-search.md)
+**Parent Topic:**[Configuring contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/configuring-contextual-search.md)
 

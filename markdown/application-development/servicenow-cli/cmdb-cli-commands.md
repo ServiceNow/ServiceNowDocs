@@ -2,6 +2,7 @@
 title: Commands installed with CMDB Application CLI and API
 description: Commands and command groups available to the ServiceNow CLI when the app-cmdb-api-cli plugin is installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-cli/cmdb-cli-commands.html
 release: zurich
 product: ServiceNow CLI
 classification: servicenow-cli
@@ -17,7 +18,7 @@ Commands and command groups available to the ServiceNow CLI when the app-cmdb-ap
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 To script critical operations which support automation across the enterprise, you can leverage APIs or run command line operations that the CMDB Application CLI and API store app provide instead of using the user interface. The CMDB Application CLI and API store app provides a robust framework which consolidates all the APIs that are related to application services and the command lines that let you access the interface to those APIs.
 
@@ -29,7 +30,7 @@ CMDB Application CLI and API commands enable the following tasks:
 -   Populating an application service with a given population type
 -   Changing the state of an application service
 
-For the REST API solution, see [SG Services API](https://www.servicenow.com/docs/access?context=sg_services-api&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+For the REST API solution, see SG Services API.
 
 ## Convert Application Service
 
@@ -1458,5 +1459,5 @@ Sys\_id of the application service listed in the Service Instance \[cmdb\_ci\_se
     ```
 
 
-**Parent Topic:**[ServiceNow CLI](../concept/servicenow-cli.md)
+**Parent Topic:**[ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-cli/servicenow-cli.md)
 

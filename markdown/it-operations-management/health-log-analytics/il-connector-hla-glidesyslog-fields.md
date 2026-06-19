@@ -2,6 +2,7 @@
 title: ServiceNow System Logs Retriever integration configuration fields
 description: Description of the fields on the ServiceNow System Logs Retriever integration configuration form for Health Log Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/il-connector-hla-glidesyslog-fields.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -16,7 +17,7 @@ breadcrumb: [Integration configuration field descriptions, Health Log Analytics 
 
 Description of the fields on the ServiceNow System Logs Retriever integration configuration form for Health Log Analytics.
 
-For the ServiceNow System Logs Retriever integration setup procedure, see [Set up a ServiceNow System Logs Retriever integration for Health Log Analytics](../task/il-connector-hla-glide-syslog.md).
+For the ServiceNow System Logs Retriever integration setup procedure, see [Set up a ServiceNow System Logs Retriever integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/il-connector-hla-glide-syslog.md).
 
 <table id="table_wt4_cbf_ncc"><thead><tr><th>
 
@@ -51,5 +52,5 @@ Description
 Option to add a brief description of the integration to help identify it.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integration configuration field descriptions](../concept/hla-connector-config-fields.md)
+</table>**Parent Topic:**[Integration configuration field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

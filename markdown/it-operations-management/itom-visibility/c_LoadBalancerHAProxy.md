@@ -2,6 +2,7 @@
 title: HAProxy load balancer discovery using probes
 description: Discovery of HAProxy Community edition load balancers is performed by SSH.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/c\_LoadBalancerHAProxy.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -17,8 +18,8 @@ Discovery of HAProxy Community edition load balancers is performed by SSH.
 
 **Note:** Starting with Discovery and Service Mapping Patterns 1.15.0 version, pattern-based discovery is the default method for discovering HAProxy load balancers.
 
--   For information about enabling probe-based discovery, see [Enable HAProxy load balancer discovery with probes](../task/enable-haproxy-lb-discovery-probe.md).
--   For information about the HA Proxy pattern, see [HAProxy load balancer discovery with patterns](../../service-mapping/reference/haproxy-lb-discovery-pattern.md).
+-   For information about enabling probe-based discovery, see [Enable HAProxy load balancer discovery with probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/enable-haproxy-lb-discovery-probe.md).
+-   For information about the HA Proxy pattern, see [HAProxy load balancer discovery with patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/haproxy-lb-discovery-pattern.md).
 -   For information about Probe to Pattern migration see the knowledge article [KB0694477](https://support.servicenow.com/kb_view.do?sysparm_article=KB0694477).
 
 HAProxy is an open-source load balancer that can manage any TCP service. It is particularly suited for HTTP load balancing because it supports session persistence and Layer 7 processing. Discovery supports HAProxy for HTTP load balancing. TCP load-balancing is not supported.

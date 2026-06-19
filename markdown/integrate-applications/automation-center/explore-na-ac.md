@@ -2,6 +2,7 @@
 title: Exploring Now Assist for Automation Center
 description: Explore the benefits of Now Assist for Automation Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/automation-center/explore-na-ac.html
 release: zurich
 product: Automation Center
 classification: automation-center
@@ -21,7 +22,7 @@ Now Assist for Automation Center helps you create an automation request from Tas
 
 ## User Task Step Summarization skill
 
-Now Assist for Automation Center includes the User task step summarization skill, which must be activated before you can create automation requests from the Task Mining Workspace. For information about creating an automation request from Task Mining workspace, see [Integration with Automation Center](https://www.servicenow.com/docs/access?context=integration-with-automation-center&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+Now Assist for Automation Center includes the User task step summarization skill, which must be activated before you can create automation requests from the Task Mining Workspace. For information about creating an automation request from Task Mining workspace, see .
 
-**Parent Topic:**[Now Assist for Automation Center](nowassist-ac.md)
+**Parent Topic:**[Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/nowassist-ac.md)
 

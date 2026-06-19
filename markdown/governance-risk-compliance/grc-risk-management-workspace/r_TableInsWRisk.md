@@ -2,6 +2,7 @@
 title: Tables installed with Risk Management
 description: Tables are added with activation of GRC: Risk Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/r\_TableInsWRisk.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -154,5 +155,5 @@ Base table to Risk Acceptance, Risk Avoidance, Risk Mitigation, Risk Transfer ta
 </td></tr></tbody>
 </table>**Note:** All additional tables installed by the dependent plugins are also needed for GRC: Risk Management.
 
-**Parent Topic:**[Components installed with Risk Management](r_InstallWRisk.md)
+**Parent Topic:**[Components installed with Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/r_InstallWRisk.md)
 

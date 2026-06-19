@@ -2,6 +2,7 @@
 title: Configure resource conversion formula
 description: Configure the resource conversion formula.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workforce-optimization-for-hr/configure-reverse-conversion-wfo-hr.html
 release: zurich
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -68,5 +69,5 @@ Formula to calculate the forecasted number of agents that you need.In the Relate
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Configure data collection for Demand Forecast](configure-data-collection-df-wfo-hr.md)
+**Parent Topic:**[Configure data collection for Demand Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workforce-optimization-for-hr/configure-data-collection-df-wfo-hr.md)
 

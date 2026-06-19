@@ -2,6 +2,7 @@
 title: Schedule or execute a job to update records
 description: Schedule a date and time to execute an update job or execute the job immediately.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/schedule-execute-job-update-records.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -29,15 +30,15 @@ Consider scheduling the update job to run during non-business hours to minimize 
 
 3.  Determine whether to schedule the update job for a later time or run it right away.
 
-<table id="choicetable_vjl_krf_vtb"><thead><tr><th align="left" id="d252857e88">
+<table id="choicetable_vjl_krf_vtb"><thead><tr><th align="left" id="d62078e88">
 
 Option
 
-</th><th align="left" id="d252857e91">
+</th><th align="left" id="d62078e91">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d252857e97">
+</th></tr></thead><tbody><tr><td id="d62078e97">
 
 **Schedule the update job**
 
@@ -48,7 +49,7 @@ Description
 3.  Select **Update**. Note that you must select **Update** to successfully schedule the job.
 
 
-</td></tr><tr><td id="d252857e127">
+</td></tr><tr><td id="d62078e127">
 
 **Run the update job now**
 
@@ -64,7 +65,7 @@ Description
 </table>
 ## Result
 
-The records are scheduled for update or updated immediately. If you want to revert the updates to the records, see [Rollback an update job](rollback-update-job.md).
+The records are scheduled for update or updated immediately. If you want to revert the updates to the records, see [Rollback an update job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/rollback-update-job.md).
 
-**Parent Topic:**[Updating records safely](../concept/updating-records-safely.md)
+**Parent Topic:**[Updating records safely](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/updating-records-safely.md)
 

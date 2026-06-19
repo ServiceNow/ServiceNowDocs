@@ -2,6 +2,7 @@
 title: Send an email from a talent profile
 description: As a recruiter, send an email to different talent types providing personalized details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/send-email-tp.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -36,5 +37,5 @@ Role required: sn\_ta\_hiring\_core.recruiter
 
 The email is sent to the talent profile and the record is visible in the Activity stream.
 
-**Parent Topic:**[Using Talent profile](../concept/config-t-pool.md)
+**Parent Topic:**[Using Talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/config-t-pool.md)
 

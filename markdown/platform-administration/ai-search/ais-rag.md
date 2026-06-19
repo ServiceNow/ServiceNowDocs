@@ -2,6 +2,7 @@
 title: AI Search Retrieval Augmented Generation \(RAG\)
 description: You can enhance the search accuracy of your AI Search results by using the AI Search Retrieval Augmented Generation \(RAG\) application. With RAG, you can limit a large language model's \(LLM's\) focus to a specific, contextual dataset, instead of the broad, general data that it was trained on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/ais-rag.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -23,7 +24,7 @@ The effectiveness of AI Search RAG relies on its embedding model, which is used 
 
 ## Activating AI Search RAG
 
-AI Search RAG functionality is provided by the AI Search RAG plugin \(sn\_ais\_rag\). This plugin is automatically activated for your instance when you install [Generative AI Controller](https://www.servicenow.com/docs/access?context=installing-generative-ai-controller&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) or any [Now Assist application](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+AI Search RAG functionality is provided by the AI Search RAG plugin \(sn\_ais\_rag\). This plugin is automatically activated for your instance when you install Generative AI Controller or any Now Assist application.
 
-**Parent Topic:**[Semantic index configuration for indexed sources](semantic-index-cfg-ais.md)
+**Parent Topic:**[Semantic index configuration for indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/semantic-index-cfg-ais.md)
 

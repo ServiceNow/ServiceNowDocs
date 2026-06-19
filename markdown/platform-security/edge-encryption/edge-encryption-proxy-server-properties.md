@@ -2,6 +2,7 @@
 title: Edge Encryption proxy server properties
 description: The edgeencryption.properties configuration file located in the &lt;installation directory&gt;/conf/ folder contains properties used to configure your environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/edge-encryption-proxy-server-properties.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -412,7 +413,7 @@ Bootstrap file for the proxy database. The file is relative to the `sql/` direct
 </td></tr></tbody>
 </table>## Proxy server performance properties
 
-Proxy server performance properties are not present in the configuration file by default. To change the default values, you must add the properties and restart the proxy server. For more information, see [Edge Encryption diagnostics and performance](../concept/edge-stats.md#).
+Proxy server performance properties are not present in the configuration file by default. To change the default values, you must add the properties and restart the proxy server. For more information, see [Edge Encryption diagnostics and performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/edge-stats.md).
 
 <table id="table_jf2_kwj_nsb"><tbody><tr><td>
 
@@ -525,7 +526,7 @@ edgeencryption.target.username
 
 </td><td>
 
-User name that the proxy uses to log in to the instance. The user must have the edge\_encryption role. See [Set up an Edge Encryption user account](../task/t_SetupEdgeEncryptionUser.md).
+User name that the proxy uses to log in to the instance. The user must have the edge\_encryption role. See [Set up an Edge Encryption user account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_SetupEdgeEncryptionUser.md).
 
 </td></tr><tr><td>
 
@@ -602,5 +603,5 @@ Password to use to connect to the web proxy. If your web proxy does not use auth
     Specifies the password for accessing the keystore.
 
 
-**Parent Topic:**[Installing Edge Encryption](../concept/c_InstallEdgeEncryptionProxy.md)
+**Parent Topic:**[Installing Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/c_InstallEdgeEncryptionProxy.md)
 

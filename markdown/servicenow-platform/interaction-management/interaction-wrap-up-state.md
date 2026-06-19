@@ -2,6 +2,7 @@
 title: Interaction wrap up
 description: Interaction wrap up provides agents with a brief wrap-up period at the end of customer conversations. Agents can use this time to complete their work before moving on to assist other customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/interaction-management/interaction-wrap-up-state.html
 release: zurich
 product: Interaction Management
 classification: interaction-management
@@ -23,7 +24,7 @@ While in the Wrap Up state, an agent’s capacity is not reduced until the state
 
 ## Configuring interaction wrap up
 
-Users with the system administrator role [create an interaction wrap up configuration](../task/create-interaction-wrap-up-config.md) for the desired communication channel. Creating a configuration automatically enables the feature and the Wrap Up state for interactions that match the configuration settings.
+Users with the system administrator role [create an interaction wrap up configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/interaction-management/create-interaction-wrap-up-config.md) for the desired communication channel. Creating a configuration automatically enables the feature and the Wrap Up state for interactions that match the configuration settings.
 
 The interaction wrap up configuration includes the following information:
 
@@ -32,7 +33,7 @@ The interaction wrap up configuration includes the following information:
 -   Whether wrap up is automatically ended by the system and, if automatically ended the duration of the wrap up period.
 -   Whether a countdown timer that displays the wrap up duration is shown to agents in CSM Configurable Workspace.
 
-The interaction wrap up configuration adds the Wrap Up state to the **State** field on the Interaction record. For more information about the wrap up state, see [Interaction states](../reference/interaction-states.md#section_o4v_j4r_vdb).
+The interaction wrap up configuration adds the Wrap Up state to the **State** field on the Interaction record. For more information about the wrap up state, see [Interaction states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/interaction-management/interaction-states.md).
 
 ## Starting wrap up
 
@@ -62,18 +63,18 @@ If an agent has not already ended wrap up, the system can automatically end the 
 
 **Note:** Agents can manually end the wrap up period even if automatic wrap up is enabled.
 
--   **[Interaction form](../reference/interaction-form.md)**  
+-   **[Interaction form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/interaction-management/interaction-form.md)**  
 The Interaction form displays information about a customer interaction.
--   **[Interaction wrap up timer](interaction-wrap-up-timer.md)**  
+-   **[Interaction wrap up timer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/interaction-management/interaction-wrap-up-timer.md)**  
 The interaction wrap up timer displays a countdown of the wrap up duration period in CSM Configurable Workspace.
--   **[Interaction wrap up scheduled job](interaction-wrap-up-scheduled-job.md)**  
+-   **[Interaction wrap up scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/interaction-management/interaction-wrap-up-scheduled-job.md)**  
 The interaction wrap up feature includes a scheduled job to close any interactions in the Wrap Up state that were not closed either manually by an agent or automatically by the system.
--   **[Create an interaction wrap-up configuration](../task/create-interaction-wrap-up-config.md)**  
+-   **[Create an interaction wrap-up configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/interaction-management/create-interaction-wrap-up-config.md)**  
 Create a configuration for each type of interaction that uses the interaction wrap up feature.
--   **[Create interaction wrap-up codes](../task/config-interaction-wrapup-codes.md)**  
+-   **[Create interaction wrap-up codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/interaction-management/config-interaction-wrapup-codes.md)**  
 Wrap-up codes enable agents to quickly wrap up and close interactions. Agents can select wrap-up codes from the interaction wrap-up modeless dialog.
--   **[Enable interaction wrap-up codes](../task/enable-interaction-wrapup-codes.md)**  
+-   **[Enable interaction wrap-up codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/interaction-management/enable-interaction-wrapup-codes.md)**  
 Enable interaction wrap-up codes and select the wrap-up codes that are available to agents in the interaction wrap-up modeless dialog.
 
-**Parent Topic:**[Configuring Interaction Management](configuring-interaction-management.md)
+**Parent Topic:**[Configuring Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/interaction-management/configuring-interaction-management.md)
 

@@ -2,6 +2,7 @@
 title: Categorize work items using tags
 description: Categorize your planning items based on your requirement by adding tags.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/categorize-and-find-work-items-using-tags-spw.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -17,7 +18,7 @@ Categorize your planning items based on your requirement by adding tags.
 
 ## Before you begin
 
-[Create a portfolio plan](../../alignment-planner-workspace/task/create-portfolio-plans-in-alignment-planner-workspace.md)
+[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md)
 
 Role required: sn\_align\_core.apw\_user
 
@@ -25,7 +26,7 @@ Role required: sn\_align\_core.apw\_user
 
 Tags enable you to categorize planning items. You create the tag name, which should name the reason for the tag. You can make the tags visible to everyone, some people, or just yourself. The visibility setting specifies who can use the tags to search for planning items.
 
-Any tagging additions or removals made to a planning item are automatically synced across all views in the Planning page and in the Scoring page. After tagging planning items, you can use the tags to search for planning items using the **Filter** option \(![Filter planning items using tags.](../images/prioritization-filter-button.png)\) in the List view of Prioritization and in the Scoring page.
+Any tagging additions or removals made to a planning item are automatically synced across all views in the Planning page and in the Scoring page. After tagging planning items, you can use the tags to search for planning items using the **Filter** option \(\[Omitted image "prioritization-filter-button.png"\] Alt text: Filter planning items using tags.\) in the List view of Prioritization and in the Scoring page.
 
 ## Procedure
 
@@ -35,15 +36,15 @@ Any tagging additions or removals made to a planning item are automatically sync
 
 3.  From the Prioritization or Scoring, add a tag for a planning item using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d47285e124">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d50882e124">
 
 Option
 
-</th><th align="left" id="d47285e127">
+</th><th align="left" id="d50882e127">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d47285e133">
+</th></tr></thead><tbody><tr><td id="d50882e133">
 
 **From the List view of Prioritization or Scoring**
 
@@ -56,9 +57,9 @@ The tag is added to the planning item.
 
 You can add more tags.
 
- ![Add tags to a planning item from the grid view.](../images/add-tags-to-planning-items-from-grid.gif)
+ \[Omitted image "add-tags-to-planning-items-from-grid.gif"\] Alt text: Add tags to a planning item from the grid view.
 
-</td></tr><tr><td id="d47285e168">
+</td></tr><tr><td id="d50882e168">
 
 **From the Details page of a planning item**
 
@@ -68,7 +69,7 @@ You can add more tags.
 
 The Details page of the planning item opens.
 
-2.  Select the Tag icon \(![Add tag to a planning item.](../images/icon-tag-outline.png)\) next to the name of the planning item in the form header.
+2.  Select the Tag icon \(\[Omitted image "icon-tag-outline.png"\] Alt text: Add tag to a planning item.\) next to the name of the planning item in the form header.
 3.  In the Tags window, fill the **Add Tag** field with a tag name.
 4.  Press **Enter** to add the tag.
 
@@ -76,16 +77,16 @@ The tag is added to the planning item.
 
 You can add more tags.
 
- ![Add tags to a planning item from the details page.](../images/add-tags-to-planning-items-from-details-page.gif)
+ \[Omitted image "add-tags-to-planning-items-from-details-page.gif"\] Alt text: Add tags to a planning item from the details page.
 
 </td></tr></tbody>
 </table>    **Note:** The tag visibility setting defaults to private, which means the tag is only visible to the user who created the tag. So, only the user who created the tag can use the tag to search for planning items labeled with that tag.
 
 4.  To change the visibility setting of the tag, on the Details page of the planning item, select the tag and change the **Viewable by** setting.
 
-    ![Edit tag in Strategic Planning.](../images/edit-tag-in-spw.png)
+    \[Omitted image "edit-tag-in-spw.png"\] Alt text: Edit tag in Strategic Planning.
 
-<table id="choicetable_n2j_xn4_c3b"><tbody><tr><td id="d47285e245">
+<table id="choicetable_n2j_xn4_c3b"><tbody><tr><td id="d50882e245">
 
 **Me**
 
@@ -93,7 +94,7 @@ You can add more tags.
 
 Tag is visible only to the person who created the tag. Only the user who created the tag can use the tag to search for planning items labeled with that tag. This setting is the default.
 
-</td></tr><tr><td id="d47285e254">
+</td></tr><tr><td id="d50882e254">
 
 **Groups and Users**
 
@@ -101,7 +102,7 @@ Tag is visible only to the person who created the tag. Only the user who created
 
 Tag is visible to specific groups or users. You can specify the groups and users who can view this tag.
 
-</td></tr><tr><td id="d47285e263">
+</td></tr><tr><td id="d50882e263">
 
 **Everyone**
 
@@ -112,8 +113,8 @@ Tag is visible to everyone. **Note:** This visibility setting is only available 
 </td></tr></tbody>
 </table>    A planning item can have multiple tags and each can have a different visibility setting.
 
-    ![Tags with visibility settings.](../images/tag-visibility-setting-spw.png)
+    \[Omitted image "tag-visibility-setting-spw.png"\] Alt text: Tags with visibility settings.
 
-5.  To remove a tag from a planning item, double-click the cell in the Tag column on the List view or select the filled tag icon \(![Tag icon with tags](../images/icon-filled-tag.png)\) on the Details page of the planning item to open the list of tags, then select the **X** next to the tag you want to remove.
+5.  To remove a tag from a planning item, double-click the cell in the Tag column on the List view or select the filled tag icon \(\[Omitted image "icon-filled-tag.png"\] Alt text: Tag icon with tags\) on the Details page of the planning item to open the list of tags, then select the **X** next to the tag you want to remove.
 
 

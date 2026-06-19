@@ -2,6 +2,7 @@
 title: Sun Java Enterprise System \(JES\) discovery
 description: Discovery creates or updates a CMDB record when it detects a running instance of Sun Java Enterprise System \(JES\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/r\_SUNJES.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -30,5 +31,5 @@ The following data is collected in the JES `[cmdb_ci_email_server_jes]` table:
 |Class|sys\_class\_name|
 |Fully qualified domain name|fqdn|
 
-**Parent Topic:**[Software discovery](../concept/c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_Software.md)
 

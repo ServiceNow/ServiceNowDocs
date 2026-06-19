@@ -2,6 +2,7 @@
 title: Now Mobile notification of unread chat and Virtual Agent messages
 description: When Now Mobile app users navigate away from the app after starting an active conversation, they can automatically receive Virtual Agent mobile push notifications informing them of new, unread chat messages and  Virtual Agent notifications that have arrived.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-mobile-unread-messages.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -22,9 +23,9 @@ Now Mobile users might need to leave an active conversation for various reasons.
 
 To receive Virtual Agent mobile push notifications, your users must enable push notifications for the Now Mobile app on their iOS or Android devices.
 
-In base system instances, the Virtual Agent Message Push notification is automatically enabled for all Now Mobile users. Users can modify their [notification preferences](https://www.servicenow.com/docs/access?context=next-experience-notifications-preferences&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) by navigating to **All** &gt; **Self-Service** &gt; **My Notification Preferences**.
+In base system instances, the Virtual Agent Message Push notification is automatically enabled for all Now Mobile users. Users can modify their notification preferences by navigating to **All** &gt; **Self-Service** &gt; **My Notification Preferences**.
 
-![In Notifications settings, users can toggle the Push option to turn on or turn off mobile push notifications.](../images/va-mobile-push-notif-pref.png)
+\[Omitted image "va-mobile-push-notif-pref.png"\] Alt text: In Notifications settings, users can toggle the Push option to turn on or turn off mobile push notifications.
 
 ## How Virtual Agent mobile push notifications work
 
@@ -50,5 +51,5 @@ The content of Virtual Agent push notification messages sent to Now Mobile users
 
 **Note:** System action messages that are displayed to users during live chat or virtual agent conversations are not included in Virtual Agent push notifications or in the count of unread messages. The exception is the system message for the live agent timeout: `The conversation is timing out, are you still there?` This message is sent as a push notification since it is time-sensitive and informs users that the conversation might be closed if they do not respond.
 
-**Parent Topic:**[Configure Virtual Agent for a ServiceNow mobile application](../task/configure-va-mobile-web-client.md)
+**Parent Topic:**[Configure Virtual Agent for a ServiceNow mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-va-mobile-web-client.md)
 

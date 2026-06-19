@@ -2,6 +2,7 @@
 title: Service Observability reference
 description: Reference topics provide additional information about administering and using Service Observability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-observability/service-observability-reference.html
 release: zurich
 product: Service Observability
 classification: service-observability
@@ -15,22 +16,22 @@ breadcrumb: [Service Observability, ITOM AIOps, IT Operations Management]
 
 Reference topics provide additional information about administering and using Service Observability.
 
--   **[Components installed with Service Observability](components-installed-with-service-observability.md)**  
+-   **[Components installed with Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/components-installed-with-service-observability.md)**  
 Several types of components are installed with activation of the Service Observability plugin, including tables and user roles.
--   **[Domain separation and Service Observability](domain-separation-and-service-observability.md)**  
+-   **[Domain separation and Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/domain-separation-and-service-observability.md)**  
 Domain separation is supported for Service Observability. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
--   **[Observability vendor entity mappings for Service Observability](apm-vendor-entity-mappings.md)**  
+-   **[Observability vendor entity mappings for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/apm-vendor-entity-mappings.md)**  
 Understand how Service Observability maps service, host, and database entities to your observability vendor resources.
--   **[Advanced query support for AWS and Azure](advanced-query-support.md)**  
+-   **[Advanced query support for AWS and Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/advanced-query-support.md)**  
 Understand how to create advanced queries for Service Observability dashboard charts.
--   **[Service Observability template variables](service-observability-template-variables.md)**  
+-   **[Service Observability template variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/service-observability-template-variables.md)**  
 Understand the template variables that you can use in your queries when editing Service Observability dashboards and charts.
--   **[Service Observability templates](observability-templates.md)**  
+-   **[Service Observability templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/observability-templates.md)**  
 View the templates for your observability vendor to understand the default dashboards provided by Service Observability.
--   **[Service Observability data mapping form](observability-data-mapping-form.md)**  
+-   **[Service Observability data mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/observability-data-mapping-form.md)**  
 Field descriptions for the Observability data mapping form. Use this form to map activated services in Service Observability to metrics from your observability instance. Each service can be mapped only once, but can contain exceptions to include all related entities.
--   **[Chart error states](chart-error-states.md)**  
+-   **[Chart error states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/chart-error-states.md)**  
 Understand the different error states that the charts in Service Observability might display and how to fix them.
 
-**Parent Topic:**[Service Observability](../concept/service-observability.md)
+**Parent Topic:**[Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/service-observability.md)
 

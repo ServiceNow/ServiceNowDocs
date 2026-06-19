@@ -2,6 +2,7 @@
 title: Create an incident task
 description: Create an incident task to communicate and request work from assignment groups other than the one initially assigned to the incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/create-incident-task.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -27,7 +28,7 @@ Role required: itil, sn\_incident\_write, or admin
 
 3.  In the **Incident Tasks** related list, click **New**.
 
-    If you don't see the **Incident Tasks** related list, you need to add it. For information on how to add a related list, see [Add a related list to a form](https://www.servicenow.com/docs/access?context=configure-form-layout&version=zurich&pubname=zurich-platform-administration&section=t_AddARelatedList&ft:locale=en-US).
+    If you don't see the **Incident Tasks** related list, you need to add it. For information on how to add a related list, see .
 
     Alternatively, you can also right-click on the header form and on the context menu, and then select **Create Incident Task**.
 
@@ -123,7 +124,7 @@ Work notes list
 
 </td><td>
 
-Users who receive notifications about this incident task when work notes are added. **Note:** You can the add me icon ![Add me icon](../image/add-me.png) to add yourself to the work notes list.
+Users who receive notifications about this incident task when work notes are added. **Note:** You can the add me icon \[Omitted image "add-me.png"\] Alt text: Add me icon to add yourself to the work notes list.
 
 </td></tr><tr><td>
 

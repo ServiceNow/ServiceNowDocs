@@ -2,6 +2,7 @@
 title: Generate and improve Docs content with Now Assist for Strategic Portfolio Management \(SPM\)
 description: Generate content with Now Assist for SPM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/generate-summarize-and-refine-content-of-docs-with-now-assist-spm.html
 release: zurich
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
@@ -34,15 +35,15 @@ This task will be explained using Project Workspace as the example.
 
 2.  From your Doc, open the page you want to work with and use Now Assist for any of your use cases.
 
-<table id="choicetable_l3j_vx2_lgc"><thead><tr><th align="left" id="d113378e125">
+<table id="choicetable_l3j_vx2_lgc"><thead><tr><th align="left" id="d88391e125">
 
 Choice
 
-</th><th align="left" id="d113378e128">
+</th><th align="left" id="d88391e128">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d113378e134">
+</th></tr></thead><tbody><tr><td id="d88391e134">
 
 **Work with content of the whole page**
 
@@ -58,23 +59,23 @@ Some examples are:
     -   For product teams: **Analyze the customer feedback comments in this Doc, group into top 5 themes, and suggest top 3 enhancements for highest impact.**
  **Note:** Now Assist uses the context from your Doc page to generate a response.
 
-</td></tr><tr><td id="d113378e182">
+</td></tr><tr><td id="d88391e182">
 
 **Refine, elaborate, or improve the existing content within the page.**
 
 </td><td>
 
 1.  Select the content blocks that you'd like to work on.
-2.  Select the Now Assist icon \(![](../../now-assist-cwm/images/cwm-icon-na-docs.png)\).
+2.  Select the Now Assist icon \(\[Omitted image "cwm-icon-na-docs.png"\] Alt text:\).
 3.  In the box, enter your prompt.
 
 Some examples are:
 
     -   If you have a list of stakeholders, you can ask **Elaborate on the scope of these roles.**
     -   **Rewrite this in a casual tone.**
-![Sample of a Now Assist inline prompt for selected content on the page.](../../now-assist-cwm/images/na-inline-open-text.png)
+\[Omitted image "na-inline-open-text.png"\] Alt text: Sample of a Now Assist inline prompt for selected content on the page.
 
-</td></tr><tr><td id="d113378e227">
+</td></tr><tr><td id="d88391e227">
 
 **Take assistance on a blank page.**
 
@@ -89,9 +90,9 @@ Some examples are:
     2.  **Write a 3-paragraph blog post explaining why \[industry trend\] is changing how businesses operate.**
     3.  **Generate an outline for the Instagram campaign tasks for a Hackathon initiative.**
 
-![Sample of creating first draft for a page using Now Assist.](../../now-assist-cwm/images/na-blank-page-nacm.png)
+\[Omitted image "na-blank-page-nacm.png"\] Alt text: Sample of creating first draft for a page using Now Assist.
 
-</td></tr><tr><td id="d113378e274">
+</td></tr><tr><td id="d88391e274">
 
 **Answer questions in the context of this Doc.**
 
@@ -99,17 +100,17 @@ Some examples are:
 
 Whether the content in the Doc is added manually or generated using Now Assist, you can ask questions to find anything in the page's context.For example, if you have a project charter document, you can try asking **What is the total budget of this project and which part is the most expensive?**
 
-![Ask questions in the context of the document. Here, user asks questions on project budget, in the context of a Project Charter document.](../../now-assist-cwm/images/cwm-nacm-ask-questions.png)
+\[Omitted image "cwm-nacm-ask-questions.png"\] Alt text: Ask questions in the context of the document. Here, user asks questions on project budget, in the context of a Project Charter document.
 
 </td></tr></tbody>
 </table>    Now Assist analyzes the text and generates an output in a separate pop-up.
 
 3.  Based on the output generated, you can further refine the result.
 
-4.  Copy the generated output by selecting the copy to clipboard icon \(![](../images/icon-copy-spm.png)\) to use it for purposes such as sending an email, saving to notes, and others.
+4.  Copy the generated output by selecting the copy to clipboard icon \(\[Omitted image "icon-copy-spm.png"\] Alt text:\) to use it for purposes such as sending an email, saving to notes, and others.
 
     **Important:** Because the output is AI-generated, review it to ensure accuracy.
 
 
-**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](../concept/using-now-assist-for-spm.md)
+**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 

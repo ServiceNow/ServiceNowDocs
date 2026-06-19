@@ -2,6 +2,7 @@
 title: Verify user self-registration requests
 description: After a user registers from the Service Portal , a user record is added to the Registration Requests module. You can view the list of registered users who have successfully registered in the Service Portal .
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/verify-user-self-reg-requests.html
 release: zurich
 product: Authentication
 classification: authentication

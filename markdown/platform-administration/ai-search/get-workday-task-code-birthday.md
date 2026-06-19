@@ -2,6 +2,7 @@
 title: Get Workday task code for My Team's Birthday
 description: Get the task code for the My Team's Birthday task from your Workday tenant. The Workday external content connector needs this task code to retrieve team birthday data from the Manager hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/get-workday-task-code-birthday.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -36,14 +37,14 @@ This task is optional. The Workday external content connector can retrieve Manag
 
     The task code is the path element between the final slash and the `.htmld` extension in the URL shown for the My Team's Birthday page. As an example, if your My Team's Birthday page URL is `https://impl.workday.com/example/d/task/3005$6924.htmld`, the task code is `3005$6924`.
 
-    **Important:** Your external content connector admin needs this task code when configuring the Workday external content connector to retrieve Manager hub data.
+    **Important:** Your external content connector administrator needs this task code when configuring the Workday external content connector to retrieve Manager hub data.
 
 
 ## What to do next
 
-Provide the task code you copied in step [3](get-workday-task-code-birthday.md#copy-task-code-step) to your connector admin. They need this task code to configure a Workday external content connector to retrieve Manager hub data from your Workday source system.
+Provide the task code you copied in step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/get-workday-task-code-birthday.md) to your connector administrator. They need this task code to configure a Workday external content connector to retrieve Manager hub data from your Workday source system.
 
-For details on creating and configuring a Workday external content connector, see [Create a Workday external content connector](create-ext-cont-connector-workday.md).
+For details on creating and configuring a Workday external content connector, see [Create a Workday external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-workday.md).
 
-**Parent Topic:**[Workday external content connector](../concept/workday-external-content-connector.md)
+**Parent Topic:**[Workday external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/workday-external-content-connector.md)
 

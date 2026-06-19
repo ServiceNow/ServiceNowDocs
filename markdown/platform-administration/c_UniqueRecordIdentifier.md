@@ -2,6 +2,7 @@
 title: Unique record identifier \(sys\_id\)
 description: A unique 32-character GUID \(Globally Unique ID\), called a Sys ID \(sys\_id\) identifies each record in an instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/c\_UniqueRecordIdentifier.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -41,5 +42,5 @@ You can access the sys\_id from a record URL or by using a script.
         ```
 
 
-**Parent Topic:**[Data Management reference](../../managing-data/reference/data-management-reference.md)
+**Parent Topic:**[Data Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/data-management-reference.md)
 

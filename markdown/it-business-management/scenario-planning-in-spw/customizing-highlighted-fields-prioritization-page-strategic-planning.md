@@ -2,6 +2,7 @@
 title: Customizing highlighted fields on Prioritization page of Strategic Planning Workspace
 description: Customize the fields to be highlighted on the Prioritization page of a portfolio plan according to your planning manager's needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/customizing-highlighted-fields-prioritization-page-strategic-planning.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -21,10 +22,10 @@ By default, the Prioritization and Hierarchy tabs of a portfolio plan highlight 
 -   Modifying the Prioritization view Script Includes \(APWBacklogConfigImpl for List view and APWGanttConfigImpl for Hierarchy view\).
 -   Configuring a new record for the required field in the sys\_highlighted\_value table.
 
--   **[Modify Script Includes for Prioritization page in Strategic Planning](../task/modify-script-includes-for-prioritization-page-strategic-planning.md)**  
+-   **[Modify Script Includes for Prioritization page in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/modify-script-includes-for-prioritization-page-strategic-planning.md)**  
 Modify the Script Includes for List and Hierarchy views of the Prioritization page to change the columns to be highlighted in these views in the workspace.
--   **[Create new highlighted values for Prioritization columns in Strategic Planning](../task/customize-highlighted-fields-prioritzation-page-strategic-planning-workspace.md)**  
+-   **[Create new highlighted values for Prioritization columns in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/customize-highlighted-fields-prioritzation-page-strategic-planning-workspace.md)**  
 Customize the fields to be highlighted on the Prioritization page of a portfolio plan according to your planning manager's needs.
 
-**Parent Topic:**[Prioritization display settings in Strategic Planning](configuring-prioritization-and-roadmap-settings-strategic-planning.md)
+**Parent Topic:**[Prioritization display settings in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/configuring-prioritization-and-roadmap-settings-strategic-planning.md)
 

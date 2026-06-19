@@ -2,6 +2,7 @@
 title: Perform a full table index or reindex for a single AI Search indexed source
 description: Make content from an internal indexed source searchable by performing a full table index. This procedure indexes existing records from the source table and any child tables configured for indexing. You can manually reindex content from an internal indexed source by repeating this procedure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/index-single-source-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -17,17 +18,17 @@ Make content from an internal indexed source searchable by performing a full tab
 
 ## Before you begin
 
-Your indexed source must be active and internal \(referring to a ServiceNow AI Platform® table\). To index content from an indexed source for external documents, see [Indexing and searching external content in AI Search](../concept/external-content-ais.md).
+Your indexed source must be active and internal \(referring to a ServiceNow AI Platform® table\). To index content from an indexed source for external documents, see [Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/external-content-ais.md).
 
 Role required: ais\_admin
 
 ## About this task
 
-Once you define an indexed source, AI Search begins automatically indexing to reflect changes to records in the selected source table and its specified child tables. The results of all record create, update, and delete operations in these tables are reflected in the search index. AI Search doesn't index content from unmodified records in these tables until you perform a full table index.
+After you define an indexed source, AI Search begins automatically indexing to reflect changes to records in the selected source table and its specified child tables. The results of all record create, update, and delete operations in these tables are reflected in the search index. AI Search doesn't index content from unmodified records in these tables until you perform a full table index.
 
 Use this procedure to index searchable content from existing records in an indexed source, or to manually reindex existing content for an indexed source that has already been indexed.
 
-If an indexed source contains unindexed records, the Indexed Sources list displays an informational message and marks the new source with an alert triangle icon ![](../image/icon-alert-triangle.png). A similar informational message appears on the Indexed Source form. Make sure to perform a full table index for each indexed source that displays the alert triangle icon.
+If an indexed source contains unindexed records, the Indexed Sources list displays an informational message and marks the new source with an alert triangle icon \[Omitted image "icon-alert-triangle.png"\] Alt text:. A similar informational message appears on the Indexed Source form. Make sure to perform a full table index for each indexed source that displays the alert triangle icon.
 
 ## Procedure
 
@@ -51,7 +52,7 @@ If an indexed source contains unindexed records, the Indexed Sources list displa
 
     When the task completes, the **Ingestion State** field shows **indexed**.
 
-7.  To return to the list of indexed sources, select the back icon ![](../../../use/using-forms/image/FormBackUI15.png).
+7.  To return to the list of indexed sources, select the back icon \[Omitted image "FormBackUI15.png"\] Alt text:.
 
 
 ## Result
@@ -60,7 +61,7 @@ AI Search indexes content from existing records in the indexed source. Indexing 
 
 ## What to do next
 
-Define search sources to make searchable content from the indexed source available in user search experiences. For details on creating search sources, see [Create a search source for AI Search](create-search-source-ais.md).
+Define search sources to make searchable content from the indexed source available in user search experiences. For details on creating search sources, see [Create a search source for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-search-source-ais.md).
 
-**Parent Topic:**[Indexing content from AI Search indexed sources](../concept/indexing-content-ais.md)
+**Parent Topic:**[Indexing content from AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/indexing-content-ais.md)
 

@@ -2,6 +2,7 @@
 title: View IBM PVU mappings for the legacy IBM PVU Process Pack
 description: Every rule listed in the IBM PVU Table is represented by one PVU mapping record in the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/software-asset-management/t\_ViewingIBMPVUMappings.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -23,7 +24,7 @@ Role required: sam
 
 For example, in the IBM PVU Table there is one line with processor name POWER5 QCM and in IBM PVU mappings there is a line representing POWER5 QCM.
 
-![PVU mappings list](../image/PVUMappingsList.png "PVU mappings list")
+\[Omitted image "PVUMappingsList.png"\] Alt text: PVU mappings list
 
 ## Procedure
 
@@ -31,7 +32,7 @@ For example, in the IBM PVU Table there is one line with processor name POWER5 Q
 
 2.  Click a **Short Description** for detailed information about the mapping.
 
-    ![SAM PVU mapping](../image/SAMPVUMapping.png)
+    \[Omitted image "SAMPVUMapping.png"\] Alt text: SAM PVU mapping
 
     The fields are for information only and cannot be edited.
 
@@ -46,5 +47,5 @@ For example, in the IBM PVU Table there is one line with processor name POWER5 Q
     |Rule publication date|Date published by IBM on the PVU Rules table.|
 
 
-**Parent Topic:**[Legacy IBM PVU Process Pack](../concept/c_IBMPVUProcessPack.md)
+**Parent Topic:**[Legacy IBM PVU Process Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management/c_IBMPVUProcessPack.md)
 

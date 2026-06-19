@@ -2,6 +2,7 @@
 title: Register and configure the Microsoft Azure portal
 description: Register your application in the Microsoft Azure portal and grant your users with read and write access to the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/configure-microsoft-azure-portal.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -45,7 +46,7 @@ Role required: Microsoft Azure application developer, Microsoft Azure tenant adm
 
     After you successfully register the application, you see the Overview page.
 
-    ![Application overview page on Azure.](../image/sentinel_app_overview.png)
+    \[Omitted image "sentinel\_app\_overview.png"\] Alt text: Application overview page on Azure.
 
 6.  Navigate to **Manage** &gt; **Certificates &amp; secrets**.
 

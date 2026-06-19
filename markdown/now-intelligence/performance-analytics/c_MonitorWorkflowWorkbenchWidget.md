@@ -2,6 +2,7 @@
 title: Monitor a workflow with a workbench process widget
 description: A workbench process widget is a collection of indicators that tell a story. The widget enables you to analyze multiple facets of multiple indicators on one screen without drilling down. This widget is useful when you want to monitor a process or service that has a workflow.Create a workbench widget to monitor a process using multiple indicators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/c\_MonitorWorkflowWorkbenchWidget.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -15,7 +16,7 @@ breadcrumb: [Performance Analytics widgets, Reporting, dashboards, and Performan
 
 A workbench process widget is a collection of indicators that tell a story. The widget enables you to analyze multiple facets of multiple indicators on one screen without drilling down. This widget is useful when you want to monitor a process or service that has a workflow.
 
-**Note:** This feature is part of the Core UI front end. It is not supported on Platform Analytics dashboards or UI Builder pages, except to a limited extent when migrated in compatibility mode. To build Platform Analytics components, see [Data visualizations in Platform Analytics](analytics-center-data-visualizations.md) or [Filters in Platform Analytics](../../par-for-workspace/concept/interactive-filters-workspace.md).
+**Note:** This feature is part of the Core UI front end. It is not supported on Platform Analytics dashboards or UI Builder pages, except to a limited extent when migrated in compatibility mode. To build Platform Analytics components, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-data-visualizations.md) or [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters-workspace.md).
 
 This feature is in maintenance mode and is no longer being augmented or changed. Only security fixes to this feature will be addressed.
 
@@ -25,10 +26,10 @@ The widget has four interconnected sections that dynamically update. For example
 
 **Note:**
 
--   If real-time scores are supported for the main indicator and its applied breakdowns, you can view real-time scores. To view real-time scores, select **Real-time** in the date selector. Real-time scores are displayed only in the top pane of the workbench. For more information, see [Real-time scores](real-time-scores.md).
+-   If real-time scores are supported for the main indicator and its applied breakdowns, you can view real-time scores. To view real-time scores, select **Real-time** in the date selector. Real-time scores are displayed only in the top pane of the workbench. For more information, see [Real-time scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/real-time-scores.md).
 -   The timespan that the widget shows for each score trend depends on the frequency of the indicator. The timespans are: 60 days for daily, one year for weekly and monthly, three years for quarterly, and 12 years for yearly. You cannot set this time span. However, applying a time series aggregation in the widget changes the time span accordingly.
 
-![Shows the different sections of the workbench process widget.](../image/WorkbenchProcessWidget.png "Workbench process widget")
+\[Omitted image "WorkbenchProcessWidget.png"\] Alt text: Shows the different sections of the workbench process widget.
 
 The bottom section of the workbench process widget displays either available breakdowns or collected records for the selected indicator. Click the **Breakdowns** or **Records** tabs to display one or the other. If you select a supporting indicator that specifies an aggregate, such as the average age of open incidents, the **Records** tab is hidden.
 
@@ -118,7 +119,7 @@ Specifies that a breakdown element applied to the dashboard where the widget is 
 
  **Warning:** Workbench widgets do not support multiple element selection on breakdown dashboards. If you select multiple elements on a breakdown dashboard with this widget, the widget ignores your selection.
 
- For more information, see [Configure widgets for breakdown dashboards](../task/set-up-widgets-for-breakdown-dashboards.md).
+ For more information, see [Configure widgets for breakdown dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/set-up-widgets-for-breakdown-dashboards.md).
 
 </td></tr><tr><td>
 
@@ -149,7 +150,7 @@ Specifies the name of the indicator on the widget. If you do not specify a Label
 
     1.  If you are on the Widgets form, navigate to the **Main Widget Indicators** related list and open the **Widget Indicator** form for the main indicator that you want supporting widgets for.
 
-        To open the **Widget Indicator** form, select the info icon ![Info icon](../../par-for-workspace/image/icon-info.png) for the main indicator, which opens a preview. Then select **Open Record** in the preview.
+        To open the **Widget Indicator** form, select the info icon \[Omitted image "icon-info.png"\] Alt text: Info icon for the main indicator, which opens a preview. Then select **Open Record** in the preview.
 
     2.  Click **New** in the **Supporting Widget Indicators** related list.
 

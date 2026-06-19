@@ -2,6 +2,7 @@
 title: Establish an SFTP or REST API connection
 description: Establish an SFTP or REST API connection for the GRC integration with Thomson Reuters Regulatory Intelligence application. You can create an SFTP or REST API connection with the SFTP server by using the Connection &amp; Credential aliases that are shipped with the Thomson Reuters platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/create-conn-record-tr-int.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -72,5 +73,5 @@ Thomson Reuters deposits the regulatory feed files at the SFTP location that is 
 
 When a new connection is established, a file connection information record is created in the instance. After the file connection information record is created, you can no longer create more file connection information records by selecting **New** in the Connections related list.
 
-**Parent Topic:**[GRC integration with Thomson Reuters Regulatory Intelligence](../concept/grc-trri-integration.md)
+**Parent Topic:**[GRC integration with Thomson Reuters Regulatory Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-trri-integration.md)
 

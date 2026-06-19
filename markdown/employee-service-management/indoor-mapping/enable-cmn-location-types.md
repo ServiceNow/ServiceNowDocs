@@ -2,6 +2,7 @@
 title: Add CMN locations and map it to Indoor Mapping Place types
 description: CMN Locations types are not available by default in the Indoor Mapping Place types table. Associate or map an existing CMN Location type in your instance with a corresponding CMN Location Type column in the Indoor Mapping Place Types table. When CMN Location types are not available, create a CMN location type to associate it with a Indoor Mapping Place type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/indoor-mapping/enable-cmn-location-types.html
 release: zurich
 product: Indoor Mapping
 classification: indoor-mapping
@@ -41,7 +42,7 @@ Role required: admin
 
     For example, Place types of Desks, Meeting rooms and so on.
 
-    ![CMN location type table with the Choices column.](../images/wsd-location-type-table-choices-list.png)
+    \[Omitted image "wsd-location-type-table-choices-list.png"\] Alt text: CMN location type table with the Choices column.
 
 6.  Select the **Inset a row option** in the **Label** column and add a CMN location place type \(for example, Desks\).
 
@@ -51,11 +52,11 @@ Role required: admin
 
 9.  Select **Indoor Mapping**.
 
-    ![Application scope changed to Indoor MMapping.](49ec0ad285c956a256c8114a498a847345c26828.png)
+    \[Omitted image "49ec0ad285c956a256c8114a498a847345c26828.png"\] Alt text: Application scope changed to Indoor MMapping.
 
 10. Navigate to the **All** &gt; **Indoor Mapping** &gt; **Place types** table.
 
-11. Select the personalize list icon \(![Personalized list icon.](../images/wsd-personalize-gear-icon.png)\) and move **Location type** to the Selected list column.
+11. Select the personalize list icon \(\[Omitted image "wsd-personalize-gear-icon.png"\] Alt text: Personalized list icon.\) and move **Location type** to the Selected list column.
 
 12. Double click any row to make inline edits in the Location Type \(cmn\_location\_type\) column and add a CMN location to match corresponding Indoor Mapping place types.
 
@@ -63,13 +64,13 @@ Role required: admin
 
     **Note:** The place type \(Desks\) was added in the CMN locations table \(cmn\_locations\) Choices column in step 6.
 
-    ![Adding CMN location type to the Indoor Mapping Place types table.](../images/wsd-cmn-location-type-add.png)
+    \[Omitted image "wsd-cmn-location-type-add.png"\] Alt text: Adding CMN location type to the Indoor Mapping Place types table.
 
 13. Save the record after making inline edits.
 
     This step should be done manually every time you want to add a corresponding Indoor Mapping place types and map it with a CMN location place types. The synchronization script maps the CMN locations with relevant Indoor Mapping places. If the CMN location types are not added, the synchronization script shows the **CMN Location Type** column as empty as it is unable to find a corresponding CMN location place type for Indoor Mapping places.
 
-    ![Indoor Map and CMN Location Synchronization script showing the CMN Location Place Type column with CMN location place types](../images/wsd-cmn-location-type-sync.png)
+    \[Omitted image "wsd-cmn-location-type-sync.png"\] Alt text: Indoor Map and CMN Location Synchronization script showing the CMN Location Place Type column with CMN location place types
 
     **Note:** Indoor Mapping Outdoor places \(for example, cafeteria, park, and so on\) are linked directly to a campus and not to a floor. While synchronizing the CMN locations, the outdoor places are also synchronized.
 
@@ -78,9 +79,9 @@ Role required: admin
 
 The CMN location types are added and ready to be mapped with corresponding Indoor Mapping places.
 
-**Parent Topic:**[Synchronize Indoor Mapping with CMN Locations](../concept/sync-cmn-location.md)
+**Parent Topic:**[Synchronize Indoor Mapping with CMN Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/sync-cmn-location.md)
 
-**Previous topic:**[Enable the CMN location property](enable-cmn-sys-property.md)
+**Previous topic:**[Enable the CMN location property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/enable-cmn-sys-property.md)
 
-**Next topic:**[Synchronize Indoor Mapping map data with CMN location](sync-ind-mapping-cmn-location.md)
+**Next topic:**[Synchronize Indoor Mapping map data with CMN location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/sync-ind-mapping-cmn-location.md)
 

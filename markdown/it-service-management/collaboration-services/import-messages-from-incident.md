@@ -2,6 +2,7 @@
 title: Import messages from an incident
 description: You can import messages from a slack channel for an incident and append them in the Comments to store all important messages in the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/collaboration-services/import-messages-from-incident.html
 release: zurich
 product: Collaboration Services
 classification: collaboration-services
@@ -100,5 +101,5 @@ Option to include attachments while importing messages.
 </table>6.  Click **Import messages**.
 
 
-**Parent Topic:**[Using Collaboration services](../concept/using-collab-services.md)
+**Parent Topic:**[Using Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/using-collab-services.md)
 

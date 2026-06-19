@@ -2,6 +2,7 @@
 title: Configure an e-signature provider for legal contracts
 description: Configure an electronic signature provider to enable users to sign contract documents electronically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-simple-contracts/integrate-legal-contracts-esign.html
 release: zurich
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -19,13 +20,13 @@ Configure an electronic signature provider to enable users to sign contract docu
 
 Ensure that the administrator has installed and set up spokes in Integration Hub for the electronic signature providers that you want to configure.
 
--   **[Adobe Sign spoke](https://www.servicenow.com/docs/access?context=adobe-sign-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) spoke v2.5.1 or later version**
+-   **Adobe Sign spoke spoke v2.5.1 or later version**
 
-    For more information on the setup and synchronizing the Adobe Acrobat Sign group, see [Synchronize Adobe Acrobat Sign group with ServiceNow](https://www.servicenow.com/docs/access?context=setup-adobe-sign&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+    For more information on the setup and synchronizing the Adobe Acrobat Sign group, see Synchronize Adobe Acrobat Sign group with ServiceNow.
 
--   **[DocuSign spoke](https://www.servicenow.com/docs/access?context=docusign-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) spoke v2.2.0 or later version**
+-   **DocuSign spoke spoke v2.2.0 or later version**
 
-    For more information on the setup and creating the Docusign account, see [Set up Docusign eSignature spoke using authorization code grant](https://www.servicenow.com/docs/access?context=setup-docusign-authorization-code&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+    For more information on the setup and creating the Docusign account, see .
 
 
 Role required: sn\_lg\_ops.request\_config or sn\_lg\_contracts.contracts\_config or sn\_lg\_matter.matter\_config

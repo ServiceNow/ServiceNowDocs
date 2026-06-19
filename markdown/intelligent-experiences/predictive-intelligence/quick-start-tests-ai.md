@@ -2,6 +2,7 @@
 title: Quick start tests for Predictive Intelligence
 description: Validate that Predictive Intelligence still works after you make any configuration change such as applying an upgrade or developing an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/predictive-intelligence/quick-start-tests-ai.html
 release: zurich
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -27,5 +28,5 @@ Predictive Intelligence quick start tests require activating the Predictive Inte
 **Related topics**  
 
 
-[Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+[bundle-cadev.quick-start-tests]
 

@@ -2,6 +2,7 @@
 title: Installation and setup guide for environments linked to Salesforce orgs
 description: Step-by-step instructions for setting up ServiceNow CPQ in an environment linked to a Salesforce org.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/installation-and-setup-guide-for-environments-linked-to-salesforce-org.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -17,7 +18,7 @@ Step-by-step instructions for setting up ServiceNow CPQ in an environment linked
 
 ## Before you begin
 
-Provide the username of a user in the org who will serve as the first ServiceNow CPQ admin user. This user will need to grant other users access after they have attempted to access the ServiceNow CPQ Admin once and appear in the User Access list of users. For more information, see [User access](please_share_your_feedback_on_admin_assist_responses.md).
+Provide the username of a user in the org who will serve as the first ServiceNow CPQ admin user. This user will need to grant other users access after they have attempted to access the ServiceNow CPQ Admin once and appear in the User Access list of users. For more information, see [User access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/please_share_your_feedback_on_admin_assist_responses.md).
 
 Provide ServiceNow CPQ Support with the following information:
 
@@ -28,7 +29,7 @@ The ServiceNow CPQ DevOps team will provision the environment. Once ready, Suppo
 
 **Note:** If your Salesforce site was refreshed from another previously ServiceNow CPQ connected Salesforce site, uninstall the ServiceNow CPQ connected app before continuing. It holds metadata associated with the ServiceNow CPQ environment connected to the original Salesforce site. To uninstall, navigate to Setup &gt; Manage Connected Apps &gt; **Logik Connected App** &gt; **Logik Connected App** &gt; Uninstall.
 
-![Connected applications screen](../images/cpq-manage-connected-apps-uninstall.png)
+\[Omitted image "cpq-manage-connected-apps-uninstall.png"\] Alt text: Connected applications screen
 
 Role required: Admin
 

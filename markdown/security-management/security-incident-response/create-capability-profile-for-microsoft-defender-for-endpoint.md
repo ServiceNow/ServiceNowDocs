@@ -2,6 +2,7 @@
 title: Create a capability profile for the Microsoft Defender for Endpoint integration
 description: Create a profile and select the Microsoft Defender for Endpoint capabilities that you want the profile to run.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/create-capability-profile-for-microsoft-defender-for-endpoint.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -38,7 +39,7 @@ You cannot club Isolate Host and Remove Host Isolation capabilities with other c
 
     The Microsoft Defender for Endpoint capability profiles list is displayed.
 
-    ![Create a new capability profile for the Microsoft Defender for Endpoint integration](../image/capability_profile.png "Profile Configuration")
+    \[Omitted image "capability\_profile.png"\] Alt text: Create a new capability profile for the Microsoft Defender for Endpoint integration
 
 2.  Click **New**.
 
@@ -108,5 +109,5 @@ Option to indicate that the profile is active. After the profile is active, the 
 
 ## What to do next
 
-The next step is to configure your profile. Before you configure the settings for the profile, you may prefer to review the how profiles and configured and triggering conditions. For more information, see [Trigger conditions in a configuration item](../reference/trigger-conditions-configuration-item.md).
+The next step is to configure your profile. Before you configure the settings for the profile, you may prefer to review the how profiles and configured and triggering conditions. For more information, see [Trigger conditions in a configuration item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/trigger-conditions-configuration-item.md).
 

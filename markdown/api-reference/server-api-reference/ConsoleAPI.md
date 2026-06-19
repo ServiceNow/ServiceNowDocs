@@ -2,6 +2,7 @@
 title: Console - Scoped, Global
 description: The Console API provides methods to log messages to the system log, create and stop timers, create and log counters, log stack traces, and group/organize related content.Logs an error message to system logs if the assertion is false. This method does nothing if the assertion is true.Counts and logs the number of times that count\(\) has been called with a specified label.Resets the specified counter to zero.Logs or outputs a debugging message to the system log at the debug level.Logs a message to the system log at the error level.Creates a new inline group in the system log, where all subsequent messages are indented at an additional level until groupEnd\(\) is called. Use this method to visually organize and group related messages in output and system logs.Exits the current inline group created with group\(\) and decreases the indent by one level.Logs a message to system logs at the info level.Logs a message to system logs.Starts a timer you can use to track how long an operation takes.Stops a specified timer that was previously started by calling time\(\).Logs the current value of a specified timer to the system log.Logs a stack trace to the system log at the info level.Logs a warning message to the system log at the warning level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/ConsoleAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The Console API provides methods to log messages to the system log, create and stop timers, create and log counters, log stack traces, and group/organize related content.
 
-Console API methods provide the same logging functionality as [Glide System API](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#) \(for example, gs.info, gs.warn, and gs.debug\), but allow more reflexive use for developers who are familiar with logging messages using console methods. Both Console API and Glide System API methods can be used on the server.
+Console API methods provide the same logging functionality as [Glide System API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSystemScopedAPI.md) \(for example, gs.info, gs.warn, and gs.debug\), but allow more reflexive use for developers who are familiar with logging messages using console methods. Both Console API and Glide System API methods can be used on the server.
 
 All Console API methods are static and are a ServiceNow® implementation of \(Microsoft Developer Network\) MDN's [Console API](https://developer.mozilla.org/en-US/docs/Web/API/Console_API). This API is provided as part of the ServiceNow base system and doesn't require a plugin to access it globally. To use this class in a scoped application, use the `sn_console` namespace identifier. Enable the Console \(com.glide.console\) plugin to access the Console API.
 
@@ -65,9 +66,9 @@ The output styles the message `User info: { name: "Alex", role: "Developer" }` i
 
 ## Using timers
 
-You can use Console API timers to calculate the duration of a specific operation. To start a timer, call [Console - time\(String label\)](ConsoleAPI.md#) and assign it a name using the **label** parameter. You can have a maximum of 10,000 timers per page. To stop a timer and get the elapsed time in milliseconds, call [Console - timeEnd\(String label\)](ConsoleAPI.md#) by passing the timer's name as the parameter.
+You can use Console API timers to calculate the duration of a specific operation. To start a timer, call [Console - time\(String label\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md) and assign it a name using the **label** parameter. You can have a maximum of 10,000 timers per page. To stop a timer and get the elapsed time in milliseconds, call [Console - timeEnd\(String label\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md) by passing the timer's name as the parameter.
 
-For example, you can start a timer to measure the amount of time that passes by calling time\("Process Duration"\), and then call timeEnd\("Process Duration"\). Additionally, the code calculates and outputs how much time has elapsed since the timer start and when the first and second actions were completed by passing [Console - timeLog\(String label, Object valN\)](ConsoleAPI.md#) in the script.
+For example, you can start a timer to measure the amount of time that passes by calling time\("Process Duration"\), and then call timeEnd\("Process Duration"\). Additionally, the code calculates and outputs how much time has elapsed since the timer start and when the first and second actions were completed by passing [Console - timeLog\(String label, Object valN\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md) in the script.
 
 ```
 console.time("Process Duration");
@@ -102,7 +103,7 @@ Output:
     ```
 
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## Console - assert\(Boolean assertion, Object val1...valN, String msg, String subst1...substN\)
 
@@ -147,7 +148,7 @@ String
 
 </td><td>
 
-Required if **val1...valN** is not used. Message to display in system logs when the assertion fails. Accepts a string containing zero or more substitution values that can be set using the **subst1 through substN** parameter.For more information, see 'String substitutions', see [Console - Scoped, Global](ConsoleAPI.md#).
+Required if **val1...valN** is not used. Message to display in system logs when the assertion fails. Accepts a string containing zero or more substitution values that can be set using the **subst1 through substN** parameter.For more information, see 'String substitutions', see [Console - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md).
 
 </td></tr><tr><td>
 
@@ -159,7 +160,7 @@ String
 
 </td><td>
 
-Optional. JavaScript values with which to replace substitution strings within **msg**. These values are logged or displayed in the order they are specified. If there are more substitution values than there are substitution strings, the extra values are themselves written are appended after the message \(**msg**\) in the same manner as when there is no format string.See 'Using substitution strings' in [Console - Scoped, Global](ConsoleAPI.md#) for more information.
+Optional. JavaScript values with which to replace substitution strings within **msg**. These values are logged or displayed in the order they are specified. If there are more substitution values than there are substitution strings, the extra values are themselves written are appended after the message \(**msg**\) in the same manner as when there is no format string.See 'Using substitution strings' in [Console - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md) for more information.
 
 </td></tr><tr><td>
 
@@ -227,7 +228,7 @@ Output:
 
 Counts and logs the number of times that count\(\) has been called with a specified label.
 
-The count\(\) method is helpful for tracking the number of times something occurs, like how many times a block of code is executed or how many events occur in an application. Use [Console - countReset\(String label\)](ConsoleAPI.md#) to reset a counter with a specific label.
+The count\(\) method is helpful for tracking the number of times something occurs, like how many times a block of code is executed or how many events occur in an application. Use [Console - countReset\(String label\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md) to reset a counter with a specific label.
 
 <table id="table_p2s_tt4_ldc" class="parameters"><thead><tr><th>
 
@@ -320,9 +321,9 @@ String
 
 </td><td>
 
-Optional. Name of the counter originally set in the [Console - count\(String label\)](ConsoleAPI.md#) method that you want to reset to zero. Case-sensitive.Default: Resets the `default` counter to zero.
+Optional. Name of the counter originally set in the [Console - count\(String label\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md) method that you want to reset to zero. Case-sensitive.Default: Resets the `default` counter to zero.
 
-**Note:** A counter receives a label of `default` when a new counter is set using count\(\) without a defined label. See [Console - count\(String label\)](ConsoleAPI.md#) for more details.
+**Note:** A counter receives a label of `default` when a new counter is set using count\(\) without a defined label. See [Console - count\(String label\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md) for more details.
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -383,11 +384,11 @@ Output. Note that resetting the value of the counter "bob" only changes the valu
 
 Logs or outputs a debugging message to the system log at the debug level.
 
-The debug\(\) method allows verbose messaging and is recommended for low-priority or less critical debugging messages. For higher priority debug messaging use [Console - log\(Object val1...val2, String msg, String subst1...subst2\)](ConsoleAPI.md#). For instance, you can use this method to write longer debugging messages for internal developers about internal states or flows. The debug\(\) method messages may behave differently between certain browsers.
+The debug\(\) method allows verbose messaging and is recommended for low-priority or less critical debugging messages. For higher priority debug messaging use [Console - log\(Object val1...val2, String msg, String subst1...subst2\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md). For instance, you can use this method to write longer debugging messages for internal developers about internal states or flows. The debug\(\) method messages may behave differently between certain browsers.
 
 The console.debug\(\) method logs messages to system logs in the ServiceNow® instance. You can view these logs on the ServiceNow® platform in **System Logs** &gt; **All or System Logs** &gt; **Debug**.
 
-**Note:** Console API methods provide the same logging functionality as [Glide System API](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#) \(for example, gs.info, gs.warn, and gs.debug\), but allow more reflexive use for developers who are familiar with logging messages using console methods. Both Console API and Glide System API methods can be used on the server.
+**Note:** Console API methods provide the same logging functionality as [Glide System API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSystemScopedAPI.md) \(for example, gs.info, gs.warn, and gs.debug\), but allow more reflexive use for developers who are familiar with logging messages using console methods. Both Console API and Glide System API methods can be used on the server.
 
 <table id="id_vct_4pl_pdc" class="parameters"><thead><tr><th>
 
@@ -411,7 +412,7 @@ String
 
 </td><td>
 
-Required if **val1...valN** is not passed. The main message or object you want to log to system logs or in the output. Accepts a string containing zero or more substitution values that can be set using the **subst1 through substN** parameter.See 'Using substitution strings' in [Console - Scoped, Global](ConsoleAPI.md#) for more information.
+Required if **val1...valN** is not passed. The main message or object you want to log to system logs or in the output. Accepts a string containing zero or more substitution values that can be set using the **subst1 through substN** parameter.See 'Using substitution strings' in [Console - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md) for more information.
 
 </td></tr><tr id="Console-subst1substN-parameter"><td>
 
@@ -423,7 +424,7 @@ String
 
 </td><td>
 
-Optional. JavaScript values with which to replace substitution strings within **msg**. These values are logged or displayed in the order they are specified. If there are more substitution values than there are substitution strings, the extra values are themselves written are appended after the message \(**msg**\) in the same manner as when there is no format string.See 'Using substitution strings' in [Console - Scoped, Global](ConsoleAPI.md#) for more information.
+Optional. JavaScript values with which to replace substitution strings within **msg**. These values are logged or displayed in the order they are specified. If there are more substitution values than there are substitution strings, the extra values are themselves written are appended after the message \(**msg**\) in the same manner as when there is no format string.See 'Using substitution strings' in [Console - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md) for more information.
 
 </td></tr><tr id="Console-val1valN-parameter"><td>
 
@@ -470,7 +471,7 @@ Logs a message to the system log at the error level.
 
 Use error\(\) to log issues that are critical and need immediate attention, such as invalid inputs, failed operations, or to debug unexpected behaviors.
 
-**Note:** Console API methods provide the same logging functionality as [Glide System API](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#) \(for example, gs.info, gs.warn, and gs.debug\), but allow more reflexive use for developers who are familiar with logging messages using console methods. Both Console API and Glide System API methods can be used on the server.
+**Note:** Console API methods provide the same logging functionality as [Glide System API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSystemScopedAPI.md) \(for example, gs.info, gs.warn, and gs.debug\), but allow more reflexive use for developers who are familiar with logging messages using console methods. Both Console API and Glide System API methods can be used on the server.
 
 <table id="id_pjq_432_pdc" class="parameters"><thead><tr><th>
 
@@ -494,7 +495,7 @@ String
 
 </td><td>
 
-Required if **val1...valN** is not passed. The main message or object you want to log to system logs or in the output. Accepts a string containing zero or more substitution values that can be set using the **subst1 through substN** parameter.See 'Using substitution strings' in [Console - Scoped, Global](ConsoleAPI.md#) for more information.
+Required if **val1...valN** is not passed. The main message or object you want to log to system logs or in the output. Accepts a string containing zero or more substitution values that can be set using the **subst1 through substN** parameter.See 'Using substitution strings' in [Console - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md) for more information.
 
 </td></tr><tr id="Console-subst1substN-parameter"><td>
 
@@ -506,7 +507,7 @@ String
 
 </td><td>
 
-Optional. JavaScript values with which to replace substitution strings within **msg**. These values are logged or displayed in the order they are specified. If there are more substitution values than there are substitution strings, the extra values are themselves written are appended after the message \(**msg**\) in the same manner as when there is no format string.See 'Using substitution strings' in [Console - Scoped, Global](ConsoleAPI.md#) for more information.
+Optional. JavaScript values with which to replace substitution strings within **msg**. These values are logged or displayed in the order they are specified. If there are more substitution values than there are substitution strings, the extra values are themselves written are appended after the message \(**msg**\) in the same manner as when there is no format string.See 'Using substitution strings' in [Console - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md) for more information.
 
 </td></tr><tr id="Console-val1valN-parameter"><td>
 
@@ -542,7 +543,7 @@ console.error("Unexpected value: %d", 42);
 
 Creates a new inline group in the system log, where all subsequent messages are indented at an additional level until groupEnd\(\) is called. Use this method to visually organize and group related messages in output and system logs.
 
-To end a grouping, call the [Console - groupEnd\(\)](ConsoleAPI.md#) method. The groupEnd\(\) method also decreases the indent of the group by one level.
+To end a grouping, call the [Console - groupEnd\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md) method. The groupEnd\(\) method also decreases the indent of the group by one level.
 
 **Note:** group\(\) shows all grouping levels in the output and are not collapsible or expandable.
 
@@ -679,7 +680,7 @@ Back to the outer level
 
 Logs a message to system logs at the info level.
 
-**Note:** Console API methods provide the same logging functionality as [Glide System API](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#) \(for example, gs.info, gs.warn, and gs.debug\), but allow more reflexive use for developers who are familiar with logging messages using console methods. Both Console API and Glide System API methods can be used on the server.
+**Note:** Console API methods provide the same logging functionality as [Glide System API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSystemScopedAPI.md) \(for example, gs.info, gs.warn, and gs.debug\), but allow more reflexive use for developers who are familiar with logging messages using console methods. Both Console API and Glide System API methods can be used on the server.
 
 <table id="id_iqg_np2_pdc" class="parameters"><thead><tr><th>
 
@@ -703,7 +704,7 @@ String
 
 </td><td>
 
-Required if **val1...valN** is not passed. The main message or object you want to log to system logs or in the output. Accepts a string containing zero or more substitution values that can be set using the **subst1 through substN** parameter.See 'Using substitution strings' in [Console - Scoped, Global](ConsoleAPI.md#) for more information.
+Required if **val1...valN** is not passed. The main message or object you want to log to system logs or in the output. Accepts a string containing zero or more substitution values that can be set using the **subst1 through substN** parameter.See 'Using substitution strings' in [Console - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md) for more information.
 
 </td></tr><tr id="Console-subst1substN-parameter"><td>
 
@@ -715,7 +716,7 @@ String
 
 </td><td>
 
-Optional. JavaScript values with which to replace substitution strings within **msg**. These values are logged or displayed in the order they are specified. If there are more substitution values than there are substitution strings, the extra values are themselves written are appended after the message \(**msg**\) in the same manner as when there is no format string.See 'Using substitution strings' in [Console - Scoped, Global](ConsoleAPI.md#) for more information.
+Optional. JavaScript values with which to replace substitution strings within **msg**. These values are logged or displayed in the order they are specified. If there are more substitution values than there are substitution strings, the extra values are themselves written are appended after the message \(**msg**\) in the same manner as when there is no format string.See 'Using substitution strings' in [Console - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md) for more information.
 
 </td></tr><tr id="Console-val1valN-parameter"><td>
 
@@ -747,7 +748,7 @@ function onLoad() {
 
 Logs a message to system logs.
 
-**Note:** Console API methods provide the same logging functionality as [Glide System API](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#) \(for example, gs.info, gs.warn, and gs.debug\), but allow more reflexive use for developers who are familiar with logging messages using console methods. Both Console API and Glide System API methods can be used on the server.
+**Note:** Console API methods provide the same logging functionality as [Glide System API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSystemScopedAPI.md) \(for example, gs.info, gs.warn, and gs.debug\), but allow more reflexive use for developers who are familiar with logging messages using console methods. Both Console API and Glide System API methods can be used on the server.
 
 <table id="id_f3j_pp2_pdc" class="parameters"><thead><tr><th>
 
@@ -771,7 +772,7 @@ String
 
 </td><td>
 
-Required if **val1...valN** is not passed. The main message or object you want to log to system logs or in the output. Accepts a string containing zero or more substitution values that can be set using the **subst1 through substN** parameter.See 'Using substitution strings' in [Console - Scoped, Global](ConsoleAPI.md#) for more information.
+Required if **val1...valN** is not passed. The main message or object you want to log to system logs or in the output. Accepts a string containing zero or more substitution values that can be set using the **subst1 through substN** parameter.See 'Using substitution strings' in [Console - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md) for more information.
 
 </td></tr><tr id="Console-subst1substN-parameter"><td>
 
@@ -783,7 +784,7 @@ String
 
 </td><td>
 
-Optional. JavaScript values with which to replace substitution strings within **msg**. These values are logged or displayed in the order they are specified. If there are more substitution values than there are substitution strings, the extra values are themselves written are appended after the message \(**msg**\) in the same manner as when there is no format string.See 'Using substitution strings' in [Console - Scoped, Global](ConsoleAPI.md#) for more information.
+Optional. JavaScript values with which to replace substitution strings within **msg**. These values are logged or displayed in the order they are specified. If there are more substitution values than there are substitution strings, the extra values are themselves written are appended after the message \(**msg**\) in the same manner as when there is no format string.See 'Using substitution strings' in [Console - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md) for more information.
 
 </td></tr><tr id="Console-val1valN-parameter"><td>
 
@@ -815,9 +816,9 @@ function onLoad() {
 
 Starts a timer you can use to track how long an operation takes.
 
-You can give each timer a unique name and may have up to 10,000 timers running on a given page. When you call the [Console timeEnd\(\)](ConsoleAPI.md#) method with the same label name, the counter outputs the time in milliseconds that elapsed since the timer was started. Use the [Console timeLog\(\)](ConsoleAPI.md#) method to log the elapsed time captured between the timer's start and stop time.
+You can give each timer a unique name and may have up to 10,000 timers running on a given page. When you call the [Console timeEnd\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md) method with the same label name, the counter outputs the time in milliseconds that elapsed since the timer was started. Use the [Console timeLog\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md) method to log the elapsed time captured between the timer's start and stop time.
 
-For examples about how to use this method with other time-based Console API methods, see "Using timers" in [Console - Scoped, Global](ConsoleAPI.md#).
+For examples about how to use this method with other time-based Console API methods, see "Using timers" in [Console - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md).
 
 <table id="table_dly_2xv_ldc" class="parameters"><thead><tr><th>
 
@@ -841,7 +842,7 @@ String
 
 </td><td>
 
-Optional. Name to give the new timer. Use the same name when calling [Console - timeEnd\(String label\)](ConsoleAPI.md#) to stop the timer and output the elapsed time to the console.Maximum number of timers: 10,000
+Optional. Name to give the new timer. Use the same name when calling [Console - timeEnd\(String label\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md) to stop the timer and output the elapsed time to the console.Maximum number of timers: 10,000
 
 Default: Uses the label `"default"` if omitted.
 
@@ -871,7 +872,7 @@ function onLoad() {
 
 Stops a specified timer that was previously started by calling time\(\).
 
-For examples about how to use this method with other time-based Console API methods, see "Using timers" in [Console - Scoped, Global](ConsoleAPI.md#).
+For examples about how to use this method with other time-based Console API methods, see "Using timers" in [Console - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md).
 
 <table id="table_xy4_kyv_ldc" class="parameters"><thead><tr><th>
 
@@ -895,7 +896,7 @@ String
 
 </td><td>
 
-Optional. Name of the timer to stop. Once stopped, the elapsed time is automatically displayed in the console along with an indicator that the time has ended. This label must match the timer specified in the [Console - time\(String label\)](ConsoleAPI.md#) **label** parameter and is case-sensitive.Default: If omitted, uses the label `"default"`.
+Optional. Name of the timer to stop. Once stopped, the elapsed time is automatically displayed in the console along with an indicator that the time has ended. This label must match the timer specified in the [Console - time\(String label\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md) **label** parameter and is case-sensitive.Default: If omitted, uses the label `"default"`.
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -923,7 +924,7 @@ function onLoad() {
 
 Logs the current value of a specified timer to the system log.
 
-For examples about how to use this method with other time-based Console API methods, see "Using timers" in [Console - Scoped, Global](ConsoleAPI.md#).
+For examples about how to use this method with other time-based Console API methods, see "Using timers" in [Console - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md).
 
 <table id="table_mcg_hzv_ldc" class="parameters"><thead><tr><th>
 
@@ -947,7 +948,7 @@ String
 
 </td><td>
 
-Optional. Name of the timer to log to the console. Must match the timer specified in [Console - time\(String label\)](ConsoleAPI.md#) **label** parameter and is case-sensitive.Default: Uses the label `"default"` if omitted.
+Optional. Name of the timer to log to the console. Must match the timer specified in [Console - time\(String label\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md) **label** parameter and is case-sensitive.Default: Uses the label `"default"` if omitted.
 
 </td></tr><tr><td>
 
@@ -1045,7 +1046,7 @@ Object
 
 </td><td>
 
-Optional. Zero or more objects to output to the console along with the trace. Objects are assembled and formatted the same way they would be if passed to the [Console - log\(Object val1...val2, String msg, String subst1...subst2\)](ConsoleAPI.md#) method.Default: Returns the entire stack in output.
+Optional. Zero or more objects to output to the console along with the trace. Objects are assembled and formatted the same way they would be if passed to the [Console - log\(Object val1...val2, String msg, String subst1...subst2\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md) method.Default: Returns the entire stack in output.
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -1085,7 +1086,7 @@ Trace example
 
 Logs a warning message to the system log at the warning level.
 
-**Note:** Console API methods provide the same logging functionality as [Glide System API](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#) \(for example, gs.info, gs.warn, and gs.debug\), but allow more reflexive use for developers who are familiar with logging messages using console methods. Both Console API and Glide System API methods can be used on the server.
+**Note:** Console API methods provide the same logging functionality as [Glide System API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSystemScopedAPI.md) \(for example, gs.info, gs.warn, and gs.debug\), but allow more reflexive use for developers who are familiar with logging messages using console methods. Both Console API and Glide System API methods can be used on the server.
 
 <table id="id_lh5_ds2_pdc" class="parameters"><thead><tr><th>
 
@@ -1109,7 +1110,7 @@ String
 
 </td><td>
 
-Required if **val1...valN** is not passed. The main message or object you want to log to system logs or in the output. Accepts a string containing zero or more substitution values that can be set using the **subst1 through substN** parameter.See 'Using substitution strings' in [Console - Scoped, Global](ConsoleAPI.md#) for more information.
+Required if **val1...valN** is not passed. The main message or object you want to log to system logs or in the output. Accepts a string containing zero or more substitution values that can be set using the **subst1 through substN** parameter.See 'Using substitution strings' in [Console - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md) for more information.
 
 </td></tr><tr id="Console-subst1substN-parameter"><td>
 
@@ -1121,7 +1122,7 @@ String
 
 </td><td>
 
-Optional. JavaScript values with which to replace substitution strings within **msg**. These values are logged or displayed in the order they are specified. If there are more substitution values than there are substitution strings, the extra values are themselves written are appended after the message \(**msg**\) in the same manner as when there is no format string.See 'Using substitution strings' in [Console - Scoped, Global](ConsoleAPI.md#) for more information.
+Optional. JavaScript values with which to replace substitution strings within **msg**. These values are logged or displayed in the order they are specified. If there are more substitution values than there are substitution strings, the extra values are themselves written are appended after the message \(**msg**\) in the same manner as when there is no format string.See 'Using substitution strings' in [Console - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ConsoleAPI.md) for more information.
 
 </td></tr><tr id="Console-val1valN-parameter"><td>
 

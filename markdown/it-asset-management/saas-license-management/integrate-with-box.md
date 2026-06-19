@@ -2,6 +2,7 @@
 title: Integrating with Box
 description: Integrating your Software Asset Management application with the Box service enables you to track your software subscriptions and to reclaim unused licenses.Create an application on the Box Platform.Create an integration profile to track software subscriptions and optimize licensing for the Box service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/saas-license-management/integrate-with-box.html
 release: zurich
 product: SaaS License Management
 classification: saas-license-management
@@ -77,36 +78,42 @@ Create an application on the Box Platform.
 
 ### Before you begin
 
-Box Role required: Refer to the [Minimal user permissions](integrate-with-box.md#) table.
+Box Role required: Refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-box.md) table.
 
 ### Procedure
 
 1.  Navigate to the [Box Developer Console](https://developer.box.com/) and sign in to your account.
 
-2.  On the My Apps page, select **Create New App**.
+2.  On the My Platform Apps page, select **New App**.
 
-3.  Select **Custom App**.
+3.  On the form, fill in the fields.
 
-4.  On the Authentication Method page, select **Standard OAuth 2.0 \(User Authentication\)**.
+    |Field|Description|
+    |-----|-----------|
+    |App Name|Name of your application.|
+    |App Type|The application type. Select **OAuth 2.0**.|
 
-5.  Enter an application name, and then select **Create App**.
+4.  Select **Create App**.
 
-6.  On the Configuration page, obtain the Client ID and Client Secret.
+5.  On the Configuration page, obtain the Client ID and Client Secret.
 
     You’ll need to copy and paste these values into your ServiceNow instance in the following steps.
 
     **Note:** Your Client ID and Client secret are sensitive. Don’t share them.
 
-7.  Enter `https://*instance*.service-now.com/oauth_redirect.do` as the Redirect URI, where *instance* is the name of your ServiceNow instance.
+6.  Enter `https://*instance*.service-now.com/oauth_redirect.do` as the Redirect URI, where *instance* is the name of your ServiceNow instance.
 
-8.  Select the following application scope check boxes:
+7.  Under Content Actions, select the following application scope check boxes:
 
-    -   Read and write all files and folders stored in Box
+    -   Read all files and folders stored in Box
+    -   Write all files and folders stored in Box
+8.  Under Administrative Actions, select the following application scope check boxes:
+
     -   Manage users
     -   Manage enterprise properties
     These scopes enable the integration to get a list of users, get user activity, and reclaim unused subscriptions.
 
-9.  Select **Save Changes**.
+9.  Select **Save**.
 
 
 ## Create a Box integration profile
@@ -127,15 +134,15 @@ If you’re using Software Asset Workspace, the option to create the Box integra
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d120453e432">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d119323e489">
 
 Interface
 
-</th><th align="left" id="d120453e435">
+</th><th align="left" id="d119323e492">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d120453e441">
+</th></tr></thead><tbody><tr><td id="d119323e498">
 
 **Core UI**
 
@@ -146,7 +153,7 @@ Action
 3.  Select **Box Integration Profile**.
 
 
-</td></tr><tr><td id="d120453e483">
+</td></tr><tr><td id="d119323e540">
 
 **Software Asset Workspace**
 
@@ -172,7 +179,7 @@ Action
 
 3.  In the Process configuration section, review the required user roles or API permissions specified in the **Vendor configuration** field for each process to minimize security risks and optimize SaaS licenses.
 
-    **Note:** For more information about the required roles and scopes, see [Minimal user permissions](integrate-with-box.md#) table.
+    **Note:** For more information about the required roles and scopes, see [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-box.md) table.
 
     -   The **Download subscriptions** check box is selected by default and you can't clear it.
 
@@ -182,7 +189,7 @@ Action
 
         **Note:** Software Asset Management pulls the events from the time that you start analyzing user activity irrespective of the profile creation date.
 
-        You can modify this value in the Last activity threshold field of your software reclamation rules. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+        You can modify this value in the Last activity threshold field of your software reclamation rules. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
     -   The **Reclaim subscriptions** check box is selected by default. If you don't want to reclaim subscriptions, you can clear this check box. If you clear it, the removal candidates are created but the reclaim subscription subflow isn't triggered or the reclamation process isn't initiated.
 
@@ -192,7 +199,7 @@ Action
 
 5.  On the integration profile, select **Get OAuth Token**.
 
-    **Note:** For the role required to perform this step, refer to the [Minimal user permissions](integrate-with-box.md#) table.
+    **Note:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-box.md) table.
 
 6.  In the pop-up window, select your Box admin account and select **Allow**.
 
@@ -214,7 +221,7 @@ Action
 
 ### Result
 
-You can view events performed by individual users up to one year prior to the current date. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md). Software Asset Management pulls the events from the time that you start downloading user subscriptions irrespective of the profile creation date.
+You can view events performed by individual users up to one year prior to the current date. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/add-reclamation-rule-sub.md). Software Asset Management pulls the events from the time that you start downloading user subscriptions irrespective of the profile creation date.
 
 ### What to do next
 
@@ -230,20 +237,20 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](subscription-exclusions.md#).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/subscription-exclusions.md).
 
-If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](../reuse/create-child-alias-saas.md).
+If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
-Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](../task/track-software-rights.md).
--   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](../task/create-entitlements-workspace.md).
--   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](../task/guidedwalk-workspace.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-entitlements-workspace.md).
+-   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 
-Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
+Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
 
--   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](../task/t_RunReconciliation.md).
--   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](../task/run-recon-workspace.md).
+-   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_RunReconciliation.md).
+-   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/run-recon-workspace.md).
 

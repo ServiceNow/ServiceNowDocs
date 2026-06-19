@@ -2,6 +2,7 @@
 title: Example of ERP posting error workflow
 description: The ERP posting error example shows the different stages involved in closing integration issues using error task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/example-of-erp-posting-error-workflow.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -35,7 +36,7 @@ Role required: Accounts Payable admin
 
 4.  Click the error task in **Review integration errors** page.
 
-    The **Review integration error for XXXXX** form opens. Review the error description which explains the reason for integration failure. Example: Network failure. For more information about the ERP posting error task, see [ERP Posting error form](../reference/erp-posting-erorr-form.md).
+    The **Review integration error for XXXXX** form opens. Review the error description which explains the reason for integration failure. Example: Network failure. For more information about the ERP posting error task, see [ERP Posting error form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/erp-posting-erorr-form.md).
 
 5.  Open the **Invoice header** form and edit the invoice fields with appropriate details.
 
@@ -53,7 +54,7 @@ Role required: Accounts Payable admin
 
 10. Click **Review Payments**.
 
-    For more information on payment fields, see [Inbound invoice payment fields](../reference/inbound-invoice-payment-fields.md).
+    For more information on payment fields, see [Inbound invoice payment fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/inbound-invoice-payment-fields.md).
 
     The ERP integration error tasks are closed and the invoice is successfully processed for payment.
 

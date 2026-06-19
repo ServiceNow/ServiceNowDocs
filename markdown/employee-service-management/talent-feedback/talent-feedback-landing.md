@@ -2,6 +2,7 @@
 title: Talent Feedback
 description: Talent Feedback is a plugin available in Zurich release. Skill Feedback is one of the features of Talent Feedback. Skill Feedback allows managers to request feedback on employee skills from the employee’s collaborators,
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-feedback/talent-feedback-landing.html
 release: zurich
 product: Talent Feedback
 classification: talent-feedback
@@ -19,24 +20,24 @@ Talent Feedback is a plugin available in Zurich release. Skill Feedback is one o
 
 <table id="table_xmr_b2b_y2c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Talent Feedback](exploring-talent-feedback.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-feedback/exploring-talent-feedback.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set up the Talent feedback plugin](configuring-talent-feedback.md#)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up the Talent feedback plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-feedback/configuring-talent-feedback.md)
 
 </td></tr><tr><td>
 
-[Using![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Learn how to use Talent Feedback](using-talent-feedback.md)
+[Using\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn how to use Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-feedback/using-talent-feedback.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Other information about Talent Feedback](../reference/talent-feedback-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Other information about Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-feedback/talent-feedback-reference.md)
 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [Growth Experiences release notes](https://www.servicenow.com/docs/access?context=employee-growth-development-landing&version=zurich&pubname=zurich-release-notes&ft:locale=en-US).
+-   Learn more about what's new and changed, see the .
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

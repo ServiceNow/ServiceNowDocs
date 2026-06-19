@@ -2,6 +2,7 @@
 title: Translating custom content
 description: Translate content you create or modify to a supported language or add an unsupported language.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/system-localization/translating-applications.html
 release: zurich
 product: System Localization
 classification: system-localization
@@ -15,7 +16,7 @@ breadcrumb: [System Localization, Translation and localization, Configure core f
 
 Translate content you create or modify to a supported language or add an unsupported language.
 
-**Note:** Using the Localization Framework application is recommend for translating to an unsupported language or translating large amounts of custom UI string content in a supported language. For more information, see [Localization Framework](../../localization-framework/concept/localization-framework-landing.md).
+**Note:** Using the Localization Framework application is recommend for translating to an unsupported language or translating large amounts of custom UI string content in a supported language. For more information, see [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/localization-framework-landing.md).
 
 ServiceNow provides translations of the base system UI strings in supported languages through the internationalization \(I18N\) language plugins. For applications you create and modifications you make to the ServiceNow AI Platform® content, you must provide your own translations. You can also provide any translations to unsupported languages that ServiceNow does not provide translations for. The ServiceNow AI Platform does not provide any automatic translation capability.
 
@@ -46,8 +47,8 @@ Field labels in a table for a customer-created application
 
 </td><td>
 
--   [Export and edit translation records](../task/t_TranslateTheInterface.md#)
--   Alternatively, follow the procedure for translating individual labels in [Translate a field label](../task/t_TranslateAFieldLabel.md).
+-   [Export and edit translation records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/t_TranslateTheInterface.md)
+-   Alternatively, follow the procedure for translating individual labels in [Translate a field label](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/t_TranslateAFieldLabel.md).
 
 </td></tr><tr><td>
 
@@ -61,7 +62,7 @@ HTML in a UI page in a customer-created application
 
 </td><td>
 
-[Translate a client script message](../task/t_TranslateAClientScriptMessage.md)
+[Translate a client script message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/t_TranslateAClientScriptMessage.md)
 
 </td></tr><tr><td>
 
@@ -77,8 +78,8 @@ Service Catalog items
 
 </td><td>
 
--   To activate translation prefixes, see [Debug translations](../task/t_DisplayATranslationPrefix.md).
--   For translatable text fields, which are common in Service Catalog items, see [Translating text fields](c_UseTranslatedText.md#).
+-   To activate translation prefixes, see [Debug translations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/t_DisplayATranslationPrefix.md).
+-   For translatable text fields, which are common in Service Catalog items, see [Translating text fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/c_UseTranslatedText.md).
 
 </td></tr><tr><td>
 
@@ -92,8 +93,8 @@ Service Portal widget
 
 </td><td>
 
--   [Translate a client script message](../task/t_TranslateAClientScriptMessage.md)
--   [Internationalize a widget](https://www.servicenow.com/docs/access?context=c_WidgetLocalization&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) in Service Portal documentation
+-   [Translate a client script message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/t_TranslateAClientScriptMessage.md)
+-   Internationalize a widget in Service Portal documentation
 -   For unofficial advice, see [Building multi-lingual service portals](https://www.dylanlindgren.com/2018/11/07/building-multilingual-service-portals/)
 
 </td></tr><tr><td>
@@ -107,7 +108,7 @@ Playbooks
 
 </td><td>
 
-[Add translations for playbooks](https://www.servicenow.com/docs/access?context=add-translations-playbooks&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
+
 
 </td></tr><tr><td>
 
@@ -122,7 +123,7 @@ Edit a translation provided in a plugin
 
 </td><td>
 
-[Export and edit translation records](../task/t_TranslateTheInterface.md#)
+[Export and edit translation records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/t_TranslateTheInterface.md)
 
 </td></tr><tr><td>
 
@@ -135,7 +136,7 @@ Translate an instance to an unsupported language
 
 </td><td>
 
-[Translating to an unsupported language](../task/self-localize.md)
+[Translating to an unsupported language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/self-localize.md)
 
 </td></tr><tr><td>
 
@@ -147,7 +148,7 @@ Support Chat is mostly translated through the I18N language plugins. If you cust
 
 </td><td>
 
-[Internationalize a widget](https://www.servicenow.com/docs/access?context=c_WidgetLocalization&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) in Service Portal documentation
+Internationalize a widget in Service Portal documentation
 
 </td></tr><tr><td>
 
@@ -162,8 +163,8 @@ System Localization does not cover platform notifications or surveys. The usual 
 —
 
 </td></tr></tbody>
-</table>-   **[Export and edit translation records](../task/t_TranslateTheInterface.md#)**  
+</table>-   **[Export and edit translation records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/t_TranslateTheInterface.md)**  
 Export translation records to translate to additional languages in your preferred translation environment and import the new or edited translation records through import sets.
 
-**Parent Topic:**[System Localization](system-localization-landing.md)
+**Parent Topic:**[System Localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/system-localization-landing.md)
 

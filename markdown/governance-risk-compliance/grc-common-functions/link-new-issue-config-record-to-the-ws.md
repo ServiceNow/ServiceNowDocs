@@ -2,6 +2,7 @@
 title: Link a new Issue Page Configuration record to a workspace
 description: Create a new Issue Page Configuration record and link it from the classic user interface to the desired workspace. After linking the Issue Page Configuration record, the workspace view displays the new settings in the Issues overview landing page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/link-new-issue-config-record-to-the-ws.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -29,7 +30,7 @@ When a new issue configuration is created and saved in the Issue Page Configurat
 
 1.  Create a new issue configuration in the Issue page configurations record.
 
-    For instructions, see [Create a new Issue Page Configuration record](../../grc-common/task/create-new-issue-page-configuration.md).
+    For instructions, see [Create a new Issue Page Configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/create-new-issue-page-configuration.md).
 
 2.  Copy the sys\_id of the new configuration and keep note of it.
 
@@ -50,5 +51,5 @@ When a new issue configuration is created and saved in the Issue Page Configurat
 
 The new issue page configuration setting is displayed in the desired workspace view.
 
-**Parent Topic:**[Issue Page Configuration module](../concept/issue-page-config-record.md)
+**Parent Topic:**[Issue Page Configuration module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/issue-page-config-record.md)
 

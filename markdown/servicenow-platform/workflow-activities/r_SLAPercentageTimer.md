@@ -2,6 +2,7 @@
 title: SLA Percentage Timer workflow activity
 description: The SLA Percentage Timer activity pauses the workflow for a duration equal to a percentage of an SLA.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/workflow-activities/r\_SLAPercentageTimer.html
 release: zurich
 product: Workflow Activities
 classification: workflow-activities

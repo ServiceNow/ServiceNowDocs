@@ -2,6 +2,7 @@
 title: Enable bidirectional sync between SPW and Jira
 description: Enable import and export for a Jira project to ensure data is consistent across for all stakeholders using Strategic Planning Workspace and Jira.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/enable-bidirectional-sync-spw-jira.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning
@@ -32,5 +33,5 @@ Role required: sn\_jira\_int.user
 
 ## What to do next
 
-[Import issues from Jira to SPW](import-issues-from-jira-to-spw.md).
+[Import issues from Jira to SPW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/import-issues-from-jira-to-spw.md).
 

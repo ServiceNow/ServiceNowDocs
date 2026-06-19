@@ -2,6 +2,7 @@
 title: Create a contract configuration
 description: Define the contract repository where the contracts will be stored and map the data to be added to the contract or amendment document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-contract-config.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -17,11 +18,11 @@ Define the contract repository where the contracts will be stored and map the da
 
 ## Before you begin
 
-A contract template and a template rule that will pick the template when the user submits a contract or amendment request must exist. For more information, see [Configure templates for a contract and amendment request in Contract Management Pro](../concept/cncore-document-templates.md) and [Configure contract template rules](cncore-config-template-rules.md).
+A contract template and a template rule that will pick the template when the user submits a contract or amendment request must exist. For more information, see [Configure templates for a contract and amendment request in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-document-templates.md) and [Configure contract template rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-config-template-rules.md).
 
 You can distinguish configurations for an amendment request from those for a new contract by using the **Request type** selection.
 
-If you want the variables related to the contract request to be available in condition builder, add the contract request reference to your application table. For more information, see [Enable contract request fields in condition builders](cncore-add-cmr-condtion-build.md)
+If you want the variables related to the contract request to be available in condition builder, add the contract request reference to your application table. For more information, see [Enable contract request fields in condition builders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-add-cmr-condtion-build.md)
 
 For a request:
 
@@ -29,7 +30,7 @@ For a request:
 -   For a contract request, a new contract repository record is created. According to field and variables mapping, the values are populated into the contract document.
 -   For an amendment request, a new contract repository record isn’t created. Instead, the existing record is updated by overriding values for fields and variables that have a defined mapping. If a mapping doesn’t exist for a specific field, its value remains unchanged. For example, to update the contract end date through an amendment, the mapping for the end date field must exist.
 
-    If you want to copy fields with empty values and override existing values in the contract document, select the **Allow empty value flag** when configuring the mappings.![Set the flag Allow empty value for copying empty values](../image/cncore-amend-allow-empty-value.png)
+    If you want to copy fields with empty values and override existing values in the contract document, select the **Allow empty value flag** when configuring the mappings.\[Omitted image "cncore-amend-allow-empty-value.png"\] Alt text: Set the flag Allow empty value for copying empty values
 
 
 Role required: sn\_cm\_core.contract\_config
@@ -50,27 +51,27 @@ Third party contracts already have a default contract configuration in the base 
 
 3.  On the Contract Configuration form, fill in the fields.
 
-    For more information, see [Contract Configuration form](../reference/cncore-contract-config-form.md).
+    For more information, see [Contract Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-contract-config-form.md).
 
 4.  Select **Save**.
 
 5.  In the Contract Repository Mappings related list, select **New**.
 
-    ![Contract configuration with repository mapping](../image/cmpro-contract-conf.png "Contract configuration")
+    \[Omitted image "cmpro-contract-conf.png"\] Alt text: Contract configuration with repository mapping
 
 6.  In the **Mapping type**, select the type of mapping you want to do.
 
     The fields on the form change depending on the selection.
 
-<table id="choicetable_grz_dw5_yxb"><thead><tr><th align="left" id="d79210e214">
+<table id="choicetable_grz_dw5_yxb"><thead><tr><th align="left" id="d77552e214">
 
 Mapping type
 
-</th><th align="left" id="d79210e217">
+</th><th align="left" id="d77552e217">
 
 Fields available
 
-</th></tr></thead><tbody><tr><td id="d79210e223">
+</th></tr></thead><tbody><tr><td id="d77552e223">
 
 **Field mapping - Map fields from the request table to the fields in the contract repository table.**
 
@@ -84,7 +85,7 @@ Fields available
 
 **Note:** This option is available only when the **Request type** is set to Amendment in the contract configuration and it isn’t selected by default.
 
-</td></tr><tr><td id="d79210e271">
+</td></tr><tr><td id="d77552e271">
 
 **Template mapping- Map the template mappings of a contract template to the fields in the contract repository.**
 
@@ -97,7 +98,7 @@ Fields available
 
 **Note:** This option is available only when the **Request type** is set to Amendment in the contract configuration and it isn’t selected by default.
 
-</td></tr><tr><td id="d79210e311">
+</td></tr><tr><td id="d77552e311">
 
 **Template mapping- Map variables of record producer to the fields in the contract repository table.**
 

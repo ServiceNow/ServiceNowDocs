@@ -2,6 +2,7 @@
 title: Entity View Action Mapper
 description: The Entity View Action Mapper \(EVAM\) is an application that standardizes how different data sources display in cards and lists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/entity-view-action-mapper-evam/entity-view-action-mapper.html
 release: zurich
 product: Entity View Action Mapper \(EVAM\)
 classification: entity-view-action-mapper-evam
@@ -19,19 +20,19 @@ The Entity View Action Mapper \(EVAM\) is an application that standardizes how d
 
 <table id="table_ebv_qrn_g2c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn how different data sources display in cards and lists using EVAM](exploring-entity-view-action-mapper.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how different data sources display in cards and lists using EVAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/entity-view-action-mapper-evam/exploring-entity-view-action-mapper.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set up and manage EVAM. View configurations, view templates, and configuration bundles to make it easier to use the feature.](configuring-entity-view-action-mapper.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up and manage EVAM. View configurations, view templates, and configuration bundles to make it easier to use the feature.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/entity-view-action-mapper-evam/configuring-entity-view-action-mapper.md)
 
 </td></tr><tr><td>
 
-[Manage EVAM![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Use EVAM to take in different data sources, configure views, and show them in a card display view.](managing-entity-view-action-mapper.md)
+[Manage EVAM\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use EVAM to take in different data sources, configure views, and show them in a card display view.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/entity-view-action-mapper-evam/managing-entity-view-action-mapper.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)More information about EVAM and its usage.](entity-view-action-mapper-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:More information about EVAM and its usage.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/entity-view-action-mapper-evam/entity-view-action-mapper-reference.md)
 
 </td></tr></tbody>
 </table>

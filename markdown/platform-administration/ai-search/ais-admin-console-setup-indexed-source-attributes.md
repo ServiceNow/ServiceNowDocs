@@ -2,6 +2,7 @@
 title: Set up an indexed source attribute for indexing the search content
 description: Set up an indexed source attribute to control how AI Search indexes content for all records in a source table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/ais-admin-console-setup-indexed-source-attributes.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -21,7 +22,7 @@ Role required: ais\_admin
 
 ## About this task
 
-An indexed source attribute defines how records from an indexed source table are indexed in AI Search. For example, with indexed source attributes, you can control which records to index, how to handle specific data types, such as attachments or tags, and whether to include translated fields in the index. These attributes help customize the indexing process to your needs. For more information, see [Indexed source attributes for AI Search](../concept/indexed-source-attributes-ais.md#).
+An indexed source attribute defines how records from an indexed source table are indexed in AI Search. For example, with indexed source attributes, you can control which records to index, how to handle specific data types, such as attachments or tags, and whether to include translated fields in the index. These attributes help customize the indexing process to your needs. For more information, see [Indexed source attributes for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/indexed-source-attributes-ais.md).
 
 ## Procedure
 
@@ -91,5 +92,5 @@ Option to enable or disable the indexing of a selected attribute.This field appe
 
 The new indexed source attribute is added in the Advanced configurations form.
 
-**Parent Topic:**[Managing indexed sources from the AI Search Admin console](../concept/ais-managing-indexed-source.md)
+**Parent Topic:**[Managing indexed sources from the AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-managing-indexed-source.md)
 

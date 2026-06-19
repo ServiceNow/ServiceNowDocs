@@ -2,6 +2,7 @@
 title: Exploring My Resources
 description: Observe and interact with discovered resources by using the My Resources option under More tab on the Employee Center toolbar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/explore-my-resources.html
 release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -19,16 +20,16 @@ You can designate the operators or owners for the identified resources so that t
 
 The following example shows the **My Resources** tab.
 
-![My Resources tab that appears under the More tab.](../image/my-resources.png "My Resources tab")
+\[Omitted image "my-resources.png"\] Alt text: My Resources tab that appears under the More tab.
 
 The following example shows a list of the resource categories and filters that enable you to access the relevant resource and perform other functions, such as save and export.
 
-![Options from the All Resources tab that you can select including compute, load balancer, network, and storage.](../image/all-resources-options.png "Options on the All Resources tab")
+\[Omitted image "all-resources-options.png"\] Alt text: Options from the All Resources tab that you can select including compute, load balancer, network, and storage.
 
 The cloud resources are categorised as above. You can access one of the categories to manage them.
 
--   **[Manage My Resources and resource filters](../task/managing-my-resources.md)**  
+-   **[Manage My Resources and resource filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/managing-my-resources.md)**  
 Access the resources that you own, resources that are owned by a group, or anyone's resources by using the resource filter. You can then find the information that you need by using sorting functions, conditions, categories, and keywords.
 
-**Parent Topic:**[Cloud Services Catalog](csc-home.md)
+**Parent Topic:**[Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/csc-home.md)
 

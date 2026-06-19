@@ -2,6 +2,7 @@
 title: Adding Roles to users
 description: Use the Simulate Add Role for simulating the user's access changes for a resource \(tables\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/add-role-to-user.html
 release: zurich
 product: Access Control
 classification: access-control
@@ -19,7 +20,7 @@ Use the **Simulate Add Role** for simulating the user's access changes for a res
 
 Role required: admin, access\_analyzer\_admin
 
-Enable the take actions. For more information, see [Configuring the Access Simulator \(Take actions\)](configure-access-simulator.md).
+Enable the take actions. For more information, see [Configuring the Access Simulator \(Take actions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/configure-access-simulator.md).
 
 ## Procedure
 
@@ -38,7 +39,7 @@ Enable the take actions. For more information, see [Configuring the Access Simul
     |Select record|Specify a record name to select from the list \(Optional\).|
     |Select field|Specify a field name to select from the list. This field can be used to analyze permission even at a field level. For example, Active, Created By, and so on.|
 
-    ![Add a role to a user - criteria](../images/simulate-add-criteria.png)
+    \[Omitted image "simulate-add-criteria.png"\] Alt text: Add a role to a user - criteria
 
 4.  Select **Next**.
 
@@ -46,7 +47,7 @@ Enable the take actions. For more information, see [Configuring the Access Simul
 
     The roles that are newly assigned are simulated in the Preview changes. You can validate the roles and child roles that are being added to the user before moving to the next step.
 
-    ![Preview changes](../images/simulate-add-preview.png)
+    \[Omitted image "simulate-add-preview.png"\] Alt text: Preview changes
 
     You can see the new roles that are being added as part of **itil\_admin** role is displayed along with the existing roles of the user.
 
@@ -54,7 +55,7 @@ Enable the take actions. For more information, see [Configuring the Access Simul
 
 7.  Validate the **Present status** and **Simulated status** to verify the access that is being **Passed** or **Blocked** to the simulated user.
 
-    ![Results](../images/simulate-add-results.png)
+    \[Omitted image "simulate-add-results.png"\] Alt text: Results
 
     Adding the **itil\_admin** enables the user to perform delete operation on the table \(Incident\).
 
@@ -67,13 +68,13 @@ Enable the take actions. For more information, see [Configuring the Access Simul
 
 9.  Select **Add and complete**.
 
-    ![Actions](../images/simulate-add-actions.png)
+    \[Omitted image "simulate-add-actions.png"\] Alt text: Actions
 
     **Note:**
 
     -   If the Access Simulator isn’t enabled, you can't complete the simulation. To enable, select **Enable actions** and accept the legal information.
-    -   If you want to hide the simulation, select **Hide actions**. To unhide and enable actions, go to the settings. For more information, see [Configuring the Access Simulator \(Take actions\)](configure-access-simulator.md).
+    -   If you want to hide the simulation, select **Hide actions**. To unhide and enable actions, go to the settings. For more information, see [Configuring the Access Simulator \(Take actions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/configure-access-simulator.md).
     -   If you want to exit the simulation, select **Skip and Exit**.
-    The roles are successfully added to the user. You can verify the access using the Access Analyzer. For more information about how to verify the access of a user, see [Access analyzer](../concept/access-analyzer.md).
+    The roles are successfully added to the user. You can verify the access using the Access Analyzer. For more information about how to verify the access of a user, see [Access analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/access-analyzer.md).
 
 

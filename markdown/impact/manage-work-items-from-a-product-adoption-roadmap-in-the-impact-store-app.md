@@ -2,7 +2,10 @@
 title: Manage work items from a capability linked to a Product Adoption Roadmap in the Impact Store App
 description: Convert a capability linked to a product adoption roadmap to an SPM entity either from the Impact home page or from the Product Adoption Roadmaps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/manage-work-items-from-a-product-adoption-roadmap-in-the-impact-store-app.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -27,7 +30,7 @@ Role required: Impact App Admin, Impact Platform Owner, Impact Portfolio Owner, 
 
     **Note:** You can't convert a legacy product adoption roadmap to an SPM or a CWM work item.
 
-4.  Select the more action \(![more actions icon](../image/more-action-icon.png)\) icon for the desired capability and click **Convert to work item** option.
+4.  Select the more action \(\[Omitted image "more-action-icon.png"\] Alt text: more actions icon\) icon for the desired capability and click **Convert to work item** option.
 
 5.  Select a work item from those that are listed for the product adoption roadmap.
 
@@ -41,9 +44,9 @@ Role required: Impact App Admin, Impact Platform Owner, Impact Portfolio Owner, 
 
 8.  Select the link to view the record details, or open the capability from the product adoption roadmap and click **Work Items** on the capability details page.
 
-    ![Capability details work items tab](../image/capability_workitems.png "Work Items tab")
+    \[Omitted image "capability\_workitems.png"\] Alt text: Capability details work items tab
 
-    You can view the work items that you created for this capability. A work item \(![](../image/impact-my-work-item-icon.png)\) icon on the capability indicate that one or more work items are associated with it.
+    You can view the work items that you created for this capability. A work item \(\[Omitted image "impact-my-work-item-icon.png"\] Alt text:\) icon on the capability indicate that one or more work items are associated with it.
 
     You can also access the capability from the Capability Map and navigate to the **Work Items** section to view the created items.
 

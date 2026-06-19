@@ -2,12 +2,13 @@
 title: Create your application from scratch
 description: If the available application templates in App Engine Studio \(AES\) don't fit your application goal, create an empty application to which you can add data, experience, logic and automation, and security.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/create-app-scratch.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Create your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
 ---
 
@@ -43,24 +44,24 @@ Role required: admin, sn\_app\_eng\_studio.user, sn\_app\_eng\_studio.admin
 
 8.  On the summary screen, select **Go to app dashboard**.
 
-9.  If you want a more advanced app development environment to work in, you can open your app in [Legacy - ServiceNow Studio](../../applications/concept/c_ServiceNowStudio.md) by selecting **Try it out** in the banner.
+9.  If you want a more advanced app development environment to work in, you can open your app in [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/servicenow-studio-landing.md) by selecting **Try it out** in the banner.
 
-    ![Try opening your app in ServiceNow Studio for a more advanced app development experience.](../../servicenow-studio/image/sn-studio-entry-aes.png)
+    \[Omitted image "sn-studio-entry-aes.png"\] Alt text: Try opening your app in ServiceNow Studio for a more advanced app development experience.
 
-10. Review the guiding information for each section of your application by enabling the **Guidance** toggle \(![Guidance toggle](../image/guidance-toggle-purple.png)\) in the bottom left corner of the window.
+10. Review the guiding information for each section of your application by enabling the **Guidance** toggle \(\[Omitted image "guidance-toggle-purple.png"\] Alt text: Guidance toggle\) in the bottom left corner of the window.
 
 11. Continue building your application by adding data, experiences, logic and automation, and security to your app.
 
     For more information, see the following topics:
 
-    -   [Create a data model for your application](../concept/add-data.md)
-    -   [Add an application experience](../concept/add-experience.md)
-    -   [Add logic and automation](../concept/add-automation.md)
-    -   [Add application security](../concept/add-security.md)
+    -   [Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-data.md)
+    -   [Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-experience.md)
+    -   [Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-automation.md)
+    -   [Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-security.md)
 
 ## What to do next
 
-After you've finished building your application, submit the application for approval to get it reviewed and deployed by an administrator. For more information, see [Submit your app for approval and publishing](submit-for-approval.md).
+After you've finished building your application, submit the application for approval to get it reviewed and deployed by an administrator. For more information, see [Submit your app for approval and publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/submit-for-approval.md).
 
-**Parent Topic:**[Create your app](../concept/create-application.md)
+**Parent Topic:**[Create your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/create-application.md)
 

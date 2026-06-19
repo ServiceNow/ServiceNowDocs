@@ -2,6 +2,7 @@
 title: Using Service Catalog for Enterprise Asset Management requests and flows
 description: Use the Service Catalog application to create catalog requests for the Enterprise Asset Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/using-service-catalog-eam-requests-flows.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -21,9 +22,9 @@ Use the Service Catalog for creating catalog requests for Enterprise Asset Manag
 
 |Task|Role required|Resource|
 |----|-------------|--------|
-|Deploy, source, and request catalog items for the Enterprise request flow| |[Use an enterprise asset request flow](../task/create-eam-assetrequest.md)|
-|Track and replace assets by using the Enterprise Asset refresh flow| |[Request an enterprise asset refresh](../task/request-eam-assetrefresh.md)|
-|Resell your assets using the Asset resale flow.| |[Create an asset resale flow](../task/enterprise-asset-resale-flow.md)|
-|Onboard multiple assets at one go| |[Create a catalog request for onboarding multiple assets](../task/create-asset-onboard-catalog-req.md)|
-|Reclaim enterprise assets| |[Create a catalog request to reclaim enterprise assets](../task/create-enterprise-catalog-request.md)|
+|Deploy, source, and request catalog items for the Enterprise request flow| |[Use an enterprise asset request flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-eam-assetrequest.md)|
+|Track and replace assets by using the Enterprise Asset refresh flow| |[Request an enterprise asset refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/request-eam-assetrefresh.md)|
+|Resell your assets using the Asset resale flow.| |[Create an asset resale flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/enterprise-asset-resale-flow.md)|
+|Onboard multiple assets at one go| |[Create a catalog request for onboarding multiple assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-asset-onboard-catalog-req.md)|
+|Reclaim enterprise assets| |[Create a catalog request to reclaim enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-enterprise-catalog-request.md)|
 

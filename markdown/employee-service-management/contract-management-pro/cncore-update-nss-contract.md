@@ -2,6 +2,7 @@
 title: Modify a non-self-served contract request
 description: As a requester, modify the contract request to update the request details or replace the attached contract document with an updated version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-update-nss-contract.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -30,11 +31,11 @@ Role required: sn\_cm\_core.contract\_user
     |Action|Steps|
     |------|-----|
     |**Modify the request details**|Modify the fields of the non-self-served review request.|
-    |**Add and classify documents**|For more information, see [Add contract documents to non-self-served contract request](cncore-nss-add-cont-doc.md) and [Reclassify contract documents in third-party contract request](cncore-nss-reclassify-doc.md)|
-    |**Delete documents**|In the Documents section, select the Delete icon \(![Delete icon](../image/lsd-tpc-delete.png)\) next to the document you want to delete.|
+    |**Add and classify documents**|For more information, see [Add contract documents to non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-nss-add-cont-doc.md) and [Reclassify contract documents in third-party contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-nss-reclassify-doc.md)|
+    |**Delete documents**|In the Documents section, select the Delete icon \(\[Omitted image "lsd-tpc-delete.png"\] Alt text: Delete icon\) next to the document you want to delete.|
 
 3.  Select **Save** to update the record.
 
 
-**Parent Topic:**[Use non-self-served contract request](../concept/cncore-req-nss-contract-1.md)
+**Parent Topic:**[Use non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

@@ -2,6 +2,7 @@
 title: Navigate service enterprise portfolio templates in DPM
 description: Navigate three service enterprise portfolio templates: EDUCAUSE Higher Education IT Service Portfolio, IT Service Portfolio, and Sample Organizational Structure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-portfolio-management/dpm-enterprise-portfolio-templates.html
 release: zurich
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -17,7 +18,7 @@ Navigate three service enterprise portfolio templates: EDUCAUSE Higher Education
 
 Create and edit portfolios in enterprise portfolio builder. 
 
-Navigate the three enterprise service portfolio templates and decide which one to use. Templates are structured in a nesting content tree format with taxonomy nodes and services with descriptions. This structure helps you easily navigate your portfolio. For more information on creating a portfolio using one of these templates, see [Create enterprise service portfolios using a template](../task/dpm-create-enterprise-portfolio-using-template.md).
+Navigate the three enterprise service portfolio templates and decide which one to use. Templates are structured in a nesting content tree format with taxonomy nodes and services with descriptions. This structure helps you easily navigate your portfolio. For more information on creating a portfolio using one of these templates, see [Create enterprise service portfolios using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-create-enterprise-portfolio-using-template.md).
 
 <table id="table_w4n_gts_1fc"><thead><tr><th>
 
@@ -156,7 +157,7 @@ Enterprise taxonomy nodes:
 To determine if this template is for you, consider its focus on higher education IT challenges. Does your institution face specific IT challenges that are common in higher education? If you’re looking to drive innovation and excellence in higher education through technology, this template could be a valuable resource for you.
 
 </td></tr></tbody>
-</table>For overview information on enterprise portfolios, see [Enterprise portfolios](dpm-enterprise-portfolios.md). For more detailed information on enterprise portfolios, see [Navigate portfolio types in Digital Portfolio Management](dpm-navigating-enterprise-portfolios.md).
+</table>For overview information on enterprise portfolios, see [Enterprise portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-enterprise-portfolios.md). For more detailed information on enterprise portfolios, see [Navigate portfolio types in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-navigating-enterprise-portfolios.md).
 
-**Parent Topic:**[Enterprise portfolios](dpm-enterprise-portfolios.md)
+**Parent Topic:**[Enterprise portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-enterprise-portfolios.md)
 

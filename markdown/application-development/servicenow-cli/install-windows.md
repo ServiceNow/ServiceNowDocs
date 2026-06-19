@@ -2,6 +2,7 @@
 title: Install the ServiceNow CLI on Windows
 description: Install ServiceNow CLI on a Windows OS using the installer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-cli/install-windows.html
 release: zurich
 product: ServiceNow CLI
 classification: servicenow-cli
@@ -47,5 +48,5 @@ Role required: admin
     If Windows is unable to find the program, close and reopen the command prompt window to refresh the path.
 
 
-**Parent Topic:**[Install the ServiceNow CLI](download-cli.md)
+**Parent Topic:**[Install the ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-cli/download-cli.md)
 

@@ -2,6 +2,7 @@
 title: Interaction Insights table
 description: User sentiment analysis prepares agents for the tone of incoming conversations. Business rules can be created based on this value and agents can take appropriate actions on the chat, whether it comes from Virtual Agent, another live agent, or from a queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/ci-interaction-insights-table.html
 release: zurich
 product: Conversational Interfaces
 classification: conversational-interfaces
@@ -15,7 +16,7 @@ breadcrumb: [Conversational Interfaces reference, Conversational Interfaces Cons
 
 User sentiment analysis prepares agents for the tone of incoming conversations. Business rules can be created based on this value and agents can take appropriate actions on the chat, whether it comes from Virtual Agent, another live agent, or from a queue.
 
-Both synchronous and asynchronous channels support sentiment analysis. Use [Task Intelligence](https://www.servicenow.com/docs/access?context=task-intelligence&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) to set up sentiment analysis.
+Both synchronous and asynchronous channels support sentiment analysis. Use  to set up sentiment analysis.
 
 When configured, sentiment analysis is performed at the end of a Virtual Agent or live agent conversation. The user sentiment is stored in the Interaction Insights \[sys\_cs\_interaction\_insight\] table.
 
@@ -79,5 +80,5 @@ User Type
 Type of user. For example, **Agent**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Conversational Interfaces reference](../concept/ci-reference-parent.md)
+</table>**Parent Topic:**[Conversational Interfaces reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/ci-reference-parent.md)
 

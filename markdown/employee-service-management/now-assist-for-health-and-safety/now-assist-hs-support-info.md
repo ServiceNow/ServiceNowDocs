@@ -2,11 +2,12 @@
 title: Supporting information for Now Assist for Health and Safety
 description: Get a quick overview of the important information that is related to the Now Assist for Health and Safety application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-support-info.html
 release: zurich
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Explore, Now Assist for Health and Safety, Health and Safety, Employee Service Management]
 ---
@@ -39,5 +40,5 @@ Activate the applications in the following order:
 1.  Health and Safety Incident Management
 2.  Now Assist for Health and Safety
 
-For more information, see [Configuring Now Assist for Health and Safety](now-assist-hs-configuring.md).
+For more information, see [Configuring Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md).
 

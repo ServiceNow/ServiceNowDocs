@@ -2,6 +2,7 @@
 title: Create a breakdown mapping on a breakdown record
 description: Specify which field on the indicator source references the breakdown source. If no appropriate field is available, specify a script to query the indicator source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/t\_CrtBkdnBreakdownMpngs.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -25,7 +26,7 @@ Role required: The same as for creating a breakdown.
 
 You can create multiple mappings for the same breakdown, enabling you to use that breakdown for multiple indicators.
 
-**Note:** The procedure on this page uses a related list on the breakdown form. You can instead use a graphical tool that you access from the indicator form. See [Assign and map breakdowns](create-breakdown-mapping.md#).
+**Note:** The procedure on this page uses a related list on the breakdown form. You can instead use a graphical tool that you access from the indicator form. See [Assign and map breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-breakdown-mapping.md).
 
 ## Procedure
 
@@ -39,21 +40,21 @@ You can create multiple mappings for the same breakdown, enabling you to use tha
 
 4.  Do one of these actions.
 
-<table id="choicetable_vmj_4t3_twb"><tbody><tr><td id="d128175e116">
+<table id="choicetable_vmj_4t3_twb"><tbody><tr><td id="d42316e116">
 
 **Use a field to map values to elements.**
 
 </td><td>
 
-Select the **Field** in the indicator source that maps to records in the breakdown. See the use of the **Category** field in [Example: Field mapping](../concept/example-field-mapping.md).
+Select the **Field** in the indicator source that maps to records in the breakdown. See the use of the **Category** field in [Example: Field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/example-field-mapping.md).
 
-</td></tr><tr><td id="d128175e144">
+</td></tr><tr><td id="d42316e144">
 
 **Use a script to map values to elements.**
 
 </td><td>
 
-Select **Scripted**, then select the **Script** that defines the association between indicator records and breakdown elements.Use a script when you do not have the simple use case of a field in the indicator source that maps to a breakdown source table. A script can define a wide range of mapping relationships. The most common use case is when the breakdown source is a [bucket group](../concept/performance-analytics-glossary.md#) and the script returns an integer to assign an indicator score to a bucket. See [Example: Script mapping](../concept/example-script-mapping.md).
+Select **Scripted**, then select the **Script** that defines the association between indicator records and breakdown elements.Use a script when you do not have the simple use case of a field in the indicator source that maps to a breakdown source table. A script can define a wide range of mapping relationships. The most common use case is when the breakdown source is a [bucket group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md) and the script returns an integer to assign an indicator score to a bucket. See [Example: Script mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/example-script-mapping.md).
 
  You cannot show real-time scores for an indicator that uses a scripted breakdown.
 
@@ -65,9 +66,9 @@ Select **Scripted**, then select the **Script** that defines the association bet
 6.  Repeat steps 2–5 as needed, to define additional mappings.
 
 
-**Parent Topic:**[Automated breakdowns](../concept/automated-breakdowns.md)
+**Parent Topic:**[Automated breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/automated-breakdowns.md)
 
-**Previous topic:**[Create an automated breakdown](t_CreatingABreakdownForIndicators.md)
+**Previous topic:**[Create an automated breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_CreatingABreakdownForIndicators.md)
 
-**Next topic:**[Assign an indicator to an automated breakdown](t_AssigningAnIndicatorToABreakdown.md)
+**Next topic:**[Assign an indicator to an automated breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_AssigningAnIndicatorToABreakdown.md)
 

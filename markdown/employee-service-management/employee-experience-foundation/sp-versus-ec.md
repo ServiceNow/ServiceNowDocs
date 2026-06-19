@@ -2,6 +2,7 @@
 title: Service Portal versus Employee Center application
 description: Both the Service Portal and Employee Center applications are built on the ServiceNow AI Platform and use modern technologies, can be branded and customized, and have more that 200 widgets available. However, the Employee Center is built to scale as multi departmental for all service needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/sp-versus-ec.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation

@@ -2,6 +2,7 @@
 title: Flow variables
 description: Similar to Workflow scratchpad variables, create variables that you can use and modify directly in your flow. Access flow variables as data pills directly in the Data panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/flow-variables.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -65,8 +66,8 @@ Workflow Studio supports the following data types for flow variables:
 -   String
 -   True/False
 
--   **[Create a flow variable](../task/create-flow-variables.md)**  
+-   **[Create a flow variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-flow-variables.md)**  
 Create a flow variable to store and retrieve a value throughout a flow.
 
-**Parent Topic:**[Building flows](flows.md)
+**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flows.md)
 

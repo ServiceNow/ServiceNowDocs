@@ -2,6 +2,7 @@
 title: Loan Rollover workflow
 description: Learn how bank agents, using the Loan Rollover workflow, resolve a loan service request for renewal or rollover of an outstanding loan. The workflow applies to business loans only.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-loan-operations/loan-rollover-workflow.html
 release: zurich
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
@@ -17,7 +18,7 @@ Learn how bank agents, using the Loan Rollover workflow, resolve a loan service 
 
 The following diagram shows how the application helps bank agents to resolve a Loan Rollover service request.
 
-![Workflow that shows how bank employees successfully roll over a loan.](../image/loan-rollover-workflow.png "Loan Rollover workflow")
+\[Omitted image "loan-rollover-workflow.png"\] Alt text: Workflow that shows how bank employees successfully roll over a loan.
 
 The following workflow routes the case and tasks for a Loan Rollover service request to agents in different departments. The agents log in to Workspace to work on the tasks in their queue.
 

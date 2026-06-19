@@ -2,6 +2,7 @@
 title: Asset Analytics overview for Enterprise Asset workspace
 description: Use the Asset Analytics view to get a detailed view of all your assets, their overall performance, and the asset total cost of ownership \(TCO\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/eam-asset-dboard.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -21,7 +22,7 @@ Use the Enterprise Asset Dashboard to get comprehensive information on all your 
 
 You can filter the data based on location, stockroom, model category, and classification.
 
-![Enterprise Asset Dashboard](../image/asset-analytics-eam.png)
+\[Omitted image "asset-analytics-eam.png"\] Alt text: Enterprise Asset Dashboard
 
 |Widget|Description|
 |------|-----------|
@@ -51,7 +52,7 @@ You can select **New** to create a TCO report.
 
 Select a report icon to directly open a report or select the report name to open the report form.
 
-![Asset total cost of ownership](../image/asset-tco-tab.png)
+\[Omitted image "asset-tco-tab.png"\] Alt text: Asset total cost of ownership
 
 <table id="table_gq4_323_jzb"><thead><tr><th>
 
@@ -154,7 +155,7 @@ The Asset performance tab provides details on the average values of the followin
 -   Mean time between failures \(MTBF\)
 -   Mean time to repair \(MTTR\)
 
-**Note:** For more details on calculation of KPIs, see [Asset performance reports in the Enterprise Asset Workspace](asset-performance-reports-eam.md).
+**Note:** For more details on calculation of KPIs, see [Asset performance reports in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/asset-performance-reports-eam.md).
 
 By default, the **Model category** filter is applied to the KPI reports. To further narrow down and focus on specific data, you can also select any one of the following filters:
 
@@ -169,7 +170,7 @@ You can see a weekly trend of the average KPI values in the report. The Asset Av
 
 When you select any KPI report, the **KPI Details** page appears. This page enables you to explore the information within that KPI. You can set targets you want to achieve and also set signals to notify you of any significant changes in the KPI.
 
-![Asset performance tab in the Asset analytics view](../image/asset-performance-view-eam.png "Asset performance dashboard")
+\[Omitted image "asset-performance-view-eam.png"\] Alt text: Asset performance tab in the Asset analytics view
 
 |Widget|Description|
 |------|-----------|
@@ -182,5 +183,5 @@ When you select any KPI report, the **KPI Details** page appears. This page enab
 
 The Data Visualizations tab enables the asset managers to view and create data visualizations in the Visualization Designer. As an asset manager, you can view the visualizations that are bookmarked, certified, owned by you, and shared with you. You can only edit the visualizations that you created.
 
-![Data visualization report](../image/data-visualizations-eam.png "Data Visualizations tab")
+\[Omitted image "data-visualizations-eam.png"\] Alt text: Data visualization report
 

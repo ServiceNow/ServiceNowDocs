@@ -2,6 +2,7 @@
 title: Create a client callable flow, subflow, or action
 description: Enable a client script to trigger a flow, subflow, or action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/grant-access-flow-apis.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -61,5 +62,5 @@ By default, the flows, subflows, and actions can only be called by the FlowAPI w
 
 The user with the designated permissions can trigger a client callable flow, subflow, or action from a client script using the GlideFlow API.
 
-**Parent Topic:**[API access to Workflow Studio flows](../concept/api-access-flow-designer.md)
+**Parent Topic:**[API access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/api-access-flow-designer.md)
 

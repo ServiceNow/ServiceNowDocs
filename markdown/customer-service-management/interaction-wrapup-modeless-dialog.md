@@ -2,7 +2,10 @@
 title: Interaction wrap up with modeless dialog
 description: Interaction wrap up provides agents with dedicated time after each call or chat to finalize interaction details. Agents can use this time to wrap up their work before starting a new conversation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/interaction-wrapup-modeless-dialog.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 7
@@ -21,12 +24,12 @@ While in the Wrap Up state, an agent’s capacity is not reduced until the state
 
 Interaction wrap up includes several configurable features:
 
--   [Wrap-up codes](interaction-wrapup-modeless-dialog.md#section_z1t_m4m_rdc): Agents can select from a list of codes that provide information about how the interaction was resolved.
--   [Wrap-up notes](interaction-wrapup-modeless-dialog.md#section_iyj_j33_zdc): Agents can provide additional information about the interaction resolution.
--   [Wrap-up timer](interaction-wrapup-modeless-dialog.md#section_ycd_24m_rdc): Displays the duration of the wrap-up period. When the end of the duration is reached, the system automatically ends the wrap-up period and saves the wrap-up data with the default code and notes field blank.
--   [Wrap-up modeless dialog](interaction-wrapup-modeless-dialog.md#section_jfj_14m_rdc): Displays when the agent ends an interaction. Includes the wrap-up timer and fields for the wrap-up code and notes.
+-   [Wrap-up codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/interaction-wrapup-modeless-dialog.md): Agents can select from a list of codes that provide information about how the interaction was resolved.
+-   [Wrap-up notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/interaction-wrapup-modeless-dialog.md): Agents can provide additional information about the interaction resolution.
+-   [Wrap-up timer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/interaction-wrapup-modeless-dialog.md): Displays the duration of the wrap-up period. When the end of the duration is reached, the system automatically ends the wrap-up period and saves the wrap-up data with the default code and notes field blank.
+-   [Wrap-up modeless dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/interaction-wrapup-modeless-dialog.md): Displays when the agent ends an interaction. Includes the wrap-up timer and fields for the wrap-up code and notes.
 
-Interaction wrap up also includes [wrap-up segments](interaction-wrapup-modeless-dialog.md#section_p2w_wj3_zdc), which store interaction wrap-up data. Wrap up segments enable multiple wrap ups per interaction. For example, when one agent transfers an interaction to another agent and each agent completes a wrap up for the same record.
+Interaction wrap up also includes [wrap-up segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/interaction-wrapup-modeless-dialog.md), which store interaction wrap-up data. Wrap up segments enable multiple wrap ups per interaction. For example, when one agent transfers an interaction to another agent and each agent completes a wrap up for the same record.
 
 ## Interaction wrap-up benefits
 
@@ -48,9 +51,9 @@ System administrators can create wrap-up codes. From the Interaction Wrap Up Con
 
 For more information, see the following topics:
 
--   [Create an interaction wrap-up configuration](https://www.servicenow.com/docs/access?context=create-interaction-wrap-up-config&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
--   [Create interaction wrap up codes](https://www.servicenow.com/docs/access?context=config-interaction-wrapup-codes&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
--   [Enable interaction wrap up codes](https://www.servicenow.com/docs/access?context=enable-interaction-wrapup-codes&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+-   
+-   Create interaction wrap up codes
+-   Enable interaction wrap up codes
 
 ## Wrap-up timer
 

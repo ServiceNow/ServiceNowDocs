@@ -2,6 +2,7 @@
 title: Configure Agent Affinity rules
 description: Create or change the Agent Affinity rules that route work items in Advanced Work Assignment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/awa-configure-agent-affinity.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -105,5 +106,5 @@ Agent who is part of the account team. This field appears when you select **Acco
 </table>4.  Click **Submit** for a new affinity rule or **Update** to modify an existing affinity rule.
 
 
-**Parent Topic:**[Configuring Advanced Work Assignment](installing-awa.md)
+**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

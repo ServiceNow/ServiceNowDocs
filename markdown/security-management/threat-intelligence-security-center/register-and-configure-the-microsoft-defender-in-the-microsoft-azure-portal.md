@@ -2,6 +2,7 @@
 title: Register and configure the Microsoft Defender in the Microsoft Azure portal
 description: Register the Microsoft Defender EDR in the Microsoft Azure portal and grant the read and write access to the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/register-and-configure-the-microsoft-defender-in-the-microsoft-azure-portal.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -58,5 +59,5 @@ Role required: Application developer, Tenant administrator.
     |Ti.ReadWrite.All|Read and write Indicators|
 
 
-**Parent Topic:**[Microsoft Defender for EDR Integration](../concept/tisc-ms-defender-integration.md)
+**Parent Topic:**[Microsoft Defender for EDR Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-ms-defender-integration.md)
 

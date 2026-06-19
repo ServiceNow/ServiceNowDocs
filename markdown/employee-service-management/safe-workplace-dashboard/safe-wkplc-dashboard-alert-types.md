@@ -2,6 +2,7 @@
 title: Alert types used with the Safe Workplace Dashboard
 description: Alert types define the ServiceNow Performance Analytics \(PA\) thresholds used to generate alerts on the Safe Workplace Dashboard. Alerts are generated from application data once per day.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace-dashboard/safe-wkplc-dashboard-alert-types.html
 release: zurich
 product: Safe Workplace Dashboard
 classification: safe-workplace-dashboard
@@ -22,7 +23,7 @@ Alert types define the ServiceNow® Performance Analytics \(PA\) thresholds used
 |Screening Rejections Low|Uses Employee Health Screening entry requests to calculate the number of people denied entry.|
 |Active Contact Tracing Cases|Uses Contact Tracing cases to determine when the number of active cases is greater than the threshold.|
 
-A user with the pa\_admin role can define additional alert types. For information about using Performance Analytics, see [Performance Analytics](https://www.servicenow.com/docs/access?context=pa-overview&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+A user with the pa\_admin role can define additional alert types. For information about using Performance Analytics, see Performance Analytics.
 
-**Parent Topic:**[Safe Workplace Dashboard](../concept/safe-workplace-dashboard.md)
+**Parent Topic:**[Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace-dashboard/safe-workplace-dashboard.md)
 

@@ -2,6 +2,7 @@
 title: Restore normal importance to an alert metric in Health Log Analytics
 description: Return normal significance to the metric involved in generating a Log Analytics alert. Use this option if you no longer want an alert to be treated specially that was muted, marked as significant, or made less sensitive to similar anomalies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-alert-restore-user-defined-sow.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -30,5 +31,5 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
 The metric that is associated with the alert returns to normal importance.
 
-**Parent Topic:**[Assigning higher or lower significance to an alert in Health Log Analytics](../../service-operations-workspace-itom/concept/hla-op-alert-significance-sow-itom.md)
+**Parent Topic:**[Assigning higher or lower significance to an alert in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-alert-significance-sow-itom.md)
 

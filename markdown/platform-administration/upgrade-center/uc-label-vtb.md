@@ -2,6 +2,7 @@
 title: Update default labels in VTB view
 description: Filter skipped records in the task board of the VTB with the implementation of color-coded labels. You can filter the skipped records by assigning a color to each of the products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/upgrade-center/uc-label-vtb.html
 release: zurich
 product: Upgrade Center
 classification: upgrade-center
@@ -41,12 +42,12 @@ Role required: admin
 
 5.  If you want to add a label, click **Add Label**.
 
-    Enter the name of the label you want to create. You can also change the color of a label by clicking the color circle.![Image showing Add Label and color change in the VTB view](../image/uc-labels.png)
+    Enter the name of the label you want to create. You can also change the color of a label by clicking the color circle.\[Omitted image "uc-labels.png"\] Alt text: Image showing Add Label and color change in the VTB view
 
     **Note:** The new labels and colors are saved only for the current visual task board and don't get rolled over to the next updated board. If you want the new label updates to show up in the next updated board, navigate to **Upgrade Center** &gt; **Administration** &gt; **Properties** &gt; **Upgrade Center VTB Labels**. Set the colors as required and the updated colors start showing up from the next generated board.
 
 
 ## What to do next
 
-Click on a skipped record in the VTB to update the task. See [Upgrade History Task form](../reference/uc-history-task-form.md) for more information.
+Click on a skipped record in the VTB to update the task. See [Upgrade History Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-center/uc-history-task-form.md) for more information.
 

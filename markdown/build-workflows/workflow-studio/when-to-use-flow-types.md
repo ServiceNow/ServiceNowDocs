@@ -2,6 +2,7 @@
 title: Types of flows and when to use them
 description: A decision matrix and basic definitions help you determine what type of flows to create.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/when-to-use-flow-types.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -46,5 +47,5 @@ Contrary to the name, Dynamic Flow is a type of flow logic, not a type of flow.
 |You want to avoid the limit of 10 items in the error-handling-process|A subflow|
 |You want to use subflow outputs to trigger automation in other flows|A subflow|
 
-**Parent Topic:**[Flows, subflows, and actions reference](flow-designer-reference.md)
+**Parent Topic:**[Flows, subflows, and actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-designer-reference.md)
 

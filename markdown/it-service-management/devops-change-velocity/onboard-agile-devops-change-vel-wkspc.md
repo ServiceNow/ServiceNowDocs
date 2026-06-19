@@ -2,11 +2,12 @@
 title: Onboard Agile Development 2.0 to DevOps Change Velocity — Workspace
 description: Connect to your Agile Development 2.0 instance using the DevOps Change Workspace playbook to enable tracking of stories and epics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/onboard-agile-devops-change-vel-wkspc.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Agile Development 2.0, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -17,9 +18,9 @@ Connect to your Agile Development 2.0 instance using the DevOps Change Workspace
 
 ## Before you begin
 
-Complete the tasks specified in the [Getting started with DevOps Change Velocity](../concept/setting-up-devops-change-velocity.md) topic.
+Complete the tasks specified in the [Getting started with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md) topic.
 
-Activate the Agile Development 2.0 plugin. For more information, see [Activate Agile Development 2.0](https://www.servicenow.com/docs/access?context=activate-agile-development&version=zurich&pubname=zurich-it-business-management&ft:locale=en-US).
+Activate the Agile Development 2.0 plugin. For more information, see .
 
 Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
@@ -27,15 +28,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Agile Development 2.0.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d427182e107">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d414000e106">
 
 Option
 
-</th><th align="left" id="d427182e110">
+</th><th align="left" id="d414000e109">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d427182e116">
+</th></tr></thead><tbody><tr><td id="d414000e115">
 
 **Homepage**
 
@@ -45,25 +46,25 @@ Steps
 2.  On the  Connect to a tool  modal, select Agile Development 2.0 from the **Plan** category.
 
 
-</td></tr><tr><td id="d427182e143">
+</td></tr><tr><td id="d414000e142">
 
 **Applications module**
 
 </td><td>
 
-1.  Select **Applications** \(![Applications icon.](../image/applications-icon.png)\) from the primary navigation.
-2.  Select an existing application, or create one. To create an application, see [Create an application - Workspace](app-create-workspace.md).
+1.  Select **Applications** \(\[Omitted image "applications-icon.png"\] Alt text: Applications icon.\) from the primary navigation.
+2.  Select an existing application, or create one. To create an application, see [Create an application - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/app-create-workspace.md).
 3.  From the  Recommended actions  pane, select the  **Connect a tool ** card.
 4.  On the  Connect to a tool  modal, select Agile Development 2.0 from the **Plan** category.
 
 
-</td></tr><tr><td id="d427182e195">
+</td></tr><tr><td id="d414000e194">
 
 **Tools module**
 
 </td><td>
 
-1.  Select **Tools** \(![Tools icon.](../image/tools-icon-wkspc.png)\) from the primary navigation.
+1.  Select **Tools** \(\[Omitted image "tools-icon-wkspc.png"\] Alt text: Tools icon.\) from the primary navigation.
 2.  From the Capability list, select **Planning**.
 3.  Select **Connect a tool**.
 4.  On the  Connect to a tool  modal, select **Agile Development 2.0**.
@@ -74,7 +75,7 @@ Steps
 
 2.  In the **Tool name** field, enter a name for the tool.
 
-    ![Connect to Agile Development 2.0](../image/agile2-plybk-03.png)
+    \[Omitted image "agile2-plybk-03.png"\] Alt text: Connect to Agile Development 2.0
 
 3.  Select **Next**.
 
@@ -82,7 +83,7 @@ Steps
 
 4.  Select **Connect**.
 
-    ![Connect Agile Development 2.0.](../image/agile2-plybk-01.png)
+    \[Omitted image "agile2-plybk-01.png"\] Alt text: Connect Agile Development 2.0.
 
 5.  Specify the access for the tool.
 
@@ -101,7 +102,7 @@ Steps
         This option enables all users having the DevOps App Owner role to access the tool. If selected, they’ll be able to view, associate, discover, import historical data, and modify pipeline steps \(if applicable\) of the tool's objects.
 
     3.  Select **Assign**.
-    ![Specify the tool access](../image/agile2-plybk-04.png)
+    \[Omitted image "agile2-plybk-04.png"\] Alt text: Specify the tool access
 
     **Important:**
 
@@ -111,7 +112,7 @@ Steps
 
     If you don’t choose to select plans now, you can enable nightly polling later to fetch the data for any tracked plans by setting the **Enable Polling** system property to **Yes**.
 
-    ![Track work items from Agile Development 2.0.](../image/agile2-plybk-02.png)
+    \[Omitted image "agile2-plybk-02.png"\] Alt text: Track work items from Agile Development 2.0.
 
 7.  If you want to import plan data, select the date range and select **Submit**.
 
@@ -119,12 +120,12 @@ Steps
 
 8.  From the **Summary** page, select **View tool record** to review the details of the connected instance and the plans discovered from it.
 
-    ![Connection summary](../image/agile2-plybk-05.png)
+    \[Omitted image "agile2-plybk-05.png"\] Alt text: Connection summary
 
 
 ## Result
 
 You’ve successfully onboarded your Agile Development 2.0 tool to DevOps Change Velocity.
 
-**Parent Topic:**[Agile Development 2.0 integration with DevOps Change Velocity](../concept/agile-integration-dev-ops.md)
+**Parent Topic:**[Agile Development 2.0 integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/agile-integration-dev-ops.md)
 

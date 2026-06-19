@@ -2,6 +2,7 @@
 title: Run a planned work schedule on demand
 description: Planned work schedules mainly run using the Planned Maintenance Nightly Run scheduled job. However, you can make the schedule to run immediately or change the date when a schedule should run, if needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/run-work-schedule-on-demand.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

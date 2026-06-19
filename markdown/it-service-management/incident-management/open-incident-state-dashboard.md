@@ -2,6 +2,7 @@
 title: Legacy: Open Incident State Monitor dashboard
 description: View average age and number of reassignments and breakdown incidents in the New, In Progress, and On Hold states.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/open-incident-state-dashboard.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -17,9 +18,9 @@ View average age and number of reassignments and breakdown incidents in the New,
 
 **Important:**
 
-Starting in Xanadu release, the Open Incident State Monitor dashboard is deprecated. Users can use [Incident management dashboard](performance-analytics/incident.md) to view the average age and number of reassignments and breakdown incidents in the New, In Progress, and On Hold states.
+Starting in Xanadu release, the Open Incident State Monitor dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident.md) to view the average age and number of reassignments and breakdown incidents in the New, In Progress, and On Hold states.
 
-![Open Incident State Monitor workbench widget](../image/open-incident-state-monitor.png "Open Incident State Monitor")
+\[Omitted image "open-incident-state-monitor.png"\] Alt text: Open Incident State Monitor workbench widget
 
 ## End user and roles
 
@@ -64,5 +65,5 @@ The following indicators are not shown directly on the dashboard but are used in
 -   Assignment Group
 -   State
 
-**Parent Topic:**[Legacy: Incident Management Platform Analytics Solutions](incident-content-pack.md)
+**Parent Topic:**[Legacy: Incident Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/incident-content-pack.md)
 

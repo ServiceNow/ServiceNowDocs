@@ -2,6 +2,7 @@
 title: Grant delegated developer permissions for managing sequences
 description: Assign delegated developer roles to designated Customer Engagement Sequences users so they can create and manage sequences without needing a system admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/grant-delegated-developer-permissions.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -26,6 +27,6 @@ Role required: admin
     -   sn\_crm\_sequence.admin
     -   sn\_crm\_sequence.writer
     -   pd\_author or playbook.admin \(for version 1.0.0.\)
-    For more information, see [Exploring Delegated Development](https://www.servicenow.com/docs/access?context=c_DelegatedDevelopment&version=zurich&pubname=zurich-application-development&ft:locale=en-US) and [Developer permissions](https://www.servicenow.com/docs/access?context=developer-permissions&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+    For more information, see  and .
 
 

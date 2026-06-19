@@ -2,6 +2,7 @@
 title: Disable password-less authentication
 description: Use the glide.login.no\_blank\_password property to prevent users from logging into the NOW platform with blank passwords, or by leaving the Password field empty.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-disable-password-less-authentication.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -29,5 +30,5 @@ Even if the admin purposefully assigns an empty value or blank password in user 
 |Functional impact|Operations should not use blank passwords because it is viewed as a critical security risk. However, if there is a valid case for such usage, there is a possibility of an outage. Users with blank passwords wouldn't be able to log in to the instance.|
 |Security risk|\(High\) An attacker is able to log in to the instance with the default usernames, or by specific individual/group \(usually firstname.lastname\) without any password. Doing so is viewed as a critical security risk, because it would enable a public user to violate the confidentiality and integrity of the instance data.|
 
-**Parent Topic:**[Authentication](sc-authentication.md)
+**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

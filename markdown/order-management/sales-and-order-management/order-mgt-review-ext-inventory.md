@@ -2,6 +2,7 @@
 title: Review the external product inventory details for a customer order
 description: Review the external inventory details of the customer orders that you’ve received from the external Configure, Price, and Quote \(CPQ\) system during the order capture process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/order-mgt-review-ext-inventory.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,7 +24,7 @@ Role required: order\_approver, order\_viewer, sn\_ind\_tmt\_orm.order\_fulfillm
 
 1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Customer Orders** &gt; **All**.
 
@@ -91,8 +92,8 @@ During the inflight order changes, the state of the external product inventory I
     |Action|Description|
     |------|-----------|
     |**Save the external product inventory details**|Select **Save**.|
-    |**Delete the external product inventory details**|Select the options icon ![](../image/more-options.png) next to the **Save** button, and then select **Delete**.|
+    |**Delete the external product inventory details**|Select the options icon \[Omitted image "more-options.png"\] Alt text: next to the **Save** button, and then select **Delete**.|
 
 
-**Parent Topic:**[External product inventory ID](../concept/ext-inventory-id.md)
+**Parent Topic:**[External product inventory ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/ext-inventory-id.md)
 

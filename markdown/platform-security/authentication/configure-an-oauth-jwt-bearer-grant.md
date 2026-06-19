@@ -2,6 +2,7 @@
 title: Configure an OAuth JSON web token bearer grant
 description: Configuring an OAuth JSON Web Token \(JWT\) bearer grant secures token-based authentication without user interaction. It enhances security with signed JWTs and reduces authentication overhead by eliminating repeated login attempts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/configure-an-oauth-jwt-bearer-grant.html
 release: zurich
 product: Authentication
 classification: authentication

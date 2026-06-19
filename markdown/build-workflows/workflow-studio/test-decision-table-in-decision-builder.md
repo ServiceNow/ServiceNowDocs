@@ -2,6 +2,7 @@
 title: Test a decision table in Workflow Studio
 description: Test your decision table in Workflow Studio before publishing to make sure the rules provide the desired outcome for a given set of input data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/test-decision-table-in-decision-builder.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -46,5 +47,5 @@ Role required: admin, decision\_table\_admin, decision\_table\_reader, Change ma
 
 The results of the test are displayed, showing either no results or one or all of the decisions where your input data matches the conditions. You can run additional tests on the table by changing the test parameters and inputs, and selecting **Test** again.
 
-**Parent Topic:**[Using decision tables](../concept/using-decision-builder.md)
+**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/using-decision-builder.md)
 

@@ -2,6 +2,7 @@
 title: Interaction wrap up timer
 description: The interaction wrap up timer displays a countdown of the wrap up duration period in CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/interaction-management/interaction-wrap-up-timer.html
 release: zurich
 product: Interaction Management
 classification: interaction-management
@@ -30,5 +31,5 @@ The timer counts down the amount of time specified in the **Duration in seconds*
 |Orange|Time remaining is between 25% and 0% of duration.|
 |Red|When the timer reaches 0.00, the display turns red and then disappears. The system updates the state of the interaction record to Closed Complete.|
 
-**Parent Topic:**[Interaction wrap up](interaction-wrap-up-state.md)
+**Parent Topic:**[Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/interaction-management/interaction-wrap-up-state.md)
 

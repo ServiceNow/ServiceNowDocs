@@ -2,6 +2,7 @@
 title: Open floor map from an incident or alert
 description: Open datacenter floor map from an incident or alert in Service Operations Workspace for Telecommunications Network Inventory. You can view the affected hardware details in the floor map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/open-floor-map-incident-alert.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -23,7 +24,7 @@ Role required: sn\_ni\_core.dc\_ops\_agent
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/ni-workspace-list-icon.png)\), and then go to **Incidents** &gt; **All**.
+2.  Select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List icon.\), and then go to **Incidents** &gt; **All**.
 
     To open an alert, go to **Alerts** &gt; **All**
 
@@ -36,5 +37,5 @@ Role required: sn\_ni\_core.dc\_ops\_agent
 
 The floor map opens and the affected hardware is highlighted. If the issue is related to a rack or cabinet, then the Rack view also opens in the floor map.
 
-**Parent Topic:**[Floor map](../concept/using-floor-map.md)
+**Parent Topic:**[Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.md)
 

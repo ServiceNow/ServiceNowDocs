@@ -2,6 +2,7 @@
 title: Okta integration for new hire onboarding
 description: Automatically provision relevant applications for new hires as part of the onboarding process with the Okta integration. This integration requires the Okta spoke v1.1.1 in IntegrationHub, and is configured to work with the lifecycle event for new hire onboarding that is included as demo data with the Human Resources Scoped App: Lifecycle Events for Enterprise \[com.sn\_hr\_lifecycle\_ent\] plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-journey-management/integrating-with-okta-service.html
 release: zurich
 product: Employee Journey Management
 classification: employee-journey-management
@@ -17,7 +18,7 @@ Automatically provision relevant applications for new hires as part of the onboa
 
 ## Setting up the Okta integration
 
-To set up the Okta integration for new hire onboarding, you must first set up the Okta spoke v1.1.1, next fetch the Okta groups into your instance, and last configure the relevant business roles. For details on how to set up the integration, see [Set up the Okta integration for new hire onboarding](../task/set-up-okta-integration-for-new-hire-onboarding.md).
+To set up the Okta integration for new hire onboarding, you must first set up the Okta spoke v1.1.1, next fetch the Okta groups into your instance, and last configure the relevant business roles. For details on how to set up the integration, see [Set up the Okta integration for new hire onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-journey-management/set-up-okta-integration-for-new-hire-onboarding.md).
 
 ## Using the Okta integration with new hire onboarding
 
@@ -37,8 +38,8 @@ The application provisioning process works as follows. When an onboarding case i
 
 **Important:** New hires must have a user record in the Okta system in order for their applications to be provisioned to them.
 
--   **[Set up the Okta integration for new hire onboarding](../task/set-up-okta-integration-for-new-hire-onboarding.md)**  
+-   **[Set up the Okta integration for new hire onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-journey-management/set-up-okta-integration-for-new-hire-onboarding.md)**  
 To set up the Okta integration for new hire onboarding, you must first set up the Okta spoke v1.1.1, next fetch the Okta groups into your instance, and last configure the required business roles.
 
-**Parent Topic:**[Lifecyle events for enterprise integrations](onbrd-trans-integrations.md)
+**Parent Topic:**[Lifecyle events for enterprise integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-journey-management/onbrd-trans-integrations.md)
 

@@ -2,6 +2,7 @@
 title: Passing context variables to Live Agent and Virtual Agent chat
 description: You can pass chat context variables when starting a chat session by passing the contextData parameter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/developer-guides/mobsdk-ios-pass-con-variables.html
 release: zurich
 product: Developer Guides
 classification: developer-guides
@@ -15,9 +16,9 @@ breadcrumb: [Implement Virtual and Live Agent chat, Mobile SDK Developer Guide -
 
 You can pass chat context variables when starting a chat session by passing the **contextData** parameter.
 
-You can pass this value using the [NowChatService - startChat\(contextData: \[String: Any\]? = nil, \_ completion: @escaping \(Result&lt;Void, NowChatServiceError&gt;\) -&gt; Void\)](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowChatService/concept/NowChatServiceiOSAPI.md#) functions.
+You can pass this value using the [NowChatService - startChat\(contextData: \[String: Any\]? = nil, \_ completion: @escaping \(Result&lt;Void, NowChatServiceError&gt;\) -&gt; Void\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowChatServiceiOSAPI.md) functions.
 
-For additional information on chat context variables, see [Live agent chat context variables](https://www.servicenow.com/docs/access?context=live-agent-chat-context-vars&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+For additional information on chat context variables, see .
 
 In addition, you can also pass an optional **NowChatConfiguration** parameter when starting a chat session to modify some of the behavior of NowChat.
 

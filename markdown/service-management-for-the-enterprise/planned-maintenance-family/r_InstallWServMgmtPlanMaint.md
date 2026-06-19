@@ -2,6 +2,7 @@
 title: Installed with SM Planned Maintenance
 description: The SM Planned Maintenance core plugin also includes demo data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/service-management-for-the-enterprise/planned-maintenance-family/r\_InstallWServMgmtPlanMaint.html
 release: zurich
 product: Planned Maintenance \(Family\)
 classification: planned-maintenance-family
@@ -263,5 +264,5 @@ Updates the business rule for applying a plan to new records whenever the **Appl
 |--------------|-----------|
 |Planned Maintenance Nightly Run|Builds maintenance requests based on active maintenance plans.|
 
-**Parent Topic:**[Activate Planned Maintenance](../task/t_ActivatePlanMaint.md)
+**Parent Topic:**[Activate Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-management-for-the-enterprise/planned-maintenance-family/t_ActivatePlanMaint.md)
 

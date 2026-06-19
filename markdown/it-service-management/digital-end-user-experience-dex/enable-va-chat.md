@@ -2,6 +2,7 @@
 title: Enable Virtual Agent or chat
 description: Enable Virtual Agent to find solutions to your queries quickly and seamlessly, without having to wait on hold or speak with an agent by phone.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/enable-va-chat.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -27,14 +28,14 @@ Role required: sn\_dex\_desktop.admin
 
 2.  On the Desktop Assistant page, select the **Virtual agent enabled** check box.
 
-    For information on how to configure Virtual Agent, see [Configuring Virtual Agent](https://www.servicenow.com/docs/access?context=configure-virtual-agent&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+    For information on how to configure Virtual Agent, see .
 
 3.  Select **Update**.
 
-    The Virtual Agent or chat icon ![](../image/icon-virtual-agent.png) appears on the Desktop Assistant header.
+    The Virtual Agent or chat icon \[Omitted image "icon-virtual-agent.png"\] Alt text: appears on the Desktop Assistant header.
 
-4.  To open the chat window, select the Virtual Agent or chat icon ![](../image/icon-virtual-agent.png) from the Desktop Assistant header.
+4.  To open the chat window, select the Virtual Agent or chat icon \[Omitted image "icon-virtual-agent.png"\] Alt text: from the Desktop Assistant header.
 
-    For information on how to configure chat branding, see [Set up your Virtual Agent bot's branding](https://www.servicenow.com/docs/access?context=ac-configure-chat-branding&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+    For information on how to configure chat branding, see .
 
 

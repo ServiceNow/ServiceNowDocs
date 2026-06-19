@@ -2,6 +2,7 @@
 title: Secure and protect a processor
 description: You can protect your processor against unauthorized use by using role restrictions, and protect it by requiring a CSRF token.You can protect a processor by requiring a CSRF token.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/t\_SecureAProcessor.html
 release: zurich
 product: Scripts
 classification: scripts
@@ -17,7 +18,7 @@ You can protect your processor against unauthorized use by using role restrictio
 
 ## About this task
 
-**Note:** This feature is deprecated. While legacy, existing custom processors continue to be supported, creating new custom processors has been deprecated. Instead, use the [Scripted REST APIs](../../../integrate/custom-web-services/concept/c_CustomWebServices.md).
+**Note:** This feature is deprecated. While legacy, existing custom processors continue to be supported, creating new custom processors has been deprecated. Instead, use the [Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 You can re-use a table's user role restrictions to protect it from access by your processor. This protection method assumes the processor will access table data.
 
@@ -52,7 +53,7 @@ You can re-use a table's user role restrictions to protect it from access by you
 5.  Click **Update**.
 
 
-**Parent Topic:**[Processors](../concept/c_Processors.md)
+**Parent Topic:**[Processors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_Processors.md)
 
 ## Protect a processor with a CSRF token
 
@@ -72,4 +73,9 @@ Script type processors can require a CSRF token check before the processor runs.
 
 4.  Click **Update**.
 
+
+**Related topics**  
+
+
+[bundle-platadm.t_AssignARoleToAUser]
 

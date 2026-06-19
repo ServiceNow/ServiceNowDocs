@@ -2,6 +2,7 @@
 title: Add a flexible service to workplace item
 description: Enable employees to request for extra services. Add an extra service to a workplace space or room, and make the service available to employees when they make a reservation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-reservation-management/add-flex-service-to-workplace-item.html
 release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -17,11 +18,11 @@ Enable employees to request for extra services. Add an extra service to a workpl
 
 ## Before you begin
 
-Make sure you have already created a flexible service. See [Create a flexible service](add-flexible-service.md).
+Make sure you have already created a flexible service. See [Create a flexible service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/add-flexible-service.md).
 
 **Warning:** Starting with Workplace Reservation Management version 2.1.2, The Flexible Services related list is no longer available. If you have installed Workplace Reservation Management version 2.1.2 or above directly \(as a first time user\), there will be no impact and the following conditions does not apply to you.
 
-After upgrading, the flexible services are available as Workplace Service Items. To view the available workplace service items, view the Workplace Service Items related list. To add a workplace service item to the workplace space/room, open the Workplace Service and select the Workplace Service Item. After you open the Workplace Service Item record, add the workplace in the Workplace Service Item Locations related list. For more information, refer to [Make a workplace service item available to a workplace location](../../workplace-case-mgmt/task/add-workplace-service-item-to-workplace-locs.md).
+After upgrading, the flexible services are available as Workplace Service Items. To view the available workplace service items, view the Workplace Service Items related list. To add a workplace service item to the workplace space/room, open the Workplace Service and select the Workplace Service Item. After you open the Workplace Service Item record, add the workplace in the Workplace Service Item Locations related list. For more information, refer to [Make a workplace service item available to a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-case-management/add-workplace-service-item-to-workplace-locs.md).
 
 Role required: sn\_wsd\_rsv.admin
 
@@ -47,7 +48,7 @@ Configure flexible services and add them to a workplace space or room. When an e
 
     2.  To move the service to the **Flexible Services List** column on the right, use the add-remove icon.
 
-        ![Add-remove icon.](../image/add-remove-icon.png)
+        \[Omitted image "add-remove-icon.png"\] Alt text: Add-remove icon.
 
 6.  Click **Save**.
 
@@ -56,5 +57,5 @@ Configure flexible services and add them to a workplace space or room. When an e
 
 The flexible service is added to the selected workplace space or room.
 
-**Parent Topic:**[Create a flexible service](add-flexible-service.md)
+**Parent Topic:**[Create a flexible service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/add-flexible-service.md)
 

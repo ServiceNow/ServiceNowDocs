@@ -2,6 +2,7 @@
 title: Modify the attributes and relationships required for application services
 description: Modify the lists of attributes and relationships that are required when creating application services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/modify-req-fields-appservice.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

@@ -2,6 +2,7 @@
 title: Review the active notifications for Microsoft Teams
 description: The notifications added by ServiceNow for Microsoft Teams, might duplicate existing notifications in your instance. Review and disable any duplicate notifications to avoid notifying users multiple times for the same event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/disable-notifications-teams.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -54,5 +55,5 @@ You will find the following duplicate notifications after installing the IT Serv
 
 Leave a comment on an incident record, only one notification appears about the comment in Microsoft Teams.
 
-**Parent Topic:**[Configure IT Service Management integration with Microsoft Teams](../concept/sn-ms-teams-config-it.md)
+**Parent Topic:**[Configure IT Service Management integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/sn-ms-teams-config-it.md)
 

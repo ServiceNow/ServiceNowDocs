@@ -2,11 +2,12 @@
 title: Installed with DEX
 description: Several types of components are installed with activation of the DEX application \[sn\_dex\] plugin, including user roles and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/components-installed-with-dex.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Service Management]
 ---
@@ -155,8 +156,8 @@ CI Device Configuration\[dex\_ci\_device\_config\]
 
 </td><td>
 
-Table that stores the device configuration data including the logged-in user information.For information on the related policies and check definitions, see [DEX Content Playbook reference](dex-content-playbook-reference.md).
+Table that stores the device configuration data including the logged-in user information.For information on the related policies and check definitions, see [DEX Content Playbook reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dex-content-playbook-reference.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DEX Application and Device Health reference](dex-console-reference.md)
+</table>**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
 

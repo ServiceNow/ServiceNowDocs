@@ -2,6 +2,7 @@
 title: Configure Hiring
 description: Set up the Hiring tab in the Manager Hub to empower the hiring managers to make quality hires. Create a seamless process and easy communication with the recruiter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/config-hiring.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,11 +16,11 @@ breadcrumb: [Configure, Hiring tab, Hiring Experiences, HR Service Delivery, Emp
 
 Set up the Hiring tab in the Manager Hub to empower the hiring managers to make quality hires. Create a seamless process and easy communication with the recruiter.
 
-Set up the Recommended for you section to add and view hiring content easily. For more information on setting up Recommended for you, see [Recommended for you](../../employee-center/concept/rfy-ec.md).
+Set up the Recommended for you section to add and view hiring content easily. For more information on setting up Recommended for you, see [Recommended for you](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/rfy-ec.md).
 
-Enable Now Assist Q&amp;A Genius Results to generate answers from articles most relevant to the search query. For more information, see [Enabling Now Assist Q&amp;A Genius Results](https://www.servicenow.com/docs/access?context=enabling-now-assist-qa-grs&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Enable Now Assist Q&amp;A Genius Results to generate answers from articles most relevant to the search query. For more information, see .
 
-Customize the job requisition form fields according to your organizational requirements. For more information, see [Create or edit a catalog item](https://www.servicenow.com/docs/access?context=t_DefineACatalogItem&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+Customize the job requisition form fields according to your organizational requirements. For more information, see .
 
-**Parent Topic:**[Configuring Hiring](configuring-hiring-tab.md)
+**Parent Topic:**[Configuring Hiring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configuring-hiring-tab.md)
 

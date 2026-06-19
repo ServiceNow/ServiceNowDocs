@@ -2,6 +2,7 @@
 title: About provision modes in Cloud Account Management
 description: Cloud Account Management supports both Terraform \(Cloud and Enterprise\) and cloud native interface provision modes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/about-provision-modes.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
@@ -24,5 +25,5 @@ Terraform templates are configuration files that specify the infrastructure reso
 
 An AWS or Azure admin creates the IAM user with the specified permissions, and the Cloud Account Management admin enters the credentials of the IAM user into the ServiceNow instance. No additional steps are required for users to access the cloud native interface.
 
-![Terraform and cloud native interface support in a Cloud Account Management instance](../image/terraform.png "Cloud Account Management provision modes")
+\[Omitted image "terraform.png"\] Alt text: Terraform and cloud native interface support in a Cloud Account Management instance
 

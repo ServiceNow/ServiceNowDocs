@@ -2,6 +2,7 @@
 title: Cost Avoidance YTD metric calculation
 description: Cost Avoidance YTD measures the costs that were prevented through pipeline projects during the current calendar year. Unlike hard savings, which reflect a direct reduction in spend, cost avoidance captures expenditures that were not incurred.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-cost-avoidance-ytd.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -92,5 +93,5 @@ The final aggregation sums the prorated values:
 |PIPE-102|$90,000.00|
 |**Total Cost Avoidance YTD**|**$240,684.93**|
 
-**Parent Topic:**[Pipeline management tab](pipeline-mgmt-tab.md)
+**Parent Topic:**[Pipeline management tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-mgmt-tab.md)
 

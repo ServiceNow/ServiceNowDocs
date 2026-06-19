@@ -2,6 +2,7 @@
 title: Data collected by Discovery on storage devices
 description: Discovery identifies and classifies information about storage devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/r\_DataCollDiscoStorageDevices.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -85,5 +86,5 @@ Discovery creates the following relationships for storage CIs running on Network
 |----------------|------------|---------------|
 |NAS File System \[cmdb\_ci\_nas\_file\_system\]|Allocated from::Allocated to|Storage File Share \[cmdb\_ci\_storage\_fileshare\]|
 
-**Parent Topic:**[Storage Discovery via SMI-S and CIM](r_DataCollDiscoStorageviaSMISCIM.md)
+**Parent Topic:**[Storage Discovery via SMI-S and CIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/r_DataCollDiscoStorageviaSMISCIM.md)
 

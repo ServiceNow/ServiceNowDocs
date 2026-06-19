@@ -2,6 +2,7 @@
 title: Supporting information for Now Assist in Document Intelligence
 description: Get a quick overview of the important information that is related to the Now Assist in Document Intelligence application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-in-document-intelligence/supporting-information-now-assist-document-intelligence.html
 release: zurich
 product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
@@ -29,11 +30,11 @@ Now Assist in Document Intelligence is supported starting with Yokohama \(Patch 
 
 The Now Assist in Document Intelligence application is supported for the Document Intelligence workspace.
 
-For more information, see [Document Intelligence workspace with Now Assist](document-intelligence-workspace-with-now-assist.md).
+For more information, see [Document Intelligence workspace with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-in-document-intelligence/document-intelligence-workspace-with-now-assist.md).
 
 ## Supported languages
 
-Now Assist in Document Intelligence supports text in multiple languages. For information on supported languages, see [Languages supported by Now Assist in Document Intelligence](../reference/languages-supported-now-assist-document-intelligence.md).
+Now Assist in Document Intelligence supports text in multiple languages. For information on supported languages, see [Languages supported by Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-in-document-intelligence/languages-supported-now-assist-document-intelligence.md).
 
 ## Application information
 
@@ -47,5 +48,5 @@ This store app has the following dependencies:
 -   Now Assist for Platform \(sn\_genai\_platform\)
 -   Document Intelligence \(sn\_docintel\)
 
-For more information, see [Configuring Now Assist in Document Intelligence](docintel-configuring-now-assist.md).
+For more information, see [Configuring Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-in-document-intelligence/docintel-configuring-now-assist.md).
 

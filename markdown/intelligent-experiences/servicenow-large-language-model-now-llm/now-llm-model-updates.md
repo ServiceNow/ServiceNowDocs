@@ -2,12 +2,13 @@
 title: Now LLM Service updates
 description: The Now LLM Service provides access to specialized large language models \(LLMs\) that are developed by ServiceNow. It also provides access to open-source LLMs that are selected, configured, or enhanced by ServiceNow, from the ServiceNow community and partners. Review these reference materials and model cards for additional information about the Now LLM Service and about the models used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/servicenow-large-language-model-now-llm/now-llm-model-updates.html
 release: zurich
 product: ServiceNow Large Language Model \(Now LLM\)
 classification: servicenow-large-language-model-now-llm
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-05-27"
+reading_time_minutes: 6
 keywords: [model card, Now LLM Service, LLM, Large language model, Generative AI, Gen AI, Now Assist]
 breadcrumb: [Large language models on the ServiceNow AI Platform, Enable AI experiences]
 ---
@@ -65,6 +66,23 @@ These model cards are for skills that use the Now LLM Service. There are certain
     This model is designed to ingest a conversation and predict a CSAT score as well as factors that explain the predicted score.
 
 
+## June 2026
+
+The June release includes updates to third-party model defaults, a change to the default reasoning effort setting for GPT-5 Mini, and the retirement of the Now LLM long-term support \(LTS\) SKU.
+
+-   Third-party default model version update: Teams that did not update their third-party default model versions to the latest available versions in the May release must do so in the June release. GAIC 13.1.2 is the required version for this update.
+
+-   GPT-5 Mini — `reasoning_effort` default change: The default `reasoning_effort` setting for GPT-5 Mini has changed from `none` to `minimal`. This change is included in GAIC Snapshot 14.0.0, which is compatible with Now Assist for Platform 12.0.0.
+
+    Teams using GPT-5 Mini should run regression and functional testing to confirm that the new default works as expected. If you explicitly set `reasoning_effort` in your generative AI config additional properties, smoke test to verify there are no unexpected effects. If you have `reasoning_effort: none` set in additional properties, update the value to `minimal` and run regression and functional testing.
+
+-   Claude Sonnet 4.0 retirement: Claude Sonnet 4.0 references are being redirected on the backend. No team action is required.
+
+    -   `claude_large` / Claude 4.0 Sonnet redirects to Claude 4.5 Sonnet
+    -   `claude_small` / Claude 4.0 Sonnet redirects to Claude 4.5 Sonnet
+-   Now LLM LTS SKU retired: ServiceNow no longer offers the LTS model SKU. There are no testing requirements or expectations for teams related to this retirement.
+
+
 ## May 2025
 
 An advanced 12B general-purpose small language model \(SLM\) with a singular, high-performance architecture that supports a wide range of tasks in ServiceNow’s context was released. Fine-tuned on Mistral-Nemo-12B-Instruct, this model is designed and optimized for tasks like Agent Assist, Text-to-Flow, Text-to-Cypher, Safety &amp; Content Moderation and Text-to-Code.
@@ -103,5 +121,5 @@ Several key improvements were added to the Now LLM Service that are aimed at enh
     -   Lower token consumption: The fixed structure of JSON can reduce token usage, making it more efficient and cost-effective for applications with high response frequency.
 -   Improvements in instruction following: The model has been fine-tuned to understand and follow instructions more precisely. This enables the model to deliver more to-the-point and actionable responses, helping users get the information they need faster and more efficiently.
 
-**Parent Topic:**[Large language models on the ServiceNow AI Platform](../../general/concept/exploring-large-language-models.md)
+**Parent Topic:**[Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md)
 

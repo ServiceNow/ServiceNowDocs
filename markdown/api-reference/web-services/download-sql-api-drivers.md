@@ -2,6 +2,7 @@
 title: Download the SQL API drivers on client machine
 description: Download the ODBC and JDBC drivers from the ServiceNow store to your client machine to enable SQL API connectivity.
 locale: en-us
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/download-sql-api-drivers.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -48,8 +49,8 @@ The SQL API drivers are now downloaded to your client machine and ready for inst
 
 After downloading the drivers, proceed to install and configure them on your client machine.
 
--   For ODBC driver installation, see [Install ServiceNow SQL API ODBC driver on client machine](install-odbc-driver.md).
--   For JDBC driver configuration, see [Configure ServiceNow SQL API JDBC driver on client machine](configure-jdbc-driver.md).
+-   For ODBC driver installation, see [Install ServiceNow SQL API ODBC driver on client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/install-odbc-driver.md).
+-   For JDBC driver configuration, see [Configure ServiceNow SQL API JDBC driver on client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configure-jdbc-driver.md).
 
-**Parent Topic:**[Configuring SQL API](../concept/configuring-sql-api.md)
+**Parent Topic:**[Configuring SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configuring-sql-api.md)
 

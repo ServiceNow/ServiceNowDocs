@@ -2,6 +2,7 @@
 title: Update a roadmap milestone
 description: Update or delete the milestones that you added to your portfolio plan or free-form roadmap so that they reflect any change of plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/update-roadmap-milestone-in-portfolio-planning.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -18,7 +19,7 @@ Update or delete the milestones that you added to your portfolio plan or free-fo
 
 ## Before you begin
 
-[Add milestones for roadmap](add-milestones-for-roadmap-portfolio-planning.md).
+[Add milestones for roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/add-milestones-for-roadmap-portfolio-planning.md).
 
 Role required: sn\_align\_core.apw\_user
 
@@ -26,15 +27,15 @@ Role required: sn\_align\_core.apw\_user
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d62075e99">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d64804e99">
 
 Roadmap type
 
-</th><th align="left" id="d62075e102">
+</th><th align="left" id="d64804e102">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d62075e108">
+</th></tr></thead><tbody><tr><td id="d64804e108">
 
 **Portfolio plan roadmap**
 
@@ -44,7 +45,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d62075e129">
+</td></tr><tr><td id="d64804e129">
 
 **Free-form roadmap**
 
@@ -55,7 +56,7 @@ From the Free-form Roadmaps tab, select a roadmap.
 </td></tr></tbody>
 </table>2.  To reschedule a milestone, you can drag and drop it at a timeline area of your choice.
 
-    ![GIF showing the drag and drop of a milestone in the milestone bar.](../../spw-roadmap/images/reschedule-milestone.gif)
+    \[Omitted image "reschedule-milestone.gif"\] Alt text: GIF showing the drag and drop of a milestone in the milestone bar.
 
     If you want to update other details or delete the milestone, proceed with the following steps.
 
@@ -67,12 +68,12 @@ From the Free-form Roadmaps tab, select a roadmap.
 
     -   To update, edit the field details and click **Save**.
 
-        For information on the form fields, see [Roadmap configuration form](../reference/roadmap-configuration-form.md).
+        For information on the form fields, see [Roadmap configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/roadmap-configuration-form.md).
 
     -   To delete the milestone, click **Delete.**
 
         Select **OK** to confirm.
 
 
-**Parent Topic:**[Add milestones for roadmap](add-milestones-for-roadmap-portfolio-planning.md)
+**Parent Topic:**[Add milestones for roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/add-milestones-for-roadmap-portfolio-planning.md)
 

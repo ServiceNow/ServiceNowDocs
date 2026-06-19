@@ -2,6 +2,7 @@
 title: Create a personal course collection
 description: Create personal collections to include the courses and paths that you would like to access easily.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/create-personal-collection.html
 release: zurich
 product: Learning Core
 classification: learning-core
@@ -23,7 +24,7 @@ Role required: user
 
 1.  Navigate to **All** &gt; **Employee Center** &gt; **My Learning**.
 
-2.  Select the context menu icon ![Context menu icon.](../../../administer/tablet-mobile-ui/image/context-menu-icon.png) on any course that is displayed on the screen.
+2.  Select the context menu icon \[Omitted image "context-menu-icon.png"\] Alt text: Context menu icon. on any course that is displayed on the screen.
 
 3.  Select **Save to collection**.
 

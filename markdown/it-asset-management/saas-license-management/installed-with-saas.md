@@ -2,6 +2,7 @@
 title: Installed with SaaS License Management
 description: User roles and tables are installed with SaaS License Management. Demo data is available for the Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/saas-license-management/installed-with-saas.html
 release: zurich
 product: SaaS License Management
 classification: saas-license-management
@@ -41,5 +42,5 @@ User roles and tables are installed with SaaS License Management. Demo data is a
 |Subscription Usage Summary \[samp\_subscription\_usage\_summary\]|Software usage summary information including rights owned, rights assigned, stale rights, available rights, and cost.|
 |Unrecognized Subscription Identifiers \[samp\_sw\_unrecognized\_subscription\_identifier\]|List of subscription identifiers that are not associated with a software model.|
 
-**Parent Topic:**[Request SaaS License Management](../task/request-saas-license-management.md)
+**Parent Topic:**[Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md)
 

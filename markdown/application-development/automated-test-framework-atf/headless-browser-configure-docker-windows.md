@@ -2,6 +2,7 @@
 title: Configure Docker for Headless Browser setup in Microsoft Windows
 description: Configure Docker Server to authenticate all requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/headless-browser-configure-docker-windows.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -17,7 +18,7 @@ Configure Docker Server to authenticate all requests.
 
 ## Before you begin
 
-Complete Step 2: [Generate certificates for Headless Browser setup for Microsoft Windows](headless-browser-certificates-windows.md)
+Complete Step 2: [Generate certificates for Headless Browser setup for Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/headless-browser-certificates-windows.md)
 
 Role required: admin on your ServiceNow instance and local administrator on the host machine.
 
@@ -53,9 +54,9 @@ After creating your client and server keys, now you configure the Docker Server 
 4.  In administrator PowerShell, run `restart-service *docker*`
 
 
-**Parent Topic:**[Headless Browser setup for Microsoft Windows](../concept/headless-browser-procedure-windows.md)
+**Parent Topic:**[Headless Browser setup for Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/headless-browser-procedure-windows.md)
 
-**Previous topic:**[Generate certificates for Headless Browser setup for Microsoft Windows](headless-browser-certificates-windows.md)
+**Previous topic:**[Generate certificates for Headless Browser setup for Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/headless-browser-certificates-windows.md)
 
-**Next topic:**[Create the Docker image and containers for Headless Browser setup in Microsoft Windows](headless-browser-create-docker-image-containers-windows.md)
+**Next topic:**[Create the Docker image and containers for Headless Browser setup in Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/headless-browser-create-docker-image-containers-windows.md)
 

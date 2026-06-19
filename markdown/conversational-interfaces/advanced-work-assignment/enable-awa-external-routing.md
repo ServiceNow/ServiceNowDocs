@@ -2,6 +2,7 @@
 title: Enable external routing for queues
 description: Configure Advanced Work Assignment to route work items in the queue using external routing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/enable-awa-external-routing.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -17,7 +18,7 @@ Configure Advanced Work Assignment to route work items in the queue using extern
 
 ## Before you begin
 
-Verify that you have reviewed the functionality of external routing and configured the necessary APIs. For more information, see [External routing overview](../concept/awa-external-routing-overview.md).
+Verify that you have reviewed the functionality of external routing and configured the necessary APIs. For more information, see [External routing overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-external-routing-overview.md).
 
 Role required: awa\_external\_user
 
@@ -27,7 +28,7 @@ Role required: awa\_external\_user
 
 From Xanadu release, you can add the **External** field to the AWA queue form view. The **External** field is not available by default, but it is available with the installation of the External Routing Support plugin \(com.glide.awa-external\) in Xanadu release. The **External** field can be added to the queue UI form only when the plugin is installed in your instance.
 
-![Queue form displaying the External field to enable third-party routing.](../image/external-routing-ui.png "External third-party routing form")
+\[Omitted image "external-routing-ui.png"\] Alt text: Queue form displaying the External field to enable third-party routing.
 
 The installation of the External Routing Support plugin \(com.glide.awa-external\), adds demo data for the following:
 
@@ -42,7 +43,7 @@ The installation of the External Routing Support plugin \(com.glide.awa-external
 
 If External \(with external partner\) and internal AWA queues are mixed up with the respective service channel in an External Partner outbound payload-defined configuration, then a warning message is displayed.
 
-![Warning message displayed if there is a blended configuration when external routing is enabled.](../image/extrnl-route-blend-config-warn.png "Warning Message")
+\[Omitted image "extrnl-route-blend-config-warn.png"\] Alt text: Warning message displayed if there is a blended configuration when external routing is enabled.
 
 ## Procedure
 
@@ -59,7 +60,7 @@ If External \(with external partner\) and internal AWA queues are mixed up with 
 
     **Note:**
 
-    -   If the **External** field doesn't appear, select the update personalized list icon \(![Update personalized list icon](../../../common/image/gear.png)\) and add the **External** field to the screen.
+    -   If the **External** field doesn't appear, select the update personalized list icon \(\[Omitted image "gear.png"\] Alt text: Update personalized list icon\) and add the **External** field to the screen.
     -   If you don't want to use external routing, clear the **External** check box.
 4.  On the form, fill in the fields.
 
@@ -107,5 +108,5 @@ Unique application or integration identifier, which is used by the third-party r
 </table>5.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Advanced Work Assignment](installing-awa.md)
+**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

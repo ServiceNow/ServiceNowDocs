@@ -2,6 +2,7 @@
 title: Target automation script for benefit plans
 description: Use the predefined Benefit Plans script as a target source to automate the actual value of your targets from the benefit plans of relevant work items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/target-automation-script-benefit-plans-apw.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -43,5 +44,5 @@ else
     result = hasMonetary ? monetaryBenefitSum : nonMonetaryBenefitSum;
 ```
 
-**Parent Topic:**[Form field information for Strategic Planning](../../alignment-planner-workspace/reference/form-field-information-for-strategic-planning.md)
+**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
 

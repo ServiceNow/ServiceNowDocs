@@ -2,7 +2,10 @@
 title: Impact packages
 description: ServiceNow Impact packages comprise support tools, self-help resources, human-led engagements, discounts, and additional benefits made available to you depending on the level of Impact package procured.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/impact-packages.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -32,7 +35,7 @@ If you have purchased an Impact offering, the applicable Impact Package descript
 
 ## Accelerator consumption per Impact package
 
-Depending upon the Impact package that you have purchased, there’s an allotment of how many Accelerators from each sub-catalog that can be consumed consecutively. See [Accelerator catalog](../concept/accelerator-catalog.md) for additional information on Accelerators and sub-catalogs.
+Depending upon the Impact package that you have purchased, there’s an allotment of how many Accelerators from each sub-catalog that can be consumed consecutively. See [Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/accelerator-catalog.md) for additional information on Accelerators and sub-catalogs.
 
 The below consumption allocations apply to all variations \(for example, US PubSec, MSP Dedicated\) and versions \(for example, V3 &amp; V4\) of Impact packages, unless otherwise specified.
 
@@ -85,11 +88,11 @@ Managed Support
 
 -   Upgraded P1/P2 level issue initial target response times
 -   Additional SAM coverage on 1 instance
--   Five [Developer Support](../concept/developer-support.md) seats
+-   Five [Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/developer-support.md) seats
 
 </td></tr><tr><td>
 
-[Overview of Instance Observer](../concept/io-overview.md) Features
+[Overview of Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-overview.md) Features
 
 </td><td align="left">
 
@@ -102,11 +105,11 @@ Instance Observer Seats
 
 </td><td align="left">
 
-Ten Instance Observer seats, in addition to the procured Impact packageFor more information, see [Overview of Instance Observer](../concept/io-overview.md).
+Ten Instance Observer seats, in addition to the procured Impact packageFor more information, see [Overview of Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-overview.md).
 
 </td></tr><tr><td>
 
-[Preventive Care](../concept/preventive-care.md)
+[Preventive Care](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/preventive-care.md)
 
 </td><td align="left">
 

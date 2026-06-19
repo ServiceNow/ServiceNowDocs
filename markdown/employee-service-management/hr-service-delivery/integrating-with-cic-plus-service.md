@@ -2,6 +2,7 @@
 title: Integrating with the CIC Plus service
 description: Integrate with the CIC Plus service so that you can enable US-based new hires to provide relevant tax information as part of the onboarding process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/integrating-with-cic-plus-service.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,7 +20,7 @@ This integration assumes you are already integrated with a third-party identity 
 
 ## Setting up the CIC Plus integration
 
-To set up the CIC Plus integration, you must configure a SAML connection between your third-party identity provider \(IDP\) and CIC Plus accounts. Your CIC Plus partner must then set up your account to get employee profiles for US-based employees through the get\_usa\_employee\_profile REST endpoint, as well as verify that the callback is properly configured. Finally, you must configure the source credentials to include the login URL of the identity provider service you are using with the CIC Plus integration. For details on how to set up the CIC Plus integration, see [Set up the CIC Plus integration](../task/set-up-cic-plus-integration.md).
+To set up the CIC Plus integration, you must configure a SAML connection between your third-party identity provider \(IDP\) and CIC Plus accounts. Your CIC Plus partner must then set up your account to get employee profiles for US-based employees through the get\_usa\_employee\_profile REST endpoint, as well as verify that the callback is properly configured. Finally, you must configure the source credentials to include the login URL of the identity provider service you are using with the CIC Plus integration. For details on how to set up the CIC Plus integration, see [Set up the CIC Plus integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/set-up-cic-plus-integration.md).
 
 ## Using the CIC Plus integration with new hire onboarding
 

@@ -2,6 +2,7 @@
 title: Integrate Password Reset with a Service Portal widget
 description: You can enable a Password Reset process in a Service Portal page by adding a widget that opens the password reset pages inside the portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/password-reset/use-pwd-reset-in-service-portal.html
 release: zurich
 product: Password Reset
 classification: password-reset
@@ -38,5 +39,5 @@ Role required: password\_reset\_admin or sp\_admin
     For example, `https://server.acme.com/acme_community?id=password_reset_page& sysparm_show_custom_header_footer=false&sysparm_redirect_url=acme_community?id=communities_login`
 
 
-**Parent Topic:**[Configuring Password Reset](../concept/password-reset-admin-guide.md)
+**Parent Topic:**[Configuring Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/password-reset-admin-guide.md)
 

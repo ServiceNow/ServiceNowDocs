@@ -2,6 +2,7 @@
 title: SQL support
 description: The ODBC driver embeds a third party SQL/ODBC engine from DataDirect, a division of Progress Software.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/r\_SQLSupport.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -19,5 +20,5 @@ See the [DataDirect SQL Reference](http://media.datadirect.com/download/docs/ope
 
 **Note:** The ServiceNow ODBC driver only supports `SELECT` statements. The driver ignores other SQL statements such as `CREATE` and `ALTER`.
 
-**Parent Topic:**[Use Interactive SQL with ODBC](../task/t_UsingInteractiveSQLWithODBC.md)
+**Parent Topic:**[Use Interactive SQL with ODBC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/t_UsingInteractiveSQLWithODBC.md)
 

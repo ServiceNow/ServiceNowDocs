@@ -2,6 +2,7 @@
 title: Remove a linked cloud file from a record
 description: Remove a linked cloud file from a record in the Audit Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/remove-the-cloud-doc-link.html
 release: zurich
 product: Audit Management
 classification: audit-management
@@ -23,7 +24,7 @@ Role required: sn\_audit.admin, sn\_grc\_workspace.user
 
 1.  Navigate to **All** &gt; **Audit** &gt; **Audit Workspace**.
 
-2.  Select the tasks icon \(![Tasks icon](../../grc-workspace-audit/image/TasksIcon.jpg)\).
+2.  Select the tasks icon \(\[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon\).
 
 3.  Select an engagement in the Engagements list.
 
@@ -35,7 +36,7 @@ Role required: sn\_audit.admin, sn\_grc\_workspace.user
 
 6.  Select **Remove linked file** in the pop-up.
 
-    When a cloud file is linked to a record, the file access permissions are refreshed according to the set permissions on the table. For information on File access permissions, see [Create Cloud File Access on engagements and audit tasks](../concept/document-access-configuration.md).
+    When a cloud file is linked to a record, the file access permissions are refreshed according to the set permissions on the table. For information on File access permissions, see [Create Cloud File Access on engagements and audit tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/document-access-configuration.md).
 
     A confirmation message is displayed that the cloud file is removed from the record.
 

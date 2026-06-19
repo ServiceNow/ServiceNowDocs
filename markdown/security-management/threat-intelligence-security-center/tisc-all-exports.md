@@ -2,6 +2,7 @@
 title: View all exports
 description: Use this section to view all the manually exported records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-all-exports.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

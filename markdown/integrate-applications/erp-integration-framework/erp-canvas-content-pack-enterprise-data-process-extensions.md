@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP Enterprise Data Foundation data product process extensions
 description: The Zero Copy Connector for ERP Enterprise Data Foundation data product contains process extensions that you may need when interacting with an SAP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erp-canvas-content-pack-enterprise-data-process-extensions.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -24,5 +25,5 @@ The Zero Copy Connector for ERP Enterprise Data Foundation data product contains
 |Search for a material|Search for a material.|
 |Update material details|Update the description of an existing material and, optionally, update attributes such as sales data.|
 
-**Parent Topic:**[Zero Copy Connector for ERP Enterprise Data Foundation data product](../concept/erp-canvas-enterprise-data-foundation-content-pack.md)
+**Parent Topic:**[Zero Copy Connector for ERP Enterprise Data Foundation data product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-enterprise-data-foundation-content-pack.md)
 

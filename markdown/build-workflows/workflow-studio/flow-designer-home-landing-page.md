@@ -2,6 +2,7 @@
 title: Workflow Studio Landing page
 description: Access or create actions, flows, subflows, or their execution details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/flow-designer-home-landing-page.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -17,7 +18,7 @@ Access or create actions, flows, subflows, or their execution details.
 
 The Workflow Studio landing page includes several sections and widgets to guide your work.
 
-![Flow Designer landing page](../images/flow-designer-landing-page.png)
+\[Omitted image "flow-designer-landing-page.png"\] Alt text: Flow Designer landing page
 
 ## Available work by component type
 
@@ -50,7 +51,7 @@ This section displays a list of records for each component type of work.
 
 ## Create New
 
-This section includes links to create a flow, subflow, or action. The available choices depend on your user role, developer permissions, and feature access settings. You can only create components that you have permission to create. See [User access to Workflow Studio flows](user-access-flow-designer.md) for information about giving or limiting access to Workflow Studio components.
+This section includes links to create a flow, subflow, or action. The available choices depend on your user role, developer permissions, and feature access settings. You can only create components that you have permission to create. See [User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/user-access-flow-designer.md) for information about giving or limiting access to Workflow Studio components.
 
 ## Pick up where you left off
 
@@ -79,7 +80,7 @@ This section includes links to product documentation, support videos, community 
 
 ## Help Panel
 
-This section is available when you select the question mark icon \(![Help panel question mark icon](../images/fd-help-panel-icon.png)\) to open the Workflow Studio help panel. You can browse topics and guided tours that can help you get started building flows and actions. For more information, see [Use the Workflow Studio help panel](../task/use-flow-designer-help-panel.md).
+This section is available when you select the question mark icon \(\[Omitted image "fd-help-panel-icon.png"\] Alt text: Help panel question mark icon\) to open the Workflow Studio help panel. You can browse topics and guided tours that can help you get started building flows and actions. For more information, see [Use the Workflow Studio help panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/use-flow-designer-help-panel.md).
 
-**Parent Topic:**[Exploring flows](../../workflow-studio/concept/exploring-flows.md)
+**Parent Topic:**[Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-flows.md)
 

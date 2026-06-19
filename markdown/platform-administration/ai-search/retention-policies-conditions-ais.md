@@ -2,12 +2,13 @@
 title: Indexed source retention policies and filter conditions
 description: AI Search uses settings to automatically purge stale records from the index and optimize search performance. To limit the set of records indexed from source tables, you can configure retention policies and filter conditions for your indexed sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/retention-policies-conditions-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-05-28"
+reading_time_minutes: 2
 breadcrumb: [Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer]
 ---
 
@@ -29,12 +30,14 @@ To limit the set of records indexed from a source table, define filter condition
 
 When a source record no longer satisfies the indexed source's filter conditions, AI Search marks the corresponding indexed record as stale.
 
+**Note:** Adding filter conditions doesn't reduce the number of AI Search indexing events an indexed source generates. The system generates indexing events for every change to an indexed source table, unless the change is to a column that has a **no\_text\_index** field setting defined in the indexed source.
+
 ## Purging stale records
 
-AI Search automatically purges stale records from the index daily. Users with the admin role can manually purge stale records. For details on this procedure, see [Purge stale records from the AI Search index](../task/purge-stale-records-ais-index.md).
+AI Search automatically purges stale records from the index daily. Users with the admin role can manually purge stale records. For details on this procedure, see [Purge stale records from the AI Search index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/purge-stale-records-ais-index.md).
 
--   **[Purge stale records from the AI Search index](../task/purge-stale-records-ais-index.md)**  
+-   **[Purge stale records from the AI Search index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/purge-stale-records-ais-index.md)**  
 Execute a scheduled job to delete stale records from the AI Search index.
 
-**Parent Topic:**[Indexed sources in AI Search](indexed-sources-ais.md)
+**Parent Topic:**[Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/indexed-sources-ais.md)
 

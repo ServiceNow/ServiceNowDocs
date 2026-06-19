@@ -2,6 +2,7 @@
 title: Set up ADAMSync
 description: ADAMSync is included with Windows Server 2003 R2. Download and install ADAMSync if you are using a different OS.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/ldap-integration/c\_SetUpADAMSync.html
 release: zurich
 product: LDAP integration
 classification: ldap-integration

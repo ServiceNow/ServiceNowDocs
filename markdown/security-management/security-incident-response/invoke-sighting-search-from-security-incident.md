@@ -2,6 +2,7 @@
 title: Invoke Sighting Search from a Security Incident
 description: Invoke the sightings search from a SIR security incident by following the below procedure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/invoke-sighting-search-from-security-incident.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -29,32 +30,32 @@ Role required: ServiceNow AI Platform administrator \(sn\_si.admin\)
 
 4.  Click **Associated Observables** related lists.
 
-    ![Associated Observables related list selected](../image/invoke-sighting-search-from-security-incident.png)
+    \[Omitted image "invoke-sighting-search-from-security-incident.png"\] Alt text: Associated Observables related list selected
 
 5.  Add any existing observables or create new observable.
 
-    ![Add a new or existing Associated Observable to the related list](../image/invoke-sighting-search-create-observable.png)
+    \[Omitted image "invoke-sighting-search-create-observable.png"\] Alt text: Add a new or existing Associated Observable to the related list
 
 6.  Select the observables and from Actions on selected rows, click **Run Sightings Search**.
 
-    ![Observables in the list selected and Run Sightings Search selected](../image/invoke-sighting-search-run-sighting-search.png)
+    \[Omitted image "invoke-sighting-search-run-sighting-search.png"\] Alt text: Observables in the list selected and Run Sightings Search selected
 
 7.  Ignore the inputs in the next dialog box that asks for time data.
 
     There are default values populated. However, the search is performed real time and the time values are ignored for this integration.
 
-    ![Run Sightings search](../image/run-sightings-search.png)
+    \[Omitted image "run-sightings-search.png"\] Alt text: Run Sightings search
 
 8.  Check the worknotes for status.
 
-    ![Security Incident work notes](../image/invoke-status-worknotes.png)
+    \[Omitted image "invoke-status-worknotes.png"\] Alt text: Security Incident work notes
 
 9.  On completion of the search, check the results and details in the related lists.
 
 10. Click on **Sightings Search Details** tab for details and **Sightings Search Results** tab for search results.
 
-    ![Sighting Search Details](../image/invoke-sightings-search-details-tab.png)
+    \[Omitted image "invoke-sightings-search-details-tab.png"\] Alt text: Sighting Search Details
 
-    ![Sightings Search Results](../image/invoke-sightings-search-results.png)
+    \[Omitted image "invoke-sightings-search-results.png"\] Alt text: Sightings Search Results
 
 

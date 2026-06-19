@@ -2,7 +2,10 @@
 title: Work with Scan Engine findings
 description: You can view and work with open findings resulting from scans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/work-with-scan-engine-findings.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-04-03"
 reading_time_minutes: 3
@@ -80,7 +83,7 @@ High severity issues that may degrade performance, stability, or security. Excep
 </td><td>
 
 -   The record can not be saved until the issue is resolved or and exception reason is provided formal approval.
--   For more information, refer to [Submit exceptions for the Scan Engine findings](../concept/submitting-exception-reasons-scan-engine.md).
+-   For more information, refer to [Submit exceptions for the Scan Engine findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/submitting-exception-reasons-scan-engine.md).
 
 </td></tr><tr><td>
 
@@ -127,7 +130,7 @@ Monitor and optionally fix during future development cycles.
 
     |Field|Description|
     |-----|-----------|
-    |**Definition**|Displays the scan definition that detected this finding. Select the definition name to view full definition details. See [Scan Engine definitions](../concept/scan-engine-definitions.md) for more information.|
+    |**Definition**|Displays the scan definition that detected this finding. Select the definition name to view full definition details. See [Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/scan-engine-definitions.md) for more information.|
     |**Level of Finding**|Measures the potential severity of the finding on the overall instance on a scale of 0-10.|
     |**Applies to**|A reference to the specific record flagged by the scan \(for example, a business rule, script include, or ACL record\). Select it to open the record directly and review or fix the issue.|
     |**Short Description**|Brief description of the finding|
@@ -135,15 +138,15 @@ Monitor and optionally fix during future development cycles.
 
     The following fields appear on the **Resolution** tab.
 
-<table id="choicetable_rwc_3yq_hhc"><thead><tr><th align="left" id="d47833e337">
+<table id="choicetable_rwc_3yq_hhc"><thead><tr><th align="left" id="d50382e337">
 
 Field
 
-</th><th align="left" id="d47833e340">
+</th><th align="left" id="d50382e340">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d47833e346">
+</th></tr></thead><tbody><tr><td id="d50382e346">
 
 **Estimated Time to Resolve Issue**
 
@@ -151,7 +154,7 @@ Description
 
 Time it will take to resolve the finding
 
-</td></tr><tr><td id="d47833e355">
+</td></tr><tr><td id="d50382e355">
 
 **Impact to Instance**
 
@@ -161,7 +164,7 @@ Time it will take to resolve the finding
 -   Ranges from 1 \(minimal\) to 10 \(critical\), as defined in the scan definition. This value helps prioritize findings by business impact. Higher values indicate findings that should be addressed first.
 
 
-</td></tr><tr><td id="d47833e376">
+</td></tr><tr><td id="d50382e376">
 
 **Steps to Resolve**
 
@@ -169,7 +172,7 @@ Time it will take to resolve the finding
 
 Suggested method for resolving the finding
 
-</td></tr><tr><td id="d47833e385">
+</td></tr><tr><td id="d50382e385">
 
 **Supporting documentation**
 
@@ -182,7 +185,7 @@ Link to supporting documentation that may help in resolving the finding
 
 4.  Submit an exception for review to request to bypass a fix for the finding.
 
-    For more information, refer to [Submit exceptions for the Scan Engine findings](../concept/submitting-exception-reasons-scan-engine.md).
+    For more information, refer to [Submit exceptions for the Scan Engine findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/submitting-exception-reasons-scan-engine.md).
 
     The finding will be marked as resolved once the next scan validates the changes.
 

@@ -2,6 +2,7 @@
 title: Invoice processing using IT Asset Management purchase order
 description: The ITAM-APO integration is designed to streamline invoice processing for ITAM-related purchase orders \(POs\), verifying better accuracy, exception handling, and operational efficiency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/invoice-processing-using-itam-po.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -25,11 +26,11 @@ Role required: Accounts\_payable\_specialist \[sn\_ap\_apm.accounts\_payable\_sp
 
 2.  Create a purchase order in ITAM.
 
-    For more information on creating purchase order in ITAM, see [Create a purchase order](https://www.servicenow.com/docs/access?context=t_CreateAPurchaseOrder&version=zurich&pubname=zurich-it-asset-management&ft:locale=en-US).
+    For more information on creating purchase order in ITAM, see .
 
 3.  Create an invoice with the ITAM purchase order.
 
-    For more information on invoices, [Create an invoice manually](create-invoice.md). The Accounts Payable Operations checks whether the received quantity in the ITAM receiving slip matches the invoiced quantity. In case of mismatch, an insufficient goods receipt exception is triggered and automatically the ITAM user is notified through email. For more information on exceptions, see [Invoice exceptions](../concept/work-with-invoice-exceptions.md).
+    For more information on invoices, [Create an invoice manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/create-invoice.md). The Accounts Payable Operations checks whether the received quantity in the ITAM receiving slip matches the invoiced quantity. In case of mismatch, an insufficient goods receipt exception is triggered and automatically the ITAM user is notified through email. For more information on exceptions, see [Invoice exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/work-with-invoice-exceptions.md).
 
 4.  The Accounts Payable Operations automatically verifies and revalidates the invoice.
 

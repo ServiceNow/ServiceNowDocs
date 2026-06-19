@@ -2,6 +2,7 @@
 title: Data Generation Profiles in Developer Sandboxes
 description: Because Developer Sandboxes copy metadata, not record data, from the base instance, you might need to generate specific data using a Data Generation Profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/developer-sandboxes/dev-sbx-data-gen-profiles.html
 release: zurich
 product: Developer Sandboxes
 classification: developer-sandboxes

@@ -2,6 +2,7 @@
 title: Step 5. Add Access Control Lists \(ACLs\) for Major Security Incident Management workspace users
 description: Add Access Control Lists \(ACLs\) for Major Security Incident Management workspace users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/adding-access-control-lists-for-msim-workspace-users.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -33,15 +34,15 @@ Major Security Incident Management persona contains sn\_msi.linkedsivi\_read rol
 
 1.  Navigate to **User Administration** &gt; **Roles** and search for **sn\_msi.linkedsivi\_read** role.
 
-2.  Click **Edit** in the Contains Roles related list section.
+2.  Select **Edit** in the Contains Roles related list section.
 
-    ![Roles.](../image/contains-roles-step4.png)
+    \[Omitted image "contains-roles-step4.png"\] Alt text: Roles.
 
 3.  Make sure that your source table roles are added under the Contains Roles section.
 
     The Edit Members page is displayed to configure the roles required for a security case.
 
-    ![Edit roles.](../image/edit-roles-step5.png)
+    \[Omitted image "edit-roles-step5.png"\] Alt text: Edit roles.
 
 4.  Search for the source table roles, in the Collections section.
 
@@ -51,10 +52,10 @@ Major Security Incident Management persona contains sn\_msi.linkedsivi\_read rol
 
     -   For a Security case, two separate roles for read and write are needed.
     -   Write access on tables for the ability to select source record from Major Security Incident Management workspace linked Record modal.
-5.  Click **Save** to add roles.
+5.  Select **Save** to add roles.
 
 6.  Verify that the roles are added successfully to the **Contains Roles** related list section.
 
 
-**Parent Topic:**[Rollup example use case implementation for a Security Case](../concept/use-case-for-a-security-case.md)
+**Parent Topic:**[Rollup example use case implementation for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/use-case-for-a-security-case.md)
 

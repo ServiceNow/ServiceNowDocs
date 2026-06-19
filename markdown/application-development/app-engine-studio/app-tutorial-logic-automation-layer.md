@@ -2,6 +2,7 @@
 title: Adding logic and automation
 description: Add logic and automation to your application. Learn about logic and automation in App Engine Studio and how we automate the employee travel request application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/app-tutorial-logic-automation-layer.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -25,11 +26,11 @@ Step 1
 
 </td><td align="justify">
 
-![Completed icon](../image/app-tutorial-progress-complete2.png)
+\[Omitted image "app-tutorial-progress-complete2.png"\] Alt text: Completed icon
 
 </td><td>
 
-[Planning your application](app-tutorial-introduction.md)
+[Planning your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-introduction.md)
 
 </td></tr><tr><td>
 
@@ -37,11 +38,11 @@ Step 2
 
 </td><td align="justify">
 
-![Completed icon](../image/app-tutorial-progress-complete2.png)
+\[Omitted image "app-tutorial-progress-complete2.png"\] Alt text: Completed icon
 
 </td><td>
 
-[Create an app](../task/app-tutorial-create-an-app.md)
+[Create an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-create-an-app.md)
 
 </td></tr><tr><td>
 
@@ -49,11 +50,11 @@ Step 3
 
 </td><td align="justify">
 
-![Completed icon](../image/app-tutorial-progress-complete2.png)
+\[Omitted image "app-tutorial-progress-complete2.png"\] Alt text: Completed icon
 
 </td><td>
 
-[Building a data model](app-tutorial-data-model.md)
+[Building a data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-data-model.md)
 
 </td></tr><tr><td>
 
@@ -61,11 +62,11 @@ Step 4
 
 </td><td align="justify">
 
-![Completed icon](../image/app-tutorial-progress-complete2.png)
+\[Omitted image "app-tutorial-progress-complete2.png"\] Alt text: Completed icon
 
 </td><td>
 
-[Creating user experiences](app-tutorial-experience-layer.md)
+[Creating user experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-experience-layer.md)
 
 </td></tr><tr><td>
 
@@ -73,11 +74,11 @@ Step 5
 
 </td><td align="justify">
 
-![In progress icon](../image/app-tutorial-progress-wip.png)
+\[Omitted image "app-tutorial-progress-wip.png"\] Alt text: In progress icon
 
 </td><td>
 
-[Adding logic and automation](app-tutorial-logic-automation-layer.md)
+[Adding logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-logic-automation-layer.md)
 
 </td></tr><tr><td>
 
@@ -85,18 +86,18 @@ Step 6
 
 </td><td align="justify">
 
-![Not started icon](../image/app-tutorial-progress-not-started.png)
+\[Omitted image "app-tutorial-progress-not-started.png"\] Alt text: Not started icon
 
 </td><td>
 
-[Test your application](../task/app-tutorial-test-app.md)
+[Test your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-test-app.md)
 
 </td></tr></tbody>
 </table>## Overview of logic and automation
 
 Logic and automation enable you to define the actions that your application performs and the conditions that trigger those actions. Logic helps you define when certain actions should occur. For example, your application logic can determine whether support tickets are marked as "critical." Automation then defines the actions that the application performs. For example, if support tickets are marked as "critical", your application automation can move those tickets to the top of the queue.
 
-There are several ways to implement logic and automation in App Engine Studio. Our tutorial focuses on decision tables and flows. To learn about the full range of logic and automation capabilities in App Engine Studio, see [Add logic and automation](add-automation.md).
+There are several ways to implement logic and automation in App Engine Studio. Our tutorial focuses on decision tables and flows. To learn about the full range of logic and automation capabilities in App Engine Studio, see [Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-automation.md).
 
 ## Tutorial logic and automation
 
@@ -112,7 +113,7 @@ Phase 1
 
 </td><td>
 
-[Build a decision table](../task/app-tutorial-create-decision-table.md)
+[Build a decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-create-decision-table.md)
 
 </td></tr><tr><td>
 
@@ -120,10 +121,10 @@ Phase 2
 
 </td><td>
 
-[Create a flow](../task/app-tutorial-create-a-flow.md#)
+[Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-create-a-flow.md)
 
 </td></tr></tbody>
 </table>## Next steps
 
-Start adding logic and automation to the employee travel request application: [Build a decision table](../task/app-tutorial-create-decision-table.md).
+Start adding logic and automation to the employee travel request application: [Build a decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-create-decision-table.md).
 

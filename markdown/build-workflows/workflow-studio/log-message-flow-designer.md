@@ -2,6 +2,7 @@
 title: Log action
 description: Logs a message in the Workflow Studio log table sys\_flow\_log.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/log-message-flow-designer.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -19,7 +20,7 @@ Logs a message in the Workflow Studio log table sys\_flow\_log.
 
 Available as a Workflow Studio ServiceNow core action. Users with the flow\_designer or admin role can add an action to a flow and define configuration details.
 
-You can view the logs in the flow execution details. To learn more, see [Flow execution details](../concept/flow-execution-details.md) and [Workflow Studio data](../concept/data-population.md).
+You can view the logs in the flow execution details. To learn more, see [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-execution-details.md) and [Workflow Studio data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/data-population.md).
 
 ## Fields
 
@@ -47,7 +48,7 @@ Log message
 
 </td><td>
 
-Message to display in the Flow log \[sys\_flow\_log\] table. Enter text or drag data pills into the field. **Note:** The Workflow Studio design environment only supports entering 255 characters of text for a log message. The length limitation only applies to text entered directly into the input. Data pill values can exceed 255 characters in length. You can log values greater than 255 characters long by using either a data pill value or calling the [GlideSystem - log\(String message, String source\)](https://www.servicenow.com/docs/access?context=c_GlideSystemAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) method from a script.
+Message to display in the Flow log \[sys\_flow\_log\] table. Enter text or drag data pills into the field. **Note:** The Workflow Studio design environment only supports entering 255 characters of text for a log message. The length limitation only applies to text entered directly into the input. Data pill values can exceed 255 characters in length. You can log values greater than 255 characters long by using either a data pill value or calling the GlideSystem - log\(String message, String source\) method from a script.
 
 </td></tr></tbody>
 </table>## General guidelines
@@ -61,5 +62,5 @@ Message to display in the Flow log \[sys\_flow\_log\] table. Enter text or drag 
     Add one or more data pills to your Log action to store dynamically generated values. Make sure that the data pills come from actions and flow logic that have run before the Log action.
 
 
-**Parent Topic:**[Workflow Studio actions](../concept/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-actions.md)
 

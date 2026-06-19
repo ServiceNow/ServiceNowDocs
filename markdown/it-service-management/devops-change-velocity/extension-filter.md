@@ -2,11 +2,12 @@
 title: Filter ignorable DevOps events
 description: Filter out ignorable DevOps events before they trigger a Flow execution to improve performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/extension-filter.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Manage, DevOps Change Velocity, IT Service Management]
 ---
@@ -27,5 +28,5 @@ You can activate or deactivate these filters.
     By default, the check box is selected. If you want to disable the filter, clear the check box.
 
 
-**Parent Topic:**[Managing DevOps Change Velocity](using-devops-change-velocity.md)
+**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
 

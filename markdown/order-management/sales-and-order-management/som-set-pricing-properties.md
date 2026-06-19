@@ -2,6 +2,7 @@
 title: Set properties to control pricing processing
 description: Activate or deactivate system properties that control how pricing features are processed in Sales Customer Relationship Management applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/som-set-pricing-properties.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

@@ -2,7 +2,10 @@
 title: Task plan template access record
 description: The task plan template access record is created with pre-filled template number. The access fields need to be specified to create and save the task plan record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/task-plan-template-access-record.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-11-11"
 reading_time_minutes: 1

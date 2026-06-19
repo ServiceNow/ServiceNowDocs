@@ -2,6 +2,7 @@
 title: Create product characteristics and characteristic options
 description: Add product characteristics and characteristic options that you can later add to your product offerings in Sales Customer Relationship Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/som-product-config-add-characteristics.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -27,7 +28,7 @@ When you define a characteristic, you select the data input type, which indicate
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![image.Lists] view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Characteristics** &gt; **Characteristics**.
 
@@ -137,12 +138,12 @@ List of input options that identify the functionality for the characteristic, su
 
 Continue working on other areas related to the product offering or specification. For example:
 
--   [Add product visuals](som-product-config-add-visuals.md)
--   [Add product catalog categories](som-product-config-offering-categories.md)
--   [Create product offering relationships](som-product-config-offering-relationships.md)
--   [Add related contracts to product offerings](som-product-config-related-contracts.md)
--   [Add a unit of measure to a product offering](som-product-config-add-unit-of-measure.md)
--   [Create a product offering version](som-product-config-create-new-version.md)
--   [Create product offering relationship groups](som-product-config-relationship-groups.md)
+-   [Add product visuals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-product-config-add-visuals.md)
+-   [Add product catalog categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-product-config-offering-categories.md)
+-   [Create product offering relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-product-config-offering-relationships.md)
+-   [Add related contracts to product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-product-config-related-contracts.md)
+-   [Add a unit of measure to a product offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-product-config-add-unit-of-measure.md)
+-   [Create a product offering version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-product-config-create-new-version.md)
+-   [Create product offering relationship groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-product-config-relationship-groups.md)
 -   If you're creating technical products such as telecommunications products, you can create the product, service, and resource specification categories and associate them to model categories.
 

@@ -2,6 +2,7 @@
 title: Industrial Workspace homepage destination rules
 description: Depending on your assigned roles, you're redirected to different pages in the Industrial Workspace with homepage destination rules. This helps you access the data that you need more quickly and efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-workspace/industrial-workspace-homepage-destination-rules.html
 release: zurich
 product: Industrial Workspace
 classification: industrial-workspace
@@ -122,5 +123,5 @@ cmdb\_ot\_viewer
 The Industrial Workspace List Page rule takes users with the roles described in the rule directly to the Industrial Workspace Lists when they log in.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using the Industrial Workspace](using-industrial-workspace.md)
+</table>**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/using-industrial-workspace.md)
 

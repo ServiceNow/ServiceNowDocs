@@ -2,6 +2,7 @@
 title: Complete the end of life workflow request for your software product
 description: Perform all the tasks that are required to remove the end of life \(EOL\) software products from your asset inventory.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/complete-eol-workflow-request.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -17,7 +18,7 @@ Perform all the tasks that are required to remove the end of life \(EOL\) softwa
 
 ## Before you begin
 
-Before you proceed with removing the EOL software, you must start an EOL workflow request. For details, see [Create an end of life workflow request for your software products](manage-eol-risk.md).
+Before you proceed with removing the EOL software, you must start an EOL workflow request. For details, see [Create an end of life workflow request for your software products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/manage-eol-risk.md).
 
 If you set the **Action** field to **Remove EOL Software** in the Decide on IT strategy task, you must perform these software EOL tasks.
 
@@ -48,13 +49,13 @@ Additionally, the EOL workflow can be completed using the Software End of Life F
 
 6.  Complete the first task, which is the Assess IT architecture impact task.
 
-    ![Software EOL tasks in the list view on the Software EOL Tasks tab.](../image/eol-tasks.png)
+    \[Omitted image "eol-tasks.png"\] Alt text: Software EOL tasks in the list view on the Software EOL Tasks tab.
 
     1.  On the **Software EOL tasks** tab, select the task number for the Assess IT architecture impact task.
 
     2.  On the **Details** tab of the Assess IT architecture impact task, fill in the fields.
 
-        For details on the form fields and their description, see [Software EOL tasks tab](../reference/software-eol-request.md#section_l11_yb1_4bc).
+        For details on the form fields and their description, see [Software EOL tasks tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-eol-request.md).
 
     3.  Complete the subtasks for the Assess IT architecture impact task by selecting the **Software EOL Subtasks** tab.
 
@@ -66,7 +67,7 @@ Additionally, the EOL workflow can be completed using the Software End of Life F
 
     2.  On the **Details** tab of the Assess IT security impact task, fill in the fields.
 
-        For details on the form fields and their description, see [Software EOL tasks tab](../reference/software-eol-request.md#section_l11_yb1_4bc).
+        For details on the form fields and their description, see [Software EOL tasks tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-eol-request.md).
 
     3.  Complete the subtasks for the Assess IT security impact task by selecting the **Software EOL Subtasks** tab.
 
@@ -76,7 +77,7 @@ Additionally, the EOL workflow can be completed using the Software End of Life F
 
     2.  On the **Details** tab, select **Remove EOL software** in the **Action** field.
 
-        For details on the form fields and their description, see [Software EOL tasks tab](../reference/software-eol-request.md#section_l11_yb1_4bc).
+        For details on the form fields and their description, see [Software EOL tasks tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-eol-request.md).
 
     3.  Select **Close Task**.
 
@@ -88,7 +89,7 @@ Additionally, the EOL workflow can be completed using the Software End of Life F
 
     2.  On the **Details** tab of the Assess software licensing impact task, fill in the fields.
 
-        For details on the form fields and their description, see [Software EOL tasks tab](../reference/software-eol-request.md#section_l11_yb1_4bc).
+        For details on the form fields and their description, see [Software EOL tasks tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-eol-request.md).
 
     3.  Select **Close Task**.
 
@@ -100,7 +101,7 @@ Additionally, the EOL workflow can be completed using the Software End of Life F
 
     2.  On the **Details** tab of the Complete secure backup task, fill in the fields.
 
-        For details on the form fields and their description, see [Software EOL tasks tab](../reference/software-eol-request.md#section_l11_yb1_4bc).
+        For details on the form fields and their description, see [Software EOL tasks tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-eol-request.md).
 
     3.  Select **Close Task**.
 
@@ -112,7 +113,7 @@ Additionally, the EOL workflow can be completed using the Software End of Life F
 
     2.  On the **Details** tab of the Create IT change plans task, fill in the fields.
 
-        For details on the form fields and their description, see [Software EOL tasks tab](../reference/software-eol-request.md#section_l11_yb1_4bc).
+        For details on the form fields and their description, see [Software EOL tasks tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-eol-request.md).
 
     3.  Select **Close Task**.
 
@@ -120,12 +121,12 @@ Additionally, the EOL workflow can be completed using the Software End of Life F
 
 12. Select the change request and review the values that are automatically populated in the Change Request form.
 
-    For details on completing a change request, see [Process a change request](https://www.servicenow.com/docs/access?context=t_ProcessAChangeRequest&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+    For details on completing a change request, see .
 
 
 ## Result
 
 After the change request is complete, the workflow request is also complete.
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/using-sam-workspace.md)
 

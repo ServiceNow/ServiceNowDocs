@@ -2,6 +2,7 @@
 title: Testable Configurable Workspace components
 description: Learn about the components and its associated actions in the configurable workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/atf-conf-ws-components.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -2462,8 +2463,8 @@ Sets value on typeahead input and dispatches associated events
 N/A
 
 </td></tr></tbody>
-</table>-   **[Configurable workspace components examples](../concept/atf-conf-ws-comp-examples.md)**  
+</table>-   **[Configurable workspace components examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-conf-ws-comp-examples.md)**  
 To grasp how to interact with configurable workspace components, review these examples.
 
-**Parent Topic:**[Automated Test Framework \(ATF\) reference](../concept/atf-ref-overview.md)
+**Parent Topic:**[Automated Test Framework \(ATF\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-ref-overview.md)
 

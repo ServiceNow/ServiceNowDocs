@@ -2,6 +2,7 @@
 title: Create an Apache Cassandra connection
 description: Establish a zero copy connection to an Apache Cassandra database in Workflow Data Fabric Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/workflow-data-fabric-hub/create-apache-cassandra-connection.html
 release: zurich
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -50,15 +51,15 @@ Work with your data source admin to create a connection to Apache Cassandra. For
 
 4.  Configure secure authentication by uploading a keystore file or by entering the keystore details manually.
 
-<table id="choicetable_rf1_cdk_qfc"><thead><tr><th align="left" id="d524929e240">
+<table id="choicetable_rf1_cdk_qfc"><thead><tr><th align="left" id="d520809e240">
 
 Option
 
-</th><th align="left" id="d524929e243">
+</th><th align="left" id="d520809e243">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d524929e249">
+</th></tr></thead><tbody><tr><td id="d520809e249">
 
 **Upload keystore file**
 
@@ -68,7 +69,7 @@ Description
 2.  Browse and select the keystore file.
 
 
-</td></tr><tr><td id="d524929e270">
+</td></tr><tr><td id="d520809e270">
 
 **Enter keystore contents manually**
 
@@ -90,7 +91,7 @@ A test connection is made to the external data source, verifying that the connec
 
 ## What to do next
 
-If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](manage-access-connection-wdf.md).
+If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/manage-access-connection-wdf.md).
 
 If the connection fails, verify the connection details with your data source administrator and try again.
 

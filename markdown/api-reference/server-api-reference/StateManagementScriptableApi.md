@@ -2,6 +2,7 @@
 title: StateManagementScriptableApi - Global
 description: The StateManagementScriptableApi provides a set of methods for manipulating configuration item \(CI\) operational states and applying CI actions.Add a CI action to a list of CIs.Extend the CI-action-lease time for the registered user. If the previous lease has expired, the new lease time starts now.Returns a list of active CI actions for the specified CI.Returns the operational state of the CI.Determines if the two specified actions are compatible.Determines if the lease has expired for the requestor of a specified CI Action.For a type of CI, determine if a CI action is not allowed for an operational state.For a type of CI, determine if an operational state transition is not allowed.Determines if the specified requestor is a valid active workflow user or a registered user.Registers an operator for a non-workflow user.Removes a CI action for a list of CIs.Set the operational state for list of CIs.Unregisters an operator for non-workflow users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/StateManagementScriptableApi.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -19,7 +20,7 @@ The StateManagementScriptableApi methods adhere to restrictions and allowances s
 
 The StateManagementScriptableApi methods are static methods. You access the methods using the `SNC.StateManagementScriptableApi` global object.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## StateManagementScriptableApi - addBulkCIAction\(String requestorId, String sysIdList, String ciActionName, String ciActionListOld, String leaseTime\)
 

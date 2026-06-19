@@ -2,6 +2,7 @@
 title: Install IT Service Management integration with Microsoft Teams application
 description: Install the IT Service Management integration with Microsoft Teams application for the collaboration between the agents and employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/install-sn-ms-teams-plugin.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,7 +28,7 @@ Role required: admin
 
 2.  In the search field, enter `IT Service Management for Microsoft 365`.
 
-    You can search for the application by its name or ID. If you cannot find an application, visit the ServiceNow app store to view [IT Service Management for Microsoft 365](https://store.servicenow.com/sn_appstore_store.do#!/store/application/14eb9da8c3f310102986a81c8640dd08). For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    You can search for the application by its name or ID. If you cannot find an application, visit the ServiceNow app store to view [IT Service Management for Microsoft 365](https://store.servicenow.com/sn_appstore_store.do#!/store/application/14eb9da8c3f310102986a81c8640dd08). For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Click **Install** button.
 
@@ -41,11 +42,11 @@ Role required: admin
 
     Click **fix\_script\_start\_chat\_field\_decorator\_IT** to download the XML file.
 
-    ![Fix Script XML file from IT Service Management for Microsoft 365 store](../images/fix-script-itsm-new.png)
+    \[Omitted image "fix-script-itsm-new.png"\] Alt text: Fix Script XML file from IT Service Management for Microsoft 365 store
 
 5.  Navigate to **All** &gt; **System Update Sets** &gt; **Retrieved Update Sets** &gt; **Related Links** &gt; **Import Update Set from XML**.
 
-    ![Import update set from XML](../images/import-xml01.png)
+    \[Omitted image "import-xml01.png"\] Alt text: Import update set from XML
 
 6.  In the XML file field, click **Choose file** button and select **fix\_script\_start\_chat\_field\_decorator\_IT** XML file and upload the XML file.
 
@@ -53,15 +54,15 @@ Role required: admin
 
 8.  Click **Preview Update Set**.
 
-    ![Preview Update Set](../images/preview-update-set.png)
+    \[Omitted image "preview-update-set.png"\] Alt text: Preview Update Set
 
 9.  Click **Commit Update Set**.
 
-    ![Commit update set](../images/commit-update-set.png)
+    \[Omitted image "commit-update-set.png"\] Alt text: Commit update set
 
     The Fix script to add start Microsoft Teams chat field decorator will be in Committed state.
 
-    ![Committed state](../images/committed-state.png)
+    \[Omitted image "committed-state.png"\] Alt text: Committed state
 
 10. Navigate to **System Definition** &gt; **Fix Scripts**.
 
@@ -71,8 +72,8 @@ Role required: admin
 
 13. Click **Run Fix Script** button.
 
-    The ![Microsoft Teams](../images/teams-decorator.png) icon is displayed as a field decorator in a record.
+    The \[Omitted image "teams-decorator.png"\] Alt text: Microsoft Teams icon is displayed as a field decorator in a record.
 
 
-**Parent Topic:**[Plan your installation](../concept/plan-installation-ms-teams.md)
+**Parent Topic:**[Plan your installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/plan-installation-ms-teams.md)
 

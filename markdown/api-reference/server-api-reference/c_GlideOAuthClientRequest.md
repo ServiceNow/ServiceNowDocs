@@ -2,6 +2,7 @@
 title: GlideOAuthClientRequest - Scoped, Global
 description: The GlideOAuthClientRequest API provides methods for handling OAuth client requests.Retrieves the grant type.Retrieves the HTTP headers for the string you provide.Retrieves the HTTP headers.Retrieves the parameters for the parameter name you provide.Retrieves the password.Retrieves the refresh token.Retrieves the scope.Retrieves the user name.Sets the grant type for the string you provide.Retrieves the HTTP headers for the string you provide.Sets the parameters for the name:value pair of strings you provide.Sets the password with the string you provide.Sets the refresh token with the string you provide.Sets the scope for the string you provide.Sets the user name with the string you provide.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_GlideOAuthClientRequest.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The GlideOAuthClientRequest API provides methods for handling OAuth client reque
 
 You can use this API in global and scoped scripts. In scoped scripts use the `sn_auth` namespace identifier.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideOAuthClientRequest - getGrantType\(\)
 

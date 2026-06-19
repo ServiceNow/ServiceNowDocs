@@ -2,6 +2,7 @@
 title: Create targets for a goal using Goal Framework or Goal Framework for SPM
 description: Create SMART targets for goals to track and measure the progress of the goals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/goal-framework/set-targets-for-goal.html
 release: zurich
 product: Goal Framework
 classification: goal-framework
@@ -62,7 +63,7 @@ Steps
 </td></tr></tbody>
 </table>2.  On the form, fill in the fields.
 
-    For field information, see [Target form](../reference/target-form.md).
+    For field information, see [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/target-form.md).
 
 3.  Click **Submit**.
 

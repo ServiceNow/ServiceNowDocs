@@ -2,6 +2,7 @@
 title: Create a table cleanup rule
 description: Define the criteria for deleting unwanted records in a table cleanup rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/activate-table-cleanup.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -21,15 +22,15 @@ Role required: admin
 
 1.  Access the new Auto Flush form in one of the following ways.
 
-<table id="choicetable_bxv_hjk_1bc"><thead><tr><th align="left" id="d67912e50">
+<table id="choicetable_bxv_hjk_1bc"><thead><tr><th align="left" id="d52207e50">
 
 Option
 
-</th><th align="left" id="d67912e53">
+</th><th align="left" id="d52207e53">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d67912e59">
+</th></tr></thead><tbody><tr><td id="d52207e59">
 
 **Using the Data Management Console**
 
@@ -39,7 +40,7 @@ Steps
 2.  On the Overview tab, select **New cleanup rule**.
 
 
-</td></tr><tr><td id="d67912e94">
+</td></tr><tr><td id="d52207e94">
 
 **Using a data management policy**
 
@@ -145,5 +146,5 @@ Condition builder for specifying filter conditions that define the records to be
 
 The table cleanup rule runs automatically and deletes records when they meet the specified record age and any conditions that you set for them.
 
-**Parent Topic:**[Deleting older or unwanted records](../concept/deleting-older-records.md)
+**Parent Topic:**[Deleting older or unwanted records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/deleting-older-records.md)
 

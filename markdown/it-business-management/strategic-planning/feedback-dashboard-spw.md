@@ -2,11 +2,12 @@
 title: Feedback Dashboard in Strategic Planning Workspace
 description: The Feedback Dashboard helps product managers track feedback volume and stakeholder trends to surface recurring pain points, inform prioritization decisions, and demonstrate responsiveness.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/feedback-dashboard-spw.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Explore, Dashboards, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -15,7 +16,7 @@ breadcrumb: [Explore, Dashboards, Strategic Planning, Strategic Portfolio Manage
 
 The Feedback Dashboard helps product managers track feedback volume and stakeholder trends to surface recurring pain points, inform prioritization decisions, and demonstrate responsiveness.
 
-![Feedback Dashboard in Strategic Planning](../Images/feedback-dashboard-spw.gif)
+\[Omitted image "feedback-dashboard-spw.gif"\] Alt text: Feedback Dashboard in Strategic Planning
 
 |Widget/Visualization|Description|
 |--------------------|-----------|
@@ -31,5 +32,5 @@ The Feedback Dashboard helps product managers track feedback volume and stakehol
 |Feedback Linked to Ideas in the Last 30 Days|Visualization of feedback items linked to ideas within the last 30 days and grouped by Importance.|
 |Feedback Count by Location|Count of feedback items by location.|
 
-**Parent Topic:**[Exploring Dashboards in Strategic Planning Workspace](exploring-dashboards-spw.md)
+**Parent Topic:**[Exploring Dashboards in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/exploring-dashboards-spw.md)
 

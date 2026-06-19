@@ -2,6 +2,7 @@
 title: Secureworks CTP Ticket Ingestion Integration
 description: The Secureworks Counter Threat Platform ticket ingestion integration enables you to automatically fetch Secureworks CTP tickets, convert them into security incidents and perform automated response actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/secureworks-ctp-about.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

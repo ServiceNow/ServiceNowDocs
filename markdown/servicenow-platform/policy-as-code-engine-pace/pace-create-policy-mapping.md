@@ -2,6 +2,7 @@
 title: Define mappings for a PaCE policy
 description: You can map a policy to any number of objects. When you map a policy, validate the inputs, and execute the policy, a compliant, non-compliant, or compliant-exception decision is returned.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/policy-as-code-engine-pace/pace-create-policy-mapping.html
 release: zurich
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
@@ -31,16 +32,16 @@ Role required: sn\_pace.mapping\_admin
 
     If there are any existing mappings for the selected policy, they are displayed.
 
-    ![Existing policy mappings.](../image/pace-mappings-tab-1.jpg)
+    \[Omitted image "pace-mappings-tab-1.jpg"\] Alt text: Existing policy mappings.
 
 4.  To add a new mapping input, click **Add**.
 
     Any objects that are available for mapping are displayed.
 
-    ![Map the policy to objects.](../image/pace-mapping-policy-1.jpg)
+    \[Omitted image "pace-mapping-policy-1.jpg"\] Alt text: Map the policy to objects.
 
 5.  Select the check box to the left of each object that you want to map the policy to, and click **Map Policy**.
 
-    The new mapping input is added to the list of policy mappings. In addition, an alert message indicates whether the mapping is valid and active. For information about editing existing mapping inputs, see [Edit mapping inputs](pace-edit-mapping-inputs.md).
+    The new mapping input is added to the list of policy mappings. In addition, an alert message indicates whether the mapping is valid and active. For information about editing existing mapping inputs, see [Edit mapping inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/policy-as-code-engine-pace/pace-edit-mapping-inputs.md).
 
 

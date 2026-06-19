@@ -2,6 +2,7 @@
 title: Legacy: ITIL dashboard
 description: Use this dashboard to view, maintain, and track the tasks and incidents for operating the IT service desk.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/itil-dashboard.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -17,15 +18,15 @@ Use this dashboard to view, maintain, and track the tasks and incidents for oper
 
 **Important:**
 
-Starting in Xanadu release, the ITIL dashboard is deprecated. Users can use [IT Agent dashboard for Service Operations Workspace](../../../product/service-operations-workspace/concept/it-agent-dashboard-sow.md) to view, maintain, and track the tasks and incidents for operating the IT service desk.
+Starting in Xanadu release, the ITIL dashboard is deprecated. Users can use [IT Agent dashboard for Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/it-agent-dashboard-sow.md) to view, maintain, and track the tasks and incidents for operating the IT service desk.
 
-![ITIL Dashboard](../image/itil-dashboard-updated.png "ITIL Dashboard")
+\[Omitted image "itil-dashboard-updated.png"\] Alt text: ITIL Dashboard
 
 ## Access the ITIL dashboard
 
 To access the ITIL dashboard, navigate to **All** &gt; **Self-Service** &gt; **Dashboard**. On the Dashboards Overview, search for ITIL dashboard.
 
-![ITIL Dashboard Location](../image/itil-dashboard-location.png)
+\[Omitted image "itil-dashboard-location.png"\] Alt text: ITIL Dashboard Location
 
 ## End user and roles
 
@@ -40,14 +41,14 @@ The dashboard includes the following visualizations:
 
 |Title|Type|Description|
 |-----|----|-----------|
-|Critical Tasks|Single score \(![Singe score icon](../../reporting/image/icon-single-score-report-p.png)\)|Total number of open critical task records for which **Priority** is set to **1**.|
-|Unassigned Tasks|Single score \(![Singe score icon](../../reporting/image/icon-single-score-report-p.png)\)|Total number of open tasks that are still not assigned.|
-|Tasks assigned to me|Single score \(![Singe score icon](../../reporting/image/icon-single-score-report-p.png)\)|Total number of tasks assigned to the logged-user of the dashboard.|
-|Active Incidents older than 7 days|Single score \(![Singe score icon](../../reporting/image/icon-single-score-report-p.png)\)|Total number of active incidents logged before seven days.|
-|Incident SLA Breached|Single score \(![Singe score icon](../../reporting/image/icon-single-score-report-p.png)\)|Total number of incidents that exceed its SLA.|
-|Incident SLAs at Risk|Single score \(![Singe score icon](../../reporting/image/icon-single-score-report-p.png)\)|Total number of active incidents that have not yet exceeded an SLA but have elapsed 75% of the duration of the SLA.|
-|My Groups Work|List \(![List report icon](../../reporting/image/icon-list-report-p.png)\)|Outstanding work load \(tasks\) of the logged-in user's group.|
-|My Work|List \(![List report icon](../../reporting/image/icon-list-report-p.png)\)|The logged-in user's outstanding work load \(tasks\).|
+|Critical Tasks|Single score \(\[Omitted image "icon-single-score-report-p.png"\] Alt text: Singe score icon\)|Total number of open critical task records for which **Priority** is set to **1**.|
+|Unassigned Tasks|Single score \(\[Omitted image "icon-single-score-report-p.png"\] Alt text: Singe score icon\)|Total number of open tasks that are still not assigned.|
+|Tasks assigned to me|Single score \(\[Omitted image "icon-single-score-report-p.png"\] Alt text: Singe score icon\)|Total number of tasks assigned to the logged-user of the dashboard.|
+|Active Incidents older than 7 days|Single score \(\[Omitted image "icon-single-score-report-p.png"\] Alt text: Singe score icon\)|Total number of active incidents logged before seven days.|
+|Incident SLA Breached|Single score \(\[Omitted image "icon-single-score-report-p.png"\] Alt text: Singe score icon\)|Total number of incidents that exceed its SLA.|
+|Incident SLAs at Risk|Single score \(\[Omitted image "icon-single-score-report-p.png"\] Alt text: Singe score icon\)|Total number of active incidents that have not yet exceeded an SLA but have elapsed 75% of the duration of the SLA.|
+|My Groups Work|List \(\[Omitted image "icon-list-report-p.png"\] Alt text: List report icon\)|Outstanding work load \(tasks\) of the logged-in user's group.|
+|My Work|List \(\[Omitted image "icon-list-report-p.png"\] Alt text: List report icon\)|The logged-in user's outstanding work load \(tasks\).|
 
-**Parent Topic:**[Legacy: Incident Management Platform Analytics Solutions](incident-content-pack.md)
+**Parent Topic:**[Legacy: Incident Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/incident-content-pack.md)
 

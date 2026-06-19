@@ -2,6 +2,7 @@
 title: Manage a filter version in a form
 description: You can view and manage all versions of a filter from the Certification Filter form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/t\_ManagingVersionsInAForm.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

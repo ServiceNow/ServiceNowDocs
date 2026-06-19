@@ -2,7 +2,10 @@
 title: Run the Service Exchange pre-configuration scan
 description: Track errors on recent transactions, see connection status, run health checks, and receive recommendations to improve the health of your Impact instance for connection with Service Exchange.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/perform\_pre\_configuration\_health\_checks\_impact\_store\_app.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-11-20"
 reading_time_minutes: 2
@@ -17,7 +20,7 @@ Track errors on recent transactions, see connection status, run health checks, a
 
 Role required: admin, impact admin
 
-For more information on Service Bridge, see [Secure data transfer using Service Bridge](../concept/service-bridge-overview.md).
+For more information on Service Bridge, see [Secure data transfer using Service Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/service-bridge-overview.md).
 
 ## About this task
 
@@ -41,11 +44,11 @@ View and diagnose errors and follow the steps provided to resolve the errors. Ea
 
     You are redirected to the ServiceBridge Pre-onboarding page.
 
-    ![The ServiceBridge Pre-onboarding screen with the Execute Suite Scan button displayed.](../image/impact-execute-health-scan.png)
+    \[Omitted image "impact-execute-health-scan.png"\] Alt text: The ServiceBridge Pre-onboarding screen with the Execute Suite Scan button displayed.
 
 5.  Select the **Full Instance** targets scan option.
 
-    ![Scan Suites target selection page.](../image/impact-servicebridge-scan-scope.png)
+    \[Omitted image "impact-servicebridge-scan-scope.png"\] Alt text: Scan Suites target selection page.
 
 6.  Select **Execute Scan**.
 
@@ -57,7 +60,7 @@ View and diagnose errors and follow the steps provided to resolve the errors. Ea
 
     The **Results Dashboard** related link displays a dashboard view of the scan results.
 
-    ![Scan findings page where you can select a findings link for resolution options.](../image/servicebridge-health-findings.png)
+    \[Omitted image "servicebridge-health-findings.png"\] Alt text: Scan findings page where you can select a findings link for resolution options.
 
 9.  Address task items in the Scan Task description and refer to Known Error Documentation in the Notes section for information to assist you with solutions to the task.
 
@@ -70,11 +73,11 @@ View and diagnose errors and follow the steps provided to resolve the errors. Ea
 
 ## What to do next
 
-See [Use automated registration to connect to the Impact Delivery Instance](start-automated-registration-IDI.md) to proceed with setup.
+See [Use automated registration to connect to the Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/start-automated-registration-IDI.md) to proceed with setup.
 
-**Parent Topic:**[Configure the Impact Store Application](../concept/configuring-impact-platform.md)
+**Parent Topic:**[Configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-impact-platform.md)
 
-**Previous topic:**[Run your first scan with the Scan Engine](run-scan-engine.md)
+**Previous topic:**[Run your first scan with the Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/run-scan-engine.md)
 
-**Next topic:**[Use automated registration to connect to the Impact Delivery Instance](start-automated-registration-IDI.md)
+**Next topic:**[Use automated registration to connect to the Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/start-automated-registration-IDI.md)
 

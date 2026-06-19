@@ -2,6 +2,7 @@
 title: Configure Custom Event Types for Timeline
 description: The Timeline component in the investigation canvas provides a chronological overview of all events related to a selected entity. This feature enables analysts to track actions, updates, and changes over time, offering a comprehensive historical perspective of the entity’s activity. As a result, it supports effective temporal threat analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-config-timeline.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -23,7 +24,7 @@ Role required: sn\_sec\_tisc.admin
 
 As an administrator, you can configure the custom event types to align the timeline with organizational investigative needs, ensuring relevant events are highlighted and improving temporal threat analysis.
 
-Analysts can add, edit, or remove events associated with the intelligence records. The timeline also preserves the user specific date ranges for each canvas providing a consistent and detailed analysis experience. For more information, see [Adding Timeline Events to the Canvas](tisc-add-timeline-events.md).
+Analysts can add, edit, or remove events associated with the intelligence records. The timeline also preserves the user specific date ranges for each canvas providing a consistent and detailed analysis experience. For more information, see [Adding Timeline Events to the Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-add-timeline-events.md).
 
 ## Procedure
 
@@ -33,15 +34,15 @@ Analysts can add, edit, or remove events associated with the intelligence record
 
 3.  Fill in the fields as appropriate.
 
-<table id="choicetable_zrg_dgj_fhc"><thead><tr><th align="left" id="d380289e103">
+<table id="choicetable_zrg_dgj_fhc"><thead><tr><th align="left" id="d123951e103">
 
 Field
 
-</th><th align="left" id="d380289e106">
+</th><th align="left" id="d123951e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d380289e112">
+</th></tr></thead><tbody><tr><td id="d123951e112">
 
 **Event Name**
 
@@ -49,7 +50,7 @@ Description
 
 A unique name that identifies the specific activity or event occurrence recorded on the timeline.This serves as a primary label for each event, to help you quickly understand the node created, status updated, or any additional details.
 
-</td></tr><tr><td id="d380289e123">
+</td></tr><tr><td id="d123951e123">
 
 **Description**
 
@@ -57,7 +58,7 @@ A unique name that identifies the specific activity or event occurrence recorded
 
 Description of the event type to provide context of the event.
 
-</td></tr><tr><td id="d380289e132">
+</td></tr><tr><td id="d123951e132">
 
 **Status**
 
@@ -65,7 +66,7 @@ Description of the event type to provide context of the event.
 
 Indicates the current status of an event on the timeline.
 
-</td></tr><tr><td id="d380289e141">
+</td></tr><tr><td id="d123951e141">
 
 **Icon**
 
@@ -73,7 +74,7 @@ Indicates the current status of an event on the timeline.
 
 An icon that appears on the timeline to visually represent events of this type.
 
-</td></tr><tr><td id="d380289e151">
+</td></tr><tr><td id="d123951e151">
 
 **Color**
 
@@ -88,7 +89,7 @@ Specifies the color of the icon that represents the event on the timeline.
 
 5.  Navigate to **Timeline Event Configuration** section to add or remove the objects or observables.
 
-    ![Timeline configuration](../image/tisc-config-timeline.png)
+    \[Omitted image "tisc-config-timeline.png"\] Alt text: Timeline configuration
 
 6.  Select **Add** to add or edit the entity and applicable table for an object or observable, which means you can now specify which tables the timeline applies to.
 
@@ -122,5 +123,5 @@ Specifies the color of the icon that represents the event on the timeline.
 
 ## What to do next
 
-Once the event is configured, you can navigate to the Investigation Canvas to verify the timeline entry and add or edit entries. For more information, see [Adding Timeline Events to the Canvas](tisc-add-timeline-events.md). To understand more about using timeline feature, see [Using Timeline in Investigation Canvas](tisc-timeline-events.md).
+Once the event is configured, you can navigate to the Investigation Canvas to verify the timeline entry and add or edit entries. For more information, see [Adding Timeline Events to the Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-add-timeline-events.md). To understand more about using timeline feature, see [Using Timeline in Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-timeline-events.md).
 

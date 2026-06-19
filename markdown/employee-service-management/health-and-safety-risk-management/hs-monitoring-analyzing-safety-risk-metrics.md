@@ -2,6 +2,7 @@
 title: Monitoring and analyzing safety risk metrics
 description: The Risk Management tab of the Health and Safety dashboard provides a comprehensive and interactive view for monitoring and analyzing safety risk metrics. By providing real-time insights into inspections, job safety analyses \(JSAs\), and various hazard and risk categories, it enables you to proactively identify trends, respond swiftly to emerging issues, and continuously enhance workplace safety across all organizational levels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-risk-management/hs-monitoring-analyzing-safety-risk-metrics.html
 release: zurich
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -17,12 +18,12 @@ The **Risk Management** tab of the Health and Safety dashboard provides a compre
 
 For any selected period and location, you can drill down into detailed data for granular visibility for risk mitigation strategies.
 
-![Risk Management tab showing safety risk metrics in the Health and Safety dashboard.](../image/hs-risk-mgmt-dashboard.png)
+\[Omitted image "hs-risk-mgmt-dashboard.png"\] Alt text: Risk Management tab showing safety risk metrics in the Health and Safety dashboard.
 
 ## Prerequisites
 
--   Ensure that Health and Safety Risk Management and Health and Safety Incident Management applications are installed. For more information, see [Install Health and Safety Risk Management](../task/install-hs-risk-mgmt.md).
--   Run the **\[OHS\] Safety Metrics** scheduled job to update the safety metrics on demand. For more information, see [Configure scheduled job to generate frequency rates](../../ohs-incident-management/task/configure-job-generate-frequency-rates.md).
+-   Ensure that Health and Safety Risk Management and Health and Safety Incident Management applications are installed. For more information, see [Install Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/install-hs-risk-mgmt.md).
+-   Run the **\[OHS\] Safety Metrics** scheduled job to update the safety metrics on demand. For more information, see [Configure scheduled job to generate frequency rates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-core/configure-job-generate-frequency-rates.md).
 
     **Note:** The **\[OHS\] Safety Metrics** job is set to run daily by default.
 
@@ -205,5 +206,5 @@ None
 </td></tr></tbody>
 </table>## Customizing widgets
 
-You can customize the widgets in the dashboard to display relevant metrics by using the UI Builder. For more information, see [UI Builder tutorial](https://www.servicenow.com/docs/access?context=uib-tutorial&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+You can customize the widgets in the dashboard to display relevant metrics by using the UI Builder. For more information, see .
 

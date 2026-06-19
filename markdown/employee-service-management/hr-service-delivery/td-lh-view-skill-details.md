@@ -2,6 +2,7 @@
 title: View skill details
 description: View skills relevant to your organization and metrics that you can use to identify critical skill gaps. This data can be used to hold managers responsible for developing talent within their teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/td-lh-view-skill-details.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -45,12 +46,12 @@ Role required: organizational leader \[sn\_egd\_lh.leader\]
     -   Top experts \(individuals with the highest proficiency level\)
 5.  Select **Schedule conversation** to schedule a conversation with the team lead for teams that needs attention or have the highest score.
 
-    **Note:** This option is only visible if the Microsoft Outlook integration is enabled for Leader hub. For more information, see [Schedule a conversation form](../../human-resources/reference/schedule-conversation-lh.md).
+    **Note:** This option is only visible if the Microsoft Outlook integration is enabled for Leader hub. For more information, see [Schedule a conversation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/schedule-conversation-lh.md).
 
 6.  Select **Create a conversation** to create a conversation with the team lead for teams that needs attention or have the highest score.
 
-    **Note:** This option is only visible if the Microsoft Outlook integration is not enabled for Leader hub. For more information, see [Create a conversation form](../../human-resources/reference/create-conversation-lh.md).
+    **Note:** This option is only visible if the Microsoft Outlook integration is not enabled for Leader hub. For more information, see [Create a conversation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/create-conversation-lh.md).
 
 
-**Parent Topic:**[Using Leader Hub](../concept/td-lh-using.md)
+**Parent Topic:**[Using Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/td-lh-using.md)
 

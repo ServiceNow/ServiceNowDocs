@@ -2,6 +2,7 @@
 title: Export OSCAL POA&amp;M from list view
 description: Export selected Plans of Action and Milestones \(POA&amp;M\) records from the CAM list to an Open Security Controls Assessment Language \(OSCAL\) format.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/export-individual-oscal-poa-m.html
 release: zurich
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -23,13 +24,13 @@ Role required: sn\_irm\_cont\_auth.admin, sn\_irm\_cont\_auth.system\_owner, sn\
 
 1.  Navigate to **Workspaces** &gt; **CAM Workspace**.
 
-2.  In the CAM Workspace, select the List icon \(![List](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the CAM Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List\).
 
 3.  Select **All POA&amp;Ms** from the **Continuous monitoring** list.
 
 4.  Select the POA&amp;Ms from the list that you want to export.
 
-    ![Selecting individual POA&M files.](../image/cam-oscal-individual-export-poa-m1.png)
+    \[Omitted image "cam-oscal-individual-export-poa-m1.png"\] Alt text: Selecting individual POA&amp;M files.
 
 5.  Select **OSCAL Export** to export the selected POA&amp;M files.
 
@@ -41,5 +42,5 @@ Role required: sn\_irm\_cont\_auth.admin, sn\_irm\_cont\_auth.system\_owner, sn\
 -   OSCAL POA&amp;M export is a synchronous process. Once the file is generated, it downloads automatically as a zip file in your local repository.
 -   When POA&amp;Ms are associated with different authorization packages, CAM generates a zip file containing individual JSON files for each authorization package.
 
-**Parent Topic:**[Export in OSCAL format](../concept/oscal-support-cam.md)
+**Parent Topic:**[Export in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-support-cam.md)
 

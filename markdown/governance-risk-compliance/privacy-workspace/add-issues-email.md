@@ -2,6 +2,7 @@
 title: Report a privacy case through email
 description: Identify and manage issues related to the impacted areas for the reported privacy case. You can also create issues from the Privacy Case Management landing page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/add-issues-email.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -86,5 +87,5 @@ For privacy admin, the case will be visible in **Workspaces** &gt; **Privacy Wor
 
 Any reply sent by the admin appears in the Email tab of the privacy case.
 
-**Parent Topic:**[Reporting a privacy case](../concept/reporting-a-privacy-case.md)
+**Parent Topic:**[Reporting a privacy case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/reporting-a-privacy-case.md)
 

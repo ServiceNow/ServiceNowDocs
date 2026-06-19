@@ -2,6 +2,7 @@
 title: Add a flow from scratch
 description: If an existing automation template doesn't fit your application goal, define custom automation in App Engine Studio \(AES\) by building a new flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/create-scratch-flow.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -17,11 +18,11 @@ If an existing automation template doesn't fit your application goal, define cus
 
 ## Before you begin
 
-Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](../concept/aes-app-dev-workflow.md).
+Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## About this task
 
-If a pre-built flow already exists, you can easily add its template to your app and then customize it. For more information, see [Add a pre-built flow using a template](use-flow-template.md).
+If a pre-built flow already exists, you can easily add its template to your app and then customize it. For more information, see [Add a pre-built flow using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/use-flow-template.md).
 
 ## Procedure
 
@@ -35,7 +36,7 @@ If a pre-built flow already exists, you can easily add its template to your app 
 
 5.  Select **Build from scratch**.
 
-    ![Select to build the flow from scratch](../image/aes-automation-scratch-purple.png "Build from scratch")
+    \[Omitted image "aes-automation-scratch-purple.png"\] Alt text: Select to build the flow from scratch
 
 6.  On the form, fill in the fields and then select **Continue**.
 
@@ -93,14 +94,14 @@ Run with roles
 
 Roles that the flow runs with. This option is available only when **Run as** is set to **User who initiates session**.
 
- To use a custom role for your flow, you must create one in **Security** first. For more information, see [Add application security](../concept/add-security.md).
+ To use a custom role for your flow, you must create one in **Security** first. For more information, see [Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-security.md).
 
 </td></tr></tbody>
 </table>7.  On the summary screen, select **Edit this flow** to open your flow.
 
 
 
-    For an example of how to build a flow, see [Build your first flow in Flow Designer](https://www.servicenow.com/docs/access?context=build-your-first-flow&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+    For an example of how to build a flow, see Build your first flow in Flow Designer.
 
 8.  Add a trigger to your flow.
 
@@ -108,7 +109,7 @@ Roles that the flow runs with. This option is available only when **Run as** is 
 
     2.  From the Trigger list, select a trigger that will start running your flow.
 
-        For more information on trigger types, see [Workflow Studio flow trigger types](https://www.servicenow.com/docs/access?context=flow-triggers&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+        For more information on trigger types, see .
 
         The system displays a set of fields depending on the type of trigger that you've selected.
 
@@ -136,7 +137,7 @@ Action
 
 </td><td>
 
-Select the desired action. Workflow Studio includes [Workflow Studio actions](https://www.servicenow.com/docs/access?context=flow-actions&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US) that are available to flows and subflows. Alternatively, a user with the action\_designer role can create additional actions to add to flows. The [Integration Hub](https://www.servicenow.com/docs/access?context=integrationhub&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) and [Spokes](https://www.servicenow.com/docs/access?context=spokes&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US) plugins install additional actions.
+Select the desired action. Workflow Studio includes  that are available to flows and subflows. Alternatively, a user with the action\_designer role can create additional actions to add to flows. The  and  plugins install additional actions.
 
  To add draft actions from the More Actions menu, set **Show draft actions** to **true**.
 
@@ -173,7 +174,7 @@ Select a published subflow and define the input values. In addition to adding a 
 
 10. To specify how the app will handle errors, enable the **ERROR HANDLER** switch and fill in the fields.
 
-    For more information on configuring how errors are handled in flows, see [Flow error handler](https://www.servicenow.com/docs/access?context=flow-error-handler&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+    For more information on configuring how errors are handled in flows, see Flow error handler.
 
 11. Select **Save**.
 
@@ -182,12 +183,12 @@ Select a published subflow and define the input values. In addition to adding a 
 
 ## What to do next
 
-Test your flow until you're ready to activate it. For more information on testing and editing flows, see [Activate a flow](https://www.servicenow.com/docs/access?context=flow-activate&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+Test your flow until you're ready to activate it. For more information on testing and editing flows, see Activate a flow.
 
 **Note:** Your application can trigger only activated flows.
 
--   **[Modify a flow](edit-flow.md)**  
+-   **[Modify a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/edit-flow.md)**  
 To update or change an existing flow for an app you built in App Engine Studio \(AES\), edit it.
 
-**Parent Topic:**[Add logic and automation](../concept/add-automation.md)
+**Parent Topic:**[Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-automation.md)
 

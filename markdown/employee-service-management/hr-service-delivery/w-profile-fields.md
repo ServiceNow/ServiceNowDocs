@@ -2,6 +2,7 @@
 title: Mapping worker profile fields
 description: The Run Workday Integration Flow schedule flow maps Worker profile fields from Workday to the HR profile fields in ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/w-profile-fields.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

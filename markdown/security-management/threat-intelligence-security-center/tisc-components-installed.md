@@ -2,6 +2,7 @@
 title: Components installed with Threat Intelligence Security Center
 description: Several types of components are installed when you download and activate the Threat Intelligence Security Center application, including user roles and properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-components-installed.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

@@ -2,6 +2,7 @@
 title: Configuring Personal Data Rights request type
 description: Create a request type in the Personal Data Rights application to categorize and manage the personal data rights requests. After you create a request type, the personal data rights agents and the task owners can select the required request type on the request form while working on a personal data rights request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/configure-pdr-request-type.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -27,7 +28,7 @@ Role required: sn\_grc\_pdr.pdr\_admin
 
 2.  On the form, fill in the fields.
 
-    For a description of the field values on the request type form, see [Personal Data Rights request type form](../reference/pdr-request-type-form.md).
+    For a description of the field values on the request type form, see [Personal Data Rights request type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/pdr-request-type-form.md).
 
 3.  Open the form context menu and select **Save**.
 
@@ -51,8 +52,8 @@ Role required: sn\_grc\_pdr.pdr\_admin
 7.  To add Jurisdictions that are affected by the record type, select **New** and fill in the form as required.
 
 
--   **[Personal Data Rights request type form](../reference/pdr-request-type-form.md)**  
+-   **[Personal Data Rights request type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/pdr-request-type-form.md)**  
 Use the Request Type form in the Personal Data Rights application to categorize the personal data rights requests by their type.
 
-**Parent Topic:**[Configuring Personal Data Rights](../concept/configuring-personal-data-rights.md)
+**Parent Topic:**[Configuring Personal Data Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/configuring-personal-data-rights.md)
 

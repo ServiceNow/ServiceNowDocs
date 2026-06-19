@@ -2,6 +2,7 @@
 title: Functionality enhancements in Test Management 2.0
 description: Test Management 2.0 offers a few functionality enhancements over Test Management 1.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/test-management/functionality-enhancements-test.html
 release: zurich
 product: Test Management
 classification: test-management

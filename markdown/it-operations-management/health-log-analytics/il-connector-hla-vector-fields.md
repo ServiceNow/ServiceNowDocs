@@ -2,6 +2,7 @@
 title: Vector Agent integration configuration fields
 description: Description of the fields on the Vector Agent integration configuration forms for Health Log Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/il-connector-hla-vector-fields.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -16,7 +17,7 @@ breadcrumb: [Integration configuration field descriptions, Health Log Analytics 
 
 Description of the fields on the Vector Agent integration configuration forms for Health Log Analytics.
 
-For the Vector Agent integration setup procedure, see [Set up a Vector Agent integration for Health Log Analytics](../task/il-connector-hla-vector.md) .
+For the Vector Agent integration setup procedure, see [Set up a Vector Agent integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/il-connector-hla-vector.md) .
 
 <table id="table_ttp_1wb_c3c"><thead><tr><th>
 
@@ -72,5 +73,5 @@ Description
 Option to add a brief description of the integration to help identify it.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integration configuration field descriptions](../concept/hla-connector-config-fields.md)
+</table>**Parent Topic:**[Integration configuration field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

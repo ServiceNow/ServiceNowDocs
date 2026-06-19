@@ -2,6 +2,7 @@
 title: Managing task scheduling conflicts
 description: Some updates to work order tasks \(WOTs\) can cause conflicts when they occur during a scheduled task run. You can use a table to track these scheduling conflicts as they arise. Tracking conflicts helps you monitor and resolve issues efficiently, ensuring that WOTs and agent schedules remain up-to-date and aligned.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/managing-task-scheduling-conflicts.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling

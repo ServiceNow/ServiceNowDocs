@@ -2,6 +2,7 @@
 title: Using interactions in Agent Workspace for HR Case Management
 description: Use interaction records to create an HR case or reference employee information to decide to create a case or request from different types of employee communications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-interactions.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -23,5 +24,5 @@ Interaction records are automatically created when you are using agent chat.
 
 **Note:** Agent Assist is available for interactions.
 
-For more information on interactions, see [Interaction records in Agent Workspace](https://www.servicenow.com/docs/access?context=interaction-message-agent-workspace&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+For more information on interactions, see Interaction records in Agent Workspace.
 

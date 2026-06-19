@@ -2,6 +2,7 @@
 title: Verify the NIST RMF Use Case Accelerator
 description: After installing the GRC: NIST RMF Use Case Accelerator, review the NIST RMF application structure, core content, and demo data, if selected during installation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/verify-nist-rmf.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -17,7 +18,7 @@ After installing the GRC: NIST RMF Use Case Accelerator, review the NIST RMF app
 
 ## Before you begin
 
-**Note:** Starting with version 10.1.0, the NIST RMF Use Case Accelerator will be supported only for customers who currently use the product. New and existing customers should consider using the GRC: Continuous Authorization Monitoring application. For details, [Continuous Authorization and Monitoring](../../grc-cam/reference/grc-cam-landing-page.md).
+**Note:** Starting with version 10.1.0, the NIST RMF Use Case Accelerator will be supported only for customers who currently use the product. New and existing customers should consider using the GRC: Continuous Authorization Monitoring application. For details, [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/grc-cam-landing-page.md).
 
 Role required: admin
 
@@ -59,5 +60,5 @@ Role required: admin
     |**Risk** &gt; **Remediation Tasks** &gt; **All Open Remediation Tasks**|Perform a search for all Remediation tasks where an issue identified on the remediation task has **Item.Content.Source = NIST 800-53-r4**.|
 
 
-**Parent Topic:**[\(Deprecated\) NIST RMF Use Case Accelerator](../concept/grc-and-nistrmf-usecase-accelerator.md)
+**Parent Topic:**[\(Deprecated\) NIST RMF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-and-nistrmf-usecase-accelerator.md)
 

@@ -2,6 +2,7 @@
 title: How Agent Client Collector for Visibility - Content works
 description: Agent Client Collector for Visibility - Content \(ACC-VC\) requires installation of ServiceNow Agent Client Collector \(ACC\) on the target host. ACC is a derivative of Sensu-Go, an open-source software.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/how-acc-v-works.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -41,7 +42,7 @@ The ACC-VC Check Definition, **Enhanced Discovery**, is initiated by the Service
 
 During this time, the MID Server also serves any relevant Assets or Plugins that the ACC requests, making sure it is relevant to the particular Operating System, platform, OS version, and architecture on which the ACC is running.
 
-You can edit and modify all parts of the ACC-VC application including check type, policy, and check definition. See [Checks and policies](checks-policies.md) for more information.
+You can edit and modify all parts of the ACC-VC application including check type, policy, and check definition. See [Checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/checks-policies.md) for more information.
 
 ## Virtual machines and cloud instances
 
@@ -54,5 +55,5 @@ The following variants of virtualization and cloud server vendors are supported 
 -   Google \(GCP\)
 -   Microsoft Azure
 
-**Parent Topic:**[Exploring Agent Client Collector Framework](exploring-agent-client-collector-framework.md)
+**Parent Topic:**[Exploring Agent Client Collector Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/exploring-agent-client-collector-framework.md)
 

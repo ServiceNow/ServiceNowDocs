@@ -2,6 +2,7 @@
 title: Using Financial Services Payment Operations
 description: Learn how branch workers and agents use the Financial Services Payment Operations application to submit and manage payment inquiry requests, claims and debit approvals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-payment-operations/using-payment-operations.html
 release: zurich
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
@@ -23,7 +24,7 @@ Contributors and back-office agents use personalized Workspace to work on all as
 -   Focus on high-priority items
 -   Easily navigate across tasks
 
-For more information, see [Workspaces](../../fso-common/concept/fso-workspace.md).
+For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-workspace.md).
 
 <table id="table_qy1_452_wrb"><thead><tr><th>
 
@@ -79,7 +80,7 @@ Payment admin
 
 </td><td>
 
-Configures the payment workspace as per business requirements. For more information, see [Configure CSM Configurable Workspace](../../fso-common/task/configure-csm-workspace-fso-apps.md).
+Configures the payment workspace as per business requirements. For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-csm-workspace-fso-apps.md).
 
 </td></tr></tbody>
 </table>## Automated workflows
@@ -88,7 +89,7 @@ Predefined workflows for payment cases are available with Financial Services Pay
 
 When a customer requests a payment service, a payment contributor initiates a case and updates its details, triggering the workflow. The flow triggers various tasks from the case and the assignment rules route these tasks to the appropriate back-office agents such as claim agent and inquiry agents. The agents work on these tasks to fulfill the payment inquiry and claim requests.
 
-For more information, see [Financial Services Payment Operations workflow example](payment-ops-workflow-example.md).
+For more information, see [Financial Services Payment Operations workflow example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/payment-ops-workflow-example.md).
 
 ## Case playbook
 

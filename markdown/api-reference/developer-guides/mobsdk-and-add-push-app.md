@@ -2,6 +2,7 @@
 title: Add a push application record
 description: You must enter your Google Firebase Cloud Messaging server key in your push application record to use push notifications in a Mobile SDK application that leverages Virtual Agent and push notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/developer-guides/mobsdk-and-add-push-app.html
 release: zurich
 product: Developer Guides
 classification: developer-guides

@@ -2,6 +2,7 @@
 title: Create a catalog request for onboarding multiple assets
 description: Create a catalog request for onboarding multiple assets on a single model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/create-asset-onboard-catalog-req.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -35,15 +36,15 @@ A minimum of one asset is required to submit a catalog request. Each catalog req
 
 3.  On the form, fill in the fields.
 
-<table id="choicetable_isk_ybf_gzb"><thead><tr><th align="left" id="d324600e92">
+<table id="choicetable_isk_ybf_gzb"><thead><tr><th align="left" id="d155452e92">
 
 Field
 
-</th><th align="left" id="d324600e95">
+</th><th align="left" id="d155452e95">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d324600e101">
+</th></tr></thead><tbody><tr><td id="d155452e101">
 
 **Due by**
 
@@ -51,7 +52,7 @@ Description
 
 Date by when the asset onboarding must be complete.This field is optional.
 
-</td></tr><tr><td id="d324600e112">
+</td></tr><tr><td id="d155452e112">
 
 **Requested for**
 
@@ -59,7 +60,7 @@ Date by when the asset onboarding must be complete.This field is optional.
 
 Person for whom the asset is requested.This field is optional.
 
-</td></tr><tr><td id="d324600e123">
+</td></tr><tr><td id="d155452e123">
 
 **Stockroom**
 
@@ -67,7 +68,7 @@ Person for whom the asset is requested.This field is optional.
 
 Select a stockroom for the assets.
 
-</td></tr><tr><td id="d324600e132">
+</td></tr><tr><td id="d155452e132">
 
 **Is new model?**
 
@@ -79,7 +80,7 @@ Select this check box for a new model you want to create. Once selected, enter t
 -   Short description
 **Note:** The above information is collected for creating a model record. The model record gets created in the Enterprise Asset Workspace.
 
-</td></tr><tr><td id="d324600e161">
+</td></tr><tr><td id="d155452e161">
 
 **Model**
 
@@ -87,7 +88,7 @@ Select this check box for a new model you want to create. Once selected, enter t
 
 Select an existing model record for the assets.
 
-</td></tr><tr><td id="d324600e170">
+</td></tr><tr><td id="d155452e170">
 
 **Add**
 

@@ -2,6 +2,7 @@
 title: Assign roles for Healthcare and Life Sciences Service Management Core users
 description: Assign roles to control access to features, capabilities, and data in the Healthcare and Life Sciences Service Management Core application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-assign-serv-mgmt-core-roles.html
 release: zurich
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -17,7 +18,7 @@ Assign roles to control access to features, capabilities, and data in the Health
 
 ## Before you begin
 
-Set the application scope to Healthcare and Life Sciences using the application picker. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+Set the application scope to Healthcare and Life Sciences using the application picker. For more information, see Application picker.
 
 Role required: sn\_hcls.manager or admin
 
@@ -407,6 +408,6 @@ sn\_hcls.revenue\_cycle\_data\_viewer
 
 -   Assign roles to users and groups using the ServiceNow AI Platform user administration feature.
 
-    -   To assign a role to a user, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
-    -   To assign a role to a group, see [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    -   To assign a role to a user, see Assign a role to a user.
+    -   To assign a role to a group, see Assign a role to a group.
 

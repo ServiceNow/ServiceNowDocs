@@ -2,6 +2,7 @@
 title: Identify crews and agents for crew tasks on Dispatcher Workspace
 description: Identify the most eligible crew and agents based on crew skills and distance to assign them to work order tasks that need a crew.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/sort-crews-for-wot.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -23,7 +24,7 @@ Roles required: wm\_dispatcher
 
 Crews are sorted in alphabetic order by default. Agents are recommended based on the selection criteria defined in the **Agents for crew tasks** filter. For more information, see
 
-[Search for tasks that need a crew on Dispatcher Workspace](search-crew-task.md)
+[Search for tasks that need a crew on Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/search-crew-task.md)
 
 ## Procedure
 
@@ -33,7 +34,7 @@ Crews are sorted in alphabetic order by default. Agents are recommended based on
 
 3.  Search for and select work order tasks that need a crew in the task panel.
 
-    For more information, see [Search for tasks that need a crew on Dispatcher Workspace](search-crew-task.md).
+    For more information, see [Search for tasks that need a crew on Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/search-crew-task.md).
 
     The agent panel displays the list of crews sorted based on the default sorting criteria.
 
@@ -43,7 +44,7 @@ Crews are sorted in alphabetic order by default. Agents are recommended based on
 
     **Note:**
 
-    The agent panel displays a task-specific crew on the top of the list if one has been created for the selected work order task. For more information, see [Create ad hoc task-specific crews](create-adhoc-crew.md)
+    The agent panel displays a task-specific crew on the top of the list if one has been created for the selected work order task. For more information, see [Create ad hoc task-specific crews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/create-adhoc-crew.md)
 
 5.  Sort the crew list based on distance or skills.
 

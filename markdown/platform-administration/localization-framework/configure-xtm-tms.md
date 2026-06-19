@@ -2,6 +2,7 @@
 title: Configure XTM TMS in the Localization Framework
 description: Configure XTM TMS to use the XTM TMS service in the Localization Framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/localization-framework/configure-xtm-tms.html
 release: zurich
 product: Localization Framework
 classification: localization-framework
@@ -29,7 +30,7 @@ Roles required: connection\_admin
 
 3.  In the Connection Attributes tab of the form, provide the **template\_id** and **customer\_id** attributes, and save the form.
 
-4.  In the Connections tab, open the XTM connection record by selecting the information icon \(![Information icon.](../image/information-icon.png)\).
+4.  In the Connections tab, open the XTM connection record by selecting the information icon \(\[Omitted image "information-icon.png"\] Alt text: Information icon.\).
 
     A connection record for XTM is created when the XTM TMS spoke is installed with the Localization Framework Installer plugin \(com.glide.localization\_framework.installer\) activation. All the form fields are populated with the information fetched through the XTM spoke installation.
 
@@ -39,11 +40,11 @@ Roles required: connection\_admin
 
     A record for OAuth 2.0 credentials is created when the XTM TMS spoke is installed with the Localization Framework Installer plugin \(com.glide.localization\_framework.installer\) activation.
 
-6.  In the **OAuth Entity Profile** field, select the information icon \(![Information icon.](../image/information-icon.png)\) to open the record.
+6.  In the **OAuth Entity Profile** field, select the information icon \(\[Omitted image "information-icon.png"\] Alt text: Information icon.\) to open the record.
 
     An OAuth Entity Profile is created when the XTM TMS spoke is installed with the Localization Framework Installer plugin \(com.glide.localization\_framework.installer\) activation.
 
-7.  In the **OAuth provider** field, select the information icon \(![Information icon.](../image/information-icon.png)\) to open the **Application Registries** \[oauth\_entity\] record.
+7.  In the **OAuth provider** field, select the information icon \(\[Omitted image "information-icon.png"\] Alt text: Information icon.\) to open the **Application Registries** \[oauth\_entity\] record.
 
     An Application Registries record is created when the XTM TMS spoke is installed with the Localization Framework Installer plugin \(com.glide.localization\_framework.installer\) activation.
 
@@ -62,5 +63,5 @@ Roles required: connection\_admin
     Once the OAuth token is created, the ServiceNow® platform regenerates the token until the refresh token expires.
 
 
-**Parent Topic:**[Translation Management System configurations](../concept/tms-configuration.md)
+**Parent Topic:**[Translation Management System configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/tms-configuration.md)
 

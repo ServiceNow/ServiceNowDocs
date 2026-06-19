@@ -2,6 +2,7 @@
 title: Configuration Item \[cmdb\_ci\] class
 description: Attributes in the Configuration Item \[cmdb\_ci\] class, which extends the Base Configuration Item \[cmdb\] class.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-table-property-descriptions.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -17,15 +18,15 @@ Attributes in the Configuration Item \[cmdb\_ci\] class, which extends the Base 
 
 **Warning:** Do not modify any of these attributes in the dictionary. For example, do not modify the type of the **location** attribute from reference to list. Such modifications may prevent features that use the CMDB, from functioning properly.
 
-For descriptions of common CMDB tables in a base system, see [CMDB tables descriptions](cmdb-tables-details.md).
+For descriptions of common CMDB tables in a base system, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 ## Common core, user tables
 
-![Common core, user tables.](../image/CriticalCommonCoreUserTables.png)
+\[Omitted image "CriticalCommonCoreUserTables.png"\] Alt text: Common core, user tables.
 
 ## CMDB CI schema related to common core and non-core tables
 
-![CMDB CI schema related to common core and other tables.](../image/CISchemaModel.png)
+\[Omitted image "CISchemaModel.png"\] Alt text: CMDB CI schema related to common core and other tables.
 
 ## Attributes
 

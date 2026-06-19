@@ -2,6 +2,7 @@
 title: Create a learning task
 description: Create learning tasks for agents to keep track of their learning activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/create-learning-task-configurable-wfo-itsm.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -21,13 +22,13 @@ Role required: sn\_wfo\_cfg\_itsm.manager
 
 ## About this task
 
-Set learning task completion due dates to include or exclude weekends using the **exclude\_weekends\_on\_learning\_task\_due\_date** system property. For more information, see [Workforce Optimization for ITSM Reference](../reference/configurable-wfo-itsm-coaching-reference.md).
+Set learning task completion due dates to include or exclude weekends using the **exclude\_weekends\_on\_learning\_task\_due\_date** system property. For more information, see [Workforce Optimization for ITSM Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-coaching-reference.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Workforce Optimization for ITSM** &gt; **Manager Workspace**.
 
-2.  Click the coaching icon \(![Coaching icon](../image/coaching-icon-uib.png)\).
+2.  Click the coaching icon \(\[Omitted image "coaching-icon-uib.png"\] Alt text: Coaching icon\).
 
 3.  Click the **Learning** tab.
 
@@ -85,5 +86,5 @@ Date when the agent must complete the course. Default is 5 days after the creati
 </table>6.  Click **Save**.
 
 
-**Parent Topic:**[Learning in Workforce Optimization for ITSM](../concept/workforce-learning-configurable-wfo-itsm.md)
+**Parent Topic:**[Learning in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/workforce-learning-configurable-wfo-itsm.md)
 

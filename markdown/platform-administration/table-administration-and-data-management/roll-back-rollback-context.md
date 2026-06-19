@@ -2,6 +2,7 @@
 title: Roll back patch upgrades or plugin activations
 description: Use the Rollback Contexts module to roll back patch upgrades and plugin activations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/roll-back-rollback-context.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -22,7 +23,7 @@ Role required: admin
 Review this information and requirements before performing rollback:
 
 -   Rolling back is possible only between patches in the same software release. For example, Rolling back is possible from Orlando patch 2 to patch 1, but not from Orlando to New York.
--   The rollback must be done within 10 days of the most recent upgrade or plugin activation. If you need to retain a rollback context for more than 10 days, you can do so by adding a system property. See [Rollback context properties](../reference/rollback-context-properties.md).
+-   The rollback must be done within 10 days of the most recent upgrade or plugin activation. If you need to retain a rollback context for more than 10 days, you can do so by adding a system property. See [Rollback context properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/rollback-context-properties.md).
 -   You can only roll back to the previous version.
 
     For example, rolling back from patch 3 to patch 1 requires two rollbacks.
@@ -54,5 +55,5 @@ Review this information and requirements before performing rollback:
     If not, contact Customer Service and Support.
 
 
-**Parent Topic:**[Roll back and delete recovery](../concept/rollback-delete-recovery.md)
+**Parent Topic:**[Roll back and delete recovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/rollback-delete-recovery.md)
 

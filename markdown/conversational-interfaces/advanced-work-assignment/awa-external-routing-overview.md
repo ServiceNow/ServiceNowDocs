@@ -2,6 +2,7 @@
 title: External routing overview
 description: External Routing involves routing to external queue based on the service channel and queue conditions, and then the assignment is completed by the third-party system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/awa-external-routing-overview.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -33,9 +34,9 @@ When Advanced Work Assignment is configured to use external routing:
 
 These APIs are required for external routing:
 
--   AWA Assignment API to support the external routing system to assign work items. For information on AWA Assignment API, see [AWA Assignment API](https://www.servicenow.com/docs/access?context=awa_manual_assign-api&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) .
--   Work item table API \(awa\_work\_item\) to look up the queued work items waiting for assignment. For information on table API, see [Table API](https://www.servicenow.com/docs/access?context=c_TableAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
--   AWA Agent API if the external solution requires validation of agent availability within Workspace before assignment. For more information on the AWA Agent API, see [AWA Agent API](https://www.servicenow.com/docs/access?context=agent-api&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+-   AWA Assignment API to support the external routing system to assign work items. For information on AWA Assignment API, see AWA Assignment API .
+-   Work item table API \(awa\_work\_item\) to look up the queued work items waiting for assignment. For information on table API, see Table API.
+-   AWA Agent API if the external solution requires validation of agent availability within Workspace before assignment. For more information on the AWA Agent API, see AWA Agent API.
 
 ## Functionality of AWA components
 
@@ -108,5 +109,5 @@ When Advanced Work Assignment is configured for external routing:
 -   The work item is immediately assigned to Accept, when the Auto-assign value is true.
 -   The auto-assigned work item is either displayed as an Inbox card, or both Inbox card and workspace tab. If the auto-assign value is false, this field is ignored.
 
-**Parent Topic:**[Exploring Advanced Work Assignment](awa-overview.md)
+**Parent Topic:**[Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-overview.md)
 

@@ -2,6 +2,7 @@
 title: Automation rules
 description: The Automation rules define how AI assets are set to be under managed assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/automation-rules.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
@@ -30,11 +31,11 @@ The Administrators can configure system-enforced limits on asset management rule
 
 ## Rules execution
 
-Only active rules are evaluated during scheduled runs; inactive rules are skipped. The scheduled job 'Run AI Asset Management Rules’ is executed for every 6 hours, but AI stewards can trigger immediate execution on any active rule using the **Run Now** action. Rules that are no longer needed can be deleted. If an asset is qualified for a rule, it will be automatically moved under managed assets.
+Only active rules are evaluated during scheduled runs; inactive rules are skipped. The scheduled job 'Run AI Asset Management Rules’ is executed for every 6 hours, but AI stewards can trigger immediate execution on any active rule using the Run Now action. Rules that are no longer needed can be deleted. If an asset is qualified for a rule, it will be automatically moved under managed assets.
 
 ## References
 
-For information on managed and unmanaged assets, see [Assets list- managed and unmanaged assets](../task/assets-list-managing-and-unmanaging-assets.md)
+For information on managed and unmanaged assets, see [Managing AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/assets-list-managing-and-unmanaging-assets.md)
 
-For information on creating rules, see [Create an Automation rule](../task/create-automation-rules.md)
+For information on creating rules, see [Create an Automation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-automation-rules.md)
 

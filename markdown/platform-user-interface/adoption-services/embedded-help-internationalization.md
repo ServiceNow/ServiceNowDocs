@@ -2,6 +2,7 @@
 title: Embedded Help internationalization
 description: Embedded Help internationalization provides the ability for you to localize your embedded help content to a variety of languages to meet global user needs. You can write your embedded help content in a language of your choice and decide what languages to display.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/embedded-help-internationalization.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
@@ -19,7 +20,7 @@ Existing embedded help content records are written in English by default. You ca
 
 ## Localized Embedded Help content
 
-To translate English Embedded Help content into another language or to create embedded help content in a language other than English, your working session must be configured to the language in which you want to write. For example, you must be working in a French session if you want to write embedded help content in French. Refer to [Localization settings](https://www.servicenow.com/docs/access?context=system-localization-landing&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) for more information.
+To translate English Embedded Help content into another language or to create embedded help content in a language other than English, your working session must be configured to the language in which you want to write. For example, you must be working in a French session if you want to write embedded help content in French. Refer to Localization settings for more information.
 
 Configure embedded help content to display in the language of your choice by accessing the **Language** field on the Embedded Help Queue \[sys\_embedded\_help\_queue\] table. Depending on the foreign language translations activated on your instance, you can choose which language to display your embedded help content.
 
@@ -45,8 +46,8 @@ For example, if an admin user is in a French working session and requests embedd
 
 If there is no embedded help content for the French admin role, but there is content for the French itil role and English admin role, the French itil role takes priority over the English admin role. The French-language content will display at the itil-role level.
 
--   **[Create internationalized embedded help](../task/create-international-embedded-help.md)**  
+-   **[Create internationalized embedded help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/create-international-embedded-help.md)**  
 Translate provided English Embedded Help content into other languages or create custom Embedded Help content in the language of your choice.
 
-**Parent Topic:**[Embedded Help planning](embedded-help-planning.md)
+**Parent Topic:**[Embedded Help planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/embedded-help-planning.md)
 

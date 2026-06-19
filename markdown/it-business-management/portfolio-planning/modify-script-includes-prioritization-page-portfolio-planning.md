@@ -2,6 +2,7 @@
 title: Modify Script Includes for Prioritization page in Portfolio Planning
 description: Modify the Script Includes for List and Hierarchy views of the Prioritization page to change the columns to be highlighted in these views in the workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/modify-script-includes-prioritization-page-portfolio-planning.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -39,7 +40,7 @@ Role required: admin
 
 ## What to do next
 
-[Create new highlighted values for Prioritization columns in Portfolio Planning](create-highlighted-values-prioritization-portfolio-planning.md)
+[Create new highlighted values for Prioritization columns in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/create-highlighted-values-prioritization-portfolio-planning.md)
 
-**Parent Topic:**[Customizing highlighted fields on prioritization tab of Portfolio Planning workspace](../concept/customizing-highlighted-fields-prioritization-page-portfolio-planning-workspace.md)
+**Parent Topic:**[Customizing highlighted fields on prioritization tab of Portfolio Planning workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/customizing-highlighted-fields-prioritization-page-portfolio-planning-workspace.md)
 

@@ -2,6 +2,7 @@
 title: Non-monetary Benefit Plan form
 description: Use the Non-monetary Benefit Plan form to specify the potential non-financial benefits accrued by the demand, when it's executed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/demand-management/non-monetary-benefit-plan-form.html
 release: zurich
 product: Demand Management
 classification: demand-management
@@ -220,5 +221,5 @@ Non-monetary actual benefit
 Actual benefit value that is rolled up from the actual benefit in the non-monetary benefit plan breakdown.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Demand Management forms](../concept/demand-management-forms.md)
+</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/demand-management-forms.md)
 

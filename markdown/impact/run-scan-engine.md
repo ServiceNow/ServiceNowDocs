@@ -2,7 +2,10 @@
 title: Run your first scan with the Scan Engine
 description: An initial full Scan Engine completion is required to set a baseline from a series of tasks performed that tune the instance environment to complete future scans quickly and efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/run-scan-engine.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-08-28"
 reading_time_minutes: 2
@@ -15,7 +18,7 @@ An initial full Scan Engine completion is required to set a baseline from a seri
 
 ## Before you begin
 
-[Activate Scan Engine and review settings](configure-initial-scan-engine-settings.md) before beginning this task.
+[Activate Scan Engine and review settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-initial-scan-engine-settings.md) before beginning this task.
 
 You can complete the configuration steps directly in the Guided Setup interface or can configure the properties using the indicated navigation path.
 
@@ -33,7 +36,7 @@ Role required: impact admin role or admin
 
 3.  Navigate to **All** &gt; **Impact** &gt; **Platform Health** &gt; **Scan Engine** &gt; **Scan Status**.
 
-    See [Analytics Dashboards](../concept/scan-engine-diagnostic-dashboards.md):
+    See [Analytics Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/scan-engine-diagnostic-dashboards.md):
 
     -   View the different charts and reports available at **Impact****Platform Health****Analytics Dashboard**.
     -   Access refreshed Health Scan engine dashboards each time a scan is completed.
@@ -44,13 +47,13 @@ Role required: impact admin role or admin
 
 ## What to do next
 
-Configure the Impact Store Application and import data from the Impact Delivery Instance. See [Run the Service Exchange pre-configuration scan](perform_pre_configuration_health_checks_impact_store_app.md) for next steps.
+Configure the Impact Store Application and import data from the Impact Delivery Instance. See [Run the Service Exchange pre-configuration scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/perform_pre_configuration_health_checks_impact_store_app.md) for next steps.
 
-After the Impact Store Application is configured, you can integrate with your other environments running Impact and utilize Scan Engine diagnostics. A one-time configuration, available in both Basic Auth and OAuth 2.0, is required to connect your instances. See [Scan Engine integrations](../concept/instance-integration-scan-engine.md) for details.
+After the Impact Store Application is configured, you can integrate with your other environments running Impact and utilize Scan Engine diagnostics. A one-time configuration, available in both Basic Auth and OAuth 2.0, is required to connect your instances. See [Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/instance-integration-scan-engine.md) for details.
 
-**Parent Topic:**[Configure the Impact Store Application](../concept/configuring-impact-platform.md)
+**Parent Topic:**[Configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-impact-platform.md)
 
-**Previous topic:**[Activate Scan Engine and review settings](configure-initial-scan-engine-settings.md)
+**Previous topic:**[Activate Scan Engine and review settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-initial-scan-engine-settings.md)
 
-**Next topic:**[Run the Service Exchange pre-configuration scan](perform_pre_configuration_health_checks_impact_store_app.md)
+**Next topic:**[Run the Service Exchange pre-configuration scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/perform_pre_configuration_health_checks_impact_store_app.md)
 

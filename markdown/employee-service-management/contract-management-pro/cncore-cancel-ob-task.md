@@ -2,6 +2,7 @@
 title: Cancel an obligation task
 description: Cancel an open obligation task in Obligation Management that is no longer required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-cancel-ob-task.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -31,28 +32,28 @@ Role required: sn\_cm\_obligation.obligation\_fulfiller
 
 1.  Open an obligation task from the workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d347490e70">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d215051e70">
 
 Method
 
-</th><th align="left" id="d347490e73">
+</th><th align="left" id="d215051e73">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d347490e79">
+</th></tr></thead><tbody><tr><td id="d215051e79">
 
 **Contract Workspace**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Contract Workspace**.
-2.  Select the List icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **Obligations**.
 4.  Select **Obligation tasks**.
 5.  Select the obligation task.
 
 
-</td></tr><tr><td id="d347490e127">
+</td></tr><tr><td id="d215051e127">
 
 **Workspace used by your application**
 
@@ -77,5 +78,5 @@ Steps
 
 The state of the obligation task changes to Canceled.
 
-**Parent Topic:**[Obligation Management](../concept/cncore-obligation-management.md)
+**Parent Topic:**[Obligation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-obligation-management.md)
 

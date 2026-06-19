@@ -2,11 +2,12 @@
 title: Exploring the ServiceNow SDK
 description: Learn about developing scoped applications in source code locally and installing changes on an instance with the ServiceNow SDK.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-sdk/servicenow-sdk.html
 release: zurich
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -23,15 +24,15 @@ In Visual Studio Code, you can develop scoped applications in source code using 
 
 The ServiceNow SDK includes a command-line interface \(CLI\) for managing changes between an instance and a local application. Using simple CLI commands, you can authenticate to an instance, create or convert an application, transform application metadata \(XML\) into ServiceNow Fluent code, build and install the application on the instance, and more.
 
-The ServiceNow SDK also serves as the application packaging service that builds applications in the ServiceNow IDE. For more information, see [Exploring the ServiceNow IDE](../../servicenow-ide/concept/exploring-servicenow-ide.md).
+The ServiceNow SDK also serves as the application packaging service that builds applications in the ServiceNow IDE. For more information, see [Exploring the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-ide-family-release/exploring-servicenow-ide.md).
 
 ## ServiceNow SDK workflow
 
 The following infographic shows the workflow for developers to get started developing applications with the ServiceNow SDK.
 
-![Process for using the SDK in a local environment to develop applications and interface with an instance. For details, refer to the following description.](../image/sdk-workflow.png "Developing applications with the ServiceNow SDK")
+\[Omitted image "sdk-workflow.png"\] Alt text: Process for using the SDK in a local environment to develop applications and interface with an instance. For details, refer to the following description.
 
-1.  A developer installs the ServiceNow SDK locally. For more information, see [Install the ServiceNow SDK in an application](../task/install-servicenow-sdk.md).
+1.  A developer installs the ServiceNow SDK locally. For more information, see [Install the ServiceNow SDK in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/install-servicenow-sdk.md).
 2.  Using the CLI, the developer authenticates to a non-production instance to interface between their local environment and the instance with the `now-sdk auth` command. The developer must have the admin role on the instance.
 3.  The developer creates a scoped application \(`now-sdk init`\) or converts an existing scoped application from the instance \(`now-sdk init --from`\) for use with the ServiceNow SDK.
 4.  In Visual Studio Code, the developer can define application metadata in source code using ServiceNow Fluent, create custom JavaScript modules, or use third-party libraries.
@@ -65,7 +66,7 @@ Develop applications offline, outside of an instance in Visual Studio Code and m
 
 </td><td>
 
-[Developing applications with the ServiceNow SDK](developing-applications-sdk.md)[Visual Studio Code documentation](https://code.visualstudio.com/docs)
+[Developing applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/developing-applications-sdk.md)[Visual Studio Code documentation](https://code.visualstudio.com/docs)
 
 </td><td>
 
@@ -77,7 +78,7 @@ Write source code to define the metadata that makes up ServiceNow applications
 
 </td><td>
 
-[ServiceNow Fluent](servicenow-fluent.md)
+[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/servicenow-fluent.md)
 
 </td><td>
 
@@ -89,7 +90,7 @@ Organize and reuse code within scoped applications with custom JavaScript module
 
 </td><td>
 
-[JavaScript modules and third-party libraries](javascript-modules-third-party-libraries.md)
+[JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/javascript-modules-third-party-libraries.md)
 
 </td><td>
 

@@ -2,6 +2,7 @@
 title: View all OT devices by managed network
 description: View your Operational Technology \(OT\) devices by managed network on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-process-manager/view-ot-devices-managed-by-network.html
 release: zurich
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -32,7 +33,7 @@ The All OT Devices by Managed Network list on the ServiceNow AI Platform is a da
 
 Using the All OT Devices by Managed Network list can help you understand the relationship between OT devices and their network.
 
-For more information about the OT Device Network Connection data model, see the **OT Device Network Connection data model** section of [Operational Technology \(OT\) extension classes](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-operation-technology&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+For more information about the OT Device Network Connection data model, see the **OT Device Network Connection data model** section of .
 
 ## Procedure
 
@@ -51,5 +52,5 @@ For more information about the OT Device Network Connection data model, see the 
     |Parent Managed Network|Higher-level managed network that contains or oversees the current managed network.|
 
 
-**Parent Topic:**[Review and update the equipment model details](equipment-model-workspace.md)
+**Parent Topic:**[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/equipment-model-workspace.md)
 

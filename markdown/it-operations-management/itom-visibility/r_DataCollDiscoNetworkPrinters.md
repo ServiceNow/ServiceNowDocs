@@ -2,6 +2,7 @@
 title: Network printer discovery
 description: Discovery identifies and classifies information about network printers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/r\_DataCollDiscoNetworkPrinters.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -15,7 +16,7 @@ breadcrumb: [Network device discovery, Data collected by ITOM Visibility, ITOM V
 
 Discovery identifies and classifies information about network printers.
 
-Discovery can identify and classify Network Printers. For more information, see [Network discovery](../concept/c_NetworkDiscovery.md#).
+Discovery can identify and classify Network Printers. For more information, see [Network discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_NetworkDiscovery.md).
 
 |Label|Table name|Field name|Source|
 |-----|----------|----------|------|
@@ -39,5 +40,5 @@ Discovery can identify and classify Network Printers. For more information, see 
 |Max capacity|discovery\_printer\_supplies|max\_capacity|SNMP, PRINT MIB|
 |Name|cmdb\_ci|name|Shazzam, SNMP, various MIBs|
 
-**Parent Topic:**[Network device discovery](../concept/c_NetworkDevices.md)
+**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_NetworkDevices.md)
 

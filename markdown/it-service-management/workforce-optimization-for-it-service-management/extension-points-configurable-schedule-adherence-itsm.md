@@ -2,6 +2,7 @@
 title: Schedule adherence extension points in Workforce Optimization for ITSM
 description: Use the schedule adherence extension points to call custom scripts for agent schedule adherence and conformance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/extension-points-configurable-schedule-adherence-itsm.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -21,10 +22,10 @@ To access the extension points, navigate to **System Extension Points** &gt; **S
 |--------------------|-----------|
 |sn\_shift\_planning.ScheduleAdherenceExtPt|Implement this extension point to customize the logic for schedule adherence and conformance.|
 
-**Parent Topic:**[Schedule Adherence in Workforce Optimization for ITSM](../concept/schedule-adherence-configurable-itsm.md)
+**Parent Topic:**[Schedule Adherence in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/schedule-adherence-configurable-itsm.md)
 
 **Related topics**  
 
 
-[Using extension points to extend application functionality](https://www.servicenow.com/docs/access?context=extension-points&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.extension-points]
 

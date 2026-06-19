@@ -2,7 +2,10 @@
 title: Modify a sold product and hierarchy
 description: Modify a sold product and its complete hierarchy on the CSM Configurable Workspace so that you can update its existing configurations. For example, you may want to modify a sold product's characteristics and the line items \(hierarchy\) that are associated with it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/modify-a-sold-product.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -39,7 +42,7 @@ Role required: sn\_ind\_tmt\_orm.order\_admin or sn\_ind\_tmt\_orm.order\_agent
 
 6.  On the Configurator UI, modify the existing configurations for the sold product.
 
-    To learn more about the Configurator UI, see [Exploring Sales Customer Relationship Management](https://www.servicenow.com/docs/access?context=som-exploring&version=zurich&pubname=zurich-order-management&ft:locale=en-US).
+    To learn more about the Configurator UI, see .
 
 7.  Select **Update**.
 

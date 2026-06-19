@@ -2,6 +2,7 @@
 title: Understanding STIX TAXII
 description: Structured Threat Information Expression \(STIX\) is a language and serialization format used to exchange cyber threat intelligence \(CTI\). Trusted Automated Exchange of Intelligence Information \(TAXII\) is a protocol used to exchange cyber threat intelligence \(CTI\) over HTTPS.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/threat-intelligence-security-center-feeds.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -19,8 +20,8 @@ With STIX, all aspects of suspicion, compromise, and attribution are represented
 
 Cyber Threat Intelligence \(CTI\) was chartered to define a set of information representations and protocols to address the need to model, analyze, and share cyber threat intelligence. The CTI is primarily focused on development and standardization of Structured Threat Information Expression \(STIX\) and Trusted Automated Exchange of Indicator Information \(TAXII\).
 
--   **[Configure a new TAXII Feed](../task/tisc-configure-a-new-taxii-feed.md)**  
+-   **[Configure a new TAXII Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-configure-a-new-taxii-feed.md)**  
 You can maintain TAXII feeds for sharing STIX-formatted information. Each TAXII feed contains one or more TAXII collections.
 
-**Parent Topic:**[Threat Intelligence Feeds](threat-intelligence-feeds.md)
+**Parent Topic:**[Threat Intelligence Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/threat-intelligence-feeds.md)
 

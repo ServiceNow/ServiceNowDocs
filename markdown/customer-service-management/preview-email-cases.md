@@ -2,7 +2,10 @@
 title: Preview an email from the Emails related list
 description: Preview emails directly from within cases. With this capability, you can select case-related emails and read the details in full view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/preview-email-cases.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -21,9 +24,9 @@ Role required: sn\_customerservice\_agent
 
 For information about adding or modifying actions on a form, see the following topics:
 
--   [Customizing your workspace with declarative actions](https://www.servicenow.com/docs/access?context=declarative-actions-landing&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
+-   Customizing your workspace with declarative actions
 -   Create a UXF client action for forms
--   [Declarative actions glossary](https://www.servicenow.com/docs/access?context=declarative-actions-glossary&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
+-   Declarative actions glossary
 
 ## Procedure
 

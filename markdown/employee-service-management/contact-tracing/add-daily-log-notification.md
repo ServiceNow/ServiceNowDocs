@@ -2,6 +2,7 @@
 title: Configure an email notification for the daily contact log
 description: Configure a custom email notification to use with Emergency Outreach notifications so you can request that users submit a list of other users they came in contact with throughout the workday.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contact-tracing/add-daily-log-notification.html
 release: zurich
 product: Contact Tracing
 classification: contact-tracing
@@ -102,7 +103,7 @@ You created a custom email notification for use as daily contact log with Emerge
 
 ## What to do next
 
-To use this email notification for as your daily contact log, see [Configure an Emergency Outreach notification for the daily contact log](configure-outreach-notif-daily-log.md).
+To use this email notification for as your daily contact log, see [Configure an Emergency Outreach notification for the daily contact log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/configure-outreach-notif-daily-log.md).
 
-**Parent Topic:**[Setting up Contact Tracing](../concept/set-up-contact-tracing.md)
+**Parent Topic:**[Setting up Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/set-up-contact-tracing.md)
 

@@ -2,6 +2,7 @@
 title: Determining the logic in calculating compliance score
 description: Determining the calculation of an entity's compliance score, either by its direct controls or based on its downstream entities and direct controls, is based on the Entity hierarchy based scoring property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/compliance-score-sched-jobs-entities.html
 release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -34,5 +35,5 @@ Trigger points at which the compliance score of an entity is impacted and the en
 7.  When a control is added to an entity or deleted from an entity.
 8.  When the control's status changes.
 
-The **Compliance Score V2** scheduled job picks up the records from the compliance score table to calculate the score. Based on the **Entity hierarchy based scoring** property value, the logic in calculating the entity's compliance score is determined. For more information, see [Properties installed with GRC: Policy and Compliance Management](../../grc-policy-and-compliance/reference/r_InstallWPolAndCompl.md#).
+The **Compliance Score V2** scheduled job picks up the records from the compliance score table to calculate the score. Based on the **Entity hierarchy based scoring** property value, the logic in calculating the entity's compliance score is determined. For more information, see [Properties installed with GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md).
 

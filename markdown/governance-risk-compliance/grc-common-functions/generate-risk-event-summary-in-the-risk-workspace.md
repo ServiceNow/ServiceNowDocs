@@ -2,6 +2,7 @@
 title: Generate a risk event summary in the Risk Workspace
 description: Generate a risk event summary using the Now Assist for IRM application in the Risk Workspace. The approvers get the key insights to understand the context quickly, and reduce the time involved in creating summaries manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/generate-risk-event-summary-in-the-risk-workspace.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -17,9 +18,9 @@ Generate a risk event summary using the Now Assist for IRM application in the Ri
 
 ## Before you begin
 
-Install the Now Assist for IRM application to generate a risk event summary. For more information, see [Now Assist for Integrated Risk Management \(IRM\)](../../grc-common/concept/now-assist-for-irm.md).
+Install the Now Assist for IRM application to generate a risk event summary. For more information, see [Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/now-assist-for-irm.md).
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 Role required: sn\_grc\_risk\_genai.risk\_event\_user
 
@@ -31,13 +32,13 @@ The risk event summarization feature enables risk managers to quickly understand
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Select the list ![](../../grc-compliance-case-mgmt/image/list-icon.png) icon and navigate to the Risk events.
+2.  Select the list \[Omitted image "list-icon.png"\] Alt text: icon and navigate to the Risk events.
 
 3.  Open the risk event that you want to create the risk event summary for.
 
 4.  Generate a risk event summary from the risk event record page by selecting **Summarize**.
 
-    ![Generate risk event summarization button.](../../grc-workspace-risk/image/risk-event-summarization-risk-workspace.png)
+    \[Omitted image "risk-event-summarization-risk-workspace.png"\] Alt text: Generate risk event summarization button.
 
     A summary is generated; you can edit it and save it for reference and reporting purposes.
 

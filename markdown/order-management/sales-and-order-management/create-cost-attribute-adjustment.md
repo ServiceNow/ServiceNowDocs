@@ -2,6 +2,7 @@
 title: Create and publish a cost-based attribute adjustment
 description: Set different product costs based on product attributes, such as model or size, by applying cost adjustments for a product offering by cost book or specified cost book line. The base cost is the cost at the cost book line. Product cost is the base cost plus attribute adjustments. These adjustments are used to display the profit margins in quotes and quote lines, which can be criteria for triggering quote approval rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/create-cost-attribute-adjustment.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,11 +22,11 @@ Role required: sn\_csm\_pricing\_pricelist\_administrator or sn\_csm\_pricing\_p
 
 ## About this task
 
-You select the characteristics of a product that affect the base product cost. Next, use a decision table to create an attribute adjustment rule that defines the conditions for applying the adjustments and the markup or markdown value, either a percentage or amount to be applied for specified characteristics. For more information on using decision tables, see [Using decision tables](https://www.servicenow.com/docs/access?context=using-decision-builder&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+You select the characteristics of a product that affect the base product cost. Next, use a decision table to create an attribute adjustment rule that defines the conditions for applying the adjustments and the markup or markdown value, either a percentage or amount to be applied for specified characteristics. For more information on using decision tables, see .
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 2.  Navigate to **Pricing** &gt; **Attribute Adjustments**.
 
@@ -156,7 +157,7 @@ Product attributes used to differentiate product costs.
 
 7.  Test your decision table.
 
-    For information on testing your decision table before publishing it, see [Test a decision table in Workflow Studio](https://www.servicenow.com/docs/access?context=test-decision-table-in-decision-builder&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+    For information on testing your decision table before publishing it, see .
 
 8.  If this is a product-based cost attribute adjustment, select **Publish** in the **Details** tab for the attribute adjustment to make the attribute adjustment available.
 

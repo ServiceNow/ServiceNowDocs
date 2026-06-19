@@ -2,7 +2,10 @@
 title: IT Operations Management
 description: Get better visibility into your infrastructure and services, prevent service outages, and expand your organization's operational agility with ServiceNow IT Operations Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/r\_ITOMApplications.html
 release: zurich
+product: IT Operations Management
+classification: it-operations-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 5
@@ -18,7 +21,7 @@ Get better visibility into your infrastructure and services, prevent service out
 
 <table id="table_uw5_lxw_sjb"><tbody><tr><td>
 
-![Gain visibility](../image/magnify.png)
+\[Omitted image "magnify.png"\] Alt text: Gain visibility
 
 </td><td>
 
@@ -28,7 +31,7 @@ Get visibility into your infrastructure and services
 
 </td></tr><tr><td>
 
-![Diagnose service issues](../image/wrench.png)
+\[Omitted image "wrench.png"\] Alt text: Diagnose service issues
 
 </td><td>
 
@@ -39,13 +42,13 @@ Avoid and solve service issues effectively
 </td></tr></tbody>
 </table>## Get visibility into your infrastructure and services
 
-![Visibility into discovered resources](../image/visibility-infrastructure_50.png)
+\[Omitted image "visibility-infrastructure\_50.png"\] Alt text: Visibility into discovered resources
 
-Instantly see the service impact of your infrastructure issues and changes, simplify root-cause analysis, and reduce mean time to repair \(MTTR\). End-to-end discovery and service mapping gives you an accurate, up-to-date CMDB view of your IT infrastructure and services. The resulting complete and reliable record is used by other ServiceNow applications, such as ITOM AIOps, ITOM Optimization, and Software Asset Management. In this way, you can improve service quality, strengthen change processes, reduce risk, optimize infrastructure spend, and minimize software compliance issues. For more information, see [ITOM Visibility](itom-visibility-landing-page.md).
+Instantly see the service impact of your infrastructure issues and changes, simplify root-cause analysis, and reduce mean time to repair \(MTTR\). End-to-end discovery and service mapping gives you an accurate, up-to-date CMDB view of your IT infrastructure and services. The resulting complete and reliable record is used by other ServiceNow applications, such as ITOM AIOps, ITOM Optimization, and Software Asset Management. In this way, you can improve service quality, strengthen change processes, reduce risk, optimize infrastructure spend, and minimize software compliance issues. For more information, see [ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/itom-visibility-landing-page.md).
 
 ## Avoid and solve service issues effectively
 
-![Events prioritized on the dashboard](../image/health75.png)
+\[Omitted image "health75.png"\] Alt text: Events prioritized on the dashboard
 
 ITOM AIOps uses the power of AIOps to turn events into actionable alerts. Pinpoint service issues and rapidly identify and remediate the root cause. Unlike legacy event management systems, which are static and rule based, ITOM AIOps applies machine learning and advanced analytics to correlate events, adapting automatically to rapidly evolving virtualized and cloud environments. For more information, see [ITOM Health](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/resource-center/data-sheet/ds-itom-health.pdf).
 
@@ -57,7 +60,7 @@ Accelerate your cloud strategy with ITOM Cloud Accelerate. Improve your organiza
 
 The ServiceNow AI Platform® uses a licensing method where your organization is billed for using the following IT Operations Management products: ServiceNow® ITOM Visibility, ServiceNow® ITOM Discovery, ServiceNow® ITOM AIOps, ServiceNow® Health Log Analytics, ServiceNow® ITOM Optimization, and ServiceNow® ITOM Cloud Accelerate.
 
-The ServiceNow Product Documentation doesn't provide information on prices, packaging, or other details determined by your organization customer contract. For general information about licensing and subscriptions, see [ITOM/OT SU Licensing and subscriptions](itom-su-licensing-landing-page.md).
+The ServiceNow Product Documentation doesn't provide information on prices, packaging, or other details determined by your organization customer contract. For general information about licensing and subscriptions, see [ITOM/OT SU Licensing and subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-su-licensing-landing-page.md).
 
 ## Get started
 
@@ -79,15 +82,15 @@ The ServiceNow Product Documentation doesn't provide information on prices, pack
 
 ## Applications and features
 
--   [ITOM licensing and subscriptions](itom-su-licensing-landing-page.md)
--   [ITOM Cloud Accelerate](../../itom-cloud-accelerate/reference/itom-cloud-accelerate-landing-page.md)
--   [ITOM Visibility](itom-visibility-landing-page.md)
--   [Visibility: Discovery](../../discovery/reference/r-discovery.md)
--   [Visibility: Service Mapping](../../service-mapping/reference/c_ServiceMappingOverview.md)
--   [ITOM Health](itom-health-landing-page.md)
--   [Health: Event Management](../../event-management/concept/c_EM.md)
--   [Health: Health Log Analytics](../../health-log-analytics-admin/reference/hla-landing-page.md)
--   [Health: Agent Client Collector](../../agent-client-collector/concept/acc-landing-page.md)
--   [ITOM Optimization](itom-optimization-landing-page.md)
--   [Optimization: Cloud Provisioning and Governance](../../cloud-management-v2/concept/cloud-management-v2-landing-page.md)
+-   [ITOM licensing and subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-su-licensing-landing-page.md)
+-   [ITOM Cloud Accelerate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/itom-cloud-accelerate-landing-page.md)
+-   [ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/itom-visibility-landing-page.md)
+-   [Visibility: Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r-discovery.md)
+-   [Visibility: Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/c_ServiceMappingOverview.md)
+-   [ITOM Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-health-landing-page.md)
+-   [Health: Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/c_EM.md)
+-   [Health: Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-landing-page.md)
+-   [Health: Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-landing-page.md)
+-   [ITOM Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-optimization-landing-page.md)
+-   [Optimization: Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloud-management-v2-landing-page.md)
 

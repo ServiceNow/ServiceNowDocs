@@ -2,6 +2,7 @@
 title: Turnstile workflow activity
 description: The Turnstile activity limits how many times a workflow can pass through the same point.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-activities/r\_TurnstileActivity.html
 release: zurich
 product: Workflow Activities
 classification: workflow-activities
@@ -15,7 +16,7 @@ breadcrumb: [Utility workflow activities, Workflow activities reference, Workflo
 
 The **Turnstile** activity limits how many times a workflow can pass through the same point.
 
-Use this activity to prevent infinite loops. This activity is useful alongside the [Rollback To workflow activity](https://www.servicenow.com/docs/access?context=r_RollbackTo&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) activity.
+Use this activity to prevent infinite loops. This activity is useful alongside the  activity.
 
 ## Results
 
@@ -55,5 +56,5 @@ The activity state tells the workflow engine what to do with the activity.
 |Cancelled|This activity, or the workflow that contains this activity, was canceled.|
 |Error|A JavaScript error occurred. Review the logs for error details.|
 
-**Parent Topic:**[Utility workflow activities](../concept/c_UtilityActivities.md)
+**Parent Topic:**[Utility workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-activities/c_UtilityActivities.md)
 

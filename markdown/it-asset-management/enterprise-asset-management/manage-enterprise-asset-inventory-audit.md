@@ -2,6 +2,7 @@
 title: Manage enterprise asset inventory audit using the ServiceNow Agent app
 description: Use the ServiceNow Agent application to scan the enterprise assets that you want to include in your stockroom inventory audits. After you scan all enterprise assets, you can complete the audit on your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/manage-enterprise-asset-inventory-audit.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management

@@ -2,6 +2,7 @@
 title: Create decision tables in Workflow Studio
 description: Create decision tables in Workflow Studio to embed business logic into a series of if-then decision rules. Use decision tables when business logic is complex or may be reused in multiple places.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/create-decision-table-in-decision-designer.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -17,7 +18,7 @@ Create decision tables in Workflow Studio to embed business logic into a series 
 
 ## Before you begin
 
-Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://www.servicenow.com/docs/access?context=aes-app-dev-workflow&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
 
 ## About this task
 
@@ -103,7 +104,7 @@ Add reference filter
 
 </td><td>
 
-Option to filter the list of reference records in a linked condition column where the input type is **Reference** and the Data to evaluate is **Reference record**. Use this field to build a filter condition statement. For more information, see [Filter reference inputs and results in a decision table](../concept/format-decision-table-in-decision-designer.md#).
+Option to filter the list of reference records in a linked condition column where the input type is **Reference** and the Data to evaluate is **Reference record**. Use this field to build a filter condition statement. For more information, see [Filter reference inputs and results in a decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/format-decision-table-in-decision-designer.md).
 
 </td></tr></tbody>
 </table>    **Note:** For the Choice input type, the ability to select an existing choice list depends on the choice list living on a table in the same application scope as the decision table. For example, if you create a decision table in the Global scope, you can use any existing choice list on tables in the Global scope. But, if you create a decision table in a custom scope, you can only use existing choice lists from tables in the same custom scope.
@@ -174,7 +175,7 @@ Default operator
 
 </td><td>
 
-How every row in the condition column evaluates a user-specified value. A default operator is required for all input data types except for True or False.For more information about operators, see [Operators available for filters and queries](https://www.servicenow.com/docs/access?context=r_OpAvailableFiltersQueries&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+How every row in the condition column evaluates a user-specified value. A default operator is required for all input data types except for True or False.For more information about operators, see .
 
 </td></tr></tbody>
 </table>10. Select **Done**.
@@ -244,7 +245,7 @@ Add reference filter
 
 </td><td>
 
-Option to filter the list of reference records in the result column when the result type is Reference. Use this field to build a filter condition statement. For more information, see [Filter reference inputs and results in a decision table](../concept/format-decision-table-in-decision-designer.md#).
+Option to filter the list of reference records in the result column when the result type is Reference. Use this field to build a filter condition statement. For more information, see [Filter reference inputs and results in a decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/format-decision-table-in-decision-designer.md).
 
 </td></tr></tbody>
 </table>    **Note:** The Currency and True/False result types have several important exceptions.
@@ -261,17 +262,17 @@ Option to filter the list of reference records in the result column when the res
     -   Point to a result column and select the plus icon \(+\).
 16. For each condition, click into the empty box in the condition column to select an operator and enter a value.
 
-    ![Decision table with empty cells](../image/populate-decision-table.png)
+    \[Omitted image "populate-decision-table.png"\] Alt text: Decision table with empty cells
 
-    For more information about operators, see [Operators available for filters and queries](https://www.servicenow.com/docs/access?context=r_OpAvailableFiltersQueries&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    For more information about operators, see .
 
-17. To modify a decision table condition in Decision rule view, select the Decision rule row menu options icon \(![Decision rule row menu options.](../image/ellipses.png)\) to the left of the row number, and then select **Open in Decision rule view**.
+17. To modify a decision table condition in Decision rule view, select the Decision rule row menu options icon \(\[Omitted image "ellipses.png"\] Alt text: Decision rule row menu options.\) to the left of the row number, and then select **Open in Decision rule view**.
 
     Decision rule view supports complex conditions that may not fit into the table structure.
 
-    ![Decision rule view.](../image/decision-rule-view.png "Decision rule view")
+    \[Omitted image "decision-rule-view.png"\] Alt text: Decision rule view.
 
-    **Note:** Using Decision rule view can result in creating complex conditions. Tables with advanced rows can be edited in Excel but advanced rows are read-only. For more information, see [Manage decision tables in Excel](../concept/manage-decision-tables-ms-excel.md). Where possible, split complex decisions into multiple simplified decision rule rows.
+    **Note:** Using Decision rule view can result in creating complex conditions. Tables with advanced rows can be edited in Excel but advanced rows are read-only. For more information, see [Manage decision tables in Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/manage-decision-tables-ms-excel.md). Where possible, split complex decisions into multiple simplified decision rule rows.
 
     1.  Edit the condition as needed.
 
@@ -279,7 +280,7 @@ Option to filter the list of reference records in the result column when the res
 
 18. For each result, click into the empty box in the result column and enter a result value.
 
-    ![Empty decision table, adding results](../image/populate-decision-table-results.png)
+    \[Omitted image "populate-decision-table-results.png"\] Alt text: Empty decision table, adding results
 
 19. Add more decision rules by selecting **Add new decision row** and entering conditions and desired results.
 
@@ -287,10 +288,10 @@ Option to filter the list of reference records in the result column when the res
 
 21. Select **Publish**.
 
-    A modal appears asking if you’re sure you want to publish. If you want to make edits to this table after it's published, you must create a draft of the table. For more information about editing a published decision table, see [Edit decision tables using draft authoring](edit-decision-tables-using-draft-authoring.md).
+    A modal appears asking if you’re sure you want to publish. If you want to make edits to this table after it's published, you must create a draft of the table. For more information about editing a published decision table, see [Edit decision tables using draft authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/edit-decision-tables-using-draft-authoring.md).
 
 22. Select **Publish**.
 
 
-**Parent Topic:**[Using decision tables](../concept/using-decision-builder.md)
+**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/using-decision-builder.md)
 

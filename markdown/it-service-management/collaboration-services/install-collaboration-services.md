@@ -2,6 +2,7 @@
 title: Install Collaboration services
 description: You can install the Collaboration services application \(sn\_tcm\_collab\_hook\) if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/collaboration-services/install-collaboration-services.html
 release: zurich
 product: Collaboration Services
 classification: collaboration-services
@@ -26,18 +27,18 @@ You can install the Collaboration services application \(sn\_tcm\_collab\_hook\)
 
         -   **ServiceNow for Microsoft Teams**
 
-            If you want to integrate ServiceNow for Microsoft Teams, install the IT Service Management integration with Microsoft Teams or HR Service Delivery integration with Microsoft Teams applications as required. For more information on the integration, see [ServiceNow for Microsoft Teams](https://www.servicenow.com/docs/access?context=c_ServiceNowForMSTeams&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+            If you want to integrate ServiceNow for Microsoft Teams, install the IT Service Management integration with Microsoft Teams or HR Service Delivery integration with Microsoft Teams applications as required. For more information on the integration, see ServiceNow for Microsoft Teams.
 
         -   **ServiceNow for Zoom**
 
-            If you want to integrate ServiceNow instance with Zoom, for complete information, see [ServiceNow for Zoom](https://www.servicenow.com/docs/access?context=sn_zoomIntegration&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+            If you want to integrate ServiceNow instance with Zoom, for complete information, see ServiceNow for Zoom.
 
 
 Role required: admin
 
 ## About this task
 
-For the tables that are installed with Collaboration services, refer [Components installed with Collaboration services](../reference/installed-with-collaboration-services.md)
+For the tables that are installed with Collaboration services, refer [Components installed with Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/installed-with-collaboration-services.md)
 
 .
 
@@ -49,7 +50,7 @@ For the tables that are installed with Collaboration services, refer [Components
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -62,8 +63,8 @@ For the tables that are installed with Collaboration services, refer [Components
 5.  Select **Install**.
 
 
--   **[Components installed with Collaboration services](../reference/installed-with-collaboration-services.md)**  
+-   **[Components installed with Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/installed-with-collaboration-services.md)**  
 Several types of components are installed with activation of the Collaboration services application.
 
-**Parent Topic:**[Configuring Collaboration services](../concept/configuring-collab-services.md)
+**Parent Topic:**[Configuring Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/configuring-collab-services.md)
 

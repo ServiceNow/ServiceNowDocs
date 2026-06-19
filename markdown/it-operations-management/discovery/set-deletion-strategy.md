@@ -2,11 +2,12 @@
 title: Set a deletion strategy
 description: Set a deletion strategy when you want to take action on a related configuration item \(CI\) that Discovery can no longer find through pattern discovery. You can delete the main CI only when it is an Application or Cloud Resource pattern type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/set-deletion-strategy.html
 release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 2
 breadcrumb: [CI deletion strategies for pattern discovery, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -18,11 +19,11 @@ Set a deletion strategy when you want to take action on a related configuration 
 ## Before you begin
 
 -   CIs: a main CI and related CIs that the discovery process found through pattern discovery
--   Role required: cloud\_admin, service\_mapping\_admin, discovery\_admin, or admin
+-   Role required: cloud\_admin, service\_mapping\_admin, discovery\_admin, or admin. Starting from Visibility Content version 6.30.0, pd\_admin and pd\_mid are also supported.
 
 ## About this task
 
-You can set a deletion strategy for all discovered CIs, including configuration file CIs. However, the way you access the deletion strategy for tracked configuration files differs from the procedure in this topic. See [Set the deletion strategy for tracked configuration files](set-config-file-deletion-strategy.md) for instructions.
+You can set a deletion strategy for all discovered CIs, including configuration file CIs. However, the way you access the deletion strategy for tracked configuration files differs from the procedure in this topic. See [Set the deletion strategy for tracked configuration files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/set-config-file-deletion-strategy.md) for instructions.
 
 ## Procedure
 
@@ -34,7 +35,7 @@ You can set a deletion strategy for all discovered CIs, including configuration 
 
     Notice that the **cmdb\_ci\_cloud\_database** CI types have the **Is Main CI** value set to **true**. This indicates that you can set a deletion strategy for both AWS and Azure databases, even if they are the main CI that cloud discovery finds.
 
-    ![Cloud database CIs](../image/deletion-strategy-main-ci-cloud-database.png)
+    \[Omitted image "deletion-strategy-main-ci-cloud-database.png"\] Alt text: Cloud database CIs
 
 3.  From the list view, double click the value in the field in the **Deletion Strategy** column.
 
@@ -90,5 +91,5 @@ Marks the **Status** \[install\_status\] field of the configuration file CI reco
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[CI deletion strategies for pattern discovery](../concept/deletion-strategy.md)
+**Parent Topic:**[CI deletion strategies for pattern discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/deletion-strategy.md)
 

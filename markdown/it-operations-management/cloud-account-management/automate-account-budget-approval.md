@@ -2,13 +2,14 @@
 title: Automate Budget Approval policy process
 description: Automate finance approvals for Cloud Account Management requests based on predefined conditions. Approve requests automatically when criteria are met. Otherwise, wait for manual approval. Modify the default policy to include additional conditions as necessary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/automate-account-budget-approval.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Review request policies, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Review request policies, Configuring Cloud Account Management, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Automate Budget Approval policy process
@@ -33,7 +34,7 @@ This procedure demonstrates how to approve or reject a budget using the account 
 
 4.  Under the **Policy builder** tab, in the **If** condition block, make a note of the source fields against the highlighted values.
 
-    ![Customizing budget approval policy](../image/pace_budget_approval.png)
+    \[Omitted image "pace\_budget\_approval.png"\] Alt text: Customizing budget approval policy
 
     **Note:** In this section, you're validating two conditions:
 
@@ -55,9 +56,9 @@ This procedure demonstrates how to approve or reject a budget using the account 
 
 ## What to do next
 
-To test the policy, see [Test updates to a PaCE policy version](https://www.servicenow.com/docs/access?context=pace-test-policy-version&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+To test the policy, see .
 
-To publish the policy, see [Publish a PaCE policy version](https://www.servicenow.com/docs/access?context=pace-publish-policy-version&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+To publish the policy, see .
 
-To add a new approval step in the flow designer, see [Using Workflow Studio](https://www.servicenow.com/docs/access?context=building-workflow-studio-components&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+To add a new approval step in the flow designer, see .
 

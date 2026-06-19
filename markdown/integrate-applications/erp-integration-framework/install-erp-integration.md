@@ -2,6 +2,7 @@
 title: Install Zero Copy Connector for ERP
 description: Install the Zero Copy Connector for ERP \(Enterprise Resource Planning\) application \(sn\_erp\_integration\) from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/install-erp-integration.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -18,7 +19,7 @@ Install the Zero Copy Connector for ERP \(Enterprise Resource Planning\) applica
 
 ## Before you begin
 
-For a complete list of prerequisites for installing Zero Copy Connector for ERP, including licensing information, see [Requirements for installing Zero Copy Connector for ERP](../reference/erpc-prereqs-for-installation.md).
+For a complete list of prerequisites for installing Zero Copy Connector for ERP, including licensing information, see [Requirements for installing Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erpc-prereqs-for-installation.md).
 
 Role required: admin
 
@@ -51,5 +52,5 @@ An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the
 
 **Note:** You must enable the **sn\_erp\_integration.enableModelModification** property on the correct scope.
 
-**Parent Topic:**[Configuring Zero Copy Connector for ERP](../concept/erp-integration-configuration-overview.md)
+**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-integration-configuration-overview.md)
 

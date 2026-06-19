@@ -2,6 +2,7 @@
 title: View and work on delegated legal duties
 description: Delegate legal duties relating to your assigned legal requests, legal matters, legal matter tasks, and approvals to another user when you might not have time or are unavailable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-request-management/view-delegated-legal-duties-approval.html
 release: zurich
 product: Legal Request Management
 classification: legal-request-management
@@ -23,7 +24,7 @@ Role required: legal\_fulfiller
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Click the list icon \(![List icon](../image/lsd-lcc-list-icon.png)\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Delegate to me**, click a list item to see records assigned to the user who delegated you their duties.
 
@@ -34,5 +35,5 @@ Role required: legal\_fulfiller
 4.  Open a record from the list to view and work on it.
 
 
-**Parent Topic:**[Delegation of legal duties and approvals](../concept/legal-services-delegation.md)
+**Parent Topic:**[Delegation of legal duties and approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/legal-services-delegation.md)
 

@@ -2,6 +2,7 @@
 title: Components installed with Workplace Move Management
 description: Several types of components are installed with the Workplace Move Management application, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/components-installed-with-workplace-move-mgmt.html
 release: zurich
 topic_type: reference
 last_updated: "2025-07-31"
@@ -13,7 +14,7 @@ breadcrumb: [Reference, Workplace Move Management, Workplace Service Delivery, E
 
 Several types of components are installed with the Workplace Move Management application, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -116,7 +117,7 @@ Workplace Move Case\[sn\_wsd\_move\_case\]
 
 </td><td>
 
-Stores information about all the move cases and child move cases created in the application.**Note:** This table is a child table of Workplace tasks \[sn\_wsd\_core\_workplace\_task\] in Workplace Core. If **WSD: Archive old workplace tasks** archival rule is applied then Workplace Move Case \[sn\_wsd\_move\_case\] table is also archived. For more information, see [Apply the archive rule](../../workplace-service-delivery/task/wsd-tables-purge-policy.md).
+Stores information about all the move cases and child move cases created in the application.**Note:** This table is a child table of Workplace tasks \[sn\_wsd\_core\_workplace\_task\] in Workplace Core. If **WSD: Archive old workplace tasks** archival rule is applied then Workplace Move Case \[sn\_wsd\_move\_case\] table is also archived. For more information, see [Apply the archive rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/wsd-tables-purge-policy.md).
 
 </td></tr><tr><td>
 
@@ -132,8 +133,8 @@ Workplace Move Task\[sn\_wsd\_move\_task\]
 
 </td><td>
 
-Stores information about all the move tasks and child move tasks created in the application.**Note:** If **WSD: Archive old workplace tasks** archival rule is applied then Workplace Move Task \[sn\_wsd\_move\_task\] table is also archived. For more information, see [Apply the archive rule](../../workplace-service-delivery/task/wsd-tables-purge-policy.md).
+Stores information about all the move tasks and child move tasks created in the application.**Note:** If **WSD: Archive old workplace tasks** archival rule is applied then Workplace Move Task \[sn\_wsd\_move\_task\] table is also archived. For more information, see [Apply the archive rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/wsd-tables-purge-policy.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Move Management references](../concept/workplace-move-mgmt-references.md)
+</table>**Parent Topic:**[Workplace Move Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-move-mgmt-references.md)
 

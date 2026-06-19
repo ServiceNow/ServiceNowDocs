@@ -2,6 +2,7 @@
 title: Analyze Benchmarks
 description: Use the ServiceNow Benchmarks application to collect historical data to analyze the benefits of year-over-year growth. View the Benchmarks KPI data and drill down to analyse the performance analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/benchmarks/using-benchmarks.html
 release: zurich
 product: Benchmarks
 classification: benchmarks

@@ -2,6 +2,7 @@
 title: Bubble reports
 description: Bubble reports plot data points on X and Y axes and use a third aggregate dimension to define bubble size.Create a bubble report to display multiple separate metrics on a single chart.Change the look of your bubble report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/c\_BubbleCharts.html
 release: zurich
 product: Reporting
 classification: reporting
@@ -15,17 +16,17 @@ breadcrumb: [Report types, Reporting, Reporting, dashboards, and Performance Ana
 
 Bubble reports plot data points on X and Y axes and use a third aggregate dimension to define bubble size.
 
-**Note:** When accessibility is enabled, this visualization includes a report that screen readers can interpret. For more information, see [Enabling accessibility features](https://www.servicenow.com/docs/access?context=c_SetUpSect508ComplianceFeature&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+**Note:** When accessibility is enabled, this visualization includes a report that screen readers can interpret. For more information, see Enabling accessibility features.
 
-This topic refers to Reporting in the Core UI. For instances migrated to Platform Analytics experience and new Zurich instances, see [Create a bubble data visualization in the Visualization Designer](../task/create-dv-bubble-ac.md).
+This topic refers to Reporting in the Core UI. For instances migrated to Platform Analytics experience and new Zurich instances, see [Create a bubble data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-dv-bubble-ac.md).
 
 Bubble reports can use numeric values to define the X and Y axes, and an aggregate value to determine the size of each bubble.
 
 For example, when using Demand Management you can create a bubble report on the Demand table to compare risk and reward for various demands. Each bubble represents one demand. The risk and financial return determine the position of each bubble, while the total financial benefit for the demand determines the bubble size. You can quickly identify demands with low risk and high reward using the large bubbles in the top left of the report.
 
-![Bubble report](../image/bubble_chart.png)
+\[Omitted image "bubble\_chart.png"\] Alt text: Bubble report
 
-**Parent Topic:**[Report types](../reference/report-types-creation-details-rd.md)
+**Parent Topic:**[Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-types-creation-details-rd.md)
 
 ## Create a bubble report
 
@@ -45,43 +46,43 @@ Bubble reports aggregate information over three different metrics, using the X a
 
     -   On an upgraded instance that has not been fully migrated to Platform Analytics, navigate to **All** &gt; **Reports** &gt; **Create New**.
     -   On a new instance or one that has been fully migrated to Platform Analytics, navigate to **All** &gt; **Platform Analytics Administration** &gt; **Usage and governance** &gt; **Reports** and select **New**.
-2.  On instances with Unified Analytics enabled, and on new Zurich instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**. For more information, see [Differences between Core UI and Platform Analytics dashboards](../../dashboards/reference/differences-between-core-ui-ne-dbs.md).
+2.  On instances with Unified Analytics enabled, and on new Zurich instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**. For more information, see [Differences between Core UI and Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/differences-between-core-ui-ne-dbs.md).
 
 3.  On the **Data** tab, give the report a name that reflects the information being grouped.
 
 4.  Select the applicable source for the report.
 
-<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d161487e263">
+<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d49582e263">
 
 **Data source**
 
 </td><td>
 
-Also called a report source, a data source is a table with filters applied to provide a single source of information for all users. For more information, see [Report sources](c_ReportSources.md#).**Note:** If you select a data source used by existing reports, a notification prompts you to view them.
+Also called a report source, a data source is a table with filters applied to provide a single source of information for all users. For more information, see [Report sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_ReportSources.md).**Note:** If you select a data source used by existing reports, a notification prompts you to view them.
 
-</td></tr><tr><td id="d161487e282">
+</td></tr><tr><td id="d49582e282">
 
 **Table**
 
 </td><td>
 
-The raw data from a table with no filters applied. When you select a table, its short description appears below the table name. For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see [Retrieving external data using remote tables and scripts](https://www.servicenow.com/docs/access?context=remote-tables&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+The raw data from a table with no filters applied. When you select a table, its short description appears below the table name. For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see Retrieving external data using remote tables and scripts
 
-</td></tr><tr><td id="d161487e301">
+</td></tr><tr><td id="d49582e301">
 
 **External import**
 
 </td><td>
 
-Choose an existing imported report source, or select the Upload icon \(![Upload icon](../image/upload-icon.png)\) to import a new file. See [Create a Core UI report from an imported Microsoft Excel document](../task/create-report-with-imported-data-source.md).
+Choose an existing imported report source, or select the Upload icon \(\[Omitted image "upload-icon.png"\] Alt text: Upload icon\) to import a new file. See [Create a Core UI report from an imported Microsoft Excel document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/create-report-with-imported-data-source.md).
 
-</td></tr><tr><td id="d161487e326">
+</td></tr><tr><td id="d49582e326">
 
 **MetricBase**
 
 </td><td>
 
-MetricBase enables you to collect, retain, analyze, and visualize custom time series data on the ServiceNow AI Platform. For more information, see [MetricBase](https://www.servicenow.com/docs/access?context=metricbase&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+MetricBase enables you to collect, retain, analyze, and visualize custom time series data on the ServiceNow AI Platform. For more information, see MetricBase.
 
 </td></tr></tbody>
 </table>5.  Select **Next**.
@@ -106,7 +107,7 @@ Group by
 
 </td><td>
 
-Field to group data by. Each value is represented by a unique bubble color on the chart. Select the info icon \(![Info icon](../../par-for-workspace/image/icon-info.png)\) for a description of the selected field.
+Field to group data by. Each value is represented by a unique bubble color on the chart. Select the info icon \(\[Omitted image "icon-info.png"\] Alt text: Info icon\) for a description of the selected field.
 
 **Note:** It is not possible to group or stack reports by the **Tags** field, or by certain field types, such as MEDIUMTEXT.
 
@@ -116,13 +117,13 @@ Additional group by
 
 </td><td>
 
-Extra fields to group the report by. When you select **Additional group by** fields or function fields, the report includes a control at the bottom that allows you to group the report by any one of the additional fields. To group by fields on extended tables as well, see [How to report on extended tables](../task/t_AccessFieldExtendedTable.md#). Click the info icon \(![Info icon](../../par-for-workspace/image/icon-info.png)\) for descriptions of the selected fields Configured function fields appear in this list after you save the report.
+Extra fields to group the report by. When you select **Additional group by** fields or function fields, the report includes a control at the bottom that allows you to group the report by any one of the additional fields. To group by fields on extended tables as well, see [How to report on extended tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_AccessFieldExtendedTable.md). Click the info icon \(\[Omitted image "icon-info.png"\] Alt text: Info icon\) for descriptions of the selected fields Configured function fields appear in this list after you save the report.
 
 **Note:**
 
 -   You can see choices in the **Additional group by** list that do not appear in the main **Group by** list. The report does not support grouping or stacking by the extra fields you see. Unlike the main **Group by** choices, the **Additional group by** fields are not filtered. If you select an unsupported field, it has no effect.
 -   The limitations listed for the main **Group by** field also apply to the **Additional group by** field.
- For more information, see [Add an additional group by or stack by](../task/add-additional-group-by-stack-by.md).
+ For more information, see [Add an additional group by or stack by](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/add-additional-group-by-stack-by.md).
 
 </td></tr><tr><td>
 
@@ -130,7 +131,7 @@ Row
 
 </td><td>
 
-Numeric field to use as the Y axis. Select the info icon \(![Info icon](../../par-for-workspace/image/icon-info.png)\) for a description of the selected field.
+Numeric field to use as the Y axis. Select the info icon \(\[Omitted image "icon-info.png"\] Alt text: Info icon\) for a description of the selected field.
 
 </td></tr><tr><td>
 
@@ -138,7 +139,7 @@ Column
 
 </td><td>
 
-Numeric field to use as the X axis. Select the info icon \(![Info icon](../../par-for-workspace/image/icon-info.png)\) for a description of the selected field.
+Numeric field to use as the X axis. Select the info icon \(\[Omitted image "icon-info.png"\] Alt text: Info icon\) for a description of the selected field.
 
 </td></tr><tr><td>
 
@@ -146,7 +147,7 @@ Configure function field
 
 </td><td>
 
-Configure fields based on calculation of multiple inputs including arithmetic functions. For more information, see [Report on function fields](function-fields-reporting.md). Function field results are calculated when the report is run. You can use the results for aggregations and grouping. You have to save the report before you can configure function fields.Configured function fields appear in the **Group by** and **Additional group by** lists after you save the report.
+Configure fields based on calculation of multiple inputs including arithmetic functions. For more information, see [Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/function-fields-reporting.md). Function field results are calculated when the report is run. You can use the results for aggregations and grouping. You have to save the report before you can configure function fields.Configured function fields appear in the **Group by** and **Additional group by** lists after you save the report.
 
 </td></tr><tr><td>
 
@@ -162,16 +163,16 @@ Mathematical calculation to perform on the data. The default is **Count**, which
 
  Select **Minimum** or **Maximum** to show the maximum or minimum value for each segment of the report.
 
- For more information on aggregation options, see [Aggregation in reporting](../reference/aggregation-reporting.md).
+ For more information on aggregation options, see [Aggregation in reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/aggregation-reporting.md).
 
- If you choose **Average**,**Sum**, **Count Distinct**, **Minimum**, or **Maximum**, you may be able to aggregate on fields from extended tables. See [How to report on extended tables](../task/t_AccessFieldExtendedTable.md#).
+ If you choose **Average**,**Sum**, **Count Distinct**, **Minimum**, or **Maximum**, you may be able to aggregate on fields from extended tables. See [How to report on extended tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_AccessFieldExtendedTable.md).
 
- For information about aggregating on FX currency values, see [FX Currency values in reporting](fx-currency-values-reporting.md#).
+ For information about aggregating on FX currency values, see [FX Currency values in reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/fx-currency-values-reporting.md).
 
 </td></tr></tbody>
 </table>8.  Configure the sort order of the applicable fields in the report \(column, row, Group by, Stack by or Trend by depending on the report type\).
 
-    Select the filter icon \(![Filter icon for lists](../../../common/image/List_FilterIcon.png)\) and choose **Add Sort**.
+    Select the filter icon \(\[Omitted image "List\_FilterIcon.png"\] Alt text: Filter icon for lists\) and choose **Add Sort**.
 
     1.  In the Sorting Order list, choose the field you want to sort on and then choose **a-z** or **z-a** for alphabetical order or reverse alphabetical order.
 
@@ -179,27 +180,29 @@ Mathematical calculation to perform on the data. The default is **Count**, which
 
         **Note:** On fields from dot-walked \(extended\) tables, you can only sort on date fields.
 
-    2.  Select the sort plus icon \(![Sort plus icon](../image/sort-order-plus-icon.png)\) to configure additional sorting order conditions. \(Select the sort minus icon \( ![Sort minus icon](../image/sort-order-minus-icon.png)\) to delete configured sorting order conditions.\)
+    2.  Select the sort plus icon \(\[Omitted image "sort-order-plus-icon.png"\] Alt text: Sort plus icon\) to configure additional sorting order conditions. \(Select the sort minus icon \( \[Omitted image "sort-order-minus-icon.png"\] Alt text: Sort minus icon\) to delete configured sorting order conditions.\)
     3.  Select **Save**.
     For fields of the type Choice list, sort order is not determined alphabetically based on Label, it is sorted based on the **Value** of the choice field. For multi-level pivot table and heatmap reports, sort order is determined by the sequence of the choices in the list.
 
-    ![Report sorted by priority choice list](../image/choice-list-sort-order.png)
+    \[Omitted image "choice-list-sort-order.png"\] Alt text: Report sorted by priority choice list
 
-9.  To limit the information displayed in the report, select the filter icon \(![Filter icon](../../../common/image/List_FilterIcon.png)\) and specify conditions to filter the report data.
+9.  To limit the information displayed in the report, select the filter icon \(\[Omitted image "List\_FilterIcon.png"\] Alt text: Filter icon\) and specify conditions to filter the report data.
 
-    To learn how to construct conditions, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    To learn how to construct conditions, see Condition builder.
 
     **Note:** In aggregated and list reports, language-dependent filter conditions may return zero results on localized instances.
 
 10. On the **Style** tab, fill in the fields as appropriate to configure the appearance of the report.
+
+    See [Bubble report style options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_BubbleCharts.md).
 
 11. Select **Save** to continue editing the visualization, or **Save and close** to return to the Analytics Center main screen.
 
 
 ### What to do next
 
--   Select the Report info icon \(![Info icon](../../../common/image/Form_ReferenceLookupIcon.png)\) and add a description of the report.
--   Select the sharing icon \(![Sharing icon](../image/ShareIcon.png)\) to open the **Sharing** menu. On this menu, you can add the report to a dashboard, export the report to PDF, publish the report to the web, and set visibility and schedules.
+-   Select the Report info icon \(\[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text: Info icon\) and add a description of the report.
+-   Select the sharing icon \(\[Omitted image "ShareIcon.png"\] Alt text: Sharing icon\) to open the **Sharing** menu. On this menu, you can add the report to a dashboard, export the report to PDF, publish the report to the web, and set visibility and schedules.
 
 ## Bubble report style options
 
@@ -257,7 +260,7 @@ Drilldown view
 
 </td><td>
 
-List view to show when a user selects a segment of a report for which no drilldown report type is specified. This view is also used when the user reaches the lowest drilldown level of a report. See [Configure the list layout](https://www.servicenow.com/docs/access?context=t_ConfigureTheListLayout&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) . If you specify a **Report drilldown**, **Drilldown view** is ignored.For more information, see [Define a report drilldown](c_DrillingDownWithinReports.md#).
+List view to show when a user selects a segment of a report for which no drilldown report type is specified. This view is also used when the user reaches the lowest drilldown level of a report. See Configure the list layout . If you specify a **Report drilldown**, **Drilldown view** is ignored.For more information, see [Define a report drilldown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_DrillingDownWithinReports.md).
 
 </td></tr><tr><td>
 
@@ -267,7 +270,7 @@ Decimal precision
 
 Number of decimal places to show. You can show from zero to four decimal places. Default value: 2. To change the default value, create the system property glide.chart.decimal.precision and specify the value. **Note:** Percentage labels do not change accordingly with the decimal precision specified.
 
- ![Decimal precision - Bar report](../image/DecimalPrecision-BarReport.png) ![Decimal precision - Donut report](../image/DecimalPrecision-DonutReport.png)
+ \[Omitted image "DecimalPrecision-BarReport.png"\] Alt text: Decimal precision - Bar report \[Omitted image "DecimalPrecision-DonutReport.png"\] Alt text: Decimal precision - Donut report
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -357,7 +360,7 @@ Show legend
 
 </td><td>
 
-Enable this option to show a chart legend. This check box appears when a **Group by** field is selected on the report form.Legends are truncated by default. To adjust truncation lengths, configure the properties **glide.chart.label.legend.truncate\_to** and **glide.chart.label.legend.truncate\_to.large**. For more information, see [Reporting properties](../reference/reporting-properties.md).
+Enable this option to show a chart legend. This check box appears when a **Group by** field is selected on the report form.Legends are truncated by default. To adjust truncation lengths, configure the properties **glide.chart.label.legend.truncate\_to** and **glide.chart.label.legend.truncate\_to.large**. For more information, see [Reporting properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/reporting-properties.md).
 
 </td></tr><tr><td>
 

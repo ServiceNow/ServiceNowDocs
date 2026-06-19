@@ -2,6 +2,7 @@
 title: PPE Inventory Overview dashboard
 description: Use the PPE Inventory Overview dashboard to track PPE items that are in stock, on order, and assigned to employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/ppe-overview-dashboard.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace
@@ -41,5 +42,5 @@ To view the dashboard, navigate to **PPE Inventory Management** &gt; **Overview 
 |Consumable Models|All models for consumable PPE.|
 |Stock Rules|All stock rules for PPE.|
 
-**Parent Topic:**[Workplace PPE Inventory Management](ppe-inventory-management.md)
+**Parent Topic:**[Workplace PPE Inventory Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/ppe-inventory-management.md)
 

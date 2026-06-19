@@ -2,6 +2,7 @@
 title: IP-Based Discovery Schedule Form Table
 description: A table of the fields and values to set up an IP-based Certificate Discovery schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/ip-based-cert-discovery-schedule-table.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -53,7 +54,7 @@ MID Server
 
 </td><td>
 
-Select a MID Server. **Warning:** Warning: Make sure that your IP address is accessible to the MID Server you’re using. If it doesn’t, you have to [Credential aliases for Discovery](https://www.servicenow.com/docs/access?context=discovery-credential-alias&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+Select a MID Server. **Warning:** Warning: Make sure that your IP address is accessible to the MID Server you’re using. If it doesn’t, you have to Credential aliases for Discovery.
 
 </td></tr><tr><td>
 
@@ -104,5 +105,5 @@ Credential alias
 Optional value
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Certificate Inventory and Management reference](cert-invt-mgmt-references.md)
+</table>**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cert-invt-mgmt-references.md)
 

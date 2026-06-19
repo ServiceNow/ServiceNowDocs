@@ -2,6 +2,7 @@
 title: Use Notify to send SMS codes for enrollment and verification
 description: You can configure the Password Reset application to send SMS codes for enrollment and verification using the ServiceNow Notify application \(via the Twilio SMS Messaging system\). Notify is tightly integrated with the workflow engine and business rules and delivers a highly configurable and trusted way to deliver SMS messages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/password-reset/t\_NotifyForSMSVerification.html
 release: zurich
 product: Password Reset
 classification: password-reset
@@ -36,10 +37,10 @@ Notify requires a separate contract with Twilio.
 
 No other configuration is required. Users who request password change or password reset receive SMS codes through Notify.
 
-**Parent Topic:**[SMS Code Verification type for Password Reset](../concept/c_SMSCodeTypeVerifications.md)
+**Parent Topic:**[SMS Code Verification type for Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/c_SMSCodeTypeVerifications.md)
 
 **Related topics**  
 
 
-[Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+[bundle-platadm.t_ActivateAPlugin]
 

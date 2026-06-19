@@ -2,6 +2,7 @@
 title: Domain separation and Configuration Compliance
 description: Domain separation is supported in Configuration Compliance. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/domain-separation-config-compliance.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance
@@ -32,7 +33,7 @@ Domain separation is supported in Configuration Compliance. Domain separation en
 
 Sample use case: An Admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## How domain separation works in Configuration Compliance
 
@@ -92,7 +93,7 @@ The Configuration Compliance application manages the life cycle of a test result
 
 ## Setup
 
-Setting up domain separation for Configuration Compliance does not require any additional steps. All Configuration Compliance tables acquire the Domain column after the instance is domain separated. You can direct test result integration import data to specific domains. For more information, see [Create domain-separated imports for an integration](../../vulnerability-response/task/create-domain-separated-imports.md). For more information on additional precautions and settings, see [Additional settings for domain separation](../../vulnerability-response/reference/ds-additional-config.md).
+Setting up domain separation for Configuration Compliance does not require any additional steps. All Configuration Compliance tables acquire the Domain column after the instance is domain separated. You can direct test result integration import data to specific domains. For more information, see [Create domain-separated imports for an integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/create-domain-separated-imports.md). For more information on additional precautions and settings, see [Additional settings for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/ds-additional-config.md).
 
 ## Domain-separated data
 
@@ -122,5 +123,5 @@ Data can be domain separated, which means:
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

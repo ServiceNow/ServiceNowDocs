@@ -2,13 +2,14 @@
 title: Domain separation and Playbooks
 description: Data separation is supported for Playbooks. The domain value of the triggering input record determines the domain context. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/process-automation-designer-domain-separation.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Playbooks, Explore, Workflow Studio, Build workflows]
+breadcrumb: [Playbook, Explore, Workflow Studio, Build workflows]
 ---
 
 # Domain separation and Playbooks
@@ -25,7 +26,7 @@ Data separation is supported for Playbooks. The domain value of the triggering i
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## How domain separation works for Playbooks
 
@@ -41,17 +42,17 @@ The system domain separates Playbooks content according to these rules:
 
     **Note:**
 
-    -   A process override refers to a type of [override](https://www.servicenow.com/docs/access?context=domain-sep-override-viewer&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) in domain separation.
-    -   Service providers \(SPs\) can use [domain separation](https://www.servicenow.com/docs/access?context=c_DomainSeparation&version=zurich&pubname=zurich-platform-security&ft:locale=en-US), to logically separate data, processes, and administrative tasks into defined groups.
+    -   A process override refers to a type of override in domain separation.
+    -   Service providers \(SPs\) can use domain separation, to logically separate data, processes, and administrative tasks into defined groups.
 -   **Playbooks configuration files are visible to all domain users**
 
     Playbooks configuration files are not domain separated. Any user with the appropriate roles can view all playbooks, trigger definitions, and activity definitions.
 
 
-**Parent Topic:**[Exploring playbooks](process-automation-designer.md)
+**Parent Topic:**[Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

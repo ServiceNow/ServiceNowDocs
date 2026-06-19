@@ -2,6 +2,7 @@
 title: Get a list of widgets per page
 description: Get a summary of all widgets that appear on Service Portal pages. Use this data to better understand widget customizations and page usage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/portal-analyzer.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -45,13 +46,13 @@ Use the exported list to consider which pages and widgets to focus on while rede
 
 5.  Review the list and, if needed, export it as a CSV, Excel, XML, JSON, or PDF file to reference during a system upgrade.
 
-    For more information on exporting list data, see [List export](https://www.servicenow.com/docs/access?context=export-list-data&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For more information on exporting list data, see List export.
 
 
-**Parent Topic:**[Analyzing portal performance and usage](using-portal-analytics.md)
+**Parent Topic:**[Analyzing portal performance and usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/using-portal-analytics.md)
 
 **Related topics**  
 
 
-[Scheduled jobs](https://www.servicenow.com/docs/access?context=c_ScheduledJobs&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_ScheduledJobs]
 

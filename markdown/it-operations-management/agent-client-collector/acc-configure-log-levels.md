@@ -2,6 +2,7 @@
 title: Configure Agent Client Collector log levels
 description: You configure the log levels that you want the Agent Client Collector logs to contain. All events that match or exceed the specified log level display in the Agent Client Collector logs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-configure-log-levels.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -53,5 +54,5 @@ Role required: agent\_client\_collector\_admin
     **Note:** You must restart the service after changing the log level.
 
 
-**Parent Topic:**[Using Agent Client Collector logs](../concept/logs-acc.md)
+**Parent Topic:**[Using Agent Client Collector logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/logs-acc.md)
 

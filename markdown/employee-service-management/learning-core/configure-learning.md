@@ -2,6 +2,7 @@
 title: Install and configure Learning
 description: Learn how to set up and start using Learning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/configure-learning.html
 release: zurich
 product: Learning Core
 classification: learning-core
@@ -20,14 +21,14 @@ Learn how to set up and start using Learning.
 
 Dependent plugins and apps for Learning:
 
--   [Manager Hub](manager-hub-overview.md)
--   [Skills Foundation](../../skills-intelligence/concept/skills-intelligence.md)
+-   [Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/manager-hub-overview.md)
+-   [Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/skills-intelligence.md)
 
-    When the Skills Foundation property **sn\_skills\_int.enable\_skills** is set to true, the use of Skills Foundation is enabled for all Learning. See [Configuring Skills Foundation](../../skills-intelligence/concept/configuring-skills-intelligence.md) for more information about Skills Foundation properties.
+    When the Skills Foundation property **sn\_skills\_int.enable\_skills** is set to true, the use of Skills Foundation is enabled for all Learning. See [Configuring Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/configuring-skills-intelligence.md) for more information about Skills Foundation properties.
 
--   [Activate and setup Learning](setup-activate-learning.md)
+-   [Activate and setup Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/setup-activate-learning.md)
 
     You can activate the Learning from the ServiceNow store. This application includes demo data and activates related plugins if they aren’t already active.
 
--   [Install Learning](../task/install-learning.md)
+-   [Install Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/install-learning.md)
 

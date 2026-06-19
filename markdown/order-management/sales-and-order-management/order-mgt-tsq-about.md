@@ -2,12 +2,13 @@
 title: Service qualification requests
 description: Use the Technical Service Qualification API to evaluate a service request for feasibility and availability before you submit an order for fulfillment in the Order Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/order-mgt-tsq-about.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
 last_updated: "2025-10-15"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Managing service orders, Order Management, Use, Sales Customer Relationship Management]
 ---
 
@@ -38,7 +39,7 @@ The Technical Service Qualification process enables the service order managers t
 
 ## Qualification process
 
-Customer orders that have the fulfillment type as **Qualify** are captured from third-party customer order management systems through the [Technical Service Qualification Open API](https://www.servicenow.com/docs/access?context=api-reference&version=zurich&pubname=zurich-api-reference&ft:locale=en-US). You can use this API, which is a ServiceNow implementation of the TMF645 API, to request the qualification of services for:
+Customer orders that have the fulfillment type as **Qualify** are captured from third-party customer order management systems through the Technical Service Qualification Open API. You can use this API, which is a ServiceNow implementation of the TMF645 API, to request the qualification of services for:
 
 -   One or more service specifications with characteristics.
 
@@ -53,9 +54,7 @@ Customer orders that have the fulfillment type as **Qualify** are captured from 
     For example, you can make a qualification request to check if the download speed can be upgraded to 500 Mbps for an existing Access Service.
 
 
-Order fulfillment managers can review customer orders that are captured through this API and confirm the availability of services before submitting requests for delivery. The requests are then sent to the external inventory system for approval and the customer order is updated with the result. The following diagram shows the various steps in this process.
-
-![Infographic displaying the workflow of the qualification requester system. For description, refer to the text that follows.](../image/order-mgt-tsq-flow.png "Technical Service Qualification process")
+Order fulfillment managers can review customer orders that are captured through this API and confirm the availability of services before submitting requests for delivery. The requests are then sent to the external inventory system for approval and the customer order is updated with the result.
 
 1.  A qualification requester system sends a qualification request for a customer facing service \(CFS\) into the ServiceNow Order Management system using the TM Forum Open API for Service Qualification \(TMF645\).
 
@@ -66,14 +65,14 @@ Order fulfillment managers can review customer orders that are captured through 
 2.  The system decomposes the order line items into resource facing domain orders \(RFS\) based on catalog definition.
 3.  The Order Management system coordinates and processes the technical service qualification request and returns the response to the external inventory system.
 
--   **[Review and approve service qualification requests](../task/order-mgt-tsq-approve.md)**  
+-   **[Review and approve service qualification requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-mgt-tsq-approve.md)**  
 Review and approve customer orders captured through the Technical Service Qualification API.
--   **[Process Qualification Request subflow](../reference/order-mgt-tsq-subflow.md)**  
+-   **[Process Qualification Request subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-mgt-tsq-subflow.md)**  
 The Process Qualification Request subflow generates a qualification request based on the customer order, sends the request to the third party inventory system, and executes the integration request.
--   **[Edit the Order Qualification Request](../task/edit-order-mgt-tsq-spoke.md)**  
+-   **[Edit the Order Qualification Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/edit-order-mgt-tsq-spoke.md)**  
 Use the Order Qualification Request integration request type in the Order Management for Telecommunications application to process the customer order qualification requests and retrieve the results from the external inventory systems.
--   **[Alternate proposal for service orders](order-mgt-tsq-alternate.md)**  
+-   **[Alternate proposal for service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-mgt-tsq-alternate.md)**  
 Learn how you can provide alternate proposals if a service qualification isn't met.
 
-**Parent Topic:**[Managing service orders](managing-service-orders.md)
+**Parent Topic:**[Managing service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/managing-service-orders.md)
 

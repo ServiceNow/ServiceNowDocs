@@ -1,7 +1,8 @@
 ---
 title: Configure disambiguation
-description: Configure the disambiguation option that controls when the assistant asks clarifying questions before responding to a Now Assist in Virtual Agent or Now Assist panel user request.
+description: Configure the disambiguation property that controls when the assistant asks clarifying questions before responding to a Now Assist in Virtual Agent or Now Assist panel user request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/now-assist-in-virtual-agent/nava-configure-disambiguation-manually.html
 release: zurich
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -13,7 +14,7 @@ breadcrumb: [Configuring assistants overview, Now Assist in Virtual Agent, Conve
 
 # Configure disambiguation
 
-Configure the disambiguation option that controls when the assistant asks clarifying questions before responding to a Now Assist in Virtual Agent or Now Assist panel user request.
+Configure the disambiguation property that controls when the assistant asks clarifying questions before responding to a Now Assist in Virtual Agent or Now Assist panel user request.
 
 ## Before you begin
 
@@ -29,7 +30,13 @@ Disambiguation or clarification helps the Now Assist assistant handle situations
 
 2.  In the selection fields, select **Name** from the drop-down list and enter `type_2_disamb` in the Search field.
 
-3.  Configure the property:
+3.  Configure the disambiguation property:
+
+    If you have
+
+    -   Now Assist in Virtual Agent or
+    -   Now Assist panel \(standard chat, enhanced chat, or premium chat\)
+    then use this configuration:
 
 <table id="table_pkn_sn1_53c"><thead><tr><th>
 
@@ -62,15 +69,11 @@ off
 </td><td>
 
 -   off - clarification is disabled. The assistant responds directly to all queries without asking follow-up questions.
--   low - clarification is triggered only for highly ambiguous queries.
+-   low - clarification is triggered for highly ambiguous queries.
 -   high - clarification is triggered more frequently, covering a broader range of ambiguous queries.
 
 
 </td></tr></tbody>
 </table>4.  To view the disambiguation data, in the filter navigator field, enter `sys_generative_ai_log`.
 
-5.  To filter conversations, use these criteria:
-
-    -   **Definition** contains `planner 2`.
-    -   **Response** contains `clarification_question`.
 

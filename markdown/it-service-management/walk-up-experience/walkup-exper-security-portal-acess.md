@@ -2,6 +2,7 @@
 title: Walk-up Experience portal security and access
 description: Security is built into the application to prevent end-user facing devices at the Walk-up Experience on-site portal from offering elevated role privileges to users. The Walk-up Experience on-site portal is accessed by an account containing only the sn\_walkup.walkup\_login role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/walk-up-experience/walkup-exper-security-portal-acess.html
 release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -21,7 +22,7 @@ Activate the Explicit Role \(com.glide.explicit\_roles\) plugin to assign users 
 
 When upgrading Walk-up Experience installations prior to Rome, the Walk-up Experience user is assigned snc\_internal instead of snc\_external. This is because the Explicit Role plugin assigns all users, including Walk-up Experience users, to snc\_internal. Walk-up Experience cannot remove snc\_internal during upgrade. For new installations of Walk-up Experience, this process works automatically.
 
-**Note:** Refer to [Explicit roles plugin](https://www.servicenow.com/docs/access?context=explicit-roles-plugin&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US) for details about the plugin and [Explicit Roles](https://www.servicenow.com/docs/access?context=explicit-roles&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) for more information about this upgrade process.
+**Note:** Refer to  for details about the plugin and Explicit Roles for more information about this upgrade process.
 
 ## Access to Walk-up Experience
 
@@ -33,11 +34,11 @@ The Explicit Role \(com.glide.explicit\_roles\) plugin was introduced in the Ser
 
 When upgrading Walk-up Experience to Zurich, the Walk-up Experience user is assigned snc\_internal instead of snc\_external. This is because the Explicit Role plugin assigns all users, including the Walk-up Experience user, to snc\_internal. Walk-up Experience cannot remove snc\_internal during upgrade. For new installs of Walk-up Experience, this process works without issue because the Explicit Role plugin installs first, assigns all users to snc\_internal, then the Walk-up Experience user account is created with the snc\_external role already assigned.
 
-**Note:** Refer to [Explicit roles plugin](https://www.servicenow.com/docs/access?context=explicit-roles-plugin&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US) for complete details about the plugin and ServiceNow AI Platform explicit roles.
+**Note:** Refer to  for complete details about the plugin and ServiceNow AI Platform explicit roles.
 
 After upgrading to Zurich, you need to remove the snc\_internal role from the Walk-up Experience user account, or any users created to log into the Walk-up Experience kiosk. Then you need to add the snc\_external role to the users. This process is not necessary for upgrades after Zurich.
 
-**Note:** Refer to [Explicit Roles](https://www.servicenow.com/docs/access?context=explicit-roles&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) for complete details about this process.
+**Note:** Refer to Explicit Roles for complete details about this process.
 
-**Parent Topic:**[Configuring Walk-up Experience](walkup-experience-configuration.md)
+**Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walkup-experience-configuration.md)
 

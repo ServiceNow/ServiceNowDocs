@@ -2,6 +2,7 @@
 title: Agile Development 2.0 integration with Project Portfolio Management
 description: Project Portfolio Management leverages the Agile Development 2.0 application to combine the Scrum methodology with project-based IT development.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/ppm-collaboration/c\_SDLCIntegrationWithProjectPortfolioSuite.html
 release: zurich
 product: PPM Collaboration
 classification: ppm-collaboration
@@ -28,18 +29,18 @@ The flow described below is applicable when Agile Development 2.0 is activated a
 -   Create stories, including one-off stories that are not related to projects.
 -   Track progress in stories, phases, and projects.
 
--   **[Create and manage agile projects](../../project-portfolio-suite/concept/c_CreateAndManageAgileProjects.md)**  
+-   **[Create and manage agile projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/c_CreateAndManageAgileProjects.md)**  
 An overview of the tasks involved in creating an agile project.
--   **[Define an Agile group](../task/t_SDLCPPSCreateATeam.md#)**  
+-   **[Define an Agile group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/t_SDLCPPSCreateATeam.md)**  
 Create an agile assignment group to later assign the work of an agile project.
--   **[Assign a group to a project](../task/t_SDLCPPSAssignATeamToAProject.md)**  
+-   **[Assign a group to a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/t_SDLCPPSAssignATeamToAProject.md)**  
 Assign a group to a project so that the group later works on the tasks of the assigned project.
--   **[Add stories to a project](../task/t_SDLCPPSCreateStories.md#)**  
+-   **[Add stories to a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/t_SDLCPPSCreateStories.md)**  
 Create stories and associate them to a project or add existing stories to your project.
--   **[Plan sprints](../../project-management/task/plan-sprint-activity.md)**  
+-   **[Plan sprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/plan-sprint-activity.md)**  
 Streamline your sprint planning and completion activities using the **Sprint Planning** tab.
--   **[Track progress](../task/t_SDLCPPSTrackProgress.md)**  
+-   **[Track progress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/t_SDLCPPSTrackProgress.md)**  
 Track the progress of an agile phase from the Project Workbench timeline.
 
-**Parent Topic:**[Explore Project Portfolio Management](../../project-portfolio-suite/concept/explore-project-portfolio-management.md)
+**Parent Topic:**[Explore Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/explore-project-portfolio-management.md)
 

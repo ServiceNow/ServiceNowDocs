@@ -2,6 +2,7 @@
 title: Grant or restrict access to an external link
 description: Control who can access external links by setting the user criteria, which allows access only to specific users, groups, roles, and more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/grant-restrict-external-link.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -29,66 +30,66 @@ Role required: sp\_admin, taxonomy\_admin, or taxonomy\_manager
 
 3.  To grant access to the external link, click the **Available For** tab.
 
-<table><thead><tr><th align="left" id="d558720e81">
+<table><thead><tr><th align="left" id="d534280e81">
 
 To
 
-</th><th align="left" id="d558720e84">
+</th><th align="left" id="d534280e84">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d558720e90">
+</th></tr></thead><tbody><tr><td id="d534280e90">
 
 **Add a new user criteria**
 
 </td><td>
 
 1.  Click **New**.
-2.  On the form, fill in the fields. For more information about the form fields and descriptions, see [User Criteria form](../reference/ec-user-criteria-form.md)
+2.  On the form, fill in the fields. For more information about the form fields and descriptions, see [User Criteria form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-user-criteria-form.md)
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d558720e124">
+</td></tr><tr><td id="d534280e124">
 
 **Edit an existing user criteria**
 
 </td><td>
 
 1.  Click **Edit**.
-2.  On the Edit Members form, select the required roles, users, and groups in the Collection column and move them to the Available For List column by clicking the right arrow icon \(![Right arrow icon.](../images/right-arrow-icon.png)\).
+2.  On the Edit Members form, select the required roles, users, and groups in the Collection column and move them to the Available For List column by clicking the right arrow icon \(\[Omitted image "right-arrow-icon.png"\] Alt text: Right arrow icon.\).
 3.  Click **Save**.
 
 
 </td></tr></tbody>
 </table>4.  To restrict access to the external link, click the **Not Available For** tab.
 
-<table><thead><tr><th align="left" id="d558720e170">
+<table><thead><tr><th align="left" id="d534280e170">
 
 To
 
-</th><th align="left" id="d558720e173">
+</th><th align="left" id="d534280e173">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d558720e179">
+</th></tr></thead><tbody><tr><td id="d534280e179">
 
 **Add a new user criteria**
 
 </td><td>
 
 1.  Click **New**.
-2.  On the form, fill in the fields. For more information about the form fields and descriptions, see [User Criteria form](../reference/ec-user-criteria-form.md)
+2.  On the form, fill in the fields. For more information about the form fields and descriptions, see [User Criteria form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-user-criteria-form.md)
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d558720e213">
+</td></tr><tr><td id="d534280e213">
 
 **Edit an existing user criteria**
 
 </td><td>
 
 1.  Click **Edit**.
-2.  On the Edit Members form, select the required roles, users, and groups from the Collection column and move them to the Not Available For List column by clicking the right arrow icon \(![Right arrow icon.](../images/right-arrow-icon.png)\).
+2.  On the Edit Members form, select the required roles, users, and groups from the Collection column and move them to the Not Available For List column by clicking the right arrow icon \(\[Omitted image "right-arrow-icon.png"\] Alt text: Right arrow icon.\).
 3.  Click **Save**.
 
 
@@ -96,5 +97,5 @@ Do this
 </table>    **Note:** The Not Available For settings override the Available For settings. A user on the Not Available For list for an external link cannot access that external link, even if that user is also on the Available For list for that external link.
 
 
-**Parent Topic:**[Create an external link](create-external-links.md)
+**Parent Topic:**[Create an external link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/create-external-links.md)
 

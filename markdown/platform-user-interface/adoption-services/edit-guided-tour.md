@@ -2,6 +2,7 @@
 title: Edit Guided Tours
 description: You can modify the settings of a guided tour by using the Guided Tour Designer \(GTD\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/edit-guided-tour.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
@@ -63,40 +64,40 @@ The base system offers several guided tours for specific applications, such as P
 
 5.  You can perform any of the following tasks in the GTD.
 
-<table id="choicetable_y5v_htx_1z"><thead><tr><th align="left" id="d137736e257">
+<table id="choicetable_y5v_htx_1z"><thead><tr><th align="left" id="d60290e257">
 
 Task
 
-</th><th align="left" id="d137736e260">
+</th><th align="left" id="d60290e260">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d137736e266">
+</th></tr></thead><tbody><tr><td id="d60290e266">
 
 **Edit the text in a step**
 
 </td><td>
 
 1.  Navigate to the UI page where the step is located.
-2.  In the Tour Steps list, hover over the step you want to edit and select the Edit Step icon ![Edit Step](../../../administer/workspace/image/pencil-icon.png).
+2.  In the Tour Steps list, hover over the step you want to edit and select the Edit Step icon \[Omitted image "pencil-icon.png"\] Alt text: Edit Step.
 
-![Edit step](../image/gtd-edit-icon.png)
+\[Omitted image "gtd-edit-icon.png"\] Alt text: Edit step
 
 3.  Edit the text and select **Save**.
 
 
-</td></tr><tr><td id="d137736e301">
+</td></tr><tr><td id="d60290e301">
 
 **Edit trigger in a step**
 
 </td><td>
 
 1.  Navigate to the UI page where the step is located.
-2.  In the Tour Steps list, hover over the step you want to edit and select the Edit Step icon ![Edit Step](../../../administer/workspace/image/pencil-icon.png).
+2.  In the Tour Steps list, hover over the step you want to edit and select the Edit Step icon \[Omitted image "pencil-icon.png"\] Alt text: Edit Step.
 3.  From the Choose action list, select a trigger, and then select **Save**.
 
 
-</td></tr><tr><td id="d137736e331">
+</td></tr><tr><td id="d60290e331">
 
 **Delete an introduction, step, or conclusion**
 
@@ -104,7 +105,7 @@ Action
 
 In the Tour Steps list, hover over the step you want to remove and then select the Delete icon **⊝**.
 
-</td></tr><tr><td id="d137736e343">
+</td></tr><tr><td id="d60290e343">
 
 **Place the callout on a different page element**
 
@@ -115,13 +116,13 @@ In the Tour Steps list, hover over the step you want to remove and then select t
 3.  Enter a message in the **Text** field, select a trigger from the Choose action list, and then select **Save**.
 
 
-</td></tr><tr><td id="d137736e374">
+</td></tr><tr><td id="d60290e374">
 
 **Apply text formatting in the step instructions**
 
 </td><td>
 
-1.  In the Tour Steps list, hover over the step you want to edit and select the Edit Step icon ![Edit Step](../../../administer/workspace/image/pencil-icon.png).
+1.  In the Tour Steps list, hover over the step you want to edit and select the Edit Step icon \[Omitted image "pencil-icon.png"\] Alt text: Edit Step.
 2.  Edit the content and apply formatting as appropriate.
 
 **Note:**
@@ -133,7 +134,7 @@ Don’t add images or video to the text. These media types aren’t supported in
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d137736e408">
+</td></tr><tr><td id="d60290e408">
 
 **Rearrange steps**
 
@@ -141,7 +142,7 @@ Don’t add images or video to the text. These media types aren’t supported in
 
 Drag the steps to the desired order.
 
-</td></tr><tr><td id="d137736e417">
+</td></tr><tr><td id="d60290e417">
 
 **Test the tour**
 
@@ -153,7 +154,7 @@ Select **Preview** if the tour is in draft status.
 
  The page opens in a new window or tab. You can test each step. Note the steps that need corrections.
 
-</td></tr><tr><td id="d137736e441">
+</td></tr><tr><td id="d60290e441">
 
 **Change the guided tour status**
 
@@ -163,5 +164,5 @@ If the tour is in draft status, select **Publish**. If the tour is published, se
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configuring Guided Tours](configure-guided-tours.md)
+**Parent Topic:**[Configuring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/configure-guided-tours.md)
 

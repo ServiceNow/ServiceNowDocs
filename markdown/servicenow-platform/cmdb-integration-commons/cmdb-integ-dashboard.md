@@ -2,6 +2,7 @@
 title: CMDB Integrations Dashboard
 description: You can use the CMDB Integrations Dashboard that provides a central view of status, processing results, and processing errors of all installed Service Graph Connectors and any custom integrations created in IntegrationHub ETL run.Access the CMDB Integrations Dashboard provided with the Integration Commons for CMDB store app for maintaining data consistency and accuracy across multiple data sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/cmdb-integration-commons/cmdb-integ-dashboard.html
 release: zurich
 product: CMDB Integration Commons
 classification: cmdb-integration-commons
@@ -15,13 +16,11 @@ breadcrumb: [Integration Commons for CMDB, Integrating third-party data into CMD
 
 You can use the CMDB Integrations Dashboard that provides a central view of status, processing results, and processing errors of all installed Service Graph Connectors and any custom integrations created in IntegrationHub ETL run.
 
-**Note:** Starting with the Xanadu release, the CMDB Integrations Dashboard is available in the Next Experience user interface. For more information on the Next Experience user interface, see [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+**Note:** Starting with the Xanadu release, the CMDB Integrations Dashboard is available in the Next Experience user interface. For more information on the Next Experience user interface, see .
 
 On the CMDB Integrations Dashboard, you can see metrics for all Service Graph Connector runs, or filter the view to a specific connector, a specific time duration, or a specific connector run.
 
 Learn more about the CMDB Integrations Dashboard from the following video.
-
-CMDB Integrations Dashboard overview
 
 ## Access CMDB Integrations Dashboard
 

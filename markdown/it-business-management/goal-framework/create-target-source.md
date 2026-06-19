@@ -2,6 +2,7 @@
 title: Create a target source for automating the Actual value of the targets
 description: Create a target source so that the goal user can configure it for the targets to automate the Actual value of the targets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/goal-framework/create-target-source.html
 release: zurich
 product: Goal Framework
 classification: goal-framework
@@ -23,7 +24,7 @@ Role required: sn\_gf.goal\_admin
 
 ## About this task
 
-The context variable is required for target source types Assessment/Survey and PA Indicator. The mandatory context variables are automatically created while creating a target source with the type selected as Assessment/Surveys or PA Indicator. For more information on when the mandatory context variables are created, see [Context variable in target source](../concept/context-variable-in-target-source-1.md).
+The context variable is required for target source types Assessment/Survey and PA Indicator. The mandatory context variables are automatically created while creating a target source with the type selected as Assessment/Surveys or PA Indicator. For more information on when the mandatory context variables are created, see [Context variable in target source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
 ## Procedure
 
@@ -33,7 +34,7 @@ The context variable is required for target source types Assessment/Survey and P
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Target Source form](../reference/target-source-form-1.md).
+    For a description of the field values, see [Target Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
 4.  Click **Submit**.
 

@@ -2,11 +2,12 @@
 title: Onboard Rally to DevOps Change Velocity — Classic
 description: With this integration, you can configure and expose data like projects, user stories, and defects from the Rally. You can then associate these planning objects to application for end-to-end traceability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/rally-create-tool.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Rally, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -63,7 +64,7 @@ Use MID Server
 
 </td><td>
 
-MID Server is optional. Select MID Server for an on-premises tool that is attached to a MID Server. The Application value is automatically set to DevOps and the Capability value is set to REST. For more information, see [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+MID Server is optional. Select MID Server for an on-premises tool that is attached to a MID Server. The Application value is automatically set to DevOps and the Capability value is set to REST. For more information, see MID Server selection.
 
 </td></tr></tbody>
 </table>3.  Click **Submit** to connect to your Rally instance.
@@ -98,5 +99,5 @@ MID Server is optional. Select MID Server for an on-premises tool that is attach
     Formatted id is used for the work item NativeID, for associating work items and commits.
 
 
-**Parent Topic:**[Rally integration with DevOps Change Velocity](../concept/rally-devops-integration.md)
+**Parent Topic:**[Rally integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/rally-devops-integration.md)
 

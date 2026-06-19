@@ -2,6 +2,7 @@
 title: Check unassigned interactions
 description: View a list of unassigned interactions in Advanced Work Assignment from chat and phone that are currently waiting in the queue and are not assigned to any agents. You can use this list to debug, implement advanced work assignments, or determine why certain work items are not being assigned.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/awa-unassigned-interactions.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -41,5 +42,5 @@ Role required: awa\_manager or admin
     |Exceeded Queue Target Wait Time|Interaction that has waited longer than the target wait time of the queue.|
 
 
-**Parent Topic:**[Using Advanced Work Assignment](../concept/using-awa.md)
+**Parent Topic:**[Using Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/using-awa.md)
 

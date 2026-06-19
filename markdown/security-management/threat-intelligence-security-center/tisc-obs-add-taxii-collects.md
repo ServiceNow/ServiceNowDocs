@@ -2,6 +2,7 @@
 title: Add to TAXII Collections from Library List View
 description: Add to TAXII Collections feature enables analysts to add the selected threat intelligence including observables, indicators, and objects such as attack patterns, threat actors and so on directly to TAXII collections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-obs-add-taxii-collects.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -37,7 +38,7 @@ Following is the procedure that shows how to add TAXII collections to an observa
 
     All the templates configured on the Outbound Intel Sharing page appear here, allowing you to select the one you need. For more information, see .
 
-    ![Add to TAXII Collections](../image/tisc-add-taxii-collection-lib.png)
+    \[Omitted image "tisc-add-taxii-collection-lib.png"\] Alt text: Add to TAXII Collections
 
 5.  Select **Add**.
 
@@ -69,7 +70,7 @@ Following is the procedure that shows how to add TAXII collections to an observa
 
     When you attempt to add such records to a TAXII Collection, the application will indicate that they have been excluded \(see the screenshot below\), ensuring that only the intended and allowed intelligence is shared. For more information on the exclusion rules, see .
 
-    ![Excluded records on Add to TAXII Collections](../image/tisc-excluded-records-taxii-collect.png)
+    \[Omitted image "tisc-excluded-records-taxii-collect.png"\] Alt text: Excluded records on Add to TAXII Collections
 
 
 ## What to do next
@@ -86,7 +87,7 @@ If a record has a TLP \(Traffic Light Protocol\) classification, such as TLP Whi
 
 This ensures that users accessing the shared intelligence are aware of the requirements of each record. When a record is added to a collection, any relevant metadata or contextual records such as TLP markings are automatically created and linked.
 
-**Note:** When adding records, the Traffic Light Protocol \(TLP\) value associated with the intelligence records is included as a TLP 2.0 marking definition object. For more information, see [Define Marking Definition](define-market-definition.md).
+**Note:** When adding records, the Traffic Light Protocol \(TLP\) value associated with the intelligence records is included as a TLP 2.0 marking definition object. For more information, see [Define Marking Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/define-market-definition.md).
 
 **Managing Global Exclusion Rules in TAXII Collections**
 

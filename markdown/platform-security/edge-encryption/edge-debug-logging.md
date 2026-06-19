@@ -2,6 +2,7 @@
 title: Increase debug logging for the Edge Encryption proxy
 description: Increase the level of logging to interpret the logs and debug issues with the proxy.Use this method to debug issues with the Edge Encryption application, without stopping and restarting the proxy. These steps increase logging level and help troubleshooting the root cause with more verbose log statements.Enable timing metric logging to add a metric statement for each request handled by the Edge Encryption proxy. Each of these timing metric log statements contains useful information about the request, such as processing times and which encryption rule was used.Use this method to debug issues with SSL connectivity between the Edge Encryption proxy and your instance, such as access to the instance fails via the proxy. These steps increase logging and help find the verbose log statements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/edge-debug-logging.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -25,7 +26,7 @@ Depending on the issue being debugged, set up debug logging in one of three ways
 
 For all debug cases, you may view and interpret the logs in your own or open an incident to get an interpretation from ServiceNow technical support providing the description of the issue and how it’s reproduced.
 
-**Parent Topic:**[Configuring Edge Encryption](edge-config.md)
+**Parent Topic:**[Configuring Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/edge-config.md)
 
 ## Debugging issues with the Edge Encryption application other than SSL connectivity
 

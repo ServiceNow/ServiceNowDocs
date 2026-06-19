@@ -2,6 +2,7 @@
 title: Project planning item form
 description: Learn about the fields of the project form. Use this form to create or edit the details of a planning item of the type Project in Portfolio Planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/project-form-portfolio-planning.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -80,6 +81,14 @@ Planning state
 </td><td>
 
 State of the planning item in the Strategic Planning or Portfolio Planning Backlog.
+
+</td></tr><tr><td>
+
+Execution URL
+
+</td><td>
+
+Link to the project's execution record in the Project Workspace.
 
 </td></tr><tr><td>
 
@@ -288,5 +297,5 @@ Business capabilities of this planning item.
 |Risk score|Score for the risk associated with this planning item.|
 |Size score|Score for the job required to complete the task.|
 
-**Parent Topic:**[Form field information for Portfolio Planning](form-field-information-for-portfolio-planning.md)
+**Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)
 

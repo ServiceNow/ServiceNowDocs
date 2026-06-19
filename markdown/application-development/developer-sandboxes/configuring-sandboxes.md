@@ -2,6 +2,7 @@
 title: Administering Developer Sandboxes data
 description: To define how data is populated in Developer Sandboxes, admins must configure Data Generation Profiles and templates that call the profiles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/developer-sandboxes/configuring-sandboxes.html
 release: zurich
 product: Developer Sandboxes
 classification: developer-sandboxes
@@ -19,11 +20,11 @@ Developer Sandboxes provides developers the ability to request, access, and mana
 
 ## Configuration overview
 
-1.  [Create a Data Generation Profile](create-data-generation-profile.md)
+1.  [Create a Data Generation Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/create-data-generation-profile.md)
 
     Create a Data Generation Profile to specify what data to generate for a sandbox template.
 
-2.  [Create a sandbox template](create-sandbox-template.md)
+2.  [Using sandbox templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/create-sandbox-template.md)
 
     Create a reusable template for Developer Sandboxes.
 

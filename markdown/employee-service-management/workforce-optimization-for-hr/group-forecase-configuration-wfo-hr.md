@@ -2,6 +2,7 @@
 title: Group forecast configuration
 description: Associate an assignment group with a Resource Conversion Formula. You can assign a forecast configuration to multiple assignment groups, but an assignment group can have only one forecast configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workforce-optimization-for-hr/group-forecase-configuration-wfo-hr.html
 release: zurich
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -28,5 +29,5 @@ Role required: admin
     -   In the **Assignment Group** field, browse and select the group to which you want to associate a forecast configuration.
     -   In the **Forecast Configuration** field, browse and select a **Resource Conversion Formula**.
 
-**Parent Topic:**[Configure data collection for Demand Forecast](configure-data-collection-df-wfo-hr.md)
+**Parent Topic:**[Configure data collection for Demand Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workforce-optimization-for-hr/configure-data-collection-df-wfo-hr.md)
 

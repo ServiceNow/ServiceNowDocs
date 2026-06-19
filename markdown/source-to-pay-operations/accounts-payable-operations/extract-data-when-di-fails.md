@@ -2,6 +2,7 @@
 title: Extract data when Document Intelligence fails
 description: You must manually create an invoice for processing when Document Intelligence fails to process the task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/extract-data-when-di-fails.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -23,13 +24,13 @@ Role required: Accounts Payable admin, Accounts Payable specialist
 
 1.  Navigate to **All** &gt; **Accounts Payable Operations** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon](../../supplier-lifecycle-operations/image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon\).
 
     A list of options within the workspace is displayed.
 
 3.  Select **Invoices &gt;****All invoices.**
 
-    You can create an invoice manually. For more information on invoices, see [Work with invoices](../concept/work-with-invoices.md).
+    You can create an invoice manually. For more information on invoices, see [Work with invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md).
 
 4.  Select **View invoice processing case**.
 
@@ -43,7 +44,7 @@ Role required: Accounts Payable admin, Accounts Payable specialist
 
     **Note:** You can choose to close the case if you do not want to proceed.
 
-    For more information on manual creation of invoices, see [Using Invoice Case Management](../concept/use-invoice-case-mgmt.md)
+    For more information on manual creation of invoices, see [Using Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/use-invoice-case-mgmt.md)
 
 7.  Select **Review header details** to populate the header fields.
 
@@ -58,5 +59,5 @@ Role required: Accounts Payable admin, Accounts Payable specialist
 
 The invoice is manually created for processing when Document Intelligence fails.
 
-**Parent Topic:**[Document Intelligence processing with playbook](../concept/use-di-with-playbook.md)
+**Parent Topic:**[Document Intelligence processing with playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/use-di-with-playbook.md)
 

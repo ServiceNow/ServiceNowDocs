@@ -2,6 +2,7 @@
 title: Configure filter conditions
 description: With these conditions, you enable employees to easily filter, discover, and fulfill the tasks in a few clicks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/configure-to-dos-tasks-filter-category.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation

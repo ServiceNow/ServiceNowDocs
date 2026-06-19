@@ -2,6 +2,7 @@
 title: Add workplace entities to an entity type
 description: Create workplace entities based on your organization's business structure. Specify the entity type to which they belong. You can also specify a parent to the entity based on its hierarchy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-core/add-workplace-entities-to-an-entity-type.html
 release: zurich
 product: Workplace Core
 classification: workplace-core
@@ -17,7 +18,7 @@ Create workplace entities based on your organization's business structure. Speci
 
 ## Before you begin
 
-[Add a workplace entity type](add-a-workplace-entity-type.md)
+[Add a workplace entity type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/add-a-workplace-entity-type.md)
 
 Role required: Workplace manager
 
@@ -51,12 +52,12 @@ The workplace entity is created and assigned to the selected parent and entity t
 
 ## What to do next
 
-For more information about how workplace entities and other allocations work, refer to [Allocation - types, setting, and impact](../../workplace-space-management/reference/setting-an-allocation-and-its-impact.md).
+For more information about how workplace entities and other allocations work, refer to [Allocation - types, setting, and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-space-management/setting-an-allocation-and-its-impact.md).
 
 To populate the Entity-mapping column for existing workplace entities, the application provides you with the following flows:
 
 -   **Set hierarchy from scratch via subflow**: Run this flow to recalculate the entity-mapping columns for the complete hierarchy.
 -   **Process entity updates via subflow**: This flow runs everyday to update the workplace entity-mapping columns only for those workplace entities where the 'update\_type' column is set.
 
-**Parent Topic:**[Configure Workplace entity and entity types](../concept/workplace-entity.md)
+**Parent Topic:**[Configure Workplace entity and entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/workplace-entity.md)
 

@@ -2,6 +2,7 @@
 title: Guided Decision activity
 description: Choose a decision tree from your Guided Decisions framework to step agents through how to proceed with a task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/guided-decision-activity.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -17,11 +18,11 @@ Choose a decision tree from your Guided Decisions framework to step agents throu
 
 ## Roles and availability
 
-This activity is available with a subscription to App Engine or Customer Service Management \(CSM\). For more information on how to enable this activity for use in Playbooks, see [Activate Playbooks for Customer Service Management \(CSM\)](../concept/activate-process-automation-designer.md#).
+This activity is available with a subscription to App Engine or Customer Service Management \(CSM\). For more information on how to enable this activity for use in Playbooks, see [Activate Playbooks for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/activate-process-automation-designer.md).
 
 ## Inputs
 
-Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see [Dot-walking examples](https://www.servicenow.com/docs/access?context=dot-walking-examples&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see .
 
 <table id="table_ajt_sr3_plb"><thead><tr><th>
 
@@ -97,21 +98,21 @@ True/False
 
 </td><td>
 
-Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
+Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
 
 </td></tr></tbody>
 </table>## Advanced inputs
 
-After configuring the required inputs for your activity, you can also choose to configure additional inputs. In the side panel, select **Show additional options** to display these advanced inputs. For more information, see [Activity experience](../concept/activity-definitions.md#activity-experience).
+After configuring the required inputs for your activity, you can also choose to configure additional inputs. In the side panel, select **Show additional options** to display these advanced inputs. For more information, see [Activity experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/activity-definitions.md).
 
 |Input|Type|Description|
 |-----|----|-----------|
-|Decision Tree|Reference|The Decision Tree \[ga\_decision\_tree\] record whose decision inputs and guidance you want to show to agents in the Workspace playbook. For more information on how to set up the Guided Decisions framework, see [Configuring Guided Decisions](https://www.servicenow.com/docs/access?context=setting-up-guided-decisions&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).|
+|Decision Tree|Reference|The Decision Tree \[ga\_decision\_tree\] record whose decision inputs and guidance you want to show to agents in the Workspace playbook. For more information on how to set up the Guided Decisions framework, see .|
 |Task|Reference|The triggering Case \[sn\_customerservice\_case\] record.|
 
 ## Outputs
 
 There are no outputs for this activity.
 
-**Parent Topic:**[Interactive activities](../concept/interactive-activities.md)
+**Parent Topic:**[Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/interactive-activities.md)
 

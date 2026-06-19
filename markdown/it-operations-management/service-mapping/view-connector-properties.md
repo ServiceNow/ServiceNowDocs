@@ -2,6 +2,7 @@
 title: View CI connection attributes in an application service map in classic Service Mapping
 description: You can view attributes of connections between configuration items \(CIs\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/view-connector-properties.html
 release: zurich
 product: Service Mapping
 classification: service-mapping
@@ -28,15 +29,15 @@ You can view the following information for each connection:
 
 By default, Service Mapping merges connection lines for the same CI to declutter an application service map. It helps to make the map more readable.
 
-![Merged connection lines](../image/MapAddOptionsMergeEdgesExample.png "Merged connection lines")
+\[Omitted image "MapAddOptionsMergeEdgesExample.png"\] Alt text: Merged connection lines
 
 Each connection type has different attributes. For a merged connection line, all underlying connections are listed.
 
 The way an service instance map displays connection attributes depends on the following factors:
 
--   [Views you configure for CIs](t_ConfigurePropertyDisplay.md) define which connection attributes appear in the Properties pane of the map.
--   Connection lines on the map depend on the [view you select for the map](modify-map-view.md).
--   Attributes available for viewing also depend on the Service Mapping setup, for more information see description of [components installed with Service Mapping](../reference/components-installed-with-service-mapping.md).
+-   [Views you configure for CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/t_ConfigurePropertyDisplay.md) define which connection attributes appear in the Properties pane of the map.
+-   Connection lines on the map depend on the [view you select for the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/modify-map-view.md).
+-   Attributes available for viewing also depend on the Service Mapping setup, for more information see description of [components installed with Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/components-installed-with-service-mapping.md).
 
 ## Procedure
 
@@ -64,7 +65,7 @@ The source and target CIs of a regular connection
 
 </td><td>
 
-Right-click the connection.![View the source and target CIs of a regular connection.](../image/ConnectorRightClick.png)
+Right-click the connection.\[Omitted image "ConnectorRightClick.png"\] Alt text: View the source and target CIs of a regular connection.
 
 </td></tr><tr><td>
 
@@ -74,7 +75,7 @@ Right-click the connection.![View the source and target CIs of a regular connect
 
 -   Right-click the merged connection line with a number and select the relevant connection.
 
-![View the source and target CIs of a merged connection.](../image/MergeConnectorRightClick.png)
+\[Omitted image "MergeConnectorRightClick.png"\] Alt text: View the source and target CIs of a merged connection.
 
 Or
 
@@ -82,7 +83,7 @@ Or
 
 Right-click the connection line coming out or going into a CI, and select the relevant connection.
 
-![View the source and target CIs of a merged connection.](../image/MergedConnectorsSegmentsToFrom.png)
+\[Omitted image "MergedConnectorsSegmentsToFrom.png"\] Alt text: View the source and target CIs of a merged connection.
 
 </td></tr><tr><td>
 
@@ -96,7 +97,7 @@ All concealed connections for this CI appear on the map.
 
 2.  Right-click the relevant connection line.
 
-![View the source and target CIs of a connection in the spanning tree view.](../image/ConnectorsSpanningTree.gif)
+\[Omitted image "ConnectorsSpanningTree.gif"\] Alt text: View the source and target CIs of a connection in the spanning tree view.
 
 </td></tr><tr><td>
 
@@ -116,7 +117,7 @@ Click the merged connection line indicated by a number.
 
  All underlying connections are displayed separately in the **Properties** pane.
 
-![View detailed attributes of a merged connection.](../image/MergeConnectorDetailedProperty.png)
+\[Omitted image "MergeConnectorDetailedProperty.png"\] Alt text: View detailed attributes of a merged connection.
 
 </td></tr><tr><td>
 
@@ -126,7 +127,7 @@ Detailed attributes of a connection segment shared by more than one merged conne
 
 Right-click the connection line coming out or going into a CI, select the relevant connection, and then choose **Select edge**.
 
-![View detailed attributes of a connection segment shared by more than one merged connection.](../image/MergedConnectorsSegments.gif)
+\[Omitted image "MergedConnectorsSegments.gif"\] Alt text: View detailed attributes of a connection segment shared by more than one merged connection.
 
 The detailed attributes are displayed in the **Properties** pane.
 
@@ -144,7 +145,7 @@ All concealed connections for this CI appear on the map.
 
 2.  Click the required connection line.
 
-![View detailed attributes of a connection if the spanning tree is enabled.](../image/SpanningTreeConnectorDetailedProperties.png)
+\[Omitted image "SpanningTreeConnectorDetailedProperties.png"\] Alt text: View detailed attributes of a connection if the spanning tree is enabled.
 
 </td></tr><tr><td>
 
@@ -155,7 +156,7 @@ All concealed connections for this CI appear on the map.
 1.  Right-click the CI whose traffic-based connections you want to check.
 2.  Select **Show traffic based connections**.
 
-The Traffic Based Connections List opens displaying the information in [Traffic Based Connections List table](view-connector-properties.md#table_cmh_vy5_f1b).
+The Traffic Based Connections List opens displaying the information in [Traffic Based Connections List table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/view-connector-properties.md).
 
 3.  Click **Close** when finished viewing this list.
 
@@ -170,7 +171,7 @@ Click the manually added connection.
 
  The **Properties** pane shows Manual Endpoint under **Endpoint Type**.
 
- ![View manually added connection.](../image/MapManualCIConnectionProperty.png)
+ \[Omitted image "MapManualCIConnectionProperty.png"\] Alt text: View manually added connection.
 
 </td></tr></tbody>
 </table><table id="table_cmh_vy5_f1b"><thead><tr><th>
@@ -233,5 +234,5 @@ User decision
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](../concept/c_SvcPlanningAndAnalysisUsingMaps.md)
+**Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/c_SvcPlanningAndAnalysisUsingMaps.md)
 

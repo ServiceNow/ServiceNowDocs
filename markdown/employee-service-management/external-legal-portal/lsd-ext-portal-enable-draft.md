@@ -2,6 +2,7 @@
 title: Enable save as draft option for record producer
 description: Enable the Save as Draft option for a record producer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/external-legal-portal/lsd-ext-portal-enable-draft.html
 release: zurich
 product: External Legal Portal
 classification: external-legal-portal
@@ -25,7 +26,7 @@ Role required: sn\_lg\_ext\_portal.ext\_config
 
 2.  In the **Name** column, search for the `glide.sc.enable.save_as_draft.portal.elp` property.
 
-    For more information on the system property, see [Property installed with External Legal Service Center](../reference/lsd-ext-portal-properties.md).
+    For more information on the system property, see [Property installed with External Legal Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/external-legal-portal/lsd-ext-portal-properties.md).
 
 3.  Select the property.
 

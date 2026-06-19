@@ -2,6 +2,7 @@
 title: Configure Service Catalog cart widgets
 description: You can configure widgets for the shopping cart, catalog items, and order guides.You can customize the widget that provides details of the current catalog item on an order guide or wizard.You can customize widgets that appear for catalog items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/service-catalog-cart-widgets.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -21,9 +22,7 @@ Role required: admin
 
 ## About this task
 
-Overview of configurable options in the Service Catalog on the Service Portal and explains how to perform those configurations.
-
-**Parent Topic:**[Cart layout](../concept/c_ConfigureCartLayout.md)
+**Parent Topic:**[Cart layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_ConfigureCartLayout.md)
 
 ## Configure order guide widgets
 
@@ -47,7 +46,7 @@ Order guide cart widget is visible when an order guide item is ordered.
 
 4.  Click **Update**.
 
-    ![](../image/OrderGuideWidget.png "Cart widget displayed for an order guide item")
+    \[Omitted image "OrderGuideWidget.png"\] Alt text:
 
     **Note:** By default, order guides use a two-step process, and catalog items use a one-step checkout process. If you configure the checkout process, keep in mind that order guides and catalog items provide different cart experiences if they use different checkout processes.
 
@@ -76,6 +75,6 @@ Both shopping cart and item ordering widgets are visible on the standard catalog
 
 3.  Click **Update**.
 
-    ![](../image/CatalogItemWidgets.png "Item ordering and shopping cart widgets")
+    \[Omitted image "CatalogItemWidgets.png"\] Alt text:
 
 

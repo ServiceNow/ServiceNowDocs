@@ -2,6 +2,7 @@
 title: Manage workplace contracts from Core UI
 description: Lease administrators and managers can track, renew, and view information related to workplace contracts from Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-lease-administration/manage-contracts-from-core-ui.html
 release: zurich
 product: Workplace Lease Administration
 classification: workplace-lease-administration
@@ -15,12 +16,12 @@ breadcrumb: [Manage workplace contracts, Workplace Lease Administration, Workpla
 
 Lease administrators and managers can track, renew, and view information related to workplace contracts from Core UI.
 
--   **[Renew workplace contract in Core UI](../task/renew-lease-workplace-contracts.md)**  
+-   **[Renew workplace contract in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-lease-administration/renew-lease-workplace-contracts.md)**  
 Renew a workplace contract after you have created it, when it is approaching expiration, or when it has expired.
--   **[Adjust workplace contract in Core UI](../task/adjust-lease-contract.md)**  
+-   **[Adjust workplace contract in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-lease-administration/adjust-lease-contract.md)**  
 Change the start date, end date, or payment amount after the contract is in the Active state.
--   **[Cancel workplace contract in Core UI](../task/cancel-lease-contract.md)**  
+-   **[Cancel workplace contract in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-lease-administration/cancel-lease-contract.md)**  
 Cancel an active contract if it is no longer relevant.
 
-**Parent Topic:**[Workplace Lease Administration](workplace-lease-admin-feat.md)
+**Parent Topic:**[Workplace Lease Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-lease-administration/workplace-lease-admin-feat.md)
 

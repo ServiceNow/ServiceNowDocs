@@ -2,6 +2,7 @@
 title: Update the SCCM cmdlet libraries
 description: Ensure that the System Center Configuration Manager SCCM Cmdlet Library is up-to-date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/csd-cmdlet-lib.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
@@ -57,5 +58,5 @@ If you elect to use an earlier version library, use this procedure to disable th
 7.  To re-enable the update check, run the `-IsUpdateCheckEnabled 1` command for either the current user or for the system.
 
 
-**Parent Topic:**[Configuring SCCM](../concept/configure-sccm-ihub.md)
+**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/configure-sccm-ihub.md)
 

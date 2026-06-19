@@ -2,6 +2,7 @@
 title: Configuring On-Call Scheduling in Service Operations Workspace
 description: Configure On-Call Scheduling in Service Operations Workspace \(SOW\) for their organizational needs, utilizing a suite of features to fulfill the various requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/configuring-oncall-scheduling-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -26,14 +27,14 @@ You must configure the following On-Call Scheduling features in SOW to schedule 
 -   Creating absences with proposed coverage and managing the requests.
 -   Create escalation trigger rules, levels and policies.
 
--   **[Create new form](create-shift-form.md)**  
+-   **[Create new form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/create-shift-form.md)**  
 Use the Create new form to create an on-call shift in Service Operations Workspace. If you select the **Create new** option on the Schedules page, provide the following field details.
--   **[Create and edit shift in Service Operations Workspace](create-a-schedule-in-sow.md)**  
+-   **[Create and edit shift in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/create-a-schedule-in-sow.md)**  
 Shift manager can create a new shift using the **Schedule** menu or **Teams** menu in Service Operations Workspace
--   **[Create notification preference rule](create-notification-preference-rule.md)**  
+-   **[Create notification preference rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/create-notification-preference-rule.md)**  
 Define your preferred notification methods and delivery channels for receiving alerts whenever an escalation ticket is raised.
--   **[Escalation triggers and policies](work-on-escalation-trigger-rules-and-policies-in-sow.md)**  
+-   **[Escalation triggers and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/work-on-escalation-trigger-rules-and-policies-in-sow.md)**  
 Configure the user, notification and on-call escalation preferences by creating escalation trigger rules and policies.
 
-**Parent Topic:**[On-Call Scheduling in Service Operations Workspace](on-call-scheduling-in-sow.md)
+**Parent Topic:**[On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/on-call-scheduling-in-sow.md)
 

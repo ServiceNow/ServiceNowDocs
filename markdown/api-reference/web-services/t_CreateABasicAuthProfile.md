@@ -2,6 +2,7 @@
 title: Create a basic auth profile
 description: Create a basic auth profile to specify basic authentication credentials for one or more REST messages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/t\_CreateABasicAuthProfile.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -42,5 +43,5 @@ Role required: web\_service\_admin
 
 Configure a REST message to use this basic auth profile.
 
-**Parent Topic:**[Configure a REST message with basic auth](t_ConfigureRESTMsgBasicAuth.md)
+**Parent Topic:**[Configure a REST message with basic auth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/t_ConfigureRESTMsgBasicAuth.md)
 

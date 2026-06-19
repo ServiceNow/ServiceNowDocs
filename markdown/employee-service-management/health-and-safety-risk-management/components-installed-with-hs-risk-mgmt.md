@@ -2,11 +2,12 @@
 title: Components installed with Health and Safety Risk Management
 description: Several types of components are installed with installation of the Health and Safety Risk Management application, including tables, user roles, and scheduled jobs. The application also installs related store applications if they aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-risk-management/components-installed-with-hs-risk-mgmt.html
 release: zurich
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-05-01"
 reading_time_minutes: 8
 breadcrumb: [Reference, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -33,7 +34,7 @@ Health and Safety Core
 
 Installs core data model for Health and Safety. This data model includes common components such as Health and Safety user profile and actions that are used in the Health and Safety applications.
 
- For more information on store applications, roles, and tables installed with Health and Safety Core, see [Components installed with Health and Safety Core](../../hs-core/reference/components-installed-hs-core.md).
+ For more information on store applications, roles, and tables installed with Health and Safety Core, see [Components installed with Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-core/components-installed-hs-core.md).
 
 </td></tr><tr><td>
 
@@ -57,7 +58,7 @@ Smart Assessment Engine
 
 </td><td>
 
-Enables creating smart assessments for safety inspection or audits. For more information, see [Smart Assessment Engine](https://www.servicenow.com/docs/access?context=smart-asmnt-engine-landing-page&version=zurich&pubname=zurich-governance-risk-compliance&ft:locale=en-US).
+Enables creating smart assessments for safety inspection or audits. For more information, see .
 
 </td></tr></tbody>
 </table>## Roles installed
@@ -795,6 +796,24 @@ Can create and update permit request.
 -   sn\_hs\_rm.risk\_assessment\_reader
 -   sn\_hs\_rm.safety\_inspection\_reader
 
+</td></tr><tr><td>
+
+Intelligent policy author
+
+ \[ptw\_intelligent\_policy\_author\]
+
+</td><td>
+
+Intelligent policy author for Health and Safety permit to work who can-   View permits and their child records \(e.g., permit checklists\)
+-   Create and update documents in the Health and Safety document library where the approval policy lives
+-   Approve permits
+
+</td><td>
+
+-   sn\_ohs\_im.document\_writer
+-   sn\_ohs\_im.document\_reader
+-   sn\_hs\_rm.permit\_reader
+
 </td></tr></tbody>
 </table>## Tables installed
 
@@ -1179,5 +1198,5 @@ Template
 Stores all JSA templates with predefined hazards and controls for each job type in your organization.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Risk Management reference](../concept/hs-risk-mgmt-reference.md)
+</table>**Parent Topic:**[Health and Safety Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-reference.md)
 

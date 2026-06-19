@@ -2,6 +2,7 @@
 title: Create a news article
 description: Use News articles to keep employees updated on company news and announcements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ec-content-library-news-article.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -18,13 +19,13 @@ Use News articles to keep employees updated on company news and announcements.
 ## Before you begin
 
 -   Role required: sn\_cd.content\_manager
--   To publish large quantities of news articles, create a Content template before you create news articles. See [Create a Content template](ec-create-content-template.md)
--   You can assign one or more content categories to the news article so employees can filter news articles by category. See [Create a content category](../concept/ec-content-cat.md).
--   Social engagement settings enable employees to view page count, select a reaction icon, or leave a comment. See [Content engagement](../concept/ec-content-engagement.md)
+-   To publish large quantities of news articles, create a Content template before you create news articles. See [Create a Content template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-create-content-template.md)
+-   You can assign one or more content categories to the news article so employees can filter news articles by category. See [Create a content category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-cat.md).
+-   Social engagement settings enable employees to view page count, select a reaction icon, or leave a comment. See [Content engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-engagement.md)
 
 ## About this task
 
-The news article content type is built using the Rich Content Editor and published to the employee portal via news widgets. For an overview of News articles, see [News articles](../concept/ec-news-articles.md).
+The news article content type is built using the Rich Content Editor and published to the employee portal via news widgets. For an overview of News articles, see [News articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-news-articles.md).
 
 ## Procedure
 
@@ -116,7 +117,7 @@ Article content
 
 </td><td>
 
-Link to assemble the body of the news article in the Rich Content editor. See [Microsites](../concept/ec-rich-content.md)
+Link to assemble the body of the news article in the Rich Content editor. See [Microsites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-rich-content.md)
 
 </td></tr><tr><td>
 
@@ -124,7 +125,7 @@ Use a content template \(Optional\)
 
 </td><td>
 
-Option to use a preconfigured template which provides a content layout and generates a publish plan. See [Content templates](../concept/ec-content-templates.md)
+Option to use a preconfigured template which provides a content layout and generates a publish plan. See [Content templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-templates.md)
 
 </td></tr><tr><td>
 
@@ -159,5 +160,5 @@ If the Content Admin enabled social engagement, the following settings appear in
 
     **Note:** The content preview does not show how News articles appear in a widget or on mobile.
 
--   [Publishing news articles](ec-content-publish-news-articles.md)
+-   [Publishing news articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-publish-news-articles.md)
 

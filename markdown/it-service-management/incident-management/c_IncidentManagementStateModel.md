@@ -2,11 +2,12 @@
 title: Life cycle of an Incident
 description: Incident Management is responsible for managing the life cycle of incidents, from creation to closure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/c\_IncidentManagementStateModel.html
 release: zurich
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Explore, Incident Management, IT Service Management]
 ---
@@ -17,7 +18,9 @@ Incident Management is responsible for managing the life cycle of incidents, fro
 
 The Incident Management process has many states, and each is vitally important to the success of the process and the quality of service delivered. The different states can be represented in a diagram as follows:
 
-![Incident state flow diagram](../image/IM_StateModel.png "Incident management state model flow")
+\[Omitted image "IM\_StateModel.png"\] Alt text: Incident state flow diagram
+
+**Note:** The state names in the diagram correspond to the states described in the following table.
 
 <table id="table_t51_21c_b5"><thead><tr><th>
 
@@ -83,5 +86,5 @@ Canceled
 Incident was triaged but found to be a duplicate incident, an unnecessary incident, or not an incident at all.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Incident Management](incident-management-process.md)
+</table>**Parent Topic:**[Exploring Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/incident-management-process.md)
 

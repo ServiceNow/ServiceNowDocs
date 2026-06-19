@@ -2,6 +2,7 @@
 title: Stockroom types
 description: Stockroom types are categories of stockrooms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/r\_StockroomTypes.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -29,5 +30,5 @@ The stockroom type has two significant characteristics.
 |stockroom|Warehouse|6|True| |A regional stockroom.|
 |central\_stockroom|Central Warehouse|7|True| |A central stockroom, usually a large facility from which most parts are shipped.|
 
-**Parent Topic:**[Hardware Asset Management reference](../../hardware-asset-management/concept/reference-hardware-asset-management.md)
+**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
 

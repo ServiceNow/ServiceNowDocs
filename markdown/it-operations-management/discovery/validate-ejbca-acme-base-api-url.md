@@ -2,6 +2,7 @@
 title: Validate your EJBCA ACME base API URL
 description: Validate that your base API URL for EJBCA ACME has been updated to your organization's root URL address.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/validate-ejbca-acme-base-api-url.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -38,5 +39,5 @@ The UI is redirected to the certificate field and its Base URL.
 
 Review the URL and confirm that it's not the standard default settings.
 
-To connect with EJBCA, you must change the default URL to your specific environment \(env\) URL. If you still see the default setting, reconfigure your base API URL. For more information, see [Configure your base API URL for EJBCA ACME](configure-base-api-url-for-ejbca-acme.md).
+To connect with EJBCA, you must change the default URL to your specific environment \(env\) URL. If you still see the default setting, reconfigure your base API URL. For more information, see [Configure your base API URL for EJBCA ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/configure-base-api-url-for-ejbca-acme.md).
 

@@ -2,7 +2,10 @@
 title: Associate a playbook with a service definition
 description: After creating a service definition, you can associate a playbook with the definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/service-def-associate-playbook.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -23,7 +26,7 @@ Role required: \(playbook\_experience.admin + sn\_csm\_case\_types.service\_defi
 
 A playbook provides agents with step-by-step guidance for resolving a specific type of case. If a service definition has an associated playbook, the agent can use the playbook in a tab on the case record.
 
-When the agent selects **Create Case** on the [case type selector screen](../concept/csm-case-type-select-modals.md), the system displays the new case record and launches the playbook associated with the service in a tab on the record page.
+When the agent selects **Create Case** on the [case type selector screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-case-type-select-modals.md), the system displays the new case record and launches the playbook associated with the service in a tab on the record page.
 
 **Note:** This is an optional task.
 
@@ -35,7 +38,7 @@ When the agent selects **Create Case** on the [case type selector screen](../con
 
 3.  Select a playbook record generator in the **Playbook record generator** field.
 
-    This field is a reference to the Playbook Experience Record Generator table \(sys\_playbook\_experience\_record\_generator\). For more information, see [Playbook record generator](https://www.servicenow.com/docs/access?context=playbook-record-generator-overview&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
+    This field is a reference to the Playbook Experience Record Generator table \(sys\_playbook\_experience\_record\_generator\). For more information, see Playbook record generator
 
 4.  Select **Update**.
 

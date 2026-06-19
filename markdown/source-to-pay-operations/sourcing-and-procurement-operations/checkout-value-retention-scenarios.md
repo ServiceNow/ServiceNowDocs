@@ -2,13 +2,14 @@
 title: Checkout data loss scenarios
 description: The data you enter during checkout are lost in an incomplete checkout process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/checkout-value-retention-scenarios.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Complete your checkout, Using Shopping Hub, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Complete your checkout, Using Shopping Hub, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Checkout data loss scenarios
@@ -24,5 +25,5 @@ This happens if you perform any of the following actions:
 
 However, if you refresh the page, values on the current and previous steps are retained.
 
-**Parent Topic:**[Complete your checkout](../task/complete-your-checkout.md)
+**Parent Topic:**[Complete your checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/complete-your-checkout.md)
 

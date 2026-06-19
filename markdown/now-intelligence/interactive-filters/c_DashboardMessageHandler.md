@@ -2,6 +2,7 @@
 title: DashboardMessageHandler
 description: Provides methods to define custom filtering logic for interactive filters.Instantiate a DashboardMessageHandler object with a given unique ID.Each DashboardMessageHandler object can publish a single filter.Apply a custom interactive filter to multiple tables.Removes the current filter published by this DashboardMessageHandler object from all reports on the dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/interactive-filters/c\_DashboardMessageHandler.html
 release: zurich
 product: Interactive Filters
 classification: interactive-filters
@@ -15,9 +16,9 @@ breadcrumb: [Custom interactive filters, Interactive Filters, Reporting, dashboa
 
 Provides methods to define custom filtering logic for interactive filters.
 
-For more information about interactive filters, see [reporting](../../../../../use/reporting/reference/reporting-landing-page.md) and [interactive filters](../../../../../use/dashboards/concept/c_HomepagePublishers.md).
+For more information about interactive filters, see [reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/reporting-landing-page.md) and [interactive filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters/c_HomepagePublishers.md).
 
-**Parent Topic:**[Custom interactive filters](../../../../../use/dashboards/concept/c_CustomPublishers.md)
+**Parent Topic:**[Custom interactive filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters/c_CustomPublishers.md)
 
 ## DashboardMessageHandler - DashboardMessageHandler\(String id\)
 

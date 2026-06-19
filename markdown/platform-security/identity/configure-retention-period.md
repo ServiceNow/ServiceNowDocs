@@ -2,6 +2,7 @@
 title: Configure Retention Period
 description: Configure the retention period for Identity and Access Audit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/configure-retention-period.html
 release: zurich
 product: Identity
 classification: identity
@@ -27,7 +28,7 @@ Role required: admin
 
     **Note:** The maximum number of days for Identity and Access Audit is 30 days \(2,592,000 seconds\).
 
-    ![Retention Period](../images/configure-retention-period.png)
+    \[Omitted image "configure-retention-period.png"\] Alt text: Retention Period
 
 3.  Save or Update the record.
 

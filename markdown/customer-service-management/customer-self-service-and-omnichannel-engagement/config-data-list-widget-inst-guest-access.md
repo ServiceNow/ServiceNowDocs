@@ -2,6 +2,7 @@
 title: Configure public access on the Portal Data List widget
 description: Configure the Portal Data List widget and page content for public access to enable guest users to view data without authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/config-data-list-widget-inst-guest-access.html
 release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -43,7 +44,7 @@ Role required: sp\_admin
 
     5.  Select **Instance** for the Portal Data List widget from Page Content.
 
-        ![Page content showing the Data List widget instance](../image/page-content-instance-cases-and-tasks.png)
+        \[Omitted image "page-content-instance-cases-and-tasks.png"\] Alt text: Page content showing the Data List widget instance
 
         The widget instance page opens.
 

@@ -2,7 +2,10 @@
 title: Modeless dialogs
 description: Modeless dialogs are windows that overlay the main window content in CSM Configurable Workspace. Customer service agents can use modeless dialogs to create and post comments and work notes to the activity stream and to compose and send emails.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-front-line-case-page-modeless-dialogs.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 14
@@ -31,14 +34,14 @@ The thin compose modeless dialog feature incorporates modeless dialogs into the 
 
 Thin compose modeless dialogs are available on the following record pages:
 
--   [Front-line case page](csm-front-line-case-page.md)
--   [CSM default record page](csm-default-record-page.md)
--   [CSM Interaction record page](csm-interaction-record-page.md)
--   [CSM centered chat interaction record page](csm-centered-chat-interaction-page.md)
--   [CSM voice interaction record page](csm-native-voice-record-page.md)
--   [Email interaction record page](csm-email-interaction-record-page.md)
+-   [Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-front-line-case-page.md)
+-   [CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-default-record-page.md)
+-   [CSM Interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-interaction-record-page.md)
+-   [CSM centered chat interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-centered-chat-interaction-page.md)
+-   [CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-native-voice-record-page.md)
+-   [Email interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-email-interaction-record-page.md)
 
-**Note:** The thin compose modeless dialog feature has the Rich Text Editor enabled, which can add HTML tags along with the text to the **Additional comments** and **Work notes** fields on the case record. To remove these tags, see [Updating the glide.ui.journal.use\_html property](csm-front-line-case-page-modeless-dialogs.md#section_jxd_1pl_1gc).
+**Note:** The thin compose modeless dialog feature has the Rich Text Editor enabled, which can add HTML tags along with the text to the **Additional comments** and **Work notes** fields on the case record. To remove these tags, see [Updating the glide.ui.journal.use\_html property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-front-line-case-page-modeless-dialogs.md).
 
 ## Creating comments and work notes
 
@@ -80,7 +83,7 @@ Open a comment or work note in a modeless dialog
 
 </td><td>
 
-Select the pop out \(![modeless dialog pop out icon which is a smaller solid square within a larger square](../image/modeless-dialog-pop-out-icon.png)\) icon to open a comment or work note in a modeless dialog.You can open a modeless dialog before or after you start entering text in the Compose window.
+Select the pop out \(\[Omitted image "modeless-dialog-pop-out-icon.png"\] Alt text: modeless dialog pop out icon which is a smaller solid square within a larger square\) icon to open a comment or work note in a modeless dialog.You can open a modeless dialog before or after you start entering text in the Compose window.
 
 **Note:** You can have one modeless dialog of each type \(comments, work notes, and email\) open at a time.
 
@@ -90,7 +93,7 @@ Return a comment or work note to the Compose window
 
 </td><td>
 
-After opening a comment or work note in a modeless dialog, you can return the text to the Compose window in the activity stream in the following ways:-   Select the Continue editing in compose \(![square icon with down arrow](../image/modeless-dialog-continue-editing-icon.png)\) button at the top of the modeless dialog.
+After opening a comment or work note in a modeless dialog, you can return the text to the Compose window in the activity stream in the following ways:-   Select the Continue editing in compose \(\[Omitted image "modeless-dialog-continue-editing-icon.png"\] Alt text: square icon with down arrow\) button at the top of the modeless dialog.
 -   Select the **Pop in** link in the Compose window in the activity stream.
 
 </td></tr><tr><td>
@@ -99,7 +102,7 @@ Minimize a modeless dialog
 
 </td><td>
 
-To minimize a modeless dialog, select the Minimize dialog \(![minimize icon is a flat white line at the bottom of a black box](../image/modeless-dialog-minimize-icon.png)\) button in the window header. Minimized modeless dialogs are added to the Minimize modeless dialogs \(![Minimize modeless dialogs icon n the action bar](../image/modeless-dialog-minimized-window.png)\) menu in the action bar and appear in a list in this menu.
+To minimize a modeless dialog, select the Minimize dialog \(\[Omitted image "modeless-dialog-minimize-icon.png"\] Alt text: minimize icon is a flat white line at the bottom of a black box\) button in the window header. Minimized modeless dialogs are added to the Minimize modeless dialogs \(\[Omitted image "modeless-dialog-minimized-window.png"\] Alt text: Minimize modeless dialogs icon n the action bar\) menu in the action bar and appear in a list in this menu.
 
 </td></tr><tr><td>
 
@@ -107,7 +110,7 @@ Open a minimized modeless dialog
 
 </td><td>
 
-Select the Minimize modeless dialogs \(![minimize modeless dialogs menu](../image/modeless-dialog-minimized-window.png)\) menu in the action bar and then select an item from the list.Items in the Minimize modeless dialogs menu appear in a list with the action type \(email, comment, or work note\) and an abbreviated title.
+Select the Minimize modeless dialogs \(\[Omitted image "modeless-dialog-minimized-window.png"\] Alt text: minimize modeless dialogs menu\) menu in the action bar and then select an item from the list.Items in the Minimize modeless dialogs menu appear in a list with the action type \(email, comment, or work note\) and an abbreviated title.
 
 </td></tr><tr><td>
 
@@ -115,7 +118,7 @@ Discard a comment or work note
 
 </td><td>
 
-To discard a comment or work note:1.  Select the Close dialog \(![close icon is a white X on a black background](../image/modeless-dialog-close-icon.png)\) button in the modeless dialog header.
+To discard a comment or work note:1.  Select the Close dialog \(\[Omitted image "modeless-dialog-close-icon.png"\] Alt text: close icon is a white X on a black background\) button in the modeless dialog header.
 2.  Confirm the Close Dialog action by selecting **Continue** in the confirmation pop-up window.
 
 </td></tr></tbody>
@@ -163,7 +166,7 @@ Open an email in a modeless dialog
 
 </td><td>
 
-Select the pop out \(![modeless dialog pop out icon which is a smaller solid square within a larger square](../image/modeless-dialog-pop-out-icon.png)\) icon to open an email in a modeless dialog.You can open a modeless dialog either before or after you start entering text in the Compose window.
+Select the pop out \(\[Omitted image "modeless-dialog-pop-out-icon.png"\] Alt text: modeless dialog pop out icon which is a smaller solid square within a larger square\) icon to open an email in a modeless dialog.You can open a modeless dialog either before or after you start entering text in the Compose window.
 
 **Note:** You can have one modeless dialog of each type \(comments, work notes, and email\) open at a time.
 
@@ -173,7 +176,7 @@ Return an email to the Compose window
 
 </td><td>
 
-After opening an email in a modeless dialog, you can return the email to the Compose window in the activity stream in the following ways:-   Select the Continue editing in compose \(![square icon with down arrow](../image/modeless-dialog-continue-editing-icon.png)\) button at the top of the modeless dialog.
+After opening an email in a modeless dialog, you can return the email to the Compose window in the activity stream in the following ways:-   Select the Continue editing in compose \(\[Omitted image "modeless-dialog-continue-editing-icon.png"\] Alt text: square icon with down arrow\) button at the top of the modeless dialog.
 -   Select the **Pop in** link in the Compose window in the activity stream.
 
 </td></tr><tr><td>
@@ -182,7 +185,7 @@ Minimize a modeless dialog
 
 </td><td>
 
-To minimize a modeless dialog, select the Minimize dialog \(![minimize icon is a flat white line at the bottom of a black box](../image/modeless-dialog-minimize-icon.png)\) button in the window header. Minimized modeless dialogs are added to the Minimize modeless dialogs \(![minimize modeless dialogs menu icon](../image/modeless-dialog-minimized-window.png)\) menu in the action bar and appear in a list in this menu.
+To minimize a modeless dialog, select the Minimize dialog \(\[Omitted image "modeless-dialog-minimize-icon.png"\] Alt text: minimize icon is a flat white line at the bottom of a black box\) button in the window header. Minimized modeless dialogs are added to the Minimize modeless dialogs \(\[Omitted image "modeless-dialog-minimized-window.png"\] Alt text: minimize modeless dialogs menu icon\) menu in the action bar and appear in a list in this menu.
 
 </td></tr><tr><td>
 
@@ -190,7 +193,7 @@ Open a minimized modeless dialog
 
 </td><td>
 
-Select the Minimize modeless dialogs \(![minimize modeless dialogs menu icon](../image/modeless-dialog-minimized-window.png)\) menu in the action bar and then select an item from the list.Items in the Minimize modeless dialogs menu appear in a list with the action type \(email, comment, or work note\) and an abbreviated title.
+Select the Minimize modeless dialogs \(\[Omitted image "modeless-dialog-minimized-window.png"\] Alt text: minimize modeless dialogs menu icon\) menu in the action bar and then select an item from the list.Items in the Minimize modeless dialogs menu appear in a list with the action type \(email, comment, or work note\) and an abbreviated title.
 
 </td></tr><tr><td>
 
@@ -229,7 +232,7 @@ Apply a template to an email
 
 To apply a template to an email:
 
-1.  Select the Apply templates icon \(![Compose email apply templates icon](../image/csm-email-modeless-dialog-apply-template.png)\) in the Compose email modeless dialog footer to display a list of available templates.
+1.  Select the Apply templates icon \(\[Omitted image "csm-email-modeless-dialog-apply-template.png"\] Alt text: Compose email apply templates icon\) in the Compose email modeless dialog footer to display a list of available templates.
 
 The Template preview modal displays the available email templates. It doesn't display quick messages or response templates.
 
@@ -245,7 +248,7 @@ Open a draft email in a subtab
 
 </td><td>
 
-Select the Pop out icon \(![Compose email pop out icon](../image/csm-email-modeless-dialog-pop-out.png)\) in the Compose Email window header to open the draft email in a subtab.The Compose Email window closes when the email opens in the subtab.
+Select the Pop out icon \(\[Omitted image "csm-email-modeless-dialog-pop-out.png"\] Alt text: Compose email pop out icon\) in the Compose Email window header to open the draft email in a subtab.The Compose Email window closes when the email opens in the subtab.
 
 </td></tr><tr><td>
 
@@ -253,7 +256,7 @@ View a list of draft emails
 
 </td><td>
 
-Select the View drafts icon \(![Compose email view drafts icon](../image/csm-email-modeless-dialog-view-drafts.png)\) in the Compose Email window footer. Selecting this icon displays a list that includes the most recent email drafts. The list also includes the following actions:
+Select the View drafts icon \(\[Omitted image "csm-email-modeless-dialog-view-drafts.png"\] Alt text: Compose email view drafts icon\) in the Compose Email window footer. Selecting this icon displays a list that includes the most recent email drafts. The list also includes the following actions:
 
 -   **Manage drafts**: Displays the Manage drafts pop-up window. From this window, you can view a list of all draft emails. You can also delete email drafts from this window.
 -   **Create new email**: Creates a new email in the Compose email window.
@@ -264,7 +267,7 @@ Select an email draft
 
 </td><td>
 
-Select the View drafts icon \(![Compose email view drafts icon](../image/csm-email-modeless-dialog-view-drafts.png)\) in the Compose Email window footer. Selecting this icon displays a list that includes the most recent email drafts. You can select a recent draft from this list.
+Select the View drafts icon \(\[Omitted image "csm-email-modeless-dialog-view-drafts.png"\] Alt text: Compose email view drafts icon\) in the Compose Email window footer. Selecting this icon displays a list that includes the most recent email drafts. You can select a recent draft from this list.
 
  To view a list of all email drafts:
 
@@ -291,7 +294,7 @@ Discard the current draft email
 
 </td><td>
 
-1.  Select the Discard draft icon \(![Compose email discard draft icon](../image/csm-email-modeless-dialog-discard-draft.png)\) in the Compose Email window footer.
+1.  Select the Discard draft icon \(\[Omitted image "csm-email-modeless-dialog-discard-draft.png"\] Alt text: Compose email discard draft icon\) in the Compose Email window footer.
 2.  Confirm the Discard action by selecting **Discard** in the confirmation pop-up window.
 
 The system displays a message that the draft email has been discarded.
@@ -302,7 +305,7 @@ Delete an email draft from the Manage drafts pop-up window
 
 </td><td>
 
-1.  Select the View drafts icon \(![Compose email view drafts icon](../image/csm-email-modeless-dialog-view-drafts.png)\) in the Compose Email window footer.
+1.  Select the View drafts icon \(\[Omitted image "csm-email-modeless-dialog-view-drafts.png"\] Alt text: Compose email view drafts icon\) in the Compose Email window footer.
 2.  Select **Manage drafts** to display the Manage drafts pop-up window.
 3.  Select an email to delete by enabling the check box.
 4.  Select **Delete** in the pop-up window.
@@ -324,7 +327,7 @@ The email header includes the following fields:
 -   **Bcc**
 -   **Subject**
 
-You can expand and collapse the email header as needed by selecting the expand header \(![Compose email expand header icon](../image/csm-email-modeless-dialog-header-expand.png)\) and collapse header \(![Compose email collapse header icon](../image/csm-email-modeless-dialog-header-collapse.png)\) icons.
+You can expand and collapse the email header as needed by selecting the expand header \(\[Omitted image "csm-email-modeless-dialog-header-expand.png"\] Alt text: Compose email expand header icon\) and collapse header \(\[Omitted image "csm-email-modeless-dialog-header-collapse.png"\] Alt text: Compose email collapse header icon\) icons.
 
 When the email header is expanded, you can edit the information in these fields. When the email header is collapsed:
 
@@ -350,7 +353,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Discard draft \(![Compose email discard draft icon](../image/csm-email-modeless-dialog-discard-draft.png)\)
+Discard draft \(\[Omitted image "csm-email-modeless-dialog-discard-draft.png"\] Alt text: Compose email discard draft icon\)
 
 </td><td>
 
@@ -358,7 +361,7 @@ Select this icon to delete the current draft. Then confirm the delete action in 
 
 </td></tr><tr><td>
 
-Apply template \(![Compose email apply templates icon](../image/csm-email-modeless-dialog-apply-template.png)\)
+Apply template \(\[Omitted image "csm-email-modeless-dialog-apply-template.png"\] Alt text: Compose email apply templates icon\)
 
 </td><td>
 
@@ -366,7 +369,7 @@ Select this icon to display a list of available templates. You can select a temp
 
 </td></tr><tr><td>
 
-View drafts \(![Compose email view drafts icon](../image/csm-email-modeless-dialog-view-drafts.png)\)
+View drafts \(\[Omitted image "csm-email-modeless-dialog-view-drafts.png"\] Alt text: Compose email view drafts icon\)
 
 </td><td>
 
@@ -379,7 +382,7 @@ Email-related actions include:
 
 </td></tr><tr><td>
 
-Attach file \(![Compose email attach file icon](../image/csm-email-modeless-dialog-attach-file.png)\)
+Attach file \(\[Omitted image "csm-email-modeless-dialog-attach-file.png"\] Alt text: Compose email attach file icon\)
 
 </td><td>
 

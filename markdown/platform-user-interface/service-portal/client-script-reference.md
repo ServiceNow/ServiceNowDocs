@@ -2,6 +2,7 @@
 title: Supported client script types and APIs
 description: Some client scripts are not supported in Service Portal. Others must have a UI type set to All or Mobile / Service Portal. If using a client script in the Service Portal, only client-side APIs supported in a mobile environment can be used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/client-script-reference.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -41,9 +42,9 @@ Validation scripts
 
 Service Portal requires that the **UI Type** field be set to **All** or **Mobile / Service Portal**. Client Scripts marked as **Desktop** rely on legacy APIs that are not supported in Service Portal. Before flagging a script as Mobile / Service Portal or All, make sure you are only using supported client-side APIs.
 
- Validate user input in a specific field type using a validation script. In new instances, Service Portal includes XML, Script, Script \(Plain\), Email, and Version validation scripts by default. If upgrading from a previous release, the Mobile and Service Portal version is not active by default. You must activate the Mobile and Service Portal version of the validation script to validate user input in the Service Portal. See [Activate Service Portal validation scripts](../task/activate-sp-validation-scripts.md).
+ Validate user input in a specific field type using a validation script. In new instances, Service Portal includes XML, Script, Script \(Plain\), Email, and Version validation scripts by default. If upgrading from a previous release, the Mobile and Service Portal version is not active by default. You must activate the Mobile and Service Portal version of the validation script to validate user input in the Service Portal. See [Activate Service Portal validation scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/activate-sp-validation-scripts.md).
 
- **Note:** To call a UI script within a Validation script, use the g\_ui\_scripts global object. For more information, see [GlideUIScripts](https://www.servicenow.com/docs/access?context=GUIScriptsAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US). Verify that the UI script has the **Global** field set to false and **UI Type** set to Mobile / Service Portal or All.
+ **Note:** To call a UI script within a Validation script, use the g\_ui\_scripts global object. For more information, see GlideUIScripts. Verify that the UI script has the **Global** field set to false and **UI Type** set to Mobile / Service Portal or All.
 
 </td></tr><tr><td>
 
@@ -92,7 +93,7 @@ Not supported as formatters use Jelly.
 
 Supported client scripting APIs for use in onLoad, onChange, and onSubmit client scripts.
 
-For detailed class and method information, see the [Client API reference](https://www.servicenow.com/docs/access?context=api-client&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+For detailed class and method information, see the .
 
 <table id="table_skq_rjp_h1b"><thead><tr><th>
 
@@ -237,5 +238,5 @@ i18NV3
 getMessage\(String messageKey, Function callback\)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Portal and client scripts](../concept/unsupported_client_scripts.md)
+</table>**Parent Topic:**[Service Portal and client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/unsupported_client_scripts.md)
 

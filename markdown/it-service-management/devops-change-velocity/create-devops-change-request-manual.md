@@ -2,11 +2,12 @@
 title: Create a DevOps change request and associate existing DevOps data — Classic
 description: Create a DevOps change request and associate existing DevOps data through the Classic UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/create-devops-change-request-manual.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Accelerate your DevOps change process, DevOps Change Velocity, IT Service Management]
 ---
@@ -33,7 +34,7 @@ Create a DevOps change request and associate existing DevOps data. You can modif
 
 1.  Navigate to **All** &gt; **Change** &gt; **Create New** &gt; **Create Normal Change**.
 
-    **Note:** For more information on using the Change module, see [Create a Change](../../change-management/task/t_CreateAChange.md).
+    **Note:** For more information on using the Change module, see [Create a Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/t_CreateAChange.md).
 
 2.  From the **Category** list, select DevOps or Other.
 
@@ -77,7 +78,7 @@ Create a DevOps change request and associate existing DevOps data. You can modif
 
 10. Configure the change window for the change request from the Schedule tab.
 
-    **Note:** For more information on configuring the schedule, see [Create a Change](../../change-management/task/t_CreateAChange.md).
+    **Note:** For more information on configuring the schedule, see [Create a Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/t_CreateAChange.md).
 
 11. Click **Submit**.
 
@@ -86,5 +87,5 @@ Create a DevOps change request and associate existing DevOps data. You can modif
 
 To modify the associated DevOps data to the change request, click the **Edit DevOps Data** button. Verify the associated data that you added or removed in the **Additions**/**Removal** tabs in the **Add DevOps Data** modal.
 
-**Parent Topic:**[Accelerating your DevOps change process](../concept/dev-ops-change-acceleration.md)
+**Parent Topic:**[Accelerating your DevOps change process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md)
 

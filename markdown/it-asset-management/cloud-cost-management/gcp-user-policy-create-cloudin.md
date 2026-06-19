@@ -2,6 +2,7 @@
 title: Setup roles for Google Cloud billing download
 description: To perform billing download for Google Cloud, you need specific roles and permissions for various features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/gcp-user-policy-create-cloudin.html
 release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management

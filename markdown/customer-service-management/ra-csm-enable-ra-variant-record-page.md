@@ -2,7 +2,10 @@
 title: Restore Recommended Actions on record page variants after upgrade
 description: After upgrading to a newer release, Recommended Actions \(RA\) may no longer appear on certain record page variants \(CSM default record page or CSM Interaction record page\), even if it was visible before. This can occur if the RA page is inactive or if the record page uses a customized variant created before RA was introduced as a static tab. Use the following procedure if the RA page exists but is not active for the record page variant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ra-csm-enable-ra-variant-record-page.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-01-20"
 reading_time_minutes: 1
@@ -29,9 +32,9 @@ Role required: admin
     -   CSM Interaction record page
 4.  In the content tree on the left, select **Tab Sidebar**.
 
-5.  In the right panel, locate the Page Collection for the CSM default record mid-tabs and select the **Sub-pages &amp; pages** icon ![](../image/ra-page-collection-subpages-pages-icon.png) beside it.
+5.  In the right panel, locate the Page Collection for the CSM default record mid-tabs and select the **Sub-pages &amp; pages** icon \[Omitted image "ra-page-collection-subpages-pages-icon.png"\] Alt text: beside it.
 
-6.  In the Page collection controller dialog, select the **Lookup window** icon ![](../image/ra-page-collection-lookup-window-icon.png)beside the Recommended Actions default option.
+6.  In the Page collection controller dialog, select the **Lookup window** icon \[Omitted image "ra-page-collection-lookup-window-icon.png"\] Alt text:beside the Recommended Actions default option.
 
 7.  On the Page Collection window, select **Settings** at the top.
 

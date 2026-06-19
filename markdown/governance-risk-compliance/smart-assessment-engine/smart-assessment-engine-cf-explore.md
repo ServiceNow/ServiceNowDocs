@@ -2,6 +2,7 @@
 title: Exploring Smart Assessment Engine
 description: The ServiceNowSmart Assessment Engine \(SAE\) helps you reduce the manual burden and costs of your assessment processes through automation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-explore.html
 release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -45,7 +46,7 @@ See an overview of all your assessment template-related information. You can rev
 
 </td><td>
 
-[Accessing templates in the Assessment Workspace](sae-asmnt-workspace.md)
+[Accessing templates in the Assessment Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-asmnt-workspace.md)
 
 </td><td>
 
@@ -61,13 +62,13 @@ Use the template designer for the following tasks:
 
 </td><td>
 
-[Using the template designer](sae-template-designer.md)
+[Using the template designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-template-designer.md)
 
- [Create an assessment template](../task/sae-asmnt-template-create.md)
+ [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md)
 
- [Add instructions and questions to an assessment template](../task/sae-asmnt-template-populate.md)
+ [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md)
 
- [Add reference information to an assessment template](../task/sae-asmnt-add-reference.md)
+ [Add reference information to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-asmnt-add-reference.md)
 
 </td><td>
 
@@ -79,7 +80,7 @@ Trigger assessments by using the Workflow Studio or scripts in Workflow Studio.
 
 </td><td>
 
-[Triggering assessments](sae-asmnt-triggering.md)
+[Triggering assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-asmnt-triggering.md)
 
 </td><td>
 
@@ -91,7 +92,7 @@ Respond to the assessments and collect the responses from within your workspace.
 
 </td><td>
 
-[Responding to assessments](sae-respond-to-asmnt.md)
+[Responding to assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-respond-to-asmnt.md)
 
 </td><td>
 
@@ -103,7 +104,7 @@ Combine multiple assigned assessments into a single, streamlined view. You can m
 
 </td><td>
 
-[Submit combined assessments](../task/sae-asmnt-combine.md)
+[Submit combined assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-asmnt-combine.md)
 
 </td><td>
 
@@ -115,7 +116,7 @@ Migrate the metric types to the SAE assessment templates to use the assessment d
 
 </td><td>
 
-[Migrate a legacy metric type to an assessment template](../task/sae-asmnt-tmplt-migrate-metrics-to.md)
+[Migrate a legacy metric type to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-asmnt-tmplt-migrate-metrics-to.md)
 
 </td><td>
 
@@ -127,7 +128,7 @@ Set up scoring for your assessment responses to calculate meaningful scores at t
 
 </td><td>
 
-[Scoring assessments](scoring-in-assessments.md)
+[Scoring assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/scoring-in-assessments.md)
 
 </td><td>
 
@@ -139,7 +140,7 @@ Automate actions based on assessment responses. These actions use the responses 
 
 </td><td>
 
-[Post-assessment automations](impact-automation.md)
+[Post-assessment automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/impact-automation.md)
 
 </td><td>
 
@@ -177,5 +178,5 @@ sn\_smart\_asmt.assessment\_admin or sn\_smart\_asmt.template\_manager and sn\_s
     A user with the template admin or template manager role and template \[sn\_smart\_asmt.developer\] role can read, write, and create the script for response automation in assessment questions.
 
 
-For more information, see [Roles in Smart Assessment Engine](../reference/sae-roles-defined.md).
+For more information, see [Roles in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md).
 

@@ -2,6 +2,7 @@
 title: CMDBDuplicateTemplateUtil - Global
 description: The CMDBDuplicateTemplateUtil script include provides methods to add and remove de-duplication tasks to/from a de-duplication template.Creates an instance of the CMDBDuplicateTemplateUtils class.Adds one or more de-duplication tasks to a specified de-duplication template.Clears the de-duplication template value in the specified de-duplication task records. By clearing this value, the association between a template and the task is removed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/CMDBDuplicateTemplateUtilAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,9 +16,9 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The CMDBDuplicateTemplateUtil script include provides methods to add and remove de-duplication tasks to/from a de-duplication template.
 
-For more information on de-duplication of CIs, de-duplication tasks, and de-duplication templates, see [Duplicate CIs remediation](https://www.servicenow.com/docs/access?context=de-duplication-tasks&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+For more information on de-duplication of CIs, de-duplication tasks, and de-duplication templates, see .
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## CMDBDuplicateTemplateUtils - CMDBDuplicateTemplateUtils\(\)
 

@@ -2,6 +2,7 @@
 title: Responding to assessments
 description: Use the Smart Assessment Engine application to help assessors complete survey requests. Track your progress and let the system automatically save your information. Administrators and template managers manage the assessment process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/smart-assessment-engine/sae-respond-to-asmnt.html
 release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -26,7 +27,7 @@ If you have the assessment reassign \[sn\_smart\_asmt.reassign\] role, you can r
 
 The following example shows how your progress, save status, assessment status, reference information, actions, and more are indicated in the assessment view.
 
-![In-progress assessment that shows the previously described features and their indicators.](../image/sae-asmnt-respond.png "Example of an in-progress assessment")
+\[Omitted image "sae-asmnt-respond.png"\] Alt text: In-progress assessment that shows the previously described features and their indicators.
 
 ## Assessment response features
 
@@ -36,7 +37,7 @@ The following example shows how your progress, save status, assessment status, r
 
 -   **Saving assessments**
 
-    Your assessment progress is automatically saved and your save status is indicated by the saved badge ![Saved badge.](../image/save-indicator.png).
+    Your assessment progress is automatically saved and your save status is indicated by the saved badge \[Omitted image "save-indicator.png"\] Alt text: Saved badge..
 
 -   **Progress tracking in assessments**
 

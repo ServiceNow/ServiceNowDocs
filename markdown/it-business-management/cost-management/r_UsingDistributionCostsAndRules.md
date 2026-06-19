@@ -2,6 +2,7 @@
 title: Using distribution costs and rules
 description: Distribution Costs are costs which can be divided among a group of records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/cost-management/r\_UsingDistributionCostsAndRules.html
 release: zurich
 product: Cost Management
 classification: cost-management
@@ -38,8 +39,8 @@ To define new distribution costs, navigate to **Financial Management** &gt; **Co
 |Last Processed|A read-only display of the last time the distribution cost was processed.|
 |Next Process|A read-only display of the scheduled next process date.|
 
--   **[Defining distribution rules](r_DefiningDistributionRules.md)**  
+-   **[Defining distribution rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/cost-management/r_DefiningDistributionRules.md)**  
 Define distribution rules to view distribution costs that are distributed according to the rules.
 
-**Parent Topic:**[Cost Management](r_CostManagement.md)
+**Parent Topic:**[Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/cost-management/r_CostManagement.md)
 

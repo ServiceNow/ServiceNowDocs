@@ -2,6 +2,7 @@
 title: Add the ServiceNow RPA Chrome extension
 description: Add the ServiceNow RPA Chrome extension to your Chrome browser to establish an interaction with the applications that are opened in this browser.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/add-google-chrome-extension-rpa.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub

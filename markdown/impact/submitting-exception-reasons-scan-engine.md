@@ -2,7 +2,10 @@
 title: Submit exceptions for the Scan Engine findings
 description: For Recommend level findings, developers can submit exception requests if they feel the issue should not be considered a finding.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/submitting-exception-reasons-scan-engine.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -42,5 +45,5 @@ Generally, exceptions require approval from a system administrator. However, cer
 
 ## What to do next
 
-For more information on configuring exception properties, refer to [Configure exception reason properties](../task/exception-reason-properties.md).
+For more information on configuring exception properties, refer to [Configure exception reason properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/exception-reason-properties.md).
 

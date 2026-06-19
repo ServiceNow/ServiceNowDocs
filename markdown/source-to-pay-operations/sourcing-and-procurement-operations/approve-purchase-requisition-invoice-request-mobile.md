@@ -2,6 +2,7 @@
 title: Approve your purchase requisition from your mobile device
 description: As a manager, provide approvals for purchase requisitions that are in pending approval state from your mobile application. Purchase requisition approvals are generated when an approval rule is triggered on meeting certain criteria. You can choose to reject them along with your reasons for rejection. Your action on these to-dos moves them to their respective workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/approve-purchase-requisition-invoice-request-mobile.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -9,7 +10,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [approve purchase requisitions, purchase requisitions, purchase requisition approvals]
-breadcrumb: [Shopper to-dos on your mobile, Using Shopping Hub Mobile, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Shopper to-dos on your mobile, Using Shopping Hub Mobile, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Approve your purchase requisition from your mobile device
@@ -52,5 +53,5 @@ Role required: sn\_shop.shopper
 7.  Tap the Next icon.
 
 
-**Parent Topic:**[Shopper to-dos on your mobile](../reference/shopper-todos-mobile.md)
+**Parent Topic:**[Shopper to-dos on your mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos-mobile.md)
 

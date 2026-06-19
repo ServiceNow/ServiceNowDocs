@@ -2,6 +2,7 @@
 title: Querying tables in script
 description: Using methods in the GlideRecord API, you can return all records from a table, return records from a table that satisfy specific conditions, or return records that include a string from a single table or from multiple tables in a text index group.Describes the operators that can be used within an addQuery\(\) request.These examples demonstrate how to perform various GlideRecord queries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/c\_UsingGlideRecordToQueryTables.html
 release: zurich
 product: Scripts
 classification: scripts
@@ -15,7 +16,7 @@ breadcrumb: [Server-side scripting, Scripting, API implementation, API implement
 
 Using methods in the GlideRecord API, you can return all records from a table, return records from a table that satisfy specific conditions, or return records that include a string from a single table or from multiple tables in a text index group.
 
-Query tables using the GlideRecord API. For API reference, see [GlideRecord - Scoped](../../../app-store/dev_portal/API_reference/glideRecordScoped/concept/c_GlideRecordScopedAPI.md#).
+Query tables using the GlideRecord API. For API reference, see [GlideRecord - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
 ## Return all records from a table
 
@@ -76,7 +77,7 @@ gr.query();
 
 String search is case-insensitive. The system returns the same results whether you search for `email`, `Email`, or `EMAIL`.
 
-**Note:** Before you can query using a string search, you must configure text indexing \(and optionally search attributes\) for the table you want to search. For more information, see [Configure a single table for indexing and searching](https://www.servicenow.com/docs/access?context=configure-single-table-for-indexing&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** Before you can query using a string search, you must configure text indexing \(and optionally search attributes\) for the table you want to search. For more information, see Configure a single table for indexing and searching.
 
 ## Return records from multiple tables in a text index group that include a string
 
@@ -99,9 +100,9 @@ You can create a similar query for each additional table in the 'portal' index g
 
 Multi-table string search is case-insensitive. The system returns the same results whether you search for `email`, `Email`, or `EMAIL`.
 
-**Note:** Before you can query tables in an index group, you must configure text indexing and search attributes for those tables and include them in the index group. For more information, see [Configure multiple tables for indexing and searching](https://www.servicenow.com/docs/access?context=index-multiple-tables&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US). All tables in the index group must use the V4 indexing format.
+**Note:** Before you can query tables in an index group, you must configure text indexing and search attributes for those tables and include them in the index group. For more information, see Configure multiple tables for indexing and searching. All tables in the index group must use the V4 indexing format.
 
-**Parent Topic:**[Server-side scripting](c_ServerScripting.md)
+**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_ServerScripting.md)
 
 ## Available JavaScript operators
 
@@ -276,7 +277,7 @@ Special operator that retrieves only records of a specified "class" for extended
 addQuery\('sys\_class\_name', 'INSTANCEOF', 'cmdb\_ci\_computer'\);
 
 </td></tr></tbody>
-</table>For additional information on the operators that are available for filters and queries, see [Operators available for filters and queries](https://www.servicenow.com/docs/access?context=r_OpAvailableFiltersQueries&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+</table>For additional information on the operators that are available for filters and queries, see .
 
 There are also some special methods that you can use to search for data that is NULL or NOT NULL. To search for all incidents where the *short\_description* field has not been supplied \(is null\), use the following query:
 
@@ -300,7 +301,7 @@ while (target.next()) {
 }
 ```
 
-For more information on the GlideRecord API and its available methods, see [GlideRecord](../../../app-store/dev_portal/API_reference/glideRecordScoped/concept/c_GlideRecordScopedAPI.md#).
+For more information on the GlideRecord API and its available methods, see [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
 ## GlideRecord query examples
 
@@ -362,5 +363,5 @@ while(gr.next()) {
   gs.addInfoMessage(gr.request_item.number); }
 ```
 
-For additional information see [GlideRecord](../../../app-store/dev_portal/API_reference/glideRecordScoped/concept/c_GlideRecordScopedAPI.md#).
+For additional information see [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 

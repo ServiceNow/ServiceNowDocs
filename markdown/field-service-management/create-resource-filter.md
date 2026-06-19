@@ -2,7 +2,10 @@
 title: Create an advanced resource filter for dispatchers
 description: Create an advanced resource filter so all dispatchers can use the same filter in Dispatcher Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/create-resource-filter.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -39,15 +42,15 @@ When administrators create an advanced resource filter for dispatchers they show
 
 7.  Fill in the fields on the form.
 
-<table id="choicetable_s3x_q1x_vfc"><thead><tr><th align="left" id="d29554e158">
+<table id="choicetable_s3x_q1x_vfc"><thead><tr><th align="left" id="d27220e158">
 
 Field
 
-</th><th align="left" id="d29554e161">
+</th><th align="left" id="d27220e161">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d29554e167">
+</th></tr></thead><tbody><tr><td id="d27220e167">
 
 **Table**
 
@@ -59,7 +62,7 @@ Select the view. The choices are:-   agent\_filter\_config\_view
 -   contractor\_filter\_config\_view
 
 
-</td></tr><tr><td id="d29554e190">
+</td></tr><tr><td id="d27220e190">
 
 **Filter**
 

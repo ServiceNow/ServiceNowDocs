@@ -2,6 +2,7 @@
 title: Configure Google Drive for external content indexing
 description: Enable the Google Drive and Admin SDK APIs and create a Google Cloud service account to allow the Google Drive external content connector to crawl eligible shared drives and security principals in your Google Drive source system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/cfg-gcloud-settings-gdrive-ext-cont-connector.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -26,7 +27,7 @@ Role required: none
 
 The Google Drive external content connector retrieves content from your Google Drive source system using APIs and a service account configured in the Google Cloud console. The connector also relies on domain-wide delegation for the service account, which is configured in the Google Admin console.
 
-Your connector admin can use settings copied from the Google Cloud console to configure the Google Drive external content connector for proper connection to your Google Drive source system.
+Your connector administrator can use settings copied from the Google Cloud console to configure the Google Drive external content connector for proper connection to your Google Drive source system.
 
 ## Procedure
 
@@ -48,7 +49,7 @@ Your connector admin can use settings copied from the Google Cloud console to co
 
         The API appears in the Enabled APIs &amp; services listing for your project.
 
-    6.  Repeat steps [1.c](cfg-gcloud-settings-gdrive-ext-cont-connector.md#enable-api-first-substep) through [1.e](cfg-gcloud-settings-gdrive-ext-cont-connector.md#enable-api-last-substep), but this time locate, select, and enable the **Admin SDK API**.
+    6.  Repeat steps [1.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/cfg-gcloud-settings-gdrive-ext-cont-connector.md) through [1.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/cfg-gcloud-settings-gdrive-ext-cont-connector.md), but this time locate, select, and enable the **Admin SDK API**.
 
 2.  Create a new Google Cloud service account for your selected project.
 
@@ -76,7 +77,7 @@ Your connector admin can use settings copied from the Google Cloud console to co
 
     5.  When prompted, download the JSON-format private key file to a secure location.
 
-        **Important:** Your connector admin needs the JSON-format private key file to configure a Google Drive external content connector.
+        **Important:** Your connector administrator needs the JSON-format private key file to configure a Google Drive external content connector.
 
     6.  Select **Close**.
 
@@ -92,7 +93,7 @@ Your connector admin can use settings copied from the Google Cloud console to co
 
     5.  In the API clients list, select **Add new**.
 
-    6.  In the **Client ID** field, enter the service account's OAuth 2 Client ID that you copied in step [4.a](cfg-gcloud-settings-gdrive-ext-cont-connector.md#copy-oauth-2-client-id-substep).
+    6.  In the **Client ID** field, enter the service account's OAuth 2 Client ID that you copied in step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/cfg-gcloud-settings-gdrive-ext-cont-connector.md).
 
     7.  In the **OAuth scopes** field, enter `https://www.googleapis.com/auth/drive.readonly, https://www.googleapis.com/auth/admin.directory.user.readonly, https://www.googleapis.com/auth/admin.directory.group.readonly`.
 
@@ -103,18 +104,18 @@ Your connector admin can use settings copied from the Google Cloud console to co
 
 ## What to do next
 
-Provide the following items to your connector admin:
+Provide the following items to your connector administrator:
 
 -   Your Google Workspace domain name, in the format `example.com`. You can find your domain name by navigating to the [https://admin.google.com/ac/domains/manage](https://admin.google.com/ac/domains/manage) Google administration page.
 -   The email address for a user account that has permission to access your Google Workspace domain’s user directory. The Google Drive external content connector uses this account to enumerate users and groups of the domain.
 
     **Note:** This should be an email address from your organization's domain, not a service account email address from the `iam.gserviceaccount.com` domain.
 
--   The JSON private key file for the Google Cloud service account that you downloaded in step [3.e](cfg-gcloud-settings-gdrive-ext-cont-connector.md#download-json-private-key-substep).
+-   The JSON private key file for the Google Cloud service account that you downloaded in step [3.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/cfg-gcloud-settings-gdrive-ext-cont-connector.md).
 
-Your connector admin needs these items to configure a Google Drive external content connector to retrieve searchable content and security principals from your Google Drive instance.
+Your connector administrator needs these items to configure a Google Drive external content connector to retrieve searchable content and security principals from your Google Drive instance.
 
-For details on creating and configuring a Google Drive external content connector, see [Create a Google Drive external content connector](create-ext-cont-connector-gdrive.md).
+For details on creating and configuring a Google Drive external content connector, see [Create a Google Drive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-gdrive.md).
 
-**Parent Topic:**[Google Drive external content connector](../concept/google-drive-external-content-connector.md)
+**Parent Topic:**[Google Drive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/google-drive-external-content-connector.md)
 

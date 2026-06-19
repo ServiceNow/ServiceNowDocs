@@ -2,6 +2,7 @@
 title: Define object-object relationships
 description: Define relationships between SDOs, except the indicator object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/define-object-object-relationships.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -31,15 +32,15 @@ Role required: sn\_sec\_tisc.analyst
 
 5.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d172939e98">
+<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d139722e98">
 
 Field
 
-</th><th align="left" id="d172939e101">
+</th><th align="left" id="d139722e101">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d172939e107">
+</th></tr></thead><tbody><tr><td id="d139722e107">
 
 **Source Object**
 
@@ -47,7 +48,7 @@ Description
 
 Select and define the source object.
 
-</td></tr><tr><td id="d172939e116">
+</td></tr><tr><td id="d139722e116">
 
 **Source Object Type**
 
@@ -55,7 +56,7 @@ Select and define the source object.
 
 Defines the type of source object.
 
-</td></tr><tr><td id="d172939e125">
+</td></tr><tr><td id="d139722e125">
 
 **Target Object**
 
@@ -63,7 +64,7 @@ Defines the type of source object.
 
 Select and define the target object.
 
-</td></tr><tr><td id="d172939e134">
+</td></tr><tr><td id="d139722e134">
 
 **Target Object Type**
 
@@ -71,7 +72,7 @@ Select and define the target object.
 
 Defines the type of target object.
 
-</td></tr><tr><td id="d172939e144">
+</td></tr><tr><td id="d139722e144">
 
 **Relationship Type**
 
@@ -83,7 +84,7 @@ A description that provides more details and context about the relationship type
 -   Direct - This is the type of relationship between the object and observable.
 
 
-</td></tr><tr><td id="d172939e163">
+</td></tr><tr><td id="d139722e163">
 
 **Start Time**
 
@@ -91,7 +92,7 @@ A description that provides more details and context about the relationship type
 
 Specifies the time when the relationship is created.
 
-</td></tr><tr><td id="d172939e172">
+</td></tr><tr><td id="d139722e172">
 
 **Stop Time**
 
@@ -99,7 +100,7 @@ Specifies the time when the relationship is created.
 
 Specifies the time when the relationship is stopped or removed.
 
-</td></tr><tr><td id="d172939e181">
+</td></tr><tr><td id="d139722e181">
 
 **Description**
 
@@ -111,5 +112,5 @@ A brief description about the object relationships.
 </table>6.  Click **Submit**.
 
 
-**Parent Topic:**[Relationships Objects](../concept/relationship-objects.md)
+**Parent Topic:**[Relationships Objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/relationship-objects.md)
 

@@ -2,6 +2,7 @@
 title: View application service details in Service Operations Workspace
 description: View comprehensive information about an application service, including its name, business criticality, ownership, process and operational status, traffic-based discovery details, discovery status, and relevant comments. This enables thorough analysis of the application service's current state and usage, provides clarity on ownership and criticality, and facilitates effective prioritization of resources and actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/worksplace-view-service-details.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -25,17 +26,17 @@ Role required: evt\_mgmt\_user, evt\_mgmt\_operator, or evt\_mgmt\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the left navigation bar, select the Service Dashboard icon: ![Service Dashboard icon](../../service-operations-workspace-itom/image/icon-service-dashboard.png).
+2.  From the left navigation bar, select the Service Dashboard icon: \[Omitted image "icon-service-dashboard.png"\] Alt text: Service Dashboard icon.
 
     The Service Dashboard page appears.
 
-    **Note:** The application services that appear in the Service Dashboard are those added to the Impact Filter Services list. For more information, see [Add application services for impact calculation](add-impact-cal-services.md).
+    **Note:** The application services that appear in the Service Dashboard are those added to the Impact Filter Services list. For more information, see [Add application services for impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/add-impact-cal-services.md).
 
 3.  Select a service tile.
 
     A pop-up window displays the business criticality and severity of a service.
 
-    ![Application service tile with options to see service details and service map.](../../service-operations-workspace-itom/image/sow-itom-service-app-tile-options.png)
+    \[Omitted image "sow-itom-service-app-tile-options.png"\] Alt text: Application service tile with options to see service details and service map.
 
 4.  Select **Service Details**.
 
@@ -43,8 +44,8 @@ Role required: evt\_mgmt\_user, evt\_mgmt\_operator, or evt\_mgmt\_admin
 
     The details page provides comprehensive information about an application service.
 
-    ![Application service details page](../../service-operations-workspace-itom/image/sow-app-service-details.png)
+    \[Omitted image "sow-app-service-details.png"\] Alt text: Application service details page
 
-    For information on the fields, see [Application service details page](../../service-operations-workspace-itom/reference/app-service-details.md).
+    For information on the fields, see [Application service details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/app-service-details.md).
 
 

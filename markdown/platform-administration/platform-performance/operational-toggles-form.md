@@ -2,6 +2,7 @@
 title: Operational toggles form
 description: A description of the fields in the Operational Toggles form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-performance/operational-toggles-form.html
 release: zurich
 product: Platform Performance
 classification: platform-performance
@@ -56,5 +57,5 @@ Application
 Scope that is to a specific application or is a global scope.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Platform performance reference](../concept/platform-performance-references.md)
+</table>**Parent Topic:**[Platform performance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/platform-performance-references.md)
 

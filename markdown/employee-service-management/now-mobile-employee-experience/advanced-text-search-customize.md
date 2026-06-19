@@ -2,6 +2,7 @@
 title: Customize AI Search results
 description: Customize AI Search results to provide users with a tailored search experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-mobile-employee-experience/advanced-text-search-customize.html
 release: zurich
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
@@ -42,7 +43,7 @@ Role required: admin
 
     1.  Select the **Navigation Tabs** tab.
 
-    2.  Select the information icon ![Information icon.](../../tablet-mobile-ui/image/gac-info-icon.png) next to either **People**, **Articles**, or **Services** and select **Open Record** to open the record for that navigation tab.
+    2.  Select the information icon \[Omitted image "gac-info-icon.png"\] Alt text: Information icon. next to either **People**, **Articles**, or **Services** and select **Open Record** to open the record for that navigation tab.
 
     3.  On the form, fill in the fields.
 
@@ -62,7 +63,7 @@ Role required: admin
 
     1.  Select the Autocomplete Suggestions tab.
 
-    2.  Select the information icon \(![Information icon.](../../tablet-mobile-ui/image/gac-info-icon.png)\) next to either **Recent searches** or **Popular searches** and select **Open Record** to open the record for that navigation tab.
+    2.  Select the information icon \(\[Omitted image "gac-info-icon.png"\] Alt text: Information icon.\) next to either **Recent searches** or **Popular searches** and select **Open Record** to open the record for that navigation tab.
 
     3.  On the form, fill in the fields.
 
@@ -126,7 +127,7 @@ Option for controlling the section header display.-   If selected, auto-complete
 
 ## What to do next
 
-After you have customized the display of your search results, select the AI Search results to be displayed in an applet launcher. See, [Add AI Search to a launcher screen](aisearch-add-applet-launcher.md).
+After you have customized the display of your search results, select the AI Search results to be displayed in an applet launcher. See, [Add AI Search to a launcher screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/aisearch-add-applet-launcher.md).
 
-Consider configuring a customized empty state display to inform users that their search has not produced any results. If you do not customize an empty state, a preconfigured default empty state is displayed. To customize an empty state, see [Configure an empty state for search results](https://www.servicenow.com/docs/access?context=empty-state-search-results&version=zurich&pubname=zurich-mobile&ft:locale=en-US).
+Consider configuring a customized empty state display to inform users that their search has not produced any results. If you do not customize an empty state, a preconfigured default empty state is displayed. To customize an empty state, see Configure an empty state for search results.
 

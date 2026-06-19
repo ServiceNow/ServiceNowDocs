@@ -2,6 +2,7 @@
 title: Activate the Platform Analytics Solution for Advanced AI Search Management Tools
 description: Activate the content pack ServiceNow Store application for the Platform Analytics Solution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/install-adv-ais-mgmt-tools.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -17,7 +18,7 @@ Activate the content pack ServiceNow® Store application for the Platform Analyt
 
 ## Before you begin
 
-The User Experience Analytics API application from the ServiceNow Store must be activated in your instance.
+The Usage Insights API application from the ServiceNow Store must be activated in your instance.
 
 Role required: admin
 

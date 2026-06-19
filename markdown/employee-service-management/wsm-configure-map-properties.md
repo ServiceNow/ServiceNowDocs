@@ -2,6 +2,7 @@
 title: Customize the map properties
 description: Customize how your map renders in the Workplace Service Portal by configuring Workplace Space Mapping properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/wsm-configure-map-properties.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -29,10 +30,10 @@ Indoor maps properties are specific to ServiceNow AI Platform capabilities. Map 
 
 2.  Set the map properties based on your preference.
 
-    For more information about the map properties, see [Properties installed with Workplace Space Mapping](../reference/wsd-space-mapping-properties.md).
+    For more information about the map properties, see [Properties installed with Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/wsd-space-mapping-properties.md).
 
 3.  Click **Save**.
 
 
-**Parent Topic:**[Setting up Workplace Space Mapping](../concept/set-up-workplace-service-mapping.md)
+**Parent Topic:**[Setting up Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/set-up-workplace-service-mapping.md)
 

@@ -2,6 +2,7 @@
 title: Enable Now Assist experience in Virtual Agent API
 description: Enable Now Assist experience in Virtual Agent API to support generative AI skills across multiple provider channels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/enable-now-assist-in-virtual-agent-experience-in-virtual-agent-api.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Enable Now Assist experience in Virtual Agent API to support generative AI skill
 
 ## Before you begin
 
-Set up Now Assist in Virtual Agent. See [Configuring assistants overview](../../now-assist-in-va/task/configure-now-assist-va.md) for more information.
+Set up Now Assist in Virtual Agent. See [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md) for more information.
 
 **Note:** Now Assist capabilities are supported only in asynchronous mode.
 
@@ -41,5 +42,5 @@ Role required: admin
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Using Virtual Agent API](../concept/use-virtual-agent-api.md)
+**Parent Topic:**[Using Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/use-virtual-agent-api.md)
 

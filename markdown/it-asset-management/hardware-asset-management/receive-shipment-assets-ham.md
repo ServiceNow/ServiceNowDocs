@@ -2,13 +2,14 @@
 title: Receive assets from inbound shipments at your stockroom in the Hardware Asset Workspace
 description: Receive hardware and consumable assets from one or more shipments that are in transit to your stockroom in the Hardware Asset Workspace. You can receive assets from shipments originating from any workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/receive-shipment-assets-ham.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Manage the receiving of assets at stockrooms in the Hardware Asset Workspace, Manage stockrooms, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage the receiving of assets at stockrooms, Manage stockrooms, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Receive assets from inbound shipments at your stockroom in the Hardware Asset Workspace
@@ -71,5 +72,5 @@ If the asset details are valid, the following changes occur:
 
 **Note:** If any of the asset details are invalid, an error message in shown in the **Alert** column for the corresponding asset record. You should resolve the error before receiving the assets.
 
-**Parent Topic:**[Manage the receiving of assets at stockrooms in the Hardware Asset Workspace](../concept/manage-stockroom-receive-hws.md)
+**Parent Topic:**[Manage the receiving of assets at stockrooms in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-stockroom-receive-hws.md)
 

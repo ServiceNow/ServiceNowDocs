@@ -2,13 +2,14 @@
 title: Cart line update scenarios
 description: Cart lines are created, updated, or deleted based on the updates that you make to the products in your shopping cart.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/cart-line-update-scenarios.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Shopping cart, Using Shopping Hub, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+reading_time_minutes: 2
+breadcrumb: [Shopping cart, Using Shopping Hub, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Cart line update scenarios
@@ -25,9 +26,9 @@ Cart lines are created, updated, or deleted based on the updates that you make t
 -   When you remove a product from your cart, the cart line is updated to reflect the status of the product, which is now Pending Deletion. If you wish to add the removed product back to your cart, and select **Undo**, the cart line status is updated to Visible in Cart.
 -   If you wish to buy a product at a later date or time, and select **Purchase later**, the cart line status is updated to Purchasing Later.
 
-    ![Product moved to the Purchase later section to your shopping cart when you decide to buy it at a later time](../image/spo-purchase-later.png)
+    \[Omitted image "spo-purchase-later.png"\] Alt text: Product moved to the Purchase later section to your shopping cart when you decide to buy it at a later time
 
 -   If you move a product, some quantity of which already exists in your cart, from your **Purchase later** section to your shopping cart, the cart lines merge and the purchase quantity is updated accordingly.
 
-**Parent Topic:**[Shopping cart](../concept/shopping-cart.md)
+**Parent Topic:**[Shopping cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/shopping-cart.md)
 

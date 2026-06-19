@@ -2,6 +2,7 @@
 title: Create a legal entity and enhance digital resilience data
 description: Create a legal entity record in Digital resilience third-party registers using Third-party Risk Management. You can then configure digital resilience information for the legal entity such as its name, type, country, and hierarchy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-legal-entity.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -29,13 +30,13 @@ When you install Digital resilience third-party registers, the **Legal entities*
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Digital resilience third-party registers**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Digital resilience third-party registers**.
 
 2.  Select **Legal entities** and then create a company record by selecting **New**.
 
 3.  On the form, fill in the fields.
 
-    For descriptions of all these fields, see [Create New Company form](../reference/tprm-create-new-legal-entity-form.md).
+    For descriptions of all these fields, see [Create New Company form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-create-new-legal-entity-form.md).
 
 4.  Select **Save**.
 
@@ -45,7 +46,7 @@ When you install Digital resilience third-party registers, the **Legal entities*
 
     The Legal entity record contains the fields that provide the information required for the regulatory reporting of the legal entity. This includes details such as Legal Entity Identifier \(LEI\), name, country of registration, entity type \(as defined by the regulator\), and more. These fields are offered as choice lists within the system for users to select from.
 
-    For information on setting up the digital resilience information for a legal entity, see [Create New Legal entity form](../reference/tprm-create-new-legal-entity.md).
+    For information on setting up the digital resilience information for a legal entity, see [Create New Legal entity form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-create-new-legal-entity.md).
 
 6.  Select **Save**.
 
@@ -58,5 +59,5 @@ When you install Digital resilience third-party registers, the **Legal entities*
 
 ## What to do next
 
-Set up branches for a legal entity. For more information, see [Create a branch and enhance digital resilience data](tprm-drtp-reg-branch.md).
+Set up branches for a legal entity. For more information, see [Create a branch and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-branch.md).
 

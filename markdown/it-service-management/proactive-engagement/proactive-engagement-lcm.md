@@ -2,6 +2,7 @@
 title: Proactive Engagement life-cycle management
 description: The Proactive Engagement application enables you to work in the life-cycle model to manage solutions that you own and to view solutions that may have an impact on services or products that you care about.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/proactive-engagement/proactive-engagement-lcm.html
 release: zurich
 product: Proactive Engagement
 classification: proactive-engagement
@@ -19,7 +20,7 @@ You can access the Proactive Engagement workbench by navigating to **All** &gt; 
 
 The Proactive Engagement Workbench provides an overview of all the Proactive Engagement solutions available on an instance. It displays the details of all the solutions available, deployed, and not deployed.
 
-Deployed solutions, where the engagement settings are configured and are used within the organization. Proactive Engagement resolutions created through the metric rules are deployed by default. For more information, see the [Configuring Proactive Engagement resolutions with DEX](../configuring-metric-rule.md). Deployed solutions can be deployed as custom or original. Solutions created by using the metric rules are original. You can customize the resolution by selecting the deployed record and choosing a custom resolution. Engagement settings for the not deployed solutions are not configured.
+Deployed solutions, where the engagement settings are configured and are used within the organization. Proactive Engagement resolutions created through the metric rules are deployed by default. For more information, see the [Configuring Proactive Engagement resolutions with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/proactive-engagement/configuring-metric-rule.md). Deployed solutions can be deployed as custom or original. Solutions created by using the metric rules are original. You can customize the resolution by selecting the deployed record and choosing a custom resolution. Engagement settings for the not deployed solutions are not configured.
 
 ## Review solutions for the available updates
 
@@ -38,5 +39,5 @@ Proactive Engagement will be triggered only for the deployed solutions. There ar
 
 For custom resolutions, you can update them automatically or manually update them. Once the updates are completed, the status changes to Update up-to-date. The **Update provider data** updates or refreshes the solutions in the Proactive Engagement workbench.
 
-**Parent Topic:**[Using Proactive Engagement](../using-proactive-engagement.md)
+**Parent Topic:**[Using Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/proactive-engagement/using-proactive-engagement.md)
 

@@ -2,7 +2,10 @@
 title: All other Zurich fixes
 description: The Zurich release contains important problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/zurich-all-other-fixes.html
 release: zurich
+product: Release Notes
+classification: release-notes
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 135
@@ -17,7 +20,7 @@ The Zurich release contains important problem fixes.
     -   07-23-2025\_1759
     -   glide-zurich-07-01-2025\_\_patch0-07-15-2025
 
-**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](../upgrades/reference/upgrade.md).
+**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/upgrade.md).
 
 For more information about the release cycle, see the [ServiceNow Release Cycle](https://support.servicenow.com/kb_view.do?sysparm_article=KB0547244).
 
@@ -18232,5 +18235,5 @@ PRB1831964
 The Zing Global Search changes capitalized letters in the Search Result List on the 'Global Search' page
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Available patches and hotfixes](../available-versions.md)
+</table>**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/available-versions.md)
 

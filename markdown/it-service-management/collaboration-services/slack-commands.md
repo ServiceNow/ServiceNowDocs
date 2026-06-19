@@ -2,6 +2,7 @@
 title: Slack slash commands
 description: Slash commands provides a quick way to invoke your app to perform specific actions from Slack.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/collaboration-services/slack-commands.html
 release: zurich
 product: Collaboration Services
 classification: collaboration-services
@@ -15,7 +16,7 @@ breadcrumb: [Slack integration - Incident Management, Reference, Collaboration s
 
 Slash commands provides a quick way to invoke your app to perform specific actions from Slack.
 
-You need to [configure slash commands](https://www.servicenow.com/docs/access?context=set-up-slack&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) to execute the commands. Only a user with the sn\_incident\_write, itil or admin role can execute the commands.
+You need to configure slash commands to execute the commands. Only a user with the sn\_incident\_write, itil or admin role can execute the commands.
 
 <table id="table_eg5_4td_jnb"><thead><tr><th>
 
@@ -94,5 +95,5 @@ Assigns associated incident to the slack user.
 Assigns associated incident to a specific user.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Slack integration - Incident Management](../concept/im-slack-collaboration.md)
+</table>**Parent Topic:**[Slack integration - Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/im-slack-collaboration.md)
 

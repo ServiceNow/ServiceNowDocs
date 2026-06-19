@@ -2,6 +2,7 @@
 title: Configure API credentials for IBM watsonx
 description: Configure your API credentials to use IBM watsonx Granite models in custom workflows and Virtual Agent Designer topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-ibm-watsonx.html
 release: zurich
 product: Generative AI Controller
 classification: generative-ai-controller

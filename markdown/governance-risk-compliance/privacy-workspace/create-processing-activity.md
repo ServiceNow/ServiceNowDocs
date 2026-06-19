@@ -2,12 +2,13 @@
 title: Create or update a processing activity
 description: Manually create a processing activity or update a processing activity that is automatically created out of a privacy screening assessment. You can also update a processing activity that is created from an entity record. When you update a processing activity, you can fill in the relevant details about the personal data that is being processed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/create-processing-activity.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]
 ---
 
@@ -19,19 +20,26 @@ Manually create a processing activity or update a processing activity that is au
 
 Role required: sn\_privacy.analyst \(who owns the processing activity\) or sn\_privacy.manager
 
+## About this task
+
+You can create a processing activity in two ways:
+
+-   Manually create a processing activity for a business application or process that handles personal data.
+-   Update a processing activity that was automatically created when a privacy screening assessment determined that personal data is being processed. Screening assessments include automation rules that create processing activities based on specific responses. To configure automation in your assessment template, refer to [Post-assessment automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/impact-automation.md).
+
 ## Procedure
 
 1.  Navigate to one of the following.
 
-<table id="choicetable_kjs_yc1_sqb"><thead><tr><th align="left" id="d337344e56">
+<table id="choicetable_kjs_yc1_sqb"><thead><tr><th align="left" id="d41886e81">
 
 Action
 
-</th><th align="left" id="d337344e59">
+</th><th align="left" id="d41886e84">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d337344e65">
+</th></tr></thead><tbody><tr><td id="d41886e90">
 
 **To create a new processing activity**
 
@@ -41,7 +49,7 @@ Procedure
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d337344e101">
+</td></tr><tr><td id="d41886e126">
 
 **To update a processing activity**
 
@@ -279,5 +287,9 @@ Internal notes not visible to the external people.
 </table>3.  Click **Save**.
 
 
-**Parent Topic:**[Using Privacy Management](../concept/using-privacy-mgmt.md)
+## What to do next
+
+Send a privacy assessment to a processing activity owner to collect more information on why and how the processing activity is using personal information. For more information, see [Send a privacy assessment from a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/send-privacy-asmt-from-pa.md).
+
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

@@ -2,6 +2,7 @@
 title: Cancel a running external content connector crawl
 description: Cancel a running crawl for an external content connector to prevent the connector from retrieving and feeding additional documents or access permissions to AI Search for indexing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/cancel-ext-cont-connector-crawl.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -45,5 +46,5 @@ Search administrators can manually cancel external content connector crawls that
 
 The selected external content connector halts its crawl.
 
-**Parent Topic:**[Crawling content with External Content Connectors](../concept/using-ext-cont-connectors.md)
+**Parent Topic:**[Crawling content with External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/using-ext-cont-connectors.md)
 

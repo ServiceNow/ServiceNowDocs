@@ -2,6 +2,7 @@
 title: Configure the Security incident quality assessment skill
 description: Add natural language rule sets to the Security incident quality assessment skill. Security analysts use these rules to generate a quality assessment report for security incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/now-assist-for-security-incident-response-sir/config-quality-assessment-skill.html
 release: zurich
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -22,7 +23,7 @@ Role required: sn\_si.admin
 
 ## About this task
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 ## Procedure
 
@@ -32,7 +33,7 @@ Role required: sn\_si.admin
 
     The Now Assist skills for Security Operations page displays the list of available skills.
 
-3.  In the Security Incident Quality Assessment tile, select ![More actions icon.](../../security-incident-response/image/cj-sir-flow-more-icon.png)
+3.  In the Security Incident Quality Assessment tile, select \[Omitted image "cj-sir-flow-more-icon.png"\] Alt text: More actions icon.
 
 4.  Select **Edit**.
 

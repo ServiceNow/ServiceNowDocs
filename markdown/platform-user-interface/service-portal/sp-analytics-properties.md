@@ -1,19 +1,20 @@
 ---
-title: User Experience Analytics related properties for Service Portal
-description: Use system properties to configure User Experience Analytics for Service Portal.
+title: Usage Insights related properties for Service Portal
+description: Use system properties to configure Usage Insights for Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/sp-analytics-properties.html
 release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [User Experience Analytics for Service Portal, Analytics and Reporting Solutions for Service Portal, Analyzing portal performance and usage, Service Portal, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Usage Insights for Service Portal, Analytics and Reporting Solutions for Service Portal, Analyzing portal performance and usage, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
 
-# User Experience Analytics related properties for Service Portal
+# Usage Insights related properties for Service Portal
 
-Use system properties to configure User Experience Analytics for Service Portal.
+Use system properties to configure Usage Insights for Service Portal.
 
 -   **__glide.analytics.tracking.force\_allowed.portals__**
 
@@ -28,12 +29,12 @@ Use system properties to configure User Experience Analytics for Service Portal.
     -   Type: string
     -   Default value: none
 
-**Parent Topic:**[User Experience Analytics for Service Portal](../concept/sp-analytics.md)
+**Parent Topic:**[Usage Insights for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/sp-analytics.md)
 
 **Related topics**  
 
 
-[Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US)
+[bundle-platadm.t_AddAPropertyUsingSysPropsList]
 
-[Unique record identifier \(sys\_id\)](https://www.servicenow.com/docs/access?context=c_UniqueRecordIdentifier&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_UniqueRecordIdentifier]
 

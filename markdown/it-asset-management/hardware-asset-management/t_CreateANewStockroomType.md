@@ -2,6 +2,7 @@
 title: Create a new stockroom type
 description: If you need stockroom types that are not included in the base system, you can create a custom stockroom type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/t\_CreateANewStockroomType.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -21,7 +22,7 @@ Role required: inventory\_admin
 
 ## About this task
 
-Check the [priority level](../reference/r_StockroomTypes.md) of the stockroom types provided in the base instance to ensure that you assign the correct priority level to any new stockroom types you create. You can also modify the stockroom types included in the base system.
+Check the [priority level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/r_StockroomTypes.md) of the stockroom types provided in the base instance to ensure that you assign the correct priority level to any new stockroom types you create. You can also modify the stockroom types included in the base system.
 
 ## Procedure
 
@@ -39,5 +40,5 @@ Check the [priority level](../reference/r_StockroomTypes.md) of the stockroom ty
 2.  Click **Submit**.
 
 
-**Parent Topic:**[Manage stockrooms](../../hardware-asset-management/concept/manage-your-stockrooms.md)
+**Parent Topic:**[Manage stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
 

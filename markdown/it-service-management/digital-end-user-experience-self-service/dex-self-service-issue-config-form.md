@@ -2,6 +2,7 @@
 title: DEX Self-service issue configuration form
 description: The DEX Self-service issue configuration form presents elaborate data on the form's fields and their corresponding descriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-self-service/dex-self-service-issue-config-form.html
 release: zurich
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service
@@ -106,7 +107,7 @@ Evaluation metric
 
 </td><td>
 
-View the selected metric here.**Note:** You can select multiple metrics. DEX Self-service checks both the metrics and decides if the category is Good, Average, or Poor. To configure the metrics, see [Customize metric definitions](../../dex-score/task/dexscr-customize-dex-score-metric-defs.md).
+View the selected metric here.**Note:** You can select multiple metrics. DEX Self-service checks both the metrics and decides if the category is Good, Average, or Poor. To configure the metrics, see [Customize metric definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-experience-score/dexscr-customize-dex-score-metric-defs.md).
 
 </td></tr><tr><td>
 
@@ -130,7 +131,7 @@ Resolution
 
 </td><td>
 
-Enter the issue resolution code.**Note:** The resolutions are provided from Proactive Engagement. To configure the resolutions, see [Configuring Proactive Engagement resolutions with DEX](../../proactive-engagement/configuring-metric-rule.md).
+Enter the issue resolution code.**Note:** The resolutions are provided from Proactive Engagement. To configure the resolutions, see [Configuring Proactive Engagement resolutions with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/proactive-engagement/configuring-metric-rule.md).
 
 </td></tr></tbody>
 </table>

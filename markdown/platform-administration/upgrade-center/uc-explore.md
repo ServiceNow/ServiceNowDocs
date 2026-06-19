@@ -2,6 +2,7 @@
 title: Exploring Upgrade Center
 description: Get an overview of Upgrade Center so you can plan your upgrade ahead.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/upgrade-center/uc-explore.html
 release: zurich
 product: Upgrade Center
 classification: upgrade-center
@@ -21,7 +22,7 @@ Get an overview of Upgrade Center so you can plan your upgrade ahead.
 
     Streamline your upgrade process with Upgrade Center. Explore upcoming releases and preview their features without impacting your current instance. Monitor active upgrades and review past upgrade history. Use the visual task board \(VTB\) to manage post-upgrade tasks efficiently.
 
-    ![Image showing the home page of Upgrade Center](../image/uc-one-stop.png)
+    \[Omitted image "uc-one-stop.png"\] Alt text: Image showing the home page of Upgrade Center
 
 
 ## Upgrade Center users
@@ -52,7 +53,7 @@ Preview your upgrade
 
 </td><td>
 
-[Upgrade Preview module](uc-preview-module.md)
+[Upgrade Preview module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-center/uc-preview-module.md)
 
 </td><td>
 
@@ -64,7 +65,7 @@ Monitor your upgrade
 
 </td><td>
 
-[Upgrade Monitor module](uc-monitor-module.md)
+[Upgrade Monitor module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-center/uc-monitor-module.md)
 
 </td><td>
 
@@ -76,7 +77,7 @@ Review previous upgrade detail
 
 </td><td>
 
-[Upgrade History module](uc-history-module.md)
+[Upgrade History module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-center/uc-history-module.md)
 
 </td><td>
 
@@ -88,7 +89,7 @@ Build an upgrade plan
 
 </td><td>
 
-[Upgrade Plan overview](uc-upgrade-plan.md)
+[Upgrade Plan overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-center/uc-upgrade-plan.md)
 
 </td><td>
 
@@ -100,8 +101,8 @@ Create and execute skipped record rule
 
 </td><td>
 
--   [Create a skipped record rule](../task/uc-create-skipped-record-rule.md)
--   [Execute a skipped record rule](../task/uc-execute-skipped-record-rule.md#)
+-   [Create a skipped record rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-center/uc-create-skipped-record-rule.md)
+-   [Execute a skipped record rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-center/uc-execute-skipped-record-rule.md)
 
 </td><td>
 
@@ -112,7 +113,7 @@ System administrator
 
 To learn more about using Upgrade Center, see:
 
--   [Using Upgrade Center](uc-using.md)
--   [Administering Upgrade Center](../reference/uc-administration.md)
--   [Upgrade Center references](../reference/uc-reference.md)
+-   [Using Upgrade Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-center/uc-using.md)
+-   [Administering Upgrade Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-center/uc-administration.md)
+-   [Upgrade Center references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-center/uc-reference.md)
 

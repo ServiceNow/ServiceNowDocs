@@ -2,12 +2,13 @@
 title: Generate acceptance criteria for EAP stories using Now Assist for Strategic Portfolio Management \(SPM\)
 description: Create clear, comprehensive, and testable acceptance criteria for user stories without writing them manually in Enterprise Agile Planning \(EAP\). Review and refine suggested options to ensure they meet your requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/eap-generate-acceptance-criteria-for-stories.html
 release: zurich
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
 ---
 
@@ -17,14 +18,14 @@ Create clear, comprehensive, and testable acceptance criteria for user stories w
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 Ensure that Now Assist for SPM is installed in your instance and that the following two skills are active:
 
 -   Acceptance criteria generation
 -   Refine records
 
-For more information, see [Configure Now Assist for Strategic Portfolio Management \(SPM\)](configure-now-assist-for-spm.md).
+For more information, see [Configure Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md).
 
 Role required: sn\_apw\_advanced.eap\_user
 
@@ -47,16 +48,16 @@ For an EAP story, you can generate acceptance criteria by selecting **Generate a
     -   From the story form header: Select **Generate acceptance criteria**.
     -   From the Acceptance criteria field:
         1.  Place your mouse cursor in the field.
-        2.  Select the **Refine with Now Assist** menu \(![](../images/icon-eap-na-context-menu.png)\).
+        2.  Select the **Refine with Now Assist** menu \(\[Omitted image "icon-eap-na-context-menu.png"\] Alt text:\).
         3.  Select **Generate acceptance criteria**.
-    ![Options to generate acceptance criteria for an EAP story.](../images/eap-na-acc-criteria.png)
+    \[Omitted image "eap-na-acc-criteria.png"\] Alt text: Options to generate acceptance criteria for an EAP story.
 
 5.  Review the generated acceptance criteria.
 
-6.  You can choose to further refine the generated content using the Now Assist context menu \(![](../images/icon-eap-na-context-menu.png)\) or generate a new criteria.
+6.  You can choose to further refine the generated content using the Now Assist context menu \(\[Omitted image "icon-eap-na-context-menu.png"\] Alt text:\) or generate a new criteria.
 
 7.  Save the Story form.
 
 
-**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](../concept/using-now-assist-for-spm.md)
+**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 

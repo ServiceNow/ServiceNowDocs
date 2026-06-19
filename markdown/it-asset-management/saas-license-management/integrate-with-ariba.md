@@ -2,6 +2,7 @@
 title: Integrating with SAP Ariba
 description: Integrating your Software Asset Management application with the SAP Ariba application enables you to track your software subscriptions and reclaim unused licenses.Before setting up an SAP Ariba integration profile, generate and download reports for all users who are currently using SAP Ariba licenses.Create an SAP Ariba integration profile to track software subscriptions and optimize licensing for your SAP Ariba applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/saas-license-management/integrate-with-ariba.html
 release: zurich
 product: SaaS License Management
 classification: saas-license-management
@@ -46,7 +47,7 @@ For setting up an SAP Ariba integration profile, the following SAP Ariba reports
 
 2.  On the home page, expand the **Manage** drop-down list.
 
-    ![SAP Ariba home page.](../image/ariba-home-page.png)
+    \[Omitted image "ariba-home-page.png"\] Alt text: SAP Ariba home page.
 
 3.  Select **Prepackaged Reports**.
 
@@ -201,15 +202,15 @@ If you’re using Software Asset Workspace, the option to create the SAP Ariba i
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d87598e797">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d88459e797">
 
 Interface
 
-</th><th align="left" id="d87598e800">
+</th><th align="left" id="d88459e800">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d87598e806">
+</th></tr></thead><tbody><tr><td id="d88459e806">
 
 **Core UI**
 
@@ -220,7 +221,7 @@ Action
 3.  Select **SAP Ariba Integration Profile**.
 
 
-</td></tr><tr><td id="d87598e848">
+</td></tr><tr><td id="d88459e848">
 
 **Software Asset Workspace**
 
@@ -276,7 +277,7 @@ Type of integration profile. This field is automatically set to `Ariba Subscript
 
 4.  Select **Save**.
 
-5.  After the integration profile is saved, upload the attachments by selecting the **Attach** icon ![](../../contract-management/image/attachments-icon.png).
+5.  After the integration profile is saved, upload the attachments by selecting the **Attach** icon \[Omitted image "attachments-icon.png"\].
 
 6.  On the Attachments pane, drag or select the files in the `.csv` format that you want to upload one by one or together.
 
@@ -303,20 +304,20 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](subscription-exclusions.md#).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/subscription-exclusions.md).
 
-If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](../reuse/create-child-alias-saas.md).
+If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
-Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](../task/track-software-rights.md).
--   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](../task/create-entitlements-workspace.md).
--   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](../task/guidedwalk-workspace.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-entitlements-workspace.md).
+-   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 
-Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
+Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
 
--   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](../task/t_RunReconciliation.md).
--   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](../task/run-recon-workspace.md).
+-   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_RunReconciliation.md).
+-   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/run-recon-workspace.md).
 

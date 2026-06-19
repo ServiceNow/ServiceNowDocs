@@ -2,12 +2,13 @@
 title: Update an application or plugin
 description: Update an application or plugin to get the latest features that are compatible with your instance version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/application-manager/update-application-app-mgr.html
 release: zurich
 product: Application Manager
 classification: application-manager
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Updating apps, Application Manager, Administering applications, Get started, Administer]
 ---
 
@@ -36,23 +37,29 @@ Role required: admin or sn\_appclient.app\_client\_user
 
 3.  From the Summary section of the details page, select **Proceed to update**.
 
-4.  Select a compatible version from the version drop-down menu.
+4.  Select a compatibleapplication version or a compatible Now Assist Suite versionfrom the version drop-down menu.
 
-5.  If the application or plugin has dependencies, verify that all necessary dependencies can be updated or installed.
+    For additional information about Now Assist Suites, see .
 
-    If any dependencies are categorized as **Needs to be procured from store**, procure the necessary dependencies and sync the Application Manager with the ServiceNow Store before continuing. For more information about unavailable dependencies that block updates, see [Updating applications](../concept/updating-apps-app-manager.md).
+5.  If you have available application customizations, use the **Customized ver.** drop-down menu to select which customization to use.
 
-6.  Install the update now or schedule installation for a later time.
+    Your customizations might not be compatible with a new application version. Update the application in a non-production instance, then make any necessary changes to your customization and validate compatibility before making updates in production instances. For more information about managing customizations, see .
 
-<table id="choicetable_a33_l3m_yfc"><thead><tr><th align="left" id="d89793e191">
+6.  If the application or plugin has dependencies, verify that all necessary dependencies can be updated or installed.
+
+    If any dependencies are categorized as "Needs to be procured from store" or "Installation blocked," procure the necessary dependencies and sync the Application Manager with the ServiceNow Store before continuing. For more information about unavailable dependencies that block updates, see [Updating applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/application-manager/updating-apps-app-manager.md).
+
+7.  Install the update now or schedule installation for a later time.
+
+<table id="choicetable_a33_l3m_yfc"><thead><tr><th align="left" id="d79781e221">
 
 Installation option
 
-</th><th align="left" id="d89793e194">
+</th><th align="left" id="d79781e224">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d89793e200">
+</th></tr></thead><tbody><tr><td id="d79781e230">
 
 **Install now**
 
@@ -62,7 +69,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d89793e224">
+</td></tr><tr><td id="d79781e254">
 
 **Install later**
 
@@ -79,5 +86,5 @@ Procedure
 
 If you choose to install the update now, the application or plugin and its dependencies begin updating immediately. Scheduled updates begin at the chosen date and time.
 
-**Parent Topic:**[Updating applications](../concept/updating-apps-app-manager.md)
+**Parent Topic:**[Updating applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/application-manager/updating-apps-app-manager.md)
 

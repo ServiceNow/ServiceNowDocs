@@ -2,6 +2,7 @@
 title: Setting up a test group
 description: Define tests for a particular service type, product model, or inventory to troubleshoot the service-related problems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/setting-test-group.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"

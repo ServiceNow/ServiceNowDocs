@@ -2,6 +2,7 @@
 title: View LogRhythm drill down events
 description: View the related raw or base events for a LogRhythm alarm in the security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/drilldown-events.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -28,5 +29,5 @@ As a security analyst you can view the related raw or base events for a LogRhyth
 1.  Navigate to **All** &gt; **LogRhythm Integration** &gt; **LogRhythm Drilldown Events**.
 
 
-**Parent Topic:**[Additional configurations for the LogRhythm integration](configure-system-and-troubleshooting-properties.md)
+**Parent Topic:**[Additional configurations for the LogRhythm integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/configure-system-and-troubleshooting-properties.md)
 

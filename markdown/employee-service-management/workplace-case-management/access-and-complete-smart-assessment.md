@@ -2,6 +2,7 @@
 title: Access and Complete Smart Assessment
 description: Workplace agents complete smart assessments as part of their case workflow. When a case has an attached assessment that meet configured trigger conditions, agents can open it directly from the case form, answer all required questions, and submit the assessment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-case-management/access-and-complete-smart-assessment.html
 release: zurich
 product: Workplace Case Management
 classification: workplace-case-management
@@ -42,5 +43,5 @@ Workplace agent must open the case or task from **Workplace Central** &gt; **Lis
     The system records all responses and marks the assessment as completed.
 
 
-**Parent Topic:**[Smart Assessment for Workplace Case and Task](smart-assessment-for-workplace-case-and-task.md)
+**Parent Topic:**[Smart Assessment for Workplace Case and Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-case-management/smart-assessment-for-workplace-case-and-task.md)
 

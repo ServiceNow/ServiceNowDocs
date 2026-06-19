@@ -2,6 +2,7 @@
 title: Admin center overview for Enterprise Asset Workspace
 description: Use the Admin center view in the Enterprise Asset Workspace to perform all your configuration and administrative tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/admin-center-overview-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -33,8 +34,8 @@ Use the Admin center to perform the following tasks:
 -   Integrate with third-party shipping carriers
 -   Create a knowledge article
 -   Opt-in to Enterprise Asset Management
--   [Create failure and resolution codes](manage-failure-res-codes-eam.md)
--   [Set up the configurations to monitor the key performance indicators \(KPIs\) of the enterprise assets](configure-kpi-settings-eam.md)
+-   [Create failure and resolution codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/manage-failure-res-codes-eam.md)
+-   [Set up the configurations to monitor the key performance indicators \(KPIs\) of the enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/configure-kpi-settings-eam.md)
 
-![Admin view](../image/admin-view-eam.png)
+\[Omitted image "admin-view-eam.png"\] Alt text: Admin view
 

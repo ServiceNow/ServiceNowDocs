@@ -2,6 +2,7 @@
 title: Transaction Converse
 description: With Transaction Converse, you can use natural language to manage line items in transactions and quotes. Add, update, and delete items quickly and intuitively with conversational commands, even in complex transactions with many line items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cpq-transaction-converse.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

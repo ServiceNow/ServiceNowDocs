@@ -2,6 +2,7 @@
 title: Resolving duplicate configuration items in Security Posture Control
 description: Resolving duplicate entries for configuration items \(CIs\) in your Configuration Management Database ensures that you get accurate audits with your SPC policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/spc-using-dedup-template.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -23,5 +24,5 @@ An example might be an asset that named by its IP address, `10.0.2.11`, that is 
 
 You can identify duplicate CIs by filtering on the Name column on the \[sn\_sec\_spc\_core\_asset\_cache\] table and noting which assets have the same name.
 
-If you identify duplicates, the [CI deduplication](spc-resolve-duplicate-cis.md) process incorporates a deduplication template that you must publish, a system property that you activate, and a scheduled job that removes duplicate CIs in the SPC Cached Assets \[sn\_sec\_spc\_core\_asset\_cache\] table. The process removes duplicates and preserves the master, or canonical, CI record that has the most related items.
+If you identify duplicates, the [CI deduplication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-resolve-duplicate-cis.md) process incorporates a deduplication template that you must publish, a system property that you activate, and a scheduled job that removes duplicate CIs in the SPC Cached Assets \[sn\_sec\_spc\_core\_asset\_cache\] table. The process removes duplicates and preserves the master, or canonical, CI record that has the most related items.
 

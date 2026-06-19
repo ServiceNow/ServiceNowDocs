@@ -2,6 +2,7 @@
 title: Quick start tests for Agile Development 2.0
 description: Validate that Agile Development 2.0 still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/quick-start-tests-agiledevelopment2.0.html
 release: zurich
 product: Agile Development
 classification: agile-development
@@ -17,7 +18,7 @@ Validate that Agile Development 2.0 still works after you make any configuration
 
 **Danger**
 
-By default, the system property that is used to run automated tests is disabled to prevent you from accidentally running these tests on a production system. To avoid data corruption or an outage, run tests only on development, test, and other non-production instances. See [Enable or disable executing Automated Test Framework tests](https://www.servicenow.com/docs/access?context=atf-enable-tests&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+By default, the system property that is used to run automated tests is disabled to prevent you from accidentally running these tests on a production system. To avoid data corruption or an outage, run tests only on development, test, and other non-production instances. See Enable or disable executing Automated Test Framework tests.
 
 Agile Development 2.0 quick start tests require activating the Agile Development 2.0 plugin \(com.snc.sdlc.agile.2.0\) and the Agile Development 2.0 - ATF Tests plugin \(com.snc.sdlc.agile.2.0.atf \).
 
@@ -183,7 +184,7 @@ Verify a Demand is converted to a scrum story
 
 </td><td>
 
-If the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) is active, verify that a Demand can be converted to an Agile 2.0 story using the **Create Story** related link on the Demand form. For more information on how to create an Agile 2.0 story from a demand, see [Create an artifact from a demand](../../../product/planning-and-policy/task/t_CrtArtftDmdMnu.md).
+If the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) is active, verify that a Demand can be converted to an Agile 2.0 story using the **Create Story** related link on the Demand form. For more information on how to create an Agile 2.0 story from a demand, see [Create an artifact from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/t_CrtArtftDmdMnu.md).
 
 </td><td>
 
@@ -195,17 +196,17 @@ Verify a Demand is converted to a scrum epic
 
 </td><td>
 
-If the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) is active, verify that a Demand can be converted to an Agile 2.0 epic using the **Create Epic** related link on the Demand form.For more information on how to create an Agile 2.0 epic from a demand, see [Create an artifact from a demand](../../../product/planning-and-policy/task/t_CrtArtftDmdMnu.md).
+If the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) is active, verify that a Demand can be converted to an Agile 2.0 epic using the **Create Epic** related link on the Demand form.For more information on how to create an Agile 2.0 epic from a demand, see [Create an artifact from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/t_CrtArtftDmdMnu.md).
 
 </td><td>
 
 Quebec
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring Agile Development 2.0](../../../product/agile-development/concept/setting-up-agile-development-2.md)
+</table>**Parent Topic:**[Configuring Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/setting-up-agile-development-2.md)
 
 **Related topics**  
 
 
-[Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+[bundle-cadev.quick-start-tests]
 

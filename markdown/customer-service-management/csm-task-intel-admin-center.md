@@ -2,7 +2,10 @@
 title: Task Intelligence Admin Console
 description: Use the Task Intelligence Admin Console to create, train, and deploy machine learning models that predict different types of information for case and interaction records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-task-intel-admin-center.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -13,7 +16,7 @@ breadcrumb: [Task Intelligence for Customer Service, Machine learning solutions,
 
 Use the Task Intelligence Admin Console to create, train, and deploy machine learning models that predict different types of information for case and interaction records.
 
-![Task Intelligence Admin console displaying prediction metrics, a detailed list of machine learning models, model templates, and access to related applications.](../image/task-intel-admin-console-3.png)
+\[Omitted image "task-intel-admin-console-3.png"\] Alt text: Task Intelligence Admin console displaying prediction metrics, a detailed list of machine learning models, model templates, and access to related applications.
 
 From the Admin Console, you can set up predictive models, preview the agent's experience, view when the models are active, and track model performance.
 
@@ -71,13 +74,13 @@ Review your selections and start using the model.
 </td></tr></tbody>
 </table>You can also use the Task Intelligence Admin Console to access related applications. For more information about using the console, see the following topics:
 
--   [Create a model to predict record fields](csm-task-intel-create-cat-solution.md)
--   [Create a model to predict case sentiment](csm-task-intel-create-sentiment-solution.md)
--   [Create a model to detect case language](csm-task-intel-create-language-solution.md)
--   [Create a Document Intelligence use case](csm-task-intel-create-di-use-case.md)
+-   [Create a model to predict record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-task-intel-create-cat-solution.md)
+-   [Create a model to predict case sentiment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-task-intel-create-sentiment-solution.md)
+-   [Create a model to detect case language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-task-intel-create-language-solution.md)
+-   [Create a Document Intelligence use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-task-intel-create-di-use-case.md)
 
--   **[Machine learning model setup and behavior](csm-task-intel-model-setup-behavior.md)**  
+-   **[Machine learning model setup and behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-task-intel-model-setup-behavior.md)**  
 Set up models to predict field values and sentiment for customer service cases.
 
-**Parent Topic:**[Task Intelligence for Customer Service](csm-task-intelligence.md)
+**Parent Topic:**[Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-task-intelligence.md)
 

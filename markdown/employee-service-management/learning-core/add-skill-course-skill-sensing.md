@@ -2,6 +2,7 @@
 title: Add skills to a course with skill sensing
 description: Add skills to a course manually using the Large Language Model \(LLM\) skills recommendations based on the title and description of the course.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/add-skill-course-skill-sensing.html
 release: zurich
 product: Learning Core
 classification: learning-core

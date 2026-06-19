@@ -2,6 +2,7 @@
 title: Target tables for storing API Service Graph Connector for Kong Konnect data
 description: When you complete setting up the connection, you can configure the integration to periodically pull data from a Kong Konnect application. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] classes and other non-CMDB tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

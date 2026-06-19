@@ -2,6 +2,7 @@
 title: Check in a document
 description: Check in the document after you revise it so other users can check out the document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/t\_CheckInADocument.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -38,5 +39,5 @@ Role required: document\_management\_user
 6.  Click **OK**.
 
 
-**Parent Topic:**[Create a document](../concept/c_CreateADocument.md)
+**Parent Topic:**[Create a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/c_CreateADocument.md)
 

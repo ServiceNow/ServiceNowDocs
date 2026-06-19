@@ -2,6 +2,7 @@
 title: Integrating CDS or other third-party visualization tools
 description: Integrate CDS Visual or other third-party tools for technical visualization. Sync configuration inputs with visual updates to enhance user experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cds\_visualization\_integration.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -17,7 +18,7 @@ Integrate CDS Visual or other third-party tools for technical visualization. Syn
 
 ServiceNow CPQ can be implemented to share field values with third-party visualization tools so that visualization is updated in real time as the user changes configuration inputs. This article discusses integrating the CDS Visual tool as an example. Depending on the CDS model setup, the visualization may render as CAD drawings, 2D images and 3D interactive images.
 
-![Product visual](../images/cpq-cds-visualization.png)
+\[Omitted image "cpq-cds-visualization.png"\] Alt text: Product visual
 
 The integration between ServiceNow CPQ and CDS is accomplished in the Blueprint layout definition. The following layout CSV file contains a sample of how the ServiceNow CPQ administrator defines where the CDS visualization will be rendered. It also specifies the CDS environment and ServiceNow CPQ field data to be sent.
 
@@ -39,11 +40,11 @@ The integration between ServiceNow CPQ and CDS is accomplished in the Blueprint 
 
 The layout can be updated directly in the layout editor. In the layout editor, create a new section named CDS in your CSV file using the fields highlighted in red below, and upload the new file to layout.
 
-![Technical Configuration Options](../images/cpq-cds-csv.png)
+\[Omitted image "cpq-cds-csv.png"\] Alt text: Technical Configuration Options
 
 From here, you can open the settings for this layout element, and configure the following fields using the CDS Properties JSON editor:
 
-![Menu](../images/cpq-cds-settings.png)
+\[Omitted image "cpq-cds-settings.png"\] Alt text: Menu
 
 These properties can be configured in this element. The following table provides the name and description for each element.
 

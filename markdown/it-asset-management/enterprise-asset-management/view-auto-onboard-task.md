@@ -2,6 +2,7 @@
 title: View an automatically created onboarding task
 description: View an automatically created asset onboarding task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/view-auto-onboard-task.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -36,5 +37,5 @@ Role required: sn\_eam.enterprise\_asset\_manager
 5.  Open the onboarding task.
 
 
-**Parent Topic:**[Create an asset onboarding process](create-asset-onboarding-task-eam.md)
+**Parent Topic:**[Create an asset onboarding process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-asset-onboarding-task-eam.md)
 

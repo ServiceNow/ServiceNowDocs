@@ -2,6 +2,7 @@
 title: ServiceNow for Zoom
 description: The ServiceNow integrations with Zoom helps you create a better, more connected experience for users. Employees get seamless self-service without having to leave the Zoom client, and agents can resolve cases faster using Zoom chat, video, and telephony tools.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/sn\_zoomIntegration.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -54,7 +55,7 @@ Enhance employee experience by integrating Employee Center with the Zoom applica
 
 </td><td>
 
-Available to all customers using the Employee Center. To access Employee Center in the Zoom application, see [Employee Center for Zoom](../../employee-center/task/zoom-ec-create-app.md).
+Available to all customers using the Employee Center. To access Employee Center in the Zoom application, see [Employee Center for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/zoom-ec-create-app.md).
 
 </td><td>
 
@@ -70,7 +71,7 @@ Pre-integrated with IT Service Management.
 
  Can also be integrated with HR Service Delivery and other Enterprise Service Management applications.
 
- Collaboration services. For information about Collaboration services, see [Collaboration services](https://www.servicenow.com/docs/access?context=collab-services-tcm&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+ Collaboration services. For information about Collaboration services, see Collaboration services.
 
 </td><td>
 
@@ -85,7 +86,7 @@ Enable agents to collaborate on tickets with Zoom Meetings
 
 Notify plugin
 
- To implement Notify connector for Zoom, see [Notify Zoom connector](https://www.servicenow.com/docs/access?context=notify-zoom-connector&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+ To implement Notify connector for Zoom, see Notify Zoom connector.
 
 </td><td>
 
@@ -97,7 +98,7 @@ Build custom integrations
 
 </td><td>
 
-For information about building custom integrations, see [Zoom spoke](https://www.servicenow.com/docs/access?context=zoom-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+For information about building custom integrations, see Zoom spoke.
 
 </td><td>
 
@@ -108,23 +109,23 @@ Create custom integrations using Zoom spoke.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about how agents and employees use Collaboration services for Zoom.](explore-sn-zoom.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how agents and employees use Collaboration services for Zoom.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/explore-sn-zoom.md)
 
 </td><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Plan and configure your implementation.](configure-sn-zoom.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/configure-sn-zoom.md)
 
 </td><td>
 
-[Integrate ![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg) Extend Zoom capabilities by integrating with other applications.](integrate-sn-zoom.md)
+[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend Zoom capabilities by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/integrate-sn-zoom.md)
 
 </td></tr><tr><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg) Initiate and import Zoom chat messages.](integrate-sn-zoom.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Initiate and import Zoom chat messages.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/integrate-sn-zoom.md)
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about components like Zoom APIs.](../reference/reference-sn-zoom.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components like Zoom APIs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/reference-sn-zoom.md)
 
 </td><td>
 

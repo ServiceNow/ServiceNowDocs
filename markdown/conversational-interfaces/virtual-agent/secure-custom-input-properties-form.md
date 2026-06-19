@@ -2,6 +2,7 @@
 title: Secure custom input properties sheet
 description: Use this sheet to specify secure inputs, such as a password, in a custom input control in Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/secure-custom-input-properties-form.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -16,7 +17,7 @@ breadcrumb: [Customizing Virtual Agent with custom controls, Exploring other Vir
 
 Use this sheet to specify secure inputs, such as a password, in a custom input control in Virtual Agent.
 
-**Important:** To implement secure \(password2\) inputs in your Virtual Agent custom control, you must adhere to the scoped application requirements in Workflow Studio. For details, see [Workflow Studio scoped application requirements for secure inputs](../concept/va-fd-app-reqs-secure-inputs.md).
+**Important:** To implement secure \(password2\) inputs in your Virtual Agent custom control, you must adhere to the scoped application requirements in Workflow Studio. For details, see [Workflow Studio scoped application requirements for secure inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-fd-app-reqs-secure-inputs.md).
 
 ## Secure custom input properties sheet
 
@@ -68,7 +69,7 @@ Invoke Workflow Studio asset
 
 The Workflow Studio action or subflow that secure inputs from the custom control can be passed into.
 
- For more information about Workflow Studio actions and subflows, see [Actions](https://www.servicenow.com/docs/access?context=flow-actions&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US) and [Subflows](https://www.servicenow.com/docs/access?context=subflows&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+ For more information about Workflow Studio actions and subflows, see Actions and Subflows.
 
 </td></tr><tr><td>
 
@@ -78,7 +79,7 @@ Spoke
 
 Name of the scoped application that contains Workflow Studio content that is dedicated to a particular application or record type.
 
- For a list of default spokes, see [Spokes](https://www.servicenow.com/docs/access?context=spokes&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+ For a list of default spokes, see Spokes.
 
 </td></tr><tr><td>
 
@@ -158,9 +159,9 @@ No-code condition statement or low-code script that specifies a condition for le
 </table>**Related topics**  
 
 
-[Workflow Studio Actions](https://www.servicenow.com/docs/access?context=flow-actions&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.flow-actions]
 
-[Workflow Studio Subflows](https://www.servicenow.com/docs/access?context=subflows&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.subflows]
 
-[Password \(2 Way Encrypted\) design considerations](https://www.servicenow.com/docs/access?context=password-2-data&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.password-2-data]
 

@@ -2,6 +2,7 @@
 title: Offboard an external agent
 description: Offboard external managers or agents of the contractor company to terminate their services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/offboard-agent.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

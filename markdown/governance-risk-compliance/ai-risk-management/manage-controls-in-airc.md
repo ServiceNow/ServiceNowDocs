@@ -2,6 +2,7 @@
 title: Manage controls using AI Risk and Compliance
 description: You can add, remove, and delete controls for an AI asset using the AI Risk and Compliance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/ai-risk-management/manage-controls-in-airc.html
 release: zurich
 product: AI Risk Management
 classification: ai-risk-management
@@ -15,14 +16,14 @@ breadcrumb: [Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 
 You can add, remove, and delete controls for an AI asset using the AI Risk and Compliance.
 
--   **[Add controls from control objective](../task/add-controls-from-control-objective-airc.md)**  
+-   **[Add controls from control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/add-controls-from-control-objective-airc.md)**  
 Add controls from control objectives to an AI asset.
--   **[Remove controls from an AI asset](../task/remove-controls-from-an-ai-asset.md)**  
+-   **[Remove controls from an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/remove-controls-from-an-ai-asset.md)**  
 Remove associated controls from an AI asset to keep the inventory accurate and up to date. This step is essential to retire outdated or irrelevant controls without deleting their records.
--   **[Delete controls from an AI asset](../task/delete-controls-from-an-ai-asset.md)**  
+-   **[Delete controls from an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/delete-controls-from-an-ai-asset.md)**  
 Delete controls from an AI asset to remove them permanently from the control table. This task confirms outdated or unnecessary controls are deleted.
--   **[Create control attestations for AI asset](../task/attest-controls-for-ai-systems.md)**  
+-   **[Create control attestations for AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/attest-controls-for-ai-systems.md)**  
 Create control attestations for AI assets to document the existence, implementation, and effectiveness of controls that govern the AI asset’s behavior, data usage, performance, and risk posture. These attestations serve as formal evidence that the AI asset adheres to relevant regulatory, ethical, security, and operational standards.
 
-**Parent Topic:**[Using AI Risk and Compliance](using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

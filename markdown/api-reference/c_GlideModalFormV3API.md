@@ -2,6 +2,7 @@
 title: GlideModalForm - Client
 description: The GlideModalForm API provides methods to display a form in a GlideModal.Creates an instance of the GlideModalForm class.Sets the specified form field to the specified value.Sets the object's sys\_id preference.Sets the function to be called when the form has been successfully submitted and processed by the server.Sets the function to be called after the form has been loaded.Shows the modal form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/c\_GlideModalFormV3API.html
 release: zurich
 product: API Reference
 classification: api-reference
@@ -27,7 +28,7 @@ Specify the query parameters that are passed to the form using the setPreference
 
 The GlideModalForm is set to fill the height of the document window.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/api-client.md)
 
 ## GlideModalForm - GlideModalForm\(String title, String tableName, Function onCompletionCallback, Boolean readOnly\)
 

@@ -2,6 +2,7 @@
 title: Create a table vocabulary source
 description: Use the values from a ServiceNow table as a vocabulary source. Your Natural Language Understanding \(NLU\) models use your provided synonym to interpret utterances that contain values from the chosen source fields of the table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/nlu-service/create-table-lookup-source.html
 release: zurich
 product: NLU Service
 classification: nlu-service
@@ -24,7 +25,7 @@ Use the values from a ServiceNow table as a vocabulary source. Your Natural Lang
 
 Add a ServiceNow table to be used as a vocabulary source. Select one or more source fields of the table. Then, provide a synonym to be used by the model when interpreting utterances that contain values from the table. Note that the **Reference** field is not supported as a source field.
 
-When you create and sync a table vocabulary source, the values from the table in your instance are extracted, and a vocabulary source is created in the NLU Service. For more information on the NLU Service, see [NLU Service Updates](../concept/nlu-service-updates.md).
+When you create and sync a table vocabulary source, the values from the table in your instance are extracted, and a vocabulary source is created in the NLU Service. For more information on the NLU Service, see [NLU Service Updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/nlu-service-updates.md).
 
 **Note:** You should not create multiple vocabulary sources that reference the same table and fields. Create only one vocabulary source \(and provide a synonym\) for the particular table and fields you want to reference in the model. Otherwise, it would cause confusion in the model and interfere with prediction quality.
 
@@ -50,7 +51,7 @@ In this example procedure, you want your models to be able to interpret utteranc
 
             **Note:** Choose a synonym that is a commonly-occurring word in the same language as your vocabulary source.
 
-        ![Table, Handle, and Synonym fields on the Add another table to refer to page.](../images/create-table-lookupT1.png)
+        \[Omitted image "create-table-lookupT1.png"\] Alt text: Table, Handle, and Synonym fields on the Add another table to refer to page.
 
     2.  Select the fields you want to refer to from the source table.
 
@@ -61,7 +62,7 @@ In this example procedure, you want your models to be able to interpret utteranc
         -   **Field name**: Select the **Country \(country\)** and **City \(city\)** fields.
         -   **Options**: Click **Options**, then select the **Use this field to look up values** check box for both of the **Field name** values. Checking the box makes it so either a country name or a city name can be used in an utterance for finding a record in the vocabulary source. You can also use multiple comma-separate values in this field, for example, if your city column has multiple names, such as NYC, New York, and New York City.
         -   **Fields can appear together**: Leave the check box empty. This field is typically used in an NLU Search model, where users can enter words next to each other in an utterance to find a record. For example, you can enter `Pierre` `Development` while searching for an employee named Pierre who works in the Development team, where **Name** and **Team** are two fields in the table.
-        ![Fields section of the Add a table to refer to page. Select one or more fields and configure the options.](../images/create-vocab-table2.png)
+        \[Omitted image "create-vocab-table2.png"\] Alt text: Fields section of the Add a table to refer to page. Select one or more fields and configure the options.
 
     3.  Configure the advanced options.
 
@@ -72,7 +73,7 @@ In this example procedure, you want your models to be able to interpret utteranc
         -   **Refresh**: Select **Every 7 days**. By selecting this, you set the system to get new values from the table every seven days. There are different refresh options you can choose based on how often the source table is updated.
         -   **Enable Fuzzy matching**: Checking this box make it so a record can be matched even if an utterance contains a slightly misspelled word or part of a word. For example, when searching for a city such as Kansas City, you might enter Kansas City or just Kansas, and the system will still be able to match with the correct location record. Fuzzy matching may return false matches in some cases. Use fuzzy matching sparingly and test out your model before using it.
         -   **Make case sensitive**: If you don't enable fuzzy matching, you can check this box to make the values in the source table case sensitive. If an utterance doesn't use the correct cases, the model doesn't predict the intent.
-        ![Advanced Options section of the Add a table to refer to page. Select a language, refresh time and any filters.](../images/create-vocab-table3.png)
+        \[Omitted image "create-vocab-table3.png"\] Alt text: Advanced Options section of the Add a table to refer to page. Select a language, refresh time and any filters.
 
 5.  Click **Save**.
 
@@ -86,6 +87,4 @@ In this example procedure, you want your models to be able to interpret utteranc
 ## What to do next
 
 Add a vocabulary source to a model by annotating an utterance. Use the @ symbol when adding an example utterance to an intent.
-
-**Parent Topic:**[NLU vocabulary](../concept/using-nlu-vocabulary.md)
 

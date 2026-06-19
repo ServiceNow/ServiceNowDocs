@@ -2,6 +2,7 @@
 title: Rescan Tenable.io and Tenable.sc vulnerable items from the Vulnerability Response workspaces
 description: Verify your vulnerable items have been remediated between scheduled scanning cycles. Initiate rescans in the Tenable.io and Tenable.sc products on-demand from the IT Remediation Workspace in your ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/it-remediation-workspace/ws-tenable-rescan.html
 release: zurich
 product: IT Remediation Workspace
 classification: it-remediation-workspace
@@ -17,9 +18,9 @@ Verify your vulnerable items have been remediated between scheduled scanning cyc
 
 ## Before you begin
 
-To initiate a rescan for the Tenable.io and Tenable.sc products from the classic environment of Vulnerability Response, see [Initiate rescan for the Tenable.sc integration](vr-tenable-rescan.md) and [Initiate rescan for the Tenable.io integration](vr-tenable-rescan-tenable-io.md).
+To initiate a rescan for the Tenable.io and Tenable.sc products from the classic environment of Vulnerability Response, see [Initiate rescan for the Tenable.sc integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/vr-tenable-rescan.md) and [Initiate rescan for the Tenable.io integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/vr-tenable-rescan-tenable-io.md).
 
-To perform rescans from your ServiceNow AI Platform, you need your Tenable credentials. For more information about setting up your Tenable.io and Tenable.sc scanners and importing your credentials from Tenable, see [Configure the Tenable Vulnerability Integration using Setup Assistant](vr-tenable-config-in-SA.md).
+To perform rescans from your ServiceNow AI Platform, you need your Tenable credentials. For more information about setting up your Tenable.io and Tenable.sc scanners and importing your credentials from Tenable, see [Configure the Tenable Vulnerability Integration using Setup Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/vr-tenable-config-in-SA.md).
 
 -   You can initiate rescans on-demand for vulnerable items and remediation tasks that have the Tenable.io or Tenable.sc product as the source from the IT Remediation Workspace in your ServiceNow AI Platform.
 -   On a remediation task record, the record can be in any state other than **Closed**, and all the associated VIs must be from the Tenable.io or the Tenable.sc product.
@@ -46,15 +47,15 @@ Roles required:
 
     See the following table for more information.
 
-<table id="choicetable_em4_cxs_xqb"><thead><tr><th align="left" id="d455570e227">
+<table id="choicetable_em4_cxs_xqb"><thead><tr><th align="left" id="d163961e227">
 
 Column
 
-</th><th align="left" id="d455570e230">
+</th><th align="left" id="d163961e230">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d455570e236">
+</th></tr></thead><tbody><tr><td id="d163961e236">
 
 **Name**
 
@@ -62,7 +63,7 @@ Description
 
 Choose the name of the credential\(s\) you want. Roll over the column title. Use the vertical three dots menu in the column title to filter the names of your credentials.
 
-</td></tr><tr><td id="d455570e245">
+</td></tr><tr><td id="d163961e245">
 
 **Integration instance**
 
@@ -74,7 +75,7 @@ Choose a Tenable.io or, if for Tenable.sc, the Tenable.sc integration instance t
 
  **Note:** If you choose to rescan VIs from a remediation task record for a single integration instance, only the active VIs that are associated with that remediation task, for that instance, using the credential\(s\) that you select are scanned.
 
-</td></tr><tr><td id="d455570e278">
+</td></tr><tr><td id="d163961e278">
 
 **Type**
 

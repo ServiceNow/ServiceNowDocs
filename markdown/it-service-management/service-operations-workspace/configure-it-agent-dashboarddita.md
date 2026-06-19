@@ -2,6 +2,7 @@
 title: Configure IT Agent Dashboard in Service Operations Workspace for ITSM
 description: Configure the dashboard that provides performance over time metrics for both the logged-on user and their groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/configure-it-agent-dashboarddita.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace

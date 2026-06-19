@@ -2,6 +2,7 @@
 title: Configuration Compliance remediation target rules
 description: With remediation target rules, you can set the expected time frames for remediating test results. You can send notifications to users and groups when target dates are approaching and when they are past due.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/cc-remed-target-rules.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance
@@ -15,7 +16,7 @@ breadcrumb: [Configure, Configuration Compliance, Unified Security Exposure Mana
 
 With remediation target rules, you can set the expected time frames for remediating test results. You can send notifications to users and groups when target dates are approaching and when they are past due.
 
-**Important:** As an Configuration Compliance admin or analyst, you can obtain the latest remediation target date for a specific set of test results in the Vulnerability Manager Workspace. This method is more efficient than running the Remediation Target Rules for all test results in the classic UI, which is a time-consuming process. For more information, see [Re-evaluate the remediation properties of the records in the Vulnerability Manager Workspace](../../vr-vulnerability-manager-workspace/task/vmws-reevaluate-remediation-parameters.md).
+**Important:** As an Configuration Compliance admin or analyst, you can obtain the latest remediation target date for a specific set of test results in the Vulnerability Manager Workspace. This method is more efficient than running the Remediation Target Rules for all test results in the classic UI, which is a time-consuming process. For more information, see [Re-evaluate the remediation properties of the records in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-manager-workspace/vmws-reevaluate-remediation-parameters.md).
 
 Roles required: Configuration Compliance administrator \(sn\_vulc\_admin\), or a manager with the sn\_vulc.manage\_remediation\_target\_rules role.
 
@@ -35,7 +36,7 @@ You can edit, disable, or delete existing remediation target rules and create ne
 
 1.  Navigate to **All** &gt; **Configuration Compliance** &gt; **Administration** &gt; **Remediation Target Rules** to view remediation target rules.
 
-    ![Remediation Target Rules view: Apply changes form button.](../image/cc-target-rules-list-view.png "Apply Changes on Remediation Target Rules list view")
+    \[Omitted image "cc-target-rules-list-view.png"\] Alt text: Remediation Target Rules view: Apply changes form button.
 
 2.  Click a rule in the Name column to open its record.
 3.  Select the **Active** check box on the Remediation Target Rule record to enable \(`true`\) any disabled rules \(`false`\).
@@ -87,12 +88,12 @@ The Remediation target date is coded on the Test Results list view as colored do
 -   Test results approaching the remediation target date are shown in orange.
 -   Test results past the remediation target date are shown in red.
 
-![Remediation target and Remediation status columns](../image/cc-target-rule-columns-listview.png "Remediation target and status columns on the Test Results list view")
+\[Omitted image "cc-target-rule-columns-listview.png"\] Alt text: Remediation target and Remediation status columns
 
 -   `Target Missed`: the target date is past due
 -   `In-flight`: the test result is in progress
 
-![Fields on Test Result form](../image/cc-target-rule-ctr-fields.png "Target rule, target, and status fields on the test result record")
+\[Omitted image "cc-target-rule-ctr-fields.png"\] Alt text: Fields on Test Result form
 
 Test result records are also displayed visually on the Configuration Compliance Dashboard. Navigate to **All** &gt; **Configuration Compliance** &gt; **Overview** and check the dashboard for status. The Overview includes existing widgets and remediation status. The colors of the graphs match the colors displayed in the Test Results list view and Test Result record.
 

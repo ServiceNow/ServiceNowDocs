@@ -2,6 +2,7 @@
 title: Cancel scheduled replication
 description: Cancel scheduled replication by deactivating or deleting a producer replication set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/instance-data-replication-idr/cancel-seeding.html
 release: zurich
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -40,7 +41,7 @@ Scheduled replication ends. After deactivating the producer replication set, any
 
 ## What to do next
 
-If you intend to resume scheduled replication, you can sync records that weren't replicated during the deactivation period by running a data comparison request. See [Comparing replicated data between instances in Instance Data Replication](../concept/comparing-replicated-data.md). Alternatively, you can replicate missing records by performing a partial seeding request from the Inbound Entries related list on the consumer replication set.
+If you intend to resume scheduled replication, you can sync records that weren't replicated during the deactivation period by running a data comparison request. See [Comparing replicated data between instances in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/instance-data-replication-idr/comparing-replicated-data.md). Alternatively, you can replicate missing records by performing a partial seeding request from the Inbound Entries related list on the consumer replication set.
 
-**Parent Topic:**[Set up scheduled replication](set-up-scheduled-replication-idr.md)
+**Parent Topic:**[Set up scheduled replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/instance-data-replication-idr/set-up-scheduled-replication-idr.md)
 

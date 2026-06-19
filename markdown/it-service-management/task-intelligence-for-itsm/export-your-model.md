@@ -2,6 +2,7 @@
 title: Export an incident prediction model
 description: Export either the Similar Incidents or Incident Categorization model model in Task Intelligence for ITSM to another instance so you can use the model in the other instance without recreating the model from scratch.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/task-intelligence-for-itsm/export-your-model.html
 release: zurich
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
@@ -23,7 +24,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Task Intelligence for ITSM** &gt; **Setup**.
 
-2.  In the Models list, select the menu \(![Menu icon](../../configurable-workforce-optimization-itsm/image/menu-icon.png)\) icon of the model you want to export, and then select **Export model**.
+2.  In the Models list, select the menu \(\[Omitted image "menu-icon.png"\] Alt text: Menu icon\) icon of the model you want to export, and then select **Export model**.
 
     A new tab opens with authentication steps.
 
@@ -36,7 +37,7 @@ The XML file of your model downloads to your browser.
 
 ## What to do next
 
-You can use the XML file to transfer the model to another instance using update sets. For more information update sets, see [System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+You can use the XML file to transfer the model to another instance using update sets. For more information update sets, see System update sets.
 
-**Parent Topic:**[Managing Task Intelligence for ITSM models](../concept/using-task-intelligence-itsm.md)
+**Parent Topic:**[Managing Task Intelligence for ITSM models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/task-intelligence-for-itsm/using-task-intelligence-itsm.md)
 

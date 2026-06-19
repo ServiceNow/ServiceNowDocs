@@ -2,6 +2,7 @@
 title: Agent Client Collector architecture
 description: The Agent Client Collector is a ServiceNow agent installed on your Windows, Linux, and macOS devices to monitor your company’s infrastructure and installed applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-concept.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -40,7 +41,7 @@ The results from the checks are stored in the ServiceNow instance:
 
 This data can be leveraged for monitoring, alerting, and reporting. Integration ensures real-time visibility into the health of your infrastructure and applications, while also enabling proactive issue detection and remediation.
 
-![Agent client collector configuration flow](../image/ACC-Configuration-Flow-New.png)
+\[Omitted image "ACC-Configuration-Flow-New.png"\] Alt text: Agent client collector configuration flow
 
 1.  Define a monitoring policy in the ServiceNow instance.
 2.  The MID Server fetches the check instances from the instance and passes them to the agent.
@@ -51,5 +52,5 @@ The commands and their configurations that run on the Agent are called **checks*
 
 A **policy** is a combination of the CIs being monitored by the Agent Client Collector and the checks that run on those CIs. You associate check definitions with policies. Those check definitions are then referred to as **check instances**. You can customize check instances to meet your needs. For example, customize the running interval or the parameters specific to the policy, such as the login credentials to access a MySQL database. Customization of a check instance takes effect only on the check instance associated with the policy, which does not affect the original check definition or already created check instances in other policies.
 
-**Parent Topic:**[Exploring Agent Client Collector Framework](exploring-agent-client-collector-framework.md)
+**Parent Topic:**[Exploring Agent Client Collector Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/exploring-agent-client-collector-framework.md)
 

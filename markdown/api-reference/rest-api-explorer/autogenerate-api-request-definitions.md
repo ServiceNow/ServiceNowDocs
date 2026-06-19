@@ -2,6 +2,7 @@
 title: Automatically generate API request definitions
 description: Use sample requests made to an API resource to generate request header associations, query parameter associations, and a request schema for that resource.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-api-explorer/autogenerate-api-request-definitions.html
 release: zurich
 product: REST API Explorer
 classification: rest-api-explorer
@@ -25,15 +26,15 @@ Role required: web\_service\_admin
 
 1.  Create a scripted REST API request sampling configuration in one of the following ways.
 
-<table id="choicetable_rjy_kf1_s3c"><thead><tr><th align="left" id="d955815e66">
+<table id="choicetable_rjy_kf1_s3c"><thead><tr><th align="left" id="d276835e66">
 
 Option
 
-</th><th align="left" id="d955815e69">
+</th><th align="left" id="d276835e69">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d955815e75">
+</th></tr></thead><tbody><tr><td id="d276835e75">
 
 **Navigate through a scripted REST API record**
 
@@ -45,7 +46,7 @@ Procedure
 4.  In the **Request Sampling Configuration** tab, select **New**.
 
 
-</td></tr><tr><td id="d955815e123">
+</td></tr><tr><td id="d276835e123">
 
 **Navigate directly to a new scripted REST API request sampling configuration**
 
@@ -82,7 +83,7 @@ Procedure
 -   **Headers** field content is used to create the resource's request header associations. The associated request headers are added to the relevant REST service's **Request Headers** tab.
 -   **Body** field content is used to create the resource's request schema. The resource's request schema is added to the relevant REST service's **Schemas** tab.
 -   **Query parameters** field content is used to create the resource's query parameter associations. The associated query parameters are added to the relevant REST service's **Query Parameters** tab.
--   All committed request definitions that you added are included in the exportable OpenAPI specification in the REST API Explorer. For more information about exporting OpenAPI specifications, see [Export to OpenAPI specification](../../inbound-rest/task/export-openapi-specification.md).
+-   All committed request definitions that you added are included in the exportable OpenAPI specification in the REST API Explorer. For more information about exporting OpenAPI specifications, see [Export to OpenAPI specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/export-openapi-specification.md).
 
-**Parent Topic:**[Create a scripted REST API](t_CreateAScriptedRESTService.md)
+**Parent Topic:**[Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/t_CreateAScriptedRESTService.md)
 

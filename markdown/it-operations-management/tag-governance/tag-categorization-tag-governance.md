@@ -2,6 +2,7 @@
 title: Tag Categorization in Tag Governance
 description: By automatically grouping tagged configuration items \(CIs\) and cloud resources into one of five out-of-the-box categories, Tag Categorization streamlines resource management. For example, the automatic grouping of related tag keys, such as dev, test, and prod in the Environment category, helps to promote clear and consistent tagging practices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/tag-governance/tag-categorization-tag-governance.html
 release: zurich
 product: Tag Governance
 classification: tag-governance
@@ -19,13 +20,13 @@ By automatically grouping tagged configuration items \(CIs\) and cloud resources
 
 **Note:**
 
-The Tag Categorization feature in Tag Governance leverages the CI tag category \[svc\_tag\_categories\] and the CI tag key \[svc\_tag\_names\] tables in Service Mapping. Full access to these tables requires installation of the version 1.16.3 or later of Service Mapping Plus. Without it, access to these tables might be limited, affecting your ability to recategorize tags, modify tag definitions, or fully use the feature. For more information, see [Install Service Mapping Plus](../../service-mapping/task/install-service-mapping-plus.md).
+The Tag Categorization feature in Tag Governance leverages the CI tag category \[svc\_tag\_categories\] and the CI tag key \[svc\_tag\_names\] tables in Service Mapping. Full access to these tables requires installation of the version 1.16.3 or later of Service Mapping Plus. Without it, access to these tables might be limited, affecting your ability to recategorize tags, modify tag definitions, or fully use the feature. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/install-service-mapping-plus.md).
 
 ## Tag Categorization overview
 
-Tag Categorization automates the process of grouping tagged CIs and cloud resources into one of five predefined categories: Application ID, Assignment Group, Cost Center, Environment, and Owner. These categories help streamline resource management by ensuring that tags are consistently applies and easily categorized. A daily scheduled job categorizes newly added tags and maps any unrecognized tag keys to the appropriate category. For more information about the predefined tag categories, see [Components installed with Tag Governance](../reference/components-installed-tag-governance.md).
+Tag Categorization automates the process of grouping tagged CIs and cloud resources into one of five predefined categories: Application ID, Assignment Group, Cost Center, Environment, and Owner. These categories help streamline resource management by ensuring that tags are consistently applies and easily categorized. A daily scheduled job categorizes newly added tags and maps any unrecognized tag keys to the appropriate category. For more information about the predefined tag categories, see [Components installed with Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/tag-governance/components-installed-tag-governance.md).
 
-You can modify the tag category definitions, create your own categories, or add additional tag keys as needed. For more information, see [Modify tag category information for Tag Categorization](../task/modify-tag-category-info-tag-categorization.md).
+You can modify the tag category definitions, create your own categories, or add additional tag keys as needed. For more information, see [Modify tag category information for Tag Categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/tag-governance/modify-tag-category-info-tag-categorization.md).
 
 The Tag category policy confirms that all categories are properly mapped and up-to-date. It retrieves records and checks for category mappings to identify any missing categories. CIs that are missing a category are marked as non-compliant, which helps you address and remediate any tag category issues.
 
@@ -33,5 +34,5 @@ The system uses the **sn\_itom\_tag.recategorization\_required** property to det
 
 ## Tag Categorization and domain separation
 
-Tag Categorization supports domain-specific management. . For domain-separated instances, the categories are added to each leaf domain. When you access or manage tags, the system gets domain information from the CI and adds tag mappings to the matching category in the appropriate domain. For general information about domain separation with Tag Governance, see [Domain separation and Tag Governance](tag-governance-domain-separation.md).
+Tag Categorization supports domain-specific management. . For domain-separated instances, the categories are added to each leaf domain. When you access or manage tags, the system gets domain information from the CI and adds tag mappings to the matching category in the appropriate domain. For general information about domain separation with Tag Governance, see [Domain separation and Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/tag-governance/tag-governance-domain-separation.md).
 

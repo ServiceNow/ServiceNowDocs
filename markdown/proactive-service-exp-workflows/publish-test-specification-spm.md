@@ -2,6 +2,7 @@
 title: Publish test definitions
 description: Publish the test definitions to ensure that agents only see the approved versions of test definitions for execution. This also helps maintain consistency and control over both current and future test versions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/publish-test-specification-spm.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"

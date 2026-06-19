@@ -2,6 +2,7 @@
 title: Review a PDF document
 description: Complete your document task by reviewing a PDF document. Send your review comments to one or more participants who are working on the document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/review-doctemp-task.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -39,10 +40,10 @@ Role required: none
     2.  Click **Add**. You can edit or delete the note if required. You can also save your changes and review them again at any point in time.
 7.  Click **Send Notes**.
 
-    ![Review document](review-notes-example.png)
+    \[Omitted image "review-notes-example.png"\] Alt text: Review document
 
     The state of the document task is changed to Complete Rejected. Document tasks are reinitated for all the participants of the template.
 
 
-**Parent Topic:**[Working on a document task](work-doctemp-tasks.md)
+**Parent Topic:**[Working on a document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/work-doctemp-tasks.md)
 

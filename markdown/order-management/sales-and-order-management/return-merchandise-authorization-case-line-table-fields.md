@@ -2,6 +2,7 @@
 title: Return Merchandise Authorization case line table fields
 description: Information about Return Merchandise Authorization \(RMA\) case line table fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/return-merchandise-authorization-case-line-table-fields.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -120,5 +121,5 @@ Location of repair. Options are:-   Onsite
 -   Off-site
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Return Merchandise Authorization Case Management](return-merchandise-authorization-case-management-reference.md)
+</table>**Parent Topic:**[Return Merchandise Authorization Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/return-merchandise-authorization-case-management-reference.md)
 

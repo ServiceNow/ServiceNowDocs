@@ -2,6 +2,7 @@
 title: Configure multi-instance management for instances using ReleaseOps
 description: Manage the multi-instance configurations to enable access across instances in your ReleaseOps ecosystem.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/releaseops/configure-mif.html
 release: zurich
 product: ReleaseOps
 classification: releaseops
@@ -18,13 +19,13 @@ Manage the multi-instance configurations to enable access across instances in yo
 
 ## Before you begin
 
-**Note:** Starting with version 1.2.1 of ReleaseOps, you can configure multi-instance management during guided setup. For more information, see [Complete ReleaseOps guided setup](complete-guided-setup.md).
+**Note:** Starting with version 1.2.1 of ReleaseOps, you can configure multi-instance management during guided setup. For more information, see [Complete ReleaseOps guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/complete-guided-setup.md).
 
 Role required: admin or sn\_mif.mif\_admin
 
-You must have ReleaseOps installed before configuring mulit-instance management. For more information, see [Install ReleaseOps](install-releaseops.md).
+You must have ReleaseOps installed before configuring mulit-instance management. For more information, see [Install ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/install-releaseops.md).
 
-All non-production \(development and test\) instances must be configured as instances managed by your production instance to participate in your ReleaseOps ecosystem. For more information, see [Cross-instance application trust configuration](https://www.servicenow.com/docs/access?context=grant-access-v2&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+All non-production \(development and test\) instances must be configured as instances managed by your production instance to participate in your ReleaseOps ecosystem. For more information, see .
 
 ## Procedure
 
@@ -47,5 +48,5 @@ All non-production \(development and test\) instances must be configured as inst
 7.  Select **Approve Manager Instance**.
 
 
-If you receive Trust Profile errors, confirm that both Managed Instances and Manager Instances are correctly set up and approved. For more information, see [Cross-instance application trust configuration](https://www.servicenow.com/docs/access?context=grant-access-v2&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+If you receive Trust Profile errors, confirm that both Managed Instances and Manager Instances are correctly set up and approved. For more information, see .
 

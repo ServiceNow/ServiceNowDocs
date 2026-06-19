@@ -2,6 +2,7 @@
 title: Restart an agent manually
 description: Perform manual restart of an agent when the agent configuration file has been refreshed, or if the agent is unstable. You can perform manual restart only on agents installed in a Windows environment and for Linux-based agents that use systemd.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-restart.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -25,7 +26,7 @@ Role required: agent\_client\_collector\_admin
 
     The **Agent Client Collectors** page appears with the list of agents.
 
-    ![Agent Client Collectors list](../image/ACC-Agent-Client-Collectors.png)
+    \[Omitted image "ACC-Agent-Client-Collectors.png"\] Alt text: Agent Client Collectors list
 
 2.  Select the check box of the agent you want to restart.
 
@@ -35,7 +36,7 @@ Role required: agent\_client\_collector\_admin
 
     A confirmation dialog box appears.
 
-    ![Restart agent confirmation dialog box](../image/ACC-Restart-Confirm.png)
+    \[Omitted image "ACC-Restart-Confirm.png"\] Alt text: Restart agent confirmation dialog box
 
 4.  Select **Restart**.
 

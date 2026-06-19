@@ -2,6 +2,7 @@
 title: Service categories discovered in AWS
 description: The Discovery process discovers AWS services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/aws-discovered-services.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -40,5 +41,5 @@ The Discovery process discovers AWS services.
 
 **Note:** The full list of classes/resources matching can be found in the Cloud Resource Types \[sn\_capi\_resource\_type\] table.
 
-**Parent Topic:**[Cloud accounts](../concept/cloud-accounts.md)
+**Parent Topic:**[Cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloud-accounts.md)
 

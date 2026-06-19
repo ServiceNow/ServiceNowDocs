@@ -2,11 +2,12 @@
 title: Build and install an application with the ServiceNow SDK
 description: Build and install a local application developed with the ServiceNow SDK on a ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-sdk/build-deploy-application-now-sdk.html
 release: zurich
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Develop applications, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -17,13 +18,13 @@ Build and install a local application developed with the ServiceNow SDK on a Ser
 
 ## Before you begin
 
-Add an application to your local system with the ServiceNow SDK. For more information, see [Adding applications with the ServiceNow SDK](../concept/creating-applications-servicenow-sdk.md).
+Add an application to your local system with the ServiceNow SDK. For more information, see [Adding applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/creating-applications-servicenow-sdk.md).
 
 Role required: admin
 
 ## About this task
 
-This procedure uses the ServiceNow SDK command-line interface \(CLI\). From a command-line tool, enter `now-sdk --help` to get information about the available commands and global options. To get additional information about a command and its parameters, enter the command and `--help` or `-h`. For example, `now-sdk auth --help`. For more information about the CLI, see [ServiceNow SDK CLI](../reference/servicenow-sdk-cli-commands.md#).
+This procedure uses the ServiceNow SDK command-line interface \(CLI\). From a command-line tool, enter `now-sdk --help` to get information about the available commands and global options. To get additional information about a command and its parameters, enter the command and `--help` or `-h`. For example, `now-sdk auth --help`. For more information about the CLI, see [ServiceNow SDK CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/servicenow-sdk-cli-commands.md).
 
 **Note:** To build global applications with the ServiceNow SDK, you should use Node Package Manager \(npm\) as your package manager, especially if your application has more complex dependencies.
 
@@ -66,5 +67,5 @@ The application is updated on your instance to reflect your local changes. Servi
 
 **Note:** If you have previous versions of modules in the EcmaScript Module \[sys\_module\] table that aren't needed, re-installing an application removes previous versions of the application’s modules from the table.
 
-**Parent Topic:**[Developing applications with the ServiceNow SDK](../concept/developing-applications-sdk.md)
+**Parent Topic:**[Developing applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/developing-applications-sdk.md)
 

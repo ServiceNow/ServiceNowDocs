@@ -2,6 +2,7 @@
 title: Vendor Management Workspace
 description: Monitor the performance of your company's vendors and manage all vendor-related information using the ServiceNow Vendor Management Workspace. Assess the performance of your vendors using key performance indicators \(KPIs\) that you can configure to create vendor metrics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/vendor-management-workspace/vendor-management-workspace-landing-page.html
 release: zurich
 product: Vendor Management Workspace
 classification: vendor-management-workspace
@@ -23,19 +24,19 @@ Track and analyze how your vendors are executing on their goals and which areas 
 
 <table id="table_fvq_dtc_kyb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Monitor metrics and analyze your vendor's health using Vendor Management Workspace.](../concept/exploring-vendor-management-workspace.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Monitor metrics and analyze your vendor's health using Vendor Management Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/exploring-vendor-management-workspace.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Plan and configure your implementation.](../concept/configuring-vendor-management-workspace.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/configuring-vendor-management-workspace.md)
 
 </td></tr><tr><td>
 
-[Manage![](../../../reuse/icons/brand-icons/bus-manage.svg)Manage all vendor-related information using Vendor Management Workspace.](../concept/using-vendor-management-workspace.md)
+[Manage\[Omitted image "bus-manage.svg"\] Alt text:Manage all vendor-related information using Vendor Management Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/using-vendor-management-workspace.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Refer to roles, tables, properties, and indicators used in Vendor Management Workspace.](vendor-manager-workspace-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Refer to roles, tables, properties, and indicators used in Vendor Management Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/vendor-manager-workspace-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

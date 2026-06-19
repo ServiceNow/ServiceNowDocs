@@ -2,6 +2,7 @@
 title: View SLA timeline
 description: View an SLA timeline to review its details and its progress over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-level-management/t\_ViewSLATimeline.html
 release: zurich
 product: Service Level Management
 classification: service-level-management
@@ -23,15 +24,15 @@ Role required: itil, sla\_admin, sla\_manager
 
 1.  Open an SLA timeline from the SLA definition form, Task form, or Task SLA form.
 
-<table id="choicetable_s31_gjj_35"><thead><tr><th align="left" id="d213032e63">
+<table id="choicetable_s31_gjj_35"><thead><tr><th align="left" id="d136611e63">
 
 Location
 
-</th><th align="left" id="d213032e66">
+</th><th align="left" id="d136611e66">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d213032e72">
+</th></tr></thead><tbody><tr><td id="d136611e72">
 
 **SLA definition**
 
@@ -39,7 +40,7 @@ Navigation
 
 Navigate to **Service Level Management** &gt; **SLA** &gt; **SLA Definitions**. Select the name of a SLA definition and then select the **Validate SLA Definition** link.
 
-</td></tr><tr><td id="d213032e96">
+</td></tr><tr><td id="d136611e96">
 
 **Task SLA record**
 
@@ -47,7 +48,7 @@ Navigate to **Service Level Management** &gt; **SLA** &gt; **SLA Definitions**. 
 
 Open a task SLA record from the task form. Select the **Show SLA Timeline** link to view the SLA timeline for that specific SLA.
 
-</td></tr><tr><td id="d213032e108">
+</td></tr><tr><td id="d136611e108">
 
 **Task form**
 
@@ -61,5 +62,5 @@ Open a task SLA record from the task form. Select the **Show SLA Timeline** link
 </table>    The SLA timeline for the selected task or incident is displayed. It includes SLA report details and a visual representation of the SLA's progress over the lifetime of the task.
 
 
-**Parent Topic:**[Using Service Level Management](../concept/using-service-level-management.md)
+**Parent Topic:**[Using Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-level-management/using-service-level-management.md)
 

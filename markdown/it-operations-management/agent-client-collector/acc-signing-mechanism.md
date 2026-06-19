@@ -2,12 +2,13 @@
 title: Enable OpenSSL secure signing for plugins
 description: Create a self-signed certificate for an Agent Client Collector plugin. The following procedure gives an example of how to create an x509 certificate using OpenSSL. For other certificate types, consult OpenSSL documentation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-signing-mechanism.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [ACC certificates, ACC deployment - shared between servers and endpoints, Agent Client Collector, IT Operations Management]
 ---
 
@@ -30,7 +31,7 @@ Enabling an OpenSSL secure signing mechanism for plugins works with an Agent Cli
 
 1.  Create a plugin file with a `tar.gz` extension.
 
-    For more information, see [Create and edit Agent Client Collector plugins](create-edit-assets.md).
+    For more information, see [Create and edit Agent Client Collector plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/create-edit-assets.md).
 
 2.  Generate your own secure self-certificate for the plugin file.
 
@@ -87,10 +88,15 @@ Enabling an OpenSSL secure signing mechanism for plugins works with an Agent Cli
 
 6.  Set the plugin file as **active=true**.
 
-7.  Place the `sign.crt` file in the agent's `cert` directory, which is located in the `config` folder.
+7.  Place the `sign.crt` file in the Agent Client Collector's `cert` directory, which is located in the `config` folder.
 
+    Alternatively:
+
+    1.  Navigate to the MID Server's `agent/static/cert` directory.
+    2.  Create a directory called **customer**.
+    3.  Place the `sign.crt` file in the `customer` directory.
 8.  In the `acc.yml` file, set `verify-plugin-signature` to **true**.
 
 
-**Parent Topic:**[Agent Client Collector certificates](../concept/acc-certificates.md)
+**Parent Topic:**[Agent Client Collector certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-certificates.md)
 

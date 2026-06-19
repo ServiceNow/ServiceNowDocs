@@ -2,6 +2,7 @@
 title: Create a threshold for a metric
 description: Evaluate the performance of your quantitative metric definition by defining threshold for your metric definitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/t\_create-threshold-for-metrics.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -29,7 +30,7 @@ If the threshold is created after the metric definition is created, you can copy
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Select the list ![](../../grc-workspace-risk/image/list-icon-risk-workspace.png) icon.
+2.  Select the list \[Omitted image "list-icon-risk-workspace.png"\] Alt text: icon.
 
 3.  Navigate to **Metrics** &gt; **Metrics**.
 
@@ -57,7 +58,7 @@ Threshold type
 
 Type of threshold. The choices are the following.-   **Static**: A static threshold for a metric or a metric definition refers to a fixed value used as a limit for tracking a metric.
 -   **Dynamic**: Dynamic thresholds are specified in percentages. This means that the percentage variance is calculated based on two factors, direction and previous data.
-For more information, see [Thresholds for metrics](https://www.servicenow.com/docs/access?context=thresholds-for-metrics&version=zurich&pubname=zurich-environmental-social-governance&ft:locale=en-US).
+For more information, see .
 
 </td></tr><tr><td>
 
@@ -113,8 +114,8 @@ Percentage value that signifies moderate change in the variance of target value.
 9.  To copy the thresholds to the metrics, select **Copy threshold**.
 
 
--   **[Metric Definition Threshold form](../reference/metric-definition-threshold-form-irm.md)**  
+-   **[Metric Definition Threshold form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/metric-definition-threshold-form-irm.md)**  
 Use the Metric Definition Threshold form to define performance limits for a metric and control how the system responds when those limits are reached.
 
-**Parent Topic:**[Configuring metrics](../concept/configuring-irm-metrics.md)
+**Parent Topic:**[Configuring metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/configuring-irm-metrics.md)
 

@@ -2,6 +2,7 @@
 title: Feedback Analytics dashboard
 description: Track all your feedback responses with the Feedback Analytics for portals, email, Virtual Agent, kiosks, and Now Mobile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ex-fdback-board.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -35,7 +36,7 @@ You can see the following trends on the dashboard.
 
 ## Feedback Analytics Overview
 
-![Overview tab in the Feedback Analytics dashboard displays overview of feedback received.](../images/overview_feedback_dashboard.png "Feedback analytics - Overview")
+\[Omitted image "overview\_feedback\_dashboard.png"\] Alt text: Overview tab in the Feedback Analytics dashboard displays overview of feedback received.
 
 **Average rating \(last 6 months\):** Shows the average rating gathered in the last six months.
 
@@ -53,7 +54,7 @@ You can see the following trends on the dashboard.
 
 ## Experience feedback
 
-![Feedback experience tab in Feedback Analytics dashboard displays several types of data cluster for experience feedback type.](../images/ex_feedback_dashboard.png "Experience feedback")
+\[Omitted image "ex\_feedback\_dashboard.png"\] Alt text: Feedback experience tab in Feedback Analytics dashboard displays several types of data cluster for experience feedback type.
 
 **Average rating**: The average of the ratings received for Experience feedback.
 
@@ -69,7 +70,7 @@ You can see the following trends on the dashboard.
 
 ## Service feedback
 
-![Service feedback tab in Feedback Analytics dashboard displays several types of data clusters for service feedback type.](../images/ex_service_dashboard.png "Service feedback")
+\[Omitted image "ex\_service\_dashboard.png"\] Alt text: Service feedback tab in Feedback Analytics dashboard displays several types of data clusters for service feedback type.
 
 **Average rating**: Average of the ratings received for Service feedback.
 
@@ -83,7 +84,7 @@ You can see the following trends on the dashboard.
 
 ## Tasks
 
-![Tasks tab in the Feedback Analytics dashboard displays overview of feedback tasks data.](../images/tasks_dashboard.png "Tasks")
+\[Omitted image "tasks\_dashboard.png"\] Alt text: Tasks tab in the Feedback Analytics dashboard displays overview of feedback tasks data.
 
 **Feedback tasks**: Number of tasks displayed by their respective states.
 

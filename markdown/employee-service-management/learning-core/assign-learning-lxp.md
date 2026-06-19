@@ -2,6 +2,7 @@
 title: Assign Learning to your team
 description: As a manager, assign Learning to your team members to enhance their skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/assign-learning-lxp.html
 release: zurich
 product: Learning Core
 classification: learning-core

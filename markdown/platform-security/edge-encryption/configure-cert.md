@@ -2,6 +2,7 @@
 title: Configure the HTTPS certificate
 description: To enable clients to connect to the Edge Encryption proxy server using a secure SSL connection, import the HTTPS certificate to the proxy server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/configure-cert.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -40,9 +41,9 @@ The Edge Encryption proxy provides the HTTPS certificate to clients trying to co
 4.  Click **Next**.
 
 
-**Parent Topic:**[Install the Edge Encryption proxy server using the interactive installer](proxy-installer.md)
+**Parent Topic:**[Install the Edge Encryption proxy server using the interactive installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/proxy-installer.md)
 
-**Previous topic:**[Configure the signature key](configure-sig-key.md)
+**Previous topic:**[Configure the signature key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/configure-sig-key.md)
 
-**Next topic:**[Configure the AES 128-bit encryption key](configure-128-key.md)
+**Next topic:**[Configure the AES 128-bit encryption key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/configure-128-key.md)
 

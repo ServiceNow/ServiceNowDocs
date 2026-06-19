@@ -2,6 +2,7 @@
 title: Select implementations
 description: Select one or more implementations as applicable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/implementation-selection.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -31,7 +32,7 @@ The available implementations are listed. Select the implementation\(s\), after 
 
     The investigation tab with the entry points lists is displayed.
 
-    ![Investigation tab of the workspace](../image/example1.png)
+    \[Omitted image "example1.png"\] Alt text: Investigation tab of the workspace
 
 4.  Select the associated observable from the entry point lists.
 
@@ -39,7 +40,7 @@ The available implementations are listed. Select the implementation\(s\), after 
 
     **Note:** You can select an implementation to perform a lookup on the selected observables, or you can perform the lookup by selecting all implementations.
 
-    ![Run Threat Lookup](../image/example1-run-threat-lookup.png "Run Threat Lookup")
+    \[Omitted image "example1-run-threat-lookup.png"\] Alt text: Run Threat Lookup
 
 5.  Select any observable check box that you wish to perform the threat lookup.
 
@@ -51,7 +52,7 @@ The available implementations are listed. Select the implementation\(s\), after 
 
     The **Run Threat Lookup Implementations** modal screen is displayed.
 
-    ![Run Threat Lookup Implementations](../image/example1-run-threat-lookup-select.png "Run Threat Lookup Implementations")
+    \[Omitted image "example1-run-threat-lookup-select.png"\] Alt text: Run Threat Lookup Implementations
 
 8.  Select one or more implementations from the list.
 
@@ -59,10 +60,10 @@ The available implementations are listed. Select the implementation\(s\), after 
 
     After the selected records are submitted, a message is displayed that the lookup is being executed. Once the implementation is processed in the backend, the results are displayed in the **Threat Lookup Results** related list section. Also, the respective implementation activity is displayed in the **Activity** section. Two activities are displayed, one is when the implementation execution is started and the second one is when the execution is completed.
 
-    ![User Reported Phishing view: Associated Observables section.](../image/example1-execution.png)
+    \[Omitted image "example1-execution.png"\] Alt text: User Reported Phishing view: Associated Observables section.
 
     **Note:** The **Threat intel** related lists such as the associated observables related lists are displayed in the **Threat Lookup Results** section, and the **Sightings Search** related lists are displayed in the **Sightings Search Results** section under the Related Records.
 
 
-**Parent Topic:**[Example 1: Select implementations: Threat Lookup](example-1-select-implementations-threat-lookup.md)
+**Parent Topic:**[Example 1: Select implementations: Threat Lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/example-1-select-implementations-threat-lookup.md)
 

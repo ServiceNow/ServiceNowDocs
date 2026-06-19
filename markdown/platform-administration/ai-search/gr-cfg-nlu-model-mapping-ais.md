@@ -1,7 +1,8 @@
 ---
 title: AI Search Genius Result Configuration NLU Model Mapping form
-description: The AI Search Genius Result Configuration NLU Model Mapping form contains information about relationships between Genius Result configurations and NLU models for AI Search. Use this form when linking Genius Result configurations to NLU models.
+description: The AI Search Genius Result Configuration NLU Model Mapping form enables you to link a Genius Result configuration to an NLU model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/gr-cfg-nlu-model-mapping-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -13,9 +14,9 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 # AI Search Genius Result Configuration NLU Model Mapping form
 
-The AI Search Genius Result Configuration NLU Model Mapping form contains information about relationships between Genius Result configurations and NLU models for AI Search. Use this form when linking Genius Result configurations to NLU models.
+The AI Search Genius Result Configuration NLU Model Mapping form enables you to link a Genius Result configuration to an NLU model.
 
-For details on linking Genius Result configurations to NLU models, see [Link an NLU model and intents to a Genius Result configuration](../task/link-nlu-model-genius-result-ais.md).
+For details on linking Genius Result configurations to NLU models, see [Link an NLU model and intents to a Genius Result configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/link-nlu-model-genius-result-ais.md).
 
 |Field|Description|
 |-----|-----------|
@@ -26,5 +27,5 @@ For details on linking Genius Result configurations to NLU models, see [Link an 
 |Order|Order of evaluation for the NLU model in the context of the Genius Result configuration.|
 |Application|Application scope for the NLU model link. This field is automatically set.|
 
-**Parent Topic:**[AI Search reference](../concept/reference-ais.md)
+**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/reference-ais.md)
 

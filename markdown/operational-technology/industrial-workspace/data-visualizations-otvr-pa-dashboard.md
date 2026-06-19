@@ -2,6 +2,7 @@
 title: Data visualizations used in the Operational Technology Vulnerability Response \(PA\) dashboard
 description: The Operational Technology Vulnerability Response \(PA\) dashboard uses data visualizations to display your OT vulnerability data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-workspace/data-visualizations-otvr-pa-dashboard.html
 release: zurich
 product: Industrial Workspace
 classification: industrial-workspace
@@ -282,5 +283,5 @@ Critical remediation tasks that are overdue organized by assignment group.
 |OT Deferred Vulnerable Items by Reason|Bar|Number of the deferred OT vulnerable items that are grouped by the deferral reason.|
 |OT Exceptions for Critical Vulnerable Items by Assignment Group|Indicator scorecard|Exceptions for critical VIs organized by assignment group.|
 
-**Parent Topic:**[Using the Industrial Workspace](../../operational-technology-management/concept/using-industrial-workspace.md)
+**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/using-industrial-workspace.md)
 

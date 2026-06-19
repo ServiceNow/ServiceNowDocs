@@ -2,6 +2,7 @@
 title: Workplace Maintenance Management
 description: Workplace Maintenance Management provides preventive maintenance plans for enterprise assets and workplace locations. Maintenance managers can perform maintenance planning for workplace services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-maintenance-management/workplace-maintenance-mgmt-ovw.html
 release: zurich
 product: Workplace Maintenance Management
 classification: workplace-maintenance-management
@@ -19,19 +20,19 @@ Workplace Maintenance Management provides preventive maintenance plans for enter
 
 <table id="table_sdw_cwc_qtb" class="nav-card"><tbody><tr><td>
 
-[Explore ![Explore](../../../common/image/icon-explore.png) Learn about Workplace Maintenance Management concepts and features](explore-wmm.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore Learn about Workplace Maintenance Management concepts and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/explore-wmm.md)
 
 </td><td>
 
-[Configure ![Configure.](../../../common/image/icon-configure.png) Install and Configure Workplace Maintenance Management](configure-maintenance-mgmt.md)
+[Configure \[Omitted image "icon-configure.png"\] Alt text: Configure. Install and Configure Workplace Maintenance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/configure-maintenance-mgmt.md)
 
 </td></tr><tr><td>
 
-[Manage ![Manage](../../../common/image/icon-managing.png) Manage Workplace Maintenance Management location records](manage-maintenance-plans.md)
+[Manage \[Omitted image "icon-managing.png"\] Alt text: Manage Manage Workplace Maintenance Management location records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/manage-maintenance-plans.md)
 
 </td><td>
 
-[References ![Reference](../../../common/image/icon-reference.png) Learn about Workplace Maintenance Management roles, properties, and components](workplace-maintenance-mgmt-references.md) 
+[References \[Omitted image "icon-reference.png"\] Alt text: Reference Learn about Workplace Maintenance Management roles, properties, and components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/workplace-maintenance-mgmt-references.md) 
 
 </td></tr></tbody>
 </table>

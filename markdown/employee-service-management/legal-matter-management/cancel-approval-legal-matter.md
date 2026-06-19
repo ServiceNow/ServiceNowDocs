@@ -2,6 +2,7 @@
 title: Cancel an ad hoc approval for a legal matter
 description: Cancel an ad hoc approval for a legal matter if it no longer requires any action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-matter-management/cancel-approval-legal-matter.html
 release: zurich
 product: Legal Matter Management
 classification: legal-matter-management
@@ -29,19 +30,19 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d313521e108">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d301248e108">
 
 Option
 
-</th><th align="left" id="d313521e111">
+</th><th align="left" id="d301248e111">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d313521e117">
+</th></tr></thead><tbody><tr><td id="d301248e117">
 
 **As an assignee**
 
@@ -53,7 +54,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d313521e146">
+</td></tr><tr><td id="d301248e146">
 
 **As a collaborator**
 
@@ -75,5 +76,5 @@ The state of the legal matter updates to Work in Progress.
 
 The approval record is canceled and its state updates to Cancelled and comments are added to the approval record. If the approval was requested from a user group, then the corresponding approval records for all users in the user group are canceled.
 
-**Parent Topic:**[Initiate an ad hoc approval for a legal matter or its artifact](initiate-approval-legal-matter.md)
+**Parent Topic:**[Initiate an ad hoc approval for a legal matter or its artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/initiate-approval-legal-matter.md)
 

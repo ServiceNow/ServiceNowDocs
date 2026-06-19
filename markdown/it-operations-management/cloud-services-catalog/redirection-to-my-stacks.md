@@ -2,6 +2,7 @@
 title: Redirection to My Stacks
 description: You can use redirection to your My Stacks tab as an alternate but simplified way to locate a stack from the My Requests tab. For example, you can use redirection while you're looking up a stack that was recently provisioned.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/redirection-to-my-stacks.html
 release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -21,7 +22,7 @@ Redirection to stack details via the **My Requests** tab in Employee Center enab
 
 The following example shows how you can redirect to the **My Stacks** tab from the **My Requests** tab, instead of looking at a comprehensive list of stacks on the Stacks homepage.
 
-![Redirection to your stacks.](../image/redirection-to-my-stacks.png "Redirection to My Stacks")
+\[Omitted image "redirection-to-my-stacks.png"\] Alt text: Redirection to your stacks.
 
-**Parent Topic:**[Exploring the My Stacks tab](manage-stacks.md)
+**Parent Topic:**[Exploring the My Stacks tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/manage-stacks.md)
 

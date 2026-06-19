@@ -2,6 +2,7 @@
 title: Quick start tests for Knowledge Management
 description: Validate that Knowledge Management still works after you make any configuration change, such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/quick-start-tests-knowledge.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -294,10 +295,10 @@ Verify the success of a Knowledge - Approval Publish workflow by recalling and t
 Quebec
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Knowledge Management reference](../../../product/knowledge-management/reference/knowledge-management-reference.md)
+</table>**Parent Topic:**[Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/knowledge-management-reference.md)
 
 **Related topics**  
 
 
-[Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+[bundle-cadev.quick-start-tests]
 

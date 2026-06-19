@@ -2,6 +2,7 @@
 title: Create an action task
 description: Create an action task that is related to the regulatory change tasks and source document import tasks so that you can complete the regulatory tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/regulatory-change-management-service-portal/manage-reg-action-tasks.html
 release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal

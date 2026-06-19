@@ -2,7 +2,10 @@
 title: Set up Oracle Cloud infrastructure \(OCI\) service accounts
 description: Create and configure cloud service accounts at ServiceNow AI Platform for the corresponding Oracle Cloud Infrastructure \(OCI\) service accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/set-up-oracle-cloud-infrastructure-oci-service-accounts.html
 release: zurich
+product: IT Operations Management
+classification: it-operations-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -19,12 +22,12 @@ OCI service account is a type of identity used to authenticate and authorize acc
 
 Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
 
--   **[OCI access and permission using policies](oci-access-and-permission-using-policies.md)**  
+-   **[OCI access and permission using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/oci-access-and-permission-using-policies.md)**  
 Oracle Cloud Infrastructure \(OCI\) access and permission using policies provide privileges for secure cloud resource utilization and management in OCI.
--   **[Create Oracle API credentials](../task/create-oracle-api-credentials.md)**  
+-   **[Create Oracle API credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/create-oracle-api-credentials.md)**  
 Create Oracle API credentials on the ServiceNow AI Platform to enable access to your Oracle resources during Oracle discovery.
--   **[Create OCI service accounts](../task/create-oci-service-accounts.md)**  
+-   **[Create OCI service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/create-oci-service-accounts.md)**  
 Create Oracle Cloud Infrastructure \(OCI\) service accounts on the ServiceNow AI Platform to access your Oracle account during Oracle discovery.
 
-**Parent Topic:**[Set up a cloud service account](setup-cloud-service-account.md)
+**Parent Topic:**[Set up a cloud service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/setup-cloud-service-account.md)
 

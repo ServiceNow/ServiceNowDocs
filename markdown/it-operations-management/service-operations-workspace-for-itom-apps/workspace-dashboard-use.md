@@ -2,6 +2,7 @@
 title: Service Operations Workspace
 description: The Service Operations Workspace monitors services within your Event Management environment, enabling you to review their status and identify those at risk of suboptimal performance. This empowers you to promptly address any issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/workspace-dashboard-use.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -18,5 +19,5 @@ The Service Operations Workspace monitors services within your Event Management 
 
 **Note:** The Operator Workspace interface is available only to customers who have upgraded from a release prior to the Utah release. New customers as of the Utah release can use the Service Operations Workspace for ITOM, which offers an enhanced UI for managing alerts.
 
-You can configure the Service Operations Workspace to remain logged in for up to 24 hours. For more information, see [Manage user sessions](https://www.servicenow.com/docs/access?context=c_ManageUserSessions&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+You can configure the Service Operations Workspace to remain logged in for up to 24 hours. For more information, see Manage user sessions.
 

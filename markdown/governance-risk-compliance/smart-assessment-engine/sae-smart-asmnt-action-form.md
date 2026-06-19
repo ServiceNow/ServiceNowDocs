@@ -2,6 +2,7 @@
 title: Trigger Smart Assessment action form
 description: Use the Trigger smart assessment action form to add assessment actions to a flow or to obtain a code snippet for a script as part of the process for triggering Smart Assessment Engine assessments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/smart-assessment-engine/sae-smart-asmnt-action-form.html
 release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -41,7 +42,7 @@ Assessors
 
 Persons who are notified of the assessment and typically respond to the assessment or assign it to another user. One assessment instance is assigned to each assessor.
 
- Assessors have the Assessment actor \[sn\_smart\_asmt.actor\] role. See [Roles in Smart Assessment Engine](sae-roles-defined.md).
+ Assessors have the Assessment actor \[sn\_smart\_asmt.actor\] role. See [Roles in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md).
 
 </td></tr><tr><td>
 

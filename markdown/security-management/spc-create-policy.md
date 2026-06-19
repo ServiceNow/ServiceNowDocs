@@ -2,6 +2,7 @@
 title: Create and activate custom policies for Security Posture Control
 description: Create your own custom policies to monitor assets for tool coverage and other high-risk combinations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/spc-create-policy.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -15,9 +16,9 @@ Create your own custom policies to monitor assets for tool coverage and other hi
 
 ## Before you begin
 
-To help you understand the steps required to create a policy with more details, refer to [Examples of base, child, and cloned policies for Security Posture Control](../concept/spc-policy-examples.md). The examples walk you through the steps required to create a base policy, use the base policy to create a child policy, and clone a policy.
+To help you understand the steps required to create a policy with more details, refer to [Examples of base, child, and cloned policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-policy-examples.md). The examples walk you through the steps required to create a base policy, use the base policy to create a child policy, and clone a policy.
 
-For example policies, see [Examples of base, child, and cloned policies for Security Posture Control](../concept/spc-policy-examples.md).
+For example policies, see [Examples of base, child, and cloned policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-policy-examples.md).
 
 Roles required: SPC Admin Group or SPC Analyst Group
 
@@ -84,7 +85,7 @@ A unique description for your policy. 
 
 7.  Select one from the list for the Connection field.
 
-    The target Entity field is auto populated based on your choice. A new Criteria field is displayed along with Property, Operator, and Value fields. For more information about asset types and the schema for relationships, see [Policies for Security Posture Control](../concept/spc-policies-overview.md).
+    The target Entity field is auto populated based on your choice. A new Criteria field is displayed along with Property, Operator, and Value fields. For more information about asset types and the schema for relationships, see [Policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-policies-overview.md).
 
 8.  Select one from the list for Property.
 
@@ -105,7 +106,7 @@ A unique description for your policy. 
     |Select **OR/AND** to the right of a Property field for new set of Property conditions.|Adds a logical OR/AND between current Property, and a new Property from the same Connection-Entity-Criteria.|3|
     |Select **+ New condition set** for a new set of conditions.|Adds a logical OR between the Condition Set of all current Criteria, and a new Condition Set.|4|
 
-    ![Decorators in the security posture control policy builder](../image/spc-decorators.png)
+    \[Omitted image "spc-decorators.png"\] Alt text: Decorators in the security posture control policy builder
 
 12. Select **Save policy** after you are done editing.
 

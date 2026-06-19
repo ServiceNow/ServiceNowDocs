@@ -2,6 +2,7 @@
 title: Schedule your arrival time at a workplace location
 description: Schedule your arrival in Workplace Core at locations at your workplace so you can prevent long lines and safely enter the location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/schedule-your-arrival-time-to-the-workplace.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace
@@ -17,7 +18,7 @@ Schedule your arrival in Workplace Core at locations at your workplace so you ca
 
 ## Before you begin
 
-To schedule an arrival using your mobile device, you must have the [Now® Mobile](../../../administer/mobile-employee/concept/mobile-employee-experience.md) app.
+To schedule an arrival using your mobile device, you must have the [Now® Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app.
 
 Role required: sn\_wsd\_core.workplace\_user
 
@@ -56,5 +57,5 @@ You can check the details of your arrival schedule anytime.
     -   On the Now Mobile navigation bar, tap **For Me** and scroll down to the My Request section to view your requests.
 2.  If you want to cancel your arrival, select the arrival request and select **Cancel arrival**.
 
-**Parent Topic:**[Setting and tracking arrivals at the workplace](../concept/scheduling-employees-arrival-to-the-workplace.md)
+**Parent Topic:**[Setting and tracking arrivals at the workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/scheduling-employees-arrival-to-the-workplace.md)
 

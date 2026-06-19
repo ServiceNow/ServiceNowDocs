@@ -2,6 +2,7 @@
 title: Trusted Mobile App troubleshooting
 description: Review these troubleshooting scenarios to resolve issues with Trusted Mobile App.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/troubleshooting-trusted-device.html
 release: zurich
 product: Authentication
 classification: authentication

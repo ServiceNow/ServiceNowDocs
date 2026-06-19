@@ -2,7 +2,10 @@
 title: Zurich Patch 4
 description: The Zurich Patch 4 release contains important problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/zurich-patch-4.html
 release: zurich
+product: Release Notes
+classification: release-notes
 topic_type: reference
 last_updated: "2025-12-05"
 reading_time_minutes: 114
@@ -18,7 +21,7 @@ The Zurich Patch 4 release contains important problem fixes.
     -   Build date: 12-03-2025\_1405
     -   Build tag: glide-zurich-07-01-2025\_\_patch4-11-14-2025
 
-**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](../upgrades/reference/upgrade.md).
+**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/upgrade.md).
 
 For more information about the release cycle, see the [ServiceNow Release Cycle](https://support.servicenow.com/kb_view.do?sysparm_article=KB0547244).
 
@@ -30,7 +33,7 @@ For a downloadable, sortable version of the fixed problems in this release, clic
 
 Zurich Patch 4 includes 476 problem fixes in various categories. The chart below shows the top 10 problem categories included in this patch.
 
-![Fixed issues grouped by problem categories bar chart](../image/prb-chart-zp4.png "Top 10 problem categories")
+\[Omitted image "prb-chart-zp4.png"\] Alt text: Fixed issues grouped by problem categories bar chart
 
 ## Security-related fixes
 
@@ -38,26 +41,26 @@ Zurich Patch 4 includes fixes for security-related problems that affected certai
 
 ## Changes in Zurich Patch 4
 
--   **[Sensitive data filters](https://www.servicenow.com/docs/access?context=sensitive-data-filters&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)**
+-   ****
 
     The Discovery Sensitive Data Filters \[discovery\_sensitive\_data\_filter\] table provides a way to help prevent sensitive information from being exposed in the Configuration Management Database \(CMDB\) by applying redaction rules during data collection.
 
--   **[Managing Now Assist applications through Now Assist suites](https://www.servicenow.com/docs/access?context=now-assist-app-mgr&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)**
--   **[Show borders between search result cards in portal search](https://www.servicenow.com/docs/access?context=show-borders-search-result-cards-portal-search&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)**
+-   ****
+-   ****
 
     Display borders between search result cards on the search results page for portal search applications.
 
--   **[Time-based one-time password \(TOTP\) authentication](https://www.servicenow.com/docs/access?context=totp-authenticator-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)**
+-   ****
 
     A time based one-time password \(TOTP\) is a secure authentication factor that verifies user identity by generating a unique, time-sensitive code.
 
--   **[Push notification - Okta Verify](https://www.servicenow.com/docs/access?context=push-notification-okta-verify&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)**
+-   ****
 
     The **Okta Verify** app push notification enables users to securely approve authentication requests directly on their enrolled mobile devices.
 
--   **[SoftPIN authentication](https://www.servicenow.com/docs/access?context=softpin-authentication&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)**
--   **[SMS One-time passcode \(OTP\) authentication](https://www.servicenow.com/docs/access?context=sms-otp-authentication&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)**
--   **[Granular admin roles required to secure your instance](https://www.servicenow.com/docs/access?context=roles-within-platform-security&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)**
+-   ****
+-   ****
+-   ****
 
     Verify proper access management by assigning roles that define user permissions and responsibilities. By doing so, organizations can maintain security, enforce conformance, and optimize their operations effectively.
 
@@ -9226,15 +9229,15 @@ The end\_gdt is empty, which is invalid. Performing the add with an invalid Glid
 
 Unless any exceptions are noted, you can safely upgrade to this release version from any of the versions listed below. These prior versions contain PRB fixes that are also included with this release. Be sure to upgrade to the latest listed patch that includes all of the PRB fixes you are interested in.
 
--   [Zurich Patch 3 Hotfix 2](zurich-patch-3-hf-2.md)
--   [Zurich Patch 3](zurich-patch-3.md)
--   [Zurich Patch 2 Hotfix 2](zurich-patch-2-hf-2-PO.md)
--   [Zurich Patch 2 Hotfix 1](zurich-patch-2-hf-1-PO.md)
--   [Zurich Patch 2](zurich-patch-2.md)
+-   [Zurich Patch 3 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-3-hf-2.md)
+-   [Zurich Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-3.md)
+-   [Zurich Patch 2 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-2-hf-2-PO.md)
+-   [Zurich Patch 2 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-2-hf-1-PO.md)
+-   [Zurich Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-2.md)
 -   [Zurich Patch 1 Hotfix 1b](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2612279)
--   [Zurich Patch 1](zurich-patch-1.md)
--   [Zurich security and notable fixes](zurich-security-notables.md)
--   [All other Zurich fixes](zurich-all-other-fixes.md)
+-   [Zurich Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1.md)
+-   [Zurich security and notable fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-security-notables.md)
+-   [All other Zurich fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-all-other-fixes.md)
 
-**Parent Topic:**[Available patches and hotfixes](../available-versions.md)
+**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/available-versions.md)
 

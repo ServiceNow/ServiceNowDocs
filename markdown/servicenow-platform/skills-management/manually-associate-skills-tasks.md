@@ -2,6 +2,7 @@
 title: Assign skills to tasks
 description: Add skills and the level required for each skill to tasks. Identify whether the skill is mandatory to perform the task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/skills-management/manually-associate-skills-tasks.html
 release: zurich
 product: Skills Management
 classification: skills-management
@@ -37,5 +38,5 @@ Role required: admin
 
 ## Example
 
-The image below shows an administrator configuring skills for an incident task and adding the IT skill as mandatory for agents working on that task. ![Assign Skills to Tasks](../images/assign-skills-tasks.gif)
+The image below shows an administrator configuring skills for an incident task and adding the IT skill as mandatory for agents working on that task. \[Omitted image "assign-skills-tasks.gif"\] Alt text: Assign Skills to Tasks
 

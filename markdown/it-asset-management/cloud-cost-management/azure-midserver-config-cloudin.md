@@ -2,6 +2,7 @@
 title: Configuring access to CI data on your Microsoft Azure account
 description: To enable Discovery to communicate with your Microsoft Azure account, you specify your Service Principal credentials while configuring the MID Servers that communicate with your Microsoft Azure account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/azure-midserver-config-cloudin.html
 release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -19,7 +20,7 @@ To enable Discovery to communicate with your Microsoft Azure account, you specif
 
 ## Detailed instructions
 
-See [Azure Cloud Discovery](https://www.servicenow.com/docs/access?context=azure-cloud-discovery&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+See Azure Cloud Discovery.
 
 **Important:** This configuration process applies only if you use the Discovery application to discover cloud resources. Skip this process if you use a different method for discovering resources.
 
@@ -68,14 +69,14 @@ The **ALL** setting includes all required applications and capabilities. Alterna
 </td></tr></tbody>
 </table>## Using a proxy server
 
-You can use a proxy server for the Cloud Cost Management MID Server. See [Proxy server configuration for your Cloud Cost Management MID Server](azure-mid-proxy-cloudin.md).
+You can use a proxy server for the Cloud Cost Management MID Server. See [Proxy server configuration for your Cloud Cost Management MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/azure-mid-proxy-cloudin.md).
 
 **Related topics**  
 
 
-[MID Servers](https://www.servicenow.com/docs/access?context=c_MIDServerConfiguration&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.c_MIDServerConfiguration]
 
-[Install a MID Server on Windows](https://www.servicenow.com/docs/access?context=mid-server-install-prereqs&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.mid-server-install-prereqs]
 
-[Install a MID Server on Linux](https://www.servicenow.com/docs/access?context=t_InstallAMIDServerOnLinux&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.t_InstallAMIDServerOnLinux]
 

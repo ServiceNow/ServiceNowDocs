@@ -2,6 +2,7 @@
 title: Lens Form
 description: Learn about the fields of the Lens form. Use this form to create a lens in Portfolio Planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/lens-form-portfolio-planning.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -56,5 +57,5 @@ Planning items
 Type of work that can be planned using this lens.Move the desired planning item types from the **Available** list to the **Selected** list.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Portfolio Planning](form-field-information-for-portfolio-planning.md)
+</table>**Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)
 

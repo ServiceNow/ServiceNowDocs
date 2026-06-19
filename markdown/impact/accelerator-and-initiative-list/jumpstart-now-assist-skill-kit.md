@@ -2,6 +2,7 @@
 title: Jumpstart Your Now Assist Skill Kit
 description: This Accelerator provides a demonstration of the possibilities and capabilities of Now Assist Skill Kit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/jumpstart-now-assist-skill-kit.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

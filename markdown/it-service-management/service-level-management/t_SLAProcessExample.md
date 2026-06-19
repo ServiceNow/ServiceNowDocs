@@ -2,6 +2,7 @@
 title: Service Level Agreement \(SLA\) process example
 description: As work is done on the relevant task, the SLA may change stage appropriately, depending on the information defined for that SLA in the relevant SLA definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-level-management/t\_SLAProcessExample.html
 release: zurich
 product: Service Level Management
 classification: service-level-management
@@ -39,7 +40,7 @@ This example demonstrates how an SLA can be attached to an incident, then progre
 
     The **Task SLA** Related List should now have a Priority 1 SLA attached to this incident.
 
-    ![Task SLAs related list on Incident form - Priority 1 SLA](../image/TaskSLAIncidentForm-Priority1.png)
+    \[Omitted image "TaskSLAIncidentForm-Priority1.png"\] Alt text: Task SLAs related list on Incident form - Priority 1 SLA
 
     **Note:** The default **Priority 1 resolution \(8 hour\)** SLA definition record is used to create and attach this Task SLA.
 
@@ -47,7 +48,7 @@ This example demonstrates how an SLA can be attached to an incident, then progre
 
     The Priority 1 SLA is now marked **Cancelled**, and a Priority 2 SLA has been attached, because of the conditions on the SLAs.
 
-    ![Task SLAs related list on Incident form - Priority 2 SLA](../image/TaskSLAIncidentForm-Priority2.png)
+    \[Omitted image "TaskSLAIncidentForm-Priority2.png"\] Alt text: Task SLAs related list on Incident form - Priority 2 SLA
 
 5.  Change the **Incident State** to **Awaiting User Info**, then save the form.
 
@@ -55,13 +56,13 @@ This example demonstrates how an SLA can be attached to an incident, then progre
 
     **Note:** The pause duration on Task SLA gets updated only after the SLA moves out of pause.
 
-    ![Task SLAs related list on Incident form - Priority 2 SLA paused](../image/TaskSLAIncidentForm-AwaitingUserInfo.png)
+    \[Omitted image "TaskSLAIncidentForm-AwaitingUserInfo.png"\] Alt text: Task SLAs related list on Incident form - Priority 2 SLA paused
 
 6.  Change the **Incident State** to **Active**, then save the form.
 
     Because the incident is no longer in a **Pause** condition, it resumes timing.
 
-    ![Task SLAs related list on Incident form - Priority 2 SLA in progress](../image/TaskSLAIncidentForm-Active.png)
+    \[Omitted image "TaskSLAIncidentForm-Active.png"\] Alt text: Task SLAs related list on Incident form - Priority 2 SLA in progress
 
 7.  Enter any **Close code** and **Close notes** values in the **Closure Information** section of the incident.
 
@@ -69,8 +70,8 @@ This example demonstrates how an SLA can be attached to an incident, then progre
 
     The SLA is marked **Completed**.
 
-    ![Task SLAs related list on Incident form - Priority 2 SLA completed](../image/TaskSLAIncidentForm-Resolved.png)
+    \[Omitted image "TaskSLAIncidentForm-Resolved.png"\] Alt text: Task SLAs related list on Incident form - Priority 2 SLA completed
 
 
-**Parent Topic:**[Service Level Management reference](../concept/service-level-management-reference.md)
+**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-level-management/service-level-management-reference.md)
 

@@ -2,6 +2,7 @@
 title: Jumpstart Your Strategic Portfolio Management – Planning Workspace
 description: The Jumpstart Your Strategic Portfolio Management – Planning Workspace Accelerator provides a demonstration of the possibilities and capabilities of Planning Workspaces within Strategic Portfolio Management \(SPM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/jumpstart-spm-planning-workspace.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,7 +20,7 @@ The Jumpstart Your Strategic Portfolio Management – Planning Workspace Acceler
 
 Jumpstart Your Strategic Portfolio Management \(SPM\) – Planning Workspace provides Impact customers with a comprehensive overview of the possibilities and capabilities of the Planning Workspaces in SPM. Our goal is to demonstrate how you can receive clear visibility to manage and prioritize work items effectively and ensure they are aligned with your overall strategic goals. We aim to provide you with an understanding of how Planning Workspace can enhance service delivery quality, efficiency, and costs.
 
-For additional information on SPM, see [Strategic Portfolio Management](https://www.servicenow.com/docs/access?context=r_ITBusinessManagement&version=zurich&pubname=zurich-it-business-management&ft:locale=en-US).
+For additional information on SPM, see .
 
 **Note:** This Accelerator is available in Guided, Advanced, and Total Packages.
 

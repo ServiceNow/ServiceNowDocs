@@ -2,6 +2,7 @@
 title: Lifecycle event dashboards
 description: Use lifecycle event dashboards to gain visibility into active lifecycle event and onboarding cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/lifecycle-events/LifecycleEventsDashboard.html
 release: zurich
 product: Lifecycle Events
 classification: lifecycle-events
@@ -26,5 +27,5 @@ The Onboarding Executive View dashboard requires the Performance Analytics - Con
     -   The **Active Lifecycle Event Cases** dashboard provides a list of all active life-cycle events or onboarding cases with the subject person, state, assigned to, and opened for information. You drill into each case using this dashboard.
     -   It also provides charts for active and overdue tasks.
 
-See, [Performance Analytics](https://www.servicenow.com/docs/access?context=pa-overview&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US)
+See, Performance Analytics
 

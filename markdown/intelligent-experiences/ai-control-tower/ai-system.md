@@ -1,19 +1,20 @@
 ---
 title: AI systems
-description: Explore AI systems in detail with examples.
+description: Explore the AI systems in detail with examples.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/ai-system.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2025-08-24"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Definitions of AI asset inventory, Explore, AI Control Tower, Enable AI experiences]
 ---
 
 # AI systems
 
-Explore AI systems in detail with examples.
+Explore the AI systems in detail with examples.
 
 -   **AI system**
 

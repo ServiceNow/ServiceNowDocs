@@ -2,6 +2,7 @@
 title: Report on extended tables
 description: Learn how to include fields from tables that extend the Task table in a single report. For example, you could include both incidents and problems in a single report.Watch the video to learn how to use dot-walking, dynamic filters, and database views to access data on extended, or related, tables.Dot-walking provides access to fields on extended, or related, tables, enabling you to report on fields from those tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/t\_AccessFieldExtendedTable.html
 release: zurich
 product: Reporting
 classification: reporting
@@ -30,7 +31,7 @@ Role required: report\_admin.
 
 Watch this six-minute video to learn how to include fields on extended tables in reports by starting with the parent table.
 
-How to include fields on extended tables, those not available through dot-walking
+
 
 The video shows how to create a report with data from multiple tables using the Report Designer. The report contains both incidents and problems, which are child tables of the Task table. Here's how to create the report, Active Incidents and Problems of Priority 1 or 2.
 
@@ -42,7 +43,7 @@ The video shows how to create a report with data from multiple tables using the 
     -   On a new instance or one that has been fully migrated to Platform Analytics, navigate to **All** &gt; **Platform Analytics Administration** &gt; **Usage and governance** &gt; **Reports** and select **New**.
 2.  On the Data tab, name the report `Active Incidents and Problems of Priority 1 or 2`, select the Source type Table, and select the table Task \[task\].
 
-    ![Report on extended tables in Report Designer, Data tab, with report name Active Incidents and Problems of Priority 1 or 2, Source type=Table, and Table=Task](../image/report-ext-tables-data.png)
+    \[Omitted image "report-ext-tables-data.png"\] Alt text: Report on extended tables in Report Designer, Data tab, with report name Active Incidents and Problems of Priority 1 or 2, Source type=Table, and Table=Task
 
 3.  On the **Type** tab, enter **List** in the filter, select the report type, and click **Next**.
 
@@ -50,9 +51,9 @@ The video shows how to create a report with data from multiple tables using the 
 
 4.  On the **Configure** tab, Group by Task type and click **Save**.
 
-    The list report is refreshed with all tasks collapsed into their types.![List report on the task table showing all task types.](../image/ext-table-list-rep-with-all-tasks.png)
+    The list report is refreshed with all tasks collapsed into their types.\[Omitted image "ext-table-list-rep-with-all-tasks.png"\] Alt text: List report on the task table showing all task types.
 
-5.  Click the filter icon \(![Filter icon](../image/icon-filter.png)\) to open the Condition Builder.
+5.  Click the filter icon \(\[Omitted image "icon-filter.png"\] Alt text: Filter icon\) to open the Condition Builder.
 
     Use the Condition Builder to limit what the report displays to only the information you want.
 
@@ -61,39 +62,39 @@ The video shows how to create a report with data from multiple tables using the 
     -   Active is true.
     -   Task type is Incident OR Task type is Problem.
     -   Priority is one of 1 - Critical or 2 - High.
-    ![Condition builder showing the selected conditions Active, Task type, and priority conditions](../image/related-fields-task-conditions.png)
+    \[Omitted image "related-fields-task-conditions.png"\] Alt text: Condition builder showing the selected conditions Active, Task type, and priority conditions
 
     The new report only has the two task types. Because you selected only Active tasks, there are fewer tasks in each category as well.
 
-    ![List report on the Task table showing only active Incidents and Problems.](../image/ext-table-list-rep-with-tasks-filtered.png)
+    \[Omitted image "ext-table-list-rep-with-tasks-filtered.png"\] Alt text: List report on the Task table showing only active Incidents and Problems.
 
 7.  Select the columns to display in the report, including the extended table fields Category \[Incident\] and Related Incidents \[Problem\] and click **Save**.
 
-    ![Available Columns with several columns moved Selected.](../image/related-fields-columnns.png)
+    \[Omitted image "related-fields-columnns.png"\] Alt text: Available Columns with several columns moved Selected.
 
     The Category \[Incident\] and Related Incidents \[Problem\] fields are unique to the extended tables \(Incident and Problem\). They appear at the bottom of the list of columns that are available from the Task table. These two fields are available because you enabled the property **Allow base table lists to include extended table fields, and allow filtering on extended table fields** \(glide.ui.list.allow\_extended\_fields\).
 
     The report shows the open incidents and their categories and the open problems with the number of their related incidents.
 
 
-**Parent Topic:**[Advanced Core UI reporting topics](../concept/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_AdvancedReporting.md)
 
 ## Related tables in reporting
 
 Watch the video to learn how to use dot-walking, dynamic filters, and database views to access data on extended, or related, tables.
 
-Watch this five-minute video to learn how to use dot walking to include data from extended or related tables in reports. The video also discusses using dynamic filters in reports and reporting on database views.How to use dot-walking and database views to include data from extended, or related, tables in reports.
+Watch this five-minute video to learn how to use dot walking to include data from extended or related tables in reports. The video also discusses using dynamic filters in reports and reporting on database views.
 
 ## Reporting on extended table fields using dot-walking
 
 Dot-walking provides access to fields on extended, or related, tables, enabling you to report on fields from those tables.
 
-When creating or editing a report, you can access references on extended tables from the Group by/Stack by, column/row, or Trend by fields on the Configure tab. The Add Sort option also enables you to configure the sort order of applicable reference fields on extended tables. Tables that reference other tables are denoted with an arrow \(![](../image/extendedTableArrow.png)\) icon.
+When creating or editing a report, you can access references on extended tables from the Group by/Stack by, column/row, or Trend by fields on the Configure tab. The Add Sort option also enables you to configure the sort order of applicable reference fields on extended tables. Tables that reference other tables are denoted with an arrow \(\[Omitted image "extendedTableArrow.png"\] Alt text:\) icon.
 
 Dot-walking references a field by building a chain of field names separated by dots \(periods\). For example, **incident.assigned\_to.company** references the company of the user assigned to an incident. The recommended limit for chain length is three levels.
 
 1.  In a report on the incident table, select **Additional Group By** on the Configure tab.
-2.  Select Assigned to \[+\] and then the structure icon \(![](../image/Form_ShowReportStructureIcon.png)\).
+2.  Select Assigned to \[+\] and then the structure icon \(\[Omitted image "Form\_ShowReportStructureIcon.png"\] Alt text:\).
 
     You now see the related fields in the user table.
 
@@ -102,11 +103,11 @@ Dot-walking references a field by building a chain of field names separated by d
 
     Assigned to Company is an option in the report's Group by list. In this example, you see Assigned to Active because the Active field is a configured Stack by option.
 
-    ![Report on extended tables with Assigned to Company option selected in Group by](../image/report-ext-table-result.png)
+    \[Omitted image "report-ext-table-result.png"\] Alt text: Report on extended tables with Assigned to Company option selected in Group by
 
 
 **Related topics**  
 
 
-[Dot-walking examples](https://www.servicenow.com/docs/access?context=dot-walking-examples&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
+[bundle-platux.dot-walking-examples]
 

@@ -2,6 +2,7 @@
 title: Scheduled Script Execution form to generate labor costs for projects and demands
 description: Use the Scheduled Script Execution form to enable Generate Labor Costs scheduler job for projects and demands.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/gen-labor-costs-scheduled-script-form-pp.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -61,7 +62,7 @@ For example, if the business calendar represents a fiscal year, and the starting
 
 **Note:** When you select **Business Calendar: Entry Start** or **Business Calendar: Entry End**, you can apply an offset factor to schedule the job to run before or after the time span of the selected business calendar. To learn more, see the **Offset type** and **Offset** fields.
 
-To learn more about creating and using business calendars and defining business calendar entries, see [Creating business calendars](https://www.servicenow.com/docs/access?context=business-calendars&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) and [Define business calendar entries](https://www.servicenow.com/docs/access?context=define-business-calendar-entries&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+To learn more about creating and using business calendars and defining business calendar entries, see  and .
 
 
 </td></tr><tr><td>
@@ -218,5 +219,5 @@ Starting
 Date and time of the first scheduled job generation. Select the calendar date and time. This field appears only if you select **Periodically** in the **Run** field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Portfolio Planning](form-field-information-for-portfolio-planning.md)
+</table>**Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)
 

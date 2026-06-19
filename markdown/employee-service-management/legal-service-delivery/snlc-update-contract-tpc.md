@@ -2,6 +2,7 @@
 title: Modify a third-party review request
 description: As a requester, modify a legal request to update the request details or replace the attached contract document with an updated version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/snlc-update-contract-tpc.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -25,15 +26,15 @@ Role required: sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user
 
 1.  Open the third-party contract review request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d747554e83">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d710467e83">
 
 Method
 
-</th><th align="left" id="d747554e86">
+</th><th align="left" id="d710467e86">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d747554e92">
+</th></tr></thead><tbody><tr><td id="d710467e92">
 
 **Using Legal Service Portal**
 
@@ -46,7 +47,7 @@ Action
 5.  On the Standard Ticket page, from the Actions menu, select **Edit Request**.
 
 
-</td></tr><tr><td id="d747554e141">
+</td></tr><tr><td id="d710467e141">
 
 **Employee Center**
 
@@ -64,12 +65,12 @@ Action
 
     |Action|Steps|
     |------|-----|
-    |**Modify the request details**|Modify the fields of the third-party review request. For more information, see [Third-party Contract Review form](../reference/snlc-tpc-intake-fields.md).|
-    |**Add and classify documents**|For more information, see [Resubmit third-party contract request](snlc-multiple-doc-tpc.md)|
-    |**Delete documents**|In the Documents section, select the Delete icon \(![Delete icon](../../contract-mgmt-pro/image/lsd-tpc-delete.png)\) next to the document you want to delete.|
+    |**Modify the request details**|Modify the fields of the third-party review request. For more information, see [Third-party Contract Review form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-tpc-intake-fields.md).|
+    |**Add and classify documents**|For more information, see [Resubmit third-party contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-multiple-doc-tpc.md)|
+    |**Delete documents**|In the Documents section, select the Delete icon \(\[Omitted image "lsd-tpc-delete.png"\] Alt text: Delete icon\) next to the document you want to delete.|
 
 3.  Select **Save** to update the record.
 
 
-**Parent Topic:**[Third-party contract review requests](../concept/snlc-request-third-party-contract-1.md)
+**Parent Topic:**[Third-party contract review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

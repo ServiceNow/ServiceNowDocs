@@ -2,6 +2,7 @@
 title: Create model categories
 description: You can create model categories for the Enterprise Asset Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/create-custom-model-category.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -156,5 +157,5 @@ Option to prevent the Enterprise Asset Management application from automatically
 
 The model category is created. You can perform additional configurations on the model category by entering details in the **Product Models** tab.
 
-**Parent Topic:**[Create and manage enterprise models](../concept/create-manage-enterprise-models.md)
+**Parent Topic:**[Create and manage enterprise models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-manage-enterprise-models.md)
 

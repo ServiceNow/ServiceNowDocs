@@ -2,6 +2,7 @@
 title: Configure Smartsheet for external content indexing
 description: Generate an API key in Smartsheet to allow the Smartsheet external content connector to access your Smartsheet source system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-smartsheet-external-content-indexing.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -26,7 +27,7 @@ Role required: none
 
 The Smartsheet external content connector retrieves sheets from workspaces in your Smartsheet source system using the Smartsheet API.
 
-To allow the connector to access your Smartsheet source system via the Smartsheet API, you must generate an API key \(access token\) in Smartsheet. Your connector admin can use this API key to configure the Smartsheet external connector for proper connection to your source system.
+To allow the connector to access your Smartsheet source system via the Smartsheet API, you must generate an API key \(access token\) in Smartsheet. Your connector administrator can use this API key to configure the Smartsheet external connector for proper connection to your source system.
 
 ## Procedure
 
@@ -34,13 +35,13 @@ To allow the connector to access your Smartsheet source system via the Smartshee
 
     The domain URL typically has the format `https://example.smartsheet.com/`.
 
-    **Important:** Your connector admin needs this Smartsheet domain URL when configuring the Smartsheet external content connector.
+    **Important:** Your connector administrator needs this Smartsheet domain URL when configuring the Smartsheet external content connector.
 
 2.  In Smartsheet, generate an API key for the Smartsheet external content connector.
 
     1.  Navigate to [https://app.smartsheet.com/](https://app.smartsheet.com/) and log in with administrator credentials.
 
-    2.  Select the **Account Settings** icon ![](../image/smartsheet-account-settings-icon.png), then select **Personal Settings…** in the context menu.
+    2.  Select the **Account Settings** icon \[Omitted image "smartsheet-account-settings-icon.png"\] Alt text:, then select **Personal Settings…** in the context menu.
 
     3.  In the Personal Settings dialog box, select **API Access**, then select **Generate new access token**.
 
@@ -52,21 +53,21 @@ To allow the connector to access your Smartsheet source system via the Smartshee
 
     5.  Copy the API key value and store it in a secure location.
 
-        **Important:** Your connector admin needs this API key value when configuring the Smartsheet external content connector.
+        **Important:** Your connector administrator needs this API key value when configuring the Smartsheet external content connector.
 
     6.  Close the API key dialog box by selecting **OK**, then close the Personal Settings dialog box by selecting **Close**.
 
 
 ## What to do next
 
-Provide the following items to your connector admin:
+Provide the following items to your connector administrator:
 
--   The URL for your Smartsheet domain that you recorded in step [1](configure-smartsheet-external-content-indexing.md#record-smartsheet-domain-url-step).
--   The API key value that you copied in step [2.e](configure-smartsheet-external-content-indexing.md#copy-api-key-value-step).
+-   The URL for your Smartsheet domain that you recorded in step [1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-smartsheet-external-content-indexing.md).
+-   The API key value that you copied in step [2.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-smartsheet-external-content-indexing.md).
 
-Your connector admin needs these items to configure a Smartsheet external content connector to retrieve sheets and security principals from your Smartsheet source system.
+Your connector administrator needs these items to configure a Smartsheet external content connector to retrieve sheets and security principals from your Smartsheet source system.
 
-For details on creating and configuring a Smartsheet external content connector, see [Create a Smartsheet external content connector](create-ext-cont-connector-smartsheet.md).
+For details on creating and configuring a Smartsheet external content connector, see [Create a Smartsheet external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-smartsheet.md).
 
-**Parent Topic:**[Smartsheet external content connector](../concept/smartsheet-external-content-connector.md)
+**Parent Topic:**[Smartsheet external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/smartsheet-external-content-connector.md)
 

@@ -2,6 +2,7 @@
 title: Set up work configurations
 description: Use the Field Service Management application to handle different types of field service work. A work configuration identifies the configurations and the data required for specific field service work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/work-config-guided-setup.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

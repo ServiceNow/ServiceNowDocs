@@ -2,6 +2,7 @@
 title: Change Management integration with Hardware Asset Management
 description: The Change Management integration with Hardware Asset Management helps in determining the asset action that must be performed on the configuration item \(CI\) that is associated with a hardware asset. Using this capability, change implementers can quickly update asset records directly from change and the Asset Manager can see current state on all assets that were updated by the change request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/change\_mgmt-integ-with-HWAM.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -33,7 +34,7 @@ When a change request is in the **Implement** state, the proposed asset action t
 
 **Note:** If the asset action is not selected, then the change request will not progress to the **Review** state.
 
-For more information, see [Hardware Asset Management](https://www.servicenow.com/docs/access?context=ham-landing-page&version=zurich&pubname=zurich-it-asset-management&ft:locale=en-US)
+For more information, see Hardware Asset Management
 
-**Parent Topic:**[Change management integrations](change-mgmt-integrations.md)
+**Parent Topic:**[Change management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-mgmt-integrations.md)
 

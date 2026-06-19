@@ -2,13 +2,14 @@
 title: Create an application in DevOps Config
 description: Create an app in DevOps Config to manage its configuration data, and link DevOps Config with other ServiceNow products, including DevOps Change Velocity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-family/create-app-devops-config.html
 release: zurich
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure, DevOps Config, IT Service Management]
+breadcrumb: [Configuring DevOps Config, DevOps Config, IT Service Management]
 ---
 
 # Create an application in DevOps Config
@@ -17,7 +18,7 @@ Create an app in DevOps Config to manage its configuration data, and link DevOps
 
 ## Before you begin
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 An admin can create, edit, delete, and view DevOps Config apps.
 
@@ -26,8 +27,6 @@ Role required: sn\_devops\_config.admin
 ## About this task
 
 Watch this short video to see how to create an application in DevOps Config.
-
-Create an application in DevOps Config
 
 An app in DevOps Config is the container for the config data of an application. An app also ties it with the DevOps Change Velocity application, where configuration data can be viewed in the DevOps Pipeline UI.
 
@@ -44,11 +43,11 @@ You can edit or delete apps in DevOps Config. When you delete an app:
 
 1.  Navigate to **All** &gt; **DevOps Config** &gt; **DevOps Config Workspace**.
 
-2.  Click the apps icon \(![DevOps Config apps icon](../image/devops-config-apps-icon.png)\) in the left navigation to open the Apps tab.
+2.  Click the apps icon \(\[Omitted image "devops-config-apps-icon.png"\] Alt text: DevOps Config apps icon\) in the left navigation to open the Apps tab.
 
 3.  On the Applications form, click **New** to create an application and a new model, or to create an application and specify an existing model \(or service\).
 
-    ![DevOps Config create application](../image/devops-config-create-app.png)
+    \[Omitted image "devops-config-create-app.png"\] Alt text: DevOps Config create application
 
     For a **New application** without an existing application model, both application and model are created.
 
@@ -68,7 +67,7 @@ User groups that maintain the application.With the cdm\_admin role, you can add 
 
 If groups you're a member of are removed, you will lose access to the application.
 
-**Note:** A user with cdm\_all\_app\_access and one of the other roles \(cdm\_admin, cdm\_editor, or cdm\_viewer\) can see and manage the application even if they are not in those groups. For more information, see [Roles in CDM](../../configuration-data-management/reference/cdm-roles.md).
+**Note:** A user with cdm\_all\_app\_access and one of the other roles \(cdm\_admin, cdm\_editor, or cdm\_viewer\) can see and manage the application even if they are not in those groups. For more information, see [Roles in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/cdm-roles.md).
 
 </td></tr><tr><td>
 
@@ -102,5 +101,5 @@ Manufacturer of the application.
 
 ## Example
 
-![DevOps Config app overview](../image/devops-config-app-overview.png "DevOps Config App Overview")
+\[Omitted image "devops-config-app-overview.png"\] Alt text: DevOps Config app overview
 

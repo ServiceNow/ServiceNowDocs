@@ -2,6 +2,7 @@
 title: Alarm Management Open API Developer Guide
 description: Use the Alarm Management Open API to create and update data in the Events \[em\_event\] table.The Alarm Management Open API can be extended by editing script includes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/developer-guides/alarm-mgmt\_dev-guide.html
 release: zurich
 product: Developer Guides
 classification: developer-guides
@@ -15,7 +16,7 @@ breadcrumb: [Developer guides, API implementation and reference]
 
 Use the Alarm Management Open API to create and update data in the Events \[em\_event\] table.
 
-This developer guide provides information on how to extend the [Alarm Management Open API](../../../inbound-rest/concept/alarm-open-api.md#) to make various customizations.
+This developer guide provides information on how to extend the [Alarm Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/alarm-open-api.md) to make various customizations.
 
 ## Extending the Alarm Management Open API
 
@@ -97,7 +98,7 @@ AlarmAPIProcessor.prototype = Object.extendsObject(AlarmAPIProcessorOOB, {
 
 ### Additional REST operations
 
-To create additional operations beyond the existing GET, PATCH, and POST operations, [create additional scripted REST resources](../../../custom-web-services/task/t_CreateAScriptedRESTAPIResource.md) for the Alarm Management Open API. The logic of the new scripted REST resources should be consistent with the existing operations. Define functions for the new operations in TMFAlarmAPIUtil.
+To create additional operations beyond the existing GET, PATCH, and POST operations, [create additional scripted REST resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/t_CreateAScriptedRESTAPIResource.md) for the Alarm Management Open API. The logic of the new scripted REST resources should be consistent with the existing operations. Define functions for the new operations in TMFAlarmAPIUtil.
 
 ### Field mapping
 

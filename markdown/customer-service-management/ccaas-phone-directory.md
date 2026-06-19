@@ -2,7 +2,10 @@
 title: Phone directory
 description: Agents can use the phone directory integrated into their ServiceNow instance to make outbound calls to queues, other agents, and external numbers. They can also enter a phone number directly in the global call list window or use the phone directory to make calls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ccaas-phone-directory.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -16,7 +19,7 @@ Agents can use the phone directory integrated into their ServiceNow instance to 
 
 ## Phone directory overview
 
-![Telephone directory available in the call controls screen](../image/ccaas-phone-directory.png "Phone directory")
+\[Omitted image "ccaas-phone-directory.png"\] Alt text: Telephone directory available in the call controls screen
 
 **Note:** The contact center admin must enable and configure the phone directory for the agents to view and use it in their global call list from their ServiceNow instance. Once the back end integration is done, the phone directory displays in CSM Configurable Workspace.
 
@@ -29,5 +32,5 @@ The phone directory helps agents make outbound calls to contacts within their or
 
 When a call is made, a connecting screen displays with the call context details. If the context fails to display within a few seconds, the screen defaults back to the previous view with the phone directory tabs and dial pad.
 
-For more information on ICC call features, see [Interaction Controls Component \(ICC\) call features](interaction-controls-component-icc-call-interaction-features.md) and [Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integration](../task/enable-icc-for-ccaas.md).
+For more information on ICC call features, see [Interaction Controls Component \(ICC\) call features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/interaction-controls-component-icc-call-interaction-features.md) and [Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/enable-icc-for-ccaas.md).
 

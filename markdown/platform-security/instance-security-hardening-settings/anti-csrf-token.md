@@ -2,6 +2,7 @@
 title: Anti-CSRF token \(instance security hardening\)
 description: Use the glide.security.use\_csrf\_token property to ensure the use of a secure token to identify and validates incoming requests, which in turn are used to prevent these attacks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/anti-csrf-token.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -37,7 +38,7 @@ The following properties can be enabled for added controls over CSRF token:
 |Functional impact|\(Low\) This remediation enables an extra validation step before the instance user submits a write request to the instance. Every write request contains a CSRF token \(i.e a validation/CSRF ID tied to the user session\). When the user session expires, the secure token expires with it.|
 |Security risk|\(High\) Cross Site Request Forgery is a significant security risk that violates the integrity of the instance data. An attacker can launch the CSRF attack by abusing the trust of an instance user. With the help of social engineering attacks, a user can submit a malformed request on behalf of the attacker on the instance.|
 
-To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Authentication](../../security-center/reference/sc-authentication.md)
+**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

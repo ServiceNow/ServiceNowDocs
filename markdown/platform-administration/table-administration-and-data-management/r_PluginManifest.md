@@ -2,6 +2,7 @@
 title: Plugin manifest
 description: When the plugin is activated, the Task Relationships application is available with certain modules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/r\_PluginManifest.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -34,5 +35,5 @@ The following Relation Types are available by default:
 -   Requesting::Requested by
 -   Solved by::Solves
 
-**Parent Topic:**[Creating many-to-many task relations](../concept/c_ManyToManyTaskRelations.md)
+**Parent Topic:**[Creating many-to-many task relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_ManyToManyTaskRelations.md)
 

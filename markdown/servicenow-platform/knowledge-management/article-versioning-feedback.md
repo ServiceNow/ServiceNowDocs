@@ -2,6 +2,7 @@
 title: Feedback on article versions
 description: With the article versioning feature, users can view and contribute to feedback on the current versions of knowledge articles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/article-versioning-feedback.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -15,7 +16,7 @@ breadcrumb: [Knowledge Management reference, Knowledge Management, Manage conten
 
 With the article versioning feature, users can view and contribute to feedback on the current versions of knowledge articles.
 
-For more information about feedback options, see [Knowledge feedback](../reference/r_KnowledgeFeedback.md).
+For more information about feedback options, see [Knowledge feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/r_KnowledgeFeedback.md).
 
 |Feedback option|How this option works with article versioning|
 |---------------|---------------------------------------------|
@@ -26,5 +27,5 @@ For more information about feedback options, see [Knowledge feedback](../referen
 |View count|The view count is carried over to the checked out article. Any view of a version of an article increments the view count of all the subsequent published versions. Views to a newer version of an article do not affect the view count of previous versions. When a draft article is published, the total view count shows sum of previous published article view count and its own standalone view count.|
 |Use count|The use count is carried over to the checked out article. Any use of a version of an article increments the use count of all subsequent versions. Any use of a newer version of an article does not affect the use count of previous versions.|
 
-**Parent Topic:**[Knowledge Management reference](../reference/knowledge-management-reference.md)
+**Parent Topic:**[Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/knowledge-management-reference.md)
 

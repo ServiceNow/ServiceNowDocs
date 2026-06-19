@@ -2,6 +2,7 @@
 title: Learning overview
 description: Identify, manage, and complete all your learning goals from the Learning tab in Talent Development.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/egd-learning-ovrvw.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -37,5 +38,5 @@ Learnings are tailored to your course and training aspirations. Learning lets yo
 |Track your learning|Shows your assigned, saved, shared with, history, challenges, and completed courses.|
 |Achievements|Shows your Learning achievements. When you learn something new and complete a course, you can earn achievements and see them on the Learning tab.|
 
-**Parent Topic:**[Exploring Talent Development Core](egd-explore.md)
+**Parent Topic:**[Exploring Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-explore.md)
 

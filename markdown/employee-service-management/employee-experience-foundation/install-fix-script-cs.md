@@ -2,6 +2,7 @@
 title: Install fix-script for Collaboration services for Zoom
 description: Install the fix\_script\_start\_chat\_field\_decorator\_IT in the ServiceNow instance to display Start Zoom Chat field decorator/icon in the ticket to initiate a chat with the requester.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/install-fix-script-cs.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -51,8 +52,8 @@ Visit the app store [Collaboration Services](https://store.servicenow.com/sn_app
 
 10. Select **Run Fix Script**.
 
-    The ![Start Zoom chat](../images/icon-start-zoom-chat.png) icon is displayed as a field decorator in a record.
+    The \[Omitted image "icon-start-zoom-chat.png"\] Alt text: Start Zoom chat icon is displayed as a field decorator in a record.
 
 
-**Parent Topic:**[Configuring Collaboration services for Zoom](../concept/configure-sn-zoom.md)
+**Parent Topic:**[Configuring Collaboration services for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/configure-sn-zoom.md)
 

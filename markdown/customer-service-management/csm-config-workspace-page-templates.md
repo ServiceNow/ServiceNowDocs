@@ -2,7 +2,10 @@
 title: CSM Configurable Workspace page templates
 description: A page template is a blueprint of a record page that you can use to create a new page or page variant in UI Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-config-workspace-page-templates.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -71,9 +74,9 @@ CSM centered chat interaction record template
 The CSM centered chat interaction record template brings the chat component to the center of the workspace and give agents greater visibility and access to customer chat conversations. This page view enables agents to manage chats and displays information, such as customer history and interaction details, that help agents to resolve issues.
 
 </td></tr></tbody>
-</table>For more information, see [Create a page from a template](https://www.servicenow.com/docs/access?context=reuse-page-definitions&version=zurich&pubname=zurich-application-development&ft:locale=en-US) in the UI Builder documentation.
+</table>For more information, see Create a page from a template in the UI Builder documentation.
 
 ## Record presence feature
 
-Pages that you create from the CSM record page template and the CSM Interaction record page templates have the record presence feature available. This feature lets you see the users who are currently viewing a record. For more information, see [User presence component](csm-default-record-page.md#section_j3d_fyf_2xb).
+Pages that you create from the CSM record page template and the CSM Interaction record page templates have the record presence feature available. This feature lets you see the users who are currently viewing a record. For more information, see [User presence component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-default-record-page.md).
 

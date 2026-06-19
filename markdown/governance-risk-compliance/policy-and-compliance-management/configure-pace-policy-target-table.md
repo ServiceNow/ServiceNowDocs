@@ -2,6 +2,7 @@
 title: Configure compliance data source registry
 description: Set up the Compliance Data Source Registry \(CDSR\) that provides the ability to associate policies in other ServiceNow products with control objectives in Policy and Compliance to inform an organization’s overall compliance stand, and to perform policy exceptions when required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/configure-pace-policy-target-table.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

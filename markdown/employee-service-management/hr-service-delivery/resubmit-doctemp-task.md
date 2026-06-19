@@ -2,6 +2,7 @@
 title: Resubmit a PDF document
 description: Complete your document task by incorporating the reviewer's suggestions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/resubmit-doctemp-task.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -41,10 +42,10 @@ Role required: none
 
 9.  Click **Resubmit**.
 
-    ![Generate an NDA](resubmit-doctemp-task1.png) ![Resubmitting document](resubmit-doctemp-task2.png)
+    \[Omitted image "resubmit-doctemp-task1.png"\] Alt text: Generate an NDA \[Omitted image "resubmit-doctemp-task2.png"\] Alt text: Resubmitting document
 
     The task is complete and appears in the Completed To Dos section. You can view and print the document with the submitted details.
 
 
-**Parent Topic:**[Working on a document task](work-doctemp-tasks.md)
+**Parent Topic:**[Working on a document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/work-doctemp-tasks.md)
 

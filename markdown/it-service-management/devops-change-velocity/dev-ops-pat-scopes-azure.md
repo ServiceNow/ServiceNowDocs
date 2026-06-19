@@ -2,11 +2,12 @@
 title: Azure DevOps PAT scopes for DevOps
 description: Scope access levels are required when using a personal access token \(PAT\) to access Azure DevOps during setup.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/dev-ops-pat-scopes-azure.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Azure DevOps, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -161,5 +162,5 @@ Required to discover the artifact repositories and receive the feeds and package
 
 If you create an Azure tool with custom defined access level, and you reconfigure such a tool because of change in your Integration user credentials, then the existing service hooks for release created and release deployment are not updated. Instead, two new service hooks are created with new configuration details. To avoid the duplication of these service hooks, you must create the tool with full access level.
 
-**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](../concept/azure-devops-integration-dev-ops.md)
+**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
 

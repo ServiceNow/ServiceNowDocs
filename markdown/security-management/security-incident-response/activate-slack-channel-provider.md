@@ -2,6 +2,7 @@
 title: Activate Slack as a channel provider
 description: Activate Slack by validating the Slack connection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/activate-slack-channel-provider.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -30,7 +31,7 @@ Once the connection is activated and validated, an information message is displa
 
 2.  Select **Slack** to open the Slack chat provider configuration.
 
-    ![Slack Chat Provider Configuration](../image/msim-provider-config-slack.png "Slack Chat Provider Configuration")
+    \[Omitted image "msim-provider-config-slack.png"\] Alt text: Slack Chat Provider Configuration
 
 3.  Select **Download Slack manifest** to download the `slack_manifest.json` file.
 
@@ -121,5 +122,5 @@ Once the connection is activated and validated, an information message is displa
     4.  Select **Save**.
 
 
-**Parent Topic:**[Configure Slack chat connector for major security incidents](../concept/configure-slack-chat-connector-msi.md)
+**Parent Topic:**[Configure Slack chat connector for major security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/configure-slack-chat-connector-msi.md)
 

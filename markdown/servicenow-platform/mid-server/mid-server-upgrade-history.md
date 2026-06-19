@@ -2,6 +2,7 @@
 title: MID Server Upgrade History
 description: Use this module to troubleshoot errors that occur during the MID Server upgrade process. The MID Server Upgrade Histories table contains a record of each instance upgrade. The MID Server Upgrade Stages table shows the status of each MID Server and its upgrade progress, including any errors encountered.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/mid-server/mid-server-upgrade-history.html
 release: zurich
 product: MID Server
 classification: mid-server
@@ -61,5 +62,5 @@ Message
 Displays dynamically generated messages about the upgrade stages, such as the file path to download directories or extract folders. It also displays information about any errors encountered, even if those errors do not block the upgrade.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Resolving MID Server issues](../reference/r_MIDServerTroubleshooting.md)
+</table>**Parent Topic:**[Resolving MID Server issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/r_MIDServerTroubleshooting.md)
 

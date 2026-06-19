@@ -2,7 +2,10 @@
 title: Install the Recommended Actions application
 description: You can install the Recommended Actions application \(sn\_cs\_nb\_action\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence. JW - No demo data per dev team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/install-recommended-actions-cs-app.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -28,7 +31,7 @@ The following items are installed with Recommended Actions:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Recommended Actions](../reference/ra-csm-installed-components.md).
+For more information, see [Components installed with Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ra-csm-installed-components.md).
 
 ## Procedure
 

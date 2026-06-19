@@ -2,6 +2,7 @@
 title: Multi-response output controls
 description: Implement controls that involve multiple steps to get user input.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/ccci-multi-flow-output-controls.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -140,5 +141,5 @@ Example Picker Control Inbound Tranformer
 })(inputs, outputs);
 ```
 
-**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](../concept/va-features-custom-chat-integrations.md)
+**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-features-custom-chat-integrations.md)
 

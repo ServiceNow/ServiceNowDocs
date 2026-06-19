@@ -1,19 +1,20 @@
 ---
 title: Add Document Intelligence
-description: Add document intelligence as a tool in Now Assist Skill Kit. Document intelligence enables you to
+description: Add Document Intelligence as a tool in Now Assist Skill Kit to extract structured data from documents as part of your skill's execution flow
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-skill-kit/add-document-intelligence.html
 release: zurich
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2025-08-18"
+last_updated: "2026-05-19"
 reading_time_minutes: 1
 breadcrumb: [Add a tool, Create a prompt, Using Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
 ---
 
 # Add Document Intelligence
 
-Add document intelligence as a tool in Now Assist Skill Kit. Document intelligence enables you to
+Add Document Intelligence as a tool in Now Assist Skill Kit to extract structured data from documents as part of your skill's execution flow
 
 ## Before you begin
 
@@ -25,7 +26,7 @@ Role required: sn\_skill\_builder.admin
 
 2.  Create a skill or select the skill that you want to add document intelligence to.
 
-3.  Select the **Tool editor** tab.
+3.  Select the **2. Add tools** tab.
 
 4.  Select \(+\) icon to add a node.
 
@@ -35,7 +36,7 @@ Role required: sn\_skill\_builder.admin
 
 7.  On the form, fill in the fields.
 
-    ![Add document intelligence form](../image/nask-add-doc-intel.png)
+    \[Omitted image "nask-add-doc-intel.png"\] Alt text: Add document intelligence form
 
 <table id="table_f13_fbt_jgc"><thead><tr><th>
 
@@ -81,5 +82,5 @@ Generate a summary of the file contents.
 11. Select **Add tool**.
 
 
-**Parent Topic:**[Add a tool](add-a-tool.md)
+**Parent Topic:**[Add a tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/add-a-tool.md)
 

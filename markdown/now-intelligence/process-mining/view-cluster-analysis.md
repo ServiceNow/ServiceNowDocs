@@ -2,6 +2,7 @@
 title: View a cluster analysis
 description: View a cluster analysis of the top three clusters for an activity, connection between activities, or route.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/view-cluster-analysis.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -25,7 +26,7 @@ View a completed cluster analysis one of these ways.
 
 In the Cluster analysis results dialog, the top biggest clusters and the high quality clusters are displayed.
 
-![Cluster analysis results dialog](../image/cluster-analysis-results.png)
+\[Omitted image "cluster-analysis-results.png"\] Alt text: Cluster analysis results dialog
 
 The results dialog shows the title of the connection or activity, or the number of routes the analysis was performed on. Results show these statistics for the top biggest and high-quality clusters.
 
@@ -68,9 +69,9 @@ To see further details about clusters, including clusters beyond the top three l
 
 You can use a treemap visualization to help you better understand different aspects of the clusters, and determine which clusters to focus on first. The treemap plot appears on the Cluster Visualization tab.
 
-![Clustering treemap](../image/clustering-treemap-new.png)
+\[Omitted image "clustering-treemap-new.png"\] Alt text: Clustering treemap
 
-For additional information on using a treemap, see [Create and train a clustering solution](https://www.servicenow.com/docs/access?context=create-clustering-solution&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+For additional information on using a treemap, see Create and train a clustering solution.
 
-**Parent Topic:**[Cluster analysis](../concept/cluster-analysis.md)
+**Parent Topic:**[Cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/cluster-analysis.md)
 

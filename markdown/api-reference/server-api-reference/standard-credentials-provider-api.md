@@ -2,6 +2,7 @@
 title: StandardCredentialsProvider - Scoped, Global
 description: The StandardCredentialsProvider API provides methods to retrieve credential information.Instantiates a credentials provider object.Returns an array of all credentials that match the specified types and tags.Returns the credential record object through its credential alias \(sys\_alias\).Returns the credential record object identified by the specified sys\_id.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/standard-credentials-provider-api.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -40,7 +41,7 @@ for (var i = 0; i < credentials.length; i++) {
 }
 ```
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## StandardCredentialsProvider - StandardCredentialsProvider\(\)
 
@@ -125,7 +126,7 @@ JSONArray jsonArray = provider.getCredentials(types, "admin");
 
 Returns the credential record object through its credential alias \(sys\_alias\).
 
-This method is specifically for use with credential types. For information, see [Credential aliases for Discovery](https://www.servicenow.com/docs/access?context=discovery-credential-alias&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+This method is specifically for use with credential types. For information, see .
 
 |Name|Type|Description|
 |----|----|-----------|

@@ -2,6 +2,7 @@
 title: Email notification layout for HR Service Delivery notifications
 description: Use the email notification layout and template shipped with the Employee Experience Foundation \(com.snc.sn\_ex\_emp\_fd\) plugin to deliver HR notifications. Apply the layout to email notifications to elevate the look and feel, and deliver branded notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/email-notification-hr.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -72,5 +73,5 @@ Opened for, Watch list
 
 If you are an existing user of HR Service Delivery on a release prior to San Diego, upgrade to Employee Center or Employee Center Pro or install the Employee Experience Foundation plugin from ServiceNow Store to start using these email notifications.
 
-**Parent Topic:**[HR notifications](HRNotifications.md)
+**Parent Topic:**[HR notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/HRNotifications.md)
 

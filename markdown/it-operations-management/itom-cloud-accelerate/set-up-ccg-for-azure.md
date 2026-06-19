@@ -2,6 +2,7 @@
 title: Set up Cloud Configuration Governance for Microsoft Azure
 description: Set up access to the Microsoft Azure cloud accounts in Cloud Configuration Governance to enable interaction between the application and the cloud. The application requires access to the cloud accounts of your organization to scan the cloud resources for non-compliant configurations and remediate them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-cloud-accelerate/set-up-ccg-for-azure.html
 release: zurich
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -19,9 +20,9 @@ Set up access to the Microsoft Azure cloud accounts in Cloud Configuration Gover
 
 Make sure the follow tasks are complete:
 
-1.  You have migrated from CAPI to patterns. For more details, see [Migrate from CAPI to Patterns](../../discovery/task/migrate-from-capi-to-pattern.md).
-2.  The Microsoft Azure credentials to access the Microsoft Azure account have been created. For more information, see [Create Azure cloud credentials](../../discovery/task/create-azure-cloud-credentials.md).
-3.  Your Azure service accounts have been configured. For more information, see [Set up Azure service accounts](../../it-operations-management/task/setup-azure-service-accounts.md).
+1.  You have migrated from CAPI to patterns. For more details, see [Migrate from CAPI to Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/migrate-from-capi-to-pattern.md).
+2.  The Microsoft Azure credentials to access the Microsoft Azure account have been created. For more information, see [Create Azure cloud credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/create-azure-cloud-credentials.md).
+3.  Your Azure service accounts have been configured. For more information, see [Set up Azure service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/setup-azure-service-accounts.md).
 
 Role required: sn\_itom\_ccg.scheduling\_admin
 
@@ -80,8 +81,8 @@ Tenant ID of the Microsoft Azure account.Replace `{tenant}` with the Microsoft A
 
 2.  Run datacenter discovery to identify the datacenters attached with the service accounts.
 
-    For more information, see [Run datacenter discovery](../../cloud-management-v2-setup/task/disco-datacntrs-in-srv-acct.md).
+    For more information, see [Run datacenter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/disco-datacntrs-in-srv-acct.md).
 
 
-**Parent Topic:**[Exploring Cloud Configuration Governance](../concept/exploring-cloud-configuration-governance.md)
+**Parent Topic:**[Exploring Cloud Configuration Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/exploring-cloud-configuration-governance.md)
 

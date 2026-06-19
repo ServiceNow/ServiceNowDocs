@@ -2,6 +2,7 @@
 title: Assign a default template
 description: Assign a template as default to an AI system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/assign-default-template.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
@@ -69,5 +70,5 @@ Category of the AI system to which you want to assign the default template.**Not
     If this assignment matches with any previous mapping, it updates the existing configuration of mapped template.
 
 
-**Parent Topic:**[Using value templates](../concept/using-value-templates.md)
+**Parent Topic:**[Using value templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/using-value-templates.md)
 

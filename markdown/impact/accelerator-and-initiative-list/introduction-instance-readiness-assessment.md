@@ -2,6 +2,7 @@
 title: Introduction to Instance Readiness Assessment
 description: The Introduction to Instance Readiness Assessment Accelerator provides guidance on understanding and interpreting instance readiness using the Instance Readiness Assessment \(IRA\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/introduction-instance-readiness-assessment.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

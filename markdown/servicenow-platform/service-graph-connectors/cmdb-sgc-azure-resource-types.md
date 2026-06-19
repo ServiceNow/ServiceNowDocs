@@ -2,6 +2,7 @@
 title: Supported Microsoft Azure resource types
 description: Several Microsoft Azure resource types are imported as CMDB data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/cmdb-sgc-azure-resource-types.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -1214,5 +1215,5 @@ microsoft.containerservice/managedclusters
 ✓
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Graph Connector for Microsoft Azure reference](../concept/sgc-azure-reference.md)
+</table>**Parent Topic:**[Service Graph Connector for Microsoft Azure reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-azure-reference.md)
 

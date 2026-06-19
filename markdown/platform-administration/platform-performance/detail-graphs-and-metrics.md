@@ -2,6 +2,7 @@
 title: Application Insights detail graphs and metrics
 description: The Application Insights detail graphs provide views of individual metrics at the node level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-performance/detail-graphs-and-metrics.html
 release: zurich
 product: Platform Performance
 classification: platform-performance
@@ -15,7 +16,7 @@ breadcrumb: [Working with Application Insights graphs, Application Insights, Mon
 
 The Application Insights detail graphs provide views of individual metrics at the node level.
 
-Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the [Overview of Instance Observer](https://www.servicenow.com/docs/access?context=io-overview&version=zurich&pubname=zurich-impact&ft:locale=en-US) product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
+Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the  product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -49,5 +50,5 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
 |Average Database Response Time|**sql\_response** key in the Stats column in the Node stats \[sys\_cluster\_node\_stats\] table|Average response time \(in milliseconds\) for database operations|
 |Database Throughput|**database\_throughput** key in the Stats column in the Node stats \[sys\_cluster\_node\_stats\] table|Number of transactions processed per second.|
 
-**Parent Topic:**[Working with Application Insights graphs](working-with-application-insights-graphs.md)
+**Parent Topic:**[Working with Application Insights graphs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/working-with-application-insights-graphs.md)
 

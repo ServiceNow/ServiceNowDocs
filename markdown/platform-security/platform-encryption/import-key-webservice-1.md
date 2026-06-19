@@ -2,6 +2,7 @@
 title: Import a key from a web service
 description: Securely upload an external customer key onto your instance using import a key from a web service \(for example the key REST API\). Both symmetric and asymmetric public keys can be imported into a targeted KMF cryptographic module.Configure Key Management Framework import settings before importing a key.Upload your wrapped key into a cryptographic module using the import key from web service functionality. The example uses a symmetric key. Similar steps can be used to import an asymmetric key.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/platform-encryption/import-key-webservice-1.html
 release: zurich
 product: Platform Encryption
 classification: platform-encryption
@@ -21,7 +22,7 @@ These two separate procedures \(importing the wrapping key pair and importing th
 
 **Note:** This example uses OpenSSL for key and certificate generation and the Postman API test tool to show REST API use. Substitute other comparable tools based on your company requirements.
 
-**Parent Topic:**[Key Management Framework](../../encryption/concept/encryption.md)
+**Parent Topic:**[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/encryption.md)
 
 ## Import the wrapping / unwrapping key pair
 
@@ -49,11 +50,11 @@ This example uses OpenSSL for key and certificate generation. Substitute other c
 
 3.  On your instance, navigate to **All** &gt; **Key Management** &gt; **Import Settings** &gt; **Key Import Settings**.
 
-4.  In the Algorithm Definition section, verify the **Crypto Purpose** is set to `Asymmetric Key Unwrapping`.![Crypto purpose selection.](../image/import-web-cryptopurpose.png)
+4.  In the Algorithm Definition section, verify the **Crypto Purpose** is set to `Asymmetric Key Unwrapping`.\[Omitted image "import-web-cryptopurpose.png"\] Alt text: Crypto purpose selection.
 
 5.  Select an appropriate algorithm that aligns with asymmetric key material for the imported keystore.
 
-    See [Cryptographic specification overview](cryptographic-purpose.md) for additional information.
+    See [Cryptographic specification overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/cryptographic-purpose.md) for additional information.
 
 6.  Select **Next**.
 
@@ -101,21 +102,21 @@ This example uses OpenSSL to generate keys and certificates. You may substitute 
 3.  Add a cryptographic specification with the following selections.
 
     -   **Crypto Purpose**: `Symmetric Data Encryption/Decryption`.
-    -   **Key Origin**: `Import from web service` ![Key origin selected as import from web service.](../image/selectweborigin.png)
+    -   **Key Origin**: `Import from web service` \[Omitted image "selectweborigin.png"\] Alt text: Key origin selected as import from web service.
 
         See or for more information.
 
 4.  Execute an `HTTP POST request` to the import from a web service REST endpoint.
 
-<table id="choicetable_wgh_zgb_fqb"><thead><tr><th align="left" id="d90115e407">
+<table id="choicetable_wgh_zgb_fqb"><thead><tr><th align="left" id="d62805e407">
 
 Option
 
-</th><th align="left" id="d90115e410">
+</th><th align="left" id="d62805e410">
 
 Value/Format
 
-</th></tr></thead><tbody><tr><td id="d90115e416">
+</th></tr></thead><tbody><tr><td id="d62805e416">
 
 **URL of the endpoint**
 
@@ -123,7 +124,7 @@ Value/Format
 
 `https://<instance>/api/sn_kmf/key/import?cryptoSpecSysID=<sys_id_of_crypto_spec>`.
 
-</td></tr><tr><td id="d90115e428">
+</td></tr><tr><td id="d62805e428">
 
 **CryptoSpecSysID parameter**
 
@@ -133,7 +134,7 @@ The sys\_id of the newly created crypto specification.
 
 **Tip:** Right-click the header of the crypto specification to copy the sys\_id.
 
-</td></tr><tr><td id="d90115e448">
+</td></tr><tr><td id="d62805e448">
 
 **Header-Content-Type**
 
@@ -141,7 +142,7 @@ The sys\_id of the newly created crypto specification.
 
 Application/octet-stream.
 
-</td></tr><tr><td id="d90115e457">
+</td></tr><tr><td id="d62805e457">
 
 **Body**
 
@@ -149,7 +150,7 @@ Application/octet-stream.
 
 Must contain a file attachment-binary and the public key to import \(wrapped\_symmetric\_key.txt\).
 
-</td></tr><tr><td id="d90115e467">
+</td></tr><tr><td id="d62805e467">
 
 **Import from web service REST endpoint**
 
@@ -160,6 +161,6 @@ Uses basic authentication of `<username/password>`.**Note:** Ensure that the des
 </td></tr></tbody>
 </table>    Successful import of the public key results in an HTTP response message with `Status 200`.
 
-5.  Verify that the key successfully imported to the targeted cryptographic module.![Crypto specification module keys tab with successful key import.](../image/keyimportedfromwebservices.png)
+5.  Verify that the key successfully imported to the targeted cryptographic module.\[Omitted image "keyimportedfromwebservices.png"\] Alt text: Crypto specification module keys tab with successful key import.
 
 

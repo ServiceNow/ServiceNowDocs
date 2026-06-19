@@ -2,13 +2,14 @@
 title: Fix the data that caused a validation failure
 description: When a policy that executes against a deployable snapshot fails or generates an error or warning, the policy identifies the offending CDI and the reason for the failure. While working in a changeset, you can use the Validation failures panel to navigate directly to the offending CDI so you can correct the issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-family/cdm-validation-failure-fix.html
 release: zurich
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Configure, DevOps Config, IT Service Management]
+breadcrumb: [Configuring DevOps Config, DevOps Config, IT Service Management]
 ---
 
 # Fix the data that caused a validation failure
@@ -29,11 +30,11 @@ The Validation failures panel appears on the application tab whenever validation
 
 ## Procedure
 
-1.  While working in a changeset, select the validation failures icon \(![validation failures icon](../image/icon-validation-result-wrench.png)\) to view the list of snapshots from the application that failed validation.
+1.  While working in a changeset, select the validation failures icon \(\[Omitted image "icon-validation-result-wrench.png"\] Alt text: validation failures icon\) to view the list of snapshots from the application that failed validation.
 
     In this example, the snapshots for all three deployables in the application failed validation in some way \(error, warning, or execution failure\).
 
-    ![Select a card in the validation failures panel to go to the problematic CDI](../image/cdm-val-results-select-snapshot.png)
+    \[Omitted image "cdm-val-results-select-snapshot.png"\] Alt text: Select a card in the validation failures panel to go to the problematic CDI
 
 2.  Navigate to the failure.
 
@@ -43,13 +44,13 @@ The Validation failures panel appears on the application tab whenever validation
 
     2.  Select a card to open the editor directly to the problematic CDI.
 
-    ![Select a card in the validation results panel to go to the problematic CDI](../image/cdm-val-results-select-card.png)
+    \[Omitted image "cdm-val-results-select-card.png"\] Alt text: Select a card in the validation results panel to go to the problematic CDI
 
 3.  Review the data and perform the necessary updates.
 
 4.  When you finish working on the data, update the status of the error.
 
-    Open the more actions more actions icon \(![More actions icon.](../../site-reliability-ops/image/icon-actions-menu.png)\) to update the status of the error.
+    Open the more actions more actions icon \(\[Omitted image "icon-actions-menu.png"\] Alt text: More actions icon.\) to update the status of the error.
 
     -   **Unresolved**: This status is the initial status for a validation error. Leave this status if you are unable to repair the data. You might work on the issue with another user.
     -   **Resolved**: You have fixed the error. Be sure to commit the changeset and validate the data to ensure that the data is correct.

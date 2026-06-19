@@ -2,6 +2,7 @@
 title: Enable Nutanix v4 discovery
 description: Enable Nutanix v4 discovery by setting the MID Server property value to the exact v4 version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/enable-nutanix-v4-discovery.html
 release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -36,5 +37,5 @@ Role required: discovery\_admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Nutanix Acropolis discovery](../reference/nutanix-pattern.md)
+**Parent Topic:**[Nutanix Acropolis discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/nutanix-pattern.md)
 

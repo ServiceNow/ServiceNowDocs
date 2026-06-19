@@ -2,7 +2,10 @@
 title: Plugin requirements for voice and callback integrations with contact centers
 description: For the Interaction Controls Component \(ICC\) call features to work, you must have a combination of plugins that can be downloaded from the ServiceNow Store and CCaaS providers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/plugin-requirements-for-external-call-routing-integration-for-contact-centers.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -38,7 +41,7 @@ The following plugins are required to deploy the call control integration with t
     -   [OpenFrame](https://store.servicenow.com/sn_appstore_store.do#!/store/application/3d7925f9eb5002003e97afcef106fee6/26.10.2?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%25253Bgenerative_ai%25253Bsnow_solution%26q%3Dopenframe&sl=sh) \(sn\_openframe\)
 -   Advanced Work Assignment
 
-    The [External Routing Support](https://www.servicenow.com/docs/access?context=enable-awa-external-routing&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US) plugin is required for callback integration with contact centers.
+    The External Routing Support plugin is required for callback integration with contact centers.
 
 -   Customer Service Management \(CSM\)
 -   Agent Workspace, as well as any workspace that works with Agent Chat, Email Interaction, or Messages.
@@ -49,5 +52,5 @@ The following plugins are required to deploy the call control integration with t
     **Note:** Address the Contact Center Integration Core plugin dependencies prior to downloading the plugin.
 
 
-In addition to the preceding requirements, [Install Omnichannel Callback for Customer Service Management](install-csm-omni-callback-app.md) for callback integration with contact centers.
+In addition to the preceding requirements, [Install Omnichannel Callback for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/install-csm-omni-callback-app.md) for callback integration with contact centers.
 

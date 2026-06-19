@@ -2,6 +2,7 @@
 title: View and approve records in Service Operations Workspace
 description: Access the My Approvals in SOW to manage the approval requests for change, request, catalog task, and requested item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/view-approvals-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -32,5 +33,5 @@ Role required: itil, sn\_change\_read, sn\_request\_read
 5.  Select **Reject** to reject the request.
 
 
-**Parent Topic:**[Request Management in Service Operations Workspace](../concept/request-sow.md)
+**Parent Topic:**[Request Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/request-sow.md)
 

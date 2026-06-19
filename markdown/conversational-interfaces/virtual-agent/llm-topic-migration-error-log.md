@@ -2,6 +2,7 @@
 title: NLU to LLM migration log
 description: The Topic Migration Execution Items \[topic\_migration\_execution\_item.list\] table includes data when migrating Natural Language Understanding \(NLU\) topics to large language model \(LLM\) topics such as the migration status, migration issues, and migrated or published topic information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/llm-topic-migration-error-log.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ The Topic Migration Execution Items \[topic\_migration\_execution\_item.list\] t
 
 You can access this topic migration data either by searching for `topic_migration_execution_item.list` in the Navigation pane or downloading the .CSV file version of the table. After you've migrated topics, the downloadable .CSV file is accessible through the **Review migration log** option in the topic migration workflow's Migrate topics step.
 
-![Review migration log is an option available after topic migration is complete that appears in relation to the Migration progression status bar.](../images/llm-topic-migration-review-migration-log.png "Example of the Review migration log option")
+\[Omitted image "llm-topic-migration-review-migration-log.png"\] Alt text: Review migration log is an option available after topic migration is complete that appears in relation to the Migration progression status bar.
 
 The Topic Migration Execution Items \[topic\_migration\_execution\_item.list\] table defaults to include the following columns:
 
@@ -33,7 +34,7 @@ The Topic Migration Execution Items \[topic\_migration\_execution\_item.list\] t
 -   Status
 -   Type
 
-![Topic migration execution items log example with the following default columns: Description, Issues, LLM Topic, Migration Execution, Migration status, NLU Topic, Status, and Type.](../images/topic-migration-execution-item-log.png "Example of the Topic Migration Execution Items table data")
+\[Omitted image "topic-migration-execution-item-log.png"\] Alt text: Topic migration execution items log example with the following default columns: Description, Issues, LLM Topic, Migration Execution, Migration status, NLU Topic, Status, and Type.
 
 Generic issues may occur during the topic migration process. The following table includes specific, common issues that you may encounter in the Issues column and whether the issue blocks the topic from being published.
 
@@ -194,5 +195,5 @@ Process failure issues: These issues occur whenever there's an error during a pa
 No. The issue must be corrected before the topic can be published. Edit the description field on the Publish step or from the topic properties page in Virtual Agent Designer before publishing.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Migrating NLU/keyword Virtual Agent topics to LLM topics](../concept/llm-topic-migration.md)
+</table>**Parent Topic:**[Migrating NLU/keyword Virtual Agent topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/llm-topic-migration.md)
 

@@ -2,6 +2,7 @@
 title: Create table cleanup jobs for Service Graph Connector for Infoblox
 description: Create table cleanup jobs to automate the cleanup of retired CIs from Service Graph Connector for Infoblox version 1.4.0 and earlier based on your organization's data retention requirements and integration dependencies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/sgc-infoblox-create-table-cleanup-jobs.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -31,7 +32,7 @@ Role required: admin
 
 1.  Set the application scope to **CMDB CI Class Models** by using the application picker.
 
-    The IPAM tables \(Managed Network, IP Pool, Subnet, and Allocated IP Address\) belong to the CMDB CI Class Models scope. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+    The IPAM tables \(Managed Network, IP Pool, Subnet, and Allocated IP Address\) belong to the CMDB CI Class Models scope. For more information, see Application picker.
 
 2.  Navigate to **All** &gt; **System Maintenance** &gt; **Table Cleanup**.
 
@@ -86,7 +87,7 @@ Set the value to either `0` or `86400` \(24 hours\).-   `0`: All records updated
 
     The job runs automatically in the next available maintenance window.
 
-7.  Repeat step [4](sgc-infoblox-create-table-cleanup-jobs.md#step_kts_bvb_m3c) to step [6](sgc-infoblox-create-table-cleanup-jobs.md#step_lhc_dvb_m3c) for the remaining IPAM tables.
+7.  Repeat step [4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-infoblox-create-table-cleanup-jobs.md) to step [6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-infoblox-create-table-cleanup-jobs.md) for the remaining IPAM tables.
 
 8.  Configure a table cleanup job for the Detailed Network \[sn\_infoblox\_integ\_sg\_infoblox\_detailed\_subnetwork\] table.
 

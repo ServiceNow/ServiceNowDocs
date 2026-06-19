@@ -2,6 +2,7 @@
 title: Map designated workspaces to user profiles
 description: Map existing designated workspaces to employee user profiles in Workplace Core. This mapping is used to automatically allocate workspaces for employees so they don't have to select a workspace manually when requesting a reservation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/map-employees-to-existing-workplace-locations-hr.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace
@@ -17,7 +18,7 @@ Map existing designated workspaces to employee user profiles in Workplace Core. 
 
 ## Before you begin
 
--   Ensure that your workplace administrator has completed setting up your workplace data. For more information, see [Providing your workplace data](../../workplace-service-delivery/concept/providing-your-workplace-data-wsd.md).
+-   Ensure that your workplace administrator has completed setting up your workplace data. For more information, see [Providing your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/providing-your-workplace-data-wsd.md).
 -   Ensure that you have the designated workplace information for all the employees.
 -   You can also Navigate to the User Workplace Profiles \[sn\_wsd\_core\_workplace\_profile\] table by entering `sn_wsd_core_workplace_profile.list` in the navigation filter.
 
@@ -25,7 +26,7 @@ Role required: sn\_wsd\_core.admin or sn\_wsd\_core.workplace\_manager
 
 ## About this task
 
-Create a mapping for all employees and their designated workplaces. You can also perform an easy import of your employee workplace data. For more information, see [Easy import](https://www.servicenow.com/docs/access?context=c_EasyImport&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+Create a mapping for all employees and their designated workplaces. You can also perform an easy import of your employee workplace data. For more information, see Easy import.
 
 ## Procedure
 
@@ -77,7 +78,7 @@ Option to set location privacy preference for the workplace profile. Note the fo
 -   By default, the location privacy preference that is set on the building to which the workplace profile is assigned is considered.
 -   In case, the building doesn't have any location privacy preference, preference set in the Workplace Reservation Management system property **sn\_wsd\_core.ENABLE\_LOCATION\_PRIVACY** is considered.
 -   The field is set to **None** by default.
- For more information about each field, refer to [Location privacy settings and impact](../../wsd-reservation-management/reference/location-privacy-settings-and-impact.md)
+ For more information about each field, refer to [Location privacy settings and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/location-privacy-settings-and-impact.md)
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
@@ -89,5 +90,5 @@ Option to set location privacy preference for the workplace profile. Note the fo
 
 The User Workplace Profiles \[sn\_wsd\_core\_workplace\_profile\] table is populated with all the new profiles.
 
-**Parent Topic:**[Mapping employees to their designated workspaces](../concept/mapping-employees-to-existing-work-locations.md)
+**Parent Topic:**[Mapping employees to their designated workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/mapping-employees-to-existing-work-locations.md)
 

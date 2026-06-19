@@ -2,6 +2,7 @@
 title: Cloud Provisioning and Governance
 description: The ServiceNow Cloud Provisioning and Governance \(CPG\) application serves as a unified interface for accessing cloud resources, delivering cloud offerings to a catalog, and overseeing resource usage. This application is transformed as Cloud Services Catalog application, offering refined and streamlined management of usage and life cycle of cloud resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/cloud-management-v2-landing-page.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -58,28 +59,28 @@ The following workflows have been deprecated:
 Explore
 
  -   Zurich
--   [Domain separation and Cloud Provisioning and Governance](domain-separation-cloud-management.md)
+-   [Domain separation and Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/domain-separation-cloud-management.md)
 
 </td><td>
 
 Set up
 
- -   [Day 1 setup guide for Amazon Web Services on Cloud Provisioning and Governance](../../cloud-management-v2-setup/concept/cloud-mgt-aws-setup-day-1.md)
--   [Day 1 setup guide for Microsoft Azure Cloud on Cloud Provisioning and Governance](../../cloud-management-v2-setup/concept/cloud-mgt-azure-setup-guide.md)
--   [Day 1 setup guide for VMware on Cloud Provisioning and Governance](../../cloud-management-v2-setup/concept/cloud-mgt-vmware-setup-guide.md)
+ -   [Day 1 setup guide for Amazon Web Services on Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloud-mgt-aws-setup-day-1.md)
+-   [Day 1 setup guide for Microsoft Azure Cloud on Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloud-mgt-azure-setup-guide.md)
+-   [Day 1 setup guide for VMware on Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloud-mgt-vmware-setup-guide.md)
 
 </td><td>
 
 Administer
 
- [Cloud Provisioning and Governance administration guide](cloud-configuration.md)
+ [Cloud Provisioning and Governance administration guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloud-configuration.md)
 
 </td></tr><tr><td>
 
 Use
 
- -   [Cloud Admin Portal](cloud-admin-portal.md)
--   [Cloud User Portal](../../cloud-management-v2-user/concept/cloudmgt-cloud-user-portal.md)
+ -   [Cloud Admin Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloud-admin-portal.md)
+-   [Cloud User Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloudmgt-cloud-user-portal.md)
 
 </td><td>
 
@@ -101,5 +102,5 @@ Troubleshoot and get help
 
 Cloud Provisioning and Governance guided setup provides a sequence of tasks that help you configure Cloud Provisioning and Governance on your instance. To open Cloud Provisioning and Governance guided setup, navigate to **Guided Setup** &gt; **ITOM Guided Setup**.
 
-For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+For more information about using the guided setup interface, see Using guided setup.
 

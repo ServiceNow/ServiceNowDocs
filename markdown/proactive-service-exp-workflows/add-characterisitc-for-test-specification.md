@@ -2,6 +2,7 @@
 title: Define a characteristic for the test definition
 description: Add a characteristic for a test to determine the properties that are required to run and evaluate the test.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/add-characterisitc-for-test-specification.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"

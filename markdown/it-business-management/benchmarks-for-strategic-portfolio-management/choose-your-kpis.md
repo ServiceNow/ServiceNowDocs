@@ -2,6 +2,7 @@
 title: Choose your KPIs
 description: Based on your requirement, you can choose the key performance indicators \(KPIs\) that you want to use in the SPM Benchmarks application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/benchmarks-for-strategic-portfolio-management/choose-your-kpis.html
 release: zurich
 product: Benchmarks for Strategic Portfolio Management
 classification: benchmarks-for-strategic-portfolio-management
@@ -28,5 +29,5 @@ Role required: admin
 3.  Select the KPIs that you need for your organization.
 
 
-**Parent Topic:**[Customize the SPM Benchmarks KPIs](using-benchmarks.md)
+**Parent Topic:**[Customize the SPM Benchmarks KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/benchmarks-for-strategic-portfolio-management/using-benchmarks.md)
 

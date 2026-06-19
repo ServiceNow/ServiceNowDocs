@@ -2,6 +2,7 @@
 title: Score normalization
 description: In Smart Assessment Engine normalization maps the actual scores to a standardized scale, typically from 0 through 100, enabling for a unified evaluation framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/smart-assessment-engine/score-normalization.html
 release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine

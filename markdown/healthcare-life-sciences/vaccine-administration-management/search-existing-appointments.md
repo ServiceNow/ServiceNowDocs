@@ -2,6 +2,7 @@
 title: Search existing appointments
 description: Search for an existing appointment on behalf of the consumer user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/vaccine-administration-management/search-existing-appointments.html
 release: zurich
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -34,5 +35,5 @@ Role required: sn\_vaccine\_sm.clinician
     **Note:** As a clinician or as a vaccine agent, you can search for an existing appointment using the contact filter only for consumer users and not for internal users. If you want to search for an existing appointment for an internal user, you must navigate to Vaccination Tasks and filter the list by the user name.
 
 
-**Parent Topic:**[Manage user appointments as a clinician or a vaccine agent](../concept/user-appt-mngt-clinicans-agents.md)
+**Parent Topic:**[Manage user appointments as a clinician or a vaccine agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/vaccine-administration-management/user-appt-mngt-clinicans-agents.md)
 

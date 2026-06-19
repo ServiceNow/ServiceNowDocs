@@ -2,6 +2,7 @@
 title: Generate risks and controls from entity types
 description: Create and edit entity types and map them to existing ServiceNow tables for which you must track compliance \(applications, departments, regions, processes, systems, etc.\). Entities are assigned to control objectives and risk statements, which generate controls and risks for every entity type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/t\_CreateProfileTypes.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -36,7 +37,7 @@ An entity type provides you a method to group Entities together. An entity type 
     -   **Audit** &gt; **Scoping** &gt; **Entity Types**.
 2.  Do one of the following actions.
 
-<table id="choicetable_wn5_ds3_4w"><tbody><tr><td id="d228375e139">
+<table id="choicetable_wn5_ds3_4w"><tbody><tr><td id="d228448e139">
 
 **To create a new entity type**
 
@@ -44,7 +45,7 @@ An entity type provides you a method to group Entities together. An entity type 
 
 Click **New**.
 
-</td></tr><tr><td id="d228375e151">
+</td></tr><tr><td id="d228448e151">
 
 **To edit an entity type**
 
@@ -52,7 +53,7 @@ Click **New**.
 
 Open the entity type from the list.
 
-</td></tr><tr><td id="d228375e160">
+</td></tr><tr><td id="d228448e160">
 
 **To delete an entity type**
 
@@ -62,7 +63,7 @@ Open the entity type from the list and click **Delete**.The item generation proc
 
  With the implementation of the item generation process \(v2\), an entity type that is marked for deletion is not deleted instantly by the item generation process, but it is marked for deletion. When the nightly scheduled job runs, it deletes the entity type.
 
- For more information on the item generation process, see [Using the item generation process to generate controls and risks](../concept/item-generation-process.md).
+ For more information on the item generation process, see [Using the item generation process to generate controls and risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/item-generation-process.md).
 
 </td></tr></tbody>
 </table>3.  Fill in the fields on the form, as appropriate, and click **Submit** or **Update**.
@@ -133,5 +134,5 @@ Empty owner
     An informational message appears: Updating entities for this entity type.
 
 
-**Parent Topic:**[Entity scoping in GRC](../concept/c_Scoping.md)
+**Parent Topic:**[Entity scoping in GRC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/c_Scoping.md)
 

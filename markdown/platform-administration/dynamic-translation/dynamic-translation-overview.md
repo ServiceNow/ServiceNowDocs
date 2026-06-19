@@ -2,6 +2,7 @@
 title: Dynamic Translation
 description: With Dynamic Translation you can support machine translation from one language to another across your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/dynamic-translation/dynamic-translation-overview.html
 release: zurich
 product: Dynamic Translation
 classification: dynamic-translation
@@ -15,31 +16,29 @@ breadcrumb: [Translation and localization, Configure core features, Administer]
 
 With Dynamic Translation you can support machine translation from one language to another across your instance.
 
-An overview of Dynamic Translation
-
 Dynamic Translation works with your choice of third-party machine translation services so you can offer your users content in their own languages. Enable your agents to translate form fields, Agent Chat messages, and knowledge articles on demand.
 
 ## Get started
 
 <table id="table_b2v_pwz_bzb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Explore Dynamic Translation](exploring-dynamic-translation.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/exploring-dynamic-translation.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure Dynamic Translation](configuring-dynamic-translation.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/configuring-dynamic-translation.md)
 
 </td><td>
 
-[Integrate![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Integrate with third-party translation services](integration-with-other-translation-services.md)
+[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Integrate with third-party translation services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/integration-with-other-translation-services.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-customer-service.svg)Use Dynamic Translation across your instance](using-dynamic-translation.md)
+[Use\[Omitted image "bus-customer-service.svg"\] Alt text:Use Dynamic Translation across your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/using-dynamic-translation.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Reference for Dynamic Translation properties, actions, and error messages](../reference/reference-for-dynamic-translation.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Reference for Dynamic Translation properties, actions, and error messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/reference-for-dynamic-translation.md)
 
 </td><td>
 

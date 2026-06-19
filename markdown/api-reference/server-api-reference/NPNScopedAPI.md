@@ -2,6 +2,7 @@
 title: NotifyPhoneNumber - Scoped
 description: The NotifyPhoneNumber API allows you to query information about a Notify phone number.Returns the international dialing code for a Notify phone number.Returns the ID of this phone number as defined by the telephony provider.Returns the numerical phone number for the current Notify caller.Returns the telephony provider associated with this phone number.Returns the country associated with the phone number.Determines if the Notify phone number supports conference calls.Determines if the Notify phone number supports receiving phone calls.Determines if the Notify phone number supports receiving SMS messages.Determines if the Notify phone number supports initiating phone calls.Determines if the Notify phone number supports sending SMS messages.Determines if the Notify phone number supports recording phone calls.Determines if the Notify phone number supports calls to a browser, such as in a WebRTC implementation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/NPNScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The NotifyPhoneNumber API allows you to query information about a Notify phone n
 
 Execute the scoped NotifyPhoneNumber API and its associated methods in the `sn_notify` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## Scoped NotifyPhoneNumber - getDialCode\(\)
 

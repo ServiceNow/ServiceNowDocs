@@ -2,6 +2,7 @@
 title: View knowledge articles related to a work order task on a mobile device
 description: View knowledge articles related to a work order task through the Field Service Contractor for mobile application to get additional information to help you complete the task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/view-articles-field-service-contractor-portal-mobile.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -33,7 +34,7 @@ The knowledge article view page provides several details about a displayed artic
 
 4.  On the work order task form, access the related articles in the **Details** screen in one of the following ways:
 
-    -   Tap the More actions \(![More actions icon](../image/OverflowIcon.png)\) icon, and select **View knowledge**.
+    -   Tap the More actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon, and select **View knowledge**.
 
     -   Tap the **Related** tab and view the related knowledge articles.
 5.  Review the knowledge article.

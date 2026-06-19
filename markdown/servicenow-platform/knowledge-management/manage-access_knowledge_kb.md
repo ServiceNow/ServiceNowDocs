@@ -2,6 +2,7 @@
 title: Understanding access to the Knowledge knowledge base
 description: User criteria are available to manage access to the Knowledge knowledge base.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/manage-access\_knowledge\_kb.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -22,9 +23,9 @@ The Knowledge knowledge base is provided as a demo example in the Knowledge Mana
 -   Guest User in Cannot Read, which prevents guest or unauthenticated users from reading articles in the Knowledge knowledge base.
 
 
-**Note:** If you are on a release version prior to the Paris release, see [Configure access to knowledge bases for unauthenticated users](../task/configure-unauthenticated-user.md) for information about managing access without any user criteria.
+**Note:** If you are on a release version prior to the Paris release, see [Configure access to knowledge bases for unauthenticated users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/configure-unauthenticated-user.md) for information about managing access without any user criteria.
 
-Although you can continue to use the Knowledge knowledge base consider creating your own knowledge base to store, share, and manage content. You can configure access to your knowledge bases through user criteria. For more information, see [Create a knowledge base](../task/create-a-knowledgebase.md).
+Although you can continue to use the Knowledge knowledge base consider creating your own knowledge base to store, share, and manage content. You can configure access to your knowledge bases through user criteria. For more information, see [Create a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/create-a-knowledgebase.md).
 
-**Parent Topic:**[Knowledge Management reference](../reference/knowledge-management-reference.md)
+**Parent Topic:**[Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/knowledge-management-reference.md)
 

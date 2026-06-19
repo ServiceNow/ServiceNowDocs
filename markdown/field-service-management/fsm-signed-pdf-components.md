@@ -2,7 +2,10 @@
 title: Field Service - Signature Pad components
 description: Several types of components are installed with Field Service - Signature Pad, including tables and script includes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/fsm-signed-pdf-components.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -42,5 +45,5 @@ Field Service - Signature Pad adds the following script include.
 |--------------|-----------|
 |GeneralWOForm|Creates a PDF of the work order form.|
 
-**Parent Topic:**[Components installed with additional plugins for Field Service Management](components-inst-additional-plugin.md)
+**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/components-inst-additional-plugin.md)
 

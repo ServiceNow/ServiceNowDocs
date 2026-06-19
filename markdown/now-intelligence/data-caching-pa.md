@@ -2,6 +2,7 @@
 title: Data caching in Platform Analytics
 description: Data caching can help data visualizations load faster by reusing older responses when available. Users can always get the latest data by refreshing the dashboard manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/data-caching-pa.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -29,11 +30,11 @@ Table and indicator data support caching.
 
 Before you activate data caching, the property **glide.analytics.cache.enabled** must be set to `true`.
 
-In the inline dashboard editor, you can activate or deactivate data caching per dashboard. Caching then applies to all data visualizations on that dashboard that have a data source that supports it. For more information, see [Configure Platform Analytics dashboard settings](../../dashboards/task/configure-ac-db-settings.md).
+In the inline dashboard editor, you can activate or deactivate data caching per dashboard. Caching then applies to all data visualizations on that dashboard that have a data source that supports it. For more information, see [Configure Platform Analytics dashboard settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/configure-ac-db-settings.md).
 
 In the UI Builder, you can activate or deactivate data caching per data visualization. For an example, see the **useDataCache** property for either table or indicator data sources in [Single Score UIB Setup](https://developer.servicenow.com/dev.do#!/reference/next-experience/xanadu/now-components/now-vis-score-wrapper/uib-setup).
 
-In the UI Builder, you can also enable data caching for a local data instance of the table or indicator type. For more information, see [Enable data caching for a local data instance](../../dashboards/task/enable-caching-local-data-instance.md).
+In the UI Builder, you can also enable data caching for a local data instance of the table or indicator type. For more information, see [Enable data caching for a local data instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/enable-caching-local-data-instance.md).
 
 ## Default dashboard caching
 
@@ -58,5 +59,5 @@ Prefetching is activated by default with settings chosen to balance minimizing s
 |glide.analytics.cache.prefetch.min\_age\_in\_seconds|Lower limit of cache expiration time \[cacheExpirationTime\] for data to be subject to prefetching|8 hours|Eight hours is the minimum safe lifespan of cached data for it to be prefetched. You may need to increase this value but should not decrease it.|
 |glide.analytics.cache.prefetch.max\_refresh\_counter|Number of consecutive times data is prefetched without a cache hit before prefetching stops for this data|10|Prefetching is meant for frequently used data. In order to reduce system load, if data is prefetched 10 times in a row without a user looking at the data, prefetching ceases. The data then follows default cache behavior and will reload when next viewed. The default value was selected to cover weekends. You may need to decrease this value but should not increase it.|
 
-**Parent Topic:**[Platform Analytics experience reference](platform-analytics-exp-reference.md)
+**Parent Topic:**[Platform Analytics experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics-exp-reference.md)
 

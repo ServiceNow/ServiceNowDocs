@@ -2,6 +2,7 @@
 title: Topic categories
 description: Use the Category page in the Conversational Analytics dashboard to view the performance of Virtual Agent \(VA\) topics by the selected topic category.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/category-page-pae.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -18,9 +19,9 @@ Use the Category page in the Conversational Analytics dashboard to view the perf
 
 Topic categories group related conversation topics. Topics can belong to more than one category. Select the drop-down list to show the categories that you can display in the visualizations. The visualizations show the aggregate performance of Virtual Agent conversations that ran in the topics belonging to a category.
 
-![Virtual Agent Analytics Category subtab.](../images/dashboard-category-page-2-pae.png)
+\[Omitted image "dashboard-category-page-2-pae.png"\] Alt text: Virtual Agent Analytics Category subtab.
 
-For more information about creating or modifying VA categories, see [Create or modify custom categories](../task/create-topic-category.md).
+For more information about creating or modifying VA categories, see [Create or modify custom categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-topic-category.md).
 
 <table id="table_mpj_xvy_j4b"><thead><tr><th>
 
@@ -36,7 +37,7 @@ Conversation end state
 
 </td><td>
 
-The number of users that reached a specific node in a topic in the VA category. In the example, six users reached the node labeled, **System closed VA - Auto Closed**. Use this field to see where topics stopped working for users.For definitions of each conversation end state, see [Virtual Agent interaction records](va-interactions.md).
+The number of users that reached a specific node in a topic in the VA category. In the example, six users reached the node labeled, **System closed VA - Auto Closed**. Use this field to see where topics stopped working for users.For definitions of each conversation end state, see [Virtual Agent interaction records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-interactions.md).
 
 </td></tr><tr><td>
 
@@ -71,5 +72,5 @@ Channel usage trend
 Number of users using a specified channel over the course of the date range for topics in that VA category.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Topics tab](topics-tab-pae.md)
+</table>**Parent Topic:**[Topics tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/topics-tab-pae.md)
 

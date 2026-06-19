@@ -2,6 +2,7 @@
 title: Modify email templates
 description: You can modify the email templates to align the messages with your organization’s branding, or to add disclaimers required by regional regulations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/modify-email-templates.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace

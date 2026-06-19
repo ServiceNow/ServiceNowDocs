@@ -2,12 +2,13 @@
 title: Hardware model details
 description: Find the hardware model details and related list field descriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/hardware-model-fields.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Reference, Hardware Asset Management, IT Asset Management]
 ---
 
@@ -501,7 +502,7 @@ Description of the catalog item.
 
 ## Assets
 
-For information about the fields on the Assets tab, see [Create assets](../../asset-management/task/t_CreatingAssets.md).
+For information about the fields on the Assets tab, see [Create assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/t_CreatingAssets.md).
 
 ## Configuration Items
 
@@ -648,11 +649,11 @@ Lifecycle phase
 
 </td><td>
 
-Phase of the life cycle.-   **General Availability**
--   **End of Sale**
--   **End of Support**
--   **End of Extended Support**
--   **End of Life**
+Phase of the life cycle for a hardware model.-   **General Availability:** The date when the hardware becomes generally available through the manufacturer’s sales channels, including its worldwide subsidiaries, affiliates, and country distributors. The hardware is considered current/active and receiving support from the manufacturer.
+-   **End of Sale:**The last date to order the hardware through the manufacturer’s sales channels, including its worldwide subsidiaries, affiliates, and country distributors. After end of sale date, the hardware is no longer available for sale.
+-   **End of Support**: The last date upon which the manufacturer provides standard/regular support for the hardware as entitled by active service contracts. After this date, the manufacturer may continue to provide active support for certain issues in a limited capacity, the scope of which may vary across different manufacturers according to their lifecycle and/or support policies.
+-   **End of Extended Support:** Up until this date, the manufacturer extends limited support for the hardware \(after standard/regular support expires\), for a defined period according to manufacturer policy.
+-   **End of Life:**The date which indicates the hardware is at the end of its useful life \(from the manufacturer’s point of view\). The manufacturer stops marketing, selling, or sustaining the hardware.
 
 </td></tr><tr><td>
 
@@ -703,5 +704,5 @@ Description
 Description of the hardware model.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Hardware Asset Management reference](../concept/reference-hardware-asset-management.md)
+</table>**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
 

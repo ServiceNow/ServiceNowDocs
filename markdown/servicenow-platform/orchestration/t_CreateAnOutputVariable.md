@@ -2,6 +2,7 @@
 title: Create an output variable
 description: The Outputs form in the designer contains a variable builder for creating data structures of objects and arrays.Output variables contain messages returned from a destination that are available to other activities in a workflow or internally to the activity.Mapping is configured with parsing rules that allow you to build expressions in the appropriate data format for the selected payload.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/orchestration/t\_CreateAnOutputVariable.html
 release: zurich
 product: Orchestration
 classification: orchestration
@@ -21,7 +22,7 @@ Roles required: activity\_admin, activity\_creator
 
 ## About this task
 
-Elements in this structure are mapped with [Create a parsing rule](t_CreateAParsingRule.md#) to specific data contained in payloads returned from an endpoint or host. These variables and their values are then made available locally or for reuse in other activities.
+Elements in this structure are mapped with [Create a parsing rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateAParsingRule.md) to specific data contained in payloads returned from an endpoint or host. These variables and their values are then made available locally or for reuse in other activities.
 
 ## Procedure
 
@@ -39,7 +40,7 @@ Elements in this structure are mapped with [Create a parsing rule](t_CreateAPars
 
 4.  To reorder the variable list, select a row and then drag the row to its new location.
 
-    When you select a row to move it, the pointer icon changes to an up/down arrow icon \(![Up/down arrow icon.](../image/MoveVariable.png)\).
+    When you select a row to move it, the pointer icon changes to an up/down arrow icon \(\[Omitted image "MoveVariable.png"\] Alt text: Up/down arrow icon.\).
 
 5.  Drag the row into another location.
 
@@ -49,12 +50,12 @@ Elements in this structure are mapped with [Create a parsing rule](t_CreateAPars
     -   To copy an entire data structure, drag the parent object or array into the variable list header.
     The designer duplicates the copied data structure in the outputs variable builder.
 
-    ![Reusing an output variable](../image/OutputsReuseVariable.png "Reuse of data structures")
+    \[Omitted image "OutputsReuseVariable.png"\] Alt text: Reusing an output variable
 
 7.  To delete a variable, click the delete icon in the row.
 
 
-**Parent Topic:**[Create custom activities using custom activity designer templates](create-custom-activities.md)
+**Parent Topic:**[Create custom activities using custom activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/create-custom-activities.md)
 
 ## Activity designer template outputs
 
@@ -82,8 +83,8 @@ When you are finished creating the output data structure, map each variable to t
 
 1.  To map a variable, drag it from the **Outputs** variable builder and drop it into an empty **Variable name** field in the Parsing rules section.
 
-    See [create a parsing rule](t_CreateAParsingRule.md#) for instructions on configuring parsing for output variables.
+    See [create a parsing rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateAParsingRule.md) for instructions on configuring parsing for output variables.
 
-    ![Mapping an output field](../image/OutputsMappingVariable.png)
+    \[Omitted image "OutputsMappingVariable.png"\] Alt text: Mapping an output field
 
 

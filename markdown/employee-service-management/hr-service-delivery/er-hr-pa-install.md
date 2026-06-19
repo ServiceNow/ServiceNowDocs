@@ -2,6 +2,7 @@
 title: Activate the Analytics and Reporting Solution for Employee Relations
 description: Activate the content pack plugins for the Analytics and Reporting Solution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/er-hr-pa-install.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,7 +18,7 @@ Activate the content pack plugins for the Analytics and Reporting Solution.
 
 ## Before you begin
 
-Activate the full, subscription version of Performance Analytics on the instance where you are activating this Platform Analytics Solution. You can activate Performance Analytics on a non-production instance without purchasing a subscription. For more information, see [Activate your Performance Analytics subscription](https://www.servicenow.com/docs/access?context=c_PremiumPerformanceAnalytics&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+Activate the full, subscription version of Performance Analytics on the instance where you are activating this Platform Analytics Solution. You can activate Performance Analytics on a non-production instance without purchasing a subscription. For more information, see Activate your Performance Analytics subscription.
 
 Role required: admin
 

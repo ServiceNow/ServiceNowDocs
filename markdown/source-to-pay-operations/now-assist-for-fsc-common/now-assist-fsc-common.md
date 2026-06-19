@@ -2,13 +2,14 @@
 title: Now Assist for FSC Common
 description: Use Now Assist for FSC Common to summarize supplier details for supplier managers and purchase order details for fulfillers, keeping them informed about status, progress, and action items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-common.html
 release: zurich
 product: Now Assist for FSC Common
 classification: now-assist-for-fsc-common
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Now Assist for Finance and Supply Chain, Finance and Supply Chain]
+breadcrumb: [Now Assist Finance Supply Chain, Finance and Supply Chain]
 ---
 
 # Now Assist for FSC Common
@@ -19,15 +20,15 @@ Use Now Assist for FSC Common to summarize supplier details for supplier manager
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about Common Finance and Supply Chain features](now-assist-fsc-exploring.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Common Finance and Supply Chain features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-exploring.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure the Common Finance and Supply Chain features to get started](../task/configure-now-assist-fsc.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Common Finance and Supply Chain features to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/now-assist-for-fsc-common/configure-now-assist-fsc.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-supervised-machine-learning.svg)Use generative AI capabilities offered by Now Assist for Common Finance and Supply Chain features](now-assist-fsc-using.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for Common Finance and Supply Chain features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-using.md)
 
 </td></tr></tbody>
 </table>**Important:** Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Please check for availability updates in future releases.
@@ -48,7 +49,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+For more information, see the Now Assist documentation.
 

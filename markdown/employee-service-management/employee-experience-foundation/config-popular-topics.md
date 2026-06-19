@@ -2,6 +2,7 @@
 title: Popular topics widget
 description: Popular topics widget lets you quickly view and access the most popular topics. You can configure the instance options to control the appearance of the widget, such as the title, number of topics, display size, and border color.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/config-popular-topics.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -33,7 +34,7 @@ Employee Center uses an algorithm to determine which topics must appear on the w
 
 2.  Press and hold the control key, right-click the Popular topics widget, and then select **Instance Options**.
 
-    ![Popular topics widget instance options](../images/popular-inst-opts.png)
+    \[Omitted image "popular-inst-opts.png"\] Alt text: Popular topics widget instance options
 
 3.  Configure the instance options.
 
@@ -134,5 +135,5 @@ Option to show the view from the available options:-   None
 </table>4.  Click **Save**.
 
 
-**Parent Topic:**[Employee Center browse experience widgets](../concept/custom-widget-landing-ec.md)
+**Parent Topic:**[Employee Center browse experience widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/custom-widget-landing-ec.md)
 

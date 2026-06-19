@@ -2,6 +2,7 @@
 title: Create independent entities
 description: Entities can be created manually, rather than generating them from the entity types. Entities can also be created without needing to refer to an existing ServiceNow table, like assets, applications, business services, or processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/create-a-profile.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -32,7 +33,7 @@ Role required:
     -   **Audit** &gt; **Scoping** &gt; **All Entities**.
 2.  Do one of the following actions
 
-<table id="choicetable_wn5_ds3_4w"><tbody><tr><td id="d369761e123">
+<table id="choicetable_wn5_ds3_4w"><tbody><tr><td id="d341692e123">
 
 **To create a new entity**
 
@@ -40,7 +41,7 @@ Role required:
 
 Click **New**.
 
-</td></tr><tr><td id="d369761e135">
+</td></tr><tr><td id="d341692e135">
 
 **To edit an entity**
 
@@ -218,5 +219,5 @@ The corresponding score for the calculated ALE:-   Low
 8.  Click **Submit** or **Update**.
 
 
-**Parent Topic:**[Entity scoping in GRC](../concept/c_Scoping.md)
+**Parent Topic:**[Entity scoping in GRC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/c_Scoping.md)
 

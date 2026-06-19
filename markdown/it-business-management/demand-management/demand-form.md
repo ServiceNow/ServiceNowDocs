@@ -2,6 +2,7 @@
 title: Demand form
 description: The demand form information is used to create a demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/demand-management/demand-form.html
 release: zurich
 product: Demand Management
 classification: demand-management
@@ -146,7 +147,7 @@ Start date
 
 The preliminary or estimated date when the work is initially planned to begin. This date helps outline the intended timing for early demand planning and prioritization. You can set this date during initial demand creation or anytime in the planning phase when a rough idea forms. This date can be updated until the demand is officially approved. For example, you’re planning for a database upgrade to start on 2025-11-01.
 
-This date is changed to **Planned start date** when the demand is converted to a project.**Note:** When you change the planned start date of a demand or project, the associated cost plans and resource assignments also change. The **Change Resource Plan and Cost Plan Start Date with Demand or Project Start Date Change** property controls the behavior for a demand date change. This property isn’t enabled by default. For more information, see  and [Properties installed with Project Management](../../project-management/reference/r_InstalledWithProjectManagement.md).
+This date is changed to **Planned start date** when the demand is converted to a project.**Note:** When you change the planned start date of a demand or project, the associated cost plans and resource assignments also change. The **Change Resource Plan and Cost Plan Start Date with Demand or Project Start Date Change** property controls the behavior for a demand date change. This property isn’t enabled by default. For more information, see [Properties installed with Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/r_InstalledWithProjectManagement.md).
 
 </td></tr><tr><td>
 
@@ -172,7 +173,7 @@ Similar demands
 
 </td><td>
 
-Demands that have similar values for the **Short description** fields using predictive intelligence and machine-learning algorithms. For more information, see [Predictive Intelligence for Demand Management](../concept/predictive-intelligence-for-demand.md).
+Demands that have similar values for the **Short description** fields using predictive intelligence and machine-learning algorithms. For more information, see [Predictive Intelligence for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/predictive-intelligence-for-demand.md).
 
 </td></tr><tr><td>
 
@@ -316,7 +317,7 @@ Impacted Business Applications
 
 </td><td>
 
-If the demand is to change, enhance, or add one or more business applications, the applications associated with the demand. Business applications are defined in the Enterprise Architecture \(formerly Application Portfolio Management\) module. For more information, see [Business applications](https://www.servicenow.com/docs/access?context=manage-business-appln-apm-overview&version=zurich&pubname=zurich-application-portfolio-management&ft:locale=en-US).You can select any business application in your enterprise regardless of whether it’s related to a capability selected in the **Business Capabilities** field.
+If the demand is to change, enhance, or add one or more business applications, the applications associated with the demand. Business applications are defined in the Enterprise Architecture \(formerly Application Portfolio Management\) module. For more information, see .You can select any business application in your enterprise regardless of whether it’s related to a capability selected in the **Business Capabilities** field.
 
 </td></tr><tr><td>
 
@@ -324,7 +325,7 @@ Business Applications
 
 </td><td>
 
-If the demand is to change, enhance, or add one or more business applications, the applications associated with the demand. Business applications are defined in the Enterprise Architecture \(formerly Application Portfolio Management\) module. For more information, see [Business applications](https://www.servicenow.com/docs/access?context=manage-business-appln-apm-overview&version=zurich&pubname=zurich-application-portfolio-management&ft:locale=en-US).You can select any business application in your enterprise regardless of whether it’s related to a capability selected in the **Business Capabilities** field.
+If the demand is to change, enhance, or add one or more business applications, the applications associated with the demand. Business applications are defined in the Enterprise Architecture \(formerly Application Portfolio Management\) module. For more information, see .You can select any business application in your enterprise regardless of whether it’s related to a capability selected in the **Business Capabilities** field.
 
 </td></tr></tbody>
 </table><table id="table_t23_vj3_fdc"><thead><tr><th>
@@ -430,7 +431,7 @@ Rate Model
 
 </td><td>
 
-Rate model assigned to the demand. This setting is used to derive hourly rates for the associated resource assignments and time cards. For more information, see [Rate Models](../../project-portfolio-suite-with-financials/concept/rate-model.md).**Note:** If the rate model assigned to the demand is changed or removed, the cost fields on the associated resource assignments aren’t recalculated.
+Rate model assigned to the demand. This setting is used to derive hourly rates for the associated resource assignments and time cards. For more information, see [Rate Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/rate-model/rate-model.md).**Note:** If the rate model assigned to the demand is changed or removed, the cost fields on the associated resource assignments aren’t recalculated.
 
 </td></tr><tr><td>
 
@@ -553,7 +554,7 @@ Demand Actual Effort
 Time accrued or spent by a resource while working on a demand or a demand task as derived from the submitted and approved time cards. This field isn’t available on the Demand form by default.
 
 </td></tr></tbody>
-</table>**Note:** If you’re creating a demand with the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin activated and the **Demand Currency** view enabled, then the fields in the **Financials** tab differ from the **Default** view. For more information about the fields that are available only in the Demand Currency view, see [Multicurrency in Demand Management](../concept/multicurrency-demand.md).
+</table>**Note:** If you’re creating a demand with the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin activated and the **Demand Currency** view enabled, then the fields in the **Financials** tab differ from the **Default** view. For more information about the fields that are available only in the Demand Currency view, see [Multicurrency in Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/multicurrency-demand.md).
 
 <table id="table_yqw_vj3_fdc"><thead><tr><th>
 
@@ -601,7 +602,7 @@ Score
 
 </td><td>
 
-The demand score is calculated based on the **risk**, **value**, and **size** attributes in the base system.The value of the **risk**, **value**, and **size** attributes are derived from the assessment metric category results. For more information, see [assessment categories](../../../administer/assessments/task/t_CreateAnAssessmentCategory.md) and [assessment category results](https://www.servicenow.com/docs/access?context=t_ViewACategoryResult&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+The demand score is calculated based on the **risk**, **value**, and **size** attributes in the base system.The value of the **risk**, **value**, and **size** attributes are derived from the assessment metric category results. For more information, see [assessment categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/t_CreateAnAssessmentCategory.md) and assessment category results.
 
 -   When the **risk** and **size** values are high, the score of the demand is low.
 -   When the **value** setting is high, the score of the demand is high.
@@ -667,5 +668,5 @@ Determines the calculation to use for task dependencies for the project when the
 |Product|Product or system that the demand relates to.|
 |Impacted AI systems|Impacted AI systems associated with the demand. You can select existing AI systems from the list or remove systems that are no longer relevant.|
 
-**Parent Topic:**[Demand Management forms](../concept/demand-management-forms.md)
+**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/demand-management-forms.md)
 

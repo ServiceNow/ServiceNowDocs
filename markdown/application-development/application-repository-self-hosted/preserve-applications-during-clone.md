@@ -2,6 +2,7 @@
 title: Preserve applications and customizations in development during a system clone
 description: Manually preserve a copy of each application and customization that you currently have in development before you can clone the application version to the target \(development\) instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/application-repository-self-hosted/preserve-applications-during-clone.html
 release: zurich
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
@@ -73,7 +74,7 @@ None. The system clone process copies this application version onto the target i
 
     If you saved each application to a source control repository, use one of these actions to retrieve them from the source control repository:
 
-    **Note:** For what to expect after application customization post clone, see [Results post cloning for application customizations](../reference/what-to-expect-post-clone-for-app-customization.md).
+    **Note:** For what to expect after application customization post clone, see [Results post cloning for application customizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/application-repository-self-hosted/what-to-expect-post-clone-for-app-customization.md).
 
     |Application installation state|Action to take on clone target|
     |------------------------------|------------------------------|

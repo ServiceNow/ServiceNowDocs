@@ -2,6 +2,7 @@
 title: View Talent Development Core licensed profiles
 description: You can view a list of profiles that are licensed for Talent Development.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/egd-view-licensed-profiles.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -17,7 +18,7 @@ You can view a list of profiles that are licensed for Talent Development.
 
 ## Before you begin
 
-Role required: sn\_egd\_core.admin or admin
+Role required: sn\_egd\_core.admin
 
 ## About this task
 
@@ -36,5 +37,5 @@ The **Employee Profile** licenses users by the employee profile number. Each num
     The link shows the number of profiles that match the condition. If you only see the employee profile number, select the gear icon, and add the **User** field to the selected column.
 
 
-**Parent Topic:**[Administer and maintain the Talent Development Core app](../concept/egd-administration.md)
+**Parent Topic:**[Administer and maintain the Talent Development Core app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-administration.md)
 

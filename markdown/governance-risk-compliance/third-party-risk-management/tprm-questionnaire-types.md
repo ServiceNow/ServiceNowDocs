@@ -2,6 +2,7 @@
 title: Sample questionnaires
 description: The questionnaire that you use can depend on your industry, geographic area, jurisdiction, or the particular nature of your operations. These questionnaires are provided as part of the base system and are samples that shouldn’t be implemented into your risk management program without first being reviewed and approved by your legal team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-questionnaire-types.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -17,7 +18,7 @@ The questionnaire that you use can depend on your industry, geographic area, jur
 
 ## Types of TPRM SAE Questionnaire template
 
-After upgrading to version 22.0.2 and installing the Unified Content Management application, you can view these questionnaire templates by navigating to **Workspaces** &gt; **Vendor Management Workspace**, select the unified content management icon ![](../../grc-vendor-risk/image/unified-content-mgmt-icon.png) and then navigate to **Smart assessment templates**.
+After upgrading to version 22.0.2 and installing the Unified Content Management application, you can view these questionnaire templates by navigating to **Workspaces** &gt; **Vendor Management Workspace**, select the unified content management icon \[Omitted image "unified-content-mgmt-icon.png"\] Alt text: and then navigate to **Smart assessment templates**.
 
 |Name|Risk Area|Regulation or Purpose|Classification|
 |----|---------|---------------------|--------------|
@@ -182,5 +183,5 @@ You can view these questionnaire templates by navigating to **All** &gt; **Third
 |Element - Beneficial Owner Info. Collection- Sample| |Third-party element collection|Questionnaire template|
 |Gen AI - Sample Questionnaire| | |Questionnaire template|
 
-**Parent Topic:**[Third-party Risk Management reference](../../grc-vendor-risk/concept/tprm-reference.md)
+**Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
 

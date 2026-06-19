@@ -1,0 +1,41 @@
+---
+title: Create a new emission activity
+description: Create new emission activities to track the activity that leads to emissions if you do not want to use the standard emission activities provided through the ESG content accelerator application.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/operational-sustainability-management/create-an-emission-activity.html
+release: zurich
+product: Operational Sustainability Management
+classification: operational-sustainability-management
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Set up the emission factor library, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+---
+
+# Create a new emission activity
+
+Create new emission activities to track the activity that leads to emissions if you do not want to use the standard emission activities provided through the ESG content accelerator application.
+
+## Before you begin
+
+Role required: sn\_esg.program\_manager, sn\_esg.admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Operational Sustainability Management** &gt; **Operational Sustainability Workspace** &gt; **Lists** &gt; **Emission Factor Library** &gt; **Activity**.
+
+2.  Select **New**.
+
+3.  On the form, fill in the fields.
+
+    |Field|Description|
+    |-----|-----------|
+    |Name|Name of the emission activity. For example, `Cars`.|
+    |Type|Type of activity. For example, `Luxury`.|
+    |Subtype|Subtype of the activity. For example, `Diesel`.|
+
+4.  Select **Submit**.
+
+
+**Parent Topic:**[Set up the emission factor library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/operational-sustainability-management/set-up-the-emission-factor-library.md)
+

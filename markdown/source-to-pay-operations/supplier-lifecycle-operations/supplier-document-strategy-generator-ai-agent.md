@@ -2,6 +2,7 @@
 title: Supplier document strategy generator AI agent
 description: Generate a customized onboarding task list that meets the supplier's compliance and regulatory requirements using the Supplier document strategy generator AI agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/supplier-document-strategy-generator-ai-agent.html
 release: zurich
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations

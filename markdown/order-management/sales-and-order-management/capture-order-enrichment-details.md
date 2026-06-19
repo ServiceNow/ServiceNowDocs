@@ -2,6 +2,7 @@
 title: Capture order enrichment details for complex fulfillment
 description: Collect additional order details and technical information necessary for order decomposition and fulfillment, promoting accurate delivery and helping prevent delays or fallouts for complex products or services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/capture-order-enrichment-details.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -31,19 +32,19 @@ You can enrich order and order line items that meet the following conditions:
 
 1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace.** .
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to the order enrichment task using either of the following options.
 
-<table id="choicetable_ctl_t4y_pgc"><thead><tr><th align="left" id="d106158e108">
+<table id="choicetable_ctl_t4y_pgc"><thead><tr><th align="left" id="d86694e108">
 
 Navigation option
 
-</th><th align="left" id="d106158e111">
+</th><th align="left" id="d86694e111">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d106158e117">
+</th></tr></thead><tbody><tr><td id="d86694e117">
 
 **From Customer Orders**
 
@@ -55,7 +56,7 @@ Steps
 4.  Select the order enrichment task to open the task record and view its details.
 
 
-</td></tr><tr><td id="d106158e153">
+</td></tr><tr><td id="d86694e153">
 
 **From Order Tasks**
 
@@ -101,5 +102,5 @@ The order record is updated with all necessary fulfillment details. The order st
 
 ## What to do next
 
-[Approve orders in Order Management](som-om-approve-product-order.md)
+[Approve orders in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-om-approve-product-order.md)
 

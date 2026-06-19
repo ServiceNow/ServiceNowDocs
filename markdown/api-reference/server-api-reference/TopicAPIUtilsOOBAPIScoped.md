@@ -2,6 +2,7 @@
 title: TopicAPIUtilsOOB - Scoped
 description: The TopicAPIUtilsOOB script include provides methods that are used when processing the Event Management Topic Open API endpoint.Inserts the information passed in the Event Management Topic Open API - POST /sn\_api\_notif\_mgmt/topic endpoint into the Topic \[sn\_api\_notif\_mgmt\_topic\] table.Returns the defined schema for the payload used by the Event Management Topic Open API - POST /sn\_api\_notif\_mgmt/topic endpoint to validate the topic payload.Validates the payload passed into the Event Management Topic Open API - POST /sn\_api\_notif\_mgmt/topic endpoint. This validation is performed on the request body and the schema.Generates and returns the response to a Event Management Topic Open API - POST /sn\_api\_notif\_mgmt/topic endpoint call.Processes the request made by the Event Management Topic Open API endpoint.Provides the ability to add custom data to the response object returned to the Event Management Topic Open API - POST /sn\_api\_notif\_mgmt/topic endpoint.Validates whether the topic name, header-query, content-query, and namespace combination passed in the Event Management Topic Open API endpoint payload is unique.Validates the topic external ID passed in the request body of the Event Management Topic Open API endpoint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/TopicAPIUtilsOOBAPIScoped.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -19,7 +20,7 @@ If you want to change the default functionality of Event Management Topic Open A
 
 This script include runs in the `sn_api_notif_mgmt` namespace and requires the sn\_api\_notif\_mgmt.event\_mgmt\_integration role.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## TopicAPIUtilsOOB - createTopicHelper\(Object topicObject, Array warnings\)
 
@@ -49,7 +50,7 @@ Object
 
 </td><td id="TopicAPIUtilsOOB-topicObject-entry">
 
-Topic payload object passed into the [Event Management Topic Open API](../../../../../integrate/inbound-rest/concept/event_management_topic-api.md#) endpoint.For example:
+Topic payload object passed into the [Event Management Topic Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/event_management_topic-api.md) endpoint.For example:
 
 ```
 {
@@ -73,7 +74,7 @@ Array
 
 </td><td id="TopicAPIUtilsOOB-warnings-entry">
 
-Warning messages to return in the [Event Management Topic Open API](../../../../../integrate/inbound-rest/concept/event_management_topic-api.md#) endpoint response if the method encounters an issue at the level of "warning".This parameter allows you to add custom warning messages to your implementation of this endpoint.
+Warning messages to return in the [Event Management Topic Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/event_management_topic-api.md) endpoint response if the method encounters an issue at the level of "warning".This parameter allows you to add custom warning messages to your implementation of this endpoint.
 
 If there are no additional warning messages, you must pass an empty array.
 
@@ -103,7 +104,7 @@ Response object.```
 }
 ```
 
-For details on these parameters, see the return results for [Event Management Topic Open - POST /sn\_api\_notif\_mgmt/topic](../../../../../integrate/inbound-rest/concept/event_management_topic-api.md#).
+For details on these parameters, see the return results for [Event Management Topic Open - POST /sn\_api\_notif\_mgmt/topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/event_management_topic-api.md).
 
 </td></tr></tbody>
 </table>The following code example shows how to call this method.
@@ -167,7 +168,7 @@ CREATE_TOPIC_SCHEMA: "{
 
 |Type|Description|
 |----|-----------|
-|String|Schema for the Event Management Topic Open API - POST /sn\_api\_notif\_mgmt/topic endpoint payload. Use this schema to validate the schema passed into the endpoint using the [TopicAPIUtilsOOB - isValidCreateTopicPayload\(Object topicObject, String schema, Array warnings\)](TopicAPIUtilsOOBAPIScoped.md#) method.|
+|String|Schema for the Event Management Topic Open API - POST /sn\_api\_notif\_mgmt/topic endpoint payload. Use this schema to validate the schema passed into the endpoint using the [TopicAPIUtilsOOB - isValidCreateTopicPayload\(Object topicObject, String schema, Array warnings\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/TopicAPIUtilsOOBAPIScoped.md) method.|
 
 The following code example shows how to call this method.
 
@@ -224,7 +225,7 @@ Object
 
 </td><td id="TopicAPIUtilsOOB-topicObject-entry">
 
-Topic payload object passed into the [Event Management Topic Open API](../../../../../integrate/inbound-rest/concept/event_management_topic-api.md#) endpoint.For example:
+Topic payload object passed into the [Event Management Topic Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/event_management_topic-api.md) endpoint.For example:
 
 ```
 {
@@ -248,7 +249,7 @@ String
 
 </td><td>
 
-Schema to use to validate the topic payload. Use the [TopicAPIUtilsOOB - getCreateTopicSchema\(\)](TopicAPIUtilsOOBAPIScoped.md#) method to obtain this schema.
+Schema to use to validate the topic payload. Use the [TopicAPIUtilsOOB - getCreateTopicSchema\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/TopicAPIUtilsOOBAPIScoped.md) method to obtain this schema.
 
 </td></tr><tr><td>
 
@@ -260,7 +261,7 @@ Array
 
 </td><td>
 
-Warning messages to return in the [Event Management Topic Open API](../../../../../integrate/inbound-rest/concept/event_management_topic-api.md#) endpoint response if the method encounters an issue at the level of "warning".This parameter allows you to add custom warning messages to your implementation of this endpoint.
+Warning messages to return in the [Event Management Topic Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/event_management_topic-api.md) endpoint response if the method encounters an issue at the level of "warning".This parameter allows you to add custom warning messages to your implementation of this endpoint.
 
 If there are no additional warning messages, you must pass an empty array.
 
@@ -340,7 +341,7 @@ Object
 
 </td><td id="TopicAPIUtilsOOB-topicObject-entry">
 
-Topic payload object passed into the [Event Management Topic Open API](../../../../../integrate/inbound-rest/concept/event_management_topic-api.md#) endpoint.For example:
+Topic payload object passed into the [Event Management Topic Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/event_management_topic-api.md) endpoint.For example:
 
 ```
 {
@@ -376,7 +377,7 @@ Array
 
 </td><td>
 
-Warning messages to return in the [Event Management Topic Open API](../../../../../integrate/inbound-rest/concept/event_management_topic-api.md#) endpoint response if the method encounters an issue at the level of "warning".This parameter allows you to add custom warning messages to your implementation of this endpoint.
+Warning messages to return in the [Event Management Topic Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/event_management_topic-api.md) endpoint response if the method encounters an issue at the level of "warning".This parameter allows you to add custom warning messages to your implementation of this endpoint.
 
 If there are no additional warning messages, you must pass an empty array.
 
@@ -446,7 +447,7 @@ Endpoint response object.For example:
 
 Processes the request made by the Event Management Topic Open API endpoint.
 
-This method invokes the helper methods needed for data insertion, schema validation, request body validation, and response-orchestration. Override this method if you need to customize the fundamental processing of the [Event Management Topic Open - POST /sn\_api\_notif\_mgmt/topic](../../../../../integrate/inbound-rest/concept/event_management_topic-api.md#) request. Otherwise, override the individual helper methods.
+This method invokes the helper methods needed for data insertion, schema validation, request body validation, and response-orchestration. Override this method if you need to customize the fundamental processing of the [Event Management Topic Open - POST /sn\_api\_notif\_mgmt/topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/event_management_topic-api.md) request. Otherwise, override the individual helper methods.
 
 <table id="table_s2k_n3k_tzb" class="parameters"><thead><tr><th>
 
@@ -470,7 +471,7 @@ Object
 
 </td><td id="TopicAPIUtilsOOB-topicObject-entry">
 
-Topic payload object passed into the [Event Management Topic Open API](../../../../../integrate/inbound-rest/concept/event_management_topic-api.md#) endpoint.For example:
+Topic payload object passed into the [Event Management Topic Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/event_management_topic-api.md) endpoint.For example:
 
 ```
 {
@@ -553,7 +554,7 @@ Object
 
 </td><td id="TopicAPIUtilsOOB-topicObject-entry">
 
-Topic payload object passed into the [Event Management Topic Open API](../../../../../integrate/inbound-rest/concept/event_management_topic-api.md#) endpoint.For example:
+Topic payload object passed into the [Event Management Topic Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/event_management_topic-api.md) endpoint.For example:
 
 ```
 {
@@ -674,7 +675,7 @@ Object
 
 </td><td id="TopicAPIUtilsOOB-topicObject-entry">
 
-Topic payload object passed into the [Event Management Topic Open API](../../../../../integrate/inbound-rest/concept/event_management_topic-api.md#) endpoint.For example:
+Topic payload object passed into the [Event Management Topic Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/event_management_topic-api.md) endpoint.For example:
 
 ```
 {
@@ -698,7 +699,7 @@ Array
 
 </td><td>
 
-Warning messages to return in the [Event Management Topic Open API](../../../../../integrate/inbound-rest/concept/event_management_topic-api.md#) endpoint response if the method encounters an issue at the level of "warning".This parameter allows you to add custom warning messages to your implementation of this endpoint.
+Warning messages to return in the [Event Management Topic Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/event_management_topic-api.md) endpoint response if the method encounters an issue at the level of "warning".This parameter allows you to add custom warning messages to your implementation of this endpoint.
 
 If there are no additional warning messages, you must pass an empty array.
 
@@ -796,7 +797,7 @@ Object
 
 </td><td id="TopicAPIUtilsOOB-topicObject-entry">
 
-Topic payload object passed into the [Event Management Topic Open API](../../../../../integrate/inbound-rest/concept/event_management_topic-api.md#) endpoint.For example:
+Topic payload object passed into the [Event Management Topic Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/event_management_topic-api.md) endpoint.For example:
 
 ```
 {
@@ -820,7 +821,7 @@ Array
 
 </td><td>
 
-Error/detail messages to return in the [Event Management Topic Open API](../../../../../integrate/inbound-rest/concept/event_management_topic-api.md#) endpoint response if the method encounters an issue at the level of "error".This parameter allows you to add custom error messages to your implementation of this endpoint.
+Error/detail messages to return in the [Event Management Topic Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/event_management_topic-api.md) endpoint response if the method encounters an issue at the level of "error".This parameter allows you to add custom error messages to your implementation of this endpoint.
 
 If there are no additional error messages, you must pass an empty array.
 

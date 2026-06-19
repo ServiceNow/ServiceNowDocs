@@ -2,6 +2,7 @@
 title: Introduction to Instance Observer-Guided
 description: The Introduction to Instance Observer Accelerator provides guidance on understanding and monitoring performance using Instance Observer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/intro-instance-observer.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -17,7 +18,7 @@ The Introduction to Instance Observer Accelerator provides guidance on understan
 
 ## Accelerator overview
 
-Introduction to Instance Observer provides Impact Guided customers with an overview of Instance Observer, a review of specific telemetry for instance availability, prescriptive guidance on visible trends, and leading practices on monitoring your ServiceNow platform. See [Overview of Instance Observer](../concept/io-overview.md) for more information on the feature.
+Introduction to Instance Observer provides Impact Guided customers with an overview of Instance Observer, a review of specific telemetry for instance availability, prescriptive guidance on visible trends, and leading practices on monitoring your ServiceNow platform. See [Overview of Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-overview.md) for more information on the feature.
 
 **Note:** This Accelerator is available for the Impact Guided package.
 

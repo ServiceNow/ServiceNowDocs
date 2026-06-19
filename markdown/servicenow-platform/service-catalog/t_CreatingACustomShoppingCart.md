@@ -2,6 +2,7 @@
 title: Create a custom cart
 description: Administrators with a knowledge of Jelly can customize the look and feel of service catalog carts, either globally or for specific catalog items, using the UI macro capability.Link the default cart or a custom cart to an item so the requester sees the pertinent information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/t\_CreatingACustomShoppingCart.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -40,7 +41,7 @@ Role required: admin
 
 After creating a custom card, you can reuse it and link it to catalog items.
 
-**Parent Topic:**[Create scripts](../reference/r_ServiceCatalogScriptingExtensn.md)
+**Parent Topic:**[Create scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/r_ServiceCatalogScriptingExtensn.md)
 
 ## Link a cart to an item
 

@@ -2,6 +2,7 @@
 title: Perform a single-line Agent Client Collector installation on Linux
 description: Use an efficient single-line command script to install Agent Client Collector on a machine that uses a Linux operating system. If a script is not connected to the instance or you want to use enhanced customization options, you might have to install Agent Client Collector manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-oneliner-install.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -18,12 +19,13 @@ Use an efficient single-line command script to install Agent Client Collector on
 ## Before you begin
 
 -   Ensure that you have configured the Agent Client Collector web server.
--   Verify that your server's OS and version matches the list of supported OS versions as described in [Agent Client Collector installation](../concept/acc-installation.md).
+-   Verify that your server's OS and version matches the list of supported OS versions as described in [Agent Client Collector installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-installation.md).
 -   Ensure that the unzip program is installed on your Linux machine.
 -   Determine the resource limits for the agent to be configured in the `/usr/lib/systemd/system/acc.service` file after installation.
 -   Ensure that you have the `openssl` and `dgst` \(for RHEL/Centos/SUSE installation\) packages available, to be used by the install script.
 -   Ensure that you have the `gpg` package available for validation \(for Ubuntu/Debian installation\).
--   When performing single-line installation on more than one agent, download the agent package to your local machine. Place the package on your `ftp` server, using an Ansible script. For details on mass deployment of agents, see [Incorporating the Agent Client Collector into a custom base image for mass deployment](acc-virtual-deployment.md).
+-   Enable golden image mode for cloning additional instances by setting the golden image marker located at `/tmp/acc-goldenimage`. The golden image marker takes no action during new Linux installations, as there is nothing which requires cleaning.
+-   When performing single-line installation on more than one agent, download the agent package to your local machine. Place the package on your `ftp` server, using an Ansible script. For details on mass deployment of agents, see [Incorporating the Agent Client Collector into a custom base image for mass deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-virtual-deployment.md).
 -   In order for the Agent to retrieve the OS serial numbers and TCP connections along with associated running processes, sudo access for “dmidecode” and “ss” is required on Linux systems.
 
 Role required: agent\_client\_collector\_admin
@@ -71,7 +73,7 @@ The URL of the MID Server websocket.If you are specifying multiple MID Servers, 
 
 4.  If the certificate validation process is too time consuming or if you are using the agent for development purposes, you can bypass certificate validation by adding **ACC\_VALIDATE\_SIG=0** to the single-line command string.
 
-5.  Run the single-line command \(specified in step [2](acc-oneliner-install.md#command), above\) on the server where the Agent Client Collector is installed.
+5.  Run the single-line command \(specified in step [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-oneliner-install.md), above\) on the server where the Agent Client Collector is installed.
 
 6.  Configure resource limits for the agent in the `/usr/lib/systemd/system/acc.service` file, according to your business needs.
 
@@ -83,5 +85,5 @@ The URL of the MID Server websocket.If you are specifying multiple MID Servers, 
     -   **BlockIOWeight**: 10
     -   **LimitNICE**: +15
 
-**Parent Topic:**[Agent Client Collector installation on a Linux OS system](../concept/acc-install-linux-concept.md)
+**Parent Topic:**[Agent Client Collector installation on a Linux OS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-install-linux-concept.md)
 

@@ -2,6 +2,7 @@
 title: Quote Management integration with Contract Management Pro
 description: The Quote Management integration with Contract Management Pro is known as Contract Management for Sales and Order Management \(com.sn\_som\_clm\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/quote-management-int-contracts-pro.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -24,17 +25,17 @@ The following roles are required to initiate, view, and manage contract executio
 
 A contract generation process consists of the following steps:
 
--   A sales ops specialist creates a contract type and document template, defines signatory rules, and completes configurations for the contract generation process. To learn more, see [Configuring Contract Management Pro](https://www.servicenow.com/docs/access?context=cncore-config-cmpro&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+-   A sales ops specialist creates a contract type and document template, defines signatory rules, and completes configurations for the contract generation process. To learn more, see .
 -   A sales agent then initiates the contract creation process through the Initiate contract UI action by filling the required details, such as Type of paper, Contract type, Signature type, and Start and End dates.
 
     -   **Inititate Contract** UI action is visible only when a quote is in Completed state.
     -   After you submit the contract creation form, it creates a contract request record.
     -   The new contract request triggers the workflow to generate the legal sales contract.
-    To learn more, see [Initiate a contract request](../task/quote-management-create-contract.md).
+    To learn more, see [Initiate a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-management-create-contract.md).
 
 -   When the contract workflow is complete, the state of the contract request is changed to Closed complete.
 
 ## What to do next
 
-To learn more, see [Integrate with Contract Management Pro](../task/quote-management-integrate-contract-management.md).
+To learn more, see [Integrate with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-management-integrate-contract-management.md).
 

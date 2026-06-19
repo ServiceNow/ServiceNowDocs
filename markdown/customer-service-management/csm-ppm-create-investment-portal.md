@@ -2,7 +2,10 @@
 title: Create an investment board on the CSM Investment Portal
 description: Create an investment board on the CSM Investment Portal and add the desired customer service project-specific information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-ppm-create-investment-portal.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -25,7 +28,7 @@ Role required: customer project manager \(it\_project\_manager + sn\_customerser
 
 3.  Fill in the fields on the Create New pop-up window.
 
-    For more information about these fields, see [Create an investment board](https://www.servicenow.com/docs/access?context=create-an-investment-report&version=zurich&pubname=zurich-it-business-management&ft:locale=en-US).
+    For more information about these fields, see Create an investment board.
 
 4.  Click **Create**.
 

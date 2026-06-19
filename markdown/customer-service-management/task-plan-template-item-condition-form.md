@@ -2,7 +2,10 @@
 title: Template item condition form
 description: The Template item condition form displays displays the conditions that apply to a that template item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/task-plan-template-item-condition-form.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1

@@ -2,6 +2,7 @@
 title: Amazon Web Services S3 Bucket Out Of Box Catalog items
 description: Cloud Services Catalog AWS S3 Bucket with secure access and encryption.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/aws-s3-bucket-out-of-box-catalogs.html
 release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -19,8 +20,8 @@ This is a fully functional sample catalog item that can be used to order an obje
 
 Order an AWS S3 storage bucket that includes security measures such as the prevention of public access and server-side encryption that uses Amazon S3 managed keys \(SSE-S3\). These security features will ensure that data stored in the bucket is protected and secure.
 
--   **[Amazon Web Services S3 Bucket Out Of Box permissions](aws-s3-bucket-oob-permissions.md)**  
+-   **[Amazon Web Services S3 Bucket Out Of Box permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/aws-s3-bucket-oob-permissions.md)**  
 AWS S3 Bucket OOB catalog items permissions. S3 Bucket supports provision and deprovision only.
 
-**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](../concept/out-of-the-box-catalog-items.md)
+**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md)
 

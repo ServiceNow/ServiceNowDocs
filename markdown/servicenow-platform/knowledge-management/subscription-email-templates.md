@@ -2,6 +2,7 @@
 title: Knowledge subscription email notification templates
 description: The knowledge subscription feature uses email notification templates to send subscription notifications to knowledge users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/subscription-email-templates.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -23,9 +24,9 @@ The knowledge subscription feature uses email notification templates to send sub
 |KM Subscription: Article revised|Knowledge article|
 |KM Subscription: Article commented|Knowledge article|
 
-Users with the admin or knowledge\_admin role can customize these email notification templates. To locate the template, navigate to **System Notifications** &gt; **Email** &gt; **Notifications**. For more information about customizing a template, see [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Users with the admin or knowledge\_admin role can customize these email notification templates. To locate the template, navigate to **System Notifications** &gt; **Email** &gt; **Notifications**. For more information about customizing a template, see Create an email notification.
 
 Subscription notifications include a link at the bottom of the email to the user's Notification Preferences page.
 
-**Parent Topic:**[Knowledge Management reference](knowledge-management-reference.md)
+**Parent Topic:**[Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/knowledge-management-reference.md)
 

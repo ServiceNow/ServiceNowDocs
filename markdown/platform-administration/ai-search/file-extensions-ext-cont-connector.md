@@ -2,6 +2,7 @@
 title: Binary file extensions supported in External Content Connectors
 description: Connector administrators can restrict the binary file types an external content connector retrieves by specifying file extensions in inclusion or exclusion filters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/file-extensions-ext-cont-connector.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -111,11 +112,11 @@ Rich Text Format
 </td></tr></tbody>
 </table>**Note:** Some external content connectors include support for indexing searchable content and metadata from additional content formats, such as video transcriptions or source-specific native document formats. Examples of source-specific native document formats include `.aspx` pages in Microsoft SharePoint Online and Wiki pages in Atlassian Confluence Cloud.
 
-For details on defining file-extension inclusion and exclusion filters for external content connectors, see [Configuring crawl settings for external content connectors](../concept/cfg-crawl-settings-ext-cont-connector.md).
+For details on defining file-extension inclusion and exclusion filters for external content connectors, see [Configuring crawl settings for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/cfg-crawl-settings-ext-cont-connector.md).
 
 Binary files may be retrieved as content items, or as attachments found on content items. The exact behavior depends on the connector type.
 
 **Important:** The maximum file size for binary files is 25 MB. Keyword indexing processes up to the first 1MB of text. Use semantic search to index data containing between 1MB and 25 MB of text.
 
-**Parent Topic:**[External Content Connectors reference](../concept/reference-ext-cont-connectors.md)
+**Parent Topic:**[External Content Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/reference-ext-cont-connectors.md)
 

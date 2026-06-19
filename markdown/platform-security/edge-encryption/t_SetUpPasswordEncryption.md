@@ -2,6 +2,7 @@
 title: Obfuscate passwords in the properties file
 description: Obfuscate passwords in the edgeencryption.properties file to be able to share the properties file without revealing clear text passwords.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/t\_SetUpPasswordEncryption.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -19,7 +20,7 @@ Obfuscate passwords in the `edgeencryption.properties` file to be able to share 
 
 Role required: admin
 
-Make sure that the Edge Encryption proxy server is set up and successfully running before you set this property. Before setting this property, [Stop the Edge Encryption proxy](t_StoptheProxy.md).
+Make sure that the Edge Encryption proxy server is set up and successfully running before you set this property. Before setting this property, [Stop the Edge Encryption proxy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_StoptheProxy.md).
 
 ## About this task
 
@@ -35,18 +36,18 @@ Setting this property may make it difficult to debug connection and access issue
 
 3.  Open the `edgeencryption.properties` file.
 
-4.  Set the [password encryption property](../reference/edge-encryption-proxy-server-properties.md).
+4.  Set the [password encryption property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/edge-encryption-proxy-server-properties.md).
 
 5.  Save and close the `edgeencryption.properties` file.
 
 
 ## What to do next
 
-After setting this property, you can [Start the Edge Encryption proxy](t_RuntheProxy.md).
+After setting this property, you can [Start the Edge Encryption proxy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_RuntheProxy.md).
 
-**Parent Topic:**[Install the Edge Encryption proxy server using the command line installer](manual-proxy-install.md)
+**Parent Topic:**[Install the Edge Encryption proxy server using the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/manual-proxy-install.md)
 
-**Previous topic:**[Start the Edge Encryption proxy](t_RuntheProxy.md)
+**Previous topic:**[Start the Edge Encryption proxy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_RuntheProxy.md)
 
-**Next topic:**[Manually add an additional proxy](t_AddAdditionalProxies.md)
+**Next topic:**[Manually add an additional proxy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_AddAdditionalProxies.md)
 

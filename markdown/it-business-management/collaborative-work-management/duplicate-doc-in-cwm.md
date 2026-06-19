@@ -2,6 +2,7 @@
 title: Duplicate a Doc in CWM
 description: Save time by duplicate an existing Doc to copy all its pages and content without having to copy the information manually in the Collaborative Work Management workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/collaborative-work-management/duplicate-doc-in-cwm.html
 release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -17,7 +18,7 @@ Save time by duplicate an existing Doc to copy all its pages and content without
 
 ## Before you begin
 
-[Create a Doc in CWM](create-a-doc-in-cwm.md).
+[Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md).
 
 Role required: sn\_cwm.cwm\_user
 
@@ -29,7 +30,7 @@ Role required: sn\_cwm.cwm\_user
 
 3.  From the **More actions** menu of the Doc, select **Duplicate**.
 
-    ![Duplicate a Doc in CWM.](../images/cwm-duplicate-doc.png)
+    \[Omitted image "cwm-duplicate-doc.png"\] Alt text: Duplicate a Doc in CWM.
 
 4.  Provide a name for the new Doc in the **Doc name** field.
 
@@ -42,5 +43,5 @@ Role required: sn\_cwm.cwm\_user
 
 The new Doc is added to the same Space as the original Doc. If necessary, you can move it to a different Space or a different position in the same Space.
 
-**Parent Topic:**[Collaborative documentation using CWM](../concept/cwm-docs.md)
+**Parent Topic:**[Collaborative documentation using CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/cwm-docs.md)
 

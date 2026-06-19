@@ -2,6 +2,7 @@
 title: Add workspace contract responsibilities in Workplace Central
 description: Add workplace responsibilities to indicate who \(landlord or tenant\) is responsible for different activities such as lawn maintenance, painting, repairing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-lease-administration/wpc-add-workspace-contract-responsibilities.html
 release: zurich
 product: Workplace Lease Administration
 classification: workplace-lease-administration
@@ -29,7 +30,7 @@ Role required: sn\_wsd\_la.workplace\_central\_user, sn\_wsd\_la.manager or sn\_
 
 4.  In the **Workplace Contract Responsibilities** related list, select **New**.
 
-5.  For field details in the Workplace Contract Responsibility form, see [Add workplace contract responsibilities in Core UI](add-workplace-contract-responsibilities.md).
+5.  For field details in the Workplace Contract Responsibility form, see [Add workplace contract responsibilities in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-lease-administration/add-workplace-contract-responsibilities.md).
 
 6.  Select **Submit**.
 
@@ -38,5 +39,5 @@ Role required: sn\_wsd\_la.workplace\_central\_user, sn\_wsd\_la.manager or sn\_
 
 The workplace contract responsibilities are added.
 
-**Parent Topic:**[Create workplace contracts in Workplace Central](wpc-create-lease-contracts.md)
+**Parent Topic:**[Create workplace contracts in Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-lease-administration/wpc-create-lease-contracts.md)
 

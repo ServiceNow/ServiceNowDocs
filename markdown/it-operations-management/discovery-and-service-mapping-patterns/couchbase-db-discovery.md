@@ -2,6 +2,7 @@
 title: Couchbase Database discovery
 description: The ServiceNow Discovery application uses the Couchbase Instance discovery pattern to find and map Couchbase Database instances and their clusters. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/couchbase-db-discovery.html
 release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -21,13 +22,13 @@ Discovery uses the Couchbase Instance discovery pattern to run horizontal and to
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
 -   The Couchbase Database must be installed on a Linux Server: Red Hat 7.9 or Ubuntu 20.
 -   Ensure that CLI tools are installed on the servers.
--   On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=zurich&pubname=zurich-platform-security&ft:locale=en-US). Configure the credentials with the following permissions:
+-   On the ServiceNow AI Platform, configure SSH credentials. Configure the credentials with the following permissions:
     -   Discovery permissions
     -   Permissions to list files, such as VERSION.txt, in the Couchbase installation folders on the Linux Server.
     -   Permissions to execute the command, `systemctl status couchbase-server`, on the Linux Server.
@@ -181,7 +182,7 @@ Couchbase Cluster \[cmdb\_ci\_couchbase\_cluster\]
 </td></tr></tbody>
 </table>## CMDB data model
 
-![Couchbase DB discovery CMDB data model.](../image/couchbase-db-discovery-model.png "Couchbase DB discovery CMDB data model")
+\[Omitted image "couchbase-db-discovery-model.png"\] Alt text: Couchbase DB discovery CMDB data model.
 
-**Parent Topic:**[Available on-premise discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

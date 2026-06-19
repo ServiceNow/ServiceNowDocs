@@ -2,6 +2,7 @@
 title: Add existing attributes to a GRC workflow state
 description: Add existing Governance, Risk, and Compliance state model attributes to add special capabilities to workflow steps without custom code. Attributes control features like approval requirements, report generation, and Open Security Controls Assessment Language \(OSCAL\) file exports for specific workflow states.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/continuous-risk-monitoring/configure-state-model-attributes.html
 release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -28,7 +29,7 @@ With CAM, you get the following attributes:
 -   **Generate SSP**: Generate a System Security Plan \(SSP\) document.
 -   Required approval: Requires approval before proceeding to the next step.
 
-**Note:** To configure state model attributes with the CAM specific attributes, perform the tasks in this topic. To create a new state model attribute, see [Create a new state model attribute](configure-new-state-model-attributes.md).
+**Note:** To configure state model attributes with the CAM specific attributes, perform the tasks in this topic. To create a new state model attribute, see [Create a new state model attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/configure-new-state-model-attributes.md).
 
 Role required: sn\_irm\_cont\_auth.admin
 
@@ -42,13 +43,13 @@ Role required: sn\_irm\_cont\_auth.admin
 
 4.  On the selected workflow state record, select **State Model Attributes** tab.
 
-    ![State model attributes tab.](../image/WF-state-edit-attributes2.png)
+    \[Omitted image "WF-state-edit-attributes2.png"\] Alt text: State model attributes tab.
 
 5.  To add the existing attributes, select **Edit**.
 
 6.  Select attribute from the **Collection** list.
 
-    ![Editing state model attribute.](../image/WF-state-edit-attributes1.png)
+    \[Omitted image "WF-state-edit-attributes1.png"\] Alt text: Editing state model attribute.
 
 7.  Select the right arrow icon \(&gt;\) to move selected attribute to the **State Model Attributes List** on the right.
 

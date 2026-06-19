@@ -2,6 +2,7 @@
 title: Create KPIs by adding suppliers to a KPI template
 description: You can add a new supplier whose performance you want to measure using the KPI template. Adding a supplier to a KPI template generates corresponding KPI records and KPI collection tasks for this supplier.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-kpi-template.html
 release: zurich
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -30,7 +31,7 @@ The **Supplier** related tab for a KPI template displays the following informati
 
 1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/cases-list-icon.png)\) and navigate to **Lists** &gt; **Performance management** &gt; **KPI Templates**.
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and navigate to **Lists** &gt; **Performance management** &gt; **KPI Templates**.
 
 3.  In the Name column, select the link to the KPI template.
 
@@ -38,7 +39,7 @@ The **Supplier** related tab for a KPI template displays the following informati
 
     The Add supplier dialog box is displayed which shows the list of existing suppliers. You can select suppliers from this list to generate template-corresponding KPIS for the selected suppliers.
 
-5.  Select **Add**. ![Selected button to add a new supplier.](../image/add-supplier-to-kpi.png)
+5.  Select **Add**.
 
     Template-corresponding KPIs are created for the added suppliers and the newly added supplier is shown in the **Suppliers** related tab for the KPI template. Also, corresponding KPI collection tasks are created for the suppliers.
 
@@ -47,7 +48,7 @@ The **Supplier** related tab for a KPI template displays the following informati
 
 ## What to do next
 
-[Run segmentation rule](run-segmentation-rule.md).
+[Run segmentation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/run-segmentation-rule.md).
 
-**Parent Topic:**[Configure Supplier Relationship and Performance Management](../concept/configuring-supplier-performance-mgmt.md)
+**Parent Topic:**[Configure Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/configuring-supplier-performance-mgmt.md)
 

@@ -2,6 +2,7 @@
 title: Create a manual factor
 description: Create manual factors to evaluate and assess risks on a risk assessment instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/define-manual-factors.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -177,5 +178,5 @@ Guidance on how to respond to the factor. If the risk assessor does not understa
 
 The factor is published and is ready for use in a Risk Assessment Methodology.
 
-**Parent Topic:**[Perform Advanced Risk Assessment](../concept/use-advanced-risk-assessment.md)
+**Parent Topic:**[Perform Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/use-advanced-risk-assessment.md)
 

@@ -2,6 +2,7 @@
 title: Workflow activity pinning
 description: Workflow administrators can pin a custom activity to prevent the system from automatically updating that activity when a new version is downloaded from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-activities/c\_ActivityPinning.html
 release: zurich
 product: Workflow Activities
 classification: workflow-activities

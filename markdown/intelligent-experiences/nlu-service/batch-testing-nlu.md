@@ -2,6 +2,7 @@
 title: Multi-model Batch Testing
 description: Test multiple Natural Language Understanding \(NLU\) models against a large set of utterances to evaluate the performance of the models. Add test sets, test multiple models, and see test results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/nlu-service/batch-testing-nlu.html
 release: zurich
 product: NLU Service
 classification: nlu-service
@@ -19,13 +20,13 @@ Test multiple Natural Language Understanding \(NLU\) models against a large set 
 
 Use Multi-model Batch Testing to create and upload test sets comprised of utterances and their expected intents. You can then run tests against your NLU models.
 
-Multi-model Batch Testing works with models for all supported NLU languages. See [NLU language support](nlu-language-support.md).
+Multi-model Batch Testing works with models for all supported NLU languages. See [NLU language support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/nlu-language-support.md).
 
 ## Installation
 
 Multi-model Batch Testing is part of the NLU Workbench - Advanced Features app available on the ServiceNow® Store.
 
-To use Multi-model Batch Testing, ensure that the NLU Workbench - Advanced Features \(com.snc.nlu.workbench.advanced\) plugin is active on your instance. For more information, see [Install NLU Workbench - Advanced Features](../task/install-nlu-workbench-adv-features.md) and [Activate the NLU Workbench](../task/activate-nlu-workbench.md).
+To use Multi-model Batch Testing, ensure that the NLU Workbench - Advanced Features \(com.snc.nlu.workbench.advanced\) plugin is active on your instance. For more information, see [Install NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/install-nlu-workbench-adv-features.md) and [Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/activate-nlu-workbench.md).
 
 ## Test sets
 
@@ -37,9 +38,9 @@ By including these types of utterances, the test better assesses the model's abi
 
 **Note:** Certain test utterances are skipped during the test if their expected intent does not match any intents in the models.
 
-To create a test set, see [Create a test set](../task/import-batch-test-set.md).
+To create a test set, see [Create a test set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/import-batch-test-set.md).
 
-After you have a test set, you can test trained NLU models. To begin testing, see [Run a multi-model batch test](../task/run-batch-test.md).
+After you have a test set, you can test trained NLU models. To begin testing, see [Run a multi-model batch test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/run-batch-test.md).
 
 After running a test, your results appear on the **Test results** page.
 
@@ -47,7 +48,7 @@ After running a test, your results appear on the **Test results** page.
 
 The **Test results** page lists your completed and in-progress tests. At a glance, the results page shows the models tested against, the number of utterances, and prediction percentages.
 
-![Multi-model Batch Testing page with completed tests.](../images/batch-testing-nlu01.png)
+\[Omitted image "batch-testing-nlu01.png"\] Alt text: Multi-model Batch Testing page with completed tests.
 
 To see the details of a test result, click the name of the test set.
 
@@ -59,12 +60,5 @@ The **Detailed results** tab lists information about each utterance that was tes
 
 You can also export the test results to a CSV file by clicking **Export**. The file includes the same columns as the detailed results page.
 
-For more information on understanding your test results, see [Test and publish your model](testing-your-model.md).
-
--   **[Create a test set](../task/import-batch-test-set.md)**  
-To create or add to an NLU test set, you can upload a file of test utterances matched with correct intents. Use the test set to assess the performance of your model.
--   **[Run a multi-model batch test](../task/run-batch-test.md)**  
-Test multiple Natural Language Understanding \(NLU\) models against a test set. Evaluate the quality of your models and refine them to improve intent prediction.
-
-**Parent Topic:**[NLU Workbench - Advanced Features](nlu-workbench-advanced-features.md)
+For more information on understanding your test results, see [Test and publish your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/testing-your-model.md).
 

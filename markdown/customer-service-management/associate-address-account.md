@@ -2,7 +2,10 @@
 title: Associate an address to an account
 description: You can associate addresses to an account using the Account Address related list on the account form or the location form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/associate-address-account.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -31,6 +34,6 @@ Role required: admin or customer\_admin or sn\_customerservice\_manager
 
 4.  Fill the details in account address form and select **Submit**.
 
-    For more information about the table fields, see [Account Address table](../concept/account-address-table.md).
+    For more information about the table fields, see [Account Address table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/account-address-table.md).
 
 

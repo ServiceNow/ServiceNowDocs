@@ -2,6 +2,7 @@
 title: Create a task bundling policy
 description: Create a task bundling policy to apply various rules for dynamically bundling tasks with Field Service Task Bundling.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/create-a-task-bundling-policy.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -48,7 +49,7 @@ Task bundling policies are groups of rules that dictate how work order tasks are
 
 ## What to do next
 
-Policies require rules and qualifiers to run. For more information, see [Create a task bundling rule](create-a-task-bundling-rule.md) and [Add qualifiers to a task bundling policy](add-qualifier-bundling-policy.md).
+Policies require rules and qualifiers to run. For more information, see [Create a task bundling rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/create-a-task-bundling-rule.md) and [Add qualifiers to a task bundling policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/add-qualifier-bundling-policy.md).
 
-After a policy is complete, you can schedule them or run them manually. For more information, see [Schedule dynamic task bundling](schedule-dynamic-task-bundling.md) or [Run a task bundling policy manually](run-a-task-bundling-policy.md).
+After a policy is complete, you can schedule them or run them manually. For more information, see [Schedule dynamic task bundling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/schedule-dynamic-task-bundling.md) or [Run a task bundling policy manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/run-a-task-bundling-policy.md).
 

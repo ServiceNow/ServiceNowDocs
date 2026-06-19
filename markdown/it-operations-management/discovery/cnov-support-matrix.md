@@ -2,6 +2,7 @@
 title: Kubernetes Visibility Agent support matrix
 description: The Kubernetes Visibility Agent component is supported on several versions of Kubernetes and OpenShift and in various Kubernetes environments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/cnov-support-matrix.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -20,5 +21,5 @@ The Kubernetes Visibility Agent component is supported on several versions of Ku
 
 For the latest information, see the [Kubernetes Visibility Agent \(formerly CNO for Visibility\) Support Matrix \[KB1700730\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1700730) article in the Now Support Knowledge Base.
 
-**Parent Topic:**[Kubernetes Visibility Agent Reference](cnov-reference.md)
+**Parent Topic:**[Kubernetes Visibility Agent Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cnov-reference.md)
 

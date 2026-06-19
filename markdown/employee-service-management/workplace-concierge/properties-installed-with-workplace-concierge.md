@@ -2,6 +2,7 @@
 title: Properties installed with Workplace Concierge
 description: Customize the system properties available with Workplace Concierge as required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-concierge/properties-installed-with-workplace-concierge.html
 release: zurich
 product: Workplace Concierge
 classification: workplace-concierge
@@ -45,7 +46,7 @@ Allow user to have parallel reservation from desk suggestions card on workplace 
 
 Property to allow a parallel or multiple desk reservations for a day from the Desk suggestions card in Workplace Service Delivery for Mobile. By default, this property is set to true. If it is set to false, employees cannot have multiple or parallel desk reservations for a day using the Desk Suggestions card. After reserving a space, they will not see the Space Suggestions for other workspaces.
 
-By default, allow\_overlapping\_reservations is set to false. If this property is not selected or is false, after making a reservation, Space Suggestions card is hidden. A message is displayed "Reservation created for your in-office day on &lt;calendar date&gt;, &lt;calendar weekday&gt;." Changing the reservation date shows Space suggestions facet. If this property is selected or true, Space Suggestions facet is visible. For more information, see [Create a reservation for a day in Workplace](../../wsd-for-mobile/task/manage-schedule-emp-center.md).
+By default, allow\_overlapping\_reservations is set to false. If this property is not selected or is false, after making a reservation, Space Suggestions card is hidden. A message is displayed "Reservation created for your in-office day on &lt;calendar date&gt;, &lt;calendar weekday&gt;." Changing the reservation date shows Space suggestions facet. If this property is selected or true, Space Suggestions facet is visible. For more information, see [Create a reservation for a day in Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery-for-mobile/manage-schedule-emp-center.md).
 
 </td></tr><tr><td>
 
@@ -55,7 +56,7 @@ Specifies the number of past days to consider when generating reservation sugges
 
 </td><td>
 
-Specifies the maximum number of past days the application considers when proposing a workspace to an employees. Max value is 90 days. Allowing users to have parallel reservations from the Space suggestions card can be set to True or False \(Check or Uncheck\). For more information, see [Configure a reservable module](../../wsd-reservation-management/task/config-reservable-module.md).
+Specifies the maximum number of past days the application considers when proposing a workspace to an employees. Max value is 90 days. Allowing users to have parallel reservations from the Space suggestions card can be set to True or False \(Check or Uncheck\). For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
 </td></tr><tr><td>
 
@@ -75,14 +76,14 @@ List of space types: 5f017383eb512010b89bfdfc9c5228c8,20713b83eb512010b89bfdfc9c
 
 Set the **Available-in** Reservable Module Configuration property to **Workplace experience** in the Reservable module Configuration. Make sure **All day** is enabled at the Reservable module level. By default, this property is enabled for the **Desks** Reservable Module Configuration.
 
-For more information, see [Configure a reservable module](../../wsd-reservation-management/task/config-reservable-module.md) and [Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile](../../wsd-for-mobile/concept/workplace-preference-schedule.md).
+For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/config-reservable-module.md) and [Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery-for-mobile/workplace-preference-schedule.md).
 
 For more information, see:
 
--   [Add a space type configuration](../../workplace-service-delivery/task/add-space-type-configuration-wsd.md)
--   [Add a space using Workplace Space Management](../../workplace-space-management/task/add-a-space.md)
--   [Space suggestion Configuration](../task/space-suggestion-configuration.md)
--   [Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile](../../wsd-for-mobile/concept/workplace-preference-schedule.md).
+-   [Add a space type configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/add-space-type-configuration-wsd.md)
+-   [Add a space using Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-space-management/add-a-space.md)
+-   [Space suggestion Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-concierge/space-suggestion-configuration.md)
+-   [Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery-for-mobile/workplace-preference-schedule.md).
 
 </td></tr><tr><td>
 
@@ -90,7 +91,7 @@ The maximum number of days an employee can select at once through the Workplace 
 
 </td><td>
 
-Option to enter the maximum number of days an employee can select on the calendar component in the Workplace page. Default value is 10 days. Negative value \(zero\) is not supported. For more information, see [Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile](../../wsd-for-mobile/concept/workplace-preference-schedule.md).
+Option to enter the maximum number of days an employee can select on the calendar component in the Workplace page. Default value is 10 days. Negative value \(zero\) is not supported. For more information, see [Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery-for-mobile/workplace-preference-schedule.md).
 
 When this property is set, the **Select multiple days** toggle button is available on the Workplace page. Employees can select multiple days on the calendar for making bulk reservations. For example, if this property is set to 5, employees can see 5 In-office days selected on the calendar.
 
@@ -101,5 +102,5 @@ If there is no date selected, the system shall select the first allowed \(possib
 When an employee removes a date from the calendar, the suggestion is removed from the Space Suggestions list view.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Concierge reference](../concept/workplace-concierge-reference.md)
+</table>**Parent Topic:**[Workplace Concierge reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-concierge/workplace-concierge-reference.md)
 

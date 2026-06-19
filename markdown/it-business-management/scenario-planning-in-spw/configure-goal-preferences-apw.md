@@ -2,6 +2,7 @@
 title: Configure goal preferences
 description: Configure goal preferences to manage goals such as the calendar type used for goal setting, weighted average calculation for goal progress, and deletion of goals and targets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/configure-goal-preferences-apw.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -25,10 +26,10 @@ Role required: sn\_gf.goal\_admin
 
 2.  On the Goal Preferences form, configure the properties.
 
-    For properties information, see [Goal Preferences form](../../goal-framework/reference/goal-preferences-form.md).
+    For properties information, see [Goal Preferences form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/goal-preferences-form.md).
 
 3.  Click **Save**.
 
 
-**Parent Topic:**[Configuring goals in Strategic Planning](../concept/configuring-goal-framework-apw.md)
+**Parent Topic:**[Configuring goals in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/configuring-goal-framework-apw.md)
 

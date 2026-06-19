@@ -2,6 +2,7 @@
 title: Working with batched update sets
 description: Batch update sets enable you to group update sets together so you can preview and commit them in bulk.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/system-update-sets/us-hier-overview.html
 release: zurich
 product: System Update Sets
 classification: system-update-sets
@@ -24,20 +25,20 @@ The system organizes update set batches into a hierarchy. One update set can act
 
 When you preview or commit the base update set, you preview or commit the entire batch. The system determines the processing order, and checks for collisions, based on the dates the changes were recorded, and on their sequential ancestry. Their ancestries are the specific instances in which the changes in the update sets took place.
 
-**Note:** For more details, see [Compare local update sets](../../task/t_CompareLocalUpdateSets.md#) and [View customizations and compare with current version](../../task/view-customer-update-records.md).
+**Note:** For more details, see [Compare local update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/t_CompareLocalUpdateSets.md) and [View customizations and compare with current version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/view-customer-update-records.md).
 
 ## Example of batched update sets
 
 The list of update set records reflects the batch hierarchy in the **Parent** and**Batch Base** columns.
 
-![List of batched update sets](../../image/xmpl-batch-us.png "List of batched update sets")
+\[Omitted image "xmpl-batch-us.png"\] Alt text: List of batched update sets
 
-![Diagram of batched update set hierarchy](../../image/xmpl-a-diag-batched-update-sets.png "Diagram of batched update set hierarchy")
+\[Omitted image "xmpl-a-diag-batched-update-sets.png"\] Alt text: Diagram of batched update set hierarchy
 
--   **[Reorganize a batch of update sets](../task/us-hier-reorg.md)**  
+-   **[Reorganize a batch of update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/us-hier-reorg.md)**  
 You can remove an individual update set from the batch or change its parent.
--   **[Back out batched update set](../../reference/us-batch-backout.md)**  
+-   **[Back out batched update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/us-batch-backout.md)**  
 Back out a batched update set by following the backout procedure for the base update set for the batch. You can also back out any child update set independently.
 
-**Parent Topic:**[System update sets](../../concept/system-update-sets.md)
+**Parent Topic:**[System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/system-update-sets.md)
 

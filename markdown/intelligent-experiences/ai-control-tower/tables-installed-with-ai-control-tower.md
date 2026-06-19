@@ -2,6 +2,7 @@
 title: Tables installed with AI Control Tower
 description: Certain tables or fields are installed along with the activation of the AI Control Tower core plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/tables-installed-with-ai-control-tower.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
@@ -40,5 +41,5 @@ The following table is provided to understand the AI assessment and AI task fiel
 |State|state| |
 |Type|type|Choice|
 
-**Parent Topic:**[AI Control Tower reference](aict-references.md)
+**Parent Topic:**[AI Control Tower reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/aict-references.md)
 

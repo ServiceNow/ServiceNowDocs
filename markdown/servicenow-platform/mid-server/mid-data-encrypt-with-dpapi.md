@@ -2,6 +2,7 @@
 title: Encrypt MID Server configuration data with DPAPI
 description: Windows Data Protection API \(DPAPI\) encrypts sensitive data from the config.xml file, based on the MID Server user account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/mid-server/mid-data-encrypt-with-dpapi.html
 release: zurich
 product: MID Server
 classification: mid-server
@@ -56,5 +57,5 @@ DPAPI encryption provides another level of security for data such as credentials
         The data is re-encrypted by the operating system, based the new MID Server user account.
 
 
-**Parent Topic:**[MID Server configuration file security](../reference/mid-server-encrypter-api.md)
+**Parent Topic:**[MID Server configuration file security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-server-encrypter-api.md)
 

@@ -2,6 +2,7 @@
 title: Set up the Google Meet spoke
 description: Integrate the ServiceNow instance and Google Meet by creating a custom OAuth application in the Google Cloud console to authenticate ServiceNow requests.Create OAuth credentials that your ServiceNow instance uses to have its requests for connection authenticated by Google Cloud console.Set up the connection between your ServiceNow instance and the Google Meet APIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/set-up-the-google-meet-spoke.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
@@ -35,7 +36,7 @@ Role required: admin
 
 2.  Select the project button.
 
-    ![Project button on Google Cloud console landing page.](../image/gmeet-spk-gconsole-new-proj.png)
+    \[Omitted image "gmeet-spk-gconsole-new-proj.png"\] Alt text: Project button on Google Cloud console landing page.
 
 3.  On the Select a project window, select **NEW PROJECT**.
 
@@ -49,7 +50,7 @@ Role required: admin
 
         Notifications show that the project is created.
 
-        ![Notification that the project is created.](../image/gmeet-spk-oauth-proj.png)
+        \[Omitted image "gmeet-spk-oauth-proj.png"\] Alt text: Notification that the project is created.
 
 5.  Select **SELECT PROJECT**.
 
@@ -65,17 +66,17 @@ Role required: admin
 
 11. Select the **CREDENTIALS** tab.
 
-    ![CREDENTIALS tab.](../image/gmeet-spk-creds-tab.png)
+    \[Omitted image "gmeet-spk-creds-tab.png"\] Alt text: CREDENTIALS tab.
 
 12. Select **+ CREATE CREDENTIALS** and then select **OAuth client ID.**
 
-    ![OAuth Client ID option in the CREDENTIALS tab.](../image/gmeet-spk-create-creds.png)
+    \[Omitted image "gmeet-spk-create-creds.png"\] Alt text: OAuth Client ID option in the CREDENTIALS tab.
 
 13. Select **CONFIGURE CONSENT SCREEN**.
 
     **Note:** Refresh token expires in 7 days when a Google Cloud Platform project with an OAuth consent screen is configured for an external user type and its publishing status is **Testing**. To get new OAuth, click **Edit and Get OAuth Token** by navigating to the associated connection.
 
-    ![Refresh token after it expires.](../image/gmeet-oauth.jpg)
+    \[Omitted image "gmeet-oauth.jpg"\] Alt text: Refresh token after it expires.
 
 14. Select **Internal**.
 
@@ -89,7 +90,7 @@ Role required: admin
     |User support email|Option to provide the email ID that the users of the OAuth application can use to request support.|
     |Developer contact information|Option to provide the email ID of the developer of the OAuth application.|
 
-    ![OAuth consent screen.](../image/gmeet-spk-consent-form.png)
+    \[Omitted image "gmeet-spk-consent-form.png"\] Alt text: OAuth consent screen.
 
 17. Select **SAVE AND CONTINUE**.
 
@@ -97,13 +98,13 @@ Role required: admin
 
 19. In the Filter field, enter the scope `meetings.space.created`, `openid`, and `meetings.space.readonly`, and then select the scope value.
 
-    ![OAuth scopes.](../image/gmeet-spk-scopes.png)
+    \[Omitted image "gmeet-spk-scopes.png"\] Alt text: OAuth scopes.
 
 20. Select **UPDATE**.
 
     The scopes appear under the Your non-sensitive scopes and Your sensitive scopes sections.
 
-    ![OAuth scopes appear.](../image/gmeet-spk-oauth-scopes.png)
+    \[Omitted image "gmeet-spk-oauth-scopes.png"\] Alt text: OAuth scopes appear.
 
 21. Select **SAVE AND CONTINUE**.
 
@@ -123,7 +124,7 @@ Role required: admin
 
 29. Copy the client ID and client secret and store at secure place.
 
-    ![Client details.](../image/gmeet-spk-client-details.png)
+    \[Omitted image "gmeet-spk-client-details.png"\] Alt text: Client details.
 
 30. Select **OK**.
 
@@ -148,7 +149,7 @@ Role required: admin
 
 5.  On the Google Meet tile, select **View Details**.
 
-    ![](../image/gmeet-spk-alias-card.png)
+    \[Omitted image "gmeet-spk-alias-card.png"\] Alt text:
 
 6.  Select **Configure**.
 
@@ -162,7 +163,7 @@ Role required: admin
     |Client Secret|OAuth client secret of the Google Meet OAuth app that you had created in the Google Cloud console.|
     |Redirect URL|OAuth redirect URL of your ServiceNow instance. Enter in this format `https://<your-instance-name>.service.now.com/oauth_redirect.do`.|
 
-    ![Create Connection form.](../image/gmeet-spk-conn-form.png)
+    \[Omitted image "gmeet-spk-conn-form.png"\] Alt text: Create Connection form.
 
 8.  Select **Create and Get OAuth Token**.
 

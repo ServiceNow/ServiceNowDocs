@@ -2,6 +2,7 @@
 title: Manage Legal Simple Contracts
 description: As administrator work on managing the legal contract templates and legal contracts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-simple-contracts/lsc-manage-landing-page.html
 release: zurich
 product: Legal Simple Contracts
 classification: legal-simple-contracts

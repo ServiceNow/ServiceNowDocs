@@ -2,6 +2,7 @@
 title: Employee Presence Calendar Widget form
 description: You can use the Employee Presence Calendar Widget form to add a widget to the calendar section on the Presence dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-concierge/presence-calendar-widget-frm.html
 release: zurich
 product: Workplace Concierge
 classification: workplace-concierge
@@ -25,5 +26,5 @@ You can use the Employee Presence Calendar Widget form to add a widget to the ca
 |Widget Parameters|Parameters passed to the widget.|
 |Active|Option to activate the section on the Presence dashboard.|
 
-**Parent Topic:**[Workplace Concierge reference](../concept/workplace-concierge-reference.md)
+**Parent Topic:**[Workplace Concierge reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-concierge/workplace-concierge-reference.md)
 

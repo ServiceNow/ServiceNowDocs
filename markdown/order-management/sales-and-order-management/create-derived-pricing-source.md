@@ -2,6 +2,7 @@
 title: Create rules for derived product pricing
 description: Define product pricing rules for deriving the price of a product dynamically based on the pricing of related products or a pricing source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/create-derived-pricing-source.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,13 +24,13 @@ Role required: sn\_csm\_pricing\_pricelist\_administrator or sn\_csm\_pricing\_p
 
 Use the Derived Price Matrix to define the rules for deriving the pricing of a product offering relative to other product offerings or a price source based on a transactional headers, such as quote
 
-**Note:** Once a matrix is published, you can't make further changes to it. If you have changes, create another version of the matrix with your updates and publish the new version. However, your admin can allow changes to a published matrix by using the **allow\_edit\_on\_published\_matrices** system property. To learn more, see [Allow changes to published pricing and product eligiblity matrices](edit-published-matrices.md)
+**Note:** Once a matrix is published, you can't make further changes to it. If you have changes, create another version of the matrix with your updates and publish the new version. However, your admin can allow changes to a published matrix by using the **allow\_edit\_on\_published\_matrices** system property. To learn more, see [Allow changes to published pricing and product eligiblity matrices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/edit-published-matrices.md)
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Pricing** &gt; **Pricing Matrices**.
 

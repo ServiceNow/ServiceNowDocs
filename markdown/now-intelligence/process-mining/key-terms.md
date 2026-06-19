@@ -2,6 +2,7 @@
 title: Process Mining key terms
 description: Key terms used in Process Mining.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/key-terms.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -32,5 +33,5 @@ Key terms used in Process Mining.
 |Sliders|Activity and connection slider tools on the process map screen for showing process steps. Using the sliders can show sequential connections between them in a more or less detailed view.|
 |Transition|A change of activity state.|
 
-**Parent Topic:**[Process Mining reference](../concept/process-mining-reference.md)
+**Parent Topic:**[Process Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/process-mining-reference.md)
 

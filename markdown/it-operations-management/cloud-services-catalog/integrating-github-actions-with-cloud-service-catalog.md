@@ -2,6 +2,7 @@
 title: Integrating GitHub Actions with Cloud-Services-Catalog
 description: Integrating Cloud-Services-Catalog with GitHub Actions helps your organization streamline continuous integration and deployment \(CI/CD\) processes directly from GitHub into the ServiceNow AI Platform self-service environment through a governed service catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/integrating-github-actions-with-cloud-service-catalog.html
 release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -31,16 +32,16 @@ The  GitHub Actions  pipelines with Cloud-Services-Catalog provides the foll
 -   Offers real-time visibility into workflow execution status and results.
 -   Integrates seamlessly with other ServiceNow processes for extended automation capabilities.
 
--   **[GitHub Actions Workflows by Cloud Services Catalog](github-actions-workflows-by-cloud-services-catalog.md)**  
+-   **[GitHub Actions Workflows by Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/github-actions-workflows-by-cloud-services-catalog.md)**  
 GitHub Actions workflows by Cloud Services Catalog uses automated Continuous Integration-Continuous Deployment \(CI/CD\) workflows to enable the rapid deployment of build requests to production environments.
--   **[Set up the GitHub Actions workflow](../task/setting-up-the-github-actions-console.md)**  
+-   **[Set up the GitHub Actions workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/setting-up-the-github-actions-console.md)**  
 Set up the GitHub Actions workflow as the first step before you run Discovery and order a catalog item in the Cloud Services Catalog application.
--   **[Run Discovery on GitHub Actions config provider](../task/run-discovery-on-github-actions-config-provider.md)**  
+-   **[Run Discovery on GitHub Actions config provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/run-discovery-on-github-actions-config-provider.md)**  
 Discover all repositories and workflows in your organization by adding a GitHub Actions config provider and running Discovery on it using the Cloud Services Catalog application.
--   **[Create a catalog item from a GitHub Actions template](../task/create-catalog-item-from-github-actions-template.md)**  
+-   **[Create a catalog item from a GitHub Actions template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/create-catalog-item-from-github-actions-template.md)**  
 Enable users to order items from an Employee Center service catalog through a GitHub Actions template.
--   **[Provision a GitHub Actions workflow using Cloud Services Catalog](../task/order-a-github-actions-catalog-item.md)**  
+-   **[Provision a GitHub Actions workflow using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/order-a-github-actions-catalog-item.md)**  
 Provision the GitHub Actions catalog by using the GitHub Actions catalog order form in the Cloud Services Catalog application.
 
-**Parent Topic:**[Configuring Cloud Services Catalog](configuring-csc.md)
+**Parent Topic:**[Configuring Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/configuring-csc.md)
 

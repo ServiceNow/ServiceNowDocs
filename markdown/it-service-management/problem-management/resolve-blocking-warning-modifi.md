@@ -2,6 +2,7 @@
 title: Resolve blocking and warning modifications
 description: Resolve any blocking modifications and resolve or verify any warning modifications that are detected on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/problem-management/resolve-blocking-warning-modifi.html
 release: zurich
 product: Problem Management
 classification: problem-management
@@ -36,5 +37,5 @@ For more information about blocking, warning, and informational modifications an
 
 ## What to do next
 
-[Migrate active records](migrate-active-records.md).
+[Migrate active records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/migrate-active-records.md).
 

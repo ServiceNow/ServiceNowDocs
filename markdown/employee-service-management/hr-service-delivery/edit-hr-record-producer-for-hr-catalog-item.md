@@ -2,6 +2,7 @@
 title: Edit the record producer for an HR catalog item
 description: Edit the record producer for an HR catalog item to define the required fields and how the item appears in the HR service catalog to employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/edit-hr-record-producer-for-hr-catalog-item.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,7 +26,7 @@ Role required: sn\_hr\_core.admin
 
 2.  Hover over the HR catalog item and click **Edit catalog item**.
 
-    ![Edit the record producer for an HR catalog item](../image/edit-hr-record-producer-for-hr-catalog-item.png)
+    \[Omitted image "edit-hr-record-producer-for-hr-catalog-item.png"\] Alt text: Edit the record producer for an HR catalog item
 
 3.  Fill in the fields on the form, as appropriate.
 
@@ -99,20 +100,20 @@ Expand help for all questions
     -   Reference
     -   Select Box
     -   Single Line Text
-    To learn more about the different types of variables and how to configure them, see [Types of service catalog variables](https://www.servicenow.com/docs/access?context=r_VariableTypes&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    To learn more about the different types of variables and how to configure them, see Types of service catalog variables.
 
 6.  In the **Available For** and **Not Available For** related lists, configure the user criteria to apply to the HR catalog item as appropriate.
 
-    User criteria controls which employees can access and request the HR catalog item in the HR service catalog. To learn more about user criteria and how they are used to control access to HR catalog items, see [Set security for items and categories](https://www.servicenow.com/docs/access?context=c_ServiceCatalogAccessControls&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    User criteria controls which employees can access and request the HR catalog item in the HR service catalog. To learn more about user criteria and how they are used to control access to HR catalog items, see Set security for items and categories.
 
-    **Note:** User criteria applied to the HR catalog item is employee-facing only, and has no relation to the HR criteria that is used to control what HR services an HR agent can request for an employee from the **Create New Case** module. See [Configure an HR service](configure-hr-service.md) for more information.
+    **Note:** User criteria applied to the HR catalog item is employee-facing only, and has no relation to the HR criteria that is used to control what HR services an HR agent can request for an employee from the **Create New Case** module. See [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-service.md) for more information.
 
 7.  Click **Update**.
 
 
-**Parent Topic:**[HR catalog item configuration](../concept/hr-catalog-item-configuration.md)
+**Parent Topic:**[HR catalog item configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-catalog-item-configuration.md)
 
-**Previous topic:**[Create an HR catalog item](create-hr-catalog-item.md)
+**Previous topic:**[Create an HR catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/create-hr-catalog-item.md)
 
-**Next topic:**[Edit the HR case template for an HR catalog item](edit-hr-case-template-for-hr-catalog-item.md)
+**Next topic:**[Edit the HR case template for an HR catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/edit-hr-case-template-for-hr-catalog-item.md)
 

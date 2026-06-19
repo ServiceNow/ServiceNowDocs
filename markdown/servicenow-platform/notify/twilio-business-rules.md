@@ -2,6 +2,7 @@
 title: Business rules installed with Twilio Direct driver
 description: Twilio installs the following business rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/notify/twilio-business-rules.html
 release: zurich
 product: Notify
 classification: notify
@@ -28,5 +29,5 @@ Twilio installs the following business rules.
 |Validate Fast Bulk SMS option|\[sn\_twilio\_direct\_twilio\_config\]|When **Twilio Notify bulk SMS** is enabled, validates the Twilio messaging and Notify service id.|
 |Validate Intelligent SMS option|\[sn\_twilio\_direct\_twilio\_config\]|When **Intelligent SMS handling** is enabled, validates the Twilio messaging service id.|
 
-**Parent Topic:**[Components installed with Twilio Direct driver](installed-with-twilio.md)
+**Parent Topic:**[Components installed with Twilio Direct driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/installed-with-twilio.md)
 

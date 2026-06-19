@@ -2,6 +2,7 @@
 title: API Service Graph Connector for Apigee X
 description: Use the ServiceNow API Service Graph Connector for Apigee X to import API proxy details from an Apigee X application into the Configuration Management Database \(CMDB\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-x.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -17,13 +18,13 @@ Use the ServiceNow® API Service Graph Connector for Apigee X to import API prox
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Key features
 
 Import data into a normalized data model for consistency across other technologies.
 
-The API Insights workspace provides a centralized interface where you can analyze and interact with API data, without needing direct access to Apigee X, enhancing visibility, governance, and collaboration across the API estate. To learn more, see [API Insights](../../api-insights/reference/api-insights.md).
+The API Insights workspace provides a centralized interface where you can analyze and interact with API data, without needing direct access to Apigee X, enhancing visibility, governance, and collaboration across the API estate. To learn more, see [API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/api-insights/api-insights.md).
 
 ## Supported ServiceNow versions
 
@@ -45,7 +46,7 @@ If you’re an existing customer using production instances, reach out to Now Su
 
 ## Configuring a connection for the connector
 
-You can configure a connection for the connector by using the SGC Central view in the CMDB Workspace. The view enables you to discover and install connectors, and then effectively manage the full life cycle of creating, editing, monitoring, and debugging connections. To configure the connector using SGC Central, see [Configure API Service Graph Connector for Apigee X using SGC Central](../../sgc-central/task/sgcc-configure-apigee-x.md).
+You can configure a connection for the connector by using the SGC Central view in the CMDB Workspace. The view enables you to discover and install connectors, and then effectively manage the full life cycle of creating, editing, monitoring, and debugging connections. To configure the connector using SGC Central, see [Configure API Service Graph Connector for Apigee X using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-apigee-x.md).
 
 ## Data mapping
 
@@ -77,7 +78,7 @@ SGA Apigee X Apigee Organization \[sn\_apigee\_x\_apigee\_organization\]
 
 </td><td>
 
-[Google Organization Project](../reference/api-sgc-apigee-x-tables.md#section_tkk_p4d_3cc)[Apigee API Gateway](../reference/api-sgc-apigee-x-tables.md#section_zws_54d_3cc)
+[Google Organization Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-x-tables.md)[Apigee API Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-x-tables.md)
 
 </td></tr><tr><td>
 
@@ -89,9 +90,9 @@ SGA Apigee X Managed API \[sn\_apigee\_x\_sga\_apigee\_x\_managed\_api\]
 
 </td><td>
 
-[Managed API](../reference/api-sgc-apigee-x-tables.md#section_bfw_xtj_4bc)[API Deployment](../reference/api-sgc-apigee-x-tables.md#section_f35_vtj_4bc)
+[Managed API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-x-tables.md)[API Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-x-tables.md)
 
-[Apigee API Gateway](../reference/api-sgc-apigee-x-tables.md#section_zws_54d_3cc)
+[Apigee API Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-x-tables.md)
 
 </td></tr><tr><td>
 
@@ -103,7 +104,7 @@ SGA Apigee X API Consumer \[sn\_apigee\_x\_sga\_apigee\_x\_api\_consumer\]
 
 </td><td>
 
-[API Consumer](../reference/api-sgc-apigee-x-tables.md#section_wyl_wtj_4bc)
+[API Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-x-tables.md)
 
 </td></tr><tr><td>
 
@@ -115,7 +116,7 @@ SGA Apigee X Frontend Backend \[sn\_apigee\_x\_sga\_apigee\_x\_frontend\_backend
 
 </td><td>
 
-[API Frontend](../reference/api-sgc-apigee-x-tables.md#section_lrd_wtj_4bc)[API Backend](../reference/api-sgc-apigee-x-tables.md#section_kkr_xtj_4bc)
+[API Frontend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-x-tables.md)[API Backend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-x-tables.md)
 
 </td></tr><tr><td>
 
@@ -127,7 +128,7 @@ SGA Apigee X API Product \[sn\_apigee\_x\_sga\_apigee\_x\_api\_product\]
 
 </td><td>
 
-[API Product Bundle](../reference/api-sgc-apigee-x-tables.md#section_blq_jn3_h2c)[Key Value](../reference/api-sgc-apigee-x-tables.md#section_ddb_rn3_h2c)
+[API Product Bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-x-tables.md)[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-x-tables.md)
 
 </td></tr><tr><td>
 
@@ -139,7 +140,7 @@ SGA Apigee X API Consumer Subscription \[sn\_apigee\_x\_sga\_apigee\_x\_api\_con
 
 </td><td>
 
-[API Consumer Subscription](../reference/api-sgc-apigee-x-tables.md#section_mfm_n43_h2c)[Key Value](../reference/api-sgc-apigee-x-tables.md#section_ddb_rn3_h2c)
+[API Consumer Subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-x-tables.md)[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-x-tables.md)
 
 </td></tr><tr><td>
 
@@ -151,7 +152,7 @@ SGA Apigee X API Consumer Access \[sn\_apigee\_x\_sga\_apigee\_x\_api\_consumer\
 
 </td><td>
 
-[API Consumer Access](../reference/api-sgc-apigee-x-tables.md#section_jll_ym3_h2c)
+[API Consumer Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-x-tables.md)
 
 </td></tr><tr><td>
 
@@ -163,7 +164,7 @@ SGA Apigee X Organization \[sn\_apigee\_x\_sga\_apigee\_x\_organization\]
 
 </td><td>
 
-[Cloud Organizations](../reference/api-sgc-apigee-x-tables.md#section_ecv_wtj_4bc)
+[Cloud Organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-x-tables.md)
 
 </td></tr><tr><td>
 
@@ -175,7 +176,7 @@ SGA Apigee X Folder \[sn\_apigee\_x\_sga\_apigee\_x\_folder\]
 
 </td><td>
 
-[Google Organization Folder](../reference/api-sgc-apigee-x-tables.md#section_fyl_ymd_3cc)
+[Google Organization Folder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-x-tables.md)
 
 </td></tr><tr><td>
 
@@ -187,12 +188,12 @@ SGA Apigee X Project \[sn\_apigee\_x\_sga\_apigee\_x\_project\]
 
 </td><td>
 
-[Google Organization Project](../reference/api-sgc-apigee-x-tables.md#section_tkk_p4d_3cc)
+[Google Organization Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-x-tables.md)
 
 </td></tr></tbody>
-</table>For more information on where data is saved when pulling data from an Apigee X application, see [Target tables for storing API Service Graph Connector for Apigee X data](../reference/api-sgc-apigee-x-tables.md).
+</table>For more information on where data is saved when pulling data from an Apigee X application, see [Target tables for storing API Service Graph Connector for Apigee X data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-x-tables.md).
 
-You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](integrationhub-etl.md) for more information.
+You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/integration-hub-etl/integrationhub-etl.md) for more information.
 
 ## Record removal process
 

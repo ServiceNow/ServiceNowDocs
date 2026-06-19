@@ -2,6 +2,7 @@
 title: Release form
 description: Product managers or release admins can create a release for a product or service version in Digital Product Release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-product-release/create-release-form.html
 release: zurich
 product: Digital Product Release
 classification: digital-product-release
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Digital Product Release, IT Service Management]
 
 Product managers or release admins can create a release for a product or service version in Digital Product Release.
 
-For more information, see [Create a release for a product or service](../task/dpr-create-release.md).
+For more information, see [Create a release for a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-create-release.md).
 
 <table id="table_tbx_pmr_lyb"><thead><tr><th>
 
@@ -77,9 +78,9 @@ Template that defines the release process. The template applies the predefined p
 -   If selected, the list displays only templates with the validates version option set to true.
 -   If clear, the list displays only templates with the validates version option set to false.
 
-For more information, see [Create a release template](../task/dpr-create-release-template.md#).
+For more information, see [Create a release template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-create-release-template.md).
 
-Based on the template you select, the release follows either a timeline-oriented or stage-oriented release process. For more information, see [Release for a product or service](../concept/dpr-product-release.md).
+Based on the template you select, the release follows either a timeline-oriented or stage-oriented release process. For more information, see [Release for a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-product-release.md).
 
 </td></tr><tr><td>
 
@@ -94,7 +95,7 @@ Release readiness target to indicate when the product or service should be ready
 
 **Note:** Release readiness target and Release target are used interchangeably. Both terms refer to the same concept - release readiness target date.
 
-For more information, see [Create a release readiness target](../task/dpr-create-rls-readiness-target.md).
+For more information, see [Create a release readiness target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-create-rls-readiness-target.md).
 
 This field appears only when **Out of band** is clear.
 
@@ -109,7 +110,7 @@ Option to make this release as an out-of-band release, which means it isn’t as
 -   **out\_of\_band\_release\_allowed** is set to **true**.
 -   You have one of the roles listed in **out\_of\_band\_release\_roles**.
 
-For more information, see [Digital Product Release properties](digital-product-release-properties.md).
+For more information, see [Digital Product Release properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/digital-product-release-properties.md).
 
 </td></tr><tr><td>
 
@@ -125,10 +126,10 @@ Release calendar
 
 </td><td>
 
-Release calendar on which the release is targeted. If a release target exists on the selected date in the release calendar, the release is added to it. If not, a release target is created and the release is added to it.For more information, see [Create a release calendar](../task/dpr-create-release-calendar.md).
+Release calendar on which the release is targeted. If a release target exists on the selected date in the release calendar, the release is added to it. If not, a release target is created and the release is added to it.For more information, see [Create a release calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-create-release-calendar.md).
 
 This field appears only when **Out of band** is selected.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Digital Product Release reference](../concept/dpr-reference.md)
+</table>**Parent Topic:**[Digital Product Release reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-reference.md)
 

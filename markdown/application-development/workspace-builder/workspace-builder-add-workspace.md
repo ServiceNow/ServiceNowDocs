@@ -2,6 +2,7 @@
 title: Add a workspace
 description: Create a workspace using Workspace Builder in ServiceNow Studio or App Engine Studio \(AES\). Workspaces provide agents, case managers, help desk professionals, and managers with tools to help answer customer questions and resolve customer problems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/workspace-builder/workspace-builder-add-workspace.html
 release: zurich
 product: Workspace Builder
 classification: workspace-builder
@@ -20,7 +21,7 @@ Create a workspace using Workspace Builder in ServiceNow Studio or App Engine St
 Role required:
 
 -   admin or Guided Application Creator for ServiceNow Studio.
--   sn\_app\_eng\_studio.user or delegated\_developer for AES. For more information, see [Delegate developers using AES](../../app-engine-studio/concept/aes-app-dev-workflow.md).
+-   sn\_app\_eng\_studio.user or delegated\_developer for AES. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## About this task
 
@@ -36,7 +37,7 @@ If you create a workspace from an App Engine Studio workspace experience templat
 
     -   To add a workspace using ServiceNow Studio, complete the following steps:
         1.  Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**.
-        2.  Select the create icon \(![create icon](../../servicenow-studio/image/sn-studio-add-icon.png)\) next to the Navigator panel and select **File**.
+        2.  Select the create icon \(\[Omitted image "sn-studio-add-icon.png"\] Alt text: create icon\) next to the Navigator panel and select **File**.
         3.  Select the **User interface** file type, and then select **Workspace**.
         4.  Select **Continue**.
         5.  Select **Begin**.
@@ -87,7 +88,7 @@ Roles
 
 User roles to limit who can access the workspace. -   You must specify at least one role to grant access to the workspace.
 -   To use a custom role for your workspace, you must create one in **Security** first.
- For more information, see [Add application security](../../app-engine-studio/concept/add-security.md).
+ For more information, see [Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-security.md).
 
 </td></tr></tbody>
 </table>3.  Select **Continue** to define data for your workspace.
@@ -107,11 +108,11 @@ User roles to limit who can access the workspace. -   You must specify at least 
 
     After you create the workspace in AES, you must edit it in Workspace Builder by adding or configuring components on each page.
 
-6.  Next to the workspace you created, select the additional actions icon \(![Additional actions icon](../../app-engine-studio/image/additional-actions-icon-purple.png)\) and then select **Edit**.
+6.  Next to the workspace you created, select the additional actions icon \(\[Omitted image "additional-actions-icon-purple.png"\] Alt text: Additional actions icon\) and then select **Edit**.
 
     You can also select the bar that lists the workspace in the Experience section of your app.
 
-    ![Select to edit a workspace](../../app-engine-studio/image/wb-edit-worspace-experience-purple.png "Edit a workspace")
+    \[Omitted image "wb-edit-worspace-experience-purple.png"\] Alt text: Select to edit a workspace
 
 7.  Edit your workspace home page in the In-line editor by selecting **Preview**.
 
@@ -121,13 +122,13 @@ User roles to limit who can access the workspace. -   You must specify at least 
 
     2.  If the workspace is missing an Access Control List \(ACL\), enter the roles that should have access in the Add user roles to continue modal and select the **Add roles** button.
 
-        For more information, see [Configure workspace settings in Workspace Builder](../../app-engine-studio/task/configure-workspace-settings.md) and [Access Control List Rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+        For more information, see [Configure workspace settings in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/configure-workspace-settings.md) and .
 
     3.  Adjust the home page elements and widgets by resizing, reorganizing, or reconfiguring them.
 
-        Editing your workspace home page works similarly to editing a dashboard on your workspace. For more information, see [Edit Platform Analytics dashboards](https://www.servicenow.com/docs/access?context=edit-db-in-ac&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+        Editing your workspace home page works similarly to editing a dashboard on your workspace. For more information, see .
 
-        **Note:** If the workspace was created before Tokyo, you must edit it in UI Builder. See [UI Builder](../../../administer/ui-builder/concept/ui-builder-overview.md) for more information.
+        **Note:** If the workspace was created before Tokyo, you must edit it in UI Builder. See [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/ui-builder-overview.md) for more information.
 
         If you created the workspace that contains a technical dashboard, Workspace Builder prompts you to **Open in UI Builder** when you try to edit the workspace.
 
@@ -135,7 +136,7 @@ User roles to limit who can access the workspace. -   You must specify at least 
 
     5.  Select **Exit Editing Mode** to stop editing in the In-line editor.
 
-8.  Edit the workspace in Workspace Builder. For more information, see [Edit a workspace in Workspace Builder](../../app-engine-studio/task/configure-workspace-builder.md).
+8.  Edit the workspace in Workspace Builder. For more information, see [Edit a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/configure-workspace-builder.md).
 
     You can also add more record pages to the workspace, if needed.
 
@@ -144,5 +145,5 @@ User roles to limit who can access the workspace. -   You must specify at least 
 
 ## What to do next
 
-For more information on using Workspace Builder to customize your workspace, see [Using Workspace Builder](../concept/using-workspace-builder.md).
+For more information on using Workspace Builder to customize your workspace, see [Using Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/using-workspace-builder.md).
 

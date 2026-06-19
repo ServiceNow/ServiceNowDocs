@@ -2,6 +2,7 @@
 title: Script actions
 description: You can use script actions to create server-side scripts that perform a variety of tasks, such as modifying a configuration item \(CI\), or managing failed login attempts. Script actions are triggered by events only.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/system-events/r\_ScriptActions.html
 release: zurich
 product: System Events
 classification: system-events
@@ -81,9 +82,9 @@ Script
 
 </td><td>
 
-Script that runs when the condition you define evaluates to true. Two additional objects are available in this script:-   event: a [GlideRecord](https://www.servicenow.com/docs/access?context=c_GlideRecordScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)- the sysevent that caused this to be invoked. If you want this first parameter on the event, use **event.parm1** or **event.parm2** for the second parameter. For the date/time of the event, use **event.sys\_created\_on**. To get the user ID that created the event \(if there was a user associated\), use **event.user\_id**.
+Script that runs when the condition you define evaluates to true. Two additional objects are available in this script:-   event: a GlideRecord- the sysevent that caused this to be invoked. If you want this first parameter on the event, use **event.parm1** or **event.parm2** for the second parameter. For the date/time of the event, use **event.sys\_created\_on**. To get the user ID that created the event \(if there was a user associated\), use **event.user\_id**.
 -   current: a GlideRecord- the event scheduled on behalf of \(incident for example\).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[System events reference](system-events-reference.md)
+</table>**Parent Topic:**[System events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/system-events/system-events-reference.md)
 

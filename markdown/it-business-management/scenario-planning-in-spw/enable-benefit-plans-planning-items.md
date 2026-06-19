@@ -2,6 +2,7 @@
 title: Add monetary and non-monetary benefit plans related lists
 description: Enable the monetary benefit plans and non-monetary benefit plans related lists for your planning item types such as Epics, Features, and Capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/enable-benefit-plans-planning-items.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -36,13 +37,13 @@ Enable the monetary benefit plans and non-monetary benefit plans related lists f
 
 6.  Change the record page view to **EAP Default**.
 
-    To change the view, select **Additional actions** menu \(![Three small black horizontal parallel lines.](../../agile-development/image/hamburger-icon.png)\), select **View**, and select the **EAP Default** view.
+    To change the view, select **Additional actions** menu \(\[Omitted image "hamburger-icon.png"\] Alt text: Three small black horizontal parallel lines.\), select **View**, and select the **EAP Default** view.
 
-    ![Additional options menu to select the EAP Default view to enable benefit plans.](../images/fin-select-eap-default-view.png)
+    \[Omitted image "fin-select-eap-default-view.png"\] Alt text: Additional options menu to select the EAP Default view to enable benefit plans.
 
-7.  Select **Additional actions** menu \(![Three small black horizontal parallel lines.](../../agile-development/image/hamburger-icon.png)\), select **Configure**, and select the **Related Lists** option.
+7.  Select **Additional actions** menu \(\[Omitted image "hamburger-icon.png"\] Alt text: Three small black horizontal parallel lines.\), select **Configure**, and select the **Related Lists** option.
 
-    ![Additional options menu to configure related lists for your planning items.](../images/fin-config-related-lists.png)
+    \[Omitted image "fin-config-related-lists.png"\] Alt text: Additional options menu to configure related lists for your planning items.
 
 8.  Select **Monetary Benefit Plans** and **Non-monetary Benefit Plans** from the Available list and add them to Selected list.
 
@@ -55,6 +56,6 @@ Enable the monetary benefit plans and non-monetary benefit plans related lists f
 
 Create and manage monetary and non-monetary benefits plans for your planning items.
 
--   [Create monetary benefit plans for your planning items in Strategic Planning](fin-manage-monetary-benefit-plans-spw.md)
--   [Manage non-monetary benefit plans for your planning items in Strategic Planning](fin-manage-non-monetary-benefit-plans-spw.md)
+-   [Create monetary benefit plans for your planning items in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/fin-manage-monetary-benefit-plans-spw.md)
+-   [Manage non-monetary benefit plans for your planning items in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/fin-manage-non-monetary-benefit-plans-spw.md)
 

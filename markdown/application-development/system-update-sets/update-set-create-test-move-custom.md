@@ -2,6 +2,7 @@
 title: Creating, testing, and moving customizations
 description: Use these procedures to create, test, and move customizations from a development system to a production system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/system-update-sets/update-set-create-test-move-custom.html
 release: zurich
 product: System Update Sets
 classification: system-update-sets
@@ -40,5 +41,5 @@ If your development environment consists of only two instances, you can combine 
 6.  Log in to the production instance and retrieve the completed update set from the staging instance. If the update set required a fix, retrieve both update sets.
 7.  Commit the update set on production. If the update set required a fix, commit both update sets in the order they were made.
 
-**Parent Topic:**[Administer system update sets](../concept/administer-system-update-sets.md)
+**Parent Topic:**[Administer system update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/administer-system-update-sets.md)
 

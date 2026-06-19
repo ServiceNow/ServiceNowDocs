@@ -2,6 +2,7 @@
 title: Managing an audit table
 description: After the audit and record tables are created with the imported data, you can use them to create a project. You can also share, edit, empty, or delete the tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/managing-audit-table.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -15,14 +16,14 @@ breadcrumb: [Working with external datasets, Using Process Mining, Process Minin
 
 After the audit and record tables are created with the imported data, you can use them to create a project. You can also share, edit, empty, or delete the tables.
 
--   **[Share the audit and record tables](../task/share-table.md)**  
+-   **[Share the audit and record tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/share-table.md)**  
 Share the audit and record tables with the analyst to analyze the data. The audit and record tables are available only to the administrator. However, the administrator might want an analyst to look at the tables and create projects.
--   **[Edit a dataset](../task/edit-dataset.md)**  
+-   **[Edit a dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/edit-dataset.md)**  
 Edit a dataset if you want to change the dataset, such as add or delete data from the current dataset.
--   **[Empty a dataset](../task/empty-dataset.md)**  
+-   **[Empty a dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/empty-dataset.md)**  
 Empty a dataset when you want to remove the old data and import new data from the same external system to the same table.
--   **[Delete a dataset](../task/delete-dataset.md)**  
+-   **[Delete a dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/delete-dataset.md)**  
 Delete a dataset when the dataset is no longer needed. Your analysis is complete, and you want to delete the entire tables.
 
-**Parent Topic:**[Working with external datasets](external-dataset.md)
+**Parent Topic:**[Working with external datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/external-dataset.md)
 

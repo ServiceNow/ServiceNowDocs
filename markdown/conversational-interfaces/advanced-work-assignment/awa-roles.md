@@ -2,6 +2,7 @@
 title: Advanced Work Assignment roles
 description: Advanced Work Assignment \(AWA\) is installed with these roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/awa-roles.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -15,16 +16,16 @@ breadcrumb: [Reference, Advanced Work Assignment, Manage people and work, Conver
 
 Advanced Work Assignment \(AWA\) is installed with these roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing subscriptions, see  and contact your account representative.
 
--   **[AWA administrator \[awa\_admin\]](awa-roles-1.md)**  
+-   **[AWA administrator \[awa\_admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-roles-1.md)**  
 The AWA administrator configures and manages AWA.
--   **[AWA agent \[awa\_agent\]](awa-roles-2.md)**  
+-   **[AWA agent \[awa\_agent\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-roles-2.md)**  
 The AWA agent handles customer interactions and manages workload across multiple service channels.
--   **[AWA integration user \[awa\_integration\_user\]](awa-roles-3.md)**  
+-   **[AWA integration user \[awa\_integration\_user\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-roles-3.md)**  
 The AWA integration user uses the AWA integration APIs.
--   **[AWA manager \[awa\_manager\]](awa-roles-4.md)**  
+-   **[AWA manager \[awa\_manager\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-roles-4.md)**  
 The AWA manager monitors the performance of agents across all service channels.
 
-**Parent Topic:**[Advanced Work Assignment reference](reference-awa.md)
+**Parent Topic:**[Advanced Work Assignment reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/reference-awa.md)
 

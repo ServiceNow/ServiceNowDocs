@@ -2,6 +2,7 @@
 title: Modify a team
 description: If you are team administrator, you can modify an existing team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/live-feed/t\_ModifyATeam.html
 release: zurich
 product: Live Feed
 classification: live-feed
@@ -34,5 +35,5 @@ Role required: admin
 6.  Click **Save**.
 
 
-**Parent Topic:**[Use teams in Live Feed](../concept/c_UseTeamsInLiveFeed.md)
+**Parent Topic:**[Use teams in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/live-feed/c_UseTeamsInLiveFeed.md)
 

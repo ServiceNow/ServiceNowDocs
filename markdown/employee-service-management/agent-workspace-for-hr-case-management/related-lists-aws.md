@@ -2,6 +2,7 @@
 title: Customize related lists in Agent Workspace for HR Case Management
 description: Customize which related lists are visible to users in Agent Workspace for HR Case Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/related-lists-aws.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -17,7 +18,7 @@ Customize which related lists are visible to users in Agent Workspace for HR Cas
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_hr\_agent\_ws.admin
 
 ## Procedure
 
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  Select the case that you want to customize related lists for.
 
-3.  Select the additional actions icon ![Additional actions icon](../../../common/image/Form_MenuIcon.png).
+3.  Select the additional actions icon \[Omitted image "Form\_MenuIcon.png"\] Alt text: Additional actions icon.
 
 4.  Navigate to **Configure** &gt; **Related lists**.
 

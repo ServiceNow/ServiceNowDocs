@@ -2,6 +2,7 @@
 title: Career hub overview
 description: The Career hub tab provides a summary view of your growth and development plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/egd-career-hub-expl.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -158,5 +159,5 @@ Make new connections
 Lets you search the org chart to browse peers with whom you can make connections.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Talent Development Core](egd-explore.md)
+</table>**Parent Topic:**[Exploring Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-explore.md)
 

@@ -2,6 +2,7 @@
 title: Create a CI class for a virtual cloud resource
 description: If the base system does not provide a CI type for cloud-based virtual resources, you can create a CI class based on the virtual machine object class.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/create-a-ci-class-cloud.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -29,15 +30,15 @@ This topic provides general instructions for extending an existing cloud provide
 
 2.  Click **Open Hierarchy**.
 
-    ![Open the CI hierarchy](../image/cl-class-manager-open.png)
+    \[Omitted image "cl-class-manager-open.png"\] Alt text: Open the CI hierarchy
 
 3.  On the **CI Classes** pane, enter `Virtual Machine Object` in the search field, and then select **Virtual Machine Object**.
 
-    ![The virtual machine object class](../image/virtual-machine-object.png)
+    \[Omitted image "virtual-machine-object.png"\] Alt text: The virtual machine object class
 
 4.  Click the **Virtual Machine Object** link.
 
-    ![Click Virtual Machine Object](../image/virtual-machine-object-select.png)
+    \[Omitted image "virtual-machine-object-select.png"\] Alt text: Click Virtual Machine Object
 
 5.  Click **Add Child Class**.
 
@@ -59,7 +60,7 @@ This topic provides general instructions for extending an existing cloud provide
 
     3.  Fill out the rest of the fields in the row.
 
-        See [Dictionary entry form](https://www.servicenow.com/docs/access?context=r_DictionaryEntryForm&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) for a description of all the fields.
+        See  for a description of all the fields.
 
 10. Click **Next**.
 
@@ -91,7 +92,7 @@ This topic provides general instructions for extending an existing cloud provide
     |Relationship|**Hosted on \(Hosted on::Hosts\)**|
     |Target Class|**Logical Datacenter**|
 
-    ![A Hosted on:Hosts relationship](../image/relationship-rule-new-class.png)
+    \[Omitted image "relationship-rule-new-class.png"\] Alt text: A Hosted on:Hosts relationship
 
 15. Click **Save**.
 
@@ -102,9 +103,9 @@ This topic provides general instructions for extending an existing cloud provide
 
 ## What to do next
 
-Use the CI class in a resource type for a cloud provider. See [Add a product to an existing provider in CAPI](create-provider.md) for instructions.
+Use the CI class in a resource type for a cloud provider. See [Add a product to an existing provider in CAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-provider.md) for instructions.
 
-Your response processor, which is part of the resource block, must also specify the necessary CI class types so it can update the CMDB. Usually, the response processor needs the object ID, the specific datacenter, and the cloud service account. See [Virtual server response processor example](../reference/response-processor-example.md) for example response processor code that uses CI classes.
+Your response processor, which is part of the resource block, must also specify the necessary CI class types so it can update the CMDB. Usually, the response processor needs the object ID, the specific datacenter, and the cloud service account. See [Virtual server response processor example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/response-processor-example.md) for example response processor code that uses CI classes.
 
-**Parent Topic:**[Cloud Provisioning and Governance](../concept/cloud-management-v2-landing-page.md)
+**Parent Topic:**[Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloud-management-v2-landing-page.md)
 

@@ -2,6 +2,7 @@
 title: Rounding and precision in indicators
 description: Indicators round fractional results using "Banker's rounding" or mathematical rounding depending on the indicator Precision.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/r\_FormulaRounding.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics

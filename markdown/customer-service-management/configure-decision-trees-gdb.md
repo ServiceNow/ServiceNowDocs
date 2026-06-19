@@ -2,7 +2,10 @@
 title: Create a decision tree in Core UI
 description: Create a decision tree that agents can use to troubleshoot solutions to customer issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-decision-trees-gdb.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -97,5 +100,5 @@ A decision tree record and a start node are created.
 
 ## What to do next
 
-Configure a start node to [add initial set of questions or instructions to a decision tree](configure-start-node-gdb.md) in Decision Tree Builder.
+Configure a start node to [add initial set of questions or instructions to a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-start-node-gdb.md) in Decision Tree Builder.
 

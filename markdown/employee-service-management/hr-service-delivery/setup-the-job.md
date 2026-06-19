@@ -2,6 +2,7 @@
 title: Activate schedule flows
 description: Activate a schedule flow that interacts with Oracle HCM to pull worker profile information into a ServiceNow instance. This flow automatically pulls all new changes in the Oracle HCM and keeps the worker profiles updated in the HR Service Delivery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/setup-the-job.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

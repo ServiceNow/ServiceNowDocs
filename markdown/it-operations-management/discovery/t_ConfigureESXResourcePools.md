@@ -2,6 +2,7 @@
 title: Configure ESXi resource pools
 description: The ESXi server has a default resource pool called Resources that defines normal resources for a virtual machine.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/t\_ConfigureESXResourcePools.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -40,6 +41,6 @@ If Discovery isn't running on the ServiceNow instance, create a record for the *
 
 5.  Select **Submit**.
 
-    ![ESX Resource Pool form](../image/ESXResourcePool.png "ESX Resource Pool form")
+    \[Omitted image "ESXResourcePool.png"\] Alt text: ESX Resource Pool form
 
 

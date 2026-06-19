@@ -2,6 +2,7 @@
 title: Exploring Agent Chat
 description: Agent Chat enables live agents to interact directly with end users through chat. Your end users can chat with a live agent to ask questions and receive information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/agent-chat/ci-agent-chat-exploring.html
 release: zurich
 product: Agent Chat
 classification: agent-chat
@@ -29,11 +30,11 @@ Virtual chat conducts a survey before and after the Agent Chat. The pre-survey g
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Agents and chat managers have a conversation without the requester knowing.|[Agent Whisper](ci-agent-whisper.md)|Agents, chat managers|
-|Gather important information from end users through conversational questionnaires.|[Chat surveys](ci-conversational-chat-surveys.md)|Agents|
-|Download a transcript of the conversation between the agent and the requester.|[Chat transcript downloads for requesters](ci-chat-transcripts.md)|Requester|
-|Carry out a conversation in another language.|[Dynamic Translation for Agent Chat overview](ci-dtac-overview.md)|Agent, requester|
-|Initiate conversations with requesters on a messaging app of the requester's choice.|[Agent-Initiated Messaging Interface](agent-init-messg-interface.md)|Agent, requester|
+|Agents and chat managers have a conversation without the requester knowing.|[Agent Whisper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/agent-chat/ci-agent-whisper.md)|Agents, chat managers|
+|Gather important information from end users through conversational questionnaires.|[Chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/agent-chat/ci-conversational-chat-surveys.md)|Agents|
+|Download a transcript of the conversation between the agent and the requester.|[Chat transcript downloads for requesters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/agent-chat/ci-chat-transcripts.md)|Requester|
+|Carry out a conversation in another language.|[Dynamic Translation for Agent Chat overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/agent-chat/ci-dtac-overview.md)|Agent, requester|
+|Initiate conversations with requesters on a messaging app of the requester's choice.|[Agent-Initiated Messaging Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/agent-chat/agent-init-messg-interface.md)|Agent, requester|
 |Read a summarization of the chat \(this is available only if you have Now Assist installed\).| |Agent|
 
 ## Routing chats
@@ -42,9 +43,9 @@ Requesters start chats with virtual chat. When they request to chat with a live 
 
 ## Unfurling links
 
-If an agent or requester enters a link during an Agent Chat conversation, the links are "unfurled" or displayed with a preview of the website's content. Links in Agent Chat conversations are unfurled in the same manner as Virtual Agent. For more information, see [Using link unfurling in Virtual Agent](../../virtual-agent/concept/va-link-unfurling.md).
+If an agent or requester enters a link during an Agent Chat conversation, the links are "unfurled" or displayed with a preview of the website's content. Links in Agent Chat conversations are unfurled in the same manner as Virtual Agent. For more information, see [Using link unfurling in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-link-unfurling.md).
 
 ## Cross-channel conversation history and cross-channel message-level sentiment
 
-Agents can see cross-channel conversation history and cross-channel message-level sentiment in real time when an agent is having a live conversation with a requester in the chat panel in Agent Chat. For more information, see [Getting work from chats](https://www.servicenow.com/docs/access?context=live-agent-overview&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+Agents can see cross-channel conversation history and cross-channel message-level sentiment in real time when an agent is having a live conversation with a requester in the chat panel in Agent Chat. For more information, see .
 

@@ -2,6 +2,7 @@
 title: Import binary data through a MID Server
 description: As an administrator, you can import binary large object \(BLOB\) data with an LDAP integration through the MID Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/ldap-integration/t\_ImportBinaryDataThroughAMIDServer.html
 release: zurich
 product: LDAP integration
 classification: ldap-integration

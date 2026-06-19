@@ -2,6 +2,7 @@
 title: Change a time zone in a scheduled data import
 description: By default, scheduled data imports are run using the time zone of the user who creates them. However, there is a way to manually specify the time zone for the import.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/time-configuration/t\_ChangeTimeZoneInScheduledImport.html
 release: zurich
 product: Time Configuration
 classification: time-configuration
@@ -28,5 +29,5 @@ To change the time zone of the scheduled data import:
 3.  Click **Update**.
 
 
-**Parent Topic:**[Using time configuration](../using-time-configuration.md)
+**Parent Topic:**[Using time configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/using-time-configuration.md)
 

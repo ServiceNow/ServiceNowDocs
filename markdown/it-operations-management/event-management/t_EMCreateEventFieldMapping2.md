@@ -2,6 +2,7 @@
 title: Create event field mappings
 description: Use event field mappings to map values from specific event fields to values in other fields to provide more comprehensive information in an alert. Use team-based integrations in event rules to make sure that connector ownership and execution of rules give precedence to global rules. Teams can maintain consistency and hierarchy while offering flexibility and customization options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/t\_EMCreateEventFieldMapping2.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -29,7 +30,7 @@ Create the rule to match the event by its class and original values. Also, speci
 
 2.  Select **New** or open an existing rule to edit and fill in the fields.
 
-    ![Event field mapping](../image/event-mapping-rule.png "Event field mapping")
+    \[Omitted image "event-mapping-rule.png"\] Alt text: Event field mapping
 
 <table id="table_EventFieldMappingForm"><thead><tr><th>
 
@@ -618,8 +619,8 @@ Transform Value Pairs
 
 Test an event field mapping by sending an event that includes a field that is present in the event field mapping.
 
--   **[Create event field mappings with advanced mapping script](create-event-field-mappings-advanced-mapping-script.md)**  
+-   **[Create event field mappings with advanced mapping script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-event-field-mappings-advanced-mapping-script.md)**  
 Create event field mappings with advanced mapping scripts to transform raw event data into structured, meaningful information. This method goes beyond basic configurations, aligns fields with business context, and improves event correlation. By reducing alert noise and enhancing visibility, it helps teams respond faster and manage incidents more effectively.
 
-**Parent Topic:**[Event field mapping configuration](../concept/c_EMEventFieldMapping.md)
+**Parent Topic:**[Event field mapping configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/c_EMEventFieldMapping.md)
 

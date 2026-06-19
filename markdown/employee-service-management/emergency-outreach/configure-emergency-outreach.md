@@ -2,6 +2,7 @@
 title: Configure Emergency Outreach notifications
 description: A user with the admin role can add email notifications to use for any of the apps that communicate using Emergency Outreach. Each app provides a default email notification as an example to help with planning a new notification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/emergency-outreach/configure-emergency-outreach.html
 release: zurich
 product: Emergency Outreach
 classification: emergency-outreach
@@ -33,21 +34,21 @@ The Emergency Outreach notification feature supports the following applications 
 
 ## Procedure
 
-1.  [Add an email notification](configure-outreach-email-notif.md) to customize the send conditions and notification content for an outreach.
+1.  [Add an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/emergency-outreach/configure-outreach-email-notif.md) to customize the send conditions and notification content for an outreach.
 
-2.  [Update the email notification](edit-add-emergency-outreach-notif.md) used in the outreach notification.
+2.  [Update the email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/emergency-outreach/edit-add-emergency-outreach-notif.md) used in the outreach notification.
 
-3.  [Add a Safe Workplace audience](add-sw-audience-outreach.md) for the employees to whom you want to send the notification.
+3.  [Add a Safe Workplace audience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/emergency-outreach/add-sw-audience-outreach.md) for the employees to whom you want to send the notification.
 
-4.  [Configure response options](config-emergency-outreach-responses.md) if an outreach requires them.
+4.  [Configure response options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/emergency-outreach/config-emergency-outreach-responses.md) if an outreach requires them.
 
-5.  [Create additional notification channels](create-emer-outreach-notif-channel.md), such as Slack or Microsoft Teams through which you want to send notifications.
+5.  [Create additional notification channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/emergency-outreach/create-emer-outreach-notif-channel.md), such as Slack or Microsoft Teams through which you want to send notifications.
 
 6.  Add a survey such as the Employee Readiness survey to be sent with the outreach notification.
 
     For information about selecting the survey, see .
 
-    For information about creating a survey, see [Survey administration](https://www.servicenow.com/docs/access?context=r_SurveyAdminTasks&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) and [Survey designer](https://www.servicenow.com/docs/access?context=c_SurveyDesigner&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    For information about creating a survey, see Survey administration and Survey designer.
 
 7.  Configure and send outreach email, mobile, and SMS notifications to your employees.
 

@@ -2,11 +2,12 @@
 title: DevOps Insights properties
 description: DevOps Insights properties configure how DevOps Insights workspace data is displayed in reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/devops-insights-workspace-properties.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Insights reports, DevOps Change Velocity, IT Service Management]
 ---

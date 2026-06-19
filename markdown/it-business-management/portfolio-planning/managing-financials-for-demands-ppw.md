@@ -2,6 +2,7 @@
 title: Managing financials for demands
 description: Manage budget, cost plans as forecasts, actual expenses as expense lines, generate labor costs, and create financial baselines at a required cadence in Next Experience for Demand Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/managing-financials-for-demands-ppw.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -17,10 +18,10 @@ Manage budget, cost plans as forecasts, actual expenses as expense lines, genera
 
 The following features help you to manage your financials.
 
--   Manage cost plans for your demands. For more information, see [Add, edit, or delete demand cost plans](../task/add-edit-delete-demand-cost-plans-ppw.md).
--   Add or edit expense lines for your demands to record any planned or unplanned expenses. For more information, see [Add or edit expense lines](../task/add-or-edit-expense-lines-demand-ppw.md).
--   Generate labor costs for the fiscal period. For more information, see [Generate labor costs](../task/generate-labor-costs-ppw.md).
--   Create baselines to capture the financial snapshot of your demands. For more information, see [Create financial baselines](../task/create-financial-baselines-ppw.md).
+-   Manage cost plans for your demands. For more information, see [Add, edit, or delete demand cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/add-edit-delete-demand-cost-plans-ppw.md).
+-   Add or edit expense lines for your demands to record any planned or unplanned expenses. For more information, see [Add or edit expense lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/add-or-edit-expense-lines-demand-ppw.md).
+-   Generate labor costs for the fiscal period. For more information, see [Generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/generate-labor-costs-ppw.md).
+-   Create baselines to capture the financial snapshot of your demands. For more information, see [Create financial baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/create-financial-baselines-ppw.md).
 
 ## Multicurrency
 
@@ -37,19 +38,19 @@ Using this feature, you can work on financial reporting at a global level and se
 
 Organizations operate at a global or multinational level, the work is planned and financed at one location and executed at a different location. Each might use a different currency from what was used in the planning phase. Multicurrency makes it easy to manage and track your planning items using any currency.
 
-You can monitor and track the financials in one currency, and capture the costs in a different currency. For more information, see [Multicurrency in Next Experience for Demand Management](multicurrency-in-demand-workspace-ppw.md).
+You can monitor and track the financials in one currency, and capture the costs in a different currency. For more information, see [Multicurrency in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/multicurrency-in-demand-workspace-ppw.md).
 
 **Note:** Once a cost plan, benefit plan or expense line or an investment budget gets created, you can't change the Demand currency. You can change the Demand currency as long as there are no financial records captured against the demand.
 
 ## Baselines
 
-Create a baseline to capture a snapshot of the financial changes for your demands. You can create on-demand baselines or at a cadence using a scheduler job. For more information, see [Create financial baselines](../task/create-financial-baselines-ppw.md).
+Create a baseline to capture a snapshot of the financial changes for your demands. You can create on-demand baselines or at a cadence using a scheduler job. For more information, see [Create financial baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/create-financial-baselines-ppw.md).
 
 ## Budget allocation
 
-Portfolio managers can manage and approve the budget for demands. The approved budget helps demand managers to plan and meet the expenses to execute work. For more information, see [Allocate budget to a demand](../task/allocate-budget-to-a-demand-ppw.md).
+Portfolio managers can manage and approve the budget for demands. The approved budget helps demand managers to plan and meet the expenses to execute work. For more information, see [Allocate budget to a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/allocate-budget-to-a-demand-ppw.md).
 
 ## Benefit plans
 
-Monetary benefit plans capture potential benefits accrued while executing a demand. Non-monetary benefit plans capture the potential non-financial benefits accrued while executing a demand. You can create and manage monetary and non-monetary benefit plans and to capture the potential benefits of your planning items. For more information, see [Create and manage benefit plans](../task/create-and-manage-benefit-plans-ppw.md).
+Monetary benefit plans capture potential benefits accrued while executing a demand. Non-monetary benefit plans capture the potential non-financial benefits accrued while executing a demand. You can create and manage monetary and non-monetary benefit plans and to capture the potential benefits of your planning items. For more information, see [Create and manage benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/create-and-manage-benefit-plans-ppw.md).
 

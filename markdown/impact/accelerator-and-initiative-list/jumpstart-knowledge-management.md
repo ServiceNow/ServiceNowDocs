@@ -2,6 +2,7 @@
 title: Jumpstart Your Knowledge Management
 description: The Jumpstart Your Knowledge Management Accelerator provides a demonstration of the possibilities and capabilities of Knowledge Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/jumpstart-knowledge-management.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

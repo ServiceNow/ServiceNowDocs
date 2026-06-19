@@ -2,6 +2,7 @@
 title: Software installation fields
 description: Software Installation form and related list field descriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/software-installation-fields.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -15,7 +16,7 @@ breadcrumb: [References, Software Asset Management, IT Asset Management]
 
 Software Installation form and related list field descriptions.
 
-The list view for software installations shows the total number of software installation records for your organization based on the value specified in the **SAM Workspace License operations list count limit** system property \(**sn\_sam\_workspace.sam\_license\_operations\_list\_count**\). The default value for the record count is set to **5000000**. However, the SAM administrator can set the value for the count in the system property as required. If there are less than five million records, then the exact count is shown. If there are more than five million records, then the count is shown as 5000000+. For more information on this system property, see [Software Asset Management properties](sam-properties.md).
+The list view for software installations shows the total number of software installation records for your organization based on the value specified in the **SAM Workspace License operations list count limit** system property \(**sn\_sam\_workspace.sam\_license\_operations\_list\_count**\). The default value for the record count is set to **5000000**. However, the SAM administrator can set the value for the count in the system property as required. If there are less than five million records, then the exact count is shown. If there are more than five million records, then the count is shown as 5000000+. For more information on this system property, see [Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-properties.md).
 
 **Note:** This topic describes only the fields that are available on the Software Installation form. For details on all fields that are available on both the Software Installation form and the Software Installation \[cmdb\_sam\_sw\_install\] table, see [Software Installations Table Attribute Review](https://community.servicenow.com/community?id=community_article&sys_id=b1cabc88dbfe0550b3c099ead39619f6).
 
@@ -168,5 +169,5 @@ Omit from suites
 Check box for not counting the software install as a component of a suite during reconciliation.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/references.md)
 

@@ -2,6 +2,7 @@
 title: NotifyConferenceUtil - Scoped, Global
 description: The NotifyConferenceUtil API provides methods to manage Notify conference calls and SMS messages for various telephony service providers, such as Zoom and Webex.Instantiates a NotifyConferenceUtils object \(constructor\).Adds a participant to a specified conference call using their phone number to identify the participant.Adds a participant to the conference call referenced by the passed in GlideRecord using their unique user identifier.Performs the specified conference call action, such as starting/ending a conference call or joining, removing, muting, or unmuting participants from a conference call.Returns a JSON data template to use with the doConferenceAction\(\) method. Using this template automatically structures the data object so that you don't have to manually create it.Returns the capabilities of all telephony service provider drivers in the instance.Determines whether a Notify conference action is supported by a telephony service provider.Removes the participant associated with the passed in GlideRecord from the current conference call.Mutes the participant associated with the passed in GlideRecord on the current conference call.Unmutes the participant associated with the passed in GlideRecord on the current conference call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/NotifyConferenceUtils.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -25,9 +26,9 @@ Using the NotifyConferenceUtil API you can:
 -   Obtain the capabilities of a specified service provider
 -   End a conference call
 
-You can use this API in both scoped and global scripts. To use this API you must activate the Conference Notify plugin \(com.snc.notify\) which requires a separate subscription. For details on activating this plugin, see [Activate Notify](https://www.servicenow.com/docs/access?context=t_ActivateNotify&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+You can use this API in both scoped and global scripts. To use this API you must activate the Conference Notify plugin \(com.snc.notify\) which requires a separate subscription. For details on activating this plugin, see Activate Notify.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## NotifyConferenceUtils - NotifyConferenceUtils\(\)
 
@@ -577,7 +578,7 @@ Results of the conference action.`<action>.status`: Status of the conference act
 
 Returns a JSON data template to use with the doConferenceAction\(\) method. Using this template automatically structures the data object so that you don't have to manually create it.
 
-Call this method prior to calling the doConferenceAction\(\) method. For the desired conference call action, set the desired parameters within the template, and then pass the template in the doConferenceAction\(\) call. For additional information on the valid parameters for each action, see [doConferenceAction\(\)](NotifyConferenceUtils.md#).
+Call this method prior to calling the doConferenceAction\(\) method. For the desired conference call action, set the desired parameters within the template, and then pass the template in the doConferenceAction\(\) call. For additional information on the valid parameters for each action, see [doConferenceAction\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/NotifyConferenceUtils.md).
 
 **Note:** This is a helper method. You can also manually construct this object and pass that object into the doConferenceAction\(\) method and have the same outcome.
 

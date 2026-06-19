@@ -2,6 +2,7 @@
 title: Multi-Provider single sign-on \(SSO\)
 description: External SSO allows organizations to use several SSO identity providers \(IdPs\) to manage authentication as well as retain local database \(basic\) authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/c\_MultipleProviderSingleSignOn.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -22,17 +23,17 @@ For using SSO, you must understand the following:
 -   **Service Providers**: When users trying to access the ServiceNow instance are redirected to an Identity Providers \(IdP\) to validate their credentials after successful validation users are allowed to access the instance. Here, ServiceNow acts as a service provider and relies on an Identity Provider \(IdP\) for handling user authentication and granting access to the instance.
 -   Identity Providers: IdPs are external systems that validates the users identity and credentials to access a system.
 
-To establish an SSO with to access ServiceNow, you must activate Multi-Provider Single sing-on \(SSO\) you must install the **Integration - Multiple Provider Single Sign-On Installer \(com.snc.integration.sso.multi.installer\)** plugin. For more information, see [Activate Multi-Provider SSO plugin](../task/t_ActivateMultipleProviderSSO.md).
+To establish an SSO with to access ServiceNow, you must activate Multi-Provider Single sing-on \(SSO\) you must install the **Integration - Multiple Provider Single Sign-On Installer \(com.snc.integration.sso.multi.installer\)** plugin. For more information, see [Activate Multi-Provider SSO plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/t_ActivateMultipleProviderSSO.md).
 
-After successful installation of the plugin, you can customize the SSO properties, access tables and scripts that are shipped along with the plugin. For more information, see [Multi-Provider SSO properties, tables, and scripts](../reference/r_InstalledWithMultiProviderSSO.md).
+After successful installation of the plugin, you can customize the SSO properties, access tables and scripts that are shipped along with the plugin. For more information, see [Multi-Provider SSO properties, tables, and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/r_InstalledWithMultiProviderSSO.md).
 
 ServiceNow supports the following SSO methods:
 
--   [OpenID Connect](OIDC-SSO-overview.md)
--   [SAML 2.0](../../saml/concept/c_SAML2.0WebBrowserSSOProfile.md)
--   [Digest Authentication](c_DigestTokenAuthentication.md) \(Token based authentication\).
+-   [OpenID Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/OIDC-SSO-overview.md)
+-   [SAML 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/c_SAML2.0WebBrowserSSOProfile.md)
+-   [Digest Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/c_DigestTokenAuthentication.md) \(Token based authentication\).
 
-Choose the SSO method based on your requirement and learn more about how you need to prepare for configuring SSO. You must perform several steps to set up Multi-Provider SSO, including configuring properties, creating identity providers \(IdPs\), and configuring users to use SSO. For more information, see [Multi-Provider SSO configurations](sso-configurations.md).
+Choose the SSO method based on your requirement and learn more about how you need to prepare for configuring SSO. You must perform several steps to set up Multi-Provider SSO, including configuring properties, creating identity providers \(IdPs\), and configuring users to use SSO. For more information, see [Multi-Provider SSO configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/sso-configurations.md).
 
 After a successful configuration, the active IdPs in the instance are listed on the ServiceNow. You can list various SAML or OIDC Identity Providers \(IdPs\).
 

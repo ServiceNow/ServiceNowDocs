@@ -2,11 +2,12 @@
 title: Configuring change control using the Azure Invoke REST API
 description: You can use the Azure Invoke REST API in your YAML or Classic Azure pipeline to configure change control for DevOps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/dev-ops-azure-change-control-api.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configuring the Azure pipeline for DevOps, Azure DevOps, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -27,7 +28,7 @@ If you have duplicate or reused job names in your pipeline execution steps, ensu
 
 Using the Azure Invoke REST API requires the creation of a generic service connection in Azure DevOps.
 
-![Azure YAML REST API change control connection](../image/dev-ops-azure-api-change-conn.png)
+\[Omitted image "dev-ops-azure-api-change-conn.png"\] Alt text: Azure YAML REST API change control connection
 
 ## YAML Azure pipeline
 
@@ -102,9 +103,9 @@ Release pipeline:
 
 For a Classic Azure pipeline, an Invoke REST API server task must be added.
 
-![Azure Pipeline Invoke REST API change control](../image/dev-ops-azure-api-change-classic.png "Classic Azure build pipeline example")
+\[Omitted image "dev-ops-azure-api-change-classic.png"\] Alt text: Azure Pipeline Invoke REST API change control
 
-![DevOps Azure classic release pipeline](../image/dev-ops-azure-api-chg-rel-classic.png "Classic Azure release pipeline example")
+\[Omitted image "dev-ops-azure-api-chg-rel-classic.png"\] Alt text: DevOps Azure classic release pipeline
 
-**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](azure-devops-integration-dev-ops.md)
+**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
 

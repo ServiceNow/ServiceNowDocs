@@ -2,6 +2,7 @@
 title: GlideElementCurrency2 - Scoped
 description: The GlideElementCurrency2 API provides methods to perform operations on Foreign Exchange \(FX\) Currency fields \(also known as Currency2\) within the current GlideRecord.Returns an FX Currency field display string, as entered by the user, from the associated GlideRecord.Returns the display value of an FX Currency field within the associated GlideRecord.Returns the reference currency value of an FX Currency field within the associated GlideRecord.Returns the session currency value of the associated FX Currency field within the current GlideRecord.Sets the display value of an FX Currency field with the specified currency value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/GlideElementCurrency2ScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -25,13 +26,13 @@ This API provides methods that enable you to perform the following:
 
 The GlideElementCurrency2 class has no constructor.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideElementCurrency2 - getAsEnteredDisplayValue\(\)
 
 Returns an FX Currency field display string, as entered by the user, from the associated GlideRecord.
 
-For additional information on FX Currency fields, see [Setting up and operating FX Currency fields](https://www.servicenow.com/docs/access?context=fx-currency&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For additional information on FX Currency fields, see Setting up and operating FX Currency fields.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -68,7 +69,7 @@ Depending on how the display\_value is set in the FX Currency Configuration \[fx
 -   Currency value converted to the session currency \(based on the user's locale\)
 -   Currency value converted to the reference currency
 
-For additional information on FX Currency and the configuration table, see [Configure FX Currency global settings](https://www.servicenow.com/docs/access?context=fx-currency-configure&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For additional information on FX Currency and the configuration table, see Configure FX Currency global settings.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -107,7 +108,7 @@ Reference currency is the common currency into which all currency values in a fi
     -   If set, the **reference\_currency\_source** in the FX Currency Configuration \[fx\_configuration\] table.
     -   System default, system reference currency.
 
-For additional information on the values in the FX Currency Configuration \[fx\_configuration\] table, see [Setting up and operating FX Currency fields](https://www.servicenow.com/docs/access?context=fx-currency&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For additional information on the values in the FX Currency Configuration \[fx\_configuration\] table, see Setting up and operating FX Currency fields.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -167,7 +168,7 @@ Session display value: $8,677.99
 
 Sets the display value of an FX Currency field with the specified currency value.
 
-For additional information on FX Currency fields, see [Setting up and operating FX Currency fields](https://www.servicenow.com/docs/access?context=fx-currency&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For additional information on FX Currency fields, see Setting up and operating FX Currency fields.
 
 <table id="table_enw_5jd_fy" class="parameters"><thead><tr><th>
 

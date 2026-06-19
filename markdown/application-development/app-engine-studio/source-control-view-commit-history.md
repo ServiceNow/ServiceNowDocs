@@ -2,6 +2,7 @@
 title: View commit history
 description: App developers can view the commit history of apps linked to a source control repository in App Engine Studio \(AES\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/source-control-view-commit-history.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -28,7 +29,7 @@ App developers can view the commit history of apps linked to a source control re
 
 2.  Select the commit sort order type.
 
-<table id="choicetable_hz1_hmh_jx"><tbody><tr><td id="d208202e89">
+<table id="choicetable_hz1_hmh_jx"><tbody><tr><td id="d115453e89">
 
 **Date**
 
@@ -36,7 +37,7 @@ App developers can view the commit history of apps linked to a source control re
 
 Sort by commit date.
 
-</td></tr><tr><td id="d208202e98">
+</td></tr><tr><td id="d115453e98">
 
 **Committer**
 
@@ -47,7 +48,7 @@ Sort by user name.
 </td></tr></tbody>
 </table>3.  Select the sort order direction.
 
-<table id="choicetable_xvp_4mh_jx"><tbody><tr><td id="d208202e116">
+<table id="choicetable_xvp_4mh_jx"><tbody><tr><td id="d115453e116">
 
 **Descending**
 
@@ -55,7 +56,7 @@ Sort by user name.
 
 Sort dates from the most recent to oldest date. Sort user names reverse-alphabetically from Z to A.
 
-</td></tr><tr><td id="d208202e125">
+</td></tr><tr><td id="d115453e125">
 
 **Ascending**
 
@@ -83,5 +84,5 @@ Sort dates from the oldest to most recent date. Sort user names alphabetically f
 6.  Close the History window.
 
 
-**Parent Topic:**[Use AES with a Git source control repository](../concept/aes-source-control-use.md)
+**Parent Topic:**[Use AES with a Git source control repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-source-control-use.md)
 

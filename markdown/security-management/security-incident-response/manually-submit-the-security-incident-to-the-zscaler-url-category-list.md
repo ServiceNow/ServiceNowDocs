@@ -2,6 +2,7 @@
 title: Submit the security incident to the Zscaler URL category list
 description: Submit entries directly for observables that are not associated with a specific ServiceNow AI Platform security incident record so that observable entries are in the appropriate allow or deny lists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/manually-submit-the-security-incident-to-the-zscaler-url-category-list.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

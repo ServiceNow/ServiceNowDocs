@@ -2,6 +2,7 @@
 title: Reporting compared to Performance Analytics
 description: Reporting and Performance Analytics are two distinct applications. They address different use cases and are complementary to each other.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/reporting-vs-pa.html
 release: zurich
 product: Reporting
 classification: reporting
@@ -17,7 +18,7 @@ Reporting and Performance Analytics are two distinct applications. They address 
 
 Performance Analytics is able to generate accurate historical trends by capturing continuous snapshots on a regular schedule. As illustrated by the following diagram, table data answers the question of "Where are we today," while indicators answer questions of what is happening over time.
 
-![Reporting answers questions about what is happening now. Performance Analytics answers questions about where we were and where we are going.](../../performance-analytics/image/pa-vs-reporting.png "Common process insight questions for table data and for Performance Analytics indicators")
+\[Omitted image "pa-vs-reporting.png"\] Alt text: Reporting answers questions about what is happening now. Performance Analytics answers questions about where we were and where we are going.
 
 In addition to calculating trends from snapshots, Performance Analytics is able to:
 
@@ -27,5 +28,5 @@ In addition to calculating trends from snapshots, Performance Analytics is able 
 -   Compare performance at different points in time.
 -   Accelerate time to value with best practice metrics.
 
-For more information on using Performance Analytics, see [Exploring Performance Analytics](../../performance-analytics/concept/c_GetStartedwithPA.md).
+For more information on using Performance Analytics, see [Exploring Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_GetStartedwithPA.md).
 

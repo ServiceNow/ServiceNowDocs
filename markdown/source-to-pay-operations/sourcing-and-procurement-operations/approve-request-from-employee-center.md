@@ -2,13 +2,14 @@
 title: Approve a request from Employee Center
 description: Approve, reject, or request clarification on open purchase requisition lines and sourcing requests that are assigned to you, directly from Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/approve-request-from-employee-center.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Sourcing and Procurement Operations integration with Employee Center, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Sourcing Procurement Operations integration Employee, Integrate Sourcing Procurement Operations other, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Approve a request from Employee Center
@@ -33,15 +34,15 @@ Role required: sn\_shop.procurement\_specialist
 
 4.  Do one of these actions.
 
-<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d28571e94">
+<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d30976e103">
 
 Action
 
-</th><th align="left" id="d28571e97">
+</th><th align="left" id="d30976e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d28571e103">
+</th></tr></thead><tbody><tr><td id="d30976e112">
 
 **Request clarification**
 
@@ -49,7 +50,7 @@ Description
 
 Opens a confirmation dialog box, where you can enter your questions regarding the selected purchase requestion lines or sourcing request. An email notification is sent to the requester that some clarification is sought for the purchase, and a provide clarification to-do is created for their action.**Note:** This correspondence is tracked through the activity stream of the approval plan here in Employee Center. The same is also tracked through the activity stream of the corresponding purchase requisition or sourcing request in Shopping Hub.
 
-</td></tr><tr><td id="d28571e120">
+</td></tr><tr><td id="d30976e129">
 
 **Reject**
 
@@ -57,7 +58,7 @@ Opens a confirmation dialog box, where you can enter your questions regarding th
 
 Opens a confirmation dialog box, where you can enter your reason for rejecting only the selected purchase requestion lines. An email notification is sent to the requester with this information.
 
-</td></tr><tr><td id="d28571e129">
+</td></tr><tr><td id="d30976e138">
 
 **Reject all**
 
@@ -65,7 +66,7 @@ Opens a confirmation dialog box, where you can enter your reason for rejecting o
 
 Opens a confirmation dialog box, where you can enter your reason for rejecting all the purchase requestion lines or sourcing request. An email notification is sent to the requester with this information.**Note:** You’re redirected here if you select **Reject** on the approval email notification.
 
-</td></tr><tr><td id="d28571e143">
+</td></tr><tr><td id="d30976e152">
 
 **Approve**
 
@@ -73,7 +74,7 @@ Opens a confirmation dialog box, where you can enter your reason for rejecting a
 
 Opens a confirmation dialog box, where you can approve only the selected purchase requestion lines. An email notification is sent to the requester with this information.
 
-</td></tr><tr><td id="d28571e153">
+</td></tr><tr><td id="d30976e162">
 
 **Approve all**
 
@@ -84,11 +85,11 @@ Opens a confirmation dialog box, where you can approve all the purchase requesti
 </td></tr></tbody>
 </table>    You can now view the approved and rejected approval tasks on the **Completed** tab. Shoppers can view the same from their requests in Shopping Hub.
 
-    **Note:** You can configure the above email notification based on your requirements. For details, see [Approval email notification templates](../reference/approval-email-notifications-template.md).
+    **Note:** You can configure the above email notification based on your requirements. For details, see [Approval email notification templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/approval-email-notifications-template.md).
 
 
--   **[Approval email notification templates](../reference/approval-email-notifications-template.md)**  
+-   **[Approval email notification templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/approval-email-notifications-template.md)**  
 Email notifications are triggered for new, due soon, and overdue approval to-dos in configurable templates. As an approver, you can review the details and approve the purchase requests directly from the email notifications.
 
-**Parent Topic:**[Sourcing and Procurement Operations integration with Employee Center](../concept/employee-center-integration-psm.md)
+**Parent Topic:**[Sourcing and Procurement Operations integration with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/employee-center-integration-psm.md)
 

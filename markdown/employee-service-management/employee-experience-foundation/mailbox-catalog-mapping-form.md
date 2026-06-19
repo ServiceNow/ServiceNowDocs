@@ -2,6 +2,7 @@
 title: Office Mailbox to Catalog Field Mappings form
 description: The Office Mailbox to Catalog Field Mappings form helps you map an email field to a catalog item field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/mailbox-catalog-mapping-form.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -64,5 +65,5 @@ Active
 Option to activate the record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow Add-in for Microsoft 365 reference](sn-addin-for-ms365-reference.md)
+</table>**Parent Topic:**[ServiceNow Add-in for Microsoft 365 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/sn-addin-for-ms365-reference.md)
 

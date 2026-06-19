@@ -2,6 +2,7 @@
 title: Supporting information for Now Assist for Hardware Asset Management \(HAM\)
 description: Get a quick overview of the important information related to the Now Assist for Hardware Asset Management \(HAM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/now-assist-for-hardware-asset-management/supporting-info-now-assist-ham.html
 release: zurich
 product: Now Assist for Hardware Asset Management
 classification: now-assist-for-hardware-asset-management
@@ -45,5 +46,5 @@ Activate the applications in the following order:
 -   AI Agents for IT Asset Management \(com.sn\_itam\_aia\)
 -   Now Assist for Hardware Asset Management \(HAM\) \(sn\_now\_assist\_ham\)
 
-**Parent Topic:**[Exploring Now Assist for Hardware Asset Management \(HAM\)](exploring-now-assist-ham.md)
+**Parent Topic:**[Exploring Now Assist for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-hardware-asset-management/exploring-now-assist-ham.md)
 

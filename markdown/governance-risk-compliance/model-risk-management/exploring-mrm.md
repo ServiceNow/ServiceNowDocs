@@ -2,6 +2,7 @@
 title: Exploring Model Risk Management
 description: Learn how you can use the Model Risk Management application to identify, assess, and mitigate risks related to the quantitative models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/model-risk-management/exploring-mrm.html
 release: zurich
 product: Model Risk Management
 classification: model-risk-management
@@ -36,7 +37,7 @@ For example, a financial institution uses a Value at Risk \(VaR\) model to estim
 
 The following section describes the steps from the submission of a model risk in the Employee Center to the assessment and monitoring of the risks associated with that model.
 
-![Infographic showing how Model Owner, Model Governance, and Model Validator submit, assess, validate, and monitor a model risk. For details, refer to the following description.](../image/mrm-workflow.png "Submitting and managing model risks with Model Risk Management")
+\[Omitted image "mrm-workflow.png"\] Alt text: Infographic showing how Model Owner, Model Governance, and Model Validator submit, assess, validate, and monitor a model risk. For details, refer to the following description.
 
 1.  An employee can use the Employee Center and submit a new model request.
 2.  A new model record is automatically created in the model inventory and can be assessed in the Model Risk Workspace.
@@ -101,7 +102,7 @@ Model Risk Assessment
 
 </td><td>
 
-Helps quickly identify and prioritize high-risk models so resources focus where they matter most. To perform a model risk assessment and evaluate the risks associated with a quantitative model, refer to [Perform model risk assessment](../task/perform-model-risk-assessment.md).
+Helps quickly identify and prioritize high-risk models so resources focus where they matter most. To perform a model risk assessment and evaluate the risks associated with a quantitative model, refer to [Perform model risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/model-risk-management/perform-model-risk-assessment.md).
 
 </td><td>
 
@@ -114,7 +115,7 @@ Model Validation
 
 </td><td>
 
-Builds confidence in model reliability through independent checks that reduce errors and regulatory concerns.To perform model validation, refer to [Perform model validation](../task/perform-model-risk-validation.md).
+Builds confidence in model reliability through independent checks that reduce errors and regulatory concerns.To perform model validation, refer to [Perform model validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/model-risk-management/perform-model-risk-validation.md).
 
 </td><td>
 
@@ -126,7 +127,7 @@ Model Documentation
 
 </td><td>
 
-Makes it easy to maintain clear, audit-ready documentation that streamlines reviews and improves transparency.To link documents from your repository to a model record, refer to [Link existing documents to a model record](../task/link-existing-documents-model-record.md).
+Makes it easy to maintain clear, audit-ready documentation that streamlines reviews and improves transparency.To link documents from your repository to a model record, refer to [Link existing documents to a model record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/model-risk-management/link-existing-documents-model-record.md).
 
 </td><td>
 
@@ -140,7 +141,7 @@ Model Issue &amp; Remediation
 
 </td><td>
 
-Enables timely detection and resolution of model issues, minimizing business disruption and confirming continuous compliance.To report an issue, refer to [Create an issue for model](../task/create-an-issue-for-model-risk.md).
+Enables timely detection and resolution of model issues, minimizing business disruption and confirming continuous compliance.To report an issue, refer to [Create an issue for model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/model-risk-management/create-an-issue-for-model-risk.md).
 
 </td><td>
 
@@ -153,8 +154,8 @@ Enables timely detection and resolution of model issues, minimizing business dis
 
 To learn more about configuring and using Model Risk Management, see:
 
--   [Configuring Model Risk Management](configuring-mrm.md)
+-   [Configuring Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/model-risk-management/configuring-mrm.md)
 -   [Configure scoring logic for model risk assessments](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2287605)
--   [Using Model Risk Management](using-mrm.md)
--   [Model Risk Management reference](mrm-reference.md)
+-   [Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/model-risk-management/using-mrm.md)
+-   [Model Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/model-risk-management/mrm-reference.md)
 

@@ -2,6 +2,7 @@
 title: Install CMDB success advisor
 description: You can install the CMDB success advisor application \(sn\_cmdb\_advisor\) if you have the admin role. The application installs related ServiceNow applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-install.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -30,7 +31,7 @@ The following items are installed with CMDB success advisor:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with CMDB success advisor](../reference/cmdb-sa-components-installed.md).
+For more information, see [Components installed with CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-components-installed.md).
 
 ## Procedure
 
@@ -38,7 +39,7 @@ For more information, see [Components installed with CMDB success advisor](../re
 
 2.  Find the CMDB success advisor application \(sn\_cmdb\_advisor\) using the filter criteria and search bar.
 
-    You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
+    You can search for the application by its name or ID. If you can't find the application, you might have to request it from the ServiceNow Store.
 
     In the list next to the **Install** button, the versions that are available to you are displayed.
 

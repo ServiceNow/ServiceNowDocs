@@ -2,6 +2,7 @@
 title: Synonyms
 description: Synonyms expand search queries to include additional terms with equivalent meaning or usage. Improve search recall by configuring synonym dictionaries and defining synonyms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/synonyms-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -31,7 +32,7 @@ To be eligible for expanding a search query's terms, a synonym must satisfy the 
 
 -   It must be active.
 -   The synonym dictionary that includes it must be published.
--   Its length doesn't exceed the [dictionary term-length limit](synonyms-ais.md#dictionary-term-length-limit-synonyms).
+-   Its length doesn't exceed the [dictionary term-length limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/synonyms-ais.md).
 
 The system locates eligible synonyms in synonym dictionaries as follows:
 
@@ -60,7 +61,7 @@ The search profile specified for the search query doesn't link to a published sy
 The system only considers synonyms from the default \(English\) synonym dictionary. As an example, suppose a search application's search profile has no linked Spanish synonym dictionary. When a user searches in Spanish in this application, only synonyms from the default \(English\) synonym dictionary are eligible to expand search query terms.
 
 </td></tr></tbody>
-</table>For more details on language support in synonym dictionaries, see [Language dependence](synonyms-ais.md#synonym-language-dependence-section).
+</table>For more details on language support in synonym dictionaries, see [Language dependence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/synonyms-ais.md).
 
 ## Synonym terms and payloads
 
@@ -77,7 +78,7 @@ Synonym term expansion is bidirectional. AI Search treats all terms defined in t
 
 By default, AI Search ignores synonym terms that exceed 256 characters in length. You can override this default limit by adding the **query.maxDictionaryTermLength** system property. The integer value of this system property indicates the maximum allowable character length for stop word and synonym dictionary terms.
 
-For information on adding a system property, see [Add a system property](../../reference-pages/reference/r_AvailableSystemProperties.md#).
+For information on adding a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Warning:** Exercise caution when increasing the dictionary term-length limit beyond its default value. Processing long dictionary terms increases AI Search's memory usage, and in some cases search queries may fail with out-of-memory errors.
 
@@ -119,7 +120,7 @@ Synonym expansion is language-dependent. You specify a language for each synonym
 
 **Note:** If the search profile specified for a search query has no linked synonym dictionary for the search query language, AI Search uses the default \(English\) synonym dictionary as a fallback.
 
-AI Search supports synonym dictionaries for all languages activated in your instance. For the list of languages you can activate, see [Activate a language](../../localization/task/t_ActivateALanguage.md).
+AI Search supports synonym dictionaries for all languages activated in your instance. For the list of languages you can activate, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/t_ActivateALanguage.md).
 
 ## Interaction with other search features
 
@@ -135,7 +136,7 @@ Interaction with synonyms
 
 </th></tr></thead><tbody><tr><td>
 
-[Genius Results](genius-results-ais.md)
+[Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/genius-results-ais.md)
 
 </td><td>
 
@@ -143,7 +144,7 @@ Synonym expansion terms can't trigger Genius Result configurations with Term tri
 
 </td></tr><tr><td>
 
-[Lemma and Unicode normalization](lemma-unicode-normalization-ais.md)
+[Lemma and Unicode normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/lemma-unicode-normalization-ais.md)
 
 </td><td>
 
@@ -151,15 +152,15 @@ If a search query term is defined as a synonym, AI Search doesn't normalize it.
 
 </td></tr><tr><td>
 
-[Result improvement rules](result-improvement-rules-ais.md)
+[Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/result-improvement-rules-ais.md)
 
 </td><td>
 
-By default, a synonym expansion term can activate a result improvement rule if it matches the rule's Query trigger. You can prevent synonym expansion terms from activating a rule with a Query trigger by clearing the **Expand Synonyms For Query Conditions** option that appears when you define the Query trigger.**Note:** Starting in the Xanadu release, AI Search uses synonyms to expand user context field values when applying boost actions from result improvement rules. As an example, if the user context location is `Paris` and you define a synonym that defines `Paris` and `France` as equivalent, your result improvement rule boosts documents containing `France` as well as those containing `Paris`. For more details on boost actions, see [Boost search results using a result improvement rule](../task/boost-results-ais.md#).
+By default, a synonym expansion term can activate a result improvement rule if it matches the rule's Query trigger. You can prevent synonym expansion terms from activating a rule with a Query trigger by clearing the **Expand Synonyms For Query Conditions** option that appears when you define the Query trigger.**Note:** Starting in the Xanadu release, AI Search uses synonyms to expand user context field values when applying boost actions from result improvement rules. As an example, if the user context location is `Paris` and you define a synonym that defines `Paris` and `France` as equivalent, your result improvement rule boosts documents containing `France` as well as those containing `Paris`. For more details on boost actions, see [Boost search results using a result improvement rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/boost-results-ais.md).
 
 </td></tr><tr><td>
 
-[Stop words](stop-words-ais.md)
+[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/stop-words-ais.md)
 
 </td><td>
 
@@ -176,7 +177,7 @@ If a synonym definition includes a term defined as a stop word, AI Search retain
 
 </td></tr><tr><td>
 
-[Typo handling](typo-handling-ais.md)
+[Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/typo-handling-ais.md)
 
 </td><td>
 
@@ -189,18 +190,18 @@ Publishing a synonym dictionary makes its settings and active synonyms take effe
 
 Publishing a search profile updates the profile's synonym dictionary links but doesn't update the dictionary's settings or active synonyms in AI Search.
 
--   **[Create a synonym dictionary linked to a search profile](../task/create-synonym-dict-ais.md)**  
+-   **[Create a synonym dictionary linked to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-synonym-dict-ais.md)**  
 Define a new synonym dictionary and link it to a search profile.
--   **[Create synonyms](../task/create-synonym-ais.md)**  
+-   **[Create synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-synonym-ais.md)**  
 Define terms to treat as equivalent in search queries.
--   **[Clone a synonym dictionary](../task/clone-synonym-dictionary-ais.md)**  
+-   **[Clone a synonym dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/clone-synonym-dictionary-ais.md)**  
 Create a copy of an existing synonym dictionary.
--   **[Link a synonym dictionary to a search profile](../task/link-synonym-dict-profile-ais.md)**  
+-   **[Link a synonym dictionary to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/link-synonym-dict-profile-ais.md)**  
 Link an existing synonym dictionary to one or more search profiles.
--   **[Unlink a synonym dictionary from a search profile](../task/unlink-synonym-dict-ais.md)**  
+-   **[Unlink a synonym dictionary from a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/unlink-synonym-dict-ais.md)**  
 Remove a synonym dictionary from a search profile.
--   **[Delete a synonym dictionary](../task/delete-synonym-dict-ais.md)**  
+-   **[Delete a synonym dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/delete-synonym-dict-ais.md)**  
 Remove a synonym dictionary that isn't linked from any search profile.
 
-**Parent Topic:**[Search profiles in AI Search](defining-search-profiles-ais.md)
+**Parent Topic:**[Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/defining-search-profiles-ais.md)
 

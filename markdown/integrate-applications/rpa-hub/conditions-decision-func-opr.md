@@ -2,6 +2,7 @@
 title: Functions, data types, and operators
 description: The Decision component supports certain functions and operators described in the topic. Use this topic as a reference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/conditions-decision-func-opr.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -203,5 +204,5 @@ Relational operators are used to compare values. These operators always result i
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Conditions](../concept/conditions-components.md)
+</table>**Parent Topic:**[Conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/conditions-components.md)
 

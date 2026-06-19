@@ -2,6 +2,7 @@
 title: Notify in Service Operations Workspace
 description: Notify in Service Operations Workspace provides support for SMS, telephone, and the service providers on the ServiceNow AI Platform for communicating internally with team members and externally with customers and contractors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/notify-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -15,16 +16,16 @@ breadcrumb: [Collaboration in Service Operations Workspace, Manage, Service Oper
 
 Notify in Service Operations Workspace provides support for SMS, telephone, and the service providers on the ServiceNow AI Platform for communicating internally with team members and externally with customers and contractors.
 
-For more information about configuring Notify, see [Notify](https://www.servicenow.com/docs/access?context=notify-landing-page&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+For more information about configuring Notify, see .
 
--   **[Use Twilio to make conference calls in Service Operations Workspace](telephony-sow.md)**  
+-   **[Use Twilio to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/telephony-sow.md)**  
 Use Twilio to schedule conference calls with stakeholders to resolve incidents in Service Operations Workspace.
--   **[Use Webex for conference calls in Service Operations Workspace](cisco-webex-sow.md)**  
+-   **[Use Webex for conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/cisco-webex-sow.md)**  
 Use Webex to schedule the conference calls with the stake holders to resolve the incidents in Service Operations Workspace.
--   **[Use Zoom to make conference calls in Service Operations Workspace](zoom-sow.md)**  
+-   **[Use Zoom to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/zoom-sow.md)**  
 Use Zoom to schedule the conference calls with the stake holders to resolve the incidents in Service Operations Workspace.
--   **[Use Microsoft Teams to make conference calls in Service Operations Workspace](microsoft-teams-sow.md)**  
+-   **[Use Microsoft Teams to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/microsoft-teams-sow.md)**  
 Use Microsoft Teams to schedule the conference calls with the stake holders to resolve the incidents in Service Operations Workspace.
 
-**Parent Topic:**[Collaboration in Service Operations Workspace](collaboration-sow.md)
+**Parent Topic:**[Collaboration in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/collaboration-sow.md)
 

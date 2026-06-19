@@ -2,6 +2,7 @@
 title: MID Server domain separation
 description: Use the MID Server user role to configure MID Servers to access separate domains. The credentials in the config.xml file of a MID Server determine which domains it can access. Specific MID Server policy records can be restricted for use only by MID Server from the same domain.Set up domain separation through the MID server user role and the MID Server configuration file.You can create a MID Server in the global domain that can explore targets in other domains.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/mid-server/c\_MIDServerDomainSeparation.html
 release: zurich
 product: MID Server
 classification: mid-server
@@ -30,7 +31,7 @@ You can create versions of these specific MID Server policy records that only a 
 
 **Note:** Attachments on MIB or JAR file records might not appear as they did in a non-domain separated environment. The attachments do not appear because the **Attachments** \[sys\_attachment\] table is data separated. When data is separated between domains, a record in a child domain cannot access records in a parent domain.
 
-**Parent Topic:**[Configuring MID Servers](c_MIDServerConfiguration.md)
+**Parent Topic:**[Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/c_MIDServerConfiguration.md)
 
 ## Set up domain separation for MID servers
 
@@ -42,11 +43,11 @@ Role required: agent\_admin or admin
 
 ### Procedure
 
-1.  [Configure a MID Server user](../task/t_SetupMIDServerRole.md#) within a specified domain with the proper **mid\_server** role.
+1.  [Configure a MID Server user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/t_SetupMIDServerRole.md) within a specified domain with the proper **mid\_server** role.
 
 2.  Specify this user within the MID Server **config.xml** file.
 
-    When you set the [MID Server user credentials](mid-server-install-prereqs.md#) in the `config.xml` file, make sure they are in the proper domain.
+    When you set the [MID Server user credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-server-install-prereqs.md) in the `config.xml` file, make sure they are in the proper domain.
 
 
 ### What to do next
@@ -76,7 +77,7 @@ You can create a MID Server in the global domain that can explore targets in oth
 Before configuring a multi-domain MID Server:
 
 -   Activate the Domain Support - Domain Extensions Installer \[com.glide.domain.msp\_extensions.installer\] plugin.
--   Ensure that your instance is [domain separated](https://www.servicenow.com/docs/access?context=c_DomainSeparation&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+-   Ensure that your instance is domain separated.
 
 Role required: admin
 

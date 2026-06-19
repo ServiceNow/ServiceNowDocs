@@ -2,6 +2,7 @@
 title: Install an application or plugin
 description: Install an application or plugin to make its features available on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/application-manager/installing-applications-in-application-manager.html
 release: zurich
 product: Application Manager
 classification: application-manager
@@ -28,7 +29,7 @@ Role required: admin, sn\_appclient.app\_client\_user, or sn\_appclient.app\_cli
 
 ## About this task
 
-This topic describes how to install an application or plugin. For information about updating applications or plugins, see [Update an application or plugin](../../../administer/application-manager/task/update-application-app-mgr.md).
+This topic describes how to install an application or plugin. For information about updating applications or plugins, see [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/application-manager/update-application-app-mgr.md).
 
 ## Procedure
 
@@ -46,19 +47,19 @@ This topic describes how to install an application or plugin. For information ab
 
 5.  If the application or plugin has dependencies, verify that all necessary dependencies can be updated or installed.
 
-    If any dependencies are categorized as **Needs to be procured from store**, procure the necessary dependencies and sync the Application Manager with the ServiceNow Store before continuing. For more information about unavailable dependencies that block installation, see [Evaluating version requirements and dependencies](../../../administer/servicenow-store/concept/versions-dependencies.md).
+    If any dependencies are categorized as **Needs to be procured from store**, procure the necessary dependencies and sync the Application Manager with the ServiceNow Store before continuing. For more information about unavailable dependencies that block installation, see [Evaluating version requirements and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/versions-dependencies.md).
 
 6.  Install the application now or schedule installation for a later time.
 
-<table id="choicetable_kkl_v3m_yfc"><thead><tr><th align="left" id="d214379e205">
+<table id="choicetable_kkl_v3m_yfc"><thead><tr><th align="left" id="d73639e205">
 
 Installation option
 
-</th><th align="left" id="d214379e208">
+</th><th align="left" id="d73639e208">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d214379e214">
+</th></tr></thead><tbody><tr><td id="d73639e214">
 
 **Install now**
 
@@ -68,7 +69,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d214379e238">
+</td></tr><tr><td id="d73639e238">
 
 **Install later**
 
@@ -85,5 +86,5 @@ Procedure
 
 If you choose to install the application or plugin now, it and its dependencies begin to install immediately. Scheduled installations begin at the chosen date and time.
 
-**Parent Topic:**[Installing applications, plugins, and products](../../../administer/application-manager/concept/installing-apps-app-manager.md)
+**Parent Topic:**[Installing applications, plugins, and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/application-manager/installing-apps-app-manager.md)
 

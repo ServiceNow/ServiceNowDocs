@@ -2,6 +2,7 @@
 title: Timeline pages
 description: Use timeline pages to track any activity bounded by two dates, such as change request start and end dates, or incident open and close dates. Administrators can create timeline pages, which are user interactive.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/time-configuration/c\_TimelinePages.html
 release: zurich
 product: Time Configuration
 classification: time-configuration
@@ -28,7 +29,7 @@ Use timeline pages to track any activity bounded by two dates, such as change re
 
 By default, only administrators have a module to access timeline records. ITIL users can only view timelines by selecting a context menu item from an incident record.
 
-![The timeline view, showing a green line where the current time is, and range indicators.](../image/TimelineNew.png "Timeline View")
+\[Omitted image "TimelineNew.png"\] Alt text: The timeline view, showing a green line where the current time is, and range indicators.
 
 ## Administrator role users
 
@@ -45,24 +46,24 @@ By default, timeline metrics only appear for incident records. ITIL users can vi
 1.  Navigate to active task record, such as an incident.
 2.  Right-click the banner, and select **Metrics Timeline**.
 
-To enable non-administrators to view other timelines, [create a custom module](../task/t_MakeATimelineVisibleToASelUser.md).
+To enable non-administrators to view other timelines, [create a custom module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/t_MakeATimelineVisibleToASelUser.md).
 
--   **[Timing functionality](c_TimingFunctionality.md#)**  
+-   **[Timing functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/c_TimingFunctionality.md)**  
 Timing functionality are tools that exist to answer the question "How Long?"
--   **[Create a timeline page](../task/t_CreateATimelinePage.md)**  
+-   **[Create a timeline page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/t_CreateATimelinePage.md)**  
 Create a timeline page to track any activity bounded by two dates.
--   **[Customize the timeline page span style](../task/t_CustomizeTimelinePageSpanStyle.md)**  
+-   **[Customize the timeline page span style](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/t_CustomizeTimelinePageSpanStyle.md)**  
 The Timeline Page Span Styles related list allows you to define conditional span styles.
--   **[Timeline sub item](../task/t_TimelineSubItem.md)**  
+-   **[Timeline sub item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/t_TimelineSubItem.md)**  
 Use the Timeline Sub Items related list to define child spans for the timeline, based on records in a table that references the parent timeline's table.
--   **[Display a metric as a timeline](../task/t_DisplayAMetricAsATimeline.md)**  
+-   **[Display a metric as a timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/t_DisplayAMetricAsATimeline.md)**  
 Administrators can enable users to display any metric on a timeline by activating the Timeline Metrics UI action.
--   **[Make a timeline visible to a selected user](../task/t_MakeATimelineVisibleToASelUser.md)**  
+-   **[Make a timeline visible to a selected user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/t_MakeATimelineVisibleToASelUser.md)**  
 Create a custom module within an application and defining the roles that can access it, to make selected timelines available to users.
--   **[Range calculator scripts](../reference/r_RangeCalculatorScripts.md)**  
+-   **[Range calculator scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/r_RangeCalculatorScripts.md)**  
 You can specify a script include that calculates range restrictions and processes parent updates in a timeline page.
--   **[Timelines](../../../use/common-ui-elements/concept/c_UsingTimelines.md)**  
+-   **[Timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/c_UsingTimelines.md)**  
 Timelines display a linear calendar of tasks, such as incidents and change requests, defined by their start and end dates.
 
-**Parent Topic:**[Viewing record information over time](../reference/r_TimeDisplay.md)
+**Parent Topic:**[Viewing record information over time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/r_TimeDisplay.md)
 

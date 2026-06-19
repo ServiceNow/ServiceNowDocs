@@ -2,6 +2,7 @@
 title: Create a UI action to enable creating knowledge articles from HR cases
 description: Create a UI action to add the Knowledge check box to the HR case form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/ui-action-hrcase-article.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -79,5 +80,5 @@ Ensure that the Developer Application is set to **Human Resources: Core**.
 10. Click **Submit**.
 
 
-**Parent Topic:**[Enable actionable knowledge feedback](configure-act-know-feedback-properties.md)
+**Parent Topic:**[Enable actionable knowledge feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/configure-act-know-feedback-properties.md)
 

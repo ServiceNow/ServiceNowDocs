@@ -2,6 +2,7 @@
 title: Assigning data classifications to dictionary entries
 description: Assign data classifications to specific table columns in the Dictionary \[sys\_dictionary\] table. When you assign data classifications, it creates entries in the Dictionary-Data Class \[m2m\_dictionary\_dataclass\] table, which you can then review in the Overview dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-classification/apply-data-classification-codes-dictionary-entries.html
 release: zurich
 product: Data Classification
 classification: data-classification
@@ -35,6 +36,6 @@ Role required: data\_classification\_admin and admin
 
     You can select multiple data classifications as needed.
 
-    See [Data dictionary tables](https://www.servicenow.com/docs/access?context=c_DataDictionaryTables&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) for additional information.
+    See  for additional information.
 
 

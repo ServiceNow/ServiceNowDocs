@@ -2,6 +2,7 @@
 title: Activate or update NIST Risk Management Framework using the ESG content accelerator
 description: Activate or update NIST Risk Management Framework and select the citations for the framework. It installs the framework and the selected citations, control objectives, and risk statements on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/ai-risk-management/activate-or-update-nist-using-the-content-accelerator.html
 release: zurich
 product: AI Risk Management
 classification: ai-risk-management
@@ -23,7 +24,7 @@ Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager
 
 1.  Navigate to **All** &gt; **AI Risk and Compliance Workspace**.
 
-2.  Select the AI Risk and Compliance Content icon ![](../../grc-vendor-risk/image/unified-content-mgmt-icon.png) on the AI Risk and Compliance Workspace.
+2.  Select the AI Risk and Compliance Content icon \[Omitted image "unified-content-mgmt-icon.png"\] Alt text: on the AI Risk and Compliance Workspace.
 
 3.  Select the **Activate** button on the NIST Risk Management Framework card.
 
@@ -54,5 +55,5 @@ Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager
 11. Repeat the steps from 5.
 
 
-**Parent Topic:**[Using AI Risk and Compliance](../concept/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

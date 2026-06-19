@@ -2,6 +2,7 @@
 title: Export hierarchy of models and templates
 description: Export a hierarchy of models, inventory templates, and all related records efficiently using the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/export-hierarchy-of-models-and-template.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -23,7 +24,7 @@ Role required: sn\_ni\_core.inventory\_admin
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/ni-workspace-list-icon.png)\), and then go to any model or inventory template.
+2.  Select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List icon.\), and then go to any model or inventory template.
 
 3.  Select a desired record.
 
@@ -35,7 +36,7 @@ Role required: sn\_ni\_core.inventory\_admin
 
 5.  Select a related record link.
 
-6.  Select **![Options icon](../../../common/image/icon-menu.png)** &gt; **Export**.
+6.  Select **\[Omitted image "icon-menu.png"\] Alt text: Options icon** &gt; **Export**.
 
 7.  On the Export window, select the desired file type to export the data.
 
@@ -60,5 +61,5 @@ Role required: sn\_ni\_core.inventory\_admin
 
 The selected model or inventory template with all related records is downloaded in the selected format.
 
-**Parent Topic:**[Using Telecommunications Network Inventory](../concept/using-telecom-network-inventory.md)
+**Parent Topic:**[Using Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/using-telecom-network-inventory.md)
 

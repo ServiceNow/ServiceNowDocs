@@ -2,11 +2,12 @@
 title: Create Azure cloud credentials
 description: If your cloud resources are in an Azure cloud, create credentials that can access the Azure account. This procedure requires configuration in your Azure account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/create-azure-cloud-credentials.html
 release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Discovery for Microsoft Azure Cloud, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -42,7 +43,7 @@ Roles required:
 
     Enter the following information for your application:
 
-    ![Register an application](../image/register-app-azure.png)
+    \[Omitted image "register-app-azure.png"\] Alt text: Register an application
 
     |Field|Description|
     |-----|-----------|
@@ -87,29 +88,59 @@ Expiration for the key.**Note:** Your organization may apply policies to restric
 
 8.  Copy and paste the key value into the text editor and label the value **Application key**.
 
-9.  To enable the service principal to work with various Azure subscriptions, navigate to **Subscriptions**.
+9.  Enable the service principal to access Azure subscriptions based on your environment.
 
-    To manage multiple subscriptions, you must perform the following procedure for each subscription:
+    Choose the option that matches your setup:
 
-    1.  Paste the subscription ID into the text editor and label it **Subscription ID**.
+    -   Management group: Use this option to grant Reader access to all subscriptions under the management group
+    -   Individual subscription: Use this option to grant Reader access to a specific subscription only
+<table id="choicetable_fwr_vmt_p3c"><thead><tr><th align="left" id="d112836e351">
 
-        The text file that you generate during this procedure might look something like this: ![Text file that temporarily holds Azure service principal credential values](../image/azure-text-file.png)
+Option
 
-    2.  Navigate to the subscription and select **Access Control \(IAM\)** from the menu.
+</th><th align="left" id="d112836e354">
 
-    3.  Select **+ Add** at the top of the screen then **Add role assignment**.
+Steps
 
-    4.  Select the value **reader** from the **Role** field.
+</th></tr></thead><tbody><tr><td id="d112836e360">
 
-        Let the default value **User, group, or service principal** remain as is in the **Assign access to** field.
+**Management group**
 
-        **Note:** The **Resource policy contributor** role is only required for provisioning.
+</td><td>
 
-    5.  Select the name you created in step 2 in the **Select** field and select **Save**.
+1.  In the Azure portal, navigate to **Management groups** and select the required management group.
+2.  Select from the menu **Access Control \(IAM\)**.
+3.  Select **+ Add** and then **Add role assignment**.
+4.  In the **Role** field, select the **Reader** value.
 
-        ![Add role assignment](../image/add-role-assignment.png)
+**Note:** The **Resource Policy Contributor** role is only required for provisioning.
 
-10. Select the **Azure Service Principal** type credential.
+5.  In the **Assign access to** field, keep the default **User, group, or service principal** value.
+6.  In the **Select** field, select the name you created in the registering the application step.
+7.  Select **Save**.
+
+
+</td></tr><tr><td id="d112836e432">
+
+**Individual subscription**
+
+</td><td>
+
+1.  In the Azure portal, navigate to **Subscriptions** and select the required subscription.
+2.  Enter the subscription ID into the text editor and label it `Subscription ID`.
+3.  Select from the menu **Access Control \(IAM\)**.
+4.  Select **+ Add** and then **Add role assignment**.
+5.  In the **Role** field, select the **Reader** value.
+
+**Note:** The **Resource Policy Contributor** role is only required for provisioning.
+
+6.  In the **Assign access to** field, keep the default **User, group, or service principal** value.
+7.  In the **Select** field, select the name you created in the registering the application step.
+8.  Select **Save**.
+
+
+</td></tr></tbody>
+</table>10. Select the **Azure Service Principal** type credential.
 
     1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Credentials**.
 
@@ -148,7 +179,7 @@ Select **Client secret**.The **Secret key** field appears when you select **Clie
 </td></tr></tbody>
 </table>12. Copy and paste values from the temporary text file into the remaining fields.
 
-    ![Azure credentials](../image/azure-copy-to-service-principal.png)
+    \[Omitted image "azure-copy-to-service-principal.png"\] Alt text: Azure credentials
 
     |Credentials form field|Azure Service Principal value|
     |----------------------|-----------------------------|

@@ -2,6 +2,7 @@
 title: Normalization of discovery models using machine learning
 description: Use machine learning to improve your normalization rates in real time by normalizing your unrecognized discovered software.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/ml-learning-sam.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -19,7 +20,7 @@ The Software Asset Management application uses machine learning to improve norma
 
 Opt in for machine learning normalization by activating the Software Asset Management – Machine Learning Normalization \(com.sn\_sam\_ml\_normalization\) plugin.
 
-Once the plugin is activated, ensure that the **Enable ML Normalization for discovered software** \(com.snc.samp.enable.ml\_normalization\) property is selected. For more details on this property, see [Software Asset Management properties](../reference/sam-properties.md). You can opt out of machine learning normalization by disabling this property. If you opt out, normalization of discovery models only takes place against the content service rules.
+Once the plugin is activated, ensure that the **Enable ML Normalization for discovered software** \(com.snc.samp.enable.ml\_normalization\) property is selected. For more details on this property, see [Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-properties.md). You can opt out of machine learning normalization by disabling this property. If you opt out, normalization of discovery models only takes place against the content service rules.
 
 The scheduled job, `SAM-Normalize discovery models using content library rules`, triggers on a daily basis and normalizes the discovery models based on the content rules. This scheduled job runs irrespective of whether the Software Asset Management – Machine Learning Normalization plugin is activated or not. If this plugin is activated, then the partially normalized discovery models are picked up by another scheduled job, `SAM-Normalize discovery models using machine learning`. The scheduled job, `SAM-Normalize discovery models using content library rules` is enhanced to invoke the on-demand scheduled job, `SAM-Normalize discovery models using machine learning` and also validates machine learning predictions.
 
@@ -89,5 +90,5 @@ Partially normalized
 |Only the publisher is normalized|Publisher normalized|
 |If none of the fields are normalized: publisher, product, version, edition, full version|Match not found|
 
-**Parent Topic:**[Software discovery and normalization](c_SAMDiscovery.md)
+**Parent Topic:**[Software discovery and normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_SAMDiscovery.md)
 

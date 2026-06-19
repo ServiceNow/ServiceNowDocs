@@ -2,6 +2,7 @@
 title: Modernize your change management process blueprint
 description: Select this adoption blueprint to get a walk through on how you can adopt the required capabilities to allow your change process to dynamically scale without compromising stability and governance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/admin-center/ac-ab3.html
 release: zurich
 product: Admin Center
 classification: admin-center
@@ -43,7 +44,7 @@ Build the foundation
 
 </td><td>
 
-[Change Management](https://www.servicenow.com/docs/access?context=c_ITILChangeManagement&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -51,11 +52,11 @@ Simplify, automate, and accelerate complex change processes using built-in AI, w
 
 </td><td>
 
-[Components installed with ITSM Roles - Change Management](https://www.servicenow.com/docs/access?context=installed-with-cm-itsm-roles&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+
 
 </td><td>
 
-[Configuring Change Management](https://www.servicenow.com/docs/access?context=configure-change-management&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+
 
 </td></tr><tr><td>
 
@@ -63,7 +64,7 @@ Enhance the experience
 
 </td><td>
 
-[Change success score](https://www.servicenow.com/docs/access?context=change-success-score&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -71,11 +72,11 @@ Use change success scores for insight into change team and model historical perf
 
 </td><td>
 
-[Components installed with ITSM Roles - Change Management](https://www.servicenow.com/docs/access?context=installed-with-cm-itsm-roles&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+
 
 </td><td>
 
-[Components installed with Change Management - Change Success Score](https://www.servicenow.com/docs/access?context=installed-with-change-success-score&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+
 
 </td></tr><tr><td>
 
@@ -83,7 +84,7 @@ Optimize the functionality
 
 </td><td>
 
-[Digital Product Release](https://www.servicenow.com/docs/access?context=dpr-landing-page&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -91,7 +92,7 @@ Plan and deliver new versions of products across product teams while "shifting l
 
 </td><td>
 
-[Components installed with Digital Product Release](https://www.servicenow.com/docs/access?context=installed-with-dpr&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -105,7 +106,7 @@ Optimize the functionality
 
 </td><td>
 
-[DevOps Change Velocity](https://www.servicenow.com/docs/access?context=devops-landing-page-new&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -113,11 +114,11 @@ Use DevOps Change Velocity to connect data from your DevOps tool chain with the 
 
 </td><td>
 
-[Components installed with DevOps Change Velocity](https://www.servicenow.com/docs/access?context=installed-with-dev-ops&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+
 
 </td><td>
 
--   [DevOps Change Velocity support](https://www.servicenow.com/docs/access?context=dev-ops-overview&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+-   DevOps Change Velocity support
 -   [DevOps Change Velocity overview \(video\)](https://www.youtube.com/watch?v=qcON3o2WAzQ)
 
 </td></tr><tr><td>
@@ -126,7 +127,7 @@ Add advanced features
 
 </td><td>
 
-[Train the Risk Intelligence solution](https://www.servicenow.com/docs/access?context=train-risk-intelligence-solution&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -134,12 +135,12 @@ Leverage ML for data-driven evaluation of historical change data to predict chan
 
 </td><td>
 
-[Components installed with ITSM Roles - Change Management](https://www.servicenow.com/docs/access?context=installed-with-cm-itsm-roles&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+
 
 </td><td>
 
-[Request Change Management - Risk Assessment](https://www.servicenow.com/docs/access?context=request-cm-risk-assessment&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Select your adoption blueprint](../task/ac-select-business-objective.md)
+</table>**Parent Topic:**[Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-select-business-objective.md)
 

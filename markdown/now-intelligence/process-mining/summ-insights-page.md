@@ -2,6 +2,7 @@
 title: Set improvement opportunities from Summary and insights page
 description: Set improvement opportunities from the Summary and insights page to configure improvement opportunities for the project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/summ-insights-page.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -41,12 +42,12 @@ Set improvement opportunities from the Summary and insights page to configure im
 
 5.  Select **Create** on a card to create an improvement opportunity of that type.
 
-    For information on rule-based improvement opportunities, see [Set rule-based improvement opportunity](rule-based-builder.md).
+    For information on rule-based improvement opportunities, see [Set rule-based improvement opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/rule-based-builder.md).
 
-    For information on automated improvement opportunities, see [Automated improvement opportunities](../concept/automated-findings.md).
+    For information on automated improvement opportunities, see [Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/automated-findings.md).
 
     **Note:** You can have a maximum of 15 automated improvement opportunities for a project.
 
 
-**Parent Topic:**[Setting improvement opportunity for projects](../concept/project-imp-opp.md)
+**Parent Topic:**[Setting improvement opportunity for projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/project-imp-opp.md)
 

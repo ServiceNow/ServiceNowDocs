@@ -2,6 +2,7 @@
 title: Established connections
 description: Access data from external sources directly in the ServiceNow AI Platform, without copying any data to your instance using zero copy connections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/workflow-data-fabric-hub/connections-wdf.html
 release: zurich
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -26,7 +27,7 @@ Zero copy connections enable access to external data locally, while reducing sto
 
 In the Workflow Data Fabric Hub, a connection admin can navigate to the **Available connectors** tab to view primary and community connectors and create a zero copy connection. After the connection is established, the connection admin can grant access to a data steward. The data steward can then access the zero copy connection from the **Established connections** tab to create a data fabric table.
 
-![Established connections in Workflow Data Fabric Hub.](../image/wdf-zc-connections.png "Established connections in Workflow Data Fabric Hub")
+\[Omitted image "wdf-zc-connections.png"\] Alt text: Established connections in Workflow Data Fabric Hub.
 
 ## Required ServiceNow AI Platform roles
 
@@ -79,5 +80,5 @@ The data steward's primary goal is to provide quality data to consumers to meet 
 -   Access data from an external data source without importing and storing it on your instance. Customer order information is often stored in an external Customer Relationship Management \(CRM\) system, with the data ultimately residing in an external data lake such as Snowflake. When a customer calls to report a product issue, an agent working on the ServiceNow AI Platform opens a request and accesses the customer's full order history directly from Snowflake. The customer's order history stays in Snowflake, the system of record, but is available to the agent in real time on the ServiceNow AI Platform.
 -   Provide end-to-end details to agents with real-time data from an outside source. When a customer calls to make a warranty service claim against a vehicle, an agent working on the ServiceNow AI Platform can access extended warranty details from an external data lake in real time using a zero copy connection. The customer service agent can update the service request ticket with the latest warranty details directly from the data lake, ensuring the latest warranty information is used in the service ticket.
 
-For more information, see [Managing zero copy connections in Workflow Data Fabric Hub](managing-connections-wdf.md).
+For more information, see [Managing zero copy connections in Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/managing-connections-wdf.md).
 

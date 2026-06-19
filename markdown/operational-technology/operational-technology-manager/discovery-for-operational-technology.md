@@ -2,6 +2,7 @@
 title: IT Discovery for Operational Technology \(OT\) Networks
 description: You can use the IT Discovery for Operational Technology \(OT\) Networks function to discover IT class OT devices. These devices are located in designated Purdue levels within your Industrial Control System \(ICS\) networks. IT class items include switches, routers, and computers that exist both in data centers and in your factories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-manager/discovery-for-operational-technology.html
 release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -19,7 +20,7 @@ You can use the IT Discovery for Operational Technology \(OT\) Networks function
 
 The IT Discovery for OT Networks process operates in a manner that is similar to the standard Discovery processes.
 
-![Targeted Purdue levels in standard and Operational Technology Discovery.](../image/OT-discovery-targeted-zones.png "Targeted Purdue levels in standard and IT Discovery for OT Networks Discovery")
+\[Omitted image "OT-discovery-targeted-zones.png"\] Alt text: Targeted Purdue levels in standard and Operational Technology Discovery.
 
 Standard Discovery processing in the ServiceNow AI Platform® normally takes place in the following Purdue levels in your enterprise:
 
@@ -43,7 +44,7 @@ You typically run IT Discovery for OT Networks in the DMZ \(or IDMZ, Purdue Leve
 
 **Note:** To avoid the possibility of disrupting your industrial operations, you should not run Discovery processes against Purdue levels 0 through 2 in your ICS networks.
 
-![IT Discovery for OT Network processing.](../image/ot-discovery-schedule-processing.png "IT Discovery for OT Networks processing")
+\[Omitted image "ot-discovery-schedule-processing.png"\] Alt text: IT Discovery for OT Network processing.
 
 When you run an OT discovery schedule, it performs the following processing:
 
@@ -54,23 +55,23 @@ When you run an OT discovery schedule, it performs the following processing:
 3.  In addition to the location attribute, it also pushes the defined attributes from the OT discovery schedule to the CI and to the related OT entity records.
 4.  It also creates OT entity records for the applications installed on discovered OT devices. To view the applications that have OT entity records created through IT Discovery for OT Networks, navigate to the Industrial Workspace list view and open the **Applications** list under **Operational Technology \(OT\)**.
 
--   **[IT Discovery for OT Networks related links and lists](../reference/discovery-for-ot-related-links-lists.md)**  
+-   **[IT Discovery for OT Networks related links and lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/discovery-for-ot-related-links-lists.md)**  
 IT Discovery for OT Networks contains several related links and lists.
--   **[Create an Operational Technology Discovery schedule and run the Discovery process](../task/run-discovery-for-operational-technology.md)**  
+-   **[Create an Operational Technology Discovery schedule and run the Discovery process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/run-discovery-for-operational-technology.md)**  
 Define Operational Technology \(OT\) Discovery schedules that orchestrate how and when the Discovery for an OT function should run. You can also perform an immediate Quick Discovery or an actual OT Discovery run.
 
-**Parent Topic:**[Using the Operational Technology Manager](using-operational-technology-manager.md)
+**Parent Topic:**[Using the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/using-operational-technology-manager.md)
 
 **Related topics**  
 
 
-[Operation Technology \(OT\) extension classes](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-operation-technology&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.cmdb-ci-class-models-operation-technology]
 
-[MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.mid-server-landing]
 
-[Discovery](https://www.servicenow.com/docs/access?context=r-discovery&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)
+[bundle-itom.r-discovery]
 
-[Horizontal discovery process flow with probes and sensors](https://www.servicenow.com/docs/access?context=c_DiscoProcessFlows&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)
+[bundle-itom.c_DiscoProcessFlows]
 
-[Schedule a horizontal discovery](https://www.servicenow.com/docs/access?context=t_CreateADiscoverySchedule&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)
+[bundle-itom.t_CreateADiscoverySchedule]
 

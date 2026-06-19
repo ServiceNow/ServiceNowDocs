@@ -2,6 +2,7 @@
 title: Dark theme in UI Builder
 description: Learn how to switch to the dark theme in UI Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/dark-theme-ui-builder.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -15,15 +16,15 @@ breadcrumb: [Navigate the UI Builder application, Learning UI Builder, UI Builde
 
 Learn how to switch to the dark theme in UI Builder.
 
-UI Builder includes a dark theme option, offering an eye-friendly alternative to the default light theme. You can enable dark theme by selecting the Choose theme icon \(!['Choose theme' icon.](../image/choose-theme-icon.png)\) in the banner.
+UI Builder includes a dark theme option, offering an eye-friendly alternative to the default light theme. You can enable dark theme by selecting the Choose theme icon \(\[Omitted image "choose-theme-icon.png"\] Alt text: 'Choose theme' icon.\) in the banner.
 
-![Choose theme icon location and the UI Builder theme options popup displaying the Light and Dark themes.](../image/theme-options.png "UI Builder theme options")
+\[Omitted image "theme-options.png"\] Alt text: Choose theme icon location and the UI Builder theme options popup displaying the Light and Dark themes.
 
 The Dark theme is instantly applied to the UI Builder interface.
 
-![UI Builder editor with dark theme applied.](../image/dark-theme-editor.png)
+\[Omitted image "dark-theme-editor.png"\] Alt text: UI Builder editor with dark theme applied.
 
-**Note:** The UI Builder stage uses the theme set in your Platform theme settings. For example, the stage might remain white even when the rest of the interface is dark. To enable UI16 pages to render with the dark theme on the stage, select the **Dark** option in the theme menu of your user preferences. For more information on navigating to the theme menu, see [Open the theme menu](https://www.servicenow.com/docs/access?context=tb-open-theme-menu&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+**Note:** The UI Builder stage uses the theme set in your Platform theme settings. For example, the stage might remain white even when the rest of the interface is dark. To enable UI16 pages to render with the dark theme on the stage, select the **Dark** option in the theme menu of your user preferences. For more information on navigating to the theme menu, see .
 
-**Parent Topic:**[Navigate the UI Builder application](nav-uib.md)
+**Parent Topic:**[Navigate the UI Builder application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/nav-uib.md)
 

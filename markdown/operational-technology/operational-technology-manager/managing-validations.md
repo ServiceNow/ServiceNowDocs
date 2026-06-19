@@ -2,6 +2,7 @@
 title: Managing Validations
 description: Validation enables you to review and manage the imported data in the staging table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-manager/managing-validations.html
 release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -47,7 +48,7 @@ Validations to be executed:
     If you have additional mappings, create an extension point implementation for the base system **sn\_otsm\_sgc.SGOTAssetImportExtensionPoint** extension point.
 
 
-For more information about adding a custom implementation for device classification, see [Add a custom implementation for device classification](../task/adding-custom-implementation-for-asset-classification.md).
+For more information about adding a custom implementation for device classification, see [Add a custom implementation for device classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/adding-custom-implementation-for-asset-classification.md).
 
-**Parent Topic:**[Validate imported staging records](../task/run-validations.md)
+**Parent Topic:**[Validate imported staging records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/run-validations.md)
 

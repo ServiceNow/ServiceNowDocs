@@ -2,6 +2,7 @@
 title: Acknowledge the legal hold notice
 description: As a custodian, acknowledge that you have received the legal hold notice, confirming your agreement to preserve all relevant data. This acknowledgment serves as formal documentation supporting the legal team in the context of legal proceedings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-hold-notification/acknow-lg-hold-notif.html
 release: zurich
 product: Legal Hold Notification
 classification: legal-hold-notification
@@ -42,5 +43,5 @@ In the Employee Center, under the **My Tasks** tab, the acknowledged legal hold 
 
 In the Legal Counsel Center, under the **Custodians** tab of the legal matter page, the state changes from Assigned to Acknowledged.
 
-**Parent Topic:**[Using Legal Hold Notification](../concept/use-lg-hold-notif.md)
+**Parent Topic:**[Using Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-hold-notification/use-lg-hold-notif.md)
 

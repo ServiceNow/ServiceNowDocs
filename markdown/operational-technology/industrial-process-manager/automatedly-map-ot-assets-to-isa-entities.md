@@ -2,6 +2,7 @@
 title: Map an individual OT device to an equipment model entity
 description: Perform on-demand mapping of an OT device to the ISA equipment model entity for the sites that you have access to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-process-manager/automatedly-map-ot-assets-to-isa-entities.html
 release: zurich
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -19,8 +20,8 @@ Perform on-demand mapping of an OT device to the ISA equipment model entity for 
 
 The following plugins must be installed:
 
--   [Operational Technology Manager](../../mftg-manufacturing-oper-tech-mgr/concept/operational-technology-manager.md)
--   [Industrial Process Manager](../../mftg-manufacturing-process-mgr/concept/industrial-process-manager-overview.md)
+-   [Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/operational-technology-manager.md)
+-   [Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/industrial-process-manager-overview.md)
 
 Role required: sn\_ot\_amazing\_write and cmdb\_ot\_viewer
 
@@ -34,7 +35,7 @@ Role required: sn\_ot\_amazing\_write and cmdb\_ot\_viewer
 
 4.  Select the OT device that you want to map.
 
-5.  In the OT device record, select the **More actions** ![](../../mftg-manufacturing-ot-knowledge/image/more-actions.png) icon.
+5.  In the OT device record, select the **More actions** \[Omitted image "more-actions.png"\] Alt text: icon.
 
 6.  Select the **Map OT device** UI action.
 
@@ -43,5 +44,5 @@ Role required: sn\_ot\_amazing\_write and cmdb\_ot\_viewer
 
 If there is an active OT subnet that matches the IP address and site of the selected device, the device is mapped.
 
-**Parent Topic:**[Automatically map all OT devices to an equipment model entity](automatedly-map-all-ot-assets.md)
+**Parent Topic:**[Automatically map all OT devices to an equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/automatedly-map-all-ot-assets.md)
 

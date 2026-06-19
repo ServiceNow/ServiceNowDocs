@@ -2,6 +2,7 @@
 title: Configure and manage the Action Plan Guided Tour for Journey Accelerator
 description: As an administrator \[admin\] or a guided tour administrator \[guided\_tour\_admin\], you can manage and update the Action Plan Guided Tour for Journey Accelerator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-accelerator/ja-guided-tour.html
 release: zurich
 product: Journey Accelerator
 classification: journey-accelerator
@@ -21,7 +22,7 @@ To access the Action Plan Guided Tour from your ServiceNow instance, navigate to
 
 Guided tours help train role-based users on how to use an application's user interface \(UI\) and features. Tours contain a series of interactive steps a user completes in their browser window. Administrators can manage and modify guided tours. You can find more information about guided tours in these ServiceNow documentation topics.
 
--   [Guided tours](https://www.servicenow.com/docs/access?context=guided-tours&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US): This overview covers many of the features administrators use to create and modify tours.
--   [Guided Tour Designer interface](https://www.servicenow.com/docs/access?context=guided-tour-designer-interface&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US): Learn about the Guided Tour Designer features and interface.
--   [Edit a guided tour](https://www.servicenow.com/docs/access?context=edit-guided-tour&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US): This task provides details about how to modify guided tours.
+-   Guided tours: This overview covers many of the features administrators use to create and modify tours.
+-   Guided Tour Designer interface: Learn about the Guided Tour Designer features and interface.
+-   Edit a guided tour: This task provides details about how to modify guided tours.
 

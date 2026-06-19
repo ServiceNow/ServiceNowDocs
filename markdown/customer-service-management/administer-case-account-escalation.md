@@ -2,7 +2,10 @@
 title: Administering case and account escalation
 description: Create escalation templates and escalation severity definitions to control the escalation process for cases and accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/administer-case-account-escalation.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -59,7 +62,7 @@ Platform interface
 Escalated case and account numbers are indicated with a colored dot on a list and a colored background on a form.
 
 </td></tr></tbody>
-</table>![List of cases with escalation details. For the text description, refer to the text that follows.](../image/csm-aw-case-escalation-list.png "CSM Agent Workspace case list with escalated cases")
+</table>\[Omitted image "csm-aw-case-escalation-list.png"\] Alt text: List of cases with escalation details. For the text description, refer to the text that follows.
 
 The CSM Agent Workspace case list shows these escalation details:
 
@@ -68,7 +71,7 @@ The CSM Agent Workspace case list shows these escalation details:
 -   Action status: Indicates the status of the case.
 -   Contact: Shows the contact person for the case.
 
-In addition to defining the field indicator and field highlight of an escalated case or account, the severity can be used when configuring SLAs. To configure additional escalation severity definitions, the system administrator must configure a new style with the desired color. For more information, see [Highlight list fields](https://www.servicenow.com/docs/access?context=highlight-list-fields-platform&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+In addition to defining the field indicator and field highlight of an escalated case or account, the severity can be used when configuring SLAs. To configure additional escalation severity definitions, the system administrator must configure a new style with the desired color. For more information, see Highlight list fields.
 
 ## Escalation SLAs
 

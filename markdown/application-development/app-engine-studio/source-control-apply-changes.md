@@ -2,6 +2,7 @@
 title: Pull changes from a repository
 description: App developers using App Engine Studio \(AES\) can pull changes from a linked Git repository to apply remote changes to the local instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/source-control-apply-changes.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -18,7 +19,7 @@ App developers using App Engine Studio \(AES\) can pull changes from a linked Gi
 ## Before you begin
 
 -   Role required: admin
--   [Link an application or application-customization to source control](source-control-link-application.md)
+-   [Link an application or application-customization to source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/source-control-link-application.md)
 
 ## Procedure
 
@@ -30,7 +31,7 @@ App developers using App Engine Studio \(AES\) can pull changes from a linked Gi
 
 4.  Review your uncommitted files, then select **Stash local changes** or **Discard local changes**.
 
-    ![Pull changes from Git repository](../image/source-control-pull-repo-purple.png)
+    \[Omitted image "source-control-pull-repo-purple.png"\] Alt text: Pull changes from Git repository
 
 5.  Select **Pull from repository**.
 
@@ -48,5 +49,5 @@ App developers using App Engine Studio \(AES\) can pull changes from a linked Gi
 
 Resolve any change conflicts.
 
-**Parent Topic:**[Work with changes in Git](../concept/work-changes-in-git.md)
+**Parent Topic:**[Work with changes in Git](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/work-changes-in-git.md)
 

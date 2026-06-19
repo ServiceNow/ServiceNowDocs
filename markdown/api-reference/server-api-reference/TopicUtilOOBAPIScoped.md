@@ -2,6 +2,7 @@
 title: TopicUtilOOB - Scoped
 description: The TopicUtilOOB script include contains functions that enable you to query and manipulate records in the Topic \[sn\_api\_notif\_mgmt\_topic\] table. This class operates at the service layer that interacts with the Data Access Object \(DAO\) class.Creates a record in the Topic \[sn\_api\_notif\_mgmt\_topic\] table using DAO insert.Returns the name of the subflow to call to obtain topics from an external system.Triggers the subflow that is responsible for obtaining topic records from an external system.Validates the passed in topic record payload and inserts records in the Topic \[sn\_api\_notif\_mgmt\_topic\} table containing this data.Determines whether any other topic record in the Topic \[sn\_api\_notif\_mgmt\_topic\] table contains the specified combination of fields as its composite key, indicating a duplicate topic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/TopicUtilOOBAPIScoped.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -19,15 +20,15 @@ These functions are called when the **Get Topics** button is selected on the Top
 
 Both script includes run in the `sn_api_notif_mgmt` namespace.
 
-For additional information on topics, see [External event management via Telecommunications API notifications](https://www.servicenow.com/docs/access?context=telecommunications-api-notification&version=zurich&pubname=zurich-telecom-service-ops&ft:locale=en-US).
+For additional information on topics, see .
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## TopicUtilOOB - createTopic\(Object topicObj\)
 
 Creates a record in the Topic \[sn\_api\_notif\_mgmt\_topic\] table using DAO insert.
 
-Typically you will call this function within the [validateAndInsertTopic](TopicUtilOOBAPIScoped.md#) function that also performs various validations on the content.
+Typically you will call this function within the [validateAndInsertTopic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/TopicUtilOOBAPIScoped.md) function that also performs various validations on the content.
 
 <table id="table_s5t_gxw_1zb" class="parameters"><thead><tr><th>
 
@@ -121,7 +122,7 @@ TopicUtil.prototype =
 
 Returns the name of the subflow to call to obtain topics from an external system.
 
-Typically this function is called from the [triggerSubflow\(\)](TopicUtilOOBAPIScoped.md#) function. This subflow is responsible for contacting an external system and obtaining any topic records that need to be inserted in the Topics \[sn\_api\_notif\_mgmt\_topic\] table.
+Typically this function is called from the [triggerSubflow\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/TopicUtilOOBAPIScoped.md) function. This subflow is responsible for contacting an external system and obtaining any topic records that need to be inserted in the Topics \[sn\_api\_notif\_mgmt\_topic\] table.
 
 The name of the subflow is defined in `Constants.GET_TOPICS_SUBFLOW`. For the demo implementation this subflow is `sn_ind_tmf642.event_alarm_notifications_api` and generates a "mock" response \(doesn't call an external system\) to show the end-to-end processing.
 
@@ -164,7 +165,7 @@ The name of the subflow that gets triggered is defined in `Constants.GET_TOPICS_
 
 You need to change this functional to include the name of your own subflow by overriding the name of the subflow to execute in the `sn_api_notif_mgmt.Constants` script include.
 
-Within the subflow you must create a REST step, connection alias, or other implementation to provide an endpoint URL that retrieves topics from your external network. When the topics are returned by that subflow, you call the [validateAndInsertTopics](TopicUtilOOBAPIScoped.md#) function to verify the passed back topic payload and insert/update the records in the Topic table.
+Within the subflow you must create a REST step, connection alias, or other implementation to provide an endpoint URL that retrieves topics from your external network. When the topics are returned by that subflow, you call the [validateAndInsertTopics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/TopicUtilOOBAPIScoped.md) function to verify the passed back topic payload and insert/update the records in the Topic table.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -204,7 +205,7 @@ TopicUtil.prototype =
 
 Validates the passed in topic record payload and inserts records in the Topic \[sn\_api\_notif\_mgmt\_topic\} table containing this data.
 
-The passed topics payload is obtained from the "GET API endpoint" used to retrieve topics from an external system. For more information on triggering this GET API, see [triggerSubflow\(\)](TopicUtilOOBAPIScoped.md#).
+The passed topics payload is obtained from the "GET API endpoint" used to retrieve topics from an external system. For more information on triggering this GET API, see [triggerSubflow\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/TopicUtilOOBAPIScoped.md).
 
 You can change this functionality to include your own validation rules and topic record fields by overriding this function in the `TopicUtil` script include.
 

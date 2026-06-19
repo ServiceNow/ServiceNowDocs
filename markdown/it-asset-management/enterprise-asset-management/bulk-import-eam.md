@@ -2,6 +2,7 @@
 title: Import enterprise models and assets in workspace
 description: Import multiple enterprise models and assets at one go in the Enterprise Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/bulk-import-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -45,7 +46,7 @@ Role required: sn\_eam.enterprise\_admin
 
 7.  Enter the details in all the mandatory fields in the spreadsheet.
 
-    If you don’t enter values in all the mandatory columns in the template, the import fails, and an error message appears asking you to check the template format. For details on mandatory fields, see [Mandatory fields in the bulk import spreadsheets](../reference/mandatory-bulk-fields.md).
+    If you don’t enter values in all the mandatory columns in the template, the import fails, and an error message appears asking you to check the template format. For details on mandatory fields, see [Mandatory fields in the bulk import spreadsheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/mandatory-bulk-fields.md).
 
 8.  Select **Attach File** to upload the spreadsheet \(.xlsx\).
 

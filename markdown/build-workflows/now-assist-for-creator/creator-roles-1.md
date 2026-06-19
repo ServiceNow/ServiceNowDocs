@@ -2,6 +2,7 @@
 title: Now Assist for Creator \[now.assist.creator\] role
 description: This role grants users access to Now Assist for Creator skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/now-assist-for-creator/creator-roles-1.html
 release: zurich
 product: Now Assist for Creator
 classification: now-assist-for-creator

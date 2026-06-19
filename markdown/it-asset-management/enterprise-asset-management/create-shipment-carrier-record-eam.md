@@ -2,6 +2,7 @@
 title: Create a shipment carrier record in Enterprise Asset Workspace
 description: Create a shipping carrier record in the Enterprise Asset Workspace to associate the carrier with an integration profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/create-shipment-carrier-record-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -25,7 +26,7 @@ Create a shipping carrier record used to associate the carrier with an integrati
 
 **Important:** When using the Sourcing and Procurement Operations application with the Asset Management Integration for Sourcing and Procurement Operations \(com.snc.sn\_spend\_asset\) installed, the IT Asset Management application shares shipment details with the Sourcing and Procurement Operations application. To enable the Sourcing and Procurement Operations application to view shipment and tracking numbers associated with Purchase Orders, read-only access has been provided to the Shipping carrier \[sn\_itam\_common\_shipping\_carrier\] table.
 
-For more information about the Asset Management Integration for Sourcing and Procurement Operations \(com.snc.sn\_spend\_asset\) plugin, see [Sourcing and Procurement Operations integration with IT Asset Management](https://www.servicenow.com/docs/access?context=spo-itam-better-together&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US).
+For more information about the Asset Management Integration for Sourcing and Procurement Operations \(com.snc.sn\_spend\_asset\) plugin, see .
 
 ## Procedure
 
@@ -69,7 +70,7 @@ Integration profile
 
 Profile for integrating with the third-party carrier's application.
 
- For more details, see [View integration profiles for third-party shipping carriers in the Enterprise Asset Workspace](view-shipping-carrier-integration-profiles-eam.md).
+ For more details, see [View integration profiles for third-party shipping carriers in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/view-shipping-carrier-integration-profiles-eam.md).
 
 </td></tr><tr><td>
 
@@ -119,5 +120,5 @@ Additional information about the carrier.
     The shipping carrier record is created and added to the Shipping carrier list.
 
 
-**Parent Topic:**[Managing enterprise asset shipments](../concept/manage-shipments-eam.md)
+**Parent Topic:**[Managing enterprise asset shipments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/manage-shipments-eam.md)
 

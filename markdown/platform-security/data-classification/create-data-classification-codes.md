@@ -2,6 +2,7 @@
 title: Creating data classifications
 description: Create your own user-defined data classifications in the Data Classification \[data\_classification\] table that you can then assign to specific columns in specific tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-classification/create-data-classification-codes.html
 release: zurich
 product: Data Classification
 classification: data-classification

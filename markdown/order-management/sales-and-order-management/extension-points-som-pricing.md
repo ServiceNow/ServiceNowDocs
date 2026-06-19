@@ -1,7 +1,8 @@
 ---
 title: Use extension points in Pricing Management
-description: Use extension points to call custom scripts from external sources that control pricing logic used in the Pricing Management feature of the Sales Customer Relationship Management \(SOM\) applications.
+description: Use extension points to call custom scripts from external sources that control pricing logic used in the Pricing Management feature of the Sales Customer Relationship Management \(Sales CRM\) applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/extension-points-som-pricing.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -13,7 +14,7 @@ breadcrumb: [Pricing Management, Configure, price, quote apps, Configure, Sales 
 
 # Use extension points in Pricing Management
 
-Use extension points to call custom scripts from external sources that control pricing logic used in the Pricing Management feature of the Sales Customer Relationship Management \(SOM\) applications.
+Use extension points to call custom scripts from external sources that control pricing logic used in the Pricing Management feature of the Sales Customer Relationship Management \(Sales CRM\) applications.
 
 To access the available extension points, navigate to **All** &gt; **Scripted Extension Points** and in the Extension Points list, select the desired extension point to view it.
 

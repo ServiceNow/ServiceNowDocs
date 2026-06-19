@@ -2,6 +2,7 @@
 title: Exploring Now Assist for SFA
 description: With the Now Assist for Sales Force Automation \(SFA\) application, sales agents can manage the lifecycle of leads by automating outreach, follow-up communications, demo bookings, and handling lead disinterest or opt-outs. It can operate independently or under human supervision, thereby streamlining engagement and demo scheduling.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/exploring-now-assist-for-som.html
 release: zurich
 topic_type: concept
 last_updated: "2026-01-06"
@@ -38,8 +39,8 @@ Sales agents use the Now Assist for Sales Force Automation \(SFA\) AI agent coll
 
 To learn more about configuring and using Now Assist for Sales Force Automation \(SFA\), see:
 
--   [Configure Now Assist for Sales Force Automation \(SFA\)](../task/configure-now-assist-som.md)
--   [Use agentic workflows in Now Assist for Sales Force Automation \(SFA\)](using-agentic-worklflows-in-lead-management.md)
+-   [Configure Now Assist for Sales Force Automation \(SFA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-now-assist-som.md)
+-   [Use agentic workflows in Now Assist for Sales Force Automation \(SFA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-agentic-worklflows-in-lead-management.md)
 
-**Parent Topic:**[Now Assist for Sales Force Automation \(SFA\)](now-assist-for-sales-and-order-management-som.md)
+**Parent Topic:**[Now Assist for Sales Force Automation \(SFA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-sales-and-order-management-som.md)
 

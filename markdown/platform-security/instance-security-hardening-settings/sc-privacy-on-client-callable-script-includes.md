@@ -2,6 +2,7 @@
 title: Require authentication by default for client-callable script includes \[Updated in Security Center 1.3\]
 description: By default, client-callable script includes that do not explicitly set visibility, are public. If needed, add the glide.script.ccsi.ispublic property to enable privacy control over all client-callable script includes accessed by public pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-privacy-on-client-callable-script-includes.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -58,7 +59,7 @@ Category
 
 </td><td>
 
-[Access control](sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -121,5 +122,5 @@ Setting the **glide.script.ccsi.ispublic** property to **false** makes all clien
  `isPublic:function(){return[true/false];},`
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

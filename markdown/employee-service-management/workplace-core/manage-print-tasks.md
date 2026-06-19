@@ -2,6 +2,7 @@
 title: Manage print tasks
 description: Filter workplace tasks using criteria such as Short Description, Workplace Location, or other relevant fields to generate a consolidated report using the Workplace Central Case management workspace.Use filter criteria to filter multiple workplace tasks and generate a consolidated report based on the filtered tasks. You can set the condition based on the Short description, workplace location, or any other fields. When you run the filter and select Print filter selection, a new workplace task is created with the consolidated report as an attachment.Print a consolidated report, including task details and associated services, by selecting one or more workplace tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-core/manage-print-tasks.html
 release: zurich
 product: Workplace Core
 classification: workplace-core
@@ -20,7 +21,7 @@ Use one of the following options to proceed:
 -   Print Filter Selection – Apply filters and select this option to automatically create a new workplace task with the consolidated report attached.
 -   Print Selected Records – Manually select one or more workplace cases and choose this option to view the consolidated report directly.
 
-**Parent Topic:**[Managing workplace tasks](managing-workplace-maintenance-tasks.md)
+**Parent Topic:**[Managing workplace tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/managing-workplace-maintenance-tasks.md)
 
 ## Print filtered tasks
 

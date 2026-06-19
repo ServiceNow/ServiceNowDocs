@@ -2,6 +2,7 @@
 title: Approve observables to URL category lists
 description: Approve observables that are added to a URL Category List so that observable entries are in the appropriate allow or deny lists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/approve-url-category-list.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

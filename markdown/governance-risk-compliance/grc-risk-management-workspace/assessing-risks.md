@@ -2,6 +2,7 @@
 title: Assess risks and objects on an assessment instance
 description: Assess the risks that you have configured and reassign the risks to relevant approvers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/assessing-risks.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -178,5 +179,5 @@ To remove any control
 
 To view the summary of the assessment, click **Assessment Summary**.
 
-**Parent Topic:**[Perform Advanced Risk Assessment](../concept/use-advanced-risk-assessment.md)
+**Parent Topic:**[Perform Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/use-advanced-risk-assessment.md)
 

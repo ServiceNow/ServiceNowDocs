@@ -2,6 +2,7 @@
 title: HR document templates
 description: HR Document Templates are used to create and modify reuseable HR documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/c\_HRDocumentTemplates.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,7 +20,7 @@ breadcrumb: [HR Documents, HR Service Delivery, Employee Service Management]
 
 Starting with the Zurich release, HR Document Templates is deprecated and no longer supported or available for new activation.
 
-Use [Document Templates](document-templates-overview.md) that provides the latest experience for this functionality. For migration guidelines, see [Migrating from HR Document Templates to Document Templates](migration-hrdt-dt.md#).
+Use [Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/document-templates-overview.md) that provides the latest experience for this functionality. For migration guidelines, see [Migrating from HR Document Templates to Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/migration-hrdt-dt.md).
 
 For deprecation details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
@@ -74,10 +75,10 @@ The base system provides the default PDF document template as an example: Non-Di
 
 Both the **Document template** and **PDF document template** generate PDF documents that can be reviewed or printed and can require multiple signatures.
 
-A common use case for generating a document from an HR case is when an employee requests an employment verification letter. For information on generating a PDF document from an HR case, see [HR document generation](DocumentGeneration.md).
+A common use case for generating a document from an HR case is when an employee requests an employment verification letter. For information on generating a PDF document from an HR case, see [HR document generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/DocumentGeneration.md).
 
 **Related topics**  
 
 
-[Managed Document features](https://www.servicenow.com/docs/access?context=r_ManagedDocumentFeatures&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.r_ManagedDocumentFeatures]
 

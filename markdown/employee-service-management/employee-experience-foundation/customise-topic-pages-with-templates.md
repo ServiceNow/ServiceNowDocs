@@ -2,6 +2,7 @@
 title: Customize topic pages with various templates
 description: Design topic pages with various custom-made templates to suit the tone of the topic for an enhanced user experience.Design topic pages with different templates using simplified cascading rules that provide a better designing experience for curators.Create customized topic page templates to present different types of topics in distinguished manner to enhance customer engagement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/customise-topic-pages-with-templates.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -83,7 +84,7 @@ Application scope: Employee Center
 
 ### About this task
 
-Assign various topic templates based on the content after you create or clone a new topic page. For more information, see [Create and edit a page using the Service Portal Designer](https://www.servicenow.com/docs/access?context=t_ConfigureAPage&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+Assign various topic templates based on the content after you create or clone a new topic page. For more information, see Create and edit a page using the Service Portal Designer.
 
 For design recommendations for the topic page templates, see [Curated Experiences – Topic Page Templates UX Guidance \[KB1002813\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1002813).
 
@@ -99,11 +100,11 @@ This would ensure consistency among the topic pages.
 
 3.  To make **Category** available on the page, right-click and navigate to **Configure** &gt; **Form Layout** to make **Category** visible, which is by default inaccessible.
 
-    ![Contextual menu to configure category visibility.](../images/form-layout.png "Category visibility setting")
+    \[Omitted image "form-layout.png"\] Alt text: Contextual menu to configure category visibility.
 
 4.  Add **Category** to the **Selected** list and **Save**.
 
-    ![Category field added to selected list.](../images/category-selected.png "Category field in selected list")
+    \[Omitted image "category-selected.png"\] Alt text: Category field added to selected list.
 
     **Note:** It is essential to set the **Category** to **Taxonomy**. Only the templates set to **Category**, **Taxonomy** are visible in the topic form template list.
 

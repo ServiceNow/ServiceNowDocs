@@ -2,6 +2,7 @@
 title: Covenant Breach workflow
 description: Learn how bank agents, using the Covenant Breach workflow, proactively contact a loan customer for a covenant breach and decide on an action plan for the future. The workflow applies to both business and personal loans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-loan-operations/covenant-breach-workflow.html
 release: zurich
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
@@ -28,7 +29,7 @@ An example of a covenant for personal loans could be a periodic submission of ho
 
 The following diagram shows how the application helps bank agents work on a covenant breach for a loan.
 
-![Workflow showing how a covenant breach is handled using the Loan Operations application. For the text description, refer to the workflow steps that follow.](../image/covenant-breach-workflow.png "Covenant Breach workflow")
+\[Omitted image "covenant-breach-workflow.png"\] Alt text: Workflow showing how a covenant breach is handled using the Loan Operations application. For the text description, refer to the workflow steps that follow.
 
 The following workflow routes the case and tasks for a covenant breach to agents in different departments. The agents log in to Workspace to work on the tasks in their queue.
 

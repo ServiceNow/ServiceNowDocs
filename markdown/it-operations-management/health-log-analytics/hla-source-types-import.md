@@ -2,6 +2,7 @@
 title: Import Health Log Analytics source types to a target instance
 description: Import source types that you've exported separate from the Health Log Analytics data input configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-source-types-import.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -18,9 +19,9 @@ Import source types that you've exported separate from the Health Log Analytics 
 
 ## Before you begin
 
-For an overview of this feature, see [Migrating a Health Log Analytics data input configuration between instances](../concept/hla-data-input-migration.md).
+For an overview of this feature, see [Migrating a Health Log Analytics data input configuration between instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-migration.md).
 
-Before performing this procedure, export the source types to an update set. For more information, see [Export source types to an update set in Health Log Analytics](hla-source-types-migrate.md).
+Before performing this procedure, export the source types to an update set. For more information, see [Export source types to an update set in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-source-types-migrate.md).
 
 Role required: admin
 
@@ -63,5 +64,5 @@ Role required: admin
 
 The imported source types appear in the Source Types list.
 
-**Parent Topic:**[Migrating a Health Log Analytics data input configuration between instances](../concept/hla-data-input-migration.md)
+**Parent Topic:**[Migrating a Health Log Analytics data input configuration between instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-migration.md)
 

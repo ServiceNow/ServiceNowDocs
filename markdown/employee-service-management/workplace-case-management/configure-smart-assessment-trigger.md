@@ -2,6 +2,7 @@
 title: Configure Smart Assessment Trigger
 description: Smart assessment triggers define the conditions when assessment templates are applied to workplace cases or tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-case-management/configure-smart-assessment-trigger.html
 release: zurich
 product: Workplace Case Management
 classification: workplace-case-management
@@ -97,5 +98,5 @@ Option to specify the case state that cannot be reached until the assessment is 
 5.  In the **Smart assessment template** field, select the published smart assessment template that should be applied when trigger conditions are met.
 
 
-**Parent Topic:**[Smart Assessment for Workplace Case and Task](smart-assessment-for-workplace-case-and-task.md)
+**Parent Topic:**[Smart Assessment for Workplace Case and Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-case-management/smart-assessment-for-workplace-case-and-task.md)
 

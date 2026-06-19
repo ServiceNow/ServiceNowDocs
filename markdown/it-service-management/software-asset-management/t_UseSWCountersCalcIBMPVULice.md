@@ -2,6 +2,7 @@
 title: Use software counters with the legacy IBM PVU Process Pack
 description: To calculate IBM PVU licenses through the legacy IBM PVU Process Pack, you can create a software counter with the IBM PVU license type. For a given PVU software package, you only need to create the counter once and then it can be reused.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/software-asset-management/t\_UseSWCountersCalcIBMPVULice.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -41,7 +42,7 @@ Processor definitions are searched as licenses are counted. If a processor defin
 
 6.  For **License type**, select **Per Installation - IBM PVU**.
 
-    ![PVU software counter](../image/PVUSoftwareCounter.png)
+    \[Omitted image "PVUSoftwareCounter.png"\] Alt text: PVU software counter
 
 7.  Add information to other fields as necessary.
 
@@ -49,12 +50,12 @@ Processor definitions are searched as licenses are counted. If a processor defin
 
 9.  Click **Count licenses**.
 
-    ![SAM software counter PVU results](../image/SAMSoftwareCounterPVUResults.png)
+    \[Omitted image "SAMSoftwareCounterPVUResults.png"\] Alt text: SAM software counter PVU results
 
 10. In the **Software Counter Results** list, drill down to obtain summary and detailed information.
 
-    ![SAM software counter PVU results](../image/SAMSoftwareCounterPVUResults2.png)
+    \[Omitted image "SAMSoftwareCounterPVUResults2.png"\] Alt text: SAM software counter PVU results
 
 
-**Parent Topic:**[Legacy IBM PVU Process Pack](../concept/c_IBMPVUProcessPack.md)
+**Parent Topic:**[Legacy IBM PVU Process Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management/c_IBMPVUProcessPack.md)
 

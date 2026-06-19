@@ -2,7 +2,10 @@
 title: Using Email Interaction for Customer Service Management
 description: Email Interaction for CSM application enables agents to create interactions from customer emails, helping them resolve simple customer queries through these interactions. They can create a case from an interaction when further investigation is needed for resolving the customer query. This process provides clarity of the effort needed for customer query intake and actual investigation needed for query resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/using-email-interaction-customer-service-management.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

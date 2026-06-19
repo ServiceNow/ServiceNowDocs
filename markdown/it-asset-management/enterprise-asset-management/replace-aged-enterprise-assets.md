@@ -2,6 +2,7 @@
 title: Replace aged enterprise assets
 description: Replace aged enterprise assets by sourcing new enterprise assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/replace-aged-enterprise-assets.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -34,15 +35,15 @@ After sourcing the new assets, asset refresh is completed through the following 
 
 1.  Select the hardware asset refresh request.
 
-<table id="choicetable_upl_qst_ywb"><thead><tr><th align="left" id="d186659e73">
+<table id="choicetable_upl_qst_ywb"><thead><tr><th align="left" id="d182341e73">
 
 Interface
 
-</th><th align="left" id="d186659e76">
+</th><th align="left" id="d182341e76">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d186659e82">
+</th></tr></thead><tbody><tr><td id="d182341e82">
 
 **Core UI**
 
@@ -52,7 +53,7 @@ Action
 2.  Select the request number of the enterprise asset refresh request that you want to fulfill.
 
 
-</td></tr><tr><td id="d186659e115">
+</td></tr><tr><td id="d182341e115">
 
 **Enterprise Asset Workspace**
 
@@ -76,13 +77,13 @@ Action
 
     You can source items in the request by consuming the local stock, through purchase orders, or through transfer orders.
 
-    For more details on sourcing items, see [Sourcing items in a service catalog request](../../procurement/concept/c_SourcingRequestItems.md).
+    For more details on sourcing items, see [Sourcing items in a service catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/procurement/c_SourcingRequestItems.md).
 
     After the new asset is received, the following events happens:
 
     -   The Enterprise Asset Refresh Line flow is triggered for the asset.
     -   The Enterprise Asset Refresh Line tab is displayed next to the Asset Tasks tab on the requested item form.
-    -   The Asset pick task is created under the Refresh Line Tasks only if the requested item is consumed from the local stockroom for which the Asset pick task is enabled. Otherwise thePrepare asset task is createddirectly without the Pick task. For details, see [Enable the Asset pick task for your stockroom in the Enterprise Asset Workspace](enable-pick-task-for-stockroom-eam.md).
+    -   The Asset pick task is created under the Refresh Line Tasks only if the requested item is consumed from the local stockroom for which the Asset pick task is enabled. Otherwise thePrepare asset task is createddirectly without the Pick task. For details, see [Enable the Asset pick task for your stockroom in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/enable-pick-task-for-stockroom-eam.md).
 4.  Select the **Enterprise Asset Refresh Line** tab.
 
 5.  Select the enterprise asset refresh line.
@@ -91,7 +92,7 @@ Action
 
 7.  Complete the Asset pick task by using the Mobile Agent application.
 
-    For details on completing this step, see [Locate and pick the enterprise assets in your stockroom using the Mobile Agent application](locate-and-pick-enterprise-asset-mobile-app.md).
+    For details on completing this step, see [Locate and pick the enterprise assets in your stockroom using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/locate-and-pick-enterprise-asset-mobile-app.md).
 
 8.  Prepare the asset.
 

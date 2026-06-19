@@ -2,6 +2,7 @@
 title: Upload manifest file in Microsoft Teams
 description: Upload the manifest file in Microsoft Teams to integrate Microsoft Teams with your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/upload-manifest-ms-teams.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,7 +18,7 @@ Upload the manifest file in Microsoft Teams to integrate Microsoft Teams with yo
 
 ## Before you begin
 
-Make sure that you have the manifest file for pre-published apps. For more information, see [Create and download the manifest file for pre-published apps](download-manifest-file-mt.md).
+Make sure that you have the manifest file for pre-published apps. For more information, see [Create and download the manifest file for pre-published apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/download-manifest-file-mt.md).
 
 Role required: admin
 
@@ -37,26 +38,26 @@ Role required: admin
 
     The **ServiceNow for Teams** appears in **Apps** screen.
 
-    ![ServiceNow for Teams app in Microsoft Teams.](../images/sn-ms-teams.png)
+    \[Omitted image "sn-ms-teams.png"\] Alt text: ServiceNow for Teams app in Microsoft Teams.
 
 5.  Click **ServiceNow for Teams** app.
 
 6.  Click **Add**.
 
-    ![ServiceNow for Teams app.](../images/sn-ms-teams-app-1.png)
+    \[Omitted image "sn-ms-teams-app-1.png"\] Alt text: ServiceNow for Teams app.
 
     The ServiceNow for Teams app appears in Microsoft Teams.
 
     -   **Chat**: Begin your conversation with the Virtual Agent to get help.
 
-        ![Chat tab in Microsoft Teams.](../images/chat-tab-ms-teams02.png)
+        \[Omitted image "chat-tab-ms-teams02.png"\] Alt text: Chat tab in Microsoft Teams.
 
     -   **Employee Center**: Click **Employee Center** tab to view the organization updates and the status on your tasks and requests.
 
-        ![Employee Center tab in Microsoft Teams.](../images/emp-center-ms-teams02.png)
+        \[Omitted image "emp-center-ms-teams02.png"\] Alt text: Employee Center tab in Microsoft Teams.
 
     **Note:** If you don't want to create a manifest file, you can edit an existing manifest file as required. Upon updating the existing manifest file, you can download and upload the manifest file in Microsoft Teams to make the changes effective.
 
 
-**Parent Topic:**[Setup for integrating pre-published apps with Microsoft Teams for Employee Experience](../concept/c_employee_ex_tnt.md)
+**Parent Topic:**[Setup for integrating pre-published apps with Microsoft Teams for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/c_employee_ex_tnt.md)
 

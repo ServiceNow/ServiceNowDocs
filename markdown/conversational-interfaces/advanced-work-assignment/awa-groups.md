@@ -2,6 +2,7 @@
 title: Create or change groups for Advanced Work Assignment queues
 description: Create or manage groups that have associated Advanced Work Assignment queues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/awa-groups.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -56,5 +57,5 @@ Groups are sets of users who share a common purpose. By creating these groups, i
     5.  Select the green check mark to save the change.
 
 
-**Parent Topic:**[Configuring Advanced Work Assignment](installing-awa.md)
+**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

@@ -2,6 +2,7 @@
 title: Create custom enterprise model type
 description: If you have an enterprise model type that isn't represented in the Enterprise Asset Management Content Service yet, you can create a custom model type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/create-model-type-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management

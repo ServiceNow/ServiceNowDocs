@@ -2,6 +2,7 @@
 title: Authorize targets
 description: Authorize a target record based on the overall security posture determined by the security officer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/rmf-authorize-targets.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -17,7 +18,7 @@ Authorize a target record based on the overall security posture determined by th
 
 ## Before you begin
 
-**Note:** Starting with version 10.1.0, the NIST RMF Use Case Accelerator will be supported only for customers who currently use the product. New and existing customers should consider using the GRC: Continuous Authorization Monitoring application. For details, [Continuous Authorization and Monitoring](../../grc-cam/reference/grc-cam-landing-page.md).
+**Note:** Starting with version 10.1.0, the NIST RMF Use Case Accelerator will be supported only for customers who currently use the product. New and existing customers should consider using the GRC: Continuous Authorization Monitoring application. For details, [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/grc-cam-landing-page.md).
 
 Role required: sn\_irm\_nist\_rmf.security\_official, sn\_irm\_nist\_rmf.risk\_executive, or sn\_irm\_nist\_rmf.security\_officer
 
@@ -40,5 +41,5 @@ The approval is triggered for the target.
 
 If you are an approver, use the **My Approvals** module to review the approval request.
 
-**Parent Topic:**[Authorize targets](../concept/rmf-authorize.md)
+**Parent Topic:**[Authorize targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/rmf-authorize.md)
 

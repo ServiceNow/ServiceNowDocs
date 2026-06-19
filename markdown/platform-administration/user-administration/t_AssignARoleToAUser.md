@@ -2,6 +2,7 @@
 title: Assign a role to a user
 description: A user inherits roles from all groups to which they belong. You can also assign roles directly to a user. Whenever a user is assigned a new role, it only takes effect after logging in with a new session.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/user-administration/t\_AssignARoleToAUser.html
 release: zurich
 product: User Administration
 classification: user-administration
@@ -23,13 +24,15 @@ When possible, simplify user administration by assigning roles to groups. Create
 
 ## About this task
 
-To grant the admin role to a user, you must also have the admin role. To grant the security\_admin role to a user, you must also have the security\_admin role. You must elevate to the security\_admin role before granting the security\_admin role to other users. See [Elevate to a privileged role](https://www.servicenow.com/docs/access?context=t_ElevateToAPrivilegedRole&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+To grant the admin role to a user, you must also have the admin role. To grant the security\_admin role to a user, you must also have the security\_admin role. You must elevate to the security\_admin role before granting the security\_admin role to other users. See Elevate to a privileged role.
 
 **Note:**
 
 The System administrator\(admin\) role provides access to all system features, functions, and data, regardless of security constraints. Avoid assigning this role to your users when more targeted roles are available.
 
-You can’t delete roles that are assigned to the group from the user record. You must remove the user from the group record.
+You can't delete roles that are assigned to the group from the user record. You must remove the user from the group record.
+
+**Note:** The **Collection** list displays only roles for applications and plugins that are installed on your instance. If a role does not appear, the corresponding application may not be installed.
 
 ## Procedure
 
@@ -46,5 +49,5 @@ You can’t delete roles that are assigned to the group from the user record. Yo
 
 **Note:** If the user is logged in when you update their roles and they’re unable to access records enabled by the new role, they may need to log out and back in again.
 
-**Parent Topic:**[Create a role](../../roles/task/t_CreateARole.md)
+**Parent Topic:**[Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/t_CreateARole.md)
 

@@ -2,6 +2,7 @@
 title: Create PI data elements
 description: Create PI data elements based on residents' personal information collected during the business process, such as phone numbers and email IDs. Use pre-configured elements or create new ones. Customize for data elements for specific regions or map a single PI data element to multiple regions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/create-pi-data-elements.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -95,5 +96,5 @@ Brief description of the data element.
 </table>3.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring privacy breach assessment](../concept/configure-privacy-breach-assessment.md)
+**Parent Topic:**[Configuring privacy breach assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/configure-privacy-breach-assessment.md)
 

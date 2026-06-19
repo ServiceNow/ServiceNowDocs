@@ -2,6 +2,7 @@
 title: Exporting data
 description: Export data from the ServiceNow AI Platform in a variety of formats.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/c\_ExportData.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -17,14 +18,14 @@ Export data from the ServiceNow AI Platform in a variety of formats.
 
 ## Key benefits
 
--   Export an individual record to a PDF or XML file directly from a form. See [Export data from a record](../task/export-form-data.md).
--   Export multiple records to a CSV, Excel, PDF, XML, or Google Sheets file directly from a list. See [Export data from a list](../task/export-list-data.md).
--   Export multiple records from a table using the CSV, Excel, PDF, or XML processor in a URL with optional parameters. See [Export directly from a URL](../task/t_ExportDirectlyFromTheURL.md).
+-   Export an individual record to a PDF or XML file directly from a form. See [Export data from a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/export-form-data.md).
+-   Export multiple records to a CSV, Excel, PDF, XML, or Google Sheets file directly from a list. See [Export data from a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/export-list-data.md).
+-   Export multiple records from a table using the CSV, Excel, PDF, or XML processor in a URL with optional parameters. See [Export directly from a URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/t_ExportDirectlyFromTheURL.md).
 
 You can also export data from your instance using the following options:
 
--   Export multiple records from a table via a web services request. For example, you can create an external application or process to automate the retrieval of data from an instance via web services such as REST or SOAP. For more information, see [Web services](https://www.servicenow.com/docs/access?context=r_AvailableWebServices&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
--   Push all the data that you want to export to an external file by creating an export set. For more information, see [Export sets](https://www.servicenow.com/docs/access?context=c_ExportSets&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+-   Export multiple records from a table via a web services request. For example, you can create an external application or process to automate the retrieval of data from an instance via web services such as REST or SOAP. For more information, see Web services.
+-   Push all the data that you want to export to an external file by creating an export set. For more information, see Export sets.
 
 ## Associated roles
 
@@ -57,7 +58,7 @@ CSV
 
 Export table records as a comma-separated value text file. Use this option to export the currently displayed fields in the list or form as a text file. Configure the list or form to add or remove fields from the export. When exported to CSV, dot-walked fields appear using their full field name, such as u\_assignment\_group.parent.
 
- **Note:** By default, ServiceNow exports all CSV files in Windows-1252 encoding. If you need to export translated data, set the **glide.export.csv.charset** [system property](../../reference-pages/reference/r_AvailableSystemProperties.md#) to UTF-8.
+ **Note:** By default, ServiceNow exports all CSV files in Windows-1252 encoding. If you need to export translated data, set the **glide.export.csv.charset** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md) to UTF-8.
 
 </td></tr><tr><td>
 
@@ -73,7 +74,7 @@ XML
 
 </td><td>
 
-Export table records as an XML document. Use this option to export all data from a table or all data for a particular record. The XML file has an XML element for each column in the table. See [Exporting and importing data via XML](../../development-best-practices/concept/c_ExportAndImportXMLFiles.md).**Note:** Image field data is not preserved when exporting to XML.
+Export table records as an XML document. Use this option to export all data from a table or all data for a particular record. The XML file has an XML element for each column in the table. See [Exporting and importing data via XML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_ExportAndImportXMLFiles.md).**Note:** Image field data is not preserved when exporting to XML.
 
 </td></tr><tr><td>
 

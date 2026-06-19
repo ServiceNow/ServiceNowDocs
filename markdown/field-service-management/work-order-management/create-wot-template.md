@@ -2,6 +2,7 @@
 title: Create a work order task template
 description: Create a standalone work order task template, which can be used by different work order templates to create the same task for their work orders. It saves you the effort of creating the same task template every time for each work order template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/create-wot-template.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -46,5 +47,5 @@ A standalone task template is created and ready to be mapped it to any work orde
 
 ## What to do next
 
-After creating a standalone task template, map it to a work order template. This enables the work order template to create similar tasks for different work orders, if required. See [Enable a work order template to create relevant tasks for a work order](add-stand-alone-task-template-to-wo-template.md).
+After creating a standalone task template, map it to a work order template. This enables the work order template to create similar tasks for different work orders, if required. See [Enable a work order template to create relevant tasks for a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/add-stand-alone-task-template-to-wo-template.md).
 

@@ -2,6 +2,7 @@
 title: Import Jira projects to SPW
 description: Discover and import all available Jira projects and boards into Strategic Planning Workspace to start using the integration between the two applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/imports-jira-projects-to-spw.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning
@@ -17,7 +18,7 @@ Discover and import all available Jira projects and boards into Strategic Planni
 
 ## Before you begin
 
-[Connect SPW to Jira](connect-spw-to-jira.md).
+[Connect SPW to Jira](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/connect-spw-to-jira.md).
 
 Role required: sn\_jira\_int.user
 
@@ -42,5 +43,5 @@ Once the status of each import request changes to **Complete**, you can see that
 
 ## What to do next
 
-[Configure integration settings for a Jira project.](../concept/configuring-jira-project-settings-in-spw.md)
+[Configure integration settings for a Jira project.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/configuring-jira-project-settings-in-spw.md)
 

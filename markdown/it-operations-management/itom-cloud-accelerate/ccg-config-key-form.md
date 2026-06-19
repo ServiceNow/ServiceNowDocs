@@ -2,6 +2,7 @@
 title: Cloud Configuration Governance Configuration key form
 description: The Configuration key form contains detailed information about the configuration key.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-cloud-accelerate/ccg-config-key-form.html
 release: zurich
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -79,8 +80,8 @@ Configuration collector
 
 \(Optional\) Configuration collector that can import the configuration keys.If the required configuration data is not available at the cloud resource level, select the configuration collector that can import the configuration keys.
 
- If a suitable configuration collector is not available, create a configuration collector and then select it. For more information on creating the configuration collector, see [Create a configuration collector](../task/create-ccg-config-collector.md).
+ If a suitable configuration collector is not available, create a configuration collector and then select it. For more information on creating the configuration collector, see [Create a configuration collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/create-ccg-config-collector.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Configuration Governance reference](ccg-reference.md)
+</table>**Parent Topic:**[Cloud Configuration Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/ccg-reference.md)
 

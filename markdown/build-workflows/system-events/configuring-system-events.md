@@ -2,6 +2,7 @@
 title: Configuring System events
 description: Plan, configure, and implement system events without having to complete any extra configurations first. Follow the task listed in the configuration overview to implement automated job scheduling.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/system-events/configuring-system-events.html
 release: zurich
 product: System Events
 classification: system-events
@@ -17,7 +18,7 @@ Plan, configure, and implement system events without having to complete any extr
 
 ## Configuration overview
 
-[Implement automated job scheduling](../task/auto-job-scheduling.md)
+[Implement automated job scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/system-events/auto-job-scheduling.md)
 
 Implement the message processing framework \(automated jobs scheduling\) by using the Queue Registration link on the Event Registration form.
 

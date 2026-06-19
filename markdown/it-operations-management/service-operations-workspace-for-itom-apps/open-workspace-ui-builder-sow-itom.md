@@ -2,6 +2,7 @@
 title: Open your configurable workspace experience in UI Builder
 description: Access your Configurable Workspace experience in UI Builder for editing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/open-workspace-ui-builder-sow-itom.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -32,5 +33,5 @@ Role required: ui\_builder\_admin or admin
 
 Your Configurable Workspace experience opens in UI Builder.
 
-**Parent Topic:**[Customize the Service Operations Workspace for ITOM home page](customize-sow-landing-page-itom.md)
+**Parent Topic:**[Customize the Service Operations Workspace for ITOM home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/customize-sow-landing-page-itom.md)
 

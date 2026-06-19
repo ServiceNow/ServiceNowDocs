@@ -2,6 +2,7 @@
 title: Setting up Sidebar
 description: Enabling participant suggestions in Sidebar displays a list of knowledgeable users who can help with the issue. After you enable participant suggestions, you can configure who Sidebar decides is knowledgeable user and which groups have access. After installing Sidebar, activate and configure Sidebar so agents can collaborate with others to resolve issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/sidebar/set-up-sidebar.html
 release: zurich
 product: Sidebar
 classification: sidebar
@@ -31,7 +32,7 @@ Role required: admin
 
     The screen with the Sidebar configuration options appears.
 
-    ![Sidebar admin settings.](../image/sidebar-admin-settings.png)
+    \[Omitted image "sidebar-admin-settings.png"\] Alt text: Sidebar admin settings.
 
 4.  Configure the options.
 
@@ -103,7 +104,7 @@ If you select **View settings** one of the following lists displays:
 
 -   Users that are automatically pre-filled for the agent to add to a discussion
 -   Users that display when the agent searches for participants to add to a discussion
-For more details, see [Configuring Sidebar member query](configure-sidebar-member-query.md).
+For more details, see [Configuring Sidebar member query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/sidebar/configure-sidebar-member-query.md).
 
 </td></tr></tbody>
 </table><table id="table_fms_4ww_vzb"><thead><tr><th>
@@ -124,7 +125,7 @@ Slide the toggle switch to activate or deactivate participant suggestions.
 
  Use the participant suggestions to display a list of users and user groups who may be helpful in the Sidebar discussion.
 
- For detailed information on participant suggestions, see [Participant suggestions in Sidebar](../concept/sidebar-participant-suggestions.md).
+ For detailed information on participant suggestions, see [Participant suggestions in Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/sidebar/sidebar-participant-suggestions.md).
 
 </td></tr><tr><td>
 
@@ -136,9 +137,9 @@ If you activate participant suggestions, the Manage drop-down list appears. Sele
 
 -   View Configuration - displays the Participant suggestions table and related lists.
 -   View Permissions - displays the Participant suggestions permissions page where you configure whether participant suggestions display for specific groups or all groups. To enable all groups to view participant suggestions, select **Allow all groups** and then **Save**. Permissions can't be configured at an individual user level, so ensure that any users you want to be included belong to a relevant group.
- ![Participant suggestion permissions screen with "Allow all groups" check box.](../image/participant-sugg-perm-groups.png)
+ \[Omitted image "participant-sugg-perm-groups.png"\] Alt text: Participant suggestion permissions screen with "Allow all groups" check box.
 
- For detailed information on participant suggestions configuration settings, see [Participant suggestions in Sidebar](../concept/sidebar-participant-suggestions.md).
+ For detailed information on participant suggestions configuration settings, see [Participant suggestions in Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/sidebar/sidebar-participant-suggestions.md).
 
 </td></tr></tbody>
 </table><table id="table_kgf_wn4_2wb"><thead><tr><th>
@@ -155,12 +156,12 @@ Microsoft Teams
 
 </td><td>
 
-If Sidebar isn't already integrated with Microsoft Teams, select **Set up** to configure the options for the first time. See [Enable or configure the Microsoft Teams integration](enable-teams-integration.md) for more information.
+If Sidebar isn't already integrated with Microsoft Teams, select **Set up** to configure the options for the first time. See [Enable or configure the Microsoft Teams integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/sidebar/enable-teams-integration.md) for more information.
 
  If Sidebar has already been integrated with Microsoft Teams, the Manage drop-down list appears. Select a configuration option:
 
--   View configuration \(for more information, see [Enable or configure the Microsoft Teams integration](enable-teams-integration.md)\).
--   View permissions \(for more information, see [Manage Microsoft Teams permissions](manage-teams-permissions.md)\)
+-   View configuration \(for more information, see [Enable or configure the Microsoft Teams integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/sidebar/enable-teams-integration.md)\).
+-   View permissions \(for more information, see [Manage Microsoft Teams permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/sidebar/manage-teams-permissions.md)\)
 -   Remove integration - if you select this option, a warning message displays that the integration between Sidebar and Microsoft Teams will be removed. Select Cancel if you don't want to remove the integration or select Remove if you want to remove the integration.
 
 
@@ -179,7 +180,7 @@ If Sidebar isn't already integrated with Slack, select **Set up** to configure t
 
 
 </td></tr></tbody>
-</table>    Sidebar can be integrated with either Microsoft Teams or Slack, it can't be integrated with both at the same time. The messaging system that is currently integrated with Sidebar is indicated with the On icon \(![Green on check icon.](../image/sidebar-integration-on-icon.png)\) next to it.
+</table>    Sidebar can be integrated with either Microsoft Teams or Slack, it can't be integrated with both at the same time. The messaging system that is currently integrated with Sidebar is indicated with the On icon \(\[Omitted image "sidebar-integration-on-icon.png"\] Alt text: Green on check icon.\) next to it.
 
 5.  Select **Save**.
 

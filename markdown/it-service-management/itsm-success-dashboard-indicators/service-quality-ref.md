@@ -2,6 +2,7 @@
 title: Service Quality
 description: Service quality lists all the KPIs that help you understand the quality of service offered when the employees raise a request to resolve their digital issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-success-dashboard-indicators/service-quality-ref.html
 release: zurich
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -21,5 +22,5 @@ Service quality lists all the KPIs that help you understand the quality of servi
 -   **% First assignment resolution**: Calculated as the percentage of tickets that were resolved without having to reassign the ticket to a different group.
 -   **% Reopened tickets:** Calculated from the percentage of resolved tickets that were reopened during a specified period.
 
-**Parent Topic:**[ITSM Success Dashboard indicators KPI definitions and formulas](sd-kpi-formulae.md)
+**Parent Topic:**[ITSM Success Dashboard indicators KPI definitions and formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-success-dashboard-indicators/sd-kpi-formulae.md)
 

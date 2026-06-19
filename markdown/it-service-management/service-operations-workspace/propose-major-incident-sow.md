@@ -2,6 +2,7 @@
 title: Propose a major incident
 description: Propose an incident to a major incident candidate based on the incident information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/propose-major-incident-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -23,7 +24,7 @@ Role required: itil
 
 1.  Open an incident record.
 
-    For information about creating an incident in Service Operations Workspace, see [Create an incident in Service Operations Workspace](create-incident-sow.md).
+    For information about creating an incident in Service Operations Workspace, see [Create an incident in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/create-incident-sow.md).
 
 2.  On the incident record, use the following information to decide if you want to propose this incident:
 
@@ -31,7 +32,7 @@ Role required: itil
     -   Incident information on the **Details** tab
     -   Incident information on the **Related records** tab
     -   Record information on the Contextual side panel
-    For more information on the tabs, see [Managing a major incident record](../concept/managing-major-incident-sow.md).
+    For more information on the tabs, see [Managing a major incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/managing-major-incident-sow.md).
 
 3.  On the incident record for the incident that you want to propose, select **Propose Major incident.**
 
@@ -45,5 +46,5 @@ Role required: itil
 5.  Select **Propose Major incident**.
 
 
-**Parent Topic:**[Managing a major incident record](../concept/managing-major-incident-sow.md)
+**Parent Topic:**[Managing a major incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/managing-major-incident-sow.md)
 

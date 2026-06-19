@@ -2,7 +2,10 @@
 title: Lookup component
 description: Use the lookup component on interaction record pages in CSM Configurable Workspace to look up, link, and verify a contact or consumer on an interaction record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-record-page-lookup-component.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -13,12 +16,12 @@ breadcrumb: [Front-line case page, CSM Configurable Workspace record pages, Set 
 
 Use the lookup component on interaction record pages in CSM Configurable Workspace to look up, link, and verify a contact or consumer on an interaction record.
 
-![Lookup and verify contact card includes the contact name plus selectable fields for account name, email address, and phone numbers](../image/lookup-and-verify-component.png "Lookup and verify contact card")
+\[Omitted image "lookup-and-verify-component.png"\] Alt text: Lookup and verify contact card includes the contact name plus selectable fields for account name, email address, and phone numbers
 
 The lookup component is available on the following interaction record pages:
 
--   [CSM centered chat interaction record page](csm-centered-chat-interaction-page.md)
--   [CSM voice interaction record page](csm-native-voice-record-page.md)
+-   [CSM centered chat interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-centered-chat-interaction-page.md)
+-   [CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-native-voice-record-page.md)
 -   Email interaction record page
 
 **Note:** For some of these interaction record pages, the Lookup component replaces the Lookup &amp; Verify component that was formerly available in the contextual side panel.
@@ -45,7 +48,7 @@ Search for a contact or consumer
 
 </td><td>
 
-Enter information in the **Search** field on the lookup card such as a name, email address, phone number, or record number. The lookup card displays a list of search results based on the search term.![The lookup card displays a list of cards with results that match the entered search term, such as contacts with the first name of George](../image/lookup-and-verify-search-consumer.png "Lookup and verify search")
+Enter information in the **Search** field on the lookup card such as a name, email address, phone number, or record number. The lookup card displays a list of search results based on the search term.\[Omitted image "lookup-and-verify-search-consumer.png"\] Alt text: The lookup card displays a list of cards with results that match the entered search term, such as contacts with the first name of George
 
 </td></tr><tr><td>
 
@@ -53,7 +56,7 @@ Link a contact or consumer to the interaction record
 
 </td><td>
 
-Select the Link icon \(![link icon looks like two interconnected chain links](../image/lookup-and-verify-link-contact.png)\) on a customer card from the list of search results to link the selected customer with the interaction record.
+Select the Link icon \(\[Omitted image "lookup-and-verify-link-contact.png"\] Alt text: link icon looks like two interconnected chain links\) on a customer card from the list of search results to link the selected customer with the interaction record.
 
 </td></tr><tr><td>
 
@@ -71,7 +74,7 @@ Create a contact or consumer
 
 </td><td>
 
-Create a customer record by selecting the Create new \(![Create new icon is a plus sign inside a circle](../image/lookup-and-verify-add-customer.png)\) icon in the lookup card header.The system displays a new contact or consumer record. Enter information in the relevant fields and select **Save**.
+Create a customer record by selecting the Create new \(\[Omitted image "lookup-and-verify-add-customer.png"\] Alt text: Create new icon is a plus sign inside a circle\) icon in the lookup card header.The system displays a new contact or consumer record. Enter information in the relevant fields and select **Save**.
 
 **Note:** If an agent creates a customer record from the lookup component, the system creates and verifies the customer at the same time.
 
@@ -81,7 +84,7 @@ Edit a contact or consumer
 
 </td><td>
 
-Make changes to the linked customer information by selecting the More actions \(![More actions icon is three vertically stacked dots](../image/lookup-and-verify-more-actions-menu.png)\) menu on the lookup card and then selecting **Edit**.The system displays the contact or consumer record fields. Make changes to the desired fields and then select **Save**.
+Make changes to the linked customer information by selecting the More actions \(\[Omitted image "lookup-and-verify-more-actions-menu.png"\] Alt text: More actions icon is three vertically stacked dots\) menu on the lookup card and then selecting **Edit**.The system displays the contact or consumer record fields. Make changes to the desired fields and then select **Save**.
 
 The system saves the changes to the contact or consumer information and updates the same fields on the interaction record.
 
@@ -91,7 +94,7 @@ Unlink a contact or consumer
 
 </td><td>
 
-Select the More actions \(![More actions icon is three vertically stacked dots](../image/lookup-and-verify-more-actions-menu.png)\) menu on the lookup card and then select **Unlink** to remove a contact or consumer from an interaction record.
+Select the More actions \(\[Omitted image "lookup-and-verify-more-actions-menu.png"\] Alt text: More actions icon is three vertically stacked dots\) menu on the lookup card and then select **Unlink** to remove a contact or consumer from an interaction record.
 
 </td></tr><tr><td>
 

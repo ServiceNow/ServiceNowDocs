@@ -2,6 +2,7 @@
 title: Create and manage reports in workspace
 description: Create and manage your report tiles in the Software Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/create-new-report-workspace.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -29,13 +30,13 @@ All the base system Software Asset Management reports and the custom created rep
 
 2.  In the License usage view, select the **Reports** tab.
 
-    ![Reports tab](../image/reportstab-workspace.png)
+    \[Omitted image "reportstab-workspace.png"\] Alt text: Reports tab
 
 3.  Select **Manage Reports**.
 
 4.  In the Reports list view page, select **New**.
 
-    ![Create a new report](../image/create-report-workspace.png "Create New SAM Workbench Report form")
+    \[Omitted image "create-report-workspace.png"\] Alt text: Create a new report
 
 5.  On the form, fill in the fields.
 
@@ -54,5 +55,5 @@ All the base system Software Asset Management reports and the custom created rep
     The new report tile appears on the Reports tab. You may need to reload the Reports tab to see the new report tile.
 
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/using-sam-workspace.md)
 

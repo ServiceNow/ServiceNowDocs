@@ -2,6 +2,7 @@
 title: IT Discovery for OT Networks related links and lists
 description: IT Discovery for OT Networks contains several related links and lists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-manager/discovery-for-ot-related-links-lists.html
 release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -29,7 +30,7 @@ Quick Ranges
 
 </td><td>
 
-IP addresses and address ranges to scan when the OT discovery schedule runs. Enter IP addresses in multiple formats \(network, range, or list\) in a single, comma-delimited string. The MID server in use must be able to connect to the specified IP ranges.For more information, see [Create a Quick IP range for a Discovery schedule](https://www.servicenow.com/docs/access?context=discovery-ip-address-configuration&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+IP addresses and address ranges to scan when the OT discovery schedule runs. Enter IP addresses in multiple formats \(network, range, or list\) in a single, comma-delimited string. The MID server in use must be able to connect to the specified IP ranges.For more information, see Create a Quick IP range for a Discovery schedule.
 
 </td></tr><tr><td>
 
@@ -45,7 +46,7 @@ Run Point Scan
 
 </td><td>
 
-Access to the Execute Point Scan dialog. To learn more, see [Execute a point scan](https://www.servicenow.com/docs/access?context=hs-execute-point-scan&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Access to the Execute Point Scan dialog. To learn more, see Execute a point scan.
 
 </td></tr></tbody>
 </table><table id="related-lists"><thead><tr><th>
@@ -81,14 +82,14 @@ Discovery Status
 History of the results of the current and past OT discovery schedule runs.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[IT Discovery for Operational Technology \(OT\) Networks](../concept/discovery-for-operational-technology.md)
+</table>**Parent Topic:**[IT Discovery for Operational Technology \(OT\) Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/discovery-for-operational-technology.md)
 
 **Related topics**  
 
 
-[MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.mid-server-landing]
 
-[Shazzam probe, port probes, and protocols](https://www.servicenow.com/docs/access?context=r_DiscoveryPortsAndProtocols&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)
+[bundle-itom.r_DiscoveryPortsAndProtocols]
 
-[Create a Shazzam probe](https://www.servicenow.com/docs/access?context=t_ConfigureTheShazzamProbe&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)
+[bundle-itom.t_ConfigureTheShazzamProbe]
 

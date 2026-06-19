@@ -2,6 +2,7 @@
 title: Troubleshoot test failures
 description: View the history of test runs. Troubleshoot and rectify the test failures in SAFe.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scaled-agile-framework-safe/view-test-result-SAFe.html
 release: zurich
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe

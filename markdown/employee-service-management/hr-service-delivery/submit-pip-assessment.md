@@ -2,6 +2,7 @@
 title: Complete PIP assessment
 description: As a manager, complete the PIP assessment indicating whether the PIP is successful.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/submit-pip-assessment.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

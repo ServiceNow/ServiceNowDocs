@@ -2,6 +2,7 @@
 title: Restricting record access
 description: You can use a query business rule that executes before the database query to prevent users from accessing certain records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/c\_ExScptDftBfrQryBsnRu.html
 release: zurich
 product: Scripts
 classification: scripts
@@ -34,7 +35,7 @@ if (!gs.hasRole("itil")&& gs.isInteractive()) {
   gs.print("query restricted to user: " + u);}
 ```
 
-**Note:** You can also use access controls to restrict the records that users can see. For information, see [Access Control List Rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+**Note:** You can also use access controls to restrict the records that users can see. For information, see .
 
 ## Schedule script for weekdays
 
@@ -100,7 +101,7 @@ if(typeof g_user_date_time_format !=='undefined')
 return parseDate(value)!==null;}
 ```
 
-For more information, see [Validation script use case - Date and time](c_ValidateDateAndTime.md).
+For more information, see [Validation script use case - Date and time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_ValidateDateAndTime.md).
 
-**Parent Topic:**[Business rule use cases](useful-business-rules.md)
+**Parent Topic:**[Business rule use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/useful-business-rules.md)
 

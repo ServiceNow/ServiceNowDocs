@@ -2,6 +2,7 @@
 title: Configure an Amazon Signature based Custom Algorithm
 description: Generate the Amazon Signature based data needed to authenticate to a web service by running script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/connections-and-credentials/configure-an-amazon-signature-based-custom-algorithm.html
 release: zurich
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -100,7 +101,7 @@ Script that you select from the MID Server Script Includes \[Discovery view\] ta
 
 
 </td></tr></tbody>
-</table>    ![Auth Algorithm](../image/amazon-singature-based-custom-algorithm.png)
+</table>    \[Omitted image "amazon-singature-based-custom-algorithm.png"\] Alt text: Auth Algorithm
 
 3.  Click **Update**.
 
@@ -120,7 +121,7 @@ Script that you select from the MID Server Script Includes \[Discovery view\] ta
     -   Secret Access Key
     -   Credential alias
     -   Authentication Algorithm
-    ![AWS Credentials](../image/amazon-credentials.png)
+    \[Omitted image "amazon-credentials.png"\] Alt text: AWS Credentials
 
 8.  Click **Update**.
 
@@ -144,7 +145,7 @@ Input REST step with AWS as follows:
 
 You can test the action, the associated regions are displayed. The response body is as follows:
 
-![Code Snippet sample](../image/response-body-aws.png)
+\[Omitted image "response-body-aws.png"\] Alt text: Code Snippet sample
 
 Amazon V4 is defined with standard set of algorithm that supports authentication mechanism. This algorithm when used adds the signature as authorization header for authentication \(HTTP request\) using REST step.
 

@@ -2,6 +2,7 @@
 title: Customer Service Problem Management data model
 description: Customer Service Problem Management \(CSPM\) provides a framework that enables you to follow a structured approach to handle and resolve customer-reported issues. The framework ensures a seamless and satisfactory customer experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/spm-data-model.html
 release: zurich
 topic_type: reference
 last_updated: "2025-07-31"
@@ -17,7 +18,7 @@ CSPM follows the TeleManagement Forum \(TMF\) defined framework to manage servic
 
 ## Customer Service Problem Management data model life cycle
 
-CSPM enables a service-related problem to move through the various stages of Service Problem Management's life cycle to get resolved.![Different stages of Customer Service Problem Management life cycle](../image/mmasset0020424-customer-service-problem-management-lifecycle-landing.png)
+CSPM enables a service-related problem to move through the various stages of Service Problem Management's life cycle to get resolved.\[Omitted image "mmasset0020424-customer-service-problem-management-lifecycle-landing.png"\] Alt text: Different stages of Customer Service Problem Management life cycle
 
 |Stage|Description|
 |-----|-----------|
@@ -29,7 +30,7 @@ CSPM enables a service-related problem to move through the various stages of Ser
 
 ## Customer Service Problem Management data model
 
-The following diagram shows the applications, tables, and their relationships that build the CSPM data model.![Data model of Customer Service Problem Management](../image/mmasset0020436-serviceprbmodel.png)
+The following diagram shows the applications, tables, and their relationships that build the CSPM data model.\[Omitted image "mmasset0020436-serviceprbmodel.png"\] Alt text: Data model of Customer Service Problem Management
 
 The CSPM data model uses a combination of these tables to store data:
 
@@ -47,9 +48,9 @@ The CSPM data model uses a combination of these tables to store data:
 
 The Customer Service Problem Management \(CSPM\) data model relies on Northbound and Southbound APIs to manage and execute test processes.
 
-Northbound APIs play a critical role during the design phase by creating and managing essential components like test definitions, characteristics, measures, and thresholds. These APIs enable the CSPM system to define the specifications and parameters for each test, such as the test type and scope, which are then used to generate unique test runs with identifiers, such as external IDs or sys\_id. After these test definitions are established, Northbound APIs facilitate the creation of test runs based on these predefined specifications. If a test requires further breakdown into smaller tasks, the Northbound APIs handle this decomposition. For more information, see [Service Test Management Open API](https://www.servicenow.com/docs/access?context=service-test-management-api&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+Northbound APIs play a critical role during the design phase by creating and managing essential components like test definitions, characteristics, measures, and thresholds. These APIs enable the CSPM system to define the specifications and parameters for each test, such as the test type and scope, which are then used to generate unique test runs with identifiers, such as external IDs or sys\_id. After these test definitions are established, Northbound APIs facilitate the creation of test runs based on these predefined specifications. If a test requires further breakdown into smaller tasks, the Northbound APIs handle this decomposition. For more information, see .
 
-Southbound APIs come into the picture when it’s time to execute the tests. For example, if the test involves running a speed test, it isn’t conducted directly on your system but instead on an external device, such as a router or another network component. The Southbound APIs are responsible for sending these test instructions to the external systems where the tests are to be performed. For more information, see [Integrating Customer Service Problem Management with southbound external systems](../concept/cspm-integrate-southbound.md).
+Southbound APIs come into the picture when it’s time to execute the tests. For example, if the test involves running a speed test, it isn’t conducted directly on your system but instead on an external device, such as a router or another network component. The Southbound APIs are responsible for sending these test instructions to the external systems where the tests are to be performed. For more information, see [Integrating Customer Service Problem Management with southbound external systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/cspm-integrate-southbound.md).
 
 Overall, Northbound APIs are used to design and set up the tests within the CSPM application, while Southbound APIs handle the execution of these tests on external systems. This two-tiered approach promotes a seamless flow from test definition to execution across different platforms.
 

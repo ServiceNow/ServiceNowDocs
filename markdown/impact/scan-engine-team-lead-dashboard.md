@@ -2,7 +2,10 @@
 title: Scan Engine Team Lead dashboard
 description: The Team Lead dashboard includes trend charts and the following overview modules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/scan-engine-team-lead-dashboard.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-10-22"
 reading_time_minutes: 3

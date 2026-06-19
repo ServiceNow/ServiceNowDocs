@@ -2,6 +2,7 @@
 title: Debugging remote table script definitions
 description: You can enable session debugging for remote table script definitions. To enable script definition logging in a session debug log, set the glide.script.vtable.log.debug property to true.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/remote-tables/debugging-remote-table-scripts.html
 release: zurich
 product: Remote Tables
 classification: remote-tables
@@ -25,14 +26,14 @@ Prolonged use of the **glide.script.vtable.log.debug** property can affect perfo
 
 **Note:** If you are not on the application node that processed your remote table script, you may not see the resulting log statements. In this case, contact Technical Support.
 
-Use the v\_query.setLastErrorMessage\(message\) API to set the last error message that appears at the bottom of the list view. In script, you can retrieve this message using the glideRecord.getLastErrorMessage\(\) API. To learn more about these APIs, see [Text-To-Display](https://www.servicenow.com/docs/access?context=c_GlideRecordScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+Use the v\_query.setLastErrorMessage\(message\) API to set the last error message that appears at the bottom of the list view. In script, you can retrieve this message using the glideRecord.getLastErrorMessage\(\) API. To learn more about these APIs, see Text-To-Display.
 
-**Parent Topic:**[Remote tables](../concept/remote-tables.md)
+**Parent Topic:**[Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/remote-tables/remote-tables.md)
 
 **Related topics**  
 
 
-[Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+[bundle-platadm.r_AvailableSystemProperties]
 
-[Script Debugger and Session Logging](https://www.servicenow.com/docs/access?context=script-debugger&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.script-debugger]
 

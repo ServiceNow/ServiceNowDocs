@@ -2,13 +2,14 @@
 title: Add third-party catalog data in an Excel file
 description: You can download and add third-party catalog data in an Excel file template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/add-third-party-catalog-spo.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure punchout for third-party site purchases, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Configure punchout third-party site purchases, Configure Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Add third-party catalog data in an Excel file
@@ -17,7 +18,7 @@ You can download and add third-party catalog data in an Excel file template.
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_shop.procurement\_administrator
 
 ## Procedure
 
@@ -36,7 +37,7 @@ An Excel template is created with the required columns for adding the third-part
 
 ## What to do next
 
-After adding the required data to the Excel file, upload it to store the data in the Third-party Catalog \(sn\_spend\_intg\_third\_party\_catalog\) table. For more information, see [Configure punchout for third-party site purchases](configure-supplier-punchout.md).
+After adding the required data to the Excel file, upload it to store the data in the Third-party Catalog \(sn\_spend\_intg\_third\_party\_catalog\) table. For more information, see [Configure punchout for third-party site purchases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/configure-supplier-punchout.md).
 
-**Parent Topic:**[Configure punchout for third-party site purchases](configure-supplier-punchout.md)
+**Parent Topic:**[Configure punchout for third-party site purchases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/configure-supplier-punchout.md)
 

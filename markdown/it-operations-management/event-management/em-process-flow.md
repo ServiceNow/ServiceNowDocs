@@ -2,6 +2,7 @@
 title: Event Management process flow
 description: Event Management collects, analyzes, and converts events into alerts, enabling efficient tracking and remediation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/em-process-flow.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -41,5 +42,5 @@ The instance stores events in the Event \[em\_event\] table and attempts to gene
     -   If another event has the same matching key, associate the events under a single alert.
     -   For root cause analysis purposes, bind the alert to a specific Configuration Item \(CI\).
 
-![Event workflow](../image/EMEventFlow.png "Event workflow")
+\[Omitted image "EMEventFlow.png"\] Alt text: Event workflow
 

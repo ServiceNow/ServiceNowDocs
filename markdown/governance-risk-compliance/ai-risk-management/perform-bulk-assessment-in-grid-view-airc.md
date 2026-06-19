@@ -2,6 +2,7 @@
 title: Perform bulk assessment in grid view
 description: Perform assessments on multiple risks and controls simultaneously in a risk assessment project in the grid view using AI Risk and Compliance Workspace. You can assess inherent risks, effectiveness of controls, residual risks, and target risks. You can define risk responses that enable you to manage and mitigate the risks identified during the risk assessment process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/ai-risk-management/perform-bulk-assessment-in-grid-view-airc.html
 release: zurich
 product: AI Risk Management
 classification: ai-risk-management
@@ -45,21 +46,21 @@ You can perform the bulk risk assessment either from the Employee Center or AI C
 
 4.  Select **Open assessment**.
 
-    A spreadsheet-style interface appears to assess risks and controls in a grid-based view.![Grid view of risk assessment project](../image/grid-view-airc.png)
+    A spreadsheet-style interface appears to assess risks and controls in a grid-based view.\[Omitted image "grid-view-airc.png"\] Alt text: Grid view of risk assessment project
 
     **Note:** If more than one assessor is defined in the Stakeholder section, the assessor who opens the assessment first becomes the current assessor of the risk assessment project.
 
-5.  To reassign the project, select the more actions icon ![](../../grc-compliance-case-mgmt/image/more-actions-vertical-icon.png), and select **Reassign**.
+5.  To reassign the project, select the more actions icon \[Omitted image "more-actions-vertical-icon.png"\] Alt text:, and select **Reassign**.
 
 6.  To add risks to the project, you can do the following:
 
-    1.  To create risks from the risk statement, select the more actions icon ![](../../grc-compliance-case-mgmt/image/more-actions-vertical-icon.png) icon, and select **Create from risk statements**.
+    1.  To create risks from the risk statement, select the more actions icon \[Omitted image "more-actions-vertical-icon.png"\] Alt text: icon, and select **Create from risk statements**.
 
-    2.  To add a risk that is not in the library, select the more actions icon ![](../../grc-compliance-case-mgmt/image/more-actions-vertical-icon.png) icon, and select **Create ad hoc risk**.
+    2.  To add a risk that is not in the library, select the more actions icon \[Omitted image "more-actions-vertical-icon.png"\] Alt text: icon, and select **Create ad hoc risk**.
 
-    3.  To add any underlying risks that have been removed, select the more actions icon ![](../../grc-compliance-case-mgmt/image/more-actions-vertical-icon.png) icon, and select **Add risk**.
+    3.  To add any underlying risks that have been removed, select the more actions icon \[Omitted image "more-actions-vertical-icon.png"\] Alt text: icon, and select **Add risk**.
 
-    The risks with an in-progress assessment can't be added as part of the risk assessment project.![Add risks in the risk assessment project](../image/grid-add-risks-airc.png)
+    The risks with an in-progress assessment can't be added as part of the risk assessment project.\[Omitted image "grid-add-risks-airc.png"\] Alt text: Add risks in the risk assessment project
 
 7.  To remove risks from the project, you can do the following:
 
@@ -67,7 +68,7 @@ You can perform the bulk risk assessment either from the Employee Center or AI C
 
     1.  Select **Actions**.
 
-        ![Remove risks from the risk assessment project](../image/grid-remove-risks-airc.png)
+        \[Omitted image "grid-remove-risks-airc.png"\] Alt text: Remove risks from the risk assessment project
 
     2.  Select **Remove risk**.
 
@@ -91,7 +92,7 @@ You can perform the bulk risk assessment either from the Employee Center or AI C
 
 12. To view the complete summary of the assessment, select **View summary**.
 
-13. To check for any errors in the assessment before you submit the assessment, select the more actions icon ![](../../grc-compliance-case-mgmt/image/more-actions-vertical-icon.png), and select **Validate**.
+13. To check for any errors in the assessment before you submit the assessment, select the more actions icon \[Omitted image "more-actions-vertical-icon.png"\] Alt text:, and select **Validate**.
 
     You can see the list of errors, if any, that must be resolved in the side panel for the selected risk.
 
@@ -104,5 +105,5 @@ You can perform the bulk risk assessment either from the Employee Center or AI C
     Assessments are validated again in this stage. Review the assessment summary before you submit. You can’t make any changes after submission.
 
 
-**Parent Topic:**[Using AI Risk and Compliance](../concept/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

@@ -2,6 +2,7 @@
 title: Using Now Assist in Virtual Agent
 description: Reserve a space using the create a reservation agent and get insights on your collaborators using the Workplace Collaboration agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-wsd/create-rsv-agent-ovw.html
 release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -19,12 +20,12 @@ Employees can interact with the reservation agent and collaboration agent using 
 
 Visit these resources about Now Assist in Virtual Agent.
 
-**Important:** By default, pinning a chat window is enabled for Service Portal. For all other portals, an admin must create a system property to enable pinning a chat window. For more information, see [Now Assist in Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+**Important:** By default, pinning a chat window is enabled for Service Portal. For all other portals, an admin must create a system property to enable pinning a chat window. For more information, see .
 
--   [Enhanced chat](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US)
--   [Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-in-va-landing&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US)
--   [Portal prerequisites for enhanced chat](https://www.servicenow.com/docs/access?context=prerequisites-enhanced-chat&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US)
--   [Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US)
--   [Using Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=using-now-assist-in-va&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US)
--   [Exploring Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=exploring-now-assist-va&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US)
+-   
+-   
+-   
+-   
+-   
+-   
 

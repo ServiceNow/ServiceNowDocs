@@ -2,6 +2,7 @@
 title: Transfer part orders through the Field Service Contractor Portal
 description: Use a transfer order to move required parts between company stockrooms or to a location where a requesting agent can receive the parts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/transfer\_order.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -45,15 +46,15 @@ You can process only transfer orders that contain parts sourced from a warehouse
     -   The short description text for the transfer order line task for drop off is "Receive" and the state is Open.
 6.  Drop off or prepare for shipment.
 
-<table id="choicetable_mhs_zj4_rhb"><thead><tr><th align="left" id="d111051e137">
+<table id="choicetable_mhs_zj4_rhb"><thead><tr><th align="left" id="d108488e137">
 
 To
 
-</th><th align="left" id="d111051e140">
+</th><th align="left" id="d108488e140">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d111051e146">
+</th></tr></thead><tbody><tr><td id="d108488e146">
 
 **Prepare for shipment**
 
@@ -95,7 +96,7 @@ This task has the short description text "Deliver" and the state Open.
 
 This task automatically moves to the Closed Complete state.
 
-</td></tr><tr><td id="d111051e228">
+</td></tr><tr><td id="d108488e228">
 
 **Drop off**
 

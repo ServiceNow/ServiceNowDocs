@@ -2,6 +2,7 @@
 title: Using Mentoring
 description: Use Mentoring in Employee Center to access your learnings and achievements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/mentoring/using-mentoring-egd.html
 release: zurich
 product: Mentoring
 classification: mentoring

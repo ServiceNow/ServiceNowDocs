@@ -2,6 +2,7 @@
 title: Data Visualization roles
 description: There are several roles associated with the Visualization Designer and Visualization Library. Roles limit what users can do with visualizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/visualization-designer-roles.html
 release: zurich
 topic_type: reference
 last_updated: "2025-07-31"
@@ -146,7 +147,7 @@ Any role, to delete a data visualization that you created. viz\_admin or higher 
 
 </td></tr><tr><td>
 
-[Control data source availability by role](../task/dv-use-data-source-acl.md)
+[Control data source availability by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dv-use-data-source-acl.md)
 
 </td><td>
 
@@ -154,7 +155,7 @@ admin
 
 </td></tr><tr><td>
 
-[Configure visualization interactions](../../reporting/task/configure-go-data.md)
+[Configure visualization interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/configure-go-data.md)
 
 </td><td>
 
@@ -162,7 +163,7 @@ Any role if you have the right to edit the data visualization. The viewer needs 
 
 </td></tr><tr><td>
 
-[Use service catalog variables in data visualizations](../../reporting/concept/dv-rep-sc-variables.md#)
+[Use service catalog variables in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dv-rep-sc-variables.md)
 
 </td><td>
 
@@ -170,12 +171,12 @@ viz\_creator or higher
 
 </td></tr><tr><td>
 
-[Create coloring rules for data visualizations](../../performance-analytics/concept/colors-dv.md#)
+[Create coloring rules for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/colors-dv.md)
 
 </td><td>
 
 Any role if you have the right to edit the data visualization.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data visualization reference](data-visualization-reference.md)
+</table>**Parent Topic:**[Data visualization reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/data-visualization-reference.md)
 

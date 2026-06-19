@@ -2,6 +2,7 @@
 title: Secure HR case attachments
 description: Add an extra layer of security on attachments that are linked to a case. Grant access to attachments with sensitive or private data to groups, users, user criteria or roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/secure-doc-ckm.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -93,5 +94,5 @@ To grant access to a document based on group permissions:1.  Click **More**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Work an HR case](t_CreateAnHRCase.md)
+**Parent Topic:**[Work an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateAnHRCase.md)
 

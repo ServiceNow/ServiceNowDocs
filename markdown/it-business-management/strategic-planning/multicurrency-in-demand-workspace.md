@@ -2,12 +2,13 @@
 title: Multicurrency in Next Experience for Demand Management
 description: Manage and track demand financials in your corporate currency, regional currency, or project currency using the multicurrency feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/multicurrency-in-demand-workspace.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-02-04"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 1
 breadcrumb: [Configure, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -19,7 +20,7 @@ Manage and track demand financials in your corporate currency, regional currency
 
 In global organizations, demands are often managed at one location and executed at another. Each location might use different currencies for budget spending, making it difficult to monitor and track financials.
 
-The multicurrency feature in Next Experience for Demand Management lets you manage and track demands from any geographic location in any currency. You can monitor demand financials in one currency while spending the budget in a different currency, such as your functional currency or regional currency. You can also manage your demands in one currency and specify a different currency for managing your future projects.
+The multicurrency feature in Next Experience for Demand Management enables you to manage and track demands from any geographic location in any currency. You can monitor demand financials in one defined currency, such as your functional currency or regional currency, while tracking the budget in another. You can also manage your demands in one currency and specify a different currency for managing your future projects.
 
 ## Activation information
 
@@ -31,7 +32,7 @@ To enable multicurrency features in Next Experience for Demand Management, activ
 
 ## Currency preferences
 
-After activating the plugin, specify your currency preference for managing demand financials. You can select your functional currency, a regional currency, or a local currency. For more information, see [Select demand currency preference](../task/select-demand-currency-preference-dw.md).
+You can specify your currency preference for managing demand financials: a functional currency, a regional currency, or a local currency. For more information, see [Select demand currency preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/select-demand-currency-preference-dw.md).
 
 ## Demand currency view
 
@@ -39,13 +40,5 @@ The Demand Currency view displays multicurrency fields in addition to the standa
 
 You can designate a currency other than the functional currency as the processing demand currency. The **Demand currency** field appears on the Financials section of the Demand form, where you can select any active currency from the Currencies \[fx\_currency\] table.
 
-**Note:** The Demand currency field becomes read only once you create a cost plan, cost plan breakdown, benefit plan, or benefit plan breakdown for the demand.
-
-## Multicurrency in demand tasks
-
-Track expenses for demand tasks in demand currency. When a time card for a demand task is submitted and processed, the actual cost is calculated based on the rate model, default labor rate, or system property rate. View this actual cost in the Demand Task form in the **Demand currency** and **Actual cost in demand currency** fields.
-
-## Multicurrency in demand baselines
-
-Compare financial baselines to track demand performance over time. Baseline comparison helps you identify and review financial changes made to the demand at various life-cycle stages. With the multicurrency feature, you can view financial information in demand currency when comparing baselines. You can also configure the baseline view to add fields and view details in demand currency. For more information, see [Create financial baselines](../task/create-compare-financial-baselines-dw.md).
+**Note:** The Demand currency field is set to read only after you create a cost plan, cost plan breakdown, benefit plan, or benefit plan breakdown for the demand.
 

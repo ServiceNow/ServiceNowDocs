@@ -2,6 +2,7 @@
 title: Confirm a planning scenario
 description: Select and confirm a scenario to allocate budget and resources for executing the selected demands and projects in a fiscal year.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-management/confirm-a-scenario.html
 release: zurich
 product: Portfolio Management
 classification: portfolio-management
@@ -17,7 +18,7 @@ Select and confirm a scenario to allocate budget and resources for executing the
 
 ## Before you begin
 
-Ensure that you have created up to four planning scenarios and selected projects and demands for execution. For more information, see [Create planning scenarios](create-scenarios.md) and [Select demands and projects for portfolio planning](select-prj-demands.md).
+Ensure that you have created up to four planning scenarios and selected projects and demands for execution. For more information, see [Create planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-management/create-scenarios.md) and [Select demands and projects for portfolio planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-management/select-prj-demands.md).
 
 Role required: it\_portfolio\_manager
 
@@ -25,15 +26,15 @@ Role required: it\_portfolio\_manager
 
 1.  Navigate to Portfolio Planning Workbench from either of two starting points.
 
-<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d160453e66">
+<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d76955e66">
 
 Location
 
-</th><th align="left" id="d160453e69">
+</th><th align="left" id="d76955e69">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d160453e75">
+</th></tr></thead><tbody><tr><td id="d76955e75">
 
 **From application navigator**
 
@@ -43,7 +44,7 @@ Steps
 2.  From the **Portfolio** list, select the portfolio that you want to perform the planning for.
 
 
-</td></tr><tr><td id="d160453e108">
+</td></tr><tr><td id="d76955e108">
 
 **From the portfolio list**
 
@@ -64,8 +65,8 @@ Steps
 
     **Note:** When a confirmed plan exists, the name of the dialog box is Override Selection rather than Confirm.
 
-    -   If the [project property](../../project-management/reference/r_InstalledWithProjectManagement.md) **Create project\(s\) on confirming demands from portfolio workbench** is set to false, you can choose to approve all the selected demands after the save by selecting **Approve all selected demands \(if not approved already\)**.
-    -   If the [project property](../../project-management/reference/r_InstalledWithProjectManagement.md) **Create project\(s\) on confirming demands from portfolio workbench** is set to true, you can choose to convert the selected demands to projects after the save by selecting **Convert all the selected demands to projects**.
+    -   If the [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Create project\(s\) on confirming demands from portfolio workbench** is set to false, you can choose to approve all the selected demands after the save by selecting **Approve all selected demands \(if not approved already\)**.
+    -   If the [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Create project\(s\) on confirming demands from portfolio workbench** is set to true, you can choose to convert the selected demands to projects after the save by selecting **Convert all the selected demands to projects**.
     -   Confirm the resources for selected demands and projects by selecting **Confirm resources for selected demands or projects**.
     -   If the confirmed and allocated resource plans associated with the demands and projects that are newly unselected do not have any actual hours associated with them, then select **Unconfirm the resources for the unselected demands and projects \(only those resources where there is no actual hours/cost captured will be unconfirmed\)** to change the state of such resource plans to requested. If the confirmed and allocated resource plans have actuals associated with them, a notification is send to the project or demand managers specifying that they need to manually release such resources.
     -   Delete all the unconfirmed working scenarios after confirmation of the selected scenario by selecting **Delete all working scenarios**. This option is selected by default.
@@ -76,5 +77,5 @@ Steps
 
 Budget is allocated to selected demands and projects. The remaining demands and projects are removed from execution. However, resources already confirmed for the unselected demands and projects are not removed automatically.
 
-**Parent Topic:**[Scenario Planning for PPM](../concept/portfolio-planning-overview.md)
+**Parent Topic:**[Scenario Planning for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-management/portfolio-planning-overview.md)
 

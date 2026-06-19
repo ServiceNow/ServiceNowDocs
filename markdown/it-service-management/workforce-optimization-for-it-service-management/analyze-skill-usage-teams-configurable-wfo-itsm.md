@@ -2,6 +2,7 @@
 title: Analyze skills for your teams in Workforce Optimization for ITSM
 description: Add skills to groups and view skill assignments for your teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/analyze-skill-usage-teams-configurable-wfo-itsm.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -41,5 +42,5 @@ Role required: skill\_admin
     5.  In the **Inherited from** field, select the skill from which this skill is inherited.
     6.  Click **Save**.
 
-**Parent Topic:**[Routing work items using Channels in Workforce Optimization for ITSM](../concept/configurable-channels-workforce-optimization-itsm.md)
+**Parent Topic:**[Routing work items using Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/configurable-channels-workforce-optimization-itsm.md)
 

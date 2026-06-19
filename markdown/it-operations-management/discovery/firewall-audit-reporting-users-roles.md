@@ -2,6 +2,7 @@
 title: Firewall Audits and Reporting roles and responsibilities
 description: Specific users and roles to optimize the monitoring and tracking of requests for new firewall rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/firewall-audit-reporting-users-roles.html
 release: zurich
 product: Discovery
 classification: discovery

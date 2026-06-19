@@ -2,6 +2,7 @@
 title: Asset Total Cost of Ownership for Hardware Asset Management
 description: Assets incur costs throughout their life cycle, including initial capital costs and operational costs. Asset Total Cost of Ownership helps Asset managers to understand, analyze, and track the Total Cost of Ownership \(TCO\) of assets, where the total cost includes initial capital cost and operation cost.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/asset-mgmt-tco.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -44,8 +45,8 @@ Rate cards help you track capital, labor, material, and contract costs and the g
 
 The Hardware Asset Management application supports the following rate cards:
 
--   [Task rate cards](../task/create-ham-task-rate-card.md)
--   [Labor rate cards](../task/create-ham-labor-task.md)
+-   [Task rate cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-ham-task-rate-card.md)
+-   [Labor rate cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-ham-labor-task.md)
 
 **Note:** The labor rate card is a part of the created expense line and is valid if you’ve included the labor rate card information with the task rate card, which is recording the time worked on the task.
 
@@ -93,9 +94,9 @@ TCO enables you to perform the following actions:
     TCO benchmark cost * TCO benchmark threshold percentage
     ```
 
-    , where the TCO benchmark threshold percentage is set to 75% of the TCO benchmark cost by default. For more information, see [Hardware model details](../reference/hardware-model-fields.md).
+    , where the TCO benchmark threshold percentage is set to 75% of the TCO benchmark cost by default. For more information, see [Hardware model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/hardware-model-fields.md).
 
--   Create a report and compare TCO for a group of assets. For more information on the TCO dashboard and reports, see [Asset analytics view](asset-analytics-view.md).
+-   Create a report and compare TCO for a group of assets. For more information on the TCO dashboard and reports, see [Asset analytics view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/asset-analytics-view.md).
 -   For real-time or offline TCO reports, normalize the asset TCO over its useful life and compare the normalized TCO for different models and assets.
     -   When the useful life of the asset is equal to or greater than asset life, the Normalized TCO \(TCO per month\) is calculated by using the following formula:
 

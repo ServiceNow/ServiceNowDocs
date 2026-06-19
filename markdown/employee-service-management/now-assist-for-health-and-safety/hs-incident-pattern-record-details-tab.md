@@ -2,13 +2,14 @@
 title: Incident pattern record details tab
 description: The Details tab of an incident pattern record is generated automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-health-and-safety/hs-incident-pattern-record-details-tab.html
 release: zurich
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
 topic_type: concept
-last_updated: "2026-02-28"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Work on an incident pattern record, Incident pattern analysis, Use generative AI skills, Now Assist for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [Reference, Now Assist for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
 # Incident pattern record details tab
@@ -27,6 +28,4 @@ The **Details** tab of an incident pattern record is generated automatically.
 |Updated|Date and time when the pattern record was updated last.|
 |Pattern Summary|Generative AI summary of all the pattern values and statistics. Gives description of key details of the pattern.|
 |Recommendations|List of recommended actions to mitigate the pattern.|
-
-**Parent Topic:**[Work on an incident pattern record](../task/hs-work-on-incident-pattern-record.md)
 

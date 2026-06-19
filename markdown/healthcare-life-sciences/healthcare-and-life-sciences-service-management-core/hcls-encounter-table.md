@@ -2,6 +2,7 @@
 title: Encounter table
 description: The Encounter \[sn\_hcls\_encounter\] table stores the information about an interaction between a patient and healthcare providers for providing healthcare services or assessing the health status of a patient.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-encounter-table.html
 release: zurich
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -22,7 +23,7 @@ The Encounter \[sn\_hcls\_encounter\] table stores the information about an inte
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](../concept/hcls-serv-mgmt-core-1.md).
+For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
 <table id="table_gsz_dbb_npb"><thead><tr><th>
 
@@ -124,7 +125,7 @@ Alpha-numeric profile identifier of the encounter.
 
  The value is auto-generated and is incremented every time you add a new encounter to your ServiceNow instance. The initial value for the **Number** field is ENC00001001.
 
-**Note:** To customize the number, define the auto-numbering format for the Encounter \[sn\_hcls\_encounter\] table. For more information, see [Add auto-numbering records in a table](https://www.servicenow.com/docs/access?context=t_AutoNumberingRecordsInATable&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** To customize the number, define the auto-numbering format for the Encounter \[sn\_hcls\_encounter\] table. For more information, see Add auto-numbering records in a table.
 
 </td></tr><tr><td>
 
@@ -251,5 +252,5 @@ Status of the encounter.
  For more information about the available statuses, see [encounter statuses](https://www.hl7.org/fhir/valueset-encounter-status.html) defined in the FHIR specifications.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](hcls-healthcare-data-tables.md)
+</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)
 

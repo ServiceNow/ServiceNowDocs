@@ -2,6 +2,7 @@
 title: View security incident to customer service case mapping
 description: Security Incident Response ships with a default field mapping that maps a security incident to a Customer Service case. You can view the security incident to CS case default map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/view-cs-field-mapping.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -23,12 +24,10 @@ Role required: sn\_sec\_cmn.read
 
 1.  Navigate to **All** &gt; **Security Operations** &gt; **Utilities** &gt; **Field Mapping**.
 
-2.  Click **Security Incident to CSM Case Field Mapping** to view the default map.
-
-    ![Default security incident to Case Management case](../image/cs-mapping.png)
+2.  Select **Security Incident to CSM Case Field Mapping** to view the default map.
 
 3.  You can edit the mapping, as needed.
 
-4.  When you have completed your changes, click **Update**.
+4.  When you have completed your changes, select **Update**.
 
 

@@ -2,6 +2,7 @@
 title: Properties of the Reflection components
 description: Learn about the properties of the Reflection components in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/util-reflection-prop.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -21,5 +22,5 @@ Learn about the properties of the Reflection components in RPA Desktop Design St
 |Delay After Execution|The number of seconds to pause after running.|
 |Delay Before Execution|The number of seconds to pause before running.|
 
-**Parent Topic:**[Reflection](../concept/reflection-utility.md)
+**Parent Topic:**[Reflection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/reflection-utility.md)
 

@@ -2,6 +2,7 @@
 title: Save as you go flows
 description: Save flows, subflows, and actions automatically as you work on them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/save-as-you-go-flows.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -34,20 +35,20 @@ While editing a flow, your changes are automatically saved each time you perform
 
 You can manually save a flow at any time with the Force save option available from the More actions menu. This option provides a backup in case the automatic save isn’t working for some reason. The option to save a flow requires that you first have edit rights to the flow.
 
-![More actions menu showing the Force save option highlighted.](../../workflow-studio/images/force-save-option.png "Force save option")
+\[Omitted image "force-save-option.png"\] Alt text: More actions menu showing the Force save option highlighted.
 
 ## Last saved indicator
 
-Workflow Studio displays the last saved icon after saving a flow ![](../../workflow-studio/images/icon-last-saved.png). Select or point to the last saved icon to display the duration or date since the flow was last saved.
+Workflow Studio displays the last saved icon after saving a flow \[Omitted image "icon-last-saved.png"\] Alt text:. Select or point to the last saved icon to display the duration or date since the flow was last saved.
 
-![Pop-up displaying, "Last saved: 3 minutes ago."](../../workflow-studio/images/example-last-saved.png "Example last saved date")
+\[Omitted image "example-last-saved.png"\] Alt text: Pop-up displaying, "Last saved: 3 minutes ago."
 
 ## Read-only flow interactions
 
-You can't save a flow that you don't have edit rights to. Make sure to save your work while you’re editing a flow. To avoid losing changes to the editing time-out value, perform any of the operations that trigger automatically saving the flow. For more information about when flows are in a read-only state, see [Default read-only flows](default-read-only-flows.md).
+You can't save a flow that you don't have edit rights to. Make sure to save your work while you’re editing a flow. To avoid losing changes to the editing time-out value, perform any of the operations that trigger automatically saving the flow. For more information about when flows are in a read-only state, see [Default read-only flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/default-read-only-flows.md).
 
--   **[Restore save as you go functionality](../task/restore-save-as-you-go-functionality.md)**  
+-   **[Restore save as you go functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/restore-save-as-you-go-functionality.md)**  
 Restore save as you go functionality that was disabled in the Washington DC release.
 
-**Parent Topic:**[Exploring flows](../../workflow-studio/concept/exploring-flows.md)
+**Parent Topic:**[Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-flows.md)
 

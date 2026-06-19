@@ -2,6 +2,7 @@
 title: Search in contract metadata
 description: Ask question in the Now Assist panel to search for information related to contract fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cmpro-na-search-metadata.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -36,7 +37,7 @@ Contract fulfillers and assignment group managers with the sn\_cm\_gen\_ai.ai\_c
 
 **Note:** The agentic workflow isn’t supported in the Virtual Agent panel.
 
-For feature limitations, see [Explore Now Assist in Contract Management](cncore-exp-now-assist-land.md).
+For feature limitations, see [Explore Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-exp-now-assist-land.md).
 
 ## Procedure
 
@@ -48,10 +49,10 @@ For feature limitations, see [Explore Now Assist in Contract Management](cncore-
 
 4.  Select CNTR number to view the contract details.
 
-    ![Conversational search for contracts](../image/cmpro-na-search-meta-viewresult.png)
+    \[Omitted image "cmpro-na-search-meta-viewresult.png"\] Alt text: Conversational search for contracts
 
 5.  Select **Open request** to open the contract record.
 
-    ![Open contract request](../image/cmpro-na-converse-openreq.png)
+    \[Omitted image "cmpro-na-converse-openreq.png"\] Alt text: Open contract request
 
 

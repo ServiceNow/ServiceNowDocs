@@ -2,6 +2,7 @@
 title: Configure the custom app record summarization skill
 description: Configure the custom app record summarization skill to define the records and outputs for Now Assist for App Engine summaries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/now-assist-for-app-engine/configure-custom-app-record-summarization-na-for-app-engine.html
 release: zurich
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
@@ -9,7 +10,7 @@ topic_type: task
 last_updated: "2025-10-07"
 reading_time_minutes: 4
 keywords: [configure custom app record summarization, configure AI skill]
-breadcrumb: [Configure, Now Assist for App Engine, AI in custom applications, Developing your application, Building applications]
+breadcrumb: [Configure, Now Assist for App Engine, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 
 # Configure the custom app record summarization skill
@@ -20,7 +21,7 @@ Configure the custom app record summarization skill to define the records and ou
 
 Role required: admin
 
-You must have the custom app record summarization skill activated to configure the skill. For more information, see [Activate the custom app record summarization skill](activate-custom-app-record-summarization-na-for-app-engine.md).
+You must have the custom app record summarization skill activated to configure the skill. For more information, see [Activate the custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/activate-custom-app-record-summarization-na-for-app-engine.md).
 
 ## Procedure
 
@@ -28,7 +29,7 @@ You must have the custom app record summarization skill activated to configure t
 
 2.  On the Now Assist Skills page, select App Engine from the side panel.
 
-3.  In the custom app record summarization card, select the actions icon ![](../../servicenow-studio/image/sn-studio-more-options-icon.png).
+3.  In the custom app record summarization card, select the actions icon \[Omitted image "sn-studio-more-options-icon.png"\].
 
 4.  Select **Edit**.
 
@@ -38,7 +39,7 @@ You must have the custom app record summarization skill activated to configure t
 
 7.  Choose the table that you want Now Assist for App Engine to summarize.
 
-    You can generate summaries for records in most custom tables on the ServiceNow AI Platform. However, some tables are restricted. For more information, see [Custom app record summarization skill](../concept/custom-app-record-summarization-na-for-app-engine.md).
+    You can generate summaries for records in most custom tables on the ServiceNow AI Platform. However, some tables are restricted. For more information, see [Custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/custom-app-record-summarization-na-for-app-engine.md).
 
     1.  On the Choose data source page, select the **Base input table** field.
 
@@ -52,7 +53,7 @@ You must have the custom app record summarization skill activated to configure t
 
     5.  To add related data sources that you want included in summaries, such as related tables, select **+ New data source**, then select the additional data source from the list.
 
-        For more information about the kinds of data sources that Now Assist for App Engine can summarize, see [Custom app record summarization skill](../concept/custom-app-record-summarization-na-for-app-engine.md).
+        For more information about the kinds of data sources that Now Assist for App Engine can summarize, see [Custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/custom-app-record-summarization-na-for-app-engine.md).
 
     6.  To add additional tables for Now Assist for App Engine to summarize, select **+ New input table** and repeat the process in steps a through e to define the fields that you want to be included in the summary.
 
@@ -60,7 +61,7 @@ You must have the custom app record summarization skill activated to configure t
 
 8.  Test that the summaries Now Assist for App Engine generates are satisfactory.
 
-    **Important:** Each time that you test the output that Now Assist for App Engine generates, the operation counts as an assist that is tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    **Important:** Each time that you test the output that Now Assist for App Engine generates, the operation counts as an assist that is tracked by your Now Assist subscription. To track your Now Assist usage, see .
 
     1.  On the Test summary output page, in the **Base input table** field, select the table that you want to test from the list.
 
@@ -78,19 +79,19 @@ You must have the custom app record summarization skill activated to configure t
 
 9.  Define which users have access to the skill.
 
-    1.  To adjust which roles have access to the skill, select the edit icon \(![](../../creator-studio/image/crs-edit-pencil-icon-purple.png)\).
+    1.  To adjust which roles have access to the skill, select the edit icon \(\[Omitted image "crs-edit-pencil-icon-purple.png"\]\).
 
-    2.  Follow the instructions outlined in [Configure security controls for a skill](https://www.servicenow.com/docs/access?context=nask-access-control&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) to control who has access to the skill.
+    2.  Follow the instructions outlined in  to control who has access to the skill.
 
     3.  When finished, select **Save and continue**.
 
 10. Choose the display option that determines how users access the skill.
 
-    For more information about display options, see [Custom app record summarization skill](../concept/custom-app-record-summarization-na-for-app-engine.md).
+    For more information about display options, see [Custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/custom-app-record-summarization-na-for-app-engine.md).
 
-    1.  Select the toggle on icon \(![](../../../administer/form-builder/image/toggle-on.png)\) for the display option that you want to enable.
+    1.  Select the toggle on icon \(\[Omitted image "toggle-on.png"\] Alt text:\) for the display option that you want to enable.
 
-    2.  To enable access for certain roles, select the expand icon \(![](../image/na4ae-expand-icon.png)\) for the display option that you want to define access to.
+    2.  To enable access for certain roles, select the expand icon \(\[Omitted image "na4ae-expand-icon.png"\]\) for the display option that you want to define access to.
 
     3.  In the **user roles** field, enter the name of the group that you want to grant access to, then select the group from the list.
 
@@ -109,5 +110,5 @@ The custom app record summarization skill is now ready for use in the custom app
 
 ## What to do next
 
-To use the custom app record summarization skill, see [Using Now Assist for App Engine](../../app-engine-studio/concept/use-now-assist-for-app-engine-enterprise.md).
+To use the custom app record summarization skill, see [Using Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md).
 

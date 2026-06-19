@@ -2,6 +2,7 @@
 title: Train the similarity solution for similar knowledge articles
 description: Train the Similar Knowledge articles for UR solution definition to identify and predict knowledge articles using the short description. When an agent opens a universal request, similar knowledge articles are displayed in the Related Search section of the Universal Request record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-request-for-hr-service-delivery/train-similarity-for-articles-ur.html
 release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -31,8 +32,8 @@ Ensure that you have installed Predictive Intelligence \(com.glide.platform\_ml\
 
 3.  On the form, verify the default field values and customize the solution as required.
 
-    For more information about the Similarity Definition form fields, see [Create and train a similarity solution](https://www.servicenow.com/docs/access?context=create-similarity-solution&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+    For more information about the Similarity Definition form fields, see Create and train a similarity solution.
 
 
-**Parent Topic:**[Predictive Intelligence for Universal Request](../concept/predictive-intelligence-ur.md)
+**Parent Topic:**[Predictive Intelligence for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/predictive-intelligence-ur.md)
 

@@ -2,6 +2,7 @@
 title: Configure an appointment booking record producer
 description: Configure an appointment booking record producer and enable the appointment booking variable set to display the correct fields in that record producer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/appt-booking-config-record-producer.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -23,7 +24,7 @@ Role required: appointment\_booking\_admin, admin
 
 ## About this task
 
-A record producer is a specific type of catalog item that creates task-based records, such as appointment records, from the service catalog. Appointment booking supports both work order and task extended tables. You can use record producers to create the required task records before creating any appointment record. For more information, see [Record Producer](https://www.servicenow.com/docs/access?context=c_RecordProducer&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+A record producer is a specific type of catalog item that creates task-based records, such as appointment records, from the service catalog. Appointment booking supports both work order and task extended tables. You can use record producers to create the required task records before creating any appointment record. For more information, see .
 
 The variable set **sn\_appointment\_variable\_set** adds Calendar component to the catalog and record producer.
 

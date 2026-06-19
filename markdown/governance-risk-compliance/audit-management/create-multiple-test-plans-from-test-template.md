@@ -2,6 +2,7 @@
 title: Create multiple test plans from a test template
 description: If GRC: Policy and Compliance Management is installed, a test template can be used to create test plans for all the controls associated with the control objective of the test plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/create-multiple-test-plans-from-test-template.html
 release: zurich
 product: Audit Management
 classification: audit-management
@@ -30,5 +31,5 @@ Role required: sn\_audit.manager or sn\_audit.admin
     **Note:** This link is only visible if there are controls associated with the test plan's control objective that have not yet had a test plan generated from the current test template.
 
 
-**Parent Topic:**[Manage test templates and test plans](../concept/c_AuditTesting.md)
+**Parent Topic:**[Manage test templates and test plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/c_AuditTesting.md)
 

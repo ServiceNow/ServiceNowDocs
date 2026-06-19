@@ -2,6 +2,7 @@
 title: View live CI data logs
 description: View CI logs to receive additional details on an incident when viewing live CI data. For example, viewing log information for a process with high CPU usage can help you pinpoint when the usage went up, helping you determine the root cause of the issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-live-ci-view-logs.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -25,7 +26,7 @@ Role required: itil
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the Lists icon \(![Lists icon](../image/lists-icon.png)\).
+2.  Select the Lists icon \(\[Omitted image "lists-icon.png"\] Alt text: Lists icon\).
 
 3.  Select **Incidents** &gt; **All**.
 
@@ -35,7 +36,7 @@ Role required: itil
 
 6.  Select the **Logs** link on the right side of the pane.
 
-    ![Logs link on Live CI data tab](../image/live-ci-data-logs.png "Logs link")
+    \[Omitted image "live-ci-data-logs.png"\] Alt text: Logs link on Live CI data tab
 
     **Note:** The **data last refreshed** value follows the instance time zone and not your local system time zone. Therefore, ensure that your local system time zone matches the instance time zone.
 

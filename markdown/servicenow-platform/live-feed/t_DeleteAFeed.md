@@ -2,6 +2,7 @@
 title: Delete a feed
 description: If you are a feed administrator, you can delete the feed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/live-feed/t\_DeleteAFeed.html
 release: zurich
 product: Live Feed
 classification: live-feed
@@ -32,5 +33,5 @@ Role required: none
     The feed is deleted from Live Feed. Messages posted to a private feed are deleted. Messages posted to a public feed remain on the Company Feed without a feed link.
 
 
-**Parent Topic:**[Use feeds in Live Feed](../concept/c_UseFeedsInLiveFeed.md)
+**Parent Topic:**[Use feeds in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/live-feed/c_UseFeedsInLiveFeed.md)
 

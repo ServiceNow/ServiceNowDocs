@@ -2,6 +2,7 @@
 title: Transaction Manager use case: Apply parent line discounts to child lines
 description: Transaction Manager can help manage transactions whose configurable products have many child and grandchild transaction line items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/transaction-manager-use-case-apply-parent-line-discounts-to-child-lines.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,11 +22,11 @@ Discounting at the transaction header level could apply a uniform discount acros
 
 Using the `.parent` system field enables the look up of a parent line-item field, which can then be applied to only the child lines of that product. For example, a picklist can be used at the header level to designate the discounting method to apply.
 
-![Discounting at the transaction header](../images/cpq-txn-mgr-use-case-apply-line-discounts-1.png)
+\[Omitted image "cpq-txn-mgr-use-case-apply-line-discounts-1.png"\] Alt text: Discounting at the transaction header
 
 When “Parent Line Discounting” is selected, a rule is executed that sets the descendant line’s discount field equal to that of its parent line.
 
-![Discounting at the transaction header](../images/cpq-txn-mgr-use-case-apply-line-discounts-2.png)
+\[Omitted image "cpq-txn-mgr-use-case-apply-line-discounts-2.png"\] Alt text: Discounting at the transaction header
 
-**Parent Topic:**[Transaction Manager: Use cases](transaction-manager-use-cases.md)
+**Parent Topic:**[Transaction Manager: Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/transaction-manager-use-cases.md)
 

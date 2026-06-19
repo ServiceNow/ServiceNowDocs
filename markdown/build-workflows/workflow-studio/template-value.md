@@ -2,6 +2,7 @@
 title: Create a template value input
 description: Enable flow authors to set field values for a record being created or updated. Use a template value input to set different field values each time you add an action or subflow to a flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/template-value.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -41,7 +42,7 @@ When creating or updating a record in a subflow action or action step, you can s
 
         Use the tables icon to select the table containing the record you will create or update. For example, if you are adding a Create Catalog Task action in a subflow, set the Type to Template Value.Catalog Task \[sc\_task\].
 
-        ![Template value option with option to select table](../images/template-value-tables.png)
+        \[Omitted image "template-value-tables.png"\] Alt text: Template value option with option to select table
 
 3.  Add an action step or action that will use the template value.
 
@@ -60,5 +61,5 @@ When creating or updating a record in a subflow action or action step, you can s
 
 When the subflow or action is added to a flow, a flow author can set field values for the record being created or updated.
 
-**Parent Topic:**[Building subflows](../concept/subflows.md)
+**Parent Topic:**[Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/subflows.md)
 

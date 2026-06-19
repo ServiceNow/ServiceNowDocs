@@ -2,6 +2,7 @@
 title: Review arbitration response
 description: Review the arbitration response received from Mastercard and proceed to resolve the dispute. This step occurs in the Mastercard dispute process when you’ve escalated from pre‑arbitration to arbitration or skipped pre‑arbitration and moved directly into arbitration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/review-arbitration-response-mc.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -19,7 +20,7 @@ Review the arbitration response received from Mastercard and proceed to resolve 
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector.
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -34,7 +35,7 @@ Review the ruling from Mastercard and choose whether to resolve the dispute or t
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -60,15 +61,15 @@ Review the ruling from Mastercard and choose whether to resolve the dispute or t
 
 11. In the **Response outcome** field, select one of the following options.
 
-<table id="choicetable_p21_t5l_wfc"><thead><tr><th align="left" id="d39950e269">
+<table id="choicetable_p21_t5l_wfc"><thead><tr><th align="left" id="d37695e269">
 
 Selection
 
-</th><th align="left" id="d39950e272">
+</th><th align="left" id="d37695e272">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d39950e278">
+</th></tr></thead><tbody><tr><td id="d37695e278">
 
 **Unresolved**
 
@@ -76,9 +77,9 @@ Result
 
 Select this option if you are not happy with the arbitration response from Mastercard. The next task is displayed based on Financial adjustments 2.
 
-For more information about Financial adjustments, see [About Financial adjustments in Mastercard disputes](../concept/financial-adjustments.md).
+For more information about Financial adjustments, see [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/financial-adjustments.md).
 
-</td></tr><tr><td id="d39950e303">
+</td></tr><tr><td id="d37695e303">
 
 **Resolved**
 
@@ -96,5 +97,5 @@ Select this option if you’re satisfied with the arbitration response and close
 
 The task is marked to closure.
 
-**Parent Topic:**[Chargeback in Mastercard transaction disputes](../concept/chargeback-stage-mastercard.md)
+**Parent Topic:**[Chargeback in Mastercard transaction disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/chargeback-stage-mastercard.md)
 

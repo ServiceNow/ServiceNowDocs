@@ -2,6 +2,7 @@
 title: Create or modify an appointment booking slot recommendation rule
 description: Create modify a appointment booking slot recommendation rules to categorize the appointment booking slots into recommended slots and available slots.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/create-or-modify-an-appointment-booking-slot-recommendation-rule.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -58,5 +59,5 @@ The slot recommendation rule is created or modified.
 
 ## What to do next
 
-Add one or more selection criteria for the determination rule. For more information, see [Add selection criteria for an appointment slot recommendation rule](add-selection-criteria-for-an-appointment-slot-recommendation-rule.md).
+Add one or more selection criteria for the determination rule. For more information, see [Add selection criteria for an appointment slot recommendation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/add-selection-criteria-for-an-appointment-slot-recommendation-rule.md).
 

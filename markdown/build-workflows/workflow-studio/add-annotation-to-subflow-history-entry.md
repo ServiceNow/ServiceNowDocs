@@ -2,6 +2,7 @@
 title: Add an annotation to a subflow history entry
 description: Add a text description to a subflow's flow history entry. Summarize the purpose or contents of a particular flow history entry.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/add-annotation-to-subflow-history-entry.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -39,20 +40,20 @@ Annotations are only visible from the sidebar History view.
 
 7.  From More actions menu, select **Add annotation**.
 
-    ![Add annotation menu item](../images/subflow-history-add-annotation-01.png)
+    \[Omitted image "subflow-history-add-annotation-01.png"\] Alt text: Add annotation menu item
 
 8.  In the text box, enter the text of the annotation.
 
-    ![Sample annotation reading Wait 3 days then close incident](../images/subflow-history-add-annotation-02.png)
+    \[Omitted image "subflow-history-add-annotation-02.png"\] Alt text: Sample annotation reading Wait 3 days then close incident
 
 9.  Press Enter to save the annotation.
 
-    ![Subflow's flow history entry with annotation](../images/subflow-history-add-annotation-03.png)
+    \[Omitted image "subflow-history-add-annotation-03.png"\] Alt text: Subflow's flow history entry with annotation
 
 
 ## What to do next
 
 You can change the annotation using the **Modify annotation** option.
 
-**Parent Topic:**[Subflow history](../concept/subflow-history.md)
+**Parent Topic:**[Subflow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/subflow-history.md)
 

@@ -2,6 +2,7 @@
 title: Install Now Assist Data Kit
 description: Install Now Assist Data Kit to create datasets for a data collection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-data-kit/install-na-data-kit.html
 release: zurich
 product: Now Assist Data Kit
 classification: now-assist-data-kit

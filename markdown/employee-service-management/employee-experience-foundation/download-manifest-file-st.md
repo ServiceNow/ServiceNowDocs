@@ -2,6 +2,7 @@
 title: Create and download the manifest file for self-configured apps
 description: Create and download the ServiceNow for Microsoft Teams manifest file from your instance to enable Microsoft Teams to use the ServiceNow for Teams app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/download-manifest-file-st.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,13 +22,13 @@ Role required: external\_app\_install\_admin
 
 ## About this task
 
-You can connect multiple ServiceNow instances to one Microsoft Teams tenant. For more information, see [Integrating multiple ServiceNow instances with a single Microsoft Teams tenant](https://www.servicenow.com/docs/access?context=va-integ-single-teams&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+You can connect multiple ServiceNow instances to one Microsoft Teams tenant. For more information, see .
 
 Multiple self-configured app environments can be connected to the Microsoft Teams tenant as you can create separate Azure apps for each self-configured app environment.
 
-This process is for configuring a Microsoft Teams manifest file, which dictates how an application would behave in Microsoft Teams. For information about the manifest generation provided by ITSM/HR, see [Auto-generate the manifest file for uploading on Microsoft Teams](https://www.servicenow.com/docs/access?context=generate-manifest-file-msteams&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US), which includes more available configurations.
+This process is for configuring a Microsoft Teams manifest file, which dictates how an application would behave in Microsoft Teams. For information about the manifest generation provided by ITSM/HR, see , which includes more available configurations.
 
-**Note:** You can only connect one pre-published app setup to the Microsoft Teams tenant. For information about creating a manifest file for pre-published apps, see [Create and download the manifest file for pre-published apps](download-manifest-file-mt.md).
+**Note:** You can only connect one pre-published app setup to the Microsoft Teams tenant. For information about creating a manifest file for pre-published apps, see [Create and download the manifest file for pre-published apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/download-manifest-file-mt.md).
 
 ## Procedure
 
@@ -77,7 +78,7 @@ Unfurl Links
 
 </td><td>
 
-Option to unfurl the links in Microsoft Teams.Link unfurling generates a content-rich preview\(adaptive card\) when a supported link is shared in a conversation with a user in Microsoft Teams. For more details about link unfurling, refer [Unfurl the web links in Microsoft Teams chat](../concept/enable-link-unfurling.md).
+Option to unfurl the links in Microsoft Teams.Link unfurling generates a content-rich preview\(adaptive card\) when a supported link is shared in a conversation with a user in Microsoft Teams. For more details about link unfurling, refer [Unfurl the web links in Microsoft Teams chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/enable-link-unfurling.md).
 
 </td></tr><tr><td>
 
@@ -116,19 +117,19 @@ Option to use the default images for branding.**Note:** If you want to customize
 
 5.  Select **Next**.
 
-    ![Next option in Generic Info tab](../images/next-tab.png)
+    \[Omitted image "next-tab.png"\] Alt text: Next option in Generic Info tab
 
     The **Configure Virtual Agent** section opens
 
 6.  In the **Configure Virtual Agent** section, select either of the following options.
 
-    -   Select **Connect a single ServiceNow instance to your Microsoft Teams Tenant** to connect one ServiceNow instance to a Microsoft Teams tenant. The Virtual Agent Bot ID is auto-populated when you select this option. This is applicable for pre-published apps. For more information, see [Create and download the manifest file for pre-published apps](download-manifest-file-mt.md).
+    -   Select **Connect a single ServiceNow instance to your Microsoft Teams Tenant** to connect one ServiceNow instance to a Microsoft Teams tenant. The Virtual Agent Bot ID is auto-populated when you select this option. This is applicable for pre-published apps. For more information, see [Create and download the manifest file for pre-published apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/download-manifest-file-mt.md).
     -   Select **Connect multiple ServiceNow instances to your Microsoft Teams tenant** to connect multiple ServiceNow instances to one Microsoft Teams tenant.
-    ![Configure Virtual Agent tab](../images/configure-va-tab.png)
+    \[Omitted image "configure-va-tab.png"\] Alt text: Configure Virtual Agent tab
 
-    To configure the Virtual Agent in your instance, select **Configure Virtual Agent**. For more information, see [Conversational Integration with Microsoft Teams](https://www.servicenow.com/docs/access?context=teams-conv-integration&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+    To configure the Virtual Agent in your instance, select **Configure Virtual Agent**. For more information, see Conversational Integration with Microsoft Teams.
 
-    To integrate Virtual Agent with Microsoft Teams by configuring your own bots, see [Integrating Virtual Agent with Microsoft Teams using the self-configured bot](https://www.servicenow.com/docs/access?context=va-integ-teams-self-configured-bot&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+    To integrate Virtual Agent with Microsoft Teams by configuring your own bots, see Integrating Virtual Agent with Microsoft Teams using the self-configured bot.
 
 7.  In the **Configure Tab** section, fill in the fields.
 
@@ -142,7 +143,7 @@ Option to use the default images for branding.**Note:** If you want to customize
 
     For a self-configured app, you must provide the Application \(client\) ID and Directory \(tenant\) ID in the **Configure Tab** section. The Tenant ID and Client ID \(App ID\) can be fetched from the Azure portal.
 
-    ![self-configured app options](../images/single-tenant-configure-tab2.png)
+    \[Omitted image "single-tenant-configure-tab2.png"\] Alt text: self-configured app options
 
 8.  Select **Next**.
 
@@ -160,14 +161,14 @@ Option to use the default images for branding.**Note:** If you want to customize
 
 11. Verify the details provided and select **Download Manifest**.
 
-    ![Manifest file](../images/manifest-ready-state-st.png)
+    \[Omitted image "manifest-ready-state-st.png"\] Alt text: Manifest file
 
     The manifest file is downloaded in the zip format and an application registry is created.
 
 
 ## What to do next
 
-You must upload the manifest file in Microsoft Teams. For more information, refer [Upload manifest file in Microsoft Teams](upload-manifest-ms-teams.md).
+You must upload the manifest file in Microsoft Teams. For more information, refer [Upload manifest file in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/upload-manifest-ms-teams.md).
 
-**Parent Topic:**[Setup for integrating self-configured apps with Microsoft Teams for Employee Experience](../concept/c_employee_ex_s_tnt.md)
+**Parent Topic:**[Setup for integrating self-configured apps with Microsoft Teams for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/c_employee_ex_s_tnt.md)
 

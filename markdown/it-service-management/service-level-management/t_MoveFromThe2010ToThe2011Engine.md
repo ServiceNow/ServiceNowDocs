@@ -2,6 +2,7 @@
 title: Upgrade SLA to 2011 engine
 description: You can upgrade SLA processing to use the 2011 Engine.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-level-management/t\_MoveFromThe2010ToThe2011Engine.html
 release: zurich
 product: Service Level Management
 classification: service-level-management
@@ -37,10 +38,10 @@ To enable the new functionality:
 
 2.  Change the following property from 2010 to 2011:
 
-    ![Changing the property from 2010 to 2011](../image/SLAConditionEnable.png)
+    \[Omitted image "SLAConditionEnable.png"\] Alt text: Changing the property from 2010 to 2011
 
     By default, the 2011 Engine sets the **Stage** field to **In Progress**, shaded red to indicate the breached status, and sets the **Has Breached** field to true. The SLA continues to run until the stop conditions are met.
 
 
-**Parent Topic:**[Service Level Agreement \(Legacy\) engines](../concept/c_GetStartedWithSLAs.md)
+**Parent Topic:**[Service Level Agreement \(Legacy\) engines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-level-management/c_GetStartedWithSLAs.md)
 

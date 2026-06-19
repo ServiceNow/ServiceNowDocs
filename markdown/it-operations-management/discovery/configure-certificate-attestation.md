@@ -2,6 +2,7 @@
 title: Configure a certificate attestation review
 description: Send out emails to all certificate owners confirming their ownership or confirming they're no longer certificate owners at set intervals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/configure-certificate-attestation.html
 release: zurich
 product: Discovery
 classification: discovery

@@ -2,6 +2,7 @@
 title: Data migrated from demands to Enterprise Agile Planning \(EAP\) entities
 description: Data fields are migrated from a demand to an EAP entity when the entity is created from the demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/data-migrated-from-demands-to-eap-dw.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning

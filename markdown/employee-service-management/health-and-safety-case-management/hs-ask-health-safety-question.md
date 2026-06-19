@@ -2,6 +2,7 @@
 title: Ask a Health and Safety question from Employee Center
 description: Ask a health and safety question from the safety department to request information such as health and safety procedures, training, or return to work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-case-management/hs-ask-health-safety-question.html
 release: zurich
 product: Health and Safety Case Management
 classification: health-and-safety-case-management
@@ -35,7 +36,7 @@ Employees can also submit safety related questions from their mobile device usin
 
     2.  Add a related safety incident, if any.
 
-4.  If necessary, attach an image related to your question using the add attachments icon \(![Add attachment icon.](../../ohs-incident-management/image/icon-add-attachment.png)\).
+4.  If necessary, attach an image related to your question using the add attachments icon \(\[Omitted image "icon-add-attachment.png"\] Alt text: Add attachment icon.\).
 
 5.  Select **Submit**.
 
@@ -46,7 +47,7 @@ Employees can also submit safety related questions from their mobile device usin
 
     **Note:** If you selected someone else in the **Requested For** field to submit this question for, the case won't appear in your **My Requests** list. Instead, it appears in the **My Requests** list of the person you selected.
 
--   The safety case is also listed in the Cases list on Health and Safety Workspace. A safety case manager \[sn\_hs\_cm.case\_manager\] can view all the filed questions and requests by navigating to the Health and Safety Workspace and selecting the cases icon \(![Health and safety cases icon.](../image/icon-hs-cases.png)\). For more information, see [Work on a Health and Safety case](hs-work-health-safety-case.md).
+-   The safety case is also listed in the Cases list on Health and Safety Workspace. A safety case manager \[sn\_hs\_cm.case\_manager\] can view all the filed questions and requests by navigating to the Health and Safety Workspace and selecting the cases icon \(\[Omitted image "icon-hs-cases.png"\] Alt text: Health and safety cases icon.\). For more information, see [Work on a Health and Safety case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-case-management/hs-work-health-safety-case.md).
 
-**Parent Topic:**[Submitting Health and Safety cases](../concept/hs-submitting-health-safety-cases.md)
+**Parent Topic:**[Submitting Health and Safety cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-case-management/hs-submitting-health-safety-cases.md)
 

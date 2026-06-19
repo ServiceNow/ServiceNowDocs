@@ -2,6 +2,7 @@
 title: Team details page
 description: The Team details page provides your organizational leaders with visibility into the skills and talent composition of a team that exists within the leader's organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/td-lh-team-details.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -63,7 +64,7 @@ Range of years spent at the company
 Widget reflects a distribution of team members by tenure at the company. Administrators can configure the following components for the data that appears in this widget:-   Up to six segments
 -   The time range for each segment
 
-**Tip:** For more information about the configuration process, see [Configure time range data in tenure widgets](../task/td-lh-configure-tenure-widgets.md).
+**Tip:** For more information about the configuration process, see [Configure time range data in tenure widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/td-lh-configure-tenure-widgets.md).
 
 The following time ranges are provided by default:
 
@@ -83,7 +84,7 @@ Time spent in current positions
 Widget reflects a distribution of team members by tenure in their current position. Administrators can configure the following components for the data that appears in this widget:-   Up to six segments
 -   The time range for each segment
 
-**Tip:** For more information about the configuration process, see [Configure time range data in tenure widgets](../task/td-lh-configure-tenure-widgets.md).
+**Tip:** For more information about the configuration process, see [Configure time range data in tenure widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/td-lh-configure-tenure-widgets.md).
 
 The following time ranges are provided by default:
 

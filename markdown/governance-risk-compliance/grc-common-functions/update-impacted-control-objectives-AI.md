@@ -1,26 +1,27 @@
 ---
-title: Use the control objective change agent to update control objectives
-description: Use the control objective change agent to review and update impacted Control Objectives based on the latest citation details. Users can interact with the Now Assist panel to review and finalize the updates.
+title: Use Control Objective Change Agent to update control objectives
+description: Use the Control Objective Change Agent to review and update impacted Control Objectives based on latest citation details. Users can interact with the Now Assist panel to review and finalize the updates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/update-impacted-control-objectives-AI.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-11-19"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Update impacted control objectives, Now Assist panel, Control Objective Change Agent, AI agent]
 breadcrumb: [AI agents in Now Assist for IRM, Use agentic AI, Now Assist, Common GRC features, Governance, Risk, and Compliance]
 ---
 
-# Use the control objective change agent to update control objectives
+# Use Control Objective Change Agent to update control objectives
 
-Use the control objective change agent to review and update impacted Control Objectives based on the latest citation details. Users can interact with the Now Assist panel to review and finalize the updates.
+Use the Control Objective Change Agent to review and update impacted Control Objectives based on latest citation details. Users can interact with the Now Assist panel to review and finalize the updates.
 
 ## Before you begin
 
 Role required: sn\_grc\_sharegenai.compliance\_library\_aiagent\_user
 
-Ensure that you also have Corporate Compliance Manager access for Compliance Workspace.
+Ensure you also have Corporate Compliance Manager access for Compliance Workspace.
 
 Confirm that the control objective is active.
 
@@ -28,7 +29,7 @@ Confirm that the control objective is active.
 
 1.  Navigate to **Workspaces** &gt; **Compliance Workspace**.
 
-2.  Select the List icon ![](../../grc-compliance-case-mgmt/image/list-icon.png).
+2.  Select the List icon \(\[Omitted image "list-icon.png"\]\).
 
 3.  Select **Compliance change recommendations** &gt; **Control objectives**.
 

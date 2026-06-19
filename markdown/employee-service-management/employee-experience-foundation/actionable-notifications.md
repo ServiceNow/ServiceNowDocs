@@ -2,6 +2,7 @@
 title: Approve or reject requests from Microsoft Teams
 description: Approve or reject requests by using the approval notification in Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/actionable-notifications.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,7 +18,7 @@ Approve or reject requests by using the approval notification in Microsoft Teams
 
 ## Before you begin
 
-For information about configuring approval notifications, see [Approvals hub](../../employee-center/concept/approval-hub-intro.md).
+For information about configuring approval notifications, see [Approvals hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/approval-hub-intro.md).
 
 Role required: user
 
@@ -33,7 +34,7 @@ Role required: user
     -   Change Request
 4.  Select a notification to view the details.
 
-    ![Approve or reject notification](../images/approve-reject-notification.png)
+    \[Omitted image "approve-reject-notification.png"\] Alt text: Approve or reject notification
 
 5.  Select **View details** to view the complete details of the ticket.
 
@@ -42,5 +43,5 @@ Role required: user
 7.  Select either **Approve** or **Reject** to update the request.
 
 
-**Parent Topic:**[Employee actions](../concept/employee-sn-ms-teams.md)
+**Parent Topic:**[Employee actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-sn-ms-teams.md)
 

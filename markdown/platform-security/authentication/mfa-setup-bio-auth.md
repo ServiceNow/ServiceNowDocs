@@ -2,6 +2,7 @@
 title: Register a biometric authenticator
 description: Register a biometric authenticator to use as part of your MFA login.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/mfa-setup-bio-auth.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -29,17 +30,17 @@ Role required: none
 
 3.  Click **Register biometric authentication**.
 
-    ![MFA Authenticators](../images/mfa-authenticator.png)
+    \[Omitted image "mfa-authenticator.png"\] Alt text: MFA Authenticators
 
 4.  Enter a nickname for your authenticator and click **Register**.
 
-    ![MFA Biometric setup](../images/mfa-biometric.png)
+    \[Omitted image "mfa-biometric.png"\] Alt text: MFA Biometric setup
 
 5.  When prompted, follow the instructions on the screen to authenticate with your biometric authenticator.
 
     This message will vary based on your specific authenticator.
 
-    ![Request for biometric authentication](../images/bio-request.png "Example of a biometric authentication request")
+    \[Omitted image "bio-request.png"\] Alt text: Request for biometric authentication
 
     After authenticating successfully, you see a confirmation window. Click X to close the confirmation.
 

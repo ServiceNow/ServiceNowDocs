@@ -2,6 +2,7 @@
 title: Set up Conversational Integration with WhatsApp \(WhatsApp Cloud API\)
 description: Set up the Conversational Integration with WhatsApp \(WhatsApp Cloud API\) application so that you can engage requesters in bot conversations. Integrating with ServiceNowVirtual Agent enables you to interact on WhatsApp chat with a Virtual Agent or Live Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/messg-direct-whatsapp-setup.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent

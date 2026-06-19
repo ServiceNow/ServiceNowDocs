@@ -2,6 +2,7 @@
 title: Configuration Compliance criticality maps
 description: Configuration Compliance criticality mapping transforms criticality fields from the source to fields in Configuration Compliance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/vuln-config-compl-critmaps.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance

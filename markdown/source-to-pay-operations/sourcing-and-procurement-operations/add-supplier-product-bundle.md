@@ -2,13 +2,14 @@
 title: Add a supplier product bundle
 description: Add a supplier product bundle, which may include several products or services from the same supplier. You can also add sub-bundles to the main bundle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/add-supplier-product-bundle.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Setting up your product catalog, Setting up primary data for Shopping Hub, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Setting up your product catalog, Setting up primary data Shopping, Configure Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Add a supplier product bundle
@@ -17,7 +18,7 @@ Add a supplier product bundle, which may include several products or services fr
 
 ## Before you begin
 
-A bundled model is a single model comprised of individual models. For example, a laptop, printer, keyboard, and mouse can be combined into a single bundled model. For this bundled model to appear in the Shopping Hub portal, you have to create a supplier product for the same. Once the supplier product is created and published, it will be available for purchase in Shopping Hub. For more information on how to create bundled models, see [Bundled models](https://www.servicenow.com/docs/bundle/washingtondc-it-asset-management/page/product/product-catalog/concept/c_CreatingBundledModels.html).
+A bundled model is a single model comprised of individual models. For example, a laptop, printer, keyboard, and mouse can be combined into a single bundled model. For this bundled model to appear in the Shopping Hub portal, you have to create a supplier product for the same. Once the supplier product is created and published, it will be available for purchase in Shopping Hub. For more information on how to create bundled models, see Bundled models.
 
 Role required: sn\_shop.shopping\_hub\_admin or sn\_shop.procurement\_administrator
 
@@ -37,7 +38,7 @@ You can add a supplier product bundle and choose to publish it on the Shopping H
 
 3.  On the form, fill in the fields.
 
-    For more information, see [Add a supplier product](add-supplier-product.md).
+    For more information, see [Add a supplier product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/add-supplier-product.md).
 
     **Note:** For creating a product bundle, enter the product model of type bundle in the **Product model** field.
 
@@ -59,5 +60,5 @@ You can add a supplier product bundle and choose to publish it on the Shopping H
 
 Use the related lists of the supplier product form to view the pricing, purchase order lines, product visuals, and ledger assignment rules that are associated with this supplier product bundle.
 
-**Parent Topic:**[Setting up your product catalog](create-product-catalogue.md)
+**Parent Topic:**[Setting up your product catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-product-catalogue.md)
 

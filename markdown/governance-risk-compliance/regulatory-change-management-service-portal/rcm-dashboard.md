@@ -2,6 +2,7 @@
 title: Regulatory Change Management dashboard
 description: The  Regulatory Change Management dashboard provides the current view of the regulatory landscape.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/regulatory-change-management-service-portal/rcm-dashboard.html
 release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -17,7 +18,7 @@ The  Regulatory Change Management dashboard provides the current view of the re
 
 **Note:** The Overview Dashboard in the Classic UI is no longer available from the Zurich release.
 
-![Regulatory Change Management dashboard](../image/rcm-overview-dashboard.png "Regulatory Change Management dashboard")
+\[Omitted image "rcm-overview-dashboard.png"\] Alt text: Regulatory Change Management dashboard
 
 ## Overview of regulatory changes
 
@@ -39,5 +40,5 @@ The Overview page provides a summary of the regulatory events and tasks, such as
 -   Action Tasks: Groups and stacks the action tasks by the State and Priority fields
 -   Regulatory Change Tasks by Due Date: Displays a report of the regulatory change tasks
 
-**Parent Topic:**[Regulatory Change Management Core UI](using-rcm-classic-ui.md)
+**Parent Topic:**[Regulatory Change Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/using-rcm-classic-ui.md)
 

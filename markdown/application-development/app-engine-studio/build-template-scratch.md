@@ -2,6 +2,7 @@
 title: Build a custom template from scratch
 description: Build your custom template from scratch if none of the predefined App Engine Studio \(AES\) templates fit your business needs or you don't have an existing application as a starting point.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/build-template-scratch.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -37,7 +38,7 @@ Role required: admin, app\_template\_author
 
 7.  Specify which users or groups should have access to this template.
 
-<table id="choicetable_m5y_2nz_5tb"><tbody><tr><td id="d241016e134">
+<table id="choicetable_m5y_2nz_5tb"><tbody><tr><td id="d114546e134">
 
 **Share with specific users and groups**
 
@@ -49,7 +50,7 @@ Role required: admin, app\_template\_author
 4.  Select **Continue**.
 
 
-</td></tr><tr><td id="d241016e170">
+</td></tr><tr><td id="d114546e170">
 
 **Share with all users and groups**
 
@@ -60,7 +61,7 @@ Role required: admin, app\_template\_author
 
 
 </td></tr></tbody>
-</table>    For more information about template sharing and permissions, see [App template sharing](../concept/app-template-sharing.md#).
+</table>    For more information about template sharing and permissions, see [App template sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-template-sharing.md).
 
 8.  On the template details screen, select **Go to template dashboard**.
 
@@ -68,16 +69,16 @@ Role required: admin, app\_template\_author
 
     For more information, see the following topics:
 
-    -   [Create a data model for your application](../concept/add-data.md)
-    -   [Add an application experience](../concept/add-experience.md)
-    -   [Add logic and automation](../concept/add-automation.md)
-    -   [Add application security](../concept/add-security.md)
+    -   [Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-data.md)
+    -   [Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-experience.md)
+    -   [Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-automation.md)
+    -   [Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-security.md)
 10. Select **Save**.
 
 
 ## What to do next
 
-Provide an overview of the custom template and activate the template to make it available to App Engine Studio users through the template library. For more information, see [Update custom template contents and properties](manage-custom-template.md).
+Provide an overview of the custom template and activate the template to make it available to App Engine Studio users through the template library. For more information, see [Update custom template contents and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/manage-custom-template.md).
 
-**Parent Topic:**[Build a custom template](../concept/build-custom-template.md)
+**Parent Topic:**[Build a custom template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/build-custom-template.md)
 

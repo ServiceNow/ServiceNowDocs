@@ -2,6 +2,7 @@
 title: Set rule-based finding definitions using Classic view
 description: Configure rule-based finding definitions to deliver discovered insights to your Summary and insights page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/configure-finding-definition.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -33,22 +34,22 @@ Configure rule-based finding definitions to deliver discovered insights to your 
 
 4.  On the form, fill in the fields.
 
-    For a description of the field values, see [Rule-based finding definition form from Classic view](../reference/finding-def-form.md).
+    For a description of the field values, see [Rule-based finding definition form from Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/finding-def-form.md).
 
 5.  Select **Submit**.
 
 
 ## What to do next
 
--   Create finding rules. For steps on this process see [Configure finding rules](configure-finding-rule.md).
--   Create finding constraints. For steps on this process, see [Configure finding constraints](configure-finding-constraint.md).
+-   Create finding rules. For steps on this process see [Configure finding rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/configure-finding-rule.md).
+-   Create finding constraints. For steps on this process, see [Configure finding constraints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/configure-finding-constraint.md).
 
--   **[Configure finding rules](configure-finding-rule.md)**  
+-   **[Configure finding rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/configure-finding-rule.md)**  
 Configure finding rules for your finding definition. Finding rules define what record criteria triggers your finding definitions.
--   **[Configure finding constraints](configure-finding-constraint.md)**  
+-   **[Configure finding constraints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/configure-finding-constraint.md)**  
 Configure finding constraints for your finding definition. In addition to finding rules, finding constraints further narrow down the scope of your finding definitions using metrics like duration and relation constraints.
--   **[Example use case: a-b-a transitions](aba-example.md)**  
+-   **[Example use case: a-b-a transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/aba-example.md)**  
 Use finding rules to identify when records return to a previous state.
 
-**Parent Topic:**[Setting improvement opportunities from Classic view](../concept/impr-opp-classic-project.md)
+**Parent Topic:**[Setting improvement opportunities from Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/impr-opp-classic-project.md)
 

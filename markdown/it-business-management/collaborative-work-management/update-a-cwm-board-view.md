@@ -2,6 +2,7 @@
 title: Update a CWM Board view
 description: Modify the display preferences of your Collaborative Work Management \(CWM\)Boards and update the existing personal or shared views.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/collaborative-work-management/update-a-cwm-board-view.html
 release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -27,19 +28,19 @@ Role required: sn\_cwm.cwm\_user
 
 3.  From the view switcher, select a view that you want to modify.
 
-    ![View switcher in CWM Board.](../images/cwm-views-switcher.png)
+    \[Omitted image "cwm-views-switcher.png"\] Alt text: View switcher in CWM Board.
 
 4.  Modify the display preferences of the Board data using the personalization settings, sorting, filtering, and adding custom columns.
 
-    For more information, see [Personalize List, Gantt and Kanban display for CWM Boards](personalize-cwm-board-views.md).
+    For more information, see [Personalize List, Gantt and Kanban display for CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/personalize-cwm-board-views.md).
 
 5.  Select **Save view**.
 
-    ![Save a CWM view.](../images/cwm-views-save-view.png)
+    \[Omitted image "cwm-views-save-view.png"\] Alt text: Save a CWM view.
 
 6.  Select **Save to current view**.
 
-    ![Save view dialog box.](../images/cwm-views-save-view-modal.png)
+    \[Omitted image "cwm-views-save-view-modal.png"\] Alt text: Save view dialog box.
 
     **Note:** If you select the **Don't show this again** checkbox, this dialog box doesn't appear the next time.
 
@@ -48,5 +49,5 @@ Role required: sn\_cwm.cwm\_user
 
 The current view is updated with the changes that you made.
 
-**Parent Topic:**[Board views in CWM](../concept/board-views-in-cwm.md)
+**Parent Topic:**[Board views in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/board-views-in-cwm.md)
 

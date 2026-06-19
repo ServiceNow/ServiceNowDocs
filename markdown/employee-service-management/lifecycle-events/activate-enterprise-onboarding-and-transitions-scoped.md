@@ -2,6 +2,7 @@
 title: Activate Lifecycle Events
 description: You can activate Human Resources Scoped App: Lifecycle Events \[com.sn\_hr\_lifecycle\_events\] if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/lifecycle-events/activate-enterprise-onboarding-and-transitions-scoped.html
 release: zurich
 product: Lifecycle Events
 classification: lifecycle-events
@@ -62,7 +63,7 @@ Provides Employee Center.
 
     To use Agent Workspace and Playbook with Lifecycle Events, you must request the Playbook plugin from the ServiceNow Store.
 
-    **Note:** For more information on requesting a ServiceNow Store plugin, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallApplications&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    **Note:** For more information on requesting a ServiceNow Store plugin, see Install a ServiceNow Store application.
 
 
 ## Procedure
@@ -77,13 +78,13 @@ Provides Employee Center.
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
--   **[Lifecycle event script includes and APIs](../concept/LEScriptIncludes.md)**  
+-   **[Lifecycle event script includes and APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/LEScriptIncludes.md)**  
 Script includes call workflows within Lifecycle Events.
--   **[Lifecycle Events workflows](../concept/LEWorkflow.md)**  
+-   **[Lifecycle Events workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/LEWorkflow.md)**  
 The **HR Activity Set Launcher** workflow drives the entire lifecycle event process. Associated workflows drive each of the activity sets within a lifecycle event.
 
-**Parent Topic:**[Configuring Lifecycle Events](../concept/configuring-lifecycle-events.md)
+**Parent Topic:**[Configuring Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/configuring-lifecycle-events.md)
 

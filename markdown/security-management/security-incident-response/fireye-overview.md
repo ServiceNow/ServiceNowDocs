@@ -2,6 +2,7 @@
 title: FireEye Endpoint Security integration
 description: FireEye Endpoint Security \(HX series\) helps organizations to inspect and analyze which contains known and unknown threats on any endpoint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/fireye-overview.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

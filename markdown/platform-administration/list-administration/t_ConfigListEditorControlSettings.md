@@ -2,6 +2,7 @@
 title: Configure list control settings for the list editor
 description: You can configure the list control settings that affect the list editor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/list-administration/t\_ConfigListEditorControlSettings.html
 release: zurich
 product: List Administration
 classification: list-administration
@@ -21,7 +22,7 @@ Role required: personalize\_control
 
 ## About this task
 
-[List control settings](t_ConfigureListControls.md#) customize the behavior of list functions for a table.
+[List control settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/list-administration/t_ConfigureListControls.md) customize the behavior of list functions for a table.
 
 ## Procedure
 
@@ -46,7 +47,7 @@ List edit type
 </td><td>
 
 Ability for the user to edit values directly in individual cells in a list. The options are: -   **Save immediately \(cell edit mode\):** enables cell editing. The entire row is saved when the user enters a new value.
--   **Save data by rows:** enables cell editing. The row is saved only when the user navigates away from the row or selects the **Save** icon \(![Save icon](../image/IconSave.png)\). This mode allows the user to modify multiple values before saving a record.
+-   **Save data by rows:** enables cell editing. The row is saved only when the user navigates away from the row or selects the **Save** icon \(\[Omitted image "IconSave.png"\] Alt text: Save icon\). This mode allows the user to modify multiple values before saving a record.
 -   **Disable list editing:** prevents users from editing cells in the list.
  This field is available for standard lists only.
 
@@ -56,7 +57,7 @@ List edit insert row
 
 </td><td>
 
-Ability for a user to create records in list view. When it is enabled, an empty row appears at the bottom of the list.![Insert a new row](../image/InsertANewRow.png)
+Ability for a user to create records in list view. When it is enabled, an empty row appears at the bottom of the list.\[Omitted image "InsertANewRow.png"\] Alt text: Insert a new row
 
  This field is available for standard lists only.
 

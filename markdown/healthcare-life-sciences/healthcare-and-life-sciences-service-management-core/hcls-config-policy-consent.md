@@ -2,6 +2,7 @@
 title: Configure a privacy policy for managing patient consent
 description: Configure a privacy policy for effectively managing patient and member consent to a healthcare request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-policy-consent.html
 release: zurich
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -45,7 +46,7 @@ Alpha-numeric profile identifier of the policy.
 
  The value is auto-generated and is incremented every time you add a new policy to your ServiceNow instance. The initial value for the **Number** field is POL00001000.
 
-**Note:** To customize the number, define the auto-numbering format for the Policy \[sn\_hcls\_policy\] table. For more information, see [Add auto-numbering records in a table](https://www.servicenow.com/docs/access?context=t_AutoNumberingRecordsInATable&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** To customize the number, define the auto-numbering format for the Policy \[sn\_hcls\_policy\] table. For more information, see Add auto-numbering records in a table.
 
 </td></tr><tr><td>
 
@@ -102,11 +103,11 @@ Document template
 
 Document template to generate standard letters or documents associated with the policy.
 
- This field is used only when the [Policy type](hcls-config-policy-consent.md#policy_type) field is set to **Document template**.
+ This field is used only when the [Policy type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-policy-consent.md) field is set to **Document template**.
 
  **Note:** You can associate only one active policy with a document template.
 
- For more information, see [Configure document templates for Healthcare and Life Sciences Service Management Core](../concept/hcls-config-doc-templates.md).
+ For more information, see [Configure document templates for Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-doc-templates.md).
 
 </td></tr><tr><td>
 

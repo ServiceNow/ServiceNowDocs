@@ -2,13 +2,14 @@
 title: Create project funding form
 description: The project funding form information is used to create a project funding budget for the demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/demand-budget-form-dw.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
 last_updated: "2026-01-19"
 reading_time_minutes: 1
-breadcrumb: [Form field information, Reference, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Forms, Reference, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Create project funding form

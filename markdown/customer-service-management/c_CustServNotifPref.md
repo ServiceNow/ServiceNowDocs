@@ -2,7 +2,10 @@
 title: Customer notification preferences
 description: Customers can set preferences for email notifications.Customers can set preferences for email notifications that are sent when customer service agents perform different actions on cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/c\_CustServNotifPref.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -52,6 +55,6 @@ Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin
     -   Case assigned to a new group
     -   Case opened for customer
     -   Case resolved for customer
-    For details about notifications and creating new notifications, see [Send Notification action](https://www.servicenow.com/docs/access?context=send-notification-action&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+    For details about notifications and creating new notifications, see .
 
 

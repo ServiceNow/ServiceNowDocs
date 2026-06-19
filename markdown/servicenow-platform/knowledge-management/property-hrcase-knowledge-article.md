@@ -2,6 +2,7 @@
 title: Add a property to enable creating knowledge articles from HR cases
 description: Add a property, which is required to allow users to create a knowledge article from an HR case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/property-hrcase-knowledge-article.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -43,5 +44,5 @@ Ensure that the Developer Application is set to **Human Resources: Core**.
 
 The property is added and you can now create knowledge articles from an HR case.
 
-**Parent Topic:**[Enable actionable knowledge feedback](configure-act-know-feedback-properties.md)
+**Parent Topic:**[Enable actionable knowledge feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/configure-act-know-feedback-properties.md)
 

@@ -2,6 +2,7 @@
 title: Install the Chief Human Resources Officer \(CHRO\) Dashboard
 description: The CHRO Dashboard helps people leadership to run its business to deliver value quickly, improve productivity and optimize risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/install-dashboard-chro.html
 release: zurich
 topic_type: task
 last_updated: "2025-08-18"
@@ -37,7 +38,7 @@ Plugins:
 
     Select **Request** to request the CHRO Dashboard application plugin for the specified instance and provide the instance details with your reason for request and validate the instance.
 
-    ![](../image/cxo-request-install.png)
+    \[Omitted image "cxo-request-install.png"\] Alt text:
 
 4.  Navigate to **System applications** &gt; **All available applications**.
 
@@ -55,6 +56,6 @@ Plugins:
 
         Assign the user role sn\_chro\_dashboard.chro\_dashboard\_user to users or groups who must view the dashboard.
 
-    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://www.servicenow.com/docs/access?context=exploring-user-administration&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see .
 
 

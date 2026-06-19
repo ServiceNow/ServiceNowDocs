@@ -2,6 +2,7 @@
 title: View sensitive information for DLP alerts
 description: View the detected sensitive information for DLP alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/data-loss-prevention/view-match-content.html
 release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -33,14 +34,14 @@ Role required: sn\_dlir.analyst
 
 3.  Navigate to **Sensitive Information** tab.
 
-    ![DLP incident sensitive information](../image/dlp-icap-match-content.png)
+    \[Omitted image "dlp-icap-match-content.png"\] Alt text: DLP incident sensitive information
 
 4.  Click on the violated record.
 
 5.  View the match content information and take respective action as necessary.
 
-    ![DLP incident sensitive information violated record.](../image/dlp-icap-match-content-details.png)
+    \[Omitted image "dlp-icap-match-content-details.png"\] Alt text: DLP incident sensitive information violated record.
 
 
-**Parent Topic:**[Internet Content Adaption Protocol \(ICAP\) integration for DLP IR](../concept/icap-dlp-integration.md)
+**Parent Topic:**[Internet Content Adaption Protocol \(ICAP\) integration for DLP IR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/icap-dlp-integration.md)
 

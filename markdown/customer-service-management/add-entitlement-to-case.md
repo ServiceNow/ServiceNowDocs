@@ -2,7 +2,10 @@
 title: Add an entitlement to a case
 description: Add one or more entitlements to a customer service case record in CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/add-entitlement-to-case.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -26,7 +29,7 @@ Starting with the Zurich release, the **sn\_customerservice.advanced\_entitlemen
 -   If set to true, the Case Entitlements related list is visible on the Case form and the **Entitlement** field is hidden. Agents can use this list to associate multiple entitlements to the case.
 -   If set to false, the **Entitlement** field is visible on the Case form and the Case Entitlements related list is hidden. Agents can use this field to associate one entitlement to the case.
 
-For more information, see [Properties installed with Customer Service Management](../reference/r_PropInstallWcustServ.md).
+For more information, see [Properties installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/r_PropInstallWcustServ.md).
 
 ## Procedure
 

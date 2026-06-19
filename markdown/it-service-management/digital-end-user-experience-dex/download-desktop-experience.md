@@ -2,11 +2,12 @@
 title: Download and install Desktop Assistant
 description: Download and install Desktop Assistant by using operating system-specific installer commands, Desktop Assistant installers, or endpoint management solutions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/download-desktop-experience.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 2
 breadcrumb: [Set up Desktop Assistant, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -17,7 +18,7 @@ Download and install Desktop Assistant by using operating system-specific instal
 
 ## Before you begin
 
--   Make sure that you have installed the Digital End-User Experience application. For more information, see [Install Digital End-User Experience](install-app-device-health.md).
+-   Make sure that you have installed the Digital End-User Experience application. For more information, see [Install Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/install-app-device-health.md).
 -   Make sure that you install Desktop Assistant client version 2.6.0 or higher on end-user computers, as this is the minimum version supported by this version of the Desktop Assistant application.
 
 **Note:** You can install Desktop Assistant on 75000 devices for each instance.
@@ -30,15 +31,15 @@ Role required: admin, sn\_dex\_desktop.admin
 
 2.  Download and install Desktop Assistant by using installer commands, Desktop Assistant installers, or endpoint management solutions.
 
-<table id="choicetable_zv4_ylt_fgc"><thead><tr><th align="left" id="d248602e134">
+<table id="choicetable_zv4_ylt_fgc"><thead><tr><th align="left" id="d58449e134">
 
 Option
 
-</th><th align="left" id="d248602e137">
+</th><th align="left" id="d58449e137">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d248602e143">
+</th></tr></thead><tbody><tr><td id="d58449e143">
 
 **OS-specific single-line installer commands**
 
@@ -46,23 +47,23 @@ Steps
 
 **Note:** You must have administrator privileges to run the single-line installer commands.
 
- 1.  From the Single-line Installer commands table, select the Copy single line install command icon ![](../image/icon-installer-blue.png) for your operating system.
+ 1.  From the Single-line Installer commands table, select the Copy single line install command icon \[Omitted image "icon-installer-blue.png"\] Alt text: for your operating system.
 2.  On your computer, open Terminal.app \(macOS\) or run PowerShell \(Windows\) as administrator.
 3.  Paste the command and press Enter.
 4.  When prompted for a password, enter your active directory password and press Enter.
  Desktop Assistant is installed, and the instance URL from the installer is automatically populated in the **Instance URL** field of the Desktop Assistant login page.
 
-</td></tr><tr><td id="d248602e192">
+</td></tr><tr><td id="d58449e192">
 
 **Desktop Assistant installer specific to your operating system**
 
 </td><td>
 
-1.  For Windows devices, see [Download Desktop Assistant installer on Windows devices](download-desktop-exp-win.md).
-2.  For macOS devices, see [Download Desktop Assistant installer on macOS devices](download-desktop-exp-mac.md).
+1.  For Windows devices, see [Download Desktop Assistant installer on Windows devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/download-desktop-exp-win.md).
+2.  For macOS devices, see [Download Desktop Assistant installer on macOS devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/download-desktop-exp-mac.md).
 
 
-</td></tr><tr><td id="d248602e250">
+</td></tr><tr><td id="d58449e250">
 
 **Jamf or Microsoft Endpoint Configuration Manager \(MECM\) to install on multiple devices**
 
@@ -77,7 +78,7 @@ For deployment on Windows devices using Microsoft Intune, refer to article [KB23
 
 3.  Update the Desktop Assistant instance URL for all the devices on which you have installed Desktop Assistant.
 
-For more information, see [Update instance URL in the Desktop Assistant configuration file](update-da-instance-url.md).
+For more information, see [Update instance URL in the Desktop Assistant configuration file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/update-da-instance-url.md).
 
 </td></tr></tbody>
 </table>

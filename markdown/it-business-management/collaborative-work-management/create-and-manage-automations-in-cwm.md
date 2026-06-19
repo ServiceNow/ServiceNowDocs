@@ -2,6 +2,7 @@
 title: Create automations in CWM
 description: Add conditions to build task automations for CWM Boards and help your team save time from manual task updates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/collaborative-work-management/create-and-manage-automations-in-cwm.html
 release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -17,7 +18,7 @@ Add conditions to build task automations for CWM Boards and help your team save 
 
 ## Before you begin
 
-[Create a Board in CWM](create-boards-in-cwm.md).
+[Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/create-boards-in-cwm.md).
 
 Role required: sn\_cwm.cwm\_user
 
@@ -29,13 +30,13 @@ Role required: sn\_cwm.cwm\_user
 
 3.  From the Board header, select **Automations**.
 
-    ![Automations in CWM Board.](../images/cwm-automations-button.jpg)
+    \[Omitted image "cwm-automations-button.jpg"\] Alt text: Automations in CWM Board.
 
 4.  Choose a predefined template.
 
     -   If it's your first automation, choose a template to get started.
     -   If automations exist already, select **New automation** and then choose a template.
-    ![Choose a template for automation.](../images/cwm-automations-choose-template.gif)
+    \[Omitted image "cwm-automations-choose-template.gif"\] Alt text: Choose a template for automation.
 
 5.  Add conditions for automating the activities of updating a field, sending an email, or sending notifications.
 
@@ -43,7 +44,7 @@ Role required: sn\_cwm.cwm\_user
 
     -   Task priority is high.
     -   The start date is three weeks away.
-    ![Automation conditions.](../images/cwm-automations-multiple-conditions.jpg)
+    \[Omitted image "cwm-automations-multiple-conditions.jpg"\] Alt text: Automation conditions.
 
 6.  Select **Add automation**.
 
@@ -54,7 +55,7 @@ Role required: sn\_cwm.cwm\_user
 
 ## What to do next
 
-[Manage or delete automations in CWM](manage-or-delete-automations-in-cwm.md).
+[Manage or delete automations in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/manage-or-delete-automations-in-cwm.md).
 
-**Parent Topic:**[Work item automations in CWM](../concept/implementing-automations-in-collaborative-work-management.md)
+**Parent Topic:**[Work item automations in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/implementing-automations-in-collaborative-work-management.md)
 

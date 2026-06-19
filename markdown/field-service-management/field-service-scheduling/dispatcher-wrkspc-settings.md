@@ -2,6 +2,7 @@
 title: Enable Dispatcher Workspace settings
 description: Determine what is displayed in the Dispatcher Workspace so you only see the information most relevant to your work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -29,7 +30,7 @@ Quick settings in Dispatcher Workspace provide access to certain capabilities of
 
 2.  Select the Dispatcher Workspace.
 
-3.  Click the Settings icon \(![Settings icon.](../image/IconPersonalizeList.png)\).
+3.  Click the Settings icon \(\[Omitted image "IconPersonalizeList.png"\] Alt text: Settings icon.\).
 
     The options on the Settings dialog box are arranged in a multiple-tabbed layout.
 
@@ -71,7 +72,7 @@ Enable Auto-refresh
 
 </td><td>
 
-Automatically refreshes the agent's calendar when an event such as a meeting, training, time-off request, personal, or an ad hoc work event is created.**Note:** This option appears only when the Enable Auto-refresh system property is enabled. For more information, see [Configure settings for Dispatcher Workspace](configure-workspce-settings.md).
+Automatically refreshes the agent's calendar when an event such as a meeting, training, time-off request, personal, or an ad hoc work event is created.**Note:** This option appears only when the Enable Auto-refresh system property is enabled. For more information, see [Configure settings for Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/configure-workspce-settings.md).
 
 </td></tr><tr><td>
 
@@ -114,7 +115,7 @@ Territory
 
 </td><td>
 
-Option to display the assigned territory. **Note:** This field appears when the Territory Planning plugin is activated. For more information, see [Activate Field Service Territory Planning](Activate-fsm-territory-planning.md) and [Enable the Field Service territory model](enable-territory-model.md).
+Option to display the assigned territory. **Note:** This field appears when the Territory Planning plugin is activated. For more information, see [Activate Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/Activate-fsm-territory-planning.md) and [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
 
 </td></tr><tr><td>
 
@@ -290,7 +291,7 @@ Territory
 
 </td><td>
 
-Option to display the assigned territory. For more information, see [Activate Field Service Territory Planning](Activate-fsm-territory-planning.md) and [Enable the Field Service territory model](enable-territory-model.md).
+Option to display the assigned territory. For more information, see [Activate Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/Activate-fsm-territory-planning.md) and [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
 
 </td></tr><tr><td>
 

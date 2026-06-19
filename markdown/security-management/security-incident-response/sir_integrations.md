@@ -2,6 +2,7 @@
 title: Security Incident Response integrations
 description: All the Security Operations core applications and non-core third-party integrations are available from the ServiceNow Store. This section provides instructions for activating the integrations and configuring both ServiceNow and third-party integrations. Also included are some basic guidelines for developing your own integrations, as well as details on specific integrations included in the base system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/sir\_integrations.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -19,7 +20,7 @@ All the Security Operations core applications and non-core third-party integrati
 
 The base system includes a series of "cards" for each of the integration implementations you can activate and use. Also, cards are displayed for any integrations posted on the ServiceNow Store that have dependencies on Security Operations plugins. The integration cards can be viewed by selecting **Security Operations** &gt; **Integration Configurations**.
 
-![Configuration tiles for integrations](../image/config_tiles.png)
+\[Omitted image "config\_tiles.png"\] Alt text: Configuration tiles for integrations
 
 You can filter the visible integrations using the **Category** drop-down menu. The **Show Configurations** drop-down menu lets you see multiple instances of implementations that allow their creation.
 

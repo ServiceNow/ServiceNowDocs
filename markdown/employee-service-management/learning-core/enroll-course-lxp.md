@@ -2,6 +2,7 @@
 title: Enroll in a course collection on My Learning
 description: Enroll in a course collection to pursue courses that can enhance your skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/enroll-course-lxp.html
 release: zurich
 product: Learning Core
 classification: learning-core

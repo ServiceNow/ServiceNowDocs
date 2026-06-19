@@ -2,6 +2,7 @@
 title: Using Threat Intelligence Security Center
 description: Use Threat Intelligence Security Center to manage Threat Intelligence library records, import external threat data, and streamline case management. It helps security teams centralize intelligence data, enhance analysis, and respond more effectively to threats by integrating the relevant information into ongoing investigations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/using-tisc.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

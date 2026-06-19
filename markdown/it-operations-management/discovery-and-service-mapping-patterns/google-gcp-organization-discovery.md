@@ -2,6 +2,7 @@
 title: Google Cloud Platform \(GCP\) Organization discovery with Patterns
 description: The ServiceNow Discovery application uses the Discover Google Organization discovery pattern to find GCP Organization projects and resources. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/google-gcp-organization-discovery.html
 release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -17,7 +18,7 @@ The ServiceNow Discovery application uses the Discover Google Organization disco
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -109,7 +110,7 @@ Option for enabling this schedule for discovery. Select this check box to enable
 </table>    3.  Right-click the header of the Discovery Schedule form and select **Save**.
     4.  Click the **Serverless Execution Patterns** tab, click **New**, and then fill in the form.
 
-        ![Serverless execution pattern](../image/serverless-execution-pattern.png)
+        \[Omitted image "serverless-execution-pattern.png"\] Alt text: Serverless execution pattern
 
         |Field|Description|
         |-----|-----------|
@@ -126,7 +127,7 @@ Option for enabling this schedule for discovery. Select this check box to enable
         |cloud\_cred\_id|The sysid of the GCP credentials.|
         |cloud\_datacenter\_type|`cmdb_ci_google_datacenter`|
 
-        ![Pattern Launcher Parameters](../image/discovery-pattern-launcher-params.png)
+        \[Omitted image "discovery-pattern-launcher-params.png"\] Alt text: Pattern Launcher Parameters
 
 -   **Customers with early access to the GCP Organization pattern**
 
@@ -348,5 +349,5 @@ The URL or path of the CI.
 |Google Folder \[cmdb\_ci\_gcp\_folder\]|Contained by::Contains|Sub Google Folder|
 |Sub Google Folder|Contained by::Contains|Google Project \[cmdb\_ci\_gcp\_project\]|
 
-**Parent Topic:**[Google Cloud Platform \(GCP\) Cloud discovery using Patterns](gcp-cloud-discovery-patterns.md)
+**Parent Topic:**[Google Cloud Platform \(GCP\) Cloud discovery using Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/gcp-cloud-discovery-patterns.md)
 

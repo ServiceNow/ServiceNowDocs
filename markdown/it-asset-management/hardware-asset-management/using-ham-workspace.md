@@ -2,6 +2,7 @@
 title: Hardware Asset Workspace
 description: The Hardware Asset Workspace is the intuitive and streamlined user interface of the Hardware Asset Management application to manage your hardware assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/using-ham-workspace.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -23,18 +24,18 @@ The Hardware Asset Workspace is a unified medium with multiple views that help y
 
 The Hardware Asset Workspace contains the following views:
 
--   [Hardware asset overview](hardware-asset-overview.md): View important actions and quick links to active tasks. Also, get a 360-degree view of the asset estate for a snapshot of assets by model type, life cycle state, and asset value.
--   [Asset analytics](asset-analytics-view.md): Manage resources efficiently by tracking the Total Cost of Ownership \(TCO\) of assets.
--   [DaaS provider view](../../device-as-a-service/concept/daas-workspace.md): Manage the assets of the customers of Device as a Service \(DaaS\) providers.
+-   [Hardware asset overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/hardware-asset-overview.md): View important actions and quick links to active tasks. Also, get a 360-degree view of the asset estate for a snapshot of assets by model type, life cycle state, and asset value.
+-   [Asset analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/asset-analytics-view.md): Manage resources efficiently by tracking the Total Cost of Ownership \(TCO\) of assets.
+-   [DaaS provider view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/daas-workspace.md): Manage the assets of the customers of Device as a Service \(DaaS\) providers.
 
     **Note:** Hardware Asset Management for Device as a Service \(com.sn\_daas\_ham\) must be installed to access this view.
 
--   [Inventory](inventory-view.md): View details of the entire asset inventory and stockrooms that enable you to perform inventory tasks.
--   [Asset estate](asset-estate-view.md): View the asset functions and maintain accurate hardware and consumable records.
--   [Model management](model-management-view.md): View details of different types of models being managed across hardware, software, consumables, and bundles.
--   [Content lookup portal for Hardware Asset Management](content-lookup-ham.md#): View data related to hardware products stored in the Hardware Asset Management Content Service.
--   [Procurement view](procurement-view.md): View and manage details of all ongoing procurement activities.
--   [Contract management](contract-mgmt-view.md): View and manage all hardware and software contracts.
--   [Success portal](hard-suc-port.md): Track the progress of your Hardware Asset Management \(HAM\) application with success goals, assign activities to track the success of your goals, and mature your HAM program with predefined maturity items.
--   [Asset operations](asset-operations-view.md): View asset operations related to inventory, shipment, procurement, hardware asset normalization, contracts, Zero Touch Refresh, and Success goals.
+-   [Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/inventory-view.md): View details of the entire asset inventory and stockrooms that enable you to perform inventory tasks.
+-   [Asset estate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/asset-estate-view.md): View the asset functions and maintain accurate hardware and consumable records.
+-   [Model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/model-management-view.md): View details of different types of models being managed across hardware, software, consumables, and bundles.
+-   [Content lookup portal for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/content-lookup-ham.md): View data related to hardware products stored in the Hardware Asset Management Content Service.
+-   [Procurement view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/procurement-view.md): View and manage details of all ongoing procurement activities.
+-   [Contract management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/contract-mgmt-view.md): View and manage all hardware and software contracts.
+-   [Success portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/hard-suc-port.md): Track the progress of your Hardware Asset Management \(HAM\) application with success goals, assign activities to track the success of your goals, and mature your HAM program with predefined maturity items.
+-   [Asset operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/asset-operations-view.md): View asset operations related to inventory, shipment, procurement, hardware asset normalization, contracts, Zero Touch Refresh, and Success goals.
 

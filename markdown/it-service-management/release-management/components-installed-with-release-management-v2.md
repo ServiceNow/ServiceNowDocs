@@ -2,6 +2,7 @@
 title: Components installed with Release Management
 description: Several types of components are installed with activation of the Release Management v2 plugin, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/release-management/components-installed-with-release-management-v2.html
 release: zurich
 product: Release Management
 classification: release-management
@@ -113,5 +114,5 @@ Release Items \[rm\_m2m\_release\_task\]
 Represents work items and change records associated to the release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release Management v2 reference](../concept/reference-release-management.md)
+</table>**Parent Topic:**[Release Management v2 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/release-management/reference-release-management.md)
 

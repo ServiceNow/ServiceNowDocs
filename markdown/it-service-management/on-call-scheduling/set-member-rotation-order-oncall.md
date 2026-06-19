@@ -2,6 +2,7 @@
 title: Modify the order of a member in a roster
 description: You can modify the order number for a member without affecting the past shift schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/on-call-scheduling/set-member-rotation-order-oncall.html
 release: zurich
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -25,7 +26,7 @@ Role required: rota\_admin, rota\_manager, or admin
 
 2.  Open the required shift form.
 
-3.  In the Rosters related list, click the information icon \( ![Information icon.](../image/icon-information.png) \) for the roster in which you want to modify the order of a member.
+3.  In the Rosters related list, click the information icon \( \[Omitted image "icon-information.png"\] Alt text: Information icon. \) for the roster in which you want to modify the order of a member.
 
 4.  Click **Open Record**.
 
@@ -105,5 +106,5 @@ Rosters affected after modifying the order of a member. This field is auto-popul
     The member appears in the new order. The original record has a **To** date for the end of validity and the new record has the current date as the **From** date for the start of validity.
 
 
-**Parent Topic:**[Managing roster members](../concept/managing-roster-members.md)
+**Parent Topic:**[Managing roster members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/managing-roster-members.md)
 

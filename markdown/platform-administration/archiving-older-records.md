@@ -2,6 +2,7 @@
 title: Archiving records
 description: Manage table size growth and improve query performance by archiving records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/archiving-older-records.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -15,8 +16,8 @@ Manage table size growth and improve query performance by archiving records.
 
 You can archive records in core tables such as the Task \[task\] table and records in custom tables that you create on the ServiceNow AI Platform using archive rules.
 
--   To archive Configuration Management Database \(CMDB\) CI records, use the CMDB Data Manager. See [Working with CMDB Data Manager](https://www.servicenow.com/docs/access?context=cmdb-data-management&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
--   To archive emails, activate the [Email retention](../../notification/concept/email-retention.md) plugin and use the archive and destruction rules that come with the plugin. Don’t use the archive feature to create your own archiving rules on the email table.
+-   To archive Configuration Management Database \(CMDB\) CI records, use the CMDB Data Manager. See .
+-   To archive emails, activate the [Email retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/email-retention.md) plugin and use the archive and destruction rules that come with the plugin. Don’t use the archive feature to create your own archiving rules on the email table.
 
 ## Archive activation
 
@@ -34,18 +35,18 @@ When you activate an archive rule, the system performs the following actions:
 
 -   Converts multiple joined tables into a single flat-file archive table. The archive table no longer consists of a base table and extended tables.
 
-    ![Conversion of Multiple Joined Tables into a Flat Archive Table](../../database-rotation/image/ConversionOfMultipleJoinedTablesIntoAFlatArchiveTable.png "Conversion of Multiple Joined Tables into a Flat Archive Table")
+    \[Omitted image "ConversionOfMultipleJoinedTablesIntoAFlatArchiveTable.png"\] Alt text: Conversion of Multiple Joined Tables into a Flat Archive Table
 
 -   Converts reference field values \(values set by references to records in other tables\) into string values. The archive record contains the display value of the reference field at the time of the archive.
 -   Adds a module to the **Archive Tables** list in the **System Archiving** application. The module name is a combination of the word "Archive" plus the display name for the archived table. For example, the archive module for the Attachment `[sys_attachments]` table is **Archive Attachment**.
 -   Creates a list of the archive table using the default list view.
--   Creates a form for the archive table using the default form view. The form excludes any [dot-walking](https://www.servicenow.com/docs/access?context=c_DotWalking&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) fields such as **Caller ID.Email**.
+-   Creates a form for the archive table using the default form view. The form excludes any dot-walking fields such as **Caller ID.Email**.
 
 ## Reference values converted to strings
 
 Archived data is stored as a flat file with no reference fields to other tables. The archive process converts any references to other tables to string values.
 
-In the case of a reference field, the string uses the [display value](../../field-administration/concept/c_DisplayValues.md) such as the caller's user name. For example, the **Caller** reference field in an incident would display the string ITIL User. If the reference was a document ID and the archive rule included the option to archive related document IDs, the string is the document ID of the related record.
+In the case of a reference field, the string uses the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_DisplayValues.md) such as the caller's user name. For example, the **Caller** reference field in an incident would display the string ITIL User. If the reference was a document ID and the archive rule included the option to archive related document IDs, the string is the document ID of the related record.
 
 Future changes to reference values aren't reflected in archived records. For example, if you change the user name for "John Smith" to "John A Smith", all active incident records automatically show the caller as "John A Smith" because of the reference between the Incident and User tables. However, all archived incident records display the user name that existed at the time of the archive. Likewise, if you delete a user from the system, current incidents no longer display the deleted user as a caller. However, archived incidents still display the string "John Smith" because that value was used when the record was archived.
 
@@ -80,16 +81,16 @@ If you have existing ACLs on archived tables, they’re ignored unless you set t
 
 On internationalized instances, the archive process uses the language of the SYSTEM user to select the display value strings.
 
-If there’s no SYSTEM user, the instance uses the default language setting to select the display value strings. You can either create a SYSTEM user with a specific language setting or set the system default language to [select the language of archived strings](../../localization/reference/r_GlobalLanguage.md).
+If there’s no SYSTEM user, the instance uses the default language setting to select the display value strings. You can either create a SYSTEM user with a specific language setting or set the system default language to [select the language of archived strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/r_GlobalLanguage.md).
 
--   **[Create an archive rule](../../database-rotation/task/t_CreateAnArchiveRule.md#)**  
+-   **[Create an archive rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_CreateAnArchiveRule.md)**  
 Define the criteria for archiving records by creating an archive rule.
--   **[Archive related records](../../database-rotation/task/t_ArchiveRelatedRecords.md)**  
+-   **[Archive related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_ArchiveRelatedRecords.md)**  
 Archive, clear, or delete related records from an archive rule.
--   **[Managing archived data](managing-archived-data.md#)**  
+-   **[Managing archived data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/managing-archived-data.md)**  
 Change the schedule for an archive rule, stop the archive rule from running, or restore your archived data.
--   **[Migrating non-reference fields to reference fields](../../database-rotation/reference/archive-reference-migration.md)**  
+-   **[Migrating non-reference fields to reference fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/archive-reference-migration.md)**  
 Manually preserve sys\_ids in reference fields instead of storing the display name as a string.
 
-**Parent Topic:**[Managing the growth of data on your instance](data-management-policies.md)
+**Parent Topic:**[Managing the growth of data on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/data-management-policies.md)
 

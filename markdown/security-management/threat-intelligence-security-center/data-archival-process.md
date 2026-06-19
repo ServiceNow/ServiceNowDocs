@@ -1,7 +1,8 @@
 ---
-title: TISC Data Archival
+title: TISC Data archival and cleanup
 description: Data grows rapidly in tables with increased adoption of the platform. Some tables come within the base system with various data management policies, but other users are needed to implemented by themselves.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/data-archival-process.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -11,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Use, Threat Intelligence Security Center, Security Operations]
 ---
 
-# TISC Data Archival
+# TISC Data archival and cleanup
 
 Data grows rapidly in tables with increased adoption of the platform. Some tables come within the base system with various data management policies, but other users are needed to implemented by themselves.
 
@@ -27,6 +28,4 @@ There are a couple of different methods that the users can manage their data in 
 -   Delete the data
 
 **Note:** If the users don't adopt to any of the methods to manage their data effectively then the usage increases over time and the data tends to get much larger which will have a large impact on the application instance performance and as well as the storage.
-
-For information on benefits of archiving data and accessing the archival rules, see [Data Archiving](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/database-rotation/concept/c_ArchiveData.html) on ServiceNow AI Platform administration.
 

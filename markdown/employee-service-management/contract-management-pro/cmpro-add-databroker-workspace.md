@@ -2,6 +2,7 @@
 title: Add the data broker to your workspace page
 description: Add the data resources to your page in the UI Builder to dynamically expose data from tables, records, or other elements on your page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cmpro-add-databroker-workspace.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -29,17 +30,17 @@ Role required: ui\_builder\_admin
 
 4.  Select the page on your workspace where you want to configure the **Playbook** tab.
 
-    ![Pages in the Legal Counsel Center experience on the UI Builder](../image/cmpro-uib-page.png "Page and variants for your workspace")
+    \[Omitted image "cmpro-uib-page.png"\] Alt text: Pages in the Legal Counsel Center experience on the UI Builder
 
 5.  Select **+** in the Data resources drawer.
 
-    ![Data resource drawer with the add icon.](../image/cmpro-add-data-resource.png "Data resource")
+    \[Omitted image "cmpro-add-data-resource.png"\] Alt text: Data resource drawer with the add icon.
 
 6.  Search for the data broker you configured for the **Playbook** tab.
 
 7.  Select the data broker and then select **Add**.
 
-    ![Pop-up window with the data broker and the Add button.](../image/cmpro-select-add-data.png "Select and add data resource")
+    \[Omitted image "cmpro-select-add-data.png"\] Alt text: Pop-up window with the data broker and the Add button.
 
     The Data Resource configuration modal appears.
 
@@ -48,5 +49,5 @@ Role required: ui\_builder\_admin
 9.  Select **Save** on the UI Builder header.
 
 
-**Parent Topic:**[Configuring the Playbook tab on contract repository records](cmpro-config-playbook-tab.md)
+**Parent Topic:**[Configuring the Playbook tab on contract repository records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-config-playbook-tab.md)
 

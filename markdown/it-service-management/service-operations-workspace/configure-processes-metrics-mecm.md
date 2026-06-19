@@ -2,13 +2,14 @@
 title: Configure processes metrics
 description: Configure the top processes by CPU and top processes by memory metrics for Microsoft Endpoint Configuration Manager for Investigation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/configure-processes-metrics-mecm.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configuring CI metrics for MECM, Investigation using Microsoft Endpoint Configuration Manager, Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configure, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Configuring CI metrics for MECM, Setting up investigation framework using Microsoft Endpoint Configuration Manager for Investigation, Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configure, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Configure processes metrics
@@ -25,7 +26,7 @@ Role required: sn\_cimaf.sn\_cimaf\_admin
 
 2.  Create a MECM script with the name `GetProcess`.
 
-    For more information, see [Create a script in Microsoft Endpoint Configuration Manager](create-mecm-script.md).
+    For more information, see [Create a script in Microsoft Endpoint Configuration Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/create-mecm-script.md).
 
 3.  Provide the following code in the script block.
 
@@ -58,7 +59,7 @@ Role required: sn\_cimaf.sn\_cimaf\_admin
 
 7.  In the **Action input** field, add the script GUID.
 
-    ![Edit running processes CPU](../image/edit-cpu-config.png)
+    \[Omitted image "edit-cpu-config.png"\] Alt text: Edit running processes CPU
 
 8.  Click **Save**.
 
@@ -73,5 +74,5 @@ Role required: sn\_cimaf.sn\_cimaf\_admin
 
 The top processes by CPU and top processes by memory metrics are displayed on the **Investigation** tab of the incident record in Service Operations Workspace.
 
-**Parent Topic:**[Configuring CI metrics for Microsoft Endpoint Configuration Manager for Investigation](../concept/config-ci-metrics-mecm-adapter.md)
+**Parent Topic:**[Configuring CI metrics for Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/config-ci-metrics-mecm-adapter.md)
 

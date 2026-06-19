@@ -2,6 +2,7 @@
 title: Create a Snowflake connection
 description: Establish a zero copy connection to an external Snowflake account in Workflow Data Fabric Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/workflow-data-fabric-hub/create-snowflake-connection.html
 release: zurich
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -128,15 +129,15 @@ Option to enable table statistics. Optimize SQL queries using table statistics b
 </td></tr></tbody>
 </table>4.  Configure secure authentication by uploading a private key file or by entering the private key details manually.
 
-<table id="choicetable_imc_rnn_k2c"><thead><tr><th align="left" id="d287044e272">
+<table id="choicetable_imc_rnn_k2c"><thead><tr><th align="left" id="d289522e272">
 
 Option
 
-</th><th align="left" id="d287044e275">
+</th><th align="left" id="d289522e275">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d287044e281">
+</th></tr></thead><tbody><tr><td id="d289522e281">
 
 **Upload private key file**
 
@@ -146,7 +147,7 @@ Description
 2.  Browse and select the PEM file.
 
 
-</td></tr><tr><td id="d287044e302">
+</td></tr><tr><td id="d289522e302">
 
 **Enter private key contents manually**
 
@@ -172,7 +173,7 @@ A test connection is made to the external data source, verifying that the connec
 
 ## What to do next
 
-If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](manage-access-connection-wdf.md).
+If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/manage-access-connection-wdf.md).
 
 If the connection fails, verify the connection details with your data source administrator and try again.
 

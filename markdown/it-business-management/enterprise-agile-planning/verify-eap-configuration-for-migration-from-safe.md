@@ -2,6 +2,7 @@
 title: Verify EAP configuration for migration from SAFe
 description: Ensure that the right EAP configuration which suits your current SAFe configuration is active and that the required work types are selected.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/enterprise-agile-planning/verify-eap-configuration-for-migration-from-safe.html
 release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -44,5 +45,5 @@ Verify EAP configuration to start migration of SAFe data.
 
 ## What to do next
 
-[Verify table, field, and choice mapping between SAFe and EAP](verify-table-field-and-choice-mapping-between-safe-and-eap.md).
+[Verify table, field, and choice mapping between SAFe and EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/verify-table-field-and-choice-mapping-between-safe-and-eap.md).
 

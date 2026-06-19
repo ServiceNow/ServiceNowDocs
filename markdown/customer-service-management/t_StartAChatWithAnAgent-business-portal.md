@@ -2,7 +2,10 @@
 title: Chat with an agent from the Business Portal
 description: Chat with a virtual agent or a customer service agent from the business portal to resolve issues quickly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_StartAChatWithAnAgent-business-portal.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -23,9 +26,9 @@ Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin
 
     A virtual agent or a customer service agent responds.
 
-2.  To talk to a person instead of a virtual agent, select the kebab menu \(![Contact Support icon.](../../customer-communities/images/contact-support-icon.png)\) then select **Call Support \(Daily 5AM - 11PM\)**.
+2.  To talk to a person instead of a virtual agent, select the kebab menu \(\[Omitted image "contact-support-icon.png"\] Alt text: Contact Support icon.\) then select **Call Support \(Daily 5AM - 11PM\)**.
 
-3.  To end the chat, select End Conversation icon \( ![End conversation icon](../image/icon_end_conversation.png)\).
+3.  To end the chat, select End Conversation icon \( \[Omitted image "icon\_end\_conversation.png"\] Alt text: End conversation icon\).
 
 
 ## What to do next

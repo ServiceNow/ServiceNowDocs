@@ -2,6 +2,7 @@
 title: Normalization overview for Enterprise Asset Management
 description: Use the Normalization view in the Enterprise Asset Workspace to view information related to normalization such as normalization status, model content service download, lifecycle overview.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/norm-overview-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -19,7 +20,7 @@ You can also create custom enterprise model types, product models, and model lib
 
 You can access the Normalization view by navigating to **Enterprise Asset Workspace** &gt; **Normalization**.
 
-![Enterprise model normalization](../image/eam-normoverview.png "Enterprise model normalization")
+\[Omitted image "eam-normoverview.png"\] Alt text: Enterprise model normalization
 
 <table id="table_nvt_3qb_vtb"><thead><tr><th>
 
@@ -57,7 +58,7 @@ Normalization status
 
 </td><td>
 
-Normalization status of all the enterprise models. View the count of enterprise models that were normalized and those models that didn't get normalized. For details on the normalization status, see [Normalization status for enterprise models](../reference/norm-status-eam.md).
+Normalization status of all the enterprise models. View the count of enterprise models that were normalized and those models that didn't get normalized. For details on the normalization status, see [Normalization status for enterprise models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/norm-status-eam.md).
 
 </td></tr><tr><td>
 

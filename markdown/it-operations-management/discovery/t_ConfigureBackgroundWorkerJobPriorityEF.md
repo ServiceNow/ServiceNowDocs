@@ -1,7 +1,8 @@
 ---
-title: Configure the job priority of background workers for Event Framework
+title: Configure background worker job priority for Event Framework
 description: Configure the job priority of background workers to help prevent noncritical tasks from preempting important work, which promotes system efficiency and stability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/t\_ConfigureBackgroundWorkerJobPriorityEF.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -11,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Optimizing Discovery load for Event Framework, Configure Discovery to use Event Framework, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
-# Configure the job priority of background workers for Event Framework
+# Configure background worker job priority for Event Framework
 
 Configure the job priority of background workers to help prevent noncritical tasks from preempting important work, which promotes system efficiency and stability.
 
@@ -21,8 +22,8 @@ Confirm the following:
 
 -   Discovery Admin Workspace is using version 1.9.0 or later.
 -   ServiceNow AI Platform® is using version XP9, YP4, or later than YP4.
--   The **discovery.use.event.processing** system property is turned on. For more information, see [Configure Discovery to use Event Framework](t_ConfigureDiscoveryEventFramework.md).
--   The **com.glide.queue.discovery.sensors.processing\_jobs.priority** and **com.glide.queue.discovery.cloud.sensors.processing\_jobs.priority** system properties are configured. For more information, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+-   The **discovery.use.event.processing** system property is turned on. For more information, see [Configure Discovery to use Event Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_ConfigureDiscoveryEventFramework.md).
+-   The **com.glide.queue.discovery.sensors.processing\_jobs.priority** and **com.glide.queue.discovery.cloud.sensors.processing\_jobs.priority** system properties are configured. For more information, see .
 
 Role required: discovery\_admin
 
@@ -48,5 +49,5 @@ By default, Event Framework jobs have a priority of 100. If Discovery is preempt
 4.  Select **Update**.
 
 
-**Parent Topic:**[Optimizing Discovery load for Event Framework](../concept/c_FineTuneDiscoLoadEF.md)
+**Parent Topic:**[Optimizing Discovery load for Event Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_FineTuneDiscoLoadEF.md)
 

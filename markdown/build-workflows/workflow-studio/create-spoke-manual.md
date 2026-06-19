@@ -2,6 +2,7 @@
 title: Create spoke and build actions manually
 description: Automate an integration and generate reusable actions manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/create-spoke-manual.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -45,8 +46,8 @@ Automate an integration and generate reusable actions manually.
 
 7.  Click **New action** to create an action.
 
-    -   If you want to create actions by importing the required OpenAPI Specification, select **From OpenAPI spec**. For information about selecting the required operations and creating actions, see [Create spoke and build actions by importing an OpenAPI Specification](create-spoke-fd.md).
-    -   If you want to create actions manually, select **Manually**. The Action Properties screen is displayed. You should create and publish the action in the Action Designer. For more information, see [Building actions](../concept/actions.md).
+    -   If you want to create actions by importing the required OpenAPI Specification, select **From OpenAPI spec**. For information about selecting the required operations and creating actions, see [Create spoke and build actions by importing an OpenAPI Specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-spoke-fd.md).
+    -   If you want to create actions manually, select **Manually**. The Action Properties screen is displayed. You should create and publish the action in the Action Designer. For more information, see [Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/actions.md).
 
-**Parent Topic:**[Building spokes using Spoke Generator](../concept/spoke-builder.md)
+**Parent Topic:**[Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/spoke-builder.md)
 

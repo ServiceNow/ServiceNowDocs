@@ -2,6 +2,7 @@
 title: Run Azure Cloud Discovery using Service Principal with SSH Certificates
 description: Discover Linux virtual machines on Azure using Service Principal \(SP\) with short-lived SSH certificates. Using these certificates circumvents the need for passwords or public and private key-pairs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/azure-cloud-disc-ssh.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -31,7 +32,7 @@ Role required: admin
 
 3.  Fill in the form with the required info and submit.
 
-    ![The Azure Service Principle record.](../image/azure-cloud-disc-ssh-new-record.png)
+    \[Omitted image "azure-cloud-disc-ssh-new-record.png"\] Alt text: The Azure Service Principle record.
 
 4.  Navigate to **Discovery** &gt; **Credentials** and select **New**.
 
@@ -55,7 +56,7 @@ Role required: admin
 
 13. Create a new cloud account using your Azure Service Principal credential.
 
-    For more information, see [Set up Azure service accounts](../../it-operations-management/task/setup-azure-service-accounts.md).
+    For more information, see [Set up Azure service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/setup-azure-service-accounts.md).
 
 14. Select **next**.
 

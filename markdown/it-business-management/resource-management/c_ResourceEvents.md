@@ -2,6 +2,7 @@
 title: Resource events
 description: A resource event is a block of time that a resource spends on a task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/resource-management/c\_ResourceEvents.html
 release: zurich
 product: Resource Management
 classification: resource-management
@@ -19,14 +20,14 @@ Each time a resource manager makes an allocation, the system creates one or more
 
 When a booking changes from soft to hard, resource events are created for the resource.
 
--   **[Resource events and schedules](../reference/r_ResourceEventsAndSchedules.md)**  
+-   **[Resource events and schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/r_ResourceEventsAndSchedules.md)**  
 Schedules classify time as work time and non-work time and can be associated with resources and with projects.
--   **[Resource event modifications](c_ModifyAResourceEvent.md)**  
+-   **[Resource event modifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/c_ModifyAResourceEvent.md)**  
 Resource events that aren’t part of a resource plan can be modified.
--   **[Modify a self-created resource event](../task/t_ModifyASelfCreatedResourceEvent.md)**  
+-   **[Modify a self-created resource event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/t_ModifyASelfCreatedResourceEvent.md)**  
 You can modify a resource event that you created.
--   **[Change the resource event color](../task/t_ChangeTheResourceEventColor.md)**  
+-   **[Change the resource event color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/t_ChangeTheResourceEventColor.md)**  
 Each event type is represented with a color. PPS admin can change the colors at any time.
 
-**Parent Topic:**[Resource Management classic](c_ResourceManagement.md)
+**Parent Topic:**[Resource Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/c_ResourceManagement.md)
 

@@ -1,17 +1,18 @@
 ---
-title: Specify the configuration item for metric rules
+title: Specify metric rule CI
 description: Choose an application or device and define filter conditions for the metric rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/specify-metric-rule-applications.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create metric rules, Metrics collection and metric rules, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Creating a metric rule, Alert rules, Configure, Digital End-User Experience, IT Service Management]
 ---
 
-# Specify the configuration item for metric rules
+# Specify metric rule CI
 
 Choose an application or device and define filter conditions for the metric rule.
 
@@ -25,13 +26,13 @@ Role required: sn\_dex.admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the DEX Administration icon \(![](../image/icon-administration.png)\).
+2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text:\).
 
-3.  Select **Configure** on the Metric rules card.
+3.  Select **Configure** on the Alert rules card.
 
-    The list of metric rules appears.
+    The list of alert rules appears.
 
-4.  Select **Create new rule**.
+4.  Select **Create new rule** &gt; **Metric rule**.
 
     A new tab opens for the Create metric rule window, with the **Select the CI** option pre-selected in the navigation pane.
 
@@ -42,7 +43,7 @@ Role required: sn\_dex.admin
     -   Installed application \(.exe, .app, etc.\)
 6.  For **Saas/web application** or **Installed application**, select the application to monitor.
 
-    **Note:** If you select **Device**, the option to choose an application wouldn’t be available.
+    **Note:** If you select **Device**, the option to choose an application isn’t available.
 
 7.  Select the **Applicable for Non-persistent VDIs** toggle switch to apply this metric rule to all the non-persistent Virtual Desktop Infrastructures \(VDIs\).
 
@@ -50,7 +51,7 @@ Role required: sn\_dex.admin
 
 8.  Apply conditional filtering on the configuration items.
 
-    The predetermined filtering choices include Device, Department, Location, OS, User, and Version, with the Version option designed for installed applications.
+    The predetermined filtering choices include Device, Department, Location, OS, User, and Version, with the Version option available for installed applications.
 
     To add additional filters, select **+ New condition set**.
 
@@ -71,5 +72,5 @@ Role required: sn\_dex.admin
 
 ## What to do next
 
-[Define alert metric criteria](define-alert-metric-criteria.md).
+[Define alert criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/define-alert-metric-criteria.md).
 

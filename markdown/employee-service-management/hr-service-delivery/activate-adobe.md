@@ -2,6 +2,7 @@
 title: Activate the Adobe Sign spoke
 description: Activate the Adobe Sign spoke in IntegrationHub from the ServiceNow Store, and enable the signing of adhoc documents \(HR PDF document templates\) and Adobe Sign templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/activate-adobe.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -35,8 +36,8 @@ Role required: admin
 
     You will receive an email with detailed installation instructions.
 
-6.  Log in to the instance and set up the [Adobe Sign spoke](https://www.servicenow.com/docs/access?context=adobe-sign-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+6.  Log in to the instance and set up the Adobe Sign spoke.
 
 
-**Parent Topic:**[Integrating with the Adobe Sign service](../concept/integrating-with-adobe-sign-service.md)
+**Parent Topic:**[Integrating with the Adobe Sign service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/integrating-with-adobe-sign-service.md)
 

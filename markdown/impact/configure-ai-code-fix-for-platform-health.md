@@ -2,7 +2,10 @@
 title: Configure Fix code in real-time for Platform Health
 description: Follow these steps to configure Fix code in real-time for Impact Platform Health.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/configure-ai-code-fix-for-platform-health.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-03-02"
 reading_time_minutes: 1
@@ -21,9 +24,9 @@ Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\)
 
 The following are minimum prerequisites:
 
--   Install and configure the Impact Store App. See [Configure the Impact Store Application](configuring-impact-platform.md) for details.
--   Scan Engine configured: See [Activate Scan Engine and review settings](../task/configure-initial-scan-engine-settings.md) for details.
--   Now Assist for Impact, version 3.03: See [Activate Now Assist skills in Now Assist for Impact](activate-now-assist-skills-in-now-assist-for-impact_0.md) for details.
+-   Install and configure the Impact Store App. See [Configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-impact-platform.md) for details.
+-   Scan Engine configured: See [Activate Scan Engine and review settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-initial-scan-engine-settings.md) for details.
+-   Now Assist for Impact, version 3.03: See [Activate Now Assist skills in Now Assist for Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/activate-now-assist-skills-in-now-assist-for-impact_0.md) for details.
 -   Now Assist for Platform, version 11.01
 
 ## Procedure
@@ -42,7 +45,7 @@ The following are minimum prerequisites:
 
 7.  On the Code Fix tile, select **Activate skill.**
 
-    ![The Now Assist Admin Console with the Impact Code Fix activation tile displayed.](../image/impact-activate-skill-now-assist-adminpanel.png)
+    \[Omitted image "impact-activate-skill-now-assist-adminpanel.png"\] Alt text: The Now Assist Admin Console with the Impact Code Fix activation tile displayed.
 
     The button on the tile updates to **Deactivate skill** when the option has been selected and the status will show **Active**.
 

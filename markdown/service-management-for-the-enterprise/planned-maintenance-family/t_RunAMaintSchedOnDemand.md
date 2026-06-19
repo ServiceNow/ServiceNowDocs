@@ -2,6 +2,7 @@
 title: Run a maintenance schedule on demand
 description: Maintenance schedules are typically run using the scheduled job named Planned Maintenance Nightly Run. However, you may want to run the schedule immediately or change the date when a schedule runs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/service-management-for-the-enterprise/planned-maintenance-family/t\_RunAMaintSchedOnDemand.html
 release: zurich
 product: Planned Maintenance \(Family\)
 classification: planned-maintenance-family
@@ -59,5 +60,5 @@ Date in the future for maintenance to run. **Note:** This field appears only whe
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing maintenance plans](../concept/c_MaintPlanMgmt.md)
+**Parent Topic:**[Managing maintenance plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-management-for-the-enterprise/planned-maintenance-family/c_MaintPlanMgmt.md)
 

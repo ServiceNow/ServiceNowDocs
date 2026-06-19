@@ -2,6 +2,7 @@
 title: Request change form
 description: Use the request change form to change the metrics of a demand, such as demand scope, resource requirement, cost, or schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/demand-management/request-change-form.html
 release: zurich
 product: Demand Management
 classification: demand-management
@@ -136,5 +137,5 @@ Work notes
 Additional information to indicate progress on the demand request change.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Demand Management forms](../concept/demand-management-forms.md)
+</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/demand-management-forms.md)
 

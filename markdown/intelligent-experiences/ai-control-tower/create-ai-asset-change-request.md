@@ -2,6 +2,7 @@
 title: Create change requests for AI assets
 description: Create a change request to modify the relationships between a deployed AI asset and its related assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/create-ai-asset-change-request.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
@@ -309,5 +310,5 @@ Alternatively, navigate to **Lifecycle** &gt; **Deploy**.
 
     -   If you rejected the request, the Status changes to Rejected and the State changes to Completed.
 
-**Parent Topic:**[Creating requests for AI assets](../concept/creating-ai-asset-requests.md)
+**Parent Topic:**[Creating requests for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/creating-ai-asset-requests.md)
 

@@ -2,6 +2,7 @@
 title: Create a data table
 description: Create a table to store the data for your application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/app-tutorial-create-table.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -17,7 +18,7 @@ Create a table to store the data for your application.
 
 ## Before you begin
 
-Role required: admin, sn\_app\_eng\_studio.user, or delegated developer
+Role required: sn\_app\_eng\_studio.admin, sn\_app\_eng\_studio.user, or delegated\_developer
 
 ## About this task
 
@@ -29,11 +30,11 @@ Phase 1
 
 </td><td align="justify">
 
-![In progress icon](../image/app-tutorial-progress-wip.png)
+\[Omitted image "app-tutorial-progress-wip.png"\] Alt text: In progress icon
 
 </td><td>
 
-[Create a data table](app-tutorial-create-table.md)
+[Create a data table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-create-table.md)
 
 </td></tr><tr><td>
 
@@ -41,11 +42,11 @@ Phase 2
 
 </td><td align="justify">
 
-![Not started icon](../image/app-tutorial-progress-not-started.png)
+\[Omitted image "app-tutorial-progress-not-started.png"\] Alt text: Not started icon
 
 </td><td>
 
-[Configure a data table](app-tutorial-configure-table.md)
+[Configure a data table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-configure-table.md)
 
 </td></tr><tr><td>
 
@@ -53,14 +54,14 @@ Phase 3
 
 </td><td align="justify">
 
-![Not started icon](../image/app-tutorial-progress-not-started.png)
+\[Omitted image "app-tutorial-progress-not-started.png"\] Alt text: Not started icon
 
 </td><td>
 
-[Share data between tables](app-tutorial-share-data.md)
+[Share data between tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-share-data.md)
 
 </td></tr></tbody>
-</table>This procedure covers the first part of the task demonstrated in the tutorial video. The rest of the procedure is outlined in the next topic [Configure a data table](app-tutorial-configure-table.md).
+</table>This procedure covers the first part of the task demonstrated in the tutorial video. The rest of the procedure is outlined in the next topic [Configure a data table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-configure-table.md).
 
 Follow along to create a table for the employee travel request application.
 
@@ -93,7 +94,7 @@ Third video in the app creation tutorial series. Create and configure a data tab
 
 7.  Select **Task** from the **Table** list.
 
-    ![The Task table is one of the extensible tables available in the ServiceNow AI Platform.](../image/app-tutorial-select-task-table.png)
+    \[Omitted image "app-tutorial-select-task-table.png"\] Alt text: The Task table is one of the extensible tables available in the ServiceNow AI Platform.
 
     The Task table is one of the commonly extended tables in the ServiceNow AI Platform. The Task table includes built-in functionality for approvals and assignments, which we need for the table in our tutorial application.
 
@@ -108,7 +109,7 @@ Third video in the app creation tutorial series. Create and configure a data tab
     |Table label|Unique label to identify the table.|`Travel request`|
     |Table name|Database name for the table. Auto-populates based on the **Table label** that you provided.|No action needed|
     |Table name prefix|Database prefix for the table. Auto-populates based on the application that you created the table in.|No action needed|
-    |Make extensible|Option to enable other tables to share data from this table. For more information, see [Table extension](../concept/add-data.md#section_ebj_sdb_d5b).|No action needed|
+    |Make extensible|Option to enable other tables to share data from this table. For more information, see [Table extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-data.md).|No action needed|
     |Auto-number|Option to track table records with a unique number.|Select the check mark|
     |Prefix|Abbreviated name of the table to append to the beginning of record numbers.|`TRA`|
     |Starting number|Number to identify the first record created for your table.|No action needed|
@@ -160,5 +161,5 @@ You have created a table for your application.
 
 ## What to do next
 
-Complete the setup of your table by proceeding to the next phase: [Configure a data table](app-tutorial-configure-table.md)
+Complete the setup of your table by proceeding to the next phase: [Configure a data table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-configure-table.md)
 

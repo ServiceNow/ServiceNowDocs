@@ -1,0 +1,86 @@
+---
+title: Configure
+description: Set up Manufacturing Commercial Operations to enable manufacturers to manage the end-to-end life-cycle of your manufacturing products.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/manufacturing-commercial-operations/configuring-manufacturing-foundation.html
+release: zurich
+product: Manufacturing Commercial Operations
+classification: manufacturing-commercial-operations
+topic_type: concept
+last_updated: "2025-07-31"
+reading_time_minutes: 2
+breadcrumb: [Manufacturing Commercial Operations]
+---
+
+# Configure
+
+Set up Manufacturing Commercial Operations to enable manufacturers to manage the end-to-end life-cycle of your manufacturing products.
+
+## Installing and configuring Manufacturing Commercial Operations applications
+
+With admin role, when you activate the Manufacturing Commercial Operations application \[sn\_dealer\_mgmt\], the [Plugins installed with MCO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/manufacturing-commercial-operations/manufacturing-commercial-operations-plugins.md) plugins are automatically installed.
+
+To learn how to install and configure Manufacturing Commercial Operations applications plugins, see [Getting started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/manufacturing-commercial-operations/getting-started-mco.md).
+
+As a user with the admin role, complete the following main configuration tasks to set up your Manufacturing Commercial Operations application.
+
+<table id="table_np2_msv_yzb"><thead><tr><th>
+
+Configuration task
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+[Install Customer Service Management for MCO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/manufacturing-commercial-operations/mco-install-cust-ser-mgmt.md)\(Mandatory\)
+
+</td><td>
+
+Install the Customer Service Management application from the ServiceNow Store store. This application enables your agents and account executives to gain visibility into the customer systems and tools they must deliver to customers.
+
+</td></tr><tr><td>
+
+[Install Order Management for MCO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/manufacturing-commercial-operations/mco-install-som.md)\(Mandatory\)
+
+</td><td>
+
+Install the Order to cash operations application from the ServiceNow Store. This application enables your agents to capture, manage, and fulfill orders from enterprise customers.
+
+</td></tr><tr><td>
+
+[Getting started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/manufacturing-commercial-operations/getting-started-mco.md)\(Mandatory\)
+
+</td><td>
+
+Install the Order Management application from the ServiceNow Store.
+
+</td></tr><tr><td>
+
+Service Model Foundation\(Mandatory\)
+
+</td><td>
+
+Install the Service Model Foundation application from the ServiceNow Store store. This framework enables you to create structured and flexible data models that represent your business needs.
+
+</td></tr><tr><td>
+
+Install Base Management\(Mandatory\)
+
+</td><td>
+
+Install the Install Base Management application from the ServiceNow Store store. This application enables you to capture a customer’s use or purchase of a product with the Manufacturing Commercial Operations application.
+
+</td></tr><tr><td>
+
+[Install Service Bridge for Providers and Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/manufacturing-commercial-operations/mco-install-configure-sb-providers.md)\(Optional\)
+
+</td><td>
+
+See .
+
+</td></tr></tbody>
+</table>-   Work with an implementation specialist to streamline your manufacturing setup process. To learn more, see the [Customer Success Center](https://www.servicenow.com/success.html).
+-   Join the ServiceNow® [Manufacturing Community](https://community.servicenow.com/community?id=community_forum&sys_id=ad8ccc43db25bc90aa66a9fb13961913) to share knowledge, collaborate, and network with peers around the globe who are addressing the same industry challenges and opportunities.
+

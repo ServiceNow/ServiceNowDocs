@@ -2,6 +2,7 @@
 title: Review crawl history for an external content connector
 description: View crawl history records for an external content connector. Drill into a crawl history record to see metrics and alerts for the crawl in question.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/review-crawl-ext-cont-connector.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -42,8 +43,8 @@ You can select an individual crawl history record to examine a crawl in more det
 
     The Statistics tab shows details about items encountered during the crawl.
 
-    -   For content crawls, this tab shows document statistics and crawl speed in documents per second. For explanations of these document statistics, see [Statistics for external content connector content crawls](../reference/document-statistics-external-content-connectors.md).
-    -   For user permission crawls, this tab shows permission statistics and crawl speed in users per second. For explanations of these permission statistics, see [Statistics for external content connector user permission crawls](../reference/permission-statistics-external-content-connectors.md).
+    -   For content crawls, this tab shows document statistics and crawl speed in documents per second. For explanations of these document statistics, see [Statistics for external content connector content crawls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/document-statistics-external-content-connectors.md).
+    -   For user permission crawls, this tab shows permission statistics and crawl speed in users per second. For explanations of these permission statistics, see [Statistics for external content connector user permission crawls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/permission-statistics-external-content-connectors.md).
 5.  To view entries for any alerts encountered during the crawl, navigate to the Alerts tab.
 
     Alerts include informational, debugging, warning, and error events logged by the connector during its crawl.
@@ -87,5 +88,5 @@ You can select an individual crawl history record to examine a crawl in more det
 6.  To view details for an alert, select the **View Details** link for that alert entry.
 
 
-**Parent Topic:**[Reviewing external content connector crawl results and analytics](../concept/reviewing-external-content-connector-results-and-analytics.md)
+**Parent Topic:**[Reviewing external content connector crawl results and analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/reviewing-external-content-connector-results-and-analytics.md)
 

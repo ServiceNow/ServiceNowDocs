@@ -2,6 +2,7 @@
 title: Create a milestone for an engagement
 description: Create a milestone for an engagement to track the progress of an engagement. You can also add audit tasks to a milestone.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/create-milestone-engagmt-audit-ws.html
 release: zurich
 product: Audit Management
 classification: audit-management
@@ -33,7 +34,7 @@ If an engagement moves to the Follow Up state, and if there are no open audit ta
 
 1.  Navigate to **All** &gt; **Audit** &gt; **Audit Workspace**.
 
-2.  Select the lists icon \(![List icon.](../image/ListsIcon.jpg)\).
+2.  Select the lists icon \(\[Omitted image "ListsIcon.jpg"\] Alt text: List icon.\).
 
 3.  Select **All engagements** or **My engagements** in the Execution list.
 

@@ -2,6 +2,7 @@
 title: Preserving table hierarchy in Instance Data Replication
 description: Decide if you want to replicate a parent-child table hierarchy and what strategy to use for replicating the data in Instance Data Replication \(IDR\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/instance-data-replication-idr/preserving-table-hierarchy.html
 release: zurich
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -59,5 +60,5 @@ Before you create a replication set, determine if the table that you want to rep
     In this strategy, when you replicate the Task table, all replicated records have a value of task in the sys\_class\_name column, and no columns belonging to the child tables are replicated.
 
 
-**Parent Topic:**[Configuring Instance Data Replication](configuring-instance-data-replication.md)
+**Parent Topic:**[Configuring Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/instance-data-replication-idr/configuring-instance-data-replication.md)
 

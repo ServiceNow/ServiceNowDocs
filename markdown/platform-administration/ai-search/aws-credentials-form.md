@@ -2,6 +2,7 @@
 title: AWS Credentials form
 description: The AWS Credentials form contains information about security credentials defined for search application configurations in AI Search to connect to AWS. Use this form when creating or modifying a AWS credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/aws-credentials-form.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -15,7 +16,7 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 The AWS Credentials form contains information about security credentials defined for search application configurations in AI Search to connect to AWS. Use this form when creating or modifying a AWS credentials.
 
-For details on creating or modifying AWS credentials for embedding model, see [Set up a connection and credential alias for a third-party embedding model](../task/setup-alias-for-3p-embedding-model.md).
+For details on creating or modifying AWS credentials for embedding model, see [Set up a connection and credential alias for a third-party embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/setup-alias-for-3p-embedding-model.md).
 
 |Field|Description|
 |-----|-----------|
@@ -26,5 +27,5 @@ For details on creating or modifying AWS credentials for embedding model, see [S
 |Credential alias|Credential alias associated with this record.|
 |Authentication Algorithm|Pre-built authentication algorithm to connect to Amazon Web Services. For exampleAmazon SagemakerAlgorithm.|
 
-**Parent Topic:**[AI Search reference](../concept/reference-ais.md)
+**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/reference-ais.md)
 

@@ -2,11 +2,12 @@
 title: Execute RFC in the Source-to-Pay with SAP integration
 description: Execute RFC from the available list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/source-to-pay-integration-framework/execute-rfc-source-to-pay-sap-integration.html
 release: zurich
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Explore, Source-to-Pay integration with SAP, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -26,8 +27,6 @@ Step 3 - Add MID Server and credentials to the connection.
 Step 4 - Create ERP Source is an ERP source configuration table.
 
 Step 5 - Create a Service, add flow and give the necessary inputs in the fields.
-
-![Figure 0-1: Flow chart illustrating RFC Execution.](../image/rfc-execution.png)
 
 **Name**: ZSN\_BAPI\_GET\_DATA
 
@@ -124,14 +123,14 @@ Error Message
 Reason for error. Populated only when an error occurs. Error returned from SAP in the RETURN parameter.No or empty response received from SAP
 
 </td></tr></tbody>
-</table>-   ![Function Builder Initial Screen](../../sourcing-procurement-operations/image/function-builder-initial-screen.png "Function Builder Initial Screen")
+</table>-   \[Omitted image "function-builder-initial-screen.png"\] Alt text: Function Builder Initial Screen
 
--   ![IMPORT, CHANGING, and TABLES parameters](../../sourcing-procurement-operations/image/test-function-module.png "Enter the IMPORT, CHANGING, and TABLES parameters")
+-   \[Omitted image "test-function-module.png"\] Alt text: IMPORT, CHANGING, and TABLES parameters
 
--   ![Results data](../../sourcing-procurement-operations/image/test-function-module-result-screen.png "Results data")
+-   \[Omitted image "test-function-module-result-screen.png"\] Alt text: Results data
 
--   ![Results data](../../sourcing-procurement-operations/image/structure-editor.png "Results data")
+-   \[Omitted image "structure-editor.png"\] Alt text: Results data
 
-    ![Results Data](../../sourcing-procurement-operations/image/structure-editor-display-it.png "Results data")
+    \[Omitted image "structure-editor-display-it.png"\] Alt text: Results Data
 
 

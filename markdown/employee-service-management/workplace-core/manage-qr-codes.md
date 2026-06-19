@@ -2,6 +2,7 @@
 title: Manage QR codes
 description: View, update, or print the already generated QR codes in the application. Before printing, you can change the conditions of already generated QR codes if required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-core/manage-qr-codes.html
 release: zurich
 product: Workplace Core
 classification: workplace-core
@@ -25,7 +26,7 @@ Role required: sn\_wsd\_core.admin or sn\_wsd\_core.workplace\_manager
 
 2.  To generate a new QR code, click **New**.
 
-    For more information, refer to [Generate and print QR code for a space or room](generate-qr-code-1.md).
+    For more information, refer to [Generate and print QR code for a space or room](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
 3.  Select the QR code that you want to view or update.
 
@@ -38,5 +39,5 @@ Role required: sn\_wsd\_core.admin or sn\_wsd\_core.workplace\_manager
 
     -   To delete the QR code, click **Delete**.
 
-**Parent Topic:**[QR code management](../concept/qr-code-mgmt.md)
+**Parent Topic:**[QR code management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/qr-code-mgmt.md)
 

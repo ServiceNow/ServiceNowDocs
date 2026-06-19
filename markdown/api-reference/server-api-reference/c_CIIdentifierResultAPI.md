@@ -2,6 +2,7 @@
 title: CIIdentifierResult - Global
 description: The CIIdentifierResult script include provides methods that return the result returned by a configuration item identifier.Creates an instance of the CIIdentifierResult class.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_CIIdentifierResultAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The CIIdentifierResult script include provides methods that return the result re
 
 Use with any server-side discovery script.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## CIIdentifierResult - CIIdentifierResult\(Array matched, Boolean matchable, Boolean terminatedChain\)
 

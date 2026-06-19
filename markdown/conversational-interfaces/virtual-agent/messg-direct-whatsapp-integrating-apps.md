@@ -2,6 +2,7 @@
 title: Integrating the WhatsApp messaging app with other applications
 description: Other ServiceNow applications and features can use the Conversational Integration with WhatsApp \(powered by Twilio\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/messg-direct-whatsapp-integrating-apps.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent

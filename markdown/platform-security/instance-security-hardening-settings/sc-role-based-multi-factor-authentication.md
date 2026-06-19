@@ -2,6 +2,7 @@
 title: Activate role based multi-factor authentication \[Updated in Security Center 1.3\]
 description: Use the glide.authenticate.multifactor property to enforce role-based multi-factor authentication \(MFA\) for all users assigned to specific roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-role-based-multi-factor-authentication.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -26,7 +27,7 @@ Enforce multi-factor authentication based on the roles assigned to the user. If 
 |---------|-----------|
 |Property name|**glide.authenticate.multifactor**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Authentication](sc-authentication.md)|
+|Category|[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)|
 |Purpose|Enforce role-based multi-factor authentication for all users assigned to specific roles.|
 |Type|Boolean|
 |Recommended value|true|
@@ -35,7 +36,7 @@ Enforce multi-factor authentication based on the roles assigned to the user. If 
 |Security risk rating|7.2|
 |Functional impact|Enabling this property improves the experience of the user. It acts as an extra layer of protection and security against compromised credentials.|
 |Security risk|\(Moderate\) If this property is not enabled, there is a risk of unauthorized access to sensitive data.|
-|References|[Configure role-based multi-factor criteria](../../../integrate/authentication/task/mfa-role-criteria.md)|
+|References|[Configure role-based multi-factor criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/mfa-role-criteria.md)|
 
-**Parent Topic:**[Authentication](sc-authentication.md)
+**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

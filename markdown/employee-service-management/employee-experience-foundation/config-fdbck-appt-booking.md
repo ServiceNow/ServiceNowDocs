@@ -2,6 +2,7 @@
 title: Configure feedback for appointment booking
 description: Create a feedback definition for appointment booking so employees can provide feedback for completed appointments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/config-fdbck-appt-booking.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -23,9 +24,9 @@ Role required: sn\_hr\_sp.esc\_admin
 
 The appointment booking experience already contains two feedback definitions for Employee Center Pro and Employee Center Pro Kiosk.
 
-You can modify the feedback definitions provided with the plugin, or create your own. For more information about the feedback feature, see [Integrated experience and service feedback](../concept/ex-fdback-ovrvw.md).
+You can modify the feedback definitions provided with the plugin, or create your own. For more information about the feedback feature, see [Integrated experience and service feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ex-fdback-ovrvw.md).
 
-You can modify the number of times a user can submit feedback in a single session by configuring the **Overlay session limit** field in the feedback configuration. The **Overlay session limit** value is set to 5 by default. For more information about feedback configurations, see [Set up the feedback configuration](config-employee-ex-fdbck.md).
+You can modify the number of times a user can submit feedback in a single session by configuring the **Overlay session limit** field in the feedback configuration. The **Overlay session limit** value is set to 5 by default. For more information about feedback configurations, see [Set up the feedback configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/config-employee-ex-fdbck.md).
 
 If you create a custom feedback definition for appointment booking, ensure that you deactivate other feedback definitions that are on the same portal.
 
@@ -84,7 +85,7 @@ Portals
 
     -   my\_appointments
     -   appointment\_details
-    You can fill in the remaining fields based on your preference. For a description of the field values, see [Feedback definition form](../reference/fdbck-dfnition-record.md).
+    You can fill in the remaining fields based on your preference. For a description of the field values, see [Feedback definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/fdbck-dfnition-record.md).
 
 5.  Save the record.
 

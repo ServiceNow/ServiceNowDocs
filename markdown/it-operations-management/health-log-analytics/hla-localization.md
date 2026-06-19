@@ -2,6 +2,7 @@
 title: Health Log Analytics language support
 description: Health Log Analytics provides international language support. The default language is US English.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-localization.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -21,5 +22,5 @@ The current available languages for Health Log Analytics are as follows: US Engl
 
 **Note:** To receive keyword-based alerts for languages other than English, keywords in the relevant language must be added to the system before you start streaming. Contact ServiceNow Support for assistance.
 
-**Parent Topic:**[Health Log Analytics reference](../concept/hla-reference.md)
+**Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-reference.md)
 

@@ -2,6 +2,7 @@
 title: Debugging applications
 description: Application developers can display debug messages about configuration records to help them troubleshoot issues. The Debug Scopes module provides information about the system switching between custom applications to run server-side scripts.Application developers can use the Debug Scopes module to display information about when the system switches between custom applications to run server-side scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/c\_DebuggingApplications.html
 release: zurich
 product: Scripts
 classification: scripts
@@ -27,9 +28,9 @@ The system offers the following debugging options to help application developers
 
 When multiple applications contribute to the debug output, the system adds a new section called **Apps** to the display a list of the applications writing to the session log. Clicking on the check box next to the application name hides or displays the application's associated debug messages.
 
-![](../image/DebuggingApplicationBusinessRules.png "Sample application debug output of business rules")
+\[Omitted image "DebuggingApplicationBusinessRules.png"\] Alt text:
 
-**Parent Topic:**[Debugging scripts](script-debug-overview.md)
+**Parent Topic:**[Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/script-debug-overview.md)
 
 ## Debugging scopes
 
@@ -37,7 +38,7 @@ Application developers can use the **Debug Scopes** module to display informatio
 
 When enabled, the system displays a message whenever the system switches to a custom application to run a server-side script.
 
-![](../image/DebugScopesIncident.png "Sample debug scopes output from the incident table")
+\[Omitted image "DebugScopesIncident.png"\] Alt text:
 
 Every time the system runs a server-side script object it enters the script's scope context. When the script finishes running, the script exits the scope context. The debugging messages track changes to the script scope context.
 

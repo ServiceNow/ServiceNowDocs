@@ -2,6 +2,7 @@
 title: Import issues from Jira to SPW
 description: Import work items such as epics, features, capabilities, and stories from Jira to Strategic Planning Workspace \(SPW\) to enable end-to-end visibility in SPW.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/import-issues-from-jira-to-spw.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning
@@ -17,7 +18,7 @@ Import work items such as epics, features, capabilities, and stories from Jira t
 
 ## Before you begin
 
-[Enable bidirectional sync between SPW and Jira](enable-bidirectional-sync-spw-jira.md)
+[Enable bidirectional sync between SPW and Jira](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/enable-bidirectional-sync-spw-jira.md)
 
 Role required: sn\_jira\_int.user
 
@@ -42,6 +43,6 @@ After the State of the import request changes to Complete, all the work items fr
 
 ## What to do next
 
-1.  [Activate Jira configuration in Enterprise Agile Planning](activate-jira-configuration-in-eap.md).
-2.  [Define Agile structure in EAP for Jira Configuration](define-agile-structure-eap-teams-spw-jira-integrations.md)
+1.  [Activate Jira configuration in Enterprise Agile Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/activate-jira-configuration-in-eap.md).
+2.  [Define Agile structure in EAP for Jira Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/define-agile-structure-eap-teams-spw-jira-integrations.md)
 

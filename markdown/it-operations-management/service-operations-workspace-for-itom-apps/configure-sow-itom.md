@@ -2,6 +2,7 @@
 title: Configuring Service Operations Workspace for ITOM
 description: Configure Service Operations Workspace for ITOM so that you can manage IT alert volumes efficiently and customize the workspace to enhance service delivery and operational visibility.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/configure-sow-itom.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -19,9 +20,9 @@ The Service Operations Workspace for ITOM is a centralized hub designed to optim
 
 **Note:** Installing the AIOps Experience application \[sn\_sow\_aiops\] provides you with Service Operations Workspace for ITOM.
 
-If you want information regarding subscriptions for ITOM Service Operations Workspace, check the ITOM AIOps subscription at [Subscription for ITOM Health](../../it-operations-management/concept/itom-license-module.md).
+If you want information regarding subscriptions for ITOM Service Operations Workspace, check the ITOM AIOps subscription at [Subscription for ITOM Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-license-module.md).
 
 When setting up the Service Operations Workspace, it's crucial to configure both IT Operations Management \(ITOM\) for managing alerts and IT Service Management \(ITSM\) for resolving incidents and delivering services. This integrated setup ensures access to the full range of features, facilitating comprehensive management of IT operations and service quality.
 
-To know about the ITSM configurations, see [Configuring Service Operations Workspace for ITSM](https://www.servicenow.com/docs/access?context=configure-sow&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+To know about the ITSM configurations, see .
 

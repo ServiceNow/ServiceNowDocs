@@ -2,6 +2,7 @@
 title: Set the starting day of the week on the appointment booking calendar
 description: Customize the starting day of the week on your appointment booking calendar to match your organization's scheduling preferences. By default, the calendar week starts on Sunday, but you can easily set it to any day \(e.g., Monday\) or revert it if needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/configure-week-appt-book.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling

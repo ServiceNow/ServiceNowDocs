@@ -2,6 +2,7 @@
 title: Create multiple instances for the Microsoft Defender Mitigation Control Integration
 description: You can configure multiple instances for the Microsoft Defender Mitigation Control Integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/spc-new-instance-sccm-defender.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -189,6 +190,6 @@ Details about the validation attempt.
 
 10. Select **Next**.
 
-    The PowerShell script is created as described in [Install and configure the Service Graph Connector for Microsoft SCCM and the Microsoft Defender Mitigation Control Integration](spc-install-config-sccm-defender.md). Follow the steps in that topic to approve the scripts for your new instances.
+    The PowerShell script is created as described in [Install and configure the Service Graph Connector for Microsoft SCCM and the Microsoft Defender Mitigation Control Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-install-config-sccm-defender.md). Follow the steps in that topic to approve the scripts for your new instances.
 
 

@@ -2,6 +2,7 @@
 title: Activate a scheduled job to generate data to view portfolio financials
 description: Activate and define Data generation for financials in SPW/PPW scheduled job to migrate budget from old data model to new data model and view portfolio financials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/fin-data-generation-scheduled-job-spw.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -33,7 +34,7 @@ Role required: admin
 
 4.  Edit the fields on the Scheduled Script Execution form to customize the job and meet your requirements.
 
-    For more information about the field description and scripts, see [Automatically run a script of your choosing](https://www.servicenow.com/docs/access?context=t_ScheduleAScriptExecution&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US#t_ScheduleScriptExecution).
+    For more information about the field description and scripts, see .
 
 5.  Remove the condition `'active=true'` to generate the financial data and work on costs for inactive planning items.
 

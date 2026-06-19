@@ -2,6 +2,7 @@
 title: Approve with a process guide
 description: Process guides work similarly to approval rules in that their execution is controlled via a condition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/approvals/t\_ProcessGuideApprovals.html
 release: zurich
 product: Approvals
 classification: approvals
@@ -15,7 +16,7 @@ breadcrumb: [Approval rules, Classic approvals, Exploring Service Administration
 
 Process guides work similarly to approval rules in that their execution is controlled via a condition.
 
-**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://www.servicenow.com/docs/access?context=ask-approval-flow-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
+**Important:** Classic approval rules have been replaced by the Workflow Studio . Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
 
 ## Before you begin
 
@@ -47,16 +48,16 @@ You can link a process guide to a execution task.
 
     Example \#1: Apply to all "Capacity Review" tasks.
 
-    ![Capacity](../image/Capacity.png)
+    \[Omitted image "Capacity.png"\] Alt text: Capacity
 
     Example \#2: Apply to all "Capacity Review" tasks where there requester is in Atlanta.
 
-    ![Capacity Atlanta](../image/CapacityAtlanta.png)
+    \[Omitted image "CapacityAtlanta.png"\] Alt text: Capacity Atlanta
 
     Process guide tips and tricks:
 
     1.  All catalog tasks are generated when a request is first submitted, but tasks which aren't active yet have a state of "pending". So if you do not want to send out approval requests until a task has actually started, add "state=open" as part of your condition.
     2.  There is a "Default" process guide in the system for catalog tasks with a sequence number of 10,000. It behaves exactly the same way the old, pre-process guide code did in regards to approvals. Approvals are based on the execution of task-related lists.
 
-**Parent Topic:**[Approval rules](../concept/c_ApprovalRules.md)
+**Parent Topic:**[Approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/approvals/c_ApprovalRules.md)
 

@@ -2,6 +2,7 @@
 title: User roles in Regulatory Change Management
 description: Stakeholders in the Regulatory Change Management \(RCM\) application have different roles and responsibilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/regulatory-change-management-service-portal/roles-installed-rcm.html
 release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -60,7 +61,7 @@ The RCM IT Admin sets up the integrations with third-party regulatory intelligen
 -   oauth\_admin
 -   sn\_grc.developer
 
- **Note:** The GRC User role \(sn\_grc.user\) contains the GRC Business User role \(sn\_grc.business\_user\). For more information, see [Common roles in Governance, Risk, and Compliance](../../grc-common/reference/grc-common-roles.md).
+ **Note:** The GRC User role \(sn\_grc.user\) contains the GRC Business User role \(sn\_grc.business\_user\). For more information, see [Common roles in Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-common-roles.md).
 
 </td></tr><tr><td>
 
@@ -113,5 +114,5 @@ Provides Now Assist Panel rights to the user.GenAI roles must be combined with t
 -   sn\_grc\_comp\_genai.reg\_change\_ai\_user
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Regulatory Change Management reference](rcm-reference.md)
+</table>**Parent Topic:**[Regulatory Change Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/rcm-reference.md)
 

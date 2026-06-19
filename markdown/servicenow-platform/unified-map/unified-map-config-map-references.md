@@ -2,6 +2,7 @@
 title: Configure display of connections to a referenced class
 description: Configure how to display connections to a referenced class and from a referencing class on Unified Map. A reference connects two CIs from differing classes that aren't connected by a relationship. These are general settings that only sn\_cmdb\_admin can configure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/unified-map/unified-map-config-map-references.html
 release: zurich
 product: Unified Map
 classification: unified-map
@@ -45,8 +46,8 @@ For example, you want the map to display references to records in the File Syste
 
 3.  Select **Submit** or **Update**.
 
-    The updated settings appear in the appropriate related list on the Configuration identifier form, as described in [Configuring Unified Map — Admin settings](../concept/administer-unified-map.md).
+    The updated settings appear in the appropriate related list on the Configuration identifier form, as described in [Configuring Unified Map — Admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/unified-map/administer-unified-map.md).
 
 
-**Parent Topic:**[Configuring Unified Map — Admin settings](../concept/administer-unified-map.md)
+**Parent Topic:**[Configuring Unified Map — Admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/unified-map/administer-unified-map.md)
 

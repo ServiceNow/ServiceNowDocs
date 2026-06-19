@@ -2,7 +2,10 @@
 title: AES/AEMC integration properties
 description: The AES/AEMC integration provides automated governance for custom application deployments by validating the scoped applications against admin-defined conditions before approval. When a developer submits a deployment request from App Engine Studio or ServiceNow Studio, the system automatically runs compliance checks using the Scan Engine to ensure all required rules are met. If the are not, it blocks the deployment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/aes-aemc-integration-properties.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-11-04"
 reading_time_minutes: 3
@@ -13,7 +16,7 @@ breadcrumb: [Scan Engine integrations, Scan Engine, Platform Health, Using Impac
 
 The AES/AEMC integration provides automated governance for custom application deployments by validating the scoped applications against admin-defined conditions before approval. When a developer submits a deployment request from App Engine Studio or ServiceNow Studio, the system automatically runs compliance checks using the Scan Engine to ensure all required rules are met. If the are not, it blocks the deployment.
 
-**Note:** Configuration of deployment pipelines is beyond the scope of this topic. The information in this topic assumes that the deployment pipelines within ServiceNow are configured. For information on configuring deployment pipelines, refer to [Configure Pipelines and Deployments](https://www.servicenow.com/docs/csh?topicname=config-p-and-d.html&version=latest).
+**Note:** Configuration of deployment pipelines is beyond the scope of this topic. The information in this topic assumes that the deployment pipelines within ServiceNow are configured. For information on configuring deployment pipelines, refer to [Configure Pipelines and Deployments](https://www.servicenow.com/docs/access?context=config-p-and-d).
 
 Integrating Scan Engine with App Engine Studio, ServiceNow Studio, or Pipelines and Deployments requires you to perform two procedures:
 

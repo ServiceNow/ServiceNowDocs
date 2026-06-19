@@ -2,6 +2,7 @@
 title: Unlink documents from a parent record
 description: Remove and unlink documents from a parent record when they are no longer relevant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/unlink-docs-parent-rec.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -34,5 +35,5 @@ Role required: admin
 4.  In the **Actions on selected rows** drop-down menu, select **Remove**.
 
 
-**Parent Topic:**[Linking documents to a parent record](../concept/doc-linked-parent-rec.md)
+**Parent Topic:**[Linking documents to a parent record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/doc-linked-parent-rec.md)
 

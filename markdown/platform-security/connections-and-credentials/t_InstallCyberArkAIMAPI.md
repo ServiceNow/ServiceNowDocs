@@ -2,6 +2,7 @@
 title: Configure the CyberArk vault and install the AIM API
 description: Configure the CyberArk vault to allow MID Server access and install the CyberArk AIM API on the MID Server machine.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/connections-and-credentials/t\_InstallCyberArkAIMAPI.html
 release: zurich
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -19,7 +20,7 @@ Configure the CyberArk vault to allow MID Server access and install the CyberArk
 
 Role required: admin
 
-Before starting this procedure, ensure that the [External Credential Storage plugin](t_ActivateExtrnlCredStoragePlugIn.md) is activated. CyberArk Application Access Manager \(AAM\) Credential Providers version 12.0.1 and later is supported.
+Before starting this procedure, ensure that the [External Credential Storage plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/t_ActivateExtrnlCredStoragePlugIn.md) is activated. CyberArk Application Access Manager \(AAM\) Credential Providers version 12.0.1 and later is supported.
 
 ## Procedure
 
@@ -31,9 +32,11 @@ Before starting this procedure, ensure that the [External Credential Storage plu
 
     2.  Make sure that every credential the MID Server needs is granted access to the **ServiceNow\_MID\_Server** App-ID.
 
-        **Note:** You can override the default **ServiceNow\_MID\_Server** App-ID in the MID Server `config.xml` file using the [ext.cred.app\_id](t_ConfigureTheMIDServerForCyberArk.md) parameter. If you change the value in this parameter, make sure to configure a matching value in the vault.
+        **Note:** You can override the default **ServiceNow\_MID\_Server** App-ID in the MID Server `config.xml` file using the [ext.cred.app\_id](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/t_ConfigureTheMIDServerForCyberArk.md) parameter. If you change the value in this parameter, make sure to configure a matching value in the vault.
 
 2.  Install the CyberArk Credential Provider, including the AIM API, on each machine that hosts a MID Server service that is used to access the credential store.
+
+    **Note:** For information about installing AIM, refer to the CyberArk customer documentation.
 
 3.  Provision CyberArk accounts and set permissions for application access.
 
@@ -44,5 +47,5 @@ Before starting this procedure, ensure that the [External Credential Storage plu
     2.  Add the Credential Provider and application users as members of the Password Safes where the application passwords are stored.
 
 
-**Parent Topic:**[CyberArk integration configuration](../concept/c_CyberArkIntegrationConfiguration.md)
+**Parent Topic:**[CyberArk integration configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/c_CyberArkIntegrationConfiguration.md)
 

@@ -2,7 +2,10 @@
 title: Product Service select version of the case type selector
 description: With the Product Service select version of the case type selector, agents can create cases of the correct type based on the selected product or service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-case-type-select-modals-product-service.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 7
@@ -21,7 +24,7 @@ The Product Service select version of the case type selector supports services a
 -   Browse the available services using scroll bars and pagination.
 -   Select a service and create a case based on the service or case type.
 
-![Product Service select version of the case type selector with fields for selecting a product, service category, and service](../image/product-service-select-modal.png "Case type selector (Product Service select version)")
+\[Omitted image "product-service-select-modal.png"\] Alt text: Product Service select version of the case type selector with fields for selecting a product, service category, and service
 
 ## Creating cases using the Product Service select version
 
@@ -148,7 +151,7 @@ The Product Service select version of the case type selector displays the availa
 -   Description
 -   Image
 
-When an administrator creates a service definition, they can provide a name for the service. They can also provide a description of the service and add an image to represent the service. For more information, see [Create a service definition](../task/create-csm-service-definition.md).
+When an administrator creates a service definition, they can provide a name for the service. They can also provide a description of the service and add an image to represent the service. For more information, see [Create a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-csm-service-definition.md).
 
 ## Browsing services in the case type selector
 

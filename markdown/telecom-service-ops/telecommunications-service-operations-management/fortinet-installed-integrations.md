@@ -2,6 +2,7 @@
 title: Fortinet installed integrations
 description: Use these predefined system integrations to monitor your Fortinet devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-service-ops/telecommunications-service-operations-management/fortinet-installed-integrations.html
 release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management

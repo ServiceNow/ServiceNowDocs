@@ -2,11 +2,12 @@
 title: Configure Cisco Meraki Service Graph Connector
 description: Configure the Cisco Meraki Service Graph Connector \(SGC\) to import physical and logical inventory data from the Cisco Meraki \(SGC\) into your Configuration Management Database \(CMDB\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-service-ops/telecommunications-service-operations-management/configuring-cisco-meraki-service-graph-connector.html
 release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 2
 breadcrumb: [Set up Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
@@ -19,7 +20,7 @@ Configure the Cisco Meraki Service Graph Connector \(SGC\) to import physical an
 
 You must authenticate before initiating discovery. During the authentication process, the discovery service receives an access token, which it then uses for bulk or specific discovery operations. The integration uses Cisco Meraki REST APIs to discover managed elements such as network equipment, interfaces, and services.
 
-This integration uses REST APIs \(via a MID Server\) to ensure the CMDB reflects accurate, up-to-date telecom inventory aligned with the TM Forum-based data model. For a list of API references, see [Cisco Meraki Service Graph Connector API Endpoints](../reference/cisco-meraki-service-graph-connector-api-endpoints.md).
+This integration uses REST APIs \(via a MID Server\) to ensure the CMDB reflects accurate, up-to-date telecom inventory aligned with the TM Forum-based data model. For a list of API references, see [Cisco Meraki Service Graph Connector API Endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/cisco-meraki-service-graph-connector-api-endpoints.md).
 
 **Note:** A valid subscription is required to use this connector.
 
@@ -55,5 +56,5 @@ The following sections are available under the Cisco Meraki navigation pane. Use
 Use the guided setup to simplify the configuration process. This setup provides an organized sequence of steps to help you complete integration quickly and correctly. To access the guided setup:
 
 1.  Navigate to **All** &gt; **Service Graph Connectors** &gt; **Cisco Meraki** &gt; **Setup**.
-2.  Follow the task sequence to configure MID Server settings, Cisco Meraki connections, filters, and import schedules. For more information, see [Set up the Service Graph Connector for Cisco Meraki schedule](../task/set-up-cisco-meraki.md).
+2.  Follow the task sequence to configure MID Server settings, Cisco Meraki connections, filters, and import schedules. For more information, see [Set up the Service Graph Connector for Cisco Meraki schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/set-up-cisco-meraki.md).
 

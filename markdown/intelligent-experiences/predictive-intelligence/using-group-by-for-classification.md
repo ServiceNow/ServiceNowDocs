@@ -2,6 +2,7 @@
 title: Using Group By for classification
 description: Use APIs to simultaneously submit multiple classification solutions for training based on the Group By field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/predictive-intelligence/using-group-by-for-classification.html
 release: zurich
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -73,11 +74,11 @@ For more context regarding this example and the general usage of Machine Learnin
 **Related topics**  
 
 
-[DatasetDefinition - Global](https://www.servicenow.com/docs/access?context=DatasetDefinitionAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.DatasetDefinitionAPI]
 
-[ClassificationSolution - Global](https://www.servicenow.com/docs/access?context=ClassificationSolutionAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.ClassificationSolutionAPI]
 
-[ClassificationSolutionStore - Global](https://www.servicenow.com/docs/access?context=ClassificationSolutionStoreAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.ClassificationSolutionStoreAPI]
 
-[ClassificationSolutionVersion - Global](https://www.servicenow.com/docs/access?context=ClassificationSolutionVersionAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.ClassificationSolutionVersionAPI]
 

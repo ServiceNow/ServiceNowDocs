@@ -2,6 +2,7 @@
 title: Integration and configuration health event fields
 description: Populate the event fields to capture details such as the event time, description, alert number, state, severity, metric name, node, message key, and error message, enabling precise tracking, effective incident management, and improved error analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/integration-config-health-event-fields.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -27,7 +28,7 @@ Populate the event fields to capture details such as the event time, description
 |Message Key|Unique identifier for the event message.|
 |Error Message|Provides additional information about any errors associated with the event.|
 
-To return to the procedure, see [Review integration and configuration health](../task/review-integration-config-health.md).
+To return to the procedure, see [Review integration and configuration health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/review-integration-config-health.md).
 
-**Parent Topic:**[Service Operations Workspace for ITOM reference](../concept/sow-reference-itom.md)
+**Parent Topic:**[Service Operations Workspace for ITOM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/sow-reference-itom.md)
 

@@ -2,6 +2,7 @@
 title: Review the Microsoft Azure Sentinel integration settings
 description: Review the Microsoft Azure Sentinel integration settings so that you can modify the system properties to suit your environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/sentinel-integration-settings.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

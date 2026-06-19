@@ -2,6 +2,7 @@
 title: Raise an AI inquiry form
 description: Use the Raise an AI inquiry form in the Employee Center to submit your questions about AI systems, models, or datasets and their business applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/ai-risk-management/raise-ai-inquiry-form.html
 release: zurich
 product: AI Risk Management
 classification: ai-risk-management
@@ -90,5 +91,5 @@ Location
 Location where the request was raised. For example, Japan.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Raise an AI inquiry](../task/raise-ai-inquiry.md)
+</table>**Parent Topic:**[Raise an AI inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/raise-ai-inquiry.md)
 

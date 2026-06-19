@@ -2,6 +2,7 @@
 title: Security Incident Response AI agent collection for the Analyze security operations metrics agentic workflow
 description: The Analyze security operations metrics agentic workflow helps security operations center managers analyze the performance of their security teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/now-assist-for-security-incident-response-sir/now-assist-sir-soc-efficiency-usecase.html
 release: zurich
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir

@@ -2,6 +2,7 @@
 title: Create taxonomy
 description: Create taxonomy for employee content to map the content of your product or services to the taxonomy hierarchy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/create-taxonomy-content.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -30,7 +31,7 @@ Role required: taxonomy\_admin
 
 3.  On the form, fill in the fields.
 
-    For more information on the fields and description, see [Taxonomy form](../reference/taxonomy-form.md).
+    For more information on the fields and description, see [Taxonomy form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/taxonomy-form.md).
 
 4.  Click **Submit**.
 

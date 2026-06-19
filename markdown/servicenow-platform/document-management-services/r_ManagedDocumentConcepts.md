@@ -2,6 +2,7 @@
 title: Managed Document concepts
 description: The following concepts explain Managed Documents: Managed Document, Document Collection, Document Revisions, and Document Parameters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/r\_ManagedDocumentConcepts.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -65,5 +66,5 @@ Document Parameters
 -   Approval Rules: Defines the approvals the document must have before it can be published.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Managed Document features](r_ManagedDocumentFeatures.md)
+</table>**Parent Topic:**[Managed Document features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/r_ManagedDocumentFeatures.md)
 

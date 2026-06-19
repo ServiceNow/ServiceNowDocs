@@ -2,6 +2,7 @@
 title: Share knowledge in a Connect Support conversation
 description: The support view of the Connect workspace has a built-in knowledge tool that makes it easy to search for knowledge articles and share them in a conversation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/connect/t\_ShareKnowledgeInConnectSupport.html
 release: zurich
 product: Connect
 classification: connect
@@ -31,15 +32,15 @@ Use the knowledge tool to research user questions and provide solutions quickly 
 
 2.  In the conversation tools area to the right of the conversation pane, click the knowledge base tab, which is represented by an open book icon.
 
-    ![The knowledge base tab is represented by an open book icon](../image/ConnectSupportKnowledgeBaseTab.png)
+    \[Omitted image "ConnectSupportKnowledgeBaseTab.png"\] Alt text: The knowledge base tab is represented by an open book icon
 
     The knowledge homepage appears in the conversation tools pane.
 
-    ![The knowledge base](../image/ConnectSupportKnowledgeBaseHome.png)
+    \[Omitted image "ConnectSupportKnowledgeBaseHome.png"\] Alt text: The knowledge base
 
 3.  Search for articles related to the user's issue.
 
-    For more information about finding knowledge, see [Search using Knowledge Management v3](../../../product/knowledge-management/reference/r_KnowledgeSearch.md).
+    For more information about finding knowledge, see [Search using Knowledge Management v3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/r_KnowledgeSearch.md).
 
 4.  To share an article in the conversation, drag a knowledge article link to the conversation pane and drop it anywhere in the drop zone that appears.
 

@@ -2,6 +2,7 @@
 title: Review offboarding knowledge transfer summaries using Now Assist
 description: Departing employees working for organizations using the offboarding knowledge transfer plan generation agentic workflow can use Now Assist in Virtual Agent to review and approve AI-generated knowledge transfer summaries. Once the employee approves the summary, it’s shared with the manager and designated team members.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-hrsd/review-knowledge-xfer-na.html
 release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -17,7 +18,7 @@ Departing employees working for organizations using the offboarding knowledge tr
 
 ## Before you begin
 
-The manager must have completed the knowledge transfer request for the departing employee. For more information about this process, see [Generate offboarding knowledge transfer plans using Now Assist](generate-knowledge-xfer-na.md).
+The manager must have completed the knowledge transfer request for the departing employee. For more information about this process, see [Generate offboarding knowledge transfer plans using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/generate-knowledge-xfer-na.md).
 
 Role required: employee
 

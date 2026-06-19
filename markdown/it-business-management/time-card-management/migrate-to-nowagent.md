@@ -2,6 +2,7 @@
 title: Use Mobile Time Sheets in Now Mobile
 description: You can configure your platform system to use Mobile Time Sheets in the Now Mobile application. By default, Mobile Time Sheets can be viewed in the Now Mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/time-card-management/migrate-to-nowagent.html
 release: zurich
 product: Time Card Management
 classification: time-card-management
@@ -37,8 +38,8 @@ The Mobile Time Sheets app must be installed in your system.
 
 7.  Download and enable the Now Mobile app.
 
-    For more information, see the [Now Mobile app](https://www.servicenow.com/docs/access?context=now-mobile-app&version=zurich&pubname=zurich-mobile&ft:locale=en-US) topic.
+    For more information, see the Now Mobile app topic.
 
 
-**Parent Topic:**[Install Mobile Time Sheets](install-timesheet-mobile.md)
+**Parent Topic:**[Install Mobile Time Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/time-card-management/install-timesheet-mobile.md)
 

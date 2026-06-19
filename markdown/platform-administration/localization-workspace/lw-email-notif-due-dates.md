@@ -2,6 +2,7 @@
 title: Create email notifications for translation request due dates
 description: As an admin, you can create email notifications triggered by translation request due dates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/localization-workspace/lw-email-notif-due-dates.html
 release: zurich
 product: Localization Workspace
 classification: localization-workspace
@@ -17,7 +18,7 @@ As an admin, you can create email notifications triggered by translation request
 
 ## Before you begin
 
-Create your own notification category to identify and group your notifications related to Localization Workspace translation projects. For instructions see [Create notification categories](../../notification/task/create-notification-categories.md).
+Create your own notification category to identify and group your notifications related to Localization Workspace translation projects. For instructions see [Create notification categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/create-notification-categories.md).
 
 Role required: admin
 
@@ -25,7 +26,7 @@ Role required: admin
 
 From version 2.0.2, your users may set a due date when requesting translations in Localization Workspace. You can reference these due dates to send email notifications.
 
-For more information see [Request translations in Localization Workspace: Estimate and Due Date](lw-estimate.md). For background information about configuring email notifications, see [Create an email notification](../../notification/task/t_CreateANotification.md).
+For more information see [Request translations in Localization Workspace: Estimate and Due Date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/lw-estimate.md). For background information about configuring email notifications, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_CreateANotification.md).
 
 The following procedure is specific to notifications for Localization Workspace translation request due dates. In the example scenario, a notification is sent when a translation request is past due \(the request is still in progress after its due date\).
 
@@ -41,21 +42,21 @@ The following procedure is specific to notifications for Localization Workspace 
     |-----|-----------|
     |**Name**|Enter a unique, descriptive name for these notifications.|
     |**Table**|Select the Localization Project \[sn\_lf\_project\] table from the list of tables.|
-    |**Category**|If you have already set up your own category for these notifications, you can select it from the drop-down list. For information see [Create notification categories](../../notification/task/create-notification-categories.md).|
+    |**Category**|If you have already set up your own category for these notifications, you can select it from the drop-down list. For information see [Create notification categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/create-notification-categories.md).|
 
-    ![An email notification form with the Table field set to Localization Project. Includes a reminder to preconfigure the notification Category.](../image/lw-email-notif-due-dates-main.png)
+    \[Omitted image "lw-email-notif-due-dates-main.png"\] Alt text: An email notification form with the Table field set to Localization Project. Includes a reminder to preconfigure the notification Category.
 
 4.  On the **When to send** tab, fill in the fields.
 
-<table id="choicetable_fpy_zx4_nhc"><thead><tr><th align="left" id="d234428e191">
+<table id="choicetable_fpy_zx4_nhc"><thead><tr><th align="left" id="d83958e191">
 
 Field
 
-</th><th align="left" id="d234428e194">
+</th><th align="left" id="d83958e194">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d234428e200">
+</th></tr></thead><tbody><tr><td id="d83958e200">
 
 **Send when**
 
@@ -63,7 +64,7 @@ Description
 
 Select `Record inserted or updated`.
 
-</td></tr><tr><td id="d234428e212">
+</td></tr><tr><td id="d83958e212">
 
 **Updated**
 
@@ -71,7 +72,7 @@ Select `Record inserted or updated`.
 
 Select this check box.
 
-</td></tr><tr><td id="d234428e221">
+</td></tr><tr><td id="d83958e221">
 
 **Inserted**
 
@@ -79,7 +80,7 @@ Select this check box.
 
 Clear this check box.
 
-</td></tr><tr><td id="d234428e230">
+</td></tr><tr><td id="d83958e230">
 
 **Conditions**
 
@@ -90,27 +91,27 @@ In the example, two conditions are set:1.  `State is In Progress`
 
 
 </td></tr></tbody>
-</table>    ![The When to send tab of the email notification form. Two example conditions are highlighted.](../image/lw-email-notif-due-dates-when.png)
+</table>    \[Omitted image "lw-email-notif-due-dates-when.png"\] Alt text: The When to send tab of the email notification form. Two example conditions are highlighted.
 
 5.  On the **Who will receive** tab, fill in the fields according to your organizational requirements.
 
-<table id="choicetable_kyt_4th_nhc"><thead><tr><th align="left" id="d234428e268">
+<table id="choicetable_kyt_4th_nhc"><thead><tr><th align="left" id="d83958e268">
 
 Field
 
-</th><th align="left" id="d234428e271">
+</th><th align="left" id="d83958e271">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d234428e277">
+</th></tr></thead><tbody><tr><td id="d83958e277">
 
 **Users**
 
 </td><td>
 
-Select the lock icon ![](../../../use/using-forms/image/LockIconNE.png) to add an individual user from the User \[sys\_user\] table.
+Select the lock icon \[Omitted image "LockIconNE.png"\] to add an individual user from the User \[sys\_user\] table.
 
-</td></tr><tr><td id="d234428e288">
+</td></tr><tr><td id="d83958e288">
 
 **Users/Groups in Fields**
 
@@ -118,7 +119,7 @@ Select the lock icon ![](../../../use/using-forms/image/LockIconNE.png) to add a
 
 Select the lock icon to add recipients from fields in the Localization Project \[sn\_lf\_project\] table.
 
-</td></tr><tr><td id="d234428e297">
+</td></tr><tr><td id="d83958e297">
 
 **Groups**
 
@@ -126,7 +127,7 @@ Select the lock icon to add recipients from fields in the Localization Project \
 
 Select the lock icon to add a group of users, such as Localization Requestor, from the Group \[sys\_user\_group\] table.
 
-</td></tr><tr><td id="d234428e306">
+</td></tr><tr><td id="d83958e306">
 
 **Subscribable**
 
@@ -137,15 +138,15 @@ Option to enable all users to subscribe to the notification.**Note:** Recipients
 </td></tr></tbody>
 </table>6.  On the **What it will contain** tab, fill in the fields according to your organizational requirements.
 
-<table id="choicetable_bxw_f1p_nhc"><thead><tr><th align="left" id="d234428e330">
+<table id="choicetable_bxw_f1p_nhc"><thead><tr><th align="left" id="d83958e330">
 
 Field
 
-</th><th align="left" id="d234428e333">
+</th><th align="left" id="d83958e333">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d234428e339">
+</th></tr></thead><tbody><tr><td id="d83958e339">
 
 **Email template**
 
@@ -153,7 +154,7 @@ Description
 
 You can search for an existing template.
 
-</td></tr><tr><td id="d234428e348">
+</td></tr><tr><td id="d83958e348">
 
 **Subject**
 
@@ -161,7 +162,7 @@ You can search for an existing template.
 
 You can use variables from the Localization Project \[sn\_lf\_project\] table, available under **Select variables**.
 
-</td></tr><tr><td id="d234428e360">
+</td></tr><tr><td id="d83958e360">
 
 **Message HTML**
 
@@ -180,9 +181,9 @@ You can use variables from the Localization Project \[sn\_lf\_project\] table, a
 
 After creating or updating a notification, review its record in the Notifications \[sysevent\_email\_action\] table. You can select **Preview Notification** to open an example of the email notification. Use this function to confirm how the notification appears to recipients.
 
-![In the top menu bar of the example's notification form, the Preview Notification button is highlighted.](../image/lw-email-notif-due-dates-preview.png)
+\[Omitted image "lw-email-notif-due-dates-preview.png"\] Alt text: In the top menu bar of the example's notification form, the Preview Notification button is highlighted.
 
-For more information, see [Preview email notifications](../../notification/task/t_PreviewingNotifications.md).
+For more information, see [Preview email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_PreviewingNotifications.md).
 
-**Parent Topic:**[Creating email notifications for Localization Workspace](../concept/lw-email-notifications.md)
+**Parent Topic:**[Creating email notifications for Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/lw-email-notifications.md)
 

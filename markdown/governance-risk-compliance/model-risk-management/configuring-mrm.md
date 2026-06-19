@@ -2,6 +2,7 @@
 title: Configuring Model Risk Management
 description: Plan and configure the implementation of the Model Risk Management application. You can follow the steps listed in this topic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/model-risk-management/configuring-mrm.html
 release: zurich
 product: Model Risk Management
 classification: model-risk-management
@@ -18,7 +19,7 @@ Plan and configure the implementation of the Model Risk Management application. 
 
 ## Configuration overview
 
-1.  [Install Model Risk Management](../task/install-mrm.md)
+1.  [Install Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/model-risk-management/install-mrm.md)
 
     Install the Model Risk Management application \(sn\_model\_risk\_mgmt\) with the admin role. The application installs related ServiceNow® Store applications and plugins if they aren’t already installed.
 

@@ -2,6 +2,7 @@
 title: Activate the business rule for the Triage legal requests agentic workflow
 description: Activate the business rules for the Triage legal requests agentic workflow in the Now Assist for Legal Service Delivery \(LSD\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-legal-service-delivery/lsd-agentic-config-BR.html
 release: zurich
 product: Now Assist for Legal Service Delivery
 classification: now-assist-for-legal-service-delivery
@@ -43,7 +44,7 @@ By default, the script include in this business rule contains the sys\_id of the
 
     2.  In the script, update the value for **usecaseId** with the sys\_id of the customized agentic workflow.
 
-        ![Update the usecaseId with the sys_id of the customized agentic workflow.](../image/lsd-agentic-add-sys-id.png)
+        \[Omitted image "lsd-agentic-add-sys-id.png"\] Alt text: Update the usecaseId with the sys\_id of the customized agentic workflow.
 
         To get the sys\_id of a customized use case, navigate to the use cases list, right-click the customized use case record, and select  **Copy sys\_id**.
 

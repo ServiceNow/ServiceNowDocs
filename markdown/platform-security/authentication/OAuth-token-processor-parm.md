@@ -2,6 +2,7 @@
 title: Change OAuth password parameter
 description: Use this property to ensure only POST body parameters are accepted as input for all supported grant types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/OAuth-token-processor-parm.html
 release: zurich
 product: Authentication
 classification: authentication

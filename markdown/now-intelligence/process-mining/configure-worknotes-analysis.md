@@ -2,6 +2,7 @@
 title: Configure worknotes analysis
 description: Configure work notes analysis for a process table to view the work notes analysis for a project based on that process table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/configure-worknotes-analysis.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -30,11 +31,11 @@ Configure work notes analysis for a process table to view the work notes analysi
 
 2.  Select a table from the list if you want to configure work notes analysis for a table available in the list.
 
-    If you don’t have the table listed, select **New**. For more information, see [Create process configuration using Classic view](create-process-config.md).
+    If you don’t have the table listed, select **New**. For more information, see [Create process configuration using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/create-process-config.md).
 
-    **Note:** For information on configuring work notes analysis using the Process Configuration Builder, see [Configure investigative features](investigative-features.md).
+    **Note:** For information on configuring work notes analysis using the Process Configuration Builder, see [Configure investigative features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/investigative-features.md).
 
-    ![Configure Work notes Analysis](../image/worknotes-configure.png)
+    \[Omitted image "worknotes-configure.png"\] Alt text: Configure Work notes Analysis
 
 3.  In the **Work Note Analysis** tab, fill in the fields.
 
@@ -85,5 +86,5 @@ Enter user names that are associated with system-generated work notes to exclude
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Work notes analysis](../concept/worknotes-analysis.md)
+**Parent Topic:**[Work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/worknotes-analysis.md)
 

@@ -2,6 +2,7 @@
 title: Use the Show component
 description: Display custom messages as part of a Attended Robot automation by using the Show component in the RPA Desktop Design Studio
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/use-general-messagebox-show.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -23,7 +24,7 @@ Role required: none
 
 For example, in an assisted automation, a component could evaluate a user input and show a message `Incorrect Date of Birth` through the Show component.
 
-You can configure the properties for the Show component. For more information about these properties, see [Properties of the General components](../reference/Properties-general-components.md).
+You can configure the properties for the Show component. For more information about these properties, see [Properties of the General components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/Properties-general-components.md).
 
 ## Procedure
 
@@ -31,7 +32,7 @@ You can configure the properties for the Show component. For more information ab
 
 2.  Drag the Show component to the Design surface.
 
-3.  To configure the input field, see [Configure port properties](configure-input-port-properties.md).
+3.  To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the Show component to the corresponding ports of the other components as described in the following table.
 
@@ -42,5 +43,5 @@ You can configure the properties for the Show component. For more information ab
 5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[General](../concept/general-component.md)
+**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/general-component.md)
 

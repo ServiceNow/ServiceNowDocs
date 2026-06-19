@@ -2,6 +2,7 @@
 title: Map an IP address to a DNS name
 description: Associate the IP address to a DNS name to ensure the appropriate MID Server is selected. The IP Address range configuration determines which MID Server is selected. If the MID Server manages resources within defined IP ranges, all host servers must have their DNS names mapped to an IP address.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/mid-server/t\_MapIPAddressToDNSName.html
 release: zurich
 product: MID Server
 classification: mid-server
@@ -57,5 +58,5 @@ If Discovery cannot discover the server and resolve the DNS name to an IP addres
 10. Click **Submit**.
 
 
-**Parent Topic:**[Configuring MID Servers](../concept/c_MIDServerConfiguration.md)
+**Parent Topic:**[Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/c_MIDServerConfiguration.md)
 

@@ -2,11 +2,12 @@
 title: Configure incident ticket page
 description: Configure the Incident ticket page from where users can view the details of an Incident in Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/config-inci-ticket-page.html
 release: zurich
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
 breadcrumb: [Incident standard ticket page, Manage, Incident Management, IT Service Management]
 ---
@@ -23,7 +24,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Standard Ticket** &gt; **Standard Ticket Configuration** &gt; **Incident**.
 
-2.  Click the Incident record.
+2.  Select the Incident record.
 
 3.  On the form, configure the fields.
 
@@ -112,7 +113,7 @@ Info widget parameters
 
 </td><td>
 
-Comma-separated list of info widget parameters. This field appears only when the **Advanced** check box is selected.
+Comma-separated list of info widget parameters. This field appears only when the **Advanced** check box is selected.**Note:** Enter parameters in the format `key=value` separated by commas. For example, `table=incident, sys_id=current.sys_id`. To find the valid parameters, open the widget record in the [Service Portal](https://www.servicenow.com/docs/r/platform-user-interface/service-portal/service-portal-widgets.html) and review the client or server scripts for the accepted input options.
 
 </td></tr><tr><td>
 
@@ -149,7 +150,7 @@ Action widget parameters
 
 </td><td>
 
-Comma-separated list of action widget parameters.
+Comma-separated list of action widget parameters.**Note:** Use the same `key=value` format as Info widget parameters.
 
 </td></tr></tbody>
 </table>    **Note:**
@@ -160,7 +161,7 @@ Comma-separated list of action widget parameters.
     -   You can add only one of these tab types:
         -   Variable Editor \(Read-Only\)
         -   Variable Summarizer
-4.  Right-click the header menu and click **Save**.
+4.  Select and hold \(or right-click\) the header menu and select **Save**.
 
 5.  On the Tab Configurations related list, configure the fields.
 
@@ -235,6 +236,6 @@ Widget parameters
 Comma-separated list of tab widget parameters. This field appears only when **Custom** is selected from **Type**.
 
 </td></tr></tbody>
-</table>6.  On the Ticket Configuration form, click **Update**.
+</table>6.  On the Ticket Configuration form, select **Update**.
 
 

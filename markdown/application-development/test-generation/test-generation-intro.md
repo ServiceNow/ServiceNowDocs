@@ -2,6 +2,7 @@
 title: Test generation
 description: Simplify your automated test authoring by leveraging the power of ServiceNow's Test generation skill available as part of the Creator Pro Plus product offering. Simply describe your test requirements, and Test generation generates the test for you. You can then review the generated test before accepting it or make any edits with an updated prompt.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/test-generation/test-generation-intro.html
 release: zurich
 product: Test Generation
 classification: test-generation
@@ -15,7 +16,7 @@ breadcrumb: [Testing and debugging applications, Building applications]
 
 Simplify your automated test authoring by leveraging the power of ServiceNow's Test generation skill available as part of the Creator Pro Plus product offering. Simply describe your test requirements, and Test generation generates the test for you. You can then review the generated test before accepting it or make any edits with an updated prompt.
 
-**Note:** Test generation leverages the foundation provided by the Automated Test Framework \(ATF\). Refer [Automated Test Framework \(ATF\)](../../auto-test-framework/concept/atf-landing-page.md) documentation for further details.
+**Note:** Test generation leverages the foundation provided by the Automated Test Framework \(ATF\). Refer [Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-landing-page.md) documentation for further details.
 
 The Test generation skill is available only for Next Experience UI users.
 
@@ -23,15 +24,15 @@ The Test generation skill is available only for Next Experience UI users.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../T2T/image/t2t-icon-explore.png)Learn about Test generation](tg-explore.md)
+[Explore\[Omitted image "t2t-icon-explore.png"\] Alt text:Learn about Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/test-generation/tg-explore.md)
 
 </td><td>
 
-[Use![](../../T2T/image/t2t-review-icon.png) Use the Test generation skill to automatically generate and modify tests](tg-use.md)
+[Use\[Omitted image "t2t-review-icon.png"\] Alt text: Use the Test generation skill to automatically generate and modify tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/test-generation/tg-use.md)
 
 </td></tr><tr><td>
 
-[Reference![](../../T2T/image/t2t-reference-icon.png) Learn miscellaneous information about Test generation](tg-reference.md)
+[Reference\[Omitted image "t2t-reference-icon.png"\] Alt text: Learn miscellaneous information about Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/test-generation/tg-reference.md)
 
 </td><td>
 
@@ -43,7 +44,7 @@ The Test generation skill is available only for Next Experience UI users.
 -   [Ask or answer questions about Test generation in the ServiceNow Community](https://www.servicenow.com/community/)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 
-For more information, see [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+For more information, see Now Assist documentation.
 
 ## AI limitations
 
@@ -55,5 +56,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 

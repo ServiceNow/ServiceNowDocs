@@ -2,6 +2,7 @@
 title: Allocate a pre-allocated asset
 description: Assets can be allocated from pre-allocated asset records, which creates new asset records and reduces the Quantity in the original pre-allocated asset record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/asset-management/t\_AllocatingAPreAllocatedAsset.html
 release: zurich
 product: Asset Management
 classification: asset-management
@@ -40,5 +41,5 @@ Allocating an asset makes it a financial liability. After all pre-allocated asse
 
 The system creates and navigates to a new asset record, which has the same model and parent information as the pre-allocated asset. The new asset has a **Quantity** of one, while the pre-allocated asset's **Quantity** is reduced by one.
 
-**Parent Topic:**[Manage pre-allocated assets](../../hardware-asset-management/concept/manage-preallocated-asset.md)
+**Parent Topic:**[Manage pre-allocated assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/manage-preallocated-asset.md)
 

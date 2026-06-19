@@ -2,6 +2,7 @@
 title: Legal Simple Contracts
 description: The ServiceNow Legal Simple Contracts application enables employees to submit legal requests for getting legal support and guidance for contracts. For example, they can submit legal requests for the creation of Non-disclosure Agreement \(NDA\) documents with third parties or the review of sales contracts or third-party contracts. The legal department can manage and process them from a centralized location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-simple-contracts/legal-simple-contracts-landing-page.html
 release: zurich
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -33,36 +34,36 @@ Contract Management Pro for Legal Service Delivery supports the following additi
 
 If you want to start using the features, migrate the Legal Simple Contracts data to Contract Management Pro for Legal Service Delivery, a licensed application that must be installed separately.
 
-For more information, see [Migrating to Contract Management Pro for Legal Service Delivery](../concept/migration-landing-page.md).
+For more information, see [Migrating to Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/migration-landing-page.md).
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about how employees, paralegal staff, and lawyers use Legal Simple Contracts.](../concept/legal-simple-contracts-overview.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how employees, paralegal staff, and lawyers use Legal Simple Contracts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/legal-simple-contracts-overview.md)
 
 </td><td>
 
-[Setup ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Set up contract templates, deflection rules, third-party integrations, and other configurations.](../concept/setting-up-legal-contracts.md)
+[Setup \[Omitted image "bus-sdlc.svg"\] Alt text: Set up contract templates, deflection rules, third-party integrations, and other configurations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/setting-up-legal-contracts.md)
 
 </td><td>
 
-[Request ![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg) Submit and track legal requests for contracts.](../concept/legal-request-nda.md)
+[Request \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Submit and track legal requests for contracts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/legal-request-nda.md)
 
 </td></tr><tr><td>
 
-[Manage ![](../../../reuse/icons/brand-icons/bus-management-console.svg) Manage legal requests for contracts.](../task/work-on-legal-contract-request.md)
+[Manage \[Omitted image "bus-management-console.svg"\] Alt text: Manage legal requests for contracts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/work-on-legal-contract-request.md)
 
 </td><td>
 
-[![](../../../reuse/icons/brand-icons/bus-actionable-analytics.svg)Analytics and Reporting Coordinate work and improve processes with preconfigured dashboards.](../../../use/application-content-packs/concept/legalsd-content-pack.md)
+[\[Omitted image "bus-actionable-analytics.svg"\] Alt text:Analytics and Reporting Coordinate work and improve processes with preconfigured dashboards.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/legalsd-content-pack.md)
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about components such as roles, tables, plugins, and store applications that are installed.](legal-simple-contracts-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/legal-simple-contracts-reference.md)
 
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Troubleshoot and get help
 

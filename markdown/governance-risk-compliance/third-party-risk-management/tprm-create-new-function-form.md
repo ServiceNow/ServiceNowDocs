@@ -2,6 +2,7 @@
 title: Create New Function form
 description: On the Create New Function form, fill in the fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-create-new-function-form.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management

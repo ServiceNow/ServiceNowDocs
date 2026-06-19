@@ -2,13 +2,14 @@
 title: Delete a deployable
 description: Delete a deployable to delete its config data and all associated snapshots.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-family/cdm-deployable-delete.html
 release: zurich
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Create and update a deployable, Configure, DevOps Config, IT Service Management]
+breadcrumb: [Create and update a deployable, Configuring DevOps Config, DevOps Config, IT Service Management]
 ---
 
 # Delete a deployable

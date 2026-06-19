@@ -2,6 +2,7 @@
 title: Update a submitted gifts and entertainment disclosure request
 description: Update request details, add comments, or upload documents in a gifts and entertainment disclosure request you submitted while it is still in the New state. You can cancel a submitted request irrespective of its state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-gifts-and-entertainment/lsd-update-ge-dis-record.html
 release: zurich
 product: Legal Gifts and Entertainment
 classification: legal-gifts-and-entertainment
@@ -27,15 +28,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 3.  On the Standard Ticket page, review and edit the request details, manage attachments, or cancel the request.
 
-<table id="choicetable_pdc_mqj_znb"><thead><tr><th align="left" id="d582566e93">
+<table id="choicetable_pdc_mqj_znb"><thead><tr><th align="left" id="d340256e93">
 
 Action
 
-</th><th align="left" id="d582566e96">
+</th><th align="left" id="d340256e96">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d582566e102">
+</th></tr></thead><tbody><tr><td id="d340256e102">
 
 **Modify the request details**
 
@@ -49,7 +50,7 @@ Steps
 4.  Click **Back** to return to the Standard Ticket page.
 The gifts and entertainment disclosure request is updated with the new information.
 
-</td></tr><tr><td id="d582566e138">
+</td></tr><tr><td id="d340256e138">
 
 **Cancel the request**
 
@@ -67,26 +68,26 @@ Any associated active flows are terminated. Any pending approval record is also 
 
 5.  Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d582566e188">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d340256e188">
 
 Option
 
-</th><th align="left" id="d582566e191">
+</th><th align="left" id="d340256e191">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d582566e197">
+</th></tr></thead><tbody><tr><td id="d340256e197">
 
 **If the Attachments tab is visible**
 
 </td><td>
 
--   To upload a new document, select the add attachment icon \(![Add attachment icon.](../../legal-request-management/image/add-attachment-icon.png)\) and select a file.
--   To rename an attached file, select the edit file name icon \(![Edit file name icon.](../../legal-digital-forensics/image/rename-icon.png)\) and update the file name.
--   To remove an attached file, select the delete icon \(![Delete icon.](../../legal-digital-forensics/image/delete-icon.png)\).
+-   To upload a new document, select the add attachment icon \(\[Omitted image "add-attachment-icon.png"\] Alt text: Add attachment icon.\) and select a file.
+-   To rename an attached file, select the edit file name icon \(\[Omitted image "rename-icon.png"\] Alt text: Edit file name icon.\) and update the file name.
+-   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d582566e236">
+</td></tr><tr><td id="d340256e236">
 
 **If the Documents tab is visible**
 
@@ -101,5 +102,5 @@ A link to the document is listed in the **External URL** column of the documents
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing gifts and entertainment disclosure requests](../concept/lsd-manage-ge-request.md)
+**Parent Topic:**[Managing gifts and entertainment disclosure requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-gifts-and-entertainment/lsd-manage-ge-request.md)
 

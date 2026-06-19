@@ -2,6 +2,7 @@
 title: Add a record producer to CSM portal for B2B2C in Healthcare and Life Sciences Service Management Core
 description: Add a record producer to the CSM portal for use with B2B2C.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-add-record-producer-csm-portal.html
 release: zurich
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -17,7 +18,7 @@ Add a record producer to the CSM portal for use with B2B2C.
 
 ## Before you begin
 
-Create a record producer for use with B2B2C. For more information, see [Create a record producer for B2B2C in Healthcare and Life Sciences Service Management Core](hcls-b2b2c-create-record-producer.md).
+Create a record producer for use with B2B2C. For more information, see [Create a record producer for B2B2C in Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-b2b2c-create-record-producer.md).
 
 Role required: admin
 
@@ -27,7 +28,7 @@ Role required: admin
 
 2.  Select the Customer Support \(CSM\) portal.
 
-3.  Next to the CSM Header Menu, click the preview icon ![Preview icon.](../../vaccine-management/image/preview-icon.png).
+3.  Next to the CSM Header Menu, click the preview icon \[Omitted image "preview-icon.png"\] Alt text: Preview icon..
 
 4.  Click **Open Record**.
 

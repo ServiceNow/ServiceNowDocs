@@ -2,6 +2,7 @@
 title: Link knowledge articles or managed documents to an HR catalog item
 description: Link knowledge articles or managed documents to an HR catalog item so that employees can refer to the articles or documents when requesting the service through the HR service catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/link-knowledge-article-to-hr-catalog-item.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -32,7 +33,7 @@ For the link to display on the HR catalog item, make sure the item has a variabl
 
 2.  Hover over the HR catalog item that you want to add the knowledge article or managed document to, and click **Manage KB articles**.
 
-    ![Link knowledge articles to an HR catalog item.](../image/link-knowledge-articles-to-hr-catalog-item.png)
+    \[Omitted image "link-knowledge-articles-to-hr-catalog-item.png"\] Alt text: Link knowledge articles to an HR catalog item.
 
 3.  Click **New** or open a record to add or edit a link.
 
@@ -52,9 +53,9 @@ For the link to display on the HR catalog item, make sure the item has a variabl
     The knowledge article will display under the **Related Knowledge Documents** section when employees open the HR catalog item in the HR catalog.
 
 
-**Parent Topic:**[HR catalog item configuration](../concept/hr-catalog-item-configuration.md)
+**Parent Topic:**[HR catalog item configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-catalog-item-configuration.md)
 
-**Previous topic:**[Edit the HR case template for an HR catalog item](edit-hr-case-template-for-hr-catalog-item.md)
+**Previous topic:**[Edit the HR case template for an HR catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/edit-hr-case-template-for-hr-catalog-item.md)
 
-**Next topic:**[HR fulfillment instructions](../concept/hr-fulfillment-instructions.md)
+**Next topic:**[HR fulfillment instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-fulfillment-instructions.md)
 

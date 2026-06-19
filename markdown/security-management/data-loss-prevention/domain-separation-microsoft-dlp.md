@@ -2,6 +2,7 @@
 title: Domain separation in Microsoft DLP integration
 description: Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can then control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/data-loss-prevention/domain-separation-microsoft-dlp.html
 release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -23,8 +24,8 @@ Support: Basic.
 
 Follow these steps to achieve domain separation:
 
--   Create a user with the [required role](../reference/getting-started-microsoft-integration.md) in the respective domain.
+-   Create a user with the [required role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/getting-started-microsoft-integration.md) in the respective domain.
 -   Perform the Microsoft DLP integration procedures in the appropriate domain.
 
-**Parent Topic:**[Data Loss Prevention Incident Response with Microsoft](dlp-integration-microsoft.md)
+**Parent Topic:**[Data Loss Prevention Incident Response with Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/dlp-integration-microsoft.md)
 

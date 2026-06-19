@@ -2,6 +2,7 @@
 title: Exploring Security incident quality assessment with Now Assist for Security Incident Response
 description: Use generative AI to create a quality assessment report of a security incident. The reports are generated using a predefined, natural language rule set. The report provides an overall assessment summary followed by the detailed assessment for all the rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/now-assist-for-security-incident-response-sir/na-sir-quality-assessment.html
 release: zurich
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -18,5 +19,5 @@ Use generative AI to create a quality assessment report of a security incident. 
 
 Use the Security Incident Quality Assessment skill to generate an assessment report of a security incident based on the predefined rules. The quality assessment rules are written in natural language and consider the context within a security incident in the Security Incident Response Workspace.
 
-Security Incident Quality Assessment report in Now Assist for Security Incident Response. ![Security Incident Quality Analysis report.](../image/na-quality-report.png)
+Security Incident Quality Assessment report in Now Assist for Security Incident Response. \[Omitted image "na-quality-report.png"\] Alt text: Security Incident Quality Analysis report.
 

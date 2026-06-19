@@ -2,6 +2,7 @@
 title: Create opportunity stages
 description: Create sales cycle stages for an opportunity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/opportunity-management-opportunity-stages.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

@@ -2,6 +2,7 @@
 title: Generate a risk from a risk statement
 description: Making associations with risk statements automatically creates risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/t\_GenRiskFromRiskFrameProfile.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -32,5 +33,5 @@ Role required: sn\_risk.admin and sn\_risk.manager
     One risk is generated for each entity in the entity type based on the risk statement.
 
 
-**Parent Topic:**[Using Risk Management](../concept/using-risk-mgmt.md)
+**Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
 

@@ -2,6 +2,7 @@
 title: Advanced OT Change Model playbook
 description: Learn about the Advanced Operational Technology \(OT\) Change Model playbook stages that an OT change with approvals must go through until it’s completed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-change-management/advanced-ot-change-model.html
 release: zurich
 product: Operational Technology Change Management
 classification: operational-technology-change-management
@@ -99,7 +100,7 @@ The Approve stage of an OT Change request lets reviewers approve or deny the OT 
 |Deny button|If you're a reviewer shown in the table on the task form, select **Deny** to reject the change.|
 |Comments|Additional information about the approval or denial of the change.|
 
-For more information about change approvals, see [Operational Technology change approval](../reference/ot-change-approval.md).
+For more information about change approvals, see [Operational Technology change approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-change-management/ot-change-approval.md).
 
 ## Implement
 
@@ -154,5 +155,5 @@ The Close stage lets you close the change record after the change is completed.
 |Close code|Reason that the change record was closed.|
 |Close notes|Additional details about closing the change record.|
 
-**Parent Topic:**[Select a change model to fulfill change requests](../task/select-change-model.md)
+**Parent Topic:**[Select a change model to fulfill change requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-change-management/select-change-model.md)
 

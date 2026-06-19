@@ -2,6 +2,7 @@
 title: Register the WSD for Microsoft places application
 description: Register the WSD for Microsoft places application in the Microsoft Azure portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-service-delivery-integration-with-microsoft-places/installing-wsd-ms-places.html
 release: zurich
 product: Workplace Service Delivery Integration with Microsoft Places
 classification: workplace-service-delivery-integration-with-microsoft-places

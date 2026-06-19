@@ -2,6 +2,7 @@
 title: Now Assist for Automation Center
 description: Use Now Assist for Automation Center to streamline and simplify automation request setup from Task Mining workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/automation-center/nowassist-ac.html
 release: zurich
 product: Automation Center
 classification: automation-center
@@ -24,19 +25,19 @@ Use Now Assist for Automation Center to streamline and simplify automation reque
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![Explore.](../../../common/image/icon-explore.png) Learn about Automation Center concepts and features.](automation-center-explore.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore. Learn about Automation Center concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/automation-center-explore.md)
 
 </td><td>
 
-[Configure ![Configure.](../../../common/image/icon-set-up.png) Install and setup Automation Center](automation-center-setup.md)
+[Configure \[Omitted image "icon-set-up.png"\] Alt text: Configure. Install and setup Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/automation-center-setup.md)
 
 </td></tr><tr><td>
 
-[Use ![Use.](../../../common/image/icon-workspace.png) Learn how to use Automation Center](automation-center-use.md).
+[Use \[Omitted image "icon-workspace.png"\] Alt text: Use. Learn how to use Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/automation-center-use.md).
 
 </td><td>
 
-[Reference ![Reference.](../../../common/image/icon-reference.png) Get details about Automation Center like glossary and troubleshooting information.](automation-center-reference.md)
+[Reference \[Omitted image "icon-reference.png"\] Alt text: Reference. Get details about Automation Center like glossary and troubleshooting information.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/automation-center-reference.md)
 
 </td></tr></tbody>
 </table>## AI limitations
@@ -49,14 +50,14 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about work notes in Process Mining. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about work notes in Process Mining. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
--   **[Exploring Now Assist for Automation Center](explore-na-ac.md)**  
+-   **[Exploring Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/explore-na-ac.md)**  
 Explore the benefits of Now Assist for Automation Center.
--   **[Configuring Now Assist for Automation Center](config-na-ac.md)**  
+-   **[Configuring Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/config-na-ac.md)**  
 Configure Now Assist for Automation Center to use all the features.
--   **[Using Now Assist for Automation Center](use-na-ac.md)**  
+-   **[Using Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/use-na-ac.md)**  
 Use Now Assist for Automation Center to create an automation request from the Task Mining workspace.
 
-**Parent Topic:**[Using Automation Center](automation-center-use.md)
+**Parent Topic:**[Using Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/automation-center-use.md)
 

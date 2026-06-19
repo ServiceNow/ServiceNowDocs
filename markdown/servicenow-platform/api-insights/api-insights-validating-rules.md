@@ -2,6 +2,7 @@
 title: Validating API specifications in API Insights
 description: You can access API specification validation rules to verify that your API specifications are complete, consistent, and adhere to best practices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/api-insights/api-insights-validating-rules.html
 release: zurich
 product: API Insights
 classification: api-insights

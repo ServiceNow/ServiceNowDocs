@@ -2,6 +2,7 @@
 title: Summarize an engagement using Now Assist for Telecommunications, Media and Technology \(TMT\)
 description: Generate a summary from the fields you select on the engagement record. Get up to speed on success initiatives, outcomes, risks, and internal plays associated with an engagement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-engagement.html
 release: zurich
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -54,51 +55,51 @@ If there is enough data, the Engagement summary component displays the **Summari
 
 4.  After you're finished summarizing an engagement, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d27746e165">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d23480e165">
 
 Option
 
-</th><th align="left" id="d27746e168">
+</th><th align="left" id="d23480e168">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d27746e174">
+</th></tr></thead><tbody><tr><td id="d23480e174">
 
 **View more or less summary details**
 
 </td><td>
 
--   To see more details summary details, select the View more icon \(![Expand card icon.](../image/icon-expand.png)\).
--   To see fewer summary details, select the View less icon \(![Collapse card icon.](../image/icon-collapse.png)\).
+-   To see more details summary details, select the View more icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\).
+-   To see fewer summary details, select the View less icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\).
 
 
-</td></tr><tr><td id="d27746e204">
+</td></tr><tr><td id="d23480e204">
 
 **Provide feedback for the summary**
 
 </td><td>
 
--   If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../image/icon-helpful.png)\).
--   If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../image/icon-not-helpful.png)\).
+-   If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\).
+-   If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d27746e237">
+</td></tr><tr><td id="d23480e237">
 
 **Copy the summary**
 
 </td><td>
 
-Select the copy to clipboard icon \(![Copy to clipboard icon.](../image/icon-copy.png)\) to use the summary information for another purpose, such as pasting into an email.
+Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d27746e252">
+</td></tr><tr><td id="d23480e252">
 
 **View the information about the summary**
 
 </td><td>
 
-To check some details about the summary, select the more info icon \(![More info icon.](../image/icon-more-info.png)\).
+To check some details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text: More info icon.\).
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](../concept/now-assist-spm-using.md)
+**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

@@ -2,6 +2,7 @@
 title: Configuring Now Assist for Automation Center
 description: Configure Now Assist for Automation Center to use all the features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/automation-center/config-na-ac.html
 release: zurich
 product: Automation Center
 classification: automation-center
@@ -21,8 +22,8 @@ To work with generative AI capabilities, you need Now Assist for Automation Cent
 
 The Now Assist for Automation Center plugin helps you create an agent for your automation requests.
 
--   **[Activate user task summarization skill](../task/activate-skill.md)**  
+-   **[Activate user task summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/activate-skill.md)**  
 Activate the user task summarization skill to create an automation request from the Task Mining workspace.
 
-**Parent Topic:**[Now Assist for Automation Center](nowassist-ac.md)
+**Parent Topic:**[Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/nowassist-ac.md)
 

@@ -2,6 +2,7 @@
 title: Cancel a contract
 description: You can cancel a contract when the State is Active.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/contract-management/t\_CancelAContract.html
 release: zurich
 product: Contract Management
 classification: contract-management
@@ -42,5 +43,5 @@ After a contract is canceled, the following process occurs.
 4.  Click **Yes** to confirm the contract cancellation.
 
 
-**Parent Topic:**[Adjust a contract](t_AdjustAContract.md)
+**Parent Topic:**[Adjust a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/contract-management/t_AdjustAContract.md)
 

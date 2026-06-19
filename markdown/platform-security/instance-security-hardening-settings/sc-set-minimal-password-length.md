@@ -2,6 +2,7 @@
 title: Set minimal password length \[Updated in Security center 2.2\]
 description: Set minimal password length to avoid compliance issues and reduce the risk of a successful brute force attack
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-set-minimal-password-length.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -21,7 +22,7 @@ For every utilized Password credential store in use on your instance, ensure tha
 
 Next, open the record on the Password Policy \[password\_policy\] record table and set the **Minimum Password Length** field to at least **12**. You can find the associated Password Policy record in the **Password policy** field of the Password Reset Credential Store \[pwd\_cred\_store\] record.
 
-For more information configuring a password policy, see [Enable password policies on your instance](../../../integrate/authentication/task/enable-password-policies.md).
+For more information configuring a password policy, see [Enable password policies on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/enable-password-policies.md).
 
 ## More information
 
@@ -39,5 +40,5 @@ For more information configuring a password policy, see [Enable password policie
 |Fallback value|8|
 |Recommended value|12|
 
-**Parent Topic:**[Authentication](sc-authentication.md)
+**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

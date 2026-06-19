@@ -2,6 +2,7 @@
 title: Optimize distribution of agents to MID Servers
 description: Optimize the distribution of agents by allowing redistribution from one MID Server to another. Agents will always be connected to the MID Server with the fastest response time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-redistribute-agents-mid.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector

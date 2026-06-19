@@ -2,6 +2,7 @@
 title: Setup Workplace Connectors for Wi-Fi data
 description: Configure workplace Wi-Fi data sensors to capture the data from Wi-Fi providers to optimize space usage and efficiently manage workplace operations. You can use Wi-Fi data to determine the occupancy of spaces and attendance of employees in the office.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-connectors/setup-workplace-connectors-for-wi-fi-data.html
 release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
@@ -19,18 +20,18 @@ Wi-Fi data integrate with access points, enabling the tracking of device connect
 
 **Note:** Workplace Connectors customers are expected to build their own business use cases for using Wi-Fi data records.
 
--   **[Setup Connector Configuration Wi-Fi data](setup-connector-configuration-wi-fi-data.md)**  
+-   **[Setup Connector Configuration Wi-Fi data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/setup-connector-configuration-wi-fi-data.md)**  
 Configure the Connector Configurations table for loading the Wi-Fi data in the target Wi-Fi Access Data table \(sn\_wsd\_wc\_wifi\_access\_data\). The connector configuration table retrieves the data from different Wi-Fi data providers.
--   **[Provider Connector Configuration for Wi-Fi data](provider-connector-config-for-wi-fi-data.md)**  
+-   **[Provider Connector Configuration for Wi-Fi data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/provider-connector-config-for-wi-fi-data.md)**  
 Configure the Provider Connector Configurations table for setting up Wi-Fi data in workplace locations.
--   **[Wi-Fi data table](wsd-wi-fi-data-table.md)**  
+-   **[Wi-Fi data table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/wsd-wi-fi-data-table.md)**  
 Retrieve the device name, access point, and connection date and time for a workplace location. The Workplace Connectors Wi-Fi data checks the occupancy of a workplace location.
--   **[Extension point definition for Wi-Fi data](../task/extension-point-definition-for-wi-fi-data-wsd.md)**  
+-   **[Extension point definition for Wi-Fi data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/extension-point-definition-for-wi-fi-data-wsd.md)**  
 Create a scripted extension point to process Wi-Fi access log data from the provider and convert it into a standard format. Confirm that each provider implements this extension.
 
-**Parent Topic:**[Configure Workplace Connectors](configure-workplace-connectors.md)
+**Parent Topic:**[Configure Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/configure-workplace-connectors.md)
 
-**Previous topic:**[Extension point for occupancy and environment data](../task/extension-point-for-occupancy-environment-data.md)
+**Previous topic:**[Extension point for occupancy and environment data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/extension-point-for-occupancy-environment-data.md)
 
-**Next topic:**[Setup Connector Configuration Wi-Fi data](setup-connector-configuration-wi-fi-data.md)
+**Next topic:**[Setup Connector Configuration Wi-Fi data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/setup-connector-configuration-wi-fi-data.md)
 

@@ -2,6 +2,7 @@
 title: Add or edit expense lines
 description: Create or edit expense lines to capture the actual costs. You can associate the expense lines with a cost plan or create standalone expense lines to record unplanned expenses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/create-expense-line-prj-wrkspc.html
 release: zurich
 product: Project Workspace
 classification: project-workspace
@@ -33,15 +34,15 @@ For unplanned expense lines which aren’t associated with any cost plan, the sy
 
 3.  Add an expense line using one of the following options.
 
-<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d52221e82">
+<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d56372e82">
 
 Choice
 
-</th><th align="left" id="d52221e85">
+</th><th align="left" id="d56372e85">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d52221e91">
+</th></tr></thead><tbody><tr><td id="d56372e91">
 
 **Select a cost plan**
 
@@ -51,35 +52,35 @@ Description
 2.  In the Expense lines side panel, select **New**.
 
 
-</td></tr><tr><td id="d52221e112">
+</td></tr><tr><td id="d56372e112">
 
 **Select options**
 
 </td><td>
 
-1.  Select the options ![Option to add expense lines.](../../spw-financials/images/fin-options.png) from a cell.
+1.  Select the options \[Omitted image "fin-options.png"\] Alt text: Option to add expense lines. from a cell.
 2.  Select **Add expense lines**.
 
 
-</td></tr><tr><td id="d52221e139">
+</td></tr><tr><td id="d56372e139">
 
 **Select new expense line option**
 
 </td><td>
 
-Select **New expense line** using the More actions option.![GIF showing the selection of new expense line option.](../../spw-financials/images/fin-new-expense-line-option-gif.gif)
+Select **New expense line** using the More actions option.\[Omitted image "fin-new-expense-line-option-gif.gif"\] Alt text: GIF showing the selection of new expense line option.
 
 **Note:** Use this option to record and calculate any unplanned expenses.
 
 </td></tr></tbody>
 </table>4.  On the Create expense line form, fill the fields.
 
-    For a description of the field names, see [Create expense line form](../../alignment-planner-workspace/reference/create-exp-line-form-spw.md).
+    For a description of the field names, see [Create expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/create-exp-line-form-spw.md).
 
 5.  Select **Save**.
 
     **Note:** The expense lines created for sub-projects can be viewed in the Cost screen of the parent project.
 
 
-**Parent Topic:**[Managing financials for your projects](../concept/using-financials-prj-wrkspc.md)
+**Parent Topic:**[Managing financials for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/using-financials-prj-wrkspc.md)
 

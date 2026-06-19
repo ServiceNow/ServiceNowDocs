@@ -2,6 +2,7 @@
 title: Password Reset script includes
 description: The Password Reset plugin installs script includes that implement password reset processes. To enable you to extend functionality, each base-system script include provides extension points that you can use to invoke "extension scripts" that you customized.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/password-reset/c\_InstalledPasswordResetScripts.html
 release: zurich
 product: Password Reset
 classification: password-reset
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Password Reset, Manage service capabilities, Extend Serv
 
 The Password Reset plugin installs script includes that implement password reset processes. To enable you to extend functionality, each base-system script include provides extension points that you can use to invoke "extension scripts" that you customized.
 
-The [extension script category](pw-reset-extension-script.md) refers to the specific types of behavior for an extension script \(for example, credential store, verification, identification type, or as a post-processor\).
+The [extension script category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/pw-reset-extension-script.md) refers to the specific types of behavior for an extension script \(for example, credential store, verification, identification type, or as a post-processor\).
 
 ## 'Enrollment check' script includes
 
@@ -123,11 +124,11 @@ All post processor script includes take the following parameters.
 **Related topics**  
 
 
-[Using extension points to extend application functionality](https://www.servicenow.com/docs/access?context=extension-points&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.extension-points]
 
-[Using scripted extension points in server-side scripts](https://www.servicenow.com/docs/access?context=scripted-extension-points&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.scripted-extension-points]
 
-[Using UI extension points in server-side UI macros](https://www.servicenow.com/docs/access?context=ui-extension-points&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.ui-extension-points]
 
-[Using client extension points in client-side UI scripting](https://www.servicenow.com/docs/access?context=client-extension-points&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.client-extension-points]
 

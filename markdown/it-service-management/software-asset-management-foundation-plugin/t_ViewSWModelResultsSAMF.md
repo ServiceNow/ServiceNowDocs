@@ -2,6 +2,7 @@
 title: View Software Asset Management Foundation plugin software model results in classic
 description: View compliance information for software model results from the Product Results list after reconciliation is run.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/software-asset-management-foundation-plugin/t\_ViewSWModelResultsSAMF.html
 release: zurich
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
@@ -279,8 +280,8 @@ True-up cost
 Estimated cost of remediating non-compliance based on the least number of rights needed.
 
 </td></tr></tbody>
-</table>    The Unlicensed Installs related list contains the [software installations](../concept/c_DiscoveryModelsSAMF.md) that are unlicensed.
+</table>    The Unlicensed Installs related list contains the [software installations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/c_DiscoveryModelsSAMF.md) that are unlicensed.
 
 
-**Parent Topic:**[Using Software Asset Management Foundation plugin classic](../concept/using-samf-classic.md)
+**Parent Topic:**[Using Software Asset Management Foundation plugin classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/using-samf-classic.md)
 

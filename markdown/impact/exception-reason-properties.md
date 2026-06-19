@@ -1,8 +1,11 @@
 ---
 title: Configure exception reason properties
-description: When real-time enforcement, enforce\_real\_time\_validation is set to true, Warning and Error level findings, without approved exception reasons, require users to provide one before the form can be saved. Recommend and Review level findings do not block form submission.
+description: When real-time enforcement, enforce\_real\_time\_validation is set to true, Recommend level findings require an approved exception reason before the form can be saved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/exception-reason-properties.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-11-19"
 reading_time_minutes: 1
@@ -11,11 +14,11 @@ breadcrumb: [Configure Scan Engine properties, Scan Engine, Platform Health, Usi
 
 # Configure exception reason properties
 
-When real-time enforcement, `enforce_real_time_validation` is set to `true`, Warning and Error level findings, without approved exception reasons, require users to provide one before the form can be saved. Recommend and Review level findings do not block form submission.
+When real-time enforcement, `enforce_real_time_validation` is set to `true`, Recommend level findings require an approved exception reason before the form can be saved.
 
 ## Before you begin
 
-Role required: Scan Engine Admin \(`sn_se.scan_engine_admin`\).
+Role required: sn\_se.scan\_engine\_admin, sn\_se.scan\_engine\_read\_user, sn\_se.internal\_rest\_integration
 
 ## Procedure
 
@@ -31,12 +34,12 @@ Role required: Scan Engine Admin \(`sn_se.scan_engine_admin`\).
 
     If `enable_exception_reason_approvals_in_production` is set to `false`, exceptions can only be approved in the instances in which they are raised.
 
+    **Note:** This setting is only applicable to development instances.
+
 3.  Approval groups will approve or reject exception requests and receive notifications.
 
     -   Use the`Enable approvals in production` setting to control whether exceptions can be approved in production instances or only in development environments.
     -   Approval group\(s\) displays the group or groups that will approve or reject exception reasons and also receive notifications when new approvals are requested.
-    **Note:** This setting is only applicable to development instances.
-
 4.  Select whether to **Exclude approved exception reasons from technical debt**.
 
     When enabled, findings with approved exception reasons will be excluded from technical debt metrics.

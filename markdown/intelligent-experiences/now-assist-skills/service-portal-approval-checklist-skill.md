@@ -2,6 +2,7 @@
 title: Requester Approval Checklist skill
 description: The Requester Approval Checklist skill in the ServiceNow AI Platform generates a structured checklist by mapping real-time request data against your organization’s knowledge articles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-skills/service-portal-approval-checklist-skill.html
 release: zurich
 product: Now Assist Skills
 classification: now-assist-skills
@@ -15,7 +16,7 @@ breadcrumb: [Skills in the Platform workflow, Now Assist skills, Now Assist AI a
 
 The Requester Approval Checklist skill in the ServiceNow AI Platform® generates a structured checklist by mapping real-time request data against your organization’s knowledge articles.
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](now-assist-skills-on-by-default.md).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 This skill is available within Now Assist Agents for Requester v3.1 and is designed to provide instant, data-backed decision support across in-product, agentic, and workflow experiences.
 
@@ -55,7 +56,7 @@ The output is presented in a two-step format: Criteria \(what is required\) and 
     The Requester Approval Checklist respects the approval configuration to provide flexibility and control.
 
 
-For more information, see [Platform Approval assistance AI agent](../../now-assist-ai-agents/concept/platform-approval-aia.md) and [Configure Service Portal Approval Configuration record](https://www.servicenow.com/docs/access?context=configure-approval-assistance-ai-agent&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+For more information, see [Platform Approval assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/platform-approval-aia.md) and .
 
-**Parent Topic:**[Now Assist skills in the Platform workflow](now-assist-on-now-platform.md)
+**Parent Topic:**[Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md)
 

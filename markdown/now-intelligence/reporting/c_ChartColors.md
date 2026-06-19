@@ -2,6 +2,7 @@
 title: Chart colors
 description: Chart colors assign a consistent color to a grouping or stacking value in reports. The color stays the same across reports regardless of the order of the values.You can define a chart color for a data category in reports, such as critical priority incidents. You can select a predefined color or specify a hexadecimal code.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/c\_ChartColors.html
 release: zurich
 product: Reporting
 classification: reporting
@@ -15,7 +16,7 @@ breadcrumb: [Predefined colors in reports, Advanced Core UI reporting topics, Re
 
 Chart colors assign a consistent color to a grouping or stacking value in reports. The color stays the same across reports regardless of the order of the values.
 
-**Note:** This topic refers to Reporting in the Core UI. If your instance is migrated to Platform Analytics experience, see [Colors in data visualizations](../../performance-analytics/concept/colors-dv.md#).
+**Note:** This topic refers to Reporting in the Core UI. If your instance is migrated to Platform Analytics experience, see [Colors in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/colors-dv.md).
 
 ## Using chart colors in a report
 
@@ -43,9 +44,9 @@ Any other report that uses chart colors and that shows the same data category re
 
 In the following example, you see two reports on incidents that are grouped by the same field, Priority. Both reports use the chart colors, as set in the Style tab of the Report Designer. The same values of Priority have the same color despite being in a different order.
 
-![Two reports grouped by the same field and using chart colors.](../image/reports-chart-colors-priority.png)
+\[Omitted image "reports-chart-colors-priority.png"\] Alt text: Two reports grouped by the same field and using chart colors.
 
-**Parent Topic:**[Predefined colors in reports](colors-reports.md)
+**Parent Topic:**[Predefined colors in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/colors-reports.md)
 
 ## Define colors for data categories
 
@@ -61,7 +62,7 @@ Role required: report\_admin.
 
 2.  Click **New**.
 
-    ![New chart colors form](../image/new-chart-colors-form.png "New Chart Colors form")
+    \[Omitted image "new-chart-colors-form.png"\] Alt text: New chart colors form
 
 3.  Fill in the fields, as appropriate.
 
@@ -79,7 +80,7 @@ Name
 
 </td><td>
 
-Table used for the report.**Note:** The list shows only tables and database views that are [in the same scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=zurich&pubname=zurich-application-development&ft:locale=en-US) as the chart colors record.
+Table used for the report.**Note:** The list shows only tables and database views that are in the same scope as the chart colors record.
 
 </td></tr><tr id="row_h2z_tfw_1z"><td>
 
@@ -99,11 +100,11 @@ The value of the element for which the specified color applies. The value is cas
 
  The following example shows how the values of the state element on Choice \[sys\_choice\] records match the values of the state element on Chart Color \[sys\_report\_chart\_color\] records.
 
- ![Chart color choice type example - part 2](../image/chart-color-choice-type-ex-pt2.png)
+ \[Omitted image "chart-color-choice-type-ex-pt2.png"\] Alt text: Chart color choice type example - part 2
 
- ![Chart color choice type example - part 1](../image/chart-color-choice-type-ex-pt1.png)
+ \[Omitted image "chart-color-choice-type-ex-pt1.png"\] Alt text: Chart color choice type example - part 1
 
- To understand the various ways to get a record's sys\_id, see [The unique record identifier \(sys\_id\)](https://www.servicenow.com/docs/access?context=c_UniqueRecordIdentifier&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+ To understand the various ways to get a record's sys\_id, see The unique record identifier \(sys\_id\).
 
 </td></tr><tr id="row_xqw_5fw_1z"><td>
 
@@ -111,7 +112,7 @@ Color name
 
 </td><td>
 
-Color selected from the Color Definitions \[sys\_report\_color\] table. If you select a color definition, it overrides the color specified in the **Color** field. For more information about color definitions, see [Define system colors for analytics](../task/t_DefiningSystemColors.md).
+Color selected from the Color Definitions \[sys\_report\_color\] table. If you select a color definition, it overrides the color specified in the **Color** field. For more information about color definitions, see [Define system colors for analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_DefiningSystemColors.md).
 
 </td></tr><tr id="row_p3b_vfw_1z"><td>
 

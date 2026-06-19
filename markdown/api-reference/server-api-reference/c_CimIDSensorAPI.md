@@ -2,6 +2,7 @@
 title: CimIDSensor - Global
 description: The CimIDSensor script include provides methods to perform identification for Common Information Model \(CIM\) probe results.Configures a triggered probe before it is launched.Gets the instance hash token.Prepares the probe results.Processes all CIM probe query results for a CIM ID sensor.Runs a multi-probe script against a probe result.Updates the device count.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_CimIDSensorAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The CimIDSensor script include provides methods to perform identification for Co
 
 Use in any server-side script to perform identification of CIM probe results.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## CimIDSensor - configureTriggeredProbe\(String probe\)
 

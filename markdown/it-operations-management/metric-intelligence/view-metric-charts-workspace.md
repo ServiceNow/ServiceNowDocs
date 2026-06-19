@@ -2,6 +2,7 @@
 title: View metric charts in Agent Workspace
 description: Agent Workspace for Metric Intelligence provides easy access to metric charts for a CI. On an alert form, you can drill down to important metric charts for the CI that is associated with the alert.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/metric-intelligence/view-metric-charts-workspace.html
 release: zurich
 product: Metric Intelligence
 classification: metric-intelligence
@@ -51,5 +52,5 @@ All metric charts that are configured for the CI associated with the alert, and 
     -   **Show legend**: Show chart legend.
 -   Click **Insights Explorer** to open the Insights Explorer in a new browser tab. That Insights Explorer opens with the current CI pre-selected and with the current time range settings in Agent Workspace.
 
-**Parent Topic:**[Optimizing Metric Intelligence](../../metric-intelligence/concept/optimizing-metric-intelligence.md)
+**Parent Topic:**[Optimizing Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/metric-intelligence/optimizing-metric-intelligence.md)
 

@@ -2,6 +2,7 @@
 title: Resource generators in Recommended Actions for ITSM
 description: ITSM base system includes the following resource generators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/resource-generators-in-recommended-actions-for-itsm.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -144,5 +145,5 @@ Similar resolved incidents using similarity
 The recommendation- **Similar Resolved Incidents \(Similarity\)**, uses this resource generator to return resolved incidents whose resolution can be copied to the current incident.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Recommended Actions for ITSM reference](../concept/recommended-actions-for-itsm-reference.md)
+</table>**Parent Topic:**[Recommended Actions for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/recommended-actions-for-itsm-reference.md)
 

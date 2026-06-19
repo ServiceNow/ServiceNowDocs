@@ -2,6 +2,7 @@
 title: Workday configuration for payslip report
 description: Retrieve worker's payslip data based on time range and employee ID by creating the payslip report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/wdhr-pk-payslip.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
@@ -37,47 +38,47 @@ Role required: User with access to report creation, the Payroll Results data sou
 
 2.  Search for `Payslip to Print - Report Design` in Standard Report name box, select it, and click **OK**.
 
-    ![](../image/wdhr-pk-payslip-1.png)
+    \[Omitted image "wdhr-pk-payslip-1.png"\] Alt text:
 
 3.  Provide the desired name of the report such as, `Payslip to Print - Report Design - Copy` and click **OK**.
 
-    ![](../image/wdhr-pk-payslip-2.png)
+    \[Omitted image "wdhr-pk-payslip-2.png"\] Alt text:
 
 4.  In **Data Source** box, search for **Payroll Results** and select it.
 
-    ![](../image/wdhr-pk-payslip-3.png)
+    \[Omitted image "wdhr-pk-payslip-3.png"\] Alt text:
 
 5.  Once you select **Payroll Results** as data source, the report will automatically populate the Data source filter.
 
-    ![](../image/wdhr-pk-payslip-4.png)
+    \[Omitted image "wdhr-pk-payslip-4.png"\] Alt text:
 
 6.  Add **Sub Period \(if different from Pay Period\)** report field in column section in report.
 
-    ![](../image/wdhr-pk-payslip-5.png)
+    \[Omitted image "wdhr-pk-payslip-5.png"\] Alt text:
 
 7.  In **Columns** section, remove fields which are not in screenshots given below.
 
     Ensure all fields are in the same order as shown in the screenshots.
 
-    ![](../image/wdhr-pk-payslip-6.png)
+    \[Omitted image "wdhr-pk-payslip-6.png"\] Alt text:
 
-    ![](../image/wdhr-pk-payslip-7.png)
+    \[Omitted image "wdhr-pk-payslip-7.png"\] Alt text:
 
-    ![](../image/wdhr-pk-payslip-8.png)
+    \[Omitted image "wdhr-pk-payslip-8.png"\] Alt text:
 
-    ![](../image/wdhr-pk-payslip-9.png)
+    \[Omitted image "wdhr-pk-payslip-9.png"\] Alt text:
 
 8.  In **Group Column Headings** section, remove business objects which are not in below screenshots.
 
     **Group Column Heading** for all business objects should be blank.
 
-    ![](../image/wdhr-pk-payslip-10.png)
+    \[Omitted image "wdhr-pk-payslip-10.png"\] Alt text:
 
-    ![](../image/wdhr-pk-payslip-11.png)
+    \[Omitted image "wdhr-pk-payslip-11.png"\] Alt text:
 
 9.  In **Prompt** section, remove the pre-existing prompt.
 
-    ![](../image/wdhr-pk-payslip-12.png)
+    \[Omitted image "wdhr-pk-payslip-12.png"\] Alt text:
 
 10. Once pre-existing prompt is removed, select the **Populate Undefined Prompt defaults** option.
 
@@ -85,35 +86,35 @@ Role required: User with access to report creation, the Payroll Results data sou
 
     **Note:** Ensure the prompts are configured as shown below.
 
-    ![](../image/wdhr-pk-payslip-13.png)
+    \[Omitted image "wdhr-pk-payslip-13.png"\] Alt text:
 
 11. In **Advanced** section, verify that **Enable as webservice** option is selected.
 
     Most likely it would be already selected.
 
-    ![](../image/wdhr-pk-payslip-14.png)
+    \[Omitted image "wdhr-pk-payslip-14.png"\] Alt text:
 
 12. Click **OK**, then **Done**.
 
 13. Click on three dots icon and navigate to **Web Services** &gt; **View URLs** option once report configuration is done.
 
-    ![](../image/wdhr-pk-payslip-15.png)
+    \[Omitted image "wdhr-pk-payslip-15.png"\] Alt text:
 
 14. Select any time range in parameters, select any user in **Worker** box, and click **OK**.
 
-    ![](../image/wdhr-pk-payslip-16.png)
+    \[Omitted image "wdhr-pk-payslip-16.png"\] Alt text:
 
 15. In View URLs Web Service page, click the marked icon under the **CSV** section.
 
     A new browser tab is opened.
 
-    ![](../image/wdhr-pk-payslip-17.png)
+    \[Omitted image "wdhr-pk-payslip-17.png"\] Alt text:
 
 16. Review the RaaS URL of the report displayed in the new browser tab.
 
     You can obtain these details from the link.
 
-    ![](../image/wdhr-pk-payslip-18.png)
+    \[Omitted image "wdhr-pk-payslip-18.png"\] Alt text:
 
     -   `https://wd2-impl-services1.workday.com` is the base URL of customer's workday tenant.
     -   **Tenant\_Name** is the customer's workday tenant.

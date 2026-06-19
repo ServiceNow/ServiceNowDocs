@@ -2,6 +2,7 @@
 title: Launch an alert analysis from the Now Assist panel
 description: Initiate an alert analysis from the Now Assist panel. The alert analysis displays directly in the Now Assist panel for convenient review.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/now-assist-for-it-operations-management/alert-analysis-now-assist-panel.html
 release: zurich
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
@@ -18,10 +19,10 @@ Initiate an alert analysis from the Now Assist panel. The alert analysis display
 
 ## Before you begin
 
--   Install the ITOM plugin in the Now Assist feature. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](install-now-assist-itom.md).
--   View important information about the ServiceNow® Now Assist for IT Operations Management \(ITOM\) application in [Now Assist for IT Operations Management \(ITOM\)](../concept/now-assist-itom.md).
+-   Install the ITOM plugin in the Now Assist feature. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
+-   View important information about the ServiceNow® Now Assist for IT Operations Management \(ITOM\) application in [Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md).
 
-For comprehensive information about the Now Assist panel, see [Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+For comprehensive information about the Now Assist panel, see .
 
 Role required: evt\_mgmt\_operator
 
@@ -29,27 +30,27 @@ Role required: evt\_mgmt\_operator
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the List icon \(![List icon](../../health-log-analytics-operator/image/icon-lists.png)\) in the navigation bar.
+2.  Select the List icon \(\[Omitted image "icon-lists.png"\] Alt text: List icon\) in the navigation bar.
 
 3.  Select **Lists** &gt; **Alerts** &gt; **All Alerts**.
 
 4.  Initiate an alert analysis from the Now Assist panel using one of the available methods.
 
-<table id="choicetable_jyk_xts_5cc"><thead><tr><th align="left" id="d606128e188">
+<table id="choicetable_jyk_xts_5cc"><thead><tr><th align="left" id="d563188e187">
 
 Launch an alert analysis
 
-</th><th align="left" id="d606128e191">
+</th><th align="left" id="d563188e190">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d606128e197">
+</th></tr></thead><tbody><tr><td id="d563188e196">
 
 **From the list**
 
 </td><td>
 
-1.  Select the Now Assist panel icon \(![Now Assist panel icon.](../../../common/image/icon-ai-sparkle.png)\).
+1.  Select the Now Assist panel icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: Now Assist panel icon.\).
 
 The Now Assist panel displays.
 
@@ -59,14 +60,14 @@ The Now Assist panel displays.
 
 The alert analysis displays in the panel.
 
-</td></tr><tr><td id="d606128e238">
+</td></tr><tr><td id="d563188e237">
 
 **From an alert form**
 
 </td><td>
 
 1.  Open an alert.
-2.  Select the Now Assist panel icon \(![Now Assist panel icon .](../../../common/image/icon-ai-sparkle.png)\).
+2.  Select the Now Assist panel icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: Now Assist panel icon .\).
 
 The Now Assist panel displays.
 
@@ -80,5 +81,5 @@ The alert analysis displays in the panel.
     For example: `Summarize the analysis` or `Show alert severity`.
 
 
-**Parent Topic:**[Use generative AI in Now Assist for ITOM](../concept/now-assist-itom-use.md)
+**Parent Topic:**[Use generative AI in Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.md)
 

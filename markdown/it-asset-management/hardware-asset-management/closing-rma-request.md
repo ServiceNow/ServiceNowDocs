@@ -2,6 +2,7 @@
 title: Closing an RMA request
 description: After you submit an RMA request for a defective asset, you must go through various tasks to finalize repairing or replacing the asset.Close the Assessment task for an RMA request so that the defective assets can get repaired or replaced.Close an RMA request in which a faulty asset is repaired or replaced in the location of the vendor.Close an RMA request in which the faulty assets are repaired on-site.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/closing-rma-request.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -19,7 +20,7 @@ To close an RMA request, you have to close each of its request lines separately.
 
 The following procedures explain how to close a single line by closing its tasks. You must repeat these procedures for all the request lines.
 
-**Parent Topic:**[Manage RMA requests](manage-rma-req.md)
+**Parent Topic:**[Manage RMA requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-rma-req.md)
 
 ## Close the Assessment task for an RMA request
 
@@ -356,7 +357,7 @@ If you have the inventory user or itil role, then you can cancel an RMA request 
 
     3.  Click **Close task**.
 
-        The Asset RMA Off-site flow is triggered and Shipment task is generated. See [Close an RMA request with off-site repair or replacement](closing-rma-request.md#) for details.
+        The Asset RMA Off-site flow is triggered and Shipment task is generated. See [Close an RMA request with off-site repair or replacement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/closing-rma-request.md) for details.
 
         In the Asset form, the state of the asset changes to In stock and the substate changes to Pending repair.
 

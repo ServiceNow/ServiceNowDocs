@@ -2,6 +2,7 @@
 title: Foundations of AI Governance
 description: This accelerator provides foundational guidance on establishing and managing an Artificial Intelligence Management System \(AIMS\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/foundations-of-ai-governance.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

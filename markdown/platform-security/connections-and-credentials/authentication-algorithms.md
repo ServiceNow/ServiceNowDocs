@@ -2,6 +2,7 @@
 title: Authentication Algorithms
 description: Verify the identity of the sender using Authentication Algorithms
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/connections-and-credentials/authentication-algorithms.html
 release: zurich
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -25,14 +26,14 @@ Authentication algorithms support the following steps:
 -   REST Step
 -   SOAP Step
 
-For more information, see [Integration steps](https://www.servicenow.com/docs/access?context=integration-steps&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)
+For more information, see Integration steps
 
 ## Authentication algorithm types
 
 -   **Amazon Signature Version 4**: This is a pre-built authentication algorithm to connect to Amazon Web Services.
 -   **Custom Authentication**: This is a template that developers can use to create their own authentication algorithms.
 
-To know more, on how to configure the authentication algorithm, see [Configure an authentication algorithm](../task/configure-authentication-algorithm.md).
+To know more, on how to configure the authentication algorithm, see [Configure an authentication algorithm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/configure-authentication-algorithm.md).
 
 ## Scripts
 

@@ -2,13 +2,14 @@
 title: System Properties for CrowdStrike
 description: The following details the system properties for CrowdStrike.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/premium-threat-feed-system-properties.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure custom CrowdStrike feed, View Custom Feed, View Threat Intel Feeds, Threat Intelligence Feeds, Integrate, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [View Premium Threat Feed for CrowdStrike, View Custom Feed, View Threat Intel Feeds, Threat Intelligence Feeds, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # System Properties for CrowdStrike
@@ -31,5 +32,5 @@ The following details the system properties for CrowdStrike.
     -   Type: Integer
     -   Value: 50
 
-**Parent Topic:**[Configure custom CrowdStrike feed](../task/premium-threat-feed-for-crowdstrike.md)
+**Parent Topic:**[View Premium Threat Feed for CrowdStrike](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/premium-threat-feed-for-crowdstrike.md)
 

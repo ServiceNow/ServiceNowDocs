@@ -2,6 +2,7 @@
 title: Conversational Integration with Workplace from Facebook
 description: Use the Conversational Integration with Workplace from Facebook application to connect your requesters with Virtual Agent or live agents through your company’s Workplace from Facebook application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/mssg-workplace.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -17,5 +18,5 @@ Use the Conversational Integration with Workplace from Facebook application to c
 
 As of September 1, 2025, Conversational Integration with Workplace from Facebook is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-**Parent Topic:**[Integrating Virtual Agent with messaging apps](../concept/va-integration-messaging-apps.md)
+**Parent Topic:**[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md)
 

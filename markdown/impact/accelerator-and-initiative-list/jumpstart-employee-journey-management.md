@@ -2,6 +2,7 @@
 title: Jumpstart Your Employee Journey Management
 description: The Jumpstart Your Employee Journey Management \(EJM\) Accelerator provides a demonstration of the possibilities and capabilities of Employee Journey Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/jumpstart-employee-journey-management.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

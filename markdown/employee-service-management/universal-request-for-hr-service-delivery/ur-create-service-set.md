@@ -2,6 +2,7 @@
 title: Create a service set
 description: Create your service set \(department\) name in the Universal Request \(UR\) application to use the UR capabilities for a specific service set in your organization. Service sets are the various departments in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-create-service-set.html
 release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -43,5 +44,5 @@ Your organisation must have one service set without any services that is marked 
 6.  Click **Submit**.
 
 
-**Parent Topic:**[Configure service to use Universal Request](../concept/config-service-for-ur.md)
+**Parent Topic:**[Configure service to use Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/config-service-for-ur.md)
 

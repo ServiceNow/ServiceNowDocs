@@ -2,6 +2,7 @@
 title: Configure adaptive authentication properties
 description: After activating Adaptive Authentication, configure adaptive authentication properties according to your security requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/configure-adaptive-auth-properties.html
 release: zurich
 product: Authentication
 classification: authentication

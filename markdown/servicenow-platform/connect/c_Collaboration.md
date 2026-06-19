@@ -2,6 +2,7 @@
 title: Connect Chat
 description: Connect Chat is a real-time messaging tool that enables users to chat with individuals and groups, quickly share files, and collaborate on any record by connecting with the right people instantly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/connect/c\_Collaboration.html
 release: zurich
 product: Connect
 classification: connect
@@ -17,7 +18,7 @@ Connect Chat is a real-time messaging tool that enables users to chat with indiv
 
 **Important:**
 
-Connect Chat is not available in Next Experience. Starting with Zurich, certain Connect Chat functions are available in Next Experience by using Sidebar. See [KB1123615 – Moving from Connect Chat to Sidebar](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1123615) or [Next Experience](https://www.servicenow.com/docs/access?context=next-experience-landing-page&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) for more information about the differences between Connect Chat and Sidebar.
+Connect Chat is not available in Next Experience. Starting with Zurich, certain Connect Chat functions are available in Next Experience by using Sidebar. See [KB1123615 – Moving from Connect Chat to Sidebar](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1123615) or Next Experience for more information about the differences between Connect Chat and Sidebar.
 
 Connect Chat animates communication around records, Visual Task Boards, topics of interest, or groups of people.
 
@@ -32,11 +33,7 @@ Core UI is required to use Connect Chat.
 
 This video demonstrates how to use Connect Chat.
 
-How to use Connect Chat
-
 This video demonstrates how to use Connect Support.
-
-How to use Connect Support
 
 **Note:** Connect Chat does not replace legacy chat but offers some of the same functionality. The features should not be used concurrently.
 

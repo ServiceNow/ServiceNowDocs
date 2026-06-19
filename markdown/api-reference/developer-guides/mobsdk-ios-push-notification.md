@@ -2,6 +2,7 @@
 title: Configure push notifications
 description: Push notifications enable the sending of unsolicited messages \(notifications\) from a ServiceNow instance to a specific registered user and an application that leverages the ServiceNow Mobile SDK framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/developer-guides/mobsdk-ios-push-notification.html
 release: zurich
 product: Developer Guides
 classification: developer-guides

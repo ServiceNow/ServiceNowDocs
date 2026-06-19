@@ -2,6 +2,7 @@
 title: Get a record
 description: Retrieves a single record based on the specified sys\_id from the specified table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-cli/get-record.html
 release: zurich
 product: ServiceNow CLI
 classification: servicenow-cli
@@ -147,5 +148,5 @@ The system returns the record in JSON format.
 }
 ```
 
-**Parent Topic:**[Perform record operations using ServiceNow CLI](manage-records.md)
+**Parent Topic:**[Perform record operations using ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-cli/manage-records.md)
 

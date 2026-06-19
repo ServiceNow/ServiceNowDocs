@@ -2,6 +2,7 @@
 title: Create an OpenID Connect \(OIDC\) configuration for Single Sign-On \(SSO\)
 description: Create or update an OpenID Connect \(OIDC\) configuration by using the Multi-Provider SSO plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/create-OIDC-configuration-SSO.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -15,14 +16,12 @@ breadcrumb: [OIDC as a SSO identity provider, Multi-Provider single sign-on \(SS
 
 Create or update an OpenID Connect \(OIDC\) configuration by using the Multi-Provider SSO plugin.
 
-OpenID Connect \(OIDC\) configuration for Single Sign-On \(SSO\)
-
 ## Before you begin
 
 -   Register an OIDC application with your Identity Provider \(IdP\) and note the Client ID, Client Secret, and Well-known configuration URL.
--   [Activate Multi-Provider SSO plugin](t_ActivateMultipleProviderSSO.md). Multi-Provider SSO feature supports domain separation, you can specify different IdP's to different domains.
--   [Configure Multi-provider SSO properties](t_ConfigureMultiProviderSSOProps.md)
--   [Activate Approval with e-Signature plugin](activate-approval-esignature.md) to enable eSignature for the OIDC IdP.
+-   [Activate Multi-Provider SSO plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/t_ActivateMultipleProviderSSO.md). Multi-Provider SSO feature supports domain separation, you can specify different IdP's to different domains.
+-   [Configure Multi-provider SSO properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/t_ConfigureMultiProviderSSOProps.md)
+-   [Activate Approval with e-Signature plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/activate-approval-esignature.md) to enable eSignature for the OIDC IdP.
 -   Role required: admin
 
 If you have a client ID, client secret, and well-known configuration URL of the identity provider, you can directly import the OIDC configuration for SSO.
@@ -45,7 +44,7 @@ If you do not have the required information about the identity provider, you can
     -   To create a new configuration, click **New** and select **OpenID Connect**.
 3.  For a new configuration, enter the OIDC configuration information in one of the following methods.
 
-<table id="choicetable_okg_pdd_4z"><tbody><tr><td id="d183310e174">
+<table id="choicetable_okg_pdd_4z"><tbody><tr><td id="d48769e169">
 
 **Import OpenID Connect Well-Known Configuration**
 
@@ -53,7 +52,7 @@ If you do not have the required information about the identity provider, you can
 
 If you have the well-known configuration URL along with your associated client credentials, you can directly import an OIDC configuration.**Note:** If you import the OIDC well-known configuration, all related fields are auto-populated.
 
-</td></tr><tr><td id="d183310e186">
+</td></tr><tr><td id="d48769e181">
 
 **Manually configure the OIDC Identity Provider form**
 
@@ -75,7 +74,7 @@ If you do not have an existing OAuth OIDC Entity, close the Import OpenID Connec
 
     If you do not have a OAuth Entity Profile, you can create it using the default External OIDC Provider templates, like Okta, Azure and others.
 
-    The grant type of the OAuth Entity Profile must be with an authorization code. For more information, see [Configure an OAuth OIDC provider on the ServiceNow AI Platform](../../../administer/security/task/add-OIDC-entity.md).
+    The grant type of the OAuth Entity Profile must be with an authorization code. For more information, see [Configure an OAuth OIDC provider on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/add-OIDC-entity.md).
 
     **Note:** You can use the templates of third-party identity providers, Auth0, Azure AD, Google, and Okta are available in the demo data of the Multiple Provider Single Sign-On Installer plugin.
 
@@ -204,8 +203,8 @@ Publicly available URL that contains logo of the OIDC IdP provider. This field a
     **Note:**
 
     -   The Continuous Authentication tab appears only when you install the **Zero Trust - Continuous Authentication** \(`com.snc.zero_trust_continuous_authentication`\) plugin that requires license.
-    -   If you're using continuous authentication policy to protect access to table or data class, see [Continuous Authentication \(CA\)](../../authentication/concept/ca-homepage.md).
-    ![Continuous Authentication - tab information](../../authentication/images/ca-tab-oidc.png)
+    -   If you're using continuous authentication policy to protect access to table or data class, see [Continuous Authentication \(CA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/ca-homepage.md).
+    \[Omitted image "ca-tab-oidc.png"\] Alt text: Continuous Authentication - tab information
 
 <table id="table_klg_xrx_4dc"><thead><tr><th>
 

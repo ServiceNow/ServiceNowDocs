@@ -2,11 +2,12 @@
 title: Purchase order integration
 description: Purchase orders are created in Source-to-Pay \(S2P\) and synchronized to the ERP system asynchronously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/source-to-pay-integration-framework/purchase-order-integration-2.html
 release: zurich
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Source-to-Pay integration framework, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -29,7 +30,7 @@ As there are several key concepts that are specific to the ERP system but are no
 -   On final review of a purchase requisition, a purchase order and fixed assets, if applicable, are created in S2P, triggering the integration with the ERP system.
 -   Attachments, if any, with valid sys-ids, are copied from the Inbound Purchase Order staging table record to the Purchase Order primary table record. This is done through a transform script, which is part of the Order stage transform map, triggered onAfter.
 -   If there is an integration error, an integration error purchasing task is created on the purchase requisition. This contains the error message from the ERP system to inform the procurement specialist what must be updated.
--   If a purchase order line is being inserted by the ERP system with no corresponding purchase order in S2P, your administrator gets an error message. They can run the 'Retrigger failed order line import set records' scheduled job to re-trigger the error purchase order line records that have not been imported due to the absence of the purchase order. For more information on integration error handling, see [Integration errors in staging tables](../../accounts-payable-operations/concept/integration-errors-in-staging-tables.md).
+-   If a purchase order line is being inserted by the ERP system with no corresponding purchase order in S2P, your administrator gets an error message. They can run the 'Retrigger failed order line import set records' scheduled job to re-trigger the error purchase order line records that have not been imported due to the absence of the purchase order. For more information on integration error handling, see [Integration errors in staging tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-integration-framework/integration-errors-in-staging-tables.md).
 -   Purchase orders are not created in the ERP system until the integration error is resolved in S2P. At this juncture, the status of the purchase order and purchase requisition in S2P is set to Pending Submission.
 -   Additional form sections, fields, and mapping tables are created in S2P for integration purposes.
 -   On successful purchase order creation in the ERP system, a purchase order ERP number and purchase order line ERP number are returned and synchronized back to the appropriate record in S2P.

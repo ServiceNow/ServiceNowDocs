@@ -2,6 +2,7 @@
 title: MS Exchange default checks and policies
 description: Agent Client Collector provides the following default checks and policies for MS Exchange monitoring.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/msexchange-checks-policies.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -61,5 +62,5 @@ winchecks metric-msexchange (options)
 Metrics from MS Exchange server
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](agent-policies-checks.md)
+</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-policies-checks.md)
 

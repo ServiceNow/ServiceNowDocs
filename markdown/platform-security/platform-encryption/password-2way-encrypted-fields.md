@@ -2,6 +2,7 @@
 title: Password2 encryption with the Key Management Framework \(KMF\)
 description: Supported by the Key Management Framework, use the Password2 \(2-way encrypted\) field type to encrypt and decrypt custom fields with segregation of duties, key protection, and life-cycle management. It works in accordance with NIST 800-57 guidelines and provides FIPS 140-2-L3 protection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/platform-encryption/password-2way-encrypted-fields.html
 release: zurich
 product: Platform Encryption
 classification: platform-encryption
@@ -17,7 +18,7 @@ Supported by the Key Management Framework, use the Password2 \(2-way encrypted\)
 
 Password2 is a text field that stores passwords with two-way encryption. The two-way encryption stores passwords as a secure encrypted value that can be decrypted within the instance.
 
-**Tip:** Beginning in the Vancouver release, administrators can deprecate 3DES encryption on password2 fields in favor of the newer Advanced Encryption Standard \(AES\). For details, see [Deprecate GlideEncrypter usage of 3DES for password2 fields](password2-3des-deprecation.md).
+**Tip:** Beginning in the Vancouver release, administrators can deprecate 3DES encryption on password2 fields in favor of the newer Advanced Encryption Standard \(AES\). For details, see [Deprecate GlideEncrypter usage of 3DES for password2 fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/password2-3des-deprecation.md).
 
 ## Activation
 
@@ -27,7 +28,7 @@ Password2 functionality is active by default. It’s controlled by the **glide.k
 
 The Key Management Framework provides a base system parent cryptographic module **cm\_glide\_encrypter**. This module provides a cryptographic specification and a key that can decrypt legacy Password2 fields.
 
-![Cryptographic Module for Password2.](../image/cm_glide_encrypter.png "Cryptographic Module for Password2")
+\[Omitted image "cm\_glide\_encrypter.png"\] Alt text: Cryptographic Module for Password2.
 
 This cm\_glide\_encrypter module can have submodules, each with their own module key and specification. If a submodule is present with the same application scope as the application where the Password2 field is, the system uses the submodule. For example, if a table in the ServiceNow® Customer Service application has a submodule, and you write information to a Password2 field on a table in the Customer Service application scope, the cryptographic process calls the Customer Service submodule. The process also uses that submodule's key for encryption and decryption with a unique AES 256 GCM encryption key. One submodule per application scope is allowed. Parent module isn’t always used for global scope. Generally, new fields use instance\_level\_glide\_encrypter.
 
@@ -87,7 +88,7 @@ var ged1 = ge.getDecryptedValue();
 
 This illustration explains how your instance decrypts data in Password2 fields:
 
-![Password2 decryption flow.](../image/pw2_decryption_flow.png "Password2 decryption flow")
+\[Omitted image "pw2\_decryption\_flow.png"\] Alt text: Password2 decryption flow.
 
 ## KMF Password2 migration job
 
@@ -95,5 +96,5 @@ A migration job is provided for customers upgrading from previous releases. It t
 
 The KMF Password2 encryption keys in the submodule are protected \(envelope encrypted\) in the KMF key hierarchy.
 
-**Parent Topic:**[Key Management Framework](../../encryption/concept/encryption.md)
+**Parent Topic:**[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/encryption.md)
 

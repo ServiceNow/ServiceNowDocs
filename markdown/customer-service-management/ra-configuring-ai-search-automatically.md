@@ -2,7 +2,10 @@
 title: Automatically map AI search results with guidance inputs in Recommended Actions
 description: Automatically create AI search results for a search configuration application in Recommended Actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ra-configuring-ai-search-automatically.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -19,7 +22,7 @@ Starting with the Yokohama release, the Recommended Actions application automati
 
 When an admin creates or updates the search application configuration for a context record, the system automatically creates search result mapping records for each of the search sources in that configuration.
 
--   If a search source does not have an existing mapping to an action, the system maps the search source to the [Default guidance for search results](ra-csm-guidances-default-guidance-search.md) guidance.
+-   If a search source does not have an existing mapping to an action, the system maps the search source to the [Default guidance for search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ra-csm-guidances-default-guidance-search.md) guidance.
 -   If a search source has an existing mapping to a specific action, the system keeps that mapping and does not overwrite it with the default guidance.
 
 Mapping records are stored in the Search result recommended action mapping table \(sn\_nb\_action\_search\_result\_ra\_mapping\) and are displayed in the Search result mapping related list on the context record.

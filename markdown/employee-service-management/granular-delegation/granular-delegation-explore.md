@@ -2,6 +2,7 @@
 title: Exploring Granular Delegation
 description: Use Granular Delegation to allow your employees to delegate their tasks to other employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/granular-delegation/granular-delegation-explore.html
 release: zurich
 product: Granular Delegation
 classification: granular-delegation

@@ -2,6 +2,7 @@
 title: Firewall audits
 description: Firewall Audits and Reporting provides a flexible auditing framework to track your firewall policy ownership and the necessity of a firewall policy. You can trigger a random audit to measure your security hygiene on the firewall policy and ownership, as well as perform proactive audits on a regular basis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/Firewall-audits.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -15,5 +16,5 @@ breadcrumb: [Configuring Firewall Audits and Reporting, Firewall Audits and Repo
 
 Firewall Audits and Reporting provides a flexible auditing framework to track your firewall policy ownership and the necessity of a firewall policy. You can trigger a random audit to measure your security hygiene on the firewall policy and ownership, as well as perform proactive audits on a regular basis.
 
-![Firewall audit workflow.](../image/firewall_audit_request.png "Firewall audit request workflow")
+\[Omitted image "firewall\_audit\_request.png"\] Alt text: Firewall audit workflow.
 

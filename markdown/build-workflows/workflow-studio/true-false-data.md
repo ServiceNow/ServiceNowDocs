@@ -2,6 +2,7 @@
 title: True/false data type
 description: Store true or false values using JavaScript data conventions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/true-false-data.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -31,5 +32,5 @@ Store true or false values using JavaScript data conventions.
 |Hint|Provides guidance to flow or action designers on how to configure the data.|
 |Default value|Specifies the value used when a flow or action designer does not provide a value.|
 
-**Parent Topic:**[Workflow Studio input and output data variables](action-inputs-outputs.md)
+**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/action-inputs-outputs.md)
 

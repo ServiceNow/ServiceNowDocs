@@ -2,6 +2,7 @@
 title: Understanding Case and Knowledge Management
 description: Case and Knowledge Management for the scoped version of HR benefits your enterprise by automating standard HR processes within your organization that support relationships between employees and the HR department.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/c\_HRServiceAutomation.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -29,9 +30,9 @@ HR Service Delivery is used by the enterprise HR department. An enterprise HR de
 HR Service Delivery enhances and supports your enterprise. The relationships between your employees, IT, and the HR department are supported in numerous ways:
 
 -   Employees can use the HR Service Portal or catalog to submit questions and other requests to the HR department.
--   If you use the Connect Support feature, employees can chat with an HR agent who is monitoring the HR chat queue. See [Connect Support](https://www.servicenow.com/docs/access?context=c_ConnectSupport&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+-   If you use the Connect Support feature, employees can chat with an HR agent who is monitoring the HR chat queue. See Connect Support.
 
-    **Note:** Connect Support will be deprecated. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://www.servicenow.com/docs/access?context=migrate-from-connect-support&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+    **Note:** Connect Support will be deprecated. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see Move from Connect Support to Advanced Work Assignment and Agent Chat.
 
 -   HR staff can create, manage, and view HR cases to answer questions and process the requests that employees submit.
 -   HR managers can run reports and view overview information to monitor and manage work done by the HR department.
@@ -100,5 +101,5 @@ The following terminology is used for the application.
 |HR System Report Frequencies|System Report Frequencies defined for HR Systems Service|
 |HR System Report Types|HR System Report types used by HR System service|
 
-**Parent Topic:**[Explore Case and Knowledge Management](hr-ckm-use-explore.md)
+**Parent Topic:**[Explore Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-ckm-use-explore.md)
 

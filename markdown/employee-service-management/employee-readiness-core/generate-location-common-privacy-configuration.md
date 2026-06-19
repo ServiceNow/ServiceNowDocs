@@ -2,6 +2,7 @@
 title: Generate location-based privacy configurations
 description: As an administrator, generate the privacy configuration for locations set up in your instance to use with Safe Workplace suite applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-readiness-core/generate-location-common-privacy-configuration.html
 release: zurich
 product: Employee Readiness Core
 classification: employee-readiness-core
@@ -35,15 +36,15 @@ You can generate a location-based, default privacy configuration for each countr
 
 4.  Configure the privacy consent text if necessary.
 
-<table id="choicetable_kwk_52b_ynb"><thead><tr><th align="left" id="d507373e99">
+<table id="choicetable_kwk_52b_ynb"><thead><tr><th align="left" id="d79785e99">
 
 Privacy consent status
 
-</th><th align="left" id="d507373e102">
+</th><th align="left" id="d79785e102">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d507373e108">
+</th></tr></thead><tbody><tr><td id="d79785e108">
 
 **Consent is not required for the location**
 
@@ -51,7 +52,7 @@ Action
 
 Clear the **Needs privacy consent** check box.
 
-</td></tr><tr><td id="d507373e120">
+</td></tr><tr><td id="d79785e120">
 
 **Consent is required for the location**
 
@@ -68,5 +69,5 @@ The privacy statement content from the updated template is copied into the **Pri
 </table>5.  Click **Update**.
 
 
-**Parent Topic:**[Setting up privacy consent settings](../concept/set-up-privacy-consent-common.md)
+**Parent Topic:**[Setting up privacy consent settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-readiness-core/set-up-privacy-consent-common.md)
 

@@ -2,7 +2,10 @@
 title: Interaction Controls Component
 description: Interaction Controls Component \(ICC\) is a component that allows for a native call controls interface embedded in Agent Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/interaction-controls-component.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -23,5 +26,5 @@ Interaction Controls Component \(ICC\) is a component that allows for a native c
 -   Screen pop for Interaction should be available on Dialpad and Click-to-call outbound call
 -   sn\_openframe.create\_interaction will be ignored when using ICC. All inbound and outbound calls will have interactions created.
 
-Use Interaction Controls Component \(ICC\) and OpenFrame to integrate with the voice channel for contact centers. For more information, see [Interaction Controls Component \(ICC\) for voice calls](contact-center-integration-with-icc.md).
+Use Interaction Controls Component \(ICC\) and OpenFrame to integrate with the voice channel for contact centers. For more information, see [Interaction Controls Component \(ICC\) for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/contact-center-integration-with-icc.md).
 

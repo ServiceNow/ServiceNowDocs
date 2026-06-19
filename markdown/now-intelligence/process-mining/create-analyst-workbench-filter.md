@@ -2,6 +2,7 @@
 title: Apply a breakdown filter
 description: Filter analyst workbench projects that you create, shared with you or all.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/create-analyst-workbench-filter.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -27,14 +28,14 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 3.  Select the **Analyst workbench** tab.
 
-4.  In the **Breakdowns** section, select the filter icon ![breakdown filter](../image/filter.png).
+4.  In the **Breakdowns** section, select the filter icon \[Omitted image "filter.png"\] Alt text: breakdown filter.
 
     The Breakdown filters window is displayed.
 
-    ![breakdown filters](../image/metrics-routes-filters.png)
+    \[Omitted image "metrics-routes-filters.png"\] Alt text: breakdown filters
 
 5.  Specify the filter, and select **Apply**.
 
 
-**Parent Topic:**[Filtering project data](filter-project.md)
+**Parent Topic:**[Filtering project data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/filter-project.md)
 

@@ -2,6 +2,7 @@
 title: Quick start tests for Skills Management
 description: Validate that Skills Management still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/skills-management/quick-start-tests-skills-management.html
 release: zurich
 product: Skills Management
 classification: skills-management
@@ -33,5 +34,5 @@ Skills Management quick start tests require activating the Skills Management plu
 **Related topics**  
 
 
-[Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+[bundle-cadev.quick-start-tests]
 

@@ -2,7 +2,10 @@
 title: Activate a flow for Email Interaction for CSM
 description: Activate flows for customers who have the Email Interaction for CSM application configured, enabling efficient workflow automation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/activate-flow-email-interaction.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

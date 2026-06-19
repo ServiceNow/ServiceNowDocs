@@ -2,6 +2,7 @@
 title: Manage Live Feed message content
 description: Users can remove their own messages from feeds. If necessary, administrators can remove inappropriate messages that are posted by any user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/live-feed/t\_ManageLiveFeedMessageContent.html
 release: zurich
 product: Live Feed
 classification: live-feed
@@ -36,5 +37,5 @@ For security reasons, any HTML code is automatically stripped out of a message b
 4.  Click **Update**.
 
 
-**Parent Topic:**[Live Feed security and table access](../reference/r_LiveFeedTableAccessRules.md)
+**Parent Topic:**[Live Feed security and table access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/live-feed/r_LiveFeedTableAccessRules.md)
 

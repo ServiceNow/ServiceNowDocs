@@ -2,6 +2,7 @@
 title: Components installed with Service Mapping Plus
 description: Several types of components are installed with activation of the Service Mapping Plus plugin, including tables and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/components-installed-with-service-mapping-plus.html
 release: zurich
 product: Service Mapping
 classification: service-mapping
@@ -21,7 +22,7 @@ Several types of components are installed with activation of the Service Mapping
 
 |Scheduled job|Description|
 |-------------|-----------|
-|Update statistics for application service readiness dashboard|Refreshes the information displayed on the [Application service readiness dashboard](readiness-dashboard-ml.md). Runs hourly. In addition, runs when the **Check Readiness** button is selected on the **Application service readiness dashboard**. The system doesn't trigger this scheduled job sooner than five minutes since the last run.|
+|Update statistics for application service readiness dashboard|Refreshes the information displayed on the [Application service readiness dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/readiness-dashboard-ml.md). Runs hourly. In addition, runs when the **Check Readiness** button is selected on the **Application service readiness dashboard**. The system doesn't trigger this scheduled job sooner than five minutes since the last run.|
 
 ## Tables installed
 
@@ -114,5 +115,5 @@ Sets the maximum number of days a host is considered valid when generating appli
 -   **Default value:** 0
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Mapping reference](service-mapping-reference.md)
+</table>**Parent Topic:**[Service Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-reference.md)
 

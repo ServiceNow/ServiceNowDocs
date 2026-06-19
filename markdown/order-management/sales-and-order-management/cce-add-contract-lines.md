@@ -2,6 +2,7 @@
 title: Add contract lines to a service contract
 description: Add one or more contract lines to a service contract on the CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cce-add-contract-lines.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -32,7 +33,7 @@ Role required:
 
 4.  On the Service Contract form, select **New**.
 
-    The target entity is created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](../concept/create-cont-ent-workflows-csm.md#section_qp4_rxv_tcc).
+    The target entity is created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-cont-ent-workflows-csm.md).
 
     -   If the selected target entity is a quote, a quote to create new service contract line is created.
     -   If the selected target entity is an order, an order to create new service contract line is created.
@@ -42,7 +43,7 @@ Role required:
 
 5.  In the Catalog tab, add products to the new quote or order that is created.
 
-    For more info, see [Add products to a quote](../../tmt-order-mgt/task/quote-management-catalog-tab.md).
+    For more info, see [Add products to a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-management-catalog-tab.md).
 
 6.  Select **Submit for approval**.
 
@@ -55,5 +56,5 @@ Role required:
 
 The new service contract line is added to the contract and is visible on the selected target entity.
 
-**Parent Topic:**[Using Contracts and Entitlements Workflows](../concept/using-customer-cnt-ent-wf.md)
+**Parent Topic:**[Using Contracts and Entitlements Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/using-customer-cnt-ent-wf.md)
 

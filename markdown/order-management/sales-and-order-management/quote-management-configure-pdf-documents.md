@@ -2,6 +2,7 @@
 title: Configure quote PDF documents
 description: As a sales operation specialist, you can generate professional-looking PDF templates that present quotes in a standardized format that reflects company branding and logos. You can also set up Docusign to enable signers to sign quotes electronically and send them through email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/quote-management-configure-pdf-documents.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,13 +22,13 @@ Add customized templates to quote PDF documents using the ServiceNow document te
 
 A standard template is included with the base installation of Quote Management.
 
-See [Set up PDF document templates](../task/quote-mgt-setup-pdf-document-templates.md) to learn more about PDF document templates and how they work.
+See [Set up PDF document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-mgt-setup-pdf-document-templates.md) to learn more about PDF document templates and how they work.
 
 ## Link quote PDF documents to Docusign
 
 Sales operation specialists can link quote PDF documents to Docusign so that signers can sign PDF documents electronically.
 
-See [Configure DocuSign for PDF documents](../task/quote-mgt-configure-docusign-pdf.md) for more information about how to set up Docusign.
+See [Configure DocuSign for PDF documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-mgt-configure-docusign-pdf.md) for more information about how to set up Docusign.
 
 ## Set up quote PDF document signers
 
@@ -36,5 +37,5 @@ Sales operation specialist can set up PDF document signers in Quote Management. 
 -   Contacts listed in an account linked to the quote can be external signers.
 -   Internal signers are all the users that have either sales\_agent or sales\_ops\_specialist roles in Quote Management.
 
-See [Set up PDF document signers](../task/quote-mgt-configure-pdf-document-signers.md) for more information.
+See [Set up PDF document signers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-mgt-configure-pdf-document-signers.md) for more information.
 

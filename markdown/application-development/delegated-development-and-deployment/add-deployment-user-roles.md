@@ -2,6 +2,7 @@
 title: Add deployment user roles
 description: A system administrator can assign user roles to specific personnel that allow them to perform first application installations only, or install and upgrade applications in a local instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/delegated-development-and-deployment/add-deployment-user-roles.html
 release: zurich
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
@@ -23,7 +24,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **User Administration** &gt; **Users** and then open a user record.
 
-    **Note:** For details on how to assign a role to a user, refer to [Assign a user role](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    **Note:** For details on how to assign a role to a user, refer to Assign a user role.
 
 2.  In the **Roles** related list, select **Edit**.
 

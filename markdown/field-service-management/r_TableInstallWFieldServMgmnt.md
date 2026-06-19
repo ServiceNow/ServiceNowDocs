@@ -2,7 +2,10 @@
 title: Tables installed with Field Service Management
 description: Tables are provided with the Field Service Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/r\_TableInstallWFieldServMgmnt.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -130,5 +133,5 @@ Resource Schedule Attributes\[wm\_agent\_schedule\_attribute\_plan\]
 Stores the attributes like start date, end date, start location, end location, shift hours etc of agents.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Field Service Management](r_InstalledWithFSM.md)
+</table>**Parent Topic:**[Components installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/r_InstalledWithFSM.md)
 

@@ -2,6 +2,7 @@
 title: Configuring ServiceNow CPQ with basic and advanced features
 description: Learn how to set up products, rules, pricing, and layouts in ServiceNow CPQ using configuration engine. You can define how users select, customize, and validate products during the quoting process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cpq-configuring.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

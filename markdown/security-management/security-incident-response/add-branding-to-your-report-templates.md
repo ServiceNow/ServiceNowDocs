@@ -2,6 +2,7 @@
 title: Add Branding to your Report Templates
 description: Add branding to your reports. You can add header and footer image, header and footer text. You can include this branding information in any of the report template types that you want to create other than the two predefined reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/add-branding-to-your-report-templates.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -40,15 +41,15 @@ The key considerations while adding branding to your report templates are as fol
 
 5.  On the Branding template form, fill the fields.
 
-<table id="choicetable_fll_jgw_wsb"><thead><tr><th align="left" id="d91844e123">
+<table id="choicetable_fll_jgw_wsb"><thead><tr><th align="left" id="d92794e123">
 
 Field
 
-</th><th align="left" id="d91844e126">
+</th><th align="left" id="d92794e126">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d91844e132">
+</th></tr></thead><tbody><tr><td id="d92794e132">
 
 **Name**
 
@@ -56,7 +57,7 @@ Description
 
 Name of the branding template.
 
-</td></tr><tr><td id="d91844e141">
+</td></tr><tr><td id="d92794e141">
 
 **Header image**
 
@@ -67,7 +68,7 @@ Add a Header image for the branding template by performing the following steps:1
 3.  Choose an image from your system and select **OK**.
 
 
-</td></tr><tr><td id="d91844e169">
+</td></tr><tr><td id="d92794e169">
 
 **Footer image**
 
@@ -78,7 +79,7 @@ Add a Footer image for the branding template by performing the following steps:1
 3.  Choose an image from your system and select **OK**.
 
 
-</td></tr><tr><td id="d91844e197">
+</td></tr><tr><td id="d92794e197">
 
 **Header image position**
 
@@ -86,7 +87,7 @@ Add a Footer image for the branding template by performing the following steps:1
 
 Select a header image position for the branding template. You can choose **Left**, **Center**, or **Right**.
 
-</td></tr><tr><td id="d91844e216">
+</td></tr><tr><td id="d92794e216">
 
 **Footer image position**
 
@@ -94,7 +95,7 @@ Select a header image position for the branding template. You can choose **Left*
 
 Select a header image position for the branding template. You can choose **Top left**, **Top center**, **Top Right**, **Bottom left**, **Bottom center**, or **Bottom Right**.
 
-</td></tr><tr><td id="d91844e244">
+</td></tr><tr><td id="d92794e244">
 
 **Header image height**
 
@@ -102,7 +103,7 @@ Select a header image position for the branding template. You can choose **Top l
 
 Provide a height value \(in pt\) for the Header image of the branding template.
 
-</td></tr><tr><td id="d91844e253">
+</td></tr><tr><td id="d92794e253">
 
 **Footer image height**
 
@@ -110,7 +111,7 @@ Provide a height value \(in pt\) for the Header image of the branding template.
 
 Provide a height value \(in pt\) for the Footer image of the branding template.
 
-</td></tr><tr><td id="d91844e262">
+</td></tr><tr><td id="d92794e262">
 
 **Footer text**
 
@@ -118,7 +119,7 @@ Provide a height value \(in pt\) for the Footer image of the branding template.
 
 Provide a footer text for the branding template. You can include classification or confidentiality information. For example, this email is classified as Confidential, Internal Only or Client Attorney Privileged.
 
-</td></tr><tr><td id="d91844e271">
+</td></tr><tr><td id="d92794e271">
 
 **Footer text position**
 
@@ -132,5 +133,5 @@ Select a footer text position for the branding template. You can choose **Top le
     A new branding template is created under the Branding Templates page.
 
 
-**Parent Topic:**[Create a Report Template](create-report-template.md)
+**Parent Topic:**[Create a Report Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/create-report-template.md)
 

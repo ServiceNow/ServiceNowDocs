@@ -2,6 +2,7 @@
 title: Global activities
 description: Global activities are Orchestration activities created in the global scope.The Test Server Alive activity determines if a target system is alive by its response to a particular protocol.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/orchestration/global-activity-pack.html
 release: zurich
 product: Orchestration
 classification: orchestration
@@ -17,15 +18,15 @@ Global activities are Orchestration activities created in the global scope.
 
 Any activities you create in the global scope are listed in the Global category in the **Packs** and **Custom** tabs of the Workflow Editor.
 
-![Global activity pack](../image/GlobalPacks.png "Global activities")
+\[Omitted image "GlobalPacks.png"\] Alt text: Global activity pack
 
-**Parent Topic:**[Orchestration activity packs](c_OrchestrationActivityPacks.md)
+**Parent Topic:**[Orchestration activity packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_OrchestrationActivityPacks.md)
 
 ## Test Server Alive activity
 
 The Test Server Alive activity determines if a target system is alive by its response to a particular protocol.
 
-This activity replaces an activity by the same name available in releases prior to Istanbul. If you have a workflow created in a previous version that uses the deprecated activity, your workflow will continue to work normally after upgrading to Istanbul. However, all new workflows must use the custom version of this activity. This activity was built with the [Probe activity template](../../orchestration-activity-designer/task/t_CreateAProbeActivity.md#), which gives workflow administrators the ability to store input and output variables in the [databus](../../orchestration-activity-designer/concept/c_OrchestrationDatabus.md#).
+This activity replaces an activity by the same name available in releases prior to Istanbul. If you have a workflow created in a previous version that uses the deprecated activity, your workflow will continue to work normally after upgrading to Istanbul. However, all new workflows must use the custom version of this activity. This activity was built with the [Probe activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateAProbeActivity.md), which gives workflow administrators the ability to store input and output variables in the [databus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_OrchestrationDatabus.md).
 
 ### Input variables
 

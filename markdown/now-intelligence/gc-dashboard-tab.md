@@ -2,6 +2,7 @@
 title: General Counsel Dashboard pillars
 description: Organizing insights across these pillars enables legal leaders to streamline contract workflows, improve service responsiveness, maintain compliance, accelerate digital invoicing, and empower users through legal self-service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/gc-dashboard-tab.html
 release: zurich
 topic_type: reference
 last_updated: "2025-10-06"
@@ -128,7 +129,7 @@ Empowerment &amp; shift-left efficiency
 Measures adoption of legal self-help tools to reduce repetitive queries and enable faster access to legal information.
 
 </td></tr></tbody>
-</table>![General Counsel Dashboard with Contracts, Service Delivery, Privacy and Compliance, Digital Forensics, and Self Service pillars, each containing legal metrics and visualizations.](../image/gc-db-tab.png)
+</table>\[Omitted image "gc-db-tab.png"\] Alt text: General Counsel Dashboard with Contracts, Service Delivery, Privacy and Compliance, Digital Forensics, and Self Service pillars, each containing legal metrics and visualizations.
 
 ## GC Dashboard overview
 

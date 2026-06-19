@@ -2,6 +2,7 @@
 title: Create a confidential record
 description: Create a record and mark it as confidential so that you can make sure that only the users with a specific role can access it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/configure-confidential-record.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -48,5 +49,5 @@ Role required: sn\_grc.admin, sn\_grc.business\_user who has opened the risk eve
 
 The selected record is marked as confidential. Only the users who belong to the Allowed users list or the Allowed groups list can access this confidential record.
 
-**Parent Topic:**[Confidential records](../concept/confidential-records.md)
+**Parent Topic:**[Confidential records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/confidential-records.md)
 

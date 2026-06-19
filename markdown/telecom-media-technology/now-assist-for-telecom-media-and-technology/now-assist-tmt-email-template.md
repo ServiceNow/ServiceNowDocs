@@ -2,6 +2,7 @@
 title: Create touchpoints and meeting records using Now Assist for Telecommunications, Media and Technology \(TMT\)
 description: Send the email to instance to create the touchpoint and meeting records directly from the inbound email using Now Assist for Telecommunications, Media and Technology \(TMT\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-email-template.html
 release: zurich
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -19,9 +20,9 @@ Send the email to instance to create the touchpoint and meeting records directly
 
 Role required: Success agent
 
-To enable the email sending, see [Outbound email configuration](https://www.servicenow.com/docs/access?context=r_OutboundMailConfiguration&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+To enable the email sending, see .
 
-To enable the email receiving, see [Inbound email configuration](https://www.servicenow.com/docs/access?context=r_InboundMailConfiguration&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+To enable the email receiving, see .
 
 ## Procedure
 
@@ -31,7 +32,7 @@ To enable the email receiving, see [Inbound email configuration](https://www.ser
 
     The new Email must contain the following information:
 
-    ![touchpoint and meeting records.](../image/touchpoint-mail-example.png)
+    \[Omitted image "touchpoint-mail-example.png"\] Alt text: touchpoint and meeting records.
 
 <table id="table_ogx_wzn_hgc"><thead><tr><th>
 
@@ -102,5 +103,5 @@ For Touchpoints, the Email message must contain the required fields:
 -   If the validation passes, a record is created in the touchpoint and you receive a success email with the link to the created record.
 -   The emails are prepared and pushed to the outbound queue where they’re scheduled to be sent.
 
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](../concept/now-assist-spm-using.md)
+**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

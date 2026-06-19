@@ -2,6 +2,7 @@
 title: Mark records for deletion
 description: Mark records for deletion according to one or more criteria by creating a delete job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/mark-records-for-deletion.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -56,7 +57,7 @@ The job is saved and the form displays options to schedule the job or execute it
 
 ## What to do next
 
-[Preview affected records for deletion](preview-affected-records-for-deletion.md).
+[Preview affected records for deletion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/preview-affected-records-for-deletion.md).
 
-**Parent Topic:**[Deleting records safely](../concept/deleting-records-safely.md)
+**Parent Topic:**[Deleting records safely](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/deleting-records-safely.md)
 

@@ -2,6 +2,7 @@
 title: Switch workflow activity
 description: The Switch activity checks if the value of a passed field or variable is equivalent to one of several case values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/workflow-activities/r\_Switch.html
 release: zurich
 product: Workflow Activities
 classification: workflow-activities
@@ -73,17 +74,17 @@ The activity state tells the workflow engine what to do with the activity.
 
 You can create a switch activity that sets different field values on an incident based on the Assignment group of the incident record.
 
-![](../image/SwitchConditionActivityFieldValues.png "Switch activity example")
+\[Omitted image "SwitchConditionActivityFieldValues.png"\] Alt text:
 
 The **Field** selected is the incident **Assigned to** field.
 
-![](../image/SwitchActivityFieldAssignedTo.png "Switch activity Field")
+\[Omitted image "SwitchActivityFieldAssignedTo.png"\] Alt text:
 
 If the value of the **Assigned to** field of the workflow-triggering incident is **Service Desk** or **Field Services**, the workflow populates values on the incident record before continuing. If the **Assigned to** value is **Hardware**, the workflow continues without populating any field values.
 
-Condition type \(Standard, Else, or Error\) is used. For more information, see [Manage workflow activity conditions](../../using-workflows/task/t_ManageActivityConditions.md#).
+Condition type \(Standard, Else, or Error\) is used. For more information, see [Manage workflow activity conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/workflow-activities/t_ManageActivityConditions.md).
 
-![](../image/ConditionPropertiesHardware.png "Hardware group condition")
+\[Omitted image "ConditionPropertiesHardware.png"\] Alt text:
 
-**Parent Topic:**[Condition Workflow activities](r_ConditionActivites.md)
+**Parent Topic:**[Condition Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/workflow-activities/r_ConditionActivites.md)
 

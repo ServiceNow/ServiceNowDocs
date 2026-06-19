@@ -2,6 +2,7 @@
 title: Observable Enrichment
 description: The Enrich Observable WhoIs workflow performs enrichment on selected observables. If the observables are of a type recognized by the WhoisXML API Integration, the observables are enriched.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-observable-enrichment.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -17,12 +18,12 @@ The Enrich Observable WhoIs workflow performs enrichment on selected observables
 
 **Note:** The Threat Intelligence Security Center supports Observable Enrichment only for the WHOIS Integration.
 
--   **[Run Have I Been Pwned enrichment integration](../task/tisc-hibp-enrichment-integration.md)**  
+-   **[Run Have I Been Pwned enrichment integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-hibp-enrichment-integration.md)**  
 Run the Have I Been Pwned \(HIBP\) enrichment on an email address or domain name observable to determine whether it has been involved in a known data breach.
--   **[Whois integration](tisc-whoisxml-integration.md)**  
+-   **[Whois integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-whoisxml-integration.md)**  
 The Whois integration enables you to submit Whois lookups on domain names and URLs to obtain context on URL observables, and to make better determination on threats.
--   **[Shodan integration](../task/tisc-shodan.md)**  
+-   **[Shodan integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-shodan.md)**  
 Shodan is a search engine that analyzes service banner information from connected devices all around the globe.
 
-**Parent Topic:**[Run Enrichment operations in TISC](../task/tisc-unified-experience-capabilities-and-modal-screens.md)
+**Parent Topic:**[Run Enrichment operations in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-unified-experience-capabilities-and-modal-screens.md)
 

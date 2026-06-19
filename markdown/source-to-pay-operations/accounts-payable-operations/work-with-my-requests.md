@@ -2,6 +2,7 @@
 title: Working with My Requests
 description: View and respond to invoice inquiries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/work-with-my-requests.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -23,7 +24,7 @@ Role required: Supplier
 
 1.  Navigate to the header on the home page &gt; **My Requests**.
 
-    Lists all the invoice inquiry cases assigned to supplier. For more information on invoice inquiry cases, see [Invoice inquiry cases](../concept/work-with-inquiry-cases.md).
+    Lists all the invoice inquiry cases assigned to supplier. For more information on invoice inquiry cases, see [Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md).
 
 2.  You can apply filter on **View** option which will display the open and closed requests.
 
@@ -55,5 +56,5 @@ Role required: Supplier
 
 The invoice inquiry case details are displayed, and the Accounts Payable agent can view and respond to invoice inquiries.
 
-**Parent Topic:**[Using Supplier Collaboration Portal in APO](../concept/using-supplier-collaboration-portal.md)
+**Parent Topic:**[Using Supplier Collaboration Portal in APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/using-supplier-collaboration-portal.md)
 

@@ -2,6 +2,7 @@
 title: Add hotspots to track custom widget performance
 description: Hotspots help capture and log widget load times, which enables better debugging of long portal load times.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/add-hotspots-track-custom-widget-performance.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -55,7 +56,7 @@ Role required: sp\_admin
 
 ## What to do next
 
-Open the Performance details window to view how long the custom widget takes to load data: [View widget performance metrics](view-widget-performance-metrics.md)
+Open the Performance details window to view how long the custom widget takes to load data: [View widget performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/view-widget-performance-metrics.md)
 
-**Parent Topic:**[Managing portal performance](../concept/improve-manage.md)
+**Parent Topic:**[Managing portal performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/improve-manage.md)
 

@@ -2,6 +2,7 @@
 title: Configure knowledge bases
 description: Enable users to view knowledge articles from the mobile app. If no knowledge bases are selected, users can view articles from all knowledge bases in the system. By default, the app uses the IT knowledge base.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-mobile-employee-experience/configure-kbs.html
 release: zurich
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
@@ -49,5 +50,5 @@ Role required: admin
 
 ## Result
 
-Users can select the ![Plus icon](../image/more-items.png) icon on the applet launcher page to open the quick action.
+Users can select the \[Omitted image "more-items.png"\] Alt text: Plus icon icon on the applet launcher page to open the quick action.
 

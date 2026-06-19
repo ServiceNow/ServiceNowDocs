@@ -2,6 +2,7 @@
 title: Request filter condition form
 description: The field descriptions provide a reference point when you're creating a Requests filter definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/filter-cond-form-req.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -25,5 +26,5 @@ The field descriptions provide a reference point when you're creating a Requests
 |**Add OR Clause**: Add an OR clause to the filter condition.|
 |**Add Sort**: Add a sorting clause to the filter condition.|
 
-**Parent Topic:**[Enhanced Requests Experience forms](req-concept-ec.md)
+**Parent Topic:**[Enhanced Requests Experience forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/req-concept-ec.md)
 

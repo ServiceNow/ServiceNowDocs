@@ -2,6 +2,7 @@
 title: Create a credit service case for a covenant breach or loan restructuring
 description: Create a credit service case to handle a covenant breach or restructuring of a loan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-loan-operations/create-credit-case-loan-ops.html
 release: zurich
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
@@ -22,9 +23,9 @@ Role required:
 -   For a business loan service for a business customer \(account or contact\): sn\_bom\_credit\_asmt.b2b\_agent, sn\_bom\_credit\_asmt.b2b\_agent\_connector, or sn\_bom\_credit\_asmt.b2b\_contributor
 -   For a personal loan service for a consumer: sn\_bom\_credit\_asmt.b2c\_agent, sn\_bom\_credit\_asmt.b2c\_agent\_connector, or sn\_bom\_credit\_asmt.b2c\_contributor
 
-**Note:** The applicable universal contributor role can also be assigned to create a case. For more information, see [User roles and FSO Business rules](../../fso-common/reference/fso-core-roles.md).
+**Note:** The applicable universal contributor role can also be assigned to create a case. For more information, see [User roles and FSO Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-core-roles.md).
 
-**Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -34,7 +35,7 @@ An API in the backend can also trigger a Covenant Breach credit service case whe
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Credit Service Cases**, click **All**.
 

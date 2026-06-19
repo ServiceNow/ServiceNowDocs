@@ -2,6 +2,7 @@
 title: Automate alert updates and closure based on SIR incident status
 description: The Microsoft Graph Security API alert ingestion integration has a bi-directional interface that allows for both alerts to create security incidents, as well as an ability to update the alerts once the security incident is created and/or closed with relevant incident details such as SIR incident number, assignment group, SIR incident URL, and so on. T
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/ms-graph-create-profile-automate.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -27,15 +28,15 @@ Role required: sn\_si.admin
 
 2.  Follow the instructions below to complete the configuration for updating alerts when the security incident is created.
 
-<table id="choicetable_bsh_yxn_kjb"><thead><tr><th align="left" id="d416445e80">
+<table id="choicetable_bsh_yxn_kjb"><thead><tr><th align="left" id="d336300e80">
 
 Option or Field
 
-</th><th align="left" id="d416445e83">
+</th><th align="left" id="d336300e83">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d416445e89">
+</th></tr></thead><tbody><tr><td id="d336300e89">
 
 **Update alerts upon SIR Incident Creation**
 
@@ -43,7 +44,7 @@ Description
 
 Select this option if you want to update the alert status and add additional comments when a security incident is created from the alert. This can occur for both the initial triggering alerts that create the security incident, as well as aggregated alerts.
 
-</td></tr><tr><td id="d416445e98">
+</td></tr><tr><td id="d336300e98">
 
 **Initial Alert Status Update**
 
@@ -51,7 +52,7 @@ Select this option if you want to update the alert status and add additional com
 
 Select an initial alert status from the list. This status will be set for all alerts when a security incident is created for an ingested alert. This includes alerts that create new incidents and alerts that are ingested and aggregated to an existing open incident.**Note:** Based on the alert status selected here, the alert status used by the security providers will be correspondingly updated.
 
-</td></tr><tr><td id="d416445e110">
+</td></tr><tr><td id="d336300e110">
 
 **Initial Comments posted back to Alert**
 
@@ -59,7 +60,7 @@ Select an initial alert status from the list. This status will be set for all al
 
 Based on the stage you have selected, default comments are displayed. You can modify the default text and use the $\{field name\}$ format to add or modify any fields available in the security incident form.
 
-</td></tr><tr><td id="d416445e119">
+</td></tr><tr><td id="d336300e119">
 
 **Close out alerts upon SIR Incident Closure**
 
@@ -67,7 +68,7 @@ Based on the stage you have selected, default comments are displayed. You can mo
 
 Select this option if you want to use the automated alert closure option. This can occur for both the initial triggering alerts that create the security incident, as well as aggregated alerts. Alert status will be updated in the security provider with the status and closure comments after SIR incident is closed in the ServiceNow AI Platform.
 
-</td></tr><tr><td id="d416445e135">
+</td></tr><tr><td id="d336300e135">
 
 **Closure Alert Status Update**
 
@@ -75,7 +76,7 @@ Select this option if you want to use the automated alert closure option. This c
 
 Select an alert status from the list. Select the status value to be set for all alerts when a security incident is closed for an ingested alert.
 
-</td></tr><tr><td id="d416445e144">
+</td></tr><tr><td id="d336300e144">
 
 **Closure Comments Posted back to Alert**
 

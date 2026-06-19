@@ -2,6 +2,7 @@
 title: Matrix column configuration form
 description: The table gives a description of the field values for the Matrix column configuration form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/matrix-col-config-audit-ws.html
 release: zurich
 product: Audit Management
 classification: audit-management

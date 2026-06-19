@@ -2,6 +2,7 @@
 title: Install an application from the application repository
 description: Install your application on an instance so that employees can start using the application that you developed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/application-repository-self-hosted/install-app-from-repo.html
 release: zurich
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
@@ -17,8 +18,8 @@ Install your application on an instance so that employees can start using the ap
 
 ## Before you begin
 
--   [Publish an application to the application repository](t_PublishAppsToTheAppRepository.md).
--   Check the entitlement type of the application to ensure that your instance is entitled to the application. For more information, see [Manage application entitlements from the application repository](manage-app-entitlements.md).
+-   [Publish an application to the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/application-repository-self-hosted/t_PublishAppsToTheAppRepository.md).
+-   Check the entitlement type of the application to ensure that your instance is entitled to the application. For more information, see [Manage application entitlements from the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/application-repository-self-hosted/manage-app-entitlements.md).
 
 Role required: admin
 
@@ -32,6 +33,6 @@ Role required: admin
 
 4.  Click **Install**.
 
-    ![Install application screen](../image/install-app-from-repo.png "Install an application")
+    \[Omitted image "install-app-from-repo.png"\] Alt text: Install application screen
 
 

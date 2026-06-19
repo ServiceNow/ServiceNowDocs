@@ -2,6 +2,7 @@
 title: Request an exception for remediation tasks using GRC: Policy and Compliance Management
 description: Request policy exceptions using the GRC policy exception management capability in the Policy and Compliance Management application from within Configuration Compliance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/integrate-with-grc-cc.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance
@@ -25,7 +26,7 @@ You can also request exceptions in the classic UI.
 
 ## About this task
 
-**Important:** As an admin and a remediation owner, you can request a policy exception for a Remediation Task \(RT\) in the [Vulnerability Manager Workspace](../../vulnerability-response/concept/vr-ws-exceptions-split-VMGR-ws.md) and [IT Remediation Workspace](../../vulnerability-response/task/vr-ws-request-exception-grc.md) respectively.
+**Important:** As an admin and a remediation owner, you can request a policy exception for a Remediation Task \(RT\) in the [Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-manager-workspace/vr-ws-exceptions-split-VMGR-ws.md) and [IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/it-remediation-workspace/vr-ws-request-exception-grc.md) respectively.
 
 **Note:** Starting with v14.9 of Configuration Compliance, the following terms have been renamed:
 
@@ -85,7 +86,7 @@ Valid until
 
 </td><td>
 
-Date when the policy exception expires and when the state of the vulnerable item or group changes from Deferred to Open.**Note:** The number of days that the policy exception is valid can’t exceed the **Maximum exception duration \(days\)** that you set for the policy in Policy and Compliance. For more information, see [Create a policy](https://www.servicenow.com/docs/access?context=t_DefineAPolicy&version=zurich&pubname=zurich-governance-risk-compliance&ft:locale=en-US).
+Date when the policy exception expires and when the state of the vulnerable item or group changes from Deferred to Open.**Note:** The number of days that the policy exception is valid can’t exceed the **Maximum exception duration \(days\)** that you set for the policy in Policy and Compliance. For more information, see Create a policy.
 
 </td></tr><tr><td>
 
@@ -138,6 +139,6 @@ Details that are related to the reason why this request is being made. This fiel
 
 4.  Click **Submit**.
 
-    For more information on the Policy Exception Integration and the hand-off between the remediation owner and the compliance manager, see [Policy and Compliance Management optional setup](https://www.servicenow.com/docs/access?context=policy-compliance-optional-steps&version=zurich&pubname=zurich-governance-risk-compliance&ft:locale=en-US).
+    For more information on the Policy Exception Integration and the hand-off between the remediation owner and the compliance manager, see Policy and Compliance Management optional setup.
 
 

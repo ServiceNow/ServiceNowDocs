@@ -2,7 +2,10 @@
 title: Create a personal event for an agent or technician
 description: Users with the agent schedule administrator role can create personal events that appear on an agent's personal calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-personal-event-for-agent.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2

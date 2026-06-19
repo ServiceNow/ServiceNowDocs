@@ -2,7 +2,10 @@
 title: Raise a general supplier request
 description: Raise a general request for any common query or issue as a supplier on CBS.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/core-business-suite/request-slo.html
 release: zurich
+product: Core Business Suite
+classification: core-business-suite
 topic_type: task
 last_updated: "2025-11-24"
 reading_time_minutes: 1
@@ -37,5 +40,5 @@ Role required: sn\_slm.contact
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Using Core Business Suite](../concept/cbs-using-parent.md)
+**Parent Topic:**[Using Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/core-business-suite/cbs-using-parent.md)
 

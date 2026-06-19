@@ -2,6 +2,7 @@
 title: Producer Event Notification Framework developer guide
 description: The Producer Event Notification Framework for Telecommunications, Media, and Technology enables the external distribution of events, such as trouble tickets, using a message-bus implemented in your network.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/developer-guides/prod\_evt\_not-dev\_guide-overview.html
 release: zurich
 product: Developer Guides
 classification: developer-guides
@@ -17,15 +18,15 @@ The Producer Event Notification Framework for Telecommunications, Media, and Tec
 
 The Producer Event Notification Framework supports two different message-bus use cases:
 
-1.  Publishing events through the Hermes Messaging Service: If you plan to publish events using Hermes Kafka, you must configure the Producer Event Notification Framework for the Kafka message-bus. You can only use this message-bus for cloud-based instances. For details, see [Configure the Producer Event Notification Framework to use the Hermes Messaging Service](../task/prod_evt_not-dev_gd-cfg_herm_bus.md).
+1.  Publishing events through the Hermes Messaging Service: If you plan to publish events using Hermes Kafka, you must configure the Producer Event Notification Framework for the Kafka message-bus. You can only use this message-bus for cloud-based instances. For details, see [Configure the Producer Event Notification Framework to use the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/developer-guides/prod_evt_not-dev_gd-cfg_herm_bus.md).
 
-    For additional information on how to publish trouble ticket notifications using Hermes, see [Producing outbound API notifications using Hermes](https://www.servicenow.com/docs/access?context=hermes-stream-connect-kafka-workflow&version=zurich&pubname=zurich-proactive-service-exp-workflows&ft:locale=en-US).
+    For additional information on how to publish trouble ticket notifications using Hermes, see .
 
-    **Note:** Before you are able to implement this use case, you must already have the Hermes Messaging Service installed and configured on your instance. For details, see [Hermes Messaging Service](https://www.servicenow.com/docs/access?context=hermes-messaging-service&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    **Note:** Before you are able to implement this use case, you must already have the Hermes Messaging Service installed and configured on your instance. For details, see .
 
-2.  Publishing events through the open message bus: If your instance uses a custom message-bus, you must configure the Producer Event Notification Framework to use the open message bus to send events from your ServiceNow instance to consumers on your network. Both cloud-based and on-premise ServiceNow instances can publish events through the open message bus. For details, see [Configure the Producer Event Notification Framework to use the Open Message Bus](../task/prod_evt_not-dev_gd-cfg_open_bus.md).
+2.  Publishing events through the open message bus: If your instance uses a custom message-bus, you must configure the Producer Event Notification Framework to use the open message bus to send events from your ServiceNow instance to consumers on your network. Both cloud-based and on-premise ServiceNow instances can publish events through the open message bus. For details, see [Configure the Producer Event Notification Framework to use the Open Message Bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/developer-guides/prod_evt_not-dev_gd-cfg_open_bus.md).
 
-    For additional information on how to publish trouble ticket notifications using the open message bus, see [Producing outbound API notifications using the open message bus](https://www.servicenow.com/docs/access?context=trouble-ticket-workflow-using-pub-sub-model&version=zurich&pubname=zurich-proactive-service-exp-workflows&ft:locale=en-US).
+    For additional information on how to publish trouble ticket notifications using the open message bus, see .
 
 
 This document describes the system configuration that must be performed, including the script includes that must be overridden to deploy these message-bus implementations in your ServiceNow ecosystem.

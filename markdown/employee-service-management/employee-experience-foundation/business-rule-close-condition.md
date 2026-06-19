@@ -2,6 +2,7 @@
 title: Configure business rule for close condition
 description: Configure the business rule for close condition to auto-import the chats.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/business-rule-close-condition.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -102,5 +103,5 @@ new sn_tcm_collab_hook.MSTeamsImportChatUtils().closeChatStorageRecords(current)
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Customize IT Service Management integration with ServiceNow](../concept/customize-sn-ms-teams.md)
+**Parent Topic:**[Customize IT Service Management integration with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/customize-sn-ms-teams.md)
 

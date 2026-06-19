@@ -2,6 +2,7 @@
 title: Import users
 description: Import users from consumer system of records into a provider instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/import-users-hr-mii.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,7 +18,7 @@ Import users from consumer system of records into a provider instance.
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_hr\_mii\_base.admin, sn\_hr\_mii\_provider.admin
 
 **Note:** Set up the required ServiceNow integrations on your provider instance.
 

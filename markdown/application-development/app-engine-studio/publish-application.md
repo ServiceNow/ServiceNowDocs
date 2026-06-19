@@ -2,6 +2,7 @@
 title: Publish an app from App Engine Studio when linked to source control
 description: You can publish a custom application from App Engine Studio \(AES\) when linked to source control.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/publish-application.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -33,7 +34,7 @@ When you publish an application from App Engine Studio that is linked to source 
 
     App Engine Studio displays the publish app fields.
 
-    ![Provide a version number and release notes for your app.](../image/publish-app-form-purple.png)
+    \[Omitted image "publish-app-form-purple.png"\] Alt text: Provide a version number and release notes for your app.
 
 4.  Enter the following field values.
 
@@ -78,7 +79,7 @@ Select if you want the application to be published to your application repositor
 
     The value of the **glide.sourcecontrol.default\_commit\_mode** property is ignored.
 
-    This occurs because when the application is published, all the untracked and uncommitted changes are also published. Therefore, the state of the application in the Git repository matches what is published. See the [Commit changes to a repository](source-control-commit-changes.md) topic for more information about the **glide.sourcecontrol.default\_commit\_mode** property.
+    This occurs because when the application is published, all the untracked and uncommitted changes are also published. Therefore, the state of the application in the Git repository matches what is published. See the [Commit changes to a repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/source-control-commit-changes.md) topic for more information about the **glide.sourcecontrol.default\_commit\_mode** property.
 
 7.  A source control tag is created for the new version and the application is published.
 
@@ -87,5 +88,5 @@ Select if you want the application to be published to your application repositor
     **Note:** If your application is linked to source control and you publish a new version outside of App Engine Studio, a source control commit and tag are not created.
 
 
-**Parent Topic:**[Publish your app](../concept/publish-your-app.md)
+**Parent Topic:**[Publish your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/publish-your-app.md)
 

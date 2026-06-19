@@ -2,6 +2,7 @@
 title: SAML user provisioning
 description: If users exist in your IdP but are not in your instance, SAML user provisioning can automatically create the users in your instance's User \[sys\_user\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/c\_SAMLUserProvisioning.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -24,5 +25,5 @@ When SAML user provisioning is enabled and the system encounters a new user that
 When the user logs in, they access an IdP to log in.
 
 -   The system presents a list of all IdPs that are able to use SAML user provisioning. If there is only one IdP that can use SAML user provisioning, that one is used automatically.
--   If none of the above conditions are true, the system uses the [Auto Redirect IdP](../../single-sign-on/task/t_CreateASAML2Upd1SSOConfigMultiSSO.md).
+-   If none of the above conditions are true, the system uses the [Auto Redirect IdP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/t_CreateASAML2Upd1SSOConfigMultiSSO.md).
 

@@ -2,6 +2,7 @@
 title: Link an NLU model and intents to a Genius Result configuration
 description: Specify the NLU model and intents to use for a Genius Result configuration with an NLU trigger condition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/link-nlu-model-genius-result-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -40,5 +41,5 @@ The NLU model and its selected intents appear in the NLU Models related list.
 
 For an NLU trigger condition to function, the NLU model must be published. You can verify NLU model status by navigating to **All** &gt; **AI Search** &gt; **Search Query Settings** &gt; **Search Intents**.
 
-**Parent Topic:**[Genius Results](../concept/genius-results-ais.md)
+**Parent Topic:**[Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/genius-results-ais.md)
 

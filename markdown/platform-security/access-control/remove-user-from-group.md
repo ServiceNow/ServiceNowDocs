@@ -2,6 +2,7 @@
 title: Removing users from Groups
 description: Use the Simulate Remove from Group for simulating the user's access changes for a resource \(tables\) when the user is removed from a group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/remove-user-from-group.html
 release: zurich
 product: Access Control
 classification: access-control
@@ -19,7 +20,7 @@ Use the **Simulate Remove from Group** for simulating the user's access changes 
 
 Role required: admin, access\_analyzer\_admin
 
-Enable the take actions. For more information, see [Configuring the Access Simulator \(Take actions\)](configure-access-simulator.md).
+Enable the take actions. For more information, see [Configuring the Access Simulator \(Take actions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/configure-access-simulator.md).
 
 ## Procedure
 
@@ -38,7 +39,7 @@ Enable the take actions. For more information, see [Configuring the Access Simul
     |Select record|Specify a record name to select from the list.|
     |Select field|Specify a field name to select from the list. This field can be used to analyze permission even at a field level. For example, Active, Created By, and so on.|
 
-    d![Remove the user from a group- criteria](../images/simulate-remove-group-criteria.png)
+    d\[Omitted image "simulate-remove-group-criteria.png"\] Alt text: Remove the user from a group- criteria
 
 4.  Select **Next**.
 
@@ -46,13 +47,13 @@ Enable the take actions. For more information, see [Configuring the Access Simul
 
     The group from which the user is removed is simulated in the Preview changes. You can validate the changes before moving to the next step.
 
-    ![Preview](../images/simulate-remove-group-preview.png)
+    \[Omitted image "simulate-remove-group-preview.png"\] Alt text: Preview
 
 6.  Select **Next**.
 
 7.  Validate the **Present status** and **Simulated status** to verify the access that is being **Passed** or **Blocked** to the simulated user.
 
-    ![Results](../images/simulate-remove-group-results.png)
+    \[Omitted image "simulate-remove-group-results.png"\] Alt text: Results
 
     **Note:**
 
@@ -66,7 +67,7 @@ Enable the take actions. For more information, see [Configuring the Access Simul
     **Note:**
 
     -   If the Access Simulator isn’t enabled, you can't complete the simulation. To enable, select **Enable actions** and accept the legal information.
-    -   If you want to hide the simulation, select **Hide actions**. To unhide and enable actions, go to the settings. For more information, see [Configuring the Access Simulator \(Take actions\)](configure-access-simulator.md).
+    -   If you want to hide the simulation, select **Hide actions**. To unhide and enable actions, go to the settings. For more information, see [Configuring the Access Simulator \(Take actions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/configure-access-simulator.md).
     -   If you want to exit the simulation, select **Skip and Exit**.
     The user is successfully removed from the user.
 

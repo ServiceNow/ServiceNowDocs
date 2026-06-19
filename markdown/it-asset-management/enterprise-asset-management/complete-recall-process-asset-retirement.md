@@ -2,6 +2,7 @@
 title: Complete the recall process for an enterprise asset through an asset retirement
 description: Perform all tasks that are required for an asset retirement so that you can complete the recall process for an enterprise asset that has been recalled by the asset vendor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/complete-recall-process-asset-retirement.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -17,7 +18,7 @@ Perform all tasks that are required for an asset retirement so that you can comp
 
 ## Before you begin
 
-Before you can proceed with retiring a recalled enterprise asset, you must complete the Prepare task for that asset. See [Complete the Prepare task for a recalled enterprise asset](complete-prepare-task-recall-order.md) for detailed instructions.
+Before you can proceed with retiring a recalled enterprise asset, you must complete the Prepare task for that asset. See [Complete the Prepare task for a recalled enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/complete-prepare-task-recall-order.md) for detailed instructions.
 
 Role required: sn\_eam.enterprise\_asset\_manager or enterprise\_asset\_technician
 
@@ -41,7 +42,7 @@ Role required: sn\_eam.enterprise\_asset\_manager or enterprise\_asset\_technici
 
     1.  On the **Recall Tasks** tab of the recalled asset record, select the task number for the **Retire** task.
 
-        Alternatively, select the task number that is displayed in the **Current task** field of the recalled asset record header.![Current task field.](../image/current-task-recall-orders.png)
+        Alternatively, select the task number that is displayed in the **Current task** field of the recalled asset record header.\[Omitted image "current-task-recall-orders.png"\] Alt text: Current task field.
 
         The Retire task opens.
 
@@ -77,9 +78,9 @@ The recalled asset record moves to the Completed stage. In addition, the state a
 
 ## What to do next
 
-Complete the asset retirement by disposing of the recalled enterprise asset using a disposal order. See [Create a disposal order in the Enterprise Asset Workspace](create-eamdisposal-order.md) for detailed instructions.
+Complete the asset retirement by disposing of the recalled enterprise asset using a disposal order. See [Create a disposal order in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-eamdisposal-order.md) for detailed instructions.
 
 After you successfully dispose of the recalled enterprise asset, you can complete the recall process for all remaining enterprise assets that are included in the recall order. After all corresponding recalled asset records reach the Completed stage, the state of the recall order changes to Completed.
 
-**Parent Topic:**[Completing a recall order for your enterprise assets](../concept/completing-recall-order-enterprise-assets.md)
+**Parent Topic:**[Completing a recall order for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/completing-recall-order-enterprise-assets.md)
 

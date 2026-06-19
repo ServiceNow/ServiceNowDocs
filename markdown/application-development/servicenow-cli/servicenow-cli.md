@@ -2,6 +2,7 @@
 title: ServiceNow CLI
 description: The ServiceNow CLI is a command-line interface that lets you perform instance operations from your local system. You can extend the CLI to include new commands that meet your application's needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-cli/servicenow-cli.html
 release: zurich
 product: ServiceNow CLI
 classification: servicenow-cli
@@ -28,11 +29,11 @@ The ServiceNow CLI lets you:
 
 Commands are stored in a table on the instance you are connected to. When the ServiceNow CLI connects to the instance, it receives all the available commands supported by that instance.
 
-Commands map to a REST endpoint that executes asynchronously. For more information, see [Create a custom command in ServiceNow CLI](../task/create-command.md).
+Commands map to a REST endpoint that executes asynchronously. For more information, see [Create a custom command in ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-cli/create-command.md).
 
 ## Activating ServiceNow CLI
 
-Install ServiceNow CLI by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install ServiceNow CLI by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Configuration file
 
@@ -41,7 +42,7 @@ The ServiceNow CLI stores profile information in a `config.json` file which, by 
 -   Linux and Mac: `~/.snc/config.json`
 -   Windows: `%USERPROFILE%\.snc\config.json`
 
-The CLI uses this file to determine what information to use to connect to an instance, and what settings to use to generate output. By default, the ServiceNow CLI uses the settings found in the default profile to connect to an instance. To use alternate settings, you can create and reference additional named profiles. For more information, see [Configuring and managing your ServiceNow CLI connection profiles](../task/configure-profile.md).
+The CLI uses this file to determine what information to use to connect to an instance, and what settings to use to generate output. By default, the ServiceNow CLI uses the settings found in the default profile to connect to an instance. To use alternate settings, you can create and reference additional named profiles. For more information, see [Configuring and managing your ServiceNow CLI connection profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-cli/configure-profile.md).
 
 The following example shows a  configuration  file with a default profile and a named profile. Each profile can use different credentials and specify different hosts and output formats.
 
@@ -184,22 +185,22 @@ You can specify command output in two ways:
     ```
 
 
--   **[Install the ServiceNow CLI](../task/download-cli.md)**  
+-   **[Install the ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-cli/download-cli.md)**  
 Install the ServiceNow CLI on a Mac, Windows, or Linux machine.
--   **[Configuring and managing your ServiceNow CLI connection profiles](../task/configure-profile.md)**  
+-   **[Configuring and managing your ServiceNow CLI connection profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-cli/configure-profile.md)**  
 Create a connection profile to connect with your instance, view connection profiles, refresh your connection and available commands, or delete profiles you no longer need.
--   **[Get help with ServiceNow CLI](../task/get-help.md)**  
+-   **[Get help with ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-cli/get-help.md)**  
 See available commands, command options, and examples, or generate debug logging output.
--   **[Perform record operations using ServiceNow CLI](../task/manage-records.md)**  
+-   **[Perform record operations using ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-cli/manage-records.md)**  
 Create, read, update, delete, and query records in your instance using the ServiceNow CLI command-line tool.
--   **[Create a custom command in ServiceNow CLI](../task/create-command.md)**  
+-   **[Create a custom command in ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-cli/create-command.md)**  
 Manage your custom application from the command line by creating custom commands in the ServiceNow CLI.
--   **[Manage ServiceNow CLI extensions](../task/find-extensions.md)**  
+-   **[Manage ServiceNow CLI extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-cli/find-extensions.md)**  
 Add extensions to the ServiceNow CLI to load additional functionality and commands, update existing extensions, or remove extensions you no longer need.
--   **[ServiceNow CLI available commands](../reference/sn-cli-commands.md)**  
+-   **[ServiceNow CLI available commands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-cli/sn-cli-commands.md)**  
 Commands and command arguments available to the base system ServiceNow CLI.
--   **[Commands installed with CMDB Application CLI and API](../reference/cmdb-cli-commands.md)**  
+-   **[Commands installed with CMDB Application CLI and API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-cli/cmdb-cli-commands.md)**  
 Commands and command groups available to the ServiceNow CLI when the app-cmdb-api-cli plugin is installed.
 
-**Parent Topic:**[Building low-code applications](../../custom-application/reference/building-low-code-applications-with-app-engine.md)
+**Parent Topic:**[Building low-code applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/building-low-code-applications-with-app-engine.md)
 

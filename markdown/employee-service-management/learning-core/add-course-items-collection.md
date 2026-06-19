@@ -2,6 +2,7 @@
 title: Add course items to collection
 description: After you create a collection, add course items as groupings of courses that are orchestrated within ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/add-course-items-collection.html
 release: zurich
 product: Learning Core
 classification: learning-core
@@ -19,7 +20,7 @@ After you create a collection, add course items as groupings of courses that are
 
 Role required: sn\_lc.learning\_admin, sn\_lc.learning\_course\_catalog\_admin
 
-Create a content collection. For more information, see [Create a content collection](create-course-collection.md).
+Create a content collection. For more information, see [Create a content collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/create-course-collection.md).
 
 ## Procedure
 
@@ -75,5 +76,5 @@ If it is mandatory for the course item to be added to the collection.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create a content collection](create-course-collection.md)
+**Parent Topic:**[Create a content collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/create-course-collection.md)
 

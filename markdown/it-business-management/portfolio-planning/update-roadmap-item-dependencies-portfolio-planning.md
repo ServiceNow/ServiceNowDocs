@@ -2,6 +2,7 @@
 title: Update roadmap item dependencies
 description: Update or delete the dependencies for the planning items on your roadmap so that they reflect any change of plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/update-roadmap-item-dependencies-portfolio-planning.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -30,15 +31,15 @@ Dependencies for free-form roadmaps are available only if the roadmap's source t
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d182823e99">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d139857e99">
 
 Roadmap type
 
-</th><th align="left" id="d182823e102">
+</th><th align="left" id="d139857e102">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d182823e108">
+</th></tr></thead><tbody><tr><td id="d139857e108">
 
 **Portfolio plan roadmap**
 
@@ -48,7 +49,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d182823e129">
+</td></tr><tr><td id="d139857e129">
 
 **Free-form roadmap**
 
@@ -65,17 +66,17 @@ From the Free-form Roadmaps tab, select a roadmap.
 
     Dependencies for this planning item are listed in the form of cards.
 
-4.  From the side panel, locate your dependency and use the More actions icon \(![More actions icon.](../../alignment-planner-workspace/images/icon-more-actions.png)\) to edit or delete.
+4.  From the side panel, locate your dependency and use the More actions icon \(\[Omitted image "icon-more-actions.png"\] Alt text: More actions icon.\) to edit or delete.
 
-<table id="choicetable_syp_cn3_2tb"><thead><tr><th align="left" id="d182823e186">
+<table id="choicetable_syp_cn3_2tb"><thead><tr><th align="left" id="d139857e186">
 
 Choice
 
-</th><th align="left" id="d182823e189">
+</th><th align="left" id="d139857e189">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d182823e195">
+</th></tr></thead><tbody><tr><td id="d139857e195">
 
 **Edit dependency**
 
@@ -84,9 +85,9 @@ Steps
 1.  Select **Edit**.
 2.  In the Dependency details form, update the required fields and select **Save**.
 
-For field information, see [Dependency form](../../alignment-planner-workspace/reference/dependency-form.md).
+For field information, see [Dependency form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/dependency-form.md).
 
-</td></tr><tr><td id="d182823e231">
+</td></tr><tr><td id="d139857e231">
 
 **Delete dependency**
 
@@ -98,5 +99,5 @@ For field information, see [Dependency form](../../alignment-planner-workspace/r
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Add dependencies for roadmap items](add-dependencies-roadmap-items-portfolio-planning.md)
+**Parent Topic:**[Add dependencies for roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/add-dependencies-roadmap-items-portfolio-planning.md)
 

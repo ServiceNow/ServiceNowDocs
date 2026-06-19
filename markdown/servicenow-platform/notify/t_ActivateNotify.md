@@ -2,6 +2,7 @@
 title: Activate Notify
 description: You can activate the Notify \(com.snc.notify\) plugin if you are an administrator. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/notify/t\_ActivateNotify.html
 release: zurich
 product: Notify
 classification: notify
@@ -62,20 +63,20 @@ Provides ability to set SMS preferences for receiving messages from different pr
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
--   **[Differences between Notify and Legacy Notify](../reference/differences-notify-legacy-notify.md)**  
+-   **[Differences between Notify and Legacy Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/differences-notify-legacy-notify.md)**  
 Describes the differences between the Notify and Legacy Notify applications, including architecture, workflows, Twilio support, and task-initiated conference calls.
--   **[Migrating from Legacy Notify](../reference/r_NotifyMigration.md)**  
+-   **[Migrating from Legacy Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/r_NotifyMigration.md)**  
 When migrating to Notify from the Legacy Notify functionality, several changes are made to the instance.
 
-**Parent Topic:**[Configuring Notify](../concept/configuring-notify.md)
+**Parent Topic:**[Configuring Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/configuring-notify.md)
 
 **Related topics**  
 
 
-[List of plugins](https://www.servicenow.com/docs/access?context=list-of-plugins&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+[bundle-platadm.list-of-plugins]
 
-[E.164 phone number field configuration](https://www.servicenow.com/docs/access?context=r_ConfigureE.164PhoneNumberFields&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+[bundle-platadm.r_ConfigureE.164PhoneNumberFields]
 

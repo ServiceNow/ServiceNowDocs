@@ -2,6 +2,7 @@
 title: Edit or delete a personal event
 description: Dispatchers can change or delete a non-work order personal event if an event's details change after its creation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/edit-delete-event.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -27,15 +28,15 @@ Role required: wm\_dispatcher
 
 3.  Edit or delete the event.
 
-<table id="choicetable_knz_ztn_11c"><thead><tr><th align="left" id="d65648e91">
+<table id="choicetable_knz_ztn_11c"><thead><tr><th align="left" id="d55596e91">
 
 Option
 
-</th><th align="left" id="d65648e94">
+</th><th align="left" id="d55596e94">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d65648e100">
+</th></tr></thead><tbody><tr><td id="d55596e100">
 
 **Edit the event**
 
@@ -47,7 +48,7 @@ Actions
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d65648e130">
+</td></tr><tr><td id="d55596e130">
 
 **Delete the event**
 

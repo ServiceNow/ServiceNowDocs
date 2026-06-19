@@ -2,12 +2,13 @@
 title: ServiceNow SDK CLI
 description: Use the ServiceNow SDK command-line interface \(CLI\) to manage changes between a local application and the application on an instance.Authenticate to an instance and store, update, or view user credentials for accessing an instance on your system.Create a custom scoped application or convert an existing scoped application to support development in source code. The application is added in the current directory.Compile source files and output build artifacts. Third-party library dependencies are converted into XML files that can be installed with the application.Package the build artifacts and install or update an application on an instance. Before using the install command, you must use the build command to generate an installable package.Download application dependencies and TypeScript definitions from an instance to enable IntelliSense and code validation for an application.Download application metadata \(XML\) from the instance and transform the metadata into ServiceNow Fluent source code to synchronize the application changes on the instance into your local application.Download all application metadata \(XML\) from an application on an instance to compare with the metadata in your local application.Remove the build artifacts that were output with the previous build.Package the build artifacts that were output with the previous build into an installable ZIP file.View documentation and examples for a ServiceNow Fluent API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-sdk/servicenow-sdk-cli-commands.html
 release: zurich
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 14
+reading_time_minutes: 15
 breadcrumb: [Reference, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
 
@@ -27,15 +28,15 @@ The CLI includes the following commands and global options:
 |--help, -h|Return information about commands, sub-commands, and parameters.|
 |--debug, -d|Return the debug logs generated with a command.|
 
-**Parent Topic:**[ServiceNow SDK reference](../concept/servicenow-sdk-reference.md)
+**Parent Topic:**[ServiceNow SDK reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/servicenow-sdk-reference.md)
 
 ## auth
 
 Authenticate to an instance and store, update, or view user credentials for accessing an instance on your system.
 
-The `auth` command has parameters for adding credentials, deleting credentials, listing credentials, and setting credentials to use by default.
+The `auth` command has parameters for adding credentials, deleting credentials, listing credentials, and setting credentials to use by default. To use non-interactive authentication in CI/CD pipelines, see the [install](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/servicenow-sdk-cli-commands.md) command.
 
-For more information, see [Authenticating to a ServiceNow instance with the ServiceNow SDK](../concept/authenticate-instance-now-sdk.md).
+For more information, see [Authenticating to a ServiceNow instance with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/authenticate-instance-now-sdk.md).
 
 ### add
 
@@ -203,14 +204,14 @@ now-sdk auth --use devuser1
 
 Create a custom scoped application or convert an existing scoped application to support development in source code. The application is added in the current directory.
 
-To create an application with your default credentials, you can run the `init` command without any optional parameters. For example, `now-sdk init`. To convert an existing application, you must include the `--from` parameter to provide the sys\_id of an application on an instance or a path to a local directory that contains an application.
+To create an application, you can run the `init` command without any optional parameters \(`now-sdk init`\). To convert an existing application, you must include the `--from` parameter to provide the sys\_id of an application on an instance or a path to a local directory that contains an application.
 
 After initializing an application, you must install the required third-party dependencies using your preferred package manager before building the application. For example, if you use Node Package Manager \(npm\), run `npm install`.
 
 The `init` command has the following structure:
 
 ```cmd
-npx @servicenow/sdk init [--from <sys_id or path>] [--appName <name>] [--packageName <name>] [--scopeName <name>] [--auth <alias>] [--template <template>]
+npx @servicenow/sdk init [--from <sys_id or path>] [--appName <name>] [--packageName <name>] [--scopeName <name>] [--auth <alias>] \[--template &lt;template&gt;\]
 ```
 
 **Note:** Using the `npx` command installs the ServiceNow SDK in your application directory instead of globally.
@@ -289,7 +290,7 @@ String
 
 </td><td>
 
-The scope of the application. The scope name must be unique on the instance, begin with x\_&lt;prefix&gt;, and be 18 characters or fewer. For more information, see [Namespace identifier](../../applications/concept/c_NamespaceIdentifier.md).
+The scope of the application. The scope name must be unique on the instance, begin with x\_&lt;prefix&gt;, and be 18 characters or fewer. For more information, see [Namespace identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/c_NamespaceIdentifier.md).
 
 </td><td>
 
@@ -340,7 +341,7 @@ A template for the default structure of the application.-   base: An application
 npx @servicenow/sdk init --from dbce0f6a3b3fda107b45b5d355e45af6 --appName Example App --packageName example-app --scopeName x_snc_example --auth devuser1 --template base
 ```
 
-For more information, see [Create an application with the ServiceNow SDK](../task/create-application-now-sdk.md) or [Convert an application with the ServiceNow SDK](../task/convert-application-now-sdk.md).
+For more information, see [Create an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/create-application-now-sdk.md) or [Convert an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/convert-application-now-sdk.md).
 
 ## build
 
@@ -349,7 +350,7 @@ Compile source files and output build artifacts. Third-party library dependencie
 The `build` command has the following structure:
 
 ```cmd
-now-sdk build <source> [--frozenKeys <flag>]
+now-sdk build <source> \[--frozenKeys &lt;flag&gt;\] \[--errorOnConflict &lt;flag&gt;\] \[--skipClean &lt;flag&gt;\]
 ```
 
 <table id="table_vx2_vvr_rzb"><thead><tr><th>
@@ -400,14 +401,46 @@ An option to validate that the `keys.ts` file is up to date for continuous integ
 
 false
 
+</td></tr><tr><td>
+
+--errorOnConflict
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+An option to treat sys\_id conflicts between ServiceNow Fluent code and metadata XML as errors instead of warnings.
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+--skipClean
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+An option to skip cleaning the output directory before building the application, which can reduce the build time for incremental builds.
+
+</td><td>
+
+false
+
 </td></tr></tbody>
 </table>For example:
 
 ```cmd
-now-sdk build /path/to/package --frozenKeys true
+now-sdk build /path/to/package --frozenKeys true --errorOnConflict true --skipClean true
 ```
 
-For more information, see [Build and install an application with the ServiceNow SDK](../task/build-deploy-application-now-sdk.md).
+For more information, see [Build and install an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/build-deploy-application-now-sdk.md).
 
 ## install
 
@@ -416,7 +449,7 @@ Package the build artifacts and install or update an application on an instance.
 The `install` command has the following structure:
 
 ```cmd
-now-sdk install [--source <package path>] [--reinstall <flag>] [--auth <alias>] [--open-browser <flag>] [--info <flag>]
+now-sdk install [--source <package path>] [--reinstall <flag>] [--auth <alias>] [--open-browser <flag>] [--info <flag>] \[--demoData &lt;flag&gt;\] \[--skip-flow-activation &lt;flag&gt;\]
 ```
 
 <table id="table_fwn_q5d_m2c"><thead><tr><th>
@@ -479,12 +512,15 @@ String
 
 </td><td>
 
-An alias for the credentials to use to authenticate to the instance.**Note:** For CI/CD pipelines, you can set the following environment variables to authenticate with an instance at runtime using basic authentication:
+An alias for the credentials to use to authenticate to the instance.**Note:** For CI/CD pipelines, you can set the following environment variables to authenticate with an instance at runtime:
 
+-   SN\_SDK\_NODE\_ENV: Set to `SN_SDK_CI_INSTALL` to enable CI server support.
 -   SN\_SDK\_INSTANCE\_URL: The URL of the target instance to access and to which you install applications.
--   SN\_SDK\_USER: A username for the instance.
+-   SN\_SDK\_AUTH\_TYPE: Set to `oauth_client_credentials` to enable OAuth 2.0 authentication. The default value is `basic` for basic authentication.
+-   SN\_SDK\_CLIENT\_ID: An OAuth 2.0 client ID.
+-   SN\_SDK\_CLIENT\_SECRET: An OAuth 2.0 client secret.
+-   SN\_SDK\_USER: A username to access the instance using basic authentication.
 -   SN\_SDK\_USER\_PWD: The password associated with the user.
--   SN\_SDK\_NODE\_ENV: Set to SN\_SDK\_CI\_INSTALL to enable CI server support.
 
 </td><td>
 
@@ -538,14 +574,30 @@ An option to install demo data with an application.
 
 true
 
+</td></tr><tr><td>
+
+--skip-flow-activation
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+An option to skip activating, or publishing, flows when installing an application. By default, flows are activated on the instance when an application is installed.**Note:** ServiceNow IDE version 4.1.1 or later must be installed to activate flows with this command.
+
+</td><td>
+
+false
+
 </td></tr></tbody>
 </table>For example:
 
 ```cmd
-now-sdk install --source /path/to/package --reinstall false --auth devuser1 --open-browser true --info true
+now-sdk install --source /path/to/package --reinstall false --auth devuser1 --open-browser true --info true --demoData false --skip-flow-activation true
 ```
 
-For more information, see [Build and install an application with the ServiceNow SDK](../task/build-deploy-application-now-sdk.md).
+For more information, see [Build and install an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/build-deploy-application-now-sdk.md).
 
 ## dependencies
 
@@ -720,7 +772,7 @@ The application scope from which to download dependencies. This parameter is req
 now-sdk dependencies --directory /path/to/package --auth devuser1 --add sys\_ui\_view fa776f6d97700100f309124eda2975bc --scope global
 ```
 
-For more information, see [Downloading dependencies with the ServiceNow SDK](../concept/downloading-dependencies-now-sdk.md#).
+For more information, see [Downloading dependencies with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/downloading-dependencies-now-sdk.md).
 
 ## transform
 
@@ -731,7 +783,7 @@ After initializing an application, you can run the `transform` command without a
 The `transform` command has the following structure:
 
 ```cmd
-now-sdk transform [--from <path>] [--directory <package path>] [--preview <flag>] [--auth <alias>] [--format <flag>]
+now-sdk transform [--from <path>] [--directory <package path>] [--preview <flag>] [--auth <alias>] \[--format &lt;flag&gt;\] \[--table &lt;name&gt;\]
 ```
 
 <table id="table_bny_zfc_l2c"><thead><tr><th>
@@ -830,14 +882,30 @@ An option to format new and updated ServiceNow Fluent source code when it's tran
 
 true
 
+</td></tr><tr><td>
+
+--table
+
+</td><td>
+
+String
+
+</td><td>
+
+A comma-separated list of table names to transform to ServiceNow Fluent, including child tables. For example, `--table sys_script,sys_security_acl --from ./metadata`.
+
+</td><td>
+
+—
+
 </td></tr></tbody>
 </table>For example:
 
 ```cmd
-now-sdk transform --from metadata/update --directory /path/to/package --preview true --auth devuser1 --format true
+now-sdk transform --from metadata/update --directory /path/to/package --preview true --auth devuser1 --format true --table sys\_security\_acl
 ```
 
-For more information, see [Convert an application with the ServiceNow SDK](../task/convert-application-now-sdk.md) or [Build and install an application with the ServiceNow SDK](../task/build-deploy-application-now-sdk.md).
+For more information, see [Convert an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/convert-application-now-sdk.md) or [Build and install an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/build-deploy-application-now-sdk.md).
 
 ## download
 
@@ -995,7 +1063,7 @@ Package the build artifacts that were output with the previous build into an ins
 The `pack` command has the following structure:
 
 ```cmd
-now-sdk pack <source>
+now-sdk pack <source> \[--skip-package-inventory &lt;flag&gt;\]
 ```
 
 <table id="table_vx2_vvr_rzb"><thead><tr><th>
@@ -1030,11 +1098,27 @@ The path to the directory that contains the `package.json` file for your applica
 
 Current working directory
 
+</td></tr><tr><td>
+
+--skip-package-inventory
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+An option to skip generating the `package_inventory.csv` file in the packaged artifact. The `package_inventory.csv` is used to optimize performance during upgrades.
+
+</td><td>
+
+false
+
 </td></tr></tbody>
 </table>For example:
 
 ```cmd
-now-sdk pack /path/to/package
+now-sdk pack /path/to/package --skip-package-inventory true
 ```
 
 ## explain
@@ -1044,49 +1128,22 @@ View documentation and examples for a ServiceNow Fluent API.
 The `explain` command has the following structure:
 
 ```cmd
-now-sdk explain <api> [source]
+now-sdk explain <topic> \[--list &lt;keyword&gt;\] \[--format &lt;output type&gt;\] \[--peek &lt;flag&gt;\]
 ```
 
 |Parameter|Type|Description|Default value|
 |---------|----|-----------|-------------|
-|api|String|The name of a ServiceNow Fluent API, such as Table or Acl.|—|
+|topic|String|A keyword or topic name to search for to view related ServiceNow Fluent API, guide, or skill documentation, such as `table-api` or `table-guide`. To get a list of available topics, use the `--list` parameter.|—|
 
-<table id="table_vx2_vvr_rzb"><thead><tr><th>
+|Parameter|Type|Description|Default value|
+|---------|----|-----------|-------------|
+|--list, -l|Boolean|An option to view a list of available topics, which you can filter by providing a topic name or keyword, such as `now-sdk explain flow --list`. The list returned includes matches that contain the keyword and possibly related matches.|—|
+|--format|String|An option to format the output for the terminal \(`pretty`\) or as Markdown \(`raw`\).|pretty|
+|--peek, -p|Boolean|An option to display a short description of a topic instead of the complete topic content. You can use this parameter with the `--list` parameter to display summaries of the listed topics.|—|
 
-Parameter
-
-</th><th>
-
-Type
-
-</th><th>
-
-Description
-
-</th><th>
-
-Default value
-
-</th></tr></thead><tbody><tr><td>
-
-source
-
-</td><td>
-
-String
-
-</td><td>
-
-The path to the directory that contains the `package.json` file for your application. The `package.json` should be in the base directory of your application.
-
-</td><td>
-
-Current working directory
-
-</td></tr></tbody>
-</table>For example:
+For example:
 
 ```cmd
-now-sdk explain UiPage
+now-sdk explain uipage-api --format raw
 ```
 

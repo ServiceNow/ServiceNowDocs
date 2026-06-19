@@ -2,6 +2,7 @@
 title: Export Access Analyzer queries
 description: Export the queries analyzed using Access Analyzer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/export-access-analyzer-queries.html
 release: zurich
 product: Access Control
 classification: access-control
@@ -44,7 +45,7 @@ The following procedure describes the steps for accessing Access Analyzer and us
 
 4.  Select **Analyze permissions**.
 
-    ![Permission evaluation of Abel Tuter](../images/use-access-analyzer.png)
+    \[Omitted image "use-access-analyzer.png"\] Alt text: Permission evaluation of Abel Tuter
 
     The access results for the user are displayed. Similarly you can analyze the permissions of a Group, Role for the following rule types:
 
@@ -53,7 +54,7 @@ The following procedure describes the steps for accessing Access Analyzer and us
     -   REST endpoints
     The **Access results** for the selected rule type is displayed.
 
-    ![Permission results](../images/permissions-for-a-user.png)
+    \[Omitted image "permissions-for-a-user.png"\] Alt text: Permission results
 
 5.  Click **Export**.
 
@@ -61,12 +62,12 @@ The following procedure describes the steps for accessing Access Analyzer and us
 
         Available file types are Excel, CSV, JSON, PDF.
 
-        ![Export File Type](../images/export-access-analyzer-queries.png)
+        \[Omitted image "export-access-analyzer-queries.png"\] Alt text: Export File Type
 
     2.  Choose the Delivery Type.
 
         Available delivery types as Download and Email.
 
-        ![Delivery Types](../images/analyzer-queries.png)
+        \[Omitted image "analyzer-queries.png"\] Alt text: Delivery Types
 
 

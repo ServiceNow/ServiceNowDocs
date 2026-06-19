@@ -2,6 +2,7 @@
 title: OAuth
 description: OAuth based authentication validates the identity of the client that attempts to establish a trust on the system by using an authentication protocol.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/oauth-inbound-and-outbound.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -19,5 +20,5 @@ OAuth 2.0 - Open Authorization is the industry-standard protocol for authorizati
 
 ## Inbound
 
-Create an endpoint for external clients that want to access your instance. This creates an OAuth client application record and generates a client ID and client secret that the client needs to access the restricted resources on the instance. For more information see, [OAuth inbound](oauth-inbound.md).
+Create an endpoint for external clients that want to access your instance. This creates an OAuth client application record and generates a client ID and client secret that the client needs to access the restricted resources on the instance. For more information see, [OAuth inbound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/oauth-inbound.md).
 

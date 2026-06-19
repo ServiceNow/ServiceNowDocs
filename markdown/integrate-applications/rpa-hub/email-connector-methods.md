@@ -2,6 +2,7 @@
 title: Email connector methods
 description: The methods in the Email connector retrieve, send, and reply to email messages, and can download attachments. Use the SetConfig method first to set up the connection to your mail server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/email-connector-methods.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -19,8 +20,8 @@ Use the SetConfig method to configure the mail server properties and access cred
 
 The GetMails method retrieves messages from the mail server and passes them to other methods as an object that contains one or more messages. The ReadMail, ReplyMail, and SaveAllAttachments methods operate on a single message at a time. When these methods receive an object that contains more than one message, the automation must use a For Each or For Loop method to iterate each message in the collection.
 
--   For information about how to use the For Each method, see [Use the For Each component](../task/use-loops-foreach.md).
--   For information about how to use the For Loop method, see [Use the For Loop component](../task/use-loops-forloop.md).
+-   For information about how to use the For Each method, see [Use the For Each component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/use-loops-foreach.md).
+-   For information about how to use the For Loop method, see [Use the For Loop component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/use-loops-forloop.md).
 
 ## SetConfig
 
@@ -28,7 +29,7 @@ Sets up the connection to the mail server so that the automation can work with m
 
 **Note:** You must run this method before running any other methods in the Email connector.
 
-For information about how to set the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+For information about how to set the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 |Parameter|Description|Data port type|Data type|Default value|Required?|Notes|
 |---------|-----------|--------------|---------|-------------|---------|-----|
@@ -45,7 +46,7 @@ For information about how to set the parameters, see [Configure port properties]
 
 Returns messages from the mail server for use by other methods. You can set the method to retrieve either read \(seen\) or unread \(unseen\) messages and specify the folder that they're gathered.
 
-For information about how to set the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+For information about how to set the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 |Parameter|Description|Data port type|Data type|Default value|Required?|Notes|
 |---------|-----------|--------------|---------|-------------|---------|-----|
@@ -57,7 +58,7 @@ For information about how to set the parameters, see [Configure port properties]
 
 Marks messages from a specified folder as read.
 
-For information about how to set the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+For information about how to set the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 |Parameter|Description|Port type|Data type|Default value|Required?|Notes|
 |---------|-----------|---------|---------|-------------|---------|-----|
@@ -68,7 +69,7 @@ For information about how to set the parameters, see [Configure port properties]
 
 Marks messages from a specified folder as unread.
 
-For information about how to set the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+For information about how to set the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 |Parameter|Description|Port type|Data type|Default value|Required?|Notes|
 |---------|-----------|---------|---------|-------------|---------|-----|
@@ -79,7 +80,7 @@ For information about how to set the parameters, see [Configure port properties]
 
 Reads a message and returns its details, including subject, body, sender \(from\), recipients in the CC field, recipients in the BCC field, and the number of attachments.
 
-For information about how to set the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+For information about how to set the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 |Parameter|Description|Data port type|Data type|Default value|Required?|
 |---------|-----------|--------------|---------|-------------|---------|
@@ -95,7 +96,7 @@ For information about how to set the parameters, see [Configure port properties]
 
 Automatically replies to a message. Use the parameters to set the body of the message and other details. You can include attachments.
 
-For information about how to set the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+For information about how to set the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 <table id="table_hm3_kmz_mtb"><thead><tr><th>
 
@@ -301,7 +302,7 @@ To attach a file:1.  Paste the path to the file in the field.
 
 Saves all attachments from a message to the local drive.
 
-For information about how to set the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+For information about how to set the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 |Parameter|Description|Data port type|Data type|Default value|Required?|
 |---------|-----------|--------------|---------|-------------|---------|
@@ -314,7 +315,7 @@ Sends a message. Use the parameters to set the body of the message and other det
 
 **Note:** Use the SetConfig method to set the From address.
 
-For information about how to set the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+For information about how to set the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 <table id="table_qvr_frz_mtb"><thead><tr><th>
 
@@ -544,5 +545,5 @@ To attach a file:1.  Paste the path to the file in the field.
  To include multiple attachments, separate the paths by commas.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Email connector](../concept/email-connectors.md)
+</table>**Parent Topic:**[Email connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/email-connectors.md)
 

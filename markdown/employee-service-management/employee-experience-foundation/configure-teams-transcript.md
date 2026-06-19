@@ -2,6 +2,7 @@
 title: Configure to download the Microsoft Teams transcript
 description: Configure how the Notify Connector for Microsoft Teams processes and stores meeting transcripts in ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/configure-teams-transcript.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -39,5 +40,5 @@ Role required: Notify Teams admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Accessing Microsoft Teams meeting transcripts](../concept/teams-meeting-transcript.md)
+**Parent Topic:**[Accessing Microsoft Teams meeting transcripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/teams-meeting-transcript.md)
 

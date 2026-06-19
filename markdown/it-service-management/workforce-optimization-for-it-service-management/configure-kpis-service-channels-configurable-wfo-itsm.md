@@ -2,6 +2,7 @@
 title: Configure KPIs for service channels
 description: Configure key performance indicators in service channels to track the ongoing work and real-time performance of your teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/configure-kpis-service-channels-configurable-wfo-itsm.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -21,13 +22,13 @@ Role required: sn\_channel\_mgmt.admin
 
 ## About this task
 
-Add the [Channel Management reports](../reference/configurable-wfo-itsm-channel-management-reference.md) that are by default configured with Workforce Optimization for ITSM or create a new KPI report that matters the most to you. Key performance indicators help managers perform the following actions:
+Add the [Channel Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-channel-management-reference.md) that are by default configured with Workforce Optimization for ITSM or create a new KPI report that matters the most to you. Key performance indicators help managers perform the following actions:
 
 -   Review real-time performance as the team is actively working on tasks across channels and queues.​
 -   Track progress against KPIs and drill down into agents, team, and individual performance.​
 -   Drill down into all queues and monitor ongoing incidents, interactions, and tasks.
 -   Jump in and support agents for help-requested work items using chat whisper or add work notes to a task.​
--   Refine data in the dashboard using the Assignment Group interactive filter without modifying the reports. For more information, see [Interactive Filters](https://www.servicenow.com/docs/access?context=c_HomepagePublishers&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+-   Refine data in the dashboard using the Assignment Group interactive filter without modifying the reports. For more information, see .
 
 **Enable or disable KPI score auto-refresh**
 
@@ -39,7 +40,7 @@ Add the [Channel Management reports](../reference/configurable-wfo-itsm-channel-
 -   By default, the service channel cards are set for auto-refresh every two minutes. You can change the interval using the **sn\_channel\_mgmt.channel\_card\_auto\_refresh.interval.seconds** syetem property.
 -   To manually refresh the service channel cards, select the refresh icon.
 
-For more information on the properties, see [Channel Management components in Workforce Optimization for ITSM](../reference/configurable-wfo-itsm-channel-management-reference.md).
+For more information on the properties, see [Channel Management components in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-channel-management-reference.md).
 
 ​
 
@@ -51,11 +52,11 @@ For more information on the properties, see [Channel Management components in Wo
 
 3.  In the **Reports** tab, click **Edit**.
 
-    **Note:** You must [add the Reports related list](https://www.servicenow.com/docs/access?context=configure-form-layout&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) if you do not see the **Reports** tab.
+    **Note:** You must add the Reports related list if you do not see the **Reports** tab.
 
 4.  Add reports that are configured by default in Workforce Optimization for ITSM.
 
-    For information on Channel Management reports, see [Channel Management components in Workforce Optimization for ITSM](../reference/configurable-wfo-itsm-channel-management-reference.md).
+    For information on Channel Management reports, see [Channel Management components in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-channel-management-reference.md).
 
     **Note:** Review the report's definition and add the corresponding filters that are applicable to the service channel that matters the most to you.
 
@@ -66,7 +67,7 @@ For more information on the properties, see [Channel Management components in Wo
 7.  To create a KPI report that explicitly apply to your teams, do the following:
 
     1.  Navigate to **Reports** &gt; **Create New** &gt; **.**
-    2.  Fill in the details on the form. For more information, see [Single score report](https://www.servicenow.com/docs/access?context=c_SingleScoreCharts&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+    2.  Fill in the details on the form. For more information, see Single score report.
     3.  Select **Save**.
 
         The KPI report is created.
@@ -77,7 +78,7 @@ For more information on the properties, see [Channel Management components in Wo
 
         The Interactive Filter Reference - Channel Management Groups Filter page appears.
 
-    7.  Select the KPI report's table name and field name. For more information, see [Create a reference field interactive filter](https://www.servicenow.com/docs/access?context=t_CreateAReferenceFieldPublisher&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+    7.  Select the KPI report's table name and field name. For more information, see .
     8.  Select **Submit**.
 
         Repeat the steps above to add more reports.
@@ -87,5 +88,5 @@ For more information on the properties, see [Channel Management components in Wo
     The KPIs are added to the service channel and appear in the Channels page. The first five KPIs with the lowest order number appear in the service channel cards.
 
 
-**Parent Topic:**[Setting up Channels in Workforce Optimization for ITSM](../concept/setup-channels-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Setting up Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/setup-channels-configurable-workforce-optimization-itsm.md)
 

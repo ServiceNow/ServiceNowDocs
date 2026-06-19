@@ -2,6 +2,7 @@
 title: Exploring Learning
 description: Learn about the benefits of using Learning to proactively discover, manage, and engage with career development content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/exploring-learning.html
 release: zurich
 product: Learning Core
 classification: learning-core
@@ -17,7 +18,7 @@ Learn about the benefits of using Learning to proactively discover, manage, and 
 
 ## Learning overview
 
-Learning is a new and modern centralized space to manage your learnings. Using this learning portal will give you clear view of your in-progress and assigned coursework that enables you to focus on your learnings. For more information, see [My Learning](overview-lxp.md).
+Learning is a new and modern centralized space to manage your learnings. Using this learning portal will give you clear view of your in-progress and assigned coursework that enables you to focus on your learnings. For more information, see [My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/overview-lxp.md).
 
 ## Learning users
 
@@ -52,16 +53,16 @@ User
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Discover new courses by browsing through highlighted content promoted by the learning team, popular learning-related searches, and recommended content based on learners similar to you.|[Discover](discover-lxp.md)|Employees/Users|
-|View recent learning content activity and history. You can leverage the functional lists of all content that you've interacted with from the beginning of your learning. Personal collections enable you to save content into folders for easy reference and sharing.|[Activity](activity-lxp.md)|Employees/Users|
-|Showcase your learning achievements when you learn something new or complete a course.|[Achievements](achievements-lxp.md)|Employees/Users|
-|View and track your team's learning to be able to streamline their career growth.|[Assigned to your team](manager-view-lxp.md)|Managers|
+|Discover new courses by browsing through highlighted content promoted by the learning team, popular learning-related searches, and recommended content based on learners similar to you.|[Discover](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/discover-lxp.md)|Employees/Users|
+|View recent learning content activity and history. You can leverage the functional lists of all content that you've interacted with from the beginning of your learning. Personal collections enable you to save content into folders for easy reference and sharing.|[Activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/activity-lxp.md)|Employees/Users|
+|Showcase your learning achievements when you learn something new or complete a course.|[Achievements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/achievements-lxp.md)|Employees/Users|
+|View and track your team's learning to be able to streamline their career growth.|[Assigned to your team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/manager-view-lxp.md)|Managers|
 
 ## What to explore next
 
 To learn more about configuring and using , see:
 
--   [Install and configure Learning](configure-learning.md)
--   [Using Learning](manage-your-learning.md)
--   [Learning reference](../reference/learning-experience-reference.md)
+-   [Install and configure Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/configure-learning.md)
+-   [Using Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/manage-your-learning.md)
+-   [Learning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/learning-experience-reference.md)
 

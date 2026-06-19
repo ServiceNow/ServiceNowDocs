@@ -2,6 +2,7 @@
 title: Deactivating automatic synchronization with the ServiceNow Store
 description: By default, the Application Manager in hosted ServiceNow AI Platform instances syncs automatically with available applications and updates from the ServiceNow Store. Automatic synchronization can be deactivated so you can receive updates only when you choose to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/application-manager/turning-autosync-off-app-mgr.html
 release: zurich
 product: Application Manager
 classification: application-manager
@@ -19,5 +20,5 @@ Automatic syncing with the ServiceNow Store can be deactivated by taking the ins
 
 To take the instance offline, contact [Customer Service and Support](https://support.servicenow.com/now) and request that the `sn_appclient.app.install.offline` system property be set to `true`.
 
-**Parent Topic:**[Configuring Application Manager](configuring-app-manager.md)
+**Parent Topic:**[Configuring Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/application-manager/configuring-app-manager.md)
 

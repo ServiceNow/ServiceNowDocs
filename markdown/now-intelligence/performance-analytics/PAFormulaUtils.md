@@ -2,6 +2,7 @@
 title: PAFormulaUtils API
 description: The PAFormulaUtils API enables you to obtain a value that was calculated in the Analytics Hub and use that value as input for a formula.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/PAFormulaUtils.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -25,35 +26,35 @@ A dollar sign, $, precedes indicator names in PAFormulaUtils parameters, like th
 Date parameters in PAFormulaUtils methods take one of the following forms:
 
 -   An absolute date in YYYY-MM-DD format, such as 2018-12-21.
--   The variable `score_start` or `score_end`. These variables represent the first and last second of the collection period being calculated for the referenced indicator. The times are calculated from the difference between the time zone of the user and the database server time zone, which is GMT. For more information, see [Changes to score\_start/end because of different user time zones](../../concept/time-zones-indicator-formulas.md).
+-   The variable `score_start` or `score_end`. These variables represent the first and last second of the collection period being calculated for the referenced indicator. The times are calculated from the difference between the time zone of the user and the database server time zone, which is GMT. For more information, see [Changes to score\_start/end because of different user time zones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/time-zones-indicator-formulas.md).
 -   A date parameter that you have coded yourself using the GlideDate or the GlideDateTime API.
 
 **Warning:** The PAFormulaUtils API can be used only in formula indicators, not in scripts.
 
 The PAFormulaUtils API contains the following methods:
 
--   **[getChange\(String indicator, Object fromDate, Object toDate\)](../reference/PAFU-getChange_S_O_O.md)**  
+-   **[getChange\(String indicator, Object fromDate, Object toDate\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/PAFU-getChange_S_O_O.md)**  
 Returns the change in the score of an indicator between two specified dates.
--   **[getChangePercentage\(String indicator, Object fromDate, Object toDate\)](../reference/PAFU-getChangePercentage_S_O_O.md)**  
+-   **[getChangePercentage\(String indicator, Object fromDate, Object toDate\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/PAFU-getChangePercentage_S_O_O.md)**  
 Returns the percentage of change in the score of an indicator between two specified dates.
--   **[getCurrentAggregateID\(\)](../reference/PAFU-getCurrentAggregateID.md)**  
+-   **[getCurrentAggregateID\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/PAFU-getCurrentAggregateID.md)**  
 Returns the time series aggregate identifier \(sys\_id\) from the indicator of the current formula. The sys\_id is returned dynamically, as the selection in the Analytics Hub changes.
--   **[getCurrentBreakdownID\(\)](../reference/PAFU-getCurrentBreakdownID.md)**  
+-   **[getCurrentBreakdownID\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/PAFU-getCurrentBreakdownID.md)**  
 Returns the level 1 breakdown identifier \(sys\_id\) from the indicator of the current formula. The sys\_id is returned dynamically, as the selection in the Analytics Hub changes.
--   **[getCurrentBreakdownLevel2ID\(\)](../reference/PAFU-getCurrentBreakdownLevel2ID.md)**  
+-   **[getCurrentBreakdownLevel2ID\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/PAFU-getCurrentBreakdownLevel2ID.md)**  
 Returns the level 2 breakdown identifier \(sys\_id\) from the indicator of the current formula. The sys\_id is returned dynamically, as the selection in the Analytics Hub changes.
--   **[getCurrentElementID\(\)](../reference/PAFU-getCurrentElementID.md)**  
+-   **[getCurrentElementID\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/PAFU-getCurrentElementID.md)**  
 Returns the level 1 breakdown element identifier \(sys\_id\) from the indicator of the current formula. The sys\_id is returned dynamically, as the selection in the Analytics Hub changes.
--   **[getCurrentElementLevel2ID\(\)](../reference/PAFU-getCurrentElementLevel2ID.md)**  
+-   **[getCurrentElementLevel2ID\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/PAFU-getCurrentElementLevel2ID.md)**  
 Returns the level 2 breakdown element identifier \(sys\_id\) from the indicator of the current formula. The sys\_id is returned dynamically, as the selection in the Analytics Hub changes.
--   **[getGap\(String indicator, Object onDate\)](../reference/PAFU-getGap_S_O.md)**  
+-   **[getGap\(String indicator, Object onDate\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/PAFU-getGap_S_O.md)**  
 Returns the global target gap for the specified indicator on the specified date.
--   **[getGlobalTarget\(String indicator, Object onDate\)](../reference/PAFU-getGlobalTarget_S_O.md)**  
+-   **[getGlobalTarget\(String indicator, Object onDate\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/PAFU-getGlobalTarget_S_O.md)**  
 Returns the global target associated with the specified indicator for the specified date.
--   **[getPersonalTarget\(String indicator, Object onDate\)](../reference/PAFU-getPersonalTarget_S_O.md)**  
+-   **[getPersonalTarget\(String indicator, Object onDate\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/PAFU-getPersonalTarget_S_O.md)**  
 Returns the personal target associated with the specified indicator for the specified date.
--   **[getScore\(String indicator, Object onDate\)](../reference/PAFU-getScore_S_O.md)**  
+-   **[getScore\(String indicator, Object onDate\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/PAFU-getScore_S_O.md)**  
 Returns the score of the specified indicator for the specified date.
 
-**Parent Topic:**[Get analytics methods in formulas](../../task/get-indicator-analytics.md)
+**Parent Topic:**[Get analytics methods in formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/get-indicator-analytics.md)
 

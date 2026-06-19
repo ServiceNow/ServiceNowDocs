@@ -2,6 +2,7 @@
 title: Set up a risk appetite scale
 description: Set up a risk appetite scale in the Advanced Risk application to define the qualitative risk appetite within your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/set-up-risk-appetite-scale.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -89,5 +90,5 @@ Order of the risk appetite scale. This field enables you to set a sequence in wh
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Risk appetite setup](../concept/risk-appetite-setup.md)
+**Parent Topic:**[Risk appetite setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/risk-appetite-setup.md)
 

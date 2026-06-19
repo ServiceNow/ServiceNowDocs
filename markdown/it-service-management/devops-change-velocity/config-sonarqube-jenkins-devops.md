@@ -2,11 +2,12 @@
 title: Configure SonarQube scans on Jenkins pipelines
 description: Configure SonarQube scans on Jenkins pipelines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/config-sonarqube-jenkins-devops.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Additional information - Jenkins, Jenkins, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -25,7 +26,7 @@ Ensure that you meet the following pre-requisites before configuring your Jenkin
 -   Ensure that SonarQube scans are configured and exist on your Jenkins pipelines using the SonarQube Scanner plugin for Jenkins. For more information, see
     -   [SonarQube Scanner for Jenkins](https://www.jenkins.io/doc/pipeline/steps/sonar/)
     -   [SonarScanner for Jenkins](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-jenkins/)
--   A SonarQube tool is created and is connected to the SonarQube server. For more information, see [SonarQube integration with DevOps Change Velocity](../concept/sonarqube-devops-integration-devops.md).
+-   A SonarQube tool is created and is connected to the SonarQube server. For more information, see [SonarQube integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/sonarqube-devops-integration-devops.md).
 
 Role required: sn\_devops.admin
 

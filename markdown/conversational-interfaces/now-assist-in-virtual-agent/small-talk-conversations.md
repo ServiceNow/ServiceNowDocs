@@ -2,6 +2,7 @@
 title: Small talk in conversations
 description: Small talk topics and small talk utterances from the Semantic Filter Framework are recognized in Now Assist in Virtual Agent chat conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/now-assist-in-virtual-agent/small-talk-conversations.html
 release: zurich
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -28,7 +29,7 @@ Small talk is supported by your primary and fallback languages. The semantic fil
 
     For standard chat conversations, the conversation ends when closure small talk is recognized.
 
-    For enhanced chat conversations, conversations do not end and remain in the Active chat section. You can return to the same chat conversation as long as the conversation has not closed. You know that a message has closed when you receive the following response in the chat: `It looks like you're finished with this chat, so I'll go ahead and close it.` Chat conversations eventually close after a designated time has passed. For more information on the closed chats, see [Enhanced chat](nava-enhanced-chat.md).
+    For enhanced chat conversations, conversations do not end and remain in the Active chat section. You can return to the same chat conversation as long as the conversation has not closed. You know that a message has closed when you receive the following response in the chat: `It looks like you're finished with this chat, so I'll go ahead and close it.` Chat conversations eventually close after a designated time has passed. For more information on the closed chats, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md).
 
     **Note:** For closure types of small talk, you may receive a confirmation message prior to exiting the conversation. The confirmation message asks, `You'd like to end this topic. Is that right?` with the **Yes** and **No** controls displayed. The confirmation message only appears if the **sn\_vad\_genai.com.glide.small\_talk.closure.prompt\_enabled** system property is switched to `False`. Closed conversations eventually move to the Closed chats.
 

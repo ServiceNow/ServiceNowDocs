@@ -2,6 +2,7 @@
 title: Add Now Assist skills to your page
 description: Add skills to enhance your UI Builder page with Now Assist's generative AI capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/add-skill.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -22,8 +23,8 @@ Role required: ui\_builder\_admin
 
 **Note:** Skills must be enabled and activated before they can be added to a page. For more information, see:
 
--   [Configure skill deployment settings](https://www.servicenow.com/docs/access?context=configure-skill-settings&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US): Enable the skill to make it available for selection
--   [Activate a skill](https://www.servicenow.com/docs/access?context=activate-skill&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US): Activate the skill so it can be selected
+-   Configure skill deployment settings: Enable the skill to make it available for selection
+-   Activate a skill: Activate the skill so it can be selected
 
 ## About this task
 
@@ -42,7 +43,7 @@ In this example, you will:
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create or open a page.
 
@@ -59,9 +60,9 @@ In this example, you will:
 
     **Tip:** Select **Hide inactive** to remove inactive skills from view.
 
-    ![UI Builder editor with the Select a Now Assist skill dialog open.](../image/add-skill-select.png)
+    \[Omitted image "add-skill-select.png"\] Alt text: UI Builder editor with the Select a Now Assist skill dialog open.
 
-    **Note:** Skills that are enabled in Now Assist Skill Kit but not activated in Now Assist Admin appear in the list, but aren't selectable. For more information, see [Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=now-assist-skill-kit-landing&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) and [Now Assist Admin console](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+    **Note:** Skills that are enabled in Now Assist Skill Kit but not activated in Now Assist Admin appear in the list, but aren't selectable. For more information, see Now Assist Skill Kit and Now Assist Admin console.
 
 6.  Select the **X** in the upper right to close the **Edit Generate Content** dialog.
 
@@ -77,13 +78,13 @@ In this example, you will:
 
     3.  Select **Execute** under **Generate Content \(1\)** and select **Continue**.
 
-    4.  Hover over **topic** and select the bind data icon ![](../image/uib-dynamic-data-binding-button.png) to configure the input for the skill.
+    4.  Hover over **topic** and select the bind data icon \[Omitted image "uib-dynamic-data-binding-button.png"\] Alt text: to configure the input for the skill.
 
     5.  Double-click the **fieldValue** pill to select it as the input source and select **Apply**.
 
         The **fieldValue** property captures what the user types in the input field. By using this property as the input to the skill, you set the skill to trigger whenever the user enters text.
 
-        ![UI Builder editor with the Bind data to topic dialog open, showing the fieldValue output selected and added to the upper section.](../image/add-skill-input.png)
+        \[Omitted image "add-skill-input.png"\] Alt text: UI Builder editor with the Bind data to topic dialog open, showing the fieldValue output selected and added to the upper section.
 
     6.  Select **Add**.
 
@@ -97,7 +98,7 @@ In this example, you will:
 
     4.  Change the **HTML tag** property to **Paragraph** \(for better readability in this example\).
 
-    5.  Hover over the **Text** field in the configuration panel and select the bind data icon ![](../image/uib-dynamic-data-binding-button.png).
+    5.  Hover over the **Text** field in the configuration panel and select the bind data icon \[Omitted image "uib-dynamic-data-binding-button.png"\] Alt text:.
 
     6.  Select **Data resource** on the left.
 
@@ -105,18 +106,18 @@ In this example, you will:
 
     8.  Select **Apply**.
 
-    ![UI Builder editor with the Bind data to Text dialog open, showing the Data resource > Generate Content > result > response output added to the upper section.](../image/add-skill-response.png)
+    \[Omitted image "add-skill-response.png"\] Alt text: UI Builder editor with the Bind data to Text dialog open, showing the Data resource &gt; Generate Content &gt; result &gt; response output added to the upper section.
 
 10. Select **Save**.
 
 11. Select **Preview** to test the skill.
 
-    ![UI Builder page preview showing a functional input component using the Generate Content skill.](../image/add-skill-result.png)
+    \[Omitted image "add-skill-result.png"\] Alt text: UI Builder page preview showing a functional input component using the Generate Content skill.
 
 
 ## Result
 
 When you view the page and type in the input field, your text input triggers the **Generate Content** skill to execute and return content on the topic in the input field.
 
-**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](../concept/data-resources.md)
+**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/data-resources.md)
 

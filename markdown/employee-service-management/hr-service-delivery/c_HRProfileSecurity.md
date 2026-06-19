@@ -2,6 +2,7 @@
 title: HR profile and HR case security
 description: Because HR profile information is sensitive and confidential, the System Administrator \[admin\] cannot view it. The same is true for some of the information in HR cases and HR tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/c\_HRProfileSecurity.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -54,18 +55,18 @@ You can prevent a user from accessing HR information by impersonating a user tha
 -   Scroll to **If true, ACLs check if the user is being impersonated.**
 -   Check **Yes** \(true\) to enable ACLs to check when a user is impersonating another user and prevent the user from viewing HR information.
 
-    COE security policies are a way to easily restrict access to different COEs via configuration. The underlying COE security policy implementations are [ServiceNow ACLs](https://www.servicenow.com/docs/access?context=access-control-rules&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+    COE security policies are a way to easily restrict access to different COEs via configuration. The underlying COE security policy implementations are ServiceNow ACLs.
 
 -   Even if the logged in user has HR access and impersonates another HR user with the same access, HR information is not visible.
 
     **Note:** This property was introduced for the HR Service Delivery scoped application and not applicable to the HR Services Delivery Non-scoped application.
 
 
-See [Add field security in HR](../task/FieldSecurity.md).
+See [Add field security in HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/FieldSecurity.md).
 
-See [Restricted caller access for HR](hr-security.md#).
+See [Restricted caller access for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-security.md).
 
-See [Manage HR roles](c_ManageRoles.md).
+See [Manage HR roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_ManageRoles.md).
 
-**Parent Topic:**[Use HR Profile](c_HRProfileRecords.md)
+**Parent Topic:**[Use HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
 

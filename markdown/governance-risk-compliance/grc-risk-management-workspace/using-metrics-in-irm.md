@@ -2,6 +2,7 @@
 title: GRC: Metrics in Integrated Risk Management
 description: Risk metrics are defined as a quantifiable measure that is used to track and assess the status of a specific risk. Metrics help in tracking the exposure of a risk over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/using-metrics-in-irm.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace

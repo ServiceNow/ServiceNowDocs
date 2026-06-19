@@ -2,6 +2,7 @@
 title: Chief Human Resources Officer Dashboard tabs
 description: Organizing insights into these pillars enables HR leadership to strengthen operational delivery, improve employee experience, support talent growth, enhance diversity and inclusion, and reinforce organizational culture and performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/chro-db-tabs.html
 release: zurich
 topic_type: reference
 last_updated: "2025-09-01"
@@ -123,7 +124,7 @@ Employee relations and compliance
 Monitors employee relations workload and SLA adherence to reduce risk and maintain healthy workplace relations.
 
 </td></tr></tbody>
-</table>![CHRO Dashboard Operations tab with Onboarding, Care, Continuous Improvement, Satisfaction, and Relations pillars, each containing operational metrics and visualizations.](../image/chro-db-ops-tab.png)
+</table>\[Omitted image "chro-db-ops-tab.png"\] Alt text: CHRO Dashboard Operations tab with Onboarding, Care, Continuous Improvement, Satisfaction, and Relations pillars, each containing operational metrics and visualizations.
 
 ## People tab
 
@@ -238,7 +239,7 @@ Compensation &amp; recognition
 Assesses how well compensation, recognition, and reward programs support performance and engagement.
 
 </td></tr></tbody>
-</table>![CHRO Dashboard People tab with Grow, Develop, Diversify, Empower, and Reward pillars, each containing HR metrics and visualizations.](../image/chro-db-people-tab.png)
+</table>\[Omitted image "chro-db-people-tab.png"\] Alt text: CHRO Dashboard People tab with Grow, Develop, Diversify, Empower, and Reward pillars, each containing HR metrics and visualizations.
 
 ## CHRO Dashboard overview
 

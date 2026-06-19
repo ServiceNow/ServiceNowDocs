@@ -2,6 +2,7 @@
 title: Enhance employee experience by integrating ServiceNow with Zoom
 description: ServiceNow integration with Zoom helps employees to interact with agents and resolve their IT-related issues using Zoom.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/enhance-emp-exp-integrating-sn-zoom.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -15,10 +16,10 @@ breadcrumb: [Integrate, ServiceNow for Zoom, Unified Employee Experience, Employ
 
 ServiceNow integration with Zoom helps employees to interact with agents and resolve their IT-related issues using Zoom.
 
--   **[Starting and importing a Zoom Team Chat](start-import-chat.md)**  
+-   **[Starting and importing a Zoom Team Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/start-import-chat.md)**  
 Initiate a Zoom Team Chat conversation with the requester to resolve the ticket and import the chat as task record comments.
--   **[Chat-specific configuration for Collaboration services for Zoom](additional-configuration-sn-cs-zoom.md)**  
+-   **[Chat-specific configuration for Collaboration services for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/additional-configuration-sn-cs-zoom.md)**  
 Configure chat-specific options for Collaboration services for Zoom.
 
-**Parent Topic:**[Integrating and using ServiceNow with Zoom](integrate-sn-zoom.md)
+**Parent Topic:**[Integrating and using ServiceNow with Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/integrate-sn-zoom.md)
 

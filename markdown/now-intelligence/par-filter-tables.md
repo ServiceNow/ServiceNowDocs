@@ -2,6 +2,7 @@
 title: Platform Analytics filter tables
 description: The following tables relate to Platform Analytics filters and can be accessed through scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/par-filter-tables.html
 release: zurich
 topic_type: reference
 last_updated: "2025-07-31"

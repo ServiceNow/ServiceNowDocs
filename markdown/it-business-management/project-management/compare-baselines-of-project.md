@@ -2,6 +2,7 @@
 title: Compare financial baselines of a project
 description: Compare baselines to review the variances in the financial data of a project and see what changed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-management/compare-baselines-of-project.html
 release: zurich
 product: Project Management
 classification: project-management
@@ -21,21 +22,21 @@ Role required: it\_project\_manager
 
 ## About this task
 
-You can [create](t_CreateAProjectBaseline.md) multiple baselines at various stages of a project, for example, at the end of each phase or after every calendar month or quarter. Each baseline captures the financial data of the project at a particular moment, providing a basis from which you can identify and review the changes made to the project. Having multiple baselines and comparing them helps you track the performance of your projects.
+You can [create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/t_CreateAProjectBaseline.md) multiple baselines at various stages of a project, for example, at the end of each phase or after every calendar month or quarter. Each baseline captures the financial data of the project at a particular moment, providing a basis from which you can identify and review the changes made to the project. Having multiple baselines and comparing them helps you track the performance of your projects.
 
 ## Procedure
 
 1.  To compare the financial baselines of a project, use one of the following options.
 
-<table id="choicetable_wgp_h4y_tfb"><thead><tr><th align="left" id="d209568e78">
+<table id="choicetable_wgp_h4y_tfb"><thead><tr><th align="left" id="d146151e78">
 
 Option
 
-</th><th align="left" id="d209568e81">
+</th><th align="left" id="d146151e81">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d209568e87">
+</th></tr></thead><tbody><tr><td id="d146151e87">
 
 **From the Project Workspace**
 
@@ -47,7 +48,7 @@ Steps
 4.  Select the **Baselines** from header and then select **Compare baselines**.
 
 
-</td></tr><tr><td id="d209568e135">
+</td></tr><tr><td id="d146151e135">
 
 **From the Project form**
 
@@ -57,10 +58,10 @@ Steps
 2.  Open a project.
 3.  On the Project form, select the **Cost Plans** or **Benefit Plans** related list.
 4.  Select **Manage**.
-5.  On the **Financials** tab, select the baseline information icon \(![Baseline information icon](../../planning-and-policy/image/gannt_chart_icon.png)\) and then select **Compare Baselines**.
+5.  On the **Financials** tab, select the baseline information icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: Baseline information icon\) and then select **Compare Baselines**.
 
 
-</td></tr><tr><td id="d209568e198">
+</td></tr><tr><td id="d146151e198">
 
 **From the Baseline form**
 
@@ -85,16 +86,16 @@ Steps
     -   The **Financial Baseline Summary** section displays four widgets: the first two widgets contain the financial data of the two baselines, the third widget contains their variance, and the fourth widget contains the actual costs to date of the project.
     -   The **Financial Baseline Details** section displays the cost plans and benefit plans of the two baselines in two different grids. Each plan type has two rows corresponding to each baseline data.
 
-        **Note:** Select the baseline legend icon \(![Baseline Legend info icon.](../../planning-and-policy/image/compare-baselines-legend-icon.png)\) to see the color code of rows representing each baseline.
+        **Note:** Select the baseline legend icon \(\[Omitted image "compare-baselines-legend-icon.png"\] Alt text: Baseline Legend info icon.\) to see the color code of rows representing each baseline.
 
 4.  Review additional fields or reorganize the comparative data on the form.
 
-    -   To show or hide additional fields on the widgets in the **Financial Baseline Summary** section, select the configuration icon \(![Configuration icon](../../planning-and-policy/image/gannt_chart_icon.png)\) and select the field names.
+    -   To show or hide additional fields on the widgets in the **Financial Baseline Summary** section, select the configuration icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: Configuration icon\) and select the field names.
 
         The selected field preferences are saved and are available when you reopen the Financial Baseline form. To reset to the default widget layout, select **Reset to defaults**.
 
     -   To view cost plan or benefit plan comparative data in yearly, quarterly, or monthly format, select the **Year** or **Quarter** or **Month** views respectively.
-    -   To toggle viewing the **Financial Baseline Summary** section, select the **Collapse** icon \(![Collapse icon](../../planning-and-policy/image/CollapseIcon.png)\) or **Expand** icon \(![Expand icon](../../application-portfolio-management/image/ExpandIcon.png)\).
+    -   To toggle viewing the **Financial Baseline Summary** section, select the **Collapse** icon \(\[Omitted image "CollapseIcon.png"\] Alt text: Collapse icon\) or **Expand** icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand icon\).
 
-**Parent Topic:**[Create baseline of a project](t_CreateAProjectBaseline.md)
+**Parent Topic:**[Create baseline of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/t_CreateAProjectBaseline.md)
 

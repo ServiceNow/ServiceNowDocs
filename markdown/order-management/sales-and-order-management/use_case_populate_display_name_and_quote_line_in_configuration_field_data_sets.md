@@ -2,6 +2,7 @@
 title: Use case: Populate display names and quote lines in Configuration Field Data Set objects
 description: Learn how to set up custom objects and Apex triggers in SFDC to populate the display names of ServiceNow CPQ fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/use\_case\_populate\_display\_name\_and\_quote\_line\_in\_configuration\_field\_data\_sets.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -17,11 +18,11 @@ Learn how to set up custom objects and Apex triggers in SFDC to populate the dis
 
 As part of the ServiceNow CPQ Managed Package, the functionality of the Configuration Field Data Set object in SFDC is to return the Configuration ID of the configuration, every field variable name used by the blueprint, the value of that field, and the label of that value after every save from the ServiceNow CPQ configurator:
 
-![Field Data list](../images/cpq-configuration-field-data-sets-1.png)
+\[Omitted image "cpq-configuration-field-data-sets-1.png"\] Alt text: Field Data list
 
 However, there might be some extra necessities about the configuration in ServiceNow CPQ outside of these fields created by the Managed Package that an organization needs for downstream processes. For instance, we might want to populate the display names of the ServiceNow CPQ fields, or easily jump to the Quote Line of the associated Configuration Field Data objects for an easy connection to the BOM.
 
-![Field data list](../images/cpq-configuration-field-data-sets-2.png)
+\[Omitted image "cpq-configuration-field-data-sets-2.png"\] Alt text: Field data list
 
 With a little setup of custom objects and Apex Triggers in SFDC, these fields can automatically be populated after every configuration is saved.
 
@@ -29,7 +30,7 @@ With a little setup of custom objects and Apex Triggers in SFDC, these fields ca
 
 Enable “Push Config Data to Logik Salesforce Object” in the Admin Settings if you have not done so already. This will start creating the Configuration Field Data Sets objects in SFDC.
 
-![Admin settings](../images/cpq-admin-settings-push-config-data.png)
+\[Omitted image "cpq-admin-settings-push-config-data.png"\] Alt text: Admin settings
 
 **Note:** The creation of these Configuration Field Data Sets will occur every time a configuration is saved from ServiceNow CPQ, even if the quote itself is not saved. This can lead to a lot of data being created in your Salesforce org. If you do not have a use case for pulling every field used by the Blueprint into SFDC, it is best to keep this setting disabled and rely on the Extended Information property in the BOM Data.
 
@@ -227,5 +228,5 @@ Now, every time a Quote is saved in SFDC, the Quote Line of the Parent Configura
 
 **Note:** Configuration Field Data Sets are created immediately after you click **Save** in the ServiceNow CPQ Configurator. When you enter the Quote Line Editor, the Quote Line field will not be populated because it hasnʼt been created or updated yet. Only once you save from the Editor will the quote line appear in the field.
 
-**Parent Topic:**[Use cases](use-cases.md)
+**Parent Topic:**[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/use-cases.md)
 

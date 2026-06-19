@@ -2,7 +2,10 @@
 title: Display the form ribbon and form header secondary values in the Contextual side panel
 description: Configure the form ribbon and the secondary values that appear in a form header to display in the Contextual side panel in CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/config-csm-display-header-in-sidebar.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -21,9 +24,9 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
 **Note:** This task applies to CSM Configurable Workspace.
 
-The [form ribbon](../../../administer/workspace/reference/csm-agent-workspace-ribbon.md) includes components that provide agents with an overview of case details, such as a customer summary and a case timeline.
+The [form ribbon](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-agent-workspace-ribbon.md) includes components that provide agents with an overview of case details, such as a customer summary and a case timeline.
 
-The [form header](../../../administer/workspace/reference/csm-agent-workspace-agent-actions.md) for the Case form can display two levels of field values from the Case table. The primary value is the case short description. The secondary values include the account and contact or consumer, the case priority, and the case state.
+The [form header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-agent-workspace-agent-actions.md) for the Case form can display two levels of field values from the Case table. The primary value is the case short description. The secondary values include the account and contact or consumer, the case priority, and the case state.
 
 You can use properties to determine where the form ribbon and secondary values are displayed: at the top of the record or in the Contextual side panel. Two properties are available for the standard record page and two are available for the interaction record.
 
@@ -46,15 +49,15 @@ These properties can operate independently. For example, you can display the for
 
 3.  In the **Value** field for the selected property, enter one of the following values.
 
-<table id="choicetable_rz1_21k_npb"><thead><tr><th align="left" id="d50609e184">
+<table id="choicetable_rz1_21k_npb"><thead><tr><th align="left" id="d52735e184">
 
 Value
 
-</th><th align="left" id="d50609e187">
+</th><th align="left" id="d52735e187">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d50609e193">
+</th></tr></thead><tbody><tr><td id="d52735e193">
 
 **header**
 
@@ -66,7 +69,7 @@ Displays the selected component in the following location:
 -   Secondary values: at the top of the record, in the form header below the primary value.
 
 
-</td></tr><tr><td id="d50609e213">
+</td></tr><tr><td id="d52735e213">
 
 **sidebar**
 

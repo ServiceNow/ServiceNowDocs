@@ -2,7 +2,10 @@
 title: Manage Impact users
 description: Impact admins can create, view, and manage their users with Impact User Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/ide-user-management.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ Impact admins can create, view, and manage their users with Impact User Manageme
 
 ## Before you begin
 
-**Note:** See [Roles installed with Impact](../reference/impact-roles.md) for information about Impact role permissions.
+**Note:** See [Roles installed with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-roles.md) for information about Impact role permissions.
 
 Role required: Impact admin
 
@@ -23,7 +26,7 @@ Role required: Impact admin
 
 1.  Navigate to **Impact** &gt; **User Profile Menu** &gt; **Manage Users**.
 
-2.  Select **Add new user**.![Displays the Impact role designation screen.](../image/add-new-user.png)
+2.  Select **Add new user**.\[Omitted image "add-new-user.png"\] Alt text: Displays the Impact role designation screen.
 
 3.  Enter the relevant information including:
 

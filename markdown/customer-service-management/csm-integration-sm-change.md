@@ -2,7 +2,10 @@
 title: CSM integration with Change Management
 description: Integration with the Change Management application enables customer service agents to create change records from cases or associate existing change records to cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-integration-sm-change.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -35,7 +38,7 @@ The following roles enable customer service agents to view and create changes fo
 -   sn\_change\_read
 -   sn\_change\_write
 
-For more information, see [Assign CSM/ITSM integration roles](../task/assign-csm-itsm-integration-roles.md#).
+For more information, see [Assign CSM/ITSM integration roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/assign-csm-itsm-integration-roles.md).
 
 ## Synchronizing data between the change and the case
 

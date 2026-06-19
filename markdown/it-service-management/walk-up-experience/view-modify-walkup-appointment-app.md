@@ -2,6 +2,7 @@
 title: View or modify a Walk-up Experience appointment booking configuration
 description: View the base system default appointment booking application configuration to determine if the criteria meets your walk-up appointment booking needs. You can modify the application configuration to uniquely manage appointment booking for your experience. The information stored in the Walk-up Experience appointment booking application configuration applies to all the services within the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/walk-up-experience/view-modify-walkup-appointment-app.html
 release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -101,5 +102,5 @@ Displays available appointments for a single day or for a week on the online **S
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Configure Walk-up Experience appointment booking](../concept/walkup-appointment-booking-config.md)
+**Parent Topic:**[Configure Walk-up Experience appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walkup-appointment-booking-config.md)
 

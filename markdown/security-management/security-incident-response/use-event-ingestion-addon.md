@@ -2,6 +2,7 @@
 title: Using ServiceNow Security Operations Event Ingestion Add-on for Splunk ES
 description: Forward events on-demand from your Splunk Enterprise Security console to create a Security Incident Response \(SIR\) on the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/use-event-ingestion-addon.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -35,12 +36,12 @@ Role required: sn\_sec\_splunkes.api\_account\_access
 
 6.  From the drop down, select the **Workflow action label** configured while setting up the add-on.
 
-    For more information on Workflow action label, see [Setup ServiceNow Security Operations Event Ingestion Addon for Splunk ES](splunk-es-addon.md)
+    For more information on Workflow action label, see [Setup ServiceNow Security Operations Event Ingestion Addon for Splunk ES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/splunk-es-addon.md)
 
     Events will go in **Splunk ES Event Import** table followed by **Splunk ES Event to Tasks** table.
 
 
 ## Result
 
-A Security Incident Response \(SIR\) record is created on the ServiceNow instance as per the mapping specified in the Manual event forwarding profile. For instructions on how to set up a Manual event forwarding profile, see [Create and name an event profile](splunk-event-ingest-create-profile.md)
+A Security Incident Response \(SIR\) record is created on the ServiceNow instance as per the mapping specified in the Manual event forwarding profile. For instructions on how to set up a Manual event forwarding profile, see [Create and name an event profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/splunk-event-ingest-create-profile.md)
 

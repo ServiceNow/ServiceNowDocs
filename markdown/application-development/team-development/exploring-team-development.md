@@ -2,6 +2,7 @@
 title: Exploring Team Development
 description: Team Development supports parallel development on multiple, non-production ServiceNow instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/exploring-team-development.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -28,7 +29,7 @@ After setting up the instance hierarchy, you can develop changes on your local d
 -   Branching operations, including pushing and pulling record versions between instances.
 -   A central dashboard for all Team Development activities.
 
-Developers with admin access to their development instance and the parent instance can use Team Development. For alternative access settings, see [Granting access rights for the developers](../reference/r_GrantingAccessRightsToDevelopers.md).
+Developers with admin access to their development instance and the parent instance can use Team Development. For alternative access settings, see [Granting access rights for the developers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/r_GrantingAccessRightsToDevelopers.md).
 
 ## Team Development users
 
@@ -41,9 +42,9 @@ Developers with admin access to their development instance and the parent instan
 
 This workflow displays the Team Development admin workflow.
 
-![team development admin workflow.](../image/team-development-workflow.png "Team Development admin workflow")
+\[Omitted image "team-development-workflow.png"\] Alt text: team development admin workflow.
 
-1.  Set up the development instance hierarchy as described in [Set up an instance hierarchy](../task/t_SetUpAnInstanceHierarchy.md).
+1.  Set up the development instance hierarchy as described in [Set up an instance hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_SetUpAnInstanceHierarchy.md).
     1.  Provision development instances on the same software version as the target instance. For example, use the software version that is running on your production instance.
     2.  \[Recommended\] Clone the target to the development instances.
     3.  For each instance, define the parent instance.
@@ -55,7 +56,7 @@ This workflow displays the Team Development admin workflow.
     -   Track local changes. Queue changes that are ready to push to the parent development instance.
     -   Compare versions on peer instances. Reconcile any conflicts.
 4.  When a feature is ready to promote to the parent development instance, push the current version of the customized records.
-5.  \(optional\) Have code reviewers approve or reject the pushed version. See [Approve or reject a push](../task/t_ApproveOrRejectAPush.md).
+5.  \(optional\) Have code reviewers approve or reject the pushed version. See [Approve or reject a push](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_ApproveOrRejectAPush.md).
 6.  Test and promote the feature into production according to your testing and release management process.
 
 ## When to use Team Development
@@ -115,9 +116,9 @@ Consider uploading an application to the ServiceNow Store to share it with other
 
 To learn more about configuring and using Team Development, see:
 
--   [Configuring Team Development](../task/configuring-team-development.md)
--   [Resolving collisions](resolving-collisions.md)
--   [Local changes](c_LocalChanges.md)
--   [Working with version records](c_Versions.md)
--   [Team Development Reference](../reference/team-development-reference.md)
+-   [Configuring Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/configuring-team-development.md)
+-   [Resolving collisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/resolving-collisions.md)
+-   [Local changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_LocalChanges.md)
+-   [Working with version records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_Versions.md)
+-   [Team Development Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/team-development-reference.md)
 

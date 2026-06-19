@@ -2,6 +2,7 @@
 title: The RFQ \(Request for Quote\) API
 description: ServiceNow CPQ adds additional functionality to the Salesforce CPQ package APIs. This functionality lets you add products and data to an existing Salesforce CPQ quote.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/logik\_salesforce\_cpq\_request\_for\_quote\_api.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

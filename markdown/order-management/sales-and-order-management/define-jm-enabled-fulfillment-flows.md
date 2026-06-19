@@ -2,6 +2,7 @@
 title: Define Jeopardy-enabled fulfillment workflows
 description: Create jeopardy-enabled fulfillment workflows using Workflow Studio. The workflows enable Jeopardy Management to track task completion times and manage risk.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/define-jm-enabled-fulfillment-flows.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -44,8 +45,6 @@ The following Workflow Studio actions are used to create Jeopardy Management flo
 3.  Give the subflow a name and provide any additional information.
 
 4.  Select the **Build subflow** action.
-
-    ![The figure shows a Jeopardy Management subflow using the Create Order Planned Task action in Workflow Studio.](../image/jm-create-order-planned-task.png)
 
 5.  Build the Jeopardy Management subflow using the following actions:
 
@@ -100,7 +99,7 @@ The flow action checks if an order task has a previous state value and uses the 
  The Set the Order Task State action checks to see if an order task has a previous state value and uses the previous state to update the order task state during inflight state changes.
 
 </td></tr></tbody>
-</table>    **Note:** For more information about building subflows, see [Building subflows](https://www.servicenow.com/docs/access?context=subflows&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+</table>    **Note:** For more information about building subflows, see .
 
 7.  Test the flow by selecting **Test**.
 
@@ -109,5 +108,5 @@ The flow action checks if an order task has a previous state value and uses the 
 
 ## What to do next
 
-[Configure the Order Task Duration Assignment Policy](configure-order-task-duration-assignment-policy.md).
+[Configure the Order Task Duration Assignment Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/configure-order-task-duration-assignment-policy.md).
 

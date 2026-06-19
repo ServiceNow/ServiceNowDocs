@@ -2,6 +2,7 @@
 title: Use the Debug filter
 description: The debug interactive filter helps you create custom filters. This filter displays a JSON array representation of all active filters on a dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/interactive-filters/c\_DebugPublisher.html
 release: zurich
 product: Interactive Filters
 classification: interactive-filters
@@ -23,11 +24,11 @@ Role required: admin
 
 To use the debug filter, add it to a dashboard. The debug filter is read-only and intended to aid in the design and implementation of custom interactive filters.
 
-![](../image/Debug_publisher_plus.png "Debug filter with filters")
+\[Omitted image "Debug\_publisher\_plus.png"\] Alt text:
 
 ## Procedure
 
-1.  In the dashboard, click the Add widgets \(![](../image/AddWidgetButton.png)\) icon.
+1.  In the dashboard, click the Add widgets \(\[Omitted image "AddWidgetButton.png"\] Alt text:\) icon.
 
 2.  In the Add Widgets panel, select the widget category **Interactive Filters** and the widget **\{Debug\}**.
 
@@ -38,5 +39,5 @@ To use the debug filter, add it to a dashboard. The debug filter is read-only an
 
 The Debug widget is added to your dashboard.
 
-**Parent Topic:**[Custom interactive filters](c_CustomPublishers.md)
+**Parent Topic:**[Custom interactive filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters/c_CustomPublishers.md)
 

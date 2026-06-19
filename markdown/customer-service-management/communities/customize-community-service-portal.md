@@ -2,6 +2,7 @@
 title: Customize Community Service Portal
 description: Customize community service portal according to your needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/communities/customize-community-service-portal.html
 release: zurich
 product: Communities
 classification: communities
@@ -26,5 +27,5 @@ Role required: admin
 2.  Select **Community**.
 
 
-**Parent Topic:**[Community Service Portal](../concept/community-service-portal.md)
+**Parent Topic:**[Community Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/community-service-portal.md)
 

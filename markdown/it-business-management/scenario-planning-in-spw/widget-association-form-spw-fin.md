@@ -2,6 +2,7 @@
 title: Widget association form
 description: Use these form fields to associate a widget with project table and view it on financials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/widget-association-form-spw-fin.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -72,5 +73,5 @@ Include by default
 Option to show the widget by default in the **Financials** tab.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Strategic Planning](../../alignment-planner-workspace/reference/form-field-information-for-strategic-planning.md)
+</table>**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
 

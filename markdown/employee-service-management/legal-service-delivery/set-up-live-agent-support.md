@@ -2,6 +2,7 @@
 title: Configure live agent support settings for legal services
 description: Configure settings to enable live agent support for legal services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/set-up-live-agent-support.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -30,7 +31,7 @@ Role required: admin
 
 1.  Install Agent Chat along with the demo data.
 
-    For more information, see [Agent Chat](https://www.servicenow.com/docs/access?context=migrate-from-connect-support&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US) and [Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-overview&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+    For more information, see Agent Chat and Advanced Work Assignment.
 
 2.  Configure the assignment rule to provide the criteria for routing the chat conversations to live agents in the Legal department.
 
@@ -40,7 +41,7 @@ Role required: admin
 
     3.  Update fields as required.
 
-        For more information on the fields, see [Configure agent assignment rules](https://www.servicenow.com/docs/access?context=awa-create-assignment-rule&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+        For more information on the fields, see Configure agent assignment rules.
 
     4.  Click **Update**.
 
@@ -52,7 +53,7 @@ Role required: admin
 
     3.  Update fields as required.
 
-        For more information on the fields, see [Create a work item queue](https://www.servicenow.com/docs/access?context=awa-create-queue&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+        For more information on the fields, see Create a work item queue.
 
     4.  Click **Update**.
 
@@ -60,8 +61,8 @@ Role required: admin
 
     6.  Update fields as required.
 
-        For more information on the fields, see [Define Assignment Eligibility](https://www.servicenow.com/docs/access?context=awa-specify-assignment-eligibility&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+        For more information on the fields, see Define Assignment Eligibility.
 
 
-**Parent Topic:**[Live agent support for legal services](../concept/legal-va-live-agent.md)
+**Parent Topic:**[Live agent support for legal services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/legal-va-live-agent.md)
 

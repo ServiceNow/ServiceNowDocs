@@ -2,6 +2,7 @@
 title: Add personas to a project
 description: Each project has several personas with different roles in the Performance Analytics solution that you are designing. A persona is a role within your company, such as service desk manager or service owner.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/add-personas-project.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -16,7 +17,7 @@ breadcrumb: [KPI Composer projects, Design your indicator solution, Configure fu
 Each project has several personas with different roles in the Performance Analytics solution that you are designing. A persona is a role within your company, such as service desk manager or service owner.
 
 Prerequisites
-:   [Create a KPI Composer project](create-kpi-composer-project.md)
+:   [Create a KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-kpi-composer-project.md)
 
 ## Before you begin
 
@@ -26,7 +27,7 @@ Role required: sn\_kpi\_composer.user \(own project\), sn\_kpi\_composer.admin \
 
 1.  Navigate to **All** &gt; **KPI Composer** and create or open a project.
 
-2.  In the Analysis tab, click the persona icon \(![](../image/kpi-comp-persona-icon.png)\) at the top right of the screen.
+2.  In the Analysis tab, click the persona icon \(\[Omitted image "kpi-comp-persona-icon.png"\] Alt text:\) at the top right of the screen.
 
 3.  In the Persona dialog, click **Add item**.
 
@@ -39,7 +40,7 @@ Role required: sn\_kpi\_composer.user \(own project\), sn\_kpi\_composer.admin \
 
 ## Adding personas to a KPI Composer project
 
-In the following short animation, you see how to add the personas Agent and CIO to a project. Then you see how to add the CIO persona to a Business Goal. ![Creating personas and adding one to an artifact](../image/kpi-comp-add-persona.gif)
+In the following short animation, you see how to add the personas Agent and CIO to a project. Then you see how to add the CIO persona to a Business Goal. \[Omitted image "kpi-comp-add-persona.gif"\] Alt text: Creating personas and adding one to an artifact
 
 ## What to do next
 
@@ -60,9 +61,9 @@ By holding down the Ctrl/Command or Alt/Option key while dropping a persona onto
     Remove the persona from the artifact on which is dropped and from all child artifacts of that artifact.
 
 
-**Parent Topic:**[KPI Composer projects](../concept/kpi-composer-projects.md)
+**Parent Topic:**[KPI Composer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/kpi-composer-projects.md)
 
-**Previous topic:**[Define properties for a project](define-properties-project.md)
+**Previous topic:**[Define properties for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/define-properties-project.md)
 
-**Next topic:**[Group data by breakdown definitions](add-breakdowns-project.md#)
+**Next topic:**[Group data by breakdown definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/add-breakdowns-project.md)
 

@@ -2,6 +2,7 @@
 title: Set NLU portal consumer context values for multiple active conversations
 description: Use context values to determine which portals receive certain messages and notifications for users in that portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/t\_set-portal-consumer-context-values-multiple-active-conversations.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -17,9 +18,9 @@ Use context values to determine which portals receive certain messages and notif
 
 ## Before you begin
 
-Activate Virtual Agent. For more information, see [Activate Virtual Agent](activate-virtual-agent.md).
+Activate Virtual Agent. For more information, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/activate-virtual-agent.md).
 
-Configure your Agent Chat system for your portal or portals. See [Configure Agent Chat in a portal](https://www.servicenow.com/docs/access?context=configure-va-in-sp&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) for more information.
+Configure your Agent Chat system for your portal or portals. See  for more information.
 
 Role required: virtual\_agent\_admin or admin
 
@@ -37,7 +38,7 @@ With consumer context added to a portal configuration, that portal acts as conte
 
 3.  In the Server Script window, add the line `consumer_account_context: 'VALUE'`, replacing `VALUE` with your desired consumer account context.
 
-    ![Service Portal agent chat configuration form](../images/portal-consumer-context-values-mac-02.png "Server script example")
+    \[Omitted image "portal-consumer-context-values-mac-02.png"\] Alt text: Service Portal agent chat configuration form
 
     **Note:**
 
@@ -50,7 +51,7 @@ With consumer context added to a portal configuration, that portal acts as conte
 
 ## What to do next
 
-Set a default context for your conversations. See [Set a default NLU context value for multiple active conversations](t_set-default-context-value-multiple-active-conversations.md) for more information.
+Set a default context for your conversations. See [Set a default NLU context value for multiple active conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/t_set-default-context-value-multiple-active-conversations.md) for more information.
 
-**Parent Topic:**[Using multiple active conversations in Virtual Agent](../concept/c_multiple-active-conversations-va.md)
+**Parent Topic:**[Using multiple active conversations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/c_multiple-active-conversations-va.md)
 

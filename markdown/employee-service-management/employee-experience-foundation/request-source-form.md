@@ -2,6 +2,7 @@
 title: Request source form
 description: The field descriptions provide a reference point when you're creating a request source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/request-source-form.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -120,5 +121,5 @@ Active
 SelectedOption to mark the request source record active.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enhanced Requests Experience forms](req-concept-ec.md)
+</table>**Parent Topic:**[Enhanced Requests Experience forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/req-concept-ec.md)
 

@@ -2,6 +2,7 @@
 title: Define third-party risk scoring rules
 description: Define criteria, based on risk scores, that determine which third parties require assessments. Third-party risk scoring rules apply to subsidiaries and engagements and to third-party risk areas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-tp-risk-scoring-rules-define.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -65,7 +66,7 @@ Third-party risk area criteria
 
 The risk area criteria that applies to this engagement risk scoring rule.
 
- A third-party risk area criteria is a group of risk domains \(sometimes called risk areas in other platform features\) that applies to a particular type of third party. See [Define third-party risk area criteria](tprm-risk-domain-criteria-df.md) for details on how the criteria are defined.
+ A third-party risk area criteria is a group of risk domains \(sometimes called risk areas in other platform features\) that applies to a particular type of third party. See [Define third-party risk area criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-risk-domain-criteria-df.md) for details on how the criteria are defined.
 
 </td></tr><tr><td>
 
@@ -77,7 +78,7 @@ Criteria for third-party risk assessments, engagements, and subsidiaries that ap
 
  Components are the entities for which you can assess risk \(for example, subsidiaries or engagements\). A component criteria is a group of components that should apply to a particular type of third party or engagement.
 
- See [Define component criteria](tprm-component-criteria-define.md).
+ See [Define component criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-component-criteria-define.md).
 
 </td></tr><tr><td>
 
@@ -101,9 +102,9 @@ Vendor filter
 
 </td><td>
 
-Use the [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) to define the rules for selecting third parties. For example, you can filter on third parties with whom you do considerable business \(Size is $1,000,000\) or third parties within a specific category \(Category is software\).
+Use the condition builder to define the rules for selecting third parties. For example, you can filter on third parties with whom you do considerable business \(Size is $1,000,000\) or third parties within a specific category \(Category is software\).
 
 </td></tr></tbody>
-</table>    ![New third-party risk scoring rule.](../image/new-vendor-risk-scoring-rule.png)
+</table>    \[Omitted image "new-vendor-risk-scoring-rule.png"\] Alt text: New third-party risk scoring rule.
 
 

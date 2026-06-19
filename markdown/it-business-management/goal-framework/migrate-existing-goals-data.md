@@ -2,6 +2,7 @@
 title: Migrate existing goals data to Goal Framework tables
 description: With the admin role, you can migrate the existing goals data to the Goal Framework tables by running the scheduled job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/goal-framework/migrate-existing-goals-data.html
 release: zurich
 product: Goal Framework
 classification: goal-framework
@@ -35,7 +36,7 @@ Role required: admin
 
     2.  Set the value to **true** for the required parameters in the **Run this script** field.
 
-        For parameters information, see [Migrate Goal, Strategy, and Work item data to the Goal Framework and related Planning item tables](../reference/scheduled-script-execution-form-gf-1.md#scheduled-job-to-migrate-goals-data).
+        For parameters information, see [Migrate Goal, Strategy, and Work item data to the Goal Framework and related Planning item tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
 4.  Click **Execute Now**.
 

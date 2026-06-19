@@ -2,6 +2,7 @@
 title: Outbound web service mutual authentication
 description: Mutual authentication establishes trust by exchanging Secure Sockets Layer \(SSL\) certificates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/c\_OutboundWebServicesMutualAuth.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -21,12 +22,12 @@ As an administrator, you can enable mutual authentication by defining a protocol
 
 For example, you can create a protocol profile called `mauth` with a certificate for mutual authentication. You can then make an HTTPS web service request by calling `mauth://<external-endpoint.com>` when the end point requires mutual authentication.
 
-**Note:** This feature enables mutual authentication only on outbound HTTPS connections, such as SOAP, REST, or direct HTTPS calls. ServiceNow does not support mutual authentication for outbound requests sent through a MID Server. For information about mutual authentication for inbound web services, see [Certificate-based authentication](https://www.servicenow.com/docs/access?context=certificate-based-authentication&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+**Note:** This feature enables mutual authentication only on outbound HTTPS connections, such as SOAP, REST, or direct HTTPS calls. ServiceNow does not support mutual authentication for outbound requests sent through a MID Server. For information about mutual authentication for inbound web services, see .
 
--   **[Create a protocol profile](../task/t_CreateAProtocolProfile.md)**  
+-   **[Create a protocol profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/t_CreateAProtocolProfile.md)**  
 You can create a custom HTTPS protocol profile to specify the credentials and certificates used for outbound web services. For example, you can create a custom HTTPS protocol profile to enable mutual authentication.
--   **[Enable mutual authentication](../task/t_EnableMutualAuth.md)**  
+-   **[Enable mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/t_EnableMutualAuth.md)**  
 You can configure a SOAP or REST message for mutual authentication using a protocol profile.
 
-**Parent Topic:**[Outbound web services](outbound-web-services.md)
+**Parent Topic:**[Outbound web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/outbound-web-services.md)
 

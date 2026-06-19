@@ -2,6 +2,7 @@
 title: Event payloads in UI Builder
 description: Use event payloads to link data to an action.Use event payloads in UI Builder to share information between components on a page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/event-payloads.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -19,11 +20,11 @@ Event payloads are pieces of data sent by a component when a selected event is t
 
 You can use this payload data when configuring an event handler so that the resulting interaction can be linked to the emitted data. For example, a SysID can be passed to other components on a page to display information related to a specified record.
 
-![Red box containing the available event payloads for the selected component.](../image/event-payloads-avaliable.png)
+\[Omitted image "event-payloads-avaliable.png"\] Alt text: Red box containing the available event payloads for the selected component.
 
 Each component and event has a unique set of payload options. Event payloads may not be properly defined for each component. If that is the case, define a client script so that the console logs payloads such as `console.log(event.payload)`.
 
-**Parent Topic:**[Manage actions in UI Builder pages](work-events.md)
+**Parent Topic:**[Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-events.md)
 
 ## Create an event with payloads to share information between components
 
@@ -39,33 +40,33 @@ Role required: ui\_builder\_admin
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    For more information, see [Configure how users interact with your applications in UI Builder](work-experiences.md).
+    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md).
 
 3.  Create or open a page.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](../task/create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/create-page.md).
 
 4.  Add a component that has events, such as the data visualization component.
 
-    For more information about adding components to a page, see [Add and configure components](../task/add-components.md#).
+    For more information about adding components to a page, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/add-components.md).
 
 5.  To add an event handler to your component, select the **Events** tab.
 
-    For more information on how to add event handlers to your component, see [Manage actions in UI Builder pages](work-events.md).
+    For more information on how to add event handlers to your component, see [Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-events.md).
 
     1.  To start the process of setting up an event handler for your component, click **Add event mapping**.
 
-        ![Arrow pointing to add event mapping option.](../image/event-payloads-event-mapping-button.png)
+        \[Omitted image "event-payloads-event-mapping-button.png"\] Alt text: Arrow pointing to add event mapping option.
 
     2.  Select the event mapping that you want to configure from the list.
 
-        ![List of available event mappings for the data visualization component.](../image/event-payloads-select-event.png)
+        \[Omitted image "event-payloads-select-event.png"\] Alt text: List of available event mappings for the data visualization component.
 
     3.  Select **Continue**.
 
     4.  From the Event handler preview section, select an event handler to bind to your component.
 
-        ![Clear alert notifications when a row is clicked in a list.](../image/event-handler-add-page-level.png) ![Update client state parameter handler selected from the list.](../image/event-payloads-add-handler.png)
+        \[Omitted image "event-handler-add-page-level.png"\] Alt text: Clear alert notifications when a row is clicked in a list. \[Omitted image "event-payloads-add-handler.png"\] Alt text: Update client state parameter handler selected from the list.
 
     5.  Select **Continue**.
 
@@ -79,11 +80,11 @@ Role required: ui\_builder\_admin
 
     10. Select the bind data icon in the **Value to use after triggering event** field.
 
-        ![Arrow pointing to the bind data icon in the Value to use after triggering event field.](../image/event-payloads-select-bind-icon.png)
+        \[Omitted image "event-payloads-select-bind-icon.png"\] Alt text: Arrow pointing to the bind data icon in the Value to use after triggering event field.
 
     11. Select the value you would like to bind to the triggered event.
 
-        ![Bind data modal](../image/event-payloads-value-select-modal.png)
+        \[Omitted image "event-payloads-value-select-modal.png"\] Alt text: Bind data modal
 
     12. Select **Apply**.
 
@@ -91,19 +92,19 @@ Role required: ui\_builder\_admin
 
         The data handler will appear below the event mapping in the events tab.
 
-        ![Arrow pointing to the configured event handler for the data visualization component.](../image/event-payloads-configured-handler.png)
+        \[Omitted image "event-payloads-configured-handler.png"\] Alt text: Arrow pointing to the configured event handler for the data visualization component.
 
 6.  Select the component you want to bind the client state parameter to, in this example we will be using a heading component.
 
 7.  Select bind data icon in the field you want to bind the client state parameter to.
 
-    ![Arrow pointing to the bind data icon in the label field of the heading component.](../image/event-payloads-bind-data-field.png)
+    \[Omitted image "event-payloads-bind-data-field.png"\] Alt text: Arrow pointing to the bind data icon in the label field of the heading component.
 
 8.  Select **Client states**.
 
 9.  Select the arrow next to the client state parameter you want to bind.
 
-    ![Arrow pointing to the arrow that binds a client state parameter to the label field.](../image/event-payloads-bind-csp.png)
+    \[Omitted image "event-payloads-bind-csp.png"\] Alt text: Arrow pointing to the arrow that binds a client state parameter to the label field.
 
 10. Select **Apply**.
 

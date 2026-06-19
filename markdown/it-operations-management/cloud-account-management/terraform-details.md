@@ -2,6 +2,7 @@
 title: Terraform account configuration fields
 description: Terraform account configuration form and related list field descriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/terraform-details.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
@@ -45,7 +46,7 @@ Cloud organization
 
 </td><td>
 
-The cloud organization where the subscription account is created. For more details, see [Populate Cloud Account Management dependent tables](../concept/add-account-details.md).
+The cloud organization where the subscription account is created. For more details, see [Populate Cloud Account Management dependent tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/add-account-details.md).
 
 </td></tr><tr><td>
 
@@ -65,7 +66,7 @@ Cloud Account Management uses an email address to generate the root email ID for
 
  For example, if your root email ID is myawsaccount@example.com, the Cloud Account Management application appends a request ID to generate myawsaccount-CWSAREQ0000001@example.com.
 
- **Note:** To create a root email, see [Set up and verify root email in AWS](../task/aws-setup.md).
+ **Note:** To create a root email, see [Set up and verify root email in AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/aws-setup.md).
 
 </td></tr><tr><td>
 
@@ -73,7 +74,7 @@ Terraform URL
 
 </td><td>
 
-A default URL appears. You can customize the URL by selecting the edit icon ![edit](../image/edit-icon-workspace.png).
+A default URL appears. You can customize the URL by selecting the edit icon \[Omitted image "edit-icon-workspace.png"\] Alt text: edit.
 
 </td></tr><tr><td>
 
@@ -116,7 +117,7 @@ Description
 Option to provide a description for the Terraform account.
 
 </td></tr></tbody>
-</table>To return to the procedure, see [Create a Terraform account configuration](../task/create-terraform-account-config.md).
+</table>To return to the procedure, see [Create a Terraform account configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/create-terraform-account-config.md).
 
-**Parent Topic:**[Cloud Account Management reference](cam-reference.md)
+**Parent Topic:**[Cloud Account Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/cam-reference.md)
 

@@ -2,6 +2,7 @@
 title: NowAttachmentMetadata structure - iOS
 description: The NowAttachmentMetadata structure provides functions that enable you to encode and manage attachment metadata.Encodes the current object value into data using the specified encoder.Creates a new NowAttachmentMetadata instance by decoding data into an object from the specified decoder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/cllent-mobile-api-reference/NowAttachmentMetadataiOSStructure.html
 release: zurich
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -121,7 +122,7 @@ String
 
 </td><td>
 
-Expected SHA256 digest for the attachment.A downloaded attachment is [validated](../../NowAttachment/concept/NowAttachmentiOSStructure.md#) by comparing its computed digest to this SHA256 digest.
+Expected SHA256 digest for the attachment.A downloaded attachment is [validated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAttachmentiOSStructure.md) by comparing its computed digest to this SHA256 digest.
 
 </td></tr><tr><td>
 
@@ -283,7 +284,7 @@ String
 Entity that updated the attachment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK - iOS](../../concept/MobileSDKiOSAPI.md)
+</table>**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowAttachmentMetadata - encode\(to encoder: Encoder\)
 

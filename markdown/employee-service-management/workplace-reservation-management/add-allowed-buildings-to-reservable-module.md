@@ -2,6 +2,7 @@
 title: Add workplace locations to a reservable module
 description: Configure workplace locations that must be available to users for reservation when they select a reservable module. Restrict the usage of a workplace by adding only those workplaces that are can be reserved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-reservation-management/add-allowed-buildings-to-reservable-module.html
 release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -41,7 +42,7 @@ Add workplace locations to a reservable module so that employees can access only
 
     2.  Move the selection to the **Workplace Locations List** column on the right.
 
-        To move the location, use the add/remove icon \(![Add remove time slot icon](../image/add-remove-icon.png)\).
+        To move the location, use the add/remove icon \(\[Omitted image "add-remove-icon.png"\] Alt text: Add remove time slot icon\).
 
     3.  Click **Save**.
 
@@ -50,5 +51,5 @@ Add workplace locations to a reservable module so that employees can access only
 
 The workplace locations are added to the reservable module. When an employee selects the reservable module to make a reservation, only the configured workplace locations are displayed.
 
-**Parent Topic:**[Configure a reservable module](config-reservable-module.md)
+**Parent Topic:**[Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/config-reservable-module.md)
 

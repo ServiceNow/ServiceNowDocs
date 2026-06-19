@@ -2,6 +2,7 @@
 title: Org Support Relationships table
 description: The form associated with a record in the Org Support Relationships table enables you to create a relationship between an organizational leader and an organizational supporter. After the relationship is established, supporters can use Leader Hub to view their designated leader's organization and provide support accordingly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/td-lh-orgsupportrel-form.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -22,5 +23,5 @@ The form that appears when you create a record in the Org Support Relationships 
 |**Leader**|Select an organizational leader from the list of users in your organization.|
 |**Supporter**|Select an organizational supporter from the list of users in your organization.|
 
-**Parent Topic:**[Leader Hub reference](../concept/td-lh-reference.md)
+**Parent Topic:**[Leader Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/td-lh-reference.md)
 

@@ -2,6 +2,7 @@
 title: Workday configuration for spend authorization report
 description: Retrieve the Spend Authorization event data based on time duration by creating the spend authorization report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/wdhr-spend-auth-rep.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
@@ -33,15 +34,15 @@ Create all calculated fields so that these fields can be used while developing r
 -   Calculated field 1:
     -   Create Aggregate Related Instances type calculated field named **CF\_Comment\_By\_Employee\_ID**.
 
-        ![Configuring “CF_Comment_By_Employee_ID” calculated field for Action Event, showing Comment as source and Comment by Person as aggregate field.](../image/wdhr-spend-auth-rep-1.png)
+        \[Omitted image "wdhr-spend-auth-rep-1.png"\] Alt text: Configuring “CF\_Comment\_By\_Employee\_ID” calculated field for Action Event, showing Comment as source and Comment by Person as aggregate field.
 
     -   Create Aggregate Related Instances type calculated field named **CF\_Comment\_by\_worker** and use **CF\_Comment\_By\_Employee\_ID** in source field.
 
-        ![Setting up “CF_Comment_by_worker” calculated field using “CF_Comment_By_Employee_ID” as source and Workers as aggregate field.](../image/wdhr-spend-auth-rep-2.png)
+        \[Omitted image "wdhr-spend-auth-rep-2.png"\] Alt text: Setting up “CF\_Comment\_by\_worker” calculated field using “CF\_Comment\_By\_Employee\_ID” as source and Workers as aggregate field.
 
 -   Calculated field 2: Create Lookup Related Value type calculated field named **CF\_Last\_Functionally\_updated**.
 
-    ![Configuring lookup calculated field “CF_Last_Functionally_updated” for Spend Authorization, selecting Action Event and Last Functionally Updated as return value.](../image/wdhr-spend-auth-rep-3.png)
+    \[Omitted image "wdhr-spend-auth-rep-3.png"\] Alt text: Configuring lookup calculated field “CF\_Last\_Functionally\_updated” for Spend Authorization, selecting Action Event and Last Functionally Updated as return value.
 
 
 ## Procedure
@@ -60,23 +61,23 @@ Create all calculated fields so that these fields can be used while developing r
 
 7.  Leave the **Temporary report** option unchecked and click **OK**.
 
-    ![Create Custom Report screen with report name, type, data source, and business object fields for spend authorization report setup.](../image/wdhr-spend-auth-rep-4.png)
+    \[Omitted image "wdhr-spend-auth-rep-4.png"\] Alt text: Create Custom Report screen with report name, type, data source, and business object fields for spend authorization report setup.
 
 8.  Select the report business object and report fields.
 
-    ![Columns tab showing selected business objects, fields, column heading overrides, and formats for spend authorization event report.](../image/wdhr-spend-auth-rep-5.png)![Additional report columns for Spend Authorization Line, including justification, transaction memo, reimbursement type, expense item, quantity, and unit cost.](../image/wdhr-spend-auth-rep-6.png)![Report columns for Comments and Attachments, including comment fields, employee ID, Workday ID, content type, and uploaded by.](../image/wdhr-spend-auth-rep-7.png)![Report columns for Attachments for Business Document, showing attachment content field.](../image/wdhr-spend-auth-rep-8.png)
+    \[Omitted image "wdhr-spend-auth-rep-5.png"\] Alt text: Columns tab showing selected business objects, fields, column heading overrides, and formats for spend authorization event report.\[Omitted image "wdhr-spend-auth-rep-6.png"\] Alt text: Additional report columns for Spend Authorization Line, including justification, transaction memo, reimbursement type, expense item, quantity, and unit cost.\[Omitted image "wdhr-spend-auth-rep-7.png"\] Alt text: Report columns for Comments and Attachments, including comment fields, employee ID, Workday ID, content type, and uploaded by.\[Omitted image "wdhr-spend-auth-rep-8.png"\] Alt text: Report columns for Attachments for Business Document, showing attachment content field.
 
 9.  In **Group Column Heading** section, select all business object as below.
 
-    **Group Column Heading** for each business object will be blank. ![Group Column Headings section with business objects and blank group column headings for the report.](../image/wdhr-spend-auth-rep-9.png)
+    **Group Column Heading** for each business object will be blank. \[Omitted image "wdhr-spend-auth-rep-9.png"\] Alt text: Group Column Headings section with business objects and blank group column headings for the report.
 
 10. In **Filter** section, select the value as given below.
 
-    Ensure to add parenthesis. ![Filter section for report instances, showing conditions for Last Functionally Updated field with starting and ending prompt values.](../image/wdhr-spend-auth-rep-10.png)
+    Ensure to add parenthesis. \[Omitted image "wdhr-spend-auth-rep-10.png"\] Alt text: Filter section for report instances, showing conditions for Last Functionally Updated field with starting and ending prompt values.
 
 11. In **Prompts** section, select the **Populate Undefined Prompt Defaults** option.
 
-    ![Prompts section with instructions, “populate undefined prompt defaults” checkbox, and display prompt values in results option.](../image/wdhr-spend-auth-rep-11.png)
+    \[Omitted image "wdhr-spend-auth-rep-11.png"\] Alt text: Prompts section with instructions, “populate undefined prompt defaults” checkbox, and display prompt values in results option.
 
 12. Select the value of prompts as given below under Prompt default section.
 
@@ -84,23 +85,23 @@ Create all calculated fields so that these fields can be used while developing r
 
     **Note:** Select all companies if you want to see all events instead of any specific company related events.
 
-    ![Prompt Defaults section listing prompt qualifiers, XML aliases, default types, default values, and required status for each prompt field.](../image/wdhr-spend-auth-rep-12.png)
+    \[Omitted image "wdhr-spend-auth-rep-12.png"\] Alt text: Prompt Defaults section listing prompt qualifiers, XML aliases, default types, default values, and required status for each prompt field.
 
 13. In **Advanced** section, select **Enable as webservice** option and click **OK**.
 
 14. Click on three dots icon and navigate to **Web Services** &gt; **View URLs** option once report configuration is done.
 
-    ![Advanced section with “enable as webservice” checkbox selected and View URLs option highlighted for report web service URLs.](../image/wdhr-spend-auth-rep-13.png)
+    \[Omitted image "wdhr-spend-auth-rep-13.png"\] Alt text: Advanced section with “enable as webservice” checkbox selected and View URLs option highlighted for report web service URLs.
 
 15. Select time range in **Start Date** and **End Date** parameter, and click **OK**.
 
-    ![View URLs Web Service page showing fields for start date and end date parameters for generating report URL.](../image/wdhr-spend-auth-rep-14.png)
+    \[Omitted image "wdhr-spend-auth-rep-14.png"\] Alt text: View URLs Web Service page showing fields for start date and end date parameters for generating report URL.
 
 16. In View URLs Web Service page, click the marked icon under the **CSV** section.
 
-    A new browser tab is opened.![CSV section in View URLs Web Service page, highlighting CSV link for exporting report data.](../image/wdhr-spend-auth-rep-15.png)
+    A new browser tab is opened.\[Omitted image "wdhr-spend-auth-rep-15.png"\] Alt text: CSV section in View URLs Web Service page, highlighting CSV link for exporting report data.
 
-    The RaaS URL of the report is displayed in new browser tab and you can obtain these details from the link.![Browser tab with generated RaaS URL for spend authorization report, showing Workday tenant base URL and report parameters.](../image/wdhr-spend-auth-rep-16.png)
+    The RaaS URL of the report is displayed in new browser tab and you can obtain these details from the link.\[Omitted image "wdhr-spend-auth-rep-16.png"\] Alt text: Browser tab with generated RaaS URL for spend authorization report, showing Workday tenant base URL and report parameters.
 
     -   `https://wd2-impl-services1.workday.com` is the base URL of customer's workday tenant.
     -   **Tenant\_Name** is the customer's workday tenant.

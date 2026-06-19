@@ -2,6 +2,7 @@
 title: Initiate a chat from Sidebar in Parallel Review and Feedback
 description: Initiate a Sidebar chat to collaborate among different stakeholders to brainstorm solutions, clarify details, or coordinate actions regarding the feedback received.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/initiate-chat-sidebar-review-and-feedback.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -23,7 +24,7 @@ Role required: sn\_rvw\_feedback.reader
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Select the list ![list icon.](../../grc-workspace-audit/image/ListsIcon.jpg) icon.
+2.  Select the list \[Omitted image "ListsIcon.jpg"\] Alt text: list icon. icon.
 
 3.  From the list, navigate to **Parallel Review and Feedback** and select **Feedback**.
 
@@ -35,11 +36,11 @@ Role required: sn\_rvw\_feedback.reader
 
 6.  To initiate Sidebar discussion from the record side-panel, open the record that you want to discuss and do the following:
 
-    1.  In the side-panel, select the list ![side panel list icon.](../image/side-panel-list-icon.jpg) icon.
+    1.  In the side-panel, select the list \[Omitted image "side-panel-list-icon.jpg"\] Alt text: side panel list icon. icon.
 
     2.  Select the feedback.
 
-    3.  Select the More actions ![More actions icon.](../../grc-compliance-case-mgmt/image/more-actions-vertical-icon.png) icon on the feedback, and select **Discuss**.
+    3.  Select the More actions \[Omitted image "more-actions-vertical-icon.png"\] Alt text: More actions icon. icon on the feedback, and select **Discuss**.
 
 7.  In the Start a Sidebar discussion dialog box, fill in the fields as appropriate.
 
@@ -79,5 +80,5 @@ Brief summary about the feedback to be discussed in the sidebar discussion.
 </table>8.  Select **Start discussion**.
 
 
-**Parent Topic:**[Parallel Review and Feedback in Advanced Risk](../concept/integrate-advanced-risk-with-parallel-review-feedback.md)
+**Parent Topic:**[Parallel Review and Feedback in Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/integrate-advanced-risk-with-parallel-review-feedback.md)
 

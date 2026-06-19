@@ -2,6 +2,7 @@
 title: Clone a policy for Security Posture Control \(example\)
 description: An example of how to create a policy that copies the conditions from another policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/spc-clone-policy-example.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"

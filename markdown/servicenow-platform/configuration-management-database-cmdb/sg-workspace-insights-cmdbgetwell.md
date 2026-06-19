@@ -2,6 +2,7 @@
 title: CMDB Data Foundation insights dashboard in Service Graph Workspace
 description: Access the CMDB Data Foundation insights dashboard in Service Graph Workspace to monitor foundational key health-related metrics in CMDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-cmdbgetwell.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -25,6 +26,6 @@ Role required: sn\_cmdb\_admin, asset, or itil\_admin
 
 For additional information, see:
 
--   [Monitor health in CSDM and CMDB Data Foundations Dashboards](csdm-cmdb-foundations-dashboards.md).
--   [CMDB Data Foundations dashboard](cmdb-data-foundations-dashboard.md).
+-   [Monitor health in CSDM and CMDB Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md).
+-   [CMDB Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-data-foundations-dashboard.md).
 

@@ -2,6 +2,7 @@
 title: Activity conditions
 description: Create the exit conditions for your activity in the Condition column and set the order for each..
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/orchestration/conditions.html
 release: zurich
 product: Orchestration
 classification: orchestration
@@ -25,7 +26,7 @@ The following are possible conditions you might create for an activity:
 |Retry|Tests for a condition that runs the activity again. **Else** is set to **false**. If this condition is true, the activity runs again. If this condition is false, the system takes the default **Failure** exit.|
 |Failure|Default condition that allows the workflow to continue if the other conditions in the activity are false. **Else** is set to **true**.|
 
-![Sample activity conditions](../image/CustomActivityConditions.png)
+\[Omitted image "CustomActivityConditions.png"\] Alt text: Sample activity conditions
 
-**Parent Topic:**[Create custom activities using custom activity designer templates](../task/create-custom-activities.md)
+**Parent Topic:**[Create custom activities using custom activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/create-custom-activities.md)
 

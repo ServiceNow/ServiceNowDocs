@@ -2,7 +2,10 @@
 title: Template Management for Field Service components
 description: Several types of components are installed with the Template Management for Field Service feature, including tables, script includes, and business rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/template-management-components.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -74,5 +77,5 @@ Restrict table map for model
 Prevents the user from creating a duplicate record of table mapping to the work order template.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](components-inst-additional-plugin.md)
+</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/components-inst-additional-plugin.md)
 

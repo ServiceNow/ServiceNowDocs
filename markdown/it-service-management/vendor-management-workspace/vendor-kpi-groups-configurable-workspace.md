@@ -2,6 +2,7 @@
 title: Vendor KPI Groups in Vendor Management Workspace
 description: Learn how you can organize your vendors into vendor KPI groups. You can then define Key Performance Indicators \(KPI\) to analyze the performance of all vendors within that vendor KPI group. Drill down into the metrics for a vendor, KPI or the KPI group—all from a central location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/vendor-management-workspace/vendor-kpi-groups-configurable-workspace.html
 release: zurich
 product: Vendor Management Workspace
 classification: vendor-management-workspace

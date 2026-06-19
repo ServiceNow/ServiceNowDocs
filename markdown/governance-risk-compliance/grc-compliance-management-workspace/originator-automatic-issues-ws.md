@@ -2,6 +2,7 @@
 title: Linking automatically generated issues to a control in many-to-many relationship
 description: You can link an automatically generated issue that belongs to a different control as a related issue to a control. The Originator flag helps you to differentiate those control issues that were automatically generated from the controls that were manually created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/originator-automatic-issues-ws.html
 release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -19,7 +20,7 @@ You can link an automatically generated issue that belongs to a different contro
 
 **Note:** You can identify the origin of an issue whether it was automatically generated or manually created after you link the issue from one control to another only in a control form.
 
-You can create an issue manually for a control when you click the **New** button in the Issues related list of a Control form. For manually created issues, see [Manually create GRC issues](../task/manually-create-issues-ws.md).
+You can create an issue manually for a control when you click the **New** button in the Issues related list of a Control form. For manually created issues, see [Manually create GRC issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/manually-create-issues-ws.md).
 
 However, issues are also automatically generated when there are:
 
@@ -40,7 +41,7 @@ The source of the issue generation for one or more of the three failures can be 
 
 When a control's status moves to non-complaint, all the reasons for non-compliancy are pulled from the **Issue source** field and displayed as **Reasons for non-compliance** in the Status widget of the control's Overview page.
 
-![List of reasons for a control's non-compliance.](../image/ReasonsforNonComp.png "Reasons for non-compliance")
+\[Omitted image "ReasonsforNonComp.png"\] Alt text: List of reasons for a control's non-compliance.
 
 ## Handling more than one automatically generated issue while linking to a control
 

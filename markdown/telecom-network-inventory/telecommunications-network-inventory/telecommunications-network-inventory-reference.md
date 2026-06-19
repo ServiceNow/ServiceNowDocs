@@ -2,6 +2,7 @@
 title: Telecommunications Network Inventory reference
 description: Reference topics provide additional information about Telecommunications Network Inventory.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -15,142 +16,142 @@ breadcrumb: [Telecommunications Network Inventory]
 
 Reference topics provide additional information about Telecommunications Network Inventory.
 
--   **[Add or Remove member to Link Aggregation form](../reference/add-remove-member-link-aggregation-form.md)**  
+-   **[Add or Remove member to Link Aggregation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/add-remove-member-link-aggregation-form.md)**  
 The Add/Remove member to Link Aggregation form enables you to create, review, and modify the network asset details for Link Aggregation Group \(LAG\) connection in the Telecommunications Network Inventory application.
--   **[Assign connection element form](../reference/assign-connection-element.md)**  
+-   **[Assign connection element form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/assign-connection-element.md)**  
 The Assign Connection Element form lets you define the connection element for an event by selecting its type, model, sites, equipment, and routing details.
--   **[Attribute form](../reference/attribute-form.md)**  
+-   **[Attribute form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/attribute-form.md)**  
 The Attribute Form allows you to define key details for a logical connection, including its name, life cycle stage, and current status.
--   **[Cable form](../reference/cable-form.md)**  
+-   **[Cable form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/cable-form.md)**  
 The Cable form enables you to describe the details for an optical fiber cable record.
--   **[Cable model form](../reference/cable-model-form.md)**  
+-   **[Cable model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/cable-model-form.md)**  
 The Cable Model form enables you to describe the details for an optical fiber cable model record.
--   **[Capacity Definition form](../reference/capacity-definition-form.md)**  
+-   **[Capacity Definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/capacity-definition-form.md)**  
 The Capacity Definition form enables you to describe the details for a capacity definition record.
--   **[Capacity function additional fields](../reference/capacity-function-additional-fields.md)**  
+-   **[Capacity function additional fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/capacity-function-additional-fields.md)**  
 Depending on the option that you selected in the Strategy field, the following fields appear in the capacity function form.
--   **[Capacity Function form](../reference/capacity-function-form.md)**  
+-   **[Capacity Function form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/capacity-function-form.md)**  
 The Capacity Function form enables you to describe the details for a capacity function record.
--   **[Card form](../reference/tni-interface-card-form.md)**  
+-   **[Card form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/tni-interface-card-form.md)**  
 The Card form enables you create, review, and modify the network card details.
--   **[Change request and change task forms](change_request_forms.md)**  
+-   **[Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md)**  
 The change request forms enable you to request a change.
--   **[Change request related tabs](../reference/tni-change-request-related-tabs.md)**  
+-   **[Change request related tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/tni-change-request-related-tabs.md)**  
 The related tabs in the Change Request form display related records that dynamically change based on the context of the change request.
--   **[Commonly used network asset instance identification fields](../reference/commonly-used-tni-identification-fields.md)**  
+-   **[Commonly used network asset instance identification fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/commonly-used-tni-identification-fields.md)**  
 Some network asset instance fields are common in the identification sections of the Telecommunications Network Inventory forms. The ServiceNow AI Platform uses these fields to identify and categorize your network inventory assets.
--   **[Commonly used network asset instance configuration fields](../reference/commonly-used-tni-configuration-fields.md)**  
+-   **[Commonly used network asset instance configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/commonly-used-tni-configuration-fields.md)**  
 These fields, listed in alphabetic order, are common to some or most of the Configuration sections in the Telecommunications Network Inventory forms. The ServiceNow AI Platform uses them to configure individual network assets when you define your network asset instances.
--   **[Company form](../reference/tni-company-form.md)**  
+-   **[Company form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/tni-company-form.md)**  
 The Company form enables you to review, create, and modify the company details for a company code.
--   **[Connection Element form](../reference/connection-element-form.md)**  
+-   **[Connection Element form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/connection-element-form.md)**  
 The Connection Element form enables you to define the connection elements for the physical connections and logical connections in the Telecommunications Network Inventory application. You can create, review, update, and delete the elements in this form.
--   **[Create equipment from rack view](../reference/create-equipment-from-rack-view.md)**  
+-   **[Create equipment from rack view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-equipment-from-rack-view.md)**  
 The Create new equipment form enables you to create an equipment from the selected rack using the Telecommunications Network Inventory application.
--   **[Create Logical Connection form](../reference/create-logical-connection-form.md)**  
+-   **[Create Logical Connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-logical-connection-form.md)**  
 The Create Logical Connection form enables you to review, create, and modify the connection details for a logical connection change request.
--   **[Create Physical Connection form](../reference/create-physical-connection-form.md)**  
+-   **[Create Physical Connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-physical-connection-form.md)**  
 The Create Physical Connection form enables you to review, create, and modify the connection details for a physical connection change request.
--   **[Data center place types](../reference/place-types-floor-map.md)**  
+-   **[Data center place types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/place-types-floor-map.md)**  
 Place types are used to categorize the different places on your map. You can use place type to categorize your network assets and facilities on your map in the Telecommunications Network Inventory application.
--   **[Default Template forms](../reference/default-template-forms.md)**  
+-   **[Default Template forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/default-template-forms.md)**  
 The Default Template form enables you to create, review and modify a default template and schedule generation of a template.
--   **[Equipment form](../reference/equipment-form.md)**  
+-   **[Equipment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/equipment-form.md)**  
 The Create new equipment form enables you to describe the details for an equipment record.
--   **[Equipment Holder form](../reference/tni-equipment-holder-form-configuration.md)**  
+-   **[Equipment Holder form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/tni-equipment-holder-form-configuration.md)**  
 The Equipment Holder form enables you to create, review, and modify the network asset details for an equipment holder.
--   **[Equipment holder extension classes](../reference/equipment-holder-types.md)**  
+-   **[Equipment holder extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/equipment-holder-types.md)**  
 The Equipment Holder extension classes are the sub-classes that are extended from the Equipment Holder. You can define equipment holder records for these classes in the Telecommunications Network Inventory application.
--   **[Equipment extension classes](../reference/equipment-extension-classes.md)**  
+-   **[Equipment extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/equipment-extension-classes.md)**  
 The Equipment extension classes are the subclasses that are extended from the telco equipment, network gear, and hardware tables. You can define equipment records for these classes in the Telecommunications Network Inventory application.
--   **[Equipment task attribute form](../reference/equipment-task-attribute-form.md)**  
+-   **[Equipment task attribute form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/equipment-task-attribute-form.md)**  
 The equipment task attribute form enables you to describe the details for an equipment record.
--   **[GPON Broadband Form](../reference/gpon-broadband-record-producer-form.md)**  
+-   **[GPON Broadband Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-record-producer-form.md)**  
 The GPON Broadband form captures the service and network configuration details required to provision a GPON broadband services.
--   **[GPON broadband modification form](../reference/gpon-broadband-modification-form.md)**  
+-   **[GPON broadband modification form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-modification-form.md)**  
 The GPON Broadband form captures the service and network configuration details required to modify a GPON broadband services.
--   **[GPON Broadband Change model forms](../reference/gpon-broadband-change-model-forms.md)**  
+-   **[GPON Broadband Change model forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-change-model-forms.md)**  
 The GPON Broadband Change model forms enables you to create, review, and modify the connection details of the physical connection, and the compute and create logical connection.
--   **[Inventory Model forms](../reference/tni-model-forms.md)**  
+-   **[Inventory Model forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/tni-model-forms.md)**  
 The Inventory Model forms enable you to create, review, and modify the model details for equipment holders, equipment, interface cards, logical connections, physical connections, network interfaces, and network model relationships.
--   **[Inventory models additional tabs](../reference/additional-tabs-of-inventory-models.md)**  
+-   **[Inventory models additional tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/additional-tabs-of-inventory-models.md)**  
 The additional tabs of the inventory models appear after a model is created. These tabs display all the related information of a model. You can always view, update, save, and delete the information as required.
--   **[Inventory number allocation fields](../reference/inventory-number-allocation-fields.md)**  
+-   **[Inventory number allocation fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/inventory-number-allocation-fields.md)**  
 The inventory number allocation fields enables you to describe the details for LAG, VLAN, IP address, and telephone number records.
--   **[Inventory Numbers form](../reference/inventory-numbers-form.md)**  
+-   **[Inventory Numbers form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/inventory-numbers-form.md)**  
 The Inventory Numbers form enables you to create, review, and modify the inventory details for a network inventory.
--   **[IP address inventory management data model](../reference/data_model_of_ip_address_inventory_management.md)**  
+-   **[IP address inventory management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/data_model_of_ip_address_inventory_management.md)**  
 By using the IP address inventory management data model, you can understand how the tables that are used for the IP pools, IP subnetworks, allocated IP addresses, and IP addresses all relate to each other.
--   **[Location forms](../reference/tni-location-forms.md#)**  
+-   **[Location forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/tni-location-forms.md)**  
 The Location forms enable you to create locations hierarchy to track and manage your network assets.
--   **[Logical Connection form](../reference/tni-logical-connection-forms.md#)**  
+-   **[Logical Connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/tni-logical-connection-forms.md)**  
 The Logical Connection form enables you to define a logical connection by describing its configuration and connection details.
--   **[Logical connection modification request form](../reference/logical-connection-modification-request-form.md)**  
+-   **[Logical connection modification request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/logical-connection-modification-request-form.md)**  
 The Logical connection modification request form enables you to modify endpoints of a logical connection record in the Telecommunications Network Inventory application.
--   **[Managed Network form](../reference/managed_network_form.md)**  
+-   **[Managed Network form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/managed_network_form.md)**  
 The Managed network form enables you to manage a network in the Telecommunications Network Inventory application.
--   **[Naming convention for associated templates](../reference/name-convention-templates.md)**  
+-   **[Naming convention for associated templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/name-convention-templates.md)**  
 Learn about the details of the naming convention for the associated templates that are automatically generated when you create an equipment or interface card template.
--   **[Network inventory change request form](../reference/tni-change-request-field.md)**  
+-   **[Network inventory change request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/tni-change-request-field.md)**  
 The Change Request form enables you to create and modify the change activities for the Telecom Inventory change models in the Design and Assign function.
--   **[Network inventory facility classes](../reference/network-inventory-facility-classes.md)**  
+-   **[Network inventory facility classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/network-inventory-facility-classes.md)**  
 The facility classes are used to represent power, HVAC, network, and their connectivity in a data center. You can define facility hardware records for these classes in the Telecommunications Network Inventory application.
--   **[Network Interface Model form - Information tab](../reference/network-interface-model-form-information-tab.md)**  
+-   **[Network Interface Model form - Information tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/network-interface-model-form-information-tab.md)**  
 The information section in the model form enables you to create, review, and modify the details of a model.
--   **[Network Model Relationship fields](../reference/tni-network-model-relationship-form.md)**  
+-   **[Network Model Relationship fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/tni-network-model-relationship-form.md)**  
 The Network Model Relationship form enables you to create a network model relationship.
--   **[Network site form](../reference/tni-network-site-form.md)**  
+-   **[Network site form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/tni-network-site-form.md)**  
 The Network Site form enables you to define a network site where you house network equipment.
--   **[Network topology form](../reference/network-topology-form.md)**  
+-   **[Network topology form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/network-topology-form.md)**  
 The Network Topology form enables you to create, and review the topology details of a network.
--   **[Pack tables](../reference/pack_tables.md)**  
+-   **[Pack tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/pack_tables.md)**  
 Use pack tables to learn about the tables that help to model your 5G network.
--   **[Path computation error messages](../reference/path-computation-error.md)**  
+-   **[Path computation error messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/path-computation-error.md)**  
 Path computation error messages enable you to understand the error messages that occur during the path computation.
--   **[Physical Connection form](../reference/physical-connection-forms.md)**  
+-   **[Physical Connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/physical-connection-forms.md)**  
 The Physical Connection form enables you to define a physical connection by describing its configuration and connection details.
--   **[Physical connection modification request form](../reference/physical-connection-modification-request-form.md)**  
+-   **[Physical connection modification request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/physical-connection-modification-request-form.md)**  
 The Physical connection modification request form enables you to modify endpoints of a physical connection record in the Telecommunications Network Inventory application.
--   **[Power circuit form](../reference/power-circuit-form.md)**  
+-   **[Power circuit form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/power-circuit-form.md)**  
 The Power Circuit form enables you to describe the details for an power circuit record.
--   **[Provision LAG form](../reference/provision-lag-form.md)**  
+-   **[Provision LAG form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/provision-lag-form.md)**  
 The Provision LAG form enables you to create, review, and modify the network asset details for Link Aggregation Group \(LAG\) connection in the Telecommunications Network Inventory application.
--   **[Related tabs in the network inventory forms](../reference/inventory-related-tab.md)**  
+-   **[Related tabs in the network inventory forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/inventory-related-tab.md)**  
 The related tabs in the Network Inventory forms display the related records that dynamically change based on the connection and relationships with the other network assets. You can selectively view, modify, or update these records.
--   **[Related templates form](../reference/related-templates-form.md)**  
+-   **[Related templates form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/related-templates-form.md)**  
 The Related templates form enables you to understand all fields of the related templates tab for slots, equipment, and shelves.
--   **[Router, Switch, Firewall, Virtual Machine, Load Balancer, and Server forms](../reference/router-form.md)**  
+-   **[Router, Switch, Firewall, Virtual Machine, Load Balancer, and Server forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/router-form.md)**  
 The equipment form enables you to create, review, and modify the network asset details in the Telecommunications Network Inventory application for the router, switch, firewall, virtual machine, load balancer, or server.
--   **[Service Instance form](../reference/application-service-instance-form.md)**  
+-   **[Service Instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/application-service-instance-form.md)**  
 The Service Instance form enables you to create, review, and modify the details of an application service.
--   **[Strand form](../reference/strand-form.md)**  
+-   **[Strand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/strand-form.md)**  
 The Strand form enables you to describe the details for a strand in the cable.
--   **[Strand model form](../reference/strand-model-form.md)**  
+-   **[Strand model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/strand-model-form.md)**  
 The Strand Model form enables you to describe the details for a strand model record.
--   **[Task attributes in Add Card form](../reference/task-attributes-add-card-form.md)**  
+-   **[Task attributes in Add Card form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/task-attributes-add-card-form.md)**  
 The Task attributes in Add Card form enables you to add a card to an equipment record in the Telecommunications Network Inventory application.
--   **[Task attributes in Add Equipment to Rack or Cabinet form](../reference/task-attributes-add-equipment-rack-cabinet-form.md)**  
+-   **[Task attributes in Add Equipment to Rack or Cabinet form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/task-attributes-add-equipment-rack-cabinet-form.md)**  
 The Task attributes in Add Equipment to Rack/Cabinet form enables you to add a card to an equipment record in the Telecommunications Network Inventory application.
--   **[Task attributes in Create logical connection form](../reference/task-attributes-create-logical-connection-form.md)**  
+-   **[Task attributes in Create logical connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/task-attributes-create-logical-connection-form.md)**  
 The Task attributes in Create logical connection form enables you to create a logical connection between network interfaces in the Telecommunications Network Inventory application.
--   **[Task attributes in Create physical connection form](../reference/task-attributes-create-physical-connection-form.md)**  
+-   **[Task attributes in Create physical connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/task-attributes-create-physical-connection-form.md)**  
 The Task attributes in Create physical connection form enables you to create a logical connection between network interfaces in the Telecommunications Network Inventory application.
--   **[Task attributes in Topology form](../reference/task-attributes-topology-form.md)**  
+-   **[Task attributes in Topology form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/task-attributes-topology-form.md)**  
 The Task attributes in Topology form enables you to design and assign a topology record in the Telecommunications Network Inventory application.
--   **[Task Attribute in Manage Phone Number Form](../reference/task-attribute-in-manage-phone-number-form.md)**  
+-   **[Task Attribute in Manage Phone Number Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/task-attribute-in-manage-phone-number-form.md)**  
 The Task attributes in Manage Phone Number Form form enables you to design and assign a phone number in the Telecommunications Network Inventory application.
--   **[Telco Equipment form](../reference/tni-equipment-form-configuration.md)**  
+-   **[Telco Equipment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/tni-equipment-form-configuration.md)**  
 The Telco Equipment form enables you to create, review, and modify the network asset details for a piece of equipment.
--   **[Telecommunications Network Inventory function catalog](tni-flow-action.md)**  
+-   **[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)**  
 By using the Telecommunications Network Inventory function catalog, you can access the functions that help you to automate the network inventory's Design and Assign process.
--   **[Telecommunications Network Inventory subflows](subflow.md)**  
+-   **[Telecommunications Network Inventory subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/subflow.md)**  
 You can use Workflow Studio subflows in the Telecommunications Network Inventory application to automate the network inventory's Design and Assign process.
--   **[Telephone number inventory management data model](../reference/data_model_of_telephone_number_inventory_management.md)**  
+-   **[Telephone number inventory management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/data_model_of_telephone_number_inventory_management.md)**  
 By using the telephone number inventory management data model, you can understand how the tables of a telephone block, telephone number allocation, and telephone number relate to each other.
--   **[Time series metrics for datacenter](../reference/time-series-metrics.md)**  
+-   **[Time series metrics for datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/time-series-metrics.md)**  
 Use time series metrics to calculate the operational details of network assets in the Telecommunications Network Inventory application.
--   **[TNI CI Attributes form](../reference/ci-attribue-form.md)**  
+-   **[TNI CI Attributes form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/ci-attribue-form.md)**  
 The TNI CI Attributes form enables you to create the Telecommunications Network Inventory attribute details for a network inventory in the Telecommunications Network Inventory application.
 
-**Parent Topic:**[Telecommunications Network Inventory](telecom-network-inventory.md)
+**Parent Topic:**[Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/telecom-network-inventory.md)
 

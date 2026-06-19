@@ -2,6 +2,7 @@
 title: Actionable notifications for incidents in ITSM Virtual Agent
 description: Notify employees of pending tasks and incident alerts with notifications from ITSM Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-virtual-agent/itsm-actionable-notification-flows.html
 release: zurich
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -15,7 +16,7 @@ breadcrumb: [Pre-built actionable notifications, ITSM Virtual Agent, IT Service 
 
 Notify employees of pending tasks and incident alerts with notifications from ITSM Virtual Agent.
 
-You must activate notifications in Workflow Studio in order to use them. For details, see [Set up actionable notifications for ITSM Virtual Agent](../task/setup-actionable-notifications.md).
+You must activate notifications in Workflow Studio in order to use them. For details, see [Set up actionable notifications for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-virtual-agent/setup-actionable-notifications.md).
 
 ## Incident commented
 
@@ -25,7 +26,7 @@ If the end user selects **View Comments**, Virtual Agent displays the three most
 
 After viewing the most recent comments, the end user can choose to add their own comments and images.
 
-![Actionable notification for Incident commented.](../image/NewComment2.png)
+\[Omitted image "NewComment2.png"\] Alt text: Actionable notification for Incident commented.
 
 ## Incident on behalf of caller
 
@@ -35,7 +36,7 @@ If the end user selects **Add Comment**, Virtual Agent provides a URL to the inc
 
 If the end user selects **Resolve Incident**, Virtual Agent resolves the incident and provides the incident URL.
 
-![Incident on behalf of caller actionable notification.](../image/IncidentOpen1.png)
+\[Omitted image "IncidentOpen1.png"\] Alt text: Incident on behalf of caller actionable notification.
 
 ## Incident resolved
 
@@ -45,7 +46,7 @@ If the end user chooses to mark the incident unresolved, Virtual Agent offers to
 
 If the end user chooses to close the incident, Virtual Agent closes the incident and provides the incident URL.
 
-![Actionable notification for incident resolved.](../image/ResolveIncident1.png)
+\[Omitted image "ResolveIncident1.png"\] Alt text: Actionable notification for incident resolved.
 
 ## Incident Update
 
@@ -59,7 +60,7 @@ If the end user chooses to view the article, Virtual Agent displays a snippet an
 
 The end user can also give feedback and add comments to the incident​.
 
-![Knowledge Base article attached to incident notification.](../image/KB3.png)
+\[Omitted image "KB3.png"\] Alt text: Knowledge Base article attached to incident notification.
 
-**Parent Topic:**[ITSM Virtual Agent pre-built actionable notifications](../concept/itsm-actionable-notifications.md)
+**Parent Topic:**[ITSM Virtual Agent pre-built actionable notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-virtual-agent/itsm-actionable-notifications.md)
 

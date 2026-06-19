@@ -2,6 +2,7 @@
 title: Employee Profile Header Configuration form
 description: Use the Employee Profile Header Configuration form to create a header for a profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/profile-header-config-form.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,7 +18,7 @@ Use the Employee Profile Header Configuration form to create a header for a prof
 
 |Field|Description|
 |-----|-----------|
-|Name|Default name or any other name. For more information, see [Configure Employee Profile for a portal](../task/create-portal-profile-config.md).|
+|Name|Default name or any other name. For more information, see [Configure Employee Profile for a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/create-portal-profile-config.md).|
 |Show Pronouns|Option to display user pronouns.|
 |Edit Images|Option to enable employees to edit the avatar and background image.|
 |Disable Links|Option to disable links in the header.|

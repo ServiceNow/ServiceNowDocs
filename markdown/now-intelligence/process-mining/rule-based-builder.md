@@ -2,6 +2,7 @@
 title: Set rule-based improvement opportunity
 description: Rule-based finding definition is a custom rule that displays improvement opportunities for a use case on the Summary and insights page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/rule-based-builder.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -27,19 +28,19 @@ For example, you can set up a rule to display records that took more than 7 days
 
 1.  Navigate to Improvement opportunity definition page.
 
-    For information about Improvement opportunity definition page, see [Set improvement opportunities](improve-opportunities.md).
+    For information about Improvement opportunity definition page, see [Set improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/improve-opportunities.md).
 
 2.  Select **Create** on the Rule-based card.
 
 3.  Provide details in the **Define** section.
 
-    For details, see [Rule-based finding definition form from Finding Builder](../reference/finding-definition-form.md).
+    For details, see [Rule-based finding definition form from Finding Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/finding-definition-form.md).
 
 4.  Select **Configure**.
 
     The **Configure** tab is displayed.
 
-    ![Configure rule-based finding in Finding Builder](../image/rule-find-config-builder.png)
+    \[Omitted image "rule-find-config-builder.png"\] Alt text: Configure rule-based finding in Finding Builder
 
 5.  Fill the details on the form.
 
@@ -74,7 +75,7 @@ For example, you can set up a rule to display records that took more than 7 days
 
     8.  Select **Add constraint**, provide all details and select **Add constraint**.
 
-        ![Finding Definition constraint](../image/finding-constraint.png)
+        \[Omitted image "finding-constraint.png"\] Alt text: Finding Definition constraint
 
 <table id="table_gwq_33h_1cc"><thead><tr><th>
 
@@ -174,5 +175,5 @@ Field associated with the relation constraint type.
 </table>6.  Select **Save and exit**.
 
 
-**Parent Topic:**[Setting improvement opportunity from Project Builder](../concept/setting-impr-opp-proj-build.md)
+**Parent Topic:**[Setting improvement opportunity from Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/setting-impr-opp-proj-build.md)
 

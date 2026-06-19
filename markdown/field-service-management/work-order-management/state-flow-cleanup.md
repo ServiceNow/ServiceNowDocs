@@ -2,6 +2,7 @@
 title: State flow cleanup
 description: The business rules, client scripts, and UI actions that the system creates automatically to perform custom transitions exist only while the state flow records that use them are present.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/state-flow-cleanup.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

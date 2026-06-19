@@ -2,6 +2,7 @@
 title: Operational Technology Vulnerability Risk Rollup dashboard
 description: The Operational Technology \(OT\) Vulnerability Risk Rollup dashboard contains the risk score of the OT devices at each level of the equipment model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-workspace/ot-risk-rollup-dashboard.html
 release: zurich
 product: Industrial Workspace
 classification: industrial-workspace
@@ -35,7 +36,7 @@ To access the OT Vulnerability Risk Rollup dashboard, you must have the **sn\_ot
 
 You can use the **Site** filter to search for and select the site that you want to view on the dashboard. To access and use the site filter, you must have the **cmdb\_ot\_isa\_viewer** role with access to the site you want to view.
 
-For more information, see [Use the site filter](../../mftg-manufacturing-process-mgr/task/use-business-unit-and-site-filters.md).
+For more information, see [Use the site filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
-**Parent Topic:**[Using the Industrial Workspace](using-industrial-workspace.md)
+**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/using-industrial-workspace.md)
 

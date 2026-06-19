@@ -2,6 +2,7 @@
 title: Enable Self-Service online check-in for Walk-up Experience
 description: Show or hide the Walk-up Experience online Walk-up Check-in module under Self-Service in the application navigator. You can enable or disable the module using the basic platform menu or module enablement process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/walk-up-experience/enable-online-walkup-checkin.html
 release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -64,5 +65,5 @@ The Walk-up Experience online **Walk-up Check-in** module is disabled \(hidden\)
 11. Click **Update**.
 
 
-**Parent Topic:**[Configuring Walk-up Experience](../concept/walkup-experience-configuration.md)
+**Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walkup-experience-configuration.md)
 

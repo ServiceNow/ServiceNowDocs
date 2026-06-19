@@ -2,6 +2,7 @@
 title: View mentoring requests
 description: Track any mentoring requests you've sent or received from others.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/mentoring/view-mentoring-requests.html
 release: zurich
 product: Mentoring
 classification: mentoring
@@ -17,7 +18,7 @@ Track any mentoring requests you've sent or received from others.
 
 ## Before you begin
 
-Enroll as a mentee or a mentor. See [Enroll as a mentor or mentee](enroll-mentoring.md).
+Enroll as a mentee or a mentor. See [Enroll as a mentor or mentee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/mentoring/enroll-mentoring.md).
 
 Role required: none
 
@@ -27,15 +28,15 @@ Role required: none
 
 2.  In the **Mentoring requests** section, you can choose to view information from the following information.
 
-<table id="choicetable_r4r_sx1_d1c"><thead><tr><th align="left" id="d623701e88">
+<table id="choicetable_r4r_sx1_d1c"><thead><tr><th align="left" id="d595102e88">
 
 Option
 
-</th><th align="left" id="d623701e91">
+</th><th align="left" id="d595102e91">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d623701e97">
+</th></tr></thead><tbody><tr><td id="d595102e97">
 
 **Requests from others**
 
@@ -48,7 +49,7 @@ View a list of requests you have received from others. You can use the **Viewing
 -   All
 
 
-</td></tr><tr><td id="d623701e126">
+</td></tr><tr><td id="d595102e126">
 
 **Your requests**
 

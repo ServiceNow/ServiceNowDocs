@@ -2,6 +2,7 @@
 title: Producing and consuming messages from a Kafka client
 description: Learn how to produce and consume messages to Hermes from a Kafka client.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/multi-instance-framework-hermes/producing-consuming-hermes.html
 release: zurich
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -85,5 +86,5 @@ When using the `list` command to view a list of topics, a list of current topics
 
 When accessing the Hermes clusters using the CLI, internal topics appear in addition to any topics you've created. For details, see [KB1705399](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1705399).
 
-You can't delete a topic from both Kafka clusters using a single command in the command-line interface \(CLI\). However, you can delete the topic from both clusters by deleting the topic record in your instance. See [Delete a topic in Hermes](../task/delete-topic-hermes.md).
+You can't delete a topic from both Kafka clusters using a single command in the command-line interface \(CLI\). However, you can delete the topic from both clusters by deleting the topic record in your instance. See [Delete a topic in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/multi-instance-framework-hermes/delete-topic-hermes.md).
 

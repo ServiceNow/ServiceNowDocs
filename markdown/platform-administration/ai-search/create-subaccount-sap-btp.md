@@ -2,6 +2,7 @@
 title: Create a subaccount in the SAP Business Technology Platform \(BTP\)
 description: Create a subaccount with required entitlements in your SAP global account using the SAP BT cockpit. You need this subaccount in order to configure SAP access for the SAP DMS external content connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/create-subaccount-sap-btp.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -32,7 +33,7 @@ This task is optional. To configure the SAP DMS external content connector, you 
 -   Cloud Foundry Environment
 -   Authorization and Trust Management Service
 
-If your SAP BTP global account already includes a subaccount with these entitlements, you can skip this task and go on to configure your SAP BTP global account to allow access by the connector. For details on this procedure, see [Configure SAP DMS for external content indexing](configure-sap-dms-external-content-indexing.md).
+If your SAP BTP global account already includes a subaccount with these entitlements, you can skip this task and go on to configure your SAP BTP global account to allow access by the connector. For details on this procedure, see [Configure SAP DMS for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-sap-dms-external-content-indexing.md).
 
 ## Procedure
 
@@ -115,7 +116,7 @@ If your SAP BTP global account already includes a subaccount with these entitlem
 
 ## What to do next
 
-Now that you've created a subaccount with the required entitlements, go on to configure service instances and service keys in your SAP BTP global account. For details on this procedure, see [Configure SAP DMS for external content indexing](configure-sap-dms-external-content-indexing.md).
+Now that you've created a subaccount with the required entitlements, go on to configure service instances and service keys in your SAP BTP global account. For details on this procedure, see [Configure SAP DMS for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-sap-dms-external-content-indexing.md).
 
-**Parent Topic:**[SAP DMS external content connector](../concept/sap-dms-external-content-connector.md)
+**Parent Topic:**[SAP DMS external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/sap-dms-external-content-connector.md)
 

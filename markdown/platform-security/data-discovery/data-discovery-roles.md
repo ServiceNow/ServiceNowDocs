@@ -2,6 +2,7 @@
 title: Data Discovery roles
 description: You can assign Data Discovery roles to limit user access to certain data types.View, create, and modify, data patterns and related jobs.Read data patterns and target tables.Read data patterns, discovery jobs, and the data\_classification table when an enabled specific pattern finding is classified.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-discovery/data-discovery-roles.html
 release: zurich
 product: Data Discovery
 classification: data-discovery
@@ -116,5 +117,5 @@ None.
 
 ### Special considerations
 
-**Note:** For more information about the Data Classification admin role, see [Installing Data Classification plugin demo data](../task/install-data-classification-plugin-demo-data.md#).
+**Note:** For more information about the Data Classification admin role, see [Installing Data Classification plugin demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-classification/install-data-classification-plugin-demo-data.md).
 

@@ -2,6 +2,7 @@
 title: Working with On-Call Scheduling on mobile
 description: Manage on-call schedules on the go using ITOM Mobile Agent. As a manager, learn how to manage shifts, time-off requests, and scheduling gaps. As a responder, learn how to request time off, view who is on call, and see upcoming shifts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-reliability-management/itom-mobile-on-call-scheduling.html
 release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
@@ -19,19 +20,19 @@ ITOM Mobile Agent auto-integrates with ITSM Mobile Agent, letting you manage ale
 
 ## On-Call Scheduling for managers
 
--   [Manage gaps and conflicts with On-Call Scheduling](https://www.servicenow.com/docs/access?context=manage-gaps-and-conflict&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
--   [Manage time-off requests with On-Call Scheduling](https://www.servicenow.com/docs/access?context=time-off-request&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
--   [Manage upcoming shifts with On-Call Scheduling](https://www.servicenow.com/docs/access?context=manage-upcoming-shifts&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+-   
+-   
+-   
 
 ## On-Call Scheduling for responders
 
--   [Request time off with On-Call Scheduling](https://www.servicenow.com/docs/access?context=request-time-off&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
--   [View on-call group members](https://www.servicenow.com/docs/access?context=view-who-is-on-call&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
--   [View upcoming shifts with On-Call Scheduling](https://www.servicenow.com/docs/access?context=view-upcoming-shifts&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+-   
+-   
+-   
 
-**Parent Topic:**[Using ITOM Mobile Agent](../concept/use-itom-mobile.md)
+**Parent Topic:**[Using ITOM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/use-itom-mobile.md)
 
-**Previous topic:**[Managing incidents and major incidents on mobile](itom-mobile-incidents.md)
+**Previous topic:**[Managing incidents and major incidents on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/itom-mobile-incidents.md)
 
-**Next topic:**[Working with tasks on mobile](itom-mobile-tasks.md)
+**Next topic:**[Working with tasks on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/itom-mobile-tasks.md)
 

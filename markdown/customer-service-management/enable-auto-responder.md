@@ -2,7 +2,10 @@
 title: Enable Auto-Responder
 description: Enable the Auto-Responder feature to include content suggested for deflecting cases in email notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/enable-auto-responder.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ Enable the Auto-Responder feature to include content suggested for deflecting ca
 
 ## Before you begin
 
-Activate the Predictive Intelligence for Customer Service Management plugin \(com.snc.csm\_ml\). For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) and [Predictive Intelligence for CSM solution definitions](../concept/predictive-intelligence-for-csm.md).
+Activate the Predictive Intelligence for Customer Service Management plugin \(com.snc.csm\_ml\). For more information, see Activate a plugin and [Predictive Intelligence for CSM solution definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/predictive-intelligence-for-csm.md).
 
 Role required: admin
 

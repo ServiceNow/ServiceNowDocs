@@ -2,6 +2,7 @@
 title: Enable Guided activity view
 description: Guide end users through a playbook, step-by-step.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/enable-guided-activity-view.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -18,11 +19,11 @@ Guide end users through a playbook, step-by-step.
 ## Before you begin
 
 -   Role required: admin or playbook.admin
--   Familiarize yourself with how to begin customizing the playbook experience in UI Builder. To learn more, see [Customize the Playbook Experience](../../workspace/concept/playbook-customize-playbook.md).
+-   Familiarize yourself with how to begin customizing the playbook experience in UI Builder. To learn more, see [Customize the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-customize-playbook.md).
 
 ## About this task
 
-Guide end users through a playbook, one activity at a time. If you have a lot of end users encountering issues in a particular area, and you want to walk them through a series of questions that lead to a particular Instruction activity to complete work \(or even KB activity for final instruction\), consider using the **Guided** activity view. There are out-of-the-box playbooks that use the **Guided** activity view for employee self-service requests, such as time off or benefit requests, available through the [Employee Center](https://www.servicenow.com/docs/access?context=employee-center-landing-page&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+Guide end users through a playbook, one activity at a time. If you have a lot of end users encountering issues in a particular area, and you want to walk them through a series of questions that lead to a particular Instruction activity to complete work \(or even KB activity for final instruction\), consider using the **Guided** activity view. There are out-of-the-box playbooks that use the **Guided** activity view for employee self-service requests, such as time off or benefit requests, available through the Employee Center.
 
 **Note:**
 
@@ -40,28 +41,28 @@ The following configurations and features are not supported for the **Guided** a
 
 1.  Navigate to **All** &gt; **UI Builder**, and open the **Guided Self-Service in Employee Center** experience.
 
-    ![Guided Self-Service Employee Center experience in UI Builder](../images/pe-UIB-guided-self-service.png)
+    \[Omitted image "pe-UIB-guided-self-service.png"\] Alt text: Guided Self-Service Employee Center experience in UI Builder
 
 2.  Open the page that you want to enable the Guided activity view for.
 
-    ![Opening the Default page for the Guided Self-Service EC experience in UI Builder](../images/pe-guided-ssec-page.png)
+    \[Omitted image "pe-guided-ssec-page.png"\] Alt text: Opening the Default page for the Guided Self-Service EC experience in UI Builder
 
 3.  Under **Body** in the component tree, open **Playbook Activity Viewer**.
 
-    ![Opening the Playbook Activity Viewer component in the component tree](../images/pe-activity-viewer-component.png)
+    \[Omitted image "pe-activity-viewer-component.png"\] Alt text: Opening the Playbook Activity Viewer component in the component tree
 
     The **Playbook Activity Viewer** panel opens on the right.
 
 4.  In the **Playbook Activity Viewer** panel, under the **Configure** tab, open the **Activity View** drop-down and select **Guided**.
 
-    ![Selecting the Guided activity view](../images/pe-activity-viewer-panel-guided-view.png)
+    \[Omitted image "pe-activity-viewer-panel-guided-view.png"\] Alt text: Selecting the Guided activity view
 
 
 ## Result
 
 For an end user who is running a playbook, the result is a playbook that runs one activity at a time. If configured, users can still restart the playbook and activities.
 
-![End user experience of a Guided view, Self-Service playbook](../images/PE-Guided-Activity-Viewer.gif)
+\[Omitted image "PE-Guided-Activity-Viewer.gif"\] Alt text: End user experience of a Guided view, Self-Service playbook
 
-**Parent Topic:**[Customize the Playbook Experience](../../workspace/concept/playbook-customize-playbook.md)
+**Parent Topic:**[Customize the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-customize-playbook.md)
 

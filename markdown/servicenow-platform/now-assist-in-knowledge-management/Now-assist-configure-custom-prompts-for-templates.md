@@ -2,6 +2,7 @@
 title: Configure skills with custom prompts for knowledge article templates
 description: Now Assist in Knowledge Management has extended the out-of-box \(OOB\) KB generation skill to create custom prompts for OOB and custom knowledge article templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/now-assist-in-knowledge-management/Now-assist-configure-custom-prompts-for-templates.html
 release: zurich
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
@@ -19,13 +20,13 @@ Now Assist in Knowledge Management has extended the out-of-box \(OOB\) KB genera
 
 In the form configuration of the article record, admin must check for the availability of **Knowledge Gen AI Message** and **Knowledge Now Assist Modal**. For OOB configurations, they are automatically added to the form view configurator. However, for customized configurations, the admin must add them manually. To do so, navigate to the form layout from the header of the knowledge article \(kb\_knowledge.do\) and add them from **Available** list to the **Selected** list and save. Navigate to Cache \(cache.do\) and clear cache.
 
-![Configuring knowledge form.](../../knowledge-center/image/Configuring-knowledge-form.png)
+\[Omitted image "Configuring-knowledge-form.png"\] Alt text: Configuring knowledge form.
 
 Role required: sn\_skill\_builder.admin, sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
-To create custom prompts for OOB and custom knowledge article templates, clone the existing KB generation skill, from the Now Assist skill Kit \(NASK\). For more information, see [Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=now-assist-skill-kit-landing&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) Configuration of the skill happens in three steps:
+To create custom prompts for OOB and custom knowledge article templates, clone the existing KB generation skill, from the Now Assist skill Kit \(NASK\). For more information, see  Configuration of the skill happens in three steps:
 
 -   Clone the OOB KB generation skill
 -   Prompt configuration
@@ -37,7 +38,7 @@ To create custom prompts for OOB and custom knowledge article templates, clone t
 
 2.  In the **ServiceNow skills** tab, search for KB generation skill.
 
-    ![Select KB generation skill to be cloned.](../image/NASK.png)
+    \[Omitted image "NASK.png"\] Alt text: Select KB generation skill to be cloned.
 
 3.  Open the KB generation skill associated with the workflow \(ITSM, CSM, and so on\) that you want to configure.
 
@@ -47,15 +48,15 @@ To create custom prompts for OOB and custom knowledge article templates, clone t
 
 5.  In the **Clone skill** window, fill the required fields and select **Clone**.
 
-    ![Enter the name of the skill and provider details.](../image/Clone_skill.png)
+    \[Omitted image "Clone\_skill.png"\] Alt text: Enter the name of the skill and provider details.
 
 6.  On the success message window, select **Open Cloned Skill**.
 
-    ![Select Open cloned skill](../image/Cloned_success.png)
+    \[Omitted image "Cloned\_success.png"\] Alt text: Select Open cloned skill
 
 7.  On the cloned skill page, navigate to the **Prompts** menu and select the **Add** icon.
 
-    ![Select Add from Prompts menu](../image/Add_prompt.png)
+    \[Omitted image "Add\_prompt.png"\] Alt text: Select Add from Prompts menu
 
 8.  In the **Add prompt** table, fill the required fields as follows and select **Add**.
 
@@ -65,19 +66,19 @@ To create custom prompts for OOB and custom knowledge article templates, clone t
     |Provider|Select the third-party AI provider that you want to use|
     |Provider API|Select the API details of the third-party AI provider|
 
-9.  To develop a prompt, see [Guidelines for creating prompts](../concept/guidelines-for-creating-prompts.md).
+9.  To develop a prompt, see [Guidelines for creating prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/guidelines-for-creating-prompts.md).
 
 10. Save the prompt.
 
 11. Evaluate the prompt.
 
-    For more, see [Evaluate a prompt](https://www.servicenow.com/docs/access?context=evaluate-prompt&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)
+    For more, see 
 
-12. Select the **Settings** icon to open the **Configurations** settings panel.![Select configuration settings](../image/Config_settings.png)
+12. Select the **Settings** icon to open the **Configurations** settings panel.\[Omitted image "Config\_settings.png"\] Alt text: Select configuration settings
 
 13. Scroll down to **Usage conditions** and select the **Add** icon to define the conditions on when to use the prompt based on inputs.
 
-    ![Add usage conditions.](../image/Usage-conditions.png)
+    \[Omitted image "Usage-conditions.png"\] Alt text: Add usage conditions.
 
 14. Fill in the **Key** and **Value** fields to build filters in the **Usage conditions** modal and select **Apply**.
 
@@ -99,7 +100,7 @@ To create custom prompts for OOB and custom knowledge article templates, clone t
 
 17. Select **Publish** to publish the prompts for both single KB and multi-KB articles.
 
-    ![Select finalized prompts to be included in the published skill.](../image/Publish-skill.png)
+    \[Omitted image "Publish-skill.png"\] Alt text: Select finalized prompts to be included in the published skill.
 
     The skill is published and available in the **Now Assist Admin** page for the selected workflow. However, the skill must be activated to be available for use during article generation from Now Assist.
 
@@ -107,13 +108,13 @@ To create custom prompts for OOB and custom knowledge article templates, clone t
 
 19. Select **Activate skill** to activate the cloned skill.
 
-    ![Activate the KB generation skill.](../image/Activate-skill.png)
+    \[Omitted image "Activate-skill.png"\] Alt text: Activate the KB generation skill.
 
     The KB generation skill for Now Assist is activated and ready to use the custom templates as defined by the prompt.
 
 
--   **[Guidelines for creating prompts](../concept/guidelines-for-creating-prompts.md)**  
+-   **[Guidelines for creating prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/guidelines-for-creating-prompts.md)**  
 The guidelines help to write prompts for Out-of-Box \(OOB\) and custom knowledge article templates. Follow these instructions to create ideal prompts that optimize the use of AI models for generating knowledge articles.
 
-**Parent Topic:**[Configuring Now Assist in Knowledge Management](../concept/configuring-now-assist-km.md)
+**Parent Topic:**[Configuring Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
 

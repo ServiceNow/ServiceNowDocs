@@ -2,7 +2,10 @@
 title: Manage User Experience
 description: Explore in-depth transactions for a user or a node for a given period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/manage-user-experience.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -37,7 +40,7 @@ Role required: admin
     -   URL
     -   Transaction Type
     -   Application Monitoring
-    ![Shows the User Experience snapshot.](../image/io-user-ex-snapshot.png)
+    \[Omitted image "io-user-ex-snapshot.png"\] Alt text: Shows the User Experience snapshot.
 
 4.  Drill into each data point to open the particular details.
 
@@ -51,7 +54,7 @@ Role required: admin
 
     For more information, see
 
-    -   [Track the response time of applications to monitor their performance](monitor-apps-user-experience-io.md).
-    -   [Analyze user experience and monitor application performance in Instance Observer](io-app-mon-perf-analy.md)
+    -   [Track the response time of applications to monitor their performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/monitor-apps-user-experience-io.md).
+    -   [Analyze user experience and monitor application performance in Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-app-mon-perf-analy.md)
     -   .
 

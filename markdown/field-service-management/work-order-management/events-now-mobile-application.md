@@ -2,6 +2,7 @@
 title: Personal events in ServiceNow Agent
 description: Field service agents can view events and create and edit personal events in the Mobile Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/events-now-mobile-application.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

@@ -2,6 +2,7 @@
 title: Change a Creator Studio app's table
 description: Change the table associated with an app if you want one that differs from the default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/creator-studio/creator-studio-change-app-table.html
 release: zurich
 product: Creator Studio
 classification: creator-studio
@@ -17,7 +18,7 @@ Change the table associated with an app if you want one that differs from the de
 
 ## Before you begin
 
-**Note:** You should perform this task only if you did not change the table during Guided Setup. For more information, see [Configure the table for Creator Studio apps](config-creator-studio-guided-setup.md#).
+**Note:** You should perform this task only if you did not change the table during Guided Setup. For more information, see [Configure the table for Creator Studio apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/config-creator-studio-guided-setup.md).
 
 The app must already be created before you can change the table for it.
 
@@ -31,9 +32,9 @@ Some general guidelines for changing the table are:
 -   The request\_type field for the new table should have the label **Request type**, and it should be a reference to the Record Producer table.
 -   If the new table isn’t in the same scope as the app, the scope of the table must allow updates from other scopes.
 
-See [Changing the table for an app](../concept/creator-studio-admin-app-table-about.md) for more information.
+See [Changing the table for an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-admin-app-table-about.md) for more information.
 
-Role required: admin, app configurator \(sn\_creatorstudio.app\_configurator\), or Creator Studio configuration admin \(sn\_creatorstudio.configuration\_admin\). For more information on working with granular roles, see [Granular admin roles required to secure your instance](https://www.servicenow.com/docs/access?context=roles-within-platform-security&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+Role required: admin, app configurator \(sn\_creatorstudio.app\_configurator\), or Creator Studio configuration admin \(sn\_creatorstudio.configuration\_admin\). For more information on working with granular roles, see .
 
 ## About this task
 
@@ -49,24 +50,24 @@ To ensure that forms and automations work, a general guideline is to change the 
 
 3.  Select the app from the list.
 
-    ![Request App Configs list filtered to show names starting with doc, displaying Doc Review 1 and Travel request app entries.](../image/crs-change-app-table1.png "List of apps to configure")
+    \[Omitted image "crs-change-app-table1.png"\] Alt text: Request App Configs list filtered to show names starting with doc, displaying Doc Review 1 and Travel request app entries.
 
 4.  Change the scope to the app's scope or a global scope if you're not in the correct scope.
 
     You can change the scope in one of the following ways:
 
     -   Selecting the **here** in the message "To edit the record click here."
-    -   Selecting the application scope icon \(![](../../applications/image/icon-scope-changed.png)\) and choosing the appropriate scope.
-    For more information on scopes, see [Application scope](../../applications/concept/c_ApplicationScope.md).
+    -   Selecting the application scope icon \(\[Omitted image "icon-scope-changed.png"\]\) and choosing the appropriate scope.
+    For more information on scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/c_ApplicationScope.md).
 
 5.  Enter the name of the table you want the app to write to in the **Request table** field.
 
-    The table should extend the Request Task table and have the **request\_type** field. For more details on what table you can use, see [Requirements for changing the table for an app](../concept/creator-studio-admin-app-table-about.md#crs-requirements-change-table).
+    The table should extend the Request Task table and have the **request\_type** field. For more details on what table you can use, see [Requirements for changing the table for an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-admin-app-table-about.md).
 
-    ![Request App Config form with Color field showing dropdown list of table options.](../image/crs-change-app-table2.png "List of apps to configure")
+    \[Omitted image "crs-change-app-table2.png"\] Alt text: Request App Config form with Color field showing dropdown list of table options.
 
 6.  Select **Update** to save your changes.
 
 
-**Parent Topic:**[Administering an app's associated table](../concept/creator-studio-admin-app-table.md)
+**Parent Topic:**[Administering an app's associated table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-admin-app-table.md)
 

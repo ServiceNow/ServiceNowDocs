@@ -2,6 +2,7 @@
 title: View work order and appointment details as a customer
 description: View a list of appointments for the current user on the Customer or the Consumer Service Portal and select an appointment to view the work order details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/appointment-booking/appointment-booking-view-details.html
 release: zurich
 product: Appointment Booking
 classification: appointment-booking

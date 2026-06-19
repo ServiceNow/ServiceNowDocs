@@ -2,6 +2,7 @@
 title: Minimize reset password request expiration duration \[Updated in Security Center 1.3\]
 description: The password\_reset.request.expiry denotes the time period in minutes during which a user must perform the password reset process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-reset-password-request-expiration.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -23,15 +24,15 @@ The **password\_reset.request.expiry** denotes the time period in minutes during
 |---------|-----------|
 |Property name|**password\_reset.request.expiry**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Authentication](sc-authentication.md)|
+|Category|[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)|
 |Purpose|Denotes the time period in minutes during which a user must perform the password reset process.|
 |Recommended value|Set to an integer of **10** or less. The default value is 10.|
 |Configuration type|Integer values|
 |Security risk|\(Moderate\) If the property is not set to the recommended value of 10 or less, then it increases the opportunity for someone else to guess and use the request and attempt to reset the password.|
 |Security risk rating|4.2|
-|References|[Configure Password Reset properties](../../login/task/t_SetPwdResetProps.md)|
+|References|[Configure Password Reset properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/t_SetPwdResetProps.md)|
 
-To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Authentication](sc-authentication.md)
+**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

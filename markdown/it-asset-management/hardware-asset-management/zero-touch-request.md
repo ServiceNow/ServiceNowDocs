@@ -2,6 +2,7 @@
 title: Zero Touch request flow
 description: Fulfill the hardware requests of your employees through an external provider with minimal intervention by using the Zero Touch request flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/zero-touch-request.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -50,7 +51,7 @@ The Zero Touch request flow has the following basic requirements:
         -   An asset record with the serial number provided by the provider exists on your ServiceNow instance.
         -   The model number provided by the provider isn't available on your ServiceNow instance.
         -   The asset that is shipped is a consumable.
-    -   Based on the tracking number and shipping carrier details that the provider specified in the Scratchpad update, a unique shipment record is created for the shipment. You can view the shipment records with the associated assets in the Assets operations view of the Hardware Asset Workspace. For more details, see [View hardware asset shipment details](../task/view-hardware-asset-shipments.md).
+    -   Based on the tracking number and shipping carrier details that the provider specified in the Scratchpad update, a unique shipment record is created for the shipment. You can view the shipment records with the associated assets in the Assets operations view of the Hardware Asset Workspace. For more details, see [View hardware asset shipment details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/view-hardware-asset-shipments.md).
     When shipping an asset bundle, the provider can choose to ship the assets fully through a single shipment or partially through multiple shipments. Only when the assets are fully shipped, the **Stage** of the requested item changes to **Pending receive**.
 
 6.  The employee acknowledges the receipt of the asset on a mobile device. The Stage of the requested item changes to Complete.
@@ -58,5 +59,5 @@ The Zero Touch request flow has the following basic requirements:
     **Note:** Receipt of the consumable asset can't be confirmed on a mobile device. The asset manager takes the necessary actions based on the email notifications received and confirms on behalf of the employee.
 
 
-For more details on creating and fulfilling hardware asset requests through the Zero Touch request flow, see [Manage hardware asset requests using the Zero Touch request flow](managing-standard-hw-req-ztr.md).
+For more details on creating and fulfilling hardware asset requests through the Zero Touch request flow, see [Manage hardware asset requests using the Zero Touch request flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/managing-standard-hw-req-ztr.md).
 

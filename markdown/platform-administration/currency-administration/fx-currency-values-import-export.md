@@ -2,6 +2,7 @@
 title: FX Currency values in import and export
 description: In general, currency values crossing the boundaries of the platform represent whatever is returned by getDisplayValue. Usually this currency value is the default as entered by a user into an FX Currency field for a transaction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/currency-administration/fx-currency-values-import-export.html
 release: zurich
 product: Currency Administration
 classification: currency-administration
@@ -79,5 +80,5 @@ Export to Excel/PDF
 Uses the default method of exporting data that extracts data from fields using `getDisplayValue()`. For FX Currency fields, using this method returns a formatted currency string of the form $1,234.56. To access specific information inside an FX Currency field directly without any transformations, simply export that column using dot walking.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[FX Currency fields](fx-currency.md)
+</table>**Parent Topic:**[FX Currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/fx-currency.md)
 

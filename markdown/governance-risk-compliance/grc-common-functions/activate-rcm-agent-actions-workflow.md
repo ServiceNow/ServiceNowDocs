@@ -2,6 +2,7 @@
 title: Activate the generate regulatory action plan agentic workflow
 description: Configure and activate the generate regulatory action plan agentic workflow. This workflow uses AI agents to transform regulatory insights into actionable compliance strategies by analyzing impacted areas and historical alerts, then generating structured tasks with clear ownership and timelines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/activate-rcm-agent-actions-workflow.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -20,7 +21,7 @@ Configure and activate the generate regulatory action plan agentic workflow. Thi
 
 Install the Now Assist for IRM plugin \(sn\_irm\_gen\_ai\).
 
-The regulatory alert recommendation skill and a regulatory alert with impacted areas defined are required to generate an action plan. For more information, see [AI-generated recommendations for a regulatory alert skill](../../grc-rcm/concept/recommendations-for-a-regulatory-alert.md).
+The regulatory alert recommendation skill and a regulatory alert with impacted areas defined are required to generate an action plan. For more information, see [AI-generated recommendations for a regulatory alert skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/recommendations-for-a-regulatory-alert.md).
 
 Role required: sn\_nowassist\_admin.nsa\_admin or sn\_aia.admin
 
@@ -32,15 +33,15 @@ If you have the RCM user \[sn\_grc\_reg\_change.user\] role and the sn\_grc\_com
 
 This workflow analyzes impacted areas and similar historical alerts to create change tasks and action tasks that help implement regulatory change. The regulatory alert must be in the In Progress state and have impacted areas before generating an action plan.
 
-You can add or remove AI agents from this workflow by making a copy and customizing it. For more information, about copying agentic workflows, see [Duplicate an agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+You can add or remove AI agents from this workflow by making a copy and customizing it. For more information, about copying agentic workflows, see .
 
 **Note:**
 
 You can perform the following actions on Now Assist workflows if you have the sn\_generative\_ai.nsa\_admin role:
 
--   [Duplicate an agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)
--   [Modify an agentic workflow](https://www.servicenow.com/docs/access?context=modify-aia-use-case&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)
--   [Delete an agentic workflow](https://www.servicenow.com/docs/access?context=delete-aia-use-case&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)
+-   
+-   
+-   
 
 ## Procedure
 
@@ -117,28 +118,28 @@ Approved role\(s\)
 </td></tr></tbody>
 </table>    **Note:**
 
-    The user identity type that this agentic workflow runs under determines the roles and the data access permissions derived from them. Remember, when agentic workflows can access data, they can also share that data with the human user who interacts with them. [Learn more about access control list rules](https://www.servicenow.com/docs/csh?topicname=access-control-rules&version=latest).
+    The user identity type that this agentic workflow runs under determines the roles and the data access permissions derived from them. Remember, when agentic workflows can access data, they can also share that data with the human user who interacts with them. [Learn more about access control list rules](https://www.servicenow.com/docs/access?context=access-control-rules).
 
 5.  Select **Add triggers** and configure conditions that start the workflow, such as when a new regulatory alert is created.
 
     Triggers can include record conditions, schedules, or inbound email.
 
-    For more information, see [Add a trigger to an agentic workflow](https://www.servicenow.com/docs/access?context=add-trigger-aw&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+    For more information, see .
 
 6.  Define where alerts and summaries are delivered \(for example, the Now Assist panel or Regulatory alert record\) by selecting **Channels and status**.
 
-    For more information, see [Select channels and access for an agentic workflow](https://www.servicenow.com/docs/access?context=channels-access-aw&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+    For more information, see .
 
 7.  Select **Save and test**.
 
 
 ## What to do next
 
-Use the Testing playground to [test your new agentic workflow](https://www.servicenow.com/docs/access?context=test-aia-use-case&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) using example utterances.
+Use the Testing playground to test your new agentic workflow using example utterances.
 
 Verify that tasks are generated and grouped by impacted areas. If the activation fails, check the roles and skill configuration.
 
 After confirming that the workflow performs as expected, you can get started by selecting **Generate action plan** from the Ask Now Assist action menu on a regulatory alert page or by selecting **Generate Regulatory Action Plan** from the Now Assist panel. The regulatory alert must be in the In Progress state and have impacted areas before generating an action plan.
 
-If you have not already set up the Now Assist panel, see [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+If you have not already set up the Now Assist panel, see .
 

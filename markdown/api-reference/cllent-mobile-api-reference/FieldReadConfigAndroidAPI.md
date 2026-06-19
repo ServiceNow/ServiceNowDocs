@@ -2,6 +2,7 @@
 title: FieldReadConfiguration class - Android
 description: The FieldReadConfiguration class provides the ability to define what fields to return or not return in a response record.Defines the fields to include in the return response from the associated ServiceNow table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/cllent-mobile-api-reference/FieldReadConfigAndroidAPI.html
 release: zurich
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -21,7 +22,7 @@ The FieldReadConfiguration class provides the ability to define what fields to r
 |queryItems|[Map](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/)&lt;String, String&gt;|Read-only. Collection of query items representing the read configuration.|
 |queryParams|QueryParams|Iterable structure that contains name-value pairs of request query parameters. Use these parameters to build a request.|
 
-**Parent Topic:**[Mobile SDK - Android](../../concept/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## FieldReadConfiguration - FieldReadConfiguration\(includeFields: Collection&lt;String&gt; = listOf\(\), vararg options: FieldReadConfiguration.Options\)
 

@@ -2,6 +2,7 @@
 title: Enable or disable personal lists
 description: You can enable or disable personal lists through the UI Macros module.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/list-administration/t\_ActivatingTheListMechanic.html
 release: zurich
 product: List Administration
 classification: list-administration

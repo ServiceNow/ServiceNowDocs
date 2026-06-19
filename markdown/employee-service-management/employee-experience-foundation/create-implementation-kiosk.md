@@ -2,6 +2,7 @@
 title: Customize data display in Kiosks
 description: Create implementations to customize the display of data in the Schedule and Time off tabs based on your location or any other criterion according to your organizational requirement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/create-implementation-kiosk.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -33,8 +34,8 @@ Role required: admin
 
 4.  In the Script Include page, add the unique location sys\_id in the `this.LOCATIONS` array in **Script**.
 
-    -   For more information on location tracking, see [Enabling and selecting location tracking options](https://www.servicenow.com/docs/access?context=location-tracking-enable&version=zurich&pubname=zurich-mobile&ft:locale=en-US).
-    -   For more information on script include customizations, see [Script includes and customization](https://www.servicenow.com/docs/access?context=customize-script-includes-itsm&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+    -   For more information on location tracking, see .
+    -   For more information on script include customizations, see .
     1.  The location sys\_id enables a `fixed_match`. The `fixed_match` enables you to show location-based data to your users.
     2.  If `fixed_match` isn’t available, then the data available is for a `global_match`. The data remains the same regardless of location.
     3.  If it’s a `no_match`, there isn't a **Schedule** or **Time off** tab visible.
@@ -43,5 +44,5 @@ Role required: admin
 
 You can view data on the **Schedule** and **Time off** tabs based on your location or any other user criterion you've set.
 
-**Parent Topic:**[Schedule in Employee Center Pro Kiosk](../concept/shift-time-kiosk-ec.md)
+**Parent Topic:**[Schedule in Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/shift-time-kiosk-ec.md)
 

@@ -2,6 +2,7 @@
 title: Send a readiness survey and view responses
 description: Use Emergency Outreach to send a workplace readiness survey. Review the survey responses to assist with your plans to reopen your workplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/emergency-outreach/send-eo-outreach-survey.html
 release: zurich
 product: Emergency Outreach
 classification: emergency-outreach
@@ -19,7 +20,7 @@ Use Emergency Outreach to send a workplace readiness survey. Review the survey r
 
 In order to send a survey, you must have the Employee Readiness Surveys application installed.
 
-Employees must have the Now® Mobile app installed on their phones to receive mobile push notifications. For more information, see [Now Mobile app](../../../administer/mobile-employee/concept/mobile-employee-experience.md).
+Employees must have the Now® Mobile app installed on their phones to receive mobile push notifications. For more information, see [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md).
 
 Role required: sn\_imt\_checkin.checkin\_admin or admin
 
@@ -35,15 +36,15 @@ Role required: sn\_imt\_checkin.checkin\_admin or admin
 
 4.  On the **When to run** tab, specify when the outreach should be sent.
 
-<table id="eo-table-when-to-run"><thead><tr><th align="left" id="d112303e118">
+<table id="eo-table-when-to-run"><thead><tr><th align="left" id="d114631e118">
 
 Option
 
-</th><th align="left" id="d112303e121">
+</th><th align="left" id="d114631e121">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d112303e127">
+</th></tr></thead><tbody><tr><td id="d114631e127">
 
 **To send the notification on demand**
 
@@ -51,7 +52,7 @@ Action
 
 Keep the default **Mode** value of **None**. The outreach is sent when you select **Send Notification**.
 
-</td></tr><tr><td id="d112303e145">
+</td></tr><tr><td id="d114631e145">
 
 **To schedule the notification**
 
@@ -76,15 +77,15 @@ The outreach messages reference a send time based on the time zone of the user s
 
 5.  Identify who will receive the outreach notification through either the Emergency Outreach or Safe Workplace application.
 
-<table id="choicetable_mxq_4sk_jmb"><thead><tr><th align="left" id="d112303e252">
+<table id="choicetable_mxq_4sk_jmb"><thead><tr><th align="left" id="d114631e252">
 
 App
 
-</th><th align="left" id="d112303e255">
+</th><th align="left" id="d114631e255">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d112303e261">
+</th></tr></thead><tbody><tr><td id="d114631e261">
 
 **Emergency Outreach standalone**
 
@@ -92,7 +93,7 @@ Action
 
 On the Select targeted audience tab, select the combination of users to send the outreach notification to. Choose from user lists, groups, departments, locations, or other search filters such as building, cost center, or country code.
 
-</td></tr><tr><td id="d112303e276">
+</td></tr><tr><td id="d114631e276">
 
 **Safe Workplace**
 
@@ -117,15 +118,15 @@ On the Safe Workplace **Audience** tab, select the name of the audience to send 
 
 10. Specify how to send the outreach notification.
 
-<table id="choicetable_frh_152_jmb"><thead><tr><th align="left" id="d112303e370">
+<table id="choicetable_frh_152_jmb"><thead><tr><th align="left" id="d114631e370">
 
 Option
 
-</th><th align="left" id="d112303e373">
+</th><th align="left" id="d114631e373">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d112303e379">
+</th></tr></thead><tbody><tr><td id="d114631e379">
 
 **Disable the email notification**
 
@@ -133,7 +134,7 @@ Action
 
 Clear the **Email** check box.
 
-</td></tr><tr><td id="d112303e391">
+</td></tr><tr><td id="d114631e391">
 
 **Select the survey**
 
@@ -141,15 +142,15 @@ Clear the **Email** check box.
 
 Select the survey to use or keep the default **Employee workplace readiness survey**.
 
-</td></tr><tr><td id="d112303e403">
+</td></tr><tr><td id="d114631e403">
 
 **Select a different notification**
 
 </td><td>
 
-Click the lookup icon \(![Click icon to look up a notification](../../contact-tracing/image/icon-lookup.png)\) and select the notification to use.
+Click the lookup icon \(\[Omitted image "icon-lookup.png"\] Alt text: Click icon to look up a notification\) and select the notification to use.
 
-</td></tr><tr><td id="d112303e418">
+</td></tr><tr><td id="d114631e418">
 
 **Review and edit the introductory message**
 
@@ -157,7 +158,7 @@ Click the lookup icon \(![Click icon to look up a notification](../../contact-tr
 
 Modify the subject and body as desired. The notification includes the survey link that the employee can take in the instance or mobile app.
 
-</td></tr><tr><td id="d112303e431">
+</td></tr><tr><td id="d114631e431">
 
 **Send a mobile push notification**
 
@@ -170,7 +171,7 @@ The check box is active if the ServiceNow NowMobile App Screens and Applet Launc
 2.  Modify the push message text as desired.
  Push notifications use the ServiceNow Request Application notification device. When mobile application is registered to an instance, this notification device is automatically created in the user's notification preferences. Ensure that this device is active for the users that you want to receive the push notification.
 
-</td></tr><tr><td id="d112303e460">
+</td></tr><tr><td id="d114631e460">
 
 **Use a custom notification channel**
 
@@ -211,7 +212,7 @@ The check box is active if the ServiceNow NowMobile App Screens and Applet Launc
 
     If employees haven't responded yetand instances were successfully created for all users, click **Resend Notification**. The notification is sent again only to employees who have not yet responded.
 
-    ![View survey scorecard related link and the list of survey instances.](../image/survey-instances-list.png)
+    \[Omitted image "survey-instances-list.png"\] Alt text: View survey scorecard related link and the list of survey instances.
 
     When an outreach is sent using a custom notification channel, a Delivery Logs related list appears in the outreach record. It lists successful and failed log records for the notification that you sent.
 
@@ -223,10 +224,10 @@ The check box is active if the ServiceNow NowMobile App Screens and Applet Launc
 
 14. To view the interactive scorecard showing all responses and the results, click the **View Survey Scorecard** related link.
 
-    ![Survey responses scorecard with charts.](../image/survey-response-scorecard.png)
+    \[Omitted image "survey-response-scorecard.png"\] Alt text: Survey responses scorecard with charts.
 
     Click any area of a chart to see the corresponding records.
 
 
-**Parent Topic:**[Emergency Outreach](../concept/emergency-outreach.md)
+**Parent Topic:**[Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/emergency-outreach/emergency-outreach.md)
 

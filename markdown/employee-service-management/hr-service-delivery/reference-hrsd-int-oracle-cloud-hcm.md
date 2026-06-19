@@ -2,6 +2,7 @@
 title: HR Service Delivery integration with Oracle Cloud HCM reference
 description: Reference topics provide additional information about the HR Service Delivery integration with Oracle Cloud HCM, including lists and forms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/reference-hrsd-int-oracle-cloud-hcm.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,10 +16,10 @@ breadcrumb: [HR Service Delivery integration with Oracle Cloud HCM, Integrate wi
 
 Reference topics provide additional information about the HR Service Delivery integration with Oracle Cloud HCM, including lists and forms.
 
--   **[Components installed with HR Service Delivery integration with Oracle Cloud HCM](installed-with-oracle-hcm.md)**  
+-   **[Components installed with HR Service Delivery integration with Oracle Cloud HCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/installed-with-oracle-hcm.md)**  
 Several types of components are installed with the activation of the HR Service Delivery integration with Oracle Cloud HCM \(sn\_hr\_oracle\_hcm\) application, including tables, user roles, and scheduled jobs.
--   **[Transform maps for HR Service Delivery integration with Oracle Cloud HCM](oracle-hcm-transform-maps.md)**  
+-   **[Transform maps for HR Service Delivery integration with Oracle Cloud HCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/oracle-hcm-transform-maps.md)**  
 Transform maps specify data relationships between a source table and a target table.
 
-**Parent Topic:**[Integration of HR Service Delivery with third-party systems](../concept/integrate-third-party-systems.md)
+**Parent Topic:**[Integration of HR Service Delivery with third-party systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/integrate-third-party-systems.md)
 

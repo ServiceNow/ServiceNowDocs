@@ -2,6 +2,7 @@
 title: Modify or add a privacy consent template
 description: Modify or add a privacy consent template to be used in the location privacy configuration for Safe Workplace suite applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-readiness-core/define-privacy-consent-common-template.html
 release: zurich
 product: Employee Readiness Core
 classification: employee-readiness-core
@@ -36,5 +37,5 @@ Role required: sn\_imt\_core.admin
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Setting up privacy consent settings](../concept/set-up-privacy-consent-common.md)
+**Parent Topic:**[Setting up privacy consent settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-readiness-core/set-up-privacy-consent-common.md)
 

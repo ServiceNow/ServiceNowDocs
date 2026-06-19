@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP new model field descriptions
 description: The new model form in Zero Copy Connector for ERP contains details for the ERP \(Enterprise Resource Planning\) model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erp-canvas-new-model-descriptions.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -16,7 +17,7 @@ breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Cop
 
 The new model form in Zero Copy Connector for ERP contains details for the ERP \(Enterprise Resource Planning\) model.
 
-For process details, see [Create a new ERP model](../task/erpc-add-new-data-model.md).
+For process details, see [Create a new ERP model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erpc-add-new-data-model.md).
 
 <table id="table_vvj_5fy_v2c"><thead><tr><th>
 
@@ -50,7 +51,7 @@ ERP system
 
 </td><td>
 
-ERP system the ERP model connects to.The connected ERP system enables access to information about fields and tables and interaction between the model and the connected ERP system. For more information, see [Create an ERP system in Zero Copy Connector for ERP](../task/create-an-erp-system.md) and [View a list of Zero Copy Connector for ERP systems](../task/view-and-monitor-erp-systems-health.md).
+ERP system the ERP model connects to.The connected ERP system enables access to information about fields and tables and interaction between the model and the connected ERP system. For more information, see [Create an ERP system in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/create-an-erp-system.md) and [View a list of Zero Copy Connector for ERP systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/view-and-monitor-erp-systems-health.md).
 
 </td></tr><tr><td>
 
@@ -104,5 +105,5 @@ Supportability of the model. This field is required because it determines which 
  As of the Zurich Patch 4 release, SAP SuccessFactors Cloud and S/4HANA Cloud are available in this field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](erp-canvas-field-descriptions.md)
+</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
 

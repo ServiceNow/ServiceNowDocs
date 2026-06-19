@@ -2,6 +2,7 @@
 title: Manage policy exceptions and extensions using the Compliance Workspace
 description: Policy exceptions and extensions provide temporary relief for non-compliant controls. The policy exception captures the rationale, comments, and evidence to support the acceptance or rejection of a policy exception request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/manage-policy-exceptions-ws.html
 release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

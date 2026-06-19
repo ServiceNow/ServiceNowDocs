@@ -2,6 +2,7 @@
 title: Evaluate full data migration
 description: When you have completed the migration process, review the results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/data-migration-evaluate.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -25,11 +26,11 @@ As soon as your data has been migrated, you see the results of the migration. Re
 
 1.  In the Migration Center, select an item from the Fully migrated column, Dashboards, Visualizations, Reports, PA Widgets, or Interactive Filters to review a list of all of the migrated items.
 
-    ![Complete migration dashboard list](../image/data-mig-complete-db-list.png)
+    \[Omitted image "data-mig-complete-db-list.png"\] Alt text: Complete migration dashboard list
 
 2.  Choose the **Compare** link for any dashboard to see the Core UI and migrated content back to back.
 
-    ![Top of migrated dashboard Compare window featuring buttons labeled Migrated dashboard and Core UI dashboard](../image/data-mig-core-migrated-db-buttons.png)
+    \[Omitted image "data-mig-core-migrated-db-buttons.png"\] Alt text: Top of migrated dashboard Compare window featuring buttons labeled Migrated dashboard and Core UI dashboard
 
 3.  Select the **Compatibility mode** tab to compare content in the Core UI dashboard and the content migrated in compatibility mode.
 

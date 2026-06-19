@@ -2,6 +2,7 @@
 title: Prioritize work
 description: Review and prioritize the items of your portfolio plan pipeline to add them to the plan's roadmap so that your teams can start working on them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/prioritize-work-portfolio-planning-workspace.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -18,7 +19,7 @@ Review and prioritize the items of your portfolio plan pipeline to add them to t
 
 ## Before you begin
 
--   [Create a portfolio plan](create-portfolio-plan-in-portfolio-planning-workspace.md).
+-   [Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/create-portfolio-plan-in-portfolio-planning-workspace.md).
 -   Ensure that the planning items in the Prioritization page are sorted by the Rank column in ascending order.
 
 Role required: sn\_align\_core.apw\_user
@@ -35,15 +36,15 @@ Review and prioritize the items in the Prioritization or Hierarchy tab views dur
 
 3.  From the Prioritization or Hierarchy tab, mark a planning item as In Review or Prioritized.
 
-<table id="choicetable_knp_gs5_dwb"><thead><tr><th align="left" id="d282642e126">
+<table id="choicetable_knp_gs5_dwb"><thead><tr><th align="left" id="d60209e126">
 
 Tab
 
-</th><th align="left" id="d282642e129">
+</th><th align="left" id="d60209e129">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d282642e135">
+</th></tr></thead><tbody><tr><td id="d60209e135">
 
 **Prioritization**
 
@@ -51,9 +52,9 @@ Action
 
 Update the **Planning state** field of the item.
 
- ![Planning state update in Prioritization page.](../../spw-prioritization/images/backlog-planning-state.png)
+ \[Omitted image "backlog-planning-state.png"\] Alt text: Planning state update in Prioritization page.
 
-</td></tr><tr><td id="d282642e157">
+</td></tr><tr><td id="d60209e157">
 
 **Hierarchy**
 
@@ -61,7 +62,7 @@ Update the **Planning state** field of the item.
 
 Update the **Planning state** field of the item.
 
- ![Planning state in Prioritization.](../../spw-prioritization/images/prioritize-item-hierarchy.png)
+ \[Omitted image "prioritize-item-hierarchy.png"\] Alt text: Planning state in Prioritization.
 
 </td></tr></tbody>
 </table>    Once you mark a planning item as **Prioritized**, it is automatically added to your portfolio roadmap, based on the values in the **Approved start date** and **Approved end date** fields.
@@ -80,6 +81,6 @@ Update the **Planning state** field of the item.
 
     3.  Double-click one of the selected cells and choose a state.
 
-    ![Update planning state of multiple rows at once in Prioritization page.](../../spw-prioritization/images/backlog-multi-row-update.gif)
+    \[Omitted image "backlog-multi-row-update.gif"\] Alt text: Update planning state of multiple rows at once in Prioritization page.
 
 

@@ -2,6 +2,7 @@
 title: Privacy Case Management
 description: The Governance, Risk, and Compliance: Privacy Case Management application enables you to report and manage privacy violations and complaints. The solution allows for the swift and efficient management of privacy breaches and complaints through collaboration with various teams which help in investigating the root cause and key details of the breach reported.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/privacy-case-management-overview.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -19,19 +20,19 @@ With the ability to integrate with other systems and record impacted areas, the 
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about how privacy managers, privacy users, and privacy administrators use the Privacy Case Management application.](integrating-privacy-management-with-ccm.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about how privacy managers, privacy users, and privacy administrators use the Privacy Case Management application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/integrating-privacy-management-with-ccm.md)
 
 </td><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Configure your Privacy Case Management application.](configuring-privacy-case-management.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure your Privacy Case Management application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/configuring-privacy-case-management.md)
 
 </td><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)](using-pcm.md) Work on creating privacy assessments, processing activities and so on.
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/using-pcm.md) Work on creating privacy assessments, processing activities and so on.
 
 </td></tr><tr><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg) Learn about the tables and roles that are installed with the Privacy Case Management application.](../reference/components-installed-with-pcm.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text: Learn about the tables and roles that are installed with the Privacy Case Management application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/components-installed-with-pcm.md)
 
 </td><td>
 

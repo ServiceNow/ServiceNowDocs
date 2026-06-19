@@ -2,6 +2,7 @@
 title: Export trained solutions to production
 description: Refine and test your ML solutions iteratively on a non-production instance, and then use update sets to export the changes to your production instance. This practice mitigates the risk of retraining solutions on your live production instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/predictive-intelligence/implement-iterative-solution-updates.html
 release: zurich
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -23,7 +24,7 @@ Role required: admin or ml\_admin
 
 ## About this task
 
-Plan your changes carefully, and remember that update sets match records based on the system ID \[sys-id\] and not the version number. Note that moving solutions to instances can sometimes deliver unpredictable results. If you run into such an issue, retrain the solution again, which takes 5 minutes per solution. For more information on update sets, see [System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=zurich&pubname=zurich-application-development&ft:locale=en-US) .
+Plan your changes carefully, and remember that update sets match records based on the system ID \[sys-id\] and not the version number. Note that moving solutions to instances can sometimes deliver unpredictable results. If you run into such an issue, retrain the solution again, which takes 5 minutes per solution. For more information on update sets, see System update sets .
 
 ## Procedure
 

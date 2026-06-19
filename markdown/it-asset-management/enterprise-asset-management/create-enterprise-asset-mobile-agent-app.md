@@ -2,6 +2,7 @@
 title: Create an enterprise asset in the Mobile Agent application
 description: Use the ServiceNow Mobile Agent application to create a serialized or multi-component enterprise asset.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/create-enterprise-asset-mobile-agent-app.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -21,7 +22,7 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
 ## About this task
 
-**Important:** The enterprise assets that you create through the Mobile Agent application can be associated only with enterprise models that are classified through the Enterprise good model \[sn\_ent\_model\] class within the Configuration Management Database \(CMDB\) class hierarchy. See [Expanded Model and Asset Classes Store application](../concept/enterprise-model-asset-classes-app.md) for more information on enterprise model classes.
+**Important:** The enterprise assets that you create through the Mobile Agent application can be associated only with enterprise models that are classified through the Enterprise good model \[sn\_ent\_model\] class within the Configuration Management Database \(CMDB\) class hierarchy. See [Expanded Model and Asset Classes Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/enterprise-model-asset-classes-app.md) for more information on enterprise model classes.
 
 ## Procedure
 
@@ -33,7 +34,7 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
     The home screen for the Enterprise Asset Management application opens.
 
-    ![Enterprise Asset Management home screen in the ServiceNow Mobile Agent application.](../image/eam-mobile-agent-app-home-screen.png)
+    \[Omitted image "eam-mobile-agent-app-home-screen.png"\] Alt text: Enterprise Asset Management home screen in the ServiceNow Mobile Agent application.
 
 3.  Tap **Create Asset**.
 
@@ -41,7 +42,7 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
 4.  If your enterprise asset contains a serial number, scan or enter the serial number to verify if the asset already exists.
 
-    If you want to skip this verification, tap the back arrow at the top left corner of the screen to proceed directly to the Create Asset form. You can then proceed either to [step 5](create-enterprise-asset-mobile-agent-app.md#verification-asset-tag) to verify the asset existence based on asset tags or to [step 6](create-enterprise-asset-mobile-agent-app.md#create-asset) to skip both verifications and continue with the asset creation process.
+    If you want to skip this verification, tap the back arrow at the top left corner of the screen to proceed directly to the Create Asset form. You can then proceed either to [step 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-enterprise-asset-mobile-agent-app.md) to verify the asset existence based on asset tags or to [step 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-enterprise-asset-mobile-agent-app.md) to skip both verifications and continue with the asset creation process.
 
     1.  Use the camera on your mobile device to scan the serial number.
 
@@ -64,10 +65,10 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
             6.  Verify all asset details for the given enterprise asset.
             7.  Update any asset details if needed.
-        -   If the enterprise asset does not already exist, proceed to [step 7](create-enterprise-asset-mobile-agent-app.md#more-options-menu) to continue with the asset creation process.
+        -   If the enterprise asset does not already exist, proceed to [step 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-enterprise-asset-mobile-agent-app.md) to continue with the asset creation process.
 5.  If your enterprise asset contains an asset tag, scan the asset tag or enter the asset tag value to verify if the asset already exists.
 
-    If you want to skip this verification, proceed directly to [step 6](create-enterprise-asset-mobile-agent-app.md#create-asset) to continue with the asset creation process.
+    If you want to skip this verification, proceed directly to [step 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-enterprise-asset-mobile-agent-app.md) to continue with the asset creation process.
 
     1.  On the Create Asset form, tap the **Asset Tag** field.
 
@@ -94,7 +95,7 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
             6.  Verify all asset details for the given enterprise asset.
             7.  Update any asset details if needed.
-        -   If the enterprise asset does not already exist, proceed to [step 7](create-enterprise-asset-mobile-agent-app.md#more-options-menu) to continue with the asset creation process.
+        -   If the enterprise asset does not already exist, proceed to [step 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-enterprise-asset-mobile-agent-app.md) to continue with the asset creation process.
 6.  On the Create Asset form, tap **Submit**.
 
     The complete list of your enterprise assets opens.
@@ -147,7 +148,7 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
     The **State** field on the Create Asset form automatically updates with the state that you selected. Based on this selected state, additional fields appear on the Create Asset form.
 
-13. Based on the enterprise asset state that you specified in [step 11](create-enterprise-asset-mobile-agent-app.md#asset-state), fill in the additional fields that appear on the Create Asset form.
+13. Based on the enterprise asset state that you specified in [step 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-enterprise-asset-mobile-agent-app.md), fill in the additional fields that appear on the Create Asset form.
 
 14. Tap **Submit**.
 

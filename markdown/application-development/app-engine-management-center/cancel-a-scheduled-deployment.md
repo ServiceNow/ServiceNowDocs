@@ -2,6 +2,7 @@
 title: Cancel a scheduled deployment in AEMC
 description: Cancel a scheduled app deployment in App Engine Management Center \(AEMC\) if you no longer need to deploy the app to production. Canceling the scheduled deployment request cancels the scheduled deployment and also the entire request itself.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-management-center/cancel-a-scheduled-deployment.html
 release: zurich
 product: App Engine Management Center
 classification: app-engine-management-center
@@ -28,5 +29,5 @@ Role required: admin
 3.  On the deployment request, select **Cancel deployment**.
 
 
-**Parent Topic:**[Managing deployments using Pipelines and Deployments](../concept/manage-deployments-using-p-and-d-aemc.md)
+**Parent Topic:**[Managing deployments using Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/manage-deployments-using-p-and-d-aemc.md)
 

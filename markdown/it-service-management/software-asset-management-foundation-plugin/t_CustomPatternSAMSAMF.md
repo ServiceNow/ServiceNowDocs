@@ -2,6 +2,7 @@
 title: Customize a Discovery pattern for Software Asset Management Foundation plugin
 description: Software Asset Management Foundation plugin automatically leverages SQL Server, Exchange, and Oracle Database Discovery patterns, but you can perform steps for Software Asset Management Foundation plugin to utilize additional Discovery patterns, if needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/software-asset-management-foundation-plugin/t\_CustomPatternSAMSAMF.html
 release: zurich
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
@@ -21,11 +22,11 @@ Role required: sam\_admin
 
 ## About this task
 
-Discovery uses a series of scripts and operations \(probes, sensors, and patterns\) with the base system to collect data, process it, and update the CMDB. Although Software Asset Management Foundation plugin is already set up to utilize three common patterns \([MSSQL server discovery](https://www.servicenow.com/docs/access?context=mssql-data-collected-pattern&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US), [Exchange MailBox discovery](https://www.servicenow.com/docs/access?context=r-ExchangeMailBox&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US), and [Oracle database discovery](https://www.servicenow.com/docs/access?context=c_OracleDatabaseDiscovery&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)\), you can perform a configuration procedure to include additional patterns.
+Discovery uses a series of scripts and operations \(probes, sensors, and patterns\) with the base system to collect data, process it, and update the CMDB. Although Software Asset Management Foundation plugin is already set up to utilize three common patterns \(MSSQL server discovery, Exchange MailBox discovery, and Oracle database discovery\), you can perform a configuration procedure to include additional patterns.
 
 This customization automatically copies the records from the discovered pattern to the Software Installation \[cmdb\_sam\_sw\_install\] table so Software Asset Management Foundation plugin can utilize this data for reconciliation.
 
-For more information on pattern customization, see [Discovery patterns used by ITOM Visibility](https://www.servicenow.com/docs/access?context=c_MappingPatternsCustomization&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+For more information on pattern customization, see Discovery patterns used by ITOM Visibility.
 
 ## Procedure
 
@@ -93,7 +94,7 @@ Product name \(for example, MySQL\).
 
 ## What to do next
 
-If the software product has an edition that is not being discovered, [Manually override SAM Foundation edition value](t_ManOverrideEditionSAMF.md) so the software can be successfully reconciled.
+If the software product has an edition that is not being discovered, [Manually override SAM Foundation edition value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/t_ManOverrideEditionSAMF.md) so the software can be successfully reconciled.
 
-**Parent Topic:**[Setting up Software Asset Management Foundation plugin](t_SAMSetupSAMF.md)
+**Parent Topic:**[Setting up Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/t_SAMSetupSAMF.md)
 

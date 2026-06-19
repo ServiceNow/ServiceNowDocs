@@ -2,6 +2,7 @@
 title: Create a vendor ticket in Vendor Management Workspace
 description: Create vendor tickets to monitor how quickly your vendors resolve issues for your products and services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/vendor-management-workspace/create-vendor-ticketing-vendor-management-workspace.html
 release: zurich
 product: Vendor Management Workspace
 classification: vendor-management-workspace

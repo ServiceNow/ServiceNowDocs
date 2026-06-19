@@ -2,6 +2,7 @@
 title: Example 4: Update a record in an external source
 description: In this example, we create a script to update an incident record in the external source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/remote-tables/remote-table-script-def-example4.html
 release: zurich
 product: Remote Tables
 classification: remote-tables
@@ -19,9 +20,9 @@ In this example, we create a script to update an incident record in the external
 
 For Remote Table API information, refer to:
 
--   [v\_query – Scoped, Global](https://www.servicenow.com/docs/access?context=v_queryAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
--   [v\_record - Scoped, Global](https://www.servicenow.com/docs/access?context=v_recordAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
--   [v\_table – Scoped, Global](https://www.servicenow.com/docs/access?context=v_tableAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+-   
+-   
+-   
 
 v\_changed\_fields is a map of changed field names and values.
 
@@ -48,5 +49,5 @@ v\_changed\_fields is a map of changed field names and values.
 })(v_record, v_changed_fields);
 ```
 
-**Parent Topic:**[Create script definitions for a remote table](../task/create-remote-table-script.md)
+**Parent Topic:**[Create script definitions for a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/remote-tables/create-remote-table-script.md)
 

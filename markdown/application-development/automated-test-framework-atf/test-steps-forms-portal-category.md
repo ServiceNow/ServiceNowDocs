@@ -2,6 +2,7 @@
 title: Forms in Service Portal category
 description: Validate the functionality of fields and UI actions in Service Portal form widgets.Opens a form in a portal.Sets the values of fields in a form. To use this step, you must have already opened a form using the Open a Form \(SP\) test step.Validates field values on the current form based on defined conditions. To use this step, you must have already opened a form using the Open a Form \(SP\) test step.Validates field states on a form in Service Portal.Test the functionality of attaching a file to a Service Portal form widget.Determines whether a UI action on the current Service Portal form is visible. To use this step, you must have already opened a form using the Open a Form \(SP\) test step.Selects a UI action on the current Service Portal form and outputs the table and sys\_id of the record on which the action was selected.Submits the current form in a Service Portal page and outputs the table and sys\_id of the submitted record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/test-steps-forms-portal-category.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -23,7 +24,7 @@ Creating automated Service Portal steps requires knowledge of the ServiceNow dat
 
 Opens a form in a portal.
 
-Use this step for the base system Form page. For custom form pages, use the [Open Service Portal Page](test-steps-custom-ui-category.md#) step from the Custom UI category.
+Use this step for the base system Form page. For custom form pages, use the [Open Service Portal Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/test-steps-custom-ui-category.md) step from the Custom UI category.
 
 <table id="table_vkh_2rc_vbb"><thead><tr><th>
 

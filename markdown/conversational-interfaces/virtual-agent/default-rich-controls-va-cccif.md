@@ -2,6 +2,7 @@
 title: Default input and output rich controls for a custom chat integration
 description: Input and output rich controls must be mapped to your custom chat integration in the Custom Adapter Configurations \[sys\_cs\_custom\_adapter\_config\] table. If a rich control is missing an outbound transformer implementation, a response is not served to the end user and that user may get an unsatisfactory chat experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/default-rich-controls-va-cccif.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -69,7 +70,7 @@ DefaultPicker
 
 </td><td>
 
-Maps to [File Picker](va-file-picker.md), Topic Picker, and [Boolean](va-boolean-user-input.md) controls.Example:
+Maps to [File Picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-file-picker.md), Topic Picker, and [Boolean](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-boolean-user-input.md) controls.Example:
 
 ```
 {
@@ -123,7 +124,7 @@ DefaultText
 
 </td><td>
 
-Maps to [Input Text](va-text-input.md), [Output Text](va-text-response.md), and File Upload controls.Example:
+Maps to [Input Text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-text-input.md), [Output Text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-text-response.md), and File Upload controls.Example:
 
 ```
 {
@@ -143,7 +144,7 @@ DefaultDate
 
 </td><td>
 
-Maps to [Date and Time](va-date-time-input.md) controls.```
+Maps to [Date and Time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-date-time-input.md) controls.```
 {
     uiType: "Date/DateTime/Time",
     group: "DefaultDate", 
@@ -160,7 +161,7 @@ DefaultOutputLink
 
 </td><td>
 
-Maps to [link response](va-link-output.md) controls.Example:
+Maps to [link response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-link-output.md) controls.Example:
 
 ```
 {
@@ -183,7 +184,7 @@ DefaultOutputImage
 
 </td><td>
 
-Maps to [image response](va-image-output.md) controls.Example:
+Maps to [image response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-image-output.md) controls.Example:
 
 ```
 {
@@ -199,7 +200,7 @@ DefaultOutputCard
 
 </td><td>
 
-Maps to [card response](va-card-output.md) controls.Example:
+Maps to [card response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-card-output.md) controls.Example:
 
 ```
 {
@@ -216,7 +217,7 @@ DefaultOutputHtml
 
 </td><td>
 
-Maps to [HTML response](va-html-output.md) controls.Example:
+Maps to [HTML response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-html-output.md) controls.Example:
 
 ```
 {
@@ -235,7 +236,7 @@ DefaultOutputTable
 
 </td><td>
 
-Maps to [table response](table-bot-response.md) controls.Example:
+Maps to [table response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/table-bot-response.md) controls.Example:
 
 ```
 {
@@ -257,7 +258,7 @@ DefaultGroupedPartsOutputControl
 
 </td><td>
 
-Maps to [multi-response](va-multi-flow-output.md) controls.Example:
+Maps to [multi-response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-multi-flow-output.md) controls.Example:
 
 ```
 {
@@ -283,7 +284,7 @@ DefaultMultiPartOutput
 
 </td><td>
 
-Maps to [multi-response](va-multi-flow-output.md) controls.Example:
+Maps to [multi-response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-multi-flow-output.md) controls.Example:
 
 ```
 {
@@ -307,7 +308,7 @@ DefaultCustomControl
 
 </td><td>
 
-Maps to [custom controls](va-custom-control-util.md).Example:
+Maps to [custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-custom-control-util.md).Example:
 
 ```
 {
@@ -322,5 +323,5 @@ Maps to [custom controls](va-custom-control-util.md).Example:
 ```
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Creating conversational custom chat integrations in Virtual Agent](../concept/va-custom-adapter-framework.md)
+</table>**Parent Topic:**[Creating conversational custom chat integrations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-custom-adapter-framework.md)
 

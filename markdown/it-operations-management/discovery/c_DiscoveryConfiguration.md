@@ -2,6 +2,7 @@
 title: Configuring Discovery
 description: Configure the elements that Discovery requires to investigate your network, such as credentials, schedules, and IP addresses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/c\_DiscoveryConfiguration.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -21,39 +22,39 @@ Discovery can run on a regular, configurable schedule, or can be launched manual
 
 ## Discovery configuration procedures
 
-Use the following links to configure Discovery for your environment. You do not need to perform all these procedures to run a Discovery. The platform provides many defaults you can use to explore your network that are suitable for most discoveries. To get started quickly with Discovery, you can use Guided Setup, which expedites the setup of a basic Discovery.
+Use the following links to configure Discovery for your environment. You don't need to perform all these procedures to run a Discovery. The platform provides many defaults you can use to explore your network that are suitable for most discoveries. To get started quickly with Discovery, you can use the ITOM Configuration Console, which offers a faster way to install and update apps, with interactive configuration pages, task assignment, and automated implementation by Now Assist. For more information, see [ITOM Configuration Console for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/itom-conf-console.md).
 
 <table id="table_c4r_ztp_2cb"><tbody><tr><td>
 
-[Discovery IP address configuration](../reference/discovery-ip-address-configuration.md#)
+[Discovery IP address configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-ip-address-configuration.md)
 
 </td><td>
 
-[Discovery classifiers](discovery-classifiers.md)
+[Discovery classifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-classifiers.md)
 
 </td><td>
 
-[Discovery status](c_DiscoveryStatus.md)
+[Discovery status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_DiscoveryStatus.md)
 
 </td></tr><tr><td>
 
-[Domain Separation and Discovery](c_DiscoveryDomainSeparation.md)
+[Domain Separation and Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_DiscoveryDomainSeparation.md)
 
 </td><td>
 
-[Discovery classification parameters](../reference/classification-parameters.md)
+[Discovery classification parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/classification-parameters.md)
 
 </td><td>
 
-[Discovery Configuration Console](c_DiscoveryConfigurationConsole.md#)
+[Discovery Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_DiscoveryConfigurationConsole.md)
 
 </td></tr><tr><td>
 
-[SNMP support for Discovery](c_SNMPSupportForDiscovery.md#)
+[SNMP support for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_SNMPSupportForDiscovery.md)
 
 </td><td>
 
-[Discovery identifiers](c_DiscoveryIdentifiers.md)
+[Discovery identifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_DiscoveryIdentifiers.md)
 
 </td><td>
 
@@ -61,15 +62,15 @@ Use the following links to configure Discovery for your environment. You do not 
 
 </td></tr><tr><td>
 
-[Discovery and SCCM together](c_DiscoveryAndSCCMTogether.md#)
+[Discovery and SCCM together](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_DiscoveryAndSCCMTogether.md)
 
 </td><td>
 
-[Discovery properties](../reference/r_DiscoveryProperties.md)
+[Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_DiscoveryProperties.md)
 
 </td><td>
 
-[Discovery Home page](discovery-home-page.md#)
+[Discovery Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-home-page.md)
 
 </td></tr></tbody>
 </table>

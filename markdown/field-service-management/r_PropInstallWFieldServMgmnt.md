@@ -2,7 +2,10 @@
 title: Properties installed with Field Service Management
 description: System properties provided with the Field Service Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/r\_PropInstallWFieldServMgmnt.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 19
@@ -67,7 +70,7 @@ work.management.allow.auto.metric\_cleanup
 
 </td><td>
 
-The frequency in number of days that the metric instance table should be purged of [work order task](../../field-service-management/concept/close-wo-wot-mobile.md#) information to avoid an unnecessary amount of data in the table.-   Type: Integer
+The frequency in number of days that the metric instance table should be purged of [work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/close-wo-wot-mobile.md) information to avoid an unnecessary amount of data in the table.-   Type: Integer
 -   Default value: 365
 -   Location: System Properties list \[sys\_properties\] table
 
@@ -383,7 +386,7 @@ Requires geolocation to be used to calculate the estimated travel time for dynam
 -   Default value: true
 -   Location: **Field Service** &gt; **Administration** &gt; **Properties** &gt; **Dispatch Properties for** Field Service Management
 
- **Note:** To use the Google Maps API with dynamic scheduling, you must also enable the **Use Google for travel time and traffic data** check box on the [Dynamic Scheduling Configuration](../../field-service-management/task/create-dynamic-scheduling-config.md#) form.
+ **Note:** To use the Google Maps API with dynamic scheduling, you must also enable the **Use Google for travel time and traffic data** check box on the [Dynamic Scheduling Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md) form.
 
 </td></tr><tr><td>
 
@@ -1113,5 +1116,5 @@ Mobile live location\[sn\_fsm\_mobile\_live\_location\_view​\]
 Mobile live location of Field Service agents.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Field Service Management](r_InstalledWithFSM.md)
+</table>**Parent Topic:**[Components installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/r_InstalledWithFSM.md)
 

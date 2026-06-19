@@ -2,6 +2,7 @@
 title: Properties of the Loops components
 description: Learn about the properties of the Loops components in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/loops-properties.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -27,5 +28,5 @@ Learn about the properties of the Loops components in RPA Desktop Design Studio.
 |Delay for each Execution|Waiting time, in seconds, for each step performed until the ForLoop ends.|
 |Increment By|Number, which increments, in the From and To boxes in the component.|
 
-**Parent Topic:**[Loops](../concept/loops.md)
+**Parent Topic:**[Loops](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/loops.md)
 

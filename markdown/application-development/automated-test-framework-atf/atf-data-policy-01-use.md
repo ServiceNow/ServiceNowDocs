@@ -2,6 +2,7 @@
 title: Automated Test Framework use case: test a data policy
 description: This use case illustrates testing a data policy with the Automated Test Framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/atf-data-policy-01-use.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -23,9 +24,9 @@ Role required: atf\_test\_admin
 
 This example tests the data policy that sets the field **Assignment Group** to **mandatory** if **impact** is **high**.
 
-![Data Policy Rules form for the data policy record being tested.](../image/atf-use-data-policy-02.png "Automated Test Framework: Data policy being tested")
+\[Omitted image "atf-use-data-policy-02.png"\] Alt text: Data Policy Rules form for the data policy record being tested.
 
-![Test steps for data policy example.](../image/atf-data-policy-01-steps.png "Automated Test Framework: Data policy example")
+\[Omitted image "atf-data-policy-01-steps.png"\] Alt text: Test steps for data policy example.
 
 ## Procedure
 
@@ -33,32 +34,32 @@ This example tests the data policy that sets the field **Assignment Group** to *
 
     In this example, the step impersonates an admin user.
 
-    ![Impersonate test step for data policy example.](../image/atf-use-data-policy-03.png "Step 1 - Impersonate")
+    \[Omitted image "atf-use-data-policy-03.png"\] Alt text: Impersonate test step for data policy example.
 
 2.  Open a form for the table to which this data policy applies.
 
     This example opens a new incident form.
 
-    ![Test Step form for the Open a New Form test step.](../image/atf-use-data-policy-04.png "Step 2 - Open a New Form")
+    \[Omitted image "atf-use-data-policy-04.png"\] Alt text: Test Step form for the Open a New Form test step.
 
 3.  Check that the data policy has not yet been triggered.
 
     In this example, the step checks to confirm that **Assignment group** is not **mandatory**.
 
-    ![Test Step form for the Field State Validation test step.](../image/atf-use-data-policy-05.png "Step 3 - Field State Validation")
+    \[Omitted image "atf-use-data-policy-05.png"\] Alt text: Test Step form for the Field State Validation test step.
 
 4.  If applicable, set the conditions that trigger the data policy.
 
     This example sets **Impact** to **High**.
 
-    ![Test Step form for the Set Field Values test step.](../image/atf-use-data-policy-06.png "Step 4 - Set Field Values")
+    \[Omitted image "atf-use-data-policy-06.png"\] Alt text: Test Step form for the Set Field Values test step.
 
 5.  Validate that the data policy is enforced.
 
     In this example, the test confirms that the data policy set **Assignment group** to **High** after the previous step set **Impact** to **High**.
 
-    ![Test Step form for Field State Validation.](../image/atf-use-data-policy-07.png "Step 5 - Field State Validation")
+    \[Omitted image "atf-use-data-policy-07.png"\] Alt text: Test Step form for Field State Validation.
 
 
-**Parent Topic:**[Automated Test Framework use case examples](../concept/atf-use-cases.md)
+**Parent Topic:**[Automated Test Framework use case examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-use-cases.md)
 

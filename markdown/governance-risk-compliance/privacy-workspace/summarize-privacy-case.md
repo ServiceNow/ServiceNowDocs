@@ -2,6 +2,7 @@
 title: Summarize a privacy case using the GRC case summarization skill
 description: Use the GRC case summarization skill to generate an AI summary of a privacy case. The summary provides a consolidated view of the case life cycle, including breach-related assessment activity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/summarize-privacy-case.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -17,7 +18,7 @@ Use the GRC case summarization skill to generate an AI summary of a privacy case
 
 ## Before you begin
 
-Install the Now Assist for Privacy Management application. For more information, see [Install Now Assist for Privacy Management](privacy-install-now-assist.md).
+Install the Now Assist for Privacy Management application. For more information, see [Install Now Assist for Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/privacy-install-now-assist.md).
 
 Role required:
 
@@ -29,7 +30,7 @@ Role required:
 
 ## About this task
 
-**Important:** This skill is turned on by default if you have Now Assist for Privacy Management installed. The skill is automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Important:** This skill is turned on by default if you have Now Assist for Privacy Management installed. The skill is automatically available to appropriate role users for the application. For more information, see .
 
 Privacy cases can involve multiple coordinators, complex activity logs, and breach assessments. The GRC case summarization skill generates a concise AI summary of key case details, so assignees and approvers can quickly understand the context and support efficient decision-making.
 
@@ -37,7 +38,7 @@ The skill collects data from predefined fields and related lists across the priv
 
 **Important:** Be sure to check AI-generated summaries for accuracy.
 
-If the **Summarize** option isn’t visible, an admin has to activate the skill from the Now Assist Admin console. For more information, refer to [Activate the GRC case summarization skill](../../now-assist-irm/task/activate-grc-case-summarization-skill.md).
+If the **Summarize** option isn’t visible, an admin has to activate the skill from the Now Assist Admin console. For more information, refer to [Activate the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/activate-grc-case-summarization-skill.md).
 
 ## Procedure
 
@@ -47,25 +48,25 @@ If the **Summarize** option isn’t visible, an admin has to activate the skill 
 
 3.  Select **All cases**.
 
-4.  Open the privacy record that you want to summarize.
+4.  Open the privacy case record that you want to summarize.
 
 5.  Navigate to the **Overview** tab.
 
 6.  Select **Summarize**.
 
-    The summary is displayed. For a description of each section included in it, see [Components of a privacy case summary](../concept/privacy-case-summarization-skill.md#section_rfw_5rz_k3c).
+    The summary is displayed. For a description of each section included in it, see [Components of a privacy case summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/privacy-case-summarization-skill.md).
 
 7.  Review the summary and complete any of the following options.
 
-<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d95682e228">
+<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d99371e227">
 
 Option
 
-</th><th align="left" id="d95682e231">
+</th><th align="left" id="d99371e230">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d95682e237">
+</th></tr></thead><tbody><tr><td id="d99371e236">
 
 **Edit or save the summary**
 
@@ -77,17 +78,17 @@ Description
 
 Once saved to the case record, the summary appears in the **Overview** tab and in the **Activity** stream of the **Details** tab.
 
-</td></tr><tr><td id="d95682e275">
+</td></tr><tr><td id="d99371e274">
 
 **View information about the summary**
 
 </td><td>
 
-Select the information icon \(![Info icon](../../grc-common/image/icon-more-info.png)\) next to **Privacy case summarized by Now Assist** to view a disclaimer about AI-generated content:
+Select the information icon \(\[Omitted image "icon-more-info.png"\] Alt text: Info icon\) next to **Privacy case summarized by Now Assist** to view a disclaimer about AI-generated content:
 
- **"AI summarized this using the record details. Check it for accuracy.**
+ **"AI summarized this using the record details. Check it for accuracy."**
 
-</td></tr><tr><td id="d95682e300">
+</td></tr><tr><td id="d99371e299">
 
 **Expand or collapse the summary card**
 
@@ -95,33 +96,33 @@ Select the information icon \(![Info icon](../../grc-common/image/icon-more-info
 
 Select **View less** to partially collapse the summary, or **View more** to expand it.
 
- Alternatively, select the **Expand card** icon \(![Expand icon.](4c8d6af8f04ca00074f757d1124e0f66858f9bd4.png)\) or **Collapse card** icon \(![Collapse icon.](8cffa3bcc1d964159f63fea32116e02fa88b6445.png)\) next to **Share to case summary** to fully expand or collapse the summary.
+ Alternatively, select the **Expand card** icon \(\[Omitted image "4c8d6af8f04ca00074f757d1124e0f66858f9bd4.png"\] Alt text: Expand icon.\) or **Collapse card** icon \(\[Omitted image "8cffa3bcc1d964159f63fea32116e02fa88b6445.png"\] Alt text: Collapse icon.\) next to **Share to case summary** to fully expand or collapse the summary.
 
-</td></tr><tr><td id="d95682e342">
+</td></tr><tr><td id="d99371e341">
 
 **Provide feedback**
 
 </td><td>
 
-Select the helpful icon \(![Helpful icon.](a3961a217c6c42794d87b70ca50a5c4e51637db4.png)\) for positive feedback. Select the not helpful icon \(![Not helpful icon.](a8538f6374f4f5e87b48dc63f04908d721aa1789.png)\) if the summary wasn't helpful.
+Select the helpful icon \(\[Omitted image "a3961a217c6c42794d87b70ca50a5c4e51637db4.png"\] Alt text: Helpful icon.\) for positive feedback. Select the not helpful icon \(\[Omitted image "a8538f6374f4f5e87b48dc63f04908d721aa1789.png"\] Alt text: Not helpful icon.\) if the summary wasn't helpful.
 
  **Note:** User feedback doesn't affect future LLM outputs. It’s collected by ServiceNow® for internal quality monitoring only.
 
-</td></tr><tr><td id="d95682e374">
+</td></tr><tr><td id="d99371e373">
 
 **Copy the summary**
 
 </td><td>
 
-Select the copy icon \(![Copy icon.](0e923b11ae593b3c5240d2fab57b32bca386c59d.png)\) to copy the summary to the clipboard.
+Select the copy icon \(\[Omitted image "0e923b11ae593b3c5240d2fab57b32bca386c59d.png"\] Alt text: Copy icon.\) to copy the summary to the clipboard.
 
-</td></tr><tr><td id="d95682e392">
+</td></tr><tr><td id="d99371e391">
 
 **Regenerate the summary**
 
 </td><td>
 
-If you think that data might have changed after you viewed the summary, select the refresh icon ![](../../grc-risk/image/refresh-icon.jpg) to regenerate the summary information.
+If you think that data might have changed after you viewed the summary, select the refresh icon \[Omitted image "refresh-icon.jpg"\] Alt text: to regenerate the summary information.
 
 </td></tr></tbody>
 </table>

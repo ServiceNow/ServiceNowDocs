@@ -2,6 +2,7 @@
 title: View neighborhoods in Workplace Core
 description: View existing neighborhoods with assigned spaces and user allocation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-core/view-neighborhood-core.html
 release: zurich
 product: Workplace Core
 classification: workplace-core
@@ -62,7 +63,7 @@ Filter
 
 Filter to show the number of matching records that match the conditions in the condition builder.The space planner can assign spaces in a neighborhood based on department, business unit, cost center, or group.
 
-For more information about filters, see [Filter condition builder](https://www.servicenow.com/docs/access?context=create-cond-state-using-cond-build&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+For more information about filters, see Filter condition builder.
 
 </td></tr><tr><td>
 
@@ -121,7 +122,7 @@ Neighborhood
 
 </td><td>
 
-Neighborhood field. Select a neighborhood using the lookup list icon \(![Lookup list icon](../../workplace-case-mgmt/image/search-icon.png)\) to search for available neighborhoods.
+Neighborhood field. Select a neighborhood using the lookup list icon \(\[Omitted image "search-icon.png"\] Alt text: Lookup list icon\) to search for available neighborhoods.
 
 </td></tr><tr><td>
 
@@ -170,7 +171,7 @@ Option to make users active in a neighborhood.
 
 10. Select the **Execute User Assignments** tab to trigger all assignment rules \(users to added or removed space allocation\) to this neighborhood directly.
 
-    ![Neighborhood with assigned users and spaces](../images/neighborhood-auto-assigned.png "Neighborhood showing allocated spaces and users")
+    \[Omitted image "neighborhood-auto-assigned.png"\] Alt text: Neighborhood with assigned users and spaces
 
     **Note:** Neighborhood assignments are applicable if **Neighborhood** is selected as the group by or view by option in a scenario or building overview. Location assignments are applicable for all other options.
 
@@ -185,12 +186,12 @@ Option to make users active in a neighborhood.
 
         Workplace Profile records are updated, added, or removed. A move task is initiated for employees who have a new space allocation and who are moved from one floor to another.
 
-11. To create and manage a neighborhood in Workplace Central for a scenario, see [Create a scenario](../../workplace-central/task/create-a-scenario.md).
+11. To create and manage a neighborhood in Workplace Central for a scenario, see [Create a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
-12. To view and reserve spaces in a neighborhood using the Reservation Management portal, see [Create neighborhood reservations](../../wsd-reservation-management/task/create-neighborhood-reservations.md).
+12. To view and reserve spaces in a neighborhood using the Reservation Management portal, see [Create neighborhood reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/create-neighborhood-reservations.md).
 
-13. To add a user to the neighborhood, refer to [Add a user to the neighborhood](add-a-user-to-neighbourhood.md).
+13. To add a user to the neighborhood, refer to [Add a user to the neighborhood](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/add-a-user-to-neighbourhood.md).
 
 
-**Parent Topic:**[Managing Neighborhoods](../concept/neighborhoods.md)
+**Parent Topic:**[Managing Neighborhoods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/neighborhoods.md)
 

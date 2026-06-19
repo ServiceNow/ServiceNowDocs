@@ -2,6 +2,7 @@
 title: Chief Procurement Officer Dashboard pillars
 description: Organizing insights across these pillars enables procurement leaders to drive cost efficiency, improve operational throughput, strengthen supplier engagements, and maintain contract compliance across the enterprise.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/cpro-dashboard-tab.html
 release: zurich
 topic_type: reference
 last_updated: "2025-09-01"
@@ -126,7 +127,7 @@ Contract lifecycle management &amp; renewals
 Provides insight into upcoming renewals and expirations to ensure timely contract actions, mitigate risk, and maintain business continuity.
 
 </td></tr></tbody>
-</table>![](../image/cpro-db-tab.png)
+</table>\[Omitted image "cpro-db-tab.png"\] Alt text:
 
 ## CPRO Dashboard overview
 

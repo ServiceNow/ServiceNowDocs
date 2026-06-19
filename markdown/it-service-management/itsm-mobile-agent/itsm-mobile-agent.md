@@ -2,6 +2,7 @@
 title: ITSM Mobile Agent
 description: The ServiceNow ITSM Mobile Agent app delivers base system mobile-first experiences designed for IT agents to triage, act on, and resolve incidents on the go.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/itsm-mobile-agent.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -19,35 +20,33 @@ The ServiceNow® ITSM Mobile Agent app delivers base system mobile-first experie
 
 Watch this three-minute video to learn more about ITSM Mobile Agent. This video covers the ITSM Mobile Agent app overview, installation, and information on how to access the app.
 
-Overview of the ITSM Mobile Agent application.
-
 ## Get started
 
 ITSM Mobile Agent assists IT agents with an intuitive interface to manage all their work, view schedules, check who is on call, respond to major incidents, and more. The agent can also view incident details and activity; edit an incident and add comments; resolve, assign, or reassign an incident; and view incident notifications.
 
 <table id="table_vth_41n_fzb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about ITSM Mobile Agent concepts, features, and User roles.](exploring-itsm-mobile-agent.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about ITSM Mobile Agent concepts, features, and User roles.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-mobile-agent/exploring-itsm-mobile-agent.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-optimize-manage.svg)Configure environment tools and user access. Configure and enable push notifications.](configuring-itsm-mobile-agent.md)
+[Configure\[Omitted image "bus-optimize-manage.svg"\] Alt text:Configure environment tools and user access. Configure and enable push notifications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-mobile-agent/configuring-itsm-mobile-agent.md)
 
 </td><td>
 
-[My work applet![](../../../reuse/icons/brand-icons/bus-events.svg)Create and manage incidents assigned to you. View your shift schedule and request time off.](my-work-application.md)
+[My work applet\[Omitted image "bus-events.svg"\] Alt text:Create and manage incidents assigned to you. View your shift schedule and request time off.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-mobile-agent/my-work-application.md)
 
 </td></tr><tr><td>
 
-[My team applet![](../../../reuse/icons/brand-icons/bus-monitor.svg)Manage groups and shifts, view group performance and time-off requests. Resolve conflicts and gaps by providing coverage.](my-team-application.md)
+[My team applet\[Omitted image "bus-monitor.svg"\] Alt text:Manage groups and shifts, view group performance and time-off requests. Resolve conflicts and gaps by providing coverage.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-mobile-agent/my-team-application.md)
 
 </td><td>
 
-[Manage major incidents![](../../../reuse/icons/brand-icons/bus-improve-it-costs.svg)View active major incidents, proposed major incidents, candidates, and the Major incidents dashboard.](mim-mobile.md)
+[Manage major incidents\[Omitted image "bus-improve-it-costs.svg"\] Alt text:View active major incidents, proposed major incidents, candidates, and the Major incidents dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-mobile-agent/mim-mobile.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Settings and domain information about ITSM Mobile agent.](reference-for-itsm-mobile-agent.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Settings and domain information about ITSM Mobile agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-mobile-agent/reference-for-itsm-mobile-agent.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

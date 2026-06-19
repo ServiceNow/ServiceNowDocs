@@ -2,6 +2,7 @@
 title: Viewing rule activities
 description: View a summary of records in the backlog and the execution history for a specific rule on the table in context.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/data-management-rule-activities.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -19,7 +20,7 @@ View a summary of records in the backlog and the execution history for a specifi
 -   Track the backlog of records that meet the rule's conditions but haven't been processed yet.
 -   View a detailed summary of the rule's execution history.
 
-![Viewing a table's rule activities.](../image/dmc-rule-activities.png "Viewing rule activities")
+\[Omitted image "dmc-rule-activities.png"\] Alt text: Viewing a table's rule activities.
 
 ## Required ServiceNow AI Platform roles
 

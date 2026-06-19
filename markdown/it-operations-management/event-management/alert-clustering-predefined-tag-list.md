@@ -2,6 +2,7 @@
 title: List of predefined alert grouping tags
 description: A list of the predefined alert clustering tags provided with the Tag Based Alert Clustering Engine  application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/alert-clustering-predefined-tag-list.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -43,5 +44,5 @@ A list of the predefined alert clustering tags provided with the Tag Based Alert
 |t\_environment|Environment|cmdb\_ci.environment|
 |t\_namespace|Namespace|cmdb\_ci.namespace|
 
-**Parent Topic:**[Event Management reference](event-management-reference.md)
+**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/event-management-reference.md)
 

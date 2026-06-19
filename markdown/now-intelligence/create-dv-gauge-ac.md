@@ -2,6 +2,7 @@
 title: Create a gauge data visualization in the Visualization Designer
 description: A gauge visualization shows where a value lies between expected minimum and maximum values. Use the gauge visualization to follow progress with color-coded value ranges.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/create-dv-gauge-ac.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -16,7 +17,7 @@ A gauge visualization shows where a value lies between expected minimum and maxi
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../concept/report-view-access-control.md) and [Platform Analytics roles](../../par-for-workspace/reference/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -30,7 +31,7 @@ For information about the use of a Gauge visualization in a dashboard, see [the 
 
 2.  Select **Create data visualization**.
 
-3.  Select the Gauge \(![dial gauge icon](../image/icon-dial-gauge-ac.png)\) visualization type.
+3.  Select the Gauge \(\[Omitted image "icon-dial-gauge-ac.png"\] Alt text: dial gauge icon\) visualization type.
 
 4.  Configure the **Header and border**. Header and border options are the same for all data sources.
 
@@ -157,32 +158,32 @@ Specify the text color of the title. The default title color is black, but you c
 </td></tr></tbody>
 </table>5.  Choose a data source.
 
-    For general descriptions of the data sources, see [Data sources for data visualizations](../../par-for-workspace/reference/data-sources-visualizations.md).
+    For general descriptions of the data sources, see [Data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/data-sources-visualizations.md).
 
     -   Table \(available in the base system\). When you select a table, you can filter it by custom or preconfigured conditions. Custom conditions can include questions or Service Catalog variables.
 
-        Configured report sources appear in the **Predefined conditions** list. For more information, see [Report sources](../concept/c_ReportSources.md#).
+        Configured report sources appear in the **Predefined conditions** list. For more information, see [Report sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_ReportSources.md).
 
         To help you create a custom filter, there is a preview list of records that would be included in the visualization. You can change which fields are shown as columns and the width of columns in the list actions.
 
-        ![Preview record list for table source data visualization with list actions shown.](../../par-for-workspace/image/dv-preview-edit-cols.png)
+        \[Omitted image "dv-preview-edit-cols.png"\] Alt text: Preview record list for table source data visualization with list actions shown.
 
     -   Indicator \(available in the base system\). You can filter the indicator scores by breakdowns and elements.
 
         **Note:** Benchmark indicators are not supported.
 
-        ![Conditional filter for indicator data source on data visualization.](../../performance-analytics/image/dv-ind-source-con-filter.png)
+        \[Omitted image "dv-ind-source-con-filter.png"\] Alt text: Conditional filter for indicator data source on data visualization.
 
         **Note:**
 
-        You might have a multiple select \(is one of\) or dynamic \(is \(dynamic\)\) operator on the breakdown element filter. These operators require the indicator and breakdown to support them. For more information about the configurations that support these operators, see ["Is one of" and "Is \(Dynamic\)" operators on breakdown conditions in data visualizations](../../performance-analytics/concept/condition-operators-ind-bkdowns.md#section_breakdown-operators).
+        You might have a multiple select \(is one of\) or dynamic \(is \(dynamic\)\) operator on the breakdown element filter. These operators require the indicator and breakdown to support them. For more information about the configurations that support these operators, see ["Is one of" and "Is \(Dynamic\)" operators on breakdown conditions in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/condition-operators-ind-bkdowns.md).
 
-    -   User Experience Analytics \(available with the User Experience PAR Integration application, to users with a required role\). Choose one of up to three KPIs included with this application, depending on the visualization type. For more information, see [User Experience Analytics data sources for data visualizations](../../performance-analytics/concept/uxa-data-sources.md).
+    -   Usage Insights \(available with the User Experience PAR Integration application, to users with a required role\). Choose one of up to three KPIs included with this application, depending on the visualization type. For more information, see [User Experience Analytics data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/uxa-data-sources.md).
 6.  Select the options for your data source.
 
-    -   If your visualization represents table data, go to [Table data options for gauge data visualizations](../reference/config-dv-gauge-table-data.md).
-    -   If your visualization represents indicator data, go to [Indicator data options for gauge data visualizations](../reference/config-dv-gauge-ind-data.md).
-    -   If your visualization represents User Experience Analytics data, go to [User Experience Analytics data options for gauge visualizations](../reference/config-dv-gauge-uxa-data.md).
+    -   If your visualization represents table data, go to [Table data options for gauge data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/config-dv-gauge-table-data.md).
+    -   If your visualization represents indicator data, go to [Indicator data options for gauge data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/config-dv-gauge-ind-data.md).
+    -   If your visualization represents Usage Insights data, go to [Usage Insights data options for gauge visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/config-dv-gauge-uxa-data.md).
 7.  Under **Presentation**, provide display and color information.
 
 <table id="table_gvk_2mr_qtb"><thead><tr><th>
@@ -371,7 +372,7 @@ Action
 
 Choose the event that occurs when a user clicks in a chart or one of its segments. Choices depend on the visualization type and data source. Applies only when **Allow chart interaction** \[chartInteractionEnabled\] is true. -   **Go to data view** opens the records view in a Core UI list or KPI Details relevant to the associated segment or visualization. Records do not open in Workspace embedded lists.
 
-User Experience Analytics data sources redirect to the appropriate user, sessions, page, event pages that are based on corresponding usage data.
+Usage Insights data sources redirect to the appropriate user, sessions, page, event pages that are based on corresponding usage data.
 
 -   **Go to URL** opens the specified URL, which can be on the instance or external. You have the option of specifying a page name to appear in the tooltip, for those visualizations with tooltips.
 
@@ -382,18 +383,18 @@ User Experience Analytics data sources redirect to the appropriate user, session
 
 ## What to do next
 
--   [Add a visualization to a dashboard from the Visualization Designer](add-dv-new-db.md)
--   [Share a data visualization in the Visualization Designer](share-dv-ac.md#)
--   [Bookmark a visualization in the Visualization Designer](../../dashboards/task/bookmark-dv-ac.md)
+-   [Add a visualization to a dashboard from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/add-dv-new-db.md)
+-   [Share a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/share-dv-ac.md)
+-   [Bookmark a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/bookmark-dv-ac.md)
 
--   **[Table data options for gauge data visualizations](../reference/config-dv-gauge-table-data.md)**  
+-   **[Table data options for gauge data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/config-dv-gauge-table-data.md)**  
 When you select a table data source for a gauge visualization, the following Data configuration options are available.
--   **[Indicator data options for gauge data visualizations](../reference/config-dv-gauge-ind-data.md)**  
+-   **[Indicator data options for gauge data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/config-dv-gauge-ind-data.md)**  
 When you select an indicator data source for a gauge visualization, the following Data configuration options are available.
--   **[User Experience Analytics data options for gauge visualizations](../reference/config-dv-gauge-uxa-data.md)**  
-When you select a User Experience Analytics data source for a gauge visualization, the following Data configuration options are available.
--   **[Gauge visualization example](../../par-for-workspace/task/dv-example-gauge.md)**  
+-   **[Usage Insights data options for gauge visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/config-dv-gauge-uxa-data.md)**  
+When you select a Usage Insights data source for a gauge visualization, the following Data configuration options are available.
+-   **[Gauge visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dv-example-gauge.md)**  
 Like dials, gauges show where a single value lies across a range from minimum to maximum expected values. In addition to dial functionality, you can set colored data ranges to help users understand what the value represents.
 
-**Parent Topic:**[Creating data visualizations](../concept/creating-data-visualizations.md)
+**Parent Topic:**[Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/creating-data-visualizations.md)
 

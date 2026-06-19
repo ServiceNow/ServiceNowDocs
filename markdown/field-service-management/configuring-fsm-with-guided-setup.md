@@ -2,7 +2,10 @@
 title: Configuring Field Service Management using Guided Setup
 description: The Field Service Management Guided Setup provides a sequence of tasks that help you import and configure the foundation data for Field Service Management on your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/configuring-fsm-with-guided-setup.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

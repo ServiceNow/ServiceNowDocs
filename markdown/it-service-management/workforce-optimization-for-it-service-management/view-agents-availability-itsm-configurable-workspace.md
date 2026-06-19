@@ -2,11 +2,12 @@
 title: Track and analyze agent's performance
 description: View your agent's profile and summary information in Agent 360 and review their performance​.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/view-agents-availability-itsm-configurable-workspace.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-06-04"
 reading_time_minutes: 1
 breadcrumb: [Routing work items, Channels, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -26,13 +27,13 @@ You can drill down into the data for a specific agent and view the following det
 -   Real-time information of ongoing cases, interactions, and other tasks​.
 -   Upcoming time off.
 -   Assigned training tasks.
--   Skill set, schedule, and profile
+-   Skill set, schedule, and profile.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workforce Optimization for ITSM** &gt; **Channel Management** &gt; **Service Channels**.
+1.  Navigate to **Workspaces** &gt; **Manager Workspace** &gt; **Channels**.
 
-2.  To view information about the agent and their work, click the **All Agents** tab.
+2.  To view information about the agent and their work, select the **All Agents** tab.
 
 <table id="table_dfl_xn5_qlb"><thead><tr><th>
 
@@ -48,7 +49,7 @@ Agent
 
 </td><td>
 
-Agent name. Click the agent's name to view the agent's profile summary in Agent 360.
+Agent name. Select the agent's name to view the agent's profile summary in Agent 360.
 
 </td></tr><tr><td>
 
@@ -98,5 +99,5 @@ Group to which the work item is assigned.
     You can also view agent presence history such as how often they were active or were on breaks on a given day.
 
 
-**Parent Topic:**[Routing work items using Channels in Workforce Optimization for ITSM](../concept/configurable-channels-workforce-optimization-itsm.md)
+**Parent Topic:**[Routing work items using Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/configurable-channels-workforce-optimization-itsm.md)
 

@@ -2,6 +2,7 @@
 title: Create or update list view for EAP work items
 description: Create or update EAP List View for work item types so that the columns displayed in the Backlog page of Enterprise Agile Planning suit your team requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/enterprise-agile-planning/create-or-update-list-views-for-eap-work-items.html
 release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -37,15 +38,15 @@ Configuration for EAP List View determines the columns that are displayed for a 
 
 5.  Create the EAP List View or update its configuration.
 
-<table id="choicetable_ap3_sy1_f1c"><thead><tr><th align="left" id="d255449e118">
+<table id="choicetable_ap3_sy1_f1c"><thead><tr><th align="left" id="d73699e118">
 
 Option
 
-</th><th align="left" id="d255449e121">
+</th><th align="left" id="d73699e121">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d255449e127">
+</th></tr></thead><tbody><tr><td id="d73699e127">
 
 **Create EAP List View**
 
@@ -58,7 +59,7 @@ Steps
 
 You can also rearrange them in the order of your choice.
 
-</td></tr><tr><td id="d255449e171">
+</td></tr><tr><td id="d73699e171">
 
 **Edit EAP List View**
 

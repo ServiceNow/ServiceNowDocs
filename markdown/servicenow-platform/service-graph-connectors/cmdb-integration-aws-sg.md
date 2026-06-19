@@ -2,6 +2,7 @@
 title: Service Graph Connector for AWS
 description: Use the Service Graph Connector for AWS to securely bring in Amazon Web Services \(AWS\) data into your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/cmdb-integration-aws-sg.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -17,7 +18,7 @@ Use the Service Graph Connector for AWS to securely bring in Amazon Web Services
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 The integration uses AWS native technologies and AWS security best practices to enable cloud teams to connect the data within their ServiceNow workflow. For more information about the Service Graph Connector for AWS, see the [Service Graph Connector for AWS - Introduction](https://community.servicenow.com/community?id=community_article&sys_id=13aa801f1b1ec910c465ece6b04bcbec) article on the ServiceNow Community site.
 
@@ -39,23 +40,23 @@ The following are examples on how you can use the Service Graph Connector for di
 
 Before you begin the upgrade process, complete the following tasks:
 
--   If there are any customizations, delete the records associated with the Service Graph Connector for AWS from the Customer Updates \[sys\_update\_xml\] table. See [Customer Updates table](https://www.servicenow.com/docs/access?context=r_CustomerUpdatesTable&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+-   If there are any customizations, delete the records associated with the Service Graph Connector for AWS from the Customer Updates \[sys\_update\_xml\] table. See .
 -   Upgrade any dependencies.
 
 After you've installed the latest version of the Service Graph Connector for AWS:
 
 -   Perform a full import of data from your AWS instance. Verify that the **Use last run datetime** field value is cleared for all the AWS data sources in the Data Source \[sys\_data\_source\] table.
--   Download and rerun the AWS scripts. See [Configure the AWS environment](../task/sgc-cmdb-aws-task-overview.md).
+-   Download and rerun the AWS scripts. See [Configure the AWS environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-task-overview.md).
 
 ## Configuring a connection for the connector
 
-You can configure a connection for the connector by using the SGC Central view in the Service Graph Workspace or CMDB Workspace. The view enables you to discover and install connectors, and then effectively manage the full life cycle of creating, editing, monitoring, and debugging connections. To configure the connector using SGC Central, see [Configure Service Graph Connector for AWS using SGC Central](../../sgc-central/task/sgcc-configure-aws-integ.md).
+You can configure a connection for the connector by using the SGC Central view in the Service Graph Workspace or CMDB Workspace. The view enables you to discover and install connectors, and then effectively manage the full life cycle of creating, editing, monitoring, and debugging connections. To configure the connector using SGC Central, see [Configure Service Graph Connector for AWS using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgcc-configure-aws-integ.md).
 
 **Important:** Unless there are configuration issues, use the SGC Central view in the Service Graph Workspace or CMDB Workspace to configure the connection for the connector, as the guided setup method is planned for deprecated.
 
 ## CMDB integrations dashboard
 
-The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed integrations. You can see metrics for all integration runs. You can filter the view to a specific CMDB integration, a specific time duration, or a specific integration run. For more details about monitoring AWS integrations in the CMDB Integrations Dashboard, see [Using the CMDB Integrations Dashboard](integration-commons-for-cmdb.md#section_fxg_lh4_blb).
+The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed integrations. You can see metrics for all integration runs. You can filter the view to a specific CMDB integration, a specific time duration, or a specific integration run. For more details about monitoring AWS integrations in the CMDB Integrations Dashboard, see [Using the CMDB Integrations Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
 
 ## BYOL support
 
@@ -89,23 +90,23 @@ See the following articles on the ServiceNow Community site for any additional i
 
 ## Related content
 
-[Service Graph Connectors](cmdb-sgc-available.md)
+[Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-sgc-available.md)
 
-[Data mapping for Service Graph Connector for AWS](../reference/cmdb-data-mapping-aws.md)
+[Data mapping for Service Graph Connector for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-data-mapping-aws.md)
 
-[CMDB classes targeted in Service Graph Connector for AWS](../reference/cmdb-aws-classes.md)
+[CMDB classes targeted in Service Graph Connector for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
-[Enable optimized deletion of retired CIs in AWS](../task/sgc-cmdb-aws-delete-cis.md)
+[Enable optimized deletion of retired CIs in AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-delete-cis.md)
 
-[Enable optimized SG-AWS-SendCommand data source performance](../task/sgc-cmdb-aws-ssm-prop.md)
+[Enable optimized SG-AWS-SendCommand data source performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-ssm-prop.md)
 
-[Handling import failures for large AWS resources](sgc-cmdb-aws-large-data-vol.md)
+[Handling import failures for large AWS resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-large-data-vol.md)
 
-[Handling memory utilization errors for Service Graph Connector for AWS](sgc-cmdb-aws-memory.md)
+[Handling memory utilization errors for Service Graph Connector for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-memory.md)
 
-[Life cycle management of records in Service Graph Connector for AWS](sgc-cmdb-aws-lc.md)
+[Life cycle management of records in Service Graph Connector for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-lc.md)
 
-[Record removal process in Service Graph Connector for AWS](sgc-cmdb-aws-removal.md)
+[Record removal process in Service Graph Connector for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-removal.md)
 
-[Service Graph Connector for AWS properties](../reference/cmdb-sgc-aws-props.md)
+[Service Graph Connector for AWS properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-sgc-aws-props.md)
 

@@ -2,6 +2,7 @@
 title: Monitoring event queue efficiency through Application Insights
 description: You can monitor event queue performance in Application Insights by comparing and analyzing the rate at which events are logged and processed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-performance/monitoring-event-processing.html
 release: zurich
 product: Platform Performance
 classification: platform-performance
@@ -15,7 +16,7 @@ breadcrumb: [Application Insights, Monitor, Platform performance, Maintain and m
 
 You can monitor event queue performance in Application Insights by comparing and analyzing the rate at which events are logged and processed.
 
-Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the [Overview of Instance Observer](https://www.servicenow.com/docs/access?context=io-overview&version=zurich&pubname=zurich-impact&ft:locale=en-US) product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
+Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the  product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -48,5 +49,5 @@ Dig deeper into potential performance issues by drilling down to analyze issues 
     -   Identify which queue processed the most events in the selected day range by sorting on the **Processed events in range** column.
     -   Identify which queue took the most amount of time processing events on average in the selected day range by sorting on the **Average processing duration in range** column.
 
-**Parent Topic:**[Application Insights](application-insights.md)
+**Parent Topic:**[Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/application-insights.md)
 

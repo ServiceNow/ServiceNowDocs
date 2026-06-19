@@ -2,6 +2,7 @@
 title: Download a Microsoft Teams meeting transcript
 description: Download a Microsoft Teams meeting transcript from a ServiceNow record to view the meeting content offline.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/download-teams-meeting-transcript.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -28,5 +29,5 @@ Role required: Any role with read access to the record containing the conference
 3.  In the Call transcript section, select **Download transcript**.
 
 
-**Parent Topic:**[Use Notify connector for Microsoft Teams](../concept/c-agent-ex-use-nc.md)
+**Parent Topic:**[Use Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/c-agent-ex-use-nc.md)
 

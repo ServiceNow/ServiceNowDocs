@@ -2,6 +2,7 @@
 title: Associate a hardware model with a Calculated lifecycle template
 description: Associate a hardware model with a Calculated lifecycle template to populate the lifecycle details of the model automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/associate-hardware-model-cal-temp.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -40,5 +41,5 @@ Role required: asset
 
 The list of lifecycle phases with details such as Phase start date, Phase end date, and Source is displayed in the Model Lifecycles tab.
 
-**Parent Topic:**[Manage the lifecycle of hardware models with calculated lifecycle templates](../concept/manage-ham-lifecycle-temp.md)
+**Parent Topic:**[Manage the lifecycle of hardware models with calculated lifecycle templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-ham-lifecycle-temp.md)
 

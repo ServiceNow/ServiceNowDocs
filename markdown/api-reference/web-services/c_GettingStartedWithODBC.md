@@ -2,6 +2,7 @@
 title: Getting started with ODBC
 description: Before installing the ODBC driver, create an ODBC user account, assign the odbc role, and define an ACL rule for the odbc role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/c\_GettingStartedWithODBC.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -17,12 +18,12 @@ Before installing the ODBC driver, create an ODBC user account, assign the odbc 
 
 
 
-**Note:** Before downloading and installing the ODBC driver, [review the requirements](../reference/r_ODBCDriverInstallationReqs.md) to ensure that your configuration is compatible.
+**Note:** Before downloading and installing the ODBC driver, [review the requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/r_ODBCDriverInstallationReqs.md) to ensure that your configuration is compatible.
 
-1.  [Create an ODBC user account and assign the odbc role](../task/t_CreateAnODBCUser.md)  
+1.  [Create an ODBC user account and assign the odbc role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/t_CreateAnODBCUser.md)  
 The ODBC driver communicates with your ServiceNow instance as a specific user. Create an ODBC user account and assign the odbc role to enable the user to communicate via ODBC.
-2.  [Define an ACL rule for the odbc role](../task/t_DefineAnACLRuleForTheODBCRole.md)  
+2.  [Define an ACL rule for the odbc role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/t_DefineAnACLRuleForTheODBCRole.md)  
 Define an ACL rule for the odbc role to provide read access to the incident table. You can create other ACL rules for the odbc role to provide read access to other tables.
 
-**Parent Topic:**[Create data sources from other apps using ODBC driver](c_ODBCDriver.md)
+**Parent Topic:**[Create data sources from other apps using ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_ODBCDriver.md)
 

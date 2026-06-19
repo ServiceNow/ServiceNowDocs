@@ -2,6 +2,7 @@
 title: Assess risks of policy exception using advanced risk assessments
 description: Take the advanced risk assessment to evaluate the risk involved with the policy exception.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/pol-excep-integ-adv-risk-assess-ws.html
 release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -29,7 +30,7 @@ After the policy exception is submitted, as a compliance manager you can do the 
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, click the List icon \(![List](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the Compliance Workspace, click the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List\).
 
 3.  Click **All policy exceptions** in the Policy exceptions list.
 
@@ -37,7 +38,7 @@ After the policy exception is submitted, as a compliance manager you can do the 
 
 5.  Select the **Take risk assessment** option in the **Method** field of the Risk assessment section.
 
-    For more information on the risk assessment options, see [Risk assessment](request-policy-exception-ws.md#take-risk-assess) section.
+    For more information on the risk assessment options, see [Risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/request-policy-exception-ws.md) section.
 
 6.  Click **Save**.
 
@@ -51,7 +52,7 @@ After the policy exception is submitted, as a compliance manager you can do the 
 
 9.  Click the **Send assessment** button.
 
-    Assessment is sent to the user selected in the pop-up. For more information, see [Assess risks and objects on an assessment instance](../../grc-risk/task/assessing-risks.md).
+    Assessment is sent to the user selected in the pop-up. For more information, see [Assess risks and objects on an assessment instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/assessing-risks.md).
 
     After the assessment is complete, the **Risk rating** field on the policy exception form is auto-populated with the values configured in Policy exception risk rating mapping table.
 

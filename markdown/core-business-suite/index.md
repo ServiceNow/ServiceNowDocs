@@ -3,30 +3,32 @@ title: Zurich Core Business Suite
 locale: en-US
 release: zurich
 bundle: cbs
+product: Core Business Suite
+classification: core-business-suite
 doc_type: toc
 ---
 
 # Zurich Core Business Suite
 
-- [Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/cbs-landing.md)
-  - [Exploring employee support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/exploring-emp-home.md)
-    - [Employee support areas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/cbs-task-landing-emp.md)
-  - [Exploring supplier support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/exploring-supplr-home.md)
-    - [Supplier support areas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/cbs-task-landing-sup.md)
-  - [Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/cbs-configure.md)
-    - [Install Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/cbs-install.md)
-    - [Install Core Business Suite applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/install-cbs-applications.md)
-    - [Import Core Business Suite configuration files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/cbs-import-update-sets.md)
-    - [Configure Core Business Suite applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/cbs-run-scheduled-jobs.md)
-    - [Configure the Core Business Suite Human Resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/config-hr.md)
-    - [Assign the CBS admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/cbs-admin-role.md)
-    - [Configure instance options for Help topics widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/instance-option-helpt.md)
-  - [Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/cbs-using-parent.md)
-    - [Raise requests on the employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/request-emp-rest.md)
-    - [Raise HR requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/request-emp-cbs.md)
-    - [Raise a general supplier request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/request-slo.md)
-    - [Raise an invoice request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/request-apo.md)
-    - [Notifications in CBS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/cbs-notif.md)
-  - [Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/cbs-reference-parent.md)
-    - [Components installed with Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/comp-inst-with-cbs.md)
-    - [Help topics instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/helpt-instance-form.md)
+- [Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/cbs-landing.md) -- Core Business Suite (CBS) lays the foundation to unify disjointed processes. It’s a collection of modules that fulfills different business needs, for different personas, within a single product suite.
+  - [Exploring employee support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/exploring-emp-home.md) -- Explore the home page for the employee requester persona along with the associated functionalities available with Core Business Suite.
+    - [Employee support areas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/cbs-task-landing-emp.md) -- The employee support services in the Core Business Suite help you set up a simplified employee journey in your organization.
+  - [Exploring supplier support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/exploring-supplr-home.md) -- Explore the home page for the supplier requester persona along with the associated functionalities available with Core Business Suite.
+    - [Supplier support areas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/cbs-task-landing-sup.md) -- The supplier support services in the Core Business Suite help you set up a simplified supplier journey for your organization.
+  - [Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/cbs-configure.md) -- Install and configure Core Business Suite to streamline employee and supplier requests. Core Business Suite enables efficient intake and resolution of inquiries across different parts of your organization such as Legal, Human Resources, Workplace Services, Health and Safety, Procurement, Finance, Supplier Lifecycle Operations, and Accounts Payable Operations.
+    - [Install Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/cbs-install.md) -- Install the Core Business Suite set of applications to streamline core business workflows across parts of your organization such as Legal, Human Resources, Workplace Services, Health and Safety, Procurement, Finance, Supplier Lifecycle Operations, and Accounts Payable Operations.
+    - [Install Core Business Suite applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/install-cbs-applications.md) -- Install Core Business Suite applications to be able to submit inquiries, create and track requests, and manage workflows. These applications support departments such as Legal, Human Resources, Workplace Services, Health and Safety, Procurement, Finance, Supplier Lifecycle Operations, and Accounts Payable Operations.
+    - [Import Core Business Suite configuration files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/cbs-import-update-sets.md) -- Import the Core Business Suite configuration files into your instance to access and run the scheduled jobs required for configuring Core Business Suite applications.
+    - [Configure Core Business Suite applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/cbs-run-scheduled-jobs.md) -- Configure Core Business Suite applications by running scheduled jobs that initialize all required workflows and apply settings.
+    - [Configure the Core Business Suite Human Resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/config-hr.md) -- If your instance is running on Zurich patch 5 or older versions, configure the Human Resources (HR) application by running scheduled jobs that initialize all required workflows and apply settings to manage payroll inquiries, benefits questions, and general HR requests.
+    - [Assign the CBS admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/cbs-admin-role.md) -- Grant administrative permissions for the Core Business Suite application and provide full access to configure its underlying services by assigning users a Core Business Suite admin role.
+    - [Configure instance options for Help topics widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/instance-option-helpt.md) -- Configure the instance options for the Help topics widget on the CBS employee portal according to your organizational requirement.
+  - [Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/cbs-using-parent.md) -- Core Business Suite application provides a unified request experience across departments for organizations.
+    - [Raise requests on the employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/request-emp-rest.md) -- Raise a general request across departments, as an employee, on CBS.
+    - [Raise HR requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/request-emp-cbs.md) -- Raise an HR request for general requests, payroll, or benefits on CBS.
+    - [Raise a general supplier request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/request-slo.md) -- Raise a general request for any common query or issue as a supplier on CBS.
+    - [Raise an invoice request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/request-apo.md) -- Raise an invoice request for any payment-related issues as a supplier on CBS.
+    - [Notifications in CBS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/cbs-notif.md) -- Notifications in CBS provide multi-faceted and timely communication when a request is raised or fulfilled.
+  - [Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/cbs-reference-parent.md) -- The reference topics provide details of the properties, forms, lists, roles, tables, and widgets you want to configure to use the CBS application.
+    - [Components installed with Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/comp-inst-with-cbs.md) -- Various components are installed with Core Business Suite.
+    - [Help topics instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/core-business-suite/helpt-instance-form.md) -- The details provide the field and its descriptions of the widget instance options.

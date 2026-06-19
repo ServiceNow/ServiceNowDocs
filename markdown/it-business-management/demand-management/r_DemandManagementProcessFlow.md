@@ -2,6 +2,7 @@
 title: Demand Management process flow
 description: The Demand Management process flow consists of the following tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/demand-management/r\_DemandManagementProcessFlow.html
 release: zurich
 product: Demand Management
 classification: demand-management
@@ -17,7 +18,7 @@ The Demand Management process flow consists of the following tasks.
 
 **Important:**
 
-Demands are available in the Next Experience for Demand Management. For more information, see [Next Experience for Demand Management](../../ppw-demand/concept/demand-workspace-ppw.md).
+Demands are available in the Next Experience for Demand Management. For more information, see [Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/demand-workspace-ppw.md).
 
 The workspace provides additional value beyond the legacy experience, including Playbook, Docs, and the ability to define different governance processes using playbooks.
 
@@ -85,5 +86,5 @@ Completing demands
 Demand managers can set a demand to Completed when work on the demand is complete.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Demand Management](../concept/exploring-demand-management.md)
+</table>**Parent Topic:**[Exploring Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/exploring-demand-management.md)
 

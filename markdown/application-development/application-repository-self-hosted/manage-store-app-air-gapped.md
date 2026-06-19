@@ -2,6 +2,7 @@
 title: Application Repository for self-hosted, air-gapped customers
 description: This application feature enables self-hosted customers to use their own internal application repository just as cloud customers do. These customers don’t install the Application Repository via the ServiceNow Store; they use an alternative method.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/application-repository-self-hosted/manage-store-app-air-gapped.html
 release: zurich
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted

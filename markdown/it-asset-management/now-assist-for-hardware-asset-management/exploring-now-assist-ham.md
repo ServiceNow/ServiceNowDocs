@@ -2,6 +2,7 @@
 title: Exploring Now Assist for Hardware Asset Management \(HAM\)
 description: The Now Assist for Hardware Asset Management \(HAM\) application includes an agentic workflow driven by AI agents that can manage hardware asset requests and repair requests autonomously. This automation helps asset managers skip manual tasks, enhancing their productivity and efficiency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/now-assist-for-hardware-asset-management/exploring-now-assist-ham.html
 release: zurich
 product: Now Assist for Hardware Asset Management
 classification: now-assist-for-hardware-asset-management
@@ -33,8 +34,8 @@ The collection of AI agents included in the Now Assist for HAM application offer
 -   Increased employee satisfaction, with quicker resolution of asset requestsand repair requests.
 -   Improved asset utilization, for effective allocation of hardware assets.
 
--   **[Supporting information for Now Assist for Hardware Asset Management \(HAM\)](supporting-info-now-assist-ham.md)**  
+-   **[Supporting information for Now Assist for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-hardware-asset-management/supporting-info-now-assist-ham.md)**  
 Get a quick overview of the important information related to the Now Assist for Hardware Asset Management \(HAM\) application.
 
-**Parent Topic:**[IT Asset Management](../../software-asset-management2/concept/it-asset-management.md)
+**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/it-asset-management.md)
 

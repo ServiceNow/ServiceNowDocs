@@ -2,6 +2,7 @@
 title: Users and associated actions for the regulatory change tasks
 description: Managers with the sn\_grc\_reg\_change.manager role and the users with the sn\_grc\_reg\_change.user role can view and perform certain tasks in the Regulatory Change Tasks module.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/regulatory-change-management-service-portal/views-and-actions.html
 release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -58,5 +59,5 @@ If the user is assigned the regulatory change task, then the user can log in and
 -   View the details of the impact assessment performed by entity owners.
 -   Create necessary action tasks that are related to the Compliance and Risk areas in the GRC library, and then assign them to an appropriate group.
 
-**Parent Topic:**[Regulatory change tasks](../concept/reg-change-task.md)
+**Parent Topic:**[Regulatory change tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/reg-change-task.md)
 

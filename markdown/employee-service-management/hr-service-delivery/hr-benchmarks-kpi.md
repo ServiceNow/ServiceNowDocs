@@ -2,6 +2,7 @@
 title: HR Benchmarks KPIs
 description: You can enable or disable a benchmark KPI, and customize KPI conditions. Integration with Performance Analytics provides daily data collection and drill down capabilities on KPI data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-benchmarks-kpi.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

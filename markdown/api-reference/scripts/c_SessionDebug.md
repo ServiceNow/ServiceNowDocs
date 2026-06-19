@@ -2,6 +2,7 @@
 title: Debugging sessions
 description: Enable session debugging to display debugging messages in the user interface.Display session debug logs to help diagnose script and application problems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/c\_SessionDebug.html
 release: zurich
 product: Scripts
 classification: scripts
@@ -15,9 +16,7 @@ breadcrumb: [Debugging scripts, Scripting, API implementation, API implementatio
 
 Enable session debugging to display debugging messages in the user interface.
 
-Troubleshooting slow performance with the Session Debug feature.
-
-You can enable all areas for abundant logging on the bottom of each page load, or you can enable each module one by one, for more specific information about what is happening during this session, and specifically, for the previous transaction. Select session debug options under **System Diagnostics** &gt; **Session Debug**. When enabled, session debugging is active during the user session or until disabled. To view debug logs, see [Display debugging logs](c_SessionDebug.md#).
+You can enable all areas for abundant logging on the bottom of each page load, or you can enable each module one by one, for more specific information about what is happening during this session, and specifically, for the previous transaction. Select session debug options under **System Diagnostics** &gt; **Session Debug**. When enabled, session debugging is active during the user session or until disabled. To view debug logs, see [Display debugging logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_SessionDebug.md).
 
 The system provides the following session debugging options.
 
@@ -39,7 +38,7 @@ The system provides the following session debugging options.
 |Debug SQL|Displays debugging messages for SQL queries.|
 |Debug SQL \(Detailed\)|Displays debugging messages for SQL statements and any changes made by SQL statements.|
 |Debug Text Search|Displays debugging messages for search result relevance and indexing.|
-|Debug UI Policies|Displays debugging messages for UI policies.|
+|Debug UI Policies|Displays debugging messages for UI policies in your browser's developer console.|
 |Debug UI Macro|Displays the start and end of the UI Macro in the DOM as HTML comments. The comments consist of table name and UI macro name.|
 |Debug Upgrade|Displays detailed information logged for records processed during the last family-to-family or patch version upgrade session.|
 |Enable All|Displays all available debugging messages.|
@@ -47,7 +46,7 @@ The system provides the following session debugging options.
 |Disable Debug UI Macro|Stops displaying the start and end of the UI Macro in the DOM as HTML comments.|
 |Disable UI Policies Debug|Stops displaying debugging messages for UI policies.|
 
-**Parent Topic:**[Debugging scripts](script-debug-overview.md)
+**Parent Topic:**[Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/script-debug-overview.md)
 
 ## Display debugging logs
 

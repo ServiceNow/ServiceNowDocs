@@ -2,6 +2,7 @@
 title: Create catalog items for service offering subscribers in Service Portfolio Management
 description: As a service owner or service offering subscriber, you can create one or more catalog items for your service regardless of the offering phase or status. You can also relate an existing catalog item to a service offering.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-portfolio-management/SPM2-create-catalog-items.html
 release: zurich
 product: Service Portfolio Management
 classification: service-portfolio-management
@@ -136,7 +137,7 @@ Meta
 
 Comma-separated list of tags used to search for the catalog item. Use commas between keywords for better results when searching.
 
- For more information, see [Configure keyword search for catalog items](https://www.servicenow.com/docs/access?context=search-catalog-item&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+ For more information, see Configure keyword search for catalog items.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -325,5 +326,5 @@ If selected, adding an attachment is required for the catalog item.**Note:** App
     Before you submit, select **Try It** to see the result.
 
 
-**Parent Topic:**[Service offerings in Service Portfolio Management](../concept/SPM2-service-offerings.md)
+**Parent Topic:**[Service offerings in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/SPM2-service-offerings.md)
 

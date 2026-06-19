@@ -2,6 +2,7 @@
 title: RESTMessageV2 MID server example
 description: You can send an outbound REST message through a MID Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/r\_RESTMessageV2MIDServerExample.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -47,5 +48,5 @@ gs.info("HTTP Status: " + status);
 
 **Note:** This example uses `waitForResponse` to pause for a response, and then details how the response is handled. However, when using `executeAsync`, consider processing the response body in a separate business rule to take advantage of the asynchronous call rather than using `waitForResponse`.
 
-**Parent Topic:**[Scripting outbound REST](../../../../../integrate/outbound-rest/concept/c_ScriptingOutboundREST.md)
+**Parent Topic:**[Scripting outbound REST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_ScriptingOutboundREST.md)
 

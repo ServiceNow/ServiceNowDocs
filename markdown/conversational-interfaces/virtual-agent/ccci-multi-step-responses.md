@@ -2,6 +2,7 @@
 title: Multi-step responses
 description: An example of multi-step response is a set of images in a carousel or a date control.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/ccci-multi-step-responses.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -106,5 +107,5 @@ Example:
   })(inputs, outputs);
 ```
 
-**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](../concept/va-features-custom-chat-integrations.md)
+**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-features-custom-chat-integrations.md)
 

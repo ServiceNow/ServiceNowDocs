@@ -2,6 +2,7 @@
 title: Track a certification task
 description: Use the certification task state to track the progress of a task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/t\_TrackACertificationTask.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

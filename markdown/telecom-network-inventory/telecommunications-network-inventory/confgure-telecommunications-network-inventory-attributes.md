@@ -2,6 +2,7 @@
 title: Configuring attributes
 description: Configure the core equipment table to enable the collection of the common Telecommunications Network Inventory attributes appear in the CI record. You use these attributes to create a Telecommunications Network Inventory CI record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/confgure-telecommunications-network-inventory-attributes.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -39,5 +40,5 @@ You update the Equipment generic classes in the core equipment table to display 
     -   Kubernetes Component \(cmdb\_ci\_kubernetes\_component\)
     -   Service Instance \(cmdb\_ci\_service\_auto\)
 
-**Parent Topic:**[Configuring Telecommunications Network Inventory](../concept/configuring-telecom-network-inventory.md)
+**Parent Topic:**[Configuring Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configuring-telecom-network-inventory.md)
 

@@ -2,7 +2,10 @@
 title: Review ITOM artifacts
 description: The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance Analytics application and includes artifact types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/dc-itom-install-artifacts.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 3

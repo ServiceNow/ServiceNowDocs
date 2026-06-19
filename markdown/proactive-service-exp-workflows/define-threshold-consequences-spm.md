@@ -2,6 +2,7 @@
 title: Define measure consequences for the threshold rules
 description: Set actions or responses to trigger when the test measure results fall outside the predefined acceptable limits.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/define-threshold-consequences-spm.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"

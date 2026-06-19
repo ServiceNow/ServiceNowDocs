@@ -2,6 +2,7 @@
 title: View related info from TISC
 description: Use this section to view the related info such as related threat actors, attack patterns, campaigns, and cases from TISC in SIR workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/tisc-related-info-sir.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -47,5 +48,5 @@ Role required: sn\_si.analyst
         |Cases|Shows information from TISC for TISC cases related to the selected observables.|
 
 
-**Parent Topic:**[Working with TISC Context](../../secops-analyst-workspace/concept/working-with-tisc-context.md)
+**Parent Topic:**[Working with TISC Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/working-with-tisc-context.md)
 

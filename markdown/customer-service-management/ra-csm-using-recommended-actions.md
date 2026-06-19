@@ -2,7 +2,10 @@
 title: Using the Recommended Actions application
 description: Through the Recommended Actions application, use the recommended actions of type guidance and guided decision tree in your workspace to resolve cases quickly. Use the field recommendation to get recommendations on the field values. Use the AI search option to search the relevant resources from various sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ra-csm-using-recommended-actions.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 5
@@ -23,7 +26,7 @@ You can take three types of actions:
 -   **Decision tree**: A guided flow to follow that walks you through a series of questions that help you determine the appropriate action.
 -   **Field recommendations**: Recommended values to use for the fields in the record. Recommended field values are auto-filled or shown as messages underneath the fields for the new records. The recommended field values are shown as messages only underneath the fields for the existing records.
 
-![Case record view with recommended actions in the contextual side panel with Guidance and Decision trees as recommendations with relevant resources and input](../image/ra-side-panel.png "Recommended action cards in a workspace")
+\[Omitted image "ra-side-panel.png"\] Alt text: Case record view with recommended actions in the contextual side panel with Guidance and Decision trees as recommendations with relevant resources and input
 
 Recommended action cards display the following information:
 
@@ -55,7 +58,7 @@ Select the **View and attach article** to open the knowledge article in the side
 
 </td><td>
 
-Select secondary actions, such as **Dismiss** to cancel the recommendation or **Attach article** to attach it to the case or select an option from the More actions icon \(![Displays secondary actions such as copying a link or flagging an article](../image/more_vertical_icon.png)\).![More actions enables the user to mark an article as helpful, flag an article, copy or expand the article](../image/ra-secondary-actions.png)
+Select secondary actions, such as **Dismiss** to cancel the recommendation or **Attach article** to attach it to the case or select an option from the More actions icon \(\[Omitted image "more\_vertical\_icon.png"\] Alt text: Displays secondary actions such as copying a link or flagging an article\).\[Omitted image "ra-secondary-actions.png"\] Alt text: More actions enables the user to mark an article as helpful, flag an article, copy or expand the article
 
 Select back to go back to the recommended cards list.
 
@@ -69,9 +72,9 @@ Select **Attach and add link in comment** to compose a comment and **Post commen
 
 </td><td>
 
-Select secondary actions from the More actions menu \(![Displays secondary actions such as copying a link or flagging an article](../image/more_vertical_icon.png)
+Select secondary actions from the More actions menu \(\[Omitted image "more\_vertical\_icon.png"\] Alt text: Displays secondary actions such as copying a link or flagging an article
 
- ![More actions enables the user to read the article, attach and add a link in email, add a link in a work note, or copy a link](../image/ra-secondary-actions2.png)
+ \[Omitted image "ra-secondary-actions2.png"\] Alt text: More actions enables the user to read the article, attach and add a link in email, add a link in a work note, or copy a link
 
 **Note:** The primary and secondary actions are configurable.
 
@@ -140,7 +143,7 @@ You can read the description of the recommendation and use the recommended value
 
 AI search enables you to search for the relevant resources to resolve cases or customer issues. Depending on the AI search configuration, the AI search tab displays search results, genius result answers, or both. AI search results appear in the form of guidances that you can act on. Genius result answers are the most relevant answers or the top results for the search query along with the action that you can take directly from the card.
 
-![AI search cards in the contextual side panel with genius and search results.](../image/ra-ai-search.png "AI search cards in a workspace")
+\[Omitted image "ra-ai-search.png"\] Alt text: AI search cards in the contextual side panel with genius and search results.
 
 <table id="table_vj1_qqm_xyb"><thead><tr><th>
 

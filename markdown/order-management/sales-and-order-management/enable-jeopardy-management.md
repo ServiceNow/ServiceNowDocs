@@ -2,6 +2,7 @@
 title: Configure the Order Jeopardy Enablement Policy
 description: Add Jeopardy Management workflows to product and service specifications using the Order Jeopardy Enablement Policy in Workflow Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/enable-jeopardy-management.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -31,7 +32,7 @@ Use Workflow Studio to define which product, service, or resource specification 
 
 3.  In the **Specification** column under the **Conditions** section, select a product or service specification to link to Jeopardy Management.
 
-4.  In the **results** column, set the **Jeopardy Enabled** field to **True**.![Order Jeopardy Enablement Policy in Workflow Studio.](../image/jm-enablement-policy.png)
+4.  In the **results** column, set the **Jeopardy Enabled** field to **True**.\[Omitted image "jm-enablement-policy.png"\] Alt text: Order Jeopardy Enablement Policy in Workflow Studio.
 
     **Note:** Entries in this decision table are for top-level product or service specifications. In a single order, customers can purchase multiple top-level products or services. However, if any one of the products or services isn’t jeopardy-enabled, the entire order is treated as a non-jeopardy-enabled order.
 
@@ -42,5 +43,5 @@ Use Workflow Studio to define which product, service, or resource specification 
 
 ## What to do next
 
-After configuring Jeopardy Management, see [Monitoring order jeopardy](monitoring-jeopardy-management.md) to review different ways to monitor Jeopardy Management.
+After configuring Jeopardy Management, see [Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/monitoring-jeopardy-management.md) to review different ways to monitor Jeopardy Management.
 

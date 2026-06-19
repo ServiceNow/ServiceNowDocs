@@ -2,6 +2,7 @@
 title: Flow actions for fulfillment subflow definition
 description: If you define your own fulfillment subflows in Workflow Studio, you can use the standard flow actions that are available in the ServiceNow AI Platform. Each action deals with different aspects of the fulfillment or inventory maintenance that provides some consistency in retrieving and updating data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/order-mgt-flow-actions-fulfillment-subflows.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -58,14 +59,14 @@ Get Customer Order Characteristic Value
 Flow action that takes the customer order line Item and characteristic as input and returns a characteristic value from the customer order line item. If the characteristic is not present in the customer order line item, it returns the default value for the characteristic from the respective order line item offering.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring order fulfillment](../concept/configure-order-fulfillment.md)
+</table>**Parent Topic:**[Configuring order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/configure-order-fulfillment.md)
 
 **Related topics**  
 
 
-[Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+[bundle-cadev.flow-designer]
 
-[Flows](https://www.servicenow.com/docs/access?context=flows&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.flows]
 
-[Create a flow](https://www.servicenow.com/docs/access?context=create-flow&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.create-flow]
 

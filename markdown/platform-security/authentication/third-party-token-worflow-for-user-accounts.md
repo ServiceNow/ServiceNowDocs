@@ -2,11 +2,12 @@
 title: Third party token workflow for user accounts
 description: This workflow is based on the token federation concept. It allows client applications to obtain tokens directly from an IdP and use them to access ServiceNow APIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/third-party-token-worflow-for-user-accounts.html
 release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Third Party Token Grant, Inbound integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
@@ -25,7 +26,7 @@ The third-party client application requests tokens directly from your identity p
 
 **Note:** ServiceNow validates the token using the public key configured during setup and grants access to the requested APIs. Ensure that the token is in JSON Web Token \(JWT\) format.
 
-![User Account Workflow](../images/mic-third-party-user-account.png "User Account Workflow")
+\[Omitted image "mic-third-party-user-account.png"\] Alt text: User Account Workflow
 
 **Note:** This diagram is for illustrative purpose. It shows the Authorization code grant flow between your client application and the identity provider. The workflow is flexible. You can use a different flow based on your requirements.
 
@@ -37,6 +38,6 @@ The third-party client application requests tokens directly from your identity p
 
 2.  Create an OAuth client in ServiceNow.
 
-    Provide the required details to enable validation of incoming tokens from your identity provider \(IdP\). For more information on how to configure, see [Configure a third party ID token](configure-a-third-party-id-token.md)
+    Provide the required details to enable validation of incoming tokens from your identity provider \(IdP\). For more information on how to configure, see [Configure a third party ID token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/configure-a-third-party-id-token.md)
 
 

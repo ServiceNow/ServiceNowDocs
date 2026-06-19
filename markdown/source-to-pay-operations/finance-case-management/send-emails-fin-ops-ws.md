@@ -2,6 +2,7 @@
 title: Send emails from Finance Operations Workspace
 description: Send emails related to a specific finance case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/finance-case-management/send-emails-fin-ops-ws.html
 release: zurich
 product: Finance Case Management
 classification: finance-case-management
@@ -25,7 +26,7 @@ Role required: sn\_fin\_ops.specialist
 
     -   **All** &gt; **Finance Operations** &gt; **Finance Operations Workspace**.
     -   **Workspaces** &gt; **Finance Operations Workspace**.
-2.  In the Finance Operations workspace, select the List icon ![](../image/fin-ops-list-icon.png).
+2.  In the Finance Operations workspace, select the List icon \[Omitted image "fin-ops-list-icon.png"\] Alt text:.
 
 3.  From the list page, navigate to either of the following submodules:
 
@@ -43,14 +44,14 @@ Role required: sn\_fin\_ops.specialist
 
 7.  Enter the email body, if necessary.
 
-    By default, the email body contains the link to the finance case. You can also use the email templates. For more information on email templates, see [Email templates](https://www.servicenow.com/docs/access?context=c_EmailTemplates&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    By default, the email body contains the link to the finance case. You can also use the email templates. For more information on email templates, see Email templates.
 
-8.  Select **Send mail**.![Send emails](../image/fin-ops-email.png)
+8.  Select **Send mail**.\[Omitted image "fin-ops-email.png"\] Alt text: Send emails
 
 
 ## Result
 
 The email is sent to the recipients. You can view the details of the sent email in the **Emails** tab.
 
-**Parent Topic:**[Finance Operations Workspace Case Details page](../concept/case-details-fin-ops-ws.md)
+**Parent Topic:**[Finance Operations Workspace Case Details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/finance-case-management/case-details-fin-ops-ws.md)
 

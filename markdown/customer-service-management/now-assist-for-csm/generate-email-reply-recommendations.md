@@ -2,6 +2,7 @@
 title: Generate an email response by using Now Assist for Customer Service Management \(CSM\)
 description: Generate an email response that is based on the case and email context by using the Now Assist icon. With email response, agents can create quick emails or responses, helping minimize errors and ramp up productivity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/generate-email-reply-recommendations.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -39,52 +40,52 @@ An agent can do these actions by using the Now Assist icon:
 
 2.  Choose how to compose an email.
 
-<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d167992e129">
+<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d35419e129">
 
 Method
 
-</th><th align="left" id="d167992e132">
+</th><th align="left" id="d35419e132">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d167992e138">
+</th></tr></thead><tbody><tr><td id="d35419e138">
 
 **Compose email from More actions**
 
 </td><td>
 
 1.  Select **Compose email**.
-2.  Write six or more words and then select the words that you just wrote to see the Now Assist icon ![Sparkle icon for Now Assist.](../../../common/image/icon-ai-sparkle.png)
-3.  Select the Now Assist icon ![Sparkle icon for Now Assist.](../../../common/image/icon-ai-sparkle.png) to generate a response.
+2.  Write six or more words and then select the words that you just wrote to see the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
+3.  Select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist. to generate a response.
 4.  Select **Refine** to shorten or elaborate the content.
 5.  Get a recommendation that is based on the existing context.
 
 
-</td></tr><tr><td id="d167992e189">
+</td></tr><tr><td id="d35419e189">
 
 **Compose an email from Activity stream**
 
 </td><td>
 
 1.  In the activity stream, select an existing email that you want to reply to.
-2.  Position your cursor within the email message window to see the Now Assist icon ![Sparkle icon for Now Assist.](../../../common/image/icon-ai-sparkle.png).
-3.  Select the Now Assist icon ![Sparkle icon for Now Assist.](../../../common/image/icon-ai-sparkle.png) to receive a recommendation that is based on the existing context.
+2.  Position your cursor within the email message window to see the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist..
+3.  Select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist. to receive a recommendation that is based on the existing context.
 
 
 </td></tr></tbody>
-</table>3.  In the email message window, either type a response, or leave blank, and then select the Now Assist ![Sparkle icon for Now Assist.](../../../common/image/icon-ai-sparkle.png).
+</table>3.  In the email message window, either type a response, or leave blank, and then select the Now Assist \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist..
 
-    ![Generated email response.](../image/now-assist-email-reply-recommendation.png "Now Assist icon modal")
+    \[Omitted image "now-assist-email-reply-recommendation.png"\] Alt text: Generated email response.
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d167992e257">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d35419e257">
 
 Email message window
 
-</th><th align="left" id="d167992e260">
+</th><th align="left" id="d35419e260">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d167992e269">
+</th></tr></thead><tbody><tr><td id="d35419e269">
 
 **Typed response**
 
@@ -99,7 +100,7 @@ Provides the option to change your tone:
 -   Sympathetic
 
 
-</td></tr><tr><td id="d167992e299">
+</td></tr><tr><td id="d35419e299">
 
 **Left blank**
 
@@ -107,7 +108,7 @@ Provides the option to change your tone:
 
 Generates a recommended email response that is based on the context of the email up to this point.
 
-</td></tr><tr><td id="d167992e308">
+</td></tr><tr><td id="d35419e308">
 
 **Use template**
 
@@ -125,5 +126,5 @@ Generates a recommended email response that is based on the context of the email
 6.  Select **Send Email** or discard the draft if you don’t like the recommendation.
 
 
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](../concept/now-assist-csm-using.md)
+**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

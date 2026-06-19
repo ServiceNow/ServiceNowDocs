@@ -2,6 +2,7 @@
 title: Choose the right method for discovery and mapping application services
 description: Service Mapping deploys different methods for collecting information about configuration items \(CIs\) and organizing them into application services. The available mapping methods are: pattern-based, tag-based, traffic-based, and discovery based on Predictive Intelligence. Learn about the mapping methods to use the ones that best suit the needs of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/choose-mapping-method.html
 release: zurich
 product: Service Mapping
 classification: service-mapping
@@ -33,7 +34,7 @@ Disadvantages
 
 </th></tr></thead><tbody><tr><td>
 
-[Automated Service Suggestions](auto-serv-suggest.md)
+[Automated Service Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/auto-serv-suggest.md)
 
 </td><td>
 
@@ -51,7 +52,7 @@ When using discovery based on Predictive Intelligence to identify TCP connection
 
 </td></tr><tr><td>
 
-[Pattern-based discovery](pattern-based-discovery.md)
+[Pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/pattern-based-discovery.md)
 
 </td><td>
 
@@ -67,7 +68,7 @@ Pattern-based mapping requires configuring credentials, users, and user permissi
 
 </td></tr><tr><td>
 
-[Tag-based discovery](tag-based-mapping.md)
+[Tag-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/tag-based-mapping.md)
 
 </td><td>
 
@@ -85,7 +86,7 @@ Service instances mapped using tags might not include relevant CIs if those CIs 
 
 </td></tr><tr><td>
 
-[Traffic-based discovery](traffic-based-discovery.md)
+[Traffic-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/traffic-based-discovery.md)
 
 </td><td>
 

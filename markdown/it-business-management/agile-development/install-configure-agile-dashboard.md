@@ -2,6 +2,7 @@
 title: Install Performance Analytics Content Pack for Agile 2.0
 description: Install the Performance Analytics Content Pack for Agile 2.0 application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/install-configure-agile-dashboard.html
 release: zurich
 product: Agile Development
 classification: agile-development
@@ -62,7 +63,7 @@ You can access the Agile Development 2.0 dashboard from **Agile Development** &g
 
 ## What to do next
 
-Start the \[Scrum\] Daily Data Collection job. For more information, see [Enable daily data collection for Agile 2.0 dashboards](enable-daily-data-collection.md).
+Start the \[Scrum\] Daily Data Collection job. For more information, see [Enable daily data collection for Agile 2.0 dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/enable-daily-data-collection.md).
 
-**Parent Topic:**[Performance Analytics Content Pack for Agile 2.0](pa-content-pack-for-agile-2.0.md)
+**Parent Topic:**[Performance Analytics Content Pack for Agile 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/pa-content-pack-for-agile-2.0.md)
 

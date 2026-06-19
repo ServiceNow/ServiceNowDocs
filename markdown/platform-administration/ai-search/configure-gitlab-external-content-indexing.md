@@ -2,6 +2,7 @@
 title: Configure GitLab for external content indexing
 description: Create a personal access token for a group owner user account on GitLab.com to allow the GitLab external content connector to access your GitLab source system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-gitlab-external-content-indexing.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -34,11 +35,11 @@ Your ServiceNow AI Platform instance admin needs this personal access token to c
 
 2.  In the menu, select your avatar, then select **Edit profile**.
 
-    ![Edit profile link in user menu on GitLab.com.](../image/gitlab-edit-profile.png)
+    \[Omitted image "gitlab-edit-profile.png"\] Alt text: Edit profile link in user menu on GitLab.com.
 
 3.  Select **Access tokens**, then select **Add new token**.
 
-    ![Access tokens page on GitLab.com showing Add new token button.](../image/gitlab-access-tokens-add-new-token.png)
+    \[Omitted image "gitlab-access-tokens-add-new-token.png"\] Alt text: Access tokens page on GitLab.com showing Add new token button.
 
 4.  Enter a name, optional description, and expiration date for your new personal access token.
 
@@ -48,25 +49,25 @@ Your ServiceNow AI Platform instance admin needs this personal access token to c
 
 6.  Select **Create token**.
 
-    ![Personal access tokens form on GitLab.com showing token name, description, expiration date, and scopes plus Create token button.](../image/gitlab-access-tokens-create-personal-access-token.png)
+    \[Omitted image "gitlab-access-tokens-create-personal-access-token.png"\] Alt text: Personal access tokens form on GitLab.com showing token name, description, expiration date, and scopes plus Create token button.
 
-7.  When prompted, select the copy icon ![](../image/gitlab-copy-personal-access-token-icon.png) to copy your new personal access token, then save it in a secure location.
+7.  When prompted, select the copy icon \[Omitted image "gitlab-copy-personal-access-token-icon.png"\] Alt text: to copy your new personal access token, then save it in a secure location.
 
-    ![Access tokens page on GitLab.com showing new personal access token.](../image/gitlab-access-tokens-copy-new-personal-access-token.png)
+    \[Omitted image "gitlab-access-tokens-copy-new-personal-access-token.png"\] Alt text: Access tokens page on GitLab.com showing new personal access token.
 
-    **Important:** Your connector admin needs this personal access token to create a GitLab external content connector. You won't be able to access the token again after creating it.
+    **Important:** Your connector administrator needs this personal access token to create a GitLab external content connector. You won't be able to access the token again after creating it.
 
 
 ## What to do next
 
-Provide the following items to your connector admin:
+Provide the following items to your connector administrator:
 
 -   The URL for your GitLab instance. This is typically [https://gitlab.com/](https://gitlab.com/).
--   The personal access token for the group owner user that you copied in step [7](configure-gitlab-external-content-indexing.md#copy-personal-access-token).
+-   The personal access token for the group owner user that you copied in step [7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-gitlab-external-content-indexing.md).
 
-Your connector admin needs these items to configure a GitLab external content connector to retrieve searchable content and security principals from your GitLab.com instance.
+Your connector administrator needs these items to configure a GitLab external content connector to retrieve searchable content and security principals from your GitLab.com instance.
 
-For details on creating and configuring a GitLab external content connector, see [Create a GitLab external content connector](create-ext-cont-connector-gitlab.md).
+For details on creating and configuring a GitLab external content connector, see [Create a GitLab external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-gitlab.md).
 
-**Parent Topic:**[GitLab external content connector](../concept/gitlab-external-content-connector.md)
+**Parent Topic:**[GitLab external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/gitlab-external-content-connector.md)
 

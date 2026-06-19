@@ -2,7 +2,10 @@
 title: Customer access management tables and plugins
 description: Learn about the tables and plugins that you can use with customer access management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-cust-access-mgmt-tables.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 4
@@ -13,7 +16,7 @@ breadcrumb: [Configuring customer access management, User management, Set up you
 
 Learn about the tables and plugins that you can use with customer access management.
 
-The customer access management feature adds new tables or modifies existing tables. You can activate the following plugins that enable features, such as enabling restricted contact access. To activate these plugins, you must have the admin role. For details, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+The customer access management feature adds new tables or modifies existing tables. You can activate the following plugins that enable features, such as enabling restricted contact access. To activate these plugins, you must have the admin role. For details, see Activate a plugin.
 
 <table id="table_pqr_4xf_fsb"><thead><tr><th>
 
@@ -121,7 +124,7 @@ Responsibility Definition\[sn\_customerservice\_responsibility\_def\]
 -   Type
 -   Unique
 
-For more information on the column types, see [Create a responsibility definition](../task/t_CreateAResponsibilityDefinition.md).
+For more information on the column types, see [Create a responsibility definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_CreateAResponsibilityDefinition.md).
 
 </td></tr><tr><td>
 

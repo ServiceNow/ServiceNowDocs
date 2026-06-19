@@ -2,6 +2,7 @@
 title: Engage with outside counsel
 description: Engage with outside counsel to benefit from their expertise for resolving legal matters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-matter-management/lmm-eng-outcounsel.html
 release: zurich
 product: Legal Matter Management
 classification: legal-matter-management
@@ -17,7 +18,7 @@ Engage with outside counsel to benefit from their expertise for resolving legal 
 
 The following options are available for outside counsel engagement.
 
--   Using the Legal Invention Disclosure workflow, you can enable inventors to disclose their inventions in a structured manner. For more information, see [Legal Invention Disclosure](../../legal-invention-disclosure/reference/legal-invention-disclosure-landing.md).
+-   Using the Legal Invention Disclosure workflow, you can enable inventors to disclose their inventions in a structured manner. For more information, see [Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-invention-disclosure/legal-invention-disclosure-landing.md).
 -   Using integration with Legal Tracker, you can engage with outside counsel, by automatically creating matters in Legal Tracker to track updates and spends on outside counsel engagement.
 
 ## Sample workflow for outside counsel engagement using Legal Tracker
@@ -38,18 +39,18 @@ The following options are available for outside counsel engagement.
     When outside counsel reopens or closes an external matter in the legal tracker, the matter status field is automatically updated with a comment in the activity stream in the Legal Counsel Center.
 
 
--   **[Request Outside Counsel engagement](../../legal-tracker/task/create-lt-outside-counsel-engagement.md)**  
+-   **[Request Outside Counsel engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/create-lt-outside-counsel-engagement.md)**  
 As a legal fulfiller, create an outside counsel engagement request for a matter.
--   **[Submit outside counsel engagement request for approval](../../legal-tracker/task/lmm-lt-work-oce.md)**  
+-   **[Submit outside counsel engagement request for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/lmm-lt-work-oce.md)**  
 As a legal fulfiller, submit an outside counsel engagement request for approval.
--   **[Approve or reject outside counsel engagement request](../../legal-tracker/task/lmm-approve-oce.md)**  
+-   **[Approve or reject outside counsel engagement request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/lmm-approve-oce.md)**  
 As a practice area lead, approve the outside counsel engagement request.
--   **[Resolve errors during matter creation](../../legal-tracker/task/lmm-lt-resolve-errors-ocer.md)**  
+-   **[Resolve errors during matter creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/lmm-lt-resolve-errors-ocer.md)**  
 In the Legal Tracker, a matter is created after outside counsel engagement requests have been approved and an integration initiated.
--   **[View external matter details](../../legal-tracker/task/lmm-lt-view-em-details.md)**  
+-   **[View external matter details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/lmm-lt-view-em-details.md)**  
 As a legal fulfiller, view the external matter details fetched from in the legal matter.
--   **[Delete outside counsel engagement request](../../legal-tracker/task/lmm-lt-delete-ocer.md)**  
+-   **[Delete outside counsel engagement request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/lmm-lt-delete-ocer.md)**  
 As a legal fulfiller, you can delete outside counsel engagement request that is no longer required.
 
-**Parent Topic:**[Work on a legal matter](work-on-legal-matter-1.md)
+**Parent Topic:**[Work on a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

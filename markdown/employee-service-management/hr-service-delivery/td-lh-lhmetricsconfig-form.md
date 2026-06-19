@@ -2,6 +2,7 @@
 title: Leader Hub Metric Configurations table
 description: The form associated with a record in the Leader Hub Metric Configurations table enables you to configure metrics for employee engagement with certain applications in the Talent Development suite. The configurable options are applicable to the metrics that appear in the Growth engagement widget and the employee cards that appear on the Org talent page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/td-lh-lhmetricsconfig-form.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -130,5 +131,5 @@ An application in the Talent Development suite for which you want to configure m
 The sequential order in which your employee engagement metric appears in the Growth engagement widget.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Leader Hub reference](../concept/td-lh-reference.md)
+</table>**Parent Topic:**[Leader Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/td-lh-reference.md)
 

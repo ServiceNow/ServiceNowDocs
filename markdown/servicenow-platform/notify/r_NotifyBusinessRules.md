@@ -2,6 +2,7 @@
 title: Business rules installed with Notify
 description: Notify adds the following business rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/notify/r\_NotifyBusinessRules.html
 release: zurich
 product: Notify
 classification: notify
@@ -45,5 +46,5 @@ Notify adds the following business rules.
 |Update Participant Session Active State|\[notify\_call\]|Synchronizes the state of the call between notify\_call and notify\_participant\_session. Upon disconnecting from the call, updates notify\_participant\_session with the duration of the call.|
 |Warn for incorrectly configured workflow|\[notify\_group\]|Checks notify\_group table and displays an error if the a workflow is not configured correctly|
 
-**Parent Topic:**[Components installed with Notify](installed-with-notify2.md)
+**Parent Topic:**[Components installed with Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/installed-with-notify2.md)
 

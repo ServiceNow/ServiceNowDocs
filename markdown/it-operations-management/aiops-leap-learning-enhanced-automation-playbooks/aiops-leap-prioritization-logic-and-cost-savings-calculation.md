@@ -2,13 +2,14 @@
 title: AIOps LEAP prioritization logic and cost savings calculation
 description: AIOps LEAP uses built-in prioritization logic to identify the highest-impact automation opportunities. This logic helps you focus on the most valuable automation tasks. The calculations provide an estimate of potential cost and time savings. It's best to validate these values in a non-production environment before implementing them in production.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-prioritization-logic-and-cost-savings-calculation.html
 release: zurich
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Exploring AIOps LEAP, AIOps Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [LEAP savings metrics, Exploring LEAP, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
 ---
 
 # AIOps LEAP prioritization logic and cost savings calculation
@@ -22,7 +23,7 @@ The automation priority is calculated by combining the following key factors:
 
 The priority for an automation opportunity is determined using the following chart.
 
-![automation opportunity priorities](../images/projected-cost-time-savings.png "Automation opportunity priority")
+\[Omitted image "projected-cost-time-savings.png"\] Alt text: automation opportunity priorities
 
 The key factors are evaluated for each group of related incidents, called  automation opportunities, and the results help teams focus on high-value areas.
 

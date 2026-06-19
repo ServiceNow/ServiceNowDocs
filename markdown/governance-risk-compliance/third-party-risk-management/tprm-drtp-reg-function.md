@@ -2,6 +2,7 @@
 title: Create a function and enhance digital resilience data
 description: Create a function record in Digital resilience third-party registers using Third-party Risk Management where you can configure details of the function such as function identifier, license activity, function name, criticality, or importance assessment details. You can then enhance its digital resilience information for compliance with DORA regulation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-function.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -27,13 +28,13 @@ A function can be a service, a service offering, or a process.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Digital resilience third-party registers**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Digital resilience third-party registers**.
 
 2.  Select **Functions** and then create a function by selecting **New**.
 
 3.  On the form, fill in the fields.
 
-    For descriptions of all these fields, see [Create New Function form](../reference/tprm-create-new-function-form.md).
+    For descriptions of all these fields, see [Create New Function form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-create-new-function-form.md).
 
 4.  Select **Save**.
 

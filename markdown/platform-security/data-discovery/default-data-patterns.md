@@ -2,6 +2,7 @@
 title: Default data patterns
 description: Review the default data pattern regular expressions included in Data Discovery. These default data patterns can be used to filter table entries for further classification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-discovery/default-data-patterns.html
 release: zurich
 product: Data Discovery
 classification: data-discovery

@@ -2,6 +2,7 @@
 title: Workflow timelines
 description: The system provides a timeline view of history activities associated with a workflow context.By default, the timeline displays all activities and transitions requested when first opened.You can display a partial workflow timeline.In a workflow timeline, subflow spans appear as a different color than the activities of the main workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/legacy-workflow/c\_WorkflowTimelines.html
 release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
@@ -19,7 +20,7 @@ Timelines display a linear calendar of activities, such as tasks and approvals, 
 
 **Note:** Workflow timelines reflect context history only and are not real-time gauges of workflow activity.
 
-**Parent Topic:**[Workflow administration](../../workflow/concept/c_WorkflowAdministration.md)
+**Parent Topic:**[Workflow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/c_WorkflowAdministration.md)
 
 ## Use a timeline
 
@@ -39,11 +40,11 @@ Collapse any part of the hierarchy in the activity pane and the timeline adjusts
 
     The timeline opens with all activities expanded and the view set to **Max**, which displays the entire timeline at the width of the pane. The title of the timeline is in the form Workflow context: &lt;context name&gt;, Requested Item: &lt;requested item number&gt;.
 
-    ![Workflow timeline iPhone](../image/WorkflowTimelineIPhone4.png)
+    \[Omitted image "WorkflowTimelineIPhone4.png"\] Alt text: Workflow timeline iPhone
 
 4.  Use the Range Selectors at the top of the timeline to change the perspective.
 
-    ![Timeline perspective bar](../image/TimelinePerspectiveBar.png)
+    \[Omitted image "TimelinePerspectiveBar.png"\] Alt text: Timeline perspective bar
 
     The increments go from one day to one year. To limit the timeline to an increment between the start date of the first span and the end date of the last span, click **Max**.
 
@@ -53,7 +54,7 @@ Collapse any part of the hierarchy in the activity pane and the timeline adjusts
 
 6.  Use the pink slider at the bottom of the timeline to change the perspective.
 
-    ![Workflow timeline slider](../image/WorkflowTimelineSlider.png)
+    \[Omitted image "WorkflowTimelineSlider.png"\] Alt text: Workflow timeline slider
 
     1.  Move the slider from right to left to view all the spans on a long timeline.
     2.  Adjust the end points of the slider to make arbitrary changes to the magnification.
@@ -64,23 +65,23 @@ Collapse any part of the hierarchy in the activity pane and the timeline adjusts
 
     Spans not visible in the activity tree are not shown in the timeline pane.
 
-    ![Workflow timeline collapsed](../image/WorkflowTimelineCollapsed.png)
+    \[Omitted image "WorkflowTimelineCollapsed.png"\] Alt text: Workflow timeline collapsed
 
 8.  Hover over an activity span to display a tooltip with information about the activity.
 
     This action highlights the activity in the activity pane.
 
-    ![Workflow timeline tooltip](../image/WorkflowTimelineTooltip.png)
+    \[Omitted image "WorkflowTimelineTooltip.png"\] Alt text: Workflow timeline tooltip
 
 9.  Hover over the transition between two activities to highlight the activity and the predecessor activity in the activity pane.
 
-    ![Workflow timeline transitions](../image/WorkflowTimelineTransitions.png)
+    \[Omitted image "WorkflowTimelineTransitions.png"\] Alt text: Workflow timeline transitions
 
 10. Double-click a span to display a history record for that activity.
 
     History records shows information such as the **State** and the starting and ending times.
 
-    ![Workflow timeline history popup](../image/WorkflowTimelineHistoryPopup.png)
+    \[Omitted image "WorkflowTimelineHistoryPopup.png"\] Alt text: Workflow timeline history popup
 
 
 ## Timeline for a selected activity
@@ -101,7 +102,7 @@ You can display a partial workflow timeline.
 
 5.  Collapse the tree to confine the view even further.
 
-    ![Partial workflow timeline](../image/WorkflowTimelinePartial.png)
+    \[Omitted image "WorkflowTimelinePartial.png"\] Alt text: Partial workflow timeline
 
 6.  To view a timeline displaying activities from different contexts:
 
@@ -118,5 +119,5 @@ You can display a partial workflow timeline.
 
 In a workflow timeline, subflow spans appear as a different color than the activities of the main workflow.
 
-![](../image/WorkflowTimelineSubflow.png "Workflow timeline subflow")
+\[Omitted image "WorkflowTimelineSubflow.png"\] Alt text:
 

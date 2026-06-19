@@ -2,6 +2,7 @@
 title: Prioritizing portfolio plan work in Strategic Planning Workspace
 description: Review the work pipeline for your portfolio in Strategic Planning Workspace. Add, update, and rank planning items so that you can prioritize the right work for the right time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/managing-backlog-alignment-planner-workspace.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -18,7 +19,7 @@ Review the work pipeline for your portfolio in Strategic Planning Workspace. Add
 
 ## Views for prioritizing planning items
 
-The Prioritization tab on the Planning page in Strategic Planning represents your backlog, displaying the items in your work pipeline. The Kanban and Hierarchy tabs also represent your backlog, each providing a different view of the same items. For an overview of these views, see [Prioritization in Strategic Planning](backlog-management-in-alignment-planner-workspace.md).
+The Prioritization tab on the Planning page in Strategic Planning represents your backlog, displaying the items in your work pipeline. The Kanban and Hierarchy tabs also represent your backlog, each providing a different view of the same items. For an overview of these views, see [Prioritization in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/backlog-management-in-alignment-planner-workspace.md).
 
 **Note:** The Prioritization feature is available only for portfolio plans.
 
@@ -28,7 +29,7 @@ By default, portfolio plans show only the records that are created within the Pl
 
 Consider that you want to manage projects through a portfolio plan. Project records that are only stored in the Planning Item Project \[sn\_align\_project\] table are displayed in the Prioritization, Kanban, and Hierarchy tabs. But any projects created using the PPM Standard aren't shown by default because these project records are stored in the PPM Project \[pm\_project\] table. To enable their display in Strategic Planning Workspace, set up integration with PPM so that the tables of Strategic Planning are mapped to the tables of PPM.
 
-The same is the case with Epics created using Agile Development 2.0 and SAFe applications. See [Configuring Strategic Planning with PPM, Agile 2.0, and SAFe](../../apw-internal-integrations/concept/configuring-apw-with-agile-safe-and-ppm.md).
+The same is the case with Epics created using Agile Development 2.0 and SAFe applications. See [Configuring Strategic Planning with PPM, Agile 2.0, and SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/configuring-apw-with-agile-safe-and-ppm.md).
 
 ## Prioritization features
 
@@ -48,7 +49,7 @@ Example UI
 
 </th></tr></thead><tbody><tr><td>
 
-[Add new planning items](../task/add-new-items-to-backlog-alignment-planner-workspace.md)
+[Add new planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/add-new-items-to-backlog-alignment-planner-workspace.md)
 
 </td><td>
 
@@ -58,11 +59,11 @@ Add new items to your backlog directly from the Prioritization page.
 
 </td><td>
 
-![Sample drop-down list actions showing options to select New epic and New project as a new planning item on the Prioritization page.](../images/new-planning-item.png)
+\[Omitted image "new-planning-item.png"\] Alt text: Sample drop-down list actions showing options to select New epic and New project as a new planning item on the Prioritization page.
 
 </td></tr><tr><td>
 
-[Update planning item details](../task/update-planning-item-details-from-backlog-in-alignment-planner-workspace.md)
+[Update planning item details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/update-planning-item-details-from-backlog-in-alignment-planner-workspace.md)
 
 </td><td>
 
@@ -82,11 +83,11 @@ Categorize planning items using the Must have, Could have, Should have, or Won't
 
 </td><td>
 
-![MoSCoW options for planning items in Strategic Planning Prioritization tab.](../images/moscow-hierarchy.png)
+\[Omitted image "moscow-hierarchy.png"\] Alt text: MoSCoW options for planning items in Strategic Planning Prioritization tab.
 
 </td></tr><tr><td>
 
-[Rank planning items](../task/rank-and-prioritize-backlog-alignment-planner-workspace.md)
+[Rank planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/rank-and-prioritize-backlog-alignment-planner-workspace.md)
 
 </td><td>
 
@@ -98,7 +99,7 @@ Decide on the order of priority for the planning items by using the drag functio
 
 </td></tr><tr><td>
 
-[Prioritize items to roadmap](../task/prioritize-planning-items-strategic-planning-workspace.md)
+[Prioritize items to roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/prioritize-planning-items-strategic-planning-workspace.md)
 
 </td><td>
 
@@ -120,11 +121,11 @@ If you're using ServiceNow PPM, Agile Development 2.0, or SAFe applications to e
 
 </td><td>
 
-![Open planning item in execution app from Prioritization page.](../images/open-execution-app.png)
+\[Omitted image "open-execution-app.png"\] Alt text: Open planning item in execution app from Prioritization page.
 
 </td></tr><tr><td>
 
-[Personalize the Prioritization page views](../task/personalize-backlog-in-alignment-planner-workspace.md)
+[Personalize the Prioritization page views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/personalize-backlog-in-alignment-planner-workspace.md)
 
 </td><td>
 
@@ -146,7 +147,7 @@ Apply filters to all the views of Prioritization, Roadmap, Hierarchy, or Scoring
 
 </td><td>
 
-![Apply filters for Prioritization.](../images/apply-quick-filters-for-prioritization.png)
+\[Omitted image "apply-quick-filters-for-prioritization.png"\] Alt text: Apply filters for Prioritization.
 
 </td></tr><tr><td>
 
@@ -158,7 +159,7 @@ Reorder the position of the columns in the Prioritization tab by dragging them h
 
 </td><td>
 
-![Reorder columns in prioritization by dragging.](../images/reorder-columns-in-prioritization-by-dragging.gif)
+\[Omitted image "reorder-columns-in-prioritization-by-dragging.gif"\] Alt text: Reorder columns in prioritization by dragging.
 
 </td></tr></tbody>
 </table>

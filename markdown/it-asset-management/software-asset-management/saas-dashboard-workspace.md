@@ -2,6 +2,7 @@
 title: SaaS overview dashboard in workspace
 description: View all SaaS related analytics for pure SaaS, Microsoft Office 365, and Adobe Cloud in the SaaS overview dashboard in the Software asset analytics view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/saas-dashboard-workspace.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -28,7 +29,7 @@ You can filter the dashboard by instance, publisher, software model, or domain. 
 
 You can access the SaaS overview dashboard by navigating to **Workspaces** &gt; **Software Asset Workspace** &gt; **Software asset analytics**.
 
-![SaaS Overview dashboard in workspace](../image/software-analytics-workspace.png "SaaS overview dashboard")
+\[Omitted image "software-analytics-workspace.png"\] Alt text: SaaS Overview dashboard in workspace
 
 <table id="table_lvv_rrb_dpb"><thead><tr><th>
 
@@ -240,7 +241,7 @@ SaaS detection
 
 </td><td>
 
-DEX Applications \[samp\_dex\_application\]**Note:** This table has been repurposed for use with the ACC-VC product 1.3.0.
+SaaS URL Usage Applications \[saas\_url\_usage\]
 
 </td><td>
 
@@ -249,10 +250,10 @@ Number of SaaS applications or percentage of the total applications that are man
 
 **Important:** To view this chart, you must do the following:
 
--   Request and install the latest version of the Software Asset Management -SaaS License Management application from the [ServiceNow Store](https://store.servicenow.com/). For more information, see [Request SaaS License Management](../task/request-saas-license-management.md).
--   Install the Agent Client Collector for Visibility - Content \(ACC-VC\) product version 1.3.0 or later. For more information, see [Agent Client Collector](https://www.servicenow.com/docs/access?context=acc-landing-page&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+-   Request and install the latest version of the Software Asset Management -SaaS License Management application from the [ServiceNow Store](https://store.servicenow.com/). For more information, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
+-   Install the Agent Client Collector for Visibility - Content \(ACC-VC\) product version 1.9.0 or later. For more information, see .
 
-For more information, see the [SaaS detection report](shadow-saas-analytics.md) report.
+For more information, see the [SaaS detection report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/shadow-saas-analytics.md).
 
 </td></tr><tr><td>
 

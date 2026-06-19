@@ -2,6 +2,7 @@
 title: Multi-factor Authentication enforcement properties
 description: Configure the properties for MFA enforcement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/mfa-enforcement-properties.html
 release: zurich
 product: Authentication
 classification: authentication

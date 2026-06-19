@@ -2,6 +2,7 @@
 title: Change Management and CSDM tables
 description: Change Management manages and uses CSDM tables. Several ServiceNow products benefit from and add value to Change Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/itsm-change-use-case.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -27,7 +28,7 @@ Configuration items \(CIs\) tables \[cmdb\_ci\_\*\]:
 
 The following figure highlights the CSDM tables managed by Change Management.
 
-![CSDM elements in Change Management.](../image/csdm-v5-tables-mngd-by-change-mgmt.png "CSDM tables managed by Change Management")
+\[Omitted image "csdm-v5-tables-mngd-by-change-mgmt.png"\] Alt text: CSDM elements in Change Management.
 
 ## CSDM tables used by Change Management
 
@@ -36,7 +37,7 @@ The following figure highlights the CSDM tables managed by Change Management.
 3.  Business Service \[cmdb\_ci\_service\_business\] table and Technology Management Service \[cmdb\_ci\_service\_technical\] table \(formerly Technical service\): Uses the service classification attribute to identify business services, technical services, and application services as types of services.
 4.  Service Offering \[service\_offering\] table: Uses the service classification attribute to identify business services, Technology Management Offerings \(formerly Technical service offerings\), and application services as types of service offerings.
 
-![CSDM elements used by Change Management.](../image/csdm-v5-tables-used-by-change-mgmt.png "Tables used by Change Management")
+\[Omitted image "csdm-v5-tables-used-by-change-mgmt.png"\] Alt text: CSDM elements used by Change Management.
 
 ## Products that add value to Change Management
 
@@ -78,5 +79,5 @@ When you use Change Management with other ServiceNow products, you increase the 
 
 [See the video: How Change Management leverages the CSDM](https://www.youtube.com/watch?v=3iCxTeU4ZTA&list=PLkGSnjw5y2U7QNr9jL6TAgwQvYBI_LEtK&index=43)
 
-**Parent Topic:**[Applying CSDM guidelines to Change Management](../concept/itsm-change-use-case-product-view.md)
+**Parent Topic:**[Applying CSDM guidelines to Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/itsm-change-use-case-product-view.md)
 

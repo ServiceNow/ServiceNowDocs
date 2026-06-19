@@ -2,6 +2,7 @@
 title: Set partition size for parallel loading-enabled AWS accounts
 description: When using the SG-AWS-Image-Private, SG-AWS-Tags, SG-AWS-SendCommand, and AWS-SSM-GetS3Object data sources, you can optimize their performance by setting the partition size in the aws\_account\_partition\_size connection property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/sgc-aws-partition-size-prop.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -18,7 +19,7 @@ When using the SG-AWS-Image-Private, SG-AWS-Tags, SG-AWS-SendCommand, and AWS-SS
 
 ## Before you begin
 
-Set the application scope to Service Graph Connector for AWS using the application picker. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+Set the application scope to Service Graph Connector for AWS using the application picker. For more information, see Application picker.
 
 Role required: admin
 
@@ -26,7 +27,7 @@ Role required: admin
 
 The parallel loading feature is available for the SG-AWS-Image-Private, SG-AWS-Tags, SG-AWS-SendCommand, and AWS-SSM-GetS3Object data sources from the Washington DC Patch 5 release. This feature determines the number of AWS accounts that can be executed as parallel jobs to retrieve configuration item \(CI\) data. Partition size determines how many AWS accounts a single parallel-thread evaluates for data retrieval. For example, if you set the **aws\_account\_partition\_size** property to `5` and there are `25` AWS accounts, the application generates `5` parallel jobs during data loading.
 
-**Note:** If the **aws\_account\_partition\_size** property isn't configured, the partition size computation feature of the Integration Commons for CMDB application automatically determines the partition size for parallel loading at runtime. See [Partition size computation for parallel loading in Integration Commons for CMDB](../concept/integration-commons-part-size.md).
+**Note:** If the **aws\_account\_partition\_size** property isn't configured, the partition size computation feature of the Integration Commons for CMDB application automatically determines the partition size for parallel loading at runtime. See [Partition size computation for parallel loading in Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-integration-commons/integration-commons-part-size.md).
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: Register Microsoft Exchange Online as the OAuth provider
 description: Register Microsoft Exchange Online as the OAuth provider so that your Walk-up Experience instance can request OAuth 2.0 tokens.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/walk-up-experience/register-MS-msexchange-online-as-OAuth-provider.html
 release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -199,5 +200,5 @@ Client credentials in the request.
     A system-generated OAuth entity profile is created and displayed in the OAuth Entity Profiles related list. For example, `Microsoft Exchange Online_clientCredentials default_profile`.
 
 
-**Parent Topic:**[Set up Microsoft Office 365 integration for Walk-up Experience](setup-walkup-msoffice365-cal-integ.md)
+**Parent Topic:**[Set up Microsoft Office 365 integration for Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/setup-walkup-msoffice365-cal-integ.md)
 

@@ -2,7 +2,10 @@
 title: Legacy: IT Executive dashboard
 description: See a high-level view across all of ITSM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/it-executive-dashboard.html
 release: zurich
+product: IT Service Management
+classification: it-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -13,9 +16,9 @@ breadcrumb: [Legacy: Performance Analytics ITSM Dashboards, ITSM dashboards, IT 
 
 See a high-level view across all of ITSM.
 
-IT executives can use the [ITSM Success Dashboards](../../../product/itsm-success-dashboard/concept/explore-success-dashboard-indicators.md) to view the metrics for ITSM.
+IT executives can use the [ITSM Success Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-success-dashboard-indicators/explore-success-dashboard-indicators.md) to view the metrics for ITSM.
 
-![Animated tour of the tabs of the IT Executive dashboard](../image/itsm-it-executive.gif)
+\[Omitted image "itsm-it-executive.gif"\] Alt text: Animated tour of the tabs of the IT Executive dashboard
 
 ## End user and roles
 
@@ -148,5 +151,5 @@ The following indicators do not appear on the dashboard but are used in formulas
 -   Stage \(Requested Item\)
 -   State \(Change, Request, Problem\)
 
-**Parent Topic:**[Legacy: Performance Analytics ITSM Dashboards](itsm-dashboards-content-pack.md)
+**Parent Topic:**[Legacy: Performance Analytics ITSM Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-dashboards-content-pack.md)
 

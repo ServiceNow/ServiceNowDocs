@@ -2,6 +2,7 @@
 title: Customize a KB generation skill in Now Assist for Field Service Management \(FSM\)
 description: As an admin, you can clone the KB generation skill and customize the input fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/now-assist-for-field-service-management-fsm/cust-now-assist-fsm-skill.html
 release: zurich
 product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm
@@ -31,19 +32,19 @@ The out-of-the-box \(OOB\) KB is generated for the following states: Close Compl
 
 3.  Create a copy of the Now Assist for FSM KB generation skill and customize the input fields.
 
-    1.  On the KB generation skill feature card, select the more actions icon ![](../image/more_actions.png).
+    1.  On the KB generation skill feature card, select the more actions icon \[Omitted image "more\_actions.png"\] Alt text:.
 
     2.  Select **Make a copy**.
 
         A guided setup leads you through the configuration of the general details, input, availability, display, review, and activation of the customized skill. When you complete the entire walk-through, the skill is activated.
 
-4.  In the General details step, fill in the fields.![Name and describe the skill.](../image/now-assist-kb-generation-general.png)
+4.  In the General details step, fill in the fields.\[Omitted image "now-assist-kb-generation-general.png"\] Alt text: Name and describe the skill.
 
     1.  Enter a name and description for the skill.
 
     2.  Select **Save and continue** to go to the next step.
 
-5.  View the input data. ![Select the default Knowledge Base for NAP.](../image/now-assist-kb-generation-input.png)
+5.  View the input data. \[Omitted image "now-assist-kb-generation-input.png"\] Alt text: Select the default Knowledge Base for NAP.
 
     1.  The table record and input fields are read-only.
 
@@ -51,7 +52,7 @@ The out-of-the-box \(OOB\) KB is generated for the following states: Close Compl
 
     3.  Select **Save and continue**.
 
-6.  Define how the skill is available to your users. ![Define the skill availability.](../image/now-assist-kb-generation-availability.png)
+6.  Define how the skill is available to your users. \[Omitted image "now-assist-kb-generation-availability.png"\] Alt text: Define the skill availability.
 
     1.  Configure the skill to be always available to users, or select conditions that must be met before the skill is available.
 
@@ -59,7 +60,7 @@ The out-of-the-box \(OOB\) KB is generated for the following states: Close Compl
 
     2.  Select **Save and continue** to go to the next step.
 
-7.  Configure where to display the KB generation. ![Choose where to display the KB generation.](../image/now-assist-kb-generation-display.png)
+7.  Configure where to display the KB generation. \[Omitted image "now-assist-kb-generation-display.png"\] Alt text: Choose where to display the KB generation.
 
     1.  Select either **In-product**, or **Now Assist panel**.
 
@@ -73,7 +74,7 @@ The out-of-the-box \(OOB\) KB is generated for the following states: Close Compl
 
     2.  Select **Save and continue** to go to the next step.
 
-8.  Review and activate the skill. ![Review and activate.](../image/now-assist-kb-generation-review.png)
+8.  Review and activate the skill. \[Omitted image "now-assist-kb-generation-review.png"\] Alt text: Review and activate.
 
     Review your choices and select **Activate** to complete the skill customization.
 

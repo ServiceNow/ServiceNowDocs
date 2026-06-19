@@ -2,6 +2,7 @@
 title: Configuring the Territory
 description: Create territories to optimize the assignment of a territory to CRM data. Map these territories to the territory model and levels to maintain the hierarchy. Provide conditions for automated assignments, and onboard members with role-based access in a territory for restricted permissions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configure-territories.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

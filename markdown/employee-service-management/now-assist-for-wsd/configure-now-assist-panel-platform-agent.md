@@ -2,6 +2,7 @@
 title: Configure Now Assist Panel Platform Agent
 description: Administrators can enable conversational features by setting up the Now Assist panel, mapping user intents to workflows, and connecting agents to relevant knowledge graphs for reservations, connectors, and utilization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-wsd/configure-now-assist-panel-platform-agent.html
 release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -19,7 +20,7 @@ Administrators can enable conversational features by setting up the Now Assist p
 
 Workplace users can leverage the Now Assist Panel-Platform by configuring the Now Assist for WSD. Now Assist for Workplace Service Delivery \(WSD\) can be configured to handle queries about reservations, connectors, and utilization. The Now Assist Panel Platform application provides conversational experiences for Workplace Service Delivery flows.
 
-For more information about Now Assist in Virtual Agent, see [Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-in-va-landing&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+For more information about Now Assist in Virtual Agent, see .
 
 ## Before you begin
 

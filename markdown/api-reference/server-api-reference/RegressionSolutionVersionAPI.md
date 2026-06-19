@@ -2,6 +2,7 @@
 title: RegressionSolutionVersion - Global
 description: The RegressionSolutionVersion API is a scriptable object used in Predictive Intelligence stores.Gets solution object properties and version number.Gets training completion status.Gets the version number of a solution object.Gets the input data for a prediction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/RegressionSolutionVersionAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,18 +18,18 @@ The RegressionSolutionVersion API is a scriptable object used in Predictive Inte
 
 This API requires the Predictive Intelligence plugin \(com.glide.platform\_ml\) and is provided within the `sn_ml` namespace.
 
-Use this API when working with solution versions based on [RegressionSolution API](../../RegressionSolution/concept/RegressionSolutionAPI.md#) objects in the [RegressionSolution store](../../RegressionSolutionStore/concept/RegressionSolutionStoreAPI.md#).
+Use this API when working with solution versions based on [RegressionSolution API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/RegressionSolutionAPI.md) objects in the [RegressionSolution store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/RegressionSolutionStoreAPI.md).
 
 The system creates a solution version each time you train a solution definition. Most versions are created during scheduled solution training.
 
 Methods in this API are accessible using the following RegressionSolution methods:
 
--   [getActiveVersion\(\)](../../RegressionSolution/concept/RegressionSolutionAPI.md#)
--   [getAllVersions\(\)](../../RegressionSolution/concept/RegressionSolutionAPI.md#)
--   [getLatestVersion\(\)](../../RegressionSolution/concept/RegressionSolutionAPI.md#)
--   [getVersion\(\)](../../RegressionSolution/concept/RegressionSolutionAPI.md#)
+-   [getActiveVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/RegressionSolutionAPI.md)
+-   [getAllVersions\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/RegressionSolutionAPI.md)
+-   [getLatestVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/RegressionSolutionAPI.md)
+-   [getVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/RegressionSolutionAPI.md)
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## RegressionSolutionVersion - getProperties\(\)
 
@@ -52,7 +53,7 @@ Object
 
 </td><td>
 
-Contents of the Dataset and [RegressionSolution](../../RegressionSolution/concept/RegressionSolutionAPI.md#) version details. Results vary by object property setup.```
+Contents of the Dataset and [RegressionSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/RegressionSolutionAPI.md) version details. Results vary by object property setup.```
 {
   "datasetProperties": {Object},
   "domainName": "String",
@@ -76,7 +77,7 @@ Contents of the Dataset and [RegressionSolution](../../RegressionSolution/concep
 
 </td><td>
 
-Lists the properties of the [DatasetDefinition\(\)](../../DatasetDefinition/concept/DatasetDefinitionAPI.md#) object associated with the solution.
+Lists the properties of the [DatasetDefinition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DatasetDefinitionAPI.md) object associated with the solution.
 
  ```
 {
@@ -142,7 +143,7 @@ Machine-learning field type. Data type: String.
 
 </td><td>
 
-Encoded query string in standard Glide format. See [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US). Data type: String.
+Encoded query string in the standard platform format. See Encoded query strings.Data type: String.
 
 </td></tr><tr><td>
 
@@ -150,7 +151,7 @@ Encoded query string in standard Glide format. See [Encoded query strings](https
 
 </td><td>
 
-Domain name associated with this dataset. See [Domain separation and Predictive Intelligence](https://www.servicenow.com/docs/access?context=domain-separation-predictive-intelligence&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US). Data type: String.
+Domain name associated with this dataset. See .Type: String
 
 </td></tr><tr><td>
 
@@ -158,7 +159,7 @@ Domain name associated with this dataset. See [Domain separation and Predictive 
 
 </td><td>
 
-Encoder object assigned to this solution. See [Encoder - Encoder\(Object config\)](../../Encoder/concept/EncoderAPI.md#).Data type: Object.
+Encoder object assigned to this solution. See [Encoder - Encoder\(Object config\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/EncoderAPI.md).Data type: Object.
 
 </td></tr><tr><td>
 
@@ -241,7 +242,7 @@ Object scope. Currently the only valid value is `global`.Data type: String
 
 </td><td>
 
-Optional. Preset list of strings that the system automatically generates based on the **language** property setting. For details, see [Create a custom stopwords list](https://www.servicenow.com/docs/access?context=create-custom-stopwords-list&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US). Data type: Array.
+Optional. Preset list of strings that the system automatically generates based on the **language** property setting. For details, see Create a custom stopwords list. Data type: Array.
 
 </td></tr><tr><td>
 
@@ -347,7 +348,7 @@ Object
 
 </td><td>
 
-JavaScript object containing training status information for a [RegressionSolution](../../RegressionSolution/concept/RegressionSolutionAPI.md#) object.```
+JavaScript object containing training status information for a [RegressionSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/RegressionSolutionAPI.md) object.```
 {
   "state": "String",
   "percentComplete": "Number as a String",
@@ -505,7 +506,7 @@ Object
 
 </td><td>
 
-[GlideRecord](../../GlideRecord/concept/c_GlideRecordAPI.md#) or array of JSON objects containing field names and values as key-value pairs.
+[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordAPI.md) or array of JSON objects containing field names and values as key-value pairs.
 
 </td></tr><tr><td>
 

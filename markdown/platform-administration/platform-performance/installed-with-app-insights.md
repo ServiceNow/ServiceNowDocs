@@ -2,6 +2,7 @@
 title: Components installed with Application Insights
 description: Several types of components are installed with the installation of the Application Insights application, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-performance/installed-with-app-insights.html
 release: zurich
 product: Platform Performance
 classification: platform-performance
@@ -15,11 +16,11 @@ breadcrumb: [Install Application Insights, Application Insights, Monitor, Platfo
 
 Several types of components are installed with the installation of the Application Insights application, including tables and user roles.
 
-Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the [Overview of Instance Observer](https://www.servicenow.com/docs/access?context=io-overview&version=zurich&pubname=zurich-impact&ft:locale=en-US) product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
+Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the  product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](../../plugins/task/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/find-components.md).
 
 ## Roles installed
 
@@ -151,5 +152,5 @@ Conditional threshold \[sn\_app\_insights\_trigger\_condition\]
 Stores the configuration of metric thresholds, which are a logical combination of the individual triggers in the sn\_app\_insights\_metric\_trigger table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Application Insights](../task/install-application-insights.md)
+</table>**Parent Topic:**[Install Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/install-application-insights.md)
 

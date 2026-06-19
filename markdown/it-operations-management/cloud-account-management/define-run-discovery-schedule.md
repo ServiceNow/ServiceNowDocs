@@ -2,13 +2,14 @@
 title: Define and run discovery schedule
 description: The discovery schedule is the control point for running discoveries. The schedule controls when discovery runs, defines the MID Server to use, the type of discovery that should run, and the IP addresses to query.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/define-run-discovery-schedule.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Populate Cloud Account Management dependent tables, Setting up Cloud Account Management in Cloud Workspace, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Populate Cloud Account Management dependent tables, Setting up Cloud Account Management in Cloud Workspace, Configuring Cloud Account Management, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Define and run discovery schedule
@@ -31,7 +32,7 @@ Role required: discovery\_admin
 
 4.  Fill in the details \(by selecting the provider\).
 
-    For more information on the field details, see [Create a new discovery schedule form reference](../../discovery/reference/create-a-new-discovery-schedule-form.md).
+    For more information on the field details, see [Create a new discovery schedule form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/create-a-new-discovery-schedule-form.md).
 
     If the system can’t detect an appropriate MID Server, you’re prompted to configure a MID Server.
 

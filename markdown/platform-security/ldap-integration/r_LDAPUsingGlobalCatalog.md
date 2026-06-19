@@ -2,6 +2,7 @@
 title: LDAP global catalog usage
 description: A DC can be granted the Global Catalog \(GC\) role. Global Catalog \(GC\) role is an LDAP-compliant directory consisting of a partial representation of every object from every domain within a forest.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/ldap-integration/r\_LDAPUsingGlobalCatalog.html
 release: zurich
 product: LDAP integration
 classification: ldap-integration

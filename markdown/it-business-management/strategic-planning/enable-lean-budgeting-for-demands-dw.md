@@ -2,13 +2,14 @@
 title: Enable lean budgeting for demands
 description: Enable the Investment Budget option to allocate budgeting for demands at a fiscal period level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/enable-lean-budgeting-for-demands-dw.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
 last_updated: "2026-01-19"
 reading_time_minutes: 1
-breadcrumb: [Manage financials for demands, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage financials for demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Enable lean budgeting for demands
@@ -27,9 +28,9 @@ Role required: admin
 
 3.  Select the Additional actions and navigate to **View** &gt; **APW Default**.
 
-    ![Navigation to APW Default in Additional actions.](../images/apw-default-view-dmn.png)
+    \[Omitted image "apw-default-view-dmn.png"\] Alt text: Navigation to APW Default in Additional actions.
 
-4.  Select the Additional actions and navigate to **Configure** &gt; **Related Lists**.![List of options available in Additional actions.](../../planning-and-policy/image/config-invest-budget.png)
+4.  Select the Additional actions and navigate to **Configure** &gt; **Related Lists**.\[Omitted image "config-invest-budget.png"\] Alt text: List of options available in Additional actions.
 
 5.  Select **Investment Budget** from the Available column and add it to Selected column.
 

@@ -2,6 +2,7 @@
 title: Setting exclusion lists for IPs and NICs
 description: Agent Client Collector for Visibility - Content \(ACC-VC\) version 1.3.0 supports exclusion list for IPs and Network Interface Controllers \(NICs\) with a flexible mechanism for filtering out values for IPs and or NICs when creating or updating the host CI and related items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-v-set-exclusion-lists-for-ips-and-nics.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector

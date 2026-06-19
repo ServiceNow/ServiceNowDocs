@@ -2,6 +2,7 @@
 title: Synchronize user groups for a technology management offering
 description: Synchronize group assignment attributes on entire CI classes and individual CIs by creating a dynamic CI group for use by a technology management offering.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/common-service-data-model-csdm/csdm-enable-tso.html
 release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -29,27 +30,27 @@ In addition to the method described in this procedure, you can use the CI Class 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Configuration** &gt; **CMDB Groups** and create a new CMDB group.
+1.  Navigate to **All** &gt; **Configuration** &gt; **CMDB Groups** and create a CMDB group.
 
-    See [CMDB groups](../../configuration-management/concept/cmdb-groups.md#) for details.
+    See [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md) for details.
 
 2.  Navigate to **All** &gt; **Configuration** &gt; **Dynamic CI Groups**.
 
-3.  Create a new dynamic CI group and associate it with the CMDB group that you created.
+3.  Create a dynamic CI group and associate it with the CMDB group that you created.
 
-    ![CMDB: Create a dynamic CI group.](../image/create-dynamic-group.png)
+    \[Omitted image "create-dynamic-group.png"\] Alt text: CMDB: Create a dynamic CI group.
 
-    See [Service Delivery domain in the CSDM model](../concept/manage-tech-servs-domain.md) for more information on dynamic CI groups.
+    See [Service Delivery domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/manage-tech-servs-domain.md) for more information on dynamic CI groups.
 
-4.  Navigate to **All** &gt; **CSDM** &gt; **Technical Service Offering** and create a new technology management offering.
+4.  Navigate to **All** &gt; **CSDM** &gt; **Technical Service Offering** and create a technology management offering.
 
-    See [Service Delivery domain in the CSDM model](../concept/manage-tech-servs-domain.md) for more information on technology management offerings.
+    See [Service Delivery domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/manage-tech-servs-domain.md) for more information on technology management offerings.
 
 5.  Navigate to the **CI Relationships** table, select **New**, and then enter the following values:
 
     -   **Parent**: Select the technology management offering that you created.
     -   **Child**: Select the dynamic CI group that you created.
-    ![Create the relationship between the technology management offering and a dynamic CI group.](../image/create-ci-relationship.png)
+    \[Omitted image "create-ci-relationship.png"\] Alt text: Create the relationship between the technology management offering and a dynamic CI group.
 
 6.  Select **Submit**.
 
@@ -62,16 +63,16 @@ In addition to the method described in this procedure, you can use the CI Class 
     -   Support group
     -   Change group
     -   Managed by group
-    ![Create a Technology management offering.](../image/create-tservice-offering.png)
+    \[Omitted image "create-tservice-offering.png"\] Alt text: Create a Technology management offering.
 
-9.  Right-click the header and select **Save**.
+9.  Select and hold \(or right-click\) the header and select **Save**.
 
     A message confirms that data synchronization has been enabled for the fields.
 
 10. The values that you specified are applied to the related dynamic CI group and all associated CIs.
 
-    **Note:** If a new CI is added to the class, the data will be synchronized only after the scheduled CSDM Data Sync job is completed. If you need to synchronize the data immediately, navigate to **Scheduled Jobs** &gt; **CSDM Data Sync** and select **Execute**.
+    **Note:** If a new CI is added to the class, the data will be synchronized only after the scheduled CSDM Data Sync job is completed. To synchronize the data immediately, navigate to **Scheduled Jobs** &gt; **CSDM Data Sync** and select **Execute**.
 
 
-**Parent Topic:**[Matching the usage of dynamic CI groups to service type](../concept/csdm-dynamic-ci-groups-by-service.md)
+**Parent Topic:**[Matching the usage of dynamic CI groups to service type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-dynamic-ci-groups-by-service.md)
 

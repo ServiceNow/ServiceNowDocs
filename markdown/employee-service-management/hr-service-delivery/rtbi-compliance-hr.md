@@ -2,6 +2,7 @@
 title: Personal Data Rights in HR Service Delivery
 description: HR customers can enable personal data protection for their employees and alumni by implementing General Data Protection Regulation \(GDPR\) rules as a result becoming a GDPR compliant organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/rtbi-compliance-hr.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,20 +26,20 @@ HR Service Delivery offers two HR services to conform with Right to be Informed 
 RTBI in HR Service Delivery include:
 
 -   Classifying the Personally identifiable information \(PII\) data.
--   Approving hierarchy for the report generation. For more information, see [Generate Personally Identifiable Information \(PII\) report](../task/generate-pii-report-rtbi.md).
--   Requesting personal information report by an employee or alumni. For more information, see [Request personal information report](../task/request-personal-information-report-rtbi.md).
+-   Approving hierarchy for the report generation. For more information, see [Generate Personally Identifiable Information \(PII\) report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/generate-pii-report-rtbi.md).
+-   Requesting personal information report by an employee or alumni. For more information, see [Request personal information report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/request-personal-information-report-rtbi.md).
 -   Restricting the service access to the agents in the HR data privacy group.
 
 ## Right to be Forgotten \(RTBF\)
 
 RTBF in HR Service Delivery include:
 
--   Creating erasure request. For more information, see [Request erasure of personal data](../task/request-erasure-personal-data-rtbi.md).
+-   Creating erasure request. For more information, see [Request erasure of personal data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/request-erasure-personal-data-rtbi.md).
 -   Reviewing the erasure request and checking for eligibility.
 -   Carrying out the deletion.
 -   Restricting the service to the agents in the HR data privacy group and the HR data privacy compliance group for approvals.
 
-Customers can choose to anonymize the employees personal data over deletion. For more information, see [Data anonymization](https://www.servicenow.com/docs/access?context=dps-data-anonymization&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+Customers can choose to anonymize the employees personal data over deletion. For more information, see .
 
-The ServiceNow platform offers other tools like Table cleaner, Archival rules, and Destroy rules, to support minimal data retention by removing outdated data. For more information, see [Exploring Data Management](https://www.servicenow.com/docs/access?context=exploring-data-management&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US). For enhanced data privacy, you can explore Anonymization and Field Encryption. For more info, see [Field Encryption](https://www.servicenow.com/docs/access?context=field-encryption&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+The ServiceNow platform offers other tools like Table cleaner, Archival rules, and Destroy rules, to support minimal data retention by removing outdated data. For more information, see . For enhanced data privacy, you can explore Anonymization and Field Encryption. For more info, see .
 

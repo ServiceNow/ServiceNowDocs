@@ -2,6 +2,7 @@
 title: Configure a widget for project financial metrics
 description: Configure a widget to view and track the financial metrics of a project on the Financials tab of the Project Workspace page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/configure-widget-project-financials.html
 release: zurich
 product: Project Workspace
 classification: project-workspace
@@ -125,10 +126,10 @@ Description of the widget.
 </table>
 ## What to do next
 
-[Associate the widget to the Project table](associate-widget-to-project.md).
+[Associate the widget to the Project table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/associate-widget-to-project.md).
 
--   **[Associate a widget to the Project table](associate-widget-to-project.md)**  
+-   **[Associate a widget to the Project table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/associate-widget-to-project.md)**  
 After you configure a widget, associate it with the Project table to show the financial data of a project.
 
-**Parent Topic:**[View forecasts and manage financial plans for a project in classic Project Workspace](view-plan-financials-in-project-workspace.md)
+**Parent Topic:**[View forecasts and manage financial plans for a project in classic Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/view-plan-financials-in-project-workspace.md)
 

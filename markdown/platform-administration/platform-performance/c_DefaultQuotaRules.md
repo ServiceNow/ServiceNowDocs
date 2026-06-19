@@ -2,6 +2,7 @@
 title: Default quota rules
 description: Various transaction quota rules are available in the base system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-performance/c\_DefaultQuotaRules.html
 release: zurich
 product: Platform Performance
 classification: platform-performance
@@ -66,7 +67,7 @@ Various transaction quota rules are available in the base system.
 
 ## Normal transaction activities
 
-Before setting transaction quotas, navigate to **User Administration** &gt; **Active Transactions** to review the normal transaction activities for your instance. You can [view and terminate long-running transactions](../task/t_ViewAndKillAnActiveTransaction.md) if necessary. Over time, you can determine the normal transaction load for your instance and set your quotas to match these norms.
+Before setting transaction quotas, navigate to **User Administration** &gt; **Active Transactions** to review the normal transaction activities for your instance. You can [view and terminate long-running transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/t_ViewAndKillAnActiveTransaction.md) if necessary. Over time, you can determine the normal transaction load for your instance and set your quotas to match these norms.
 
-**Parent Topic:**[Platform performance reference](platform-performance-references.md)
+**Parent Topic:**[Platform performance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/platform-performance-references.md)
 

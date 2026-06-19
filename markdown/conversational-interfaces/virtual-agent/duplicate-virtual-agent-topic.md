@@ -2,6 +2,7 @@
 title: Duplicate a Virtual Agent topic
 description: Create a new topic or topic block by copying an existing Virtual Agent topic or topic block and customize it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/duplicate-virtual-agent-topic.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -32,7 +33,7 @@ Consider duplicating topics in the following scenarios:
 
 1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**, and in the Asset library, select the topic you want to duplicate.
 
-2.  In the topic header bar, select the more actions on topics icon ![](../images/kebab-menu.png), then select **Duplicate**.
+2.  In the topic header bar, select the more actions on topics icon \[Omitted image "kebab-menu.png"\] Alt text:, then select **Duplicate**.
 
     1.  In the Duplicate window, enter the new name for the item.
 
@@ -56,7 +57,7 @@ Topics
 
 </td><td>
 
-See [Create a Virtual Agent topic](create-virtual-agent-topic.md) for a description of the topic properties that you can change and how to add or change the nodes in the flow.
+See [Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md) for a description of the topic properties that you can change and how to add or change the nodes in the flow.
 
 </td></tr><tr><td>
 
@@ -64,19 +65,19 @@ Topic blocks
 
 </td><td>
 
-See [Create a reusable topic block](create-topic-blocks.md) for a description of the topic block properties that you set and the input and output parameters that you define for the block.
+See [Create a reusable topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-topic-blocks.md) for a description of the topic block properties that you set and the input and output parameters that you define for the block.
 
 </td></tr></tbody>
 </table>4.  As you update your design, use the **Test** option to run your design in a chat test window, then fine-tune your design flow accordingly.
 
-    For details on test features of LLM topics, see [Testing LLM topics](../reference/test-llm-topics.md).
+    For details on test features of LLM topics, see [Testing LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/test-llm-topics.md).
 
-    For details on test features regarding NLU topics, see [Testing NLU/Keyword topics](../reference/va-designer-testing.md).
+    For details on test features regarding NLU topics, see [Testing NLU/Keyword topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-designer-testing.md).
 
 
 ## What to do next
 
-If you’ve completed the topic or topic block, [publish](publish-virtual-agent-topic.md) it to deploy it to your Virtual Agent clients.
+If you’ve completed the topic or topic block, [publish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md) it to deploy it to your Virtual Agent clients.
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](../reference/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

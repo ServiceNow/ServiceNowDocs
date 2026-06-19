@@ -2,6 +2,7 @@
 title: Check device health using Employee Center
 description: Monitor and resolve common device performance issues independently by using Device health check through the Employee Center portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-self-service/check-your-device-s-using-employee-center.html
 release: zurich
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service
@@ -23,15 +24,15 @@ Role required: none
 
 1.  Open Device health check from Employee Center using one of the following options.
 
-<table id="choicetable_lhy_ttn_z2c"><thead><tr><th align="left" id="d442489e75">
+<table id="choicetable_lhy_ttn_z2c"><thead><tr><th align="left" id="d139375e75">
 
 Option
 
-</th><th align="left" id="d442489e78">
+</th><th align="left" id="d139375e78">
 
 Steps to open Device heath check
 
-</th></tr></thead><tbody><tr><td id="d442489e84">
+</th></tr></thead><tbody><tr><td id="d139375e84">
 
 **Hardware or Software pages**
 
@@ -47,7 +48,7 @@ The Device heath check widget appears, displaying device health categories with 
 5.  Select a category to see more details in the Device health check page.
 
 
-</td></tr><tr><td id="d442489e161">
+</td></tr><tr><td id="d139375e161">
 
 **Quick links**
 
@@ -58,7 +59,7 @@ Navigate to **Technology Services** &gt; **Quick links** &gt; **Device health ch
 </td></tr></tbody>
 </table>    **Note:** When AI search is off, searching for Device health check returns a single result under **Catalog** &gt; **Hardware**. When AI search is enabled, multiple results appear under both **Catalog** &gt; **Hardware** and **Catalog** &gt; **Software**.
 
-2.  On the Device health check page, select the Favorite icon \(![](../image/DHC_favorite_icon.png)\) to add it to your **My Favorites** section.
+2.  On the Device health check page, select the Favorite icon \(\[Omitted image "DHC\_favorite\_icon.png"\] Alt text:\) to add it to your **My Favorites** section.
 
 3.  In the **Diagnose** tab, review the performance category and required actions for the device, applications, and network.
 

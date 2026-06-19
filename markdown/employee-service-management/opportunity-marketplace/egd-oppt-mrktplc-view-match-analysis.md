@@ -2,6 +2,7 @@
 title: View an opportunity match analysis
 description: Opportunity Marketplace \(OPM\) generates match analyses based on your current role, aspirations, and skills. Match analysis is based on your skills and preferences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-view-match-analysis.html
 release: zurich
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -33,7 +34,7 @@ OPM provides helpful analyses and recommendations for available opportunities, a
 
 2.  In an opportunity card, select **Match analysis** to view details about the match.
 
-    Match analysis is based on matched skills and preferences. Skills make up 80% of the match analysis and 20% comes from your preferences. It’s important to keep your preferences and skills current so that the match analysis finds relevant opportunities. For more information about skills, see [Using Skills Foundation](../../skills-intelligence/concept/using-skills-intelligence.md).
+    Match analysis is based on matched skills and preferences. Skills make up 80% of the match analysis and 20% comes from your preferences. It’s important to keep your preferences and skills current so that the match analysis finds relevant opportunities. For more information about skills, see [Using Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/using-skills-intelligence.md).
 
     The different sections of the analysis display information about the match.
 
@@ -44,5 +45,5 @@ OPM provides helpful analyses and recommendations for available opportunities, a
     From the opportunity, you can view your **Match analysis** and **Sign up** for the opportunity.
 
 
-**Parent Topic:**[Use Opportunity Marketplace](../concept/egd-oppt-mrktplc-using.md)
+**Parent Topic:**[Use Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-using.md)
 

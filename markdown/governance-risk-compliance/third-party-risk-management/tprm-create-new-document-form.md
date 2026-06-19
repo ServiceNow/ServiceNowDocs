@@ -2,6 +2,7 @@
 title: Create new document form
 description: On the Create new document form, fill in the fields for the document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-create-new-document-form.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management

@@ -2,6 +2,7 @@
 title: Enable financials for planning items in Strategic Planning
 description: EActivate financials for all the planning items to work on the financial estimates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/enable-spw-fin-epic.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw

@@ -2,6 +2,7 @@
 title: Modify security incident map
 description: Administrators in the global domain, can modify how the security incident map handles security incidents using filters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/t\_ModifySecIncGeoHeatmap.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -25,16 +26,14 @@ Role required: sn\_si.admin
 
 2.  Search for **Security Incident map**.
 
-3.  Click **Edit Report**.
+3.  Select **Edit Report**.
 
-    ![Filters available for Security Incident map](../image/ConfigureSecIncGeoHeatmap.png)
+4.  Select **Add Filter Condition** to add or edit filters.
 
-4.  Click **Add Filter Condition** to add or edit filters.
+5.  Select **Run** to see the changes applied.
 
-5.  Click **Run** to see the changes applied.
-
-6.  Click **Save**.
+6.  Select **Save**.
 
 
-**Parent Topic:**[Security incident map](../concept/c_SecurityIncidentGeoHeatmap.md)
+**Parent Topic:**[Security incident map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/c_SecurityIncidentGeoHeatmap.md)
 

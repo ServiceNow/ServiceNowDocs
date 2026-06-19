@@ -2,6 +2,7 @@
 title: Updates for the Employee Profile HR widget
 description: The Employee Profile HR widget has three additions, My Contacts, My Delegates, and Employee Documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/updates-for-the-employee-profile-hr-widget.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,7 +22,7 @@ Separate plug-ins must be installed for each widget to work. The My Contacts rec
 
 The user can add delegates via the **Add Delegates** button on the My Delegates widget and add contacts via the **Add new contact**.
 
-For more information on managing the documents of an employee, see [Managing employee documents](../../human-resources/concept/hr-doc-management-admin.md#).
+For more information on managing the documents of an employee, see [Managing employee documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-document-management/hr-doc-management-admin.md).
 
-For more information on adding delegates, see [Granular Delegation](../../employee-service-management/granular-delegation/concept/granular-delegation.md).
+For more information on adding delegates, see [Granular Delegation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/granular-delegation/granular-delegation.md).
 

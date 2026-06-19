@@ -2,6 +2,7 @@
 title: Add events to the team calendar
 description: Create a meeting, training, time-off request, a custom event, or an adhoc work shift from the team calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/add-events-team-calendar-wfo-itsm.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -21,7 +22,7 @@ Role required: sn\_shift\_planning.admin
 
 ## About this task
 
-You can create custom event types and add or remove the desired fields. For more information, see [Configure event types for the ITSM Manager Workspace](configure-events-team-calendar-configurable-wfo-itsm.md).
+You can create custom event types and add or remove the desired fields. For more information, see [Configure event types for the ITSM Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/configure-events-team-calendar-configurable-wfo-itsm.md).
 
 **Note:** In the team calendar, when you select an event for a team member and delete it, the event is also deleted for other participants in the event.
 
@@ -29,7 +30,7 @@ You can create custom event types and add or remove the desired fields. For more
 
 1.  Navigate to **All** &gt; **Workforce Optimization for ITSM** &gt; **Manager Workspace**.
 
-2.  Select the Schedule icon \(![Schedule icon](../../itsm-manager-workspace/image/schedule-icon.png)\).
+2.  Select the Schedule icon \(\[Omitted image "schedule-icon.png"\] Alt text: Schedule icon\).
 
 3.  Select the **Team Calendar** tab.
 
@@ -37,15 +38,15 @@ You can create custom event types and add or remove the desired fields. For more
 
 5.  Create an event.
 
-<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d62430e122">
+<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d64102e122">
 
 To
 
-</th><th align="left" id="d62430e125">
+</th><th align="left" id="d64102e125">
 
 Perform these tasks
 
-</th></tr></thead><tbody><tr><td id="d62430e131">
+</th></tr></thead><tbody><tr><td id="d64102e131">
 
 **Create a meeting, training, or time-off request**
 
@@ -71,7 +72,7 @@ In the **Attendees** field, start entering the name of each of the attendees for
     7.  In the **Description** field, enter a description for the meeting.
 
 
-</td></tr><tr><td id="d62430e238">
+</td></tr><tr><td id="d64102e238">
 
 **Create a custom event**
 
@@ -91,7 +92,7 @@ In the **Attendees** field, start entering the name of each of the attendees for
 9.  In the **Select Incident** field, select an incident you want to associate with this event.
 
 
-</td></tr><tr><td id="d62430e313">
+</td></tr><tr><td id="d64102e313">
 
 **Create a work shift**
 
@@ -108,5 +109,5 @@ In the **Attendees** field, start entering the name of each of the attendees for
 </table>6.  Select **Save**.
 
 
-**Parent Topic:**[Scheduling your teams' work in Workforce Optimization for ITSM](../concept/scheduling-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Scheduling your teams' work in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/scheduling-configurable-workforce-optimization-itsm.md)
 

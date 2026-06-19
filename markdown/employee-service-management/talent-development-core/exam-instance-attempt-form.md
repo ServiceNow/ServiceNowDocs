@@ -2,6 +2,7 @@
 title: Exam instance attempt form
 description: Description of the field values in the Exam instance attempt form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/exam-instance-attempt-form.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core

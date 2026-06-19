@@ -2,7 +2,10 @@
 title: Create a guidance action for the Initiate transaction tracking guidance
 description: Configure the actions that agents can take to initiate a transaction tracking.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-guidance-action-ga-use-case.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -84,7 +87,7 @@ Action Behavior
 The selected behavior for the guidance action:-   **Single click**: The action is initiated and completed with one click and the card moves to the **History** tab in the side panel. Useful for simple actions such as escalating a case.
 -   **Open in Contextual Side Panel**: The action opens in a detailed view within the side panel. The agent can review the details in the side panel, such as reviewing the content of a knowledge base article.
 -   **Open in Sub Tab**: The action opens in a separate tab.
-You can configure the preview experience for all the action behaviour types and configure the detail view for the actions that open in the sub tab or contextual side panel. For more information, see [Configure guidance detail experience](configure-guidance-preview-detail-experiences-ga.md).
+You can configure the preview experience for all the action behaviour types and configure the detail view for the actions that open in the sub tab or contextual side panel. For more information, see [Configure guidance detail experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-guidance-preview-detail-experiences-ga.md).
 
  **Note:** Actions that open in the contextual side panel or in the subtab don’t move to the in-progress state. The action moves to the in-progress or completed state only when the agent clicks the action button in the detail view.
 
@@ -165,8 +168,8 @@ The transaction tracking is initiated.
 
 6.  Configure the flow inputs and guidance outputs.
 
-    -   In the **Automation Flow Inputs** tab, select the Pill-picker icon \(![Pill-picker icon](../image/icon-pill-picker.png)\) next to the field and select the flow input from the list.![Automation Flow Inputs tab displaying guidance inputs that are linked to the Automation subflow inputs.](../image/gd-subflow-inputs.png)
-    -   In the **Guidance Outputs** tab, select the Pill-picker icon \(![Pill-picker icon](../image/icon-pill-picker.png)\) next to the field and select the flow output from the list.![Guidance outputs tab displaying guidance output that is linked to the Automation subflow output.](../image/gd-subflow-outputs.png)
+    -   In the **Automation Flow Inputs** tab, select the Pill-picker icon \(\[Omitted image "icon-pill-picker.png"\] Alt text: Pill-picker icon\) next to the field and select the flow input from the list.\[Omitted image "gd-subflow-inputs.png"\] Alt text: Automation Flow Inputs tab displaying guidance inputs that are linked to the Automation subflow inputs.
+    -   In the **Guidance Outputs** tab, select the Pill-picker icon \(\[Omitted image "icon-pill-picker.png"\] Alt text: Pill-picker icon\) next to the field and select the flow output from the list.\[Omitted image "gd-subflow-outputs.png"\] Alt text: Guidance outputs tab displaying guidance output that is linked to the Automation subflow output.
 7.  Select **Submit**.
 
 

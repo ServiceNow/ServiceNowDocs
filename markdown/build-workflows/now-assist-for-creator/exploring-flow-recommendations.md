@@ -2,6 +2,7 @@
 title: Exploring Flow recommendations
 description: Select the next component in your flow from a list of AI-generated recommendations. The system generates recommendations based on the current position in the flow and the flow component names listed before.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/now-assist-for-creator/exploring-flow-recommendations.html
 release: zurich
 product: Now Assist for Creator
 classification: now-assist-for-creator
@@ -15,7 +16,7 @@ breadcrumb: [Flow recommendations, Now Assist for Creator, Build workflows]
 
 Select the next component in your flow from a list of AI-generated recommendations. The system generates recommendations based on the current position in the flow and the flow component names listed before.
 
-![Five sample Flow recommendations for an empty flow](../images/flow-recommendations-01.png "Example flow recommendations")
+\[Omitted image "flow-recommendations-01.png"\] Alt text: Five sample Flow recommendations for an empty flow
 
 The model uses the name of the flow components that come before to generate one to five recommendations for the next step of the flow. If there are no recommendations listed, then there are no flow components that meet the required relevance threshold.
 
@@ -27,13 +28,13 @@ This Generative AI large language model was pre-trained with internal ServiceNow
 
 ## Flow preference
 
-![Flow preference to show recommendations](../images/flow-recommendations-preference.png "Flow preferences")
+\[Omitted image "flow-recommendations-preference.png"\] Alt text: Flow preference to show recommendations
 
-By default, Workflow Studio shows flow recommendations as you build a flow. You can hide these recommendations on a flow by flow basis by turning off the Show recommendations flow preference. See [User preferences for flows](../reference/flow-preferences.md) for more information.
+By default, Workflow Studio shows flow recommendations as you build a flow. You can hide these recommendations on a flow by flow basis by turning off the Show recommendations flow preference. See [User preferences for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-preferences.md) for more information.
 
 ## Recommendations in diagramming view
 
-![](../images/flow-recommendations-diagramming-view.png)
+\[Omitted image "flow-recommendations-diagramming-view.png"\] Alt text:
 
 Workflow Studio shows recommendations from the flow diagramming view while you're editing a flow. In diagramming view, the last node of the flow always shows a list of recommendations. This experience matches the behavior of the text view, which also always shows a list of recommendations at the end of the flow.
 

@@ -2,6 +2,7 @@
 title: Configure an Emergency Outreach notification for Contact Tracing privacy consents
 description: As an administrator, create or configure an Emergency Outreach notification to send email and mobile push notifications to employees requesting them to view the privacy policy and seeking their consent to use their data for contact tracing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contact-tracing/configure-outreach-notif-privacy.html
 release: zurich
 product: Contact Tracing
 classification: contact-tracing
@@ -17,11 +18,11 @@ As an administrator, create or configure an Emergency Outreach notification to s
 
 ## Before you begin
 
-Ensure that you have the Emergency Outreach application installed. For details, see [Install Emergency Outreach](../../business-continuity/task/install-emergency-outreach.md#).
+Ensure that you have the Emergency Outreach application installed. For details, see [Install Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/emergency-outreach/install-emergency-outreach.md).
 
-You must have [generated the location-based privacy configurations](generate-location-privacy-configuration.md).
+You must have [generated the location-based privacy configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/generate-location-privacy-configuration.md).
 
-Employees must have the Now® Mobile app installed on their phones to receive mobile push notifications. For more information, see [Now Mobile app](../../../administer/mobile-employee/concept/mobile-employee-experience.md).
+Employees must have the Now® Mobile app installed on their phones to receive mobile push notifications. For more information, see [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md).
 
 Role required: sn\_imt\_checkin.checkin\_admin or admin
 
@@ -43,7 +44,7 @@ Role required: sn\_imt\_checkin.checkin\_admin or admin
 
     When enabled, the privacy statement text in Location Privacy Configuration takes precedence over text in the privacy consent templates. This text is used for the outreach, system notification email, and push notification. If you need to update the text that users receive, you must change the location's privacy statement.
 
-    For more information on updating a location's privacy statement, see [Generate location-based privacy configurations](../../employee-readiness-core/task/generate-location-common-privacy-configuration.md).
+    For more information on updating a location's privacy statement, see [Generate location-based privacy configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-readiness-core/generate-location-common-privacy-configuration.md).
 
 7.  Select **User Privacy Consent** notification in the **Notification** field, and choose how to send the notification.
 
@@ -66,7 +67,7 @@ Role required: sn\_imt\_checkin.checkin\_admin or admin
 
 10. In the Scheduled Script pop-up window, configure a scheduled job to the notification.
 
-    For more information, see [Configure a scheduled job](https://www.servicenow.com/docs/access?context=t_ScheduleAScriptExecution&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For more information, see Configure a scheduled job.
 
 11. Click **Submit**.
 
@@ -77,13 +78,13 @@ Role required: sn\_imt\_checkin.checkin\_admin or admin
 
 An outreach notification with a scheduled job is created. The job sends notifications to the target audience per the set schedule.
 
-**Note:** The outreach notification is not sent to users in the selected audience if users do not have a location set in their user profile or the privacy consent is disabled in the [location privacy configuration](generate-location-privacy-configuration.md). The privacy consent notification is sent to a user only once even if the user is in the target audience of multiple privacy notifications.
+**Note:** The outreach notification is not sent to users in the selected audience if users do not have a location set in their user profile or the privacy consent is disabled in the [location privacy configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/generate-location-privacy-configuration.md). The privacy consent notification is sent to a user only once even if the user is in the target audience of multiple privacy notifications.
 
 ## What to do next
 
-A user with the sn\_imt\_checkin.checkin\_admin role can [send the Outreach notification on demand](send-outreach-notif-privacy.md).
+A user with the sn\_imt\_checkin.checkin\_admin role can [send the Outreach notification on demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/send-outreach-notif-privacy.md).
 
 A user with the admin or sn\_imt\_checkin.checkin\_admin role can stop the scheduled job to send the notifications automatically. To do so, click **Schedule** and in the dialog box, clear the **Active** check box, and then click **Update**.
 
-**Parent Topic:**[Setting up data privacy consent settings for Contact Tracing](../concept/set-up-privacy-consent-settings.md)
+**Parent Topic:**[Setting up data privacy consent settings for Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/set-up-privacy-consent-settings.md)
 

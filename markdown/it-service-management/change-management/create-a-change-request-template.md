@@ -2,6 +2,7 @@
 title: Create a change request template
 description: You can create a template that can be used to create change requests with pre-defined supporting tasks. Templates simplify the process of submitting new records by populating fields automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/create-a-change-request-template.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -34,7 +35,7 @@ There are two change request template configuration items.
 
 2.  Click **New**.
 
-3.  Complete the form as described in [Create a template using the Template form](https://www.servicenow.com/docs/access?context=t_CreateATemplateUsingTheTmplForm&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+3.  Complete the form as described in Create a template using the Template form.
 
 4.  Complete the remaining fields, as appropriate.
 
@@ -76,5 +77,5 @@ Specifies a link to a record created from a child template to the record created
 </table>5.  Click **Submit**.
 
 
-**Parent Topic:**[Configuring Change Management](../concept/configure-change-management.md)
+**Parent Topic:**[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/configure-change-management.md)
 

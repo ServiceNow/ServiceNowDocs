@@ -2,6 +2,7 @@
 title: Adding new nodes to Investigation Canvas
 description: Use this section to create and add new entities, including observables or objects, directly from the investigation canvas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-add-node-canvas.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -39,15 +40,15 @@ Role required: sn\_sec\_tisc.analyst
     -   Another option to view the **New Node** functionality is to view from the investigation canvas page directly.
 6.  To create a node, select the appropriate **Entity Category** and **Entity Type**.
 
-<table id="choicetable_y4f_vd5_zfc"><thead><tr><th align="left" id="d126053e151">
+<table id="choicetable_y4f_vd5_zfc"><thead><tr><th align="left" id="d125495e151">
 
 Field
 
-</th><th align="left" id="d126053e154">
+</th><th align="left" id="d125495e154">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d126053e160">
+</th></tr></thead><tbody><tr><td id="d125495e160">
 
 **Entity Category**
 
@@ -55,7 +56,7 @@ Description
 
 Select the entity category such as Observable, or Object.
 
-</td></tr><tr><td id="d126053e169">
+</td></tr><tr><td id="d125495e169">
 
 **Entity Type**
 
@@ -74,7 +75,7 @@ Select the entity type from the available options based on the select category.*
 
     This process automatically adds the node to the investigation canvas.
 
-    The newly added nodes are visually differentiated with a dot ![](../image/tisc-add-new-node.png) on the node them from nodes that are imported through the library or case artifacts.
+    The newly added nodes are visually differentiated with a dot \[Omitted image "tisc-add-new-node.png"\] Alt text: on the node them from nodes that are imported through the library or case artifacts.
 
     **Important:** Newly added nodes are temporary and aren’t saved to the threat intelligence library or canvas. If you refresh the canvas before saving, these nodes will be lost. Make sure to save the canvas after adding any new nodes to retain your changes.
 
@@ -84,7 +85,7 @@ Select the entity type from the available options based on the select category.*
 
     -   When creating new relationships, the edges are appeared as dotted lines, indicating they are temporary nodes and aren’t saved in the Threat Intelligence Library.
     -   Newly added edges are temporary and aren’t saved to the threat intelligence library or canvas. If you refresh the canvas before saving, these edges will be lost. Make sure to save the canvas after adding any new edges to retain your changes.
-    ![Investigation Canvas New node representation with dotted line](../image/tisc-add-new-node-illustration.png)
+    \[Omitted image "tisc-add-new-node-illustration.png"\] Alt text: Investigation Canvas New node representation with dotted line
 
 10. Right click and select **Show Details** to view the details related to the selected entity.
 
@@ -95,5 +96,5 @@ Select the entity type from the available options based on the select category.*
     By performing this action, the temporary records are converted to permanent aggregated records within the Threat Intelligence Library.
 
 
-**Parent Topic:**[Working with Investigation Canvas](../concept/tisc-investigation-canvases.md)
+**Parent Topic:**[Working with Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-investigation-canvases.md)
 

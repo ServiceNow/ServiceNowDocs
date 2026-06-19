@@ -2,11 +2,12 @@
 title: Base system tables configured with GRC: Approver Configurator
 description: GRC: Approver Configurator enables you to configure approvals for any record that exists in specific tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/oob-tables-configured-with-approver-configurator.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Use Approver Configurator for setting up approvals for setting up approvals, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -73,5 +74,5 @@ Policy and Compliance
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Approver Configurator for setting up approvals](../concept/approval-configuration.md)
+</table>**Parent Topic:**[Using Approver Configurator for setting up approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/approval-configuration.md)
 

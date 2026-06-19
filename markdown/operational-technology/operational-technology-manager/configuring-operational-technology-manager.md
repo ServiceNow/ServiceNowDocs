@@ -2,6 +2,7 @@
 title: Configuring the Operational Technology Manager
 description: Configure the Operational Technology Manager application so that you can create the data foundation for the ServiceNow Operational Technology solution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-manager/configuring-operational-technology-manager.html
 release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -53,7 +54,7 @@ Assigns roles to control the actions that are available for each user.
 
 </td><td>
 
-Create and populate a Microsoft Excel spreadsheet with your existing Operational Technology data for upload to the ServiceNow AI Platform.For more information, see [Prepare your Pre-import OT Worksheet Entry Review tool for Service Graph Connector import](../task/preparing-your-pre-import-ot-worksheet-entry-review-tool-for-sgc-import.md).
+Create and populate a Microsoft Excel spreadsheet with your existing Operational Technology data for upload to the ServiceNow AI Platform.For more information, see [Prepare your Pre-import OT Worksheet Entry Review tool for Service Graph Connector import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/preparing-your-pre-import-ot-worksheet-entry-review-tool-for-sgc-import.md).
 
 </td></tr><tr><td>
 
@@ -61,7 +62,7 @@ Create and populate a Microsoft Excel spreadsheet with your existing Operational
 
 </td><td>
 
-Upload your Operational Technology data to the Configuration Management Database \(CMDB\).For more information, see [Using the Service Graph Connector for Microsoft Excel through import tasks](use-excel-sgc-through-import-tasks.md).
+Upload your Operational Technology data to the Configuration Management Database \(CMDB\).For more information, see [Using the Service Graph Connector for Microsoft Excel through import tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/use-excel-sgc-through-import-tasks.md).
 
 </td></tr><tr><td>
 
@@ -69,7 +70,7 @@ Upload your Operational Technology data to the Configuration Management Database
 
 </td><td>
 
-Discover Operational Technology \(OT\) devices in the designated Purdue levels in your Industrial Control System \(ICS\) networks.For more information about Discovery for Operational Technology, see [IT Discovery for Operational Technology \(OT\) Networks](discovery-for-operational-technology.md).
+Discover Operational Technology \(OT\) devices in the designated Purdue levels in your Industrial Control System \(ICS\) networks.For more information about Discovery for Operational Technology, see [IT Discovery for Operational Technology \(OT\) Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/discovery-for-operational-technology.md).
 
 </td></tr><tr><td>
 
@@ -88,16 +89,16 @@ Install ServiceNow, Inc. connectors that are provided by partners as they become
 Edit or view detailed information for the OT devices in your enterprise, after you've imported your Excel spreadsheet, or have run the IT Discovery for OT Networks function.
 
 </td></tr></tbody>
-</table>-   **[Implementing the CSDM framework for Operational Technology](../../operational-technology-management/csdm-implementation/concept/ot-use-case-product-view.md)**  
+</table>-   **[Implementing the CSDM framework for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/ot-use-case-product-view.md)**  
 Following the CSDM framework ensures that you meet your primary goal of consistent accuracy in reporting and analytics so that you can effectively manage your Operational Technology \(OT\) environment.
--   **[Operational Technology \(OT\) extension classes installation](../task/install-operation-technology-ot-extension-classes.md)**  
+-   **[Operational Technology \(OT\) extension classes installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/install-operation-technology-ot-extension-classes.md)**  
 You must install the Operational Technology \(OT\) extension classes that are the foundation of the Operational Technology Manager.
--   **[Install Operational Technology Manager](../task/install-operational-technology-manager.md)**  
+-   **[Install Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/install-operational-technology-manager.md)**  
 If you have the admin role, you can install the Operational Technology Manager application. The application includes demo data and installs that are related ServiceNow® Store applications and plugins, if they are not already installed.
--   **[Script includes installed with Operational Technology Manager](../task/script_includes_installed_with_operational_technology_manager.md)**  
+-   **[Script includes installed with Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/script_includes_installed_with_operational_technology_manager.md)**  
 The Operational Technology Manager plugin installs the following script includes.
--   **[Assign Operational Technology Manager roles](../task/assign-operational-technology-manager-roles.md)**  
+-   **[Assign Operational Technology Manager roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/assign-operational-technology-manager-roles.md)**  
 Assign roles to your users so that you can control their access to the features, capabilities, and data in the Operational Technology Manager application.
 
-**Parent Topic:**[Operational Technology Manager](operational-technology-manager.md)
+**Parent Topic:**[Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/operational-technology-manager.md)
 

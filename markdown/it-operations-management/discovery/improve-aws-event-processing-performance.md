@@ -2,6 +2,7 @@
 title: Create a database index for the Cloud Events table
 description: Create a database index from the specified columns of the Cloud Events \[sn\_cmp\_cloud\_event\] table to improve the AWS cloud event processing performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/improve-aws-event-processing-performance.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -27,7 +28,7 @@ After upgrading Cloud Provisioning and Governance to the Utah release, create a 
 
 Instead of manually creating the database index, you can use a scheduled job to create it. For more information, see [ServiceNow® events-driven discovery: Create a database index for the Cloud Events table \(KB1207069\).](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1207069)
 
-You can also Scale the cloud event schedulers to improve the Amazon Web Services \(AWS\) event processing rate of the ServiceNow instance. For more information, see [Scale the AWS cloud event schedulers](scale-aws-cloud-event-schedulers.md).
+You can also Scale the cloud event schedulers to improve the Amazon Web Services \(AWS\) event processing rate of the ServiceNow instance. For more information, see [Scale the AWS cloud event schedulers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/scale-aws-cloud-event-schedulers.md).
 
 ## Procedure
 

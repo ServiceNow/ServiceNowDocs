@@ -2,6 +2,7 @@
 title: Delete a stop word dictionary
 description: Remove a stop word dictionary that isn't linked from any search profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/delete-stop-word-dict-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -29,12 +30,12 @@ Role required: ais\_admin
 
 3.  Select **Delete**.
 
-    **Note:** If the stop word dictionary is still linked to any search profiles, deletion fails and an error message lists the linked profiles. Unlink the dictionary from these search profiles, then repeat the preceding steps. For details on unlinking a stop word dictionary from a search profile, see [Unlink a synonym dictionary from a search profile](unlink-synonym-dict-ais.md).
+    **Note:** If the stop word dictionary is still linked to any search profiles, deletion fails and an error message lists the linked profiles. Unlink the dictionary from these search profiles, then repeat the preceding steps. For details on unlinking a stop word dictionary from a search profile, see [Unlink a synonym dictionary from a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/unlink-synonym-dict-ais.md).
 
 
 ## Result
 
 The selected stop word dictionary disappears from the AI Search Dictionaries list.
 
-**Parent Topic:**[Stop words](../concept/stop-words-ais.md)
+**Parent Topic:**[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/stop-words-ais.md)
 

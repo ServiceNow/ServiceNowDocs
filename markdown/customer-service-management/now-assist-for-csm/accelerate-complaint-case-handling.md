@@ -2,6 +2,7 @@
 title: Customer Service Management accelerate complaint case handling AI agent collection
 description: The Accelerate complaint case handling agents can work alongside human complaint agents to intake complaints, triage complaints, summarize cases, and answer research queries. The agents review previously attempted troubleshooting steps and propose resolution plans based on similar complaint cases or knowledge articles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/accelerate-complaint-case-handling.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -21,9 +22,9 @@ The Accelerate complaint case handling collection includes AI agents, skills, an
 
 The accelerate complaint case handling collection and agentic workflow uses a team of AI agents and skills to triage customer complaints, summarize cases, and help research customer cases. The complaint case intake agent is not part of the agentic workflow, since it is used with Virtual Agent.
 
-To install the AI agents and skills for the Accelerate complaint case handling collection, see [Install the Now Assist for Complaint Case \(CSM\) application](../task/acc-complaint-case-handling-collection.md).
+To install the AI agents and skills for the Accelerate complaint case handling collection, see [Install the Now Assist for Complaint Case \(CSM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/acc-complaint-case-handling-collection.md).
 
-For more information on configuring the Accelerate complaint case handling agentic workflow, see [Configure the Accelerate Complaint Case Handling agentic workflow](../task/acc-complaint-case-handling-agentic-wkfl.md).
+For more information on configuring the Accelerate complaint case handling agentic workflow, see [Configure the Accelerate Complaint Case Handling agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/acc-complaint-case-handling-agentic-wkfl.md).
 
 <table id="table_bst_k4t_mhc"><thead><tr><th>
 

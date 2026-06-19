@@ -2,6 +2,7 @@
 title: Login \(AuthnRequest\) process flow
 description: SAML 2.0 specifies a Web Browser SSO Profile that involves exchanging information among an identity provider \(IdP\), a service provider \(SP\), and a principal \(user\) on a web browser.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/c\_LoginAuthnRequestProcessFlow.html
 release: zurich
 product: Authentication
 classification: authentication

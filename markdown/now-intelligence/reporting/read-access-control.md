@@ -2,6 +2,7 @@
 title: Report execution security
 description: When a report is run, report\_view access control lists \(ACLs\) are evaluated on the table and table fields that the report is based on. If no report\_view ACL exists, there is a fallback check on table-level read ACL roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/read-access-control.html
 release: zurich
 product: Reporting
 classification: reporting
@@ -36,7 +37,7 @@ it isn’t recommended to change the system property to ignore or log as the rea
 
 **Note:** The fallback table-level read ACL check applies only to roles, not to scripts or conditions. If a table-level read ACL has roles and scripts or roles and conditions, or roles, scripts, and conditions, only the roles are evaluated.
 
-![](../image/read-acl-evaluation.png)
+\[Omitted image "read-acl-evaluation.png"\] Alt text:
 
-**Parent Topic:**[Report\_view access control](report-view-access-control.md)
+**Parent Topic:**[Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-view-access-control.md)
 

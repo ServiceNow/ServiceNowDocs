@@ -2,6 +2,7 @@
 title: Make catalog item visible
 description: You can use the catalog items created in cloud management, in standard service portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/make-catalog-item-visible.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

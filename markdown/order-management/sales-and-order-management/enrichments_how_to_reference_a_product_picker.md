@@ -2,6 +2,7 @@
 title: Referencing a product picker
 description: You can reference a product picker in the On BOM, Pricing, and Validation enrichments by modifying your enrichment script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/enrichments\_how\_to\_reference\_a\_product\_picker.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -29,7 +30,7 @@ pkr.somePicker.data.forEach((row) => {
 
 If you intend to use the Pricing enrichment to dynamically set prices for the product picker options, be sure to enable this feature on the product picker. To do this, in the product picker administration page, click the cog to open the Product Picker Settings dialog. Then, turn on **Enable for Pricing Enrichment**.
 
-![Product Picker Settings](../images/cpq-product-picker-enable-for-pricing-enrichment.png)
+\[Omitted image "cpq-product-picker-enable-for-pricing-enrichment.png"\] Alt text: Product Picker Settings
 
 In the related blueprint's Picklist Extension Pricing enrichment, your script will work as follows:
 

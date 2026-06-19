@@ -2,6 +2,7 @@
 title: Migrate to Knowledge Management v3
 description: When you migrate to Knowledge Management v3 from v2, you must migrate legacy knowledge content and any customizations you have made to the Knowledge Base applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/c\_KMv3Migration.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -16,8 +17,6 @@ breadcrumb: [Exploring Knowledge Management, Knowledge Management, Manage conten
 When you migrate to Knowledge Management v3 from v2, you must migrate legacy knowledge content and any customizations you have made to the Knowledge Base applications.
 
 The following video provides more information on how to migrate from Knowledge Management v2 to v3.
-
-Migrating from Knowledge Management v2 to v3
 
 ## Knowledge Management v3 migration process
 

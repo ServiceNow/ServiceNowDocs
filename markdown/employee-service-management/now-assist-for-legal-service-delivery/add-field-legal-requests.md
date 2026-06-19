@@ -2,6 +2,7 @@
 title: Add fields to the semantic index for legal records
 description: Add the description, short description, and legal category field to the semantic index record to be indexed for a semantic search in the Now Assist for Legal Service Delivery \(LSD\) application. During AI Search, the legal records are retrieved based on the description, short description, and legal category fields that are added in the semantic index.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-legal-service-delivery/add-field-legal-requests.html
 release: zurich
 product: Now Assist for Legal Service Delivery
 classification: now-assist-for-legal-service-delivery
@@ -18,13 +19,13 @@ Add the description, short description, and legal category field to the semantic
 
 ## Before you begin
 
-Set the application scope to **Legal Counsel Center** in the application picker. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+Set the application scope to **Legal Counsel Center** in the application picker. For more information, see Application picker.
 
 Role required: admin
 
 ## About this task
 
-These semantic index settings specify how AI Search indexes the content from the indexed source for use with the semantic vector search. For more information on the indexing of sources for AI Search, see [Semantic index configuration for indexed sources](https://www.servicenow.com/docs/access?context=semantic-index-cfg-ais&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+These semantic index settings specify how AI Search indexes the content from the indexed source for use with the semantic vector search. For more information on the indexing of sources for AI Search, see .
 
 ## Procedure
 
@@ -114,5 +115,5 @@ Name of the legal request field to include in the semantic index.Select the **sh
 
 The description, short description, and legal category fields are indexed for the semantic search.
 
-![Add the description, short description, and legal category field for the semantic search.](../image/adding-fields-semantic-index-record.png "Add fields to the semantic index")
+\[Omitted image "adding-fields-semantic-index-record.png"\] Alt text: Add the description, short description, and legal category field for the semantic search.
 

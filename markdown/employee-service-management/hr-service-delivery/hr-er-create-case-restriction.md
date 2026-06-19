@@ -2,6 +2,7 @@
 title: Configure an employee relations case restriction
 description: Define what groups can view or access employee relations cases using Case Restriction Configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-er-create-case-restriction.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -45,7 +46,7 @@ COE
 
 </td><td>
 
-Center of Excellence \(COE\) that you want to restrict access to.**Note:** For more information on COE, see [HR Centers of Excellence data model](../concept/hr-centers-of-excellence-coes.md).
+Center of Excellence \(COE\) that you want to restrict access to.**Note:** For more information on COE, see [HR Centers of Excellence data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-centers-of-excellence-coes.md).
 
 </td></tr><tr><td>
 
@@ -86,13 +87,13 @@ Option to activate the case restriction configuration record.
 
     **Note:** You can also restrict by role. Agents with the sn\_hr\_er.confidential role can access restricted ER cases.
 
-    ![HR ER Case Restriction Configuration](../image/hr-er-case-restrict-config.png)
+    \[Omitted image "hr-er-case-restrict-config.png"\] Alt text: HR ER Case Restriction Configuration
 
 6.  Click **Update**.
 
-    **Note:** Collaborators on an HR or ER case can override COE security. But, ER cases with restrictions override collaborators. For more information, see [Create COE security](../concept/hr-service-categorization.md#).
+    **Note:** Collaborators on an HR or ER case can override COE security. But, ER cases with restrictions override collaborators. For more information, see [Create COE security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-service-categorization.md).
 
-    COE security policies are a way to easily restrict access to different COEs via configuration. The underlying COE security policy implementations are [ServiceNow ACLs](https://www.servicenow.com/docs/access?context=access-control-rules&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+    COE security policies are a way to easily restrict access to different COEs via configuration. The underlying COE security policy implementations are ServiceNow ACLs.
 
 
 ## What to do next

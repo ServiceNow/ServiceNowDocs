@@ -2,6 +2,7 @@
 title: Activate Session Validation Context
 description: Use Session Validation Context to restrict access to ServiceNow when hijackers copy a user's session cookies from one device to another to impersonate the session or restricts the user's session access if they’re using an insecure network.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/activate-session-validation-context.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -39,10 +40,10 @@ To use the session validation, you must perform the following steps:
 
 8.  Set the system property `session.validation.enabled` to **Yes**.
 
-    ![Session Validation](../images/session-context.png)
+    \[Omitted image "session-context.png"\] Alt text: Session Validation
 
 
 ## Result
 
-The Session Validation feature is activated. You can configure the policy inputs and conditions for the policy to use the feature. To learn more, see [Tutorial: Configuring session validation](use-ip-session-context.md).
+The Session Validation feature is activated. You can configure the policy inputs and conditions for the policy to use the feature. To learn more, see [Tutorial: Configuring session validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/use-ip-session-context.md).
 

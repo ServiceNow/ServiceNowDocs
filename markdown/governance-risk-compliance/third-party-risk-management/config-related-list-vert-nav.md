@@ -2,12 +2,13 @@
 title: Configure related lists for vertical navigation on record pages
 description: Configure the related lists that appear in the vertical navigation layout on record pages in the Vendor Management Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/config-related-list-vert-nav.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-05-01"
-reading_time_minutes: 3
+last_updated: "2026-06-18"
+reading_time_minutes: 2
 breadcrumb: [Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -49,7 +50,7 @@ The following related list tables can be configured for display in the vertical 
 |Third-party|Company \[core\_company\]|
 |Vendor contacts|Vendor Contact \[vm\_vdr\_contact\]|
 
-For more information about related lists, see [Related lists](https://www.servicenow.com/docs/access?context=c_RelatedLists&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+For more information about related lists, see .
 
 ## Procedure
 

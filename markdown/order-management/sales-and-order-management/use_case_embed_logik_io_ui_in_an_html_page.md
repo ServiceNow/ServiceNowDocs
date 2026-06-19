@@ -2,6 +2,7 @@
 title: Use case: Embed ServiceNow CPQ UI in an HTML page
 description: Learn how to embed the ServiceNow CPQ user interface in an HTML iFrame.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/use\_case\_embed\_logik\_io\_ui\_in\_an\_html\_page.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -112,5 +113,5 @@ To embed the ServiceNow CPQ application in an iframe, you must configure it to a
 
 To learn more about the easyXDM library, see [easy XDM.net](https://easyxdm.net/wp/).
 
-**Parent Topic:**[Use cases](use-cases.md)
+**Parent Topic:**[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/use-cases.md)
 

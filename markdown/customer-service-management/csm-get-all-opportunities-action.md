@@ -2,7 +2,10 @@
 title: Get All Opportunities custom action
 description: The Get All Opportunities action retrieves opportunity records from the Salesforce application. This action is invoked when you view the remote Opportunity table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-get-all-opportunities-action.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -17,13 +20,13 @@ The **Get All Opportunities** action retrieves opportunity records from the Sale
 
 The **Get All Opportunities** action takes a single integer parameter that identifies the maximum number of records to be returned by the query. The REST-based actions can’t accommodate pagination and, for this reason, it’s important to limit the number of records returned from the third-party application. It isn’t recommended to place more than 1,000 records in the remote table. The default number of records is 500.
 
-![Inputs screen for the Get All Opportunities action showing the action input and its default value.](../image/get-all-opportunities-action-input.jpg)
+\[Omitted image "get-all-opportunities-action-input.jpg"\] Alt text: Inputs screen for the Get All Opportunities action showing the action input and its default value.
 
 ## Pre-processing step
 
 The pre-processing script step takes the action input as its own.
 
-![Pre-processing step screen showing the action input with a pill picker to generate a query.](../image/get-all-opportunities-pre-processing.jpg)
+\[Omitted image "get-all-opportunities-pre-processing.jpg"\] Alt text: Pre-processing step screen showing the action input with a pill picker to generate a query.
 
 The pre-processing script creates a SELECT query for all opportunities limited by the maximum number of records allowed. This query is based on the Salesforce Object Query Language \(SOQL\).
 
@@ -50,19 +53,19 @@ outputs.query = outputs.query + “+ORDERED+BY+CloseDate+DESC”;
 
 The pre-processing output is a query.
 
-![Output variable section showing the query parameter as an output.](../image/get-all-opportunities-pre-processing-output.jpg)
+\[Omitted image "get-all-opportunities-pre-processing-output.jpg"\] Alt text: Output variable section showing the query parameter as an output.
 
 ## REST step
 
 The REST step is a standard REST step from the Salesforce spoke REST-based actions. You don’t need to make any changes. Make sure that it points to the correct Connection Alias.
 
-![REST step screen showing connection details and request details for verification.](../image/get-all-opportunities-rest.jpg)
+\[Omitted image "get-all-opportunities-rest.jpg"\] Alt text: REST step screen showing connection details and request details for verification.
 
 ## Post-processing step
 
 The post-processing script step takes the action input and REST step output as its inputs.
 
-![Post Processing step screen showing the inputs, including the action input and input variables.](../image/get-all-opportunities-post-processing.jpg)
+\[Omitted image "get-all-opportunities-post-processing.jpg"\] Alt text: Post Processing step screen showing the inputs, including the action input and input variables.
 
 The post-processing script checks the query response for errors, sets the error message if needed, extracts opportunity data from the response body, and creates an information message to indicate that not all data was retrieved from the Salesforce due to the number of records limitation.
 
@@ -117,11 +120,11 @@ The post-processing script checks the query response for errors, sets the error 
 
 The following are outputs of the post-processing step.
 
-![Output variable screen within the Post Processing step showing records, error_messages, info_messages, and status variables.](../image/get-all-opportunities-post-processing-output.jpg)
+\[Omitted image "get-all-opportunities-post-processing-output.jpg"\] Alt text: Output variable screen within the Post Processing step showing records, error\_messages, info\_messages, and status variables.
 
 ## Action outputs
 
 Action outputs consist of the query status, error and information messages, and opportunity records. See the preceding screenshot for the action outputs.
 
-**Parent Topic:**[Create Salesforce spoke actions to retrieve opportunities](../concept/csm-integration-salesforce-spoke.md)
+**Parent Topic:**[Create Salesforce spoke actions to retrieve opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-integration-salesforce-spoke.md)
 

@@ -2,6 +2,7 @@
 title: Customer Service Spoke
 description: Provides actions for flow designers to use when creating Customer Service Management business processes. Requires the Customer Service Management \[com.sn\_customerservice\] plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/customer-service-actions.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -28,5 +29,5 @@ Provides actions for flow designers to use when creating Customer Service Manage
 |Add Work Note to Task|Add a work note to a task or to task extended objects \(for example, a case or case task\).|
 |Add Comment to Task|Add a comment to a task or to task extended objects \(for example, a case or case task\).|
 
-**Parent Topic:**[Spokes](../concept/spokes.md)
+**Parent Topic:**[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/spokes.md)
 

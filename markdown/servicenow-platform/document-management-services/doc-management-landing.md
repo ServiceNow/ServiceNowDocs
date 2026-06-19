@@ -2,6 +2,7 @@
 title: Document Management
 description: The Document Management applications allows management of large numbers of documents efficiently. With the Document Management application, you can create, share, upload, track, and manage documents throughout the life-cycle of the workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/doc-management-landing.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -19,23 +20,23 @@ The Document Management applications allows management of large numbers of docum
 
 <table id="table_r33_1hn_tyb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Explore Document Management](explore-doc-management.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/explore-doc-management.md)
 
 </td><td>
 
-[Activate![](../../../reuse/icons/brand-icons/bus-manage.svg)Activate Document Management](../task/activate-doc-mgmt-plugin.md)
+[Activate\[Omitted image "bus-manage.svg"\] Alt text:Activate Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/activate-doc-mgmt-plugin.md)
 
 </td><td>
 
-[Access![](../../../reuse/icons/brand-icons/bus-security.svg)Access Document Management](document-access-settings.md)
+[Access\[Omitted image "bus-security.svg"\] Alt text:Access Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/document-access-settings.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Use Document Management](using-document-management.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/using-document-management.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Reference Document Management](reference-document-management.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Reference Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/reference-document-management.md)
 
 </td><td>
 

@@ -2,6 +2,7 @@
 title: Configure badging data choices
 description: The Badging Data Choices table \(sn\_wsd\_wc\_badging\_data\_choice\) contains the badging status details for Swipe-in and Swipe-out event types. You can create multiple badging states and assign the appropriate event type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-connectors/configure-badging-data-choices-table.html
 release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
@@ -73,9 +74,9 @@ Option to select the event types:-   Swipe-in
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configure Workplace Connectors](../concept/configure-workplace-connectors.md)
+**Parent Topic:**[Configure Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/configure-workplace-connectors.md)
 
-**Previous topic:**[Configure data Sources and schedule imports](import-data-connector.md)
+**Previous topic:**[Configure data Sources and schedule imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/import-data-connector.md)
 
-**Next topic:**[Setup Workplace Connectors for badging data](../concept/setup-workplace-connectors.md)
+**Next topic:**[Setup Workplace Connectors for badging data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/setup-workplace-connectors.md)
 

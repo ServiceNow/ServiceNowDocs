@@ -2,6 +2,7 @@
 title: TuneUp Your Virtual Agent – Performance Monitoring
 description: The TuneUp Your Virtual Agent – Performance Monitoring Accelerator provides guidance on fine-tuning Virtual Agent performance to optimize value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/tuneup-virtual-agent-performance-monitoring.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,7 +20,7 @@ The TuneUp Your Virtual Agent – Performance Monitoring Accelerator provides gu
 
 The TuneUp Your Virtual Agent – Performance Monitoring Accelerator provides Impact customers with a performance assessment of Virtual Agent with prescriptive guidance on tools to leverage that measure success and identify improvement opportunities. Reviewing dashboards and related tools then providing recommendations on how best to improve and optimize value from Virtual Agent.
 
-See [Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US) for additional information on Virtual Agent.
+See  for additional information on Virtual Agent.
 
 **Note:** This Accelerator is available in Advanced, and Total packages.
 

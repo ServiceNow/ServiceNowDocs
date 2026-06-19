@@ -2,6 +2,7 @@
 title: Use Service Portal with Multi-Provider SSO to redirect a URL
 description: Service Portal uses a combination of system properties and script includes to determine how the system handles URL redirects for users logging in to the portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/t\_UsingESSPagesWithMultiProviderSSO.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -25,8 +26,8 @@ If you are using the system property to automatically redirect to your primary I
 
 ## Procedure
 
-1.  [Configure the Service Portal login page](https://www.servicenow.com/docs/access?context=c_SPSSOLoginAndRedirects&version=zurich&pubname=zurich-platform-user-interface&section=c_SPLoginPage&ft:locale=en-US)
+1.  Configure the Service Portal login page
 
-2.  [Redirect to Service Portal after login](https://www.servicenow.com/docs/access?context=c_SPSSOLoginAndRedirects&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
+2.  Redirect to Service Portal after login
 
 

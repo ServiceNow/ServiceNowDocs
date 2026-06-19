@@ -2,7 +2,10 @@
 title: Similar case recommendation
 description: The Similar Case Recommendation feature enables customer service agents to quickly locate similar cases that offer valuable insights into the current issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/similar-case-recommendation.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -32,5 +35,5 @@ When using similarity models in the workspace, the agent can:
     -   Up to three similar open case cards \(customer-configurable\).
     -   Up to three similar resolved case cards \(customer-configurable\).
 
-For more info, see [View similar case recommendations](view-similar-case-recommendations.md)
+For more info, see [View similar case recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/view-similar-case-recommendations.md)
 

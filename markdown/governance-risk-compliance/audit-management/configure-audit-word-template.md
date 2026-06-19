@@ -2,6 +2,7 @@
 title: Create a Microsoft Word template record for an audit report
 description: Generate your audit reports for an engagement in Microsoft Word template to collaborate with your auditors in an effortless and user-friendly manner.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/configure-audit-word-template.html
 release: zurich
 product: Audit Management
 classification: audit-management
@@ -25,14 +26,14 @@ Role required: sn\_audit.admin, sn\_irm\_shared\_cmn.word\_template\_creator, sn
 
     You can generate the audit report for an engagement record in a Word template in Audit Workspace only.
 
--   To apply the Word template in the engagement record and to generate the report in the Audit Workspace, you must have the Audit manager role \(sn\_audit.manager\). See, [Generate audit report for an engagement](../../grc-workspace-audit/task/generate-audit-report.md).
+-   To apply the Word template in the engagement record and to generate the report in the Audit Workspace, you must have the Audit manager role \(sn\_audit.manager\). See, [Generate audit report for an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/generate-audit-report.md).
 
-    You can generate the audit report for an engagement record in a Word template in Audit Workspace only. To apply the Word template in the engagement record and to generate the report in the Audit Workspace, you must have the Audit manager role \(sn\_audit.manager\). See, [Generate audit report for an engagement](../../grc-workspace-audit/task/generate-audit-report.md).
+    You can generate the audit report for an engagement record in a Word template in Audit Workspace only. To apply the Word template in the engagement record and to generate the report in the Audit Workspace, you must have the Audit manager role \(sn\_audit.manager\). See, [Generate audit report for an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/generate-audit-report.md).
 
 
 **Important:** You must set up the ServiceNow Document designer for Word plugin before you create a Microsoft Word template and generate the audit report for an engagement record.
 
-For more information, see [Content configuration](../../grc-common/concept/configuring-audit-word-based-templates.md).
+For more information, see [Content configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/configuring-audit-word-based-templates.md).
 
 ## About this task
 
@@ -46,7 +47,7 @@ As an audit admin, you can navigate to the Word template module and configure th
 
 3.  On the form, fill in the fields.
 
-    See the [Word template form](../reference/audit-word-template-form.md) for values to enter in each field of the form.
+    See the [Word template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/audit-word-template-form.md) for values to enter in each field of the form.
 
 4.  Select **Submit**.
 
@@ -57,6 +58,6 @@ You must select the Word report template as the template type for the engagement
 
 For more information, see
 
--   [Create an audit engagement in Audit Workspace](../../grc-workspace-audit/task/create-engagement-ws.md).
--   [Generate audit report for an engagement](../../grc-workspace-audit/task/generate-audit-report.md).
+-   [Create an audit engagement in Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/create-engagement-ws.md).
+-   [Generate audit report for an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/generate-audit-report.md).
 

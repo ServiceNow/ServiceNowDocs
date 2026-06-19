@@ -2,6 +2,7 @@
 title: Generate a ServiceNow cryptographic key
 description: Follow this procedure to upload and configure a ServiceNow cryptographic key to encrypt sensitive data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/platform-encryption/generate\_sn\_key.html
 release: zurich
 product: Platform Encryption
 classification: platform-encryption
@@ -21,13 +22,13 @@ Role required: sn\_kmf.cryptographic\_manager
 
 ## About this task
 
-Cryptographic managers have the choice to use ServiceNow supplied keys or their own customer-supplied keys \(CSK\) for encryption on the ServiceNow AI Platform with Field Encryption Enterprise. For information on CSK, see [Configure properties for customer-supplied keys](../../encryption/concept/customer-supplied-keys.md).
+Cryptographic managers have the choice to use ServiceNow supplied keys or their own customer-supplied keys \(CSK\) for encryption on the ServiceNow AI Platform with Field Encryption Enterprise. For information on CSK, see [Configure properties for customer-supplied keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/customer-supplied-keys.md).
 
 ## Procedure
 
 1.  Set field encryption settings to use ServiceNow Generated Keys.
 
-    See [Configure field encryption settings to select key type](configure-field-encryption-settings.md) for details.
+    See [Configure field encryption settings to select key type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/configure-field-encryption-settings.md) for details.
 
 2.  Navigate to **Key Management** &gt; **Cryptographic Modules** &gt; **All**.
 
@@ -39,11 +40,11 @@ Cryptographic managers have the choice to use ServiceNow supplied keys or their 
 
 5.  Select **Next** to navigate to the Key Origin tab of the Crypto Specification components.
 
-    The Lifecycle Definition tab displays along with the Key Lifecycle table and can be reviewed or edited. See [Configure key lifecycle states](configure-key-lifecycle-states.md) for details.
+    The Lifecycle Definition tab displays along with the Key Lifecycle table and can be reviewed or edited. See [Configure key lifecycle states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/configure-key-lifecycle-states.md) for details.
 
-6.  Select **Servicenow** in the Origin field.![Servicenow key origin in the crypto spec.](../image/cryptospec-sn-keyorigin.png)
+6.  Select **Servicenow** in the Origin field.\[Omitted image "cryptospec-sn-keyorigin.png"\] Alt text: Servicenow key origin in the crypto spec.
 
-    This field varies based on the field encryption settings from Step 1 and the algorithm selected. To use an imported key, see [Import the wrapping / unwrapping key pair](../concept/import-key-webservice-1.md#). See [Configure properties for customer-supplied keys](../../encryption/concept/customer-supplied-keys.md) if you’re using your own key.
+    This field varies based on the field encryption settings from Step 1 and the algorithm selected. To use an imported key, see [Import the wrapping / unwrapping key pair](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/import-key-webservice-1.md). See [Configure properties for customer-supplied keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/customer-supplied-keys.md) if you’re using your own key.
 
 7.  Enter a friendly name for the Key alias.
 
@@ -57,12 +58,12 @@ Cryptographic managers have the choice to use ServiceNow supplied keys or their 
 
     Secure information for the key is stored on the Module Keys tab along with the number of keys that exist for the cryptographic specification.
 
-    ![Shows the Module Keys tab and the generated keys in the table.](../image/module-keys.png)
+    \[Omitted image "module-keys.png"\] Alt text: Shows the Module Keys tab and the generated keys in the table.
 
 11. Select a key to perform key management actions.
 
-    See [Key management actions](../reference/key-management-actions.md) for details.
+    See [Key management actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/key-management-actions.md) for details.
 
 
-**Parent Topic:**[Create a cryptographic module](create-cryptographic-module.md)
+**Parent Topic:**[Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/create-cryptographic-module.md)
 

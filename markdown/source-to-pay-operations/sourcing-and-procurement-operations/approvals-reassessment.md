@@ -2,6 +2,7 @@
 title: Approvals reassessment
 description: Review the conditions for approvals reassessment and their impact on purchase automation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/approvals-reassessment.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -20,11 +21,11 @@ Review the conditions for approvals reassessment and their impact on purchase au
 
 The sn\_shop.approval.reassessment.resend purchasing property determines if an approval needs to be reassessed as a result of a revision or a merge. The revision could be that of a purchase order or a purchase requisition. This property is only applicable if the same approval rule is triggered. If a new rule is triggered, this property is not applicable and a new approval plan is generated.
 
-For information on approval rule groups and sequencing, and how these impact the property, see [Approval rule grouping and sequencing](approval-rule-sequencing.md).
+For information on approval rule groups and sequencing, and how these impact the property, see [Approval rule grouping and sequencing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/approval-rule-sequencing.md).
 
 A reduction in funds revision is not allowed if the amount is below what has already been shipped or delivered. Revisions are not allowed on rejected lines, and therefore reassessment of approvals is not applicable.
 
-For information on approval rules, see [Approval rule types](approval-rule-types.md) and [Create an approval rule](../task/create-approval-rule.md).
+For information on approval rules, see [Approval rule types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/approval-rule-types.md) and [Create an approval rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-approval-rule.md).
 
 When an approval reassessment is sent to approvers, the approval amount to be considered must include the revised line's original amount and the increase in funds. For example, if the original line amount is $1000 and an increase in funds revision results in the line amount to be $1500, the amount to be considered for reassessment and approval is $1500.
 
@@ -54,5 +55,5 @@ The due date of this task is populated with the breach time on the SLA instance 
 
 For approvals that are no longer required or are canceled, the breached approvals review task creation is not triggered. Breached approvals review SLAs are deleted as they are no longer required.
 
-**Parent Topic:**[Sourcing and Purchasing Automation](purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

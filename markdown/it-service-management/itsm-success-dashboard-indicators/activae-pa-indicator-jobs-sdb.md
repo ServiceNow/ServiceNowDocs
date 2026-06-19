@@ -2,6 +2,7 @@
 title: Activate Performance Analytics jobs for ITSM Success Dashboard indicators
 description: Activate the Performance Analytics \(PA\) jobs to collect daily and historical data for the ITSM Success Dashboard indicators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-success-dashboard-indicators/activae-pa-indicator-jobs-sdb.html
 release: zurich
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -45,5 +46,5 @@ Role required: admin
     2.  Select **Execute Now** to see the past 60 days data in the dashboard.
 
 
-**Parent Topic:**[ITSM Success Dashboard Admin console](../concept/admin-console-sd.md)
+**Parent Topic:**[ITSM Success Dashboard Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-success-dashboard-indicators/admin-console-sd.md)
 

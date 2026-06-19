@@ -2,6 +2,7 @@
 title: Set up Agent Client Collector Log Analytics using guided setup
 description: Configure Agent Client Collector Log Analytics on your ServiceNow instance using guided setup.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/accl-guided-setup-use.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -17,8 +18,8 @@ Configure Agent Client Collector Log Analytics on your ServiceNow instance using
 
 ## Before you begin
 
--   Agent Client Collector Log Analytics has a dependency on the ServiceNow® Event Management application. Set up Event Management before you configure Agent Client Collector Log Analytics. For more information, see [Event Management setup](../../event-management/concept/c_EMConfiguration.md).
--   ServiceNow Service Operations Workspace ITOM Apps must be installed. If it is not installed already, install it manually. For more information, see [Install Service Operations Workspace for ITOM application](../../service-operations-workspace-itom/task/install-sow-itom-apps.md).
+-   Agent Client Collector Log Analytics has a dependency on the ServiceNow® Event Management application. Set up Event Management before you configure Agent Client Collector Log Analytics. For more information, see [Event Management setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/c_EMConfiguration.md).
+-   ServiceNow Service Operations Workspace ITOM Apps must be installed. If it is not installed already, install it manually. For more information, see [Install Service Operations Workspace for ITOM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/install-sow-itom-apps.md).
 
 **Note:** Currently, this setup only supports basic authentication with the MID Server. mTLS is not supported.
 
@@ -28,7 +29,7 @@ Role required: agent\_client\_collector\_admin
 
 Agent Client Collector Log Analytics guided setup provides a sequence of tasks that help you configure Agent Client Collector Log Analytics. Using guided setup ensures that you have the minimum required setup to use the application.
 
-**Note:** If you are not using guided setup, you must perform several configuration steps manually. For more information, see [Set up Agent Client Collector Log Analytics without using guided setup](acc-enable-hla.md).
+**Note:** If you are not using guided setup, you must perform several configuration steps manually. For more information, see [Set up Agent Client Collector Log Analytics without using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-enable-hla.md).
 
 ## Procedure
 
@@ -40,7 +41,7 @@ Agent Client Collector Log Analytics guided setup provides a sequence of tasks t
 
 3.  In the Agent Client Collector Log Analytics pane, click **Get Started**.
 
-    ![Agent Client Collector Log Analytics guided setup pane.](../image/accl-guided-setup1.png)
+    \[Omitted image "accl-guided-setup1.png"\] Alt text: Agent Client Collector Log Analytics guided setup pane.
 
 4.  In the **MID setup** section, take the appropriate action:
 
@@ -51,13 +52,13 @@ Agent Client Collector Log Analytics guided setup provides a sequence of tasks t
 
     When the MID Server is configured, the status indicator for Agent Client Collector Log Analytics guided setup shows that 64% of the configuration is complete. The progress indicator shows the completion percentage for all the IT Operations Management tasks.
 
-    ![MID Server setup task completed.](../image/accl-guided-setup3.png)
+    \[Omitted image "accl-guided-setup3.png"\] Alt text: MID Server setup task completed.
 
 5.  Configure Agent Client Collector Log Analytics.
 
     1.  In the **ACC Configuration** section, select a setup task and read the instructions in the help pane.
 
-        ![Selected setup task and Configure button.](../image/accl-guided-setup2.png)
+        \[Omitted image "accl-guided-setup2.png"\] Alt text: Selected setup task and Configure button.
 
     2.  Select **Configure** and complete the task.
 

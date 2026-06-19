@@ -2,6 +2,7 @@
 title: Add schedule breaks to a shift
 description: After creating a work shift, you can add schedule breaks to the shift.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-manager-workforce/add-break-shift-wfo-fsm.html
 release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -29,9 +30,9 @@ You can set the break period within a work shift by ensuring that all of your ag
 
 1.  Navigate to **All** &gt; **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule icon \( ![Schedule icon.](../../workforce-optimization-for-customer-service-configurable/image/schedule-new.png)\).
+2.  Click the Schedule icon \( \[Omitted image "schedule-new.png"\] Alt text: Schedule icon.\).
 
-3.  Click the Show Shifts Plans icon \(![Show Shifts Plans icon.](../image/show-schedule-new.png)\) and select the shift for which you want to add the break.
+3.  Click the Show Shifts Plans icon \(\[Omitted image "show-schedule-new.png"\] Alt text: Show Shifts Plans icon.\) and select the shift for which you want to add the break.
 
 4.  Click **Add break**.
 

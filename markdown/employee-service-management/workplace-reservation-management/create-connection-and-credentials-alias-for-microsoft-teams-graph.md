@@ -2,6 +2,7 @@
 title: Create connection and credential for Microsoft Teams Graph
 description: Setup connection and credentials alias for Microsoft Teams Graph.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-reservation-management/create-connection-and-credentials-alias-for-microsoft-teams-graph.html
 release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -129,9 +130,9 @@ Domain that the action or activity runs in.
 </table>    4.  Click **Submit**.
 
 
-**Parent Topic:**[Connect Workplace Reservation Management with Microsoft Teams](connect-rsv-mgmt-with-teams.md)
+**Parent Topic:**[Connect Workplace Reservation Management with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/connect-rsv-mgmt-with-teams.md)
 
-**Previous topic:**[Create credential for Microsoft Teams Communication](create-credentials-for-microsoft-teams-connection.md)
+**Previous topic:**[Create credential for Microsoft Teams Communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/create-credentials-for-microsoft-teams-connection.md)
 
-**Next topic:**[Connect Workplace Reservation Management with Zoom](connect-rsv-mtm-with-zoom.md)
+**Next topic:**[Connect Workplace Reservation Management with Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/connect-rsv-mtm-with-zoom.md)
 

@@ -2,6 +2,7 @@
 title: ServiceNow CPQ Configurator
 description: The ServiceNow CPQ Configurator is an advanced commerce logic solution that allows businesses to configure and sell products more effectively. Unlike traditional product-based systems, ServiceNow CPQ uses an attribute-based configuration model. This ensures that users are guided through selections, rules are enforced automatically, and only valid outcomes are generated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/understand-the-commerce-logic-engine.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

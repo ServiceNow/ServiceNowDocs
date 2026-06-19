@@ -2,6 +2,7 @@
 title: Bind an event to a page
 description: Use page event mappings to bind data elements within UI Builder so that you can add event actions to your page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/bind-event-page.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -34,31 +35,31 @@ You can bind an event to a page by using the following types of events:
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md) for more information.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md) for more information.
 
 3.  Open or create a page.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/create-page.md).
 
 4.  Highlight the page body in the content tree.
 
     The body is the top-level line of the content tree. When you highlight the whole page, you can add page-level events.
 
-    ![Arrow pointing at the body option in the content tree.](../image/content-tree-body.png)
+    \[Omitted image "content-tree-body.png"\] Alt text: Arrow pointing at the body option in the content tree.
 
 5.  In the configuration panel, select the **Events** tab.
 
 6.  Add an event handler in one of the following ways.
 
-<table id="choicetable_tqw_v1s_znb"><thead><tr><th align="left" id="d107863e178">
+<table id="choicetable_tqw_v1s_znb"><thead><tr><th align="left" id="d46734e178">
 
 To add this event handler
 
-</th><th align="left" id="d107863e181">
+</th><th align="left" id="d46734e181">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d107863e187">
+</th></tr></thead><tbody><tr><td id="d46734e187">
 
 **Page event mappings**
 
@@ -72,7 +73,7 @@ Do this
 3.  To add the event handler to your page, click **Add**.
 
 
-</td></tr><tr><td id="d107863e257">
+</td></tr><tr><td id="d46734e257">
 
 **Variant event mappings**
 
@@ -83,7 +84,7 @@ Do this
  1.  Select **Add event mappings**. For example, you can add a new event handler for **Row clicked**.
 2.  Select an event handler from the list of available Inherited event handlers or local event handlers like the UXR App Shell Data Source.
 3.  To add the event handler to your variant, select **Add**.
- ![Variant event handler options.](../image/variant-event-mappings.png)
+ \[Omitted image "variant-event-mappings.png"\] Alt text: Variant event handler options.
 
  -   These event mappings are in the variant record that are found in the `sys_ux_screen` table.
 -   The source events for these event mappings are any dispatched events that are defined for your page.
@@ -92,34 +93,34 @@ Do this
 -   These mappings are automatically created on a page save when you have mapped a component's dispatched event to another event. For example, when you map a **Button clicked** event to the **Link to destination** event, the event creates a dispatched relay event and a variant event mapping after you save the page.
 
 
-</td></tr><tr><td id="d107863e330">
+</td></tr><tr><td id="d46734e330">
 
 **Dispatched events**
 
 </td><td>
 
 1.  Select **Dispatched events**.
-2.  Select ![+Add icon.](../image/add-icon.png).
+2.  Select \[Omitted image "add-icon.png"\] Alt text: +Add icon..
 3.  In the **Add an event** screen, do the following actions:
     -   Type a label for your event.
     -   Select a target parent event handler.
 4.  To add the event handler to your dispatched events, select **Add**.
 
-![Create an event dialog.](../image/dispatched-page-events.png)
+\[Omitted image "dispatched-page-events.png"\] Alt text: Create an event dialog.
 
 5.  The new event handler that you created appears in **Dispatched events**. The following example shows how to add a **Link to destination** event handler.
 
-![Event handler added to dispatched events.](../image/dispatched-page-events-result.png)
+\[Omitted image "dispatched-page-events-result.png"\] Alt text: Event handler added to dispatched events.
 
  -   These events are in the \[sys\_ux\_event\] table. The page definition record contains references to the \[sys\_ux\_event\] record.
 
 -   These events serve as source events for variant event mappings.
 
--   To create new dispatched events for your page, select ![+Add icon.](../image/add-icon.png). Configure the event label to auto-populate the event name and payload fields for your new `sys_ux_event`.
+-   To create new dispatched events for your page, select \[Omitted image "add-icon.png"\] Alt text: +Add icon.. Configure the event label to auto-populate the event name and payload fields for your new `sys_ux_event`.
 
 -   These events are often used to create relay event mappings. You can select a **Target parent event handler** to model the payload fields after the selected event. You can also manually create payload fields for your dispatched event.
 
-</td></tr><tr><td id="d107863e437">
+</td></tr><tr><td id="d46734e437">
 
 **Handled events**
 
@@ -129,13 +130,13 @@ Do this
 
 -   These events serve as source events for Page event mappings.
 
--   To create new dispatched events for your page, select ![+Add icon.](../image/add-icon.png). These events are not modeled after parent event handlers. Payload fields for handled events are created manually. To use an existing handler's payload fields as a template, select a template and edit the fields as necessary.
+-   To create new dispatched events for your page, select \[Omitted image "add-icon.png"\] Alt text: +Add icon.. These events are not modeled after parent event handlers. Payload fields for handled events are created manually. To use an existing handler's payload fields as a template, select a template and edit the fields as necessary.
 
 </td></tr></tbody>
 </table>7.  Select **Save**.
 
-8.  To preview your page and test the data resource event that you set up, select ![Preview button.](../image/preview-button.png).
+8.  To preview your page and test the data resource event that you set up, select \[Omitted image "preview-button.png"\] Alt text: Preview button..
 
 
-**Parent Topic:**[Bind events to add actions](../concept/bind-events.md)
+**Parent Topic:**[Bind events to add actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/bind-events.md)
 

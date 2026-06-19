@@ -2,6 +2,7 @@
 title: Add a Journey Accelerator action plan to the menu in the Employee Center
 description: Add Journey Accelerator action plans to the main menu in the Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-accelerator/add-ja-action-plan-menu-ec-header.html
 release: zurich
 product: Journey Accelerator
 classification: journey-accelerator
@@ -17,9 +18,9 @@ Add Journey Accelerator action plans to the main menu in the Employee Center.
 
 ## Before you begin
 
-The latest Employee Center is installed. See, [Install Employee Center](../../employee-center/task/activate-ec.md)
+The latest Employee Center is installed. See, [Install Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/activate-ec.md)
 
-The Employee Center theme needs to be configured to use the latest user interface. See, [Update the Employee Center theme](ja-update-ec-ui-theme.md).
+The Employee Center theme needs to be configured to use the latest user interface. See, [Update the Employee Center theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/ja-update-ec-ui-theme.md).
 
 Role required: admin
 

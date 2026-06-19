@@ -2,6 +2,7 @@
 title: Discovery resource utilization
 description: Standard transactions on Windows and UNIX generate various amounts of network traffic, depending on what is being discovered.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/discovery-resource-utilization.html
 release: zurich
 product: Discovery
 classification: discovery

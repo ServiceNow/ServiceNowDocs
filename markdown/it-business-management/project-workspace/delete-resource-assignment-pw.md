@@ -2,6 +2,7 @@
 title: Delete a resource assignment from Project Workspace
 description: Delete a resource assignment from Project Workspace. Deleting an assignment also deletes all associated resource allocations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/delete-resource-assignment-pw.html
 release: zurich
 product: Project Workspace
 classification: project-workspace
@@ -27,10 +28,10 @@ Role required: it\_project\_manager
 
 3.  From the resource assignment pane, create a resource assignment for a project or task by selecting **Add resource**.
 
-4.  From the resource assignment pane, select the row context menu \(![Row context menu.](../../project-workspace/image/icon-row-context-menu.png)\) and then select **Delete row**.
+4.  From the resource assignment pane, select the row context menu \(\[Omitted image "icon-row-context-menu.png"\] Alt text: Row context menu.\) and then select **Delete row**.
 
     The resource assignment is deleted from the resource assignment pane.
 
 
-**Parent Topic:**[Resource assignments in Project Workspace](../concept/resource-assignments-pw.md)
+**Parent Topic:**[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/resource-assignments-pw.md)
 

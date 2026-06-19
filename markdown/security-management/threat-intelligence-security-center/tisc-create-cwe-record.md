@@ -2,6 +2,7 @@
 title: Create a CWE record
 description: Create a Common Weakness Enumeration \(CWE\) record to represent a weakness identified in a system or product, and link it to relevant vulnerabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-create-cwe-record.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -77,5 +78,5 @@ Select a **Type**: **Primary** or **Secondary**.**Note:** The type indicates whe
 6.  To link related CWEs, scroll to the **Related Records** &gt; **CWEs** related list and click **Link**.
 
 
-**Parent Topic:**[Vulnerability Artifacts](../concept/vulnerability.md)
+**Parent Topic:**[Vulnerability Artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/vulnerability.md)
 

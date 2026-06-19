@@ -2,7 +2,10 @@
 title: Activate Case Digests
 description: Activate the Case Digests plugin to use the case digests feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/activate-case-digests.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -32,7 +35,7 @@ When creating a case action summary record, users with the sn\_esm\_agent role c
 
 **Note:** The **Publish to Case &amp; Notify** UI action is available when a list has been selected in the **Additional internal recipients** field.
 
-For more information, see [Recipient lists](../reference/targeted-comm-dynamic-list.md).
+For more information, see [Recipient lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/targeted-comm-dynamic-list.md).
 
 ## Procedure
 

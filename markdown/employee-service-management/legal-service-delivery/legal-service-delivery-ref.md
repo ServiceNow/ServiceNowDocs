@@ -2,6 +2,7 @@
 title: Legal Service Delivery reference
 description: Reference topics provide additional information about Legal Service Delivery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/legal-service-delivery-ref.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery

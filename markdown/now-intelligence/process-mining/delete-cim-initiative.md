@@ -2,6 +2,7 @@
 title: Remove an initiative
 description: Remove an associated improvement initiative from a project once you complete or cancel the relevant task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/delete-cim-initiative.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -27,7 +28,7 @@ An improvement initiative can be removed from the main or linked process in whic
 
 1.  Open the project view.
 
-2.  Select the Initiatives icon \(![Initiatives icon](../image/improve-initiative-icon.png)\) from the Notes and initiatives panel.
+2.  Select the Initiatives icon \(\[Omitted image "improve-initiative-icon.png"\] Alt text: Initiatives icon\) from the Notes and initiatives panel.
 
 3.  From the list, select the context menu of an initiative, then select **Remove**.
 
@@ -38,5 +39,5 @@ An improvement initiative can be removed from the main or linked process in whic
 
 The initiative is removed from the refreshed initiatives list.
 
-**Parent Topic:**[Creating and tracking improvement initiatives](../../../product/benchmarks/task/initiatives-from-process-optimization.md)
+**Parent Topic:**[Creating and tracking improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/initiatives-from-process-optimization.md)
 

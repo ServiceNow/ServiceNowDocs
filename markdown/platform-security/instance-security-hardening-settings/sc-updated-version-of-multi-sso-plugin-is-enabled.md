@@ -2,6 +2,7 @@
 title: Enable updated version of MultiSSO plugin \[Updated in Security Center 1.3 and 1.5\]
 description: Verify that you're using v2 of the MultiSSO plugin and that it's set to true to reduce security vulnerabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-updated-version-of-multi-sso-plugin-is-enabled.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -28,10 +29,10 @@ Follow the steps in [KB0756504](https://support.servicenow.com/kb?id=kb_article_
 |Data type|Boolean|
 |Recommended value|true|
 |Default value|true|
-|Category|[Configuration](sc-configuration.md)|
+|Category|[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-configuration.md)|
 |Security risk|If the latest version is not enabled, the new security features cannot be used and the instance is at risk of using an plugin which is deprecated|
 |Dependencies and prerequisites|None|
 |References|[https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB0756504](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0756504)|
 
-**Parent Topic:**[Configuration](sc-configuration.md)
+**Parent Topic:**[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-configuration.md)
 

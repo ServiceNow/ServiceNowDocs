@@ -2,6 +2,7 @@
 title: Process the skipped records list
 description: Process the skipped records list to resolve the differences between the upgraded and customized versions of a record. If you have customized or altered a record affected by this upgrade, such as a business rule or script, the upgrade generates a skip log record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/upgrade-management/um-process-skipped-records.html
 release: zurich
 product: Upgrade Management
 classification: upgrade-management
@@ -32,21 +33,21 @@ Review the changes you made to baseline records, such as business rules and scri
     |Using left navigation|Navigate to **All** &gt; **Admin Center** &gt; **Upgrade Management** &gt; **Upgrade Monitor**.|
     |Using Admin tab option|Navigate to **Admin** &gt; **Upgrade Management** &gt; **Upgrade Monitor**.|
 
-    **Note:** If the upgrade is still in progress, the system displays the [Upgrade Progress](../reference/um-monitor-progress.md) screen. When the upgrade finishes, the system displays the [Upgrade Summary Report](../reference/um-complete-summary.md).
+    **Note:** If the upgrade is still in progress, the system displays the [Upgrade Progress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-monitor-progress.md) screen. When the upgrade finishes, the system displays the [Upgrade Summary Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-complete-summary.md).
 
     A list of upgrades is displayed.
 
 2.  After the system displays the Upgrade Summary Report, click the Review changes link in the Skipped box.
 
-    The system displays the [System Upgrades form](../reference/um-system-upgrades-form.md).
+    The system displays the [System Upgrades form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-system-upgrades-form.md).
 
 3.  Navigate to Review Skipped Records section and – if necessary – scroll to the Skipped Changes to Review related list.
 
-    See [Review skipped records using related lists](um-access-rl.md#) for more information.
+    See [Review skipped records using related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-access-rl.md) for more information.
 
 4.  Click the row for the first record you want to reconcile.
 
-    The system displays the [Upgrade details form](../reference/um-upgrade-details-form.md) for that record.
+    The system displays the [Upgrade details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-upgrade-details-form.md) for that record.
 
 5.  Evaluate how you want to resolve the conflict for this record and take the appropriate action:
 
@@ -64,7 +65,7 @@ Retain the customized record as is and do not update it
 
 </td><td>
 
-After reviewing the changes, set **Resolution Status** to **Reviewed and Retained**.The record moves from the Skipped Changes to Review to Skipped Changes Reviewed related list. See [Review skipped records using related lists](um-access-rl.md#).
+After reviewing the changes, set **Resolution Status** to **Reviewed and Retained**.The record moves from the Skipped Changes to Review to Skipped Changes Reviewed related list. See [Review skipped records using related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-access-rl.md).
 
 </td></tr><tr><td>
 
@@ -72,7 +73,7 @@ Retain the customization by merging changes from the updated object
 
 </td><td>
 
-1.  Click **Resolve Conflicts** to navigate to the [Resolve Conflicts form](../reference/um-resolve-conflicts-form.md).
+1.  Click **Resolve Conflicts** to navigate to the [Resolve Conflicts form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-resolve-conflicts-form.md).
 2.  Review the differences.
 3.  To merge a field:
     -   Click the right-arrow button for the field.
@@ -124,8 +125,8 @@ From the **Resolution** list, choose **Not Reviewed** to defer the decision on h
     Post-upgrade, thoroughly test all changes you made to the records on the skipped record list.
 
 
--   **[System Upgrade form](../reference/um-system-upgrades-form.md)**  
+-   **[System Upgrade form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-system-upgrades-form.md)**  
 When an upgrade is complete, the System Upgrades form displays key statistics about the upgrade and a related list of skipped records \(the skipped list\).
 
-**Parent Topic:**[Upgrade Monitor tool in Upgrade Console](../concept/um-upgrade-monitor-tool.md)
+**Parent Topic:**[Upgrade Monitor tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-upgrade-monitor-tool.md)
 

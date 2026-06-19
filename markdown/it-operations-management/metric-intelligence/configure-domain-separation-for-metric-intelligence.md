@@ -2,6 +2,7 @@
 title: Configure domain separation for Metric Intelligence
 description: Configure Metric Intelligence for domain separation to create logically defined domains that limit unauthorized access to data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/metric-intelligence/configure-domain-separation-for-metric-intelligence.html
 release: zurich
 product: Metric Intelligence
 classification: metric-intelligence
@@ -27,7 +28,7 @@ Role required: evt\_mgmt\_admin and evt\_mgmt\_integration
 
 3.  Configure a MID Server distributed cluster in the domain you desire and add Operational Intelligence MID Servers that belong to the same domain.
 
-    For more information about setting up MID Servers for Metric Intelligence, see [MID Server and MID Server distributed cluster for Metric Intelligence](../concept/ops-intelligence-mid-server.md).
+    For more information about setting up MID Servers for Metric Intelligence, see [MID Server and MID Server distributed cluster for Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/metric-intelligence/ops-intelligence-mid-server.md).
 
     **Note:** The Event Management’s binding events are configured using the domain of the logged-in MID Server user. Once the process has finished, the record’s domain is updated to use the domain from the CI so that any user within that domain can see the metric data.
 

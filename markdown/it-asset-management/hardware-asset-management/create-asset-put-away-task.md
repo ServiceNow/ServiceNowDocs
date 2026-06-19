@@ -2,6 +2,7 @@
 title: Create an Asset put away task
 description: Create an Asset put away task manually for the In stock assets in the Hardware Asset Workspace to track the movement of assets within the stockroom.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/create-asset-put-away-task.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -9,7 +10,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [create asset put away task, asset put away,]
-breadcrumb: [Manage asset put away using the Hardware Asset Workspace, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage asset put away for stockrooms, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Create an Asset put away task
@@ -34,7 +35,7 @@ You can create an asset put away task in the Hardware Asset Workspace for the In
     -   In the Stockrooms tab, select a Stockroom. Then in the Open stockroom tasks section, select the **Open put away tasks** card. Select **New**.
 3.  On the Asset put away task form, fill in the fields.
 
-    For a description of the field values, see [Asset put away task fields](../reference/put-away-task-form.md).
+    For a description of the field values, see [Asset put away task fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/put-away-task-form.md).
 
 4.  Save your modifications.
 
@@ -44,5 +45,5 @@ You can create an asset put away task in the Hardware Asset Workspace for the In
         **Note:** **Drop off location** field value is required to close the Asset put away task.
 
 
-**Parent Topic:**[Manage asset put away using the Hardware Asset Workspace](../concept/manage-asset-putaway-stockroom-hardware-asset-workspace.md)
+**Parent Topic:**[Manage asset put away using the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-asset-putaway-stockroom-hardware-asset-workspace.md)
 

@@ -2,6 +2,7 @@
 title: Customize a Now Assist Virtual Agent topic
 description: Copy and customize a core ITSM Virtual Agent topic and use that topic to track the status of common IT-related tasks using Now Assist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-customize-itsm-llm-topic.html
 release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -39,17 +40,17 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 4.  Select the Topic actions icon at the top-right corner of the screen and select **Duplicate**.
 
-    ![Duplicate a service disruption template](../image/itsm-now-assist-service-disruptions-duplicate.png)
+    \[Omitted image "itsm-now-assist-service-disruptions-duplicate.png"\] Alt text: Duplicate a service disruption template
 
 5.  In the **Name** field, enter the name for the topic you want to use for the summarization.
 
-    ![Enter a name for the duplicated Service Disruption topic](../image/itsm-now-assist-service-disruption-name.png)
+    \[Omitted image "itsm-now-assist-service-disruption-name.png"\] Alt text: Enter a name for the duplicated Service Disruption topic
 
 6.  Select **Save**.
 
 7.  In the topic you've duplicated, select the **Properties** tab.
 
-    ![Configure a VA topic for Now Assist in Virtual Agent](../image/itsm-now-assist-service-disruptions-properties.png)
+    \[Omitted image "itsm-now-assist-service-disruptions-properties.png"\] Alt text: Configure a VA topic for Now Assist in Virtual Agent
 
 8.  Enable the following check boxes:
 

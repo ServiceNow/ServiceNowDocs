@@ -2,6 +2,7 @@
 title: Service Catalog variable form fields
 description: Fields on the variable help you to define variables for a catalog item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/service-catalog-var-form-fields.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -532,5 +533,5 @@ Visible on Summaries
 If selected, the variable appears on any variable summarizer of the catalog item.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Hardware Asset Management reference](../concept/reference-hardware-asset-management.md)
+</table>**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
 

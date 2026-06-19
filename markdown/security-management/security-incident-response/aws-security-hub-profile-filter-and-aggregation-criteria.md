@@ -2,6 +2,7 @@
 title: Define filter and aggregation criteria for AWS Security Hub findings ingestion
 description: You can define and set filter conditions so that you can specify which incoming findings should create security incidents. You can also define additional incident field criteria that allows an incoming finding to be appended to an open security incident instead of creating an another security incident for the same finding.Set the filtering conditions so that security incidents are created only when the filtering conditions match.Define additional incident aggregation criteria that aggregates an incoming AWS Security Hub finding to an existing SIR security incident instead of creating similar, potentially duplicate incidents. When you use field matching value criteria for each profile, this additional aggregation can reduce the number of active, overlapping security incidents by placing all related incidents data on a single security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/aws-security-hub-profile-filter-and-aggregation-criteria.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

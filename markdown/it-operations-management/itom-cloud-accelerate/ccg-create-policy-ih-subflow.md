@@ -2,6 +2,7 @@
 title: Create a policy with the Integration Hub subflow
 description: Use the Integration Hub subflow to create a Cloud Configuration Governance policy. An Integration Hub subflow uses graphical coding mechanisms to specify the policy conditions. It offers greater flexibility in audit violation reporting than the condition builder. That is, you can use the same policy to report different types of issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-cloud-accelerate/ccg-create-policy-ih-subflow.html
 release: zurich
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -29,23 +30,23 @@ Refer to the base system **Sample flow policy** as an example for creating new p
 
     1.  Copy the **CCG – Flow Policy Template** subflow.
 
-        For more information on copying the subflow, see [Copy an Integration Hub subflow template](copy-ih-subflow-template.md).
+        For more information on copying the subflow, see [Copy an Integration Hub subflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/copy-ih-subflow-template.md).
 
     2.  To read the configuration data, add the **CCG – Read Config Setting** action.
 
-        For more information on the **CCG – Read Config Setting** action, see [Cloud Configuration Governance actions reference](../reference/ccg-ih-reference.md).
+        For more information on the **CCG – Read Config Setting** action, see [Cloud Configuration Governance actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/ccg-ih-reference.md).
 
-    3.  Repeat step [1.b](ccg-create-policy-ih-subflow.md#ccg-read-config-settings) for all the configuration keys that you want to use in the policy.
+    3.  Repeat step [1.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/ccg-create-policy-ih-subflow.md) for all the configuration keys that you want to use in the policy.
 
     4.  Add the flow logic.
 
     5.  Assign subflow outputs.
 
-        The subflow output settings define how Cloud Configuration Governance reports the audit violations. For more information on assigning the subflow output, see [Cloud Configuration Governance actions reference](../reference/ccg-ih-reference.md).
+        The subflow output settings define how Cloud Configuration Governance reports the audit violations. For more information on assigning the subflow output, see [Cloud Configuration Governance actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/ccg-ih-reference.md).
 
     6.  If you have not selected the **Report Issue** option in the **Assign Subflow outputs** form, add an action under the **Assign Subflow outputs** action, and then add the **Create Record** action.
 
-        For more information on the **Create Record** action, see [Cloud Configuration Governance actions reference](../reference/ccg-ih-reference.md).
+        For more information on the **Create Record** action, see [Cloud Configuration Governance actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/ccg-ih-reference.md).
 
     7.  Save the subflow.
 
@@ -55,12 +56,12 @@ Refer to the base system **Sample flow policy** as an example for creating new p
 
 4.  On the Policy form, fill in the fields.
 
-    For a description of the form fields, see [Cloud Configuration Governance Policy form](../reference/ccg-policy-form.md).
+    For a description of the form fields, see [Cloud Configuration Governance Policy form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/ccg-policy-form.md).
 
 5.  Select **Submit**.
 
 
 ## What to do next
 
-Test the policy to make sure that it is working properly. For more information, see [Test the policy](test-ccg-policy.md).
+Test the policy to make sure that it is working properly. For more information, see [Test the policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/test-ccg-policy.md).
 

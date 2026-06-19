@@ -2,6 +2,7 @@
 title: Using ERP remote tables in Zero Copy Connector for ERP
 description: Enterprise Resource Planning \(ERP\) remote tables in Zero Copy Connector for ERP enable you to view and query data from the ERP system of record on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erp-canvas-work-with-remote-tables.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -18,7 +19,7 @@ Enterprise Resource Planning \(ERP\) remote tables in Zero Copy Connector for ER
 
 **Note:** Zero Copy Connector for ERP doesn't replicate data into the ServiceNow AI Platform. It mirrors data that lives in the ERP system of record, and remains protected there.
 
-For general information about remote tables in the ServiceNow AI Platform, see [Remote tables](https://www.servicenow.com/docs/access?context=remote-tables&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+For general information about remote tables in the ServiceNow AI Platform, see .
 
 ## Remote tables are linked to ERP models
 
@@ -28,16 +29,16 @@ The connected model, which is defined on the remote table **Details** tab, contr
 
 ## Limitations of remote tables
 
-To promote data integrity, you can't create new remote tables in Zero Copy Connector for ERP, but you can clone existing models and extend standard ERP remote tables to customize them. For more information, see [Clone an ERP model in Zero Copy Connector for ERP](../task/erp-canvas-clone-data-model.md).
+To promote data integrity, you can't create new remote tables in Zero Copy Connector for ERP, but you can clone existing models and extend standard ERP remote tables to customize them. For more information, see [Clone an ERP model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-clone-data-model.md).
 
-ERP remote tables have a limit of 1,000 records. If you need a larger amount of data, use an ERP extraction table. For more information, see [Extracting and transforming data in Zero Copy Connector for ERP](erp-canvas-extraction-tables.md).
+ERP remote tables have a limit of 1,000 records. If you need a larger amount of data, use an ERP extraction table. For more information, see [Extracting and transforming data in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md).
 
--   **[View and edit ERP remote table details with Zero Copy Connector for ERP](../task/erpi-find-tables.md)**  
+-   **[View and edit ERP remote table details with Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erpi-find-tables.md)**  
 View and edit details for ERP \(Enterprise Resource Planning\) remote tables in Zero Copy Connector for ERP, such as their attachment settings and short descriptions.
--   **[Customize fields for an ERP remote table in Zero Copy Connector for ERP](../task/erp-canvas-build-remote-table.md)**  
+-   **[Customize fields for an ERP remote table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-build-remote-table.md)**  
 Add or remove columns in remote tables in Zero Copy Connector for ERP to create your ERP \(Enterprise Resource Planning\) model. For example, remove fields with sensitive information, such as birthdays.
--   **[Query a remote table using Zero Copy Connector for ERP](../task/erp-canvas-query-remote-table.md)**  
+-   **[Query a remote table using Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-query-remote-table.md)**  
 Query ERP \(Enterprise Resource Planning\) remote tables from a system of record directly from the **All** menu using Zero Copy Connector for ERP.
 
-**Parent Topic:**[Using Zero Copy Connector for ERP](work-with-erp-systems-connections-and-remote-tables.md)
+**Parent Topic:**[Using Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/work-with-erp-systems-connections-and-remote-tables.md)
 

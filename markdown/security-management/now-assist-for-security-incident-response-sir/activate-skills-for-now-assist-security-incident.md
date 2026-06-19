@@ -2,6 +2,7 @@
 title: Configure a skill for Now Assist for Security Incident Response
 description: Configure and review the details for a skill in the Guided Setup. You can edit and reactivate a skill from the Guided Setup.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/now-assist-for-security-incident-response-sir/activate-skills-for-now-assist-security-incident.html
 release: zurich
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -22,7 +23,7 @@ Role required: sn\_si.admin
 
 ## About this task
 
-**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see .
 
 ## Procedure
 
@@ -36,7 +37,7 @@ Role required: sn\_si.admin
 
 3.  Select **Edit** for the skill you want to configure, and follow the Guided Setup.
 
-    You can edit only the active options in the left panel and the editable options might vary for individual skills. For more configurable options, copy a skill and customize it. For more information, see [Customize a Now Assist for Security Incident Response skill](cust-now-assist-security-incident-skill.md).
+    You can edit only the active options in the left panel and the editable options might vary for individual skills. For more configurable options, copy a skill and customize it. For more information, see [Customize a Now Assist for Security Incident Response skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/cust-now-assist-security-incident-skill.md).
 
 4.  Select **Review and Activate** to review your inputs and activate the skill.
 

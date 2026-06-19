@@ -2,6 +2,7 @@
 title: Manage Learning
 description: Using Learning, learning administrators can manage user activities. To aid the users learning journey, learning admins can create achievements, define achievement rules, and monitor the overall learning activity of a user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/manage-learning-achievements.html
 release: zurich
 product: Learning Core
 classification: learning-core
@@ -15,24 +16,24 @@ breadcrumb: [Use, Learning, Growth Experiences, HR Service Delivery, Employee Se
 
 Using Learning, learning administrators can manage user activities. To aid the users learning journey, learning admins can create achievements, define achievement rules, and monitor the overall learning activity of a user.
 
--   **[Create a content collection](create-content-collection.md)**  
+-   **[Create a content collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/create-content-collection.md)**  
 Create a content collection in Learning to dynamically group Learning content that includes multiple internal and external courses.
--   **[Create internal Learning content](create-internal-learning-content.md)**  
+-   **[Create internal Learning content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/create-internal-learning-content.md)**  
 Create internal Learning courses so that employees can learn new content and enhance their skills set.
--   **[View external Learning content](view-external-learning-content.md)**  
+-   **[View external Learning content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/view-external-learning-content.md)**  
 View the details of all course items that are pulled from external sources into the Learning application.
--   **[Create a learning library](create-learning-library.md)**  
+-   **[Create a learning library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/create-learning-library.md)**  
 Create a learning library that includes learning content from internal and external content repositories.
--   **[Create a learning task](create-learning-task.md)**  
+-   **[Create a learning task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/create-learning-task.md)**  
 Assign a learning task to an employee that can be completed from the To-dos page in Employee Center.
--   **[Create an achievement definition](create-achievement.md)**  
+-   **[Create an achievement definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/create-achievement.md)**  
 Create definitions for achievements to define the end goal.
--   **[Create user achievements](create-user-achievements.md)**  
+-   **[Create user achievements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/create-user-achievements.md)**  
 Create user achievements to project the accomplishments of course takers on My Learning.
--   **[Create an achievement rule](../task/create-achievement-rule.md)**  
+-   **[Create an achievement rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/create-achievement-rule.md)**  
 Create achievement rules to define the criteria to be met to complete an achievement.
--   **[Create an achievement rule item](../task/achievement-rule-item.md)**  
+-   **[Create an achievement rule item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/achievement-rule-item.md)**  
 Create an achievement rule item to define if all or a count of items need to be completed to receive an achievement.
 
-**Parent Topic:**[HR Service Delivery](hr-service-delivery.md)
+**Parent Topic:**[HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-service-delivery.md)
 

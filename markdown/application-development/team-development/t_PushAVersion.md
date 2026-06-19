@@ -2,6 +2,7 @@
 title: Push a version
 description: You can push a version from the development instance to the parent instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/t\_PushAVersion.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -36,9 +37,9 @@ Pushing creates a local update set on the parent that is marked as complete. Pus
 
 1.  Navigate to **All** &gt; **Team Development** &gt; **Team Dashboard**.
 
-2.  [Queue the local changes](t_QueueALocalChangeForAPush.md) that are ready to push.
+2.  [Queue the local changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_QueueALocalChangeForAPush.md) that are ready to push.
 
-3.  [Pull versions](t_PullAVersion.md) from the parent instance and [resolve any collisions](t_ResolveACollision.md).
+3.  [Pull versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_PullAVersion.md) from the parent instance and [resolve any collisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_ResolveACollision.md).
 
     If collisions are detected, you can’t push changes to the parent instance.
 
@@ -66,7 +67,7 @@ Pushing creates a local update set on the parent that is marked as complete. Pus
 
     The system initiates a pull to confirm that there are no collisions before the push proceeds.
 
-    -   If collisions are detected, the push is automatically canceled and you must repeat the procedure from [step 3](t_PushAVersion.md#step-3-pull-versions).
+    -   If collisions are detected, the push is automatically canceled and you must repeat the procedure from [step 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_PushAVersion.md).
     -   If no collisions are detected, the changes are staged on the parent instance. On the parent, each version is validated and then committed in the correct order to maintain dependencies between records. For example, a new table is committed before a field on that table to confirm the field is properly created.
     **Note:** You can’t push if there’s a version conflict between instances or the pushing instance has changes in the Awaiting Code Review stage.
 
@@ -85,5 +86,5 @@ Pushing creates a local update set on the parent that is marked as complete. Pus
     -   The current version is invalid. Revert to a previous version and make the change again to confirm the version is valid
     -   An error occurred on the parent during the push. The Log field on the push record contains the exception message. Review the system logs in the parent instance and troubleshoot any problems with the instance.
 
-**Parent Topic:**[Pushing changes](../concept/pushing-changes.md)
+**Parent Topic:**[Pushing changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/pushing-changes.md)
 

@@ -2,6 +2,7 @@
 title: Capture actual monetary benefits
 description: Capture the actual benefit from the planned benefits to measure revenue and calculate the profits.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/fin-manage-actual-monetary-benefit-spw.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -17,7 +18,7 @@ Capture the actual benefit from the planned benefits to measure revenue and calc
 
 ## Before you begin
 
--   [Create monetary benefit plans for your planning items in Strategic Planning](fin-manage-monetary-benefit-plans-spw.md)
+-   [Create monetary benefit plans for your planning items in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/fin-manage-monetary-benefit-plans-spw.md)
 -   Role required: sn\_align\_ws.spw\_financial\_user
 
 ## Procedure
@@ -32,15 +33,15 @@ Capture the actual benefit from the planned benefits to measure revenue and calc
 
 4.  Capture actual monetary benefits using one of the options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d214110e103">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d204806e103">
 
 Option
 
-</th><th align="left" id="d214110e106">
+</th><th align="left" id="d204806e106">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d214110e112">
+</th></tr></thead><tbody><tr><td id="d204806e112">
 
 **Using Monetary benefit plan related list**
 
@@ -51,14 +52,14 @@ Procedure
 3.  Select the value from the **Entered benefit** field.
 
 
-</td></tr><tr><td id="d214110e142">
+</td></tr><tr><td id="d204806e142">
 
 **Using finanicals record page**
 
 </td><td>
 
 1.  Select the **Financials** tab.
-2.  Select the options ![Option to add expense lines.](../images/fin-options.png) from the required cell of a monetary benefit plan row.
+2.  Select the options \[Omitted image "fin-options.png"\] Alt text: Option to add expense lines. from the required cell of a monetary benefit plan row.
 3.  Select **Add actual benefits**.
 
 Monetary Benefit Plan Breakdown side-panel is displayed.

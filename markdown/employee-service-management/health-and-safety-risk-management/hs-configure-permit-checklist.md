@@ -2,6 +2,7 @@
 title: Configure a permit checklist
 description: Create a permit checklist and link it to the permit type of a permit-to-work request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-risk-management/hs-configure-permit-checklist.html
 release: zurich
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -31,7 +32,7 @@ Role required: admin and sn\_hs\_rm.permit\_coordinator
 
 5.  On the Variable set new record form, fill in the fields.
 
-    For a description of the field values, see [Variable set new record form](../reference/hs-variable-set-new-record-form.md).
+    For a description of the field values, see [Variable set new record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/hs-variable-set-new-record-form.md).
 
 6.  Select **Submit**.
 
@@ -39,7 +40,7 @@ Role required: admin and sn\_hs\_rm.permit\_coordinator
 
 7.  Open the new variable set and on the form fill in the fields.
 
-    For more information on the field description, see [Variable new record form](../reference/hs-variable-new-record.md).
+    For more information on the field description, see [Variable new record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/hs-variable-new-record.md).
 
 8.  Select **Submit**.
 
@@ -57,7 +58,7 @@ Role required: admin and sn\_hs\_rm.permit\_coordinator
 
     6.  On the form, fill in the fields.
 
-        For more information on the field description, see [Choice new record form](../reference/hs-choice-new-record-form.md).
+        For more information on the field description, see [Choice new record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/hs-choice-new-record-form.md).
 
     7.  Select **Submit**.
 
@@ -85,9 +86,9 @@ Role required: admin and sn\_hs\_rm.permit\_coordinator
 
     3.  Select **Duplicate action** for the existing **Create permit checklist record** action.
 
-        The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with the [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer-home-landing-page&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US) basics.
+        The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with the Flow Designer basics.
 
-        For information on how to create or modify flows, see [Create a flow](https://www.servicenow.com/docs/access?context=create-flow&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+        For information on how to create or modify flows, see Create a flow.
 
     4.  Select the new checklist type in the **Checklist type** field.
 
@@ -98,5 +99,5 @@ Role required: admin and sn\_hs\_rm.permit\_coordinator
 
 The checklist is configured and displayed in the checklist tab of the permit-to-work request form when the permit type is selected.
 
-**Parent Topic:**[Configure permit-to-work](../concept/hs-configure-permit-to-work.md)
+**Parent Topic:**[Configure permit-to-work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/hs-configure-permit-to-work.md)
 

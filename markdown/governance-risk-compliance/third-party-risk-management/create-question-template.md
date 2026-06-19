@@ -2,6 +2,7 @@
 title: Create a questionnaire or document request template using the Designer
 description: Use the Questionnaire Template Designer to create and edit questionnaire or document request templates that you can use as the basis for other templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/create-question-template.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -59,7 +60,7 @@ A set of related questions within a questionnaire template.**Note:** There can b
 1.  Navigate to one of the following locations:
 
     -   **All** &gt; **Third-party Risk Management** &gt; **Assessment setup** &gt; **Questionnaire Templates** or **Third-party Risk Management** &gt; **Assessment Setup** &gt; **Document Request Templates**.
-    -   **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Assessment setup** &gt; **Questionnaire Templates**.
+    -   **Workspaces** &gt; **Vendor Management Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Assessment setup** &gt; **Questionnaire Templates**.
 2.  Select **New \(Designer\)**.
 
     |Tab|Description|
@@ -70,7 +71,7 @@ A set of related questions within a questionnaire template.**Note:** There can b
 
 3.  Enter a name and then drag a control onto the designer canvas to create a question of that type.
 
-    **Note:** Selecting the scored option \(**Scored** check box\) is optional. All question responses unless otherwise stated are scored. The scored option changes the scoring behavior. If selected, the score is based on a binary system \(0 or 100\) reflecting whether the answer is correct or incorrect. If not selected, the score is calculated using a scale definition, involving the questionRating, questionPercentContribution, and questionNormalizedValue formulae, and the MaximumNormalizationInput field can influence the normalized value. For more information, see [Scoring calculations using the classic assessment engine](../concept/vendor-ratings-scoring.md) and [Normalize the scores for metrics](../../grc-vendor-risk-implementation/concept/set-max-norm-input.md).
+    **Note:** Selecting the scored option \(**Scored** check box\) is optional. All question responses unless otherwise stated are scored. The scored option changes the scoring behavior. If selected, the score is based on a binary system \(0 or 100\) reflecting whether the answer is correct or incorrect. If not selected, the score is calculated using a scale definition, involving the questionRating, questionPercentContribution, and questionNormalizedValue formulae, and the MaximumNormalizationInput field can influence the normalized value. For more information, see [Scoring calculations using the classic assessment engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/vendor-ratings-scoring.md) and [Normalize the scores for metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/set-max-norm-input.md).
 
     |Data type|Description|Scored|
     |---------|-----------|------|
@@ -92,7 +93,7 @@ A set of related questions within a questionnaire template.**Note:** There can b
 
 4.  Select the form context menu to select one of the following options.
 
-<table id="choicetable_mvf_45v_lz"><tbody><tr><td id="d87802e528">
+<table id="choicetable_mvf_45v_lz"><tbody><tr><td id="d90882e528">
 
 **Save**
 
@@ -100,7 +101,7 @@ A set of related questions within a questionnaire template.**Note:** There can b
 
 Save the current questionnaire or document request.
 
-</td></tr><tr><td id="d87802e537">
+</td></tr><tr><td id="d90882e537">
 
 **Preview**
 
@@ -108,7 +109,7 @@ Save the current questionnaire or document request.
 
 Display a preview of the questionnaire or document request with its current settings.
 
-</td></tr><tr><td id="d87802e546">
+</td></tr><tr><td id="d90882e546">
 
 **New Assessment**
 
@@ -116,7 +117,7 @@ Display a preview of the questionnaire or document request with its current sett
 
 Open a fresh canvas for a new questionnaire or document request.
 
-</td></tr><tr><td id="d87802e555">
+</td></tr><tr><td id="d90882e555">
 
 **Load Assessment**
 
@@ -124,7 +125,7 @@ Open a fresh canvas for a new questionnaire or document request.
 
 Open the list of existing questionnaires or document requests that are available for use.
 
-</td></tr><tr><td id="d87802e564">
+</td></tr><tr><td id="d90882e564">
 
 **Copy Assessment**
 

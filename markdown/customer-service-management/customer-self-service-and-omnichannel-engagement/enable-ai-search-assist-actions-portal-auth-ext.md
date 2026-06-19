@@ -2,6 +2,7 @@
 title: Configure AI Search Assist Actions for authenticated external users
 description: Enable the AI Search Assist Actions to search knowledge articles in the Customer and Consumer Service Portals. It applies for authenticated external users with the snc\_external role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/enable-ai-search-assist-actions-portal-auth-ext.html
 release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -17,11 +18,11 @@ Enable the AI Search Assist Actions to search knowledge articles in the Customer
 
 ## Before you begin
 
-[Activate Customer Service Management](t_ActivateCustomerService.md)
+[Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_ActivateCustomerService.md)
 
-You must configure AI Search for the Customer and Consumer Service Portals. For more information, see [Enable and configure AI Search in Service Portal](https://www.servicenow.com/docs/access?context=enable-ais-sp&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+You must configure AI Search for the Customer and Consumer Service Portals. For more information, see Enable and configure AI Search in Service Portal.
 
-You must enable the Typeahead Search and AI Search Assist for the authenticated external users to use the AI search feature. For more information on the widgets, see [Typeahead Search widget](https://www.servicenow.com/docs/access?context=typeahead-search-widget&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) and [AI Search Assist widget](https://www.servicenow.com/docs/access?context=ais-assist-widget&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+You must enable the Typeahead Search and AI Search Assist for the authenticated external users to use the AI search feature. For more information on the widgets, see Typeahead Search widget and AI Search Assist widget.
 
 Role required: admin
 
@@ -54,5 +55,5 @@ Role required: admin
 7.  Select **Update**.
 
 
-**Parent Topic:**[AI Search Assist for authenticated external users](../concept/enable-ai-search-for-portal-auth-external.md)
+**Parent Topic:**[AI Search Assist for authenticated external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/enable-ai-search-for-portal-auth-external.md)
 

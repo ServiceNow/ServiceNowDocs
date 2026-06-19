@@ -2,6 +2,7 @@
 title: Disable public access to favorites \[Updated in Security Center 1.3 and 2.0\]
 description: Use the glide.ui.magellan.favorites.allow\_public to specify whether unauthenticated users are allowed to see Favorites in the navigator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/public-access-favorites.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -30,7 +31,7 @@ Public Access to Favorites is compliant when **glide.ui.magellan.favorites.allow
 |Security Dependencies|Set **glide.ui.magellan.favorites.allow\_public** to **false**.|
 |Functional impact|\(Medium\) Enabling this property acts as a layer of protection from unauthorized users.|
 |Security risk|\(Medium\) If this property isn’t enabled, there’s a risk of unauthorized access to sensitive data.|
-|References|[Configure favorites option](https://www.servicenow.com/docs/access?context=web-configure-favorites-admin&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US)|
+|References||
 
-**Parent Topic:**[Access control](../../security-center/reference/sc-access-control.md)
+**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

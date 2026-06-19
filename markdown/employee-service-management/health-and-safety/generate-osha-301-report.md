@@ -2,11 +2,12 @@
 title: Generate an OSHA 301 form
 description: Generate an OSHA 301 form for an injury or illness associated with a safety incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety/generate-osha-301-report.html
 release: zurich
 product: Health and Safety
 classification: health-and-safety
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Health and Safety Incident Management OSHA Content Pack, Health and Safety injury and illness reports, Health and Safety, Employee Service Management]
 ---
@@ -30,19 +31,19 @@ Role required: sn\_ohs\_im.compliance\_manager
 
     The Health and Safety Workspace opens in a new tab of the browser window.
 
-2.  Select the incident management icon \(![Incident Management icon.](../image/list-icon-hs.png)\) and navigate to the **Lists** tab.
+2.  Select the incident management icon \(\[Omitted image "list-icon-hs.png"\] Alt text: Incident Management icon.\) and navigate to the **Lists** tab.
 
 3.  Open the injury an illness report from a safety incident or from the injury and illness list.
 
-<table id="choicetable_smc_dfc_3bc"><thead><tr><th align="left" id="d688394e110">
+<table id="choicetable_smc_dfc_3bc"><thead><tr><th align="left" id="d172155e110">
 
 Option
 
-</th><th align="left" id="d688394e113">
+</th><th align="left" id="d172155e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d688394e119">
+</th></tr></thead><tbody><tr><td id="d172155e119">
 
 **From a safety incident**
 
@@ -54,7 +55,7 @@ Steps
 4.  In the **Add injury and illness** activity, select the injury and illness report to generate the OSHA 301 form for.
 
 
-</td></tr><tr><td id="d688394e155">
+</td></tr><tr><td id="d172155e155">
 
 **From an injury and illness list**
 
@@ -69,7 +70,7 @@ Steps
 </td></tr></tbody>
 </table>4.  Review the injury and illness report and select the **Recordable** option.
 
-    For more information, see [Injury and illness fields](../reference/hs-injury-illness-form.md).
+    For more information, see [Injury and illness fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-incident-management/hs-injury-illness-form.md).
 
 5.  Select **Generate OSHA 301 form**.
 
@@ -83,5 +84,5 @@ Steps
 -   The OSHA 301 form is generated using the saved template for OSHA 301 form and is available in the **Attachments** section of the incident.
 -   The OSHA 301 template is automatically filled with the information available in the injury and illness report.
 
-**Parent Topic:**[Health and Safety Incident Management OSHA Content Pack](../concept/generating-osha-forms.md)
+**Parent Topic:**[Health and Safety Incident Management OSHA Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/generating-osha-forms.md)
 

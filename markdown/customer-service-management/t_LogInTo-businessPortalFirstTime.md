@@ -2,7 +2,10 @@
 title: Log in to the Business Portal for the first time
 description: Use your user ID and temporary password to login to the business portal for the first time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_LogInTo-businessPortalFirstTime.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

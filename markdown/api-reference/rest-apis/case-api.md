@@ -2,6 +2,7 @@
 title: Case API
 description: The Case API provides endpoints that enable you to retrieve and update Customer Service Management \(CSM\) case records.Retrieves the activity stream for a specified Customer Service Management \(CSM\) case.Retrieves the list of possible field values for a choice or reference field in the Case \[sn\_customerservice\_case\] table.Retrieves the list of possible field values for a choice or reference field for a specified record in the Case \[sn\_customerservice\_case\] table.Retrieves the specified Customer Service Management \(CSM\) case.Retrieves a specified set of Customer Service Management \(CSM\) cases.Creates a new Customer Service Management \(CSM\) case.Updates the specified existing Customer Service Management \(CSM\) case with the passed-in parameters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-apis/case-api.html
 release: zurich
 product: REST APIs
 classification: rest-apis
@@ -21,7 +22,7 @@ The Case API requires the Customer Service plugin \(com.sn\_customerservice\) an
 
 Users must have the csm\_ws\_integration role for full API access. External users with the sn\_customerservice.customer or sn\_customerservice.consumer roles can also access the endpoints.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/api-rest.md)
 
 ## Case - GET /sn\_customerservice/case/\{id\}/activities
 
@@ -39,7 +40,7 @@ Versioned URL: `/api/sn_customerservice/{api_version}/case/{id}/activities`
 
 Default URL: `/api/sn_customerservice/case/{id}/activities`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -122,7 +123,7 @@ Default: 0
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -176,7 +177,7 @@ Response header showing the total number of records matching the request when th
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -720,11 +721,11 @@ To use this endpoint, users must have the csm\_ws\_integration, sn\_customerserv
 
 Use this endpoint to populate field value lists in case creation forms.
 
-When you request values for a reference field, any reference qualifiers defined for the requested field in the Dictionary Entry \[sys\_dictionary\] table are applied. For more information on reference qualifiers, see [Reference qualifiers](https://www.servicenow.com/docs/access?context=c_ReferenceQualifiers&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+When you request values for a reference field, any reference qualifiers defined for the requested field in the Dictionary Entry \[sys\_dictionary\] table are applied. For more information on reference qualifiers, see Reference qualifiers.
 
 You can use the **sysparm\_ref\_qual\_input** query parameter to specify field values to use when evaluating JavaScript reference qualifiers. For an example, see the query parameter listing below.
 
-When you request values for a choice field that is dependent on another field, you can use the **sysparm\_dependent\_value** query parameter to specify a value for the dependency parent field and restrict the returned field values accordingly. For more details on dependent fields, see [Make a field dependent](https://www.servicenow.com/docs/access?context=t_MakingAFieldDependent&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+When you request values for a choice field that is dependent on another field, you can use the **sysparm\_dependent\_value** query parameter to specify a value for the dependency parent field and restrict the returned field values accordingly. For more details on dependent fields, see Make a field dependent.
 
 **Note:** You can reference all sysparm query parameters using either their full name or their shortened name \(without the **sysparm\_** prefix\). For example, for **sysparm\_limit** you can also use **limit**.
 
@@ -734,7 +735,7 @@ Versioned URL: `/api/sn_customerservice/{api_version}/case/field_values/{field_n
 
 Default URL: `/api/sn_customerservice/case/field_values/{field_name}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -852,7 +853,7 @@ Syntax: `{field1}={value1}^{field2}={value2}[…]`
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -898,7 +899,7 @@ REST response data can be split into multiple result sets. Where applicable, the
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1003,11 +1004,11 @@ To use this endpoint, users must have the csm\_ws\_integration, sn\_customerserv
 
 Use this endpoint to populate field value lists in case update forms.
 
-When you request values for a reference field, any reference qualifiers defined for the requested field in the Dictionary Entry \[sys\_dictionary\] table are applied, using values from the specified case record. For more information on reference qualifiers, see [Reference qualifiers](https://www.servicenow.com/docs/access?context=c_ReferenceQualifiers&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+When you request values for a reference field, any reference qualifiers defined for the requested field in the Dictionary Entry \[sys\_dictionary\] table are applied, using values from the specified case record. For more information on reference qualifiers, see Reference qualifiers.
 
 You can use the **sysparm\_ref\_qual\_input** query parameter to override values from the specified case when evaluating JavaScript reference qualifiers. For an example, see the query parameter listing below.
 
-When you request values for a choice field that is dependent on another field, this endpoint limits returned field values based on the dependency parent field value selected in the specified case record. For more details on dependent fields, see [Make a field dependent](https://www.servicenow.com/docs/access?context=t_MakingAFieldDependent&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+When you request values for a choice field that is dependent on another field, this endpoint limits returned field values based on the dependency parent field value selected in the specified case record. For more details on dependent fields, see Make a field dependent.
 
 You can use the **sysparm\_dependent\_value** query parameter to override the selection from the dependency parent field. For an example, see the query parameter listing below.
 
@@ -1019,7 +1020,7 @@ Versioned URL: `/api/sn_customerservice/{api_version}/case/{id}/field_values/{fi
 
 Default URL: `/api/sn_customerservice/case/{id}/field_values/{field_name}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -1147,7 +1148,7 @@ Syntax: `{field1}={value1}^{field2}={value2}[…]`
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1193,7 +1194,7 @@ REST response data can be split into multiple result sets. Where applicable, the
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1284,7 +1285,7 @@ Versioned URL: `/api/sn_customerservice/{api_version}/case/{id}`
 
 Default URL: `/api/sn_customerservice/case/{id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -1355,7 +1356,7 @@ Default: false
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1380,7 +1381,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -5887,7 +5888,7 @@ Versioned URL: `/api/sn_customerservice/{api_version}/case`
 
 Default URL: `/api/sn_customerservice/case`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -6003,7 +6004,7 @@ Whether or not to retrieve fields from reference tables such as account, contact
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -6057,7 +6058,7 @@ Response header showing the total number of records matching the request when th
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -10909,7 +10910,7 @@ Versioned URL: `/api/sn_customerservice/{api_version}/case`
 
 Default URL: `/api/sn_customerservice/case`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -11923,7 +11924,7 @@ Date and time that work started on the case.Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -11936,7 +11937,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -12063,7 +12064,7 @@ Updates the specified existing Customer Service Management \(CSM\) case with the
 
 **Warning:** This endpoint does not perform parameter validation as doing so can create excessive overhead. If a request parameter is misspelled, is not valid for the type of case, or is not supported by the endpoint, it is either ignored without warning or can cause unexpected results. For example, if you create a consumer or contact for the wrong type of case or mismatch a contact with an account.
 
-**Warning:** By default, external users who have the sn\_customerservice.customer or sn\_customerservice.consumer role can only set the comments and state fields using this endpoint. Admins can enable external users to set additional fields by specifying the field names in the UPDATE\_ALLOWED\_FIELDS array defined in the CaseRESTAPIValidatorForExternalUser script include. Exercise caution when adding new fields to this array, as there may not be existing validators for input into those fields. For more information on script includes, see [Script includes](../../../script/server-scripting/concept/c_ScriptIncludes.md#).
+**Warning:** By default, external users who have the sn\_customerservice.customer or sn\_customerservice.consumer role can only set the comments and state fields using this endpoint. Admins can enable external users to set additional fields by specifying the field names in the UPDATE\_ALLOWED\_FIELDS array defined in the CaseRESTAPIValidatorForExternalUser script include. Exercise caution when adding new fields to this array, as there may not be existing validators for input into those fields. For more information on script includes, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_ScriptIncludes.md).
 
 **Note:** You can reference all sysparm query parameters using either their full name or their shortened name \(without the **sysparm\_** prefix\). For example, for **sysparm\_limit** you can also use **limit**.
 
@@ -12073,7 +12074,7 @@ Versioned URL: `/api/sn_customerservice/{api_version}/case/{id}`
 
 Default URL: `/api/sn_customerservice/case/{id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -13150,7 +13151,7 @@ Date and time that work started on the case.Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -13163,7 +13164,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -13787,7 +13788,7 @@ Maximum length: 40
 
 active
 
-</td><td id="d4302e83">
+</td><td id="d4504e83">
 
 Flag that indicates whether the case is open and active.Possible values:
 
@@ -13802,7 +13803,7 @@ Default: true
 
 active\_account\_escalation
 
-</td><td id="d4302e106">
+</td><td id="d4504e106">
 
 Sys\_id of the active account escalation record associated with the case.Data type: String
 
@@ -13812,7 +13813,7 @@ Table: Escalation \[sn\_customerservice\_escalation\]
 
 active\_escalation
 
-</td><td id="d4302e119">
+</td><td id="d4504e119">
 
 Sys\_id of the active escalation record associated with the case.Data type: String
 
@@ -13822,7 +13823,7 @@ Table: Escalation \[sn\_customerservice\_escalation\]
 
 activity\_due
 
-</td><td id="d4302e132">
+</td><td id="d4504e132">
 
 Date for which the associated case is expected to be completed.Data type: String
 
@@ -13830,7 +13831,7 @@ Date for which the associated case is expected to be completed.Data type: String
 
 additional\_assignee\_list
 
-</td><td id="d4302e144">
+</td><td id="d4504e144">
 
 List of the sys\_ids of the additional persons \(other than the primary assignee\) that have been assigned to the account.Data type: Array
 
@@ -13842,7 +13843,7 @@ Table: User \[sys\_user\]
 
 approval
 
-</td><td id="d4302e159">
+</td><td id="d4504e159">
 
 String that describes the type of approval required.Possible values:
 
@@ -13892,7 +13893,7 @@ Table: Asset \[alm\_asset\]
 
 assigned\_to
 
-</td><td id="d4302e254">
+</td><td id="d4504e254">
 
 Sys\_id of the person assigned to the case.
 
@@ -13904,7 +13905,7 @@ Table: User \[sys\_user\]
 
 assignment\_group
 
-</td><td id="d4302e271">
+</td><td id="d4504e271">
 
 Sys\_id of the customer service agent group assigned to the case.Data type: String
 
@@ -13914,7 +13915,7 @@ Table: Group \[sys\_user\_group\]
 
 business\_duration
 
-</td><td id="d4302e307">
+</td><td id="d4504e307">
 
 Length in calendar work hours, work days, and work weeks that it took to complete the case.Data type: String
 
@@ -13922,7 +13923,7 @@ Length in calendar work hours, work days, and work weeks that it took to complet
 
 business\_impact
 
-</td><td id="d4302e318">
+</td><td id="d4504e318">
 
 Impact of the issue on the associated customer.Data type: String
 
@@ -13932,7 +13933,7 @@ Maximum characters: 4,000
 
 business\_service
 
-</td><td id="d4302e331">
+</td><td id="d4504e331">
 
 Sys\_id of the service record associated with the case.Data type: String
 
@@ -13962,7 +13963,7 @@ Table: Case Report \[sn\_customerservice\_case\_report\]
 
 category
 
-</td><td id="d4302e384">
+</td><td id="d4504e384">
 
 Case category.Possible values:
 
@@ -13978,7 +13979,7 @@ Default: 1
 
 cause
 
-</td><td id="d4302e410">
+</td><td id="d4504e410">
 
 Details about the cause of the problem.Data type: String
 
@@ -13988,7 +13989,7 @@ Maximum length: 4,000
 
 caused\_by
 
-</td><td id="d4302e423">
+</td><td id="d4504e423">
 
 Sys\_id of the change request that caused the case to be created.Data type: String
 
@@ -13998,7 +13999,7 @@ Table: Change Request \[change\_request\]
 
 change
 
-</td><td id="d4302e437">
+</td><td id="d4504e437">
 
 Sys\_id of the change request that caused the case to be created.Data type: String
 
@@ -14008,7 +14009,7 @@ Table: Change Request \[change\_request\]
 
 child\_case\_creation\_progress
 
-</td><td id="d4302e450">
+</td><td id="d4504e450">
 
 Flag that indicates whether the case is a child case that was created from a major case.Possible values:
 
@@ -14021,7 +14022,7 @@ Data type: Boolean
 
 closed\_at
 
-</td><td id="d4302e471">
+</td><td id="d4504e471">
 
 Date and time that the case was closed.Data type: String
 
@@ -14029,7 +14030,7 @@ Date and time that the case was closed.Data type: String
 
 closed\_by
 
-</td><td id="d4302e482">
+</td><td id="d4504e482">
 
 Sys\_id of the user that closed the case.Data type: String
 
@@ -14039,7 +14040,7 @@ Table: User \[sys\_user\]
 
 close\_notes
 
-</td><td id="d4302e495">
+</td><td id="d4504e495">
 
 Notes made when the case was closed.Data type: String
 
@@ -14049,7 +14050,7 @@ Maximum length: 4,000
 
 cmdb\_ci
 
-</td><td id="d4302e508">
+</td><td id="d4504e508">
 
 Sys\_id of the configuration item associated with the case.Data type: String
 
@@ -14059,7 +14060,7 @@ Table: Configuration Item \[cmdb\_ci\]
 
 comments
 
-</td><td id="d4302e522">
+</td><td id="d4504e522">
 
 Additional comments about the case.Data type: String
 
@@ -14079,7 +14080,7 @@ Maximum length: 4,000
 
 company
 
-</td><td id="d4302e548">
+</td><td id="d4504e548">
 
 Sys\_id of the company associated with the case.Data type: String
 
@@ -14089,7 +14090,7 @@ Table: Company \[core\_company\]
 
 consumer
 
-</td><td id="d4302e561">
+</td><td id="d4504e561">
 
 Business-to-consumer cases only. Sys\_id of the person to contact with regard to this case.Data type: String
 
@@ -14499,7 +14500,7 @@ Maximum length: 40
 
 contact
 
-</td><td id="d4302e574">
+</td><td id="d4504e574">
 
 Business-to-business based cases only. Sys\_id of the person to contact regarding this case.Data type: String
 
@@ -15231,7 +15232,7 @@ Maximum length: 70
 
 contact\_time\_zone
 
-</td><td id="d4302e601">
+</td><td id="d4504e601">
 
 Time zone of the contact associated with the case.Data type: String
 
@@ -15241,7 +15242,7 @@ Maximum length: 40
 
 contact\_type
 
-</td><td id="d4302e614">
+</td><td id="d4504e614">
 
 Method in which the case was initially reported.Possible values:
 
@@ -15259,7 +15260,7 @@ Maximum length: 40
 
 contract
 
-</td><td id="d4302e646">
+</td><td id="d4504e646">
 
 Sys\_id of the contract associated with the case. This contract contains information about the type of support that is provided to the company associated to the case. A contract can include a company and contact and the specific assets that are covered. A contract can also include multiple service entitlements and SLAs.Data type: String
 
@@ -15269,7 +15270,7 @@ Table: Contract \[ast\_contract\]
 
 correlation\_display
 
-</td><td id="d4302e685">
+</td><td id="d4504e685">
 
 Correlation display.Data type: String
 
@@ -15279,7 +15280,7 @@ Maximum length: 100
 
 correlation\_id
 
-</td><td id="d4302e699">
+</td><td id="d4504e699">
 
 Correlation identifier.Data type: String
 
@@ -15289,7 +15290,7 @@ Maximum length: 100
 
 delivery\_plan
 
-</td><td id="d4302e712">
+</td><td id="d4504e712">
 
 Sys\_id of the parent execution plan for this case.Data type: String
 
@@ -15299,7 +15300,7 @@ Table: Execution Plan \[sc\_cat\_item\_delivery\_plan\]
 
 delivery\_task
 
-</td><td id="d4302e725">
+</td><td id="d4504e725">
 
 Sys\_id of the execution plan task.Data type: String
 
@@ -15309,7 +15310,7 @@ Table: Execution Plan Task \[sc\_cat\_item\_delivery\_task\]
 
 description
 
-</td><td id="d4302e738">
+</td><td id="d4504e738">
 
 Detailed description of the problem associated with the case. Data type: String
 
@@ -15319,7 +15320,7 @@ Maximum length: 4,000
 
 due\_date
 
-</td><td id="d4302e753">
+</td><td id="d4504e753">
 
 Date that the case is due to be closed.Data type: String
 
@@ -15327,7 +15328,7 @@ Date that the case is due to be closed.Data type: String
 
 entitlement
 
-</td><td id="d4302e764">
+</td><td id="d4504e764">
 
 Sys\_id of the entitlement record associated with the case. Entitlements define the type of support that a customer receives as well as the supported communication channels. An entitlement can be associated with a product, an asset, an account, or a contract.Data type: String
 
@@ -15337,7 +15338,7 @@ Table: Entitlement \[service\_entitlement\]
 
 escalation
 
-</td><td id="d4302e778">
+</td><td id="d4504e778">
 
 Current escalation level.Possible values:
 
@@ -15354,7 +15355,7 @@ Default: 0
 
 expected\_start
 
-</td><td id="d4302e807">
+</td><td id="d4504e807">
 
 Date and time when work is scheduled to begin on the case.Data type: String
 
@@ -15362,7 +15363,7 @@ Date and time when work is scheduled to begin on the case.Data type: String
 
 first\_response\_time
 
-</td><td id="d4302e818">
+</td><td id="d4504e818">
 
 Date and time when the first action was taken on the case.Data type: String
 
@@ -15370,7 +15371,7 @@ Date and time when the first action was taken on the case.Data type: String
 
 follow\_the\_sun
 
-</td><td id="d4302e829">
+</td><td id="d4504e829">
 
 Flag that indicates whether the case should be handed-off for global follow-up.If a customer enters additional comments on a Priority 1 - Critical or a Priority 2 - High case, or if the case is escalated, the flag is automatically set to true.
 
@@ -15395,7 +15396,7 @@ Date and time of the next follow-up action.Data type: String
 
 group\_list
 
-</td><td id="d4302e865">
+</td><td id="d4504e865">
 
 List of sys\_ids of the group records associated with the case.Data type: Array
 
@@ -15405,7 +15406,7 @@ Table: Group \[sys\_user\_group\]
 
 impact
 
-</td><td id="d4302e879">
+</td><td id="d4504e879">
 
 Impact on customer.Possible values:
 
@@ -15421,7 +15422,7 @@ Default: 3
 
 knowledge
 
-</td><td id="d4302e941">
+</td><td id="d4504e941">
 
 Flag that indicates if there is a knowledge base article available for the specified issue.Possible values:
 
@@ -15436,7 +15437,7 @@ Default: false
 
 location
 
-</td><td id="d4302e964">
+</td><td id="d4504e964">
 
 Sys\_id of the record describing the company location.Data type: String
 
@@ -15446,7 +15447,7 @@ Table: Location \[cmn\_location\]
 
 made\_sla
 
-</td><td id="d4302e977">
+</td><td id="d4504e977">
 
 Flag that indicates whether the case was resolved in alignment with the associated service level agreement.Possible values:
 
@@ -15461,7 +15462,7 @@ Default: true
 
 major\_case\_state
 
-</td><td id="d4302e1001">
+</td><td id="d4504e1001">
 
 Current state of the major case.Possible values:
 
@@ -15493,7 +15494,7 @@ Default: false
 
 notes\_to\_comments
 
-</td><td id="d4302e1053">
+</td><td id="d4504e1053">
 
 Flag that indicates whether to add the resolution notes to the comments.Possible values:
 
@@ -15506,7 +15507,7 @@ Data type: Boolean
 
 notify
 
-</td><td id="d4302e1074">
+</td><td id="d4504e1074">
 
 Method to use to notify contact/consumer.Possible values:
 
@@ -15522,7 +15523,7 @@ Default: 1
 
 number
 
-</td><td id="d4302e1100">
+</td><td id="d4504e1100">
 
 Case number.Data type: String
 
@@ -15532,7 +15533,7 @@ Maximum length: 40
 
 opened\_at
 
-</td><td id="d4302e1113">
+</td><td id="d4504e1113">
 
 Date and time that the case was opened.Data type: String
 
@@ -15540,7 +15541,7 @@ Date and time that the case was opened.Data type: String
 
 opened\_by
 
-</td><td id="d4302e1125">
+</td><td id="d4504e1125">
 
 Sys\_id of the person that initially opened the case.Data type: String
 
@@ -15550,7 +15551,7 @@ Table: User \[sys\_user\]
 
 order
 
-</td><td id="d4302e1138">
+</td><td id="d4504e1138">
 
 Order of the case.Data type: Number \(Integer\)
 
@@ -15558,7 +15559,7 @@ Order of the case.Data type: Number \(Integer\)
 
 parent
 
-</td><td id="d4302e1149">
+</td><td id="d4504e1149">
 
 Sys\_id of the parent case to which this case \(child\) is associated.Data type: String
 
@@ -15568,7 +15569,7 @@ Table: Task \[task\]
 
 partner
 
-</td><td id="d4302e1162">
+</td><td id="d4504e1162">
 
 Sys\_id of the partner associated with the case.Data type: String
 
@@ -15578,7 +15579,7 @@ Table: Account \[customer\_account\]
 
 partner\_contact
 
-</td><td id="d4302e1175">
+</td><td id="d4504e1175">
 
 Sys\_id of the partner contact associated with the case.Data type: String
 
@@ -15588,7 +15589,7 @@ Table: Contact \[customer\_contact\]
 
 priority
 
-</td><td id="d4302e1188">
+</td><td id="d4504e1188">
 
 Priority of the case. Possible values:
 
@@ -15605,7 +15606,7 @@ Default: 4
 
 probable\_cause
 
-</td><td id="d4302e1243">
+</td><td id="d4504e1243">
 
 Possible cause of the issue associated with the case.Data type: String
 
@@ -15615,7 +15616,7 @@ Maximum length: 4,000
 
 problem
 
-</td><td id="d4302e1256">
+</td><td id="d4504e1256">
 
 Sys\_id of the issue that the customer is encountering.Data type: String
 
@@ -15625,7 +15626,7 @@ Table: Problem \[problem\]
 
 product
 
-</td><td id="d4302e1269">
+</td><td id="d4504e1269">
 
 Sys\_id of the product model of the asset associated to the case. A model is a specific version or configuration of an asset \(for example, Apple Mac Book Pro\).Data type: String
 
@@ -15635,7 +15636,7 @@ Table: Product Model \[cmdb\_model\]
 
 reassignment\_count
 
-</td><td id="d4302e1282">
+</td><td id="d4504e1282">
 
 Number of times that the case was reassigned to a person that is responsible for moving the case forward.Data type: Number \(Integer\)
 
@@ -15645,7 +15646,7 @@ Default: 0
 
 recipient\_list
 
-</td><td id="d4302e1295">
+</td><td id="d4504e1295">
 
 Sys\_id of the record that contains the list of recipients for communications about this case.Data type: String
 
@@ -15655,7 +15656,7 @@ Table: Recipients List \[sn\_publications\_recipients\_list\]
 
 rejection\_goto
 
-</td><td id="d4302e1309">
+</td><td id="d4504e1309">
 
 Sys\_id of the task to execute if the case is rejected.Data type: String
 
@@ -15665,7 +15666,7 @@ Table: Task \[task\]
 
 resolution\_code
 
-</td><td id="d4302e1322">
+</td><td id="d4504e1322">
 
 Resolution state for the case, such as "Solved - Fixed by Support/Guidance provided". Data type: String
 
@@ -15675,7 +15676,7 @@ Maximum length: 40
 
 resolved\_at
 
-</td><td id="d4302e1335">
+</td><td id="d4504e1335">
 
 Date and time that the case was resolved.Data type: String
 
@@ -15683,7 +15684,7 @@ Date and time that the case was resolved.Data type: String
 
 resolved\_by
 
-</td><td id="d4302e1346">
+</td><td id="d4504e1346">
 
 Sys\_id of the person that resolved the case.Data type: String
 
@@ -15726,7 +15727,7 @@ Field value.Data type: String
 
 short\_description
 
-</td><td id="d4302e1378">
+</td><td id="d4504e1378">
 
 Concise description of the case. Data type: String
 
@@ -15736,7 +15737,7 @@ Maximum length: 160
 
 skills
 
-</td><td id="d4302e1393">
+</td><td id="d4504e1393">
 
 List of the unique identifiers \(sys\_id\) of the skills needed to complete the case.Data type: String
 
@@ -15746,7 +15747,7 @@ Table: Skill \[cmn\_skill\]
 
 sla\_due
 
-</td><td id="d4302e1406">
+</td><td id="d4504e1406">
 
 Date/time at which the case must be closed based on the associated service level agreement.Data type: String
 
@@ -17226,7 +17227,7 @@ User that initially created the social media profile.Data type: String
 
 state
 
-</td><td id="d4302e1457">
+</td><td id="d4504e1457">
 
 Current state of the case.Possible values:
 
@@ -17244,7 +17245,7 @@ Default: 1
 
 subcategory
 
-</td><td id="d4302e1489">
+</td><td id="d4504e1489">
 
 Case subcategory.Possible values:
 
@@ -17256,7 +17257,7 @@ Default: 0
 
 support\_manager
 
-</td><td id="d4302e1505">
+</td><td id="d4504e1505">
 
 Sys\_id of the CSM manager assigned to the case.Data type: String
 
@@ -17266,7 +17267,7 @@ Table: User \[sys\_user\]
 
 sync\_driver
 
-</td><td id="d4302e1518">
+</td><td id="d4504e1518">
 
 Flag that indicates whether there's driver synchronization.Possible values:
 
@@ -17319,7 +17320,7 @@ Default: global
 
 sys\_domain\_path
 
-</td><td id="d4302e1592">
+</td><td id="d4504e1592">
 
 Domain path.Data type: String
 
@@ -17375,7 +17376,7 @@ Date and time when the case was last updated.Data type: String
 
 time\_worked
 
-</td><td id="d4302e1661">
+</td><td id="d4504e1661">
 
 Total amount of time worked on the case.Data type: String
 
@@ -17383,7 +17384,7 @@ Total amount of time worked on the case.Data type: String
 
 upon\_approval
 
-</td><td id="d4302e1677">
+</td><td id="d4504e1677">
 
 Action to take if the case is approved.Possible values:
 
@@ -17400,7 +17401,7 @@ Default: proceed
 
 upon\_reject
 
-</td><td id="d4302e1702">
+</td><td id="d4504e1702">
 
 Action to take if the case is rejected.Possible values:
 
@@ -17417,7 +17418,7 @@ Default: cancel
 
 urgency
 
-</td><td id="d4302e1728">
+</td><td id="d4504e1728">
 
 Urgency of the case.Possible values:
 
@@ -17433,7 +17434,7 @@ Default: 3
 
 user\_input
 
-</td><td id="d4302e1754">
+</td><td id="d4504e1754">
 
 Additional user input.Data type: String
 
@@ -17451,7 +17452,7 @@ Grouping of variables.
 
 variables
 
-</td><td id="d4302e1767">
+</td><td id="d4504e1767">
 
 Name-value pairs of variables associated with the case.Data type: String
 
@@ -17461,7 +17462,7 @@ Maximum length: 40
 
 watch\_list
 
-</td><td id="d4302e1780">
+</td><td id="d4504e1780">
 
 List of sys\_ids of the users who receive notifications about this case when additional comments are added or if the state of a case is changed to Resolved or Closed.Data type: Array
 
@@ -17471,7 +17472,7 @@ Table: User \[sys\_user\]
 
 wf\_activity
 
-</td><td id="d4302e1793">
+</td><td id="d4504e1793">
 
 Sys\_id of the workflow activity record associated with the case.Data type: String
 
@@ -17481,7 +17482,7 @@ Table: Workflow Activity \[wf\_activity\]
 
 work\_end
 
-</td><td id="d4302e1806">
+</td><td id="d4504e1806">
 
 Date and time work ended on the case.Data type: String
 
@@ -17499,7 +17500,7 @@ Maximum length: 4,000
 
 work\_notes\_list
 
-</td><td id="d4302e1831">
+</td><td id="d4504e1831">
 
 List of sys\_ids of the internal users who receive notifications about this case when work notes are added.Data type: Array
 
@@ -17509,7 +17510,7 @@ Table: User \[sys\_user\]
 
 work\_start
 
-</td><td id="d4302e1844">
+</td><td id="d4504e1844">
 
 Date and time that work started on the case.Data type: String
 

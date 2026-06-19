@@ -2,6 +2,7 @@
 title: Create Task Recommendation Policies
 description: Create policies to recommend the best available work order tasks for agents based on the specified rules and conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/create-task-recommendation-policies.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -58,5 +59,5 @@ The recommendation policy is created successfully. The policy has the Filtering 
 
 ## What to do next
 
-You can customize optional filter constraints and ranking criteria. For more information, see [Create a filter constraint or a ranking criteria for a task recommendation policy](create-filtering-constraint.md).
+You can customize optional filter constraints and ranking criteria. For more information, see [Create a filter constraint or a ranking criteria for a task recommendation policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/create-filtering-constraint.md).
 

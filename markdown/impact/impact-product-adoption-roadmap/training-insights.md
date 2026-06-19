@@ -2,6 +2,7 @@
 title: Training Insights
 description: Impact Training Insights provide a comprehensive view of organizational learning activities, with real-time data available whenever and wherever it's needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/impact-product-adoption-roadmap/training-insights.html
 release: zurich
 product: Impact Product Adoption Roadmap
 classification: impact-product-adoption-roadmap
@@ -22,14 +23,14 @@ The Impact Learning Dashboard demonstrates the usage and consumption of resource
     -   Active and credits available
     -   Allocated and future credits
     -   Expiring credits
-    ![Shows the credit training balances for active, expiring and future.](../image/training-dashboard.png)
+    \[Omitted image "training-dashboard.png"\] Alt text: Shows the credit training balances for active, expiring and future.
 
--   On-demand course consumption ![Shows the Training History chart of on demand vs instructor-led courses.](../image/training-history.png)
+-   On-demand course consumption \[Omitted image "training-history.png"\] Alt text: Shows the Training History chart of on demand vs instructor-led courses.
 -   Number of certifications available and status of taken certifications:
 
     -   Level of expertise required to achieve a certification type
     -   Statuses included current, at risk for expiration, and expired certifications
-    ![Shows the training vouchers and certifications issued vs. redeemed and the types of certifications obtained and expiration dates.](../image/vouchers-certs.png)
+    \[Omitted image "vouchers-certs.png"\] Alt text: Shows the training vouchers and certifications issued vs. redeemed and the types of certifications obtained and expiration dates.
 
 -   Customer self-service model for the consumption of learning credits
 -   Better understand your entitlements charted in Impact

@@ -2,6 +2,7 @@
 title: Translate a Universal Request field
 description: Use dynamic translation to translate Universal Request fields to another language.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-use-dynamic-translation.html
 release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -29,14 +30,14 @@ As of now, you can only translate the short description, description and work no
 
 2.  Select the language.
 
-    **Note:** Only the languages that have been configured will be displayed. To activate a language, see [Activate a Language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+    **Note:** Only the languages that have been configured will be displayed. To activate a language, see Activate a Language
 
 3.  Navigate to **Universal Requests** &gt; **All**.
 
 4.  Open the request to be worked on.
 
-    A translate icon ![Dynamic translation icon](../images/icon-translation.png) appears next to the fields. The logged-in user can click on ![Dynamic translation icon](../images/icon-translation.png) to translate the text to their preferred language as configured. ![Dynamic translation in action](../images/ur-dynamic-translation.gif)
+    A translate icon \[Omitted image "icon-translation.png"\] Alt text: Dynamic translation icon appears next to the fields. The logged-in user can click on \[Omitted image "icon-translation.png"\] Alt text: Dynamic translation icon to translate the text to their preferred language as configured. \[Omitted image "ur-dynamic-translation.gif"\] Alt text: Dynamic translation in action
 
 
-**Parent Topic:**[Using Universal Request](../concept/using-ur.md)
+**Parent Topic:**[Using Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/using-ur.md)
 

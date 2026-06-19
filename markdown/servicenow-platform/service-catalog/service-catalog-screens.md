@@ -2,6 +2,7 @@
 title: Configure Service Catalog preview screens
 description: You can configure shopping cart preview screens for the one-step and two-step carts, for the wish list, and for the Classic Mobile app.Using Service Catalog, customize the cart preview screen for wish list items.Using Service Catalog, customize the shopping cart screen that is displayed on mobile devices.Using Service Catalog, customize the shopping cart display screen for a one-step checkout process.Using Service Catalog, customize the shopping cart display screen for a two-step checkout process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/service-catalog-screens.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -15,7 +16,7 @@ breadcrumb: [Cart layout, Service Catalog customization, Types of catalog items,
 
 You can configure shopping cart preview screens for the one-step and two-step carts, for the wish list, and for the Classic Mobile app.
 
-**Parent Topic:**[Cart layout](../concept/c_ConfigureCartLayout.md)
+**Parent Topic:**[Cart layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_ConfigureCartLayout.md)
 
 ## Configure the wish list screen
 
@@ -35,11 +36,11 @@ Role required: admin, catalog\_admin
 
 3.  You can add/remove components, columns, buttons, and rename labels.
 
-    For more information, see [Configure cart layout](t_ConfigureCartLayout.md#).
+    For more information, see [Configure cart layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/t_ConfigureCartLayout.md).
 
 4.  Click **Update**.
 
-    ![](../image/WishlistCartPreview.png "Cart preview screen for wish list items")
+    \[Omitted image "WishlistCartPreview.png"\] Alt text:
 
 
 ## Configure Classic Mobile shopping cart screen
@@ -70,7 +71,7 @@ The shopping cart on Classic Mobile devices always uses a two-step checkout proc
 
 4.  Click **Update**.
 
-    ![Default mobile shopping cart screen](../image/Service_Catalog_Mobile_Shipping_Cart_View.png "Shopping cart screen on Classic Mobile")
+    \[Omitted image "Service\_Catalog\_Mobile\_Shipping\_Cart\_View.png"\] Alt text: Default mobile shopping cart screen
 
 
 ## Configure a one-step shopping cart screen
@@ -93,11 +94,11 @@ One-step checkout is the default checkout process for catalog items.
 
 3.  You can add/remove components, columns, buttons, and rename title and button labels.
 
-    See [Configure cart layout](t_ConfigureCartLayout.md#).
+    See [Configure cart layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/t_ConfigureCartLayout.md).
 
 4.  Click **Update**.
 
-    ![](../image/1StepCheckoutScreen.png "Shopping cart screen displayed for default one-step checkout process")
+    \[Omitted image "1StepCheckoutScreen.png"\] Alt text:
 
 
 ## Configure a two-step shopping cart screen
@@ -110,7 +111,7 @@ Role required: admin, catalog\_admin
 
 ### About this task
 
-Changes made to the two-step record are visible only if the [two-step checkout process is enabled](../concept/c_EnableATwoStepCheckout.md#) in properties. By default, catalog items use a one-step checkout process.
+Changes made to the two-step record are visible only if the [two-step checkout process is enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_EnableATwoStepCheckout.md) in properties. By default, catalog items use a one-step checkout process.
 
 ### Procedure
 
@@ -120,7 +121,7 @@ Changes made to the two-step record are visible only if the [two-step checkout p
 
 3.  You can add/remove components, columns, buttons, and rename title and button labels.
 
-    For more information, see [Configure cart layout](t_ConfigureCartLayout.md#).
+    For more information, see [Configure cart layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/t_ConfigureCartLayout.md).
 
     In the **Components** tab, both **Shipping Location** and **Shipping Address** are not supported simultaneously. Deselect the selected component to select the other component.
 
@@ -128,8 +129,8 @@ Changes made to the two-step record are visible only if the [two-step checkout p
 
 4.  Click **Update**.
 
-    ![Shopping cart preview screen for a two-step checkout process when shipping address in enabled.](../image/ShpngAdrssCartPrevw.png "Shopping cart preview screen for a two-step checkout process when shipping address in enabled")
+    \[Omitted image "ShpngAdrssCartPrevw.png"\] Alt text: Shopping cart preview screen for a two-step checkout process when shipping address in enabled.
 
-    ![Shopping cart preview screen for a two-step checkout process when shipping location in enabled.](../image/ShpngLoctnCartPrevw.png "Shopping cart preview screen for a two-step checkout process when shipping location in enabled")
+    \[Omitted image "ShpngLoctnCartPrevw.png"\] Alt text: Shopping cart preview screen for a two-step checkout process when shipping location in enabled.
 
 

@@ -2,6 +2,7 @@
 title: Activate Onboarding ramp-up trigger
 description: Enable the Onboarding ramp-up trigger to ensure that the workflow runs at the right time during the employee onboarding. This automates plan generation, reduces manual setup for managers, and improves consistency in onboarding processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-hrsd/activate-trigger-rampup.html
 release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd

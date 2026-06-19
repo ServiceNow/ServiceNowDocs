@@ -2,6 +2,7 @@
 title: Managing the Cloud Workspace asset details
 description: This page allows the user to view, edit, and manage a comprehensive set of details of a cloud asset such as its attributes, its health, and its records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/manage-cam-ci-details.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
@@ -69,7 +70,7 @@ This section shows cards with counts of the following services and offerings ass
 
 This section shows aggregations from the latest CMDB Health test results for the Completeness, Correctness, Compliance, and Relationship KPIs, and the aggregated state of attestation. Color codes are used to denote pass/fail scores.
 
-**Note:** For more information on each section, see [Manage CI details in CI Form](https://www.servicenow.com/docs/access?context=ci-form-cmdb-workspace&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+**Note:** For more information on each section, see .
 
-**Parent Topic:**[Cloud Account Management reference](../reference/cam-reference.md)
+**Parent Topic:**[Cloud Account Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/cam-reference.md)
 

@@ -2,6 +2,7 @@
 title: Components installed with CMDB Health
 description: Several types of components are installed with CMDB Health \(included in the com.snc.cmdb plugin\), such as tables, properties, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/r\_TablesInstalledCMDBHealth.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -15,7 +16,7 @@ breadcrumb: [Reference, CMDB Health, Configuration Management Database \(CMDB\),
 
 Several types of components are installed with CMDB Health \(included in the com.snc.cmdb plugin\), such as tables, properties, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Properties installed
 
@@ -36,8 +37,8 @@ glide.cmdb.services\_hierarchy\_limit
 Maximum number of service CIs that can appear in the CMDB service dashboard. This limit applies to any child class of the Service Instance \[cmdb\_ci\_service\_auto\] class.-   Type: integer
 -   Default: 10,000
 -   Range: 0-100,000
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
--   Learn more: [View CMDB Health Dashboard](../concept/c_MonitorCMDBHealth.md)
+-   Location: Add to System Properties \[sys\_properties\] table.
+-   Learn more: [View CMDB Health Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_MonitorCMDBHealth.md)
 
 </td></tr></tbody>
 </table>## Scheduled jobs installed

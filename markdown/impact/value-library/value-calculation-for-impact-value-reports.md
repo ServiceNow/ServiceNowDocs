@@ -2,6 +2,7 @@
 title: Value calculation for Impact Value Reports
 description: You can use value calculation for measurable business impact and track value using metrics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/value-library/value-calculation-for-impact-value-reports.html
 release: zurich
 product: Value Library
 classification: value-library

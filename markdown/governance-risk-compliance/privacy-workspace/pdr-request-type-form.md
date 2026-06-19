@@ -2,6 +2,7 @@
 title: Personal Data Rights request type form
 description: Use the Request Type form in the Personal Data Rights application to categorize the personal data rights requests by their type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/pdr-request-type-form.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -30,5 +31,5 @@ The following table lists the descriptions of the field values.
 |Inbound Email Configuration|
 |Group email|Email address that automatically generates a request upon receiving an email.|
 
-**Parent Topic:**[Configuring Personal Data Rights request type](../task/configure-pdr-request-type.md)
+**Parent Topic:**[Configuring Personal Data Rights request type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/configure-pdr-request-type.md)
 

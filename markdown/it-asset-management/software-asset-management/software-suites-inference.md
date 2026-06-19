@@ -2,6 +2,7 @@
 title: Software suites inference
 description: Suite inference is used to determine whether the software is part of a suite and to infer the best or efficient suite to use when licensing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/software-suites-inference.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -85,5 +86,5 @@ When the system property **Use component licenses to optimize compliance when su
 
 As an example, let's say you specify the **Inference percent** as 75% and set the **Mandatory** field to **Always Mandatory** on Microsoft Access. These settings specify that Microsoft Access must be installed, along with three out of four other products \(Microsoft Word, Microsoft Excel, Microsoft PowerPoint, and Microsoft Outlook\), to infer that Microsoft Office Professional is installed on a device.
 
-**Parent Topic:**[Software Asset Management software suites](software-suites.md)
+**Parent Topic:**[Software Asset Management software suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-suites.md)
 

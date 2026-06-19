@@ -2,6 +2,7 @@
 title: Tables installed with Contract Management
 description: Tables are added with Contract Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/contract-management/r\_TablesInstalledWContractMgmt.html
 release: zurich
 product: Contract Management
 classification: contract-management
@@ -96,5 +97,5 @@ Users Covered \[clm\_m2m\_contract\_user\]
 Lists the users covered by contracts.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Contract Management](r_ComponentsInstalledWContractMgmt.md)
+</table>**Parent Topic:**[Components installed with Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/contract-management/r_ComponentsInstalledWContractMgmt.md)
 

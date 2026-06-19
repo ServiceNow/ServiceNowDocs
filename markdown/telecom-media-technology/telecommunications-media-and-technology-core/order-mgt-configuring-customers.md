@@ -1,0 +1,60 @@
+---
+title: Configuring Order Management for customers using Service Bridge
+description: As a customer, you must complete some configuration tasks so that you can set up the Order Management application.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/telecommunications-media-and-technology-core/order-mgt-configuring-customers.html
+release: zurich
+product: Telecommunications, Media and Technology Core
+classification: telecommunications-media-and-technology-core
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+---
+
+# Configuring Order Management for customers using Service Bridge
+
+As a customer, you must complete some configuration tasks so that you can set up the Order Management application.
+
+<table id="table_dt5_rxj_4nb"><thead><tr><th>
+
+Task
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Install and set up Service Bridge customers
+
+</td><td>
+
+Install and set up the application so that you can integrate your instance with the instance of your provider. This integration enables synchronous publishing of product and service catalogs so that your employees can submit product or service requests.**Note:** For more information, see .
+
+</td></tr><tr><td>
+
+Assign catalog\_admin role
+
+</td><td>
+
+Assign the catalog\_admin role to the users who manage the service catalogs. Users with this role can publish product offerings from providers to their service catalog.
+
+</td></tr><tr><td>
+
+Review and publish product offering catalogs
+
+</td><td>
+
+Review and publish product offering catalogs that you received from your service providers.
+
+</td></tr><tr><td>
+
+Configure specification version updates so that product specification versions can be updated to reflect changes and updates.
+
+</td><td>
+
+To configure update specification versions, see .
+
+</td></tr></tbody>
+</table>

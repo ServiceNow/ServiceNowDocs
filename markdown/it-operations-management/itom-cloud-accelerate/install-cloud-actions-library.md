@@ -2,6 +2,7 @@
 title: Install Cloud Action Library
 description: You can install the Cloud Action Library application \(sn.itom.cal\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-cloud-accelerate/install-cloud-actions-library.html
 release: zurich
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -45,5 +46,5 @@ Several plugins are installed with the Cloud Action Library application. For mor
 5.  Select **Install**.
 
 
-**Parent Topic:**[Exploring Cloud Action Library](../concept/exploring-cloud-actions-library.md)
+**Parent Topic:**[Exploring Cloud Action Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/exploring-cloud-actions-library.md)
 

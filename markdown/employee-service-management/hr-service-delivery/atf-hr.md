@@ -2,6 +2,7 @@
 title: Run quick start tests for HR
 description: The base HR application provides several quick start tests you can run.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/atf-hr.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,7 +26,7 @@ Role required: sn\_hr\_core.admin, atf\_test\_admin, atf\_test\_designer
 
 2.  Search and select the tests for HR Service Delivery.
 
-    For a list of quick start tests and their descriptions, see [Quick start tests for HR Service Delivery](../../../administer/atf-quick-start-tests/reference/quick-start-tests-hr.md).
+    For a list of quick start tests and their descriptions, see [Quick start tests for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/quick-start-tests-hr.md).
 
 3.  Select **Run Test**.
 

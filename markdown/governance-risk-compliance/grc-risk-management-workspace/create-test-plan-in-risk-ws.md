@@ -2,6 +2,7 @@
 title: Create a test plan in Risk Workspace
 description: Create a test plan to document the control testing procedure. You can create a test plan from scratch or based on a test template to describe how a feature is to be tested.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/create-test-plan-in-risk-ws.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -129,5 +130,5 @@ Detailed steps, to carry out the operational expectations, which need to be perf
 5.  To visually explore the relationships between the different types of critical audit data that affect your business, click **360° view** button.
 
 
-**Parent Topic:**[Using the Risk Workspace](../concept/using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

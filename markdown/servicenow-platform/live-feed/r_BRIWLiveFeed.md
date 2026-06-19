@@ -2,6 +2,7 @@
 title: Business rules installed with Live Feed
 description: The Live Feed plugin includes the following business rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/live-feed/r\_BRIWLiveFeed.html
 release: zurich
 product: Live Feed
 classification: live-feed
@@ -244,5 +245,5 @@ Live Feed Message \[live\_message\]
 Ensures user's access to Live Feed messages
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Live Feed](r_InstalledWithLiveFeed.md)
+</table>**Parent Topic:**[Components installed with Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/live-feed/r_InstalledWithLiveFeed.md)
 

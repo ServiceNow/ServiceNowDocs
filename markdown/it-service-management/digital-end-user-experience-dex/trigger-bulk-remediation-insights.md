@@ -2,6 +2,7 @@
 title: Trigger bulk remediation from Insights
 description: Trigger a remedial action on multiple devices simultaneously from the Insights page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/trigger-bulk-remediation-insights.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -50,7 +51,7 @@ Role required: sn\_dex.admin, sn\_dex.engineer
 
     The Action Library opens, displaying available remedial actions for the selected operating system. Run remediation on a single device by selecting the device. To run bulk remediation, select multiple devices.
 
-    **Note:** You can also select the action library icon \(![](../image/icon-action-library.png)\) on the screen to access the remedial actions.
+    **Note:** You can also select the action library icon \(\[Omitted image "icon-action-library.png"\] Alt text:\) on the screen to access the remedial actions.
 
 6.  Select the remedial action and select **Run action**.
 

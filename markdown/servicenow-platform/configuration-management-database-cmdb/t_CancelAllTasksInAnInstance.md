@@ -2,6 +2,7 @@
 title: Cancel all tasks in an instance
 description: Cancel data certification tasks in the Work in Progress state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/t\_CancelAllTasksInAnInstance.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

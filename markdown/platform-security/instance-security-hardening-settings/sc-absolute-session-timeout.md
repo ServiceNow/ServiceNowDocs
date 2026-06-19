@@ -2,6 +2,7 @@
 title: Minimize absolute session timeout duration \[Updated in Security Center 1.3\]
 description: Use the glide.ui.user\_cookie.max\_life\_span\_in\_days property to set a maximum life span for user cookies created when users log in with the Remember Me checkbox selected. When the cookie expires, users who have selected the Remember Me checkbox are forced to reauthenticate into the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-absolute-session-timeout.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -17,7 +18,7 @@ Use the **glide.ui.user\_cookie.max\_life\_span\_in\_days** property to set a ma
 
 It enables the user cookie to be valid for the duration of specified days, starting when the cookie was first issued. The default value is 30 days, and the maximum cap is at 365 days.
 
-**Note:** To enforce a maximum session time for any active user sessions, see [Managing user sessions](https://www.servicenow.com/docs/access?context=c_ManageUserSessions&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** To enforce a maximum session time for any active user sessions, see .
 
 ## More information
 
@@ -51,7 +52,7 @@ Category
 
 </td><td>
 
-[Session management](sc-session-management.md)
+[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-session-management.md)
 
 </td></tr><tr><td>
 
@@ -107,10 +108,10 @@ References
 
 </td><td>
 
-[Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) [Remember me](../../login/concept/c_ChSetRemMeChkbxCookie.md#)
+Available system properties [Remember me](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/c_ChSetRemMeChkbxCookie.md)
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Session management](sc-session-management.md)
+**Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-session-management.md)
 

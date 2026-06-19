@@ -2,6 +2,7 @@
 title: Scoped reports
 description: When editing a report from a different application scope than the current scope, actions modifying the original report are unavailable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/c\_ScopedReports.html
 release: zurich
 product: Reporting
 classification: reporting
@@ -28,10 +29,10 @@ The following actions are available from the **Save** menu after opening a repor
 
 You can create a new report based on an existing report, but within the current application scope using the **Insert** or **Insert and Stay** options.
 
-**Parent Topic:**[Advanced Core UI reporting topics](c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_AdvancedReporting.md)
 
 **Related topics**  
 
 
-[Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+[bundle-cadev.c_ApplicationScope]
 

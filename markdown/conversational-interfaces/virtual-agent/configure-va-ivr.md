@@ -2,6 +2,7 @@
 title: Configure Conversational IVR with Amazon Connect
 description: Configure Amazon Connect service provider to integrate with Virtual Agent and use interactive voice response.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/configure-va-ivr.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -35,7 +36,7 @@ Role required: admin
 
     Conversational IVR with Amazon Connect supports multiple service provider applications and you can create new ones if you want.
 
-    ![Selecting the VA Amazon Connect Service Provider for configuring interactive voice response.](../images/amzn-cnct-provider.png)
+    \[Omitted image "amzn-cnct-provider.png"\] Alt text: Selecting the VA Amazon Connect Service Provider for configuring interactive voice response.
 
 5.  To finish setting up Amazon Connect, select the application name from the Provider Channel Identities section.
 
@@ -109,22 +110,22 @@ The login URL from the AWS Console.
 
 ## What to do next
 
--   [Sync agents to set up live agent transfer](setup-live-agent-transfer.md)
--   [Configure user authentication for Conversational IVR](setup-user-authentication-ivr.md)
--   [Manage bot messages for Conversational IVR](edit-va-ivr-messages.md)
+-   [Sync agents to set up live agent transfer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/setup-live-agent-transfer.md)
+-   [Configure user authentication for Conversational IVR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/setup-user-authentication-ivr.md)
+-   [Manage bot messages for Conversational IVR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/edit-va-ivr-messages.md)
 
--   **[Enroll user Soft PIN and Device in ServiceNow instance](enrol-user-softpin-device.md)**  
+-   **[Enroll user Soft PIN and Device in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enrol-user-softpin-device.md)**  
 Enroll the user Soft PIN and Device in your ServiceNow instance to setup callback authentication.
--   **[Set up the Amazon Connect spoke for Conversational IVR](setup-amzn-connect-spoke.md)**  
+-   **[Set up the Amazon Connect spoke for Conversational IVR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/setup-amzn-connect-spoke.md)**  
 Set up the Amazon Connect spoke to integrate your ServiceNow instance with Amazon Connect.
--   **[Sync agents to set up live agent transfer](setup-live-agent-transfer.md)**  
+-   **[Sync agents to set up live agent transfer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/setup-live-agent-transfer.md)**  
 After the installation and configuration of Amazon Connect, you must sync agents to enable live transfer. You can sync agents stored in Amazon Connect with the agents on your ServiceNow agents.
--   **[Configure user authentication for Conversational IVR](setup-user-authentication-ivr.md)**  
+-   **[Configure user authentication for Conversational IVR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/setup-user-authentication-ivr.md)**  
 You must configure the authentication level for how the end-user can be authenticated to be the logged-in ServiceNow user using Voice.
--   **[Manage bot messages for Conversational IVR](edit-va-ivr-messages.md)**  
+-   **[Manage bot messages for Conversational IVR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/edit-va-ivr-messages.md)**  
 Edit your custom messages to ensure that your conversations are optimized for Conversational IVR.
--   **[Provider properties for Amazon Connect](provider-properties-ivr.md)**  
+-   **[Provider properties for Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/provider-properties-ivr.md)**  
 View and update the provider properties available for Amazon Connect
 
-**Parent Topic:**[Configuring Conversational IVR with Amazon Connect](../concept/configuring-ci-ivr-amazon-connect.md)
+**Parent Topic:**[Configuring Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configuring-ci-ivr-amazon-connect.md)
 

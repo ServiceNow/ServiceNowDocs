@@ -2,6 +2,7 @@
 title: Create a data source for LDAP
 description: Each LDAP organizational unit \(OU\) definition has its own related list of data sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/ldap-integration/t\_CreateADataSource.html
 release: zurich
 product: LDAP integration
 classification: ldap-integration

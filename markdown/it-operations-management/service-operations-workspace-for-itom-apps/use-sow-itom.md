@@ -2,6 +2,7 @@
 title: Using Service Operations Workspace for ITOM
 description: Service Operations Workspace for ITOM delivers a unified platform integrating various applications, specializing in streamlined alert management. Seamlessly manage IT Operations workflows while efficiently handling alerts, ensuring optimal performance and productivity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/use-sow-itom.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -17,5 +18,5 @@ Service Operations Workspace for ITOM delivers a unified platform integrating va
 
 When setting up the Service Operations Workspace, it's crucial to configure both IT Operations Management \(ITOM\) for managing alerts and IT Service Management \(ITSM\) for resolving incidents and delivering services. This integrated setup ensures access to the full range of features, facilitating comprehensive management of IT operations and service quality.
 
-For more information on the tasks within ITSM, see [Service Operations Workspace for ITSM](https://www.servicenow.com/docs/access?context=sow-landing-page&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+For more information on the tasks within ITSM, see .
 

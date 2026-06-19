@@ -2,6 +2,7 @@
 title: Cancel existing appointments
 description: Cancel existing appointments on behalf of the consumer user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/vaccine-administration-management/cancel-existing-appointment.html
 release: zurich
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -34,7 +35,7 @@ Role required: sn\_vaccine\_sm.clinician
 
 ## What to do next
 
-[Reschedule existing appointments](reschedule-existing-appointment.md).
+[Reschedule existing appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/vaccine-administration-management/reschedule-existing-appointment.md).
 
-**Parent Topic:**[Manage user appointments as a clinician or a vaccine agent](../concept/user-appt-mngt-clinicans-agents.md)
+**Parent Topic:**[Manage user appointments as a clinician or a vaccine agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/vaccine-administration-management/user-appt-mngt-clinicans-agents.md)
 

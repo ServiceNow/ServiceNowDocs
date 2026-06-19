@@ -2,6 +2,7 @@
 title: Create Microsoft Teams notification content from Content Experience Builder
 description: Create or place notification content into a bundle or stage for a Microsoft Teams campaign using Content Experience Builder.Fill in the Campaign form to create the Microsoft Teams notification content using the Content Experience Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/create-notification-content-exp-builder.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,7 +28,7 @@ Role required: sn\_ca.campaign\_manager or sn\_cd.content\_admin or admin
 
 3.  On the form, fill in the fields.
 
-    For more information, see [Campaign form in Content Experience Builder](create-notification-content-exp-builder.md#).
+    For more information, see [Campaign form in Content Experience Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/create-notification-content-exp-builder.md).
 
 4.  Select **Submit**.
 
@@ -36,7 +37,7 @@ Role required: sn\_ca.campaign\_manager or sn\_cd.content\_admin or admin
 
 The list of all campaigns is displayed.
 
-**Parent Topic:**[Create Microsoft Teams campaigns using the Content Experience Builder](../concept/create-campaign-content-experience-builder.md)
+**Parent Topic:**[Create Microsoft Teams campaigns using the Content Experience Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/create-campaign-content-experience-builder.md)
 
 ## Campaign form in Content Experience Builder
 
@@ -126,7 +127,7 @@ Frequency, in days, that you want to re-evaluate the audience. Audiences are re-
 
  This field appears only if the **Re-evaluate campaign** check box is selected.
 
- This field value overrides the default \(7 days\) value set in the **Campaign Re-evaluation** field in the Content Experiences system property. For more information, see [Properties installed with Content Experiences](../../employee-center/reference/properties-installed-with-content-auto.md).
+ This field value overrides the default \(7 days\) value set in the **Campaign Re-evaluation** field in the Content Experiences system property. For more information, see [Properties installed with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/properties-installed-with-content-auto.md).
 
 </td></tr><tr><td>
 

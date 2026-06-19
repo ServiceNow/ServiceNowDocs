@@ -2,13 +2,14 @@
 title: Ledger account
 description: A reference field for the account used to generate the  invoice.​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/ledger-account.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Master data table for Accounts Payable Operations, Reference, Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Data required for invoice processing, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Ledger account
@@ -26,5 +27,5 @@ You can view records in any of the general ledger tables and make changes if nec
 |Ledger account|String|Summarizes the transactions for reporting. Ledger account code fetched from ERP. Example: 160020.|
 |Sub-ledger account|String|Detailed tracking for specific financial areas.|
 
-**Parent Topic:**[Master data table for Accounts Payable Operations](master-data-table-apo.md)
+**Parent Topic:**[Data required for invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
 

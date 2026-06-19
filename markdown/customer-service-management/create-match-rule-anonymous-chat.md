@@ -2,7 +2,10 @@
 title: Create a matching rule for anonymous chat
 description: Create one matching rule for each agent queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-match-rule-anonymous-chat.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

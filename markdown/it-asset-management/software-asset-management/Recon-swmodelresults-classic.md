@@ -2,6 +2,7 @@
 title: Reconciliation and product results
 description: Field descriptions for the reconciliation results, product results, and software product results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/Recon-swmodelresults-classic.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -110,7 +111,7 @@ A product result for a licensable product is generated after reconciliation even
 
 **Note:** A Software Model Results record is only created when a software model or entitlement exists for the product.
 
-For licensable products, a software model is automatically created for any unlicensed installs, subscriptions, or options in the Product Results list that do not have an entitlement by default. See [properties](sam-properties.md) to change the **com.snc.samp.automaticsmrcreation** property setting. You can also set the **com.snc.samp.automaticsmcreation** property to have a software model created automatically for not-licensable products, if desired.
+For licensable products, a software model is automatically created for any unlicensed installs, subscriptions, or options in the Product Results list that do not have an entitlement by default. See [properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-properties.md) to change the **com.snc.samp.automaticsmrcreation** property setting. You can also set the **com.snc.samp.automaticsmcreation** property to have a software model created automatically for not-licensable products, if desired.
 
 To view more information about a specific software product result, select an entry from the Product Results list. Refer to the following table for field descriptions.
 
@@ -575,5 +576,5 @@ Potential savings
 Savings to be gained from reclaiming unused software installations.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software license usage](../concept/sam-license-workbench.md)
+</table>**Parent Topic:**[Software license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-license-workbench.md)
 

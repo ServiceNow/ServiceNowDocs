@@ -2,7 +2,10 @@
 title: Configure related record definitions
 description: Related record definitions identify the types of records that the dynamic related records feature can display in the Related Records tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-related-record-definitions.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -21,7 +24,7 @@ Role required: admin
 
 The system administrator can create relate definitions and associate the desired definitions with a related record context. For example, the admin can associate SLA and escalation definitions with the Case related record context. Definitions can be associated with multiple contexts.
 
-The Dynamic Related Records for Configurable Workspace plugin includes several related record definitions for case records. For more information, see [Related record definitions included with the plugin](../concept/dynamic-related-records-configure.md#section_khj_gwl_jpb).
+The Dynamic Related Records for Configurable Workspace plugin includes several related record definitions for case records. For more information, see [Related record definitions included with the plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/dynamic-related-records-configure.md).
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: VMware Workstation
 description: In the basic VMware system, the VMware Workstation runs on a Windows or Linux host machine, but not managed directly thorugh vCenter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/c\_VMWareWinLinWithoutVCenter.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -18,7 +19,7 @@ In the basic VMware system, the VMware Workstation runs on a Windows or Linux ho
 
 This system clones instances from templates, but can't be automated. The relationships between VMware components for this type of installation are in the following diagram:
 
-![VMware Workstation relationships](../image/VMWareNoVCenterDiagram.png "VMware Workstation relationships")
+\[Omitted image "VMWareNoVCenterDiagram.png"\] Alt text: VMware Workstation relationships
 
 <table id="table_VMwareComponentRelationshipsOnWindowsOrLinuxWithoutVCenter"><thead><tr><th>
 

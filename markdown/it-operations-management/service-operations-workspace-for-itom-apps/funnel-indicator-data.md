@@ -2,6 +2,7 @@
 title: Indicator data options for funnel visualizations
 description: When you select an indicator data source for the funnel visualization, the following data configuration options are available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/funnel-indicator-data.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -133,7 +134,7 @@ Field
 
 Source field from the data set for the selected metric.**Note:** The data appears in a format that matches the field type. For example, an integer field like **Priority** is shown as a number. A duration field like **Business duration** from the \[Incident\] table is displayed in days, hours, and minutes.
 
-If function fields were created in Report Designer for the table, they are available in the drop-down list. For more information, see [Report on function fields](https://www.servicenow.com/docs/access?context=function-fields-reporting&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+If function fields were created in Report Designer for the table, they are available in the drop-down list. For more information, see .
 
 </td></tr><tr><td>
 
@@ -141,7 +142,7 @@ Format values
 
 </td><td>
 
-Formatting style for displaying metric values. Select to open the Formatting values dialog.For more information, see [Value formatting in reports](https://www.servicenow.com/docs/access?context=value-formatting-reports&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+Formatting style for displaying metric values. Select to open the Formatting values dialog.For more information, see .
 
 </td></tr><tr><td colspan="2">
 
@@ -232,5 +233,5 @@ Chart interaction
 User actions supported within the chart, such as hover or select.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a funnel visualization](../task/create-funnel-visualization.md)
+</table>**Parent Topic:**[Create a funnel visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/create-funnel-visualization.md)
 

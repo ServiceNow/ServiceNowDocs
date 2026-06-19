@@ -2,6 +2,7 @@
 title: Create an audit report template in classic formats
 description: Create an audit report template to generate an audit report. If you're an audit developer, you can use either the HTML, Script, or XML format to create an audit report template. You can then use the audit report template to display data in an audit report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/create-audit-report-temp.html
 release: zurich
 product: Audit Management
 classification: audit-management
@@ -68,7 +69,7 @@ HTML
 
 </td><td>
 
-HTML code. When you select the **HTML** option, you can add the HTML code in the audit report template as shown in the following example:![HTML code for audit report template.](../image/html-code-audit-report-template.png)
+HTML code. When you select the **HTML** option, you can add the HTML code in the audit report template as shown in the following example:\[Omitted image "html-code-audit-report-template.png"\] Alt text: HTML code for audit report template.
 
 </td></tr><tr><td>
 
@@ -76,7 +77,7 @@ Script
 
 </td><td>
 
-Script code. When you select the **Script** option, you can add the Script code in the audit report template as shown in the following example:![Script code for audit report template.](../image/script-code-audit-report-template.png)
+Script code. When you select the **Script** option, you can add the Script code in the audit report template as shown in the following example:\[Omitted image "script-code-audit-report-template.png"\] Alt text: Script code for audit report template.
 
 </td></tr><tr><td>
 
@@ -84,14 +85,14 @@ XML
 
 </td><td>
 
-XML code. When you select the **XML** option, you can add the XML code in your audit report template as shown in the following example:![XML code for audit report template.](../image/xml-code-audit-report-template.png)
+XML code. When you select the **XML** option, you can add the XML code in your audit report template as shown in the following example:\[Omitted image "xml-code-audit-report-template.png"\] Alt text: XML code for audit report template.
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
 
     The audit report template is displayed in the list view as shown in the following example:
 
-    ![Audit report template.](../image/html-audit-report-template.png)
+    \[Omitted image "html-audit-report-template.png"\] Alt text: Audit report template.
 
     You can use the audit report template to display data according to the defined format in an audit report.
 

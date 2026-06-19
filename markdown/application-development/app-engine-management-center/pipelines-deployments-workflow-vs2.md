@@ -1,21 +1,22 @@
 ---
-title: Pipelines and Deployments workflow version 24.1.2
-description: As you manage requests for app deployment in App Engine Management Center \(AEMC\), use this workflow to understand how app deployments move through your pipelines in version 24.1.2, released in November 2023.
+title: Pipelines and Deployments workflow
+description: As you manage requests for app deployment in App Engine Management Center \(AEMC\), use this workflow to understand how app deployments move through your pipelines in versions 24.1.2 and later.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-management-center/pipelines-deployments-workflow-vs2.html
 release: zurich
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-05-07"
 reading_time_minutes: 4
 breadcrumb: [Deployment process, Explore, App Engine Management Center, Governing app development, Building applications]
 ---
 
-# Pipelines and Deployments workflow version 24.1.2
+# Pipelines and Deployments workflow
 
-As you manage requests for app deployment in App Engine Management Center \(AEMC\), use this workflow to understand how app deployments move through your pipelines in version 24.1.2, released in November 2023.
+As you manage requests for app deployment in App Engine Management Center \(AEMC\), use this workflow to understand how app deployments move through your pipelines in versions 24.1.2 and later.
 
-![Infographic depicting a standard Pipelines and Deployments workflow. For a text description, refer to the workflow steps that follow.](../image/pipelines-flow-vs2.png "Pipelines and Deployments workflow")
+\[Omitted image "aemc-pipelines-flow-MMASSET0021967.png"\] Alt text: Infographic depicting a standard pipeline deployment in App Engine Management Center.
 
 In this workflow:
 

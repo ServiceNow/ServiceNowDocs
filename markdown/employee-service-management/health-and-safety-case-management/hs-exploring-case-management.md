@@ -2,6 +2,7 @@
 title: Exploring Health and Safety Case Management
 description: Learn more about Health and Safety Case Management and review the benefits it can provide for different users in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-case-management/hs-exploring-case-management.html
 release: zurich
 product: Health and Safety Case Management
 classification: health-and-safety-case-management
@@ -83,7 +84,7 @@ Support employees for their health and safety related inquiries.
 
 </td><td>
 
-[Health and safety questions](../task/hs-ask-health-safety-question.md)
+[Health and safety questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-case-management/hs-ask-health-safety-question.md)
 
 </td><td>
 
@@ -96,7 +97,7 @@ Support for employees returning from time-off due to injury or illness.-   Time 
 
 </td><td>
 
-[Return to work](../task/hs-work-health-safety-case.md)
+[Return to work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-case-management/hs-work-health-safety-case.md)
 
 </td><td>
 
@@ -109,7 +110,7 @@ Ensure employees are adequately compensated for their injuries in the workplace.
 
 </td><td>
 
-[Compensation claims](../task/hs-submit-compensation-claim.md)
+[Compensation claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-case-management/hs-submit-compensation-claim.md)
 
 </td><td>
 
@@ -122,7 +123,7 @@ Enable creation of HR case from within the safety incidents to handle any commun
 
 </td><td>
 
-[HR case for an injury](../../ohs-incident-management/task/create-hr-case-injury-illness.md)
+[HR case for an injury](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-incident-management/create-hr-case-injury-illness.md)
 
 </td><td>
 
@@ -135,7 +136,7 @@ Enable creation of return to work case from within the safety incidents to handl
 
 </td><td>
 
-[Return to work case for an injury](../../ohs-incident-management/task/create-rtw-case-injury-illness.md)
+[Return to work case for an injury](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-incident-management/create-rtw-case-injury-illness.md)
 
 </td><td>
 
@@ -148,7 +149,7 @@ Enable safety team to create cases to address internal workflows while associati
 
 </td><td>
 
-[Health and safety case](../task/hs-create-safety-case-workspace.md)
+[Health and safety case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-case-management/hs-create-safety-case-workspace.md)
 
 </td><td>
 
@@ -159,8 +160,8 @@ Safety team
 
 To learn more about configuring and using Health and Safety Case Management, see:
 
--   [Configuring Health and Safety Case Management](hs-setting-up-case-management.md)
--   [Submitting Health and Safety cases](hs-submitting-health-safety-cases.md)
--   [Work on a Health and Safety case](../task/hs-work-health-safety-case.md)
--   [Health and Safety Case Management reference](hs-case-management-reference.md)
+-   [Configuring Health and Safety Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-case-management/hs-setting-up-case-management.md)
+-   [Submitting Health and Safety cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-case-management/hs-submitting-health-safety-cases.md)
+-   [Work on a Health and Safety case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-case-management/hs-work-health-safety-case.md)
+-   [Health and Safety Case Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-case-management/hs-case-management-reference.md)
 

@@ -2,6 +2,7 @@
 title: Employee to-dos approval roles
 description: Roles determine who can approve, reject, or comment on employee requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ec-to-do-approval-roles.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation

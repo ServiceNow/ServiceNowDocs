@@ -2,6 +2,7 @@
 title: Microsoft Azure Windows Out Of Box Catalog items
 description: Cloud Services Catalog Windows VM, up to 10 additional disks on Microsoft Azure or with security groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/azure-microsoft-windows-out-of-box-catalogs.html
 release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -56,5 +57,5 @@ This catalog item form allows capability to assign one or more security groups \
 
 Tag \(key-value\) is assigned to all deployed resources. Example: VM, network, storage as present in the stack. The key-value is updated only in the cmdb\_key\_value table, not in public cloud, at this time. This will be fixed in future releases to update the tags in cloud.
 
-**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](../concept/out-of-the-box-catalog-items.md)
+**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md)
 

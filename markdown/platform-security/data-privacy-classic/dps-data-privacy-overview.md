@@ -2,6 +2,7 @@
 title: Data privacy overview
 description: The Overview homepage is a starting point to manage your data and data privacy compliance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-privacy-classic/dps-data-privacy-overview.html
 release: zurich
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
@@ -17,7 +18,7 @@ The Overview homepage is a starting point to manage your data and data privacy c
 
 The Overview dashboard reports the current state of data classifications and anonymization jobs within your instance. You can view your data with the Overview dashboard to see how much data can be classified, the data classes available, the amount of data in each class, and an overall status of the anonymization jobs. The classified data is broken into different categories. Selecting a sub-category in either chart will add or remove the category from the overall chart and adjust the counts.
 
-![Displays the data privacy overview page.](../image/dps-overview.png)
+\[Omitted image "dps-overview.png"\] Alt text: Displays the data privacy overview page.
 
 ## Classifiable Data
 

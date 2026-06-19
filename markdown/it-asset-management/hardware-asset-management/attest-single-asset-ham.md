@@ -2,13 +2,14 @@
 title: Create an attestation for a hardware asset
 description: Validate a particular serialized hardware asset by creating an attestation for that asset.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/attest-single-asset-ham.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Audit your hardware assets by using Asset Attestation, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Audit assets using Asset Attestation, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Create an attestation for a hardware asset
@@ -27,7 +28,7 @@ Role required: asset or inventory\_admin
 
 3.  Select the asset that you want to attest.
 
-4.  Select the More Options icon \(![More options icon](../image/more-actions-icon.png)\) on the asset form.
+4.  Select the More Options icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More options icon\) on the asset form.
 
 5.  Select **Create attestation**.
 
@@ -42,5 +43,5 @@ Role required: asset or inventory\_admin
     3.  Select the attestation record.
 
 
-**Parent Topic:**[Audit your hardware assets by using Asset Attestation](../concept/audit-hardware-assets-attestation.md)
+**Parent Topic:**[Audit your hardware assets by using Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/audit-hardware-assets-attestation.md)
 

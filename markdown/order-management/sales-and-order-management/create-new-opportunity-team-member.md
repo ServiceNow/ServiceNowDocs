@@ -2,11 +2,12 @@
 title: Add a new opportunity team member
 description: Create an opportunity team member for a structured collaboration among multiple users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/create-new-opportunity-team-member.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2025-10-09"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
@@ -23,7 +24,7 @@ Role required: opportunity\_writer
 
 ## Procedure
 
-1.  Navigate to **List** view ![image.Lists] and select **Opportunity - All**.
+1.  Navigate to **List** view \[Omitted image "list-outline-24.svg"\] Alt text: and select **Opportunity - All**.
 
 2.  From the **Opportunity List** window, select the opportunity you want to work with and select the **Team** tab.
 
@@ -64,7 +65,7 @@ Opportunity Role
 Role of the team member. Following member roles \(Related party types\) and responsibility are shipped by default: -   Account Executive
 -   Solution Sales Executive
 -   Price Band Approver
-However, more roles can be configured. Depending on the responsibility, access to the opportunity is provided to the opportunity team members. For more information, see [Create related party configurations](https://www.servicenow.com/docs/access?context=adding-related-party-config-to-case&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+However, more roles can be configured. Depending on the responsibility, access to the opportunity is provided to the opportunity team members. For more information, see .
 
 </td></tr><tr><td>
 
@@ -88,5 +89,5 @@ Enter work notes for reference.
     The Opportunity Team Member information is added to the main opportunity.
 
 
-**Parent Topic:**[Using Opportunity Management](../concept/opportunity-mgmt-using.md)
+**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-mgmt-using.md)
 

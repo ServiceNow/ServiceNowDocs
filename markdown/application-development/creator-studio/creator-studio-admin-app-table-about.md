@@ -2,6 +2,7 @@
 title: Changing the table for an app
 description: Admins can change the associated table for an app built in Creator Studio. That is, you can change the table that the app saves its requests to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/creator-studio/creator-studio-admin-app-table-about.html
 release: zurich
 product: Creator Studio
 classification: creator-studio
@@ -15,12 +16,12 @@ breadcrumb: [An app's table, Administer, Creator Studio, Building no-code applic
 
 Admins can change the associated table for an app built in Creator Studio. That is, you can change the table that the app saves its requests to.
 
-View the current table for the app by selecting the **Data management** tab in the App settings. For more information, see [Edit an app's settings in Creator Studio](../task/creator-studio-edit-app-settings.md).
+View the current table for the app by selecting the **Data management** tab in the App settings. For more information, see [Edit an app's settings in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-edit-app-settings.md).
 
 **Note:** There are two ways to change an app's associated table:
 
--   You can use Guided Setup, which is an easier, more streamlined process. For more information, see [Configure the table for Creator Studio apps](../task/config-creator-studio-guided-setup.md#).
--   You can update several tables on the ServiceNow AI Platform. For more information, see [Change a Creator Studio app's table](../task/creator-studio-change-app-table.md).
+-   You can use Guided Setup, which is an easier, more streamlined process. For more information, see [Configure the table for Creator Studio apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/config-creator-studio-guided-setup.md).
+-   You can update several tables on the ServiceNow AI Platform. For more information, see [Change a Creator Studio app's table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-change-app-table.md).
 
 ## Reasons to change the table for an app
 
@@ -45,11 +46,11 @@ A general guideline is to use a table that extends the Request Task table.
 -   The request\_type field for the new table should have the label **Request type**, and it should be a reference to the Record Producer table.
 -   If the new table isn’t in the same scope as the app, the scope of the table must allow updates from other scopes.
 
-For more information on the Task table, see [Working with the Task table](https://www.servicenow.com/docs/access?context=c_TaskTable&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For more information on the Task table, see .
 
 ## Role for changing the table for an app
 
-To change the associated table for an app, you must have either the admin role, the sn\_creatorstudio.app\_configurator role, or sn\_creatorstudio.configuration\_admin, which are granular admin roles. For more information, see [Granular admin roles required to secure your instance](https://www.servicenow.com/docs/access?context=roles-within-platform-security&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+To change the associated table for an app, you must have either the admin role, the sn\_creatorstudio.app\_configurator role, or sn\_creatorstudio.configuration\_admin, which are granular admin roles. For more information, see .
 
 ## Repercussions of changing an app's table
 
@@ -88,5 +89,5 @@ Workspace list configurations
 If you change the table after a user created a filtered list, the filtered list retains the original table.If multiple filtered lists use different tables, users will get errors based on those discrepancies. For example, they can't manage columns for a table that they don't have edit access to.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Administering an app's associated table](creator-studio-admin-app-table.md)
+</table>**Parent Topic:**[Administering an app's associated table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-admin-app-table.md)
 

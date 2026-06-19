@@ -2,6 +2,7 @@
 title: Associate areas and spaces with a shift
 description: Associate work areas and spaces with a shift in Workplace Core so that they are available only for that shift. Workplace managers can later reserve these workplace for employees operating in that shift.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/associate-workspaces-with-shifts.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace
@@ -17,7 +18,7 @@ Associate work areas and spaces with a shift in Workplace Core so that they are 
 
 ## Before you begin
 
--   [Define shifts for your workplace](../../workplace-service-delivery/task/create-shifts-wsd.md).
+-   [Define shifts for your workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/create-shifts-wsd.md).
 -   Ensure you have the data for the workplaces to be made available for this shift.
 -   Ensure that the glide.ui.list.allow\_extended\_fields system property is set to **true** so that the filter criteria is displayed appropriately when you're adding areas or spaces.
 
@@ -38,7 +39,7 @@ Role required: sn\_wsd\_core.workplace\_manager
 
 ## What to do next
 
-[Create workplace reservations for an employee](../../workplace-service-delivery/task/reserve-workspaces-for-employees-wsd.md).
+[Create workplace reservations for an employee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/reserve-workspaces-for-employees-wsd.md).
 
-**Parent Topic:**[Configuring shifts for your workplace](configuring-shifts-for-your-workplace.md)
+**Parent Topic:**[Configuring shifts for your workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/configuring-shifts-for-your-workplace.md)
 

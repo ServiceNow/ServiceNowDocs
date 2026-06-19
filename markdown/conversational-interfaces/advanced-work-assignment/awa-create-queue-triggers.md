@@ -2,6 +2,7 @@
 title: Create and manage queue triggers
 description: Create and manage queue triggers to set off multiple actions during customer wait times for a particular queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/awa-create-queue-triggers.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -100,5 +101,5 @@ Name of the existing Virtual Agent topic that appears to the users when the max 
     The queue triggers are added to or updated in the Queue Triggers related list.
 
 
-**Parent Topic:**[Configuring Advanced Work Assignment](installing-awa.md)
+**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

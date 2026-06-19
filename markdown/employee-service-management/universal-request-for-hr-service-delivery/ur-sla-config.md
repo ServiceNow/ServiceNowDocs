@@ -2,6 +2,7 @@
 title: Service Level Agreement configuration for Universal Request
 description: View, modify, or create Service Level Agreement \(SLA\) definitions that is provided for the Universal Request application to make sure that the requests are closed within a defined time frame.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-sla-config.html
 release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -33,12 +34,12 @@ The SLA definitions created for the Universal Request are for the UR and does no
 
 3.  On the form, fill the fields.
 
-    For field descriptions and detailed instructions, see [Create an SLA definition](https://www.servicenow.com/docs/access?context=t_CreateAnSLADefinition&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+    For field descriptions and detailed instructions, see Create an SLA definition.
 
 
 ## Result
 
 The SLA definition is created for the specified task table.
 
-**Parent Topic:**[Configuring Universal Request](../concept/configure-ur.md)
+**Parent Topic:**[Configuring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/configure-ur.md)
 

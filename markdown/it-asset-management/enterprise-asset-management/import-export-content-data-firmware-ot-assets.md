@@ -2,6 +2,7 @@
 title: Import and export content data for firmware in your operational technology \(OT\) assets
 description: Import and export content data for firmware that is embedded into your on-premise OT assets. Share this data with the Content Service team so that you can help improve the normalization process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/import-export-content-data-firmware-ot-assets.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -17,9 +18,9 @@ Import and export content data for firmware that is embedded into your on-premis
 
 ## Before you begin
 
-**Important:** You can import and export this firmware content data only the in OT Asset Workspace. To use the OT Asset Workspace, install the OT Asset Management application on your ServiceNow instance. See [Install OT Asset Management](install-otam.md) for detailed instructions.
+**Important:** You can import and export this firmware content data only the in OT Asset Workspace. To use the OT Asset Workspace, install the OT Asset Management application on your ServiceNow instance. See [Install OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/install-otam.md) for detailed instructions.
 
-**Important:** To import and export this firmware content data, set the **sn\_itam\_common.onprem\_content\_import\_export** system property to `true` on your ServiceNow instance. In addition, opt in to the Enterprise Asset Management Content Service and verify that the Custom Firmware Models KPI is enabled. See [Opt-in to Enterprise Asset Management Content Service](optin-cs-eam.md) for detailed instructions.
+**Important:** To import and export this firmware content data, set the **sn\_itam\_common.onprem\_content\_import\_export** system property to `true` on your ServiceNow instance. In addition, opt in to the Enterprise Asset Management Content Service and verify that the Custom Firmware Models KPI is enabled. See [Opt-in to Enterprise Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/optin-cs-eam.md) for detailed instructions.
 
 Role required: sn\_otam.ot\_asset\_manager
 
@@ -31,7 +32,7 @@ Role required: sn\_otam.ot\_asset\_manager
 
     1.  From the navigation menu of the Admin center view, navigate to **Manage library** &gt; **Import firmware content**.
 
-    2.  Select the Attachments icon ![](../../contract-management/image/attachments-icon.png) on the sidebar of the Import page.
+    2.  Select the Attachments icon \[Omitted image "attachments-icon.png"\] Alt text: on the sidebar of the Import page.
 
     3.  In the Attachments window, select **Select a file**.
 
@@ -53,9 +54,9 @@ Role required: sn\_otam.ot\_asset\_manager
 
         The OT Asset Management application compresses all of your firmware content data into a single zip file. When the zip file is ready for download, the page automatically reloads.
 
-    3.  Select the Attachments icon ![](../../contract-management/image/attachments-icon.png) on the sidebar of the Export page.
+    3.  Select the Attachments icon \[Omitted image "attachments-icon.png"\] Alt text: on the sidebar of the Export page.
 
-    4.  In the Attachments window, select the Actions icon ![](../../../common/image/icon-menu.png) for the zip file that you want to download.
+    4.  In the Attachments window, select the Actions icon \[Omitted image "icon-menu.png"\] Alt text: for the zip file that you want to download.
 
     5.  Download the zip file and then send it to the Content Service team.
 

@@ -2,6 +2,7 @@
 title: Collaborate with stakeholders from Project Workspace
 description: Add comments and attachments to the project or a project task and share them with other users of your organization. Collaborate and verify that your project is in line with your organizational priorities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/collaborate-with-stakeholders-from-project-workspace.html
 release: zurich
 product: Project Workspace
 classification: project-workspace
@@ -27,34 +28,34 @@ Browse and upload files from your computer. Add comments and tag stakeholders fo
 
 1.  Open a project from the planning page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access the new Project Workspace](access-new-project-workspace.md).
+    For information on how to navigate to the planning page, see [Access the new Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Attach files to your project or project task.
 
-<table id="choicetable_sj5_5hz_hsb"><thead><tr><th align="left" id="d133021e82">
+<table id="choicetable_sj5_5hz_hsb"><thead><tr><th align="left" id="d104412e82">
 
 Option
 
-</th><th align="left" id="d133021e85">
+</th><th align="left" id="d104412e85">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d133021e91">
+</th></tr></thead><tbody><tr><td id="d104412e91">
 
 **Project**
 
 </td><td>
 
-1.  Select the Attachments icon \(![Attachments icon.](../image/icon-attachments.png)\) from the planning header.
+1.  Select the Attachments icon \(\[Omitted image "icon-attachments.png"\] Alt text: Attachments icon.\) from the planning header.
 2.  Upload a file from your computer.
     1.  Select **Select file**.
 
-If you have attachment, select the Add file icon \(![Add File icon.](../image/icon-add-file.png)\).
+If you have attachment, select the Add file icon \(\[Omitted image "icon-add-file.png"\] Alt text: Add File icon.\).
 
     2.  Browse and upload a file.
 
 
-</td></tr><tr><td id="d133021e135">
+</td></tr><tr><td id="d104412e135">
 
 **Project task**
 
@@ -65,7 +66,7 @@ If you have attachment, select the Add file icon \(![Add File icon.](../image/ic
 3.  Upload a file from your computer.
     1.  Select **Select file**.
 
-If you have attachment, select the Add File icon \(![Add File icon.](../image/icon-add-file.png)\).
+If you have attachment, select the Add File icon \(\[Omitted image "icon-add-file.png"\] Alt text: Add File icon.\).
 
     2.  Browse and upload a file.
 
@@ -75,21 +76,21 @@ If you have attachment, select the Add File icon \(![Add File icon.](../image/ic
 
     You can add comments directly at the project level or for a project task.
 
-<table id="choicetable_fx3_gjz_hsb"><thead><tr><th align="left" id="d133021e188">
+<table id="choicetable_fx3_gjz_hsb"><thead><tr><th align="left" id="d104412e188">
 
 Option
 
-</th><th align="left" id="d133021e191">
+</th><th align="left" id="d104412e191">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d133021e197">
+</th></tr></thead><tbody><tr><td id="d104412e197">
 
 **Project**
 
 </td><td>
 
-1.  Select the Activity icon \(![Attachments icon.](../image/icon-activity.png)\) from the planning header.
+1.  Select the Activity icon \(\[Omitted image "icon-activity.png"\] Alt text: Attachments icon.\) from the planning header.
 2.  Enter your comments in the text box.
 
 If you want to address your comments to a user, @-mention their name in the comment directly.
@@ -97,7 +98,7 @@ If you want to address your comments to a user, @-mention their name in the comm
 3.  Select **Post Comments**.
 
 
-</td></tr><tr><td id="d133021e230">
+</td></tr><tr><td id="d104412e230">
 
 **Project task**
 
@@ -114,5 +115,5 @@ If you want to address your comments to a user, @-mention their name in the comm
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing projects with Project Workspace](../concept/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/use-projects-pw.md)
 

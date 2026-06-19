@@ -2,6 +2,7 @@
 title: Transaction Manager: Using Runtime API calls
 description: See a list of the APIs that are used in the runtime end user experience, together with their purposes and responses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/transaction-manager-using-runtime-api-calls.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

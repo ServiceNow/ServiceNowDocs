@@ -2,6 +2,7 @@
 title: Quick start tests for Vendor Management Workspace in configurable workspace
 description: Validate that Vendor Manager Workspace still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/vendor-management-workspace/quick-start-tests-vendor-manager-configurable-workspace.html
 release: zurich
 product: Vendor Management Workspace
 classification: vendor-management-workspace
@@ -21,10 +22,10 @@ Vendor Management Workspace quick start tests require activating the Vendor Mana
 |----|-----------|---------------|
 |VLM: Create a Vendor|Track problems with the Vendor Manager Workspace plugin after upgrade. Create a new vendor.|New York|
 
-**Parent Topic:**[Vendor Management Workspace reference](../../../product/vendor-management-workspace/reference/vendor-manager-workspace-reference.md)
+**Parent Topic:**[Vendor Management Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/vendor-manager-workspace-reference.md)
 
 **Related topics**  
 
 
-[Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+[bundle-cadev.quick-start-tests]
 

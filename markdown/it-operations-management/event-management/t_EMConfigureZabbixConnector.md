@@ -2,6 +2,7 @@
 title: Configure event collection from Zabbix server
 description: Configure the Zabbix server connector instance to receiving alerts from the Zabbix server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/t\_EMConfigureZabbixConnector.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -19,7 +20,7 @@ Configure the Zabbix server connector instance to receiving alerts from the Zabb
 
 Supported versions: from 3.0.0 up to 7.0.0
 
-The Zabbix server connector instance requires a credential that lets the instance access Zabbix server accounts. You can use an existing credential or [create a new one](create-credentials-zabbix.md).
+The Zabbix server connector instance requires a credential that lets the instance access Zabbix server accounts. You can use an existing credential or [create a new one](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-credentials-zabbix.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -39,7 +40,7 @@ This connector has the **logPayloadForDebug** log parameter enabled, which logs 
     |-----|-----------|
     |Name|Descriptive name for the connector.|
     |Host IP|IP address for the Zabbix server.|
-    |Credential|Select the credential with basic authentication that you created for this connector. For more information, see [Create Zabbix server credentials](create-credentials-zabbix.md).|
+    |Credential|Select the credential with basic authentication that you created for this connector. For more information, see [Create Zabbix server credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-credentials-zabbix.md).|
     |Schedule \(seconds\)|Frequency, in seconds, that the system checks for new events from the Zabbix server.|
     |Description|Description for the use of the Zabbix server event collection instance.|
     |Connector Definition|Name of the connector definition. Select **Zabbix**.|
@@ -50,7 +51,7 @@ This connector has the **logPayloadForDebug** log parameter enabled, which logs 
 
 4.  Right-click the form header and select **Save**.
 
-    The connector instance values are added to the form and the parameters that are relevant to the connector appear.![Zabbix connector values](../image/zabbix-connector-values.png)
+    The connector instance values are added to the form and the parameters that are relevant to the connector appear.\[Omitted image "zabbix-connector-values.png"\] Alt text: Zabbix connector values
 
 5.  Verify and modify the values, as needed.
 
@@ -100,8 +101,8 @@ Protocol type. Default: `https`
 9.  After a successful test, select **Active** and then click **Update**.
 
 
--   **[Create Zabbix server credentials](create-credentials-zabbix.md)**  
+-   **[Create Zabbix server credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-credentials-zabbix.md)**  
 Create credentials to access Zabbix server.
 
-**Parent Topic:**[Configure a pull connector](t_EMConfigureConnectorInstance.md)
+**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 

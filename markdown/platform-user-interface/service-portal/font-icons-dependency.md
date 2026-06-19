@@ -2,6 +2,7 @@
 title: Include font icons as a widget dependency
 description: You can include font icons wherever a widget is loaded by including them as a widget dependency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/font-icons-dependency.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -70,5 +71,5 @@ Role required: admin or sp\_admin
 4.  Attach the CSS record you created to the new dependency using the **CSS Includes** related list.
 
 
-**Parent Topic:**[Create a widget dependency](widget-dependencies.md)
+**Parent Topic:**[Create a widget dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/widget-dependencies.md)
 

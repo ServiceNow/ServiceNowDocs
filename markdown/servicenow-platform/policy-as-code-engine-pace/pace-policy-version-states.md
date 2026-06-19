@@ -2,6 +2,7 @@
 title: PaCE policy version states
 description: A PaCE policy version can be in one of four states: Draft, Current, Archived, and Now-Content. The policy version state also defines the version numbering.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/policy-as-code-engine-pace/pace-policy-version-states.html
 release: zurich
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
@@ -101,7 +102,7 @@ The Revision number is derived from the version that it was created from. If an 
 </td></tr></tbody>
 </table>The following image illustrates the different states and their version numbering.
 
-![Policy version numbering.](../image/pace-version-numbering-1.jpg)
+\[Omitted image "pace-version-numbering-1.jpg"\] Alt text: Policy version numbering.
 
 As shown in the preceding image, the first draft policy version created was automatically assigned the Revision number 0.1. Each subsequent draft is assigned V0.2, V0.3, and so on. Draft version 0.2 \(as indicated in the Revision number column\) was published and became the Current version, with the Version name of V1.0.
 

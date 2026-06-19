@@ -2,6 +2,7 @@
 title: 360° Relationship Visualization
 description: The 360° Relationship Visualization application allows you to visually explore the relationships between the different types of critical data that affect your business, such as controls, risks, and issues. The visualization also facilitates quick actions upon the information, such as adding a relationship, closing an issue, or approving a policy exception.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-360-degree-relationship-visualization/grc-360-deg-rel-vis.html
 release: zurich
 product: GRC: 360 Degree Relationship Visualization
 classification: grc-360-degree-relationship-visualization
@@ -61,12 +62,12 @@ The data registry reader role must be granted to all GRC users \(for example, co
 -   workspace\_user
 
 </td></tr></tbody>
-</table>-   **[Download and activate the GRC: 360° Relationship Visualization and Data Registry applications](../task/download_activate-360.md)**  
+</table>-   **[Download and activate the GRC: 360° Relationship Visualization and Data Registry applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-360-degree-relationship-visualization/download_activate-360.md)**  
 Before you can run the GRC: 360º Relationship Visualization \(com.servicenow\_sn\_grc\_360\_degree\_visualization\) and Data Registry \(com.sn\_app\_grc\_data\_registry\) applications in your instance, you must download them from the ServiceNow Store.
--   **[Setting up the 360º views](set-up-360-data-reg.md#)**  
+-   **[Setting up the 360º views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-360-degree-relationship-visualization/set-up-360-data-reg.md)**  
 To effectively use the 360° Relationship Visualization application, you must register existing relationships between the types of data you want to view, and then configure how the 360º view displays that data.
--   **[Exploring the 360º view](understanding-360-view.md#)**  
+-   **[Exploring the 360º view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-360-degree-relationship-visualization/understanding-360-view.md)**  
 After you have successfully set up your data registries for the tables you use, you can use the 360º view feature to view the relationships between a selected record and related objects, such as controls, risks, and entity types.
 
-**Parent Topic:**[Common Governance, Risk, and Compliance features](../../grc-common/concept/common-grc-features.md)
+**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

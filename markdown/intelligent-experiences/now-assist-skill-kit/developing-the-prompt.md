@@ -2,6 +2,7 @@
 title: Developing the prompt
 description: Use the guidelines to help create a prompt for your skill. A specific, clear, contextual prompt provides better results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-skill-kit/developing-the-prompt.html
 release: zurich
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit

@@ -2,6 +2,7 @@
 title: Workday configuration for succession pool report
 description: Retrieve the succession pool data based on succession pool and employee by creating the succession pool report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/wdhr-succession-pool-rep.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
@@ -30,7 +31,7 @@ Role required: User with access to report creation and the All Succession Pools 
 
 Create all calculated fields so that these fields can be used while developing report.
 
--   Calculated field 1: Create Aggregate Related Instances type calculated field named **CF\_worker succession pool**. ![CF_worker succession pool calculated field configuration](../image/wdhr-succession-pool-rep-1.png)
+-   Calculated field 1: Create Aggregate Related Instances type calculated field named **CF\_worker succession pool**. \[Omitted image "wdhr-succession-pool-rep-1.png"\] Alt text: CF\_worker succession pool calculated field configuration
 
 ## Procedure
 
@@ -46,51 +47,51 @@ Create all calculated fields so that these fields can be used while developing r
 
 6.  Do not select the **Temporary report** option and click **OK**.
 
-    ![Report setup with All Succession Pools data source](../image/wdhr-succession-pool-rep-2.png)
+    \[Omitted image "wdhr-succession-pool-rep-2.png"\] Alt text: Report setup with All Succession Pools data source
 
 7.  Select the report business object and report fields.
 
-    ![Columns tab with business objects and fields](../image/wdhr-succession-pool-rep-3.png)![Columns tab continued with CF_worker succession pool fields](../image/wdhr-succession-pool-rep-4.png)
+    \[Omitted image "wdhr-succession-pool-rep-3.png"\] Alt text: Columns tab with business objects and fields\[Omitted image "wdhr-succession-pool-rep-4.png"\] Alt text: Columns tab continued with CF\_worker succession pool fields
 
 8.  In **Group Column Heading** section, select all business object as below.
 
-    **Group Column Heading** for each business object will be blank. ![Group Column Headings configuration section of the report](../image/wdhr-succession-pool-rep-5.png)
+    **Group Column Heading** for each business object will be blank. \[Omitted image "wdhr-succession-pool-rep-5.png"\] Alt text: Group Column Headings configuration section of the report
 
 9.  In **Filter** section, select the value as given below.
 
-    Ensure to add parenthesis. ![Filter on Instances configuration](../image/wdhr-succession-pool-rep-6.png)
+    Ensure to add parenthesis. \[Omitted image "wdhr-succession-pool-rep-6.png"\] Alt text: Filter on Instances configuration
 
 10. In **Prompts** section, select the highlighted effective date as **prompt for effective as of date** and select the **Populate Undefined Prompt Defaults** option.
 
-    ![Prompts tab with runtime date prompts](../image/wdhr-succession-pool-rep-7.png)
+    \[Omitted image "wdhr-succession-pool-rep-7.png"\] Alt text: Prompts tab with runtime date prompts
 
 11. Select the value of prompts as given below under Prompt default section.
 
     Make sure the **Label For Prompt XML Alias** of all prompt fields must be same.
 
-    ![Prompt Defaults section of the report](../image/wdhr-succession-pool-rep-8.png)
+    \[Omitted image "wdhr-succession-pool-rep-8.png"\] Alt text: Prompt Defaults section of the report
 
 12. In **Advanced** section, select **Enable as webservice** option and click **OK**.
 
 13. Click on three dots icon and navigate to **Web Services** &gt; **View URLs** option once report configuration is done.
 
-    ![Web Service menu with View URLs](../image/wdhr-succession-pool-rep-9.png)
+    \[Omitted image "wdhr-succession-pool-rep-9.png"\] Alt text: Web Service menu with View URLs
 
 14. Select the succession pool for which you want to run this report.
 
-    If you want any specific worker from succession pool, select worker; otherwise leave it blank.![View URLs Web Services parameters](../image/wdhr-succession-pool-rep-10.png)
+    If you want any specific worker from succession pool, select worker; otherwise leave it blank.\[Omitted image "wdhr-succession-pool-rep-10.png"\] Alt text: View URLs Web Services parameters
 
 15. In View URLs Web Service page, click the marked icon under the **CSV** section.
 
     A new browser tab is opened.
 
-    ![View URLs page with CSV download](../image/wdhr-succession-pool-rep-11.png)
+    \[Omitted image "wdhr-succession-pool-rep-11.png"\] Alt text: View URLs page with CSV download
 
 16. View the RaaS URL of the report in the new browser tab.
 
     The RaaS URL of the report is displayed in new browser tab and you can obtain these details from the link.
 
-    ![RaaS URL in browser](../image/wdhr-succession-pool-rep-12.png)
+    \[Omitted image "wdhr-succession-pool-rep-12.png"\] Alt text: RaaS URL in browser
 
     -   `https://wd2-impl-services1.workday.com` is the base URL of customer's workday tenant.
     -   **Tenant\_Name** is the customer's workday tenant.

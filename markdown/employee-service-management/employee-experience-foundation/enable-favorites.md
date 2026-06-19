@@ -2,6 +2,7 @@
 title: Disable favorites
 description: Enable or disable the favorites options to display the favorites icon and access your favorites list for quick use. Favorites functionality is enabled by default on Employee Center and MESP.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/enable-favorites.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -39,7 +40,7 @@ Use the following steps to disable the favorites option.
 
 2.  Edit the portal to suit your needs.
 
-    For more information on the portal form fields and description, see [Create a portal](https://www.servicenow.com/docs/access?context=create-a-portal&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    For more information on the portal form fields and description, see Create a portal.
 
 3.  On the Employee Center portal, deselect the **Enable favorites** option to disable **My favorites** in the portal.
 

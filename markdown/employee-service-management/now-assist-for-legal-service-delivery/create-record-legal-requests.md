@@ -2,6 +2,7 @@
 title: Configure the semantic index settings for legal request tables
 description: Configure the semantic index settings to define how AI Search indexes the content from the legal request tables in the Now Assist for Legal Service Delivery \(LSD\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-legal-service-delivery/create-record-legal-requests.html
 release: zurich
 product: Now Assist for Legal Service Delivery
 classification: now-assist-for-legal-service-delivery
@@ -18,13 +19,13 @@ Configure the semantic index settings to define how AI Search indexes the conten
 
 ## Before you begin
 
-Set the application scope to **Legal Counsel Center** in the application picker. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+Set the application scope to **Legal Counsel Center** in the application picker. For more information, see Application picker.
 
 Role required: admin
 
 ## About this task
 
-These semantic index settings specify how AI Search indexes the content from the indexed source for use with the semantic vector search. For more information on the indexing of sources for AI Search, see [Semantic index configuration for indexed sources](https://www.servicenow.com/docs/access?context=semantic-index-cfg-ais&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+These semantic index settings specify how AI Search indexes the content from the indexed source for use with the semantic vector search. For more information on the indexing of sources for AI Search, see .
 
 ## Procedure
 
@@ -96,9 +97,9 @@ Name of the application to which the semantic index belongs.The **Application** 
 
 The data from the legal request tables are indexed for AI Search according to the semantic index settings.
 
-![Configure semantic index record to determine how AI Search indexes content from the legal request tables.](../image/lsd-agentic-add-semantic-record.png "Semantic index record")
+\[Omitted image "lsd-agentic-add-semantic-record.png"\] Alt text: Configure semantic index record to determine how AI Search indexes content from the legal request tables.
 
 ## What to do next
 
-Add fields to the semantic index record by selecting **body**. For more information, see [Add fields to the semantic index for legal records](add-field-legal-requests.md).
+Add fields to the semantic index record by selecting **body**. For more information, see [Add fields to the semantic index for legal records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-legal-service-delivery/add-field-legal-requests.md).
 

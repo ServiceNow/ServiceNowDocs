@@ -2,6 +2,7 @@
 title: Enable HTML Sanitizer within Virtual Agent \[Updated in Security Center 1.3 and 1.5\]
 description: Use the com.glide.cs.html.sanitizer.enabled property to enable HTMLSanitizerService.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-enable-html-sanitizer.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -25,7 +26,7 @@ This property controls the whether the HtmlSanitizerService is enabled. If **com
 |---------|-----------|
 |Property name|**com.glide.cs.html.sanitizer.enabled**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Validation, sanitization, and encoding](validation-sanitization-encoding.md)|
+|Category|[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)|
 |Purpose|Prevents application against cross site scripting and HTML injection attacks.|
 |Recommended value|true|
 |Default value|true|
@@ -33,7 +34,7 @@ This property controls the whether the HtmlSanitizerService is enabled. If **com
 |Functional impact|This remediation enforces HTML-output encoding mechanism before the user data is rendered back to the user. If customer has any customization that involves rendering of the HTML attribute or content data, then there is a functionality impact.|
 |Security risk|\(High\) User input should be securely treated when the data is being stored and processed on the application. This reduces client-side cross-site scripting attacks by output encoding the data.|
 
-To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

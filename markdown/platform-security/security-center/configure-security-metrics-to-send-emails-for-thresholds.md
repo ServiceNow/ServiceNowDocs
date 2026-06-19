@@ -2,6 +2,7 @@
 title: Configure Security Metrics to send email when thresholds are triggered
 description: Learn how to configure Security Metrics so that your instance generates an email notification when a threshold is triggered.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/security-center/configure-security-metrics-to-send-emails-for-thresholds.html
 release: zurich
 product: Security Center
 classification: security-center
@@ -59,7 +60,7 @@ Role required: admin
 
     -   When to send: Specifies what must occur to send the email notification. In this example, once the threshold you previously set is reached, the email is triggered.
     -   Who will receive: Specifies which users receive the notification. You can add users and groups.
-    -   What it will contain: Specifies the script action that a user can modify to customize the message that users and the group will receive. To learn more about creating script actions, see [Script actions](https://www.servicenow.com/docs/access?context=r_ScriptActions&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+    -   What it will contain: Specifies the script action that a user can modify to customize the message that users and the group will receive. To learn more about creating script actions, see .
 
-**Parent Topic:**[Security metrics](../concept/sc-metrics.md)
+**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/sc-metrics.md)
 

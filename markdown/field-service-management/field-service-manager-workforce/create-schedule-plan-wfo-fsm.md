@@ -2,6 +2,7 @@
 title: Create a schedule plan
 description: Manage your team's schedule by creating a schedule plan that covers a span of time and includes your team's work shifts. You can also assign agents to shifts based on their skills and availability to ensure you are using your resources efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-manager-workforce/create-schedule-plan-wfo-fsm.html
 release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -29,7 +30,7 @@ The **Total coverage/demand** row displays the number of agents covering each sh
 
 1.  Navigate to **All** &gt; **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule icon \(![Schedule icon.](../../workforce-optimization-for-customer-service-configurable/image/schedule-new.png)\).
+2.  Click the Schedule icon \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon.\).
 
 3.  Create a schedule plan.
 
@@ -37,8 +38,8 @@ The **Total coverage/demand** row displays the number of agents covering each sh
 
         **Note:** You can analyze the staff alignment for a day or for the week.
 
-    2.  In the contextual side panel, click the Show Schedules \(![Show Schedules icon.](../image/show-schedule-new.png)\) icon.
-    3.  In the Schedules panel, click the Create new ![Add Schedule Plan icon.](../image/add.png) icon.
+    2.  In the contextual side panel, click the Show Schedules \(\[Omitted image "show-schedule-new.png"\] Alt text: Show Schedules icon.\) icon.
+    3.  In the Schedules panel, click the Create new \[Omitted image "add.png"\] Alt text: Add Schedule Plan icon. icon.
     4.  In the **Name** field, enter a name for the schedule plan.
     5.  From the **Start date** field, select a date to start the schedule plan and click **OK**.
     6.  From the **End date** field, select a date to end the schedule plan and click **OK**.

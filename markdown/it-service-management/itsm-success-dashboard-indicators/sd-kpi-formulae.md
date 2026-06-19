@@ -2,6 +2,7 @@
 title: ITSM Success Dashboard indicators KPI definitions and formulas
 description: Enable ITSM Success Dashboard and configure settings to understand and use the Key Performance Indicators \(KPIs\) and formulas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-success-dashboard-indicators/sd-kpi-formulae.html
 release: zurich
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -21,12 +22,12 @@ All the Key Performance Indicators \(KPIs\) and formulas used in the ITSM Succes
 -   Service Quality
 -   Operational Success
 
--   **[Performance overview](performance-overview-ref.md)**  
+-   **[Performance overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-success-dashboard-indicators/performance-overview-ref.md)**  
 Performance overview details all the KPIs and metrics that help you analyse the benefits of your ITSM implementation.
--   **[Service Quality](service-quality-ref.md)**  
+-   **[Service Quality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-success-dashboard-indicators/service-quality-ref.md)**  
 Service quality lists all the KPIs that help you understand the quality of service offered when the employees raise a request to resolve their digital issues.
--   **[Operational Success](operational-success-ref.md)**  
+-   **[Operational Success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-success-dashboard-indicators/operational-success-ref.md)**  
 An operational KPI is a quantifiable measure that tracks the efficiency and effectiveness of day-to-day operations in your organization. The KPIs can be organized in a dashboard that highlights the areas that are running efficiently and the areas that need attention.
 
-**Parent Topic:**[Exploring ITSM Success Dashboard indicators](explore-success-dashboard-indicators.md)
+**Parent Topic:**[Exploring ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-success-dashboard-indicators/explore-success-dashboard-indicators.md)
 

@@ -2,6 +2,7 @@
 title: Discovery identifiers
 description: After Discovery classifies a configuration item \(CI\), it uses identifiers to determine if the device already exists in the CMDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/c\_DiscoveryIdentifiers.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -21,10 +22,6 @@ The identity probe in the base Discovery system can be configured to ask the dev
 
 **Important:** Serial numbers are necessary for accurate asset tracking. If you modified baseline probes, sensors, or patterns, verify that they still discover serial numbers. In addition, do not configure sensors or patterns to modify the serial number syntax, such as adding a custom prefix. Non-standard serial numbers can lead to inaccurate asset tracking.
 
-This diagram shows the processing flow for classifying and probing devices with identifiers configured.
-
-![Discovery identifiers](../image/DiscoveryIdentifiersDiagram.png)
-
 ## CMDB identifier tables
 
 |Table|Description|
@@ -34,7 +31,7 @@ This diagram shows the processing flow for classifying and probing devices with 
 
 ## Identifier rules
 
-The default Discovery system contains these identifier rules, each of which is associated with a specific CI type \(the **sys\_class\_name** field on the CI record\) or the table in the **Applies to** field and contains the appropriate attributes for discovering CIs from the specified table. Where necessary to discover all possible occurrences of an attribute, tables from related lists \(**Search on** tables\) are included in the rule. For more information, see [Create or edit a CI identification rule](https://www.servicenow.com/docs/access?context=t_CreateCIIdentificationRule&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+The default Discovery system contains these identifier rules, each of which is associated with a specific CI type \(the **sys\_class\_name** field on the CI record\) or the table in the **Applies to** field and contains the appropriate attributes for discovering CIs from the specified table. Where necessary to discover all possible occurrences of an attribute, tables from related lists \(**Search on** tables\) are included in the rule. For more information, see Create or edit a CI identification rule.
 
 <table id="table_r2p_1ql_lt"><thead><tr><th>
 
@@ -126,17 +123,17 @@ For example, you can create an identifier for a Linux server with different attr
 
 Your new rule would look like this:
 
-![Linux identifier rule](../image/linux-identifier-rule.png "Linux identifier rule")
+\[Omitted image "linux-identifier-rule.png"\] Alt text: Linux identifier rule
 
 ## Evaluation order for Discovery identifiers
 
 Custom identifiers must have different Order values than those of the default identifiers. Discovery parses identifiers and attributes in sequence from low order numbers to high. You can create identifiers to run before or after the default identifiers, or mixed in with the identifiers from the base system. To avoid any identifier or rule from running, disable it by clearing the **Active** check box. The evaluation order for CMDB identifiers is established within each rule and only controls the parsing order of the attributes in that rule.
 
-![CMDB identifier rules](../image/cmdb-identifier-rule-order.png "Evaluation order in CMDB identifier rules")
+\[Omitted image "cmdb-identifier-rule-order.png"\] Alt text: CMDB identifier rules
 
 ## Properties for processing duplicate CIs
 
-You can control how Discovery handles duplicate CIs with properties installed with Identification and Reconciliation. Use the `glide.identification_engine.skip_duplicates` and `glide.identification_engine.skip_duplicates.threshold` properties. For more information, see [Properties for Identification and Reconciliation](https://www.servicenow.com/docs/access?context=properties-id-reconciliation&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+You can control how Discovery handles duplicate CIs with properties installed with Identification and Reconciliation. Use the `glide.identification_engine.skip_duplicates` and `glide.identification_engine.skip_duplicates.threshold` properties. For more information, see Properties for Identification and Reconciliation.
 
 ## Properties that control identifier versions
 
@@ -144,14 +141,14 @@ All instances use identifiers from the CMDB Identification and Reconciliation fr
 
 **Note:** When Service Mapping is active, the new identifiers from the CMDB Identification and Reconciliation framework are always used regardless of the property value.
 
--   **[How Discovery identifiers work](c_HowDiscoveryIdentifiersWork.md)**  
+-   **[How Discovery identifiers work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_HowDiscoveryIdentifiersWork.md)**  
 When Discovery has determined the device's class, it launches an identity probe that is configured to run one or more commands with a single authentication.
--   **[Configure Discovery identity probes](../task/t_ConfigureDiscoveryIdentityProbes.md)**  
+-   **[Configure Discovery identity probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_ConfigureDiscoveryIdentityProbes.md)**  
 Identity probes are multi-probes, which contain one or more simple probes configured to extract specific information from manageable devices. You can create your own identity multi-probe to identify CIs that Discovery does not already identify.
--   **[Configure Discovery identity sensors](../task/t_ConfigDiscoIdentSens.md)**  
+-   **[Configure Discovery identity sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_ConfigDiscoIdentSens.md)**  
 If you customize an identify multi-probe, you can also configure a multi-sensor for it.
--   **[Serial number types for identification](../reference/r_SerialNumberTypes.md)**  
+-   **[Serial number types for identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_SerialNumberTypes.md)**  
 As Discovery finds CIs, their serial numbers are listed in the Serial Number \[cmdb\_serial\_number\] table so they are easy to identify. Serial number types vary depending on the CI, as described in the following examples.
 
-**Parent Topic:**[Configuring Discovery](c_DiscoveryConfiguration.md)
+**Parent Topic:**[Configuring Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_DiscoveryConfiguration.md)
 

@@ -2,6 +2,7 @@
 title: Nginx default checks and policies
 description: Agent Client Collector provides the following policies for Nginx health monitoring. Policies come with the checks specified in the indicated table. Policies and checks are available for both Windows and Linux.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/nginx-checks-policies.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -151,5 +152,5 @@ ws19-INC0047517.nginx.waiting 0 1640135552
 ```
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](agent-policies-checks.md)
+</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-policies-checks.md)
 

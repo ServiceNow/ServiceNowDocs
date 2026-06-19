@@ -2,6 +2,7 @@
 title: GlideEmailOutbound - Scoped
 description: The scoped GlideEmailOutbound API implements the email object for scoped applications. You can use the GlideEmailOutbound methods with the email global object available in mail scripts. The email object behaves identically for global and scoped applications.Instantiates a scoped GlideEmailOutbound object.Adds the address to either the cc or bcc list.Adds the recipient to either the cc or bcc list, but uses the display name instead of the address when showing the recipient.Returns the email's subject line.Returns the email's watermark.Sets the body of the email.Sets the sender's address.Sets the reply to address.Sets the email's subject line.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_GlideEmailOutboundScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The scoped GlideEmailOutbound API implements the email object for scoped applications. You can use the GlideEmailOutbound methods with the email global object available in mail scripts. The email object behaves identically for global and scoped applications.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideEmailOutbound - GlideEmailOutbound\(\)
 

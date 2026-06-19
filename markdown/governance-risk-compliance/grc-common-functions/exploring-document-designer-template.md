@@ -2,6 +2,7 @@
 title: Exploring the Microsoft Word based audit report templates
 description: Create and customize audit report templates using a Word template. You can configure this template to match your specific needs. Once the template is set up, it can be applied to one or more audit engagements, automatically generating audit reports in Word format.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/exploring-document-designer-template.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -22,5 +23,5 @@ This feature enables customers to build audit report templates using a Word temp
 1.  Ease of configuration: With the Word-based template, you can effortlessly set up and customize your audit report templates without needing in-depth technical knowledge.
 2.  Enhanced collaboration: Once generated, the audit report is a Word document that integrates seamlessly with Document designer, allowing for easy, real-time collaboration. This approach is more efficient than the current method, which involves editing a published KB article.
 
-**Parent Topic:**[Microsoft Word based audit report templates using Document designer](document-designer-template.md)
+**Parent Topic:**[Microsoft Word based audit report templates using Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/document-designer-template.md)
 

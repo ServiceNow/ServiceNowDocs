@@ -2,6 +2,7 @@
 title: Create a PaCE policy template
 description: Create PaCE templates for the PaCE policy forms that you use frequently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/policy-as-code-engine-pace/pace-create-policy-template.html
 release: zurich
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
@@ -80,7 +81,7 @@ Is low code
 Select this check box if the policy template will be written in low-code.**Note:** You can switch to the code editor from low-code when you create the conditions, but you’ll be unable to switch back to low-code.
 
 </td></tr></tbody>
-</table>    ![Create New Template form.](../image/pace-create-template-2.jpg)
+</table>    \[Omitted image "pace-create-template-2.jpg"\] Alt text: Create New Template form.
 
 4.  Select **Save**.
 
@@ -88,7 +89,7 @@ Select this check box if the policy template will be written in low-code.**Note:
 
 5.  Select the **Template Builder** tab and fill in the conditions in the Policy logic section, then **Save**.
 
-    For more information about the parameters and condition fields, see the [Passing parameters to PaCE policies](../concept/pace-passing-parameters.md) and [Policy logic condition fields](../reference/pace-policy-logic-fields.md) topic.
+    For more information about the parameters and condition fields, see the [Passing parameters to PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/policy-as-code-engine-pace/pace-passing-parameters.md) and [Policy logic condition fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/policy-as-code-engine-pace/pace-policy-logic-fields.md) topic.
 
 
 ## What to do next

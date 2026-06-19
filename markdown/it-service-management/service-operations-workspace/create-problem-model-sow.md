@@ -2,6 +2,7 @@
 title: Create a problem model in Service Operations Workspace
 description: Create custom Problem Management models with states and transitions tailored to your use cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/create-problem-model-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -17,9 +18,9 @@ Create custom Problem Management models with states and transitions tailored to 
 
 ## Before you begin
 
-See considerations for enabling Problem Management models at [Problem Management models in Service Operations Workspace](../concept/problem-mgmt-models-sow.md).
+See considerations for enabling Problem Management models at [Problem Management models in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/problem-mgmt-models-sow.md).
 
-Enable the system property **com.snc.problem\_management.models.enabled**. For more information, see [Enable Problem Management models in Service Operations Workspace](enable-problem-mgmt-models-sow.md).
+Enable the system property **com.snc.problem\_management.models.enabled**. For more information, see [Enable Problem Management models in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/enable-problem-mgmt-models-sow.md).
 
 Role required: admin
 
@@ -30,7 +31,7 @@ Role required: admin
     -   In the navigation filter, enter `prb_model.list`.
     -   Navigate to **All** &gt; **Problem** &gt; **Administration** &gt; **Problem Models**.
 
-        **Note:** For more information about enabling menu items for Problem Management models, see [Enable or disable an application menu or module](https://www.servicenow.com/docs/access?context=t_EnDisableAppMenuOrMod&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+        **Note:** For more information about enabling menu items for Problem Management models, see .
 
 2.  Create a problem model.
 
@@ -38,9 +39,9 @@ Role required: admin
 
     2.  On the Problem Model form, fill in the fields.
 
-        For more information, see [Problem model form](../../problem-management/reference/problem-model-form.md).
+        For more information, see [Problem model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/problem-model-form.md).
 
-3.  Choose the states for your custom model by selecting **Save** from the form context menu icon \(![Form context menu icon.](../../change-management/image/form-context-menu.png)\).
+3.  Choose the states for your custom model by selecting **Save** from the form context menu icon \(\[Omitted image "form-context-menu.png"\] Alt text: Form context menu icon.\).
 
     1.  From the Model States context menu that appears, select **New**.
 
@@ -53,7 +54,7 @@ Role required: admin
 
     3.  Select **Submit** for each state you choose.
 
-4.  Apply a transition to each model state by selecting the display/hide hierarchical lists icon \(![Display/hide hierarchical lists icon.](../../change-management/image/display-hide-hierarchial-lists.png)\).
+4.  Apply a transition to each model state by selecting the display/hide hierarchical lists icon \(\[Omitted image "display-hide-hierarchial-lists.png"\] Alt text: Display/hide hierarchical lists icon.\).
 
     1.  From the Model State Transitions context menu, select **New**.
 
@@ -73,7 +74,7 @@ Role required: admin
 
     2.  On the Model State Transition Condition form, fill in the fields.
 
-        For more information, see [Problem Management model state transition condition form](../../problem-management/reference/problem-model-state-transition-condition.md).
+        For more information, see [Problem Management model state transition condition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/problem-model-state-transition-condition.md).
 
     3.  Select **Submit** for each transition condition that you add.
 

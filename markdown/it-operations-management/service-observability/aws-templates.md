@@ -2,6 +2,7 @@
 title: Amazon CloudWatch templates for Service Observability
 description: Templates used to create Amazon CloudWatch dashboards in Service Observability. You can edit these templates as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-observability/aws-templates.html
 release: zurich
 product: Service Observability
 classification: service-observability
@@ -15,12 +16,12 @@ breadcrumb: [Service Observability templates, Service Observability reference, S
 
 Templates used to create Amazon CloudWatch dashboards in Service Observability. You can edit these templates as needed.
 
-See [Customize Service Observability dashboard templates](../task/customize-service-observability-dashboard-templates.md) for more information.
+See [Customize Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/customize-service-observability-dashboard-templates.md) for more information.
 
--   **[Amazon CloudWatch Overview tab for Service Observability](aws-overview-tab-for-service-observability.md)**  
+-   **[Amazon CloudWatch Overview tab for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/aws-overview-tab-for-service-observability.md)**  
 Information that is displayed on the Amazon CloudWatch **Overview** tab of the Service Details page in the SOW.
--   **[Amazon CloudWatch Observability tab for Service Observability](aws-observability-tab-for-service-observability.md)**  
+-   **[Amazon CloudWatch Observability tab for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/aws-observability-tab-for-service-observability.md)**  
 Dashboard and charts on the Amazon CloudWatch tab of the Service Details page in the SOW.
 
-**Parent Topic:**[Service Observability templates](observability-templates.md)
+**Parent Topic:**[Service Observability templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/observability-templates.md)
 

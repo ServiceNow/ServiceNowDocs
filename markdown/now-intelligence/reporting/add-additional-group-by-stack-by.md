@@ -2,6 +2,7 @@
 title: Add an additional group by or stack by
 description: You can configure a report to let users adjust its grouping and stacking.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/add-additional-group-by-stack-by.html
 release: zurich
 product: Reporting
 classification: reporting
@@ -37,7 +38,7 @@ Configure **Additional group by** and **Stack by** choices that users can select
 
 3.  On the Configure tab, select **Additional group by**.
 
-    ![Additional group by example](../image/additional-group-by-stack-by.png)
+    \[Omitted image "additional-group-by-stack-by.png"\] Alt text: Additional group by example
 
 4.  Move one or more fields to the **Selected** list.
 
@@ -49,12 +50,12 @@ Configure **Additional group by** and **Stack by** choices that users can select
 
     **Note:** Only bar and horizontal bar reports use stacked data. Other report types allow only grouping.
 
-6.  Arrange the fields in the **Selected** column in the order you want them to appear to users.![Additional group by - ordering example](../image/additional-group-by-stack-by-order.png)
+6.  Arrange the fields in the **Selected** column in the order you want them to appear to users.\[Omitted image "additional-group-by-stack-by-order.png"\] Alt text: Additional group by - ordering example
 
 7.  Select **OK**.
 
 8.  Select **Save**.
 
 
-**Parent Topic:**[Advanced Core UI reporting topics](../concept/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_AdvancedReporting.md)
 

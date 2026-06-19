@@ -2,6 +2,7 @@
 title: Work on amendment request
 description: Review and work on an amendment request for an existing contract.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cmpro-amend-work.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -17,7 +18,7 @@ Review and work on an amendment request for an existing contract.
 
 ## Before you begin
 
-The practice area lead or group manager should have assigned you the request. If not, you can open the request to [assign it to yourself or someone in the group](../../legal-request-management/task/assign-legal-request-1.md).
+The practice area lead or group manager should have assigned you the request. If not, you can open the request to [assign it to yourself or someone in the group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
 Role required: sn\_cm\_core.contract\_fulfiller
 
@@ -40,15 +41,15 @@ A sample workflow while working on an amendment request would be:
 
 2.  On the **Lists** tab, navigate to **Contract Requests** and open a contract.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d85160e112">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d88291e112">
 
 Option
 
-</th><th align="left" id="d85160e115">
+</th><th align="left" id="d88291e115">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d85160e121">
+</th></tr></thead><tbody><tr><td id="d88291e121">
 
 **As an assignee**
 
@@ -60,7 +61,7 @@ Steps
 
 The state and the Contract status of the contract request is Work in progress.
 
-</td></tr><tr><td id="d85160e150">
+</td></tr><tr><td id="d88291e150">
 
 **As a collaborator**
 
@@ -83,7 +84,7 @@ The state and the Contract status of the contract request is Work in progress.
 
     1.  Navigate to the Contract request details section.
 
-    2.  In the field, **Parent contract record**, select the Search for Record icon \(![Search for Record icon](../image/lsd-cont-rec-search.png)\).
+    2.  In the field, **Parent contract record**, select the Search for Record icon \(\[Omitted image "lsd-cont-rec-search.png"\] Alt text: Search for Record icon\).
 
     3.  Select the contract from the Parent contract pop-up window.
 
@@ -93,9 +94,9 @@ The state and the Contract status of the contract request is Work in progress.
 
     To automatically copy values from the parent contract request to the amendment request, you must configure the fields in the ContractManagementExt extension point. The values are copied from the parent contract selected during submitting the amendment request.
 
-    For more information, see [Copy fields from parent request to contract request](cncore-copy-fld-frm-parent.md).
+    For more information, see [Copy fields from parent request to contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-copy-fld-frm-parent.md).
 
-6.  In the Request details section, review the Description field for the amendments requested. ![Review the description field for the amendments requested](../image/cmpro-amend-view-description.png)
+6.  In the Request details section, review the Description field for the amendments requested. \[Omitted image "cmpro-amend-view-description.png"\] Alt text: Review the description field for the amendments requested
 
 7.  Update the contract request.
 
@@ -115,7 +116,7 @@ The state and the Contract status of the contract request is Work in progress.
 
         The document opens in a new tab.
 
-    5.  Select the Download icon \(![Download icon](../../legal-request-management/image/download-icon.png)\)
+    5.  Select the Download icon \(\[Omitted image "download-icon.png"\] Alt text: Download icon\)
 
         The document is downloaded into your system.
 
@@ -152,14 +153,14 @@ The state and the Contract status of the contract request is Work in progress.
 
     |Options|Steps|
     |-------|-----|
-    |**Ad hoc approval**|[Initiate an ad hoc approval for a contract document revision](../../lsd-sn-legal-contracts/task/snlc-initiate-approval-cr.md)|
-    |**Internal review**|[Request an internal review](../../lsd-sn-legal-contracts/task/snlc-add-review-task.md).|
+    |**Ad hoc approval**|[Initiate an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-initiate-approval-cr.md)|
+    |**Internal review**|[Request an internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-add-review-task.md).|
     |**Email communication**|Set up an email to stakeholders to request to have the completed contract document reviewed and the changes confirmed using **Compose Email** option.|
     |**Signature workflow**| |
 
 13. Send the contract amendment document for signature.
 
-    For more information, see [Signature workflow for a request](../../lsd-sn-legal-contracts/concept/snlc-lsd-signature-workflow.md)
+    For more information, see [Signature workflow for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md)
 
 
 ## Result
@@ -173,9 +174,9 @@ The state and the Contract status of the contract request is Work in progress.
     -   Contract Requests: Displays all contract and amendment requests associated with the contract repository record.
     -   Amendment Field Changes: Shows a detailed log of all field changes made through amendments. Example: Change in the contract end date is available in this tab.
 
-        ![View the field changes due to amendment](../../lsd-sn-legal-contracts/image/snlc-amend-field-changes.png)
+        \[Omitted image "snlc-amend-field-changes.png"\] Alt text: View the field changes due to amendment
 
     -   Attachment pane: View the certificate of completion for the contract and amendment requests if electronic signature was selected.
 
-**Parent Topic:**[Contract amendments](cmpro-amend-landing.md)
+**Parent Topic:**[Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-amend-landing.md)
 

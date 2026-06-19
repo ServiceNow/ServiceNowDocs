@@ -2,6 +2,7 @@
 title: Save an update set as a local XML file
 description: Administrators can export an update set as an XML file to save a specific version of an application or set of changes.Administrators can load an update set XML file to apply a specific version of an application or set of changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/system-update-sets/t\_SaveAnUpdateSetAsAnXMLFile.html
 release: zurich
 product: System Update Sets
 classification: system-update-sets
@@ -52,7 +53,7 @@ Both **Export to XML** UI actions depend on the script include ExportWithRelated
     An XML file is created. When the file is uploaded to another instance, it appears as a retrieved update set regardless of whether it is local or retrieved on the instance where it is created.
 
 
-**Parent Topic:**[Working with update sets](../concept/using-system-update-sets.md)
+**Parent Topic:**[Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/using-system-update-sets.md)
 
 ## Load customizations from a single XML file
 
@@ -78,6 +79,6 @@ Roles required: admin
 
 6.  Follow standard procedure to commit the update set.
 
-    ![Retrieved update set](../image/LoadUpdateSetFromXML.png "Retrieved update sets")
+    \[Omitted image "LoadUpdateSetFromXML.png"\] Alt text: Retrieved update set
 
 

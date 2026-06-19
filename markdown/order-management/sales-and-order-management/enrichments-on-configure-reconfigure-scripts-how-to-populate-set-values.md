@@ -2,6 +2,7 @@
 title: Scripting: How to populate set values
 description: View a detailed example of how to use an On Configure/Reconfigure blueprint enrichment script to load field values into a set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/enrichments-on-configure-reconfigure-scripts-how-to-populate-set-values.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -32,7 +33,7 @@ To complete this example you need:
 
 In the ServiceNow CPQ Admin screen, find the external connections under Utilities.
 
-![Admin screen](../images/cpq-admin-external-connections.png)
+\[Omitted image "cpq-admin-external-connections.png"\] Alt text: Admin screen
 
 1.  Set the integration type to Salesforce.
 2.  Define the SOQL query to make. In this example, we are retrieving all the contacts that are associated with a particular account and storing the last name.
@@ -70,7 +71,7 @@ return cfgRequest;
 
 ## Script walkthrough
 
-![Admin screen](../images/cpq-script-populate-set-values.png)
+\[Omitted image "cpq-script-populate-set-values.png"\] Alt text: Admin screen
 
 1.  The setData array is initialized as an empty array \(line 1\).
 2.  Check whether the set already has data in it, either from the API payload or from a previous configuration \(line 3\).

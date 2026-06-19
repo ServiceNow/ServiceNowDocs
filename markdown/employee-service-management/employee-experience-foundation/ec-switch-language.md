@@ -2,6 +2,7 @@
 title: Multilingual support in the Content Library
 description: The Content Library includes two features for multilingual content creation: Translate content \(content translation workflow\) and Switch language \(changes the interface language\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ec-switch-language.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -28,7 +29,7 @@ When the Translations and Language switching properties are enabled, the Content
     The Translate content option sends the content for translation in the specified language.
 
 
-For more information on the properties, see [Properties installed with Content Publishing](../reference/properties-with-content-delivery.md).
+For more information on the properties, see [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md).
 
 ## Translating content in the Content Library
 
@@ -38,15 +39,15 @@ After you are done creating content, you can initiate the translation workflow t
 
 The following provides an overview of the base translation workflow. The admin for your company may configure additional translation modes, such as an integration with a third-party service to automate translation.
 
-![Translate content workflow sends a request to the localization user to perform the translation](../images/ec-translation-workflow.png)
+\[Omitted image "ec-translation-workflow.png"\] Alt text: Translate content workflow sends a request to the localization user to perform the translation
 
 1.  The Content manager requests content translation from the Content Library or Block content interface and specifies the languages.
 2.  The system creates a localization request item \(prefix LRITM\) for each language selected. Each localization request item has an associated localization task \(prefix LFTASK\), which is assigned to the user or group with the localization\_fulfiller role.
 
     The Content manager can view the status of the localization request item from the **Localization Framework** &gt; **My Requested Items** list.
 
-3.  The user with the localization\_fulfiller role performs the translation. For more details, see [Fulfill a localization task](https://www.servicenow.com/docs/access?context=fulfill-localization-task&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
-4.  When the localization request item has a `Closed complete` state, the Content manager can schedule the content for publishing, see [Create a publish plan for your content](../task/ec-content-library-publish2.md). The system uses the same content schedule for the original and translated content.
+3.  The user with the localization\_fulfiller role performs the translation. For more details, see Fulfill a localization task.
+4.  When the localization request item has a `Closed complete` state, the Content manager can schedule the content for publishing, see [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md). The system uses the same content schedule for the original and translated content.
 
 ## Changing the Content Library interface language
 
@@ -67,7 +68,7 @@ The Switch language window displays available languages, each appended by one of
     Translation for the field values is not available. In this case, only the interface language is translated, while the values entered in the form remain unchanged.
 
 
-![Switching to French-translated option will change the interface text and the user-input values to French](../images/ec-switch-language.png)
+\[Omitted image "ec-switch-language.png"\] Alt text: Switching to French-translated option will change the interface text and the user-input values to French
 
 **Note:** Remember to switch back to your original language before leaving the page, otherwise the ServiceNow interface will continue to appear in the translated language.
 
@@ -80,5 +81,5 @@ Customers who create content in a non-English language should use of the the fol
 -   Turn off Content versioning, then click the **Switch Language** button to enter the content in a non-English language.
 -   Enter the content in English, then use the **Translate Content** button to initiate the translation workflow.
 
-For more information, see [Content versioning](ec-content-versioning.md).
+For more information, see [Content versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-versioning.md).
 

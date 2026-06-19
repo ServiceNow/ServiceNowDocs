@@ -2,6 +2,7 @@
 title: Proficiency level autofill configuration form
 description: Form to create a configuration to autofill the proficiency for a skill.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/proficiency-autofill-form.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -92,5 +93,5 @@ The type of progression based on the option selected in the **Progression** fiel
 -   Spread - The progression is uniformly spread across the job levels.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Skills Foundation Reference](../concept/skills-intelligence-reference.md)
+</table>**Parent Topic:**[Skills Foundation Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/skills-intelligence-reference.md)
 

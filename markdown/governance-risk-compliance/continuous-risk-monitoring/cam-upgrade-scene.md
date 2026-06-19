@@ -2,6 +2,7 @@
 title: Control requirement generation and upgrade steps
 description: The Creates controls automatically and Create control requirements options in the control objective form and the state of the authorization package are important to create control requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/continuous-risk-monitoring/cam-upgrade-scene.html
 release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring

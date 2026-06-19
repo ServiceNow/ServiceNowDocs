@@ -2,6 +2,7 @@
 title: Associate an existing Outside Counsel to a legal matter
 description: Add existing outside counsels to a legal matter and enable the patent fulfiller to communicate with the outside counsel for reviewing and processing the Legal Invention Disclosure requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-invention-disclosure/add-outside-counsel-to-existing-matter.html
 release: zurich
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
@@ -19,9 +20,9 @@ Add existing outside counsels to a legal matter and enable the patent fulfiller 
 
 The following items must have been created:
 
--   An Outside Firm record. For more information, see [Set up Outside Firms for Legal Invention Disclosure](setup-outside-firms.md).
--   An Outside Counsel record. For more information, see [Set up Outside Counsels for Legal Invention Disclosure](setup-outside-counsels.md).
--   A related legal matter. For more information, see [Create a matter or add a Legal Invention Disclosure request to an existing matter](create-matter.md).
+-   An Outside Firm record. For more information, see [Set up Outside Firms for Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-invention-disclosure/setup-outside-firms.md).
+-   An Outside Counsel record. For more information, see [Set up Outside Counsels for Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-invention-disclosure/setup-outside-counsels.md).
+-   A related legal matter. For more information, see [Create a matter or add a Legal Invention Disclosure request to an existing matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-invention-disclosure/create-matter.md).
 
 You must have the invention disclosure request ID and the matter ID.
 
@@ -31,7 +32,7 @@ Role required: admin, sn\_lg\_ops.request\_fulfiller
 
 1.  Navigate to **All** &gt; **Legal Counsel Center**.
 
-2.  Select the List icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\) from the primary navigation and in the Legal Requests section of the **Lists** menu, select **All**.
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\) from the primary navigation and in the Legal Requests section of the **Lists** menu, select **All**.
 
 3.  Select and open the request.
 
@@ -57,5 +58,5 @@ Role required: admin, sn\_lg\_ops.request\_fulfiller
 10. Verify that the outside counsel was added by refreshing the Outside Counsel tab.
 
 
-**Parent Topic:**[Using the Legal Invention Disclosure](../concept/use-legal-invention-disclosure.md)
+**Parent Topic:**[Using the Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-invention-disclosure/use-legal-invention-disclosure.md)
 

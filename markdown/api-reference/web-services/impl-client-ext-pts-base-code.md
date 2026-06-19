@@ -2,6 +2,7 @@
 title: Creating and adding a client extension point
 description: Create client extension points and add them to the client-side UI scripts in the base application code.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/impl-client-ext-pts-base-code.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -17,10 +18,10 @@ Create client extension points and add them to the client-side UI scripts in the
 
 Use a client extension point to designate the specific location where data or objects can be sent to a registered custom UI script and where returned results are processed.
 
--   **[Create a client extension point](../task/create-client-ext-pt.md)**  
+-   **[Create a client extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/create-client-ext-pt.md)**  
 Create a client extension point that you can place in the UI scripts in the application code. By placing the client extension point, you designate the specific location in the application code where data or objects can be sent to a customization, and where data is returned.
--   **[Add a client extension point in the base application code](../task/add-client-ext-pt-base-code-ui-script.md)**  
+-   **[Add a client extension point in the base application code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/add-client-ext-pt-base-code-ui-script.md)**  
 Add the UI extension point into a UI script in the base application code. To add the extension point, place an API call that identifies the location at which registered custom artifacts execute.
 
-**Parent Topic:**[Using client extension points in client-side UI scripting](client-extension-points.md)
+**Parent Topic:**[Using client extension points in client-side UI scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/client-extension-points.md)
 

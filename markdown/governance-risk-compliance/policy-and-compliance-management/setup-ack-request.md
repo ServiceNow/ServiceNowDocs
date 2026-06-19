@@ -2,6 +2,7 @@
 title: Set up a policy acknowledgement campaign
 description: A policy campaign is the record used to prepare for a policy acknowledgement request. It defines the audience who must provide an acknowledgement that a particular policy is in compliance. A policy campaign is requested only if the compliance user decides it is needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/setup-ack-request.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -25,11 +26,11 @@ Role required: Compliance User
 
 2.  Open the Policy record in the **Published** state you want to acknowledge.
 
-    ![Published policy](../image/policy-published.png)
+    \[Omitted image "policy-published.png"\] Alt text: Published policy
 
 3.  Scroll down and click the **Acknowledgement Setup** related list.
 
-    ![Acknowledgement Setup related list](../image/acknowledgement_setup.png)
+    \[Omitted image "acknowledgement\_setup.png"\] Alt text: Acknowledgement Setup related list
 
 4.  On the form, fill in the fields.
 
@@ -47,7 +48,7 @@ Audience
 
 </td><td>
 
-Select the employees who are responsible for acknowledging the policy. You define the audience using the [Audience module](create-audience.md).
+Select the employees who are responsible for acknowledging the policy. You define the audience using the [Audience module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/create-audience.md).
 
 </td></tr><tr><td>
 
@@ -71,18 +72,18 @@ Allow users to request exception
 
 </td><td>
 
-Select if you want to members of the audience to be able to [request a policy exception](request-policy-exception.md).
+Select if you want to members of the audience to be able to [request a policy exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/request-policy-exception.md).
 
 </td></tr></tbody>
 </table>5.  Save the record.
 
 6.  Scroll down and click the **Acknowledgement Campaigns** related list.
 
-    ![Acknowledgement Campaigns tab](../image/ack-campaigns.png)
+    \[Omitted image "ack-campaigns.png"\] Alt text: Acknowledgement Campaigns tab
 
 7.  Click **New**.
 
-    ![New campaign](../image/new-campaign.png)
+    \[Omitted image "new-campaign.png"\] Alt text: New campaign
 
     **Note:** Notice that the majority of the fields are pre-filled with data from the policy record.
 
@@ -152,8 +153,8 @@ This tab shows details and requirements from the policy, as well as the **Refere
     The acknowledgement request is now ready for you to send to the defined audience.
 
 
--   **[Create an audience](create-audience.md)**  
+-   **[Create an audience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/create-audience.md)**  
 When you set up a policy acknowledgement request, you must identify an audience responsible for providing the acknowledgement.
 
-**Parent Topic:**[Acknowledge a policy](../concept/ack-policy.md)
+**Parent Topic:**[Acknowledge a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/ack-policy.md)
 

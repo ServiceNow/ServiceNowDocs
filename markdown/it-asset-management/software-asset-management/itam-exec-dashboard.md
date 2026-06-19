@@ -2,6 +2,7 @@
 title: Executive insights into KPIs using the Asset Management Executive dashboard
 description: Use the Asset Management Executive dashboard to gain visibility into critical KPIs for the Software Asset Management application, Hardware Asset Management application, and the Cloud Cost Management application via a single dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/itam-exec-dashboard.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -19,7 +20,7 @@ To access the Asset Management Executive dashboard, you must either have the Sof
 
 To view the Asset Management Executive dashboard, navigate to **Asset Executive Workspace** &gt; **Asset Management Executive Dashboard**. A user with the role of sn\_itam\_common.asset\_exec can access the dashboard.
 
-![Asset Management Executive Dashboard.](../image/itam-exec-dboard.png "Asset Management Executive Dashboard")
+\[Omitted image "itam-exec-dboard.png"\] Alt text: Asset Management Executive Dashboard.
 
 You can filter the results in the dashboard by product, domain, or by both product and domain. If you filter by domain, the filter gets applied to all the widgets. If you filter by product, since some widgets are specific to certain products, the filter is not applied to all the widgets.
 
@@ -299,5 +300,5 @@ Number of hardware models that are reaching their end of life in the next 90 day
 Not applicable.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Software Asset Management](explore-sam-workspace.md)
+</table>**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

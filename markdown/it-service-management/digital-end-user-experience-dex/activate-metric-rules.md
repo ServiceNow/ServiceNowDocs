@@ -1,19 +1,20 @@
 ---
-title: Activate or deactivate metric rules
-description: Activate or deactivate metric rules to streamline monitoring and adapt to changing needs, enhancing operational efficiency.
+title: Activate or deactivate alert rules
+description: Activate or deactivate alert rules to streamline monitoring and adapt to changing needs, enhancing operational efficiency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/activate-metric-rules.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
-breadcrumb: [Metrics collection and metric rules, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Alert rules, Configure, Digital End-User Experience, IT Service Management]
 ---
 
-# Activate or deactivate metric rules
+# Activate or deactivate alert rules
 
-Activate or deactivate metric rules to streamline monitoring and adapt to changing needs, enhancing operational efficiency.
+Activate or deactivate alert rules to streamline monitoring and adapt to changing needs, enhancing operational efficiency.
 
 ## Before you begin
 
@@ -23,20 +24,20 @@ Role required: sn\_dex.admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the DEX Administration icon \(![](../image/icon-administration.png)\).
+2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text:\).
 
-3.  Select **Configure** on the Metric rules card.
+3.  Select **Configure** on the Alert rules card.
 
-    The list of metric rules appears.
+    The list of alert rules appears.
 
-4.  On the Update metric rule page, select **Name the rule**.
+4.  On the Update alert rule page, select **Name the rule**.
 
-5.  Under Rule status, use the **Active** slider \(![Use the toggle switch to activate the alert rule.](../image/icon-toggle-button-enabled.png)\) to enable the rule.
+5.  Under Rule status, use the **Active** slider \(\[Omitted image "icon-toggle-button-enabled.png"\] Alt text: Use the toggle switch to activate the alert rule.\) to enable the rule.
 
-    If you want to deactivate an active metric rule, simply slide the toggle switch to the off position.
+    If you want to deactivate an active alert rule, simply slide the toggle switch to the off position.
 
 6.  Select **Update**.
 
 
-**Parent Topic:**[Managing DEX metrics collection and metric rules](../concept/dex-metrics-metric-rules-management.md)
+**Parent Topic:**[Managing DEX alert rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dex-metrics-metric-rules-management.md)
 

@@ -2,6 +2,7 @@
 title: WorkflowDuration - Global
 description: The WorkflowDuration script include provides methods to calculates the duration \(in seconds\) based on the variables of a workflow activity. It is an interface between Workflow Timer\(\) and DurationCalculator\(\).Adds the number of seconds to the specified start date/time.Calculates the number of seconds and the due date.Calculates the number of seconds remaining to the specified end date/time.Returns the end date/time set by a call to calculate\(record\).Returns the seconds value that was set by a call to calculate\(record\).Returns the totalSeconds value that was set by a call to calculate\(record\).Sets the end date/time to use when calculating the remaining time.Sets the end date/time to use when calculating the remaining time.Sets the start date/time to use in the calculations.Sets the start date/time to use in the calculations.Sets the used seconds compensation, where the number of seconds is the number of seconds inside of any schedule.Sets the workflow schedule/timezone. Used for schedule\_type workflow\_schedule and timezone\_type workflow\_timezone\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_WorkflowDurationAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The WorkflowDuration script include provides methods to calculates the duration \(in seconds\) based on the variables of a workflow activity. It is an interface between Workflow Timer\(\) and DurationCalculator\(\).
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## WorkflowDuration - addSeconds\(GlideRecord record, Number amount\)
 

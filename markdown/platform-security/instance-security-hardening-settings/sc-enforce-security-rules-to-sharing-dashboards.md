@@ -2,6 +2,7 @@
 title: Enforce security rules to sharing dashboards \[New in Security Center 1.3\]
 description: Use the glide.cms.dashboards.sharing\_with\_secure\_search property to control whether users can share dashboards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-enforce-security-rules-to-sharing-dashboards.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -73,7 +74,7 @@ Category
 
 </td><td>
 
-[Access control](sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -99,7 +100,7 @@ References
 
 </td><td>
 
-[Access control](https://www.servicenow.com/docs/access?context=access-control&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US)
+
 
 </td></tr><tr><td>
 
@@ -110,5 +111,5 @@ Functional impact
 This property applies security rules to the list of users, user groups, and roles that are visible when sharing dashboards.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

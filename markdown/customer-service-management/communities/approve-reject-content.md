@@ -2,6 +2,7 @@
 title: Approve or reject content
 description: Approve or reject content that a user reported as inappropriate or that is associated with a particular community profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/communities/approve-reject-content.html
 release: zurich
 product: Communities
 classification: communities
@@ -45,5 +46,5 @@ Each task requires the moderator to approve or reject the reported item. If the 
     **Note:** You can review the outcome of existing and past moderation tasks by navigating to **Community** &gt; **Moderation** &gt; **Moderation Outcomes**. Click a task to view the details of the moderation task.
 
 
-**Parent Topic:**[Moderate a community](moderate-communities.md)
+**Parent Topic:**[Moderate a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/moderate-communities.md)
 

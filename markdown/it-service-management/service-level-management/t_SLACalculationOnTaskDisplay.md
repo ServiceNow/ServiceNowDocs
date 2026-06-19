@@ -2,6 +2,7 @@
 title: Recalculate SLA times automatically
 description: By default when a user opens a task, the SLA timing information for that task is not automatically recalculated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-level-management/t\_SLACalculationOnTaskDisplay.html
 release: zurich
 product: Service Level Management
 classification: service-level-management
@@ -34,5 +35,5 @@ You can enable this information to be automatically recalculated each time the t
 3.  Click **Save**.
 
 
-**Parent Topic:**[SLA calculation](../reference/r_SLAAutomation.md)
+**Parent Topic:**[SLA calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-level-management/r_SLAAutomation.md)
 

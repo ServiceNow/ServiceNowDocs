@@ -2,6 +2,7 @@
 title: Set up mappings between themes
 description: Make sure that playbooks run as expected in your Service Portal by setting up mappings between your Service Portal theme and the UXF theme used in UI Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/set-up-mappings-between-themes.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -31,15 +32,15 @@ The Portal Playbook widget uses a system property **ux\_portal\_theme\_to\_uib\_
 
 3.  Enter values for the following fields.
 
-<table id="choicetable_aw3_gbw_ybc"><thead><tr><th align="left" id="d127758e99">
+<table id="choicetable_aw3_gbw_ybc"><thead><tr><th align="left" id="d65723e99">
 
 Field
 
-</th><th align="left" id="d127758e102">
+</th><th align="left" id="d65723e102">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d127758e108">
+</th></tr></thead><tbody><tr><td id="d65723e108">
 
 **Name**
 
@@ -47,7 +48,7 @@ Description
 
 Specify your Service Portal property in the name. Give your system property the name **ux\_portal\_theme\_to\_uib\_theme\_mapping.\[the sys ID of your service portal theme\]**. For example, if you use the La Jolla theme for your Service Portal, it has a sys ID of a7a6e78277002300a6e592718a10617a​. You would enter **ux\_portal\_theme\_to\_uib\_theme\_mapping.a7a6e78277002300a6e592718a10617a​** as the name.​
 
-</td></tr><tr><td id="d127758e129">
+</td></tr><tr><td id="d65723e129">
 
 **Value**
 
@@ -69,7 +70,7 @@ The mapping between your Service Portal theme and the UXF theme is saved. Launch
 
 Embed a playbook in a Service Portal page and customize the Service Portal playbook runtime experience in the ServiceNow AI Platform®.
 
-To learn more about customizing the playbook runtime experience in Service Portal, see [Embed the playbook in Service Portal](embed-playbook-service-portal.md).
+To learn more about customizing the playbook runtime experience in Service Portal, see [Embed the playbook in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/embed-playbook-service-portal.md).
 
-**Parent Topic:**[Playbooks in Service Portal](../concept/playbooks-service-portal.md)
+**Parent Topic:**[Playbooks in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbooks-service-portal.md)
 

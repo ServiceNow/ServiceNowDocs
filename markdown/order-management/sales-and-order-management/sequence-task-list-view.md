@@ -2,6 +2,7 @@
 title: My sequence task list view
 description: Description of the details displayed on the My sequence task list view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/sequence-task-list-view.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -89,5 +90,5 @@ Added at
 Timestamp when the sequence task was created.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Customer Engagement Sequences reference](../concept/customer-engagement-sequences-reference.md)
+</table>**Parent Topic:**[Customer Engagement Sequences reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/customer-engagement-sequences-reference.md)
 

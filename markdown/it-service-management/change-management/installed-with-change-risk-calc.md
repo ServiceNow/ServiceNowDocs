@@ -2,6 +2,7 @@
 title: Installed with Best Practice - Change Risk Calculator
 description: Several types of components are installed with the Best Practice- Change Risk Calculator.Best Practice- Change Risk Calculator adds the following table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/installed-with-change-risk-calc.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -15,7 +16,7 @@ breadcrumb: [Activate Best Practice - Change Risk Calculator, Plugins, Configure
 
 Several types of components are installed with the Best Practice- Change Risk Calculator.
 
-**Parent Topic:**[Activate Best Practice - Change Risk Calculator](../task/activate-change-risk-calculator.md)
+**Parent Topic:**[Activate Best Practice - Change Risk Calculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/activate-change-risk-calculator.md)
 
 ## Tables installed with Best Practice - Change Risk Calculator
 

@@ -2,6 +2,7 @@
 title: Activate a scheduled job to migrate budget of your planning items
 description: Activate the Migrate budget for active demands and projects scheduled job to migrate budget of active planning items from Classic UI to Next Experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/fin-migrate-budget-scheduled-job-spw.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -29,7 +30,7 @@ Role required: admin
 
 4.  Edit the fields on the Scheduled Script Execution form to customize the job and meet your requirements.
 
-    For more information about the field description and scripts, see [Automatically run a script of your choosing](https://www.servicenow.com/docs/access?context=t_ScheduleAScriptExecution&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US#t_ScheduleScriptExecution).
+    For more information about the field description and scripts, see .
 
 5.  Select **Execute Now** to execute the scheduled job or select **Update** to save your changes.
 

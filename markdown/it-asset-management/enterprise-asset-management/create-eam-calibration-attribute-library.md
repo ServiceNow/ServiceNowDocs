@@ -2,6 +2,7 @@
 title: Create a calibration attribute library
 description: Create a library of common calibration attributes that are not associated with any enterprise models or enterprise assets. Use these attributes to define the details and requirements of your commonly used calibrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/create-eam-calibration-attribute-library.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -21,7 +22,7 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
 ## About this task
 
-You can create common calibration attributes that are not associated with any enterprise models or enterprise assets. These calibration attributes can be cloned to any of your available enterprise models. You can also create calibration attributes for a specific enterprise model or enterprise asset. For details on how to create a calibration attribute for a specific enterprise model, see [Add calibration attributes to an enterprise model](add-calibration-attributes-enterprise-model.md). For details on how to create a calibration attribute for a specific enterprise asset, see [Add calibration attributes to an enterprise asset](add-calibration-attributes-enterprise-asset.md).
+You can create common calibration attributes that are not associated with any enterprise models or enterprise assets. These calibration attributes can be cloned to any of your available enterprise models. You can also create calibration attributes for a specific enterprise model or enterprise asset. For details on how to create a calibration attribute for a specific enterprise model, see [Add calibration attributes to an enterprise model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-model.md). For details on how to create a calibration attribute for a specific enterprise asset, see [Add calibration attributes to an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-asset.md).
 
 ## Procedure
 
@@ -83,7 +84,7 @@ Category
 
 </td><td>
 
-Type of calibration.**Note:** The Enterprise Asset Management application includes default calibration categories such as Electrical, Flow, Humidity, and Pressure. You can create additional calibration categories for any calibrations that do not fall under the default categories. For detailed instructions, see [Create a calibration category for your enterprise asset calibrations](create-eam-calibration-categories.md).
+Type of calibration.**Note:** The Enterprise Asset Management application includes default calibration categories such as Electrical, Flow, Humidity, and Pressure. You can create additional calibration categories for any calibrations that do not fall under the default categories. For detailed instructions, see [Create a calibration category for your enterprise asset calibrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-eam-calibration-categories.md).
 
 </td></tr><tr><td>
 
@@ -157,7 +158,7 @@ Quality standard
 
 </td><td>
 
-Set of requirements and guidelines that you must follow while performing the calibrations.**Note:** You can create quality standards manually in the Admin center view of the Enterprise Asset Workspace. See [Create a quality standard for your enterprise asset calibrations](create-eam-calibration-quality-standard.md) for detailed instructions.
+Set of requirements and guidelines that you must follow while performing the calibrations.**Note:** You can create quality standards manually in the Admin center view of the Enterprise Asset Workspace. See [Create a quality standard for your enterprise asset calibrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-eam-calibration-quality-standard.md) for detailed instructions.
 
 </td></tr><tr><td colspan="2">
 
@@ -200,7 +201,7 @@ General instructions or instrument settings that you must follow when performing
         |Expected value|Point value that you want to measure accuracy against.|
         |Order|Order in which you want to use the point to measure accuracy. If your calibration attribute contains more than one point, the point with the lowest numerical value is used first.|
 
-    3.  To add an additional point to the calibration attribute, select the Add Content icon ![](../../hardware-asset-management/image/add_content_icon.png) and then fill in the fields.
+    3.  To add an additional point to the calibration attribute, select the Add Content icon \[Omitted image "add\_content\_icon.png"\] Alt text: and then fill in the fields.
 
         Repeat this step for each point that you want to add.
 
@@ -211,7 +212,7 @@ General instructions or instrument settings that you must follow when performing
 
 ## What to do next
 
-Clone the calibration attribute to all applicable enterprise models. See [Clone calibration attributes to an enterprise model](clone-calibration-attributes-enterprise-model.md) for detailed instructions.
+Clone the calibration attribute to all applicable enterprise models. See [Clone calibration attributes to an enterprise model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/clone-calibration-attributes-enterprise-model.md) for detailed instructions.
 
-**Parent Topic:**[Create and manage enterprise assets](../concept/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

@@ -2,11 +2,12 @@
 title: Configure filters for ITSM Manager Workspace
 description: Define filter configurations for Schedule, Coaching, and Channels applications. You can use these filters to refine your search and view targeted results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/configure-filter-configurable-manager-workspace.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-06-02"
 reading_time_minutes: 1
 breadcrumb: [Advanced configurations, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -25,7 +26,7 @@ Role required: sn\_wfo\_cfg\_ws.admin
 
 1.  Navigate to **All** &gt; **Workforce Optimization for ITSM** &gt; **Manager Workspace Configurations** &gt; **Filter Configurations**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -54,7 +55,7 @@ Table
 Table that is used for the filter configuration. **Note:**
 
 -   You can filter only on specific tables or database views for each module.
--   For a list of tables and database views that you can use for each module, see the Filter Configuration Tables section in [Workforce Optimization for ITSM components](../reference/components-installed-workforce-optimization-itsm.md).
+-   For a list of tables and database views that you can use for each module, see the Filter Configuration Tables section in [Workforce Optimization for ITSM components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/components-installed-workforce-optimization-itsm.md).
 
 
 </td></tr><tr><td>
@@ -108,8 +109,20 @@ Active
 Option that enables the filter configuration in Manager Workspace.
 
 </td></tr></tbody>
-</table>4.  Click **Submit**.
+</table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Advanced configurations for Workforce Optimization for ITSM](../concept/advanced-configuration-workforce-optimization-itsm.md)
+## Result
+
+The filter configuration is saved and available in the **Workspace Module** you specified, provided the **Active** option is selected.
+
+## Filter added to the Schedules module
+
+If you created a new filter for the **Schedules** module, then you must navigate to the **Schedules** module to view it.
+
+## What to do next
+
+To verify the filter is active, navigate to **All** &gt; **Workforce Optimization for ITSM** &gt; **Manager Workspace** and open the module specified in the **Workspace Module** field. The filter appears in the filter panel.
+
+**Parent Topic:**[Advanced configurations for Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/advanced-configuration-workforce-optimization-itsm.md)
 

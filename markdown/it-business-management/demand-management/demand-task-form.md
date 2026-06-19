@@ -2,6 +2,7 @@
 title: Demand task form
 description: Use the demand task form to create tasks for a demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/demand-management/demand-task-form.html
 release: zurich
 product: Demand Management
 classification: demand-management
@@ -134,8 +135,8 @@ Work notes
 
 </td><td>
 
-Information about the demand task. Work notes are added throughout the demand management life cycle to communicate with other users associated with the demand.**Note:** Users with the business stakeholder role for PPM can view this field. For more information, see [Business stakeholder role for PPM](../../project-portfolio-suite-with-financials/reference/business-stakeholder-role-ppm.md).
+Information about the demand task. Work notes are added throughout the demand management life cycle to communicate with other users associated with the demand.**Note:** Users with the business stakeholder role for PPM can view this field. For more information, see [Business stakeholder role for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/business-stakeholder-role-ppm.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Demand Management forms](../concept/demand-management-forms.md)
+</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/demand-management-forms.md)
 

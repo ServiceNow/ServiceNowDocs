@@ -2,6 +2,7 @@
 title: Setting up multiple connections in Service Graph Connector for Microsoft Azure
 description: The Service Graph Connector for Microsoft Azure supports multiple Azure connections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-azure-multi.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -16,7 +17,7 @@ breadcrumb: [Additional features, Microsoft Azure, Service Graph Connectors, Int
 
 The Service Graph Connector for Microsoft Azure supports multiple Azure connections.
 
-**Important:** Add multiple connections by selecting **Add connection** on the Connections page of the Workflow Studio in the guided setup. For more information, see [Configure Service Graph Connector for Microsoft Azure](../task/configure-azure-integration.md).
+**Important:** Add multiple connections by selecting **Add connection** on the Connections page of the Workflow Studio in the guided setup. For more information, see [Configure Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-azure-integration.md).
 
 ## Setting up multiple connections
 

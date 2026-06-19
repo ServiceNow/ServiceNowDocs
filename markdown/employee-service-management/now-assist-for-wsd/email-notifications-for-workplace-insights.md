@@ -2,6 +2,7 @@
 title: Receive email notifications for Workplace Insights
 description: Notify Space Planners, Reservation Managers, and Workplace Managers by email when new Workplace Insights are generated. The email notifications are sent to the users defined in the user criteria when the sn\_wsd\_ai\_agents.weekly\_insights event is triggered.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-wsd/email-notifications-for-workplace-insights.html
 release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd

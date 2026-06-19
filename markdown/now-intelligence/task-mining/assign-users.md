@@ -2,6 +2,7 @@
 title: Assign roles for Task Mining users
 description: Assign roles to control access to features, capabilities, and data in the Task Mining application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/task-mining/assign-users.html
 release: zurich
 product: Task Mining
 classification: task-mining
@@ -23,16 +24,16 @@ Role required: sn\_tm\_core.admin or admin
 
 ## About this task
 
-For detailed information about roles that are installed with Task Mining, see [Components installed with Task Mining](../reference/installed-with-task-mining.md).
+For detailed information about roles that are installed with Task Mining, see [Components installed with Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/task-mining/installed-with-task-mining.md).
 
 ## Procedure
 
 -   Assign roles to users and groups using the ServiceNow AI Platform user administration feature.
 
-    -   [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
-    -   [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    -   Assign a role to a user.
+    -   Assign a role to a group.
 
 ## What to do next
 
-Users responsible for installing Task Mining agents must be a part of the Task Mining Agent Install group with roles itil, sn\_tm\_core.service\_user, and agent\_client\_collector\_admin to install the Task Mining agent. For more information, see [Installing Task Mining agent](../concept/install-agent.md).
+Users responsible for installing Task Mining agents must be a part of the Task Mining Agent Install group with roles itil, sn\_tm\_core.service\_user, and agent\_client\_collector\_admin to install the Task Mining agent. For more information, see [Installing Task Mining agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/task-mining/install-agent.md).
 

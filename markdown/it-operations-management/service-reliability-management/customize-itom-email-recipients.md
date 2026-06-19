@@ -2,6 +2,7 @@
 title: Customize ITOM Mobile Agent email recipients
 description: Customize who receives emails about alerts to help reduce notification overload and efficiently delegate responsibilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-reliability-management/customize-itom-email-recipients.html
 release: zurich
 product: Service Reliability Management
 classification: service-reliability-management

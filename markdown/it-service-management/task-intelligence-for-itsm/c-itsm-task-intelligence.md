@@ -2,6 +2,7 @@
 title: Task Intelligence for ITSM
 description: ServiceNow Task Intelligence for ITSM uses machine learning to set up, deploy, and track solution-based models to achieve important business outcomes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/task-intelligence-for-itsm/c-itsm-task-intelligence.html
 release: zurich
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
@@ -19,23 +20,23 @@ ServiceNow® Task Intelligence for ITSM uses machine learning to set up, deploy,
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Task Intelligence for ITSM concepts and features.](exploring-task-intel-itsm.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Task Intelligence for ITSM concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/task-intelligence-for-itsm/exploring-task-intel-itsm.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure environment, tools, and user access.](configure-task-intelligence-for-itsm.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure environment, tools, and user access.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/task-intelligence-for-itsm/configure-task-intelligence-for-itsm.md)
 
 </td><td>
 
-[Manage![](../../../reuse/icons/brand-icons/bus-manage.svg)Learn how you can use Task Intelligence for ITSM.](using-task-intelligence-itsm.md)
+[Manage\[Omitted image "bus-manage.svg"\] Alt text:Learn how you can use Task Intelligence for ITSM.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/task-intelligence-for-itsm/using-task-intelligence-itsm.md)
 
 </td></tr><tr><td>
 
-[Monitor![](../../../reuse/icons/brand-icons/bus-monitor.svg)Learn about monitoring and analyzing Task Intelligence for ITSM models](task-intel-monitor-analystics.md).
+[Monitor\[Omitted image "bus-monitor.svg"\] Alt text:Learn about monitoring and analyzing Task Intelligence for ITSM models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/task-intelligence-for-itsm/task-intel-monitor-analystics.md).
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about Task Intelligence for ITSM components, such as roles and dependent applications.](../reference/task-intelligence-itsm-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about Task Intelligence for ITSM components, such as roles and dependent applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/task-intelligence-for-itsm/task-intelligence-itsm-reference.md)
 
 </td><td>
 

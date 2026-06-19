@@ -2,13 +2,14 @@
 title: Create a quick case
 description: As a procurement specialist, quickly create a procurement case from the plus icon on Source-to-Pay Workspace. With an additional supplier role of sn\_supplier.fulfiller, you can similarly create a supplier case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-quick-case.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using Procurement Case Management, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Using Procurement Case Management, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Create a quick case
@@ -33,10 +34,10 @@ Role required: sn\_shop.procurement\_specialist
 
     A case form is displayed with pre-filled data based on the templates that you have configured.
 
-5.  On the form, fill in the required fields.![Displays a Create New Procurement Case form.](../image/procurement_dialog_box.png)
+5.  On the form, fill in the required fields.\[Omitted image "procurement\_dialog\_box.png"\] Alt text: Displays a Create New Procurement Case form.
 
 6.  Select **Save**.
 
 
-**Parent Topic:**[Using Procurement Case Management](../concept/using-pcm.md)
+**Parent Topic:**[Using Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/using-pcm.md)
 

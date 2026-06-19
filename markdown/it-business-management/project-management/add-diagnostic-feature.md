@@ -2,6 +2,7 @@
 title: Create and add diagnostic features
 description: Create and add diagnostic features, which consist of single or multiple diagnostic scans that execute mapped scripts to detect data corruption or invalid data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-management/add-diagnostic-feature.html
 release: zurich
 product: Project Management
 classification: project-management
@@ -27,7 +28,7 @@ Role required: adt\_admin
 
 3.  On the form, fill in the fields.
 
-    For more information, see [Diagnostics Feature form](../reference/diagnostics-feature-form.md).
+    For more information, see [Diagnostics Feature form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/diagnostics-feature-form.md).
 
 4.  Define the fields available to users for specifying filter conditions in the **Diagnostics Inputs** section.
 
@@ -38,5 +39,5 @@ Role required: adt\_admin
 
 ## What to do next
 
-Create diagnostic scripts and add fix scripts to use with the diagnostic feature. For more information, see [Add diagnostic and fix scripts](add-diagnostic-and-fix-script.md).
+Create diagnostic scripts and add fix scripts to use with the diagnostic feature. For more information, see [Add diagnostic and fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/add-diagnostic-and-fix-script.md).
 

@@ -2,6 +2,7 @@
 title: Import data from XML
 description: After you have successfully exported data from the source instance to XML, import the XML file directly to the target instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/import-xml-file.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -42,5 +43,5 @@ Importing XML doesn't trigger business rules or update the instance cache.
 
 Data is imported into the target instance.
 
-If the data doesn't import, navigate to **System Definition** &gt; **Tables &amp; Columns** and verify that the table from which the data was exported also exists in the target instance. If the table doesn't exist, you can move it using an update set. For details on using update sets, see [Get started with update sets](https://www.servicenow.com/docs/access?context=get-started-update-sets&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+If the data doesn't import, navigate to **System Definition** &gt; **Tables &amp; Columns** and verify that the table from which the data was exported also exists in the target instance. If the table doesn't exist, you can move it using an update set. For details on using update sets, see Get started with update sets.
 

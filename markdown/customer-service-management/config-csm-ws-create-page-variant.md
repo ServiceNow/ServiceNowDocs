@@ -2,7 +2,10 @@
 title: Creating pages and page variants
 description: You can create new pages or customize existing pages in UI Builder to display table and record information in CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/config-csm-ws-create-page-variant.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-08-25"
 reading_time_minutes: 4
@@ -17,7 +20,7 @@ When you create a page in UI Builder, you have the option to create a page from 
 
 ## UI Builder terminology
 
-The following table describes the UI Builder terminology around workspace experiences, pages and page variants, and page templates. For more information about UI Builder terminology, see the [UI Builder glossary](https://www.servicenow.com/docs/access?context=ui-builder-glossary&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+The following table describes the UI Builder terminology around workspace experiences, pages and page variants, and page templates. For more information about UI Builder terminology, see the UI Builder glossary.
 
 <table id="table_spj_stk_1bc"><thead><tr><th>
 
@@ -29,7 +32,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Workspace experience](https://www.servicenow.com/docs/access?context=ui-builder-workspace-settings&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+Workspace experience
 
 </td><td>
 
@@ -39,7 +42,7 @@ A workspace experience resides at a specific URL. When an admin creates a worksp
 
 </td></tr><tr><td>
 
-[Page collection](https://www.servicenow.com/docs/access?context=page-collections&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+Page collection
 
 </td><td>
 
@@ -91,7 +94,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Create a page from scratch](https://www.servicenow.com/docs/access?context=create-page&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+Create a page from scratch
 
 </td><td>
 
@@ -99,7 +102,7 @@ When you create a page from scratch, you start with a blank page and select layo
 
 </td></tr><tr><td>
 
-[Create a page from a template](https://www.servicenow.com/docs/access?context=reuse-page-definitions&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+Create a page from a template
 
 </td><td>
 
@@ -113,7 +116,7 @@ For example, when you create a page from the Front-line case page template, the 
 
 </td></tr><tr><td>
 
-[Create a page variant](https://www.servicenow.com/docs/access?context=create-variant&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+Create a page variant
 
 </td><td>
 
@@ -125,7 +128,7 @@ By creating a page variant, you can target an experience for a specific audience
 -   The conditions determine when a page is shown. For example, you can add a condition for records from a specific table, such as the Case table.
 
 </td></tr></tbody>
-</table>For more information about customizing record pages, see [Manage UI Builder pages and page variants](https://www.servicenow.com/docs/access?context=work-pages&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+</table>For more information about customizing record pages, see Manage UI Builder pages and page variants.
 
 **Note:** If a page is modified after page variants have been created, the changes to the page do not sync with the variants. These changes must be made manually.
 
@@ -140,5 +143,5 @@ Additionally, the system looks at the page settings in this order:
 
 If a page variant has no assigned user roles, then every role can access it.
 
-For more information, see [Set record page order](../task/config-csm-ws-set-record-page-order.md).
+For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-csm-ws-set-record-page-order.md).
 

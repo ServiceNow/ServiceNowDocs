@@ -2,6 +2,7 @@
 title: View experience theme
 description: View the theme applied to your experience. The theme sets the visual style of the experience and provides a consistent look and feel across all pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/view-experience-theme.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -25,11 +26,11 @@ Role required: ui\_builder\_admin
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Select **Experience settings** in the UI Builder header.
 
-    ![Arrow pointing to the settings toggle on the experience view page.](../image/experience-settings-toggle.png)
+    \[Omitted image "experience-settings-toggle.png"\] Alt text: Arrow pointing to the settings toggle on the experience view page.
 
 4.  Scroll to the **Branding and theming** section and note what is listed in **Themes**.
 
@@ -40,8 +41,8 @@ Role required: ui\_builder\_admin
 
 If you want to customize the theme, there are two options:
 
--   **Theme Builder** enables you to create, edit, manage, and apply Next Experience themes using a friendly visual interface. For more information, see [Configuring Next Experience with Theme Builder](https://www.servicenow.com/docs/access?context=configuring-next-experience-with-theme-builder&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
--   If you are an admin user comfortable working in style records and JSON code, you can create a custom theme to override the default Polaris style. This option gives you the most control over typefaces, colors, and images \(including the banner and logo\) in a theme. For more information, see [Configuring Next Experience themes and preferences](https://www.servicenow.com/docs/access?context=config-next-experience-themes-prefs&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+-   **Theme Builder** enables you to create, edit, manage, and apply Next Experience themes using a friendly visual interface. For more information, see .
+-   If you are an admin user comfortable working in style records and JSON code, you can create a custom theme to override the default Polaris style. This option gives you the most control over typefaces, colors, and images \(including the banner and logo\) in a theme. For more information, see .
 
-**Parent Topic:**[Manage the visual style of UI Builder experiences](../concept/manage-the-visual-style-of-ui-builder-experiences.md)
+**Parent Topic:**[Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/manage-the-visual-style-of-ui-builder-experiences.md)
 

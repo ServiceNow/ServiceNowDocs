@@ -2,7 +2,10 @@
 title: Customize a record page
 description: To customize a record page, you first create a variant, or copy, of the page and then make changes to the variant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/config-csm-ws-custom-record-page.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -47,9 +50,9 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
     For more information, see the following UI Builder topics:
 
-    -   [Work with pages](https://www.servicenow.com/docs/access?context=work-pages&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
-    -   [Work with components](https://www.servicenow.com/docs/access?context=work-components&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
-    -   [Layouts in UI Builder](https://www.servicenow.com/docs/access?context=work-layouts&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+    -   Work with pages
+    -   Work with components
+    -   Layouts in UI Builder
 8.  To delete a page variant:
 
     1.  Locate the page variant to be deleted in the **Pages and variants** list.

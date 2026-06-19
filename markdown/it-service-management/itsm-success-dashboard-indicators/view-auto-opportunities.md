@@ -2,6 +2,7 @@
 title: Identify the automation opportunities on ITSM Success Dashboard
 description: Identify the automation opportunities for ITSM Success Dashboard to implement or improve automation solutions for Virtual Agent \(VA\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-success-dashboard-indicators/view-auto-opportunities.html
 release: zurich
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -27,12 +28,12 @@ Role required: sn\_sd.success\_dashboard\_details\_read
 
 3.  Select the **Self solved - percentage** indicator.
 
-4.  Select **Insights** \(![Insights icon](../image/insights-icon.png)\) on the contextual side panel.
+4.  Select **Insights** \(\[Omitted image "insights-icon.png"\] Alt text: Insights icon\) on the contextual side panel.
 
 5.  Select **View in Automation Discovery**.
 
-    For more information on Automation Discovery, refer [Automation Discovery](https://www.servicenow.com/docs/access?context=automation-discovery&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+    For more information on Automation Discovery, refer .
 
 
-**Parent Topic:**[Configuring ITSM Success Dashboard indicators](../concept/configure-success-dashboards.md)
+**Parent Topic:**[Configuring ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-success-dashboard-indicators/configure-success-dashboards.md)
 

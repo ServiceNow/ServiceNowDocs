@@ -2,6 +2,7 @@
 title: Run a report on contextual search usage
 description: Run a report on usage such as how many times a knowledge article is attached to a record to know the effectiveness of the contextual search results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/contextual-search/t\_RunAFeedbackReport.html
 release: zurich
 product: Contextual Search
 classification: contextual-search
@@ -43,14 +44,14 @@ A service desk manager can generate a report on user issues that were resolved w
 
 6.  Under **Configure**, select **Choose columns** and move the required fields from the **Available** box to the **Selected** box.
 
-    ![Select fields for report](../image/cxs-report-column.png)
+    \[Omitted image "cxs-report-column.png"\] Alt text: Select fields for report
 
 7.  Select **OK** and then select **Run**.
 
-    ![Contextual search report](../image/run-search-report.png)
+    \[Omitted image "run-search-report.png"\] Alt text: Contextual search report
 
     **Note:** When users select the **Search on tab** check box in the Search Context \[csc\_context\_config\] table and then modify and leave the search field, an action gets logged in the Relevant Document Detail table \[cxs\_rel\_doc\_detail\]. The information in the table can help you find the instances where users ran a search but did not take any action. In those cases, the value of the **Position** column is **-1**.
 
 
-**Parent Topic:**[Feedback information on contextual search](../reference/r_QueryFeedbackInformation.md)
+**Parent Topic:**[Feedback information on contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/r_QueryFeedbackInformation.md)
 

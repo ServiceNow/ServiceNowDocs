@@ -2,6 +2,7 @@
 title: Create change request from a problem
 description: After you investigate and perform a root cause analysis of the Problem, you can understand whether the Problem can be resolved or you should find a temporary workaround for the Problem. If the Problem can be resolved, implement the fix, or the resolution for the Problem.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/problem-management/fix-a-change.html
 release: zurich
 product: Problem Management
 classification: problem-management
@@ -37,5 +38,5 @@ You can implement a resolution to a problem by applying a standard change proced
     A change request is created to implement the solution for the problem.
 
 
-**Parent Topic:**[Managing Problems](../concept/problem-mgmt-lifecycle.md)
+**Parent Topic:**[Managing Problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/problem-mgmt-lifecycle.md)
 

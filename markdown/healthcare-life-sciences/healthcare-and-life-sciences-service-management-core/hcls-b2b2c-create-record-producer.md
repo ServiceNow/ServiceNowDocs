@@ -2,6 +2,7 @@
 title: Create a record producer for B2B2C in Healthcare and Life Sciences Service Management Core
 description: Create a record producer for use with B2B2C.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-b2b2c-create-record-producer.html
 release: zurich
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -17,7 +18,7 @@ Create a record producer for use with B2B2C.
 
 ## Before you begin
 
-Create a table for use with B2B2C. For more information, see [Create a table for B2B2C in Healthcare and Life Sciences Service Management Core](hcls-b2b2c-create-hcls-case-table.md).
+Create a table for use with B2B2C. For more information, see [Create a table for B2B2C in Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-b2b2c-create-hcls-case-table.md).
 
 Role required: admin
 
@@ -29,7 +30,7 @@ Role required: admin
 
 3.  On the form, fill in the fields.
 
-    **Note:** For details on the fields, refer to [Create a record producer](https://www.servicenow.com/docs/access?context=t_DefRecProdInSCat&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    **Note:** For details on the fields, refer to .
 
 4.  Click **Save**, then re-open the record.
 
@@ -37,7 +38,7 @@ Role required: admin
 
     1.  Navigate to **Variables** and click **New**.
 
-        **Note:** For details on variables, refer to [Variables to collect data for record producer fields](https://www.servicenow.com/docs/access?context=r_CreatingVariablesForFieldTypes&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+        **Note:** For details on variables, refer to .
 
     2.  Add the following variables in **Type Specifications**:
 
@@ -129,5 +130,5 @@ The record producer is created.
 
 ## What to do next
 
-Add your record producer to the CSM portal. For more information, see [Add a record producer to CSM portal for B2B2C in Healthcare and Life Sciences Service Management Core](hcls-add-record-producer-csm-portal.md).
+Add your record producer to the CSM portal. For more information, see [Add a record producer to CSM portal for B2B2C in Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-add-record-producer-csm-portal.md).
 

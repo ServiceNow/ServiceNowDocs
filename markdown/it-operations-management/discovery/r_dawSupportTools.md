@@ -2,11 +2,12 @@
 title: Discovery Admin Workspace support tools
 description: The Support tools tab provides tools to investigate and troubleshoot your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/r\_dawSupportTools.html
 release: zurich
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Discovery Admin Workspace reference, Discovery reference, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -30,5 +31,5 @@ The **Support tools** tab provides tools to investigate and troubleshoot your in
 |Missing SNMP OID data|Checks for missing SNMP device OIDs from the SNMP data that cause the devices to be misclassified.|
 |SaCmdManager|Searches for information that might be needed when creating Discovery patterns.|
 
-**Parent Topic:**[Discovery Admin Workspace reference](r_discovery-admin-workspace-reference.md)
+**Parent Topic:**[Discovery Admin Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_discovery-admin-workspace-reference.md)
 

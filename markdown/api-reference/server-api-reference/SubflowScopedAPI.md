@@ -2,6 +2,7 @@
 title: Subflow - Scoped \(deprecated\)
 description: The Subflow API provides methods to run published Workflow Studio subflows.Runs a published subflow asynchronously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/SubflowScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The Subflow API provides methods to run published Workflow Studio subflows.
 
-This API is deprecated and replaced by the [FlowAPI - Scoped, Global](../../ScriptableFlowAPI/concept/ScriptableFlowAPI.md#).
+This API is deprecated and replaced by the [FlowAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ScriptableFlowAPI.md).
 
 The Subflow API can only be used in server scripts.
 
@@ -25,7 +26,7 @@ Before interacting with a subflow using the Subflow API, you must first create a
 
 **Note:** To optimize instance performance, avoid calling these methods from an asynchronous business rule script. Instead, create a scheduled job record within the Workflow Studio UI.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## Subflow - startAsync\(String scopeName.subflowName, Map inputs\)
 

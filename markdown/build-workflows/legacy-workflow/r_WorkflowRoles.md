@@ -2,6 +2,7 @@
 title: Workflow roles
 description: Certain roles are required to use workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/legacy-workflow/r\_WorkflowRoles.html
 release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
@@ -17,7 +18,7 @@ Certain roles are required to use workflows.
 
 **Important:** As of the Zurich release, new customers no longer receive the legacy workflows created and published by ServiceNow, Inc.. All legacy workflow functionality has been replaced by Workflow Studio content. Only customers who upgraded from prior versions retain the ability to use and edit existing legacy workflows. While all customers retain the ability to create legacy workflows, you are strongly encouraged to instead use Workflow Studio to create process automation content. Only Workflow Studio will receive new features and enhancements.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing subscriptions, see  and contact your account representative.
 
 <table id="table_g2t_fww_1r"><thead><tr><th>
 
@@ -53,7 +54,7 @@ Web service administrator
 
 </td><td>
 
-Accesses and uses REST and SOAP messages in the [Orchestration activity designer](https://www.servicenow.com/docs/access?context=c_WorkflowActivityDesigner&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US). Creates and edits custom activities that use the REST web service and SOAP web service templates.
+Accesses and uses REST and SOAP messages in the Orchestration activity designer. Creates and edits custom activities that use the REST web service and SOAP web service templates.
 
 </td></tr><tr><td>
 
@@ -86,5 +87,5 @@ Workflow publisher
 Checks out with force checkout option, validates, publishes, and deletes graphical workflows.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workflow administration](../concept/c_WorkflowAdministration.md)
+</table>**Parent Topic:**[Workflow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/c_WorkflowAdministration.md)
 

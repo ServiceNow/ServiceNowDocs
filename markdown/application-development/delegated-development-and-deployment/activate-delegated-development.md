@@ -2,6 +2,7 @@
 title: Activate Delegated Development
 description: Activate the Delegated Development plugin \(com.glide.delgated\_development\) with the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/delegated-development-and-deployment/activate-delegated-development.html
 release: zurich
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment

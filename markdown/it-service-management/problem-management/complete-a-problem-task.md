@@ -2,6 +2,7 @@
 title: Complete a problem task
 description: Resolve and complete the problem task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/problem-management/complete-a-problem-task.html
 release: zurich
 product: Problem Management
 classification: problem-management
@@ -23,12 +24,12 @@ Role required: admin, problem\_admin, problem\_coordinator, problem\_manager, or
 
 1.  Select **Complete**.
 
-    ![work in progress state](../image/pm-task-complete.png)
+    \[Omitted image "pm-task-complete.png"\] Alt text: work in progress state
 
     The problem task enters the **Closed** state with **Close code** as **Complete**.
 
     **Note:** You can configure the Problem properties to reanalyze a task even after it is closed by selecting **Re-assess**. The state of the task changes from **Closed** to **Assess**. After all the problem tasks are completed or canceled, a notification is sent to the problem coordinator regarding the same.
 
 
-**Parent Topic:**[Managing Problems](../concept/problem-mgmt-lifecycle.md)
+**Parent Topic:**[Managing Problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/problem-mgmt-lifecycle.md)
 

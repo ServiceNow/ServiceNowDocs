@@ -1,0 +1,124 @@
+---
+title: Configure filters for Manager Workspace
+description: Configure filters for scheduling and coaching applications and use the default filter for channel management to refine your search results.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configuring-filters-manager-configurable-workspace.html
+release: zurich
+product: Customer Service Management
+classification: customer-service-management
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
+---
+
+# Configure filters for Manager Workspace
+
+Configure filters for scheduling and coaching applications and use the default filter for channel management to refine your search results.
+
+## Before you begin
+
+Role required: sn\_csm\_wfo\_workspa.admin
+
+## About this task
+
+View and analyze data in scheduling and coaching applications based on the filters configured. You can only use the default filters for channel management and cannot configure new filters.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Workforce Optimization for Customer Service** &gt; **Manager Workspace Configuration** &gt; **Filter Configurations**.
+
+2.  Select **New**.
+
+3.  On the form, fill in the fields.
+
+<table id="table_xp1_hlt_jnb"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Filter name
+
+</td><td>
+
+Unique name for the filter configuration.
+
+</td></tr><tr><td>
+
+Table
+
+</td><td>
+
+Table for which the filter is configured. **Note:** You can filter only on specific tables or database views for each module.
+
+Refer to Filter Configuration Tables in [Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/components-installed-configurable-wfo-cs.md) for a list of tables and database views you can use for each application.
+
+</td></tr><tr><td>
+
+Field
+
+</td><td>
+
+Field on which to filter.
+
+</td></tr><tr><td>
+
+Filter query
+
+</td><td>
+
+Query to narrow down the filter options.
+
+</td></tr><tr><td>
+
+Type
+
+</td><td>
+
+-   **Choice:** choice type field.
+-   **Reference:** reference type field.
+
+
+</td></tr><tr><td>
+
+Order
+
+</td><td>
+
+Filter display order in Manager Workspace.
+
+</td></tr><tr><td>
+
+Workspace module
+
+</td><td>
+
+Workforce Optimization for Customer Service module that displays the filter configuration.
+
+</td></tr><tr><td>
+
+Active
+
+</td><td>
+
+Enables the filter configuration in Manager Workspace.
+
+</td></tr><tr><td>
+
+Macroponent
+
+</td><td>
+
+Metadata defined seismic component.
+
+</td></tr></tbody>
+</table>4.  Select **Submit**.
+
+
+**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/setup-configurable-wfo-cs.md)
+

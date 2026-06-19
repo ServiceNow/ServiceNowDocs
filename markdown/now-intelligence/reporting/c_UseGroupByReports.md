@@ -2,6 +2,7 @@
 title: Group records in list reports
 description: Grouped list reports can display only the records in each group that are configured to appear in a normal list. You can group rows of information in list reports by specific fields. You cannot group list reports by service catalog variables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/c\_UseGroupByReports.html
 release: zurich
 product: Reporting
 classification: reporting
@@ -24,5 +25,5 @@ List reports do not support the user preference to automatically expand grouped 
 
 The sections of the report are collapsed by default. In this example, a list of products is grouped by manufacturer and the items associated with Gateway are expanded.
 
-![List grouped by manufacturer with one group expanded](../image/ListGrouped.png "Grouped list report")
+\[Omitted image "ListGrouped.png"\] Alt text: List grouped by manufacturer with one group expanded
 

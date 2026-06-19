@@ -2,6 +2,7 @@
 title: OAuth API request parameters
 description: Learn about the OAuth API request parameters that access token requests use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/r\_OAuthAPIRequestParameters.html
 release: zurich
 product: Authentication
 classification: authentication

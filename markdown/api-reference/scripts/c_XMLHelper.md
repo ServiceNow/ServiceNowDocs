@@ -2,6 +2,7 @@
 title: XMLHelper
 description: The XML helper script include makes it easy to parse XML in scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/c\_XMLHelper.html
 release: zurich
 product: Scripts
 classification: scripts
@@ -74,5 +75,5 @@ Output:
 *** Script: ***lastname:: Enderson
 ```
 
-**Parent Topic:**[XMLDocument script object](c_XMLDocumentScriptObject.md)
+**Parent Topic:**[XMLDocument script object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_XMLDocumentScriptObject.md)
 

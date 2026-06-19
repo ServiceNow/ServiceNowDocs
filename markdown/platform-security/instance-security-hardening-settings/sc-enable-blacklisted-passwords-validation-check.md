@@ -2,6 +2,7 @@
 title: Enable a deny-list password validation check
 description: Manage the deny-list passwords in the Excluded Password table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-enable-blacklisted-passwords-validation-check.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -26,9 +27,9 @@ Use the **glide.enable.blacklist\_password** property to monitor deny-list passw
 |Data type|Boolean|
 |Recommended value|true|
 |Default value|false|
-|Category|[Authentication](sc-authentication.md)|
+|Category|[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)|
 |Dependencies and prerequisites|None|
-|References|[Exclude passwords through password policies on your instance](../../../integrate/authentication/task/blacklist-passwords.md)|
+|References|[Exclude passwords through password policies on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/blacklist-passwords.md)|
 
-**Parent Topic:**[Authentication](sc-authentication.md)
+**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

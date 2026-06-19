@@ -2,6 +2,7 @@
 title: Additional plugins for Knowledge Management
 description: After Knowledge Management is activated, you can activate additional plugins that provide access to various additional Knowledge Management features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/additional-plugins-km.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -15,11 +16,11 @@ breadcrumb: [Knowledge Management reference, Knowledge Management, Manage conten
 
 After Knowledge Management is activated, you can activate additional plugins that provide access to various additional Knowledge Management features.
 
-You must have the admin role to activate these additional plugins. For details, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+You must have the admin role to activate these additional plugins. For details, see Activate a plugin.
 
 **Note:**
 
-Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](../concept/knowledge-service-portal-pages.md).
+Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md).
 
 <table id="table_wp2_h15_2v"><thead><tr><th>
 
@@ -142,5 +143,5 @@ Knowledge Overview \(com.sn\_knowledge\_overview\)
 Enables you to generate reports to provide an overview of knowledge base and article data.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Knowledge Management reference](knowledge-management-reference.md)
+</table>**Parent Topic:**[Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/knowledge-management-reference.md)
 

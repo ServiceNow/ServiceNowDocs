@@ -2,6 +2,7 @@
 title: Using HR Multi Instance Integration for Provider
 description: Fulfill a remote HR service request that is placed from a consumer instance to a provider instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/using-hr-mii-provider.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -29,7 +30,7 @@ Role required: HR agent
 
 2.  To add an HR task for the remote HR case:
 
-    1.  In Related lists, click **Add task**. For more information, see [Adding an HR task to an HR case](../task/t_ViewAnHRTask.md).
+    1.  In Related lists, click **Add task**. For more information, see [Adding an HR task to an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_ViewAnHRTask.md).
     2.  In the **Assigned to** field, specify the consumer user to whom you want to assign the task. A universal task of type URL is assigned to the consumer user.
     **Note:**
 
@@ -37,7 +38,7 @@ Role required: HR agent
 
 3.  To add an approval task for the remote HR case, click **Add an approval** in **Related lists**.
 
-    For more information, see [Add adhoc approvers to a case](../task/add-approvers-cm.md).
+    For more information, see [Add adhoc approvers to a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/add-approvers-cm.md).
 
     **Note:**
 
@@ -51,7 +52,7 @@ Role required: HR agent
 
     -   To initiate document tasks, the Document Templates plugin must be installed on the HR Multi Instance Integration for Provider application.
 
-        For more information on how document tasks are initiated, see [Document tasks generation](../task/task-mapped-participants.md).
+        For more information on how document tasks are initiated, see [Document tasks generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/task-mapped-participants.md).
 
     -   In the HR service additional information, Document template must be added in the **Service table** fields.
 5.  Request for any additional information from the consumer employee by adding comments or attachments to the case.

@@ -2,6 +2,7 @@
 title: Resubmit a cluster analysis request
 description: In cases when a configuration issue or clustering solution change occurs, you can schedule a followup cluster analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/resubmit-cluster-analysis.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -23,7 +24,7 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 1.  From the Scheduled tasks panel, select **Resubmit** for the activity or improvement opportunity you want to generate an updated analysis for.
 
-    ![Resubmit cluster analysis request](../image/resubmit-cluster.png)
+    \[Omitted image "resubmit-cluster.png"\] Alt text: Resubmit cluster analysis request
 
     To see details of the previous cluster analysis request, select **View error details**. View error details navigates you to the ML Solution form for the failed task.
 
@@ -32,7 +33,7 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 ## What to do next
 
-[View clusters in a treemap](view-cluster-analysis.md)
+[View clusters in a treemap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/view-cluster-analysis.md)
 
-**Parent Topic:**[Cluster analysis](../concept/cluster-analysis.md)
+**Parent Topic:**[Cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/cluster-analysis.md)
 

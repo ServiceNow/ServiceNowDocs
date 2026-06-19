@@ -2,13 +2,14 @@
 title: Set up negotiations with suppliers and manage qualifications in playbook
 description: Work on a negotiation setup playbook to manage qualification work, and review the sourcing requests, suppliers, and purchase lines, all within the premises of a sourcing event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/nego-with-suppliers-through-qual.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Sourcing intake guided experience with playbooks, Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Sourcing intake guided experience playbooks, Working Sourcing Procurement Operations playbooks, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Set up negotiations with suppliers and manage qualifications in playbook
@@ -19,7 +20,7 @@ Work on a negotiation setup playbook to manage qualification work, and review th
 
 Role required: Sourcing manager
 
-Ensure that you’ve selected the appropriate sourcing approach. For details, see [Select a sourcing approach in playbook](select-sourcing-approach.md).
+Ensure that you’ve selected the appropriate sourcing approach. For details, see [Select a sourcing approach in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/select-sourcing-approach.md).
 
 ## Procedure
 
@@ -27,15 +28,15 @@ Ensure that you’ve selected the appropriate sourcing approach. For details, se
 
 2.  Do one of these actions.
 
-<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d168865e75">
+<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d153131e75">
 
 Decision
 
-</th><th align="left" id="d168865e78">
+</th><th align="left" id="d153131e78">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d168865e84">
+</th></tr></thead><tbody><tr><td id="d153131e84">
 
 **Create a type of work**
 
@@ -43,7 +44,7 @@ Action
 
 On the Create a type of work pop-up window, select the required case or task, and add it to the sourcing event.
 
-</td></tr><tr><td id="d168865e93">
+</td></tr><tr><td id="d153131e93">
 
 **Complete qualification**
 
@@ -85,5 +86,5 @@ Completes the qualification.**Note:** The procurement cases must be in the Close
 13. Manage qualification work, as described in steps 1 and 2.
 
 
-**Parent Topic:**[Sourcing intake guided experience with playbooks](../concept/sourcing-intake-guided-exp.md)
+**Parent Topic:**[Sourcing intake guided experience with playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/sourcing-intake-guided-exp.md)
 

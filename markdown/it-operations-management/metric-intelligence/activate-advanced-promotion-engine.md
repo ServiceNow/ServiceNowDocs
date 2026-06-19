@@ -2,6 +2,7 @@
 title: Activate the Advanced Promotion Engine
 description: Before you can use the Advanced Promotion Engine feature, you must activate it from the list of plugins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/metric-intelligence/activate-advanced-promotion-engine.html
 release: zurich
 product: Metric Intelligence
 classification: metric-intelligence
@@ -23,7 +24,7 @@ Role required: evt\_mgmt\_admin
 
 To activate the *var.adv-promo-eng*, you also need to install a plugin for ACC-M, which includes the Metric Intelligence plugin.
 
-If you don't plan to use ACC-M, install Metrics Intelligence plugin only, as described in [Get started with Metric Intelligence](../../event-management/task/get-started-metrics.md).
+If you don't plan to use ACC-M, install Metrics Intelligence plugin only, as described in [Get started with Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/metric-intelligence/get-started-metrics.md).
 
 ## Procedure
 

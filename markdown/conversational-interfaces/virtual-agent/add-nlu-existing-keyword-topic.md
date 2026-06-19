@@ -2,6 +2,7 @@
 title: Add NLU to an existing keyword topic
 description: Create and map an NLU model group and intent for the topic from Virtual Agent Designer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/add-nlu-existing-keyword-topic.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Create and map an NLU model group and intent for the topic from Virtual Agent De
 
 ## Before you begin
 
-[Configure NLU on the instance in Virtual Agent General Settings](configure-nlu-settings.md).
+[Configure NLU on the instance in Virtual Agent General Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-nlu-settings.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -53,7 +54,7 @@ Role required: virtual\_agent\_admin or admin
 
 7.  Select the **NLU Intent** tab, and then add utterances and associate entities with them.
 
-    For more information about adding utterances, see [Create an NLU intent](https://www.servicenow.com/docs/access?context=create-nlu-intent&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US). For more information about defining entities, see [Entities](https://www.servicenow.com/docs/access?context=entities&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+    For more information about adding utterances, see Create an NLU intent. For more information about defining entities, see Entities.
 
 8.  Make any other changes on the **Flow** tab, such as associating entities with a node or adding entities as input variables for the topic.
 
@@ -64,5 +65,5 @@ Role required: virtual\_agent\_admin or admin
 
 The modified topic is in the inactive state until you publish it.
 
-**Parent Topic:**[Create a Virtual Agent topic](create-virtual-agent-topic.md)
+**Parent Topic:**[Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
 

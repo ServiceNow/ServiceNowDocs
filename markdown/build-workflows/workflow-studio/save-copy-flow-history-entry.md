@@ -2,6 +2,7 @@
 title: Save a copy of a flow history entry
 description: Create a copy of a flow history entry and save it as a new flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/save-copy-flow-history-entry.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -41,7 +42,7 @@ You can save a copy of a flow history entry to preserve a previous flow configur
 
 7.  From the Flow History view, select **Save as copy**.
 
-    ![Flow configuration for 5th June, 3:37AM with an option to Save as copy](../images/flow-history-save-copy-01.png)
+    \[Omitted image "flow-history-save-copy-01.png"\] Alt text: Flow configuration for 5th June, 3:37AM with an option to Save as copy
 
 8.  In **New flow name**, enter the name of the copied flow.
 
@@ -49,14 +50,14 @@ You can save a copy of a flow history entry to preserve a previous flow configur
 
 10. From the Create a copy of this flow confirmation dialog box, select **Copy**.
 
-    ![Create a copy of this flow dialog box. The new name is Wait 3 days for Email Reply then close.](../images/flow-history-save-copy-02.png)
+    \[Omitted image "flow-history-save-copy-02.png"\] Alt text: Create a copy of this flow dialog box. The new name is Wait 3 days for Email Reply then close.
 
 
 ## Result
 
-![Workflow Studio tab displays new flow Wait 3 days for Email Reply then close.](../images/flow-history-save-copy-03.png)
+\[Omitted image "flow-history-save-copy-03.png"\] Alt text: Workflow Studio tab displays new flow Wait 3 days for Email Reply then close.
 
 Workflow Studio displays the copied flow configuration in a new tab.
 
-**Parent Topic:**[Flow history](../concept/flow-history.md)
+**Parent Topic:**[Flow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-history.md)
 

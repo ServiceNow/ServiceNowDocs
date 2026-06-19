@@ -2,6 +2,7 @@
 title: Installed with Change Management - Mass Update CI
 description: Several types of components are installed with the Change Management - Mass update CI.Change Management - Mass Update CI updates the following table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/r\_InstalledWithBulkCI.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -15,7 +16,7 @@ breadcrumb: [Activate Change Management - Mass Update CI, Plugins, Configure, Ch
 
 Several types of components are installed with the Change Management - Mass update CI.
 
-**Parent Topic:**[Activate Change Management - Mass Update CI](../task/t_ActivateChangeManagementBulkCI.md)
+**Parent Topic:**[Activate Change Management - Mass Update CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/t_ActivateChangeManagementBulkCI.md)
 
 ## Table modified with Change Management - Mass Update CI
 

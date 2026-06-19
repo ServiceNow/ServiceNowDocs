@@ -2,11 +2,12 @@
 title: Install the application and configure a server for the McAfee ePO integration
 description: Before you invoke the workflows for the integration, install and configure the McAfee ePO application from the ServiceNow Store on your ServiceNow AI Platform instance. The configuration is required to connect to the McAfee ePO console.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/mcaffe-epo-install.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [McAfee ePO integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -23,7 +24,7 @@ Role required: ServiceNow AI Platform administrator \(admin\)
 
 The integration supports multiple servers, however, to avoid conflicts in profiles that share the same triggering conditions, you cannot share a McAfee ePO capability with multiple profiles that use the same McAfee ePO server. For example, as shown in the following figure, you can have capability 1 in more than one profile as long as each McAfee ePO server is mapped to a unique profile that has capability 1.
 
-![Shared profile limitations.](../image/mcafee-shared-profile.png "McAfee Shared Profile limitations")
+\[Omitted image "mcafee-shared-profile.png"\] Alt text: Shared profile limitations.
 
 ## Procedure
 
@@ -31,9 +32,9 @@ The integration supports multiple servers, however, to avoid conflicts in profil
 
 2.  Navigate to **Security Operations** &gt; **Integrations** &gt; **Integration Configurations**.
 
-3.  Search for the McAfee ePO for Security Operations integration tile, and click **Configure**.
+3.  Search for the McAfee ePO for Security Operations integration tile, and select **Configure**.
 
-    ![McAfee ePO Integration tile.](../image/mcafee-config-tile.png)
+    \[Omitted image "mcafee-config-tile.png"\] Alt text: McAfee ePO Integration tile.
 
 4.  On the form, fill in the fields.
 
@@ -100,18 +101,18 @@ Select the name of the MID Server that you configured during the setup of your S
 An example name is, `secops_local_midserver`.
 
 </td></tr></tbody>
-</table>    ![McAfee ePO Integration Configuration settings](../image/mcafee-epo-configtile.png "McAfee ePO Integration Configuration")
+</table>    \[Omitted image "mcafee-epo-configtile.png"\] Alt text: McAfee ePO Integration Configuration settings
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
     The McAfee ePO Configurations list is displayed with your new configuration record. You have successfully completed the configuration for a McAfee ePO server.
 
     **Note:** If your organization requires support for multiple servers, then repeat the steps.
 
 
-**Parent Topic:**[McAfee ePO integration](../concept/mcaffee-epo-overview-arch.md)
+**Parent Topic:**[McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/mcaffee-epo-overview-arch.md)
 
-**Previous topic:**[Set up your McAfee ePO console to integrate with Security Incident Response \(SIR\)](mcafee-epo-setup-mcafee.md)
+**Previous topic:**[Set up your McAfee ePO console to integrate with Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/mcafee-epo-setup-mcafee.md)
 
-**Next topic:**[Edit security tags in the ServiceNow AI Platform for the McAfee ePO integration](mcafee-epo-match-tags.md)
+**Next topic:**[Edit security tags in the ServiceNow AI Platform for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/mcafee-epo-match-tags.md)
 

@@ -2,6 +2,7 @@
 title: Supported keys and functions
 description: The Send keys component in the RPA Desktop Design Studio supports multiple keys, special keys, and functions. The keyboard keys must be enclosed within \[\]. For example, \[Back\].
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/supported-keys-and-functions.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -217,5 +218,5 @@ The Send keys component in the RPA Desktop Design Studio supports multiple keys,
 |Z|Z key.|
 |ZOOM|Zoom key.|
 
-**Parent Topic:**[Actions \(UI\)](../concept/actions-ui.md)
+**Parent Topic:**[Actions \(UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/actions-ui.md)
 

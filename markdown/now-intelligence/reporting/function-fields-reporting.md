@@ -2,6 +2,7 @@
 title: Report on function fields
 description: While regular fields store a value in the database, a function field displays the results of a database query. The function field generates the value based on computations of other fields and constants. You can use these fields in reports and data visualizations as you would other fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/function-fields-reporting.html
 release: zurich
 product: Reporting
 classification: reporting
@@ -15,9 +16,9 @@ breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards
 
 While regular fields store a value in the database, a function field displays the results of a database query. The function field generates the value based on computations of other fields and constants. You can use these fields in reports and data visualizations as you would other fields.
 
-The responsibility for creating, editing, and deactivating function fields belongs to the user with the role function\_field\_admin. On upgrade, no user has this role. An admin must give this role to a non-admin user. See [Create a role](https://www.servicenow.com/docs/access?context=t_CreateARole&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+The responsibility for creating, editing, and deactivating function fields belongs to the user with the role function\_field\_admin. On upgrade, no user has this role. An admin must give this role to a non-admin user. See Create a role.
 
-Learn about function fields here: [Function field](https://www.servicenow.com/docs/access?context=platform-support-functions&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Learn about function fields here: Function field.
 
 ## Function field operations
 
@@ -202,18 +203,18 @@ glidefunction:substring\(short\_description, '7', '2'\) If the value of the shor
 Return type: Text
 
 </td></tr></tbody>
-</table>-   **[Configuring function fields](../task/configure-function-fields.md)**  
+</table>-   **[Configuring function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/configure-function-fields.md)**  
 You can configure up to 20 active function fields per table using the Report Designer. When you configure a function field on a table, you can group or stack by the results of the function calculation.
--   **[Create a function field](../task/create-function-field.md)**  
+-   **[Create a function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/create-function-field.md)**  
 Create a function field to be able to group and stack a report by the results of the field's calculation.
--   **[Edit a function field](../task/edit-function-field.md)**  
+-   **[Edit a function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/edit-function-field.md)**  
 The user who created a function field or a user with the admin or function\_field\_admin role can edit the definition of a saved function field. It isn’t possible to edit the label or the return type of a saved function field.
--   **[Deactivate a function field](../task/delete-function-field.md)**  
+-   **[Deactivate a function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/delete-function-field.md)**  
 The user who created a function field or a user with the admin role can deactivate it. If a table already has 20 function fields, you must deactivate one or more existing fields before creating another.
--   **[Delete a function field](../task/delete-a-function-field-fg.md)**  
+-   **[Delete a function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/delete-a-function-field-fg.md)**  
 A user with the admin role can delete a function field from its table. Deleting a function field is useful if you want to create a function field with the same name as one that exists on that table.
--   **[Disable function field creation](../task/disable-function-field-creation.md)**  
+-   **[Disable function field creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/disable-function-field-creation.md)**  
 Configure a system property to remove the ability to create function fields in the Report Designer.
 
-**Parent Topic:**[Advanced Core UI reporting topics](c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_AdvancedReporting.md)
 

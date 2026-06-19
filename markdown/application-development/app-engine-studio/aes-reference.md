@@ -2,6 +2,7 @@
 title: App Engine Studio reference
 description: Reference topics provide additional information about the lists and forms that you use to configure and administer App Engine Studio \(AES\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/aes-reference.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -15,12 +16,12 @@ breadcrumb: [App Engine Studio, Building low-code applications, Developing your 
 
 Reference topics provide additional information about the lists and forms that you use to configure and administer App Engine Studio \(AES\).
 
--   **[AES glossary](aes-glossary.md)**  
+-   **[AES glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-glossary.md)**  
 Learn about terms and concepts that are unique to App Engine Studio \(AES\).
--   **[AES properties](aes-properties.md)**  
+-   **[AES properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-properties.md)**  
 System properties control system behavior. The properties in this section are specific to the App Engine Studio \(AES\) application. You can access system properties for AES by navigating to **All** &gt; **App Engine Studio** &gt; **Configuration** &gt; **Properties**.
--   **[Supported features and metadata in custom templates](supported-features-metadata-custom-templates.md)**  
+-   **[Supported features and metadata in custom templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/supported-features-metadata-custom-templates.md)**  
 Custom templates in App Engine Studio \(AES\) support most features and metadata, including, but not limited to tables, forms, roles, ACLs, record producers, simple workspaces, flows, and actions.
 
-**Parent Topic:**[Build apps using App Engine Studio](../concept/aes-overview.md)
+**Parent Topic:**[Build apps using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-overview.md)
 

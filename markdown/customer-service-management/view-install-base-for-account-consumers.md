@@ -2,7 +2,10 @@
 title: View install base information as an account consumer
 description: Track the instances provisioned for your account and which products or services run on them by viewing a list of install base items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/view-install-base-for-account-consumers.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -33,6 +36,6 @@ View the list of install base items information from the Customer Service Portal
 
 3.  Select an install base to view its details.
 
-    **Note:** The default view is the form view. If you switch to the list view, the **Account** and **Consumer** fields aren’t displayed. See [Configure the Install Base items and Sold Products lists](config-b2b2c-data-model-case-list.md) for details.
+    **Note:** The default view is the form view. If you switch to the list view, the **Account** and **Consumer** fields aren’t displayed. See [Configure the Install Base items and Sold Products lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-b2b2c-data-model-case-list.md) for details.
 
 

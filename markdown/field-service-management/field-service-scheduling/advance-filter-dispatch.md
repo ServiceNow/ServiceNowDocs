@@ -2,6 +2,7 @@
 title: Advanced Filtering in Dispatcher Workspace
 description: Advanced filters in Dispatcher Workspace give dispatchers greater control to interact with the resources they use most. Dispatchers can also use advanced resource to personalize the resources they see when they open Dispatcher Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/advance-filter-dispatch.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -19,5 +20,5 @@ Dispatchers can create their own advanced resource filters in Dispatcher Workspa
 
 Dispatchers can also create any number of advanced filters and save them to use at any other time. Contact your administrator if you don’t see the advanced filters in Dispatcher Workspace.
 
-For more information on configuring advanced resources, see [Configuring advanced resource filters for Dispatcher Workspace](configure-advanced-filter.md).
+For more information on configuring advanced resources, see [Configuring advanced resource filters for Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/configure-advanced-filter.md).
 

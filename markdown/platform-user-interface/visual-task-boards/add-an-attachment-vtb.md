@@ -2,6 +2,7 @@
 title: Add an attachment to a Visual Task Board card
 description: You can add an attachment to a record within a Visual Task Board.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/visual-task-boards/add-an-attachment-vtb.html
 release: zurich
 product: Visual Task Boards
 classification: visual-task-boards
@@ -23,16 +24,16 @@ Role required: none
 
 Adding an attachment to a task card also adds the attachment to the underlying task record.
 
-![Add attachment window open in task card](../image/add-attachment-vtb.png "Add attachment")
+\[Omitted image "add-attachment-vtb.png"\] Alt text: Add attachment window open in task card
 
 ## Procedure
 
 1.  Click a card.
 
-2.  Click the attachment tab \(![Attachment icon](../image/icon-add-attachment.png)\).
+2.  Click the attachment tab \(\[Omitted image "icon-add-attachment.png"\] Alt text: Attachment icon\).
 
 3.  Click **Add Attachment** and select a file to add as an attachment.
 
 
-**Parent Topic:**[Working with Visual Task Board cards](../reference/r_TaskCards.md)
+**Parent Topic:**[Working with Visual Task Board cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/r_TaskCards.md)
 

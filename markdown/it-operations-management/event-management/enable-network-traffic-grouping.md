@@ -2,6 +2,7 @@
 title: Enable network traffic-based alert grouping
 description: Activate network traffic-based alert grouping to automatically correlate and reduce alert noise by grouping related events based on network traffic patterns. This helps improve efficiency in alert response and streamlines alert management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/enable-network-traffic-grouping.html
 release: zurich
 product: Event Management
 classification: event-management

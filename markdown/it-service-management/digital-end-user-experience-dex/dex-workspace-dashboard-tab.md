@@ -2,24 +2,25 @@
 title: Landing page
 description: The DEX landing page serves as the starting point for the information on the total number of alerts, impacted devices, and a device world map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/dex-workspace-dashboard-tab.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Application and Device Health, Monitor, Digital End-User Experience, IT Service Management]
+breadcrumb: [DEX Application and Device Health pages, Monitor, Digital End-User Experience, IT Service Management]
 ---
 
 # Landing page
 
 The DEX landing page serves as the starting point for the information on the total number of alerts, impacted devices, and a device world map.
 
-To access the landing page, navigate to **Workspaces** &gt; **Service Operations Workspace**. The Home icon \(![The Home icon that displays the Home page.](../image/icon-dex-home.png)\) is selected by default and you can view the landing page of the Service Operations Workspace Performance Analytics dashboard.
+To access the landing page, navigate to **Workspaces** &gt; **Service Operations Workspace**. The Home icon \(\[Omitted image "icon-dex-home.png"\] Alt text: The Home icon that displays the Home page.\) is selected by default and you can view the landing page of the Service Operations Workspace Performance Analytics dashboard.
 
 **Note:** The graphs display the latest data from the last two hours.
 
-For more details on each card, see [Landing page cards](../reference/dashboard-cards.md).
+For more details on each card, see [Landing page cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dashboard-cards.md).
 
 ## Employee experience overview
 

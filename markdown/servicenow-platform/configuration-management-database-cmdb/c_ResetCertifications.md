@@ -2,6 +2,7 @@
 title: Reset certifications
 description: You cannot reset any element after all elements are certified.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/c\_ResetCertifications.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

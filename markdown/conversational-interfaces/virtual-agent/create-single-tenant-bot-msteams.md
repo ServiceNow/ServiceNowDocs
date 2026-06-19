@@ -2,6 +2,7 @@
 title: Create and integrate a self-configured bot for a single tenant page
 description: Create a self-configured single tenant bot with Microsoft Teams for integration with Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/create-single-tenant-bot-msteams.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -25,7 +26,7 @@ Creating and integrating a single tenant bot is similar to creating a GCC-H or D
 
 ## Procedure
 
-1.  Follow the instructions in [Create a bot in Microsoft Teams for GCC-H or DoD](create-msteams-bot-gcch.md), with the following changes.
+1.  Follow the instructions in [Create a bot in Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-msteams-bot-gcch.md), with the following changes.
 
     1.  Follow steps 1 through 4 as normal.
 
@@ -33,7 +34,7 @@ Creating and integrating a single tenant bot is similar to creating a GCC-H or D
 
     3.  Follow the remaining steps as normal.
 
-2.  Follow the instructions in [Integrate your self-configured bot with Microsoft Teams for GCC-H or DoD](link-msteams-bot-snow.md), with the following changes.
+2.  Follow the instructions in [Integrate your self-configured bot with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/link-msteams-bot-snow.md), with the following changes.
 
     1.  Follow steps 1 through 6 as normal.
 
@@ -46,5 +47,5 @@ Creating and integrating a single tenant bot is similar to creating a GCC-H or D
 
 Your single-tenant bot is ready for use in Virtual Agent.
 
-**Parent Topic:**[Specialized Virtual Agent integrations for Microsoft Teams](../concept/specialized-va-integs-msteams.md)
+**Parent Topic:**[Specialized Virtual Agent integrations for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/specialized-va-integs-msteams.md)
 

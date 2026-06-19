@@ -2,6 +2,7 @@
 title: NowWeb API - iOS
 description: The NowWeb API is a top-level global API that enables uses to instantiate a NowWeb service instance.Creates an instance of NowWebService using the previously specified configuration.Creates an instance of NowWebService using the previously specified configuration. When finished, calls the specified completion handler.Creates an instance of NowWebService using the previously specified configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/cllent-mobile-api-reference/NowWebiOSAPI.html
 release: zurich
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Mobile SDK - iOS, Mobile SDK API reference, API reference, API impl
 
 The NowWeb API is a top-level global API that enables uses to instantiate a NowWeb service instance.
 
-**Parent Topic:**[Mobile SDK - iOS](../../concept/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowWeb - makeWebService\(instanceUrl: URL\) async throws
 
@@ -37,7 +38,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[NowWebService](../../NowWebService/concept/NowWebServiceiOSAPI.md#)
+[NowWebService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowWebServiceiOSAPI.md)
 
 </td><td>
 
@@ -79,7 +80,7 @@ You must initialize the SDK prior to calling this function or the completion blo
 |Name|Type|Description|
 |----|----|-----------|
 |instanceUrl|URL|URL of the ServiceNow instance whose web services are to be accessed by the service.|
-|completion|@escaping \(\(Result&lt;[NowWebService](../../NowWebService/concept/NowWebServiceiOSAPI.md#), Now​Service​Error&gt;\) -&gt; Void\)|Completion handler that is called with a `Result<NowWebService, NowServiceError>` containing either an initialized `NowWebService` instance or a `NowServiceError` indicating why the initialization failed.|
+|completion|@escaping \(\(Result&lt;[NowWebService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowWebServiceiOSAPI.md), Now​Service​Error&gt;\) -&gt; Void\)|Completion handler that is called with a `Result<NowWebService, NowServiceError>` containing either an initialized `NowWebService` instance or a `NowServiceError` indicating why the initialization failed.|
 
 |Type|Description|
 |----|-----------|
@@ -113,7 +114,7 @@ You must initialize the SDK prior to calling this function or the completion blo
 
 |Type|Description|
 |----|-----------|
-|AnyPublisher&lt;[NowWebService](../../NowWebService/concept/NowWebServiceiOSAPI.md#), NowServiceError&gt;|If successful, returns an initialized NowWebService object. If it fails, returns a NowServiceError object.|
+|AnyPublisher&lt;[NowWebService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowWebServiceiOSAPI.md), NowServiceError&gt;|If successful, returns an initialized NowWebService object. If it fails, returns a NowServiceError object.|
 
 ```
 func initializeWebService() {

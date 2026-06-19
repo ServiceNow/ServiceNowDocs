@@ -2,6 +2,7 @@
 title: Assign Policy and Compliance Management roles to your users
 description: Before you can successfully implement or use the Policy and Compliance Management application, you must assign roles to your users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/assign-user-roles.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -33,7 +34,7 @@ Role required: admin
 
 6.  Repeat these steps for each of your users.
 
-    For a comprehensive list of compliance users, see [Roles installed with GRC: Policy and Compliance Management](../../grc-policy-and-compliance/reference/r_InstallWPolAndCompl.md#).
+    For a comprehensive list of compliance users, see [Roles installed with GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md).
 
 <table id="table_o14_t2s_2mb"><thead><tr><th>
 
@@ -157,7 +158,7 @@ The Attestation Creator is responsible for creating and maintaining attestations
 </table>
 ## What to do next
 
-Return to the [Policy and Compliance Management setup checklist](policy-compliance-impl-checklist.md).
+Return to the [Policy and Compliance Management setup checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-checklist.md).
 
-**Parent Topic:**[Perform Policy and Compliance Management administration](../concept/perform-policy-compliance-admin.md)
+**Parent Topic:**[Perform Policy and Compliance Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/perform-policy-compliance-admin.md)
 

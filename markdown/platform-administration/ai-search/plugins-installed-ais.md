@@ -2,6 +2,7 @@
 title: Plugins installed with AI Search
 description: AI Search adds the following plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/plugins-installed-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -32,5 +33,5 @@ AI Search plugin \(com.glide.ais\)
 Enables core functionality for AI Search. Installed in the base system.**Note:** This plugin isn't visible in the **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All** and **All** &gt; **System Definition** &gt; **Plugins** listings. To verify that AI Search is installed and provisioned for use on your instance, navigate to **All** &gt; **AI Search** &gt; **AI Search Status**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Search reference](../concept/reference-ais.md)
+</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/reference-ais.md)
 

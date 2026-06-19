@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP Quote to Cash data product
 description: Find details about the models and process extensions in the Zero Copy Connector for ERP Sales Order data product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erp-canvas-sales-order-content-pack.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -16,10 +17,10 @@ breadcrumb: [Data products, Building models, Use, Zero Copy Connector for ERP ov
 
 Find details about the models and process extensions in the Zero Copy Connector for ERP Sales Order data product.
 
--   **[Zero Copy Connector for ERP Quote to Cash data product models](../reference/erp-canvas-content-pack-sales-order-models.md)**  
+-   **[Zero Copy Connector for ERP Quote to Cash data product models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-content-pack-sales-order-models.md)**  
 The Zero Copy Connector for ERP Quote to Cash data product contains models that you may need when interacting with an SAP system.
--   **[Zero Copy Connector for ERP Quote to Cash data product process extensions](../reference/erp-canvas-content-pack-sales-order-process-extensions.md)**  
+-   **[Zero Copy Connector for ERP Quote to Cash data product process extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-content-pack-sales-order-process-extensions.md)**  
 The Zero Copy Connector for ERP Quote to Cash data product contains process extensions that you may need when interacting with an SAP system.
 
-**Parent Topic:**[Zero Copy Connector for ERP data products](erp-canvas-content-packs.md)
+**Parent Topic:**[Zero Copy Connector for ERP data products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md)
 

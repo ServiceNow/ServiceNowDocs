@@ -2,6 +2,7 @@
 title: Create a Cloud file configuration record
 description: Create a cloud file configuration record to manage the access permissions on the cloud document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/manage-access-permissions-to-the-cloud-file.html
 release: zurich
 product: Audit Management
 classification: audit-management
@@ -27,9 +28,9 @@ Role required: sn\_grc\_workspace.admin \(CRUD\), sn\_grc\_workspace.user \(Read
 
 3.  On the Cloud file configuration form, fill in the fields.
 
-    For more information on the fields in the form, see [Cloud file configuration record form](../reference/document-access-configuration-record-form.md). Once the parent cloud file configuration is active, you can configure the File access permissions for the Cloud file configuration record as shown in the example.
+    For more information on the fields in the form, see [Cloud file configuration record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/document-access-configuration-record-form.md). Once the parent cloud file configuration is active, you can configure the File access permissions for the Cloud file configuration record as shown in the example.
 
-    ![Cloud file configuration record.](../image/cloud-file-configuration-record.png)
+    \[Omitted image "cloud-file-configuration-record.png"\] Alt text: Cloud file configuration record.
 
     Cloud file and folders are validated based on the following:
 
@@ -48,7 +49,7 @@ Role required: sn\_grc\_workspace.admin \(CRUD\), sn\_grc\_workspace.user \(Read
 
         The folder path where the file is uploaded is stored against every ServiceNow record in the Cloud folder path \[sn\_grc\_workspace\_cloud\_folder\_path\] table.
 
-        ![Folder path to upload a file in cloud.](../image/cloud-folder-path.png)
+        \[Omitted image "cloud-folder-path.png"\] Alt text: Folder path to upload a file in cloud.
 
 4.  Select **Submit**.
 

@@ -2,6 +2,7 @@
 title: Activate Now Assist skills in Now Assist for Integrated Risk Management \(IRM\)
 description: Activate a skill before you can use the generative AI capabilities for the Now Assist for Integrated Risk Management \(IRM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/activate-na-skills-in-irm.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -43,7 +44,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 You can perform the following actions on Now Assist skills if you have the sn\_generative\_ai.nsa\_admin role:
 
--   [Edit a Now Assist skill](https://www.servicenow.com/docs/bundle/yokohama-intelligent-experiences/page/administer/now-assist-admin/task/edit-a-now-assist-skill.html).
--   [Make a copy of a Now Assist skill](https://www.servicenow.com/docs/bundle/yokohama-intelligent-experiences/page/administer/now-assist-admin/task/make-a-copy-of-a-now-assist-skill.html).
--   [Troubleshoot a Now Assist skill](https://www.servicenow.com/docs/bundle/yokohama-intelligent-experiences/page/administer/now-assist-admin/task/troubleshoot-a-now-assist-skill.html).
+-   Edit a Now Assist skill.
+-   Make a copy of a Now Assist skill.
+-   Troubleshoot a Now Assist skill.
 

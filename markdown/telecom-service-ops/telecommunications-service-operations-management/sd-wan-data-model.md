@@ -2,11 +2,12 @@
 title: SD-WAN data model
 description: The ServiceNow AI Platform uses a custom data model that defines how SD-WAN connectors discover and retrieve device information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-service-ops/telecommunications-service-operations-management/sd-wan-data-model.html
 release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Telecom data model, Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
 ---
@@ -15,7 +16,7 @@ breadcrumb: [Telecom data model, Telecom Discovery, Telecom Visibility, Explore,
 
 The ServiceNow AI Platform® uses a custom data model that defines how SD-WAN connectors discover and retrieve device information.
 
-The ServiceNow AI Platform® integrates with three SD-WAN service providers: [Cisco Meraki](configuring-cisco-meraki-service-graph-connector.md), [Fortinet](configure-fortinet-service-graph-connector.md), and VeloCloud.
+The ServiceNow AI Platform® integrates with three SD-WAN service providers: [Cisco Meraki](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/configuring-cisco-meraki-service-graph-connector.md), [Fortinet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/configure-fortinet-service-graph-connector.md), and VeloCloud.
 
 The SD-WAN data model defines the structure of an SD-WAN network by documenting classes, their relationships, and comprehensive details about network assets, including configuration data, available ports, and bandwidth allocations across sites and services. This enables centralized management of SD-WAN repositories, streamlined provisioning and monitoring, and efficient resource allocation for building and maintaining network infrastructure.
 
@@ -23,7 +24,7 @@ The SD-WAN data model defines the structure of an SD-WAN network by documenting 
 
 The following table describes the entities used in the SD-WAN architecture and the classes to which they belong.
 
-![SD-WAN class relationships](../images/sd-wan-architecture.svg)
+\[Omitted image "sd-wan-architecture.svg"\] Alt text: SD-WAN class relationships
 
 <table id="table_sqw_123_1hc"><thead><tr><th>
 

@@ -2,6 +2,7 @@
 title: Manage Software Library
 description: Use the Manage Software Library module to manually upload software library data to on-premise instances \(instances not in the cloud to receive automatic Software Library updates\). You can also choose to export your normalization content for participation in the Software Asset Management content service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/manage-sam-software-library.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -34,7 +35,7 @@ A worker is an object that performs some work in one or more background threads.
 
 To upload an attachment larger than 1 GB, you need to update the **com.glide.attachment.max\_size** system property to reflect the size of the content zip file.
 
-You can also export your data for participation in the [Software Asset Management content service](../concept/c_SAMContentService.md) to contribute to the improvement of the normalization service.
+You can also export your data for participation in the [Software Asset Management content service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_SAMContentService.md) to contribute to the improvement of the normalization service.
 
 ## Procedure
 
@@ -61,5 +62,5 @@ You can also export your data for participation in the [Software Asset Managemen
     4.  Select the attachment to open or save.
 
 
-**Parent Topic:**[Software Asset Management administration](../concept/c_SAMAdministration.md)
+**Parent Topic:**[Software Asset Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_SAMAdministration.md)
 

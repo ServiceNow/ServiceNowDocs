@@ -2,6 +2,7 @@
 title: Identify endless loops in blueprint rules
 description: Use the Rule Cycle Report to identify endless loops that may be hard to find during ordinary operation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cpq-identify-endless-loops.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -36,7 +37,7 @@ The report provides a list of all potential circular references in the blueprint
 
 The most recent Rule Cycle Report remains visible to all administrators until the report is run again by clicking **Rerun Report**.
 
-![Identify endless loops in Blueprint rules](../images/cpq-encrichments-rule-cycle-report.png)
+\[Omitted image "cpq-encrichments-rule-cycle-report.png"\] Alt text: Identify endless loops in Blueprint rules
 
-![Identify endless loops in Blueprint rules](../images/cpq-enrichments-rule-cycle-report-breadcrumbs.png)
+\[Omitted image "cpq-enrichments-rule-cycle-report-breadcrumbs.png"\] Alt text: Identify endless loops in Blueprint rules
 

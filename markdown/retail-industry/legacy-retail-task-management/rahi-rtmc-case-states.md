@@ -2,6 +2,7 @@
 title: Retail multi-store case states
 description: The following table lists all possible states for the Retail multi-store parent case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/retail-industry/legacy-retail-task-management/rahi-rtmc-case-states.html
 release: zurich
 product: \[Legacy\] Retail Task Management
 classification: legacy-retail-task-management

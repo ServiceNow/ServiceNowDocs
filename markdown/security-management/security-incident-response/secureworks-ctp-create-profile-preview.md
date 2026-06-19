@@ -2,11 +2,12 @@
 title: Preview the mapped values in the security incident
 description: After you complete the mapping step, preview the values that you mapped in a SIR security incident. This preview step permits you to verify that you have mapped all the ticket fields that you want displayed on the security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/secureworks-ctp-create-profile-preview.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Create a profile, Secureworks CTP Ticket Ingestion Integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -25,21 +26,17 @@ Preview a security incident and edit the mapping again as required to fix fields
 
 ## Procedure
 
-1.  If the security incident preview is not displayed, click **Preview** in the progress bar.
+1.  If the security incident preview is not displayed, select **Preview** in the progress bar.
 
     The tickets are displayed as tabs.
 
-2.  Click on a tab to preview the security incident.
+2.  Select a tab to preview the security incident.
 
     This view is a read-only view, and a record of this security incident is not saved.
 
 3.  Review the field mapping of the ticket values on the security incident.
 
-    ![Secureworks CTP: Create Profile: Preview](../image/secureworks-create-profile-preview.gif)
-
-    The preceding image is an example of a preview with a mapping error of the samples that were ingested.
-
-4.  To resolve this error, click **Mapping** in the progress bar.
+4.  To resolve this error, select **Mapping** in the progress bar.
 
 5.  Edit the mapping to fix incorrect values or populate any missing data.
 

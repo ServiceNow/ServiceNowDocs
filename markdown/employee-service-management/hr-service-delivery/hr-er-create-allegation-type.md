@@ -2,6 +2,7 @@
 title: Configure an employee relations allegation type
 description: Create allegation types and subtypes to help provide details on an employee relations case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-er-create-allegation-type.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

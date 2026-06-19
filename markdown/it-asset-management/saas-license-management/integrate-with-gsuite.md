@@ -1,7 +1,8 @@
 ---
 title: Integrating with Google Workspace
-description: Integrating your Software Asset Management application with the Google Workspace service enables you to track your software subscriptions and to reclaim unused licenses.Create a new project in the Google API Console.Create an integration profile to track software subscriptions and optimize licensing for the Google Workspace service.
+description: Integrating your Software Asset Management application with the Google Workspace service enables you to track your software subscriptions and to reclaim unused licenses.Create a project in the Google API Console.Create an integration profile to track software subscriptions and optimize licensing for the Google Workspace service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/saas-license-management/integrate-with-gsuite.html
 release: zurich
 product: SaaS License Management
 classification: saas-license-management
@@ -83,11 +84,11 @@ Super Administrator
 </td></tr></tbody>
 </table>## Create a Google Workspace project
 
-Create a new project in the Google API Console.
+Create a project in the Google API Console.
 
 ### Before you begin
 
-Google Workspace Role required: Refer to the [Minimal user permissions](integrate-with-gsuite.md#) table.
+Google Workspace Role required: Refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-gsuite.md) table.
 
 ### Procedure
 
@@ -95,25 +96,29 @@ Google Workspace Role required: Refer to the [Minimal user permissions](integrat
 
 2.  Select **Select a project** &gt; **New Project**.
 
-3.  Enter a name for your project in the Project name, then select your Organization and Location.
+3.  Enter a name for your project in the **Project name** field, then select your Organization and Location.
 
 4.  Select **Create**.
 
-5.  Select the OAuth consent screen on the left navigation menu.
+5.  Select **OAuth consent screen** on the side navigation menu.
 
-6.  Select **User Type** as **Internal** and select **Create**.
+6.  If you haven't configured Google Auth Platform yet, select **Get started**.
 
 7.  Enter the App name and select User support email in the App information section.
 
-8.  In Authorized domains, select the **ADD DOMAIN** button and add `service-now.com`.
+8.  Select **Next**.
 
-9.  Enter Email addresses in the Developer contact information section.
+9.  In the Audience section, select **Internal** as the user type and select **Next**.
 
-10. Select **Save and Continue** to add scopes.
+10. In Authorized domains, select the **ADD DOMAIN** button and add `service-now.com`.
 
-11. On the Scopes page, select the **Add or Remove Scopes** button.
+11. Enter your email address in the Developer contact information section.
 
-12. In the Manually add scopes section, enter the following scopes by pasting them to the text area:
+12. Select **Save and Continue** to add scopes.
+
+13. On the Scopes page, select the **Add or Remove Scopes** button.
+
+14. In the Manually add scopes section, enter the following scopes by pasting them to the text area:
 
     -   `https://www.googleapis.com/auth/apps.licensing`
     -   `https://www.googleapis.com/auth/admin.directory.user`
@@ -124,15 +129,15 @@ Google Workspace Role required: Refer to the [Minimal user permissions](integrat
     -   `https://www.googleapis.com/auth/admin.reports.usage.readonly`
     -   `https://www.googleapis.com/auth/userinfo.profile`
     -   `https://www.googleapis.com/auth/userinfo.email`
-13. Select **ADD TO TABLE** and then select **Update**.
+15. Select **ADD TO TABLE** and then select **Update**.
 
-14. Select **Save and Continue**.
+16. Select **Save and Continue**.
 
-15. Select **Credentials** on the left navigation menu and select **CREATE CREDENTIALS**.
+17. Select **Credentials** on the side navigation menu and select **CREATE CREDENTIALS**.
 
-16. Select **OAuth client ID**.
+18. Select **OAuth client ID**.
 
-17. Fill out the form as shown and select **Create**.
+19. Fill out the form as shown and select **Create**.
 
 <table id="table_tgs_fjf_1hb"><thead><tr><th>
 
@@ -175,13 +180,13 @@ Authorized redirect URIs
 https://*instance*.service-now.com/oauth\_redirect.do, where *instance* is the name of your ServiceNow instance
 
 </td></tr></tbody>
-</table>18. Select **OK**.
+</table>20. Select **OK**.
 
     You can now view your client ID and client secret that you would use in your ServiceNow instance.
 
     **Note:** Your client ID and client secret are sensitive. Don't share them.
 
-19. Select **Library** on the left navigation menu.
+21. Select **Library** on the side navigation menu.
 
     Search for and enable the following APIs:
 
@@ -207,15 +212,15 @@ If you’re using Software Asset Workspace, the option to create the Google Work
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d47904e695">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d49818e716">
 
 Interface
 
-</th><th align="left" id="d47904e698">
+</th><th align="left" id="d49818e719">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d47904e704">
+</th></tr></thead><tbody><tr><td id="d49818e725">
 
 **Core UI**
 
@@ -226,7 +231,7 @@ Action
 3.  Select **Google Workspace Integration Profile**.
 
 
-</td></tr><tr><td id="d47904e746">
+</td></tr><tr><td id="d49818e767">
 
 **Software Asset Workspace**
 
@@ -251,7 +256,7 @@ Action
 
 3.  In the Process configuration section, review the required user roles or API permissions specified in the **Vendor configuration** field for each process to minimize security risks and optimize SaaS licenses.
 
-    **Note:** For more information about the required roles and scopes, see [Minimal user permissions](integrate-with-gsuite.md#) table.
+    **Note:** For more information about the required roles and scopes, see [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-gsuite.md) table.
 
     -   The **Download subscriptions** check box is selected by default and you can't clear it.
 
@@ -261,7 +266,7 @@ Action
 
         **Note:** Software Asset Management pulls the events from the time that you start analyzing user activity irrespective of the profile creation date.
 
-        You can modify this value in the Last activity threshold field of your software reclamation rules. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+        You can modify this value in the Last activity threshold field of your software reclamation rules. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
     -   The **Reclaim subscriptions** check box is selected by default. If you don't want to reclaim subscriptions, you can clear this check box. If you clear it, the removal candidates are created but the reclaim subscription subflow isn't triggered or the reclamation process isn't initiated.
 
@@ -271,7 +276,7 @@ Action
 
 5.  On the integration profile, select **Get OAuth Token**.
 
-    **Note:** For the role required to perform this step, refer to the [Minimal user permissions](integrate-with-gsuite.md#) table.
+    **Note:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-gsuite.md) table.
 
 6.  In the pop-up window, select your Google admin account and select **Allow**.
 
@@ -289,7 +294,7 @@ Action
 
 ### Result
 
-You can view events performed by individual users up to one year prior to the current date. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md). Software Asset Management pulls the events from the time that you start downloading user subscriptions irrespective of the profile creation date.
+You can view events performed by individual users up to one year prior to the current date. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/add-reclamation-rule-sub.md). Software Asset Management pulls the events from the time that you start downloading user subscriptions irrespective of the profile creation date.
 
 ### What to do next
 
@@ -305,20 +310,20 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](subscription-exclusions.md#).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/subscription-exclusions.md).
 
-If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](../reuse/create-child-alias-saas.md).
+If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
-Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](../task/track-software-rights.md).
--   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](../task/create-entitlements-workspace.md).
--   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](../task/guidedwalk-workspace.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-entitlements-workspace.md).
+-   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 
-Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
+Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
 
--   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](../task/t_RunReconciliation.md).
--   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](../task/run-recon-workspace.md).
+-   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_RunReconciliation.md).
+-   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/run-recon-workspace.md).
 

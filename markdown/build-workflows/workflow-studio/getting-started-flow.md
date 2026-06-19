@@ -2,6 +2,7 @@
 title: Getting started with flows
 description: Create a sample flow with a trigger and base system actions that requires an approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/getting-started-flow.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -14,8 +15,6 @@ breadcrumb: [Flows, Explore, Workflow Studio, Build workflows]
 # Getting started with flows
 
 Create a sample flow with a trigger and base system actions that requires an approval.
-
-Video explaining how to create a sample flow to ask for approval.
 
 Watch this 3:34-minute video for an introduction to creating a flow in Workflow Studio.
 
@@ -99,14 +98,14 @@ To understand basic flows, create an catalog item approval flow. This flow:
 
 ## What to do next
 
-Transform the Ask for Approval action into a reusable action using Workflow Studio. Actions enable flow designers to add complex actions to multiple flows with minimal configuration. See [Getting started with actions](getting-started-action.md).
+Transform the Ask for Approval action into a reusable action using Workflow Studio. Actions enable flow designers to add complex actions to multiple flows with minimal configuration. See [Getting started with actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/getting-started-action.md).
 
--   **[Build your first flow in Workflow Studio](build-your-first-flow.md)**  
+-   **[Build your first flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/build-your-first-flow.md)**  
 Step through an example of how to build, test, and activate a sample flow in Workflow Studio.
--   **[Build a flow from a template in App Engine Studio](build-flow-from-template.md)**  
+-   **[Build a flow from a template in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/build-flow-from-template.md)**  
 Step through an example of how to build, test, and activate a flow using a flow template in App Engine Studio.
--   **[Use the Workflow Studio help panel](use-flow-designer-help-panel.md)**  
+-   **[Use the Workflow Studio help panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/use-flow-designer-help-panel.md)**  
 Browse topics in the side help panel to learn more about building flows and actions, working with data and spokes, and stepping through guided tours in Workflow Studio.
 
-**Parent Topic:**[Exploring flows](../../workflow-studio/concept/exploring-flows.md)
+**Parent Topic:**[Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-flows.md)
 

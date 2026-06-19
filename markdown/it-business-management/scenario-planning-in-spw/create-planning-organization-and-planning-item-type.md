@@ -2,6 +2,7 @@
 title: Define a new planning item type in Strategic Planning
 description: Create a custom planning item type in Strategic Planning to enable planning them on the portfolio plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/create-planning-organization-and-planning-item-type.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -29,18 +30,18 @@ Role required: admin
 
 3.  On the form, fill in the fields.
 
-    For field information, see [Planning item type form](../reference/new-planning-item-planning-org-form.md).
+    For field information, see [Planning item type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/new-planning-item-planning-org-form.md).
 
 4.  Deselect the **Create module** checkbox.
 
 5.  Save the form.
 
-    1.  Select the Additional actions icon \(![additional actions or the context menu icon on the planning item type form.](../images/additional-actions-icon.png)\).
+    1.  Select the Additional actions icon \(\[Omitted image "additional-actions-icon.png"\] Alt text: additional actions or the context menu icon on the planning item type form.\).
 
     2.  Select **Save**.
 
 
 ## What to do next
 
-If you've created any planning item types, create relevant form views for it. For more information, see [Create form views for new planning item tables in Strategic Planning](create-form-views-for-planning-item-tables-in-apw.md).
+If you've created any planning item types, create relevant form views for it. For more information, see [Create form views for new planning item tables in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/create-form-views-for-planning-item-tables-in-apw.md).
 

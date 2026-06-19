@@ -2,6 +2,7 @@
 title: FinancialsWidgetUtil - Scoped
 description: The FinancialsWidgetUtil script include provides methods to customize widgets in the Financials section of Project Workspace and Strategic Planning Workspace.Instantiates a FinancialsWidgetUtil object.Returns the actual cost for any planning items and work items linked to an investment.Returns the budget for any planning items and work items linked to an investment.Returns the estimate at completion \(EAC\) value for any planning items and work items linked to an investment.Returns the planned cost for any planning items and work items linked to an investment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/FinancialsWidgetUtilScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -24,15 +25,15 @@ The following widgets are available in Project Workspace and Strategic Planning 
 
 You can use the FinancialsWidgetUtil script include to add child widgets that show values for a specified time period or expense type.
 
-![This screenshot shows widgets for Budget, Estimate at Completion, Budget vs EAC Variance, Planned Cost, and Actual Cost to Date.](../image/financials-widgets.png "Financials section in Project Workspace")
+\[Omitted image "financials-widgets.png"\] Alt text: This screenshot shows widgets for Budget, Estimate at Completion, Budget vs EAC Variance, Planned Cost, and Actual Cost to Date.
 
 In this example from Project Workspace, the Planned Cost widget has child widgets that show CapEx and OpEx values, while the Budget widget doesn't have any child widgets.
 
-To use this script include, [create a child widget](https://www.servicenow.com/docs/access?context=configure-widget-project-financials&version=zurich&pubname=zurich-it-business-management&ft:locale=en-US) with one of the available financials widgets as the parent. Use the methods from this script include in the **Script** field of the child widget record.
+To use this script include, create a child widget with one of the available financials widgets as the parent. Use the methods from this script include in the **Script** field of the child widget record.
 
 The FinancialsWidgetUtil script include requires the Financials Core application \(sn\_invst\_pln\), as well as the Strategic Planning application \(sn\_apw\_advanced\) or Project Workspace application \(sn\_pw\). This script include is provided within the `sn_invst_pln` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## FinancialsWidgetUtil - FinancialsWidgetUtil\(GlideRecord investmentGr, Object timeScope, String expenseType\)
 
@@ -58,7 +59,7 @@ investmentGr
 
 </td><td>
 
-[GlideRecord](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)
+[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
 
 </td><td>
 
@@ -138,7 +139,7 @@ var investment = context.investment;
 
 Returns the actual cost for any planning items and work items linked to an investment.
 
-To use this method, [create a child widget](https://www.servicenow.com/docs/access?context=configure-widget-project-financials&version=zurich&pubname=zurich-it-business-management&ft:locale=en-US) with the Actual Cost to Date widget as the parent. Use this method in the **Script** field of the child widget record.
+To use this method, create a child widget with the Actual Cost to Date widget as the parent. Use this method in the **Script** field of the child widget record.
 
 The actual cost returned by this method is for the time period and expense type specified when instantiating the FinancialsWidgetUtil object.
 
@@ -207,7 +208,7 @@ var investment = context.investment;
 
 Returns the budget for any planning items and work items linked to an investment.
 
-To use this method, [create a child widget](https://www.servicenow.com/docs/access?context=configure-widget-project-financials&version=zurich&pubname=zurich-it-business-management&ft:locale=en-US) with the Budget widget as the parent. Use this method in the **Script** field of the child widget record.
+To use this method, create a child widget with the Budget widget as the parent. Use this method in the **Script** field of the child widget record.
 
 The budget returned by this method is for the time period and expense type specified when instantiating the FinancialsWidgetUtil object.
 
@@ -276,7 +277,7 @@ var investment = context.investment;
 
 Returns the estimate at completion \(EAC\) value for any planning items and work items linked to an investment.
 
-To use this method, [create a child widget](https://www.servicenow.com/docs/access?context=configure-widget-project-financials&version=zurich&pubname=zurich-it-business-management&ft:locale=en-US) with the Estimate at Completion widget as the parent. Use this method in the **Script** field of the child widget record.
+To use this method, create a child widget with the Estimate at Completion widget as the parent. Use this method in the **Script** field of the child widget record.
 
 The EAC value returned by this method is for the time period and expense type specified when instantiating the FinancialsWidgetUtil object.
 
@@ -345,7 +346,7 @@ var investment = context.investment;
 
 Returns the planned cost for any planning items and work items linked to an investment.
 
-To use this method, [create a child widget](https://www.servicenow.com/docs/access?context=configure-widget-project-financials&version=zurich&pubname=zurich-it-business-management&ft:locale=en-US) with the Planned Cost widget as the parent. Use this method in the **Script** field of the child widget record.
+To use this method, create a child widget with the Planned Cost widget as the parent. Use this method in the **Script** field of the child widget record.
 
 The planned cost returned by this method is for the time period and expense type specified when instantiating the FinancialsWidgetUtil object.
 

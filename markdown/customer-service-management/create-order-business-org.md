@@ -2,7 +2,10 @@
 title: Create an order for business organizations
 description: Begin the ordering process in Order Management for business organizations by selecting a customer account or consumer and entering the required information to create a product order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-order-business-org.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -45,19 +48,19 @@ When you start an order, a pop-up prompts you to enter details. The pop-up windo
 
     The Create a new order pop-up opens.
 
-    ![create a new order](../image/create-order-business-org.png "Create a new order")
+    \[Omitted image "create-order-business-org.png"\] Alt text: create a new order
 
 3.  On the Create a new order pop-up, create order for either an account or consumer.
 
-<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d244665e170">
+<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d242106e170">
 
 To
 
-</th><th align="left" id="d244665e173">
+</th><th align="left" id="d242106e173">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d244665e179">
+</th></tr></thead><tbody><tr><td id="d242106e179">
 
 **Create an order for an account**
 
@@ -70,7 +73,7 @@ Description
     -   **Order action**: Select the type of order action.
 
 
-</td></tr><tr><td id="d244665e217">
+</td></tr><tr><td id="d242106e217">
 
 **Create an order for a consumer**
 
@@ -91,7 +94,7 @@ Description
     -   The field is automatically prefilled if the agent is assigned to a single business location.
     -   If the agent is assigned to multiple business locations, the field remains empty and must be selected manually.
     -   The field is also prefilled when an **Account** or **Consumer** is selected, based on its associated Channel Partner.
-    To learn more about the **Channel Partner** field, see [Create an order in Order Management](https://www.servicenow.com/docs/access?context=som-create-product-order&version=zurich&pubname=zurich-order-management&ft:locale=en-US).
+    To learn more about the **Channel Partner** field, see .
 
 6.  Select **Create**.
 

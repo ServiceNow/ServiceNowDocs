@@ -1,7 +1,8 @@
 ---
 title: Configure processing messages
-description: Configure processing messages to control the status updates that appear in the chat interface while Now Assist works on a request. You can customize the text of processing messages to better reflect your organization's terminology or the specific actions your AI agents perform.
+description: For Now Assist panel premium chat, configure processing messages to control the status updates that appear in the chat interface while Now Assist works on a request. You can customize the text of processing messages to better reflect your organization's terminology or the specific actions your AI agents perform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/now-assist-in-virtual-agent/nava-configure-processing-messages-manually.html
 release: zurich
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -13,7 +14,7 @@ breadcrumb: [Configuring assistants overview, Now Assist in Virtual Agent, Conve
 
 # Configure processing messages
 
-Configure processing messages to control the status updates that appear in the chat interface while Now Assist works on a request. You can customize the text of processing messages to better reflect your organization's terminology or the specific actions your AI agents perform.
+For Now Assist panel premium chat, configure processing messages to control the status updates that appear in the chat interface while Now Assist works on a request. You can customize the text of processing messages to better reflect your organization's terminology or the specific actions your AI agents perform.
 
 ## Before you begin
 
@@ -25,8 +26,6 @@ Role required: admin
 
 2.  In the selection fields, select **Name** from the drop-down list and enter `processing_messages` in the Search field.
 
-3.  Configure these properties:
+3.  If you have Now Assist panel premium chat, configure sn\_aia.og\_ao.enable\_processing\_messages to enable or disable processing messages.
 
-    -   sn\_aia.og\_ao.enable\_processing\_messages - Enable or disable processing messages.
-    -   glide.ui.processing\_message.collapse - Controls collapsing of processing messages.
 

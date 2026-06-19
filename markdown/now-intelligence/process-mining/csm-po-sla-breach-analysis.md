@@ -2,6 +2,7 @@
 title: SLA Breach Analysis project
 description: Use the SLA breach analysis project in Process Mining to identify and analyze cases where service level agreements \(SLAs\) have been violated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/csm-po-sla-breach-analysis.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -89,7 +90,7 @@ Breakdown by channels, product, and assignment group
 </td></tr></tbody>
 </table>## Using the SLA Breach Analysis project
 
-Use the SLA Breach Analysis project to analyze the reasons why customers are breaching SLAs and help them get to the root cause. This project is available with the [Process Mining Content Pack for CSM](csm-integration-po.md) \(sn\_csm\_po\).
+Use the SLA Breach Analysis project to analyze the reasons why customers are breaching SLAs and help them get to the root cause. This project is available with the [Process Mining Content Pack for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/csm-integration-po.md) \(sn\_csm\_po\).
 
 To access the SLA Breach Analysis project:
 
@@ -101,7 +102,7 @@ To access the SLA Breach Analysis project:
 6.  On the Summary and Insights tab you can view the following information:
     -   Project Metrics: Displays metric data such as Average time to completion of records over time.
     -   Improvement Opportunities: Displays metric data and a list of cases with different types of SLA breaches, such as Ping-Pong \(case reassignment\) and Extreme duration.
-7.  To view the process map for a case, select **Action** and then select **View in workbench** to display the [Analyst Workbench](analyst-workbench-dashboard.md).
+7.  To view the process map for a case, select **Action** and then select **View in workbench** to display the [Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/analyst-workbench-dashboard.md).
 
     Use this workbench to access the visualized process workflow data and tools for analyzing the data related to SLA breaches.
 
@@ -111,8 +112,8 @@ To access the SLA Breach Analysis project:
     -   Task SLA map: View the points at which the case is breaching the SLA.
 8.  Select a node or transition line within a map to view additional details about the selected item in a modal window.
 
-    For more information about using Analyst workbench, including breakdown filters and process maps, see the details in the [Analyst Workbench](analyst-workbench-dashboard.md) topic.
+    For more information about using Analyst workbench, including breakdown filters and process maps, see the details in the [Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/analyst-workbench-dashboard.md) topic.
 
 
-**Parent Topic:**[Content pack for Customer Service Management](csm-integration-po.md)
+**Parent Topic:**[Content pack for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/csm-integration-po.md)
 

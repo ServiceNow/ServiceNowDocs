@@ -2,6 +2,7 @@
 title: Delete customizations before upgrading to Agile Development 2.0
 description: Take complete advantage of enhanced functionality by deleting all your customizations before upgrading to Agile Development 2.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/delete-customizations.html
 release: zurich
 product: Agile Development
 classification: agile-development
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-**Important:** Agile Development 1.0 and its features such as Sprint burndown chart and release burndown chart are deprecated and no longer available. [Agile Development 2.0](../reference/agile-landing-page.md) provides the latest experience for supporting your Agile work methodology.
+**Important:** Agile Development 1.0 and its features such as Sprint burndown chart and release burndown chart are deprecated and no longer available. [Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/agile-landing-page.md) provides the latest experience for supporting your Agile work methodology.
 
 ## Procedure
 
@@ -49,10 +50,10 @@ Role required: admin
 
 If the Agile Development 2.0 plugin \(com.snc.sdlc.agile.2.0\) has been installed before deleting the customizations, refresh the plugin by reinstalling it.
 
-**Parent Topic:**[Migration from Agile Development 1.0 to Agile Development 2.0](../concept/migrate-agile.md)
+**Parent Topic:**[Migration from Agile Development 1.0 to Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/migrate-agile.md)
 
 **Related topics**  
 
 
-[Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US)
+[bundle-platadm.t_AddAPropertyUsingSysPropsList]
 

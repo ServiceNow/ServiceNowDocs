@@ -2,6 +2,7 @@
 title: Exporting and importing product catalog entities
 description: As a product catalog admin, you can both export and import product catalog entities between ServiceNow instances. For example, you can promote catalog entities from a non-production instance to a production instance. Each process involves a separate set of steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/export-import-product-catalog-entities.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -33,9 +34,9 @@ Follow these steps to export and import product catalog entities.
 
 |Step|Description|
 |----|-----------|
-|[Add Code field values to catalog entities](../task/run-fix-script-sched-job-export.md)|Add the **Code** field values for the main product catalog entities on your source and target instances.|
-|[Export product catalog entities](../task/export-product-catalog-entities.md)|Export product catalog entities from one instance to another. The entities are exported as JSON and are downloaded to your local download directory.|
-|[View export job status](../task/view-export-job-status.md)|Check the state of the export job.|
-|[Import product catalog entities](../task/import-product-catalog-entities.md)|Import product entities exported as JSON files to another instance.|
-|[View import job status](../task/view-import-job-status.md)|Check the state of the import job.|
+|[Add Code field values to catalog entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/run-fix-script-sched-job-export.md)|Add the **Code** field values for the main product catalog entities on your source and target instances.|
+|[Export product catalog entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/export-product-catalog-entities.md)|Export product catalog entities from one instance to another. The entities are exported as JSON and are downloaded to your local download directory.|
+|[View export job status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/view-export-job-status.md)|Check the state of the export job.|
+|[Import product catalog entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/import-product-catalog-entities.md)|Import product entities exported as JSON files to another instance.|
+|[View import job status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/view-import-job-status.md)|Check the state of the import job.|
 

@@ -2,6 +2,7 @@
 title: Source parts in Dispatcher Workspace
 description: Source parts from your preferred stockrooms or assignment groups to complete the work order task promptly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/source-parts-dw.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling

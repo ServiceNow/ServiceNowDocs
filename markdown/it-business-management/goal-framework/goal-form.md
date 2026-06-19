@@ -2,6 +2,7 @@
 title: Goal form
 description: Use the Goal form to create goals for your organizational strategic priorities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/goal-framework/goal-form.html
 release: zurich
 product: Goal Framework
 classification: goal-framework
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Goal Framework and Goal Framework for SPM, Strategic Por
 
 Use the Goal form to create goals for your organizational strategic priorities.
 
-**Note:** For Operational Sustainability Workspace and Strategic Planning users, to view the other fields \(that aren’t added to the default or your custom form view\) on the form in the workspace, configure the default/custom form layout. For information on how to configure the form layout, see [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** For Operational Sustainability Workspace and Strategic Planning users, to view the other fields \(that aren’t added to the default or your custom form view\) on the form in the workspace, configure the default/custom form layout. For information on how to configure the form layout, see Configuring the form layout.
 
 <table id="table_demand_benefit_plan_form"><thead><tr><th>
 
@@ -148,7 +149,7 @@ Progress
 
 </td><td>
 
-Percentage complete for the goal. The progress value is calculated automatically if the goal has sub-goals or/and targets.For more information on how the progress value is calculated, see [Progress value calculation](../concept/progress-value-calculation.md).
+Percentage complete for the goal. The progress value is calculated automatically if the goal has sub-goals or/and targets.For more information on how the progress value is calculated, see [Progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/progress-value-calculation.md).
 
 </td></tr><tr><td>
 

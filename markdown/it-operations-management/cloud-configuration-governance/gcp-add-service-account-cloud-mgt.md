@@ -2,6 +2,7 @@
 title: \(Optional\) Add a Google Cloud Platform service account to the cloud account
 description: During Cloud Provisioning and Governance Day 1 setup, you added one service account to the cloud account. To compartmentalize your infrastructure or to include different datacenters, you can add another service account. A particular datacenter, however, cannot be selected in more than one service account in a cloud account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/gcp-add-service-account-cloud-mgt.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -25,7 +26,7 @@ A service account is a secure record on your instance that stores the credential
 
 In this example, you added the service account named **ProviderB-ServiceAccount-1** and selected three datacenters to include in the cloud account:
 
-![A second service account with three selected datacenters](../image/cloud-acct-makeup.png "A service account with three selected datacenters")
+\[Omitted image "cloud-acct-makeup.png"\] Alt text: A second service account with three selected datacenters
 
 **Important:** In a cloud account, you cannot select a particular datacenter in two different service accounts.
 
@@ -51,7 +52,7 @@ Account ID
 
 </td><td>
 
-From the JSON key file that is associated with the service account, copy/paste the **project\_id** value into the **Account ID** field.![Copy the project_id value into the Account ID field](../image/gcp-add-service-acct.png "Google Cloud Platform (GCP) project ID")
+From the JSON key file that is associated with the service account, copy/paste the **project\_id** value into the **Account ID** field.\[Omitted image "gcp-add-service-acct.png"\] Alt text: Copy the project\_id value into the Account ID field
 
 </td></tr><tr><td>
 
@@ -59,7 +60,7 @@ Discovery credentials
 
 </td><td>
 
-Select the appropriate credentials for the service account For information on generating or obtaining the credentials, see [Specify the credentials that CSC Terraform Connector uses to access Google Cloud Platform data](gcp-create-creds-cloud-mgt-1.md).
+Select the appropriate credentials for the service account For information on generating or obtaining the credentials, see [Specify the credentials that CSC Terraform Connector uses to access Google Cloud Platform data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
 </td></tr><tr><td>
 

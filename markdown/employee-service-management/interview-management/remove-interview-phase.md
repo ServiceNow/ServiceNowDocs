@@ -2,6 +2,7 @@
 title: Remove interview phase
 description: As a recruiter, remove interview phases that you had set up once they aren’t needed anymore.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/interview-management/remove-interview-phase.html
 release: zurich
 product: Interview Management
 classification: interview-management
@@ -32,5 +33,5 @@ Role required: sn\_ta\_hiring\_core.recruiter
 5.  On the confirmation window, select **Remove**.
 
 
-**Parent Topic:**[Using Interview Management](../concept/using-interview-mgmnt.md)
+**Parent Topic:**[Using Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/interview-management/using-interview-mgmnt.md)
 

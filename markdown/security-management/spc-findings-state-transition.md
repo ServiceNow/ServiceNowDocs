@@ -2,6 +2,7 @@
 title: Test result and remediation task state transitions in the Security Posture Control application
 description: The states on findings \(configuration test records\) and their associated remediation tasks are impacted if you modify your policies in the Security Posture Control application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/spc-findings-state-transition.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -19,7 +20,7 @@ With some exceptions, states generally transition between your findings \(test r
 
 The following tables illustrate how states transition on your findings if you edit and publish a new version \(edit\), deactivate, or delete your policies.
 
-For more information about state changes in Configuration Compliance, see [Test result and remediation task state transitions in the Configuration Compliance application](../../vulnerability-config-compliance/concept/cc-state-transition.md).
+For more information about state changes in Configuration Compliance, see [Test result and remediation task state transitions in the Configuration Compliance application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/configuration-compliance/cc-state-transition.md).
 
 **Note:** Starting with v14.9 of Configuration Compliance, the following terms have been renamed:
 

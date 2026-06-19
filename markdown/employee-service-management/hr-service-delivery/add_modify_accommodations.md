@@ -2,6 +2,7 @@
 title: Add or modify accommodations
 description: You can add, modify, or view accommodation requests for an HR profile. Accommodations are requests from your employees related to their work situation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/add\_modify\_accommodations.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,7 +20,7 @@ You can add, modify, or view accommodation requests for an HR profile. Accommoda
 
 Role required: sn\_hr\_er.case\_writer
 
-**Note:** For more information, see [Employee Relations accommodations](../concept/hr-er-accommodations.md).
+**Note:** For more information, see [Employee Relations accommodations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-er-accommodations.md).
 
 ## Procedure
 
@@ -31,10 +32,10 @@ Role required: sn\_hr\_er.case\_writer
 
 4.  Select **New** or to edit, select the **Status** link.
 
-    **Note:** For information on creating an accommodation request, see [Add or modify accommodations](add_modify_accommodations.md).
+    **Note:** For information on creating an accommodation request, see [Add or modify accommodations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/add_modify_accommodations.md).
 
 5.  Select **Submit** or **Update**.
 
 
-**Parent Topic:**[Use HR Profile](../concept/c_HRProfileRecords.md)
+**Parent Topic:**[Use HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
 

@@ -2,6 +2,7 @@
 title: Schedule an export
 description: You can schedule an export to regularly push data from an export set to a remote destination. By setting up a recurring, scheduled export you are able to regularly push data to an external location, such as for reporting or for preserving a snapshot of the data.Delta exports include only the records that changed since the last scheduled export.When scheduling an export set, you can access certain JavaScript objects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/system-export-sets/t\_ScheduleAnExport.html
 release: zurich
 product: System Export Sets
 classification: system-export-sets

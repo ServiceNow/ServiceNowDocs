@@ -2,6 +2,7 @@
 title: Enable Live Agent in the Now Mobile app
 description: Activate the Chat quick action to allow your users to ask for help from a virtual or live agent from the Now Mobile home page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-mobile-employee-experience/va-in-me.html
 release: zurich
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience

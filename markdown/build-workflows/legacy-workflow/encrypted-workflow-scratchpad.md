@@ -2,6 +2,7 @@
 title: Encrypted workflow scratchpad
 description: The Encrypted Workflow Scratchpad plugin \(com.snc.encrypted.scratchpad\) provides encrypted scratchpad support for workflow context and workflow executing activities.Request activation of the Encrypted Workflow Scratchpad plugin \(com.snc.encrypted.scratchpad\) from ServiceNow personnel
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/legacy-workflow/encrypted-workflow-scratchpad.html
 release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
@@ -23,7 +24,7 @@ Data in the workflow scratchpad is not encrypted by default. The Workflow engine
 
 The Encrypted Workflow Scratchpad plugin is incompatible with domain separation. Activating the Encrypted Workflow Scratchpad plugin on a domain separated instance can produce encryption errors when running some workflows. Consider using a Workflow Studio flow instead.
 
-**Parent Topic:**[Workflow administration](../../workflow/concept/c_WorkflowAdministration.md)
+**Parent Topic:**[Workflow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/c_WorkflowAdministration.md)
 
 ## Request encrypted workflow scratchpad activation
 
@@ -35,7 +36,7 @@ Role required: admin
 
 The Encrypted Workflow Scratchpad plugin must be activated via a Customer Service and Support request. You should activate and thoroughly test the plugin in a non-production instance. Only after you satisfied with the results should you request activation in a production instance.
 
-When requesting activation in a production instance, you should schedule a low transactional volume time to do so. Prior to its activation, first activate the Workflow Pause Utility \(com.glideapp.workflow.pause\), and then pause all active workflows. Refer to [Workflow pause utility](workflow-pause-utility.md). After activation of the Encrypted Workflow Scratchpad plugin, resume all paused workflows.
+When requesting activation in a production instance, you should schedule a low transactional volume time to do so. Prior to its activation, first activate the Workflow Pause Utility \(com.glideapp.workflow.pause\), and then pause all active workflows. Refer to [Workflow pause utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/workflow-pause-utility.md). After activation of the Encrypted Workflow Scratchpad plugin, resume all paused workflows.
 
 ### About this task
 
@@ -117,10 +118,10 @@ Select the date and time to activate the plugin.
 
 ### What to do next
 
-After plugin activation, resume all paused workflows. Refer to [Pause and resume all or multiple workflows](../task/pause-resume-all-multiple-workflows.md).
+After plugin activation, resume all paused workflows. Refer to [Pause and resume all or multiple workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/pause-resume-all-multiple-workflows.md).
 
 **Related topics**  
 
 
-[List of plugins](https://www.servicenow.com/docs/access?context=list-of-plugins&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+[bundle-platadm.list-of-plugins]
 

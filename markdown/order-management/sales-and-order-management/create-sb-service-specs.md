@@ -2,11 +2,12 @@
 title: Create a service specification for a remote catalog item
 description: Create a service specification on a Service Exchange provider instance. When you publish the service specification, a remote record producer creates the remote catalog item for the service specification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/create-sb-service-specs.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Configuring Service Exchange Order Management for Providers, Order Management for providers with Service Exchange, Integrate, Sales Customer Relationship Management]
 ---
@@ -27,7 +28,7 @@ When you create a service specification for a service request, use the **Distrib
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![image.Lists] view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Specifications** &gt; **Service specifications** and select **New**.
 
@@ -98,6 +99,8 @@ Type
 Type of service specification: -   **Customer Facing**
 
 Customers can create a ticket or a case for the service. When you select this type, the **Distribution channel** field is displayed to specify how the service is provided, for example web.
+
+**Note:** Only Customer Facing Service specifications are eligible for remote catalog creation.
 
 -   **Resource Facing**
 
@@ -256,5 +259,5 @@ You can't change this field.
 
 ## What to do next
 
-[Associate consumer criteria to a remote record producer](associate-criteria-remote-catalog.md) for this remote catalog item.
+[Associate consumer criteria to a remote record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/associate-criteria-remote-catalog.md) for this remote catalog item.
 

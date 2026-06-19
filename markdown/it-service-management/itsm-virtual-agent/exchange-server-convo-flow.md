@@ -2,6 +2,7 @@
 title: Microsoft Exchange Server meeting management pre-built topics for ITSM Virtual Agent
 description: ITSM Virtual Agent helps you manage meetings in Microsoft Exchange Server. Using the Manage Meetings EXS topic, you can schedule, reschedule, and cancel a meeting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-virtual-agent/exchange-server-convo-flow.html
 release: zurich
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -21,9 +22,9 @@ Natural Language Understanding \(NLU\) is used to identify and trigger the meeti
 
 Requirements:
 
--   [Microsoft Exchange Server spoke](https://www.servicenow.com/docs/access?context=msexchangeserver-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) \(sn\_exchange\_spoke\)
+-   Microsoft Exchange Server spoke \(sn\_exchange\_spoke\)
 -   Email addresses for meeting attendees must be configured in the User \[sys\_user\] table to be added to meeting invites
--   Some topics can use the [Zoom spoke](https://www.servicenow.com/docs/access?context=zoom-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) to add meeting links
+-   Some topics can use the Zoom spoke to add meeting links
 
 **Note:** If these topics are duplicated in a different scope than ITSM Virtual Agent Conversations, script logic can be affected and cause errors. This topic must be duplicated in the ITSM Virtual Agent Conversations scope.
 
@@ -38,7 +39,7 @@ Basic flow:
 3.  User selects the desired meeting or can choose to cancel all meetings during the specified duration.
 4.  Virtual Agent cancels the meetings, sends an email to all attendees, and updates the calendar.
 
-![Manage Meetings EXS topic - Canceling a meeting.](../image/CancelEXS2.png)
+\[Omitted image "CancelEXS2.png"\] Alt text: Manage Meetings EXS topic - Canceling a meeting.
 
 ## Manage Meetings EXS: Reschedule a meeting
 
@@ -54,7 +55,7 @@ Basic flow:
 
 Virtual Agent reschedules the meeting, emails the attendees, and updates the calendar.
 
-![Manage Meetings EXS topic - Rescheduling a meeting.](../image/RescheduleEXS2.png)
+\[Omitted image "RescheduleEXS2.png"\] Alt text: Manage Meetings EXS topic - Rescheduling a meeting.
 
 ## Manage Meetings EXS: Schedule a meeting
 
@@ -69,7 +70,7 @@ Basic flow:
 5.  User confirms that Virtual Agent should schedule the meeting.
 6.  Once the user confirms, Virtual Agent sends the email invitations and schedules the meeting.
 
-![Manage Meetings EXS topic - Scheduling a meeting.](../image/scheduleEXS3.png)
+\[Omitted image "scheduleEXS3.png"\] Alt text: Manage Meetings EXS topic - Scheduling a meeting.
 
-**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](../concept/using-itsm-va.md)
+**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-virtual-agent/using-itsm-va.md)
 

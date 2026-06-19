@@ -2,6 +2,7 @@
 title: Speed up alert resolution with a Now Assist analysis of past related incidents
 description: Use Now Assist to investigate relevant past incidents and present effective strategies used to resolve them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/now-assist-for-it-operations-management/nai-past-incidents.html
 release: zurich
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
@@ -20,8 +21,8 @@ Now Assist queries historical records to find past incidents and analyzes their 
 
 **Note:** An additional Large Language Model \(LLM\) validation layer is added to the AI search capability to improve the accuracy of results returned by AI skills.
 
--   **[Generate a Now Assist summary of past related incidents](../task/nai-analyze-past-incidents.md)**  
+-   **[Generate a Now Assist summary of past related incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/nai-analyze-past-incidents.md)**  
 View a Now Assist summary of past incidents on the same or related Configuration Items \(CIs\) and strategies used to resolve them.
 
-**Parent Topic:**[Use generative AI in Now Assist for ITOM](now-assist-itom-use.md)
+**Parent Topic:**[Use generative AI in Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.md)
 

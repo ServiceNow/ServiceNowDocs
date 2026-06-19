@@ -2,6 +2,7 @@
 title: Create KPI groups to track metrics for your vendors
 description: Create key performance indicator \(KPI\) groups and include KPIs that matter most for your vendors. Associate the KPI groups with your vendors, set thresholds to monitor indicator status, and analyze vendor performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/vendor-management-workspace/create-kpi-groups-vendors-configurable-workspace.html
 release: zurich
 product: Vendor Management Workspace
 classification: vendor-management-workspace
@@ -17,7 +18,7 @@ Create key performance indicator \(KPI\) groups and include KPIs that matter mos
 
 ## Before you begin
 
-Configure [Performance analytics indicators](https://www.servicenow.com/docs/access?context=c_Indicators&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US) that you want to add to each vendor KPI group. For a list of indicators that are available by default refer to [Installed with Vendor Management Workspace](../reference/installed-w-vendor-manager-configurable-workspace.md).
+Configure Performance analytics indicators that you want to add to each vendor KPI group. For a list of indicators that are available by default refer to [Installed with Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/installed-w-vendor-manager-configurable-workspace.md).
 
 The indicators must have a vendor breakdown on the Company \[core\_company\] table with associated vendors.
 
@@ -78,5 +79,5 @@ Role required: sn\_vlm.vendor\_admin
 
 ## What to do next
 
-[Associate](../concept/using-vendor-management-workspace.md) the KPI group to vendors.
+[Associate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/using-vendor-management-workspace.md) the KPI group to vendors.
 

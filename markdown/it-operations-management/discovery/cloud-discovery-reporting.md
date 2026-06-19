@@ -2,6 +2,7 @@
 title: Cloud discovery reporting
 description: Cloud discovery reporting provides a user-friendly interface for navigating and analyzing your cloud resource inventory. It offers drill-down and slice-and-dice views to gain granular insights into your cloud resource inventories, with details obtained from the discovery. It provides an easier and faster way to locate and identify the state and location of cloud resources, streamlining your management tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/cloud-discovery-reporting.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -17,9 +18,9 @@ Cloud discovery reporting provides a user-friendly interface for navigating and 
 
 Learn about cloud discovery reporting:
 
--   [Analytics and Reporting for Cloud Resources](../../../use/dashboards/application-content-packs/cloud-resources-content-pack.md)
--   [Cloud Resources dashboard](../../../use/dashboards/application-content-packs/cloud-resources-dashboard.md)
--   [Cloud Resources Explorer](../../../use/dashboards/application-content-packs/cloud-resources-inventory-dashboard.md)
+-   [Analytics and Reporting for Cloud Resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cloud-resources-content-pack.md)
+-   [Cloud Resources dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cloud-resources-dashboard.md)
+-   [Cloud Resources Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cloud-resources-inventory-dashboard.md)
 
 **Note:** For better results, use the Cloud Resources Explorer instead of the Platform Analytics Solutions featured on the Cloud Resources dashboard.
 

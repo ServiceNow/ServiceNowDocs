@@ -2,11 +2,12 @@
 title: Permissions required for DevOps tools
 description: Permissions required in your third-party tool to connect to DevOps Change Velocity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/tool-req-permission.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Check permissions and update credentials, Manage, DevOps Change Velocity, IT Service Management]
 ---
@@ -311,5 +312,5 @@ Required to process workflow events associated with private repositories.
 |Groups|jira-software-users|Required to discover plans and fetch features, stories, and so on, either through import, polling, or configured webhook.|
 |Permissions|Jira Administrators|Required to create webhooks automatically for fetching features and stories in real time.|
 
-**Parent Topic:**[Check permissions and update credentials for tools — Workspace](update-credentials-check-permissions.md)
+**Parent Topic:**[Check permissions and update credentials for tools — Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/update-credentials-check-permissions.md)
 

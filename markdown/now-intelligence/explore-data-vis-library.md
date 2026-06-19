@@ -2,6 +2,7 @@
 title: Exploring the Data Visualizations library
 description: Find any data visualization in the Platform Analytics Data Visualizations library so that you can share information about your data with stakeholders and other users to evaluate the trends with real-time data. With the appropriate role, you can also create a visualization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/explore-data-vis-library.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -17,7 +18,7 @@ Find any data visualization in the Platform Analytics Data Visualizations librar
 
 On Zurich instances, you can find both Core UI reports and Platform Analytics experience data visualizations in the Data Visualizations library.
 
-When you edit Core UI dashboards and their content, you do so in the Core UI tools including Report Designer. For more information, see [Reporting, dashboards, and Performance Analytics in the Core UI](../../reporting/concept/classic-vis-overview.md) and [Using reporting](../../reporting/concept/c_GenerateReports.md)
+When you edit Core UI dashboards and their content, you do so in the Core UI tools including Report Designer. For more information, see [Reporting, dashboards, and Performance Analytics in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/classic-vis-overview.md) and [Using reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_GenerateReports.md)
 
 To open the data visualizations library, navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
 
@@ -25,7 +26,7 @@ To open the data visualizations library, navigate to **All** &gt; **Platform Ana
 
 The following example shows the Data Visualizations library elements.
 
-![Data Visualizations library.](../../par-for-workspace/image/analytics-center-data-vis-tab.png "Platform Analytics Data Visualizations library features")
+\[Omitted image "analytics-center-data-vis-tab.png"\] Alt text: Data Visualizations library.
 
 The following table lists the Data Visualizations library elements. Refer to the numbered call-outs in the image and their descriptions in the table.
 
@@ -63,10 +64,10 @@ Option to create data visualizations.
 
 </td><td>
 
-Option for filtering the data visualizations list to display the data based on the following predefined conditions:-   **Bookmarked**. Your bookmarked visualizations. Bookmark any data visualization that you have access to so that you can find it easily. To bookmark a visualization, see [Bookmark a visualization in the Visualization Designer](../../dashboards/task/bookmark-dv-ac.md).
--   **Certified**Visualizations that an administrator has certified. To certify a data visualization, see [Certify a data visualization in the Visualization Designer](../../dashboards/task/certify-dv-ac.md).
+Option for filtering the data visualizations list to display the data based on the following predefined conditions:-   **Bookmarked**. Your bookmarked visualizations. Bookmark any data visualization that you have access to so that you can find it easily. To bookmark a visualization, see [Bookmark a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/bookmark-dv-ac.md).
+-   **Certified**Visualizations that an administrator has certified. To certify a data visualization, see [Certify a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/certify-dv-ac.md).
 -   **Owned by me**. Visualizations that you own or you created.
--   **Shared with me**. Visualizations that have been shared with you as a user, member of a group, or role. To share a data visualization, see [Share a data visualization in the Visualization Designer](../../reporting/task/share-dv-ac.md#).
+-   **Shared with me**. Visualizations that have been shared with you as a user, member of a group, or role. To share a data visualization, see [Share a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/share-dv-ac.md).
 
 </td></tr><tr><td>
 
@@ -90,7 +91,7 @@ Search box with a list filter to filter the list of data visualizations by name 
 
 </td><td>
 
-Option to add or remove columns in the data visualizations list \(![Personalize list icon](../../par-for-workspace/image/icon-personalize-list.png)\).
+Option to add or remove columns in the data visualizations list \(\[Omitted image "icon-personalize-list.png"\] Alt text: Personalize list icon\).
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: Assign a Visual Task Board card to a user
 description: Assignees represent ownership of task cards and the associated records. Each task card can have one primary assignee and multiple additional assignees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/visual-task-boards/t\_AssignATaskToAUser.html
 release: zurich
 product: Visual Task Boards
 classification: visual-task-boards
@@ -23,7 +24,7 @@ Role required: admin
 
 You can filter the visible tasks on a board to show only tasks assigned to a certain user. Assignees appear on cards as avatars.
 
-![Task card assignees](../image/AssigneeOnCardHelsinki.png "Task card assignees")
+\[Omitted image "AssigneeOnCardHelsinki.png"\] Alt text: Task card assignees
 
 When a card changes lanes, all the assignees receive an email notification.
 
@@ -35,7 +36,7 @@ For flexible and guided boards, the primary assignee corresponds to the underlyi
 
 1.  Do one of the following actions.
 
-<table id="choicetable_l4n_x4d_pt"><tbody><tr><td id="d58257e97">
+<table id="choicetable_l4n_x4d_pt"><tbody><tr><td id="d44297e97">
 
 **Add an assignee from the quick panel**
 
@@ -45,14 +46,14 @@ For flexible and guided boards, the primary assignee corresponds to the underlyi
 2.  Drop the avatar in the **Primary** or **Additional** drop zone.
 
 
-</td></tr><tr><td id="d58257e121">
+</td></tr><tr><td id="d44297e121">
 
 **Add an assignee from the card details**
 
 </td><td>
 
 1.  Open the card details for a task.
-2.  Click the assignees tab \(![Assignees tab](../image/AssigneesTab.png)\).
+2.  Click the assignees tab \(\[Omitted image "AssigneesTab.png"\] Alt text: Assignees tab\).
 3.  Click **Add Primary Assignee** or **Add Additional Assignee**. The **Add Primary Assignee** option is not available if there is already a primary assignee.
 4.  Select a user.
 5.  Close the card detail pop-up window.
@@ -62,5 +63,5 @@ For flexible and guided boards, the primary assignee corresponds to the underlyi
 </table>    The system sends an email notification to inform the new assignee of the change.
 
 
-**Parent Topic:**[Working with Visual Task Board cards](../reference/r_TaskCards.md)
+**Parent Topic:**[Working with Visual Task Board cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/r_TaskCards.md)
 

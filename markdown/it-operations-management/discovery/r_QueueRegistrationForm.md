@@ -2,11 +2,12 @@
 title: Queue Registration form reference
 description: The Queue Registration form displays the fields available when creating or modifying a queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/r\_QueueRegistrationForm.html
 release: zurich
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Discovery reference, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -94,5 +95,5 @@ Description
 Description of the queue.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Discovery reference](discovery-references.md)
+</table>**Parent Topic:**[Discovery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-references.md)
 

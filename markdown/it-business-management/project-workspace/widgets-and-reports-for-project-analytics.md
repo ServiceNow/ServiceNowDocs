@@ -2,6 +2,7 @@
 title: Widgets and reports for project analytics
 description: Widgets and reports that provide information for the project summary in the Analytics page of the project workspace for Agile, Waterfall, and Hybrid projects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/widgets-and-reports-for-project-analytics.html
 release: zurich
 product: Project Workspace
 classification: project-workspace
@@ -315,5 +316,5 @@ Time Card — Exception Report
 List of users who did not submit their time cards for the selected project, and time cards that are not yet approved for the selected project. The exception report is generated for users who are assigned to a task in progress, or hard-allocated to the project or task.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Analyze project analytics from Project Workspace](../task/analyze-project-analytics-in-project-workspace.md)
+</table>**Parent Topic:**[Analyze project analytics from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/analyze-project-analytics-in-project-workspace.md)
 

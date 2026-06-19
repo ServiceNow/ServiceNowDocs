@@ -2,6 +2,7 @@
 title: Configure HR transfer case
 description: The base system provides examples of HR transfer case configuration types. You can also create your own.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/config-hr-transfer-case.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -21,7 +22,7 @@ Role required: sn\_hr\_core.admin
 
 ## About this task
 
-If you are creating a transfer case configuration, you must also create a script include to implement the sn\_hr\_core HR case transfer extension point. For more information, see [Registering custom script includes against the scripted extension points](https://www.servicenow.com/docs/access?context=impl-scripted-ext-pts-base-code&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+If you are creating a transfer case configuration, you must also create a script include to implement the sn\_hr\_core HR case transfer extension point. For more information, see Registering custom script includes against the scripted extension points.
 
 Refer to the existing script includes as examples:
 
@@ -31,7 +32,7 @@ Refer to the existing script includes as examples:
 
 The hr\_TransferCase script include provides a list of fields ignored in the transfer and acts as a utility for the other two script includes.
 
-**Note:** Refer to [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+**Note:** Refer to Script includes.
 
 ## Procedure
 
@@ -77,9 +78,9 @@ HR criteria
 
 </td><td>
 
-Defines what HR agents can view and use this transfer type when performing an HR case transfer from the HR case form.See [HR criteria](../concept/hr-criteria.md#).
+Defines what HR agents can view and use this transfer type when performing an HR case transfer from the HR case form.See [HR criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-criteria.md).
 
-**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 </td></tr><tr><td>
 
@@ -101,5 +102,5 @@ Indicates if the HR case transfer type is active and available for use. Inactive
 </table>4.  Select **Submit** or **Update**.
 
 
-**Parent Topic:**[Transfer an HR case](../concept/reclassify-hr-case.md)
+**Parent Topic:**[Transfer an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/reclassify-hr-case.md)
 

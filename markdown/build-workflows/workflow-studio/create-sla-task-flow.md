@@ -2,6 +2,7 @@
 title: Create a flow with an SLA Task trigger
 description: Configure your Service Level Agreement \(SLA\) definition to run a flow as the action plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/create-sla-task-flow.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -93,15 +94,15 @@ Option to specify the user that runs the flow. You can select the system user or
 
 6.  Add actions, subflows, and flow logic to the flow.
 
-    Add [SLA Percentage Timer actions](../reference/sla-percentage-timer-action.md) to specify what to do when a task record attached to an SLA reaches specific percentages of completion.
+    Add [SLA Percentage Timer actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/sla-percentage-timer-action.md) to specify what to do when a task record attached to an SLA reaches specific percentages of completion.
 
 7.  Test the flow.
 
-    For more information, see [Test a flow](flow-test.md) and [Activate a flow](flow-activate.md).
+    For more information, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-test.md) and [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-activate.md).
 
     Once behaving as desired, activate the flow.
 
-8.  [Create an SLA definition](https://www.servicenow.com/docs/access?context=t_CreateAnSLADefinition&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+8.  Create an SLA definition
 
     1.  In the **Flow** field, select the SLA Task flow you previously created.
 
@@ -114,5 +115,5 @@ Option to specify the user that runs the flow. You can select the system user or
 
 When the SLA Definition conditions are true, the system runs the specified SLA task flow.
 
-**Parent Topic:**[Create a flow in Workflow Studio](create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-flow.md)
 

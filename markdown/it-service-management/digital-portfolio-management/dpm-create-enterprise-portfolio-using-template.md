@@ -2,6 +2,7 @@
 title: Create enterprise service portfolios using a template
 description: Admins can create enterprise portfolios from scratch or by using a template. Enterprise portfolios are structured in a nesting tree format to facilitate navigation of service-related items and taxonomy nodes. Similar to personal portfolios, you can see key metrics to assess the portfolio performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-portfolio-management/dpm-create-enterprise-portfolio-using-template.html
 release: zurich
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -25,7 +26,7 @@ Create and edit portfolios in enterprise portfolio builder.
 
 1.  Navigate to **All** &gt; **Workspaces** &gt; **Digital Portfolio Management**.
 
-2.  Select the enterprise portfolios icon \(![Enterprise portfolios icon.](../image/enterprise-portfolio-icon-purple.png)\).
+2.  Select the enterprise portfolios icon \(\[Omitted image "enterprise-portfolio-icon-purple.png"\] Alt text: Enterprise portfolios icon.\).
 
 3.  Select **Create enterprise portfolio**.
 
@@ -35,15 +36,15 @@ Create and edit portfolios in enterprise portfolio builder.
 
 5.  In the dialog box, choose to build your portfolio from scratch or use a template.
 
-<table id="choicetable_k4w_m1j_q2c"><thead><tr><th align="left" id="d59527e114">
+<table id="choicetable_k4w_m1j_q2c"><thead><tr><th align="left" id="d61225e114">
 
 Option
 
-</th><th align="left" id="d59527e117">
+</th><th align="left" id="d61225e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d59527e123">
+</th></tr></thead><tbody><tr><td id="d61225e123">
 
 **Build your own portfolio**
 
@@ -53,7 +54,7 @@ Steps
 2.  In the form, fill in the fields.
 
 
-</td></tr><tr><td id="d59527e144">
+</td></tr><tr><td id="d61225e144">
 
 **Use a template for creating a service portfolio**
 
@@ -136,14 +137,14 @@ Individuals or groups that have an interest in the enterprise portfolio.
 
 7.  Add KPI groups.
 
-    For more information on KPI groups, see [Create KPI groups and mappings in Digital Portfolio Management](dpm-create-kpi-groups.md).
+    For more information on KPI groups, see [Create KPI groups and mappings in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-create-kpi-groups.md).
 
 8.  Select **Add taxonomy node**.
 
 9.  In the dialog box, select an existing taxonomy node or create one.
 
-    You can add a parent, child, sibling, or duplicate node. For more information on enterprise taxonomy nodes, see Table 2 in [Navigate portfolio types in Digital Portfolio Management](../concept/dpm-navigating-enterprise-portfolios.md).
+    You can add a parent, child, sibling, or duplicate node. For more information on enterprise taxonomy nodes, see Table 2 in [Navigate portfolio types in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-navigating-enterprise-portfolios.md).
 
 
-**Parent Topic:**[Enterprise portfolios](../concept/dpm-enterprise-portfolios.md)
+**Parent Topic:**[Enterprise portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-enterprise-portfolios.md)
 

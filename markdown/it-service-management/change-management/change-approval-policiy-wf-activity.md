@@ -2,6 +2,7 @@
 title: Change Approval Policy workflow activity
 description: Use the Change Approval Policy workflow activity to control the approval process for a change request by creating user and group approvals according to a change approval policy record. Multiple activities can be used in a workflow, where each activity can reference the same or different Change Approval Policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/change-approval-policiy-wf-activity.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -101,11 +102,11 @@ The workflow engine uses the activity state to perform the next logical action o
 
 In this example, let us reference the Risk approvals activity in the **Change Request - Normal** workflow. In the workflow, the change approval policy factors if the assigned group's manager has already approved the Change Request.
 
-![Example for Change Approval Policy Risk approvals](../image/CAPwfexample.png)
+\[Omitted image "CAPwfexample.png"\] Alt text: Example for Change Approval Policy Risk approvals
 
 You can use this activity to access the risk of the change request of a normal change policy. When this activity runs, the associated decisions executes the approvals that needs to be requested.
 
-![Example policy input script for risk assessment](../image/examplepolicyinput.png)
+\[Omitted image "examplepolicyinput.png"\] Alt text: Example policy input script for risk assessment
 
 Use the **Policy Input** field to set up additional inputs. In the given example, the activity defines the manager\_approved property and performs the query to check if an approved record exists for the approved group's manager.
 
@@ -113,5 +114,5 @@ Use the **Policy Input** field to set up additional inputs. In the given example
 
 The **Finish condition** field is used to complete the activity by marking pending approvals as **No Longer Required**. In this workflow example, when the Change Request is put on-hold, the Change Approval Policy activity is completed and the workflow disregards the pending approvals before waiting for the Change Request to resume. When the on-hold state is released, the Change Approval Policy activity is restarted.
 
-**Parent Topic:**[Creating change approval policies](using-change-approval-policies-cf.md)
+**Parent Topic:**[Creating change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/using-change-approval-policies-cf.md)
 

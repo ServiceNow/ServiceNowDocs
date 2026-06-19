@@ -2,6 +2,7 @@
 title: Components installed with Opportunity Management
 description: Several types of components are installed with activation of the Opportunity Management plugin, including user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/components-installed-opportunity-management.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -134,5 +135,5 @@ Provides access to read, create, and write the Sales cycle and Opportunity stage
 sn\_opty\_mgmt\_core.opportunity\_setup\_viewer
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Lead and opportunity management reference](../concept/reference-lead-opportunity-mgt.md)
+</table>**Parent Topic:**[Lead and opportunity management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/reference-lead-opportunity-mgt.md)
 

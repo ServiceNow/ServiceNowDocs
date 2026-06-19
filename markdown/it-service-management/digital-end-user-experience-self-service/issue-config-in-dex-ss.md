@@ -2,6 +2,7 @@
 title: Issue configurations in DEX Self-service
 description: DEX Self-service provides the following issue configurations in the base system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-self-service/issue-config-in-dex-ss.html
 release: zurich
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Employee Self-service, Digital End-User Experience, IT S
 
 DEX Self-service provides the following issue configurations in the base system.
 
-Base system issue configurations are inactive by default. To enable them, see [Enable issue configurations for DEX Self-service](../task/enable-dex-self-service-issues.md).
+Base system issue configurations are inactive by default. To enable them, see [Enable issue configurations for DEX Self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-self-service/enable-dex-self-service-issues.md).
 
 <table id="table_jzl_ytb_1fc"><tbody><tr><td>
 

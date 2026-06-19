@@ -2,6 +2,7 @@
 title: Recall a processed time card
 description: You can recall an incorrect time card in the Approved or Processed state to return it to the submitter. The submitter can then make the necessary changes and resubmit the time card.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/time-card-management/recall-approved-time-card.html
 release: zurich
 product: Time Card Management
 classification: time-card-management
@@ -21,7 +22,7 @@ Role required: timecard\_approver or timecard\_admin
 
 ## About this task
 
-The recall option is available only if the **Allow recall** option is selected on the associated [time sheet policy](create-time-sheet-policy.md).
+The recall option is available only if the **Allow recall** option is selected on the associated [time sheet policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/time-card-management/create-time-sheet-policy.md).
 
 ## Procedure
 
@@ -33,7 +34,7 @@ The recall option is available only if the **Allow recall** option is selected o
 
     The time sheet must be within the recall period specified in the time sheet policy.
 
-4.  To recall a time card, click the more actions icon \(![More actions icon](../../../product/alignment-planner-workspace/images/more-actions-icon.png)\) and select **Recall**.
+4.  To recall a time card, click the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon\) and select **Recall**.
 
     If the cost type for a cost plan is updated before recalling a time card, the expense line of the recalled time card will have the new expense type. For example:
 
@@ -48,5 +49,5 @@ The recall option is available only if the **Allow recall** option is selected o
 -   Creates negative expense lines to zero out the corresponding expense lines created when the time card was approved.
 -   Returns the associated time sheet to its submitter for modifications.
 
-**Parent Topic:**[Time cards](../concept/c_TimeCards.md)
+**Parent Topic:**[Time cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/time-card-management/c_TimeCards.md)
 

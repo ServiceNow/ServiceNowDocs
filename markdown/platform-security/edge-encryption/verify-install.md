@@ -2,6 +2,7 @@
 title: Verify and troubleshoot the Edge Encryption proxy server installation
 description: After your Edge Encryption proxy is installed, you can verify the installation to locate problems or start and stop the proxy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/verify-install.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -29,18 +30,16 @@ Role required: admin
 
 4.  Click **Run Tests**.
 
-    Test results display.
+    Test results display.\[Omitted image "installation-tests-2.png"\] Alt text: Edge Encryption proxy installation tests
 
-
-
-5.  Click **Next**.
+5.  Select **Next**.
 
     If an issue is encountered, you can move through the installer to correct the configuration. If no issues are encountered, the installer jumps to the **Launch** page. You can check the proxy status, stop the proxy, or start the proxy from the **Launch** page.
 
 
-**Parent Topic:**[Install the Edge Encryption proxy server using the interactive installer](proxy-installer.md)
+**Parent Topic:**[Install the Edge Encryption proxy server using the interactive installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/proxy-installer.md)
 
-**Previous topic:**[Launch the Edge Encryption proxy server](launch-proxy.md)
+**Previous topic:**[Launch the Edge Encryption proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/launch-proxy.md)
 
-**Next topic:**[Install the Edge Encryption proxy server using the command line installer](manual-proxy-install.md)
+**Next topic:**[Install the Edge Encryption proxy server using the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/manual-proxy-install.md)
 

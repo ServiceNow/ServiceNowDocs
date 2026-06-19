@@ -2,6 +2,7 @@
 title: Compose an email in GRC: Compliance Case Management
 description: Compose and send an email for compliance cases and requests by using the GRC: Compliance Case Management application. This feature helps you to communicate with different stakeholders within or outside your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/compliance-case-management/compose-emails-in-compliance-case-management.html
 release: zurich
 product: Compliance Case Management
 classification: compliance-case-management
@@ -27,11 +28,11 @@ You can compose and send emails regarding your cases and requests to multiple st
 
 1.  Navigate to **Workspaces** &gt; **Compliance Workspace**.
 
-2.  Select the list ![List](../../grc-workspace-vrm/image/ws-list-icon.png) icon and then complete one of the following.
+2.  Select the list \[Omitted image "ws-list-icon.png"\] icon and then complete one of the following.
 
     -   Navigate to **Cases** &gt; **All cases** and select the case you want.
     -   Navigate to **Requests** &gt; **All requests** and select the request you want.
-3.  Select the More actions ![More actions icon.](../../grc-workspace-audit/image/MoreActionsIcon.jpg) icon.
+3.  Select the More actions \[Omitted image "MoreActionsIcon.jpg"\] Alt text: More actions icon. icon.
 
 4.  On the form, fill in the fields.
 
@@ -75,5 +76,5 @@ Body of your message that includes any information, requests, or details you wan
     The email has been sent to the recipient. You can view emails associated with the regulatory agency record by navigating to the Emails tab of that record.
 
 
-**Parent Topic:**[Using Compliance Case Management](../concept/use-compliance-case-management.md)
+**Parent Topic:**[Using Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/use-compliance-case-management.md)
 

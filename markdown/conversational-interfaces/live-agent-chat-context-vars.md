@@ -2,6 +2,7 @@
 title: Live agent chat context variables
 description: Use chat context variables to pass certain information from the topic to share with a live agent or to control how bot conversations are routed to live agents. Virtual Agent includes some default variables, and you can define new ones.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/live-agent-chat-context-vars.html
 release: zurich
 product: Conversational Interfaces
 classification: conversational-interfaces
@@ -58,7 +59,7 @@ csp\_category
 
 Category defined in the Consumer Service portal in the CSM application \(requires the com.glide.service-portal.consumer-portal plugin\).
 
- For more information, see [Using the Consumer Service Portal](https://www.servicenow.com/docs/access?context=use-consumer-service-portal&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+ For more information, see Using the Consumer Service Portal.
 
 </td></tr><tr><td>
 
@@ -138,7 +139,7 @@ interaction\_id
 
 </td><td>
 
-Sys\_id of the interaction record associated with the chat session.For more information, see [Virtual Agent interaction records](../concept/va-interactions.md).
+Sys\_id of the interaction record associated with the chat session.For more information, see [Virtual Agent interaction records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-interactions.md).
 
 </td></tr><tr><td>
 
@@ -154,7 +155,7 @@ mandatory\_skills
 
 </td><td>
 
-Required skills and skill level for an agent.For example, German language proficiency with an associated high skill level may be required for German-speaking requesters. You can define mandatory skills and activate skill levels in Advanced Work Assignment. For more information, see [Configure agent assignment rules](../../advanced-work-assignment/task/awa-create-assignment-rule.md).
+Required skills and skill level for an agent.For example, German language proficiency with an associated high skill level may be required for German-speaking requesters. You can define mandatory skills and activate skill levels in Advanced Work Assignment. For more information, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md).
 
 </td></tr><tr><td>
 
@@ -162,7 +163,7 @@ optional\_skills
 
 </td><td>
 
-Skills and skill levels that would be useful for a given chat scenario.You can define optional skills in Advanced Work Assignment. For more information, see [Configure agent assignment rules](../../advanced-work-assignment/task/awa-create-assignment-rule.md).
+Skills and skill levels that would be useful for a given chat scenario.You can define optional skills in Advanced Work Assignment. For more information, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md).
 
 </td></tr><tr><td>
 
@@ -194,9 +195,9 @@ post\_chat\_survey\_name
 
 </td><td>
 
-Name of a post-chat survey that is used to gather feedback from the requester.For information about creating surveys, see [Create chat surveys](../../conversational-interfaces/task/create-chat-surveys.md).
+Name of a post-chat survey that is used to gather feedback from the requester.For information about creating surveys, see [Create chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/create-chat-surveys.md).
 
- For information about creating surveys in Connect Chat, see [Configure a survey in Connect Chat support](https://www.servicenow.com/docs/access?context=take-survey-connect-chat&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+ For information about creating surveys in Connect Chat, see Configure a survey in Connect Chat support.
 
 </td></tr><tr><td>
 
@@ -212,9 +213,9 @@ pre\_chat\_survey\_name
 
 </td><td>
 
-Name of a pre-chat survey that is used to gather information from the requester.For information about creating surveys, see [Create chat surveys](../../conversational-interfaces/task/create-chat-surveys.md). To learn more about how chat context variables from pre-chat surveys are used in Advanced Work Assignment to route work to live agents, see [Work item queues](../../advanced-work-assignment/reference/awa-queues.md).
+Name of a pre-chat survey that is used to gather information from the requester.For information about creating surveys, see [Create chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/create-chat-surveys.md). To learn more about how chat context variables from pre-chat surveys are used in Advanced Work Assignment to route work to live agents, see [Work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-queues.md).
 
- For information about creating surveys in Connect Chat, see [Configure a survey in Connect Chat support](https://www.servicenow.com/docs/access?context=take-survey-connect-chat&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+ For information about creating surveys in Connect Chat, see Configure a survey in Connect Chat support.
 
 </td></tr><tr><td>
 
@@ -263,5 +264,5 @@ Table containing the record that relates to the interaction. Typically, this is 
 -   [Virtual Agent and Natural Language Understanding \(NLU\) community forum](https://community.servicenow.com/community?id=community_forum&sys_id=bf5abf94db54e3c42be0a851ca961915)
 -   [Conversational Interfaces Academy](https://www.servicenow.com/community/virtual-agent-nlu-articles/conversational-interfaces-academy-live-builds-and-q-amp-a-join/ta-p/2345155)
 
-**Parent Topic:**[Configure context variables for storing chat-related information](../../conversational-interfaces/task/ac-configure-context-variables.md)
+**Parent Topic:**[Configure context variables for storing chat-related information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/ac-configure-context-variables.md)
 

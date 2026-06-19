@@ -2,7 +2,10 @@
 title: Creating case line items and case line tasks
 description: Agents can create case line items for cases and create tasks for case line items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-case-mgmt-case-lines-create-case-line.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -17,7 +20,7 @@ Agents can create case line items for cases and create tasks for case line items
 
 To create a case line record:
 
--   CSM Configurable Workspace: Open a case and select **New** on the [Case Line list action bar](csm-case-mgmt-case-lines-create-case-line.md#section_h41_s1h_5cc) to open a new case line record in the Draft state.
+-   CSM Configurable Workspace: Open a case and select **New** on the [Case Line list action bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-case-mgmt-case-lines-create-case-line.md) to open a new case line record in the Draft state.
 -   Core UI: Open a case and select **New** on the Case Lines related list on the case record to open a new case line record in the Draft state.
 
 The information in the following fields is copied from the parent case:

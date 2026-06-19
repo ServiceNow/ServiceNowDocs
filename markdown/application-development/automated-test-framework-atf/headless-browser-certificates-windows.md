@@ -2,6 +2,7 @@
 title: Generate certificates for Headless Browser setup for Microsoft Windows
 description: Generate TLS/SSL certificates to secure the Docker REST API and authenticate HTTP requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/headless-browser-certificates-windows.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -21,7 +22,7 @@ Role required: admin on your ServiceNow instance and local administrator on the 
 
 **Warning:** The only version of Microsoft Windows that ServiceNow supports as a host is Windows Server 2019 v10.0.17763.737. No other versions are supported. If you are unable to meet these requirements, a Linux host is recommended.
 
--   Complete the prerequisites listed in the [Headless Browser setup for Microsoft Windows](../concept/headless-browser-procedure-windows.md) topic. Make sure that the following programs are installed on your Windows server:
+-   Complete the prerequisites listed in the [Headless Browser setup for Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/headless-browser-procedure-windows.md) topic. Make sure that the following programs are installed on your Windows server:
     -   Docker: [Docker application for Windows](https://docs.docker.com/engine/install/)
     -   Java keytool: [Chocolatey tool for javaruntime](https://community.chocolatey.org/packages/javaruntime)
     -   OpenSSL: [Chocolatey tool for openssl](https://community.chocolatey.org/packages/openssl)
@@ -108,9 +109,9 @@ By default when exposing the Docker API, requests are not authenticated, which c
     Now that you have added all of the certificates to the keystore file, save the file **my.keystore** for later, as it will be uploaded to the ServiceNow instance. In addition, be sure to remember the password that you entered when prompted to create the keystore file; you will need to enter that into a form in the ServiceNow instance.
 
 
-**Parent Topic:**[Headless Browser setup for Microsoft Windows](../concept/headless-browser-procedure-windows.md)
+**Parent Topic:**[Headless Browser setup for Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/headless-browser-procedure-windows.md)
 
-**Previous topic:**[Install Docker for Headless Browser setup for Microsoft Windows](headless-browser-install-docker.md)
+**Previous topic:**[Install Docker for Headless Browser setup for Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/headless-browser-install-docker.md)
 
-**Next topic:**[Configure Docker for Headless Browser setup in Microsoft Windows](headless-browser-configure-docker-windows.md)
+**Next topic:**[Configure Docker for Headless Browser setup in Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/headless-browser-configure-docker-windows.md)
 

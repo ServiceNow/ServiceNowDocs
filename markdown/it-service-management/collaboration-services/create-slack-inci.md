@@ -2,6 +2,7 @@
 title: Create slack channel for an incident
 description: Create a private or a public slack channel to collaborate with support teams or send a communication to keep stakeholders informed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/collaboration-services/create-slack-inci.html
 release: zurich
 product: Collaboration Services
 classification: collaboration-services
@@ -21,7 +22,7 @@ Create a private or a public slack channel to collaborate with support teams or 
 -   Plugins required:
     -   Collaboration Services plugin \(sn\_tcm\_collab\_hook\) version 2.0.x
     -   Slack Spoke for ServiceNow Integration Hub plugin \(com.sn.slack.ahv2\) version 1.3.x
--   Ensure you have set up interactivity and shortcuts for slack. For more information, refer [configure slack app](https://www.servicenow.com/docs/access?context=set-up-slack&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+-   Ensure you have set up interactivity and shortcuts for slack. For more information, refer configure slack app.
 
 ## About this task
 
@@ -40,7 +41,7 @@ The system property **sn\_tcm\_collab\_hook.slack\_on\_task** enables the slack 
     |Fields|Description|
     |------|-----------|
     |Add participants|Individual users or groups whom you want as participants to the channel.|
-    |Recommended and Selected|Columns to personalize your list. Select the items in the **Recommended** column and move them to the **Selected** column using the right-arrow icon \(![Right-arrow icon](../image/right-arrow-icon.png)\).|
+    |Recommended and Selected|Columns to personalize your list. Select the items in the **Recommended** column and move them to the **Selected** column using the right-arrow icon \(\[Omitted image "right-arrow-icon.png"\] Alt text: Right-arrow icon\).|
     |Channel name|Unique name of the channel that differentiates it from the rest of the channels in Slack.|
     |Channel topic|Description about the purpose of the channel.|
     |Include a brief message for participants|Brief message that you want to send to the participants.|
@@ -51,5 +52,5 @@ The system property **sn\_tcm\_collab\_hook.slack\_on\_task** enables the slack 
     A slack channel is created and an invitation is sent to the participants. Any duplicate user is removed from the selected participant list before the notification is sent. The participants can click **Skip** or **Join Channel** to ignore or join a slack channel.
 
 
-**Parent Topic:**[Configuring Collaboration services](../concept/configuring-collab-services.md)
+**Parent Topic:**[Configuring Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/configuring-collab-services.md)
 

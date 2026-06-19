@@ -2,6 +2,7 @@
 title: Use the Throw Error component
 description: Raise an exception during the automation process to indicate something incorrect has occurred by using the Throw Error component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/use-general-throw-error.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the Throw Error component. For more information about these properties, see [Properties of the General components](../reference/Properties-general-components.md).
+You can configure the properties for the Throw Error component. For more information about these properties, see [Properties of the General components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/Properties-general-components.md).
 
 ## Procedure
 
@@ -88,12 +89,12 @@ Data In
 String
 
 </td></tr></tbody>
-</table>    ![The data and control ports of the Throw Error component connected to the corresponding ports of the other components - Try Catch and Show, on the Design surface.](../image/throw-error-comp-rpa-studio.png "Throw Error component")
+</table>    \[Omitted image "throw-error-comp-rpa-studio.png"\] Alt text: The data and control ports of the Throw Error component connected to the corresponding ports of the other components - Try Catch and Show, on the Design surface.
 
 8.  To test the component, click **Run** from the Design tab.
 
-    ![Output of the Throw Error component.](../image/throw-error-comp-result-rpa-studio.png "Throw Error component result")
+    \[Omitted image "throw-error-comp-result-rpa-studio.png"\] Alt text: Output of the Throw Error component.
 
 
-**Parent Topic:**[General](../concept/general-component.md)
+**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/general-component.md)
 

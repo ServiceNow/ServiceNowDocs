@@ -2,6 +2,7 @@
 title: Add alert table to enable on-call scheduling for Service Operations Workspace for ITOM
 description: Enable on-call scheduling by incorporating the Alert table \[em\_alert\] into the Trigger Rule Table Config list. This allows for creating shifts and implementing escalation triggers and policies, ensuring teams can promptly respond to alerts and maintain operational continuity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/add-alert-table-oncall.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -28,7 +29,7 @@ Role required: evt\_mgmt\_admin
 
 2.  On the form, fill in the fields with the following values.
 
-    ![Trigger rule table config form.](../image/sow-trigger-rule-table-config.png)
+    \[Omitted image "sow-trigger-rule-table-config.png"\] Alt text: Trigger rule table config form.
 
     -   In the **Table** field, select **Alert \[em\_alert\]**.
     -   In the **Trigger group** field, select **Assignment group**.
@@ -39,5 +40,5 @@ Role required: evt\_mgmt\_admin
 
 ## What to do next
 
-[Create on-call shift for your team](https://www.servicenow.com/docs/access?context=on-call-scheduling-in-sow&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+Create on-call shift for your team.
 

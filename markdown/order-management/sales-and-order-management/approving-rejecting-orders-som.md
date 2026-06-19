@@ -2,6 +2,7 @@
 title: Approving or rejecting orders
 description: Fulfillment managers bridge the gap between order intake and execution by reviewing the order information and deciding whether an order is ready to proceed or requires further review.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/approving-rejecting-orders-som.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

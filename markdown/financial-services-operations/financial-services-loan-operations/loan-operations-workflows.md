@@ -2,6 +2,7 @@
 title: Financial Services Loan Operations workflows
 description: The Financial Services Loan Operations application installs automated workflows for loan servicing. These workflows enable routing of cases and tasks to different departments, including the loan, document, and credit agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-loan-operations/loan-operations-workflows.html
 release: zurich
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
@@ -100,7 +101,7 @@ Loan Drawdown
 Loan Rollover
 
 </td></tr></tbody>
-</table>These workflows are built using [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=zurich&pubname=zurich-application-development&ft:locale=en-US). The loan admin can review and customize these predefined flows that are based on the business needs of an organization.
+</table>These workflows are built using Flow Designer. The loan admin can review and customize these predefined flows that are based on the business needs of an organization.
 
 ## General workflow for Loan Operations
 

@@ -2,6 +2,7 @@
 title: Integration errors in staging tables
 description: Integration errors caused by the target ERP sources are recorded in the form of system-generated integration error tasks \(outbound integration error\). You can view the integration tasks associated with Procurement and Sourcing Operations, Supplier Lifecycle Operations and Accounts Payable Operations in the Tasks area of the Source-to-Pay workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/source-to-pay-integration-framework/integration-errors-in-staging-tables.html
 release: zurich
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

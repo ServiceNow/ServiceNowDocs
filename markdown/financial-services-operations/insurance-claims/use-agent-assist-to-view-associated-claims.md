@@ -2,6 +2,7 @@
 title: Use Agent assist to view associated claims
 description: Use the Agent assist contextual search to view associated claims and relevant knowledge articles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/use-agent-assist-to-view-associated-claims.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims
@@ -23,19 +24,19 @@ Role required: sn\_ins\_claim\_cml.fnol\_representative, sn\_ins\_claim\_cml.aut
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Open the task from the case playbook or the Commercial auto claim adjuster tasks list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d107054e85">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d109120e85">
 
 Option
 
-</th><th align="left" id="d107054e88">
+</th><th align="left" id="d109120e88">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d107054e94">
+</th></tr></thead><tbody><tr><td id="d109120e94">
 
 **From the case playbook**
 
@@ -45,7 +46,7 @@ Steps
 2.  In the list, select the case that contains the adjuster task.
 
 
-</td></tr><tr><td id="d107054e118">
+</td></tr><tr><td id="d109120e118">
 
 **From the Commercial auto claim adjuster tasks list**
 
@@ -58,6 +59,6 @@ Steps
 </td></tr></tbody>
 </table>4.  Select the Agent assist icon to use the feature.
 
-    For more detailed information about Agent assist, refer to [Finding solutions using Agent assist](https://www.servicenow.com/docs/access?context=agent-assist&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    For more detailed information about Agent assist, refer to Finding solutions using Agent assist.
 
 

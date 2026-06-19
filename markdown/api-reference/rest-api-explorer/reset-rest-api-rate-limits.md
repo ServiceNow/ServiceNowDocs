@@ -2,6 +2,7 @@
 title: Reset an inbound REST API rate limit
 description: Reset a rate limit rule to reset the rate limit count to zero \(0\) and delete any violations for the current hour.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-api-explorer/reset-rest-api-rate-limits.html
 release: zurich
 product: REST API Explorer
 classification: rest-api-explorer
@@ -32,5 +33,5 @@ Role required: rate\_limit\_admin
 
 For the current hour, the system resets the rate limit count for the rate limit rule to zero \(0\) and removes all violations. The system begins incrementing the rate limit counts and violations as REST API requests are received for processing.
 
-**Parent Topic:**[Inbound REST API rate limiting](../concept/inbound-REST-API-rate-limiting.md)
+**Parent Topic:**[Inbound REST API rate limiting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/inbound-REST-API-rate-limiting.md)
 

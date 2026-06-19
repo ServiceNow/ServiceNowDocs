@@ -2,6 +2,7 @@
 title: Define columns to generate data
 description: Provide detailed definitions to preview a test for each column that you want the data to generate the results for.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-data-kit/na-data-kit-define-columns.html
 release: zurich
 product: Now Assist Data Kit
 classification: now-assist-data-kit

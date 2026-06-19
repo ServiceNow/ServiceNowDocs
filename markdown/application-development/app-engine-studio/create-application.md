@@ -2,6 +2,7 @@
 title: Create your app
 description: Use a template in App Engine Studio \(AES\) to build data, experience, logic and automation, and security into your application automatically. Or, create your app from scratch and customize it as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/create-application.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -15,7 +16,7 @@ breadcrumb: [Build, App Engine Studio, Building low-code applications, Developin
 
 Use a template in App Engine Studio \(AES\) to build data, experience, logic and automation, and security into your application automatically. Or, create your app from scratch and customize it as needed.
 
-**Note:** Before creating an app, [Plan your app development](before-you-begin.md).
+**Note:** Before creating an app, [Plan your app development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/before-you-begin.md).
 
 To build an application in App Engine Studio, add the following content:
 
@@ -42,12 +43,12 @@ If you use an application template, the template automatically adds one or more 
 
 To build an application from scratch, add data, experience, logic and automation, and security to your application and then edit each.
 
--   **[Create your app using an application template](../task/use-app-template.md)**  
+-   **[Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/use-app-template.md)**  
 Build an application in App Engine Studio \(AES\) that uses predefined data, experience, logic and automation, and security. Add to the template contents to customize the app for your organization.
--   **[Create your application from scratch](../task/create-app-scratch.md)**  
+-   **[Create your application from scratch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/create-app-scratch.md)**  
 If the available application templates in App Engine Studio \(AES\) don't fit your application goal, create an empty application to which you can add data, experience, logic and automation, and security.
--   **[Prepare your app for approval](../task/manage-application.md)**  
+-   **[Prepare your app for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/manage-application.md)**  
 Prepare your app for the approval process by making any needed changes, such as renaming your app, editing the app description, or replacing the app image. You can also delete the app from App Engine Studio \(AES\) if it has taken a wrong turn.
 
-**Parent Topic:**[Building apps in App Engine Studio](aes-app-creation.md)
+**Parent Topic:**[Building apps in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-creation.md)
 

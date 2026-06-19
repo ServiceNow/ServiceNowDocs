@@ -2,6 +2,7 @@
 title: EncoderVersion - Global
 description: The EncoderVersion API provides a scriptable object used in Predictive Intelligence stores.Gets encoder object properties and version number.Returns vectors for each input sentence.Returns words similar to each input word in the descending rank order of similarity.Gets training completion status.Gets the version number of a solution object.Returns vectors for each input word.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/EncoderVersionAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,18 +18,18 @@ The EncoderVersion API provides a scriptable object used in Predictive Intellige
 
 This API requires the Predictive Intelligence plugin \(com.glide.platform\_ml\) and is provided within the `sn_ml` namespace.
 
-This API is used for working with encoder versions based on [Encoder API](../../Encoder/concept/EncoderAPI.md#) objects in the [Encoder store](../../EncoderStore/concept/EncoderStoreAPI.md#).
+This API is used for working with encoder versions based on [Encoder API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/EncoderAPI.md) objects in the [Encoder store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/EncoderStoreAPI.md).
 
 The system activates the most recent version of the encoder when it completes training, and only allows one version to be active at a time. However, you can activate any previously trained version you want to use to make predictions.
 
 Methods in this API are accessible using the following Encoder methods:
 
--   [getActiveVersion\(\)](../../Encoder/concept/EncoderAPI.md#)
--   [getAllVersions\(\)](../../Encoder/concept/EncoderAPI.md#)
--   [getLatestVersion\(\)](../../Encoder/concept/EncoderAPI.md#)
--   [getVersion\(\)](../../Encoder/concept/EncoderAPI.md#)
+-   [getActiveVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/EncoderAPI.md)
+-   [getAllVersions\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/EncoderAPI.md)
+-   [getLatestVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/EncoderAPI.md)
+-   [getVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/EncoderAPI.md)
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## EncoderVersion - getProperties\(\)
 
@@ -52,7 +53,7 @@ Object
 
 </td><td>
 
-Contents of the Dataset and [Encoder](../../Encoder/concept/EncoderAPI.md#) details. Results vary by object property setup.```
+Contents of the Dataset and [Encoder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/EncoderAPI.md) details. Results vary by object property setup.```
 {
   "algorithmConfig" : {Object},
   "datasetsProperties": [Array],
@@ -102,7 +103,7 @@ Name of the algorithm for training this encoder. Possible values:
 
 </td><td>
 
-List of [DatasetDefinition\(\)](../../DatasetDefinition/concept/DatasetDefinitionAPI.md#) properties associated with the encoder.
+List of [DatasetDefinition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DatasetDefinitionAPI.md) properties associated with the encoder.
 
  ```
 {
@@ -170,7 +171,7 @@ Machine-learning field type. Data type: String.
 
 </td><td>
 
-Encoded query string in standard Glide format. See [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US). Data type: String.
+Encoded query string in the standard platform format. See Encoded query strings.Data type: String.
 
 </td></tr><tr><td>
 
@@ -178,7 +179,7 @@ Encoded query string in standard Glide format. See [Encoded query strings](https
 
 </td><td>
 
-Domain name associated with this dataset. See [Domain separation and Predictive Intelligence](https://www.servicenow.com/docs/access?context=domain-separation-predictive-intelligence&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US). Data type: String.
+Domain name associated with this dataset. See .Type: String
 
 </td></tr><tr><td>
 
@@ -245,7 +246,7 @@ Object scope. Currently the only valid value is `global`.Data type: String
 
 </td><td>
 
-Optional. Preset list of strings that the system automatically generates based on the **language** property setting. For details, see [Create a custom stopwords list](https://www.servicenow.com/docs/access?context=create-custom-stopwords-list&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US). Data type: Array.
+Optional. Preset list of strings that the system automatically generates based on the **language** property setting. For details, see Create a custom stopwords list. Data type: Array.
 
 </td></tr><tr><td>
 
@@ -472,7 +473,7 @@ Object
 
 </td><td>
 
-JavaScript object containing training status information for an [Encoder](../../Encoder/concept/EncoderAPI.md#) object.```
+JavaScript object containing training status information for an [Encoder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/EncoderAPI.md) object.```
 {
   "state": "String",
   "percentComplete": "Number as a String",

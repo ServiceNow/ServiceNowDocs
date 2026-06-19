@@ -2,6 +2,7 @@
 title: Configure Application Insights thresholds
 description: Configure conditional thresholds to trigger an alert that notifies you when one or more metrics, such as response time, is outside of the desired range.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-performance/config-app-insights-thresholds.html
 release: zurich
 product: Platform Performance
 classification: platform-performance
@@ -19,7 +20,7 @@ Configure conditional thresholds to trigger an alert that notifies you when one 
 
 Role required: sn\_app\_insights.admin or admin
 
-Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the [Overview of Instance Observer](https://www.servicenow.com/docs/access?context=io-overview&version=zurich&pubname=zurich-impact&ft:locale=en-US) product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
+Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the  product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -53,7 +54,7 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
 
 14. To create a trigger action, select the threshold from the Thresholds list and from the ellipsis, select **Create flow**.
 
-    The ServiceNow® Workflow Studio opens with a default template in place. For more information about configuring triggers, see [Configure Application Insights threshold triggers](conf-app-insights-thresh-triggers.md).
+    The ServiceNow® Workflow Studio opens with a default template in place. For more information about configuring triggers, see [Configure Application Insights threshold triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/conf-app-insights-thresh-triggers.md).
 
 15. To delete a threshold, select it from the Thresholds list and from the ellipsis, select **Delete**.
 
@@ -70,5 +71,5 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
 
 The threshold is listed on the **Thresholds** tab and is shown as a horizontal dotted red line on the associated graph.
 
-**Parent Topic:**[Application Insights](../concept/application-insights.md)
+**Parent Topic:**[Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/application-insights.md)
 

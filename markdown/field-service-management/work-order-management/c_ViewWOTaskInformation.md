@@ -2,6 +2,7 @@
 title: View work order task information
 description: Click the task icon on the agent map to view task details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/c\_ViewWOTaskInformation.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

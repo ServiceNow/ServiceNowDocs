@@ -2,6 +2,7 @@
 title: Mapping of alert fields for Microsoft Graph Security API alert ingestion integration
 description: After you identify the sources for scheduled alert ingestion, the next step is to map individual alert fields to the fields on a ServiceNow AI Platform SIR security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/ms-graph-mapping-about.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -19,6 +20,6 @@ For the mapping step, you must first ingest sample alerts from the Microsoft Azu
 
 Mapping of the sample alert fields involves the following:
 
--   [Ingest sample Microsoft Graph Security API alerts](../task/ms-graph-create-profile-ingestion.md)
--   [Mapping alerts to security incident response fields](ms-graph-create-profile-map.md)
+-   [Ingest sample Microsoft Graph Security API alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/ms-graph-create-profile-ingestion.md)
+-   [Mapping alerts to security incident response fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/ms-graph-create-profile-map.md)
 

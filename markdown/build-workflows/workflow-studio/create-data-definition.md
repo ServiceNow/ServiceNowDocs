@@ -2,6 +2,7 @@
 title: Create a Data Definition
 description: Use data definitions to collect and use pieces of information later in a playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/create-data-definition.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -17,7 +18,7 @@ Use data definitions to collect and use pieces of information later in a playboo
 
 ## Before you begin
 
-**Important:** As of the 26.1 release, the **Collect user data** activity is no longer available in the activity picker. The activity will continue to function wherever it is used, but for new activities use the **Questionnaire** activity instead. The **Questionnaire** activity does not require you to create a data definition. To learn more about the **Questionnaire** activity, see [Questionnaire activity](../reference/questionnaire-activity.md).
+**Important:** As of the 26.1 release, the **Collect user data** activity is no longer available in the activity picker. The activity will continue to function wherever it is used, but for new activities use the **Questionnaire** activity instead. The **Questionnaire** activity does not require you to create a data definition. To learn more about the **Questionnaire** activity, see [Questionnaire activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/questionnaire-activity.md).
 
 Role required: admin, flow\_designer
 
@@ -30,7 +31,7 @@ A data definition is the information that you want an agent or fulfiller to coll
 Only use a data definition if:
 
 -   The data is only needed downstream during a single playbook run. It's collected, used, and never needed again.
--   You don't need to run any reports on the collected data. If you need any metrics or reports on the collected data, create a table and use the [User Form activity](../reference/user-form-activity.md) instead.
+-   You don't need to run any reports on the collected data. If you need any metrics or reports on the collected data, create a table and use the [User Form activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/user-form-activity.md) instead.
 
 For example, you may have multiple teams that perform activities. One team enters the inputs for a created data definition when they perform a **Collect user data** activity, and then a second team uses the collected inputs to complete the playbook, and the information is not needed afterwards.
 
@@ -54,7 +55,7 @@ For example, you may have multiple teams that perform activities. One team enter
 
     2.  Enter the required fields.
 
-<table id="choicetable_qcs_vmh_j1c"><tbody><tr><td id="d62857e229">
+<table id="choicetable_qcs_vmh_j1c"><tbody><tr><td id="d40901e229">
 
 **Type**
 
@@ -62,7 +63,7 @@ For example, you may have multiple teams that perform activities. One team enter
 
 The type of input the agent is collecting for a field. For example, string, reference, integer, etc.
 
-</td></tr><tr><td id="d62857e238">
+</td></tr><tr><td id="d40901e238">
 
 **Label**
 
@@ -70,7 +71,7 @@ The type of input the agent is collecting for a field. For example, string, refe
 
 The label of the field in the UI, during the playbook run. The label can consist of any text.
 
-</td></tr><tr><td id="d62857e250">
+</td></tr><tr><td id="d40901e250">
 
 **Column name**
 
@@ -78,7 +79,7 @@ The label of the field in the UI, during the playbook run. The label can consist
 
 The name of the input being collected. Spaces cannot be used to delimit words.
 
-</td></tr><tr><td id="d62857e259">
+</td></tr><tr><td id="d40901e259">
 
 **Max Length**
 
@@ -86,7 +87,7 @@ The name of the input being collected. Spaces cannot be used to delimit words.
 
 The maximum length a string value can be entered for a string type of field. The variable can store longer strings than it can display.
 
-</td></tr><tr><td id="d62857e268">
+</td></tr><tr><td id="d40901e268">
 
 **Application**
 
@@ -99,6 +100,15 @@ The application scope for the data variable. It is always set to Global, and can
 7.  Under the **Default Value** tab, specify the value used when a playbook does not provide a value.
 
 8.  Right-click in the record header to **Save**.
+
+9.  Under the **Choice List Specification** tab, use the **Choice** field to present options as a choice list to agents, or to add choices to a field of List type.
+
+    This tab only appears when you select an applicable **Type**.
+
+    **Note:** In **Advanced view**, an additional **Choice table** field displays.
+
+10. Advanced view
+11. Select **Advanced view** under **Related Links** to configure more fields.
 
 
 ## Result
@@ -114,7 +124,9 @@ During a playbook run, you can use data definitions to potentially:
 
 ## What to do next
 
-Configure a [**Collect user data** activity](../reference/collect-user-data-activity.md) in Workflow Studio Playbooks to use your new data definition.
+Per Yaron/Bim, add a topic on defining a form view for your data definition and link down here. Jay Wang is creating draft in sharepoint.
 
-**Parent Topic:**[Administering playbooks](../concept/administering-process-automation-designer.md)
+Configure a [**Collect user data** activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/collect-user-data-activity.md) in Workflow Studio Playbooks to use your new data definition.
+
+**Parent Topic:**[Administering playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/administering-process-automation-designer.md)
 

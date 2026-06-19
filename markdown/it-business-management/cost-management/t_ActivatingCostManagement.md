@@ -2,6 +2,7 @@
 title: Activate Cost Management
 description: Activate the Cost Management plugin \(com.snc.cost\_management\) using the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/cost-management/t\_ActivatingCostManagement.html
 release: zurich
 product: Cost Management
 classification: cost-management
@@ -36,8 +37,8 @@ Role required: admin
     **Note:** To load the demo data, select the **Load demo data** check box.
 
 
--   **[Components installed with Cost Management](../reference/r_InstalledWithCostManagement.md)**  
+-   **[Components installed with Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/cost-management/r_InstalledWithCostManagement.md)**  
 Several components are installed with the Cost Management application.
 
-**Parent Topic:**[Cost Management](../reference/r_CostManagement.md)
+**Parent Topic:**[Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/cost-management/r_CostManagement.md)
 

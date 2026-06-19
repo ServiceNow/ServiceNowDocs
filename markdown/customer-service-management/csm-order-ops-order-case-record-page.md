@@ -2,7 +2,10 @@
 title: Order case record page
 description: The Order case record page displays information about order cases and the associated list of order case line items in CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-order-ops-order-case-record-page.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 8
@@ -13,7 +16,7 @@ breadcrumb: [Order case pages, Order Operations Case Management, Case management
 
 The Order case record page displays information about order cases and the associated list of order case line items in CSM Configurable Workspace.
 
-![Order case page with customer and account information, SLA, and case details. Center panel displays the Order Case Line list. Page also includes the configurable side panel.](../image/csm-order-ops-order-case-page.png "Order case page with Order Case Line list")
+\[Omitted image "csm-order-ops-order-case-page.png"\] Alt text: Order case page with customer and account information, SLA, and case details. Center panel displays the Order Case Line list. Page also includes the configurable side panel.
 
 Customer service agents use this page to do the following:
 
@@ -49,7 +52,7 @@ Order case action bar
 
 </td><td>
 
-The action bar contains the actions available to users while working on order case records. The specific actions are determined by factors such as the user role, order case state, and other attributes.-   **In-progress Actions**: This icon provides a list of minimized [modeless dialogs](csm-front-line-case-page-modeless-dialogs.md). It includes a badge that displays the number of items in the list. From this list, an agent can select an item to open the minimized comment, work note, or email.
+The action bar contains the actions available to users while working on order case records. The specific actions are determined by factors such as the user role, order case state, and other attributes.-   **In-progress Actions**: This icon provides a list of minimized [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-front-line-case-page-modeless-dialogs.md). It includes a badge that displays the number of items in the list. From this list, an agent can select an item to open the minimized comment, work note, or email.
 -   **Compose**: Compose comments, work notes, and emails in modeless dialogs.
 -   **Manage case**: Perform case management actions such as requesting information or proposing a solution.
 -   **Save**: Save changes to the order case record.
@@ -102,7 +105,7 @@ The case summarization component appears above the Order Case Line list. When an
 -   Generate knowledge articles.
 -   Generate email reply recommendation.
 
-**Note:** The case summarization component requires the [Now Assist for Customer Service Management \(CSM\)](now-assist-csm.md) application to be activated and configured.
+**Note:** The case summarization component requires the [Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm.md) application to be activated and configured.
 
 </td></tr><tr><td>
 
@@ -140,7 +143,7 @@ Activity stream
 
 </td><td>
 
-The activity stream component displays a list of activities occurring on an order case record. This list can be collapsed to provide a quick view of case activities or expanded to provide more detail about individual activities.The Order case record page uses [modeless dialogs](csm-front-line-case-page-modeless-dialogs.md) for composing comments, work notes, and emails. For more information, see the [Composing emails, comments, and work notes](csm-order-ops-order-case-record-page.md#section_eqt_5h5_ncc) section below.
+The activity stream component displays a list of activities occurring on an order case record. This list can be collapsed to provide a quick view of case activities or expanded to provide more detail about individual activities.The Order case record page uses [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-front-line-case-page-modeless-dialogs.md) for composing comments, work notes, and emails. For more information, see the [Composing emails, comments, and work notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-order-ops-order-case-record-page.md) section below.
 
 </td></tr><tr><td>
 
@@ -153,14 +156,14 @@ The contextual side panel component includes different tools that agents can use
 -   Activity stream
 -   Attachments
 -   Recommended Actions search
--   [Related Lists](csm-front-line-case-page.md#section_urr_nrh_s1c)
+-   [Related Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-front-line-case-page.md)
 -   Email Templates
 -   Response Templates
 -   Form Templates
 
- For more information about related lists, see the [Order case record page related lists](csm-order-ops-order-case-record-page.md#section_ksh_pp3_lcc) section below.
+ For more information about related lists, see the [Order case record page related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-order-ops-order-case-record-page.md) section below.
 
- **Note:** The Order Operations Case Management application does not include response templates. To configure a response template, see [Create or modify a response template](https://www.servicenow.com/docs/access?context=create-modify-templated-snippet&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+ **Note:** The Order Operations Case Management application does not include response templates. To configure a response template, see Create or modify a response template.
 
 </td></tr></tbody>
 </table>## Order case record page settings
@@ -181,7 +184,7 @@ Active
 
 </td><td>
 
-Enabling the **Active** check box makes the page available to the selected audience. The Order case record page is active by default.The active setting combined with the page order determines the page that CSM Configurable Workspace uses to display record information. For more information, see [Set record page order](../task/config-csm-ws-set-record-page-order.md).
+Enabling the **Active** check box makes the page available to the selected audience. The Order case record page is active by default.The active setting combined with the page order determines the page that CSM Configurable Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-csm-ws-set-record-page-order.md).
 
 </td></tr><tr><td>
 
@@ -205,7 +208,7 @@ Audience
 
 </td><td>
 
-The audience determines who can see a record page. The Order case record page does not have a specified audience.For more information, see [Learn about audiences](https://www.servicenow.com/docs/access?context=add-audiences&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+The audience determines who can see a record page. The Order case record page does not have a specified audience.For more information, see Learn about audiences.
 
 </td></tr></tbody>
 </table>To access the settings for this page variant:
@@ -259,5 +262,5 @@ These actions launch the corresponding modeless dialogs \(the behavior is the sa
 
 The email templates should be accessed from email dialog.
 
-For more information about composing emails, comments, and work notes, see [Modeless dialogs](csm-front-line-case-page-modeless-dialogs.md).
+For more information about composing emails, comments, and work notes, see [Modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-front-line-case-page-modeless-dialogs.md).
 

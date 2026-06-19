@@ -2,6 +2,7 @@
 title: Manage order updates with Now Assist
 description: Use Now Assist for Order Management to manage order updates, such as applying bulk changes to order line items, removing order lines, or creating an order case, without navigating between individual records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/bulk-update-order-lines-with-now-assist.html
 release: zurich
 topic_type: task
 last_updated: "2026-03-12"
@@ -81,13 +82,13 @@ Acknowledged
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List![](../../../reuse/icons/product-icons/list-outline-24.svg) icon.
+2.  Select the List\[Omitted image "list-outline-24.svg"\] Alt text: icon.
 
 3.  Navigate to **Orders** &gt; **All**
 
 4.  Select an order.
 
-5.  Select the Now Assist ![](../../../common/image/icon-ai-sparkle.png) icon to launch the Now Assist panel.
+5.  Select the Now Assist \[Omitted image "icon-ai-sparkle.png"\] Alt text: icon to launch the Now Assist panel.
 
 6.  In the Now Assist panel, start Assistance for orders \(Order Assistant Agent\).
 
@@ -95,15 +96,15 @@ Acknowledged
 
 8.  Choose the order update that you want to perform.
 
-<table id="choicetable_cyq_1s4_k3c"><thead><tr><th align="left" id="d81566e262">
+<table id="choicetable_cyq_1s4_k3c"><thead><tr><th align="left" id="d81785e262">
 
 Action
 
-</th><th align="left" id="d81566e265">
+</th><th align="left" id="d81785e265">
 
 What to do in Now Assist
 
-</th></tr></thead><tbody><tr><td id="d81566e271">
+</th></tr></thead><tbody><tr><td id="d81785e271">
 
 **Bulk update quantity**
 
@@ -113,7 +114,7 @@ What to do in Now Assist
 2.  Confirm the bulk update.
 
 
-</td></tr><tr><td id="d81566e289">
+</td></tr><tr><td id="d81785e289">
 
 **Bulk update shipping address**
 
@@ -123,7 +124,7 @@ What to do in Now Assist
 2.  Confirm the bulk update.
 
 
-</td></tr><tr><td id="d81566e307">
+</td></tr><tr><td id="d81785e307">
 
 **Apply bulk discount**
 
@@ -134,7 +135,7 @@ What to do in Now Assist
 3.  Confirm the bulk update.
 
 
-</td></tr><tr><td id="d81566e328">
+</td></tr><tr><td id="d81785e328">
 
 **Delete order line**
 
@@ -142,7 +143,7 @@ What to do in Now Assist
 
 Specify the top-level order line you want to remove when prompted, then confirm the deletion.
 
-</td></tr><tr><td id="d81566e338">
+</td></tr><tr><td id="d81785e338">
 
 **Create Order case**
 
@@ -158,5 +159,5 @@ Describe the issue with the order when prompted, review the generated summary, t
 
 After updating quantity or shipping address, you can keep the changes or undo them when prompted.
 
-**Parent Topic:**[Using Now Assist for Order Management](../concept/now-assist-order-management-using.md)
+**Parent Topic:**[Using Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-order-management-using.md)
 

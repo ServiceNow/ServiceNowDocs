@@ -2,6 +2,7 @@
 title: Import OSCAL AP
 description: Import Assessment Plan \(AP\) data in Open Security Controls Assessment Language \(OSCAL\) format to create or update authorization packages with assessment-related information including engagements, control tests, test plans, and assessment procedures.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal-ap-cam-ws.html
 release: zurich
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -53,7 +54,7 @@ The Assessment Plan import creates or updates the following components based on 
 
 1.  Navigate to **Workspaces** &gt; **CAM Workspace**.
 
-2.  In the CAM Workspace, select the OSCAL import landing page icon \(![OSCAL import](../image/cam-oscal-import-icon.png)\).
+2.  In the CAM Workspace, select the OSCAL import landing page icon \(\[Omitted image "cam-oscal-import-icon.png"\] Alt text: OSCAL import\).
 
 3.  Select **New Import** from the **All OSCAL imports** landing page.
 
@@ -75,7 +76,7 @@ The Assessment Plan import creates or updates the following components based on 
 
     -   **Catalog**: Contains the details of the control objectives and its related objects.
     -   **Profile**: Contains a baseline of selected controls from one or more control or overlay catalogs.
-    -   **Catalog Overlay**: Contains information regarding overlay policies and its control objectives and behavior of the overlay. This behavior depends on the addition or subtraction in which the overlay is included in the Authorization Package. For more information, see [Apply overlays to the baseline controls](apply-overlay-to-baseline.md). You can also upload multiple overlay files.
+    -   **Catalog Overlay**: Contains information regarding overlay policies and its control objectives and behavior of the overlay. This behavior depends on the addition or subtraction in which the overlay is included in the Authorization Package. For more information, see [Apply overlays to the baseline controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/apply-overlay-to-baseline.md). You can also upload multiple overlay files.
     -   **SSP**: Contains the details of the authorization boundary, authorization package, system elements, information types, controls, common controls, inherit, hybrid controls, and others.
     -   **Data flow diagram**, **Boundary diagram**, **Network diagram**, and **Enterprise architecture**: These diagrams are attached to the authorization boundary.
 9.  Select **Add file** to attach the Overlay file, then select **Next**.
@@ -114,15 +115,15 @@ The Assessment Plan import creates or updates the following components based on 
 
     Assign users to specific roles for the imported files. These users retain their roles throughout each step in the authorization package.
 
-17. You can also select the attachments, package mapping, or user and group mapping action icon \(![Restart attachments or roles and responsibilities.](../image/cam-oscal-import-attachments-icon.png)\) on the **Attachments** or **User and Group Mapping** tab to select **Restart Stage** to restart the particular stage.
+17. You can also select the attachments, package mapping, or user and group mapping action icon \(\[Omitted image "cam-oscal-import-attachments-icon.png"\] Alt text: Restart attachments or roles and responsibilities.\) on the **Attachments** or **User and Group Mapping** tab to select **Restart Stage** to restart the particular stage.
 
-    ![Restarting stage.](../image/cam-oscal-import-ssp8.png)
+    \[Omitted image "cam-oscal-import-ssp8.png"\] Alt text: Restarting stage.
 
 18. Select **Next** to verify the files you uploaded.
 
     **Preview and Override** tab displays.
 
-    ![OSCAL SSP import.](../image/cam-oscal-import-ssp5.png)
+    \[Omitted image "cam-oscal-import-ssp5.png"\] Alt text: OSCAL SSP import.
 
 19. In the **Preview and Override** tab, review the details that are to be created, skipped, or overridden and then perform one of the following:
 
@@ -136,7 +137,7 @@ The Assessment Plan import creates or updates the following components based on 
         2.  Select **Skipped** to list the object that is to be overridden.
         3.  Select the object from the list that you want to override.
 
-            ![Overriding skipped files.](../image/cam-oscal-import-ssp6.png)
+            \[Omitted image "cam-oscal-import-ssp6.png"\] Alt text: Overriding skipped files.
 
         4.  Select **Override** to override one or more selected object.
 
@@ -181,15 +182,15 @@ The Assessment Plan import creates or updates the following components based on 
 
 20. Select **Import** to import the AP files.
 
-    **Note:** You can also select the playbook action icon \(![Restart playbook icon](../image/cam-oscal-import-action-icon.png)\) to select **Restart Playbook** to restart the playbook.
+    **Note:** You can also select the playbook action icon \(\[Omitted image "cam-oscal-import-action-icon.png"\] Alt text: Restart playbook icon\) to select **Restart Playbook** to restart the playbook.
 
     -   A pop-up message appears on the commencement of the import process. Select **Close** and you 're directed to the OSCAL import landing page.
 
-        ![OSCAL import process begins.](../image/cam-oscal-landing-final_ssp1.png)
+        \[Omitted image "cam-oscal-landing-final\_ssp1.png"\] Alt text: OSCAL import process begins.
 
     -   You can view the import status report in the **All OSCAL import** list.
 
-        ![OSCAL import status.](../image/cam-oscal-landing-final_ssp2.png)
+        \[Omitted image "cam-oscal-landing-final\_ssp2.png"\] Alt text: OSCAL import status.
 
     After you initiate the import, the system displays the status for each component as pending, in progress, or completed.
 
@@ -206,5 +207,5 @@ The system creates or updates the authorization package with assessment informat
 
 The source value you specified during import appears in the Source field for control objectives and other imported components, while entities may reference different sources if they originated from separate OSCAL catalogs.
 
-**Parent Topic:**[Import in OSCAL format](../concept/import-oscal.md)
+**Parent Topic:**[Import in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal.md)
 

@@ -2,6 +2,7 @@
 title: Integrations for Leader Hub
 description: Extend the Leader Hub application's capabilities by integrating with the Talent Development suite of applications to acquire pertinent data about the talent in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/td-lh-integrate.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -42,5 +43,5 @@ Leader Hub provides an integration with the following applications:
     When you optionally install the Learning plugin \(sn\_lep\), Leader Hub generates metrics for employee engagement with the Learning app, such as the percentage of employees in your organization who have completed courses in the past 30 days.
 
 
-**Parent Topic:**[Using Leader Hub](td-lh-using.md)
+**Parent Topic:**[Using Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/td-lh-using.md)
 

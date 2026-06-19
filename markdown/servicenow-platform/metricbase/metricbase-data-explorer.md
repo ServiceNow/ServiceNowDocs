@@ -2,6 +2,7 @@
 title: Get familiar with MetricBase APIs
 description: Experiment with MetricBase APIs using Data Explorer that is part of the MetricBase Demo application. Data Explorer uses the data installed with the MetricBase Demo application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/metricbase/metricbase-data-explorer.html
 release: zurich
 product: MetricBase
 classification: metricbase
@@ -21,13 +22,13 @@ Role required: clotho\_admin
 
 ## About this task
 
-Data Explorer is a playground where you can see and edit example scripts that visualize data included with the MetricBase Demo application. The example scripts use the MetricBase JavaScript APIs. For information on the MetricBase JavaScript APIs, see [Client](https://www.servicenow.com/docs/access?context=ClientScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US), [Data](https://www.servicenow.com/docs/access?context=DataScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US), [DataBuilder](https://www.servicenow.com/docs/access?context=DataBuilderScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US), [Transformer](https://www.servicenow.com/docs/access?context=TransformerScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US), [TransformPart](https://www.servicenow.com/docs/access?context=TransformPartScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US), [TransformResult](https://www.servicenow.com/docs/access?context=TransformResultScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+Data Explorer is a playground where you can see and edit example scripts that visualize data included with the MetricBase Demo application. The example scripts use the MetricBase JavaScript APIs. For information on the MetricBase JavaScript APIs, see Client, Data, DataBuilder, Transformer, TransformPart, TransformResult.
 
 Note that the now/v1/clotho/transform/topic API endpoint is reserved for internal use only.
 
 Example scripts use either:
 
--   Transforms, which use the [Transformer](https://www.servicenow.com/docs/access?context=TransformerScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) method.
+-   Transforms, which use the Transformer method.
 -   Machine Language, trained models that predict expected behavior. All the scripts without "Transform" in their title use Machine Language.
 
 ## Procedure
@@ -36,13 +37,13 @@ Example scripts use either:
 
     The **Data Explorer** displays.
 
-    ![Data Explorer UI](../image/data-explorer.png)
+    \[Omitted image "data-explorer.png"\] Alt text: Data Explorer UI
 
     When you run a script, the data visualization appears under **Data Explorer Script Result Display**.
 
 2.  Select one of the sample scripts to run in the **Example Script** menu.
 
-    ![Steps to run a script](../image/data-explorer-buttons.png)
+    \[Omitted image "data-explorer-buttons.png"\] Alt text: Steps to run a script
 
 3.  Click **Load Example**.
 
@@ -73,7 +74,7 @@ Simple Transform
 
 </td><td>
 
-Uses the transformer API to display a single time-series metric, the average speed of the drones: `transformer.metric('mb_demo_mt_speed').avg`\(\). ![Simple transform using average](../image/data-explorer-average-speed.png)
+Uses the transformer API to display a single time-series metric, the average speed of the drones: `transformer.metric('mb_demo_mt_speed').avg`\(\). \[Omitted image "data-explorer-average-speed.png"\] Alt text: Simple transform using average
 
 </td></tr><tr><td>
 
@@ -86,7 +87,7 @@ transformer.groupBy("fleet").metric("mb_demo_mt_altitude").
       avg().label('avg - %g:fleet:')
 ```
 
- ![Grouping transform](../image/data-explorer-simple-xform-grouping.png)
+ \[Omitted image "data-explorer-simple-xform-grouping.png"\] Alt text: Grouping transform
 
 </td></tr><tr><td>
 
@@ -109,7 +110,7 @@ var fit = builder.metric("mb_demo_nt_rem_battery").resample(100).
 builder.metric("nb_demp_mt_rem_battery").avg().label("Original")
 ```
 
- ![Linear model](../image/data-explorer-linear-model.png)
+ \[Omitted image "data-explorer-linear-model.png"\] Alt text: Linear model
 
 </td></tr><tr><td>
 
@@ -124,7 +125,7 @@ var fit = builder.metric(metric).fit({model:"STL",periodicity:"PT2H",
           innerCycles:1, outerCycles:10})
 ```
 
- ![Seasonal correction to trend](../image/data-explor-seasonal-trend-decomp.png)
+ \[Omitted image "data-explor-seasonal-trend-decomp.png"\] Alt text: Seasonal correction to trend
 
 </td></tr><tr><td>
 
@@ -153,8 +154,8 @@ var metric = "nb_demo_mt_rem_battery";
 builder.metric(metric).deviation(model, "chiSquare");
 ```
 
- ![Deviation model](../image/data-explor-chisquare-deviation.png)
+ \[Omitted image "data-explor-chisquare-deviation.png"\] Alt text: Deviation model
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Working with MetricBase demo data](../concept/working-with-metricbase-demo-data.md)
+</table>**Parent Topic:**[Working with MetricBase demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/metricbase/working-with-metricbase-demo-data.md)
 

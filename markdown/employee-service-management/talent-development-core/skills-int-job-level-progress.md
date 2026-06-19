@@ -2,6 +2,7 @@
 title: Creating a job level progression
 description: Create a progression from one job level to another to identify the growth path in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/skills-int-job-level-progress.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core

@@ -2,6 +2,7 @@
 title: Configure your ServiceNow AI Platform instance for external content indexing
 description: Create and configure a non-interactive service user account on your ServiceNow AI Platform source instance to allow access by the ServiceNow instance external content connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-sn-aip-instance-external-content-indexing.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -20,7 +21,7 @@ Create and configure a non-interactive service user account on your ServiceNow A
 
 Role required: admin and security\_admin
 
-**Note:** The security\_admin role is an elevated privilege role. To learn more about elevated privilege roles, see [Elevated privilege roles](https://www.servicenow.com/docs/access?context=c_ElevatedPrivilege&version=zurich&pubname=zurich-platform-security&ft:locale=en-US). For details on the security\_admin elevated privilege role, see [Security\_admin role](https://www.servicenow.com/docs/access?context=security-admin-role&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+**Note:** The security\_admin role is an elevated privilege role. To learn more about elevated privilege roles, see . For details on the security\_admin elevated privilege role, see .
 
 ## About this task
 
@@ -32,29 +33,29 @@ Perform all of these steps on the ServiceNow AI Platform instance that you want 
 
 1.  On your source instance, create a new non-interactive user and save its user ID.
 
-    1.  Create a new user by following the steps from [Create a user](../../users-and-groups/task/t_CreateAUser.md).
+    1.  Create a new user by following the steps from [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/t_CreateAUser.md).
 
-        **Note:** Make sure to select the **Web service access only** option on the new user record. This option designates your new user as a non-interactive user. To learn more about how non-interactive users differ from interactive users, see [Non-interactive sessions](../../users-and-groups/concept/c_NonInteractiveSessions.md#).
+        **Note:** Make sure to select the **Web service access only** option on the new user record. This option designates your new user as a non-interactive user. To learn more about how non-interactive users differ from interactive users, see [Non-interactive sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/c_NonInteractiveSessions.md).
 
     2.  Copy the **User ID** for your new source instance user account and store it in a secure location.
 
-        **Important:** Your connector admin needs this user account's user ID when configuring the ServiceNow instance external content connector on your destination instance.
+        **Important:** Your connector administrator needs this user account's user ID when configuring the ServiceNow instance external content connector on your destination instance.
 
 2.  On your source instance, generate and copy a strong password for your new user.
 
-    1.  Generate a strong password for your new user by following the steps from [Configure password for a user](https://www.servicenow.com/docs/access?context=reset-your-password&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+    1.  Generate a strong password for your new user by following the steps from .
 
     2.  Store the copied password in a secure location.
 
-        **Important:** Your connector admin needs this user account's password when configuring the ServiceNow instance external content connector on your destination instance.
+        **Important:** Your connector administrator needs this user account's password when configuring the ServiceNow instance external content connector on your destination instance.
 
-3.  On your source instance, add your new user to the **MFA Exempted User Group** by following the steps from [Add a user to a group](../../users-and-groups/task/t_AddAUserToAGroup.md).
+3.  On your source instance, add your new user to the **MFA Exempted User Group** by following the steps from [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/t_AddAUserToAGroup.md).
 
     **Note:** Inclusion in this group exempts your new user from the default requirement to use multi-factor authentication \(MFA\) when logging in to your source instance. This configuration is needed for proper operation of the ServiceNow instance external content connector.
 
 4.  On your source instance, create a new custom role in the Global application scope.
 
-    1.  Select the Global application scope, following the steps from [Select an application from the application picker](../../../build/applications/task/t_SelectAnAppFromTheAppPicker.md).
+    1.  Select the Global application scope, following the steps from [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_SelectAnAppFromTheAppPicker.md).
 
     2.  Navigate to **All** &gt; **User Administration** &gt; **Roles**.
 
@@ -137,7 +138,7 @@ Insert a new row with the name of your new custom role.
         |-----|---------|-----|
         |Sys ID|is|ee3ebfdc9f4112108647e8c40b0a1cb0|
 
-        For details on creating and applying filters to limit records shown in a table's list view, see [Create a filter in List](https://www.servicenow.com/docs/access?context=t_CreatingFilters&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+        For details on creating and applying filters to limit records shown in a table's list view, see .
 
         This filter should display a single Access Control record with Decision Type **Deny Unless**.
 
@@ -149,31 +150,31 @@ Insert a new row with the name of your new custom role.
 
 6.  On your source instance, assign roles to your new user.
 
-    1.  Assign your new custom role to your new user by following the steps from [Assign a role to a user](../../users-and-groups/task/t_AssignARoleToAUser.md).
+    1.  Assign your new custom role to your new user by following the steps from [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
-    2.  Assign each of the following roles to your new user by following the steps from [Assign a role to a user](../../users-and-groups/task/t_AssignARoleToAUser.md).
+    2.  Assign each of the following roles to your new user by following the steps from [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
         |Role|Description|
         |----|-----------|
-        |access\_analyzer\_admin|Grants the user access to tables relating to access control in your source instance, including the Access Control \[sys\_security\_acl\], Role \[sys\_user\_role\], and Table \[sys\_db\_object\] tables. To learn more about access control, see [Access Control List Rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).|
-        |catalog\_manager|Grants the user access to Service Catalog items in your source instance. For more details on this base system role, see [Base system roles](../../roles/reference/r_BaseSystemRoles.md).|
-        |itil|Grants the user access to incidents and user criteria in your source instance. For more details on this base system role, see [Base system roles](../../roles/reference/r_BaseSystemRoles.md).|
-        |knowledge\_admin|Grants the user access to KB articles in your source instance. For more details on this base system role, see [Base system roles](../../roles/reference/r_BaseSystemRoles.md).|
-        |snc\_platform\_rest\_api\_access|Grants the user access to Platform Rest APIs in your source instance. The ServiceNow instance external content connector uses the [Attachment API](https://www.servicenow.com/docs/access?context=c_AttachmentAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) and [Table API](https://www.servicenow.com/docs/access?context=c_TableAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) to access your source instance during crawls. For more details on this base system role, see [Base system roles](../../roles/reference/r_BaseSystemRoles.md).|
-        |snc\_read\_only|Restricts the user to read-only access on all tables that it has access to. For more details on this base system role, see [Read-only role](../../user-administration/concept/c_ReadOnlyRole.md#).|
+        |access\_analyzer\_admin|Grants the user access to tables relating to access control in your source instance, including the Access Control \[sys\_security\_acl\], Role \[sys\_user\_role\], and Table \[sys\_db\_object\] tables. To learn more about access control, see .|
+        |catalog\_manager|Grants the user access to Service Catalog items in your source instance. For more details on this base system role, see [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/r_BaseSystemRoles.md).|
+        |itil|Grants the user access to incidents and user criteria in your source instance. For more details on this base system role, see [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/r_BaseSystemRoles.md).|
+        |knowledge\_admin|Grants the user access to KB articles in your source instance. For more details on this base system role, see [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/r_BaseSystemRoles.md).|
+        |snc\_platform\_rest\_api\_access|Grants the user access to Platform Rest APIs in your source instance. The ServiceNow instance external content connector uses the  and  to access your source instance during crawls. For more details on this base system role, see [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/r_BaseSystemRoles.md).|
+        |snc\_read\_only|Restricts the user to read-only access on all tables that it has access to. For more details on this base system role, see [Read-only role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/c_ReadOnlyRole.md).|
 
 
 ## What to do next
 
-Provide the following items to the connector admin who will create the ServiceNow instance connector on your destination instance:
+Provide the following items to the connector administrator who will create the ServiceNow instance connector on your destination instance:
 
 -   The URL for your ServiceNow AI Platform source instance. As an example, you might provide `https://example.service-now.com/` as the instance URL.
--   The user ID for the non-interactive service user you created on your source instance, as copied in step [1.b](configure-sn-aip-instance-external-content-indexing.md#store-service-user-id-step). As an example, you might provide `sn.instance.connector` as the user ID.
--   The password for the non-interactive service user you created on your source instance, as copied in step [2.b](configure-sn-aip-instance-external-content-indexing.md#store-service-user-password-step).
+-   The user ID for the non-interactive service user you created on your source instance, as copied in step [1.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-sn-aip-instance-external-content-indexing.md). As an example, you might provide `sn.instance.connector` as the user ID.
+-   The password for the non-interactive service user you created on your source instance, as copied in step [2.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-sn-aip-instance-external-content-indexing.md).
 
-Your connector admin needs these items to configure a ServiceNow instance external content connector on your destination instance to retrieve content and security principals from your ServiceNow AI Platform source instance.
+Your connector administrator needs these items to configure a ServiceNow instance external content connector on your destination instance to retrieve content and security principals from your ServiceNow AI Platform source instance.
 
-For details on creating and configuring a ServiceNow instance external content connector, see [Create a ServiceNow instance external content connector](create-ext-cont-connector-snow-instance.md).
+For details on creating and configuring a ServiceNow instance external content connector, see [Create a ServiceNow instance external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-snow-instance.md).
 
-**Parent Topic:**[ServiceNow instance external content connector](../concept/servicenow-instance-external-content-connector.md)
+**Parent Topic:**[ServiceNow instance external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/servicenow-instance-external-content-connector.md)
 

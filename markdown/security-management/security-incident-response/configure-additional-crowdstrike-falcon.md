@@ -2,6 +2,7 @@
 title: Configure and trigger additional actions in CrowdStrike Falcon Insight
 description: The CrowdStrike Falcon Insight integration supports running additional actions like regular expression \(regex\). The CrowdStrike Falcon Insight integration provides 40 additional actions with the base system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/configure-additional-crowdstrike-falcon.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -23,7 +24,7 @@ Role required: sn\_si.analyst
 
 1.  Navigate to **All** &gt; **CrowdStrike Falcon Insight Integration** &gt; **CrowdStrike Additional Actions**.
 
-2.  Click **New** to create your own additional action or select an existing action that comes with the base system.
+2.  Select **New** to create your own additional action or select an existing action that comes with the base system.
 
     For example, let's create a new additional action.
 
@@ -113,9 +114,9 @@ Configuration
 
 
 </td></tr></tbody>
-</table>    ![CrowdStrike Falcon Insight Additional Actions](../image/falcon-insight-additional-action.png "CrowdStrike Falcon Insight Additional Actions")
+</table>    \[Omitted image "falcon-insight-additional-action.png"\] Alt text: CrowdStrike Falcon Insight Additional Actions
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
 5.  You can also choose from the following existing additional actions.
 
@@ -123,17 +124,17 @@ Configuration
 
     **Note:** Ensure that you open the CrowdStrike Additional Actions list and set the required additional action to **true**, else the additional action will not be available in the workspace.
 
-    ![List of additional actions that comes with the base system](../image/falcon-insight-additional-action2.png "List of additional actions that comes with the base system")
+    \[Omitted image "falcon-insight-additional-action2.png"\] Alt text: List of additional actions that comes with the base system
 
 6.  Navigate to **Security Incidents** &gt; **Show All Incidents**.
 
 7.  Select the security incident that you want to review with the run additional actions on Endpoint.
 
-    1.  In the related links section, click **Run Additional Actions on Endpoint**.
+    1.  In the related links section, select **Run Additional Actions on Endpoint**.
 
     2.  Browse and select the required capability.
 
-        For example, click **reg set** capability.
+        For example, select **reg set** capability.
 
     3.  Select **Include Related CI** to run the additional actions on all the related CIs of the Endpoint.
 

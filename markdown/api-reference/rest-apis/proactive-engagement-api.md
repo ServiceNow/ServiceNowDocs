@@ -2,6 +2,7 @@
 title: Proactive Engagement API
 description: The Proactive Engagement API provides an endpoint for creating digital experience issues.Creates an experience issue when an issue is detected on the user's endpoint. Updates the Experience Issues \[sn\_pren\_experience\_issue\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-apis/proactive-engagement-api.html
 release: zurich
 product: REST APIs
 classification: rest-apis
@@ -27,9 +28,9 @@ To use this API, ensure the following tables are populated with records:
 -   Notification Content \[sn\_pren\_notification\_content\]
 -   Provider \[sn\_pren\_provider\]
 
-For more information, see [Proactive Engagement](https://www.servicenow.com/docs/access?context=proactive-engagement-landing-page&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+For more information, see 
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/api-rest.md)
 
 ## Proactive Engagement - CREATE /api/sn\_pren/self\_remediation/experience\_issue/create
 
@@ -207,7 +208,7 @@ Required. Unique code for the provider. This code must match the **provider\_cod
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -245,7 +246,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_wrm_33x_4zb"><thead><tr><th>
 

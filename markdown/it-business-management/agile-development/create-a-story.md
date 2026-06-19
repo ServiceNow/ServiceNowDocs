@@ -2,6 +2,7 @@
 title: Create a story in Agile Development 2.0
 description: Create high-level definitions of your requirements in the form of stories in Agile Development 2.0. Manage and track your stories by associating them to a product, project, or release and by assigning them to an assignment group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/create-a-story.html
 release: zurich
 product: Agile Development
 classification: agile-development
@@ -240,11 +241,11 @@ Defect
 
 </td><td>
 
-Defect that is associated with the story. This field is a reference field from the Defect \[rm\_defect\] table. This field is required if the story is created for a defect.Click the search icon \(![Search icon](../../project-workspace/image/lookup_icon.png)\) in this field to display the existing defects or to open a new defect.
+Defect that is associated with the story. This field is a reference field from the Defect \[rm\_defect\] table. This field is required if the story is created for a defect.Click the search icon \(\[Omitted image "lookup\_icon.png"\] Alt text: Search icon\) in this field to display the existing defects or to open a new defect.
 
  Only users with the feature\_user role can open a defect. The admin must grant the feature\_user role to all users who are expected to open defects in the Agile Development application. This field is the only location in the Agile Development application where records from the Defect \[rm\_defect\] table appear.
 
- For more information on defects, see [Reporting defects in Agile Development 2.0](../concept/defect-reports.md#).
+ For more information on defects, see [Reporting defects in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/defect-reports.md).
 
 </td></tr><tr><td>
 
@@ -252,11 +253,11 @@ Enhancement
 
 </td><td>
 
-Enhancement associated with the story. This field is a reference field from the Enhancement \[rm\_enhancement\] table. This field is required if the story is created for an enhancement.Click the search icon \(![Search-icon](../../project-workspace/image/lookup_icon.png)\) in this field to display the existing enhancement requests or to open a new enhancement.
+Enhancement associated with the story. This field is a reference field from the Enhancement \[rm\_enhancement\] table. This field is required if the story is created for an enhancement.Click the search icon \(\[Omitted image "lookup\_icon.png"\] Alt text: Search-icon\) in this field to display the existing enhancement requests or to open a new enhancement.
 
  Only users with the feature\_user role can open an enhancement. The admin must grant the feature\_user role to all users who are expected to open enhancement requests in the Agile Development application. This field is the only location in the Agile Development application where records from the Enhancement \[rm\_enhancement\] table appear.
 
- For more information on enhancements, see [Enhancement requests in Agile Development 2.0](../concept/enhancement-requests.md#).
+ For more information on enhancements, see [Enhancement requests in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/enhancement-requests.md).
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
@@ -269,14 +270,14 @@ Enhancement associated with the story. This field is a reference field from the 
 
 ## What to do next
 
--   Use the related links and lists of the story to create scrum tasks for this story, or convert this story into an epic or split this story into two stories. For more information, see [Related links and lists for a Story in Agile Development 2.0](../reference/agile-2-0-story-related-lists-related-links.md).
--   [Add dependencies for Agile Development 2.0 stories](../../scrum-programs/task/Add-dependencies-to-stories.md)
--   You can create a story with the same details as this story by using the **Insert** or **Insert and Stay** options from the story additional actions \(![Additional actions icon.](../image/additional-options.png)\).
+-   Use the related links and lists of the story to create scrum tasks for this story, or convert this story into an epic or split this story into two stories. For more information, see [Related links and lists for a Story in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/agile-2-0-story-related-lists-related-links.md).
+-   [Add dependencies for Agile Development 2.0 stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/Add-dependencies-to-stories.md)
+-   You can create a story with the same details as this story by using the **Insert** or **Insert and Stay** options from the story additional actions \(\[Omitted image "additional-options.png"\] Alt text: Additional actions icon.\).
 
     When you use **Insert and Stay**, the form of the newly created story stays open. You can modify the details of the story or create more stories with these details. On the Agile board, the new story is positioned right below the original story. The global rank of the new story is set accordingly.
 
     **Note:** Set the **glide.ui.task.insert** and **glide.ui.advance** properties to **true** to access these actions. These actions are not allowed on stories added from the triage board.
 
 
-**Parent Topic:**[Using Agile Development 2.0](../concept/using-agile-development-2-0.md)
+**Parent Topic:**[Using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/using-agile-development-2-0.md)
 

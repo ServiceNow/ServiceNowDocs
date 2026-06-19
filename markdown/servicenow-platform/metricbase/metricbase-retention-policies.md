@@ -2,6 +2,7 @@
 title: MetricBase retention policies
 description: Retain data in MetricBase according to retention policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/metricbase/metricbase-retention-policies.html
 release: zurich
 product: MetricBase
 classification: metricbase

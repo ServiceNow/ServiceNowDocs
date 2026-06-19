@@ -2,7 +2,10 @@
 title: Configure Core Business Suite applications
 description: Configure Core Business Suite applications by running scheduled jobs that initialize all required workflows and apply settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/core-business-suite/cbs-run-scheduled-jobs.html
 release: zurich
+product: Core Business Suite
+classification: core-business-suite
 topic_type: task
 last_updated: "2025-11-17"
 reading_time_minutes: 5
@@ -154,7 +157,7 @@ The `Core Business Suite Employee – Default` taxonomy provided with the Core B
 
 5.  Set up an Employee Center portal with a new Core Business Suite home page setup, Advanced Portal Navigation \(APN\), employee profiles, and quick links by running the **Setup Core Business Suite for Employee Center** scheduled job.
 
-    For information about Core Business Suite home page setup, Advanced Portal Navigation \(APN\), employee profiles, and quick links, see [Exploring employee support](../concept/exploring-emp-home.md).
+    For information about Core Business Suite home page setup, Advanced Portal Navigation \(APN\), employee profiles, and quick links, see [Exploring employee support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/core-business-suite/exploring-emp-home.md).
 
     **Warning:** You must run this **Setup Core Business Suite for Employee Center** scheduled job only after adding the newly created taxonomy `Core Business Suite Employee` to the Employee Center portal. Running this scheduled job prior to adding the taxonomy will result in an incorrect Advanced Portal Navigation \(APN\) setup.
 

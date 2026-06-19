@@ -2,6 +2,7 @@
 title: Troubleshooting executive dashboard empty state messages
 description: When a visualization can’t render on a dashboard, it is because it either returns no data or the underlying indicator is misconfigured. Tou see an empty-state message indicating that no data is available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/exec-db-troubleshoot-empty-state-msgs.html
 release: zurich
 topic_type: reference
 last_updated: "2025-09-01"
@@ -15,7 +16,7 @@ When a visualization can’t render on a dashboard, it is because it either retu
 
 ## Insufficient data
 
-![](../image/error-insufficient-data.png)
+\[Omitted image "error-insufficient-data.png"\] Alt text:
 
 If the error is due to insufficient data, do the following steps to troubleshoot"
 
@@ -25,7 +26,7 @@ If the error is due to insufficient data, do the following steps to troubleshoot
 
 ## Invalid configuration
 
-![](../image/error-invalid-breakdown.png)
+\[Omitted image "error-invalid-breakdown.png"\] Alt text:
 
 If the error is due to selection of invalid configuration breakdown, do the following steps to troubleshoot:
 
@@ -37,7 +38,7 @@ If the error is due to selection of invalid configuration breakdown, do the foll
 
 ## Indicator non-existent
 
-![](../image/error-indicator-nonexistent.png)
+\[Omitted image "error-indicator-nonexistent.png"\] Alt text:
 
 If the error is because the indicator doesn't exist, do the following steps to troubleshoot:
 

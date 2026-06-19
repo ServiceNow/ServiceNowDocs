@@ -2,6 +2,7 @@
 title: Set up custom collaboration descriptors
 description: Customize the set of development collaborators you list in App Engine Studio \(AES\) using Guided Setup.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/set-up-custom-collaboration-descriptors.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Owner and Editor collaboration descriptors are provided out of the box in AES and have special capabilities. Development permissions included in each descriptor can be configured to your platform needs. You can create custom descriptors as well, in the global scope, so they can be used in AES.
+Owner and Editor collaboration descriptors are provided as part of AES and have special capabilities. Development permissions included in each descriptor can be configured to your platform needs. You can create custom descriptors as well, in the global scope, so they can be used in AES.
 
 **Note:** You should create collaboration descriptors in addition to Owner and Editor in the global scope. If you want collaboration descriptors to appear and be used in AES, you should also set them to `standard = TRUE`. AES doesn't support collaboration descriptors that are created in custom scopes, and non-standard collaboration descriptors don't render in AES.
 
@@ -48,7 +49,7 @@ Admins or delegated developers who invite collaborators can use these descriptor
 
 ## What to do next
 
-Further customize collaborator permissions in App Engine Studio. For more information, see [Change collaborator permissions](../concept/aes-collaboration-feature-overview.md#).
+Further customize collaborator permissions in App Engine Studio. For more information, see [Change collaborator permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-collaboration-feature-overview.md).
 
-**Parent Topic:**[Perform AES configuration tasks](../reference/aes-config-tasks.md)
+**Parent Topic:**[Perform AES configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-config-tasks.md)
 

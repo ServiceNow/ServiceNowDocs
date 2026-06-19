@@ -2,6 +2,7 @@
 title: Workflow error handling
 description: The personalized JavaScript that users create in workflow activity variables is vulnerable to run-time syntax errors. Available error information is available in a tooltip when you point to a workflow activity in an error state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/legacy-workflow/c\_WorkflowErrorHandling.html
 release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
@@ -204,12 +205,12 @@ Yes
 Yes
 
 </td></tr></tbody>
-</table>-   **[Workflow error tracking features](../reference/r_TrackingErrors.md)**  
+</table>-   **[Workflow error tracking features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/r_TrackingErrors.md)**  
 Error handling provides visual cues within the workflow, such as error descriptions for activities in pop-ups, and detailed log records.
--   **[Create an error condition exit](../task/t_CreateAnErrorConditionExit.md)**  
+-   **[Create an error condition exit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/t_CreateAnErrorConditionExit.md)**  
 An administrator can reroute the workflow when a script error occurs by creating an error condition exit for specific activities within the workflow. This allows the workflow to process script errors in a predictable way and not create undesirable results.
--   **[Reconfigure an approval condition](../task/t_ReconfigureAnApprovalCondition.md)**  
+-   **[Reconfigure an approval condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/t_ReconfigureAnApprovalCondition.md)**  
 Approval activities react differently to script errors than the other activities.
 
-**Parent Topic:**[Workflow administration](../../workflow/concept/c_WorkflowAdministration.md)
+**Parent Topic:**[Workflow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/c_WorkflowAdministration.md)
 

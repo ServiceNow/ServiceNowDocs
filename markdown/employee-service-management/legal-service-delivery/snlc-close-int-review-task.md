@@ -2,6 +2,7 @@
 title: Cancel a review task
 description: As a contract fulfiller, cancel a review task irrespective of its state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/snlc-close-int-review-task.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -23,58 +24,58 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 1.  Open the review task.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d224657e55">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d213591e55">
 
 Method
 
-</th><th align="left" id="d224657e58">
+</th><th align="left" id="d213591e58">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d224657e64">
+</th></tr></thead><tbody><tr><td id="d213591e64">
 
 **My Work listing**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Legal Counsel Center**.
-2.  Click the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **My Work** &gt; **Requested Tasks**
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d224657e111">
+</td></tr><tr><td id="d213591e111">
 
 **Delegated to me listing**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Legal Counsel Center**.
-2.  Click the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **Delegated to me** &gt; **Contract Review Tasks**
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d224657e158">
+</td></tr><tr><td id="d213591e158">
 
 **Contract Review Tasks listing**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Legal Counsel Center**.
-2.  Click the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Under **Contract Review tasks**, select **All** or **My tasks**
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d224657e205">
+</td></tr><tr><td id="d213591e205">
 
 **Contract Request Reviews tab**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Legal Counsel Center**.
-2.  Click the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **Contract Requests** &gt; **Assigned to me**
 4.  Open the contract request from the list
 5.  Select **Reviews** tab.
@@ -96,5 +97,5 @@ Steps
 -   The review task is canceled and the cancellation comments appear in the Additional Comments section of the contract request.
 -   When all the review tasks are cancelled or closed, the contract request State updates to Work in progress.
 
-**Parent Topic:**[Internal review overview](snlc-expert-review.md)
+**Parent Topic:**[Internal review overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-expert-review.md)
 

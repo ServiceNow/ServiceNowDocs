@@ -2,20 +2,19 @@
 title: Roles in Service Operations Workspace for ITSM
 description: You can configure the user access for Service Operations Workspace \(SOW\) pages using various roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/roles-in-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2025-01-30"
+reading_time_minutes: 3
 breadcrumb: [Getting started with Service Operations Workspace for ITSM, Configure, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Roles in Service Operations Workspace for ITSM
 
 You can configure the user access for Service Operations Workspace \(SOW\) pages using various roles.
-
-**Note:** You must install and activate the ITSM Roles plugin \(com.snc.itsm.roles\) to correctly utilize all the SOW user roles including the granular admin roles.
 
 <table id="table_qkn_j4g_1cc"><thead><tr><th>
 
@@ -91,23 +90,23 @@ None
 
 </td></tr><tr><td>
 
-sn\_sow\_itsm\_admin\_sow\_admin\_user
+sn\_sow\_itsm\_admin.sow\_admin\_user
 
 </td><td>
 
-Provides access to the ITSM section of the Admin Center for SOW configuration.
+Provides access to SOW Admin Center pages for SOW configuration. A user with this role can perform configurations related to Incident Management only.
 
 </td><td>
 
-sn\_sow\_admin\_sow\_admin\_center\_user
+None
 
 </td></tr><tr><td>
 
-sn\_sow\_admin\_sow\_admin\_center\_user
+sn\_sow\_admin.sow\_admin\_center\_user
 
 </td><td>
 
-Provides access to the Admin Center pages.
+Enables change managers to access the SOW Admin Center page. Change managers can use configurations for change features like modern change adoption, change models, DevOps change automation, and so on.
 
 </td><td>
 
@@ -136,25 +135,6 @@ Provides access to IT Agent Dashboard.
 </td><td>
 
 None
-
-</td></tr><tr><td>
-
-sn\_sow\_admin.sn\_sow\_admin
-
-</td><td>
-
-Provides access to the SOW Admin Center page for configurations. Admins can use the role to configure SOW features and maintain organizational policies.**Note:** To configure SOW features, you also require additional roles along with the SOW admin role to access specific sections and pages in SOW admin center. For more information, see [Additional roles for SOW admin](additional-roles-sow-admin.md).
-
-</td><td>
-
--   sn\_sow\_inc.sn\_incident\_sow\_admin
--   sn\_sow\_problem.sn\_problem\_sow\_admin
--   sn\_sow\_chg.sn\_change\_sow\_admin
--   sn\_sow\_mim.sn\_mim\_sow\_admin
--   sn\_sow\_interaction.sn\_interaction\_sow\_admin
--   sn\_sow\_collab.sn\_collab\_sow\_admin
--   sn\_sow\_srm.srm\_admin
--   sn\_sow\_on\_call.sn\_on\_call\_sow\_admin
 
 </td></tr><tr><td>
 
@@ -204,102 +184,6 @@ Provides the write access to incident record pages.
 </td><td>
 
 sn\_sow.sow\_home and sn\_sow.sow\_listSo, users with the sn\_incident\_write role can access the SOW home \(landing\) and list pages.
-
-</td></tr><tr><td>
-
-Incident Manager \[incident\_manager\]
-
-\(Existing role with added responsibilities\)
-
-</td><td>
-
--   Manages incident properties and major incident trigger rules.
--   Can create and edit Communication Plan Definitions.
-
-</td><td>
-
-itil
-
-</td></tr><tr><td>
-
-sn\_sow\_inc.sn\_incident\_sow\_admin
-
-</td><td>
-
-Provides access to SOW Admin Center for configurations related to Incident Management features.
-
-</td><td>
-
--   sn\_incident\_write
--   sn\_sow\_itsm\_admin\_sow\_admin\_user
-
-</td></tr><tr><td class="sub-head" colspan="3">
-
-Major Incident Management
-
-</td></tr><tr><td>
-
-Major incident manager\[major\_incident\_manager\]
-
-</td><td>
-
-A major incident manager can:-   Initiate the major incident process by assessing and approving major incident candidates or creating a major incident.
--   Reject a major incident candidate.
--   Demote a major incident after it is accepted so that the incident can be handled as a regular incident.
--   Maintain the ownership and accountability for the life cycle of the incident.
--   Identifies the users and groups to be involved in the resolution activities.
--   Creates adhoc communication plans and tasks.
--   Edits a communication plan that is attached to a major incident.
--   Close a major incident.
-
-</td><td>
-
-This role inherits the ia\_admin role.
-
-</td></tr><tr><td>
-
-Communications manager\[communication\_manager\]
-
-</td><td>
-
--   Manages communications for major incidents and is responsible for communicating with all stakeholders.
--   Creates adhoc communication plans and tasks.
--   Edits a communication plan that is attached to a major incident.
-
-</td><td>
-
-This role inherits the ia\_admin role.
-
-</td></tr><tr><td>
-
-sn\_sow\_mim.sn\_mim\_sow\_admin
-
-</td><td>
-
-Provides access to the SOW Admin Center pages for configurations related to MIM features.However, to perform configuration of the following MIM features from Admin Center, along with sn\_mim\_sow\_admin role, you must also have additional role that provides access to the specific table where you want to configure:
-
--   MIM Trigger rules - incident\_manager or major\_incident\_manager
--   Configure email - mail\_client\_template\_read
--   Configure SMS - notify\_admin or notify\_view
--   Communication plans - sn\_comm\_management.comm\_plan\_viewer
-
-In case, you do not have the relevant additional role, you still can access the Major Incident Management \(MIM\) configuration section of the Admin Center but the **Configure** option is not enabled and you cannot configure the specific MIM feature.
-
-</td><td>
-
-sow\_admin\_user
-
-</td></tr><tr><td>
-
- 
-
-</td><td>
-
- 
-
-</td><td>
-
- 
 
 </td></tr><tr><td class="sub-head" colspan="3">
 
@@ -376,18 +260,6 @@ Provides the write access to problem record pages.
 </td><td>
 
 sn\_sow.sow\_home and sn\_sow.sow\_list enable users with the sn\_problem\_write role to access the SOW home \(landing\) and list pages.
-
-</td></tr><tr><td>
-
-sn\_sow\_problem.sn\_problem\_sow\_admin
-
-</td><td>
-
-Provides access to the SOW Admin Center pages for Problem Management configurations.
-
-</td><td>
-
-sn\_problem\_write
 
 </td></tr><tr><td class="sub-head" colspan="3">
 
@@ -490,31 +362,11 @@ Provides the read access to Schedules page.
 
 Users with the oc\_read role can access the On-call Schedules, Experts On-call, Escalation Tracking, and other On-call features in Service Operations Workspace.
 
-</td></tr><tr><td>
-
-rota\_admin
-
-</td><td>
-
-Provides access to Teams, Schedules, and Home pages in SOW. By default, for a user with this role, the Teams page is displayed.
-
-</td><td>
-
--   sn\_sow.sow\_home
--   oc\_read
-
-</td></tr><tr><td>
-
-sn\_sow\_on\_call.sn\_on\_call\_sow\_admin
-
-</td><td>
-
-Provides access to the SOW Admin Center pages for on-call configurations.
-
-</td><td>
-
--   sn\_sow\_itsm\_admin.sow\_admin\_user
--   sn\_help\_setup\_player
-
 </td></tr></tbody>
-</table>
+</table>**Tip:** If the user has a role that inherits SOW access \(such as `sn_incident_read`\) but cannot access the workspace, verify that:
+
+-   id="ul\_access\_troubleshoot"
+-   The ITSM Role plugin `com.snc.itsm.roles` is installed and active.
+-   The user was assigned the role directly or via group membership.
+-   No custom ACL is overriding the default role-based access for SOW pages.
+

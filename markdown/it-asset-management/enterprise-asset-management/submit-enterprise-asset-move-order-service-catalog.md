@@ -2,6 +2,7 @@
 title: Submit an enterprise asset move order through the Service Catalog
 description: Use the ServiceNow Service Catalog to submit a move order so that you can move in-use or consumed enterprise assets between locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/submit-enterprise-asset-move-order-service-catalog.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -105,5 +106,5 @@ Additional notes or instructions for the move order.
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Submitting an enterprise asset move order](../concept/submitting-enterprise-asset-move-order.md)
+**Parent Topic:**[Submitting an enterprise asset move order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/submitting-enterprise-asset-move-order.md)
 

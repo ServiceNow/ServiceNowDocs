@@ -2,6 +2,7 @@
 title: Assign a defect to a test case
 description: Assign an existing defect to a test case to track the relationship between defects and test cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/test-management/t\_AssignADefectToATestCase.html
 release: zurich
 product: Test Management
 classification: test-management
@@ -17,12 +18,12 @@ Assign an existing defect to a test case to track the relationship between defec
 
 ## Before you begin
 
--   [Activate Agile Development 2.0](../../agile-development/task/activate-agile-development.md)
+-   [Activate Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/activate-agile-development.md)
 
     The ability to assign a defect is available only if the Agile Development 2.0 plugin is activated.
 
--   A defect record must exist in your instance. If no defect exists, create one first. For more information, see [Report a defect from a failed test](t_ReportADefectFromAFailedTest.md).
--   Perform tests and update the test status. For more information, see [Performing tests and updating the test status](../concept/c_Tester.md).
+-   A defect record must exist in your instance. If no defect exists, create one first. For more information, see [Report a defect from a failed test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/t_ReportADefectFromAFailedTest.md).
+-   Perform tests and update the test status. For more information, see [Performing tests and updating the test status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/c_Tester.md).
 -   Role required: tm\_tester
 
 ## About this task

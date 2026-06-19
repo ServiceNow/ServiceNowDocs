@@ -2,6 +2,7 @@
 title: View the skill distribution of your team
 description: Get a deep-dive understanding of the skills on your team. Get an overview of different skills that the team members possess along with the count of people across each skill in the team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/map-skills-mh.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -51,13 +52,13 @@ Employee card
 
 </td><td>
 
-On an employee card, select ![View menu icon](../image/viewmenu.png). Select any of the following options:-   **Validate skills**: Validate employee skills page appears:
+On an employee card, select \[Omitted image "viewmenu.png"\] Alt text: View menu icon. Select any of the following options:-   **Validate skills**: Validate employee skills page appears:
 
     1.  Review the current skill proficiencies of the employee, select any skills you want to validate.
     2.  Select **Validate selected skills**.
 **Note:** Employee credentials from Credly are also displayed in the activity stream.
 
--   **View skills**: Skill details page appears. For more information, see [Skill details of an employee](../concept/skill-details-emp.md).
+-   **View skills**: Skill details page appears. For more information, see [Skill details of an employee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/skill-details-emp.md).
 -   **View profile**: The employee profile page appears with details such as reporting structure, coworkers, designation of employee.
 
 
@@ -67,7 +68,7 @@ Skill card
 
 </td><td>
 
-On a skill card, select ![View menu icon](../image/viewmenu.png), then select **View skill details**. A modal opens providing more details about the skill.
+On a skill card, select \[Omitted image "viewmenu.png"\] Alt text: View menu icon, then select **View skill details**. A modal opens providing more details about the skill.
 
 </td></tr></tbody>
 </table>6.  In the **Employee view** tab, you can perform the following actions:
@@ -86,7 +87,7 @@ Employee card
 
 </td><td>
 
-On an employee card, select ![View menu icon](../image/viewmenu.png). Select any of the following options:-   **View skill details**: Skill details page provides granular details of employee skills, proficiency levels, and gaps. For more information, see [Skill details of an employee](../concept/skill-details-emp.md).
+On an employee card, select \[Omitted image "viewmenu.png"\] Alt text: View menu icon. Select any of the following options:-   **View skill details**: Skill details page provides granular details of employee skills, proficiency levels, and gaps. For more information, see [Skill details of an employee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/skill-details-emp.md).
 -   **Validate for employees**: Validate skills page appears:
     1.  Select the employees that you like to validate this skill for, and review their proficiency rankings.
     2.  Select **Validate selected employees**.
@@ -98,7 +99,7 @@ Skill card
 
 </td><td>
 
-On a skill card, select ![View menu icon](../image/viewmenu.png), then select **View skill details**. A modal opens providing more details about the skill.
+On a skill card, select \[Omitted image "viewmenu.png"\] Alt text: View menu icon, then select **View skill details**. A modal opens providing more details about the skill.
 
 </td></tr></tbody>
 </table>

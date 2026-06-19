@@ -2,6 +2,7 @@
 title: Set up an approval engine
 description: To manage the approvals for each of the Task tables in the system, set up an approval engine.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/approvals/t\_SetupAnApprovalEngine.html
 release: zurich
 product: Approvals
 classification: approvals
@@ -15,7 +16,7 @@ breadcrumb: [Approval engines, Classic approvals, Exploring Service Administrati
 
 To manage the approvals for each of the Task tables in the system, set up an approval engine.
 
-**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://www.servicenow.com/docs/access?context=ask-approval-flow-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
+**Important:** Classic approval rules have been replaced by the Workflow Studio . Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
 
 ## Before you begin
 
@@ -27,14 +28,14 @@ Role required: none
 
     The following page appears with the **Approval Engine** option for each Task table in the system. If the **Approval Engine** option is greyed out and shows **Turn engines off**, read the **Notes** in the same row. The most common reason an approval engine is turned off is that a workflow is managing the approvals on the table. Having the approval engine turned off prevents conflicts with the workflow that could cause a range of issues. If you want to use an approval engine on the table, set the workflow to inactive.
 
-    ![Approval engine page](../image/ApprovalEnginePage.png)
+    \[Omitted image "ApprovalEnginePage.png"\] Alt text: Approval engine page
 
-2.  Select the [approval engine option](../concept/c_ApprovalEngines.md#table_ApprovalEngineOptions) for each Task table from the choice list.
+2.  Select the [approval engine option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/approvals/c_ApprovalEngines.md) for each Task table from the choice list.
 
 3.  Click **Save**.
 
     These preferences are saved as system properties that are named **glide.approval\_engine.&lt;table\_name&gt;**.
 
 
-**Parent Topic:**[Approval engines](../concept/c_ApprovalEngines.md)
+**Parent Topic:**[Approval engines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/approvals/c_ApprovalEngines.md)
 

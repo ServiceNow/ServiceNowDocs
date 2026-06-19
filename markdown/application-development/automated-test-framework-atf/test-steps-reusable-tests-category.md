@@ -2,6 +2,7 @@
 title: Reusable Tests category
 description: Create reusable test components that can be incorporated into various other tests \(regular or reusable test\), minimizing redundant test code and enhancing test maintainability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/test-steps-reusable-tests-category.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -84,5 +85,5 @@ Notes
 Description of the test step.
 
 </td></tr></tbody>
-</table>See [Reusable tests](../concept/atf-reuse-tests.md) for more details.
+</table>See [Reusable tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-reuse-tests.md) for more details.
 

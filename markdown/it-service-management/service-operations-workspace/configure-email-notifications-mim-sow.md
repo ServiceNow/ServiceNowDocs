@@ -2,6 +2,7 @@
 title: Configure email notifications in Major Incident Management
 description: Configure the automated email notification alerts that are sent to major incident managers in the various stages of the major incident process. These stages include a change of state, assignment, or user group for a major incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/configure-email-notifications-mim-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -17,7 +18,7 @@ Configure the automated email notification alerts that are sent to major inciden
 
 ## Before you begin
 
-The Major Incident Management plugin must be activated in Service Operations Workspace. For more information, see [Activate Major Incident Management in Service Operations Workspace](install-mim-sow.md).
+The Major Incident Management plugin must be activated in Service Operations Workspace. For more information, see [Activate Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/install-mim-sow.md).
 
 Consider the following items when you create or update a notification:
 
@@ -27,10 +28,10 @@ Consider the following items when you create or update a notification:
 
 -   Your notification recipients must have the appropriate notification preferences enabled.
 
-    Each user or group member must have the option to subscribe to the notification. They should have that option enabled in their notification preferences, along with the devices through which they want to receive the notification. Admins can impersonate users to review and configure their notification preferences. For more information, see [Setting notification preferences in Core UI](https://www.servicenow.com/docs/access?context=user-notification-preferences&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+    Each user or group member must have the option to subscribe to the notification. They should have that option enabled in their notification preferences, along with the devices through which they want to receive the notification. Admins can impersonate users to review and configure their notification preferences. For more information, see 
 
--   To have your email notification also send as an SMS notification, recipients must subscribe to the notification on an SMS channel. For more information on creating an SMS channel, see [Create notification channels](https://www.servicenow.com/docs/access?context=create-channel&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
--   After you create or update the notification, use the **Preview Notification** option to examine it. For example, you can test links that you have added and verify the notification recipients. For details, see [Preview email notifications](https://www.servicenow.com/docs/access?context=t_PreviewingNotifications&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+-   To have your email notification also send as an SMS notification, recipients must subscribe to the notification on an SMS channel. For more information on creating an SMS channel, see .
+-   After you create or update the notification, use the **Preview Notification** option to examine it. For example, you can test links that you have added and verify the notification recipients. For details, see .
 
 Role required: sn\_mim\_sow\_admin or admin
 
@@ -41,7 +42,7 @@ Use the following tabs in the Notification form to configure an email notificati
 -   When to send — Conditions required to send the notification.
 -   Who will receive — Recipients of the notification.
 -   What it will contain — Contents of the notification.
--   What a digest will contain — Contents of the email digests if the notification can be delivered in a digest. For more information, see [Email digests](https://www.servicenow.com/docs/access?context=email-digests&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+-   What a digest will contain — Contents of the email digests if the notification can be delivered in a digest. For more information, see .
 
 **Note:** If you don’t see all the fields on the form, select the **Advanced** view option in the related link section.
 
@@ -61,7 +62,7 @@ Use the following tabs in the Notification form to configure an email notificati
 
 5.  On the Notification form, fill in the fields.
 
-    For a description of the field values, see [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For a description of the field values, see .
 
 6.  Select **Submit**.
 
@@ -73,5 +74,5 @@ Use the **Preview Notification** option to preview what notifications look like 
 -   How the **Subject** and **Message** fields are displayed.
 -   Which users do or don’t receive the notification, including the reasons why the users don’t receive it.
 
-For more information, see [Preview email notifications](https://www.servicenow.com/docs/access?context=t_PreviewingNotifications&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For more information, see .
 

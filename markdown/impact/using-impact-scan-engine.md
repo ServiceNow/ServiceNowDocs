@@ -2,7 +2,10 @@
 title: Running on-demand scans
 description: You can initiate some scan types on-demand to run whenever they are required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/using-impact-scan-engine.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-11-13"
 reading_time_minutes: 1
@@ -62,5 +65,5 @@ Scan your ServiceNow instance for findings. These scans return the findings and 
 
 Scans are initiated in different ways. They run using the Scan Engine properties you configured.
 
-For more information, see [Configure Scan Engine properties](configure-scan-engine-properties.md) and [Configure definition properties](../reference/additional-scan-engine-properties.md).
+For more information, see [Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md) and [Configure definition properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/additional-scan-engine-properties.md).
 

@@ -2,6 +2,7 @@
 title: Add a retriever
 description: Add a retriever to your prompt to augment and add context to your prompts with AI search results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-skill-kit/add-retriever.html
 release: zurich
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -118,14 +119,14 @@ Search criteria
 -   Hybrid
 -   Semantic
 -   Keyword
- **Note:** If you choose Hybrid or Semantic, you can make selections for chunking and reranking. To learn more about chunking and reranking, see [Retriever chunking and reranking](retriever-chunking.md).
+ **Note:** If you choose Hybrid or Semantic, you can make selections for chunking and reranking. To learn more about chunking and reranking, see [Retriever chunking and reranking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/retriever-chunking.md).
 
 </td></tr></tbody>
 </table>9.  Select **Next**.
 
 10. Select an embedding model.
 
-    To learn about embedding models, see [Configuring an external or custom embedding model](https://www.servicenow.com/docs/access?context=setting-up-3p-embedding-models&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    To learn about embedding models, see .
 
 11. If you selected **Hybrid** or **Semantic** search criteria, select a semantic index.
 
@@ -137,15 +138,15 @@ Search criteria
 
 13. Select **Next**.
 
-    **Note:** If you selected **Hybrid** or **Semantic** search criteria, see [Retriever chunking and reranking](retriever-chunking.md) to complete setting up your retriever.
+    **Note:** If you selected **Hybrid** or **Semantic** search criteria, see [Retriever chunking and reranking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/retriever-chunking.md) to complete setting up your retriever.
 
 14. Review the retriever tool information.
 
 15. Select **Add tool**.
 
 
--   **[Retriever chunking and reranking](retriever-chunking.md)**  
+-   **[Retriever chunking and reranking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/retriever-chunking.md)**  
 When you’re building a skill prompt that uses a retriever you can use chunking and reranking to enhance the accuracy and relevance of your responses.
 
-**Parent Topic:**[Add a tool](../concept/add-a-tool.md)
+**Parent Topic:**[Add a tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/add-a-tool.md)
 

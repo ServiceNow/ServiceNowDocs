@@ -2,6 +2,7 @@
 title: Next steps when replatforming apps to ServiceNow using ERP Semantic Mining
 description: After you use ERP Semantic Mining to identify legacy ERP \(Enterprise Resource Planning\) candidates, use additional ServiceNow AI Platform products and resources to replatform your app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-customization-mining/ecm-next-steps-replatforming.html
 release: zurich
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -37,16 +38,16 @@ When you replatform a custom app from the system of record, you don't have to re
 
 ## ServiceNow low- and pro-code builders
 
-After you identify ERP data to replatform, citizen developers can use ServiceNow builders to create apps quickly from the data. Any custom fields that exist in the ERP system of record, such as SAP, can be leveraged by the apps you build using the ServiceNow AI Platform. For more on citizen development, see [Exploring Delegated Development](https://www.servicenow.com/docs/access?context=c_DelegatedDevelopment&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+After you identify ERP data to replatform, citizen developers can use ServiceNow builders to create apps quickly from the data. Any custom fields that exist in the ERP system of record, such as SAP, can be leveraged by the apps you build using the ServiceNow AI Platform. For more on citizen development, see .
 
 Use any of the following ServiceNow builders to create apps using custom data:
 
--   [ServiceNow Studio](https://www.servicenow.com/docs/access?context=servicenow-studio-landing&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
--   [Flows in Workflow Studio](https://www.servicenow.com/docs/access?context=exploring-flows&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
--   [Playbooks in Workflow Studio](https://www.servicenow.com/docs/access?context=exploring-process-automation-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
--   [Table Builder](https://www.servicenow.com/docs/access?context=tb-landing-page&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
--   [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
--   [Workspace Builder](https://www.servicenow.com/docs/access?context=workspace-builder-landing&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+-   ServiceNow Studio
+-   Flows in Workflow Studio
+-   Playbooks in Workflow Studio
+-   Table Builder
+-   UI Builder
+-   
 
 For example, use in ServiceNow Studio, use a template \(or build the app from the ground up\) and incorporate remote tables using ERP models and remote tables. You can combine legacy data from the ERP models and remote tables with other ServiceNow data in tables.
 
@@ -54,7 +55,7 @@ For example, use in ServiceNow Studio, use a template \(or build the app from th
 
 You can also access data from the system of record through the Glide API.
 
-For more information, see [Sample Glide query for ERP data in ERP Semantic Mining](../reference/using-glide-to-query-erp-data.md).
+For more information, see [Sample Glide query for ERP data in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-customization-mining/using-glide-to-query-erp-data.md).
 
 ## After you replatform custom code to a ServiceNow app
 
@@ -64,5 +65,5 @@ After you have identified candidates to replatform and taken the recommended act
 
 If you're sure that legacy code on the system of record isn't referenced elsewhere, you can remove it from the system after it's replatformed.
 
-**Parent Topic:**[Exploring ERP Semantic Mining](exploring-ecm.md)
+**Parent Topic:**[Exploring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-customization-mining/exploring-ecm.md)
 

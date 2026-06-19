@@ -2,6 +2,7 @@
 title: Download the Edge Encryption proxy server
 description: Download the Edge Encryption proxy server application from your instance, and then copy the file to each computer that is to run the Edge Encryption proxy server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/t\_DownloadtheProxy.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -33,7 +34,7 @@ Role required: security\_admin
 
     If manually installing the proxy server, select the OS version for your proxy server.
 
-    ![Edge Encryption proxy server download options](../images/edge-proxy-downloads.png)
+    \[Omitted image "edge-proxy-downloads.png"\] Alt text: Edge Encryption proxy server download options
 
     **Note:** Because the proxy server requires at least 4 GB of memory to run, 32-bit JREs and 32-bit operating systems are no longer supported starting with the Washington DC release.
 
@@ -44,7 +45,7 @@ Role required: security\_admin
 
 ## What to do next
 
-After downloading the Edge Encryption installer, [Install the Edge Encryption proxy server using the interactive installer](proxy-installer.md). If installing manually, [Install the Edge Encryption proxy server using the command line installer](manual-proxy-install.md).
+After downloading the Edge Encryption installer, [Install the Edge Encryption proxy server using the interactive installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/proxy-installer.md). If installing manually, [Install the Edge Encryption proxy server using the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/manual-proxy-install.md).
 
-**Parent Topic:**[Installing Edge Encryption](../concept/c_InstallEdgeEncryptionProxy.md)
+**Parent Topic:**[Installing Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/c_InstallEdgeEncryptionProxy.md)
 

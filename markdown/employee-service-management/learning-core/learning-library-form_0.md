@@ -2,6 +2,7 @@
 title: Learning library form
 description: Use the learning library form to create a learning library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/learning-library-form\_0.html
 release: zurich
 product: Learning Core
 classification: learning-core
@@ -64,5 +65,5 @@ Manager Access Restrict To
 Employees that the catalog is visible to or employees who can curate the items in the catalog.**Note:** This field appears only when **User criteria** is selected in the **Restrict Type** field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Learning reference](learning-experience-reference.md)
+</table>**Parent Topic:**[Learning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/learning-experience-reference.md)
 

@@ -2,6 +2,7 @@
 title: Add an approver to review a change request
 description: Add a group member, or approver, manually to your approval group to review your Operational Technology \(OT\) change request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-change-management/select\_an\_approval\_group.html
 release: zurich
 product: Operational Technology Change Management
 classification: operational-technology-change-management
@@ -45,5 +46,5 @@ Once you complete the Initiate and Plan stages of your OT change request in the 
 -   In the change request record, select the **Approvers** tab and change the **State** field from **Requested** to the appropriate option.
 -   In the **Playbook** tab, select the Approve stage and change the **State** field from **Requested** to the appropriate option.
 
-**Parent Topic:**[Operational Technology change approval](../reference/ot-change-approval.md)
+**Parent Topic:**[Operational Technology change approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-change-management/ot-change-approval.md)
 

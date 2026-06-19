@@ -2,6 +2,7 @@
 title: Enable HTML Sanitizer \[Updated in Security Center 1.3\]
 description: Use the glide.html.sanitize\_all\_fields property to enable the HTMLSanitizer script include, which sanitizes HTML input based on exclusion listed and inclusion listed attributes configured in a script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-html-sanitizer.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -55,7 +56,7 @@ Category
 
 </td><td>
 
-[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 
 </td></tr><tr><td>
 
@@ -111,7 +112,7 @@ Workaround
 
 </td><td>
 
-This property sanitizes all HTML fields in the system. If you must enable HTML sanitization on individual fields, see [Enable sanitization on individual fields](../../security/task/t_EnSanitizIndFlds.md).
+This property sanitizes all HTML fields in the system. If you must enable HTML sanitization on individual fields, see [Enable sanitization on individual fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/t_EnSanitizIndFlds.md).
 
  You can also configure the inclusion list or exclusion list to sanitize HTML tags and attributes as per your organizations policy.
 
@@ -121,12 +122,12 @@ References
 
 </td><td>
 
-[Enabling HTML sanitizer](../../security/task/t_ActivateHTMLSanitizer.md)
+[Enabling HTML sanitizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/t_ActivateHTMLSanitizer.md)
 
- [HTML sanitizer](../../security/concept/c_HTMLSanitizer.md)
+ [HTML sanitizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/c_HTMLSanitizer.md)
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

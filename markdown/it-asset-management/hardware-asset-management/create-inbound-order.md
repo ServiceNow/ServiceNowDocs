@@ -2,6 +2,7 @@
 title: Create an inbound asset order
 description: Create an inbound asset order to associate a customer request to an asset order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/create-inbound-order.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -113,5 +114,5 @@ Estimated delivery date of the asset that's being sent to the specified delivery
 
 ## What to do next
 
-[Create an inbound asset order line](create-inbound-order-line.md)
+[Create an inbound asset order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-inbound-order-line.md)
 

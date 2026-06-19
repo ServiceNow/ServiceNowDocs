@@ -2,7 +2,10 @@
 title: Revert to the previous activated decision tree version
 description: Discard any changes in a non-activated decision tree and revert the decision tree to the last activated version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/discard-latest-changes.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -25,7 +28,7 @@ Role required: admin, sn\_gd\_core.decision\_tree\_author
 
 3.  Select **Open in Builder**.
 
-4.  Select the More options icon \(![More options icon](../image/more_vertical_icon.png)\) and select **Discard latest version**.
+4.  Select the More options icon \(\[Omitted image "more\_vertical\_icon.png"\] Alt text: More options icon\) and select **Discard latest version**.
 
 
 ## Result

@@ -2,6 +2,7 @@
 title: Configure Authentication profile for Processor
 description: Apply authentication profile for the export processors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/configure-auth-profile-processor.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -68,6 +69,6 @@ Type of the authentications profile. You can select **ID Token** or **OAuth Toke
 
     For example, OAuth authentication profile is configured for the CSV Processor. In this case, you have to use OAuth access token for the exporting using CSV as an export option.
 
-    ![Processor Access Policies](../images/auth-profile-processor.png)
+    \[Omitted image "auth-profile-processor.png"\] Alt text: Processor Access Policies
 
 

@@ -2,6 +2,7 @@
 title: Create a cascading filter
 description: Cascading filters allow you to filter based on multiple values in a hierarchy, such as by region, country, and city. Lower-level choices are filtered by the values selected at higher levels.So that you do not have to clean up the filter panel, duplicate filters are removed automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/interactive-filters/create-cascading-filter.html
 release: zurich
 product: Interactive Filters
 classification: interactive-filters
@@ -27,7 +28,7 @@ Role required: hp\_publisher\_admin and report\_admin. The hp\_publisher\_admin 
 
 This procedure includes examples based on a cascading interactive filter using managers and groups. In this example, the top-level choice allows users to select a manager and the second-level choice allows users to select a user group managed by that manager.
 
-![Cascading filter example](../image/cascading-filter-example.png "Example cascading filter")
+\[Omitted image "cascading-filter-example.png"\] Alt text: Cascading filter example
 
 **Note:** You can filter reports based on the values in reference fields only. Cascading filters support only the **Single Select** **UI control type**.
 
@@ -97,15 +98,15 @@ This procedure includes examples based on a cascading interactive filter using m
 
     |Top-level filter|Second-level filter|
     |----------------|-------------------|
-    |![Cascading filter top-level filter example](../image/cascading-filter-form-1.png)|![Cascading filter second-level filter example](../image/cascading-filter-form-2.png)|
+    |\[Omitted image "cascading-filter-form-1.png"\] Alt text: Cascading filter top-level filter example|\[Omitted image "cascading-filter-form-2.png"\] Alt text: Cascading filter second-level filter example|
 
 
 ## What to do next
 
 1.  After you create all levels of the filter, add it to a dashboard.
-2.  On the dashboard, select the **Edit widget** icon \(![Edit columns icon](../image/icon-cogwheel-ac.png)\) on each visualization on the dashboard that should follow the filter and select **Follow interactive filter**.
+2.  On the dashboard, select the **Edit widget** icon \(\[Omitted image "icon-cogwheel-ac.png"\] Alt text: Edit columns icon\) on each visualization on the dashboard that should follow the filter and select **Follow interactive filter**.
 
-**Parent Topic:**[Creating Interactive Filters of different types](../reference/r_AvailableHomepagePublisherTypes.md)
+**Parent Topic:**[Creating Interactive Filters of different types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters/r_AvailableHomepagePublisherTypes.md)
 
 ## Cascading filters deduplication
 

@@ -2,6 +2,7 @@
 title: Configuring resource path for your custom embedding model
 description: The bring your own model \(BYOM\) configuration uses the shared alias from Generative AI Controller to connect the LLM with your custom embedding model. To avoid configuration issues, ensure the connection URL is set separately and any additional paths are correctly set in the resource path.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configuring-resource-path-for-byom.html
 release: zurich
 product: AI Search
 classification: ai-search

@@ -2,6 +2,7 @@
 title: Log in using Multi-Provider SSO
 description: The recommended and most efficient method for users to log in using Multi-Provider SSO is to use a specifically configured URL.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/log-in-multi-provider-sso.html
 release: zurich
 product: Authentication
 classification: authentication

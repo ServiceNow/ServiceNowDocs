@@ -2,6 +2,7 @@
 title: Open state management
 description: The open state model is a programmatic framework in the Configuration State Model API, which lets you program variations in product options that appear in the product configurator in Sales Customer Relationship Management. The API framework provides certain states and helper API methods for controlling how nodes in the product configurator user interface are displayed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/som-open-state-management-model.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -15,7 +16,7 @@ breadcrumb: [Legacy product configurator, Configure, price, quote apps, Configur
 
 The open state model is a programmatic framework in the Configuration State Model API, which lets you program variations in product options that appear in the product configurator in Sales Customer Relationship Management. The API framework provides certain states and helper API methods for controlling how nodes in the product configurator user interface are displayed.
 
-As developers, you can use [extension points for open state management](../task/som-open-state-configuration.md) to set the view-only or editable states on any configurator node, based on events that occur at loading or when product selections change. You can also optionally script information messages along with changing the state of the node. These messages display contextually in the product configurator user interface. Various helper API methods are available for reading and setting states on any node, eliminating the need for extensive JSON scripting.
+As developers, you can use [extension points for open state management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-open-state-configuration.md) to set the view-only or editable states on any configurator node, based on events that occur at loading or when product selections change. You can also optionally script information messages along with changing the state of the node. These messages display contextually in the product configurator user interface. Various helper API methods are available for reading and setting states on any node, eliminating the need for extensive JSON scripting.
 
 **Note:** Check your entitlements to determine if you have access to these features.
 

@@ -2,6 +2,7 @@
 title: Properties related to remediation of duplicate CIs
 description: Use de-duplication properties to configure how remediation of duplicate CIs works when using the Duplicate CI Remediator or the De-duplication dashboard in CMDB Workspace and in Service Graph Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/properties-duplicate-ci.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -17,7 +18,7 @@ Use de-duplication properties to configure how remediation of duplicate CIs work
 
 To view and edit these properties, the admin role is required.
 
-Although the properties below reference the [Duplicate CI Remediator](../task/reconcile-dup-task.md), these properties have an equivalent effect in [duplicate CI remediation in CMDB Workspace](../concept/dedup-ci-exp-cmdb-workspace.md).
+Although the properties below reference the [Duplicate CI Remediator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md), these properties have an equivalent effect in [duplicate CI remediation in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md).
 
 <table id="table_thf_j3w_5gb"><thead><tr><th>
 
@@ -64,7 +65,7 @@ Threshold for the number of duplicate CIs, which if exceeded, support for reconc
 -   Type: integer
 -   Default value: 1000
 -   Location: **Configuration** &gt; **CMDB Properties** &gt; **Duplicate CI Remediator Properties**
--   Learn more: See 'Large number of duplicate CIs' in [Remediate a de-duplication task \(manual\)](../task/reconcile-dup-task.md).
+-   Learn more: See 'Large number of duplicate CIs' in [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md).
 
 This threshold never exceeds 5,000, even if you set the property to a value greater than 5,000.
 
@@ -94,11 +95,11 @@ Enables restricted mode remediation in the Duplicate CI Remediator. This option 
 
  -   Type: true \| false
 -   Default value: false
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US)
--   Learn more: [Remediate a de-duplication task \(manual\)](../task/reconcile-dup-task.md)
+-   Location: Add to System Properties \[sys\_properties\]
+-   Learn more: [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md)
 
  Set to **true** to enable restricted mode remediation.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Duplicate CIs remediation](../concept/de-duplication-tasks.md)
+</table>**Parent Topic:**[Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md)
 

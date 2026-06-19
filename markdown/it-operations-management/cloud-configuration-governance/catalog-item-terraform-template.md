@@ -2,6 +2,7 @@
 title: Create a catalog item from the Terraform template
 description: Create a catalog item from the Terraform template to request cloud resource provisioning. Activated catalog items appear in the cloud user portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/catalog-item-terraform-template.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -17,7 +18,7 @@ Create a catalog item from the Terraform template to request cloud resource prov
 
 ## Before you begin
 
--   Ensure that an appropriate Terraform config provider is available. For more information on creating the config provider, see [Create a Terraform Open Source config provider](setup-cpg-terraform-connector-for-terraform-open-source.md) and [Create a Terraform Enterprise or Terraform Cloud config provider](setup-cpg-terraform-connector-for-terraform-enterprise.md).
+-   Ensure that an appropriate Terraform config provider is available. For more information on creating the config provider, see [Create a Terraform Open Source config provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/setup-cpg-terraform-connector-for-terraform-open-source.md) and [Create a Terraform Enterprise or Terraform Cloud config provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/setup-cpg-terraform-connector-for-terraform-enterprise.md).
 -   Ensure that the Terraform template is working \(that is, you can directly use the template with the Terraform system to provision the specified cloud resources\). For more information on Terraform templates, see the [Terraform language documentation](https://www.terraform.io/language).
 -   Ensure that the provider block of the Terraform template adheres to the following syntax:
     -   Provider block syntax for the Microsoft Azure cloud:
@@ -103,7 +104,7 @@ Create a catalog item from the Terraform template to request cloud resource prov
 
         -   **organization** is the name of the Microsoft Azure DevOps organization.
         -   **project** is the name of the Microsoft Azure DevOps project.
-    For more information on the API credentials, see [Cloud Services Catalog Terraform Connector API Key Credentials form reference](../reference/cpg-terraform-connector-api-key-credentials-form-reference.md).
+    For more information on the API credentials, see [Cloud Services Catalog Terraform Connector API Key Credentials form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-api-key-credentials-form-reference.md).
 
 
 Role required: sn\_cmp.cloud\_service\_designer
@@ -203,5 +204,5 @@ Name of the Terraform config provider that you want to use.
 
 Verify that the catalog item appears in the Cloud User Portal.
 
-**Parent Topic:**[Using Cloud Services Catalog Terraform Connector](../concept/using-ccg-terraform-connector.md)
+**Parent Topic:**[Using Cloud Services Catalog Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/using-ccg-terraform-connector.md)
 

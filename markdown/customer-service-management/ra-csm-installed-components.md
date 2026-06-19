@@ -2,7 +2,10 @@
 title: Components installed with Recommended Actions
 description: Several types of components are installed with the Recommended Actions application, including tables, roles, guidances, resource generators, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ra-csm-installed-components.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 4
@@ -238,7 +241,7 @@ Grants access to configure trend definitions.
 None
 
 </td></tr></tbody>
-</table>Other than the roles in the preceding table, you can delegate deployment tasks to developers or non-admin users. For more information on the delegated development, see [Delegated Development](https://www.servicenow.com/docs/access?context=delegated-development-landing&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+</table>Other than the roles in the preceding table, you can delegate deployment tasks to developers or non-admin users. For more information on the delegated development, see .
 
 ## Guidances
 

@@ -2,6 +2,7 @@
 title: Approval Coordinator workflow activity
 description: The Approval Coordinator activity creates an approval whose outcome depends on the outcome of one or more child activities, including one or more Approval - User, Approval - Group, and/or Manual Approval activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/workflow-activities/r\_ApprovalCoordinator.html
 release: zurich
 product: Workflow Activities
 classification: workflow-activities
@@ -108,5 +109,5 @@ The activity state tells the workflow engine what to do with the activity.
 |Cancelled|This activity, or the workflow that contains this activity, was canceled.|
 |Error|A JavaScript error occurred. Review the logs for error details.|
 
-**Parent Topic:**[Approval and rollback workflow activities](../concept/c_ApprovalAndRollbackActivities.md)
+**Parent Topic:**[Approval and rollback workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/workflow-activities/c_ApprovalAndRollbackActivities.md)
 

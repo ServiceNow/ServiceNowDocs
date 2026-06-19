@@ -2,6 +2,7 @@
 title: Old inbound integrations experience
 description: Old experience - Inbound integrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/old-inbound-integrations.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -19,15 +20,15 @@ Old experience - Inbound integrations.
 
 You can perform the OAuth inbound configuration, depending on the following type of grant type:
 
--   [OAuth authorization code grant flow](../../../administer/security/concept/c_OAuthAuthorizationCodeFlow.md)
+-   [OAuth authorization code grant flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/c_OAuthAuthorizationCodeFlow.md)
 
     **Note:** For authorization code flow, user needs to complete the Authentication by local login, SSO or MFA and then provide consent.
 
--   [Password grant](../../../administer/security/task/t_AuthorizeAccessEndpiont.md)
--   [JWT bearer grant flow](../../../administer/security/task/create-jwt-endpoint.md)
--   [ID token flow](../../../administer/security/task/add-OIDC-entity.md)
--   [OAuth implicit grants](../../../administer/security/concept/c_OAuthImplicitGrants.md)
--   [Client Credentials](client-credentials.md)
+-   [Password grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/t_AuthorizeAccessEndpiont.md)
+-   [JWT bearer grant flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-jwt-endpoint.md)
+-   [ID token flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/add-OIDC-entity.md)
+-   [OAuth implicit grants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/c_OAuthImplicitGrants.md)
+-   [Client Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/client-credentials.md)
 
 Configure OAuth integration that includes the following enhancements from Zurich release:
 

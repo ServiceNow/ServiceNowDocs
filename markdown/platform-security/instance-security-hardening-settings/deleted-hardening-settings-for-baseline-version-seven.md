@@ -2,6 +2,7 @@
 title: Deleted hardening settings for baseline version 7.0
 description: Some hardening settings have been removed with the release of Security Center baseline version 7.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/deleted-hardening-settings-for-baseline-version-seven.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -19,5 +20,5 @@ Some hardening settings have been removed with the release of Security Center ba
 -   Escape XML Response
 -   Minimize One-Time Out of Band Verifier Lifetime Duration
 
-**Parent Topic:**[Deleted hardening settings](hardening-settings-deleted.md)
+**Parent Topic:**[Deleted hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/hardening-settings-deleted.md)
 

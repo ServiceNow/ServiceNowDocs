@@ -2,6 +2,7 @@
 title: Initialize the NowSDK in your application
 description: In order to use the Mobile SDK in your application, you need to perform SDK initialization, authorization, and logging.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/developer-guides/mobsdk-and-init-nowsdk-in-app.html
 release: zurich
 product: Developer Guides
 classification: developer-guides

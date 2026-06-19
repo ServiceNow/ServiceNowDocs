@@ -2,6 +2,7 @@
 title: Create a control
 description: Controls are automatically generated when you associate a policy with an entity type or an entity type with a control objective. A control is created for each entity listed in the entity type for the control objective. Controls can also be manually created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/t\_CreateAControl.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -65,7 +66,7 @@ Inherit from control objective
 
 </td><td>
 
-Option to indicate whether the control is created through item generation process. For more information, see [Multiple controls for a unique entity–control objective combination](../concept/support-multiple-controls-same-entity-control-objective.md).
+Option to indicate whether the control is created through item generation process. For more information, see [Multiple controls for a unique entity–control objective combination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/support-multiple-controls-same-entity-control-objective.md).
 
 </td></tr><tr><td>
 
@@ -359,5 +360,5 @@ When **Entity based access restriction** is enabled, only users or user groups i
 
 ## What to do next
 
-After you create a control, you can convert the control to a common control and add reliant entities and reliant entity types to it. For more information, see [Testing common control and implementing results on multiple reliant entities](../../grc-workspace-compliance/concept/common-controls-multiple-rel-entities.md).
+After you create a control, you can convert the control to a common control and add reliant entities and reliant entity types to it. For more information, see [Testing common control and implementing results on multiple reliant entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/common-controls-multiple-rel-entities.md).
 

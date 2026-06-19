@@ -2,6 +2,7 @@
 title: Service Portfolio Management activation administration
 description: Service Portfolio Management includes several plugins to enable the organization, documentation, and management of service portfolios within your IT business department.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-portfolio-management/SPM2-administration.html
 release: zurich
 product: Service Portfolio Management
 classification: service-portfolio-management
@@ -64,5 +65,5 @@ You can also activate the Service Portfolio Management Taxonomy Content Pack plu
 
 Portfolio managers benefit from the Service Portfolio Management Taxonomy Content Pack because it provides a useful example of how service portfolios and services are constructed within the application. This example results in faster modeling of an organization's service portfolio. Also, often portfolio managers must quickly provide the organization an example of a portfolio structure to accelerate decision making regarding business approach.
 
-**Parent Topic:**[Configuring Service Portfolio Management](SPM2-configuring.md)
+**Parent Topic:**[Configuring Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/SPM2-configuring.md)
 

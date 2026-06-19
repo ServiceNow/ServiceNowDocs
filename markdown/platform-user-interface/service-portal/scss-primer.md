@@ -2,6 +2,7 @@
 title: Service Portal SCSS Primer
 description: SCSS is a subset of the Syntactically Awesome StyleSheets \(Sass\) specification and is an extension of CSS. Every valid CSS style sheet is valid SCSS.SCSS variables are a way to store information that you want to reuse throughout your style sheet. You can store things like colors, font stacks, or any CSS value you think you want to reuse. SCSS uses the $ symbol to make something a variable.List of functions for Service Portal SCSS compiler.SCSS lets you nest your CSS selectors in a way that follows the same visual hierarchy of your HTML.SCSS has a handful of standard math operators like +, -, \*, /, and %.A mixin lets you make groups of CSS declarations that you want to reuse throughout your site. You can pass in values to make your mixin more flexible.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/scss-primer.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -15,7 +16,7 @@ breadcrumb: [Service Portal reference, Service Portal, Configure UIs and portals
 
 SCSS is a subset of the Syntactically Awesome StyleSheets \(Sass\) specification and is an extension of CSS. Every valid CSS style sheet is valid SCSS.
 
-**Parent Topic:**[Service Portal reference](reference-service-portal.md)
+**Parent Topic:**[Service Portal reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/reference-service-portal.md)
 
 ## SCSS variables
 

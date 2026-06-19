@@ -2,7 +2,10 @@
 title: Approve a service contract
 description: Approve a service contract for a customer account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/approve-service-contract.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -29,7 +32,7 @@ Role required: sn\_customerservice\_manager or admin
 
 5.  Click one of the following options.
 
-<table id="choicetable_i13_3fn_55"><tbody><tr><td id="d233633e106">
+<table id="choicetable_i13_3fn_55"><tbody><tr><td id="d93725e106">
 
 **Approve**
 
@@ -37,7 +40,7 @@ Role required: sn\_customerservice\_manager or admin
 
 The review state changes to **Approved** on the Approvals list.
 
-</td></tr><tr><td id="d233633e118">
+</td></tr><tr><td id="d93725e118">
 
 **Reject**
 
@@ -47,3 +50,8 @@ The review state changes to **Rejected** on the Approvals list. If you reject a 
 
 </td></tr></tbody>
 </table>
+**Related topics**  
+
+
+[bundle-itsm.c_ContractManagement]
+

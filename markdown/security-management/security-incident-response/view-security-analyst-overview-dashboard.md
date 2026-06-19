@@ -2,6 +2,7 @@
 title: View Security Analyst Overview dashboard
 description: With this dashboard, security analysts can view security incidents summarized based on analysts’ critical priority work, high priority work, security Incidents that are assigned to the analyst, tasks assigned to the analysts, and incident count.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/view-security-analyst-overview-dashboard.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -29,8 +30,8 @@ Role required: sn\_si.analyst \(Read\), sn\_si.manager or sn\_si.admin \(Write\)
 
 3.  Select **Security Analyst Overview** from the drop down list.
 
-    ![Security Analysts Overview dashboard](../image/security-analysts-overview-dashboard.png)
+    \[Omitted image "security-analysts-overview-dashboard.png"\] Alt text: Security Analysts Overview dashboard
 
-    View the Security Analyst Overview dashboard for further action. For detailed information on Security Analyst Overview dashboard, see [Security Incident Response Platform Analytics Solutions](../../../use/dashboards/application-content-packs/security-incident-content-pack.md).
+    View the Security Analyst Overview dashboard for further action. For detailed information on Security Analyst Overview dashboard, see [Security Incident Response Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/security-incident-content-pack.md).
 
 

@@ -2,6 +2,7 @@
 title: Deleting older or unwanted records
 description: Delete older, expired, or unwanted records from tables automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/deleting-older-records.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -24,7 +25,7 @@ There are several table cleanup rules included in the base system by default.
 
 The table cleaner scheduled job runs once per hour \(by default\). When the table cleaner job runs, each table cleaner rule runs several queries as part of the process. If there's no index on a rule's match field or on significant portions of its condition, rule processing can be slow because its queries are running inefficiently on large amounts of data.
 
-If a table cleaner rule has a query that takes longer than 30 seconds to complete, the entire table cleaner job is stopped. By default, table cleaner waits two days before including that rule in the table cleaner job again, which enables the table cleaner job to run without disruption in the meantime. You can configure the duration of the waiting period by adding a system property. See [Table cleaner properties](../../database-rotation/reference/r_SetArchiveRuleProcessingBehavior.md#section_qc1_sgy_mxb).
+If a table cleaner rule has a query that takes longer than 30 seconds to complete, the entire table cleaner job is stopped. By default, table cleaner waits two days before including that rule in the table cleaner job again, which enables the table cleaner job to run without disruption in the meantime. You can configure the duration of the waiting period by adding a system property. See [Table cleaner properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/r_SetArchiveRuleProcessingBehavior.md).
 
 ## Disabling table cleanup
 
@@ -40,10 +41,10 @@ You can prevent an administrator from creating a table cleanup rule or running t
 -   Table cleaner spends a maximum of 20 minutes to delete records from a single table. If queries are slow, the volume of records deleted in the 20-minute period may be small.
 -   Table cleaner doesn't call `DBDelete.setWorkflow()`. This means `DBDelete` objects run with `workflow=false` \(false is the default value for a Java Boolean\). As a result, business rules, workflows, and flows that you expected to trigger on record deletion won’t trigger in the context of table cleaner. This is important to consider if you have business logic that depends on this type of functionality.
 
--   **[Create a table cleanup rule](../task/activate-table-cleanup.md)**  
+-   **[Create a table cleanup rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/activate-table-cleanup.md)**  
 Define the criteria for deleting unwanted records in a table cleanup rule.
--   **[Manage table cleaner resource usage](../task/manage-table-cleaner-resource-usage.md)**  
+-   **[Manage table cleaner resource usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/manage-table-cleaner-resource-usage.md)**  
 Control the system resources used table cleaner by updating the table cleaner job.
 
-**Parent Topic:**[Managing the growth of data on your instance](data-management-policies.md)
+**Parent Topic:**[Managing the growth of data on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/data-management-policies.md)
 

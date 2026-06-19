@@ -2,6 +2,7 @@
 title: Enable ACLs to Control Live Profile Details \[Updated in Security Center 1.3\]
 description: Use the glide.live\_profile.details property to designate whether a user should be able to view all detail fields, such as company name and phone numbers, in a live profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-enable-acls-to-control-live-profile-details.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -27,7 +28,7 @@ Depending on the setting of the **glide.live\_profile.details** property, the fo
 |---------|-----------|
 |Property name|**glide.live\_profile.details**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Access control](sc-access-control.md)|
+|Category|[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)|
 |Purpose|The purpose is to enable only authorized users to access the details of a Live Profile \(such as Company name, Phone numbers\)|
 |Data type|choicelist|
 |Recommended value|ACL|
@@ -36,7 +37,7 @@ Depending on the setting of the **glide.live\_profile.details** property, the fo
 |Functional impact|If property is not enabled, unauthorized users can access the Live profile details of all other users.|
 |Security risk|\(Moderate\) API requests should always honor table ACLs. Restriction must be applied to prevent unauthorized users accessing details of a Live Profile.|
 
-To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Access control](sc-access-control.md)
+**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

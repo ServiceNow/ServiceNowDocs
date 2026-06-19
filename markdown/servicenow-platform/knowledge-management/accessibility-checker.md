@@ -2,6 +2,7 @@
 title: Accessibility checker in the toolbar
 description: Accessibility checker in the toolbar enables you to identify and resolve accessibility related issues in a Knowledge article.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/accessibility-checker.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -27,7 +28,7 @@ Role required: user with contribute access
 
 2.  Select a Knowledge article.
 
-3.  Select the **Accessibility checker** icon ![Accessibility checker icon](../image/accessibility-checker-icon.png) in the toolbar of the article body.
+3.  Select the **Accessibility checker** icon \[Omitted image "accessibility-checker-icon.png"\] Alt text: Accessibility checker icon in the toolbar of the article body.
 
 4.  View accessibility-related issues in the **Accessibility Checker** window along with suggestions for resolution of each issue.
 

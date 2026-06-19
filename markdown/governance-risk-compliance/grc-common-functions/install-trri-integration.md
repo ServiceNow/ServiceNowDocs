@@ -2,6 +2,7 @@
 title: Install the GRC integration with Thomson Reuters Regulatory Intelligence application
 description: Install the GRC integration with Thomson Reuters Regulatory Intelligence application \(com.sn\_grc\_int\_tr\). The application includes demo data. It installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/install-trri-integration.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -39,7 +40,7 @@ The following items are installed with the GRC integration with Thomson Reuters 
 
     You can search for the application by its name or ID. If you cannot find the application, then you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -48,5 +49,5 @@ The following items are installed with the GRC integration with Thomson Reuters 
 4.  Select **Install**.
 
 
-**Parent Topic:**[GRC integration with Thomson Reuters Regulatory Intelligence](../concept/grc-trri-integration.md)
+**Parent Topic:**[GRC integration with Thomson Reuters Regulatory Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-trri-integration.md)
 

@@ -2,6 +2,7 @@
 title: List of predefined tag-based alert grouping definitions
 description: A list of the predefined alert clustering definitions provided with the Tag Based Alert Clustering Engine  application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/alert-clustering-predefined-definition-list.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -208,5 +209,5 @@ Group all alerts from the same node, created in the last 10 minutes. In new syst
 9150
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Event Management reference](event-management-reference.md)
+</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/event-management-reference.md)
 

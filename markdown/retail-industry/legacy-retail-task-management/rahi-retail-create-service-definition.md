@@ -2,6 +2,7 @@
 title: Create a service definition for multi-store cases in Retail Task Management Core
 description: Create a service definition that leverages the multi-store creation engine to create multi-store retail cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/retail-industry/legacy-retail-task-management/rahi-retail-create-service-definition.html
 release: zurich
 product: \[Legacy\] Retail Task Management
 classification: legacy-retail-task-management
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-![Creating a service definition in Retail Task Management Core.](../image/rtmc-create-service-definition.png)
+\[Omitted image "rtmc-create-service-definition.png"\] Alt text: Creating a service definition in Retail Task Management Core.
 
 ## Procedure
 
@@ -33,11 +34,11 @@ Role required: admin
 
 4.  In **Multiple case creation config**, select the Multiple Case Creation created for this service definition.
 
-    **Note:** For information, see [Create an entity in the Multiple Case Configuration table for multi-store creation in Retail Task Management Core](rahi-retail-create-entitt-multiple-case-creation.md).
+    **Note:** For information, see [Create an entity in the Multiple Case Configuration table for multi-store creation in Retail Task Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/legacy-retail-task-management/rahi-retail-create-entitt-multiple-case-creation.md).
 
 5.  Fill in other fields as needed.
 
-    For information on these fields, see [https://www.servicenow.com/docs/bundle/xanadu-customer-service-management/page/product/customer-service-management/task/create-csm-service-definition.html.](https://www.servicenow.com/docs/bundle/xanadu-customer-service-management/page/product/customer-service-management/task/create-csm-service-definition.html.).
+    For information on these fields, see .
 
 
 ## Result

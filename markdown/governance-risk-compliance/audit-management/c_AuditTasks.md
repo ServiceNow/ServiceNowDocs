@@ -2,6 +2,7 @@
 title: Audit task management
 description: Audit tasks are completed throughout an engagement and provide documented evidence that the organization is complying with external regulations and internal policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/c\_AuditTasks.html
 release: zurich
 product: Audit Management
 classification: audit-management
@@ -17,7 +18,7 @@ Audit tasks are completed throughout an engagement and provide documented eviden
 
 When audit tasks are created or reassigned, a notification is sent to the assigned user. A notification is also sent when the task reaches 75% of its planned duration.
 
-For information, see [Audit task management in Audit Workspace](../../grc-workspace-audit/concept/audit-task-mangmt-ws.md)
+For information, see [Audit task management in Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/audit-task-mangmt-ws.md)
 
-**Parent Topic:**[Manage engagements](c_Engagements.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/c_Engagements.md)
 

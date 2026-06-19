@@ -2,6 +2,7 @@
 title: Scoring assessments
 description: Scoring in Smart Assessment Engine is a systematic way to evaluate responses to various questions within an assessment. By attributing scores to answers, you can translate qualitative responses into quantitative data, offering a measurable and comparable outcome for each assessment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/smart-assessment-engine/scoring-in-assessments.html
 release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -25,7 +26,7 @@ In Smart Assessment Engine, scoring involves assigning numerical values to respo
 -   For radio question types, you can assign scores to choices and set question weights.
 -   For number question types, the assessor's numeric response is used as the score.
 
-You can also normalize the scores in which raw scores \(the actual score earned on questions\) are transformed into a standardized range or distribution. For more information, refer to [Normalization in assessment](normalization-in-assessment.md).
+You can also normalize the scores in which raw scores \(the actual score earned on questions\) are transformed into a standardized range or distribution. For more information, refer to [Normalization in assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/normalization-in-assessment.md).
 
 ## Scoring levels
 

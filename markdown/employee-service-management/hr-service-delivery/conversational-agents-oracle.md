@@ -2,6 +2,7 @@
 title: Use HCM AI agents for HR Service Delivery Advanced Integration with Oracle HCM
 description: Place requests to the Oracle system using the HR Service Delivery AI agent collection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/conversational-agents-oracle.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,7 +18,7 @@ Place requests to the Oracle system using the HR Service Delivery AI agent colle
 
 ## HCM AI agents Overview
 
-You can submit requests to the Oracle system, for example, apply for time off or update your details, using the HR Service Delivery AI agent collection in Employee Center. To access and use the HCM AI agents, ensure to [Configure HCM AI agents for HR Service Delivery Advanced Integration with Oracle HCM](../task/config-oracle-agents.md). For more information on subflow-agent mapping, see [Subflow-agent mapping for HR Service Delivery Advanced Integration with Oracle HCM](../reference/oracle-agent-mapping.md).
+You can submit requests to the Oracle system, for example, apply for time off or update your details, using the HR Service Delivery AI agent collection in Employee Center. To access and use the HCM AI agents, ensure to [Configure HCM AI agents for HR Service Delivery Advanced Integration with Oracle HCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/config-oracle-agents.md). For more information on subflow-agent mapping, see [Subflow-agent mapping for HR Service Delivery Advanced Integration with Oracle HCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/oracle-agent-mapping.md).
 
 ## Worker profile retriever AI agent
 

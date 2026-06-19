@@ -2,6 +2,7 @@
 title: System properties for Google Maps in FSM
 description: Field Service Management requires Google Maps configuration for users to view maps and operate location features properly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/configuring-google-maps-in-fsm.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -17,7 +18,7 @@ Field Service Management requires Google Maps configuration for users to view ma
 
 ## Before you begin
 
-[Set up Google Maps API](https://servicenow.com/docs/bundle/vancouver-platform-administration/page/administer/navigation-and-ui/task/set-up-google-maps-api.html)
+Set up Google Maps API
 
 Role required: wm\_admin
 

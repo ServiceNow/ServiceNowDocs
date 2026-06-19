@@ -2,6 +2,7 @@
 title: View the Event Management self-health application services map
 description: You can view Event Management application services maps to have a visualization of the data on configuration items \(CIs\) that comprise this service, and the relations and connections between these CIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/view-self-health-manual-service.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -59,7 +60,7 @@ MID Servers
 
 </td><td>
 
-MID Servers that have been validated are displayed. The MID Server status and the `Ecc_agent_issue` table are monitored. An event is triggered whenever this table is updated. The MID Server status is displayed, either **Up** or **Down**.For information about MID Server health, see [MID Server heartbeat](https://www.servicenow.com/docs/access?context=r_MIDServerHeartbeat&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+MID Servers that have been validated are displayed. The MID Server status and the `Ecc_agent_issue` table are monitored. An event is triggered whenever this table is updated. The MID Server status is displayed, either **Up** or **Down**.For information about MID Server health, see MID Server heartbeat
 
 </td></tr></tbody>
 </table>## Procedure
@@ -70,11 +71,11 @@ MID Servers that have been validated are displayed. The MID Server status and th
 
 3.  On the **Application Services** page, locate **ServiceNow Event Management** and click **View Service**.
 
-    ![Event Management health — application service](../image/application-service.png)
+    \[Omitted image "application-service.png"\] Alt text: Event Management health — application service
 
     Displayed on the map are the related MID Servers and the Event Management object, as depicted in the following image; these MID Servers have an **UP** status. MID Servers are updated when they are created or deactivated.
 
-    ![Event Management application service map](../image/view-map.png)
+    \[Omitted image "view-map.png"\] Alt text: Event Management application service map
 
     Under the Event Management object is Event Processing, Alert Processing, and Event Sources \(for example, connectors\). Only **Active** connectors are shown; when a connector is created, the connector is displayed only after it has been activated. The status of active connectors is updated and the status of non-active connectors is not displayed.
 
@@ -85,5 +86,5 @@ MID Servers that have been validated are displayed. The MID Server status and th
 
 You can select the configuration item that has a critical alert and change the impact from parent to application service.
 
-**Parent Topic:**[Self-health monitors for Event Management](../concept/self-monitoring.md)
+**Parent Topic:**[Self-health monitors for Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/self-monitoring.md)
 

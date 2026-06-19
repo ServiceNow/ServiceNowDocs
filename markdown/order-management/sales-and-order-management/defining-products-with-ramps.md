@@ -2,6 +2,7 @@
 title: Price and quantity ramps
 description: Price and quantity ramps enable sales agents to set incremental increases in product pricing and quantity deals over the duration of a customer contract or subscription period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/defining-products-with-ramps.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,11 +22,11 @@ Different product adoption scenarios by customers can affect product pricing and
 
 Ramps provide a flexible pricing structure for sales agents to schedule pricing and quantity increases over specific time periods, called ramp segments. During the quote process, sales agents can create ramps for configurable products.
 
-**Note:** Products that can have ramps must have the **Price method** set to Recurring and the **Enable ramps** option selected. Your product catalog admin sets these options when [creating a product offering](../task/som-create-product-offering.md).
+**Note:** Products that can have ramps must have the **Price method** set to Recurring and the **Enable ramps** option selected. Your product catalog admin sets these options when [creating a product offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-create-product-offering.md).
 
 The following example shows the ramp settings used to create ramps for a configurable product offering. The Price ramp details section displays the ramp segments that are generated automatically for the configurable product and its child lines.
 
-![Ramp settings for a quote line of a parent product offerings that are used to generate the ramp segments and associated pricing for the parent and child quote lines.](../image/price-ramps-quote-details.png "Ramps for a configurable product offering")
+\[Omitted image "price-ramps-quote-details.png"\] Alt text: Ramp settings for a quote line of a parent product offerings that are used to generate the ramp segments and associated pricing for the parent and child quote lines.
 
 Sales agents provide the following items to generate the ramps for a quote line:
 
@@ -81,7 +82,7 @@ Role
 
 </th></tr></thead><tbody><tr><td>
 
-[Enable ramps in product offerings](../task/som-create-product-offering.md)
+[Enable ramps in product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-create-product-offering.md)
 
 </td><td>
 
@@ -94,7 +95,7 @@ Product catalog admin
 
 </td></tr><tr><td>
 
-[Add price ramps on a quote line item](../task/add-price-ramps-on-a-quote-line-item.md)
+[Add price ramps on a quote line item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/add-price-ramps-on-a-quote-line-item.md)
 
 </td><td>
 

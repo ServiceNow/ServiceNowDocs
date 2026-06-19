@@ -1,17 +1,18 @@
 ---
-title: Create a pattern and a schedule for host-based serverless Discovery
+title: Create pattern and schedule for host-based serverless discovery
 description: To find application CIs that reside on a known host in your CMDB, create an infrastructure pattern for host-based serverless discovery. After creating the pattern, create a Discovery schedule that triggers the pattern.Discovery triggers the pattern for host-based, serverless Discovery from the schedule rather than from a classifier.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/create-pattern-for-proxy-serverless.html
 release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 2
 breadcrumb: [Serverless Discovery, Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
-# Create a pattern and a schedule for host-based serverless Discovery
+# Create pattern and schedule for host-based serverless discovery
 
 To find application CIs that reside on a known host in your CMDB, create an infrastructure pattern for host-based serverless discovery. After creating the pattern, create a Discovery schedule that triggers the pattern.
 
@@ -23,17 +24,23 @@ Role required: cloud\_admin, service\_mapping\_admin, or admin
 
 1.  Navigate to **All** &gt; **Pattern Designer** &gt; **Discovery Patterns**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Specify an **Infrastructure** type pattern with the correct CI type that applies to the CIs you want to discover.
 
-    See [Create or customize patterns](../../service-mapping/task/t_CreatePatternPatDef.md) for an explanation of all form fields.
+    See [Create or customize patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/t_CreatePatternPatDef.md) for an explanation of all form fields.
 
 4.  Create an identification section and save the pattern.
 
-5.  Add operations to the pattern to discover the CI that you can access via the host.
+5.  In the **Input Parameters** tab, add at least one input parameter and value.
 
-6.  To test the pattern, click **Debug Mode** and enter the IP address of the host.
+    For example:
+
+    -   Parameter: `ip_address`
+    -   Value: IP address of the host
+6.  Add operations to the pattern to discover the CI that you can access via the host.
+
+7.  To test the pattern, select **Debug Mode** and enter the IP address of the host.
 
 
 ## Create a schedule for host-based serverless Discovery
@@ -54,7 +61,7 @@ Role required: cloud\_admin, service\_mapping\_admin, or admin
 
 3.  Select the **Serverless** in the Discovery field.
 
-    See [Schedule a horizontal discovery](t_CreateADiscoverySchedule.md#) for explanation of other fields.
+    See [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_CreateADiscoverySchedule.md) for explanation of other fields.
 
 4.  Right-click the form header and select **Save**.
 

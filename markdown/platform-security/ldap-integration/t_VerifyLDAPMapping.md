@@ -2,6 +2,7 @@
 title: Verify LDAP mapping
 description: After creating an LDAP transform map, refresh the LDAP data to verify the transform map works as expected.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/ldap-integration/t\_VerifyLDAPMapping.html
 release: zurich
 product: LDAP integration
 classification: ldap-integration

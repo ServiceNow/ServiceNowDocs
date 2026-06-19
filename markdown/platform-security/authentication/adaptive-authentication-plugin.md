@@ -2,6 +2,7 @@
 title: Activate adaptive authentication
 description: You can activate the Adaptive Authentication plugin \(com.snc.adaptive\_authentication\) for Adaptive Authentication if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/adaptive-authentication-plugin.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -25,7 +26,7 @@ Role required: admin.
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the **Adaptive Authentication** \(com.snc.adaptive\_authentication\) plugin using the filter criteria and search bar.![Adaptive Authentication plugin](../images/adaptive-auth-plugin.png)
+2.  Find the **Adaptive Authentication** \(com.snc.adaptive\_authentication\) plugin using the filter criteria and search bar.\[Omitted image "adaptive-auth-plugin.png"\] Alt text: Adaptive Authentication plugin
 
     You can search for the plugin by its name or ID. If you cannot find a plugin, you might have to request it from ServiceNow personnel.
 
@@ -33,12 +34,12 @@ Role required: admin.
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
 ## What to do next
 
 Configure your authentication policies to enforce contextual authentication controls on your instance.
 
-Once your policies are configured. Enable adaptive authentication using the **Enable Authentication Policy** policy. For details on adaptive authentication properties, see [Configure adaptive authentication properties](configure-adaptive-auth-properties.md).
+Once your policies are configured. Enable adaptive authentication using the **Enable Authentication Policy** policy. For details on adaptive authentication properties, see [Configure adaptive authentication properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/configure-adaptive-auth-properties.md).
 

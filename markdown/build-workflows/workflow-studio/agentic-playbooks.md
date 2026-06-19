@@ -2,13 +2,14 @@
 title: Exploring Agentic Playbooks
 description: Integrate AI agents into your workflows, and enable automation, adaptability, and transparency across your business processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/agentic-playbooks.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Agentic Playbooks, Playbooks, Explore, Workflow Studio, Build workflows]
+breadcrumb: [Agentic Playbooks, Playbook, Explore, Workflow Studio, Build workflows]
 ---
 
 # Exploring Agentic Playbooks
@@ -30,7 +31,7 @@ Agentic Playbooks bring the following benefits:
 
 ## AI agents and their skills
 
-Agentic Playbooks are powered by the **Playbook Activity Assist** agentic workflow \(See: [Now Assist agentic workflows](https://www.servicenow.com/docs/access?context=sn-aia-use-cases-list&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)\). The workflow contains a range of AI agents designed to enhance user experience and productivity. These agents are categorized based on their functionality and the tasks they perform.
+Agentic Playbooks are powered by the **Playbook Activity Assist** agentic workflow \(See: \). The workflow contains a range of AI agents designed to enhance user experience and productivity. These agents are categorized based on their functionality and the tasks they perform.
 
 -   **Playbook data gathering agent**
 
@@ -50,7 +51,7 @@ Knowledge Graph TextToResult API Crawler
 
 </td><td>
 
-Gathers data by using ServiceNow Knowledge Graph.You can also use a custom knowledge graph schema for the agent. To know more about knowledge graphs, see [Exploring Knowledge Graph](https://www.servicenow.com/docs/access?context=exploring-knowledge-graph&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)
+Gathers data by using ServiceNow Knowledge Graph.You can also use a custom knowledge graph schema for the agent. To know more about knowledge graphs, see 
 
 </td></tr><tr><td>
 
@@ -107,13 +108,13 @@ Uses web search tools to assist users in resolving issues by analyzing problems 
     |Playbook slot filling script|Fetches the relevant schema required to understand and execute the playbook based on the playbook activity context ID and saves the agent response back to the activity context using the activity context ID. It also consolidates activity form fields and UI visible fields under the schema.|
 
 
-For more information about Now Assist AI agents and their capabilities, refer to [Now Assist AI agents](https://www.servicenow.com/docs/access?context=na-ai-agents&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+For more information about Now Assist AI agents and their capabilities, refer to .
 
 ## User personas
 
-If you're a playbook author and want to configure activities to be performed by AI agents, see [Configuring Agentic Playbooks](../task/configure-agentic-playbooks.md).
+If you're a playbook author and want to configure activities to be performed by AI agents, see [Configuring Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/configure-agentic-playbooks.md).
 
-If you're an agent running a playbook, see [Using Agentic Playbooks](../task/running-agentic-activities.md).
+If you're an agent running a playbook, see [Using Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/running-agentic-activities.md).
 
-**Parent Topic:**[Agentic Playbooks](agentic-playbooks-landing.md)
+**Parent Topic:**[Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/agentic-playbooks-landing.md)
 

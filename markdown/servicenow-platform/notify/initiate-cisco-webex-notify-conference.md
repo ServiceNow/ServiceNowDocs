@@ -2,6 +2,7 @@
 title: Initiate Notify Cisco Webex conference from MIM workbench
 description: Initiate a Webex conference from the MIM workbench to work towards the resolution of the major incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/notify/initiate-cisco-webex-notify-conference.html
 release: zurich
 product: Notify
 classification: notify
@@ -88,5 +89,5 @@ Option to provide an opening message to the user before beginning the interactio
     You can also click the link from the workbench to begin the Webex conference call.
 
 
-**Parent Topic:**[Using the Notify Cisco Webex Connector with a major incident](../concept/use-cisco-webex-notify-mi.md)
+**Parent Topic:**[Using the Notify Cisco Webex Connector with a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/use-cisco-webex-notify-mi.md)
 

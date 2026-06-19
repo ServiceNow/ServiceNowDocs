@@ -2,6 +2,7 @@
 title: GitHub Actions Workflows by Cloud Services Catalog
 description: GitHub Actions workflows by Cloud Services Catalog uses automated Continuous Integration-Continuous Deployment \(CI/CD\) workflows to enable the rapid deployment of build requests to production environments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/github-actions-workflows-by-cloud-services-catalog.html
 release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -25,5 +26,5 @@ When used within Cloud Services Catalog, GitHub Actions offers expanded capabili
 -   Step with approval: A workflow includes a step that waits for approval. Control over this step is not available.
 -   The process does not discover repository secrets accessed by workflow steps.
 
-**Parent Topic:**[Integrating GitHub Actions with Cloud-Services-Catalog](integrating-github-actions-with-cloud-service-catalog.md)
+**Parent Topic:**[Integrating GitHub Actions with Cloud-Services-Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/integrating-github-actions-with-cloud-service-catalog.md)
 

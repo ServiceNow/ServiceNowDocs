@@ -2,6 +2,7 @@
 title: Review a fallout record
 description: Review a fallout record to make sure that the detailed information is correct and complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/select-order-fallout-records-review.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -27,7 +28,7 @@ You select fallout records to review in CSM Configurable Workspace. You can also
 
 1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Fallouts** &gt; **All**.
 
@@ -35,14 +36,14 @@ You select fallout records to review in CSM Configurable Workspace. You can also
 
 4.  Select the fallout record you want to view.
 
-    For information about field descriptions, see the Fallout workspace fields section in [Fallout form fields](../reference/fields-create-fallout-form.md).
+    For information about field descriptions, see the Fallout workspace fields section in [Fallout form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/fields-create-fallout-form.md).
 
 5.  To view the associated order line item, select **Open Context Record**.
 
 
 ## What to do next
 
-[Update a fallout record](review-update-selected-order-fallout-records.md)
+[Update a fallout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/review-update-selected-order-fallout-records.md)
 
-**Parent Topic:**[Managing order fallout](../concept/fallout-management-overview.md)
+**Parent Topic:**[Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/fallout-management-overview.md)
 

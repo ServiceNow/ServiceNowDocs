@@ -2,7 +2,10 @@
 title: Set up a record generator for case type
 description: Create a record for a case type by using a playbook record generator. With a record generator, the system creates a record as the first step in the playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/setup-record-generator-for-case-type.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ Role required: playbook\_experience.admin
 
 ## About this task
 
-A record generator is set up for a specific table. You can specify the name of the record generator activity, the form view, and the playbook that a user sees before a record is created. You can also configure the declarative action that are used to submit the form. For more information on declarative actions, see [Declarative actions](../concept/migration-form-declarative-actions.md).
+A record generator is set up for a specific table. You can specify the name of the record generator activity, the form view, and the playbook that a user sees before a record is created. You can also configure the declarative action that are used to submit the form. For more information on declarative actions, see [Declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/migration-form-declarative-actions.md).
 
 ## Procedure
 

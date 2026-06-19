@@ -2,6 +2,7 @@
 title: Components installed with HR Predictive Intelligence Workbench
 description: Several types of components are installed with activation of the HR Predictive Intelligence Workbench HRSD content plugin \[com.sn\_piwb\_hrsd\_content\] plugin, including user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/installed-with-HRSD-WB.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -45,5 +46,5 @@ With this role, you can:-   Configure Predictive Intelligence Workbench property
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate HR Predictive Intelligence Workbench](../task/activate-HRSD-WB.md)
+</table>**Parent Topic:**[Activate HR Predictive Intelligence Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/activate-HRSD-WB.md)
 

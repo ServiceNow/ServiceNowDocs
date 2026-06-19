@@ -2,6 +2,7 @@
 title: HR Service Delivery Portal UI Components
 description: The ServiceNow HR Service Delivery Portal UI Components application contains common widgets, such as Direct Deposits, Holiday Calendar, Time Off Balances, and Total Rewards widgets that be used with any HR application.Add the HR Portal Components, such as Direct Deposits, Holiday Calendar, Time Off Balances, and Total Rewards widgets that can be used with any HR application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/portal-components.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,7 +26,7 @@ Add the HR Portal Components, such as Direct Deposits, Holiday Calendar, Time Of
 
 ### Before you begin
 
-Role required: admin
+Role required: sn\_hr\_oracle\_adv.admin, sn\_hr\_workday.admin
 
 ### Procedure
 
@@ -33,6 +34,6 @@ Role required: admin
 
 2.  Embed the HR Portal Components widget in the main widget of your application by passing the source.
 
-    A source refers to the system of data for these widgets, for example, Oracle or Workday. The HR Service Delivery Portal UI Components application uses scripted extension points to provide an implementation to fetch data based on the source that is passed through outer widgets. For more information on how to embed widgets, see [Embedded widgets](https://www.servicenow.com/docs/access?context=c_NestedWidgets&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    A source refers to the system of data for these widgets, for example, Oracle or Workday. The HR Service Delivery Portal UI Components application uses scripted extension points to provide an implementation to fetch data based on the source that is passed through outer widgets. For more information on how to embed widgets, see Embedded widgets.
 
 

@@ -2,6 +2,7 @@
 title: Cancel a code review request
 description: Developers can cancel any push they submitted that is in the Awaiting Code Review stage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/t\_CancelACodeReviewRequest.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -38,5 +39,5 @@ Canceling a request sets the push to the **Code Review Request Cancelled** stage
 5.  Select **Cancel Code Review**.
 
 
-**Parent Topic:**[Code reviews](../concept/c_CodeReview.md)
+**Parent Topic:**[Code reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_CodeReview.md)
 

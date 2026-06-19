@@ -2,11 +2,12 @@
 title: Viewing cloud assets
 description: This page displays the Cloud assets view. It lists all compute assets across connected cloud providers such as AWS, Azure, GCP, and OCI along with location, cloud account, installation status, owner, discovered dates, ownership attestation, and cost center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/viewing-cloud-assets.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Viewing Cloud Account Management dashboards, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -17,13 +18,15 @@ This page displays the Cloud assets view. It lists all compute assets across con
 
 As an admin, you can access the dashboard by navigating to **All** &gt; **Cloud Workspace** &gt; **Monitor and track**
 
-![Cloud assets](../image/cloud-assets.png "Cloud assets")
+\[Omitted image "cloud-assets.png"\] Alt text: Cloud assets
 
 Click the respective name to view the details.
 
-![View cloud asset details](../image/cloud-asset-details.png "View cloud asset details")
+**Note:** Duplicate LDC entries no longer appear in the Region filter in Cloud Asset Explorer. After upgrading your instance to the latest version, the Region filter may be empty until the background job completes its initial run. Depending on data volume, this can take several hours. The job runs approximately every 30 minutes automatically.
+
+\[Omitted image "cloud-asset-details.png"\] Alt text: cloud asset details
 
 In Asset Explorer, retired configuration items \(CIs\) remain in the asset table as long as they exist in the CMDB, even after retirement. To manage this, users can configure a custom retention period \(in seconds\) that automatically removes retired CIs from the asset table after the defined duration. For example, setting the property to 86,400 seconds \(1 day\) ensures that a retired CI is removed from the asset table one day after retirement, even though it may continue to exist in the CMDB. This helps improve performance for high-volume environments by ensuring that only active CIs remain in the asset table.
 
-For more information about the various sections, see [Managing the Cloud Workspace asset details](manage-cam-ci-details.md).
+For more information about the various sections, see [Managing the Cloud Workspace asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/manage-cam-ci-details.md).
 

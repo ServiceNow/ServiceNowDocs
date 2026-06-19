@@ -2,11 +2,12 @@
 title: Add products to a lead
 description: Use the Catalog tab in the Lead Management to add products to your lead.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/lead-management-add-product.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Lead Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
@@ -25,7 +26,7 @@ You can use the Catalog tab to search for and select product offerings from cata
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![image.Lists] view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Leads** &gt; **All** and , select the lead that you’re working with.
 
@@ -46,7 +47,7 @@ You can use the Catalog tab to search for and select product offerings from cata
 
 ## What to do next
 
-[Add line items to a lead](lead-management-use-line-items-tab.md).
+[Add line items to a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/lead-management-use-line-items-tab.md).
 
-**Parent Topic:**[Using Lead Management](../concept/lead-management-using.md)
+**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/lead-management-using.md)
 

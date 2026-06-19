@@ -2,6 +2,7 @@
 title: Move a Visual Task Board card to a different lane
 description: You can move a card from one lane to another on a Visual Task Board.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/visual-task-boards/t\_MoveACardToADifferentLane.html
 release: zurich
 product: Visual Task Boards
 classification: visual-task-boards
@@ -38,5 +39,5 @@ When you move a card to a different lane on a guided board, the field on which t
     If you get an error message saying **You do not have the permission to modify this record**, create system property `glide.vtb.enable_list_edit_acl` and setting it to **false**.
 
 
-**Parent Topic:**[Working with Visual Task Board cards](../reference/r_TaskCards.md)
+**Parent Topic:**[Working with Visual Task Board cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/r_TaskCards.md)
 

@@ -2,6 +2,7 @@
 title: Submit combined assessments
 description: Combine your Smart Assessment Engine assessments so you can respond to all of them together. You can also configure your responses to replicate automatically across all applicable assessments so you don't need to fill them in manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/smart-assessment-engine/sae-asmnt-combine.html
 release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -30,7 +31,7 @@ Submitting combined assessments
     Here’s an example of how to navigate to this list in the Compliance Workspace.
 
     1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
-    2.  Select the tasks icon ![](../image/task-icon.png).
+    2.  Select the tasks icon \[Omitted image "task-icon.png"\] Alt text:.
     3.  Select the Control attestations on the left panel.
     4.  In the My pending tasks related list, the assessments are displayed.
 2.  Select the assessments that you want to combine.
@@ -43,7 +44,7 @@ Submitting combined assessments
 
     2.  Copy your responses across all combined assessments by turning on the **Enable auto copy** toggle switch.
 
-        -   The auto-copy feature is activated when the combined assessment is created and can’t be changed later. For more details, refer to [Combining assessments and copying responses](../concept/combine-assessments.md).
+        -   The auto-copy feature is activated when the combined assessment is created and can’t be changed later. For more details, refer to [Combining assessments and copying responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/combine-assessments.md).
         -   The auto-copy feature is available only when combined assessments originate from the same template. If the assessments are from different templates, the auto-copy feature remains disabled and cannot be activated.
 5.  Select **Continue**.
 

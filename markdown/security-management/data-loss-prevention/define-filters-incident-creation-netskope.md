@@ -2,6 +2,7 @@
 title: Define Filters to apply for the Incident creation
 description: Define and set filter conditions to filter the incoming  Netskope DLP  incidents. Control which of these incidents should be created as DLP incidents on your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/data-loss-prevention/define-filters-incident-creation-netskope.html
 release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -38,5 +39,5 @@ This type of filtering helps you to isolate DLP incidents and to limit the numbe
 4.  Click **Continue** and move to the Scheduling section.
 
 
-**Parent Topic:**[Create a Profile for Netskope DLP integration](create-profile-netskope-dlp-integration.md)
+**Parent Topic:**[Create a Profile for Netskope DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/create-profile-netskope-dlp-integration.md)
 

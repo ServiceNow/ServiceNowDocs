@@ -2,6 +2,7 @@
 title: Configure a business domain role in Management Reporting of Risk
 description: Configure the business domain roles so that users of a particular domain can select the domain for which they want to import the data. Only those users who are added during the configuration are able to view the domain on the Microsoft Word document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/configure-a-business-domain-role-in-management-reporting-of-risk.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace

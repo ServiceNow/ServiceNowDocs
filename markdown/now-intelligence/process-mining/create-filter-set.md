@@ -2,6 +2,7 @@
 title: Create a filter set
 description: Create a filter set to be able to apply your current filter selections to the same process map later.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/create-filter-set.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -32,12 +33,12 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 The Filter set list contains the new filter set.
 
--   **[Update a filter set](update-filter-set.md)**  
+-   **[Update a filter set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/update-filter-set.md)**  
 Edit any saved filter.
--   **[Clear filters](clear-filters.md)**  
+-   **[Clear filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/clear-filters.md)**  
 Remove applied filters.
--   **[Delete a filter set](delete-filter-set.md)**  
+-   **[Delete a filter set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/delete-filter-set.md)**  
 Delete a filter set when it's no longer useful for your project.
 
-**Parent Topic:**[Filtering project data](filter-project.md)
+**Parent Topic:**[Filtering project data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/filter-project.md)
 

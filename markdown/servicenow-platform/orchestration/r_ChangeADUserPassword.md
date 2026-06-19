@@ -2,6 +2,7 @@
 title: Change AD User Password activity
 description: The Change AD User Password activity changes the password for an Active Directory user account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/orchestration/r\_ChangeADUserPassword.html
 release: zurich
 product: Orchestration
 classification: orchestration
@@ -15,11 +16,11 @@ breadcrumb: [Active Directory activity pack, Orchestration activity packs, Class
 
 The Change AD User Password activity changes the password for an Active Directory user account.
 
-This activity requires the user's current password to run, unlike the [**Reset AD User Password**](r_ResetADUserPassword.md) activity. If the new password violates any Active Directory password requirements, such as length or character combinations, the activity fails and returns the appropriate error message. This error message appears in the ECC queue and in hint text when a user points to the activity in the Workflow Editor.
+This activity requires the user's current password to run, unlike the [**Reset AD User Password**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/r_ResetADUserPassword.md) activity. If the new password violates any Active Directory password requirements, such as length or character combinations, the activity fails and returns the appropriate error message. This error message appears in the ECC queue and in hint text when a user points to the activity in the Workflow Editor.
 
 To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Active Directory**.
 
-**Note:** This activity replaces an AD activity by the same name available in prior releases. If you have a workflow that uses the deprecated activity, your workflow will continue to work normally after upgrading to Instanbul. However, all new workflows must use the custom version of this activity, which was built with the [PowerShell activity designer](../../orchestration-activity-designer/concept/c_PowershellActivityDesigner.md).
+**Note:** This activity replaces an AD activity by the same name available in prior releases. If you have a workflow that uses the deprecated activity, your workflow will continue to work normally after upgrading to Instanbul. However, all new workflows must use the custom version of this activity, which was built with the [PowerShell activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_PowershellActivityDesigner.md).
 
 ## Input variables
 
@@ -57,7 +58,7 @@ errorMessage
 
 </td><td>
 
-The **executionResult.errorMessages** from the [Activity designer parsing sources](../../orchestration-activity-designer/task/t_CreateAParsingRule.md#).
+The **executionResult.errorMessages** from the [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateAParsingRule.md).
 
 </td></tr><tr><td>
 
@@ -81,7 +82,7 @@ The activity provides the following conditions:
 
 ## Active Directory credentials with LDAP
 
-If you are using an LDAP Server with MID Servers, note that Orchestration and Active Directory activities do not use the user name and password configured on LDAP Servers. You must create a [Windows type orchestration credential record](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=zurich&pubname=zurich-platform-security&ft:locale=en-US). The username and password in the credentials record is used for LDAP queries that Orchestration and workflow activities perform.
+If you are using an LDAP Server with MID Servers, note that Orchestration and Active Directory activities do not use the user name and password configured on LDAP Servers. You must create a Windows type orchestration credential record Windows credentials. The username and password in the credentials record is used for LDAP queries that Orchestration and workflow activities perform.
 
-**Parent Topic:**[Active Directory activity pack](../concept/c_OrchActiveDirectoryActivities.md)
+**Parent Topic:**[Active Directory activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_OrchActiveDirectoryActivities.md)
 

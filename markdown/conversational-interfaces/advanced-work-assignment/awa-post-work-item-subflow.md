@@ -2,6 +2,7 @@
 title: AWA post work item subflow
 description: Configure the base system AWA post work item subflow by defining the input in Workflow Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/awa-post-work-item-subflow.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -31,7 +32,7 @@ Role required: admin
 
 4.  Select **Template: AWA post work item**.
 
-5.  In the subflow header, select the more actions icon \(![More actions icon](../image/awa-more-actions.png)\) and then **Copy subflow.**
+5.  In the subflow header, select the more actions icon \(\[Omitted image "awa-more-actions.png"\] Alt text: More actions icon\) and then **Copy subflow.**
 
 6.  On the Create a copy of this subflow dialog, enter a unique and descriptive name for the copied subflow in the **New subflow name** field.
 
@@ -41,9 +42,9 @@ Role required: admin
 
 8.  You can customize the subflow by doing one of the following:
 
-    -   Integrate with a third-party system by adding an action with a spoke from the Integration Hub \(for more information, see [Spokes](https://www.servicenow.com/docs/access?context=spokes&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)\)
-    -   Use a REST action step and call the external endpoint \(for more information, see [REST step](https://www.servicenow.com/docs/access?context=rest-request-action-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)\).
-    -   Call a REST message in the subflow itself \(for more information, see [Outbound REST Web Service](https://www.servicenow.com/docs/access?context=c_OutboundRESTWebService&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)\).
+    -   Integrate with a third-party system by adding an action with a spoke from the Integration Hub \(for more information, see Spokes\)
+    -   Use a REST action step and call the external endpoint \(for more information, see REST step\).
+    -   Call a REST message in the subflow itself \(for more information, see Outbound REST Web Service\).
 
-**Parent Topic:**[Configuring Advanced Work Assignment](installing-awa.md)
+**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

@@ -2,6 +2,7 @@
 title: Clear filters
 description: Remove applied filters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/clear-filters.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -21,7 +22,7 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 As you add filters from the Filters tab, a list of selected filters shows you new values currently selected but not yet applied. The Applied filters list also shows currently applied filter values and the panel categories they were added from.
 
-![Selected filters list](../image/selected-filters-list.png)
+\[Omitted image "selected-filters-list.png"\] Alt text: Selected filters list
 
 ## Procedure
 
@@ -38,5 +39,5 @@ As you add filters from the Filters tab, a list of selected filters shows you ne
 
 The process map automatically refreshes with previously applied filters removed.
 
-**Parent Topic:**[Create a filter set](create-filter-set.md)
+**Parent Topic:**[Create a filter set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/create-filter-set.md)
 

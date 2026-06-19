@@ -2,6 +2,7 @@
 title: Example: Use a custom field to dynamically control set size
 description: This example demonstrates how to hide a standard field and replace it with a custom field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/example-use-a-custom-field-to-dynamically-control-set-size.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -19,7 +20,7 @@ This example demonstrates how to hide a standard field and replace it with a cus
 
 This article demonstrates how to hide the Size field \(shown below\) on a layout and replace it with a different field. A rule populates the value from the new field into the hidden field.
 
-![User interface](../images/cpq-layout-size.png)
+\[Omitted image "cpq-layout-size.png"\] Alt text: User interface
 
 ## Before you begin
 
@@ -29,15 +30,15 @@ Role required: Admin
 
 1.  In the layout wizard, turn off the Show Size Field setting.
 
-    ![Size settings](../images/cpq-layout-wizard-settings-show-size-field.png)
+    \[Omitted image "cpq-layout-wizard-settings-show-size-field.png"\] Alt text: Size settings
 
-    Although the set size field still exists, it no longer appears in the layout. For more information about sets and layouts, see [Using sets in layouts](layouts-sets.md).
+    Although the set size field still exists, it no longer appears in the layout. For more information about sets and layouts, see [Using sets in layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/layouts-sets.md).
 
 2.  Create your replacement number field and add it to the layout.
 
     You can change the display type as desired. In the example below, we created a number field using a slider.
 
-    ![User interface](../images/cpq-layout-new-number-field-with-slider.png)
+    \[Omitted image "cpq-layout-new-number-field-with-slider.png"\] Alt text: User interface
 
     The final task is to create a rule to take the value from the new field and enter it into the \(hidden\) Size field.
 
@@ -54,7 +55,7 @@ Role required: Admin
     return cfg.numberOfHardDrives;
     ```
 
-    ![Determination action](../images/cpq-layout-determination-action.png)
+    \[Omitted image "cpq-layout-determination-action.png"\] Alt text: Determination action
 
 4.  Deploy and test your updated blueprint.
 

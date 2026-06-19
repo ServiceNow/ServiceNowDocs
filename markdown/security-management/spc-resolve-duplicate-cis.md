@@ -2,6 +2,7 @@
 title: Resolve duplicate configuration items in Security Posture Control
 description: Use this process to remove duplicate configuration items in the SPC Cached Assets \[sn\_sec\_spc\_core\_asset\_cache\] table. This process removes duplicate records and preserves the master, or canonical, asset record that has the most related items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/spc-resolve-duplicate-cis.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -25,7 +26,7 @@ Roles required: sn\_cmdb\_user for access to the CMDB Workspace and sn\_sec\_spc
 
     This is a configurable value on the property that specifies whether all configuration items listed in your CMDB or Asset Cache table have unique names.
 
-    See [Resolving duplicate configuration items in Security Posture Control](spc-using-dedup-template.md) for more information about how to identify duplicate CIs.
+    See [Resolving duplicate configuration items in Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-using-dedup-template.md) for more information about how to identify duplicate CIs.
 
 3.  Select the record to open it and set the Value field to **true**.
 

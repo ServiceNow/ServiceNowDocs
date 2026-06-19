@@ -2,6 +2,7 @@
 title: Service Observability data mapping form
 description: Field descriptions for the Observability data mapping form. Use this form to map activated services in Service Observability to metrics from your observability instance. Each service can be mapped only once, but can contain exceptions to include all related entities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-observability/observability-data-mapping-form.html
 release: zurich
 product: Service Observability
 classification: service-observability
@@ -37,7 +38,7 @@ Services
 
 </td><td>
 
-Service to use for this mapping. Each service can be mapped only once. For version 1.5.0 of Service Observability, services must be activated to be mapped. To activate a service, see [Activate teams and services](../concept/activate-teams-and-services.md).
+Service to use for this mapping. Each service can be mapped only once. For version 1.5.0 of Service Observability, services must be activated to be mapped. To activate a service, see [Activate teams and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/activate-teams-and-services.md).
 
 </td></tr><tr><td colspan="2">
 
@@ -49,7 +50,7 @@ Find metrics from this source
 
 </td><td>
 
-Existing data connection to use for metrics. To add a connection, see [Connect a Service Observability data source](../task/connect-an-observability-data-source.md).
+Existing data connection to use for metrics. To add a connection, see [Connect a Service Observability data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/connect-an-observability-data-source.md).
 
 </td></tr><tr><td>
 
@@ -85,7 +86,7 @@ Find metrics from this source
 
 </td><td>
 
-Existing data connection to use for metrics. To add a connection, see [Connect a Service Observability data source](../task/connect-an-observability-data-source.md).
+Existing data connection to use for metrics. To add a connection, see [Connect a Service Observability data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/connect-an-observability-data-source.md).
 
 </td></tr><tr><td>
 
@@ -104,5 +105,5 @@ source tag value
 Value that represents the service name. Values can be strings or a variable that represents fields on the CI for the service.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Observability reference](service-observability-reference.md)
+</table>**Parent Topic:**[Service Observability reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/service-observability-reference.md)
 

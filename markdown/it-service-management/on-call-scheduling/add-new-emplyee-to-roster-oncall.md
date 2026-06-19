@@ -2,6 +2,7 @@
 title: Add a new or returning employee to a roster
 description: You can add a new employee or an employee who had previously been a member to a roster.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/on-call-scheduling/add-new-emplyee-to-roster-oncall.html
 release: zurich
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -25,7 +26,7 @@ Role required: rota\_manager, rota\_admin, or admin
 
 2.  Open the required shift form.
 
-3.  In the Rosters related list, click the information icon \( ![Information icon.](../image/icon-information.png) \) for the roster to which you want to add a member.
+3.  In the Rosters related list, click the information icon \( \[Omitted image "icon-information.png"\] Alt text: Information icon. \) for the roster to which you want to add a member.
 
 4.  Click **Open Record**.
 
@@ -97,5 +98,5 @@ Roster from which you navigated to the form.
     **Note:** For a returning employee: The instance displays two shift member records for the same employee with different start and end validity dates.
 
 
-**Parent Topic:**[Managing roster members](../concept/managing-roster-members.md)
+**Parent Topic:**[Managing roster members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/managing-roster-members.md)
 

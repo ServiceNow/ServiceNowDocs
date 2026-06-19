@@ -2,6 +2,7 @@
 title: Submit a digital forensic request
 description: Submit a legal request to access data of current or former employees for internal investigation or litigation reasons.Add a custodian and related data source details in your digital forensic request.Add a non-custodial data and related search source details in your digital forensic request.Upload a Microsoft Excel or CSV file containing custodial and non-custodial data to quickly add multiple records in a digital forensic request in one go.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/submit-legal-dft-request.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -21,17 +22,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 1.  Navigate to **All** &gt; **Employee Center**.
 
-    **Note:** If you are using Legal Service Portal, you can submit a legal request by navigating to the Legal Service Portal portal and selecting a request from the **Service Catalog**.
+    **Note:** If you are using Legal Service Portal, you can submit a legal request by navigating to the Legal Service Portal and selecting a request from the **Service Catalog**.
 
-2.  Select **Legal services** from the header.
+2.  Navigate to **Help center** &gt; **Legal services**.
 
-3.  Select **Browse Legal services**.
+3.  Search for the digital forensic request item.
 
-4.  Search for the digital forensic request item.
+4.  Click **Digital Forensic Request**.
 
-5.  Click **Digital Forensic Request**.
-
-6.  On the form, fill in the fields.
+5.  On the form, fill in the fields.
 
 <table id="table_DFT_request_form"><thead><tr><th>
 
@@ -94,7 +93,7 @@ Custodial data
 
 </td><td>
 
-Employees on whose data you are requesting the investigation. Also provide other investigation details for a custodian—search keywords, data sources, and search period.For more information, see [Add a custodian to a digital forensic request](submit-legal-dft-request.md#).
+Employees on whose data you are requesting the investigation. Also provide other investigation details for a custodian—search keywords, data sources, and search period.For more information, see [Add a custodian to a digital forensic request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/submit-legal-dft-request.md).
 
 </td></tr><tr><td>
 
@@ -102,7 +101,7 @@ Non-custodial data
 
 </td><td>
 
-Resources and assets, such as server, laptop, mobile, or cloud storage, on which you are requesting the investigation. Also provide other investigation details for a non-custodian—search keywords, data sources, and search period.For more information, see [Add a non-custodial data to a digital forensic request](submit-legal-dft-request.md#).
+Resources and assets, such as server, laptop, mobile, or cloud storage, on which you are requesting the investigation. Also provide other investigation details for a non-custodian—search keywords, data sources, and search period.For more information, see [Add a non-custodial data to a digital forensic request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/submit-legal-dft-request.md).
 
 </td></tr><tr><td>
 
@@ -110,7 +109,7 @@ Bulk upload
 
 </td><td>
 
-Export multiple custodian and non-custodial data from a file.For more information on uploading the data from a file, see [Add custodial and non-custodial data from a file](submit-legal-dft-request.md#).
+Export multiple custodian and non-custodial data from a file.For more information on uploading the data from a file, see [Add custodial and non-custodial data from a file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/submit-legal-dft-request.md).
 
 </td></tr><tr><td>
 
@@ -149,7 +148,7 @@ Preferred completion date and time
 Date by which the investigation must be complete. The date and time is based on the time zone you are in while requesting.
 
 </td></tr></tbody>
-</table>7.  Click **Submit**.
+</table>6.  Click **Submit**.
 
 
 ## Result
@@ -164,26 +163,26 @@ Date by which the investigation must be complete. The date and time is based on 
     -   Custodial data: View existing custodial details. You can also export the data to a file.
     -   Non-custodial data: View existing non-custodial details. You can also export the data to a file.
     -   Request Details: Review request details.
--   If you [uploaded custodial and non-custodial data from an Excel or CSV file](submit-legal-dft-request.md#), the file is attached as a reference document to the request.
+-   If you [uploaded custodial and non-custodial data from an Excel or CSV file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/submit-legal-dft-request.md), the file is attached as a reference document to the request.
 
     The number of records successfully uploaded from the file into the request is posted as additional comments in the Activity tab on the Standard Ticket page.
 
-    If a record from the file isn't added to the request, an error log file is added in the Activity tab. You can review the reason for failure in the error log file, fix the errors in your file, and upload it again by [editing the request](modify-legal-dft-request.md).
+    If a record from the file isn't added to the request, an error log file is added in the Activity tab. You can review the reason for failure in the error log file, fix the errors in your file, and upload it again by [editing the request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/modify-legal-dft-request.md).
 
 -   For each custodian added in the request, a record is created in the Custodial Data \[sn\_lg\_forensics\_custodial\_data\] table. If a legal profile record for each custodian is not already present in the Legal Profile \[sn\_lg\_ops\_legal\_profile\] table, a corresponding record is created.
 -   For each non-custodial data added in the request, a record is created in the Non Custodial Data \[sn\_lg\_forensics\_non\_custodial\_data\] table.
 
 ## What to do next
 
-On the Standard Ticket page, you can update request details, add comments, manage custodial and non-custodial data, upload supporting documents, or cancel the request. For more information, see [Update a submitted digital forensic request](modify-legal-dft-request.md).
+On the Standard Ticket page, you can update request details, add comments, manage custodial and non-custodial data, upload supporting documents, or cancel the request. For more information, see [Update a submitted digital forensic request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/modify-legal-dft-request.md).
 
-Any member from the digital forensic team can triage and assign the request to themselves or to any other member in the group. Once the request is assigned, an approval flow is triggered. The flow creates an approval record for each custodial and non-custodial added in the digital forensic request. These approval records are assigned to the privacy team in the legal department. Any member from the legal privacy team can approve the request. After the approval, a digital forensic team member to whom the legal request is assigned can start working on the request. For more information, see [Work on a digital forensic request](work-on-legal-dft-request.md).
+Any member from the digital forensic team can triage and assign the request to themselves or to any other member in the group. Once the request is assigned, an approval flow is triggered. The flow creates an approval record for each custodial and non-custodial added in the digital forensic request. These approval records are assigned to the privacy team in the legal department. Any member from the legal privacy team can approve the request. After the approval, a digital forensic team member to whom the legal request is assigned can start working on the request. For more information, see [Work on a digital forensic request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/work-on-legal-dft-request.md).
 
 **Note:**
 
 The approval details appear under the **Approvals** tab on the Standard Ticket page.
 
-**Parent Topic:**[Submitting digital forensics requests](../concept/submitting-legal-dft-request.md)
+**Parent Topic:**[Submitting digital forensics requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/submitting-legal-dft-request.md)
 
 ## Add a custodian to a digital forensic request
 

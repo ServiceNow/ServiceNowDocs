@@ -2,12 +2,13 @@
 title: Standard chat
 description: Now Assist in Virtual Agent standard chat is a conversational support experience within a static chat window.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/now-assist-in-virtual-agent/nava-standard-chat.html
 release: zurich
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: concept
 last_updated: "2025-03-19"
-reading_time_minutes: 13
+reading_time_minutes: 12
 keywords: [Using, Now Assist, Virtual Agent, AI Search, Multi-turn catalog ordering, genius results, generative AI]
 breadcrumb: [Using Now Assist in Virtual Agent, Now Assist in Virtual Agent, Conversational Interfaces]
 ---
@@ -18,7 +19,7 @@ Now Assist in Virtual Agent standard chat is a conversational support experience
 
 Now Assist in Virtual Agent enhances the user experience by combining AI Search with generative AI chat skills. These skills can speed up issue resolution and reduce deflection to a live agent.
 
-**Note:** For more information about selecting a chat experience in the admin guided setup, see [Display your chat assistant on a portal, channel, or mobile app](../task/display-assistant-portal-channel.md).
+**Note:** For more information about selecting a chat experience in the admin guided setup, see [Display your chat assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
 
 Now Assist in Virtual Agent provides your users with an interactive generative AI experience. A friendly, natural language conversation is easier to understand and helps users to be more comfortable with chatting with a bot.
 
@@ -28,7 +29,7 @@ The following sections highlight how a conversation powered by generative AI mig
 
 The following figure shows an example of the beginning of a new conversation.
 
-![Now Assist greeting in the Virtual Agent chat widget. The user entered "new email."](../image/single-turn-example1.png "Now Assist greeting")
+\[Omitted image "single-turn-example1.png"\] Alt text: Now Assist greeting in the Virtual Agent chat widget. The user entered "new email."
 
 <table id="table_zk1_t2w_jzb"><thead><tr><th>
 
@@ -67,13 +68,13 @@ While the LLM processes the utterance, an animated avatar appears alongside late
 </td></tr></tbody>
 </table>## Chatting with the Virtual Agent
 
-After the user enters an utterance and a search result is found, a synthesized response may appear. A synthesized response includes a brief summary of the requested information and search results along with Genius Results. For more information on how these search results are found, see [Now Assist Actions Genius Results](https://www.servicenow.com/docs/access?context=now-assist-catalog-ordering-gr&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) and [Now Assist Q&amp;A Genius Results](https://www.servicenow.com/docs/access?context=now-assist-qna-genius-results&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+After the user enters an utterance and a search result is found, a synthesized response may appear. A synthesized response includes a brief summary of the requested information and search results along with Genius Results. For more information on how these search results are found, see  and .
 
 If multiple results are found, they are presented to users, and users can view inline citations and/or the Sources section at the bottom of the synthesized response. Users can view Knowledge Base articles, Virtual Agent topics, subflows or actions, external content, people citations, and complete catalog request items. Virtual Agent can only return available catalog items that match a user's request when the Now Assist Multi-Turn Catalog Ordering skill is enabled. Users can follow up on a synthesized response and receive an answer that considers the previous context. For example, if you previously were chatting about the company's travel policy and then enter `International`, the system recognizes that you’re wanting additional information on the company's international travel policy.
 
-**Note:** For full catalog functionality in the chat window, enable the generative AI experience for catalog item request submissions. For more information, see [Configure Now Assist in Conversational Catalog Request](../task/configure-gen-ai-catalog-item.md).
+**Note:** For full catalog functionality in the chat window, enable the generative AI experience for catalog item request submissions. For more information, see [Configure Now Assist in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-gen-ai-catalog-item.md).
 
-Whenever a single Virtual Agent topic is found within a synthesized response, users are brought directly into that action's flow. You may consider bypassing the synthesized response and options by automatically launching catalog items, too. For more information on automatically launching single search result actions, search for the **sn\_nowassist\_va.synthesized\_autostart\_items** system property in [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Whenever a single Virtual Agent topic is found within a synthesized response, users are brought directly into that action's flow. You may consider bypassing the synthesized response and options by automatically launching catalog items, too. For more information on automatically launching single search result actions, search for the **sn\_nowassist\_va.synthesized\_autostart\_items** system property in .
 
 Responses generated in Now Assist in Virtual Agent can come from a combination of catalog items, Virtual Agent topics, subflows and actions, Knowledge Base articles, attachments, external content, and people sources. The following citations may appear inline and/or within the expandable Sources section depending on what search results are returned:
 
@@ -85,15 +86,15 @@ Responses generated in Now Assist in Virtual Agent can come from a combination o
 
 If you select an inline citation, a popover appears containing either additional information or an action to start a request.
 
-![An inline citation with a popover linking to a source or action.](../image/NAinVA-inline-citations-popovers.png "An inline citation popover example linking to a source or action")
+\[Omitted image "NAinVA-inline-citations-popovers.png"\] Alt text: An inline citation with a popover linking to a source or action.
 
 Responses can also be generated based on content from the catalog item description and the Virtual Agent topic description. When this occurs, citations lead the user to one of the items in the **Here's what you can do next** section of the response.
 
-Each Virtual Agent response includes a feedback icons panel. The user can indicate if the response was helpful by selecting the like thumbs up icon \(![Thumbs up icon.](../../virtual-agent/images/llm-thumbs-up-like.png)\). If the response wasn't helpful, the user can select the dislike thumbs down icon \(![Thumbs down icon.](../../virtual-agent/images/llm-thumbs-down-dislike.png)\). This feedback is used to train the LLM model and improve responses over time.
+Each Virtual Agent response includes a feedback icons panel. The user can indicate if the response was helpful by selecting the like thumbs up icon \(\[Omitted image "llm-thumbs-up-like.png"\] Alt text: Thumbs up icon.\). If the response wasn't helpful, the user can select the dislike thumbs down icon \(\[Omitted image "llm-thumbs-down-dislike.png"\] Alt text: Thumbs down icon.\). This feedback is used to train the LLM model and improve responses over time.
 
 If Now Assist Guardian is enabled and your request contains profane content, the Virtual Agent responds with a message prompting you to re-enter an appropriate request without profanity or offensive content.If your request is too ambiguous in a Virtual Agent chat, Virtual Agent asks a clarifying question and displays a citation with an action. Citations are presented starting from the second clarifying question. Select a citation to start the request. If there are no actions relative to the request, citations aren’t shown.
 
-If you need more help, Now Assist in Virtual Agent directs you to either a live agent, resets the conversation, or creates an incident. The option is determined by the admin in the Now Assist in Virtual Agent guided setup. For more information, see [Configuring assistants overview](../task/configure-now-assist-va.md).
+If you need more help, Now Assist in Virtual Agent directs you to either a live agent, resets the conversation, or creates an incident. The option is determined by the admin in the Now Assist in Virtual Agent guided setup. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
 1.  Live agent support routes the user to an available agent when configured.
 2.  Reset the conversation restarts the conversation to the beginning to ask another question.
@@ -103,31 +104,31 @@ If you entered a single message with multiple questions or requests, a **Ready t
 
 If an administrator didn’t configure any skills, no available skills are shown. However, the chat bar remains available for the user to enter an utterance. This triggers AI Search for a Knowledge Base article or catalog item.
 
-![Open chat window with no skills activated triggers Knowledge Base.](../image/NA-no-skills.png "Example of a chat with no skills activated")
+\[Omitted image "NA-no-skills.png"\] Alt text: Open chat window with no skills activated triggers Knowledge Base.
 
-For information about configuring a Now Assist skill, see [Activate a Now Assist skill](https://www.servicenow.com/docs/access?context=configure-a-now-assist-skill&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+For information about configuring a Now Assist skill, see .
 
 ## Agentic conversations
 
-**Note:** Admins must first enable AI agents before end users can experience agentic conversations. For more information on how to set up AI agents for agentic conversations, see [Agentic conversations in Virtual Agent](../../virtual-agent/concept/agentic-conversations-vad.md). Now Assist in Virtual Agent discovers and executes AI agents. For more information about AI agents, see [Now Assist AI agents](https://www.servicenow.com/docs/access?context=na-ai-agents&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Note:** Admins must first enable AI agents before end users can experience agentic conversations. For more information on how to set up AI agents for agentic conversations, see [Agentic conversations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/agentic-conversations-vad.md). Now Assist in Virtual Agent discovers and executes AI agents. For more information about AI agents, see .
 
-When you submit a single question to the Virtual Agent, the agent understands the query and begins a flow. When you submit a message with multiple questions or requests, Virtual Agent answers the multiple questions consecutively in a response. It can reason, plan, and execute across AI agents, Virtual Agent topics, conversational actions and subflows, catalogs, Knowledge Base articles, custom skills, and any Now Assist in Virtual Agent supported skills to help you. Before receiving a response, you receive acknowledgment messages from the Virtual Agent and on-screen messages to let you know where the agent is at in the agentic processing flow. After the processing has completed its flow, a View AI Steps section header appears, where the processing flow steps can be expanded and viewed. You can stop the agentic processing flow at anytime by selecting the End flow icon \(![End flow icon.](../image/agentic-end-flow-icon.png)\). After an action starts, it cannot be stopped. Selecting the End flow icon \(![End flow icon.](../image/agentic-end-flow-icon.png)\) only stops the proceeding processing steps.
+When you submit a single question to the Virtual Agent, the agent understands the query and begins a flow. When you submit a message with multiple questions or requests, Virtual Agent answers the multiple questions consecutively in a response. It can reason, plan, and execute across AI agents, Virtual Agent topics, conversational actions and subflows, catalogs, Knowledge Base articles, custom skills, and any Now Assist in Virtual Agent supported skills to help you. Before receiving a response, you receive acknowledgment messages from the Virtual Agent and on-screen messages to let you know where the agent is at in the agentic processing flow. After the processing has completed its flow, a View AI Steps section header appears, where the processing flow steps can be expanded and viewed. You can stop the agentic processing flow at anytime by selecting the End flow icon \(\[Omitted image "agentic-end-flow-icon.png"\] Alt text: End flow icon.\). After an action starts, it cannot be stopped. Selecting the End flow icon \(\[Omitted image "agentic-end-flow-icon.png"\] Alt text: End flow icon.\) only stops the proceeding processing steps.
 
-![Agentic process beginning with the Figuring out next steps text and End flow icon availability.](../image/NAVA-standard-chat-ai-agent-processing.png "Example of an agentic conversation starting")
+\[Omitted image "NAVA-standard-chat-ai-agent-processing.png"\] Alt text: Agentic process beginning with the Figuring out next steps text and End flow icon availability.
 
 ## Catalog citations
 
 For conversational catalogs, the **Start request** option appears, and if selected, the catalog request flow launches within the Virtual Agent. For non-conversational catalogs, the **Go to request** option appears with an external link that if selected, either redirects you to a new browser or pop-up window to order the catalog item.
 
-![Summary of the laptop options along with catalog options to either Go to request or Start request in the Virtual Agent.](../../virtual-agent/images/carousel-nds-cards-na-va.png "Example of a synthesized response with conversational and non-conversational catalog options")
+\[Omitted image "carousel-nds-cards-na-va.png"\] Alt text: Summary of the laptop options along with catalog options to either Go to request or Start request in the Virtual Agent.
 
-![Belkin iPad Mini Case catalog request started and user is presented with options.](../image/single-turn-example2.png "Example of a conversational catalog response flow")
+\[Omitted image "single-turn-example2.png"\] Alt text: Belkin iPad Mini Case catalog request started and user is presented with options.
 
-![An LLM-generated message appears before auto-executing the first step in the action.](../image/NAinVA-autolaunch.png "Example an LLM-generated message before auto-executing the first step in the action")
+\[Omitted image "NAinVA-autolaunch.png"\] Alt text: An LLM-generated message appears before auto-executing the first step in the action.
 
 When the catalog order is complete, Virtual Agent displays a card for the order.
 
-![Card for the generated order that is displayed in the chat window.](../image/single-turn-example3.png "Example of a summary confirmation for a completed catalog request")
+\[Omitted image "single-turn-example3.png"\] Alt text: Card for the generated order that is displayed in the chat window.
 
 ## Topic, subflows, or actions citations
 
@@ -135,13 +136,13 @@ The **\[Asset's name\]** option appears, and if selected, the asset flow begins 
 
 ## Q&amp;A Knowledge Base citations
 
-The answer is shown with the option to view your sources through the numbered inline citations icon \(![Numbered citations icon.](../image/NAVA-citations-icon.png)\). These Knowledge Base inline citations show which ServiceNow knowledge articles were used to generate the response.
+The answer is shown with the option to view your sources through the numbered inline citations icon \(\[Omitted image "NAVA-citations-icon.png"\] Alt text: Numbered citations icon.\). These Knowledge Base inline citations show which ServiceNow knowledge articles were used to generate the response.
 
-**Note:** If you have activated Knowledge Graph, you may get more personalized Q&amp;A Knowledge Base responses depending on whether the user schema attributes were triggered. For more information about receiving these personalized responses, see [Access Knowledge Graph Schema](https://www.servicenow.com/docs/access?context=access-knowledge-graph-designer&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Note:** If you have activated Knowledge Graph, you may get more personalized Q&amp;A Knowledge Base responses depending on whether the user schema attributes were triggered. For more information about receiving these personalized responses, see .
 
 ## External content connections citations
 
-If external search sources are added to your information sources when [Configuring assistants overview](../task/configure-now-assist-va.md), you can search through external content connections. This can include information from attachments and knowledge blocks, or from the following list of content connection:
+If external search sources are added to your information sources when [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md), you can search through external content connections. This can include information from attachments and knowledge blocks, or from the following list of content connection:
 
 -   Microsoft SharePoint
 -   Confluence
@@ -152,19 +153,19 @@ If external search sources are added to your information sources when [Configuri
 -   ServiceNow® documentation
 -   Slack
 
-For more information about external content connections, see [External Content Connectors](https://www.servicenow.com/docs/access?context=ext-cont-connectors-landing-page&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For more information about external content connections, see .
 
-![Response from external content with link to its source.](../image/NAinVA-external-search-source-citation.png "Example of an inline citation with external content source popover")
+\[Omitted image "NAinVA-external-search-source-citation.png"\] Alt text: Response from external content with link to its source.
 
 ## People citations
 
 Information about people in your organization can be found if you have activated Knowledge Graph. Information about the person you're searching for appears in the synthesized response, along with an in-line numbered citation and people citation in the **Sources** section. If a direct match doesn't occur and multiple people are found, try providing more information to narrow down the people search results. Up to three people can appear in a synthesized response. You may be asked a clarifying question, such as `Are you asking about [user_1], the programmer, or [user_2], the faculty member?` to yield better results. Selecting the person's name in the **Sources** section redirects you to the portal's user profile landing page.
 
-![People citation appears as an in-line number and also within the Sources section.](../image/NAVA-standard-chat-people-citation.png "Example of a synthesized response with people results")
+\[Omitted image "NAVA-standard-chat-people-citation.png"\] Alt text: People citation appears as an in-line number and also within the Sources section.
 
 Selecting the person's inline numbered citation presents a popover. The information in the popover can include the following information:
 
-**Note:** The following popover details can be customized through EVAM. For more information about customizing the data details, see [Define an EVAM view template](https://www.servicenow.com/docs/access?context=define-evam-template&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+**Note:** The following popover details can be customized through EVAM. For more information about customizing the data details, see .
 
 -   Manager
 -   Location
@@ -176,7 +177,7 @@ Selecting the person's inline numbered citation presents a popover. The informat
     **Important:** Shared Microsoft SharePoint files between you and the person found appear only on the people popover. These shared files only appear after you have completed the prompt to **Log in**, signed in successfully, and have entered a new search query for that person. A new search query is necessary after you have signed in so that up to three shared Microsoft SharePoint files can appear. You’re automatically logged out of your Microsoft account every three months and must repeat the **Log in** prompt again to see shared files.
 
 
-![People popover card appears when selecting Alissa Mountjoy and presents information about Alissa.](../image/NAVA-standard-chat-people-citation-card.png "Example of a people citation's popover")
+\[Omitted image "NAVA-standard-chat-people-citation-card.png"\] Alt text: People popover card appears when selecting Alissa Mountjoy and presents information about Alissa.
 
 Although rare, when you receive a synthesized response that includes a person, you may also receive other citations associated with that person. For example, a Knowledge Base article that was authored by the person you searched for may also appear.
 
@@ -184,7 +185,7 @@ Although rare, when you receive a synthesized response that includes a person, y
 
 Extended entity information can be found if you have activated Knowledge Graph.
 
-**Note:** To enable the Knowledge Graph natural language query \(NLQ\) schema, configure this schema for the assistant. To configure the schema for an assistant, see [Assign search sources to a chat assistant](../task/add-info-sources-assistant.md).
+**Note:** To enable the Knowledge Graph natural language query \(NLQ\) schema, configure this schema for the assistant. To configure the schema for an assistant, see [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/add-info-sources-assistant.md).
 
 These extended entities that come from the additional custom tables associated with the Knowledge Graph natural language query \(NLQ\) schema can include:
 
@@ -198,11 +199,11 @@ Select an entity in-line citation to view that entity record in a popover, or se
 
 The following example is of a conversation showing 3 out of 12 requests and the option to view records and sources.
 
-![Example conversation.](../image/standard-chat-kg-nlq-view-records.png "Example of extended entities and view records")
+\[Omitted image "standard-chat-kg-nlq-view-records.png"\] Alt text: Example conversation.
 
 ## Fallback options
 
-**Note:** For more information about where and how to enable fallback options, see [Manage an assistant chat experience](../task/manage-assistant-chat-experience.md).
+**Note:** For more information about where and how to enable fallback options, see [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/manage-assistant-chat-experience.md).
 
 A fallback state can occur whenever search results are unavailable. Scenarios where search results are unavailable include the Virtual Agent didn't understand the query, complaint small talk was found, or an error occurred. When search results are unavailable, a single or multiple fallback options may appear. These fallback options include:
 
@@ -220,5 +221,5 @@ A fallback state can occur whenever search results are unavailable. Scenarios wh
 
 Select a fallback option to launch that mode or action.
 
-![Search the web and Create a generic ticket buttons are fallback options for end users.](../image/standard-chat-multiple-fallback-options.png "Example of multiple fallback options")
+\[Omitted image "standard-chat-multiple-fallback-options.png"\] Alt text: Search the web and Create a generic ticket buttons are fallback options for end users.
 

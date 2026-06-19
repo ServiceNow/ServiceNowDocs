@@ -2,11 +2,12 @@
 title: Edit security tags in the ServiceNow AI Platform for the McAfee ePO integration
 description: As part of the setup for the integration, edit the security tag names that you created in your McAfee ePO console in your ServiceNow AI Platform instance. Edit the tag names in your ServiceNow AI Platform instance so that they match the names of the tags in your McAfee ePO console.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/mcafee-epo-match-tags.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [McAfee ePO integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -25,13 +26,13 @@ The security tag names in your McAfee ePO console for the initiate malware scan 
 
 Before you create a capability profile to run your capabilities, view the list of available McAfee ePO capabilities and edit the security tags in your ServiceNow AI Platform instance so that they match the security tag names in your McAfee ePO console.
 
-For more information about creating the security tag names in your McAfee ePO console, see [Set up your McAfee ePO console to integrate with Security Incident Response \(SIR\)](mcafee-epo-setup-mcafee.md).
+For more information about creating the security tag names in your McAfee ePO console, see [Set up your McAfee ePO console to integrate with Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/mcafee-epo-setup-mcafee.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **McAfee ePO Integration** &gt; **Default Settings**.
 
-2.  To edit the security tag name of the McAfee ePO integration, click **Default Configuration**.
+2.  To edit the security tag name of the McAfee ePO integration, select **Default Configuration**.
 
     **Note:** Makes sure you perform this configuration after you install the McAfee ePO integration.
 
@@ -43,36 +44,36 @@ For more information about creating the security tag names in your McAfee ePO co
 
     For example, ServiceNow - Isolate Host
 
-5.  If you want to do not wish to use the CI trigger field upon incident creation, select the **Define Alternate field** check box.
+5.  If you want to don't want to use the CI trigger field on incident creation, select the **Define Alternate field** check box.
 
     When this option is enabled, the Alternate CI trigger field choice list is displayed.
 
-    ![Edit security tags in the ServiceNow AI Platform for the McAfee integration](../image/mcafee-default-config.png "Edit security tags")
+    \[Omitted image "mcafee-default-config.png"\] Alt text: Edit security tags in the ServiceNow AI Platform for the McAfee integration
 
-6.  Choose an alternate field from the choice list to check for your CI search criteria.
+6.  Choose an alternate field from the list to check for your CI search criteria.
 
-    For this example, as a user with the sn\_si.admin role, you believe that the CI field will not be populated on the security incident upon incident creation. Alternatively, you think CI information for a FQDN, host name, or IP address will be populated in the `Identified CI` field on the security incident, and you select the Identified CI field as an alternate. The Identified CI is selected for this example, but you can use any field on the security incident for the alternate CI.
+    For this example, as a user with the sn\_si.admin role, you believe that the CI field will not be populated on the security incident on incident creation. Alternatively, you think CI information for a FQDN, host name, or IP address will be populated in the `Identified CI` field on the security incident, and you select the Identified CI field as an alternate. The Identified CI is selected for this example, but you can use any field on the security incident for the alternate CI.
 
 7.  In the Domain field, select a domain or group for this configuration using the search option.
 
     For example, global.
 
-8.  In the Require Approval field, select the **Require Approval** check box if you are using Isolate Host and Remove isolation capabilities.
+8.  In the Require Approval field, select the **Require Approval** check box if you're using Isolate Host and Remove isolation capabilities.
 
     **Note:** The Initiate Malware Scan, List Threat Events, and Get System Details capabilities do not need approval.
 
-9.  Click **Update**.
+9.  Select **Update**.
 
     The EPO Tag Name is updated and displayed on the McAfee ePO Default Configurations list. The security tag name for the malware scan action in your ServiceNow AI Platform instance matches the name for the scan in your McAfee ePO console.
 
     You have successfully edited the EPO Tag Names for the malware scan and the isolate host capabilities in your ServiceNow AI Platform instance. The next step is to create a profile for your capabilities.
 
 
-**Parent Topic:**[McAfee ePO integration](../concept/mcaffee-epo-overview-arch.md)
+**Parent Topic:**[McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/mcaffee-epo-overview-arch.md)
 
-**Previous topic:**[Install the application and configure a server for the McAfee ePO integration](mcaffe-epo-install.md)
+**Previous topic:**[Install the application and configure a server for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/mcaffe-epo-install.md)
 
-**Next topic:**[Create an approval group](create-approval-group-mcafee.md)
+**Next topic:**[Create an approval group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/create-approval-group-mcafee.md)
 
 **Related topics**  
 

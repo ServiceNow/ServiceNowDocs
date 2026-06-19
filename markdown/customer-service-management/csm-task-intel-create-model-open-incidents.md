@@ -2,7 +2,10 @@
 title: Create a model to predict similar open incidents
 description: Use the Task Intelligence for CSM to create and train a machine learning model that identifies similar open incidents. The model analyzes similar open incidents data to suggest relevant incident records when working on a current open incident, helping agents resolve issues faster. The plugin includes a ready-to-train model for predicting similar cases and also lets you create custom models tailored to your specific use cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-task-intel-create-model-open-incidents.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2

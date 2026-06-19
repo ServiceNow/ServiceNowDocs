@@ -2,6 +2,7 @@
 title: CMDB Health process status: failure threshold reached
 description: The CMDB Health Dashboard shows the string ‘failure threshold reached' when the number of CIs that are failing the metric tests, reaches the failure threshold set for the metric.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/failure-threshold-reached.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -25,19 +26,19 @@ Review and refine the rules defined for the metric which has reached max failure
 
     Review the mandatory fields for the associated classes and remove those that aren't critical for the health score. Also, review the recommended fields that are causing failures and remove those that aren't critical for the health score.
 
-    For more information see [Set a CI attribute to be mandatory](../task/t_SetCIFieldMandatory.md) and [Set a CI field to be recommended](../task/t_MakingAFieldRecommended.md).
+    For more information see [Set a CI attribute to be mandatory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/t_SetCIFieldMandatory.md) and [Set a CI field to be recommended](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/t_MakingAFieldRecommended.md).
 
 -   Compliance:
 
-    Review the audit failures from the audit jobs and adjust the audits to reduce the number of failures. For more information, see [CMDB Health KPIs and metrics](../reference/r_CMDBHealthMetrics.md).
+    Review the audit failures from the audit jobs and adjust the audits to reduce the number of failures. For more information, see [CMDB Health KPIs and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/r_CMDBHealthMetrics.md).
 
 -   Correctness:
 
-    -   Orphan: Review the orphan rules and adjust them to remove excessive orphan failures. For more information, see [Create a CMDB Health orphan rule](../task/t_CreateCMDBHealthOrphanRule.md).
-    -   Staleness: Review the effective duration for the classes that are causing failures and adjust the duration to reduce the number of failures. For more information, see [Create a CMDB Health staleness rule](../task/t_CreateCMDBHealthStaleRule.md).
-    -   Duplicate: Review the de-duplication tasks and remediate the tasks to remove duplicate CIs and to avoid creating failure records. For more information, see [Remediate a de-duplication task \(manual\)](../task/reconcile-dup-task.md).
+    -   Orphan: Review the orphan rules and adjust them to remove excessive orphan failures. For more information, see [Create a CMDB Health orphan rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/t_CreateCMDBHealthOrphanRule.md).
+    -   Staleness: Review the effective duration for the classes that are causing failures and adjust the duration to reduce the number of failures. For more information, see [Create a CMDB Health staleness rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/t_CreateCMDBHealthStaleRule.md).
+    -   Duplicate: Review the de-duplication tasks and remediate the tasks to remove duplicate CIs and to avoid creating failure records. For more information, see [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md).
 
 For more troubleshooting information about failure threshold related issues, see [How to Resolve Max Failure Threshold Errors for CMDB Health Dashboard \[KB2487349\]](https://support.servicenow.com/kb_view_customer.do?sysparm_article=KB2487349).
 
-**Parent Topic:**[CMDB Health process tracking and troubleshooting](c_CMDBHealthTroubleshooting.md)
+**Parent Topic:**[CMDB Health process tracking and troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealthTroubleshooting.md)
 

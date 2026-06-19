@@ -2,6 +2,7 @@
 title: Cloudian Storage Discovery
 description: ServiceNow Discovery uses the Cloudian Storage discovery pattern to find Cloudian servers and related disks. Discovering these resources requires installing the Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/cloudian-storage-discovery.html
 release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -25,7 +26,7 @@ Cloudian is a software-defined data storage company. Cloudian provides turnkey d
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -385,29 +386,29 @@ nic \[Reference cmdb\_ci\_network\_adapter\]
 </td></tr></tbody>
 </table>The **Cloudian**probe is created in the **Unix-Classify** Multiprobe. The **Cloudian** probe runs the **/bin/systemctl status cloudian-s3** command and checks that the output contains **Cloudian HyperStore Storage System**.
 
-![Cloudian Probe.](../image/cloudian-probe.png "Cloudian Probe")
+\[Omitted image "cloudian-probe.png"\] Alt text: Cloudian Probe.
 
 In Unix classification, the **Cloudian Server** classifier runs before the **Linux Classifier**. The Cloudian classifier creates records in the \[cmdb\_ci\_storage\_server\] table. This classifier invokes the Cloudian Storage System Pattern.
 
 Classification Criteria
 
-![Classification Criteria.](../image/classification_criteria.png "Classification Criteria")
+\[Omitted image "classification\_criteria.png"\] Alt text: Classification Criteria.
 
 ## CMDB Data Model
 
-![CMDB Data Model.](../image/cmdb-data-model.png "CMDB Data Model")
+\[Omitted image "cmdb-data-model.png"\] Alt text: CMDB Data Model.
 
 Storage Server to Network Adapter
 
-![Storage Server to Network Adapter.](../image/storage_server_to_network_adapter.png "Storage Server to Network Adapter")
+\[Omitted image "storage\_server\_to\_network\_adapter.png"\] Alt text: Storage Server to Network Adapter.
 
 Storage Server to Disks
 
-![Storage Server to Disks.](../image/storage_server_to_disks.png "Storage Server to Disks")
+\[Omitted image "storage\_server\_to\_disks.png"\] Alt text: Storage Server to Disks.
 
 Storage Server to Disks and File Systems
 
-![Storage Server to Disks and File Systems.](../image/storage_server-to_disks_and_file_systems.png "Storage Server to Disks and File Systems")
+\[Omitted image "storage\_server-to\_disks\_and\_file\_systems.png"\] Alt text: Storage Server to Disks and File Systems.
 
 ## CI Relationships
 
@@ -422,5 +423,5 @@ Storage Server to Disks and File Systems
 |cmdb\_ci\_storage\_server|Virtualized by::Virtualizes|cmdb\_ci\_vm\_instance|
 |cmdb\_ci\_disk|Provides::Provided by|cmdb\_ci\_file\_system|
 
-**Parent Topic:**[Available on-premise discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

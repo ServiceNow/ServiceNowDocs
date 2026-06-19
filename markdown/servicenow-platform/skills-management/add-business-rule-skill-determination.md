@@ -2,6 +2,7 @@
 title: Add a business rule for skill determination
 description: Set up or enable business rules for agents to manage cases, chat interactions, or work order tasks. These business rules trigger Skill Determination rules, ensuring that the required skills are assigned to relevant work items so agents are properly equipped to handle these responsibilities efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/skills-management/add-business-rule-skill-determination.html
 release: zurich
 product: Skills Management
 classification: skills-management
@@ -75,12 +76,12 @@ Advanced
 
 **Note:** This script uses the SkillDeterminationUtils utility to identify which skills are needed for the current work item \(such as an incident or task\) and then assigns those skills to it automatically. This helps ensure that the work item has the correct skill requirements based on its details.
 
-4.  In the **When to run** tab, set when you want the business rule to execute. For more information, see [Create a business rule](https://www.servicenow.com/docs/access?context=c_BusinessRules&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+4.  In the **When to run** tab, set when you want the business rule to execute. For more information, see Create a business rule.
 
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Routing work items to agents based on skills](../concept/skill-based-routing.md)
+**Parent Topic:**[Routing work items to agents based on skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/skills-management/skill-based-routing.md)
 

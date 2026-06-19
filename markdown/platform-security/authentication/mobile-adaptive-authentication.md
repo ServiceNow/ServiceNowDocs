@@ -2,6 +2,7 @@
 title: Adaptive Authentication for Trusted Mobile Apps
 description: Access your ServiceNow from untrusted networks by using the Now Mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/mobile-adaptive-authentication.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -14,8 +15,6 @@ breadcrumb: [Adaptive authentication, Authentication, Access Management]
 # Adaptive Authentication for Trusted Mobile Apps
 
 Access your ServiceNow from untrusted networks by using the Now Mobile app.
-
-Adaptive Authentication for Trusted Mobile Apps
 
 Adaptive Authentication for Trusted Mobile Apps enables users to access the ServiceNow instance using the Now Mobile app. The instance is protected behind a trusted IP network boundary.
 

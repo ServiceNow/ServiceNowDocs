@@ -2,9 +2,12 @@
 title: Exploring ITOM/OT SU Licensing
 description: Learn more about ServiceNow ITOM/OT SU Licensing, the different ITOM subscriptions it includes, and its benefit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/explore-itom-licensing.html
 release: zurich
+product: IT Operations Management
+classification: it-operations-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
@@ -21,6 +24,7 @@ The ITOM/OT SU Licensing application calculates and displays how many subscripti
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Viewing the usage of ITOM applications to make informed decisions about your ITOM subscriptions. You can use it to confirm your expectation of their license consumption, and if the measurement is higher than planned, either alter your usage of ITOM or increase your subscription.|[Review resource usage against allocated subscription units](../task/view-resource-usage-licenses.md)|sn\_itom\_license.reader|
-|Analyzing resource usage and status in comparison to your purchased subscriptions is facilitated by dashboard reports. These reports visually present both the daily usage count and the average consumption of subscription units over a 90-day period and let you see which resources are being counted for each ITOM application.|[ITOM/OT SU Licensing dashboard](../../../use/dashboards/application-content-packs/itom-licensing-dashboard.md)|sn\_itom\_license.reader|
+|Viewing the usage of ITOM applications to make informed decisions about your ITOM subscriptions. You can use it to confirm your expectation of their license consumption, and if the measurement is higher than planned, either alter your usage of ITOM or increase your subscription.|[Review resource usage against allocated subscription units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/view-resource-usage-licenses.md)|sn\_itom\_license.reader|
+|Analyzing resource usage and status in comparison to your purchased subscriptions is facilitated by dashboard reports. These reports visually present both the daily usage count and the average consumption of subscription units over a 90-day period and let you see which resources are being counted for each ITOM application.|[ITOM/OT SU Licensing dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-licensing-dashboard.md)|admin|
+|Comparing your current CI consumption against the predicted usage under the new 2026 Packaging SKU, so you can plan your subscription requirements before migration to 2026 packaging.|[Generate CI consumption predictions for 2026 Container Packaging SKU migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/generate-ci-consumption-predictions.md)|admin|
 

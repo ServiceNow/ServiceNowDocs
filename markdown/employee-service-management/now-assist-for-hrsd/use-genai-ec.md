@@ -2,6 +2,7 @@
 title: Configure Gen AI Virtual Agent for HRSD
 description: Enable your requesters to have a streamlined, conversational experience that is based on generative AI as they submit a catalog item request in Virtual Agent. By offering this generative AI experience, your organization can increase self-service and reduce operating costs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-hrsd/use-genai-ec.html
 release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -43,12 +44,12 @@ When the generative AI experience is configured for catalog item request submiss
 
 2.  Set up Now Assist in Virtual Agent.
 
-    For complete details on how to turn on the skills and set up Gen AI Virtual Agent, see [Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+    For complete details on how to turn on the skills and set up Gen AI Virtual Agent, see .
 
     **Note:**
 
     -   Configure the required conditions for the Virtual Agent Skills.
     -   HR Service Delivery Virtual Agent will be replaced with the Gen AI Virtual Agent.
 
-**Parent Topic:**[Configure Now Assist for HR Service Delivery \(HRSD\)](configure-now-assist-hr.md)
+**Parent Topic:**[Configure Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 

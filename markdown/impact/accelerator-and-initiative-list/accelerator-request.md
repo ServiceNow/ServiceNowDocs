@@ -2,6 +2,7 @@
 title: Accelerator request
 description: Depending on the Impact package that you are subscribed to, you can request and consume a designated number of concurrent Impact Accelerators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/accelerator-request.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,10 +20,10 @@ The process of requesting an Accelerator from IDI and Impact Store App is simila
 
 You can place a request for any of the available Accelerators and initiatives if you have upgraded to the latest versions of the application.
 
-Some Accelerators require additional terms and conditions and are offered pursuant to the applicable [Impact Accelerator Description](https://www.servicenow.com/legal/servicenow-impact.html). For Accelerators that require consent, the terms and conditions must be accepted from the **Manage Permissions** menu. You can manage permissions using [Manage Initiative and Accelerator permissions](../task/grant-ide-permissions.md)
+Some Accelerators require additional terms and conditions and are offered pursuant to the applicable [Impact Accelerator Description](https://www.servicenow.com/legal/servicenow-impact.html). For Accelerators that require consent, the terms and conditions must be accepted from the **Manage Permissions** menu. You can manage permissions using [Manage Initiative and Accelerator permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/grant-ide-permissions.md)
 
 ## What to explore next
 
--   Request an Accelerator from [Request an Accelerator from IDI](../task/request-accelerator.md)
--   Request an Accelerator from [Request Accelerators and Initiatives for Impact Store Application](accelerators.md)
+-   Request an Accelerator from [Request an Accelerator from IDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/request-accelerator.md)
+-   Request an Accelerator from [Request Accelerators and Initiatives for Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/accelerators.md)
 

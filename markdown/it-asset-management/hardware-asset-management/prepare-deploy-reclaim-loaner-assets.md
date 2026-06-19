@@ -2,6 +2,7 @@
 title: Prepare, deploy, and reclaim loaner assets
 description: Select and prepare the loaner asset or consumable for deployment and reclamation by using loaner asset tasks. Deploy the loaner asset or consumable for a specific period, and reclaim it on the return date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/prepare-deploy-reclaim-loaner-assets.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -27,11 +28,11 @@ Role required: inventory\_user
 
 Use the Loaner Asset Orders module to view and complete the loaner asset orders that were requested by the users.
 
-The Hardware Asset dashboard gives a consolidated view of all the loaner asset orders that are in the New, Deployed, or Return Overdue states. For details, see [Hardware Asset dashboard](../../../use/dashboards/application-content-packs/hardware-asset-content-pack.md#).
+The Hardware Asset dashboard gives a consolidated view of all the loaner asset orders that are in the New, Deployed, or Return Overdue states. For details, see [Hardware Asset dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/hardware-asset-content-pack.md).
 
 **Note:**
 
-There are readily available decision tables that you can use to customize the Loaner Asset Request Flow. For more details, see [Hardware Asset Management flow customization](../concept/readily-available-dec-tables-ham.md).
+There are readily available decision tables that you can use to customize the Loaner Asset Request Flow. For more details, see [Hardware Asset Management flow customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/readily-available-dec-tables-ham.md).
 
 ## Procedure
 
@@ -57,7 +58,7 @@ Asset
 
 </td><td>
 
-Asset that is used to fulfill the loaner asset request.When the Location field value of the Loaner Asset Request form is a service location of multiple stockrooms, the Asset field shows the list of loaner assets that are available in all those stockrooms in addition to the loaner assets available in the stockroom of that location. For more details on service locations, see [Associate a stockroom with service locations](associate-stockroom-with-service-locations.md).
+Asset that is used to fulfill the loaner asset request.When the Location field value of the Loaner Asset Request form is a service location of multiple stockrooms, the Asset field shows the list of loaner assets that are available in all those stockrooms in addition to the loaner assets available in the stockroom of that location. For more details on service locations, see [Associate a stockroom with service locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/associate-stockroom-with-service-locations.md).
 
 **Note:** The stockroom that is available at the specified location is preferred for fulfilling the loaner asset request. The stockrooms that support the specified location are considered only when there isn't any stockroom in that location.
 
@@ -142,5 +143,5 @@ Person who is assigned the task of fulfilling the Deploy task.
     -   The **Stockroom** field is automatically set to the value that was selected on the Reclaim task form.
     -   If the asset is assigned to a future loaner order, the substate changes to Reserved and reflects the details of the loaner order.
 
-**Parent Topic:**[Manage loaner assets](manage-loaner-asset.md)
+**Parent Topic:**[Manage loaner assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-loaner-asset.md)
 

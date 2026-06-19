@@ -2,6 +2,7 @@
 title: Change the full discovery frequency in Kubernetes Visibility Agent
 description: Customize how often you want the Kubernetes Visibility Agent Informer to run a full discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/cnov-config-full-discovery-frequency.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -34,5 +35,5 @@ By default, the Informer runs a full discovery every 24 hours \(1440 minutes\). 
 
     -   When using the k8s\_informer.yaml: Replace the default value with the required one in the line under FULL\_DISCOVERY\_MIN.
 
-**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\)](cnov-deploy-install.md)
+**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cnov-deploy-install.md)
 

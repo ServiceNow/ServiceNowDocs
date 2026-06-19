@@ -2,6 +2,7 @@
 title: Require authorization for WSDL request \[Updated in Security Center 1.3 and 1.5\]
 description: Use the glide.basicauth.required.wsdl property to designate if incoming WSDL \(Web Services Description Language\) requests should require basic authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-wsdl-request-authorization.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -53,7 +54,7 @@ Category
 
 </td><td>
 
-[API and web service](sc-api-web-service.md)
+[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 
 </td></tr><tr><td>
 
@@ -102,8 +103,8 @@ References
 
 </td><td>
 
-[Web service security](../../security/concept/c_WebServiceSecurity.md)
+[Web service security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/c_WebServiceSecurity.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[API and web service](sc-api-web-service.md)
+</table>**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 

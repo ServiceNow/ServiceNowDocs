@@ -2,6 +2,7 @@
 title: ITSM Vendor Management Mobile dashboard
 description: Analyze vendors by KPI group. You can see which contracts were created in the last 30 days and which ones are ending in the next 90 days. Monitor improvement initiatives for your vendors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/vendor-management-workspace/vendor-mobile.html
 release: zurich
 product: Vendor Management Workspace
 classification: vendor-management-workspace
@@ -15,7 +16,7 @@ breadcrumb: [ITSM Vendor Management Mobile for Vendor Management Workspace, Mana
 
 Analyze vendors by KPI group. You can see which contracts were created in the last 30 days and which ones are ending in the next 90 days. Monitor improvement initiatives for your vendors.
 
-![Vendor Management Mobile](../../../product/vendor-management-workspace/image/vendor-management-mobile.jpg)
+\[Omitted image "vendor-management-mobile.jpg"\] Alt text: Vendor Management Mobile
 
 ## Required Vendor Management Mobile roles
 
@@ -47,10 +48,10 @@ Vendor Manager \[sn\_vlm.vendor\_manager\]
 
 |Title|Type|Source table|Description|
 |-----|----|------------|-----------|
-|Vendors by KPI group|Donut![Donut](../../reporting/image/icon-donut-report.png)|Company \[core\_company\]|Breakdown of vendors by metric model.|
-|New contracts|Single score![Single score report](../../performance-analytics/image/single-score.png)|Contract \[ast\_contract\]|Number of contracts created in the last 30 days.|
-|Contracts ending|Single score![Single score report](../../performance-analytics/image/single-score.png)|Contract \[ast\_contract\]|Number of contracts ending the next 90 days.|
-|Improvement initiatives|Single score![Single score report](../../performance-analytics/image/single-score.png)|Improvement Initiative \[sn\_cim\_register\]|Number of improvement initiatives created for your vendors.|
+|Vendors by KPI group|Donut\[Omitted image "icon-donut-report.png"\] Alt text: Donut|Company \[core\_company\]|Breakdown of vendors by metric model.|
+|New contracts|Single score\[Omitted image "single-score.png"\] Alt text: Single score report|Contract \[ast\_contract\]|Number of contracts created in the last 30 days.|
+|Contracts ending|Single score\[Omitted image "single-score.png"\] Alt text: Single score report|Contract \[ast\_contract\]|Number of contracts ending the next 90 days.|
+|Improvement initiatives|Single score\[Omitted image "single-score.png"\] Alt text: Single score report|Improvement Initiative \[sn\_cim\_register\]|Number of improvement initiatives created for your vendors.|
 
 ## Lists
 
@@ -64,5 +65,5 @@ Access the following vendor lists on the Vendor Management Mobile dashboard.
 |My Vendor Outages|List of all outages monitored by the vendor manager.|
 |My Vendors Breached SLA|List of breached SLAs monitored by the vendor manager.|
 
-**Parent Topic:**[ITSM Vendor Management Mobile for Vendor Management Workspace](../../../product/vendor-management-workspace/concept/vendor-mobile-vendor-management-workspace.md)
+**Parent Topic:**[ITSM Vendor Management Mobile for Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/vendor-mobile-vendor-management-workspace.md)
 

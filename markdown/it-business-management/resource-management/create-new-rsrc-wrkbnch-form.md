@@ -2,6 +2,7 @@
 title: Create New form
 description: Use the Create New form to create allocation boards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/resource-management/create-new-rsrc-wrkbnch-form.html
 release: zurich
 product: Resource Management
 classification: resource-management
@@ -49,5 +50,5 @@ Level from which you want to filter resources.-   **Demands/Projects**: When sel
 Depending on the value in **Type** field, a field appears to select the name of the record. For example, if **Type** is **Group**, a field **Group** appears where you can select the name of the group.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Resource Management reference](../task/rsrc-mgmt-reference.md)
+</table>**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rsrc-mgmt-reference.md)
 

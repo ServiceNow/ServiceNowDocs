@@ -2,6 +2,7 @@
 title: Cloud Configuration Governance policies
 description: Cloud Configuration Governance policy defines the non-compliant configurations for a given cloud resource type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-cloud-accelerate/ccg-policies.html
 release: zurich
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -26,11 +27,11 @@ Each Cloud Configuration Governance policy contains the following information:
 
 Cloud Configuration Governance provides several base system policies. You can either use these policies or create custom policies as per the needs of your organization. Depending on the need and your familiarity with the ServiceNow AI Platform, you can use any one of the following methods to create the policy:
 
--   [Create a policy with the condition builder](../task/ccg-create-policy-condition-builder.md)
--   [Create a policy with Integration Hub flow](../task/ccg-create-policy-ih-subflow.md)
--   [Create a policy through script](../task/ccg-create-policy-through-script.md)
+-   [Create a policy with the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/ccg-create-policy-condition-builder.md)
+-   [Create a policy with Integration Hub flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/ccg-create-policy-ih-subflow.md)
+-   [Create a policy through script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/ccg-create-policy-through-script.md)
 
-To use the policy, add the policy to a policy set. Each policy set can contain one or more policies. For more information on creating policy sets, see [Create policy set](../task/create-ccg-policy-set.md).
+To use the policy, add the policy to a policy set. Each policy set can contain one or more policies. For more information on creating policy sets, see [Create policy set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/create-ccg-policy-set.md).
 
 <table id="table_gdl_j2v_3sb"><thead><tr><th>
 
@@ -156,8 +157,8 @@ Condition builder
 Policy to check if detailed monitoring is enabled for the Azure VM.
 
 </td></tr></tbody>
-</table>-   For more information on creating policy sets, see [Create policy set](../task/create-ccg-policy-set.md).
+</table>-   For more information on creating policy sets, see [Create policy set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/create-ccg-policy-set.md).
 
--   For more information on base system policies and policy sets, see [AWS policies](../reference/aws-policies.md), [Azure policies](../reference/azure-policies.md), and [Policy sets](../reference/aws-policy-set.md).
+-   For more information on base system policies and policy sets, see [AWS policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/aws-policies.md), [Azure policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/azure-policies.md), and [Policy sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/aws-policy-set.md).
 
 

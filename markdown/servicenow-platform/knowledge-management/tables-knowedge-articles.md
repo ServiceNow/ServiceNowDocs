@@ -2,6 +2,7 @@
 title: Adding tables to knowledge articles
 description: You can insert tables and modify the cells, rows, and columns of a table in a knowledge article.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/tables-knowedge-articles.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -15,7 +16,7 @@ breadcrumb: [Editing functions for knowledge articles in the HTML editor, Creati
 
 You can insert tables and modify the cells, rows, and columns of a table in a knowledge article.
 
-You can add tables to your knowledge articles by clicking the table icon \(![Table icon](../image/table.png)\) on the HTML toolbar and selecting your desired table options. For example, you can adjust the height and width of rows and column, the spacing between cell text and cell borders, and change the colors of cells.
+You can add tables to your knowledge articles by clicking the table icon \(\[Omitted image "table.png"\] Alt text: Table icon\) on the HTML toolbar and selecting your desired table options. For example, you can adjust the height and width of rows and column, the spacing between cell text and cell borders, and change the colors of cells.
 
-For more information, see [Add a table to the HTML field](https://www.servicenow.com/docs/access?context=t_ExampleStyleATable&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For more information, see Add a table to the HTML field.
 

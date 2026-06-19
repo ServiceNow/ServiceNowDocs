@@ -2,6 +2,7 @@
 title: Configure field mappings
 description: Map fields to copy the primary details from an HR case to a universal request \(that is auto-created from the HR case\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/create-mappings-hrur.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,7 +18,7 @@ Map fields to copy the primary details from an HR case to a universal request \(
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_uni\_req.universal\_request\_write
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: Configure incident category or subcategory
 description: Configure incident category and subcategory for easy classification of incidents which helps in routing incidents to the right team. You can also generate reports based on category and subcategory of incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/t\_AddRemoveIncCatSubbCat.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -34,5 +35,5 @@ Role required: admin
 5.  Click **Save**.
 
 
-**Parent Topic:**[Incident categories and subcategories](../reference/r_CategorizingIncidents.md)
+**Parent Topic:**[Incident categories and subcategories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/r_CategorizingIncidents.md)
 

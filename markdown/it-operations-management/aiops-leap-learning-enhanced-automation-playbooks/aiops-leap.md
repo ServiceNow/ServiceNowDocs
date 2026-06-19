@@ -1,7 +1,8 @@
 ---
-title: AIOps Learning Enhanced Automation Platform \(LEAP\)
-description: AIOps LEAP application uses AI-driven insights and automation to help manage IT operations.
+title: Learning Enhanced Automation Platform \(LEAP\)
+description: LEAP application uses AI-driven insights and automation to help manage IT operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap.html
 release: zurich
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
@@ -11,32 +12,32 @@ reading_time_minutes: 3
 breadcrumb: [Now Assist for ITOM, IT Operations Management]
 ---
 
-# AIOps Learning Enhanced Automation Platform \(LEAP\)
+# Learning Enhanced Automation Platform \(LEAP\)
 
-AIOps LEAP application uses AI-driven insights and automation to help manage IT operations.
+LEAP application uses AI-driven insights and automation to help manage IT operations.
 
 ## Get started
 
 <table id="table_nhy_dhw_l2c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about AIOps LEAP benefits, features, and capabilities.](exploring-aiops-leap.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about LEAP benefits, features, and capabilities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/exploring-aiops-leap.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Install and configure AIOps LEAP.](configuring-aiops-leap.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and configure LEAP.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/configuring-aiops-leap.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-service-aware-cmdb.svg)Create problem records and playbooks using AIOps LEAP.](../task/using-aiops-leap.md)
+[Use\[Omitted image "bus-service-aware-cmdb.svg"\] Alt text:Create problem records and playbooks using LEAP.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/using-aiops-leap.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get detailed information on important skill configuration during AIOps LEAP installation.](../reference/references-aiops-leap.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get detailed information on important skill configuration during LEAP installation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/references-aiops-leap.md)
 
 </td></tr></tbody>
 </table>## Supported LLMs for Now Assist for ITOM
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for Now Assist skills and AI agents. You can set skill-level preferences in the [Now Assist Admin console](https://www.servicenow.com/docs/access?context=manage-large-language-models&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US). For more information, see [Large language models on the ServiceNow AI Platform®](https://www.servicenow.com/docs/access?context=exploring-large-language-models&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for Now Assist skills and AI agents. You can set skill-level preferences in the Now Assist Admin console. For more information, see .
 
 **Important:**
 
@@ -61,7 +62,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+For more information, see the Now Assist documentation.
 

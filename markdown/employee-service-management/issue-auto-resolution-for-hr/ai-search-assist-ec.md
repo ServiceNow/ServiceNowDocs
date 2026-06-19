@@ -2,6 +2,7 @@
 title: Enhanced AI Search assist for general HR inquiries
 description: Refine your search results with the enhanced AI Search assist capability available on Employee Center. Self-solve minor issues with intuitive recommendations before submitting a create incident form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/issue-auto-resolution-for-hr/ai-search-assist-ec.html
 release: zurich
 product: Issue Auto Resolution for HR
 classification: issue-auto-resolution-for-hr
@@ -21,5 +22,5 @@ You can find both Service Catalog items and Knowledge Base articles as recommend
 
 The feature is available with the Zurich release and onwards.
 
-For more information on how to configure the enhanced AI Search assist functionality, see [Configure AI Search Assist for a record producer](https://www.servicenow.com/docs/access?context=configure-ai-search-assist&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For more information on how to configure the enhanced AI Search assist functionality, see .
 

@@ -2,6 +2,7 @@
 title: Add application security
 description: Control who is permitted to use or edit your application by configuring roles in App Engine Studio \(AES\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/add-security.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -14,8 +15,6 @@ breadcrumb: [Enhance your app, Build, App Engine Studio, Building low-code appli
 # Add application security
 
 Control who is permitted to use or edit your application by configuring roles in App Engine Studio \(AES\).
-
-Adding security in App Engine Studio, UI Builder, and Catalog Builder
 
 ## Working with roles
 
@@ -45,25 +44,25 @@ App Engine Studio includes default roles that you can use for your application.
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-application-developer.svg) [What is Security? - ServiceNow Developers site](https://developer.servicenow.com/dev.do#!/learn/courses/vancouver/app_store_learnv2_aescreateappfromscratch_vancouver_create_an_app_from_scratch_with_app_engine_studio/app_store_learnv2_aescreateappfromscratch_vancouver_secure_apps_and_data/app_store_learnv2_aescreateappfromscratch_vancouver_what_is_security)
+\[Omitted image "bus-application-developer.svg"\] Alt text: [What is Security? - ServiceNow Developers site](https://developer.servicenow.com/dev.do#!/learn/courses/vancouver/app_store_learnv2_aescreateappfromscratch_vancouver_create_an_app_from_scratch_with_app_engine_studio/app_store_learnv2_aescreateappfromscratch_vancouver_secure_apps_and_data/app_store_learnv2_aescreateappfromscratch_vancouver_what_is_security)
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-application-developer.svg) [Security and Roles - ServiceNow Developers site](https://developer.servicenow.com/dev.do#!/learn/courses/sandiego/app_store_learnv2_bmfaesa_sandiego_build_my_first_app_engine_studio_application/BAP_sandiego/BAP_SecurityAndRoles_sandiego)
+\[Omitted image "bus-application-developer.svg"\] Alt text: [Security and Roles - ServiceNow Developers site](https://developer.servicenow.com/dev.do#!/learn/courses/sandiego/app_store_learnv2_bmfaesa_sandiego_build_my_first_app_engine_studio_application/BAP_sandiego/BAP_SecurityAndRoles_sandiego)
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-application-developer.svg) [Elevating Privileges - ServiceNow Developers site](https://developer.servicenow.com/dev.do#!/learn/courses/vancouver/app_store_learnv2_aescreateappfromscratch_vancouver_create_an_app_from_scratch_with_app_engine_studio/app_store_learnv2_aescreateappfromscratch_vancouver_secure_apps_and_data/app_store_learnv2_aescreateappfromscratch_vancouver_elevating_privileges)
+\[Omitted image "bus-application-developer.svg"\] Alt text: [Elevating Privileges - ServiceNow Developers site](https://developer.servicenow.com/dev.do#!/learn/courses/vancouver/app_store_learnv2_aescreateappfromscratch_vancouver_create_an_app_from_scratch_with_app_engine_studio/app_store_learnv2_aescreateappfromscratch_vancouver_secure_apps_and_data/app_store_learnv2_aescreateappfromscratch_vancouver_elevating_privileges)
 
 </td></tr></tbody>
-</table>-   **[Build a new role for your application](../task/aes-create-role.md)**  
+</table>-   **[Build a new role for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-create-role.md)**  
 Create a custom role for your application in App Engine Studio \(AES\).
--   **[Use an existing role for your application](../task/aes-existing-role.md)**  
+-   **[Use an existing role for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-existing-role.md)**  
 Use a previously created role for your application in App Engine Studio \(AES\).
--   **[Change access settings for a role](../task/edit-role.md)**  
+-   **[Change access settings for a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/edit-role.md)**  
 Control the application permissions for a role in App Engine Studio \(AES\).
--   **[Delete a role](../task/delete-role.md)**  
+-   **[Delete a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/delete-role.md)**  
 Delete a role that you no longer need in App Engine Studio \(AES\).
 
-**Parent Topic:**[Enhance your app](customize-application.md)
+**Parent Topic:**[Enhance your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/customize-application.md)
 

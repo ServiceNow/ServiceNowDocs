@@ -2,6 +2,7 @@
 title: Create a control test from an engagement
 description: After defining a control, audit managers create control tests that run periodically and provide documented evidence of whether the associated control is operating correctly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/t\_CreateControlTest.html
 release: zurich
 product: Audit Management
 classification: audit-management
@@ -272,14 +273,14 @@ Confidential
 
 </td><td>
 
-Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on confidential option, see [Confidentiality flag for audit and compliance records](../concept/confidentiality-flag-audit-pc.md).
+Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on confidential option, see [Confidentiality flag for audit and compliance records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/confidentiality-flag-audit-pc.md).
 
 </td></tr></tbody>
 </table>6.  Click **Submit**.
 
 
--   **[Automatically generate control tests from an engagement](automatically-generate-control-test.md)**  
+-   **[Automatically generate control tests from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/automatically-generate-control-test.md)**  
 After adding an entity to an engagement, you can automatically generate control tests.
 
-**Parent Topic:**[Manage engagements](../concept/c_Engagements.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/c_Engagements.md)
 

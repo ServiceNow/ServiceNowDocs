@@ -2,6 +2,7 @@
 title: Add a web search
 description: Add a web search as a tool in Now Assist Skill Kit. Adding a web search as a tool enables you to add search results to your prompt.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-skill-kit/add-web-search.html
 release: zurich
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -44,7 +45,7 @@ To use web search as a tool, you must bring your own search engine API key and c
 
 10. On the Tool inputs form, fill in the fields.
 
-    ![Add a web search tool page in Now Assist Skill Kit.](../image/nask-web-search.png)
+    \[Omitted image "nask-web-search.png"\] Alt text: Add a web search tool page in Now Assist Skill Kit.
 
 <table id="table_itg_hm5_m2c"><thead><tr><th>
 
@@ -70,7 +71,7 @@ AI search providers
 
 The AI search provider used to perform the search.**Note:**
 
-If you select Perplexity or OpenAI, you must complete the API key setup in the AI Search answers OneExtend capability table. For more information on that process, see [Configure AI Search answers capability for web search](../../generative-ai-controller/task/configure-ai-search-answers-capability-for-web-search.md). Although Azure Open AI is an option to select, Azure Open AI doesn't support web search.
+If you select Perplexity or OpenAI, you must complete the API key setup in the AI Search answers OneExtend capability table. For more information on that process, see [Configure AI Search answers capability for web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/generative-ai-controller/configure-ai-search-answers-capability-for-web-search.md). Although Azure Open AI is an option to select, Azure Open AI doesn't support web search.
 
 If you select Google as your web search tool provider, the web search tool leverages [Grounding with Google Search](https://cloud.google.com/vertex-ai/generative-ai/docs/grounding/grounding-with-google-search), offered under a Global Standard deployment. Because grounding is not [data resident](https://cloud.google.com/vertex-ai/generative-ai/docs/security-controls), Google's global infrastructure routes traffic to a global data center for each web search request. This processing may be different than your data processing location chosen for your ServiceNow instance. Please consider your organization's data policies before adding a web search tool with Google as the provider.
 
@@ -108,5 +109,5 @@ This field appears but it's not supported.
 14. On the Summary screen, select **Add tool**.
 
 
-**Parent Topic:**[Add a tool](../concept/add-a-tool.md)
+**Parent Topic:**[Add a tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/add-a-tool.md)
 

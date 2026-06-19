@@ -2,7 +2,10 @@
 title: Knowledge feature configuration
 description: Understand the configuration and related lists of the Knowledge feature in Engagement Messenger to configure the field values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/knowledge-feature-configuration-fields.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -31,7 +34,7 @@ Article category that is shown on the home page of the messenger. You can select
 
 -   Featured articles: Articles that are based on the keywords that are associated with the articles.
 
-For information on displaying articles in the Featured content section, see [Add a knowledge article to featured content](https://www.servicenow.com/docs/access?context=t_PinAnArticle&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+For information on displaying articles in the Featured content section, see Add a knowledge article to featured content.
 
 -   Most viewed articles: Articles that have the highest view among the articles of your knowledge base.
 
@@ -53,7 +56,7 @@ Knowledge Bases
 
 </td><td>
 
-List of knowledge bases that are associated with your messenger module. Use the Edit option \(![Lock icon.](../image/lock-icon.png)\) and search to add a knowledge base to your messenger module.
+List of knowledge bases that are associated with your messenger module. Use the Edit option \(\[Omitted image "lock-icon.png"\] Alt text: Lock icon.\) and search to add a knowledge base to your messenger module.
 
 </td></tr><tr><td>
 
@@ -64,7 +67,7 @@ Enable copy permalink
 Option for enabling your customer to copy the permalink of a knowledge article.
 
 </td></tr></tbody>
-</table>![Knowledge feature widget displaying a list of featured articles with the article count set to 2.](../image/em-knowledge-feature-widget.png "Knowledge feature widget")
+</table>\[Omitted image "em-knowledge-feature-widget.png"\] Alt text: Knowledge feature widget displaying a list of featured articles with the article count set to 2.
 
 Note the following points while you are configuring the Knowledge feature on your Engagement Messenger module:
 

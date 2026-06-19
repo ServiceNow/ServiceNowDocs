@@ -2,13 +2,14 @@
 title: Raise issue related to your asset on the Employee Center portal
 description: Get the issue related to your assets resolved by reporting the issue on the Employee Center portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/report-asset-issue-attestation.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Audit your hardware assets by using Asset Attestation, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Audit assets using Asset Attestation, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Raise issue related to your asset on the Employee Center portal
@@ -19,7 +20,7 @@ Get the issue related to your assets resolved by reporting the issue on the Empl
 
 Role required: Log in as an employee.
 
-To view the **My Assets** option on the global header navigation bar of the Employee Center portal, the value of the **enable\_assets** option must be set to **true** on the Additional options, JSON format field of the Employee Center menu record. For more details, see [Enable or disable global header options](https://www.servicenow.com/docs/access?context=config-global-header-components&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+To view the **My Assets** option on the global header navigation bar of the Employee Center portal, the value of the **enable\_assets** option must be set to **true** on the Additional options, JSON format field of the Employee Center menu record. For more details, see .
 
 **Note:** The **My Assets** option requires the Hardware Asset Management application to be activated.
 
@@ -94,7 +95,7 @@ Mode of communication preferred. The available methods of contact are:-   Email
 
 
 </td></tr></tbody>
-</table>4.  Select the Add attachments icon ![](../image/paper-clip-icon.png) to attach any document related to the issue.
+</table>4.  Select the Add attachments icon \[Omitted image "paper-clip-icon.png"\] Alt text: to attach any document related to the issue.
 
 5.  Select **Submit**.
 
@@ -107,5 +108,5 @@ Your request is submitted successfully.
 
 You can view and track the submitted requests by selecting **My Requests** on the global header navigation bar of the Employee Center portal.
 
-**Parent Topic:**[Audit your hardware assets by using Asset Attestation](../concept/audit-hardware-assets-attestation.md)
+**Parent Topic:**[Audit your hardware assets by using Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/audit-hardware-assets-attestation.md)
 

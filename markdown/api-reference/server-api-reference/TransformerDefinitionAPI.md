@@ -2,6 +2,7 @@
 title: TransformerDefinition - Scoped, Global
 description: The TransformerDefinition API provides methods to instantiate and manage the TransformerDefinition object, which associates a transformation rules list and a record path.Instantiates a TransformerDefinition object.Instantiates a TransformerDefinition object using an existing transformer definition.If set when the TransformerDefinition object was instantiated, returns the record path for the source data file associated with the TransformerDefinition object.Validates whether a valid TransformerRuleList is associated with the TransformerDefintion object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/TransformerDefinitionAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -28,7 +29,7 @@ The Transformer API performs the actual data transformation, one data entity at 
 
 You can use the TransformerDefinition class in both scoped and global server scripts. When using this class, use the `sn_tfrm` namespace identifier. Also, before this API is available in an instance, you must activate the Transformation Service plugin \(com.glide.transform\).
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## TransformerDefinition - TransformerDefinition\(Object transformerRuleList, String recordPath\)
 

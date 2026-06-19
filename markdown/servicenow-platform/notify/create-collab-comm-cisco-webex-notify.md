@@ -2,6 +2,7 @@
 title: Create a collaborative communication task from MIM workbench
 description: Create a communication plan or add a new communication task to an existing communication plan to resolve a major incident from the major incident management workbench.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/notify/create-collab-comm-cisco-webex-notify.html
 release: zurich
 product: Notify
 classification: notify
@@ -85,5 +86,5 @@ Time span by when the task must be executed after the task initiates.
 9.  Select **Add**.
 
 
-**Parent Topic:**[Using the Notify Cisco Webex Connector with a major incident](../concept/use-cisco-webex-notify-mi.md)
+**Parent Topic:**[Using the Notify Cisco Webex Connector with a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/use-cisco-webex-notify-mi.md)
 

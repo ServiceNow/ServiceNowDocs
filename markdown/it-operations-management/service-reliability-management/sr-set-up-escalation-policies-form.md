@@ -2,6 +2,7 @@
 title: Set up escalation policies form in SRM
 description: Escalation policies define the order and conditions in which members or devices receive notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-reliability-management/sr-set-up-escalation-policies-form.html
 release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
@@ -133,5 +134,5 @@ Additional notification steps to add. You can select email, call, or SMS. You ca
 |Additional audience|Specific users, teams, groups, or devices that you want to notify.|
 |Time to next step after last notification|The maximum amount of time that will pass before the issue is escalated to the next step. For example, if a responder can't resolve the issue within 30 minutes of the notification, the issue is escalated to the manager.|
 
-**Parent Topic:**[Service Reliability Management reference](service-reliability-management-reference.md)
+**Parent Topic:**[Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
 

@@ -2,7 +2,10 @@
 title: Enable enhanced address model for accounts
 description: Use the Account Address table in the enhanced address data model feature to link a location with multiple accounts without creating duplicate location records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/enable-enhanced-address-model.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -27,7 +30,7 @@ Role required: admin
 
     -   **Type**
     -   **primary**
-    These relationship fields are created in the Account Address \[account\_address\_relationship\] table. For more information on creating fields within a table, see [Add and customize a field in a table](https://www.servicenow.com/docs/access?context=t_CreatingNewFields&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    These relationship fields are created in the Account Address \[account\_address\_relationship\] table. For more information on creating fields within a table, see Add and customize a field in a table.
 
 3.  Update the custom code that references the Account Address table.
 

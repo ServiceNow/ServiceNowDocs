@@ -2,6 +2,7 @@
 title: Explore Finance Case Management
 description: Learn about the benefits and capabilities of Finance Case Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/finance-case-management/explore-fin-case-mgmt.html
 release: zurich
 product: Finance Case Management
 classification: finance-case-management
@@ -29,9 +30,9 @@ As part of the Next Experience default theme provided by the ServiceNow platform
 
 The dark theme emits less blue light, making the display easier for your eyes and less disturbing in low-light settings. The dark theme is supported for configurable workspaces, lists, forms, dashboards, and reports.
 
-For more information on customizing coral theme, see [Working with themes in Next Experience](https://www.servicenow.com/docs/access?context=next-experience-theming&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+For more information on customizing coral theme, see .
 
-An example of the email notification template with coral theme is shown below.![Theme](../../accounts-payable-operations/image/theme.png)
+An example of the email notification template with coral theme is shown below.\[Omitted image "theme.png"\] Alt text: Theme
 
 ## Finance Case Management applications
 
@@ -46,8 +47,8 @@ Finance Case Management uses the following applications:
     Finance Operations Workspace provides a single system of action to manage and prioritize work. The application displays critical information to prioritize work, and it eliminates tool sprawl.
 
 
--   **[Explore the Finance Operations Workspace](fin-ops-workpace.md)**  
+-   **[Explore the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/finance-case-management/fin-ops-workpace.md)**  
 The Finance Operations Workspace is a single system to manage and prioritize work.
 
-**Parent Topic:**[Finance Case Management](fin-case-mgmt-landing-page.md)
+**Parent Topic:**[Finance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/finance-case-management/fin-case-mgmt-landing-page.md)
 

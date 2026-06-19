@@ -2,6 +2,7 @@
 title: Create a test environment
 description: Create a test environment to define the setup to be used when conducting the tests in a test plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/test-management/t\_CreatingTestEnvironments.html
 release: zurich
 product: Test Management
 classification: test-management

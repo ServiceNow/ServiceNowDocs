@@ -2,6 +2,7 @@
 title: Configure preferences for security event notification policies
 description: Discover how to customize security event notification policies in Security Center to align with your organization's specific needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/security-center/configure-preferences-for-security-event-notifications.html
 release: zurich
 product: Security Center
 classification: security-center
@@ -71,20 +72,20 @@ The conditional logic and conditions to apply to your policies.
 
 </td><td>
 
-The email body and email recipients:-   **Notification**: Select one of the predefined notification templates. See [Create a custom email for security event notifications](create-custom-email-for-security-event-notifications.md) for more information.
+The email body and email recipients:-   **Notification**: Select one of the predefined notification templates. See [Create a custom email for security event notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/create-custom-email-for-security-event-notifications.md) for more information.
 -   **Add Notification**: Select Add Notification.
 -   **Groups**: Select the group who should receive the notification.
 -   **Users**: Select the users who should receive the notification.
 You can remove a notification by selecting **Remove notification**.
 
 </td></tr></tbody>
-</table>    **Note:** If you want to make a policy inactive, select **Deactivate**. If you want to replicate a policy, select the down arrow next to the **Update** \(![Update button.](../images/update-ui-image.png)\) button.
+</table>    **Note:** If you want to make a policy inactive, select **Deactivate**. If you want to replicate a policy, select the down arrow next to the **Update** \(\[Omitted image "update-ui-image.png"\] Alt text: Update button.\) button.
 
 5.  Select **Update** to save your settings.
 
 
--   **[Create a custom email for security event notifications](create-custom-email-for-security-event-notifications.md)**  
+-   **[Create a custom email for security event notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/create-custom-email-for-security-event-notifications.md)**  
 Learn how for creating a custom email for security event notifications by configuring new notifications, setting triggers, defining recipients, and crafting email content with dynamic event fields.
 
-**Parent Topic:**[Security Event Notifications](../concept/security-policies.md)
+**Parent Topic:**[Security Event Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/security-policies.md)
 

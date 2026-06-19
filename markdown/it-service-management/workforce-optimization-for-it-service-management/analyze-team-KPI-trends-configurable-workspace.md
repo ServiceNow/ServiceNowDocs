@@ -2,6 +2,7 @@
 title: Analyze the performance trends for your teams
 description: Analyze trends to monitor your team's performance within a KPI group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/analyze-team-KPI-trends-configurable-workspace.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -39,7 +40,7 @@ Analyze the data by drilling down into the data for a team, a specific team memb
 
 4.  Select a date range to view your team's performance for that time period.
 
-    You can set the default date range using the **sn\_optimize.default\_date\_range** [system property](../reference/configurable-wfo-itsm-teams-reference.md).
+    You can set the default date range using the **sn\_optimize.default\_date\_range** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-teams-reference.md).
 
     All teams that you manage are identified with a **My team** highlight in the group header. You can also see the team that you have visibility into.
 
@@ -89,5 +90,5 @@ Click the **Performance** tab to analyze skills for each agent in your team.1.  
 </table>    You can also review incidents, details of assignment groups, additional managers, and information that is relevant to the team.
 
 
-**Parent Topic:**[Analyzing team performance using Teams in Workforce Optimization for ITSM](../concept/teams-workforce-optimization-configurable-wfo-itsm.md)
+**Parent Topic:**[Analyzing team performance using Teams in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/teams-workforce-optimization-configurable-wfo-itsm.md)
 

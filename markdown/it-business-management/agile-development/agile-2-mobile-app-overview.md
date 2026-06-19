@@ -2,6 +2,7 @@
 title: Mobile experience for Agile Development 2.0
 description: Track and update the status of your stories and scrum tasks of the current sprint from your mobile device using the Agile Development v2 mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/agile-2-mobile-app-overview.html
 release: zurich
 product: Agile Development
 classification: agile-development

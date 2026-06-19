@@ -2,6 +2,7 @@
 title: Automation form fields
 description: The Automation form enables you to configure properties and pull data from referenced tables for an automated call attempt.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/sequences-automation-form-fields.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -15,7 +16,7 @@ breadcrumb: [Customer Engagement Sequences reference, Lead and opportunity manag
 
 The Automation form enables you to configure properties and pull data from referenced tables for an automated call attempt.
 
-Dot-walking enables you to access columns from referenced tables so you can pull data beyond the current record into your configuration. For more information, see [Dot-walking examples](https://www.servicenow.com/docs/access?context=dot-walking-examples&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+Dot-walking enables you to access columns from referenced tables so you can pull data beyond the current record into your configuration. For more information, see .
 
 <table id="table_dmy_q1m_ghc"><thead><tr><th>
 
@@ -94,5 +95,5 @@ The state of the call task. The available options include:-   Open
 -   Cancelled
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Customer Engagement Sequences reference](../concept/customer-engagement-sequences-reference.md)
+</table>**Parent Topic:**[Customer Engagement Sequences reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/customer-engagement-sequences-reference.md)
 

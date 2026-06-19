@@ -2,6 +2,7 @@
 title: Reassign assessor for a risk assessment project
 description: Reassign assessors for multiple in-progress risk assessment projects simultaneously to minimize disruptions during stakeholder transitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/reassign-assessor-for-risk-assessment-project.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -23,7 +24,7 @@ Role required: sn\_risk\_advanced.risk\_asmt\_project\_manager
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Select the list ![List icon.](../image/list-icon-riskworkspace.png) icon.
+2.  Select the list \[Omitted image "list-icon-riskworkspace.png"\] Alt text: List icon. icon.
 
 3.  From the list, navigate to **Risk assessment projects**, and select **In progress**.
 
@@ -36,5 +37,5 @@ Role required: sn\_risk\_advanced.risk\_asmt\_project\_manager
 6.  Select **Confirm**.
 
 
-**Parent Topic:**[Risk assessment project](../concept/risk-assessment-project.md)
+**Parent Topic:**[Risk assessment project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-project.md)
 

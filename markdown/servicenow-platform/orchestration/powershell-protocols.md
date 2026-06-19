@@ -2,6 +2,7 @@
 title: PowerShell protocols and troubleshooting
 description: PowerShell uses the Windows Management Instrumentation \(WMI\) and Windows Remote Management \(WinRM\) protocols to enable Orchestration activities to run commands on remote Windows hosts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/orchestration/powershell-protocols.html
 release: zurich
 product: Orchestration
 classification: orchestration
@@ -49,10 +50,10 @@ WinRM is automatically installed on Windows 2008 R2 and above operating systems,
     -   Configures a listener for the ports that send and receive WS-Management protocol, using either HTTP or HTTPS on any IP address.
     -   Creates a firewall exception for the current user profile.
 
--   **[MID Server PowerShell files](mid-server-powershell-files.md)**  
+-   **[MID Server PowerShell files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/mid-server-powershell-files.md)**  
 PowerShell functions are stored in script files \(\*.ps1\) that use a PowerShell Script module \(\*.psm1\) file name extension.
--   **[PowerShell troubleshooting](../concept/powershell-troubleshooting.md#)**  
+-   **[PowerShell troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/powershell-troubleshooting.md)**  
 Authentication and access denied errors can prevent PowerShell activities from running a command on a target host.
 
-**Parent Topic:**[PowerShell activity pack](../../../administer/orchestration-activities/concept/c_OrchestrPwrshellActivityPack.md)
+**Parent Topic:**[PowerShell activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_OrchestrPwrshellActivityPack.md)
 

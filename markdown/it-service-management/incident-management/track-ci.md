@@ -2,6 +2,7 @@
 title: Capture information on affected configuration items in an incident
 description: Capture information on affected configuration items \(CIs\), with type as asset, in an incident to keep a record of the updated, repaired, swapped, or retired configuration items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/track-ci.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -43,7 +44,7 @@ Related list
 
 </td><td>
 
--   In the **Affected CIs** related list, click the settings icon ![Personalize list icon](../image/personalize-setting-list.png).
+-   In the **Affected CIs** related list, click the settings icon \[Omitted image "personalize-setting-list.png"\] Alt text: Personalize list icon.
 -   Move the **Asset Action** and the **Swapped CI** fields from the **Available** column to the **Selected** column.
 -   Click **OK**.
 

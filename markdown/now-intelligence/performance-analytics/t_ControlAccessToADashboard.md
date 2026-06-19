@@ -2,6 +2,7 @@
 title: Share a responsive dashboard
 description: Share a dashboard with other users to create a shared view of data that you can use to collaborate. You can give other users viewing rights or both viewing and editing rights.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/t\_ControlAccessToADashboard.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -25,11 +26,11 @@ Role required:
 -   Users with the pa\_admin or pa\_power\_user role can share dashboards that they can edit.
 -   Users with the admin role can share any dashboard they can access.
 
-**Note:** This topic refers to Dashboards in the Core UI. If your instance is migrated to Platform Analytics experience, see [Share a Platform Analytics dashboard](share-db-in-ac.md).
+**Note:** This topic refers to Dashboards in the Core UI. If your instance is migrated to Platform Analytics experience, see [Share a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/share-db-in-ac.md).
 
-Access control list \(ACL\) rules for scoped applications apply to dashboards created within scoped applications. To apply pa\_dashboard ACLs to dashboards within a scoped app, see [Enable pa\_dashboard records in scoped applications](enable-pa-db-records-scoped-apps.md).
+Access control list \(ACL\) rules for scoped applications apply to dashboards created within scoped applications. To apply pa\_dashboard ACLs to dashboards within a scoped app, see [Enable pa\_dashboard records in scoped applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/enable-pa-db-records-scoped-apps.md).
 
-Reports and other data visualizations on dashboards are subject to report\_view ACLs and may not be visible to all users you share a dashboard with. For more information, see [Report\_view access control](../../reporting/concept/report-view-access-control.md).
+Reports and other data visualizations on dashboards are subject to report\_view ACLs and may not be visible to all users you share a dashboard with. For more information, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-view-access-control.md).
 
 Administrators can set two properties that affect how you share responsive dashboards:
 
@@ -44,15 +45,15 @@ Administrators can set two properties that affect how you share responsive dashb
     In this system property, the admin can specify that security rules are applied to the lists of users, user groups, and roles that are visible when users share responsive dashboards. Only users with one of these roles can see roles in the **Sharing** panel: admin, dashboard\_admin, pa\_admin, and pa\_power\_user.
 
 
-For more information, see [Dashboard permissions](../concept/c_DashboardRoles.md).
+For more information, see [Dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_DashboardRoles.md).
 
 ## About this task
 
 In general, when you share a dashboard, you aren’t granting permission to the widgets on that dashboard. Most Performance Analytics widgets, however, inherit security rules from the dashboards where they’ve been added. If you can view a dashboard, you can see the Performance Analytics widgets on that dashboard.
 
-**Note:** Performance Analytics List widgets don’t show the indicators that you don’t have permission to read. While the dashboard permission applies to the whole Performance Analytics list widget, individual indicators in the widget follow the permissions for those indicators. For more information about indicator permissions, see [Control access to an indicator](../../performance-analytics/task/t_ControlAccessToAnIndicator.md).
+**Note:** Performance Analytics List widgets don’t show the indicators that you don’t have permission to read. While the dashboard permission applies to the whole Performance Analytics list widget, individual indicators in the widget follow the permissions for those indicators. For more information about indicator permissions, see [Control access to an indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_ControlAccessToAnIndicator.md).
 
-When domain separation is enabled and the system property **glide.security.admin.override.accessterm** is not selected, admins must be in the same domain as the dashboard to share it. See [Evaluate the admin override at the access level](https://www.servicenow.com/docs/access?context=t_EvalAdmOverrideAccLevel&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+When domain separation is enabled and the system property **glide.security.admin.override.accessterm** is not selected, admins must be in the same domain as the dashboard to share it. See Evaluate the admin override at the access level.
 
 ## Procedure
 
@@ -60,9 +61,9 @@ When domain separation is enabled and the system property **glide.security.admin
 
 2.  Use the **Search dashboard** box to find the dashboard that you want to share.
 
-3.  Select the Sharing icon \(![Sharing icon](../image/icon-share-db.png)\) to open the **Share** panel.
+3.  Select the Sharing icon \(\[Omitted image "icon-share-db.png"\] Alt text: Sharing icon\) to open the **Share** panel.
 
-4.  Select **Add groups and users** \(![Add content icon](../image/icon-add-user-db.png)\). Users who have the admin, pa\_admin, dashboard\_admin, or pa\_power\_user roles can also see roles on the **Share** panel.
+4.  Select **Add groups and users** \(\[Omitted image "icon-add-user-db.png"\] Alt text: Add content icon\). Users who have the admin, pa\_admin, dashboard\_admin, or pa\_power\_user roles can also see roles on the **Share** panel.
 
 5.  Start typing the name in the **To** field.
 
@@ -72,25 +73,25 @@ When domain separation is enabled and the system property **glide.security.admin
 
     When a person you’ve shared the dashboard with goes to the Dashboard Overview, they see either Viewer or Editor as their role on the dashboard.
 
-    ![Sharing window with two recipients selected, the knowledge admin role selected, and the Recipients Can view menu item selected.](../image/invite-user-role-goup-to-dashboard1-p.png)
+    \[Omitted image "invite-user-role-goup-to-dashboard1-p.png"\] Alt text: Sharing window with two recipients selected, the knowledge admin role selected, and the Recipients Can view menu item selected.
 
-    **Note:** To edit a shared dashboard, a user must be in the same domain as the dashboard. Sharing a dashboard with write access \(**Can edit**\) doesn’t change that. The **Can edit** option only works if the dashboard is shared with a user in the same domain as the dashboard. For more information, see [Domain separation and responsive dashboards](../concept/domain-separation-in-dashboards.md).
+    **Note:** To edit a shared dashboard, a user must be in the same domain as the dashboard. Sharing a dashboard with write access \(**Can edit**\) doesn’t change that. The **Can edit** option only works if the dashboard is shared with a user in the same domain as the dashboard. For more information, see [Domain separation and responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/domain-separation-in-dashboards.md).
 
 8.  Clear the **Send an email invitation** check box.
 
     You can choose not to send an email message. For example, when recipients already know the dashboard has been shared with them.
 
-    **Note:** Sending email from within your instance requires configuration of email servers. For more information, see [Basic email setup](https://www.servicenow.com/docs/access?context=c_StandardEmailConfiguration&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    **Note:** Sending email from within your instance requires configuration of email servers. For more information, see .
 
 9.  Write an addition to the default email invitation message.
 
     The default email message reads "The dashboard &lt;Name of Dashboard&gt; has been shared with you by &lt;user role&gt;."
 
-    Users with the admin role can edit the default email message. Navigate to **System Notification** &gt; **Email** &gt; **Notifications** and open the dashboard sharing notification. For more information, see [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    Users with the admin role can edit the default email message. Navigate to **System Notification** &gt; **Email** &gt; **Notifications** and open the dashboard sharing notification. For more information, see Create an email notification.
 
 10. Select **Share**.
 
-    ![Share window with specified recipients, Send an email notification box checked, and an invitation message added.](../image/invite-user-role-goup-to-dashboard3-p.png)
+    \[Omitted image "invite-user-role-goup-to-dashboard3-p.png"\] Alt text: Share window with specified recipients, Send an email notification box checked, and an invitation message added.
 
 
 ## Result

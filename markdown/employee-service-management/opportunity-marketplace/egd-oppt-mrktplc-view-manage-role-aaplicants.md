@@ -2,6 +2,7 @@
 title: View and manage role applicants from Opportunity Marketplace
 description: Role applicants are employees who have applied to a role that is part of an opportunity. As an Opportunity Marketplace \[sn\_opp\_market.admin\], you can view and manage role applicant records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-view-manage-role-aaplicants.html
 release: zurich
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -39,7 +40,7 @@ Description
 
 </td><td>
 
-The names of the applicants links to their **Employee Profile**, see [Employee Profile table](../../human-resources/concept/employee-profile.md).
+The names of the applicants links to their **Employee Profile**, see [Employee Profile table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/employee-profile.md).
 
 </td></tr><tr><td>
 
@@ -68,5 +69,5 @@ The **State** of a role applicant indicates the progression of the applicant in 
 3.  Select the green check mark to apply and save your changes.
 
 
-**Parent Topic:**[Install and configure Opportunity Marketplace](../concept/egd-oppt-mrktplc-inst-config.md)
+**Parent Topic:**[Install and configure Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-inst-config.md)
 

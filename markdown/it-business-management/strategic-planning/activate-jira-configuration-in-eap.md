@@ -2,6 +2,7 @@
 title: Activate Jira configuration in Enterprise Agile Planning
 description: Activate the Jira configuration so that EAP teams integrated with Jira projects can be shown in the Enterprise Agile Planning workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/activate-jira-configuration-in-eap.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning
@@ -27,7 +28,7 @@ Role required: sn\_apw\_advanced.eap\_admin
 
 2.  From the **Settings** menu, select **Enterprise Agile Planning** &gt; **Configuration**.
 
-    ![Jira configuration in EAP.](../images/jira-int-eap-config.png)
+    \[Omitted image "jira-int-eap-config.png"\] Alt text: Jira configuration in EAP.
 
 3.  On the Jira configuration card, select **Edit**.
 
@@ -38,5 +39,5 @@ Role required: sn\_apw\_advanced.eap\_admin
 
 ## What to do next
 
-[Define Agile structure in EAP for Jira Configuration](define-agile-structure-eap-teams-spw-jira-integrations.md).
+[Define Agile structure in EAP for Jira Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/define-agile-structure-eap-teams-spw-jira-integrations.md).
 

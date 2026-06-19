@@ -2,6 +2,7 @@
 title: Company Event Troubleshooting
 description: Company event troubleshooting steps help resolve reservation changes and cancellations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ec-wsd-integration-troubleshooting.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -29,15 +30,15 @@ Provides helpful troubleshooting steps to manage new and existing reservations f
 
 1.  Navigate to **Workplace Service Management** &gt; **Portal** &gt; **New Reservation.**
 
-2.  **Note:** see [Workplace Service Delivery Integration](ec-wsd-integration-company-events.md) for more information on creating new company events, reservations details, and reservation actions.
+2.  **Note:** see [Workplace Service Delivery Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-wsd-integration-company-events.md) for more information on creating new company events, reservations details, and reservation actions.
 
-    ![Create a new reservation from the workplace service management portal](../images/wsd-integration-ts-new-reservation.png "New Reservation")
+    \[Omitted image "wsd-integration-ts-new-reservation.png"\] Alt text: Create a new reservation from the workplace service management portal
 
     **Note:** **Content Manager** role is required to create a new company event in the content library.
 
 3.  When your reservation is open, select the**Actions** drop-down menu to **Change reservation**, **Cancel reservation**, or **Share reservation**.
 
-4.  ![Cancel reservation to ensure company event is removed from published events](../images/wsd-integration-cancel-reservation.png "Cancel reservation")
+4.  \[Omitted image "wsd-integration-cancel-reservation.png"\] Alt text: Cancel reservation to ensure company event is removed from published events
 
 5.  Write **Cancel notes** to describe the reason for canceling the event.
 
@@ -45,12 +46,12 @@ Provides helpful troubleshooting steps to manage new and existing reservations f
 
     **Note:** The status of the reservation will update to canceled. The original reservation can still be viewed within the reservation content preview details. However, only the content manager can add reservations, if needed.
 
-7.  ![Leave Cancel notes to provide details on cancellation and to validate action to cancel](../images/wsd-integration-validate-cancelation.png "Cancel notes")
+7.  \[Omitted image "wsd-integration-validate-cancelation.png"\] Alt text: Leave Cancel notes to provide details on cancellation and to validate action to cancel
 
 8.  Refresh to validate reservation changes.
 
     Reservation details for company event is updated based on the **Action** you selected.
 
 
-**Parent Topic:**[Workplace Service Delivery Integration](ec-wsd-integration-company-events.md)
+**Parent Topic:**[Workplace Service Delivery Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-wsd-integration-company-events.md)
 

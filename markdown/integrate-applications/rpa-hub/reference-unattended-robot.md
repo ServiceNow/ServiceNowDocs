@@ -2,6 +2,7 @@
 title: Unattended Robot reference
 description: Reference topics provide additional information about the requirements for Unattended Robot installation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/reference-unattended-robot.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub

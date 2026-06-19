@@ -2,6 +2,7 @@
 title: Set up an approval rule for the approval level
 description: Set up an approval rule for the approval level. You can define the source, filter conditions on the source table to which the approval rule is applied, approver type, and approvers in the record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/set-up-approval-rules.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -35,15 +36,15 @@ You can select specific approvers, approvers from the selected source table, dyn
 
 4.  Click **New** in the Approval Rules section.
 
-5.  On the [Approval Rule form](../reference/approval-rule-form.md), fill in the fields.
+5.  On the [Approval Rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/approval-rule-form.md), fill in the fields.
 
 6.  Click **Submit**.
 
 
--   **[Approval Rule form](../reference/approval-rule-form.md)**  
+-   **[Approval Rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/approval-rule-form.md)**  
 Use the Approval Rule form to create an approval rule.
--   **[Approval Rule New Record form](../reference/approval-rule-new-record-form.md)**  
+-   **[Approval Rule New Record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/approval-rule-new-record-form.md)**  
 Use the Approval Rule New Record form to create an approval rule for the approval level for a policy record.
 
-**Parent Topic:**[Using Approver Configurator for setting up approvals](../concept/approval-configuration.md)
+**Parent Topic:**[Using Approver Configurator for setting up approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/approval-configuration.md)
 

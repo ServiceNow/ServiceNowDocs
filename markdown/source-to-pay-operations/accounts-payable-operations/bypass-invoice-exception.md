@@ -2,6 +2,7 @@
 title: Bypass an invoice exception
 description: Bypass an invoice exception if you find that it is not applicable to the invoice.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/bypass-invoice-exception.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -21,13 +22,13 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_apm.admin
 
 ## About this task
 
-The **Bypass exception** option is available for an exception only if the **Allow bypass** option is selected for that exception on the Invoice exception definition form. For more information, see [Invoice exception definition form](../reference/invoice-exception-definition-form.md).
+The **Bypass exception** option is available for an exception only if the **Allow bypass** option is selected for that exception on the Invoice exception definition form. For more information, see [Invoice exception definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/invoice-exception-definition-form.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Accounts Payable Operations** &gt; **Accounts Payable Workspace**.
 
-2.  Select the list icon \(![List icon](../../supplier-lifecycle-operations/image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon\).
 
 3.  Do one of the following:
 
@@ -82,5 +83,5 @@ The invoice exception is bypassed and its status changes to Closed-bypassed.
 
 After you bypass an exception, the exception engine re-runs automatically.
 
-**Parent Topic:**[Work on an invoice exception](work-invoice-exception-case.md)
+**Parent Topic:**[Work on an invoice exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/work-invoice-exception-case.md)
 

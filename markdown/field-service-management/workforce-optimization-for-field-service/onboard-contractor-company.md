@@ -2,6 +2,7 @@
 title: Onboard a contractor company
 description: Onboard a contractor company to outsource field service tasks. The contractor company then sends its employees to the customer location to perform required tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/onboard-contractor-company.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -21,7 +22,7 @@ Role required: wm\_admin and wm\_contractor\_manager\_int
 
 ## About this task
 
-You can also do the initial configuration of onboarding a contractor company through the **Field Service** &gt; **Administration** &gt; **Contractor Management** guided setup. For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+You can also do the initial configuration of onboarding a contractor company through the **Field Service** &gt; **Administration** &gt; **Contractor Management** guided setup. For more information about using the guided setup interface, see Using guided setup.
 
 ## Procedure
 

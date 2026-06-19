@@ -2,11 +2,12 @@
 title: Source-to-Pay integrations reference
 description: Reference topics provide additional information on integrating Source-to-Pay Operations with third-party applications, including primary data, fixed assets, purchase orders, receipts, invoices, and tax integration between Source-to-Pay and ERP systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/source-to-pay-integration-framework/s2p-integrations-reference.html
 release: zurich
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -15,10 +16,10 @@ breadcrumb: [Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 
 Reference topics provide additional information on integrating Source-to-Pay Operations with third-party applications, including primary data, fixed assets, purchase orders, receipts, invoices, and tax integration between Source-to-Pay and ERP systems.
 
--   **[Source-to-Pay Integrations glossary](../concept/source-to-pay-integrations-glossary.md#)**  
+-   **[Source-to-Pay Integrations glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integrations-glossary.md)**  
 Learn about the terms and concepts used in Source-to-Pay \(S2P\) integrations.
--   **[Source-to-Pay integrations with Oracle reference](s2p-integration-oracle-reference.md)**  
+-   **[Source-to-Pay integrations with Oracle reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-integration-framework/s2p-integration-oracle-reference.md)**  
 Reference topics provide additional information on integrating Source-to-Pay Operations with Oracle, including sales orders, procurement, finance, and so on, between Source-to-Pay and ERP systems.
 
-**Parent Topic:**[Source-to-Pay Integrations](../concept/source-to-pay-integrations-landing.md)
+**Parent Topic:**[Source-to-Pay Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integrations-landing.md)
 

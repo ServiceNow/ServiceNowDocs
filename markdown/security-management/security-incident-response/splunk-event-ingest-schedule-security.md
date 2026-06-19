@@ -2,6 +2,7 @@
 title: Schedule and retrieve notable events
 description: For automated notable event ingestion profiles, this step is required in the event profile configuration. During this step, you can verify the default settings for notable event retrieval or modify the scheduling as needed. This step also permits you to retrieve historical notable events using a date range.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/splunk-event-ingest-schedule-security.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -39,15 +40,15 @@ When the polling schedule is set, the scheduled job pulls both new and updated n
 
 2.  Choose one to schedule how and when notable events are pulled from the Splunk Enterprise Security console.
 
-<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d475378e103">
+<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d125774e103">
 
 Option
 
-</th><th align="left" id="d475378e106">
+</th><th align="left" id="d125774e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d475378e112">
+</th></tr></thead><tbody><tr><td id="d125774e112">
 
 **-   On-going Event Ingestion field selected
 -   One-Time Retrieval field cleared
@@ -57,7 +58,7 @@ Description
 
 On-going EventBased on the default setting, the ServiceNow AI Platform instance pulls from the Splunk Enterprise Security server for new and updated notable events every five minutes. Security incidents are created if notable events are found and incident generation filtering criteria are matched. To balance ingestion polling overhead desire to get the most current data, five minutes is the default setting. However, this value can be modified to as low as one minute if needed.
 
-</td></tr><tr><td id="d475378e139">
+</td></tr><tr><td id="d125774e139">
 
 **-   On-going Notable Event field cleared
 -   One-Time Retrieval field selected
@@ -72,7 +73,7 @@ One-Time RetrievalUse this configuration if you want a one-time pull to ingest h
 After the notable events are pulled, this setting will not retrieve more notable events for this profile going forward from the current date. This setting populates the security incident with all the notable events that are found for the range you enter.
 
 </td></tr></tbody>
-</table>    ![Scheduling page with calendar displayed.](../image/splunk_es_scheduling_security.png)
+</table>    \[Omitted image "splunk\_es\_scheduling\_security.png"\] Alt text: Scheduling page with calendar displayed.
 
     As an example for scheduling an initial notable event ingestion time, if you have a daily Splunk security check that runs once a day at 4 AM local time, you can set up the corresponding notable event profile in your ServiceNow AI Platform instance to run at 4:05 AM local time to capture the security failure event right away and create a security incident. Enter `04 05 00` in the Initial event ingestion field. In the Increment \(Minutes\) field, enter `1440` \(24 hours\) to schedule the next event ingestion for 24 hours from the initial event ingestion. Both the initial event ingestion time and next event ingestion time are displayed in the fields.
 

@@ -2,6 +2,7 @@
 title: Upload a Microsoft Word document to Google Drive
 description: Upload a Microsoft Word document that exists in your local machine to Google Drive and link the document with the policy. As a user, you can access the document from any device and enable multiple users to collaborate on the policy document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/upload-word-doc-googledrive.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -19,13 +20,13 @@ Upload a Microsoft Word document that exists in your local machine to Google Dri
 
 Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_user
 
-**Note:** Verify that you have set up the pre-requisite steps appropriately to upload the Microsoft Word document to cloud. For more information, see [Pre-requisites to enable policy redlining feature](../../grc-policy-and-compliance/concept/pre-req-policy-redlining.md).
+**Note:** Verify that you have set up the pre-requisite steps appropriately to upload the Microsoft Word document to cloud. For more information, see [Pre-requisites to enable policy redlining feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/pre-req-policy-redlining.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the List icon \(![Lists icon.](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the Compliance Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon.\).
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 
@@ -41,7 +42,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
 8.  Select the **File type** field and click to choose a Google document or Microsoft Word document that you want to upload in the Google Drive.
 
-    ![Upload a document to Google Drive to be attached to a policy.](../image/upload-doc-google-pc.png)
+    \[Omitted image "upload-doc-google-pc.png"\] Alt text: Upload a document to Google Drive to be attached to a policy.
 
     -   Google Docs: Upload as a Google document in Google Drive.
     -   Word: Upload as a Microsoft Word document in Google Drive.

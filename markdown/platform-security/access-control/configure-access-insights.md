@@ -2,6 +2,7 @@
 title: Configure Access Insights
 description: Enable the Access Insights feature in the Access Analyzer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/configure-access-insights.html
 release: zurich
 product: Access Control
 classification: access-control
@@ -31,7 +32,7 @@ The following procedure describes the steps for enabling Access Insights.
 
 4.  Enable **Access Insights**.
 
-    ![Access Insights Settings](../images/access-insights-settings.png)
+    \[Omitted image "access-insights-settings.png"\] Alt text: Access Insights Settings
 
     **Note:** By default, Peer-Level fields are selected with **Company**, **Department**, **Manager**. You can add more fields such as **Cost Center**, **Country Code**, **Location**, and **Title**.
 
@@ -40,5 +41,5 @@ The following procedure describes the steps for enabling Access Insights.
 
 ## Result
 
-The Access Insights feature is enabled and displayed when you're viewing the **Role Hierarchy** while comparing user access to a resource. To know more about using Access Insights, see [Use Access Insights](use-access-insights.md).
+The Access Insights feature is enabled and displayed when you're viewing the **Role Hierarchy** while comparing user access to a resource. To know more about using Access Insights, see [Use Access Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/use-access-insights.md).
 

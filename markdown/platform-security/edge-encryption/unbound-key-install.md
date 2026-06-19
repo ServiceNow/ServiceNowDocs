@@ -2,6 +2,7 @@
 title: Set up Unbound Technology keys
 description: Use Unbound Technology \(previously Dyadic Security\) keys with Edge Encryption by storing the base64-encoded wrapped encryption key as text file on the Edge Encryption proxy server and providing the wrapping key alias. The Unbound Technology implementation maintains control of the wrapping key.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/unbound-key-install.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -39,7 +40,7 @@ In your Unbound Technology implementation, identify both the wrapping key and th
 
         This property directs the proxy server to look for the encryption key in the `<Java-home-directory>/keys` directory.
 
-        For more information on Edge Encryption properties, see [Edge Encryption proxy server properties](../reference/edge-encryption-proxy-server-properties.md).
+        For more information on Edge Encryption properties, see [Edge Encryption proxy server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/edge-encryption-proxy-server-properties.md).
 
     4.  Uncomment the properties for the Dyadic provider configuration and set the value of **edgeencryption.ekm.provider.rsa.wrapping.key.alias** to the wrapping key alias in your Unbound implementation.
 
@@ -48,7 +49,7 @@ In your Unbound Technology implementation, identify both the wrapping key and th
 
 ## What to do next
 
-Add the encryption key alias to the instance. The encryption key alias is the file name of the wrapped encryption key added to the `<proxy-installation-directory>/keys` directory. For example, if the file in the directory is named `myunboundkey`, add this name to the **Key alias** field. See [Configure encryption keys on the instance](t_RotateEncryptionKeys.md).
+Add the encryption key alias to the instance. The encryption key alias is the file name of the wrapped encryption key added to the `<proxy-installation-directory>/keys` directory. For example, if the file in the directory is named `myunboundkey`, add this name to the **Key alias** field. See [Configure encryption keys on the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_RotateEncryptionKeys.md).
 
-**Parent Topic:**[Set up a keystore and encryption keys](set-up-keystore.md)
+**Parent Topic:**[Set up a keystore and encryption keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/set-up-keystore.md)
 

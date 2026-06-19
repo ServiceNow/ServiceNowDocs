@@ -2,6 +2,7 @@
 title: Enable a work order template to create relevant tasks for a work order
 description: Add the standalone task template to a work order template along with filtering conditions. This enables the work order template to identify and create the same task for different work orders only when the filtering conditions matches.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/add-stand-alone-task-template-to-wo-template.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

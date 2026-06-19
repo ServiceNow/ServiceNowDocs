@@ -2,6 +2,7 @@
 title: Create a catalog item using a template
 description: Make an item available in service catalog for catalog item requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/create-item-cat-builder.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -22,8 +23,6 @@ Role required: catalog\_builder\_editor, catalog\_admin, or admin
 ## About this task
 
 You must create a catalog item using one of the available catalog item templates.
-
-Demonstrates how business owners can create catalog items in Catalog Builder.
 
 ## Procedure
 
@@ -97,9 +96,9 @@ Questions
 
 Question sets \(variable sets\) or questions for the item. By default, the question sets included in the template are added and cannot be removed. Available question types are restricted to those specified in the template.
 
- From the **Insert new question** list, you can include additional question sets, questions, deactivated questions, single-column container, two-column container, and line break. For information on creating a question and supported question types, see [Create a question for a catalog item in Catalog Builder](create-question-cat-builder.md).
+ From the **Insert new question** list, you can include additional question sets, questions, deactivated questions, single-column container, two-column container, and line break. For information on creating a question and supported question types, see [Create a question for a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/create-question-cat-builder.md).
 
- You can also add dynamic form behavior for a question. For information on adding dynamic form behavior, see [Edit a question in Catalog Builder](edit-question-cat-builder.md).
+ You can also add dynamic form behavior for a question. For information on adding dynamic form behavior, see [Edit a question in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/edit-question-cat-builder.md).
 
  **Note:**
 
@@ -146,9 +145,9 @@ Flow or workflow that you want to associate with this item. It defines how this 
 
  By default, the Step based request fulfillment flow is available in the base system.
 
- For information about defining service fulfillment steps, see [Define a service fulfillment step](create-sf-step.md).
+ For information about defining service fulfillment steps, see [Define a service fulfillment step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/create-sf-step.md).
 
- For information about Workflow Studio flows, see [Flows](https://www.servicenow.com/docs/access?context=flows&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+ For information about Workflow Studio flows, see Flows.
 
 </td></tr><tr><td>
 
@@ -181,9 +180,9 @@ Review the item and submit it.
 
         -   Glide Virtual Agent \(com.glide.cs.chatbot\)
         -   Glide Virtual Agent Lite \(com.glide.cs.chatbot.lite\)
-        A Virtual Agent conversation whose sys\_id is specified in the **glide.sc.builder.va\_preview\_topic\_id** property is opened. By default, the property has the sys\_id of the base system Catalog builder preview topic. For information about this topic, see [Catalog builder preview topic conversation](../concept/catalog-builder-preview-topic.md). If the base system topic is used, the following scenarios are possible:
+        A Virtual Agent conversation whose sys\_id is specified in the **glide.sc.builder.va\_preview\_topic\_id** property is opened. By default, the property has the sys\_id of the base system Catalog builder preview topic. For information about this topic, see [Catalog builder preview topic conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/catalog-builder-preview-topic.md). If the base system topic is used, the following scenarios are possible:
 
-        -   If the item is supported in the conversation mode, you can preview the item in the Virtual Agent conversation by answering the questions but cannot submit a request for the item. For information about when a catalog item is supported in the conversation mode, [Service Catalog topic blocks in Virtual Agent powered by NLU](../concept/request-topic-blocks-va.md).
+        -   If the item is supported in the conversation mode, you can preview the item in the Virtual Agent conversation by answering the questions but cannot submit a request for the item. For information about when a catalog item is supported in the conversation mode, [Service Catalog topic blocks in Virtual Agent powered by NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/request-topic-blocks-va.md).
         -   If the item is not supported in the conversation mode, a link is provided for the portal preview of the item.
         -   When the required plugins are not installed, an illustration displaying a sample conversational experience for the catalog item submission appears.
     4.  To open the preview in a new tab, click **Open preview in a new tab**.
@@ -199,10 +198,10 @@ Review the item and submit it.
     **Note:** Until you submit the item, it is in the Draft state and is not available in the catalog.
 
 
--   **[Define a service fulfillment step](create-sf-step.md)**  
+-   **[Define a service fulfillment step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/create-sf-step.md)**  
 Define how a catalog item request should be fulfilled by creating simple service fulfillment steps.
--   **[Catalog builder preview topic conversation](../concept/catalog-builder-preview-topic.md)**  
+-   **[Catalog builder preview topic conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/catalog-builder-preview-topic.md)**  
 From the catalog builder, a user can preview a catalog item in a Virtual Agent conversation.
 
-**Parent Topic:**[Creating or editing catalog item template](create-cat-item-template-cat-builder.md)
+**Parent Topic:**[Creating or editing catalog item template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/create-cat-item-template-cat-builder.md)
 

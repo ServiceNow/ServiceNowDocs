@@ -2,6 +2,7 @@
 title: Create a Virtual Agent Bot Interconnect shell topic to call Google Dialogflow topics
 description: To access topics in the Google Dialogflow secondary bot, you must create at least one Virtual Agent Bot Interconnect topic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/link-ggl-dialogflow-intents-va.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -19,7 +20,7 @@ To access topics in the Google Dialogflow secondary bot, you must create at leas
 
 Create one or more intents in Google Dialogflow. For details, refer to the [Dialogflow documentation](https://cloud.google.com/dialogflow/es/docs/quick/build-agent).
 
-[Configure connections to Google Dialogflow in your Virtual Agent Bot Interconnect instance](configure-sn-instance-google-dialogflow.md).
+[Configure connections to Google Dialogflow in your Virtual Agent Bot Interconnect instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-sn-instance-google-dialogflow.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -42,7 +43,7 @@ There are two ways to integrate Google Dialogflow intents with Bot Interconnect
 
 1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
 
-2.  [Create a topic](create-virtual-agent-topic.md) for your Dialogflow intents.
+2.  [Create a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md) for your Dialogflow intents.
 
     In case of NLU topics, include the Dialogflow intent names as either keywords or utterances in the corresponding ServiceNow Virtual Agent intent. In case of LLM topics, the topic name and description of the Bot Interconnect topic should match the topic name and description of the Google Dialogflow topic.
 
@@ -65,9 +66,9 @@ There are two ways to integrate Google Dialogflow intents with Bot Interconnect
 
 Test your configuration. You can execute the topics that are available in the secondary bot from channels where Bot Interconnect is deployed.
 
-**Parent Topic:**[Using Google Dialogflow as a secondary bot with Virtual Agent Bot Interconnect](../concept/using-va-api-ggl-dialogflow.md)
+**Parent Topic:**[Using Google Dialogflow as a secondary bot with Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/using-va-api-ggl-dialogflow.md)
 
-**Previous topic:**[Configure connections to Google Dialogflow in your Virtual Agent Bot Interconnect instance](configure-sn-instance-google-dialogflow.md)
+**Previous topic:**[Configure connections to Google Dialogflow in your Virtual Agent Bot Interconnect instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-sn-instance-google-dialogflow.md)
 
-**Next topic:**[Using Microsoft Power Virtual Agents as a secondary bot with Virtual Agent Bot Interconnect](../concept/using-va-api-ms-powerva.md)
+**Next topic:**[Using Microsoft Power Virtual Agents as a secondary bot with Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/using-va-api-ms-powerva.md)
 

@@ -2,6 +2,7 @@
 title: Update references from legacy Investment Funding tables to Store tables
 description: Post migration of your legacy Investment Funding data, you must update the reference tables for the Investment and Funding Entity fields from the legacy Investment Funding tables to the ServiceNow Store application tables in the required tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/investment-funding/update-references-from-legacy-investment-funding-tables-to-store-tables.html
 release: zurich
 product: Investment Funding
 classification: investment-funding
@@ -33,5 +34,5 @@ Role required: admin
     |Goal|Investment|invst\_investment|sn\_invst\_pln\_invst\_investment|
 
 
-**Parent Topic:**[Upgrading legacy Investment Funding to Store application](../concept/upgrading-legacy-investment-funding-to-store.md)
+**Parent Topic:**[Upgrading legacy Investment Funding to Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/upgrading-legacy-investment-funding-to-store.md)
 

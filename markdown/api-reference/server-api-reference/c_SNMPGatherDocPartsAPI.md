@@ -2,6 +2,7 @@
 title: SNMPGatherDocParts - Global
 description: The SNMPGatherDocParts script include provides methods to handle the gathering of parts of an SNMP response document for JavaScript SNMP sensors.Returns the given XML document with any data gathered by prior SNMP probes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_SNMPGatherDocPartsAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The SNMPGatherDocParts script include provides methods to handle the gathering o
 
 Use this script include in a discovery script when you need to gather the parts of an SNMP response document.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## SNMPGatherDocParts - gather\(String doc, Object probe\)
 

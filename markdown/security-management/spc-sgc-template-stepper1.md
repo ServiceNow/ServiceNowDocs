@@ -2,6 +2,7 @@
 title: Enter metadata
 description: Fill in the metadata for your service graph connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/spc-sgc-template-stepper1.html
 release: zurich
 topic_type: task
 last_updated: "2025-11-20"
@@ -53,7 +54,7 @@ Vendor
 
 </td><td>
 
-Connector's vendor name from the list. The templates in the connector builder provide you with options that are based on popular API integrations from security tool vendors. You can choose a vendor to base your connector on. Alternatively, select the ![Plus sign](../../../common/image/icon-zoom-in.png) to add a vendor name and URL.Select the refresh icon \(![Rotating arrows that refresh the page](../../../reuse/icons/product-icons/sync-outline-24.svg)\) to see your vendor on the list.
+Connector's vendor name from the list. The templates in the connector builder provide you with options that are based on popular API integrations from security tool vendors. You can choose a vendor to base your connector on. Alternatively, select the \[Omitted image "icon-zoom-in.png"\] Alt text: Plus sign to add a vendor name and URL.Select the refresh icon \(\[Omitted image "sync-outline-24.svg"\] Alt text: Rotating arrows that refresh the page\) to see your vendor on the list.
 
 </td></tr><tr><td>
 

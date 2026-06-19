@@ -2,6 +2,7 @@
 title: Editing a published campaign
 description: If you need to make changes to a published campaign, review this information to understand your options. Editing a campaign pauses the campaign; any content that is not yet available is suspended until the campaign is published again. The campaign, campaign bundles, and campaign content are editable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ecpro-edit-campaign.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation

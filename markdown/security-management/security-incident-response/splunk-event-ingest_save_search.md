@@ -2,6 +2,7 @@
 title: Save searches in your Splunk Enterprise console for the Splunk Enterprise Event Ingestion integration
 description: The following steps for saving searches in your Splunk Enterprise console are provided for a user with the Splunk Enterprise administrator role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/splunk-event-ingest\_save\_search.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -43,15 +44,15 @@ Role required: Splunk Enterprise administrator
 
 6.  In the form that is displayed, fill in the fields.
 
-<table id="choicetable_zvm_5cv_3fb"><thead><tr><th align="left" id="d323949e154">
+<table id="choicetable_zvm_5cv_3fb"><thead><tr><th align="left" id="d107468e154">
 
 Field
 
-</th><th align="left" id="d323949e157">
+</th><th align="left" id="d107468e157">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d323949e163">
+</th></tr></thead><tbody><tr><td id="d107468e163">
 
 **Title**
 
@@ -59,7 +60,7 @@ Description
 
 Descriptive name for the alert, for example, Malware Events. After you save this search as an alert, events from a fired alert in the Splunk service are automatically processed into triggered alerts using this search data. This triggered alert title is used in the event profile that you create in your ServiceNow AI Platform instance to identify which events are ingested into your instance for ServiceNow AI Platform® Security Incident Response SIR security incident creation.
 
-</td></tr><tr><td id="d323949e189">
+</td></tr><tr><td id="d107468e189">
 
 **\(Optional\) Description**
 
@@ -67,7 +68,7 @@ Descriptive name for the alert, for example, Malware Events. After you save this
 
 Text to help you distinguish this alert from other alerts.
 
-</td></tr><tr><td id="d323949e198">
+</td></tr><tr><td id="d107468e198">
 
 **Alert type**
 
@@ -75,7 +76,7 @@ Text to help you distinguish this alert from other alerts.
 
 In the fields that are displayed, select **Scheduled** to search for this alert on a schedule, or **Real-time** to search continuously for this alert.
 
-</td></tr><tr><td id="d323949e213">
+</td></tr><tr><td id="d107468e213">
 
 **Trigger results**
 
@@ -85,7 +86,7 @@ You may prefer to set one of the following filter conditions:-   Number of Resul
 -   One-time \(once\) for each result
 
 
-</td></tr><tr><td id="d323949e232">
+</td></tr><tr><td id="d107468e232">
 
 **Trigger actions**
 
@@ -105,5 +106,5 @@ Add actions to trigger this alert. Expand the Add choice list and click **Add to
 
 You have successfully completed the required setup for the integration in your Splunk Enterprise console. If you have not already installed the application for the integration from the ServiceNow Store, the next step is to install the application for the integration and configure it.
 
-**Parent Topic:**[Integration architecture and external systems connection for the Splunk Enterprise Event Ingestion integration](../concept/splunk-event-ingest-integration-architecture.md)
+**Parent Topic:**[Integration architecture and external systems connection for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md)
 

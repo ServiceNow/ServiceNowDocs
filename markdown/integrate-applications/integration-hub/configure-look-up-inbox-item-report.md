@@ -2,6 +2,7 @@
 title: Configure Look up inbox items report
 description: Configure the report to retrieve workers' inbox items such as to-dos, action items, and approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/configure-look-up-inbox-item-report.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
@@ -38,119 +39,119 @@ Role required: You must fulfill the following prerequisites:
 
     1.  Create a calculated field of type Increment/Decrement and name it `CF_Last_functionally_updated_-1`.
 
-        ![Increment or decrement.](../image/CF-Last-functionally-updated-1.png)
+        \[Omitted image "CF-Last-functionally-updated-1.png"\] Alt text: Increment or decrement.
 
     2.  Create a calculated field of type `Lookup Value – As of Date`, name it `CF_Assigned_to_Worker_Previous`, and use **CF\_Last\_functionally\_updated\_-1** as the reference field.
 
-        ![Lookup value as of date.](../image/cf_assigned_to_worker_previous.png)
+        \[Omitted image "cf\_assigned\_to\_worker\_previous.png"\] Alt text: Lookup value as of date.
 
 2.  Create calculated field 2.
 
     1.  Create a calculated field of type Text Constant and name it `CF_Text_0`.
 
-        ![Calculated field of type Text Constant.](../image/Cf_text_0.png)
+        \[Omitted image "Cf\_text\_0.png"\] Alt text: Calculated field of type Text Constant.
 
     2.  Create a calculated field of type Text Constant and name it `CF_Text_as_1`.
 
-        ![Calculated field of type Text Constant.](../image/CF_Text_as_1.png)
+        \[Omitted image "CF\_Text\_as\_1.png"\] Alt text: Calculated field of type Text Constant.
 
     3.  Create a calculated field of type **True/False Condition** and name it `CF_Competed_by_Is_Not_Equal_Old_Assignee`.
 
-        ![Calculated field of type True/False Condition.](../image/CF_Competed_by_Is_Not_Equal_Old_Assignee.png)
+        \[Omitted image "CF\_Competed\_by\_Is\_Not\_Equal\_Old\_Assignee.png"\] Alt text: Calculated field of type True/False Condition.
 
     4.  Create a calculated field of type **Evaluate Expression** and name it `CF_EE_Completed_by_Admin_Exist_as_Old_Assignee_or_Not`.
 
-        ![Calculated field of type Evaluate Expression.](../image/CF_EE_Completed_by_Admin_Exist.png)
+        \[Omitted image "CF\_EE\_Completed\_by\_Admin\_Exist.png"\] Alt text: Calculated field of type Evaluate Expression.
 
 3.  Create calculated field 3.
 
     1.  Create a calculated field of type Text Constant and name it `CF_Text`.
 
-        ![Calculated field of type Text Constant.](../image/CF_Text.png)
+        \[Omitted image "CF\_Text.png"\] Alt text: Calculated field of type Text Constant.
 
     2.  Create a calculated field of type Lookup Related Value and name it `CF_Action_Event`.
 
-        ![Calculated field of type Lookup Related Value.](../image/CF_Action_Event8.png)
+        \[Omitted image "CF\_Action\_Event8.png"\] Alt text: Calculated field of type Lookup Related Value.
 
     3.  Create a calculated field of type Concatenate Text and name it `CF_Inbox_Subject`.
 
-        ![Calculated field of type Concatenate Text.](../image/CF_Inbox_Subject9.png)
+        \[Omitted image "CF\_Inbox\_Subject9.png"\] Alt text: Calculated field of type Concatenate Text.
 
 4.  Create calculated field 4.
 
     1.  Create a calculated field of type Text Constant and name it `CF_url`.
 
-        ![Calculated field of type Text Constant.](../image/CF_URL10.png)
+        \[Omitted image "CF\_URL10.png"\] Alt text: Calculated field of type Text Constant.
 
     2.  Create a calculated field of type Lookup Related Value and name it `CF_business_pro_transaction`.
 
-        ![Calculated field of type Lookup Related Value.](../image/CF_business_pro_transaction11.png)
+        \[Omitted image "CF\_business\_pro\_transaction11.png"\] Alt text: Calculated field of type Lookup Related Value.
 
     3.  Create a calculated field of type Lookup Related Value and name it `CF_BP_Wid`.
 
-        ![Calculated field of type Lookup Related Value.](../image/CF_BP_Wid12.png)
+        \[Omitted image "CF\_BP\_Wid12.png"\] Alt text: Calculated field of type Lookup Related Value.
 
     4.  Create Concatenate text type calculated field named `CF_Inbox_url`.
 
-        ![Concatenate text type calculated field.](../image/CF_Inbox_url13.png)
+        \[Omitted image "CF\_Inbox\_url13.png"\] Alt text: Concatenate text type calculated field.
 
 5.  Create calculated field 5.
 
     1.  Create a calculated field of type Lookup Related Value and name it `cf_step_id`.
 
-        ![Calculated field of type Lookup Related Value.](../image/cf_step_id14.png)
+        \[Omitted image "cf\_step\_id14.png"\] Alt text: Calculated field of type Lookup Related Value.
 
     2.  Create a calculated field of type Lookup Related Value and name it `CF_subject_id`.
 
-        ![Calculated field of type Lookup Related Value.](../image/CF_subject_id15.png)
+        \[Omitted image "CF\_subject\_id15.png"\] Alt text: Calculated field of type Lookup Related Value.
 
     3.  Create a calculated field of type Lookup Related Value and name it `CF_subject_and_step_id`.
 
-        ![Calculated field of type Lookup Related Value.](../image/CF_subject_and_step_id16.png)
+        \[Omitted image "CF\_subject\_and\_step\_id16.png"\] Alt text: Calculated field of type Lookup Related Value.
 
 6.  Create calculated field 6.
 
     1.  Create a calculated field of type Lookup Related Value and name it `CF_sent_back`.
 
-        ![Calculated field of type Lookup Related Value.](../image/CF_sent_back17.png)
+        \[Omitted image "CF\_sent\_back17.png"\] Alt text: Calculated field of type Lookup Related Value.
 
 7.  Create calculated field 7.
 
     1.  Create a calculated field of type Lookup Related Value and name it `CF_Business Process Definition on Action Event`.
 
-        ![Calculated field of type Lookup Related Value.](../image/CF_Business-Process-Definition-on-Action-Event18.png)
+        \[Omitted image "CF\_Business-Process-Definition-on-Action-Event18.png"\] Alt text: Calculated field of type Lookup Related Value.
 
     2.  Create a calculated field of type Lookup Related Value, name it `Cf_parent_business_process_definition`, and use **CF\_Business Process Definition on Action Event** as the reference field.
 
-        ![Calculated field of type Lookup Related Value.](../image/Cf_parent_business_process_definition19.png)
+        \[Omitted image "Cf\_parent\_business\_process\_definition19.png"\] Alt text: Calculated field of type Lookup Related Value.
 
 8.  Create calculated field 8.
 
     1.  Create a calculated field of type Increment/Decrement and name it `CF_Last_updated_on-1`.
 
-        ![Calculated field of type Increment/Decrement.](../image/CF_Last_updated_on-1-20.png)
+        \[Omitted image "CF\_Last\_updated\_on-1-20.png"\] Alt text: Calculated field of type Increment/Decrement.
 
     2.  Create a calculated field of type Lookup Value – As of Date, name it `cf_status_as_of_moment`, and use **CF\_Last\_updated\_on-1** as the reference field.
 
-        ![Calculated field of type Lookup Value – As of Date.](../image/cf_status_as_of_moment21.png)
+        \[Omitted image "cf\_status\_as\_of\_moment21.png"\] Alt text: Calculated field of type Lookup Value – As of Date.
 
 9.  Create calculated field 9.
 
     1.  Create a calculated field of type Lookup Value – As of Date and name it `CF_Action_Event`.
 
-        ![Calculated field of type Lookup Value – As of Date.](../image/CF_Action_Event22.png)
+        \[Omitted image "CF\_Action\_Event22.png"\] Alt text: Calculated field of type Lookup Value – As of Date.
 
 10. Create calculated field 10.
 
     1.  Create a calculated field of type Lookup Value – As of Date, name it `CF_worker`, and use **CF\_Action\_Event** as the lookup field.
 
-        ![Calculated field of type Lookup Value – As of Date.](../image/CF_worker23.png)
+        \[Omitted image "CF\_worker23.png"\] Alt text: Calculated field of type Lookup Value – As of Date.
 
 11. Create calculated field 11.
 
     1.  Create a True/False condition type calculated field named `CF_Awaiting_person_is_ISU`.
 
-        ![True/False condition type calculated field .](../image/CF_Awaiting_person_is_ISU24.png)
+        \[Omitted image "CF\_Awaiting\_person\_is\_ISU24.png"\] Alt text: True/False condition type calculated field .
 
 12. Create the report.
 
@@ -168,61 +169,61 @@ Role required: You must fulfill the following prerequisites:
 
     6.  Leave the **Temporary Report** box unchecked, then click **OK**.
 
-        ![Custom Report.](../image/SNIH_Inbox_Items25.png)
+        \[Omitted image "SNIH\_Inbox\_Items25.png"\] Alt text: Custom Report.
 
     7.  Select the report business object and report fields as given below.
 
-        ![Report Business Object.](../image/report-business-object26.png)
+        \[Omitted image "report-business-object26.png"\] Alt text: Report Business Object.
 
-        ![Report Business Object.](../image/report-business-object27.png)
+        \[Omitted image "report-business-object27.png"\] Alt text: Report Business Object.
 
     8.  In the Group column heading section, select all business object as below.
 
         Group Column heading for each business object must be empty.
 
-        ![Report Business Object.](../image/report-business-object28.png)
+        \[Omitted image "report-business-object28.png"\] Alt text: Report Business Object.
 
     9.  In the **Filter** section, select the value as shown below.
 
         Add parenthesis as given in the screenshots below.
 
-        ![Report Business Object.](../image/report-business-object29.png)
+        \[Omitted image "report-business-object29.png"\] Alt text: Report Business Object.
 
-        ![Report Business Object.](../image/report-business-object30.png)
+        \[Omitted image "report-business-object30.png"\] Alt text: Report Business Object.
 
-        ![Report Business Object.](../image/report-business-object31.png)
+        \[Omitted image "report-business-object31.png"\] Alt text: Report Business Object.
 
-        ![Report Business Object.](../image/report-business-object32.png)
+        \[Omitted image "report-business-object32.png"\] Alt text: Report Business Object.
 
     10. In the Prompt section, select **Populate Undefined Prompt Defaults**.
 
-        ![Report Business Object.](../image/report-business-object33.png)
+        \[Omitted image "report-business-object33.png"\] Alt text: Report Business Object.
 
     11. Select the value of prompts as given below under the Prompt default section.
 
         Confirm that the Label For Prompt XML Alias of all prompt fields must be same as the image provided below.
 
-        ![Report Business Object.](../image/report-business-object34.png)
+        \[Omitted image "report-business-object34.png"\] Alt text: Report Business Object.
 
     12. In the advanced section, select **Enable as Webservice**, and select **OK**.
 
     13. Select the three dots icon and then go to **Web Services&gt;View URLs**.
 
-        ![Report Business Object.](../image/report-business-object35.png)
+        \[Omitted image "report-business-object35.png"\] Alt text: Report Business Object.
 
     14. Select a time range from the parameters and select **OK**.
 
-        ![Report Business Object.](../image/report-business-object36.png)
+        \[Omitted image "report-business-object36.png"\] Alt text: Report Business Object.
 
     15. In the **View URLs Web Service** page, select the marked icon under CSV section.
 
         A new browser tab opens.
 
-        ![Report Business Object.](../image/report-business-object37.png)
+        \[Omitted image "report-business-object37.png"\] Alt text: Report Business Object.
 
         The RaaS URL of the report opens in a new browser tab.
 
-        ![RaaS URL report URL.](../image/report-business-object38.png)
+        \[Omitted image "report-business-object38.png"\] Alt text: RaaS URL report URL.
 
         https://wd2-impl-services1.workday.com represents the Base URL of customer’s workday tenant.
 

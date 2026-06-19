@@ -2,6 +2,7 @@
 title: ServiceNow CPQ: User Access Control
 description: View access types, access areas, and user roles that can be managed via the User Access utility.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/logik\_admin\_user\_access\_control.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -19,7 +20,7 @@ View access types, access areas, and user roles that can be managed via the User
 
 Use the User Access utility to manage access to ServiceNow CPQ Admin. Admin users have full admin access unless their access level is modified via CSV import.
 
-For basic user access in ServiceNow CPQ, see [User access](please_share_your_feedback_on_admin_assist_responses.md).
+For basic user access in ServiceNow CPQ, see [User access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/please_share_your_feedback_on_admin_assist_responses.md).
 
 ## Access levels
 
@@ -83,30 +84,30 @@ User access can be limited to specific tables via CSV or API.
 
 Admin users can modify access via CSV upload \(Admin &gt; Utilities &gt; User Access\). The User Access list shows existing users.
 
-![Admin: User Access Control](../images/cpq-user-access-control-list.png)
+\[Omitted image "cpq-user-access-control-list.png"\] Alt text: Admin: User Access Control
 
 Steps:
 
 1.  Hover a tooltip to view a userʼs access.
 
-    ![Admin: User Access Control](../images/cpq-user-access-control-list-tooltip.png)
+    \[Omitted image "cpq-user-access-control-list-tooltip.png"\] Alt text: Admin: User Access Control
 
 2.  Create a CSV file to add users, make changes to users, or delete users. \(See below for sample CSV files.\)
 
-    ![Admin: User Access Control](../images/cpq-user-access-control-list-sample-csv.png)
+    \[Omitted image "cpq-user-access-control-list-sample-csv.png"\] Alt text: Admin: User Access Control
 
 3.  Import the CSV file.
 
-    ![Admin: User Access Control](../images/cpq-user-access-control-csv-import.png)
+    \[Omitted image "cpq-user-access-control-csv-import.png"\] Alt text: Admin: User Access Control
 
     You will receive a message confirming success or failure.
 
-    ![Admin: User Access Control](../images/cpq-user-access-control-csv-import-status.png)
+    \[Omitted image "cpq-user-access-control-csv-import-status.png"\] Alt text: Admin: User Access Control
 
 
 Changes to user list are now made.
 
-![Admin: User Access Control](../images/cpq-user-access-control-list-updated.png)
+\[Omitted image "cpq-user-access-control-list-updated.png"\] Alt text: Admin: User Access Control
 
 ## Sample CSVs
 

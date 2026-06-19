@@ -2,7 +2,10 @@
 title: Components installed with case types
 description: Several types of components are installed with the Customer Service Case Types plugin \(com.snc.csm\_case\_types\), including components that support the service definitions feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/service-definitions-components.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 6
@@ -31,7 +34,7 @@ Case Type\[sn\_case\_type\]
 
 </td><td>
 
-This table stores the defined case types.For more information, see [Customer Service case types](../concept/customer-service-case-types.md).
+This table stores the defined case types.For more information, see [Customer Service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-case-types.md).
 
 </td></tr><tr><td>
 
@@ -46,7 +49,7 @@ This table stores the defined service definitions.The service definition feature
 -   Active
 -   Number
 
-For more information, see [Service definitions](../concept/csm-service-definitions.md).
+For more information, see [Service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-service-definitions.md).
 
 </td></tr><tr><td>
 
@@ -70,7 +73,7 @@ Product Service Relationship\[sn\_csm\_case\_types\_product\_service\_rel\]
 
 </td><td>
 
-This table stores the products that are linked to a service definition.For more information about these relationships, see [Associate a product with a service definition](../task/service-def-associate-products.md).
+This table stores the products that are linked to a service definition.For more information about these relationships, see [Associate a product with a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/service-def-associate-products.md).
 
 </td></tr><tr><td>
 
@@ -86,7 +89,7 @@ Catalog Service Relationship\[sn\_csm\_case\_types\_catalog\_service\_rel\]
 
 </td><td>
 
-This table stores the catalog items that are linked to a service definition.For more information, see [Configure catalog items for a service definition](../task/service-def-config-catalog-items.md).
+This table stores the catalog items that are linked to a service definition.For more information, see [Configure catalog items for a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/service-def-config-catalog-items.md).
 
 </td></tr><tr><td>
 
@@ -94,7 +97,7 @@ Service Definition User Criteria\[sn\_csm\_case\_types\_service\_user\_criteria\
 
 </td><td>
 
-This table stores the user criteria that has been configured for a service definition record. The system uses this criteria to filter the services that are available to users in the service selector when creating a case. For more information, see [Configure user criteria for a service definition](../task/configure-user-criteria-for-a-service-definition.md).
+This table stores the user criteria that has been configured for a service definition record. The system uses this criteria to filter the services that are available to users in the service selector when creating a case. For more information, see [Configure user criteria for a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-user-criteria-for-a-service-definition.md).
 
 </td></tr><tr><td>
 
@@ -102,7 +105,7 @@ Service Definition Customer Criteria\[sn\_csm\_case\_types\_service\_customer\_c
 
 </td><td>
 
-This table stores the customer criteria that has been configured for a service definition record. The system uses this criteria to filter the services that are available to customers. For more information, see [Configure customer criteria for a service definition](../task/configure-customer-criteria-for-a-service-definition.md).
+This table stores the customer criteria that has been configured for a service definition record. The system uses this criteria to filter the services that are available to customers. For more information, see [Configure customer criteria for a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-customer-criteria-for-a-service-definition.md).
 
 </td></tr></tbody>
 </table>## Roles installed with case types
@@ -127,7 +130,7 @@ Service definition admin\[sn\_csm\_case\_types.service\_definition\_admin\]
 
 </td><td>
 
-Administrator role for the [Customer Service case types](../concept/customer-service-case-types.md) tables. Users with this role can view, create, update, and delete service definitions, service definition categories, and service definition category relationships.
+Administrator role for the [Customer Service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-case-types.md) tables. Users with this role can view, create, update, and delete service definitions, service definition categories, and service definition category relationships.
 
 </td><td>
 
@@ -140,7 +143,7 @@ Service definition manager\[sn\_csm\_case\_types.service\_definition\_manager\]
 
 </td><td>
 
-Manager role for the [Customer Service case types](../concept/customer-service-case-types.md) tables. Users with this role can view, create, and update service definitions, service definition categories, and service definition category relationships.
+Manager role for the [Customer Service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-case-types.md) tables. Users with this role can view, create, and update service definitions, service definition categories, and service definition category relationships.
 
 </td><td>
 
@@ -189,7 +192,7 @@ None
 </td></tr></tbody>
 </table>## Properties installed with case types
 
-The following properties are added with the Customer Service Case Types plugin. These properties control the version of the case type selector screen that is displayed to agents. For more information, see [Case type selector screen](../concept/csm-case-type-select-modals.md).
+The following properties are added with the Customer Service Case Types plugin. These properties control the version of the case type selector screen that is displayed to agents. For more information, see [Case type selector screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-case-type-select-modals.md).
 
 <table id="table_dht_2j2_dwb"><thead><tr><th>
 
@@ -254,7 +257,7 @@ itil,admin,sn\_customerservice\_agent,sn\_customerservice.consumer\_agent
 
 Extension points enable you to extend the functionality of an application and integrate customizations without altering the application code. Extension points are stored in the Extension Point \[sys\_extension\_point\] table.
 
-The CSMServiceDefinitionIntegrations extension point returns a list of products that is available to agents in the **Product** field on Product Service Select version of the [case type selector screen](../concept/csm-case-type-select-modals.md). Out of box, this list is based on customer context and displays the sold products and install base items owned by the customer.
+The CSMServiceDefinitionIntegrations extension point returns a list of products that is available to agents in the **Product** field on Product Service Select version of the [case type selector screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-case-type-select-modals.md). Out of box, this list is based on customer context and displays the sold products and install base items owned by the customer.
 
 To access this extension point, navigate to **All** &gt; **System Extension Points** &gt; **Scripted Extension Points** and select **CSMServiceDefinitionIntegrations**.
 

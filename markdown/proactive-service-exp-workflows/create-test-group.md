@@ -2,6 +2,7 @@
 title: Create a test group
 description: Create a test group to combine various tests that can assist in troubleshooting issues encountered by specific types of services or product models. For instance, grouping a speed test and a ping test together can effectively help in diagnosing internet-related problems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/create-test-group.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"

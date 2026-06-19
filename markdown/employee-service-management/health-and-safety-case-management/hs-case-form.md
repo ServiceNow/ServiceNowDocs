@@ -2,6 +2,7 @@
 title: Health and Safety case form
 description: Safety case manager can use the safety case form to resolve health and safety questions that they receive from employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-case-management/hs-case-form.html
 release: zurich
 product: Health and Safety Case Management
 classification: health-and-safety-case-management
@@ -69,7 +70,7 @@ Related incidents / observations
 
 </td><td>
 
-Safety incident or observation this case is related to.This field appears only when the Health and Safety Incident Management \(sn\_hs\_im\_incident\) application is installed on your ServiceNow instance. For more information, see [Install Health and Safety Incident Management](../../ohs-incident-management/task/install-hs-incident-mgmt.md).
+Safety incident or observation this case is related to.This field appears only when the Health and Safety Incident Management \(sn\_hs\_im\_incident\) application is installed on your ServiceNow instance. For more information, see [Install Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-incident-management/install-hs-incident-mgmt.md).
 
 </td></tr><tr><td>
 
@@ -158,5 +159,5 @@ Only a user with the Return to work case writer \[sn\_hs\_cm.rtw\_writer\] role 
 |Accommodations needed|Changes required to help the employee return to work.|
 |Work restrictions|Limitations identified during the return to work planning for the employee.|
 
-**Parent Topic:**[Health and Safety Case Management reference](../concept/hs-case-management-reference.md)
+**Parent Topic:**[Health and Safety Case Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-case-management/hs-case-management-reference.md)
 

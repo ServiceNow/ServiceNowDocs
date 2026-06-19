@@ -2,6 +2,7 @@
 title: Creating telephone number components
 description: Create a central office code, country code, area code, and rate center for a series of telephone numbers by using the Telecommunications Network Inventory application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/create\_components\_of\_a\_telephone\_number.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -15,12 +16,12 @@ breadcrumb: [Configure, Telecommunications Network Inventory]
 
 Create a central office code, country code, area code, and rate center for a series of telephone numbers by using the Telecommunications Network Inventory application.
 
--   **[Create a central office code](../task/create_a_central_office_code.md)**  
+-   **[Create a central office code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create_a_central_office_code.md)**  
 Create a central office code to allocate it to an area code of a country by using the Telecommunications Network Inventory application.
--   **[Create a country code](../task/create_a_country_code.md)**  
+-   **[Create a country code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create_a_country_code.md)**  
  Create, review, update, or delete a country code by using the Telecommunications Network Inventory application. A country can have multiple phone formats and phone validations.
--   **[Create an area code](../task/create_an_area_code.md)**  
+-   **[Create an area code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create_an_area_code.md)**  
 Create, review, update, or delete an area code by using the Telecommunications Network Inventory application.
 
-**Parent Topic:**[Configuring Telecommunications Network Inventory](configuring-telecom-network-inventory.md)
+**Parent Topic:**[Configuring Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configuring-telecom-network-inventory.md)
 

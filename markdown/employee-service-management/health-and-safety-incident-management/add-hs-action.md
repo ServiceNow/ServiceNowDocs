@@ -2,12 +2,13 @@
 title: Add an action for a safety incident or observation
 description: Add an action to address the root causes of the reported safety incident or observation. You can add multiple actions for the incident or observation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-incident-management/add-hs-action.html
 release: zurich
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Manage incidents and observations, Manage incidents, observations, and anonymous safety concerns, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
 
@@ -17,7 +18,11 @@ Add an action to address the root causes of the reported safety incident or obse
 
 ## Before you begin
 
-Role required: sn\_ohs\_im.manager or sn\_ohs\_im.agent
+Role required: sn\_ohs\_im.manager, sn\_ohs\_im.agent, or sn\_ohs\_im.action\_writer
+
+## About this task
+
+You can add actions from the Actions tab on a Health and Safety record or by using the Action planner in the contextual sidebar. For more information on Action planner, see [Create and manage a safety action in the Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-core/hs-create-action-in-action-planner.md).
 
 ## Procedure
 
@@ -33,7 +38,7 @@ Role required: sn\_ohs\_im.manager or sn\_ohs\_im.agent
 
 5.  On the form, fill in the fields.
 
-    For information on field descriptions, see [Health and Safety action form](../reference/hs-action-form.md).
+    For information on field descriptions, see [Health and Safety action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-core/hs-action-form.md).
 
 6.  Select **Save**.
 
@@ -48,7 +53,7 @@ Role required: sn\_ohs\_im.manager or sn\_ohs\_im.agent
 ## What to do next
 
 -   You can assign the action to yourself or to another safety team member to start working on it.
--   You can share the action, independent of the incident, with other groups or agents, so that they can prevent the similar incident from happening at any of their locations. To share an action, select **Copy action**. For more information, see [Share an action with other teams](share-hs-action.md).
+-   You can share the action, independent of the incident, with other groups or agents, so that they can prevent the similar incident from happening at any of their locations. To share an action, select **Copy action**. For more information, see [Share an action with other teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-incident-management/share-hs-action.md).
 
-**Parent Topic:**[Managing Health and Safety incidents and observations](../concept/managing-hs-incidents-obs.md)
+**Parent Topic:**[Managing Health and Safety incidents and observations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-incident-management/managing-hs-incidents-obs.md)
 

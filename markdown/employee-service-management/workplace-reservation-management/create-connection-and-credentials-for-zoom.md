@@ -2,6 +2,7 @@
 title: Create connection and credential for Zoom
 description: Setup connection and credentials alias for Zoom.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-reservation-management/create-connection-and-credentials-for-zoom.html
 release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -129,9 +130,9 @@ Domain that the action or activity runs in.
 </table>    4.  Click **Submit**.
 
 
-**Parent Topic:**[Connect Workplace Reservation Management with Zoom](connect-rsv-mtm-with-zoom.md)
+**Parent Topic:**[Connect Workplace Reservation Management with Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/connect-rsv-mtm-with-zoom.md)
 
-**Previous topic:**[Setup OAuth connectivity between ServiceNow and Zoom](setup-connectivity-between-servicenow-and-zoom.md)
+**Previous topic:**[Setup OAuth connectivity between ServiceNow and Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/setup-connectivity-between-servicenow-and-zoom.md)
 
-**Next topic:**[Display permanent seat assignments on floor maps](display-permanent-seats-on-maps.md)
+**Next topic:**[Display permanent seat assignments on floor maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/display-permanent-seats-on-maps.md)
 

@@ -2,6 +2,7 @@
 title: Configure classes for Cloud vs Non-cloud resources
 description: Include or exclude pairs of CI Class/Type in the Cloud vs Non-cloud resources chart in CMDB Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-config-classes-cloud.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -21,7 +22,7 @@ Role required: sn\_cmdb\_admin
 
 ## About this task
 
-The CMDB Insight Query Categories \[sn\_cmdb\_ws\_insight\_query\_category\] table contains the pairs of **CI Class**/**Type** for the Cloud vs Non-cloud resources chart in the CI overview tile in [CMDB Workspace](../concept/cmdb-workspace.md). The **Active** setting in a record determines if the respective **CI Class**/**Type** pair appears in the chart. By default, all pairs are configured to appear in the chart.
+The CMDB Insight Query Categories \[sn\_cmdb\_ws\_insight\_query\_category\] table contains the pairs of **CI Class**/**Type** for the Cloud vs Non-cloud resources chart in the CI overview tile in [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md). The **Active** setting in a record determines if the respective **CI Class**/**Type** pair appears in the chart. By default, all pairs are configured to appear in the chart.
 
 A **CI Class**/**Type** pair appears or doesn't appear according to its **Active** setting and regardless of the status of its associated scheduled job.
 
@@ -36,5 +37,5 @@ A **CI Class**/**Type** pair appears or doesn't appear according to its **Active
     For example, set **Active** to **false** for the **Applications**/**Non-cloud** pair. This setting will exclude from the chart all CIs in the Applications class which are determined to be non-cloud.
 
 
-**Parent Topic:**[Configuring CMDB Workspace](../concept/configuring-cmdb-workspace.md)
+**Parent Topic:**[Configuring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)
 

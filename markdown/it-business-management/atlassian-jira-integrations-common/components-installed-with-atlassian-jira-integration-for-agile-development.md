@@ -2,6 +2,7 @@
 title: Components installed with Atlassian Jira integration for Agile Development
 description: Several types of components are installed with activation of the Atlassian Jira integration for Agile Development application, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/atlassian-jira-integrations-common/components-installed-with-atlassian-jira-integration-for-agile-development.html
 release: zurich
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
@@ -15,7 +16,7 @@ breadcrumb: [Install Atlassian Jira Integration for Agile Development, Atlassian
 
 Several types of components are installed with activation of the Atlassian Jira integration for Agile Development application, including tables, user roles, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles installed
 
@@ -78,7 +79,7 @@ Import Jira Issue
 
 Imports issues and sprints from Jira automatically at a scheduled time.This job is inactive by default.
 
- For more information, see [Schedule a job to auto-import issues from Jira to Agile Development 2.0](schedule-jobs-to-import-issue-from-jira.md).
+ For more information, see [Schedule a job to auto-import issues from Jira to Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/schedule-jobs-to-import-issue-from-jira.md).
 
 </td></tr></tbody>
 </table>## Tables installed

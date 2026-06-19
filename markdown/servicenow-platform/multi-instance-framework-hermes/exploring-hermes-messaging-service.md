@@ -2,6 +2,7 @@
 title: Exploring Hermes Messaging Service
 description: Learn about the Hermes Messaging Service and how it helps you manage the flow of data between your Kafka environment and your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/multi-instance-framework-hermes/exploring-hermes-messaging-service.html
 release: zurich
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -80,10 +81,10 @@ The Hermes Messaging Service is a ServiceNow AI Platform capability that is avai
 
 |Benefit|Application|Users|
 |-------|-----------|-----|
-|Export data from your ServiceNow instance to an external application using the Hermes Messaging Service with Workflow Studio.|[Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=zurich&pubname=zurich-application-development&ft:locale=en-US)|Administrator|
-|Export log data securely from your instance to your external data lake for reporting, auditing, or regulatory purposes by using the Hermes Messaging Service with the Log Export Service.|[Exploring Log Export Service \(LES\)](https://www.servicenow.com/docs/access?context=les-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)|Administrator|
-|Trigger flows from incoming Kafka events and trigger outgoing messages to your Kafka environment using the Hermes Messaging Service with Stream Connect.|[Using Stream Connect for Apache Kafka](https://www.servicenow.com/docs/access?context=stream-connect-apache-kafka&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)|Administrator|
-|Improve the performance and processing efficiency of Instance Data Replication \(IDR\) by upgrading replication sets that you created prior to the Utah release to use the Hermes Messaging Service.|[Instance Data Replication](../../instance-data-replication/concept/instance-data-replication.md)|Administrator|
+|Export data from your ServiceNow instance to an external application using the Hermes Messaging Service with Workflow Studio.||Administrator|
+|Export log data securely from your instance to your external data lake for reporting, auditing, or regulatory purposes by using the Hermes Messaging Service with the Log Export Service.||Administrator|
+|Trigger flows from incoming Kafka events and trigger outgoing messages to your Kafka environment using the Hermes Messaging Service with Stream Connect.||Administrator|
+|Improve the performance and processing efficiency of Instance Data Replication \(IDR\) by upgrading replication sets that you created prior to the Utah release to use the Hermes Messaging Service.|[Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/instance-data-replication-idr/instance-data-replication.md)|Administrator|
 
 ## Limitations
 
@@ -98,9 +99,9 @@ The Hermes Messaging Service is a ServiceNow AI Platform capability that is avai
 
 To learn more about configuring and using the Hermes Messaging Service, see:
 
--   [Configuring Hermes Messaging Service](configuring-hermes-messaging-service.md)
--   [Exchanging data using Hermes](exchanging-data-hermes-messaging-service.md)
--   [Managing namespaces and topics in Hermes](managing-namespaces-topics-hermes.md)
--   [Administering Hermes Messaging Service](hermes-messaging-service-administration.md)
--   [Hermes Messaging Service reference](hermes-messaging-service-reference.md)
+-   [Configuring Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/multi-instance-framework-hermes/configuring-hermes-messaging-service.md)
+-   [Exchanging data using Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/multi-instance-framework-hermes/exchanging-data-hermes-messaging-service.md)
+-   [Managing namespaces and topics in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/multi-instance-framework-hermes/managing-namespaces-topics-hermes.md)
+-   [Administering Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-administration.md)
+-   [Hermes Messaging Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-reference.md)
 

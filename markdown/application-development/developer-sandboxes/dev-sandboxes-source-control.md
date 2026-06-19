@@ -2,6 +2,7 @@
 title: Source control and Developer Sandboxes
 description: Use source control with Developer Sandboxes to enable parallel development and prevent merge conflicts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/developer-sandboxes/dev-sandboxes-source-control.html
 release: zurich
 product: Developer Sandboxes
 classification: developer-sandboxes
@@ -23,7 +24,7 @@ In support, use Developer Sandboxes in tandem with Git source control to synchro
 
 Using source control, developers can work on independent branches and merge them according to your organization's best practices.
 
-![Sample Git-based version control flow chart](../image/dev-sbx-infographic-git.png "Example branching strategy with source control")
+\[Omitted image "dev-sbx-infographic-git.png"\] Alt text: Sample Git-based version control flow chart
 
 ## Git credentials
 

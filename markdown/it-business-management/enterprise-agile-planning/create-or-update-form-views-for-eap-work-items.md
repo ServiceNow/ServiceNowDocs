@@ -2,11 +2,12 @@
 title: Create or update form views for EAP work items
 description: Create or update form views for work item types so that the fields displayed in the Backlog and Planning board pages of Enterprise Agile Planning suit your team requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/enterprise-agile-planning/create-or-update-form-views-for-eap-work-items.html
 release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -41,22 +42,22 @@ Configuration for form views of work item tables determines the fields that are 
 
 5.  Create form views or update them.
 
-<table id="choicetable_xcm_cz1_f1c"><thead><tr><th align="left" id="d96637e129">
+<table id="choicetable_xcm_cz1_f1c"><thead><tr><th align="left" id="d73695e129">
 
 Option
 
-</th><th align="left" id="d96637e132">
+</th><th align="left" id="d73695e132">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d96637e138">
+</th></tr></thead><tbody><tr><td id="d73695e138">
 
 **Create form views**
 
 </td><td>
 
 1.  From the **View name** field, select **New**.
-2.  In the **Create New View** window, enter one of the following names in the **View name** field:
+2.  In the **Create New View** window, enter one of the following names in the **View name** field.
     -   To create the EAP Preview view, enter **Workspace EAP Preview**
     -   To create the EAP Default view, enter **Workspace EAP Default**
     -   To create the EAP New view, enter **Workspace EAP New**
@@ -68,7 +69,7 @@ You can also rearrange them in the order of your choice.
 5.  Repeat the steps to complete creating the other two form views.
 
 
-</td></tr><tr><td id="d96637e209">
+</td></tr><tr><td id="d73695e211">
 
 **Edit existing form views**
 
@@ -85,5 +86,5 @@ You can also rearrange them in the order of your choice.
 
 ## What to do next
 
-[Create or update list view for EAP work items](create-or-update-list-views-for-eap-work-items.md).
+[Create or update list view for EAP work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/create-or-update-list-views-for-eap-work-items.md).
 

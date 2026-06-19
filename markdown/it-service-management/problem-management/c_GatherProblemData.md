@@ -2,6 +2,7 @@
 title: Data for problem resolution
 description: The quick resolution of problems requires gathering as much information as possible about the problem.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/problem-management/c\_GatherProblemData.html
 release: zurich
 product: Problem Management
 classification: problem-management
@@ -31,7 +32,7 @@ The Dependency Views map provides a visual representation of the configuration i
 
 For example, the following image is a map for the CI **nyc rac na200**, which is a mass storage device.
 
-![Dependency views map](../image/ProbBSM1.png "Map for nyc rac nas200 storage device")
+\[Omitted image "ProbBSM1.png"\] Alt text: Dependency views map
 
 The icons beside CIs indicate the following information. You can view information for the selected CI by clicking **Details** in the form header, or by pointing to the icon and viewing a pop-up box.
 
@@ -45,13 +46,13 @@ The map shows the upstream and downstream relationships of the CI. The storage d
 
 ## CMDB baseline history
 
-If a baseline is [generated](https://www.servicenow.com/docs/access?context=c_BaselineCMDB&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US), planned or unplanned changes are tracked within the system. A common cause of problems is improperly executed changes, and reviewing the history of changes to a CI helps track problems caused by improper changes.
+If a baseline is generated, planned or unplanned changes are tracked within the system. A common cause of problems is improperly executed changes, and reviewing the history of changes to a CI helps track problems caused by improper changes.
 
 To check the CMDB Baseline, view the CI record and check **Baseline Differences** and **Scheduled Changes**. The administrator can use the form designer to add these formatters.
 
-![View baseline differences](../image/problem-baseline.png "Problem baseline")
+\[Omitted image "problem-baseline.png"\] Alt text: View baseline differences
 
 In the example above, the change in RAM is associated with a change request. You can review the change and see what was planned and what was implemented. The removal of QuickTime software was recorded as an unplanned change.
 
-**Parent Topic:**[Reference section for Problem Management](reference-section-for-problem-management.md)
+**Parent Topic:**[Reference section for Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/reference-section-for-problem-management.md)
 

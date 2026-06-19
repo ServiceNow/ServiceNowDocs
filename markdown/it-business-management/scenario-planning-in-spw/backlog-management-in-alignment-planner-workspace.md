@@ -2,6 +2,7 @@
 title: Prioritization in Strategic Planning
 description: Prioritize work that is relevant for your portfolio using a centralized workspace in Strategic Planning. Review and determine the right work to invest in.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/backlog-management-in-alignment-planner-workspace.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -24,7 +25,7 @@ Using the Prioritization tab in the workspace, you can review all the new and ex
 
     Planning items are listed in a grid format. You can stack-rank the items, group them by a desired attribute, and sort them based on their priority by using the drag functionality.
 
-    ![Prioritization list view in Strategic Planning workspace and Portfolio Planning Workspace](../images/prioritization-rank-group.png)
+    \[Omitted image "prioritization-rank-group.png"\] Alt text: Prioritization list view in Strategic Planning workspace and Portfolio Planning Workspace
 
 
 Alternatively, you can also use the Kanban or Hierarchy tab to review and manage your backlog.
@@ -33,16 +34,16 @@ Alternatively, you can also use the Kanban or Hierarchy tab to review and manage
 
     Planning items are displayed in a Kanban board. Portfolio managers can visualize and adjust items in vertical lanes and horizontal lanes. Using the Personalize settings, you can choose to modify the attributes by which you want to view your vertical lanes and the horizontal lanes. For example, you can view the records grouped by planning state and priority, by simply changing the values of the vertical lanes and horizontal lanes. You can also choose not to have any horizontal lane value, by selecting **None** from the drop-down list. The data displayed on the cards can be modified using the side panel. With this feature, you will be able to prioritize more effectively and view just the required details on the cards. Also, click the card to open a side panel with details, to edit the planning item details on the same page.
 
-    ![Prioritization Kanban view in Strategic Planning workspace](../images/prioritization-kanban-personalize.png)
+    \[Omitted image "prioritization-kanban-personalize.png"\] Alt text: Prioritization Kanban view in Strategic Planning workspace
 
 -   **Hierarchy tab**
 
     This tab displays how work in the current portfolio plan is aligned with respect to entities of other lenses. Using the lens switcher, you can change the perspective in which you view the alignment of the work. Using the timeline section of the view, prioritize work effectively by gaining visibility into the schedule and dependencies between the planning items.
 
-    ![Hierarchy view of the Prioritization view in Strategic Planning and Portfolio Planning Workspace](../images/prioritization-lens-switcher.png)
+    \[Omitted image "prioritization-lens-switcher.png"\] Alt text: Hierarchy view of the Prioritization view in Strategic Planning and Portfolio Planning Workspace
 
 
-To get started with managing your work pipeline in Strategic Planning, see [Prioritizing portfolio plan work in Strategic Planning Workspace](managing-backlog-alignment-planner-workspace.md).
+To get started with managing your work pipeline in Strategic Planning, see [Prioritizing portfolio plan work in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/managing-backlog-alignment-planner-workspace.md).
 
-**Parent Topic:**[Exploring Portfolio Planning in Strategic Planning Workspace](../../alignment-planner-workspace/concept/alignment-planner-workspace.md)
+**Parent Topic:**[Exploring Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/alignment-planner-workspace.md)
 

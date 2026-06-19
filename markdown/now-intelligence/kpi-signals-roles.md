@@ -2,6 +2,7 @@
 title: KPI Signals roles
 description: The following roles apply to KPI Signals
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/kpi-signals-roles.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"

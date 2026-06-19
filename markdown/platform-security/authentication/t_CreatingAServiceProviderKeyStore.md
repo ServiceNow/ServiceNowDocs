@@ -2,6 +2,7 @@
 title: Create a service provider key store for SAML
 description: Create a Java key store containing the following items for your instance to sign logout requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/t\_CreatingAServiceProviderKeyStore.html
 release: zurich
 product: Authentication
 classification: authentication

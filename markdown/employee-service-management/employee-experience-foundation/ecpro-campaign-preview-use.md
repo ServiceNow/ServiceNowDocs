@@ -2,6 +2,7 @@
 title: Preview your portal
 description: Use campaign preview to view the campaign content that appears on your portal. Use the Preview filters to fine-tune what you want to preview.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ecpro-campaign-preview-use.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,7 +28,7 @@ Role required: sn\_cd.content\_manager, sn\_ca.campaign\_manager
 
 3.  Select the **Portal preview** tab.
 
-    **Note:** You can also show a portal preview by selecting the show preview icon \(![Show Preview icon](../images/campaign-prev-icon.png)\) from the top of a stage.
+    **Note:** You can also show a portal preview by selecting the show preview icon \(\[Omitted image "campaign-prev-icon.png"\] Alt text: Show Preview icon\) from the top of a stage.
 
 4.  Use **Preview filters** to determine what you preview.
 
@@ -63,7 +64,7 @@ Select a page
 
 The page on your Service Portal you want to preview.A page is a pre-existing record that contains code and structure that define how to display content you want to schedule and make available to your employees.
 
-**Note:** Templates are contained in a topic and references a page. Templates have a direct relationship with a page, but multiple topics can be associated with a template/page. For example, the base system provides the emp\_employee-taxonomy page and most of the topics are associated with that page. For more information, see [Create topic page template](customise-topic-pages-with-templates.md#).
+**Note:** Templates are contained in a topic and references a page. Templates have a direct relationship with a page, but multiple topics can be associated with a template/page. For example, the base system provides the emp\_employee-taxonomy page and most of the topics are associated with that page. For more information, see [Create topic page template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/customise-topic-pages-with-templates.md).
 
  When a page has topics associated with it, the **Taxonomy** field appears and you can filter by it and you can select topics associated with the taxonomy.
 
@@ -89,7 +90,7 @@ Select a topic
 
 Allows you to preview content associated with a topic.Topics are organized under a taxonomy.
 
- When the Allow Ownership for Topics \(sn\_cd.activate\_topic\_ownership\) system property is set to **Yes** and the topic is assigned to you or a group you belong to, you only see topics assigned to you or topics that do not have restrictions. For more information, see [Properties installed with Content Experiences](../reference/properties-installed-with-content-auto.md) and [Assign ownership of content](ecpro-ca-cd-content-restriction.md).
+ When the Allow Ownership for Topics \(sn\_cd.activate\_topic\_ownership\) system property is set to **Yes** and the topic is assigned to you or a group you belong to, you only see topics assigned to you or topics that do not have restrictions. For more information, see [Properties installed with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/properties-installed-with-content-auto.md) and [Assign ownership of content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-ca-cd-content-restriction.md).
 
 </td></tr><tr><td>
 
@@ -106,6 +107,6 @@ Provides messages in the banner identifying content that is inactive. Toggle swi
 
 5.  Exit **Preview filters** to view the portal.
 
-    **Note:** Select the **View content details** \(![View content details icon](../../human-resources/image/view-content-details-icon.png)\) icon to see additional details about the content.
+    **Note:** Select the **View content details** \(\[Omitted image "view-content-details-icon.png"\] Alt text: View content details icon\) icon to see additional details about the content.
 
 

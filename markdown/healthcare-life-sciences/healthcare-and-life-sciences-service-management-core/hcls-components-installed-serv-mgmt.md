@@ -2,6 +2,7 @@
 title: Components installed with Healthcare and Life Sciences Service Management Core
 description: Several types of components are installed with installation of the Healthcare and Life Sciences Service Management Core application, including user roles, tables, plugins, ServiceNow Store applications, and business rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-components-installed-serv-mgmt.html
 release: zurich
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Healthcare and Life Sciences Service Management Core, He
 
 Several types of components are installed with installation of the Healthcare and Life Sciences Service Management Core application, including user roles, tables, plugins, ServiceNow Store applications, and business rules.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -413,7 +414,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Allergy intolerance \[sn\_hcls\_allergy\]](hcls-allergy-intolerance.md)
+[Allergy intolerance \[sn\_hcls\_allergy\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-allergy-intolerance.md)
 
 </td><td>
 
@@ -421,7 +422,7 @@ Stores the information about a clinical assessment of an allergy or intolerance;
 
 </td></tr><tr><td>
 
-[Appointment \[sn\_hcls\_appointment\]](hcls-appointment-table.md)
+[Appointment \[sn\_hcls\_appointment\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-appointment-table.md)
 
 </td><td>
 
@@ -429,7 +430,7 @@ Stores the appointment booking details for a patient in your healthcare organiza
 
 </td></tr><tr><td>
 
-[Appointment participant \[sn\_hcls\_appointment\_participant\]](hcls-appointment-participant.md)
+[Appointment participant \[sn\_hcls\_appointment\_participant\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-appointment-participant.md)
 
 </td><td>
 
@@ -437,7 +438,7 @@ Stores the participant details of an appointment.
 
 </td></tr><tr><td>
 
-[Attribute \[sn\_hcls\_characteristic\_attribute\]](hcls-attribute.md)
+[Attribute \[sn\_hcls\_characteristic\_attribute\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-attribute.md)
 
 </td><td>
 
@@ -445,7 +446,7 @@ Stores the characteristics options associated with a program or program service 
 
 </td></tr><tr><td>
 
-[Book appointment \[sn\_hcls\_book\_appt\_task\]](hcls-book-appointment-table.md)
+[Book appointment \[sn\_hcls\_book\_appt\_task\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-book-appointment-table.md)
 
 </td><td>
 
@@ -453,7 +454,7 @@ Stores the task details for booking an appointment associated with a healthcare 
 
 </td></tr><tr><td>
 
-[Claim diagnosis \[sn\_hcls\_claim\_diagnosis\]](hcls-claim-diagnosis-table.md)
+[Claim diagnosis \[sn\_hcls\_claim\_diagnosis\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-claim-diagnosis-table.md)
 
 </td><td>
 
@@ -461,7 +462,7 @@ Stores diagnosis information for claims.
 
 </td></tr><tr><td>
 
-[Claim header \[sn\_hcls\_claim\_header\]](hcls-claim-header-table.md)
+[Claim header \[sn\_hcls\_claim\_header\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-claim-header-table.md)
 
 </td><td>
 
@@ -469,7 +470,7 @@ Stores the details of the main claim submitted on behalf of a patient to a payer
 
 </td></tr><tr><td>
 
-[Claim line \[sn\_hcls\_claim\_line\]](hcls-claim-line-table.md)
+[Claim line \[sn\_hcls\_claim\_line\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-claim-line-table.md)
 
 </td><td>
 
@@ -477,7 +478,7 @@ Stores the details of the items pertaining to a claim header.
 
 </td></tr><tr><td>
 
-[Medical device install base item \[sn\_hcls\_medical\_device\_install\_base\_item\]](hcls-clinical-device-ib-item.md)
+[Medical device install base item \[sn\_hcls\_medical\_device\_install\_base\_item\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-clinical-device-ib-item.md)
 
 </td><td>
 
@@ -485,7 +486,7 @@ Stores the details of medical devices as install base items.
 
 </td></tr><tr><td>
 
-[Condition \[sn\_hcls\_condition\]](hcls-condition-table.md)
+[Condition \[sn\_hcls\_condition\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-condition-table.md)
 
 </td><td>
 
@@ -493,7 +494,7 @@ Stores the information about a condition, problem, diagnosis, or other event, si
 
 </td></tr><tr><td>
 
-[Dosage definition \[sn\_hcls\_dosage\_definition\]](hcls-dosage-defn-table.md)
+[Dosage definition \[sn\_hcls\_dosage\_definition\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-dosage-defn-table.md)
 
 </td><td>
 
@@ -501,7 +502,7 @@ Models the Dosage specification \[sn\_hcls\_dosage\_specification\] table for us
 
 </td></tr><tr><td>
 
-[Dosage specification \[sn\_hcls\_dosage\_specification\]](hcls-dosage-spec-table.md)
+[Dosage specification \[sn\_hcls\_dosage\_specification\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-dosage-spec-table.md)
 
 </td><td>
 
@@ -509,7 +510,7 @@ Stores the information about medication product dosage associated with a program
 
 </td></tr><tr><td>
 
-[Dosage variable \[sn\_hcls\_dosage\_variable\]](hcls-dosage-var-table.md)
+[Dosage variable \[sn\_hcls\_dosage\_variable\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-dosage-var-table.md)
 
 </td><td>
 
@@ -517,7 +518,7 @@ Stores the variables configured for a dosage specification displayed on the Medi
 
 </td></tr><tr><td>
 
-[Encounter \[sn\_hcls\_encounter\]](hcls-encounter-table.md)
+[Encounter \[sn\_hcls\_encounter\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-encounter-table.md)
 
 </td><td>
 
@@ -525,7 +526,7 @@ Stores the information about an interaction between a patient and healthcare pro
 
 </td></tr><tr><td>
 
-[Enrolled Program \[sn\_hcls\_enrolled\_program\]](hcls-enrolled-program.md)
+[Enrolled Program \[sn\_hcls\_enrolled\_program\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-enrolled-program.md)
 
 </td><td>
 
@@ -533,7 +534,7 @@ Stores the programs that a patient has been enrolled into
 
 </td></tr><tr><td>
 
-[Enrolled Program Service \[sn\_hcls\_enrolled\_program\_service\]](hcls-enrolled-program-service.md)
+[Enrolled Program Service \[sn\_hcls\_enrolled\_program\_service\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-enrolled-program-service.md)
 
 </td><td>
 
@@ -541,7 +542,7 @@ Stores the program services provided to a patient as part of a program enrollmen
 
 </td></tr><tr><td>
 
-[Healthcare case \[sn\_hcls\_case\]](hcls-case-table.md)
+[Healthcare case \[sn\_hcls\_case\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-case-table.md)
 
 </td><td>
 
@@ -551,7 +552,7 @@ Stores healthcare-related cases.
 
 </td></tr><tr><td>
 
-[Healthcare code set \[sn\_hcls\_code\_set\]](hcls-healthcare-code-set-table.md)
+[Healthcare code set \[sn\_hcls\_code\_set\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-code-set-table.md)
 
 </td><td>
 
@@ -559,7 +560,7 @@ Stores the details of code sets available in your ServiceNow instance.
 
 </td></tr><tr><td>
 
-[Healthcare location \[sn\_hcls\_location\]](hcls-healthcare-location-table.md)
+[Healthcare location \[sn\_hcls\_location\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-location-table.md)
 
 </td><td>
 
@@ -567,7 +568,7 @@ Stores details of the location associated with your healthcare organization.
 
 </td></tr><tr><td>
 
-[Healthcare organization \[sn\_hcls\_organization\]](hcls-healthcare-organization-table.md)
+[Healthcare organization \[sn\_hcls\_organization\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-organization-table.md)
 
 </td><td>
 
@@ -575,7 +576,7 @@ Stores the details of a healthcare organization in your ServiceNow instance.
 
 </td></tr><tr><td>
 
-[Healthcare Task \[sn\_hcls\_task\]](hcls-task-table.md)
+[Healthcare Task \[sn\_hcls\_task\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-task-table.md)
 
 </td><td>
 
@@ -585,7 +586,7 @@ Stores the details of the task associated with a healthcare case or a patient in
 
 </td></tr><tr><td>
 
-[Immunization \[sn\_hcls\_immunization\]](hcls-immunization-table.md)
+[Immunization \[sn\_hcls\_immunization\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-immunization-table.md)
 
 </td><td>
 
@@ -593,7 +594,7 @@ Stores the information about an event of a patient being administered a vaccine 
 
 </td></tr><tr><td>
 
-[Medication \[sn\_hcls\_medication\]](hcls-medication-table.md)
+[Medication \[sn\_hcls\_medication\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-medication-table.md)
 
 </td><td>
 
@@ -601,7 +602,7 @@ Stores the information about a medication for the purposes of prescribing, dispe
 
 </td></tr><tr><td>
 
-[Medication Prescription \[sn\_hcls\_medication\_prescription\]](hcls-medication-presc-table.md)
+[Medication Prescription \[sn\_hcls\_medication\_prescription\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-medication-presc-table.md)
 
 </td><td>
 
@@ -609,7 +610,7 @@ Stores the information about prescriptions ordered for a patient.
 
 </td></tr><tr><td>
 
-[Member Plan \[sn\_hcls\_member\_plan\]](hcls-memb-plan-table.md)
+[Member Plan \[sn\_hcls\_member\_plan\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-memb-plan-table.md)
 
 </td><td>
 
@@ -617,7 +618,7 @@ Stores the details of a health insurance plan associated with a patient.
 
 </td></tr><tr><td>
 
-[Observation \[sn\_hcls\_observation\]](hcls-observation-table.md)
+[Observation \[sn\_hcls\_observation\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-observation-table.md)
 
 </td><td>
 
@@ -625,7 +626,7 @@ Stores the information about measurements and simple assertions made about a pat
 
 </td></tr><tr><td>
 
-[Patient \[sn\_hcls\_patient\]](hcls-patient-table.md)
+[Patient \[sn\_hcls\_patient\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-patient-table.md)
 
 </td><td>
 
@@ -633,7 +634,7 @@ Stores the details of a patient in your healthcare organization.
 
 </td></tr><tr><td>
 
-[Policy \[sn\_hcls\_policy\]](hcls-policy-1.md)
+[Policy \[sn\_hcls\_policy\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 
 </td><td>
 
@@ -641,7 +642,7 @@ Stores the details of a policy shared with patients in the Healthcare and Life S
 
 </td></tr><tr><td>
 
-[Policy consent \[sn\_hcls\_policy\_consent\]](hcls-policy-consent-table.md)
+[Policy consent \[sn\_hcls\_policy\_consent\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-policy-consent-table.md)
 
 </td><td>
 
@@ -649,7 +650,7 @@ Stores the details of a consent accepted by a patient or a household member on b
 
 </td></tr><tr><td>
 
-[Practitioner \[sn\_hcls\_practitioner\]](hcls-practitioner-table.md)
+[Practitioner \[sn\_hcls\_practitioner\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-practitioner-table.md)
 
 </td><td>
 
@@ -657,7 +658,7 @@ Stores the details of a practitioner in your healthcare organization.
 
 </td></tr><tr><td>
 
-[Practitioner location \[sn\_hcls\_practitioner\_facility\]](hcls-practitioner-location-table.md)
+[Practitioner location \[sn\_hcls\_practitioner\_facility\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-practitioner-location-table.md)
 
 </td><td>
 
@@ -665,7 +666,7 @@ Stores the details of the location at which a practitioner provides healthcare s
 
 </td></tr><tr><td>
 
-[Practitioner location specialty \[sn\_hcls\_pract\_location\_specialty\]](hcls-practitioner-loc-spec-table.md)
+[Practitioner location specialty \[sn\_hcls\_pract\_location\_specialty\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-practitioner-loc-spec-table.md)
 
 </td><td>
 
@@ -673,7 +674,7 @@ Stores the details about types of services that a practitioner can provide for a
 
 </td></tr><tr><td>
 
-[Practitioner specialty \[sn\_hcls\_practitioner\_specialty\]](hcls-practitioner-specialty-table.md)
+[Practitioner specialty \[sn\_hcls\_practitioner\_specialty\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-practitioner-specialty-table.md)
 
 </td><td>
 
@@ -681,7 +682,7 @@ Stores the association details of a specialty with a practitioner.
 
 </td></tr><tr><td>
 
-[Pre-authorization diagnosis \[sn\_hcls\_pre\_auth\_diagnosis\]](hcls-pre-auth-diagnosis-table.md)
+[Pre-authorization diagnosis \[sn\_hcls\_pre\_auth\_diagnosis\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-pre-auth-diagnosis-table.md)
 
 </td><td>
 
@@ -689,7 +690,7 @@ Stores diagnosis information pertaining to a pre-authorization for healthcare se
 
 </td></tr><tr><td>
 
-[Pre-authorization item \[sn\_hcls\_pre\_auth\_item\]](hcls-pre-auth-item-table.md)
+[Pre-authorization item \[sn\_hcls\_pre\_auth\_item\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-pre-auth-item-table.md)
 
 </td><td>
 
@@ -697,7 +698,7 @@ Stores the details of items pertaining to a pre-authorization request for health
 
 </td></tr><tr><td>
 
-[Pre-authorization request \[sn\_hcls\_pre\_auth\_header\]](hcls-pre-auth-header-table.md)
+[Pre-authorization request \[sn\_hcls\_pre\_auth\_header\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-pre-auth-header-table.md)
 
 </td><td>
 
@@ -705,7 +706,7 @@ Stores the authorization request details for a healthcare service provided by a 
 
 </td></tr><tr><td>
 
-[Procedure \[sn\_hcls\_procedure\]](hcls-procedure-table.md)
+[Procedure \[sn\_hcls\_procedure\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-procedure-table.md)
 
 </td><td>
 
@@ -713,7 +714,7 @@ Stores the information about an action that is or was performed on or for a pati
 
 </td></tr><tr><td>
 
-[Program \[sn\_hcls\_program\]](hcls-program.md)
+[Program \[sn\_hcls\_program\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-program.md)
 
 </td><td>
 
@@ -721,7 +722,7 @@ Stores the programs offered by healthcare organizations.
 
 </td></tr><tr><td>
 
-[Program relationship \[sn\_hcls\_program\_relationship\]](hcls-program-relation.md)
+[Program relationship \[sn\_hcls\_program\_relationship\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-program-relation.md)
 
 </td><td>
 
@@ -729,7 +730,7 @@ Stores the association details between a program and program service.
 
 </td></tr><tr><td>
 
-[Program service \[sn\_hcls\_program\_service\]](hcls-program-service.md)
+[Program service \[sn\_hcls\_program\_service\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-program-service.md)
 
 </td><td>
 
@@ -737,7 +738,7 @@ Stores the program services associated with a program.
 
 </td></tr><tr><td>
 
-[Source system \[sn\_hcls\_source\_system\]](hcls-source-system.md)
+[Source system \[sn\_hcls\_source\_system\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-source-system.md)
 
 </td><td>
 
@@ -745,7 +746,7 @@ Stores the source and destination IDs of an external healthcare system in your S
 
 </td></tr><tr><td>
 
-[Update insurance information \[sn\_hcls\_insurance\_info\_task\]](hcls-insurance-info-task-table.md)
+[Update insurance information \[sn\_hcls\_insurance\_info\_task\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-insurance-info-task-table.md)
 
 </td><td>
 
@@ -1636,5 +1637,5 @@ Before insert and update
 Sets subscriber to the patient if the relationship is set to Self. Validates the relationship field value if the subscriber is set.
 
 </td></tr></tbody>
-</table>**Note:** To learn about before query business rules, see [Before Query business rules](https://www.servicenow.com/docs/access?context=bp-before-query-business-rules&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+</table>**Note:** To learn about before query business rules, see Before Query business rules.
 

@@ -2,6 +2,7 @@
 title: XMLElementIterator
 description: Provides methods for iterating over XML elements.Determines if there is another element available.Returns the next element in the iterator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/c\_XMLElementIteratorAPI.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -17,7 +18,7 @@ Provides methods for iterating over XML elements.
 
 You get an XMLElementIterator object by calling the getIterator\(\) method of the XMLContent class.
 
-**Parent Topic:**[XML APIs](xml-overview.md)
+**Parent Topic:**[XML APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/xml-overview.md)
 
 ## XMLElementIterator - hasNext\(\)
 

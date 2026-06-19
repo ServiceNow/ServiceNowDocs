@@ -2,11 +2,12 @@
 title: Configure evidence file storage
 description: Configure evidence file storage to securely store the evidence file for the DLP Incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/data-loss-prevention/config-evidence-file.html
 release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Create a profile for Symantec DLP integration, Symantec Integration for Data Loss Prevention Incident Response, Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -23,7 +24,7 @@ Verify that the Symantec user that you are configuring for ServiceNow Symantec D
 
 ## About this task
 
-You can configure the evidence file storage to securely store files. This provides an option for internal storage in ServiceNow instance, ensuring that files are stored and encrypted using ServiceNow's Field Encryption. For more information, see [Field Encryption](https://servicenow.com/docs/bundle/washingtondc-platform-security/page/administer/encryption/concept/c_EncryptionSupport.html) on NowPlatform documentation.
+You can configure the evidence file storage to securely store files. This provides an option for internal storage in ServiceNow instance, ensuring that files are stored and encrypted using ServiceNow's Field Encryption. For more information, see .
 
 When DLP analyst performs the Download evidence files for DLP Incidents action from analyst workspace, the file will be downloaded from the selected storage if evidence file storage option is enabled. Otherwise, the file will be downloaded directly from the Symantec source and will not be persisted in ServiceNow instance.
 
@@ -39,15 +40,15 @@ When DLP analyst performs the Download evidence files for DLP Incidents action f
 
 4.  Select the preferred storage type.
 
-<table id="choicetable_hl4_mjf_jcc"><thead><tr><th align="left" id="d438652e115">
+<table id="choicetable_hl4_mjf_jcc"><thead><tr><th align="left" id="d395941e123">
 
 Type
 
-</th><th align="left" id="d438652e118">
+</th><th align="left" id="d395941e126">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d438652e124">
+</th></tr></thead><tbody><tr><td id="d395941e132">
 
 **Evidence File Storage**
 
@@ -55,7 +56,7 @@ Description
 
 Option to enable the Evidence file storage.
 
-</td></tr><tr><td id="d438652e133">
+</td></tr><tr><td id="d395941e141">
 
 **Storage Type**
 
@@ -71,5 +72,5 @@ Option to select the preferred storage type.**Note:** **ServiceNow Storage**: Th
 
 The evidence files are stored as per the configuration, after the incident ingestion is completed.
 
-**Parent Topic:**[Create a profile for Symantec DLP integration](create-profile-symantec-dlp.md)
+**Parent Topic:**[Create a profile for Symantec DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/create-profile-symantec-dlp.md)
 

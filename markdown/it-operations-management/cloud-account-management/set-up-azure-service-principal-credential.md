@@ -2,13 +2,14 @@
 title: Set up Azure Service Principal credential
 description: Provide the Azure credentials obtained from your Azure administrator. These credentials are used to create a suspension profile and enables you to suspend temporarily or terminate Azure accounts as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/set-up-azure-service-principal-credential.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Setting up Azure cloud, Configuring cloud providers, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Setting up Azure cloud, Configuring cloud providers, Configuring Cloud Account Management, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Set up Azure Service Principal credential
@@ -17,7 +18,7 @@ Provide the Azure credentials obtained from your Azure administrator. These cred
 
 ## Before you begin
 
-Review the [Permissions required for Azure Service Principal](../reference/permissions-required-for-azure-service-principal.md) topic before creating a Azure Service Principal credential.
+Review the [Permissions required for Azure Service Principal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/permissions-required-for-azure-service-principal.md) topic before creating a Azure Service Principal credential.
 
 Role required: ServiceNow AI Platform admin
 

@@ -2,6 +2,7 @@
 title: Import data into the audit table
 description: Import external dataset into the audit table to start working with the data in Process Mining.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/import-data.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -17,7 +18,7 @@ Import external dataset into the audit table to start working with the data in P
 
 ## Before you begin
 
--   [Create an audit table](create-table.md)
+-   [Create an audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/create-table.md)
 
 You can import using ServiceNow Integration Hub or any other application. This section describes how to import data using ServiceNow Integration Hub.
 
@@ -27,7 +28,7 @@ Role required: sn\_process\_optimization\_admin
 
 1.  Select **Import using Integration Hub**, in the Import Data section.
 
-    ![Import using Integration Hub](../image/ext-dataset-3.png)
+    \[Omitted image "ext-dataset-3.png"\] Alt text: Import using Integration Hub
 
     A dialog box appears requesting you to confirm your selection, and reminding that after importing data from Integration Hub, you must come to this page again.
 
@@ -41,7 +42,7 @@ Role required: sn\_process\_optimization\_admin
 
     **Note:** Ensure to specify `Process Mining for external data` in the **Application** field.
 
-    ![New data import integration](../image/ext-data-inthub1.png)
+    \[Omitted image "ext-data-inthub1.png"\] Alt text: New data import integration
 
 5.  Select **Save &amp; continue**.
 
@@ -57,12 +58,12 @@ Role required: sn\_process\_optimization\_admin
     1.  Select **Add a table**.
     2.  Select a target table. This must be the same table that you created.
     3.  Map the target fields with the source fields.
-    ![Map the source and target fields](../image/ext-data-inthub2.png)
+    \[Omitted image "ext-data-inthub2.png"\] Alt text: Map the source and target fields
 
 8.  Schedule your imports.
 
-    For detailed information, see [Integration Hub - Import](https://www.servicenow.com/docs/access?context=integrationhub-imports&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+    For detailed information, see .
 
 
-**Parent Topic:**[Working with external datasets](../concept/external-dataset.md)
+**Parent Topic:**[Working with external datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/external-dataset.md)
 

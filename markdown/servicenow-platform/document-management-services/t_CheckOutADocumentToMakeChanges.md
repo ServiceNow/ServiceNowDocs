@@ -2,6 +2,7 @@
 title: Check out a document to make changes
 description: After a document is added to a managed document record, check the file out to make changes. Checking documents in and out keeps a record of document changes and ensures that only one person at a time is editing the document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/t\_CheckOutADocumentToMakeChanges.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -29,7 +30,7 @@ Role required: document\_management\_user
 
 2.  Select the **Check Out Document** related link.
 
-    ![Check out a document.](../image/CheckOutADocument.png)
+    \[Omitted image "CheckOutADocument.png"\] Alt text: Check out a document.
 
 3.  Select **Download file**.
 
@@ -42,5 +43,5 @@ Role required: document\_management\_user
     For example, `Policy_POL_02.txt`.
 
 
-**Parent Topic:**[Managed Documents](../concept/c_ManagedDocuments.md)
+**Parent Topic:**[Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/c_ManagedDocuments.md)
 

@@ -2,6 +2,7 @@
 title: Search and add skills
 description: As a mentee, search for a skill name or a keyword to find a mentor who specialises in that skill to help you.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/mentoring/search-add-skills-mentoring.html
 release: zurich
 product: Mentoring
 classification: mentoring
@@ -17,7 +18,7 @@ As a mentee, search for a skill name or a keyword to find a mentor who specialis
 
 ## Before you begin
 
-Enroll as a mentee. For more information, see [Enroll as a mentor or mentee](enroll-mentoring.md)
+Enroll as a mentee. For more information, see [Enroll as a mentor or mentee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/mentoring/enroll-mentoring.md)
 
 Role required: none
 

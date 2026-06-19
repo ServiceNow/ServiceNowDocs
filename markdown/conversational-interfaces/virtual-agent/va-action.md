@@ -2,6 +2,7 @@
 title: Action utility
 description: Use the Action utility in a Virtual Agent topic to select the flow action properties that the node should create. The Action utility integrates Virtual Agent with the ServiceNow Workflow Studio product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-action.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -54,7 +55,7 @@ Spoke
 
 Name of the scoped application that contains Workflow Studio content that is dedicated to a particular application or record type.
 
- For a list of default spokes, see [Spokes](https://www.servicenow.com/docs/access?context=spokes&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+ For a list of default spokes, see Spokes.
 
 </td></tr><tr><td>
 
@@ -64,7 +65,7 @@ Action/Subflow
 
 The Workflow Studio action or subflow to be performed in the instance. The **Input mapping** and **Output mapping** areas change depending on your selection.
 
- For details about the action, click the link beneath your selection to view it in Workflow Studio.
+ For details about the action, select the link beneath your selection to view it in Workflow Studio.
 
 </td></tr><tr><td>
 
@@ -128,7 +129,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 </td></tr></tbody>
 </table>## Example Action utility
 
-![Action utility properties.](../images/flow-designer-action-properties.png)
+\[Omitted image "flow-designer-action-properties.png"\] Alt text: Action utility properties. Different Input and Output properties appear depending on which Action or Subflow you select.
 
-**Parent Topic:**[Virtual Agent Designer utilities](va-utilities.md)
+**Parent Topic:**[Virtual Agent Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-utilities.md)
 

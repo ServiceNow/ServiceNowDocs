@@ -2,6 +2,7 @@
 title: Target Source form
 description: Use the Target Source form to create and configure a source for your targets so that the actual value of the target is auto-updated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/target-source-form-apw.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -108,5 +109,5 @@ Custom script
 Custom script to fetch the required data from any ServiceNow AI Platform table for the target source.This field is available when the **Type** field is set to **Custom**. Or, when the **Type** field is set to **Assessment/Survey** and the **Advanced** field is set to **true**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Strategic Planning](../../alignment-planner-workspace/reference/form-field-information-for-strategic-planning.md)
+</table>**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
 

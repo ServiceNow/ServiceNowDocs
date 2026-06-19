@@ -2,6 +2,7 @@
 title: Quote line unique IDs
 description: You can assign unique IDs to quote lines in Salesforce.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/quote\_line\_unique\_ids.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -17,9 +18,9 @@ You can assign unique IDs to quote lines in Salesforce.
 
 ServiceNow CPQ passes the unique identifier of a product in ServiceNow CPQ back to the Unique Line ID field on the quote line in Salesforce, allowing users to assign unique IDs to specific quote lines in Salesforce. This allows users to reference the Unique Line ID field \(LGK\_UniqueId\_c\) after the quote line has been created if a unique identifier was included in the product action in ServiceNow CPQ.
 
-![Product action](../images/cpq-salesforce-quote-line-unique-id.png)
+\[Omitted image "cpq-salesforce-quote-line-unique-id.png"\] Alt text: Product action
 
-![Quote line details](../images/cpq-quote-line-unique-id.png)
+\[Omitted image "cpq-quote-line-unique-id.png"\] Alt text: Quote line details
 
 ## Prerequisites
 
@@ -47,13 +48,13 @@ Use cases include ramping deals, such as subscription-based pricing that applies
 
 Out of the box, the ServiceNow CPQ-created flow “Configuration Line Item to Quote Line” is set up to write the extended information of each product to its respective quote line in the BOM Data field.
 
-![Quote line user interface](../images/cpq-quote-line-bom-data.png)
+\[Omitted image "cpq-quote-line-bom-data.png"\] Alt text: Quote line user interface
 
 As configured, the flow checks only whether the configuration ID and the product ID match and return only the first record. This causes the BOM data for the child lines to be identical if the product IDs are identical.
 
 If you are using the unique ID attribute, you can add another condition to the "Get Records" section of the flow that checks for the Configuration Line Item field "LGK\_UniqueId\_c" being equal to the unique line ID object on the quote line:
 
-![Edit GET records](../images/cpq-quote-line-edit-get-records.png)
+\[Omitted image "cpq-quote-line-edit-get-records.png"\] Alt text: Edit GET records
 
 This correctly writes the BOM data to each unique child line with the correct extended information.
 

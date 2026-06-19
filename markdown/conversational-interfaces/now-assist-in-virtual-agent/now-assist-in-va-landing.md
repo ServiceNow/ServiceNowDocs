@@ -2,6 +2,7 @@
 title: Now Assist in Virtual Agent
 description: Use generative AI skills in your conversational experiences. Now Assist in Virtual Agent uses large language models \(LLMs\) to create a natural-language conversational experience that can improve the success of your self-service workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.html
 release: zurich
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -23,23 +24,23 @@ Building a Virtual Agent with Now Assist
 
 <table id="table_lgc_mpv_jzb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about the generative AI skills available in Now Assist in Virtual Agent.](exploring-now-assist-va.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the generative AI skills available in Now Assist in Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/exploring-now-assist-va.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Activate Now Assist in Virtual Agent and configure generative AI skills.](../task/configure-now-assist-va.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate Now Assist in Virtual Agent and configure generative AI skills.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-person.svg)Learn about the requester conversational experience.](using-now-assist-in-va.md)
+[Use\[Omitted image "bus-person.svg"\] Alt text:Learn about the requester conversational experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md)
 
 </td></tr><tr><td>
 
-Analyze![](../../../reuse/icons/brand-icons/bus-performance-forecasting-2.svg)Monitor the performance of Now Assist in Virtual Agent.
+Analyze\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Monitor the performance of Now Assist in Virtual Agent.
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about user input and bot responses supported by Now Assist in Virtual Agent.](../reference/now-assist-in-va-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about user input and bot responses supported by Now Assist in Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-reference.md)
 
 </td><td>
 
@@ -69,7 +70,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+For more information, see the Now Assist documentation.
 

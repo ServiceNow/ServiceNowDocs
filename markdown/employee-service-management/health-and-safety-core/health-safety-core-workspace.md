@@ -2,11 +2,12 @@
 title: Health and Safety Workspace
 description: The Health and Safety Workspace provides a single location for safety teams to process safety records. Agents can use it to manage incidents, risks, contracts, or cases depending on the applications installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-core/health-safety-core-workspace.html
 release: zurich
 product: Health and Safety Core
 classification: health-and-safety-core
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Explore, Health and Safety Core, Health and Safety, Employee Service Management]
 ---
@@ -75,8 +76,8 @@ Application admin
 
 Configures the workspace as per business requirements.For more information, see these links:
 
--   [Configure a workspace in Workspace Builder](https://www.servicenow.com/docs/access?context=configure-workspace-builder&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
--   [Next Experience UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+-   Configure a workspace in Workspace Builder
+-   Next Experience UI Builder
 
 </td></tr></tbody>
 </table>## Accessing the workspace
@@ -93,11 +94,11 @@ On the workspace landing page, the Health and Safety dashboard gives a quick ove
 
 The following is an example of the workspace landing page for the Health and Safety Core where the Health and Safety Incident Management application is installed.
 
-![health and safety core landing page](../image/health-safety-core-landing.png "Example of the landing page for Health and Safety Workspace")
+\[Omitted image "health-safety-core-landing.png"\] Alt text: health and safety core landing page
 
 ## Primary navigation
 
-The primary navigation displays icons for the installed Health and Safety applications. Clicking on these icons takes you to the list view for each application. For example, if you have the Health and Safety risk management application installed, then you can view the risk related records by clicking the **Risk management** icon ![Risk assessment icon](../../hs-risk-management/image/icon-risk-assessment.png).
+The primary navigation displays icons for the installed Health and Safety applications. Clicking on these icons takes you to the list view for each application. For example, if you have the Health and Safety risk management application installed, then you can view the risk related records by clicking the **Risk management** icon \[Omitted image "icon-risk-assessment.png"\] Alt text: Risk assessment icon.
 
-![health and safety core list view](../image/health-safety-core-list-view.png "Example of list view for health and safety risk management")
+\[Omitted image "health-safety-core-list-view.png"\] Alt text: health and safety core list view
 

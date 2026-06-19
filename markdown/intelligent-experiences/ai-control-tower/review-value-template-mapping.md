@@ -2,6 +2,7 @@
 title: Review a value template mapping
 description: Review and approve value template mapping for an AI asset.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/review-value-template-mapping.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
@@ -154,5 +155,5 @@ Information before closing this task.
     Your Assess stage is complete. And you will be navigated to the next stage of the AI Asset Lifecycle.
 
 
-**Parent Topic:**[Using value templates](../concept/using-value-templates.md)
+**Parent Topic:**[Using value templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/using-value-templates.md)
 

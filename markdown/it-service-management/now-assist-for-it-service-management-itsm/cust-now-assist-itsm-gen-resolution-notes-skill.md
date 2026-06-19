@@ -2,6 +2,7 @@
 title: Customize a Now Assist for IT Service Management \(ITSM\) resolution notes generation skill
 description: If you have the admin role, you can customize a Now Assist for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-gen-resolution-notes-skill.html
 release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -36,7 +37,7 @@ From the Now Assist Admin console, you can select the input tables, related list
 
     You can choose to make a copy of the skill before activating it.
 
-    1.  Select the more actions icon ![More actions icon.](../../itsm-workspace/image/more-actions-icon.png) for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
+    1.  Select the more actions icon \[Omitted image "more-actions-icon.png"\] Alt text: More actions icon. for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
 
         The copy that you make is listed in the Active skills section.
 
@@ -46,7 +47,7 @@ From the Now Assist Admin console, you can select the input tables, related list
 
 5.  In the **Define trigger** screen, enable the **User triggered** button if user input is required before resolution notes are generated.
 
-    For information about the inputs and triggers for this skill, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](../reference/now-assist-itsm-skills.md).
+    For information about the inputs and triggers for this skill, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
 
 6.  Select **Save and continue**.
 
@@ -60,7 +61,7 @@ From the Now Assist Admin console, you can select the input tables, related list
     -   Comments
     The input table and the input fields are read-only.
 
-    ![Choose input data screen for the Generate resolution notes skill that contains the input table and fields to generate the resolution notes.](../image/now-assist-itsm-resolution-notes-gen-input.png)
+    \[Omitted image "now-assist-itsm-resolution-notes-gen-input.png"\] Alt text: Choose input data screen for the Generate resolution notes skill that contains the input table and fields to generate the resolution notes.
 
 8.  Select **Save and continue**.
 
@@ -76,7 +77,7 @@ From the Now Assist Admin console, you can select the input tables, related list
 
 10. Define access.
 
-    Define the user access and role restrictions that you need for the skill. For information on role restrictions, see [Role masking](../concept/supporting-information-now-assist-itsm.md).
+    Define the user access and role restrictions that you need for the skill. For information on role restrictions, see [Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/supporting-information-now-assist-itsm.md).
 
 11. Select display.
 
@@ -90,7 +91,7 @@ From the Now Assist Admin console, you can select the input tables, related list
 
         -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+            If you don't see this option, you must activate the Now Assist panel. For more information, see .
 
             For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 
@@ -108,7 +109,7 @@ From the Now Assist Admin console, you can select the input tables, related list
     2.  Select **Now Assist context menu**.
     3.  Select the **Configurations** tab.
     4.  Select **Resolution notes in NACM**.
-    5.  Select the more actions icon ![More actions icon.](../../itsm-workspace/image/more-actions-icon.png)and select **Edit configuration**.
+    5.  Select the more actions icon \[Omitted image "more-actions-icon.png"\] Alt text: More actions icon.and select **Edit configuration**.
     1.  Select **Go to Now Assist context menu**.
 
         The **Resolution notes in NACM** screen appears.
@@ -116,8 +117,8 @@ From the Now Assist Admin console, you can select the input tables, related list
         **Note:** In the **General details** screen:
 
         -   The table name is **Incident** by default and is read-only.
-        -   The **Form fields** field displays the Now Assist icon \(![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)\). The default field that is displayed is **Close notes**. You can change this field based on where you would like to display the Now Assist icon \(![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)\).
-        ![General details screen in the Resolution notes in NACM screen](../image/now-assist-itsm-res-notes-gen-details.png)
+        -   The **Form fields** field displays the Now Assist icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text:\). The default field that is displayed is **Close notes**. You can change this field based on where you would like to display the Now Assist icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text:\).
+        \[Omitted image "now-assist-itsm-res-notes-gen-details.png"\] Alt text: General details screen in the Resolution notes in NACM screen
 
     2.  Select **Save and Continue**.
 
@@ -128,15 +129,15 @@ From the Now Assist Admin console, you can select the input tables, related list
         -   The default action for the trigger is set to **Generate resolution notes** and is read-only.
         -   The default refinement actions are **Shorten** and **Elaborate** and are read-only.
         -   The **Insert** action is selected by default.
-        When the Now Assist icon \(![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)\) is selected in the **Preview** panel, it shows how the generated resolution notes content will display in NACM.
+        When the Now Assist icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text:\) is selected in the **Preview** panel, it shows how the generated resolution notes content will display in NACM.
 
     3.  Select **Save and continue**.
 
         The **Define access** screen displays.
 
-        **Note:** By default this screen shows that an itil user can access the **Resolution notes in NACM** skill. The role restrictions defined in the **Define access** screen overrides the user access defined in this screen. For information on role restrictions, see [Role masking](../concept/supporting-information-now-assist-itsm.md).
+        **Note:** By default this screen shows that an itil user can access the **Resolution notes in NACM** skill. The role restrictions defined in the **Define access** screen overrides the user access defined in this screen. For information on role restrictions, see [Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/supporting-information-now-assist-itsm.md).
 
-        ![Define access screen in the Resolution notes in NACM screen](../image/now-assist-itsm-res-notes-define-access.png)
+        \[Omitted image "now-assist-itsm-res-notes-define-access.png"\] Alt text: Define access screen in the Resolution notes in NACM screen
 
     4.  Select **Save and continue**.
 

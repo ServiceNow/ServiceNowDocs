@@ -2,6 +2,7 @@
 title: Set up the Agent Client Collector spoke
 description: Integrate the ServiceNow Agent Client Collector framework and Agent Client Collector spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/setup-acc.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
@@ -23,12 +24,12 @@ Integrate the ServiceNow Agent Client Collector framework and Agent Client Colle
 
 ## About this task
 
-1.  Install the Agent Client Collector Framework v2.2.0 \(sn\_agent\) plugin and the other dependant plugins. For more information, see [Agent Client Collector installation](https://www.servicenow.com/docs/access?context=acc-installation&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+1.  Install the Agent Client Collector Framework v2.2.0 \(sn\_agent\) plugin and the other dependant plugins. For more information, see Agent Client Collector installation.
 
     **Note:** To enable Agent Client Collector to execute commands, ensure that `ACC_ALLOW_LIST=0` for Linux environments or `ACC_ALLOW_LIST=False` for Windows environments. If you are using Windows guided installation, clear the **Enable executing command allow list** check-box. Otherwise, you cannot execute commands using the Agent Client Collector spoke.
 
-    ![Agent Client Collector Configuration configuration for Windows environments.](../image/acc-setup-wizard.png)
+    \[Omitted image "acc-setup-wizard.png"\] Alt text: Agent Client Collector Configuration configuration for Windows environments.
 
-2.  [Installing the MID Server](https://www.servicenow.com/docs/access?context=mid-server-installation&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
-3.  [Configure the websocket server on the MID server](https://www.servicenow.com/docs/access?context=acc-configure-web-server&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+2.  Installing the MID Server.
+3.  Configure the websocket server on the MID server.
 

@@ -2,6 +2,7 @@
 title: Manage retirement definitions for CMDB Data Manager
 description: Use CMDB Workspace or Service Graph Workspace to create, delete, edit, or activate retirement definitions in your organization, for a class. Tables that are targeted in CMDB Data Manager life-cycle policies, must be associated with an active retirement definition. Target CIs in Retire policies, are set to match their associated class retirement definitions.Delete a retirement definition that is no longer needed by CMDB Data Manager, in CMDB Workspace or in Service Graph Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/data-manager-manage-ret-def-wrkspc.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -25,8 +26,8 @@ Some retirement definitions in the base system are inactive and you must activat
 
 When a CMDB Data manager retires a CI, ensure that any of its dependent CIs are also retired and don't remain as orphan CIs, by enabling management of dependent CIs. Orphan CIs can impact the consistency, accuracy, and integrity of the CMDB.
 
--   For information about enabling and managing dependent CIs, especially in the context of cascade-retire, cascade-archive, and cascade-delete, see [Dependent CIs management](../concept/manage-dependent-ci.md).
--   For details and definitions of independent and dependent CIs, see [CMDB classifications and class dependency](../concept/c_CMDBClassifications.md).
+-   For information about enabling and managing dependent CIs, especially in the context of cascade-retire, cascade-archive, and cascade-delete, see [Dependent CIs management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md).
+-   For details and definitions of independent and dependent CIs, see [CMDB classifications and class dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_CMDBClassifications.md).
 
 **Note:**
 

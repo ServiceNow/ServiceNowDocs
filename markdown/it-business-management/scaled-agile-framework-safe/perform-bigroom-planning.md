@@ -2,6 +2,7 @@
 title: Plan a SAFe program increment
 description: Plan your SAFe program increments \(PIs\) and track the progress of stories and features in an interactive planning board.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scaled-agile-framework-safe/perform-bigroom-planning.html
 release: zurich
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -36,7 +37,7 @@ Roles required:
 
 6.  Assign stories to teams and sprints.
 
-    1.  Click the feature backlog icon \(![Backlog icon](../images/backlog.png)\).
+    1.  Click the feature backlog icon \(\[Omitted image "backlog.png"\] Alt text: Backlog icon\).
 
     2.  Add a new story to this feature by clicking **Create Story** in the backlog pane.
 
@@ -55,7 +56,7 @@ Roles required:
 
     Click the dependencies icon to show or hide dependencies between the stories.
 
-    For more information on story dependencies, see [Add dependencies to your SAFe stories](add-dependencies-safe-stories.md).
+    For more information on story dependencies, see [Add dependencies to your SAFe stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/add-dependencies-safe-stories.md).
 
 8.  Update the group capacity of a team's sprint by clicking the sprint name.
 
@@ -64,5 +65,5 @@ Roles required:
     **Note:** You can update the sprint details only if you have the safe\_scrum\_master role.
 
 
-**Parent Topic:**[SAFe PI planning board](../concept/safe-pi-planning-board.md)
+**Parent Topic:**[SAFe PI planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/safe-pi-planning-board.md)
 

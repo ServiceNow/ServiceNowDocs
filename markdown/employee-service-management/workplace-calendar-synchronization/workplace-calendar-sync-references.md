@@ -2,6 +2,7 @@
 title: Workplace Calendar Synchronization references
 description: Learn more about the roles, tables, system properties, scheduled jobs and flows installed with the Workplace Calendar Synchronization application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-calendar-synchronization/workplace-calendar-sync-references.html
 release: zurich
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization

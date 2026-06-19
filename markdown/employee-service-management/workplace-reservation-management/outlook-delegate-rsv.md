@@ -2,6 +2,7 @@
 title: Delegate reservations in Microsoft Outlook add-in
 description: Delegate additional permissions to read, create, or change items in your Microsoft Outlook mailbox. Delegate access to a colleague or team member. Delegates can create and reserve resources \(desks, rooms, equipment, services like catering\) for other employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-reservation-management/outlook-delegate-rsv.html
 release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -35,15 +36,15 @@ Role required: admin
 
 4.  On the New Event form, fill in the required information.
 
-    For more information, see [Create a reservation in Microsoft Outlook add-in](outlook-create-rsv.md).
+    For more information, see [Create a reservation in Microsoft Outlook add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/outlook-create-rsv.md).
 
 5.  Select the add-in manifest file of your instance and create a reservation using the Make a reservation form.
 
-    For more information, see [Create a reservation in Microsoft Outlook add-in](outlook-create-rsv.md).
+    For more information, see [Create a reservation in Microsoft Outlook add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/outlook-create-rsv.md).
 
 6.  Review your reservation in the Reservation Summary page.
 
-    ![Reservation summary showing the Reservation organizer and on behalf of (employee with delegate access).](../image/rsv-summary-page-use-for-delegate-summary3.png)
+    \[Omitted image "rsv-summary-page-use-for-delegate-summary3.png"\] Alt text: Reservation summary showing the Reservation organizer and on behalf of \(employee with delegate access\).
 
 7.  Select **Send** to send the meeting invite.
 
@@ -55,12 +56,12 @@ Role required: admin
 
     If you have delegated access to create a reservation, the All Reservations page shows the reservation details along with updated **Requested for** and **Opened by** column values.
 
-    ![Workplace Reservations page showing updated reservations for an employee. If you have provided delegate access, it shows the column values for the delegate and the organizer.](../image/delegate-fields-all-reservations-page.png)
+    \[Omitted image "delegate-fields-all-reservations-page.png"\] Alt text: Workplace Reservations page showing updated reservations for an employee. If you have provided delegate access, it shows the column values for the delegate and the organizer.
 
 
-**Parent Topic:**[Using Workplace Reservations for Microsoft Outlook Add-in](../concept/using-outlook-addin.md)
+**Parent Topic:**[Using Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/using-outlook-addin.md)
 
-**Previous topic:**[Edit reservation details in Microsoft Outlook](outlook-edit-rsv.md)
+**Previous topic:**[Edit reservation details in Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/outlook-edit-rsv.md)
 
-**Next topic:**[Analytics and Reporting Solutions for Workplace Reservation Management](../concept/analytics-reporting-for-rsv-mgmt.md)
+**Next topic:**[Analytics and Reporting Solutions for Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/analytics-reporting-for-rsv-mgmt.md)
 

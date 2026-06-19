@@ -2,13 +2,14 @@
 title: Configure properties in Finance Common Architecture
 description: Configure properties for various settings used in Sourcing and Procurement Operations application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/configure-finance-common-properties.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Properties installed with Finance Common Architecture, Install Sourcing and Procurement Operations, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Properties installed Finance Common Architecture, Install Sourcing and Procurement Operations, Configure Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Configure properties in Finance Common Architecture
@@ -37,5 +38,5 @@ Role required: sn\_fin.finance\_admin
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Properties installed with Finance Common Architecture](../reference/properties-for-finance-common.md)
+**Parent Topic:**[Properties installed with Finance Common Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/properties-for-finance-common.md)
 

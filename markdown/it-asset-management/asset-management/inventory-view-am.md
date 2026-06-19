@@ -2,6 +2,7 @@
 title: Inventory view
 description: Use the Inventory view in the Asset Workspace to view and manage inventory-related functions such as stockrooms and transfer orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/asset-management/inventory-view-am.html
 release: zurich
 product: Asset Management
 classification: asset-management
@@ -21,7 +22,7 @@ Select any widget or chart to view the details. You can also use Location, Sto
 
 **Note:** The Domain filter is available only when you’ve enabled the Domain Extensions Installer \(com.glide.domain.msp\_extensions.installer\) and Domain Separation \(plugin com.snc.pa.domain\_support\) plugins.
 
-![Inventory view in Asset Workspace](../../hardware-asset-management/image/asset-wrkspc-inventoryoverview.png "Inventory view")
+\[Omitted image "asset-wrkspc-inventoryoverview.png"\] Alt text: Inventory view in Asset Workspace
 
 |Widget or chart|Description|
 |---------------|-----------|

@@ -2,6 +2,7 @@
 title: Enforce strict security for inbound SOAP
 description: Strict security for web services requires that users meet Contextual Security requirements to access instance resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/t\_EnforceStrictSecurityWebSvcConns.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -31,8 +32,8 @@ To enforce strict security for web services connections:
 
 2.  Select **Yes** for **Enforce strict security on incoming SOAP requests**.
 
-    **Note:** To learn more about this property, see [SOAP request strict security \(instance security hardening\)](https://www.servicenow.com/docs/access?context=sc-soap-request-strict-security&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) in Instance Security Hardening Settings.
+    **Note:** To learn more about this property, see SOAP request strict security \(instance security hardening\) in Instance Security Hardening Settings.
 
 
-**Parent Topic:**[SOAP web service](../concept/c_SOAPWebService.md)
+**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_SOAPWebService.md)
 

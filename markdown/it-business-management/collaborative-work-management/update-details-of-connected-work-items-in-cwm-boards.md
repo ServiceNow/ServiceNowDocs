@@ -2,6 +2,7 @@
 title: Update details of connected work items in CWM Boards
 description: Learn how to update the status, assigned to, and other details for the work items that are brought into your Collaborative Work Management Board through Connected work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/collaborative-work-management/update-details-of-connected-work-items-in-cwm-boards.html
 release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -33,9 +34,9 @@ The details of connected work items can be updated only from the side panel and 
 
 4.  Update the required details.
 
-    You can also choose to open the original record form and update the details from there using the Detailed form view icon \(![Detailed form view icon.](../images/cwm-icon-detailed-form-view.png)\).
+    You can also choose to open the original record form and update the details from there using the Detailed form view icon \(\[Omitted image "cwm-icon-detailed-form-view.png"\] Alt text: Detailed form view icon.\).
 
-    ![Item details in side panel for connected work.](../images/cwm-connected-work-update.png)
+    \[Omitted image "cwm-connected-work-update.png"\] Alt text: Item details in side panel for connected work.
 
 5.  If you've edited the details in CWM, select **Update** or **Save**.
 
@@ -44,5 +45,5 @@ The details of connected work items can be updated only from the side panel and 
 
 The updated information is available on the work item both in CWM and in its parent application.
 
-**Parent Topic:**[Connected work in CWM](../concept/unified-boards-for-connected-work-in-cwm.md)
+**Parent Topic:**[Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md)
 

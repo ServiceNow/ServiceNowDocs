@@ -2,6 +2,7 @@
 title: Install Visibility Content
 description: You can install the Visibility Content application \(sn\_pattern\_design\) if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/install-itom-visibility-global-content.html
 release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -45,5 +46,5 @@ Multiple tables are installed with Visibility Content.
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Pattern Designer and related applications](../reference/configuring-pattern-designer-plugins.md)
+**Parent Topic:**[Configuring Pattern Designer and related applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/configuring-pattern-designer-plugins.md)
 

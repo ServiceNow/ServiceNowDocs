@@ -2,6 +2,7 @@
 title: Define a data source
 description: The data source is an entity that has associated data that you intend to display. For example, a community post or a user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/entity-view-action-mapper-evam/define-evam-datasource.html
 release: zurich
 product: Entity View Action Mapper \(EVAM\)
 classification: entity-view-action-mapper-evam
@@ -85,5 +86,5 @@ Table column to use for sorting the table data. For example, you can select to s
 </table>3.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Entity View Action Mapper](../concept/configuring-entity-view-action-mapper.md)
+**Parent Topic:**[Configuring Entity View Action Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/entity-view-action-mapper-evam/configuring-entity-view-action-mapper.md)
 

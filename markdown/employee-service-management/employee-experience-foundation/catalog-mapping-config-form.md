@@ -2,6 +2,7 @@
 title: Catalog Mapping Configurations form
 description: The Catalog Mapping Configurations form helps you customize mapping of emails and catalog items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/catalog-mapping-config-form.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -64,5 +65,5 @@ Active
 Option to activate the mapping configuration record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow Add-in for Microsoft 365 reference](sn-addin-for-ms365-reference.md)
+</table>**Parent Topic:**[ServiceNow Add-in for Microsoft 365 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/sn-addin-for-ms365-reference.md)
 

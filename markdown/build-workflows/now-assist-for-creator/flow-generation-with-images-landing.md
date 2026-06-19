@@ -2,6 +2,7 @@
 title: Flow generation with images
 description: Create a flow or a subflow from an image by using Now Assist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/now-assist-for-creator/flow-generation-with-images-landing.html
 release: zurich
 product: Now Assist for Creator
 classification: now-assist-for-creator
@@ -19,19 +20,19 @@ Create a flow or a subflow from an image by using Now Assist.
 
 <table id="table_xnt_mfd_1gc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about flow generation with images](../concept/exploring-flow-generation-with-images.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about flow generation with images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/exploring-flow-generation-with-images.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Activate the Now Assist for Creator plugin and the flow generation with images skill](../task/turn-on-the-flow-generation-with-images-skill.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate the Now Assist for Creator plugin and the flow generation with images skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/turn-on-the-flow-generation-with-images-skill.md)
 
 </td></tr><tr><td>
 
-[Generate![](../../../reuse/icons/brand-icons/bus-start-developing.svg)Create a flow from an image](../task/create-flow-now-assist.md)
+[Generate\[Omitted image "bus-start-developing.svg"\] Alt text:Create a flow from an image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-flow-now-assist.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about Now Assist for Creator roles](../../creator/reference/creator-roles-1.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about Now Assist for Creator roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/creator-roles-1.md)
 
 </td></tr></tbody>
 </table>**Important:**

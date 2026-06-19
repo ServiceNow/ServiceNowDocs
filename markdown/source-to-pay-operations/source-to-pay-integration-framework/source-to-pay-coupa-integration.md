@@ -2,6 +2,7 @@
 title: Source-to-Pay integration with Coupa
 description: The Source-to-Pay integration with Coupa enables you to handle business spend and automate approvals, contracts, inventory, purchase orders, requisitions, suppliers, and user management in Coupa from your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-coupa-integration.html
 release: zurich
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -24,19 +25,19 @@ With this application, you can perform the following:
 -   Look up Currency details from Coupa to Source-to-Pay integration framework
 -   Look up Supplier details from Coupa to Source-to-Pay integration framework
 
-![Overview of Source-to-pay integration with Coupa](../image/coupa-integration-overview.png "Overview of the Source-to-Pay integration with Coupa")
+\[Omitted image "coupa-integration-overview.png"\] Alt text: Overview of Source-to-pay integration with Coupa
 
 ## Prerequisites
 
-Activate the Source-to-Pay integration with the Coupa application from the ServiceNow Store to activate the Coupa Spoke automatically. Next you must set up [Coupa Spoke](https://www.servicenow.com/docs/csh?topicname=setup-coupa-spoke-v4&version=yokohama&pubname=yokohama-integrate-applications).
+Activate the Source-to-Pay integration with the Coupa application from the ServiceNow Store to activate the Coupa Spoke automatically. Next you must set up [Coupa Spoke](https://www.servicenow.com/docs/access?context=setup-coupa-spoke-v4&version=yokohama).
 
 ServiceNow Store app plugins: sn\_coupa\_spoke.
 
-**Note:** The Source-to-Pay integration with Coupa depends on the [Coupa Spoke](https://www.servicenow.com/docs/csh?topicname=coupa-spoke&version=yokohama&pubname=zurich-integrate-applications).
+**Note:** The Source-to-Pay integration with Coupa depends on the [Coupa Spoke](https://www.servicenow.com/docs/access?context=coupa-spoke&version=yokohama).
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## How it works
 

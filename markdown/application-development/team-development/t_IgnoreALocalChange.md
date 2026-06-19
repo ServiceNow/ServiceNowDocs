@@ -2,6 +2,7 @@
 title: Ignore a local change
 description: Ignoring a local change helps to prevent a record from generating new versions in the Local Changes list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/t\_IgnoreALocalChange.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -34,5 +35,5 @@ An ignored local change applies to the current version for the record. You canâ€
 4.  Review the Ignored list to confirm that the correct changes are ignored.
 
 
-**Parent Topic:**[Local changes](../concept/c_LocalChanges.md)
+**Parent Topic:**[Local changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_LocalChanges.md)
 

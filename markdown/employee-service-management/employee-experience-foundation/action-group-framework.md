@@ -2,6 +2,7 @@
 title: Action framework
 description: The action framework includes some frequently used action items for quick access. You can use several default actions and create custom actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/action-group-framework.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation

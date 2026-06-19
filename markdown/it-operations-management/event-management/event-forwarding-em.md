@@ -2,6 +2,7 @@
 title: Event forwarding
 description: Accelerate the event processing testing life cycle by forwarding a stream of events from your ServiceNow production environment to your non-production environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/event-forwarding-em.html
 release: zurich
 product: Event Management
 classification: event-management

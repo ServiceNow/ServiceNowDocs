@@ -2,6 +2,7 @@
 title: HistoryWalker - Scoped, Global
 description: The HistoryWalker API uses the audit/history tables to generate a historical version of an existing record. This historical version contains all updates to all fields for the specified glide record.Instantiates the HistoryWalker object and retrieves the historic data for the specified glide record.Fetches the database record based on the parameters, using the History Sets or Audit data to retrieve the historic data, depending on the third parameter.Gets the update number of the current walked glide record.Gets the record filled with the history/audit data after walking to an update number.Returns a copy of the record filled with the history/audit data after walking to an update number.Specifies if the record-level read access is applied on the record when retrieving from the database.Specifies if the record-level read access is applied on the record when retrieving from the database.Specifies if any of the methods that walk the record from one update to another, support the "changes" data for each element.Specifies if journal type fields are populated from the historical values.Specifies if values are set for variables that are recorded in the history.Sets the field-level read access on each element before setting the historical value of that element in the GlideRecord. If the field-level security is enabled, it prevents the API from populating the fields of the walked record that the user of the API doesn't have access to.Sets the record-level read access on the record when retrieving from the database. The record-level security prevents the API from retrieving the walked record if the user of the API doesn't have access to the GlideRecord.Sets the "changes" data support for each element for a method that walks the record from one update to another.Specifies if journal type fields are populated from the historical values.Specifies if variables are populated from the historical values.Applies the appropriate history/audit data to get a walked GlideRecord to the state when it was one update number backward. If the previous update count is missing from the history/audit data, it will walk to the previous available update count.Applies the appropriate history/audit data to get a walked GlideRecord to the state when it was one update number forward. If next update count is missing from the history/audit data, it will walk to the next available update count.Applies the appropriate history/audit data to get a GlideRecord to the state it was in a specific update count. Use getWalkedRecord\(\) or getWalkedRecordCopy\(\) after walking to an update number to retrieve the "walked" GlideRecord.Applies the appropriate history/audit data to get a GlideRecord to the state it was in for a specific record internal checkpoint. Use the getWalkedRecord\(\) or getWalkedRecordCopy\(\) method after walking to a record's internal checkpoint to retrieve the "walked" GlideRecord.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/HistoryWalkerScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -91,7 +92,7 @@ var hw = new sn_hw.HistoryWalker('incident', '1c741bd70b2322007518478d83673af3',
 
 To use this class in scoped and global applications, use the `sn_hw` namespace identifier. The History Walker plugin \(com.glide.history\_walker\) that is enabled by default is required to access the HistoryWalker API.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## HistoryWalker - HistoryWalker\(String tableName, String sysId, String walker\)
 
@@ -986,7 +987,7 @@ Incident priority in update number 5 was 2
 
 Applies the appropriate history/audit data to get a GlideRecord to the state it was in a specific update count. Use getWalkedRecord\(\) or getWalkedRecordCopy\(\) after walking to an update number to retrieve the "walked" GlideRecord.
 
-**Note:** This method is not supported by the checkpoint walker implementation. Call the [HistoryWalker - walkTo\(String checkpoint\)](HistoryWalkerScopedAPI.md#) method when using the checkpoint walker.
+**Note:** This method is not supported by the checkpoint walker implementation. Call the [HistoryWalker - walkTo\(String checkpoint\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/HistoryWalkerScopedAPI.md) method when using the checkpoint walker.
 
 |Name|Type|Description|
 |----|----|-----------|

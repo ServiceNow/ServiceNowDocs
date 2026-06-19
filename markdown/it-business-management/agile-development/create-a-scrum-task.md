@@ -2,6 +2,7 @@
 title: Create a scrum task for Agile Development 2.0 stories
 description: Create scrum tasks in Agile Development 2.0 to break down a story into manageable pieces for your team to work on. You can create one scrum task at a time or multiple scrum tasks at once.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/create-a-scrum-task.html
 release: zurich
 product: Agile Development
 classification: agile-development
@@ -23,7 +24,7 @@ Role required: scrum\_story\_creator, scrum\_admin
 
 Team members volunteer for tasks based on their skills and track the hours remaining daily. If the task is not complete within the planned hours, it can be further split into additional tasks. A story is not complete until all its tasks are complete.
 
-This task explains how to create one scrum task at a time. To save time, you can create multiple scrum tasks at once. See [Create multiple scrum tasks for stories in Agile Development 2.0](create-multiple-scrum-tasks.md).
+This task explains how to create one scrum task at a time. To save time, you can create multiple scrum tasks at once. See [Create multiple scrum tasks for stories in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/create-multiple-scrum-tasks.md).
 
 ## Procedure
 
@@ -163,8 +164,8 @@ Notes to indicate progress on the scrum task or issues blocking it.
     **Important:** When a Scrum Task is created under a Story, the date fields on the Story become read-only.
 
 
--   **[Create multiple scrum tasks for stories in Agile Development 2.0](create-multiple-scrum-tasks.md)**  
+-   **[Create multiple scrum tasks for stories in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/create-multiple-scrum-tasks.md)**  
 For your Agile Development 2.0 stories, create batches of different types of scrum tasks at a time, to save time.
 
-**Parent Topic:**[Using Agile Development 2.0](../concept/using-agile-development-2-0.md)
+**Parent Topic:**[Using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/using-agile-development-2-0.md)
 

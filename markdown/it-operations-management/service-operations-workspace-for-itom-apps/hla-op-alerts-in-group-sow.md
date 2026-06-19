@@ -2,6 +2,7 @@
 title: View the Log Analytics alerts in a Log Analytics group in Health Log Analytics
 description: View a list of all Log Analytics alerts in a Log Analytics group on the Related records tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-alerts-in-group-sow.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -21,7 +22,7 @@ Role required: evt\_mgmt\_operator, or evt\_mgmt\_user, or evt\_mgmt\_admin
 
 ## About this task
 
-For a detailed description of Log Analytics groups and Log Analytics alerts, see [Types of Health Log Analytics alerts](../reference/hla-op-log-analytics-alert-types.md).
+For a detailed description of Log Analytics groups and Log Analytics alerts, see [Types of Health Log Analytics alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-log-analytics-alert-types.md).
 
 ## Procedure
 
@@ -29,7 +30,7 @@ For a detailed description of Log Analytics groups and Log Analytics alerts, see
 
     The **Alerts in group** section on the **Related records** tab displays.
 
-    ![Alerts in group section on the Related records tab.](../image/alerts-in-group-list-sow.png "Alerts in group section on the Related records tab")
+    \[Omitted image "alerts-in-group-list-sow.png"\] Alt text: Alerts in group section on the Related records tab.
 
 2.  For each Log Analytics alert in the Log Analytics group, the information described in the table is available.
 
@@ -99,7 +100,7 @@ Priority group that indicates the order in which to resolve alerts. Choices are 
 -   **High**
 -   **Moderate**
 -   **Low**
- The priority group value is more important than severity alone. For example, a high priority and low severity alert should be addressed before a low priority and high severity alert. For information on how priority is calculated, see [Alert priority](../../event-management/concept/alert-priority.md).
+ The priority group value is more important than severity alone. For example, a high priority and low severity alert should be addressed before a low priority and high severity alert. For information on how priority is calculated, see [Alert priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/alert-priority.md).
 
 </td></tr><tr><td>
 
@@ -154,5 +155,5 @@ Most recent time when the alert information or state was updated.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Sections and cards on the Overview tab for a Log Analytics group in Health Log Analytics](../reference/hla-op-ovrvw-tab-log-anltcs-alerts-sow.md)
+**Parent Topic:**[Sections and cards on the Overview tab for a Log Analytics group in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-ovrvw-tab-log-anltcs-alerts-sow.md)
 

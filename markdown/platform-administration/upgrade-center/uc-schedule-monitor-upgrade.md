@@ -2,6 +2,7 @@
 title: Scheduling and monitoring an upgrade
 description: Use the Upgrade Monitor module to schedule and monitor the status of an ongoing upgrade in your instance. You can also view the upgrade summary and the list of records causing conflicts in your instance once the upgrade is complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/upgrade-center/uc-schedule-monitor-upgrade.html
 release: zurich
 product: Upgrade Center
 classification: upgrade-center
@@ -15,7 +16,7 @@ breadcrumb: [Use, Upgrade Center, Upgrade, Administer]
 
 Use the Upgrade Monitor module to schedule and monitor the status of an ongoing upgrade in your instance. You can also view the upgrade summary and the list of records causing conflicts in your instance once the upgrade is complete.
 
--   [Monitoring an upgrade](../task/uc-monitor-instance-upgrade.md): Monitor the progress of an ongoing upgrade in your instance
--   [Process the skipped records list](../task/uc-process-skipped-records.md): Resolve the differences between the upgraded and customized versions of a record by processing the skipped records list
--   [Resolve conflicts of a record](../task/uc-resolve-conflict.md): Resolve conflicts between your customized record and the changes associated with the upgrade
+-   [Monitoring an upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-center/uc-monitor-instance-upgrade.md): Monitor the progress of an ongoing upgrade in your instance
+-   [Process the skipped records list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-center/uc-process-skipped-records.md): Resolve the differences between the upgraded and customized versions of a record by processing the skipped records list
+-   [Resolve conflicts of a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-center/uc-resolve-conflict.md): Resolve conflicts between your customized record and the changes associated with the upgrade
 

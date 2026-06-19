@@ -2,6 +2,7 @@
 title: Open your configurable workspace experience in UI Builder for Cloud Discovery Workspace
 description: Access your Configurable Workspace experience in UI Builder for editing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-discovery-workspace/open-workspace-ui-builder-cdw.html
 release: zurich
 product: Cloud Discovery Workspace
 classification: cloud-discovery-workspace

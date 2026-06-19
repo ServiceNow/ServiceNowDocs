@@ -2,6 +2,7 @@
 title: Service Catalog considerations
 description: Consider these points while implementing the CSDM framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/request-cat-use-case-trouble.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -19,5 +20,5 @@ Consider these points while implementing the CSDM framework.
 
 -   You can create catalog types that reflect the types of offered products and services.
 
-**Parent Topic:**[Service Catalog and CSDM](request-cat-use-case-product-view.md)
+**Parent Topic:**[Service Catalog and CSDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/request-cat-use-case-product-view.md)
 

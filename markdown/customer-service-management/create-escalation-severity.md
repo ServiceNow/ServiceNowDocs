@@ -2,7 +2,10 @@
 title: Create a case or account escalation severity
 description: The escalation severity defines the type of escalation and the color used to represent the cases and accounts of this escalation severity in the user interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-escalation-severity.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -42,7 +45,7 @@ The user interface determines which fields are highlighted for escalated cases a
 
 4.  In the **Style** field, enter a color.
 
-    To configure additional escalation severity records, the system administrator must configure a new style with the desired color. For more information, see [Highlight list fields](https://www.servicenow.com/docs/access?context=highlight-list-fields-platform&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    To configure additional escalation severity records, the system administrator must configure a new style with the desired color. For more information, see Highlight list fields.
 
 5.  Click **Submit**.
 

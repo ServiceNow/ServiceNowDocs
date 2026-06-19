@@ -2,6 +2,7 @@
 title: Create a workload provider type
 description: Create a workload provider type for each new configuration management provider. This information appears in the order catalog form as management attributes that your users can select when provisioning a virtual resource through a configuration management provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/create-workload-provider-type.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -37,7 +38,7 @@ Role required: cloud\_admin
     |Version|Enter the version of the provider.|
     |Credential Type|Select the table where the credentials are stored for this provider.|
 
-    ![Ansible tower](../image/workload-config-provider-example.png "Example Ansible Tower workload provider type")
+    \[Omitted image "workload-config-provider-example.png"\] Alt text: Ansible tower
 
 4.  Add properties for the workload type in the **Workload Provider Properties** section.
 

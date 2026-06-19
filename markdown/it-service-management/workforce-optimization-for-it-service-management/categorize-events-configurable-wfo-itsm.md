@@ -2,6 +2,7 @@
 title: Configure event categories for the ITSM Manager Workspace
 description: Add an event category. Create or update field configurations for events. You can also specify if an event category must be excluded when the shift coverage for agents is calculated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/categorize-events-configurable-wfo-itsm.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -114,8 +115,8 @@ The following event category configurations are available by default:
 6.  Click **Submit**.
 
 
--   **[Configure an event load order in Workforce Optimization for ITSM](add-event-load-property-configurable-workspace.md)**  
+-   **[Configure an event load order in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/add-event-load-property-configurable-workspace.md)**  
 Add a system property to display your preferred event categories first on the calendar.
 
-**Parent Topic:**[Setting up Scheduling in Workforce Optimization for ITSM](../concept/setup-scheduling-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Setting up Scheduling in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/setup-scheduling-configurable-workforce-optimization-itsm.md)
 

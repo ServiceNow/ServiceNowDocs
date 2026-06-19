@@ -2,13 +2,14 @@
 title: Configure Partial sync
 description: Explore how to configure Partial sync.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configure-partial-sync.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
 last_updated: "2026-01-10"
 reading_time_minutes: 1
-breadcrumb: [Explore Partial sync, Lead to Cash Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Lead to Cash Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure Partial sync

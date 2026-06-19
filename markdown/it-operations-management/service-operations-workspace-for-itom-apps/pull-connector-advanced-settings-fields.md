@@ -2,6 +2,7 @@
 title: Pull connector fields
 description: Populate the pull connector advanced settings fields to optimize event retrieval and synchronization based on specific requirements such as connection preferences, event frequency, and time zone settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/pull-connector-advanced-settings-fields.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -96,7 +97,7 @@ initial\_sync\_in\_days
 Sets the duration for the initial synchronization process when retrieving historical data.
 
 </td></tr></tbody>
-</table>To return to the procedure, see [Configure an event pull connector](../task/pull-connector.md).
+</table>To return to the procedure, see [Configure an event pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/pull-connector.md).
 
-**Parent Topic:**[Service Operations Workspace for ITOM reference](../concept/sow-reference-itom.md)
+**Parent Topic:**[Service Operations Workspace for ITOM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/sow-reference-itom.md)
 

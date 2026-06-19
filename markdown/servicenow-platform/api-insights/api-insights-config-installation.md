@@ -2,6 +2,7 @@
 title: Configuring API Insights as a system administrator
 description: As a user with the admin role, set up the API Insights workspace by installing the application and assigning roles to users for managing API operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/api-insights/api-insights-config-installation.html
 release: zurich
 product: API Insights
 classification: api-insights
@@ -17,11 +18,11 @@ As a user with the admin role, set up the API Insights workspace by installing t
 
 ## System administrator tasks overview
 
-1.  [Install API Insights](../task/api-insights-install.md).
+1.  [Install API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/api-insights/api-insights-install.md).
 
     Install the API Insights application \(sn\_api\_insights\_ws\).
 
-2.  [Assign roles for API Insights users](../task/api-insights-assign-roles.md)
+2.  [Assign roles for API Insights users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/api-insights/api-insights-assign-roles.md)
 
     Assign roles for using the API Insights workspace.
 

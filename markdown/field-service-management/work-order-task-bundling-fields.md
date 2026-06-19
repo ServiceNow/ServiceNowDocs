@@ -2,7 +2,10 @@
 title: Field Service Task Bundling fields
 description: The fields that are included in the details section of work order task bundles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-task-bundling-fields.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 4
@@ -312,5 +315,5 @@ Actual work duration
 Total amount of time spent on the bundle after the agent starts the work and before the agent closes the work on the last subtask. This amount excludes the time paused on the work.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Field Service Task Bundling components](task-bundling-components.md)
+</table>**Parent Topic:**[Field Service Task Bundling components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/task-bundling-components.md)
 

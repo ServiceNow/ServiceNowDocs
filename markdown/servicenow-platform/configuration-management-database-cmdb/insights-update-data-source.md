@@ -2,6 +2,7 @@
 title: Edit a data source from CMDB performance insights
 description: Edit a data source for your Service Graph Connectors to specify the data that an import set should ingest. Consider configuring a batch process to make ingestion more efficient and improve performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/insights-update-data-source.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -37,10 +38,10 @@ Role required: sn\_cmdb\_admin \(CMDB Admin\) and import\_admin.
 
     For more information about data sources, see:
 
-    -   [Create a data source](https://www.servicenow.com/docs/access?context=c_CreateNewDataSource&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)
-    -   [Data source fields](https://www.servicenow.com/docs/access?context=r_DataSourceFileTypeFields&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)
+    -   
+    -   
 8.  Select **Update**.
 
 
-**Parent Topic:**[CMDB Workspace store app](../concept/cmdb-workspace.md)
+**Parent Topic:**[CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)
 

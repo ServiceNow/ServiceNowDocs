@@ -2,6 +2,7 @@
 title: GlideCurrencySymbol - Scoped, Global
 description: The GlideCurrencySymbol API provides methods to retrieve currency symbols.Returns the corresponding symbol for a given alphabetic currency code.Returns all currency symbols that are currently active on the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/GlideCurrencySymbolBothAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,11 +18,11 @@ The GlideCurrencySymbol API provides methods to retrieve currency symbols.
 
 Symbol information is also available in the Currency \[fx\_currency\] table, but this API has built-in caching that minimizes the queries issued to fx\_currency.
 
-This API allows you to work with currency symbols anywhere on the ServiceNow AI Platform, not just in [Currency](https://www.servicenow.com/docs/access?context=configure-and-use-default-currency-fields&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) and [FX Currency](https://www.servicenow.com/docs/access?context=fx-currency&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) fields.
+This API allows you to work with currency symbols anywhere on the ServiceNow AI Platform, not just in Currency and FX Currency fields.
 
 This API requires the FX Currency \(com.glide.currency2\) plugin, which is available by default. This API is provided within the `sn_currency` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideCurrencySymbol - getCurrencySymbol\(String letterCode\)
 

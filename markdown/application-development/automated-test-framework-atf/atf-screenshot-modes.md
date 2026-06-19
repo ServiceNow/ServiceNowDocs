@@ -2,6 +2,7 @@
 title: Managing automatic test screenshot settings
 description: Capturing many screenshots can impair test performance. You can control which types of screenshots the system captures to minimize this effect.To control how often this instance captures screenshots for form test steps, set the screenshot capture mode on the automatic test framework properties page.To control how often the current client test runner captures screenshots for form test-steps, set the screenshot capture mode on the client test runner browser window.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/atf-screenshot-modes.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -21,7 +22,7 @@ You can change automatic test framework settings so that the system captures all
 
 You can change these settings to affect all tests run on this instance, or to affect just the current client test runner session. To affect all tests run on this instance, set the automatic test framework property from the automatic test framework properties page. To affect just the current client test runner session, set the screenshot mode from client test runner browser window.
 
-**Parent Topic:**[Optimizing automatic test performance](atf-optimize-perf.md)
+**Parent Topic:**[Optimizing automatic test performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-optimize-perf.md)
 
 ## Set the system property to control when the Automated Test Framework captures screenshots
 
@@ -65,7 +66,7 @@ Setting the screenshot mode from the client test-runner browser window affects o
 
 ### Procedure
 
-1.  From the client test-runner browser window, click the form preferences icon \(![Form preferences icon](../../../common/image/Form_PersonalizeFormIcon.png)\).
+1.  From the client test-runner browser window, click the form preferences icon \(\[Omitted image "Form\_PersonalizeFormIcon.png"\] Alt text: Form preferences icon\).
 
 2.  Click the **Screenshot mode** option.
 

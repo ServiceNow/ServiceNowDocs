@@ -2,6 +2,7 @@
 title: Create health and safety user records
 description: Create health and safety user records to track requirement statuses for all employees and visitors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-readiness-core/create-readiness-user.html
 release: zurich
 product: Employee Readiness Core
 classification: employee-readiness-core
@@ -70,7 +71,7 @@ Some users might not have activity or assigned roles in the apps, so health and 
 
 You can view all health and safety user records by navigating to **Employee Health and Safety Status** &gt; **Health and Safety Users**. The **Requirements status** column shows the user's or visitor's progress towards completing all active requirements. The value is **Cleared** if they have fulfilled all active requirements. The value is **Not cleared** if they are missing any requirements.
 
-You can also look up the requirements status for individual users or visitors by navigating to **Employee Health and Safety Status** &gt; **View Employee and Visitor Status**. The status page can be used during the health screening process for entry to a location. For more information, see [Conduct a health screen for entry](../../employee-health-screening/task/screen-returning-employee.md).
+You can also look up the requirements status for individual users or visitors by navigating to **Employee Health and Safety Status** &gt; **View Employee and Visitor Status**. The status page can be used during the health screening process for entry to a location. For more information, see [Conduct a health screen for entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/screen-returning-employee.md).
 
-**Parent Topic:**[Employee Health and Safety Status](../concept/employee-health-safety-status.md)
+**Parent Topic:**[Employee Health and Safety Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-readiness-core/employee-health-safety-status.md)
 

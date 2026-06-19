@@ -2,6 +2,7 @@
 title: Workplace advisor QnA agentic workflow
 description: The workplace advisor QnA agentic workflow enables Reservation Managers to use the Now Assist panel to ask natural language questions about workplace reservations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-wsd/workplace-advisor-qna.html
 release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -23,8 +24,8 @@ The workplace advisor QnA agentic workflow routes employee queries to agents and
 
 To run the workplace advisor QnA agentic workflow, ensure that you have completed the following configurations:
 
--   [Enable Now Assist panel](../task/enable-now-assist-panel.md)
--   [Configure Now Assist Panel Platform Agent](../task/configure-now-assist-panel-platform-agent.md)
+-   [Enable Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/enable-now-assist-panel.md)
+-   [Configure Now Assist Panel Platform Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/configure-now-assist-panel-platform-agent.md)
 
 ## Accessing the workplace advisor QnA agentic workflow from the AI Agent Studio
 

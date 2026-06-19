@@ -2,6 +2,7 @@
 title: Working with Journey Accelerator plans
 description: Managers, employees, and mentors can access the Journey Accelerator plans through the Employee Center \(EC\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-accelerator/working-with-journey-accelerator-plans.html
 release: zurich
 product: Journey Accelerator
 classification: journey-accelerator
@@ -15,16 +16,16 @@ breadcrumb: [Journey Accelerator, Employee Journey Management, HR Service Delive
 
 Managers, employees, and mentors can access the Journey Accelerator plans through the Employee Center \(EC\).
 
-For information about the EC, see [Employee Center with HR Service Delivery](employee-center-hr.md) and [Employee Center](../../employee-center/concept/employee-center-landing-page.md).
+For information about the EC, see [Employee Center with HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/employee-center-hr.md) and [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-center-landing-page.md).
 
--   **[Monitor Journey Accelerator plans](../task/monitor-journey-accelerator-plans.md)**  
+-   **[Monitor Journey Accelerator plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/monitor-journey-accelerator-plans.md)**  
 Monitor plans and to-do tasks from the Journey Accelerator dashboard.
--   **[Create and track plans for your employees](../task/create-employee-plan.md)**  
+-   **[Create and track plans for your employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/create-employee-plan.md)**  
 Create and manage employee transition plans by using Journey Accelerator templates. You can use role-based plans to create consistent plans for different roles on your team.
--   **[Employees view and complete action plans](../task/ja-employee-plan.md)**  
+-   **[Employees view and complete action plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/ja-employee-plan.md)**  
 View, manage, and track your action plan progress from the Employee Center portal.
--   **[Mentor employees by using a Journey Accelerator plan](../task/ja-mentor-plan.md)**  
+-   **[Mentor employees by using a Journey Accelerator plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/ja-mentor-plan.md)**  
 Mentor employees that are assigned to you and view or edit employee plans depending on your permission type.
 
-**Parent Topic:**[Journey Accelerator](journey-accelerator-1.md)
+**Parent Topic:**[Journey Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

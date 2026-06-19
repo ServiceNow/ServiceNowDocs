@@ -2,6 +2,7 @@
 title: Metric binding
 description: After metric data is collected, Metric Intelligence identifies the CIs and the resources to bind the data to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/metric-intelligence/metric-binding.html
 release: zurich
 product: Metric Intelligence
 classification: metric-intelligence
@@ -15,7 +16,7 @@ breadcrumb: [Exploring Metric Intelligence, Metric Intelligence, IT Operations M
 
 After metric data is collected, Metric Intelligence identifies the CIs and the resources to bind the data to.
 
-The data that is collected on the MID Server is raw and does not relate to any specific CI or resource in the CMDB. To be useful, the data goes through a **normalization** process that uses CMDB identification rules and event rules to uniquely identify CIs, and to map and bind them to the raw data. Raw data can also be [mapped and bound to resources](resource-binding.md), if binding to a CI is successful and if resource binding is configured.
+The data that is collected on the MID Server is raw and does not relate to any specific CI or resource in the CMDB. To be useful, the data goes through a **normalization** process that uses CMDB identification rules and event rules to uniquely identify CIs, and to map and bind them to the raw data. Raw data can also be [mapped and bound to resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/metric-intelligence/resource-binding.md), if binding to a CI is successful and if resource binding is configured.
 
 Records for mapping raw data to CIs are automatically generated and remain in effect for a specified length of time determined by the properties:
 
@@ -26,5 +27,5 @@ When similar metric data arrives within that time period, the existing mapping i
 
 All the information about the recent existing mapping is saved under metric-to-CI records in the sa\_metric\_map table, as shown below. You can access the Metric to CI table by navigating to **All &gt; Event Management &gt; Metrics &gt; Metric to CI**.
 
-![Metric to CI table](../image/sa_metric_map.png "Metric to CI table")
+\[Omitted image "sa\_metric\_map.png"\] Alt text: Metric to CI table
 

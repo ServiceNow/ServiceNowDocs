@@ -2,6 +2,7 @@
 title: Reschedule work order appointment in the CSM Configurable Workspace
 description: Reschedule appointment for an associated work order to dispatch agent to address the customer issue based on rescheduled time slot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/appointment-booking/Reschedule-workorder-appointment-workspace.html
 release: zurich
 product: Appointment Booking
 classification: appointment-booking
@@ -19,13 +20,13 @@ Reschedule appointment for an associated work order to dispatch agent to address
 
 Role required: wm\_qualifier and sn\_customerservice\_agent, or wm\_qualifier and sn\_customerservice.consumer\_agent
 
-Setup the **Field Service Order Configuration** to book an appointment for work orders and **Field Service Task Configuration** to book an appointment for work order tasks. For more information, see [Configuring Appointment Booking](../concept/appointment-booking-administer.md).
+Setup the **Field Service Order Configuration** to book an appointment for work orders and **Field Service Task Configuration** to book an appointment for work order tasks. For more information, see [Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/appointment-booking-administer.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Click the Lists icon \(![Lists icon.](../image/ListIcon.png)\)
+2.  Click the Lists icon \(\[Omitted image "ListIcon.png"\] Alt text: Lists icon.\)
 
 3.  Open either work order or work order task.
 

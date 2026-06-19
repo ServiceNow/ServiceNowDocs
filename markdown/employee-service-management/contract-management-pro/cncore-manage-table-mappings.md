@@ -2,6 +2,7 @@
 title: Edit or delete table mappings in a contract template using Microsoft Word add-in
 description: As a contract configurator, edit or delete table mappings in a contract template using the Microsoft Word add-in.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-manage-table-mappings.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -31,7 +32,7 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
 3.  On the login screen, enter the credentials of the ServiceNow instance for which the Microsoft Word add-in is configured.
 
-    For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](cncore-config-word-addin.md)
+    For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-config-word-addin.md)
 
 4.  Select the **Table** tab.
 
@@ -39,35 +40,35 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
 6.  Either modify or delete the table mapping.
 
-<table id="choicetable_rvj_4rw_bcc"><thead><tr><th align="left" id="d131805e140">
+<table id="choicetable_rvj_4rw_bcc"><thead><tr><th align="left" id="d133894e140">
 
 Action
 
-</th><th align="left" id="d131805e143">
+</th><th align="left" id="d133894e143">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d131805e149">
+</th></tr></thead><tbody><tr><td id="d133894e149">
 
 **Delete the table mapping**
 
 </td><td>
 
-1.  Select the menu icon ![Menu icon](../../legal-simple-contracts/image/menu-icon.png).
+1.  Select the menu icon \[Omitted image "menu-icon.png"\] Alt text: Menu icon.
 2.  Select **Delete**.
 
 The content controls related to the table mapping are removed from the Microsoft Word document.
 
-</td></tr><tr><td id="d131805e181">
+</td></tr><tr><td id="d133894e181">
 
 **Modify the table mapping**
 
 </td><td>
 
-1.  Select the menu icon ![Menu icon](../../legal-simple-contracts/image/menu-icon.png).
+1.  Select the menu icon \[Omitted image "menu-icon.png"\] Alt text: Menu icon.
 2.  Select **Edit**.
 
-For more information, see [Map contract tables using the Microsoft Word add-in for ServiceNow Contracts](cncore-addin-table.md).
+For more information, see [Map contract tables using the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-addin-table.md).
 
 **Note:** When you update the fields in the **Table mapping details** section, you might need to map the table and columns again based on the following conditions:
 
@@ -78,5 +79,5 @@ For more information, see [Map contract tables using the Microsoft Word add-in f
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Edit a contract template using Microsoft Word add-in for ServiceNow Contracts](cncore-edit-ct-addin.md)
+**Parent Topic:**[Edit a contract template using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-edit-ct-addin.md)
 

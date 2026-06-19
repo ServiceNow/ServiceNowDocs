@@ -2,6 +2,7 @@
 title: Configure ACC data inputs manually
 description: Agent Client Collector setup automatically creates an ACC data input for streaming log messages to your ServiceNow instance. You can set up additional ACC data inputs manually as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/hla-data-input-acc.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -20,8 +21,8 @@ Agent Client Collector setup automatically creates an ACC data input for streami
 -   The Agent Client Collector Log Analytics application has a dependency on the following ServiceNow applications, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home):
     -   Health Log Analytics, Version 22.0.12 - December 2021 and later releases.
     -   Agent Client Collector -Framework, Version 2.7.0 - December 2021 and later releases.
--   Verify that a MID Server is installed and configured. For more information, see [MID Server system requirements](https://www.servicenow.com/docs/access?context=r_MIDServerSystemRequirements&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
--   The MID Server must be configured to work with the Agent Client Collector. For more information, see [Enable Agent Client Collector monitoring on the MID Server](../../agent-client-collector/task/acc-monitoring-setup.md).
+-   Verify that a MID Server is installed and configured. For more information, see .
+-   The MID Server must be configured to work with the Agent Client Collector. For more information, see [Enable Agent Client Collector monitoring on the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-monitoring-setup.md).
 
 **Important:** Health Log Analytics does not support IPv6. To work with the application, configure the MID Server to IPv4.
 
@@ -37,7 +38,7 @@ Role required: evt\_mgmt\_admin
 
 3.  On the form, fill in the fields.
 
-    For a description of the fields, see [ACC data input configuration fields](../../agent-client-collector/reference/accl-data-input-conf-ref.md).
+    For a description of the fields, see [ACC data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/accl-data-input-conf-ref.md).
 
 4.  Select **Advanced** to set additional configuration fields.
 
@@ -72,5 +73,5 @@ The new data input is ready to stream logs.
 
 ## What to do next
 
-[Ensure that the data input is streaming data](../../agent-client-collector/task/accl-verify-log-streaming.md).
+[Ensure that the data input is streaming data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/accl-verify-log-streaming.md).
 

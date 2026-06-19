@@ -2,6 +2,7 @@
 title: Content pack for Security Incident Response
 description: Using the Process Mining content pack for Security Incident Response, you can analyze inefficiencies through the lifecycle of your security incidents. You can use this information to optimize the processes for your security incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/sir-proc-min-content-pack.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -15,14 +16,14 @@ breadcrumb: [Activate Process Mining content packs, Activating Process Mining, P
 
 Using the Process Mining content pack for Security Incident Response, you can analyze inefficiencies through the lifecycle of your security incidents. You can use this information to optimize the processes for your security incidents.
 
-For more information about enabling the Process Mining Content Pack for SIR, see [Activate Process Mining content packs](po-content-pack.md).
+For more information about enabling the Process Mining Content Pack for SIR, see [Activate Process Mining content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/po-content-pack.md).
 
 ## End user and roles
 
-If you have the required roles, you can use Analyst workbench to access the visualized security incident workflow data, and tools for analyzing the data related to security incidents. For more information, see [Analyst workbench page](analyst-workbench-dashboard.md).
+If you have the required roles, you can use Analyst workbench to access the visualized security incident workflow data, and tools for analyzing the data related to security incidents. For more information, see [Analyst workbench page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/analyst-workbench-dashboard.md).
 
 -   Process Mining role: sn\_process\_optimization\_analyst
 -   Security Incident Response role: sn\_si\_read
 
-**Parent Topic:**[Activate Process Mining content packs](po-content-pack.md)
+**Parent Topic:**[Activate Process Mining content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/po-content-pack.md)
 

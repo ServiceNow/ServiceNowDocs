@@ -2,6 +2,7 @@
 title: Create a Walk-up Experience appointment booking configuration for a service
 description: Create or modify appointment booking configurations for Walk-up Experience services. A service is defined as the actual physical location of a walk-up queue. The information stored in the Walk-up Experience application configuration applies to all services,or queue locations, within the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-config-appts.html
 release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -117,7 +118,7 @@ Appointment is mandatory
 
 </td><td>
 
-Enable this check box if it is mandatory that a customer create an appointment when requesting this service. -   If enabled, the **Appointment** field appears on the record producer and the user must select an available appointment on the [Select Appointment window](https://www.servicenow.com/docs/access?context=appt-booking-select-appt-window&version=zurich&pubname=zurich-field-service-management&ft:locale=en-US) before submitting the service request.
+Enable this check box if it is mandatory that a customer create an appointment when requesting this service. -   If enabled, the **Appointment** field appears on the record producer and the user must select an available appointment on the Select Appointment window before submitting the service request.
 -   If disabled, the user can submit the service request without selecting an appointment.
 
 

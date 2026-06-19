@@ -2,6 +2,7 @@
 title: Enable glide KMF encrypter \[Removed in Security Center 1.3.2\]
 description: Manage the encrypters used for Password2 fields on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-enable-glide-kmf-encrypter.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -73,7 +74,7 @@ Category
 
 </td><td>
 
-[Stored cryptography](sc-stored-cryptography.md)
+[Stored cryptography](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-stored-cryptography.md)
 
 </td></tr><tr><td>
 
@@ -91,8 +92,8 @@ References
 
 </td><td>
 
-[Password2 encryption with the Key Management Framework \(KMF\)](../../key-management-framework/concept/password-2way-encrypted-fields.md)
+[Password2 encryption with the Key Management Framework \(KMF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/password-2way-encrypted-fields.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Stored cryptography](sc-stored-cryptography.md)
+</table>**Parent Topic:**[Stored cryptography](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-stored-cryptography.md)
 

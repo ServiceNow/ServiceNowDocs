@@ -2,6 +2,7 @@
 title: Exploring Legal Invention Disclosure
 description: Learn more about Legal Invention Disclosure through a sample workflow and review the benefits it can provide.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-invention-disclosure/explore-legal-invention-disclosure.html
 release: zurich
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
@@ -39,7 +40,7 @@ Structured process to create and submit Legal Invention Disclosure requests.
 
 </td><td>
 
-[Create a Legal Invention Disclosure request](../task/submit-legal-invention-disclosure.md)
+[Create a Legal Invention Disclosure request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-invention-disclosure/submit-legal-invention-disclosure.md)
 
 </td><td>
 
@@ -51,7 +52,7 @@ Optional monetary rewards granted to the inventor at selected stages of the pate
 
 </td><td>
 
-[Set up optional inventor rewards in Legal Invention Disclosure](../task/setup-rewarding-rules-and-configurations.md)
+[Set up optional inventor rewards in Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-invention-disclosure/setup-rewarding-rules-and-configurations.md)
 
 </td><td rowspan="2">
 
@@ -63,7 +64,7 @@ Inclusion of outside counsels to review patent application requests.
 
 </td><td>
 
-[Set up Outside Firms for Legal Invention Disclosure](../task/setup-outside-firms.md)[Set up Outside Counsels for Legal Invention Disclosure](../task/setup-outside-counsels.md)
+[Set up Outside Firms for Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-invention-disclosure/setup-outside-firms.md)[Set up Outside Counsels for Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-invention-disclosure/setup-outside-counsels.md)
 
 </td></tr></tbody>
 </table>## Legal Invention Disclosure workflow
@@ -96,5 +97,5 @@ The Legal Invention Disclosure task workflow is as follows:
 16. If the patent is granted, the fulfiller updates the legal matter with the patent information and closes the request. The Patent Repository record is automatically updated with the information. If the patent application is rejected, the fulfiller closes the request.
 17. If a reward for the inventor has been set up for this stage, it is automatically generated and sent to the inventor.
 
-**Parent Topic:**[Legal Invention Disclosure](../reference/legal-invention-disclosure-landing.md)
+**Parent Topic:**[Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-invention-disclosure/legal-invention-disclosure-landing.md)
 

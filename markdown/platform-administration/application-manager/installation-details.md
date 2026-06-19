@@ -2,6 +2,7 @@
 title: Installation details
 description: When you install or update applications or products, the Application Manager displays installation details for you to review. Use installation details to verify version and dependency details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/application-manager/installation-details.html
 release: zurich
 product: Application Manager
 classification: application-manager
@@ -58,19 +59,19 @@ Installation options
 Enables you to choose to complete installation now or later. If you choose to install later, you can determine the date and time of installation.
 
 </td></tr></tbody>
-</table>![Installation details, with an alert message saying "Install all dependent applications before installing the application." The dependencies list shows that one application needs to be procured from the ServiceNow Store.](../image/app-mgr-installation-dets.png "Example: installation details")
+</table>\[Omitted image "app-mgr-installation-dets.png"\] Alt text: Installation details, with an alert message saying "Install all dependent applications before installing the application." The dependencies list shows that one application needs to be procured from the ServiceNow Store.
 
 ## Dependencies that need to be procured from the ServiceNow Store
 
 When installing or updating an application or product, you might have dependencies that need to be procured from the ServiceNow Store.
 
-For more information about procuring applications and products from the ServiceNow Store, see [Getting apps and trials from the ServiceNow Store](../../servicenow-store/concept/getting-apps-trials.md).
+For more information about procuring applications and products from the ServiceNow Store, see [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/getting-apps-trials.md).
 
 ## Inactive plugins in dependencies
 
 Some plugins must be activated before they can be installed. Any plugins that must be activated before they can be installed are categorized as inactive plugins in the dependency list. Inactive plugins might not block installation of the plugin, application, or product that requires them, but could result in reduced functionality.
 
-For more information about how to activate plugins, see [ServiceNow plugins](../../plugins/concept/c_ServiceNowPlugins.md).
+For more information about how to activate plugins, see [ServiceNow plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_ServiceNowPlugins.md).
 
-**Parent Topic:**[Installing applications, plugins, and products](installing-apps-app-manager.md)
+**Parent Topic:**[Installing applications, plugins, and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/application-manager/installing-apps-app-manager.md)
 

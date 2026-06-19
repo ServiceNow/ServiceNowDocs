@@ -2,6 +2,7 @@
 title: Tracking deflections in ITSM Virtual Agent
 description: You can use the pre-built deflection topics and topic blocks in Virtual Agent conversations to track the incidents that ITSM Virtual Agent helped to resolve.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-virtual-agent/itsm-va-deflection.html
 release: zurich
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -17,11 +18,11 @@ You can use the pre-built deflection topics and topic blocks in Virtual Agent co
 
 A deflection happens when ITSM Virtual Agent resolves an issue for you. By asking you relevant questions, ITSM Virtual Agent can create an incident in the correct assignment group. As a result, you might not need to create an incident, or need the assistance of a live agent.
 
-Deflection tracking uses the topics and topic blocks created in Virtual Agent Designer and is enabled by default. For more information, see [Tracking deflections using deflection topic blocks](https://www.servicenow.com/docs/access?context=deflections-virtual-agent&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+Deflection tracking uses the topics and topic blocks created in Virtual Agent Designer and is enabled by default. For more information, see Tracking deflections using deflection topic blocks.
 
-By default, ITSM Virtual Agent includes pre-built deflection configurations in the base system. You can use the deflection configurations in the base system or customize them, as needed. For more information, see [Create deflection configurations and patterns](https://www.servicenow.com/docs/access?context=set-up-deflection-settings-va&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+By default, ITSM Virtual Agent includes pre-built deflection configurations in the base system. You can use the deflection configurations in the base system or customize them, as needed. For more information, see Create deflection configurations and patterns.
 
-![Base system deflection configuration and patterns.](../image/itsm-deflection-tracking-default-configurations.png)
+\[Omitted image "itsm-deflection-tracking-default-configurations.png"\] Alt text: Base system deflection configuration and patterns.
 
 The pre-built deflection patterns in the base system are described in the following table.
 
@@ -48,12 +49,12 @@ The deflection metrics are generated and stored in the Deflection Metric \[ssa\_
 
     **Note:** The Self-Service Analytics framework requires the Self-Service Analytics Core plugin \(com.snc.self\_service\_analytics\_core\).
 
-    For more information, see [Activate Self-Service Analytics](https://www.servicenow.com/docs/access?context=activate-ssa-cs&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    For more information, see Activate Self-Service Analytics.
 
 -   Use the **Overview** tab of the Conversational Analytics Dashboard.
 
     For more information about this dashboard, see Conversational Analytics Dashboard.
 
 
-**Parent Topic:**[ITSM Virtual Agent pre-built actionable notifications](itsm-actionable-notifications.md)
+**Parent Topic:**[ITSM Virtual Agent pre-built actionable notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-virtual-agent/itsm-actionable-notifications.md)
 

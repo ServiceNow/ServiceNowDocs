@@ -2,6 +2,7 @@
 title: Create a talent type
 description: Create an implementation in the talent profile scripted extension point to add a new talent type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/create-implement-ta-tp.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -44,12 +45,12 @@ The Talent profile extension point has four default implementations that pull in
 
 4.  On the Create implementation form, fill in the fields.
 
-    For a description of the field values, see [Create implementation form](../reference/implementation-ref-ta-tp.md).
+    For a description of the field values, see [Create implementation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/implementation-ref-ta-tp.md).
 
 
 ## Result
 
 You've created an implementation for the sn\_ta\_tp.TalentProfileExtPoint extension point. Use it to have a customized talent type.
 
-**Parent Topic:**[Configuring Talent profile](../concept/config-tp.md)
+**Parent Topic:**[Configuring Talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/config-tp.md)
 

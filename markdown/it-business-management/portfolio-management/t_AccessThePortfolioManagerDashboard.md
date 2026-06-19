@@ -2,6 +2,7 @@
 title: Access the Portfolio Dashboard
 description: View different graphical reports on the PMO Dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-management/t\_AccessThePortfolioManagerDashboard.html
 release: zurich
 product: Portfolio Management
 classification: portfolio-management
@@ -26,5 +27,5 @@ Role required: it\_portfolio\_manager
     The PMO Dashboard is displayed.
 
 
-**Parent Topic:**[Portfolio Dashboard](../concept/c_PortfolioManagerDashboard.md)
+**Parent Topic:**[Portfolio Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-management/c_PortfolioManagerDashboard.md)
 

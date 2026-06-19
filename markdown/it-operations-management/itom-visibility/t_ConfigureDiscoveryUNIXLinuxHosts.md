@@ -2,6 +2,7 @@
 title: Configure Discovery for UNIX or Linux hosts with attached storage
 description: Discovery can find information about a UNIX or Linux host and attached storage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/t\_ConfigureDiscoveryUNIXLinuxHosts.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -23,7 +24,7 @@ Role required: discovery\_admin
 
 1.  On the host, assign elevated privileges to the account that Discovery will use.
 
-2.  On the ServiceNow instance, [add credentials](https://www.servicenow.com/docs/access?context=t_CreateCredential&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) to the Discovery Credentials table.
+2.  On the ServiceNow instance, add credentials to the Discovery Credentials table.
 
 3.  Create a Discovery Schedule for each host IP address.
 
@@ -31,8 +32,8 @@ Role required: discovery\_admin
 
 5.  Run network discovery.
 
-    **Note:** If the host also connects to a NAS or SAN storage array, set up the [SMI-S Provider](t_ConfigDiscoForStandaloneStorage.md) and [CIM credentials](https://www.servicenow.com/docs/access?context=r_CIMCredentialsForm&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+    **Note:** If the host also connects to a NAS or SAN storage array, set up the [SMI-S Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/t_ConfigDiscoForStandaloneStorage.md) and CIM credentials.
 
 
-**Parent Topic:**[Configure discovery of hosts with attached storage](../concept/configure-discovery-of-hosts-with-attached-storage.md)
+**Parent Topic:**[Configure discovery of hosts with attached storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/configure-discovery-of-hosts-with-attached-storage.md)
 

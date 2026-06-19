@@ -2,6 +2,7 @@
 title: Policy and Compliance Management
 description: The ServiceNow Policy and Compliance Management product provides a centralized process for creating and managing policies, standards, and internal control procedures that are cross-mapped to external regulations and benchmarks. Additionally, the application provides structured workflows for the identification, assessment, and continuous monitoring of control activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/r\_PolicyComplianceMgmt.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -17,35 +18,35 @@ The ServiceNow® Policy and Compliance Management product provides a centralized
 
 <table id="table_udy_skn_ntb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg) Explore key features and benefits of Policy and Compliance Management](../concept/policy-compliance.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text: Explore key features and benefits of Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/policy-compliance.md)
 
 </td><td>
 
-[Implement![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Implement setup steps for the GRC: Policy and Compliance Management application](../../grc-policy-compliance-implementation/task/policy-compliance-impl-checklist.md)
+[Implement\[Omitted image "bus-sdlc.svg"\] Alt text: Implement setup steps for the GRC: Policy and Compliance Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-checklist.md)
 
 </td><td>
 
-[Install ![](../../../reuse/icons/brand-icons/bus-profile.svg) Install components for Policy and Compliance Management](r_InstallWPolAndCompl.md#)
+[Install \[Omitted image "bus-profile.svg"\] Alt text: Install components for Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg) Use the Compliance Workspace for compliance tasks](../../grc-workspace-compliance/concept/work-in-compliance-ws.md)
+[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use the Compliance Workspace for compliance tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/work-in-compliance-ws.md)
 
 </td><td>
 
-[Build ![](../../../reuse/icons/brand-icons/bus-2-buildings.svg) Author and redline policy documents in Compliance Workspace](../concept/policy-authoring-redlining.md)
+[Build \[Omitted image "bus-2-buildings.svg"\] Alt text: Author and redline policy documents in Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/policy-authoring-redlining.md)
 
 </td><td>
 
-[Manage the compliance of critical business tasks using the ![](../../../reuse/icons/brand-icons/bus-manage.svg) Mobile experience for GRC Policy and Compliance](../concept/mobile-policy_compliance-ovrvw.md)
+[Manage the compliance of critical business tasks using the \[Omitted image "bus-manage.svg"\] Alt text: Mobile experience for GRC Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/mobile-policy_compliance-ovrvw.md)
 
 </td></tr><tr><td>
 
-[Integrate ![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg) Integrate with UCF Common Controls Hub to manage compliance frameworks](../../grc-ucf-import/concept/c_UCF.md)
+[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Integrate with UCF Common Controls Hub to manage compliance frameworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/c_UCF.md)
 
 </td><td>
 
-[Analytics and Reporting ![](../../../reuse/icons/brand-icons/bus-actionable-analytics.svg) Analytics and reporting solutions for compliance records](../../../use/dashboards/application-content-packs/grc-policy-compliance-content-pack.md)
+[Analytics and Reporting \[Omitted image "bus-actionable-analytics.svg"\] Alt text: Analytics and reporting solutions for compliance records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/grc-policy-compliance-content-pack.md)
 
 </td><td>
 
@@ -54,7 +55,7 @@ The ServiceNow® Policy and Compliance Management product provides a centralized
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Activate Policy and Compliance Management
 

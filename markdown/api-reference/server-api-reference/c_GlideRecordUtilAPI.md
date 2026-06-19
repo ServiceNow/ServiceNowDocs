@@ -2,6 +2,7 @@
 title: GlideRecordUtil - Global
 description: The GlideRecordUtil script include is a utility class for working with GlideRecords.Returns the GlideRecord object for the specified configuration item \(CI\) using just the sys\_id of the CI.Returns an array of all the fields in the specified GlideRecord.Returns a GlideRecord instance for the given table, positioned to the given sys\_id, and of the right class \(table\).Returns a list of the ancestors of a specified table.Sets the fields in the specified GlideRecord with the field values contained in the specified hashmap, unless that field name is in the ignore hashmap.Populates a given hashmap from a GlideRecord. Each field in the GlideRecord becomes a property in the hashmap.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_GlideRecordUtilAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,9 +16,9 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideRecordUtil script include is a utility class for working with GlideRecords.
 
-This script include is available in server-side scripts. For use cases, see [Using discovery script includes](../../../../../script/server-scripting/concept/c_ScriptIncludes.md#).
+This script include is available in server-side scripts. For use cases, see [Using discovery script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_ScriptIncludes.md).
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideRecordUtil - getCIGR\(String sys\_id\)
 
@@ -31,7 +32,7 @@ Use this method to quickly obtain a specific CI without knowing its associated c
 
 |Type|Description|
 |----|-----------|
-|[GlideRecord](../../GlideRecord/concept/c_GlideRecordAPI.md#)|GlideRecord object of the specified CI.|
+|[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordAPI.md)|GlideRecord object of the specified CI.|
 
 The following example returns the GlideRecord object for the specified CI using just the sys\_id of the CI.
 
@@ -47,7 +48,7 @@ Returns an array of all the fields in the specified GlideRecord.
 
 |Name|Type|Description|
 |----|----|-----------|
-|gr|[GlideRecord](../../GlideRecord/concept/c_GlideRecordAPI.md#)|GlideRecord instance positioned to a valid record.|
+|gr|[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordAPI.md)|GlideRecord instance positioned to a valid record.|
 
 |Type|Description|
 |----|-----------|
@@ -93,7 +94,7 @@ This method is useful when you need to load a GlideRecord from a sys\_id, but yo
 
 |Type|Description|
 |----|-----------|
-|[GlideRecord](../../GlideRecord/concept/c_GlideRecordAPI.md#)|The GlideRecord for the specified sys\_id.|
+|[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordAPI.md)|The GlideRecord for the specified sys\_id.|
 
 ```
 var now_GR = new GlideRecordUtil().getGR("cmdb_ci_computer", "2dfd7c8437201000deeabfc8bcbe5d56");
@@ -134,7 +135,7 @@ Sets the fields in the specified GlideRecord with the field values contained in 
 |Name|Type|Description|
 |----|----|-----------|
 |hashMap|Object|An Object instance \(being used as a hashmap\), with properties named for fields and containing the fields' value.|
-|now\_GR|[GlideRecord](../../GlideRecord/concept/c_GlideRecordAPI.md#)|The GlideRecord instance to receive the field values.|
+|now\_GR|[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordAPI.md)|The GlideRecord instance to receive the field values.|
 |ignore|Object|An optional hashmap of field names to ignore.|
 
 |Type|Description|
@@ -185,7 +186,7 @@ now\_GR
 
 </td><td>
 
-[GlideRecord](../../GlideRecord/concept/c_GlideRecordAPI.md#)
+[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordAPI.md)
 
 </td><td>
 

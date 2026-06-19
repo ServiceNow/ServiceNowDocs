@@ -2,6 +2,7 @@
 title: Create an assessment template category
 description: Assessment template categories help organize and classify smart assessment templates based on their purpose or use case. Categories make it easier to locate and manage templates within the assessment workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-case-management/create-an-assessment-template-category.html
 release: zurich
 product: Workplace Case Management
 classification: workplace-case-management
@@ -73,5 +74,5 @@ Option to activate the category.
     The system generates the assessment template category and adds it to the list of categories that can be specified when designing an assessment template. Active categories are only available for use while categorizing templates.
 
 
-**Parent Topic:**[Smart Assessment for Workplace Case and Task](smart-assessment-for-workplace-case-and-task.md)
+**Parent Topic:**[Smart Assessment for Workplace Case and Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-case-management/smart-assessment-for-workplace-case-and-task.md)
 

@@ -2,6 +2,7 @@
 title: Request-based chat - Start and import chat as guest user from classic view
 description: You can start a Microsoft Teams chat with an external organization user and import chat after you are invited to their chat.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/start-import-req-based-chat-as-guest.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,16 +22,16 @@ The following configuration must be complete for a guest user from an allowed-do
 -   Configure external collaboration for a guest user
 -   Add a guest user to the Microsoft Entra ID
 
-For more information, see [Enable chat access for guest users](../task/enable-guest-chat-access-st.md) for self-configured app, [Enable chat access for a guest user](../task/enable-guest-chat-access-mt.md) for pre-published app, and [Guest access in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/guest-access).
+For more information, see [Enable chat access for guest users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/enable-guest-chat-access-st.md) for self-configured app, [Enable chat access for a guest user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/enable-guest-chat-access-mt.md) for pre-published app, and [Guest access in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/guest-access).
 
 **Note:**
 
 As a guest user, you can import chat only if you are present in the allowed-domain but you can initiate a chat. A tag with the label **External** appears by your name to indicate that you are a guest user and not present in the allowed-domain. For more information, see [Add or invite people outside your Teams org to a chat](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57).
 
--   **[Start a Microsoft Teams chat as a guest user](../task/start-chat-as-guest-user.md)**  
+-   **[Start a Microsoft Teams chat as a guest user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/start-chat-as-guest-user.md)**  
 Start a Microsoft Teams chat as a guest user with an external organization user.
--   **[Import a Microsoft Teams chat as a guest user](../task/import-chat-as-guest-user.md)**  
+-   **[Import a Microsoft Teams chat as a guest user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/import-chat-as-guest-user.md)**  
 Import your Microsoft Teams chat with an external organization user as a guest user.
 
-**Parent Topic:**[Agent actions](agent-sn-ms-teams.md)
+**Parent Topic:**[Agent actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/agent-sn-ms-teams.md)
 

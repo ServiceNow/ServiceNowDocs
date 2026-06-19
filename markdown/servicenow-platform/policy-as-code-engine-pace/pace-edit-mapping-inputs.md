@@ -2,6 +2,7 @@
 title: Edit mapping inputs
 description: You can edit the mapping settings that map a policy to an object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/policy-as-code-engine-pace/pace-edit-mapping-inputs.html
 release: zurich
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
@@ -33,6 +34,6 @@ Role required: sn\_pace.mapping\_admin
 
     In the displayed mapping input form, edit the details as required, and click **Save**.
 
-    ![Adding additional objects.](../image/pace-map-select-objects-1.jpg)
+    \[Omitted image "pace-map-select-objects-1.jpg"\] Alt text: Adding additional objects.
 
 

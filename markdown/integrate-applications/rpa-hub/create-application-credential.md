@@ -2,6 +2,7 @@
 title: Create an application credential in RPA Hub
 description: Create an application credential to add the application user name and password. An unattended robot can use this application credential to log in to an application when the automation is executed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/create-application-credential.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -17,15 +18,15 @@ Create an application credential to add the application user name and password. 
 
 ## Before you begin
 
-Familiarize yourself with the credential management concept. For more information, see [Credential Management in RPA Hub](../concept/credential-management-rpa-hub.md).
+Familiarize yourself with the credential management concept. For more information, see [Credential Management in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/credential-management-rpa-hub.md).
 
-Do this task only when you select the **Process Type** field as **Unattended** on the Bot process configuration form while you're creating a bot process. For more information, see [Configuring a bot process record in RPA Hub](../concept/create-botprocess.md), [Bot process configuration form in RPA Hub](../reference/bot-process-config-form.md), and [Bot Process form in RPA Hub](../reference/bot-process-form.md).
+Do this task only when you select the **Process Type** field as **Unattended** on the Bot process configuration form while you're creating a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/create-botprocess.md), [Bot process configuration form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/bot-process-config-form.md), and [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/bot-process-form.md).
 
 Role required: sn\_rpa\_fdn.rpa\_developer, sn\_rpa\_fdn.rpa\_release\_manager, sn\_rpa\_fdn.rpa\_business\_user, or sn\_rpa\_fdn.rpa\_admin
 
 ## About this task
 
-You can't delete an application credential when the life-cycle stage status of the associated bot process is set to **Published**. For more information, see [Life-cycle stage statuses \(LLCS\) of a bot process in RPA Hub](../reference/lifecycle-stages-botprocess.md).
+You can't delete an application credential when the life-cycle stage status of the associated bot process is set to **Published**. For more information, see [Life-cycle stage statuses \(LLCS\) of a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/lifecycle-stages-botprocess.md).
 
 You can't edit the **Name** and **Application Name** fields when the life-cycle stage status of the associated bot process is set to **Published**. You can edit the application password irrespective of what the life-cycle stage is of the associated bot process.
 
@@ -36,15 +37,15 @@ If an application credential uses an external credential vault, make sure that t
 In RPA Hub, you can retrieve the robot credentials, application credentials, or a Time-based One-time Password \(TOTP\) seed in two ways:
 
 -   From ServiceNow credentials record \(application credential, robot credential, or TOTP authenticator\).
--   From an external credential vault. For more information, see [External credential vault in RPA Hub](../concept/external-credentials-rpa.md).
+-   From an external credential vault. For more information, see [External credential vault in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/external-credentials-rpa.md).
 
-If the **External Credential** check box is selected in an application credential record, then the **SetApplicationCredential** component in RPA Desktop Design Studio doesn’t set the credentials and an error is displayed. For more information about the component, see [Use the SetApplicationCredential component](../../rpa-studio/task/use-credentials-setappcredential.md).
+If the **External Credential** check box is selected in an application credential record, then the **SetApplicationCredential** component in RPA Desktop Design Studio doesn’t set the credentials and an error is displayed. For more information about the component, see [Use the SetApplicationCredential component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/use-credentials-setappcredential.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Robotic Process Automation** &gt; **RPA Hub Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/rpahublist-icon.png)\).
+2.  Select the list icon \(\[Omitted image "rpahublist-icon.png"\] Alt text: List icon.\).
 
 3.  On the **Lists** tab, under **Credential Management**, select **Application Credentials**.
 
@@ -124,7 +125,7 @@ JSON that acts as an input to the subflow mapped in the selected external creden
 
 The value must be in a JSON format. You can’t enter an empty JSON value.
 
-For more information about the JSON, see [Steps to configure an external credential vault in RPA Hub](../reference/config-ext-cred-rpa.md).
+For more information about the JSON, see [Steps to configure an external credential vault in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/config-ext-cred-rpa.md).
 
 This field appears only when the **External Credential** option is selected.
 
@@ -139,5 +140,5 @@ This field doesn't appear to an RPA business user.
 **Related topics**  
 
 
-[View Audit History](https://www.servicenow.com/docs/access?context=c_HistorySets&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.c_HistorySets]
 

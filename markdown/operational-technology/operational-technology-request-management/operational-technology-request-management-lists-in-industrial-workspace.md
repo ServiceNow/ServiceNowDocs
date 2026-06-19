@@ -2,6 +2,7 @@
 title: Operational Technology Request Management lists in the Industrial Workspace
 description: You can view your Operational Technology \(OT\) requests and catalog tasks in the Industrial Workspace list view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-request-management/operational-technology-request-management-lists-in-industrial-workspace.html
 release: zurich
 product: Operational Technology Request Management
 classification: operational-technology-request-management
@@ -30,5 +31,5 @@ The following lists are available to view and access OT requests in the Industri
 
 You can view your OT catalog tasks in the lists available under the **OT Tasks** module. For OT catalog tasks, the **Task type** column value is **Catalog Task**.
 
-**Parent Topic:**[Using Operational Technology Request Management](../concept/using-operational-technology-request-management.md)
+**Parent Topic:**[Using Operational Technology Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-request-management/using-operational-technology-request-management.md)
 

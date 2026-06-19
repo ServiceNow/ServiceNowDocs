@@ -2,6 +2,7 @@
 title: Manage the employee profile AI and ML model
 description: Use the employee profile Artificial Intelligence \(AI\) and Machine Learning \(ML\) model to view recommended articles and catalog items for similar users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/train-employee-profile-model.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,13 +20,13 @@ Use the employee profile Artificial Intelligence \(AI\) and Machine Learning \(M
 
 Role required: Employee profile admin
 
-Opt in to employee profile. For more information, see [Opt in to the employee profile](profile-opt-in.md).
+Opt in to employee profile. For more information, see [Opt in to the employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/profile-opt-in.md).
 
 ## About this task
 
 Discover recommendations from similar users using the employee profile ML model. These recommendations remove the dependency on the HR profile ML model. Identify the Knowledge articles and catalog items that are most viewed by similar users. Display the Recommended for you section based on the instance configuration made by the admin.
 
-You can [Modify the Recommended for you widget display](config-recommended-for-you.md) to show more results.
+You can [Modify the Recommended for you widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/config-recommended-for-you.md) to show more results.
 
 **Note:** HR customers continue to use the HR profile ML model regardless if they opt in to employee profile.
 
@@ -36,7 +37,7 @@ You can [Modify the Recommended for you widget display](config-recommended-for-y
 2.  To create a record under the default similarity definition, click **New**.
 
 
-The employee profile admin can [Manually train the employee profile predictive model](manually-train-employee-profile-predictive-model.md) if the similar user model is not auto-trained after opting in to employee profile.
+The employee profile admin can [Manually train the employee profile predictive model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/manually-train-employee-profile-predictive-model.md) if the similar user model is not auto-trained after opting in to employee profile.
 
 ## What to do next
 

@@ -2,6 +2,7 @@
 title: Finding constraint form
 description: Use the Finding constraint form to configure finding constraints for your finding definition. In addition to finding rules, finding constraints further narrow down the scope of your finding definitions using metrics like duration and relation constraints.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/finding-constraint-form.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -45,7 +46,7 @@ Start Condition
 
 </td><td>
 
-Event which triggers a finding constraint. You may select an existing rule, or create a new one using the plus \(+\) button to the right of the field.**Note:** For details on creating a condition, see [Configure advanced conditions: crop process](../task/po-advanced-conditions.md).
+Event which triggers a finding constraint. You may select an existing rule, or create a new one using the plus \(+\) button to the right of the field.**Note:** For details on creating a condition, see [Configure advanced conditions: crop process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/po-advanced-conditions.md).
 
 </td></tr><tr><td>
 
@@ -53,7 +54,7 @@ End Condition
 
 </td><td>
 
-Event that concludes a finding constraint. You may select an existing rule, or create a new one using the plus \(+\) button to the right of the field. **Note:** For details on creating a condition, see [Configure advanced conditions: crop process](../task/po-advanced-conditions.md).
+Event that concludes a finding constraint. You may select an existing rule, or create a new one using the plus \(+\) button to the right of the field. **Note:** For details on creating a condition, see [Configure advanced conditions: crop process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/po-advanced-conditions.md).
 
 </td></tr><tr><td>
 
@@ -121,5 +122,5 @@ Relation constraint field
 **Note:** This field only appears if the **Relation constraint** field is set to **has the same** or **has different**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Process Mining reference](../concept/process-mining-reference.md)
+</table>**Parent Topic:**[Process Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/process-mining-reference.md)
 

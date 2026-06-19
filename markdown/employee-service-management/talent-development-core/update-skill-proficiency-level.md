@@ -2,6 +2,7 @@
 title: Update your skill proficiency level
 description: Update and track your proficiency level for each skill that you list in your skills profile by using the Skills Foundation application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/update-skill-proficiency-level.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -27,7 +28,7 @@ Role required: sn\_skills\_int.emp
 
 3.  Select the Skills widget.
 
-4.  On the skills pill, select the menu icon ![Shortcut menu](../../../common/image/icon-menu.png).
+4.  On the skills pill, select the menu icon \[Omitted image "icon-menu.png"\] Alt text: Shortcut menu.
 
 5.  Select **Change skill proficiency**.
 
@@ -42,5 +43,5 @@ Role required: sn\_skills\_int.emp
 
 Your skill proficiency level is successfully updated in your skills profile.
 
-**Parent Topic:**[Using Skills Foundation](../concept/using-skills-intelligence.md)
+**Parent Topic:**[Using Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/using-skills-intelligence.md)
 

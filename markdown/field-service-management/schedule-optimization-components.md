@@ -2,7 +2,10 @@
 title: Schedule Optimization components
 description: Components installed with Schedule Optimization include tables, roles, constraints, objectives, and properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/schedule-optimization-components.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -106,14 +109,14 @@ Field Service Schedule Optimization adds the following roles.
 |schedule\_optimization\_user|User role for accessing the Schedule Optimization application. This role allows users to trigger on-demand schedule optimization executions.|
 |schedule\_optimization\_planner|Planner role for the Schedule Optimization application. This role allows administrators to perform administration configurations for the Schedule Optimization application and perform schedule planning activities.|
 
--   **[Tables installed with FSM for Schedule Optimization](tables-installed-with-fsm-for-schedule-optimization.md)**  
+-   **[Tables installed with FSM for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/tables-installed-with-fsm-for-schedule-optimization.md)**  
 The following tables are installed with the Field Service Management plugin, but are only used bySchedule Optimization.
--   **[Objectives and constraints used with Schedule Optimization](hard-soft-constraints.md)**  
+-   **[Objectives and constraints used with Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/hard-soft-constraints.md)**  
 Objectives and constraints are optimization features that determine how tasks are assigned to agents in Schedule Optimization.
--   **[Schedule Optimization properties](schedule-optimization-properties.md)**  
+-   **[Schedule Optimization properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/schedule-optimization-properties.md)**  
 You can set parameters that control how optimization runs.
--   **[Schedule Optimization integration user access requirements](schedule-optimization-integration-user-access-requirements.md)**  
+-   **[Schedule Optimization integration user access requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/schedule-optimization-integration-user-access-requirements.md)**  
 Describes the access requirements for the shared integration user account used by Schedule Optimization.
 
-**Parent Topic:**[Field Service Management reference](../../planning-and-policy/reference/fsm-reference.md)
+**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/fsm-reference.md)
 

@@ -2,6 +2,7 @@
 title: Factors in Advanced Risk Assessment
 description: Factors are questions that you can use to analyze risks. Factors appear on a risk assessment instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/factors.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -15,7 +16,7 @@ breadcrumb: [Advanced Risk Assessment, Explore, Risk Management, Governance, Ris
 
 Factors are questions that you can use to analyze risks. Factors appear on a risk assessment instance.
 
-Factors are questions that appear during the risk assessment. To use Advanced Risk Assessment, you must first define these factors and configure a risk assessment methodology \(RAM\). For more information on RAMs, see [Configure a risk assessment methodology](../task/configure-ram.md). Each factor or question has a response. There are different types of factors:
+Factors are questions that appear during the risk assessment. To use Advanced Risk Assessment, you must first define these factors and configure a risk assessment methodology \(RAM\). For more information on RAMs, see [Configure a risk assessment methodology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/configure-ram.md). Each factor or question has a response. There are different types of factors:
 
 -   Manual factor: A factor that requires human input. The response is a manual response. An example is your name.
 -   Automated factor: A factor whose response is automatically calculated. An example is the temperature in your city today. The information is fetched from external sources.
@@ -36,7 +37,7 @@ An assessor provides responses to factors. Risk assessors can contribute to fact
 -   Quantitative: Losses are in a numerical form. They can be incurred from a risk in monetary terms. They contribute to the inherent Annual Loss Expectancy \(ALE\).
 -   Both: Losses have both a qualitative risk rating and a quantitative dollar value. These ratings are also called semi-quantitative.
 
-For more information on understanding qualitative, quantitative, and semi-quantitative ratings, see [Types of risk rating methodologies](qual-vs-quant.md)
+For more information on understanding qualitative, quantitative, and semi-quantitative ratings, see [Types of risk rating methodologies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/qual-vs-quant.md)
 
 ## Manual factors
 
@@ -95,5 +96,5 @@ As for control environment assessment, you can assess the complete control envir
 
 Now, assume that two controls failed and one control passed. Thus, the control design effectiveness failure rate is 33.33%. Based on the previous table, this low value of 33.33% means that the control design needs improvement. This response can be automatically scripted in the automated scripted factor because it does not need any human calculation or intervention.
 
-**Parent Topic:**[Advanced Risk Assessment](advanced-risk-assessment.md)
+**Parent Topic:**[Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/advanced-risk-assessment.md)
 

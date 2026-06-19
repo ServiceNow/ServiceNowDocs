@@ -2,6 +2,7 @@
 title: SAFe Sprint Dashboard
 description: Track the progress of your SAFe stories in the current sprint and forecast sprint completion using the SAFe Sprint Dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scaled-agile-framework-safe/safe-sprint-dashboard.html
 release: zurich
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -15,13 +16,13 @@ breadcrumb: [Performance Analytics Content Pack for Essential SAFe, Scaled Agile
 
 Track the progress of your SAFe stories in the current sprint and forecast sprint completion using the SAFe Sprint Dashboard.
 
-![SAFe sprint dashboard widgets.](../image/safe-sprint-dashboard-widgets.png "SAFe sprint dashboard widgets")
+\[Omitted image "safe-sprint-dashboard-widgets.png"\] Alt text: SAFe sprint dashboard widgets.
 
-![SAFe sprint dashboard burndown report.](../image/safe-sprint-burndown.png "SAFe sprint dashboard burndown report")
+\[Omitted image "safe-sprint-burndown.png"\] Alt text: SAFe sprint dashboard burndown report.
 
-![SAFe sprint dashboard burnup report.](../image/safe-sprint-burnup.png "SAFe sprint dashboard burnup report")
+\[Omitted image "safe-sprint-burnup.png"\] Alt text: SAFe sprint dashboard burnup report.
 
-![SAFe sprint dashboard cumulative flow diagram report.](../image/safe-sprint-cfd.png "SAFe sprint dashboard cumulative flow diagram")
+\[Omitted image "safe-sprint-cfd.png"\] Alt text: SAFe sprint dashboard cumulative flow diagram report.
 
 The dashboard:
 
@@ -109,7 +110,7 @@ safe\_scrum\_user
 
     Indicates the committed scope \(in number of story points\) of the sprint. Together with the adjacent Scope widget, these widgets let you see difference between the scope committed at the start of the sprint and the current scope of the sprint.
 
-    **Note:** This widget is not visible by default. You can add it from Reports to your dashboard. For more information, see [Edit a responsive dashboard](https://www.servicenow.com/docs/access?context=t_EditADashboard&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+    **Note:** This widget is not visible by default. You can add it from Reports to your dashboard. For more information, see Edit a responsive dashboard.
 
 -   **Blocked Work**
 
@@ -129,7 +130,7 @@ If you are upgrading from version 1.0.2 or earlier of Performance Analytics Cont
 -   Sprint Burnup
 -   Sprint Cumulative Flow Diagram
 
-For more information, see [Using Solution Library for Essential SAFe dashboards](../reference/using-solution-library-for-essential-safe-dashboards.md).
+For more information, see [Using Solution Library for Essential SAFe dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/using-solution-library-for-essential-safe-dashboards.md).
 
 <table id="table_mbk_ndk_k3b"><thead><tr><th>
 
@@ -149,7 +150,7 @@ Sprint Burndown
 
 </td><td>
 
-Line chart ![](../../reporting/image/inline-data-vis-96px-line.png)
+Line chart \[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
 
 </td><td>
 
@@ -170,7 +171,7 @@ Sprint Burnup
 
 </td><td>
 
-Line chart ![](../../reporting/image/inline-data-vis-96px-line.png)
+Line chart \[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
 
 </td><td>
 
@@ -189,7 +190,7 @@ Sprint Cumulative Flow Diagram
 
 </td><td>
 
-Area chart![](../../reporting/image/inline-data-vis-96px-area.png)
+Area chart\[Omitted image "inline-data-vis-96px-area.png"\] Alt text:
 
 </td><td>
 
@@ -208,7 +209,7 @@ Monitor the progress of all the stories of your sprint between its actual start 
  **Note:** Stories in Ready and Cancelled states are not included in this report.
 
 </td></tr></tbody>
-</table>You can customize the Burnup, Burndown, and Cumulative Flow Diagram reports. For more information, see [Customizing Essential SAFe dashboard reports](../concept/customizing-safe-dashboard-reports.md).
+</table>You can customize the Burnup, Burndown, and Cumulative Flow Diagram reports. For more information, see [Customizing Essential SAFe dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/customizing-safe-dashboard-reports.md).
 
-**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](pa-content-pack-essential-safe.md)
+**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/pa-content-pack-essential-safe.md)
 

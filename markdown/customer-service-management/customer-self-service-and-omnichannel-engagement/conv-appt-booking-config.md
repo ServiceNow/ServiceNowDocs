@@ -2,6 +2,7 @@
 title: Configure Conversational Appointment Booking
 description: Install and set up the Conversational Appointment Booking application to enable customers to book, reschedule, or cancel an appointment with a Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/conv-appt-booking-config.html
 release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -27,7 +28,7 @@ This procedure provides general steps to set up the Conversational Appointment B
 
 1.  Install the Conversational Appointment Booking application.
 
-    For more information, see [Install Conversational Appointment Booking](conv_appt_booking_install.md).
+    For more information, see [Install Conversational Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/conv_appt_booking_install.md).
 
 2.  Navigate to **Virtual Agent** &gt; **Designer**.
 
@@ -36,13 +37,13 @@ This procedure provides general steps to set up the Conversational Appointment B
     -   Schedule a Walk-up Appointment
     -   Reschedule a Walk-up Appointment
     -   Cancel a Walk-up Appointment
-    For more information, see [Publish a Virtual Agent topic](https://www.servicenow.com/docs/access?context=publish-virtual-agent-topic&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+    For more information, see Publish a Virtual Agent topic.
 
     These topics are read-only by default. To add custom controls.
 
-    [duplicate the topics](https://www.servicenow.com/docs/access?context=duplicate-virtual-agent-topic&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+    duplicate the topics.
 
-    **Note:** Translation for custom controls is currently unavailable. You can manually add the translation in the ServiceNow® Walk-up Experience appointment booking application. See [Walk-up Experience appointment booking configuration](../concept/csm-walkup-appt-booking-config.md) for more information.
+    **Note:** Translation for custom controls is currently unavailable. You can manually add the translation in the ServiceNow® Walk-up Experience appointment booking application. See [Walk-up Experience appointment booking configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-appt-booking-config.md) for more information.
 
 4.  Confirm that the **Appointment Booking** custom control is published.
 
@@ -50,6 +51,6 @@ This procedure provides general steps to set up the Conversational Appointment B
 
 6.  Test the topics.
 
-    See [Test Virtual Agent topics](https://www.servicenow.com/docs/access?context=va-designer-testing&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US) for more information.
+    See Test Virtual Agent topics for more information.
 
 

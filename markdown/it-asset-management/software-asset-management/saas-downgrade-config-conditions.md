@@ -2,6 +2,7 @@
 title: Subscription downgrade configuration condition
 description: Determine various downgrade configuration conditions for SaaS applications and view the downgrade order based on the conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/saas-downgrade-config-conditions.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -23,5 +24,5 @@ Determine various downgrade configuration conditions for SaaS applications and v
 |Products|Products for which the downgrade configuration condition is defined.|
 |Active|Shows whether the downgrade configuration condition is active.|
 
-**Parent Topic:**[Software Asset Management references](references.md)
+**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/references.md)
 

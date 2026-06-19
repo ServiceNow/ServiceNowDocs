@@ -2,6 +2,7 @@
 title: Submit a chemical request for approval
 description: A chemical manager reviews a chemical request received from the employee and submits it for approval by the approver.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety/hs-submit-chemical-request-approval.html
 release: zurich
 product: Health and Safety
 classification: health-and-safety
@@ -21,13 +22,13 @@ Role required: sn\_hs\_chm.manager or approver
 
 ## About this task
 
-The approver is selected based on the location entered in the chemical request. The approver is assigned for that location in the approval flow configuration. For more information on setting up the approval flow, see [Configure the chemical request approver based on location](hs-configure-approver-by-location.md). If no configuration exists for the selected location, the approver name defaults to the Chemical manager user for approval.
+The approver is selected based on the location entered in the chemical request. The approver is assigned for that location in the approval flow configuration. For more information on setting up the approval flow, see [Configure the chemical request approver based on location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-configure-approver-by-location.md). If no configuration exists for the selected location, the approver name defaults to the Chemical manager user for approval.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
-2.  In the primary navigation, select **Environmental Management** \(![environmental management](../image/icon-hs-envt-mgmt.png)\) icon.
+2.  In the primary navigation, select **Environmental Management** \(\[Omitted image "icon-hs-envt-mgmt.png"\] Alt text: environmental management\) icon.
 
 3.  Select a chemical request with the pending review status.
 
@@ -51,5 +52,5 @@ The approver is selected based on the location entered in the chemical request. 
 -   The approver list can be viewed in the **Approvers** tab of the chemical request record.
 -   The approver assigned to the chemical request can view this request under **My Tasks** in the Employee Center for approval.
 
-**Parent Topic:**[Chemical management](../concept/hs-using-chemical-management.md)
+**Parent Topic:**[Chemical management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-using-chemical-management.md)
 

@@ -2,6 +2,7 @@
 title: TuneUp Your Virtual Agent – UX \(User Experience\)
 description: The TuneUp Your Virtual Agent – UX \(User Experience\) Accelerator provides guidance on fine-tuning Virtual Agent conversations to optimize value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/tuneup-virtual-agent-ux.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,7 +20,7 @@ The TuneUp Your Virtual Agent – UX \(User Experience\) Accelerator provides gu
 
 The TuneUp Your Virtual Agent – UX Accelerator provides Impact customers with an assessment of the Virtual Agent setup from the end user's perspective with prescriptive guidance to address and improve the Virtual Agent experience. An analysis of the user experience, an overview of Conversational Design leading practices, and recommendations on how best to improve are included.
 
-See [Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US) for additional information on Virtual Agent.
+See  for additional information on Virtual Agent.
 
 **Note:** This Accelerator is available in Guided, Advanced, and Total packages.
 

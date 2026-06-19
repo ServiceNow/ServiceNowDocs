@@ -2,6 +2,7 @@
 title: Provision user using Basic Authentication
 description: Configuring SCIM automatically provisions and de-provisions users and groups to ServiceNow by using the providers' provisioning service with Basic Authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/provisioning-user-basic-auth.html
 release: zurich
 product: Identity
 classification: identity

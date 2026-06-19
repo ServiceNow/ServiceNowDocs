@@ -2,6 +2,7 @@
 title: Personal Lines Claims workflows
 description: The Personal Lines Claims application installs automated workflows that you can configure for any claims tasks. These workflows create cases and route any tasks accordingly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/personal-lines-claims-workflows.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims
@@ -29,7 +30,7 @@ The following workflow routes the case and tasks for investigating and managing 
 -   Fraud evaluation
 -   Claim closure
 
-![Workflow showing the claims process for a personal auto claim using the Personal Lines Claims application. For the image description, see the text that follows.](../image/claims-process-flow-personal-auto-claim.png "Claims Process Flow – Personal Auto Claim​")
+\[Omitted image "claims-process-flow-personal-auto-claim.png"\] Alt text: Workflow showing the claims process for a personal auto claim using the Personal Lines Claims application. For the image description, see the text that follows.
 
 ## First notice of loss \(FNOL\)
 

@@ -2,6 +2,7 @@
 title: Vendor Contact table
 description: The Vendor Contact \[vm\_vdr\_contact\] table stores important information about a vendor contact.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/slo-supp-contact-table.html
 release: zurich
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -27,7 +28,7 @@ The Vendor Contact \[vm\_vdr\_contact\] table contains the following fields.
 |Email|Email|Email address of the vendor contact.|
 |Primary contact|Boolean|Indicates whether the vendor contact is a primary contact.|
 
-For more information, see [Supplier Lifecycle Operations data model](slo-data-model.md).
+For more information, see [Supplier Lifecycle Operations data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/slo-data-model.md).
 
-**Parent Topic:**[Primary data tables for Supplier Lifecycle Operations](slo-primary-data-tables.md)
+**Parent Topic:**[Primary data tables for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

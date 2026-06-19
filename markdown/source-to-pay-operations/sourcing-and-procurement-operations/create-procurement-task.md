@@ -2,13 +2,14 @@
 title: Create a procurement task
 description: As a procurement specialist, create a procurement task for the shopper or employer from the contextual panel of a procurement object details page in Source-to-Pay Workspace, to address your procurement-related business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-procurement-task.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Using Procurement Case Management, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Using Procurement Case Management, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Create a procurement task
@@ -33,7 +34,7 @@ Role required: sn\_shop.procurement\_specialist
 
 5.  Select the + icon.
 
-6.  On the **Create a new case or task** dialog box, select **Create procurement task** in the **What would you like to create?** list.![Displays the Create a type of work dialog box.](../image/procurment_task.png)
+6.  On the **Create a new case or task** dialog box, select **Create procurement task** in the **What would you like to create?** list.\[Omitted image "procurment\_task.png"\] Alt text: Displays the Create a type of work dialog box.
 
 7.  Select **Create**.
 
@@ -230,5 +231,5 @@ Time taken to resolve the task, in days, hours, minutes, and seconds.
     If you have created a procurement task with action type as Sign document, a document task is automatically created and assigned to the selected shopper or employee.
 
 
-**Parent Topic:**[Using Procurement Case Management](../concept/using-pcm.md)
+**Parent Topic:**[Using Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/using-pcm.md)
 

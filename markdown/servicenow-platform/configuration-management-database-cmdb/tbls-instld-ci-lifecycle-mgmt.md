@@ -2,6 +2,7 @@
 title: Components installed by CI Lifecycle Management
 description: Several types of components are installed by CI Lifecycle Management \(included in the com.snc.cmdb plugin\), including tables, scheduled jobs, and properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/tbls-instld-ci-lifecycle-mgmt.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -15,7 +16,7 @@ breadcrumb: [CMDB CI Lifecycle Management \(legacy\), Configuration Management D
 
 Several types of components are installed by CI Lifecycle Management \(included in the com.snc.cmdb plugin\), including tables, scheduled jobs, and properties.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Scheduled jobs installed
 
@@ -139,5 +140,5 @@ Maximum number of CIs that CI Lifecycle Management can process in a bulk update 
 -   Location: System Property \[sys\_properties\] table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[CMDB CI Lifecycle Management \(legacy\)](../concept/cmdb-ci-lifecycle-mgmt.md)
+</table>**Parent Topic:**[CMDB CI Lifecycle Management \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-ci-lifecycle-mgmt.md)
 

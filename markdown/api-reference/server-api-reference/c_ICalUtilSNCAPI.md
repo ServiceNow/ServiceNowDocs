@@ -2,6 +2,7 @@
 title: ICalUtilSNC - Global
 description: The ICalUtilSNC script include provides functions to generate iCalendar compliant events.Generates a formatted VCALENDAR component.Generates a formatted VEVENT.Formats the RRULE property for a VEVENT.Returns the date from the GlideScheduleDateTime.Returns a GlideScheduleDateTime object based on the passed date and time string.Returns the time from the GlideScheduleDateTime.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_ICalUtilSNCAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The ICalUtilSNC script include provides functions to generate iCalendar compliant events.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## ICalUtilSNC - formatICalComponent\(Array arrEvents\)
 

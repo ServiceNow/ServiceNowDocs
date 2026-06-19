@@ -2,6 +2,7 @@
 title: Product Instance feature in Hardware Asset Management
 description: You can consistently represent a product along all applications, processes, workflows, and user interactions through the Product Instance feature. Changes made to any of the product representations are synchronized automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/product-instance-for-assets.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management

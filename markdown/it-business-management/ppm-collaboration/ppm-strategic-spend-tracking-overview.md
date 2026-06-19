@@ -2,6 +2,7 @@
 title: Strategic Spend Tracking for PPM
 description: Strategic Spend Tracking for PPM enables project or demand managers to evaluate the strategic value of organization’s projects and demands. You can identify the purpose and benefits of executing demands and projects and how they contribute to achieving company's strategies and goals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/ppm-collaboration/ppm-strategic-spend-tracking-overview.html
 release: zurich
 product: PPM Collaboration
 classification: ppm-collaboration
@@ -27,14 +28,14 @@ Each demand and project contributes to achieving one or multiple organizational 
 -   View the roll up of strategy and goal breakdowns from different demands and projects in the strategy and goal record.
 -   Use the Strategic Spend Tracking for PPM dashboard to view how the planned costs, actuals costs, and benefits for projects aligned to the organization's goals and strategies trend over time in order to accurately understand the financial performance of your organization.
 
--   **[Install Strategic Spend Tracking for PPM](../task/install-strategic-spend.md)**  
-Install the Strategic Spend Tracking for PPM application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
--   **[Allocate or modify the strategy and goal percentage for a project](../task/associate-goal-strategy-prj.md)**  
+-   **[Install Strategic Spend Tracking for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/install-strategic-spend.md)**  
+Install the Strategic Spend Tracking for PPM application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+-   **[Allocate or modify the strategy and goal percentage for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/associate-goal-strategy-prj.md)**  
 Allocate the percentage of a project's total cost, benefit, and budget to help achieve the strategic objectives that the project fulfills. You can also view the breakdown of the project's financial data based on the allocated percentage.
--   **[Allocate or modify the strategy and goal percentage for a demand](../task/associate-goal-strategy-dmd.md)**  
+-   **[Allocate or modify the strategy and goal percentage for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/associate-goal-strategy-dmd.md)**  
 Allocate the percentage of a demand's total cost, benefit, and budget towards achievement of strategic objectives that the demand fulfills. You can also view the breakdown of the demand's financial data based on the allocated percentage.
--   **[Strategic Spend Tracking for PPM dashboard](../../../use/dashboards/application-content-packs/ppm-strategic-spend-tracking-dashboard.md)**  
+-   **[Strategic Spend Tracking for PPM dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/ppm-strategic-spend-tracking-dashboard.md)**  
 The Strategic Spend Tracking for PPM dashboard provides comprehensive visualization to the business planners to help them understand how the planned costs, actual costs, and benefits for projects aligned to the organization's goals and strategies trend over time. It helps you to accurately understand the financial performance of your organization.
 
-**Parent Topic:**[Project Portfolio Management](../../project-portfolio-suite/concept/c_ProjectPortfolioSuite.md)
+**Parent Topic:**[Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md)
 

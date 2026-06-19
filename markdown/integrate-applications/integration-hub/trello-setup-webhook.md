@@ -2,6 +2,7 @@
 title: Set up a webhook
 description: Configure a webhook to subscribe to Trello with a ServiceNow callback URL.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/trello-setup-webhook.html
 release: zurich
 product: Integration Hub
 classification: integration-hub

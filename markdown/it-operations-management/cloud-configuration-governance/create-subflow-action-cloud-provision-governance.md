@@ -2,6 +2,7 @@
 title: Create a response action for Cloud Provisioning and Governance
 description: Create a subflow with the required input parameters that notifies Cloud Provisioning and Governance whether the flow completes successfully or not.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/create-subflow-action-cloud-provision-governance.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -17,7 +18,7 @@ Create a subflow with the required input parameters that notifies Cloud Provisio
 
 ## Before you begin
 
--   Ensure that you are familiar with the concepts of , [Subflows](https://www.servicenow.com/docs/access?context=subflows&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US), and [Action Designer](https://www.servicenow.com/docs/access?context=actions&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+-   Ensure that you are familiar with the concepts of , Subflows, and Action Designer.
 -   Create a subflow that you intend to invoke for pre or post-provisioning.
 
 Role required: flow\_designer, action\_designer, or admin
@@ -36,7 +37,7 @@ The response action communicates to the Cloud Provisioning and Governance applic
 
 1.  Navigate to **All** &gt; **Flow Designer** &gt; **Actions** tab, select **New Action**.
 
-    For more information, see [Create an action](https://www.servicenow.com/docs/access?context=create-action&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+    For more information, see Create an action.
 
 2.  Fill in the Action Properties.
 
@@ -44,7 +45,7 @@ The response action communicates to the Cloud Provisioning and Governance applic
 
     Create the following input variables: error, log, output, and correlation id.
 
-    ![Sample response action- Cloud Provisioning and Governance](../image/return-action-sample.png "Sample response action to Cloud Provisioning and Governance")
+    \[Omitted image "return-action-sample.png"\] Alt text: Sample response action- Cloud Provisioning and Governance
 
 4.  Select and add a script action step to perform an operation on the action inputs.
 
@@ -68,7 +69,7 @@ The response action communicates to the Cloud Provisioning and Governance applic
 
     2.  Select **Action** &gt; **Cloud Management: Terraform Connector**, and select a default action.
 
-    ![Default actions- terraform Connector](../image/terraform-connector-default-actions.png)
+    \[Omitted image "terraform-connector-default-actions.png"\] Alt text: Default actions- terraform Connector
 
     The action you created sends a response to the Cloud Provisioning and Governance application, updating the order with the status of the subflow's step.
 

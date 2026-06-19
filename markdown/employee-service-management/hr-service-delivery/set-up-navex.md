@@ -2,6 +2,7 @@
 title: Set up Employee Relations integration with Navex Ethicspoint
 description: Understand how to set up the Employee Relations integration with Navex Ethicspoint application for pulling and pushing employee relations case data from the Navex EthicsPoint system into the ServiceNow system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/set-up-navex.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -27,16 +28,16 @@ Role required: sn\_hr\_navex\_ep.admin
 
     Allow the Restricted Caller Access records with Status = **Requested** and Source Scope = **Employee Relations integration with Navex EthicsPoint**.
 
-3.  For better performance, index Source field: external\_id mapped to Target field: correlation\_id in [Transform maps](../reference/transform-maps-navex.md).
+3.  For better performance, index Source field: external\_id mapped to Target field: correlation\_id in [Transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/transform-maps-navex.md).
 
-    For more information, see [create a table index](https://www.servicenow.com/docs/access?context=t_CreateCustomIndex&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For more information, see create a table index.
 
 4.  Set up Navex EthicsPoint spoke.
 
-    For more information, see [Set up Navex EthicsPoint spoke](https://www.servicenow.com/docs/access?context=navex-ethics-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+    For more information, see Set up Navex EthicsPoint spoke.
 
-5.  [Configure properties](prop-navex.md).
+5.  [Configure properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/prop-navex.md).
 
-6.  [Map fields](map-fields-navex.md).
+6.  [Map fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/map-fields-navex.md).
 
 

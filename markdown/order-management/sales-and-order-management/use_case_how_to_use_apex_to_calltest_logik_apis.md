@@ -2,6 +2,7 @@
 title: Use case: Using Apex to call or test ServiceNow CPQ APIs
 description: Learn how to use Apex to call or to test ServiceNow CPQ APIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/use\_case\_how\_to\_use\_apex\_to\_calltest\_logik\_apis.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -17,7 +18,7 @@ Learn how to use Apex to call or to test ServiceNow CPQ APIs.
 
 The easiest way to test Apex code for use of ServiceNow CPQ is through the developer console in SFDC.
 
-![User interface](../images/cpq-using-apex-developer-console.png)
+\[Omitted image "cpq-using-apex-developer-console.png"\] Alt text: User interface
 
 To test the script from in the console, the code must be wrapped in a larger class with the “exec” function. For example:
 
@@ -27,7 +28,7 @@ public class testGetConfig { public static void exec() {
 
 Save the code, and then in the Debug menu, click Execute Anonymous Window.
 
-![Debug menu](../images/cpq-using-apex-anonymous-window.png)
+\[Omitted image "cpq-using-apex-anonymous-window.png"\] Alt text: Debug menu
 
 In the execute anonymous window, execute the code `functionName.exec();`
 
@@ -58,5 +59,5 @@ httpRequest.setHeader('Origin', 'https://tenant.sector.logik.io/');
 
 This code would be executed as `testGetConfig.exec();`.
 
-**Parent Topic:**[Use cases](use-cases.md)
+**Parent Topic:**[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/use-cases.md)
 

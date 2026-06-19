@@ -2,6 +2,7 @@
 title: Request an internal review
 description: Initiate a review of the contract document by internal subject matter experts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-add-review-task.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -17,7 +18,7 @@ Initiate a review of the contract document by internal subject matter experts.
 
 ## Before you begin
 
--   For self-service contract requests, you may want review and feedback from the internal subject matter experts. If needed, the contract requester can submit a change request to the contract fulfiller. The contract fulfiller then submits a review task with the change request details. For more information, see [Review a contract document in your workspace](cncore-request-changes-ss-cntr.md).
+-   For self-service contract requests, you may want review and feedback from the internal subject matter experts. If needed, the contract requester can submit a change request to the contract fulfiller. The contract fulfiller then submits a review task with the change request details. For more information, see [Review a contract document in your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-request-changes-ss-cntr.md).
 -   For non- self-served contract requests, the contract user cannot create a change request. Instead, the contract fulfiller creates a task for internal review.
 
 Role required: sn\_cm\_core.contract\_fulfiller
@@ -31,27 +32,27 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 1.  Open the contract request from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d457997e89">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d121238e89">
 
 Method
 
-</th><th align="left" id="d457997e92">
+</th><th align="left" id="d121238e92">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d457997e98">
+</th></tr></thead><tbody><tr><td id="d121238e98">
 
 **Contract Workspace listing**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Contract Workspace**.
-2.  Click the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **Contract requests** &gt; **All**
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d457997e145">
+</td></tr><tr><td id="d121238e145">
 
 **Workspace used by your application**
 
@@ -131,9 +132,9 @@ Description to specify the content to be reviewed.
 
 ## Result
 
-A review task is created, listed in the Reviews tab and the change request details are added to the Activity stream. The Contract status updates to Awaiting review. If the new task doesn't appear in the list, click the refresh list button \(![Refresh button](../../workplace-central/images/refresh-icon.png)\).
+A review task is created, listed in the Reviews tab and the change request details are added to the Activity stream. The Contract status updates to Awaiting review. If the new task doesn't appear in the list, click the refresh list button \(\[Omitted image "refresh-icon.png"\] Alt text: Refresh button\).
 
-![Submit internal review task to get the contract document reviewed by the internal subject matter experts.](../image/cmpro-internal-review-task.png)
+\[Omitted image "cmpro-internal-review-task.png"\] Alt text: Submit internal review task to get the contract document reviewed by the internal subject matter experts.
 
-**Parent Topic:**[Internal review overview](cncore-expert-review.md)
+**Parent Topic:**[Internal review overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-expert-review.md)
 

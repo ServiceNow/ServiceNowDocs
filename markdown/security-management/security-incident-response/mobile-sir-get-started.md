@@ -2,11 +2,12 @@
 title: Log in to the Security Incident Response Mobile app
 description: Open the Security Incident Response Mobile app and add a ServiceNow AI Platform instance with Security Incident Response to your mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/mobile-sir-get-started.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Mobile Experience for Security Incident Response, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -23,23 +24,17 @@ Role required: sn\_si.analyst
 
 Time to complete this task: 5-10 minutes.
 
-Verify that you have completed the setup steps described in [Set up checklist for the Security Incident Response Mobile app](mobile-sir-setupinstll-mobile-app.md).
-
-
-
-![Security Incident Response mobile landing page.](../image/mobile_landing-agent.jpg)
+Verify that you have completed the setup steps described in [Set up checklist for the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/mobile-sir-setupinstll-mobile-app.md).
 
 ## Procedure
 
 1.  On your mobile device, tap the **ServiceNow Agent** app to open it.
 
-    ![ServiceNow Agent app.](../../vulnerability-response/image/mobile-agentapp-NY.png)
-
     If you are not already logged in to a ServiceNow AI Platform instance, the Instances screen is displayed.
 
 2.  If the ServiceNow AI Platform instance with the Security Incident Response core application is not already added to your mobile device, follow these steps to add it.
 
-    1.  On the Instances screen that is displayed, tap the ![Plus icon.](../../vulnerability-response/image/mobile_instances_plus.png).
+    1.  On the Instances screen that is displayed, tap the \[Omitted image "mobile\_instances\_plus.png"\] Alt text: Plus icon..
 
         A screen is displayed that prompts you to enter and save an address of a ServiceNow AI Platform instance.
 

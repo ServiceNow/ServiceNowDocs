@@ -2,6 +2,7 @@
 title: Migrate locations from Location table to Workplace locations table
 description: After you configure the location migration records, perform the migration action to migrate the locations from the ServiceNow Location table \[cmn\_location\] to the Workplace Location \[sn\_wsd\_core\_workplace\_location\] table in Workplace Service Delivery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-core/migrate-locations-from-loc-table-to-workplaceloc-table.html
 release: zurich
 product: Workplace Core
 classification: workplace-core
@@ -19,10 +20,10 @@ After you configure the location migration records, perform the migration action
 
 Ensure the following:
 
--   The location migration configurations are active. For more information, refer to [Configure location migration hierarchy](add-location-migration-hierarchy.md).
+-   The location migration configurations are active. For more information, refer to [Configure location migration hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/add-location-migration-hierarchy.md).
 -   The location migration configuration from Campus to lower levels must always be in the Campus &gt; Building &gt; Floor &gt; Area &gt; Room/Space order. You can also have an optional hierarchy for a location migration configuration.
 
-If you want to change the location type of a location created in the Location table \[cmn\_location\], see [Set the location type in Location table](set-loc-type-in-loc-table.md).
+If you want to change the location type of a location created in the Location table \[cmn\_location\], see [Set the location type in Location table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/set-loc-type-in-loc-table.md).
 
 Role required: sn\_wsd\_core.admin
 

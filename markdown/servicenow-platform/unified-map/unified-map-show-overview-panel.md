@@ -2,6 +2,7 @@
 title: View a summary of map contents on the Overview panel
 description: The Overview panel displays summary data for items on the map that are associated with the home node — counts and types of CIs and connections, discovery sources, and so on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/unified-map/unified-map-show-overview-panel.html
 release: zurich
 product: Unified Map
 classification: unified-map
@@ -25,9 +26,9 @@ Role required: sn\_cmdb\_user
 
 ## Procedure
 
-1.  While working in a map, in the Search bar, search for and select the CI to set as the home node and then select the Overview icon ![](../image/icon-um-overview-panel.png).
+1.  While working in a map, in the Search bar, search for and select the CI to set as the home node and then select the Overview icon \[Omitted image "icon-um-overview-panel.png"\].
 
-    ![Information in the Overview panel for nodes that are associated with the home node.](../image/um-overview-panel.png)
+    \[Omitted image "um-overview-panel.png"\] Alt text: Information in the Overview panel for nodes that are associated with the home node.
 
 <table id="table_fm3_gyl_kcc"><thead><tr><th>
 
@@ -43,7 +44,7 @@ Home node
 
 </td><td>
 
-The CI that is currently the home node. For more information, see [Specify the home node](../reference/unified-map-appearance.md#row-specify-home-node).
+The CI that is currently the home node. For more information, see [Specify the home node](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/unified-map/unified-map-appearance.md).
 
 </td></tr><tr><td>
 
@@ -99,7 +100,7 @@ Map time
 
 </td><td>
 
-The timestamp that is specified on the timeline. The time is set to "now" when you first open a map. For more information, see [Viewing related items on the Unified Map timeline](../concept/unified-map-timeline-working-on.md).
+The timestamp that is specified on the timeline. The time is set to "now" when you first open a map. For more information, see [Viewing related items on the Unified Map timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/unified-map/unified-map-timeline-working-on.md).
 
 </td></tr></tbody>
 </table>

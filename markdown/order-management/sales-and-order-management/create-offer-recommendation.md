@@ -2,6 +2,7 @@
 title: Create a product offering recommendation
 description: Create product offering recommendations that can be used by your sales agents to upsell or cross-sell additional products in quotes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/create-offer-recommendation.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,7 +24,7 @@ Role required: Role required: sn\_prd\_pm.product-catalog\_manager, sn\_prd\_pm.
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![image.Lists] view.
+1.  In the CSM Configurable Workspace, select the **List** view.
 
 2.  Navigate to **Recommendations** &gt; **Product Offering Recommendations** and select **New**.
 
@@ -90,6 +91,6 @@ Brief description of the offering recommendation.
 </td></tr></tbody>
 </table>3.  Select **Save**.
 
-    The product recommendation card for the product is displayed to your agents when they're updating a quote that has the source product offering for this recommendation. For more information on how sales agents use product offering recommendations, see [Get additional product offering recommendations for quotes](quote-get-product-offer.md).
+    The product recommendation card for the product is displayed to your agents when they're updating a quote that has the source product offering for this recommendation. For more information on how sales agents use product offering recommendations, see [Get additional product offering recommendations for quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-get-product-offer.md).
 
 

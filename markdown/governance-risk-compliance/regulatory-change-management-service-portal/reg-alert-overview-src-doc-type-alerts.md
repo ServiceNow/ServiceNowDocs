@@ -2,6 +2,7 @@
 title: Source document alerts view
 description: When you select a source document alert in the List view in the Compliance Workspace, it displays the details of the alert on a new page. The details include the title of the alert, provider of the alert, its state, and other important information in the Overview tab and Details tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/regulatory-change-management-service-portal/reg-alert-overview-src-doc-type-alerts.html
 release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal

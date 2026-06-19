@@ -2,6 +2,7 @@
 title: Enable push todos flow
 description: Enable push todos flow to push existing todos to HR Service Delivery Integration with SuccessFactors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/enable-push-flow.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

@@ -2,6 +2,7 @@
 title: Integrate your self-configured bot with single Microsoft Teams tenant
 description: Integrate multiple ServiceNow instances with a single Microsoft Teams tenant by creating multiple bots on the Microsoft Teams tenant. Use your ServiceNow Virtual Agent application, which supports multiple bots on a single Microsoft Teams tenant, to install Conversational Integration with Microsoft Teams application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/teams-install-custom-app.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -24,13 +25,13 @@ This installation requires a ServiceNow instance other than the one integrated w
 
 **Note:** The ServiceNow instance that you will use to integrate with a single Microsoft Teams tenant must not be an instance that you have used for installing Conversational Integration with Microsoft Teams in the primary method where you can integrate only one ServiceNow instance with one tenant.
 
-Ensure that you created a bot on the Microsoft Teams tenant for each ServiceNow instance to be integrated. For more information, see [Create a bot in Microsoft Teams](create-bot-msteams.md).
+Ensure that you created a bot on the Microsoft Teams tenant for each ServiceNow instance to be integrated. For more information, see [Create a bot in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-bot-msteams.md).
 
 ## Procedure
 
 1.  Fetch the Tenant ID, Client ID \(App ID\), Client Secret, and Bot Name details for your bot created in Microsoft Teams.
 
-    For more information, see [Retrieve bot details](create-bot-msteams.md#bot-details).
+    For more information, see [Retrieve bot details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-bot-msteams.md).
 
     **Note:** Use this information when setting up the bot in your ServiceNow instance.
 
@@ -48,25 +49,25 @@ Ensure that you created a bot on the Microsoft Teams tenant for each ServiceNow 
 
         **Note:** The **Add Integrations** drop-down is available only after installing the Conversational Integration with Microsoft Teams plugin \(sn\_va\_teams\) on your ServiceNow instance.
 
-        ![Microsoft Teams Add Integrations options. The Integrate with Self-configured bot option is selected.](../images/add-msteams-self-integ.png)
+        \[Omitted image "add-msteams-self-integ.png"\] Alt text: Microsoft Teams Add Integrations options. The Integrate with Self-configured bot option is selected.
 
     4.  From the **Add Integrations** drop-down, select **Integrate with Self-configured bot**.
 
     5.  In the Integrate Microsoft Teams with self-configured bot page, enter the **Name of the bot**, **Tenant ID**, **Client ID \(App ID\)**, and **Client Secret** from creating the Microsoft Teams bot, and select the **Single tenant bot** check box before selecting **Submit**.
 
-        ![Integrate Microsoft Teams with self-configured bot window in Conversational integrations Channels and integrations settings.](../images/msteams-multi-integ.png "Integrate Microsoft Teams with self-configured bot")
+        \[Omitted image "msteams-multi-integ.png"\] Alt text: Integrate Microsoft Teams with self-configured bot window in Conversational integrations Channels and integrations settings.
 
         **Note:** For each additional bot to be integrated, repeat steps 1 and 2. If you created your bot before October 2025, you don't need to select the **Single tenant box** check box.
 
-        If you would like to integrate your ServiceNow instance with another Microsoft Teams bot, select the Add integration for Self-configured bot icon against the Self-configured bot or select the **Add integration** drop-down on the Manage Microsoft Teams channel page and select **Integrate with Self-configured bot**.![Manage Microsoft Teams channel in Conversational Interfaces general settings. The Add integration for Self-configured bot button and Integrate with Self-configured bot option in the Add integration drop-down menu are highlighted.](../images/add-self-config-integ.png)
+        If you would like to integrate your ServiceNow instance with another Microsoft Teams bot, select the Add integration for Self-configured bot icon against the Self-configured bot or select the **Add integration** drop-down on the Manage Microsoft Teams channel page and select **Integrate with Self-configured bot**.\[Omitted image "add-self-config-integ.png"\] Alt text: Manage Microsoft Teams channel in Conversational Interfaces general settings. The Add integration for Self-configured bot button and Integrate with Self-configured bot option in the Add integration drop-down menu are highlighted.
 
         User receives a message that the installation is successful.
 
 
 ## What to do next
 
--   [Auto-generate the manifest file for uploading on Microsoft Teams](generate-manifest-file-msteams.md).
--   [Upload the manifest package file to publish your bot](upload-package-file-msteams.md)
+-   [Auto-generate the manifest file for uploading on Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/generate-manifest-file-msteams.md).
+-   [Upload the manifest package file to publish your bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/upload-package-file-msteams.md)
 
-**Parent Topic:**[Integrating multiple ServiceNow instances with a single Microsoft Teams tenant](../concept/va-integ-single-teams.md)
+**Parent Topic:**[Integrating multiple ServiceNow instances with a single Microsoft Teams tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integ-single-teams.md)
 

@@ -2,11 +2,12 @@
 title: Use the ServiceNow DevOps extension for Azure DevOps and Azure DevOps custom actions
 description: Install and configure DevOps extension for Azure DevOps to send build and release notifications from your Azure pipeline to DevOps Change Velocity.Use the ServiceNow DevOps extension for Azure DevOps to configure change control and artifacts and packages in your Azure build \(CI\) pipeline.Use the ServiceNow DevOps extension for Azure DevOps to configure change control, and artifacts and packages in your Azure release \(CD\) pipeline.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/config-dev-ops-extensions-azure.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 9
 breadcrumb: [Configuring the Azure pipeline for DevOps, Azure DevOps, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -21,7 +22,7 @@ Role required: sn\_devops.admin
 
 ## About this task
 
-You can use **ServiceNow DevOps** extension on [Visual Studio Marketplace - Extensions for Azure DevOps](https://marketplace.visualstudio.com/azuredevops) to integrate your Azure pipeline with the ServiceNow DevOps application. For more information about artifacts and packages in DevOps Change Velocity, see [Artifacts and packages](../concept/using-dev-ops-release-change.md).
+You can use **ServiceNow DevOps** extension on [Visual Studio Marketplace - Extensions for Azure DevOps](https://marketplace.visualstudio.com/azuredevops) to integrate your Azure pipeline with the ServiceNow DevOps application. For more information about artifacts and packages in DevOps Change Velocity, see [Artifacts and packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/using-dev-ops-release-change.md).
 
 -   **ServiceNow DevOps** service connection
 
@@ -90,11 +91,13 @@ Azure build \(CI\) pipeline custom tasks:
     **Note:** The **ServiceNow DevOps Build Security Result** task is not supported for Release pipelines.
 
 
+The **ServiceNow DevOps Server Job Notification** and **ServiceNow DevOps Agent Job Notification** tasks are not required pipeline tasks for ServiceNow to track Azure DevOps pipeline job executions. If either is used in your pipelines, you can remove them.
+
 ## Procedure
 
 1.  Go to [Visual Studio Marketplace](https://marketplace.visualstudio.com/), search for the **ServiceNow DevOps** extension, and click **Get it free**.
 
-    ![DevOps Azure extension](../image/dev-ops-azure-extension.png)
+    \[Omitted image "dev-ops-azure-extension.png"\] Alt text: DevOps Azure extension
 
 2.  Select your Azure DevOps organization and select **Install**.
 
@@ -128,7 +131,7 @@ Tool ID
 
 The sys\_id of the orchestration tool.
 
- You can copy this value using the `Copy sys_id` command on the Orchestration Tool form. If you are using the workspace, select **More form options \(![More form options icon](../image/more-form-actions-icon.png)\) &gt; Copy sys\_id** on the Azure DevOps tool connection form. If you are using Service Catalog or Classic, select **Additional actions \(![Additional actions icon](../image/additional-actions.png)\) &gt; Copy sys\_id** on the Azure DevOps tool connection form.
+ You can copy this value using the `Copy sys_id` command on the Orchestration Tool form. If you are using the workspace, select **More form options \(\[Omitted image "more-form-actions-icon.png"\] Alt text: More form options icon\) &gt; Copy sys\_id** on the Azure DevOps tool connection form. If you are using Service Catalog or Classic, select **Additional actions \(\[Omitted image "additional-actions.png"\] Alt text: Additional actions icon\) &gt; Copy sys\_id** on the Azure DevOps tool connection form.
 
 </td></tr><tr><td>
 
@@ -174,11 +177,11 @@ Select check box.
 </table>
 ## Example
 
-![New Service Connection in Azure DevOps for basic authentication method](../image/azure-service-connection-basic.png "Azure pipeline - ServiceNow DevOps service connection basic authentication method")
+\[Omitted image "azure-service-connection-basic.png"\] Alt text: New Service Connection in Azure DevOps for basic authentication method
 
-![New Service Connection in Azure DevOps for token based authentication method](../image/azure-service-connection-token.png "Azure pipeline - ServiceNow DevOps service connection token based authentication method")
+\[Omitted image "azure-service-connection-token.png"\] Alt text: New Service Connection in Azure DevOps for token based authentication method
 
-**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](../concept/azure-devops-integration-dev-ops.md)
+**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
 
 ## Set up an Azure build \(CI\) pipeline in DevOps
 
@@ -217,8 +220,8 @@ Steps
 1.  In the **Display name** field, enter **ServiceNow Change Acceleration**.
 2.  In the **ServiceNow endpoint** field, enter `My Connection`.
 3.  In the **Upstream job executed** field, enter the value that indicates the previous job in line. For example, the job before Server might be `Test`.
-4.  In the **Change request details** field, set [closure code and change request fields](../concept/dev-ops-config-change-details.md) from within the pipeline.
- Select the information icon to view sample output. For more information regarding change acceleration, see [change acceleration](../concept/dev-ops-change-acceleration.md).
+4.  In the **Change request details** field, set [closure code and change request fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/dev-ops-config-change-details.md) from within the pipeline.
+ Select the information icon to view sample output. For more information regarding change acceleration, see [change acceleration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md).
 
 </td></tr><tr><td>
 
@@ -228,7 +231,7 @@ Steps
 
 1.  In the **ServiceNow endpoint** field, enter `My Connection`.
 2.  In the **Artifacts payload** field, enter the JSON containing list of artifacts.
- For more information regarding artifacts, see [Artifacts and packages](../concept/using-dev-ops-release-change.md).
+ For more information regarding artifacts, see [Artifacts and packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/using-dev-ops-release-change.md).
 
 </td></tr><tr><td>
 
@@ -239,7 +242,7 @@ Steps
 1.  In the **ServiceNow endpoint** field, enter `My Connection`.
 2.  In the **Package name** field, enter the name of the package that contains artifacts.
 3.  In the **Artifacts payload** field, enter the JSON containing build details and list of artifacts.
- For more information regarding artifacts, see [Artifacts and packages](../concept/using-dev-ops-release-change.md).
+ For more information regarding artifacts, see [Artifacts and packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/using-dev-ops-release-change.md).
 
 </td></tr><tr><td>
 
@@ -247,7 +250,7 @@ Steps
 
 </td><td>
 
-[Get and update change request details in Azure DevOps pipeline](update-change-request-details-in-an-azure-devops-pipeline.md)
+[Get and update change request details in Azure DevOps pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/update-change-request-details-in-an-azure-devops-pipeline.md)
 
 </td></tr><tr><td>
 
@@ -255,7 +258,7 @@ Steps
 
 </td><td>
 
-[Get and update change request details in Azure DevOps pipeline](update-change-request-details-in-an-azure-devops-pipeline.md)
+[Get and update change request details in Azure DevOps pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/update-change-request-details-in-an-azure-devops-pipeline.md)
 
 </td></tr><tr><td>
 
@@ -263,7 +266,7 @@ Steps
 
 </td><td>
 
-[Get and update change request details in Azure DevOps pipeline](update-change-request-details-in-an-azure-devops-pipeline.md)
+[Get and update change request details in Azure DevOps pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/update-change-request-details-in-an-azure-devops-pipeline.md)
 
 </td></tr><tr><td>
 
@@ -271,7 +274,7 @@ Steps
 
 </td><td>
 
-[Get and update change request details in Azure DevOps pipeline](update-change-request-details-in-an-azure-devops-pipeline.md)
+[Get and update change request details in Azure DevOps pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/update-change-request-details-in-an-azure-devops-pipeline.md)
 
 </td></tr></tbody>
 </table>5.  Select **Add**, to add the custom task to the Tasks section of your Azure pipeline.
@@ -279,13 +282,13 @@ Steps
 
 ### Example
 
-![DevOps Azure Change extension](../image/dev-ops-azure-change-server.png "Azure pipeline: ServiceNow DevOps Change Acceleration custom task")
+\[Omitted image "dev-ops-azure-change-server.png"\] Alt text: DevOps Azure Change extension
 
-![DevOps ServiceNow Change Acceleration extension](../image/dev-ops-azure-job-config-all.png)
+\[Omitted image "dev-ops-azure-job-config-all.png"\] Alt text: DevOps ServiceNow Change Acceleration extension
 
-![Azure DevOps server custom tasks](../image/dev-ops-yaml-server.png)
+\[Omitted image "dev-ops-yaml-server.png"\] Alt text: Azure DevOps server custom tasks
 
-![DevOps Azure change details](../image/dev-ops-azure-change-details.png "Change request details example")
+\[Omitted image "dev-ops-azure-change-details.png"\] Alt text: DevOps Azure change details
 
 ## Set up an Azure release \(CD\) pipeline in DevOps
 
@@ -309,11 +312,11 @@ Task executions for skipped jobs are marked as failed.
 
 2.  Select **Edit** to open the pipeline editor.
 
-3.  Select the pre-deployment \(![Pre-deployment icon](../image/pre-deployment-icon.png)\)icon for your stage, and then select the toggle button to enable **Gates**. ![Enable Gates in Pre-deployment conditions](../image/deployment-enable-gates.png)
+3.  Select the pre-deployment \(\[Omitted image "pre-deployment-icon.png"\] Alt text: Pre-deployment icon\)icon for your stage, and then select the toggle button to enable **Gates**. \[Omitted image "deployment-enable-gates.png"\] Alt text: Enable Gates in Pre-deployment conditions
 
-4.  Select **+Add**, and select **ServiceNow DevOps Release Gate**. ![Add ServiceNow DevOps Release Gate](../image/ado-release-gate-add.png)
+4.  Select **+Add**, and select **ServiceNow DevOps Release Gate**. \[Omitted image "ado-release-gate-add.png"\] Alt text: Add ServiceNow DevOps Release Gate
 
-5.  Select **ServiceNow DevOps Release Gate** and select the ServiceNow endpoint. ![ServiceNow DevOps Release Gate fields](../image/ado-release-gate-servicenow-endpoint.png)
+5.  Select **ServiceNow DevOps Release Gate** and select the ServiceNow endpoint. \[Omitted image "ado-release-gate-servicenow-endpoint.png"\] Alt text: ServiceNow DevOps Release Gate fields
 
 6.  Exit the release gate configuration, and expand the Evaluation options section to configure the following timing fields.
 
@@ -338,7 +341,7 @@ The timeout after which gates fail
 Timeout value in minutes, hours, or days.If the pre-deployment conditions fail, the subsequent jobs of the stage are marked as failed, and the start and end time defaults to the current system time.
 
 </td></tr></tbody>
-</table>    ![DevOps Azure gate config](../image/dev-ops-azure-gate.png "Azure release pipeline pre-deployment gate configuration")
+</table>    \[Omitted image "dev-ops-azure-gate.png"\] Alt text: DevOps Azure gate config
 
 7.  Configure artifacts in your Azure release \(CD\) pipeline.
 
@@ -350,12 +353,12 @@ Timeout value in minutes, hours, or days.If the pre-deployment conditions fail, 
 
     -   When the source is the build pipeline, the `semantic version` property of the artifacts should be in the format `MAJOR.MINOR.PATCH` \(for example 5.1.3\).
     -   When the source is not the build pipeline, define a `semantic version` by implementing the **DevOpsArtifactSemanticVersionAPI** extension interface.
-    See [Artifacts and packages](../concept/using-dev-ops-release-change.md) for more information regarding artifacts.
+    See [Artifacts and packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/using-dev-ops-release-change.md) for more information regarding artifacts.
 
 
 ### Example
 
-![DevOps artifact YAML config](../image/dev-ops-artifact-repo-yaml.png "Artifact setup - build pipeline source")
+\[Omitted image "dev-ops-artifact-repo-yaml.png"\] Alt text: DevOps artifact YAML config
 
-![DevOps artifact pipeline config](../image/dev-ops-artifact-build-pipeline.png "Artifact setup - release pipeline")
+\[Omitted image "dev-ops-artifact-build-pipeline.png"\] Alt text: DevOps artifact pipeline config
 

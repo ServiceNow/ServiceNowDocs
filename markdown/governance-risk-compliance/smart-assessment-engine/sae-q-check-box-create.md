@@ -2,6 +2,7 @@
 title: Create a check box question
 description: Enable the assessors to respond to a check box question by selecting one or more options in a specified list of options. Specify any of several attributes to qualify the question, for example, whether a response is required or an attachment is requested as part of your assessment template by using the Smart Assessment Engine application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/smart-assessment-engine/sae-q-check-box-create.html
 release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -26,7 +27,7 @@ Role required: sn\_smart\_asmt.template\_manager or sn\_smart\_asmt.assessment\_
     |Option|Description|
     |------|-----------|
     |**Existing template**|On the Assessment Workspace landing page, select an existing template in draft state.|
-    |**New template**|Create a template as described in [Add instructions and questions to an assessment template](sae-asmnt-template-populate.md).|
+    |**New template**|Create a template as described in [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md).|
 
 2.  On the **Questions** tab for the template, select the section that you want to add the question to and then select **Add question**.
 
@@ -40,15 +41,15 @@ Role required: sn\_smart\_asmt.template\_manager or sn\_smart\_asmt.assessment\_
 
 5.  Specify any number of attributes for the question and select **Save** after every change.
 
-<table id="choicetable_afm_5mq_mbc"><thead><tr><th align="left" id="d111254e161">
+<table id="choicetable_afm_5mq_mbc"><thead><tr><th align="left" id="d114539e161">
 
 Attribute
 
-</th><th align="left" id="d111254e164">
+</th><th align="left" id="d114539e164">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d111254e170">
+</th></tr></thead><tbody><tr><td id="d114539e170">
 
 ** **
 
@@ -56,7 +57,7 @@ Description
 
  
 
-</td></tr><tr><td id="d111254e177">
+</td></tr><tr><td id="d114539e177">
 
 **Required**
 
@@ -64,13 +65,13 @@ Description
 
 If the assessor must answer the question in order to submit the assessment, select **Required**. The assessor sees the \* \(asterisk\) character to indicate that a response is required.
 
-</td></tr><tr><td id="d111254e194">
+</td></tr><tr><td id="d114539e194">
 
 **Conditionally visible**
 
 </td><td>
 
-Option in the additional attributes menu \(![Additional attributes menu icon.](../../grc-business-continuity-management/image/AlertMenuIcon.png)\).
+Option in the additional attributes menu \(\[Omitted image "AlertMenuIcon.png"\] Alt text: Additional attributes menu icon.\).
 
  Select this attribute if the question appears to the assessor only if the response to a different question meets the conditions that you specify.
 
@@ -78,25 +79,25 @@ Option in the additional attributes menu \(![Additional attributes menu icon.](.
 
  You specify the section, subsection \(if available\), question, and, optionally, the response. Together, the values that you specify define the conditions that must be met for the question to appear in the assessment.
 
-</td></tr><tr><td id="d111254e223">
+</td></tr><tr><td id="d114539e223">
 
 **Justification**
 
 </td><td>
 
-Option in the additional attributes menu \(![Additional attributes menu icon.](../../grc-business-continuity-management/image/AlertMenuIcon.png)\).
+Option in the additional attributes menu \(\[Omitted image "AlertMenuIcon.png"\] Alt text: Additional attributes menu icon.\).
 
  Enable the assessor to supply the additional text information that justifies a response. This option is useful when you expect that some responses will be nonstandard.
 
  In the assessment, the \* \(asterisk\) character appears on the field for a required justification.
 
-</td></tr><tr><td id="d111254e250">
+</td></tr><tr><td id="d114539e250">
 
 **Attachments**
 
 </td><td>
 
-Option in the additional attributes menu \(![Additional attributes menu icon.](../../grc-business-continuity-management/image/AlertMenuIcon.png)\).
+Option in the additional attributes menu \(\[Omitted image "AlertMenuIcon.png"\] Alt text: Additional attributes menu icon.\).
 
 Request the attachments for the specific responses. You can specify that the attachments are: -   Required
 -   Optional
@@ -104,20 +105,20 @@ Request the attachments for the specific responses. You can specify that the att
 
 Use the condition builder to specify the conditions. The values that you specify define the conditions that must be met to enable the assessor to add the attachments.
 
-</td></tr><tr><td id="d111254e286">
+</td></tr><tr><td id="d114539e286">
 
 **Specify preferred answers**
 
 </td><td>
 
-Option in the additional attributes menu \(![Additional attributes menu icon.](../../grc-business-continuity-management/image/AlertMenuIcon.png)\).
+Option in the additional attributes menu \(\[Omitted image "AlertMenuIcon.png"\] Alt text: Additional attributes menu icon.\).
 
  Use the condition builder to specify the response value or values. The values that you specify define the condition that must be met for the response to be considered correct or preferred.
 
 </td></tr></tbody>
 </table>6.  If you want to add content that helps the assessor answer this question, select **Add additional content**.
 
-<table id="choicetable_up4_xqd_mbc"><tbody><tr><td id="d111254e326">
+<table id="choicetable_up4_xqd_mbc"><tbody><tr><td id="d114539e326">
 
 **Question description**
 
@@ -127,9 +128,9 @@ Enter the descriptive text that follows the question when the assessor accesses 
 
  A confirmation box displays the text as an assessor sees it. Update the text by selecting **Edit**.
 
- ![Confirmation of the description text. You can update the text.](../image/sae-q-description-confirmation.png)
+ \[Omitted image "sae-q-description-confirmation.png"\] Alt text: Confirmation of the description text. You can update the text.
 
-</td></tr><tr><td id="d111254e351">
+</td></tr><tr><td id="d114539e351">
 
 **Guidance**
 
@@ -137,7 +138,7 @@ Enter the descriptive text that follows the question when the assessor accesses 
 
 Enter the content that explains how best to answer the question. Add the formatted text, table, images, links, and attachments. The **Attach image** option enables you to attach descriptive images in the guidance section of the assessment questions. This means that template managers can include helpful visuals to assist respondents, making the instructions clearer and easier to understand. You can include one image per question, with mandatory alt text. The content appears in a pop-up window when the assessor accesses the question.A confirmation box displays the list of items that are provided to an assessor. Update the content by selecting **Edit**.
 
-![Confirmation of the guidance content. You can update the content.](../image/sae-q-guidance-confirmation.png)
+\[Omitted image "sae-q-guidance-confirmation.png"\] Alt text: Confirmation of the guidance content. You can update the content.
 
 </td></tr></tbody>
 </table>7.  Select **Save**.

@@ -2,6 +2,7 @@
 title: Resolving Configuration Compliance import issues
 description: Resolve issues with third-party integration import.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/vuln-config-compl-troubleshooting.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance
@@ -29,7 +30,7 @@ Test results are missing
 
 </td><td>
 
-Check the **Start Time** on the **Qualys PC Results** integration. It might not be set back far enough. See [Modify Qualys PC Results start date](../task/modify-test-results-startdate.md).
+Check the **Start Time** on the **Qualys PC Results** integration. It might not be set back far enough. See [Modify Qualys PC Results start date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/configuration-compliance/modify-test-results-startdate.md).
 
 </td></tr><tr><td>
 

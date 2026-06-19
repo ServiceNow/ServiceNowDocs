@@ -2,6 +2,7 @@
 title: Add prospects to job requisitions
 description: Add relevant profiles directly to the job requisition as job prospects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/add-leads-to-reqs.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -40,5 +41,5 @@ Role required: sn\_ta\_hiring\_core.recruiter
 7.  Select **Add** to finish adding the talent profiles as job prospects.
 
 
-**Parent Topic:**[Job prospects](../concept/job-leads.md)
+**Parent Topic:**[Job prospects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/job-leads.md)
 

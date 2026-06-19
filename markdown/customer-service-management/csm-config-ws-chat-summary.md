@@ -2,7 +2,10 @@
 title: Chat summarization
 description: Use the chat summarization feature to automatically create summaries of chat conversations. The chat summary enables an agent to quickly gain an understanding of the interaction without reading the entire transcript of the conversation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-config-ws-chat-summary.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ The system calls the chat summary prediction, which generates the summary from p
 
 An agent can modify and save the information in the **Chat summary** field. To revert the summary to the predicted value, the agent can select the value in the top recommendation.
 
-The chat summarization feature works with or without chat wrap-up enabled. For more information, see [Interaction wrap up](https://www.servicenow.com/docs/access?context=interaction-wrap-up-state&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+The chat summarization feature works with or without chat wrap-up enabled. For more information, see .
 
 ## AI indicators
 

@@ -2,6 +2,7 @@
 title: Submit a time card for a demand task
 description: The resources assigned to a demand task create and submit a time card or time sheet to record the time spent on a demand task. The reported hours are used to calculate the actual cost and effort for a demand task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/submit-a-time-card-ppw.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -29,15 +30,15 @@ The resource submits the time card or time sheet to record and track the work pe
 
 2.  Create a time card.
 
-<table id="choicetable_jfv_4xf_2hb"><thead><tr><th align="left" id="d103582e80">
+<table id="choicetable_jfv_4xf_2hb"><thead><tr><th align="left" id="d102676e80">
 
 Demand task assignment
 
-</th><th align="left" id="d103582e83">
+</th><th align="left" id="d102676e83">
 
 To create a time card
 
-</th></tr></thead><tbody><tr><td id="d103582e89">
+</th></tr></thead><tbody><tr><td id="d102676e89">
 
 **If a demand task is assigned to you**
 
@@ -47,7 +48,7 @@ To create a time card
 2.  Select the **Add to Time Sheet** link in the task.
 
 
-</td></tr><tr><td id="d103582e110">
+</td></tr><tr><td id="d102676e110">
 
 **If a demand task is assigned to you as an additional assignee**
 

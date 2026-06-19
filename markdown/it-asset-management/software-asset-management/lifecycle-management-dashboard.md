@@ -2,6 +2,7 @@
 title: Lifecycle management dashboard
 description: Review and track the end of life \(EOL\) software products in your asset estate to reduce risks associated with software products that are reaching or have reached EOL.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/lifecycle-management-dashboard.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -23,7 +24,7 @@ Access the Lifecycle management dashboard by navigating to **Workspaces** &gt; *
 
 You can filter the dashboard reports based on a publisher or product. Select any report to view more information on product life cycles.
 
-![Lifecycle management dashboard view displaying product lifecycles.](../image/lifecycle-management-dashboard.png "Lifecycle management dashboard")
+\[Omitted image "lifecycle-management-dashboard.png"\] Alt text: Lifecycle management dashboard view displaying product lifecycles.
 
 <table id="table_cs4_3k1_t1c"><thead><tr><th>
 
@@ -113,5 +114,5 @@ Software product life-cycles in your environment that are reaching EOL in the ne
 
 Tracking product life cycles enables you to manage software products that are reaching or have already reached EOL, end of support \(EOS\), or end of extended support.
 
-You can take required action for your EOL software products by using the Software Product Lifecycle report. The report opens when you select the **Upcoming end of life product lifecycles in next 18 months** or **Current and past end of life product lifecycles** report on the Lifecycle management dashboard. You can create an EOL request for the software products that have the Current phase as End of Support, End of Extended Support, or End of Life. For more details, see [Create an end of life workflow request for your software products](../task/manage-eol-risk.md).
+You can take required action for your EOL software products by using the Software Product Lifecycle report. The report opens when you select the **Upcoming end of life product lifecycles in next 18 months** or **Current and past end of life product lifecycles** report on the Lifecycle management dashboard. You can create an EOL request for the software products that have the Current phase as End of Support, End of Extended Support, or End of Life. For more details, see [Create an end of life workflow request for your software products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/manage-eol-risk.md).
 

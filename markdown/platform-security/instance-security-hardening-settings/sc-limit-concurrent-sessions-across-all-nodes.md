@@ -2,6 +2,7 @@
 title: Limit concurrent sessions across all nodes \[Updated in Security Center 1.3\]
 description: Use the glide.authenticate.limit.concurrent.sessions.across.all.nodes property with the Limit Concurrent Sessions plugin to manage the number of sessions tracked across all nodes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-limit-concurrent-sessions-across-all-nodes.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -15,7 +16,7 @@ breadcrumb: [Session management, Hardening settings, Platform Security]
 
 Use the **glide.authenticate.limit.concurrent.sessions.across.all.nodes** property with the Limit Concurrent Sessions plugin to manage the number of sessions tracked across all nodes.
 
-When the [Limit concurrent sessions](../../../integrate/authentication/concept/limit-concurrent-sessions.md) plugin is active, the number of open sessions can be limited per user. Ensure that when this plugin is active that the \(**Glide authenticate limit concurrent sessions across all nodes**\) property is set to **true** so that the number of open sessions are tracked across all nodes instead of a single application node. If this property is set to **false**, multiple sessions can be open across multiple nodes, which increases the chances of session hijacking.
+When the [Limit concurrent sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/limit-concurrent-sessions.md) plugin is active, the number of open sessions can be limited per user. Ensure that when this plugin is active that the \(**Glide authenticate limit concurrent sessions across all nodes**\) property is set to **true** so that the number of open sessions are tracked across all nodes instead of a single application node. If this property is set to **false**, multiple sessions can be open across multiple nodes, which increases the chances of session hijacking.
 
 ## More information
 
@@ -73,7 +74,7 @@ Category
 
 </td><td>
 
-[Session management](sc-session-management.md)
+[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-session-management.md)
 
 </td></tr><tr><td>
 
@@ -99,8 +100,8 @@ References
 
 </td><td>
 
-[Limit concurrent sessions](../../../integrate/authentication/concept/limit-concurrent-sessions.md)
+[Limit concurrent sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/limit-concurrent-sessions.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Session management](sc-session-management.md)
+</table>**Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-session-management.md)
 

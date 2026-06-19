@@ -2,6 +2,7 @@
 title: Add associated skills
 description: Add associated skills to external learning content in Learning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/add-associated-skills.html
 release: zurich
 product: Learning Core
 classification: learning-core
@@ -43,5 +44,5 @@ Role required: admin
 7.  Add users who should have access to external learning content skills.
 
 
-**Parent Topic:**[View external Learning content](view-external-learning-content.md)
+**Parent Topic:**[View external Learning content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/view-external-learning-content.md)
 

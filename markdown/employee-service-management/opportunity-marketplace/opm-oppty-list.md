@@ -2,6 +2,7 @@
 title: Opportunity details and descriptions in Opportunity Marketplace
 description: Admins can view detailed information about opportunities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/opportunity-marketplace/opm-oppty-list.html
 release: zurich
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -90,5 +91,5 @@ The date the opportunity is closed.
 </td></tr></tbody>
 </table>You can update some of the fields. Double-click \(or use the keyboard shortcut\) to determine if it's editable.
 
-**Parent Topic:**[Reference Opportunity Marketplace roles and tables](../concept/egd-oppt-mrktplc-references.md)
+**Parent Topic:**[Reference Opportunity Marketplace roles and tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-references.md)
 

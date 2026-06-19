@@ -2,12 +2,13 @@
 title: Map notable events
 description: During the notable event field-mapping step, you map individual event fields from notable events to fields on a ServiceNow AI Platform Security Incident Response \(SIR\) security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/splunk-event-ingest-map-alerts-security.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 11
+reading_time_minutes: 10
 breadcrumb: [Set up a profile for scheduled notable event ingestion, Create an event profile, Splunk Enterprise Security event ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -47,7 +48,7 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
 4.  Drag the field name, for example, `rule_name`, and drop it on a field in the Input Expression column next to a field name in the Security Incident column.
 
-    ![Drag-and-drop for values shown by arrow.](../image/splunk_es_drag_drop.png)
+    \[Omitted image "splunk\_es\_drag\_drop.png"\] Alt text: Drag-and-drop for values shown by arrow.
 
     The field value is displayed in the Input Expression column. In the following image, `rule_name` is mapped to the `Short description` field on the security incident. However, you can match any value from the left side to a field on the right. Verify that the value is mapped correctly on the security incident during the preview step.
 
@@ -55,7 +56,7 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
     A gray field indicates that a field has been selected and mapped to a field on the security incident. This color-coding helps you track the mapping.
 
-    ![Short description field and value on security incident highlighted](../image/splunk_es_map_3_security.png)
+    \[Omitted image "splunk\_es\_map\_3\_security.png"\] Alt text: Short description field and value on security incident highlighted
 
 5.  To add fields to the default fields displayed on the security incident on the right side of the form, follow these steps.
 
@@ -65,7 +66,7 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
     2.  In the Security Incident column, expand the list that is displayed, and select a field.
 
-        ![Category field mapping](../image/splunk_es_map_4_security.png)
+        \[Omitted image "splunk\_es\_map\_4\_security.png"\] Alt text: Category field mapping
 
         **Note:** So that multiple observables can be displayed on the same security incident, the Observable field can be mapped multiple times with different values. Similarly, the Configuration Item and Work notes fields support multiple values. If you try to map two values to a field that cannot support multiple values, when you preview the incident, an error message is displayed that there is no value for the field. Similarly, if a field on a security incident has a list from which you can choose multiple options, and you try to map an option to that field that is not displayed on the list, the field is not populated on the security incident.
 
@@ -77,7 +78,7 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
     The following figure is an example of an edited mapping. In the bottom field on the right, the Work notes field is added, and it has more than one value. Note that for long text string field, you can expand the mapping field to see the full string and re-size as needed by pulling the lower right corner of the field as indicated in screen shot below with the added Work notes field:
 
-    ![Work notes with multiple values highlighted](../image/splunk_es_mapexample_security.png)
+    \[Omitted image "splunk\_es\_mapexample\_security.png"\] Alt text: Work notes with multiple values highlighted
 
     **Warning:** Please note that in the **SIR Incident Field Mapping** section, the URL and port number mentioned in the **Input Expression** field is just an example and not the URL or port number provided out-of-the-box.
 
@@ -85,9 +86,7 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
     The following image is an example of how the values in the preceding image are displayed on the security incident.
 
-    ![Work Note field value displayed on security incident.](../image/splunksi_notes.png)
-
-7.  To receive updates for the mapped fields in SIR, select **Enable Updates** check box against the Input Expression.![Enable updates check box selected](../image/splunk_es_enable_updates.png)
+7.  To receive updates for the mapped fields in SIR, select **Enable Updates** check box against the Input Expression.\[Omitted image "splunk\_es\_enable\_updates.png"\] Alt text: Enable updates check box selected
 
 8.  After you have completed the preceding field-mapping steps, you can use the same field values in the Incident Generation Conditions builder to define additional criteria that an incoming notable event must satisfy to create a SIR security incident.
 
@@ -109,7 +108,7 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
         The following image is an example with two conditions that must be matched before security incidents are created.
 
-        ![Filter conditions builder:2](../image/splunk_es_filters_2_security.png)
+        \[Omitted image "splunk\_es\_filters\_2\_security.png"\] Alt text: Filter conditions builder:2
 
         You have set the incident generation conditions so that security incidents are created only when both of the filtering conditions that you entered are matched.
 
@@ -135,8 +134,6 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
         If a new notable event matches all the values that are selected in the aggregation field conditions in the mapping step, the new notable event is automatically added to the most recently opened security incident with the same field values. As a user with the sn\_si.analyst role working with security incidents, you can view all the added aggregate notable events on a related list on a security incident. All of the aggregated notable events on a security incident are displayed on the Splunk Event to Tasks related list. This list details associated timestamps and aggregated field values. This information helps you understand why these notable events are being aggregated to existing security incidents. If this tab is not displayed, scroll to the left side of the record under Related Links and click the **Show All Related Lists** link.
 
-        ![Splunk Event to Tasks related list highlighted](../image/splunk_es_event_aggregation2.png)
-
     4.  To log a work note for a new notable event that is recently added on the security incident, select the check box to enable this option.
 
         The work note logs that a new notable has been added along with a link to the alert details and any other details that may have been added to the work note field in your mapping section.
@@ -145,15 +142,15 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
 10. Choose one to continue with the profile configuration.
 
-<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d480598e499">
+<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d105858e475">
 
 Option
 
-</th><th align="left" id="d480598e502">
+</th><th align="left" id="d105858e478">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d480598e508">
+</th></tr></thead><tbody><tr><td id="d105858e484">
 
 ** **
 
@@ -161,7 +158,7 @@ Description
 
  
 
-</td></tr><tr><td id="d480598e515">
+</td></tr><tr><td id="d105858e491">
 
 **Continue**
 
@@ -169,7 +166,7 @@ Description
 
 The Mapping form is displayed. **Preview** is selected on the progress bar. The next step is to preview the fields you mapped on a SIR security incident.
 
-</td></tr><tr><td id="d480598e532">
+</td></tr><tr><td id="d105858e508">
 
 **Update**
 
@@ -177,7 +174,7 @@ The Mapping form is displayed. **Preview** is selected on the progress bar. The 
 
 Your data is saved and the Splunk Event Profiles list is displayed.
 
-</td></tr><tr><td id="d480598e541">
+</td></tr><tr><td id="d105858e517">
 
 **Previous**
 
@@ -185,7 +182,7 @@ Your data is saved and the Splunk Event Profiles list is displayed.
 
 The Notable Event Selection form is displayed.
 
-</td></tr><tr><td id="d480598e551">
+</td></tr><tr><td id="d105858e527">
 
 **Delete**
 
@@ -197,5 +194,5 @@ Delete this event profile and the Splunk Event Profiles list is displayed.
 </table>
 ## What to do next
 
-The next step is to preview the values that you mapped on the security incident. For more information, see [Preview security incident](splunk-event-ingest-preview-security.md).
+The next step is to preview the values that you mapped on the security incident. For more information, see [Preview security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/splunk-event-ingest-preview-security.md).
 

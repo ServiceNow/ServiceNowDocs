@@ -2,6 +2,7 @@
 title: Self-declare SAP engine license usage in the Software Asset Workspace
 description: Use the Software Asset Workspace to self-declare the license usage for any SAP engines that cannot be measured by the automated SAP engine measurement process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/self-declare-sap-products-workspace.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -29,7 +30,7 @@ To determine if you must self-declare the license usage for a given engine, see 
 
 1.  Create a software model for the SAP engine.
 
-    Refer to [Create a software model in the Software Asset Workspace](create-swmodels-workspace.md) for detailed instructions.
+    Refer to [Create a software model in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-swmodels-workspace.md) for detailed instructions.
 
     **Note:**
 
@@ -43,21 +44,21 @@ To determine if you must self-declare the license usage for a given engine, see 
 
     -   The **Create entitlement** button on the Software asset overview.
 
-        Refer to [Create entitlements in workspace](create-entitlements-workspace.md) for detailed instructions on how to create entitlements using this option.
+        Refer to [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-entitlements-workspace.md) for detailed instructions on how to create entitlements using this option.
 
-        **Note:** On the Create New Software Entitlement form, you must set the **Software model** field to the same software model that you created in [step 1](self-declare-sap-products-workspace.md#create-software-model).
+        **Note:** On the Create New Software Entitlement form, you must set the **Software model** field to the same software model that you created in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/self-declare-sap-products-workspace.md).
 
     -   The **Software Entitlements** tab on the software model record.
 
-        To create entitlements using this option, open the record for the software model that you created in [step 1](self-declare-sap-products-workspace.md#create-software-model). On the **Software Entitlements** tab of the software model record, select **New** and then fill in the fields on the corresponding Create New Software Entitlement form.
+        To create entitlements using this option, open the record for the software model that you created in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/self-declare-sap-products-workspace.md). On the **Software Entitlements** tab of the software model record, select **New** and then fill in the fields on the corresponding Create New Software Entitlement form.
 
-        Refer to [Software entitlement fields](../reference/software-entitlement-fields.md) for detailed descriptions of each field.
+        Refer to [Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-entitlement-fields.md) for detailed descriptions of each field.
 
         **Note:** The **Software model** field populates automatically.
 
 3.  Specify the license usage of the SAP engine.
 
-    1.  Open the record for the software model that you created in [step 1](self-declare-sap-products-workspace.md#create-software-model).
+    1.  Open the record for the software model that you created in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/self-declare-sap-products-workspace.md).
 
     2.  On the **SAP Engine Usages** tab, select **New**.
 
@@ -113,5 +114,5 @@ License usage of the SAP engine.
 
 After you self-declare the license usage for the SAP engine, it is automatically included in the next SAP reconciliation that runs on your ServiceNow instance. Reconciliation runs weekly or on-demand.
 
-**Parent Topic:**[Self-declaring SAP engine license usage](../concept/self-declaring-sap-engine-usage.md)
+**Parent Topic:**[Self-declaring SAP engine license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/self-declaring-sap-engine-usage.md)
 

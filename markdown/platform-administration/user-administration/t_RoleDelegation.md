@@ -2,6 +2,7 @@
 title: Designate role delegators
 description: Designate role delegators to assign roles to users who are in a particular group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/user-administration/t\_RoleDelegation.html
 release: zurich
 product: User Administration
 classification: user-administration
@@ -36,5 +37,5 @@ Delegators can assign roles that they inherit from a group. They can also assign
     A change request for the role delegator request is created and automatically approved.
 
 
-**Parent Topic:**[Delegating roles](../concept/c_DelegateRoles.md)
+**Parent Topic:**[Delegating roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/c_DelegateRoles.md)
 

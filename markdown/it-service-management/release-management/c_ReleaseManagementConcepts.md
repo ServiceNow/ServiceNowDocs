@@ -2,6 +2,7 @@
 title: Release Management concepts
 description: The Release Management application encompasses the planning, design, build, configuration, and testing of hardware and software releases to create a defined set of release components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/release-management/c\_ReleaseManagementConcepts.html
 release: zurich
 product: Release Management
 classification: release-management
@@ -17,7 +18,7 @@ The Release Management application encompasses the planning, design, build, conf
 
 Release management comprises of a series of activities performed to ensure that the changes are applied successfully to both pre-production and product environments.
 
-![Release Management](../image/rm-concepts.png)
+\[Omitted image "rm-concepts.png"\] Alt text: Release Management
 
 |Concept|Description|
 |-------|-----------|
@@ -26,9 +27,9 @@ Release management comprises of a series of activities performed to ensure that 
 |Release Phases|Represents the planned phases within a release, which are used to group the tasks required to carry out the release. For example, gathering requirements, planning, design, development, testing, and deployment.|
 |Release Tasks|Represents any of the tasks required to implement a feature of a product.|
 
-![Table relationships](../image/table-relationships.png "Table relationships in Release Management")
+\[Omitted image "table-relationships.png"\] Alt text: Table relationships
 
 **Note:** The tables for Feature and Feature Task under a release are not removed. If you already use Feature and Feature Task under a release, you can continue doing so.
 
-**Parent Topic:**[Exploring Release Management](exploring-release-management.md)
+**Parent Topic:**[Exploring Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/release-management/exploring-release-management.md)
 

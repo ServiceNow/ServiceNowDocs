@@ -2,6 +2,7 @@
 title: Jumpstart Your Strategic Portfolio Management – Resource Management Workspace
 description: The Jumpstart Your Strategic Portfolio Management \(SPM\) – Resource Management Workspace Accelerator provides a demonstration of the possibilities and capabilities of Resource Management Workspaces within SPM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/jumpstart-strategic-portfolio-management-resource-management-workspace.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,7 +20,7 @@ The Jumpstart Your Strategic Portfolio Management \(SPM\) – Resource Managemen
 
 Jumpstart Your Strategic Portfolio Management – Resource Management Workspace provides Impact customers with a comprehensive overview of the possibilities and capabilities of the Resource Management Workspace in SPM. Our goal is to demonstrate how customers can understand how to prepare and implement Resource Management Workspace, ensuring correct setup of foundation data enabling a consolidated view of their resource allocations and resource request. Additionally, this Accelerator offers key resources and leading practice guides on getting started.
 
-For more information on Resource Management, see [Resource Management classic](https://www.servicenow.com/docs/access?context=c_ResourceManagement&version=zurich&pubname=zurich-it-business-management&ft:locale=en-US).
+For more information on Resource Management, see .
 
 **Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 

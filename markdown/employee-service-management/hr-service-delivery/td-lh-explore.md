@@ -2,6 +2,7 @@
 title: Exploring Leader Hub
 description: The Leader Hub app provides organizational and HR leaders with visibility into their organization's talent so they can comprehensively understand the landscape of their workforce. This application helps leaders gauge their team's strengths and deficiencies to confirm their employees have the appropriate skills and expertise to succeed in the present and future.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/td-lh-explore.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -30,8 +31,8 @@ Leader Hub gives organizational leaders the tools to grasp their teams' capabili
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Get quick access to a comprehensive overview of your organization's talent. This encapsulated data includes metrics for skill competency across different teams, identifying significant skill gaps, and employee engagement with the growth tools provided in the Talent Development suite of applications.|[At a glance](td-lh-at-a-glance.md)|Organizational or HR leaders|
-|Gain visibility into the skills and talent composition of each team that exists within your organization. View talent data at any level of granularity, through an organizational chart that illustrates the reporting relationships across the different teams in your organization.|[Org talent](td-lh-org-talent.md)|Organizational or HR leaders|
+|Get quick access to a comprehensive overview of your organization's talent. This encapsulated data includes metrics for skill competency across different teams, identifying significant skill gaps, and employee engagement with the growth tools provided in the Talent Development suite of applications.|[At a glance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/td-lh-at-a-glance.md)|Organizational or HR leaders|
+|Gain visibility into the skills and talent composition of each team that exists within your organization. View talent data at any level of granularity, through an organizational chart that illustrates the reporting relationships across the different teams in your organization.|[Org talent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/td-lh-org-talent.md)|Organizational or HR leaders|
 |Obtain a holistic view of the skill composition associated with your organization. View skills relevant to your organization and metrics that you can use to identify critical skill gaps. This data can be used to hold managers responsible for developing talent within their teams.|Org skills|Organizational or HR leaders|
 |Give organizational supporters to whom the leader has delegated responsibilities access to Leader Hub. Supporters can view their designated leader's organization and provide support accordingly.|Orgs you support|Organizational supporter|
 
@@ -39,7 +40,7 @@ Leader Hub gives organizational leaders the tools to grasp their teams' capabili
 
 To learn more about configuring and using Leader Hub, see:
 
--   [Installing and configuring Leader Hub](td-lh-install-config.md)
--   [Using Leader Hub](td-lh-using.md)
--   [Leader Hub reference](td-lh-reference.md)
+-   [Installing and configuring Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/td-lh-install-config.md)
+-   [Using Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/td-lh-using.md)
+-   [Leader Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/td-lh-reference.md)
 

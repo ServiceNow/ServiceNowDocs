@@ -2,6 +2,7 @@
 title: CMDB data management
 description: The integrity and health of the CMDB is essential for the various features that depend on the data in the CMDB. As the CMDB grows and infrastructures change, the CMDB can accumulate stale, duplicate, or outdated CIs and therefore no longer accurately reflect the IT infrastructure and applications in the organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management-landing.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

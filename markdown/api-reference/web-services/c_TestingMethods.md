@@ -2,6 +2,7 @@
 title: Testing REST message HTTP methods
 description: Test an HTTP method for an outbound REST message to ensure that the request is valid and the response returns as expected.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/c\_TestingMethods.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -40,5 +41,5 @@ Role required: web\_service\_admin or admin
 
 Completed test runs for an HTTP method appear in the **Test Runs** related list. If there was an error during the request, the **Error Code** and **Error Message** fields appear.
 
-**Parent Topic:**[Define a REST message HTTP method](../task/t_DefineAnHTTPMethod.md)
+**Parent Topic:**[Define a REST message HTTP method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/t_DefineAnHTTPMethod.md)
 

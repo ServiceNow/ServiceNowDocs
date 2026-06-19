@@ -2,13 +2,14 @@
 title: Send NDA to suppliers for signature
 description: As a procurement specialist, you can use playbooks to prepare a Non-Disclosure Agreement \(NDA\) and send it for signing to the suppliers and third parties and review the signed and completed NDA.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/prepare-nda-send-to-signers.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Routing NDAs to suppliers, Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Routing NDAs to suppliers, Working Sourcing Procurement Operations playbooks, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Send NDA to suppliers for signature
@@ -122,7 +123,7 @@ Review signers
 
 </td><td>
 
-Review the signer details and select **Save and create NDA**.An NDA is created with the document template that was defined in [Define NDA content and update the list of signers](define-nda-content-update-signers.md). A contract is also created in parallel and displayed here.
+Review the signer details and select **Save and create NDA**.An NDA is created with the document template that was defined in [Define NDA content and update the list of signers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/define-nda-content-update-signers.md). A contract is also created in parallel and displayed here.
 
 </td></tr><tr><td>
 
@@ -203,5 +204,5 @@ Updates the case to Closed Completed.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Routing NDAs to suppliers](../concept/routing-ndas-to-suppliers.md)
+**Parent Topic:**[Routing NDAs to suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/routing-ndas-to-suppliers.md)
 

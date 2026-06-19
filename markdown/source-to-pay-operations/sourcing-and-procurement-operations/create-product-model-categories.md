@@ -2,13 +2,14 @@
 title: Create product categories to group product models
 description: Create categories for your product models to group your product models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-product-model-categories.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Setting up your product catalog, Setting up primary data for Shopping Hub, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Setting up your product catalog, Setting up primary data Shopping, Configure Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Create product categories to group product models
@@ -23,15 +24,15 @@ Role required: sn\_shop.shopping\_hub\_admin
 
 1.  Navigate to **All** &gt; **ShoppingHub** &gt; **Category Management** &gt; **Product Categories**.
 
-    ![The image shows the navigation menu with "All > ShoppingHub > Category Management > Product Categories" path.](../image/spo-product-cat-nav.png)
+    \[Omitted image "spo-product-cat-nav.png"\] Alt text: The image shows the navigation menu with "All &gt; ShoppingHub &gt; Category Management &gt; Product Categories" path.
 
 2.  Select **New**.
 
-    ![Model Categories list view with New button highlighted.](../image/spo-product-cat-new.png)
+    \[Omitted image "spo-product-cat-new.png"\] Alt text: Model Categories list view with New button highlighted.
 
 3.  On the form, fill in the fields.
 
-    ![Model Category form showing fields for Name, Parent category, and configuration options.](../image/spo-product-cat-fields.png)
+    \[Omitted image "spo-product-cat-fields.png"\] Alt text: Model Category form showing fields for Name, Parent category, and configuration options.
 
 <table id="table_kpz_mbz_ykb"><thead><tr><th>
 
@@ -147,7 +148,7 @@ Sourcing time in days
 
 </td><td>
 
-Number of days that are required to source a product of this category from the supplier.For details, see [Lead time calculations](../reference/lead-time-calculations.md).
+Number of days that are required to source a product of this category from the supplier.For details, see [Lead time calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/lead-time-calculations.md).
 
 </td></tr><tr><td>
 
@@ -155,7 +156,7 @@ Supplier onboarding time in days
 
 </td><td>
 
-Number of days that are required for a new supplier of a product in this category to onboard.For details, see [Lead time calculations](../reference/lead-time-calculations.md).
+Number of days that are required for a new supplier of a product in this category to onboard.For details, see [Lead time calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/lead-time-calculations.md).
 
 </td></tr><tr><td>
 
@@ -263,8 +264,8 @@ Ledger Assignment Rules
 
 </td><td>
 
-Ledger assignment rules for this product category.Select **New** to [add a ledger assignment rule](create-ledger-assignment-rules.md).
+Ledger assignment rules for this product category.Select **New** to [add a ledger assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-ledger-assignment-rules.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Setting up your product catalog](create-product-catalogue.md)
+</table>**Parent Topic:**[Setting up your product catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-product-catalogue.md)
 

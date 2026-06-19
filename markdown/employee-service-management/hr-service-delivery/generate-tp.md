@@ -2,6 +2,7 @@
 title: Generate talent profiles
 description: Generate the talent profile creation after you opt in.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/generate-tp.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -30,5 +31,5 @@ Role required: sn\_ta\_hiring\_core.admin/ sn\_ta\_tp.talent\_profile\_admin
 
 You've created the talent profiles.
 
-**Parent Topic:**[Configuring Talent profile](../concept/config-tp.md)
+**Parent Topic:**[Configuring Talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/config-tp.md)
 

@@ -2,6 +2,7 @@
 title: Create a knowledge base article
 description: Create knowledge base articles for finance-related topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/finance-case-management/create-kb-fcm.html
 release: zurich
 product: Finance Case Management
 classification: finance-case-management
@@ -25,7 +26,7 @@ Role required: sn\_fin\_ops.admin, sn\_fin\_ops.specialist
 
     -   **All** &gt; **Finance Operations** &gt; **Finance Operations Workspace**.
     -   **Workspaces** &gt; **Finance Operations Workspace**.
-2.  In the Finance Operations workspace, select the List icon ![](../image/fin-ops-list-icon.png)
+2.  In the Finance Operations workspace, select the List icon \[Omitted image "fin-ops-list-icon.png"\] Alt text:
 
 3.  From the list page, navigate to **Knowledge** &gt; **Finance articles**.
 
@@ -40,14 +41,14 @@ Role required: sn\_fin\_ops.admin, sn\_fin\_ops.specialist
     -   Select **Create Article.**
 6.  On the Create New Knowledge form, fill in the fields.
 
-    For more information on the form fields and descriptions, see [Create knowledge base article form](../reference/create-kb-form.md).
+    For more information on the form fields and descriptions, see [Create knowledge base article form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/finance-case-management/create-kb-form.md).
 
 7.  Save the article.
 
 
 ## What to do next
 
-Publish the knowledge article. For information, see [Publish a knowledge base article](../concept/configure-kb-fin-ops-ws.md#).
+Publish the knowledge article. For information, see [Publish a knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/finance-case-management/configure-kb-fin-ops-ws.md).
 
-**Parent Topic:**[Use the Finance Operations Workspace](../concept/using-fin-case-mgmt-workspace.md)
+**Parent Topic:**[Use the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/finance-case-management/using-fin-case-mgmt-workspace.md)
 

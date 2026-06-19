@@ -2,7 +2,10 @@
 title: Modifying the Data Collection configuration
 description: You can make changes to the Data Collection configuration to align with your organization's needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/dc-all-modify.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

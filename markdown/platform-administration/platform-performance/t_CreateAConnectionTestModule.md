@@ -2,6 +2,7 @@
 title: Add a module to test connection speed
 description: A connection test can indicate the connection speed between your computer and your instance. A connection speed test \(/connection\_test.do\) is available as a UI page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-performance/t\_CreateAConnectionTestModule.html
 release: zurich
 product: Platform Performance
 classification: platform-performance
@@ -23,15 +24,15 @@ Role required: admin
 
 1.  Perform the appropriate action for your version of the UI.
 
-<table id="choicetable_bbq_5lz_hfc"><thead><tr><th align="left" id="d61132e54">
+<table id="choicetable_bbq_5lz_hfc"><thead><tr><th align="left" id="d51457e54">
 
 UI version
 
-</th><th align="left" id="d61132e57">
+</th><th align="left" id="d51457e57">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d61132e63">
+</th></tr></thead><tbody><tr><td id="d51457e63">
 
 **Core UI**
 
@@ -41,7 +42,7 @@ Steps
 2.  Open the application menu to which you want to add the module, for example, **System Diagnostics**.
 
 
-</td></tr><tr><td id="d61132e94">
+</td></tr><tr><td id="d51457e94">
 
 **UI15**
 
@@ -60,5 +61,5 @@ Select and hold \(or right-click\) an application menu, such as **System Diagnos
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Resolving platform performance issues](../concept/resolving-plat-performance-issues.md)
+**Parent Topic:**[Resolving platform performance issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/resolving-plat-performance-issues.md)
 

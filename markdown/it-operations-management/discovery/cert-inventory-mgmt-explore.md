@@ -2,6 +2,7 @@
 title: Exploring Certificate Inventory and Management
 description: Certificate Inventory and Management serves as a centralized and automated solution for handling the complexities of certificate management. It enhances security, ensures compliance, and provides a streamlined approach to managing the lifecycle of digital certificates within an organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/cert-inventory-mgmt-explore.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -25,9 +26,9 @@ The system facilitates real-time tracking, automates routine tasks such as renew
 
 Certificate Inventory and Management streamlines the process of scanning for certificates by automatically detecting them on specific ports through your established Configuration Item \(CI\)-based Discovery schedules. Additionally, Certificate Inventory and Management empowers users with the flexibility to generate new Discovery schedules tailored for scanning individual URLs. This dynamic approach ensures a robust and adaptable method for discovering and managing certificates, contributing to a secure and well-organized IT infrastructure.
 
-![Certificate Inventory and Management workflow.](../image/cert_mgmt_flow_v2.png "Process flow diagram")
+\[Omitted image "cert\_mgmt\_flow\_v2.png"\] Alt text: Certificate Inventory and Management workflow.
 
-For more information on how Certificate Inventory and Management works, see [Certificate Inventory and Management process flow](cert-inventory-mgmt-process.md).
+For more information on how Certificate Inventory and Management works, see [Certificate Inventory and Management process flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cert-inventory-mgmt-process.md).
 
 ## Certificate Inventory and Management benefits
 
@@ -49,7 +50,7 @@ Management of TLS certificates by maintaining a centralized inventory, prioritiz
 
 </td><td>
 
-[Configuring Certificate Inventory and Management](cert-inventory-mgmt-config.md)
+[Configuring Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cert-inventory-mgmt-config.md)
 
 </td><td>
 
@@ -61,7 +62,7 @@ Automated features to streamline tracking, preventing manual oversight of a larg
 
 </td><td>
 
-[Automated Certificate Renewal](../../it-operations-management/concept/automated-certificate-renewal.md)
+[Automated Certificate Renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/automated-certificate-renewal.md)
 
 </td><td>
 
@@ -73,7 +74,7 @@ A secure and compliant certificate environment is maintained by overseeing, appr
 
 </td><td>
 
-[Approve certificate tasks](../task/approve-cert-task.md)
+[Approve certificate tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/approve-cert-task.md)
 
 </td><td>
 

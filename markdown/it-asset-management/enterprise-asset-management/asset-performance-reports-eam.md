@@ -2,11 +2,12 @@
 title: Asset performance reports in the Enterprise Asset Workspace
 description: Gain insights into the overall operational efficiency of your organization's enterprise assets by using the asset performance reports available in the Asset analytics view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/asset-performance-reports-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-04-23"
 reading_time_minutes: 8
 breadcrumb: [Explore, Enterprise Asset Management, IT Asset Management]
 ---
@@ -47,20 +48,21 @@ Asset performance involves assessing how effectively and efficiently assets fulf
 
 ## Considerations, requirements, and limitations
 
+-   The **First Used** field on EAM assets must contain a valid timestamp for accurate asset performance tracking. Assets with missing or invalid First Used values are excluded from performance calculations, creating gaps in lifecycle and utilization reporting.
 -   Asset key performance indicators \(KPIs\) aren't calculated for pallets, consumable, and bundle assets.
 -   Asset KPIs aren't calculated by default.
 -   To track the asset KPIs that include Asset availability, MTBF, and MTTR, you must perform the following configurations:
-    1.  [Opt in to the model categories of the assets for which you want to monitor the KPIs](../task/opt-in-kpi-tracking-eam.md).
+    1.  [Opt in to the model categories of the assets for which you want to monitor the KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/opt-in-kpi-tracking-eam.md).
 
         **Note:** If a model category has child categories, selecting the parent category for performance tracking doesn’t automatically include the child categories. You should opt in to the specific child categories you want to track.
 
     2.  Define an operation schedule, which is a collection of schedule entries that specify the operational status and total operational duration for any entity that references the schedule. The schedule entries define calendar hours of operation within a schedule.
 
-        For details, see [Create an operational schedule for enterprise assets](../task/create-operational-schedule-eam.md)
+        For details, see [Create an operational schedule for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-operational-schedule-eam.md)
 
         **Note:** If an operational schedule isn't defined, the Default operation schedule is applied.
 
-    3.  [Create an Asset schedule to associate the assets with an operational schedule](../task/create-asset-schedule-eam.md).
+    3.  [Create an Asset schedule to associate the assets with an operational schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-asset-schedule-eam.md).
 
         **Note:** If an asset isn't associated with an operational schedule, the Default asset schedule will be applied.
 
@@ -212,9 +214,9 @@ The count of total outage records for an asset excluding planned outages account
 </table>## Accessing asset KPI reports
 
 -   Contextual side bar: You can view the following reports on the contextual side bar:
-    -   [Asset availability and related KPIs report for an individual asset](../task/view-availability-for-ent-aaset.md).
-    -   [Asset task time summary report for all enterprise assets](../task/view-total-time-spent-on-asset-eam.md).
--   Asset performance tab on the Asset analytics view: You can view the average values of the KPIs, including Average availability, Average MTTR, and Average MTBF, for all the assets that are being tracked. Additionally, you can see a list of the assets that contributed to the calculation of these KPIs. For details, see [Asset Analytics overview for Enterprise Asset workspace](eam-asset-dboard.md).
+    -   [Asset availability and related KPIs report for an individual asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/view-availability-for-ent-aaset.md).
+    -   [Asset task time summary report for all enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/view-total-time-spent-on-asset-eam.md).
+-   Asset performance tab on the Asset analytics view: You can view the average values of the KPIs, including Average availability, Average MTTR, and Average MTBF, for all the assets that are being tracked. Additionally, you can see a list of the assets that contributed to the calculation of these KPIs. For details, see [Asset Analytics overview for Enterprise Asset workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/eam-asset-dboard.md).
 
 ## Scheduled job for calculation of asset KPIs
 

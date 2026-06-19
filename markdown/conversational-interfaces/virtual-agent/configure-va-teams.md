@@ -2,11 +2,12 @@
 title: Manage the ServiceNow Virtual Agent integration with Microsoft Teams
 description: Manage your ServiceNow Virtual Agent bot branding and customize the bot messages in your ServiceNow instance after integration with Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/configure-va-teams.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-04-07"
 reading_time_minutes: 1
 keywords: [Manage, Virtual Agent, integration, Microsoft Teams, MSTeams]
 breadcrumb: [Integrate VA with Teams, Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
@@ -31,24 +32,24 @@ Manage your ServiceNow® Virtual Agent bot branding and customize the bot messag
 
 3.  On the Channels and integrations page, in the Microsoft Teams tile, select **Manage**.
 
-    ![Conversational Interfaces Channels and integrations general settings portal showing Manage Microsoft Teams button.](../images/msteams-installed.png)
+    \[Omitted image "msteams-installed.png"\] Alt text: Conversational Interfaces Channels and integrations general settings portal showing Manage Microsoft Teams button.
 
     When you select **Manage**, you’re redirected to the Manage Microsoft Teams channel page where you can manage the bots.
 
-4.  To integrate your ServiceNow instance with another Microsoft Teams bot, select the Add integration for ServiceNow Virtual Agent icon against the ServiceNow Virtual Agent bot or select the **Add integration** drop-down on the top-right of the Manage Microsoft Teams channel page and select **Integrate with ServiceNow Virtual Agent**.![Manage Microsoft Teams channel view in Conversational Interfaces general settings. The Add integration for ServiceNow Virtual Agent icon and the Integrate with Servicenow Virtual Agent dropdown are highlighted.](../images/add-integration-icon.png)
+4.  To integrate your ServiceNow instance with another Microsoft Teams bot, select the Add integration for ServiceNow Virtual Agent icon against the ServiceNow Virtual Agent bot or select the **Add integration** drop-down on the top-right of the Manage Microsoft Teams channel page and select **Integrate with ServiceNow Virtual Agent**.\[Omitted image "add-integration-icon.png"\] Alt text: Manage Microsoft Teams channel view in Conversational Interfaces general settings. The Add integration for ServiceNow Virtual Agent icon and the Integrate with Servicenow Virtual Agent dropdown are highlighted.
 
-5.  Select the Manage Bot icon ![Manage bot icon.](../images/manage-bot-icon.png) and select **Manage Virtual Agent**.
+5.  Select the Manage Bot icon \[Omitted image "manage-bot-icon.png"\] Alt text: and select **Manage Virtual Agent**.
 
     You’re redirected to the Bot Configuration page for the selected bot.
 
 6.  Select the **Branding** tab to brand your Now Virtual Agent bot.
 
-    For more information about branding your bot, see [Configure branding for your ServiceNow Virtual Agent bot in Microsoft Teams](configure-msteams-branding.md).
+    For more information about branding your bot, see [Configure branding for your ServiceNow Virtual Agent bot in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-msteams-branding.md).
 
 7.  Select the **Bot Messages** tab to create and edit a bot message.
 
-    For more information, see [Create bot messages](create-bot-messages.md#).
+    For more information, see [Create bot messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-bot-messages.md).
 
 
-**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams](../concept/va-integ-msteams.md)
+**Parent Topic:**[Integrate Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integ-msteams.md)
 

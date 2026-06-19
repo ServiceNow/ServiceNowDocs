@@ -2,10 +2,13 @@
 title: Changes to plugins in the Zurich release
 description: This table lists the existing plugins that were deprecated, planned for deprecation, renamed, or changed in some way.This table lists the existing plugins that were deprecated in Zurich and Yokohama that weren't previously listed as planned for deprecation.This table lists the existing plugins that were planned for deprecation in a future release.This table lists the existing plugins that were renamed or changed in Zurich or Yokohama.This table lists the existing plugins that are in maintenance mode.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/plugin-changes.html
 release: zurich
+product: Release Notes
+classification: release-notes
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 11
+reading_time_minutes: 10
 breadcrumb: [Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -99,7 +102,7 @@ Enables graphical representation of activities over time to provide a high-level
 
 </td><td>
 
-Install the [Portfolio Planning](https://store.servicenow.com/sn_appstore_store.do#!/store/application/9aa0eddcc70c2010d302670f6ec260c4/8.2.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%25253Bgenerative_ai%25253Bsnow_solution%26q%3Dportfolio%2520planning&sl=sh) \(standard customers\) or [Strategic Planning](https://store.servicenow.com/sn_appstore_store.do#!/store/application/a38ac49ccbf511104abddcbcf7076dec/4.1.3?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%25253Bgenerative_ai%25253Bsnow_solution%26q%3Dportfolio%2520planning&sl=sh) \(Pro customers\) application from the ServiceNow Store. Review the [Planning roadmaps in Portfolio Planning](https://www.servicenow.com/docs/access?context=planning-roadmaps-in-portfolio-planning&version=zurich&pubname=zurich-it-business-management&ft:locale=en-US) or [Roadmaps in Strategic Planning](https://www.servicenow.com/docs/access?context=roadmap-planning-overview&version=zurich&pubname=zurich-it-business-management&ft:locale=en-US) documentation for guidance on the roadmap functionality available within these workspaces. Migrate to the Portfolio Planning Workspace \(SPM Standard\) application that provides latest experience for this functionality.
+Install the [Portfolio Planning](https://store.servicenow.com/sn_appstore_store.do#!/store/application/9aa0eddcc70c2010d302670f6ec260c4/8.2.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%25253Bgenerative_ai%25253Bsnow_solution%26q%3Dportfolio%2520planning&sl=sh) \(standard customers\) or [Strategic Planning](https://store.servicenow.com/sn_appstore_store.do#!/store/application/a38ac49ccbf511104abddcbcf7076dec/4.1.3?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%25253Bgenerative_ai%25253Bsnow_solution%26q%3Dportfolio%2520planning&sl=sh) \(Pro customers\) application from the ServiceNow Store. Review the  or  documentation for guidance on the roadmap functionality available within these workspaces. Migrate to the Portfolio Planning Workspace \(SPM Standard\) application that provides latest experience for this functionality.
 
 </td></tr><tr><td>
 
@@ -115,7 +118,7 @@ Manage scheduled and on-demand validations of the configuration management datab
 
 </td><td>
 
-Install the CMDB Workspace v6.0+ application \(compatible with Washington D.C. and later\) from the ServiceNow Store to use the CMDB Data Manager feature. See [Working with CMDB Data Manager](https://www.servicenow.com/docs/access?context=cmdb-data-management&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+Install the CMDB Workspace v6.0+ application \(compatible with Washington D.C. and later\) from the ServiceNow Store to use the CMDB Data Manager feature. See .
 
 </td></tr><tr><td>
 
@@ -131,7 +134,7 @@ Integrate Cloud Management Google Cloud Connector scoped application with CMP.
 
 </td><td>
 
-Install the Cloud Provisioning and Governance: Terraform Connector application from the ServiceNow Store and review the [Cloud Services Catalog Terraform Connector](https://www.servicenow.com/docs/access?context=cpg-terraform-connector-landing-page&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US) documentation.
+Install the Cloud Provisioning and Governance: Terraform Connector application from the ServiceNow Store and review the  documentation.
 
 </td></tr><tr><td>
 
@@ -234,7 +237,7 @@ This table lists the existing plugins that were planned for deprecation in a fut
 |Sensitive Data Handling \[com.glide.sensitive\_data\_handling\]|Planned for deprecation in the B release|Detects and masks sensitive data shared by users of both conversational and non-conversational channels.|Install the Data Privacy application from the ServiceNow Store.|
 |Service Creator \[com.glide.service\_creator \]|Planned for deprecation in the B release|Service creator makes it easy for departments to create their own services in the catalog.|Install the Creator Studio application from the ServiceNow Store.|
 |Studio \[com.glide.dev-studio\]|Planned for deprecation in the B release|Provides an Integrated Development Environment \(IDE\)-like interface for application developers to work on custom applications in one centralized location.|Install the ServiceNow Studio application from the ServiceNow Store.|
-|Password Reset Orchestration Add-on \[com.glideapp.password\_reset.addon.orchestration\]|Planned for deprecation in the A release|Password reset add-on to enable the use of ServiceNow Orchestration. Includes support for Active Directory and remote SOAP-based credential systems.|Install the Password Reset integration for Microsoft Active Directory application from the ServiceNow Store and review the [Integrate Password Reset with your Active Directory service](https://www.servicenow.com/docs/access?context=t_ConPassResetActiveDir&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) documentation.|
+|Password Reset Orchestration Add-on \[com.glideapp.password\_reset.addon.orchestration\]|Planned for deprecation in the A release|Password reset add-on to enable the use of ServiceNow Orchestration. Includes support for Active Directory and remote SOAP-based credential systems.|Install the Password Reset integration for Microsoft Active Directory application from the ServiceNow Store and review the  documentation.|
 |Patient Support Services \[sn\_patientservice\]|Planned for deprecation November 2028 or contract term end date \(whichever is earlier\)|Streamlines the patient onboarding, education, and engagement for various patient support services such as discount plans, adherence programs, opioid, and diabetes management.|There is no replacement for this application.|
 |Performance Analytics - Content Pack - GRC: Audit Management \[sn\_audit\_pa\]|Planned for deprecation in the A release|Provides Performance Analytics reports for the GRC Audit Management application.|Test the migrated GRC: Audit Management Core UI analytics assets in Platform Analytics.|
 |Performance Analytics - Content Pack - GRC: Policy and Compliance Management \[sn\_compliance\_pa\]|Planned for deprecation in the A release|Provides Performance Analytics reports for the GRC Policy and Compliance Management application.|Test the migrated GRC: Policy and Compliance Management Core UI analytics assets in Platform Analytics.|
@@ -242,7 +245,7 @@ This table lists the existing plugins that were planned for deprecation in a fut
 |Pre-Visit Management \[sn\_previsit\]|Planned for deprecation October 2029 or contract term end date \(whichever is earlier\)|Streamlines the scheduling process of procedure requests for patients and increases visibility to pre-authorization approvals prior to scheduled procedures.|There is no replacement for this application.|
 |Redox Electronic Health Record Spoke \[sn\_redox\_spoke\]|Planned for deprecation in the A release|Enable communications with your customers using the Redox platform from your ServiceNow instance.|There is no replacement for this application.|
 |Redox Inbound Integration \[sn\_redox\]|Planned for deprecation in the A release|Use the real-time bidirectional data exchange with external healthcare systems via the Redox platform​.|There is no replacement for this application.|
-|Security Incident Response UI \[com.app\_secops\_ui\]|Planned for deprecation in the A release|Provides an enhanced user interface for monitoring and resolving threats to an organization’s security. Activation of this plugin on production instances may require a separate license. Contact ServiceNow for details.|Install Security Incident Response version 13.4.5 or higher from the ServiceNow Store and review the [Security Incident Response Workspace](https://www.servicenow.com/docs/access?context=sir-workspace-landing-page&version=zurich&pubname=zurich-security-management&ft:locale=en-US) documentation.|
+|Security Incident Response UI \[com.app\_secops\_ui\]|Planned for deprecation in the A release|Provides an enhanced user interface for monitoring and resolving threats to an organization’s security. Activation of this plugin on production instances may require a separate license. Contact ServiceNow for details.|Install Security Incident Response version 13.4.5 or higher from the ServiceNow Store and review the  documentation.|
 |Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\) \[sn\_msftd4iotsgc\]|Planned for deprecation in the A release|Integrate Microsoft Defender for IoT \(On-premises Management Console\) with the ServiceNow Operational Technology Manager application to automate import of sensor appliances, OT devices, and network connections.|There is no replacement for this application.|
 |SharePoint Online Search Connector \[com.snc.sharepoint\_online\]|Planned for deprecation in the A release|Offers a consumer-grade search configuration to manage your information resources.|Install the External Content Connectors ServiceNow application from the ServiceNow Store.|
 |Vaccine Administration Management \[sn\_vaccine\_sm\]|Planned for deprecation October 2029 or contract term end date \(whichever is earlier\)|Enables governments and healthcare providers to deliver vaccines, on a deadline and with finite resources.|There is no replacement for this application.|
@@ -337,7 +340,7 @@ Maintenance mode only.
 
 </td><td class="description">
 
-An extension to Content Management that adds iFrames and Flash frames.Use Service Portal for new development instead of CMS. Service Portal is an alternative to CMS with a refined user experience, and is active by default in the base system. For more information, see [Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) and [Content Management and Service Portal](https://www.servicenow.com/docs/access?context=c_CMSAndSP&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+An extension to Content Management that adds iFrames and Flash frames.Use Service Portal for new development instead of CMS. Service Portal is an alternative to CMS with a refined user experience, and is active by default in the base system. For more information, see  and .
 
 </td><td align="center">
 

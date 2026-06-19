@@ -2,6 +2,7 @@
 title: Adding the Discuss button
 description: To use Sidebar, you must add the Discuss button to assets that do not have it automatically installed and to custom workspaces where you need to enable Sidebar on an asset. After you add the Discuss button, you can create Sidebar discussions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/sidebar/add-sidebar-button.html
 release: zurich
 product: Sidebar
 classification: sidebar
@@ -33,7 +34,7 @@ You do not need to add the **Discuss** button to these workspaces because it is 
 |ITSM Manager Workspace|Catalog task, change request, incident, interaction, request, request item|
 |Vendor Management Workspace|Change request, CMDB CI outage, core company, service credit|
 
-**Note:** After you add the **Discuss** button, you must configure the activity stream. For more information, see [Activity stream in Sidebar](../concept/activity-stream-sidebar.md).
+**Note:** After you add the **Discuss** button, you must configure the activity stream. For more information, see [Activity stream in Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/sidebar/activity-stream-sidebar.md).
 
 ## Procedure
 
@@ -41,7 +42,7 @@ You do not need to add the **Discuss** button to these workspaces because it is 
 
 2.  On the UX Actions Configurations screen, select the workspace where you want to add the **Discuss** button.
 
-3.  On the UX Form Actions Layouts screen, select **Name** from the drop-down list and enter `incident` in the search field.![UX Forms Actions Layouts drop-down list selection](../image/add-sidebar-name-incident.png)
+3.  On the UX Form Actions Layouts screen, select **Name** from the drop-down list and enter `incident` in the search field.\[Omitted image "add-sidebar-name-incident.png"\] Alt text: UX Forms Actions Layouts drop-down list selection
 
 4.  Select the search result that has the name Incident and an Action Config of SOW Actions.
 
@@ -99,5 +100,5 @@ You do not need to add the **Discuss** button to these workspaces because it is 
 
 ## What to do next
 
-If you want to enable Sidebar for non-task tables and add the Discuss button to the layout, see [Adding the Discuss button for non-task tables](add-sidebar-button-advanced.md).
+If you want to enable Sidebar for non-task tables and add the Discuss button to the layout, see [Adding the Discuss button for non-task tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/sidebar/add-sidebar-button-advanced.md).
 

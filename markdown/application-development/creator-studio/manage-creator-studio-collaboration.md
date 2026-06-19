@@ -2,6 +2,7 @@
 title: Manage Creator Studio collaboration permissions on the ServiceNow AI Platform
 description: In Creator Studio, you can control how people work together on apps by setting up permissions called collaboration descriptors. These descriptors define what users can and cannot do.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/creator-studio/manage-creator-studio-collaboration.html
 release: zurich
 product: Creator Studio
 classification: creator-studio
@@ -21,7 +22,7 @@ Role required: app\_engine\_admin, and permission to Manage collaborators
 
 ## About this task
 
-Users with the Manage collaborators permission can adjust who can collaborate on the apps they own. For more information, check [Manage collaborators for an app in Creator Studio](creator-studio-manage-collaborators.md).
+Users with the Manage collaborators permission can adjust who can collaborate on the apps they own. For more information, check [Manage collaborators for an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-manage-collaborators.md).
 
 **Note:** The way that collaboration permissions appear may vary depending on whether your instance has App Engine Studio installed.
 
@@ -29,13 +30,13 @@ Users with the Manage collaborators permission can adjust who can collaborate on
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **Collaboration** &gt; **Descriptors**.
 
-2.  Edit the permissions for a [collaboration descriptor](../concept/creator-studio-glossary.md#), such as owner or editor.
+2.  Edit the permissions for a [collaboration descriptor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-glossary.md), such as owner or editor.
 
     1.  Find and select the **Name** of the descriptor you want to modify.
 
     2.  Choose a **Development permission set**, such as **Service Catalog**, to update its permissions.
 
-        For a list of permissions, see [Collaboration permissions](../../applications/reference/collaboration-permissions.md).
+        For a list of permissions, see [Collaboration permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/collaboration-permissions.md).
 
     3.  Select **Save** and **Update**.
 
@@ -53,8 +54,8 @@ Users with the Manage collaborators permission can adjust who can collaborate on
 
         For more information, see the following topics:
 
-        -   [Assign collaboration descriptors to users](../../applications/task/assign-descriptor-user.md)
-        -   [Assign collaboration descriptors to groups](../../applications/task/assign-descriptor-group.md)
+        -   [Assign collaboration descriptors to users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/assign-descriptor-user.md)
+        -   [Assign collaboration descriptors to groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/assign-descriptor-group.md)
     5.  Select **Save**.
 
 4.  If you need a new collaboration descriptor, create a custom one.
@@ -111,7 +112,7 @@ Option for inviting other collaborators with this role.
 
 ## Result
 
-You've now set up collaboration descriptors, defined permissions, and assigned roles to users and groups for specific apps. For complete details on using the Collaboration app, see [Application collaboration](../../applications/concept/application-collaboration.md).
+You've now set up collaboration descriptors, defined permissions, and assigned roles to users and groups for specific apps. For complete details on using the Collaboration app, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/application-collaboration.md).
 
-**Parent Topic:**[Administering collaboration in Creator Studio](../concept/creator-studio-admin-collab-tasks.md)
+**Parent Topic:**[Administering collaboration in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-admin-collab-tasks.md)
 

@@ -2,7 +2,10 @@
 title: Change the fields that display calendar event icons
 description: Change the fields that determine whether icons are displayed on calendar events to something you find more useful, like a priority indication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/add-event-icons.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -19,9 +22,9 @@ Role required: wm\_admin
 
 ## About this task
 
-The icon in the top left indicates work type. The first icon on the bottom right indicates if the task is a crew task, and the second icon on the bottom right indicates if the task is locked. See [Calendar event icons in Dispatcher Workspace](../reference/calendar-event-icons.md) for the full list of calendar event icons.
+The icon in the top left indicates work type. The first icon on the bottom right indicates if the task is a crew task, and the second icon on the bottom right indicates if the task is locked. See [Calendar event icons in Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/calendar-event-icons.md) for the full list of calendar event icons.
 
-For information on changing the icon graphic for calendar events, see [Change the graphic for calendar event icons](customize-icons-dispatcher-wrkspc.md).
+For information on changing the icon graphic for calendar events, see [Change the graphic for calendar event icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/customize-icons-dispatcher-wrkspc.md).
 
 **Warning:** You must be familiar with the JSON code format to perform this procedure.
 
@@ -38,7 +41,7 @@ For information on changing the icon graphic for calendar events, see [Change th
     -   topIcon - The icon at the top left indicates the work type \(work\_type\)
     -   bottomFirstIcon - The first icon at the bottom right indicates whether a task is a crew task \(crew\)
     -   bottomSecondIcon - The second icon at the bottom right indicates whether a task is locked \(lock\)
-    For information on changing the icon graphic, see [Change the graphic for calendar event icons](customize-icons-dispatcher-wrkspc.md).
+    For information on changing the icon graphic, see [Change the graphic for calendar event icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/customize-icons-dispatcher-wrkspc.md).
 
 4.  Select **Update**.
 

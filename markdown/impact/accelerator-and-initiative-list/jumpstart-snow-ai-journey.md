@@ -2,6 +2,7 @@
 title: Jumpstart Your ServiceNow AI Journey
 description: This Accelerator provides guidance on how to achieve your organization's goals and objectives with ServiceNow's AI capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/jumpstart-snow-ai-journey.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -27,7 +28,7 @@ Jumpstart Your ServiceNow AI Journey helps Impact customers navigate ServiceNow'
 
     -   Provision a temporary instance 
     -   Run AI Adoption Scan to assess current usage of AI and related products
-    -   Activate and run [Automation Discovery](https://www.servicenow.com/docs/access?context=automation-discovery&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US) to identify opportunities.
+    -   Activate and run  to identify opportunities.
     ​
 
 -   **Customer Coaching Session \#1\(upto 1.5 hours\)**

@@ -2,6 +2,7 @@
 title: Sign on closed work order tasks on a mobile device
 description: Customers can digitally sign and confirm work order tasks that are closed with the Closed Complete or Closed Incomplete state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/preview-sign-wot-contractor-mobile.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

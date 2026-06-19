@@ -2,6 +2,7 @@
 title: Multisource Report Builder \(legacy\)
 description: Improve CMDB data management by querying and reporting on Multisource CMDB data. Use the Multisource Report Builder to gain insights about how discovery sources are populating the CMDB and their reliability. You can then adjust reconciliation rules to improve the quality of CMDB data, if needed.Query the Multisource CMDB data to gain insights about how discovery sources are populating the CMDB, and then use that query to create a Multisource data report.After saving and running a Multisource query, create a schedule for the query to run automatically on a set schedule. Query results are stored in a results table and you can configure email addresses for the results to be sent to or include the results in CMDB dashboards.After creating, saving, running, and scheduling a Multisource \(CMDB 360\) query, you can create a Multisource \(CMDB 360\) report that integrates the query results with the platform Reporting feature. You can for example, include such Multisource \(CMDB 360\) report in the platform CMDB dashboards.Use sample queries to create your own CMDB 360/Multisource CMDB queries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/multisource-data-report-builder.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -17,17 +18,17 @@ Improve CMDB data management by querying and reporting on Multisource CMDB data.
 
 ## CMDB 360 in CMDB Workspace
 
-Starting with the Zurich release, the Multisource CMDB feature is part of the CMDB 360 feature which is accessible in the CMDB Workspace. Create, view, modify, schedule, create reports, and run CMDB 360 queries using the [CMDB 360 query builder](cmdb-workspace-cmdb360-view.md) in the [CMDB Workspace](cmdb-workspace.md) store app. Use the CMDB 360 query builder to create queries of the following types:
+Starting with the Zurich release, the Multisource CMDB feature is part of the CMDB 360 feature which is accessible in the CMDB Workspace. Create, view, modify, schedule, create reports, and run CMDB 360 queries using the [CMDB 360 query builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-cmdb360-view.md) in the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) store app. Use the CMDB 360 query builder to create queries of the following types:
 
--   [Get Records](../task/workspc-mltsrc-query-get-records.md): Queries your discovery sources for CIs that match your criteria.
--   [Find Gap](../task/workspc-mltsrc-query-find-gap.md): Queries for gaps in discovery sources reporting your CMDB 360 data. Queries discovery sources that report CIs against discovery sources that don't report those same CIs.
--   [Compare Attribute Values](../task/workspc-mltsrc-query-comp-attr-value.md): Queries for CIs with attribute values that differ across multiple discovery sources or against the CMDB. Queries at least two discovery sources and/or the CMDB for CIs that match your criteria.
+-   [Get Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-get-records.md): Queries your discovery sources for CIs that match your criteria.
+-   [Find Gap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-find-gap.md): Queries for gaps in discovery sources reporting your CMDB 360 data. Queries discovery sources that report CIs against discovery sources that don't report those same CIs.
+-   [Compare Attribute Values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-comp-attr-value.md): Queries for CIs with attribute values that differ across multiple discovery sources or against the CMDB. Queries at least two discovery sources and/or the CMDB for CIs that match your criteria.
 
 ## Legacy Multisource Report Builder
 
 Instead of using the CMDB 360 query builder in CMDB Workspace, you can still use the legacy Multisource Report Builder as described in this topic.
 
-After you create a Multisource query in the Multisource Report Builder, you can run the query to see the results. You can then also create a Multisource report that integrates the Multisource query results with the platform [Reporting](https://www.servicenow.com/docs/access?context=reporting-landing-page&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US) capabilities. High level steps for creating a Multisource report:
+After you create a Multisource query in the Multisource Report Builder, you can run the query to see the results. You can then also create a Multisource report that integrates the Multisource query results with the platform Reporting capabilities. High level steps for creating a Multisource report:
 
 1.  Create a query, then save and run it.
 2.  Create a schedule for the query.
@@ -54,7 +55,7 @@ Query the Multisource CMDB data to gain insights about how discovery sources are
 
 ### Before you begin
 
-[Enable and configure CMDB 360](multisource-cmdb.md).
+[Enable and configure CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md).
 
 Role required: cmdb\_ms\_editor
 
@@ -96,8 +97,8 @@ The Multisource Report Builder page updates dynamically as you set fields. There
 
 -   On the CMDB Multisource Query Results page:
     -   If the number of results exceeds the number of results appearing on the page:
-        -   Click **Load More Results​**: To show the next page of results. The number of results that appear on each result page is specified by the [glide.identification\_engine.multisource.query.batch.limit](../reference/components-multisource-cmdb.md) system property \(100 items by default\).
-        -   Click **Load All Results**: To show all results, up to the limit specified by the [glide.identification\_engine.multisource.query.max.limit](../reference/components-multisource-cmdb.md) system property \(10000 by default\).
+        -   Click **Load More Results​**: To show the next page of results. The number of results that appear on each result page is specified by the [glide.identification\_engine.multisource.query.batch.limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/components-multisource-cmdb.md) system property \(100 items by default\).
+        -   Click **Load All Results**: To show all results, up to the limit specified by the [glide.identification\_engine.multisource.query.max.limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/components-multisource-cmdb.md) system property \(10000 by default\).
         -   Click a Multisource CMDB value link or a CI value link to access the respective records and see more details.
     -   In the Configuration Item column, click a CI link to open the CI form. In the Related Links section on the CI form, click the **Multisource Data** tab to show Multsource data, such as discovery sources, related to the CI.
 -   Create a schedule for the query and ensure that the schedule runs at least once. This step is required for creating a Multisource report.
@@ -238,7 +239,7 @@ Omit if no records
 Disable sending an email for a query run that returns no results.
 
 </td></tr></tbody>
-</table>    **Note:** When using [update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=zurich&pubname=zurich-application-development&ft:locale=en-US) to port Multisource schedules from a non-production to a production environment, check the **Users** and **Groups** settings in the schedule. Any user or group that doesn't exist in the production environment, and which needs to receive the query results, must be re-added in either of the following ways:
+</table>    **Note:** When using update sets to port Multisource schedules from a non-production to a production environment, check the **Users** and **Groups** settings in the schedule. Any user or group that doesn't exist in the production environment, and which needs to receive the query results, must be re-added in either of the following ways:
 
     -   Manually created in the production environment. In this case, you must also remove the invalid user or group in the production environment \(ported from non-production environment\) from any schedules and add the new user or group instead.
     -   Explicitly ported from the non-production to production environment.
@@ -251,7 +252,7 @@ Disable sending an email for a query run that returns no results.
     1.  Navigate to **All** &gt; **Configuration** &gt; **Multisource Report Schedules**.
     2.  In the Scheduled Email of Multisource Report Builders list view, select the query that you want to run.
     3.  On the Scheduled Email of Multisource Report Builder form, click **Execute Now**.
--   Create a Multisource report for the query, that integrates the Multisource query results with the platform [Reporting](https://www.servicenow.com/docs/access?context=reporting-landing-page&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US) feature.
+-   Create a Multisource report for the query, that integrates the Multisource query results with the platform Reporting feature.
 
 ## Create a report based on a Multisource \(CMDB 360\) query
 
@@ -265,9 +266,9 @@ Role required: cmdb\_ms\_user
 
 ### About this task
 
-Creating a report that is based on a Multisource \(CMDB 360\) query, creates a report source which you can then manage using [Reporting](https://www.servicenow.com/docs/access?context=reporting-landing-page&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US) capabilities.
+Creating a report that is based on a Multisource \(CMDB 360\) query, creates a report source which you can then manage using Reporting capabilities.
 
-**Note:** If you are using the [CMDB 360 view in CMDB Workspace](cmdb-workspace-cmdb360-view.md) to generate the CMDB 360 query and the report, you can skip to step 4 in the procedure below.
+**Note:** If you are using the [CMDB 360 view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-cmdb360-view.md) to generate the CMDB 360 query and the report, you can skip to step 4 in the procedure below.
 
 ### Procedure
 
@@ -284,7 +285,7 @@ A report shows the results for the most recent query run. If meanwhile the query
 
 ### What to do next
 
-To add a Multisource \(CMDB 360\) report to the CMDB Correctness Dashboard for example, see [Add a report to a dashboard](https://www.servicenow.com/docs/access?context=add-report-to-dashboard&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+To add a Multisource \(CMDB 360\) report to the CMDB Correctness Dashboard for example, see Add a report to a dashboard.
 
 ## Sample CMDB 360/Multisource CMDB queries
 

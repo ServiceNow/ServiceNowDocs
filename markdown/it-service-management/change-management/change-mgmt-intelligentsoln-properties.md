@@ -2,6 +2,7 @@
 title: Intelligent solutions system properties
 description: Administrators can configure the Change Management Intelligent solutions system properties to use predictive intelligence \(PI\) capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/change-mgmt-intelligentsoln-properties.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -78,5 +79,5 @@ The minimum confidence value for the returned results.
 |--------|-----------|
 |Minimum quality level \[chg\_ml\_prop\_sctp.quality\]|Minimum cluster quality to use for Standard Change candidate.|
 
-**Parent Topic:**[Predictive Intelligence for Change Management](../concept/change-mgmt-intelligent-solutions.md)
+**Parent Topic:**[Predictive Intelligence for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-mgmt-intelligent-solutions.md)
 

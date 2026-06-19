@@ -2,11 +2,12 @@
 title: Integrate security tools with GitLab
 description: Configure security tool for GitLab which is not supported in the base system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/configure-security-tool-for-gitlab.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [DevOps user-created security tool integration, User created, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -32,7 +33,7 @@ Role required: sn\_devops.admin
     |Tool integration|GitLab|
     |Tool type capability|Security|
 
-    ![Tool Integration Capability Mapping form for GitLab](../image/gitlab-security-01.png)
+    \[Omitted image "gitlab-security-01.png"\] Alt text: Tool Integration Capability Mapping form for GitLab
 
 4.  Select **Submit**.
 
@@ -105,7 +106,7 @@ Domain
 global
 
 </td></tr></tbody>
-</table>    ![Integration capability form for GitLab](../image/gitlab-security-02.png)
+</table>    \[Omitted image "gitlab-security-02.png"\] Alt text: Integration capability form for GitLab
 
     **Note:** Deactivate the **BR Seeded tool integrations not editable** business rule to integrate security tools with GitLab.
 
@@ -317,5 +318,5 @@ global
         ```
 
 
-**Parent Topic:**[DevOps user-created security tool integration](../concept/devops-security-tool-integration.md)
+**Parent Topic:**[DevOps user-created security tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/devops-security-tool-integration.md)
 

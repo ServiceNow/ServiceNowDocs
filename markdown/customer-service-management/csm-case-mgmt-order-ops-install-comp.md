@@ -2,7 +2,10 @@
 title: Components installed with Order Operations Case Management
 description: Several types of components are installed with the Order Operations Case Management application, including tables, roles, and service definitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-case-mgmt-order-ops-install-comp.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 7
@@ -27,7 +30,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Order Case](../reference/order-case-form.md)\[sn\_order\_case\]
+[Order Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/order-case-form.md)\[sn\_order\_case\]
 
 </td><td>
 
@@ -35,7 +38,7 @@ Stores order case records. This table extends the Case \[sn\_customerservice\_ca
 
 </td></tr><tr><td>
 
-[Order Case Line](../reference/order-case-line-form.md)\[sn\_order\_case\_line\]
+[Order Case Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/order-case-line-form.md)\[sn\_order\_case\_line\]
 
 </td><td>
 
@@ -44,7 +47,7 @@ Stores the case line items created for order cases. This table extends the Case 
 Records in the Order Case Line table use the prefix **ORDCSL**.
 
 </td></tr></tbody>
-</table>The Order Operations Case Management application also uses the following tables from the [Case lines and workflows](csm-case-mgmt-case-lines.md) application.
+</table>The Order Operations Case Management application also uses the following tables from the [Case lines and workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-case-mgmt-case-lines.md) application.
 
 <table id="table_jcd_55l_fdc"><thead><tr><th>
 
@@ -305,14 +308,14 @@ When a case line task is assigned to a case task agent, the agent's name and ass
 </td></tr></tbody>
 </table>## Service definitions and service definition categories
 
-The Order Operations Case Management application provides the following order case service definitions. These service definitions belong to the Orders service definition category, which stores services for order-related issues. When creating a case, agents can select the desired service definition in the [case type selector](csm-case-type-select-modals.md).
+The Order Operations Case Management application provides the following order case service definitions. These service definitions belong to the Orders service definition category, which stores services for order-related issues. When creating a case, agents can select the desired service definition in the [case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-case-type-select-modals.md).
 
 **Note:** The system administrator needs to activate these service definitions. Navigate to **All** &gt; **Customer Service** &gt; **Administration** &gt; **Service Definitions** and filter the list to show service definitions from the Order Case \[sn\_order\_case\] table.
 
 For more information about service definitions and categories, see the following topics:
 
--   [Service definitions](csm-service-definitions.md)
--   [Service definition categories](csm-service-definitions.md#section_e5p_mzw_jzb)
+-   [Service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-service-definitions.md)
+-   [Service definition categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-service-definitions.md)
 
 <table id="table_xwk_wkw_tcc"><thead><tr><th>
 
@@ -363,7 +366,7 @@ This configuration includes a condition that creates special handling notes for 
 -   **Short description**: Urgent issue reported.
 -   **Message**: This case is set as critical. Follow up immediately.
 
-For more information, see [Special handling notes](c_OnScreenAlerts.md).
+For more information, see [Special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/c_OnScreenAlerts.md).
 
 ## Order case archive rules
 

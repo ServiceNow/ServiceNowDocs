@@ -2,6 +2,7 @@
 title: Configuration file options
 description: Options available in the acc.yml configuration file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-yml-options.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -591,5 +592,5 @@ When set to true, the agent clears the PAC cache and attempts to refresh the PAC
 `pac-reset-on-connect-failure: true`
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Framework reference](agent-client-collector-reference.md)
+</table>**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

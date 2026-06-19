@@ -2,6 +2,7 @@
 title: GlideCurrencyParser - Scoped
 description: The GlideCurrencyParser API provides methods to parse FX Currency values to detect locale-based formatting.Instantiates a GlideCurrencyParser object that provides methods to parse a string into a GlideCurrencyValue object.Parses a specified string into a GlideCurrencyValue object to obtain locale-based currency formatting.Sets the currency code for the associated GlideCurrencyParser object.Sets the default language and country codes, which constitute the locale, on the associated GlideCurrencyParser object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/GlideCurrencyParserScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,13 +16,13 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideCurrencyParser API provides methods to parse FX Currency values to detect locale-based formatting.
 
-The methods in this class parse a specified string into a [GlideCurrencyValue](../../GlideCurrencyValue/concept/GlideCurrencyValueScopedAPI.md#) object enabling you to obtain locale-based currency formatting. Before calling the GlideCurrencyParser.parse\(\) method, which actually performs the parse, you must set the currency code to use during the parse. You can set the currency code by either passing it in the GlideCurrencyParser.parse\(\) method call or by calling GlideCurrencyParser.setDefaultCurrencyCode\(\).
+The methods in this class parse a specified string into a [GlideCurrencyValue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/GlideCurrencyValueScopedAPI.md) object enabling you to obtain locale-based currency formatting. Before calling the GlideCurrencyParser.parse\(\) method, which actually performs the parse, you must set the currency code to use during the parse. You can set the currency code by either passing it in the GlideCurrencyParser.parse\(\) method call or by calling GlideCurrencyParser.setDefaultCurrencyCode\(\).
 
 Setting the locale is optional. If you do not set it through the GlideCurrencyParser.setLocale\(\) method, the currency amount passed into GlideCurrencyParser.parse\(\) must be unformatted.
 
 This API is provided within the `sn_currency` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideCurrencyParser - GlideCurrencyParser\(\)
 

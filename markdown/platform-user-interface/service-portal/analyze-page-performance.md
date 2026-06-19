@@ -2,6 +2,7 @@
 title: Evaluate the performance of a portal page
 description: Evaluate how the widgets on a page perform against performance benchmarks that you specify.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/analyze-page-performance.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -33,11 +34,11 @@ Role required: sp\_admin or admin
 
     4.  In the Value field, enter the suffixes of the portals to analyze.
 
-    For users with the sp\_admin or admin roles, the open Performance Analyzer icon \(![Open Performance Analyzer icon.](../image/performance-analyzer-icon.png)\) appears on pages in the specified portals.
+    For users with the sp\_admin or admin roles, the open Performance Analyzer icon \(\[Omitted image "performance-analyzer-icon.png"\] Alt text: Open Performance Analyzer icon.\) appears on pages in the specified portals.
 
 2.  Navigate to the portal page that you want to analyze.
 
-3.  Select the open Performance Analyzer icon \(![Open Performance Analyzer icon.](../image/performance-analyzer-icon.png)\).
+3.  Select the open Performance Analyzer icon \(\[Omitted image "performance-analyzer-icon.png"\] Alt text: Open Performance Analyzer icon.\).
 
     The Performance Analyzer opens in another browser tab. The Portal Page URL field automatically populates with the URL of the page from which you open the Performance Analyzer.
 
@@ -60,15 +61,15 @@ Role required: sp\_admin or admin
 
 6.  Review the benchmark results.
 
-<table id="choicetable_drv_ynr_jdc"><thead><tr><th align="left" id="d58713e237">
+<table id="choicetable_drv_ynr_jdc"><thead><tr><th align="left" id="d62817e237">
 
 Option
 
-</th><th align="left" id="d58713e240">
+</th><th align="left" id="d62817e240">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d58713e246">
+</th></tr></thead><tbody><tr><td id="d62817e246">
 
 **Benchmark details**
 
@@ -76,9 +77,9 @@ Steps
 
 From the Benchmark results list, select a widget or AJAX API to view additional details about its ACLs, business rules, or database calls.
 
- ![Performance results for each widget on the page from the Benchmark details view](../image/performance-analyzerbenchmark-details.png)
+ \[Omitted image "performance-analyzerbenchmark-details.png"\] Alt text: Performance results for each widget on the page from the Benchmark details view
 
-</td></tr><tr><td id="d58713e265">
+</td></tr><tr><td id="d62817e265">
 
 **Preview**
 
@@ -88,9 +89,9 @@ From the Benchmark results list, select a widget or AJAX API to view additional 
 
 Any widgets on the page that exceed the specified benchmarks are highlighted on the page.
 
-2.  Select the information icon \(![Information icon.](../../../administer/workspace/image/icon-information.png)\) for a highlighted widget to view its benchmark results.
+2.  Select the information icon \(\[Omitted image "icon-information.png"\] Alt text: Information icon.\) for a highlighted widget to view its benchmark results.
 
-![A widget's performance results from the Preview view](../image/performance-analyzer-preview.png)
+\[Omitted image "performance-analyzer-preview.png"\] Alt text: A widget's performance results from the Preview view
 
 </td></tr></tbody>
 </table>7.  To evaluate the page against different benchmarks, select **Start Over** and enter new benchmarks.
@@ -100,5 +101,5 @@ Any widgets on the page that exceed the specified benchmarks are highlighted on 
 
 Consider updating any widgets that don’t meet your performance benchmarks to improve the page performance. For example, if a widget's server script takes too long to load, evaluate if the script can be improved to load faster.
 
-**Parent Topic:**[Analyzing portal performance and usage](../concept/using-portal-analytics.md)
+**Parent Topic:**[Analyzing portal performance and usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/using-portal-analytics.md)
 

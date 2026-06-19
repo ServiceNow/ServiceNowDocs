@@ -2,6 +2,7 @@
 title: Create a content category
 description: Create a content category to tag news articles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ec-content-cat.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -77,5 +78,5 @@ Optional description for the content category. This field is only visible to oth
 
 ## What to do next
 
-After you finish creating a custom content category, proceed to [Create a Content template](../task/ec-create-content-template.md) or [Create a news article](../task/ec-content-library-news-article.md).
+After you finish creating a custom content category, proceed to [Create a Content template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-create-content-template.md) or [Create a news article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-library-news-article.md).
 

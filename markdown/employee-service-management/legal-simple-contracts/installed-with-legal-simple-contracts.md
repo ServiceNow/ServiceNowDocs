@@ -2,6 +2,7 @@
 title: Components installed with Legal Simple Contracts
 description: Several types of components are installed with activation of the Legal Simple Contracts application, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-simple-contracts/installed-with-legal-simple-contracts.html
 release: zurich
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Legal Simple Contracts, Legal Service Delivery Practice 
 
 Several types of components are installed with activation of the Legal Simple Contracts application, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles
 
@@ -260,5 +261,5 @@ Signer Task\[sn\_lg\_contracts\_signer\_task\]
 Stores all signatory information, including the order of signatories to sign the contract document and current signature status a request.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legal Simple Contracts reference](legal-simple-contracts-reference.md)
+</table>**Parent Topic:**[Legal Simple Contracts reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/legal-simple-contracts-reference.md)
 

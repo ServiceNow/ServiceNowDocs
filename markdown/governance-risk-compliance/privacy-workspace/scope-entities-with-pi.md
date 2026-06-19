@@ -2,6 +2,7 @@
 title: Scope entities to discover processing activities with personal information
 description: Determine which entities have and process personal information using the ServiceNow Configuration Management Database \(CMDB\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/scope-entities-with-pi.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -17,7 +18,7 @@ Determine which entities have and process personal information using the Service
 
 ## Before you begin
 
-Ensure that you created the CMDB queries. For more information on the CMDB queries, see [Querying the CMDB](https://www.servicenow.com/docs/access?context=querying-cmdb&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+Ensure that you created the CMDB queries. For more information on the CMDB queries, see Querying the CMDB.
 
 Role required: sn\_privacy.manager
 
@@ -25,8 +26,8 @@ Role required: sn\_privacy.manager
 
 In the Configuration Management Database \(CMDB\), you can search the database for entities that process personal data using one of the following methods:
 
--   Using the predefined queries and selecting only those applications and processes that have associated information objects. For more information about information objects and their role in Privacy Management, see [Information objects in Privacy Management](../concept/information-object-in-privacy.md). For information on how to scope entities with personal information, see [Scope entities to discover processing activities with personal information](scope-entities-with-pi.md)
--   Building your own query. For more information on building the CMDB queries, see [Querying the CMDB](https://www.servicenow.com/docs/access?context=querying-cmdb&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+-   Using the predefined queries and selecting only those applications and processes that have associated information objects. For more information about information objects and their role in Privacy Management, see [Information objects in Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/information-object-in-privacy.md). For information on how to scope entities with personal information, see [Scope entities to discover processing activities with personal information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/scope-entities-with-pi.md)
+-   Building your own query. For more information on building the CMDB queries, see Querying the CMDB
 
 To filter entities that contain personal data, you must filter the entities using the appropriate queries. ServiceNow® provides two default queries for you to use to filter entities with personal data. The default queries are provided for the following tables:
 
@@ -60,7 +61,7 @@ You can also create your own queries. This procedure demonstrates using the defa
 
 ## Example
 
-![Predefined queries with associated information objects.](../image/entity-filters-io.png "Usage of predefined queries")
+\[Omitted image "entity-filters-io.png"\] Alt text: Predefined queries with associated information objects.
 
-**Parent Topic:**[Entity scoping to plan a privacy program](../concept/entity-scoping-in-privacy-mgmt.md)
+**Parent Topic:**[Entity scoping to plan a privacy program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/entity-scoping-in-privacy-mgmt.md)
 

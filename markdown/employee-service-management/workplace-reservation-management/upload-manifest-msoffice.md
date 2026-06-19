@@ -2,6 +2,7 @@
 title: Upload the add-in file Microsoft Office 365
 description: Upload the manifest file to Microsoft Office 365. Employees can view and use the add-in from Microsoft Office 365 Outlook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-reservation-management/upload-manifest-msoffice.html
 release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -50,12 +51,12 @@ Role required: admin
 
     A green tick appears when the add-in deployment is successful. Follow the instructions provided on the page to test if the add-in deployment is successful.
 
-    The add-in is uploaded to Microsoft Office 365. Employees can view the add-in option and make a workplace reservation while scheduling a meeting. For more information, see [Create a reservation in Microsoft Outlook add-in](outlook-create-rsv.md).
+    The add-in is uploaded to Microsoft Office 365. Employees can view the add-in option and make a workplace reservation while scheduling a meeting. For more information, see [Create a reservation in Microsoft Outlook add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/outlook-create-rsv.md).
 
 
-**Parent Topic:**[Activate the add-in for Microsoft Outlook](add-outlook-addin.md)
+**Parent Topic:**[Activate the add-in for Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/add-outlook-addin.md)
 
-**Previous topic:**[Upload the manifest file for a workplace employee](uplooad-manifest-single-user.md)
+**Previous topic:**[Upload the manifest file for a workplace employee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/uplooad-manifest-single-user.md)
 
-**Next topic:**[Using Workplace Reservations for Microsoft Outlook Add-in](../concept/using-outlook-addin.md)
+**Next topic:**[Using Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/using-outlook-addin.md)
 

@@ -2,6 +2,7 @@
 title: Field Service Spoke
 description: Provides actions for flow designers to use when creating Field Service Management business processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/field-service-actions.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -25,5 +26,5 @@ Provides actions for flow designers to use when creating Field Service Managemen
 |Update Work Order Task|Update a work order task by providing the work order task reference and the fields that you want to update.|
 |Add Work Note to Task|Add a work note to a task or to task extended objects \(for example, a work order or work order task\).|
 
-**Parent Topic:**[Spokes](../concept/spokes.md)
+**Parent Topic:**[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/spokes.md)
 

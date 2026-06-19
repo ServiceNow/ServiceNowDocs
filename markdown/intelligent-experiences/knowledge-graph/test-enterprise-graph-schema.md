@@ -2,6 +2,7 @@
 title: Test an Enterprise Graph schema
 description: Promote functionality by entering a query and testing the Enterprise Graph schema.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/knowledge-graph/test-enterprise-graph-schema.html
 release: zurich
 product: Knowledge Graph
 classification: knowledge-graph
@@ -31,7 +32,7 @@ Role required: admin
 
     You are navigated to Test Knowledge Graph Schema page.
 
-    ![Test Enterprise Graph schema](../Images/test_enterprise_graph.png)
+    \[Omitted image "test\_enterprise\_graph.png"\] Alt text: Test Enterprise Graph schema
 
 4.  In the Query section of the Test Knowledge Graph Schema window, enter your question.
 
@@ -42,7 +43,7 @@ Role required: admin
     -   **NowLLM-LTS**
     -   **Gemini**
     -   **GPT**
-    ![Select LLM Model](../Images/gpt_models_eg.png)
+    \[Omitted image "gpt\_models\_eg.png"\] Alt text: Select LLM Model
 
 6.  Select an Enterprise Graph mode.
 
@@ -50,7 +51,7 @@ Role required: admin
 
     -   Enterprise Graph
     -   Enterprise Graph \(Small\)
-    ![Select Enterprise Graph mode](../Images/EG_modes.png)
+    \[Omitted image "EG\_modes.png"\] Alt text: Select Enterprise Graph mode
 
 7.  Select **Include conversation history** check box to add the any previous chats.
 

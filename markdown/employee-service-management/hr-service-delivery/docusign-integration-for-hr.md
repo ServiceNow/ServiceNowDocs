@@ -2,6 +2,7 @@
 title: Integrating with the DocuSign service
 description: Request electronic signatures through the DocuSign service with the DocuSign integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/docusign-integration-for-hr.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,7 +20,7 @@ Request electronic signatures through the DocuSign service with the DocuSign int
 
 Starting with the Zurich release, HR Document Templates is being prepared for future deprecation. It will be hidden and no longer activated on new instances, but will continue to be supported.
 
-Use [Document Templates](document-templates-overview.md) and [Document Template integration with Docusign](docusign-doc.md) that provide the latest experience for this functionality. For migration guidelines, see [Migrating from HR Document Templates to Document Templates](migration-hrdt-dt.md#).
+Use [Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/document-templates-overview.md) and [Document Template integration with Docusign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/docusign-doc.md) that provide the latest experience for this functionality. For migration guidelines, see [Migrating from HR Document Templates to Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/migration-hrdt-dt.md).
 
 For deprecation details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
@@ -29,8 +30,8 @@ This integration depends on the DocuSign spoke in IntegrationHub, and is enabled
 
 The DocuSign integration depends on the DocuSign spoke in IntegrationHub. Before you begin, an admin must have set up the DocuSign spoke, including registering as an OAuth provider and creating credential and connection records. You must also synchronize DocuSign with your ServiceNow instance.
 
--   Set up DocuSign spoke. See [Docusign eSignature Spoke](https://www.servicenow.com/docs/access?context=docusign-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
--   [Sychronize DocuSign with ServiceNow](https://www.servicenow.com/docs/access?context=sync-docusign-servicenow&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)
+-   Set up DocuSign spoke. See .
+-   Sychronize DocuSign with ServiceNow
 
     **Note:**
 
@@ -55,9 +56,9 @@ Ad hoc document flow
 
 </td><td>
 
-1.  Create a managed document that you want to make available for signing. See [Managed Documents](https://www.servicenow.com/docs/access?context=c_ManagedDocuments&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) for more information.
-2.  [Configure an HR PDF document template for an ad hoc document](../task/configure-hr-pdf-document-template-for-docusign-ad-hoc-document.md)
-3.  [Configure an HR service for the DocuSign integration](../task/configure-hr-service-for-docusign-integration.md)
+1.  Create a managed document that you want to make available for signing. See Managed Documents for more information.
+2.  [Configure an HR PDF document template for an ad hoc document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-pdf-document-template-for-docusign-ad-hoc-document.md)
+3.  [Configure an HR service for the DocuSign integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-service-for-docusign-integration.md)
 
 </td></tr><tr><td>
 
@@ -66,8 +67,8 @@ DocuSign template flow
 </td><td>
 
 1.  Create a DocuSign template that you want to make available for signing. See the [DocuSign eSignature User Guide](https://support.docusign.com/en/guides/ndse-user-guide) for more information.
-2.  [Configure an HR PDF document template for a DocuSign template](../task/configure-docusign-template-for-hr-document-template.md)
-3.  [Configure an HR service for the DocuSign integration](../task/configure-hr-service-for-docusign-integration.md)
+2.  [Configure an HR PDF document template for a DocuSign template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-docusign-template-for-hr-document-template.md)
+3.  [Configure an HR service for the DocuSign integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-service-for-docusign-integration.md)
 
 </td></tr></tbody>
 </table>The ad hoc document flow is for the signing of static documents that originate from a managed document in the ServiceNow system. Each ad hoc document is configured as a standard HR PDF document template. You can add signers to the document with **Mark Signatures**, and then map each signature field to an appropriate user field in a table. \(The positioning of the markings are not used, and the DocuSign integration allows the signer to sign anywhere in the document.\) You can also parse the PDF to map document fields to corresponding table fields to auto-populate the document when it is generated for signing. The generated document is static, which means that it is read-only and the signatory cannot update any of the fields.
@@ -78,14 +79,14 @@ The DocuSign template flow is for the signing of dynamic documents that originat
 
 Once the integration setup is complete, HR agents from your organization can request electronic signatures through the DocuSign service.
 
-For more information, see [Request an electronic signature through the Docusign service](../task/request-e-signature-through-docusign-service.md).
+For more information, see [Request an electronic signature through the Docusign service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/request-e-signature-through-docusign-service.md).
 
--   **[Configure an HR PDF document template for an ad hoc document](../task/configure-hr-pdf-document-template-for-docusign-ad-hoc-document.md)**  
+-   **[Configure an HR PDF document template for an ad hoc document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-pdf-document-template-for-docusign-ad-hoc-document.md)**  
 If you are using the DocuSign integration, configure an HR PDF document template for each ad hoc document that you want to make available for signing.
--   **[Configure an HR PDF document template for a DocuSign template](../task/configure-docusign-template-for-hr-document-template.md)**  
+-   **[Configure an HR PDF document template for a DocuSign template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-docusign-template-for-hr-document-template.md)**  
 If you are using the DocuSign integration, configure an HR PDF document template for each DocuSign template that you want to make available for signing.
--   **[Configure an HR service for the DocuSign integration](../task/configure-hr-service-for-docusign-integration.md)**  
+-   **[Configure an HR service for the DocuSign integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-service-for-docusign-integration.md)**  
 Create or modify an HR service to request electronic signatures through the DocuSign service. Preconfigured flows to collect signatures for either an ad hoc document \(HR PDF document template\) or a DocuSign template are available to use. You must also configure an associated HR case template to set a default ad hoc document or DocuSign template for signing.
 
-**Parent Topic:**[HR Integrations](scoped-hr-third-party-integrations.md)
+**Parent Topic:**[HR Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/scoped-hr-third-party-integrations.md)
 

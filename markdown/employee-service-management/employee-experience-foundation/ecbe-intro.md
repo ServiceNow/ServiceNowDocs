@@ -2,6 +2,7 @@
 title: Browser Extension for Employee Center
 description: Access all your extension-supported, Employee Center content, and other resources within a movable, pop-up browser extension.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ecbe-intro.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -15,7 +16,7 @@ breadcrumb: [Setup task management, Configure, Employee Center, Unified Employee
 
 Access all your extension-supported, Employee Center content, and other resources within a movable, pop-up browser extension.
 
-![Browser Extension for Employee Center displays the configured Employee Center content on the extension.](../images/ecbe.png "Browser Extension")
+\[Omitted image "ecbe.png"\] Alt text: Browser Extension for Employee Center displays the configured Employee Center content on the extension.
 
 Use Google Chrome or Microsoft Edge to use the Browser Extension for Employee Center.
 
@@ -55,11 +56,11 @@ Access your configured Employee Center content with the omnibox search functiona
 
 You can also conduct a context search by selecting a portion of the website content where the extension is enabled. It gives you the search results for the selected section both within the Browser Extension and in the Employee Center portal.
 
-Additionally, you can receive your Employee Center notifications on your Mac or Windows system, as long as you have the Browser Extension open in any one of your tabs. It enables you to track work updates efficiently. For more information, see [Notifications in the Browser Extension for Employee Center](notifications-ec.md#section_notfications_ecbe).
+Additionally, you can receive your Employee Center notifications on your Mac or Windows system, as long as you have the Browser Extension open in any one of your tabs. It enables you to track work updates efficiently. For more information, see [Notifications in the Browser Extension for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/notifications-ec.md).
 
 ## Feedback in Browser Extension
 
-Provide your experience with the Browser Extension for Employee Center with the default feedback configuration and feedback definition available with the Browser Extension for Employee Center plugin \(sn\_ex\_brw\_ext\) version 1.0. For more information on the experience feedback functionality in the Browser Extension for Employee Center, see [Experience feedback for browser extension](ex-fdback-ovrvw.md#section_ex_feedback_ecbe)
+Provide your experience with the Browser Extension for Employee Center with the default feedback configuration and feedback definition available with the Browser Extension for Employee Center plugin \(sn\_ex\_brw\_ext\) version 1.0. For more information on the experience feedback functionality in the Browser Extension for Employee Center, see [Experience feedback for browser extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ex-fdback-ovrvw.md)
 
 ## Browser Extension interface
 
@@ -67,7 +68,7 @@ You can use the **Instance Options** to modify the display of the extension.
 
 You can configure aspects like the number of options displayed within a widget, the number of search results displayed, and so on.
 
-Leverage the Now Assist search on the Browser Extension for Employee Center. For more information, see [Set up Now Assist search in Browser Extension for Employee Center](../task/config-now-assist-search-ecbe.md).
+Leverage the Now Assist search on the Browser Extension for Employee Center. For more information, see [Set up Now Assist search in Browser Extension for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/config-now-assist-search-ecbe.md).
 
 Along with the ServiceNow® Store, also get the Browser Extension for Employee Center for Google Chrome and Microsoft Edge in the Chrome web store and the Microsoft Edge Add-ons store. For more information, see the helpful resources section.
 
@@ -83,7 +84,7 @@ Some ServiceNow and other helpful resources are as follows:
 
     [https://microsoftedge.microsoft.com/addons/detail/servicenow-employee-cente/bddghmmfhfgplnapjkhhhajkcbmfffip](https://microsoftedge.microsoft.com/addons/detail/servicenow-employee-cente/bddghmmfhfgplnapjkhhhajkcbmfffip)
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-support.svg) Support**
+-   **\[Omitted image "dcx-icon-support.svg"\] Support**
 
 
 

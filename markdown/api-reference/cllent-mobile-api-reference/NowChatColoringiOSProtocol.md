@@ -2,6 +2,7 @@
 title: NowChatColoring protocol - iOS
 description: The NowChatColoring protocol defines default colors for the elements in the Live Agent and Virtual Agent chat UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/cllent-mobile-api-reference/NowChatColoringiOSProtocol.html
 release: zurich
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -289,5 +290,5 @@ public extension NowChatColoring {
 }
 ```
 
-**Parent Topic:**[Mobile SDK - iOS](../../concept/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 

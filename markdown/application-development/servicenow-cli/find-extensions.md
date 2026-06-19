@@ -2,6 +2,7 @@
 title: Manage ServiceNow CLI extensions
 description: Add extensions to the ServiceNow CLI to load additional functionality and commands, update existing extensions, or remove extensions you no longer need.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-cli/find-extensions.html
 release: zurich
 product: ServiceNow CLI
 classification: servicenow-cli
@@ -62,5 +63,5 @@ Role required: none.
         ```
 
 
-**Parent Topic:**[ServiceNow CLI](../concept/servicenow-cli.md)
+**Parent Topic:**[ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-cli/servicenow-cli.md)
 

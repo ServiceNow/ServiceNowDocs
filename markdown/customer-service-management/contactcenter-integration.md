@@ -2,7 +2,10 @@
 title: Integrating with contact centers
 description: Integrate your contact center platform with the ServiceNow Customer Service Management \(CSM\) application to unify customer service teams through a single user interface. This integration centralizes routing across departments and channels, and optimizes workforce engagement for more personalized customer experiences and simplified employee experiences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/contactcenter-integration.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -17,26 +20,26 @@ Integrate your contact center platform with the ServiceNow Customer Service Mana
 
 Prerequisite: Ensure that agents are set up via configuration through their contact center integration to access the ServiceNow Workspace. The agent profiles are synced automatically when the agent logs in through the contact center connector in OpenFrame. For example, agent John Jason in the ServiceNow workspace must be able to log in to the contact center.
 
-See [Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integration](../task/enable-icc-for-ccaas.md) to enable ICC for CCaaS calls.
+See [Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/enable-icc-for-ccaas.md) to enable ICC for CCaaS calls.
 
 Additionally, the agent presence state must match between the ServiceNow workspace and the contact center. In some cases, the state “available” might have a different name in the contact center environment, “on queue” for example.
 
 Review the following architecture diagram for more insight on the contact center integration flow with ServiceNow.
 
-![Contact center integration with ServiceNow architecture](../image/contact-center-integration-flow.png "Contact Center integration flow")
+\[Omitted image "contact-center-integration-flow.png"\] Alt text: Contact center integration with ServiceNow architecture
 
 ## External routing with Contact Centers
 
-Contact center spokes allow communication between ServiceNow and contact centers via the contact center API. Using a spoke requires the use of [Integration Hub](https://www.servicenow.com/docs/access?context=integrationhub&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US), and each contact center provider creates a spoke with actions to initiate the routing instructions. In general, the actions should correspond to these external routing events:
+Contact center spokes allow communication between ServiceNow and contact centers via the contact center API. Using a spoke requires the use of Integration Hub, and each contact center provider creates a spoke with actions to initiate the routing instructions. In general, the actions should correspond to these external routing events:
 
 -   New interaction
 -   End interaction
 -   Transfer to agent
 -   Transfer to queue
 
-The spoke should also be able to retrieve data, such as skills, queues, and wrap-up codes. To learn more about creating a spoke, refer to [Building spokes using Spoke Generator](https://www.servicenow.com/docs/access?context=spoke-builder&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+The spoke should also be able to retrieve data, such as skills, queues, and wrap-up codes. To learn more about creating a spoke, refer to .
 
-The contact center provider uses the AWA Work Offer API to provide the agent target for the work items. This allows the contact center provider to provide parameters to accept conversations, reject conversations, set timeout duration, and set the ServiceNow agent ID. See [AWA Offer Work API](https://www.servicenow.com/docs/access?context=awa-offer-work-api&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+The contact center provider uses the AWA Work Offer API to provide the agent target for the work items. This allows the contact center provider to provide parameters to accept conversations, reject conversations, set timeout duration, and set the ServiceNow agent ID. See .
 
 In the ServiceNow platform, you can import contact center platform skills, queues, and wrap-up codes between the ServiceNow instance and the contact center provider.
 

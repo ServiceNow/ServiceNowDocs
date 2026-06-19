@@ -2,6 +2,7 @@
 title: Certification audit results
 description: Audit results show the records that have passed or failed an audit and itemize any discrepancies detected.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/c\_CertificationAuditResults.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

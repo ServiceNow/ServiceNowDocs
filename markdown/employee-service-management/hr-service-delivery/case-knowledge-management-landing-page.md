@@ -2,6 +2,7 @@
 title: Case and Knowledge Management
 description: The Case and Knowledge Management application enables you to standardize the documentation, interaction, and fulfillment of employee inquiries and requests, which helps to improve HR efficiency and services over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/case-knowledge-management-landing-page.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,32 +18,32 @@ The Case and Knowledge Management application enables you to standardize the doc
 
 <table class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Explore HR Case and Knowledge Management features and see how agents use them.](../concept/hr-ckm-use-explore.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Explore HR Case and Knowledge Management features and see how agents use them.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-ckm-use-explore.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Install and configure HR Case and Knowledge Management features.](../task/activate-case-and-knowledge-management-scoped.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and configure HR Case and Knowledge Management features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/activate-case-and-knowledge-management-scoped.md)
 
 </td></tr><tr><td>
 
-[Manage HR Cases![](../../../reuse/icons/brand-icons/bus-headset.svg)HR Agents work on cases.](../concept/c_HRCaseManagement.md)
+[Manage HR Cases\[Omitted image "bus-headset.svg"\] Alt text:HR Agents work on cases.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
 
 </td><td>
 
-[Request HR services![](../../../reuse/icons/brand-icons/bus-start-discussion.svg)Employees open HR cases to get help or make requests.](../concept/c_HRProfileRecords.md)
+[Request HR services\[Omitted image "bus-start-discussion.svg"\] Alt text:Employees open HR cases to get help or make requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
 
 </td></tr><tr><td>
 
-[Integrate![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Integrate with Service Portfolio Management and Digital Portfolio Management.](../concept/ckm-csdm.md)
+[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Integrate with Service Portfolio Management and Digital Portfolio Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/ckm-csdm.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about components such as fields, tables, and properties.](reference-ckm.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/reference-ckm.md)
 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://www.servicenow.com/docs/access?context=hr-service-delivery-landing&version=zurich&pubname=zurich-release-notes&ft:locale=en-US).
+-   Learn more about what's new and changed, see the .
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

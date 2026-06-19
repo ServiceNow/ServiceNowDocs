@@ -2,6 +2,7 @@
 title: Talent Activity Template Recommendation form
 description: Administrators create activity template recommendation templates that employees and managers use to create career growth plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/egd-activity-recommendation-form.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -83,5 +84,5 @@ The title is visible in the user interface \(UI\). A helpful title provides info
 Select the criteria that must meet to have access to this talking point.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Talent Development Core application reference](../concept/egd-reference.md)
+</table>**Parent Topic:**[Talent Development Core application reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-reference.md)
 

@@ -2,7 +2,10 @@
 title: CSM Configurable Workspace form templates
 description: Create and edit form templates for use in CSM Configurable Workspace and then use the templates to automatically populate fields on records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-workspace-form-templates.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -35,7 +38,7 @@ Within each list of templates, users can do the following:
 -   Search for templates by entering a keyword in the search box.
 -   Sort the available templates, either last used or alphabetically, by making a selection from the drop-down menu.
 
-![CSM Configurable Workspace templates tab in the contextual side panel displays available templates to the user](../image/csm-form-templates-template-tab.png "Templates tab with template cards")
+\[Omitted image "csm-form-templates-template-tab.png"\] Alt text: CSM Configurable Workspace templates tab in the contextual side panel displays available templates to the user
 
 ## Template cards
 
@@ -52,7 +55,7 @@ The template form is used to create and edit templates. This form includes two c
 -   **Details**: Includes information about the template, such as the template name and the table that the template applies to.
 -   **Template**: Includes the selected fields and the configured values for those fields which are applied to a record.
 
-![Create New Template form with the Details section collapsed. The Templates section includes a numbered row for each field and value added to the template.](../image/csm-form-templates-create-new.png "Template form")
+\[Omitted image "csm-form-templates-create-new.png"\] Alt text: Create New Template form with the Details section collapsed. The Templates section includes a numbered row for each field and value added to the template.
 
 The Template section includes a row for each field that has been added to the template. These rows are numbered for readability and easy reference. The fields and configured values in each row are also labeled for readability.
 
@@ -66,5 +69,5 @@ The template form is available when creating a new template from a case or inter
 
 ## Using form templates to create comments and work notes
 
-You can create and use form templates that add content to the **Additional comments** and **Work notes** fields on a case record and then post that content to the activity stream. Selecting a template displays a modeless dialog with the template content. For more information, see [Modeless dialogs](csm-front-line-case-page-modeless-dialogs.md#section_gzj_wlb_s2c).
+You can create and use form templates that add content to the **Additional comments** and **Work notes** fields on a case record and then post that content to the activity stream. Selecting a template displays a modeless dialog with the template content. For more information, see [Modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-front-line-case-page-modeless-dialogs.md).
 

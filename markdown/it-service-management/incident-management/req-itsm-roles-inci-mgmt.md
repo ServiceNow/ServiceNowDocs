@@ -2,6 +2,7 @@
 title: Request ITSM Roles — Incident Management
 description: Request the ITSM Roles plugin \(com.snc.itsm.roles\) to activate the ITSM Roles — Incident Management plugin \(com.snc.itsm.roles.incident\_management\) to gain more control over the access that different service desk agents, technicians, and managers have within your Incident Management process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/req-itsm-roles-inci-mgmt.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -135,13 +136,13 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
--   **[Components installed with ITSM Roles — Incident Management](../reference/inci-roles-instld-itsm-roles.md)**  
+-   **[Components installed with ITSM Roles — Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/inci-roles-instld-itsm-roles.md)**  
 Several user roles are installed with activation of the ITSM Roles — Incident Management plugin \(com.snc.itsm.roles.incident\_management\).
 
-**Parent Topic:**[Incident Management plugins](../concept/incident-mgmt-plugins.md)
+**Parent Topic:**[Incident Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/incident-mgmt-plugins.md)
 
 **Related topics**  
 
 
-[List of Zurich plugins](https://www.servicenow.com/docs/access?context=list-of-plugins&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+[bundle-platadm.list-of-plugins]
 

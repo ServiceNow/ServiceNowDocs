@@ -2,6 +2,7 @@
 title: Activate REST API Auth Scope
 description: You can activate the REST API Auth Scope plugin \(com.glide.rest.auth.scope\) to link the OAuth entity with authentication scopes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/activate-rest-api-auth-scope.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -40,6 +41,6 @@ Role required: admin
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 

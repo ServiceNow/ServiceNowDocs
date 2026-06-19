@@ -2,6 +2,7 @@
 title: Use the WriteToCSV component
 description: Write the data to a CSV file by using the WriteToCSV component in RPA Desktop Design Studio as part of a Workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/use-datawriter-writetocsv.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the WriteToCSV component. For more information about these properties, see [Properties of the Data Writer components](../reference/util-datawriter-prop.md).
+You can configure the properties for the WriteToCSV component. For more information about these properties, see [Properties of the Data Writer components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/util-datawriter-prop.md).
 
 ## Procedure
 
@@ -105,7 +106,7 @@ Data In
 
 </td><td>
 
-Indicate whether the data passed appends or replaces existing data in the CSV file \(True or False\). Double click to configure the port properties. For more information, see [Configure port properties](configure-input-port-properties.md).
+Indicate whether the data passed appends or replaces existing data in the CSV file \(True or False\). Double click to configure the port properties. For more information, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 </td><td>
 
@@ -115,5 +116,5 @@ Boolean
 </table>4.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Data Writer](../concept/datawriter-utility.md)
+**Parent Topic:**[Data Writer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/datawriter-utility.md)
 

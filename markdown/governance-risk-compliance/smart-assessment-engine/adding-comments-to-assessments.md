@@ -2,6 +2,7 @@
 title: Adding comments to assessments
 description: Comments can be added to an assessment at any time by the owner or contributors, regardless of its current state. This feature enables for clarification on questions or other aspects of the assessment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/smart-assessment-engine/adding-comments-to-assessments.html
 release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -26,12 +27,12 @@ Role required: sn\_smart\_asmt.actor
     Here’s an example of how to navigate to this list in the Compliance Workspace.
 
     1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
-    2.  Select the tasks icon ![](../image/task-icon.png).
+    2.  Select the tasks icon \[Omitted image "task-icon.png"\] Alt text:.
     3.  Select the Control attestations on the left panel.
     4.  In the My pending tasks related list, the assessments are displayed.
 2.  Select the assessments in which you want to add a comment.
 
-3.  From the contextual sidebar, select the **Comment** icon ![](../image/adding-comments.png).
+3.  From the contextual sidebar, select the **Comment** icon \[Omitted image "adding-comments.png"\] Alt text:.
 
 4.  Provide your comment in the **Comment** field.
 

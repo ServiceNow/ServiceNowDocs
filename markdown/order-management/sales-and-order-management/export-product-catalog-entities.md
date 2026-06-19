@@ -2,6 +2,7 @@
 title: Export product catalog entities
 description: Export product catalog entities as a JSON file and save the file to your local download directory so that it can be imported to another ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/export-product-catalog-entities.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,7 +26,7 @@ You can export catalog entities in any sequence, but you must import them to a t
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![image.Lists] view.
+1.  In the CSM Configurable Workspace, select the **List** view.
 
 2.  Navigate to **Export** &gt; **Export Entities**.
 
@@ -61,7 +62,7 @@ You can export catalog entities in any sequence, but you must import them to a t
 
     The exported file appears in the **Attachments** pane.
 
-    ![The Catalog Export Request page with an exported JSON file in the Attachments pane.](../image/e-i-attachment-screen.png)
+    \[Omitted image "e-i-attachment-screen.png"\] Alt text: The Catalog Export Request page with an exported JSON file in the Attachments pane.
 
 8.  Select the attachment to download the exported file.
 
@@ -70,6 +71,6 @@ You can export catalog entities in any sequence, but you must import them to a t
 
 ## What to do next
 
--   [Import product catalog entities](import-product-catalog-entities.md)
--   [View export job status](view-export-job-status.md)
+-   [Import product catalog entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/import-product-catalog-entities.md)
+-   [View export job status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/view-export-job-status.md)
 

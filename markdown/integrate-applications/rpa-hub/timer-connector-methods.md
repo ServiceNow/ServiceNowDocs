@@ -2,6 +2,7 @@
 title: Timer connector methods
 description: Learn about the Timer connector methods and event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/timer-connector-methods.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -41,5 +42,5 @@ The event starts when the Start method starts.
 |SignalTime|Data Out|Integer|The system date and time when the trigger starts operating.|Yes|
 |ElapsedTime|Data Out|Integer|Total time in the timer elapsed.|Yes|
 
-**Parent Topic:**[Timer](../concept/timer.md)
+**Parent Topic:**[Timer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/timer.md)
 

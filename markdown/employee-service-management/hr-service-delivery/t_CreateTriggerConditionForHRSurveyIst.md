@@ -2,6 +2,7 @@
 title: Add a trigger condition for an HR survey
 description: When you create an HR survey, you can add a trigger condition to specify when the survey is sent and to whom.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/t\_CreateTriggerConditionForHRSurveyIst.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -23,9 +24,9 @@ Role required: sn\_hr\_core.admin, or sn\_hr\_core.manager
 
 Trigger conditions are ideal for sending surveys to measure satisfaction with a recent experience, such as closing an HR request.Some descriptions use the Incident table as an example. Substitute HR case information to create an HR survey trigger condition.
 
-See [Survey administration](https://www.servicenow.com/docs/access?context=r_SurveyAdminTasks&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+See Survey administration.
 
-See [Survey trigger conditions](https://www.servicenow.com/docs/access?context=c_TriggerConditions&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+See Survey trigger conditions.
 
 To create a trigger condition:
 
@@ -40,10 +41,10 @@ To create a trigger condition:
 
 3.  Complete the form.
 
-    For details about the fields, see [Trigger Condition form for surveys](https://www.servicenow.com/docs/access?context=trigger-condition-form&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+    For details about the fields, see Trigger Condition form for surveys
 
 4.  Click **Submit**.
 
 
-**Parent Topic:**[HR surveys](../concept/c_HRSurveysIst.md)
+**Parent Topic:**[HR surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRSurveysIst.md)
 

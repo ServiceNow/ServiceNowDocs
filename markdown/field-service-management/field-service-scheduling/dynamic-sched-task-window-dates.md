@@ -2,6 +2,7 @@
 title: Work order task start and end dates
 description: Dynamic scheduling uses work order task Window start and Window end dates to schedule tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/dynamic-sched-task-window-dates.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -29,7 +30,7 @@ If a task is created, the **Window end** date gets automatically populated based
 
 If a task is created and **Fixed window** is enabled, the business rules and client scripts doesn't execute and **Window end** time is not updated. If a work order is created based on an appointment and there is an SLA associated with the work order, the **Window end** time is populated based on the appointment and not on the SLA.
 
-**Window start** date gets updated for the work order tasks based on the delivery date of the transfer order only for work orders that are not assigned. The business rule **Sync up Delivery Time with WOT** [business rule](../../planning-and-policy/reference/r_InstalledWithFSM.md) has to be set to **True**. Multiple transfer orders that has mandatory part requirements, the **Window start** is set to the latest delivery time of the transfer order. **Window start** date is only updated based on transfer orders only when the part requirement associated with the transfer order is mandatory. However, you can manually edit the window start time and override the existing date that is populated based on the transfer order.
+**Window start** date gets updated for the work order tasks based on the delivery date of the transfer order only for work orders that are not assigned. The business rule **Sync up Delivery Time with WOT** [business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/r_InstalledWithFSM.md) has to be set to **True**. Multiple transfer orders that has mandatory part requirements, the **Window start** is set to the latest delivery time of the transfer order. **Window start** date is only updated based on transfer orders only when the part requirement associated with the transfer order is mandatory. However, you can manually edit the window start time and override the existing date that is populated based on the transfer order.
 
 **Note:** The **Window start** date is not updated if the work order task is:
 

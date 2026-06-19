@@ -2,6 +2,7 @@
 title: Automatically add skills to incidents or interactions in Workforce Optimization for ITSM
 description: Define conditions for incidents or interactions and add skills required for those conditions using skill determination rules. When new incidents and interactions that are created meet these conditions, the skill determination business rule automatically adds the skills to those records. In the Workforce Optimization for ITSM Channels and Work scheduler applications, the work items get automatically assigned to the right agents based on the skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/add-skills-automatic-itsm-manager-workspace-configurable-workspace.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -28,7 +29,7 @@ The following business rules are used in Workforce Optimization for ITSM skill d
 
 The table below shows the skill determination rules available for Workforce Optimization for ITSM.
 
-**Note:** To add language detection skills, you must set dynamic translation APi. for more information, see [Dynamic Translation API](https://www.servicenow.com/docs/access?context=dyn-translation-apis&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** To add language detection skills, you must set dynamic translation APi. for more information, see Dynamic Translation API.
 
 |Skill Determination Rule|Source Table|Type|Description|
 |------------------------|------------|----|-----------|
@@ -45,8 +46,8 @@ The table below shows the skill determination rules available for Workforce Opti
 
 2.  Add the desired rule for an incident or an interaction.
 
-    For information, see [Create Skill Determination rules to assign skills to work items](https://www.servicenow.com/docs/access?context=conf-simple-skill-determination-rule&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    For information, see .
 
 
-**Parent Topic:**[Routing work based on skills in Workforce Optimization for ITSM](../concept/skill-determination-configurable-wfo-itsm.md)
+**Parent Topic:**[Routing work based on skills in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/skill-determination-configurable-wfo-itsm.md)
 

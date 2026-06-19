@@ -2,6 +2,7 @@
 title: Analyze your hardware assets by using Now Assist for HAM
 description: View consolidated asset data and identify key action items with the comprehensive AI-generated analysis summary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/now-assist-for-hardware-asset-management/generate-asset-analysis-now-assist-ham.html
 release: zurich
 product: Now Assist for Hardware Asset Management
 classification: now-assist-for-hardware-asset-management
@@ -26,7 +27,7 @@ Role required: asset
 
 ## About this task
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 The Generate hardware asset insights generative AI skill generates comprehensive asset analysis summaries by aggregating data from related records. These summaries provide insights into the asset lifecycle, chain of custody, audit status, and financial metrics to support key asset management activities. The level of detail in the summary depends on the amount of data available for that specific asset. The summary dynamically updates based on asset state and includes context from any active incidents, change requests, or tasks. To maintain data integrity and streamline workflows, the skill highlights missing information and lists specific action items.
 
@@ -44,6 +45,6 @@ The Generate hardware asset insights generative AI skill generates comprehensive
 
     An asset analysis summary card with a consolidated overview of critical asset data and potential actions is displayed.
 
-    ![Asset analysis summary with comprehensive asset information and list of action items](../image/now-assist-ham-asset-summary.png "Asset analysis summary")
+    \[Omitted image "now-assist-ham-asset-summary.png"\] Alt text: Asset analysis summary with comprehensive asset information and list of action items
 
 

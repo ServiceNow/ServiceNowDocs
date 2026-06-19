@@ -2,6 +2,7 @@
 title: Configure an HR service
 description: Create or modify an HR service to define the request to fulfillment process for that case type. Examples of HR services include benefits enrollment, direct deposit setup, and background check requests by third-party providers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/configure-hr-service.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -28,8 +29,8 @@ Role required: sn\_hr\_core.admin
     **Note:** The COEs available to you may differ depending on the HR package you have.
 
     -   The categorization of HR catalog items are employee-facing only, and have no relation to the categorization of HR services under the HR Centers of Excellence \(COEs\) data model.
-    -   If you are creating a new HR service and plan to make it available for employee self-service, see [HR catalog item configuration](../concept/hr-catalog-item-configuration.md). Creating a new HR catalog item automatically creates a corresponding HR service, and you can avoid creating duplicate services.
-    -   If you have an existing HR service that you want to make available for employee self-service, do not create an HR catalog item. \(Creating a HR catalog item automatically creates a corresponding HR service.\) Instead, see [Configure a record producer for an HR service](configure-hr-record-producer.md) to add the existing service as an HR catalog item in the HR service catalog.
+    -   If you are creating a new HR service and plan to make it available for employee self-service, see [HR catalog item configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-catalog-item-configuration.md). Creating a new HR catalog item automatically creates a corresponding HR service, and you can avoid creating duplicate services.
+    -   If you have an existing HR service that you want to make available for employee self-service, do not create an HR catalog item. \(Creating a HR catalog item automatically creates a corresponding HR service.\) Instead, see [Configure a record producer for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-record-producer.md) to add the existing service as an HR catalog item in the HR service catalog.
 3.  Fill in the fields on the form, as appropriate.
 
 <table id="table_s3f_c43_lfb"><thead><tr><th>
@@ -62,7 +63,7 @@ Badge
 
 </td><td colspan="2">
 
-Badge to use with the HR service. Badges display on the portal to indicate to the employee which department is fulfilling that activity. See [Configure an HR badge](CreateModHRBadges.md) for more information.
+Badge to use with the HR service. Badges display on the portal to indicate to the employee which department is fulfilling that activity. See [Configure an HR badge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/CreateModHRBadges.md) for more information.
 
 </td></tr><tr><td rowspan="7">
 
@@ -86,7 +87,7 @@ Service Activity
 
 </td><td>
 
-Service activities fulfill the HR service. In the **Service Activities** section at the bottom of the HR Service form, add one or more service activities to fulfill the HR service.**Note:** Service activities can be approvals, tasks, or child HR services. See [Configure a service activity for an HR service](configure-service-activity-for-hr-service.md) for more information.
+Service activities fulfill the HR service. In the **Service Activities** section at the bottom of the HR Service form, add one or more service activities to fulfill the HR service.**Note:** Service activities can be approvals, tasks, or child HR services. See [Configure a service activity for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-service-activity-for-hr-service.md) for more information.
 
 </td></tr><tr><td>
 
@@ -102,7 +103,7 @@ Lifecycle Event
 
 </td><td>
 
-\(Enterprise Onboarding and Transitions only\) A lifecycle event fulfills the HR service. In the **Lifecycle Event Type** field, select a lifecycle event to fulfill the HR service.**Note:** A lifecycle event is a collection of activities that comprise an employee experience such as new hire onboarding. See [Building a lifecycle event](../concept/hr-lifecycle-event-configuration.md) for more information.
+\(Enterprise Onboarding and Transitions only\) A lifecycle event fulfills the HR service. In the **Lifecycle Event Type** field, select a lifecycle event to fulfill the HR service.**Note:** A lifecycle event is a collection of activities that comprise an employee experience such as new hire onboarding. See [Building a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/hr-lifecycle-event-configuration.md) for more information.
 
 </td></tr><tr><td>
 
@@ -118,7 +119,7 @@ Flow
 
 </td><td>
 
-A flow fulfills the HR service. In the **Flow** field, select a flow that will be invoked to fulfill the HR service. To link flow to the HR service, a flow condition needs to be created for the HR service. A flow is an automated process of sequential and reusable actions. For more information, see [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+A flow fulfills the HR service. In the **Flow** field, select a flow that will be invoked to fulfill the HR service. To link flow to the HR service, a flow condition needs to be created for the HR service. A flow is an automated process of sequential and reusable actions. For more information, see .
 
 </td></tr><tr><td>
 
@@ -126,7 +127,7 @@ Topic detail
 
 </td><td colspan="2">
 
-HR topic detail that the HR service is categorized under.**Note:** The HR topic detail is the second-level of categorization for HR services. See [HR service categorization](../concept/hr-service-categorization.md#) for more information.
+HR topic detail that the HR service is categorized under.**Note:** The HR topic detail is the second-level of categorization for HR services. See [HR service categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-service-categorization.md) for more information.
 
 </td></tr><tr><td>
 
@@ -134,7 +135,7 @@ Topic category
 
 </td><td colspan="2">
 
-HR topic category that the HR service is categorized under.**Note:** The HR topic category is the first-level of categorization for HR services. See [HR service categorization](../concept/hr-service-categorization.md#) for more information.
+HR topic category that the HR service is categorized under.**Note:** The HR topic category is the first-level of categorization for HR services. See [HR service categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-service-categorization.md) for more information.
 
 </td></tr><tr><td>
 
@@ -144,7 +145,7 @@ COE
 
 HR Center of Excellence \(COE\) that the HR service is categorized under.**Note:**
 
--   The COEs are organized around functional disciplines and are extensions of the HR Case \[sn\_hr\_core\_case\] table. See [HR service categorization](../concept/hr-service-categorization.md#) for more information.
+-   The COEs are organized around functional disciplines and are extensions of the HR Case \[sn\_hr\_core\_case\] table. See [HR service categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-service-categorization.md) for more information.
 -   \( Enterprise Onboarding and Transitions only\) An HR service for a lifecycle event can be associated with any COE.
 
 
@@ -221,7 +222,23 @@ Template
 
 </td><td colspan="2">
 
-HR case template to use with the HR service.**Note:** The HR case template automatically populates fields on the HR case form when a request for that service is made. See [Configure an HR case template](configure-hr-case-template.md) for more information.
+HR case template to use with the HR service.**Note:** The HR case template automatically populates fields on the HR case form when a request for that service is made. See [Configure an HR case template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-case-template.md) for more information.
+
+</td></tr><tr><td>
+
+Automatically move attachments
+
+</td><td colspan="2">
+
+Option to enable the movement of attachments to a document repository.**Note:** This option appears if the Employee Document Management \[com.sn\_employee\_document\_management\] plugin is activated.
+
+</td></tr><tr><td>
+
+Employee Document Type
+
+</td><td colspan="2">
+
+Option to specify a document type into which you want to move attachments.**Note:** This option appears if the **Automatically move attachments** check box is enabled.
 
 </td></tr><tr><td>
 
@@ -229,7 +246,7 @@ Record producer
 
 </td><td colspan="2">
 
-\(Employee self-service only\) Record producer to use with the HR service if you want to make the service available as an HR catalog item in the HR service catalog. The record producer defines the required fields and how the HR catalog item appears in the HR service catalog to employees. For more information, see [Configure a record producer for an HR service](configure-hr-record-producer.md).**Tip:** For best results, do not configure multiple record producers to invoke a single HR service.
+\(Employee self-service only\) Record producer to use with the HR service if you want to make the service available as an HR catalog item in the HR service catalog. The record producer defines the required fields and how the HR catalog item appears in the HR service catalog to employees. For more information, see [Configure a record producer for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-record-producer.md).**Tip:** For best results, do not configure multiple record producers to invoke a single HR service.
 
 </td></tr><tr><td>
 
@@ -238,7 +255,7 @@ Case options
 </td><td colspan="2">
 
 Additional case options for the HR service. For example, you can:-   Add Manager to Watchlist: The manager of the opened for person is added to the watchlist and receives notifications about the case.
--   Agent Can Add An Approval: Allow agents the flexibility to add adhoc approvers to a case. For more information, see [Add adhoc approvers to a case](add-approvers-cm.md).
+-   Agent Can Add An Approval: Allow agents the flexibility to add adhoc approvers to a case. For more information, see [Add adhoc approvers to a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/add-approvers-cm.md).
 -   Automatically Create Draft Document: Automatically place a document for HR services to the subject person on the HR Service Portal. An example is when an employee requests tuition reimbursement. An education expense agreement document is automatically sent to the employee to sign.
 -   Automatically Initiates Document tasks: Tasks are created for participants who are mapped to a document template. This option appears only when the Document Templates \[com.snc.document\_templates\] plugin is installed and a document template is selected on a HR service.
 -   Do Not Default Subject Person: Subject Person is not defaulted from the Opened for person when a case is created.
@@ -258,9 +275,9 @@ HR criteria
 
 HR criteria to apply to the HR service.**Note:**
 
--   HR criteria defines the conditions that an employee must meet for an HR agent to be able to access that HR service on their behalf. For example, you can configure the HR criteria for a 401\(k\) request so that the HR service is only available to U.S. employees from the **Create New Case** module. See [HR criteria](../concept/hr-criteria.md#) for more information.
--   \(Employee self-service only\) HR criteria applied to the HR service is internal-facing only, and has no relation to the user criteria that is used to control what HR catalog items an employee can access from the HR service catalog. See [Edit the record producer for an HR catalog item](edit-hr-record-producer-for-hr-catalog-item.md) for more information.
--   When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](../concept/hr-service-configuration.md).
+-   HR criteria defines the conditions that an employee must meet for an HR agent to be able to access that HR service on their behalf. For example, you can configure the HR criteria for a 401\(k\) request so that the HR service is only available to U.S. employees from the **Create New Case** module. See [HR criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-criteria.md) for more information.
+-   \(Employee self-service only\) HR criteria applied to the HR service is internal-facing only, and has no relation to the user criteria that is used to control what HR catalog items an employee can access from the HR service catalog. See [Edit the record producer for an HR catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/edit-hr-record-producer-for-hr-catalog-item.md) for more information.
+-   When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-service-configuration.md).
 
 
 </td></tr><tr><td>
@@ -269,7 +286,7 @@ Case creation service config
 
 </td><td colspan="2">
 
-Configuration of the HR case creation form for the HR service.**Note:** The HR case creation form is what displays when an HR agent selects an HR service from the **Create New Case** module. You can configure the form to include additional fields to collect relevant information. See [Configure the HR case creation form for an HR service](configure-case-creation-form-for-hr-service.md) for more information.
+Configuration of the HR case creation form for the HR service.**Note:** The HR case creation form is what displays when an HR agent selects an HR service from the **Create New Case** module. You can configure the form to include additional fields to collect relevant information. See [Configure the HR case creation form for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-case-creation-form-for-hr-service.md) for more information.
 
 </td></tr><tr><td>
 
@@ -290,25 +307,25 @@ Description of the HR service.
 
     This is a two-part process. In addition to the configuration here, you must also configure the HR case form for the HR Center of Excellence \(COE\) that the HR service is categorized under.
 
-    **Note:** The HR case form is what displays after an HR case is created. Configuration of the HR case form is a two-part process. See [Configure the HR case form for an HR service](configure-case-form-for-hr-service.md#) for more information.
+    **Note:** The HR case form is what displays after an HR case is created. Configuration of the HR case form is a two-part process. See [Configure the HR case form for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-case-form-for-hr-service.md) for more information.
 
 6.  Click **Submit** or **Update**.
 
-    **Note:** If you added a custom column to an HR COE table, you must create a UI policy action \(**Visible** field is set to **False**\) to hide it from other HR services that use that HR COE table. For example, if you add a custom column to the HR Payroll Case \[sn\_hr\_core\_case\_payroll\] table, it appears in all HR services related to this table. The custom column appears even after you add it for a specific HR service. For more information, see [UI policies](../concept/hr-service-configuration.md).
+    **Note:** If you added a custom column to an HR COE table, you must create a UI policy action \(**Visible** field is set to **False**\) to hide it from other HR services that use that HR COE table. For example, if you add a custom column to the HR Payroll Case \[sn\_hr\_core\_case\_payroll\] table, it appears in all HR services related to this table. The custom column appears even after you add it for a specific HR service. For more information, see [UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-service-configuration.md).
 
 
--   **[Configure a service activity for an HR service](configure-service-activity-for-hr-service.md)**  
+-   **[Configure a service activity for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-service-activity-for-hr-service.md)**  
 If the fulfillment type of an HR service is set to **Service Activity**, configure one or more service activities. Service activities can be approvals, tasks, or child HR services.
--   **[Configure the HR case creation form for an HR service](configure-case-creation-form-for-hr-service.md)**  
+-   **[Configure the HR case creation form for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-case-creation-form-for-hr-service.md)**  
 Configure the fields that appear on the HR case creation form for an HR service.
--   **[Configure the HR case form for an HR service](configure-case-form-for-hr-service.md#)**  
+-   **[Configure the HR case form for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-case-form-for-hr-service.md)**  
 Configure the fields that appear on the HR case form for an HR service.
--   **[Add a custom column \(field\) to an HR table](configure-custom-column-hr-table.md)**  
+-   **[Add a custom column \(field\) to an HR table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-custom-column-hr-table.md)**  
 You can add custom columns \(fields\) to an HR table.
 
-**Parent Topic:**[HR service configuration](../concept/hr-service-configuration.md)
+**Parent Topic:**[HR service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-service-configuration.md)
 
-**Previous topic:**[HR service configuration](../concept/hr-service-configuration.md)
+**Previous topic:**[HR service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-service-configuration.md)
 
-**Next topic:**[Configure a service activity for an HR service](configure-service-activity-for-hr-service.md)
+**Next topic:**[Configure a service activity for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-service-activity-for-hr-service.md)
 

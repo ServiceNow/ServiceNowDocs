@@ -2,6 +2,7 @@
 title: Process executions
 description: A process execution is a single, runtime instance of a playbook. Process execution records provide runtime information about playbooks, such as the current state and input record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/process-executions.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -28,7 +29,7 @@ By default, each process execution record contains the following information:
 |Name|Name of the playbook that triggered this process execution|
 |Created|Date and time when the playbook triggered|
 |Input Record|Table name and record number that triggered this process execution|
-|State|Current status of the overall process execution. For more information, see [Process execution states](process-executions.md#process-execution-states).|
+|State|Current status of the overall process execution. For more information, see [Process execution states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-executions.md).|
 
 ## Process execution states
 
@@ -42,5 +43,5 @@ A process execution record can have one of the following states:
 |Error|The playbook triggered, but an activity has an Error state. Errors can occur when the action, subflow, or flow specified in the activity definition's automation plan fails to run.|
 |Cancelled|A user with the admin or playbook.admin role explicitly canceled the process execution, and the execution has stopped running.|
 
-**Parent Topic:**[Playbooks reference](../reference/process-automation-designer-reference.md)
+**Parent Topic:**[Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer-reference.md)
 

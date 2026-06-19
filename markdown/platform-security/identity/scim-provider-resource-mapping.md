@@ -2,6 +2,7 @@
 title: Create a SCIM Provider Resource Mapping
 description: Define the mappings of SCIM attributes to ServiceNow attributes for a particular resource type and SCIM Provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/scim-provider-resource-mapping.html
 release: zurich
 product: Identity
 classification: identity
@@ -27,7 +28,7 @@ Roles required: admin
 
     **Note:** The User or Group mappings contains sample mappings, which you can use as a reference. You can also create mapping based on the user or group resources.
 
-    ![SCIM Provider Resource Mapping](../images/scim-provider-resource-mapping.png)
+    \[Omitted image "scim-provider-resource-mapping.png"\] Alt text: SCIM Provider Resource Mapping
 
 2.  Create a resource mapping by clicking **New**.
 
@@ -39,12 +40,12 @@ Roles required: admin
     |Resource Name|Resource for which the mapping must be defined.|
     |Primary Table|The table that contains the sys\_id of the resource being mapped.|
 
-    ![SCIM Provider Resource Mapping - New record](../images/resource-mapping-group.png)
+    \[Omitted image "resource-mapping-group.png"\] Alt text: SCIM Provider Resource Mapping - New record
 
 4.  Click **Submit**.
 
 
 ## Result
 
-The record is created and displayed in the SCIM Provider Resource Mapping page. Use the SCIM Attribute Mappings to further map the attributes from schemas. For more information, see [Create a SCIM attribute mapping](create-scim-attribute-mappings.md).
+The record is created and displayed in the SCIM Provider Resource Mapping page. Use the SCIM Attribute Mappings to further map the attributes from schemas. For more information, see [Create a SCIM attribute mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/create-scim-attribute-mappings.md).
 

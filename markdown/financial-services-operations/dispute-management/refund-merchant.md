@@ -2,6 +2,7 @@
 title: Return funds to merchant
 description: A merchant can be refunded if their representment evidence is approved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/refund-merchant.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -19,7 +20,7 @@ A merchant can be refunded if their representment evidence is approved.
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -29,7 +30,7 @@ If a decision to refund the merchant was selected during the Review representmen
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -56,7 +57,7 @@ If a decision to refund the merchant was selected during the Review representmen
 
 ## Result
 
-The task updates to the Close complete state. If the transaction was the only or final transaction to be resolved for the case, the case moves to the Closure stage. See [Close a card dispute](closure-dispute-case.md) for more information.
+The task updates to the Close complete state. If the transaction was the only or final transaction to be resolved for the case, the case moves to the Closure stage. See [Close a card dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/closure-dispute-case.md) for more information.
 
-**Parent Topic:**[Initiating a chargeback](initiate-a-chargeback.md)
+**Parent Topic:**[Initiating a chargeback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/initiate-a-chargeback.md)
 

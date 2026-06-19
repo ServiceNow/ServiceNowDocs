@@ -2,6 +2,7 @@
 title: Free storage space in a Salesforce org
 description: How to clear up space in a Salesforce test environment that is near its storage limit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/how\_do\_i\_clear\_up\_storage\_space\_in\_my\_salesforce\_org.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,7 +24,7 @@ One option is to remove records from the ConfigurationBOM table. For managed pac
 
 1.  Setup cog in SFDC → Developer Console → Debug \[Open Execute Anonymous Window\]
 
-    ![Menu](../images/cpq-using-apex-anonymous-window.png)
+    \[Omitted image "cpq-using-apex-anonymous-window.png"\] Alt text: Menu
 
 2.  Paste and execute the following:
 

@@ -2,6 +2,7 @@
 title: Manage your appointments
 description: Update or cancel upcoming appointments or provide feedback for completed appointments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/manage-appointments.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -33,15 +34,15 @@ Role required: none
 
     **Note:** You can perform these actions from the Appointment list page or the Appointment details page.
 
-<table id="choicetable_czy_5m4_4dc"><thead><tr><th align="left" id="d325142e109">
+<table id="choicetable_czy_5m4_4dc"><thead><tr><th align="left" id="d312338e109">
 
 Choice
 
-</th><th align="left" id="d325142e112">
+</th><th align="left" id="d312338e112">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d325142e118">
+</th></tr></thead><tbody><tr><td id="d312338e118">
 
 **Cancel**
 
@@ -49,7 +50,7 @@ Action
 
 The **Cancel appointment** window opens. You can cancel the appointment by selecting **Yes, cancel**.
 
-</td></tr><tr><td id="d325142e136">
+</td></tr><tr><td id="d312338e136">
 
 **Update**
 
@@ -57,9 +58,9 @@ The **Cancel appointment** window opens. You can cancel the appointment by selec
 
 The Schedule appointment page opens. The fields are pre-filled with the appointment details. You can edit the details and reschedule the appointment.
 
- For more information about scheduling an appointment, see [Schedule an appointment](schedule-appointment.md).
+ For more information about scheduling an appointment, see [Schedule an appointment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/schedule-appointment.md).
 
-</td></tr><tr><td id="d325142e158">
+</td></tr><tr><td id="d312338e158">
 
 **Give Feedback**
 
@@ -69,7 +70,7 @@ The **Give feedback** window opens. You can select a rating and provide addition
 
  This option is available only if the appointment state is **Complete**. You can only give one feedback for an appointment.
 
- For more information about providing feedback, see [Use the integrated experience and service feedback](../concept/using-ex-fdback.md).
+ For more information about providing feedback, see [Use the integrated experience and service feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/using-ex-fdback.md).
 
 </td></tr></tbody>
 </table>

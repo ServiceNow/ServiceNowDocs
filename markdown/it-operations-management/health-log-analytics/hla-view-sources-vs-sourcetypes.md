@@ -2,6 +2,7 @@
 title: View the relationships between source types and log sources in Health Log Analytics
 description: Explore the many-to-many relationships between source types and log sources to help you optimize your data input mapping.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-view-sources-vs-sourcetypes.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -44,5 +45,5 @@ Health Log Analytics uses source types to parse logs and utilizes log sources as
     **Note:** The displayed results are updated once a day. Results that are older than 24 hours are deleted automatically.
 
 
-**Parent Topic:**[Log data auto-mapping and mapping in Health Log Analytics](../concept/hla-data-input-automapping.md)
+**Parent Topic:**[Log data auto-mapping and mapping in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-automapping.md)
 

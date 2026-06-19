@@ -2,6 +2,7 @@
 title: Create a custom UI test
 description: Test components in custom UI pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/create-custom-ui-test.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -17,7 +18,7 @@ Test components in custom UI pages.
 
 ## Before you begin
 
--   Use the Page Inspector to identify testable custom UI components. See [Enable and use the page inspector](enable-page-inspector.md).
+-   Use the Page Inspector to identify testable custom UI components. See [Enable and use the page inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/enable-page-inspector.md).
 -   Role required: admin
 
 ## Procedure
@@ -42,7 +43,7 @@ Test components in custom UI pages.
     2.  **Click UI Action**: Click the **Try It** UI action to open the page.
 7.  Add test steps from the Custom UI category to validate the behavior of custom UI components.
 
-    For a list of available Custom UI test steps, see [Custom UI category](../reference/test-steps-custom-ui-category.md#).
+    For a list of available Custom UI test steps, see [Custom UI category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/test-steps-custom-ui-category.md).
 
 8.  Retrieve UI components when adding a test step.
 
@@ -50,15 +51,15 @@ Test components in custom UI pages.
 
     The system retrieves the components using an existing or a new client test runner. Ensure that the client test runner tabs used in the retrieval process are running in the foreground. For tests that don’t yield any components after selecting **Retrieve Components**, the following warning message is displayed and the **Next** button is disabled.
 
-    ![Warning messages for test steps with no components](../image/warning_no_components.png)
+    \[Omitted image "warning\_no\_components.png"\] Alt text: Warning messages for test steps with no components
 
     If you have already retrieved a list of page components, click **Next** to use the previously retrieved list. You can also click **Retrieve Components** to rerun the current steps and refresh the list of testable page components. If the test fails while retrieving components, the following warning notification is displayed. You can review the test results by clicking the link in the notification.
 
-    ![Retrieve page components failure](../image/error_for_client_error_on_page.png)
+    \[Omitted image "error\_for\_client\_error\_on\_page.png"\] Alt text: Retrieve page components failure
 
     **Note:** If you need to update a step in a test, click **Retrieve Components** for that step and the test runs only up to that particular step. The steps beyond the selected step don’t run. The test passes if all the updated steps pass without failure.
 
-    ![Image showing the skipped steps after retrieve components](../image/atf-skipped-steps.png)
+    \[Omitted image "atf-skipped-steps.png"\] Alt text: Image showing the skipped steps after retrieve components
 
     Automated Test Framework stores the list of page components and displays the list in the **Component values** or **Component** field on the test step form. The field displays this information about each component:
 
@@ -74,7 +75,7 @@ Test components in custom UI pages.
 
 ## What to do next
 
-Consider adding tests to a test suite. For more information, see [Building and running automated test suites](../concept/atf-suites-overview.md).
+Consider adding tests to a test suite. For more information, see [Building and running automated test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-suites-overview.md).
 
-**Parent Topic:**[Custom UI test steps](../concept/custom-ui-test-steps.md)
+**Parent Topic:**[Custom UI test steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/custom-ui-test-steps.md)
 

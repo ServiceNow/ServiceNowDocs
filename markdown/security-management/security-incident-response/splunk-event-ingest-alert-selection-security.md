@@ -2,6 +2,7 @@
 title: Set Correlation rules
 description: After you have created a profile for a scheduled notable event type ingestion, select a Splunk Enterprise Security correlation rule name for this profile for which you want to map corresponding notable events to a ServiceNow AI Platform Security Incident Response security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/splunk-event-ingest-alert-selection-security.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -44,12 +45,12 @@ View the available correlation rules in your ServiceNow AI Platform instance so 
 
     **Note:** Correlation rules must be unique across active profiles. A correlation rule associated with an active profile cannot be selected for another active profile. To reuse the rule, deactivate the profile it is currently associated with.
 
-    ![Splunk ES Event Profile: Select Notable Event](../image/new-images/splunk_es_profile_select.png)
+    \[Omitted image "splunk\_es\_profile\_select.png"\] Alt text: Splunk ES Event Profile: Select Notable Event
 
 6.  Select **Continue**.
 
 
 ## What to do next
 
-[Map notable events](splunk-event-ingest-map-alerts-security.md)
+[Map notable events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/splunk-event-ingest-map-alerts-security.md)
 

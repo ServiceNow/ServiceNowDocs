@@ -2,6 +2,7 @@
 title: Configuring Incident Communications Management
 description: Configure Incident Communications Management to create and manage communications related to major business issues or incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-communications-management/config-inci-comm-mngmt.html
 release: zurich
 product: Incident Communications Management
 classification: incident-communications-management

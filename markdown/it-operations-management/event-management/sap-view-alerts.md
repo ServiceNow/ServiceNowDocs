@@ -2,6 +2,7 @@
 title: View alerts in the SAP Solution Manager inbox
 description: You can view alerts generated in SAP Solution Manager to see any pressing issues. All alerts also forward to Event Management automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/sap-view-alerts.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -23,13 +24,13 @@ Role required: evt\_mgt\_admin
 
 1.  On the SAP UI, open Solution Manager and select the **System Alerts** tab.
 
-    ![Solution Manager UI](../image/sap-solman-solution-mgr-ui.png)
+    \[Omitted image "sap-solman-solution-mgr-ui.png"\] Alt text: Solution Manager UI
 
     The system alerts are listed on the page.
 
 2.  Navigate to \(**Event Management** &gt; **All Alerts\)** to view the alerts in Event Management.
 
-    ![Alerts in Event Management UI](../image/sap-solman-alerts-in-em.png)
+    \[Omitted image "sap-solman-alerts-in-em.png"\] Alt text: Alerts in Event Management UI
 
     The following table describes the field mapping between SAP Solution Manager and Event Management for alerts.
 
@@ -78,5 +79,5 @@ Here’s how the alert is mapped in Event Management:
 |Rating|Red|
 |Mandant|100|
 
-**Parent Topic:**[SAP Solution Manager setup configurations](../concept/sap-solman-configurations.md)
+**Parent Topic:**[SAP Solution Manager setup configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/sap-solman-configurations.md)
 

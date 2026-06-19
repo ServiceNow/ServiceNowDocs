@@ -2,6 +2,7 @@
 title: Radware Alteon load balancer discovery
 description: Discovery identifies and classifies information about Alteon load balancers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/alteon-load-balancer-discovery.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -19,7 +20,7 @@ Discovery identifies and classifies information about Alteon load balancers.
 
 ## Credentials
 
-Configure [SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+Configure SNMP credentials.
 
 ## Classifier, pattern, and probe
 
@@ -78,5 +79,5 @@ The following data is collected on the DNS \[cmdb\_ci\_dns\_name\] table.
 |Name|name|
 |IP address|ip\_address|
 
-**Parent Topic:**[Load balancer discovery](c_LoadBalancers.md)
+**Parent Topic:**[Load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_LoadBalancers.md)
 

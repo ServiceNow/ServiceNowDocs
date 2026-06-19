@@ -2,6 +2,7 @@
 title: Security Incident Response Workspace
 description: The ServiceNow Security Incident Response Workspace is a reimagined interface that provides a next-gen user experience for the security analysts and SOC managers. The security analysts can use this to manage the life cycle of security incidents from an initial analysis to containment, eradication, and recovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/sir-workspace-landing-page.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -21,28 +22,28 @@ Select a tile to get started.
 
 <table id="table_sxm_bbz_xtb" class="nav-card"><tbody><tr><td>
 
-[Explore Workspace ![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about SIR Workspace concepts and features](exploring-security-incident-response-workspace.md)
+[Explore Workspace \[Omitted image "bus-explore.svg"\] Alt text:Learn about SIR Workspace concepts and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/exploring-security-incident-response-workspace.md)
 
 </td><td>
 
-[Admins using Workspace ![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure SIR Workspace and features](configuring-security-incident-response-workspace.md)
+[Admins using Workspace \[Omitted image "bus-sdlc.svg"\] Alt text:Configure SIR Workspace and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
 
 </td></tr><tr><td>
 
-[Analysts using Workspace ![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg) Learn how Analysts use SIR Workspace](using-sir-workspace.md)
+[Analysts using Workspace \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Learn how Analysts use SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/using-sir-workspace.md)
 
 </td><td>
 
-[View SIR Dashboards ![](../../../reuse/icons/brand-icons/ind-facilities-manager.svg)View SIR Workspace dashboards](../concept/working-with-analysts-dashboard.md)
+[View SIR Dashboards \[Omitted image "ind-facilities-manager.svg"\] Alt text:View SIR Workspace dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/working-with-analysts-dashboard.md)
 
 </td></tr></tbody>
 </table>## Request apps on Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 **Important:**
 
--   Installing the Security Incident Response 13.4.5 version or later from the ServiceNow Store will automatically install the Security Incident Response Workspace \(sn\_si\_aw\) 1.5.1 version or later by default. For more information on the dependent applications, refer to the [SIR Workspace plugins](components-installed-with-analyst-workspace.md) section.
+-   Installing the Security Incident Response 13.4.5 version or later from the ServiceNow Store will automatically install the Security Incident Response Workspace \(sn\_si\_aw\) 1.5.1 version or later by default. For more information on the dependent applications, refer to the [SIR Workspace plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/components-installed-with-analyst-workspace.md) section.
 -   Please note that the Security Incident Response Workspace versions 1.5.1 and above can only be installed/upgraded through an installation/upgradation of Security Incident Response and can’t be installed independently.
 
 ## More resources

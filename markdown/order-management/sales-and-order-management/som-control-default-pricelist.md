@@ -2,6 +2,7 @@
 title: Control the default price list on transaction header or header line
 description: Define the default price list displayed to your sales and order agents on the transaction header or header line by using the Price List Defaulting Matrix.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/som-control-default-pricelist.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -27,7 +28,7 @@ You can change the default price list selection logic by using the Price List De
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![image.Lists] view.
+1.  In the CSM Configurable Workspace, select the **List** view.
 
 2.  Navigate to **Pricing** &gt; **Pricing Matrices**.
 

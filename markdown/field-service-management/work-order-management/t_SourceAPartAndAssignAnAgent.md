@@ -2,6 +2,7 @@
 title: Source a part and assign an agent
 description: The work order sourcing option is useful when you want to assign a work order task to agents who already have the required parts in their stockroom or to a specific agent who needs you to obtain the parts for them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/t\_SourceAPartAndAssignAnAgent.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -17,7 +18,7 @@ The work order sourcing option is useful when you want to assign a work order ta
 
 ## Before you begin
 
-Role required: wm\_agent, wm\_qualifier, wm\_dispatcher, wm\_admin, or [qualifier combination role](../reference/r_UserRoleInstallWFieldSrvMgmnt.md)
+Role required: wm\_agent, wm\_qualifier, wm\_dispatcher, wm\_admin, or [qualifier combination role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md)
 
 ## About this task
 
@@ -37,9 +38,9 @@ The sourcing option shows the full list of tasks and part requirements to source
 
     The **Agent** field under **Agent info** is populated automatically based on information provided in the work order task.
 
-6.  To specify a different agent, click the Lookup using list icon \(![List icon.](../image/IconReferenceLookup.png)\).
+6.  To specify a different agent, click the Lookup using list icon \(\[Omitted image "IconReferenceLookup.png"\] Alt text: List icon.\).
 
-    Only agents that meet the criteria in the work order task are available for selection. The system populates the **Skills** and **Parts** fields automatically, based on the agent specified. If a not available icon \(![Not available icon.](../image/NotAvailableIcon.png)\) appears next to a part, the specified agent either does not have the part or does not have enough units of the part to complete the task.
+    Only agents that meet the criteria in the work order task are available for selection. The system populates the **Skills** and **Parts** fields automatically, based on the agent specified. If a not available icon \(\[Omitted image "NotAvailableIcon.png"\] Alt text: Not available icon.\) appears next to a part, the specified agent either does not have the part or does not have enough units of the part to complete the task.
 
 7.  Point to the icon to obtain information about how many units of the part are needed and how many units the agent has in their stockroom.
 

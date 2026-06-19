@@ -2,6 +2,7 @@
 title: MLSolutionResult - Global \(deprecated\)
 description: The MLSolutionResult API provides methods for managing cluster information and members of a clustering solution. You can embed the results in business logic.Instantiates a new MLSolutionResult object.Returns the solution object.Returns all members of a clustering solution.Returns all outcome information for a clustering solution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/MLSolutionResultAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,9 +16,9 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The MLSolutionResult API provides methods for managing cluster information and members of a clustering solution. You can embed the results in business logic.
 
-**Note:** This API has been deprecated and is intended to be removed in a future release. Refer to [Using ML APIs](https://www.servicenow.com/docs/access?context=using-ml-apis&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) for the most recent guidelines.
+**Note:** This API has been deprecated and is intended to be removed in a future release. Refer to Using ML APIs for the most recent guidelines.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## MLSolutionResult - MLSolutionResult\(\)
 
@@ -31,7 +32,7 @@ Instantiates a new MLSolutionResult object.
 
 Returns the solution object.
 
-This method only returns the solutions if the ml\_solution definition and solution are active \(that is, trained\). For information, see [Create and train a clustering solution](https://www.servicenow.com/docs/access?context=create-clustering-solution&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+This method only returns the solutions if the ml\_solution definition and solution are active \(that is, trained\). For information, see Create and train a clustering solution.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -99,7 +100,7 @@ String
 
 </td><td>
 
-Optional. Identifies the segmentation field for which to retrieve cluster memberships, for example, assignment group.This field provides the same grouping as options provided via **Use Group By** check box in **Clustering Solution Definitions** table. Information provided varies by table selected in the **Table** field. For information, see [Create and train a clustering solution](https://www.servicenow.com/docs/access?context=create-clustering-solution&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+Optional. Identifies the segmentation field for which to retrieve cluster memberships, for example, assignment group.This field provides the same grouping as options provided via **Use Group By** check box in **Clustering Solution Definitions** table. Information provided varies by table selected in the **Table** field. For information, see Create and train a clustering solution.
 
 </td></tr><tr><td>
 
@@ -222,7 +223,7 @@ String
 
 </td><td>
 
-Optional. Identifies the segmentation field for which to retrieve cluster memberships, for example, assignment group.This field provides the same grouping as options provided via **Use Group By** check box in **Clustering Solution Definitions** table. Information provided varies by table selected in the **Table** field. For information, see [Create and train a clustering solution](https://www.servicenow.com/docs/access?context=create-clustering-solution&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+Optional. Identifies the segmentation field for which to retrieve cluster memberships, for example, assignment group.This field provides the same grouping as options provided via **Use Group By** check box in **Clustering Solution Definitions** table. Information provided varies by table selected in the **Table** field. For information, see Create and train a clustering solution.
 
 </td></tr><tr><td>
 

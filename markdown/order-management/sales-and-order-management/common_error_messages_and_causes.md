@@ -2,6 +2,7 @@
 title: Common error messages and causes
 description: Look here for information and troubleshooting steps when you receive an error message.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/common\_error\_messages\_and\_causes.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -47,5 +48,5 @@ This error occurs on the buyside when the user opens ServiceNow CPQ config.
 
 Review the layout file. Make sure that references to set the variable names are accurate.
 
-**Parent Topic:**[ServiceNow CPQ reference](../reference/servicenow-cpq-reference.md)
+**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/servicenow-cpq-reference.md)
 

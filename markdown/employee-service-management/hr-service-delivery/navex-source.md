@@ -2,6 +2,7 @@
 title: Source for Employee Relations integration with Navex Ethicspoint
 description: Once you set up the Employee Relations integration with Navex Ethicspoint application, the source record for NAVEX EthicsPoint application is automatically created in Enterprise Service Management Integrations Framework, Source module. The Navex EthicsPoint source record in the Enterprise Service Management Integrations Framework application contains a predefined set of HR Integration Services.After you set up the Employee Relations integration with Navex Ethicspoint application, integration services for Navex EthicsPoint are automatically created in Enterprise Service Management Integrations Framework. The flows in integration Services communicate with the Navex EthicsPoint system to pull and push data related to employee relation cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/navex-source.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

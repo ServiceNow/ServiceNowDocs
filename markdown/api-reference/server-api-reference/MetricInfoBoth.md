@@ -2,6 +2,7 @@
 title: MetricInfo - Scoped, Global
 description: The MetricInfo API provides methods to check if a metric is in the MetricBase database, and if so, to report its retention policy. Retention policies are reported in minutes.Creates an instance of the MetricInfo class.Gets the retention policy schedules of the specified metric.Indicates whether the specified metric is mapped to the table defined in a MetricInfo object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/MetricInfoBoth.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,9 +18,9 @@ The MetricInfo API provides methods to check if a metric is in the MetricBase da
 
 You can call this class in scoped and global server scripts. When using the MetricInfo class, use the `sn_clotho` namespace identifier.
 
-This class is part of the [MetricBase](https://www.servicenow.com/docs/access?context=metricbase&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) application.
+This class is part of the MetricBase application.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## MetricInfo – MetricInfo\(String table, String metric\)
 
@@ -40,7 +41,7 @@ var metricInfo =  new sn_clotho.MetricInfo('mb_demo_drone','mb_demo_mt_altitude'
 
 Gets the retention policy schedules of the specified metric.
 
-See also [MetricBase retention policies](https://www.servicenow.com/docs/access?context=metricbase-retention-policies&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+See also MetricBase retention policies.
 
 |Name|Type|Description|
 |----|----|-----------|

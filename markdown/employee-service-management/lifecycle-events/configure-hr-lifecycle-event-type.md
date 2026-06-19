@@ -2,6 +2,7 @@
 title: Configure a lifecycle event
 description: Build a lifecycle event and its associated activity sets and activities with the lifecycle event builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-type.html
 release: zurich
 product: Lifecycle Events
 classification: lifecycle-events
@@ -67,7 +68,7 @@ Display activity sets to subject person
 
 </td><td colspan="2">
 
-\(Employee Center only\) Option to show the activity sets timeline on the HR ticket page to the subject person of the lifecycle event case. This is a two-part process. In addition to selecting the box here, you must also select **Show case to subject person** for the HR service that the lifecycle event is associated with. To select the latter, see [Configure an HR service](configure-hr-service.md).**Note:**
+\(Employee Center only\) Option to show the activity sets timeline on the HR ticket page to the subject person of the lifecycle event case. This is a two-part process. In addition to selecting the box here, you must also select **Show case to subject person** for the HR service that the lifecycle event is associated with. To select the latter, see [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-service.md).**Note:**
 
 -   If **Show case to subject person** for the corresponding HR service is not selected, then the activity sets timeline will not display for the subject person.
 -   The progress bar for each activity set does not appear for the subject person. It only appears for the opened for person.
@@ -98,7 +99,7 @@ Onboarding
 
 </td><td>
 
-Lifecycle event to use with mobile onboarding.**Note:** You must also make sure that the **Display activity sets to subject person** option on the lifecycle event form and the **Show case to subject person** option on the corresponding HR service form are selected. See [Select a Lifecycle Event for Now Mobile](select-lifecycle-event-for-mobile-onboarding.md) for more information.
+Lifecycle event to use with mobile onboarding.**Note:** You must also make sure that the **Display activity sets to subject person** option on the lifecycle event form and the **Show case to subject person** option on the corresponding HR service form are selected. See [Select a Lifecycle Event for Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/select-lifecycle-event-for-mobile-onboarding.md) for more information.
 
 </td></tr><tr><td>
 
@@ -129,23 +130,23 @@ HR Services
 
     You can create new or modify existing activity sets and activities. For further details on the form fields, see:
 
-    -   [Configure a lifecycle event activity set](configure-hr-lifecycle-event-activity-set.md)
-    -   [Configure a lifecycle event activity](configure-hr-lifecycle-event-activity.md#)
+    -   [Configure a lifecycle event activity set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity-set.md)
+    -   [Configure a lifecycle event activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md)
 5.  Click **Submit** or **Update**.
 
 
--   **[Configure a lifecycle event activity set](configure-hr-lifecycle-event-activity-set.md)**  
+-   **[Configure a lifecycle event activity set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity-set.md)**  
 Create or modify a lifecycle event activity set to define a container for a group of activities.
--   **[Lifecycle Events evaluation interval](../concept/le-evaluation-interval1.md)**  
+-   **[Lifecycle Events evaluation interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/le-evaluation-interval1.md)**  
 There is a mechanism available to ensure timers within a workflow trigger automatically rather than wait for the evaluation interval to trigger.
--   **[Configure a lifecycle event activity](configure-hr-lifecycle-event-activity.md#)**  
+-   **[Configure a lifecycle event activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md)**  
 Create or modify a lifecycle event activity. Lifecycle Events activities can be approvals, employee tasks, fulfiller activities, notifications, flows, content, or activity containers.
--   **[Configure the rescind process for a lifecycle event](configure-rescind-for-a-lifecycle-event.md)**  
+-   **[Configure the rescind process for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/configure-rescind-for-a-lifecycle-event.md)**  
 Cancel and revert work done in a lifecycle event case with the rescind process. Rescind activities can be defined to notify employees and departments when a case is rescinded, trigger automated flows, and revert work already completed, such as the provisioning of equipment or the setting up of a workplace.
 
-**Parent Topic:**[Building a lifecycle event](../concept/hr-lifecycle-event-configuration.md)
+**Parent Topic:**[Building a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/hr-lifecycle-event-configuration.md)
 
-**Previous topic:**[Configure a schedule content template for a lifecycle event activity](configure-schedule-content-template-for-lifecycle-event.md)
+**Previous topic:**[Configure a schedule content template for a lifecycle event activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/configure-schedule-content-template-for-lifecycle-event.md)
 
-**Next topic:**[Configure a lifecycle event activity set](configure-hr-lifecycle-event-activity-set.md)
+**Next topic:**[Configure a lifecycle event activity set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity-set.md)
 

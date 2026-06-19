@@ -2,6 +2,7 @@
 title: Assign safety inspection to agents
 description: Multiple safety agents can be assigned to the same inspection record to enable a collaborative effort. While only one agent can be assigned at a time to a survey related to an inspection record, it allows clear ownership and maintains overall team coordination. This collaboration can be achieved from both Employee center and Health and Safety Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-risk-management/hs-assign-safety-inspection-to-agents.html
 release: zurich
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -39,7 +40,7 @@ The safety inspection quick link in the Employee center lists the safety inspect
 
     1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
-    2.  Select the risk management icon \(![Risk assessment icon](../image/icon-risk-assessment.png)\).
+    2.  Select the risk management icon \(\[Omitted image "icon-risk-assessment.png"\] Alt text: Risk assessment icon\).
 
     3.  Select the **Inspections** list and then select **All**.
 
@@ -66,5 +67,5 @@ The safety inspection record and the related survey are assigned to the safety a
 
 **Note:** When the survey is assigned to a different agent, any progress made on the survey does not transfer to the new agent. The new agent assigned to the survey must review and, if necessary, start the survey from the beginning, as partially completed surveys are not carried over.
 
-**Parent Topic:**[Safety inspections and audits](../concept/hs-safety-inspections.md)
+**Parent Topic:**[Safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/hs-safety-inspections.md)
 

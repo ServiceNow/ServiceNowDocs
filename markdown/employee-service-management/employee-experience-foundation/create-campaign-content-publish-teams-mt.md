@@ -2,6 +2,7 @@
 title: Create notification content for Microsoft Teams
 description: Create notifications to send messages directly to your employees through campaigns in Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/create-campaign-content-publish-teams-mt.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -26,7 +27,7 @@ Create notifications to send messages directly to your employees through campaig
     -   Content Publishing \[sn\_cd\]
     -   Content Experiences \[sn\_ca\]
 -   Role required: sn\_cd.campaign\_manager
--   A Microsoft Teams notification includes a link [Create a video, URL, or to-do link](../../employee-center/task/ecpro-manage-link-content.md)
+-   A Microsoft Teams notification includes a link [Create a video, URL, or to-do link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-manage-link-content.md)
 
 ## Procedure
 
@@ -34,15 +35,15 @@ Create notifications to send messages directly to your employees through campaig
 
 2.  Either use an existing content record or create a notification.
 
-<table id="choicetable_yc5_yht_h5b"><thead><tr><th align="left" id="d349034e122">
+<table id="choicetable_yc5_yht_h5b"><thead><tr><th align="left" id="d335070e122">
 
 Record source
 
-</th><th align="left" id="d349034e125">
+</th><th align="left" id="d335070e125">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d349034e131">
+</th></tr></thead><tbody><tr><td id="d335070e131">
 
 **Existing content record**
 
@@ -50,7 +51,7 @@ Action
 
 Select the content record from the list.
 
-</td></tr><tr><td id="d349034e140">
+</td></tr><tr><td id="d335070e140">
 
 **New content**
 
@@ -129,9 +130,9 @@ Option to indicate that the notification is active and available.
 
 ## What to do next
 
-Make the content available to users: [Schedule delivery of Microsoft Teams notification content](schedule-delivery-content.md#).
+Make the content available to users: [Schedule delivery of Microsoft Teams notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/schedule-delivery-content.md).
 
-Alternatively, you can build out a more robust publishing configuration using [Creating campaigns](../../employee-center/concept/ecpro-campaigns.md)
+Alternatively, you can build out a more robust publishing configuration using [Creating campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)
 
-**Parent Topic:**[Create a Microsoft Teams campaign with content publishing](../concept/create-campaign-content-publishing-mt.md)
+**Parent Topic:**[Create a Microsoft Teams campaign with content publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/create-campaign-content-publishing-mt.md)
 

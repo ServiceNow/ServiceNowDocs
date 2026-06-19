@@ -2,6 +2,7 @@
 title: Customize the display of conference recording information
 description: Customize the Conferences related list to display specific information about conference recordings for work order tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-integrations/personalize-conference-list.html
 release: zurich
 product: Field Service Integrations
 classification: field-service-integrations
@@ -31,7 +32,7 @@ As dispatcher or a Field Service Manager, you can listen to conference recording
 
 3.  Open the Conferences related list.
 
-4.  Click the personalize list icon \(![Personalize list icon](../image/IconPersonalizeList.png)\) in the upper left corner.
+4.  Click the personalize list icon \(\[Omitted image "IconPersonalizeList.png"\] Alt text: Personalize list icon\) in the upper left corner.
 
 5.  Use the dual listbox to move the following items from the **Available** column to the **Selected** column.
 
@@ -46,5 +47,5 @@ As dispatcher or a Field Service Manager, you can listen to conference recording
 6.  Click **OK**.
 
 
-**Parent Topic:**[Configure Field Service Management Virtual Conferencing Integration](configure-virtual-conference-fsm.md)
+**Parent Topic:**[Configure Field Service Management Virtual Conferencing Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-integrations/configure-virtual-conference-fsm.md)
 

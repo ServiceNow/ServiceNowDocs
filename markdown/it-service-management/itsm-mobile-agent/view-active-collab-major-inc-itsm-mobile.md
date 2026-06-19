@@ -2,6 +2,7 @@
 title: View active collaborations
 description: As a major incident manager, you can view all the active collaborations for the major incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/view-active-collab-major-inc-itsm-mobile.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -27,7 +28,7 @@ Role required: major\_incident\_manager, itil, itil\_admin, or admin
 
 3.  Tap **Active collaborations**.
 
-    ![Active collaborations in major incident tab.](../image/major-inc-active-collab.png)
+    \[Omitted image "major-inc-active-collab.png"\] Alt text: Active collaborations in major incident tab.
 
 4.  Do one of the following:
 
@@ -36,11 +37,11 @@ Role required: major\_incident\_manager, itil, itil\_admin, or admin
     |**Calls**|View the active calls collaboration.|
     |**Chats**|Tap **Chats** to view the active chat collaborations.|
 
-    ![Active collaborations in major incident tab.](../image/chat-major-inc-active-collab-itsm-mobile.png)
+    \[Omitted image "chat-major-inc-active-collab-itsm-mobile.png"\] Alt text: Active collaborations in major incident tab.
 
 5.  Swipe and tap **View** to view the conversation in the respective application.
 
-    ![Active collaborations in major incident tab.](../image/chat-major-inc-active-collab-itsm-mobile.png)
+    \[Omitted image "chat-major-inc-active-collab-itsm-mobile.png"\] Alt text: Active collaborations in major incident tab.
 
     Each collaboration displays:
 

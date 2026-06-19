@@ -2,6 +2,7 @@
 title: Configure Private Key JWT for OIDC based SSO
 description: Configure Private Key JWT for OIDC based SSO integrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/config-private-key-jwt-oidc-sso.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -21,18 +22,18 @@ Role required: admin
 
 You must perform the following tasks before choosing Private Key JWT for OIDC based SSO.
 
--   [Upload Java Key Store certificate](../../../administer/security/task/JWT-Bearer-token-support.md#): Attach a JKS certificate to your instance to use to enable the JWT client authentication.
--   [Configure a JWT signing key](../../../administer/security/task/JWT-Bearer-token-support.md#): Create a JWT signing key to assign to your Java KeyStore \(JKS\) certificate.
+-   [Upload Java Key Store certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/JWT-Bearer-token-support.md): Attach a JKS certificate to your instance to use to enable the JWT client authentication.
+-   [Configure a JWT signing key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/JWT-Bearer-token-support.md): Create a JWT signing key to assign to your Java KeyStore \(JKS\) certificate.
 
     **Note:** If you want to add **X.509 Certificate SHA-1 Thumbprint int \(x5t\)** to the header as part of the JWT Key, you must configure the form and add the **X.509 Certificate SHA-1 Thumbprint int \(x5t\)** field.
 
--   [Create a JWT provider with a JWT signing key](../../../administer/security/task/JWT-Bearer-token-support.md#): Add a JWT provider to your ServiceNow instance.
+-   [Create a JWT provider with a JWT signing key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/JWT-Bearer-token-support.md): Add a JWT provider to your ServiceNow instance.
 
 To include a JWT Key for OIDC based Identity Provider, you must:
 
 -   Install the **Integration - Multiple Provider Single Sign-On Installer** \(`com.snc.integration.sso.multi.installer`\) plugin.
--   Enable the properties for **Multiple Provider SSO Properties**. For more information, see [Multi-Provider SSO properties, tables, and scripts](../../single-sign-on/reference/r_InstalledWithMultiProviderSSO.md).
--   Create an OIDC Identity Provider. For more information, see [Create an OpenID Connect \(OIDC\) configuration for Single Sign-On \(SSO\)](../../single-sign-on/task/create-OIDC-configuration-SSO.md).
+-   Enable the properties for **Multiple Provider SSO Properties**. For more information, see [Multi-Provider SSO properties, tables, and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/r_InstalledWithMultiProviderSSO.md).
+-   Create an OIDC Identity Provider. For more information, see [Create an OpenID Connect \(OIDC\) configuration for Single Sign-On \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-OIDC-configuration-SSO.md).
 
 ## Procedure
 
@@ -48,7 +49,7 @@ To include a JWT Key for OIDC based Identity Provider, you must:
 
 5.  Select the **JWT Provider**.
 
-    ![JWT Provider](../images/jwt-oidc-sso.png)
+    \[Omitted image "jwt-oidc-sso.png"\] Alt text: JWT Provider
 
     When the user authenticates, the authentication page has options to login through Okta.
 

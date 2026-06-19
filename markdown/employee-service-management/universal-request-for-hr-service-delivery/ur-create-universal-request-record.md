@@ -2,6 +2,7 @@
 title: Create Universal Request
 description: Create a universal request record on behalf of the requester from the Universal Request application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-create-universal-request-record.html
 release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -25,10 +26,10 @@ Role required: sn\_uni\_req.routing\_agent or admin.
 
 2.  On the form, fill in the fields.
 
-    For more information on the field description, see [Universal Request form](../reference/new-ur-record-form.md).
+    For more information on the field description, see [Universal Request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/new-ur-record-form.md).
 
 3.  Click **Submit**.
 
 
-**Parent Topic:**[Using Universal Request](../concept/using-ur.md)
+**Parent Topic:**[Using Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/using-ur.md)
 

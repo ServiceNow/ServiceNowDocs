@@ -2,6 +2,7 @@
 title: Analytics and Reporting for Cloud Resources
 description: Platform Analytics Solutions contain prepackaged Performance Analytics and Reporting content for use with other ServiceNow AI Platform products. Finish the following sentence with a short statement on the business use case for this Solution. For example: This Analytics and Reporting Solution helps you track trends in incidents and plan your incident management strategy going forward.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/cloud-resources-content-pack.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -28,7 +29,7 @@ The Performance Analytics Content Pack for Cloud Resources works with Discovery 
 
 The aggregate count of each cloud resource and the latest Cloud Discovery error logs are displayed on the dashboard. You can filter the cloud resources by the service account, datacenter, or resource group \(only for Microsoft Azure\) under a specific provider and view the resource count and the resources.
 
-The base-system Performance Analytics Content Pack for Cloud Resources dashboard doesn’t contain any widget for the GCP resources. You can create the reports and widgets by consuming data from the appropriate tables. For more information on the tables that contain the GCP resources data, see [Cloud Resources dashboard](cloud-resources-dashboard.md). Alternatively, you can install the Cloud Discovery Workspace application to view the GCP reports and widgets. For more information, see [Cloud Discovery Workspace](../../../product/cloud-operations-workspace/reference/cow-landing-page.md).
+The base-system Performance Analytics Content Pack for Cloud Resources dashboard doesn’t contain any widget for the GCP resources. You can create the reports and widgets by consuming data from the appropriate tables. For more information on the tables that contain the GCP resources data, see [Cloud Resources dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cloud-resources-dashboard.md). Alternatively, you can install the Cloud Discovery Workspace application to view the GCP reports and widgets. For more information, see [Cloud Discovery Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-discovery-workspace/cow-landing-page.md).
 
 For each cloud provider, a separate scheduled job is triggered every 30 minutes. The latest CI data is updated in the cloud resource analytic tables, which allows the dashboard to be more realistic and have the updated count. The information about each scheduled job is available in the Cloud Dashboard Job Status \[sn\_disco\_cd\_cloud\_dashboard\_job\_status\] table. The job details including the provider type, status, start time, end time, and duration are stored in this table.
 

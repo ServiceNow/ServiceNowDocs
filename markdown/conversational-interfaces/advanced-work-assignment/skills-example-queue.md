@@ -2,6 +2,7 @@
 title: Create a queue
 description: Create a queue where you can route work to agents who have the German skill.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/skills-example-queue.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -37,5 +38,5 @@ Role required: awa\_admin or admin
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Tutorial: Automatically assign work to agents by skill](../concept/skills-routing-tutorial.md)
+**Parent Topic:**[Tutorial: Automatically assign work to agents by skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/skills-routing-tutorial.md)
 

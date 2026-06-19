@@ -2,6 +2,7 @@
 title: ITSM Virtual Agent Analytics reference
 description: As an admin, you can refer to the indicators, schedule jobs, and scripts used in the ITSM Virtual Agent analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-va-analytics-reference.html
 release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -114,5 +115,5 @@ To access the jobs, navigate to **All** &gt; **System Definition** &gt; **Schedu
 
 ## ITSM Virtual Agent analytics GAF clustering
 
-To configure the Group Action Framework \(GAF\) to cluster topics and use chat summarization to create topic names, run the **Activate topic clustering for Now Assist ITSM dashboard** script. [Configure Group Action Framework](https://www.servicenow.com/docs/access?context=configure-gaf&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)![Now Assist for ITSM scheduled script execution](../image/now-assist-itsm-script-execution-va-dashboard.png)
+To configure the Group Action Framework \(GAF\) to cluster topics and use chat summarization to create topic names, run the **Activate topic clustering for Now Assist ITSM dashboard** script. \[Omitted image "now-assist-itsm-script-execution-va-dashboard.png"\] Alt text: Now Assist for ITSM scheduled script execution
 

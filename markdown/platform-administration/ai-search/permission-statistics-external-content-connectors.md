@@ -2,6 +2,7 @@
 title: Statistics for external content connector user permission crawls
 description: Each crawl history entry for an external content connector's user permission crawl crawl includes statistics about the permissions \(user and group-membership security principals\) retrieved by the crawl.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/permission-statistics-external-content-connectors.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -34,5 +35,5 @@ Each crawl history entry for an external content connector's user permission cra
 |----------------------------|-----------|
 |Average crawl speed|Score shows the average speed of the user permission crawl, expressed in users processed per second of crawl time.|
 
-**Parent Topic:**[External Content Connectors reference](../concept/reference-ext-cont-connectors.md)
+**Parent Topic:**[External Content Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/reference-ext-cont-connectors.md)
 

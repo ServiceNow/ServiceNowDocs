@@ -2,6 +2,7 @@
 title: Change tenant to configure pre-published apps
 description: Change the tenant to use pre-published apps in your environment.Override an existing tenant connection, only if, for any reason, you are unable to uninstall the connected Microsoft Teams tenant from the original ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/change-tenant.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -35,11 +36,11 @@ Uninstall the connected Microsoft Teams tenant from the original/registered Serv
 
     3.  Select **Uninstall**.
 
-        ![Uninstall current Microsoft Teams tenant](../images/uninstall-current-ms-teams-tenant1.png)
+        \[Omitted image "uninstall-current-ms-teams-tenant1.png"\] Alt text: Uninstall current Microsoft Teams tenant
 
     4.  Select **Uninstall** on the Uninstall Microsoft Teams Tenant dialog box to uninstall the connected Microsoft Teams in your instance.
 
-        ![Select Uninstall](../images/uninstall-current-ms-teams-tenant2.png)
+        \[Omitted image "uninstall-current-ms-teams-tenant2.png"\] Alt text: Select Uninstall
 
         Your Microsoft Teams tenant is disconnected from the original/registered ServiceNow instance.
 
@@ -53,13 +54,13 @@ Uninstall the connected Microsoft Teams tenant from the original/registered Serv
 
     4.  Select the **Consent on behalf of your organization** option to provide the consent for all your users, and click **Accept** button to provide the admin consent.
 
-        ![Admin consent for the app.](../images/sso-activity-notification-admin-consent.png)
+        \[Omitted image "sso-activity-notification-admin-consent.png"\] Alt text: Admin consent for the app.
 
     5.  Once the tenant is mapped with the ServiceNow instance, you must authorize the apps by providing the admin consent.
 
         The Notify Connector and Import Chat apps appear only if you install Notify plugin in your instance.
 
-        ![Authorize Azure apps](../images/uninstall-current-ms-teams-tenant1.png)
+        \[Omitted image "uninstall-current-ms-teams-tenant1.png"\] Alt text: Authorize Azure apps
 
         -   **SSO and Activity Notification**: Authorize this app to display **Employee Center** tab in Microsoft Teams app.
         -   **Notify Connector**: Authorize this app to enable agents to initiate a Microsoft Teams meeting from a task record.
@@ -69,9 +70,9 @@ Uninstall the connected Microsoft Teams tenant from the original/registered Serv
 
 ## What to do next
 
-You must upload the manifest file in Microsoft Teams. For more information, refer [Create and download the manifest file for pre-published apps](download-manifest-file-mt.md).
+You must upload the manifest file in Microsoft Teams. For more information, refer [Create and download the manifest file for pre-published apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/download-manifest-file-mt.md).
 
-**Parent Topic:**[Setup for integrating pre-published apps with Microsoft Teams for Employee Experience](../concept/c_employee_ex_tnt.md)
+**Parent Topic:**[Setup for integrating pre-published apps with Microsoft Teams for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/c_employee_ex_tnt.md)
 
 ## Override Microsoft Teams tenant connection
 
@@ -108,7 +109,7 @@ Create the sn\_now\_azure.allow\_tenant\_override system property and set it to 
 
     If the **Value** field entry is **false**, then the method of uninstalling the connected Microsoft Teams tenant from the original ServiceNow instance should be followed.
 
-    ![Set system property sn_now_azure.allow_tenant_override](../images/sys-prop-allow-tenant-override.png)
+    \[Omitted image "sys-prop-allow-tenant-override.png"\] Alt text: Set system property sn\_now\_azure.allow\_tenant\_override
 
     This activates the method of overriding the Microsoft Teams tenant connection on the Install Azure Apps page by enabling the **Change tenant** option.
 
@@ -116,11 +117,11 @@ Create the sn\_now\_azure.allow\_tenant\_override system property and set it to 
 
 7.  Select **Change tenant** to map the tenant with your new ServiceNow instance.
 
-    ![Override using Change tenant option](../images/change-tenant-with-override.png)
+    \[Omitted image "change-tenant-with-override.png"\] Alt text: Override using Change tenant option
 
 8.  Enter **CHANGE** and select **Override connection**.
 
-    ![Override tenant connection](../images/override-tenant-connection.png)
+    \[Omitted image "override-tenant-connection.png"\] Alt text: Override tenant connection
 
 9.  Authorize the apps by providing the admin consent after the tenant is mapped to the new ServiceNow instance.
 

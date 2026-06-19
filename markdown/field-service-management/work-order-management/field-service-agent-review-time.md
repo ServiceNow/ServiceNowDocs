@@ -2,6 +2,7 @@
 title: Review time recorded for a task
 description: Agents can review the time recorded for work order tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/field-service-agent-review-time.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

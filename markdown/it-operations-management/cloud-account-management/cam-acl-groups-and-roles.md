@@ -2,6 +2,7 @@
 title: Cloud Account Management ACL groups, roles, and responsibilities
 description: Access control lists \(ACLs\), groups, and roles in Cloud Account Management control how access permissions are organized and managed within a cloud environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/cam-acl-groups-and-roles.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
@@ -158,7 +159,7 @@ sn\_itom\_cam.cw\_admin
 -   Oversees all cloud accounts, including CW-managed and on-boarded accounts, guaranteeing centralized control and visibility.
 
 </td></tr></tbody>
-</table>To return to the main topic, see [Exploring Cloud Account Management](../concept/exploring-cam.md).
+</table>To return to the main topic, see [Exploring Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/exploring-cam.md).
 
-**Parent Topic:**[Cloud Account Management reference](cam-reference.md)
+**Parent Topic:**[Cloud Account Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/cam-reference.md)
 

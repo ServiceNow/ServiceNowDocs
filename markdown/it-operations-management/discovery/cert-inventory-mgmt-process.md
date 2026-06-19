@@ -2,6 +2,7 @@
 title: Certificate Inventory and Management process flow
 description: Certificate Inventory and Management allows Discovery to automatically scan for certificates on specific ports through your existing CI-based Discovery schedules. In addition, you can create new Discovery schedules to scan individual URLs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/cert-inventory-mgmt-process.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -23,10 +24,10 @@ With the Zurich release, you can download Version 1.2.0 Certificate Inventory an
 
 ## Process flow diagram
 
-![Workflow of Certificate Inventory and Management](../image/cert_mgmt_flow_v2.png)
+\[Omitted image "cert\_mgmt\_flow\_v2.png"\] Alt text: Workflow of Certificate Inventory and Management
 
 The Certificate Inventory and Management process flow is segmented into two distinct phases:
 
--   [Pre-discovery phase](cert-inventory-mgmt-process-pre-discovery.md): The initial segment of the process varies based on the source of certificate discovery. This phase focuses on actions required for identifying certificates from different sources within the IT infrastructure.
--   [Post-discovery phase](cert-inventory-mgmt-process-post-discovery.md): This phase involves subsequent actions taken after the certificates have been successfully discovered. It includes processes such as cataloging, tracking, and managing certificates to ensure their secure and efficient integration into the system.
+-   [Pre-discovery phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cert-inventory-mgmt-process-pre-discovery.md): The initial segment of the process varies based on the source of certificate discovery. This phase focuses on actions required for identifying certificates from different sources within the IT infrastructure.
+-   [Post-discovery phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cert-inventory-mgmt-process-post-discovery.md): This phase involves subsequent actions taken after the certificates have been successfully discovered. It includes processes such as cataloging, tracking, and managing certificates to ensure their secure and efficient integration into the system.
 

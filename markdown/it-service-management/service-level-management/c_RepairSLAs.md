@@ -2,6 +2,7 @@
 title: Repair Service Level Agreement \(SLA\)
 description: SLA Administrators can repair SLA records to ensure SLA timing and duration information is accurate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-level-management/c\_RepairSLAs.html
 release: zurich
 product: Service Level Management
 classification: service-level-management
@@ -31,12 +32,12 @@ You can repair single SLAs from the relevant form or multiple SLAs from relevant
 
 You can also configure and manage SLA repair functions.
 
--   **[Configure SLA repair](../reference/r_ManageSLARepair.md)**  
+-   **[Configure SLA repair](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-level-management/r_ManageSLARepair.md)**  
 Administrators can set SLA repair properties and view repair logs.
--   **[Repair SLA from a form](../task/t_RepairSLAFromAForm.md)**  
+-   **[Repair SLA from a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-level-management/t_RepairSLAFromAForm.md)**  
 You can repair task SLA records from the Task form, or from the task SLA form for an SLA associated to a Task.
--   **[Repair SLAs from a list](../task/t_RepairSLAFromAList.md)**  
+-   **[Repair SLAs from a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-level-management/t_RepairSLAFromAList.md)**  
 You can repair multiple SLA records from a list of task or SLA records.
 
-**Parent Topic:**[Using Service Level Management](using-service-level-management.md)
+**Parent Topic:**[Using Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-level-management/using-service-level-management.md)
 

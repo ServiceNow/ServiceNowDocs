@@ -2,6 +2,7 @@
 title: Exploring ACME
 description: The Automated Certificate Management Environment \(ACME\) is a communication protocol that automates the interaction between a certificate authority \(CA\) and a server. It streamlines the processes of requesting, renewing, and revoking SSL/TLS certificates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/exploring-acme.html
 release: zurich
 product: Discovery
 classification: discovery

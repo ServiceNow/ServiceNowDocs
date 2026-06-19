@@ -2,6 +2,7 @@
 title: Edit or view OT devices after import or discovery
 description: Use the options on the Operational Technology \(OT\) menu to edit or view detailed information for the OT devices in your enterprise.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-manager/view-ot-assets.html
 release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -19,7 +20,7 @@ Use the options on the Operational Technology \(OT\) menu to edit or view detail
 
 Import your Operational Technology device data in any of the following ways:
 
--   Run IT Discovery for OT Networks. For more information, see [IT Discovery for Operational Technology \(OT\) Networks](../concept/discovery-for-operational-technology.md).
+-   Run IT Discovery for OT Networks. For more information, see [IT Discovery for Operational Technology \(OT\) Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/discovery-for-operational-technology.md).
 -   Use an Operational Technology Certified Service Graph Connector from the ServiceNow Store.
 
 Role required: cmdb\_ot\_viewer, cmdb\_ot\_editor, cmdb\_ot\_admin, or admin
@@ -63,7 +64,7 @@ If you have an assigned cmdb\_ot\_viewer role, you can only view OT devices. If 
 2.  To bulk edit multiple OT device records Industrial Workspace, follow these steps.
 
     1.  Navigate to **All** &gt; **Industrial Workspace**.
-    2.  Open the list \(![List icon in the Industrial Workspace.](../../../common/image/icon-list.png)\) view and select one of the following lists available under **Operational Technology \(OT\)**.
+    2.  Open the list \(\[Omitted image "icon-list.png"\] Alt text: List icon in the Industrial Workspace.\) view and select one of the following lists available under **Operational Technology \(OT\)**.
         -   OT Supervisory Systems
         -   OT Control Systems
         -   OT Field Devices
@@ -75,18 +76,18 @@ If you have an assigned cmdb\_ot\_viewer role, you can only view OT devices. If 
 
         **Note:** You can only bulk edit OT devices with the same **Class** field. You can't use the bulk edit feature for OT devices with different classes.
 
-    4.  To edit the configuration item \(CI\) fields, select the **Edit** button and edit the form fields as needed. ![The edit button in the Industrial Workspace list view header.](../image/edit-button.png)
+    4.  To edit the configuration item \(CI\) fields, select the **Edit** button and edit the form fields as needed. \[Omitted image "edit-button.png"\] Alt text: The edit button in the Industrial Workspace list view header.
 
         **Note:** The maximum number of records that you can bulk edit the CI fields for is the records shown on a single page.
 
     5.  Click **Update**.
-    6.  To edit the OT device details, select the **Edit OT details** button and edit the form fields as needed.![The Edit OT details button in the Industrial Workspace list view header.](../image/edit-ot-details.png)
+    6.  To edit the OT device details, select the **Edit OT details** button and edit the form fields as needed.\[Omitted image "edit-ot-details.png"\] Alt text: The Edit OT details button in the Industrial Workspace list view header.
 
         **Note:** Bulk editing OT details is a background job that can take time to complete. If the background job is busy, you can't bulk edit other OT device records.
 
 
--   **[OT device related items and related lists](../reference/ot-assets-related-links-and-lists.md)**  
+-   **[OT device related items and related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/ot-assets-related-links-and-lists.md)**  
 The All OT Devices, All OT Devices by IP Address, and All OT Devices by CI menu options contain several related items and lists.
 
-**Parent Topic:**[Using the Operational Technology Manager](../concept/using-operational-technology-manager.md)
+**Parent Topic:**[Using the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/using-operational-technology-manager.md)
 

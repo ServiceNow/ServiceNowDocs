@@ -2,6 +2,7 @@
 title: Forward to notify client workflow activity
 description: The forward to notify client workflow activity connects a phone call to a Notify WebRTC client.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/notify/r\_WflowActivConnNotifClient.html
 release: zurich
 product: Notify
 classification: notify
@@ -33,5 +34,5 @@ The conditions determine which transition comes after this activity. The **Forwa
 
 You can add an error condition to this activity. The activity transitions through the error condition if there is an issue with the Notify client.
 
-**Parent Topic:**[Notify workflow activities](../concept/c_NotifyActivities.md)
+**Parent Topic:**[Notify workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/c_NotifyActivities.md)
 

@@ -2,6 +2,7 @@
 title: Tibco BusinessWorks and EMS discovery
 description: Discovery can find Tibco ActiveMatrix BusinessWorks and Enterprise Message Service \(EMS\). Service Mapping can discover application services containing Tibco BusinessWorks, Enterprise Message Service \(EMS\), and their components.Map an application service containing Tibco BusinessWorks and Enterprise Message Service \(EMS\) and verify that Service Mapping discovered all Tibco components correctly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/mapping-services-tibco.html
 release: zurich
 product: Service Mapping
 classification: service-mapping
@@ -37,7 +38,7 @@ The following data is collected in the ActiveMatrix Business Works `[cmdb_ci_app
 
 By default, Discovery uses the **Enterprise Message Service** pattern to discover Tibco Enterprise Message Service.
 
-For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](../reference/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
+For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
 
 **Note:** For information on Probe to Pattern migration see the knowledge article [KB0694477](https://support.servicenow.com/kb_view.do?sysparm_article=KB0694477).
 
@@ -59,7 +60,7 @@ For a list of privileged commands that you need for Discovery and Service Mappin
 
 Service Mapping can discover application services that contain Tibco ActiveMatrix BusinessWorks \(including BusinessWorks Process\), Tibco Enterprise Message Service \(EMS\), Tibco Enterprise Message Service \(EMS\) Queue.
 
-**Parent Topic:**[Map a single application service using classic Service Mapping](../task/t_DefineNewBusinessService.md)
+**Parent Topic:**[Map a single application service using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/t_DefineNewBusinessService.md)
 
 ## Map application services containing Tibco BusinessWorks and EMS
 
@@ -67,10 +68,10 @@ Map an application service containing Tibco BusinessWorks and Enterprise Message
 
 ### Before you begin
 
--   \(If hosted on Unix\) Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) for the Tibco EMS.
--   \(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
--   \(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
--   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+-   \(If hosted on Unix\) Configure applicative credentials for the Tibco EMS.
+-   \(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
+-   \(If hosted on a Unix server\) On the ServiceNow AI Platform, configure SSH credentials.
+-   \(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 Role required: service\_mapping\_admin
 
@@ -114,11 +115,11 @@ Role required: service\_mapping\_admin
 
     2.  Review the application service map and make sure that the service layout is as in the following examples.
 
-        ![Check the result of mapping an application service containing Tibco components.](../image/TIBCO-components.png)
+        \[Omitted image "TIBCO-components.png"\] Alt text: Check the result of mapping an application service containing Tibco components.
 
     In addition, verify that the BusinessWorks CIs are inclusions each of which contain a BusinesWorks process. Also, verify that the EMS CIs are inclusions containing EMS Queues.
 
-    ![Check inclusions for Tibco applications.](../image/TIBCO-components-inclusions.png)
+    \[Omitted image "TIBCO-components-inclusions.png"\] Alt text: Check inclusions for Tibco applications.
 
 
 If the mapping result is not as you expected, perform basic troubleshooting.
@@ -145,7 +146,7 @@ Service Mapping failed to run the `TibcoFilesParser.ksh` command.
 
 </td><td>
 
-Make sure that you provided a user with elevated rights as described in [Service Mapping commands not requiring a privileged user](../reference/r_NonSudoCommands.md).
+Make sure that you provided a user with elevated rights as described in [Service Mapping commands not requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/r_NonSudoCommands.md).
 
 </td></tr><tr><td>
 
@@ -157,7 +158,7 @@ Service Mapping failed to run the `tibemsadmin` command.
 
 </td><td>
 
-Make sure that you provided a user with elevated rights as described in [Service Mapping commands not requiring a privileged user](../reference/r_NonSudoCommands.md).
+Make sure that you provided a user with elevated rights as described in [Service Mapping commands not requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/r_NonSudoCommands.md).
 
 </td></tr></tbody>
 </table>

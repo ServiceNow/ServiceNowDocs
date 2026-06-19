@@ -2,6 +2,7 @@
 title: Plan your installation
 description: Identify the need and plan your installation for ServiceNow for Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/plan-installation-ms-teams.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -15,16 +16,16 @@ breadcrumb: [MS Teams and Microsoft 365, Integrate, ServiceNow for Microsoft Tea
 
 Identify the need and plan your installation for ServiceNow® for Microsoft Teams.
 
--   **[Install IT Service Management integration with Microsoft Teams application](../task/install-sn-ms-teams-plugin.md)**  
+-   **[Install IT Service Management integration with Microsoft Teams application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/install-sn-ms-teams-plugin.md)**  
 Install the IT Service Management integration with Microsoft Teams application for the collaboration between the agents and employees.
--   **[Install HR Service Delivery integration with Microsoft Teams application](../task/install-hr-ms-teams-plugin.md)**  
+-   **[Install HR Service Delivery integration with Microsoft Teams application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/install-hr-ms-teams-plugin.md)**  
 Install the HR Service Delivery integration with Microsoft Teams application to integrate with ServiceNow instance for the collaboration between the agents and employees.
--   **[Install Universal Request integration with Microsoft Teams application](../task/install-ur-ms-teams-app.md)**  
+-   **[Install Universal Request integration with Microsoft Teams application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/install-ur-ms-teams-app.md)**  
 Install the Universal Request integration with Microsoft Teams application \(sn\_uni\_req\_msteams\). You can initiate Microsoft Teams conversations within your ServiceNow instance by using this application. The application installs related ServiceNow® Store applications and plugins if they are not already installed.
--   **[Install Notify connector for Microsoft Teams](../../notify2/task/setup-notify-ms-teams.md)**  
+-   **[Install Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/setup-notify-ms-teams.md)**  
 Install and activate the Notify connector for Microsoft Teams plugin to be able to initiate a Microsoft Teams meeting directly from a Task record or via the Major Incident Workbench.
--   **[Install Meeting Extensions for Microsoft Teams](../../meeting-extensibility/task/install-meeting-ext-ms-teams.md)**  
+-   **[Install Meeting Extensions for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/install-meeting-ext-ms-teams.md)**  
 Install and activate the Meeting Extensions for Microsoft Teams plugin to be able to initiate a Microsoft Teams meeting directly from an Incident record.
 
-**Parent Topic:**[Integrating ServiceNow with Microsoft Teams and Microsoft 365](setup-sn-ms-teams.md)
+**Parent Topic:**[Integrating ServiceNow with Microsoft Teams and Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/setup-sn-ms-teams.md)
 

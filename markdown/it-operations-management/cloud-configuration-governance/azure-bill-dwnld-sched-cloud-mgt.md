@@ -2,6 +2,7 @@
 title: Create Microsoft Azure credentials for billing download
 description: Define the scheduled job that regularly uses a MID Server to download billing data from the provider. Cloud Provisioning and Governance saves the data in a cost table and uses the information to generate reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/azure-bill-dwnld-sched-cloud-mgt.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

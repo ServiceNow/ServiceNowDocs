@@ -2,6 +2,7 @@
 title: Explore HR Service Delivery for Healthcare
 description: Learn more about HR Service Delivery for Healthcare with a sample workflow and reviewing the benefits it provides to users in your healthcare organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery-for-healthcare/explore-hr-healthcare.html
 release: zurich
 product: HR Service Delivery for Healthcare
 classification: hr-service-delivery-for-healthcare
@@ -26,9 +27,9 @@ HR Service Delivery for Healthcare enables you:
 
 The following infographic provides you with an end to end explanation of how to use the HR Service Delivery for Healthcare application along with Journey designer and Employee Center.
 
-![The infographic provides you with an end to end explanation of how to use the HR Service Delivery for Healthcare along with Journey designer](../image/mmasset0020433.png)
+\[Omitted image "mmasset0020433.png"\] Alt text: The infographic provides you with an end to end explanation of how to use the HR Service Delivery for Healthcare along with Journey designer
 
-For more details, see [Using HR Service Delivery for Healthcare](../task/using-hr-healthcare.md).
+For more details, see [Using HR Service Delivery for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery-for-healthcare/using-hr-healthcare.md).
 
 ## HR Service Delivery for Healthcare benefits
 

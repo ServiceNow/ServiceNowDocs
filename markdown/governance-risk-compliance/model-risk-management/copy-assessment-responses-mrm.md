@@ -2,6 +2,7 @@
 title: Copy assessment responses
 description: Enable the option to copy responses from the most recent completed assessment into new assessments. Respondents can review and edit the pre-filled responses before submission to save time and ensure consistency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/model-risk-management/copy-assessment-responses-mrm.html
 release: zurich
 product: Model Risk Management
 classification: model-risk-management
@@ -29,7 +30,7 @@ This task guides you on how to enable or disable the option to copy responses fr
 
 1.  Navigate to **All** &gt; **Model Risk Workspace**.
 
-2.  Select the list icon ![](../../grc-compliance-case-mgmt/image/list-icon.png).
+2.  Select the list icon \[Omitted image "list-icon-mrm.png"\] Alt text:.
 
 3.  From the list, navigate to **Models** &gt; **All**.
 
@@ -40,5 +41,5 @@ This task guides you on how to enable or disable the option to copy responses fr
     When enabled, new assessments copy responses from the most recently completed assessment, if available. Respondent can edit the pre-filled responses before submitting.
 
 
-**Parent Topic:**[Using Model Risk Management](../concept/using-mrm.md)
+**Parent Topic:**[Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/model-risk-management/using-mrm.md)
 

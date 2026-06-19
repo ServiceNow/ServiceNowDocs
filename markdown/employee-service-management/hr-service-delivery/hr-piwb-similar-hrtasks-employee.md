@@ -2,6 +2,7 @@
 title: HR PIWB template: Predict knowledge for HR task completion
 description: Use the classic setup template to configure and train your Similarity solution template with machine learning model to recommend knowledge articles for employees to complete the HR tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-piwb-similar-hrtasks-employee.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -34,7 +35,7 @@ Role required: sn\_piwb\_hr\_content.admin
     2.  Click **Take me there** to get started with the solution definition.
     Machine Learning Solutions landing page appears.
 
-    ![List of ML usecases for HR PIWB](../image/piwb-hr-ml-list.png "HR ML use cases")
+    \[Omitted image "piwb-hr-ml-list.png"\] Alt text: List of ML usecases for HR PIWB
 
 3.  Go to **Similarity** and click **Configure**.
 
@@ -51,12 +52,12 @@ When the configuration is complete, the employees can complete HR or Content or 
 
 You can verify the integration status from **HR Administration** &gt; **HR AI Configurations** &gt; **Solution definition**. The use case is now mapped to the selected solution definition.
 
-**Parent Topic:**[HR Predictive Intelligence Workbench implementation](../concept/hr-piwb-implementation-guidance.md)
+**Parent Topic:**[HR Predictive Intelligence Workbench implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-piwb-implementation-guidance.md)
 
 **Related topics**  
 
 
-[Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.predictive-intelligence]
 
-[Get started with Predictive Intelligence](https://www.servicenow.com/docs/access?context=install-predictive-intelligence&version=zurich&pubname=zurich-intelligent-experiences&section=get-started-predictive-intelligence&ft:locale=en-US)
+[bundle-platai.get-started-predictive-intelligence]
 

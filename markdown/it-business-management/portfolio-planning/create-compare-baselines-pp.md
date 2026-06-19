@@ -2,6 +2,7 @@
 title: Create and compare financial baselines for demands and projects
 description: Create and compare financial baselines to get a snapshot of the project expenses and compare the planned costs against the actual expenses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/create-compare-baselines-pp.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -27,46 +28,46 @@ Role required: sn\_align\_ws.spw\_financial\_user
 
 3.  Create or compare baselines.
 
-<table id="choicetable_xd3_bdk_2zb"><thead><tr><th align="left" id="d211813e88">
+<table id="choicetable_xd3_bdk_2zb"><thead><tr><th align="left" id="d94459e88">
 
 Option
 
-</th><th align="left" id="d211813e91">
+</th><th align="left" id="d94459e91">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d211813e97">
+</th></tr></thead><tbody><tr><td id="d94459e97">
 
 **Create a baseline**
 
 </td><td>
 
-1.  Select **Create baseline** button \(![Create baseline button.](../../spw-financials/images/fin-create-baseline-button.png)\).
+1.  Select **Create baseline** button \(\[Omitted image "fin-create-baseline-button.png"\] Alt text: Create baseline button.\).
 
 Create financial baseline window appears with the Name field is auto-populated with current date. You can edit this field to name your baseline.
 
-![Create financial baseline window with Name and Description fields.](../../spw-financials/images/fin-create-baseline-window.png)
+\[Omitted image "fin-create-baseline-window.png"\] Alt text: Create financial baseline window with Name and Description fields.
 
 2.  In the Description field, enter a brief description to identify this baseline and select **Save**.
  A baseline is created capturing the planned costs and expense is captured.
 
-**Note:** You can [activate a scheduled job](../../spw-financials/task/baseline-scheduler-job.md) to automatically create financial baselines.
+**Note:** You can [activate a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/baseline-scheduler-job.md) to automatically create financial baselines.
 
-</td></tr><tr><td id="d211813e147">
+</td></tr><tr><td id="d94459e147">
 
 **Compare baselines**
 
 </td><td>
 
-1.  Select the **Baselines** \(![Baselines tab.](../../spw-financials/images/fin-baselines-tab.png)\) tab to view the list of existing baselines.
-2.  Select any two baselines and select the **Compare baselines** \(![Compare baselines button.](../../spw-financials/images/fin-compare-baselines-button.png)\) button.
- Comparison view of the selected baselines is displayed. For more details, see [Using baseline comparison view.](../../spw-financials/concept/using-financials-spw.md#section_bkp_g2l_2zb)
+1.  Select the **Baselines** \(\[Omitted image "fin-baselines-tab.png"\] Alt text: Baselines tab.\) tab to view the list of existing baselines.
+2.  Select any two baselines and select the **Compare baselines** \(\[Omitted image "fin-compare-baselines-button.png"\] Alt text: Compare baselines button.\) button.
+ Comparison view of the selected baselines is displayed. For more details, see [Using baseline comparison view.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/using-financials-spw.md)
 
 </td></tr></tbody>
 </table>    **Tip:** You can migrate existing financials baselines of your projects or demands from Classic UI to Financials in Next Experience.
 
-    For more information on how to migrate financial baselines of demands, see [Migrate financial baselines of demands to Next Experience](../../planning-and-policy/task/migrate-fin-baselines-demands.md).
+    For more information on how to migrate financial baselines of demands, see [Migrate financial baselines of demands to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/migrate-fin-baselines-demands.md).
 
-    For more information on how to migrate financial baselines of projects, see [Migrate financial baselines of projects to Next Experience](../../project-management/task/migrate-fin-baselines-projects.md).
+    For more information on how to migrate financial baselines of projects, see [Migrate financial baselines of projects to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/migrate-fin-baselines-projects.md).
 
 

@@ -2,6 +2,7 @@
 title: View deprecated audit records
 description: View the deprecated asset audit records that are created before switching to the common Asset Audits \[sn\_itam\_common\_asset\_audit\] table and stored in the Asset Audits \[sn\_hamp\_asset\_audit\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/view-deprecated-audit-records.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -41,5 +42,5 @@ You can view deprecated asset audit records in the Audits \[Deprecated\] list. T
 
 View the details of scanned assets within the asset audit form by selecting the relevant tabs.
 
-**Parent Topic:**[Audit hardware asset inventory](../concept/ham-inventory-audit.md)
+**Parent Topic:**[Audit hardware asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/ham-inventory-audit.md)
 

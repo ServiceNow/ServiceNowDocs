@@ -2,6 +2,7 @@
 title: Review CMDB Data Manager tasks
 description: Review Data Manager tasks \(such as life-cycle tasks\) that are assigned to you, to an assignment group that you belong to, to people you manage, or to members of a group that you are the manager of. All in accordance with CMDB Data Manager policies. During the review, you can approve, cancel, reject, or reassign a task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/data-manager-review-task-wrkspc.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -23,8 +24,8 @@ Canceling a life-cycle task is available only for tasks that are in the 'Not sta
 
 ## About this task
 
--   To review attestation tasks, see [Review CMDB Data Manager attestation tasks in CMDB Workspace or in Service Graph Workspace](review-data-manager-attes-task.md).
--   To review certification tasks, see [Review certification tasks](data-certific-review-tasks.md).
+-   To review attestation tasks, see [Review CMDB Data Manager attestation tasks in CMDB Workspace or in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.md).
+-   To review certification tasks, see [Review certification tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-certific-review-tasks.md).
 
 ## Procedure
 
@@ -56,7 +57,7 @@ Canceling a life-cycle task is available only for tasks that are in the 'Not sta
 
         You can only reject a task that is assigned to you.
 
-        After you reject a task, the **State** of the task is set to **Closed Canceled** and **Approval** is set to **Rejected**. Also, appropriate notifications are sent to members of the group specified in the **glide.cmdb.data\_manager.rejected.task.notification\_group** system property. For more information about how this property is used for notifications, see [Components related to CMDB Data Manager](../reference/components-cmdb-data-manager.md).
+        After you reject a task, the **State** of the task is set to **Closed Canceled** and **Approval** is set to **Rejected**. Also, appropriate notifications are sent to members of the group specified in the **glide.cmdb.data\_manager.rejected.task.notification\_group** system property. For more information about how this property is used for notifications, see [Components related to CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/components-cmdb-data-manager.md).
 
     4.  Select **Assign to me** or **Request reassignment** as appropriate.
 

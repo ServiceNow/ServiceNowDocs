@@ -2,6 +2,7 @@
 title: Fix automation issues with Code quality check in RPA Desktop Design Studio
 description: Fix the automation issues in your automation activity or complete an automation project proactively by using the Code quality check feature in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/use-cqc-rpa-stduio.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -17,7 +18,7 @@ Fix the automation issues in your automation activity or complete an automation 
 
 ## Before you begin
 
-Connect to the RPA Hub instance that has the Code quality check feature enabled. For more information on how to connect to an RPA Hub instance, see [Connect to an RPA Hub instance from RPA Desktop Design Studio](connect-studio-instance-rpa.md).
+Connect to the RPA Hub instance that has the Code quality check feature enabled. For more information on how to connect to an RPA Hub instance, see [Connect to an RPA Hub instance from RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/connect-studio-instance-rpa.md).
 
 Role required: RPA Developer
 
@@ -27,9 +28,9 @@ Role required: RPA Developer
 
     The **Code quality check** options are displayed.
 
-    ![Options for Code Quality Check in RPA Desktop Design Studio.](../image/cqc-options.png "Options for Code quality check")
+    \[Omitted image "cqc-options.png"\] Alt text: Options for Code Quality Check in RPA Desktop Design Studio.
 
-    **Note:** If you aren't connected to an instance and you select the **Code quality check** option, the Connection Manager window is displayed. For more information on how to connect to an RPA Hub instance, see [Connect to an RPA Hub instance from RPA Desktop Design Studio](connect-studio-instance-rpa.md).
+    **Note:** If you aren't connected to an instance and you select the **Code quality check** option, the Connection Manager window is displayed. For more information on how to connect to an RPA Hub instance, see [Connect to an RPA Hub instance from RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/connect-studio-instance-rpa.md).
 
 2.  Do Code quality check for the following options.
 
@@ -44,26 +45,26 @@ Role required: RPA Developer
 
 3.  In the Code Quality Check Results window, view the issue results and their details as a list.
 
-    The results are classified as error, warning, and information based on the severity that is set by the RPA administrator or release manager. You can filter the results by the severity level by selecting the **All** button. The **Name** field indicates the type of issue that is based on the code quality rules configured in RPA Hub. For more information on the list of code quality rules, see [Code quality rules list in RPA Hub](../../rpa-hub/reference/cqr-list-rpa.md).
+    The results are classified as error, warning, and information based on the severity that is set by the RPA administrator or release manager. You can filter the results by the severity level by selecting the **All** button. The **Name** field indicates the type of issue that is based on the code quality rules configured in RPA Hub. For more information on the list of code quality rules, see [Code quality rules list in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/cqr-list-rpa.md).
 
-    ![Code Quality Check Results window](../image/cqc-results.png "Code Quality Check Results window")
+    \[Omitted image "cqc-results.png"\] Alt text: Code Quality Check Results window
 
     You can double-click the result entries for components in the Code Quality Check Results window for the following scenarios:
 
     -   If an affected component is in the current activity, it’s highlighted in the current activity.
     -   If the affected component is in a different activity, you can navigate to that activity. The affected component is highlighted.
-    ![Highlighting of the affected component in the code quality check.](../image/cqc-error-highlight.png "Highlighting the affected component in code quality check")
+    \[Omitted image "cqc-error-highlight.png"\] Alt text: Highlighting of the affected component in the code quality check.
 
 4.  View the list of active and inactive rules that are configured from the RPA Hub instance by selecting **View Rules**.
 
-    ![View Rules window for code quality check.](../image/cqc-view-rules.png "View Rules window for Code Quality Check")
+    \[Omitted image "cqc-view-rules.png"\] Alt text: View Rules window for code quality check.
 
 5.  Fix the issues that pertain to the code quality check and your automation project is ready to be published.
 
 
 ## What to do next
 
-The automation project is ready to be published. Code quality check is also performed automatically when you publish a project. For more information on how to publish a project, see [Publish an automation project in RPA Desktop Design Studio](publish-automation-project.md).
+The automation project is ready to be published. Code quality check is also performed automatically when you publish a project. For more information on how to publish a project, see [Publish an automation project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/publish-automation-project.md).
 
-**Parent Topic:**[Code quality check in RPA Desktop Design Studio](../concept/code-quality-check-studio.md)
+**Parent Topic:**[Code quality check in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/code-quality-check-studio.md)
 

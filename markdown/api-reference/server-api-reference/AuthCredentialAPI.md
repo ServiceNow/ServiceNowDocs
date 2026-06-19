@@ -2,6 +2,7 @@
 title: AuthCredential - Scoped
 description: The AuthCredential\(\) API provides methods that enable you to build credentials for a REST request.Instantiates a new AuthCredential object, or modifies an existing one.Returns the value of an AuthCredential attribute.Sets an attribute for an AuthCredential object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/AuthCredentialAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -23,7 +24,7 @@ Generate outbound signing requests using these APIs in the following order:
 4.  HttpRequestAuthedData: Get information about the signed request.
 5.  GlideHTTPRequest: Send the signed request.
 
-Before using these APIs, you must [configure an authentication algorithm](https://www.servicenow.com/docs/access?context=configure-authentication-algorithm&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) to sign the request and associate it with the credential used to authenticate the request.
+Before using these APIs, you must configure an authentication algorithm to sign the request and associate it with the credential used to authenticate the request.
 
 You can create an empty AuthCredential object, instantiate an existing AuthCredential object, or use the StandardCredentialsProvider class to instantiate an AuthCredential object using a Credential record from the Credentials \[discovery\_credentials\] table. If you create an empty AuthCredential object, use the setAttribute\(\) method to add properties to the object.
 
@@ -36,7 +37,7 @@ var credential = new sn_cc.StandardCredentialsProvider().getAuthCredentialByID("
 
 Use the AuthCredential API in scoped scripts with the `sn_auth` namespace identifier.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## AuthCredential - AuthCredential\(Object authCredential\)
 

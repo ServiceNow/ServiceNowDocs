@@ -2,6 +2,7 @@
 title: GTD triggers
 description: Triggers are actions that you take to move the tour to the next step. Each callout in a guided tour step has a specific trigger that activates the subsequent step. You define the trigger for each callout, and only relevant triggers appear based on the UI element referenced by the callout.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/guided-tour-triggers.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
@@ -99,5 +100,5 @@ Double click
 The tour moves to the next step when the user double-clicks an element.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Guided Tour Designer](../concept/guided-tours-designer.md)
+</table>**Parent Topic:**[Guided Tour Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/guided-tours-designer.md)
 

@@ -2,6 +2,7 @@
 title: Privacy Case overview page
 description: The Privacy case overview page shows details, such as description, state, schedule and milestones, case tasks, and issues related to the case in the Privacy Case Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/pcm-overview-page.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -30,7 +31,7 @@ The Description section includes the detailed information that you can fill in w
 
 ## State section
 
-The State section includes the workflow states of a privacy case. For example in this section, you see various stages of the privacy case, such as New, Triage, Investigate, Resolve, Post case review, and Close. These states determine the status of the case. A privacy case administrator can configure these states in the Privacy Case Management application. For more information, see [Define the workflow states for a privacy case](../task/define-pcm-workflow-states.md).
+The State section includes the workflow states of a privacy case. For example in this section, you see various stages of the privacy case, such as New, Triage, Investigate, Resolve, Post case review, and Close. These states determine the status of the case. A privacy case administrator can configure these states in the Privacy Case Management application. For more information, see [Define the workflow states for a privacy case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/define-pcm-workflow-states.md).
 
 ## Case schedules and milestones section
 
@@ -71,7 +72,7 @@ The Case schedules and milestones section includes the details on all the milest
 
 The following example shows the options available after you select the **Show events** option.
 
-![Events available in case schedules and milestones.](../image/case-schedules-and-milestones.png "Case schedules and milestones")
+\[Omitted image "case-schedules-and-milestones.png"\] Alt text: Events available in case schedules and milestones.
 
 **Note:** The options that are displayed after you select the **Show events** option are limited to the events and milestones that are available for the case.
 

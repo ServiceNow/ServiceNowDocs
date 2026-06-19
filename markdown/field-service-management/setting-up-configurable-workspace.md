@@ -2,7 +2,10 @@
 title: Setting up CSM/FSM Configurable Workspace
 description: Setting up CSM/FSM Configurable Workspace involves configuring Dispatcher Workspace and the Field Service Territory Planning Console.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/setting-up-configurable-workspace.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -19,19 +22,19 @@ To enhance efficiency in task management and agent assignments, set up the Dispa
 
 The steps for setting up CSM/FSM Configurable Workspace are:
 
-1.  [Configuring Dispatcher Workspace](configuring-dispatcher-workspace.md)
+1.  [Configuring Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/configuring-dispatcher-workspace.md)
 
     Optimize task management and enhance agent assignments by configuring the Dispatcher Workspace.
 
-2.  [Configuring Field Service Territory Planning Console](configuring-territory-planning-fsm-workspace.md)
+2.  [Configuring Field Service Territory Planning Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/configuring-territory-planning-fsm-workspace.md)
 
     Field Service Territory Planning optimizes work order management by selecting the most suitable territory for a task based on predefined criteria. This ensures that tasks are assigned to the most appropriate agent or group, enhancing efficiency and improving service delivery within that territory.
 
-3.  [Setting up Field Service in CSM Agent Workspace](setup-fsm-agent-workspace.md)
+3.  [Setting up Field Service in CSM Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/setup-fsm-agent-workspace.md)
 
     Activate Field Service in CSM Agent Workspace to set up roles for performing the tasks.
 
-4.  [Configuring Workforce](configuring-workforce.md)
+4.  [Configuring Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/configuring-workforce.md)
 
     Configure Workforce to view agent schedules, create personal events, and view tasks on a map.
 

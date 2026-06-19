@@ -2,12 +2,13 @@
 title: Configure Data Discovery patterns
 description: Configure a Data Discovery pattern and review current patterns. A Data Discovery pattern defines the regular expression used to match data against a target table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-discovery/configure-data-discovery-patterns.html
 release: zurich
 product: Data Discovery
 classification: data-discovery
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 3
 breadcrumb: [Data Discovery jobs, Exploring Data Discovery \(Classic\), Data Discovery, Platform Privacy]
 ---
 
@@ -18,6 +19,14 @@ Configure a Data Discovery pattern and review current patterns. A Data Discovery
 ## Before you begin
 
 Role required: data\_discovery\_admin
+
+## About this task
+
+Custom Data Discovery patterns can be used with Now Assist anonymization in addition to the base system patterns provided with the platform. A pattern applies to Now Assist prompts when it is associated with the **Generative AI** data channel. Base system patterns that don't include "\(Generative AI\)" in their name can also apply to Now Assist, provided they are associated with the **Generative AI** data channel. Configured patterns apply consistently across Now Assist skills, Now Assist Virtual Agent, AI Agents, and custom skills built with the Now Assist Skill Kit.
+
+**Note:** Data Privacy for Now Assist is available in Yokohama and later releases. On Xanadu instances, use the Sensitive Data Handler to mask sensitive data for generative AI.
+
+**Important:** Now Assist anonymization uses two-way masking. When a Now Assist skill such as incident summarization processes a record, sensitive data matching an active pattern is replaced with placeholder tokens in the prompt sent to the large language model \(LLM\). The original values are then restored in the response returned to the end user. End users therefore see unmasked data in Now Assist responses; this is by design. The purpose of masking is to prevent sensitive data from being transmitted to the LLM, not to hide it from the end user in the final response.
 
 ## Procedure
 
@@ -97,7 +106,21 @@ Privacy technique configuration
 
 </td><td>
 
-Privacy technique used for the pattern
+The masking technique applied to matched data before it is sent to the LLM. Common techniques include: -   **Synthetic replacement**
+
+Replaces the matched value with a realistic but fictitious substitute \(for example, substituting a different email address\). Use when the LLM needs plausible values to maintain response quality.
+
+-   **Static replacement**
+
+Replaces the matched value with a fixed non-inferable placeholder \(for example, replacing any SSN with "999-99-9999"\).
+
+-   **Selective replacement with x**
+
+Obscures part or all of the value using wildcard characters \(for example, masking most digits of a card number while retaining the last four\). Use when partial visibility is acceptable and helps the LLM understand context.
+
+-   **Remove**
+
+Deletes the matched value from the prompt entirely.
 
 </td></tr><tr><td>
 

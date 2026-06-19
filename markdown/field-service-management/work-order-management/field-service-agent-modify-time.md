@@ -2,6 +2,7 @@
 title: Modify or delete time worked entries
 description: Agents can modify and delete time worked entries before a time sheet is approved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/field-service-agent-modify-time.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

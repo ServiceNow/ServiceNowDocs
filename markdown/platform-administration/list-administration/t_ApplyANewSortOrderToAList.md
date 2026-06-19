@@ -2,6 +2,7 @@
 title: Apply a new sort order to a list
 description: You can apply a new sort order to the records in a list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/list-administration/t\_ApplyANewSortOrderToAList.html
 release: zurich
 product: List Administration
 classification: list-administration
@@ -23,10 +24,10 @@ Role required: none
 
 1.  Open the context menu from the list title and select **Sort by rank**.
 
-    ![Sort by rank](../image/SortByRank.png)
+    \[Omitted image "SortByRank.png"\] Alt text: Sort by rank
 
 2.  To remove the ranking and return to the original order of the list, click the label in any column that contains data.
 
 
-**Parent Topic:**[Rank a list](t_RankingAList.md)
+**Parent Topic:**[Rank a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/list-administration/t_RankingAList.md)
 

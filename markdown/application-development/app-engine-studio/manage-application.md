@@ -2,6 +2,7 @@
 title: Prepare your app for approval
 description: Prepare your app for the approval process by making any needed changes, such as renaming your app, editing the app description, or replacing the app image. You can also delete the app from App Engine Studio \(AES\) if it has taken a wrong turn.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/manage-application.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -29,7 +30,7 @@ You can change certain features of your application, based on your permissions. 
 
 2.  From the My Apps page, open your application.
 
-3.  From the app home, select the Edit application properties icon \(![Edit application properties icon](../image/edit-application-properties-purple.png)\).
+3.  From the app home, select the Edit application properties icon \(\[Omitted image "edit-application-properties-purple.png"\] Alt text: Edit application properties icon\).
 
 4.  Update the application properties.
 
@@ -40,5 +41,5 @@ You can change certain features of your application, based on your permissions. 
 5.  Select **Save**.
 
 
-**Parent Topic:**[Create your app](../concept/create-application.md)
+**Parent Topic:**[Create your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/create-application.md)
 

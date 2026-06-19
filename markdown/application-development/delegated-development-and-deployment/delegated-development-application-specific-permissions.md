@@ -2,6 +2,7 @@
 title: Delegated Development application-specific permissions
 description: Developer and deployment permissions are application-specific. Administrators must set developer \(and optionally deployment\) permissions for each application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/delegated-development-and-deployment/delegated-development-application-specific-permissions.html
 release: zurich
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
@@ -19,7 +20,7 @@ Developer and deployment permissions are application-specific. Administrators mu
 
 A developer who has permission to access all file types for one application doesn’t necessarily have any developer permissions for another application. Administrators must be familiar with application files and the system table structure to set developer permissions. For example, a developer expected to create advanced business rules needs both the **All File Types** and **Allow Scripting** developer permissions.
 
-**Important:** If [Application administration](application-administration.md) is enabled, only an application administrator for the target application can delegate developers for an application. Application administrators do not have system admin privileges. To enable a delegated developer to perform the functions granted in the developer permissions, the delegated developer must also be given the application administrator role.
+**Important:** If [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/application-administration.md) is enabled, only an application administrator for the target application can delegate developers for an application. Application administrators do not have system admin privileges. To enable a delegated developer to perform the functions granted in the developer permissions, the delegated developer must also be given the application administrator role.
 
 Setting each permission grants one or more system-managed delegated development roles, enabling system admins to retain control over the system. System admins don't have to assign the system admin role to enable them to develop or deploy applications.
 

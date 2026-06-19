@@ -2,6 +2,7 @@
 title: Integrate Scout APM events
 description: Enable the collection of events from Scout APM by authenticating Scout APM as a data source to integrate it with Event Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/integrate-scout-apm-events.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -96,5 +97,5 @@ Role required: evt\_mgmt\_admin
 
 You can view all notifications on your ServiceNow instance in the Events \[em\_event\] table with the data source as Scout APM.
 
-**Parent Topic:**[Integrate with push connectors](configure-listener-transform-script.md)
+**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-listener-transform-script.md)
 

@@ -2,6 +2,7 @@
 title: Knowledge articles for Enterprise Asset Management
 description: Create and attach knowledge articles about enterprise models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/knowledge-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -15,7 +16,7 @@ breadcrumb: [Explore, Enterprise Asset Management, IT Asset Management]
 
 Create and attach knowledge articles about enterprise models.
 
-Use the Enterprise Asset Workspace or the Knowledge Management application to create articles about Enterprise Asset Management application. You can create articles on subjects such as troubleshooting, configuration. For information on creating knowledge articles, see [Create a knowledge article for Enterprise Asset Management](../task/create-eam-knowledge-article.md).
+Use the Enterprise Asset Workspace or the Knowledge Management application to create articles about Enterprise Asset Management application. You can create articles on subjects such as troubleshooting, configuration. For information on creating knowledge articles, see [Create a knowledge article for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-eam-knowledge-article.md).
 
 After an article is created and published, the enterprise technician \[enterprise\_asset\_technician\] role can attach the articles to enterprise models.
 

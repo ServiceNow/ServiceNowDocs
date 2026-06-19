@@ -2,6 +2,7 @@
 title: Enable external user self-registration for Service Portal
 description: Enable external users to register to a ServiceNow app through Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/enable-self-registration.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -21,14 +22,14 @@ Role required: admin
 
 Complete the previous tasks:
 
-1.  [Activate External User Registration](https://www.servicenow.com/docs/access?context=external-user-registration-plugin&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
-2.  [Configure the registration form for an external user configuration](https://www.servicenow.com/docs/access?context=external-user-configuration&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+1.  Activate External User Registration
+2.  Configure the registration form for an external user configuration
 
 Role required: admin
 
 ## About this task
 
-External user self-registration enables a large group of users to register to a ServiceNow app without the help of an administrator. For more information, see [Enable external users to self-register to your ServiceNow instance](https://www.servicenow.com/docs/access?context=external-user-self-registration&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+External user self-registration enables a large group of users to register to a ServiceNow app without the help of an administrator. For more information, see Enable external users to self-register to your ServiceNow instance.
 
 ## Procedure
 
@@ -47,5 +48,5 @@ External user self-registration enables a large group of users to register to a 
 
 The login widget includes a link to the registration form that you previously configured.
 
-**Parent Topic:**[Managing portal access](../concept/portal-security.md)
+**Parent Topic:**[Managing portal access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/portal-security.md)
 

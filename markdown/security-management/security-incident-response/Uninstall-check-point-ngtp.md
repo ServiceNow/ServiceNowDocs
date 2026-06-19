@@ -2,6 +2,7 @@
 title: Uninstall the Check Point NGTP integration
 description: If you want to uninstall Check Point NGTP Integration from your ServiceNow AI Platform instance and remove all remnants from the integration, refer to the ServiceNow documentation site for instructions on uninstalling applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/Uninstall-check-point-ngtp.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

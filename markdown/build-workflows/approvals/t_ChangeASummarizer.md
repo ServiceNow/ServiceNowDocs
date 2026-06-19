@@ -2,6 +2,7 @@
 title: Change an approval summarizer
 description: You can modify existing approval summaries to include additional information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/approvals/t\_ChangeASummarizer.html
 release: zurich
 product: Approvals
 classification: approvals

@@ -2,6 +2,7 @@
 title: Assessment Metric Type form
 description: Use the Assessment Metric Type form to create an assessment questionnaire template by using the GRC: Compliance Case Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/compliance-case-management/assessment-metric-type-form.html
 release: zurich
 product: Compliance Case Management
 classification: compliance-case-management
@@ -27,5 +28,5 @@ See the following table for a description of the field values.
 |Description|Purpose of the assessment template and the reason for its creation.|
 |Introduction|Guidance text for business users who respond to the assessment.|
 
-**Parent Topic:**[Create an assessment template](../task/ccm-create-assessment-template.md)
+**Parent Topic:**[Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/ccm-create-assessment-template.md)
 

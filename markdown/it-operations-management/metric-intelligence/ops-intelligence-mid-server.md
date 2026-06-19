@@ -2,12 +2,13 @@
 title: MID Server and MID Server distributed cluster for Metric Intelligence
 description: Using Metric Intelligence requires at least one MID Server distributed cluster which contains a single MID Server that is configured for Metric Intelligence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/metric-intelligence/ops-intelligence-mid-server.html
 release: zurich
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Exploring Metric Intelligence, Metric Intelligence, IT Operations Management]
 ---
 
@@ -21,7 +22,7 @@ To support the specified throughput, create a distributed cluster with a single 
 
 A MID Server supporting Discovery can also be used with other applications.
 
-For details on setting up Metric Intelligence, see [Get started with Metric Intelligence](../task/get-started-metrics.md).
+For details on setting up Metric Intelligence, see [Get started with Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/metric-intelligence/get-started-metrics.md).
 
 ## MID Server distributed clusters
 
@@ -41,13 +42,13 @@ Each Metric Intelligence MID Server must be configured with the following settin
 
 **Note:** The Metric Intelligence MID Server does not support IPv6.
 
-The Metric Intelligence application that the Metric Intelligence MID Server is configured with enables you to add additional supported applications to the same MID Server. By default, Metric Intelligence is included in the definition of the MID Server ALL option. For information about modifying the behavior of the ALL option when selecting supported applications, see [Configure applications included in ALL Applications](https://www.servicenow.com/docs/access?context=t_SpecifyMIDServerApplications&version=zurich&pubname=zurich-servicenow-platform&section=t_ConfigureWhatAllIncludes&ft:locale=en-US).
+The Metric Intelligence application that the Metric Intelligence MID Server is configured with enables you to add additional supported applications to the same MID Server. By default, Metric Intelligence is included in the definition of the MID Server ALL option. For information about modifying the behavior of the ALL option when selecting supported applications, see Configure applications included in ALL Applications.
 
 If Domain Support - Domain Extensions Installer is activated, then you can configure a MID Server with the Metrics capability, per domain. In this case, metrics for a business service are processed on the MID Server that is in the same domain as the business service. Otherwise, a MID Server from the global domain is used.
 
 Ensure that the MID Server that you want to configure for Metric Intelligence:
 
--   Is validated. For more information, see [Validate a MID Server](https://www.servicenow.com/docs/access?context=t_ValidateAMIDServer&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+-   Is validated. For more information, see Validate a MID Server
 -   Is in running state
 -   Meets all software, hardware, and configuration requirements
 
@@ -144,27 +145,29 @@ The MID Server throttling mechanism protects against data bursts to the instance
 
 The MID Server throttling mechanism is enabled by default. You may want to disable this mechanism when troubleshooting, to ensure that the mechanism is not causing system malfunction.
 
--   To disable this feature for metrics, set the mid.oi.metric\_token\_bucket\_enabled parameter to **false**.
--   To disable this feature for anomalies, set the mid.oi.anomaly\_token\_bucket\_enabled parameter to **false**.
+The throttling parameters are MID Server configuration parameters. Configure these parameters on the MID Server record, on the **Configuration Parameters** tab. When you add a configuration parameter, select the matching `mid.oi` parameter from the **Parameter name** list.
+
+-   To disable this feature for metrics, set the `mid.oi.metric_token_bucket_enabled` parameter to `false`.
+-   To disable this feature for anomalies, set the `mid.oi.anomaly_token_bucket_enabled` parameter to `false`.
 
 ## Configuration Override
 
-Update the `wrapper-override.conf` file in folder `../agent/conf`:
+Use the `../agent/conf/wrapper-override.conf` file to configure Java override parameters, such as the garbage collector and IPv4.
 
--   Add the following code at the bottom of the file:
+To configure the garbage collector, override the existing garbage collector parameter. For example, replace `-XX:+UseParallelGC` with `-XX:+UseG1GC`.
 
-    ```
-     
-    # GC
-    wrapper.java.additional.5=-XX:+AlwaysPreTouch
-    wrapper.java.additional.6=-XX:+UseG1GC
-    wrapper.java.additional.7=-XX:+ScavengeBeforeFullGC
-    wrapper.java.additional.8=-XX:+DisableExplicitGC
-     
-    # IP4
-    wrapper.java.additional.9=-DpreferIPv4Stack=true
-    ```
+To force IPv4, add the following parameter, using the next available `wrapper.java.additional` number:
 
--   Ensure that `wrapper.java.initmemory=1024` \(or higher\) and `wrapper.java.maxmemory=4096` \(or higher\) for Metric Intelligence to run properly.
--   Optionally, if a server has additional RAM available, for example 16 GB RAM, you can replace 4096 with 8192 in: `wrapper.java.maxmemory=4096`.
+```
+wrapper.java.additional.<number>=-Djava.net.preferIPv4Stack=true
+```
+
+**Note:** Do not renumber existing `wrapper.java.additional` lines. Parameters 101 through 200 are reserved for ServiceNow out-of-the-box parameters. Only override those parameters by uncommenting the existing lines and changing the values.
+
+Use the `../agent/conf/wrapper.conf` file to configure memory for Metric Intelligence. Update the following parameters:
+
+-   `wrapper.java.initmemory=1024` or higher
+-   `wrapper.java.maxmemory=4096` or higher
+
+Optionally, if a server has additional RAM available, for example 16 GB RAM, you can replace `4096` with `8192` in `wrapper.java.maxmemory=4096`.
 

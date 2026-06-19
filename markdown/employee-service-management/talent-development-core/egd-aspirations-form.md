@@ -2,6 +2,7 @@
 title: Talent Aspirations reference
 description: Administrators manage aspirations used by managers and employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/egd-aspirations-form.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -96,5 +97,5 @@ A general guiding time within which you plan to complete your aspiration.-   **W
 -   **Within the next several years**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Talent Development Core application reference](../concept/egd-reference.md)
+</table>**Parent Topic:**[Talent Development Core application reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-reference.md)
 

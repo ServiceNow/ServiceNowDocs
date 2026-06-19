@@ -2,6 +2,7 @@
 title: Automation finding definition form from Classic view
 description: Use the Automated Finding definition form to create a finding definition from the Classic view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/auto-find-form-classic.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -97,5 +98,5 @@ Select impacted KPIs
 Select the KPIs most likely impacted by the findings. Choosing the affected KPIs enables you to assess the business impact. You can view the KPI-related findings in the insights panel of the Process Mining workspace.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Process Mining reference](../concept/process-mining-reference.md)
+</table>**Parent Topic:**[Process Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/process-mining-reference.md)
 

@@ -2,6 +2,7 @@
 title: Verify the SOX Content Pack in Audit Management
 description: After importing the SOX Content Pack, verify and edit the entity types, entities, audit engagements, audit tasks, test templates, and test plans within the Audit Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/verify-SOX-content-audit-management.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -45,9 +46,9 @@ Role required: Audit Admin \(sn\_audit.admin\)
     -   Tax
     -   Travel and Expense
     -   Treasury
-    ![Profiles](../image/SOX-profile-type.png)
+    \[Omitted image "SOX-profile-type.png"\] Alt text: Profiles
 
-2.  Under the Profile filters related list, a filter is added to query the SOX processes table for the generation of SOX profiles.![Profile Types](../image/SOX-profile-filter.png)
+2.  Under the Profile filters related list, a filter is added to query the SOX processes table for the generation of SOX profiles.\[Omitted image "SOX-profile-filter.png"\] Alt text: Profile Types
 
 3.  Navigate to **Audit** &gt; **All Engagements**.
 
@@ -56,7 +57,7 @@ Role required: Audit Admin \(sn\_audit.admin\)
     -   **Assigned to**
     -   **Auditor**
     -   **Approver**
-    ![Engagement](../image/SOX-audit-engagement.png)
+    \[Omitted image "SOX-audit-engagement.png"\] Alt text: Engagement
 
 4.  Navigate to **Audit** &gt; **All Audit Tasks**.
 
@@ -69,24 +70,24 @@ Role required: Audit Admin \(sn\_audit.admin\)
     -   **Type** is interview or walkthrough
     -   **Assigned to** is empty
     -   **Assigned parent \(engagement\)** is SOX Audit
-    ![Audit Tasks](../image/SOX-audit-tasks.png)
+    \[Omitted image "SOX-audit-tasks.png"\] Alt text: Audit Tasks
 
 6.  Navigate to **Audit** &gt; **Audit Testing** &gt; **Test Templates**.
 
     The SOX test templates have been added and assigned to policy statements.
 
-    ![Test Templates](../image/SOX-test-templates.png)
+    \[Omitted image "SOX-test-templates.png"\] Alt text: Test Templates
 
 7.  Navigate to **Audit** &gt; **Audit Testing** &gt; **Test Plans**.
 
     The SOX test plans have been generated for controls based on the test templates.
 
-    ![Test Plans](../image/SOX-test-plans.png)
+    \[Omitted image "SOX-test-plans.png"\] Alt text: Test Plans
 
 
 ## Result
 
-For information about the SOX Audit Dashboard, see [SOX Content Pack dashboard and reports](../concept/grc-SOX-compliance-content-pack.md).
+For information about the SOX Audit Dashboard, see [SOX Content Pack dashboard and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-SOX-compliance-content-pack.md).
 
-**Parent Topic:**[Sarbanes-Oxley \(SOX\) Content Pack](../concept/sn-store-SOX-governance-risk-compliance.md)
+**Parent Topic:**[Sarbanes-Oxley \(SOX\) Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/sn-store-SOX-governance-risk-compliance.md)
 

@@ -2,6 +2,7 @@
 title: BYOL model of RDS for Oracle extension classes
 description: The CMDB CI Class Models store app adds or updates classes for the BYOL Model of RDS for Oracle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-byol-aws-rds.html
 release: zurich
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
@@ -17,11 +18,11 @@ The CMDB CI Class Models store app adds or updates classes for the BYOL Model of
 
 The CMDB CI Class Models app adds class models that extend the CMDB class hierarchy, including class descriptions, identification rules, identifier entries, and, if applicable, dependent relationships. You can use the added classes just like any other CMDB class. Applications such as Discovery and Service Mapping Patterns can use the class extensions to populate CIs and discover technologies and software.
 
-See the [full release notes for all CMDB CI Class Models](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/it-operations-management/store-rn-itom-cmdb-class-models.html?emcs_t=S2h8ZW1haWx8Ym9hcmRfc3Vic2NyaXB0aW9ufE1FMlVTSFREVDc3S0hTfDMzNDcxMjV8U1VCU0NSSVBUSU9OU3xoSw).
+See the CMDB CI Class Models release notes.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## BYOL Model of RDS for Oracle
 
@@ -31,7 +32,7 @@ The base system supports discovery of the RDS Databases and their licenses.
 
 ## Classes
 
-This section lists the classes that the CMDB CI Class Models store app adds or updates. CMDB CI Class Models: Release 1.23.0 adds the following classes for the BYOL Model of RDS for Oracle. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](../reference/cmdb-tables-details.md).
+This section lists the classes that the CMDB CI Class Models store app adds or updates. CMDB CI Class Models: Release 1.23.0 adds the following classes for the BYOL Model of RDS for Oracle. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 |Class|Description|
 |-----|-----------|

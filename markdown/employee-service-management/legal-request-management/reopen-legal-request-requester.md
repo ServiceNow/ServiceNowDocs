@@ -2,6 +2,7 @@
 title: Reopen a closed legal request
 description: Reopen a request if you're not satisfied with the resolution given by the legal team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-request-management/reopen-legal-request-requester.html
 release: zurich
 product: Legal Request Management
 classification: legal-request-management
@@ -29,7 +30,7 @@ As a requester, you can only reopen your requests that have been closed \(Close 
 
 1.  Navigate to **All** &gt; **Employee Center**.
 
-    **Note:** If you’re using Legal Service Portal, open a request by navigating to the Legal Service Portal portal and selecting **My Requests** from the header.
+    **Note:** If you’re using Legal Service Portal, open the request by navigating to it and selecting **My Requests** &gt; **View all requests** from the header.
 
 2.  Select **My Requests** from the header.
 
@@ -48,5 +49,5 @@ The request is reopened, and its state changes to Work in Progress. The request 
 
 If the administrator has configured email notifications, the assigned user, practice area lead, assignment group manager,and any collaborators added to the request will receive notifications about the reopening of the request by the requester. If the legal request assignment group permissions is not No Access then all assignment group members also notified.
 
-**Parent Topic:**[Using Legal Request Management](../concept/submitting-legal-request.md)
+**Parent Topic:**[Using Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/submitting-legal-request.md)
 

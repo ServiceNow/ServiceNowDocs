@@ -2,6 +2,7 @@
 title: Import improvement opportunities
 description: Import improvement opportunities as templates into the project associated with the table. Improvement opportunities from the parent table that are in Active state are available for import. If you don’t import the improvement opportunities from the process table, the improvement opportunities aren’t used during project mining.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/import-finding-definitions.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -32,5 +33,5 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 A message is displayed stating the number of rule-based improvement opportunities and automated improvement opportunities that are imported to the project.
 
-**Parent Topic:**[Create a project using Classic view](create-proj.md)
+**Parent Topic:**[Create a project using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/create-proj.md)
 

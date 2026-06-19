@@ -2,6 +2,7 @@
 title: Respond to a request on Field Service Marketplace
 description: Respond to or decline requests on Field Service Marketplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/respond-request-fsm-mktplc.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -19,7 +20,7 @@ Respond to or decline requests on Field Service Marketplace.
 
 Role required: sn\_mktplace\_core.mktplace\_fulfiller
 
-Ensure that the Field Service Marketplace plugin is active. For more information, see [Activate Field Service Marketplace](activate-contractor-marketplace.md).
+Ensure that the Field Service Marketplace plugin is active. For more information, see [Activate Field Service Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/activate-contractor-marketplace.md).
 
 Fulfilling requests on Field Service Marketplace is only available via the Mobile experience. This requires the Field Service Contractor for mobile plugin \(com.snc.fsm\_ext\_mobile\).
 
@@ -31,7 +32,7 @@ Fulfilling requests on Field Service Marketplace is only available via the Mobil
 
     **Note:** Selection options vary depending on the requestor's configuration.
 
-<table id="choicetable_jfw_j4r_21c"><tbody><tr><td id="d105096e126">
+<table id="choicetable_jfw_j4r_21c"><tbody><tr><td id="d102764e126">
 
 **Respond**
 
@@ -39,7 +40,7 @@ Fulfilling requests on Field Service Marketplace is only available via the Mobil
 
 Enables you to respond with time estimates, cost estimates, or other notes and comments. The requestor may award the task to you.
 
-</td></tr><tr><td id="d105096e135">
+</td></tr><tr><td id="d102764e135">
 
 **Accept**
 
@@ -47,7 +48,7 @@ Enables you to respond with time estimates, cost estimates, or other notes and c
 
 Accepts the request. The requestor may award the task to you.
 
-</td></tr><tr><td id="d105096e144">
+</td></tr><tr><td id="d102764e144">
 
 **Decline**
 
@@ -63,5 +64,5 @@ After responding or accepting, the requestor decides who to award the task to. I
 
 ## What to do next
 
-Wait for the request window to close. If you want to withdraw from the request, see [Withdraw from a request on Field Service Marketplace](withdraw-fsm-marketplace.md).
+Wait for the request window to close. If you want to withdraw from the request, see [Withdraw from a request on Field Service Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/withdraw-fsm-marketplace.md).
 

@@ -2,6 +2,7 @@
 title: Exploring Release Management
 description: Learn about Release Management that helps you in managing hardware and software releases to create a defined set of release components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/release-management/exploring-release-management.html
 release: zurich
 product: Release Management
 classification: release-management
@@ -28,14 +29,14 @@ Release Management can be effectively used to coordinate releases as a vehicle f
 
 To learn more about configuring and using Release Management, see:
 
--   [Configuring Release Management v2](configuring-release-management.md)
--   [Using Release Management v2](c_Release.md)
--   [Release Management v2 reference](reference-release-management.md)
+-   [Configuring Release Management v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/release-management/configuring-release-management.md)
+-   [Using Release Management v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/release-management/c_Release.md)
+-   [Release Management v2 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/release-management/reference-release-management.md)
 
--   **[Release Management concepts](c_ReleaseManagementConcepts.md)**  
+-   **[Release Management concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/release-management/c_ReleaseManagementConcepts.md)**  
 The Release Management application encompasses the planning, design, build, configuration, and testing of hardware and software releases to create a defined set of release components.
--   **[Business stakeholder role for Release Management](../reference/business-stakeholder-role-for-release-management.md)**  
+-   **[Business stakeholder role for Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/release-management/business-stakeholder-role-for-release-management.md)**  
 Use the business stakeholder role to read and retrieve data from any table of the Release Management application to generate reports.
 
-**Parent Topic:**[Release Management](c_ITILReleaseManagement.md)
+**Parent Topic:**[Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/release-management/c_ITILReleaseManagement.md)
 

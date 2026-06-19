@@ -2,6 +2,7 @@
 title: Configure event collection from NNMi
 description: Configure the HP Network Node Manager i \(NNMi\) connector instance to receive events while monitoring your network resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/configure-nnmi-connector.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -114,7 +115,7 @@ Last error message. Automatically updated.
 </td></tr></tbody>
 </table>4.  Right-click the form header and select **Save**.
 
-    The connector instance values are added to the form and the parameters that are relevant to the connector appear. ![NNMi Connector Instance Values](../image/nnmi-connector-values.png)
+    The connector instance values are added to the form and the parameters that are relevant to the connector appear. \[Omitted image "nnmi-connector-values.png"\] Alt text: NNMi Connector Instance Values
 
 5.  In the Connector Instance Values section, verify and where required, modify the default connector instance values.
 
@@ -182,5 +183,5 @@ Type of protocol. Default protocol type: `http`.
 9.  Click **Update**.
 
 
-**Parent Topic:**[Configure a pull connector](t_EMConfigureConnectorInstance.md)
+**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 

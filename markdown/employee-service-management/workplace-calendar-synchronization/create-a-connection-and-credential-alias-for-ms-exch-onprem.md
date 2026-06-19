@@ -2,6 +2,7 @@
 title: Create a Connection and credential alias for Microsoft Exchange On-Premises
 description: Establish a connection and credential alias for Microsoft Exchange On-Premises so that you can synchronize reservations. Ensure that the values for the connection and credentials alias are set as specified.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-calendar-synchronization/create-a-connection-and-credential-alias-for-ms-exch-onprem.html
 release: zurich
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -17,7 +18,7 @@ Establish a connection and credential alias for Microsoft Exchange On-Premises s
 
 ## Before you begin
 
-[Connect Microsoft Exchange On-Premises MID server with ServiceNow](connect-on-premise-mid-server-with-servicenow.md)
+[Connect Microsoft Exchange On-Premises MID server with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-calendar-synchronization/connect-on-premise-mid-server-with-servicenow.md)
 
 Role required: admin
 
@@ -58,5 +59,5 @@ The Connection and Credentials alias is created.
 
 ## What to do next
 
-[Configure Microsoft Exchange On-Premises as calendar provider](configure-ms-exchange-on-prem-as-calendar-provider.md)
+[Configure Microsoft Exchange On-Premises as calendar provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-calendar-synchronization/configure-ms-exchange-on-prem-as-calendar-provider.md)
 

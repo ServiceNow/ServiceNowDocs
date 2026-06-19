@@ -2,6 +2,7 @@
 title: Configure Multi-instance management for AI Control Tower
 description: Configuring Multi-instance management for AI Control Tower.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/configure-multi-instance-management-for-aict.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
@@ -38,7 +39,7 @@ Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
 
 Multi-instance management is configured for the AI Control Tower.
 
-For information about Trust configuration and Trust configuration management, see [Cross-instance application trust configuration](https://www.servicenow.com/docs/access?context=grant-access-v2&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+For information about Trust configuration and Trust configuration management, see 
 
-For information about AI asset synchronization process, see [Multi-instance Setup](../concept/multi-instance-management.md) section under Exploring the AI Control Tower configurations.
+For information about AI asset synchronization process, see [Multi-instance Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/multi-instance-management.md) section under Exploring the AI Control Tower configurations.
 

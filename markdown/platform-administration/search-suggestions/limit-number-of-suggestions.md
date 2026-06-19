@@ -2,6 +2,7 @@
 title: Schedule suggestion pruning
 description: Search Suggestions limits the number of auto-complete suggestions and search suggestions stored in the Search Suggestion \[sys\_search\_suggestion\] table to 500,000. A periodic pruning job removes the least relevant suggestions and increases the overall relevancy of suggestions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/search-suggestions/limit-number-of-suggestions.html
 release: zurich
 product: Search Suggestions
 classification: search-suggestions
@@ -23,7 +24,7 @@ Role required: admin
 
 By default, the pruning job runs once a week and limits the Search Suggestion \[sys\_search\_suggestion\] table to 500,000 suggestions. Once the table reaches that limit, the pruning job removes the lowest-rated auto-complete suggestions and search suggestions to keep the maximum number of suggestions at 500,000. Pruning the least relevant suggestions improves the relevancy of the suggestions.
 
-How often you run the pruning job might depend on how frequently you [generate suggestions from the Search Suggestion table](schedule-search-suggestion-builds.md), and how quickly the table exceeds 500,000 suggestions.
+How often you run the pruning job might depend on how frequently you [generate suggestions from the Search Suggestion table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/search-suggestions/schedule-search-suggestion-builds.md), and how quickly the table exceeds 500,000 suggestions.
 
 ## Procedure
 

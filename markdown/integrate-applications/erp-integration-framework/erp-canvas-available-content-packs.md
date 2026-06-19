@@ -2,6 +2,7 @@
 title: Available Zero Copy Connector for ERP data products
 description: The following data products are available for use in Zero Copy Connector for ERP to implement and deploy applications with less manual work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erp-canvas-available-content-packs.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -50,5 +51,5 @@ The ERP Data Product for Source to Settle contains models including Purchase Ord
 |---------------------|--------------|-------|
 |Models|ECC and S/4|RFC/BAPI/OData V2|
 
-**Parent Topic:**[Zero Copy Connector for ERP data products](erp-canvas-content-packs.md)
+**Parent Topic:**[Zero Copy Connector for ERP data products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md)
 

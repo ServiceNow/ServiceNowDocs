@@ -2,6 +2,7 @@
 title: Install ReleaseOps
 description: Install ReleaseOps from the ServiceNow Store for the first time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/releaseops/install-releaseops.html
 release: zurich
 product: ReleaseOps
 classification: releaseops
@@ -36,7 +37,7 @@ Because ReleaseOps involves a multi-instance ecosystem, you must complete this p
 
 6.  Run the installation on your instance and accept all of the plugins.
 
-    For more information about installing a ServiceNow® Store application on your instance, see [Install an application or plugin](https://www.servicenow.com/docs/access?context=installing-applications-in-application-manager&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For more information about installing a ServiceNow® Store application on your instance, see .
 
 
 ## Result

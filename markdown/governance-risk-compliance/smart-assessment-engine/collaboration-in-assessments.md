@@ -2,6 +2,7 @@
 title: Collaboration in assessments
 description: Collaboration in Smart Assessment Engine enables you to add multiple contributors to an assessment and support live collaboration with real-time updates. It also displays presence indicators to show who is active on the assessment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/smart-assessment-engine/collaboration-in-assessments.html
 release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine

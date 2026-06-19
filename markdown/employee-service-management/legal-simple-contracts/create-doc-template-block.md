@@ -2,6 +2,7 @@
 title: Create a document block for legal contract templates
 description: Create document blocks that you can use in multiple document templates for legal contracts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-simple-contracts/create-doc-template-block.html
 release: zurich
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -77,5 +78,5 @@ Information about the document template block.
 
 ## What to do next
 
-[Add block content in a document template block](create-doc-template-block-content.md).
+[Add block content in a document template block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/create-doc-template-block-content.md).
 

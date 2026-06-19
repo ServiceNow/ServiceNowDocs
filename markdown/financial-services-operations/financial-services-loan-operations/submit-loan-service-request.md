@@ -2,6 +2,7 @@
 title: Submit a loan service request as a requester
 description: Help your customers by submitting a loan service request for them. As a requester in the front office, you can do this service for your customer \(consumer or business contact\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-loan-operations/submit-loan-service-request.html
 release: zurich
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
@@ -32,19 +33,19 @@ Business customers and consumers can also submit loan service requests from the 
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Create a loan request from the customer record or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d94858e115">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d96978e115">
 
 Option
 
-</th><th align="left" id="d94858e118">
+</th><th align="left" id="d96978e118">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d94858e124">
+</th></tr></thead><tbody><tr><td id="d96978e124">
 
 **Personal loan service request for a consumer**
 
@@ -54,7 +55,7 @@ Steps
 2.  Click the customer record that you want to open.
 
 
-</td></tr><tr><td id="d94858e151">
+</td></tr><tr><td id="d96978e151">
 
 **Business loan service request for a business customer**
 
@@ -64,7 +65,7 @@ Steps
 2.  Click the customer record that you want to open.
 
 
-</td></tr><tr><td id="d94858e181">
+</td></tr><tr><td id="d96978e181">
 
 **Loan service request from an interaction record**
 
@@ -72,7 +73,7 @@ Steps
 
 1.  In the **Lists** tab, under **Interactions**, click **My Interactions**.
 2.  Click the interaction record for the customer that you want to open.
- For information on how to create an interaction, see [Create an interaction](https://www.servicenow.com/docs/access?context=create-interactions&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+ For information on how to create an interaction, see Create an interaction.
 
 </td></tr></tbody>
 </table>4.  Click **Create Loan Request**.

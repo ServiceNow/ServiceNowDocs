@@ -2,6 +2,7 @@
 title: Modify the query or lane field for an existing Visual Task Board
 description: For flexible and guided Visual Task Boards, you can edit the board query or lane field. This ability enables you to change the board contents while preserving the member list, board configuration settings, and, if applicable, Connect Chat conversation history.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/visual-task-boards/t\_ModifyQueryForExistingBoard.html
 release: zurich
 product: Visual Task Boards
 classification: visual-task-boards
@@ -31,11 +32,11 @@ The lane field is the field on the underlying table that defines the lanes. For 
 
 1.  Open a Visual Task Board.
 
-2.  Select the information icon \(![Board information icon](../image/BoardInfoIcon.png)\) by the board name.
+2.  Select the information icon \(\[Omitted image "BoardInfoIcon.png"\] Alt text: Board information icon\) by the board name.
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_uxv_q2g_pv"><tbody><tr><td id="d118285e83">
+<table id="choicetable_uxv_q2g_pv"><tbody><tr><td id="d75325e83">
 
 **Edit the board query**
 
@@ -46,7 +47,7 @@ The lane field is the field on the underlying table that defines the lanes. For 
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d118285e113">
+</td></tr><tr><td id="d75325e113">
 
 **Change the lane field**
 
@@ -63,5 +64,5 @@ Guided boards have the **Vertical Lane Field** set to a field, such as **State**
 </table>    The board reloads to reflect the changes.
 
 
-**Parent Topic:**[Customizing and configuring Visual Task Boards](../concept/configuring-vis-task-boards.md)
+**Parent Topic:**[Customizing and configuring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/configuring-vis-task-boards.md)
 

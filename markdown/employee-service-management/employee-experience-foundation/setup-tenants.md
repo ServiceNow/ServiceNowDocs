@@ -2,6 +2,7 @@
 title: Setting up the ServiceNow instance for Microsoft Teams integration
 description: Set up your ServiceNow instance for the Microsoft Teams integrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/setup-tenants.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -25,12 +26,12 @@ Use the self-configured app or pre-published app configuration based on the foll
 
 For best practices and guidelines, refer to the Knowledge base article: [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB1586849](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1586849).
 
--   **[Setup for integrating pre-published apps with Microsoft Teams](setup-multi-tenant.md)**  
+-   **[Setup for integrating pre-published apps with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/setup-multi-tenant.md)**  
 Prepare your environment to set up and configure your ServiceNow instance for Microsoft Teams integrations using the pre-published app configuration.
--   **[Setup for integrating self-configured apps with Microsoft Teams](setup-single-tenant.md)**  
+-   **[Setup for integrating self-configured apps with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/setup-single-tenant.md)**  
 Prepare your environment to set up and configure ServiceNow for Microsoft Teams integrations using the self-configured app.
--   **[Setup Copilot integration for ServiceNow for Microsoft 365](../task/configure-the-copilot-integration-for-servicenow-for-ms365.md)**  
+-   **[Setup Copilot integration for ServiceNow for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/configure-the-copilot-integration-for-servicenow-for-ms365.md)**  
 Enable co-pilot integration for ServiceNow for Microsoft 365.
 
-**Parent Topic:**[Integrating ServiceNow with Microsoft Teams and Microsoft 365](setup-sn-ms-teams.md)
+**Parent Topic:**[Integrating ServiceNow with Microsoft Teams and Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/setup-sn-ms-teams.md)
 

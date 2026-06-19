@@ -2,6 +2,7 @@
 title: Customize Firewall Audits and Reporting
 description: Change Discovery properties to customize some of the aspects of Firewall Audits and Reporting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/customize-firewall-audit-reporting.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -21,13 +22,13 @@ Role required: discovery\_admin or admin
 
 ## About this task
 
-[Discovery properties](../reference/r_DiscoveryProperties.md) manage various aspects of the horizontal discovery process. This procedure explains how to assign default policy owner group and approval group names for approving firewall rule tasks.
+[Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_DiscoveryProperties.md) manage various aspects of the horizontal discovery process. This procedure explains how to assign default policy owner group and approval group names for approving firewall rule tasks.
 
 ## Procedure
 
-1.  To edit [Discovery properties](../reference/r_DiscoveryProperties.md), navigate to **All** &gt; **Discovery Definition** &gt; **Properties**.
+1.  To edit [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_DiscoveryProperties.md), navigate to **All** &gt; **Discovery Definition** &gt; **Properties**.
 
-    For more information on properties, see [Discovery properties](../reference/r_DiscoveryProperties.md).
+    For more information on properties, see [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_DiscoveryProperties.md).
 
     -   sn\_disco\_firewall.default.rule.task.policy.owner.group: Your default task owner group name
     -   sn\_disco\_firewall.default.rule.task.approval.group: Your default approval group name
@@ -38,5 +39,5 @@ Role required: discovery\_admin or admin
     These feature saves time by automatically filling in your default owner group and approval group in requests.
 
 
-**Parent Topic:**[Visibility to Firewall inventory](../concept/use-firewall-audit-rep.md)
+**Parent Topic:**[Visibility to Firewall inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/use-firewall-audit-rep.md)
 

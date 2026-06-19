@@ -2,6 +2,7 @@
 title: Configuring employee document management bulk import with source document repository
 description: Use Employee Document Import Configuration to identify and communicate with the source document repository. The source document repository is where you currently store your employee documents.To import employee documents, map the source employee documents from your local document repository or third-party cloud-based repository to Employee Document Management.Use Employee Document Import Jobs to create a Verify source step. Verify is required to validate the connection between your local directory or your third-party, cloud-based document repository and Employee Document Management. The Verify source step also validates that source employee files are there to be processed.Use Employee Document Import Jobs to create or edit the Stage Directory source step.Use Employee Document Import Jobs to create or edit the stage file source step. Stage file is required to stage your source employee documents from your third-party, cloud-based document repository.Use Employee Document Import Jobs to create or edit the capture source step. Capture is required to import your source employee documents from your local or third-party, cloud-based document repository.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-document-management/edm-bulk-configuration.html
 release: zurich
 product: Employee Document Management
 classification: employee-document-management
@@ -130,16 +131,16 @@ Log mapping
 Indicates that you want to write debug statements to the system log during the staging phase. Log mapping provides an easier debugging of mapping. Recommended when first configuring bulk imports during the testing phase.
 
 </td></tr></tbody>
-</table>    **Note:** For more information on credentials and aliases, see [Introduction to credentials, connections, and aliases](https://www.servicenow.com/docs/access?context=credentials-connections-alias&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+</table>    **Note:** For more information on credentials and aliases, see Introduction to credentials, connections, and aliases.
 
-    For more information on domain separation, see [Domain Separation and HR Service Delivery](../concept/hr-domain-separation.md).
+    For more information on domain separation, see [Domain Separation and HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-domain-separation.md).
 
 3.  Select **Save**, **Submit**, or **Update**.
 
     The Employee Document Import Sources and Employee Document Import Map tabs appear.
 
 
-**Parent Topic:**[Bulk imports in Employee Document Management](../concept/edm-bulk-uploads.md)
+**Parent Topic:**[Bulk imports in Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-document-management/edm-bulk-uploads.md)
 
 ## Create or edit import configuration
 
@@ -175,7 +176,7 @@ Configuration
 
 </td><td>
 
-The name of the employee document bulk import configuration. See [Configuring employee document management bulk import with source document repository](edm-bulk-configuration.md#).
+The name of the employee document bulk import configuration. See [Configuring employee document management bulk import with source document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-document-management/edm-bulk-configuration.md).
 
 </td></tr><tr><td>
 
@@ -266,7 +267,7 @@ Locates specific text found in the array of information returned from the source
 
         To find and extract the file name from the source repository, see this example:
 
-        ![Import Map — File name](../image/import-map-filename.png)
+        \[Omitted image "import-map-filename.png"\] Alt text: Import Map — File name
 
         The import map is looking for a source element called fileName.
 
@@ -278,7 +279,7 @@ Locates specific text found in the array of information returned from the source
 
         From the file name, the employee name is extracted. Employee name is a requirement for Employee Document Management.
 
-        ![Import Map — Employee Name](../image/import-map-employee.png)
+        \[Omitted image "import-map-employee.png"\] Alt text: Import Map — Employee Name
 
         The import map is looking for a source element called fileName.
 
@@ -292,7 +293,7 @@ Locates specific text found in the array of information returned from the source
 
         From the file name, the document type is extracted. Document type is a requirement for Employee Document Management.
 
-        ![Import Map — docType](../image/import-map-doctype.png)
+        \[Omitted image "import-map-doctype.png"\] Alt text: Import Map — docType
 
         The import map is looking for a source element called fileName.
 
@@ -357,10 +358,10 @@ Import type
 
 </td><td>
 
-The import type that drives the source step. You can select the method that drives the source step. -   Sub flow: A workflow launched by another workflow to drive the import step. See [Workflows used as subflows](https://www.servicenow.com/docs/access?context=workflows-as-subflows&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
--   Flow action: The Flow Designer action that drives the import step. See [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
--   Workflow: An automated way to provide a multi-step process. See [Workflow](https://www.servicenow.com/docs/access?context=c_WorkflowOverview&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
--   Script: Use to automate the import step. See [Scripts](https://www.servicenow.com/docs/access?context=c_Script&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+The import type that drives the source step. You can select the method that drives the source step. -   Sub flow: A workflow launched by another workflow to drive the import step. See Workflows used as subflows.
+-   Flow action: The Flow Designer action that drives the import step. See Flow Designer.
+-   Workflow: An automated way to provide a multi-step process. See Workflow.
+-   Script: Use to automate the import step. See Scripts.
 
 
 </td></tr><tr><td>
@@ -441,7 +442,7 @@ Configuration
 
 </td><td>
 
-A descriptive name that identifies your employee document bulk upload configuration. The name comes from the Employee Document Import Configuration. See [Configuring employee document management bulk import with source document repository](edm-bulk-configuration.md#).
+A descriptive name that identifies your employee document bulk upload configuration. The name comes from the Employee Document Import Configuration. See [Configuring employee document management bulk import with source document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-document-management/edm-bulk-configuration.md).
 
 </td></tr><tr><td>
 
@@ -457,10 +458,10 @@ Import type
 
 </td><td>
 
-The import type that drives the source step. You can select the method that drives the source step. -   Sub flow: A workflow launched by another workflow to drive the import step. See [Workflows used as subflows](https://www.servicenow.com/docs/access?context=workflows-as-subflows&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
--   Flow action: The Flow Designer action that drives the import step. See [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
--   Workflow: An automated way to provide a multi-step process. See [Workflow](https://www.servicenow.com/docs/access?context=c_WorkflowOverview&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
--   Script: Use to automate the import step. See [Scripts](https://www.servicenow.com/docs/access?context=c_Script&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+The import type that drives the source step. You can select the method that drives the source step. -   Sub flow: A workflow launched by another workflow to drive the import step. See Workflows used as subflows.
+-   Flow action: The Flow Designer action that drives the import step. See Flow Designer.
+-   Workflow: An automated way to provide a multi-step process. See Workflow.
+-   Script: Use to automate the import step. See Scripts.
 
 
 </td></tr><tr><td>
@@ -531,7 +532,7 @@ Configuration
 
 </td><td>
 
-A descriptive name that identifies your employee document bulk upload configuration. The name comes from the Employee Document Import Configuration. See [Configuring employee document management bulk import with source document repository](edm-bulk-configuration.md#).
+A descriptive name that identifies your employee document bulk upload configuration. The name comes from the Employee Document Import Configuration. See [Configuring employee document management bulk import with source document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-document-management/edm-bulk-configuration.md).
 
 </td></tr><tr><td>
 
@@ -547,10 +548,10 @@ Import type
 
 </td><td>
 
-The import type that drives the source step. You can select the method that drives the source step. -   Sub flow: A workflow launched by another workflow to drive the import step. See [Workflows used as subflows](https://www.servicenow.com/docs/access?context=workflows-as-subflows&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
--   Flow action: The Flow Designer action that drives the import step. See [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
--   Workflow: An automated way to provide a multi-step process. See [Workflow](https://www.servicenow.com/docs/access?context=c_WorkflowOverview&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
--   Script: Use to automate the import step. See [Scripts](https://www.servicenow.com/docs/access?context=c_Script&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+The import type that drives the source step. You can select the method that drives the source step. -   Sub flow: A workflow launched by another workflow to drive the import step. See Workflows used as subflows.
+-   Flow action: The Flow Designer action that drives the import step. See Flow Designer.
+-   Workflow: An automated way to provide a multi-step process. See Workflow.
+-   Script: Use to automate the import step. See Scripts.
 
 
 </td></tr><tr><td>
@@ -590,7 +591,7 @@ The subflow, flow action, workflow, or script that launches the source step base
 
 7.  Reload the form to see if the Stage import step completed.
 
-    The **Employee Document Staging** tab appears. You can view all source documents that are in the staging table and make corrections if necessary. See [Correcting employee documents in the staging table](edm-doc-staging.md).
+    The **Employee Document Staging** tab appears. You can view all source documents that are in the staging table and make corrections if necessary. See [Correcting employee documents in the staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-document-management/edm-doc-staging.md).
 
 8.  Change staged documents that have a state of **Draft** to **Ready**.
 
@@ -633,7 +634,7 @@ Configuration
 
 </td><td>
 
-A descriptive name that identifies your employee document bulk upload configuration. The name comes from the Employee Document Import Configuration. See [Configuring employee document management bulk import with source document repository](edm-bulk-configuration.md#).
+A descriptive name that identifies your employee document bulk upload configuration. The name comes from the Employee Document Import Configuration. See [Configuring employee document management bulk import with source document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-document-management/edm-bulk-configuration.md).
 
 </td></tr><tr><td>
 
@@ -651,10 +652,10 @@ Import type
 
 </td><td>
 
-The import type that drives the source step. You can select the method that drives the source step. -   Sub flow: A workflow launched by another workflow to drive the import step. See [Workflows used as subflows](https://www.servicenow.com/docs/access?context=workflows-as-subflows&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
--   Flow action: The Flow Designer action that drives the import step. See [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
--   Workflow: An automated way to provide a multi-step process. See [Workflow](https://www.servicenow.com/docs/access?context=c_WorkflowOverview&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
--   Script: Use to automate the import step. See [Scripts](https://www.servicenow.com/docs/access?context=c_Script&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+The import type that drives the source step. You can select the method that drives the source step. -   Sub flow: A workflow launched by another workflow to drive the import step. See Workflows used as subflows.
+-   Flow action: The Flow Designer action that drives the import step. See Flow Designer.
+-   Workflow: An automated way to provide a multi-step process. See Workflow.
+-   Script: Use to automate the import step. See Scripts.
 
 
 </td></tr><tr><td>

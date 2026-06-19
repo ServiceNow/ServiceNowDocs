@@ -2,6 +2,7 @@
 title: Create a fulfillment flow for an Operational Technology request
 description: Create a fulfillment flow with catalog tasks in Workflow Studio for your catalog item as needed to fulfill an Operational Technology \(OT\) request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-request-management/create-a-fulfillment-flow-ot-request.html
 release: zurich
 product: Operational Technology Request Management
 classification: operational-technology-request-management
@@ -33,17 +34,17 @@ You can link a fulfillment flow to your catalog item. Fulfillment flows trigger 
 
 4.  On the **Properties** form, fill out the fields.
 
-    For more information about the **Properties** form, see [Create a flow in Workflow Studio](https://www.servicenow.com/docs/access?context=create-flow&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+    For more information about the **Properties** form, see .
 
 5.  Select **Build Flow**.
 
 6.  Add a trigger to your flow.
 
-    For more information, see [Create a flow in Workflow Studio](https://www.servicenow.com/docs/access?context=create-flow&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+    For more information, see .
 
 7.  Add actions, flows, subflows, or glow logic.
 
-    For more information, see [Create a flow in Workflow Studio](https://www.servicenow.com/docs/access?context=create-flow&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+    For more information, see .
 
 8.  Select **Save**.
 
@@ -52,5 +53,5 @@ You can link a fulfillment flow to your catalog item. Fulfillment flows trigger 
 
 Workflow Studio saves a draft of the flow, trigger, and actions for the fulfillment flow. You can now choose the fulfillment flow and apply it to a catalog item.
 
-**Parent Topic:**[Configuring Operational Technology Request Management](../concept/configuring-operational-technology-request-management.md)
+**Parent Topic:**[Configuring Operational Technology Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-request-management/configuring-operational-technology-request-management.md)
 

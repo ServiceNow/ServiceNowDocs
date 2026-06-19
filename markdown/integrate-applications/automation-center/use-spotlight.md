@@ -2,6 +2,7 @@
 title: Working with ServiceNow Spotlight
 description: Use the spotlight feature to auto-calculate the score of an automation request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/automation-center/use-spotlight.html
 release: zurich
 product: Automation Center
 classification: automation-center
@@ -24,5 +25,5 @@ If there’s any special need to have a different score than the auto-computed s
 
 You can switch over to using computed score by emptying the **Score** field or setting it to 0. After you save the request record, the system will populate the Spotlight score \(if any\) in the **Score** field.
 
-**Parent Topic:**[Working with ServiceNow Spotlight feature](spotlight-ac.md)
+**Parent Topic:**[Working with ServiceNow Spotlight feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/spotlight-ac.md)
 

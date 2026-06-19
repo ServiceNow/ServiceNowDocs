@@ -2,6 +2,7 @@
 title: Configure Discovery to use Event Framework
 description: Configure Discovery to process jobs using the Event Framework method, which enables you to manage discovery throttling effectively and prioritize tasks based on their importance in the queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/t\_ConfigureDiscoveryEventFramework.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -45,10 +46,10 @@ The Event Framework reduces database churn by cycling through multiple event tab
 
 When an input record is added to the ECC Queue, a business rule is triggered, which fires an event. The system processes these events at regular intervals with a default priority of 100.
 
-**Note:** To update a job priority, configure the **com.glide.queue.discovery.sensors.processing\_jobs.priority** and **com.glide.queue.discovery.cloud.sensors.processing\_jobs.priority** system properties. For more information, see [Configure the job priority of background workers for Event Framework](t_ConfigureBackgroundWorkerJobPriorityEF.md).
+**Note:** To update a job priority, configure the **com.glide.queue.discovery.sensors.processing\_jobs.priority** and **com.glide.queue.discovery.cloud.sensors.processing\_jobs.priority** system properties. For more information, see [Configure background worker job priority for Event Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_ConfigureBackgroundWorkerJobPriorityEF.md).
 
--   **[Optimizing Discovery load for Event Framework](../concept/c_FineTuneDiscoLoadEF.md)**  
+-   **[Optimizing Discovery load for Event Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_FineTuneDiscoLoadEF.md)**  
 You can optimize Discovery properties to adjust throughput and enhance safety when pinning jobs.
 
-**Parent Topic:**[Advanced Discovery configuration](../concept/c_DiscoveryExtendedCapabilities.md)
+**Parent Topic:**[Advanced Discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_DiscoveryExtendedCapabilities.md)
 

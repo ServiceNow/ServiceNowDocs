@@ -2,6 +2,7 @@
 title: Content filtering for Workflow Studio flows
 description: Specify which content a user can access based on the user's role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/content-filtering-flow-designer.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -36,7 +37,7 @@ Content filtering rules specify the role that a user must have to access the con
 
 ## Feature access
 
-You can also filter access to Workflow Studio flow features. Features are UI elements and sections. Access to both elements and sections can be managed by configuring content definitions and filtering rules. However, access to UI elements can also be managed through a simplified UI. For more information, see [Manage access to Workflow Studio flow features](../task/manage-access-features.md).
+You can also filter access to Workflow Studio flow features. Features are UI elements and sections. Access to both elements and sections can be managed by configuring content definitions and filtering rules. However, access to UI elements can also be managed through a simplified UI. For more information, see [Manage access to Workflow Studio flow features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/manage-access-features.md).
 
 ## Read-only flows
 
@@ -223,10 +224,10 @@ Transform functions
 -   Any flow, subflow, or action that includes a transform function can be modified. The transform function is read-only.
 
 </td></tr></tbody>
-</table>-   **[Configure content filtering definitions](../task/configure-content-filtering.md)**  
+</table>-   **[Configure content filtering definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/configure-content-filtering.md)**  
 Specify which content a user can access by creating content definitions.
--   **[Configure content filtering rules](../task/configure-content-filtering-rules.md)**  
+-   **[Configure content filtering rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/configure-content-filtering-rules.md)**  
 Use content filtering rules to specify the role a user must have to access content.
 
-**Parent Topic:**[User access to Workflow Studio flows](user-access-flow-designer.md)
+**Parent Topic:**[User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/user-access-flow-designer.md)
 

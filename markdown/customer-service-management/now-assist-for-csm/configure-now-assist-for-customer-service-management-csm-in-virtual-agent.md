@@ -2,6 +2,7 @@
 title: Configure Now Assist for Customer Service Management \(CSM\) in Virtual Agent
 description: Use Now Assist for CSM in Virtual Agent to provide users a content-driven generative AI experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/configure-now-assist-for-customer-service-management-csm-in-virtual-agent.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -26,11 +27,11 @@ To ensure LLM-based appointment booking works in Customer Service Management, th
 
 There are 6 main steps to configure Now Assist for CSM in Virtual Agent:
 
-1.  [Activate Virtual Agent for Customer Service Management \(CSM\).](../task/activate-virtual-agent-csm.md)
-2.  [Configure Now Assist in Virtual Agent.](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US)
-3.  [Install Conversational Appointment Booking.](../task/conv_appt_booking_install.md)
-4.  [Enable Walk-up Experience Appointment Booking.](csm-walkup-appt-booking.md)
-5.  [Configure API credentials for OpenAI](https://www.servicenow.com/docs/access?context=configure-api-credentials-for-openai&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+1.  [Activate Virtual Agent for Customer Service Management \(CSM\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/activate-virtual-agent-csm.md)
+2.  Configure Now Assist in Virtual Agent.
+3.  [Install Conversational Appointment Booking.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/conv_appt_booking_install.md)
+4.  [Enable Walk-up Experience Appointment Booking.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-appt-booking.md)
+5.  .
 6.  Enable Schedule a Walk-up Appointment topic in the Virtual Agent.
 
 ## Procedure

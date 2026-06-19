@@ -2,6 +2,7 @@
 title: Configure a JAR file and credential identifiers
 description: Configure a JAR file and credential identifiers so that the JAR file resolves the credential identifiers into actual credentials from the CyberArk external vault. The process enables the MID Server to get and include OAuth 2.0 credentials in the OAuth token request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/connections-and-credentials/configure-and-import-jar-file.html
 release: zurich
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -23,10 +24,10 @@ The CyberArk external vault stores sensitive credentials and the ServiceNow inst
 
 ## Procedure
 
-1.  [Import the CyberArk JAR file](t_ImportTheCyberArkJARFile.md).
+1.  [Import the CyberArk JAR file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/t_ImportTheCyberArkJARFile.md).
 
-2.  [Configure a connection to send OAuth request via the MID Server using external vault](configure-oauth-2-0-authentication.md).
+2.  [Configure a connection to send OAuth request via the MID Server using external vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/configure-oauth-2-0-authentication.md).
 
 
-**Parent Topic:**[OAuth 2.0 authentication via MID Server using external credential storage](../concept/oauth-2-0-support-in-external-credential.md)
+**Parent Topic:**[OAuth 2.0 authentication via MID Server using external credential storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/oauth-2-0-support-in-external-credential.md)
 

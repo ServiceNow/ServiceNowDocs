@@ -2,6 +2,7 @@
 title: Define user actions for task logging
 description: Group workstation user actions as a task that can be logged to provide data for a Task activity analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/task-mining/mine-data.html
 release: zurich
 product: Task Mining
 classification: task-mining
@@ -45,7 +46,7 @@ Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admi
 
         Activity collection is user-initiated tasks. Workstation users to start and stop activity collection by following instructions. Targeted activity collection only uses user-initiated task scopes, and at least one task must be defined if you choose this option.
 
-    ![Screenshot showing task scope options.](../image/tm-add-task-scope.png)
+    \[Omitted image "tm-add-task-scope.png"\] Alt text: Screenshot showing task scope options.
 
 7.  On the form, fill in the fields.
 
@@ -58,14 +59,14 @@ Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admi
 |Start|State that triggers the starting point of the task.|
 |End|State that triggers the end point of the task.|
 
-    ![Screenshot showing automated task scope fields.](../image/tm-task-scope-project.png)
+    \[Omitted image "tm-task-scope-project.png"\] Alt text: Screenshot showing automated task scope fields.
 
     |Field|Description|
     |-----|-----------|
     |Task name|Name for the user-initiated task.|
     |Task instructions|Directions for workstation users to start and stop activity collection.|
 
-    ![Screenshot showing user-initiated task fields.](../image/tm-user-initiated-task.png)
+    \[Omitted image "tm-user-initiated-task.png"\] Alt text: Screenshot showing user-initiated task fields.
 
 9.  Repeat steps 5–7 for every task you want to add to this project.
 
@@ -83,9 +84,9 @@ To configure a task to track the status of P1 incidents from creation to closing
 |Start|New|
 |End|Closed|
 
-![Screenshot showing the example task.](../image/tm-task-example.png)
+\[Omitted image "tm-task-example.png"\] Alt text: Screenshot showing the example task.
 
 ## What to do next
 
-Select workstation users you want to collect activity data from and create data requests. For more information, see [Add workstation users to a Task Mining project](add-users-to-task-mining-project.md).
+Select workstation users you want to collect activity data from and create data requests. For more information, see [Add workstation users to a Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/task-mining/add-users-to-task-mining-project.md).
 

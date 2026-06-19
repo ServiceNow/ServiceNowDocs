@@ -2,6 +2,7 @@
 title: Configure the AI agent triggers for offboarding to use Employee Center
 description: Add the Employee Center portal to the AI agent trigger configuration used in the offboarding knowledge transfer plan generation agentic workflow. This configuration change enables managers and employees to interact with AI agents through Now Assist in Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-hrsd/config-offboarding-trigger-ec.html
 release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd

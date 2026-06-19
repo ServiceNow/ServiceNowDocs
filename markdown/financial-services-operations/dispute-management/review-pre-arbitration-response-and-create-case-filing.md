@@ -2,6 +2,7 @@
 title: Review the pre-arbitration response and create a case filing
 description: Review the merchant’s response to the pre-arbitration and create a case filing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/review-pre-arbitration-response-and-create-case-filing.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -27,7 +28,7 @@ After you receive the merchant’s response for pre-arbitration, the response is
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -51,15 +52,15 @@ After you receive the merchant’s response for pre-arbitration, the response is
 
 10. In the **Pre arbitration outcome** field, select **Resolved** or **Unresolved**.
 
-<table id="choicetable_inv_t2g_2fc"><thead><tr><th align="left" id="d114963e217">
+<table id="choicetable_inv_t2g_2fc"><thead><tr><th align="left" id="d77543e217">
 
 Selection
 
-</th><th align="left" id="d114963e220">
+</th><th align="left" id="d77543e220">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d114963e226">
+</th></tr></thead><tbody><tr><td id="d77543e226">
 
 **Unresolved**
 
@@ -72,7 +73,7 @@ the field **Do you want to create case filing?** is displayed.1.  Create a case 
 5.  Select **Submit dispute filing**.
 
 
-</td></tr><tr><td id="d114963e272">
+</td></tr><tr><td id="d77543e272">
 
 **Resolved**
 
@@ -93,5 +94,5 @@ Retrieve the letter by selecting `Get acknowledgement letter`. The letter can be
 1.  After a decision by Visa is available, you can access it by selecting **Get case filing response**.
 2.  The task is automatically closed and the **Review case filing response** activity and appeal is available.
 
-**Parent Topic:**[Collaboration dispute workflow](../concept/collaboration-dispute-workflow.md)
+**Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
 

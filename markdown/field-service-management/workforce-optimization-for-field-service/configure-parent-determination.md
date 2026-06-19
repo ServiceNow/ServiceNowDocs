@@ -2,6 +2,7 @@
 title: Create parent determination rules for service locations
 description: Create parent determination rules that facilitate assignment of a parent to a service location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/configure-parent-determination.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -46,7 +47,7 @@ Role required: wm\_admin
 
 4.  Enter the **Country** name in the text field.
 
-5.  In the **Parent** field, click the Lookup using list icon \( ![Lookup icon.](../image/magnifying-glass.png)\) and select the parent location from the region list.
+5.  In the **Parent** field, click the Lookup using list icon \( \[Omitted image "magnifying-glass.png"\] Alt text: Lookup icon.\) and select the parent location from the region list.
 
 6.  Click **Submit**.
 

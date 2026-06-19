@@ -2,6 +2,7 @@
 title: Populate the homepage migration status table for multiple domains
 description: By default, the flow to populate the homepage migration status table applies only to the global domain. You can create a flow to apply to the other domains in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/populate-hp-migration-status-table-multi-domains.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -23,17 +24,17 @@ Role required: admin
 
 1.  Use the domain picker to select a domain scope.
 
-    ![Domain picker with Domain scope: ACME selected](../image/domain-scope-picker.png)
+    \[Omitted image "domain-scope-picker.png"\] Alt text: Domain picker with Domain scope: ACME selected
 
 2.  Navigate to **All** &gt; **Flow Designer**.
 
 3.  Find the Populate Homepage migration status table flow and open it.
 
-    ![Flow designer list of flows that contain the name Populate Homepage migration status table](../image/populate-hpmst-flow.png)
+    \[Omitted image "populate-hpmst-flow.png"\] Alt text: Flow designer list of flows that contain the name Populate Homepage migration status table
 
 4.  Select the **More Actions** menu and choose **Copy Flow**.
 
-    ![Flow designer More Actions menu with the Copy flow option highlighted.](../image/flow-designer-copy-flow.png)
+    \[Omitted image "flow-designer-copy-flow.png"\] Alt text: Flow designer More Actions menu with the Copy flow option highlighted.
 
 5.  Select the application `Homepage deprecation help tool` and select **Copy**.
 
@@ -41,6 +42,6 @@ Role required: admin
 
     The flow points to the selected domain scope.
 
-    ![Properties of the copied homepage migration status table flow pointing to the selected domain](../image/flow-designer-sub-domain-properties.png)
+    \[Omitted image "flow-designer-sub-domain-properties.png"\] Alt text: Properties of the copied homepage migration status table flow pointing to the selected domain
 
 

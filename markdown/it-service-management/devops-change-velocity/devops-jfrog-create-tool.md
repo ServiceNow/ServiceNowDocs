@@ -2,11 +2,12 @@
 title: Onboard JFrog to DevOps Change Velocity — Classic
 description: Connect to an instance of the JFrog artifact tool to enable you to track artifacts published to JFrog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/devops-jfrog-create-tool.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [JFrog, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -19,7 +20,7 @@ Connect to an instance of the JFrog artifact tool to enable you to track artifac
 
 Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
-Complete the steps specified in the [Getting started](../concept/setting-up-devops-change-velocity.md) section before connecting to a tool.
+Complete the steps specified in the [Getting started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md) section before connecting to a tool.
 
 ## Procedure
 
@@ -60,7 +61,7 @@ Tool username, Tool password / Access token
 Login credentials of the global admin for the existing JFrog instance.
 
 </td></tr></tbody>
-</table>    For a list of all the permissions required on the credentials for connecting to JFrog, see JFrog permissions in [Permissions required for DevOps tools](../reference/tool-req-permission.md).
+</table>    For a list of all the permissions required on the credentials for connecting to JFrog, see JFrog permissions in [Permissions required for DevOps tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/tool-req-permission.md).
 
 3.  Select **MID Server** for an on-premises tool that is attached to a MID Server.
 
@@ -68,7 +69,7 @@ Login credentials of the global admin for the existing JFrog instance.
 
 4.  Click **Submit**.
 
-    **Note:** If your tool credential has changed, you must update the credentials in your ServiceNow instance. For more information, see [Update third-party tool credentials in DevOps Change Velocity](update-third-party-tool-credentials-in-devops-change-velocity.md).
+    **Note:** If your tool credential has changed, you must update the credentials in your ServiceNow instance. For more information, see [Update third-party tool credentials in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/update-third-party-tool-credentials-in-devops-change-velocity.md).
 
     If the connection is successful, the tool is created in ServiceNow and connected to your JFrog instance.
 
@@ -86,5 +87,5 @@ Login credentials of the global admin for the existing JFrog instance.
     The **All App Owners can view and associate tool objects to applications** option becomes available for selection if you choose to restrict access to the tool. This option enables all users having the DevOps App Owner role to access the tool. If selected, they’ll be able to view, associate, discover, import historical data, and modify pipeline steps \(if applicable\) of the tool's objects.
 
 
-**Parent Topic:**[JFrog integration with DevOps Change Velocity](../concept/devops-jfrog-integration.md)
+**Parent Topic:**[JFrog integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/devops-jfrog-integration.md)
 

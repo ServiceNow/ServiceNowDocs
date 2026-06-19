@@ -2,6 +2,7 @@
 title: View the Communities performance dashboard
 description: The Communities dashboard displays up-to-date status on community usage, membership, content type and activity, and trends by forum and by topic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/communities/view-communities-dashboard.html
 release: zurich
 product: Communities
 classification: communities
@@ -94,12 +95,12 @@ Heat maps display data for **Number of Posts Moved** and **Featured Content**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Platform Analytics Solutions for Communities](../../../use/dashboards/application-content-packs/communities-content-pack.md)
+**Parent Topic:**[Platform Analytics Solutions for Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/communities-content-pack.md)
 
 **Related topics**  
 
 
-[Performance Analytics scorecards](https://www.servicenow.com/docs/access?context=c_UsePerformanceAnalyticsScorecards&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US)
+[bundle-par.c_UsePerformanceAnalyticsScorecards]
 
-[Performance Analytics widgets](https://www.servicenow.com/docs/access?context=c_Widgets&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US)
+[bundle-par.c_Widgets]
 

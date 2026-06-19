@@ -2,11 +2,12 @@
 title: Create cases for channel partners
 description: Create customer service cases for channel partners to manage customer queries and offer resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/create-cases-for-channel-partners.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Partner Workspace, Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -23,7 +24,7 @@ Role required: sn\_prm.enterprise\_partner\_rel\_manager or sn\_prm.enterprise\_
 
 ## Procedure
 
-1.  Navigate to the **CSM/FSM Configurable Workspace** and select the list ![](../../tmt-assurance-workflows/image/lists_icon-proactive.png) view.
+1.  Navigate to the **CSM/FSM Configurable Workspace** and select the list \[Omitted image "lists\_icon-proactive.png"\] Alt text: view.
 
 2.  Select **Cases** from the Partner Relationship Management module.
 
@@ -31,10 +32,10 @@ Role required: sn\_prm.enterprise\_partner\_rel\_manager or sn\_prm.enterprise\_
 
 4.  On the form, fill in the fields.
 
-    To learn more about the fields on the case form, see [Case form](https://www.servicenow.com/docs/access?context=r_CustomerServiceCaseForm&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+    To learn more about the fields on the case form, see .
 
 5.  Select **Save**.
 
 
-**Parent Topic:**[Partner Workspace](../concept/partner-workspace.md)
+**Parent Topic:**[Partner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/partner-workspace.md)
 

@@ -2,6 +2,7 @@
 title: Reassign a work order task to yourself on a mobile device
 description: Reassign a work order task to yourself through the Field Service Contractor for mobile feature of the ServiceNow Agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/assign-wot-yourself.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -27,7 +28,7 @@ Role required: wm\_ext\_agent or wm\_ext\_manager
 
 3.  Select the work order task from the list.
 
-4.  Tap the more actions \(![More actions icon](../image/OverflowIcon.png)\) icon.
+4.  Tap the more actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon.
 
 5.  Tap **Assign to me**.
 

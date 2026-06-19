@@ -2,6 +2,7 @@
 title: Data Certification planning
 description: Initial planning can make the certification process more successful.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/c\_PlanningDataCertification.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

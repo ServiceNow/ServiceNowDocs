@@ -2,6 +2,7 @@
 title: Compare document versions
 description: Document version comparison enables you to view differences between two versions of a document, highlighting changes such as added, removed, or modified content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/compare-document-version.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -25,9 +26,9 @@ In the navigation filter, enter `sys_property.list` and ensure **glide.documents
 
 ## Procedure
 
-1.  [Create an experience for UI Builder](https://www.servicenow.com/docs/access?context=create-experience&version=zurich&pubname=zurich-application-development&ft:locale=en-US), if an experience is already created, go to Step 5.
+1.  , if an experience is already created, go to Step 5.
 
-2.  [Create a page from a template](https://www.servicenow.com/docs/access?context=reuse-page-definitions&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+2.  .
 
 3.  Go to created page template and select **Use template**.
 
@@ -52,5 +53,5 @@ In the navigation filter, enter `sys_property.list` and ensure **glide.documents
 12. To download the document, select **Download redlined document** showing the changes.
 
 
-**Parent Topic:**[Document versions](../concept/document-mgt-versions.md)
+**Parent Topic:**[Document versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/document-mgt-versions.md)
 

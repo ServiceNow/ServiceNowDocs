@@ -2,6 +2,7 @@
 title: Create a custom Emergency Outreach notification channel
 description: Create a custom Emergency Outreach notification channel to send privacy consent requests using your company's preferred communication method, such as the Slack or Microsoft Teams collaboration platforms. Create the notification channel using a script or a subflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contact-tracing/create-additional-channel-notif.html
 release: zurich
 product: Contact Tracing
 classification: contact-tracing
@@ -31,7 +32,7 @@ For example, if your company's IT network group has a Slack channel that they mo
 
 2.  Click **New**.
 
-    ![New channel record with the script option selected and a default script.](../image/outreach-notif-channel-privacy.png)
+    \[Omitted image "outreach-notif-channel-privacy.png"\] Alt text: New channel record with the script option selected and a default script.
 
 3.  Enter the name of your notification channel.
 
@@ -54,7 +55,7 @@ For example, if your company's IT network group has a Slack channel that they mo
                 }
         ```
 
-        For information about JavaScript APIs for GlideRecord, see [GlideRecord - Scoped](https://www.servicenow.com/docs/access?context=c_GlideRecordScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+        For information about JavaScript APIs for GlideRecord, see GlideRecord - Scoped.
 
     3.  Click **Submit**.
 
@@ -85,7 +86,7 @@ For example, if your company's IT network group has a Slack channel that they mo
 
     1.  Create a subflow to use in the notification.
 
-        For information about creating, publishing, and testing subflows, see [Subflows](https://www.servicenow.com/docs/access?context=subflows&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+        For information about creating, publishing, and testing subflows, see Subflows.
 
         Use the following inputs in the subflow that you create:
 
@@ -112,11 +113,11 @@ For example, if your company's IT network group has a Slack channel that they mo
 
 When a notification is sent using a custom notification channel, a Delivery Logs related list appears in the Outreach message.
 
-![Delivery logs related list showing a failed log status.](../../business-continuity/image/outreach-delivery-log-list.png "Delivery logs related list")
+\[Omitted image "outreach-delivery-log-list.png"\] Alt text: Delivery logs related list showing a failed log status.
 
 1.  Test the notification channel for an outreach message.
 2.  Open any failed channel record to review the error messages and fix errors that caused the notification to fail.
 3.  Continue testing the notification channel until the channel no longer fails.
 
-**Parent Topic:**[Setting up data privacy consent settings for Contact Tracing](../concept/set-up-privacy-consent-settings.md)
+**Parent Topic:**[Setting up data privacy consent settings for Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/set-up-privacy-consent-settings.md)
 

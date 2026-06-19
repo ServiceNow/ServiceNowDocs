@@ -2,6 +2,7 @@
 title: Define the risk appetite for an entity
 description: Define the risk appetite on the entity records in the Risk Management application to evaluate all the possible risks and to set the boundaries for the acceptable and unacceptable risks for your business.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/define-risk-appetite-on-entity.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -21,13 +22,13 @@ Role required: sn\_risk.user
 
 ## About this task
 
-Entity owners can define the risk appetite and tolerance and then copy the qualitative risk appetite to the downstream entities. By doing this task, a business can define and manage an action plan when there's a breach. By defining the qualitative \(numerical scale and ratings\) and quantitative \(monetary value\) appetite, a risk user can understand the risk appetite and take decisions. For more information on the risk appetite and tolerance, see [Risk appetite and tolerance in Advanced Risk](../concept/risk-appetite-tolerance.md).
+Entity owners can define the risk appetite and tolerance and then copy the qualitative risk appetite to the downstream entities. By doing this task, a business can define and manage an action plan when there's a breach. By defining the qualitative \(numerical scale and ratings\) and quantitative \(monetary value\) appetite, a risk user can understand the risk appetite and take decisions. For more information on the risk appetite and tolerance, see [Risk appetite and tolerance in Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/risk-appetite-tolerance.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Select the list icon ![List icon.](../image/list-icon-riskworkspace.png) and navigate to the entity.
+2.  Select the list icon \[Omitted image "list-icon-riskworkspace.png"\] Alt text: List icon. and navigate to the entity.
 
 3.  Define the risk appetite for a new or an existing entity:
 
@@ -35,17 +36,17 @@ Entity owners can define the risk appetite and tolerance and then copy the quali
     -   To define the risk appetite for an existing entity, select and open the required entity record.
 4.  On the entity form, select the **Risk Appetite** section and fill in the fields.
 
-    For a description of the field values, see [Risk appetite fields on the Entity form](../reference/risk-appetite-fields-on-entity.md).
+    For a description of the field values, see [Risk appetite fields on the Entity form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/risk-appetite-fields-on-entity.md).
 
 5.  Select **Save**.
 
-6.  To copy the qualitative appetite to the downstream entities, select the more actions icon ![More actions icon.](../image/icon-more-actions-risk.png) on the form and select **Copy qualitative appetite**.
+6.  To copy the qualitative appetite to the downstream entities, select the more actions icon \[Omitted image "icon-more-actions-risk.png"\] Alt text: More actions icon. on the form and select **Copy qualitative appetite**.
 
     **Important:** You can only copy the qualitative appetite and tolerance to downstream entities when the risk appetite of the downstream entity isn’t overridden. You must define the quantitative appetite and tolerance for each level in the hierarchy.
 
 
--   **[Risk appetite fields on the Entity form](../reference/risk-appetite-fields-on-entity.md)**  
+-   **[Risk appetite fields on the Entity form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/risk-appetite-fields-on-entity.md)**  
 Learn about the risk appetite fields on the Entity form. Use these fields to define the risk appetite, evaluate all the possible risks, and set the boundaries for the acceptable and unacceptable risks in the Risk Management application.
 
-**Parent Topic:**[Using the Risk Workspace](../concept/using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

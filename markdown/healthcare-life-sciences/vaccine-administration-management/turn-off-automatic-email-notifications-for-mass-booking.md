@@ -2,6 +2,7 @@
 title: Turn off automatic email notifications for mass booking
 description: Turn off automatic email notifications by first turning off the default notification for the appointment configuration, then turn off the corresponding business rule. By default, email notifications are automatically sent to users when the appointments are scheduled as part of mass booking.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/vaccine-administration-management/turn-off-automatic-email-notifications-for-mass-booking.html
 release: zurich
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -46,5 +47,5 @@ With the help of admin access, you can configure and modify the business rules t
     3.  In the **Active** field, select **False**.
     4.  Click **Update**.
 
-**Parent Topic:**[Configuring Vaccine Administration Management](../concept/vaccine-mgmt-config.md)
+**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 

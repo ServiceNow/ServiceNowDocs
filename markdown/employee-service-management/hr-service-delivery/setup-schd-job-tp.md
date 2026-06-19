@@ -2,6 +2,7 @@
 title: Set up a scheduled job for talent profile generation
 description: Customize the frequency of the scheduled job to get an uninterrupted flow of new talent profiles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/setup-schd-job-tp.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -46,5 +47,5 @@ The **Generate Talent Profiles** scheduled job is run daily by default, once you
 3.  Select **Execute Now**.
 
 
-**Parent Topic:**[Configuring Talent profile](../concept/config-tp.md)
+**Parent Topic:**[Configuring Talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/config-tp.md)
 

@@ -2,6 +2,7 @@
 title: Requesting workstation user data
 description: Requesting workstation user data enables you to collect and store data for future analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/task-mining/requesting-workstation-user-data.html
 release: zurich
 product: Task Mining
 classification: task-mining
@@ -17,7 +18,7 @@ Requesting workstation user data enables you to collect and store data for futur
 
 The process to request workstation user data is as follows:
 
-1.  A Task Mining analyst submits a data request in the Employee Center. For more information, see [Submit a data collection request](../task/request-workstation-user-logs.md).
+1.  A Task Mining analyst submits a data request in the Employee Center. For more information, see [Submit a data collection request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/task-mining/request-workstation-user-logs.md).
 
     **Note:**
 
@@ -25,10 +26,10 @@ The process to request workstation user data is as follows:
 
 2.  A workstation user's manager approves requests from Task Mining analysts to enable workstation user data collection.
 
-    For more information, see [Approve workspace user data collection](../task/approve-workspace-user-log-requests.md).
+    For more information, see [Approve workspace user data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/task-mining/approve-workspace-user-log-requests.md).
 
 3.  A Task Mining power user monitors data requests to confirm approvals are completed before Task Mining projects begin.
 
-    For more information, see [Follow data request progress](../task/manage-data-log-requests.md).
+    For more information, see [Follow data request progress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/task-mining/manage-data-log-requests.md).
 
 

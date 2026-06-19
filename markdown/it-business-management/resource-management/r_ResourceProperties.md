@@ -2,6 +2,7 @@
 title: Resource Management properties
 description: The Resource Management application provides several properties to control allocations, schedules, and other settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/resource-management/r\_ResourceProperties.html
 release: zurich
 product: Resource Management
 classification: resource-management
@@ -17,7 +18,7 @@ The Resource Management application provides several properties to control alloc
 
 You need the PPS admin role to access the Resource properties.
 
-To manage resource properties, navigate to **Project Administration** &gt; **Settings** &gt; **Properties – Resource**.
+To manage resource properties, navigate to **All** &gt; **Project Administration** &gt; **Settings** &gt; **Properties – Resource**.
 
 <table id="table_xnq_t5p_ts"><thead><tr><th>
 
@@ -163,11 +164,12 @@ The default duration for a calendar event.
 -   If the value of this property is set to 30 minutes, and 1 hour needs to be allocated to the user, the allocation is divided into the two 30-minute blocks when the user is available.
 -   If the value of this property is set to 60 minutes, the allocation is given to the 60-minute block.
 
-**Note:** When you are changing the default value, enter a value which results a finite value when divided by 60. For example, 6, 12, 15, 30 and so on.
+**Note:** When you're changing the default value, enter a value which results a finite value when divided by 60. For example, 6, 12, 15, 30 and so on.
 
 </td><td>
 
-60 \(minutes\)
+-   If you're using FTE for effort calculation, use 0.6
+-   If you're not using FTE for effort calculation, use 60
 
 </td></tr><tr><td>
 
@@ -302,6 +304,30 @@ Excludes the resource assignments with defined statuses from calculating resourc
 
 This field is left empty.
 
+</td></tr><tr><td>
+
+Redistribute remaining effort when extending or reducing a resource assignment \(**com.snc.resource\_management.redistribute\_effort\_on\_extend\_reduce**\)
+
+</td><td>
+
+Remaining effort on a resource assignment is automatically redistributed across the updated date range when the assignment is extended or reduced.
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+Edit effort fields for a resource assignment that has actuals \(**com.snc.resource\_management.edit\_effort\_with\_actuals**\)
+
+</td><td>
+
+Edit the effort fields for a resource assignment even when actual values have been recorded.
+
+</td><td>
+
+true
+
 </td></tr></tbody>
-</table>**Parent Topic:**[Resource Management reference](../task/rsrc-mgmt-reference.md)
+</table>**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rsrc-mgmt-reference.md)
 

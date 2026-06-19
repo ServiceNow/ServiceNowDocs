@@ -2,6 +2,7 @@
 title: Map hardware assets to an operational schedule
 description: Create an asset schedule to map the hardware assets to an operation schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/create-asset-schedule-ham.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management

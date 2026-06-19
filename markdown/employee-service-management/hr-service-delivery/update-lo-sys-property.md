@@ -2,6 +2,7 @@
 title: Configure learning objects for To-dos page
 description: Add or remove learning objects that appear on the To-dos page as learning tasks using the sn\_hr\_cornerstone.filtered\_learning\_objects system property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/update-lo-sys-property.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

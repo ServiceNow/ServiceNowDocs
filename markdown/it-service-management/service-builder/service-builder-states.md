@@ -2,12 +2,13 @@
 title: Service Builder approval flow
 description: As you create and edit services and service offerings in Service Builder, various states get assigned and change on the services' way to being published \(approved\). Administrators enable the standard approval flow and can even customize it using the subflow option in Workflow Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-builder/service-builder-states.html
 release: zurich
 product: Service Builder
 classification: service-builder
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Service Builder, IT Service Management]
 ---
 
@@ -67,8 +68,8 @@ A service item is in the **Draft** state in one of these scenarios:
 **Note:** In the **Draft** state \(checked out\), the item displays in both Service Builder and in Service Portfolio Management in one or more of the following ways:
 
         -   The word \[DRAFT\] is in front of the checked out item name.
-        -   A red dot \(![Red dot](../image/sb-service-red-dot.png)\) is next to the item, signifying that it's read only.
-        -   A clear triangle warning symbol \(![Clear triangle](../image/sb-service-triangle.png)\) is next to the item name, signifying it's the new copy \(DRAFT\) that's being worked on.
+        -   A red dot \(\[Omitted image "sb-service-red-dot.png"\] Alt text: Red dot\) is next to the item, signifying that it's read only.
+        -   A clear triangle warning symbol \(\[Omitted image "sb-service-triangle.png"\] Alt text: Clear triangle\) is next to the item name, signifying it's the new copy \(DRAFT\) that's being worked on.
     -   The published item remains in the **Published** state and the **Checked out** field is set to **True**.
     -   After editing and submitting the item, the edits to the draft are merged with the related published item, and then the draft version is deleted.
 
@@ -100,7 +101,7 @@ Administrators enable the approval flow that comes with the base system by updat
 
 Administrators can also create a customized approval flow that best meets the organization's needs. See the following for more information about these tasks in Workflow Studio:
 
--   [Edit a flow](https://www.servicenow.com/docs/access?context=flow-edit&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
--   [Ask for Approval action](https://www.servicenow.com/docs/access?context=ask-approval-flow-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
--   [Create a flow in Workflow Studio](https://www.servicenow.com/docs/access?context=create-flow&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
+-   
+-   
+-   
 

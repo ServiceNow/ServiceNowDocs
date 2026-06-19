@@ -2,6 +2,7 @@
 title: Configure business rule for reassigning tickets
 description: Configure the business rule for reassigning the tickets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/business-rule-re-assigning-ticket-itsm.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -116,5 +117,5 @@ chats.forEach( function(chat) {
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Customize IT Service Management integration with ServiceNow](../concept/customize-sn-ms-teams.md)
+**Parent Topic:**[Customize IT Service Management integration with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/customize-sn-ms-teams.md)
 

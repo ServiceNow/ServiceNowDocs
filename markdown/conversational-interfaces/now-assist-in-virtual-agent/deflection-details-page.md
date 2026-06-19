@@ -2,6 +2,7 @@
 title: Deflection details page in Assistant analytics
 description: View detailed insights into how your assistants resolve user queries, including deflection outcomes and the types of deflection methods used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/now-assist-in-virtual-agent/deflection-details-page.html
 release: zurich
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -17,7 +18,7 @@ View detailed insights into how your assistants resolve user queries, including 
 
 The Deflection Details page provides a granular view of how your assistants handle user queries and the methods used to resolve them. Access this page by navigating to **Assistant Designer** &gt; **Analytics** &gt; **Self Solved Performance** &gt; **Deflection Details**.
 
-![Deflection details page in Assistant analytics](../image/NAinVA-assistant-designer-analytics-self-solved-performance-deflection-details.png "Deflection details page in Assistant analytics")
+\[Omitted image "NAinVA-assistant-designer-analytics-self-solved-performance-deflection-details.png"\] Alt text: Deflection details page in Assistant analytics
 
 The visualizations on the Deflection Details page help you with the following.
 
@@ -35,7 +36,7 @@ You can filter the dashboard data using the following options:
 
 This area of the dashboard shows the distribution of outcomes for deflection attempts. The chart displays breakdown of Resolved, Not Resolved, Response Provided, No Response Provided outcomes across conversations, helping you understand how often deflection attempts lead to successful resolution.
 
-![A pie chart showing the proportion of self-solve outcomes. Each segment represents a different outcome category with its percentage of the total.](../image/NAinVA-assistant-designer-analytics-self-solve-performance-self-solved-outcome-distribution.png "Deflection Outcome Distribution")
+\[Omitted image "NAinVA-assistant-designer-analytics-self-solve-performance-self-solved-outcome-distribution.png"\] Alt text: A pie chart showing the proportion of self-solve outcomes. Each segment represents a different outcome category with its percentage of the total.
 
 The following are the deflection outcomes:
 
@@ -50,7 +51,7 @@ For more information on how deflection events are logged and deflection outcomes
 
 This area of the dashboard shows the distribution of AI assets offered as deflection methods to users. For example, catalog item, synthesized response, knowledge article, and so on. Use this chart to help you understand which deflection methods are being employed and evaluate their relative usage.
 
-![A pie chart showing the distribution of deflection methods offered to users. Each segment represents a deflection type with its percentage of the total.](../image/NAinVA-assistant-designer-analytics-self-solve-performance-deflection-types-offered.png "Deflection Types Offered")
+\[Omitted image "NAinVA-assistant-designer-analytics-self-solve-performance-deflection-types-offered.png"\] Alt text: A pie chart showing the distribution of deflection methods offered to users. Each segment represents a deflection type with its percentage of the total.
 
 The following are the deflection types offered by the assistant:
 
@@ -69,7 +70,7 @@ Use this visualization to help you understand which deflection methods are most 
 
 This area of the dashboard displays a list of individual conversations based on the drill downs you select in either of the charts. When you select a conversation, its details appear in a panel on the right side of the page. Collapse the panel when you need more space to browse the conversation list.
 
-![Conversation details section in Deflection details page](../image/NAinVA-assistant-designer-analytics-self-solve-performance-deflection-details-conversation-details.png "Conversation details section in Deflection details page")
+\[Omitted image "NAinVA-assistant-designer-analytics-self-solve-performance-deflection-details-conversation-details.png"\] Alt text: Conversation details section in Deflection details page
 
 The conversations list contains the following details:
 

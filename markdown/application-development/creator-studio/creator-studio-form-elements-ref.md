@@ -2,6 +2,7 @@
 title: Available question types in Creator Studio
 description: Build apps using different types of questions on a form in Creator Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/creator-studio/creator-studio-form-elements-ref.html
 release: zurich
 product: Creator Studio
 classification: creator-studio
@@ -102,7 +103,7 @@ Question set
 
 </td><td>
 
-Preconfigured questions that you can't change.Admins create question sets in Service Catalog. For more information, see [Service catalog variable sets](https://www.servicenow.com/docs/access?context=c_ServiceCatalogVariableSets&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+Preconfigured questions that you can't change.Admins create question sets in Service Catalog. For more information, see .
 
 **Note:**
 
@@ -115,7 +116,7 @@ Attachment
 
 </td><td>
 
-Question where users add an attachment.**Note:** The **Attachment** question differs from the **Add attachment** option for the overall form. You can use the **Add attachment** question to include in dynamic behavior, for example appearing when a user answers a **Photograph on badge?** question with `Yes`, enabling them to upload a headshot. For more information on dynamic behavior, see [Make a form change based on responses in Creator Studio](../task/creator-studio-dynamic-behavior.md).
+Question where users add an attachment.**Note:** The **Attachment** question differs from the **Add attachment** option for the overall form. You can use the **Add attachment** question to include in dynamic behavior, for example appearing when a user answers a **Photograph on badge?** question with `Yes`, enabling them to upload a headshot. For more information on dynamic behavior, see [Make a form change based on responses in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-dynamic-behavior.md).
 
 </td></tr><tr><td>
 
@@ -125,7 +126,7 @@ Duration
 
 Question where users specify a length of time.When you add a **Duration** question, you then specify the **Days**, **Hours**, **Minutes**, and **Seconds** that an event will last.
 
-**Note:** You can also add duration for dynamic behavior questions. For more information, see [Make a form change based on responses in Creator Studio](../task/creator-studio-dynamic-behavior.md).
+**Note:** You can also add duration for dynamic behavior questions. For more information, see [Make a form change based on responses in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-dynamic-behavior.md).
 
 </td></tr></tbody>
 </table>## Types of reference-based question types
@@ -330,7 +331,7 @@ Filter conditions
 
 </td><td>
 
-Conditions that must be met to view certain choices. Select **Add condition** and use the condition builder to create the filter. For more information, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+Conditions that must be met to view certain choices. Select **Add condition** and use the condition builder to create the filter. For more information, see .
 
 </td><td>
 
@@ -339,5 +340,5 @@ Conditions that must be met to view certain choices. Select **Add condition** an
 -   Multi-select
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Creator Studio reference](creator-studio-reference.md)
+</table>**Parent Topic:**[Creator Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-reference.md)
 

@@ -2,6 +2,7 @@
 title: Create and maintain racks and cabinets
 description: Create and perform subsequent actions on the racks and cabinets using the Telecommunications Network Inventory application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/create-and-maintain-rack-and-cabinet.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -15,12 +16,12 @@ breadcrumb: [Manually create and review your network asset instances, Defining i
 
 Create and perform subsequent actions on the racks and cabinets using the Telecommunications Network Inventory application.
 
--   **[Create a rack](../task/edit-a-rack.md)**  
+-   **[Create a rack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/edit-a-rack.md)**  
 Create a rack to add, organize equipment, rack units, and manage all assets. You can also edit a rack using the Telecommunications Network Inventory application.
--   **[Create a cabinet](create-a-cabinet.md)**  
+-   **[Create a cabinet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-a-cabinet.md)**  
 Create a cabinet to add, organize equipment, and manage all assets. You can also edit a cabinet using the Telecommunications Network Inventory application.
--   **[Optimizing rack and cabinet usage](../task/subsequent-actions.md)**  
+-   **[Optimizing rack and cabinet usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/subsequent-actions.md)**  
 Optimize your rack's capacity by following these guidelines for adding, configuring, and calculating other components using the Telecommunications Network Inventory application.
 
-**Parent Topic:**[Manually create and review your network asset instances](creating-telecommunications-network-inventory.md)
+**Parent Topic:**[Manually create and review your network asset instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/creating-telecommunications-network-inventory.md)
 

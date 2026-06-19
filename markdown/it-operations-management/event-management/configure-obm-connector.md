@@ -2,6 +2,7 @@
 title: Configure event collection from OBM
 description: Configure the Operation Bridge Manager \(OBM\), also known as OMi v2, connector instance to receive alerts from the OBM server. The OBM connector script OBM v2 will be available after installing the Event Management Connectors app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/configure-obm-connector.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -172,5 +173,5 @@ Specify the MID Server to run the OBM connector instance. You can configure seve
 8.  After a successful test, select the **Active** check box and then click **Update**.
 
 
-**Parent Topic:**[Configure a pull connector](t_EMConfigureConnectorInstance.md)
+**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 

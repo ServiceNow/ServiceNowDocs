@@ -2,6 +2,7 @@
 title: AI risk heatmap workbench
 description: A risk heatmap is a graphical representation of your risk data. The individual values that are contained in a matrix are represented in colors that denote a meaning. You can use risk heatmaps to see your AI risk assessment results in a convenient, visually attractive, and succinct format.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/ai-risk-management/ai-risk-heatmap-workbench.html
 release: zurich
 product: AI Risk Management
 classification: ai-risk-management
@@ -15,7 +16,7 @@ breadcrumb: [Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
 
 A risk heatmap is a graphical representation of your risk data. The individual values that are contained in a matrix are represented in colors that denote a meaning. You can use risk heatmaps to see your AI risk assessment results in a convenient, visually attractive, and succinct format.
 
-The data on the heatmap is obtained from the risk assessments. To understand more about the heatmap and its filters, refer to [Configure risk heatmaps](../../grc-risk/task/configure-risk-heatmap.md). The following figure displays the risk heatmap.
+The data on the heatmap is obtained from the risk assessments. To understand more about the heatmap and its filters, refer to [Configure risk heatmaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/configure-risk-heatmap.md). The following figure displays the risk heatmap.
 
-![The risk heatmap that shows the risks to AI assets in a grid.](../image/risk-heatmap-ai-risks.png "AI risk heatmap")
+\[Omitted image "risk-heatmap-ai-risks.png"\] Alt text: The risk heatmap that shows the risks to AI assets in a grid.
 

@@ -2,6 +2,7 @@
 title: Deployment analyzer in ReleaseOps
 description: The deployment analyzer reviews the update set in your release against rules to verify compliance with customizable rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/releaseops/deployment-analyzer.html
 release: zurich
 product: ReleaseOps
 classification: releaseops
@@ -18,7 +19,7 @@ The deployment analyzer reviews the update set in your release against rules to 
 
 The deployment analyzer scans a given deployment request \(and the update sets it contains\). The deployment analyzer checks for changes as compared to the current state of the production instance \(or the target release environment\). The deployment analyzer operates as a playbook activity, the results of which can be consumed to decide different actions in the deployment process.
 
-By default, the deployment analyzer has five rules. For more information, see [Deployment analyzer rules](../reference/deployment-analyzer-rules.md).
+By default, the deployment analyzer has five rules. For more information, see [Deployment analyzer rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/deployment-analyzer-rules.md).
 
 You can create rule types, definitions, and rules as needed. New rules appear in the playbook conditional setup automatically.
 

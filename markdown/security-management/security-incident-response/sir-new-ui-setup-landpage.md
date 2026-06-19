@@ -2,6 +2,7 @@
 title: Landing page filter configuration
 description: You can add new filters or modify existing filters that appear in the Security Analyst Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/sir-new-ui-setup-landpage.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -15,9 +16,9 @@ breadcrumb: [Additional Security Analyst Workspace configuration, Configure the 
 
 You can add new filters or modify existing filters that appear in the Security Analyst Workspace.
 
-The Security Analyst Workspace has primary and secondary filters that allow you to filter the list of security incidents so you can quickly find the security incidents you want to analyze. Fore more information, see [Manage security threats using the Security Analyst Workspace](sir-new-ui.md).
+The Security Analyst Workspace has primary and secondary filters that allow you to filter the list of security incidents so you can quickly find the security incidents you want to analyze. Fore more information, see [Manage security threats using the Security Analyst Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/sir-new-ui.md).
 
-![Security Analyst Workspace: Filters](../image/sir-new-ui-setup-main.png)
+\[Omitted image "sir-new-ui-setup-main.png"\] Alt text: Security Analyst Workspace: Filters
 
 ## Create a new filter
 

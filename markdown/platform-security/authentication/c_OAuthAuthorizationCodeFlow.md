@@ -2,6 +2,7 @@
 title: OAuth authorization code grant flow
 description: Authorization code grant flow allows a user to access a resource by authenticating directly with an OAuth server that trusts the resource, in contrast with authenticating with username/password credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/c\_OAuthAuthorizationCodeFlow.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -27,9 +28,9 @@ The user who owns the restricted resource must authorize access. The user can al
 
 The Authorization code grant flow process consists of these three steps:
 
-![](../../../product/discovery/image/AuthCodeGrantFlow1.png)
+\[Omitted image "AuthCodeGrantFlow1.png"\] Alt text:
 
-In step one, the client application or website initiates a REST API call in the form of a GET request to the instance via the user agent. Typically, the REST call is initiated when the end user clicks a button or a link on the client application or website to request an access token. In the client application, the end user also has to specify the authorization URL, token URL, client ID, and client secret. For an explanation of these items, see the field descriptions in this topic: [Use a third-party OAuth provider](https://www.servicenow.com/docs/access?context=t_UseAThirdPartyOAuthProvider&version=zurich&pubname=zurich-api-reference&ft:locale=en-US). If the client asks for a grant type, the end user must select **Authorization Code**.
+In step one, the client application or website initiates a REST API call in the form of a GET request to the instance via the user agent. Typically, the REST call is initiated when the end user clicks a button or a link on the client application or website to request an access token. In the client application, the end user also has to specify the authorization URL, token URL, client ID, and client secret. For an explanation of these items, see the field descriptions in this topic: Use a third-party OAuth provider. If the client asks for a grant type, the end user must select **Authorization Code**.
 
 Example GET request from the client application to the instance:
 
@@ -41,7 +42,7 @@ https://myinstance.service-now.com/oauth_auth.do?response_type=code&redirect_uri
 
 The end user must manually allow access to the restricted resource on the instance. In the ServiceNow implementation, the end user must be logged into the instance. The instance prompts the end user with a UI page that has **Allow** and **Deny** buttons.
 
-The item that the client application is actually requesting the token from is the OAuth provider application registry record that you created, also known as the authorization endpoint \(see [Use a third-party OAuth provider](https://www.servicenow.com/docs/access?context=t_UseAThirdPartyOAuthProvider&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)\). The auth code is sent from the authorization endpoint to the client. It does not go to the client directly but to the **Redirect URL** that you specify on the authorization endpoint form. This URL is also known as a callback URL. You can obtain this URL from the client application or website.
+The item that the client application is actually requesting the token from is the OAuth provider application registry record that you created, also known as the authorization endpoint \(see Use a third-party OAuth provider\). The auth code is sent from the authorization endpoint to the client. It does not go to the client directly but to the **Redirect URL** that you specify on the authorization endpoint form. This URL is also known as a callback URL. You can obtain this URL from the client application or website.
 
 Example response from the instance to the client application, providing an authorization code:
 
@@ -49,7 +50,7 @@ Example response from the instance to the client application, providing an autho
 https/http://{callbackURL}?code={the actual auth code}
 ```
 
-![](../../../product/discovery/image/AuthCodeGrantFlow2.png)
+\[Omitted image "AuthCodeGrantFlow2.png"\] Alt text:
 
 Now that the client application has the authorization code, the client uses the code to request the access token. The authorization code proves that the user has consented in step 1.
 
@@ -61,9 +62,9 @@ https://myinstance.service-now.com/oauth_token.do?grant_type=authorization_code&
 
 The endpoint on the instance returns an access token and a refresh token. The refresh token can be used to request additional access tokens.
 
-You can manage the tokens, including revoking the token, in the instance. See [Manage OAuth tokens](../task/t_ManageTokens.md).
+You can manage the tokens, including revoking the token, in the instance. See [Manage OAuth tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/t_ManageTokens.md).
 
-![](../../../product/discovery/image/AuthCodeGrantFlow3.png)
+\[Omitted image "AuthCodeGrantFlow3.png"\] Alt text:
 
 The client application uses the access token to authenticate to the REST API. After authenticating the client application, the REST API returns the requested data in a JSON payload.
 
@@ -73,7 +74,7 @@ Example GET request for the JSON payload of data for the Incident \[incident\] t
 https://myinstance.service-now.com/api/now/table/incident?access_token={the_token}
 ```
 
-**Note:** The system also supports [OAuth implicit grants](c_OAuthImplicitGrants.md), also known as implicit grant code flow.
+**Note:** The system also supports [OAuth implicit grants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/c_OAuthImplicitGrants.md), also known as implicit grant code flow.
 
 ## Integration support
 

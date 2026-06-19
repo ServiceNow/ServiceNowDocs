@@ -2,6 +2,7 @@
 title: Install Customer Request for Quote
 description: You can install the Customer Request for Quote application \[sn\_cust\_rfq\] if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/install-rfq-plugin.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -30,7 +31,7 @@ The following items are installed with Customer Request for Quote:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Customer Request for Quote](../reference/components-install-with-customer-request-for-quote.md).
+For more information, see [Components installed with Customer Request for Quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/components-install-with-customer-request-for-quote.md).
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: Using ServiceNow CPQ and Salesforce CPQ with community users
 description: When partner and community users cannot authenticate in Salesforce, they can use a Runtime Client Token to authenticate with ServiceNow CPQ. Follow these setup steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/using\_logik\_io\_salesforce\_cpq\_with\_community\_users.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -43,7 +44,7 @@ A runtime client is required to authenticate community users. If a runtime clien
 
     The Origin must be exact: it must include https://, and should have one origin with the trailing "/" and one without. On https://dev5.dev.logik.io, there should be an Origin of https://dev5.dev.logik.io and https://dev5.dev.logik.io/.
 
-    ![Set up](../images/cpq-community-origin.png)
+    \[Omitted image "cpq-community-origin.png"\] Alt text: Set up
 
 3.  Save.
 4.  Copy the value using the clipboard icon under “Token” image.png.
@@ -55,11 +56,11 @@ A runtime client is required to authenticate community users. If a runtime clien
 
 1.  From the Salesforce App Launcher, search for and open the ServiceNow CPQ Admin Custom Settings page.
 
-    ![Menu](../images/cpq-salesforce-logik-admin-settings.png)
+    \[Omitted image "cpq-salesforce-logik-admin-settings.png"\] Alt text: Menu
 
 2.  Next to the Runtime Client Token, click **Set**, paste the copied token from ServiceNow CPQ Admin, then Save.
 
-    ![Admin package](../images/cpq-salesforce-runtime-client-token.png)
+    \[Omitted image "cpq-salesforce-runtime-client-token.png"\] Alt text: Admin package
 
 3.  Go to Security &gt; Session Settings.
 4.  Under “Clickjack Protection”, select Enable clickjack protection for customer Visualforce pages with standard headers.
@@ -67,7 +68,7 @@ A runtime client is required to authenticate community users. If a runtime clien
 6.  From Setup home, go to Apps &gt; Packaging &gt; Installed Packages.
 7.  Next to the Salesforce CPQ package \(not the ServiceNow CPQ extension for CPQ\), click **Configure**.
 
-    ![Uninstalled packages](../images/cpq-salesforce-cpq-configure.png)
+    \[Omitted image "cpq-salesforce-cpq-configure.png"\] Alt text: Uninstalled packages
 
 8.  Under the Additional Settings tab, set the “External Configurator URL” to /apex/LGK\_\_CpqConfiguration.
 

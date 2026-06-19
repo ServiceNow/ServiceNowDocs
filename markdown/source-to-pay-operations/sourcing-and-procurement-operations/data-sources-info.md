@@ -2,13 +2,14 @@
 title: Data source table information
 description: The following information can help you with the FTP import and export data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/data-sources-info.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Procurement File Transfer Framework, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Procurement File Transfer Framework, Integrate Sourcing Procurement Operations other, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Data source table information
@@ -62,8 +63,8 @@ Table transform map is associated with the table to transform the `File Based Ca
 |Order Acknowledgment|sn\_spend\_intg\_imp\_purchase\_order\_ack|
 |Price Import|sn\_spend\_intg\_imp\_price|
 
--   **[Payloads samples and errors](payloads-information.md)**  
+-   **[Payloads samples and errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/payloads-information.md)**  
 Use the following sample payloads to enable procurement data import and export.
 
-**Parent Topic:**[Procurement File Transfer Framework](../concept/procurement-file-transfer-framework.md)
+**Parent Topic:**[Procurement File Transfer Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/procurement-file-transfer-framework.md)
 

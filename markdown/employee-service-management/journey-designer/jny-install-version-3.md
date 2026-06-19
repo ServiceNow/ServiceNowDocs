@@ -2,6 +2,7 @@
 title: Install Journey designer
 description: Install the Journey designer \[sn\_jny\] application to enable administrators and managers to create and manage various professional and personal events and journeys.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/jny-install-version-3.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -54,5 +55,5 @@ Role required: admin.
 5.  Select **Install**.
 
 
-**Parent Topic:**[Installation and configuration overview](../concept/jny-inst-config-overview.md)
+**Parent Topic:**[Installation and configuration overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-inst-config-overview.md)
 

@@ -2,6 +2,7 @@
 title: Run Instance Data Replication diagnostics
 description: Verify the status of services and the connection between your instance and the Instance Data Replication \(IDR\) message queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/instance-data-replication-idr/test-IDR-connectivity.html
 release: zurich
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -27,7 +28,7 @@ Role required: admin or idr\_admin
 
 2.  View the following diagnostic tests.
 
-<table id="choicetable_h22_qgv_4nb"><tbody><tr><td id="d462000e86">
+<table id="choicetable_h22_qgv_4nb"><tbody><tr><td id="d448192e86">
 
 **Certificate Management Service**
 
@@ -35,7 +36,7 @@ Role required: admin or idr\_admin
 
 Checks the status and setup of your certificate management service.**Note:** IDR requires a certificate management service to be up and running.
 
-</td></tr><tr><td id="d462000e100">
+</td></tr><tr><td id="d448192e100">
 
 **EJBCA Service Status**
 
@@ -43,7 +44,7 @@ Checks the status and setup of your certificate management service.**Note:** IDR
 
 Checks the status and setup of the EJBCA service as part of the Key Management Framework \(KMF\) health.
 
-</td></tr><tr><td id="d462000e115">
+</td></tr><tr><td id="d448192e115">
 
 **Hermes Enabled**
 
@@ -51,7 +52,7 @@ Checks the status and setup of the EJBCA service as part of the Key Management F
 
 Checks whether the Hermes Messaging Service is available.
 
-</td></tr><tr><td id="d462000e127">
+</td></tr><tr><td id="d448192e127">
 
 **Hermes Cluster Configuration**
 
@@ -69,5 +70,5 @@ Checks the status of the Hermes cluster.
 
 The resulting messages validate enabled services or the connection to the message queue.
 
-**Parent Topic:**[Resolving data replication errors in Instance Data Replication](../reference/common-issues-idr.md)
+**Parent Topic:**[Resolving data replication errors in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/instance-data-replication-idr/common-issues-idr.md)
 

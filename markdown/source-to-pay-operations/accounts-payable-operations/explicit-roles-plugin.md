@@ -2,6 +2,7 @@
 title: Explicit roles plugin
 description: You can give both internal users and external users access to your instance. However, you might not want both types of users to have the same level of access. To provide added security, every user must have at least one role so that the instance can distinguish between internal and external users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/explicit-roles-plugin.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -21,7 +22,7 @@ You must install the Explicit Roles \[com.glide.explicit\_roles\] plugin while i
 
 Before you install the Accounts Payable Operations plugin, you must perform comprehensive analysis of the Explicit Roles \[com.glide.explicit\_roles\] plugin configuration to avoid conflicts or adjustments; ensure seamless integration and operation of the plugins.
 
-The installation of the Accounts Payable Operations plugin may cause access issues to the existing functionality that are controlled by the Explicit Roles \[com.glide.explicit\_roles\] plugin. You may have to manage or reconfigure certain roles and permissions managed by the Explicit Roles \[com.glide.explicit\_roles\] plugin for seamless integration and operation of existing functionalities. For more information on explicit roles, see [Explicit Roles](https://www.servicenow.com/docs/access?context=explicit-roles&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+The installation of the Accounts Payable Operations plugin may cause access issues to the existing functionality that are controlled by the Explicit Roles \[com.glide.explicit\_roles\] plugin. You may have to manage or reconfigure certain roles and permissions managed by the Explicit Roles \[com.glide.explicit\_roles\] plugin for seamless integration and operation of existing functionalities. For more information on explicit roles, see .
 
-**Parent Topic:**[Using Supplier Collaboration Portal in APO](using-supplier-collaboration-portal.md)
+**Parent Topic:**[Using Supplier Collaboration Portal in APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/using-supplier-collaboration-portal.md)
 

@@ -1,7 +1,8 @@
 ---
 title: Configure an HR badge
-description: Use Badges to create or modify existing identification badges used to quickly identify the organization of the Assigned to person for the Activity on the HR Ticket page.
+description: Use Badges to create or modify visual indicators that provide quick insights into important attributes of employees, cases, or assigned users, such as organization, role, status, or special conditions on the HR Ticket page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/CreateModHRBadges.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -14,13 +15,15 @@ breadcrumb: [HR Administration, Configure, Case and Knowledge Management, HR Ser
 
 # Configure an HR badge
 
-Use **Badges** to create or modify existing identification badges used to quickly identify the organization of the **Assigned to** person for the **Activity** on the **HR Ticket** page.
+Use **Badges** to create or modify visual indicators that provide quick insights into important attributes of employees, cases, or assigned users, such as organization, role, status, or special conditions on the **HR Ticket** page.
 
 ## Before you begin
 
 Role required: sn\_hr\_core.admin
 
 ## About this task
+
+**Badges** are configurable labels in HR workspace that display important employee or case information, such as status, employment type, and special flags.
 
 Custom badges only appear for specific types of HR activities.
 
@@ -45,5 +48,5 @@ Custom badges only appear for specific types of HR activities.
 4.  Click **Submit** or **Update**.
 
 
-**Parent Topic:**[HR Administration](../concept/c_AdministerHRServiceManagement.md)
+**Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 

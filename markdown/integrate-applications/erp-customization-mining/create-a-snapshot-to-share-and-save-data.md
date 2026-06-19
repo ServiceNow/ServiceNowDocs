@@ -2,6 +2,7 @@
 title: Create a snapshot to share and save data in ERP Semantic Mining
 description: Export and import ERP Semantic Mining base data to save and share.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-customization-mining/create-a-snapshot-to-share-and-save-data.html
 release: zurich
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -25,13 +26,13 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **ERP Foundation** &gt; **ERP Semantic Mining**.
 
-2.  In the side panel, select the configuration icon ![](../image/configuration-alias-icon.png).
+2.  In the side panel, select the configuration icon \[Omitted image "configuration-alias-icon.png"\] Alt text:.
 
 3.  Select the **Change system** button.
 
 4.  Select **Export data**.
 
-    A check is performed automatically before exporting. For details about the process, see [ERP Semantic Mining snapshot prerequisite check](../reference/erpcm-snapshot-prerequisite-check.md).
+    A check is performed automatically before exporting. For details about the process, see [ERP Semantic Mining snapshot prerequisite check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-customization-mining/erpcm-snapshot-prerequisite-check.md).
 
     If another export is in progress, an export unavailable message is displayed. Select **OK** and view the **Snapshots** tab to monitor the progress.
 
@@ -41,13 +42,13 @@ Role required: admin
 
         In the **Snapshots** tab, the automatic export is **Pending**. Select the refresh icon to see the **Status** change to **In progress** and then **Complete**.
 
-        For more execution details, open Workflow Studio, select **Operations**, and select **Flows**. The flow named **Export snapshot** calls the sub flow **Check set Snapshot to in progress**, and then calls the sub flow **Create Snapshot**. For more information about viewing flows in Workflow Studio, see [Workflow Studio](https://www.servicenow.com/docs/access?context=workflow-studio&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+        For more execution details, open Workflow Studio, select **Operations**, and select **Flows**. The flow named **Export snapshot** calls the sub flow **Check set Snapshot to in progress**, and then calls the sub flow **Create Snapshot**. For more information about viewing flows in Workflow Studio, see .
 
     2.  When the export is finished, go to the **Snapshots** tab on the **Configuration** page and select the completed export.
 
     3.  On the snapshot record, in **Attachments**, select the **Download** icon.
 
-5.  In the side panel, select the configuration icon ![](../image/configuration-alias-icon.png).
+5.  In the side panel, select the configuration icon \[Omitted image "configuration-alias-icon.png"\] Alt text:.
 
 6.  Select the **Change system** button, and then select **Import data**.
 
@@ -74,5 +75,5 @@ Role required: admin
         View the **All tasks** tab to check the status.
 
 
-**Parent Topic:**[Configuring ERP Semantic Mining](../concept/configuring-ecm.md)
+**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-customization-mining/configuring-ecm.md)
 

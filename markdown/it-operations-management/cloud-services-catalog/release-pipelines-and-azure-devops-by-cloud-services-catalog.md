@@ -2,6 +2,7 @@
 title: Release pipelines and Azure DevOps by Cloud Services Catalog
 description: Azure DevOps has release pipelines, such as the Continuous Integration-Continuous Deployment \(CI-CD\) pipelines, that offer a build, test, and deploy approach. You can use these fully automated processes to rapidly deploy build requests to the production environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/release-pipelines-and-azure-devops-by-cloud-services-catalog.html
 release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -19,5 +20,5 @@ Cloud Services Catalog offers the Azure DevOps release pipeline as a CI-CD tool 
 
 Azure DevOps within Cloud Services Catalog offers additional features for managing work items, version control, project management, and reporting. Resource requests via Azure DevOps pipelines are processed by approval through the governance and conformation workflow.
 
-**Parent Topic:**[Integrating Azure DevOps and the Continuous Integration-Continuous Deployment pipeline](integrating-azure-devops-and-cicd-pipeline.md)
+**Parent Topic:**[Integrating Azure DevOps and the Continuous Integration-Continuous Deployment pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/integrating-azure-devops-and-cicd-pipeline.md)
 

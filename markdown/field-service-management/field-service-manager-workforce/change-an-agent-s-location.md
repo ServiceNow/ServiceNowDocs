@@ -2,6 +2,7 @@
 title: Change map marker location in the Territory Planning console
 description: Update the location of your map markers for a dynamic and accurate visual representation of your data entities on the map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-manager-workforce/change-an-agent-s-location.html
 release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -21,7 +22,7 @@ Role required: sn\_fsm\_tp.fsm\_territory\_planner, sn\_fsm\_tp.fsm\_territory\_
 
 ## About this task
 
-You can move the map marker icons from the current location to the new location only when the `Enable location change on map` field is selected and a valid `Script` is provided while creating the marker layer overlays. For more information, see [Create a marker layer overlay](../concept/configuring-map-overlay.md#).
+You can move the map marker icons from the current location to the new location only when the `Enable location change on map` field is selected and a valid `Script` is provided while creating the marker layer overlays. For more information, see [Create a marker layer overlay](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/configuring-map-overlay.md).
 
 ## Procedure
 
@@ -29,15 +30,15 @@ You can move the map marker icons from the current location to the new location 
 
 2.  Edit location for marker overlay data items.
 
-<table id="choicetable_j1m_5b2_2yb"><thead><tr><th align="left" id="d48085e101">
+<table id="choicetable_j1m_5b2_2yb"><thead><tr><th align="left" id="d49660e101">
 
 To
 
-</th><th align="left" id="d48085e104">
+</th><th align="left" id="d49660e104">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d48085e110">
+</th></tr></thead><tbody><tr><td id="d49660e110">
 
 **Edit location of a single icon map marker**
 
@@ -45,16 +46,16 @@ Do the following
 
 -   Select the desired map marker icon on the map.
 -   The data item card appears in the contextual side panel.
--   Click the **More actions** icon \(![More actions icon.](../image/more_actions.png)\) and select **Edit location**.
+-   Click the **More actions** icon \(\[Omitted image "more\_actions.png"\] Alt text: More actions icon.\) and select **Edit location**.
 
 **Note:**
 
-You can move the map marker icon from the current location to the new location only when the `Enable location change on map` field is selected and a valid `Script` is provided while creating the marker layer overlays. For more information, see [Create a marker layer overlay](../concept/configuring-map-overlay.md#).
+You can move the map marker icon from the current location to the new location only when the `Enable location change on map` field is selected and a valid `Script` is provided while creating the marker layer overlays. For more information, see [Create a marker layer overlay](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/configuring-map-overlay.md).
 
 -   Drag and drop the map marker to the desired location or enter the address manually in the **New Location** field.
 
 
-</td></tr><tr><td id="d48085e165">
+</td></tr><tr><td id="d49660e165">
 
 **Edit location of all items in a co-located marker data item**
 
@@ -75,5 +76,5 @@ You can move the map marker icon from the current location to the new location o
 
 ## Result
 
-The following snapshots illustrate the process of changing data item locations when selecting a single map marker or a co-located map marker icon.![GIF displaying the process of changing the map overlay data item's location.](../image/csp.gif)
+The following snapshots illustrate the process of changing data item locations when selecting a single map marker or a co-located map marker icon.\[Omitted image "csp.gif"\] Alt text: GIF displaying the process of changing the map overlay data item's location.
 

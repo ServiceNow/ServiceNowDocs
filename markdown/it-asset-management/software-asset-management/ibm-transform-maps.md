@@ -2,6 +2,7 @@
 title: Transform maps for IBM License Metric Tool \(ILMT\) and BigFix Inventory integration v1 APIs
 description: When you import data from the IBM License Metric Tool \(ILMT\) or BigFix Inventory using version 1 of the ILMT and BigFix Inventory integration APIs, your ServiceNow instance uses transform maps to process this data into ServiceNow tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/ibm-transform-maps.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -52,7 +53,7 @@ Computer \[cmdb\_ci\_computer\]
 
 Processes identification data for your virtual machines \(VMs\) and hosts.
 
- The ILMT Computer Identity V1 transform map uses the CMDB IRE API to create a configuration item \(CI\) record for each VM or host in the Computer \[cmdb\_ci\_computer\] table. If a VM uses the same hardware serial number as its host, the transform map creates a CI record for only the host. For more information on the CMDB IRE API, see [Identification and Reconciliation engine \(IRE\)](https://www.servicenow.com/docs/access?context=ire&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+ The ILMT Computer Identity V1 transform map uses the CMDB IRE API to create a configuration item \(CI\) record for each VM or host in the Computer \[cmdb\_ci\_computer\] table. If a VM uses the same hardware serial number as its host, the transform map creates a CI record for only the host. For more information on the CMDB IRE API, see Identification and Reconciliation engine \(IRE\).
 
  **Note:** ServiceNow does not support hardware serial numbers containing periods \(.\).
 
@@ -122,16 +123,16 @@ Each ILMT and BigFix Inventory transform map processes data using field maps or 
     |u\_processor\_brand|cpu\_type|Type of CPU or vCPU on the host or virtual machine \(for example, dual core CPU\).|
     |u\_hardware\_serial\_number|serial\_number|Serial number that identifies the host.|
 
-    In addition to using field maps, the transform map processes data using the onAfter transform map script, which is an event script that processes at the end of each row transformation. For more information on this transform map script, see [Map with transformation event scripts](https://www.servicenow.com/docs/access?context=r_MapWithTransformationEventScripts&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+    In addition to using field maps, the transform map processes data using the onAfter transform map script, which is an event script that processes at the end of each row transformation. For more information on this transform map script, see Map with transformation event scripts.
 
 -   **ILMT Software Instance transform map**
 
-    The ILMT Software Instance transform map processes data from the source ILMT Software Instance \[imp\_samp\_ilmt\_sw\_instance\] table to the target IBM Peak Consumption \[samp\_ilmt\_sw\_install\] table using the onComplete transform map script. The onComplete transform map script is an event script that processes at the end of an import. For more information on this transform map script, see [Map with transformation event scripts](https://www.servicenow.com/docs/access?context=r_MapWithTransformationEventScripts&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+    The ILMT Software Instance transform map processes data from the source ILMT Software Instance \[imp\_samp\_ilmt\_sw\_instance\] table to the target IBM Peak Consumption \[samp\_ilmt\_sw\_install\] table using the onComplete transform map script. The onComplete transform map script is an event script that processes at the end of an import. For more information on this transform map script, see Map with transformation event scripts.
 
 -   **ILMT Software License Usage transform map**
 
-    The ILMT Software License Usage transform map processes data from the source License Consumption \[imp\_samp\_ilmt\_license\_usage\] table to the target IBM Peak Consumption \[samp\_ilmt\_sw\_install\] table using the onStart transform map script. The onStart transform map script is an event script that processes at the beginning of an import. For more information on this transform map script, see [Map with transformation event scripts](https://www.servicenow.com/docs/access?context=r_MapWithTransformationEventScripts&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+    The ILMT Software License Usage transform map processes data from the source License Consumption \[imp\_samp\_ilmt\_license\_usage\] table to the target IBM Peak Consumption \[samp\_ilmt\_sw\_install\] table using the onStart transform map script. The onStart transform map script is an event script that processes at the beginning of an import. For more information on this transform map script, see Map with transformation event scripts.
 
 
-**Parent Topic:**[Integrating with the IBM License Metric Tool \(ILMT\) or BigFix Inventory using v1 APIs](integrating-ilmt-bigfix-v1-apis.md)
+**Parent Topic:**[Integrating with the IBM License Metric Tool \(ILMT\) or BigFix Inventory using v1 APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/integrating-ilmt-bigfix-v1-apis.md)
 

@@ -2,6 +2,7 @@
 title: Operational Technology Action-Oriented Landing Page
 description: You can use the Operational Technology \(OT\) Action-Oriented Landing Page to track critical tasks related to your OT network.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-workspace/oper-tech-task-oriented-landing-page.html
 release: zurich
 product: Industrial Workspace
 classification: industrial-workspace
@@ -21,7 +22,7 @@ The OT Action-Oriented Landing Page helps users, such as OT engineers, view task
 
 The landing page provides a detailed and role-based view of the daily tasks and important actions. Each task in the **Important Action** section shows tasks sorted by their **Opened** date by default. If the task is critical, then it shows up in the **Important Action** section.
 
-To access the OT Action-Oriented Landing Page, navigate to **All** &gt; **Industrial Workspace**, select the Home \(![Home icon in the Industrial Workspace.](../../mftg-manufacturing-process-mgr/image/home-icon.png)\) icon.
+To access the OT Action-Oriented Landing Page, navigate to **All** &gt; **Industrial Workspace**, select the Home \(\[Omitted image "home-icon.png"\] Alt text: Home icon in the Industrial Workspace.\) icon.
 
 ## Landing page contents
 
@@ -183,5 +184,5 @@ No IP address OT devices
 Number of OT devices in your OT network that aren't assigned an IP address.To view the list of OT device records without an IP address, select **All records**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring the Industrial Workspace](exploring-industrial-workspace.md)
+</table>**Parent Topic:**[Exploring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/exploring-industrial-workspace.md)
 

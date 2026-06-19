@@ -2,7 +2,10 @@
 title: Create a case from the Consumer Service Portal
 description: As a user with the consumer role, you can create cases from the Consumer Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-case-consumer-portal.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

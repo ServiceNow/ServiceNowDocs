@@ -2,6 +2,7 @@
 title: Exploring Talent profile
 description: Learn more about Talent profile and review the benefits it can provide in your organization's hiring process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/exploring-talent-profile.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -29,20 +30,20 @@ The Talent profile application provides a unified view of all talent types, incl
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Create talent pools to organize similar talent profiles in one place for particular hiring requirements.|[Create Talent pools](../task/create-talent-pool.md)|Recruiter|
-|Use existing talent pools to associate suitable talent profiles from the pools to your talent pool.|[Copy talent to pool](../task/copy-talent-other-pool.md)|Recruiter|
-|As an owner of the pool or one of the collaborators, remove the talent profiles that are no longer required.|[Remove talent profiles from a pool](../task/remove-talent-from-pool.md)|Recruiter|
-|Delete a talent pool when it has served its purpose or is no longer relevant.|[Delete a Talent pool](../task/delete-talent-pool.md)|Recruiter|
-|Create talent profiles to add it to the talent profile repository of your organization and use it for an optimized hiring process.|[Create talent profiles](../task/create-talent-ta.md)|Recruiter|
-|Use filter options to find relevant talent profiles more efficiently in the Talent pool tab.|[Filter talent profiles](../task/filter-tp.md)|Recruiter|
-|Add similar talent profiles to a talent pool to streamline communication to all the profiles during a particular hiring drive.|[Add talent profiles to a Talent pool](../task/add-talent-to-pool.md)|Recruiter|
-|Add and manage job prospects.|[Job prospects](job-leads.md)|Recruiter|
+|Create talent pools to organize similar talent profiles in one place for particular hiring requirements.|[Create Talent pools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/create-talent-pool.md)|Recruiter|
+|Use existing talent pools to associate suitable talent profiles from the pools to your talent pool.|[Copy talent to pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/copy-talent-other-pool.md)|Recruiter|
+|As an owner of the pool or one of the collaborators, remove the talent profiles that are no longer required.|[Remove talent profiles from a pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/remove-talent-from-pool.md)|Recruiter|
+|Delete a talent pool when it has served its purpose or is no longer relevant.|[Delete a Talent pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/delete-talent-pool.md)|Recruiter|
+|Create talent profiles to add it to the talent profile repository of your organization and use it for an optimized hiring process.|[Create talent profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/create-talent-ta.md)|Recruiter|
+|Use filter options to find relevant talent profiles more efficiently in the Talent pool tab.|[Filter talent profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/filter-tp.md)|Recruiter|
+|Add similar talent profiles to a talent pool to streamline communication to all the profiles during a particular hiring drive.|[Add talent profiles to a Talent pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/add-talent-to-pool.md)|Recruiter|
+|Add and manage job prospects.|[Job prospects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/job-leads.md)|Recruiter|
 
 ## What to explore next
 
 To learn more about configuring and using Talent profile, see:
 
--   [Configuring Talent profile](config-tp.md)
--   [Using Talent profile](config-t-pool.md)
--   [Talent Profile reference](talent-profile-reference.md)
+-   [Configuring Talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/config-tp.md)
+-   [Using Talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/config-t-pool.md)
+-   [Talent Profile reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/talent-profile-reference.md)
 

@@ -2,6 +2,7 @@
 title: Supporting information for Now Assist for Customer Service Management \(CSM\)
 description: Get a quick overview of the important information that is related to the Now Assist for Customer Service Management \(CSM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-supporting-info.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -21,7 +22,7 @@ Now Assist for CSM is supported starting with Vancouver Patch 4.
 
 ## Supported language models
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://www.servicenow.com/docs/access?context=ai-model-providers&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://www.servicenow.com/docs/access?context=manage-large-language-models&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US). For more information, see [Large language models on the ServiceNow AI Platform®](https://www.servicenow.com/docs/access?context=exploring-large-language-models&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the Now Assist Admin console. For more information, see .
 
 ## Supported user interfaces
 
@@ -81,7 +82,7 @@ Now Assist for CSM supports the following languages across all skills:
 -   Brazilian Portuguese
 -   Italian
 
-For more info, see [Configure multilingual service for Now Assist applications](https://www.servicenow.com/docs/access?context=enable-dynamic-translation-for-now-assist-applications&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)
+For more info, see 
 
 ## Role masking for Now Assist for CSM agentic workflows, AI agents, and skills
 
@@ -140,7 +141,7 @@ Activate the applications in the following order:
 2.  UXC Generative AI
 3.  Now Assist for CSM
 
-For more information, see [Configuring Now Assist for Customer Service Management \(CSM\)](now-assist-csm-configuring.md).
+For more information, see [Configuring Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.md).
 
-**Parent Topic:**[Exploring Now Assist for Customer Service Management \(CSM\)](now-assist-csm-exploring.md)
+**Parent Topic:**[Exploring Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-exploring.md)
 

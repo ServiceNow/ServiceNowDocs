@@ -2,6 +2,7 @@
 title: Create DEX Self-service issue configurations
 description: Create issue configurations for DEX Self-service to self-solve issues specific to your organization that are not included in the base system resolutions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-self-service/create-dex-self-service-issue-configs.html
 release: zurich
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service
@@ -27,17 +28,17 @@ Role required: sn\_dex.admin
 
 3.  Enter information about the issue, evaluation criteria, and resolution in the issue configuration form fields.
 
-    For descriptions about the issue configuration form fields, see [DEX Self-service issue configuration form](../reference/dex-self-service-issue-config-form.md).
+    For descriptions about the issue configuration form fields, see [DEX Self-service issue configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-self-service/dex-self-service-issue-config-form.md).
 
 4.  Verify that the issue code in the **Resolution** field is active.
 
-    1.  Select the Lookup using list icon ![](../image/icon-magnifying-glass-blue.png) near the **Resolution** field.
+    1.  Select the Lookup using list icon \[Omitted image "icon-magnifying-glass-blue.png"\] Alt text: near the **Resolution** field.
 
     2.  On the Issue Registry preview pop-up, confirm that the **Active** check box is selected.
 
     3.  If the **Active** check box isn’t selected, activate the issue resolution.
 
-        For information about how to activate an issue resolution, see [Activate Proactive Engagement resolutions for DEX Self-service](activate-proactive-engage-resolutions.md).
+        For information about how to activate an issue resolution, see [Activate Proactive Engagement resolutions for DEX Self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-self-service/activate-proactive-engage-resolutions.md).
 
 5.  Select **Submit**.
 

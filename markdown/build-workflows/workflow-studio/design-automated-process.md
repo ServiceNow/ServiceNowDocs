@@ -2,6 +2,7 @@
 title: Design an automated process
 description: Transform an example manual business process into a well-designed, automated process that runs on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/design-automated-process.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -17,9 +18,9 @@ Transform an example manual business process into a well-designed, automated pro
 
 ## Before you begin
 
--   Enable the **Process Automation Designer for App Engine \[com.glide.pad.license\]** plugin with a subscription to the ServiceNow AI Platform App Engine. For more information, see [Activate playbooks](../concept/activate-process-automation-designer.md#).
+-   Enable the **Process Automation Designer for App Engine \[com.glide.pad.license\]** plugin with a subscription to the ServiceNow AI Platform App Engine. For more information, see [Activate playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/activate-process-automation-designer.md).
 -   Follow the steps to Configure a Playbook user experience.
--   Ensure that your current application is set to **Global**. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+-   Ensure that your current application is set to **Global**. For more information, see Application picker.
 -   Role required: admin or playbook.admin
 
 ## About this task
@@ -59,7 +60,7 @@ The manual business process for this example consists of the following stages:
 
     8.  In the Table list, select **Interaction \[interaction\]**.
 
-    9.  Use the [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) to add the following condition to your trigger:
+    9.  Use the condition builder to add the following condition to your trigger:
 
         **\[Opened for-&gt;VIP\]** **\[is\]** **\[True\]**.
 
@@ -115,7 +116,7 @@ The manual business process for this example consists of the following stages:
 
     9.  From the Fields list, select **Assigned To**.
 
-    10. Next to the **Assigned To** field, select the data pill picker icon \(![Data pill picker icon](../images/data-pill-picker-icon.png)\).
+    10. Next to the **Assigned To** field, select the data pill picker icon \(\[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker icon\).
 
     11. Dot-walk to the Interaction record's **Assigned To** field by selecting **Context** &gt; **Input Record - interaction** &gt; **Assigned To**.
 
@@ -155,13 +156,13 @@ The manual business process for this example consists of the following stages:
 
     7.  On the Configure your activity screen, locate the Variables section under Inputs.
 
-    8.  Next to the **Record** field, select the data pill picker icon \(![Data pill picker icon](../images/data-pill-picker-icon.png)\).
+    8.  Next to the **Record** field, select the data pill picker icon \(\[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker icon\).
 
     9.  Dot-walk to the **Create incident from interaction** activity's **record** output by selecting **Activities** &gt; **1:1 - automated\_create\_record** &gt; **Outputs** &gt; **record**.
 
     10. In the Table list, select **Incident \[incident\]**.
 
-    11. Use the [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) to add the following condition to your activity:
+    11. Use the condition builder to add the following condition to your activity:
 
         **\[Updated by\]** **\[is\]** **\[Activities** &gt; **1:1 - automated\_create\_record** &gt; **Outputs** &gt; **record** &gt; **Assigned to\]**.
 
@@ -209,13 +210,13 @@ The manual business process for this example consists of the following stages:
 
     7.  On the Configure your activity screen, locate the Variables section under Inputs.
 
-    8.  Next to the **Record** field, select the data pill picker icon \(![Data pill picker icon](../images/data-pill-picker-icon.png)\).
+    8.  Next to the **Record** field, select the data pill picker icon \(\[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker icon\).
 
     9.  Dot-walk to the **Create incident from interaction** activity's **record** output by selecting **Activities** &gt; **1:1 - automated\_create\_record** &gt; **Outputs** &gt; **record**.
 
     10. In the **Table** field, select **Incident \[incident\]**.
 
-    11. Use the [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) to add the following condition to your activity:
+    11. Use the condition builder to add the following condition to your activity:
 
         **\[State\]** **\[is\]** **\[Resolved\]**.
 
@@ -253,7 +254,7 @@ The manual business process for this example consists of the following stages:
 
     1.  Close the Playbooks tab and navigate to **Playbook Experience**.
 
-    2.  In the side menu, click the lists icon \(![Lists icon](../images/workspace-lists-icon.png)\).
+    2.  In the side menu, click the lists icon \(\[Omitted image "workspace-lists-icon.png"\] Alt text: Lists icon\).
 
     3.  In the **Lists** tab under Interactions, click **My Interactions**.
 
@@ -270,12 +271,12 @@ The manual business process for this example consists of the following stages:
 
     6.  In the form header, click **Save**.
 
-    7.  In the Contextual side panel, click the playbook icon \(![Playbook icon](../images/workspace-playbook-icon.png)\).
+    7.  In the Contextual side panel, click the playbook icon \(\[Omitted image "workspace-playbook-icon.png"\] Alt text: Playbook icon\).
 
 
 ## Result
 
 Your process appears in as a playbook. Here, agents and fulfillers can get a task-oriented view of the automated business process. Agents can step through the activities that you set up to see where the record is in the overall process.
 
-**Parent Topic:**[Getting started with Playbooks](../concept/getting-started-processes.md)
+**Parent Topic:**[Getting started with Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/getting-started-processes.md)
 

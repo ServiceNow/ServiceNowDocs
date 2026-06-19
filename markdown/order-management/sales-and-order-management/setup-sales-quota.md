@@ -2,6 +2,7 @@
 title: Set up sales quota
 description: Assign quota targets to sales representatives and managers based on their hierarchy, role, and forecast period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/setup-sales-quota.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

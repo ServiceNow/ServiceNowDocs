@@ -2,6 +2,7 @@
 title: Require authorization for SCHEMA requests \[Updated in Security Center 1.3\]
 description: Use the glide.basicauth.required.schema property to require basic authorization for all Inbound Table Schema Processor requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-schema-request-authorization.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -27,11 +28,11 @@ Set **glide.basicauth.required.schema** to the recommended value of **true** to 
 |---------|-----------|
 |Property name|**glide.basicauth.required.schema**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[API and web service](sc-api-web-service.md)|
+|Category|[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)|
 |Purpose|To require basic authorization for all Inbound Table Schema Processor requests.|
 |Recommended value|True \(default value\).|
 |Configuration type|Boolean|
 |Security risk|\(Moderate\) Omitting authentication from this processor will lead to unauthenticated access to instance data.|
 
-**Parent Topic:**[API and web service](sc-api-web-service.md)
+**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 

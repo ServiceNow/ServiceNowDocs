@@ -2,6 +2,7 @@
 title: Make a decision on chargeback, write off, or transaction denial
 description: Determine whether to initiate a chargeback for a transaction if the cardholder hasn’t yet received the final credit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/make-decision-on-chargeback.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -19,7 +20,7 @@ Determine whether to initiate a chargeback for a transaction if the cardholder h
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector.
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -29,7 +30,7 @@ Recovery option task to choose whether to pursue chargeback for a transaction wh
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -49,7 +50,7 @@ Recovery option task to choose whether to pursue chargeback for a transaction wh
 
 9.  In the **Pursue recovery** drop-down, select one of the following.
 
-<table id="choicetable_gwh_bjs_3fcc"><tbody><tr><td id="d90415e217">
+<table id="choicetable_gwh_bjs_3fcc"><tbody><tr><td id="d77072e217">
 
 **Yes**
 
@@ -57,14 +58,14 @@ Recovery option task to choose whether to pursue chargeback for a transaction wh
 
 The relevant tasks for the transaction trigger for the **Chargeback** stage.
 
-</td></tr><tr><td id="d90415e229">
+</td></tr><tr><td id="d77072e229">
 
 **No**
 
 </td><td>
 
 The **Deny dispute** drop-down is displayed. Select one of the following options:-   **Yes** to deny the dispute. No credit is provided to the cardholder for the disputed transaction. The dispute life-cycle ends.
--   **No** to write off the final credit to the card holder. The task moves forward based on the policy. For more information about Financial adjustments, see [About Financial adjustments in Mastercard disputes](../concept/financial-adjustments.md).
+-   **No** to write off the final credit to the card holder. The task moves forward based on the policy. For more information about Financial adjustments, see [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/financial-adjustments.md).
 
 
 </td></tr></tbody>
@@ -79,5 +80,5 @@ The **Deny dispute** drop-down is displayed. Select one of the following options
 
 If the decision is to deny the dispute, the transaction task state updates to **Closed complete**.
 
-**Parent Topic:**[Processing a Mastercard dispute](../concept/processing-mastercard-dispute-case.md)
+**Parent Topic:**[Processing a Mastercard dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/processing-mastercard-dispute-case.md)
 

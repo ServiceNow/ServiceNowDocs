@@ -2,6 +2,7 @@
 title: Improvement opportunities examples
 description: The finding definitions use cases are described below.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/finding-definition-examples.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -15,7 +16,7 @@ breadcrumb: [Setting improvement opportunities from Classic view, Setting improv
 
 The finding definitions use cases are described below.
 
-Use case 1a: Record bouncing between groups. Analysts often want to identify records that go from a particular group \(for example service desk\), then reassign to another group, and eventually resolved by the initial group again.![record bouncing between groups](../image/use-case-1.png)
+Use case 1a: Record bouncing between groups. Analysts often want to identify records that go from a particular group \(for example service desk\), then reassign to another group, and eventually resolved by the initial group again.\[Omitted image "use-case-1.png"\] Alt text: record bouncing between groups
 
 In case the initial group is known, use the following finding rule: Message and category.
 
@@ -62,7 +63,7 @@ Relation: eventually followed by
     -   Track duration: true
     -   Relation constraint: Has the same assignment group
 
-Use case 2: SLA breach. Show all records that were in the state New, while the SLA breach happened.![SLA breach flow](../image/sla-breach-flow.png)
+Use case 2: SLA breach. Show all records that were in the state New, while the SLA breach happened.\[Omitted image "sla-breach-flow.png"\] Alt text: SLA breach flow
 
 After you give the finding definition a message and category, specify the finding rule as follows.
 
@@ -98,7 +99,7 @@ After you give the finding definition a message and category, specify the findin
     -   Field value=true
 -   Track duration: true
 
-![SLA breach](../image/sla-breach.png)
+\[Omitted image "sla-breach.png"\] Alt text: SLA breach
 
 Use case 3: Longer than six hours between parent state Work in Progress and task creation. The resolution time or records often depends on the completion of one or more tasks. To improve the solution time of the main record, it’s therefore important to start the tasks as quickly as possible after the main records reached the Work in Progress state. In this example, the user wants to find all records where it took longer than six hours to create the underlying tasks after the main record went into Work in Progress. After giving the Finding definition a message and category, specify the finding rule as follows.
 
@@ -116,9 +117,9 @@ Use case 3: Longer than six hours between parent state Work in Progress and task
             -   Name=incident task start
             -   Condition type=Process start
                 -   Constraint: Minimum duration is 6 hours
-                -   Track duration: true ![finding definition occurrence](../image/finding-condition-occurrence.png)
+                -   Track duration: true \[Omitted image "finding-condition-occurrence.png"\] Alt text: finding definition occurrence
 
-![finding rule specification](../image/finding-def-sequence.png)
+\[Omitted image "finding-def-sequence.png"\] Alt text: finding rule specification
 
-**Parent Topic:**[Setting improvement opportunities from Classic view](impr-opp-classic-project.md)
+**Parent Topic:**[Setting improvement opportunities from Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/impr-opp-classic-project.md)
 

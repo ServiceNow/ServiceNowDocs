@@ -2,6 +2,7 @@
 title: Exploring Now Assist for Security Incident Response
 description: Your security analysts can use intelligent workflows and ServiceNow generative AI skills to help them triage, investigate, and close security incidents within the flow of their work with the Now Assist for Security Incident Response application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/now-assist-for-security-incident-response-sir/exploring-now-assist-security-incident.html
 release: zurich
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -24,7 +25,7 @@ With generative AI skills and agentic workflows, your security analysts have the
 -   Generate post-incident analysis data.
 -   Generate performance metrics for your remediation teams with an agentic workflow.
 
-    For this feature, the Security operations metrics analysis skill is activated for use with an AI agent. See [Analyze security operations metrics agentic workflow](../task/assess-metrics-sir-aiagent.md) for more information.
+    For this feature, the Security operations metrics analysis skill is activated for use with an AI agent. See [Analyze security operations metrics agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/assess-metrics-sir-aiagent.md) for more information.
 
 -   Generate a resolution plan.
 -   Generate closure notes.
@@ -190,12 +191,12 @@ admin
 
 To learn more about configuring and using Now Assist for Security Incident Response, see:
 
--   [Configuring Now Assist for Security Incident Response](configuring-now-assist-for-security-operations.md)
--   [Summarize a security incident with Now Assist for Security Incident Response](../task/summarize-security-incident-now-assist-sec-incident.md)
--   [Generate closure notes for a security incident with Now Assist for Security Incident Response](../task/generate-closure-notes-si-now-assist-sec-incident.md)
--   [Generate correlation insights with Now Assist for Security Incident Response](../task/generating-insights-for-now-assist-for-security.md)
--   [Generate recommended actions for a security incident with Now Assist for Security Incident Response](../task/generate-recommended-actions-now-assist-for-security.md)
--   [Generate a post-incident analysis for a security incident with Now Assist for Security Incident Response](../task/generate-pia-report-now-assist-security-incident.md)
--   [Analyze security operations metrics agentic workflow](../task/assess-metrics-sir-aiagent.md)
--   [Inputs and triggers for Now Assist for Security Incident Response](../reference/input-triggers-now-assist-security-incident.md)
+-   [Configuring Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/configuring-now-assist-for-security-operations.md)
+-   [Summarize a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/summarize-security-incident-now-assist-sec-incident.md)
+-   [Generate closure notes for a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/generate-closure-notes-si-now-assist-sec-incident.md)
+-   [Generate correlation insights with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/generating-insights-for-now-assist-for-security.md)
+-   [Generate recommended actions for a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/generate-recommended-actions-now-assist-for-security.md)
+-   [Generate a post-incident analysis for a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/generate-pia-report-now-assist-security-incident.md)
+-   [Analyze security operations metrics agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/assess-metrics-sir-aiagent.md)
+-   [Inputs and triggers for Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/input-triggers-now-assist-security-incident.md)
 

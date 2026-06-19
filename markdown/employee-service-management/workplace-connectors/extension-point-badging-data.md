@@ -2,6 +2,7 @@
 title: Extension point for badging data
 description: Create a scripted extension point to process badging data from the provider and convert it into a standard format. Confirm that each provider implements this extension.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-connectors/extension-point-badging-data.html
 release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
@@ -30,9 +31,9 @@ Role required: admin
 4.  Select the **Create Implementation** related link to create your badging data specific extension point script.
 
 
-**Parent Topic:**[Setup Workplace Connectors for badging data](../concept/setup-workplace-connectors.md)
+**Parent Topic:**[Setup Workplace Connectors for badging data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/setup-workplace-connectors.md)
 
-**Previous topic:**[Attendance Analytics](attendance-analytics.md)
+**Previous topic:**[Attendance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/attendance-analytics.md)
 
-**Next topic:**[Setup Workplace Connectors for occupancy data](../concept/setup-occupancy-connectors.md)
+**Next topic:**[Setup Workplace Connectors for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/setup-occupancy-connectors.md)
 

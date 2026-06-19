@@ -2,6 +2,7 @@
 title: Configure Notify with Twilio
 description: Configure Notify to use the Twilio telephony service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/notify/t\_ConfigureNotifyWithTwilio.html
 release: zurich
 product: Notify
 classification: notify
@@ -41,7 +42,7 @@ Role required: notify\_admin
 
     If the account is already associated with an instance, the system displays an error message. To connect to this account,
 
-    -   [Disconnect the account from the instance](t_disconnect-from-Twilio-account.md).
+    -   [Disconnect the account from the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/t_disconnect-from-Twilio-account.md).
     -   Delete the TwiML apps in the Twilio account.
     **Note:** If you buy or release numbers on the Twilio account, open the configuration page again to refresh the list of numbers. Numbers removed from the Twilio service remain as Notify Number records, but with the **Active** field set to false. Use only active phone numbers for inbound or outbound communication.
 
@@ -50,16 +51,16 @@ Role required: notify\_admin
 
 Phone numbers and short codes are provided by Twilio once the account is successfully connected and are stored on the Notify Phone Numbers \[notify\_number\] table. Assign each number to a number group. Number groups allow you to control which workflows run when using the phone numbers in each number group.
 
--   **[Twilio-Direct callback testing](callback-testing.md)**  
+-   **[Twilio-Direct callback testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/callback-testing.md)**  
 Make an outgoing call or send an SMS using Twilio and trigger callbacks to ServiceNow to test whether Twilio can reach the instance. You can also view when the last callback test was run, its status, and the test logs.
--   **[Advanced configuration for SMS](t_ConfigureNotifyforVoiceandSMS.md)**  
+-   **[Advanced configuration for SMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/t_ConfigureNotifyforVoiceandSMS.md)**  
 Use the Twilio co-pilot features to improve SMS delivery with phone number like using multiple numbers to send high-volume messages and content intelligence to automatically format every message without writing custom code. Reach large lists of users with one API request.
--   **[Advanced configuration for voice](advanced-configure-voice.md)**  
+-   **[Advanced configuration for voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/advanced-configure-voice.md)**  
 Configure Answering Machine Detection \(AMD\) to determine if a human has picked up the call or not.
--   **[Disconnect from a Twilio account](t_disconnect-from-Twilio-account.md)**  
+-   **[Disconnect from a Twilio account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/t_disconnect-from-Twilio-account.md)**  
 If a Twilio account is already associated with a different system, disconnect the account from the other system before connecting to the current instance.
--   **[Configure Amazon Polly as default voice tone for text to speech](configure-amazon-polly-voice-tone.md)**  
+-   **[Configure Amazon Polly as default voice tone for text to speech](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/configure-amazon-polly-voice-tone.md)**  
 You can configure Amazon Polly as the default voice by overriding the default voice tone for text to speech.
 
-**Parent Topic:**[Configuring Notify](../concept/configuring-notify.md)
+**Parent Topic:**[Configuring Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/configuring-notify.md)
 

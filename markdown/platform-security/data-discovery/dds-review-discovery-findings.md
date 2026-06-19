@@ -2,6 +2,7 @@
 title: Review discovery findings
 description: Classify data in Data Discovery Store
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-discovery/dds-review-discovery-findings.html
 release: zurich
 product: Data Discovery
 classification: data-discovery

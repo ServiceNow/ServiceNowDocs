@@ -2,6 +2,7 @@
 title: Widget API reference
 description: Service Portal includes client and server side APIs to use in widget client and server scripts.Global variable and functions available in widget client and server scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/widget-api-reference.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -31,7 +32,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[spAriaUtil](https://www.servicenow.com/docs/access?context=spAriaUtil-API&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+spAriaUtil
 
 </td><td>
 
@@ -39,7 +40,7 @@ Shows messages on a screen reader.
 
 </td></tr><tr><td>
 
-[spContextManager](https://www.servicenow.com/docs/access?context=spContextManagerAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+spContextManager
 
 </td><td>
 
@@ -47,7 +48,7 @@ Makes data from a Service Portal widget available to other applications and serv
 
 </td></tr><tr><td>
 
-[spUtil](https://www.servicenow.com/docs/access?context=spUtilAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+spUtil
 
 </td><td>
 
@@ -55,7 +56,7 @@ Utility methods to perform common functions in a Service Portal widget client sc
 
 </td></tr><tr><td>
 
-[spModal](https://www.servicenow.com/docs/access?context=SPModal-API&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+spModal
 
 </td><td>
 
@@ -78,7 +79,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[GlideSPScriptable](https://www.servicenow.com/docs/access?context=c_GlideSPScriptableScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+GlideSPScriptable
 
 </td><td>
 
@@ -86,7 +87,7 @@ The GlideSPScriptable API provides methods to interact with data and perform rec
 
 </td></tr><tr><td>
 
-[GlideSPSearchAnalytics](https://www.servicenow.com/docs/access?context=GlideSPSearchAnalyticsAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+GlideSPSearchAnalytics
 
 </td><td>
 
@@ -94,7 +95,7 @@ The GlideSPSearchAnalytics API provides methods to generate search analytics fro
 
 </td></tr><tr><td>
 
-[SPScriptedFacet - Scoped](https://www.servicenow.com/docs/access?context=SPScriptedFacetScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+
 
 </td><td>
 
@@ -102,7 +103,7 @@ Defines facet items, filters, or mapped queries for a facets object.
 
 </td></tr><tr><td>
 
-[SPScriptedFacetService - Scoped](https://www.servicenow.com/docs/access?context=SPScriptedFacetServiceScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+
 
 </td><td>
 
@@ -110,7 +111,7 @@ Generates a multi-choice or single-choice facets object for an advanced search s
 
 </td></tr><tr><td>
 
-[SPSEOUtilsSNC - Global](https://www.servicenow.com/docs/access?context=SPSEOUtilsSNCAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+
 
 </td><td>
 
@@ -118,14 +119,14 @@ Return human-readable URLs for a specific page, or for the current page, based o
 
 </td></tr><tr><td>
 
-[SPWidgetAccessControl - Global](https://www.servicenow.com/docs/access?context=SPWidgetAccessControlGlobalAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+
 
 </td><td>
 
 Check whether a provided table is granted access to a widget to ensure that a widget is securely accessed by an intended audience.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Developing custom widgets](../concept/widget-dev-guide.md)
+</table>**Parent Topic:**[Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/widget-dev-guide.md)
 
 ## Widget properties
 

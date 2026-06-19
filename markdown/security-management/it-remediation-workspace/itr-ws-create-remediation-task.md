@@ -2,6 +2,7 @@
 title: Create a remediation task manually in the IT Remediation Workspace
 description: Starting with v25.0.4 of Vulnerability Response, you can create remediation tasks manually from the Host vulnerable items, Application Vulnerable items, Container vulnerable items, and Configuration test results lists on the List page of IT Remediation Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/it-remediation-workspace/itr-ws-create-remediation-task.html
 release: zurich
 product: IT Remediation Workspace
 classification: it-remediation-workspace
@@ -34,7 +35,7 @@ Role required:
     -   Application Vulnerable Items
     -   Container Vulnerable Items
     -   Configuration Test Results
-3.  Select the check box of the records you want to update and then select the [Selected items](itr-ws-create-remediation-task.md#itr-crt-select-items) option in the Record selection field on the Create Remediation Task modal.
+3.  Select the check box of the records you want to update and then select the [Selected items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/it-remediation-workspace/itr-ws-create-remediation-task.md) option in the Record selection field on the Create Remediation Task modal.
 
 4.  Select **Create Remediation Task**.
 
@@ -93,5 +94,5 @@ Choices are:-   **Skip records for new remediation tasks**: No action is taken o
 
 ## Result
 
-Remediation tasks are created based on the grouping criteria. An email notification is sent to the remediation owners in the assignment group, informing them that a remediation task has been created and assigned to their group. For examples on how remediation tasks are created based on the grouping criteria and record management criteria, see [Examples for remediation task creation in the Vulnerability Manager Workspace and IT Remediation Workspace](../../vr-vulnerability-manager-workspace/reference/create-remediation-task-examples.md).
+Remediation tasks are created based on the grouping criteria. An email notification is sent to the remediation owners in the assignment group, informing them that a remediation task has been created and assigned to their group. For examples on how remediation tasks are created based on the grouping criteria and record management criteria, see [Examples for remediation task creation in the Vulnerability Manager Workspace and IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-manager-workspace/create-remediation-task-examples.md).
 

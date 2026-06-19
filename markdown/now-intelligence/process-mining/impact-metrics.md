@@ -2,6 +2,7 @@
 title: Configure impact metrics
 description: Configure the Key Performance Indicators \(KPIs\) for this process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/impact-metrics.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -23,13 +24,13 @@ Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimizati
 
 1.  Navigate to **Workspaces** &gt; **Process Mining Workspace**.
 
-2.  On the side of the page, select the Process configurations icon \(![Process configuration builder](../image/icon-process-config.png)\).
+2.  On the side of the page, select the Process configurations icon \(\[Omitted image "icon-process-config.png"\] Alt text: Process configuration builder\).
 
 3.  Open a table from the **Configurations** tab.
 
     The **Process details** page is displayed. Select **Impact metrics** from the side panel.
 
-    If you’re proceeding from the **Investigative features** page, then you come to this page. For more information, see [Configure investigative features](investigative-features.md).
+    If you’re proceeding from the **Investigative features** page, then you come to this page. For more information, see [Configure investigative features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/investigative-features.md).
 
     The **Impact metrics** page has four sections:
 
@@ -45,7 +46,7 @@ Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimizati
 
     -   **KPI dashboard**: KPI dashboards include data visualizations, filters, and other components to track Key Performance Indicators \(KPIs\) for the process. They leverage Platform Analytics dashboards to deliver insights directly within process mining projects.
     -   **KPI categories**: KPI categories are predefined categories that organize KPIs into groups based on common process objectives.
-    ![Impact metrics in process configuration](../image/impact-metrics-proc-con.png)
+    \[Omitted image "impact-metrics-proc-con.png"\] Alt text: Impact metrics in process configuration
 
 4.  Fill the details in the **Idle time analysis** section.
 
@@ -87,7 +88,7 @@ Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimizati
 
     Select the help icon \(?\) to view details about how and why these details must be set. You also get a list of resources.
 
-    If you want to create a KPI dashboard, select **New Dashboard**. For more information, see [Create a dashboard with the in-line editor](../../../use/dashboards/task/create-db-in-ac.md).
+    If you want to create a KPI dashboard, select **New Dashboard**. For more information, see [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-db-in-ac.md).
 
 7.  Provide values for each KPI categories.
 
@@ -98,5 +99,5 @@ Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimizati
 8.  Select **Continue to improvement opportunities**.
 
 
-**Parent Topic:**[Create process configuration using Process Configuration Builder](process-config-builder.md)
+**Parent Topic:**[Create process configuration using Process Configuration Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/process-config-builder.md)
 

@@ -2,6 +2,7 @@
 title: Manage a user group segment
 description: After creating a user group segment, you can review and edit it before you create cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/bulk-case-segment-manage.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -35,7 +36,7 @@ Role required: sn\_hr\_core.admin
 
 5.  To remove a user from the user segment group, double-click in the **Status** column for the user you want to remove and change to **Excluded**.
 
-    ![Status related to user in bulk case user segment](../image/bulk-case-user-seg-status.png)
+    \[Omitted image "bulk-case-user-seg-status.png"\] Alt text: Status related to user in bulk case user segment
 
     The meaning for each status:
 
@@ -54,5 +55,5 @@ Role required: sn\_hr\_core.admin
 6.  After changing a user's status, select **Save**.
 
 
-**Parent Topic:**[Creating bulk cases](../concept/bulk-case.md)
+**Parent Topic:**[Creating bulk cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/bulk-case.md)
 

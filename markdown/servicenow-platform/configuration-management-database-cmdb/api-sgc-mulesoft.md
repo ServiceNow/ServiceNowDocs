@@ -2,6 +2,7 @@
 title: API Service Graph Connector for MuleSoft
 description: Use the ServiceNow API Service Graph Connector for MuleSoft to import API details from a MuleSoft Anypoint Platform application into the Configuration Management Database \(CMDB\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-mulesoft.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -17,13 +18,13 @@ Use the ServiceNow® API Service Graph Connector for MuleSoft to import API deta
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Key features
 
 Import data into a normalized data model for consistency across other technologies.
 
-The API Insights workspace provides a centralized interface where you can analyze and interact with API data, without needing direct access to a MuleSoft Anypoint Platform application, enhancing visibility, governance, and collaboration across the API estate. To learn more, see [API Insights](../../api-insights/reference/api-insights.md).
+The API Insights workspace provides a centralized interface where you can analyze and interact with API data, without needing direct access to a MuleSoft Anypoint Platform application, enhancing visibility, governance, and collaboration across the API estate. To learn more, see [API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/api-insights/api-insights.md).
 
 ## Supported ServiceNow versions
 
@@ -43,7 +44,7 @@ You can use the API Service Graph Connector for MuleSoft to:
 
 ## Configuring a connection for the connector
 
-You can configure a connection for the connector by using the SGC Central view in the CMDB Workspace. The SGC Central view enables you to discover and install connectors, and then effectively manage the full life cycle of creating, editing, monitoring, and debugging connections. To configure the connector using SGC Central, see [Configure API Service Graph Connector for MuleSoft using SGC Central](../../sgc-central/task/sgcc-configure-mulesoft.md).
+You can configure a connection for the connector by using the SGC Central view in the CMDB Workspace. The SGC Central view enables you to discover and install connectors, and then effectively manage the full life cycle of creating, editing, monitoring, and debugging connections. To configure the connector using SGC Central, see [Configure API Service Graph Connector for MuleSoft using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-mulesoft.md).
 
 ## Data mapping
 
@@ -75,7 +76,7 @@ Gateway \[sn\_mulesoft\_gateway\]
 
 </td><td>
 
-[Anypoint API Gateway](../reference/api-sgc-mulesoft-tables.md#section_d3q_45r_whc)
+[Anypoint API Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-mulesoft-tables.md)
 
 </td></tr><tr><td>
 
@@ -87,7 +88,7 @@ Managed API \[sn\_mulesoft\_managed\_api\]
 
 </td><td>
 
-[Managed API](../reference/api-sgc-mulesoft-tables.md#section_uww_y5r_whc)[Key Value \[cmdb\_key\_value\]](../reference/api-sgc-mulesoft-tables.md#section_w23_ywr_whc)
+[Managed API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-mulesoft-tables.md)[Key Value \[cmdb\_key\_value\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-mulesoft-tables.md)
 
 </td></tr><tr><td>
 
@@ -99,7 +100,7 @@ Frontend And Backend \[sn\_mulesoft\_frontend\_and\_backend\]
 
 </td><td>
 
-[Frontend](../reference/api-sgc-mulesoft-tables.md#section_ayw_2vr_whc)[Backend](../reference/api-sgc-mulesoft-tables.md#section_zgm_nwr_whc)
+[Frontend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-mulesoft-tables.md)[Backend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-mulesoft-tables.md)
 
 </td></tr><tr><td>
 
@@ -111,10 +112,10 @@ API Deployments \[sn\_mulesoft\_api\_deployments\]
 
 </td><td>
 
-[API Deployment](../reference/api-sgc-mulesoft-tables.md#section_scn_rwr_whc)[Data Service Instance](../reference/api-sgc-mulesoft-tables.md#section_cnb_wwr_whc)
+[API Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-mulesoft-tables.md)[Data Service Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-mulesoft-tables.md)
 
 </td></tr></tbody>
-</table>For more information on where data is saved when pulling data from a MuleSoft Anypoint Platform application, see [Target tables for storing API Service Graph Connector for MuleSoft data](../reference/api-sgc-mulesoft-tables.md).
+</table>For more information on where data is saved when pulling data from a MuleSoft Anypoint Platform application, see [Target tables for storing API Service Graph Connector for MuleSoft data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/api-sgc-mulesoft-tables.md).
 
-You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](integrationhub-etl.md) for more information.
+You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/integration-hub-etl/integrationhub-etl.md) for more information.
 

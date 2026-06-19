@@ -2,6 +2,7 @@
 title: Localization Framework Roles
 description: Localization Framework uses different roles to manage different aspects of the application. The roles from Localization Framework are also used in Localization Workspace.Manage the following aspects of the Localization Framework application. This role is also used in Localization Workspace.Request translations for all the configured artifacts into one or more languages. This role is used in Localization Framework and Localization Workspace.Provide translations for the requested artifact items and approve and publish the translations. This role is used in Localization Framework and Localization Workspace.Localization editors can translate content without the need for a localization task. This role is used in Localization Framework and Localization Workspace.Owns the localization projects and adds the localization requested items to the projects. Only a Localization manager has the authority to start the project. This role is used by Localization Framework and Localization Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/localization-framework/roles-localization-framework.html
 release: zurich
 product: Localization Framework
 classification: localization-framework
@@ -15,9 +16,9 @@ breadcrumb: [Explore Localization Framework, Localization Framework, Translation
 
 Localization Framework uses different roles to manage different aspects of the application. The roles from Localization Framework are also used in Localization Workspace.
 
-For more information about Localization Workspace, see [Localization Workspace](../../localization-workspace/concept/localization-workspace.md). To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](../../subscription-management/concept/managing-user-subscriptions-v2.md) and contact your account representative.
+For more information about Localization Workspace, see [Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/localization-workspace.md). To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[Explore Localization Framework](../concept/exploring-localization-framework.md)
+**Parent Topic:**[Explore Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/exploring-localization-framework.md)
 
 ## Localization administrator \[localization\_admin\]
 
@@ -146,5 +147,5 @@ If the Localization Framework Hub and Spoke architecture is activated, the local
 -   Localization Framework Hub Translation Request \[sn\_lf\_hub\_translation\_request\]
 -   Localization Framework Hub Translation Item \[sn\_lf\_hub\_translation\_item\]
 
-For more information, see [Localization Framework Hub and Spoke architecture](../concept/localization-framework-hub-spoke-architecture.md).
+For more information, see [Localization Framework Hub and Spoke architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/localization-framework-hub-spoke-architecture.md).
 

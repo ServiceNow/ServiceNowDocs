@@ -2,7 +2,10 @@
 title: Reverse matching
 description: Reverse matching uses the same matching rules to match tasks to a resource rather than resources to a task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_ReverseMatching.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -39,8 +42,8 @@ The same matching rule can be used for both forward and reverse matching.
     ```
 
 
--   **[Limit the number of task sys\_ids returned for reverse matching rules](reverse-match-limit.md)**  
+-   **[Limit the number of task sys\_ids returned for reverse matching rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/reverse-match-limit.md)**  
 Reverse matching rules return a list of case sys\_ids. Limit the number of cases returned by configuring the number in the reverse.matchingrule.entity.limit system property.
 
-**Parent Topic:**[Routing and assigning customer service cases](../concept/c_CaseRouting.md)
+**Parent Topic:**[Routing and assigning customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/c_CaseRouting.md)
 

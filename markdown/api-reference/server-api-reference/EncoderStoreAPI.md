@@ -2,6 +2,7 @@
 title: EncoderStore - Global
 description: The EncoderStore API provides methods to store and retrieve encoders.Adds a new encoder object to the store and returns a unique name.Removes a specified encoder object from the store.Gets an encoder object from a store.Gets the names of all encoder definition records in the store.Updates an encoder object in a store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/EncoderStoreAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The EncoderStore API provides methods to store and retrieve encoders.
 
 This API requires the Predictive Intelligence plugin \(com.glide.platform\_ml\) and is provided within the `sn_ml` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## EncoderStore - add\(Object mlEncoder\)
 
@@ -27,13 +28,13 @@ Adds a new encoder object to the store and returns a unique name.
 
 |Name|Type|Description|
 |----|----|-----------|
-|mlEncoder|[Encoder](../../Encoder/concept/EncoderAPI.md#)|[Encoder\(\)](../../Encoder/concept/EncoderAPI.md#) object to add to the store.|
+|mlEncoder|[Encoder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/EncoderAPI.md)|[Encoder\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/EncoderAPI.md) object to add to the store.|
 
 |Type|Description|
 |----|-----------|
 |String|System-generated solution name.|
 
-The following example shows how to add an encoder to the store. Use [Encoder - submitTrainingJob\(\)](../../Encoder/concept/EncoderAPI.md#) to run the training job after adding it to the store.
+The following example shows how to add an encoder to the store. Use [Encoder - submitTrainingJob\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/EncoderAPI.md) to run the training job after adding it to the store.
 
 ```
 // Create a dataset 
@@ -65,7 +66,7 @@ Removes a specified encoder object from the store.
 
 |Name|Type|Description|
 |----|----|-----------|
-|name|String|Name of the [Encoder\(\)](../../Encoder/concept/EncoderAPI.md#) object to be deleted.|
+|name|String|Name of the [Encoder\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/EncoderAPI.md) object to be deleted.|
 
 |Type|Description|
 |----|-----------|
@@ -87,9 +88,9 @@ Gets an encoder object from a store.
 
 |Type|Description|
 |----|-----------|
-|Object|[Encoder](../../Encoder/concept/EncoderAPI.md#) object. Returns an error if the object does not exist.|
+|Object|[Encoder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/EncoderAPI.md) object. Returns an error if the object does not exist.|
 
-The following example shows how to get an encoder object from the store using the get\(\) method and view its training status using the [Encoder - getActiveVersion\(\)](../../Encoder/concept/EncoderAPI.md#) and [EncoderVersion - getStatus\(\)](../../EncoderVersion/concept/EncoderVersionAPI.md#) methods.
+The following example shows how to get an encoder object from the store using the get\(\) method and view its training status using the [Encoder - getActiveVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/EncoderAPI.md) and [EncoderVersion - getStatus\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/EncoderVersionAPI.md) methods.
 
 ```
 // Get status
@@ -164,7 +165,7 @@ String
 
 </td><td>
 
-Optional. Name of the domain for your solution object. Refer to [Domain separation and Predictive Intelligence](https://www.servicenow.com/docs/access?context=domain-separation-predictive-intelligence&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+Optional. Name of the domain for your solution object. Refer to Domain separation and Predictive Intelligence.
 
 </td></tr><tr><td>
 
@@ -176,7 +177,7 @@ String
 
 </td><td>
 
-Optional. Name of an [application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=zurich&pubname=zurich-application-development&ft:locale=en-US) for your solution object.
+Optional. Name of an application scope for your solution object.
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -228,7 +229,7 @@ Updates an encoder object in a store.
 |Name|Type|Description|
 |----|----|-----------|
 |name|String|Name of the encoder to update.|
-|mlEncoder|[Encoder](../../Encoder/concept/EncoderAPI.md#)|[Encoder\(\)](../../Encoder/concept/EncoderAPI.md#) object properties to update.|
+|mlEncoder|[Encoder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/EncoderAPI.md)|[Encoder\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/EncoderAPI.md) object properties to update.|
 
 |Type|Description|
 |----|-----------|

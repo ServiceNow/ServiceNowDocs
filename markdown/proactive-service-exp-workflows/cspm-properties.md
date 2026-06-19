@@ -2,6 +2,7 @@
 title: Customer Service Problem Management properties
 description: Customer Service Problem Management uses the following system properties, which are located in the System Properties \[sys\_properties\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/cspm-properties.html
 release: zurich
 topic_type: reference
 last_updated: "2025-07-31"

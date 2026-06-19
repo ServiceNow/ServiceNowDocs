@@ -2,6 +2,7 @@
 title: Escalate a certification task from the certification task list
 description: Escalate a certification task to notify the manager of the current task owner.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/t\_EscalateCertTaskFromCertList.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

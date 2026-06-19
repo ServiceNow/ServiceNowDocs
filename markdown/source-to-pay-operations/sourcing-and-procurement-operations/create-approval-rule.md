@@ -2,6 +2,7 @@
 title: Create an approval rule
 description: Approve a purchase requisition, purchase order, sourcing request, or invoice, by defining an approval strategy and creating approval rules. This is a one-place configuration that can drive any kind of approval process that your organization may need.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-approval-rule.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -18,7 +19,7 @@ Approve a purchase requisition, purchase order, sourcing request, or invoice, by
 
 ## Before you begin
 
-To create an approval rule, you must have set up your product catalog \(with the necessary product categories, product models, and supplier products\) and should be able to raise a purchase requisition or sourcing request. For more information on how to set up your product catalog, see [Create a product category](create-product-model-categories.md), [Create a product model](create-product-models.md), and [Add a supplier product](add-supplier-product.md). You should have also set up the sys\_user record appropriately to include relevant details such as job codes, managers.
+To create an approval rule, you must have set up your product catalog \(with the necessary product categories, product models, and supplier products\) and should be able to raise a purchase requisition or sourcing request. For more information on how to set up your product catalog, see [Create a product category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-product-model-categories.md), [Create a product model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-product-models.md), and [Add a supplier product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/add-supplier-product.md). You should have also set up the sys\_user record appropriately to include relevant details such as job codes, managers.
 
 Role required: sn\_shop.procurement\_administrator
 
@@ -26,7 +27,7 @@ Role required: sn\_shop.procurement\_administrator
 
 You can create an approval rule to determine how approval plans are generated and routed when conditions are met, from the Sourcing and Purchasing Automation module.
 
-![Approval rule.](../image/create_approval_rule.png)
+\[Omitted image "create\_approval\_rule.png"\] Alt text: Approval rule.
 
 ## Procedure
 
@@ -106,7 +107,7 @@ Type of approval rule that determines how approval plans are generated and route
 
 **Note:** This option is available only when the approving object is a purchase requisition.
 
- Depending on the rule type you select, the associated fields appear. For more information on these rules, see [Approval rule types](../reference/approval-rule-types.md).
+ Depending on the rule type you select, the associated fields appear. For more information on these rules, see [Approval rule types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/approval-rule-types.md).
 
 </td></tr><tr><td>
 
@@ -138,7 +139,7 @@ Approval sequence
 
 </td><td>
 
-Sequence in which the approval rules should be triggered. For more information on this, see [Approval rule grouping and sequencing](../reference/approval-rule-sequencing.md).
+Sequence in which the approval rules should be triggered. For more information on this, see [Approval rule grouping and sequencing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/approval-rule-sequencing.md).
 
 </td></tr><tr><td>
 
@@ -218,12 +219,12 @@ Conditions based on the approving object that determine the conditions under whi
 </table>4.  Select **Submit**.
 
 
--   **[Approval rule types](../reference/approval-rule-types.md)**  
+-   **[Approval rule types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/approval-rule-types.md)**  
 Approval rule types determine the methods by which approvals are created during the purchase requisition process.
--   **[Approval rule considerations](../reference/approval-rule-considerations.md)**  
+-   **[Approval rule considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/approval-rule-considerations.md)**  
 Factors like currency, which includes foreign exchange, reference, and transactional, decide the approval rules to be triggered. Some of the other factors are purchasing limit, line amount, and received lines, among others.
--   **[Approval rule grouping and sequencing](../reference/approval-rule-sequencing.md)**  
+-   **[Approval rule grouping and sequencing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/approval-rule-sequencing.md)**  
 As a Procurement Administrator, you can associate approval rules with approval groups and define the sequence to determine when these rules should be triggered. With this association, a set of approval rules within a rule group is triggered in sequence, instead of all of them being evaluated simultaneously.
 
-**Parent Topic:**[Sourcing and Purchasing Automation](../reference/purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

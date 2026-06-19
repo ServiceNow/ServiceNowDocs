@@ -2,11 +2,12 @@
 title: Configure webhooks in GitHub manually
 description: Configure webhooks in GitHub to send sync notifications to the DevOps Change Velocity application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/config-webhooks-github-manually.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [GitHub, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -29,13 +30,13 @@ You can also access manual configuration from the GitHub tool record in DevOps C
 
 2.  In DevOps Change Velocity, choose **Configure manually** when configuring the tool instance to send data.
 
-    ![GitHub configure manually](../image/github-plybk-02.png)
+    \[Omitted image "github-plybk-02.png"\] Alt text: GitHub configure manually
 
 3.  In DevOps Change Velocity, copy the **Webhook URL** field from the ServiceNow instance connection details for GitHub.
 
     **Note:** Select **Copy** in the appropriate field to copy the value to your clipboard. The field label changes to **Copied**, but you can copy multiple times.
 
-    ![GitHub manually configure webhooks](../image/github-manual-webhooks-2.png)
+    \[Omitted image "github-manual-webhooks-2.png"\] Alt text: GitHub manually configure webhooks
 
 4.  Modify the copied Webhook URL to reflect your tool details, and paste the URL in GitHub.
 
@@ -58,8 +59,8 @@ You can also access manual configuration from the GitHub tool record in DevOps C
     |Webhook URL \(modified\)|Payload URL|
     |Secret token|Secret|
 
-    ![GitHub configure webhooks manually](../image/github-manual-webhooks.png)
+    \[Omitted image "github-manual-webhooks.png"\] Alt text: GitHub configure webhooks manually
 
 
-**Parent Topic:**[GitHub integration with DevOps Change Velocity](../concept/github-integration-dev-ops.md)
+**Parent Topic:**[GitHub integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/github-integration-dev-ops.md)
 

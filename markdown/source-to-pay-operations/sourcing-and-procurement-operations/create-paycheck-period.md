@@ -2,13 +2,14 @@
 title: Create a paycheck period
 description: Assign a time period for an employee shopper to pay back costs in excess of the allocated credit amount in Shopping Hub Home, by creating a paycheck period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-paycheck-period.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using Shopping Hub, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Using Shopping Hub, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Create a paycheck period
@@ -17,7 +18,7 @@ Assign a time period for an employee shopper to pay back costs in excess of the 
 
 ## Before you begin
 
-To create a paycheck period, you must have already created some credits to be assigned to employee shoppers. For more information, see [Create an employee credit](create-employee-credit.md).
+To create a paycheck period, you must have already created some credits to be assigned to employee shoppers. For more information, see [Create an employee credit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-employee-credit.md).
 
 Role required: sn\_shop.shopping\_hub\_admin
 
@@ -33,10 +34,10 @@ You can create a paycheck period for an employee shopper from Shopping Hub.
 
 3.  In the **Number of paychecks** field, enter a number to create a record for a paycheck period.
 
-    ![Creating a paycheck period for an employee](../image/spo-create-paycheck-period.png)
+    \[Omitted image "spo-create-paycheck-period.png"\] Alt text: Creating a paycheck period for an employee
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Using Shopping Hub](../reference/use-shoppinghub-portal.md)
+**Parent Topic:**[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)
 

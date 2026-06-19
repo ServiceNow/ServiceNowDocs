@@ -2,6 +2,7 @@
 title: Workflow Data Fabric Hub roles
 description: Workflow Data Fabric Hub is installed with these roles.Role for creating and managing connections in Workflow Data Fabric Hub.Role for creating and managing data fabric tables in Workflow Data Fabric Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/workflow-data-fabric-hub/workflow-data-fabric-roles.html
 release: zurich
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -15,9 +16,9 @@ breadcrumb: [Reference, Workflow Data Fabric Hub, Workflow Data Fabric]
 
 Workflow Data Fabric Hub is installed with these roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing subscriptions, see  and contact your account representative.
 
-**Parent Topic:**[Workflow Data Fabric Hub reference](wdf-reference.md)
+**Parent Topic:**[Workflow Data Fabric Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/wdf-reference.md)
 
 ## Connection administrator \[df\_connection\_admin\]
 

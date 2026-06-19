@@ -2,6 +2,7 @@
 title: Components installed with Continual Improvement Management
 description: Several types of components are installed with the CIM plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/continual-improvement-management/cim-components.html
 release: zurich
 product: Continual Improvement Management
 classification: continual-improvement-management
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Continual Improvement Management, IT Service Management]
 
 Several types of components are installed with the CIM plugin, including tables, user roles, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -25,7 +26,7 @@ Demo data is available for this feature.
 -   Improvement Coordinator \[sn\_cim.improvement\_coordinator\]
 -   Improvement Manager \[sn\_cim.improvement\_manager\]
 
-For more information about the inherited roles and functions that users with different CIM roles can perform, see [CIM roles](cim-roles.md).
+For more information about the inherited roles and functions that users with different CIM roles can perform, see [CIM roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/cim-roles.md).
 
 ## Scheduled jobs
 
@@ -138,5 +139,5 @@ Enable the property to create the default phase when an improvement initiative i
 -   Default value: No
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Continual Improvement Management reference](cim-reference.md)
+</table>**Parent Topic:**[Continual Improvement Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/cim-reference.md)
 

@@ -2,6 +2,7 @@
 title: Responsive dashboard properties
 description: Use properties to fine-tune dashboard behavior and appearance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/dashboard-properties.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -53,7 +54,7 @@ glide.cms.dashboards.sharing\_with\_secure\_search
 -   Default value: false
 -   Location: **System Properties** &gt; **Dashboard Properties**
 
- When enabled, the list of users, user groups, and roles that are visible in the sharing panel is restricted. The restriction is based on the configuration of the sys\_user, sys\_user\_group, and sys\_user\_role ACLs. For more information, see [Access control list rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+ When enabled, the list of users, user groups, and roles that are visible in the sharing panel is restricted. The restriction is based on the configuration of the sys\_user, sys\_user\_group, and sys\_user\_role ACLs. For more information, see Access control list rules.
 
  There is a performance penalty associated with enabling this property. Performance degradation may be based on the number and complexity of business rules and ACLs on your instance.
 
@@ -86,7 +87,7 @@ glide.canvas.grid.widget\_performance\_threshold
 -   Default value: none
 -   Location: **System Properties** &gt; **Dashboard Properties**
 
- For more information, see [Optimize widget rendering time on responsive dashboards](../task/t_optimizeWidgetRenderingTime.md).
+ For more information, see [Optimize widget rendering time on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_optimizeWidgetRenderingTime.md).
 
 </td></tr><tr><td>
 
@@ -100,7 +101,7 @@ glide.canvas.grid.widget\_render\_concurrent\_max
 -   Default value: 3
 -   Location: **System Properties** &gt; **Dashboard Properties**
 
- For more information, see [Optimize widget rendering time on responsive dashboards](../task/t_optimizeWidgetRenderingTime.md).
+ For more information, see [Optimize widget rendering time on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_optimizeWidgetRenderingTime.md).
 
 </td></tr><tr><td>
 

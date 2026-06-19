@@ -2,6 +2,7 @@
 title: Exploring Legal Matter Management
 description: Legal Matter Management enables you to manage legal matters and cross-functional tasking to effectively complete legal work. You can store relevant documents and track important milestones of these legal matters from a single place.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-matter-management/legal-matter-management-overview.html
 release: zurich
 product: Legal Matter Management
 classification: legal-matter-management
@@ -83,18 +84,18 @@ Matter Manager can do the following:-   Create and promote legal matter.
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Matter templates for different practice areas with predefined phases and tasks|[Legal matter templates](legal-matter-administration.md)|Matter configurator|
-|Track and complete tasks and milestones through notifications|[Create a task for a legal matter](../task/add-tasks-to-legal-matter.md)|Matter fulfiller|
-|Make meaningful decisions by gaining real-time visibility on legal matters|[Analytics and Reporting Solutions for Legal Service Delivery](../../../use/application-content-packs/concept/legalsd-content-pack.md)|Matter Manager|
-|Track, prioritize, and work on multiple legal matters concurrently with an optimized Legal Counsel Center|[Legal Counsel Center](../../legal-request-management/concept/legal-counsel-center-landing.md)|Matter fulfiller and Matter Manager|
-|Attorney Client Privilege enables legal fulfillers to mark legal requests as privileged and confidential. This capability helps you protect sensitive legal communications and comply with attorney-client privilege requirements.|[Attorney Client Privilege](lmm-acp-landing.md)|Legal Fulfiller and matter owner|
-|Engage with outside firms &amp; counsels by integrating legal matters with Legal Tracker application to track areas or matters handled by outside counsels and track spends on outside counsel engagement.|[Engage with outside counsel](../task/lmm-eng-outcounsel.md)|Matter fulfiller|
+|Matter templates for different practice areas with predefined phases and tasks|[Legal matter templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/legal-matter-administration.md)|Matter configurator|
+|Track and complete tasks and milestones through notifications|[Create a task for a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.md)|Matter fulfiller|
+|Make meaningful decisions by gaining real-time visibility on legal matters|[Analytics and Reporting Solutions for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/legalsd-content-pack.md)|Matter Manager|
+|Track, prioritize, and work on multiple legal matters concurrently with an optimized Legal Counsel Center|[Legal Counsel Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/legal-counsel-center-landing.md)|Matter fulfiller and Matter Manager|
+|Attorney Client Privilege enables legal fulfillers to mark legal requests as privileged and confidential. This capability helps you protect sensitive legal communications and comply with attorney-client privilege requirements.|[Attorney Client Privilege](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/lmm-acp-landing.md)|Legal Fulfiller and matter owner|
+|Engage with outside firms &amp; counsels by integrating legal matters with Legal Tracker application to track areas or matters handled by outside counsels and track spends on outside counsel engagement.|[Engage with outside counsel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/lmm-eng-outcounsel.md)|Matter fulfiller|
 
 ## What to explore next
 
 To learn more about configuring and using Legal Matter Management, see:
 
--   [Setting up Legal Matter Management](setting-up-legal-matter-managemment.md)
--   [Work on a legal matter](../task/work-on-legal-matter-1.md)
--   [Legal Matter Management reference](../reference/legal-matter-management-reference.md)
+-   [Setting up Legal Matter Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/setting-up-legal-matter-managemment.md)
+-   [Work on a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+-   [Legal Matter Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/legal-matter-management-reference.md)
 

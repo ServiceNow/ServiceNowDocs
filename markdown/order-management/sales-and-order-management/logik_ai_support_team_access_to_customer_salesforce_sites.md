@@ -2,6 +2,7 @@
 title: ServiceNow CPQ Support Team access to customer Salesforce sites
 description: Learn how ServiceNow CPQ support team members can securely access customer Salesforce and ServiceNow CPQ Admin environments for troubleshooting. This article outlines recommended access methods, user-management practices, and considerations for customers with stricter security policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/logik\_ai\_support\_team\_access\_to\_customer\_salesforce\_sites.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -37,5 +38,5 @@ In test environments, many customers let our provisioning user stay active indef
 
 During a support case, disabled user accounts can be reactivated upon request.
 
-**Parent Topic:**[ServiceNow CPQ reference](../reference/servicenow-cpq-reference.md)
+**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/servicenow-cpq-reference.md)
 

@@ -2,6 +2,7 @@
 title: Configure a communication template for email in Major Incident Management
 description: Configure a communication templates for email in Major Incident Management to help reduce the efforts and time spent in creating and composing communication emails.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/configure-comm-template-email-mim-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -17,11 +18,11 @@ Configure a communication templates for email in Major Incident Management to he
 
 ## Before you begin
 
-The Major Incident Management plugin must be activated in Service Operations Workspace. For more information, see [Activate Major Incident Management in Service Operations Workspace](install-mim-sow.md).
+The Major Incident Management plugin must be activated in Service Operations Workspace. For more information, see [Activate Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/install-mim-sow.md).
 
 Role required: sn\_mim\_sow\_admin and mail\_client\_template\_read, or admin
 
-**Note:** If you have sn\_mim\_sow\_admin role, you can access the MIM page in Admin Center page but to configure communication templates for email you must also have access to the sys\_email\_client\_template table with mail\_client\_template\_read role. For more information, see [Roles in Service Operations Workspace for ITSM](../reference/roles-in-sow.md).
+**Note:** If you have sn\_mim\_sow\_admin role, you can access the MIM page in Admin Center page but to configure communication templates for email you must also have access to the sys\_email\_client\_template table with mail\_client\_template\_read role. For more information, see [Roles in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/roles-in-sow.md).
 
 ## Procedure
 

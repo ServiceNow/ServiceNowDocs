@@ -2,6 +2,7 @@
 title: Configure ManageEngine for external content indexing
 description: Create a server-based OAuth 2.0 client application in the Zoho API console to allow the ManageEngine external content connector to access your ManageEngine source system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-manageengine-external-content-indexing.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -30,7 +31,7 @@ Role required: none
 
 The ManageEngine external content connector retrieves public-domain knowledge articles from knowledge bases in your ManageEngine source system using the ManageEngine REST API.
 
-To allow the connector to access your ManageEngine content via the REST API, you must create a server-based OAuth 2.0 client application in the Zoho API console. Your connector admin can use the ID and secret from this client application to configure the ManageEngine external connector for proper connection to your source system.
+To allow the connector to access your ManageEngine content via the REST API, you must create a server-based OAuth 2.0 client application in the Zoho API console. Your connector administrator can use the ID and secret from this client application to configure the ManageEngine external connector for proper connection to your source system.
 
 ## Procedure
 
@@ -64,24 +65,24 @@ To allow the connector to access your ManageEngine content via the REST API, you
 
     3.  Copy the application's **Client ID** and store it in a secure location.
 
-        **Important:** Your external content connector admin needs this client ID when configuring the ManageEngine external content connector.
+        **Important:** Your external content connector administrator needs this client ID when configuring the ManageEngine external content connector.
 
     4.  Copy the application's **Client Secret** and store it in a secure location.
 
-        **Important:** Your external content connector admin needs this client secret when configuring the ManageEngine external content connector.
+        **Important:** Your external content connector administrator needs this client secret when configuring the ManageEngine external content connector.
 
 
 ## What to do next
 
-Provide the following items to your connector admin:
+Provide the following items to your connector administrator:
 
 -   The URL for your ManageEngine instance.
--   The client ID that you copied in step [3.c](configure-manageengine-external-content-indexing.md#copy-client-id-step).
--   The client secret that you copied in step [3.d](configure-manageengine-external-content-indexing.md#copy-client-secret-step).
+-   The client ID that you copied in step [3.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-manageengine-external-content-indexing.md).
+-   The client secret that you copied in step [3.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-manageengine-external-content-indexing.md).
 
-Your connector admin needs these items to configure a ManageEngine external content connector to retrieve public-domain knowledge articles from your ManageEngine source system.
+Your connector administrator needs these items to configure a ManageEngine external content connector to retrieve public-domain knowledge articles from your ManageEngine source system.
 
-For details on creating and configuring a ManageEngine external content connector, see [Create a ManageEngine external content connector](create-ext-cont-connector-manageengine.md).
+For details on creating and configuring a ManageEngine external content connector, see [Create a ManageEngine external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-manageengine.md).
 
-**Parent Topic:**[ManageEngine external content connector](../concept/manageengine-external-content-connector.md)
+**Parent Topic:**[ManageEngine external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/manageengine-external-content-connector.md)
 

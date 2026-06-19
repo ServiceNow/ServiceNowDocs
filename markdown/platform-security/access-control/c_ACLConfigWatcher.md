@@ -2,6 +2,7 @@
 title: ACL configuration watcher
 description: The ACL configuration watcher lets you know what related ACLs exist on a table when you insert, update, or delete an ACL on the same table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/c\_ACLConfigWatcher.html
 release: zurich
 product: Access Control
 classification: access-control
@@ -25,7 +26,7 @@ The ACL configuration watcher does not appear in the following situations:
 
 ## ACL Security Rules window
 
-The configuration watcher shows the [ACL execution plan](../task/t_ShowACLExecutionPlan.md). The execution plan is displayed in the security rules pop-up window. You can view this kind of information:
+The configuration watcher shows the [ACL execution plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/t_ShowACLExecutionPlan.md). The execution plan is displayed in the security rules pop-up window. You can view this kind of information:
 
 |Item|Description|
 |----|-----------|
@@ -35,5 +36,5 @@ The configuration watcher shows the [ACL execution plan](../task/t_ShowACLExecut
 |Masked|An ACL that was effective until you made a change.|
 |Unmasked|An ACL that was just made effective when you made a change.|
 
-![Configuration watcher](../image/config_watcher_example.png "Configuration watcher example")
+\[Omitted image "config\_watcher\_example.png"\] Alt text: Configuration watcher
 

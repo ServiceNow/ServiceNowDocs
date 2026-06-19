@@ -2,7 +2,10 @@
 title: Publish the Virtual Agent topics for callback
 description: Publish the Virtual Agent topics for callback to help your customers request a callback from agents when there’s a long wait time to reach a live agent or agents are unavailable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/publish-callback-va-topics.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -36,7 +39,7 @@ Deploy the inactive topic to save it and make it available to users on Virtual A
 
     If you're using NLU discovery, the Choose what to publish dialog box appears. Select the available items to publish with the topic, such as the NLU model and language mappings, and then click **Publish**.
 
-    **Note:** If the **Publish Model** option is unavailable, the model may need some work. For example, the model may not have enough intents or may need more utterances for some intents. Fix these issues before proceeding. Also, if a model language is unavailable, the language-specific model has never been published. Publish it from NLU Workbench. For more information, see [Model management](https://www.servicenow.com/docs/access?context=model-management-phases&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+    **Note:** If the **Publish Model** option is unavailable, the model may need some work. For example, the model may not have enough intents or may need more utterances for some intents. Fix these issues before proceeding. Also, if a model language is unavailable, the language-specific model has never been published. Publish it from NLU Workbench. For more information, see Model management.
 
     For topics, the topic state is Active and the Published state changes to **just now**.
 

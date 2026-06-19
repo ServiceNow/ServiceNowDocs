@@ -2,6 +2,7 @@
 title: Agent Client Collector deployment - endpoints
 description: When deploying the Agent Client Collector, perform deployment and management tasks on your endpoints.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-endpoint-deployment.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector

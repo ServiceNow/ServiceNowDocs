@@ -2,11 +2,12 @@
 title: Sync a quote with an opportunity
 description: Agents can sync quote information with an opportunity to ensure that information is consistent between both applications in Quote Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/som-sync-quote-with-opportunity.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -21,7 +22,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![image.Lists] view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Quote** &gt; **All-Quotes** and select a quote that you want to sync with an opportunity.
 
@@ -47,5 +48,5 @@ Role required: sales\_agent
     -   The opportunity record is updated asynchronously with the latest product offerings and prices that are added to the quote.
     -   The synced opportunity state changes to closed when the quote is marked as complete
 
-**Parent Topic:**[Using Quote Management](../concept/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-mgmt-using.md)
 

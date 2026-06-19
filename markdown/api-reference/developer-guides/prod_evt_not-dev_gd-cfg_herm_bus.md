@@ -2,12 +2,13 @@
 title: Configure the Producer Event Notification Framework to use the Hermes Messaging Service
 description: If you are using the Hermes Messaging Service in your instance, you must configure the Producer Event Notification Framework for the Kafka message-bus.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/developer-guides/prod\_evt\_not-dev\_gd-cfg\_herm\_bus.html
 release: zurich
 product: Developer Guides
 classification: developer-guides
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Producer Event Notification Framework developer guide, Developer guides, API implementation and reference]
 ---
 
@@ -19,9 +20,9 @@ If you are using the Hermes Messaging Service in your instance, you must configu
 
 Role required: admin
 
-The Hermes Messaging Service must be activated. For details, see [Activating the Hermes Messaging Service](https://www.servicenow.com/docs/access?context=hermes-messaging-service-activation&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+The Hermes Messaging Service must be activated. For details, see .
 
-The following code snippet shows the HermesEventPublisher methods that must be called to configure the elements needed to send a message to a topic using the Hermes Messaging Service. The [ProducerV2](../../../../app-store/dev_portal/API_reference/ProducerV2/concept/ProducerV2ScopedAPI.md#) API is then called to send the message.
+The following code snippet shows the HermesEventPublisher methods that must be called to configure the elements needed to send a message to a topic using the Hermes Messaging Service. The [ProducerV2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ProducerV2ScopedAPI.md) API is then called to send the message.
 
 ```
 publishEventToHermesKafka: function(tmfEventPayload) {
@@ -54,9 +55,9 @@ publishMessageThroughProducerV2API: function(message) {
 
 1.  Set up a secure connection to the Hermes Messaging Service.
 
-    For details, see [Set up a secure connection to the Hermes Messaging Service](https://www.servicenow.com/docs/access?context=set-up-secure-connection-to-hermes&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    For details, see .
 
-2.  Override the default functionality in the [HermesEventPublisherOOB - fetchTopicsForMessage\(Object message\)](../../../../app-store/dev_portal/API_reference/HermesEventPublisherOOB/concept/HermesEventPublishOOBScopedAPI.md#) method with your custom topic picker logic when publishing a message to the Hermes Messaging Service.
+2.  Override the default functionality in the [HermesEventPublisherOOB - fetchTopicsForMessage\(Object message\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/HermesEventPublishOOBScopedAPI.md) method with your custom topic picker logic when publishing a message to the Hermes Messaging Service.
 
     In the HermesEventPublisher - fetchTopicsForMessage\(\) method, you must provide logic that determines which Kafka topic or topics to send a specified message to. You then return the sys\_ids of those topic records in an array.
 
@@ -93,7 +94,7 @@ publishMessageThroughProducerV2API: function(message) {
     },
     ```
 
-3.  Override the default functionality in the [HermesEventPublisherOOB - fetchPartionKey\(Object message\)](../../../../app-store/dev_portal/API_reference/HermesEventPublisherOOB/concept/HermesEventPublishOOBScopedAPI.md#) method with your custom logic to return the partition key to use when publishing a message to the Hermes Messaging Service.
+3.  Override the default functionality in the [HermesEventPublisherOOB - fetchPartionKey\(Object message\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/HermesEventPublishOOBScopedAPI.md) method with your custom logic to return the partition key to use when publishing a message to the Hermes Messaging Service.
 
     The following list includes some possible types of partition keys to return and their associated benefits:
 
@@ -124,7 +125,7 @@ publishMessageThroughProducerV2API: function(message) {
     },
     ```
 
-4.  Override the default functionality in the [HermesEventPublisherOOB - fetchMessageHeaders\(Object message\)](../../../../app-store/dev_portal/API_reference/HermesEventPublisherOOB/concept/HermesEventPublishOOBScopedAPI.md#) method with your custom logic to fetch the header for a specified message before publishing the message through the Hermes Messaging Service.
+4.  Override the default functionality in the [HermesEventPublisherOOB - fetchMessageHeaders\(Object message\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/HermesEventPublishOOBScopedAPI.md) method with your custom logic to fetch the header for a specified message before publishing the message through the Hermes Messaging Service.
 
     Refer to the [Apache Kafka](https://kafka.apache.org/) documentation for more information on these headers.
 

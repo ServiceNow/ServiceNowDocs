@@ -2,6 +2,7 @@
 title: Review synchronization errors in Instance Data Replication
 description: Review the status field to check if synchronization is working correctly on the Instance Data Replication \(IDR\) consumer instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/instance-data-replication-idr/synchronization-errors.html
 release: zurich
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -17,7 +18,7 @@ Review the status field to check if synchronization is working correctly on the 
 
 ## Before you begin
 
-Before identifying synchronization errors, complete the tasks in [check for common issues](../reference/common-issues-idr.md).
+Before identifying synchronization errors, complete the tasks in [check for common issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/instance-data-replication-idr/common-issues-idr.md).
 
 Role required: idr\_admin or admin
 
@@ -70,5 +71,5 @@ Synchronization errors occur when a producer instance doesn't send data or a con
     7.  Verify that you see Received in the Status column.
 
 
-**Parent Topic:**[Resolving data replication errors in Instance Data Replication](../reference/common-issues-idr.md)
+**Parent Topic:**[Resolving data replication errors in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/instance-data-replication-idr/common-issues-idr.md)
 

@@ -2,6 +2,7 @@
 title: Planning item milestone form
 description: Learn about the fields of the planning item milestone form. Use this form to create milestones for the planning items in your roadmap in Portfolio Planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/planning-item-milestone-form-portfolio-planning.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -78,5 +79,5 @@ Description
 Brief description about the milestone.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Portfolio Planning](form-field-information-for-portfolio-planning.md)
+</table>**Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)
 

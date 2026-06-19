@@ -2,6 +2,7 @@
 title: ACC data input streaming sources
 description: In the ACC data input record, the Streaming Sources related list shows the streaming data of that data input's sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/accl-streaming-sources-ref.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector

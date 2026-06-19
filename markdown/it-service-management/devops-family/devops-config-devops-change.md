@@ -2,20 +2,21 @@
 title: DevOps Config and DevOps Change Velocity
 description: DevOps Change Velocity collects data from all of your DevOps tools, providing visibility across the entire lifecycle of deployment, while DevOps Config manages and validates your DevOps configuration data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-family/devops-config-devops-change.html
 release: zurich
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Explore, DevOps Config, IT Service Management]
+breadcrumb: [Exploring DevOps Config, DevOps Config, IT Service Management]
 ---
 
 # DevOps Config and DevOps Change Velocity
 
 DevOps Change Velocity collects data from all of your DevOps tools, providing visibility across the entire lifecycle of deployment, while DevOps Config manages and validates your DevOps configuration data.
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 DevOps Change Velocity is a horizontal solution orchestrating on top of all of your separate DevOps tools. DevOps Change Velocity features change acceleration and can pause your pipeline. DevOps Config serves a different purpose.
 
@@ -35,7 +36,7 @@ With the DevOps Change Velocity change control feature, a change request is crea
 
 In DevOps Change Velocity, navigate to **DevOps** &gt; **Orchestrate** &gt; **Pipeline Change Requests** to view and approve DevOps change requests created by DevOps Config changes. CDM snapshots are listed in the **Config data** related list of the DevOps change request.
 
-![DevOps Config change request](../image/devops-config-change-request.png)
+\[Omitted image "devops-config-change-request.png"\] Alt text: DevOps Config change request
 
-**Parent Topic:**[Exploring DevOps Config](devops-config-getting-started.md)
+**Parent Topic:**[Exploring DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/devops-config-getting-started.md)
 

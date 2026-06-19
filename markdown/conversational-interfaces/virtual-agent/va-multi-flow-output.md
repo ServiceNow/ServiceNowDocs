@@ -2,6 +2,7 @@
 title: Multi-response bot response control
 description: Use the Multi-response bot response control in a Virtual Agent topic to sequentially display two or more outputs. Outputs can be text, image, link, or HTML. Users can move from one output to the next through a provided navigation button.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-multi-flow-output.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -243,7 +244,7 @@ Partial support
 
 </td><td>
 
-Supported on devices with screens. For non-screen devices, the user receives a message if unsupported elements are used: `We found a link`. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](../concept/va-settings-for-alexa.md).
+Supported on devices with screens. For non-screen devices, the user receives a message if unsupported elements are used: `We found a link`. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-settings-for-alexa.md).
 
 </td></tr></tbody>
 </table>## Example Multi-response control
@@ -260,12 +261,12 @@ Multi-response output
 
 </th></tr></thead><tbody><tr><td>
 
-![Basic properties include the node name and the response organized by type: Text, HTML, Image, and Link.](../images/va-multi-flow-properties.png "Multi-response bot response control basic properties")
+\[Omitted image "va-multi-flow-properties.png"\] Alt text: Basic properties include the node name and the response organized by type: Text, HTML, Image, and Link.
 
 </td><td>
 
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Virtual Agent Designer bot responses](va-bot-responses.md)
+</table>**Parent Topic:**[Virtual Agent Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

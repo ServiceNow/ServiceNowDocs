@@ -2,6 +2,7 @@
 title: Virtual Agent Designer user input and bot response controls in Microsoft Teams
 description: The Virtual Agent Designer user input and bot response controls for creating conversation topics are supported in Microsoft Teams conversations, including the table bot response, the card control that can display images, and the image bot response controls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-designer-bot-controls.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ The Virtual Agent Designer user input and bot response controls for creating con
 
 Starting with Version 2.0.0, the updated card and new video bot response controls are supported in Microsoft Teams conversations. The video control displays a thumbnail image of the video that users select to open the video in their preferred web browser.
 
-For more information about user input controls and bot responses, see [Assistant Designer user input controls](../reference/va-user-inputs.md) and [Virtual Agent Designer bot responses](../reference/va-bot-responses.md), respectively.
+For more information about user input controls and bot responses, see [Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-user-inputs.md) and [Virtual Agent Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md), respectively.
 
 Starting with Version 3.0.10, to improve the bot performance and enable a better conversational experience with Virtual Agent on Microsoft Teams, the non-card bot response controls such as text, links, and date cards are converted into adaptive cards.
 
@@ -29,5 +30,5 @@ Starting from Version 4.1.0, you have the option to turn off the confirmation ba
 
 Set the **sn\_va\_teams.hide\_teams\_response\_message** system property value to **true** to turn off the confirmation banner \(by default the value of the system property is set to **false**\).
 
-**Parent Topic:**[Virtual Agent feature support in Microsoft Teams conversations](va-teams-other-features.md)
+**Parent Topic:**[Virtual Agent feature support in Microsoft Teams conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-teams-other-features.md)
 

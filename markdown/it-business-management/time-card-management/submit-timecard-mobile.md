@@ -2,6 +2,7 @@
 title: Submit a time card from your mobile device
 description: Once a time card for the week is updated with the time worked, you can submit the time card from your mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/time-card-management/submit-timecard-mobile.html
 release: zurich
 product: Time Card Management
 classification: time-card-management
@@ -38,5 +39,5 @@ Role required: timecard\_user
     **Note:** If the project or user manager is changed after submitting the time card, the time card is automatically redirected to the new project or user manager for approval.
 
 
-**Parent Topic:**[Mobile Time Sheets](../concept/timesheet-mobile.md)
+**Parent Topic:**[Mobile Time Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/time-card-management/timesheet-mobile.md)
 

@@ -2,7 +2,10 @@
 title: Assign roles
 description: Assign roles to internal and external users to facilitate proper access to service organizations, business locations, and households. By assigning required roles, you can enable each user to have the necessary permissions to perform their tasks effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-data-model-roles.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -210,6 +213,6 @@ A location support agent is a service organization member who acts as a fulfille
 
 -   You can assign roles to users using the Service Model Foundation guided setup.
 
--   You can also assign roles to users using the ServiceNow AI Platform user administration feature: [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+-   You can also assign roles to users using the ServiceNow AI Platform user administration feature: Assign a role to a user.
 
 

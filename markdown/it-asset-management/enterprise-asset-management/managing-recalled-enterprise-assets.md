@@ -2,6 +2,7 @@
 title: Managing recalled enterprise assets
 description: You can track and take action on enterprise assets that have been recalled by the asset vendor by using recall orders. You can choose to replace, repair, or retire your recalled enterprise assets. Alternatively, you can choose to provide your users with additional instructions on how to operate your recalled enterprise assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/managing-recalled-enterprise-assets.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -28,12 +29,12 @@ Within each recall order, you must indicate how you are going to proceed with th
 
 Based on the option that you choose, you must complete all subsequent tasks to remediate the asset and move the corresponding enterprise recalled asset record to the Completed stage. After every enterprise recalled asset record within a recall order reaches the Completed stage, the recall order is marked as complete.
 
--   **[Submit a recall order for your enterprise assets](../task/submit-recall-order.md)**  
+-   **[Submit a recall order for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/submit-recall-order.md)**  
 Submit a recall order to initiate the replacement, repair, or retirement of enterprise assets that have been recalled by the asset vendor. You can also choose to provide your users with additional instructions on how to operate your recalled enterprise assets.
--   **[Acknowledge enterprise assets in the recall order](../task/acknowledge-recalled-assets-eam.md)**  
+-   **[Acknowledge enterprise assets in the recall order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/acknowledge-recalled-assets-eam.md)**  
 Review and confirm the enterprise assets included in the recall order to proceed with the recall process.
--   **[Completing a recall order for your enterprise assets](completing-recall-order-enterprise-assets.md)**  
+-   **[Completing a recall order for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/completing-recall-order-enterprise-assets.md)**  
 After you submit a recall order for any enterprise assets that have been recalled by the asset vendor, you must perform various tasks to complete the order.
 
-**Parent Topic:**[Create and manage enterprise asset inventory](managing-enterprise-asset-inventory.md)
+**Parent Topic:**[Create and manage enterprise asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/managing-enterprise-asset-inventory.md)
 

@@ -2,7 +2,10 @@
 title: Use Guided Decisions in recommended actions to resolve cases
 description: As an agent, work your way through a recommended action of type decision tree to help troubleshoot a case and get recommendations on the next possible steps in solving the case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/use-guided-decisions-ra.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -29,7 +32,7 @@ Depending on the context of the case that you’re working on, a decision tree c
 
 2.  Open a customer service case that you want to work on.
 
-3.  Select the Recommended Actions icon \(![Recommended Actions icon.](../image/nba-icon.png)\) in the contextual side panel.
+3.  Select the Recommended Actions icon \(\[Omitted image "nba-icon.png"\] Alt text: Recommended Actions icon.\) in the contextual side panel.
 
     Depending on the case context, the side panel might display Recommended Actions cards for guidances and decision trees.
 
@@ -42,7 +45,7 @@ Depending on the context of the case that you’re working on, a decision tree c
 
 5.  Work your way through a decision tree by providing inputs and proceeding by going to the next or previous set of questions, or dismissing the decision tree flow.
 
-6.  In the View my responses tab, select the Edit icon ![Edit icon](../image/icon-pencil-ac.png)\) next to the node to modify your selection or entered value.
+6.  In the View my responses tab, select the Edit icon \[Omitted image "icon-pencil-ac.png"\] Alt text: Edit icon\) next to the node to modify your selection or entered value.
 
 7.  Select the action button to apply the resolution or take the action proposed.
 

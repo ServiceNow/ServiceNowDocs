@@ -2,6 +2,7 @@
 title: Semantic vector search in AI Search
 description: Semantic vector search allows the Now LLM Service to find results based on how similar they are in meaning to your search terms. Now Assist Q&amp;A Genius Results and Now Assist in Virtual Agent use semantic vector search to improve recall with natural language interpretation of search queries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/semantic-search-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -51,10 +52,10 @@ Semantic vector search overrides the normal AI Search term matching and relevanc
 
 Semantic vector search is available in the following contexts.
 
--   Now Assist in Virtual Agent uses semantic vector search for Catalog Item retrieval and live agent topic retrieval. For more details, see [Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-in-va-landing&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
--   Now Assist Q&amp;A Genius Results use semantic vector search along with legacy keyword search when looking for knowledge articles that match your search query. They also use semantic vector search when looking for cached answers that match your query in the second-level cache. For more details, see [Now Assist Q&amp;A Genius Results](now-assist-qna-genius-results.md) and [Caching for Now Assist Q&amp;A Genius Results](caching-now-assist-q-a-gr.md#).
--   Now Assist Actions Genius Results use semantic vector search along with legacy keyword search when looking for Catalog Items that match your search query. For more details, see [Now Assist Actions Genius Results](now-assist-catalog-ordering-gr.md).
--   All connectors from the External Content Connectors application support semantic vector indexing when retrieving document content from external source systems. Only features which use semantic vector search with the Now LLM Service can take advantage of this support. For more information on external content connector configuration and usage, see [External Content Connectors](../reference/ext-cont-connectors-landing-page.md).
+-   Now Assist in Virtual Agent uses semantic vector search for Catalog Item retrieval and live agent topic retrieval. For more details, see .
+-   Now Assist Q&amp;A Genius Results use semantic vector search along with legacy keyword search when looking for knowledge articles that match your search query. They also use semantic vector search when looking for cached answers that match your query in the second-level cache. For more details, see [Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/now-assist-qna-genius-results.md) and [Caching for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/caching-now-assist-q-a-gr.md).
+-   Now Assist Actions Genius Results use semantic vector search along with legacy keyword search when looking for Catalog Items that match your search query. For more details, see [Now Assist Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/now-assist-catalog-ordering-gr.md).
+-   All connectors from the External Content Connectors application support semantic vector indexing when retrieving document content from external source systems. Only features which use semantic vector search with the Now LLM Service can take advantage of this support. For more information on external content connector configuration and usage, see [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ext-cont-connectors-landing-page.md).
 
-**Parent Topic:**[Administering AI Search](administer-ais.md)
+**Parent Topic:**[Administering AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/administer-ais.md)
 

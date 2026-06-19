@@ -2,11 +2,12 @@
 title: CMDB classes targeted in Service Graph Connector for Microsoft Azure
 description: When you complete setting up the connection, you can configure the integration to periodically pull data from Microsoft Azure. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/cmdb-azure-classes.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2026-03-02"
+last_updated: "2026-03-12"
 reading_time_minutes: 12
 breadcrumb: [Microsoft Azure, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -280,6 +281,26 @@ The following attributes in the Cloud Subnet \[cmdb\_ci\_cloud\_subnet\] table a
 |Parent class|Relationship type|Child class|
 |------------|-----------------|-----------|
 |Cloud Subnet \[cmdb\_ci\_cloud\_subnet\]|Reference|Key Value \[cmdb\_key\_value\]|
+
+## Cloud WebServer \[cmdb\_ci\_cloud\_webserver\]
+
+The following attributes in the Cloud WebServer \[cmdb\_ci\_cloud\_webserver\] table are populated by collected data.
+
+|Attribute label|Attribute name|
+|---------------|--------------|
+|Name|name|
+|Object ID|object\_id|
+|Fully qualified domain name|fqdn|
+|Install Status|install\_status|
+|IP Address|ip\_address|
+|Operational status|operational\_status|
+|State|state|
+|Vendor|vendor|
+
+|Parent class|Relationship type|Child class|
+|------------|-----------------|-----------|
+|Cloud WebServer \[cmdb\_ci\_cloud\_webserver\]|Owns::Owned by|IP Address \[cmdb\_ci\_ip\_address\]|
+|Cloud WebServer \[cmdb\_ci\_cloud\_webserver\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
 
 ## Compute Security Group \[cmdb\_ci\_compute\_security\_group\]
 
@@ -622,7 +643,7 @@ The following attributes in the Windows Server \[cmdb\_ci\_win\_server\] table a
 
 ## Related content
 
-[Data mapping for Service Graph Connector for Microsoft Azure](cmdb-data-mapping-azure.md)
+[Data mapping for Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-data-mapping-azure.md)
 
-[Service Graph Connector for Microsoft Azure properties](cmdb-sgc-azure-props.md)
+[Service Graph Connector for Microsoft Azure properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-sgc-azure-props.md)
 

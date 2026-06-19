@@ -2,6 +2,7 @@
 title: AI Search Assist properties
 description: The AI Search Assist properties determine when searching begins based on characters entered and the time that has elapsed. These properties reduce the impact of searches for systems with many Catalog Items or Knowledge articles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/ai-search-assist-properties.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -42,5 +43,5 @@ com.snc.ai\_search\_assist.wait\_time
 The time elapsed after the user finishes entering characters in the search field before the search begins. **Note:** If you set the time to '-1', the search begins when the user leaves the search field. This behavior is known as 'Search on tab'.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Search Assist record producer integration for Service Portal](../concept/ai-search-assist.md)
+</table>**Parent Topic:**[AI Search Assist record producer integration for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ai-search-assist.md)
 

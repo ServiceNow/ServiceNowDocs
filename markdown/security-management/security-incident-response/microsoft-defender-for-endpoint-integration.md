@@ -2,6 +2,7 @@
 title: Microsoft Defender for Endpoint integration
 description: The Microsoft Defender for Endpoint enables you to proactively inspect, analyze, and contain known and unknown threats on any endpoint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/microsoft-defender-for-endpoint-integration.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -21,7 +22,7 @@ You can use this integration to create configurations to retrieve the host detai
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Key features
 
@@ -34,27 +35,27 @@ Microsoft Defender for Endpoint has the following key features:
 
 <table id="table_cn4_5nt_45b" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../../common/image/icon-explore-ciwf.png) Get started with Microsoft Defender for Endpoint](../task/set-up-microsoft-defender-for-endpoint.md)
+[Explore \[Omitted image "icon-explore-ciwf.png"\] Get started with Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/set-up-microsoft-defender-for-endpoint.md)
 
 </td><td>
 
-[Install ![](../../../../common/image/ciwf-agent-tools.png) Install the application and configure a source for the integration](../task/install-microsoft-defender-source.md)
+[Install \[Omitted image "ciwf-agent-tools.png"\] Alt text: Install the application and configure a source for the integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/install-microsoft-defender-source.md)
 
 </td><td>
 
-[Configure ![](../../../../common/image/configure-icon-ciwf.png) Configure profiles and security incidents for the Microsoft Defender for Endpoint](../task/configure-profiles-and-security-incidents-for-ms-defender-for-endpoint.md)
+[Configure \[Omitted image "configure-icon-ciwf.png"\] Alt text: Configure profiles and security incidents for the Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/configure-profiles-and-security-incidents-for-ms-defender-for-endpoint.md)
 
 </td></tr><tr><td>
 
-[Capability profile ![](../../../../common/image/icon-use-ciwf.png) Create a capability profile for the Microsoft Defender for Endpoint integration.](../task/create-capability-profile-for-microsoft-defender-for-endpoint.md)
+[Capability profile \[Omitted image "icon-use-ciwf.png"\] Create a capability profile for the Microsoft Defender for Endpoint integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/create-capability-profile-for-microsoft-defender-for-endpoint.md)
 
 </td><td>
 
-[Additional configurations ![](../../../../common/image/icon-integrate-ciwf.png) Additional configurations that you can perform in the Microsoft Defender for Endpoint](additional-configurations-in-defender.md)
+[Additional configurations \[Omitted image "icon-integrate-ciwf.png"\] Additional configurations that you can perform in the Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/additional-configurations-in-defender.md)
 
 </td><td>
 
-[Miscellaneous ![](../../../../common/image/ciwf-admin.png) Create and configure a profile for sightings search and indicators with Microsoft Defender for Endpoint.](../task/create-and-configure-profile-sightings-search-with-ms-defender.md)
+[Miscellaneous \[Omitted image "ciwf-admin.png"\] Create and configure a profile for sightings search and indicators with Microsoft Defender for Endpoint.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/create-and-configure-profile-sightings-search-with-ms-defender.md)
 
 </td></tr></tbody>
 </table>

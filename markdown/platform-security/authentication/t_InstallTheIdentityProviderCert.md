@@ -2,6 +2,7 @@
 title: Install the identity provider certificate
 description: You can paste a PEM certificate into a X.509 Certificate form so the identify provider can verify communications with the service provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/t\_InstallTheIdentityProviderCert.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -33,13 +34,13 @@ The IdP's certificate is located within the IdP's metadata. The IdP developer de
 
 3.  Click **Save**.
 
-    ![Pasting in the PEM certificate](../image/X509.png)
+    \[Omitted image "X509.png"\] Alt text: Pasting in the PEM certificate
 
     **Note:** The integration does not currently sign the certificate in communications between the instance and the IdP.
 
     |Field|Description|
     |-----|-----------|
-    |Name|The certificate name. Do not change the Name entry. The name of the X.509 certificate must be SAML 2.0 in order for the integration to use it. This requirement is only true if you are not using [Multi-Provider single sign-on \(SSO\)](../../single-sign-on/concept/c_MultipleProviderSingleSignOn.md).|
+    |Name|The certificate name. Do not change the Name entry. The name of the X.509 certificate must be SAML 2.0 in order for the integration to use it. This requirement is only true if you are not using [Multi-Provider single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/c_MultipleProviderSingleSignOn.md).|
     |Expiration notification|Select this option to send a notification to the users selected in the **Notify on expiration** field. By default, this is enabled.|
     |Notify on expiration|Select the users to revive the notification regarding certificate expiration. If no users are selected, the logged in user is added by default, along with the last two logged in users with the administrator role.|
     |Warn in days to expire|The number of days before expiration that the instance send the notification. Enter a value of at least 20. Instances upgraded to Istanbul and later releases have this value set to 20 unless a greater value is specified.|

@@ -2,6 +2,7 @@
 title: Configure event categories
 description: Add event categories and create or update field configurations for events in the Manager workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workforce-optimization-for-hr/configure-event-categories-wfo-hr.html
 release: zurich
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -102,5 +103,5 @@ The following event category configurations are available by default:
 6.  Click **Submit**.
 
 
-**Parent Topic:**[Setting up Scheduling for Workforce Optimization for HR](setup-scheduling-wfo-hr.md)
+**Parent Topic:**[Setting up Scheduling for Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workforce-optimization-for-hr/setup-scheduling-wfo-hr.md)
 

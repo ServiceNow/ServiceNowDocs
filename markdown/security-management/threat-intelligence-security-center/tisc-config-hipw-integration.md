@@ -2,6 +2,7 @@
 title: Configure and enable Have I Been Pwned integration
 description: Configure API credentials and enrichment behavior through the dedicated Have I Been Pwned \(HIBP\) configuration tile in TISC integration settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-config-hipw-integration.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -40,7 +41,7 @@ The integration supports the following observable types:
 
 1.  Using your instance, access **Threat Intelligence Security Center**.
 
-2.  [Download the integration from the ServiceNow Store](../../security-incident-response/reference/download-app-first-time.md).
+2.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/download-app-first-time.md).
 
 3.  When the installation is complete, navigate to **Workspaces** &gt; **Threat Intelligence Security Center**.
 
@@ -86,7 +87,7 @@ After it is configured, Have I Been Pwned can be selected for performing enrichm
 
 ## What to do next
 
-Run observable enrichment, see [Run Have I Been Pwned enrichment integration](tisc-hibp-enrichment-integration.md) on the detailed procedure.
+Run observable enrichment, see [Run Have I Been Pwned enrichment integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-hibp-enrichment-integration.md) on the detailed procedure.
 
-**Parent Topic:**[Have I Been Pwned integration](../concept/tisc-hibp-integration.md)
+**Parent Topic:**[Have I Been Pwned integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-hibp-integration.md)
 

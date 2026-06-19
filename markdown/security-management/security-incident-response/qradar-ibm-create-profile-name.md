@@ -2,6 +2,7 @@
 title: Create a profile
 description: You can set up a profile to ingest offenses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/qradar-ibm-create-profile-name.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -80,7 +81,7 @@ Additional text to help you distinguish this profile from other profiles.
 </td></tr></tbody>
 </table>    The following figure is an example of a completed form.
 
-    ![IBM QRadar: Create Profile: Name](../image/ibm-qradar-profile-name.png)
+    \[Omitted image "ibm-qradar-profile-name.png"\] Alt text: IBM QRadar: Create Profile: Name
 
 
 ## What to do next

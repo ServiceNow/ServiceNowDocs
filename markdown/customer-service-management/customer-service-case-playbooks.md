@@ -2,7 +2,10 @@
 title: Playbook capabilities
 description: The capabilities provided by playbooks enable agents to quickly resolve customer issues. These capabilities work together to provide agents with a better overall experience when using playbooks to resolve customer issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-service-case-playbooks.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -31,7 +34,7 @@ Customer service agents can create a record using a playbook instead of a record
 
  For example, an agent can create a case and gather the necessary information about the customer and the issue as the first activity in the playbook.
 
- For more information about configuring this feature, see [Playbook record generator](https://www.servicenow.com/docs/access?context=playbook-record-generator-overview&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+ For more information about configuring this feature, see Playbook record generator.
 
 </td></tr><tr><td>
 
@@ -62,11 +65,11 @@ Playbooks can display the following information in the contextual side panel:
 
  For more information, see:
 
--   [Using the activity stream in the contextual side panel](csm-playbooks-using-activity-stream.md)
--   [Viewing ribbon information in the contextual side panel](csm-playbooks-viewing-ribbon-info.md)
--   [Viewing related records in the contextual side panel](csm-playbooks-viewing-rel-records.md)
--   [Related Items](csm-playbook-related-items-component.md)
--   [Administering Activity stream for Configurable Workspace](https://www.servicenow.com/docs/access?context=administer-activity-stream-configurable-workspace&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
+-   [Using the activity stream in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-playbooks-using-activity-stream.md)
+-   [Viewing ribbon information in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-playbooks-viewing-ribbon-info.md)
+-   [Viewing related records in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-playbooks-viewing-rel-records.md)
+-   [Related Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-playbook-related-items-component.md)
+-   Administering Activity stream for Configurable Workspace
 
 </td></tr><tr><td>
 
@@ -76,7 +79,7 @@ Use the contextual side panel to display dynamic related records
 
 Display records in the contextual side panel that dynamically change based on the context of the current record or playbook activity.
 
- For more information, see [Dynamic related records](csm-contextual-related-records.md).
+ For more information, see [Dynamic related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-contextual-related-records.md).
 
 </td></tr><tr><td>
 

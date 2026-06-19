@@ -2,13 +2,14 @@
 title: Import data using FTP server
 description: Import a file from a local source, a remote network server, or another instance by providing a path and authentication information. Transfer and manage procurement data in a principled structure that administrators can use for various data management operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/ftp-data-import.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Procurement File Transfer Framework, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Procurement File Transfer Framework, Integrate Sourcing Procurement Operations other, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Import data using FTP server
@@ -19,7 +20,7 @@ Import a file from a local source, a remote network server, or another instance 
 
 -   Understand the data import workflows and FTP functionality.
 -   Ensure that you install and configure an FTP client.
--   Ensure that you install and configure MID Server in your ServiceNow instance to connect to the ERP server. See [Installing the MID Server](https://www.servicenow.com/docs/access?context=mid-server-installation&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) for details.
+-   Ensure that you install and configure MID Server in your ServiceNow instance to connect to the ERP server. See Installing the MID Server for details.
 
     **Note:** The MID Server integration is required only for an ERP integration using SOAP services.
 
@@ -51,16 +52,16 @@ Role required: import\_admin or admin
 
 5.  Set additional fields based on the selected **Type**.
 
-    See the documentation for each data source type for additional field information. The Table transform map is associated with the table to transform the `File Based Catalog Import [sn_spend_ftp_intg_catalog_stage]` data into `Catalog Import [sn_spend_intg_imp_catalog]`. For more information on the table transform map, see the [Data source table information](../reference/data-sources-info.md).
+    See the documentation for each data source type for additional field information. The Table transform map is associated with the table to transform the `File Based Catalog Import [sn_spend_ftp_intg_catalog_stage]` data into `Catalog Import [sn_spend_intg_imp_catalog]`. For more information on the table transform map, see the [Data source table information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/data-sources-info.md).
 
 
 ## What to do next
 
--   Manage the data integration by scheduled import and export jobs on a daily, weekly, or monthly basis. Perform the **Scheduled Imports** based on your business needs. See [Schedule a data import](https://www.servicenow.com/docs/access?context=t_ScheduleADataImport&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
--   Verify the accuracy of the data import and share the errors on the FTP server. The reseller can fix the posted errors using [Perform export steps](validate-errors.md).
+-   Manage the data integration by scheduled import and export jobs on a daily, weekly, or monthly basis. Perform the **Scheduled Imports** based on your business needs. See Schedule a data import.
+-   Verify the accuracy of the data import and share the errors on the FTP server. The reseller can fix the posted errors using [Perform export steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/validate-errors.md).
 
--   **[Run scheduled imports](run-scheduled-imports.md)**  
+-   **[Run scheduled imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/run-scheduled-imports.md)**  
 A scheduled import allows administrators to import data on a regular schedule. Run import operations on a daily, weekly, or monthly basis based on your business requirements. Scheduled import runs a datasource similar to how a scheduler job runs the script.
 
-**Parent Topic:**[Procurement File Transfer Framework](../concept/procurement-file-transfer-framework.md)
+**Parent Topic:**[Procurement File Transfer Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/procurement-file-transfer-framework.md)
 

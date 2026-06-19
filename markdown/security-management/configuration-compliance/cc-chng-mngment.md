@@ -2,6 +2,7 @@
 title: Configuration Compliance change management
 description: As an IT remediation owner, you can create and manage change requests \(CHG\) directly from remediation tasks \(RTs\) in the Configuration Compliance application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/cc-chng-mngment.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance
@@ -31,7 +32,7 @@ The Configuration Compliance application works with the ServiceNow AI Platform®
 
 With change management in the Configuration Compliance application, you can associate test results to existing change requests, or split a remediation task and create a new remediation task only for selected test results.
 
-For more information, see [Create a change request in Configuration Compliance](../task/cc-CR-v12-create.md).
+For more information, see [Create a change request in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/configuration-compliance/cc-CR-v12-create.md).
 
 ## Key terms
 
@@ -60,7 +61,7 @@ For more information, see [Create a change request in Configuration Compliance](
     Change requests help you implement controlled processes for remediation. You might use change requests with remediation tasks in Configuration Compliance to help you identify, track, and resolve non-compliant assets \(configuration items\) that require additional resources, or that you might target for deferral.
 
 
-For more information about test results and remediation tasks, see [Configuration Compliance remediation tasks and remediation task rules overview](cc-groups.md).
+For more information about test results and remediation tasks, see [Configuration Compliance remediation tasks and remediation task rules overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/configuration-compliance/cc-groups.md).
 
 ## When to use change requests in Configuration Compliance
 

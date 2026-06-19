@@ -2,6 +2,7 @@
 title: Configure the standard ticket page for cases
 description: You can configure the standard ticket page for customer service cases from where users can view the details of a case in the Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/configure\_std\_ticket\_page\_csm.html
 release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -27,7 +28,7 @@ or sp\_admin
 
 2.  Click sn\_customerservice\_case, csm\_order case, sn\_customerservice\_task, or customer\_project\_task which is available by default.
 
-    **Note:** You can add your own case types and add new configurations for the required tables. For more information, see [Configure the standard ticket page](https://www.servicenow.com/docs/access?context=configure-st-page&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    **Note:** You can add your own case types and add new configurations for the required tables. For more information, see Configure the standard ticket page.
 
 3.  Click **here** to edit the record.
 
@@ -41,5 +42,5 @@ or sp\_admin
 **Related topics**  
 
 
-[Configure the standard ticket page](https://www.servicenow.com/docs/access?context=configure-st-page&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
+[bundle-platux.configure-st-page]
 

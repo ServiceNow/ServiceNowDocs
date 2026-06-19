@@ -2,7 +2,10 @@
 title: Instance performance telemetry reports
 description: Quickly generate reports to download and share with your business stakeholders, making  organizations faster, smarter, and better in their  instance performance management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/instance-observer-reporting.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 4
@@ -25,7 +28,7 @@ Navigate to **Instance Observer** &gt; **Reports**. Select the **Report Type**, 
 
 Select **Generate report** and the report renders. On the report page, you have the option to download the report or to schedule the report to be run periodically.
 
-![Report types.](../image/io-reports.png)
+\[Omitted image "io-reports.png"\] Alt text: Report types.
 
 For additional information about a report, select **Help** &gt; **Metrics** from the main menu and select the option from the right-hand menu.
 
@@ -44,7 +47,7 @@ Some Instance Observer reporting features vary between the Impact package that y
 |Data retention|45 days|6 months|6 months|
 |Self Service Alerts|X|✓|✓|
 
-**Note:** For more information on subscription support, see [Impact packages](impact-packages.md).
+**Note:** For more information on subscription support, see [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-packages.md).
 
 ## Daily Performance Metrics Report
 
@@ -148,7 +151,7 @@ To configure the Custom Performance Report:
 
 9.  Select **Generate Report**.
 
-![Custom performance report offers more metrics to measure performance.](../image/io-custom-performance-report.png)
+\[Omitted image "io-custom-performance-report.png"\] Alt text: Custom performance report offers more metrics to measure performance.
 
 Each metric render a different visualization, where many of them are based on time series rendering as charts, while some of them are tables where the key performance indicators are aggregated in a tabular format.
 

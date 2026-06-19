@@ -2,6 +2,7 @@
 title: Assess a risk
 description: Risks start in a Draft state then move to the Assess state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/assess-a-risk.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -29,7 +30,7 @@ Risk assessments do not appear in the **Self-Service** &gt; **My assessments &am
 
 2.  Open the assessment and review the details.
 
-<table id="choicetable_ehk_qqs_dw"><tbody><tr><td id="d373296e108">
+<table id="choicetable_ehk_qqs_dw"><tbody><tr><td id="d349081e108">
 
 **If you are unable to answer the questions**
 
@@ -41,7 +42,7 @@ Risk assessments do not appear in the **Self-Service** &gt; **My assessments &am
 
  The list of assessments refreshes when you reassign an assessment to another user.
 
-</td></tr><tr><td id="d373296e141">
+</td></tr><tr><td id="d349081e141">
 
 **If you are able to answer the questions**
 
@@ -54,5 +55,5 @@ Risk assessments do not appear in the **Self-Service** &gt; **My assessments &am
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Assess risks](../concept/assess-risk-old-way.md)
+**Parent Topic:**[Assess risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/assess-risk-old-way.md)
 

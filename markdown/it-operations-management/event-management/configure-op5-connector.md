@@ -2,6 +2,7 @@
 title: Configure OP5 or OP5\_v2 connector
 description: Configure the OP5 or OP5\_v2 Monitor connector instance to receive alerts from an OP5 Monitor source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/configure-op5-connector.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -87,5 +88,5 @@ Starting from the Xanadu release, the OOTB \(Out-Of-The-Box\) event rules provid
 8.  After a successful test, select the **Active** check box and then click **Update**.
 
 
-**Parent Topic:**[Configure a pull connector](t_EMConfigureConnectorInstance.md)
+**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 

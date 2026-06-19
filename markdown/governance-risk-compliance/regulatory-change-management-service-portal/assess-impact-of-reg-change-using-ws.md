@@ -2,6 +2,7 @@
 title: Assess the impact of a regulatory event alert
 description: Assess the impact of a regulatory event alert by creating an assessment on the regulatory event alert. Assign the impact assessment to the owner of the business entity that is affected by the alert.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/regulatory-change-management-service-portal/assess-impact-of-reg-change-using-ws.html
 release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -39,7 +40,7 @@ As a user with the sn\_grc\_reg\_change.user role, you can review the regulatory
 
 6.  Select any entity from the Entities list for the impact assessment and select **Create Assessments**.
 
-    **Note:** Perform an impact assessment on the regulatory event alert in the classic user interface as the form is not yet migrated to the Workspace. For more information, see [Assess the impact of a regulatory alert](../../grc-rcm/task/impact-assessment-tasks.md).
+    **Note:** Perform an impact assessment on the regulatory event alert in the classic user interface as the form is not yet migrated to the Workspace. For more information, see [Assess the impact of a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/impact-assessment-tasks.md).
 
     If no entities are configured, you can configure new entities.
 
@@ -50,5 +51,5 @@ In the Impact assessments related list, the new impact assessment is listed and 
 
 ## What to do next
 
-See [Manage regulatory change tasks](manage-reg-change-tasks-using-ws.md) for information on marking the alert as applicable and managing the regulatory change tasks.
+See [Manage regulatory change tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/manage-reg-change-tasks-using-ws.md) for information on marking the alert as applicable and managing the regulatory change tasks.
 

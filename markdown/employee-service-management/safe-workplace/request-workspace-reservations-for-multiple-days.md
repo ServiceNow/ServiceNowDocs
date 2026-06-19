@@ -2,6 +2,7 @@
 title: Request a workplace reservation for multiple days
 description: Request a workplace reservation for the days during which you want to return to office by using Workplace Core.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/request-workspace-reservations-for-multiple-days.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace
@@ -147,5 +148,5 @@ Floor of the area or space that you want to access.
 
 The state of your request is set to Awaiting approval, which indicates that the request has been sent to your manager for approval.
 
-**Parent Topic:**[Making workplace reservations](../concept/requesting-workspace-reservations.md)
+**Parent Topic:**[Making workplace reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/requesting-workspace-reservations.md)
 

@@ -2,6 +2,7 @@
 title: Check definition form parameters tab
 description: The Parameters tab definitions for the Command field on the check definition form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/check-definition-parameters-tab.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -24,5 +25,5 @@ The Parameters tab definitions for the **Command** field on the check definition
 |Flag|String. Prefix that is added before the parameter value in the **Command** field when the **Command Auto Generation** check box is selected.|
 |Value required|Boolean. When set to **true** and when the **Command Auto Generation** check box is selected, the value of this parameter is added to the **Command** field after the **Flag** value.|
 
-**Parent Topic:**[Agent Client Collector check definition page](check-definition-form.md)
+**Parent Topic:**[Agent Client Collector check definition page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/check-definition-form.md)
 

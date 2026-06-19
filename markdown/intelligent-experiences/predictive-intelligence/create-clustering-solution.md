@@ -2,6 +2,7 @@
 title: Create and train a clustering solution
 description: Group similar records into clusters so you can address them collectively or identify patterns.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/predictive-intelligence/create-clustering-solution.html
 release: zurich
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -25,7 +26,7 @@ Role required: ml\_admin or admin
 
 In this example procedure, you're creating a solution to identify a major incident by grouping similar incidents that have occurred recently.
 
-For information on using encrypted training data, see [Data Encryption in Predictive Intelligence](../reference/predictive-intelligence-encryption.md).
+For information on using encrypted training data, see [Data Encryption in Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/predictive-intelligence-encryption.md).
 
 ## Procedure
 
@@ -69,7 +70,7 @@ If you have a legacy clustering solution, you can select a relevant word corpus 
 
  **Note:** With the Zurich release, a word corpus is not required, because a pre-trained model is used instead. The **Word Corpus** field is not visible in the definition form for pre-trained models.
 
- For more information, see [Create a word corpus](create-word-corpus.md).
+ For more information, see [Create a word corpus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/create-word-corpus.md).
 
 </td></tr><tr><td>
 
@@ -192,17 +193,17 @@ A treemap plot appears on the Cluster Visualization tab of your Clustering Solut
 
 Each node is colored from red to green depending on the cluster quality for that node. The Select Group filter appears only when you select the **Use Group By** and **Group By** fields on your Clustering Definition form. When you point to a cluster, you can see its Groupby value, Cluster Count, and Records in Groupby.
 
-![Cluster Visualization tab of your Clustering Solution Definition form. It shows the clusters the system formed for your solution in descending order.](../images/predict-intel-clustering-treemap1.png "Cluster visualization example")
+\[Omitted image "predict-intel-clustering-treemap1.png"\] Alt text: Cluster Visualization tab of your Clustering Solution Definition form. It shows the clusters the system formed for your solution in descending order.
 
 To open a cluster, you can click it, or select it from the Show All Groups filter.
 
 Inside the cluster grouping, you can filter the results further by using the two slide bars for cluster size and cluster quality, respectively. You can also navigate backward by clicking the Back button, which only appears when a clustering hierarchy is present. When you point to a cluster at this level, the Purity field percentile values appear along with the Cluster Concept, Quality, and Size values.
 
-![Cluster group. You can filter for cluster size and cluster quality. When you point to a cluster at this level, the Purity field values appear.](../images/predict-intel-clustering-treemap3.png "Cluster group example")
+\[Omitted image "predict-intel-clustering-treemap3.png"\] Alt text: Cluster group. You can filter for cluster size and cluster quality. When you point to a cluster at this level, the Purity field values appear.
 
 When you click a cluster node, its ML cluster details appear in a list view format.
 
-![The ML Cluster Detail table contains the record IDs for the clustering solution, Groupby node, ML solution name, and ranking percentage are shown in a list view format.](../images/predict-intel-clustering-treemap4.png "Cluster details page")
+\[Omitted image "predict-intel-clustering-treemap4.png"\] Alt text: The ML Cluster Detail table contains the record IDs for the clustering solution, Groupby node, ML solution name, and ranking percentage are shown in a list view format.
 
 ## What to do next
 
@@ -210,10 +211,10 @@ When you click a cluster node, its ML cluster details appear in a list view form
 
 -   Review the Cluster Summary tab for a list view of the cluster IDs, quality size, and Groupby values.
 
-    ![The Cluster Summary table shows all clusters are listed by cluster ID,quality, size, and groupby value.](../images/predict-intel-clustering-treemap5.png "Cluster Summary example")
+    \[Omitted image "predict-intel-clustering-treemap5.png"\] Alt text: The Cluster Summary table shows all clusters are listed by cluster ID,quality, size, and groupby value.
 
 -   On the Cluster Updates tab, review the summary of changes to clusters for each cluster update interval you configured in the solution definition.
 
-    ![The Cluster Updates tab shows records assigned to other clusters, newly created, and how many records have been assigned to new clusters, and the total number of records clustered.](../images/predict-intel-clustering-treemap6.png "Cluster updates example")
+    \[Omitted image "predict-intel-clustering-treemap6.png"\] Alt text: The Cluster Updates tab shows records assigned to other clusters, newly created, and how many records have been assigned to new clusters, and the total number of records clustered.
 
 

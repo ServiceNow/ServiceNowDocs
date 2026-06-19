@@ -2,6 +2,7 @@
 title: Create a document approval revision rule
 description: Create a document approval revision rule for the document review and approval process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/create-doc-approval-rev-rule.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -35,5 +36,5 @@ Role required: platform\_document\_management\_admin or admin
 3.  Select **Submit**.
 
 
-**Parent Topic:**[Document approval and publish process](../concept/document-review-approval.md)
+**Parent Topic:**[Document approval and publish process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/document-review-approval.md)
 

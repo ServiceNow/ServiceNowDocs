@@ -2,6 +2,7 @@
 title: Components installed with Legal Simple Privacy
 description: Several types of components are installed with activation of the Legal Simple Privacy application, including user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-simple-privacy/components-installed-simple-privacy.html
 release: zurich
 product: Legal Simple Privacy
 classification: legal-simple-privacy
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Legal Simple Privacy, Legal Service Delivery Practice Ap
 
 Several types of components are installed with activation of the Legal Simple Privacy application, including user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles
 
@@ -96,5 +97,5 @@ Privacy and Data Security\[sn\_lg\_matter\_privacy\_and\_data\_security\]
 Stores the details of any legal matters created.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legal Simple Privacy Reference](../concept/legal-simple-privacy-reference.md)
+</table>**Parent Topic:**[Legal Simple Privacy Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-privacy/legal-simple-privacy-reference.md)
 

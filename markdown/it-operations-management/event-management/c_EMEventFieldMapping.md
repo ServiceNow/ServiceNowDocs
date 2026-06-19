@@ -2,6 +2,7 @@
 title: Event field mapping configuration
 description: Use Event field mappings rules to map values from specific fields to values in other fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/c\_EMEventFieldMapping.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -31,8 +32,8 @@ Event Management provides default event field mappings for commonly used system 
 
 You can view the default event field mappings and mapping pairs by navigating to **Event Management** &gt; **Rules** &gt; **Event Field Mappings** and double-clicking **Name**.
 
--   **[Create event field mappings](../task/t_EMCreateEventFieldMapping2.md)**  
+-   **[Create event field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMCreateEventFieldMapping2.md)**  
 Use event field mappings to map values from specific event fields to values in other fields to provide more comprehensive information in an alert. Use team-based integrations in event rules to make sure that connector ownership and execution of rules give precedence to global rules. Teams can maintain consistency and hierarchy while offering flexibility and customization options.
 
-**Parent Topic:**[Event Management](c_EM.md)
+**Parent Topic:**[Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/c_EM.md)
 

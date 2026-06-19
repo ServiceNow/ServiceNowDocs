@@ -2,7 +2,10 @@
 title: Real-time prevention monitoring for Scan Engine
 description: Real-Time Prevention is a Scan Engine feature that actively monitors records as they are created or modified by developers and administrators, displaying real-time finding messages when saving records in any instance where the Scan Engine is installed and activated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/using-real-time-prevention-monitoring-scan-engine.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-11-13"
 reading_time_minutes: 1
@@ -20,7 +23,7 @@ How it works:
 -   **Guided Resolution:** Provides details, such as line numbers, impact levels, and steps to resolve found issues.
 -   **Governance:** Supports exception workflows and links to supporting documentation for compliance.
 
-**Note:** Real-Time Prevention must be enabled in the Scan Engine properties page for this feature to function. For more information, refer to [Configure Scan Engine properties](configure-scan-engine-properties.md).
+**Note:** Real-Time Prevention must be enabled in the Scan Engine properties page for this feature to function. For more information, refer to [Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md).
 
 Findings identified by real-time monitoring can have the following levels.
 
@@ -56,7 +59,7 @@ Recommend
 </td><td>
 
 -   Prevents users from saving the record unless they resolve the issue or provide an exception reason.
--   For more information, refer to [Submit exceptions for the Scan Engine findings](../concept/submitting-exception-reasons-scan-engine.md).
+-   For more information, refer to [Submit exceptions for the Scan Engine findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/submitting-exception-reasons-scan-engine.md).
 
 </td></tr><tr><td>
 

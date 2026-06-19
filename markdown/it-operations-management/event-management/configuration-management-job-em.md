@@ -2,6 +2,7 @@
 title: Periodically run an event forwarding job
 description: Schedule an event forwarding job to periodically send events to all target instances with active event forwarding configurations when the monitoring source can't send events to multiple target instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/configuration-management-job-em.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -21,7 +22,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-You can customize the **event-forwarding** job behavior through related system properties. For more information, see [Event forwarding properties](../reference/event-forwarding-properties-em.md).
+You can customize the **event-forwarding** job behavior through related system properties. For more information, see [Event forwarding properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/event-forwarding-properties-em.md).
 
 **Note:** To minimize the performance impact, the scheduled job sends events not older than the latest hour when it ran for the first time after setting up event forwarding.
 

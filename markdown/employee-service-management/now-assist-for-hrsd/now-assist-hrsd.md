@@ -2,6 +2,7 @@
 title: Now Assist for HR Service Delivery \(HRSD\)
 description: Use the ServiceNow Now Assist for HR Service Delivery \(HRSD\) application to summarize the case information, generate resolution notes, and summarize the chat information for an interaction. You can enable your agents to understand the chat and case context so that they can propose quicker resolutions to your requesters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.html
 release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -19,23 +20,23 @@ Use the ServiceNow® Now Assist for HR Service Delivery \(HRSD\) application to 
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about the generative AI skills and capabilities offered by Now Assist for HRSD](explore-now-assist-hr.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about the generative AI skills and capabilities offered by Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/explore-now-assist-hr.md)
 
 </td><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Configure the application to get started](../task/configure-now-assist-hr.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure the application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 
 </td><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-task-list.svg) Provide higher levels of service by using the generative AI skills and capabilities that are offered by Now Assist for HRSD](use-now-assist-hr.md)
+[Use \[Omitted image "bus-task-list.svg"\] Alt text: Provide higher levels of service by using the generative AI skills and capabilities that are offered by Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 </td></tr><tr><td>
 
-[Use Agent Collection![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Use the AI agent use cases in Now Assist for HR Service Delivery \(HRSD\)](now-assist-hrsd-ai-agents-use-cases.md)
+[Use Agent Collection\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the AI agent use cases in Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-use-cases.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about components such as fields, tables, and properties.](../reference/reference-now-assist-hrsd.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/reference-now-assist-hrsd.md)
 
 </td><td>
 
@@ -65,13 +66,13 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about HR case data \(Case Assist and KB Generation\) and chat transcripts \(Chat Assist\), including related comments and work notes. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about HR case data \(Case Assist and KB Generation\) and chat transcripts \(Chat Assist\), including related comments and work notes. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+For more information, see the Now Assist documentation.
 
 ## Additional resources
 
--   Learn more about what's new and changed, see the [Now Assist for HR Service Delivery \(HRSD\) release notes](https://www.servicenow.com/docs/access?context=hr-na-rn&version=zurich&pubname=zurich-release-notes&ft:locale=en-US).
+-   Learn more about what's new and changed, see the .
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

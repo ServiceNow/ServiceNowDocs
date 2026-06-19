@@ -2,6 +2,7 @@
 title: Certify an account
 description: A certification task represents the work of verifying and certifying the data associated with a record. The certifier reviews tasks created after data validation against the published policy. Account certification helps resolve issues like outdated ownership, inactive user profiles, and improper permissions in cloud accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/certify-account.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
@@ -17,7 +18,7 @@ A certification task represents the work of verifying and certifying the data as
 
 ## Before you begin
 
-Make sure that the admin has reviewed the Cloud Account Management default policy. Optionally, the admin can customize or add new policies based on the organization requirement. For more information, see [Review default Cloud Account Management certification policy](policy-setup.md). The ITOM Cloud Account Management Certifier Group must contain at least one user.
+Make sure that the admin has reviewed the Cloud Account Management default policy. Optionally, the admin can customize or add new policies based on the organization requirement. For more information, see [Review default Cloud Account Management certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/policy-setup.md). The ITOM Cloud Account Management Certifier Group must contain at least one user.
 
 **Note:** Cloud Account Management admin can add users to the Cloud Account Management Certifier Group by navigating to **All** &gt; **Account Certification** &gt; **ITOM CAM Certifier Group** &gt; **Group Members**.
 
@@ -37,7 +38,7 @@ Role required: sn\_itom\_cam.cw\_certifier
 
 4.  Select the records that you want to conclude the review for in the Review not completed tab, and then select **Certify** or **Fail**.
 
-    ![Pending Cloud Account Management certification list](../image/cam-certification.png "Cloud Account Management certification review")
+    \[Omitted image "cam-certification.png"\] Alt text: Pending Cloud Account Management certification list
 
     **Note:** If you select **Fail**, the task is moved to the registry and Cloud Account Management admin will take the next action. You can also reassign the ownership of a task.
 
@@ -53,6 +54,6 @@ Role required: sn\_itom\_cam.cw\_certifier
 
     The account certification state changes to pending if it meets the admin's policy conditions for recertification.
 
-    For more information on certifying a task, see [Review certification tasks](https://www.servicenow.com/docs/access?context=data-certific-review-tasks&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    For more information on certifying a task, see .
 
 

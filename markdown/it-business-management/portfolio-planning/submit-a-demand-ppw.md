@@ -2,6 +2,7 @@
 title: Submit a demand
 description: Submit the demand record once the necessary details are provided for a demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/submit-a-demand-ppw.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -23,11 +24,11 @@ Role required: it\_demand\_manager, it\_demand\_user
 
 1.  Open a demand from the home page of Next Experience for Demand Management.
 
-    For more information, see [Access demands](access-demands-ppw.md).
+    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/access-demands-ppw.md).
 
 2.  Select **Details** from the L-2 \(level 2\) navigation menu.
 
-3.  Select **Submit demand**.![Use the Submit demand button to submit a demand.](../../spw-demand/images/submit-demand-button.png)
+3.  Select **Submit demand**.\[Omitted image "submit-demand-button.png"\] Alt text: Use the Submit demand button to submit a demand.
 
     **Note:** The submit option is available only when the demand is in the Draft state.
 

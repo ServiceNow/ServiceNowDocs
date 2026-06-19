@@ -2,6 +2,7 @@
 title: Domain separation and AI Search Assist
 description: Domain separation is supported for AI Search Assist. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/ai-search-assist-domain-separation.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -23,10 +24,10 @@ The goal of AI Search Assist is to give a Service Portal record producer AI Sear
 
 Domain separation for AI Search Assist is set in the record producer configuration. A related link for each record producer configuration enables you to expand or collapse the domain scope. If you expand the domain scope, any child domain record producer configurations can override a global or parent domain record configuration.
 
-**Parent Topic:**[AI Search Assist record producer integration for Service Portal](ai-search-assist.md)
+**Parent Topic:**[AI Search Assist record producer integration for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ai-search-assist.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

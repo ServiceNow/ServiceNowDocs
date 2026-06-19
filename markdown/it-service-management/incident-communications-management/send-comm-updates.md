@@ -2,6 +2,7 @@
 title: Send communication updates
 description: Update users on the latest communication on an incident through selected communication channels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-communications-management/send-comm-updates.html
 release: zurich
 product: Incident Communications Management
 classification: incident-communications-management
@@ -40,5 +41,5 @@ Update users on the latest communication on an incident through selected communi
 6.  Click **Compose**.
 
 
-**Parent Topic:**[Managing Incident Communications](../concept/working-with-inci-comm-mgmt.md)
+**Parent Topic:**[Managing Incident Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
 

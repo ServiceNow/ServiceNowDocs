@@ -2,6 +2,7 @@
 title: Optimize a task route
 description: Get optimal routes to your task locations and use the task map to navigate to the location. You can view the location of tasks assigned to you for the current week and use the app to choose the optimal route to execute the tasks for the current day.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/optimize-task-route-mobile.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -42,7 +43,7 @@ Role required: wm\_agent or wm\_dispatcher
 
     |To|Do this|
     |---|-------|
-    |**Optimize the route for executing more than one task in a day**|Tap the More actions \(![More actionsicon](../image/OverflowIcon.png)\) icon and select **Optimize Today's Route**.|
+    |**Optimize the route for executing more than one task in a day**|Tap the More actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actionsicon\) icon and select **Optimize Today's Route**.|
     |**Navigate to a task location**|Tap the directions icon and select the desired application to get directions to the task location.|
     |**View task details**|Select the task.|
     |**Toggle between map and list view**|Use the **Map** or **List** icons to toggle between map and list view.|

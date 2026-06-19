@@ -2,6 +2,7 @@
 title: Create the Client Credentials system property
 description: Create the glide.oauth.inbound.client.credential.grant\_type.enabled system property to use Client Credentials grant type for OAuth inbound integrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/create-cc-sys-prop.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -38,7 +39,7 @@ Plugin required: OAuth 2.0.
     |Type|Select the appropriate data type from the list. In this case, `true| false`.|
     |Value|Set the desired value for the property. In this case, `true` to enable the client credentials grant type for OAuth inbound integrations.|
 
-    ![Client Credentials property](../images/create-cc-sys-prop.png)
+    \[Omitted image "create-cc-sys-prop.png"\] Alt text: Client Credentials property
 
     **Note:** Other fields in the form such as Choices, Ignore cache, Private, Read roles, and Write roles can be configured according to your requirements.
 

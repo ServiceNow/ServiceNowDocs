@@ -2,6 +2,7 @@
 title: Extract fields using the Document Intelligence workspace
 description: Use the Document Intelligence workspace for field extraction, searching for recommendations, flagging fields, and identifying missing fields to complete document tasks.Extract text and number fields from your document in the document fields panel.Extract check box fields from your document in the document fields panel.Extract table fields from your document in the table panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/document-intelligence/doc-intel-workspace.html
 release: zurich
 product: Document Intelligence
 classification: document-intelligence
@@ -15,7 +16,7 @@ breadcrumb: [Complete a document task, Use, Document Intelligence, Enable AI exp
 
 Use the Document Intelligence workspace for field extraction, searching for recommendations, flagging fields, and identifying missing fields to complete document tasks.
 
-**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](docintel-nowassist-landing.md).
+**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
 
 ## Overview of the Document Intelligence workspace
 
@@ -28,8 +29,8 @@ With the Document Intelligence workspace, you can:
 
 To get started with the Document Intelligence workspace:
 
--   [Create a document task](../task/upload-documents-for-extraction.md) for a document data extraction use case, upload a document, and process the task.
--   After DocIntel has processed the task, you can begin using the workspace. See [Complete a document task](../task/extract-data-from-documents.md).
+-   [Create a document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/document-intelligence/upload-documents-for-extraction.md) for a document data extraction use case, upload a document, and process the task.
+-   After DocIntel has processed the task, you can begin using the workspace. See [Complete a document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/document-intelligence/extract-data-from-documents.md).
 
 ## Layout of the Document Intelligence workspace
 
@@ -43,7 +44,7 @@ The following illustration shows the Document Intelligence workspace for a docum
 
 **Note:** In this view, the document fields panel is expanded so that the fields are visible.
 
-![Areas of the Document Intelligence workspace for data extraction.](../image/docintel-workspace-overview2.png)
+\[Omitted image "docintel-workspace-overview2.png"\] Alt text: Areas of the Document Intelligence workspace for data extraction.
 
 ## Thumbnail panel
 
@@ -51,7 +52,7 @@ In the thumbnail panel of the workspace, you can select one page from a multiple
 
 The following image shows a document with two pages in the thumbnail panel.
 
-![Document Intelligence workspace with multiple pages in the thumbnail panel.](../image/using-the-doc-intel-workspace1.png)
+\[Omitted image "using-the-doc-intel-workspace1.png"\] Alt text: Document Intelligence workspace with multiple pages in the thumbnail panel.
 
 ## Document image panel
 
@@ -59,15 +60,15 @@ The document image panel displays the page selected in the thumbnail panel.
 
 As you move through the recommendations in the fields in the document fields panel, they’ll be highlighted in the document image panel to help you select the correct option.
 
-![Document panel showing a highlighted recommendation.](../image/docintel-bounding-box.png)
+\[Omitted image "docintel-bounding-box.png"\] Alt text: Document panel showing a highlighted recommendation.
 
-You can also extract information directly from the document image using the draw tool. For more details, see [Extract fields using the draw tool](use-draw-mode-to-extract-fields.md#).
+You can also extract information directly from the document image using the draw tool. For more details, see [Extract fields using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
 
 ## Document controls
 
-When you’re reviewing a document for extraction, you can use various controls to maximize the viewing area, zoom, or focus on the areas that you need. You can also extract information directly from the document image using the draw tool. For more details, see [Extract fields using the draw tool](use-draw-mode-to-extract-fields.md#).
+When you’re reviewing a document for extraction, you can use various controls to maximize the viewing area, zoom, or focus on the areas that you need. You can also extract information directly from the document image using the draw tool. For more details, see [Extract fields using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
 
-The following illustration shows document controls. ![Controls in the Document Intelligence workspace.](../image/docintel-doc-image-controls.png)
+The following illustration shows document controls. \[Omitted image "docintel-doc-image-controls.png"\] Alt text: Controls in the Document Intelligence workspace.
 
 ## Document fields panel
 
@@ -77,7 +78,7 @@ The document fields panel enables you to open items for review, including viewin
 
 The following illustration shows the different features of the document fields panel.
 
-![Fields panel in Document Intelligence workspace.](../image/docintel-workspace-reviewitems.gif)
+\[Omitted image "docintel-workspace-reviewitems.gif"\] Alt text: Fields panel in Document Intelligence workspace.
 
 ## Table panel
 
@@ -87,7 +88,7 @@ The table panel enables you to open table rows for review, including viewing the
 
 The following illustration shows the different features of the table panel.
 
-![Table panel in the Document Intelligence workspace.](../image/docintel-table-panel-image2.png)
+\[Omitted image "docintel-table-panel-image2.png"\] Alt text: Table panel in the Document Intelligence workspace.
 
 ## Extract single fields
 
@@ -103,7 +104,7 @@ Use the following steps to extract single fields from a document.
 
 If the fields are already auto-filled with values, you can review them to ensure they are correct or adjust the fields as needed.
 
-**Tip:** You can also use the draw tool to easily extract fields directly on the document image. For more information, see [Extract fields using the draw tool](use-draw-mode-to-extract-fields.md#).
+**Tip:** You can also use the draw tool to easily extract fields directly on the document image. For more information, see [Extract fields using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
 
 ### Procedure
 
@@ -113,24 +114,24 @@ If the fields are already auto-filled with values, you can review them to ensure
 
 3.  Begin typing in the field and select a recommendation from the drop-down list.
 
-    The recommendation with the highest [confidence score](docintel-confidence-scores.md) displays at the top of the list.
+    The recommendation with the highest [confidence score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/document-intelligence/docintel-confidence-scores.md) displays at the top of the list.
 
     **Tip:** As you move through the recommendations in the drop-down list, they’re highlighted in the document to help you select the correct option.
 
 4.  If needed, filter or flag the recommendations
 
-    -   To filter the list to show only a recommendation that matches exactly what you type, select the exact match mode icon \(![Exact match mode icon.](../image/icon-docintel-exact-match-mode.png)\) in the field.
-    -   To flag the field for later attention, select **Flag for follow-up** in the field options menu \(![Field options menu icon](../image/icon-docintel-field-options-menu.png)\).
-    -   If you can’t find an appropriate match in the document, select **Missing in the document** in the field options menu.To undo, select the **Edit** icon \(![Edit icon.](../image/icon-docintel-edit.png)\) in the field.
+    -   To filter the list to show only a recommendation that matches exactly what you type, select the exact match mode icon \(\[Omitted image "icon-docintel-exact-match-mode.png"\] Alt text: Exact match mode icon.\) in the field.
+    -   To flag the field for later attention, select **Flag for follow-up** in the field options menu \(\[Omitted image "icon-docintel-field-options-menu.png"\] Alt text: Field options menu icon\).
+    -   If you can’t find an appropriate match in the document, select **Missing in the document** in the field options menu.To undo, select the **Edit** icon \(\[Omitted image "icon-docintel-edit.png"\] Alt text: Edit icon.\) in the field.
     The field will be marked as complete when you move to the next field.
 
 5.  If needed, confirm or correct any field value conversions.
 
-    Some field types convert the extracted value into a standard format. See [Data normalization](data-normalization.md).
+    Some field types convert the extracted value into a standard format. See [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/document-intelligence/data-normalization.md).
 
     When the extracted value is ambiguous in a document, DocIntel interprets it as defined in the field configuration. A note prompts you to confirm or edit the converted value.
 
-    ![Data extraction field and its converted value field](../image/docintel-normalization-example.png)
+    \[Omitted image "docintel-normalization-example.png"\] Alt text: Data extraction field and its converted value field
 
     -   Select **Confirm** in the converted value field to confirm that the converted value is accurate.
     -   Select **Edit**, enter the updated value, and select **Save** to correct the conversion.
@@ -172,7 +173,7 @@ If the check box fields are already auto-filled, you can review them to ensure t
         -   Press **Tab** on the keyboard to move through the recommendations.
         -   Press **Enter** or **Return** to select one.
         -   To deselect a recommendation, select another one.
-    3.  If there are no recommendations found, or if none of the recommendations are correct, select **Show all check box recommendations** in the check box options menu \(![Field options menu icon](../image/icon-docintel-field-options-menu.png)\) and choose from any other options in the document.
+    3.  If there are no recommendations found, or if none of the recommendations are correct, select **Show all check box recommendations** in the check box options menu \(\[Omitted image "icon-docintel-field-options-menu.png"\] Alt text: Field options menu icon\) and choose from any other options in the document.
 
         **Tip:** Flag the check box for later attention by selecting **Flag for follow-up** in the check box option menu.
 
@@ -199,13 +200,13 @@ Use the following steps to extract table fields from a document.
 
 If the fields are already auto-filled with values, you can review them to ensure they’re correct or adjust the fields as needed.
 
-**Tip:** You can also use the draw tool to easily extract tables directly on the document image. For more information, see [Extract fields using the draw tool](use-draw-mode-to-extract-fields.md#).
+**Tip:** You can also use the draw tool to easily extract tables directly on the document image. For more information, see [Extract fields using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
 
 ### Procedure
 
 1.  In the document fields panel, expand **Tables**.
 
-    The Tables section only displays fields assigned to a table [field group](../task/manage-keys.md).
+    The Tables section only displays fields assigned to a table [field group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/document-intelligence/manage-keys.md).
 
 2.  Select a table.
 
@@ -217,15 +218,15 @@ If the fields are already auto-filled with values, you can review them to ensure
 
         **Tip:** As you move through the recommendations in the drop-down list, they are highlighted in the document to help you select the correct option.
 
-    -   To flag the field for later attention, select **Flag for follow-up** in the field options menu \( ![Field options menu icon.](../image/icon-docintel-field-options-menu.png)\).
-    -   If you can’t find an appropriate match in the document, select **Missing in the document** in the field options menu.To undo, select the **Edit** icon \(![Edit icon.](../image/icon-docintel-edit.png)\) in the field.
+    -   To flag the field for later attention, select **Flag for follow-up** in the field options menu \( \[Omitted image "icon-docintel-field-options-menu.png"\] Alt text: Field options menu icon.\).
+    -   If you can’t find an appropriate match in the document, select **Missing in the document** in the field options menu.To undo, select the **Edit** icon \(\[Omitted image "icon-docintel-edit.png"\] Alt text: Edit icon.\) in the field.
 4.  If needed, confirm or correct any field value conversions.
 
-    Some field types convert the extracted value into a standard format. See [Data normalization](data-normalization.md).
+    Some field types convert the extracted value into a standard format. See [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/document-intelligence/data-normalization.md).
 
     When the extracted value is ambiguous in a document, DocIntel interprets it as defined in the field configuration. A note prompts you to confirm or edit the converted value.
 
-    ![Data extraction field and its converted value field](../image/docintel-normalization-example.png)
+    \[Omitted image "docintel-normalization-example.png"\] Alt text: Data extraction field and its converted value field
 
     -   Select **Confirm** in the converted value field to confirm that the converted value is accurate.
     -   Select **Edit**, enter the updated value, and select **Save** to correct the conversion.
@@ -234,7 +235,7 @@ If the fields are already auto-filled with values, you can review them to ensure
     **Warning:** If you have a grid on the document image, changes made directly to the table rows can’t be synced to the grid\(s\). The grid\(s\) will be removed to avoid conflicting data.
 
     -   To add a row, select **New row**.
-    -   To clear all field values in the row, select **Clear row values** in the row options menu \(![Row options menu icon.](../image/icon-docintel-field-options-menu.png)\).
+    -   To clear all field values in the row, select **Clear row values** in the row options menu \(\[Omitted image "icon-docintel-field-options-menu.png"\] Alt text: Row options menu icon.\).
     -   To insert a row, select **Insert row above** or **Insert row below** in the row options menu.
     -   To delete a row, select **Delete row** in the row options menu.
     -   To mark a row as reviewed, select **Mark row as reviewed** in the row options menu.

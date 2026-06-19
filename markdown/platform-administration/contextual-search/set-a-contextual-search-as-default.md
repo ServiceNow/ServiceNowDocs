@@ -2,6 +2,7 @@
 title: Set a search context as default
 description: If you use the contextual search REST API and don't specify which search context to use, the API uses the search context that you have set as default. The search context that you use in the API takes preference over the one marked as default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/contextual-search/set-a-contextual-search-as-default.html
 release: zurich
 product: Contextual Search
 classification: contextual-search
@@ -29,8 +30,8 @@ Role required: admin
 
 3.  Select **Set As Default**.
 
-    ![Search Context form showing Set As Default button.](../image/set-as-default.png)
+    \[Omitted image "set-as-default.png"\] Alt text: Search Context form showing Set As Default button.
 
 
-**Parent Topic:**[Managing contextual search](../concept/working-with-contextual-search.md)
+**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/working-with-contextual-search.md)
 

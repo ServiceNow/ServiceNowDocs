@@ -2,6 +2,7 @@
 title: Send a reminder to custodians for acknowledgment
 description: Send a reminder to custodians for them to acknowledge their role in ensuring that the data related to the legal hold is preserved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-hold-notification/send-reminder-for-acknowledgment.html
 release: zurich
 product: Legal Hold Notification
 classification: legal-hold-notification
@@ -23,7 +24,7 @@ Role required: sn\_lg\_hold.legal\_hold\_fulfiller
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Select the List icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Default lists** tab, navigate to **Matters** &gt; **All**
 
@@ -44,5 +45,5 @@ A reminder email is sent to the custodian.
 
 The message **Reminder notice is sent** appears in the **Activity** section.
 
-**Parent Topic:**[Using Legal Hold Notification](../concept/use-lg-hold-notif.md)
+**Parent Topic:**[Using Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-hold-notification/use-lg-hold-notif.md)
 

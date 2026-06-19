@@ -2,6 +2,7 @@
 title: Add ground truth to a labeling project
 description: Ground truth is the real-world data that is used to train and test AI models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-data-kit/add-ground-truth-labeling.html
 release: zurich
 product: Now Assist Data Kit
 classification: now-assist-data-kit
@@ -25,7 +26,7 @@ Role required: sn\_data\_kit.admin
 
 2.  Create a project using the AI generated ground truth template or the manual ground truth template.
 
-    For more information about creating a labeling project from a template, see [Create labeling project from template](create-labeling-project-template.md).
+    For more information about creating a labeling project from a template, see [Create labeling project from template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-data-kit/create-labeling-project-template.md).
 
     **Note:** If you select AI-generated ground truth, tasks are created with pre-filled labels based on setup instructions.
 

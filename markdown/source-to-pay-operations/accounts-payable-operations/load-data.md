@@ -2,6 +2,7 @@
 title: Load invoice data
 description: Load the invoice data from the excel template into the sn\_spend\_intg\_imp\_invoice staging table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/load-data.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -31,7 +32,7 @@ Role required: admin
 
 4.  In **Source of the Import**, choose **File**.
 
-5.  Browse the excel template that was created from [Import data into invoice](import-external-data-into-invoice.md).
+5.  Browse the excel template that was created from [Import data into invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/import-external-data-into-invoice.md).
 
 6.  Enter the **Sheet number** of the excel template that needs to be loaded into the staging table.
 

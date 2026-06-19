@@ -2,6 +2,7 @@
 title: Get started with the mobile app for Approvals
 description: Access the My Approvals application instance on your mobile app to manage approval requests using your mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/get-started-mobile-cat-requests.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -25,17 +26,17 @@ Download the ServiceNow® mobile application on an iOS platform from the Apple A
 
 ## Procedure
 
-1.  Open the mobile app and tap the plus icon \(![plus icon](../image/mobileAddInstance.png)\).
+1.  Open the mobile app and tap the plus icon \(\[Omitted image "mobileAddInstance.png"\] Alt text: plus icon\).
 
-2.  Add a ServiceNow instance. For more information on adding the instance, refer to [Add a ServiceNow instance](https://www.servicenow.com/docs/access?context=login-end-user&version=zurich&pubname=zurich-mobile&ft:locale=en-US).
+2.  Add a ServiceNow instance. For more information on adding the instance, refer to Add a ServiceNow instance.
 
 3.  Tap **My Approvals** to start managing your requests.
 
 
-**Parent Topic:**[Fulfiller experience in Mobile Agent](../concept/itsm-mobile-request-approval.md)
+**Parent Topic:**[Fulfiller experience in Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/itsm-mobile-request-approval.md)
 
 **Related topics**  
 
 
-[Agent mobile app](https://www.servicenow.com/docs/access?context=mobile-experience&version=zurich&pubname=zurich-mobile&ft:locale=en-US)
+[bundle-mobile.mobile-experience]
 

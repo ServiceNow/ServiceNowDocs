@@ -2,6 +2,7 @@
 title: Block Request Category List
 description: Block Request Category List classify observables in ServiceNow based on the block or allow action selected in the CrowdStrike platform. The Category List provides options to initiate a change request for list approval. This ensures that approvals are routed and processed seamlessly as part of the Block Request capability flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/cs-fal-in-block-req-category.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -19,7 +20,7 @@ Block Request Category List classify observables in ServiceNow® based on the bl
 
 Role required: sn\_si.analyst
 
-**Note:** You must configure the CrowdStrike Falcon Insight configuration tile to use the Block Request Capability for CrowdStrike. For more information on how to configure the integration, see [Install and configure CrowdStrike Falcon Insight](install-and-configure-crowdstrike-falcon-insight.md)
+**Note:** You must configure the CrowdStrike Falcon Insight configuration tile to use the Block Request Capability for CrowdStrike. For more information on how to configure the integration, see [Install and configure CrowdStrike Falcon Insight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/install-and-configure-crowdstrike-falcon-insight.md)
 
 ## About this task
 
@@ -47,7 +48,7 @@ The Block Request Category List includes two Hash Categories.
     2.  Select **Approvers for adding observable** from the search bar.
     3.  Select **Approvers for Removing Observable** from the search bar.
 
-        For a description of the field values, see [CrowdStrike Block Request Category List](../reference/block-req-category-list.md).
+        For a description of the field values, see [CrowdStrike Block Request Category List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/block-req-category-list.md).
 
 5.  Select **Update**.
 

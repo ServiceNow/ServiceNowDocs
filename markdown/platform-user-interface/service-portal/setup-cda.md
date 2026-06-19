@@ -2,6 +2,7 @@
 title: Set up Cloud Deployment Automation
 description: Set up the Cloud Deployment Automation application by configuring the Service Portal page to use the default catalog items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/setup-cda.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -18,7 +19,7 @@ Set up the Cloud Deployment Automation application by configuring the Service Po
 ## Before you begin
 
 -   Request Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
--   Activate and configure the [AWS CloudFormation spoke](https://www.servicenow.com/docs/access?context=aws-cloudformation&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+-   Activate and configure the AWS CloudFormation spoke.
 -   Activate the Cloud Deployment Automation app
 -   Role required: admin
 
@@ -38,11 +39,11 @@ Set up the Cloud Deployment Automation application by configuring the Service Po
 
     4.  Click the decision record.
 
-        ![Decision record.](../image/cda-decision.png)
+        \[Omitted image "cda-decision.png"\] Alt text: Decision record.
 
     5.  Select the required group, user, or subflow in **Answer**, depending on what the decision table is used for.
 
-        ![Answer record.](../image/cda-answer.png)
+        \[Omitted image "cda-answer.png"\] Alt text: Answer record.
 
         **Note:** Configure these seven decision tables and assign **Answer** as per your requirements.
 
@@ -57,7 +58,7 @@ Set up the Cloud Deployment Automation application by configuring the Service Po
 
     **Note:** Ensure that you select **Default \[Global\]** and **Global** for current update set and application.
 
-    ![Select the global value.](../../../build/service-portal/image/global.png)
+    \[Omitted image "global.png"\] Alt text: Select the global value.
 
     1.  Navigate to **Service Portal** &gt; **Portals**.
 
@@ -69,7 +70,7 @@ Set up the Cloud Deployment Automation application by configuring the Service Po
 
     5.  Add **Cloud Deployment Automation** to the **Service Portal** list.
 
-        ![Add Cloud Deployment Automation.](../image/cda-add-sp.png)
+        \[Omitted image "cda-add-sp.png"\] Alt text: Add Cloud Deployment Automation.
 
     6.  Click **Save**.
 
@@ -84,11 +85,11 @@ Set up the Cloud Deployment Automation application by configuring the Service Po
     1.  Navigate to the Service Portal.
     2.  Click the **Catalog** tab.
     3.  Click **Browse by Categories**.
-    4.  Select **Cloud Deployment Automation**.![Cloud Deployment Automation category.](../image/cda-sp-cat.png)
+    4.  Select **Cloud Deployment Automation**.\[Omitted image "cda-sp-cat.png"\] Alt text: Cloud Deployment Automation category.
     5.  Select the required action and submit the catalog item. When the request is approved, the associated flow is triggered and the required user can provide the approval. Activities are logged in the catalog item.
 
-        ![Cloud Deployment Automation catalogs.](../image/cda-catalogs.png)
+        \[Omitted image "cda-catalogs.png"\] Alt text: Cloud Deployment Automation catalogs.
 
 
-**Parent Topic:**[Cloud Deployment Automation](../concept/cloud-dep-auto.md)
+**Parent Topic:**[Cloud Deployment Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/cloud-dep-auto.md)
 

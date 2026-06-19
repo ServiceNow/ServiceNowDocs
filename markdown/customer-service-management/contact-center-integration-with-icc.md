@@ -2,7 +2,10 @@
 title: Interaction Controls Component \(ICC\) for voice calls
 description: The ServiceNow Configurable Workspace offers voice interaction and call control capabilities to agents within a single pane view, equipping them with the tools needed to enhance agent productivity and customer experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/contact-center-integration-with-icc.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -27,11 +30,11 @@ The following CCaaS Store Apps offer voice channel integration:
 -   [Unified Experience from Genesys](https://store.servicenow.com/store/app/cdff6b621ba46a50a85b16db234bcba3#linksAndDocuments)
 -   [ServiceNow Voice for Amazon Connect](https://store.servicenow.com/store/app/9d6927ee1be06a50a85b16db234bcb4a)
 
-See [Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integration](../task/enable-icc-for-ccaas.md) to enable ICC for CCaaS calls.
+See [Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/enable-icc-for-ccaas.md) to enable ICC for CCaaS calls.
 
 The following visual displays the voice workflow when CCaaS integrates with ICC within the CSM Configurable Workspace.
 
-![Voice Call flow via ICC](../image/icc-integration-with-nvc-workflow-MMASSET0020993.png "Voice call flow")
+\[Omitted image "icc-integration-with-nvc-workflow-MMASSET0020993.png"\] Alt text: Voice Call flow via ICC
 
 ## Key benefits
 

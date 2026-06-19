@@ -2,6 +2,7 @@
 title: SAP Solution Manager transaction codes
 description: The transaction code abbreviations that you can use in the SAP interface when working with the SAP Solution Manager connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/sapsolman-transaction-codes.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -26,5 +27,5 @@ The transaction code abbreviations that you can use in the SAP interface when wo
 |MAI\_TOOLS|Displays the alarm tool.|
 |SE16|Displays the interface debugging table \(ZSNOW\).|
 
-**Parent Topic:**[SAP configurations enabling the SAP Solution Manager connector](../concept/sap-manager-connector.md)
+**Parent Topic:**[SAP configurations enabling the SAP Solution Manager connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/sap-manager-connector.md)
 

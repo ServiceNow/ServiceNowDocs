@@ -2,6 +2,7 @@
 title: Record an automation
 description: Record an automation by using the recorder option in the RPA Desktop Design Studio application. The actions that you perform on the application elements can be saved as an automation flow to the automation project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/create-recorded-automation.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -19,8 +20,8 @@ Record an automation by using the recorder option in the RPA Desktop Design Stud
 
 You must do the following actions before you start recording an automation with the recorder for the first time:
 
--   Install and enable the ServiceNow RPA Chrome extension to your Google Chrome browser. For more information on adding the RPA Google Chrome extension, see [Add the ServiceNow RPA Chrome extension](../../rpa-hub/task/add-google-chrome-extension-rpa.md).
--   Install and enable the ServiceNow RPA Edge extension to your Microsoft Edge browser. For more information on adding the RPA Edge extension, see [Add the ServiceNow RPA Edge extension](add-servicenow-edge-extension.md).
+-   Install and enable the ServiceNow RPA Chrome extension to your Google Chrome browser. For more information on adding the RPA Google Chrome extension, see [Add the ServiceNow RPA Chrome extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/add-google-chrome-extension-rpa.md).
+-   Install and enable the ServiceNow RPA Edge extension to your Microsoft Edge browser. For more information on adding the RPA Edge extension, see [Add the ServiceNow RPA Edge extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/add-servicenow-edge-extension.md).
 -   Ensure that the option **Allow this extension to read and change all your data on websites that you visit** to **On all sites** is enabled in the Site access pane of the ServiceNow RPA Google Chrome and Microsoft Edge browser extensions.
 -   Enable Java Access Bridge from your Windows machine. For more information on how to enable Java Access Bridge, see [Enabling and Testing Java Access Bridge](https://docs.oracle.com/javase/7/docs/technotes/guides/access/enable_and_test.html).
 
@@ -40,7 +41,7 @@ Role required: None
 
     **Important:** If the Universal App Connector \(UAC\) plugin is unavailable or removed from the automation project, the **Launch recorder** button is greyed out in RPA Desktop Design Studio.
 
-2.  Open the application that you want to record and select the **Start recording** icon \(![Start recording icon](../image/start-recording-icon.png)\).
+2.  Open the application that you want to record and select the **Start recording** icon \(\[Omitted image "start-recording-icon.png"\] Alt text: Start recording icon\).
 
 3.  Point to the element where you want to perform an action.
 
@@ -48,13 +49,13 @@ Role required: None
 
     For example, if you point to the **Save** button in Notepad++, the element type is displayed as &lt;button&gt; and the default action for this item is **Click**.
 
-    ![Element type displayed as button and default action is Click for Save button.](../image/click-save-button-recorder-rpa.png "Element type and default action for Save button")
+    \[Omitted image "click-save-button-recorder-rpa.png"\] Alt text: Element type displayed as button and default action is Click for Save button.
 
 4.  Select the drop-down button against the default action to view the list of related actions for the element.
 
     For example, the list of related actions for the button element type are SendKeys, GetText, DoubleClick, and Focus.
 
-    For more information on the different types of actions and elements, see [Types of elements and actions for the recorder](../reference/element-actions-recorder.md).
+    For more information on the different types of actions and elements, see [Types of elements and actions for the recorder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/element-actions-recorder.md).
 
 5.  Select the required action to be performed on the element.
 
@@ -62,57 +63,57 @@ Role required: None
 
 6.  Do any of the following options for a desired action.
 
-<table id="choicetable_vmv_2f1_5rb"><thead><tr><th align="left" id="d142003e258">
+<table id="choicetable_vmv_2f1_5rb"><thead><tr><th align="left" id="d148551e258">
 
 Option
 
-</th><th align="left" id="d142003e261">
+</th><th align="left" id="d148551e261">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d142003e267">
+</th></tr></thead><tbody><tr><td id="d148551e267">
 
 **Highlight the parent of an element**
 
 </td><td>
 
-Select the Highlight parent element icon \(![Highlight parent icon.](../image/hightlight-parent.png)\). For example, if you select the **Highlight parent element** option for a button, the toolbar is highlighted.
+Select the Highlight parent element icon \(\[Omitted image "hightlight-parent.png"\] Alt text: Highlight parent icon.\). For example, if you select the **Highlight parent element** option for a button, the toolbar is highlighted.
 
-![When the parent table is highlighted, the Highlight parent element option for a button in a toolbar.](../image/highligh-parent-element.gif "Highlight parent element option")
+\[Omitted image "highligh-parent-element.gif"\] Alt text: When the parent table is highlighted, the Highlight parent element option for a button in a toolbar.
 
-</td></tr><tr><td id="d142003e301">
+</td></tr><tr><td id="d148551e301">
 
 **Pause the recording**
 
 </td><td>
 
-Select the Pause recording icon \(![Pause recording icon.](../image/pause-recording.png)\).
+Select the Pause recording icon \(\[Omitted image "pause-recording.png"\] Alt text: Pause recording icon.\).
 
-</td></tr><tr><td id="d142003e316">
+</td></tr><tr><td id="d148551e316">
 
 **View the Recorded actions pane**
 
 </td><td>
 
-Select the Show recorded steps icon \(![Show recorded steps icon.](../image/show-recorded-steps.png)\).You can verify the actions that you performed on the application elements from here.
+Select the Show recorded steps icon \(\[Omitted image "show-recorded-steps.png"\] Alt text: Show recorded steps icon.\).You can verify the actions that you performed on the application elements from here.
 
-</td></tr><tr><td id="d142003e333">
+</td></tr><tr><td id="d148551e333">
 
 **Know more about the recorder feature**
 
 </td><td>
 
-Select the Help icon \(![Help icon.](../image/help-recorder-rpa-icon.png)\) that navigates to the product documentation web page.
+Select the Help icon \(\[Omitted image "help-recorder-rpa-icon.png"\] Alt text: Help icon.\) that navigates to the product documentation web page.
 
-</td></tr><tr><td id="d142003e349">
+</td></tr><tr><td id="d148551e349">
 
 **Delete a recorded action**
 
 </td><td>
 
-Point to the action and select the Delete action icon \(![Delete action icon.](../image/delete-action-icon.png)\).
+Point to the action and select the Delete action icon \(\[Omitted image "delete-action-icon.png"\] Alt text: Delete action icon.\).
 
-</td></tr><tr><td id="d142003e364">
+</td></tr><tr><td id="d148551e364">
 
 **Delete all the recorded actions from the Recorded actions pane**
 
@@ -120,13 +121,13 @@ Point to the action and select the Delete action icon \(![Delete action icon.](.
 
 Select **Delete all**.
 
-</td></tr><tr><td id="d142003e376">
+</td></tr><tr><td id="d148551e376">
 
 **Edit the recorded action or element details**
 
 </td><td>
 
-1.  Select the Edit action icon \(![Edit action icon.](../image/edit-action-rec-rpa-icon.png)\) in the Recorded actions panel.
+1.  Select the Edit action icon \(\[Omitted image "edit-action-rec-rpa-icon.png"\] Alt text: Edit action icon.\) in the Recorded actions panel.
 2.  Update the action type or element name.
 3.  Select **Update**.
 
@@ -182,8 +183,8 @@ You can view the recorded elements as a UAC object in **Global Objects** in Proj
 
 2.  Configure the screens and the elements of the recording from the Screens and elements pane.
 
-    For more information on how to configure the screen and element match rules, see [Use the Universal App Connector](configure-uac.md).
+    For more information on how to configure the screen and element match rules, see [Use the Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-uac.md).
 
 
-**Parent Topic:**[Recording automations](../concept/recording-automations.md)
+**Parent Topic:**[Recording automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/recording-automations.md)
 

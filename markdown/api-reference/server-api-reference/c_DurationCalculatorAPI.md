@@ -2,6 +2,7 @@
 title: DurationCalculator - Global
 description: The DurationCalculator script include provides methods for calculating durations and due dates.Constructor for DurationCalculator class.Calculates an end date and time based on current start date and time and passed in duration \(seconds\).Calculates the due date starting at the passed in start time and adding the number of days using the current schedule and time zone.Calculates the duration using the specified relative duration script.Returns the duration between the startTime and the endTime within the already-specified schedule and optionally overridden timezone.Returns the duration between the startTime and the endTime within the already-specified schedule and optionally overridden timezone.Gets the endDateTime property that was set by calcDuration/calcRelativeDuration, indicating the end date and time for the duration.Returns the this.seconds property that was set by calcDuration/calcRelativeDuration, indicating the total number of seconds of work to be performed for the duration.Returns the totalSeconds value that was set by a call to calculate\(record\).Compares the passed in time to the time value in the passed in GlideDateTime object.Sets the schedule and time zone to use for calculating the due date.Sets the start date and time for the duration calculations.Sets the start date and time for the duration calculations.Sets the time zone to use for calculating the due date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_DurationCalculatorAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The DurationCalculator script include provides methods for calculating durations and due dates.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## DurationCalculator - DurationCalculator\( \)
 

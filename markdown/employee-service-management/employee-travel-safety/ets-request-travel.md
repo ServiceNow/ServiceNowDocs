@@ -2,6 +2,7 @@
 title: Request permission to travel
 description: Before booking travel in a travel management system, request permission for your trip. Your manager or a travel approver can approve or reject your request based on infectious diseases, such as COVID-19 case data and a site safety evaluation for your destination.Before booking travel in a travel management system, follow these steps to request permission for your trip.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-travel-safety/ets-request-travel.html
 release: zurich
 product: Employee Travel Safety
 classification: employee-travel-safety
@@ -27,7 +28,7 @@ Use the following process when requesting permission to travel:
 6.  Travel requesters can check the status of their requests on the **Requests** tab in the service portal or the ESC.
 7.  Managers or approval team members can view employee travel requests from the **Employee Travel Safety** form.
 
-**Parent Topic:**[Employee Travel Safety](employee-travel-safety.md)
+**Parent Topic:**[Employee Travel Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-travel-safety/employee-travel-safety.md)
 
 ## Create a request to travel
 
@@ -62,7 +63,7 @@ Role required: none
 
     When you submit the travel request, an email may be sent to your primary contact for the visit if your company has enabled this feature. The email notifies your contact about your intent to travel and asks them to verify the site safety and policy compliance.
 
-    ![Travel request submission page.](../image/travel-req-submit.png)
+    \[Omitted image "travel-req-submit.png"\] Alt text: Travel request submission page.
 
 
 ### What to do next

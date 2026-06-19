@@ -2,6 +2,7 @@
 title: Managing workplace shifts that you own
 description: Review the workplace shifts that you own in Workplace Core and update the shift details if necessary. You can also monitor the reservations and requests made for the workspaces associated with these shifts.Review and modify the details of the workplace shifts that you own in Workplace Core. You can modify the general shift details, and add or remove employees or workplaces associated with the shift.Review the workplace reservations and the reservation requests made for the shifts that you own in Workplace Core. You can identify pending requests and work with your workplace manager to resolve them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/managing-shifts-you-own.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace

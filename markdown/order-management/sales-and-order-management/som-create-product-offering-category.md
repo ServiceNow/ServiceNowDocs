@@ -2,6 +2,7 @@
 title: Create a product offering category
 description: Define a product offering category used to organize similar product offerings in a catalog. Product categories make it easier for agents to browse and navigate product offerings when creating opportunities, quotes, and orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/som-create-product-offering-category.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sn\_prd\_pm\_product\_catalog\_admin and sn\_prd\_pm\_product\_ca
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![image.Lists] view.
+1.  In the CSM Configurable Workspace, select the **List** view.
 
 2.  Navigate to **Offerings** &gt; **Product Offering Categories**.
 
@@ -140,5 +141,5 @@ Product code for the category. The system automatically generates a code based o
 
 ## What to do next
 
-[Create product offerings](som-create-product-offering.md).
+[Create product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-create-product-offering.md).
 

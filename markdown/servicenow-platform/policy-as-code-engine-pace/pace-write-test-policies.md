@@ -2,6 +2,7 @@
 title: How to write and test custom PaCE policies
 description: This section provides guidelines on how to write and test PaCE policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/policy-as-code-engine-pace/pace-write-test-policies.html
 release: zurich
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

@@ -2,6 +2,7 @@
 title: Report an AI case form
 description: Use the Report an AI case form in the Anonymous Report Center to report an AI case with the necessary details. After you submit the AI case report, mandatory fields and input format are validated before submission.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/ai-risk-management/report-anon-ai-case-form.html
 release: zurich
 product: AI Risk Management
 classification: ai-risk-management
@@ -135,5 +136,5 @@ Text verification
 Enter the CAPTCHA verification code on the screen.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Report an AI case anonymously](../task/report-ai-case-anon.md)
+</table>**Parent Topic:**[Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md)
 

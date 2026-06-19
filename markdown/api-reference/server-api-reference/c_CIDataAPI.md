@@ -2,6 +2,7 @@
 title: CIData - Global
 description: The CIData script include is a utility class that provides methods for working with configuration item \(CI\) data structures in JavaScript.Creates an instance of the CIData class.Adds the specified related list to this instance.Converts the specified related list to a related list in a given sensor.Initializes the current CIData instance from the specified XML string.Gets the data map in the base CI record.Returns an array of data maps in the given many-to-many list \(to this CI\).Gets an array of maps of data in the given related list \(to this CI\).Returns the instance of CIRelatedList for the given list.Initializes this instance in preparation for loading a new CI.Loads the current data from a specified sys\_id.Converts the name of this CIData instance to a string.Returns an XML string containing a serialized version of this instance \(including any related lists\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_CIDataAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -21,11 +22,11 @@ Instances of this class represent a CI \(both its base record and any related li
 
 This class acts as a container for simple classes acting as maps of property name/value pairs. This class contains three kinds of such maps.
 
--   A single map representing the base CI table entry \(such as one row cmdb\_ci\_linux\_server and its superclasses\). You can retrieve this map using the [CIData - getData\(\)](c_CIDataAPI.md#) method.
--   Arrays of maps representing the instances of related lists, with each array representing a single related list and each element of such an array representing a single row of that related list. These arrays can be retrieved with the [CIData - getRelatedList\(String table, String refField\)](c_CIDataAPI.md#) method.
--   Arrays of maps representing the instances of many-to-many tables, with each array representing a single many-to-many table and each element of such an array representing a single row of that many-to-many table. These arrays can be retrieved with the [CIData - getM2MTable\(String table, String refField\)](c_CIDataAPI.md#) method.
+-   A single map representing the base CI table entry \(such as one row cmdb\_ci\_linux\_server and its superclasses\). You can retrieve this map using the [CIData - getData\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_CIDataAPI.md) method.
+-   Arrays of maps representing the instances of related lists, with each array representing a single related list and each element of such an array representing a single row of that related list. These arrays can be retrieved with the [CIData - getRelatedList\(String table, String refField\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_CIDataAPI.md) method.
+-   Arrays of maps representing the instances of many-to-many tables, with each array representing a single many-to-many table and each element of such an array representing a single row of that many-to-many table. These arrays can be retrieved with the [CIData - getM2MTable\(String table, String refField\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_CIDataAPI.md) method.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## CIData - CIData\(String debugFlag\)
 

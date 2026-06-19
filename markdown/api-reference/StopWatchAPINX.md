@@ -2,6 +2,7 @@
 title: StopWatch \(Next Experience\) - Client
 description: The StopWatch API provides methods to measure durations in the Next Experience UI Framework.Constructor to initialize a new StopWatch.Returns the elapsed time in milliseconds since the StopWatch started.Resets the StopWatch start time as the current date and time.Returns the elapsed time in ISO 8601 format \(HH:mm:ss.sss\) since the StopWatch started.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/StopWatchAPINX.html
 release: zurich
 product: API Reference
 classification: api-reference
@@ -17,9 +18,9 @@ The StopWatch API provides methods to measure durations in the Next Experience U
 
 |Name|Type|Description|
 |----|----|-----------|
-|started|[Date object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)|Start date and time for the StopWatch. This value is set when calling the constructor [StopWatch\(Object started\)](StopWatchAPINX.md#) or the [restart\(\)](StopWatchAPINX.md#) method.|
+|started|[Date object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)|Start date and time for the StopWatch. This value is set when calling the constructor [StopWatch\(Object started\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/StopWatchAPINX.md) or the [restart\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/StopWatchAPINX.md) method.|
 
-**Parent Topic:**[Client Next Experience API reference](../../../../../build/applications/concept/api-client-next.md)
+**Parent Topic:**[Client Next Experience API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/api-client-next.md)
 
 ## StopWatch \(Next Experience\) - StopWatch\(Object started\)
 

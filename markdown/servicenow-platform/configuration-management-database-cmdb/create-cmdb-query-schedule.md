@@ -2,6 +2,7 @@
 title: Schedule a CMDB query
 description: Schedule a saved CMDB query to run once at a scheduled time or on a recurring schedule, and to email the query results to specified users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/create-cmdb-query-schedule.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -153,7 +154,7 @@ Type
 
 </td><td>
 
-File format to use for the query results.**Note:** [Configure the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) to add this field to the form.
+File format to use for the query results.**Note:** Configure the form layout to add this field to the form.
 
 </td></tr></tbody>
 </table>

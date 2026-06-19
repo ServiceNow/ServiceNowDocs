@@ -2,11 +2,12 @@
 title: Use the MSIM Conference Call Microsoft Teams integration
 description: The following steps give you a walkthrough of how you can manage and initiate a Microsoft Teams conference call directly from a major security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/using-conf-call-ms-teams-integration.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Integrate MSIM Conference Calls with Microsoft Teams, Major Security Incident Management Conference Call Integration, Integrate, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -27,7 +28,7 @@ Role required: sn\_msi.workspace\_manager
 
 3.  Select the **Start a conference call** action.
 
-4.  You can also start a conference call by selecting the ![Conference call](../image/msim-conf-call-icon.png) icon on the right-context menu and selecting the + icon.
+4.  You can also start a conference call by selecting the \[Omitted image "msim-conf-call-icon.png"\] Alt text: Conference call icon on the right-context menu and selecting the + icon.
 
     The Start conference call pop-up appears.
 
@@ -35,7 +36,7 @@ Role required: sn\_msi.workspace\_manager
 
 6.  In the Title field, provide a title that describes the reason for the Microsoft Teams conference call.
 
-    ![Steps to start a conference call using Microsoft Teams](../image/msim-conf-calls-teams.png "Using the Conference Call Microsoft Teams integration")
+    \[Omitted image "msim-conf-calls-teams.png"\] Alt text: Steps to start a conference call using Microsoft Teams
 
 7.  In the Add participants field, select the participants for the Microsoft Teams conference call.
 
@@ -57,12 +58,10 @@ Role required: sn\_msi.workspace\_manager
 
     The participants can use the link from the MSIM email notification or the notification from the Microsoft Teams app to join the call.
 
-    ![MSIM email notification for the Microsoft Teams conference call](../image/msim-conf-teams-email.png "Email notification")
-
 11. Open the associated major security incident in the MSIM workspace to view the conference call details.
 
     When the final participant leaves the call, the conference call ends or select **End call** in the Conference call section to end the conference call.
 
 
-**Parent Topic:**[Integrate MSIM Conference Calls with Microsoft Teams](../concept/integrate-msim-conf-call-ms-teams.md)
+**Parent Topic:**[Integrate MSIM Conference Calls with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/integrate-msim-conf-call-ms-teams.md)
 

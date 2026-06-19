@@ -2,7 +2,10 @@
 title: Customize a guidance preview experience in the UI Builder
 description: Customize a preview of a Recommended Actions card that displays in the contextual side panel using UI Builder. The preview experience includes a hint, an icon, a message, and an action button.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customize-ra-preview-experience.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 4
@@ -106,11 +109,11 @@ You begin by creating a UI page variant of a guidance preview experience. When y
 
 4.  Select **Edit preview in UI Builder**.
 
-    The UI page variant opens in UI Builder, where you can add and configure components to customize the look and feel of the preview experience. For more information, see [Working with components in the UI Builder](https://www.servicenow.com/docs/access?context=work-components&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+    The UI page variant opens in UI Builder, where you can add and configure components to customize the look and feel of the preview experience. For more information, see Working with components in the UI Builder.
 
 5.  Bind the preview experience properties to your preview UI.
 
-    Data bindings are in the **Config** tab of the configuration panel in UI Builder. For more information, see [Data resources in UI Builder](https://www.servicenow.com/docs/access?context=data-resources&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+    Data bindings are in the **Config** tab of the configuration panel in UI Builder. For more information, see Data resources in UI Builder.
 
 6.  Add and bind scripts to components in your preview UI to dispatch events by using an event handler to execute or skip a recommendation with a corresponding payload.
 
@@ -228,6 +231,6 @@ api.emit(LOG_SEARCH_RESULT_EVENT, {actionData: {actionName: actionId}})
 ```
 
 </td></tr></tbody>
-</table>    For more information, see [Define and bind client scripts to components](https://www.servicenow.com/docs/access?context=define-client-scripts&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+</table>    For more information, see Define and bind client scripts to components.
 
 

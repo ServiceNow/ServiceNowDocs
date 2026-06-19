@@ -2,6 +2,7 @@
 title: Create a custom pull connector
 description: You can create a customized pull connector that requires a script, connector definition, and connector instance, to retrieve events on behalf of an event source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/t\_EMCreateCustomConnectorDefinition.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -25,7 +26,7 @@ A custom connector script can make remote API calls for a new event source to se
 
 -   Connect to an event monitoring tool.
 -   Retrieve events from an event monitoring tool.
--   Send events to the Event \[em\_event\] table using a web service API. See [REST API](https://www.servicenow.com/docs/access?context=c_RESTAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+-   Send events to the Event \[em\_event\] table using a web service API. See REST API.
 
 Each connector definition is specific to an event source vendor. The connector definition specifies the MID Server script include that pulls events from the external event source. In addition, the connector definition specifies what connector instance value parameters are needed to connect to the external event source host.
 
@@ -128,7 +129,7 @@ Each connector definition is specific to an event source vendor. The connector d
 
     The **Javascript to run** field is automatically populated with the name of the JavaScript template file.
 
-11. To edit the default JavaScript file, click the information icon \(![Information icon](../image/information_icon.png)\) to the right of the JavaScript file name and follow these steps:
+11. To edit the default JavaScript file, click the information icon \(\[Omitted image "information\_icon.png"\] Alt text: Information icon\) to the right of the JavaScript file name and follow these steps:
 
     1.  Specify the information required for the **testConnection** function.
 
@@ -214,5 +215,5 @@ The MID Server name to process events from the event server. If not specified, a
 </table>14. Click **Submit**.
 
 
-**Parent Topic:**[Configure Event Management connectors](../reference/connectors-and-listeners.md)
+**Parent Topic:**[Configure Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/connectors-and-listeners.md)
 

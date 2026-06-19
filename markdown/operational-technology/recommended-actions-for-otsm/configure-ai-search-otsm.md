@@ -2,6 +2,7 @@
 title: Configure AI Search for Operational Technology Service Management
 description: Configure AI Search for Recommended Actions for Operational Technology Service Management \(OTSM\) to enable intelligent query features that help you quickly find the answers you need for OT incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/recommended-actions-for-otsm/configure-ai-search-otsm.html
 release: zurich
 product: Recommended Actions for OTSM
 classification: recommended-actions-for-otsm
@@ -21,11 +22,11 @@ Role required: admin
 
 ## About this task
 
-For Operational Technology Service Management users, you must define the OT incident \[sn\_ot\_incident\] table as an indexed source in order to use AI Search for OT incident records. For more information about indexing, see [Indexed sources in AI Search](https://www.servicenow.com/docs/access?context=indexed-sources-ais&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For Operational Technology Service Management users, you must define the OT incident \[sn\_ot\_incident\] table as an indexed source in order to use AI Search for OT incident records. For more information about indexing, see .
 
 **Note:** Knowledge \[kb\_knowledge\] is also used as an indexed source for Recommended Actions for OTSM, but Knowledge is already indexed.
 
-To define indexed sources, you can use the Guided Setup for AI Search. The following procedure describes how to access the **Define indexed sources** task. For more information about the Guided Setup for AI Search, see [Configuring AI Search](https://www.servicenow.com/docs/access?context=configuring-ais&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+To define indexed sources, you can use the Guided Setup for AI Search. The following procedure describes how to access the **Define indexed sources** task. For more information about the Guided Setup for AI Search, see .
 
 ## Procedure
 
@@ -40,5 +41,5 @@ To define indexed sources, you can use the Guided Setup for AI Search. The follo
 5.  Select the **Index Selected Table/s** button.
 
 
-**Parent Topic:**[Configuring Recommended Actions for Operational Technology Service Management \(OTSM\)](../../operational-technology-recommended-actions/concept/configuring-recommended-actions-otsm.md)
+**Parent Topic:**[Configuring Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/recommended-actions-for-otsm/configuring-recommended-actions-otsm.md)
 

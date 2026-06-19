@@ -2,6 +2,7 @@
 title: Contract Management Pro
 description: The ServiceNow Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendment requests. It also supports Now Assist driven contract analysis and metadata extraction, e-signatures, wet signatures, and external storage systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-cmpro-landing-page.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -22,33 +23,33 @@ With Contracts Dashboard, you can analyze the various contract request trends an
 
 The following video provides an overview of Contract Management Pro.Video providing an overview of Contract Management Pro and its capabilities. Approximately four minutes long. 
 
-![An overview diagram of the various stages of Contract Management Pro.](../image/mmasset0021176-final-clm.png "Contract Management Pro")
+\[Omitted image "mmasset0021176-final-clm.png"\] Alt text: An overview diagram of the various stages of Contract Management Pro.
 
 ## Get started
 
 <table id="table_iwv_lpv_klb" class="nav-card presentation"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about the features and benefits of Contract Management Pro](cncore-expl-cmpro.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about the features and benefits of Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-expl-cmpro.md)
 
 </td><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Install and configure Contract Management Pro](cncore-config-cmpro.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Install and configure Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-config-cmpro.md)
 
 </td><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg) Use Contract Management Pro to submit contract requests, manage document templates and clauses, request signatures, and use external storage](cncore-use-cmpro.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use Contract Management Pro to submit contract requests, manage document templates and clauses, request signatures, and use external storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 
 </td></tr><tr><td>
 
-[Manage ![](../../../reuse/icons/brand-icons/bus-management-console.svg) Manage contract templates and contracts](cncore-manage-cmpro.md)
+[Manage \[Omitted image "bus-management-console.svg"\] Alt text: Manage contract templates and contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-manage-cmpro.md)
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about components, such as roles, tables, plugins, and store applications, that are installed](cncore-ref.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components, such as roles, tables, plugins, and store applications, that are installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-ref.md)
 
 </td><td>
 
-[Analytics and Reporting ![](../../../reuse/icons/brand-icons/bus-performance-forecasting-2.svg) Coordinate work and improve processes with preconfigured dashboards](../../../use/application-content-packs/concept/cncore-analytics-pa.md)
+[Analytics and Reporting \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: Coordinate work and improve processes with preconfigured dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-analytics-pa.md)
 
 </td></tr><tr><td>
 
@@ -56,7 +57,7 @@ The following video provides an overview of Contract Management Pro.Video provid
 
 </td><td>
 
-[Now Assist in Contract Management![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Use Now Assist in Contract Management to enhance user productivity using generative AI](cncore-now-assit-landing.md)
+[Now Assist in Contract Management\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use Now Assist in Contract Management to enhance user productivity using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)
 
 </td><td>
 
@@ -67,15 +68,15 @@ The following video provides an overview of Contract Management Pro.Video provid
 
 Some ServiceNow resources that can provide you with helpful information are:
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-docs.svg) Release Notes**
+-   **\[Omitted image "dcx-icon-docs.svg"\] Release Notes**
 
-    Learn more about what's new and changed. See the [Contract Management Pro release notes](https://www.servicenow.com/docs/access?context=cmpro-rn&version=zurich&pubname=zurich-release-notes&ft:locale=en-US).
+    Learn more about what's new and changed. See the .
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-community.svg)ServiceNow Community**
+-   **\[Omitted image "dcx-icon-community.svg"\]ServiceNow Community**
 
     Connect with other Contract Management Pro users at [ServiceNow Community](https://www.servicenow.com/community/legal-service-delivery/ct-p/legal-service-delivery).
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-learning.svg) ServiceNow University**
+-   **\[Omitted image "dcx-icon-learning.svg"\] ServiceNow University**
 
     Access real-time courses, self-paced training, and career resources from [ServiceNow University](https://learning.servicenow.com/lxp/en/general/contract-management-pro-cmp-implementation-bootcamp-on-demand?id=learning_course_prev&course_id=87e103898707d21c3a3a84c7cebb35d9).
 

@@ -2,6 +2,7 @@
 title: View Inbound API Integration Usage dashboard
 description: The Inbound API Integration Usage dashboard enables you to view statistics for requestors and their API calls. Filter data by application or resource requested.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/view-inbound-api-integration-usage-dashboard.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -32,9 +33,9 @@ Role required: inbound\_integration\_metering\_admin
 
 ## Result
 
-![Inbound API Integration Usage by Application, Requestor, and Resource](../image/inbound-api-usage-by-app.png)
+\[Omitted image "inbound-api-usage-by-app.png"\] Alt text: Inbound API Integration Usage by Application, Requestor, and Resource
 
 The metrics for the applications and requestors that you selected display in the dashboard.
 
-**Parent Topic:**[Monitor inbound API integration usage](inbound-api-integration-usage-dashboard.md)
+**Parent Topic:**[Monitor inbound API integration usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/inbound-api-integration-usage-dashboard.md)
 

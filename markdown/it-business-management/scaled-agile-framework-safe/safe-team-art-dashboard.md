@@ -2,6 +2,7 @@
 title: SAFe Team Dashboard
 description: Visually analyze how a team is progressing on stories over a given period. Gain insight on the overall velocity of the team and helps you plan the team's capacity for the upcoming sprints and program increments \(PIs\). In addition, this dashboard provides details of all the team members.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scaled-agile-framework-safe/safe-team-art-dashboard.html
 release: zurich
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -15,15 +16,15 @@ breadcrumb: [Performance Analytics Content Pack for Essential SAFe, Scaled Agile
 
 Visually analyze how a team is progressing on stories over a given period. Gain insight on the overall velocity of the team and helps you plan the team's capacity for the upcoming sprints and program increments \(PIs\). In addition, this dashboard provides details of all the team members.
 
-![Work item progress tab of SAFe Team dashboard](../image/safe-team-wip-tab.png "Work item progress tab")
+\[Omitted image "safe-team-wip-tab.png"\] Alt text: Work item progress tab of SAFe Team dashboard
 
-![Sprint performance tab of SAFe Team dashboard](../image/safe-team-sprint-variance.png "Sprint Performance tab")
+\[Omitted image "safe-team-sprint-variance.png"\] Alt text: Sprint performance tab of SAFe Team dashboard
 
-![Team members tab of SAFe Team dashboard](../image/safe-team-list.png "Team Members tab")
+\[Omitted image "safe-team-list.png"\] Alt text: Team members tab of SAFe Team dashboard
 
-![Cycle Time tab of SAFe Team dashboard](../image/safe-team-cycle-time.png "Cycle Time tab")
+\[Omitted image "safe-team-cycle-time.png"\] Alt text: Cycle Time tab of SAFe Team dashboard
 
-![Program Predictability tab of SAFe Team dashboard](../image/safe-team-program-predictability.png "Program Predictability")
+\[Omitted image "safe-team-program-predictability.png"\] Alt text: Program Predictability tab of SAFe Team dashboard
 
 ## End user and roles
 
@@ -55,7 +56,7 @@ The Team Dashboard visualizations are segregated into the following tabs:
 -   Sprint Performance: Reports of Velocity History and Sprint Variance
 -   Team Members: List of all the members of the team
 
-    **Note:** For existing customers who upgrade to the latest version, the list of the team members appears in both the Work item progress and Team Members tabs but only one of these locations would display the accurate information. You can remove this widget from the Work item progress tab to avoid this issue. For more information on how to remove a widget, see [Edit a responsive dashboard](https://www.servicenow.com/docs/access?context=t_EditADashboard&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+    **Note:** For existing customers who upgrade to the latest version, the list of the team members appears in both the Work item progress and Team Members tabs but only one of these locations would display the accurate information. You can remove this widget from the Work item progress tab to avoid this issue. For more information on how to remove a widget, see Edit a responsive dashboard.
 
 -   Cycle Time: Report of the story cycle for the team.
 -   Program Predictability: Report of the team's historical performance in meeting the PI objectives.
@@ -67,7 +68,7 @@ If you are upgrading from version 1.0.2 or earlier of Performance Analytics Cont
 -   Sprint Variance
 -   Story Cycle Time
 
-For more information, see [Using Solution Library for Essential SAFe dashboards](../reference/using-solution-library-for-essential-safe-dashboards.md).
+For more information, see [Using Solution Library for Essential SAFe dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/using-solution-library-for-essential-safe-dashboards.md).
 
 <table id="table_xvt_hl4_2fb"><thead><tr><th>
 
@@ -87,7 +88,7 @@ Active Stories By State
 
 </td><td>
 
-Bar chart![](../../reporting/image/inline-data-vis-96px-bar-vertical.png)
+Bar chart\[Omitted image "inline-data-vis-96px-bar-vertical.png"\] Alt text:
 
 </td><td>
 
@@ -99,7 +100,7 @@ Time in State
 
 </td><td>
 
-Bar chart![](../../reporting/image/inline-data-vis-96px-bar-vertical.png)
+Bar chart\[Omitted image "inline-data-vis-96px-bar-vertical.png"\] Alt text:
 
 </td><td>
 
@@ -111,7 +112,7 @@ Average Cycle Time per State
 
 </td><td>
 
-Line chart ![](../../reporting/image/inline-data-vis-96px-line.png)
+Line chart \[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
 
 </td><td>
 
@@ -138,7 +139,7 @@ Velocity History
 
 Grouped bar chart
 
- ![](../../reporting/image/inline-data-vis-96px-bar-column.png)
+ \[Omitted image "inline-data-vis-96px-bar-column.png"\] Alt text:
 
 </td><td>
 
@@ -160,7 +161,7 @@ Velocity by Type
 
 Stacked bar chart
 
- ![](../../reporting/image/inline-data-vis-96px-bar-vertical.png)
+ \[Omitted image "inline-data-vis-96px-bar-vertical.png"\] Alt text:
 
 </td><td>
 
@@ -175,7 +176,7 @@ Analyze the way your team's velocity changes over time and compare the team's st
 
  Data displayed in this report is of the past 10 sprints with the earliest sprint on the left.
 
- **Note:** This report is not available by default. You can add it from Scrum custom charts to your dashboard. For more information, see [Edit a responsive dashboard](https://www.servicenow.com/docs/access?context=t_EditADashboard&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+ **Note:** This report is not available by default. You can add it from Scrum custom charts to your dashboard. For more information, see Edit a responsive dashboard.
 
 </td></tr><tr><td>
 
@@ -185,7 +186,7 @@ Sprint Variance
 
 Grouped bar chart
 
- ![](../../reporting/image/inline-data-vis-96px-bar-column.png)
+ \[Omitted image "inline-data-vis-96px-bar-column.png"\] Alt text:
 
 </td><td>
 
@@ -215,7 +216,7 @@ Team Members
 
 </td><td>
 
-List![](../../reporting/image/inline-data-vis-96px-list.png)
+List\[Omitted image "inline-data-vis-96px-list.png"\] Alt text:
 
 </td><td>
 
@@ -240,7 +241,7 @@ Story Cycle Time
 
 </td><td>
 
-Bubble chart![](../../reporting/image/inline-data-vis-96px-bubble.png)
+Bubble chart\[Omitted image "inline-data-vis-96px-bubble.png"\] Alt text:
 
 </td><td>
 
@@ -261,7 +262,7 @@ Identify the time taken for each story, which the team has worked on, to move fr
 
  If there are too many stories at any area of the chart and the bubbles appear crowded on the report, you can zoom in that particular area for a clearer view.
 
- ![Cycle Time Zoom](../image/cycle-time-zoom.gif)
+ \[Omitted image "cycle-time-zoom.gif"\] Alt text: Cycle Time Zoom
 
  **Note:** The stories shown in this chart are the ones that the team has completed in the past 30 days.
 
@@ -284,7 +285,7 @@ Team: Program Predictability
 
 </td><td>
 
-Line chart![](../../reporting/image/inline-data-vis-96px-line.png)
+Line chart\[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
 
 </td><td>
 
@@ -294,7 +295,7 @@ Track the historical performance of the team on achieving their PI objectives.
 
  The horizontal axis shows the completed PIs and the vertical axis shows the range of business value achieved in percentage \(%\).
 
- Each series is the representation of the business value achieved, which is calculated from the planned and actual business values of the PI objectives. For more information, see [SAFe PI objectives](../../../product/agile-SAFe/concept/safe-pi-objectives.md).
+ Each series is the representation of the business value achieved, which is calculated from the planned and actual business values of the PI objectives. For more information, see [SAFe PI objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/safe-pi-objectives.md).
 
  From the chart, you can if the team is consistently achieving between 80% and 100% of the set PI objectives, which is the ideal range according to SAFe.
 
@@ -312,5 +313,5 @@ The objectives shown in this list are only for the selected team.
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](pa-content-pack-essential-safe.md)
+</table>**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/pa-content-pack-essential-safe.md)
 

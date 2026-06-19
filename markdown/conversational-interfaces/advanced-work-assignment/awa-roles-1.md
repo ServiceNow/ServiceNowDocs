@@ -2,6 +2,7 @@
 title: AWA administrator \[awa\_admin\]
 description: The AWA administrator configures and manages AWA.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/awa-roles-1.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -35,5 +36,5 @@ None.
 
 **Note:** Avoid granting an admin role when more specialized roles are available.
 
-**Parent Topic:**[Advanced Work Assignment roles](awa-roles.md)
+**Parent Topic:**[Advanced Work Assignment roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-roles.md)
 

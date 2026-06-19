@@ -2,6 +2,7 @@
 title: Quick start tests for Integration Commons for CMDB
 description: Validate that integrations for CMDB pass validation and still work after you make any configuration changes such as applying an upgrade or developing an application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/cmdb-integration-commons/quick-start-tests-integration-commons.html
 release: zurich
 product: CMDB Integration Commons
 classification: cmdb-integration-commons
@@ -17,7 +18,7 @@ Validate that integrations for CMDB pass validation and still work after you mak
 
 **Danger**
 
-By default, the system property that is used to run automated tests is disabled to prevent you from accidentally running these tests on a production system. To avoid data corruption or an outage, run tests only on development, test, and other non-production instances. See [Enable or disable executing Automated Test Framework tests](https://www.servicenow.com/docs/access?context=atf-enable-tests&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+By default, the system property that is used to run automated tests is disabled to prevent you from accidentally running these tests on a production system. To avoid data corruption or an outage, run tests only on development, test, and other non-production instances. See Enable or disable executing Automated Test Framework tests.
 
 ## Integration Commons for CMDB
 
@@ -36,10 +37,10 @@ By default, the system property that is used to run automated tests is disabled 
 |CMDB INT: Validate Related Entries|Validate all related classes against the data dictionary for related entries.|Paris|
 |CMDB INT: Validate Relationships|Validate CMDB integration relationships.|Paris|
 
-To learn more about Integration Commons for CMDB, see [Integration Commons for CMDB](../../../product/configuration-management/concept/integration-commons-for-cmdb.md).
+To learn more about Integration Commons for CMDB, see [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
 
 **Related topics**  
 
 
-[Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+[bundle-cadev.quick-start-tests]
 

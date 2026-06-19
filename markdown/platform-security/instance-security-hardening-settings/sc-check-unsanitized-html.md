@@ -2,6 +2,7 @@
 title: Enforce HTML Sanitization \[Updated in Security Center 1.3\]
 description: Use the com.glide.security.check\_unsanitized\_html property to enforce sanitization behavior of translated\_html fields on a global level for field assignments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-check-unsanitized-html.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -28,7 +29,7 @@ HTML is one of the types that can be assigned to the dictionary fields. Assignin
 |---------|-----------|
 |Property name|**com.glide.security.check\_unsanitized\_html**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Validation, sanitization, and encoding](validation-sanitization-encoding.md)|
+|Category|[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)|
 |Purpose|Prevents the use of insecure HTML tags to protect against attacks such as cross-site scripting.|
 |Type|String|
 |Recommended value|enforce|
@@ -36,7 +37,7 @@ HTML is one of the types that can be assigned to the dictionary fields. Assignin
 |Security risk rating|7.3|
 |Functional impact|This remediation enforces HTML sanitization to occur on the UI and renders translated html fields to the user. It can have an impact on readability and formatting.|
 |Security risk|\(High\) Input validation must occur on the application to defend against cross-site scripting attacks. These attacks enable foreign scripts to execute on user sessions in the logged in browser's context. Attackers can use it to steal session information and sensitive data.|
-|References|[HTML sanitizer](../../security/concept/c_HTMLSanitizer.md)|
+|References|[HTML sanitizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/c_HTMLSanitizer.md)|
 
-**Parent Topic:**[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

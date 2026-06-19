@@ -2,6 +2,7 @@
 title: Add or remove content approvers
 description: A content admin can modify the content approvers list for a request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ec-content-gov-approval.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation

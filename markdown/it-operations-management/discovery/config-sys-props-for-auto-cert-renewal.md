@@ -2,6 +2,7 @@
 title: Configure System Properties for automatic certificate renewal
 description: Enable the auto-renewal options in your System Properties to configure your system to renew automatically Transport Layer Security \(TLS\) certificates before they expire.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/config-sys-props-for-auto-cert-renewal.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -17,7 +18,7 @@ Enable the auto-renewal options in your System Properties to configure your syst
 
 ## Before you begin
 
-Check that you have completed the tasks, [Configure your MID Server for automatic certificate renewal](configure-mid-server-automatic-cert-renewal.md), and [Add the required applications and capabilities to your MID Server](add-req-apps-capabilities-to-mid-server.md).
+Check that you have completed the tasks, [Configure your MID Server for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/configure-mid-server-automatic-cert-renewal.md), and [Add the required applications and capabilities to your MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.md).
 
 Role required: pki\_admin or admin
 
@@ -42,5 +43,5 @@ Your system is configured to renew automatically certificates before they expire
 
 ## What to do next
 
-You can [Set a certificate to renew automatically](set-certificate-to-renew-automatically.md) or use the [Now Assist certificate renewal AI agent](../../it-operations-management/concept/now-assist-cert-renewal-ai-agent.md).
+You can [Set a certificate to renew automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/set-certificate-to-renew-automatically.md) or use the [Now Assist certificate renewal AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-cert-renewal-ai-agent.md).
 

@@ -2,6 +2,7 @@
 title: List UI actions test steps
 description: Select a UI action from a list to perform different actions on a list or a related list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/atf-list-ui-actions-test-step.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -15,27 +16,27 @@ breadcrumb: [Building and running automated tests with the Automated Test Framew
 
 Select a UI action from a list to perform different actions on a list or a related list.
 
-You can create a new UI action of the following types. See [Create a UI action](https://www.servicenow.com/docs/access?context=t_EditingAUIAction&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) for more information.
+You can create a new UI action of the following types. See Create a UI action for more information.
 
 -   **List banner button**: Creates a button on the banner of a list.
 
-    ![Image showing the list banner button](../image/atf-list-banner-button.png "List banner button")
+    \[Omitted image "atf-list-banner-button.png"\] Alt text: Image showing the list banner button
 
 -   **List bottom button**: Creates a button at the bottom of the list.
 
-    ![Image showing list bottom button](../image/atf-bottom-button.png "List bottom button")
+    \[Omitted image "atf-bottom-button.png"\] Alt text: Image showing list bottom button
 
 -   **List context menu**: Adds an option to the context menu of the list.
 
-    ![Image showing the UI action in the context menu](../image/atf-list-context-menu.png "List context menu")
+    \[Omitted image "atf-list-context-menu.png"\] Alt text: Image showing the UI action in the context menu
 
 -   **List choice**: Adds an option to the list choice at the bottom of the list. You need to select one or more tests to enable the recently added list choice.
 
-    ![Image showing the added option in the list](../image/atf-list-choice.png "List choice")
+    \[Omitted image "atf-list-choice.png"\] Alt text: Image showing the added option in the list
 
 -   **List link**: Adds a link to the **Related Links** list.
 
-    ![Image showing the links added to the Related Links list](../image/atf-list-link.png "List link")
+    \[Omitted image "atf-list-link.png"\] Alt text: Image showing the links added to the Related Links list
 
 
 ## Design considerations
@@ -47,5 +48,5 @@ You can create a new UI action of the following types. See [Create a UI action](
 -   Identify the specific record if you have selected **Single record** to apply the UI action.
 -   For the **Timeout** field to appear, select **Page reloaded or redirected** as the **Assert** type.
 
-**Parent Topic:**[Building and running automated tests with the Automated Test Framework](atf-build-overview.md)
+**Parent Topic:**[Building and running automated tests with the Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-build-overview.md)
 

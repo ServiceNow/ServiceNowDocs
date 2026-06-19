@@ -2,6 +2,7 @@
 title: Create process mining project for security incidents
 description: Create a project in Process Mining Workspace using the pre-build process models definitions from the content pack to scan through audit logs of security incident records and identify inefficiencies in your security incident life cycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/create-proj-proc-min-sir.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -25,7 +26,7 @@ Role required: sn\_process\_optimization\_analyst and sn\_si\_read
 
 2.  Select **Create New Project**.
 
-    The **Step objectives** page opens.![Create a process mining project](../image/create-proc-min-proj-sir.png)
+    The **Step objectives** page opens.\[Omitted image "create-proc-min-proj-sir.png"\] Alt text: Create a process mining project
 
 3.  Enter a process mining project name in **Name**.
 
@@ -39,13 +40,13 @@ Role required: sn\_process\_optimization\_analyst and sn\_si\_read
 
     The project dashboard appears with all the configured settings.
 
-8.  Select the edit \(![Edit icon](../image/icon-edit.png)\) icon corresponding to **Scope of the analysis** and configure the filters to set the number of records to mine.
+8.  Select the edit \(\[Omitted image "icon-edit.png"\] Alt text: Edit icon\) icon corresponding to **Scope of the analysis** and configure the filters to set the number of records to mine.
 
-    ![Process mining filter settings](../image/proc-min-filter-sir.png)
+    \[Omitted image "proc-min-filter-sir.png"\] Alt text: Process mining filter settings
 
 9.  Select **Select improvement opportunities** and configure the improvements for your security incidents.
 
-    A list of improvement opportunities displays. For information about configuring improvement opportunities, see [Working with improvement opportunities](https://www.servicenow.com/docs/access?context=working-with-imp-opp&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+    A list of improvement opportunities displays. For information about configuring improvement opportunities, see .
 
 10. Select **Review and mine** and then select **Mine project**.
 

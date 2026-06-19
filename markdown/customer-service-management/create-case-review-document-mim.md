@@ -2,7 +2,10 @@
 title: Create a post case review for a major case
 description: Create a post case review document for a resolved major case that captures the configured case information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-case-review-document-mim.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -27,19 +30,19 @@ You can create a post case review document for a resolved major case if the **sn
 
 1.  Open a major case in the **Resolved** state.
 
-2.  Complete steps 2 through 7 in the [Create a post case review](create-case-review-document.md) topic.
+2.  Complete steps 2 through 7 in the [Create a post case review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-case-review-document.md) topic.
 
 3.  Select one of the following options.
 
-<table id="choicetable_mg3_nhq_23b"><thead><tr><th align="left" id="d81105e87">
+<table id="choicetable_mg3_nhq_23b"><thead><tr><th align="left" id="d83183e87">
 
 Option
 
-</th><th align="left" id="d81105e90">
+</th><th align="left" id="d83183e90">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d81105e96">
+</th></tr></thead><tbody><tr><td id="d83183e96">
 
 **Publish to Case**
 
@@ -62,7 +65,7 @@ The system performs the following actions:1.  Syncs the child case PCR record wi
 3.  Adds a link to the PCR document to the **Additional Comments** field on the child case form.
 
 
-</td></tr><tr><td id="d81105e160">
+</td></tr><tr><td id="d83183e160">
 
 **Copy to Child Cases**
 

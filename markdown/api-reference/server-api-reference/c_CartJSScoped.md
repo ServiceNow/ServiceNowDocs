@@ -2,6 +2,7 @@
 title: CartJS - Scoped
 description: The CartJS API provides methods that enable you to access a user's shopping cart.Creates an instance of the CartJS class with the name of a defined cart for the user who is currently logged in.Adds the request for a catalog item to the current cart.Specifies if the current user has the required role to edit the Request for field.Performs the cart checkout. If the two-step checkout is enabled, returns the order summary. If the two-step checkout is disabled, the cart is submitted and details of the generated request are returned.Deletes the current cart.Returns the cart details.Returns the ID of the current cart.Returns a GlideRecord object containing records for items in the current cart.Returns the delivery address for the current cart.Returns the sys\_id of the user for whom the cart is requested.Returns the name of the user for whom the current cart is requested.Returns the special instructions for the current cart.Orders a single item. If two-step checkout is enabled, the method adds the specified item to the cart and returns the sys\_id of the cart. If two-step checkout is disabled, the method completes the purchase of the specified item and returns the sys\_id of the generated request.Sets the delivery address for the current cart.Sets the sys\_id in the sys\_user record of the user for whom the cart is requested.Sets the special instructions for the current cart.Updates special instructions, requested for, and delivery address from the request parameter and performs the cart checkout. Use this API to modify the mentioned parameters of the cart and perform the cart checkout simultaneously. Missing parameters in the request object will have their default value.Updates an item in the cart.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_CartJSScoped.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The CartJS API provides methods that enable you to access a user's shopping cart
 
 This API runs in the `sn_sc` namespace. The Service Catalog Scoped API plugin \(ID: com.glideapp.servicecatalog.scoped.api\) that is enabled by default is required to access the CartJS API.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## CartJS - CartJS\(String cartName\)
 

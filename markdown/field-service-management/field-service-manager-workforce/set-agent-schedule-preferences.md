@@ -2,6 +2,7 @@
 title: Allow agents to start traveling before their scheduled work hours
 description: Support flexible work types by allowing agents to start traveling before their scheduled work hours. For example, you may want to add travel time outside of an agent's scheduled work hours in case bad weather suddenly increases travel time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-manager-workforce/set-agent-schedule-preferences.html
 release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -33,15 +34,15 @@ Role required: wm\_dispatcher, wm\_manager, wm\_admin, or admin
 
 4.  To add or update user records, do one of the following.
 
-<table id="choicetable_pnx_tzm_vgb"><thead><tr><th align="left" id="d80077e126">
+<table id="choicetable_pnx_tzm_vgb"><thead><tr><th align="left" id="d78732e126">
 
 Option
 
-</th><th align="left" id="d80077e129">
+</th><th align="left" id="d78732e129">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d80077e135">
+</th></tr></thead><tbody><tr><td id="d78732e135">
 
 **Add a new record for this user**
 
@@ -54,7 +55,7 @@ Description
 5.  Click **Submit**.
 
 
-</td></tr><tr><td id="d80077e176">
+</td></tr><tr><td id="d78732e176">
 
 **Updated an existing record**
 

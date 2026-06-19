@@ -2,6 +2,7 @@
 title: Create a custom AI Search experience for Virtual Agent conversations
 description: Define a custom AI Search experience in a conversation using the AI Search topic block. You create a Search Application Configuration used by the topic block to control the AI Search results returned in the conversation. Or you can use the Search Application Configuration to control AI Search results in a custom chat experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/create-va-aisearch-application.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Define a custom AI Search experience in a conversation using the AI Search topic
 
 ## Before you begin
 
-[Create the search profile](https://www.servicenow.com/docs/access?context=create-search-profile-ais&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) that defines the search experience to be used in the search application configuration. For details, see [Search profiles](https://www.servicenow.com/docs/access?context=defining-search-profiles-ais&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) and [Search application configurations](https://www.servicenow.com/docs/access?context=defining-search-app-cfgs-ais&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Create the search profile that defines the search experience to be used in the search application configuration. For details, see Search profiles and Search application configurations.
 
 Role required: virtual\_agent\_admin or admin with the search application administrator \[search\_application\_admin\] role
 
@@ -33,27 +34,27 @@ A search application configuration specifies the AI Search profile used by the R
 
 2.  On the form, fill in the fields.
 
-    For more information, see [Search Application Configuration form](https://www.servicenow.com/docs/access?context=search-app-config-form-ais&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For more information, see .
 
 3.  Select **Submit**.
 
 4.  Apply the custom Search Application Configuration to the AI Search topic block used in a conversation or to a custom chat experience.
 
-<table id="choicetable_csd_xws_wqb"><thead><tr><th align="left" id="d78817e169">
+<table id="choicetable_csd_xws_wqb"><thead><tr><th align="left" id="d57677e168">
 
 Option
 
-</th><th align="left" id="d78817e172">
+</th><th align="left" id="d57677e171">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d78817e178">
+</th></tr></thead><tbody><tr><td id="d57677e177">
 
 **Specify the custom Search Application Configuration in the AI Search topic block used in a conversation**
 
 </td><td>
 
-Add the AI Search topic block to a conversation topic. For details, see [Add a reusable topic block to a calling topic or topic block](add-topic-blocks-to-topic.md).1.  Navigate to **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer** and select the topic or [create a new topic](create-virtual-agent-topic.md).
+Add the AI Search topic block to a conversation topic. For details, see [Add a reusable topic block to a calling topic or topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/add-topic-blocks-to-topic.md).1.  Navigate to **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer** and select the topic or [create a new topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
 2.  In the Flow tab, drag the Topic Block utility onto the canvas.
 3.  Complete the Topic Block Properties sheet:
     -   In the **Topic Block** field, select AI Search.
@@ -67,17 +68,17 @@ If you leave this field empty, AI Search uses the default search application con
 
 The AI Search topic block runs the selected search application configuration to generate the customized AI Search experience.
 
-</td></tr><tr><td id="d78817e288">
+</td></tr><tr><td id="d57677e287">
 
 **Use the custom Search Application Configuration in a custom chat experience**
 
 </td><td>
 
-Create or update a custom chat experience that uses the Run AI Search topic block with the custom Search Application Configuration. For details on creating a custom experience, see [Configure a Virtual Agent chat experience](configure-default-chat-experience.md).
+Create or update a custom chat experience that uses the Run AI Search topic block with the custom Search Application Configuration. For details on creating a custom experience, see [Configure a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-default-chat-experience.md).
 
 </td></tr></tbody>
 </table>    Your custom Search Application Configuration is used in the AI Search topic block in a conversation or a custom chat experience to generate the customized AI Search experience.
 
 
-**Parent Topic:**[Improving the user experience with AI Search](../concept/va-ai-search.md)
+**Parent Topic:**[Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-ai-search.md)
 

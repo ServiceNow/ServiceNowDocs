@@ -2,6 +2,7 @@
 title: Create bot messages
 description: Create channel-specific bot messages.Use the bot messages API to implement channel-specific bot messages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/create-bot-messages.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -40,7 +41,7 @@ Role required: admin
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](../concept/va-features-custom-chat-integrations.md)
+**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-features-custom-chat-integrations.md)
 
 ## Bot message implementation
 

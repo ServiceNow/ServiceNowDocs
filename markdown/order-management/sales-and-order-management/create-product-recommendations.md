@@ -2,6 +2,7 @@
 title: Create a needs-based product offering recommendation
 description: Set the product offering to be used as a product recommendation for a needs template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/create-product-recommendations.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,7 +24,7 @@ Role required: sn\_prd\_pm.product\_catalog\_manager, sn\_prd\_pm.product\_catal
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![image.Lists] view.
+1.  In the CSM Configurable Workspace, select the **List** view.
 
 2.  Navigate to **Needs** &gt; **Needs Based Offering Recommendation** and select **New**.
 
@@ -42,5 +43,5 @@ Role required: sn\_prd\_pm.product\_catalog\_manager, sn\_prd\_pm.product\_catal
 
 ## What to do next
 
-[Create a decision tree for a needs template](configure-needs-decision-tree.md).
+[Create a decision tree for a needs template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/configure-needs-decision-tree.md).
 

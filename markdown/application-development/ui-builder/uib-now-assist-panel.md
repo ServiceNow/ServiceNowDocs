@@ -2,6 +2,7 @@
 title: Getting help with the Now Assist panel in UI Builder
 description: Get Now Assist's AI-driven guidance while working in UI Builder.Ask questions and get quick answers without leaving UI Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/uib-now-assist-panel.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -20,7 +21,7 @@ You can configure Conversational Help in the Now Assist panel to be accessible f
 
 Conversational Help answers questions based on product documentation, but cannot provide guidance specific to what you've configured in your instance.
 
-**Note:** You must install the Now Assist for Creator plugin in the Now Assist Admin console to use the Now Assist panel. For more information, see [Now Assist Admin console](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)
+**Note:** You must install the Now Assist for Creator plugin in the Now Assist Admin console to use the Now Assist panel. For more information, see Now Assist Admin console
 
 ## What to ask
 
@@ -31,9 +32,9 @@ Ask questions in the Now Assist panel to discover new features and learn how to 
 -   `Where can I find best practices and design considerations when using Next Experience Components on my page?`
 -   `How do I create a reusable page template?`
 
-For more information on the Now Assist panel, see [Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+For more information on the Now Assist panel, see Now Assist panel.
 
-**Parent Topic:**[Working in UI Builder](using-ui-builder.md)
+**Parent Topic:**[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/using-ui-builder.md)
 
 ## Get help with the Now Assist panel in UI Builder
 
@@ -54,13 +55,13 @@ Responses and outputs from Now Assist can vary, even when the same prompt is use
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create or open a page.
 
-4.  In the upper right, select the Now Assist icon ![](../image/uib-sparkle-icon.png) to open the Now Assist panel.
+4.  In the upper right, select the Now Assist icon \[Omitted image "uib-sparkle-icon.png"\] Alt text: to open the Now Assist panel.
 
-    **Tip:** The Now Assist panel opens in a pinned position by default, keeping it fixed on your screen. Select the pin icon ![](../image/uib-pin-icon.png)to make the panel movable. When unpinned, drag the panel freely across the workspace for greater flexibility and visibility.
+    **Tip:** The Now Assist panel opens in a pinned position by default, keeping it fixed on your screen. Select the pin icon \[Omitted image "uib-pin-icon.png"\] Alt text:to make the panel movable. When unpinned, drag the panel freely across the workspace for greater flexibility and visibility.
 
 5.  Enter your question or task in the text field.
 
@@ -68,7 +69,7 @@ Responses and outputs from Now Assist can vary, even when the same prompt is use
 
     Now Assist uses generative AI to provide immediate answers to your questions.
 
-    ![UI Builder editor with the Now Assist Now Assist panel open, showing a question and a response.](../image/uib-nap-result.png)
+    \[Omitted image "uib-nap-result.png"\] Alt text: UI Builder editor with the Now Assist Now Assist panel open, showing a question and a response.
 
 7.  Continue the conversation with follow-up questions as needed.
 

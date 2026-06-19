@@ -2,6 +2,7 @@
 title: Knowledge articles from problems
 description: Knowledge bases house the information an organization wants to keep and share. The Problem form includes four options for creating knowledge and communicating information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/problem-management/c\_CreateKnowledge.html
 release: zurich
 product: Problem Management
 classification: problem-management
@@ -15,7 +16,7 @@ breadcrumb: [Communicate, Problem Management, IT Service Management]
 
 Knowledge bases house the information an organization wants to keep and share. The Problem form includes four options for creating knowledge and communicating information.
 
-**Note:** If you have Problem Management Best Practice — Madrid — Knowledge Integration plugin \(com.snc.best\_practice.problem.madrid.knowledge\) activated, see [Create a known error article](../task/create-known-error-from-problem.md). The topic applies to legacy Problem \(London or a prior release\) only.
+**Note:** If you have Problem Management Best Practice — Madrid — Knowledge Integration plugin \(com.snc.best\_practice.problem.madrid.knowledge\) activated, see [Create a known error article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/create-known-error-from-problem.md). The topic applies to legacy Problem \(London or a prior release\) only.
 
 -   You can select the **Knowledge** check box and automatically submit a knowledge article when a problem is closed.
 -   You can enter a workaround note into a problem record, and then post the information into every associated incident.
@@ -24,10 +25,10 @@ Knowledge bases house the information an organization wants to keep and share. T
 
 By default, most new articles are created as drafts and move through a review state before they are published. An exception to the standard workflow is posting news from the Problem form.
 
-If the administrator enables the optional knowledge submission workflow, articles created from incidents or problems become knowledge submissions, which are processed through a different path. For more information, see [Knowledge workflows](https://www.servicenow.com/docs/access?context=r_KnowledgeWorkflows&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+If the administrator enables the optional knowledge submission workflow, articles created from incidents or problems become knowledge submissions, which are processed through a different path. For more information, see Knowledge workflows.
 
--   **[Use the knowledge check box](../task/t_UseTheKnowledgeCheckBox.md)**  
+-   **[Use the knowledge check box](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/t_UseTheKnowledgeCheckBox.md)**  
 As with incidents, problems often generate information that may be needed in the future. The system can automatically submit a knowledge article when a problem is closed.
 
-**Parent Topic:**[Communicating the outcome of a problem](communicate-outcome-of-problem.md)
+**Parent Topic:**[Communicating the outcome of a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/communicate-outcome-of-problem.md)
 

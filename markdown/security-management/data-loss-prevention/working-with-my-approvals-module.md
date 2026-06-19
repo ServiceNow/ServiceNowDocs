@@ -2,6 +2,7 @@
 title: Working with my approvals module
 description: My Approvals module will be available on DLP Users Workspace to the logged in users. Users can approve or reject the assign approval requests from here.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/data-loss-prevention/working-with-my-approvals-module.html
 release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -37,8 +38,8 @@ Role required:
 
     Approver can view the details of assigned request on the form view. By clicking the **Approve** or **Reject** action from the form view, one can approve or reject the Individual request.
 
-    **Note:** To view the DLP Incident details, click on ![Add icon - My approval rules](../image/dlp-my-info-approvals.png) info icon available on the **Approve** field.
+    **Note:** To view the DLP Incident details, click on \[Omitted image "dlp-my-info-approvals.png"\] Alt text: Add icon - My approval rules info icon available on the **Approve** field.
 
 
-**Parent Topic:**[Data Loss Prevention Incident Response User Workspace](../concept/using-dlp-end-user-portal.md)
+**Parent Topic:**[Data Loss Prevention Incident Response User Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/using-dlp-end-user-portal.md)
 

@@ -2,6 +2,7 @@
 title: Customize label for Goal and Target tables
 description: Customize the label for Goal \[sn\_gf\_goal\] and Target \[sn\_gf\_goal\_target\] tables according to your organization’s requirement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/customize-labels-for-goal-and-target-tables.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -29,15 +30,15 @@ When you rename the label for the Goal \[sn\_gf\_goal\] and Target \[sn\_gf\_goa
 
 2.  Customize the label name for the tables according to your requirement.
 
-<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d113268e89">
+<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d111517e89">
 
 For this table
 
-</th><th align="left" id="d113268e92">
+</th><th align="left" id="d111517e92">
 
 Perform these steps
 
-</th></tr></thead><tbody><tr><td id="d113268e98">
+</th></tr></thead><tbody><tr><td id="d111517e98">
 
 **Goal**
 
@@ -48,7 +49,7 @@ Perform these steps
 3.  Select **Update**.
 
 
-</td></tr><tr><td id="d113268e128">
+</td></tr><tr><td id="d111517e128">
 
 **Target**
 
@@ -61,5 +62,5 @@ Perform these steps
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configuring goals in Strategic Planning](../concept/configuring-goal-framework-apw.md)
+**Parent Topic:**[Configuring goals in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/configuring-goal-framework-apw.md)
 

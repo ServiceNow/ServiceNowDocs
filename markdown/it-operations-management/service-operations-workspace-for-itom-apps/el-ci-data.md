@@ -2,6 +2,7 @@
 title: View data on configuration items on the preview panel in Express List
 description: View additional details about configuration items \(CIs\) that are bound to alerts on the Express List preview panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/el-ci-data.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -23,7 +24,7 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the navigation bar, select the Express list icon: ![Express list icon](../../event-management/image/express-list1.png).
+2.  From the navigation bar, select the Express list icon: \[Omitted image "express-list1.png"\] Alt text: Express list icon.
 
 3.  In the **Active Alerts** list, select an alert check box.
 
@@ -31,7 +32,7 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 5.  Hover over the Configuration item name to display information icons.
 
-    ![Configuration item on the preview panel Info tab.](../image/el-ci-info.png)
+    \[Omitted image "el-ci-info.png"\] Alt text: Configuration item on the preview panel Info tab.
 
 6.  Display additional information on a CI by selecting the relevant icon.
 
@@ -49,7 +50,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-![Additional information icon.](../image/el-info-icon.png)
+\[Omitted image "el-info-icon.png"\] Alt text: Additional information icon.
 
 </td><td>
 
@@ -63,7 +64,7 @@ If metrics data exists for this service, you can open the Metric Explorer from t
 
 </td></tr><tr><td>
 
-![Contact information icon.](../image/el-contact-person-icon.png)
+\[Omitted image "el-contact-person-icon.png"\] Alt text: Contact information icon.
 
 </td><td>
 
@@ -74,10 +75,10 @@ Contact person/group
 Shows the name of the owner of the CI, the support group assigned to it, and avatars of the individual team members.
 
 </td></tr></tbody>
-</table>7.  Select the Additional information icon ![Additional information icon.](../image/el-info-icon.png) and then select **View CI topology**.![Configuration information additional information options.](../image/configuration-item-information.png)
+</table>7.  Select the Additional information icon \[Omitted image "el-info-icon.png"\] Alt text: Additional information icon. and then select **View CI topology**.\[Omitted image "configuration-item-information.png"\] Alt text: Configuration information additional information options.
 
     The **Dependency View** map opens. The map visually represents the relationships between CIs, helping you understand how different components are interconnected.
 
 
-**Parent Topic:**[Dependency View maps](../concept/dependency-maps.md)
+**Parent Topic:**[Dependency View maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/dependency-maps.md)
 

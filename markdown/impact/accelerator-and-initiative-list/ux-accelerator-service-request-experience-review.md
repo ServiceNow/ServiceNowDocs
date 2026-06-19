@@ -2,6 +2,7 @@
 title: UX: Catalog Request Experience Review
 description: This accelerator reviews the Impact customer’s Service Catalog, request forms  and form  design and identifies areas  of improvement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/ux-accelerator-service-request-experience-review.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

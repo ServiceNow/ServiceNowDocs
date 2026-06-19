@@ -2,13 +2,14 @@
 title: Human Resources agent dashboard
 description: The dashboard for HR Agents monitors caseloads to help stay on top of the backlog, enabling the HR Agent to provide a streamlined experience for the organization workforce.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/human-resources-agent-dashboard.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Scoped solutions, Performance Analytics for HR Service Delivery, Integrate with ServiceNow applications, HR Service Delivery, Employee Service Management]
+breadcrumb: [Dashboards, Performance Analytics for HR Service Delivery, Integrate with ServiceNow applications, HR Service Delivery, Employee Service Management]
 ---
 
 # Human Resources agent dashboard
@@ -17,7 +18,7 @@ The dashboard for HR Agents monitors caseloads to help stay on top of the backlo
 
 **Note:** This dashboard is available in the Human Resources Scoped App content pack.
 
-![The HR Agent dashboard showing interactive analyses](../../../product/human-resources-global/image/hr-agent.png)
+\[Omitted image "hr-agent.png"\] Alt text: The HR Agent dashboard showing interactive analyses
 
 ## End users and roles
 
@@ -56,13 +57,13 @@ The Human Resources Agent dashboard contains the following visualizations:
 
 |Title|Type|
 |-----|----|
-|Approvals Requested|Single Score ![Single-score icon](../../performance-analytics/image/single-score.png)|
-|My HR Open Backlog|List ![List icon3](../../performance-analytics/image/scorecard-icon.png)|
-|My Open Backlog|Single Score ![Single-score icon](../../performance-analytics/image/single-score.png)|
-|My Open Backlog Distribution|Horizontal bar ![Horizontal bar icon](../../performance-analytics/image/horizontal-bar.png)|
-|My SLA Breached Cases|Single Score ![Single-score icon](../../performance-analytics/image/single-score.png)|
-|Unassigned Cases|Single Score ![Single-score icon](../../performance-analytics/image/single-score.png)|
-|Unassigned Cases Distribution|Horizontal bar ![Horizontal bar icon](../../performance-analytics/image/horizontal-bar.png)|
+|Approvals Requested|Single Score \[Omitted image "single-score.png"\] Alt text: Single-score icon|
+|My HR Open Backlog|List \[Omitted image "scorecard-icon.png"\] Alt text: List icon3|
+|My Open Backlog|Single Score \[Omitted image "single-score.png"\] Alt text: Single-score icon|
+|My Open Backlog Distribution|Horizontal bar \[Omitted image "horizontal-bar.png"\] Alt text: Horizontal bar icon|
+|My SLA Breached Cases|Single Score \[Omitted image "single-score.png"\] Alt text: Single-score icon|
+|Unassigned Cases|Single Score \[Omitted image "single-score.png"\] Alt text: Single-score icon|
+|Unassigned Cases Distribution|Horizontal bar \[Omitted image "horizontal-bar.png"\] Alt text: Horizontal bar icon|
 
-**Parent Topic:**[HR Performance Analytics Dashboards](human-resources-content-pack.md)
+**Parent Topic:**[HR Performance Analytics Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/human-resources-content-pack.md)
 

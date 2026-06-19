@@ -2,6 +2,7 @@
 title: Use extension points for skill prediction in Workforce Optimization for HR
 description: Use scripted extension points to customize skill prediction for tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workforce-optimization-for-hr/use-extension-points-skill-wfo-hr.html
 release: zurich
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -40,5 +41,5 @@ You can create multiple implementations for each extension point and provide an 
 5.  Click **Update**.
 
 
-**Parent Topic:**[Setting up skill prediction in Workforce Optimization for HR](setup-skill-prediction-wfo-hr.md)
+**Parent Topic:**[Setting up skill prediction in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workforce-optimization-for-hr/setup-skill-prediction-wfo-hr.md)
 

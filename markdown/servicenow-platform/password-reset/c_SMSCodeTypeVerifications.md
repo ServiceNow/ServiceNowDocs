@@ -2,6 +2,7 @@
 title: SMS Code Verification type for Password Reset
 description: Using the Simple Message Service \(SMS\) Code Verification type, a user can verify identity with the help of any SMS-enabled device, like a cell phone that accepts text messages. When a user requests password reset, the system sends a numerical code to the device and the user then enters the code on the Password Reset Verification page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/password-reset/c\_SMSCodeTypeVerifications.html
 release: zurich
 product: Password Reset
 classification: password-reset
@@ -73,10 +74,10 @@ Maximum number of codes sent for verification in one day.**Data Type**: integer 
 </td></tr></tbody>
 </table>## User experience
 
-For information on how users enroll for SMS verification, see [Enroll for the Password Reset program using SMS codes](../task/t_EnrollUsingSMS.md).
+For information on how users enroll for SMS verification, see [Enroll for the Password Reset program using SMS codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/t_EnrollUsingSMS.md).
 
--   **[Use Notify to send SMS codes for enrollment and verification](../task/t_NotifyForSMSVerification.md)**  
+-   **[Use Notify to send SMS codes for enrollment and verification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/t_NotifyForSMSVerification.md)**  
 You can configure the Password Reset application to send SMS codes for enrollment and verification using the ServiceNow Notify application \(via the Twilio SMS Messaging system\). Notify is tightly integrated with the workflow engine and business rules and delivers a highly configurable and trusted way to deliver SMS messages.
 
-**Parent Topic:**[Password Reset verifications](c_PWRVerifications.md)
+**Parent Topic:**[Password Reset verifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/c_PWRVerifications.md)
 

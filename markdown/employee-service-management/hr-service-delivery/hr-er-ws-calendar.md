@@ -2,6 +2,7 @@
 title: Scheduling an interview
 description: You can use the default ServiceNow calendar or integrate with Microsoft Exchange to schedule interviews related to Employee Relations \(ER\) cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-er-ws-calendar.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

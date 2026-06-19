@@ -2,6 +2,7 @@
 title: Request control trailoring
 description: Control tailoring requests enable you to modify the baseline controls for an authorization package after the Select step without reverting the package or disrupting ongoing assessments. You can add new controls, change control applicability status, or update hybrid and inherited control configurations while maintaining the current workflow step and preserving unaffected controls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/request-control-trailoring.html
 release: zurich
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -31,8 +32,8 @@ When you change a hybrid control to inherited or fully inherited, the system ret
 
 While a control tailoring request is pending approval, the authorization package displays an indicator showing that baseline changes are under review. You can continue working on other package activities, but the proposed baseline changes do not take effect until the AO approves the request. After approval, the item generation job processes the changes asynchronously, and the package status updates to reflect that the control tailoring request has been approved.
 
--   **[Create a control tailoring request](../task/create-a-control-tailoring-request.md)**  
+-   **[Create a control tailoring request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/create-a-control-tailoring-request.md)**  
 Create a control tailoring request to modify baseline controls for an authorization package after the Select step without reverting the package or disrupting ongoing assessments.
 
-**Parent Topic:**[View package details in CAM Workspace](../task/auth-package-overview-ws.md)
+**Parent Topic:**[View package details in CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/auth-package-overview-ws.md)
 

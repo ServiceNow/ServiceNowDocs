@@ -2,6 +2,7 @@
 title: Install Health and Safety Case Management
 description: You can install the Health and Safety Case Management application \(sn\_hs\_cm\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-case-management/install-hs-case-management.html
 release: zurich
 product: Health and Safety Case Management
 classification: health-and-safety-case-management
@@ -31,7 +32,7 @@ The following items are installed with Health and Safety Case Management:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Health and Safety Case Management](../reference/components-installed-with-hs-case-mgmt.md).
+For more information, see [Components installed with Health and Safety Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-case-management/components-installed-with-hs-case-mgmt.md).
 
 <table id="optional_apps_HSCM"><thead><tr><th>
 
@@ -47,7 +48,7 @@ Health and Safety Incident Management\[sn\_hs\_im\_incident\]
 
 </td><td>
 
-Installs safety-related employee incidents and observations capability for Health and Safety Case Management. For more information, see [Install Health and Safety Incident Management](../../ohs-incident-management/task/install-hs-incident-mgmt.md).
+Installs safety-related employee incidents and observations capability for Health and Safety Case Management. For more information, see [Install Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-incident-management/install-hs-incident-mgmt.md).
 
 </td></tr><tr><td>
 
@@ -55,8 +56,8 @@ Human Resources Scoped App: Core \[com.sn\_hr\_core\]
 
 </td><td>
 
-Installs Case and Knowledge Management for creating HR cases from injury and illness records in Health and Safety Incident Management.-   For more information on activating it, see [Activate Case and Knowledge Management](../../human-resources/task/activate-case-and-knowledge-management-scoped.md).
--   For information on creating HR cases from injury and illness records, see [Create an HR case from an injury or illness](../../ohs-incident-management/task/create-hr-case-injury-illness.md).
+Installs Case and Knowledge Management for creating HR cases from injury and illness records in Health and Safety Incident Management.-   For more information on activating it, see [Activate Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/activate-case-and-knowledge-management-scoped.md).
+-   For information on creating HR cases from injury and illness records, see [Create an HR case from an injury or illness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-incident-management/create-hr-case-injury-illness.md).
 
 </td></tr><tr><td>
 
@@ -64,7 +65,7 @@ Universal Request\[com.snc.universal\_request\]
 
 </td><td>
 
-Installs Universal Request application that supports cross-departmental collaboration and unified employee experience. For more information, see [Universal Request for Health and Safety cases](../concept/universal-request-hs-case-mgmt.md).
+Installs Universal Request application that supports cross-departmental collaboration and unified employee experience. For more information, see [Universal Request for Health and Safety cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-case-management/universal-request-hs-case-mgmt.md).
 
 </td></tr></tbody>
 </table>## Procedure
@@ -90,9 +91,9 @@ Installs Universal Request application that supports cross-departmental collabor
 6.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Health and Safety Case Management](../concept/hs-setting-up-case-management.md)
+**Parent Topic:**[Configuring Health and Safety Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-case-management/hs-setting-up-case-management.md)
 
-**Previous topic:**[Configuring Health and Safety Case Management](../concept/hs-setting-up-case-management.md)
+**Previous topic:**[Configuring Health and Safety Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-case-management/hs-setting-up-case-management.md)
 
-**Next topic:**[Configure HR service for creating an HR case for an injury](hs-configure-hr-service-property-case-injury.md)
+**Next topic:**[Configure HR service for creating an HR case for an injury](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-case-management/hs-configure-hr-service-property-case-injury.md)
 

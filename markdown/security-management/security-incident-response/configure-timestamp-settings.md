@@ -2,6 +2,7 @@
 title: Configuring Timestamp Settings for Triage Acquisition
 description: Configure and verify the timestamp settings before the installation procedure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/configure-timestamp-settings.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

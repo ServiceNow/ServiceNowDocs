@@ -2,6 +2,7 @@
 title: Configure a risk appetite and tolerance in Advanced Risk
 description: Set up the advanced risk assessment properties so that you can configure and customize the risk appetite and tolerance in the Advanced Risk application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/configure-risk-appetite.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -75,5 +76,5 @@ Notification email scheduler to send an automated email notification to the risk
 </table>3.  Select **Save**.
 
 
-**Parent Topic:**[Risk appetite setup](../concept/risk-appetite-setup.md)
+**Parent Topic:**[Risk appetite setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/risk-appetite-setup.md)
 

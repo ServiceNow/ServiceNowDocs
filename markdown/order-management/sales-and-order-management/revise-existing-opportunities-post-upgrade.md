@@ -2,6 +2,7 @@
 title: Revise existing opportunities after an upgrade
 description: Run a scheduled job to modify older opportunities so they can support parent-child opportunity line items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/revise-existing-opportunities-post-upgrade.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

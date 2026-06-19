@@ -2,6 +2,7 @@
 title: Troubleshoot a slow pattern
 description: Identify the source of a slow pattern and prioritize potential performance improvements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-performance/troubleshoot-slow-pattern.html
 release: zurich
 product: Platform Performance
 classification: platform-performance
@@ -19,7 +20,7 @@ Identify the source of a slow pattern and prioritize potential performance impro
 
 Role required: sn\_app\_insights.admin or admin
 
-Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the [Overview of Instance Observer](https://www.servicenow.com/docs/access?context=io-overview&version=zurich&pubname=zurich-impact&ft:locale=en-US) product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
+Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the  product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -47,23 +48,23 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
 
 6.  To access additional helpful information for troubleshooting, add the Referenced Scripts and Related Slow Patterns related lists.
 
-<table id="choicetable_f4t_kdp_cvb"><tbody><tr><td id="d187291e172">
+<table id="choicetable_f4t_kdp_cvb"><tbody><tr><td id="d122402e171">
 
 **Slow scripts**
 
 </td><td>
 
-1.  Select the form context menu \(![Context menu icon](../../subscription-management/image/context-menu.png)\).
+1.  Select the form context menu \(\[Omitted image "context-menu.png"\] Alt text: Context menu icon\).
 2.  Change the form view by selecting **View** &gt; **Slow Script Insights**.
 
 
-</td></tr><tr><td id="d187291e202">
+</td></tr><tr><td id="d122402e201">
 
 **Slow queries**
 
 </td><td>
 
-1.  Select the form context menu \(![Context menu icon](../../subscription-management/image/context-menu.png)\).
+1.  Select the form context menu \(\[Omitted image "context-menu.png"\] Alt text: Context menu icon\).
 2.  Change the form view by selecting **View** &gt; **Slow Query Insights**.
 
 
@@ -83,5 +84,5 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
     -   Determine whether you can avoid using the slow query. If the query is required, try to optimize it with additional query conditions or a sys\_id query so that it returns only the information that is needed.
     -   Determine whether an index can optimize the performance of the slow query.
 
-**Parent Topic:**[Solving slow patterns](../concept/application-insights-slow-patterns.md)
+**Parent Topic:**[Solving slow patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/application-insights-slow-patterns.md)
 

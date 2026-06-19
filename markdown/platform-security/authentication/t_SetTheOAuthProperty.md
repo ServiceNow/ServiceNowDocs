@@ -2,6 +2,7 @@
 title: Set the OAuth property
 description: To generate OAuth 2.0 tokens to registered applications, the com.snc.platform.security.oauth.is.active property must be active for the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/t\_SetTheOAuthProperty.html
 release: zurich
 product: Authentication
 classification: authentication

@@ -2,6 +2,7 @@
 title: Enable domain separation on reports
 description: Activate the domain separation plugin to enable reports to display content based on data, rules, and settings from the logged-on user domain.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/t\_EnsureDomainSepOnAReport.html
 release: zurich
 product: Reporting
 classification: reporting
@@ -38,10 +39,10 @@ Follow these steps to ensure domain separation on reports if the MSP Extensions 
     **Domain** fields appear on reports, and this field references a table. After a domain field exists on a form, all records within the table will have the domain field enabled. By default, all these records are global.
 
 
-**Parent Topic:**[Domain separation and Reporting](../concept/domain-separation-in-reporting.md)
+**Parent Topic:**[Domain separation and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/domain-separation-in-reporting.md)
 
 **Related topics**  
 
 
-[Request domain separation](https://www.servicenow.com/docs/access?context=t_ActivateDomainSeparation&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.t_ActivateDomainSeparation]
 

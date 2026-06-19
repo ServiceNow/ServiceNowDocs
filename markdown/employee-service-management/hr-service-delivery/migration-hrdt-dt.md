@@ -2,6 +2,7 @@
 title: Migrating from HR Document Templates to Document Templates
 description: Review these guidelines to successfully migrate from HR Document Templates to Document Templates. Document Templates provides the latest experience of HR Document Templates functionality with additional features and capabilities.Follow the steps for migrating HR Document template \(HTML\) to Document template \(HTML\).Follow the steps for migrating HR Document template \(PDF\) to Document Template \(PDF\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/migration-hrdt-dt.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,7 +20,7 @@ Review these guidelines to successfully migrate from HR Document Templates to Do
 
 Starting with the Zurich release, HR Document Templates is deprecated and no longer supported or available for new activation.
 
-Use [Document Templates](document-templates-overview.md) that provides the latest experience for this functionality. For migration guidelines, see [Migrating from HR Document Templates to Document Templates](migration-hrdt-dt.md#).
+Use [Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/document-templates-overview.md) that provides the latest experience for this functionality. For migration guidelines, see [Migrating from HR Document Templates to Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/migration-hrdt-dt.md).
 
 For deprecation details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
@@ -95,9 +96,9 @@ Participants are not supported.You must directly map user fields in HTML templat
 
 </td><td>
 
-Participants are supported. Participant details are stored in the Participant \[sn\_doc\_participant\] table. You must map participants for signing in HTML body and PDF template mappings.For an HTML template, see [Create participants for an HTML document template](../task/create-participants-html.md#).
+Participants are supported. Participant details are stored in the Participant \[sn\_doc\_participant\] table. You must map participants for signing in HTML body and PDF template mappings.For an HTML template, see [Create participants for an HTML document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/create-participants-html.md).
 
-For a PDF template, see [Create participants for a PDF document template](../task/create-participant.md#).
+For a PDF template, see [Create participants for a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/create-participant.md).
 
 </td></tr><tr><td>
 
@@ -109,7 +110,7 @@ HTML Template Translation
 
 </td><td>
 
-SupportedSee [Use Localization Framework for Document Templates](../task/doc-lzt-fm.md)
+SupportedSee [Use Localization Framework for Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/doc-lzt-fm.md)
 
 </td></tr><tr><td>
 
@@ -121,7 +122,7 @@ HTML template blocks
 
 </td><td>
 
-SupportedSee [Document blocks in Document Templates](doc-block-temp.md).
+SupportedSee [Document blocks in Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/doc-block-temp.md).
 
 </td></tr><tr><td>
 
@@ -133,7 +134,7 @@ HTML template scripts
 
 </td><td>
 
-SupportedSee [Document template scripts](document-template-scripts.md).
+SupportedSee [Document template scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/document-template-scripts.md).
 
 </td></tr><tr><td>
 
@@ -145,7 +146,7 @@ HTML template TOC
 
 </td><td>
 
-SupportedSee [Create a TOC configuration in Document Templates](doc-template-configs.md#).
+SupportedSee [Create a TOC configuration in Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/doc-template-configs.md).
 
 </td></tr><tr><td>
 
@@ -157,9 +158,9 @@ Only one action type is supported: Signing
 
 </td><td>
 
-Different action types are supported \(Fill, Review and Signing\) based on the template type.For an HTML template, see **Action type** in [Create participants for an HTML document template](../task/create-participants-html.md#).
+Different action types are supported \(Fill, Review and Signing\) based on the template type.For an HTML template, see **Action type** in [Create participants for an HTML document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/create-participants-html.md).
 
-For a PDF template, see **Action type** in [Create participants for a PDF document template](../task/create-participant.md#).
+For a PDF template, see **Action type** in [Create participants for a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/create-participant.md).
 
 </td></tr><tr><td>
 
@@ -266,7 +267,7 @@ Role required: admin
 
 8.  Update the case template to use the new document template or category.
 
-    See the HR case fields in the Functionality and Table Comparison: HR Document Templates and Document Templates table in [Migrating from HR Document Templates to Document Templates](migration-hrdt-dt.md#).
+    See the HR case fields in the Functionality and Table Comparison: HR Document Templates and Document Templates table in [Migrating from HR Document Templates to Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/migration-hrdt-dt.md).
 
 
 ## Migrate HR Document template \(PDF\) to Document Template
@@ -311,6 +312,6 @@ If you want to migrate your AdobeSign or DocuSign templates to Document Template
 
 11. Update the case template to use the new document template or category.
 
-    For more information, see the HR case fields in the Functionality and Table Comparison: HR Document Templates and Document Templates table in [Migrating from HR Document Templates to Document Templates](migration-hrdt-dt.md#).
+    For more information, see the HR case fields in the Functionality and Table Comparison: HR Document Templates and Document Templates table in [Migrating from HR Document Templates to Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/migration-hrdt-dt.md).
 
 

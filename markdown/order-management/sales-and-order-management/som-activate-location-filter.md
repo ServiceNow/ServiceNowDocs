@@ -2,13 +2,14 @@
 title: Activate location-based transactions
 description: Turn on location-based transactions for opportunities, quotes, and orders by using the sn\_sales\_common.enable\_location\_based\_transactions system property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/som-activate-location-filter.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Location-based product transactions, Agent tools in SOM, Configure, Sales Customer Relationship Management]
+breadcrumb: [Location-based product transactions, Configuring agent tools in Sales CRM, Configure, Sales Customer Relationship Management]
 ---
 
 # Activate location-based transactions
@@ -38,7 +39,7 @@ The **sn\_sales\_common.enable\_location\_based\_transactions** system property 
 
 ## What to do next
 
-Define the [product eligibility rule filters](som-create-rule-entity-filter.md) and [matrices](som-define-eligibility-rules.md) that control the product offerings displayed by location.
+Define the [product eligibility rule filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-create-rule-entity-filter.md) and [matrices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-define-eligibility-rules.md) that control the product offerings displayed by location.
 
-**Parent Topic:**[Configuring location-based product transactions](../concept/config-location-transaction.md)
+**Parent Topic:**[Configuring location-based product transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/config-location-transaction.md)
 

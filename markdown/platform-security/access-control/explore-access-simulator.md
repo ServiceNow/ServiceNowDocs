@@ -2,6 +2,7 @@
 title: Exploring Access Simulator
 description: Access Simulator helps you simulate how access to the specified table would change once a role or group is assigned or removed from the user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/explore-access-simulator.html
 release: zurich
 product: Access Control
 classification: access-control
@@ -21,10 +22,10 @@ Access Simulator
 
 Access Simulator can be used for the simulating access on a user for the following scenarios:
 
--   [Adding Roles to users](../task/add-role-to-user.md)
--   [Removing Roles from users](../task/remove-role-from-user.md)
--   [Adding users to Groups](../task/add-user-to-group.md)
--   [Removing users from Groups](../task/remove-user-from-group.md)
+-   [Adding Roles to users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/add-role-to-user.md)
+-   [Removing Roles from users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/remove-role-from-user.md)
+-   [Adding users to Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/add-user-to-group.md)
+-   [Removing users from Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/remove-user-from-group.md)
 
-To know more about the Access Simulator settings and enable take actions, see [Configuring the Access Simulator \(Take actions\)](../task/configure-access-simulator.md).
+To know more about the Access Simulator settings and enable take actions, see [Configuring the Access Simulator \(Take actions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/configure-access-simulator.md).
 

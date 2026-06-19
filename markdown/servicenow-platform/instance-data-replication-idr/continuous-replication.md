@@ -2,6 +2,7 @@
 title: Continuous replication
 description: Replicate inserts and updates from a producer instance to one or more consumer instances in near-real time in Instance Data Replication \(IDR\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/instance-data-replication-idr/continuous-replication.html
 release: zurich
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -21,12 +22,12 @@ After you set up continuous replication, the IDRProducerJob job runs on the prod
 
 The IDRConsumerJob job runs on the consumer instances to detect the data updates from the producer. When the IDRConsumerJob job detects updates, it updates the data in consumer tables.
 
-![Data flows from the producer to the message queue and then to a consumer.](../image/data-lag.png "IDR data updates flow")
+\[Omitted image "data-lag.png"\] Alt text: Data flows from the producer to the message queue and then to a consumer.
 
 Inserts and updates on the producer instance are replicated in near-real time.
 
--   Monitor how long updates from the producer to the consumer are taking in the Monitoring Dashboard. See [Monitoring replication status in Instance Data Replication](instance-data-replication-dashboard.md).
--   Monitor the replication record queue, message queue, and messages processed for all replications sets by in the Queue Dashboard. See [Monitoring queues in Instance Data Replication](idr-queue-dashboard.md).
+-   Monitor how long updates from the producer to the consumer are taking in the Monitoring Dashboard. See [Monitoring replication status in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/instance-data-replication-idr/instance-data-replication-dashboard.md).
+-   Monitor the replication record queue, message queue, and messages processed for all replications sets by in the Queue Dashboard. See [Monitoring queues in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/instance-data-replication-idr/idr-queue-dashboard.md).
 
-For more information, see [Set up continuous replication](../task/set-up-continuous-replication-idr.md).
+For more information, see [Set up continuous replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/instance-data-replication-idr/set-up-continuous-replication-idr.md).
 

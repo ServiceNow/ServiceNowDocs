@@ -2,6 +2,7 @@
 title: Components installed with Problem Management
 description: Several types of components are installed with activation of the Problem Management Best Practice — Madrid — Knowledge Integration plugin, including tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/problem-management/installed-with-madrid-know-int.html
 release: zurich
 product: Problem Management
 classification: problem-management
@@ -36,5 +37,5 @@ Known Error article\[kb\_template\_known\_error\_article\]
 Table to store Known Error articles.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate Problem Management Best Practice — Madrid — Knowledge Integration](../task/act-pm-best-prac-madrid-know-int.md)
+</table>**Parent Topic:**[Activate Problem Management Best Practice — Madrid — Knowledge Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/act-pm-best-prac-madrid-know-int.md)
 

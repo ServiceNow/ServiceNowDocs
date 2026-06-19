@@ -2,6 +2,7 @@
 title: Review pre-arbitration response and escalate to arbitration
 description: After you raised a pre-arbitration request in the Chargeback stage of Mastercard transaction dispute, review the response and decide whether to accept, reject, or escalate the pre arbitration to arbitration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/review-prearbitration-response-escalate-arbitration.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -19,7 +20,7 @@ After you raised a pre-arbitration request in the Chargeback stage of Mastercard
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector.
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -33,7 +34,7 @@ If the agent is not satisfied with the merchant’s pre-arbitration response, th
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -63,15 +64,15 @@ If the agent is not satisfied with the merchant’s pre-arbitration response, th
 
 12. Select one of the following options from the **Response outcome** drop-down.
 
-<table id="choicetable_c3f_zll_wfc"><thead><tr><th align="left" id="d34913e278">
+<table id="choicetable_c3f_zll_wfc"><thead><tr><th align="left" id="d37488e278">
 
 Option
 
-</th><th align="left" id="d34913e281">
+</th><th align="left" id="d37488e281">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d34913e287">
+</th></tr></thead><tbody><tr><td id="d37488e287">
 
 **Unresolved**
 
@@ -85,13 +86,13 @@ The **Arbitration response received** drop-down is displayed.
 
     -   Select **Yes** if you have received a response from the merchant.
 
-The next task [Review arbitration response](review-arbitration-response-mc.md) is displayed.
+The next task [Review arbitration response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/review-arbitration-response-mc.md) is displayed.
 
     -   Select **No** if you have not received a response from the merchant. The case goes in the favor of the cardholder and the transaction moves to Financial adjustments 1.
 -   **No** to end the chargeback, then the transaction moves to the Financial adjustments 2. The task is then marked as Complete.
 
 
-</td></tr><tr><td id="d34913e368">
+</td></tr><tr><td id="d37488e368">
 
 **Resolved**
 
@@ -114,8 +115,8 @@ Accept the chargeback response and resolve the dispute. The transaction moves to
 ## What to do next
 
 -   When you escalate the pre-arbitration to an arbitration, the request is sent to Mastercard and the state of the task changes to Awaiting External Info.
--   Once a response is received from the merchant, the **Arbitration response received** value is marked as **Yes**. The next activity [Review arbitration response](review-arbitration-response-mc.md) is displayed.
+-   Once a response is received from the merchant, the **Arbitration response received** value is marked as **Yes**. The next activity [Review arbitration response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/review-arbitration-response-mc.md) is displayed.
 -   If you don’t receive a response from the merchant, then the case goes in favor of the cardholder and the appropriate task is displayed based on the policy.
 
-**Parent Topic:**[Chargeback in Mastercard transaction disputes](../concept/chargeback-stage-mastercard.md)
+**Parent Topic:**[Chargeback in Mastercard transaction disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/chargeback-stage-mastercard.md)
 

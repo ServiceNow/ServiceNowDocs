@@ -2,6 +2,7 @@
 title: Email notifications on credential expiration
 description: When the token used in the ServiceNow instance expires, Netskope integration sends out an email notification to users with the DLP Admin \(sn\_dlir.admin\) role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/data-loss-prevention/notification-users-credential-expiration.html
 release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -21,5 +22,5 @@ If the token expires, the data ingestion for associated profiles would be on hol
 
 You must create a token or renew the old one on Netskope, and then update the token on the ServiceNow instance. If you renew the token by extending the expiry time, then the Netskope application automatically detects the renewal and will continue with the data collection. If you create a token, you must update the token in the configuration.
 
-**Parent Topic:**[Data Loss Prevention Incident Response Integration with Netskope](../concept/dlp-incident-response-integration-netskope.md)
+**Parent Topic:**[Data Loss Prevention Incident Response Integration with Netskope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/dlp-incident-response-integration-netskope.md)
 

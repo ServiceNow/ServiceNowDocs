@@ -2,6 +2,7 @@
 title: Exploring Intelligent Servicing for Fraud
 description: By using the Intelligent Servicing for Fraud application, you can review the alert details that are flagged by external systems, review the cases that are reported by customers, investigate the alert cases that are reported by customers, and move the case to a final case disposition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/intelligent-servicing-for-fraud/exploring-intelligent-servicing-for-fraud.html
 release: zurich
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud

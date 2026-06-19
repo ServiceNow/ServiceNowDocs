@@ -2,6 +2,7 @@
 title: Show borders between search result cards in global search
 description: Display borders between search result cards on the global search results page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/show-borders-search-result-cards-global-search.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -56,7 +57,7 @@ AI Search displays borders between search result cards on the global search resu
 
 ## What to do next
 
-For details on showing borders between search results cards in portal search, see [Show borders between search result cards in portal search](show-borders-search-result-cards-portal-search.md).
+For details on showing borders between search results cards in portal search, see [Show borders between search result cards in portal search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/show-borders-search-result-cards-portal-search.md).
 
-**Parent Topic:**[Configuring AI Search](../concept/configuring-ais.md)
+**Parent Topic:**[Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configuring-ais.md)
 

@@ -2,6 +2,7 @@
 title: Workplace Services Kiosk error scenarios
 description: Find the cause and related information of kiosk errors in the system logs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-services-kiosk/wsd-kiosk-errors.html
 release: zurich
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
@@ -25,5 +26,5 @@ The Workplace Services Kiosk displays a generic error page to the user when an e
 -   The floor where the kiosk camera is set isn’t part of the configured view type.
 -   The floor where the kiosk is positioned isn’t part of the configured view type.
 
-**Parent Topic:**[Workplace Services Kiosk reference](workplace-services-kiosk-reference.md)
+**Parent Topic:**[Workplace Services Kiosk reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-services-kiosk/workplace-services-kiosk-reference.md)
 

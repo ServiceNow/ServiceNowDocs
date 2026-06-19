@@ -2,6 +2,7 @@
 title: Create a risk framework and associate risk statements to it
 description: Risk managers create risk frameworks to group risk statements into manageable categories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/t\_CreateRiskFrame.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -44,5 +45,5 @@ Role required: sn\_risk.manager
 7.  Click **Save**.
 
 
-**Parent Topic:**[Using Risk Management](../concept/using-risk-mgmt.md)
+**Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
 

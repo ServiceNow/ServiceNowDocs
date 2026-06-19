@@ -2,6 +2,7 @@
 title: Legacy: Age of Open Changes Monitor dashboard
 description: This workbench dashboard enables you to view and assess all open changes separated into age brackets: less than one day, from 1-5 days, from 6-30 days, from 31-90 days, and over 90 days.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/change-age-open-changes-monitor-dashboard.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -17,9 +18,9 @@ This workbench dashboard enables you to view and assess all open changes separat
 
 **Important:**
 
-Starting in Xanadu release, the Change dashboard is deprecated. Users can use [Change dashboard](performance-analytics/change.md) to view, and track the open changes.
+Starting in Xanadu release, the Change dashboard is deprecated. Users can use [Change dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change.md) to view, and track the open changes.
 
-![Age of Open Changes Monitor dashboard](../image/change-open-changes-monitor.png "Age of Open Changes Monitor tab")
+\[Omitted image "change-open-changes-monitor.png"\] Alt text: Age of Open Changes Monitor dashboard
 
 ## End user and roles
 
@@ -53,5 +54,5 @@ Starting in Xanadu release, the Change dashboard is deprecated. Users can use [C
 -   Assignment Group
 -   State
 
-**Parent Topic:**[Legacy: Change Management Platform Analytics Solutions](change-content-pack.md)
+**Parent Topic:**[Legacy: Change Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-content-pack.md)
 

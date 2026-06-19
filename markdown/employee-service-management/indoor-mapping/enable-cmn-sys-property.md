@@ -2,6 +2,7 @@
 title: Enable the CMN location property
 description: To synchronize CMN Location types with Indoor Mapping, enable the system property sn\_map\_core.cmn\_location\_sync\_enabled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/indoor-mapping/enable-cmn-sys-property.html
 release: zurich
 product: Indoor Mapping
 classification: indoor-mapping
@@ -27,16 +28,16 @@ Role required: admin
 
 3.  Select to open the **sn\_map\_core.cmn\_location\_sync\_enabled** property.
 
-    ![CMN location synchronization enabled property](../images/wsd-cmn-location-system-properties.png)
+    \[Omitted image "wsd-cmn-location-system-properties.png"\] Alt text: CMN location synchronization enabled property
 
     Default value of this property is **true**.
 
     **Note:** If Workplace Service Delivery is installed in your system, this property should be set to **false**. You can enable this property \(if it is set to false and if Workplace Service Delivery is not installed \) to synchronize CMN locations and location types with Indoor Mapping map data.
 
 
-**Parent Topic:**[Synchronize Indoor Mapping with CMN Locations](../concept/sync-cmn-location.md)
+**Parent Topic:**[Synchronize Indoor Mapping with CMN Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/sync-cmn-location.md)
 
-**Previous topic:**[Synchronize Indoor Mapping with CMN Locations](../concept/sync-cmn-location.md)
+**Previous topic:**[Synchronize Indoor Mapping with CMN Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/sync-cmn-location.md)
 
-**Next topic:**[Add CMN locations and map it to Indoor Mapping Place types](enable-cmn-location-types.md)
+**Next topic:**[Add CMN locations and map it to Indoor Mapping Place types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/enable-cmn-location-types.md)
 

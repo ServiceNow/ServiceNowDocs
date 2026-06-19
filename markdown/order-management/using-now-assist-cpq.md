@@ -2,6 +2,7 @@
 title: Using Now Assist for Configure, Price, Quote \(CPQ\)
 description: Use agents in an agentic workflow or as standalone agents to achieve specific automated outcomes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/using-now-assist-cpq.html
 release: zurich
 topic_type: concept
 last_updated: "2026-02-04"
@@ -22,8 +23,8 @@ Use Now Assist for CPQ to generate a summary of a quote to:
 -   Review the quote prior to sending it to the customer to confirm accuracy and completeness.
 -   Support internal handoffs by summarizing the quoted offer for internal teams.
 
--   **[Summarize a quote using quote summarization](../task/summarize-quote.md)**  
+-   **[Summarize a quote using quote summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/summarize-quote.md)**  
 Summarize a quote to generate a consolidated report of a quote record to quickly understand the quote without manually reviewing multiple fields, line items, or related records.
 
-**Parent Topic:**[Now Assist for Configure, Price, Quote \(CPQ\)](now-assist-for-cpq-landing.md)
+**Parent Topic:**[Now Assist for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-cpq-landing.md)
 

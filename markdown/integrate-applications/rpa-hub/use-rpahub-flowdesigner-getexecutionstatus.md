@@ -2,6 +2,7 @@
 title: Use the GetExecutionStatus component
 description: Use the GetExecutionStatus component to determine the execution status of a flow or a subflow in Workflow Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/use-rpahub-flowdesigner-getexecutionstatus.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -17,9 +18,9 @@ Use the GetExecutionStatus component to determine the execution status of a flow
 
 ## Before you begin
 
-To understand more about flows in Workflow Studio, see [Building flows](https://www.servicenow.com/docs/access?context=flows&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+To understand more about flows in Workflow Studio, see .
 
-Before you use any Flow Designer component, use the Connection Manager to make sure that you're connected to the instance. For more information about how to connect to an instance, see [Connect to an RPA Hub instance from RPA Desktop Design Studio](connect-studio-instance-rpa.md).
+Before you use any Flow Designer component, use the Connection Manager to make sure that you're connected to the instance. For more information about how to connect to an instance, see [Connect to an RPA Hub instance from RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/connect-studio-instance-rpa.md).
 
 Role required: none
 
@@ -35,7 +36,7 @@ Before you use the GetOutputs component to get the output of a flow, you may wan
 
 3.  Configure the component properties by using the Properties pane.
 
-    For example, you can configure the component to include a timeout or a delay before the component executes. For more information about these properties, see [Properties of the Flow Designer components](../reference/properties-flow-designer-components.md).
+    For example, you can configure the component to include a timeout or a delay before the component executes. For more information about these properties, see [Properties of the Flow Designer components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/properties-flow-designer-components.md).
 
 4.  Connect the data and control ports of the GetExecutionStatus component to the corresponding ports of other components as described in the following table.
 
@@ -49,5 +50,5 @@ Before you use the GetOutputs component to get the output of a flow, you may wan
 5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Flow Designer components](../concept/flow-designer-components.md)
+**Parent Topic:**[Flow Designer components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/flow-designer-components.md)
 

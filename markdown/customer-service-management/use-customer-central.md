@@ -2,7 +2,10 @@
 title: Use Customer Central
 description: Get a quick overview of key customer information and recent customer activity to help you find out more about the customer contacting support.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/use-customer-central.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

@@ -2,6 +2,7 @@
 title: Applying list report column configurations with an update set
 description: Configured columns in list reports can be moved to another instance by committing an update set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/apply-list-report-columns-update-set.html
 release: zurich
 product: Reporting
 classification: reporting
@@ -20,7 +21,7 @@ Configured list report columns are not automatically applied to an instance when
 1.  From the UI View table, search for the sys\_id of the report \(RPT\) view record for your changes.
 2.  Add it to the update set.
 
-For information on adding customized configurations to an update set and applying them, see [System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+For information on adding customized configurations to an update set and applying them, see System update sets.
 
-![UI Views report sys_id](../image/UIViewsReportViewRPTSysID.png)
+\[Omitted image "UIViewsReportViewRPTSysID.png"\] Alt text: UI Views report sys\_id
 

@@ -2,6 +2,7 @@
 title: Group attachment search results with their parent results
 description: Configure your AI Search applications to display attachment search results grouped with the results for their parent records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/group-attachment-srch-results-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -17,9 +18,9 @@ Configure your AI Search applications to display attachment search results group
 
 ## Before you begin
 
-The **index\_attachments** attribute can't be set to **false** for any indexed source used in the AI Search application. For details on creating and editing attributes for indexed sources, see [Indexed source attributes for AI Search](../concept/indexed-source-attributes-ais.md#).
+The **index\_attachments** attribute can't be set to **false** for any indexed source used in the AI Search application. For details on creating and editing attributes for indexed sources, see [Indexed source attributes for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/indexed-source-attributes-ais.md).
 
-**Note:** If you remove a **index\_attachments** attribute value of **false** from an indexed source, perform a full reindex for the indexed source before continuing with this procedure. To learn how to reindex content for an indexed source, see [Perform a full table index or reindex for a single AI Search indexed source](index-single-source-ais.md).
+**Note:** If you remove a **index\_attachments** attribute value of **false** from an indexed source, perform a full reindex for the indexed source before continuing with this procedure. To learn how to reindex content for an indexed source, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/index-single-source-ais.md).
 
 Role required: search\_application\_admin
 
@@ -46,5 +47,5 @@ For details on how attachment grouping appears in the search results list and ho
 
 AI Search groups matching attachment search results with their parent record results on the search application results page.
 
-**Parent Topic:**[Search application configurations](../concept/defining-search-app-cfgs-ais.md)
+**Parent Topic:**[Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/defining-search-app-cfgs-ais.md)
 

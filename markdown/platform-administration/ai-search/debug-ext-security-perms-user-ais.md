@@ -2,6 +2,7 @@
 title: Debug external content security filters for a ServiceNow AI Platform user
 description: Use the Session Log to view the set of externally defined user and group access permission filters associated with the current ServiceNow AI Platform user. Administrators can use this approach to verify that the proper user mappings exist for the current user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/debug-ext-security-perms-user-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -31,18 +32,18 @@ Enable session debugging for AI Search to view debug log messages for external c
 
     The Session Log opens.
 
-3.  Use the [Search Preview UI for AI Search](../../../use/dashboards/application-content-packs/ai-search-preview.md#) to submit the external content search query of interest.
+3.  Use the [Search Preview UI for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ai-search-preview.md) to submit the external content search query of interest.
 
     **Note:** To debug external content security access permissions for another user, specify their name in the Search Preview UI's user impersonation tool.
 
 4.  In the Session Log, filter for `AIS:External Content Security Filter` to see the external content security filters applied when evaluating access to an external document search result for the current \(or impersonated\) ServiceNow AI Platform user.
 
-    ![Sample external content security filter message.](../image/debug-ext-cont-security-filter.png)
+    \[Omitted image "debug-ext-cont-security-filter.png"\] Alt text: Sample external content security filter message.
 
 
 ## What to do next
 
-If the external content security filters don't include the desired external user or group access permissions, a search administrator can import an updated and corrected user mapping for the relevant ServiceNow AI Platform user. For more details on defining and importing user mappings, see [Mapping external users and groups to ServiceNow AI Platform users](../concept/user-mappings-ais.md#).
+If the external content security filters don't include the desired external user or group access permissions, a search administrator can import an updated and corrected user mapping for the relevant ServiceNow AI Platform user. For more details on defining and importing user mappings, see [Mapping external users and groups to ServiceNow AI Platform users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/user-mappings-ais.md).
 
-**Parent Topic:**[Administering AI Search](../concept/administer-ais.md)
+**Parent Topic:**[Administering AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/administer-ais.md)
 

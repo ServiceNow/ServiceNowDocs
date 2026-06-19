@@ -2,6 +2,7 @@
 title: Create Journey designer plan configuration
 description: Create a Journey designer plan configuration in Journey designer version 2.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/jny-create-mng-decentrlzd-template-configs.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -33,10 +34,10 @@ After the initial plan configuration is created, admins can assign owners and ap
 
 3.  File out the form.
 
-    Some fields are only available after an **Owner** is selected. For more information about the fields, see [Journey designer version 2 plan configuration fields](../reference/jny-dsgnr-v2-plan-config.md).
+    Some fields are only available after an **Owner** is selected. For more information about the fields, see [Journey designer version 2 plan configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-v2-plan-config.md).
 
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Setup the Journey designer version 2 plan configuration review and approval process](../concept/jny-dsgnr-plan-config-admin.md)
+**Parent Topic:**[Setup the Journey designer version 2 plan configuration review and approval process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-plan-config-admin.md)
 

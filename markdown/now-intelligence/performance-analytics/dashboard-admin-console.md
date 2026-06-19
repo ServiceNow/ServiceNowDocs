@@ -2,6 +2,7 @@
 title: Admin Console for Dashboards
 description: The Performance Analytics Admin Console contains several features for dashboard management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/dashboard-admin-console.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -25,11 +26,11 @@ The Explore and Manage dashboard contains tools to find, modify, and create dash
 
 Navigate to **Performance Analytics** &gt; **Admin Console**.
 
-The **Advanced Configuration** tile on the Admin Console shows a link to [Dashboard Properties](../../dashboards/reference/dashboard-properties.md).
+The **Advanced Configuration** tile on the Admin Console shows a link to [Dashboard Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/dashboard-properties.md).
 
 ## Tree view
 
-The Admin Console tree view enables you to identify and view the relationships between Performance Analytics and Reporting entities in a hierarchy. With the tree view, you don't have to sift through multiple pages to determine how they relate to one another. For more information, see [Dependency Assessment](../concept/impact-analysis.md).
+The Admin Console tree view enables you to identify and view the relationships between Performance Analytics and Reporting entities in a hierarchy. With the tree view, you don't have to sift through multiple pages to determine how they relate to one another. For more information, see [\(Legacy\) Dependency Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/impact-analysis.md).
 
-For more information on Admin Console functionality, see [Performance Analytics Admin Console](../concept/pa-admin-console.md).
+For more information on Admin Console functionality, see [Performance Analytics Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/pa-admin-console.md).
 

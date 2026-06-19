@@ -2,6 +2,7 @@
 title: What's New
 description: The What's New tab in the Help Center displays information about the new and important features for applications in your instance, including features from the latest ServiceNow release\(s\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/whats-new.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
@@ -16,7 +17,7 @@ breadcrumb: [Using Help Center, Help Center, In-product help, Adoption services,
 
 The What's New tab in the Help Center displays information about the new and important features for applications in your instance, including features from the latest ServiceNow® release\(s\).
 
-![whats new tab.](../image/whats-new.png)
+\[Omitted image "whats-new.png"\] Alt text: whats new tab.
 
 The What's New tab is a great way to learn about features, which are existing features and of what will be available to you on version upgrade \(if not on the latest versions\), without having to rely on the documentation site. The content in the What's New tab is relevant to each application the tab is accessed from and the role of the user accessing the content.
 
@@ -26,7 +27,7 @@ If there is new content available for you, the Help Center button is indicated. 
 
 You can select a feature from the tab to access the feature page for more information including video demos and graphics if available. A view all features option is included at the bottom.
 
-![Catalog builder details page.](../image/whats-new-details-page.png)
+\[Omitted image "whats-new-details-page.png"\] Alt text: Catalog builder details page.
 
 The feature page displays information on all new features for the application. Features are tagged to notify you of their availability state. In this example, configure the Catalog Builder experience for catalog item editors, is a feature that is not available. This could be either due to an upgrade requirement, or due to the required plugins for the feature not being installed on the instance. For most features, links are provided to expand information or to navigate to the documentation site.
 

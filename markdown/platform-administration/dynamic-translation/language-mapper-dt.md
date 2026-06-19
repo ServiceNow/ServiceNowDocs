@@ -2,6 +2,7 @@
 title: Language Code Mapping in Dynamic Translation
 description: Dynamic Translation enables you to add mapping between the ServiceNow language codes and the language codes used by your third-party translation service provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/dynamic-translation/language-mapper-dt.html
 release: zurich
 product: Dynamic Translation
 classification: dynamic-translation
@@ -17,10 +18,10 @@ Dynamic Translation enables you to add mapping between the ServiceNow® language
 
 -   You can create a language code to map the ServiceNow® language code.
 -   You can view the default language code mapping records in the Language Code Mapping \[sn\_trans\_commons\_language\_code\_mapping\] table.
--   You can associate the language code mapping to a translator configuration record. For more information, see [Create a custom translator configuration](../task/create-custom-translator.md).
+-   You can associate the language code mapping to a translator configuration record. For more information, see [Create a custom translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/create-custom-translator.md).
 
     **Note:** By default, language code mappings are included in the records of Microsoft Azure Translator Service and Google Cloud Translator Service. These preconfigured records for third-party providers are available in the Translator Configurations \[sn\_dt\_translator\_configuration\] table.
 
 
-To add a new language code mapping, see [Create a language code mapping](../task/create-language-code-mapping.md).
+To add a new language code mapping, see [Create a language code mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/create-language-code-mapping.md).
 

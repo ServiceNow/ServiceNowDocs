@@ -2,6 +2,7 @@
 title: Configure a scripted REST API to require an ACL
 description: Requests to scripted REST APIs respect platform ACLs, and the requesting user must meet any table ACL requirements to access instance data. Additionally, you can configure the scripted REST API to require a specific ACL.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-api-explorer/t\_WbSvcRqACL.html
 release: zurich
 product: REST API Explorer
 classification: rest-api-explorer
@@ -38,10 +39,10 @@ The ACLs selected in this task apply to all API endpoints.
 
 ## What to do next
 
-You can override the API security settings for each individual API resource/endpoint. For details, see [Configure a scripted REST API resource to require an ACL](t_WbSvcOpRqACL.md).
+You can override the API security settings for each individual API resource/endpoint. For details, see [Configure a scripted REST API resource to require an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/t_WbSvcOpRqACL.md).
 
--   **[Configure a scripted REST API resource to require an ACL](t_WbSvcOpRqACL.md)**  
+-   **[Configure a scripted REST API resource to require an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/t_WbSvcOpRqACL.md)**  
 By default, API resources/endpoints inherit security settings from the parent API. Define custom ACLs for a specific resource/endpoint to override the inherited settings.
 
-**Parent Topic:**[Create a scripted REST API](t_CreateAScriptedRESTService.md)
+**Parent Topic:**[Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/t_CreateAScriptedRESTService.md)
 

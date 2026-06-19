@@ -2,6 +2,7 @@
 title: HTTP Connection Management Properties
 description: Connection pooling is controlled by three properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/r\_HTTPConnectionManagementProps.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -99,5 +100,5 @@ Switches connection pooling on and off. To disable the new behavior \(not recomm
 true
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Manage connection pooling](r_HTTPClientConnectionManagement.md)
+</table>**Parent Topic:**[Manage connection pooling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/r_HTTPClientConnectionManagement.md)
 

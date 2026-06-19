@@ -2,6 +2,7 @@
 title: Migrate to service level management
 description: Migrate SLA processing from the escalations engine to use the service level management functionality.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-level-management/c\_MigrationToServiceLevelMgmt.html
 release: zurich
 product: Service Level Management
 classification: service-level-management
@@ -27,5 +28,5 @@ For example: if a retroactive SLA attaches to an incident one hour after its cre
 
 **Note:** This property is only used with audited tables. Tables which are not audited ignore the pause time before the creation of the record.
 
-**Parent Topic:**[Service Level Management reference](service-level-management-reference.md)
+**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-level-management/service-level-management-reference.md)
 

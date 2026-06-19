@@ -2,6 +2,7 @@
 title: Create a stockroom
 description: Create stockrooms to assign places to assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/view-create-stockroom.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -27,15 +28,15 @@ Stockrooms are separate, standalone entities in the Asset Management application
 
 1.  Create a stockroom.
 
-<table id="choicetable_njv_thg_kyb"><thead><tr><th align="left" id="d339550e91">
+<table id="choicetable_njv_thg_kyb"><thead><tr><th align="left" id="d91967e91">
 
 Interface
 
-</th><th align="left" id="d339550e94">
+</th><th align="left" id="d91967e94">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d339550e100">
+</th></tr></thead><tbody><tr><td id="d91967e100">
 
 **Core UI**
 
@@ -45,7 +46,7 @@ Action
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d339550e136">
+</td></tr><tr><td id="d91967e136">
 
 **Hardware Asset Workspace**
 
@@ -74,5 +75,5 @@ Action
 
 The stockroom is added to the list shown in the All stockrooms tab.
 
-**Parent Topic:**[Manage stockrooms](../concept/manage-your-stockrooms.md)
+**Parent Topic:**[Manage stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
 

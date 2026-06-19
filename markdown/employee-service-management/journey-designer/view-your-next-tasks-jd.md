@@ -2,6 +2,7 @@
 title: View and update your next tasks
 description: View your next tasks using the Your next tasks widget on the My journeys page to understand the next steps in your journey.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/view-your-next-tasks-jd.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -30,5 +31,5 @@ Role required: employee
 4.  Select **Complete** if the task is complete or select **Mark as in-progress** if you are still working on the task.
 
 
-**Parent Topic:**[Employees view and complete journeys](jny-dsgnr-employee-journey-tasks.md)
+**Parent Topic:**[Employees view and complete journeys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-employee-journey-tasks.md)
 

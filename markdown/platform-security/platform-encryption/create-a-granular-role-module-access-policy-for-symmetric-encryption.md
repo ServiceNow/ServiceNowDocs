@@ -2,6 +2,7 @@
 title: Create a granular role module access policy for symmetric encryption
 description: Create a granular role module access policy \(MAP\) to secure data while permitting users not assigned to a specific MAP to submit forms on a public record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/platform-encryption/create-a-granular-role-module-access-policy-for-symmetric-encryption.html
 release: zurich
 product: Platform Encryption
 classification: platform-encryption
@@ -31,7 +32,7 @@ Role required: security\_admin
 
 5.  Select the appropriate **Target role**.
 
-6.  Select the Specify purpose box and enter the purpose details in the newly displayed fields as follows:![Module access policy purpose options.](../image/map_purpose.png)
+6.  Select the Specify purpose box and enter the purpose details in the newly displayed fields as follows:\[Omitted image "map\_purpose.png"\] Alt text: Module access policy purpose options.
 
 7.  -   **Crypto spec**: Select the crypto spec to be used.
 -   **Granular operation**: Select Symmetric Encryption from the drop-down list.
@@ -44,5 +45,5 @@ Role required: security\_admin
 
 The granular role MAP enables a user that is not assigned to a MAP to submit public record forms while securing data.
 
-**Parent Topic:**[Configuring the Key Management Framework](../concept/configure-kmf.md)
+**Parent Topic:**[Configuring the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/configure-kmf.md)
 

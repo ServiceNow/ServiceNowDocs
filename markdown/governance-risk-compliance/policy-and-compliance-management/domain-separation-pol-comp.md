@@ -2,6 +2,7 @@
 title: Domain separation in GRC: Policy and Compliance Management
 description: Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/domain-separation-pol-comp.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -25,7 +26,7 @@ Domain separation enables you to separate data, processes, and administrative ta
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## Benefits of having domain-separated tables in Policy and Compliance Management
 
@@ -46,10 +47,15 @@ While GRC supports separation of data, separation of logic and process is not fu
 -   Many types of records in GRC are automatically generated through user processes. Entities, controls, risks, indicators, and control tests are all records that can be generated automatically. For records that are automatically generated \(and for any GRC record that is manually generated\), the domain of the record is the same as the domain of the user responsible for creating or generating the records.
 -   Automatic generation should be kept in mind when working in a domain-separated GRC implementation. Users should be sure that they are creating / generating records at the right domain level so that they are visible to the right set of users.
 
-    For example, suppose you have domains that look like:
+    For example, suppose you have the following domains:
 
+    ```
+    * Global
+                        * Top
+                             * Domain A
+                             * Domain B
+    ```
 
-![Domain separation in GRC.](../image/domain-separation-pc.png "Domain separation")
 
 -   If you have a risk or control that you want to be assessed by users in domains A and B, the risk or control should be generated or manually created at the global level. If the risk or control is created in Domain B, you will not be able to recreate the risk or control in Domain A due to indexing.
 -   If you have a risk or control that you want to be assessed by users in TOP and Domain A, you can create the risk or control in Domain A.
@@ -112,10 +118,10 @@ The following changes are made to the domain assignment process to manage data s
 |Article Template|User Domain|
 |Compliance data source registry|User Domain|
 
-**Parent Topic:**[Policy and Compliance Management reference](reference-data-policy-compliance.md)
+**Parent Topic:**[Policy and Compliance Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/reference-data-policy-compliance.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

@@ -2,6 +2,7 @@
 title: Fetch RequestInit - Scoped, Global
 description: The RequestInit API provides options to configure a Fetch request.Set options to configure a Fetch request. You can pass a RequestInit object into the Request\(\) constructor or directly into the fetch\(\) function call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/Fetch.RequestInitAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -19,15 +20,15 @@ You can pass a RequestInit object into the Request\(\) constructor, or directly 
 
 This API is part of a set of Fetch APIs, which provide various actions for fetching resources from external websites. The full Fetch API collection includes:
 
--   [Fetch - fetch\(String resource, Object options\)](FetchAPI.md#): Starts the process of fetching a resource from the network.
--   [Fetch Headers - Scoped, Global](Fetch.HeadersAPI.md#): Retrieve and modify request and response headers.
--   [Fetch Request - Scoped, Global](Fetch.RequestAPI.md#): Create a new request object.
--   [Fetch RequestInit - Scoped, Global](Fetch.RequestInitAPI.md#): Set options to configure a fetch request.
--   [Fetch Response - Scoped,Global](Fetch.ResponseAPI.md#): Create a new response object.
+-   [Fetch - fetch\(String resource, Object options\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/FetchAPI.md): Starts the process of fetching a resource from the network.
+-   [Fetch Headers - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/Fetch.HeadersAPI.md): Retrieve and modify request and response headers.
+-   [Fetch Request - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/Fetch.RequestAPI.md): Create a new request object.
+-   [Fetch RequestInit - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/Fetch.RequestInitAPI.md): Set options to configure a fetch request.
+-   [Fetch Response - Scoped,Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/Fetch.ResponseAPI.md): Create a new response object.
 
-To support fetch actions, the system property, `glide.hosts.allowlist`, allows controls over what hosts a fetch method can access. It applies to HTTP APIs like RestMessageV2 and those mentioned above. For more information about `glide.hosts.allowlist`, see [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+To support fetch actions, the system property, `glide.hosts.allowlist`, allows controls over what hosts a fetch method can access. It applies to HTTP APIs like RestMessageV2 and those mentioned above. For more information about `glide.hosts.allowlist`, see .
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## Fetch RequestInit - RequestInit
 

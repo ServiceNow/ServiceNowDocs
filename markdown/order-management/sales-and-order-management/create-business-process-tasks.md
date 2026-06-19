@@ -2,6 +2,7 @@
 title: Create business process tasks
 description: Track tasks for sales process records in Lead-to-Cash Process Management such as the closure of all linked opportunities or generating orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/create-business-process-tasks.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,7 +24,7 @@ Role required: sales process manager \[sn\_l2c\_cockpit.sales\_process\_manager\
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Lead to Cash Process Management** &gt; **Business Process Tasks**.
 
@@ -127,7 +128,7 @@ Work notes
 
 ## What to do next
 
-Monitor the business process task from the sales process dashboard. For more information, see [Monitoring and tracking sales activities](../concept/monitor-track-sales-activities.md).
+Monitor the business process task from the sales process dashboard. For more information, see [Monitoring and tracking sales activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/monitor-track-sales-activities.md).
 
-**Parent Topic:**[Using Lead-to-Cash Process Management](../concept/using-lead-cash-process-management.md)
+**Parent Topic:**[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/using-lead-cash-process-management.md)
 

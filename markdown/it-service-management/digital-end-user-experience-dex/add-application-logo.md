@@ -2,13 +2,14 @@
 title: Add a logo for your application
 description: Add a logo to improve the visual appeal of your application and to distinguish it from others.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/add-application-logo.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing application monitoring, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Application monitoring setup, Configure, Digital End-User Experience, IT Service Management]
 ---
 
 # Add a logo for your application
@@ -27,7 +28,7 @@ You can only add a logo for an existing application.
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the DEX Administration icon \(![](../image/icon-administration.png)\).
+2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text:\).
 
 3.  On the Application management card, select **Configure applications**.
 
@@ -53,11 +54,11 @@ You can only add a logo for an existing application.
 To see the new application logo, perform the following steps.
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
-2.  In the primary navigation pane, select the Applications icon \(![The Applications icon.](../image/icon-applications.png)\).
+2.  In the primary navigation pane, select the Applications icon \(\[Omitted image "icon-applications.png"\] Alt text: The Applications icon.\).
 3.  Open the application for which you have added the logo.
 
     The logo appears before the name of the application.
 
 
-**Parent Topic:**[DEX application monitoring](../concept/dex-application-monitoring.md)
+**Parent Topic:**[DEX application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dex-application-monitoring.md)
 

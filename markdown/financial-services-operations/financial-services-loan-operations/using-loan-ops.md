@@ -2,6 +2,7 @@
 title: Using Financial Services Loan Operations
 description: Learn how requesters, contributors, and agents use the Financial Services Loan Operations application to initiate, research, and resolve the loan service requests and system-generated exceptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-loan-operations/using-loan-ops.html
 release: zurich
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
@@ -23,7 +24,7 @@ Requesters, contributors, and back-office agents use personalized workspace to w
 -   Focus on high-priority items
 -   Easily navigate across tasks
 
-For more information, see [Workspaces](../../fso-common/concept/fso-workspace.md).
+For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-workspace.md).
 
 <table id="table_qy3_jmx_tnb"><thead><tr><th>
 
@@ -87,7 +88,7 @@ Loan admin
 
 </td><td>
 
-Configures the loan workspace as per business requirements. For more information, see [Configure CSM Configurable Workspace](../../fso-common/task/configure-csm-workspace-fso-apps.md).
+Configures the loan workspace as per business requirements. For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-csm-workspace-fso-apps.md).
 
 </td></tr></tbody>
 </table>## Workflows
@@ -96,7 +97,7 @@ Several predefined workflows for business and personal loans are available with 
 
 When a customer requests a loan service, a loan service case is created and assigned to a loan agent. After the agent updates the case details, a workflow is triggered. The flow triggers various tasks from the case and the assignment rules route these tasks to the appropriate back-office teams such as loan, credit, or document service. A new task is automatically created when an agent closes the previous task.
 
-For more information, see [Financial Services Loan Operations workflows](loan-operations-workflows.md).
+For more information, see [Financial Services Loan Operations workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-loan-operations/loan-operations-workflows.md).
 
 ## Case playbook
 
@@ -109,5 +110,5 @@ Using the case playbook, loan contributor and loan agents can visualize and inte
 
 Performance Analytics give business owners an insight into how the team and business are performing. Dashboards with customizable views are available for business and personal loan operations with the application.
 
-For more information, see [Personal Loan Operations dashboard](../../../use/dashboards/application-content-packs/personal-loan-operations-dashboard.md) and [Business Loan Operations dashboard](../../../use/dashboards/application-content-packs/business-loan-operations-dashboard.md).
+For more information, see [Personal Loan Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/personal-loan-operations-dashboard.md) and [Business Loan Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/business-loan-operations-dashboard.md).
 

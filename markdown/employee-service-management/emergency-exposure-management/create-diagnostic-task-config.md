@@ -2,6 +2,7 @@
 title: Create or modify a diagnostic request task configuration
 description: Create or modify a diagnostic request task configuration to auto-create a diagnostic request task in a diagnostic request. Based on the selected tracing system in the diagnostic request, the corresponding task configuration creates a diagnostic request task to identify potentially impacted employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/emergency-exposure-management/create-diagnostic-task-config.html
 release: zurich
 product: Emergency Exposure Management
 classification: emergency-exposure-management

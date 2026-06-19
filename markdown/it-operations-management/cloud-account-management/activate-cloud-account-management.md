@@ -2,13 +2,14 @@
 title: Install Cloud Workspace
 description: You can install the Cloud Workspace application \(sn\_itom\_cam\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/activate-cloud-account-management.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Setting up Cloud Account Management in Cloud Workspace, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Setting up Cloud Account Management in Cloud Workspace, Configuring Cloud Account Management, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Install Cloud Workspace
@@ -24,9 +25,9 @@ Role required: admin
 
 ## About this task
 
-[Roles](../reference/components-installed-with-cam.md) are installed with Cloud Workspace.
+[Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/components-installed-with-cam.md) are installed with Cloud Workspace.
 
-For more information, see [Plugins installed in Cloud Account Management](../../itom-cloud-accelerate/reference/plugin-app-cloud-accelerate.md#section_v5j_yxm_cbc).
+For more information, see [Plugins installed in Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/plugin-app-cloud-accelerate.md).
 
 ## Procedure
 

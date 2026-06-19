@@ -2,6 +2,7 @@
 title: LDAP refresh filters
 description: Filters on the LDAP refresh process can be used to specify processing that ignores inserts of disabled users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/ldap-integration/r\_LDAPRefreshFilters.html
 release: zurich
 product: LDAP integration
 classification: ldap-integration
@@ -19,7 +20,7 @@ You can loosen the LDAP OU filter to bring all of the data in to your import set
 
 This filter is important because it defines which user records are brought into the import set table to be evaluated. While achieving a smaller data load, a limitation of this filter is that it filters out inactive users, so the inactive user records are not imported into the import set temporary tables. Since there is not visibility of the inactive user records, there is no ability to evaluate the record indicators.
 
-![](../image/LDAPOUdefinition.png)
+\[Omitted image "LDAPOUdefinition.png"\] Alt text:
 
 To use filtering within the main LDAP refresh process, change the filter to bring in all of the user records. The result is that all the records will be loaded into the import set temporary table where they can be evaluated and transformed.
 

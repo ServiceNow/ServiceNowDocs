@@ -2,6 +2,7 @@
 title: Create an entity mapping
 description: Create an entity mapping to compose a workflow between two entities so that you can update their existing configurations and perform a set of declarative actions like suspend, resume, or disconnect a sold product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/create-entity-mapping.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -27,7 +28,7 @@ Role required: admin
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Entity configuration and mapping](../reference/entity-configuration-and-mapping.md).
+    For a description of the field values, see [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/entity-configuration-and-mapping.md).
 
 4.  Select **Submit**.
 
@@ -37,7 +38,7 @@ Role required: admin
 
 6.  On the form, fill in the fields.
 
-    For a description of the field values, see [Entity configuration and mapping](../reference/entity-configuration-and-mapping.md).
+    For a description of the field values, see [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/entity-configuration-and-mapping.md).
 
 7.  Select **Submit**.
 
@@ -45,7 +46,7 @@ Role required: admin
 
 9.  On the form, fill in the fields.
 
-    For a description of the field values, see [Entity configuration and mapping](../reference/entity-configuration-and-mapping.md).
+    For a description of the field values, see [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/entity-configuration-and-mapping.md).
 
 10. Select **Submit**.
 

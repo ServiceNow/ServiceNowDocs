@@ -2,6 +2,7 @@
 title: IT Service Management AI agent collection Generate post incident reviews agentic workflow
 description: Use the Post-incident review AI agent to generate a review report after a major incident is resolved. You can review and revise this report if necessary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-mim-usecase.html
 release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -25,9 +26,9 @@ Using the Generate post incident reviews agentic workflow, generate reports afte
 -   Detailed Technical Summary
 -   Action Items &amp; Prevention
 
-The time taken to create the report after the incident is resolved may be reduced, and the business impact may be minimized when responses to major incidents are both effective and efficient. For information on how major incidents are created, see [Major Incident Management process](../../incident-management/concept/major-incident-management-process.md).
+The time taken to create the report after the incident is resolved may be reduced, and the business impact may be minimized when responses to major incidents are both effective and efficient. For information on how major incidents are created, see [Major Incident Management process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/major-incident-management-process.md).
 
-To modify the Generate post incident reviews agentic workflow, [duplicate it](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US), and adjust the settings according to your requirements.
+To modify the Generate post incident reviews agentic workflow, duplicate it, and adjust the settings according to your requirements.
 
 **Important:** When you modify a use case, AI agent, or tool, make sure that you update all instructions accordingly.
 
@@ -42,7 +43,7 @@ To access the agentic workflow:
 
 **Important:** In the Edit trigger form, make sure that the **Active** button is turned on to enable the AI agent to trigger autonomously.
 
-**Important:** To enable the display of the Generate post incident reviews agentic workflow, you must activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\). For more information, see [Activate Incident Management - Major Incident Management](../../incident-management/task/activate-major-incident-management-plugin.md).
+**Important:** To enable the display of the Generate post incident reviews agentic workflow, you must activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\). For more information, see [Activate Incident Management - Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/activate-major-incident-management-plugin.md).
 
 ## AI agents used in the Generate post incident reviews agentic workflow
 
@@ -66,10 +67,10 @@ In the agentic workflow record:
 
         The agent executes the request for the agentic workflow.
 
-    **Example of a Generate post incident reviews agentic workflow report in the ServiceNow AI Agent Studio** ![Generate post incident reviews agentic workflow output.](../image/now-assist-itsm-aiagents-mim-nap.png)
+    **Example of a Generate post incident reviews agentic workflow report in the ServiceNow AI Agent Studio** \[Omitted image "now-assist-itsm-aiagents-mim-nap.png"\] Alt text: Generate post incident reviews agentic workflow output.
 
 
-In the AI Agent Studio, the fulfiller receives a notification as soon as the report is generated, enabling them to follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the Now Assist panel](../task/request-gen-ai-capabilities-itsm-now-assist-panel.md).
+In the AI Agent Studio, the fulfiller receives a notification as soon as the report is generated, enabling them to follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
 
 ## Generating the Post Incident Reviews workflow in the Now Assist panel
 
@@ -134,7 +135,7 @@ If the user requests changes to the report
 
 </td></tr></tbody>
 </table>
-Post Incident Review report in Core UI ![Post Incident Workflow in Now Assist panel for Core UI](../image/now-assist-itsm-post-incident-flow-ui16.png)
+Post Incident Review report in Core UI \[Omitted image "now-assist-itsm-post-incident-flow-ui16.png"\] Alt text: Post Incident Workflow in Now Assist panel for Core UI
 
-Post Incident review report in Service Operations Workspace![Post Incident Workflow in Now Assist panel in Service Operations Workspace](../image/now-assist-itsm-post-incident-flow-sow.png)
+Post Incident review report in Service Operations Workspace\[Omitted image "now-assist-itsm-post-incident-flow-sow.png"\] Alt text: Post Incident Workflow in Now Assist panel in Service Operations Workspace
 

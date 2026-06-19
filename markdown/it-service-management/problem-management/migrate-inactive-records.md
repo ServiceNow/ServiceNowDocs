@@ -2,6 +2,7 @@
 title: Migrate inactive records
 description: Migrate inactive records to apply the new mappings to all the remaining problem and problem task records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/problem-management/migrate-inactive-records.html
 release: zurich
 product: Problem Management
 classification: problem-management
@@ -36,5 +37,5 @@ Role required: admin
 
 ## What to do next
 
-View the [Migrated](migrated-records.md) topic.
+View the [Migrated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/migrated-records.md) topic.
 

@@ -2,6 +2,7 @@
 title: UserCriteria - Scoped
 description: The UserCriteria API provides methods to create, modify, and delete user criteria records using scripts.Creates an instance of the UserCriteria class.Creates an instance of the UserCriteria class with the specified sys\_id.Creates a user criteria with specified values in the user\_criteria table. Values specified in columnValues override the values provided via setters.Deletes the current user criteria.Displays the mapping for the attribute and value pairs of the catalog item.Specifies if the user criteria is active.Specifies if the user criteria has an advanced script.Sets the company property for the user criteria.Sets the department property for the user criteria.Sets the group property for the user criteria.Sets the location property for the user criteria.Sets the match\_all property for the user criteria.Sets the name property for the user criteria.Sets the role property for the user criteria.Sets the script for the user criteria.Sets the user property for the user criteria.Updates the current catalog item with the specified values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_UserCriteriaScoped.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The UserCriteria API provides methods to create, modify, and delete user criteri
 
 To use this class in a scoped application, use the `sn_uc` namespace identifier. The User Criteria Scoped API plugin \(ID: com.glideapp.user\_criteria.scoped.api\) must be enabled to access this API.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## UserCriteria - UserCriteria\(\)
 

@@ -2,6 +2,7 @@
 title: Setting up a travel estimate provider
 description: Set up a travel estimate provider in Schedule Optimization for each of your technician groups to streamline and enhance the travel planning process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/setting-up-a-travel-estimate-provider.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -17,12 +18,12 @@ Set up a travel estimate provider in Schedule Optimization for each of your tech
 
 ## Travel estimate providers
 
-Efficient allocation of work order tasks depends on accurately estimating travel time, considering both the technician's location and the task's location. Schedule Optimization uses travel estimate providers, which calculate distances between technicians and task and are assigned by admins to groups. The two supported travel estimate providers are straight-line or Beans.ai.
+Efficient allocation of work order tasks depends on accurately estimating travel time, considering both the technician's location and the task's location. The technician's starting location is determined using either their home location or the location of their most recently completed task. Schedule Optimization uses travel estimate providers, which calculate distances between technicians and task and are assigned by admins to groups. The two supported travel estimate providers are straight-line or Beans.ai.
 
 -   Straight-line: This default configuration serves as a backup when a primary configuration isn’t available and a secondary configuration hasn’t been selected. This provider can be modified but it cannot be deleted.
 -   Beans.ai: This map provider provides more accurate travel time estimates. Locations that are deemed invalid through geocoding or aren’t reachable by road are excluded from task assignments
 
-For more information, see [Create a scheduling attribute for Schedule Optimization](configure-scheduling-attributes.md).
+For more information, see [Create a scheduling attribute for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/configure-scheduling-attributes.md).
 
 ## Map vendor call types
 
@@ -31,7 +32,7 @@ Property: **map\_vendor\_call\_types property**
 -   Sync: Default value.
 -   Async: Changing the default value to async can improve performance and may result in more outbound requests.
 
-For more information on properties, see [Schedule Optimization properties](../reference/schedule-optimization-properties.md).
+For more information on properties, see [Schedule Optimization properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/schedule-optimization-properties.md).
 
 ## Travel band modifiers
 

@@ -2,6 +2,7 @@
 title: Chief Financial Officer Dashboard pillars
 description: Organizing insights into these five pillars promotes CFO focus on delivering value quickly, improving productivity and optimizing risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/cfo-dashboard-tab.html
 release: zurich
 topic_type: reference
 last_updated: "2025-09-01"
@@ -110,7 +111,7 @@ Compliance and financial risk
 Consolidates audit findings, risk indicators, and exception analysis for proactive governance.
 
 </td></tr></tbody>
-</table>![The visualizations on this tab address the question 'How is the organization’s financial health and performance across portfolios, investments, procurement, and risk?](../image/cfo-db-tab.png)
+</table>\[Omitted image "cfo-db-tab.png"\] Alt text: The visualizations on this tab address the question 'How is the organization’s financial health and performance across portfolios, investments, procurement, and risk?
 
 ## CFO Dashboard overview
 

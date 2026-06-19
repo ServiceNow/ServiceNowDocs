@@ -2,6 +2,7 @@
 title: Configure a cloud policy rule
 description: A policy rule is a collection of conditions and actions. ​If all conditions evaluate to true, the policy engine performs the actions. If any condition evaluates to false, the policy engine does not perform the actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/configure-cloud-policy-rule.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -17,7 +18,7 @@ A policy rule is a collection of conditions and actions. ​If all conditions ev
 
 ## Before you begin
 
-Optional: [Create one or more cloud policy groups](create-cloud-policy-group.md).
+Optional: [Create one or more cloud policy groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-cloud-policy-group.md).
 
 Role required: sn\_cmp.cloud\_governor or admin
 
@@ -41,7 +42,7 @@ Role required: sn\_cmp.cloud\_governor or admin
 
     The following example rule is applied for a blueprint provision approval policy. The condition evaluates to true if the **OS profile** field on the request form has the value “Windows”.
 
-    ![Configuring a condition to test the requested OS](../image/condition-example-os-profile.png)
+    \[Omitted image "condition-example-os-profile.png"\] Alt text: Configuring a condition to test the requested OS
 
 <table id="table_bth_qm3_jbb"><thead><tr><th>
 
@@ -103,11 +104,11 @@ When defining multiple conditions, select a logical operator **OR** or **AND** t
 
 For policies that are triggered by the `on Lease end` trigger, use the base-system date condition builder to configure the condition to test. In addition to the condition, the following example shows the actions that the policy engine performs if the condition is met.
 
-![Condition and actions for a Lease end policy](../image/cloud-policy-rule.png "Condition and actions for a lease end policy")
+\[Omitted image "cloud-policy-rule.png"\] Alt text: Condition and actions for a Lease end policy
 
 ## What to do next
 
 Create the policy actions that should run when all conditions of the rule evaluate to true.
 
-**Parent Topic:**[Create a cloud policy](create-cloud-policy.md)
+**Parent Topic:**[Create a cloud policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-cloud-policy.md)
 

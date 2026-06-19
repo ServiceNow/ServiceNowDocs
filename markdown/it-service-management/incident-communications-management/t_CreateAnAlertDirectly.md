@@ -2,6 +2,7 @@
 title: Create adhoc incident communication plan from Incident Communications Management
 description: Create an incident communication plan from Incident Communications Management when an issue is not considered earlier. If you need collaboration on that issue, you can create an incident communication plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-communications-management/t\_CreateAnAlertDirectly.html
 release: zurich
 product: Incident Communications Management
 classification: incident-communications-management
@@ -25,7 +26,7 @@ Role required: major\_incident\_manager, ia\_admin, or admin
 
 2.  On the form, fill in the fields.
 
-    ![Incident communication plan form](../image/new-incident-communications-plan-form.png "Incident Communication Plan form")
+    \[Omitted image "new-incident-communications-plan-form.png"\] Alt text: Incident communication plan form
 
     |Field|Description|
     |-----|-----------|
@@ -46,5 +47,5 @@ Role required: major\_incident\_manager, ia\_admin, or admin
     An incident communication plan is created. The **Communication** tab lists the communication tasks that have email, SMS, or slack as the communication channel. The **Conference** tab lists the communication tasks that have conference as the communication channel.
 
 
-**Parent Topic:**[Create adhoc incident communication plan](../concept/c_CreateIncidentAlerts.md)
+**Parent Topic:**[Create adhoc incident communication plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-communications-management/c_CreateIncidentAlerts.md)
 

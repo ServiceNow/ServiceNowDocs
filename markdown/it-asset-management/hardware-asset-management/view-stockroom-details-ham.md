@@ -2,6 +2,7 @@
 title: View stockroom details
 description: View detailed information about the stockrooms where your hardware, consumables, bundles, pallets, loaner, enterprise, and other assets are located.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/view-stockroom-details-ham.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -40,7 +41,7 @@ Role required: admin or asset
         -   **Auto-consume**
         -   **Auto-transfer**
         -   **Auto-purchase**
-        For more details, see [Configure a stockroom for automated sourcing by AI agents](configure-stockroom-auto-sourcing.md) and [Now Assist for Hardware Asset Management \(HAM\) AI agent collection Help manage hardware asset requests agentic workflow](../../now-assist-ham/concept/now-assist-ham-fulfill-req-agent-workflow.md).
+        For more details, see [Configure a stockroom for automated sourcing by AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/configure-stockroom-auto-sourcing.md) and [Now Assist for Hardware Asset Management \(HAM\) AI agent collection Help manage hardware asset requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham-fulfill-req-agent-workflow.md).
 
 5.  On the Task timeline tab, view the timeline of all scheduled stockroom tasks and the inbound shipments, outbound shipments, and work activities associated with those tasks.
 
@@ -57,8 +58,8 @@ Role required: admin or asset
         -   **4 Weeks**
 7.  View the service locations and distribution channels of the stockroom and details of different types of assets in the stockroom by selecting the tabs corresponding to the asset type.
 
-    **Note:** The tabs related to the enterprise assets appear only if the Enterprise Asset Management application is installed on your ServiceNow® instance. If you select an enterprise asset, you’re automatically redirected to the corresponding record in the Enterprise Asset Workspace. If you have access to an enterprise asset, you also have access to the Enterprise Asset Workspace. For more details, see [Enterprise Asset Workspace](../../enterprise-asset-management/concept/using-eam-workspace.md).
+    **Note:** The tabs related to the enterprise assets appear only if the Enterprise Asset Management application is installed on your ServiceNow® instance. If you select an enterprise asset, you’re automatically redirected to the corresponding record in the Enterprise Asset Workspace. If you have access to an enterprise asset, you also have access to the Enterprise Asset Workspace. For more details, see [Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/using-eam-workspace.md).
 
 
-**Parent Topic:**[Manage stockrooms](../concept/manage-your-stockrooms.md)
+**Parent Topic:**[Manage stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
 

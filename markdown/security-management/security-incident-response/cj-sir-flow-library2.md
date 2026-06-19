@@ -2,6 +2,7 @@
 title: Playbook for Failed Login Manual
 description: When a user makes certain unsuccessful login attempts \(according to the SIM configuration\), a security incident is created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/cj-sir-flow-library2.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -52,7 +53,7 @@ For more information, see the [ServiceNow store](https://store.servicenow.com/).
 
 ## Security analyst experience
 
-To understand how to resolve security threats in a step-by-step manner, see [Resolve security threats with the playbook](../task/use-the-playbook.md#).
+To understand how to resolve security threats in a step-by-step manner, see [Resolve security threats with the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/use-the-playbook.md).
 
 ## Using Failed Login playbook with Flow Designer capabilities
 
@@ -70,7 +71,7 @@ To understand how to resolve security threats in a step-by-step manner, see [Res
 
 The following image shows a copy of the Failed Login Manual playbook. Review the steps below to get an understanding of the various actions in the playbook.
 
-![Copy of failed login manual playbook](../image/cj-sir-failed-login-1.png)
+\[Omitted image "cj-sir-failed-login-1.png"\] Alt text: Copy of failed login manual playbook
 
 This playbook is triggered and associated with the security incident when the following conditions are met:
 
@@ -78,18 +79,18 @@ This playbook is triggered and associated with the security incident when the fo
 -   Has one or more affected users
 -   Security incident isn’t closed or canceled
 
-![Failed login playbook: trigger](../image/cj-sir-failed-login-trigger.png)
+\[Omitted image "cj-sir-failed-login-trigger.png"\] Alt text: Failed login playbook: trigger
 
 The following steps walks you through the actions, tasks, and subflows that are available in the Failed Login Manual playbook.
 
 1.  When the playbook starts executing, in Step 1, the playbook is automatically updated with a worknote showing the security incident with the failed login category has been assigned.
 
-    ![Failed login playbook: step 1](../image/cj-sir-failed-login-2.png)
+    \[Omitted image "cj-sir-failed-login-2.png"\] Alt text: Failed login playbook: step 1
 
 2.  In Step 2, the playbook is updated and moved to the Analysis state.
 3.  In Step 3, the playbook checks if the Affected User is an active or inactive user. If the user is inactive, a worknote is added to the security incident that the user account is inactive.
 
-    ![Failed login playbook: step 3](../image/cj-sir-failed-login-3.png)
+    \[Omitted image "cj-sir-failed-login-3.png"\] Alt text: Failed login playbook: step 3
 
     **Note:** In step 3 of the flow, the flow checks inactive users in the `sn_si_incident` table available in ServiceNow. This step is provided as a guideline and must be modified for your specific environment. If you want to use this functionality, we recommend that you have an Active Directory integration set up in your environment. You can check with your Active Directory integration to find the user status and depending on the response, you can design the next steps for your playbook.
 
@@ -99,23 +100,23 @@ The following steps walks you through the actions, tasks, and subflows that are 
 5.  In Step 5, the observables are identified.
 6.  If no observables are found, a manual response task is created in Step 6 and the flow ends.
 
-    ![Failed login playbook: step 6](../image/cj-sir-failed-login-4.png)
+    \[Omitted image "cj-sir-failed-login-4.png"\] Alt text: Failed login playbook: step 6
 
 7.  If observables are found in Step 7, observables that aren’t allowed list are identified.
 8.  If at least one of the observables is not allowed list, the following steps are performed:
     1.  Steps 8.1 and 8.2 are executed. Observables are retrieved and an automated response task is initiated.
 
-        ![Failed login playbook: steps 8.1 and 8.2](../image/cj-sir-failed-login-5.png)
+        \[Omitted image "cj-sir-failed-login-5.png"\] Alt text: Failed login playbook: steps 8.1 and 8.2
 
     2.  After the automated task has been created, Step 8.3 \(8.3.1.1 and 8.3.2.1\) is run and the Enrich Observables and Threat Lookup integrations are executed. Note that these are subflows that have been included in the playbook.
 
-        ![Failed playbook flow: steps 8.3.1.1 and 8.3.1.2](../image/cj-sir-failed-login-6.png)
+        \[Omitted image "cj-sir-failed-login-6.png"\] Alt text: Failed playbook flow: steps 8.3.1.1 and 8.3.1.2
 
     3.  In Step 8.4, after the integrations have been completed, the security incident record is updated.
     4.  In Step 8.5, a new response task is created to indicate the next automated task that will take place.
     5.  In Step 8.6, the Sighting Search integration will be run on the observables.
 
-        ![Failed login playbook: step 8.6](../image/cj-sir-failed-login-7.png)
+        \[Omitted image "cj-sir-failed-login-7.png"\] Alt text: Failed login playbook: step 8.6
 
     6.  After the Sighting Search subflow has been completed, in Step 8.7, the security incident is updated.
     7.  In Step 8.8, the observables are checked to see if they are malicious.
@@ -131,12 +132,12 @@ The following steps walks you through the actions, tasks, and subflows that are 
 
         2.  If the user responds No, an automated email is sent to the user to reconfirm the response. The security analyst has to manually take appropriate actions.
         3.  If the user doesn’t respond to the automated email, the security analyst must update the security incident manually and provide a response. A manual task is created to validate if the user account has been compromised.
-        ![Failed login playbook: step 8.10.2](../image/cj-sir-failed-login-8.png)
+        \[Omitted image "cj-sir-failed-login-8.png"\] Alt text: Failed login playbook: step 8.10.2
 
 9.  In Step 8.10.3, the security incident is state is updated.
 10. In Step 8.10.4, an automated task is created to verify if the Create Block Requests for Malicious IPs and URLs capability implementation is available. If the capability implementation is available, the Create Block Requests subflow is executed. If this isn’t available, the security incident is updated and a worknote is posted to indicate that the capability implementation isn’t available.
 11. In Step 9, the security incident is updated and the state is set to **Review**.
 12. In Step 10, a response task is created for the user to complete the post-incident review before closing the task.
 
-**Parent Topic:**[Flow-based Playbooks](playbook-flow-based.md)
+**Parent Topic:**[Flow-based Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/playbook-flow-based.md)
 

@@ -2,6 +2,7 @@
 title: Compliance Case form
 description: Use the Create Compliance Case form in the GRC: Compliance Case Management application to report a compliance case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/compliance-case-management/compliance-case-form.html
 release: zurich
 product: Compliance Case Management
 classification: compliance-case-management
@@ -436,5 +437,5 @@ Save
 Save the details of the compliance case.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a compliance case in the Compliance Workspace](../task/create-compliance-case.md)
+</table>**Parent Topic:**[Create a compliance case in the Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/create-compliance-case.md)
 

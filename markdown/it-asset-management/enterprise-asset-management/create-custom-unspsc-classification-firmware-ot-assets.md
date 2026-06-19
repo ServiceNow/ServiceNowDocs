@@ -2,6 +2,7 @@
 title: Create a custom United Nations Standard Products and Services Code \(UNSPSC\) classification for firmware in your operational technology \(OT\) assets
 description: If the UNSPSC classification for any firmware that is embedded into your OT assets isn't already represented in the Enterprise Asset Management Content Service, create a custom UNSPSC classification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/create-custom-unspsc-classification-firmware-ot-assets.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -17,7 +18,7 @@ If the UNSPSC classification for any firmware that is embedded into your OT asse
 
 ## Before you begin
 
-**Important:** You can create custom UNSPSC classifications only using the OT Asset Workspace. To use the OT Asset Workspace, install the OT Asset Management application on your ServiceNow instance. See [Install OT Asset Management](install-otam.md) for detailed instructions.
+**Important:** You can create custom UNSPSC classifications only using the OT Asset Workspace. To use the OT Asset Workspace, install the OT Asset Management application on your ServiceNow instance. See [Install OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/install-otam.md) for detailed instructions.
 
 Role required: sn\_eam.enterprise\_admin
 

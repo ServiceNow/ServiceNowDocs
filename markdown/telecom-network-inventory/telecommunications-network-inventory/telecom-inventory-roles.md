@@ -2,6 +2,7 @@
 title: Assign user roles
 description: You can assign roles to control user access to specific features, capabilities, and data in the Telecommunications Network Inventory application. These assigned roles enable or prevent access to specific forms and processes by users with the specified roles only.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/telecom-inventory-roles.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -17,8 +18,8 @@ You can assign roles to control user access to specific features, capabilities, 
 
 You assign roles to users and groups by using the ServiceNow AI Platform user administration feature.
 
--   To assign a role to a user, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
--   To assign a role to a group, see [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+-   To assign a role to a user, see Assign a role to a user.
+-   To assign a role to a group, see Assign a role to a group.
 
 The Telecommunications Network Inventory provides the following roles:
 
@@ -76,5 +77,5 @@ Role that enables a user with the following permissions:-   Read access to all t
 -   Write, update, and delete access to the telephone number tables.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring Telecommunications Network Inventory](configuring-telecom-network-inventory.md)
+</table>**Parent Topic:**[Configuring Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configuring-telecom-network-inventory.md)
 

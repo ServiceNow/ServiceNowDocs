@@ -2,6 +2,7 @@
 title: Resend signature request
 description: Resend signature request functionality enables contract fulfillers to manually trigger signature request when needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-resend-sign-req.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -34,5 +35,5 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 Notification is resent to the current signatory.
 
-**Parent Topic:**[Signature workflow for a contract request](../concept/cncore-signature-workflow.md)
+**Parent Topic:**[Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-signature-workflow.md)
 

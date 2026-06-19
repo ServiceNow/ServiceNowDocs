@@ -2,6 +2,7 @@
 title: Language support for NLU services
 description: Entity extraction is supported on ServiceNow NLU models for specific languages only. The remaining languages support intent matching only. If you are using IBM Watson Assistant or Microsoft LUIS, supported languages vary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/language-support-nlu-services.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -21,9 +22,9 @@ The VA NLU Languages \[sys\_cs\_nlu\_language\] table lists the languages that a
 
 **Note:** If you choose a language that doesn't support full entity extraction, an error message appears.
 
-For unsupported language codes, you can specify a fallback language for NLU prediction. For example, if a user's language detected language is Mexican Spanish \(es-mx\), you can specify Spanish \(es\) as the fallback language, if it is enabled on your instance. For more information, see [Specify a fallback language for locale-specific languages and NLU prediction](../task/specify-fallback-language-nlu-prediction.md). You can also enable Dynamic Translation for Virtual Agent. For details, see [Using language detection and dynamic machine translation in Virtual Agent enhanced chat conversations](../concept/dynamic-lang-detection-translation-enhanced-chat.md).
+For unsupported language codes, you can specify a fallback language for NLU prediction. For example, if a user's language detected language is Mexican Spanish \(es-mx\), you can specify Spanish \(es\) as the fallback language, if it is enabled on your instance. For more information, see [Specify a fallback language for locale-specific languages and NLU prediction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/specify-fallback-language-nlu-prediction.md). You can also enable Dynamic Translation for Virtual Agent. For details, see [Using language detection and dynamic machine translation in Virtual Agent enhanced chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/dynamic-lang-detection-translation-enhanced-chat.md).
 
-**Note:** This content focuses specifically on NLU language support. For more information on LLM language support for Now Assist in Virtual Agent, see [Multilingual service for Now Assist](https://www.servicenow.com/docs/access?context=translation-for-now-assist&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Note:** This content focuses specifically on NLU language support. For more information on LLM language support for Now Assist in Virtual Agent, see .
 
 <table id="table_tkk_ymg_fpb"><thead><tr><th>
 
@@ -128,5 +129,5 @@ Google Dialogflow ES
 -   Turkish
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Localizing Virtual Agent conversations](../concept/localize-va-topic.md)
+</table>**Parent Topic:**[Localizing Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/localize-va-topic.md)
 

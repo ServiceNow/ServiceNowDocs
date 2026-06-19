@@ -2,7 +2,10 @@
 title: Search for information using Business Portal
 description: Use the search feature on the business portal header and home page to find information about a question or an issue.Use the business portal to search the knowledge base or view a list of popular knowledge base articles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_SearchForInfoUsingThe-businessPortal.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -59,7 +62,7 @@ The business portal includes a link to the knowledge base that you can use to se
     -   Most viewed
 3.  Do one of the following,
 
-<table id="choicetable_fs5_krt_vr"><tbody><tr><td id="d279337e215">
+<table id="choicetable_fs5_krt_vr"><tbody><tr><td id="d276638e215">
 
 **Click a product to display more specific information**
 
@@ -67,7 +70,7 @@ The business portal includes a link to the knowledge base that you can use to se
 
 Displays a list of categories on the left and articles on the right. Select a category to drill down even further.
 
-</td></tr><tr><td id="d279337e224">
+</td></tr><tr><td id="d276638e224">
 
 **Click a link from one of the lists**
 
@@ -75,7 +78,7 @@ Displays a list of categories on the left and articles on the right. Select a ca
 
 Displays the article.
 
-</td></tr><tr><td id="d279337e233">
+</td></tr><tr><td id="d276638e233">
 
 **Type a topic in the __Search__ field and press the Enter key**
 

@@ -2,6 +2,7 @@
 title: Privacy data request fulfillment workflow
 description: After a requester successfully submits a privacy request and completes email verification, the request is routed to a Personal Data Rights \(PDR\) agent. The agent assigns action tasks to internal owners, reviews all completed tasks, closes the request, and notifies the requester by email with relevant details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/privacy-req-fulfill-workflow.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace

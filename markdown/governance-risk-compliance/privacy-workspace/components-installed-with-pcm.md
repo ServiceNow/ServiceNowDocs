@@ -2,6 +2,7 @@
 title: Components installed with Privacy Case Management
 description: Several types of components are installed with installation of the Privacy Case Management application, including tables, user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/components-installed-with-pcm.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -287,5 +288,5 @@ Stores the Key stakeholders record mapped at Case level.
 Privacy Case Management
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Privacy Case Management reference information](pcm-reference-information.md)
+</table>**Parent Topic:**[Privacy Case Management reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/pcm-reference-information.md)
 

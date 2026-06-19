@@ -2,7 +2,10 @@
 title: Tracking the customers serviced by a business location
 description: You can track the customers that are serviced by the business location in the Customer Service Management \(CSM\) application. Your organization can associate your customers, accounts, and households with business locations and even create or resolve cases on the behalf of customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/track-customers-serviced-by-bus-loc.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -23,7 +26,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Create the criteria for a service organization](../task/create-service-organization-criteria.md)
+[Create the criteria for a service organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-service-organization-criteria.md)
 
 </td><td>
 
@@ -31,7 +34,7 @@ Create the records for the service organization criteria that define the list of
 
 </td></tr><tr><td>
 
-[Define the configuration type for customers or business locations](../task/associate-customer-criteria-to-service-organization.md)
+[Define the configuration type for customers or business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/associate-customer-criteria-to-service-organization.md)
 
 </td><td>
 
@@ -39,7 +42,7 @@ Define the configuration type for the customers served to provide your service o
 
 </td></tr><tr><td>
 
-[Associate customers or business locations to a service organization](../task/associate-customers-or-bus-loc-to-so.md)
+[Associate customers or business locations to a service organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/associate-customers-or-bus-loc-to-so.md)
 
 </td><td>
 

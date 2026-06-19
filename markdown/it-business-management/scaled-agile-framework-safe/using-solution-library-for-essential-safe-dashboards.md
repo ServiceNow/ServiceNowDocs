@@ -2,6 +2,7 @@
 title: Using Solution Library for Essential SAFe dashboards
 description: Upgrade to the latest layout of Essential SAFe dashboards using Solution Library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scaled-agile-framework-safe/using-solution-library-for-essential-safe-dashboards.html
 release: zurich
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -27,5 +28,5 @@ For example, if you are upgrading from version 1.0.1 or earlier of the applicati
 
 **Note:** For users on the Zurich release, the **Install** and **Upgrade** buttons are not visible on the Solution Library content form. For information on resolving this issue, see [Allow PA Solution Library for Store apps](https://support.servicenow.com/kb_view.do?sys_kb_id=ce74a4bb1b89d4107a5933f2cd4bcb3f).
 
-**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](../application-content-packs/pa-content-pack-essential-safe.md)
+**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/pa-content-pack-essential-safe.md)
 

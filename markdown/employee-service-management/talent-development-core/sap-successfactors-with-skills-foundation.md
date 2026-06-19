@@ -2,6 +2,7 @@
 title: SAP SuccessFactors integration Skills Foundation
 description: Import skills \(skill data and user-specific skill data\) from SAP SuccessFactors into your Skills Foundation application using the skills import flow to maintain data consistency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/sap-successfactors-with-skills-foundation.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core

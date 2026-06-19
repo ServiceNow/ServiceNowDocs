@@ -2,6 +2,7 @@
 title: Update the live agent script include
 description: Live agent configuration is used in the self-solved deflections \(Deflection using KB articles, Deflection using QnA AIS, Deflection using QnA LLM, and Deflection using ITSM VA\). While we configure these deflections, we need to update the live agent script include. Update the SSADeflectionHelper script to override the checkInteraction function.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-success-dashboard-indicators/update-live-agent-script-include.html
 release: zurich
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -57,8 +58,8 @@ The SSADeflectionHelper script overrides the check interaction function and help
         var interactionConditions = 'virtual_agent!=true^ORstateINon_hold,closed_abandoned^ORsys_created_by=system^ORopened_for.web_service_access_only!=false^opened_for.web_service_access_onlyISNOTEMPTY^ORopened_for.internal_integration_user!=false^opened_for.internal_integration_userISNOTEMPTY^assigned_to!=' + vaUser + '^ORassigned_to=NULL';
         ```
 
-    ![Live agent script include](../image/liveagent-script-include.png)
+    \[Omitted image "liveagent-script-include.png"\] Alt text: Live agent script include
 
 
-**Parent Topic:**[ITSM Success Dashboard Admin console](../concept/admin-console-sd.md)
+**Parent Topic:**[ITSM Success Dashboard Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-success-dashboard-indicators/admin-console-sd.md)
 

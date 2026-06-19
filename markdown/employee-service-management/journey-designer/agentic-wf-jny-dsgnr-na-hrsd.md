@@ -2,6 +2,7 @@
 title: Agentic workflows for Journey designer
 description: Use agentic workflows and Now Assist for HRSD to facilitate and manage employee journeys throughout the different stages of the employee's career. These workflows, powered by a single or team of AI agents, help your organization by automating procedures for managers while simultaneously curating custom experiences for employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/agentic-wf-jny-dsgnr-na-hrsd.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -29,7 +30,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Generate onboarding ramp-up plan](onboarding-ramp-up-plan-agentic-wf.md)
+[Generate onboarding ramp-up plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/onboarding-ramp-up-plan-agentic-wf.md)
 
 </td><td>
 
@@ -58,14 +59,14 @@ To modify an agentic workflow, you must first duplicate the agentic workflow tha
 
 For more information about duplicating an agentic workflow and activating the required components, see the following topics:
 
--   [Duplicate an agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)
--   [Activate an agentic workflow template](https://www.servicenow.com/docs/access?context=activate-aia-use-case&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)
--   [Modify an AI agent](https://www.servicenow.com/docs/access?context=modify-ai-agent&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)
+-   Duplicate an agentic workflow
+-   
+-   
 
 Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 
-**Parent Topic:**[Using Journey designer](using-jny-dsnr.md)
+**Parent Topic:**[Using Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/using-jny-dsnr.md)
 

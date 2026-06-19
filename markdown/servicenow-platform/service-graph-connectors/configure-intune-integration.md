@@ -2,6 +2,7 @@
 title: Configure Service Graph Connector for Microsoft Intune using the guided setup
 description: Set up authentication credentials and a scheduled job to import Microsoft Intune data into your CMDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/configure-intune-integration.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -19,7 +20,7 @@ Set up authentication credentials and a scheduled job to import Microsoft Intune
 
 **Important:** The guided setup method is deprecated from version 2.7.0 of the Service Graph Connector for Microsoft Intune. Use the SGC Central view in the Service Graph Workspace or CMDB Workspace to configure the connection for the connector.
 
-To use this Service Graph Connector, you need a subscription to a Subscription Unit that is based in the IT Operations Management \(ITOM\) Visibility application or in the ITOM Discovery application. As defined in the section titled "Managed IT Resource Types" in [ServiceNow Subscription Unit Overview](https://www.servicenow.com/products/entitlements-packages.html) for your subscription, for managed IT resources that are created or modified in the CMDB by this Service Graph Connector, but that aren’t yet managed by [ITOM Visibility or ITOM Discovery](https://www.servicenow.com/docs/access?context=itom-license-module&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US), these resources will increase Subscription Unit consumption from that application. Review your current Subscription Unit consumption within ITOM Visibility or ITOM Discovery to ensure available capacity.
+To use this Service Graph Connector, you need a subscription to a Subscription Unit that is based in the IT Operations Management \(ITOM\) Visibility application or in the ITOM Discovery application. As defined in the section titled "Managed IT Resource Types" in [ServiceNow Subscription Unit Overview](https://www.servicenow.com/products/entitlements-packages.html) for your subscription, for managed IT resources that are created or modified in the CMDB by this Service Graph Connector, but that aren’t yet managed by ITOM Visibility or ITOM Discovery, these resources will increase Subscription Unit consumption from that application. Review your current Subscription Unit consumption within ITOM Visibility or ITOM Discovery to ensure available capacity.
 
 Obtain the following information from your Microsoft Intune administrator:
 
@@ -37,10 +38,10 @@ For more details on permissions, see [Service Graph Connector for Microsoft Intu
 
 Dependencies and requirements:
 
--   The [Integration Commons for CMDB](../concept/integration-commons-for-cmdb.md) store app, which is automatically installed.
--   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models](../concept/cmdb-ci-class-models.md).
+-   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
+-   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
 -   Datastream Action plugin \(com.glide.hub.action\_type.datastream\), which is automatically installed.
--   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://www.servicenow.com/docs/access?context=t_ActivateTheDiscoveryPlugin&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+-   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see Request Discovery.
 -   ServiceNow IntegrationHub Zip step \(com.glide.hub.action\_step.zip\), which is automatically installed.
 -   ServiceNow IntegrationHub JSON Parser step \(com.glide.hub.action\_step.jsonparser\), which is automatically installed.
 
@@ -48,7 +49,7 @@ Multi-instance is supported for importing data from multiple Microsoft Intune in
 
 Role required: SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin
 
-**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](../concept/cmdb-sgc-intro.md#section_ett_spp_4hc).
+**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
 
 ## Procedure
 
@@ -206,7 +207,7 @@ Where *&lt;tenantid&gt;* is the tenant ID of your Microsoft Intune application.
 
 6.  Add multiple instances.
 
-    1.  On the left sidebar, select the Add Multiple Instances icon \(![Add Multiple Instances icon.](../image/duplicate-detection-rules.png)\).
+    1.  On the left sidebar, select the Add Multiple Instances icon \(\[Omitted image "duplicate-detection-rules.png"\] Alt text: Add Multiple Instances icon.\).
 
     2.  On the Service Graph Connector for Microsoft Intune page, in the Add Multiple Instances section, select the Update Data Source Access task.
 
@@ -220,7 +221,7 @@ Where *&lt;tenantid&gt;* is the tenant ID of your Microsoft Intune application.
 
     7.  Set the Update Data Source Access task to complete by selecting **Mark as Complete**.
 
-    8.  Repeat the steps [6.c](configure-intune-integration.md#global) to [6.f](configure-intune-integration.md#app) for the Update Scheduled data import access task with the Scheduled data import \[scheduled\_data\_set\] table and set the task to complete by selecting **Mark as Complete**.
+    8.  Repeat the steps [6.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-intune-integration.md) to [6.f](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-intune-integration.md) for the Update Scheduled data import access task with the Scheduled data import \[scheduled\_data\_set\] table and set the task to complete by selecting **Mark as Complete**.
 
 7.  Clear the cache for the new connection.
 
@@ -441,7 +442,7 @@ Enable retrieving the IP addresses of devices during import and populate the rec
 
     3.  On the Scheduled Data Import form, verify the field values for the scheduled job and select the **Active** check box.
 
-        For more information, see [Schedule a data import](https://www.servicenow.com/docs/access?context=t_ScheduleADataImport&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US#table_r53_5hm_xp).
+        For more information, see .
 
     4.  Select **Update**.
 
@@ -464,10 +465,10 @@ Enable retrieving the IP addresses of devices during import and populate the rec
         2.  In the Scheduled jobs list, select **SG-Intune Trigger Device Reports** job.
         3.  On the Scheduled Script Execution form, verify the field values for the scheduled job and select the **Active** check box.
 
-            For more information, see [Schedule script execution form](https://www.servicenow.com/docs/access?context=t_ScheduleAScriptExecution&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US#t_ScheduleScriptExecution).
+            For more information, see Schedule script execution form.
 
         4.  Select **Update**.
-        5.  To activate the scheduled job for the SG-Intune Software Reports data source, repeat steps [11.a.ii](configure-intune-integration.md#select-job) to [11.a.iv](configure-intune-integration.md#exe-job) by selecting the **SG-Intune Trigger Software Reports** scheduled job.
+        5.  To activate the scheduled job for the SG-Intune Software Reports data source, repeat steps [11.a.ii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-intune-integration.md) to [11.a.iv](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-intune-integration.md) by selecting the **SG-Intune Trigger Software Reports** scheduled job.
         6.  Return to the guided setup page and set the Configure scheduled jobs for advanced data sources task to complete by selecting **Mark as Complete**.
         **Important:**
 
@@ -482,7 +483,7 @@ Enable retrieving the IP addresses of devices during import and populate the rec
         2.  In the Scheduled Data Imports list, select the **SG-Intune Device Reports** scheduled import.
         3.  On the Scheduled Data Import form, verify the field values for the scheduled data import and select the **Active** check box.
 
-            For more information, see [Schedule a data import](https://www.servicenow.com/docs/access?context=t_ScheduleADataImport&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US#table_r53_5hm_xp).
+            For more information, see .
 
         4.  Select **Update**.
         5.  Return to the guided setup page and set the Configure the scheduled import for advanced data sources task to complete by selecting **Mark as Complete**.
@@ -516,7 +517,7 @@ Enable retrieving the IP addresses of devices during import and populate the rec
         6.  Return to the guided setup page and set the Clear cache for scheduled job task to complete by selecting **Mark as Complete**.
     5.  When using multiple instances, create advanced data sources, scheduled jobs, and scheduled imports for the new connections.
 
-        **Tip:** You can create additional connections for multiple instances by following the instructions in the [Add Multiple Instances](configure-intune-integration.md#add-multi-instance) section of the guided setup.
+        **Tip:** You can create additional connections for multiple instances by following the instructions in the [Add Multiple Instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-intune-integration.md) section of the guided setup.
 
         1.  For the Set up advanced data sources for multiple instances task, select **Configure**.
         2.  On the form, fill in the fields to configure your scheduled job details for the new connection.
@@ -555,7 +556,7 @@ User to populate the field on the scheduled data import.
 
 </td></tr></tbody>
 </table>        3.  Select **Submit** to create scheduled imports for your new connection.
-        4.  To activate any newly created scheduled jobs, repeat steps [11.a.ii](configure-intune-integration.md#select-job) to [11.a.iv](configure-intune-integration.md#exe-job).
-        5.  To activate any newly created parent scheduled import, repeat steps [11.b.ii](configure-intune-integration.md#data-import-start) to [11.b.iv](configure-intune-integration.md#data-import-exe).
+        4.  To activate any newly created scheduled jobs, repeat steps [11.a.ii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-intune-integration.md) to [11.a.iv](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-intune-integration.md).
+        5.  To activate any newly created parent scheduled import, repeat steps [11.b.ii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-intune-integration.md) to [11.b.iv](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-intune-integration.md).
         6.  Return to the guided setup page and set the Set up advanced data sources for multiple instances task to complete by selecting **Mark as Complete**.
 

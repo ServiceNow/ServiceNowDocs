@@ -2,6 +2,7 @@
 title: Create an assessment template category
 description: Create an assessment template category in the Smart Assessment Engine application so that you can organize and grant access to the assessment templates that are related.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.html
 release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine

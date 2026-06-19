@@ -2,6 +2,7 @@
 title: Localization Framework support for Knowledge Base
 description: Localization Framework enables the translation of Knowledge Base \(KB\) articles when a KB article is requested for translation into a language and when a localization requested item \(LRITM\) is created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/localization-framework/lf-support-for-kb-articles.html
 release: zurich
 product: Localization Framework
 classification: localization-framework
@@ -19,7 +20,7 @@ Localization Framework enables the translation of Knowledge Base \(KB\) articles
 
 The extension of the Localization Framework capabilities to KB articles enables you to do the following tasks:
 
--   Select multiple languages from the available languages in the instance to configure settings with the knowledge base artifact. To configure localization settings, see [Localization Framework settings](localization-settings.md).
+-   Select multiple languages from the available languages in the instance to configure settings with the knowledge base artifact. To configure localization settings, see [Localization Framework settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/localization-settings.md).
 -   Create LRITMs by requesting translations into one or more languages.
 -   Translate the content of the KB articles directly using the request translations option.
 -   Read, edit, and machine translate the content. You can also send the content to TMS or via email. You can export and import the content of the KB articles.
@@ -29,7 +30,7 @@ The extension of the Localization Framework capabilities to KB articles enables 
 -   Approve and publish the translated content.
 -   Translate Knowledge Base articles in bulk in multiple languages.
 
-For more information on translating the KB articles, see [Knowledge base article localization](https://www.servicenow.com/docs/access?context=translation-management&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+For more information on translating the KB articles, see Knowledge base article localization.
 
-**Parent Topic:**[Explore Localization Framework](exploring-localization-framework.md)
+**Parent Topic:**[Explore Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/exploring-localization-framework.md)
 

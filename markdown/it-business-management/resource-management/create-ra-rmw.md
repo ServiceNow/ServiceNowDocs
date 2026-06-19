@@ -2,6 +2,7 @@
 title: Create resource assignments and operation resource assignments in Resource Management Workspace
 description: Create and assign resource assignments and operation resource assignments from Resource Management Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/resource-management/create-ra-rmw.html
 release: zurich
 product: Resource Management
 classification: resource-management
@@ -23,19 +24,19 @@ Role required: resource\_user, resource\_manager, It\_project\_manager
 
 1.  Navigate to **Workspaces** &gt; **Resource Management Workspace**.
 
-2.  Select the Resource cards icon \(![Resource cards icon.](../images/rmw-resource-cards-L1-icon.png)\) from the menu and open a resource card.
+2.  Select the Resource cards icon \(\[Omitted image "rmw-resource-cards-L1-icon.png"\] Alt text: Resource cards icon.\) from the menu and open a resource card.
 
 3.  Create resource assignments using one of the following options.
 
-<table id="choicetable_ibq_nxx_bcc"><thead><tr><th align="left" id="d231936e98">
+<table id="choicetable_ibq_nxx_bcc"><thead><tr><th align="left" id="d55967e98">
 
 Option
 
-</th><th align="left" id="d231936e101">
+</th><th align="left" id="d55967e101">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d231936e107">
+</th></tr></thead><tbody><tr><td id="d55967e107">
 
 **Create a resource assignment**
 
@@ -44,9 +45,9 @@ Procedure
 1.  Select **New** or select **New Resource Assignment** from the more actions list.
 2.  On the New Resource Assignment form, fill in the fields.
 
-For a description of the field names, see [New Resource Assignment form](../concept/create-ra-form-rmw.md).
+For a description of the field names, see [New Resource Assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/create-ra-form-rmw.md).
 
-</td></tr><tr><td id="d231936e143">
+</td></tr><tr><td id="d55967e143">
 
 **Create operational resource assignment**
 
@@ -55,7 +56,7 @@ For a description of the field names, see [New Resource Assignment form](../conc
 1.  Select **New operational Assignment** from the more actions list.
 2.  On the New Operational Assignment form, fill in the fields.
 
-For a description of the field names, see [New Operational Assignment form](../concept/create-op-ra-form-rmw.md).
+For a description of the field names, see [New Operational Assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/create-op-ra-form-rmw.md).
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
@@ -67,5 +68,5 @@ Resource assignment is created. You can filter and view this assignment in the l
 
 If an assignment is made for a resource from the resource board and if it's within the selected date range, the assignment shows up nested under the selected resource in real-time.
 
-**Parent Topic:**[Using Resource Management Workspace](../concept/using-rmw.md)
+**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/using-rmw.md)
 

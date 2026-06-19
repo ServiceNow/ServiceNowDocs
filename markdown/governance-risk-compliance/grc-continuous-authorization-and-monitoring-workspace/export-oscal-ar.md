@@ -2,11 +2,12 @@
 title: Export OSCAL AR
 description: Export Assessment Results \(AR\) data in Open Security Controls Assessment Language \(OSCAL\) JSON format to share assessment outcomes including control test results, findings, and attestations from completed engagements. The authorization package must be in Assess, Authorize, or Monitor state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/export-oscal-ar.html
 release: zurich
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 2
 breadcrumb: [Export OSCAL files from authorization package, Export in OSCAL format, CAM OSCAL, CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -23,7 +24,7 @@ Role required: sn\_irm\_cont\_auth.admin, sn\_irm\_cont\_auth.system\_owner, sn\
 
 1.  Navigate to **Workspaces** &gt; **CAM Workspace**.
 
-2.  In the CAM Workspace, select the List icon \(![List](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the CAM Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List\).
 
 3.  Select **Authorization packages** from the **RMF** list.
 
@@ -63,5 +64,5 @@ Role required: sn\_irm\_cont\_auth.admin, sn\_irm\_cont\_auth.system\_owner, sn\
         -   Metadata: Responsible parties, roles, and all engagement fields
         -   Local definitions: Related controls with control IDs, control objectives, and assessment procedure labels
 
-**Parent Topic:**[Export OSCAL files from authorization package](../concept/export-oscal-files-from-authorization-package.md)
+**Parent Topic:**[Export OSCAL files from authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/export-oscal-files-from-authorization-package.md)
 

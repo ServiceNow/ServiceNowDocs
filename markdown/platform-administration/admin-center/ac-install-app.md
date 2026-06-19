@@ -2,6 +2,7 @@
 title: Install applications for an adoption blueprint
 description: Install applications from the selected adoption blueprint to work towards achieving a certain business goal of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/admin-center/ac-install-app.html
 release: zurich
 product: Admin Center
 classification: admin-center
@@ -27,7 +28,7 @@ Role required: admin
 
 2.  Start the installation of the selected application.
 
-    ![Image showing get started button](../image/ac-get-started.png)The button to start the installation or activation may vary depending on the selected application.
+    \[Omitted image "ac-get-started.png"\] Alt text: Image showing get started buttonThe button to start the installation or activation may vary depending on the selected application.
 
     -   **Activate**: If you have selected a plugin
     -   **Install**: If you have selected an application
@@ -36,8 +37,8 @@ Role required: admin
 
         **Note:** You can view the configuration page of the application by clicking **Get Started**.
 
-    **Note:** Some applications and plugins show dependency applications and roles that need to be installed.![Image showing technical details of certain applications](../image/ac-dependency-app.png)
+    **Note:** Some applications and plugins show dependency applications and roles that need to be installed.\[Omitted image "ac-dependency-app.png"\] Alt text: Image showing technical details of certain applications
 
 
-**Parent Topic:**[Adoption blueprints](../concept/ac-achieve-business-objective.md)
+**Parent Topic:**[Adoption blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-achieve-business-objective.md)
 

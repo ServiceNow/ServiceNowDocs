@@ -2,13 +2,14 @@
 title: Buy out your leased hardware asset
 description: Buy out your leased hardware asset before the contract expires and avoid paying a penalty.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/purchase-your-leased-hw-asset.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Manage your expiring contracts for leased hardware assets, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage expiring lease contracts, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Buy out your leased hardware asset
@@ -39,7 +40,7 @@ After you choose to buy out your leased asset, various Contract Asset tasks are 
 
 6.  Change the **State** to **Closed Complete**.
 
-    To take a lease action, you can follow any of the ways mentioned in [Manage your expiring contracts for leased hardware assets](manage-your-leased-hw-asts-expiring-contract.md).
+    To take a lease action, you can follow any of the ways mentioned in [Manage your expiring contracts for leased hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-your-leased-hw-asts-expiring-contract.md).
 
     The Purchase order and Purchase order lines are created. In the Purchase order form, the **PO Type** field under the Details section is set to **Lease buyout**. You can order the Purchase orders only after completing all the asset tasks that are associated with the line items of the Purchase order.
 
@@ -85,5 +86,5 @@ After a buyout is confirmed, the following changes occur in the asset record und
 -   The **Cost** field is updated to the buyout amount.
 -   The **Acquisition method** field is changed to Purchase.
 
-**Parent Topic:**[Manage your expiring contracts for leased hardware assets](manage-your-leased-hw-asts-expiring-contract.md)
+**Parent Topic:**[Manage your expiring contracts for leased hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-your-leased-hw-asts-expiring-contract.md)
 

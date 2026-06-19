@@ -2,7 +2,10 @@
 title: Configure pre-chat after upgrading
 description: If you have upgraded, some settings need to be configured to use pre-chat effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-configure-pre-chat-upgrade.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-For information about using pre-chat surveys to capture preliminary information from a customer, see [Pre-chat surveys](../concept/csm-pre-chat-overview.md). If you have upgraded, you must manually adjust some settings to use Pre-chat most effectively.
+For information about using pre-chat surveys to capture preliminary information from a customer, see [Pre-chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-pre-chat-overview.md). If you have upgraded, you must manually adjust some settings to use Pre-chat most effectively.
 
 ## Procedure
 

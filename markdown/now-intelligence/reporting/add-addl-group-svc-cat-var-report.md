@@ -2,6 +2,7 @@
 title: Add additional group by variables to a service catalog report
 description: You can create reports grouped by any field with an additional group by variable on a selected service catalog item. In addition, you can create filters on the same variable. For example, if a mobile phone item has a storage variable, you can create a report that only shows those phones with 32 GB of storage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/add-addl-group-svc-cat-var-report.html
 release: zurich
 product: Reporting
 classification: reporting
@@ -48,20 +49,20 @@ You can apply these steps to any report type as long as the report source has va
 
 7.  Select **Additional group by**.
 
-8.  Select **Variables \[+\]** and select the structure icon \(![Report structure icon](../image/Form_ShowReportStructureIcon.png)\) to choose an item.
+8.  Select **Variables \[+\]** and select the structure icon \(\[Omitted image "Form\_ShowReportStructureIcon.png"\] Alt text: Report structure icon\) to choose an item.
 
-    ![Additional group by slushbucket](../image/additional-group-by-variable.png)
+    \[Omitted image "additional-group-by-variable.png"\] Alt text: Additional group by slushbucket
 
 9.  Select a **Catalog item**.
 
-    The variables associated with the item appear in the **Additional group by** window.![Additional group by variables](../image/additional-group-by-selected-variables.png)
+    The variables associated with the item appear in the **Additional group by** window.\[Omitted image "additional-group-by-selected-variables.png"\] Alt text: Additional group by variables
 
 10. Add the desired variables to the **Selected** column and select **OK**.
 
 11. Continue to configure and style the report according to its report type.
 
-    See [Report types](../reference/report-types-creation-details-rd.md).
+    See [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-types-creation-details-rd.md).
 
 
-**Parent Topic:**[Report on service catalog variables](../concept/rep-service-catalog-variables.md)
+**Parent Topic:**[Report on service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/rep-service-catalog-variables.md)
 

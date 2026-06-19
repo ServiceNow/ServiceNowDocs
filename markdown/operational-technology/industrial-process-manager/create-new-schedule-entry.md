@@ -2,6 +2,7 @@
 title: Create a schedule entry
 description: Create a schedule entry for an existing equipment model entity schedule in the Industrial Process Manager application. You can create more than one entry for a schedule. Schedule entries allow multiple maintenance tasks to take place for one equipment model entity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-process-manager/create-new-schedule-entry.html
 release: zurich
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -151,5 +152,5 @@ Repetition end date. If you leave this field empty, the schedule repeats indefin
 
 Your schedule entry is created, and now you can edit and update the entry as necessary.
 
-**Parent Topic:**[Managing an equipment model entity schedule](../concept/managing-equipment-entity-schedules.md)
+**Parent Topic:**[Managing an equipment model entity schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/managing-equipment-entity-schedules.md)
 

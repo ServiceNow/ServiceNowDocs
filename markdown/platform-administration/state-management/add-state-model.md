@@ -2,6 +2,7 @@
 title: Add a state model and transitions
 description: Add a state model and transitions to specify conditions for moving between states.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/state-management/add-state-model.html
 release: zurich
 product: State Management
 classification: state-management

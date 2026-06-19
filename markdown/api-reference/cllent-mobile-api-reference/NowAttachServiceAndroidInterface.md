@@ -2,6 +2,7 @@
 title: NowAttachmentService interface - Android
 description: The NowAttachmentService interface provides functions that enable the manipulation of file attachments and their associated metadata.Retrieves the attachment with the specified sys\_id and optionally validates the attachment by comparing the computed hash of the attachment to the expected hash.Retrieves the metadata for the attachment associated with the specified sys\_id.Retrieves the metadata for all the attachments that meet the specified criteria.Retrieves the metadata for all the attachments that meet the specified criteria and creates a paginator for iterating through the pages of the returned metadata.Deletes the attachment with the specified sys\_id.Retrieves the metadata for all the attachments that meet the specified criteria and creates a paginator for iterating through pages of the returned metadata.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/cllent-mobile-api-reference/NowAttachServiceAndroidInterface.html
 release: zurich
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -17,9 +18,9 @@ The NowAttachmentService interface provides functions that enable the manipulati
 
 |Name|Type|Description|
 |----|----|-----------|
-|configuration|[NowServiceConfiguration](../../NowServiceConfiguration/concept/NowServiceConfigurationAndroidAPI.md)|Configuration to associate with the service.|
+|configuration|[NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowServiceConfigurationAndroidAPI.md)|Configuration to associate with the service.|
 
-**Parent Topic:**[Mobile SDK - Android](../../concept/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## NowAttachmentService - attachment\(sysId: String, validateAttachment: Boolean = true\)
 
@@ -71,7 +72,7 @@ Flag that indicates whether to validate the attachment.
 </td></tr></tbody>
 </table>|Type|Description|
 |----|-----------|
-|[Call](../../Call/concept/CallAndroidInterface.md#)&lt;[NowAttachment](../../NowAttachment/concept/NowAttachmentAndroidAPI.md#)&gt;|NowAttachment object that contains the requested attachment.|
+|[Call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/CallAndroidInterface.md)&lt;[NowAttachment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAttachmentAndroidAPI.md)&gt;|NowAttachment object that contains the requested attachment.|
 
 ```
 fun getAttachment(sysId: String, isValidateAttachment: Boolean) { 
@@ -95,7 +96,7 @@ Retrieves the metadata for the attachment associated with the specified sys\_id.
 
 |Type|Description|
 |----|-----------|
-|[Call](../../Call/concept/CallAndroidInterface.md#)​&lt;[NowAttachmentMetadata](../../NowAttachmentMetadata/concept/NowAttachmentMetadataAndroidAPI.md#)&gt;|Object that contains the metadata for the specified attachment.|
+|[Call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/CallAndroidInterface.md)​&lt;[NowAttachmentMetadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAttachmentMetadataAndroidAPI.md)&gt;|Object that contains the metadata for the specified attachment.|
 
 ```
 fun fetchMetadata(sysId: String) { 
@@ -131,7 +132,7 @@ filter
 
 </td><td>
 
-[Filter](../../Filter/concept/FilterAndroidAPI.md#)
+[Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/FilterAndroidAPI.md)
 
 </td><td>
 
@@ -152,7 +153,7 @@ Optional. Maximum number of attachment file's metadata to return.Default: null -
 </td></tr></tbody>
 </table>|Type|Description|
 |----|-----------|
-|[Call](../../Call/concept/CallAndroidInterface.md#)&lt;[List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/)​&lt;[NowAttachmentMetadata](../../NowAttachmentMetadata/concept/NowAttachmentMetadataAndroidAPI.md#)&gt;&gt;|List of objects that contain the metadata for the matching attachments.|
+|[Call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/CallAndroidInterface.md)&lt;[List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/)​&lt;[NowAttachmentMetadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAttachmentMetadataAndroidAPI.md)&gt;&gt;|List of objects that contain the metadata for the matching attachments.|
 
 ```
 fun fetchMultipleMetadata(filterQuery: String, limit: Int) { 
@@ -190,7 +191,7 @@ filter
 
 </td><td>
 
-[Filter](../../Filter/concept/FilterAndroidAPI.md#)
+[Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/FilterAndroidAPI.md)
 
 </td><td>
 
@@ -219,7 +220,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Paginator​&lt;[NowAttachmentMetadata](../../NowAttachmentMetadata/concept/NowAttachmentMetadataAndroidAPI.md#)&gt;
+Paginator​&lt;[NowAttachmentMetadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAttachmentMetadataAndroidAPI.md)&gt;
 
 </td><td>
 
@@ -266,7 +267,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Call](../../Call/concept/CallAndroidInterface.md#)&lt;[ByteArray](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/)&gt;
+[Call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/CallAndroidInterface.md)&lt;[ByteArray](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/)&gt;
 
 </td><td>
 
@@ -294,7 +295,7 @@ Retrieves the metadata for all the attachments that meet the specified criteria 
 
 |Type|Description|
 |----|-----------|
-|[NowAttachmentMetadata](../../NowAttachmentMetadata/concept/NowAttachmentMetadataAndroidAPI.md#)|Uploaded metadata.|
+|[NowAttachmentMetadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAttachmentMetadataAndroidAPI.md)|Uploaded metadata.|
 
 ```
 fun uploadAttachment(tableName: String, recordSysId: String, fileName: String) { 

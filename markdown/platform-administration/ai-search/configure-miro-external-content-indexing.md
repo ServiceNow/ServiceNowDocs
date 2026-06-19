@@ -2,6 +2,7 @@
 title: Configure Miro for external content indexing
 description: Create and authorize an application in the Miro Developer Hub to allow the Miro external content connector to access your Miro source system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-miro-external-content-indexing.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -30,7 +31,7 @@ Role required: none
 
 The Miro external content connector retrieves searchable text content and metadata from boards in your Miro source system using the Miro REST API.
 
-To allow the connector to access your Miro source system via the Miro REST API, you must configure and authorize an OAuth 2.0 application in the Miro Developer Hub. Your connector admin can use settings copied from the OAuth 2.0 application to configure the Miro external connector for proper connection to your source system.
+To allow the connector to access your Miro source system via the Miro REST API, you must configure and authorize an OAuth 2.0 application in the Miro Developer Hub. Your connector administrator can use settings copied from the OAuth 2.0 application to configure the Miro external connector for proper connection to your source system.
 
 ## Procedure
 
@@ -60,11 +61,11 @@ To allow the connector to access your Miro source system via the Miro REST API, 
 
     1.  In the App Credentials section of the app's settings screen, copy the client ID for your new app and record it in a secure location.
 
-        **Important:** Your external content connector admin needs this client ID when configuring the Miro external content connector.
+        **Important:** Your external content connector administrator needs this client ID when configuring the Miro external content connector.
 
     2.  Copy the client secret for your new app and record it in a secure location.
 
-        **Important:** Your external content connector admin needs this client secret when configuring the Miro external content connector.
+        **Important:** Your external content connector administrator needs this client secret when configuring the Miro external content connector.
 
 3.  Configure the OAuth 2.0 redirect URI for your new application.
 
@@ -91,14 +92,14 @@ To allow the connector to access your Miro source system via the Miro REST API, 
 
 ## What to do next
 
-Provide the following items to your connector admin:
+Provide the following items to your connector administrator:
 
--   The OAuth 2.0 application client ID that you copied in step [2.a](configure-miro-external-content-indexing.md#copy-client-id-step)
--   The OAuth 2.0 application client secret that you copied in step [2.b](configure-miro-external-content-indexing.md#copy-client-secret-step)
+-   The OAuth 2.0 application client ID that you copied in step [2.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-miro-external-content-indexing.md)
+-   The OAuth 2.0 application client secret that you copied in step [2.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-miro-external-content-indexing.md)
 
-Your connector admin needs these items to configure a Miro external content connector to retrieve searchable text content and metadata and security principals from your Miro source system.
+Your connector administrator needs these items to configure a Miro external content connector to retrieve searchable text content and metadata and security principals from your Miro source system.
 
-For details on creating and configuring a Miro external content connector, see [Create a Miro external content connector](create-ext-cont-connector-miro.md).
+For details on creating and configuring a Miro external content connector, see [Create a Miro external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-miro.md).
 
-**Parent Topic:**[Miro external content connector](../concept/miro-external-content-connector.md)
+**Parent Topic:**[Miro external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/miro-external-content-connector.md)
 

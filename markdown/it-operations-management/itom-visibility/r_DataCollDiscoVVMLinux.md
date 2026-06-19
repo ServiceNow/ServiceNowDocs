@@ -2,6 +2,7 @@
 title: Data collected for Veritas Volume Manager on Linux
 description: Discovery collects disk and volume information for Veritas Volume Manager \(VxVM\) on Linux hosts and maps file systems mounted on Veritas volumes to the upstream storage provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/r\_DataCollDiscoVVMLinux.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -122,5 +123,5 @@ VxVM Discovery maps file systems to the disks that supply storage. By default th
 -   Veritas Subdisk \(Storage\)
 -   Veritas Volume
 
-**Parent Topic:**[Storage discovery](../concept/c_Storage.md)
+**Parent Topic:**[Storage discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_Storage.md)
 

@@ -2,6 +2,7 @@
 title: Components installed with Lifecycle Events
 description: Several types of components install with the activation of the Human Resources Scoped App: Lifecycle Events \[com.sn\_hr\_lifecycle\_events\] plugin, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/lifecycle-events/components-installed-with-enterprise-onboarding-and-transitions.html
 release: zurich
 product: Lifecycle Events
 classification: lifecycle-events
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Lifecycle Events, Employee Journey Management, HR Servic
 
 Several types of components install with the activation of the Human Resources Scoped App: Lifecycle Events \[com.sn\_hr\_lifecycle\_events\] plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature, and it’s used in some related example tasks.
 
@@ -144,17 +145,17 @@ None
 
 After the sn\_hr\_le.admin role has been assigned, remove the role from the admin role to suppress the IT system administrator from viewing sensitive HR information. The removal of the sn\_hr\_le.admin role from admin role ensures that only the Lifecycle Events administrator has access to the sensitive information.
 
-For more information about the process to remove an HR administrator role from the admin role, see [Remove HR Administrator role from IT System Administrators](../task/t_HRRemoveAdminRole.md).
+For more information about the process to remove an HR administrator role from the admin role, see [Remove HR Administrator role from IT System Administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_HRRemoveAdminRole.md).
 
-The Lifecycle Events administrator \(sn\_hr\_le.admin\) role with the Delegated Developer \(delegated\_developer\) role can also configure and create COEs. For more information, see [HR Centers of Excellence data model](../concept/hr-centers-of-excellence-coes.md).
+The Lifecycle Events administrator \(sn\_hr\_le.admin\) role with the Delegated Developer \(delegated\_developer\) role can also configure and create COEs. For more information, see [HR Centers of Excellence data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-centers-of-excellence-coes.md).
 
 You can assign these roles to the appropriate roles, groups, or users in your application.
 
--   To assign a role to another role, see [Add a role to an existing role](https://www.servicenow.com/docs/access?context=t_AddARoleToAnExistingRole&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
--   To assign a role to a group, see [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
--   To assign a role to a user, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+-   To assign a role to another role, see Add a role to an existing role.
+-   To assign a role to a group, see Assign a role to a group.
+-   To assign a role to a user, see Assign a role to a user.
 
-For further information on user administration and how to manage users, see [User administration](https://www.servicenow.com/docs/access?context=c_UserAdministration&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For further information on user administration and how to manage users, see User administration.
 
 ## Tables installed
 
@@ -275,7 +276,7 @@ Future To-dos\[sn\_hr\_le\_future\_todo\]
 Tracks details about activities waiting to be triggered.
 
 </td></tr></tbody>
-</table>For further information on table administration and how to manage data, see [Table administration](https://www.servicenow.com/docs/access?context=c_TableAdministration&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+</table>For further information on table administration and how to manage data, see Table administration.
 
-**Parent Topic:**[Lifecycle Events reference](../concept/lifecycle-events-reference.md)
+**Parent Topic:**[Lifecycle Events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/lifecycle-events-reference.md)
 

@@ -2,6 +2,7 @@
 title: Walk-up Experience appointment booking
 description: With the CSM Walk-up Experience appointment booking feature, walk-up users can view available appointment windows. The users can also select and book an appointment for a walk-up location using the online Walk-up Check-in feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-appt-booking.html
 release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -30,5 +31,5 @@ A service configuration is required for each of the walk-up queue locations with
 
 **Note:** Both the application configuration and the service configuration must be active to book appointments.
 
-For detailed information about the **Appointment Booking** application, see [Managing appointments](https://www.servicenow.com/docs/access?context=managing-appointments&version=zurich&pubname=zurich-field-service-management&ft:locale=en-US).
+For detailed information about the **Appointment Booking** application, see Managing appointments.
 

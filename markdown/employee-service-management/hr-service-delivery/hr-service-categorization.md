@@ -2,6 +2,7 @@
 title: HR service categorization
 description: HR services are categorized under one of the HR Centers of Excellence \(COEs\), which are part of a data model that organizes HR data, services, and processes by functional discipline.Enable or disable an HR Center of Excellence \(COE\) for use. COEs are tables that extend the HR Case \[sn\_hr\_core\_case\] table and part of a functional discipline, such as total rewards or talent management. COEs are also part of HR services that contain topic category and detail.Create or modify an HR topic category to define the first-level of categorization for HR services. Each topic category is associated with a single HR Center of Excellence \(COE\).Create or modify an HR topic detail to define the second-level of categorization for HR services. Each topic detail is associated with a single topic category and HR Center of Excellence \(COE\).Use COE Access Control List \(ACLs\) Configuration to allow specific groups read or write access to HR cases under a specific COE.Place security on a COE to prevent a group from accessing another group's cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-service-categorization.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,7 +18,7 @@ HR services are categorized under one of the HR Centers of Excellence \(COEs\), 
 
 Each COE is an extension of the HR Case \[sn\_hr\_core\_case\] table, and each COE is further organized by HR topic category and detail. Before you begin configuring the individual HR services, determine which COEs you want to use, and then create or modify the appropriate HR topic categories and details for each COE.
 
-**Parent Topic:**[HR Centers of Excellence data model](hr-centers-of-excellence-coes.md)
+**Parent Topic:**[HR Centers of Excellence data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-centers-of-excellence-coes.md)
 
 ## Enable or disable an HR Center of Excellence \(COE\)
 
@@ -33,7 +34,7 @@ Deactivate COEs manually on all your environments, if your company:
 -   Wants to deactivate COEs.
 -   Has multiple environments and you're using system update sets to update changes.
 
-    **Note:** System update sets capture deactivation in one environment, but after a patch or upgrade, COEs are active in your other environments. See [System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+    **Note:** System update sets capture deactivation in one environment, but after a patch or upgrade, COEs are active in your other environments. See System update sets.
 
 
 ### Procedure
@@ -45,9 +46,9 @@ Deactivate COEs manually on all your environments, if your company:
     **Note:** The COEs available to you may differ depending on the HR package you have.
 
     -   The categorization of HR catalog items are employee-facing only, and have no relation to the categorization of HR services under the HR Centers of Excellence \(COEs\) data model.
-    -   If you are creating a new HR service and plan to make it available for employee self-service, see [HR catalog item configuration](hr-catalog-item-configuration.md). Creating a new HR catalog item automatically creates a corresponding HR service, and you can avoid creating duplicate services.
-    -   If you have an existing HR service that you want to make available for employee self-service, do not create an HR catalog item. \(Creating a HR catalog item automatically creates a corresponding HR service.\) Instead, see [Configure a record producer for an HR service](../task/configure-hr-record-producer.md) to add the existing service as an HR catalog item in the HR service catalog.
-    ![COE Configuration page displaying a list of HR cases like "Employee Relations," "HR Benefits," and "HR Payroll," each with an adjacent toggle switch for enabling or disabling.](../image/coe-enable-disable.png)
+    -   If you are creating a new HR service and plan to make it available for employee self-service, see [HR catalog item configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-catalog-item-configuration.md). Creating a new HR catalog item automatically creates a corresponding HR service, and you can avoid creating duplicate services.
+    -   If you have an existing HR service that you want to make available for employee self-service, do not create an HR catalog item. \(Creating a HR catalog item automatically creates a corresponding HR service.\) Instead, see [Configure a record producer for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-record-producer.md) to add the existing service as an HR catalog item in the HR service catalog.
+    \[Omitted image "coe-enable-disable.png"\] Alt text: COE Configuration page displaying a list of HR cases like "Employee Relations," "HR Benefits," and "HR Payroll," each with an adjacent toggle switch for enabling or disabling.
 
     COEs that are not associated with any HR services, topic details, categories, or record producers are automatically disabled.
 
@@ -112,7 +113,7 @@ Use COE Access Control List \(ACLs\) Configuration to allow specific groups read
 
 For example, you don't want the Benefits group to view the cases created by the Compensation group. You create a COE security policy that allows the Compensation group access. Groups that aren't included on the policy cannot access the cases.
 
-Use this feature as an alternative to using ACLs rules. For more information on ACLs, see [Access control list rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+Use this feature as an alternative to using ACLs rules. For more information on ACLs, see Access control list rules.
 
 COE security policies don't affect case creation. COE security policies affect what cases you can view or modify after creation.
 
@@ -155,7 +156,7 @@ Place security on a COE to prevent a group from accessing another group's cases.
 
 ### Before you begin
 
-Role required: admin, sn\_hr\_core.admin, sn\_hr\_le.admin
+Role required: sn\_hr\_core.admin, sn\_hr\_le.admin
 
 ### Procedure
 
@@ -171,7 +172,7 @@ Role required: admin, sn\_hr\_core.admin, sn\_hr\_le.admin
 
 6.  Ensure that the **Application** field displays the scope correctly.
 
-    For more information, see [System settings for the user interface \(UI\)](https://www.servicenow.com/docs/access?context=r_UI16BannerFrame&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    For more information, see System settings for the user interface \(UI\).
 
 7.  Check **Active** to enable security on the COE.
 
@@ -198,7 +199,7 @@ Role required: admin, sn\_hr\_core.admin, sn\_hr\_le.admin
 
 11. Select **Edit** to associate groups to the COE security policy.
 
-    For more information on Groups, see [Manage HR Groups](../task/t_ManageHRGroups.md).
+    For more information on Groups, see [Manage HR Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_ManageHRGroups.md).
 
 12. Move the groups you want associated with the COE security policy you are defining from the Collection column to the Groups List column.
 

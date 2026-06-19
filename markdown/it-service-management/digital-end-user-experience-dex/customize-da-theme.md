@@ -2,6 +2,7 @@
 title: Customize themes for Desktop Assistant
 description: Customize themes for the Desktop Assistant application by applying available themes or modifying specific theme CSS variables to align with your organization's branding.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/customize-da-theme.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -17,7 +18,7 @@ Customize themes for the Desktop Assistant application by applying available the
 
 ## Before you begin
 
-Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](install-app-device-health.md) and [Download and install Desktop Assistant](download-desktop-experience.md).
+Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/download-desktop-experience.md).
 
 Role required: sn\_dex\_desktop.admin
 
@@ -29,21 +30,21 @@ Role required: sn\_dex\_desktop.admin
 
     **Note:** Employee Center \(EC\) Theme is the default theme applied for Desktop Assistant.
 
-<table id="choicetable_eqs_cbd_phc"><thead><tr><th align="left" id="d158340e165">
+<table id="choicetable_eqs_cbd_phc"><thead><tr><th align="left" id="d122340e165">
 
 Method
 
-</th><th align="left" id="d158340e168">
+</th><th align="left" id="d122340e168">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d158340e174">
+</th></tr></thead><tbody><tr><td id="d122340e174">
 
 **Apply another available theme**
 
 </td><td>
 
-1.  In the Desktop Assistant form, select the Lookup using list icon ![](../image/icon-magnifying-glass-blue.png) in the **Theme** field.
+1.  In the Desktop Assistant form, select the Lookup using list icon \[Omitted image "icon-magnifying-glass-blue.png"\] Alt text: in the **Theme** field.
 2.  On the Themes page, select a theme from the themes list.
 
 The selected theme is updated in the **Theme** field of the Desktop Assistant form.
@@ -51,13 +52,13 @@ The selected theme is updated in the **Theme** field of the Desktop Assistant fo
 3.  Select **Update**.
 
 
-</td></tr><tr><td id="d158340e221">
+</td></tr><tr><td id="d122340e221">
 
 **Customize the default theme by modifying specific CSS variables**
 
 </td><td>
 
-1.  In the Desktop Assistant form, select the Preview this record icon ![](../image/icon-preview-record.png) near the **Theme** field.
+1.  In the Desktop Assistant form, select the Preview this record icon \[Omitted image "icon-preview-record.png"\] Alt text: near the **Theme** field.
 2.  In the preview dialog box, select **Open Record**.
 3.  In the **CSS variables** section, modify the predefined variables in one of the following ways:
     -   Direct value assignment: Assign values directly to the variables. For example, `$sp-space—xl: 4px;`
@@ -66,18 +67,18 @@ The selected theme is updated in the **Theme** field of the Desktop Assistant fo
 4.  Select **Update**.
 
 
-</td></tr><tr><td id="d158340e293">
+</td></tr><tr><td id="d122340e293">
 
 **Customize a theme other than the default theme**
 
 </td><td>
 
-1.  In the Desktop Assistant form, select the Lookup using list icon ![](../image/icon-magnifying-glass-blue.png) in the **Theme** field.
+1.  In the Desktop Assistant form, select the Lookup using list icon \[Omitted image "icon-magnifying-glass-blue.png"\] Alt text: in the **Theme** field.
 2.  On the Themes page, select a theme from the themes list.
 
 The selected theme is updated in the **Theme** field of the Desktop Assistant form.
 
-3.  Select the Preview this record icon ![](../image/icon-preview-record.png) near the **Theme** field.
+3.  Select the Preview this record icon \[Omitted image "icon-preview-record.png"\] Alt text: near the **Theme** field.
 4.  In the preview dialog box, select **Open Record**.
 5.  In the **CSS variables** section, modify the predefined variables in one of the following ways:
     -   Direct value assignment: Assign values directly to the variables. For example, `$sp-space—xl: 4px;`
@@ -87,6 +88,6 @@ The selected theme is updated in the **Theme** field of the Desktop Assistant fo
 
 
 </td></tr></tbody>
-</table>    For more information, see [Variables to customize a theme for Desktop Assistant](../reference/da-theme-variables.md).
+</table>    For more information, see [Variables to customize a theme for Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/da-theme-variables.md).
 
 

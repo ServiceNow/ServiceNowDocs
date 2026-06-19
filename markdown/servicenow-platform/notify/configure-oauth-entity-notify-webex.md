@@ -2,6 +2,7 @@
 title: Configure OAuth entity for Notify Cisco Webex
 description: Configure the Cisco Webex as an OAuth provider and allow the ServiceNow instance to request OAuth 2.0 tokens.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/notify/configure-oauth-entity-notify-webex.html
 release: zurich
 product: Notify
 classification: notify
@@ -41,5 +42,5 @@ Role required: notify\_setup\_admin
     -   meeting:admin\_schedule\_write
     -   spark:all
 
-**Parent Topic:**[Configure Notify Cisco Webex Connector](../concept/setup-cisco-webex-notify.md)
+**Parent Topic:**[Configure Notify Cisco Webex Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/setup-cisco-webex-notify.md)
 

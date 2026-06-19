@@ -2,6 +2,7 @@
 title: View a daily summary of Operational Technology device activities for an Equipment Model Entity
 description: In the Equipment Model View of the Industrial Workspace, view the previous day's actions and changes that have been performed on the Operational Technology \(OT\) devices in a site.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-workspace/view-ot-eme-daily-summary.html
 release: zurich
 product: Industrial Workspace
 classification: industrial-workspace
@@ -30,7 +31,7 @@ In the Equipment Model menu of the Industrial Workspace, the **Daily Activity** 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Industrial Workspace** &gt; **Equipment Model menu \(![Equipment model entity icon](../../mftg-manufacturing-process-mgr/image/equip-model-manager-button.png)\) icon.**.
+1.  Navigate to **All** &gt; **Industrial Workspace** &gt; **Equipment Model menu \(\[Omitted image "equip-model-manager-button.png"\] Alt text: Equipment model entity icon\) icon.**.
 
 2.  Select the equipment model entity record for which you want to view the Daily Summary of its OT devices.
 
@@ -50,5 +51,5 @@ You can view the total number of activities in the **Daily Activity** tab. If yo
 
 **Note:** The daily activity records, which are older than two days are automatically deleted.
 
-**Parent Topic:**[Using the Industrial Workspace](../../operational-technology-management/concept/using-industrial-workspace.md)
+**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/using-industrial-workspace.md)
 

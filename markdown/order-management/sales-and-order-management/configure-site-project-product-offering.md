@@ -2,6 +2,7 @@
 title: Configure project oversight for Product offering
 description: Specify the conditions and decision rules that qualify the product offering for site project oversight. You also specify the project template task used by Order Management to create the project for product offerings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configure-site-project-product-offering.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

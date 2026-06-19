@@ -2,11 +2,12 @@
 title: Configure custom user credentials
 description: Define a non-root user for AWS SSM discovery by creating a credential record that specifies a user name with sufficient privileges to execute discovery commands on Linux targets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/configure-custom-user-credentials.html
 release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [AWS SSM discovery, Discovery for AWS, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -19,8 +20,8 @@ Define a non-root user for AWS SSM discovery by creating a credential record tha
 
 Confirm the following:
 
--   The system property **glide.discovery.enable\_ssm** is turned on. For more information, see [Enable AWS SSM-based discovery](../concept/enable-aws-ssm-based-discovery.md).
--   The user you're assigning as the non-root user has access to run all the necessary commands on the target server. This user requires the same access as credentials used for regular Linux discovery, including the necessary root-level access for privileged commands. For more information, see [Credentials required for host discovery](../../service-mapping/reference/r_Credentials4HostDiscovery.md) and [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+-   The system property **glide.discovery.enable\_ssm** is turned on. For more information, see [Enable AWS SSM-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/enable-aws-ssm-based-discovery.md).
+-   The user you're assigning as the non-root user has access to run all the necessary commands on the target server. This user requires the same access as credentials used for regular Linux discovery, including the necessary root-level access for privileged commands. For more information, see [Credentials required for host discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/r_Credentials4HostDiscovery.md) and 
 
 Role required: discovery\_admin
 

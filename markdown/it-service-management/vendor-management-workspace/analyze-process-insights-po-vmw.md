@@ -2,6 +2,7 @@
 title: Get insights into your vendors' performance
 description: Get insights into process bottlenecks and find potential areas that you could optimize. You can also view variation analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/vendor-management-workspace/analyze-process-insights-po-vmw.html
 release: zurich
 product: Vendor Management Workspace
 classification: vendor-management-workspace
@@ -19,8 +20,8 @@ Get insights into process bottlenecks and find potential areas that you could op
 
 Role required: sn\_process\_optimization\_analyst
 
--   The **Process Mining - VM Remine Projects** job fetches projects that have not been mined based on the settings in the **sn\_itsm\_vendor.po\_mining.run\_frequency** system property. For more information, see [Installed with Vendor Management Workspace](../reference/installed-w-vendor-manager-configurable-workspace.md).
--   You must have mined the project for that KPI group for which you want to analyze process insights. For more information, see [Create a Process Mining project for a KPI group](create-project-po-vmw.md).
+-   The **Process Mining - VM Remine Projects** job fetches projects that have not been mined based on the settings in the **sn\_itsm\_vendor.po\_mining.run\_frequency** system property. For more information, see [Installed with Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/installed-w-vendor-manager-configurable-workspace.md).
+-   You must have mined the project for that KPI group for which you want to analyze process insights. For more information, see [Create a Process Mining project for a KPI group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/create-project-po-vmw.md).
 
 ## About this task
 
@@ -44,13 +45,13 @@ The data is mined starting with the beginning of the previous month. For example
 
     -   Select the **Vendor Breakdown** tab to view the details of the relationship of vendors to a table.
     -   Process mining can only be performed on KPIs based on the incident table.
-    You can analyze the process insights for the last 30 days, excluding the current day, for which you’ve mined the data. For more information on business insights, see [View business insights](https://www.servicenow.com/docs/access?context=view-business-findings&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+    You can analyze the process insights for the last 30 days, excluding the current day, for which you’ve mined the data. For more information on business insights, see View business insights.
 
 
-**Parent Topic:**[Identifying bottlenecks using Process Mining integration with Vendor Management Workspace](use-process-optimization-vmw.md)
+**Parent Topic:**[Identifying bottlenecks using Process Mining integration with Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/use-process-optimization-vmw.md)
 
 **Related topics**  
 
 
-[Analyze and get process insights](https://www.servicenow.com/docs/access?context=analyze-get-process-insights&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US)
+[bundle-par.analyze-get-process-insights]
 

@@ -2,7 +2,10 @@
 title: Configure record pages to hide Customer Central components
 description: Configure the CSM default record page and CSM Interaction record page to hide the Customer Activity and Customer Information tab components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/record-page-hide-cust-central-component.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Starting with the Yokohama release, CSM Configurable Workspace has a dependency on the [Customer Central plugin](../concept/customer-central.md#section_jmt_bnt_ydc). The Customer Central application is installed automatically with CSM Configurable Workspace.
+Starting with the Yokohama release, CSM Configurable Workspace has a dependency on the [Customer Central plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-central.md). The Customer Central application is installed automatically with CSM Configurable Workspace.
 
 The Customer Central installation can result in the Customer Activity and Customer Information tab components appearing on the following CSM Configurable Workspace record pages:
 

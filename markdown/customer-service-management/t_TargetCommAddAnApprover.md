@@ -2,7 +2,10 @@
 title: Add or remove an approver
 description: Facilitate the approval process by adding or removing approvers from your publication workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_TargetCommAddAnApprover.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -27,7 +30,7 @@ Role required: sn\_publications.admin
 
 3.  To add an approver, select **Edit Approvers** next to the **Approvers** field and select an approver from the Users list.
 
-    This list includes users with the sn\_publications.approver role. The selected user is added to the **Approvers** field. Approvals on workflows are a platform functionality. For more information, see [Approval and rollback workflow activities](https://www.servicenow.com/docs/access?context=c_ApprovalAndRollbackActivities&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+    This list includes users with the sn\_publications.approver role. The selected user is added to the **Approvers** field. Approvals on workflows are a platform functionality. For more information, see .
 
 4.  To remove an approver, select **Edit Approvers** next to the **Approvers** field, select the approver's name, and then select **Remove**.
 

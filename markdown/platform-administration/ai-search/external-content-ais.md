@@ -2,6 +2,7 @@
 title: Indexing and searching external content in AI Search
 description: With a subscription for the External Content for AI Search plugin, you can enable AI Search users to search content and metadata from documents in external repositories and remote tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/external-content-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -15,7 +16,7 @@ breadcrumb: [Configure, AI Search, Search administration, Configure core feature
 
 With a subscription for the External Content for AI Search plugin, you can enable AI Search users to search content and metadata from documents in external repositories and remote tables.
 
-The External Content for AI Search plugin enables you to index documents located outside of your ServiceNow AI Platform® instance, such as those stored in SharePoint collections, Confluence sites, and [remote tables](https://www.servicenow.com/docs/access?context=remote-tables&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US). Indexing these documents makes their content and metadata searchable in AI Search.
+The External Content for AI Search plugin enables you to index documents located outside of your ServiceNow AI Platform® instance, such as those stored in SharePoint collections, Confluence sites, and remote tables. Indexing these documents makes their content and metadata searchable in AI Search.
 
 AI Search displays search results for indexed external documents just as it does for indexed ServiceNow AI Platform records. Users don't need to perform any special searches to match content and metadata from external documents.
 
@@ -25,7 +26,7 @@ Indexing doesn't duplicate external documents as records in your ServiceNow AI P
 
 The following diagram illustrates how AI Search provides indexing and search for external document content and metadata:
 
-![Diagram showing AI Search indexing and search options for external documents.](../image/ai-search-external-content-diagram.png "AI Search external content architecture diagram")
+\[Omitted image "ai-search-external-content-diagram.png"\] Alt text: Diagram showing AI Search indexing and search options for external documents.
 
 As shown in the architecture diagram, you can index content and metadata from external documents using any or all of the following tools:
 
@@ -56,9 +57,9 @@ Integration Hub AI Search spoke
 The Integration Hub AI Search spoke provides Workflow Studio actions that you can use to ingest external documents for indexing:-   **Ingest Document**: Define property name-value pairs for an external document and submit the document to AI Search for indexing.
 -   **Ingest Document Using Download URL**: Specify an external document's URL and have AI Search download it for indexing.
 
- You can specify security principal access permissions for documents ingested using these actions. To learn more about access permissions and security for external document content, see [External content security for AI Search](external-content-security-ais.md).
+ You can specify security principal access permissions for documents ingested using these actions. To learn more about access permissions and security for external document content, see [External content security for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/external-content-security-ais.md).
 
- For the full list of Workflow Studio actions provided by the AI Search spoke, see [AI Search spoke](https://www.servicenow.com/docs/access?context=ai-search-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+ For the full list of Workflow Studio actions provided by the AI Search spoke, see AI Search spoke.
 
  The Integration Hub AI Search spoke combines flexible configuration and handling with the simple drag-and-drop Workflow Studio interface.
 
@@ -73,9 +74,9 @@ The External Content REST API provides endpoints that you can use to index conte
 
  **Note:** To access the External Content REST API endpoints, you need either the ais\_external\_content role or the admin role.
 
- You can specify security principal access permissions for documents ingested using the ingestDocuments endpoint. To learn more about access permissions and security for external document content, see [External content security for AI Search](external-content-security-ais.md).
+ You can specify security principal access permissions for documents ingested using the ingestDocuments endpoint. To learn more about access permissions and security for external document content, see [External content security for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/external-content-security-ais.md).
 
- For full descriptions of the External Content REST API endpoints, see [External Content Ingestion REST API](https://www.servicenow.com/docs/access?context=external-content-ingestion-api&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+ For full descriptions of the External Content REST API endpoints, see External Content Ingestion REST API.
 
  The External Content REST API is the most complex tool for indexing content and metadata from your external documents, but it offers the most flexibility.
 
@@ -98,7 +99,7 @@ Have an active subscription for the External Content for AI Search plugin \(com.
 
 </td><td>
 
-The External Content for AI Search plugin provides functionality for indexing content from external data sources. For instructions on purchasing a subscription for the plugin and activating it, see [Request the External Content for AI Search plugin](../task/activate-ext-content-ais-plugin.md).
+The External Content for AI Search plugin provides functionality for indexing content from external data sources. For instructions on purchasing a subscription for the plugin and activating it, see [Request the External Content for AI Search plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/activate-ext-content-ais-plugin.md).
 
 </td></tr><tr><td>
 
@@ -106,7 +107,7 @@ Define an external content schema table for the external document source
 
 </td><td>
 
-An external content schema table doesn't store external document content in the database. Instead, its columns serve as a map of AI Search index fields to populate when you index content from external data sources. For instructions on creating a new external content schema table, see [Create an external content schema table](../task/create-ext-content-schema-ais.md).
+An external content schema table doesn't store external document content in the database. Instead, its columns serve as a map of AI Search index fields to populate when you index content from external data sources. For instructions on creating a new external content schema table, see [Create an external content schema table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-content-schema-ais.md).
 
  When documents from multiple external data sources share the same set of fields and have unique document identifiers, you can use a single external content schema table for all of them. To avoid data loss, the external data sources must satisfy these conditions:
 
@@ -123,7 +124,7 @@ Create an indexed source with your external content schema table specified as th
 
 </td><td>
 
-The indexed source sends external documents' content and metadata to the AI Search index. For instructions on creating an indexed source, see [Create an indexed source](../task/create-indexed-source-ais.md).
+The indexed source sends external documents' content and metadata to the AI Search index. For instructions on creating an indexed source, see [Create an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-indexed-source-ais.md).
 
 </td></tr><tr><td>
 
@@ -131,17 +132,17 @@ Create one or more search sources for the indexed source
 
 </td><td>
 
-Each search source specifies a subset of external documents from the indexed source whose content you want to make searchable in AI Search. For instructions on creating search sources, see [Create a search source for AI Search](../task/create-search-source-ais.md).
+Each search source specifies a subset of external documents from the indexed source whose content you want to make searchable in AI Search. For instructions on creating search sources, see [Create a search source for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-search-source-ais.md).
 
 </td></tr></tbody>
-</table>-   **[Request the External Content for AI Search plugin](../task/activate-ext-content-ais-plugin.md)**  
+</table>-   **[Request the External Content for AI Search plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/activate-ext-content-ais-plugin.md)**  
 Request activation of the External Content for AI Search plugin \(com.glide.ais.external\_content\) to enable indexing of searchable content and metadata from records in external data sources.
--   **[Create an external content schema table](../task/create-ext-content-schema-ais.md)**  
+-   **[Create an external content schema table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-content-schema-ais.md)**  
 Define a schema table with columns corresponding to fields on records from an external data source. AI Search uses the schema when indexing content from the external data source.
--   **[External content security for AI Search](external-content-security-ais.md)**  
+-   **[External content security for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/external-content-security-ais.md)**  
 AI Search preserves user and group security access permissions specified for documents indexed from external sources. You can control access to external content search results by mapping these externally defined users and groups to ServiceNow AI Platform® users.
--   **[Components installed with External Content for AI Search](../reference/installed-with-ext-content-ais.md)**  
+-   **[Components installed with External Content for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/installed-with-ext-content-ais.md)**  
 When you activate the External Content for AI Search plugin \(com.glide.ais.external\_content\), the system creates a new virtual table.
 
-**Parent Topic:**[Configuring AI Search](configuring-ais.md)
+**Parent Topic:**[Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configuring-ais.md)
 

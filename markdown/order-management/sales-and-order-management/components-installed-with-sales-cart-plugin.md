@@ -2,6 +2,7 @@
 title: Components installed with Sales Cart
 description: Several types of components are installed with activation of Sales Cart including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/components-installed-with-sales-cart-plugin.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -130,5 +131,5 @@ Sales Cart Pricing Adjustment
 Stores pricing adjustments applied to a sales cart or its line items, including adjustment type, value, and related references.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Business Portal reference for Sales Customer Relationship Management](som-business-portal-reference.md)
+</table>**Parent Topic:**[Business Portal reference for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-business-portal-reference.md)
 

@@ -2,6 +2,7 @@
 title: Set up Issue Auto Resolution for ITSM Virtual Agent
 description: Users with the virtual\_agent\_admin or admin role can configure Virtual Agent settings to indicate discoverable topics, set business rules, and more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-virtual-agent/setup-itsm-ar.html
 release: zurich
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -19,10 +20,10 @@ Users with the virtual\_agent\_admin or admin role can configure Virtual Agent s
 
 Role required: admin or virtual\_agent\_admin
 
--   [Activate Virtual Agent](https://www.servicenow.com/docs/access?context=activate-virtual-agent&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US) to use Virtual Agent as a response channel.
--   [Set up ITSM Virtual Agent](setup-itsm-virtual-agent.md)
+-   Activate Virtual Agent to use Virtual Agent as a response channel.
+-   [Set up ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-virtual-agent/setup-itsm-virtual-agent.md)
 
-    Install the ITSM Virtual Agent Conversations app, which includes the ITSM NLU Model for Virtual Agent Conversations. Request this app from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Install the ITSM Virtual Agent Conversations app, which includes the ITSM NLU Model for Virtual Agent Conversations. Request this app from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 
 ## About this task
@@ -35,7 +36,7 @@ Most of the Issue Auto Resolution functionality is included with the Glide Virtu
 
     Train the Issue Auto Resolution Machine Learning model before activating the Auto Resolution Configuration record.
 
-    **Note:** The query on the Incident table must have the minimum number of records that you specify in the **glide.platform\_ml.api.min\_agent\_zero\_records** system property to train the model. The default value of this property is 300000 and should not be increased because training the model can fail with more than 300,000 records. Ensure that the conditions that you specify in the Auto Resolution configuration record return less than 300,000 records before you click **Train**. For more information about predictive intelligence properties, see [Predictive Intelligence properties](https://www.servicenow.com/docs/access?context=predictive-intelligence-properties&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+    **Note:** The query on the Incident table must have the minimum number of records that you specify in the **glide.platform\_ml.api.min\_agent\_zero\_records** system property to train the model. The default value of this property is 300000 and should not be increased because training the model can fail with more than 300,000 records. Ensure that the conditions that you specify in the Auto Resolution configuration record return less than 300,000 records before you click **Train**. For more information about predictive intelligence properties, see Predictive Intelligence properties.
 
     1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Settings** &gt; **Virtual Agent**.
 
@@ -72,5 +73,5 @@ Most of the Issue Auto Resolution functionality is included with the Glide Virtu
     5.  For a given Issue Auto Resolution intent, double-click the corresponding **Matched topic**, select a different topic, and select **Save**.
 
 
-**Parent Topic:**[Setting up ITSM Virtual Agent](../concept/setting-up-itsm-va.md)
+**Parent Topic:**[Setting up ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-virtual-agent/setting-up-itsm-va.md)
 

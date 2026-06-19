@@ -2,6 +2,7 @@
 title: Train the similarity model
 description: Train your similar record models with training data to predict the similar records by recognizing similarities between fields of Incident table and training tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/task-intelligence-for-itsm/train-the-similarity-model.html
 release: zurich
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
@@ -17,7 +18,7 @@ Train your similar record models with training data to predict the similar recor
 
 ## Before you begin
 
-You can set up a task intelligence model or use the base system template that is shipped with Task Intelligence for ITSM. For more information on setting up a new model, see [Set up similar records prediction model](set-up-similar-records-prediction-model.md)
+You can set up a task intelligence model or use the base system template that is shipped with Task Intelligence for ITSM. For more information on setting up a new model, see [Set up similar records prediction model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/task-intelligence-for-itsm/set-up-similar-records-prediction-model.md)
 
 Role required: sn\_ti\_admin.tia\_admin or sn\_itsm\_ml\_task.ti\_admin 
 
@@ -41,7 +42,7 @@ You can select the table and fields that you want to predict, such as the Predic
 
 4.  Select the **Prediction fields** which will be used to predict similar records. 
 
-    ![UI of the prediction table with its conditions and the prediction fields.](../image/TI_configure_similarity_model_predictions.png)
+    \[Omitted image "TI\_configure\_similarity\_model\_predictions.png"\] Alt text: UI of the prediction table with its conditions and the prediction fields.
 
 5.  Choose the set of records used for training the similar records model by selecting the conditions on the training tables and training fields for training the similarity models.
 
@@ -55,15 +56,15 @@ You can select the table and fields that you want to predict, such as the Predic
 
 9.  Select the **Update Frequency** to decide how frequently the training should occur.
 
-    ![UI of the training table and training fields section.](../image/TI_training_fields.png)
+    \[Omitted image "TI\_training\_fields.png"\] Alt text: UI of the training table and training fields section.
 
 10. Review the resulting **Number of records** in the training data based on the selected conditions. 
 
-    The records that are counted include the number of fields, parameters, and data that the model uses to train. Based on the provided information and the set conditions, the number or records gets updated automatically. The model needs a minimum of 10,000 records for effective training. If this minimum number hasn't been reached, try selecting different conditions. You can also click the refresh icon \(![get latest matrix refresh](../../service-operations-workspace/image/get-latest-matrix.png)\) to refresh the number.![UI of the "Review the resulting number of records" section](../image/TI_review_results.png)
+    The records that are counted include the number of fields, parameters, and data that the model uses to train. Based on the provided information and the set conditions, the number or records gets updated automatically. The model needs a minimum of 10,000 records for effective training. If this minimum number hasn't been reached, try selecting different conditions. You can also click the refresh icon \(\[Omitted image "get-latest-matrix.png"\] Alt text: get latest matrix refresh\) to refresh the number.\[Omitted image "TI\_review\_results.png"\] Alt text: UI of the "Review the resulting number of records" section
 
 11. Set a  **Training Frequency **to define how often the model automatically retrains.
 
-    ![UI of the "Retraining configurations" section](../image/TI_Retraining_configuration.png)
+    \[Omitted image "TI\_Retraining\_configuration.png"\] Alt text: UI of the "Retraining configurations" section
 
 12. Select **Launch training**.
 
@@ -72,5 +73,5 @@ You can select the table and fields that you want to predict, such as the Predic
 
 If you’re training the model on a large amount of data, training can take some time. You can request that the system sends you an email when the training is done.
 
-**Parent Topic:**[Set up similar records prediction model](set-up-similar-records-prediction-model.md)
+**Parent Topic:**[Set up similar records prediction model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/task-intelligence-for-itsm/set-up-similar-records-prediction-model.md)
 

@@ -2,6 +2,7 @@
 title: Components installed with SPW Jira Integrations
 description: Learn about the roles and tables installed with the SPW Jira Integrations application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/components-installed-with-spw-jira-integrations.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning
@@ -181,5 +182,5 @@ Table Map\[sn\_int\_common\_table\_map\]
 Stores the list of table maps for Jira projects.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[SPW Jira Integrations reference](spw-jira-integrations-reference.md)
+</table>**Parent Topic:**[SPW Jira Integrations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/spw-jira-integrations-reference.md)
 

@@ -2,6 +2,7 @@
 title: Radware-appDirector load balancer discovery
 description: Discovery of Radware load balancers is performed by SNMP.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/radware-appdirector.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -23,7 +24,7 @@ Discovery of Radware load balancers is performed by SNMP.
 
 ## Credentials
 
-Configure [SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+Configure SNMP credentials.
 
 ## Classifier, pattern, and probes
 
@@ -56,5 +57,5 @@ The following data is collected on the Load Balancer Services `[cmdb_ci_lb_servi
 |Operational Status|operational\_status|
 |Install Status|install\_status|
 
-**Parent Topic:**[Load balancer discovery](c_LoadBalancers.md)
+**Parent Topic:**[Load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_LoadBalancers.md)
 

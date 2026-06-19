@@ -2,6 +2,7 @@
 title: Deactivate, reactivate, or delete an external content connector
 description: Deactivate an external connector to pause its scheduled crawls while retaining all of the content and metadata that it has already crawled. Reactivate a deactivated connector to resume its scheduled crawls. Delete an external content connector to remove the connector's definition along with all content and metadata that it has crawled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/deactivate-del-ext-cont-connector.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -30,20 +31,20 @@ You can delete an external content connector to remove its definition. When you 
 
 1.  Use the application picker to switch to the External Content Connectors Admin application scope.
 
-    For details on selecting an application scope using the application picker, see [Select an application from the application picker](../../../build/applications/task/t_SelectAnAppFromTheAppPicker.md).
+    For details on selecting an application scope using the application picker, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_SelectAnAppFromTheAppPicker.md).
 
 2.  Navigate to **All** &gt; **External Content Connectors** &gt; **External Content Admin Home**.
 
 3.  In the Connectors pane, find the record for the connector you want to deactivate or delete, and open its context menu in one of the following ways:
 
-    -   Select the connector record's Overflow icon ![](../image/icon-action-menu-ext-cont-conn.png).
+    -   Select the connector record's Overflow icon \[Omitted image "icon-action-menu-ext-cont-conn.png"\] Alt text:.
     -   Long-press \(or right-click\) the connector record.
 4.  In the context menu, select one of the following options:
 
     -   To suspend crawling for an active connector, select **Deactivate**.
     -   To reactivate an inactive connector, select **Activate**.
     -   To permanently delete a connector, select **Delete**, then select **I understand** and **Delete** in the Delete connector dialog box.
-    **Warning:** Deleting an external connector is not reversible. Once you delete a connector, you cannot restore its definition or its crawled content, metadata, and permissions.
+    **Warning:** Deleting an external connector is not reversible. After you delete a connector, you cannot restore its definition or its crawled content, metadata, and permissions.
 
 
 ## Result
@@ -56,7 +57,7 @@ The result depends on which selection you made:
 
 ## What to do next
 
-If you deactivated an external content connector to disable its scheduled crawls, you can still run one-time crawls to update its content and metadata or its permissions on demand. For details on running one-time crawls, see [Create a content crawl for an external content connector](create-content-crawl-external-content-connector.md) and [Create a user permission crawl for an external content connector](create-user-mapping-crawl-external-content-connector.md).
+If you deactivated an external content connector to disable its scheduled crawls, you can still run one-time crawls to update its content and metadata or its permissions on demand. For details on running one-time crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-content-crawl-external-content-connector.md) and [Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-user-mapping-crawl-external-content-connector.md).
 
-**Parent Topic:**[Configuring External Content Connectors](../concept/configuring-ext-cont-connectors.md)
+**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configuring-ext-cont-connectors.md)
 

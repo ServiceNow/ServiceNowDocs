@@ -2,6 +2,7 @@
 title: Syntax editor keyboard shortcuts and actions
 description: The syntax editor offers keyboard shortcuts and actions to assist in writing code.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/r\_SyntxEdtrKybrdSrtctsActn.html
 release: zurich
 product: Scripts
 classification: scripts
@@ -52,7 +53,7 @@ Displays a list of valid elements at the insertion point such as:
 
 </td><td>
 
-![A line of code for a variable definition with a pop-up window displaying potential scripting elements.](../image/ScriptingAssistanceSuggestions.png)
+\[Omitted image "ScriptingAssistanceSuggestions.png"\] Alt text: A line of code for a variable definition with a pop-up window displaying potential scripting elements.
 
 </td></tr><tr><td>
 
@@ -66,7 +67,7 @@ Displays a list methods for the class.
 
 </td><td>
 
-![A line of code for a variable definition with a pop-up window displaying potential scripting elements.](../image/ScriptingAssistanceMatchingSuggestionsMethods.png)
+\[Omitted image "ScriptingAssistanceMatchingSuggestionsMethods.png"\] Alt text: A line of code for a variable definition with a pop-up window displaying potential scripting elements.
 
 </td></tr><tr><td>
 
@@ -80,7 +81,7 @@ Displays the expected parameters for the class or method.
 
 </td><td>
 
-![A line of code for a variable defining a method call. There is a pop-up window displaying potential scripting elements.](../image/ScriptingAssistanceParameters.png)
+\[Omitted image "ScriptingAssistanceParameters.png"\] Alt text: A line of code for a variable defining a method call. There is a pop-up window displaying potential scripting elements.
 
 </td></tr><tr><td>
 
@@ -109,7 +110,7 @@ Formats the selected lines to improve readability.
 
 </td><td>
 
-![Several lines of unformatted code](../image/ScriptingAssistanceUnformattedCode.png)![Several lines of code formatted for readability](../image/ScriptingAssistanceFormattedCode.png)
+\[Omitted image "ScriptingAssistanceUnformattedCode.png"\] Alt text: Several lines of unformatted code\[Omitted image "ScriptingAssistanceFormattedCode.png"\] Alt text: Several lines of code formatted for readability
 
 </td></tr><tr><td>
 
@@ -124,7 +125,7 @@ Adds or removes the comment characters `//` from the selected lines.
 
 </td><td>
 
-![A line of code selected with no comment characters](../image/ScriptingAssistanceUncommentedCode.png)![A line of code selected with comment characters added to the front of the line.](../image/ScriptingAssistanceCommentedCode.png)
+\[Omitted image "ScriptingAssistanceUncommentedCode.png"\] Alt text: A line of code selected with no comment characters\[Omitted image "ScriptingAssistanceCommentedCode.png"\] Alt text: A line of code selected with comment characters added to the front of the line.
 
 </td></tr><tr><td>
 
@@ -139,7 +140,7 @@ Inserts macro text at the current position.
 
 </td><td>
 
-![A line of code containing the string help.](../image/ScriptingAssistanceMacroTyped.png)![The macro text for help added to the script.](../image/ScriptingAssistanceMacroAdded.png)
+\[Omitted image "ScriptingAssistanceMacroTyped.png"\] Alt text: A line of code containing the string help.\[Omitted image "ScriptingAssistanceMacroAdded.png"\] Alt text: The macro text for help added to the script.
 
 </td></tr><tr><td class="sub-head" colspan="3">
 
@@ -160,7 +161,7 @@ Highlights all occurrences of a search term in the script field and locates the 
 
 </td><td>
 
-![A search field with the term gr.](../image/ScriptingAssistanceSearchTerm.png)![The search results of the search term gr displaying four highlighted items. The first search result is selected.](../image/ScriptingAssistanceSearchResults.png)
+\[Omitted image "ScriptingAssistanceSearchTerm.png"\] Alt text: A search field with the term gr.\[Omitted image "ScriptingAssistanceSearchResults.png"\] Alt text: The search results of the search term gr displaying four highlighted items. The first search result is selected.
 
 </td></tr><tr><td>
 
@@ -175,7 +176,7 @@ Locates the next occurrence of the current search term in the script field. Use 
 
 </td><td>
 
-![The search results of the search term gr displaying four highlighted items. The second search result is selected.](../image/ScriptingAssistanceFindNext.png)
+\[Omitted image "ScriptingAssistanceFindNext.png"\] Alt text: The search results of the search term gr displaying four highlighted items. The second search result is selected.
 
 </td></tr><tr><td>
 
@@ -188,7 +189,7 @@ Locates the previous occurrence of the current search term in the script field. 
 
 </td><td>
 
-![The search results of the search term gr displaying four highlighted items. The first search result is selected.](../image/ScriptingAssistanceSearchResults.png)
+\[Omitted image "ScriptingAssistanceSearchResults.png"\] Alt text: The search results of the search term gr displaying four highlighted items. The first search result is selected.
 
 </td></tr><tr><td>
 
@@ -203,7 +204,7 @@ Replaces the next occurrence of a text string in the script field.
 
 </td><td>
 
-![A replace field with the string gr.](../image/ScriptingAssistanceReplaceSearchTerm.png)![A replace with field with the string gl.](../image/ScriptingAssistanceReplaceWith.png)![A replace confirmation dialog with options for Yes, No, and Stop](../image/ScriptingAssistanceReplaceConfirm.png)
+\[Omitted image "ScriptingAssistanceReplaceSearchTerm.png"\] Alt text: A replace field with the string gr.\[Omitted image "ScriptingAssistanceReplaceWith.png"\] Alt text: A replace with field with the string gl.\[Omitted image "ScriptingAssistanceReplaceConfirm.png"\] Alt text: A replace confirmation dialog with options for Yes, No, and Stop
 
 </td></tr><tr><td>
 
@@ -218,7 +219,7 @@ Replaces all occurrences of a text string in the script field.
 
 </td><td>
 
-![A replace field with the search term gr.](../image/ScriptingAssistanceReplaceAllSearchTerm.png)![A replace with field with the string gl.](../image/ScriptingAssistanceReplaceAllWith.png)
+\[Omitted image "ScriptingAssistanceReplaceAllSearchTerm.png"\] Alt text: A replace field with the search term gr.\[Omitted image "ScriptingAssistanceReplaceAllWith.png"\] Alt text: A replace with field with the string gl.
 
 </td></tr><tr><td class="sub-head" colspan="3">
 
@@ -237,7 +238,7 @@ Displays the list of syntax editor keyboard shortcuts.
 
 </td><td>
 
-![A pop-up window displaying the keyboard shortcuts for the Syntax Editor.](../image/SyntaxEditorHelp.png)
+\[Omitted image "SyntaxEditorHelp.png"\] Alt text: A pop-up window displaying the keyboard shortcuts for the Syntax Editor.
 
 </td></tr><tr><td>
 
@@ -252,7 +253,7 @@ Displays API documentation for the scripting element at the cursor's current loc
 
 </td><td>
 
-![A line of code selected with a pop-up window displaying API help for the GlideRecord object](../image/ScriptingAssistanceAPIdoc.png)
+\[Omitted image "ScriptingAssistanceAPIdoc.png"\] Alt text: A line of code selected with a pop-up window displaying API help for the GlideRecord object
 
 </td></tr><tr><td>
 
@@ -267,8 +268,8 @@ Displays the list of available syntax editor macros as text within the script fi
 
 </td><td>
 
-![A line of code containing the string help.](../image/ScriptingAssistanceMacroTyped.png)![The macro text for help added to the script.](../image/ScriptingAssistanceMacroAdded.png)
+\[Omitted image "ScriptingAssistanceMacroTyped.png"\] Alt text: A line of code containing the string help.\[Omitted image "ScriptingAssistanceMacroAdded.png"\] Alt text: The macro text for help added to the script.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using the JavaScript syntax editor](r_EdtJvaScptWSyntxEdtr.md)
+</table>**Parent Topic:**[Using the JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/r_EdtJvaScptWSyntxEdtr.md)
 

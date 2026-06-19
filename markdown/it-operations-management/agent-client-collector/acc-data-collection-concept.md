@@ -2,6 +2,7 @@
 title: Verify data collection in Agent Client Collector
 description: Collect data by gathering essential information from an agent's host system before executing any checks or policies. This process ensures that the Agent Client Collector has accurate and up-to-date data on the infrastructure, processes, and applications running on the host.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-data-collection-concept.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -38,6 +39,6 @@ Collected data is stored in the ServiceNow instance in either the CMDB \(Configu
 
 2.  On the Agent Client Collectors page, locate the **Host Data Collection** column for an agent.
 
-    A green Collected icon ![Collected icon](../image/collected-icon.png) indicates successful data collection for the specific agent.
+    A green Collected icon \[Omitted image "collected-icon.png"\] Alt text: Collected icon indicates successful data collection for the specific agent.
 
 

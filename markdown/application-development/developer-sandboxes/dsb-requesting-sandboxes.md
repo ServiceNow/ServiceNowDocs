@@ -2,6 +2,7 @@
 title: Requesting sandboxes
 description: Developers generally have admin rights on the non-production instance where Developer Sandboxes are allocated, and can thus allocate a sandbox to themselves.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/developer-sandboxes/dsb-requesting-sandboxes.html
 release: zurich
 product: Developer Sandboxes
 classification: developer-sandboxes

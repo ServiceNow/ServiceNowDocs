@@ -2,6 +2,7 @@
 title: Install Model Risk Management
 description: Install the Model Risk Management application \(sn\_model\_risk\_mgmt\). The application installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/model-risk-management/install-mrm.html
 release: zurich
 product: Model Risk Management
 classification: model-risk-management
@@ -33,7 +34,7 @@ The following items are installed with Model Risk Management:
 -   Tables
 -   Properties
 
-For more information, see [Model Risk Management reference](../concept/mrm-reference.md).
+For more information, see [Model Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/model-risk-management/mrm-reference.md).
 
 ## Procedure
 

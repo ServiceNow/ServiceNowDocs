@@ -2,6 +2,7 @@
 title: GRC Compliance Workspace Overview
 description: Compliance Workspace is a unified interface where you can manage all your tasks related to policies, control objectives, controls, and policy exceptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/grc-unified-compliance-workspace.html
 release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -33,7 +34,7 @@ The highlights of the Compliance Workspace are:
 
         Donut charts display the categorical data of compliant and non-compliant authority documents, policies, and entities.
 
-        ![Compliance workspace home page.](../image/ComplianceWSHomePage.png "Compliance workspace home page")
+        \[Omitted image "ComplianceWSHomePage.png"\] Alt text: Compliance workspace home page.
 
     -   **Control assurance**
 
@@ -58,7 +59,7 @@ The highlights of the Compliance Workspace are:
     List view of all compliance-related records, providing the summary of the record in a single view that helps in your analyses and take an informed decision.
 
 
-**Note:** The **Control tests** widget, **Regulatory changes** widget, and **Domain compliance status** section appear with the installation of audit, regulatory change management, and privacy management plugins, respectively. For more information, see [Other GRC plugins for an overall view](compliance-manager-compliance-ws.md#grc-plugins-overall-view).
+**Note:** The **Control tests** widget, **Regulatory changes** widget, and **Domain compliance status** section appear with the installation of audit, regulatory change management, and privacy management plugins, respectively. For more information, see [Other GRC plugins for an overall view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/compliance-manager-compliance-ws.md).
 
 ## Roles in the Compliance Workspace
 
@@ -72,7 +73,7 @@ To access or view the Compliance Workspace, you need of the following roles:
 
 For more information on the roles, the responsibilities, and the tasks that the users can accomplish in the Compliance Workspace, see
 
--   [Compliance Home page for the compliance manager](compliance-manager-compliance-ws.md).
--   [Compliance Home page for the compliance analyst](compliance-analyst-compliance-ws.md).
--   [Compliance Home page for the IT compliance manager](it-compliance-manager-compliance-ws.md).
+-   [Compliance Home page for the compliance manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/compliance-manager-compliance-ws.md).
+-   [Compliance Home page for the compliance analyst](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/compliance-analyst-compliance-ws.md).
+-   [Compliance Home page for the IT compliance manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/it-compliance-manager-compliance-ws.md).
 

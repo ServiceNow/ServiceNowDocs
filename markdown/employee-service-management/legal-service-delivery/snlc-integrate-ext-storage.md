@@ -2,6 +2,7 @@
 title: Configure an external storage system for legal contracts
 description: Configure an external storage system to store signed contract documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/snlc-integrate-ext-storage.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -19,13 +20,13 @@ Configure an external storage system to store signed contract documents.
 
 Ensure that the administrator has installed and set up spokes for the external storage system you want to configure.
 
--   **[Google Drive spoke](https://www.servicenow.com/docs/access?context=googledrive-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) v1.3.0 or later version**
+-   **Google Drive spoke v1.3.0 or later version**
 
-    For more information on the setup and creating the Google Drive account, see [Set up Google Drive spoke](https://www.servicenow.com/docs/access?context=setup-gdrive&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+    For more information on the setup and creating the Google Drive account, see Set up Google Drive spoke.
 
--   **[Microsoft OneDrive spoke](https://www.servicenow.com/docs/access?context=onedrive-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) v2.1.0 or later version**
+-   **Microsoft OneDrive spoke v2.1.0 or later version**
 
-    For more information on the setup and creating the Google Drive account, see [Set up Microsoft OneDrive spoke](https://www.servicenow.com/docs/access?context=setup-msonedrive&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) .
+    For more information on the setup and creating the Google Drive account, see Set up Microsoft OneDrive spoke .
 
 
 Role required: sn\_lg\_cnt.contract\_admin
@@ -137,5 +138,5 @@ These field variables are dynamically replaced by the values in each field while
 
 The configuration for the external storage system is published and is ready to be used for storing contract documents.
 
-**Parent Topic:**[Configuring external applications for legal contracts](../concept/snlc-set-legal-ext-app-config.md)
+**Parent Topic:**[Configuring external applications for legal contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-set-legal-ext-app-config.md)
 

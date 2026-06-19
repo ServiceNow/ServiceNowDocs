@@ -2,6 +2,7 @@
 title: Uninterruptible power supply \(UPS\) discovery
 description: Discovery identifies and classifies information about an uninterruptible power supply \(UPS\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/r\_DataCollDiscoUnintPowerSupp.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -67,5 +68,5 @@ Discovery can identify and classify uninterruptible power supplies.
 |Alarm type|cmdb\_ci\_ups\_alarm|alarm\_type|SNMP, UPS MIB|
 |Alarm time|cmdb\_ci\_ups\_alarm|alarm\_time|SNMP, UPS MIB|
 
-**Parent Topic:**[Network device discovery](../concept/c_NetworkDevices.md)
+**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_NetworkDevices.md)
 

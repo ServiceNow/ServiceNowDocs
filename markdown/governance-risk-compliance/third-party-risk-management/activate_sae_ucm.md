@@ -2,6 +2,7 @@
 title: Activate or update Smart Assessment templates
 description: Manage SAE templates for TPRM from the Unified Content Management page in the Vendor Management Workspace. You can view available templates, select template versions, activate or update templates for use in Third-party Risk Management assessments, and update templates when newer versions are released.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/activate\_sae\_ucm.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -23,7 +24,7 @@ You must have the Unified Content Management application installed and you must 
 
 **Warning:** After this option is enabled, this selection can’t be reversed.
 
-For more information, see [Configure TPRM properties](../../grc-vendor-risk-implementation/task/tprm-properties-configure.md), [Migrating from Classic Assessment Engine to Smart Assessment Engine](../concept/tprm-migrate-asmnt-sae.md), and [Managing TPRM SAE templates with Unified Content Management](../concept/tprm-integrating-ucm.md).
+For more information, see [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md), [Migrating from Classic Assessment Engine to Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-sae.md), and [Managing TPRM SAE templates with Unified Content Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-integrating-ucm.md).
 
 ## About this task
 
@@ -31,7 +32,7 @@ Use Unified Content Management to control which TPRM SAE templates are available
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, and on the **Risk** tab, select the Unified Content Management icon ![](../image/unified-content-mgmt-icon.png).
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, and on the **Risk** tab, select the Unified Content Management icon \[Omitted image "unified-content-mgmt-icon.png"\] Alt text:.
 
 2.  View templates by state by selecting **Active** or **Inactive**.
 
@@ -63,5 +64,5 @@ To modify template content, contact a team member with the TPR admin \[sn\_vdr\_
 
 **Note:**
 
-You can create an assessment only from a published assessment template. You can update a published template only if no active assessment is associated with it. You can also copy an existing template, including all questions, sections, instructions, and configurations. For more information, see [Copy an assessment template](../../assessment-engine/task/sae-asmnt-template-duplicate.md).
+You can create an assessment only from a published assessment template. You can update a published template only if no active assessment is associated with it. You can also copy an existing template, including all questions, sections, instructions, and configurations. For more information, see [Copy an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-duplicate.md).
 

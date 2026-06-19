@@ -2,6 +2,7 @@
 title: Import rate lines into a rate model
 description: Use the import rate lines function to quickly add multiple rate lines from an export file into a rate model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/rate-model/import-rate-lines.html
 release: zurich
 product: Rate Model
 classification: rate-model
@@ -23,13 +24,13 @@ Role required: pps\_admin or it\_rate\_model\_admin
 
 ## About this task
 
-After adding or updating rate lines in a file created using the [export function](export-rate-lines.md), you can import the rate lines from the file into the rate model.
+After adding or updating rate lines in a file created using the [export function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/rate-model/export-rate-lines.md), you can import the rate lines from the file into the rate model.
 
 **Note:** Rate lines fail to import in the following circumstances:
 
 -   Overlapping effective dates for the same set of criteria values.
 -   Criteria values with no matching data in the system. For example, a rate line might have Business Analyst as the **Role** criteria but that role does not exist in the system.
--   Rates in non-functional \(non-default\) currency but no corresponding [budget reference rates](../../project-management/concept/c_BudgetReferenceRates.md) for the required period exist in the system.
+-   Rates in non-functional \(non-default\) currency but no corresponding [budget reference rates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md) for the required period exist in the system.
 
 ## Procedure
 
@@ -50,7 +51,7 @@ After adding or updating rate lines in a file created using the [export function
 
 6.  Click **Run Transform** to import the data.
 
-    For more information, see [Run an import](https://www.servicenow.com/docs/access?context=t_RunImport&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+    For more information, see Run an import.
 
 
 ## Result
@@ -58,5 +59,5 @@ After adding or updating rate lines in a file created using the [export function
 -   New rate lines are appended to the rate lines list in the rate model.
 -   Existing rate lines in the rate model are updated with the latest values.
 
-**Parent Topic:**[Rate Models](../concept/rate-model.md)
+**Parent Topic:**[Rate Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/rate-model/rate-model.md)
 

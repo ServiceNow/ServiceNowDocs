@@ -2,6 +2,7 @@
 title: Indicator scores in reference currency
 description: You can track the trends for monetary fields of the types Price, Currency, or FX Currency. The scores for an indicator based on any of these fields are collected in the Reference Currency values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/indicator-scores-reference-currency.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -23,12 +24,12 @@ Sometimes you need to provide your users with monetary KPIs converted to a stand
 
 To collect indicator scores in a reference currency, create an indicator with the following characteristics:
 
--   The indicator is an [automated indicator](performance-analytics-glossary.md#), not a formula or a manual indicator.
+-   The indicator is an [automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md), not a formula or a manual indicator.
 -   The aggregate is not **Count** or **Count Distinct** and the indicator is not **Scripted**.
 -   The selected **Field** to aggregate has the type Price, Currency, or FX Currency.
 -   The selected **Unit** for the scores is **Use reference currency**.
 
-For the full procedure of creating such an indicator, see [Create an automated indicator](../task/t_CreateAnAutomatedIndicator.md#).
+For the full procedure of creating such an indicator, see [Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md).
 
 **Note:**
 
@@ -41,7 +42,7 @@ After the scores have been collected, you can explore them more deeply in the An
 
 As a Performance Analytics expert, you do not set up the reference currency. Someone with a currency administrator role performs this task. However, you may still want to know how reference currencies work on the ServiceNow AI Platform. A brief summary with links follows.
 
-For a Price or Currency field, the system reference currency is the value of **glide.system.locale** as set in the localization properties. If this property is not set, the system default based on physical location is used. For more information about setting the reference currency for these fields, see [Setting up and operating standard currency fields](https://www.servicenow.com/docs/access?context=configure-and-use-default-currency-fields&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For a Price or Currency field, the system reference currency is the value of **glide.system.locale** as set in the localization properties. If this property is not set, the system default based on physical location is used. For more information about setting the reference currency for these fields, see Setting up and operating standard currency fields.
 
 **Note:** Performance Analytics indicators do not use session currency values.
 
@@ -52,5 +53,5 @@ For an FX Currency field, the indicator scores are based on this hierarchy of co
 3.  The setting in **glide.system.locale** is used. If no value is set in this property...
 4.  The system default is used.
 
-For more information about configuring FX Currency fields, see [Setting up and operating FX Currency fields](https://www.servicenow.com/docs/access?context=fx-currency&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For more information about configuring FX Currency fields, see Setting up and operating FX Currency fields.
 

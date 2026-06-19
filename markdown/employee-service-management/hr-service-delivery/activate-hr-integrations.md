@@ -2,6 +2,7 @@
 title: Activate HR Integrations
 description: You can activate Human Resources Scoped App: Integrations \[com.sn\_hr\_integrations\] if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/activate-hr-integrations.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -35,11 +36,11 @@ Human Resources Scoped App: Integrations allows you to integrate HR Service Deli
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
--   **[Components installed with HR Integrations](../reference/components-installed-with-hr-integrations.md)**  
+-   **[Components installed with HR Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/components-installed-with-hr-integrations.md)**  
 Several types of components install with the activation of the HR Integrations plugin, including tables, user roles, and scheduled jobs.
 
-**Parent Topic:**[HR Integrations](../concept/scoped-hr-third-party-integrations.md)
+**Parent Topic:**[HR Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/scoped-hr-third-party-integrations.md)
 

@@ -2,6 +2,7 @@
 title: File access permission record form
 description: Update the File access permission record form for a Cloud file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/file-access-permission-record-form.html
 release: zurich
 product: Audit Management
 classification: audit-management

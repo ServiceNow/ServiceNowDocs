@@ -2,6 +2,7 @@
 title: Action plan to-do task fields
 description: The to-do form contains fields that a manager uses to customize tasks for employees and mentors to complete as part of a transition plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-accelerator/ja-todo-fields.html
 release: zurich
 product: Journey Accelerator
 classification: journey-accelerator
@@ -107,5 +108,5 @@ Save as Template
 Save a to-do as a template so that you can use it in other action plans.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Journey Accelerator reference](ja-reference.md)
+</table>**Parent Topic:**[Journey Accelerator reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/ja-reference.md)
 

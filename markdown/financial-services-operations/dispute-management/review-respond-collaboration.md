@@ -2,6 +2,7 @@
 title: Review and respond to collaboration
 description: The merchant responds to the collaboration by either providing a refund, a voucher, or a First-Party Trust evidence. If the collaboration isn’t successful, then the second presentment is awaited.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/review-respond-collaboration.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -19,14 +20,14 @@ The merchant responds to the collaboration by either providing a refund, a vouch
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector.
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
 In this task, three scenarios are possible: merchant responds to collaboration by either a voucher, a refund or a First-Party Trust evidence.
 
 -   **Voucher**:
-    -   If the cardholder accepts the voucher, the dispute ends and the transaction moves to Financial adjustments 1. For more information, see [About Financial adjustments in Mastercard disputes](../concept/financial-adjustments.md).
+    -   If the cardholder accepts the voucher, the dispute ends and the transaction moves to Financial adjustments 1. For more information, see [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/financial-adjustments.md).
     -   If the cardholder rejects the voucher, the process awaits a second presentment from the merchant.
 -   **Refund**:
     -   If the cardholder receives and accepts the refund, the dispute ends and the transaction moves to Financial adjustments 1.
@@ -38,13 +39,13 @@ In this task, three scenarios are possible: merchant responds to collaboration b
 For the second presentment:
 
 -   If not received, the case favors the cardholder and the transaction moves to Financial adjustments 1, ending the dispute.
--   If received, the transaction progresses to the next task [Review chargeback response and decide on pre-arbitration or arbitration](review-and-decide-prearbitration.md) in the chargeback process.
+-   If received, the transaction progresses to the next task [Review chargeback response and decide on pre-arbitration or arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/review-and-decide-prearbitration.md) in the chargeback process.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -70,15 +71,15 @@ For the second presentment:
 
     **Note:** In case of integration with Mastercard's Mastercom APIs, the **Merchant's Response to Collaboration** drop-down list automatically shows the merchant response and you can't edit it.
 
-<table id="choicetable_kzh_rp5_vfc"><thead><tr><th align="left" id="d73609e334">
+<table id="choicetable_kzh_rp5_vfc"><thead><tr><th align="left" id="d55744e334">
 
 Option
 
-</th><th align="left" id="d73609e337">
+</th><th align="left" id="d55744e337">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d73609e343">
+</th></tr></thead><tbody><tr><td id="d55744e343">
 
 **__Refund__**
 
@@ -98,12 +99,12 @@ The **Second presentment from the merchant** drop-down is displayed. Select one 
 
     -   **Yes** to indicate that a second presentment is received from the merchant.
 
-The [Review chargeback response and decide on pre-arbitration or arbitration](review-and-decide-prearbitration.md) task displayed.
+The [Review chargeback response and decide on pre-arbitration or arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/review-and-decide-prearbitration.md) task displayed.
 
-    -   **No** if there’s no second presentment from the merchant. The case goes in the favor of the cardholder and the transaction moves to Financial adjustments 1 and the dispute life cycle ends. For more information, see [About Financial adjustments in Mastercard disputes](../concept/financial-adjustments.md).
+    -   **No** if there’s no second presentment from the merchant. The case goes in the favor of the cardholder and the transaction moves to Financial adjustments 1 and the dispute life cycle ends. For more information, see [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/financial-adjustments.md).
 
 
-</td></tr><tr><td id="d73609e443">
+</td></tr><tr><td id="d55744e443">
 
 **__Voucher__**
 
@@ -113,7 +114,7 @@ Select this option if a voucher is provided by the merchant. The **Customer Deci
 
 -   Select **Accepted** if the cardholder has agreed for the settlement in the form of a voucher.
 
-The **Update credit voucher** option becomes available. Select this option to accept the credit. The transaction moves to Financial adjustments 1 [About Financial adjustments in Mastercard disputes](../concept/financial-adjustments.md) and the dispute life-cycle ends.
+The **Update credit voucher** option becomes available. Select this option to accept the credit. The transaction moves to Financial adjustments 1 [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/financial-adjustments.md) and the dispute life-cycle ends.
 
 **Note:** If an error message is displayed in the **Activity** work notes, the **Update credit voucher** button displays again to retry.
 
@@ -123,12 +124,12 @@ The **Second presentment from the merchant** drop-down is displayed. Select one 
 
     -   Select **Yes** to indicate that a second presentment is received from the merchant.
 
-The [Review chargeback response and decide on pre-arbitration or arbitration](review-and-decide-prearbitration.md) task displayed.
+The [Review chargeback response and decide on pre-arbitration or arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/review-and-decide-prearbitration.md) task displayed.
 
     -   Select **No** if there’s no second presentment from the merchant. The case goes in the favor of the cardholder and the transaction moves to Financial adjustments 1 and the dispute life cycle ends.
 
 
-</td></tr><tr><td id="d73609e543">
+</td></tr><tr><td id="d55744e543">
 
 **__First-Party Trust__**
 
@@ -148,9 +149,9 @@ The **Second presentment from the merchant** drop-down is displayed. Select one 
 
     -   **Yes** to indicate that a second presentment is received from the merchant.
 
-The [Review chargeback response and decide on pre-arbitration or arbitration](review-and-decide-prearbitration.md) task displayed.
+The [Review chargeback response and decide on pre-arbitration or arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/review-and-decide-prearbitration.md) task displayed.
 
-    -   **No** if there’s no second presentment from the merchant. The case goes in the favor of the cardholder and the transaction moves to Financial adjustments 1 and the dispute life cycle ends. For more information, see [About Financial adjustments in Mastercard disputes](../concept/financial-adjustments.md).
+    -   **No** if there’s no second presentment from the merchant. The case goes in the favor of the cardholder and the transaction moves to Financial adjustments 1 and the dispute life cycle ends. For more information, see [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/financial-adjustments.md).
 
 
 </td></tr></tbody>
@@ -165,8 +166,8 @@ The [Review chargeback response and decide on pre-arbitration or arbitration](re
 
 Based on the collaboration with the merchant and cardholder decision, one of these tasks is displayed:
 
--   For the second presentment value marked as **Yes**, the next task [Review chargeback response and decide on pre-arbitration or arbitration](review-and-decide-prearbitration.md) is displayed.
--   For the second presentment value marked as **No**, outcomes depend on the policy, see [About Financial adjustments in Mastercard disputes](../concept/financial-adjustments.md).
+-   For the second presentment value marked as **Yes**, the next task [Review chargeback response and decide on pre-arbitration or arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/review-and-decide-prearbitration.md) is displayed.
+-   For the second presentment value marked as **No**, outcomes depend on the policy, see [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/financial-adjustments.md).
 
-**Parent Topic:**[Chargeback in Mastercard transaction disputes](../concept/chargeback-stage-mastercard.md)
+**Parent Topic:**[Chargeback in Mastercard transaction disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/chargeback-stage-mastercard.md)
 

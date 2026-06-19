@@ -2,6 +2,7 @@
 title: ArcSight ESM Event Ingestion integration
 description: The ArcSight ESM event ingestion integration with the Security Incident Response product allows security incident analysts to collect correlated events and automate creation of security incidents with the ServiceNow platform. Data is ingested continually based on a configured polling schedule, and it is used by analysts to identify and respond to potential cyber security threats.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/arcsight-esm.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -47,7 +48,7 @@ The following Security Operations applications must be installed and activated f
     1.  ServiceNow Integration Hub Runtime
     2.  ServiceNow Integration Hub Action Step - REST
 
-For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](../../../security-incident-response/task/entitle-secops-product.md) and [Activate a ServiceNow Store application](../../../security-incident-response/task/activate-entitled-store-app.md).
+For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/activate-entitled-store-app.md).
 
 ## ArcSight ESM supported versions
 
@@ -55,12 +56,12 @@ This integration has been tested with Version 7.0.0.2436 of the ArcSight ESM Man
 
 ## MID Server
 
-This integration requires an installed and configured MID Server in your ServiceNow AI Platform® instance to connect to the ArcSight ESM service when the ArcSight ESM server is deployed within your corporate network. If you are using the ArcSight ESM cloud service, a MID Server is not required. See the [ServiceNow Product Documentation website](https://servicenow.com/docs) for more information about MID Servers.
+This integration requires an installed and configured MID Server in your ServiceNow AI Platform® instance to connect to the ArcSight ESM service when the ArcSight ESM server is deployed within your corporate network. If you are using the ArcSight ESM cloud service, a MID Server is not required. See the [ServiceNow Product Documentation website](https://www.servicenow.com/docs) for more information about MID Servers.
 
 ## References
 
 |Reference|Document Identifier|Document Title|
 |---------|-------------------|--------------|
 |1|ArcSight ESM product documentation|[ArcSight product documentation](https://community.microfocus.com/t5/ArcSight-Product-Documentation/ct-p/productdocs).|
-|2|ServiceNow Product documentation website|[ServiceNow Product Documentation website](https://servicenow.com/docs)|
+|2|ServiceNow Product documentation website|[ServiceNow Product Documentation website](https://www.servicenow.com/docs)|
 

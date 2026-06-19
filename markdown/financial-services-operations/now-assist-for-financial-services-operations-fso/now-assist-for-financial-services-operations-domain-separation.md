@@ -2,6 +2,7 @@
 title: Domain separation and Now Assist for Financial Services Operations \(FSO\)
 description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is supported for Now Assist for Financial Services Operations \(FSO\). Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations-domain-separation.html
 release: zurich
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso
@@ -26,7 +27,7 @@ Domain separation is supported for Now Assist for Financial Services Operations 
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## Domain separation overview
 
@@ -40,7 +41,7 @@ Now Assist for Financial Services Operations \(FSO\) works with domain separatio
 
 If you're a service provider that hosts multiple clients in the same instance, you can set up domain separation to separate tenant data, processes, and administrative tasks. However, Now Assist for Financial Services Operations \(FSO\) consumption is tracked according to the instance without differentiating between tenants. You can track your Now Assist for Financial Services Operations \(FSO\) usage in the Subscription Management dashboard.
 
-If you want a domain to have a different version of an existing skill, you can reconfigure and activate the skill or create a variant in the preferred domain. See [Domain separation in the Now Assist Admin console](https://www.servicenow.com/docs/access?context=domain-separation-in-the-now-assist-admin-console&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+If you want a domain to have a different version of an existing skill, you can reconfigure and activate the skill or create a variant in the preferred domain. See .
 
 ## Use cases
 
@@ -48,10 +49,10 @@ You can configure the roles when you’re activating or editing a skill.
 
 For example, you can grant certain roles access to the Now Assist panel in one domain, while another domain has no role restrictions.
 
-**Parent Topic:**[Now Assist for Financial Services Operations \(FSO\) reference](now-assist-for-fso-reference.md)
+**Parent Topic:**[Now Assist for Financial Services Operations \(FSO\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-fso-reference.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

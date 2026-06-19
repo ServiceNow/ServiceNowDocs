@@ -2,6 +2,7 @@
 title: Configure major incident trigger rules
 description: Create and configure the trigger rules for a major incident to define the conditions for when a trigger action is executed. You can create major incident trigger rules to define the conditions under which an incident is automatically considered as a major incident candidate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/configure-mim-trigger-rules-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -29,11 +30,11 @@ You can also configure major incident trigger rules to directly create a major i
 
 ## Before you begin
 
-The Major Incident Management plugin must be activated in Service Operations Workspace. For more information, see [Activate Major Incident Management in Service Operations Workspace](install-mim-sow.md).
+The Major Incident Management plugin must be activated in Service Operations Workspace. For more information, see [Activate Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/install-mim-sow.md).
 
 Role required: sn\_mim\_sow\_admin and major\_incident\_manager or incident\_manager, admin
 
-**Note:** If you have sn\_mim\_sow\_admin role, you can access the MIM page in Admin Center page but to configure the trigger rules you must also have major\_incident\_manager or incident\_manager role along with sn\_mim\_sow\_admin role. For more information, see [Roles in Service Operations Workspace for ITSM](../reference/roles-in-sow.md).
+**Note:** If you have sn\_mim\_sow\_admin role, you can access the MIM page in Admin Center page but to configure the trigger rules you must also have major\_incident\_manager or incident\_manager role along with sn\_mim\_sow\_admin role. For more information, see [Roles in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/roles-in-sow.md).
 
 ## Procedure
 

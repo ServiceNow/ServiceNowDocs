@@ -2,6 +2,7 @@
 title: Use the Compare component
 description: Compare two string objects that are based on their ASCII values by using the Compare component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/use-stringutil-compare.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -23,7 +24,7 @@ Role required: none
 
 Compare method is used to compare given text with provided options. If option is matched, it opens the matching control out port.
 
-You can configure the properties for the Compare component. For more information about these properties, see [Properties of the String Utilities components](../reference/util-stringutil-prop.md).
+You can configure the properties for the Compare component. For more information about these properties, see [Properties of the String Utilities components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/util-stringutil-prop.md).
 
 ## Procedure
 
@@ -33,11 +34,11 @@ You can configure the properties for the Compare component. For more information
 
 3.  In the Compare component, double click the title bar to launch the Configuration editor.
 
-4.  Select the Add icon \(![Plus icon.](../image/add-image-icon.png)\) to add the string options from the Comparison Options drop-down list.
+4.  Select the Add icon \(\[Omitted image "add-image-icon.png"\] Alt text: Plus icon.\) to add the string options from the Comparison Options drop-down list.
 
     For example, select the following options.
 
-    ![Comparison options selected in the configuration window.](../image/compare-options-rpa.png "Comparison options window")
+    \[Omitted image "compare-options-rpa.png"\] Alt text: Comparison options selected in the configuration window.
 
 5.  Connect the data and control ports of the Compare component to the corresponding ports of the other components as described in the following table.
 
@@ -65,7 +66,7 @@ Text
 
 Provide text that must be compared with multiple control out ports based on the comparison type.For example, if you provide `hello welcome` as the comparison text, the component compares option 0 and option 1. Since Option 1 starts with hello, it matches with the text provided. Connect this to a MessageBox component to view the output.
 
-![Compare component with text and comparison options, after running this component, the output is displayed using MessageBox component.](../image/compare-text-messagebox-rpa.png "Compare component")
+\[Omitted image "compare-text-messagebox-rpa.png"\] Alt text: Compare component with text and comparison options, after running this component, the output is displayed using MessageBox component.
 
 </td><td>
 
@@ -79,5 +80,5 @@ String
 </table>6.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[String utilities](../concept/string-utilities.md)
+**Parent Topic:**[String utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/string-utilities.md)
 

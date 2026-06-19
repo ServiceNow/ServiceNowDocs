@@ -2,6 +2,7 @@
 title: Configure crawl settings for a GitLab external content connector
 description: Specify the groups, projects, and repositories you want your GitLab external content connector to crawl. Select the issues, wikis, merge requests, tags, branches, and commits you want the crawl to retrieve and feed to AI Search for indexing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-crawl-settings-gitlab-external-content-connector.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -18,13 +19,13 @@ Specify the groups, projects, and repositories you want your GitLab external con
 
 ## Before you begin
 
-A connector admin must have already created the GitLab external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a GitLab external content connector](create-ext-cont-connector-gitlab.md).
+A connector administrator must have already created the GitLab external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a GitLab external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-gitlab.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
 ## About this task
 
-This task is optional. By default, the GitLab external content connector crawls content from all subgroups, projects, and repositories found in top-level groups owned by the GitLab.com user that it's configured to impersonate, and sends all supported content types \(issues, wikis, merge requests, tags, branches, and commits\) to AI Search for indexing. You only need to perform this task if you want the connector to use any of the following non-default settings:
+This task is optional. By default, the GitLab external content connector crawls content from all subgroups, projects, and repositories found in top-level groups owned by the GitLab.com user that it's configured to impersonate, and sends all supported content types \(issues, wikis, merge requests, tags, branches, and commits\) to AI Search for indexing. Only perform this task if you want the connector to use any of the following non-default settings:
 
 -   Inclusion or exclusion filters for the subgroups to crawl when running content crawls
 -   Inclusion or exclusion filters for the projects/repositories to crawl when running content crawls
@@ -35,13 +36,13 @@ Content is only retrieved from the source system if it passes all of your config
 
 **Important:**
 
-By default, each external content connector can index up to ten million \(10,000,000\) content items from its source system. When a connector exceeds this limit, it continues to crawl the source system, but only sends content item deletions and updates to AI Search for indexing, ignoring new content items. The connector logs an error message for every 10,000 content items it crawls beyond the indexing limit.
+By default, each external content connector can index up to one million \(1,000,000\) content items from its source system. When a connector exceeds this limit, it continues to crawl the source system, but only sends content item deletions and updates to AI Search for indexing, ignoring new content items. The connector logs an error message for every 10,000 content items it crawls beyond the indexing limit.
 
 When a connector's indexed content item count exceeds 800,000, a warning message appears in the connector's UI to indicate that it's approaching the indexing limit. If the connector reaches the indexing limit, an error message appears in its UI.
 
-External content connectors that support user permissions crawls can retrieve up to five hundred thousand \(500,000\) users.
+External content connectors that support user permissions crawls can handle permissions for up to five hundred thousand \(500,000\) users and their groups. If a connector retrieves users in excess of this limit, user and group permissions may not be correctly applied to the connector's retrieved content. As a result, the content may not be searchable.
 
-If one of your connectors reaches the content indexing limit, you can update its crawl settings and file inclusion/exclusion filters to reduce the number of content items it retrieves. Alternately, if you need a connector to index more than 10,000,000 content items or to retrieve more than 500,000 users, you can create a Customer Service and Support case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to request a limit increase for the connector.
+If one of your connectors reaches the content indexing limit, you can update its crawl settings and file inclusion/exclusion filters to reduce the number of content items it retrieves. Alternatively, if you need a connector to index more than 1,000,000 content items, you can create a Customer Service and Support case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to request a limit increase for the connector.
 
 ## Procedure
 
@@ -103,7 +104,7 @@ If one of your connectors reaches the content indexing limit, you can update its
     -   Content of wiki attachments in formats other than plain text \(.txt\)
     -   Internal or confidential notes in merge request discussions
     -   Repository files
-7.  If you included the Branches content type in step [6](configure-crawl-settings-gitlab-external-content-connector.md#select-content-types-step), use the **Add branches to include in regex format** field and the **Add** button to specify Java regular expression patterns matching the names of branches you want to include in content crawls.
+7.  If you included the Branches content type in step [6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-crawl-settings-gitlab-external-content-connector.md), use the **Add branches to include in regex format** field and the **Add** button to specify Java regular expression patterns matching the names of branches you want to include in content crawls.
 
     As an example, you might specify `^2025.*$` to include branches with names that start with `2025`, or specify `^.*$` to crawl all branches. To learn about Java regular expression pattern syntax, see [the Javadoc for the java.regex.util.Pattern class](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/regex/Pattern.html).
 
@@ -118,7 +119,7 @@ The GitLab external content connector is updated with your modified crawl settin
 
 ## What to do next
 
-To retrieve content from your GitLab source system using your modified crawl settings, create and run a one-time content crawl for your GitLab external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](create-content-crawl-external-content-connector.md).
+To retrieve content from your GitLab source system using your modified crawl settings, create and run a one-time content crawl for your GitLab external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-content-crawl-external-content-connector.md).
 
-**Parent Topic:**[GitLab external content connector](../concept/gitlab-external-content-connector.md)
+**Parent Topic:**[GitLab external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/gitlab-external-content-connector.md)
 

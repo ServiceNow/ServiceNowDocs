@@ -2,6 +2,7 @@
 title: SQL API reference information
 description: This section provides details about SQL API reference information like minimum requirements, usage limitations, configuration issues, and frequently asked questions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/troubleshooting.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -16,10 +17,10 @@ breadcrumb: [Access your ServiceNow data using SQL API, Additional integration r
 
 This section provides details about SQL API reference information like minimum requirements, usage limitations, configuration issues, and frequently asked questions.
 
--   **[Minimum requirements and supported software for SQL API](minimum-requirements-and-supported-softwares.md)**  
+-   **[Minimum requirements and supported software for SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/minimum-requirements-and-supported-softwares.md)**  
 This section lists the minimum supported versions for ServiceNow server releases, client drivers \(ODBC and JDBC\), and Java Development Kit required for SQL API.
--   **[Usage Limitations for SQL API](usage-limitations.md)**  
+-   **[Usage Limitations for SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/usage-limitations.md)**  
 The SQL API imposes rate limits to ensure system stability and performance when querying ServiceNow data through ODBC and JDBC drivers.
 
-**Parent Topic:**[Access your ServiceNow data using SQL API](../concept/accessing-your-servicenow-data-using-sql-api.md)
+**Parent Topic:**[Access your ServiceNow data using SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/accessing-your-servicenow-data-using-sql-api.md)
 

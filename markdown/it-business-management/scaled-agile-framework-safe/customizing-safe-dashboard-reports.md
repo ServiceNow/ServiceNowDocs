@@ -2,6 +2,7 @@
 title: Customizing Essential SAFe dashboard reports
 description: Customize the Burnup, Burndown, and Cumulative Flow Diagram reports of your dashboards according to the custom states of your SAFe stories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scaled-agile-framework-safe/customizing-safe-dashboard-reports.html
 release: zurich
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -19,21 +20,21 @@ Customize the Burnup, Burndown, and Cumulative Flow Diagram reports of your dash
 
     For example, if there are any new states introduced to the SAFe story table, then the corresponding indicators and indicator sources for the story table that rely on the **State** field must be updated as well.
 
-    For more information, see [Customize indicators of your Essential SAFe dashboard reports](../task/customize-indicators-of-safe-dashboard-reports.md).
+    For more information, see [Customize indicators of your Essential SAFe dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/customize-indicators-of-safe-dashboard-reports.md).
 
 -   Update or clone UI scripts for modifications to use your own indicators.
 
     Add customizations by overriding methods in empty implementation \(Impl\) classes of UI scripts such as SafeAreaChartImpl and SafeVelHistoryImpl.
 
-    For more information, see [Update UI scripts to use your indicators for Essential SAFe dashboards](../task/update-ui-scripts-to-use-your-indicators-safe.md).
+    For more information, see [Update UI scripts to use your indicators for Essential SAFe dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/update-ui-scripts-to-use-your-indicators-safe.md).
 
 
--   **[Customize indicators of your Essential SAFe dashboard reports](../task/customize-indicators-of-safe-dashboard-reports.md)**  
+-   **[Customize indicators of your Essential SAFe dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/customize-indicators-of-safe-dashboard-reports.md)**  
 Configure indicators to reflect your customizations in Essential SAFe dashboards.
--   **[Update UI scripts to use your indicators for Essential SAFe dashboards](../task/update-ui-scripts-to-use-your-indicators-safe.md)**  
+-   **[Update UI scripts to use your indicators for Essential SAFe dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/update-ui-scripts-to-use-your-indicators-safe.md)**  
 Customize UI scripts by overriding methods in empty implementation \(Impl\) classes.
--   **[Customize story states of your Essential SAFe dashboard reports](../task/customize-story-states-of-your-safe-dashboard-reports.md)**  
+-   **[Customize story states of your Essential SAFe dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/customize-story-states-of-your-safe-dashboard-reports.md)**  
 Configure story states to reflect your customizations on the Essential SAFe dashboards.
 
-**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](../application-content-packs/pa-content-pack-essential-safe.md)
+**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/pa-content-pack-essential-safe.md)
 

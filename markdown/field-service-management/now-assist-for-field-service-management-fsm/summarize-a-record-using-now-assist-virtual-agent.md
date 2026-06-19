@@ -2,6 +2,7 @@
 title: Summarize a record using Now Assist in Virtual Agent
 description: You can create a summary of a work order task record using the Now Assist in Virtual Agent directly from the ServiceNow Agent application.Generate summary from the work order task record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/now-assist-for-field-service-management-fsm/summarize-a-record-using-now-assist-virtual-agent.html
 release: zurich
 product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm
@@ -29,9 +30,9 @@ You can summarize a record by launching Ask Now Assist from the home screen and 
 
 2.  From quick actions, select **Ask Now Assist**.
 
-    For Android users, this icon appears as a plus symbol \(![plus icon](../image/mobile-plus-icon.png)\).
+    For Android users, this icon appears as a plus symbol \(\[Omitted image "mobile-plus-icon.png"\] Alt text: plus icon\).
 
-    For iOS users this icon appears as an ellipsis symbol \(![ellipses icon](../image/ellipsis-icon.png)\)
+    For iOS users this icon appears as an ellipsis symbol \(\[Omitted image "ellipsis-icon.png"\] Alt text: ellipses icon\)
 
 3.  In the Now Assist panel, type a "summarize a record" and follow the prompts.
 
@@ -42,7 +43,7 @@ You can summarize a record by launching Ask Now Assist from the home screen and 
 6.  Tap the plus icon to begin a new conversation.
 
 
-**Parent Topic:**[Using Now Assist for Field Service Management \(FSM\)](../concept/using-now-assist-fsm.md)
+**Parent Topic:**[Using Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/now-assist-for-field-service-management-fsm/using-now-assist-fsm.md)
 
 ## Summarize a record directly from a work order task record using Now Assist in Virtual Agent
 

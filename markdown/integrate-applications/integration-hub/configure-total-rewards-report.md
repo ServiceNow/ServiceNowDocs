@@ -2,6 +2,7 @@
 title: Configure Total Rewards Report
 description: Configure the Total Rewards Report to use the Look up Total Rewards using Report action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/configure-total-rewards-report.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
@@ -39,19 +40,19 @@ Confirm that the user has access to custom report creation and All Workers data 
 
     Confirm that the **temporary report** field is deselected.
 
-    ![View custom report.](../image/total-rewards-report1.png)
+    \[Omitted image "total-rewards-report1.png"\] Alt text: View custom report.
 
 7.  Provide the values in the report, as shown in the image.
 
-    ![Column list.](../image/total-rewards-report2.png)
+    \[Omitted image "total-rewards-report2.png"\] Alt text: Column list.
 
 8.  Confirm that under the **Group Column Headings** section, the Group Column heading for business object is empty.
 
-    ![Group column headings.](../image/total-rewards-report3.png)
+    \[Omitted image "total-rewards-report3.png"\] Alt text: Group column headings.
 
 9.  Set the Filter section, as shown in the image.
 
-    ![Filter section.](../image/total-rewards-report4.png)
+    \[Omitted image "total-rewards-report4.png"\] Alt text: Filter section.
 
 10. In the prompt section, select the **Populate Undefined Prompt defaults** check box.
 
@@ -59,27 +60,27 @@ Confirm that the user has access to custom report creation and All Workers data 
 
     Confirm that the prompts are configured in the same way as provided in the image.
 
-    ![Prompt defaults.](../image/total-rewards-report5.png)
+    \[Omitted image "total-rewards-report5.png"\] Alt text: Prompt defaults.
 
 11. In the advanced section, select **Enable as Webservice**, and then select **OK**.
 
-12. Select the three dots icon \(![Three-dots icon.](../image/three-dots-icon.png)\) and navigate to **Web Service****&gt;** **View URLs**.
+12. Select the three dots icon \(\[Omitted image "three-dots-icon.png"\] Alt text: Three-dots icon.\) and navigate to **Web Service****&gt;** **View URLs**.
 
-    ![View custom report.](../image/total-rewards-report6.png)
+    \[Omitted image "total-rewards-report6.png"\] Alt text: View custom report.
 
 13. Select a currency and an employee id in below parameters, and then select **OK**. 
 
-    ![View URLs Web Service.](../image/total-rewards-report7.png)
+    \[Omitted image "total-rewards-report7.png"\] Alt text: View URLs Web Service.
 
 14. On  the **View URLs Web Service** page, select the icon under  the CSV  section, as shown in the image.
 
-    ![View URLs Web Service.](../image/total-rewards-report8.png)
+    \[Omitted image "total-rewards-report8.png"\] Alt text: View URLs Web Service.
 
     A new  browser  tab opens .ß
 
 15. View the  RaaS  URL  of the report in new browser tab.
 
-    ![RaaS  URL  .](../image/total-rewards-report9.png)
+    \[Omitted image "total-rewards-report9.png"\] Alt text: RaaS  URL  .
 
     URL details:
 

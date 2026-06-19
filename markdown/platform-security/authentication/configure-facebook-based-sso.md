@@ -2,6 +2,7 @@
 title: Configure a Facebook-based Single Sign-On \(SSO\)
 description: Configure a Facebook-based SSO to your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/configure-facebook-based-sso.html
 release: zurich
 product: Authentication
 classification: authentication

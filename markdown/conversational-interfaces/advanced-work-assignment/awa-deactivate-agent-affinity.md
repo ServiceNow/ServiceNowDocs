@@ -2,6 +2,7 @@
 title: Deactivate Agent Affinity
 description: Deactivate Agent Affinity if you do not want Agent Affinity to assign work assignments to agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/awa-deactivate-agent-affinity.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -34,5 +35,5 @@ Role required: awa\_admin or admin
     Agent Affinity is now deactivated.
 
 
-**Parent Topic:**[Configuring Advanced Work Assignment](installing-awa.md)
+**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

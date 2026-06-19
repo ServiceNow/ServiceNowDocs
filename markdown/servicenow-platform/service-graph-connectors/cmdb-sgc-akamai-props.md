@@ -2,6 +2,7 @@
 title: Service Graph Connector for Akamai API Security properties
 description: Service Graph Connector for Akamai API Security properties control the behavior of the connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/cmdb-sgc-akamai-props.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors

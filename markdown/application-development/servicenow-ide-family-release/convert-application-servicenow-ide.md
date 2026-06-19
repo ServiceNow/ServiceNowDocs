@@ -2,6 +2,7 @@
 title: Convert an application with the ServiceNow IDE
 description: Convert an existing scoped application to support development in source code with the ServiceNow IDE.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-ide-family-release/convert-application-servicenow-ide.html
 release: zurich
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
@@ -17,7 +18,7 @@ Convert an existing scoped application to support development in source code wit
 
 ## Before you begin
 
-Create a workspace for your applications. For more information, see [Create a workspace in the ServiceNow IDE](create-workspace-servicenow-ide.md).
+Create a workspace for your applications. For more information, see [Create a workspace in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-ide-family-release/create-workspace-servicenow-ide.md).
 
 Role required: admin
 
@@ -43,23 +44,23 @@ Existing scoped applications that weren't created with the ServiceNow IDE or Ser
 
     Applications that haven't been converted are listed as `Is Fluent app: False`.
 
-    The scoped application is added to your workspace with the default application structure but the application metadata isn’t converted into ServiceNow Fluent code. For information about the application structure, see the [Application structure](../../custom-application/concept/building-applications-source-code.md#application-structure) section of the Building applications in source code topic.
+    The scoped application is added to your workspace with the default application structure but the application metadata isn’t converted into ServiceNow Fluent code. For information about the application structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/building-applications-source-code.md) section of the Building applications in source code topic.
 
 6.  To convert existing metadata into ServiceNow Fluent code, complete the following steps.
 
-    1.  From the Activity Bar, select the File Explorer view \(![File Explorer](../image/servicenow-ide-file-explorer-icon.png)\).
+    1.  From the Activity Bar, select the File Explorer view \(\[Omitted image "servicenow-ide-file-explorer-icon.png"\] Alt text: File Explorer\).
 
     2.  Right-click the `metadata` directory for the application and select **Convert Directory to Fluent**.
 
-        ![Menu option to convert the metadata directory to ServiceNow Fluent code.](../image/servicenow-ide-convert-dir-fluent.png)
+        \[Omitted image "servicenow-ide-convert-dir-fluent.png"\] Alt text: Menu option to convert the metadata directory to ServiceNow Fluent code.
 
     Application metadata is defined in ServiceNow Fluent code in the `fluent/generated` directory and removed from the `metadata` directory and its sub-directories.
 
-    ![An application with metadata converted into ServiceNow Fluent code.](../image/servicenow-ide-fluent-generated.png)
+    \[Omitted image "servicenow-ide-fluent-generated.png"\] Alt text: An application with metadata converted into ServiceNow Fluent code.
 
     **Note:** A limited number of metadata types, such as Metadata Snapshots \[sys\_metadata\_link\] and UX Assets \[sys\_ux\_lib\_asset\], can't be represented as ServiceNow Fluent code and aren't transformed. These metadata types remain as metadata XML files in the `metadata` directory of your application.
 
-7.  Build and install your application to compile source code into application metadata and make your changes available across the instance. For more information, see [Build and install an application in the ServiceNow IDE](build-applications-servicenow-ide.md).
+7.  Build and install your application to compile source code into application metadata and make your changes available across the instance. For more information, see [Build and install an application in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-ide-family-release/build-applications-servicenow-ide.md).
 
 
 ## Result
@@ -70,7 +71,7 @@ The converted application is added to your workspace with the necessary files an
 
 ## What to do next
 
-From your Git provider, create a dedicated Git repository for the application. Initialize a local Git repository for your application and push it to the remote repository. For more information, see [Initialize a Git repository with the ServiceNow IDE](initialize-git-repository-servicenow-ide.md).
+From your Git provider, create a dedicated Git repository for the application. Initialize a local Git repository for your application and push it to the remote repository. For more information, see [Initialize a Git repository with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-ide-family-release/initialize-git-repository-servicenow-ide.md).
 
 In the ServiceNow IDE, start developing your application in source code with ServiceNow Fluent, writing custom JavaScript modules, or adding third-party libraries.
 

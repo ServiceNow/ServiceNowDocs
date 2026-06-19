@@ -2,6 +2,7 @@
 title: Edit a function field
 description: The user who created a function field or a user with the admin or function\_field\_admin role can edit the definition of a saved function field. It isn’t possible to edit the label or the return type of a saved function field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/edit-function-field.html
 release: zurich
 product: Reporting
 classification: reporting
@@ -48,5 +49,5 @@ Role required: admin, function\_field\_admin
 
 The results of the edited function field replace the old results in all reports in which the function field is used.
 
-**Parent Topic:**[Report on function fields](../concept/function-fields-reporting.md)
+**Parent Topic:**[Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/function-fields-reporting.md)
 

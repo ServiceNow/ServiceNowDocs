@@ -2,11 +2,12 @@
 title: Source-to-Pay integration framework
 description: As part of the Source-to-Pay \(S2P\) integration framework, customers can install an optional third-party ERP integration application that enables primary data, fixed assets, purchase order, receipt, invoice, and tax integration capabilities between S2P and the third-party ERP application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integration-framework.html
 release: zurich
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -26,11 +27,11 @@ Primary data entities include:
 -   Material mapping
 -   Unit of measure
 
-While the third-party application is the system of record for primary data, S2P is the system of record for purchase orders and receipts. Invoices are either created manually in S2P or through an external supplier portal \(for example, Ariba\). For tax calculation and integration, see [Tax calculations](../../sourcing-procurement-operations/reference/tax-calculations.md).
+While the third-party application is the system of record for primary data, S2P is the system of record for purchase orders and receipts. Invoices are either created manually in S2P or through an external supplier portal \(for example, Ariba\). For tax calculation and integration, see [Tax calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/tax-calculations.md).
 
 The integration between S2P and the third-party application requires settings on both sides so that these applications function properly together.
 
--   [Integration settings on Source-to-Pay side](integration-settings-psm-side.md)
+-   [Integration settings on Source-to-Pay side](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-integration-framework/integration-settings-psm-side.md)
 -   Integration setting on the third-party side.
 
 ## Applications required for third-party integration
@@ -52,7 +53,7 @@ The following ServiceNow roles are required for integration:
 
 ## MID Server required for third-party integration
 
-This integration requires an installed and configured MID Server in your ServiceNow instance to connect to the ERP system server. See [Installing the MID Server](https://www.servicenow.com/docs/access?context=mid-server-installation&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) for details.
+This integration requires an installed and configured MID Server in your ServiceNow instance to connect to the ERP system server. See Installing the MID Server for details.
 
 **Note:** The MID Server integration is required only for an ERP integration using SOAP services.
 

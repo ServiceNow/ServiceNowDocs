@@ -2,6 +2,7 @@
 title: Add a form to an app in Creator Studio
 description: Add a form to the app you just created. Forms contain questions that people respond to when submitting a service desk request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/creator-studio/creator-studio-add-form.html
 release: zurich
 product: Creator Studio
 classification: creator-studio
@@ -31,7 +32,7 @@ Role required: You must be an admin or your administrator must add you to the Cr
 
 3.  Select **+ Add form** to get started.
 
-    ![Select to Add form](../image/crs-add-form-new-nav.png "Select to add a form")
+    \[Omitted image "crs-add-form-new-nav.png"\] Alt text: Select to Add form
 
 4.  Select a catalog template from the list, which your admin can customize.
 
@@ -45,7 +46,7 @@ Role required: You must be an admin or your administrator must add you to the Cr
 
 6.  Choose how you want to build the form:
 
-    -   To use Now Assist, stay on the **Build with Now Assist** tab and enter directions for the form you want. To learn more, see [Generating forms with Now Assist](../concept/creator-studio-text-to-form.md).
+    -   To use Now Assist, stay on the **Build with Now Assist** tab and enter directions for the form you want. To learn more, see [Generating forms with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-text-to-form.md).
 
         **Note:** You can select **Try an example** to see some examples of the available directions. To see a quick mock up of what the form will look like, select the **Generate form preview** button. If you want a different form, change the provided direction and select **Regenerate preview** for a quick look.
 
@@ -66,5 +67,5 @@ Role required: You must be an admin or your administrator must add you to the Cr
 
 Now that you've added a form to your app, it's time to customize it! Remember: You can add multiple forms to your app for if you need to.
 
-**Parent Topic:**[Working with forms in Creator Studio](../concept/creator-studio-work-with-forms.md)
+**Parent Topic:**[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-work-with-forms.md)
 

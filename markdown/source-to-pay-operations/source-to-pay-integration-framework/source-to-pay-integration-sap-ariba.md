@@ -2,6 +2,7 @@
 title: Source-to-Pay integration with SAP Ariba
 description: The Source-to-Pay integration with SAP Ariba enables you to handle sales orders, procurement, finance, and so on, in SAP Ariba from your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integration-sap-ariba.html
 release: zurich
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -25,17 +26,17 @@ With this application, you can perform the following:
 ## Prerequisites
 
 -   Activate the Source-to-Pay integration with the SAP Ariba application from the ServiceNow Store. This automatically activates the SAP Ariba Spoke.
--   Set up [SAP Ariba Spoke](https://www.servicenow.com/docs/bundle/yokohama-integrate-applications/page/administer/integrationhub-store-spokes/concept/sap-ariba-spoke.html).
+-   Set up SAP Ariba Spoke.
 
-![Overview of Source-to-Pay integration with SAP Ariba](../image/sap-ariba-overview.png "Overview of the Source-to-Pay integration with SAP Ariba")
+\[Omitted image "sap-ariba-overview.png"\] Alt text: Overview of Source-to-Pay integration with SAP Ariba
 
 ServiceNow Store app plugins: sn\_sap\_ariba\_spoke.
 
-**Note:** The Source-to-Pay integration with SAP Ariba depends on the [SAP Ariba Spoke](https://www.servicenow.com/docs/bundle/yokohama-integrate-applications/page/administer/integrationhub-store-spokes/concept/sap-ariba-spoke.html).
+**Note:** The Source-to-Pay integration with SAP Ariba depends on the SAP Ariba Spoke.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## How it works
 

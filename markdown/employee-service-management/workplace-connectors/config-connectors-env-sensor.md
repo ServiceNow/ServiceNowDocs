@@ -2,6 +2,7 @@
 title: Configure environmental sensor data for a workplace location
 description: Create environmental sensor data for a workplace location in Workplace Connectors. The Environmental Data \(sn\_wsd\_wc\_space\_environment\) table checks for air quality, temperature, and humidity levels at a workplace location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-connectors/config-connectors-env-sensor.html
 release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
@@ -29,14 +30,14 @@ Role required: admin
 
 3.  Fill in the form field information.
 
-    For more information about Environmental form fields, see [Environmental data form for Workplace Connectors](../reference/wsd-environmental-data-form-fields.md).
+    For more information about Environmental form fields, see [Environmental data form for Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/wsd-environmental-data-form-fields.md).
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Setup Workplace Connectors for environmental data](../concept/setup-environmental-data-connectors.md)
+**Parent Topic:**[Setup Workplace Connectors for environmental data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/setup-environmental-data-connectors.md)
 
-**Previous topic:**[Set up the Units of measure data table for environmental sensors](wsd-enviromental-unit-measure.md)
+**Previous topic:**[Set up the Units of measure data table for environmental sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/wsd-enviromental-unit-measure.md)
 
-**Next topic:**[Extension point for occupancy and environment data](extension-point-for-occupancy-environment-data.md)
+**Next topic:**[Extension point for occupancy and environment data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/extension-point-for-occupancy-environment-data.md)
 

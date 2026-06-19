@@ -2,6 +2,7 @@
 title: Scoring planning items in Strategic Planning Workspace
 description: Evaluate the work in your portfolio plans using scoring frameworks in Strategic Planning Workspace. Determine the priority and feasibility of planning items using the scores assigned to them so that you can make informed decisions about resource and finance allocations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/using-scoring-frameworks-in-startegic-planning-workspace.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -17,12 +18,12 @@ Evaluate the work in your portfolio plans using scoring frameworks in Strategic 
 
 The following sections guide you on scoring and ranking the items in your portfolio plan in Strategic Planning Workspace.
 
--   **[Score items in a portfolio plan](../task/score-planning-items.md)**  
+-   **[Score items in a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/score-planning-items.md)**  
 Score your items using the Scoring framework attributes that generate a score, that helps in prioritizing and ranking the items in your portfolio plan.
--   **[Rank items in a portfolio plan](../task/rank-items-in-a-portfolio-plan.md)**  
+-   **[Rank items in a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/rank-items-in-a-portfolio-plan.md)**  
 Assign ranks to the items based on the planning item attributes and scoring framework attributes such as Planned Cost, Moscow, Priority, Score, and so on.
--   **[Export planning items data from Scoring to Excel or CSV](../../alignment-planner-workspace/task/export-planning-items-data-from-scoring.md)**  
+-   **[Export planning items data from Scoring to Excel or CSV](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/export-planning-items-data-from-scoring.md)**  
 Export the data of portfolio plan items from your portfolio plan into a Microsoft Excel or CSV file. You can share this data and collaborate with your business stakeholders.
 
-**Parent Topic:**[Portfolio Planning in Strategic Planning Workspace](../../alignment-planner-workspace/concept/planning-in-spw.md)
+**Parent Topic:**[Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/planning-in-spw.md)
 

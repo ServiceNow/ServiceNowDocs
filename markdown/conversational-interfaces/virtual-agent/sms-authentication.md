@@ -2,6 +2,7 @@
 title: Rate limiting policy for SMS Authentication
 description: Rate limiting policy locks out a user when an invalid or incorrect Soft PIN is entered consecutively for 3 times in a span of 24 hours.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/sms-authentication.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -31,7 +32,7 @@ Rate limiting policy is enabled by default for SMS for better security. To confi
     If your account is locked, you are treated as a guest user when you start a new conversation. The bot confirms that your account is locked. You are then provided with the public topics and you can also unlock the account using the **Setup/Reset Verification Profile** Virtual Agent topic to reset the Soft PIN and Google authenticator.
 
 
-![The Provider Properties tab lists entries for each of these parameters, including the value and description.](../images/sms-auth-rate-limit-properties.png)
+\[Omitted image "sms-auth-rate-limit-properties.png"\] Alt text: The Provider Properties tab lists entries for each of these parameters, including the value and description.
 
-**Parent Topic:**[Configure SMS authentication](../task/configure-sms-auth.md)
+**Parent Topic:**[Configure SMS authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-sms-auth.md)
 

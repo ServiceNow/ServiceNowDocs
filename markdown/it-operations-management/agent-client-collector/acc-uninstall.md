@@ -2,6 +2,7 @@
 title: Uninstall the Agent Client Collector manually from a Windows machine
 description: Uninstall the Agent Client Collector from a Windows machine manually instead of using the single-line procedure. Use the manual procedure if the command script is unavailable due to the specific agent not being connected to the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-uninstall.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -24,5 +25,5 @@ Role required: agent\_client\_collector\_admin
 -   Uninstall the Agent Client Collector in the Windows Control Panel.
 
 
-**Parent Topic:**[Install Agent Client Collector on a Windows machine manually](acc-install-windows.md)
+**Parent Topic:**[Install Agent Client Collector on a Windows machine manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-install-windows.md)
 

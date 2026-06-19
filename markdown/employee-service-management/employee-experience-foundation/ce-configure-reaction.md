@@ -2,6 +2,7 @@
 title: Configure a custom reaction
 description: Content engagement utilizes font awesome icons to provide several out-of-the-box reactions for employees to interact with news articles. Engagement admins can customize the out-of-the-box reactions or configure their own.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ce-configure-reaction.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation

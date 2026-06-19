@@ -2,6 +2,7 @@
 title: Google Calendar - Calendar synchronization
 description: Create a connection with Google Calendar and synchronize reservations made using the Workplace Reservation Management application. You can synchronize all the reservations that are made using the Workplace Reservation Management to the Google Calendar and vice versa.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-calendar-synchronization/google-calendar-calendar-synchronization.html
 release: zurich
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -25,13 +26,13 @@ The synchronization process from Workplace Reservation Management to Google is p
 
 The synchronization process includes the following steps:
 
-1.  Install [Google Calendar Spoke](https://www.servicenow.com/docs/access?context=gcal-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
-2.  [Set up Google Calendar spoke](https://www.servicenow.com/docs/access?context=setup-gcal&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)
-3.  Authenticate ServiceNow with Google. Refer to [Authenticate Google for calendar synchronization](../task/authenticate-google-for-calendar-sync.md).
-4.  Configuring the Google Calendar Spoke connection using the Flow designer. Refer to [Create a Connection and credential record for Google](../task/create-connection-configuration-with-google.md).
-5.  Creating the Google Calendar provider. Refer to [Configure Google as calendar provider](../task/configure-google-as-calendar-provider.md).
+1.  Install Google Calendar Spoke.
+2.  Set up Google Calendar spoke
+3.  Authenticate ServiceNow with Google. Refer to [Authenticate Google for calendar synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-calendar-synchronization/authenticate-google-for-calendar-sync.md).
+4.  Configuring the Google Calendar Spoke connection using the Flow designer. Refer to [Create a Connection and credential record for Google](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-calendar-synchronization/create-connection-configuration-with-google.md).
+5.  Creating the Google Calendar provider. Refer to [Configure Google as calendar provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-calendar-synchronization/configure-google-as-calendar-provider.md).
 
-The application also enables you to create your own connection and credential alias instead of using the default alias created by using the flow designer. Refer to [Configure your own Google connection and credential alias](../concept/configure-your-own-google-connection-and-credential-alias.md).
+The application also enables you to create your own connection and credential alias instead of using the default alias created by using the flow designer. Refer to [Configure your own Google connection and credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-calendar-synchronization/configure-your-own-google-connection-and-credential-alias.md).
 
 ## Synchronization from Google Calendar to Workplace Reservation Management
 

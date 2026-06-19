@@ -2,6 +2,7 @@
 title: Virtual machine pre-built topics for ITSM Virtual Agent
 description: ITSM Virtual Agent helps you manage a virtual machine \(VM\) using conversation flows. With this conversation flow, you can start, stop, terminate, describe, and provision a virtual machine.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-virtual-agent/manage-virtual-machine.html
 release: zurich
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -27,7 +28,7 @@ There are two categories of virtual machine management topics:
     -   Stop a Virtual Machine CAI
     -   Terminate a Virtual Machine CAI
     -   Describe a Virtual Machine CAI
--   **Topics that use the [Cloud Provisioning and Governance plugin](https://www.servicenow.com/docs/access?context=request-plugin-cloud-mgt&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US) \(com.snc.cloud.mgmt\)**
+-   **Topics that use the Cloud Provisioning and Governance plugin \(com.snc.cloud.mgmt\)**
 
     The following topics integrate with Cloud Provisioning and Governance \(required\):
 
@@ -42,12 +43,12 @@ Returned details include Provider, Region, and Instance ID. The user can specify
 
 Requirement: User must have the sn\_managevm\_va.cai\_vm\_user role to perform these actions.
 
-This topic uses the following [topic blocks](itsm-va-topic-blocks.md):
+This topic uses the following [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md):
 
 -   Virtual Machine Operation AWS
 -   Virtual Machine Operation Azure
 
-![Describe Virtual Machine CAI topic.](../image/DescribeCIAVM2.png)
+\[Omitted image "DescribeCIAVM2.png"\] Alt text: Describe Virtual Machine CAI topic.
 
 ## Manage Virtual Machine
 
@@ -55,9 +56,9 @@ This topic calls the appropriate topic block \(describe, start, stop, and termin
 
 This topic calls the appropriate topic block \(describe, start, stop, and terminate\) to complete an end-to-end fulfillment of the request. This pre-built topic is read-only. Duplicate the topic in the Virtual Machine Management for Virtual Agent scope and activate it to use the conversation flow.
 
-Requirement: [Cloud Provisioning and Governance plugin](https://www.servicenow.com/docs/access?context=request-plugin-cloud-mgt&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US) \(com.snc.cloud.mgmt\)
+Requirement: Cloud Provisioning and Governance plugin \(com.snc.cloud.mgmt\)
 
-This topic uses the following [topic blocks](itsm-va-topic-blocks.md):
+This topic uses the following [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md):
 
 -   Describe Virtual Machine
 -   Start Virtual Machine
@@ -68,19 +69,19 @@ This topic uses the following [topic blocks](itsm-va-topic-blocks.md):
 
 Users can request a new VM in a Virtual Agent conversation. Virtual Agent sends a link to the Cloud User Portal to submit the catalog item.
 
-Requirement: [Cloud Provisioning and Governance plugin](https://www.servicenow.com/docs/access?context=request-plugin-cloud-mgt&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US) \(com.snc.cloud.mgmt\)
+Requirement: Cloud Provisioning and Governance plugin \(com.snc.cloud.mgmt\)
 
 Basic flow:
 
 1.  User requests a virtual machine.
 2.  Virtual Agent does one of the following:
-    -   Provides a link to the [Cloud User Portal](https://www.servicenow.com/docs/access?context=cloudmgt-cloud-user-portal&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US), along with instructions for requesting a VM from the catalog.
+    -   Provides a link to the Cloud User Portal, along with instructions for requesting a VM from the catalog.
     -   Displays items in the VM catalog that are assigned to the user.
 
         If the user can't find the desired catalog item, the user can either go directly to the Cloud User Portal or end the conversation.
 
 
-![Provision Virtual Machine topic.](../image/ProvisionVM3.png)
+\[Omitted image "ProvisionVM3.png"\] Alt text: Provision Virtual Machine topic.
 
 ## Start Virtual Machine CAI
 
@@ -88,7 +89,7 @@ Users can start any assigned virtual machine instance associated with their cred
 
 Requirement: User must have the sn\_managevm\_va.cai\_vm\_user role to perform these actions.
 
-This topic uses the following [topic blocks](itsm-va-topic-blocks.md):
+This topic uses the following [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md):
 
 -   Virtual Machine Operation AWS
 -   Virtual Machine Operation Azure
@@ -102,7 +103,7 @@ Basic flow:
     Virtual Agent also notifies the user if the operation was unsuccessful.
 
 
-![Start Virtual Machine CAI topic.](../image/StartVMCIA2.png)
+\[Omitted image "StartVMCIA2.png"\] Alt text: Start Virtual Machine CAI topic.
 
 ## Stop Virtual Machine CAI
 
@@ -110,7 +111,7 @@ Users can stop any assigned VM instance associated with the credentials set up b
 
 Requirement: User must have the sn\_managevm\_va.cai\_vm\_user role to perform these actions.
 
-This topic uses the following [topic blocks](itsm-va-topic-blocks.md):
+This topic uses the following [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md):
 
 -   Virtual Machine Operation AWS
 -   Virtual Machine Operation Azure
@@ -124,7 +125,7 @@ Basic flow:
     Virtual Agent also notifies the user if the operation was unsuccessful.
 
 
-![Stop Virtual Machine CAI topic.](../image/StopVMCIA3.png)
+\[Omitted image "StopVMCIA3.png"\] Alt text: Stop Virtual Machine CAI topic.
 
 ## Terminate Virtual Machine CAI
 
@@ -132,12 +133,12 @@ Users can terminate any assigned virtual machine instance associated with the cr
 
 Requirement: User must have the sn\_managevm\_va.cai\_vm\_user role to perform these actions.
 
-This topic uses the following [topic blocks](itsm-va-topic-blocks.md):
+This topic uses the following [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md):
 
 -   Virtual Machine Operation AWS
 -   Virtual Machine Operation Azure
 
-![Terminate Virtual Machine CAI topic.](../image/TerminateVMCAI2.png)
+\[Omitted image "TerminateVMCAI2.png"\] Alt text: Terminate Virtual Machine CAI topic.
 
-**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](../concept/using-itsm-va.md)
+**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-virtual-agent/using-itsm-va.md)
 

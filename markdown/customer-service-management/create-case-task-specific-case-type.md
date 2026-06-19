@@ -2,7 +2,10 @@
 title: Create a case task of a specific type for a customer service case
 description: Customer service agents can create different types of case tasks by making selections from the case task type selector screen.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-case-task-specific-case-type.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-08-04"
 reading_time_minutes: 2
@@ -25,13 +28,13 @@ Role required:
 
 ## About this task
 
-The types of case tasks that agents can create depends on the configuration of the [customer service case types](../concept/customer-service-case-types.md) and [service definitions](../concept/csm-service-definitions.md) features. For more information, see the following topics:
+The types of case tasks that agents can create depends on the configuration of the [customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-case-types.md) and [service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-service-definitions.md) features. For more information, see the following topics:
 
--   [Configure customer service case types](configure-csm-case-types.md)
--   [Manage customer service case types](../concept/manage-csm-case-types.md)
--   [Configuring service definitions](../concept/csm-service-definitions-configure.md)
+-   [Configure customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-csm-case-types.md)
+-   [Manage customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/manage-csm-case-types.md)
+-   [Configuring service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-service-definitions-configure.md)
 
-In CSM Configurable Workspace, agents use the [Case type selector screen](../concept/csm-case-type-select-modals.md) to make selections and create cases.
+In CSM Configurable Workspace, agents use the [Case type selector screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-case-type-select-modals.md) to make selections and create cases.
 
 ## Procedure
 

@@ -2,7 +2,10 @@
 title: Create Scan Engine definition suites
 description: Follow these steps to create Scan Engine definition suites.You can modify a definition suite to further customize and refine its scanning criteria.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/create-scan-engine-definition-suites.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-10-29"
 reading_time_minutes: 1
@@ -25,7 +28,7 @@ Role required: Scan Engine admin \(`sn_se.scan_engine_admin_role` role\)
 
 3.  Fill in the fields as needed.
 
-<table id="choicetable_o2k_3nx_2hc"><tbody><tr><td id="d28902e97">
+<table id="choicetable_o2k_3nx_2hc"><tbody><tr><td id="d31642e97">
 
 **Number**
 
@@ -33,7 +36,7 @@ Role required: Scan Engine admin \(`sn_se.scan_engine_admin_role` role\)
 
 The unique identifier of the definition suite. This number is generated automatically.
 
-</td></tr><tr><td id="d28902e106">
+</td></tr><tr><td id="d31642e106">
 
 **Active**
 
@@ -41,7 +44,7 @@ The unique identifier of the definition suite. This number is generated automati
 
 Makes the definition suite active and useable.
 
-</td></tr><tr><td id="d28902e115">
+</td></tr><tr><td id="d31642e115">
 
 **Short Description**
 
@@ -49,7 +52,7 @@ Makes the definition suite active and useable.
 
 Brief description of the definition suite.
 
-</td></tr><tr><td id="d28902e124">
+</td></tr><tr><td id="d31642e124">
 
 **Description**
 
@@ -75,7 +78,7 @@ While only Scan Engine admins can modify definitions, any user with the Scan Eng
 
 2.  Select a suite number to open its details and modify its properties.
 
-    You can edit the same fields you configured in [Create Scan Engine definition suites](create-scan-engine-definition-suites.md#).
+    You can edit the same fields you configured in [Create Scan Engine definition suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/create-scan-engine-definition-suites.md).
 
     Related lists appear at the bottom of the screen.
 

@@ -2,6 +2,7 @@
 title: Log session audit events \[New in Security Center 1.3 and updated in 1.5\]
 description: Set the glide.authenticate.session\_access.log\_audit\_event property to true, so that session audit events will be created in the sys\_session\_access\_audit table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-log-session-audit-events.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -17,7 +18,7 @@ Set the **glide.authenticate.session\_access.log\_audit\_event** property to **t
 
 When the Glide Property **glide.authenticate.session\_access.log\_audit\_event** is set to true, session audit events will be created in the sys\_session\_access\_audit table. It is best practice to log information about who accessed a session to assist in malicious actor investigations. Information logged will include user, session ID \(non-sensitive\), IP address, roles, and policies.
 
-**Note:** The **glide.authenticate.session\_access.log\_audit\_event** system property is specific to Zero trust access. For more information, see [Zero Trust Access \(ZTA\)](../../../integrate/authentication/concept/session-access.md).
+**Note:** The **glide.authenticate.session\_access.log\_audit\_event** system property is specific to Zero trust access. For more information, see [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/session-access.md).
 
 ## More information
 
@@ -75,7 +76,7 @@ Category
 
 </td><td>
 
-[Error handling and logging](sc-error-handling-logging.md)
+[Error handling and logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-error-handling-logging.md)
 
 </td></tr><tr><td>
 
@@ -96,5 +97,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Error handling and logging](sc-error-handling-logging.md)
+</table>**Parent Topic:**[Error handling and logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-error-handling-logging.md)
 

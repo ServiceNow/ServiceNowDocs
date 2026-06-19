@@ -2,6 +2,7 @@
 title: Kafka connector instance form
 description: The Kafka connector instance form displays the fields you must fill in when creating a Kafka connector instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/kafka-connector-instance-form.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -26,5 +27,5 @@ The Kafka connector instance form displays the fields you must fill in when crea
 |Event collection schedule \(seconds\)|The frequency in seconds that the system checks for new events from the Kafka Consumer.|
 |Last error message|This field is automatically set to the last error message.|
 
-**Parent Topic:**[Event Management reference](event-management-reference.md)
+**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/event-management-reference.md)
 

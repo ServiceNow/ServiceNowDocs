@@ -2,6 +2,7 @@
 title: Configure KPIs for queues
 description: Configure key performance indicators in queues to track the incoming work for specific categories of work in a service channel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/configure-kpis-queues-configurable-wfo-itsm.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -23,15 +24,15 @@ Role required: sn\_channel\_mgmt.admin
 
 1.  Add KPIs to a queue.
 
-<table id="choicetable_tmd_vh5_tlb"><thead><tr><th align="left" id="d114872e57">
+<table id="choicetable_tmd_vh5_tlb"><thead><tr><th align="left" id="d114922e57">
 
 To
 
-</th><th align="left" id="d114872e60">
+</th><th align="left" id="d114922e60">
 
 Do This
 
-</th></tr></thead><tbody><tr><td id="d114872e66">
+</th></tr></thead><tbody><tr><td id="d114922e66">
 
 **Add from a service channel**
 
@@ -43,7 +44,7 @@ Do This
 4.  Select a queue.
 
 
-</td></tr><tr><td id="d114872e104">
+</td></tr><tr><td id="d114922e104">
 
 **Add from a queue**
 
@@ -62,12 +63,12 @@ Do This
 
 4.  Add Workforce Optimization for ITSM KPIs \(reports\) that are filtered based on **My Managed Groups**.
 
-    To create reports that explicitly apply to your managed teams, refer to [Create a report](https://www.servicenow.com/docs/access?context=c_SingleScoreCharts&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+    To create reports that explicitly apply to your managed teams, refer to Create a report.
 
 5.  Click **Submit**.
 
     The key performance indicators are added to the queue and appear in the **All Queues** tab in Manager Workspace. By default, the indicators get automatically refreshed at an interval of five seconds. You can add the **sn\_channel\_mgmt.kpi\_auto\_refresh.interval.seconds** property to the system properties to modify the interval time.
 
 
-**Parent Topic:**[Setting up Channels in Workforce Optimization for ITSM](../concept/setup-channels-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Setting up Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/setup-channels-configurable-workforce-optimization-itsm.md)
 

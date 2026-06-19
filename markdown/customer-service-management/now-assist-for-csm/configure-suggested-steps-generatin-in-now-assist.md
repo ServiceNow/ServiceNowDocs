@@ -2,6 +2,7 @@
 title: Configure Suggested Steps Generation
 description: Configure suggested steps generation to analyze clusters of similar cases and suggest next steps for case resolution for accelerated and consistent agent case troubleshooting.Learn how to enable the suggested steps generation in the CSM Workspace after skill activation.Replace the default sn\_customerservice\_agent or sn\_customerservice.consumer\_agent role with a custom role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/configure-suggested-steps-generatin-in-now-assist.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -82,7 +83,7 @@ Input fields
 
         **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still need to manually select it in **Select Display** to make it active.
 
-    -   For customizing access control, see [Customize access control for suggested steps](configure-suggested-steps-generatin-in-now-assist.md#)
+    -   For customizing access control, see [Customize access control for suggested steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/configure-suggested-steps-generatin-in-now-assist.md)
 7.  Toggle **Display** to determine if suggested step recommendations appear in In-product desktop, displaying Now Assist skills on forms and workspaces.
 
 8.  After selecting **Review and Activate** to examine changes, select **Done** to close the Suggested Steps Generation settings.
@@ -104,11 +105,11 @@ After activating the Suggested steps generation feature in the Now Assist Admin 
 
 1.  Navigate to **All** &gt; **UI Builder**.
 
-2.  Go to **Experiences** &gt; **CSM/FSM Configurable Workspace** &gt; **Record** &gt; **Front-line Case Page**.![Front-line Case page location under CSM/FSM Configurable Workspace](../image/csm-fsm-configurable-workspace.png)
+2.  Go to **Experiences** &gt; **CSM/FSM Configurable Workspace** &gt; **Record** &gt; **Front-line Case Page**.\[Omitted image "csm-fsm-configurable-workspace.png"\] Alt text: Front-line Case page location under CSM/FSM Configurable Workspace
 
 3.  In the left content navigation pane, scroll down and select **Recommended Action 1**.
 
-4.  In the right pane, clear the checkbox **Hide recommended actions**.![Image shows the Hide recommended actions checkbox unchecked](../image/recommended-actions1-tab.png)
+4.  In the right pane, clear the checkbox **Hide recommended actions**.\[Omitted image "recommended-actions1-tab.png"\] Alt text: Image shows the Hide recommended actions checkbox unchecked
 
 5.  Select **Save** to apply the changes.
 
@@ -137,10 +138,12 @@ Role required: admin
 
 3.  Configure skill access
 
-    In Now Assist Admin, complete the setup for the CSM Suggested Steps Generation skill:
+    In Now Assist admin, complete the setup for the CSM Suggested Steps Generation skill:
 
     -   Add your custom role in the **Define Access** step.
     -   Add the same role in the **Select Display** step.
+    **Note:** The `sn_gaf.data_writer` role includes `platform_ml_read` by default. Since `sn_gaf.data_writer` is assigned to agent roles like `sn_esm_agent`, those agents inherit `platform_ml_read` as well, which gives them broader access than intended. To avoid unintended access, never assign `platform_ml_read` directly to a user- it should always be inherited through their agent role.
+
 
 ### Result
 

@@ -2,6 +2,7 @@
 title: Migrate Zing search application configurations to AI Search
 description: Walk through a Guided Setup task to migrate your existing Zing search application configurations to AI Search application configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/migrate-srch-apps-ais-next-exp.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -17,9 +18,9 @@ Walk through a Guided Setup task to migrate your existing Zing search applicatio
 
 ## Before you begin
 
-The AI Search for Next Experience ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install AI Search for Next Experience](install-ais-next-experience-app.md).
+The AI Search for Next Experience ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/install-ais-next-experience-app.md).
 
-You must have already completed the **Prerequisites** Guided Setup tasks. For details on completing these tasks, see [Verify that your instance meets the prerequisites for AI Search for Next Experience](verify-ais-next-exp-prereqs.md).
+You must have already completed the **Prerequisites** Guided Setup tasks. For details on completing these tasks, see [Verify that your instance meets the prerequisites for AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/verify-ais-next-exp-prereqs.md).
 
 Role required: ais\_admin
 
@@ -37,7 +38,7 @@ Migration of a Zing search application configuration to AI Search includes these
 2.  You accept the proposed migration changes for review, and then commit them to make the required record changes in ServiceNow AI Platform tables.
 3.  You index content and metadata from any new indexed sources that the migration job created.
 
-For more information on AI Search application configurations, see [Search application configurations](../concept/defining-search-app-cfgs-ais.md). To learn more about indexing content and metadata from AI Search indexed sources, see [Indexed sources in AI Search](../concept/indexed-sources-ais.md).
+For more information on AI Search application configurations, see [Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/defining-search-app-cfgs-ais.md). To learn more about indexing content and metadata from AI Search indexed sources, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/indexed-sources-ais.md).
 
 ## Procedure
 
@@ -47,7 +48,7 @@ For more information on AI Search application configurations, see [Search applic
 
 3.  In the **Migrate settings for a Next Experience search application** task, open the Zing to AI Search Migration Job form by selecting **Configure**.
 
-    A modal window shows a list of Zing search application configurations and their migration status. Custom search application names are only translated to your session language if you've created appropriate Message \[sys\_ui\_message\] table records for them. For details on translating message strings by creating Message table records, see [Translate a client script message](../../localization/task/t_TranslateAClientScriptMessage.md).
+    A modal window shows a list of Zing search application configurations and their migration status. Custom search application names are only translated to your session language if you've created appropriate Message \[sys\_ui\_message\] table records for them. For details on translating message strings by creating Message table records, see [Translate a client script message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/t_TranslateAClientScriptMessage.md).
 
 4.  Close the modal list of Zing search application configurations.
 
@@ -55,7 +56,7 @@ For more information on AI Search application configurations, see [Search applic
 
 5.  For each Zing search application configuration with **Needs migration** status, migrate the search application configuration to AI Search.
 
-    1.  In the **Search Application Configuration** field, use the Lookup using list icon ![](../image/icon-lookup-using-list.png) to select the Zing search application configuration that you want to migrate to AI Search.
+    1.  In the **Search Application Configuration** field, use the Lookup using list icon \[Omitted image "icon-lookup-using-list.png"\] Alt text: to select the Zing search application configuration that you want to migrate to AI Search.
 
         **Note:** Only Zing search application configurations with **Needs migration** status are available for selection. Application configurations with **Migrated** status already have corresponding AI Search application configurations.
 
@@ -79,12 +80,12 @@ For more information on AI Search application configurations, see [Search applic
 
         AI Search indexes content and metadata for new indexed sources created by the migration job. When indexing completes, the job's state changes to **Indexing Complete** and the modal window with the list of Zing search application configurations reopens.
 
-6.  When all Zing search application configurations in the modal list show **Migrated** status, close the browser tab and return to the **Convert Zing search applications** Guided Setup category tab, then select the Back icon ![](../image/icon-back.png) to return to the top-level **Guided Setup for Zing to AI Search Migration** page.
+6.  When all Zing search application configurations in the modal list show **Migrated** status, close the browser tab and return to the **Convert Zing search applications** Guided Setup category tab, then select the Back icon \[Omitted image "icon-back.png"\] Alt text: to return to the top-level **Guided Setup for Zing to AI Search Migration** page.
 
 
 ## What to do next
 
-Now that you've got AI Search application configurations for global search and your workspaces, it's time to enable AI Search for Next Experience on your instance. For details on this procedure, see [Enable AI Search for Next Experience](enable-ais-next-exp-app.md).
+Now that you've got AI Search application configurations for global search and your workspaces, it's time to enable AI Search for Next Experience on your instance. For details on this procedure, see [Enable AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/enable-ais-next-exp-app.md).
 
-**Parent Topic:**[Configuring AI Search for Next Experience](../concept/configuring-ais-next-experience.md)
+**Parent Topic:**[Configuring AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configuring-ais-next-experience.md)
 

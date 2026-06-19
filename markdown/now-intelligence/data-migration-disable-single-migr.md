@@ -2,6 +2,7 @@
 title: Disable migration of single dashboards
 description: Hide the banner on individual dashboards that enables owners to migrate dashboards that they own.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/data-migration-disable-single-migr.html
 release: zurich
 topic_type: task
 last_updated: "2025-10-30"
@@ -28,7 +29,7 @@ Add a system property to prevent users from migrating their own dashboards.
 
 2.  Add the system property **com.glide.par.coreui\_single\_migration.enabled** if it does not already exist.
 
-    For more information, see [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For more information, see .
 
 3.  Set **com.glide.par.coreui\_single\_migration.enabled** to `false`.
 

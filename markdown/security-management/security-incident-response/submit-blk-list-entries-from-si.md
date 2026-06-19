@@ -2,6 +2,7 @@
 title: Submit block list entries from a security incident for the Check Point NGTP integration
 description: Observables attached to a security incident record are submitted for approval as Block List entries to different Block Lists. An optional approval process for Block List entries is part of the preconfigured workflow. The Gateway imports Block List entries — IP addresses, URLs, domains — that are included in Block Lists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/submit-blk-list-entries-from-si.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -32,45 +33,45 @@ Users with the sn\_si.analyst role submit Block entries by requesting a block on
 
 2.  Click the **Show IoC** related link.
 
-    ![Show IoC related list](../image/show-ioc.png)
+    \[Omitted image "show-ioc.png"\] Alt text: Show IoC related list
 
 3.  In the Observables related list, select the observables you want to block and, from the **Actions on selected rows** list, select **Block Request**.
 
-    ![Block Request action](../image/action-block-request.png)
+    \[Omitted image "action-block-request.png"\] Alt text: Block Request action
 
-4.  In the dialog box that is displayed, click the search icon \(![Magnifying glass icon](../image/magnifier.png)\)
+4.  In the dialog box that is displayed, click the search icon \(\[Omitted image "magnifier.png"\] Alt text: Magnifying glass icon\)
 
-    ![Block request implementation](../image/block-request-implementation.png)
+    \[Omitted image "block-request-implementation.png"\] Alt text: Block request implementation
 
 5.  From the list, select the Block List you want to attach this entry to.
 
     **Note:** For this example, the entry observable type \(IP\) should match the Block List observable type \(IP\).
 
-    ![Integration capability implementation](../image/integ-cap-implementations.png)
+    \[Omitted image "integ-cap-implementations.png"\] Alt text: Integration capability implementation
 
 6.  In the Block Request dialog box with the Block List name displayed in the Implementation field, click **Block**.
 
-    ![Block Request lookup](../image/lookup-using-list.png)
+    \[Omitted image "lookup-using-list.png"\] Alt text: Block Request lookup
 
 7.  From the list that is displayed, select the Block List you want to attach this entry to.
 
     **Note:** For this example, the entry observable type \(IP\) should match the Block List observable type \(IP\).
 
-    ![Integration capability implementation](../image/integ-cap-implementations.png)
+    \[Omitted image "integ-cap-implementations.png"\] Alt text: Integration capability implementation
 
 8.  In the Block Request dialog box with the Block List name displayed in the **Implementation** field, click **Block**.
 
-    ![Block Request lookup](../image/lookup-using-list.png)
+    \[Omitted image "lookup-using-list.png"\] Alt text: Block Request lookup
 
 9.  Navigate to **Check Point NGTP Integration** &gt; **Block Request List Entries**, and click **Block Request List Entries**.
 
-    ![Block request list entries](../image/pending-in-redbox.png)
+    \[Omitted image "pending-in-redbox.png"\] Alt text: Block request list entries
 
 10. In the Check Point Block Request List Entries list, click your observable in the **Entry value** column to open the record.
 
     For this example, the record for **74.125.34.95** is displayed.
 
-    ![the Check Point Block Request List Entries](../image/sys-admin-redbox.png)
+    \[Omitted image "sys-admin-redbox.png"\] Alt text: the Check Point Block Request List Entries
 
     The status is Pending, the Active check box is cleared, and the work notes show that there is a request to add the observable. This Block List Entry request is ready for approval.
 

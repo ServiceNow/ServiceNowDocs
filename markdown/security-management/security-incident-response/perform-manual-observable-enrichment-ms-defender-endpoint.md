@@ -2,6 +2,7 @@
 title: Perform a manual observable enrichment in Microsoft Defender for Endpoint
 description: Select individual or multiple observables and perform a manual observable enrichment to enrich observables with additional information from Microsoft Defender for Endpoint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/perform-manual-observable-enrichment-ms-defender-endpoint.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

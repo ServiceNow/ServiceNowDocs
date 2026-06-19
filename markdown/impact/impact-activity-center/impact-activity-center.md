@@ -2,6 +2,7 @@
 title: Activity Center
 description: The Activity Center provides a comprehensive view of all the activities supporting your day to day journey with Impact.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/impact-activity-center/impact-activity-center.html
 release: zurich
 product: Impact Activity Center
 classification: impact-activity-center
@@ -20,7 +21,7 @@ Review outstanding notifications for your key Impact activities and deliverables
 |Section|Use|
 |-------|---|
 |Conversations|Scan all conversations you are included in. Start a conversation any time to ask a question or get advice from your Impact squad.|
-|All recommendations|View recommendations from your Squad. See [Activity Center All Recommendations](recommendations-value-journey.md) for additional information.|
+|All recommendations|View recommendations from your Squad. See [Activity Center All Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-activity-center/recommendations-value-journey.md) for additional information.|
 |Tasks|See and manage work items you are responsible for. Also create tasks and assign them to others.|
 |Calendar|See upcoming Impact related events, such as meetings, assessments, and goals.|
 |Activity log|See your team's latest activities and how they support your value journey. All activities, conversations, meetings and tasks are consolidated into one page for ease of access.|

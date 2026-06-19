@@ -2,13 +2,14 @@
 title: Set up Terraform API key in ServiceNow
 description: Add the Terraform API key to the ServiceNow instance to ensure consistent and error-free infrastructure provisioning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/admin-setup.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Set up AWS API configuration information in ServiceNow, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Set up AWS API configuration information in ServiceNow, Configuring Cloud Account Management, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Set up Terraform API key in ServiceNow

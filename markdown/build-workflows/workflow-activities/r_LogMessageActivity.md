@@ -2,6 +2,7 @@
 title: Log Message workflow activity
 description: The Log Message activity writes a message to the workflow log.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-activities/r\_LogMessageActivity.html
 release: zurich
 product: Workflow Activities
 classification: workflow-activities
@@ -25,5 +26,5 @@ Input variables determine the initial behavior of the activity.
 |-----|-----------|
 |Message|The message to log. This variable can be a string or a JavaScript expression that evaluates to a string.|
 
-**Parent Topic:**[Utility workflow activities](../concept/c_UtilityActivities.md)
+**Parent Topic:**[Utility workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-activities/c_UtilityActivities.md)
 

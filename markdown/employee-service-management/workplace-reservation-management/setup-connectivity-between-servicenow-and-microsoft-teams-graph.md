@@ -2,6 +2,7 @@
 title: Setup OAuth connectivity between ServiceNow and Microsoft Teams Graph
 description: Register your Microsoft Teams Graph with your ServiceNow instance for OAuth authorization to get recordings after a virtual meeting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-reservation-management/setup-connectivity-between-servicenow-and-microsoft-teams-graph.html
 release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -17,7 +18,7 @@ Register your Microsoft Teams Graph with your ServiceNow® instance for OAuth au
 
 ## Before you begin
 
-Authenticate Microsoft Teams Graph with Microsoft Azure. Follow the similar procedure explained in [Authenticate Microsoft Teams with Microsoft Azure](authenticate-microsoft-teams-with-micrsoft-azure.md).
+Authenticate Microsoft Teams Graph with Microsoft Azure. Follow the similar procedure explained in [Authenticate Microsoft Teams with Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/authenticate-microsoft-teams-with-micrsoft-azure.md).
 
 Role required: admin
 
@@ -48,9 +49,9 @@ Role required: admin
 
 The OAuth registration is added for Microsoft Teams Graph.
 
-**Parent Topic:**[Connect Workplace Reservation Management with Microsoft Teams](connect-rsv-mgmt-with-teams.md)
+**Parent Topic:**[Connect Workplace Reservation Management with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/connect-rsv-mgmt-with-teams.md)
 
-**Previous topic:**[Setup OAuth connectivity with Microsoft Teams Connections spoke for virtual meeting](setup-connectivity-between-servicenow-and-microsoft-teams-connection-spoke.md)
+**Previous topic:**[Setup OAuth connectivity with Microsoft Teams Connections spoke for virtual meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/setup-connectivity-between-servicenow-and-microsoft-teams-connection-spoke.md)
 
-**Next topic:**[Create credential for Microsoft Teams Communication](create-credentials-for-microsoft-teams-connection.md)
+**Next topic:**[Create credential for Microsoft Teams Communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/create-credentials-for-microsoft-teams-connection.md)
 

@@ -2,6 +2,7 @@
 title: Delete a visualization in the Visualization Designer
 description: You can delete a data visualization that is no longer useful.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/delete-visualization-vd.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -26,12 +27,12 @@ Role required: You can delete any data visualization that you created. If you ha
 
 2.  Open the data visualization that you want to delete.
 
-3.  From the More actions menu \(![More actions menu icon](../image/icon-vert-3dot-p.png)\), select **Delete**.
+3.  From the More actions menu \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text: More actions menu icon\), select **Delete**.
 
 4.  Confirm the deletion.
 
     You cannot undo this action.
 
 
-**Parent Topic:**[Common data visualization tasks](../../reporting/concept/common-dv-tasks.md)
+**Parent Topic:**[Common data visualization tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/common-dv-tasks.md)
 

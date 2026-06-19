@@ -2,6 +2,7 @@
 title: Jumpstart Your Process Mining
 description: Jumpstart Your Process Mining Accelerator provides a demonstration of the possibilities and capabilities of Process Mining.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/jumpstart-process-mining.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -17,7 +18,7 @@ Jumpstart Your Process Mining Accelerator provides a demonstration of the possib
 
 ## Overview
 
-Jumpstart Your Process Mining provides Impact customers with a comprehensive overview of Process Mining to visualize and analyze their  business processes. Through an applied demonstration, we illustrate how organizations can identify inefficiencies, bottlenecks, and areas for potential automation, ensuring timely resolution and optimized performance. This offering equips our customers with essential ServiceNow  resources and leading practice guides on how to get started with Process Mining. For more information on Process Mining, see [Process Mining](https://www.servicenow.com/docs/access?context=process-mining&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+Jumpstart Your Process Mining provides Impact customers with a comprehensive overview of Process Mining to visualize and analyze their  business processes. Through an applied demonstration, we illustrate how organizations can identify inefficiencies, bottlenecks, and areas for potential automation, ensuring timely resolution and optimized performance. This offering equips our customers with essential ServiceNow  resources and leading practice guides on how to get started with Process Mining. For more information on Process Mining, see .
 
 **Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 

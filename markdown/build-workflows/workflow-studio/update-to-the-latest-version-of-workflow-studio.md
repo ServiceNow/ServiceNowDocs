@@ -2,6 +2,7 @@
 title: Update to the latest version of Workflow Studio
 description: Workflow Studio is automatically installed on your instance. However, Workflow Studio is a ServiceNow Store application, so to get the latest features, you must update your version manually to the most recent version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/update-to-the-latest-version-of-workflow-studio.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -23,7 +24,7 @@ Role required: admin
 
 Workflow Studio displays an information banner when a new version is available.
 
-![Workflow Studio information banner indicating that a new version is available](../images/workflow-studio-new-version.png "New version available information banner")
+\[Omitted image "workflow-studio-new-version.png"\] Alt text: Workflow Studio information banner indicating that a new version is available
 
 Updating Workflow Studio automatically updates all of its application dependencies such as Flow Designer, Playbook, and Decision Builder.
 
@@ -44,5 +45,5 @@ You can also find and update each individual Workflow Studio application depende
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configuring Workflow Studio](../concept/configuring-workflow-studio.md)
+**Parent Topic:**[Configuring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/configuring-workflow-studio.md)
 

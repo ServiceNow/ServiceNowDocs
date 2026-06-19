@@ -2,6 +2,7 @@
 title: Create a user
 description: You can add a user to your instance to enable them to log in and use designated application features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/user-administration/t\_CreateAUser.html
 release: zurich
 product: User Administration
 classification: user-administration
@@ -116,7 +117,7 @@ Web service access only
 
 </td><td>
 
-It designates a user as a non-interactive user. This field is available with [Non-Interactive Sessions](../concept/c_NonInteractiveSessions.md#).**Note:** The Web service access only check box is automatically enabled when you select **Machine** in the Identity type field. The Web service access only check box is automatically disabled when you select **Human** or **AI Agent**.
+It designates a user as a non-interactive user. This field is available with [Non-Interactive Sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/c_NonInteractiveSessions.md).**Note:** The Web service access only check box is automatically enabled when you select **Machine** in the Identity type field. The Web service access only check box is automatically disabled when you select **Human** or **AI**.
 
 </td></tr><tr><td>
 
@@ -124,7 +125,7 @@ Internal Integration User
 
 </td><td>
 
-Select this check box to [Mark service accounts as internal integration users](https://www.servicenow.com/docs/access?context=t_MarkSvcAcctsAsInternalIntegUsers&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+Select this check box to Mark service accounts as internal integration users.
 
 </td></tr><tr><td>
 
@@ -151,7 +152,7 @@ Select the user identity type based on the user:-   Human - Select this for a re
 -   Machine - Select this for a non-human system or device, such as a server, application, or service account that makes automated requests.
 -   AI - Select this for an autonomous AI-driven system. AI users should be used when an AI agent or agentic workflow needs permissions greater than that of the invoking user.
 
-See [Security for AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) for more information on using AI type users.
+See Security for AI agents for more information on using AI type users.
 
 **Note:** The Web service access only check box is automatically enabled when you select **Machine** in the Identity type field. The Web service access only check box is automatically disabled when you select **Human** or **AI**.
 
@@ -218,12 +219,12 @@ Attach a photo of the user, if appropriate.
 
 4.  Add **Roles**, **Groups**, **Delegates**, **Skills**, and **Subscriptions** to the user.
 
-    For more information, see [Managing roles](../../roles/concept/ua-creating-roles.md), [Creating groups](../../roles/concept/ua-creating-groups.md), and [Delegating roles](../../roles/concept/c_DelegateRoles.md).
+    For more information, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/ua-creating-roles.md), [Creating groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/ua-creating-groups.md), and [Delegating roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/c_DelegateRoles.md).
 
 5.  Select **Submit**.
 
     The new user record appears in the list.
 
 
-**Parent Topic:**[Creating users](../../roles/concept/ua-creating-users.md)
+**Parent Topic:**[Creating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/ua-creating-users.md)
 

@@ -2,6 +2,7 @@
 title: ServiceNow CPQ admin settings
 description: Explore the admin settings in ServiceNow CPQ.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cpq-admin-settings.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -17,7 +18,7 @@ Explore the admin settings in ServiceNow CPQ.
 
 Several settings in ServiceNow CPQ control how ServiceNow CPQ interacts with the rest of your application. To get to the Settings page in ServiceNow CPQ, navigate to the ServiceNow CPQ Admin screen, click the arrow to expand the Utilities section, and then click the Settings tab near the bottom of the menu.
 
-![Admin settings user interface](../images/cpq-admin-settings.png)
+\[Omitted image "cpq-admin-settings.png"\] Alt text: Admin settings user interface
 
 1.  Admin Version: Determines which UI theme is used for the Admin interface. The setting is maintained at the user level; each administrator can select their preference. If your ServiceNow CPQ environment contains both Configuration Manager and Transaction Manager, we highly recommend you use the new Admin UI.
     -   The new Admin UI introduces top-level navigation and color theming that helps administrators easily identify and access different administration areas.

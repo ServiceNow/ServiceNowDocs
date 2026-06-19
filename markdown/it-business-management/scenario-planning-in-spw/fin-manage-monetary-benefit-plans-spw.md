@@ -2,6 +2,7 @@
 title: Create monetary benefit plans for your planning items in Strategic Planning
 description: Create and manage monetary benefit plans to capture the potential benefits while executing your planning items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/fin-manage-monetary-benefit-plans-spw.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -17,8 +18,8 @@ Create and manage monetary benefit plans to capture the potential benefits while
 
 ## Before you begin
 
--   [Enable monetary benefit plans for planning items](enable-benefitplans-spw-fin.md)
--   [Add monetary and non-monetary benefit plans related lists](enable-benefit-plans-planning-items.md)
+-   [Enable monetary benefit plans for planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/enable-benefitplans-spw-fin.md)
+-   [Add monetary and non-monetary benefit plans related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/enable-benefit-plans-planning-items.md)
 -   Role required: sn\_align\_ws.spw\_financial\_user
 
 ## Procedure
@@ -33,15 +34,15 @@ Create and manage monetary benefit plans to capture the potential benefits while
 
 4.  Create a monetary benefit plan using one of the following options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d285430e124">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d112649e124">
 
 Option
 
-</th><th align="left" id="d285430e127">
+</th><th align="left" id="d112649e127">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d285430e133">
+</th></tr></thead><tbody><tr><td id="d112649e133">
 
 **Using Monetary benefit plan related list**
 
@@ -51,7 +52,7 @@ Procedure
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d285430e157">
+</td></tr><tr><td id="d112649e157">
 
 **Using finanicals record page**
 
@@ -64,7 +65,7 @@ Procedure
 </td></tr></tbody>
 </table>5.  On the Benefit Plan form, fill the fields.
 
-    For a description of the field names, see [Benefit Plan form](../../project-management/reference/benefit-plan-form-project-management.md).
+    For a description of the field names, see [Benefit Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/benefit-plan-form-project-management.md).
 
 6.  Select **Save**.
 
@@ -75,6 +76,6 @@ The newly created monetary benefit plan appears in the finanicals record page an
 
 ## What to do next
 
--   [Edit monetary benefit plans](fin-edit-monetary-benefit-plan-spw.md).
--   [Capture actual monetary benefits](fin-manage-actual-monetary-benefit-spw.md).
+-   [Edit monetary benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/fin-edit-monetary-benefit-plan-spw.md).
+-   [Capture actual monetary benefits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/fin-manage-actual-monetary-benefit-spw.md).
 

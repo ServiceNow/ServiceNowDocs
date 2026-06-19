@@ -2,6 +2,7 @@
 title: Integrating with Okta
 description: You can integrate your ServiceNow instance with Okta to view software usage for all connected SSO applications.Create an Okta application that you can integrate with the ServiceNow AI Platform.Create an Okta integration profile in your ServiceNow instance.Okta SSO direct integration profile helps you manage Okta user licenses by creating subscriptions for Okta users while setting up an Okta SSO integration.Connect an SSO application to monitor all the users and groups who have access to that application. While SSO integration provides a summary of application usage and activity, direct integration offers detailed insights into these metrics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/saas-license-management/integrate-okta.html
 release: zurich
 product: SaaS License Management
 classification: saas-license-management
@@ -105,7 +106,7 @@ Application administrator
 okta.apps.manage
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integrate with SSO providers](saas-sso-integration.md)
+</table>**Parent Topic:**[Integrate with SSO providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/saas-sso-integration.md)
 
 ## Create an Okta application
 
@@ -113,7 +114,7 @@ Create an Okta application that you can integrate with the ServiceNow AI Platfor
 
 ### Before you begin
 
-Okta Role required: Refer the [Minimal user permissions](integrate-okta.md#) table.
+Okta Role required: Refer the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-okta.md) table.
 
 See [Administrator roles and permissions](https://help.okta.com/en/prod/Content/Topics/Security/administrators-admin-comparison.htm) for more details on Okta admin roles and [Scopes and supported endpoints](https://developer.okta.com/docs/guides/implement-oauth-for-okta/scopes/) for more details on Okta OAuth scopes.
 
@@ -147,7 +148,7 @@ To create an Okta integration profile, request the Software Asset Management - S
 
 ServiceNow Role required: sam\_integrator or admin
 
-**Important:** You must select the **Okta Spoke** check box for this integration while installing optional features on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **Okta Spoke** check box for this integration while installing optional features on the  page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### About this task
 
@@ -159,15 +160,15 @@ If you’re using Software Asset Workspace, the option to create the Okta integr
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_fcx_4nx_qtb"><thead><tr><th align="left" id="d116021e515">
+<table id="choicetable_fcx_4nx_qtb"><thead><tr><th align="left" id="d115072e514">
 
 Interface
 
-</th><th align="left" id="d116021e518">
+</th><th align="left" id="d115072e517">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d116021e524">
+</th></tr></thead><tbody><tr><td id="d115072e523">
 
 **Core UI**
 
@@ -178,7 +179,7 @@ Action
 3.  Select **Okta Integration Profile**.
 
 
-</td></tr><tr><td id="d116021e566">
+</td></tr><tr><td id="d115072e565">
 
 **Software Asset Workspace**
 
@@ -260,7 +261,7 @@ Option for creating a direct integration profile to view Okta subscriptions afte
 </td></tr></tbody>
 </table>3.  In the Process configuration section, view the required user roles or API permissions to minimize security risks and optimize SaaS licenses.
 
-    **Note:** For more information about the required roles and scopes, see [Minimal user permissions](integrate-okta.md#) table.
+    **Note:** For more information about the required roles and scopes, see [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-okta.md) table.
 
     -   The **Download applications, users, and groups** check box is selected by default and you can't clear it.
 
@@ -282,15 +283,15 @@ Option for creating a direct integration profile to view Okta subscriptions afte
 
 5.  Open the Create Connection and Credential dialog box.
 
-<table id="choicetable_oww_kmj_lzb"><thead><tr><th align="left" id="d116021e945">
+<table id="choicetable_oww_kmj_lzb"><thead><tr><th align="left" id="d115072e944">
 
 Interface
 
-</th><th align="left" id="d116021e948">
+</th><th align="left" id="d115072e947">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d116021e954">
+</th></tr></thead><tbody><tr><td id="d115072e953">
 
 **Core UI**
 
@@ -298,13 +299,13 @@ Action
 
 Select the **Create New Connection &amp; Credential** related link on the SSO integration profile form.
 
-</td></tr><tr><td id="d116021e966">
+</td></tr><tr><td id="d115072e965">
 
 **Software Asset Workspace**
 
 </td><td>
 
-1.  Selecting the preview icon ![](../image/preview-icon.png) next to the **Connection &amp; Credential** field
+1.  Selecting the preview icon \[Omitted image "preview-icon.png"\] next to the **Connection &amp; Credential** field
 2.  Select **Open Record** in the record preview.
 3.  On the Connection &amp; Credential Aliases form, select the **Create New Connection &amp; Credential** related link.
 
@@ -325,7 +326,7 @@ Select the **Create New Connection &amp; Credential** related link on the SSO in
 
 7.  Select **Create and Get OAuth Token**.
 
-    **Note:** You must sign in using the same credentials as the user with the required role. For the role required to perform this step, refer to the [Minimal user permissions](integrate-okta.md#) table.
+    **Note:** You must sign in using the same credentials as the user with the required role. For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-okta.md) table.
 
 8.  On the integration profile form, select **Validate Connection** to verify the connection and credential details of this integration.
 
@@ -346,7 +347,7 @@ Both scheduled jobs and directory jobs download a list of all applications, user
 
 If you’ve selected the **Create Okta subscriptions** check box and this integration profile is published, a direct integration profile for Okta gets created. You can navigate to the direct integration profile by selecting the **Direct integration profile** link in the information message.
 
-After you’ve navigated to the direct integration profile, you can view Okta subscriptions by selecting the **Software Subscriptions** tab. For more information, see [Okta SSO direct integration profile](integrate-okta.md#).
+After you’ve navigated to the direct integration profile, you can view Okta subscriptions by selecting the **Software Subscriptions** tab. For more information, see [Okta SSO direct integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-okta.md).
 
 **Warning:**
 
@@ -354,7 +355,7 @@ When your OAuth token expires, your Okta integration profile displays an error m
 
 Don’t delete the OAuth 2.0 credential record that is associated with the connection record for your Okta integration profile. If you delete the OAuth 2.0 credential record, you won’t be able to get a new OAuth token after your current OAuth token expires.
 
-After you publish the integration profile and connect applications to the profile, you can view events performed by individual users up to 60 days prior to the current date. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+After you publish the integration profile and connect applications to the profile, you can view events performed by individual users up to 60 days prior to the current date. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 ## Okta SSO direct integration profile
 
@@ -419,7 +420,7 @@ ServiceNow Role required: sam\_integrator or admin
 
 ### About this task
 
-ServiceNow® SaaS License Management offers direct integrations with some applications. Direct integrations provide the most comprehensive usage data. For a list of available direct integrations, see [Integrate with SaaS applications](create-integration-profile.md).
+ServiceNow® SaaS License Management offers direct integrations with some applications. Direct integrations provide the most comprehensive usage data. For a list of available direct integrations, see [Integrate with SaaS applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/create-integration-profile.md).
 
 If you have already created a direct integration for an application, then connecting the same application in an SSO integration creates duplicate subscription records in your ServiceNow instance. You should only use the direct integration. If you connect an application in an SSO integration, but you later want to create a direct integration for that application, then disconnect the application before creating the direct integration.
 
@@ -431,13 +432,13 @@ If you have already created a direct integration for an application, then connec
 
 3.  If the **Software model** field is empty, add a software model for the application.
 
-    Before you can connect an application, it must be associated with a software model. ServiceNow® Software Asset Management automatically creates software models for applications with an external catalog ID that matches an **Identifier** in the Subscription Product Definitions \[samp\_sw\_subscription\_product\_definition\] table. For all other applications, you can create a software model manually. For detailed instructions, see [Create software models in Software Asset Management classic](../task/record-terms-software-licenses.md).
+    Before you can connect an application, it must be associated with a software model. ServiceNow® Software Asset Management automatically creates software models for applications with an external catalog ID that matches an **Identifier** in the Subscription Product Definitions \[samp\_sw\_subscription\_product\_definition\] table. For all other applications, you can create a software model manually. For detailed instructions, see [Create software models in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/record-terms-software-licenses.md).
 
 4.  Select the **Enable group based software model** check box for mapping an SSO group with a specific software model for the application.
 
     For example, if an application has multiple license models that are linked to specific groups, then you can map a group to a software model to optimize license usage.
 
-    **Important:** If you select this option, you must create a mapping for the SSO group before connecting the application. After the mapping is complete, the SSO subscriptions get automatically created or updated according to the mapped software model. For more information, see [Create an SSO group software model mapping](../task/create-ssogrp-swmodel-mapping.md).
+    **Important:** If you select this option, you must create a mapping for the SSO group before connecting the application. After the mapping is complete, the SSO subscriptions get automatically created or updated according to the mapped software model. For more information, see [Create an SSO group software model mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/create-ssogrp-swmodel-mapping.md).
 
 5.  Select the date that you want to analyze the last activity from in the **Analyze last activity from** field.
 
@@ -454,7 +455,7 @@ If you have already created a direct integration for an application, then connec
 
 After the SSO application connects, your ServiceNow instance automatically creates users, groups, subscriptions, and reclamation rules that are refreshed daily. If you delete a user, application, group, or group membership from the Okta Developer Console, the changes are reflected on your ServiceNow instance.
 
-Review all automatically generated reclamation rules to confirm that they meet your specifications for reclaiming user subscriptions. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+Review all automatically generated reclamation rules to confirm that they meet your specifications for reclaiming user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 After connecting the SSO application, view information about the SSO profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **SSO integration profiles**. You can select an integration profile to view the following related lists.
 
@@ -466,9 +467,9 @@ After connecting the SSO application, view information about the SSO profile in 
 -   Directory Job Results
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](subscription-exclusions.md#).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/subscription-exclusions.md).
 
-Create software entitlements for the automatically generated software models to track used software against owned software. For more information on creating software entitlements in the Software Asset Management classic application, see [Create entitlements in Software Asset Management classic](../task/track-software-rights.md). For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](../task/create-entitlements-workspace.md). For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](../task/guidedwalk-workspace.md).
+Create software entitlements for the automatically generated software models to track used software against owned software. For more information on creating software entitlements in the Software Asset Management classic application, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/track-software-rights.md). For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-entitlements-workspace.md). For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 
-Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance. For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](../task/t_RunReconciliation.md). For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](../task/run-recon-workspace.md).
+Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance. For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_RunReconciliation.md). For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/run-recon-workspace.md).
 

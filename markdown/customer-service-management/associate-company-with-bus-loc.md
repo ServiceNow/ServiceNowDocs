@@ -2,7 +2,10 @@
 title: Adding and associating company records with a business location
 description: Create a company record and associate it to an internal or an external business location.Associate your company records with a business location to enhance service organization data model adoption across different industry verticals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/associate-company-with-bus-loc.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -15,8 +18,8 @@ Create a company record and associate it to an internal or an external business 
 
 |Task|Description|
 |----|-----------|
-|[Add a new company](https://www.servicenow.com/docs/access?context=t_AddANewCompany&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)|Create a company record that represents vendors, manufacturers, or customers with whom you do business.|
-|[Associate company records with a business location](associate-company-with-bus-loc.md#)|Associate company records with a business location to indicate that a business location is a company.|
+||Create a company record that represents vendors, manufacturers, or customers with whom you do business.|
+|[Associate company records with a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/associate-company-with-bus-loc.md)|Associate company records with a business location to indicate that a business location is a company.|
 
 ## Associate company records with a business location
 
@@ -24,7 +27,7 @@ Associate your company records with a business location to enhance service organ
 
 ### Before you begin
 
-Add the **Company** field to an internal or an external business location form using the form layout. For more information, see [Add fields to a form layout in Table Builder](https://www.servicenow.com/docs/access?context=add-form-fields&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+Add the **Company** field to an internal or an external business location form using the form layout. For more information, see .
 
 Role required: admin
 

@@ -2,6 +2,7 @@
 title: Configure a connection in the Connections dashboard
 description: Configure a connection through the Connections dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/dashboard-configure-connection.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
@@ -33,9 +34,9 @@ When you transfer an alias or promote it to production, its underlying connectio
 
 4.  On the Configure Connection form, fill in the fields.
 
-    The fields that appear on the form depend on which configuration template the parent alias has. For details on each specific template, see [Connection and Credential configuration templates](https://www.servicenow.com/docs/access?context=spoke-configuration-template&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+    The fields that appear on the form depend on which configuration template the parent alias has. For details on each specific template, see Connection and Credential configuration templates.
 
-    Configuring a connection through the dashboard requires the parent alias to have a configuration template. If yours doesn't, clicking **Configure** opens the Connection and Credential Alias record for your alias instead of the Configure Connection form. For more information about configuring your connection in the Connection and Credential Alias record, see [Create a Connection and Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+    Configuring a connection through the dashboard requires the parent alias to have a configuration template. If yours doesn't, clicking **Configure** opens the Connection and Credential Alias record for your alias instead of the Configure Connection form. For more information about configuring your connection in the Connection and Credential Alias record, see Create a Connection and Credential alias.
 
 5.  To submit the form, click **Configure**.
 

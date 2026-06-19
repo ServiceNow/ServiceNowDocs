@@ -2,6 +2,7 @@
 title: Document repository
 description: In the Document Management application, you can create, view, update, share documents in the document repository. When new documents are created, they’re placed into a record with metadata such as name, description, type, and so on. The record contains all the versions of the document so you can track and update the documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/doc-mgt-view-documents-repo.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -21,22 +22,22 @@ When you want to add a document to a record, upload it as an attachment. Each ti
 
 You can generate and share the document link with authorized users for collaboration or to include the link on any page. The default version of the shared document will have public access and can be accessed by anyone within or outside the organization.
 
--   **[Create a document record](../task/create-new-doc.md)**  
+-   **[Create a document record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/create-new-doc.md)**  
 Create document records and include default versions for the documents.
--   **[Document versions](document-mgt-versions.md)**  
+-   **[Document versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/document-mgt-versions.md)**  
 In the ServiceNow® Document Management application, documents display as versions in the record. You view these versions as a related list within the document record. A document can have many versions.
--   **[Download a document](../task/downloading-a-document.md)**  
+-   **[Download a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/downloading-a-document.md)**  
 Download an attached document version based on the selected default version.
--   **[Share a document link](../task/share-document-link.md)**  
+-   **[Share a document link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/share-document-link.md)**  
 Create and control document sharing based on classification for shared links with public access.
--   **[Modify a shared link access](../task/modify-access-shared-link.md)**  
+-   **[Modify a shared link access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/modify-access-shared-link.md)**  
 Modify the document shared link access to make the link inactive or change the expiration date.
--   **[Configure document permissions](document-configuration.md)**  
+-   **[Configure document permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/document-configuration.md)**  
 Set sharing permissions on external cloud files using document configuration.
--   **[Delete a document link](../task/delete-document-link.md)**  
+-   **[Delete a document link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/delete-document-link.md)**  
 Delete a shared link to remove existing user access to the document.
--   **[Delete documents](../task/delete-a-doc.md)**  
+-   **[Delete documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/delete-a-doc.md)**  
 Delete documents in the document repository.
 
-**Parent Topic:**[Using Document Management](using-document-management.md)
+**Parent Topic:**[Using Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/using-document-management.md)
 

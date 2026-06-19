@@ -2,6 +2,7 @@
 title: FDIH Dashboard
 description: Use a single dashboard to view usage, execution, and debug information for Workflow Studio and Integration Hub transactions. Open links to related Workflow Studio properties, logs, events, and editors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/fdih-dashboard.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -48,8 +49,8 @@ There's no specific order in which you must view the reports, set filters, or cu
 
 The following example shows how the dashboard data is organized into sections, charts, filters, and graphs. The filters enable you to drill beyond a chart or a graph to view more detailed data.
 
--   **[Get insights from the FDIH Dashboard](../task/get-insights-fdih-dashboard.md)**  
+-   **[Get insights from the FDIH Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/get-insights-fdih-dashboard.md)**  
 Use the FDIH Dashboard to get insights on flow executions and historical performance.
 
-**Parent Topic:**[Flow administration](flow-administration.md)
+**Parent Topic:**[Flow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-administration.md)
 

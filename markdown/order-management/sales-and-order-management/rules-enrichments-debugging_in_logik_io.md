@@ -2,6 +2,7 @@
 title: Debugging in ServiceNow CPQ
 description: How to use the debugger to perfect your scripts before deployment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/rules-enrichments-debugging\_in\_logik\_io.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,11 +26,11 @@ Comment out blocks of codes: When a script becomes long, it may be necessary to 
 
 Comment out debug JSON for future use: If you are continually updating a rule during implementation, itʼs a good idea to save your debugging JSON either at the top or bottom of the script inside a comment block. That way, when the script is saved, the JSON can also be saved for future reference.
 
-For more tips on these features, see [Using comments and the console to debug scripts](rules-enrichments-comments-and-console_log.md).
+For more tips on these features, see [Using comments and the console to debug scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/rules-enrichments-comments-and-console_log.md).
 
 ## How to use the debugger
 
-![Debugger screen](../images/cpq-scripting-debugging.png)
+\[Omitted image "cpq-scripting-debugging.png"\] Alt text: Debugger screen
 
 When in the script editor:
 
@@ -138,7 +139,7 @@ The structure of the JSON you use depends on the object type of each field, as w
     }
     ```
 
-    To learn more about defaulting a setʼs fields, see [Scripting: How to populate set values](enrichments-on-configure-reconfigure-scripts-how-to-populate-set-values.md).
+    To learn more about defaulting a setʼs fields, see [Scripting: How to populate set values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/enrichments-on-configure-reconfigure-scripts-how-to-populate-set-values.md).
 
 
 ## Context-specific JSON formatting
@@ -175,7 +176,7 @@ On configuration and reconfiguration, inputs are entered in JSON format, using t
 }
 ```
 
-For more information about how to use the **userEdited** property, see [Scripting: Checking for first and subsequent configurations](enrichments_on_configurer_and_reconfigure_behavior.md)
+For more information about how to use the **userEdited** property, see [Scripting: Checking for first and subsequent configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/enrichments_on_configurer_and_reconfigure_behavior.md)
 
 ## Context-specific JSON formatting: product pickers
 

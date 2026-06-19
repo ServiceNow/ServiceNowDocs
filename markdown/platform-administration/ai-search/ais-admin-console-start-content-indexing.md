@@ -2,6 +2,7 @@
 title: Index the content from an indexed source for searchability
 description: Enable AI Search to index the records from your source tables to make the content searchable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/ais-admin-console-start-content-indexing.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -21,9 +22,9 @@ Role required: ais\_admin
 
 ## About this task
 
-You can index the existing records in the source table and any child tables that you set up for indexing. If you add, change, or remove an indexed source attribute, or update indexed values for fields on referenced tables, you must reindex the content from an internal source. You can do it manually by following the steps given in the procedure again. For more information, see [Indexing content from AI Search indexed sources](../concept/indexing-content-ais.md).
+You can index the existing records in the source table and any child tables that you set up for indexing. If you add, change, or remove an indexed source attribute, or update indexed values for fields on referenced tables, you must reindex the content from an internal source. You can do it manually by following the steps given in the procedure again. For more information, see [Indexing content from AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/indexing-content-ais.md).
 
-You can also index the content from an indexed source for external documents. For more information, see [Indexing and searching external content in AI Search](../concept/external-content-ais.md).
+You can also index the content from an indexed source for external documents. For more information, see [Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/external-content-ais.md).
 
 ## Procedure
 
@@ -39,15 +40,15 @@ You can also index the content from an indexed source for external documents. Fo
 
 5.  Start indexing.
 
-<table id="choicetable_wty_414_tdc"><thead><tr><th align="left" id="d157701e167">
+<table id="choicetable_wty_414_tdc"><thead><tr><th align="left" id="d97295e167">
 
 Option
 
-</th><th align="left" id="d157701e170">
+</th><th align="left" id="d97295e170">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d157701e176">
+</th></tr></thead><tbody><tr><td id="d97295e176">
 
 **Enable AI Search indexing content from internal indexed sources, including both parent table and its child tables**
 
@@ -57,7 +58,7 @@ Procedure
 2.  Select **Start**.
 
 
-</td></tr><tr><td id="d157701e200">
+</td></tr><tr><td id="d97295e200">
 
 **Enable AI Search indexing content from the source tables, including only the selected child tables**
 
@@ -75,7 +76,7 @@ Procedure
 
     When the task completes, the **Ingestion State** field of the indexed source shows its status as indexed.
 
-7.  Return to the list of indexed sources by selecting the back icon \(![Back icon.](../../../use/using-forms/image/FormBackUI15.png)\).
+7.  Return to the list of indexed sources by selecting the back icon \(\[Omitted image "FormBackUI15.png"\] Alt text: Back icon.\).
 
 
 ## Result
@@ -84,7 +85,7 @@ AI Search indexes content from existing records in the indexed source. Indexing 
 
 ## What to do next
 
-Define search sources to make searchable content from the indexed source available in user search experiences. For details on creating search sources, see [Create or edit an EVAM view definition](ais-admin-console-evam-configurations.md).
+Define search sources to make searchable content from the indexed source available in user search experiences. For details on creating search sources, see [Create or edit an EVAM view definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-admin-console-evam-configurations.md).
 
-**Parent Topic:**[Managing indexed sources from the AI Search Admin console](../concept/ais-managing-indexed-source.md)
+**Parent Topic:**[Managing indexed sources from the AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-managing-indexed-source.md)
 

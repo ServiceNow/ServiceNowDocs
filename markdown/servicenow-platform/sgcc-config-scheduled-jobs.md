@@ -2,6 +2,7 @@
 title: Configuring scheduled jobs for SGC Central
 description: You can configure scheduled jobs to automate data collection for tracking integration performance, errors, and processing status of Service Graph Connectors within the SGC Central application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/sgcc-config-scheduled-jobs.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -13,7 +14,7 @@ breadcrumb: [Configuring SGC Central, SGC Central, Integrating third-party data 
 
 You can configure scheduled jobs to automate data collection for tracking integration performance, errors, and processing status of Service Graph Connectors within the SGC Central application.
 
-Scheduled jobs ensure that integration performance data is consistently gathered and available for reporting and analysis within SGC Central. For more information on configuring a scheduled job, see [Scheduled jobs](https://www.servicenow.com/docs/access?context=c_ScheduledJobs&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Scheduled jobs ensure that integration performance data is consistently gathered and available for reporting and analysis within SGC Central. For more information on configuring a scheduled job, see .
 
 ## Types of scheduled jobs in SGC Central
 

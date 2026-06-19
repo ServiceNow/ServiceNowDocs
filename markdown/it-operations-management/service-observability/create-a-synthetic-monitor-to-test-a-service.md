@@ -2,6 +2,7 @@
 title: Create a synthetic monitor to test a service
 description: Install and configure synthetic monitoring and then create a monitor for your service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-observability/create-a-synthetic-monitor-to-test-a-service.html
 release: zurich
 product: Service Observability
 classification: service-observability
@@ -25,22 +26,22 @@ Role required: n\_sow\_svcobs.admin, sn\_sow\_synthetics.synthetics\_admin
 
 1.  Install synthetic monitoring.
 
-    See [Install synthetic monitoring](../../synthetic-monitoring/task/install-synthetic-monitoring.md) for more information.
+    See [Install synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/install-synthetic-monitoring.md) for more information.
 
 2.  If needed, create a location to run the monitor from.
 
-    Monitors can be run locally from a ServiceNow Glide instance or from your environment using either a cluster of Agent Client Collector \(ACC\) agents or from a MID Server. If you choose to run them from your environment, you must create a location. See [Create synthetic monitoring locations](../../synthetic-monitoring/task/create-synthetic-monitoring-locations.md) for more information.
+    Monitors can be run locally from a ServiceNow Glide instance or from your environment using either a cluster of Agent Client Collector \(ACC\) agents or from a MID Server. If you choose to run them from your environment, you must create a location. See [Create synthetic monitoring locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/create-synthetic-monitoring-locations.md) for more information.
 
 3.  Create the monitor.
 
-    Follow the steps in [Create and edit a synthetic monitor](../../synthetic-monitoring/task/create-synthetic-monitor.md). Be sure to select the service you want to monitor as the **Related service CI**.
+    Follow the steps in [Create and edit a synthetic monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/create-synthetic-monitor.md). Be sure to select the service you want to monitor as the **Related service CI**.
 
 
 ## What to do next
 
-Once you create the monitor, it begins running tests. View the results of those tests to verify the results before embedding synthetic monitoring into a Service Observability dashboard. For more information about viewing monitor test results, see [Identifying system issues with synthetic monitoring](../../synthetic-monitoring/concept/identifying-system-issues.md).
+Once you create the monitor, it begins running tests. View the results of those tests to verify the results before embedding synthetic monitoring into a Service Observability dashboard. For more information about viewing monitor test results, see [Identifying system issues with synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/identifying-system-issues.md).
 
-Once you have expected results, move on to [Add synthetic monitor results to a Service Observability dashboard](add-synthetic-monitor-results-to-a-service-observability-dashboard.md).
+Once you have expected results, move on to [Add synthetic monitor results to a Service Observability dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/add-synthetic-monitor-results-to-a-service-observability-dashboard.md).
 
-**Parent Topic:**[Use synthetic monitoring with Service Observability](use-synthetic-monitoring-with-service-observability.md)
+**Parent Topic:**[Use synthetic monitoring with Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/use-synthetic-monitoring-with-service-observability.md)
 

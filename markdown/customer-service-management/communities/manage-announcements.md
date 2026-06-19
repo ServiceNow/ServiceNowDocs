@@ -2,6 +2,7 @@
 title: Configure announcement for community members
 description: Global announcements appear in the banner and broadcast messages to all community members. Forum announcements appear in the Announcements section on the forum page. You can also send the announcement by email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/communities/manage-announcements.html
 release: zurich
 product: Communities
 classification: communities
@@ -26,7 +27,7 @@ Role required:
 
 This example shows how a community user experiences announcements and how you can configure the appearance and operation of announcements.
 
-![Community announcements page displaying global and forum announcements with options to hide or dismiss the announcements.](../images/announcements_annotated.png "Community User Experience Announcements")
+\[Omitted image "announcements\_annotated.png"\] Alt text: Community announcements page displaying global and forum announcements with options to hide or dismiss the announcements.
 
 ## Procedure
 
@@ -167,5 +168,5 @@ This setting appears for Global announcements only. Determines how the user can 
 -   To update an announcement, update any setting as needed and then click **Update**. If you specified **Send email notification**, then you are prompted to send the updated email message.
 -   To cancel an announcement, clear the **Active** check box.
 
-**Parent Topic:**[Community Service Portal](../concept/community-service-portal.md)
+**Parent Topic:**[Community Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/community-service-portal.md)
 

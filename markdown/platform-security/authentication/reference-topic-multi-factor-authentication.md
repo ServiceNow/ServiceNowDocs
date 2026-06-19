@@ -2,6 +2,7 @@
 title: Reference topic - Multi-factor Authentication
 description: Reference topic related to the configuration of MFA.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/reference-topic-multi-factor-authentication.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -26,7 +27,7 @@ To access the details about the user's MFA, navigate to **All** &gt; **Multi-fac
 |Multi-factor secret|The details of the multi-factor secret.|
 |Validated|Is the multi-factor validated. Changing the value to **false** invalidates the existing authenticator app setup.|
 
-**Note:** The recently used MFA factors by the users is available in the User Recent Used Factors module. Navigate to **All** &gt; **Multi-factor Authentication** &gt; **User Recent User Factors**. For more information, see [User Recent Used Factors](reference-topic-multi-factor-authentication.md#section_owm_bs2_4bc).
+**Note:** The recently used MFA factors by the users is available in the User Recent Used Factors module. Navigate to **All** &gt; **Multi-factor Authentication** &gt; **User Recent User Factors**. For more information, see [User Recent Used Factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/reference-topic-multi-factor-authentication.md).
 
 ## Multi-factor Browser Fingerprints
 

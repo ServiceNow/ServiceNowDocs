@@ -2,6 +2,7 @@
 title: Manage attendees in a CAB meeting
 description: Manage attendees of your CAB meeting who will review the change requests during the meeting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/cm-manage-attendees-cab-meeting-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -23,7 +24,7 @@ Role required: sn\_change\_cab.cab\_manager
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/sow-list.png)\).
+2.  Select the list icon \(\[Omitted image "sow-list.png"\] Alt text: List icon.\).
 
 3.  In the **Change Advisory Board**, select **My upcoming CAB meetings**.
 
@@ -48,8 +49,8 @@ Role required: sn\_change\_cab.cab\_manager
 
     The new attendees are added to the CAB meeting and are listed in the Attendees list.
 
-6.  Select the more actions icon \(![More actions icon.](../../itsm-workspace/image/more-actions-icon.png)\) and then select **Send meeting request to attendees** to send the meeting invite to the new and existing attendees.
+6.  Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon.\) and then select **Send meeting request to attendees** to send the meeting invite to the new and existing attendees.
 
 
-**Parent Topic:**[Create a CAB meeting](cm-create-cab-meeting-sow.md)
+**Parent Topic:**[Create a CAB meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/cm-create-cab-meeting-sow.md)
 

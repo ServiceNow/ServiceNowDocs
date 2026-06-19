@@ -2,13 +2,14 @@
 title: Create an entity configurations
 description: Create an organizational structure by configuring entity-based access for different levels such as headquarters, regional offices, and subsidiaries. Define access rules for users and groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/create-oganizational-structure.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring access control, Accessing control through organizational structure, Use, Privacy Management, Governance, Risk, and Compliance]
+breadcrumb: [Configuring access control, Access control by legal entity, Use, Privacy Management, Governance, Risk, and Compliance]
 ---
 
 # Create an entity configurations
@@ -115,5 +116,5 @@ Option to set the configuration to active to enforce the access rules.
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring access control](../configure-access-control-by-legal-entity.md)
+**Parent Topic:**[Configuring access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/configure-access-control-by-legal-entity.md)
 

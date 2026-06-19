@@ -2,6 +2,7 @@
 title: Capture actual monetary benefits
 description: Capture the actual benefit from the planned benefits to measure revenue and calculate the profits.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/fin-manage-actual-monetary-benefit-pws.html
 release: zurich
 product: Project Workspace
 classification: project-workspace
@@ -17,7 +18,7 @@ Capture the actual benefit from the planned benefits to measure revenue and calc
 
 ## Before you begin
 
--   [Create monetary benefit plans for your projects in Project Workspace](fin-manage-monetary-benefit-plans-pws.md)
+-   [Create monetary benefit plans for your projects in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/fin-manage-monetary-benefit-plans-pws.md)
 -   Role required: sn\_align\_ws.spw\_financial\_user
 
 ## Procedure
@@ -26,15 +27,15 @@ Capture the actual benefit from the planned benefits to measure revenue and calc
 
 2.  Capture actual monetary benefits using one of the options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d237507e86">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d225140e86">
 
 Option
 
-</th><th align="left" id="d237507e89">
+</th><th align="left" id="d225140e89">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d237507e95">
+</th></tr></thead><tbody><tr><td id="d225140e95">
 
 **Using Monetary benefit plan related list**
 
@@ -45,14 +46,14 @@ Procedure
 3.  Select the value from the **Entered benefit** field.
 
 
-</td></tr><tr><td id="d237507e125">
+</td></tr><tr><td id="d225140e125">
 
 **Using finanicals record page**
 
 </td><td>
 
 1.  Select the **Financials** tab.
-2.  Select the options ![Option to add expense lines.](../../spw-financials/images/fin-options.png) from the required cell of a monetary benefit plan row.
+2.  Select the options \[Omitted image "fin-options.png"\] Alt text: Option to add expense lines. from the required cell of a monetary benefit plan row.
 3.  Select **Add actual benefits**.
 
 Monetary Benefit Plan Breakdown side-panel is displayed.
@@ -63,5 +64,5 @@ Monetary Benefit Plan Breakdown side-panel is displayed.
 4.  Enter the actuals benefits resulted from the work execution in the **Actual benefit** field and select **Save**.
 
 
-**Parent Topic:**[Create monetary benefit plans for your projects in Project Workspace](fin-manage-monetary-benefit-plans-pws.md)
+**Parent Topic:**[Create monetary benefit plans for your projects in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/fin-manage-monetary-benefit-plans-pws.md)
 

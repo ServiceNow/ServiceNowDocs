@@ -2,6 +2,7 @@
 title: Create a data registry
 description: Create a repository of the users and specify the owners of various applications. This repository helps to identify which user must be assigned the personal data rights \(PDR\) request tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/create-data-registry.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -117,5 +118,5 @@ User responsible for the PDR request.
 
 When the PDR agents generate tasks, based on the registry, the action tasks will be created for the various task owners.
 
-**Parent Topic:**[Configuring Personal Data Rights](../concept/configuring-personal-data-rights.md)
+**Parent Topic:**[Configuring Personal Data Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/configuring-personal-data-rights.md)
 

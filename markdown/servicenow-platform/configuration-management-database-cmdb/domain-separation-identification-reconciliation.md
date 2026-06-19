@@ -2,6 +2,7 @@
 title: Domain separation
 description: Domain separation is supported in the CMDB Identification and Reconciliation feature. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/domain-separation-identification-reconciliation.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -15,9 +16,9 @@ breadcrumb: [Reference, CMDB Identification and Reconciliation \(IRE\), Configur
 
 Domain separation is supported in the CMDB Identification and Reconciliation feature. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-Domain separation is enforced during the [CMDB Identification and Reconciliation](c_CMDBIdentifyandReconcile.md) \(IRE\) process. IRE processes are domain aware and domain separation is applied to the Identification and Reconciliation rules.
+Domain separation is enforced during the [CMDB Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md) \(IRE\) process. IRE processes are domain aware and domain separation is applied to the Identification and Reconciliation rules.
 
-For more information about domain separation, see [domain separation](https://www.servicenow.com/docs/access?context=c_DomainSeparation&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information about domain separation, see domain separation.
 
 
 
@@ -26,7 +27,7 @@ For more information about domain separation, see [domain separation](https://ww
 Domain separation in the identification engine is enforced when users activate the domain separation plugin. Domain separation for IRE has two modes of operation in domain separated instances:
 
 -   Strict mode \(enabled by default\): In this mode, identification processes only those CIs in which the domain ID is identical to the domain of the currently logged in user. If duplicate CIs exist across domains \(including parent and child domains\), then those CIs aren't considered duplicate CIs because their domain IDs don't match.
--   Platform domain separation mode \(disabled by default\): In this mode, IRE follows the platform domain separation behavior. So during identification, parent domains can access all CIs within their child domains or any of the domains it has visibility into. For more information, see [Visibility domains and Contains domains](https://www.servicenow.com/docs/access?context=c_DomainVisibility&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+-   Platform domain separation mode \(disabled by default\): In this mode, IRE follows the platform domain separation behavior. So during identification, parent domains can access all CIs within their child domains or any of the domains it has visibility into. For more information, see Visibility domains and Contains domains.
 
     Platform domain separation mode is intended to be used by advanced users for very specific or advanced use cases.
 
@@ -39,17 +40,17 @@ Domain separation in the identification engine is enforced when users activate t
     If any application is already using IRE effectively in domain separated environment, then there's no advantage in switching to platform domain separation mode that might create some risk.
 
 
-Use the [glide.identification\_engine.platform\_domain\_separation\_enabled](../reference/properties-id-reconciliation.md) system property to switch between those two modes for IRE domain separation. By default, this property is set to **false**.
+Use the [glide.identification\_engine.platform\_domain\_separation\_enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md) system property to switch between those two modes for IRE domain separation. By default, this property is set to **false**.
 
 ## Platform domain separation mode
 
-Set the system property [glide.identification\_engine.platform\_domain\_separation\_enabled](../reference/properties-id-reconciliation.md) to **true** to enable the platform domain separation mode for IRE processing. With the platform domain separation mode, parent domains can access all of their child domains during IRE processing. For example, IRE can detect a matching CI in a child domain and then update that CI instead of creating a new one.
+Set the system property [glide.identification\_engine.platform\_domain\_separation\_enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md) to **true** to enable the platform domain separation mode for IRE processing. With the platform domain separation mode, parent domains can access all of their child domains during IRE processing. For example, IRE can detect a matching CI in a child domain and then update that CI instead of creating a new one.
 
 In the platform domain separation mode for IRE:
 
 -   IRE run from a parent domain can access CIs contained within their domain, child domains that are lower in the domain hierarchy, and global domain.​
 -   IRE run from the global domain can access all CIs.
--   [Visibility domains and Contains domains](https://www.servicenow.com/docs/access?context=c_DomainVisibility&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) are supported.
+-   Visibility domains and Contains domains are supported.
 
 **Note:** When platform domain separation mode is enabled, there might be a sudden increase in IRE detection of duplicate CIs.
 
@@ -57,15 +58,15 @@ In the platform domain separation mode for IRE:
 
 Domain separation during the Identification process is enforced as follows:
 
--   Regardless of the setting of the [glide.identification\_engine.platform\_domain\_separation\_enabled](../reference/properties-id-reconciliation.md) system property:
+-   Regardless of the setting of the [glide.identification\_engine.platform\_domain\_separation\_enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md) system property:
     -   Domain IDs don't need to be explicitly sent in the input payload of the identification engine APIs. Internally, the identification engine causes the current domain ID of the user to call the identification engine APIs.
     -   During matching, if no records are found and a CI is inserted, the CI domain ID is the same as the domain ID of the logged-in user’s domain. When updating a CI, the CI domain ID doesn't change.
     -   During matching, if duplicates are found, De-Duplication tasks created in the \[reconcile\_duplicate\_task\] table have the same domain ID as of the duplicate CIs.
     -   During matching, if reclassification of the CI isn't allowed, reclassification tasks are created in the \[reclassification\_task\] table, with the same domain ID as the CI for which reclassification is needed.
--   When the system property [glide.identification\_engine.platform\_domain\_separation\_enabled](../reference/properties-id-reconciliation.md) is set to **false**:
+-   When the system property [glide.identification\_engine.platform\_domain\_separation\_enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md) is set to **false**:
     -   Only CIs that have the same domain ID as the currently logged-in user's domain are used during matching.
     -   Duplicate CIs that exist across domains \(including parent and child domains\) aren't considered as duplicate CIs by IRE.
--   When the system property [glide.identification\_engine.platform\_domain\_separation\_enabled](../reference/properties-id-reconciliation.md) is set to **true**:
+-   When the system property [glide.identification\_engine.platform\_domain\_separation\_enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md) is set to **true**:
     -   Duplicate CIs that exist across domains \(such as parent and child domains\) are considered as duplicate CIs by IRE.
     -   CIs from the logged in user domain and child domains are used during matching.
 

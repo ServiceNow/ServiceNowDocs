@@ -2,6 +2,7 @@
 title: Manage the card vault table and connections in our tokenizer service
 description: You may modify the card vault table and connection properties in our tokenizer service. Manage the vault columns and properties, and customize the data sent and received from the Third-Party System, such as additional routes and field values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/manage-outbound-connections.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -49,5 +50,5 @@ To add or modify connection routes, use the Route view. You may edit an existing
 -   Response body fields and tokenization actions
 -   URL parameters
 
-**Parent Topic:**[Managing Card data security](managing-card-data-security.md)
+**Parent Topic:**[Managing Card data security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/managing-card-data-security.md)
 

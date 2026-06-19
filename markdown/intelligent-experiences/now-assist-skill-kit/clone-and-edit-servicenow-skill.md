@@ -2,6 +2,7 @@
 title: Clone and edit a ServiceNow skill
 description: Eligible skills provided in ServiceNow Now Assist applications can be cloned in Now Assist Skill Kit so that you can edit the prompt or change the AI service provider. Editing the prompt enables you to arrange the formatting and content of the LLM response.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-skill-kit/clone-and-edit-servicenow-skill.html
 release: zurich
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -66,7 +67,7 @@ Available providers:-   Now LLM Service
     -   Spokes
     -   Custom LLM
 
-For more information on setting up a custom large language model \(LLM\), see [Configure a generic large language model \(LLM\) connector](../../generative-ai-controller/task/configure-a-generic-llm-connector.md)
+For more information on setting up a custom large language model \(LLM\), see [Configure a generic large language model \(LLM\) connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/generative-ai-controller/configure-a-generic-llm-connector.md)
 
 Available prebuilt spokes that enable you to connect with an external LLM:
 
@@ -90,7 +91,14 @@ The provider of the API for your chosen LLM.
 
     **Note:** When you clone a skill, you can't change the skill outputs, tools, or deployment settings.
 
-7.  Select the edit icon to add skill inputs.
+7.  Select the edit or add icon to add skill inputs.
+
+    |Field|Description|
+    |-----|-----------|
+    |Dataype|Select the datatype for the input.|
+    |Name|The name of the skill input.|
+    |Description|A description of the skill input.|
+    |Make input mandatory check box|Select this box if the input must be provided for the skill to run.|
 
     |Section|Description|
     |-------|-----------|
@@ -98,26 +106,28 @@ The provider of the API for your chosen LLM.
     |Rule conditions|Rule conditions determine when the input template is used. By default, record state determines which input template the LLM uses.|
     |Additional input data sources|You can add input data sources like related tables, activity streams and relationships to provide more context to the LLM. You can also add rule conditions to these additional data sources.|
 
-8.  Select **Clone prompt** to edit the prompt.
+8.  Select **Add skill input**.
+
+9.  Select **Clone prompt** to edit the prompt.
 
     You will see all of the prompts that use the same supporting skill for each provider.
 
-9.  Add **Prompt usage conditions**.
+10. Add **Prompt usage conditions**.
 
     These are conditions that determine when a prompt will be executed.
 
-10. To test the prompt, select **Run test** and add test values.
+11. To test the prompt, select **Run test** and add test values.
 
-11. Select the **Skill settings** tab.
+12. Select the **Skill settings** tab.
 
-12. Select **General information** to change the default provider by selecting the toggle.
+13. Select **General information** to change the default provider by selecting the toggle.
 
 
 ## What to do next
 
-Create your skill prompt. To learn more about creating a prompt, see [Create a prompt](create-prompt-template.md).
+Create your skill prompt. To learn more about creating a prompt, see [Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md).
 
-After you clone and edit the skill and prompt, you can evaluate your prompt.To learn more about evaluating a prompt, see [Evaluate a prompt](evaluate-prompt.md).
+After you clone and edit the skill and prompt, you can evaluate your prompt.To learn more about evaluating a prompt, see [Evaluate a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/evaluate-prompt.md).
 
-**Parent Topic:**[Create a skill](create-new-skill.md)
+**Parent Topic:**[Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/create-new-skill.md)
 

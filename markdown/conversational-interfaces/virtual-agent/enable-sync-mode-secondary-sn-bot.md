@@ -2,6 +2,7 @@
 title: Enable synchronous mode on the secondary ServiceNow Virtual Agent instance
 description: Enable synchronous mode on the secondary ServiceNow Virtual Agent instance to use ServiceNow Virtual Agent as a secondary bot with Virtual Agent Bot Interconnect.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/enable-sync-mode-secondary-sn-bot.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Enable synchronous mode on the secondary ServiceNow Virtual Agent instance to us
 
 ## Before you begin
 
-**Note:** Now Assist capabilities are supported only in asynchronous mode. For more information, see [Enable asynchronous mode on the secondary ServiceNow Virtual Agent instance](enable-async-mode-secondary-sn-bot.md).
+**Note:** Now Assist capabilities are supported only in asynchronous mode. For more information, see [Enable asynchronous mode on the secondary ServiceNow Virtual Agent instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-async-mode-secondary-sn-bot.md).
 
 Role required: admin
 
@@ -32,5 +33,5 @@ Role required: admin
 4.  Click **Update**.
 
 
-**Parent Topic:**[Use ServiceNow Virtual Agent as a secondary bot in synchronous or asynchronous mode](../concept/use-servicenow-virtual-agent-as-a-secondary-bot-in-synchronous-or-asynchronous-mode_0.md)
+**Parent Topic:**[Use ServiceNow Virtual Agent as a secondary bot in synchronous or asynchronous mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/use-servicenow-virtual-agent-as-a-secondary-bot-in-synchronous-or-asynchronous-mode_0.md)
 

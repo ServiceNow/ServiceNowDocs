@@ -2,6 +2,7 @@
 title: Program service table
 description: The Program service \[sn\_hcls\_program\_service\] table stores the program services associated with a program.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-program-service.html
 release: zurich
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -22,7 +23,7 @@ The Program service \[sn\_hcls\_program\_service\] table stores the program serv
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](../concept/hcls-serv-mgmt-core-1.md).
+For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
 <table id="table_uvk_nh1_drb"><thead><tr><th>
 
@@ -86,7 +87,7 @@ Alpha-numeric identifier of the program service.
 
  The value is auto-generated and is incremented every time you add a new program service to an instance. The initial value for the **Number** field is PGSRV00001001.
 
-**Note:** To customize the number, define the auto-numbering format for the Program service \[sn\_hcls\_program\_service\] table. For more information, see [Add auto-numbering records in a table](https://www.servicenow.com/docs/access?context=t_AutoNumberingRecordsInATable&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** To customize the number, define the auto-numbering format for the Program service \[sn\_hcls\_program\_service\] table. For more information, see Add auto-numbering records in a table.
 
 </td></tr><tr><td>
 
@@ -125,5 +126,5 @@ String
 Brief description of the program service.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](hcls-healthcare-data-tables.md)
+</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)
 

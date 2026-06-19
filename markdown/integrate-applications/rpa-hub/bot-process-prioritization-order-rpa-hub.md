@@ -2,6 +2,7 @@
 title: Execution priority of bot processes in RPA Hub
 description: Learn how to prioritize bot processes efficiently and avoid triggering multiple automations on the same robot. The bot processes are organized by both robots and Windows user credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/bot-process-prioritization-order-rpa-hub.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -19,7 +20,7 @@ Learn how to prioritize bot processes efficiently and avoid triggering multiple 
 
 When multiple bot processes are scheduled to run at the same time, consider the following scenarios to understand how bot process execution is prioritized based on order number and Windows credentials.
 
-![Diagram shows how a bot process execution is prioritized when different robots use different login credentials.](../image/scenario1-bp-order.png "Scenario 1: Robots with different Windows credentials")
+\[Omitted image "scenario1-bp-order.png"\] Alt text: Diagram shows how a bot process execution is prioritized when different robots use different login credentials.
 
 The following bot processes use robots 1 and 2 with different priority orders and the robots use different credentials to login to a Windows machine.
 
@@ -50,7 +51,7 @@ Execution results:
 -   Robot 1: Bot Process 1 \(priority 2\) executes; Bot Process 2 \(priority 3\) is skipped.
 -   Robot 2: Bot Process 4 \(priority 1\) executes; Bot Process 3 \(priority 4\) is skipped.
 
-![Diagram shows how a bot process execution is prioritized when different robots use same login credentials.](../image/scenario2-bp-order.png "Scenario 2: Robots with the same Windows credential")
+\[Omitted image "scenario2-bp-order.png"\] Alt text: Diagram shows how a bot process execution is prioritized when different robots use same login credentials.
 
 The following bot processes use high-density robots 1 and 2 with different priority orders and use same credentials to login to a Windows machine.
 
@@ -92,7 +93,7 @@ Final execution results:
 
 When a bot process with multiple high-density robots is triggered using the **Start Process** button, consider the following scenarios to understand how bot process execution is prioritized for a robot.
 
-![Diagram shows how a bot process execution is prioritized for different high-density robots.](../image/manual-start-bp-hdr.png "Bot process prioritization for different high-density robots")
+\[Omitted image "manual-start-bp-hdr.png"\] Alt text: Diagram shows how a bot process execution is prioritized for different high-density robots.
 
 -   **Scenario 1: Robots with the same Windows credentials**
 

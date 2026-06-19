@@ -2,6 +2,7 @@
 title: Components installed with Emergency Exposure Management
 description: Several types of components are installed with Emergency Exposure Management, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/emergency-exposure-management/emergency-exposure-installed-with.html
 release: zurich
 product: Emergency Exposure Management
 classification: emergency-exposure-management
@@ -15,7 +16,7 @@ breadcrumb: [Install Emergency Exposure Management, Emergency Exposure Managemen
 
 Several types of components are installed with Emergency Exposure Management, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -150,5 +151,5 @@ Tracing system properties\[sn\_imt\_diagnosis\_m2m\_tracing\_system\_properties\
 System properties for additional configuration of tracing systems.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Emergency Exposure Management](../task/install-emergency-exposure-mgt.md)
+</table>**Parent Topic:**[Install Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/emergency-exposure-management/install-emergency-exposure-mgt.md)
 

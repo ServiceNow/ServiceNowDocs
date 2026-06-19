@@ -2,6 +2,7 @@
 title: Identify the framework core
 description: Within the NIST CSF application, the Framework Core section is used to identify categories and subcategories as cybersecurity policies and their statement policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/identify-framework-core.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -28,8 +29,8 @@ With NIST CSF guidance, the application groups categories and subcategories into
 
 Each module points to a grouping of policy and control objectives that relates to that function.
 
--   **[Review the framework core](../task/review-framework-core.md)**  
+-   **[Review the framework core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/review-framework-core.md)**  
 Review the Framework Core that's activated with the NIST CSF application.
 
-**Parent Topic:**[NIST CSF process overview](nist-csf-process.md)
+**Parent Topic:**[NIST CSF process overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/nist-csf-process.md)
 

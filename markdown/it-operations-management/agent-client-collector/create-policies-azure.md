@@ -2,6 +2,7 @@
 title: Create Azure policies for metric collection
 description: Create your own policies to enable Azure to collect the metrics for the resources that have policies that don’t come with the base system. The Azure Metrics Collector check brings the metrics to the agent through the Azure Metrics Batch API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/create-policies-azure.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -28,7 +29,7 @@ Role required: agent\_client\_collector\_admin
 
 2.  Select **New**.
 
-3.  Select the application scope icon ![Application scope icon.](../image/application-scope-icon.png) and verify that you are in the Agent Client Collector Monitoring scope.
+3.  Select the application scope icon \[Omitted image "application-scope-icon.png"\] Alt text: Application scope icon. and verify that you are in the Agent Client Collector Monitoring scope.
 
 4.  In the **Name** field, enter a name for the policy.
 
@@ -163,7 +164,7 @@ Value that you enter \(**-c**\) to indicate that the check retrieves the name of
 
     The following example displays a `.json` file for retrieving load-balancer metrics.
 
-    ![Azure metrics .json file.](../image/azure-metrics-json.png)
+    \[Omitted image "azure-metrics-json.png"\] Alt text: Azure metrics .json file.
 
     Add the `.json` file to the list of configuration files at **Agent Client Collector** &gt; **Configuration Files**.
 
@@ -173,7 +174,7 @@ Value that you enter \(**-c**\) to indicate that the check retrieves the name of
 
     2.  Copy a script from one of the Azure cloud policies that comes with the base system.
 
-        -   Cloud policies that come with the base system are described in [Create Azure policies for metric collection](create-policies-azure.md).
+        -   Cloud policies that come with the base system are described in [Create Azure policies for metric collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/create-policies-azure.md).
         -   The script is located in the **Config file creation script** field of the policy's **Proxy Settings** tab.
     3.  Paste the script into the **Config file creation script** field of your policy.
 
@@ -186,5 +187,5 @@ Value that you enter \(**-c**\) to indicate that the check retrieves the name of
 
 The configured policy retrieves the resources and their metrics from the specified Azure CI and sends them to the agent.
 
-**Parent Topic:**[Agent Client Collector deployment - shared between servers and endpoints](../concept/acc-shared-deployment.md)
+**Parent Topic:**[Agent Client Collector deployment - shared between servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-shared-deployment.md)
 

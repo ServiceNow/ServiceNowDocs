@@ -2,6 +2,7 @@
 title: Upgrade History Task form
 description: You can update information about a skipped record task using the Upgrade History Task form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/upgrade-management/um-history-task-form.html
 release: zurich
 product: Upgrade Management
 classification: upgrade-management
@@ -114,7 +115,7 @@ Delete
 Button to delete the skipped record task
 
 </td></tr></tbody>
-</table>The Old Resolution Details related list shows the actions taken in the previous upgrade version.![Image showing the Old Resolution Details related list](../../upgrade-center/image/uc-old-resolution.png)
+</table>The Old Resolution Details related list shows the actions taken in the previous upgrade version.\[Omitted image "uc-old-resolution.png"\] Alt text: Image showing the Old Resolution Details related list
 
 <table id="table_shg_xqf_flb"><thead><tr><th>
 
@@ -197,5 +198,5 @@ To
 Past current version
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Skipped Records visual task board \(VTB\)](../concept/um-vtb-history.md)
+</table>**Parent Topic:**[Skipped Records visual task board \(VTB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-vtb-history.md)
 

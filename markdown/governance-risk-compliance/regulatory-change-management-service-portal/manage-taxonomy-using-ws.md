@@ -2,6 +2,7 @@
 title: Manage the taxonomy
 description: Manage the taxonomy when you are setting up the Regulatory Change Management application in the Compliance Workspace. Create an internal taxonomy and map the internal taxonomy to the external taxonomy so that the Regulatory Change Management application refers to only one taxonomy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/regulatory-change-management-service-portal/manage-taxonomy-using-ws.html
 release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal

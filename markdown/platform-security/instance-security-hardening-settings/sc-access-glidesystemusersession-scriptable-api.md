@@ -2,6 +2,7 @@
 title: Restrict access to GlideSystemUserSession scriptable API \[Updated in Security Center 1.3 and 2.0\]
 description: The client callable GlideSystemUserSessionSandbox scriptable API exposes GlideSystemUserSession's addErrorMessageNoSanitization and addInfoMessageNoSanitization methods to the JavaScript sandbox. This allows all users to call this method via script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-access-glidesystemusersession-scriptable-api.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -27,7 +28,7 @@ Set **glide.sandbox.usersession.allow\_unsanitized\_messages** system property t
 |---------|-----------|
 |Property name|**glide.sandbox.usersession.allow\_unsanitized\_messages**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Access control](sc-access-control.md)|
+|Category|[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)|
 |Purpose|This property will restrict unsanitized informational or error messages from being called in a sandboxed user session.|
 |Type|Boolean|
 |Recommended value|false|
@@ -35,7 +36,7 @@ Set **glide.sandbox.usersession.allow\_unsanitized\_messages** system property t
 |Security risk rating|8.1|
 |Functional impact|Set the property with the value false will result in no message creation or logging should those functions get called.|
 |Security risk|\(High\) Without appropriate sanitization, potentially dangerous content may be accessed and the unsanitized error function is available to script.|
-|References|[Access control](sc-access-control.md)|
+|References|[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)|
 
-**Parent Topic:**[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

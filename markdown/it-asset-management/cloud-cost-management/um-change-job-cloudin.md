@@ -2,6 +2,7 @@
 title: Move a resource to a different Unused resources job
 description: You can add resources to a currently scheduled job, move resources from one job to another, or remove resources from a job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/um-change-job-cloudin.html
 release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -115,11 +116,11 @@ Change template
 
 This field appears only when the **Approval type** is selected as **Auto approval**.
 
- Change request template \(Standard Change type\) to be used. If no template appears in the list, you must create one. See [Create a change request template](https://www.servicenow.com/docs/access?context=create-a-change-request-template&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+ Change request template \(Standard Change type\) to be used. If no template appears in the list, you must create one. See Create a change request template.
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Manage unused resources](../concept/manage-unused-mac.md)
+**Parent Topic:**[Manage unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/manage-unused-mac.md)
 

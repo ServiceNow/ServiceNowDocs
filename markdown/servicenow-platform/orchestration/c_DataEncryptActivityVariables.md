@@ -2,6 +2,7 @@
 title: Data encryption for activity variables
 description: You can protect sensitive data passed from Orchestration activities by encrypting input and output variables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/orchestration/c\_DataEncryptActivityVariables.html
 release: zurich
 product: Orchestration
 classification: orchestration
@@ -15,7 +16,7 @@ breadcrumb: [Create custom activities using custom activity designer templates, 
 
 You can protect sensitive data passed from Orchestration activities by encrypting input and output variables.
 
-The system never stores encrypted variables as clear text. If the MID Server is used to fulfill the activity, the corresponding ECC Queue's input payload is encrypted if an [encrypted output variable](../task/t_CreateAnOutputVariable.md#) is defined in the template. Output variables passed to a downstream activity as input variables maintain their encryption throughout processing.
+The system never stores encrypted variables as clear text. If the MID Server is used to fulfill the activity, the corresponding ECC Queue's input payload is encrypted if an [encrypted output variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateAnOutputVariable.md) is defined in the template. Output variables passed to a downstream activity as input variables maintain their encryption throughout processing.
 
 Inputs that require data encryption come from one of these sources:
 
@@ -25,5 +26,5 @@ Inputs that require data encryption come from one of these sources:
 -   Activity outputs: These are variables passed as outputs from one activity to a downstream activity as inputs, through the data bus.
 -   Empty string: The system allows you to define encrypted input variables but never pass a value into the variable.
 
-**Parent Topic:**[Create custom activities using custom activity designer templates](../task/create-custom-activities.md)
+**Parent Topic:**[Create custom activities using custom activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/create-custom-activities.md)
 

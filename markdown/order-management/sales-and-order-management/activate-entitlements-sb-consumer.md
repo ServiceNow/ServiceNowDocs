@@ -2,6 +2,7 @@
 title: Activate the remote record producer
 description: Activate the remote record producer in a Service Exchange consumer instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/activate-entitlements-sb-consumer.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

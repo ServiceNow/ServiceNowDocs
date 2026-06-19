@@ -2,6 +2,7 @@
 title: View quotes from the Business Portal
 description: View quotes generated for your account directly from the Business Portal. The list includes quotes generated from requests for quotes \(RFQs\) submitted by you and quotes created offline by a sales agent via the CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/view-quotes-business-portal.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -35,7 +36,7 @@ Role required: sn\_customerservice.customer
     |Quote date|Date on which the quote was created.|
     |Expiration date|Date on which the validity of the quote ends.|
     |Term \(months\)|Duration of the contract or subscription expressed in months.|
-    |State|Status of the quote. For more information, see [Request for quote \(RFQ\) states](../reference/rfq-states.md).|
+    |State|Status of the quote. For more information, see [Request for quote \(RFQ\) states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/rfq-states.md).|
     |Contract start date|Date when the contract becomes effective.|
     |Contract end date|Date when the contract ends.|
     |Total one-time price|Aggregate of all one-time charges across quote lines.|

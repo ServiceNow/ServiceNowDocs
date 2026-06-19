@@ -2,6 +2,7 @@
 title: Analyzing assistants
 description: Monitor, evaluate, and optimize the performance of your AI-powered assistants from the Analytics tab of the Assistant Designer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/now-assist-in-virtual-agent/ai-engagement-analytics.html
 release: zurich
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -33,5 +34,5 @@ Assistant analytics dashboard helps you in the following ways.
 -   Improve discoverability and transparency of assistant assets and performance, making it easier to identify which assistants and conversational assets are driving value.
 -   Quantify the impact of automation by tracking the number of user intents resolved without human intervention, reducing support costs and increasing operational efficiency.
 
-See [Assistant analytics dashboard indicator details](assistant-analytics-dashboard-indicator-details.md) for information on the indicators and calculations behind the metrics.
+See [Assistant analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/assistant-analytics-dashboard-indicator-details.md) for information on the indicators and calculations behind the metrics.
 

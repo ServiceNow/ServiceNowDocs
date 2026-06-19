@@ -2,6 +2,7 @@
 title: Add pricing adjustment to a quote line item
 description: Add pricing adjustments to quote line items after the line item is created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/quote-management-add-pricing-adjustment.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -33,7 +34,7 @@ You can make the following types of pricing adjustments for quote line items as 
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![image.Lists] view.
+1.  In the CSM Configurable Workspace, select the **List** view.
 
 2.  Select **Quotes** &gt; **All**.
 
@@ -48,5 +49,5 @@ You can make the following types of pricing adjustments for quote line items as 
 7.  Select **Save**.
 
 
-**Parent Topic:**[Using Quote Management](../concept/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-mgmt-using.md)
 

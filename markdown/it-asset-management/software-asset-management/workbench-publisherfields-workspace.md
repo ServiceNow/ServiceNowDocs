@@ -2,6 +2,7 @@
 title: License usage publisher fields in workspace
 description: Field descriptions for the related lists for publishers in the Publishers page in the License usage view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/workbench-publisherfields-workspace.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management

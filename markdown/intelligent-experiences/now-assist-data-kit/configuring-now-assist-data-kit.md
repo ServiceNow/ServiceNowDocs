@@ -2,6 +2,7 @@
 title: Configuring Now Assist Data Kit
 description: Configure prompts and skills for Now Assist Data Kit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-data-kit/configuring-now-assist-data-kit.html
 release: zurich
 product: Now Assist Data Kit
 classification: now-assist-data-kit
@@ -17,11 +18,11 @@ Configure prompts and skills for Now Assist Data Kit.
 
 ## Configuration overview
 
-1.  [Create a skill](../../now-assist-skill-kit/task/create-new-skill.md)
+1.  [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/create-new-skill.md)
 
     Create a skill in Now Assist Skill Kit.
 
-2.  [Configure skill deployment settings](../../now-assist-skill-kit/task/configure-skill-settings.md)
+2.  [Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md)
 
     Configure the deployment settings for the skill that you create. The deployment settings enable you to choose where the admin can find the skill in Now Assist Admin.
 

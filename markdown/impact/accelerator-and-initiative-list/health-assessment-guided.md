@@ -2,6 +2,7 @@
 title: Health Assessment – Guided
 description: The Health Assessment-Guided Accelerator provides an insight into your ServiceNow instance health.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/health-assessment-guided.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

@@ -2,6 +2,7 @@
 title: Add custom business rules to Service Level Agreement \(SLA\) considerations
 description: Prior to adding custom business rules to the task SLA table, you must consider a few points regarding the processing and calculation of the task SLA based on your organization’s needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-level-management/r\_AddCustomBusRuleToSLACons.html
 release: zurich
 product: Service Level Management
 classification: service-level-management
@@ -25,7 +26,7 @@ You can add custom fields to the task SLA table and write business rules to popu
 
     Avoid writing a business rule on the task SLA table that updates the parent task directly. Doing so causes recursive processing of the business rules. This is represented in the diagram.
 
-    ![Diagram of a recursive business rule](../image/SLARecursive.png "Recursive business rule")
+    \[Omitted image "SLARecursive.png"\] Alt text: Diagram of a recursive business rule
 
 -   Business rule that updates the default fields on a task SLA.
 
@@ -34,5 +35,5 @@ You can add custom fields to the task SLA table and write business rules to popu
     -   Fields being ignored, overwritten, or both the next time the SLA is calculated.
     -   Incorrect calculations of other values on the task SLA.
 
-**Parent Topic:**[Using Service Level Management](../concept/using-service-level-management.md)
+**Parent Topic:**[Using Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-level-management/using-service-level-management.md)
 

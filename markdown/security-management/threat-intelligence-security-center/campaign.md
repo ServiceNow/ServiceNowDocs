@@ -2,6 +2,7 @@
 title: Campaign
 description: Campaign is defined as grouping of adversarial behaviors that describes a set of malicious activities or attacks, sometimes called waves that occur over a period of time against a specific set of targets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/campaign.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -15,8 +16,8 @@ breadcrumb: [Threat Entities, TISC Library Repository, Threat Intelligence Secur
 
 Campaign is defined as grouping of adversarial behaviors that describes a set of malicious activities or attacks, sometimes called waves that occur over a period of time against a specific set of targets.
 
--   **[Define Campaign](../task/tisc-define-campaign.md)**  
+-   **[Define Campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-define-campaign.md)**  
 Define a campaign to group adversarial behaviors.
 
-**Parent Topic:**[Threat Entities](tisc-threat-entities.md)
+**Parent Topic:**[Threat Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-threat-entities.md)
 

@@ -2,6 +2,7 @@
 title: SCIM2Client - Scoped
 description: The SCIM2Client API provides methods that call the System for Cross-domain Identity Management \(SCIM\) Provider \(server role\) to create, update, or delete data in a service provider \(SP\).Deletes a specified resource from an external service provider system.Returns all resources from a specified external provider system that match the passed criteria.Returns a resource from the external provider system with the specified unique resource ID.Creates or updates a resource in an external service provider system for a specified sys\_id.Creates a new resource in an external service provider system for a specified sys\_id.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/SCIM2ClientAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -19,15 +20,15 @@ SCIM is a REST and JSON-based protocol that defines a client and server role. A 
 
 The following image illustrates typical API call flows for manipulating service provider data.
 
-![SCMI Client API call flow](../images/SCIMClient_call_flow.png)
+\[Omitted image "SCIMClient\_call\_flow.png"\] Alt text: SCMI Client API call flow
 
 This API runs in the `sn_auth` namespace and requires the SCIM v2 - ServiceNow Cross-domain Identity Management Client \(com.snc.integration.scim2.client\) plugin to be installed to access the API.
 
 You can locate the results of each SCIM method call in the SCIM Client Logs \[sys\_scim\_client\_logs\] table.
 
-For additional information on SCIM, see [System for Cross-domain Identity Management \(SCIM\)](https://www.servicenow.com/docs/access?context=scim&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For additional information on SCIM, see System for Cross-domain Identity Management \(SCIM\).
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## SCIM2Client - executeDelete \(String provider, String resourceName, String providerResourceId\)
 
@@ -96,7 +97,7 @@ message
 
 </td><td>
 
-If the **status** is SUCCESS, the endpoint returns the response body as defined by the REST [SCIM](../../../../../integrate/inbound-rest/concept/scim-api.md#) API.Data type: String
+If the **status** is SUCCESS, the endpoint returns the response body as defined by the REST [SCIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/scim-api.md) API.Data type: String
 
 </td></tr><tr><td>
 
@@ -216,7 +217,7 @@ message
 
 </td><td>
 
-If the **status** is SUCCESS, the endpoint returns the response body as defined by the REST [SCIM](../../../../../integrate/inbound-rest/concept/scim-api.md#) API.Data type: String
+If the **status** is SUCCESS, the endpoint returns the response body as defined by the REST [SCIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/scim-api.md) API.Data type: String
 
 </td></tr><tr><td>
 
@@ -420,7 +421,7 @@ message
 
 </td><td>
 
-If the **status** is SUCCESS, the endpoint returns the response body as defined by the REST [SCIM](../../../../../integrate/inbound-rest/concept/scim-api.md#) API.Data type: String
+If the **status** is SUCCESS, the endpoint returns the response body as defined by the REST [SCIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/scim-api.md) API.Data type: String
 
 </td></tr><tr><td>
 
@@ -519,7 +520,7 @@ Creates or updates a resource in an external service provider system for a speci
 
 For example, if you create or update a user in a ServiceNow instance, you can use this method to create or update the same resource on an external service provider system. Only those fields which are mapped in the SCIM Provider Resource Mapping \[sys\_scim\_provider\_resource\_mapping \] table can be created or updated in the corresponding resource.
 
-For additional information on provider resource mapping, see [Create a SCIM Provider Resource Mapping](https://www.servicenow.com/docs/access?context=scim-provider-resource-mapping&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For additional information on provider resource mapping, see Create a SCIM Provider Resource Mapping.
 
 <table id="table_urc_kcl_btb" class="parameters"><thead><tr><th>
 
@@ -584,7 +585,7 @@ message
 
 </td><td>
 
-If the **status** is SUCCESS, the endpoint returns the response body as defined by the REST [SCIM](../../../../../integrate/inbound-rest/concept/scim-api.md#) API.Data type: String
+If the **status** is SUCCESS, the endpoint returns the response body as defined by the REST [SCIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/scim-api.md) API.Data type: String
 
 </td></tr><tr><td>
 
@@ -679,7 +680,7 @@ Creates a new resource in an external service provider system for a specified sy
 
 For example, if you create a new user in a ServiceNow instance, you can use this method to create the same resource on an external service provider system. Only those fields which are mapped in the SCIM Provider Resource Mapping \[sys\_scim\_provider\_resource\_mapping\] table can be created in the corresponding external service provider system. If the resource is already present in the external service provider system, an error response is returned.
 
-For additional information on provider resource mapping, see [Create a SCIM Provider Resource Mapping](https://www.servicenow.com/docs/access?context=scim-provider-resource-mapping&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For additional information on provider resource mapping, see Create a SCIM Provider Resource Mapping.
 
 <table id="table_csg_wxp_btb" class="parameters"><thead><tr><th>
 
@@ -744,7 +745,7 @@ message
 
 </td><td>
 
-If the **status** is SUCCESS, the endpoint returns the response body as defined by the REST [SCIM](../../../../../integrate/inbound-rest/concept/scim-api.md#) API.Data type: String
+If the **status** is SUCCESS, the endpoint returns the response body as defined by the REST [SCIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/scim-api.md) API.Data type: String
 
 </td></tr><tr><td>
 

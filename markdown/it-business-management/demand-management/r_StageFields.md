@@ -2,6 +2,7 @@
 title: Stage fields
 description: The Stage field on the Ideas list displays the current state of an idea as it moves through the demand life cycle. The current state includes from an idea to a demand and then to the resulting project, enhancement, change, or defect.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/demand-management/r\_StageFields.html
 release: zurich
 product: Demand Management
 classification: demand-management
@@ -27,7 +28,7 @@ Hovering over the **Stage** field displays a pop-up window that shows the progre
 -   **Demand:** if an idea is promoted to a demand, the pop-up window displays the current state of the demand as well as the idea.
 -   **Project**, **Enhancement**, **Change**, or **Defect**: if a demand is accepted, the pop-up window displays the current state of the resulting project, enhancement, change, or defect in addition to the demand and idea.
 
-![Stage fields summary pop-up window.](../image/demand-stage-fields.png)
+\[Omitted image "demand-stage-fields.png"\] Alt text: Stage fields summary pop-up window.
 
-**Parent Topic:**[Demand Management reference](../../service-portfolio-management2/concept/demand-management-reference.md)
+**Parent Topic:**[Demand Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/demand-management-reference.md)
 

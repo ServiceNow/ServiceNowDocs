@@ -2,6 +2,7 @@
 title: Create and edit Agent Client Collector plugins
 description: You can edit the default plugins, or you can add new plugins, as needed. Creating and editing plugins customizes the Agent Client Collector monitoring capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/create-edit-assets.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector

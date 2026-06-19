@@ -2,6 +2,7 @@
 title: Configure goal preferences
 description: Configure goal preferences to manage goals such as the calendar type used for goal setting, weighted average calculation for goal progress, and deletion of goals and targets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/goal-framework/configure-goal-preferences.html
 release: zurich
 product: Goal Framework
 classification: goal-framework
@@ -25,7 +26,7 @@ Role required: sn\_gf.goal\_admin
 
 2.  On the Goal Preferences form, configure the properties.
 
-    For properties information, see [Goal Preferences form](../reference/goal-preferences-form-1.md).
+    For properties information, see [Goal Preferences form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
 3.  Click **Save**.
 

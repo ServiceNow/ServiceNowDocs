@@ -2,6 +2,7 @@
 title: Add operation steps to a resource block
 description: After you configure operations and input parameters for your resource block, add steps for each operation to tell the system which Cloud API \(CAPI\) to call. Each step is a separate call to CAPI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/add-operation-steps.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -174,8 +175,8 @@ Enter an optional condition that must be met before the system uses this step.
         -   `Output.resp` is a mandatory part of the syntax.
         -   `nodeId`
 
--   **[Add a resource operation step to invoke a subflow](add-resource-op-step-subflow.md)**  
+-   **[Add a resource operation step to invoke a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/add-resource-op-step-subflow.md)**  
 Invoke a subflow by adding an operation step to a resource and linking it to a new or existing subflow.
 
-**Parent Topic:**[Resource blocks in Cloud Provisioning and Governance](../concept/resource-blocks.md)
+**Parent Topic:**[Resource blocks in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/resource-blocks.md)
 

@@ -2,6 +2,7 @@
 title: Configure the webhook registry of Microsoft Exchange Online spoke
 description: Configure callback URL for communication between the Workplace Calendar Synchronization application and Microsoft Exchange Online calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-calendar-synchronization/configure-webhook-registry-for-msex.html
 release: zurich
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -19,7 +20,7 @@ Configure callback URL for communication between the Workplace Calendar Synchron
 
 Ensure that the application scope is set to **Microsoft Exchange Online Spoke**. Otherwise, do the following:
 
-1.  Select the Application scope icon \(![Application scope icon.](../image/application-scope-globe-icon.png)\) on the top-right corner of your Employee Center homepage.
+1.  Select the Application scope icon \(\[Omitted image "application-scope-globe-icon.png"\] Alt text: Application scope icon.\) on the top-right corner of your Employee Center homepage.
 2.  In the drop- down, select the option consisting **Application scope:**.
 3.  In the filter navigator, search and select **Microsoft Exchange Online Spoke**.
 4.  Refresh the page.

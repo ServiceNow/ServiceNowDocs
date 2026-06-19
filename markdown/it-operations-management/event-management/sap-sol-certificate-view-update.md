@@ -2,6 +2,7 @@
 title: View and update your SAP Solution Manager certificate
 description: View your SAP Solution Manager certificate, and update the certificate if necessary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/sap-sol-certificate-view-update.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -33,10 +34,10 @@ Role required: evt\_mgmt\_admin
 
 6.  Navigate to **Administration** &gt; **ICM** &gt; **Exit Hard** &gt; **Global**.
 
-    ![SSL Client UI](../image/sap-solman-certificate-update.png)
+    \[Omitted image "sap-solman-certificate-update.png"\] Alt text: SSL Client UI
 
     The ICM module restarts.
 
 
-**Parent Topic:**[SAP Solution Manager setup configurations](../concept/sap-solman-configurations.md)
+**Parent Topic:**[SAP Solution Manager setup configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/sap-solman-configurations.md)
 

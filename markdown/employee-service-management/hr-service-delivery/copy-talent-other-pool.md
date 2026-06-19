@@ -2,6 +2,7 @@
 title: Copy talent to pool
 description: Use existing talent pools to associate suitable talent profiles from the pools to your talent pool.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/copy-talent-other-pool.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -29,15 +30,15 @@ Copy the suitable talent profiles to associate them to your pool from another ta
 
 2.  Go to the **Talent pool** tab.
 
-<table id="choicetable_m2k_wlt_zbc"><thead><tr><th align="left" id="d261636e79">
+<table id="choicetable_m2k_wlt_zbc"><thead><tr><th align="left" id="d166972e79">
 
 Selection
 
-</th><th align="left" id="d261636e82">
+</th><th align="left" id="d166972e82">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d261636e88">
+</th></tr></thead><tbody><tr><td id="d166972e88">
 
 **Copy talent from one pool to another pool**
 
@@ -45,7 +46,7 @@ Action
 
 Copy talent from one pool to the other from the **Talent pool** tab. Go to the talent pool and in the **Talent** tab, select the profiles to view the **Copy to another pool** button and select it.
 
-</td></tr><tr><td id="d261636e108">
+</td></tr><tr><td id="d166972e108">
 
 **Copy talent profile to a pool**
 
@@ -65,5 +66,5 @@ Copy talent from the All talent section to a talent pool.Go to the All talent se
 
 You have associated the required talent profiles from one Talent pool to another.
 
-**Parent Topic:**[Using Talent profile](../concept/config-t-pool.md)
+**Parent Topic:**[Using Talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/config-t-pool.md)
 

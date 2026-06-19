@@ -2,6 +2,7 @@
 title: Pull a version
 description: Pulling retrieves versions of customized records from the parent instance and adds them on the development instance. Pulling doesn’t retrieve any versions for changes made by system upgrades.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/t\_PullAVersion.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -35,10 +36,10 @@ Each pull is recorded in the Push or Pull `[sys_sync_history]` table on the deve
 
     The Push and Pull Versions related list for the Push or Pull form shows the customized records for which versions were retrieved. If any pull exceptions exist, they’re displayed.
 
-4.  Resolve any collisions, see [Resolving collisions](../concept/resolving-collisions.md).
+4.  Resolve any collisions, see [Resolving collisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/resolving-collisions.md).
 
-    Pulling ignores versions when certain conditions occur. See [Pull exceptions](../reference/r_PullExceptions.md) for a list of exceptions.
+    Pulling ignores versions when certain conditions occur. See [Pull exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/r_PullExceptions.md) for a list of exceptions.
 
 
-**Parent Topic:**[Pulling changes](../concept/c_PullsAndPushes.md)
+**Parent Topic:**[Pulling changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_PullsAndPushes.md)
 

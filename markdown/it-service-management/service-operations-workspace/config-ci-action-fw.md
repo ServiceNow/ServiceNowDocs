@@ -2,6 +2,7 @@
 title: Configure CI Actions
 description: Configure the CI Action Framework to add a new CI action or modify an existing one.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/config-ci-action-fw.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -376,7 +377,7 @@ Type of choice list that must be applicable for the parameter.**Note:** This fie
 
 ## What to do next
 
-You must configure the Remedial Actions Framework. For more information, see [Configure the Remedial Actions Framework](config-remedial-action-fw.md).
+You must configure the Remedial Actions Framework. For more information, see [Configure the Remedial Actions Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/config-remedial-action-fw.md).
 
-**Parent Topic:**[Setting up Investigation Framework in Service Operations Workspace](../concept/set-up-investigate.md)
+**Parent Topic:**[Setting up Investigation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/set-up-investigate.md)
 

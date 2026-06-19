@@ -2,6 +2,7 @@
 title: Add contributing indicators
 description: Add new contributing indicators based on your organizational preferences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-success-dashboard-indicators/add-contributing-indicators.html
 release: zurich
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -29,7 +30,7 @@ Your organization can add the new contributing sources as the primary indicator.
 
     The description set for this PA indicator is used to describe the indicator when the user selects the information icon on the score card. Alternatively, if you already have a PA indicator that measures daily scores of the metric you want to measure, you can directly proceed to register and use the PA indicator.
 
-    For information on permissions required to create a PA indicator, see [Performance Analytics roles](https://www.servicenow.com/docs/access?context=r_PARoles&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US) for more details.
+    For information on permissions required to create a PA indicator, see Performance Analytics roles for more details.
 
 2.  Register the PA indicator against the Primary Indicator that it must be reported in by creating a record in the Contributing Indicator Registry table \(sn\_sd\_contributing\_indicator\_registry\).
 
@@ -84,7 +85,7 @@ Service group of the performance indicator.**Note:** ITSM or HR must be selected
 
     5.  Add More information context cards for this indicator so that the user viewing the primary and contributing indicator details understands this KPI.
 
-        See [Update more information cards](update-sidepanel-more.md) for details.
+        See [Update more information cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-success-dashboard-indicators/update-sidepanel-more.md) for details.
 
     6.  In the **Persona Group Time Savings** related list, click **New**.
 
@@ -100,5 +101,5 @@ Service group of the performance indicator.**Note:** ITSM or HR must be selected
         **Note:** You can also update the values for the indicators in **Persona Group Time Savings** section for the out of the box indicators that are **Automatic** type.
 
 
-**Parent Topic:**[Configure Success Dashboard indicators KPIs](config-kpis-sdb.md)
+**Parent Topic:**[Configure Success Dashboard indicators KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-success-dashboard-indicators/config-kpis-sdb.md)
 

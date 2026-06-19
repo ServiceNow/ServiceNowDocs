@@ -2,6 +2,7 @@
 title: Prevent duplicate entries with Contextual Security: Role Management V2
 description: Roles inherited from other roles are added as individual entries in the User Roles table \[sys\_user\_has\_role\], potentially causing one role to have duplicate entries. Contextual Security: Role Management V2 eliminates these duplicate entries and prevents future duplicates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/Role-Mgmt-V2.html
 release: zurich
 product: Access Control
 classification: access-control
@@ -35,7 +36,7 @@ When Contextual Security: Role Management V2 is activated, the following columns
 
 The Role Inheritance Map displays a visual representation of inherited roles. You can use this map to understand the roles represented in the Inheritance Count \(inh\_count\) column. To view the Role Inheritance Map, configure the User Roles \[sys\_user\_has\_role\] table to display the Role Inheritance Map column.
 
-![Role inheritance map](../image/RoleInheritanceMap.png "Role Inheritance Map")
+\[Omitted image "RoleInheritanceMap.png"\] Alt text: Role inheritance map
 
 **Note:** Concurrent update to group or role assignment may result in incorrect inheritance count. You must enable the `glide.security.inh_count_patcher.enabled` property to get the exact inheritance count.
 

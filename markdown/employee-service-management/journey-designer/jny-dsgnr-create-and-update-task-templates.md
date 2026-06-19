@@ -2,6 +2,7 @@
 title: Create and update task templates for plan configurations
 description: Plan owners create and update task templates that are used in plan configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/jny-dsgnr-create-and-update-task-templates.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -44,15 +45,15 @@ Journey designer plan configuration owners can change or create task templates f
 
 4.  Add or update a task template.
 
-<table id="choicetable_ich_2cc_dwb"><thead><tr><th align="left" id="d696298e111">
+<table id="choicetable_ich_2cc_dwb"><thead><tr><th align="left" id="d430044e111">
 
 Options
 
-</th><th align="left" id="d696298e114">
+</th><th align="left" id="d430044e114">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d696298e120">
+</th></tr></thead><tbody><tr><td id="d430044e120">
 
 **Add task template**
 
@@ -65,7 +66,7 @@ Description
 5.  Select **Add Templates**.
 
 
-</td></tr><tr><td id="d696298e165">
+</td></tr><tr><td id="d430044e165">
 
 **Update task template**
 
@@ -93,5 +94,5 @@ Description
     An approval request task is sent to each of the approvers for the plan configuration.
 
 
-**Parent Topic:**[Journey designer plan configuration owners](../concept/jny-dsgnr-owner-role-and-responsibility.md)
+**Parent Topic:**[Journey designer plan configuration owners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-owner-role-and-responsibility.md)
 

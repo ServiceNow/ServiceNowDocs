@@ -2,6 +2,7 @@
 title: Jumpstart Your CSDM: Crawl
 description: This accelerator provides an overview of the Crawl phase of the CSDM maturity journey, brief assessment of current Crawl data, and actionable steps to complete the phase.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/jumpstart-your-CSDM-crawl.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,7 +20,7 @@ This accelerator provides an overview of the Crawl phase of the CSDM maturity jo
 
 Jumpstart Your CSDM: Crawl provides impact customers with an overview and applied demonstration of the Common Service Data Model \(CSDM\) Crawl phase. This accelerator supports the customer’s CSDM maturity journey by breaking down specific action items to enhance understanding of the Crawl phase. As a result, customers can populate and rationalize their Business applications and Application services. This enables a more service-aware CMDB for use throughout additional workflows of ServiceNow.The offering also includes key resources and leading practice guides to help customers get started with the Crawl phase of the CSDM Maturity journey.
 
-Customers must first complete the [Jumpstart Your CSDM: Foundation](jumpstart-csdm.md) accelerator before taking this one, as this offering builds on the Foundation phase of the CSDM maturity journey.
+Customers must first complete the [Jumpstart Your CSDM: Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/jumpstart-csdm.md) accelerator before taking this one, as this offering builds on the Foundation phase of the CSDM maturity journey.
 
 **Note:** This Accelerator is only available for Impact Guided and Guided+ packages.
 

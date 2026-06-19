@@ -2,6 +2,7 @@
 title: Download the Microsoft Viva solution package
 description: As a ServiceNow admin with the external\_app\_install\_admin role, download the Microsoft Viva solution package to your ServiceNow instance. Your Microsoft SharePoint administrator will then deploy the package to enable the Microsoft Viva card on the Microsoft SharePoint home site.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/download-viva-package.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -30,7 +31,7 @@ Role required: external\_app\_install\_admin
 
 ## What to do next
 
-Ensure that the Microsoft Viva integrations package is deployed in Microsoft SharePoint, either by you if you have Microsoft SharePoint administrator privileges or by your site's Microsoft SharePoint administrator. For more information, see [Deploy the Microsoft Viva integrations package in Microsoft SharePoint](deploy-viva-sharepoint.md).
+Ensure that the Microsoft Viva integrations package is deployed in Microsoft SharePoint, either by you if you have Microsoft SharePoint administrator privileges or by your site's Microsoft SharePoint administrator. For more information, see [Deploy the Microsoft Viva integrations package in Microsoft SharePoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/deploy-viva-sharepoint.md).
 
-**Parent Topic:**[Managing Employee Center for Microsoft Viva Connections](../concept/manage-viva.md)
+**Parent Topic:**[Managing Employee Center for Microsoft Viva Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/manage-viva.md)
 

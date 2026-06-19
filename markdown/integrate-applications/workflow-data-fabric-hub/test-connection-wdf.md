@@ -2,6 +2,7 @@
 title: Test an established connection
 description: Test the connection to an external data source from an established connection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/workflow-data-fabric-hub/test-connection-wdf.html
 release: zurich
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -34,5 +35,5 @@ Role required: df\_connection\_admin
 
 The test connection succeeds or fails. If the connection fails, consult your database administrator to verify the connection attributes and authentication details. Make any necessary changes, and then try again.
 
-**Parent Topic:**[Managing zero copy connections in Workflow Data Fabric Hub](../concept/managing-connections-wdf.md)
+**Parent Topic:**[Managing zero copy connections in Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/managing-connections-wdf.md)
 

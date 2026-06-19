@@ -2,6 +2,7 @@
 title: User interface changes for assessments based on GRC attestation
 description: The Lists pane of the Compliance Workspace is updated with assessments link to navigate to the assessments. The attestation and classic attestation widgets are displayed in the home pages of the compliance manager, compliance analyst, and the IT compliance manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/smart-assessments-ui.html
 release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -25,7 +26,7 @@ You can select the Assessments list option in the Control attestations list of t
 
     The home page for the compliance manager is updated with the Attestations widget. The existing attestation widget has been renamed as Classic attestations that has the data of the completed attestations for the control when the attestation method was Classic attestation.
 
-    ![Compliance home page for the compliance manager.](../image/smart-assessments-comp-manager.png "Attestations widget in the compliance manager home page")
+    \[Omitted image "smart-assessments-comp-manager.png"\] Alt text: Compliance home page for the compliance manager.
 
 -   **Compliance Home page for the compliance analyst**
 

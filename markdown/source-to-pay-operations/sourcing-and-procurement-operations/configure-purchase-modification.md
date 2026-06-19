@@ -2,13 +2,14 @@
 title: Configure purchase modification record producers
 description: Configure the conditions to make the purchase modification records available for the shopper to edit or cancel. You can leverage the condition builder to set specific conditions from the ShoppingHub Configuration table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/configure-purchase-modification.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Purchase modification configuration, ShoppingHub configuration, Setting up primary data for Shopping Hub, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Purchase modification configuration, ShoppingHub configuration, Setting up primary data Shopping, Configure Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Configure purchase modification record producers
@@ -30,5 +31,5 @@ Role required: sn\_shop.shopping\_hub\_admin or sn\_shop.procurement\_administra
 4.  Select **Update**.
 
 
-**Parent Topic:**[Purchase modification configuration](../concept/purchase-modification-configuration.md)
+**Parent Topic:**[Purchase modification configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/purchase-modification-configuration.md)
 

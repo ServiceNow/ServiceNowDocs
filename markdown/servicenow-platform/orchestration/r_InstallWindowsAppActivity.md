@@ -2,6 +2,7 @@
 title: Install Windows App activity
 description: The Install Windows App activity installs an application from an MSI package on a Windows target machine.To install software on Windows machines using the Install Windows App activity, enable WMI Windows Installer provider on all target machines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/orchestration/r\_InstallWindowsAppActivity.html
 release: zurich
 product: Orchestration
 classification: orchestration
@@ -15,13 +16,13 @@ breadcrumb: [PowerShell activity pack, Orchestration activity packs, Classic Orc
 
 The Install Windows App activity installs an application from an MSI package on a Windows target machine.
 
-**Note:** This activity replaces a Powershell activity by the same name available in releases prior to Geneva. If you have a workflow created in a previous version that uses the deprecated activity, your workflow will continue to work normally after upgrading to Geneva. However, all new workflows must use the custom version of this activity. This activity was built with the [PowerShell activity designer](../../orchestration-activity-designer/concept/c_PowershellActivityDesigner.md), which gives workflow administrators the ability to store input and output variables in the [databus](../../orchestration-activity-designer/concept/c_OrchestrationDatabus.md#).
+**Note:** This activity replaces a Powershell activity by the same name available in releases prior to Geneva. If you have a workflow created in a previous version that uses the deprecated activity, your workflow will continue to work normally after upgrading to Geneva. However, all new workflows must use the custom version of this activity. This activity was built with the [PowerShell activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_PowershellActivityDesigner.md), which gives workflow administrators the ability to store input and output variables in the [databus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_OrchestrationDatabus.md).
 
 ## Input variables
 
 |Variable|Description|
 |--------|-----------|
-|hostname|Hostname or IP address of the target Windows machine on which the service is installed. Use the Resolve DNS [MID Server capabilities](../../../product/mid-server/reference/r_MIDServerCapabilities.md) to resolve hostnames into IP addresses.|
+|hostname|Hostname or IP address of the target Windows machine on which the service is installed. Use the Resolve DNS [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown) to resolve hostnames into IP addresses.|
 |installerpath|Path to the installer. The installer can be on any machine that is visible to both the MID Server and the target machine \(local drive, UNC path, mapped drive, etc.\).|
 |installer|Name of the installer file, such as `winzip150.msi`. The installer must be an MSI package.|
 |arguments|The parameter that contains the command line arguments to the MSI package. These are name=value pairs, separated by a space. For example, the argument might appear as: `INSTALLDIR=c:\myinstallfolder ADDDESKTOPICON=0`. These arguments are dependent on the what the actual MSI being installed defines. If there are no arguments, leave the field empty.|
@@ -31,7 +32,7 @@ The Install Windows App activity installs an application from an MSI package on 
 |Variable|Description|
 |--------|-----------|
 |result|Either **success** or **failure**.|
-|errorMessage|The **executionResult.errorMessages** from the [Activity designer parsing sources](../../orchestration-activity-designer/task/t_CreateAParsingRule.md#).|
+|errorMessage|The **executionResult.errorMessages** from the [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateAParsingRule.md).|
 
 ## Conditions
 
@@ -42,7 +43,7 @@ The activity state tells the workflow engine what to do with the activity.
 |Success|The Windows application was successfully installed on the target machine.|
 |Failure|The Windows application failed to install on the target machine|
 
-**Parent Topic:**[PowerShell activity pack](../concept/c_OrchestrPwrshellActivityPack.md)
+**Parent Topic:**[PowerShell activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_OrchestrPwrshellActivityPack.md)
 
 ## Enable WMI Windows Installer provider
 

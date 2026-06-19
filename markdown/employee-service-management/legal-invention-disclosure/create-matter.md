@@ -2,6 +2,7 @@
 title: Create a matter or add a Legal Invention Disclosure request to an existing matter
 description: Create a matter from a Legal Invention Disclosure request or add the request to an existing matter to track the details of the complete patent application process if the request is approved for applying for a patent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-invention-disclosure/create-matter.html
 release: zurich
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
@@ -17,7 +18,7 @@ Create a matter from a Legal Invention Disclosure request or add the request to 
 
 ## Before you begin
 
-A Legal Invention Disclosure request must have been submitted and accepted. For more information, see [Create a Legal Invention Disclosure request](submit-legal-invention-disclosure.md).
+A Legal Invention Disclosure request must have been submitted and accepted. For more information, see [Create a Legal Invention Disclosure request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-invention-disclosure/submit-legal-invention-disclosure.md).
 
 Role required: sn\_lg\_ops.legal\_fulfiller
 
@@ -25,7 +26,7 @@ Role required: sn\_lg\_ops.legal\_fulfiller
 
 1.  Navigate to **All** &gt; **Legal Counsel Center**.
 
-2.  Select the List icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\) from the primary navigation and in the Legal Requests section of the **Lists** menu, select **All**.
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\) from the primary navigation and in the Legal Requests section of the **Lists** menu, select **All**.
 
 3.  Select the Legal Invention Disclosure request to open.
 
@@ -45,15 +46,15 @@ Role required: sn\_lg\_ops.legal\_fulfiller
 
 7.  Create a matter from the request or add the request to an existing matter.
 
-<table id="choicetable_vlq_pts_lzb"><thead><tr><th align="left" id="d231940e167">
+<table id="choicetable_vlq_pts_lzb"><thead><tr><th align="left" id="d227020e167">
 
 Request search result
 
-</th><th align="left" id="d231940e170">
+</th><th align="left" id="d227020e170">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d231940e176">
+</th></tr></thead><tbody><tr><td id="d227020e176">
 
 **Request is original**
 
@@ -64,7 +65,7 @@ Actions
 3.  Select **OK**.
  **Note:** If the request contains multiple ideas in the **Describe the invention** field, consider creating a separate matter for each idea with a unique name and modify the field so that only one idea is in the field for each matter.
 
-</td></tr><tr><td id="d231940e209">
+</td></tr><tr><td id="d227020e209">
 
 **Similar request exists**
 
@@ -85,5 +86,5 @@ A new matter is created from the request or the request is added to an existing 
 -   The State is updated to Work In Progress.
 -   The Application status is In Patent Application for the new matter or In Review for an existing matter.
 
-**Parent Topic:**[Using the Legal Invention Disclosure](../concept/use-legal-invention-disclosure.md)
+**Parent Topic:**[Using the Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-invention-disclosure/use-legal-invention-disclosure.md)
 

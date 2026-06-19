@@ -2,6 +2,7 @@
 title: Filter and search for requests in AEMC
 description: The App Engine Management Center \(AEMC\) application provides tools for locating requests. You can perform a global search for request records or filter the list of current requests to locate the ones you want to work on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-management-center/filter-search-aemc.html
 release: zurich
 product: App Engine Management Center
 classification: app-engine-management-center
@@ -17,9 +18,9 @@ The App Engine Management Center \(AEMC\) application provides tools for locatin
 
 ## Filtering requests
 
-On the Requests, Pipelines, Custom apps, and Developers pages, you can filter the list of requests by several different criteria.
+On the Requests, Pipelines, Release management, Custom apps, and Developers tabs, you can filter the list of requests by several different criteria.
 
-To create a filter, select the filter icon \(![Filter icon.](../image/aemc-filter.png)\), select **Advanced view**, and add criteria. Build a filter by adding conditions that contain a field, operator, and value\(s\). You can use an existing filter, save what you create, and limit who can use the filter. Build more complex filters by using the **or** and **and** connectors. Add as many filters as you need, and select **Update**.
+To create a filter, select the filter icon \(\[Omitted image "aemc-filter.png"\] Alt text: Filter icon.\), select **Advanced view**, and add criteria. Build a filter by adding conditions that contain a field, operator, and value\(s\). You can use an existing filter, save what you create, and limit who can use the filter. Build more complex filters by using the **or** and **and** connectors. Add as many filters as you need, and select **Update**.
 
 When you filter on the Pipelines tab, only instances with requests that match the filtering criteria display information. For example, if your pipeline shows request data in three instances and you filter by an app name used in only one of those instances, only that instance returns results.
 
@@ -27,11 +28,13 @@ When you filter on the Pipelines tab, only instances with requests that match th
 
 You can use the **Search** field at the top of any AEMC screen to search for submitted requests. Simply type all or a portion of a request number using an asterisk wild card character, and select **View results**.
 
-![Search field](../image/search.png "Search")
+\[Omitted image "search.png"\] Alt text: Search field
 
-For example, you can type DEV0001\* and select **View results** \(or simply press **Enter**\), and a list of all collaboration requests that begin with DEV0001 are returned.
+For example, you can type `DEV0001*` and select **View results** \(or simply press **Enter**\), and a list of all collaboration requests that begin with DEV0001 are returned.
+
+\[Omitted image "search-results.png"\] Alt text: Search results
 
 You can then select the record you want to review.
 
-**Parent Topic:**[Managing requests using AEMC](manage-aemc-requests.md)
+**Parent Topic:**[Managing requests using AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/manage-aemc-requests.md)
 

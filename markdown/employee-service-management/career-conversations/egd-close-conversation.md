@@ -2,6 +2,7 @@
 title: Close a conversation
 description: As a manager, you can mark a conversation as completed to easily reference it for future planning and growth activities. Write closing notes and share them with your employee to ensure a shared understanding.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/career-conversations/egd-close-conversation.html
 release: zurich
 product: Career Conversations
 classification: career-conversations
@@ -17,7 +18,7 @@ As a manager, you can mark a conversation as completed to easily reference it fo
 
 ## Before you begin
 
-You must provide your employees with a license to enable access to the Career Conversations app. For more information about employee licensing, refer to [License Talent Development Core users](egd-employee-profile-licensing.md).
+You must provide your employees with a license to enable access to the Career Conversations app. For more information about employee licensing, refer to [License Talent Development Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-employee-profile-licensing.md).
 
 Role required: manager \[sn\_egd\_act.manager\]
 
@@ -50,7 +51,7 @@ Growth conversation page
 1.  Use the **Your team's conversation** widget to select the conversation that you want to close.
 2.  Select the more options button and select **Complete conversation**.
 
-![Open conversation with employee with the option to complete or cancel the conversation](../image/close-growth-conversation2.png)
+\[Omitted image "close-growth-conversation2.png"\] Alt text: Open conversation with employee with the option to complete or cancel the conversation
 
 </td></tr><tr><td>
 
@@ -61,11 +62,11 @@ Conversations landing page
 1.  Navigate to the conversation that you want to close.
 2.  Select the more options button and select **Complete conversation**.
 
-![Open conversation with employee with the option to complete or cancel the conversation](../image/close-growth-conversation.png)
+\[Omitted image "close-growth-conversation.png"\] Alt text: Open conversation with employee with the option to complete or cancel the conversation
 
 </td></tr></tbody>
 </table>3.  In the **Closing thoughts** window, enter last thoughts to share with the employee and select **Complete conversation**.
 
 
-**Parent Topic:**[Using the Career Conversations application](../concept/egd-activities-use.md)
+**Parent Topic:**[Using the Career Conversations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/career-conversations/egd-activities-use.md)
 

@@ -2,6 +2,7 @@
 title: Manage ownership groups
 description: Create ownership groups and associate them to knowledge articles. Knowledge group managers or knowledge administrators can edit ownership groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/create-edit-ownership-group.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -108,5 +109,5 @@ Members of the ownership group.
     4.  In the **Manager** field, enter a manager and add the role knowledge\_group\_manager.
     5.  In the Roles related list, click **Edit** and add the role knowledge\_group\_member to the group.
 
-**Parent Topic:**[Using Knowledge Management](../concept/using-knowledge-management.md)
+**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/using-knowledge-management.md)
 

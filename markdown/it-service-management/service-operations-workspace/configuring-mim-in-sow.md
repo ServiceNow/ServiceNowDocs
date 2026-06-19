@@ -2,6 +2,7 @@
 title: Configuring Major Incident Management in Service Operations Workspace
 description: Configure the features in Major Incident Management to use and manage major incidents in Service Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/configuring-mim-in-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace

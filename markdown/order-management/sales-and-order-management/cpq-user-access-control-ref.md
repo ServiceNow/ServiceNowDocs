@@ -2,6 +2,7 @@
 title: User Access Control reference
 description: Control Admin access levels using CSV imports. Assign NONE, READ, EDIT, or ADMIN permissions to specific areas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cpq-user-access-control-ref.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

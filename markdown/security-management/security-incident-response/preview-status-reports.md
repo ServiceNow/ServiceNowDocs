@@ -2,6 +2,7 @@
 title: Preview the Report Template
 description: Use the Preview functionality to preview your design-time report template to generate and share the report with other stakeholders during run time from the Major Security Incident Management workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/preview-status-reports.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -42,5 +43,5 @@ Role required: sn\_msi.workspace\_manager
     The report generates a preview according to the selected template configuration. If you selected the Report Type as **Email**, then the preview is in email template format. The status reports in email format are mobile-friendly.
 
 
-**Parent Topic:**[Create a Report Template](create-report-template.md)
+**Parent Topic:**[Create a Report Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/create-report-template.md)
 

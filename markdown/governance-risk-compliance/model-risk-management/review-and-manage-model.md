@@ -2,6 +2,7 @@
 title: Initiate a model risk assessment
 description: Initiate a model risk assessment by verifying the details, assigning stakeholders, and create an assessment using the Model Risk Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/model-risk-management/review-and-manage-model.html
 release: zurich
 product: Model Risk Management
 classification: model-risk-management
@@ -23,7 +24,7 @@ Role required: sn\_model\_risk\_mgmt.model\_governance or sn\_model\_risk\_mgmt.
 
 1.  Navigate to **All** &gt; **Model Risk Workspace**.
 
-2.  Select the list icon ![](../../grc-compliance-case-mgmt/image/list-icon.png).
+2.  Select the list icon \[Omitted image "list-icon-mrm.png"\] Alt text:.
 
 3.  From the list, navigate to **Models** &gt; **Initiation**.
 
@@ -171,14 +172,14 @@ Option to attach any supporting files or documents.
 
 12. Select **Create**.
 
-    ![This image shows the model risk task in the Model Risk record.](../image/model-risk-task.png)
+    \[Omitted image "model-risk-task.png"\] Alt text: This image shows the model risk task in the Model Risk record.
 
     A model risk task is created and assigned to the model owner.
 
 
 ## What to do next
 
-[Perform model risk assessment](perform-model-risk-assessment.md)
+[Perform model risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/model-risk-management/perform-model-risk-assessment.md)
 
-**Parent Topic:**[Using Model Risk Management](../concept/using-mrm.md)
+**Parent Topic:**[Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/model-risk-management/using-mrm.md)
 

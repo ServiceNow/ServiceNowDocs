@@ -2,6 +2,7 @@
 title: Setting up an IBM License Metric Tool \(ILMT\) or BigFix Inventory integration using HTTPS
 description: You can set up an IBM License Metric Tool \(ILMT\) or BigFix Inventory integration for IBM compliance reporting.Set up IBM License Metric Tool \(ILMT\) and BigFix Inventory integration for IBM compliance reporting using an HTTPS connection with the MID Server.Set up IBM License Metric Tool \(ILMT\) and BigFix Inventory integration for IBM compliance reporting using an HTTPS connection without the MID Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/setting-up-ibm-ilmt.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -20,7 +21,7 @@ If you're using an HTTPS connection, you can use any of the following connection
 -   HTTPS with the MID Server
 -   HTTPS without the MID Server
 
-**Parent Topic:**[IBM License Metric Tool \(ILMT\) and BigFix Inventory integrations](ibm-ilmt-bigfix-inventory-integration.md)
+**Parent Topic:**[IBM License Metric Tool \(ILMT\) and BigFix Inventory integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/ibm-ilmt-bigfix-inventory-integration.md)
 
 ## HTTPS with the MID Server
 
@@ -34,12 +35,12 @@ Role required: sys\_admin
 
 1.  Download the certificate by logging in to the ILMT or BigFix Inventory server and navigating to **Management** &gt; **Server Settings**.
 
-2.  [Import a certificate for the MID Server](https://www.servicenow.com/docs/access?context=add-ssl-certificates&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+2.  Import a certificate for the MID Server.
 
 
 ### What to do next
 
-After you've finished uploading your certificates, [create a connection to ILMT/BigFix Inventory](../task/set-up-ibm-platform.md).
+After you've finished uploading your certificates, [create a connection to ILMT/BigFix Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/set-up-ibm-platform.md).
 
 ## HTTPS without the MID Server
 
@@ -57,7 +58,7 @@ Role required: sys\_admin
 
 1.  Download the certificate by logging in to the ILMT or BigFix Inventory server and navigating to **Management** &gt; **Server Settings**.
 
-2.  From your ServiceNow instance, navigate to **System Definition** &gt; **Certificates** and create a [certificate](https://www.servicenow.com/docs/access?context=t_UploadACertificateToAnInstance&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) \(Trust Store Cert, PEM format\).
+2.  From your ServiceNow instance, navigate to **System Definition** &gt; **Certificates** and create a certificate \(Trust Store Cert, PEM format\).
 
 3.  Paste the full downloaded ILMT or BigFix Inventory server certificate content into the **PEM Certificate** field \(including banners\).
 
@@ -87,5 +88,5 @@ Role required: sys\_admin
 
 ### What to do next
 
-After you've finished uploading your certificates, [create a connection to ILMT/BigFix Inventory](../task/set-up-ibm-platform.md).
+After you've finished uploading your certificates, [create a connection to ILMT/BigFix Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/set-up-ibm-platform.md).
 

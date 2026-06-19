@@ -2,6 +2,7 @@
 title: ServiceNow Governance
 description: Guidance on building ServiceNow Governance boards and policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/servicenow-governance.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

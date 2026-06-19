@@ -2,6 +2,7 @@
 title: Workflow of risk assessment project
 description: The risk assessment project workflow is a structured process to assess multiple risks and controls simultaneously using Risk Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/workflow-of-risk-assessment-project.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -19,7 +20,7 @@ The risk assessment project workflow is a structured process to assess multiple 
 
 The following diagram shows the workflow of a risk assessment project.
 
-![Workflow of a risk assessment project.](../image/risk-assessment-project-workflow.png "Risk assessment project workflow")
+\[Omitted image "risk-assessment-project-workflow.png"\] Alt text: Workflow of a risk assessment project.
 
 The stages of a risk assessment project are as follows:
 
@@ -56,5 +57,5 @@ The stages of a risk assessment project are as follows:
 
 **Note:** After the project reaches the Completed state, you can create a new project with the same RAM and entity. When the new project reaches the Completed state, the old project moves to the Archived state.
 
-**Parent Topic:**[Risk assessment project](risk-assessment-project.md)
+**Parent Topic:**[Risk assessment project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-project.md)
 

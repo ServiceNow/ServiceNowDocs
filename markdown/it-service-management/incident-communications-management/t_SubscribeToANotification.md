@@ -1,7 +1,8 @@
 ---
 title: Subscribe to incident communication notifications
-description: Subscribe to incident communication notifications to get periodic information about issues related to incident communication plans.
+description: Subscribe to incident communication notifications to get periodic information about issues related to incident communication plans. The timely incident communication notification or incident alerts \(IA\) helps address issues within the defined SLA.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-communications-management/t\_SubscribeToANotification.html
 release: zurich
 product: Incident Communications Management
 classification: incident-communications-management
@@ -13,7 +14,7 @@ breadcrumb: [Manage, Incident Communications Management, IT Service Management]
 
 # Subscribe to incident communication notifications
 
-Subscribe to incident communication notifications to get periodic information about issues related to incident communication plans.
+Subscribe to incident communication notifications to get periodic information about issues related to incident communication plans. The timely incident communication notification or incident alerts \(IA\) helps address issues within the defined SLA.
 
 ## Before you begin
 
@@ -43,12 +44,12 @@ Role required: itil, ia\_admin, or admin
 
     **Note:** Apply filter to your notification channel to avoid receiving every notification for the subscription.
 
-    ![Apply conditions for a notification](../image/NewNotification.png)
+    \[Omitted image "NewNotification.png"\] Alt text: Apply conditions for a notification
 
 9.  Select **Save**.
 
     You are subscribed to incident communication notification.
 
 
-**Parent Topic:**[Managing Incident Communications](../concept/working-with-inci-comm-mgmt.md)
+**Parent Topic:**[Managing Incident Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
 

@@ -2,6 +2,7 @@
 title: Customize the Validation of Revision CI
 description: Added as per STRY57127942 - DOC1092072Customize the validation process of a CI \(Configuration Item\) using the Telecommunications Network Inventory application. You can customize the validation process by providing adjustable parameters based on the script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/customize-the-validation-of-revision-ci.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -36,5 +37,5 @@ You can specify criteria and rules that fit your requirements, enabling a tailor
     The field value having value as False isn’t included in the validation process.
 
 
-**Parent Topic:**[Configuring decision tables](decision_tables.md)
+**Parent Topic:**[Configuring decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/decision_tables.md)
 

@@ -2,6 +2,7 @@
 title: Define a query filter for Now Assist Q&amp;A Genius Results
 description: Define a Java regular expression pattern that a search must match to be eligible for triggering Now Assist Q&amp;A Genius Results. Searches that don't match this pattern don't return Genius Result answers from Now Assist Q&amp;A Genius Results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/define-qry-fltr-now-assist-qna-gr.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -18,7 +19,7 @@ Define a Java regular expression pattern that a search must match to be eligible
 
 ## Before you begin
 
-The Now Assist in AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install Now Assist in AI Search](install-now-assist-ais.md).
+The Now Assist in AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/install-now-assist-ais.md).
 
 Make sure that you're familiar with Java's regular expression pattern syntax. To learn about the regular expression pattern syntax, see [the Javadoc for the java.regex.util.Pattern class](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/regex/Pattern.html).
 
@@ -62,5 +63,5 @@ You can customize the pattern match condition by defining your own Java regular 
 
 Now Assist Q&amp;A Genius Results don't send knowledge article search results to the Now LLM Service for Q&amp;A answer generation unless the search query matches your Java regular expression pattern.
 
-**Parent Topic:**[Now Assist Q&amp;A Genius Results](../concept/now-assist-qna-genius-results.md)
+**Parent Topic:**[Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/now-assist-qna-genius-results.md)
 

@@ -2,6 +2,7 @@
 title: Custom mapping configuration for SPW Jira Integrations
 description: Learn about creating custom mapping configurations to map Jira issue types, fields, and choices with SPW entities, to match your team's processes. Create a custom mapping configuration between tables of Strategic Planning Workspace \(SPW\) and Jira.Create a custom mapping configuration between fields of Strategic Planning Workspace \(SPW\) and Jira.Create a custom mapping configuration for field choices between Strategic Planning Workspace \(SPW\) and Jira.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/custom-mapping-configuration-spw-jira.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning
@@ -29,7 +30,7 @@ Create a custom mapping configuration between tables of Strategic Planning Works
 
 ### Before you begin
 
-[Review default mapping configuration for Jira projects in SPW](../task/review-default-map-config-jira-projects-spw.md).
+[Review default mapping configuration for Jira projects in SPW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/review-default-map-config-jira-projects-spw.md).
 
 Role required: sn\_jira\_int.user
 
@@ -49,7 +50,7 @@ For example, if your team uses an issue type like Feature that isn’t mapped by
 
 4.  On the Table Map form, fill in the fields.
 
-    For field information, see [Table Map form](../reference/spw-table-map-form.md).
+    For field information, see [Table Map form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/spw-table-map-form.md).
 
 5.  Select **Submit**.
 
@@ -57,7 +58,7 @@ For example, if your team uses an issue type like Feature that isn’t mapped by
 ### What to do next
 
 1.  Validate your new table map configuration by clicking **Validate and fix mapping** from the Jira project form.
-2.  For this table map, create field mappings. See [Create custom field mapping for SPW Jira integrations](custom-mapping-configuration-spw-jira.md#).
+2.  For this table map, create field mappings. See [Create custom field mapping for SPW Jira integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/custom-mapping-configuration-spw-jira.md).
 
 ## Create custom field mapping for SPW Jira integrations
 
@@ -85,7 +86,7 @@ For example, a table mapping between the Story entity in Jira and the Story \[rm
 
 5.  On the form, fill in the fields.
 
-    For field information, see [Field Map form](../reference/spw-field-map-form.md).
+    For field information, see [Field Map form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/spw-field-map-form.md).
 
 6.  Select **Submit**.
 
@@ -93,7 +94,7 @@ For example, a table mapping between the Story entity in Jira and the Story \[rm
 ### What to do next
 
 1.  Validate your new mapping configuration by clicking **Validate and fix mapping** from the Jira project form.
-2.  \(Optional\) If your new field is of the type Choice, create custom choice mapping for it. See [Create custom choice mapping for SPW Jira integrations](custom-mapping-configuration-spw-jira.md#).
+2.  \(Optional\) If your new field is of the type Choice, create custom choice mapping for it. See [Create custom choice mapping for SPW Jira integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/custom-mapping-configuration-spw-jira.md).
 
 ## Create custom choice mapping for SPW Jira integrations
 
@@ -123,7 +124,7 @@ For example, Jira Stories include default states such as To Do, In Progress, and
 
 6.  On the form, fill in the fields.
 
-    For field information, see [Choice Map form](../reference/spw-choice-map-form.md).
+    For field information, see [Choice Map form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/spw-choice-map-form.md).
 
 7.  Select **Submit**.
 
@@ -131,6 +132,6 @@ For example, Jira Stories include default states such as To Do, In Progress, and
 ### What to do next
 
 1.  Validate your new mapping configuration by clicking **Validate and fix mapping** from the Jira project form.
-2.  [Enable bidirectional sync of work items between Jira projects and SPW](../task/enable-bidirectional-sync-spw-jira.md).
-3.  [Import issues from Jira to SPW](../task/import-issues-from-jira-to-spw.md).
+2.  [Enable bidirectional sync of work items between Jira projects and SPW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/enable-bidirectional-sync-spw-jira.md).
+3.  [Import issues from Jira to SPW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/import-issues-from-jira-to-spw.md).
 

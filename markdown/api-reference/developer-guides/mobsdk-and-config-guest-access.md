@@ -2,6 +2,7 @@
 title: Configure guest user access
 description: To enable SDK services to be accessible by unauthenticated users, you must configure the Mobile SDK on your ServiceNow instance to allow guest user access. A guest user can view public web pages hosted in an instance using NowWeb, have a conversation as a guest using NowChat, access public data on the instance using NowTableService and NowGraphQLService, and access custom API services configured for unauthenticated users using NowAPIService.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/developer-guides/mobsdk-and-config-guest-access.html
 release: zurich
 product: Developer Guides
 classification: developer-guides
@@ -27,7 +28,7 @@ Role required: admin
 
     **Note:** The NowAttachment service does not currently support guest access.
 
-    ![Enable guest access](../../image/mobsdk-guest-access-config.png)
+    \[Omitted image "mobsdk-guest-access-config.png"\] Alt text: Enable guest access
 
 3.  Select **Update** to save your changes.
 

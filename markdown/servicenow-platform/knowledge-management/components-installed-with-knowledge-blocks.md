@@ -2,6 +2,7 @@
 title: Components installed with knowledge blocks
 description: Several types of components are installed with activation of the knowledge blocks plugin, including tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/components-installed-with-knowledge-blocks.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -15,7 +16,7 @@ breadcrumb: [Knowledge Management reference, Knowledge Management, Manage conten
 
 Several types of components are installed with activation of the knowledge blocks plugin, including tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -54,7 +55,7 @@ KB Knowledge to Block History\[m2m\_kb\_to\_block\_history\]
 KB knowledge to block history table.
 
 </td></tr></tbody>
-</table>For further information on table administration and how to manage data, see [Table administration](https://www.servicenow.com/docs/access?context=c_TableAdministration&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+</table>For further information on table administration and how to manage data, see Table administration.
 
-**Parent Topic:**[Knowledge Management reference](knowledge-management-reference.md)
+**Parent Topic:**[Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/knowledge-management-reference.md)
 

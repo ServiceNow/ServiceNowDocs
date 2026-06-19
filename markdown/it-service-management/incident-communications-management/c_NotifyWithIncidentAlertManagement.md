@@ -2,6 +2,7 @@
 title: Notify with Incident Communications Management
 description: Notify allows you to integrate with the Twilio telephony service to send and receive phone calls and SMS from within your instance. In Incident Communications Management, Notify provides you with SMS and conference as channels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-communications-management/c\_NotifyWithIncidentAlertManagement.html
 release: zurich
 product: Incident Communications Management
 classification: incident-communications-management
@@ -15,7 +16,7 @@ breadcrumb: [Incident Communications Management integrations, Reference, Inciden
 
 Notify allows you to integrate with the Twilio telephony service to send and receive phone calls and SMS from within your instance. In Incident Communications Management, Notify provides you with SMS and conference as channels.
 
-For more information on how notify works with Incident Communications Management, refer [Using Notify with Incident Communications Management](https://www.servicenow.com/docs/access?context=c_NotifyWithIncidentAlert&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+For more information on how notify works with Incident Communications Management, refer Using Notify with Incident Communications Management.
 
-**Parent Topic:**[Incident Communications Management integrations](inci-commu-mgmt-integrations.md)
+**Parent Topic:**[Incident Communications Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-communications-management/inci-commu-mgmt-integrations.md)
 

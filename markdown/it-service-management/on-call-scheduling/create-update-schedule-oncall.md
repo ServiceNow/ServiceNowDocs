@@ -2,6 +2,7 @@
 title: Configure or update an On-Call schedule
 description: Create an On-Call schedule or edit an existing schedule by defining shifts and rosters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/on-call-scheduling/create-update-schedule-oncall.html
 release: zurich
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -14,8 +15,6 @@ breadcrumb: [Manage schedules and shifts, On-Call Scheduling, IT Service Managem
 # Configure or update an On-Call schedule
 
 Create an On-Call schedule or edit an existing schedule by defining shifts and rosters.
-
-Set up an on-call schedule
 
 ## Before you begin
 
@@ -167,7 +166,7 @@ Send On-Call Reminders
 
 </td><td>
 
-Option to send [on-call reminders](../reference/escalation-remind-settings-oncall.md) to members of the roster.
+Option to send [on-call reminders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/escalation-remind-settings-oncall.md) to members of the roster.
 
 </td></tr><tr><td>
 
@@ -183,7 +182,7 @@ Coverage interval
 
 </td><td>
 
-Interval for updates of coverage details. Specifies whether you want to update the [subscribed](view-my-schedule-on-my-app-oncall.md) calendar with weekly or daily coverage details.
+Interval for updates of coverage details. Specifies whether you want to update the [subscribed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/view-my-schedule-on-my-app-oncall.md) calendar with weekly or daily coverage details.
 
 </td></tr><tr><td>
 
@@ -216,7 +215,7 @@ Roster Name
 
 </td><td>
 
-Use the edit icon to edit the name of the [roster](config-roster-oncall.md) that you are adding members to.
+Use the edit icon to edit the name of the [roster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/config-roster-oncall.md) that you are adding members to.
 
 </td></tr><tr><td>
 
@@ -311,7 +310,7 @@ Escalation type
 
 </td><td>
 
-Method used to determine who receives an escalation notification. Its value is automatically set to **Rotate Through Members** if a shift has only one roster. The escalation path goes through all members of that roster. If a shift has more than one roster, the default value is **Rotate Through Rosters**. The escalation path goes through all the rosters to determine who to notify. [Click **Override escalation** to change the default setting.](create-custom-esc-policy-oncall.md)
+Method used to determine who receives an escalation notification. Its value is automatically set to **Rotate Through Members** if a shift has only one roster. The escalation path goes through all members of that roster. If a shift has more than one roster, the default value is **Rotate Through Rosters**. The escalation path goes through all the rosters to determine who to notify. [Click **Override escalation** to change the default setting.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/create-custom-esc-policy-oncall.md)
 
 </td></tr><tr><td>
 
@@ -354,7 +353,7 @@ Time between reminders
 
 The interval of time between reminders. Default: 15 minutes
 
-If your choice is not in the list, select the closest value. [Edit the roster](update-shift-from-calendar-oncall.md) to update the number of reminders after the schedule is generated.
+If your choice is not in the list, select the closest value. [Edit the roster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/update-shift-from-calendar-oncall.md) to update the number of reminders after the schedule is generated.
 
 </td></tr><tr><td>
 
@@ -378,16 +377,16 @@ The interval of time to wait before escalating a task.
 
 Perform one of the following procedures to update the schedule.
 
--   **[Updating an On-Call schedule](update-schedule-oncall.md)**  
+-   **[Updating an On-Call schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/update-schedule-oncall.md)**  
 Shift managers and members can use the **Schedules** tabs to view and update the on-call schedules of a group. Shift managers can review, manage, and resolve gaps or conflicts in your On-Call schedule from a single view.
--   **[Update a schedule entry](schedule-entry-update-oncall.md)**  
+-   **[Update a schedule entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/schedule-entry-update-oncall.md)**  
 You can deactivate a schedule entry or update setting like schedule entry type, date, or time.
--   **[Specify the sources of contact information for schedule notifications](config-contact-sources-oncall.md)**  
+-   **[Specify the sources of contact information for schedule notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/config-contact-sources-oncall.md)**  
 Configure the communications methods that shift managers can choose from to send on-call schedule notifications. For example, add email and phone contact sources.
--   **[Manage shifts from the Calendar view](customize-calendar-view-oncall.md)**  
+-   **[Manage shifts from the Calendar view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/customize-calendar-view-oncall.md)**  
 The Calendar view displays all shifts for a user group for a specified time interval. Use the Calendar view of an On-Call schedule to update or manage shifts.
--   **[Manage shifts from the Timeline view](customize-timeline-view-oncall.md)**  
+-   **[Manage shifts from the Timeline view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/customize-timeline-view-oncall.md)**  
 Use the Timeline view of an On-Call schedule to update or manage shifts based on the geographical location of roster members.
 
-**Parent Topic:**[Managing schedules and shifts](../../user-administration/concept/manage-schedules-and-shifts.md)
+**Parent Topic:**[Managing schedules and shifts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/manage-schedules-and-shifts.md)
 

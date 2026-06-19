@@ -2,6 +2,7 @@
 title: Create and associate a policy document in Microsoft SharePoint
 description: Enable redlining in a policy document that exists in your Microsoft SharePoint location instead of creating a document in Microsoft SharePoint and associating the document with the policy record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/create-policy-redlining-sharepoint.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -29,11 +30,11 @@ Apart from associating documents that reside in Microsoft OneDrive and Google Dr
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the List icon \(![Lists icon.](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the Compliance Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon.\).
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 
-    You can [create a new policy](../../grc-workspace-compliance/task/create-policy-ws.md) or open a policy record to associate a document.
+    You can [create a new policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/create-policy-ws.md) or open a policy record to associate a document.
 
 4.  Select a policy to associate a policy document from the Microsoft SharePoint site.
 
@@ -43,7 +44,7 @@ Apart from associating documents that reside in Microsoft OneDrive and Google Dr
 
 6.  Enter the URL to the site in the **Site URL** field of the Create a Word document pop-up.
 
-    You can get the site URL location information if you hover over the Site URL ![Site URL icon](../../grc-risk/image/icon-information.png) icon.
+    You can get the site URL location information if you hover over the Site URL \[Omitted image "icon-information.png"\] Alt text: Site URL icon icon.
 
     1.  To get the site URL, log in to the Microsoft SharePoint site.
 
@@ -85,7 +86,7 @@ Apart from associating documents that reside in Microsoft OneDrive and Google Dr
 
     You can also verify the users' access rights by navigating to the Microsoft SharePoint document, selecting the **Share** list in the Microsoft SharePoint document and clicking **Manage Access**. Sometimes the access rights that users have on the ServiceNow policy document may not be the same as the rights that users have when they collaborate on the document in the Microsoft SharePoint site. This is because of the root permissions that are set in Microsoft SharePoint site, which get inherited to the folders within the site. The users of the folders within the site inherit those permissions. You can override the permissions.
 
-    1.  To override the Microsoft SharePoint site permission, select the settings icon \(![Settings icon.](../../../reuse/icons/product-icons/gear-outline-24.svg)\).
+    1.  To override the Microsoft SharePoint site permission, select the settings icon \(\[Omitted image "gear-outline-24.svg"\] Alt text: Settings icon.\).
 
     2.  Select **Site permissions** option in the **Settings** list.
 
@@ -119,14 +120,14 @@ Apart from associating documents that reside in Microsoft OneDrive and Google Dr
 
 14. Select the **Complete publishing checklist** button.
 
-    If all reviews are complete, then as a policy owner you can complete the publishing process. This action creates a playbook. The policy owner must go through the publishing checklist before requesting approval. See, [Complete publishing checklist for the policy and request approval](complete-publishing-checklist-redlining.md).
+    If all reviews are complete, then as a policy owner you can complete the publishing process. This action creates a playbook. The policy owner must go through the publishing checklist before requesting approval. See, [Complete publishing checklist for the policy and request approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/complete-publishing-checklist-redlining.md).
 
     After the publishing process is complete, you can either attach the policy as a PDF to the policy record or generate a Knowledge Base article when the policy moves to the Published state.
 
-15. Select the attachments icon \(![Attachment icon.](../../../common/image/Form_Attachment.png)\) in the sidebar of the policy's Overview related list to see the PDF version of the Knowledge Base article.
+15. Select the attachments icon \(\[Omitted image "Form\_Attachment.png"\] Alt text: Attachment icon.\) in the sidebar of the policy's Overview related list to see the PDF version of the Knowledge Base article.
 
 16. To view the history of the policy, select the Policy history related list.
 
-    For more information, see [View the history of a redlining-enabled policy](view-history-policy-redlining.md).
+    For more information, see [View the history of a redlining-enabled policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/view-history-policy-redlining.md).
 
 

@@ -2,6 +2,7 @@
 title: Request an electronic signature through the Adobe Acrobat Sign service
 description: Request an electronic signature through the Adobe Sign service. When the case state changes to Ready, the flow triggers and creates Adobe Sign tasks for all of the signers. For parallel signing, the tasks are assigned all at once. For serial signing, the tasks are created in the order defined.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/request-e-signature-through-adobe-sign-service.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -31,11 +32,11 @@ Role required: sn\_hr\_core.case\_writer
 
     -   &lt;Name of custom HR service&gt;
     -   Signature using Adobe Sign
-    ![Selecting the HR service](../image/signature-adobe.png)
+    \[Omitted image "signature-adobe.png"\] Alt text: Selecting the HR service
 
 4.  Fill in the other fields on the form, as appropriate.
 
-    For further details on the form fields, see [Create an HR case](search-hr-case.md).
+    For further details on the form fields, see [Create an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/search-hr-case.md).
 
 5.  Click **Create Case**.
 
@@ -91,5 +92,5 @@ Document voided or flow errored
 -   No attachments to case
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create an HR case](search-hr-case.md)
+</table>**Parent Topic:**[Create an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/search-hr-case.md)
 

@@ -2,7 +2,10 @@
 title: Configure third-party data integration for CSM
 description: Configure the required components to enable the third-party data integration feature for Agent Workspace for CSM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/config-csm-third-party-integration.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -25,11 +28,11 @@ Role required: admin
 
     2.  Follow the setup instructions specific to the spoke.
 
-        For example, for the Salesforce spoke, follow the instructions in the [Set up Salesforce spoke](https://www.servicenow.com/docs/access?context=setup-sf-spk&version=zurich&pubname=zurich-integrate-applications&section=setup-salesforce&ft:locale=en-US) topic.
+        For example, for the Salesforce spoke, follow the instructions in the Set up Salesforce spoke topic.
 
 2.  Identify the spoke action that retrieves the desired third-party data.
 
-    You can find the list of available actions in the spoke documentation. If an action that performs the desired task does not exist, you can create your own action by copying an existing action and modifying it to suit your needs. You can find an example of the custom spoke actions in [Create Salesforce spoke actions to retrieve Opportunities for use in the remote table definition](../concept/csm-integration-salesforce-spoke.md).
+    You can find the list of available actions in the spoke documentation. If an action that performs the desired task does not exist, you can create your own action by copying an existing action and modifying it to suit your needs. You can find an example of the custom spoke actions in [Create Salesforce spoke actions to retrieve Opportunities for use in the remote table definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-integration-salesforce-spoke.md).
 
     **Note:** Data Stream Actions cannot be used with the remote table.
 

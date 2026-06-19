@@ -2,6 +2,7 @@
 title: SystemDocument - Scoped, Global
 description: The SystemDocument API provides methods for setting fields of a record in the Documents \[ds\_document\] table.Instantiates a SystemDocument object.Sets the Audience field of a document record to specify external or internal availability. Represents the Audience field in a Document Management form.Sets the Classification field of a document record to identify the level of information sensitivity. Represents the Classification field in a Document Management form.Sets the template from which to generate a document. When the document is generated, the specified template is listed in the Created From Template field in the Documents \[ds\_document\_list\] table.Sets the Department field of a document record.Sets the Description field of a document record.Sets the Name field of a document record.Sets the Owner field of a document record.Sets the Reviewers field of a document record.Sets the State field of a document record.Specifies whether a document record is a template.Sets the Type field of a document record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/SystemDocumentBothAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,11 +16,11 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The SystemDocument API provides methods for setting fields of a record in the Documents \[ds\_document\] table.
 
-This API requires the Document Management plugin \(com.snc.platform\_document\_management\) and is provided within the `sn_doc_services` namespace. For information, see [Document Services](https://www.servicenow.com/docs/access?context=document-services-landing-page&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+This API requires the Document Management plugin \(com.snc.platform\_document\_management\) and is provided within the `sn_doc_services` namespace. For information, see Document Services.
 
-To create a document, use the [DocumentService API](../../DocumentService/concept/DocumentServiceBothAPI.md#).
+To create a document, use the [DocumentService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentServiceBothAPI.md).
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## SystemDocument - SystemDocument\(String docName\)
 
@@ -33,7 +34,7 @@ Instantiates a SystemDocument object.
 |----|-----------|
 |None| |
 
-The following example shows how to instantiate a SystemDocument object and set several fields for a document record. See also [DocumentService API](../../DocumentService/concept/DocumentServiceBothAPI.md#).
+The following example shows how to instantiate a SystemDocument object and set several fields for a document record. See also [DocumentService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentServiceBothAPI.md).
 
 ```
 var d = new sn_doc_services.SystemDocument('My document');
@@ -101,7 +102,7 @@ Default: internal
 |----|-----------|
 |None| |
 
-The following example shows how to set the Audience field in a new document record. See also [DocumentService - Scoped, Global](../../DocumentService/concept/DocumentServiceBothAPI.md#).
+The following example shows how to set the Audience field in a new document record. See also [DocumentService - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentServiceBothAPI.md).
 
 ```
 var d = new sn_doc_services.SystemDocument('My document');
@@ -161,7 +162,7 @@ Default: public
 |----|-----------|
 |String|The value of the classification property of a SystemDocument object.|
 
-The following example shows how to set the classification field in a new document record. See also [DocumentService API](../../DocumentService/concept/DocumentServiceBothAPI.md#).
+The following example shows how to set the classification field in a new document record. See also [DocumentService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentServiceBothAPI.md).
 
 ```
 var d = new sn_doc_services.SystemDocument('My restricted document');
@@ -188,13 +189,13 @@ Sets the template from which to generate a document. When the document is genera
 
 |Name|Type|Description|
 |----|----|-----------|
-|docTemplate|String|Sys\_id of a document listed in the Documents \[ds\_document\_list\] table. The document must have the Template checkbox selected \(true\). See also [DocumentVersionService API](../../DocumentVersionService/concept/DocumentVersionServiceBothAPI.md#).|
+|docTemplate|String|Sys\_id of a document listed in the Documents \[ds\_document\_list\] table. The document must have the Template checkbox selected \(true\). See also [DocumentVersionService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentVersionServiceBothAPI.md).|
 
 |Type|Description|
 |----|-----------|
 |None| |
 
-The following example shows how to create a new document record from an existing template. See also [DocumentService API](../../DocumentService/concept/DocumentServiceBothAPI.md#).
+The following example shows how to create a new document record from an existing template. See also [DocumentService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentServiceBothAPI.md).
 
 ```
 var d = new sn_doc_services.SystemDocument('New doc from template');
@@ -227,7 +228,7 @@ Sets the Department field of a document record.
 |----|-----------|
 |None| |
 
-The following example shows how to set the department field in a new document record. See also [DocumentService API](../../DocumentService/concept/DocumentServiceBothAPI.md#).
+The following example shows how to set the department field in a new document record. See also [DocumentService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentServiceBothAPI.md).
 
 ```
 var d = new sn_doc_services.SystemDocument('My document');
@@ -261,7 +262,7 @@ Sets the Description field of a document record.
 |----|-----------|
 |None| |
 
-The following example shows how to set the description field in a document record. See also: [DocumentService API](../../DocumentService/concept/DocumentServiceBothAPI.md#).
+The following example shows how to set the description field in a document record. See also: [DocumentService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentServiceBothAPI.md).
 
 ```
 var d = new sn_doc_services.SystemDocument('My document');
@@ -296,7 +297,7 @@ Sets the Name field of a document record.
 |----|-----------|
 |None| |
 
-The following example shows how to set the Name field in a new document record. See also [DocumentService API](../../DocumentService/concept/DocumentServiceBothAPI.md#).
+The following example shows how to set the Name field in a new document record. See also [DocumentService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentServiceBothAPI.md).
 
 ```
 var d = new sn_doc_services.SystemDocument();
@@ -352,7 +353,7 @@ Sys\_id of a user listed in the Users \[sys\_user\] table. Role required: admin
 |----|-----------|
 |None| |
 
-The following example shows how to set the owner field in a new document record. See also [DocumentService API](../../DocumentService/concept/DocumentServiceBothAPI.md#).
+The following example shows how to set the owner field in a new document record. See also [DocumentService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentServiceBothAPI.md).
 
 ```
 var d = new sn_doc_services.SystemDocument('My document');
@@ -385,7 +386,7 @@ Sets the Reviewers field of a document record.
 |----|-----------|
 |None| |
 
-The following example shows how to set the reviewers field in a new document record. See also [DocumentService API](../../DocumentService/concept/DocumentServiceBothAPI.md#).
+The following example shows how to set the reviewers field in a new document record. See also [DocumentService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentServiceBothAPI.md).
 
 ```
 var d = new sn_doc_services.SystemDocument('My document');
@@ -447,7 +448,7 @@ Default: draft
 |----|-----------|
 |None| |
 
-The following example shows how to set the state field in a new document record. See also [DocumentService API](../../DocumentService/concept/DocumentServiceBothAPI.md#).
+The following example shows how to set the state field in a new document record. See also [DocumentService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentServiceBothAPI.md).
 
 ```
 var d = new sn_doc_services.SystemDocument('My document');
@@ -508,7 +509,7 @@ Flag that specifies whether a document record is a template.
 |----|-----------|
 |None| |
 
-The following example shows how to indicate that a document record is a template. See also [DocumentService API](../../DocumentService/concept/DocumentServiceBothAPI.md#).
+The following example shows how to indicate that a document record is a template. See also [DocumentService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentServiceBothAPI.md).
 
 ```
 var d = new sn_doc_services.SystemDocument('My document');
@@ -569,7 +570,7 @@ Default: None
 |----|-----------|
 |None| |
 
-The following example shows how to set the type field in a new document record. See also [DocumentService API](../../DocumentService/concept/DocumentServiceBothAPI.md#).
+The following example shows how to set the type field in a new document record. See also [DocumentService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentServiceBothAPI.md).
 
 ```
 var d = new sn_doc_services.SystemDocument('How to use the document mgmt API');

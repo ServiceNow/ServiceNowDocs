@@ -2,6 +2,7 @@
 title: Release states
 description: A release might be in one of several different states during the release process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/releaseops/release-states.html
 release: zurich
 product: ReleaseOps
 classification: releaseops
@@ -110,5 +111,5 @@ The deployment was either unable to be completed or completed with issues.
 -   An update set was committed unexpectedly after retrieval.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ReleaseOps reference](releaseops-reference.md)
+</table>**Parent Topic:**[ReleaseOps reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/releaseops-reference.md)
 

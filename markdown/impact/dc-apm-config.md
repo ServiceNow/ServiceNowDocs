@@ -2,7 +2,10 @@
 title: Configure Data Collection for APM
 description: Configure Data Collection for APM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/dc-apm-config.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -25,6 +28,6 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
 
 2.  Enter the data point in the relevant month cell.
 
-    ![Example with Jul 2024 cell selected with an Indicator score of 3,000.](../image/dct_config_apm.png)
+    \[Omitted image "dct\_config\_apm.png"\] Alt text: Example with Jul 2024 cell selected with an Indicator score of 3,000.
 
 

@@ -2,6 +2,7 @@
 title: Change the time that determines whether an agent has acted
 description: Fine-tune the amount of time that determines whether an agent has acted when scheduled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/change-intraday-scheduling-timing.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling

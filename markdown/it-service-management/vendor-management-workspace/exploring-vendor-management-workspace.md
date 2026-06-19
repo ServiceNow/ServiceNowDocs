@@ -2,6 +2,7 @@
 title: Exploring Vendor Management Workspace
 description: Use Vendor Management Workspace to monitor metrics and analyze your vendor's health from a single user interface. Gain insights when you compare top-performing vendors and track compensation your vendors owe you when they breach the service agreement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/vendor-management-workspace/exploring-vendor-management-workspace.html
 release: zurich
 product: Vendor Management Workspace
 classification: vendor-management-workspace
@@ -29,19 +30,19 @@ As a vendor manager, you can:
 
 |User|Description|
 |----|-----------|
-|[Vendor admin](../reference/installed-w-vendor-manager-configurable-workspace.md)|Vendor admins can add vendors and set up vendor metrics.|
-|[Vendor manager](../reference/installed-w-vendor-manager-configurable-workspace.md)|Vendor managers use Vendor Management Workspace to evaluate vendor health.|
-|[UI builder admin](https://www.servicenow.com/docs/access?context=security-roles&version=zurich&pubname=zurich-application-development&ft:locale=en-US)|Using UI builder, UI builder admins can customize Vendor Management Workspace based on the users' needs.|
+|[Vendor admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/installed-w-vendor-manager-configurable-workspace.md)|Vendor admins can add vendors and set up vendor metrics.|
+|[Vendor manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/installed-w-vendor-manager-configurable-workspace.md)|Vendor managers use Vendor Management Workspace to evaluate vendor health.|
+|UI builder admin|Using UI builder, UI builder admins can customize Vendor Management Workspace based on the users' needs.|
 
 ## Vendor Management Workspace workflow
 
-![Infographic for Vendor Management Workspace workflow. The text that describes the flow follows this infographic.](../image/vendor-management-workspace-workflow.png)
+\[Omitted image "vendor-management-workspace-workflow.png"\] Alt text: Infographic for Vendor Management Workspace workflow. The text that describes the flow follows this infographic.
 
 In this workflow:
 
 1.  Administrators activate Vendor Management Workspace. The application is installed after the Vendor Manager Workspace \(sn\_itsm\_vendor\) plugin is activated. Vendor administrators can then configure the application and vendor managers can use the application.
 
-    **Note:** After the administrators activate Vendor Management Workspace, they can also customize Vendor Management Workspace using [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+    **Note:** After the administrators activate Vendor Management Workspace, they can also customize Vendor Management Workspace using .
 
 2.  Vendor admins can create KPI groups so that vendor managers can track vendor metrics.
 3.  Vendor admins and vendor managers can do any of the following:
@@ -60,8 +61,8 @@ In this workflow:
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Add vendors and set up vendor metrics to analyze their performance goals.|[Configuring Vendor Management Workspace](configuring-vendor-management-workspace.md)|[Vendor admin](../reference/installed-w-vendor-manager-configurable-workspace.md)|
-|Monitor vendor metrics and evaluate vendor health using Vendor Management Workspace.|[Managing vendors using Vendor Management Workspace](using-vendor-management-workspace.md)|[Vendor manager](../reference/installed-w-vendor-manager-configurable-workspace.md)|
-|Bring in data from other ServiceNow applications to assess the relationship with your vendors.|[Integrating Vendor Management Workspace with other ServiceNow applications](vendor-manager-workspace-integrations.md)|[Vendor admin](../reference/installed-w-vendor-manager-configurable-workspace.md)|
-|Create custom web experience in Vendor Management Workspace based on your needs.|[Customize a Vendor Management Workspace page using UI Builder](../task/customize-vmw-page.md)|[Admin, Workspace admin, or UI builder admin](https://www.servicenow.com/docs/access?context=security-roles&version=zurich&pubname=zurich-application-development&ft:locale=en-US)|
+|Add vendors and set up vendor metrics to analyze their performance goals.|[Configuring Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/configuring-vendor-management-workspace.md)|[Vendor admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/installed-w-vendor-manager-configurable-workspace.md)|
+|Monitor vendor metrics and evaluate vendor health using Vendor Management Workspace.|[Managing vendors using Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/using-vendor-management-workspace.md)|[Vendor manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/installed-w-vendor-manager-configurable-workspace.md)|
+|Bring in data from other ServiceNow applications to assess the relationship with your vendors.|[Integrating Vendor Management Workspace with other ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/vendor-manager-workspace-integrations.md)|[Vendor admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/installed-w-vendor-manager-configurable-workspace.md)|
+|Create custom web experience in Vendor Management Workspace based on your needs.|[Customize a Vendor Management Workspace page using UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/customize-vmw-page.md)|Admin, Workspace admin, or UI builder admin|
 

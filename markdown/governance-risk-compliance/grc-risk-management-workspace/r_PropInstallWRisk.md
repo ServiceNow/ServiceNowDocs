@@ -2,6 +2,7 @@
 title: Properties installed with Risk Management
 description: Properties are added with activation of GRC: Risk Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/r\_PropInstallWRisk.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -148,5 +149,5 @@ A list of tables that are available in the 'Applies to' field on the Risk form.s
 -   Location: **Risk** &gt; **Administration** &gt; **Properties**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Risk Management](r_InstallWRisk.md)
+</table>**Parent Topic:**[Components installed with Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/r_InstallWRisk.md)
 

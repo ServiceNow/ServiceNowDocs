@@ -2,6 +2,7 @@
 title: Schedule job for audit date enhancement
 description: Scheduled Jobs are automated pieces of work that can be performed at a specific time or on a recurring schedule. Execute this scheduled job to enable enhanced audit date behavior. The audit date enhancements provide improved handling of fieldwork dates at the engagement level, making them independent of child audit task dates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/schedule-job-for-audit-date.html
 release: zurich
 product: Audit Management
 classification: audit-management
@@ -23,7 +24,7 @@ Role required: sn\_audit.admin
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Scheduled Jobs**.
 
-2.  Enter **Audit date enhancements** in the filter search bar to search for the audit date-scheduled jobs.![Searching audit date enhancement scheduled jobs](../image/Scheduled-Jobs-Audit-Date-Enhancements.png)
+2.  Enter **Audit date enhancements** in the filter search bar to search for the audit date-scheduled jobs.\[Omitted image "Scheduled-Jobs-Audit-Date-Enhancements.png"\] Alt text: Searching audit date enhancement scheduled jobs
 
 3.  Select **Audit date enhancements** from the search result list.
 
@@ -45,5 +46,5 @@ After the job completes, the new audit date behavior will be active for all enga
 
 **Note:** If you have updated to application version 21.1.2 or later, the audit date enhancements are activated automatically during the update. You do not need to run this scheduled job.
 
-**Parent Topic:**[Create an engagement](t_CreateEngagement.md)
+**Parent Topic:**[Create an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/t_CreateEngagement.md)
 

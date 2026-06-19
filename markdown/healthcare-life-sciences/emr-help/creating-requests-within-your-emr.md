@@ -2,6 +2,7 @@
 title: Create requests within your EMR system
 description: You can request service directly within the EMR system which automatically creates a service request in a ServiceNow instance
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/emr-help/creating-requests-within-your-emr.html
 release: zurich
 product: EMR Help
 classification: emr-help
@@ -25,6 +26,6 @@ Incidents are the task type configured by default with the EMR Help application.
 
 Use EMR Help for the following:
 
--   [Submitting ServiceNow IT service requests from EMR systems](emr-help-issues-reporting.md)
--   [Creating healthcare cases from within your EMR](submitting-cases-from-emr-systems.md)
+-   [Submitting ServiceNow IT service requests from EMR systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/emr-help/emr-help-issues-reporting.md)
+-   [Creating healthcare cases from within your EMR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/emr-help/submitting-cases-from-emr-systems.md)
 

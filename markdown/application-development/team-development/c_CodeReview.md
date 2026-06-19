@@ -2,6 +2,7 @@
 title: Code reviews
 description: Team Development administrators can require that pushes undergo code review before accepting pushes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/c\_CodeReview.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -17,19 +18,19 @@ Team Development administrators can require that pushes undergo code review befo
 
 When code review is enabled, pushing a change to the parent instance triggers the code review workflow. By default, the teamdev\_code\_reviewer role receives notifications to review changes and can approve or reject changes.
 
-![Code review workflow.](../image/team-dev-code-review-workflow.png "Code review workflow")
+\[Omitted image "team-dev-code-review-workflow.png"\] Alt text: Code review workflow.
 
 1.  Starts when changes are pushed to the parent instance.
 2.  Verifies that the code review property is active on the parent instance.
 3.  Sets the state of the changes requiring approval to Awaiting Code Review.
-4.  If configured [Notifies](c_CodeReviewNotifications.md) the Team Development Code Reviewers group to review pushed changes.
+4.  If configured [Notifies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_CodeReviewNotifications.md) the Team Development Code Reviewers group to review pushed changes.
 5.  Loads the approved changes or sets the state to Code Changes Rejected.
 
 ## Change details
 
 For each change, reviewers can see the following information.
 
--   Which [remote instance](../task/t_DefineARemoteInstance.md) the pushed change comes from?
+-   Which [remote instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_DefineARemoteInstance.md) the pushed change comes from?
 -   Who pushed the change to the parent?
 -   What the change is called?
 -   When the change was created?
@@ -47,12 +48,12 @@ While changes are being reviewed on the parent instance, a child instance can’
 -   Change the parent instance to another instance.
 -   Delete the remote instance record for the parent instance.
 
--   **[Enable a code review](../task/t_EnableCodeReview.md)**  
+-   **[Enable a code review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_EnableCodeReview.md)**  
 You can require a code review of all changes pushed to an instance.
--   **[Cancel a code review request](../task/t_CancelACodeReviewRequest.md)**  
+-   **[Cancel a code review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_CancelACodeReviewRequest.md)**  
 Developers can cancel any push they submitted that is in the **Awaiting Code Review** stage.
--   **[Code review notifications](c_CodeReviewNotifications.md)**  
+-   **[Code review notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_CodeReviewNotifications.md)**  
 You can enable email notifications on the instance requiring a code review.
 
-**Parent Topic:**[Pushing changes](pushing-changes.md)
+**Parent Topic:**[Pushing changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/pushing-changes.md)
 

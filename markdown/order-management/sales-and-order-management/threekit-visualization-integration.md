@@ -2,6 +2,7 @@
 title: Integrating Threekit visualization
 description: Integrate Threekit for visualization. Sync configuration inputs with visual updates to enhance user experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/threekit-visualization-integration.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -54,7 +55,7 @@ Notes:
 -   `apiSubdomain`: The subdomain of your Threekit environment URL.
 -   `eventFields` contains key-value pairs where each key is the variable names of the ServiceNow CPQ field passed to Threekit. The corresponding values are the variable names, as defined in Threekit.
 
-To learn more about the use of Threekit visualization with a set repeater, see [Use case: Pairing set repeaters and visualization components](use-case-pairing-set-repeaters-and-visualization-components.md)
+To learn more about the use of Threekit visualization with a set repeater, see [Use case: Pairing set repeaters and visualization components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/use-case-pairing-set-repeaters-and-visualization-components.md)
 
-For a discussion of the features available in supported visualization applications in integration with ServiceNow CPQ, see [Integrating ServiceNow CPQ with visualization tools](logik-io-integration-wtih-visualization-tools.md).
+For a discussion of the features available in supported visualization applications in integration with ServiceNow CPQ, see [Integrating ServiceNow CPQ with visualization tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/logik-io-integration-wtih-visualization-tools.md).
 

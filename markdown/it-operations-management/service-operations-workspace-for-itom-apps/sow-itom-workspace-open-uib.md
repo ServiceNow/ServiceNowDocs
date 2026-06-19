@@ -2,6 +2,7 @@
 title: Open your Configurable Workspace experience in UI Builder
 description: Access your Configurable Workspace experience in UI Builder for editing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/sow-itom-workspace-open-uib.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps

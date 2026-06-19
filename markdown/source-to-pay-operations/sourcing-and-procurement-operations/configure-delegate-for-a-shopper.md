@@ -2,13 +2,14 @@
 title: Configure delegate for a shopper
 description: Configure your employees as delegates to shop on behalf of someone else. For these employees, the Shopping as option is available on the Shopping Hub homepage to shop as a delegate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/configure-delegate-for-a-shopper.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Setting up primary data for Shopping Hub, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Setting up primary data Shopping, Configure Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Configure delegate for a shopper
@@ -93,7 +94,7 @@ Approvals
 
 </td><td>
 
-Indicates if the user can have the delegate authority for approvals.Configure an approval rule for a delegate to ensure that the business owner has better visibility into the request before approval. For more information, see [Configure approval rule for a delegate](config-approval-delegate.md).
+Indicates if the user can have the delegate authority for approvals.Configure an approval rule for a delegate to ensure that the business owner has better visibility into the request before approval. For more information, see [Configure approval rule for a delegate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/config-approval-delegate.md).
 
 </td></tr><tr><td>
 
@@ -121,8 +122,8 @@ Indicates if the user can receive meeting invitations.
 
 </td></tr></tbody>
 </table>
--   **[Configure approval rule for a delegate](config-approval-delegate.md)**  
+-   **[Configure approval rule for a delegate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/config-approval-delegate.md)**  
 Configure an approval rule for a delegate to ensure that the business owner has better visibility into the request before approval.
 
-**Parent Topic:**[Setting up primary data for Shopping Hub](../reference/set-up-master-data-shopping-hub.md)
+**Parent Topic:**[Setting up primary data for Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/set-up-master-data-shopping-hub.md)
 

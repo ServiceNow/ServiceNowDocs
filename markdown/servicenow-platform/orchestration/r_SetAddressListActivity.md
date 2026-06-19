@@ -2,6 +2,7 @@
 title: Set Address List activity
 description: The Set Address List activity modifies a Microsoft Exchange address list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/orchestration/r\_SetAddressListActivity.html
 release: zurich
 product: Orchestration
 classification: orchestration
@@ -17,11 +18,11 @@ The Set Address List activity modifies a Microsoft Exchange address list.
 
 Use the Optional parameters variable to pass specific values to the Microsoft Exchange server. This activity implements the Microsoft Exchange [Set-AddressList](https://technet.microsoft.com/en-us/library/aa998847%28v=exchg.160%29.aspx) command.
 
-The Exchange server caches the changes from this activity but does not immediately apply them. Use the [Update Address List](r_UpdateAddressListActivity.md) after this activity to apply the changes or wait for the Exchange server to automatically apply cached changes.
+The Exchange server caches the changes from this activity but does not immediately apply them. Use the [Update Address List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/r_UpdateAddressListActivity.md) after this activity to apply the changes or wait for the Exchange server to automatically apply cached changes.
 
 To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Exchange** &gt; **Address List**.
 
-**Note:** This activity replaces an Exchange activity by the same name available in releases prior to Geneva. If you have a workflow created in a previous version that uses the deprecated activity, your workflow will continue to work normally after upgrading to Geneva. However, all new workflows must use the custom version of this activity. This activity was built with the [PowerShell activity designer](../../orchestration-activity-designer/concept/c_PowershellActivityDesigner.md), which gives workflow administrators the ability to store input and output variables in the [databus](../../orchestration-activity-designer/concept/c_OrchestrationDatabus.md#).
+**Note:** This activity replaces an Exchange activity by the same name available in releases prior to Geneva. If you have a workflow created in a previous version that uses the deprecated activity, your workflow will continue to work normally after upgrading to Geneva. However, all new workflows must use the custom version of this activity. This activity was built with the [PowerShell activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_PowershellActivityDesigner.md), which gives workflow administrators the ability to store input and output variables in the [databus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_OrchestrationDatabus.md).
 
 ## Input variables
 
@@ -82,5 +83,5 @@ Optional parameters to pass to the Exchange server written in JavaScript Object 
 |Success|The activity succeeded in modifying the specified address list.|
 |Failure|The activity failed to modify the specified address list.|
 
-**Parent Topic:**[Exchange activity pack](../concept/c_OrchestrationExchangeActivities.md)
+**Parent Topic:**[Exchange activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_OrchestrationExchangeActivities.md)
 

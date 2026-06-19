@@ -2,6 +2,7 @@
 title: Optimizing rules engine performance
 description: You can help make your pages responsive by following a few guidelines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/rules\_engine\_performance.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -15,7 +16,7 @@ breadcrumb: [ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales 
 
 You can help make your pages responsive by following a few guidelines.
 
-![Optimizing rules engine performance writeup](../images/cpq-rule-engine-performance.png)
+\[Omitted image "cpq-rule-engine-performance.png"\] Alt text: Optimizing rules engine performance writeup
 
 In any online shopping or configuration experience, end-user engagement requires a responsive web page. ServiceNow CPQ achieves excellent performance as a result of its proprietary rules engine. ServiceNow CPQ also provides the following benefits:
 

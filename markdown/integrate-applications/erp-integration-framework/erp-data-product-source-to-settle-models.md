@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP Source to Settle data product models
 description: The Zero Copy Connector for ERP Source to Settle data product contains models that you may need when interacting with an SAP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erp-data-product-source-to-settle-models.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -29,5 +30,5 @@ The Zero Copy Connector for ERP Source to Settle data product contains models th
 |Purchase Requisitions - List|Retrieve a list of purchase requisitions.|ERP|RFC/BAPI|
 |Purchasing Info Record|Retrieve details about a specific purchasing info record, such as prices, conditions, and sources for materials.|ERP|RFC/BAPI|
 
-**Parent Topic:**[Zero Copy Connector for ERP Source to Settle data product](../concept/erp-source-to-settle-data-product.md)
+**Parent Topic:**[Zero Copy Connector for ERP Source to Settle data product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-source-to-settle-data-product.md)
 

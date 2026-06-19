@@ -2,6 +2,7 @@
 title: Log in to ITSM Mobile Agent
 description: Access ITSM Mobile Agent on your mobile to manage incidents, view, and update on-call schedules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/install-itsm-mobile-app.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -19,9 +20,9 @@ Access ITSM Mobile Agent on your mobile to manage incidents, view, and update on
 
 Roles required: none
 
-Ensure that ITSM Mobile Agent is installed from ServiceNow Store onto your instance. For more information, see [Install ITSM Mobile Agent](install-itsm-mobile-agent.md).
+Ensure that ITSM Mobile Agent is installed from ServiceNow Store onto your instance. For more information, see [Install ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-mobile-agent/install-itsm-mobile-agent.md).
 
-On your mobile, install the ServiceNow Agent app \(from Apple App Store or Google Play Store\). For more information about this app, see [Mobile Agent](https://www.servicenow.com/docs/access?context=mobile-experience&version=zurich&pubname=zurich-mobile&ft:locale=en-US).
+On your mobile, install the ServiceNow Agent app \(from Apple App Store or Google Play Store\). For more information about this app, see Mobile Agent.
 
 ## Procedure
 

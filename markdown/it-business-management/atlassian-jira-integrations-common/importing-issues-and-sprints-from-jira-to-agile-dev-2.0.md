@@ -2,6 +2,7 @@
 title: Importing issues and sprints from Jira to Agile Development 2.0
 description: Understand the process of importing existing issues and sprints from Jira to Agile Development 2.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/atlassian-jira-integrations-common/importing-issues-and-sprints-from-jira-to-agile-dev-2.0.html
 release: zurich
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
@@ -41,14 +42,14 @@ Associating a Jira board to an assignment group allows the following:
 -   Import all completed and current sprints from this board into the associated group.
 -   View any completed and current sprints or updates made to them in both Agile Development 2.0 and Jira.
 
-To understand the workflow of the import and export of issues between Agile Development 2.0 and Jira, see [Importing and exporting issues between Agile Development 2.0 and Jira](../reference/import-export-issues-sn-jira-workflow.md).
+To understand the workflow of the import and export of issues between Agile Development 2.0 and Jira, see [Importing and exporting issues between Agile Development 2.0 and Jira](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/import-export-issues-sn-jira-workflow.md).
 
--   **[Associate a Jira project and board with an assignment group in Agile Development 2.0](../task/project-integration-settings.md)**  
+-   **[Associate a Jira project and board with an assignment group in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/project-integration-settings.md)**  
 Associate your Jira projects and boards with assignment groups in Agile Development 2.0 to enable import and export of all available issues between the associated project and assignment group.
--   **[Import issues from a Jira project to Agile Development 2.0](../task/import-export-issues-sn-jira.md)**  
+-   **[Import issues from a Jira project to Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/import-export-issues-sn-jira.md)**  
 Import available issues from a Jira project, with or without the team integration settings for this project, so that you can update existing records of Jira from Agile Development 2.0.
--   **[Import sprints from Jira to Agile Development 2.0](../task/import-sprints-to-agile-2-from-jira-board.md)**  
+-   **[Import sprints from Jira to Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/import-sprints-to-agile-2-from-jira-board.md)**  
 Import sprints from a Jira board so that you can track progress of these sprints directly in Agile Development 2.0.
 
-**Parent Topic:**[Setting up the integration between Jira and Agile Development 2.0](../task/setting-up-the-integration-between-jira-and-agile-development.md)
+**Parent Topic:**[Setting up the integration between Jira and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/setting-up-the-integration-between-jira-and-agile-development.md)
 

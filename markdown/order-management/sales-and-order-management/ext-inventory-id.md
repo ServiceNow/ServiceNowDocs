@@ -2,6 +2,7 @@
 title: External product inventory ID
 description: You can use a product inventory ID from external Configure, Price, and Quote \(CPQ\) systems in the Order Management application to complete the order fulfillment flow for various actions on the product and service orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/ext-inventory-id.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -27,10 +28,10 @@ With the support of an external inventory ID, you can do the following tasks:
 -   Store the external inventory ID in a new table for new orders and associate them with the product inventory records that were created after the order fulfillment. Also, update the ID in the external product inventory table for any inflight revisions during the order fulfillment process.
 -   Allow external CPQ or southbound systems to use the external inventory ID to submit, change, disconnect, suspend, and resume orders on the product inventory in the order management system.
 
-**Note:** You can also map the external product inventory ID with the product inventory record by using the Product Inventory Open API. For more information, see [Product Inventory Open API](https://www.servicenow.com/docs/access?context=product-inventory-open-api&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+**Note:** You can also map the external product inventory ID with the product inventory record by using the Product Inventory Open API. For more information, see .
 
--   **[Review the external product inventory details for a customer order](../task/order-mgt-review-ext-inventory.md)**  
+-   **[Review the external product inventory details for a customer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-mgt-review-ext-inventory.md)**  
 Review the external inventory details of the customer orders that you’ve received from the external Configure, Price, and Quote \(CPQ\) system during the order capture process.
 
-**Parent Topic:**[Managing service orders](managing-service-orders.md)
+**Parent Topic:**[Managing service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/managing-service-orders.md)
 

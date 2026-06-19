@@ -2,6 +2,7 @@
 title: Appointment reminder card widget
 description: The Appointment reminder card widget displays the next appointment reminder for the logged-in user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-widget-appt-reminder.html
 release: zurich
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -15,7 +16,7 @@ breadcrumb: [Patient Portal widget library, Reference, Healthcare and Life Scien
 
 The Appointment reminder card widget displays the next appointment reminder for the logged-in user.
 
-![Screenshot displaying theAppointment reminder card widget.](../image/hcls-widget-appt-remind-card.png "Appointment reminder card widget")
+\[Omitted image "hcls-widget-appt-remind-card.png"\] Alt text: Screenshot displaying theAppointment reminder card widget.
 
 ## Key features
 
@@ -25,5 +26,5 @@ The Appointment reminder card widget displays the next appointment reminder for 
 
 The Appointment reminder card widget does not include instance options.
 
-**Parent Topic:**[Patient Portal widget library](hcls-pat-widget-library.md)
+**Parent Topic:**[Patient Portal widget library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-pat-widget-library.md)
 

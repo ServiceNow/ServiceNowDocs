@@ -2,6 +2,7 @@
 title: IT Service Management AI agent collection create standard change template proposal
 description: Use the create standard change template proposal agentic workflow to help users quickly create a change template proposal record based on similar change requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-create-standard-change-template-proposal.html
 release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -22,7 +23,7 @@ The create standard change template proposal agentic workflow lets users quickly
 
 Using this agentic workflow, you can quickly propose a change template for a change request that you frequently create. This template is later sent for approval to the change management team, which reviews the request and approves the template as part of the approval process.
 
-To modify the Create standard change template proposal agentic workflow, [duplicate it](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US), and adjust the settings according to your requirements. The Create standard change template proposal agentic workflow doesn’t have a trigger and is invoked manually.
+To modify the Create standard change template proposal agentic workflow, duplicate it, and adjust the settings according to your requirements. The Create standard change template proposal agentic workflow doesn’t have a trigger and is invoked manually.
 
 **Note:** The workflow can be accessed by the change\_manager and itil role.
 
@@ -47,12 +48,12 @@ You can access the standard change template proposal AI agent in the Define key 
 
     The agent executes the request for the workflow.
 
-    ![Create standard change template proposal agentic workflow output in ServiceNowAI Agent Studio.](../image/now-assist-itsm-change-template-proposal-agent-studio.png "Example of the create standard change template proposal agentic workflow output in ServiceNowAI Agent Studio")
+    \[Omitted image "now-assist-itsm-change-template-proposal-agent-studio.png"\] Alt text: Create standard change template proposal agentic workflow output in ServiceNowAI Agent Studio.
 
 4.  Access and use the create standard change template proposal agentic workflow from the Now Assist panel.
 
     You can query in the Now Assist panel with the change request number. For the query instructions, read the steps specified in the **List of steps** field of the corresponding AI agent \(standard change template proposal AI\).
 
-    ![Create standard change template proposal agentic workflow output in the Now Assist panel.](../image/now-assist-itsm-change-template-proposal-nap.png "Example of the create standard change template proposal agentic workflow output in the Now Assist panel")
+    \[Omitted image "now-assist-itsm-change-template-proposal-nap.png"\] Alt text: Create standard change template proposal agentic workflow output in the Now Assist panel.
 
 

@@ -2,6 +2,7 @@
 title: Update ID fields
 description: Update the ID fields to regenerate the Federated IDs based on the updated fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/updating-id-fields.html
 release: zurich
 product: Identity
 classification: identity
@@ -36,7 +37,7 @@ Role required: iamsync\_admin
     -   User name is required for generating Federated IDs.
     -   User name and email are used to generate Federated IDs by default.
     -   If there are users with duplicate user names and email, then the Federated ID is generated only for one user. If the user name is null or empty, then the Federated ID is null.
-    ![ID Fields](../images/id-fields.png)
+    \[Omitted image "id-fields.png"\] Alt text: ID Fields
 
     Now, the **Employee number** selected becomes another attribute for generating the Federated ID.
 

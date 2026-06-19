@@ -2,6 +2,7 @@
 title: Show MITRE ATT&amp;CK Framework for a Case\(s\)
 description: Displays all the associated techniques of a case on the MITRE ATT&amp;CK framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-show-mitre-fw.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -61,5 +62,5 @@ Select the required MITRE ATT&amp;CK matrix from the **Matrix** drop-down list. 
     -   Select **Show Sub Techniques** to view all the sub-techniques. When you select this option, all the techniques are shown in the expanded view. The expanded view of the technique shows all the sub-techniques that are present for that corresponding technique.
     -   Select **Show Only Associated Techniques** to view only MITRE techniques that are associated with a case. When you select this option, each tactic shows the total number of associated techniques and sub-techniques.
 
-**Parent Topic:**[Add artifacts to case\(s\) or case task\(s\)](add-artifacts-to-a-case-s.md)
+**Parent Topic:**[Add artifacts to case\(s\) or case task\(s\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/add-artifacts-to-a-case-s.md)
 

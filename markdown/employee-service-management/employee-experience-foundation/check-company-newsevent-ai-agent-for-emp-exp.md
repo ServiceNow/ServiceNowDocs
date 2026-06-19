@@ -2,6 +2,7 @@
 title: Company News &amp; Events AI Agent
 description: Use this agent to enable users to check their company-related latest news and upcoming events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/check-company-newsevent-ai-agent-for-emp-exp.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -23,9 +24,7 @@ Verify that you have the following plugins:
 
 -   Content Publishing version 36.0.4 \(Installed automatically as part of Employee Center Pro\)
 
-**Important:** To display the AI agent output to users in the Virtual Agent conversations, you must set the system property **sn\_aia.enable\_va\_conversation** value to **true**. By default, the property is set to **false**.
-
-![Checking company events in Now Assist](../images/uex-aiagent-event.png)![Checking more details about a specify event in Now Assist.](../images/uex-aiagent-eventtopic.png)![Latest news and events in Now Assist.](../images/uex-aiagent-steps.png)
+\[Omitted image "uex-aiagent-event.png"\] Alt text: Checking company events in Now Assist\[Omitted image "uex-aiagent-eventtopic.png"\] Alt text: Checking more details about a specify event in Now Assist.\[Omitted image "uex-aiagent-steps.png"\] Alt text: Latest news and events in Now Assist.
 
 ## Company News &amp; Events AI Agent overview
 
@@ -44,7 +43,7 @@ To view the AI Agent, do the following:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Overview**.
 2.  Select **Company News &amp; Events AI Agent**.
 
-To activate, refer to [Activate Company News and Events AI Agent](../task/enable-company-news-and-events-ai-agent.md).
+To activate, refer to [Activate Company News and Events AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/enable-company-news-and-events-ai-agent.md).
 
 ## Tools used by Company News &amp; Events AI Agent
 

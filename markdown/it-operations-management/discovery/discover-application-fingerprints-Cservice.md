@@ -2,6 +2,7 @@
 title: Discover applications using application fingerprints or ITOM Content Service
 description: Discover applications using suggestions based on ServiceNow Predictive Intelligence or ServiceNow ITOM Content Service to create configuration items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/discover-application-fingerprints-Cservice.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -24,8 +25,8 @@ Role required: discovery\_admin
 
 Review application suggestions based on application fingerprints or ITOM Content Service and add them to discovery.
 
--   Fingerprint-based discovery uses algorithms to identify running processes and organizes them into groups. These process groups become suggested applications or candidates. You review suggested applications and choose which ones to discover. The list of suggested applications is refreshed every hour. To learn more, see [Discover applications based on fingerprints](discover-application-based-process.md).
--   ITOM Content Service identifies the products that you’re currently using and delivers new product suggestions every week. To learn more, see [ITOM Content Service](../concept/discovery-content-services.md).
+-   Fingerprint-based discovery uses algorithms to identify running processes and organizes them into groups. These process groups become suggested applications or candidates. You review suggested applications and choose which ones to discover. The list of suggested applications is refreshed every hour. To learn more, see [Discover applications based on fingerprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discover-application-based-process.md).
+-   ITOM Content Service identifies the products that you’re currently using and delivers new product suggestions every week. To learn more, see [ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/discovery-content-services.md).
 
 ## Procedure
 
@@ -33,15 +34,15 @@ Review application suggestions based on application fingerprints or ITOM Content
 
 2.  Select an application suggestion to add to discovery based on either application fingerprints or ITOM Content Service.
 
-<table id="choicetable_r5b_jxr_21c"><thead><tr><th align="left" id="d458587e191">
+<table id="choicetable_r5b_jxr_21c"><thead><tr><th align="left" id="d429068e191">
 
 Suggestion source
 
-</th><th align="left" id="d458587e194">
+</th><th align="left" id="d429068e194">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d458587e200">
+</th></tr></thead><tbody><tr><td id="d429068e200">
 
 **Application fingerprints**
 
@@ -51,14 +52,14 @@ Actions
 2.  Select the suggestion under **Suggested Group Name**.
 3.  On the Application fingerprints suggestion form that is displayed, verify the information.
 
-For information about the form fields, see [Application fingerprint suggestion form](../reference/discovery-admin-app-fingerprint-form.md).
+For information about the form fields, see [Application fingerprint suggestion form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-admin-app-fingerprint-form.md).
 
 4.  Determine whether to add the suggestion to discovery.
     -   If the suggestion isn't relevant and you don't want to add it, select **Ignore**.
     -   If you want to add it, select **Add to discovery**.
 
 
-</td></tr><tr><td id="d458587e253">
+</td></tr><tr><td id="d429068e253">
 
 **ITOM Content Service**
 
@@ -66,7 +67,7 @@ For information about the form fields, see [Application fingerprint suggestion f
 
 1.  Confirm that you’ve opted in to ITOM Content Service.
 
-**Note:** If the **Opt-in** option is displayed, you have not yet opted in. For more information, see [Share data on ITOM Content Service](share-data-itom-content-service.md).
+**Note:** If the **Opt-in** option is displayed, you have not yet opted in. For more information, see [Share data on ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/share-data-itom-content-service.md).
 
 2.  Select the **Content service suggestions** widget.
 3.  Manually sync with suggestions from your system by selecting **Sync candidates**.

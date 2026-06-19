@@ -2,7 +2,10 @@
 title: Customer History component features
 description: Customer service agents can use several features in the Customer History component to view customer, consumer, or account history information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-history-component-features.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -20,13 +23,13 @@ The search icon lets agents perform keyword-based searches to find activities su
 -   The search bar appears automatically when the page loads on these pages, Front-line case page, CSM default record page, and Default Interaction page.
 -   The search bar is hidden by default on all other pages. Select the search icon anytime to show or hide it.
 
-![Customer History search bar](../image/cust-central-search-feature.png)
+\[Omitted image "cust-central-search-feature.png"\] Alt text: Customer History search bar
 
 ## Filter
 
 Agents can use the filter icon next to the search bar to quickly filter and view relevant case data. Selecting the filter icon displays the results in the Customer History component.
 
-![Customer History filter feature](../image/cust-central-history-filter-feature.png)
+\[Omitted image "cust-central-history-filter-feature.png"\] Alt text: Customer History filter feature
 
 Facets have been replaced by a filter icon. If the **Enable facets** check box is selected in UI builder, the system displays facets on the left of the CSM voice interaction record page. If this check box is not selected, the system displays a filter icon. Selecting the filter icon displays the selectable facets.
 
@@ -43,17 +46,17 @@ When an agent selects a facet:
 
 ## Customer History access 
 
-Starting with the Yokohama release, the [Front-line case page](csm-front-line-case-page.md) includes the Customer History component. This component ensures that agents can easily view customer details without navigating away from the case page.
+Starting with the Yokohama release, the [Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-front-line-case-page.md) includes the Customer History component. This component ensures that agents can easily view customer details without navigating away from the case page.
 
 Select the **Customer History** tab in the contextual side panel to access customer history.
 
-![Customer History component](../image/cust-central-cust-history-comp.png)
+\[Omitted image "cust-central-cust-history-comp.png"\] Alt text: Customer History component
 
 ## Cases facet
 
 The Cases facet has been updated to improve case categorization for agents. This helps agents quickly filter the cases based on their status directly within the Customer History component.
 
-![Cases Facet screen showing cases, open cases, and resolved cases](../image/cust-central-facets-feature.png)
+\[Omitted image "cust-central-facets-feature.png"\] Alt text: Cases Facet screen showing cases, open cases, and resolved cases
 
 The facet is divided into two subcategories: 
 

@@ -2,6 +2,7 @@
 title: Coaching properties
 description: Set the duration to read knowledge articles and whether to exclude weekends for trainees to complete training using Coaching properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/coaching/cf-coaching-properties.html
 release: zurich
 product: Coaching
 classification: coaching
@@ -84,5 +85,5 @@ Excludes weekends when the due date is set for trainees to complete training.-  
 -   **Default value:**true
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Coaching reference](cf-coaching-reference.md)
+</table>**Parent Topic:**[Coaching reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/coaching/cf-coaching-reference.md)
 

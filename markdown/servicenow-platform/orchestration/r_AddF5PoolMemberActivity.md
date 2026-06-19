@@ -2,6 +2,7 @@
 title: Add F5 Pool Member activity
 description: The Add F5 Pool Member activity adds a member to an F5 load balancer pool.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/orchestration/r\_AddF5PoolMemberActivity.html
 release: zurich
 product: Orchestration
 classification: orchestration
@@ -15,7 +16,7 @@ breadcrumb: [F5 Network Management activity pack, Orchestration activity packs, 
 
 The Add F5 Pool Member activity adds a member to an F5 load balancer pool.
 
-This activity was built using the [REST web service activity template](../../orchestration-activity-designer/task/t_CreateARESTWebServiceActivity.md#). To access the activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Active Directory**.
+This activity was built using the [REST web service activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateARESTWebServiceActivity.md). To access the activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Active Directory**.
 
 ## REST settings
 
@@ -46,5 +47,5 @@ This activity was built using the [REST web service activity template](../../orc
 |Success|Activity successfully added an F5 load balancer pool member.|
 |Failure|Activity failed to add an F5 load balancer pool member.|
 
-**Parent Topic:**[F5 Network Management activity pack](../concept/c_OrchF5LoadBalancerActivities.md)
+**Parent Topic:**[F5 Network Management activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_OrchF5LoadBalancerActivities.md)
 

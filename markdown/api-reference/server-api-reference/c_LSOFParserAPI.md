@@ -2,6 +2,7 @@
 title: LSOFParser - Global
 description: The LSOFParser script include provides methods to parse the output of the lsof command: lsof -i4TCP -n -P -F pcnfT.Generates the specified error message.Initializes the file descriptor process.Initializes the parser process.Sets the current command.Closes the file descriptor process.Closes the parser process.Sets the current file descriptor.Sets the current address.Sets the current PID.Sets the current state.Parses the specified lsof output.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_LSOFParserAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The LSOFParser script include provides methods to parse the output of the `lsof`
 
 Use this script include with a discovery script when you need to parse `lsof` output.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## LSOFParser - error\(String msg\)
 

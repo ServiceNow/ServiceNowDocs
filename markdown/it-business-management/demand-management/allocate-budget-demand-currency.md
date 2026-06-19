@@ -2,6 +2,7 @@
 title: Allocate demand budget in demand currency
 description: Set the capital expense \(Capex\) and operating expense \(Opex\) budgets in demand or functional currency according to the fiscal years. The sum of the Capex and Opex budgets is calculated as the total budget in demand currency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/demand-management/allocate-budget-demand-currency.html
 release: zurich
 product: Demand Management
 classification: demand-management
@@ -21,7 +22,7 @@ Role required: it\_demand\_manager
 
 ## About this task
 
-Allocate the budget in a similar manner as you do with functional currency. For more information, see [Allocate budget to a demand](allocate-budget-to-demand.md).
+Allocate the budget in a similar manner as you do with functional currency. For more information, see [Allocate budget to a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/allocate-budget-to-demand.md).
 
 Enable the **Demand Currency** view in the Demand form to allocate the budget in demand currency.
 
@@ -37,7 +38,7 @@ Enable the **Demand Currency** view in the Demand form to allocate the budget in
 
 4.  On the Demand Budget dialog box, fill in the fields.
 
-    For detailed description of the field names, see [Demand Budget form](../reference/demand-budget-form.md).
+    For detailed description of the field names, see [Demand Budget form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/demand-budget-form.md).
 
 5.  Select **OK**.
 
@@ -46,5 +47,5 @@ Enable the **Demand Currency** view in the Demand form to allocate the budget in
 
 The demand budget for the selected year appears in the Demand Budget related list. Select the amounts in the list to revise them.
 
-**Parent Topic:**[Enable demand currency view](enable-multicurrency-demand.md)
+**Parent Topic:**[Enable demand currency view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/enable-multicurrency-demand.md)
 

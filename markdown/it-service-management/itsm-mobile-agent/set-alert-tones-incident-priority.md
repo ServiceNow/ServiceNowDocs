@@ -2,6 +2,7 @@
 title: Set custom alert tones in ITSM Mobile Agent for different incident priority
 description: Set custom alert tones in ITSM Mobile Agent to distinguish between incidents with different priorities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/set-alert-tones-incident-priority.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -65,7 +66,7 @@ Role required: admin
             }
     ```
 
-    **Note:** Replace the ringtone with the desired alert tone name. For more information on the list of ringtones and alert tones available to update the script, see [Configure sounds for push notifications](https://www.servicenow.com/docs/access?context=push-notif-sounds&version=zurich&pubname=zurich-mobile&ft:locale=en-US).
+    **Note:** Replace the ringtone with the desired alert tone name. For more information on the list of ringtones and alert tones available to update the script, see .
 
 4.  Select **Update**.
 

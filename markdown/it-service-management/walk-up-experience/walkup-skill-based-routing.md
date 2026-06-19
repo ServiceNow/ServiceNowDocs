@@ -2,6 +2,7 @@
 title: Configure skill-based routing in Walk-up Experience
 description: Route work items to assigned groups. Use skill-based routing to ensure that the right work goes to the right agent depending on the walk-up reasons.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/walk-up-experience/walkup-skill-based-routing.html
 release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -22,10 +23,10 @@ Identify skills for a specific set of conditions defined for walk-up reasons. Us
 -   New interactions opened after the set up are routed to the available agent with the respective skills.
 -   If an agent is unavailable and the interaction does not need any mandatory skills, the walk-up task is routed based on the assignment rule associated with the location.
 
-For more information, see [Skills Management](https://www.servicenow.com/docs/access?context=skills-management&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+For more information, see Skills Management
 
--   **[Route walk-up tasks to skilled agents](../task/walkup-routing-tasks-to-skilled-agents.md)**  
+-   **[Route walk-up tasks to skilled agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walkup-routing-tasks-to-skilled-agents.md)**  
 Use business rules to automatically route walk-up tasks to the agents based on their skill set.
 
-**Parent Topic:**[Configuring Walk-up Experience](walkup-experience-configuration.md)
+**Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walkup-experience-configuration.md)
 

@@ -2,6 +2,7 @@
 title: Create an ORX external event
 description: Create an Operational Riskdata eXchange \(ORX\) external risk event to share the risk event of your company with other organizations. This exchange of risk events information acts as a learning for other organizations in the industry and prevents them from making the same errors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/create-orx-event.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -77,5 +78,5 @@ The ORX association enables operational and non-financial risk professionals to 
     |Additional comments|Additional comments about this event.|
 
 
-**Parent Topic:**[Using the Risk Workspace](../concept/using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

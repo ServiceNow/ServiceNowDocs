@@ -2,6 +2,7 @@
 title: Create a scenario
 description: Create a scenario from a live plan or another scenario in a simulated environment to compare the scenario with the live plan and other scenarios.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/create-a-scenario-in-strategic-planning.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -50,7 +51,7 @@ Creating a scenario enables you to visualize and anticipate potential outcomes. 
     -   Yellow highlights for out of range dates: The planning item dates that are out of range of the portfolio plan timeline are highlighted with a yellow background. For such items, the **In Plan** toggle is turned off.
 4.  Use the Prioritization tab to include or exclude additional planning items in the scenario.
 
-    ![Prioritization tab of the Scenario screen](../image/prioritization-tab-in-strategic-planning.png)
+    \[Omitted image "prioritization-tab-in-strategic-planning.png"\] Alt text: Prioritization tab of the Scenario screen
 
     1.  To exclude a planning item from the scenario, turn off the **In Plan** toggle.
 
@@ -60,7 +61,7 @@ Creating a scenario enables you to visualize and anticipate potential outcomes. 
 
 5.  Use the **Roadmap** tab to view planning item dependencies and adjust planning item dates:
 
-    ![Roadmap tab of the Scenario screen](../image/roadmap-tab-create-scenario.png)
+    \[Omitted image "roadmap-tab-create-scenario.png"\] Alt text: Roadmap tab of the Scenario screen
 
     1.  Drag the start or end of the planning item bars to change their start or end dates.
 
@@ -70,11 +71,11 @@ Creating a scenario enables you to visualize and anticipate potential outcomes. 
 
 6.  Use the **Financials** tab view the prioritize, invest, and execute the right items to provide best returns on investments for your organization.
 
-    ![Financials tab in Scenario planning.](../image/financials-tab-in-strategic-planning.png)
+    \[Omitted image "financials-tab-in-strategic-planning.png"\] Alt text: Financials tab in Scenario planning.
 
     1.  Set target for your portfolio budget.
 
-        1.  Select the **Set Targets** \(![Set target button.](../../spw-financials/images/fin-set-targets-button.png)\) button.
+        1.  Select the **Set Targets** \(\[Omitted image "fin-set-targets-button.png"\] Alt text: Set target button.\) button.
         2.  In the Set Targets window, set budget for an expense type or a cost type using the inline edit feature.
 
             **Tip:** You can change the **Time scale** and **Range** to set targets for each fiscal period at monthly, quarterly, or yearly cadence to meet your organization's planning cycle. The target set for a higher timescale, it is equally split it between the fiscal periods.
@@ -85,12 +86,12 @@ Creating a scenario enables you to visualize and anticipate potential outcomes. 
 
     3.  Add or reduce budget for individual planning items using the inline editing feature.
 
-        Changes made to the budget using while creating a scenario are marked with ![Analog time indicator inside an incomplete circle with arrow ending indicating unapproved changes](../../spw-financials/images/fin-inline-edit-icon.png) icon.
+        Changes made to the budget using while creating a scenario are marked with \[Omitted image "fin-inline-edit-icon.png"\] Alt text: Analog time indicator inside an incomplete circle with arrow ending indicating unapproved changes icon.
 
 
 ## What to do next
 
 -   Create more scenarios, if necessary.
--   [Compare scenarios](compare-scenarios-in-strategic-planning.md). You can directly compare scenarios from simulation mode by selecting **Compare scenarios** from the Scenario actions list.
--   [Approve a scenario](approve-a-scenario-in-strategic-planning.md)
+-   [Compare scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/compare-scenarios-in-strategic-planning.md). You can directly compare scenarios from simulation mode by selecting **Compare scenarios** from the Scenario actions list.
+-   [Approve a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/approve-a-scenario-in-strategic-planning.md)
 

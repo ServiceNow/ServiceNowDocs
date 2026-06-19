@@ -2,6 +2,7 @@
 title: Transaction Manager: Layouts - Theming options
 description: Transaction Manager layouts can be adjusted by setting JSON and YAML properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/transaction-manager-layouts-theming-options.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

@@ -2,6 +2,7 @@
 title: Domain separation and Digital Product Release
 description: Domain separation is supported for Digital Product Release. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-product-release/dpr-domain-separation-digital-product-release.html
 release: zurich
 product: Digital Product Release
 classification: digital-product-release
@@ -24,7 +25,7 @@ Domain separation is supported for Digital Product Release. Domain separation en
 
 Sample use case: An Admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## Overview of domain separation in Digital Product Release
 
@@ -35,10 +36,10 @@ All tables in Digital Product Release can be domain-separated and include the re
 -   Each table in Digital Product Release includes the domain separation field called **Domain**.
 -   Customers can use this field to configure domain separation in their implementation of Digital Product Release.
 
-**Parent Topic:**[Digital Product Release reference](dpr-reference.md)
+**Parent Topic:**[Digital Product Release reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-reference.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

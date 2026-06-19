@@ -2,6 +2,7 @@
 title: Setting up Enterprise graph in sub-production instance
 description: Use these steps to setup Enterprise graph in sub-production instance manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/knowledge-graph/setting-up-global-graph-in-production-instance.html
 release: zurich
 product: Knowledge Graph
 classification: knowledge-graph

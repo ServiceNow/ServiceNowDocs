@@ -2,6 +2,7 @@
 title: Agent actions
 description: Agents can work on the service-related tickets created by the employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/agent-sn-ms-teams.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -15,20 +16,20 @@ breadcrumb: [Use ITSM and HRSD integrations with Microsoft Teams, Use Microsoft 
 
 Agents can work on the service-related tickets created by the employees.
 
--   **[Request based chat - Start and import chat from classic view](initiate-conversation-requester.md)**  
+-   **[Request based chat - Start and import chat from classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/initiate-conversation-requester.md)**  
 Initiate a conversation with the requester to resolve the ticket.
--   **[Request-based chat - Start and import chat from Workspace](initiate-chat-agent-workspace.md)**  
+-   **[Request-based chat - Start and import chat from Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/initiate-chat-agent-workspace.md)**  
 Initiate a conversation with the requester to resolve the ticket.
--   **[Request-based chat - Start chat with guest user from a record](../task/start-request-based-chat-with-guest.md)**  
+-   **[Request-based chat - Start chat with guest user from a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/start-request-based-chat-with-guest.md)**  
 Start a Microsoft Teams chat with the guest user of an external and allowed domain through a record.
--   **[Request-based chat - Start and import chat as guest user from classic view](start-import-req-based-chat-as-guest.md)**  
+-   **[Request-based chat - Start and import chat as guest user from classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/start-import-req-based-chat-as-guest.md)**  
 You can start a Microsoft Teams chat with an external organization user and import chat after you are invited to their chat.
--   **[Promote chat to a call from workspace](../task/initiate-call-from-chat.md)**  
+-   **[Promote chat to a call from workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/initiate-call-from-chat.md)**  
 As an agent, you can initiate a chat with the caller from the workspace to quickly resolve the issue.
--   **[Add communication plan from MIM workbench](../task/add-communication-plan-mim-workbench.md)**  
+-   **[Add communication plan from MIM workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/add-communication-plan-mim-workbench.md)**  
 You can create a new communication plan or add a new communication task to an existing communication plan from the workbench.
--   **[Add collaborative communication task from MIM workbench](../task/add-collab-comm-task-mim-workbench.md)**  
+-   **[Add collaborative communication task from MIM workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/add-collab-comm-task-mim-workbench.md)**  
 You can create a communication plan or add a new communication task to an existing communication plan from the workbench.
 
-**Parent Topic:**[Use ITSM and HRSD integrations with Microsoft Teams](user-sn-ms-teams.md)
+**Parent Topic:**[Use ITSM and HRSD integrations with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/user-sn-ms-teams.md)
 

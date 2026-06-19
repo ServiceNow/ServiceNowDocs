@@ -2,6 +2,7 @@
 title: Create a COE security policy
 description: Use COE Security Configuration to define group restrictions for a COE and for all or specific HR services under it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-create-coe-security-policy.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -21,7 +22,7 @@ Role required: sn\_hr\_core.admin
 
 Certain users will be able to access a COE even it is restricted. For example, Opened for, Opened by, Watch List and Collaborators get access to a restricted COE irrespective of its security policies.
 
-COE security policies are a way to easily restrict access to different COEs via configuration. The underlying COE security policy implementations are [ServiceNow ACLs](https://www.servicenow.com/docs/access?context=access-control-rules&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+COE security policies are a way to easily restrict access to different COEs via configuration. The underlying COE security policy implementations are ServiceNow ACLs.
 
 **Note:** When COE Security Policies restrict an agent's access to a limited number of cases, list pages with broad filters such as All Cases, Open Cases may yield many pages with empty results with a message indicating that rows are hidden due to security constraints. As a result, agents may struggle to locate the cases they have access to, as these cases might be scattered across multiple pages. This behavior is expected, as COE Security Policies are essentially Access Control Lists \(ACLs\) that filter data accordingly. To overcome this issue, agents can create custom lists with more targeted filters, such as My Group Cases, to easily find the cases they are authorized to access.
 
@@ -127,7 +128,7 @@ Condition statement that filters an HR case.If the HR case matches the condition
 
  You can create conditions based on key words or fields from the HR case.
 
- When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+ When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 **Note:** An empty filter condition matches all records for the selected COE.
 

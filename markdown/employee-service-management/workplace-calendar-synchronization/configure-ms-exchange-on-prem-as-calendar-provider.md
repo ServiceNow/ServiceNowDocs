@@ -2,6 +2,7 @@
 title: Configure Microsoft Exchange On-Premises as calendar provider
 description: Set Microsoft Exchange On-Premises as calendar provider to sync reservations. Specify the calendar processor, the sync-related settings, and strict mode preference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-calendar-synchronization/configure-ms-exchange-on-prem-as-calendar-provider.html
 release: zurich
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -158,11 +159,11 @@ Delegated user email address that is used to create reservations and to receive 
 
 5.  In the Reservable Sync Configurations related list, add the reservable sync configurations with which you want to synchronize reservations.
 
-    To add a new one, refer to [Add multiple Reservable Sync Configurations](add-reservable-sync-config.md).
+    To add a new one, refer to [Add multiple Reservable Sync Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-calendar-synchronization/add-reservable-sync-config.md).
 
 
 ## What to do next
 
 -   Set the scheduled job, **WSDRS Sync Calendar items** to **True**. The scheduled job is set to **False** by default and it must be enabled to start synchronizing. You can set the scheduled job time as you want. At any time, you can also manually execute it.
--   [Add multiple Reservable Sync Configurations](add-reservable-sync-config.md)
+-   [Add multiple Reservable Sync Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-calendar-synchronization/add-reservable-sync-config.md)
 

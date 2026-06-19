@@ -2,6 +2,7 @@
 title: GlideDBFunctionBuilder - Scoped, Global
 description: The GlideDBFunctionBuilder API provides methods to build functions to perform SQL operations in the database.Instantiates a GlideDBFunctionBuilder object.Begins a new AND expression, which returns true only if all expressions provided to it as parameters are true. At least one boolean-valued expression must be provided as a parameter.Adds the values of two or more integer fields.Builds the database function defined by the GlideDBFunctionBuilder object.Takes any number of comma-separated fields as input and returns the first non-empty value.Begins a new COMPARE expression which performs a comparison between two expressions.Concatenates the values of two or more fields.Defines a constant value to use in the function. If used with the dayofweek\(\) method, the string defines whether to use Sunday or Monday as the first day of the week.Determines the duration using a given start date/time and end date/time.Returns an integer representing the day of the week for a given date.Divides the value of one integer field by another.Defines a field on which a SQL operation is performed.Determines the number of code units in a field.Multiplies the values of two integer fields.Begins a new OR expression which returns true if at least one of the expressions provided to it as a parameter is true.Returns the first occurrence of a specified string within a column of a table.Returns a substring from a specified column of a table starting at a specified location.Subtracts the value of one integer field from another.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/GlideDBFunctionBuilderScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -45,9 +46,9 @@ while(gr_incident.next()) {
 }
 ```
 
-For additional information on Function fields, see [Function field](https://www.servicenow.com/docs/access?context=platform-support-functions&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For additional information on Function fields, see .
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## Scoped GlideDBFunctionBuilder - GlideDBFunctionBuilder\(\)
 

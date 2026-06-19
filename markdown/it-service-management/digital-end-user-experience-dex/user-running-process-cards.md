@@ -2,6 +2,7 @@
 title: Running processes page
 description: Observe running process metrics to gain insights into how running processes are performing and identify performance bottlenecks or issues that might be impacting the digital experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/user-running-process-cards.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -98,7 +99,7 @@ Service type
 Type of the service, for example system or user
 
 </td></tr></tbody>
-</table>To return to the device details page, see [Device details](../concept/dex-workspace-user-details.md).
+</table>To return to the device details page, see [Device details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dex-workspace-user-details.md).
 
-**Parent Topic:**[Device details pages](user-device-details-pages.md)
+**Parent Topic:**[Device details pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/user-device-details-pages.md)
 

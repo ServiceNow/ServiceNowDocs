@@ -2,7 +2,10 @@
 title: Components installed with Case lines and workflows
 description: Several types of components are installed with the Case lines and workflows application, including tables and roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-case-mgmt-case-lines-install-comp.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -25,7 +28,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Case Line](case-line-form.md)\[sn\_case\_line\]
+[Case Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/case-line-form.md)\[sn\_case\_line\]
 
 </td><td>
 
@@ -33,7 +36,7 @@ The Case Line table stores case line item records that are created for parent ca
 
 </td></tr><tr><td>
 
-[Case Line Task](case-line-task-form.md)\[sn\_case\_line\_task\]
+[Case Line Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/case-line-task-form.md)\[sn\_case\_line\_task\]
 
 </td><td>
 
@@ -41,7 +44,7 @@ The Case Line Task table stores the tasks related to case line items. This table
 
 </td></tr><tr><td>
 
-[Case Line Characteristic](case-line-characteristics-form.md)\[sn\_case\_line\_characteristic\]
+[Case Line Characteristic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/case-line-characteristics-form.md)\[sn\_case\_line\_characteristic\]
 
 </td><td>
 
@@ -49,7 +52,7 @@ The Case Line Characteristic form displays details about the product offering in
 
 </td></tr><tr><td>
 
-[Case Line Entitlement](case-line-entitlements-form.md)\[sn\_case\_line\_entitlement\]
+[Case Line Entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/case-line-entitlements-form.md)\[sn\_case\_line\_entitlement\]
 
 </td><td>
 
@@ -172,7 +175,7 @@ This is an existing role.The customer service agent role has read, write, and up
 
 </td><td>
 
-For more information, see [Roles installed with Customer Service Management](r_RolesInstalledWithCustomerService.md#section_p5t_gcr_3mb).
+For more information, see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/r_RolesInstalledWithCustomerService.md).
 
 </td></tr></tbody>
 </table>## Properties

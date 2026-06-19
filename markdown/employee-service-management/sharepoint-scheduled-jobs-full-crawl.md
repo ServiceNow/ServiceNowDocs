@@ -2,7 +2,10 @@
 title: SharePoint Online Search Connector scheduled jobs
 description: Create a scheduled job to fetch each entity such as sites, drives, file metadata, and file content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/sharepoint-scheduled-jobs-full-crawl.html
 release: zurich
+product: Employee Service Management
+classification: employee-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

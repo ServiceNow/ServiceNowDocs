@@ -2,6 +2,7 @@
 title: DevOpsOrchestrationToolIntegrationHandler - Scoped
 description: The DevOpsOrchestrationToolIntegrationHandler API enables processing of payloads from custom DevOps tools.Returns the value of the orchestrationTaskName parameter from the payload for the POST /devops/tool/\{capability\} endpoint.Checks if this handler is valid for the specified tool.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/DevOpsOrchToolIntHandlerScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,19 +16,19 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The DevOpsOrchestrationToolIntegrationHandler API enables processing of payloads from custom DevOps tools.
 
-A custom DevOps tool is any tool that doesn't have an integration with DevOps. For a list of tools that have DevOps integrations, see [DevOps Change Velocity integrations](https://www.servicenow.com/docs/access?context=dev-ops-overview&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+A custom DevOps tool is any tool that doesn't have an integration with DevOps. For a list of tools that have DevOps integrations, see .
 
-This API enables the processing of payloads that are used by the REST endpoint [DevOps - POST /devops/tool/\{capability\}](../../../../../integrate/inbound-rest/concept/devops-api.md#). You must implement the methods of this API in a script include before calling the POST /devops/tool/\{capability\} endpoint.
+This API enables the processing of payloads that are used by the REST endpoint [DevOps - POST /devops/tool/\{capability\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/devops-api.md). You must implement the methods of this API in a script include before calling the POST /devops/tool/\{capability\} endpoint.
 
-This API executes in the `sn_devops` namespace. For more information about DevOps, see [DevOps Config](https://www.servicenow.com/docs/access?context=devops-config-landing-page&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+This API executes in the `sn_devops` namespace. For more information about DevOps, see .
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## DevOpsOrchestrationToolIntegrationHandler - getNativeIdForOrchestrationTask\(Object payload\)
 
 Returns the value of the **orchestrationTaskName** parameter from the payload for the POST /devops/tool/\{capability\} endpoint.
 
-You must implement this method in a script include before calling the REST endpoint [DevOps - POST /devops/tool/\{capability\}](../../../../../integrate/inbound-rest/concept/devops-api.md#).
+You must implement this method in a script include before calling the REST endpoint [DevOps - POST /devops/tool/\{capability\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/devops-api.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -63,7 +64,7 @@ DevOpsOrchestrationCustomToolIntegrationHandler.prototype = {
 
 Checks if this handler is valid for the specified tool.
 
-You must implement this method in a script include before calling [DevOps - POST /devops/tool/\{capability\}](../../../../../integrate/inbound-rest/concept/devops-api.md#).
+You must implement this method in a script include before calling [DevOps - POST /devops/tool/\{capability\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/devops-api.md).
 
 <table id="table_gtf_1vm_ctb" class="parameters"><thead><tr><th>
 

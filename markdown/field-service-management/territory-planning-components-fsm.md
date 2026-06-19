@@ -2,7 +2,10 @@
 title: Field Service Territory Planning components
 description: Several types of components are installed with the Field Service Territory Planning feature, including tables, roles, script includes, and business rules.Territory Planning console uses the following properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/territory-planning-components-fsm.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 7
@@ -450,7 +453,7 @@ Field Service Territory Planning adds the following Schedule Optimization adds t
 |Territory Planning- Calculate Overlapping Territories - Agent|Calculates the overlaps for agents. When executed, the scheduled job triggers events to calculate the overlap between two agents.|
 |Territory Planning- Calculate Overlapping Territories - Geography|Calculates the overlaps for geographies. When executed, the scheduled job triggers events to calculate the overlap between two geographies.|
 
-**Parent Topic:**[Components installed with additional plugins for Field Service Management](components-inst-additional-plugin.md)
+**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/components-inst-additional-plugin.md)
 
 ## Field Service Territory Planning console properties
 

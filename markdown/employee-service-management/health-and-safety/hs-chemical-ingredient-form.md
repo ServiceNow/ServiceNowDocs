@@ -2,6 +2,7 @@
 title: Chemical ingredient form
 description: The field description for the chemical ingredient form is as follows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety/hs-chemical-ingredient-form.html
 release: zurich
 product: Health and Safety
 classification: health-and-safety
@@ -15,15 +16,80 @@ breadcrumb: [Reference, Health and Safety Environmental Management, Health and S
 
 The field description for the chemical ingredient form is as follows.
 
-|Field|Description|
-|-----|-----------|
-|Substance|Name of the chemical substance.|
-|CAS number|CAS \(Chemical Abstracts Service\) number for the substance.|
-|Concentration %|Specific concentration of the chemical ingredient in the chemical.|
-|Concentration min|Minimum concentration of the ingredient in the chemical mixture.|
-|Concentration max|Maximum concentration of the ingredient in the chemical mixture.|
-|Function|Function of the chemical ingredient in the chemical mixture.|
-|Additional information|Additional information related to the chemical ingredient.|
+<table id="table_ny1_wqr_lhc"><thead><tr><th>
 
-**Parent Topic:**[Health and Safety Environmental Management reference](../concept/hs-reference-environmental-management.md)
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Substance
+
+</td><td>
+
+Name of the chemical substance.
+
+ In the search field, use either the substance name or CAS number to search for a substance. Select the correct substance from the search results to add it to the field.
+
+</td></tr><tr><td>
+
+CAS number
+
+</td><td>
+
+CAS \(Chemical Abstracts Service\) number for the substance.
+
+</td></tr><tr><td>
+
+Concentration %
+
+</td><td>
+
+Specific concentration of the chemical ingredient in the chemical.
+
+</td></tr><tr><td>
+
+Secret
+
+</td><td>
+
+Marks the ingredient as secret. Use this flag for manual filtering or to configure custom access controls based on your organization's requirements.
+
+</td></tr><tr><td>
+
+Concentration min
+
+</td><td>
+
+Minimum concentration of the ingredient in the chemical mixture.
+
+</td></tr><tr><td>
+
+Concentration max
+
+</td><td>
+
+Maximum concentration of the ingredient in the chemical mixture.
+
+</td></tr><tr><td>
+
+Function
+
+</td><td>
+
+Function of the chemical ingredient in the chemical mixture.
+
+</td></tr><tr><td>
+
+Additional information
+
+</td><td>
+
+Additional information related to the chemical ingredient.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Health and Safety Environmental Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-reference-environmental-management.md)
 

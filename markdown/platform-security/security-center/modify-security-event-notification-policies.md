@@ -2,6 +2,7 @@
 title: Modify security event notification policies
 description: Learn how to modify the settings of your security event notification policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/security-center/modify-security-event-notification-policies.html
 release: zurich
 product: Security Center
 classification: security-center
@@ -33,8 +34,8 @@ Role required: admin
 
 5.  Start triggering notifications by selecting **Activate**.
 
-    See [Configure preferences for security event notification policies](configure-preferences-for-security-event-notifications.md) to learn how to configure your new custom security event notification policy.
+    See [Configure preferences for security event notification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/configure-preferences-for-security-event-notifications.md) to learn how to configure your new custom security event notification policy.
 
 
-**Parent Topic:**[Security Event Notifications](../concept/security-policies.md)
+**Parent Topic:**[Security Event Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/security-policies.md)
 

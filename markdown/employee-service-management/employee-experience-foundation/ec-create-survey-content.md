@@ -2,6 +2,7 @@
 title: Create pulse survey content
 description: Create pulse surveys that can be delivered to your employees to obtain feedback, drive action, and measure impact.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ec-create-survey-content.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -70,8 +71,8 @@ Option to indicate that the pulse content is active and available for use.
 
 8.  In the **Questions** related list:
 
-    -   To add a question to content, click **New**. For more information, see [Create a pulse question](ec-create-pulseq.md).
+    -   To add a question to content, click **New**. For more information, see [Create a pulse question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-create-pulseq.md).
     -   To add a question from Question Bank, click **From Question Bank**.
-    Add Content \(of type Pulse Content\) to a campaign in Content Experiences or schedule content in Content Publishing. For more information, see [Publishing content](../concept/ec-content-publishing-schedule.md).
+    Add Content \(of type Pulse Content\) to a campaign in Content Experiences or schedule content in Content Publishing. For more information, see [Publishing content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-publishing-schedule.md).
 
 

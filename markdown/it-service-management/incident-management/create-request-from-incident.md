@@ -2,6 +2,7 @@
 title: Create a request from an incident
 description: When you work on an incident and determine that the user needs one or more catalog items, such as an application or a new laptop, you can create a request from the incident. It helps you in tracking the requests associated with an incident and vice versa.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/create-request-from-incident.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -37,7 +38,7 @@ incRPUtil.linkRecordProducerToParentIncident(RP.getParameterValue('sysparm_req_p
 
 2.  Select the required open incident.
 
-3.  Click the additional actions menu icon ![Additional actions menu icon.](../image/AdditionalActions.png) and select **Create Request**.
+3.  Click the additional actions menu icon \[Omitted image "AdditionalActions.png"\] Alt text: Additional actions menu icon. and select **Create Request**.
 
     The Catalogs home page is displayed with all active catalogs that you can access.
 
@@ -47,7 +48,7 @@ incRPUtil.linkRecordProducerToParentIncident(RP.getParameterValue('sysparm_req_p
 
 5.  Check out the required catalog item, order guide, or record producer.
 
-    For information on checkout models, see [Service Catalog checkout models](https://www.servicenow.com/docs/access?context=c_EnableATwoStepCheckout&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    For information on checkout models, see Service Catalog checkout models.
 
     For a catalog item or order guide, a request is created and displayed under the **Requests** tab of the incident. For a record producer, the corresponding task is created and displayed under the **Problems** tab of the incident.
 

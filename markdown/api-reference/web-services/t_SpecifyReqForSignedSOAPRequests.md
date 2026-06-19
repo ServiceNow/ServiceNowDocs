@@ -2,6 +2,7 @@
 title: Specify requirement for signed SOAP requests
 description: Use a SOAP security policy to specify whether the instance requires signed SOAP requests for all inbound SOAP traffic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/t\_SpecifyReqForSignedSOAPRequests.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -34,5 +35,5 @@ By default, all inbound SOAP traffic must be signed. Administrators may want to 
 4.  Click **Update**.
 
 
-**Parent Topic:**[SOAP web service](../concept/c_SOAPWebService.md)
+**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_SOAPWebService.md)
 

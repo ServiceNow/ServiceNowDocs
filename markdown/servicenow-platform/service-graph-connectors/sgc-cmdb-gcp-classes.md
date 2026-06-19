@@ -2,6 +2,7 @@
 title: CMDB classes targeted in Service Graph Connector for GCP
 description: When you complete setting up the connection, you can configure the integration to periodically pull data from a GCP project. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-classes.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -1044,7 +1045,7 @@ The following attributes in the VNIC Endpoint \[cmdb\_ci\_endpoint\_vnic\] table
 
 ## Related content
 
-[Data mapping for Service Graph Connector for GCP](cmdb-data-mapping-gcp.md)
+[Data mapping for Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-data-mapping-gcp.md)
 
-[Service Graph Connector for GCP properties](cmdb-sgc-gcp-props.md)
+[Service Graph Connector for GCP properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-sgc-gcp-props.md)
 

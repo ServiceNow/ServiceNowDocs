@@ -2,6 +2,7 @@
 title: Delete skills from skills profile
 description: Employees can delete skills from the additional skills section in their skills profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/delete-skills-skills-profile.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -32,5 +33,5 @@ Role required: sn\_skills\_int.emp
 4.  Select **Yes, delete skill** to delete the skill.
 
 
-**Parent Topic:**[Using Skills Foundation](../concept/using-skills-intelligence.md)
+**Parent Topic:**[Using Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/using-skills-intelligence.md)
 

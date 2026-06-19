@@ -2,11 +2,12 @@
 title: Manage Pull Requests \(PR\) or Merge Requests in DevOps Change Velocity
 description: Manage Jenkins, GitHub Actions, and Azure DevOps \(ADO\) pipeline’s pull requests for GitHub, Bitbucket, and ADO coding sources from ServiceNow DevOps. You can enable the change approval process on your pull request to control pull request merge approvals from ServiceNow DevOps and monitor pull request details associated with the change request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/manage-pull-request-pipelines.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Accelerate your DevOps change process, DevOps Change Velocity, IT Service Management]
 ---
@@ -21,11 +22,11 @@ Ensure that the following prerequisites are met before approving pull requests:
 
 -   Your admin has created a pull request branch in GitHub or Bitbucket using a Multi-branch project pipeline. For more information, see [GitHub branch source](https://plugins.jenkins.io/github-branch-source/) and [Bitbucket branch source](https://plugins.jenkins.io/cloudbees-bitbucket-branch-source/).
 -   Your admin has enabled pull request creation in the ADO repository. For more information, see [https://marketplace.visualstudio.com/items?itemName=ShaykiAbramczyk.CreatePullRequest](https://marketplace.visualstudio.com/items?itemName=ShaykiAbramczyk.CreatePullRequest).
--   Your admin has configured Jenkins integration with DevOps. For more information, see [Jenkins integration with DevOps](../concept/jenkins-integration-dev-ops.md).
--   Your admin has configured GitHub integration with DevOps. For more information, see [GitHub integration with DevOps](../concept/github-integration-dev-ops.md).
--   Your admin has configured Bitbucket integration with DevOps. For more information, see [Bitbucket integration with DevOps](../concept/bitbucket-integration-dev-ops.md).
--   Your admin has configured ADO integration with DevOps. For more information, see [Azure DevOps integration with DevOps Change Velocity](../concept/azure-devops-integration-dev-ops.md).
--   Your admin has enabled the Change Acceleration feature of DevOps for automatic change request creation in your pipeline. For more information, see [Accelerating DevOps change](../concept/dev-ops-change-acceleration.md).
+-   Your admin has configured Jenkins integration with DevOps. For more information, see [Jenkins integration with DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/jenkins-integration-dev-ops.md).
+-   Your admin has configured GitHub integration with DevOps. For more information, see [GitHub integration with DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/github-integration-dev-ops.md).
+-   Your admin has configured Bitbucket integration with DevOps. For more information, see [Bitbucket integration with DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/bitbucket-integration-dev-ops.md).
+-   Your admin has configured ADO integration with DevOps. For more information, see [Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md).
+-   Your admin has enabled the Change Acceleration feature of DevOps for automatic change request creation in your pipeline. For more information, see [Accelerating DevOps change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md).
 
 Role required: sn\_devops.admin
 
@@ -45,15 +46,15 @@ For ADO pipelines, pull requests can be managed for ADO coding source.
 
 2.  Perform the following steps based on your orchestration tool.
 
-<table id="choicetable_khj_xzd_vyb"><thead><tr><th align="left" id="d385034e221">
+<table id="choicetable_khj_xzd_vyb"><thead><tr><th align="left" id="d373037e221">
 
 Orchestration tool
 
-</th><th align="left" id="d385034e224">
+</th><th align="left" id="d373037e224">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d385034e230">
+</th></tr></thead><tbody><tr><td id="d373037e230">
 
 **Jenkins**
 
@@ -63,7 +64,7 @@ Steps
 2.  Select the **Pull Request Pipeline Tracking Check** option.
 
 
-</td></tr><tr><td id="d385034e257">
+</td></tr><tr><td id="d373037e257">
 
 **GitHub Actions**
 
@@ -74,7 +75,7 @@ Steps
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d385034e290">
+</td></tr><tr><td id="d373037e290">
 
 **ADO**
 
@@ -102,7 +103,7 @@ Pull request tracking will be enabled for all the existing configured projects. 
 
 8.  View the pull request details by clicking the pull request number corresponding to the **Number** field.
 
-    ![Pull request details associated with a change record for a Jenkins pipeline](../image/pull-request-change-record.png)
+    \[Omitted image "pull-request-change-record.png"\] Alt text: Pull request details associated with a change record for a Jenkins pipeline
 
     All the pull request details \(including the details after the request is merged\) associated with the change record are displayed. Details such as Pull request ID, Commits, Origin branch, Destination branch, Raised by, Approver, Comments, PR raised time, PR approved time, PR merged/closed time are displayed. Commits from pull requests are shown in the **Commits** related list.
 
@@ -111,5 +112,5 @@ Pull request tracking will be enabled for all the existing configured projects. 
         Details of pull requests that are created in a BitBucket coding source and associated with a Jenkins pipeline are not displayed for a change request.
 
 
-**Parent Topic:**[Accelerating your DevOps change process](../concept/dev-ops-change-acceleration.md)
+**Parent Topic:**[Accelerating your DevOps change process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md)
 

@@ -2,6 +2,7 @@
 title: Account linking in pre-built messaging integrations
 description: In Virtual Agent, account linking maps the users of a supported chat or messaging application to their ServiceNow user profile. Account auto-linking authenticates your messaging users, which enables users to automatically access Virtual Agent topics that involve ServiceNow records. If needed, users can also manually unlink from or link to their ServiceNow accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-adapter-autolinking.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -63,10 +64,10 @@ else{
 })(inputs,outputs);
 ```
 
--   **[Unlink your ServiceNow user account from a messaging application for Virtual Agent conversations](../task/unlink-va-messaging.md)**  
+-   **[Unlink your ServiceNow user account from a messaging application for Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/unlink-va-messaging.md)**  
 If needed, you can unlink your ServiceNow user account from a messaging app used for the Now Virtual Agent.
--   **[Relink your ServiceNow user account to a messaging application for Virtual Agent conversations](../task/link-accounts-with-virtual-agent.md)**  
+-   **[Relink your ServiceNow user account to a messaging application for Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/link-accounts-with-virtual-agent.md)**  
 Relink your ServiceNow account to a third-party messaging application to access non-public Virtual Agent topics that use ServiceNow records.
 
-**Parent Topic:**[Integrating Virtual Agent with messaging apps](va-integration-messaging-apps.md)
+**Parent Topic:**[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md)
 

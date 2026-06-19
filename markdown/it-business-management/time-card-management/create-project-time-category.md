@@ -2,6 +2,7 @@
 title: Create a project time category
 description: A time card admin or a project manager can create subcategories to define specific activities in the projects. The time card users can use these project subcategories to report time for a specific activity in a project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/time-card-management/create-project-time-category.html
 release: zurich
 product: Time Card Management
 classification: time-card-management
@@ -35,5 +36,5 @@ Role required: timecard\_admin, it\_project\_manager
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Time Card Management](../concept/time-card-management.md)
+**Parent Topic:**[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/time-card-management/time-card-management.md)
 

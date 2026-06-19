@@ -2,6 +2,7 @@
 title: Exploring Subscription Management
 description: Learn how Subscription Management helps you track and manage your product subscriptions and their applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/exploring-subscription-management-v2.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -32,16 +33,16 @@ Subscription Management gives you an accurate, consolidated view of your entitle
 
 This infographic shows a sample end-to-end workflow of how different users in an organization work together to purchase, allocate, and manage subscriptions.
 
-![Different users in an organization work together to purchase, allocate, and manage subscriptions. View the steps after the infographic for details.](../image/MMASSET0020642-subscription-management-workflow-vertical.png "Managing subscriptions")
+\[Omitted image "MMASSET0020642-subscription-management-workflow-vertical.png"\] Alt text: Different users in an organization work together to purchase, allocate, and manage subscriptions. View the steps after the infographic for details.
 
 In this workflow:
 
 1.  The chief information officer or service owner works with the ServiceNow platform owner to purchase new subscriptions.
 2.  After the purchase is complete, the platform owner views the products and applications in Impact.
-3.  The usage admin views the new product subscriptions in Subscription Management on the production instance. For more information, see [Product subscriptions overview](subscriptions-overview-v2.md).
+3.  The usage admin views the new product subscriptions in Subscription Management on the production instance. For more information, see [Product subscriptions overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/subscriptions-overview-v2.md).
 4.  The usage admin performs the following tasks in Subscription Management:
-    -   Allocates per-user subscriptions by adding groups to a product subscription, which grants entitlement to all group members. For more information, see [Managing per-user subscriptions in Subscription Management](managing-user-subscriptions-v2.md).
-    -   Maps custom tables and custom applications to subscriptions with available entitlements to maximize subscription usage and stay in compliance. For more information, see [Managing custom tables and applications in Subscription Management](allocating-custom-tables-subscr-apps-v2.md).
+    -   Allocates per-user subscriptions by adding groups to a product subscription, which grants entitlement to all group members. For more information, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/managing-user-subscriptions-v2.md).
+    -   Maps custom tables and custom applications to subscriptions with available entitlements to maximize subscription usage and stay in compliance. For more information, see [Managing custom tables and applications in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/allocating-custom-tables-subscr-apps-v2.md).
 5.  If the organization requires security approvals before adding users to groups or financial approvals before subscriptions are allocated to users, the usage admin works with group managers to create subscription approval workflows that determine who gets a subscription when new users are added to groups.
 6.  The usage admin monitors subscription usage to stay in compliance and make informed decisions on future purchases, consistently monitoring the following data:
     -   Over-allocated subscriptions
@@ -54,22 +55,22 @@ In this workflow:
 
 |Benefit|Feature|User|
 |-------|-------|----|
-|Fix over-allocated subscriptions|[Insights](discovering-insights-subscription-management-v2.md)|Usage admin|
-|View unallocated subscriptions|[Insights](discovering-insights-subscription-management-v2.md)|Usage admin|
-|Allocate available subscriptions using recommended groups|[Allocate subscriptions](../task/allocate-subscriptions-v2.md)|Usage admin|
-|Map global custom tables to a product subscription|[Issues](addressing-issues-subscription-management-v2.md)|Usage admin|
-|Map custom applications to a product subscription|[Issues](addressing-issues-subscription-management-v2.md)|Usage admin|
-|View a summary of subscription allocations|[Subscription details](subscription-details-v2.md)|Usage admin|
-|View subscription allocation details over time|[Subscription details](subscription-details-v2.md)|Usage admin|
-|View custom table usage over time|[Subscription details](subscription-details-v2.md)|Usage admin|
+|Fix over-allocated subscriptions|[Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/discovering-insights-subscription-management-v2.md)|Usage admin|
+|View unallocated subscriptions|[Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/discovering-insights-subscription-management-v2.md)|Usage admin|
+|Allocate available subscriptions using recommended groups|[Allocate subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/allocate-subscriptions-v2.md)|Usage admin|
+|Map global custom tables to a product subscription|[Issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/addressing-issues-subscription-management-v2.md)|Usage admin|
+|Map custom applications to a product subscription|[Issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/addressing-issues-subscription-management-v2.md)|Usage admin|
+|View a summary of subscription allocations|[Subscription details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/subscription-details-v2.md)|Usage admin|
+|View subscription allocation details over time|[Subscription details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/subscription-details-v2.md)|Usage admin|
+|View custom table usage over time|[Subscription details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/subscription-details-v2.md)|Usage admin|
 
 ## What to explore next
 
 To learn more about configuring and using Subscription Management, see:
 
--   [Configuring Subscription Management](configuring-subscription-management-v2.md)
--   [Managing per-user subscriptions in Subscription Management](managing-user-subscriptions-v2.md)
--   [Managing custom tables and applications in Subscription Management](allocating-custom-tables-subscr-apps-v2.md)
--   [Monitoring capacity subscriptions](monitoring-capacity-subscriptions.md)
--   [Subscription Management reference](../reference/subscription-management-reference-v2.md)
+-   [Configuring Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/configuring-subscription-management-v2.md)
+-   [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/managing-user-subscriptions-v2.md)
+-   [Managing custom tables and applications in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/allocating-custom-tables-subscr-apps-v2.md)
+-   [Monitoring capacity subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/monitoring-capacity-subscriptions.md)
+-   [Subscription Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/subscription-management-reference-v2.md)
 

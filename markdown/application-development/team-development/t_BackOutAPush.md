@@ -2,6 +2,7 @@
 title: Back out a push
 description: Application developers can back out a push to remove unwanted changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/t\_BackOutAPush.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -30,5 +31,5 @@ Role required: developer
 4.  Select **OK** when the confirmation message appears.
 
 
-**Parent Topic:**[Pushing changes](../concept/pushing-changes.md)
+**Parent Topic:**[Pushing changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/pushing-changes.md)
 

@@ -2,6 +2,7 @@
 title: Create a kiosk homepage
 description: Create a homepage configuration that is displayed when a user opens the kiosk device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-services-kiosk/create-kiosk-homepage.html
 release: zurich
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
@@ -22,7 +23,7 @@ Create a homepage configuration that is displayed when a user opens the kiosk de
 -   The kiosk device automatically maintains the session before it times out. The session timeout value can be configured in the **glide.ui.session\_timeout** property.
 -   The kiosk header contains the session refresh API; ensure that you do not remove or replace the kiosk theme or the kiosk header.
 
-    For information about customizing the kiosk header, see [Customize the kiosk header](customize-kiosk-header.md).
+    For information about customizing the kiosk header, see [Customize the kiosk header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-services-kiosk/customize-kiosk-header.md).
 
 
 Role required: sn\_wsd\_kiosk.admin
@@ -47,5 +48,5 @@ Role required: sn\_wsd\_kiosk.admin
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Configure Workplace Services Kiosk](../concept/configure-workplace-services-kiosk.md)
+**Parent Topic:**[Configure Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-services-kiosk/configure-workplace-services-kiosk.md)
 

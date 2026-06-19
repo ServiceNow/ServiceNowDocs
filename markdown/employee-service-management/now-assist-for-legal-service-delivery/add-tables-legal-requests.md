@@ -2,6 +2,7 @@
 title: Add legal request tables for data indexing
 description: Add the legal request tables to be considered for data indexing for AI Search in the Now Assist for Legal Service Delivery \(LSD\) application. The legal request tables are indexed so that you can get relevant AI Search results for the legal records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-legal-service-delivery/add-tables-legal-requests.html
 release: zurich
 product: Now Assist for Legal Service Delivery
 classification: now-assist-for-legal-service-delivery
@@ -18,13 +19,13 @@ Add the legal request tables to be considered for data indexing for AI Search in
 
 ## Before you begin
 
-Set the application scope to **Legal Counsel Center** in the application picker. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+Set the application scope to **Legal Counsel Center** in the application picker. For more information, see Application picker.
 
 Role required: admin
 
 ## About this task
 
-Include the legal request tables to define them as indexed sources. These added tables are then selected for indexing. For more information on the indexing of sources for AI Search, see [Indexed source retention policies and filter conditions](https://www.servicenow.com/docs/access?context=retention-policies-conditions-ais&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Include the legal request tables to define them as indexed sources. These added tables are then selected for indexing. For more information on the indexing of sources for AI Search, see .
 
 ## Procedure
 

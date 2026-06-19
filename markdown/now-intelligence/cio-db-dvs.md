@@ -2,6 +2,7 @@
 title: Chief Information Officer Dashboard data visualizations
 description: Use these data visualizations to get high-level and detailed views of how information is used in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/cio-db-dvs.html
 release: zurich
 topic_type: reference
 last_updated: "2025-09-01"
@@ -15,7 +16,7 @@ Use these data visualizations to get high-level and detailed views of how inform
 
 ## Overview tab
 
-For more information about indicator data sources, see [Chief Information Officer Dashboard indicators](cio-db-indicators.md).
+For more information about indicator data sources, see [Chief Information Officer Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/cio-db-indicators.md).
 
 |Column|Visualization|Visualization Type|Data Source|
 |------|-------------|------------------|-----------|

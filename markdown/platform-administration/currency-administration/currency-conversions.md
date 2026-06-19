@@ -2,11 +2,12 @@
 title: Default currency conversions
 description: Currency values can be converted to other currencies when stored and accessed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/currency-administration/currency-conversions.html
 release: zurich
 product: Currency Administration
 classification: currency-administration
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Defaults required for standard currency use, Configure, Currency administration, Configure core features, Administer]
 ---
@@ -21,12 +22,12 @@ Conversions can happen in these situations.
 -   The currency value converts to the user’s session currency for display.
 -   The value entered into a filter converts to the reference currency using the currency specified in the filter.
 
-Conversion rates are stored in the fx\_rate table. Each record contains the conversion rate from a given currency to the Euro. The rates are updated daily from the ECB website by a scheduled job called ECB Exchange Rate Load.
+Conversion rates are stored in the Exchange Rate \[fx\_rate\] table. Each record contains the conversion rate from a given currency to the Euro. The rates are updated daily from the ECB website by a scheduled job called Update Currency Conversion Rates.
 
 A currency conversion from one currency to another involves two rates.
 
--   Actual: In the fx\_rate table, each record contains the conversion rate from a given currency to the Euro.
--   Expected: In the fx\_rate table, each record contains the conversion rate from the Euro to the given currency.
+-   Actual: In the Exchange Rate table, each record contains the conversion rate from a given currency to the Euro.
+-   Expected: In the Exchange Rate table, each record contains the conversion rate from the Euro to the given currency.
 
 Whenever you perform a conversion, it uses the latest conversion rates. Therefore, calculations can potentially yield unexpected results. For example:
 
@@ -35,10 +36,10 @@ Whenever you perform a conversion, it uses the latest conversion rates. Therefor
 
 **Note:** For display purposes, the currency value used is what the user entered converted to session currency. However, for aggregation and filtering, the reference currency value is used. Using the reference currency enables currency values converted at different rates to be compared together.
 
--   **[Schedule the rate update job](../../localization/task/t_SetAConversionRate.md)**  
-Schedule the ECB Exchange Rate Load to perform a nightly download of currency-conversion tables from the European Central Bank.
--   **[Use your own currency-conversion rates](../../localization/task/t_UseYourOwnConversionTable.md)**  
+-   **[Schedule the rate update job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/t_SetAConversionRate.md)**  
+Schedule the Update Currency Conversion Rates job to perform a nightly download of currency-conversion tables from the European Central Bank.
+-   **[Use your own currency-conversion rates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/t_UseYourOwnConversionTable.md)**  
 All currency conversions are based on the rates stored in the Exchange Rate table. You can turn off the regularly scheduled update from the European Central Bank \(ECB\), and maintain the table manually.
 
-**Parent Topic:**[Setting up defaults required for standard currency use](setting-up-standard-currency-defaults.md)
+**Parent Topic:**[Setting up defaults required for standard currency use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/setting-up-standard-currency-defaults.md)
 

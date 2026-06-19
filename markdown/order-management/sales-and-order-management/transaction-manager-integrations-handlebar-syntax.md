@@ -2,6 +2,7 @@
 title: Transaction Manager: Integrations - Handlebars syntax
 description: You can use the Handlebars templating language when you build an integration transformation template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/transaction-manager-integrations-handlebar-syntax.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

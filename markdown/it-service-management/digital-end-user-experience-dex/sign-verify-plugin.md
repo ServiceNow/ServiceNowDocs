@@ -2,6 +2,7 @@
 title: Sign and verify an ACC plugin
 description: Create a self-signed certificate for an Agent Client Collector \(ACC\) plugin and verify the signature to enable validation of the signed plugin on endpoint devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/sign-verify-plugin.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -96,12 +97,12 @@ Role required: admin
     -   Distribute the certificate to agent devices using a device management utility such as Jamf or Microsoft Intune.
 11. Add the certificate to the agent trust store.
 
-    For more information, see [Add a self-signed certificate to your operating system's truststore](https://www.servicenow.com/docs/access?context=add-certificate-trust-store&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+    For more information, see .
 
 12. Upload the signed ACC plugin to the ServiceNow instance.
 
-    For more information, see [Create and edit Agent Client Collector plugins](https://www.servicenow.com/docs/access?context=create-edit-assets&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+    For more information, see .
 
 
-**Parent Topic:**[Creating and executing a PowerShell script-based remedial action](../concept/remedial-actions-ps.md)
+**Parent Topic:**[Creating and executing a PowerShell script-based remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/remedial-actions-ps.md)
 

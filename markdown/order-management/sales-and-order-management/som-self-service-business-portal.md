@@ -2,6 +2,7 @@
 title: Customer self-service for Sales Customer Relationship Management
 description: Support your business-to-business customers by enabling self-service capabilities through the Business Portal to create and manage orders and submit order issues and requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/som-self-service-business-portal.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -50,10 +51,10 @@ Sales agents do not directly use the Business Portal, but work on orders, order 
 
 The following topics provide more information about configuring and using the Business Portal:
 
--   [Configuring the Business Portal](order-management-configure-business-portal.md)
--   [Customer self-service using the Business Portal](order-mgt-business-portal.md)
--   Getting started with the Business Portal: [Configure Business Portal](https://www.servicenow.com/docs/access?context=configure-business-portal&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
--   [Business Portal reference for Sales Customer Relationship Management](../reference/som-business-portal-reference.md)
--   [Using the Business Portal](https://www.servicenow.com/docs/access?context=use-the-business-portal&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
--   [Business Portal user roles](https://www.servicenow.com/docs/access?context=r_BusinessPortalUserRoles&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
+-   [Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-management-configure-business-portal.md)
+-   [Customer self-service using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-mgt-business-portal.md)
+-   Getting started with the Business Portal: 
+-   [Business Portal reference for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-business-portal-reference.md)
+-   
+-   
 

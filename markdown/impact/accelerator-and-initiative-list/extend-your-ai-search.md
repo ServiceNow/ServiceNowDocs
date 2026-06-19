@@ -2,6 +2,7 @@
 title: Extend Your AI Search
 description: This accelerator provides prescriptive guidance on extending your AI Search beyond the foundational level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/extend-your-ai-search.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

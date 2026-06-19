@@ -2,6 +2,7 @@
 title: Connect the agent to the MID Web Server using TLS
 description: Connect the agent to the MID Web Server to enable configuring mTLS on your MID Web Server and agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/agent-mid-connect.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -17,7 +18,7 @@ Connect the agent to the MID Web Server to enable configuring mTLS on your MID W
 
 ## Before you begin
 
-Ensure that you have installed the .pem file and set up the MID Web Server. For details, see [Install the .pem file in the MID unified keystore and set up the MID Web Server](set-mid-web-server.md).
+Ensure that you have installed the .pem file and set up the MID Web Server. For details, see [Install the .pem file in the MID unified keystore and set up the MID Web Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/set-mid-web-server.md).
 
 Role required: agent\_client\_collector\_admin
 
@@ -52,5 +53,5 @@ Role required: agent\_client\_collector\_admin
 
 ## What to do next
 
-[Configure mTLS authentication for a MID Web Server](../../event-management/task/configure-mid-web-server-extension-mTLS.md).
+[Configure mTLS authentication for a MID Web Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-mid-web-server-extension-mTLS.md).
 

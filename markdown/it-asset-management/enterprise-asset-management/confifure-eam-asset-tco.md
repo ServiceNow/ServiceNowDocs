@@ -2,6 +2,7 @@
 title: Configuring Total Cost of Ownership for enterprise assets
 description: Configure your Total Cost of Ownership \(TCO\) to track your assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/confifure-eam-asset-tco.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -23,16 +24,16 @@ Configuring TCO involves the following procedures:
 -   Create a TCO report source to add sources to a TCO report.
 -   Create expense lines for closed tasks.
 
--   **[Create a TCO report in Enterprise Asset Workspace](../task/create-eam-tco-report.md)**  
+-   **[Create a TCO report in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-eam-tco-report.md)**  
 Create a TCO report to compare the actual or projected TCO of assets or to compare the actual or projected asset TCO with the benchmark cost of the enterprise model.
--   **[Create a TCO report source in Enterprise Asset Workspace](../task/create-tco-report-source-eam.md)**  
+-   **[Create a TCO report source in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-tco-report-source-eam.md)**  
 Create a TCO report source to add report sources to a TCO report.
--   **[Create a task rate card in Enterprise Asset Workspace](../task/create-eam-task-rate-card.md)**  
+-   **[Create a task rate card in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-eam-task-rate-card.md)**  
 Create a task rate card to capture costs per task type in the Enterprise Asset Workspace.
--   **[Create expense lines for closed tasks in Enterprise Asset Workspace](../task/create-expenselines-closed-tasks-eam.md)**  
+-   **[Create expense lines for closed tasks in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-expenselines-closed-tasks-eam.md)**  
 Automatically create expense lines for previously closed tasks, that originally had no expense lines, in order to calculate costs for those tasks.
--   **[Create a labor rate card in Enterprise Asset Workspace](../task/create-eam-labor-rate-card.md)**  
+-   **[Create a labor rate card in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-eam-labor-rate-card.md)**  
 Create a labor rate card to capture costs by the time consumed on an hourly basis.
 
-**Parent Topic:**[Create and manage enterprise assets](create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

@@ -2,6 +2,7 @@
 title: Create a connection Alias for third-party provider
 description: Create a connection Alias for your third-party provider to enable external routing on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/create-cnctn-alias.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -42,5 +43,5 @@ Role required: admin
         -   For the Connection URL, give an active URL \(of any third-party provider\) for local set up.
     -   Select **Save**.
 
-**Parent Topic:**[Configuring Advanced Work Assignment](installing-awa.md)
+**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

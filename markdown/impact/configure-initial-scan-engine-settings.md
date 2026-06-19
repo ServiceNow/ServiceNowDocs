@@ -2,7 +2,10 @@
 title: Activate Scan Engine and review settings
 description: Use Impact Guided Setup to set up the minimum required configuration options in order to run the first system scan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/configure-initial-scan-engine-settings.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-11-19"
 reading_time_minutes: 2
@@ -15,7 +18,7 @@ Use Impact Guided Setup to set up the minimum required configuration options in 
 
 ## Before you begin
 
-[Assign users to Scan Engine groups](assign-users-scan-engine-groups.md) before beginning this task.
+[Assign users to Scan Engine groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/assign-users-scan-engine-groups.md) before beginning this task.
 
 **Note:** You can complete the configuration steps directly in the Guided Setup interface, or can configure the properties using the indicate navigation steps.
 
@@ -29,7 +32,7 @@ Role required: Impact admin role or admin
 
     2.  On the Scan Engine Properties form, an SE Error banner displays.
 
-        ![The banner to select to activate application access.](../image/scan-engine-operation-banner4.png)
+        \[Omitted image "scan-engine-operation-banner4.png"\] Alt text: The banner to select to activate application access.
 
     3.  Select the `sys_update_version` link to navigate to the Application Access tab.
 
@@ -81,7 +84,7 @@ Configure Scan Engine properties
 
 </td><td>
 
-Review and adjust settings, as each tab has default settings that can be adjusted. See [Configure Scan Engine properties](configure-scan-engine-properties.md) for more information.
+Review and adjust settings, as each tab has default settings that can be adjusted. See [Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md) for more information.
 
 </td></tr></tbody>
 </table>3.  Select **Mark as Complete** to enable the next step.
@@ -89,11 +92,11 @@ Review and adjust settings, as each tab has default settings that can be adjuste
 
 ## What to do next
 
-[Run your first scan with the Scan Engine](run-scan-engine.md)
+[Run your first scan with the Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/run-scan-engine.md)
 
-**Parent Topic:**[Configure the Impact Store Application](../concept/configuring-impact-platform.md)
+**Parent Topic:**[Configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-impact-platform.md)
 
-**Previous topic:**[Assign users to Scan Engine groups](assign-users-scan-engine-groups.md)
+**Previous topic:**[Assign users to Scan Engine groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/assign-users-scan-engine-groups.md)
 
-**Next topic:**[Run your first scan with the Scan Engine](run-scan-engine.md)
+**Next topic:**[Run your first scan with the Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/run-scan-engine.md)
 

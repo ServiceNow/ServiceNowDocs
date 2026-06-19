@@ -2,6 +2,7 @@
 title: Cloud Discovery reference
 description: Reference topics provide additional information about the lists, forms, and cloud settings used in Cloud Discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/cloud-discovery-reference.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -15,10 +16,10 @@ breadcrumb: [Discovery reference, Discovery, ITOM Visibility, IT Operations Mana
 
 Reference topics provide additional information about the lists, forms, and cloud settings used in Cloud Discovery.
 
--   **[Cloud Discovery service account form reference](cloud-operations-disco-service-account-form.md)**  
+-   **[Cloud Discovery service account form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cloud-operations-disco-service-account-form.md)**  
 The Cloud Discovery service account form displays detailed information about the selected cloud provider. The Cloud Discovery service account form is available in the Cloud Discovery Workspace.
--   **[Edit settings form reference](../../it-operations-management/reference/edit-aws-event-recording-settings-form-reference.md)**  
+-   **[Edit settings form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/edit-aws-event-recording-settings-form-reference.md)**  
 The Edit settings form displays information about the Amazon Web Services \(AWS\) settings used to record and deliver the AWS events to the listening endpoint.
 
-**Parent Topic:**[Discovery reference](discovery-references.md)
+**Parent Topic:**[Discovery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-references.md)
 

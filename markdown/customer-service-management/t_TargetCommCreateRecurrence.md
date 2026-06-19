@@ -2,7 +2,10 @@
 title: Create a recurring publication
 description: Review publications to either accept or reject them. You must have the publication’s approval role to review the publication. If the publication is not reviewed before the Publish Date, the publication is rejected.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_TargetCommCreateRecurrence.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

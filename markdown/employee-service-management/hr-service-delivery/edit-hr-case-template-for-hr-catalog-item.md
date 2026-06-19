@@ -2,6 +2,7 @@
 title: Edit the HR case template for an HR catalog item
 description: Edit the HR case template for an HR catalog item to automatically populate fields on an HR case form when a request for that item is made.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/edit-hr-case-template-for-hr-catalog-item.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,7 +26,7 @@ Role required: sn\_hr\_core.admin
 
 2.  Hover over the HR catalog item and click **Edit Case Template**.
 
-    ![Edit the HR case template for an HR catalog item](../image/edit-hr-case-template-for-hr-catalog-item.png)
+    \[Omitted image "edit-hr-case-template-for-hr-catalog-item.png"\] Alt text: Edit the HR case template for an HR catalog item
 
 3.  Fill in the fields on the form, as appropriate.
 
@@ -103,7 +104,7 @@ Use global descriptions for translations
 
 </td><td>
 
-Option to enable the use of global descriptions for translations. If selected, you can provide the short description and description for the HR case template in one or more languages. See [Translations for HR cases and tasks](../concept/translation-of-hr-cases-and-tasks.md#) for more information.You can use dynamic variables to personalize your short and global descriptions.
+Option to enable the use of global descriptions for translations. If selected, you can provide the short description and description for the HR case template in one or more languages. See [Translations for HR cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/translation-of-hr-cases-and-tasks.md) for more information.You can use dynamic variables to personalize your short and global descriptions.
 
  Using dynamic variables in an HR task template works in:
 
@@ -126,9 +127,9 @@ Fields to automatically populate on the HR case form when a request for that HR 
 </table>4.  Click **Update**.
 
 
-**Parent Topic:**[HR catalog item configuration](../concept/hr-catalog-item-configuration.md)
+**Parent Topic:**[HR catalog item configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-catalog-item-configuration.md)
 
-**Previous topic:**[Edit the record producer for an HR catalog item](edit-hr-record-producer-for-hr-catalog-item.md)
+**Previous topic:**[Edit the record producer for an HR catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/edit-hr-record-producer-for-hr-catalog-item.md)
 
-**Next topic:**[Link knowledge articles or managed documents to an HR catalog item](link-knowledge-article-to-hr-catalog-item.md)
+**Next topic:**[Link knowledge articles or managed documents to an HR catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/link-knowledge-article-to-hr-catalog-item.md)
 

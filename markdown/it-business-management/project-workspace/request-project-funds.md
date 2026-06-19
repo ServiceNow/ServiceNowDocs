@@ -2,6 +2,7 @@
 title: Request funds for a project in classic Project Workspace
 description: Request funds for your project investment to work on project activities and meet the business goals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/request-project-funds.html
 release: zurich
 product: Project Workspace
 classification: project-workspace
@@ -61,5 +62,5 @@ If you have added cost plans to your project, you can refer the total planned co
 10. Click **Request**
 
 
-**Parent Topic:**[Project workspace classic - Legacy](../concept/project-workspace-classic.md)
+**Parent Topic:**[Project workspace classic - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/project-workspace-classic.md)
 

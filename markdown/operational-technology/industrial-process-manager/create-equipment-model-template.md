@@ -2,6 +2,7 @@
 title: Create an equipment model template
 description: Create an equipment model template record that identifies and describes the use of the template. After you create an equipment model template, you can create hierarchical levels and types for it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-process-manager/create-equipment-model-template.html
 release: zurich
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -40,5 +41,5 @@ Role required: cmdb\_ot\_isa\_admin
 
 Create hierarchical sorting levels for the equipment model template.
 
-**Parent Topic:**[Defining equipment model templates](../concept/defining-equipment-model-templates.md)
+**Parent Topic:**[Defining equipment model templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/defining-equipment-model-templates.md)
 

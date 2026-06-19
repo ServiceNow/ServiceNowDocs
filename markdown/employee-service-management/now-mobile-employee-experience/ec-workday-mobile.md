@@ -2,6 +2,7 @@
 title: Workday approvals in Now Mobile
 description: Access your Workday approvals in the Now Mobile app, with Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-mobile-employee-experience/ec-workday-mobile.html
 release: zurich
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
@@ -37,12 +38,12 @@ For the other approval types, often, more information is required to approve or 
 -   Spend authorization
 -   Job change
 
-**Note:** You can configure the approve and reject button to display in Now Mobile for all the approval types. For more information on the configuration, see [Configure Workday approval functions for Now Mobile](../task/config-workday-button.md).
+**Note:** You can configure the approve and reject button to display in Now Mobile for all the approval types. For more information on the configuration, see [Configure Workday approval functions for Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/config-workday-button.md).
 
-For more information on the configuration of the Workday approvals, see [Configure Workday to-dos](../task/config-workday-raas-report.md).
+For more information on the configuration of the Workday approvals, see [Configure Workday to-dos](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/config-workday-raas-report.md).
 
--   **[Configure Workday approval functions for Now Mobile](../task/config-workday-button.md)**  
+-   **[Configure Workday approval functions for Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/config-workday-button.md)**  
 Configure the approve and reject buttons for all the Workday approval task types. Complete all your approval tasks in the Now Mobile app.
 
-**Parent Topic:**[Configuring Employee Center for mobile](ec-mobile-configrations.md)
+**Parent Topic:**[Configuring Employee Center for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/ec-mobile-configrations.md)
 

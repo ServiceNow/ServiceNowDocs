@@ -2,6 +2,7 @@
 title: Log Analytics alerts on the Alerts in group tab
 description: The table describes the Log Analytics alerts in a Log Analytics group on the Alerts in group tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-alerts-in-group-ref.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -73,7 +74,7 @@ Priority group that indicates the order in which to resolve alerts. Choices are 
 -   **Moderate**
 -   **Low**
 
- The priority group value is more important than severity alone. For example, a high priority and low severity alert should be addressed before a low priority and high severity alert. For information on how priority is calculated, see [Alert priority](../../event-management/concept/alert-priority.md).
+ The priority group value is more important than severity alone. For example, a high priority and low severity alert should be addressed before a low priority and high severity alert. For information on how priority is calculated, see [Alert priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/alert-priority.md).
 
 </td></tr><tr><td>
 
@@ -126,5 +127,5 @@ Updated
 Most recent time when the alert information or state was updated.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Information on the Overview tab for a Log Analytics group](hla-op-ovrvw-tab-log-anltcs-alerts.md)
+</table>**Parent Topic:**[Information on the Overview tab for a Log Analytics group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-ovrvw-tab-log-anltcs-alerts.md)
 

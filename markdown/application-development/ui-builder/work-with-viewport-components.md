@@ -2,6 +2,7 @@
 title: Add a viewport component to your page
 description: Add a viewport component to your page and create a subpage to create separate content on the page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/work-with-viewport-components.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -25,11 +26,11 @@ Role required: ui\_builder\_admin
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Open the editor for the page variant that you want to add the viewport to.
 
-    If you haven't created a page for your experience, follow the steps to [Create a page in UI Builder](../task/create-page.md).
+    If you haven't created a page for your experience, follow the steps to [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/create-page.md).
 
 4.  Select **+ Add content** in the content tree.
 
@@ -41,19 +42,19 @@ Role required: ui\_builder\_admin
 
 8.  Select **Viewport**.
 
-    ![Viewport component selected in the toolbox.](../image/viewport-component-add.png "Viewport component")
+    \[Omitted image "viewport-component-add.png"\] Alt text: Viewport component selected in the toolbox.
 
 9.  Select the viewport component in the content tree.
 
 10. Select **+ Add** in the configuration panel.
 
-    ![Arrow pointing to the +Add button on the configure tab to add page collections.](../image/viewport-component-edit-content.png)
+    \[Omitted image "viewport-component-edit-content.png"\] Alt text: Arrow pointing to the +Add button on the configure tab to add page collections.
 
-11. Select a [page collection](ui-builder-glossary.md#) from the list or create a collection by selecting **+ Create collection**.
+11. Select a [page collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/ui-builder-glossary.md) from the list or create a collection by selecting **+ Create collection**.
 
-    For more information on creating your own page collection, see [Create a page collection across multiple UI pages](../task/create-page-collection.md).
+    For more information on creating your own page collection, see [Create a page collection across multiple UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/create-page-collection.md).
 
-    ![Page collection selection screen with option to create a collection.](../image/page-collection-list.png)
+    \[Omitted image "page-collection-list.png"\] Alt text: Page collection selection screen with option to create a collection.
 
 12. Select **Add**.
 
@@ -65,21 +66,21 @@ Role required: ui\_builder\_admin
 
     You can see the ID and route in the Config panel as shown in the following figure.
 
-    ![Arrow pointing to the viewport component id on the configure tab.](../image/viewport-component-id-route.png)
+    \[Omitted image "viewport-component-id-route.png"\] Alt text: Arrow pointing to the viewport component id on the configure tab.
 
 15. Add a component to your page to open the viewport you just added, such as a button component.
 
-    For more information, see [Add and configure components](../task/add-components.md#).
+    For more information, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/add-components.md).
 
 16. Select the **Events** tab in the configuration panel.
 
 17. Select **+ Add event handler** to view the viewport.
 
-    ![Arrow pointing to the add event handler option on the configure tab for the button component.](../image/modal-button-event.png)
+    \[Omitted image "modal-button-event.png"\] Alt text: Arrow pointing to the add event handler option on the configure tab for the button component.
 
 18. From **Page-level event handlers**, select **UXF Macroponent Viewport Load Requested**.
 
-    ![UXF Macroponent Viewport Load Requested event handler selected.](../image/viewport-component-add-event.png)
+    \[Omitted image "viewport-component-add-event.png"\] Alt text: UXF Macroponent Viewport Load Requested event handler selected.
 
 19. In the **viewportElementID** element, replace the `null` value with the viewport ID that you located in a previous step.
 
@@ -87,12 +88,12 @@ Role required: ui\_builder\_admin
 
 20. Select **Add**.
 
-    ![UXF Macroponent Viewport Load Requested event handler script with viewport element id.](../image/viewport-component-id-route-added.png)
+    \[Omitted image "viewport-component-id-route-added.png"\] Alt text: UXF Macroponent Viewport Load Requested event handler script with viewport element id.
 
 21. Select **Save**.
 
-22. View and test your page by selecting ![Preview button that opens the page variant.](../image/preview-button.png).
+22. View and test your page by selecting \[Omitted image "preview-button.png"\] Alt text: Preview button that opens the page variant..
 
 
-**Parent Topic:**[Extend your UI experience with viewport components](viewports-overview.md)
+**Parent Topic:**[Extend your UI experience with viewport components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/viewports-overview.md)
 

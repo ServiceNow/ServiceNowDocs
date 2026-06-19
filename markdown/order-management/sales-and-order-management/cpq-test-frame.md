@@ -2,6 +2,7 @@
 title: The test frame
 description: Use a test frame to quickly validate the behavior of a configurator without creating a web page or running the full quoting flow. This lightweight test page lets you load a product and pass key parameters to preview the configuration in an iframe, either from on-page inputs or directly from URL parameters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cpq-test-frame.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -33,7 +34,7 @@ Typically, the value of `{sector}` is `test` for sandbox or `prod` for productio
 
 The testFrame HTML provides easy inputs to a variety of parameters that can be sent to the ServiceNow CPQ configurator.
 
-![Test frame](../images/cpq-test-frame.png)
+\[Omitted image "cpq-test-frame.png"\] Alt text: Test frame
 
 1.  Product ID: Product ID of the configurable product to load
 2.  Pricebook ID: Salesforce Pricebook ID
@@ -57,11 +58,11 @@ The testFrame HTML provides easy inputs to a variety of parameters that can be s
 
 ## test frame page
 
-![Example for test frame](../images/cpq-test-frame-example.png)
+\[Omitted image "cpq-test-frame-example.png"\] Alt text: Example for test frame
 
 -   URL to access the test frame page
 -   Parameter inputs
 -   Configuration iframe
 
-For more information, see [Use case: Embed ServiceNow CPQ UI in an HTML page](use_case_embed_logik_io_ui_in_an_html_page.md).
+For more information, see [Use case: Embed ServiceNow CPQ UI in an HTML page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/use_case_embed_logik_io_ui_in_an_html_page.md).
 

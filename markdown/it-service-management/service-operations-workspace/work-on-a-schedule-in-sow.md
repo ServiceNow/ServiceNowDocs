@@ -2,6 +2,7 @@
 title: Manage your work and schedule absence
 description: Request absence and provide coverage for a shift. You can also request over-time for a shift.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/work-on-a-schedule-in-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -19,7 +20,7 @@ Request absence and provide coverage for a shift. You can also request over-time
 
 You can schedule your own time off and suggest a suitable cover from among the fellow roster members. This helps the shift manager and on-call admin in planning shifts and making sure that members are available to respond to incidents and escalations at all times.
 
-Get an overview of how to schedule an absence with this video.Schedule absence
+Get an overview of how to schedule an absence with this video.
 
 ## Before you begin
 
@@ -36,9 +37,9 @@ Role required: itil
     -   Navigate to **Workspaces** &gt; **Service Operation Workspace**.
     -   Select **Teams** menu from home page and select a team.
     -   Select **Schedule** tab to view all the schedules for the team.
-3.  Select a shift card and select ![More](../../service-reliability/image/icon-sr-more-actions-vertical.png) icon or right-click a shift card.
+3.  Select a shift card and select \[Omitted image "icon-sr-more-actions-vertical.png"\] Alt text: More icon or right-click a shift card.
 
-    ![Schedule with a schedule absence](../image/schedule_absence_schedule_sow.png)
+    \[Omitted image "schedule\_absence\_schedule\_sow.png"\] Alt text: Schedule with a schedule absence
 
 4.  Select **Schedule absence** to request absence for the shift and provide the following details:
 
@@ -47,10 +48,10 @@ Role required: itil
     -   Start time and End time
     -   Proposed cover
     -   Notes
-    ![Schedule absence form](../image/schedule_absence_form_sow.png)
+    \[Omitted image "schedule\_absence\_form\_sow.png"\] Alt text: Schedule absence form
 
 5.  Select **Schedule absence**.
 
 
-**Parent Topic:**[Scheduling in service operation workspace](scheduling-in-service-operation-workspace.md)
+**Parent Topic:**[Scheduling in service operation workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/scheduling-in-service-operation-workspace.md)
 

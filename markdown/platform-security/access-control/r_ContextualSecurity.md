@@ -2,12 +2,13 @@
 title: Contextual Security Manager
 description: Contextual Security Manager protects your data by controlling read, write, create, and delete authorization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/r\_ContextualSecurity.html
 release: zurich
 product: Access Control
 classification: access-control
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-06-03"
+reading_time_minutes: 3
 breadcrumb: [Access Control List Rules, Access Management]
 ---
 
@@ -26,7 +27,7 @@ The Contextual Security Manager is aware of the system table hierarchy, enabling
 
 With the legacy Simple Security Manager, you could secure fields and tables by adding roles to the appropriate dictionary entry. With the Contextual Security Manager, these dictionary roles are no longer tested. Instead, the system looks for ACL rules on fields and tables.
 
-**Warning:** After you install the Contextual Security Manager, you must secure fields and tables via ACL rules. Even if you [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) the dictionary form and add roles to a dictionary entry, no change in rights occurs.
+**Warning:** After you install the Contextual Security Manager, you must secure fields and tables via ACL rules. Even if you Configuring the form layout the dictionary form and add roles to a dictionary entry, no change in rights occurs.
 
 ## Contextual security and roles
 
@@ -53,7 +54,24 @@ The Contextual Security Manager is active in the base system. If there are many 
 
 **Note:** After activating Role Management V2, you must set the glide.role\_management.v2.audit\_roles system property to allow the Audit Roles table to create audit records related to user roles. To learn more about setting this property and about the Audit Roles table, see:
 
--   [Enable role auditing with Contextual Security: Role Management V2](../task/enable-audit-roles.md).
--   [Hardening settings](../../security-center/reference/security-hardening-settings.md) in Instance Security Hardening Settings.
--   [Audit user roles](https://www.servicenow.com/docs/access?context=audit-user-roles&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+-   [Enable role auditing with Contextual Security: Role Management V2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/enable-audit-roles.md).
+-   [Hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/security-hardening-settings.md) in Instance Security Hardening Settings.
+-   Audit user roles
+
+## Security Attribute Conditions
+
+Starting with the Vancouver release, ACL rules support a Security Attribute Condition type in addition to the standard role, condition, and script fields. Security Attribute Conditions evaluate properties of the current user or session, such as group membership, authentication state, or network location, to determine whether access is granted.
+
+Security Attribute Conditions can be defined as local or existing:
+
+-   **Local**
+
+    The condition is saved only to the ACL where it is created. Conditions default to local.
+
+-   **Existing**
+
+    The condition references a Security Attribute condition already defined on another ACL, enabling reuse across multiple rules.
+
+
+For a complete list of built-in security attribute types and configuration details, see [Security Attributes fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/security-attribute-fundamentals.md) and [Security Attribute Scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/security-attribute-scope.md).
 

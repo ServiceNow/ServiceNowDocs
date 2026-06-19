@@ -2,6 +2,7 @@
 title: Add multiple security incident observables
 description: To save time, you can add multiple security incident observables to the security incident observables list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/add-multiple-si-observables.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -27,18 +28,22 @@ Role required: sn\_ti\_write
 
 2.  Choose an incident.
 
-3.  Click the **Add Multiple Observables** related link.
+3.  Select the **Investigation** tab.
 
-4.  Enter or paste multiple observables.
+4.  Select **Associated Observables**.
+
+5.  Select Multiple New from the more options.
+
+6.  Enter or paste multiple observables.
 
     Entries can be of any Observable Type. Accepted formats are: comma, new line, tab, or pipe separators.
 
-    ![Add multiple observables comma delimited list example](../image/AddMultipleObservables.png)
+    \[Omitted image "AddMultipleObservables.png"\] Alt text: Add multiple observables comma delimited list example
 
     **Note:** When you add an observable to the security incident, the system checks for any other configuration items or users associated with it. The **Related Configuration Items** and **Related Users** related list tabs are updated accordingly.
 
     Note: Observable values not auto-detected are assigned to type Unknown.
 
-5.  Click **Submit.**.
+7.  Select **Submit**.
 
 

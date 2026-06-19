@@ -2,6 +2,7 @@
 title: Configure list editor properties
 description: Configure list editor properties that control whether lists can be edited and, in List v2, which field types cannot be edited.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/list-administration/t\_ConfigureListEditorProperties.html
 release: zurich
 product: List Administration
 classification: list-administration

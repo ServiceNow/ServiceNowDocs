@@ -2,6 +2,7 @@
 title: Create a workflow
 description: Automate a multi-step process by creating a workflow with the Workflow Editor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/legacy-workflow/t\_CreateAWorkflow.html
 release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
@@ -20,7 +21,7 @@ Automate a multi-step process by creating a workflow with the Workflow Editor.
 Role required:
 
 -   You must have the snc\_required\_script\_writer and either the workflow\_admin or workflow\_creator role to use the Workflow Editor.
--   If you are designing the workflow as part of an update set process, see [Workflow movement with update sets](../concept/c_WorkflowMovementWithUpdateSets.md#) before creating the workflow.
+-   If you are designing the workflow as part of an update set process, see [Workflow movement with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/c_WorkflowMovementWithUpdateSets.md) before creating the workflow.
 
 ## About this task
 
@@ -34,7 +35,7 @@ Role required:
 
 2.  On the **Workflows** tab in the palette, click **New Workflow**.
 
-    ![](../image/WorkflowDesignerStart.png)
+    \[Omitted image "WorkflowDesignerStart.png"\] Alt text:
 
     A simplified version of the New Workflow form opens.
 
@@ -56,27 +57,27 @@ Role required:
 
     The new workflow is created with the **Begin** and **End**activities connected by a single transition.
 
-    ![New workflow](../image/WorkflowNew.png)
+    \[Omitted image "WorkflowNew.png"\] Alt text: New workflow
 
 7.  Finish creating the workflow by adding activities, validating, and publishing so the workflow is available to other users.
 
-    For more information, see [Work on workflows](work-on-workflows.md#).
+    For more information, see [Work on workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/work-on-workflows.md).
 
-8.  To change advanced settings for the workflow, click the **Properties** icon ![Properties icon](../../workflow/image/WorkflowPropertiesIcon.png).
+8.  To change advanced settings for the workflow, click the **Properties** icon \[Omitted image "WorkflowPropertiesIcon.png"\] Alt text: Properties icon.
 
 9.  If you make changes, click **Update**.
 
 
--   **[Workflow properties](../reference/r_WorkflowProperties.md)**  
+-   **[Workflow properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/r_WorkflowProperties.md)**  
 In the properties of a workflow, you can configure settings such as its application scope, start conditions, schedule, inputs, stages, and run time metrics. You can also view information such as the workflow author, version, and history.
--   **[Create a workflow from a table](t_CreateAWorkflowFromATable.md)**  
+-   **[Create a workflow from a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/t_CreateAWorkflowFromATable.md)**  
 Automate a multi-step process by creating a workflow from the list view of any table that supports workflows.
--   **[Create a workflow for a new service catalog item](t_CrtWkflwNewSvcCtlgItm.md)**  
+-   **[Create a workflow for a new service catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/t_CrtWkflwNewSvcCtlgItm.md)**  
 When you create a new service catalog item, you can create a new corresponding workflow at the same time.
--   **[Create a workflow for an SLA Definition](t_CreateAWorkflowFromSLADefinition.md)**  
+-   **[Create a workflow for an SLA Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/t_CreateAWorkflowFromSLADefinition.md)**  
 Automate a multi-step process by creating a workflow from an SLA definition.
--   **[Ending workflows with multiple branches](../concept/c_EndingWorkflowsMultipleBranches.md)**  
+-   **[Ending workflows with multiple branches](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/c_EndingWorkflowsMultipleBranches.md)**  
 A workflow is complete when it reaches the **End** activity, even if there are still active branches of the workflow in progress. To ensure that both branches are completed, add a **Join** activity to resolve the branches.
 
-**Parent Topic:**[Workflow management](../concept/managing-workflows.md)
+**Parent Topic:**[Workflow management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/managing-workflows.md)
 

@@ -2,6 +2,7 @@
 title: Add a tool
 description: Add and manage tools visually in the Tools editor, including decision branching, to execute different tools for your skill. Adding decision branches between tools enables you to define the conditions that need to be met for a tool to run. If no conditions are met, the default branch's step is executed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-skill-kit/add-a-tool.html
 release: zurich
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -87,21 +88,21 @@ Decision node
 
 
 </td></tr></tbody>
-</table>    ![Tool editor tab in Now Assist Skill Kit](../image/nask-tool-editor.png)
+</table>    \[Omitted image "nask-tool-editor.png"\] Alt text: Tool editor tab in Now Assist Skill Kit
 
 6.  Select **Add**.
 
 7.  Select **Run tools** to test the tools.
 
 
--   **[Add a retriever](../task/add-retriever.md)**  
+-   **[Add a retriever](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/add-retriever.md)**  
 Add a retriever to your prompt to augment and add context to your prompts with AI search results.
--   **[Add a web search](../task/add-web-search.md)**  
+-   **[Add a web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/add-web-search.md)**  
 Add a web search as a tool in Now Assist Skill Kit. Adding a web search as a tool enables you to add search results to your prompt.
--   **[Add Predictive Intelligence](../task/add-predictive-intelligence.md)**  
+-   **[Add Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/add-predictive-intelligence.md)**  
 Add predictive intelligence as a tool in Now Assist Skill Kit. Predictive intelligence models enable you to predict, estimate, and identify patterns that can be used to route work, populate forms, estimate wait times, and more.
--   **[Add Document Intelligence](add-document-intelligence.md)**  
-Add document intelligence as a tool in Now Assist Skill Kit. Document intelligence enables you to
+-   **[Add Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/add-document-intelligence.md)**  
+Add Document Intelligence as a tool in Now Assist Skill Kit to extract structured data from documents as part of your skill's execution flow
 
-**Parent Topic:**[Create a prompt](../task/create-prompt-template.md)
+**Parent Topic:**[Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md)
 

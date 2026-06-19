@@ -2,6 +2,7 @@
 title: Install Portfolio Planning
 description: You can install the Portfolio Planning application \(sn\_align\_ws\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/install-portfolio-planning.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -29,7 +30,7 @@ The following items are installed with Portfolio Planning:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Portfolio Planning](../reference/installed-with-portfolio-planning.md).
+For more information, see [Components installed with Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/installed-with-portfolio-planning.md).
 
 ## Procedure
 
@@ -61,5 +62,5 @@ The following components are installed with installation of the Portfolio Planni
 -   Roles
 -   Tables
 
-See [Components installed with Portfolio Planning](../reference/installed-with-portfolio-planning.md) for more information.
+See [Components installed with Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/installed-with-portfolio-planning.md) for more information.
 

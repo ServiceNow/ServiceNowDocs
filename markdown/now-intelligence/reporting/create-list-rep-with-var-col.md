@@ -2,6 +2,7 @@
 title: Create a list report with variable columns
 description: You can create a list report with variables columns based on a data source or table that has variables associated with it. For example, if an item has a variable called Storage, you can create a list report that has a column for the values in this variable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/create-list-rep-with-var-col.html
 release: zurich
 product: Reporting
 classification: reporting
@@ -66,17 +67,17 @@ The raw data from a table with no filters applied.
 
     **Variables \[+\]** is at the bottom of the list of available columns.
 
-    Depending on system configuration, you can add fields from tables that extend the selected table. For more information, see [Report on extended tables](t_AccessFieldExtendedTable.md#).
+    Depending on system configuration, you can add fields from tables that extend the selected table. For more information, see [Report on extended tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_AccessFieldExtendedTable.md).
 
-7.  Click the structure icon \(![Structure icon](../image/Form_ShowReportStructureIcon.png)\) to choose an item.
+7.  Click the structure icon \(\[Omitted image "Form\_ShowReportStructureIcon.png"\] Alt text: Structure icon\) to choose an item.
 
-    ![Columns slushbucket](../image/columns-variables.png)
+    \[Omitted image "columns-variables.png"\] Alt text: Columns slushbucket
 
 8.  Select an item from the Catalog item list that appears.
 
     The variables associated with the selected item then appear in the **Columns** window.
 
-    ![Columns with selected item and variables](../image/columns-variables-selected.png)
+    \[Omitted image "columns-variables-selected.png"\] Alt text: Columns with selected item and variables
 
 9.  Select and move variables to the **Selected** column and click **OK**.
 
@@ -96,12 +97,12 @@ Group by
 
 </td><td>
 
-Group report data using the values of this field. For example, in an incident report grouped by **Assignment group**, all incidents that belong to Software, Service Desk, and Network are placed in separate groups. To group by fields on extended tables, see [How to report on extended tables](t_AccessFieldExtendedTable.md#). Select the info icon \(![Info icon](../../par-for-workspace/image/icon-info.png)\) for a description of the selected field. Configured function fields appear in this list after you save the report.
+Group report data using the values of this field. For example, in an incident report grouped by **Assignment group**, all incidents that belong to Software, Service Desk, and Network are placed in separate groups. To group by fields on extended tables, see [How to report on extended tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_AccessFieldExtendedTable.md). Select the info icon \(\[Omitted image "icon-info.png"\] Alt text: Info icon\) for a description of the selected field. Configured function fields appear in this list after you save the report.
 
  **Note:**
 
--   It is not possible to group or stack reports by the **Tags** field, or by certain MySQL database field types, such as MEDIUMTEXT. For more information, see [Database field type](https://www.servicenow.com/docs/access?context=r_DatabaseFieldTypes&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
--   Grouping or stacking by Variables or Questions fields is not supported for reports based on [database views](../../performance-analytics/concept/performance-analytics-glossary.md#).
+-   It is not possible to group or stack reports by the **Tags** field, or by certain MySQL database field types, such as MEDIUMTEXT. For more information, see .
+-   Grouping or stacking by Variables or Questions fields is not supported for reports based on [database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md).
 
 
 </td></tr><tr><td>
@@ -110,13 +111,13 @@ Additional group by
 
 </td><td>
 
-Extra fields to group the report by. When you select **Additional group by** fields or function fields, the report includes a control at the bottom that allows you to group the report by any one of the additional fields. To group by fields on extended tables as well, see [How to report on extended tables](t_AccessFieldExtendedTable.md#). Click the info icon \(![Info icon](../../par-for-workspace/image/icon-info.png)\) for descriptions of the selected fields Configured function fields appear in this list after you save the report.
+Extra fields to group the report by. When you select **Additional group by** fields or function fields, the report includes a control at the bottom that allows you to group the report by any one of the additional fields. To group by fields on extended tables as well, see [How to report on extended tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_AccessFieldExtendedTable.md). Click the info icon \(\[Omitted image "icon-info.png"\] Alt text: Info icon\) for descriptions of the selected fields Configured function fields appear in this list after you save the report.
 
 **Note:**
 
 -   You can see choices in the **Additional group by** list that do not appear in the main **Group by** list. The report does not support grouping or stacking by the extra fields you see. Unlike the main **Group by** choices, the **Additional group by** fields are not filtered. If you select an unsupported field, it has no effect.
 -   The limitations listed for the main **Group by** field also apply to the **Additional group by** field.
- For more information, see [Add an additional group by or stack by](add-additional-group-by-stack-by.md).
+ For more information, see [Add an additional group by or stack by](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/add-additional-group-by-stack-by.md).
 
 </td></tr><tr><td>
 
@@ -124,12 +125,12 @@ Configure function field
 
 </td><td>
 
-Configure fields based on calculation of multiple inputs including arithmetic functions. For more information, see [Report on function fields](../concept/function-fields-reporting.md). Function field results are calculated when the report is run. You can use the results for aggregations and grouping. You have to save the report before you can configure function fields.Configured function fields appear in the **Group by** and **Additional group by** lists after you save the report.
+Configure fields based on calculation of multiple inputs including arithmetic functions. For more information, see [Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/function-fields-reporting.md). Function field results are calculated when the report is run. You can use the results for aggregations and grouping. You have to save the report before you can configure function fields.Configured function fields appear in the **Group by** and **Additional group by** lists after you save the report.
 
 </td></tr></tbody>
 </table>11. Configure the sort order of the applicable fields in the report \(column, row, Group by, Stack by or Trend by depending on the report type\).
 
-    Select the filter icon \(![Filter icon for lists](../../../common/image/List_FilterIcon.png)\) and choose **Add Sort**.
+    Select the filter icon \(\[Omitted image "List\_FilterIcon.png"\] Alt text: Filter icon for lists\) and choose **Add Sort**.
 
     1.  In the Sorting Order list, choose the field you want to sort on and then choose **a-z** or **z-a** for alphabetical order or reverse alphabetical order.
 
@@ -137,32 +138,32 @@ Configure fields based on calculation of multiple inputs including arithmetic fu
 
         **Note:** On fields from dot-walked \(extended\) tables, you can only sort on date fields.
 
-    2.  Select the sort plus icon \(![Sort plus icon](../image/sort-order-plus-icon.png)\) to configure additional sorting order conditions. \(Select the sort minus icon \( ![Sort minus icon](../image/sort-order-minus-icon.png)\) to delete configured sorting order conditions.\)
+    2.  Select the sort plus icon \(\[Omitted image "sort-order-plus-icon.png"\] Alt text: Sort plus icon\) to configure additional sorting order conditions. \(Select the sort minus icon \( \[Omitted image "sort-order-minus-icon.png"\] Alt text: Sort minus icon\) to delete configured sorting order conditions.\)
     3.  Select **Save**.
     For fields of the type Choice list, sort order is not determined alphabetically based on Label, it is sorted based on the **Value** of the choice field. For multi-level pivot table and heatmap reports, sort order is determined by the sequence of the choices in the list.
 
-    ![Report sorted by priority choice list](../image/choice-list-sort-order.png)
+    \[Omitted image "choice-list-sort-order.png"\] Alt text: Report sorted by priority choice list
 
-12. To limit the information displayed in the report, select the filter icon \(![Filter icon](../../../common/image/List_FilterIcon.png)\) and specify conditions to filter the report data.
+12. To limit the information displayed in the report, select the filter icon \(\[Omitted image "List\_FilterIcon.png"\] Alt text: Filter icon\) and specify conditions to filter the report data.
 
-    To learn how to construct conditions, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    To learn how to construct conditions, see Condition builder.
 
     **Note:** In aggregated and list reports, language-dependent filter conditions may return zero results on localized instances.
 
 13. On the **Style** tab, add and configure a report title.
 
-    See [List report style options](../reference/list-report-style-options.md).
+    See [List report style options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/list-report-style-options.md).
 
 14. Select **Save** to continue editing the visualization, or **Save and close** to return to the Analytics Center main screen.
 
 
 ## What to do next
 
--   Select the Report info icon \(![Info icon](../../../common/image/Form_ReferenceLookupIcon.png)\) and add a description of the report.
--   Click the sharing icon \(![Sharing icon](../image/ShareIcon.png)\) to open the **Sharing** menu. On this menu, you can add the report to a dashboard, export the report to PDF, publish the report to the web, and set visibility and schedules. For more information, see [Share a Core UI report](t_ShareASetting.md).
+-   Select the Report info icon \(\[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text: Info icon\) and add a description of the report.
+-   Click the sharing icon \(\[Omitted image "ShareIcon.png"\] Alt text: Sharing icon\) to open the **Sharing** menu. On this menu, you can add the report to a dashboard, export the report to PDF, publish the report to the web, and set visibility and schedules. For more information, see [Share a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_ShareASetting.md).
 
     **Note:**
 
-    -   The default number of rows in a list report exported to PDF is 1000. To configure this value, enter `sys_properties.list` in the Filter Navigator, and edit the property glide.pdf.max\_rows. For more information, see: [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+    -   The default number of rows in a list report exported to PDF is 1000. To configure this value, enter `sys_properties.list` in the Filter Navigator, and edit the property glide.pdf.max\_rows. For more information, see: Add a system property.
     -   Despite list filtering, pdf-format exported rows will count all record rows sequentially up to the export limit and show as blank for roles prevented by ACLs from viewing restricted data.
 

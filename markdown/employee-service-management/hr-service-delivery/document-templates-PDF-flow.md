@@ -2,6 +2,7 @@
 title: Document Templates of type PDF \(Advanced forms\)
 description: A PDF document template originates from a fillable PDF or a standard PDF with inline signatures. Using the PDF document template, you can collect details and e-signatures from multiple participants, review, and generate a filled PDF document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/document-templates-PDF-flow.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -20,14 +21,14 @@ A PDF document template originates from a fillable PDF or a standard PDF with in
 You can create a PDF document template either:
 
 -   uploading a fillable, editable PDF document into the form.
--   using a PDF from [Managed Documents](https://www.servicenow.com/docs/access?context=c_ManagedDocuments&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+-   using a PDF from Managed Documents.
 
 The following flow describes how you can use a PDF document template from configuring the template until filling, signing, reviewing, and generating a PDF document.
 
--   [Configure a PDF document template](../task/configure-editable-pdf.md).
--   [Create participants for a PDF document template](../task/create-participant.md#).
--   [Define a PDF field mapping](../task/edit-pdf-mappings.md).
--   [Mark a signature block](../task/create-participant.md#).
+-   [Configure a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-editable-pdf.md).
+-   [Create participants for a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/create-participant.md).
+-   [Define a PDF field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/edit-pdf-mappings.md).
+-   [Mark a signature block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/create-participant.md).
 -   Publish the PDF document template.
--   [Document tasks generation](../task/task-mapped-participants.md).
+-   [Document tasks generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/task-mapped-participants.md).
 

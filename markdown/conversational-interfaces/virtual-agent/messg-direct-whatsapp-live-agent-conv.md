@@ -2,6 +2,7 @@
 title: Transfer WhatsApp chat conversations to live agents
 description: Configure the Advanced Work Assignment application to transfer a WhatsApp chat conversation initiated by a requester to a live agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/messg-direct-whatsapp-live-agent-conv.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -19,10 +20,10 @@ Configure the Advanced Work Assignment application to transfer a WhatsApp chat c
 
 Your administrator must have completed the following tasks:
 
--   [Install Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](messg-direct-whatsapp-install.md).
--   [Activate Advanced Work Assignment](../../advanced-work-assignment/task/awa-activate.md).
--   Set the application scope to Conversational Integration with WhatsApp \(WhatsApp Cloud API\) using the application picker. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
--   Activate the Conversational Messaging plugin \(com.glide.messaging.awa\). For more information, see [Activate Conversational Messaging](activate-messaging-actions.md).
+-   [Install Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-direct-whatsapp-install.md).
+-   [Activate Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-activate.md).
+-   Set the application scope to Conversational Integration with WhatsApp \(WhatsApp Cloud API\) using the application picker. For more information, see Application picker.
+-   Activate the Conversational Messaging plugin \(com.glide.messaging.awa\). For more information, see [Activate Conversational Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/activate-messaging-actions.md).
 
 Role required: admin
 
@@ -42,7 +43,7 @@ Role required: admin
 
     5.  Select **Update**.
 
-    For more information, see [Service channels](../../advanced-work-assignment/concept/awa-service-channels.md).
+    For more information, see [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-service-channels.md).
 
 2.  Automatically route work items for WhatsApp chat conversations to agents by configuring the queue for the WhatsApp service channel.
 
@@ -56,7 +57,7 @@ Role required: admin
 
     5.  Select **Update**.
 
-    **Note:** By default, the **WhatsApp - Most Capacity** assignment rule is associated with the Agent WhatsApp Queue. You can create another assignment rule and associate it with the queue. For more information, see [Configure agent assignment rules](../../advanced-work-assignment/task/awa-create-assignment-rule.md) and [Work item queues](../../advanced-work-assignment/reference/awa-queues.md).
+    **Note:** By default, the **WhatsApp - Most Capacity** assignment rule is associated with the Agent WhatsApp Queue. You can create another assignment rule and associate it with the queue. For more information, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md) and [Work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-queues.md).
 
 3.  Configure agent presence states for the WhatsApp service channel.
 
@@ -70,8 +71,8 @@ Role required: admin
 
     4.  Select **Update**.
 
-    For more information, see [Configure agent presence states](../../advanced-work-assignment/task/awa-configure-agent-presence.md).
+    For more information, see [Configure agent presence states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-configure-agent-presence.md).
 
 
-**Parent Topic:**[Using Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](../concept/messg-direct-whatsapp-using.md)
+**Parent Topic:**[Using Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-direct-whatsapp-using.md)
 

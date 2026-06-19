@@ -2,6 +2,7 @@
 title: Create entitlements using the guided walk-through
 description: Use the guided walk-through playbook for a step-by-step process of creating entitlements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/guidedwalk-workspace.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -33,13 +34,13 @@ Role required: sam\_user or sam\_admin
 
 2.  Select **Create entitlement**.
 
-    ![Guided walk-through for creating entitlements](../image/playbook-popup.png)
+    \[Omitted image "playbook-popup.png"\] Alt text: Guided walk-through for creating entitlements
 
 3.  Select **Guided step by step walk-through** and select **Next**.
 
     The Create New Software Entitlement page opens and the status of the entitlement is in **build**.
 
-    ![Create an entitlement via the guided walk-through playbook](../image/create-new-entitlement-playbook.png)
+    \[Omitted image "create-new-entitlement-playbook.png"\] Alt text: Create an entitlement via the guided walk-through playbook
 
 4.  Select whether you are creating an entitlement for an on-premises product or for a SaaS product.
 
@@ -140,5 +141,5 @@ Based on the type of profile you specified, select an integration profile.
     The entitlement is created and state of the entitlement is changed to **in use** from **build**. The entitlement is ready to be used for the reconciliation process.
 
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/using-sam-workspace.md)
 

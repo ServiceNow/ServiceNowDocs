@@ -2,6 +2,7 @@
 title: View a workflow example in the IT Remediation Workspace
 description: View an example of an end-to-end workflow in the IT Remediation Workspace. See how IT specialists might use the workspace to monitor critical vulnerable items \(VITs, AVITs, and CVITs\) and test results \(TRs\) and remediate the vulnerabilities assigned to them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/it-remediation-workspace/vr-ws-view-ITRO-workflow.html
 release: zurich
 product: IT Remediation Workspace
 classification: it-remediation-workspace
@@ -28,13 +29,11 @@ Role required:
 
 1.  Click the following image to view the steps of the workflow.
 
-    IT Remediation Workspace demo
-
     The image includes the following tasks:
 
-    -   From the Home page \(IT Remediation Owner landing page\), view the remediation tasks that are assigned to you. Toggle between work that is assigned to you and your group. See the host remediation tasks that have solutions. For more information on the Home page, see [Home page in the IT Remediation Workspace](../../vr-it-remediation-workspace/concept/itr-ws-home-page.md).
+    -   From the Home page \(IT Remediation Owner landing page\), view the remediation tasks that are assigned to you. Toggle between work that is assigned to you and your group. See the host remediation tasks that have solutions. For more information on the Home page, see [Home page in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/it-remediation-workspace/itr-ws-home-page.md).
     -   Select the **List** view to see the lists of your assigned work.
-    -   From the List view with the **Assigned to my group** list selected in the Remediation Tasks list, identify and assign work to yourself. For more information on the List page, see [List page in the IT Remediation Workspace](../../vr-it-remediation-workspace/concept/itr-ws-list-page.md).
+    -   From the List view with the **Assigned to my group** list selected in the Remediation Tasks list, identify and assign work to yourself. For more information on the List page, see [List page in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/it-remediation-workspace/itr-ws-list-page.md).
     -   Group the remediation tasks by record type: Select the three dot menu on the **Record Type** column and then select **Group by Record type**.
     -   On an open remediation task \(VUL, AVUL, CVUL, and CRG\):
         -   Select the **Overview** tab to see the records \(VITs, AVITs, CVITs and TRs \) and affected configuration items \(CIs\) that are associated with the record.

@@ -2,6 +2,7 @@
 title: EAP reports and dashboards
 description: Use the EAP dashboards to visualize metrics, identify blockers, and analyze performance trends for your Agile teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/enterprise-agile-planning/using-eap-dashboard.html
 release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -17,7 +18,7 @@ Use the EAP dashboards to visualize metrics, identify blockers, and analyze perf
 
 As a portfolio manager, product manager, team lead, or a team member, get insights into the team performance using the EAP dashboard. EAP dashboards are available at each level of the Agile structure such as Portfolio, Solution Train, ART, or Team.
 
-You can use a default dashboard or you can configure a custom dashboard and associate it with your Agile configuration. For more information, see [Configuring custom dashboards in EAP](configuring-eap-dashboard.md).
+You can use a default dashboard or you can configure a custom dashboard and associate it with your Agile configuration. For more information, see [Configuring custom dashboards in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/configuring-eap-dashboard.md).
 
 EAP provides the following default Inline and Technical dashboards for different hierarchy levels based on your configuration.
 
@@ -31,7 +32,7 @@ Available with
 
 </th></tr></thead><tbody><tr><td>
 
-[EAP Portfolio dashboard](eap-portfolio-inline-dashboard.md)
+[EAP Portfolio dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/eap-portfolio-inline-dashboard.md)
 
 </td><td>
 
@@ -40,7 +41,7 @@ Available with
 
 </td></tr><tr><td>
 
-[EAP Solution Train dashboard](eap-solution-train-inline-dashboard.md)
+[EAP Solution Train dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/eap-solution-train-inline-dashboard.md)
 
 </td><td>
 
@@ -49,7 +50,7 @@ Available with
 
 </td></tr><tr><td>
 
-[EAP ART dashboard](eap-art-inline-dashboard.md)
+[EAP ART dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/eap-art-inline-dashboard.md)
 
 </td><td>
 
@@ -60,7 +61,7 @@ Available with
 
 </td></tr><tr><td>
 
-[EAP Agile Team dashboard](eap-agile-team-dashboard.md)The Agile Team dashboards consist of:
+[EAP Agile Team dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/eap-agile-team-dashboard.md)The Agile Team dashboards consist of:
 
 -   Agile Team Inline Dashboard
 -   Agile Team Technical Dashboard

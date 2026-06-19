@@ -2,6 +2,7 @@
 title: Value builder
 description: Maximize the usage of your Software Asset Management application capabilities by getting insights into integrations, playbooks, and other installations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/sam-value-builder.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -22,14 +23,14 @@ The sam\_user role can identify and prioritize functionalities that haven't yet 
 The Value builder functionality enables you to perform the following actions:
 
 -   Learn how close your instance is to maximizing the value of your Software Asset Management application.
--   Track Value builder tasks that are automatically generated when publisher packs aren't fully used and are identified as incomplete. You can also manually create Value builder tasks. For details see [Create a Value builder task](../task/create-valuebuilder-task.md).
+-   Track Value builder tasks that are automatically generated when publisher packs aren't fully used and are identified as incomplete. You can also manually create Value builder tasks. For details see [Create a Value builder task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-valuebuilder-task.md).
 -   Filter the data by domain or category or you can filter by both domain and category. The filter applies to the entire dashboard, and when selected, displays only the data that matches the specific filter.
 -   Prioritize or increase visibility of certain tasks by marking tasks as favorites.
 -   Stay up to date and get a glimpse of the new features available in the upcoming release.
 
 You can view a maximum of 15 tasks in the Value builder section. To see additional tasks, click **View all**.
 
-![Value builder in the Success Portal view.](../image/value-builder.png "Value builder dashboard")
+\[Omitted image "value-builder.png"\] Alt text: Value builder in the Success Portal view.
 
 ## Use case for Value builder
 
@@ -88,7 +89,7 @@ All publisher packs that are available for use and how many are actually being u
 
  Utilization of a publisher pack depends on a criteria. If the value is true for all three details in the **Usage details** section of a publisher pack record, namely **Plugin enabled?**, **Usage found?**, and **Entitlements created?**, then the publisher pack is considered to be fully used and is set to be complete. If the value for even one of the three entities is false, then the publisher pack is considered to be not fully used and is set to be incomplete. Value builder tasks are automatically created for incomplete publisher packs.
 
- The criteria for **Usage found?** differs for each publisher pack. For details on the specific **Usage found?** criteria for each publisher pack, see [Usage criteria for publisher packs](../reference/publisher-pack-criteria-usage.md).
+ The criteria for **Usage found?** differs for each publisher pack. For details on the specific **Usage found?** criteria for each publisher pack, see [Usage criteria for publisher packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/publisher-pack-criteria-usage.md).
 
 </td></tr><tr><td>
 

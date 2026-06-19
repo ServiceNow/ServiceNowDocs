@@ -2,6 +2,7 @@
 title: Components installed with Legal Digital Forensics
 description: Several types of components are installed with activation of the Legal Digital Forensics application, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/installed-with-legal-digital-forensics.html
 release: zurich
 topic_type: reference
 last_updated: "2025-07-31"
@@ -13,7 +14,7 @@ breadcrumb: [Reference, Legal Digital Forensics, Legal Service Delivery Practice
 
 Several types of components are installed with activation of the Legal Digital Forensics application, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles
 
@@ -126,5 +127,5 @@ Non Custodial Core\[sn\_lg\_forensics\_non\_custodial\_data\]
 Extends the Custodial Core table and has additional fields to store information of non-custodial records added in a digital forensics request.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legal Digital Forensics reference](legal-dft-reference.md)
+</table>**Parent Topic:**[Legal Digital Forensics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-dft-reference.md)
 

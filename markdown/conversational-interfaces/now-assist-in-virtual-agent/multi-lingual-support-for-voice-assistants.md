@@ -2,6 +2,7 @@
 title: Multilingual support for voice assistants
 description: Voice assistants support multiple languages to enable users to interact in their preferred language. This topic lists the languages available for voice interactions and linguistic capabilities of the voice assistant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/now-assist-in-virtual-agent/multi-lingual-support-for-voice-assistants.html
 release: zurich
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -32,6 +33,8 @@ Voice assistants support the following languages for user interactions:
 -   Canadian French
 -   British English
 -   Mexican Spanish
+-   Thai
+-   Hindi
 
 ## Japanese language considerations
 

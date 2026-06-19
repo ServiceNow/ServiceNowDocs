@@ -2,6 +2,7 @@
 title: Request a dataset form
 description: The Request a dataset form is designed to streamline the request process for procuring a dataset. This intake form confirms that all necessary details, supporting documents, and compliance considerations are captured before moving forward with the approval process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/ai-risk-management/request-dataset-form.html
 release: zurich
 product: AI Risk Management
 classification: ai-risk-management
@@ -123,5 +124,5 @@ Dataset card
 Detailed documentation on dataset's purpose, architecture, performance, and ethical considerations for transparency. For example, this dataset is limited to loan applications from regions 25–35 and may reflect bias due to demographic constraints.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Request a dataset](../task/request-dataset.md)
+</table>**Parent Topic:**[Request a dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/request-dataset.md)
 

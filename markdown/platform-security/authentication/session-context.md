@@ -2,6 +2,7 @@
 title: Session validation context
 description: Use the Session Validation Context as an additional layer of protection against session or cookie hijacking.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/session-context.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -15,7 +16,7 @@ breadcrumb: [Authentication policy contexts, Adaptive authentication, Authentica
 
 Use the Session Validation Context as an additional layer of protection against session or cookie hijacking.
 
-You can use the Session Validation Context with the [Adaptive authentication](adaptive-authentication.md) policy framework. The framework uses authentication policies to evaluate authentication requests and then either denies or allows access based on policy inputs and conditions.
+You can use the Session Validation Context with the [Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/adaptive-authentication.md) policy framework. The framework uses authentication policies to evaluate authentication requests and then either denies or allows access based on policy inputs and conditions.
 
 The Session Validation Context policy can be used in conjunction with post auth policy, where an admin can enforce IP restrictions to certain or all users during the logged in session.
 

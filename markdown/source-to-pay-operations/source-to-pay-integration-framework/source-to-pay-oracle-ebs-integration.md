@@ -2,6 +2,7 @@
 title: Source-to-Pay integration with Oracle EBS
 description: The Source-to-Pay integration with Oracle EBS enables you to handle sales orders, procurement, finance, and so on, in Oracle EBS from your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-oracle-ebs-integration.html
 release: zurich
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -25,19 +26,19 @@ With this application, you can perform the following:
 -   Create good receipts in Oracle EBS.
 -   Create invoices in Oracle EBS.
 
-![Overview of the Source-to-Pay integration with Oracle EBS](../image/oracle-ebs-integration-overview.png "Overview of the Source-to-Pay integration with Oracle EBS")
+\[Omitted image "oracle-ebs-integration-overview.png"\] Alt text: Overview of the Source-to-Pay integration with Oracle EBS
 
 ## Prerequisites
 
-First, you must activate the Source-to-Pay integration with the Oracle EBS application from the ServiceNow Store. This automatically activates the Oracle EBS Spoke. Next you must set up [Oracle EBS Spoke](https://www.servicenow.com/docs/csh?topicname=setup-oebs-spoke&version=yokohama&pubname=yokohama-integrate-applications).
+First, you must activate the Source-to-Pay integration with the Oracle EBS application from the ServiceNow Store. This automatically activates the Oracle EBS Spoke. Next you must set up [Oracle EBS Spoke](https://www.servicenow.com/docs/access?context=setup-oebs-spoke&version=yokohama).
 
 ServiceNow Store app plugins: sn\_Oracle EBS\_spoke.
 
-**Note:** The Source-to-Pay integration with Oracle EBS depends on the [Oracle EBS Spoke](https://www.servicenow.com/docs/csh?topicname=oebs-spoke&version=yokohama&pubname=yokohama-integrate-applications).
+**Note:** The Source-to-Pay integration with Oracle EBS depends on the [Oracle EBS Spoke](https://www.servicenow.com/docs/access?context=oebs-spoke&version=yokohama).
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## How it works
 

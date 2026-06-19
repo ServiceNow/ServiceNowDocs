@@ -2,6 +2,7 @@
 title: Add Field Service crew members in Dispatcher Workspace
 description: Add agents to the Field Service crew as needed in Dispatcher Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/add-crew-members-disp-wrkspc.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -35,9 +36,9 @@ You can add crew members on the run for undersized crew tasks, such as agent is 
 
 5.  Search for a field service agent whom you want to add to the crew.
 
-    For more information, see [Identify crews and agents for crew tasks on Dispatcher Workspace](sort-crews-for-wot.md).
+    For more information, see [Identify crews and agents for crew tasks on Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/sort-crews-for-wot.md).
 
-6.  In the agent card, click the More actions icon \(![More actions icon](../image/more_actions.png)\) and select **Add to crew**.
+6.  In the agent card, click the More actions icon \(\[Omitted image "more\_actions.png"\] Alt text: More actions icon\) and select **Add to crew**.
 
 7.  On the form, fill in the fields.
 

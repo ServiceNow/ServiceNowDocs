@@ -2,6 +2,7 @@
 title: Card bot response control
 description: Use the Card bot response control in a Virtual Agent topic to upload and display selected information from a record on your instance, along with rich content, such as a video or image.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-card-output.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -25,10 +26,10 @@ The Card bot response can show the following types of content:
 
     In the Zurich release, only YouTube videos are supported.
 
-    **Tip:** You can also use the [Video bot response control](va-video-bot-response.md) to include YouTube videos in conversations. The Video bot response control includes a navigation button that pauses the conversation. If you want the user to watch the video before continuing with the conversation, use this navigation button. When users have finished watching the video, they can click this navigation button to continue with the conversation.
+    **Tip:** You can also use the [Video bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-video-bot-response.md) to include YouTube videos in conversations. The Video bot response control includes a navigation button that pauses the conversation. If you want the user to watch the video before continuing with the conversation, use this navigation button. When users have finished watching the video, they can click this navigation button to continue with the conversation.
 
 
-**Note:** If you previously created conversations that use the [HTML bot response control](va-html-output.md) to generate card layouts, consider updating your conversations to use the Card bot response control. The Card displays information from a record in your instance and contains a link to that related record. Or, it can display images and can include rich content such as a video.
+**Note:** If you previously created conversations that use the [HTML bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-html-output.md) to generate card layouts, consider updating your conversations to use the Card bot response control. The Card displays information from a record in your instance and contains a link to that related record. Or, it can display images and can include rich content such as a video.
 
 ## Card bot response control properties
 
@@ -130,7 +131,7 @@ If you upload an image, the selected image is uploaded to the server and is stor
 
 After the image is uploaded, the URL link is included in the**Response Properties** sheet.
 
-![The link to an uploaded image is shown in the property sheet.](../images/va-upload-image-with-link-example.png)
+\[Omitted image "va-upload-image-with-link-example.png"\] Alt text: The link to an uploaded image is shown in the property sheet.
 
 Click the link to view the image.
 
@@ -165,9 +166,9 @@ Fields that correspond to the numbers shown on the template. These fields are th
 
 For example, in the path shown below, the video identifier is `FVgtjdEOa5M`.
 
-![In the URL www.youtube.com/watch?v=FVgtjdEOa5M, the video identifier is FVgtjdEOa5M.](../images/va-video-unique-id.png)
+\[Omitted image "va-video-unique-id.png"\] Alt text: In the URL www.youtube.com/watch?v=FVgtjdEOa5M, the video identifier is FVgtjdEOa5M.
 
-![In this URL, the video identifier is the video ID in curly brackets.](../images/va-video-unique-id-2.png)
+\[Omitted image "va-video-unique-id-2.png"\] Alt text: In this URL, the video identifier is the video ID in curly brackets.
 
 
 </td></tr><tr><td class="sub-head" colspan="2">
@@ -355,7 +356,7 @@ Partial support
 
 </td><td>
 
-Some types of output are only available on devices with screens. For nonscreen devices, the card title is read. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](../concept/va-settings-for-alexa.md).
+Some types of output are only available on devices with screens. For nonscreen devices, the card title is read. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-settings-for-alexa.md).
 
 </td></tr></tbody>
 </table>## Example Glide record query
@@ -392,13 +393,13 @@ Card output
 
 </th></tr></thead><tbody><tr><td>
 
-![Basic properties include the node name, card type, how the card should be populated - record or table, and the fields to return.](../images/va-card-properties.png "Card bot response control basic properties")
+\[Omitted image "va-card-properties.png"\] Alt text: Basic properties include the node name, card type, how the card should be populated - record or table, and the fields to return.
 
 </td><td>
 
-![An example card that shows the Incident and Incident number in the header. The fields shown are Category, Short description, and State.](../../notification/image/va-card-native.png "Web UI Card output")
+\[Omitted image "va-card-native.png"\] Alt text: An example card that shows the Incident and Incident number in the header. The fields shown are Category, Short description, and State.
 
- ![Example card from a Microsoft Teams conversation, showing Conversation and creation time in header. The displayed fields include Consumer, SysID, Device type, and creation date and time.](../images/Card-MSteams-01.png "Microsoft Teams Card output")
+ \[Omitted image "Card-MSteams-01.png"\] Alt text: Example card from a Microsoft Teams conversation, showing Conversation and creation time in header. The displayed fields include Consumer, SysID, Device type, and creation date and time.
 
 </td></tr></tbody>
 </table>## Example Card bot response for a large image
@@ -415,13 +416,13 @@ Card output
 
 </th></tr></thead><tbody><tr><td>
 
-![Basic properties include the node name, card type, card template, title, description, image link, and image alt text.](../images/va-card-image-props.png)
+\[Omitted image "va-card-image-props.png"\] Alt text: Basic properties include the node name, card type, card template, title, description, image link, and image alt text.
 
 </td><td>
 
-![Card that reads, "Don't forget we are going back to the office soon!" in the header. It includes the user's schedule return day and an image link to more information.](../images/va-bot-card-web-image.png "Web UI image card output")
+\[Omitted image "va-bot-card-web-image.png"\] Alt text: Card that reads, "Don't forget we are going back to the office soon!" in the header. It includes the user's schedule return day and an image link to more information.
 
- ![Microsoft Teams image card, showing header title Scenery, and placeholder line Scenery Description.](../images/Card-MSteams-02.png "Microsoft Teams UI image card")
+ \[Omitted image "Card-MSteams-02.png"\] Alt text: Microsoft Teams image card, showing header title Scenery, and placeholder line Scenery Description.
 
 </td></tr></tbody>
 </table>## Example Card bot response for a small image
@@ -430,7 +431,7 @@ The Card response layout for images may vary across channels.
 
 |Response properties|Card output|
 |-------------------|-----------|
-|![Basic properties include the node name, card type, template, title, description, image link, and image alt text.](../images/va-card-image-props-small-image.png)| |
+|\[Omitted image "va-card-image-props-small-image.png"\] Alt text: Basic properties include the node name, card type, template, title, description, image link, and image alt text.| |
 
 ## Example Card bot response with video content
 
@@ -446,12 +447,12 @@ Card output
 
 </th></tr></thead><tbody><tr><td>
 
-![Basic properties include the node name, card type, template, title, title link, description, and YouTube video ID.](../images/va-card-video-properties-3.png)
+\[Omitted image "va-card-video-properties-3.png"\] Alt text: Basic properties include the node name, card type, template, title, title link, description, and YouTube video ID.
 
 </td><td>
 
-![Microsoft Teams video card, showing header title Video Example, and placeholder line Video Example Description.](../images/Card-MSteams-03.png "Card bot response output with video on Microsoft Teams")
+\[Omitted image "Card-MSteams-03.png"\] Alt text: Microsoft Teams video card, showing header title Video Example, and placeholder line Video Example Description.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Virtual Agent Designer bot responses](va-bot-responses.md)
+</table>**Parent Topic:**[Virtual Agent Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

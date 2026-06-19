@@ -2,6 +2,7 @@
 title: SNMPNetworkInterfaces - Global
 description: The SNMPNetworkInterfaces script include provides methods to create network interfaces for JavaScript SNMP sensors.Analyzes the SNMP data and reconciles the discovered NICs to the CMDB's NICs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_SNMPNetworkInterfacesAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The SNMPNetworkInterfaces script include provides methods to create network inte
 
 Use this script include in discovery scripts when you need to create network interfaces for JavaScript SNMP sensors.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## SNMPNetworkInterfaces - process\(String cmdb\_ci, String doc, Boolean isComputer, String agentName, String ecc\_sys\_id\)
 

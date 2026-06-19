@@ -2,6 +2,7 @@
 title: Delegated Development
 description: Delegated Development enables application development beyond IT while maintaining governance over the platform, developer privileges, application resources, and data access. Designated users without a system admin role can develop or deploy applications on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/delegated-development-and-deployment/delegated-development-landing.html
 release: zurich
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
@@ -19,19 +20,19 @@ Delegated Development enables application development beyond IT while maintainin
 
 <table id="table_kqw_nbc_1dc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Delegated Development features and concepts.](../concept/c_DelegatedDevelopment.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Delegated Development features and concepts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure permissions and users.](../task/configuring-delegated-development.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure permissions and users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/configuring-delegated-development.md)
 
 </td><td>
 
-[Administer![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Administer permissions and users.](../task/administer-delegated-development.md)
+[Administer\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Administer permissions and users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/administer-delegated-development.md)
 
 </td></tr><tr><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about Delegated Development deployment and release states.](delegated-development-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about Delegated Development deployment and release states.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/delegated-development-reference.md)
 
 </td><td>
 

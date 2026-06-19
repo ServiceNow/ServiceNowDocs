@@ -2,6 +2,7 @@
 title: Adding an HR task to an HR case
 description: You can add, view, or work on HR tasks assigned to HR cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/t\_ViewAnHRTask.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -83,7 +84,7 @@ Stage
 
 The stage \(bundle\) of a lifecycle event case.Use this field to define what activity set in a lifecycle event case you want to add an ad hoc task to.
 
- For more information, see [Ad hoc cases and tasks for lifecycle event cases](../concept/le-ad-hoc-task.md#).
+ For more information, see [Ad hoc cases and tasks for lifecycle event cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/le-ad-hoc-task.md).
 
 </td></tr><tr><td>
 
@@ -107,7 +108,7 @@ Reminder template
 
 </td><td colspan="2">
 
-Select the email template used for reminder notifications. Email templates are set up from **HR Administration** &gt; **Email Content**.Refer to [Add or modify email content for notifications](CreateModEmailTemplate.md).
+Select the email template used for reminder notifications. Email templates are set up from **HR Administration** &gt; **Email Content**.Refer to [Add or modify email content for notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/CreateModEmailTemplate.md).
 
 </td></tr><tr><td>
 
@@ -139,7 +140,7 @@ HR Service
 
 </td><td>
 
-An HR service fulfills the HR task. In the **HR Service** field, select an HR service.**Note:** **Bulk Parent Case** does not appear as a selection because it is only used when creating a parent case for child bulk cases. Refer to [Create a bulk case request](t_CreateBulkCases.md).
+An HR service fulfills the HR task. In the **HR Service** field, select an HR service.**Note:** **Bulk Parent Case** does not appear as a selection because it is only used when creating a parent case for child bulk cases. Refer to [Create a bulk case request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateBulkCases.md).
 
 </td></tr><tr><td>
 
@@ -163,7 +164,7 @@ Collect Employee Input
 
 </td><td>
 
-Collects information from employees. In the **Employee form** field, select the employee form that the user fills out or verifies.**Note:** Employee forms are questionnaires built using the survey designer to collect information from employees. See [Collect employee input](../concept/employee-form-configuration.md) for more information.
+Collects information from employees. In the **Employee form** field, select the employee form that the user fills out or verifies.**Note:** Employee forms are questionnaires built using the survey designer to collect information from employees. See [Collect employee input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/employee-form-configuration.md) for more information.
 
 </td></tr><tr><td>
 
@@ -181,8 +182,8 @@ E-signature
 
 User electronically signs a document. In the **E-signature template** field, select the e-signature template to use.**Note:**
 
--   E-signature is a scoped application that enables you to sign managed documents, knowledge articles, or HR document templates. You can type or draw your signature, credentials, or acknowledgment. See [HR e-signature](../concept/hr-e-signature.md) for more information.
--   If HR document template has a document type of e-signature template, select the HR document template that the signatory signs on the HR case form. See [Select an HR document template for an e-signature task](select-hr-document-template-for-e-signature-task.md) for more information.
+-   E-signature is a scoped application that enables you to sign managed documents, knowledge articles, or HR document templates. You can type or draw your signature, credentials, or acknowledgment. See [HR e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-e-signature.md) for more information.
+-   If HR document template has a document type of e-signature template, select the HR document template that the signatory signs on the HR case form. See [Select an HR document template for an e-signature task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/select-hr-document-template-for-e-signature-task.md) for more information.
 
 
 </td></tr><tr><td>
@@ -191,7 +192,7 @@ Credential
 
 </td><td>
 
-Indicates that you want the user to acknowledge reading a document by logging in with their login credentials. The **Acknowledgment text** and **Acknowledgement document** fields appear. Using these fields shows a check box and text above the login credentials. In the Acknowledgement document field, select a document that the user is asked to read.**Note:** This option is only available for existing customers that have not yet migrated to e-signature. See [Migrate existing HR task templates and open HR tasks to e-signature](migrate-existing-tasks-to-scoped-e-signature.md) for more information.
+Indicates that you want the user to acknowledge reading a document by logging in with their login credentials. The **Acknowledgment text** and **Acknowledgement document** fields appear. Using these fields shows a check box and text above the login credentials. In the Acknowledgement document field, select a document that the user is asked to read.**Note:** This option is only available for existing customers that have not yet migrated to e-signature. See [Migrate existing HR task templates and open HR tasks to e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/migrate-existing-tasks-to-scoped-e-signature.md) for more information.
 
 </td></tr><tr><td>
 
@@ -199,7 +200,7 @@ E-Signature
 
 </td><td>
 
-Indicates that you want the user to provide an e-signature to acknowledge or validate a document. The **Acknowledgment text** and **Acknowledgement document** fields appear. Using these fields shows a check box and text above the e-signature.**Note:** This option is only available for existing customers that have not yet migrated to e-signature. See [Migrate existing HR task templates and open HR tasks to e-signature](migrate-existing-tasks-to-scoped-e-signature.md) for more information.
+Indicates that you want the user to provide an e-signature to acknowledge or validate a document. The **Acknowledgment text** and **Acknowledgement document** fields appear. Using these fields shows a check box and text above the e-signature.**Note:** This option is only available for existing customers that have not yet migrated to e-signature. See [Migrate existing HR task templates and open HR tasks to e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/migrate-existing-tasks-to-scoped-e-signature.md) for more information.
 
 </td></tr><tr><td>
 
@@ -215,7 +216,7 @@ Sign Document
 
 </td><td>
 
-Requests the user to sign a document. An example is sending an education agreement to be signed for tuition reimbursement. The **Acknowledgment text** field appears. Using this field shows a check box and text above the signature.**Note:** This option is only available for existing customers that have not yet migrated to e-signature. See [Migrate existing HR task templates and open HR tasks to e-signature](migrate-existing-tasks-to-scoped-e-signature.md) for more information.
+Requests the user to sign a document. An example is sending an education agreement to be signed for tuition reimbursement. The **Acknowledgment text** field appears. Using this field shows a check box and text above the signature.**Note:** This option is only available for existing customers that have not yet migrated to e-signature. See [Migrate existing HR task templates and open HR tasks to e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/migrate-existing-tasks-to-scoped-e-signature.md) for more information.
 
  After the user signs the document, the document is generated with the signature and attached to the task. The task is closed complete and the document is attached to the case.
 
@@ -225,7 +226,7 @@ Take Survey
 
 </td><td>
 
-In the **Survey** field, select a survey that the user is assigned to take.**Note:** For lifecycle event cases, this feature also works if the subject person or anyone that has access to the original lifecycle event case can answer the survey question. For more information, see [Triggering an activity from upstream activities](configure-hr-lifecycle-event-activity.md#).
+In the **Survey** field, select a survey that the user is assigned to take.**Note:** For lifecycle event cases, this feature also works if the subject person or anyone that has access to the original lifecycle event case can answer the survey question. For more information, see [Triggering an activity from upstream activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md).
 
 </td></tr><tr><td>
 
@@ -338,7 +339,7 @@ Connect
 
 Selecting Connect indicates your company is using ServiceNow Connect messaging. After you select Queue, the Queue field appears below it. Select a chat queue you want to support the task you are creating. You can further filter by selecting specific skills.In previous releases, this field was labelled Queue.
 
- **Note:** The Connect support \(com.glide.connect.support\) plugin was deprecated. For more information, see [Activate Connect Support](https://www.servicenow.com/docs/access?context=t_ActivateConnectSupport&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+ **Note:** The Connect support \(com.glide.connect.support\) plugin was deprecated. For more information, see Activate Connect Support.
 
 </td></tr><tr><td>
 
@@ -412,7 +413,7 @@ Additional comments \(Customer visible\)
 
 </td><td colspan="2">
 
-Enter comments, updates, or information about the task that is visible to the **Subject person** on the case.**Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see [Dynamic translation](https://www.servicenow.com/docs/access?context=dynamic-translation-overview&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Enter comments, updates, or information about the task that is visible to the **Subject person** on the case.**Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see Dynamic translation.
 
 </td></tr><tr><td>
 
@@ -420,7 +421,7 @@ Work notes
 
 </td><td colspan="2">
 
-Enter notes about the case to correspond with other HR agents. These notes are not visible to the **Subject person**. **Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see [Dynamic translation](https://www.servicenow.com/docs/access?context=dynamic-translation-overview&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Enter notes about the case to correspond with other HR agents. These notes are not visible to the **Subject person**. **Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see Dynamic translation.
 
 </td></tr></tbody>
 </table>4.  You can:
@@ -431,15 +432,15 @@ Enter notes about the case to correspond with other HR agents. These notes are n
     -   Click **View Responses** to view the feedback submitted by an employee via the form sent through the HR task of type **Collect Employee Input**.
 5.  Perform any of the following actions.
 
-<table id="choicetable_fp3_2wv_rr"><thead><tr><th align="left" id="d193045e1002">
+<table id="choicetable_fp3_2wv_rr"><thead><tr><th align="left" id="d118762e1002">
 
 Action
 
-</th><th align="left" id="d193045e1005">
+</th><th align="left" id="d118762e1005">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d193045e1011">
+</th></tr></thead><tbody><tr><td id="d118762e1011">
 
 **Assign to me**
 
@@ -447,7 +448,7 @@ Description
 
 Click
 
-</td></tr><tr><td id="d193045e1020">
+</td></tr><tr><td id="d118762e1020">
 
 **Close a task**
 
@@ -455,7 +456,7 @@ Click
 
 Enter information in the **Work notes** field and other fields as needed, and change the **State** to **Closed Complete**.**Note:** All HR tasks must be closed before the parent HR case can be closed.
 
-</td></tr><tr><td id="d193045e1041">
+</td></tr><tr><td id="d118762e1041">
 
 **Clone task**
 
@@ -463,7 +464,7 @@ Enter information in the **Work notes** field and other fields as needed, and ch
 
 Click the **Clone Task** related link. Enter the new task information in the task form and click **Update**.
 
-</td></tr><tr><td id="d193045e1056">
+</td></tr><tr><td id="d118762e1056">
 
 **Cancel the task**
 
@@ -471,7 +472,7 @@ Click the **Clone Task** related link. Enter the new task information in the tas
 
 Click **Cancel Task** in the form header.
 
-</td></tr><tr><td id="d193045e1069">
+</td></tr><tr><td id="d118762e1069">
 
 **Review the progress of sibling tasks**
 
@@ -479,7 +480,7 @@ Click **Cancel Task** in the form header.
 
 The **Sibling Tasks** tab shows all tasks under the same case. Click a task number to see the details.
 
-</td></tr><tr><td id="d193045e1081">
+</td></tr><tr><td id="d118762e1081">
 
 **HR Document Acknowledgement**
 
@@ -503,8 +504,8 @@ Lists HR document acknowledgement types returned from an employee. You can filte
 7.  Click **Update**.
 
 
--   **[Create Office Space Request Task](HRTaskOfficeSpaceReq.md)**  
+-   **[Create Office Space Request Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/HRTaskOfficeSpaceReq.md)**  
 As part of the onboarding process, you can find and reserve an office space for a new hire.
 
-**Parent Topic:**[Work an HR case](t_CreateAnHRCase.md)
+**Parent Topic:**[Work an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateAnHRCase.md)
 

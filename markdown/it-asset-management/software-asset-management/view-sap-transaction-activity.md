@@ -2,6 +2,7 @@
 title: View active transaction codes for your SAP users
 description: View the SAP transaction codes \(t-codes\) that were actively used by your SAP users. This list is compared against your reclamation rules to determine whether the user is assigned an optimized license.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/view-sap-transaction-activity.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -19,7 +20,7 @@ View the SAP transaction codes \(t-codes\) that were actively used by your SAP u
 
 Role required: admin
 
-**Important:** You can view these SAP transaction codes in both the Software Asset Management classic application and the Software Asset Workspace. The following steps provide details on viewing these transaction codes in the Software Asset Management classic application. For details on viewing these transaction codes in the Software Asset Workspace, see [View SAP users in workspace](view-sapusers-workspace.md).
+**Important:** You can view these SAP transaction codes in both the Software Asset Management classic application and the Software Asset Workspace. The following steps provide details on viewing these transaction codes in the Software Asset Management classic application. For details on viewing these transaction codes in the Software Asset Workspace, see [View SAP users in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/view-sapusers-workspace.md).
 
 ## Procedure
 
@@ -34,5 +35,5 @@ Role required: admin
 4.  On the SAP System User record, select the **SAP User Active Transactions** related tab to view the complete list of SAP transaction codes that were discovered for the given user.
 
 
-**Parent Topic:**[User transaction activity for named user types](../concept/sap-named-user-transaction-activity.md)
+**Parent Topic:**[User transaction activity for named user types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sap-named-user-transaction-activity.md)
 

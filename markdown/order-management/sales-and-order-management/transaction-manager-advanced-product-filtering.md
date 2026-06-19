@@ -2,6 +2,7 @@
 title: Transaction Manager: Advanced product filtering
 description: In Transaction Manager, you can dynamically filter products based on any number of factors, with real-time data synchronization from managed tables and fast search speeds even in very large catalogs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/transaction-manager-advanced-product-filtering.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -100,7 +101,7 @@ First, define a managed table. Follow these steps:
     The system syncs the updated data every 15 minutes, making the latest information available during product filtering.
 
 
-![Tables list](../images/cpq-txn-mgr-adv-product-filtering-1.png)
+\[Omitted image "cpq-txn-mgr-adv-product-filtering-1.png"\] Alt text: Tables list
 
 Next, create a product filter rule.
 
@@ -123,9 +124,9 @@ Next, create a product filter rule.
 
 **Note:** Any change made to an existing rule must be redeployed for it to take effect.
 
-![Product filter rules](../images/cpq-txn-mgr-adv-product-filtering-2.png)
+\[Omitted image "cpq-txn-mgr-adv-product-filtering-2.png"\] Alt text: Product filter rules
 
-![Product pricing screen](../images/cpq-txn-mgr-adv-product-filtering-3.png)
+\[Omitted image "cpq-txn-mgr-adv-product-filtering-3.png"\] Alt text: Product pricing screen
 
 To test the filter in a transaction, start a transaction in the Transaction Manager, and the proceed to the product selection stage.
 

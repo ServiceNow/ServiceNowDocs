@@ -2,6 +2,7 @@
 title: Review the domain order related items associated with a domain order
 description: Review the domain order related line items that were generated for a customer order line item so that you can confirm all the related details are correct and complete.OM revamp project - Check the validity of this topic with dev.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/order-mgt-review-domain-order-related-item.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -33,15 +34,15 @@ Review if compatibility rules or horizontal relationships are configured for dom
 
     For change, the new column **Existing related inventory** displays **True** for the domain order related items that are created using existing valid product inventory relationships and **False** for the domain order related items that are newly created.
 
-<table id="choicetable_u3t_rjd_54b"><thead><tr><th align="left" id="d98562e88">
+<table id="choicetable_u3t_rjd_54b"><thead><tr><th align="left" id="d98090e88">
 
 Task
 
-</th><th align="left" id="d98562e91">
+</th><th align="left" id="d98090e91">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d98562e97">
+</th></tr></thead><tbody><tr><td id="d98090e97">
 
 **Review an existing domain order related item**
 
@@ -49,11 +50,11 @@ Action
 
 1.  Select the **Domain Order Related Items \(n\)** tab \(where \(n\) is the number of domain order related items that are associated with the selected domain order\) to access the Domain Order Related Items form.
 2.  In the **Number** field, select an existing or new domain order related item to review.
- -   To refresh the form, select the refresh icon ![](../image/form-refresh.png).
--   To filter the existing domain order related items, select the filter icon ![](../image/form-filter.png).
+ -   To refresh the form, select the refresh icon \[Omitted image "form-refresh.png"\] Alt text:.
+-   To filter the existing domain order related items, select the filter icon \[Omitted image "form-filter.png"\] Alt text:.
 
 
-</td></tr><tr><td id="d98562e140">
+</td></tr><tr><td id="d98090e142">
 
 **Create a new domain order related item**
 

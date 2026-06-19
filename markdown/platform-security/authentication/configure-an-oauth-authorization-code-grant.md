@@ -2,6 +2,7 @@
 title: Configure an OAuth authorization code grant
 description: Configure the OAuth authorization code grant to enable secure and interactive user authentication to enable applications to access resources on behalf of users. The OAuth authorization code grant verifies that the API access is granted based on the user identity and permissions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/configure-an-oauth-authorization-code-grant.html
 release: zurich
 product: Authentication
 classification: authentication

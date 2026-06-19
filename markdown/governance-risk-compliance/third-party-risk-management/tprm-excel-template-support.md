@@ -2,6 +2,7 @@
 title: Using a Microsoft Excel spreadsheet template for external questionnaires
 description: Third parties and engagements can use a Microsoft Excel spreadsheet to respond to questionnaires by downloading the template, completing it, and importing the final version into the Third-party portal. This enables respondents to provide information outside the third-party portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-excel-template-support.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -19,17 +20,17 @@ Third parties and engagements can use a Microsoft Excel spreadsheet to respond t
 
 You can access the questionnaire template through the Vendor Management Workspace, Classic user interface, or through the third-party portal.
 
-If you have the Third-party risk \(TPR\) assessor \[sn\_vdr\_risk\_asmt.vendor\_assessor\] or TPR manager \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\] role, you can download the questionnaire template by navigating to the questionnaire you want and selecting **View responses**. For more information on the questionnaire template process, see [Respond using a Microsoft Excel template](../task/tprm-tpcontact-use-excel.md).
+If you have the Third-party risk \(TPR\) assessor \[sn\_vdr\_risk\_asmt.vendor\_assessor\] or TPR manager \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\] role, you can download the questionnaire template by navigating to the questionnaire you want and selecting **View responses**. For more information on the questionnaire template process, see [Respond using a Microsoft Excel template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-tpcontact-use-excel.md).
 
 To view a questionnaire using the Classic user interface, select **All** &gt; **Self-Service** &gt; **Third-party risk management** &gt; **External risk assessments** &gt; **All open**, select the assessment you want, and then select **View responses** next to the questionnaire you want in the Questionnaire related list. After the questionnaire page has opened, select the Download Excel template link.
 
-To view a questionnaire using the Vendor Management Workspace, select **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../image/icon-tprm-ws-list.png) and then navigate to **External risk assessments**. After choosing the assessment you want, navigate to the Questionnaires and document requests section of the Risk overview tab and select the questionnaire you want. After the questionnaire page has opened, select the Download Excel template link.
+To view a questionnaire using the Vendor Management Workspace, select **Workspaces** &gt; **Vendor Management Workspace**, select the list icon \[Omitted image "icon-tprm-ws-list.png"\] Alt text: and then navigate to **External risk assessments**. After choosing the assessment you want, navigate to the Questionnaires and document requests section of the Risk overview tab and select the questionnaire you want. After the questionnaire page has opened, select the Download Excel template link.
 
-**Note:** As TPR assessor or TPR manager you can submit a questionnaire after completing this process on behalf of a third party or engagement contact if the **Allow assessors to answer/edit questionnaires for third-party contacts** property \(**sn\_svdp.allow\_assessor\_edit**\) is active. For more information on configuring this property and responding to questionnaires, see [Configure TPRM properties](../../grc-vendor-risk-implementation/task/tprm-properties-configure.md), [Respond to a questionnaire for a third party or engagement](../../grc-vendor-risk/task/tprm-respond-for-tp.md), and [Review responses to external questionnaires](../task/tprm-ws-assessment-rvw-response.md).
+**Note:** As TPR assessor or TPR manager you can submit a questionnaire after completing this process on behalf of a third party or engagement contact if the **Allow assessors to answer/edit questionnaires for third-party contacts** property \(**sn\_svdp.allow\_assessor\_edit**\) is active. For more information on configuring this property and responding to questionnaires, see [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md), [Respond to a questionnaire for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-respond-for-tp.md), and [Review responses to external questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-ws-assessment-rvw-response.md).
 
 The following example shows the questionnaire page.
 
-![View of a sample questionnaire page. For the text description, refer to the text that precedes and follows this example.](../../grc-vendor-risk/image/import-q-view.png "Sample questionnaire example")
+\[Omitted image "import-q-view.png"\] Alt text: View of a sample questionnaire page. For the text description, refer to the text that precedes and follows this example.
 
 **Important:** The questionnaire template is downloaded in the .xlsx format and after being completed must be uploaded in the same format.
 
@@ -45,7 +46,7 @@ Import a completed questionnaire by selecting Import and then selecting the file
 
 The following example shows the dialog box and import log.
 
-![View of an import log. For the text description, refer to the text that precedes this example.](../../grc-vendor-risk/image/import-log.png "Import log example")
+\[Omitted image "import-log.png"\] Alt text: View of an import log. For the text description, refer to the text that precedes this example.
 
 ## Limitations
 
@@ -63,7 +64,7 @@ The questionnaire template has the following limitations and requirements.
 
 For more information about questionnaire template requirements, see the **Instructions** tab in the questionnaire template file.
 
-For instructions that you can send to third-party contacts, see [Respond using a Microsoft Excel template](../task/tprm-tpcontact-use-excel.md).
+For instructions that you can send to third-party contacts, see [Respond using a Microsoft Excel template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-tpcontact-use-excel.md).
 
-**Note:** Due to license restrictions, you can’t download Shared Assessments Standardized Information Gathering \(SIG\) questionnaire templates. For more information about using SIG questionnaires, see [Using the SIG questionnaire for a risk assessment](../../grc-vendor-risk/concept/tprm-sig-use-and-support.md).
+**Note:** Due to license restrictions, you can’t download Shared Assessments Standardized Information Gathering \(SIG\) questionnaire templates. For more information about using SIG questionnaires, see [Using the SIG questionnaire for a risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-sig-use-and-support.md).
 

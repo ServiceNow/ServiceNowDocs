@@ -2,6 +2,7 @@
 title: Define threshold rules for a test measure definition
 description: Set rules or criteria to evaluate the results of test measures. These rules establish thresholds that determine the acceptable performance and quality metrics for a service under evaluation. If test measure results exceed or fall below these thresholds, it indicates a deviation from expected performance levels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/define-threshold-rules.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"

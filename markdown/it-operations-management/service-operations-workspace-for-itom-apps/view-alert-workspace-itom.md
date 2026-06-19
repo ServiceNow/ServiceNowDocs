@@ -2,6 +2,7 @@
 title: Alerts in Service Operations Workspace
 description: The Service Operations Workspace interface displays an alerts list and details on specific alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/view-alert-workspace-itom.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -17,7 +18,7 @@ The Service Operations Workspace interface displays an alerts list and details o
 
 When clicking an alert in the alerts list, the **Details** tab of the selected alert appears and the issue that caused the alert \(the identified issue\) appears in the alert title. Only the subtabs relevant to the alert appear on the resulting page. For example, the **Alerts in Group** option appears in the **Related records** tab only for alert groups.
 
-![Details of an open alert.](../image/alert-details-tab-sow.png "Details tab")
+\[Omitted image "alert-details-tab-sow.png"\] Alt text: Details of an open alert.
 
 The following table describes areas on the alert form.
 

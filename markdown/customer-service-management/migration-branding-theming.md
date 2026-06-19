@@ -2,7 +2,10 @@
 title: Branding and theming
 description: Learn about branding and theming for your Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/migration-branding-theming.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -17,7 +20,7 @@ Branding and theming enables you to customize your Configurable Workspace to you
 
 For more information about branding and theming, see the following topics:
 
--   [View the brand and theme setting in your workspace experience](https://www.servicenow.com/docs/access?context=workspace-view-theme-setting&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
--   [Configuring Next Experience with Theme Builder](https://www.servicenow.com/docs/access?context=configuring-next-experience-with-theme-builder&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
--   [Configuring Next Experience themes and preferences](https://www.servicenow.com/docs/access?context=config-next-experience-themes-prefs&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
+-   View the brand and theme setting in your workspace experience
+-   
+-   
 

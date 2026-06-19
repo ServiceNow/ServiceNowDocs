@@ -2,6 +2,7 @@
 title: Request an order guide
 description: Once created, order guides present the customer with a three-step ordering process by default.Consider a scenario where you have a New Employee Hire order guide that provides services and items as part of the onboarding process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/t\_OrderProcess.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -34,7 +35,7 @@ Role required: admin
     **Note:** The Check Out step can be omitted from an order guide to provide a quicker two-step process. To omit this third step, select the **Two step** check box when creating the order guide.
 
 
-**Parent Topic:**[Order guides](../concept/c_ServiceCatalogOrderGuides.md)
+**Parent Topic:**[Order guides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_ServiceCatalogOrderGuides.md)
 
 ## Review an order guide example
 

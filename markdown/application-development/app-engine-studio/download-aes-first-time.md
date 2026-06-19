@@ -1,7 +1,8 @@
 ---
 title: Install AES from the ServiceNow Store for the first time
-description: Install App Engine Studio \(AES\) from the ServiceNow Store for the first time. The installation involves several easy steps. Some steps are performed on the ServiceNow Store and some in your ServiceNow AI Platform instance.
+description: Install App Engine Studio \(AES\) from the ServiceNow Store for the first time. The installation involves several steps. Some steps are performed on the ServiceNow Store and some in your ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/download-aes-first-time.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -13,7 +14,7 @@ breadcrumb: [AES and the ServiceNow Store, Installing, Configure, App Engine Stu
 
 # Install AES from the ServiceNow Store for the first time
 
-Install App Engine Studio \(AES\) from the ServiceNow Store for the first time. The installation involves several easy steps. Some steps are performed on the ServiceNow Store and some in your ServiceNow AI Platform instance.
+Install App Engine Studio \(AES\) from the ServiceNow Store for the first time. The installation involves several steps. Some steps are performed on the ServiceNow Store and some in your ServiceNow AI Platform instance.
 
 ## Before you begin
 
@@ -34,5 +35,5 @@ For a list of all dependencies and tools installed with the AES product, see the
 3.  Run the installation on your instance, and accept all the plugins.
 
 
-**Parent Topic:**[AES and the ServiceNow Store](../concept/aes-installation-store.md)
+**Parent Topic:**[AES and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-installation-store.md)
 

@@ -2,6 +2,7 @@
 title: List of Budget policy creation fields
 description: Fields on the Budget policy creation form help you create a budget policy to specify a budgeted amount, cost type, reset period, and other aspects of the budget.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/budget-policy-fields.html
 release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -217,5 +218,5 @@ Users to notify by email when the following conditions occur:-   Budget is forec
 -   Budget is invalid.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Cost Management reference](../concept/reference-cloudinsights.md)
+</table>**Parent Topic:**[Cloud Cost Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/reference-cloudinsights.md)
 

@@ -2,6 +2,7 @@
 title: Allow List Entries
 description: The Allow List Entries display records created through Block Requests with the Allow action. It lists allowed hash observables with a Success or Expired status and provides key details such as observable type, source, status, active state, date added, and complete activity history, including status and expiration updates from the CrowdStrike platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/cs-fal-insight-allow-list-entries.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -25,7 +26,7 @@ Role required: sn\_si.analyst
 
 2.  Select **Entry Value**.
 
-    For a description of the field values, see [Allow and Block Request List Entries](../reference/allow-and-block-list-properties.md).
+    For a description of the field values, see [Allow and Block Request List Entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/allow-and-block-list-properties.md).
 
 3.  Select **Submit**.
 

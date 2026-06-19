@@ -2,6 +2,7 @@
 title: Menu style customization
 description: You can customize menu styles in the style sheets your site uses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/content-management-system/c\_CustomizeTheMenuStyle.html
 release: zurich
 product: Content Management System
 classification: content-management-system
@@ -264,5 +265,5 @@ TABLE.super_menu_video_table {
 }
 ```
 
-**Parent Topic:**[Menu types](../reference/r_MenuTypes.md)
+**Parent Topic:**[Menu types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/content-management-system/r_MenuTypes.md)
 

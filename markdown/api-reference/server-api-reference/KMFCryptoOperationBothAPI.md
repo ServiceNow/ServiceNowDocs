@@ -2,6 +2,7 @@
 title: KMFCryptoOperation - Scoped, Global
 description: The KMFCryptoOperation class provides methods for performing cryptographic operations using a Key Management Framework \(KMF\) cryptographic module or a Field Encryption encryption module.Creates a KMFCryptoOperation object for the specified module and operation.Performs the cryptographic operation defined by the current KMFCryptoOperation object on the supplied data and returns the result.Sets the additional input needed to perform the cryptographic operation.Sets the algorithm associated with the key material to wrap.Sets the data format for the input data on which the cryptographic operation will be performed. Uses the specified format when decoding the data.Sets the data format of the output data that is returned by the cryptographic operation. Uses the specified format when encoding the data.Sets the data type for the output data returned after the cryptographic operation is performed.Sets the sys\_id of the key to wrap on the KMFCryptoOperation object. Applicable to symmetric and asymmetric wrapping of keys.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/KMFCryptoOperationBothAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,13 +16,13 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The KMFCryptoOperation class provides methods for performing cryptographic operations using a Key Management Framework \(KMF\) cryptographic module or a Field Encryption encryption module.
 
-To use this API, you must have already created and configured a KMF cryptographic module or a CLE encryption module. The module must have one or more cryptographic specifications and you must create or import its associated key. For details, see [Cryptographic modules](https://www.servicenow.com/docs/access?context=crypto-module-overview&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+To use this API, you must have already created and configured a KMF cryptographic module or a CLE encryption module. The module must have one or more cryptographic specifications and you must create or import its associated key. For details, see Cryptographic modules.
 
 The KMFCryptoOperation object generated using this API represents a cryptographic operation, such as a Symmetric Encryption. Use the KMFCryptoOperations\(\) method to create this object, the builder methods to set properties on the object, and the doOperation\(\) method to execute the operation.
 
 You can use this API in both scoped and global applications. You must always specify the `sn_kmf_ns` namespace when calling this API.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## KMFCryptoOperation - KMFCryptoOperation\(String cryptoModuleName, String operationName\)
 
@@ -31,9 +32,9 @@ This API leverages builder methods. Builder methods update properties on the KMF
 
 The following builder methods are valid for all operation types:
 
--   [withInputFormat\(\)](KMFCryptoOperationBothAPI.md#)
--   [withOutputFormat\(\)](KMFCryptoOperationBothAPI.md#)
--   [withOutputType\(\)](KMFCryptoOperationBothAPI.md#)
+-   [withInputFormat\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/KMFCryptoOperationBothAPI.md)
+-   [withOutputFormat\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/KMFCryptoOperationBothAPI.md)
+-   [withOutputType\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/KMFCryptoOperationBothAPI.md)
 
 **Important:** Base64 input values used in this document must be URL safe \(contains only A-Z, a-z, 0-9, dash\( - \) and underscore\( \_ \) characters\).
 
@@ -59,7 +60,7 @@ String
 
 </td><td>
 
-Name of the Key Management Framework \(KMF\) cryptographic module or Field Encryption encryption module to use. You must create the module before calling this method. For details, see [Cryptographic module overview](https://www.servicenow.com/docs/access?context=crypto-module-overview&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+Name of the Key Management Framework \(KMF\) cryptographic module or Field Encryption encryption module to use. You must create the module before calling this method. For details, see Cryptographic module overview.
 
 </td></tr><tr><td>
 
@@ -82,7 +83,7 @@ Name of the operation to perform.Valid values \(not case-sensitive\):
     -   Additional builder methods: withAdditionalInput\(\)
     -   Default input format: KMFBase64 - Base64 encoded
     -   Default output format: Formatted - Formatted to the KMF specifications
-    -   Default output type: String . Output can also be an [KMFEncryptionPayload](KMFCryptoOperationBothAPI.md#KMFEncryptionPayload) object. RSA and EC-IES are compatible with both. For additional information on the KMFEncryptionPayload object, see [withAdditionalInput\(\)](KMFCryptoOperationBothAPI.md#KMFEncryptionPayload).
+    -   Default output type: String . Output can also be an [KMFEncryptionPayload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/KMFCryptoOperationBothAPI.md) object. RSA and EC-IES are compatible with both. For additional information on the KMFEncryptionPayload object, see [withAdditionalInput\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/KMFCryptoOperationBothAPI.md).
 -   ASYMMETRIC\_UNWRAPPING: Key unwrapping using an asymmetric-key algorithm. Requires a KMF cryptographic module with an Asymmetric Key Unwrapping cryptographic purpose.
     -   Additional builder methods: withAlgorithm\(\)
     -   Default input format: Formatted - Formatted to the KMF specifications
@@ -442,7 +443,7 @@ Format of the input data.Valid values:
 -   KMF\_GLIDE\_ENCRYPTER\_FORMATTED: Support decryptions of both KMF encrypted values and GlideEncrypter encrypted values.
 -   KMFNONE: No encoding.
 
-Default: Value determined by the operation specified when the KMFCryptoOperation object was instantiated. For more information, see [KMFCryptoOperation - KMFCryptoOperation\(String cryptoModuleName, String operationName\)](KMFCryptoOperationBothAPI.md#).
+Default: Value determined by the operation specified when the KMFCryptoOperation object was instantiated. For more information, see [KMFCryptoOperation - KMFCryptoOperation\(String cryptoModuleName, String operationName\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/KMFCryptoOperationBothAPI.md).
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -498,7 +499,7 @@ Format of the output data.Valid values:
 -   KMFBASE64: Base64 encoded.
 -   KMFNONE: No decoding. Only supported for MAC\_VERIFICATION and SIGNATURE\_VERIFICATION.
 
- Default if this method is not called: Value determined by the operation specified when the KMFCryptoOperation object was instantiated. For more information, see [KMFCryptoOperation - KMFCryptoOperation\(String cryptoModuleName, String operationName\)](KMFCryptoOperationBothAPI.md#).
+ Default if this method is not called: Value determined by the operation specified when the KMFCryptoOperation object was instantiated. For more information, see [KMFCryptoOperation - KMFCryptoOperation\(String cryptoModuleName, String operationName\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/KMFCryptoOperationBothAPI.md).
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -548,9 +549,9 @@ Type of output data.Not all output types are applicable to all operations. For a
 -   Boolean: Only valid for **MAC\_VERIFICATION** or **SIGNATURE\_VERIFICATION** operations.
 -   Payload: Only valid for the **ASYMMETRIC\_ENCRYPTION** operation. Use this output type for EC-IES.
 
- **Note:** When specifying an output of `Payload`, the output of the doOperation\(\) method is a KMFEncryptionPayload object. For more information on the structure of this object, see [withAdditionalInput\(\)](KMFCryptoOperationBothAPI.md#KMFEncryptionPayload).
+ **Note:** When specifying an output of `Payload`, the output of the doOperation\(\) method is a KMFEncryptionPayload object. For more information on the structure of this object, see [withAdditionalInput\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/KMFCryptoOperationBothAPI.md).
 
- Default: Value determined by the operation, specified when the KMFCryptoOperation object was instantiated. For more information, see [KMFCryptoOperation - KMFCryptoOperation\(String cryptoModuleName, String operationName\)](KMFCryptoOperationBothAPI.md#).
+ Default: Value determined by the operation, specified when the KMFCryptoOperation object was instantiated. For more information, see [KMFCryptoOperation - KMFCryptoOperation\(String cryptoModuleName, String operationName\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/KMFCryptoOperationBothAPI.md).
 
 </td></tr></tbody>
 </table>|Type|Description|

@@ -2,7 +2,10 @@
 title: Engagement Messenger for Customer Service Management
 description: By using the ServiceNow Engagement Messenger application, your customers use self-service to find the information or service that they need from your third-party web applications that are outside of the ServiceNow environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/engagement-center.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ By using the ServiceNow® Engagement Messenger application, your customers use s
 
 ## Request apps from the ServiceNow Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Engagement Messenger benefits
 
@@ -34,7 +37,7 @@ Engagement Messenger provides the following benefits:
     -   Walk-up appointment booking
     -   Knowledge article search that is powered by ServiceNow® AI Search
 
-For more information about the Engagement Messenger application, see [Features of Engagement Messenger](features-of-engagement-messenger.md).
+For more information about the Engagement Messenger application, see [Features of Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/features-of-engagement-messenger.md).
 
-To get started with the Engagement Messenger application, see [Set up Engagement Messenger](setting-up-engagement-messenger.md).
+To get started with the Engagement Messenger application, see [Set up Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/setting-up-engagement-messenger.md).
 

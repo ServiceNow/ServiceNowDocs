@@ -2,6 +2,7 @@
 title: Test a Knowledge Graph schema
 description: Promote functionality by entering a query and testing the Knowledge Graph schema.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/knowledge-graph/test-a-knowledge-graph-schema.html
 release: zurich
 product: Knowledge Graph
 classification: knowledge-graph
@@ -47,6 +48,6 @@ Role required: kg\_admin
 
 9.  Select **Run Query**.
 
-    ![Test Knowledge Graph schema window.](../Images/test-kg-schema.png)
+    \[Omitted image "test-kg-schema.png"\] Alt text: Test Knowledge Graph schema window.
 
 

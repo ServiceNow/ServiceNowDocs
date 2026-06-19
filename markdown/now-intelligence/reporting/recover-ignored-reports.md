@@ -2,6 +2,7 @@
 title: Reassess ignored reports
 description: When you address the ACL Assessment for Reports, you can ignore any report. View these reports to consider their statuses again.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/recover-ignored-reports.html
 release: zurich
 product: Reporting
 classification: reporting
@@ -25,12 +26,12 @@ Roles required: admin and security\_admin.
 
 2.  In the Ignore Report column, set the value of the reports to reassess to `false`.
 
-    ![](../image/rep-acl-reassess-ignored.png)
+    \[Omitted image "rep-acl-reassess-ignored.png"\] Alt text:
 
 
 ## Result
 
 The ACL Assessment for Reports assesses the `false` reports the next time you run the assessment.
 
-**Parent Topic:**[ACL Assessment for Reports](../concept/report-view-acl-dashboard.md)
+**Parent Topic:**[ACL Assessment for Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-view-acl-dashboard.md)
 

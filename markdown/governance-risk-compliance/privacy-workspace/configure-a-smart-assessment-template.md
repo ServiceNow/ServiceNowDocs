@@ -2,6 +2,7 @@
 title: Configure smart assessment templates for screening assessments
 description: Create a privacy assessment template using the Smart Assessment Engine as a base for sending screening assessments and use it to detect the privacy risks and mitigate those risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/configure-a-smart-assessment-template.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -115,5 +116,5 @@ Domain of the configuration. When accessed from the Privacy Workspace, this fiel
     A new tab titled Sections appears that contains the questionnaire that is fetched from the Smart Assessment Engine.
 
 
-**Parent Topic:**[Configuring Privacy Management](../concept/configure-privacy-mgmt.md)
+**Parent Topic:**[Configuring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/configure-privacy-mgmt.md)
 

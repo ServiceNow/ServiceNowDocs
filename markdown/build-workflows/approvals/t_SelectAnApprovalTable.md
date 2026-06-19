@@ -2,6 +2,7 @@
 title: Select an approval table
 description: By default, activating the Approval with E-signature plugin enables e-signature for all tables for which an approval exists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/approvals/t\_SelectAnApprovalTable.html
 release: zurich
 product: Approvals
 classification: approvals

@@ -2,6 +2,7 @@
 title: GenericUPSBypassReconciler - Global
 description: The GenericUPSBypassReconciler script include provides methods to obtain reconciler information for generic uninterruptible power supply \(UPS\) bypasses.Returns the reconciliation field.Returns the reconciliation key.Determines if the generic UPS Bypass information has changed.Reads the database fields.Reads the discovered information.Sets the database fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_GenericUPSBypassReconcilerAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The GenericUPSBypassReconciler script include provides methods to obtain reconci
 
 Use this API for SNMP-related discovery.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GenericUPSBypassReconciler - getReconcilationField\(\)
 

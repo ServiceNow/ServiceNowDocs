@@ -2,6 +2,7 @@
 title: Organize the migration process
 description: There are several ways to convert the old SLAs to the new Task SLAs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-level-management/t\_OrganizeTheConversionProcess.html
 release: zurich
 product: Service Level Management
 classification: service-level-management
@@ -40,5 +41,5 @@ Perform the following steps to organize the conversion process:
     As each record is updated, the new Task SLA will attach to each incident. If there are too many open incidents to effectively touch using the List Editor, run a business rule that will update every open incident.
 
 
-**Parent Topic:**[Service Level Agreement \(Legacy\) engines](../concept/c_GetStartedWithSLAs.md)
+**Parent Topic:**[Service Level Agreement \(Legacy\) engines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-level-management/c_GetStartedWithSLAs.md)
 

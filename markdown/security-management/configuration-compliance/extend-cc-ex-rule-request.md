@@ -2,6 +2,7 @@
 title: Request an extension for an exception rule in Configuration Compliance
 description: Request an extension for a deferred exception rule before it reaches its deferred until due date. As a remediation owner, you’re no longer required to wait until the deferred due date to make this request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/extend-cc-ex-rule-request.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance
@@ -21,7 +22,7 @@ Role required: sn\_vul.exception\_approver
 
 ## About this task
 
-You can also request an extension from the Vulnerability Response Workspaces. For more information, see [Request an extension for a deferred vulnerable item in the Vulnerability Manager workspace](../../vulnerability-response/task/extend-defer-vul-item-ws.md).
+You can also request an extension from the Vulnerability Response Workspaces. For more information, see [Request an extension for a deferred vulnerable item in the Vulnerability Manager workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-manager-workspace/extend-defer-vul-item-ws.md).
 
 **Note:** Starting with v14.9 of Configuration Compliance, the following terms have been renamed:
 

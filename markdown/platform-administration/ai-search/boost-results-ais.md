@@ -2,6 +2,7 @@
 title: Boost search results using a result improvement rule
 description: Increase the relevancy scores for search results that satisfy a custom set of conditions.This list describes the types of search result relevancy boost that you can apply using a result improvement rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/boost-results-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -17,7 +18,7 @@ Increase the relevancy scores for search results that satisfy a custom set of co
 
 ## Before you begin
 
-Create your result improvement rule first to define your trigger conditions. For steps to create a result improvement rule, see [Create a result improvement rule](create-result-improve-rule-ais.md).
+Create your result improvement rule first to define your trigger conditions. For steps to create a result improvement rule, see [Create a result improvement rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-result-improve-rule-ais.md).
 
 Role required: ais\_admin
 
@@ -38,13 +39,13 @@ Negative boost weights reduce the relevancy scores for boosted search results. E
 
 When a single search result is affected by multiple boost actions, AI Search adds the individual boost weights together to determine the total relevancy score modifier. For example, a search result boosted by three rules with boost weights 100, 150, and –25 has a total boost weight of 225, increasing its final relevancy score by 22.5% of its original value.
 
-**Note:** Boost actions don't change the set of results returned for your search, so you can't boost a record that doesn't match your search. If you want to add a search result into your results whether or not it matches your search, try using a promote action instead. For details on this action, see [Promote search results using a result improvement rule](promote-results-ais.md).
+**Note:** Boost actions don't change the set of results returned for your search, so you can't boost a record that doesn't match your search. If you want to add a search result into your results whether or not it matches your search, try using a promote action instead. For details on this action, see [Promote search results using a result improvement rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/promote-results-ais.md).
 
 ## Procedure
 
 1.  In the Actions related list, select **Create Boost Action**.
 
-2.  On [the Rule - Action Mapping form](../reference/rule-action-map-form-ais.md), set the boost weight and fill in the other fields.
+2.  On [the Rule - Action Mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/rule-action-map-form-ais.md), set the boost weight and fill in the other fields.
 
 3.  Select **Submit**.
 
@@ -53,9 +54,9 @@ When a single search result is affected by multiple boost actions, AI Search add
 
 ## What to do next
 
-To make new or updated result improvement rule settings take effect, publish the search profile you edited. For details on publishing a search profile, see [Publish an AI Search search profile](publish-search-profile-ais.md).
+To make new or updated result improvement rule settings take effect, publish the search profile you edited. For details on publishing a search profile, see [Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/publish-search-profile-ais.md).
 
-**Parent Topic:**[Result improvement rules](../concept/result-improvement-rules-ais.md)
+**Parent Topic:**[Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/result-improvement-rules-ais.md)
 
 ## List of result improvement rule boost types
 
@@ -85,7 +86,7 @@ Boost By User Context \(dynamic\)
 
 Applies relevancy boost to search results from the selected indexed source if they include a value for the selected field that matches a field value specified in the dynamically populated user context. As an example, you might boost all results from the Knowledge Table indexed source with Short description field values that contain matches for the city specified in the current search user's location, as set in their user context. This configuration could end up boosting different records when you search from Paris than when you search from New York City.
 
-**Note:** Starting in the Xanadu release, AI Search expands user context field values using published, active synonyms defined in dictionaries linked to the current search profile. As an example, if the user context location is `Paris` and you define a synonym that defines `Paris` and `France` as equivalent, your result improvement rule boosts documents containing `France` as well as those containing `Paris`. For more details on synonym expansion, see [Synonyms](../concept/synonyms-ais.md).
+**Note:** Starting in the Xanadu release, AI Search expands user context field values using published, active synonyms defined in dictionaries linked to the current search profile. As an example, if the user context location is `Paris` and you define a synonym that defines `Paris` and `France` as equivalent, your result improvement rule boosts documents containing `France` as well as those containing `Paris`. For more details on synonym expansion, see [Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/synonyms-ais.md).
 
 </td></tr><tr><td>
 
@@ -105,7 +106,7 @@ Applies relevancy boost to search results from the selected indexed source if th
 
  The selected synonym dictionary must be published, active, and linked to the current search profile. AI Search only checks for matches against published and active synonyms in the dictionary.
 
- For more details on synonyms and synonym dictionaries, see [Synonyms](../concept/synonyms-ais.md).
+ For more details on synonyms and synonym dictionaries, see [Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/synonyms-ais.md).
 
 </td></tr></tbody>
 </table>

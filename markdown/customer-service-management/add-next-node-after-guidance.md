@@ -2,7 +2,10 @@
 title: Add a next node after a guidance node
 description: Add a next node that is a decision node after a guidance node. If a next node is configured, the execution of the decision tree continues after the agent performs the guidance and the guidance history is marked as complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/add-next-node-after-guidance.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -24,7 +27,7 @@ You can only add a decision node after a guidance node.
 -   You can add an intermediate decision node to add another guidance node.
 -   You can configure a linking node after this decision node to link another decision tree.
 
-You can edit or extend existing decision trees in the Core UI but you can no longer create them. Use Decision Tree Builder to create new decision trees. For more information, see [Configuring decision trees in Decision Tree Builder](../concept/decision-trees-in-gdb.md).
+You can edit or extend existing decision trees in the Core UI but you can no longer create them. Use Decision Tree Builder to create new decision trees. For more information, see [Configuring decision trees in Decision Tree Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/decision-trees-in-gdb.md).
 
 ## Procedure
 
@@ -45,6 +48,6 @@ You can edit or extend existing decision trees in the Core UI but you can no lon
 
 Continue building the decision tree.
 
--   [Add questions or instructions to a decision input](create-decision-input.md)
--   [Determine the next node in a decision tree](create-decision-paths.md)
+-   [Add questions or instructions to a decision input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-decision-input.md)
+-   [Determine the next node in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-decision-paths.md)
 

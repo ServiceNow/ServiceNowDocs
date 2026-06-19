@@ -2,6 +2,7 @@
 title: Set up the Units of measure data table for environmental sensors
 description: Configure the unit of measure for air quality \(Carbon dioxide and Ozone metric\) and temperature units \(degree celsius and micrograms per cubic meter\) for a workplace location. The Workplace Connectors environmental sensors checks for the air and temperature quality metrics in a workplace location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-connectors/wsd-enviromental-unit-measure.html
 release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
@@ -17,7 +18,7 @@ Configure the unit of measure for air quality \(Carbon dioxide and Ozone metric\
 
 ## Before you begin
 
-**Note:** The units selected in the Units of measure data table should match with the actual data that is shared by your provider or vendor using the Extension Point definition or EnvironmentDataHandler. If the data units don't match, it must be converted and then, stored in the environmental data. For more information, see [Provider Connector Configuration for Environmental sensors](wsd-env-provider-connectorconfig.md)
+**Note:** The units selected in the Units of measure data table should match with the actual data that is shared by your provider or vendor using the Extension Point definition or EnvironmentDataHandler. If the data units don't match, it must be converted and then, stored in the environmental data. For more information, see [Provider Connector Configuration for Environmental sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/wsd-env-provider-connectorconfig.md)
 
 Seed data or out-of-the box table record is provided with the application and provides pre-filled values. If you want to create a new table record follow these steps.
 
@@ -75,9 +76,9 @@ Units for the metrics selected in the Metrics filed. For example, **Parts per mi
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Setup Workplace Connectors for environmental data](../concept/setup-environmental-data-connectors.md)
+**Parent Topic:**[Setup Workplace Connectors for environmental data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/setup-environmental-data-connectors.md)
 
-**Previous topic:**[Provider Connector Configuration for Environmental sensors](wsd-env-provider-connectorconfig.md)
+**Previous topic:**[Provider Connector Configuration for Environmental sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/wsd-env-provider-connectorconfig.md)
 
-**Next topic:**[Configure environmental sensor data for a workplace location](config-connectors-env-sensor.md)
+**Next topic:**[Configure environmental sensor data for a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/config-connectors-env-sensor.md)
 

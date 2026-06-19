@@ -2,6 +2,7 @@
 title: Assign ownership of an audience
 description: Provide ownership of an audience to a user or group with the content manager \(sn\_cd.content\_manager\) role so only they can access and schedule content for the audience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ecpro-ca-cd-audience-delegation.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,11 +20,11 @@ Provide ownership of an audience to a user or group with the content manager \(s
 
 Role required: sn\_cd.content\_admin
 
-Ensure **Yes** is checked under **Allow Ownership for Audiences** under Content Publishing or Content Experiences properties. For more information, see [Properties installed with Content Experiences](../reference/properties-installed-with-content-auto.md) and [Properties installed with Content Publishing](../reference/properties-with-content-delivery.md).
+Ensure **Yes** is checked under **Allow Ownership for Audiences** under Content Publishing or Content Experiences properties. For more information, see [Properties installed with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/properties-installed-with-content-auto.md) and [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md).
 
 ## About this task
 
-An audience is a defined group of employees that will receive targeted content. For information on creating an audience, see [Create an audience](ec-audiences.md).
+An audience is a defined group of employees that will receive targeted content. For information on creating an audience, see [Create an audience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-audiences.md).
 
 You can restrict an audience to a specific content manager or group of content managers, which specifies which audience the content managers can publish for, and prevents other content managers from publishing content to that audience. For example, assign a regional Human Resources manager the sole ability to create content for employees based in that country.
 
@@ -37,7 +38,7 @@ You can restrict an audience to a specific content manager or group of content m
     -   To assign ownership to a group, select the **Restrict audience by group** tab.
 3.  Click **New**.
 
-4.  From the **User** or **Group** field, click the **Lookup using list** \(![Lookup using list icon](../../human-resources/image/magnify-glass-outline-icon.png)\) icon and select a user or group.
+4.  From the **User** or **Group** field, click the **Lookup using list** \(\[Omitted image "magnify-glass-outline-icon.png"\] Alt text: Lookup using list icon\) icon and select a user or group.
 
     **Note:** Only groups that have the content admin \(sn\_cd.content\_admin\) or content manager \(sn\_cd.content\_manager\) roles appear. If the members of the group have these roles, but the group does not, the group does not appear.
 
@@ -45,6 +46,6 @@ You can restrict an audience to a specific content manager or group of content m
 
     After a user or group is associated with an audience, only that user or group can access the audience. Remove the user or group to make the audience accessible to all content managers.
 
-    **Note:** Content Managers can create audiences. To enable this, the Allow Ownership for Audiences option must be turned off. If the Ownership Property is enabled, the Content Manager will not have permission to create audiences. See, [Create an auidence](ec-audiences.md).
+    **Note:** Content Managers can create audiences. To enable this, the Allow Ownership for Audiences option must be turned off. If the Ownership Property is enabled, the Content Manager will not have permission to create audiences. See, [Create an auidence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-audiences.md).
 
 

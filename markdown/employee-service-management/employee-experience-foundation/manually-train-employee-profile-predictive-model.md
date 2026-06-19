@@ -2,6 +2,7 @@
 title: Manually train the employee profile predictive model
 description: Manually train the employee profile predictive intelligence to model similar users if auto-train is not enabled by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/manually-train-employee-profile-predictive-model.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation

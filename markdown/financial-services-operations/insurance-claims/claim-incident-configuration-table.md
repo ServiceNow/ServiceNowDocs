@@ -2,6 +2,7 @@
 title: Claim Incident Configuration table
 description: Associate the service definition of a case with the incident and adjuster task service definitions by using the Claim Incident Configuration \[sn\_ins\_claim\_incident\_config\] table in the Insurance claims application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/claim-incident-configuration-table.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims
@@ -21,7 +22,7 @@ You can define the claim incidents that can be created in the Insurance claims w
 
 To access the Claim Incident Configuration \[sn\_ins\_claim\_incident\_config\] table, set the application scope of your instance to **Insurance claims**, and then navigate to **All** &gt; **Insurance claims** &gt; **Administration** &gt; **Claim incident configurations**.
 
-The following example shows the table fields of the Claim Incident Configuration \(sn\_ins\_claim\_incident\_config\) table. For more information, see the next section.![Claim Incident Configuration table in Insurance claims.](../image/claim-incident-configurations-table.png)
+The following example shows the table fields of the Claim Incident Configuration \(sn\_ins\_claim\_incident\_config\) table. For more information, see the next section.\[Omitted image "claim-incident-configurations-table.png"\] Alt text: Claim Incident Configuration table in Insurance claims.
 
 ## Claim Incident Configuration Table fields
 
@@ -57,7 +58,7 @@ Adjuster task service definition
 
 </td><td>
 
-Adjuster task service definition \(that is, a service definition that creates an adjuster task in a claim\). For more information, see [Create a service definition for Insurance claims](../task/create-a-service-definition-for-insurance-claims.md).
+Adjuster task service definition \(that is, a service definition that creates an adjuster task in a claim\). For more information, see [Create a service definition for Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/create-a-service-definition-for-insurance-claims.md).
 
 </td></tr><tr><td>
 
@@ -74,7 +75,7 @@ Incident table name
 
 </td><td>
 
-Table in which the incidents are stored. For more information, see [Claim incidents](claim-incidents.md).
+Table in which the incidents are stored. For more information, see [Claim incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/claim-incidents.md).
 
 </td></tr><tr><td>
 
@@ -106,7 +107,7 @@ Service definition
 
 </td><td>
 
-Service definition for the case \(for example, Report travel claim\). For more information, see [Creating a service definition for Insurance claims](create-service-definitions-for-insurance-claims.md).
+Service definition for the case \(for example, Report travel claim\). For more information, see [Creating a service definition for Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/create-service-definitions-for-insurance-claims.md).
 
 </td></tr><tr><td>
 
@@ -121,9 +122,9 @@ Brief description of the claim incident, which is also displayed in the playbook
 
 In the following travel insurance line of business \(LOB\) example, the claim incident configuration is reflected in the workflow when reporting a travel claim. The **Incident details** activity in the first notice of loss playbook shows the entries in the table and information about each entry.
 
-![Entries in the Claim Incident Configuration table that can be seen in the Incident details activity.](../image/fnol-incident-details.png)
+\[Omitted image "fnol-incident-details.png"\] Alt text: Entries in the Claim Incident Configuration table that can be seen in the Incident details activity.
 
 If the claim incident supports an itemized loss as defined in the table, the **Itemized Loss/Expenses** tab is also displayed when the incident is saved as shown in the following example.
 
-![Itemized Loss/Expenses tab is displayed for an incident when the Itemized loss available is true.](../image/incident-itemized-loss.png)
+\[Omitted image "incident-itemized-loss.png"\] Alt text: Itemized Loss/Expenses tab is displayed for an incident when the Itemized loss available is true.
 

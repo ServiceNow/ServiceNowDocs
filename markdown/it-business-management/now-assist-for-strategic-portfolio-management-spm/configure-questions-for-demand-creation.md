@@ -2,6 +2,7 @@
 title: Configure the questions for demand creation in Now Assist for Strategic Portfolio Management \(SPM\)
 description: Add a new or modify an existing question for Now Assist in Virtual Agent while creating a demand in the Now Assist for Strategic Portfolio Management \(SPM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-questions-for-demand-creation.html
 release: zurich
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
@@ -27,7 +28,7 @@ Ensure that the following plugins are installed:
     **Note:** Installing Now Assist in Conversational Catalog Request automatically installs all the other dependent plugins.
 
 -   Activate the Conversational experience skill.
--   Configure Now Assist in Virtual Agent. For more information, see [Configure Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+-   Configure Now Assist in Virtual Agent. For more information, see Configure Now Assist in Virtual Agent.
 
     **Note:** If Microsoft Teams and Mobile are enabled as a display location for Now Assist in Virtual Agent, your end user can use the conversational experience to create a demand in those applications too.
 
@@ -42,7 +43,7 @@ Role required: admin or catalog\_admin
 
 3.  Identify any unsupported conversational catalog item question types and suggestions to make them conversational by selecting **Now Assist for Virtual Agent**.
 
-    For information on unsupported fields, see [Configure Now Assist in Conversational Catalog Request](https://www.servicenow.com/docs/access?context=configure-gen-ai-catalog-item&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+    For information on unsupported fields, see .
 
 4.  Review the existing questions in the Variables related list and add or modify questions by selecting **Edit in advanced view**.
 

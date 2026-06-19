@@ -2,6 +2,7 @@
 title: Create lists for a workspace in Workspace Builder
 description: Create list categories in Workspace Builder to add pages that list table records. You can add filter conditions and change columns to create variations on the list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/workspace-builder/add-workspace-list.html
 release: zurich
 product: Workspace Builder
 classification: workspace-builder
@@ -20,7 +21,7 @@ Create list categories in Workspace Builder to add pages that list table records
 Role required:
 
 -   admin or Guided Application Creator for ServiceNow Studio.
--   sn\_app\_eng\_studio.user or delegated\_developer for AES. For more information, see [Delegate developers using AES](../concept/aes-app-dev-workflow.md).
+-   sn\_app\_eng\_studio.user or delegated\_developer for AES. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## About this task
 
@@ -34,7 +35,7 @@ Role required:
 
 1.  Navigate to Workspace Builder.
 
-    For details on how to open Workspace Builder in ServiceNow Studio or AES, see [Accessing Workspace Builder](../../workspace-builder/concept/accessing-workspace-builder-aes-crs.md).
+    For details on how to open Workspace Builder in ServiceNow Studio or AES, see [Accessing Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/accessing-workspace-builder-aes-crs.md).
 
 2.  If they aren't already activated, activate lists to enable them for the workspace.
 
@@ -46,7 +47,7 @@ Role required:
 
     3.  In the configuration panel, select the **Activate list** option.
 
-    ![Workspace list view with lists activated](../image/wb-list-example-purple.png)
+    \[Omitted image "wb-list-example-purple.png"\] Alt text: Workspace list view with lists activated
 
 3.  Add a list category.
 
@@ -136,7 +137,7 @@ Manage columns
 
 Option to select and arrange the columns that appear. In the Manage columns dialog box, move columns from **Available columns** to **Selected columns**, drag to rearrange the columns, and select **Apply**.
 
-You can select a field on a related table by dot-walking to it. For more information, see [Dot-walking to data in related tables](https://www.servicenow.com/docs/access?context=c_DotWalking&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+You can select a field on a related table by dot-walking to it. For more information, see .
 
 </td></tr><tr><td>
 
@@ -146,12 +147,12 @@ Apply conditions
 
 Option to add a filter condition to the list. In the dialog box that appears, you can do the following:-   To apply a predefined filter, select **Use existing filter** and search for the filter.
 -   To view existing conditions, expand the **Filter overview** section.
--   To create a filter condition, use the condition builder. For more information on building conditions, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+-   To create a filter condition, use the condition builder. For more information on building conditions, see .
 -   To change the sort order of the filtered results, expand the **Sort by** section and make changes.
 -   To save the filter condition that you created for reuse, select **Save filter**.
  When you're done creating the filter condition, select **Apply filter**.
 
- For more information on working with filters for lists, see [Filters](https://www.servicenow.com/docs/access?context=c_Filters&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+ For more information on working with filters for lists, see .
 
 </td></tr></tbody>
 </table>    3.  Select **Apply filter**.
@@ -160,7 +161,7 @@ Option to add a filter condition to the list. In the dialog box that appears, yo
 
 7.  Complete any additional actions on the list.
 
-<table id="choicetable_uch_4kg_cvb"><tbody><tr><td id="d246239e590">
+<table id="choicetable_uch_4kg_cvb"><tbody><tr><td id="d111646e587">
 
 **Edit a list category**
 
@@ -171,7 +172,7 @@ Option to add a filter condition to the list. In the dialog box that appears, yo
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d246239e617">
+</td></tr><tr><td id="d111646e614">
 
 **Change how the filtered list appears by selecting the list in the navigation panel**
 
@@ -179,10 +180,10 @@ Option to add a filter condition to the list. In the dialog box that appears, yo
 
 1.  In the configuration panel, select **Manage columns**.
 2.  In the form that appears, move columns from **Available columns** to **Selected columns**, drag to rearrange the columns, and select **OK**.
-3.  Refresh the canvas preview by selecting the refresh icon \(![Refresh icon on preview canvas](../image/workspace-list-refresh-icon-purple.png)\) in the canvas header.
+3.  Refresh the canvas preview by selecting the refresh icon \(\[Omitted image "workspace-list-refresh-icon-purple.png"\] Alt text: Refresh icon on preview canvas\) in the canvas header.
 
 
-</td></tr><tr><td id="d246239e656">
+</td></tr><tr><td id="d111646e653">
 
 **Delete a list category**
 
@@ -193,7 +194,7 @@ Option to add a filter condition to the list. In the dialog box that appears, yo
 3.  In the confirmation dialog, select **Delete**.
 
 
-</td></tr><tr><td id="d246239e683">
+</td></tr><tr><td id="d111646e680">
 
 **Delete a filtered list**
 

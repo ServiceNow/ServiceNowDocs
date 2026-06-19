@@ -2,6 +2,7 @@
 title: Monitoring third-party elements
 description: You can monitor third-party elements through scalable scoring models, relationship analysis, and due diligence workflow integration by using the Third-party Risk Management application. Monitoring third-party elements and leveraging that information can help with conducting more informed risk assessments as part of your third-party risk program.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-monitor-tp-elements.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -36,9 +37,9 @@ Let's look at some TP element class and risk examples:
 
 The following infographic shows the TP element collection process.
 
-![Infographic that shows the TP element collection process in the due diligence workflow. For the text description, refer to the text that follows.](../../grc-workspace-vrm/image/mmasset0020761-TP-element-process-vertical.png)
+\[Omitted image "mmasset0020761-TP-element-process-vertical.png"\] Alt text: Infographic that shows the TP element collection process in the due diligence workflow. For the text description, refer to the text that follows.
 
-For more information on Third-party \(TP\) elements and examples of their associated controls and potential risks, see [Terminology](../reference/tprm-terminology.md).
+For more information on Third-party \(TP\) elements and examples of their associated controls and potential risks, see [Terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-terminology.md).
 
 ## Collecting and reviewing third-party elements
 
@@ -48,17 +49,17 @@ You would follow this process to collect and review TP elements:
 
 1.  In the Vendor Management Workspace, if TP elements are needed, the Third-party risk \(TPR\) manager or due diligence request owner selects **Start collection** and a collection task is created.
 2.  The TPR manager or owner opens the external assessment for collecting elements and adds the relevant TP element collection questionnaires.
-3.  The TPR manager or owner reviews and approves the questionnaires and they’re sent to the engagement. For more information on assessments, see [Assessing your third-party risk](tprm-assessing-tpr.md).
+3.  The TPR manager or owner reviews and approves the questionnaires and they’re sent to the engagement. For more information on assessments, see [Assessing your third-party risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-assessing-tpr.md).
 4.  In Vendor Management Workspace, the TPR manager or owner opens the questionnaires and verifies that all the required information was provided.
 5.  The TPR manager or owner then navigates to the list of TP elements and manually creates a TP element record for each set of responses in each questionnaire.
 6.  After all TP elements are created, the TPR manager or owner closes the collection task assessment. The system changes the state of the request from **Collection in progress** to **Collection in review**.
 7.  The internal stakeholders \(TPR assessor, TPR approver, TPR manager, or TPR administrator\) review and approve the element records.
 
-For more information, see [Create a third-party element record](../task/tprm-tp-element-create.md).
+For more information, see [Create a third-party element record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-tp-element-create.md).
 
 ## Adding third-party elements to engagements
 
-After the TP elements are reviewed and approved by the TPR manager and internal stakeholders in Vendor Management Workspace, the TPR manager or owner opens the engagement and manually adds the reviewed and approved TP elements to the **Engagement elements** tab of the engagement for that third party. For more information, see [Add a third-party element record to an engagement](../task/tprm-tp-element-engagement.md). After you add all TP elements to an engagement, you can start the due diligence process. During the due diligence process, you must select and assign a questionnaire as part of an external assessment for each TP element that you created. The third-party contact completes the TP element questionnaires. For more information, see [Assessing your third-party risk](tprm-assessing-tpr.md).
+After the TP elements are reviewed and approved by the TPR manager and internal stakeholders in Vendor Management Workspace, the TPR manager or owner opens the engagement and manually adds the reviewed and approved TP elements to the **Engagement elements** tab of the engagement for that third party. For more information, see [Add a third-party element record to an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-tp-element-engagement.md). After you add all TP elements to an engagement, you can start the due diligence process. During the due diligence process, you must select and assign a questionnaire as part of an external assessment for each TP element that you created. The third-party contact completes the TP element questionnaires. For more information, see [Assessing your third-party risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-assessing-tpr.md).
 
 ## Third-party element scoring
 
@@ -66,5 +67,5 @@ You can categorize each TP element into one of the following types: Facility, Pr
 
 After an element is assessed and a risk rating is determined, this rating is first aggregated into a component score that is based on its classification, such as Facility. For example, all Facility-type elements are aggregated into a single component score, which contributes to the overall score of the engagement. The engagement score is then compiled by aggregating the scores from all relevant component scores within that engagement. If multiple assessments or TP elements are within an engagement, each is scored individually and then combined to form the overall engagement score. The engagement score is then rolled up to the third-party level by aggregating the scores from all the engagements that are associated with a particular third party. The aggregation at this level could be based on different rules, such as averaging, taking the minimum, or maximum scores, depending on the scoring rules set within the system. This rolled-up score represents the overall risk or performance score of the third party and reflects all the engagements and elements that are associated with it.
 
-**Note:** You can create your own TP element classifications to meet your specific risk program requirements. For more information on creating classifications and assigning weights for scoring, see [Third-party element form](../../grc-workspace-vrm/reference/tprm-tpe-form.md) and [Define component criteria](../task/tprm-component-criteria-define.md).
+**Note:** You can create your own TP element classifications to meet your specific risk program requirements. For more information on creating classifications and assigning weights for scoring, see [Third-party element form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-tpe-form.md) and [Define component criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-component-criteria-define.md).
 

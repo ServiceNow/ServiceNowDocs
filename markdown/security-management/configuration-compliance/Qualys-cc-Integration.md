@@ -2,6 +2,7 @@
 title: Qualys integration with Configuration Compliance
 description: The Qualys Policy Compliance collects the data and automatically sends it to the Qualys application, which continuously analyzes and correlates the information. It easily integrates as the Qualys Integration for Security Operations to map configuration findings to CIs and business services to determine the impact and priority of potential misconfigurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/Qualys-cc-Integration.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance

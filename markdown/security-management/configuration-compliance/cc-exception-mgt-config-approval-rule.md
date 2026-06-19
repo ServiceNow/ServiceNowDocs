@@ -2,6 +2,7 @@
 title: Create approval levels for Exception Management in Configuration Compliance
 description: Define the levels of users and user groups that are going to approve the exception requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/cc-exception-mgt-config-approval-rule.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance

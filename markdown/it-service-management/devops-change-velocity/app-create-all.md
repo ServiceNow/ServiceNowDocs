@@ -2,11 +2,12 @@
 title: Create an application - Classic
 description: Create applications using the Classic UI or the Service Catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/app-create-all.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Applications, DevOps Change Velocity, IT Service Management]
 ---
@@ -27,15 +28,15 @@ Role required: sn\_devops.admin or sn\_devops.app\_owner
     -   Service Catalog: Navigate to **All** &gt; **Service Catalog** &gt; **Catalog Definitions** &gt; **Maintatin Items** &gt; **Create DevOps Application** &gt; **Try It**.
 2.  On the Create DevOps Application form, choose whether to create a new application and new application model or to base the application on an existing application model.
 
-<table id="choicetable_ddn_pxv_2tb"><thead><tr><th align="left" id="d447177e105">
+<table id="choicetable_ddn_pxv_2tb"><thead><tr><th align="left" id="d214278e105">
 
 Choice
 
-</th><th align="left" id="d447177e108">
+</th><th align="left" id="d214278e108">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d447177e114">
+</th></tr></thead><tbody><tr><td id="d214278e114">
 
 **New application**
 
@@ -48,7 +49,7 @@ Enter a name for the new application.
 -   If the DevOps Config application is installed, then DevOps associates the application to the CDM application.
 
 
-</td></tr><tr><td id="d447177e150">
+</td></tr><tr><td id="d214278e150">
 
 **Existing application model**
 
@@ -84,6 +85,6 @@ For each application, you can:
     -   Users having DevOps roles, but aren’t part of the groups added can't view the application.
     **Note:** DevOps admins can always see and edit everything in DevOps.
 
--   View and associate plans, repositories, pipelines, and artifact repositories. Associate the appropriate tool objects to the application to ensure that all the DevOps data is grouped and tracked. For more information, see [Associate tool objects to applications – Classic](apps-associate-objects-classic.md).
+-   View and associate plans, repositories, pipelines, and artifact repositories. Associate the appropriate tool objects to the application to ensure that all the DevOps data is grouped and tracked. For more information, see [Associate tool objects to applications – Classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/apps-associate-objects-classic.md).
 -   Delete the application record.
 

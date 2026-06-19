@@ -2,6 +2,7 @@
 title: Using external connections with OAuth support
 description: External connections allow enrichments to retrieve data from third-party systems to enhance configurations. When security requires OAuth, you can set up an OAuth handshake using client credentials to authenticate and access external APIs. This approach ensures secure data exchange for tasks such as pricing updates or attribute population during configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/encrichments-external-connections-w-oauth-support.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -31,7 +32,7 @@ To set an OAuth external connection, follow these steps:
 
 1.  Define the external connection by visiting Admin &gt; Utilities &gt; External Connections.
 
-    ![External connections user interface](../images/cpq-enrichments-external-connections.png)
+    \[Omitted image "cpq-enrichments-external-connections.png"\] Alt text: External connections user interface
 
 2.  Define your authentication token.
     -   If the external connection calls an open API, no authentication token is needed.

@@ -2,6 +2,7 @@
 title: SCIM customization properties and schemas
 description: The SCIM customization includes the following properties, supported schemas, and unsupported schemas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/scim-customization-properties-and-schemas.html
 release: zurich
 product: Identity
 classification: identity

@@ -2,6 +2,7 @@
 title: Capacity reservation rules
 description: Capacity Reservations enable you to efficiently distribute the total work capacity among work order tasks based on their attributes, such as work type, location, and priority.Create reservation rules based on different types of work to reserve the workload capacity for work order tasks.Reservation rules help allocate a specific percentage of capacity for different attributes of work order tasks, such as work type, location, or priority. This confirms efficient task management and meets specific workload demands.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/capacity-reservations.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -94,7 +95,7 @@ Demand Channel
 
 </td><td>
 
-Select the demand channel for the reservation rule. For more information, see [Create a demand channel](../task/create-a-demand-channel.md). **Note:** Applies only if territory plugin is installed.
+Select the demand channel for the reservation rule. For more information, see [Create a demand channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/create-a-demand-channel.md). **Note:** Applies only if territory plugin is installed.
 
 </td><td>
 

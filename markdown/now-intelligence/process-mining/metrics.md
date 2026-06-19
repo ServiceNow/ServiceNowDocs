@@ -2,6 +2,7 @@
 title: Set metrics
 description: Set the metrics to evaluate the process better and improve the process efficiency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/metrics.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -33,7 +34,7 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
     **Note:** The touchpoint and idle time metrics are not available in the Classic view.
 
-    ![Set metrics](../image/metrics-project.png)
+    \[Omitted image "metrics-project.png"\] Alt text: Set metrics
 
     There are two types of metrics:
 
@@ -51,5 +52,5 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 6.  Select **Set improvement opportunities**.
 
 
-**Parent Topic:**[Scoping your analysis](../concept/scope-analysis.md)
+**Parent Topic:**[Scoping your analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/scope-analysis.md)
 

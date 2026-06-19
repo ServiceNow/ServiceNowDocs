@@ -2,6 +2,7 @@
 title: Modify view for an application service map in legacy Agent Workspace
 description: Customize a map view to display relevant information and increase clarity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/workspace-modify-map-view.html
 release: zurich
 product: Service Mapping
 classification: service-mapping
@@ -47,7 +48,7 @@ The service instance map in the Event Management view reflects the severity stat
 
 5.  Click the **Open Map Display Settings** button.
 
-    ![The Open Map Display Settings button](../image/ws-map-display-settings.png)
+    \[Omitted image "ws-map-display-settings.png"\] Alt text: The Open Map Display Settings button
 
 6.  Select the relevant option:
 
@@ -117,13 +118,13 @@ The service instance map shows topology cycles.
 
 The map displays a service instance as a tree.
 
- ![Map showing an application service in the spanning tree view.](../image/ws-map-spanning-tree-enabled.png)
+ \[Omitted image "ws-map-spanning-tree-enabled.png"\] Alt text: Map showing an application service in the spanning tree view.
 
 </td><td>
 
 The map reflects the actual structure of a service instance.
 
- ![Map showing an application service not in the spanning tree view.](../image/ws-map-spanning-tree-disabled.png)
+ \[Omitted image "ws-map-spanning-tree-disabled.png"\] Alt text: Map showing an application service not in the spanning tree view.
 
 </td></tr><tr><td>
 
@@ -171,5 +172,5 @@ No map indicators appear next to the application service name.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Application service analysis and maintenance using legacy Agent Workspace](../concept/service-analysis-maintenance-legacy-workspace.md)
+**Parent Topic:**[Application service analysis and maintenance using legacy Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-analysis-maintenance-legacy-workspace.md)
 

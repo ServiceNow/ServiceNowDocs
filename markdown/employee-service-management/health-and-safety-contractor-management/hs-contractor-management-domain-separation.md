@@ -2,6 +2,7 @@
 title: Domain separation and Health and Safety Contractor Management
 description: Domain separation is supported for Health and Safety Contractor Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-contractor-management/hs-contractor-management-domain-separation.html
 release: zurich
 product: Health and Safety Contractor Management
 classification: health-and-safety-contractor-management
@@ -25,7 +26,7 @@ Domain separation is supported for Health and Safety Contractor Management. Doma
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## Domain-separated tables overview
 
@@ -36,10 +37,10 @@ All tables in the Health and Safety Contractor Management can be domain-separate
 -   Each table in Health and Safety Contractor Management includes the domain separation fields **Domain** and **Domain path**.
 -   Customers can use these fields to configure domain separation in their implementation of Health and Safety Contractor Management.
 
-**Parent Topic:**[Health and Safety Contractor Management reference](hs-contractor-management-reference.md)
+**Parent Topic:**[Health and Safety Contractor Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-contractor-management/hs-contractor-management-reference.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

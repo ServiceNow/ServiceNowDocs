@@ -2,6 +2,7 @@
 title: DEX installation and initial configuration
 description: Install and configure required plugins to start monitoring and administering your organization's devices using Digital End-User Experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/dex-install-config.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -21,7 +22,7 @@ Install and configure the Digital End-User Experience \(DEX\) plugin and Agent C
 
 After installing DEX, use the DEX guided setup experience to install and configure the associated plugins.
 
-In the primary navigation pane, select the DEX Administration icon \(![](../image/icon-administration.png)\) and access-guided setup through the following cards:
+In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text:\) and access-guided setup through the following cards:
 
 -   **Agent deployment on Windows devices**
 

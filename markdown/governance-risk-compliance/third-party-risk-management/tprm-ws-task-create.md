@@ -2,6 +2,7 @@
 title: Create a task for a third party or engagement
 description: Create a task to help ensure that a user at your organization or the third-party contact responds to your concerns about questionnaire responses or requested documents during the due diligence process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-ws-task-create.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -25,7 +26,7 @@ In an iterative process, before the TPR manager closes an assessment, the TPR ma
 
 ## Procedure
 
-1.  In the **Quick actions** box on the TPRM home page ![](../../grc-workspace-vrm/image/icon-tprm-ws-home.png), select **Create task**.
+1.  In the **Quick actions** box on the TPRM home page \[Omitted image "icon-tprm-ws-home.png"\] Alt text:, select **Create task**.
 
 2.  Fill in the form and then select **Save**.
 

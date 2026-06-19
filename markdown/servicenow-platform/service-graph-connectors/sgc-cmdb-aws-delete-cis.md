@@ -2,6 +2,7 @@
 title: Enable optimized deletion of retired CIs in AWS
 description: Enable the sn\_aws\_integ.enableOptimizedDeletion system property for the optimized deletion of retired configuration items \(CIs\) in AWS during full import of data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-delete-cis.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -17,7 +18,7 @@ Enable the **sn\_aws\_integ.enableOptimizedDeletion** system property for the op
 
 ## Before you begin
 
-Set the application scope to Service Graph Connector for AWS using the application picker. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+Set the application scope to Service Graph Connector for AWS using the application picker. For more information, see Application picker.
 
 Role required: admin
 

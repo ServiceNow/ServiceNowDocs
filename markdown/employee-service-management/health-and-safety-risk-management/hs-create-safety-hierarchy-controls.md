@@ -2,6 +2,7 @@
 title: Create a safety control measure category
 description: Create or modify a control measure category to group your safety controls into logical categories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-risk-management/hs-create-safety-hierarchy-controls.html
 release: zurich
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -54,7 +55,7 @@ Role required: sn\_hs\_rm.hierarchy\_of\_controls\_manager or sn\_hs\_rm.hierarc
 
 ## What to do next
 
-Associate related control measures with the category. For more information, see [Safety control measures](hs-define-controls.md).
+Associate related control measures with the category. For more information, see [Safety control measures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/hs-define-controls.md).
 
-**Parent Topic:**[Setting up Health and Safety Risk Management](../concept/hs-setting-up-risk-mgmt.md)
+**Parent Topic:**[Setting up Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)
 

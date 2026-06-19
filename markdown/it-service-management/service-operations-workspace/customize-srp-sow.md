@@ -2,6 +2,7 @@
 title: Adding Declarative Actions on the Standard Record Page
 description: Adding declarative actions on the Incident page and the tabs inside the incident record page using the Standard Record Page \(SRP\) in the Service Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/customize-srp-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Declarative actions help you to modify the list actions, related list actions, and field decorators available in the Service Operations Workspace. For more information about creating declarative actions and how to use them, see [Declarative actions](https://www.servicenow.com/docs/access?context=migration-form-declarative-actions&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+Declarative actions help you to modify the list actions, related list actions, and field decorators available in the Service Operations Workspace. For more information about creating declarative actions and how to use them, see .
 
 Along with the declarative actions customizations, the SRP or Standard Record Page also modifies the add-on events in the Incident records and the tabs inside the records.
 
@@ -50,5 +51,5 @@ Along with the declarative actions customizations, the SRP or Standard Record Pa
     |Target Payload Mapping|The binding of the container and the type of the event|
 
 
-**Parent Topic:**[Configuring Standard Record Page in Service Operations Workspace](../concept/srp-service-operations-workspace.md)
+**Parent Topic:**[Configuring Standard Record Page in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/srp-service-operations-workspace.md)
 

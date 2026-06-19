@@ -2,6 +2,7 @@
 title: Action form
 description: Use an action form to add an action to a demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/demand-management/action-form.html
 release: zurich
 product: Demand Management
 classification: demand-management
@@ -101,7 +102,7 @@ Short description
 
 </td><td>
 
-Brief description of the action such as what the action entails, how to implement the action, who it affects, and the action outcome. Select the Suggestion icon ![](../image/demand-suggestion-icon.png) to select a description from the list of predefined actions.
+Brief description of the action such as what the action entails, how to implement the action, who it affects, and the action outcome. Select the Suggestion icon \[Omitted image "demand-suggestion-icon.png"\] Alt text: to select a description from the list of predefined actions.
 
 </td></tr><tr><td>
 
@@ -120,5 +121,5 @@ Work notes
 Information about the action. Add work notes to communicate about the status of action approval, rejection, or implementation with other users.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Demand Management forms](../concept/demand-management-forms.md)
+</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/demand-management-forms.md)
 

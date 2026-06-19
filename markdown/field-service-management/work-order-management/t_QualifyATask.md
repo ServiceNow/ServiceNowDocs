@@ -2,6 +2,7 @@
 title: Qualify a work order
 description: When a work order is assigned to you for qualification, review and qualify its tasks to ensure that they contain enough information for the groups that are dispatched to work on them. Qualifying work order tasks is required only when Field Service Management is configured for manual qualification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/t\_QualifyATask.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -21,7 +22,7 @@ Role required: wm\_qualifier
 
 ## About this task
 
-If Field Service Management is configured for automatic qualification, you do not need to complete this process. Work orders are automatically qualified and tasks are automatically created for them. For details on manual and automatic qualification, see [Qualify a work order](../concept/c_QualifyWorkOrders.md).
+If Field Service Management is configured for automatic qualification, you do not need to complete this process. Work orders are automatically qualified and tasks are automatically created for them. For details on manual and automatic qualification, see [Qualify a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/c_QualifyWorkOrders.md).
 
 On the Work Order form, you can qualify tasks from the Work Order Tasks related list. You can qualify a single task or multiple tasks at the same time. While you qualify a single task, you can also qualify any sibling tasks, which are different tasks that are related to the same order.
 

@@ -2,6 +2,7 @@
 title: Display the integer values of all case states
 description: Display the integer values of all of the states associated with cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/integer-value-case-states.html
 release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

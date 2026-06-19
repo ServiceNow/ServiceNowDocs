@@ -2,6 +2,7 @@
 title: Exploring Proactive Prompts
 description: Learn how to use the Proactive Prompts application in your organization, configuring the signal for prompts, generating the prompts, and displaying them with actions on the selected channels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/proactive-prompts/proactive-prompts-explore.html
 release: zurich
 product: Proactive Prompts
 classification: proactive-prompts
@@ -26,7 +27,7 @@ Prompts are then generated and sent to configured platforms like Service Portal,
 
 The following image illustrates this Proactive Prompts workflow.
 
-![Proactive Prompts workflow](../image/proactive-prompts-overview.png)
+\[Omitted image "proactive-prompts-overview.png"\] Alt text: Proactive Prompts workflow
 
 ## Channels in Proactive Prompts
 
@@ -48,7 +49,7 @@ Portal widget
 
 </td><td>
 
-Prompts are displayed through a widget on the Employee Portal.**Note:** To see the prompts on the portal, the Prompt widget must be added to the portal page. For information on configuring portal pages, see [Create and edit a page using the Service Portal Designer](https://www.servicenow.com/docs/access?context=t_ConfigureAPage&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US). For information on adding widgets to a page, see [Service Portal widgets](https://www.servicenow.com/docs/access?context=service-portal-widgets&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+Prompts are displayed through a widget on the Employee Portal.**Note:** To see the prompts on the portal, the Prompt widget must be added to the portal page. For information on configuring portal pages, see Create and edit a page using the Service Portal Designer. For information on adding widgets to a page, see Service Portal widgets.
 
 </td></tr><tr><td>
 
@@ -59,13 +60,13 @@ Virtual Agent
 Prompts can also be delivered to different Conversational Interface \(CI\) channels through Virtual Agent, for example, Microsoft Teams or Slack.
 
 </td></tr></tbody>
-</table>**Note:** For more information, see [Configure delivery channels in Proactive Prompts](../task/proactive-prompts-config-channels.md).
+</table>**Note:** For more information, see [Configure delivery channels in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/proactive-prompts/proactive-prompts-config-channels.md).
 
 ## Configuring data
 
-Configure signals, data sources, channels, categories, actions, and schedules to display prompts to managers and employees in their flow of work. For more information, see [Configuring Proactive Prompts](proactive-prompts-config.md).
+Configure signals, data sources, channels, categories, actions, and schedules to display prompts to managers and employees in their flow of work. For more information, see [Configuring Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/proactive-prompts/proactive-prompts-config.md).
 
 ## Proactive Prompts in Manager Hub
 
-Generate and display micro insights to managers using Manager Hub through Proactive Prompts. The insights contain reminders about the team's service requests, journeys, and learnings, accompanied by relevant actions to communicate the information to the employees. For more information, see [Proactive Prompts for managers](../task/insight-based-sug.md).
+Generate and display micro insights to managers using Manager Hub through Proactive Prompts. The insights contain reminders about the team's service requests, journeys, and learnings, accompanied by relevant actions to communicate the information to the employees. For more information, see [Proactive Prompts for managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/insight-based-sug.md).
 

@@ -2,6 +2,7 @@
 title: Exploring Customer Service Problem Management
 description: Learn how you, as a service provider, can use the Customer Service Problem Management \(CSPM\) application to streamline the resolution process for handling service-related problems experienced by your customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/explore-spm.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -15,7 +16,7 @@ Learn how you, as a service provider, can use the Customer Service Problem Manag
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 Customer Service Problem Management \(CSPM\) offers a step-by-step process to address customer issues. The process starts with verifying the customer's problem as defined in the service problem case. The system then automatically suggests relevant diagnostic tests to check the service quality and troubleshoot the problem effectively. After identifying the root cause, the application helps generate a repair task based on the test outcomes, leading to a successful resolution. This streamlined process simplifies problem solving for customer service agents, enabling faster resolution and improved efficiency, which in turn enhances customer satisfaction.
 

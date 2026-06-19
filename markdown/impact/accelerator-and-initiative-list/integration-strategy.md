@@ -2,6 +2,7 @@
 title: Integration Strategy
 description: Guidance on the integration processThis Accelerator provides guidance on the integration process.Guidance on the integration process
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/integration-strategy.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

@@ -2,6 +2,7 @@
 title: Create a resource assignment for a group in Project Workspace
 description: Use Project Workspace to create a group and associate it to your resource assignment. You can associate a set of users who share a common purpose to a group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/create-group-resource-assignment.html
 release: zurich
 product: Project Workspace
 classification: project-workspace
@@ -29,15 +30,15 @@ Create group and assign roles to them. Users assigned to the group inherit the r
 
 2.  Create a group.
 
-    For more information on how to create a group, see [Create a user group](https://www.servicenow.com/docs/access?context=t_CreateAGroup&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For more information on how to create a group, see .
 
 3.  Assign the pps\_resource role to a group required for group-based resource assignment.
 
-    For more information on how to assign a role to a group, see [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For more information on how to assign a role to a group, see .
 
 4.  Add members to the group so that the users inherit all the roles assigned to the group.
 
-    For more information, see [Add a user to a group](https://www.servicenow.com/docs/access?context=t_CreateAGroup&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For more information, see Add a user to a group.
 
 5.  Navigate to **Workspaces** &gt; **Project Workspace** and open a project.
 
@@ -54,5 +55,5 @@ A resource assignment record for the group is created and auto-saved.
 
 **Note:** When you select a group in the **Resource** field, the assignment is created in the Pending state. When an assignment type is set to group, an assignment is created for all the members of the group, and the allocation hours are split evenly for all the members of that group.
 
-**Parent Topic:**[Create resource assignments using Project Workspace](create-resource-assignment-prj-wksp.md)
+**Parent Topic:**[Create resource assignments using Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-resource-assignment-prj-wksp.md)
 

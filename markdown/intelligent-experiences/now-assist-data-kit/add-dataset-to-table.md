@@ -2,6 +2,7 @@
 title: Add dataset to a table
 description: You can write dataset records directly into an instance table. This enables you to populate target tables with optional column mapping and scripting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-data-kit/add-dataset-to-table.html
 release: zurich
 product: Now Assist Data Kit
 classification: now-assist-data-kit
@@ -27,13 +28,13 @@ Role required: sn\_data\_kit.admin
 
 3.  Select **Add to Data Instance Table**.
 
-    ![Add to instance table option under add to data collection](../image/nadk-data-to-table1.png)
+    \[Omitted image "nadk-data-to-table1.png"\] Alt text: Add to instance table option under add to data collection
 
 4.  Select the target table.
 
 5.  Map dataset columns to table columns.
 
-    ![The map the columns from the dataset page.](../image/nadk-data-to-table2.png)
+    \[Omitted image "nadk-data-to-table2.png"\] Alt text: The map the columns from the dataset page.
 
 6.  Select **Add to Table**.
 

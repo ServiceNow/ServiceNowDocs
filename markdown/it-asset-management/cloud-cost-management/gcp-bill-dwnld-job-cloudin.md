@@ -2,6 +2,7 @@
 title: Schedule and manage the jobs that download Google Cloud billing data
 description: Billing Download jobs download, organize, and store billing data for your payer account on the schedule that you specify. The system analyzes the data to generate reports and to make recommendations for changes in your cloud operations that can lead to cost savings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/gcp-bill-dwnld-job-cloudin.html
 release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -18,8 +19,8 @@ Billing Download jobs download, organize, and store billing data for your payer 
 ## Before you begin
 
 -   Ensure that your system has 8 GB Clotho memory and 4 GB mid memory.
--   You must set up required roles to perform billing download. For more information, see [Setup roles for Google Cloud billing download](gcp-user-policy-create-cloudin.md).
--   Enable cost allocation for each Kubernetes cluster before you run a Google Cloud Billing download job to view the Kubernetes spend. For more information, see [Enable cost allocation in Google Cloud for Kubernetes cluster](enable-cost-allocation-kc-gcp.md).
+-   You must set up required roles to perform billing download. For more information, see [Setup roles for Google Cloud billing download](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/gcp-user-policy-create-cloudin.md).
+-   Enable cost allocation for each Kubernetes cluster before you run a Google Cloud Billing download job to view the Kubernetes spend. For more information, see [Enable cost allocation in Google Cloud for Kubernetes cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/enable-cost-allocation-kc-gcp.md).
 
 Roles required:
 
@@ -40,7 +41,7 @@ If you have installed the Cloud Cost Management Infra Stack application, then to
 
     **Note:** Charges associated with BigQuery usage are based on billing plans.
 
--   The CI placement process associates downloaded cost and usage data with the appropriate CIs in the CMDB. See [Add a Google Cloud CI class type to ensure accurate billing data](gcp-class-type-add-cloudin.md) for details.
+-   The CI placement process associates downloaded cost and usage data with the appropriate CIs in the CMDB. See [Add a Google Cloud CI class type to ensure accurate billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/gcp-class-type-add-cloudin.md) for details.
 -   Billing Download jobs can’t be in the Global scope.
 -   You can create only one Billing Download job for each account.
 -   To ensure accurate reporting and recommendations for some providers, make sure that the Discovery application runs before the scheduled execution.
@@ -94,7 +95,7 @@ Notify users/groups
 
 The users or groups to notify by email of the status of the job execution \(for example, download failure\). The system doesn’t send a notification for success.Users or groups with the Cloud Integrations Admin \[sn\_cld\_intg\_core.cloud\_integrations\_admin\] role are well suited to handle these issues.
 
-To update the email template, navigate to **System Notification** &gt; **Email** &gt; **Notifications** and open the Notify on billing job execution error template. For information on configuring the email, see [Create an email template](https://www.servicenow.com/docs/access?context=t_CreateAnEmailTemplate&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+To update the email template, navigate to **System Notification** &gt; **Email** &gt; **Notifications** and open the Notify on billing job execution error template. For information on configuring the email, see .
 
 </td></tr><tr><td>
 
@@ -148,7 +149,7 @@ Billing account
 
 </td><td>
 
-Account to access for billing data. Every account for which the **Is Billing account** setting is true appears in the selection list. For more information about the **Is Billing account** field, see [Add a Google Cloud service account](add-gcp-serv-acc.md).For example, the Billing account ID must be in the `0XX0A-AXX9-6XXXA` format.
+Account to access for billing data. Every account for which the **Is Billing account** setting is true appears in the selection list. For more information about the **Is Billing account** field, see [Add a Google Cloud service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/add-gcp-serv-acc.md).For example, the Billing account ID must be in the `0XX0A-AXX9-6XXXA` format.
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: Prepare your Apache Kafka client environment
 description: Install the Apache Kafka binaries on your Unix or Windows client machine.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/multi-instance-framework-hermes/prepare-kafka-client-environment.html
 release: zurich
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -76,5 +77,5 @@ The Apache Kafka client is installed in a simplified directory on your local mac
 
 ## What to do next
 
-[Create a test topic in Hermes using the Kafka client](create-hermes-topic.md)
+[Create a test topic in Hermes using the Kafka client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/multi-instance-framework-hermes/create-hermes-topic.md)
 

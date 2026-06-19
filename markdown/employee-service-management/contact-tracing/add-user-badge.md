@@ -2,6 +2,7 @@
 title: Add user badges
 description: Add user badges that are assigned to employees to use with badge readers when they enter or exit controlled access locations in the workplace. These badges can be used with badge readers for building entry, exit gates, or floors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contact-tracing/add-user-badge.html
 release: zurich
 product: Contact Tracing
 classification: contact-tracing
@@ -21,7 +22,7 @@ Role required: sn\_imt\_tracing.badge\_manager
 
 ## About this task
 
-You can also import your user badge data from an Excel spreadsheet. For more information, see [Easy import data from a list](https://www.servicenow.com/docs/access?context=c_EasyImport&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+You can also import your user badge data from an Excel spreadsheet. For more information, see Easy import data from a list.
 
 ## Procedure
 
@@ -41,5 +42,5 @@ You can also import your user badge data from an Excel spreadsheet. For more inf
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Collecting user badge data](../concept/badge-management.md)
+**Parent Topic:**[Collecting user badge data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/badge-management.md)
 

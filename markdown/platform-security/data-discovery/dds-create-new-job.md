@@ -2,6 +2,7 @@
 title: Create discovery job
 description: Create and schedule a new Data Discovery Store job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-discovery/dds-create-new-job.html
 release: zurich
 product: Data Discovery
 classification: data-discovery

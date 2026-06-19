@@ -2,6 +2,7 @@
 title: Line - Scoped, Global
 description: Creates a Line object using methods to draw a line in a PDF.Instantiates a new Line object.Places a line on a document page.Sets the color of a line.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/LineBothAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,9 +18,9 @@ Creates a Line object using methods to draw a line in a PDF.
 
 This API is part of the ServiceNow PDF Generation Utilities plugin \(com.snc.apppdfgenerator\) and is provided within the `sn_pdfgeneratorutils` namespace. The plugin is activated by default.
 
-This API is a component used with the [Document API](../../DocumentBoth/concept/DocumentBothAPI.md#) to generate a PDF.
+This API is a component used with the [Document API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) to generate a PDF.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## Line - Line\(\)
 
@@ -57,7 +58,7 @@ Document
 
 </td><td>
 
-[Document](../../DocumentBoth/concept/DocumentBothAPI.md#)
+[Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md)
 
 </td><td>
 
@@ -128,7 +129,7 @@ Optional. Value of line thickness in points.Default: 1
 |----|-----------|
 |None| |
 
-The following example shows how to create a line at the lower margin of a document page. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how to create a line at the lower margin of a document page. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var pageSize = new sn_pdfgeneratorutils.PdfPage("LETTER");
@@ -155,13 +156,13 @@ Sets the color of a line.
 
 |Name|Type|Description|
 |----|----|-----------|
-|color|[Color](../../ColorBoth/concept/ColorBothAPI.md#)|Line color.|
+|color|[Color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ColorBothAPI.md)|Line color.|
 
 |Type|Description|
 |----|-----------|
 |None| |
 
-The following example shows how to create a line and set its color in a document. For a document usage example, see [Document](../../DocumentBoth/concept/DocumentBothAPI.md#) API.
+The following example shows how to create a line and set its color in a document. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var pageSize = new sn_pdfgeneratorutils.PdfPage("LETTER");

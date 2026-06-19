@@ -2,6 +2,7 @@
 title: Variable substitution in outbound REST messages
 description: You can use variables when creating outbound REST messages and assign values to those variables when performing a request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/c\_VariableSubstitutionREST.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -23,8 +24,8 @@ You can assign a value to variables when running the request using the RESTMessa
 
 When testing an HTTP method that includes variables, the **Test value** for each variable in the **Variable Substitutions** related list is used.
 
--   **[Generate REST message variables](../task/t_GenerateMessageVariables.md)**  
+-   **[Generate REST message variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/t_GenerateMessageVariables.md)**  
 Populate the list of variable substitutions automatically based on variables defined in several REST message HTTP method fields.
 
-**Parent Topic:**[Outbound REST web service](c_OutboundRESTWebService.md)
+**Parent Topic:**[Outbound REST web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_OutboundRESTWebService.md)
 

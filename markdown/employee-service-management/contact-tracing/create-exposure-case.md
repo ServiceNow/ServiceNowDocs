@@ -2,6 +2,7 @@
 title: Create a case for an affected employee
 description: As a case manager, create a case for an affected employee to identify and follow up with other employees who might have come in contact with the affected employee.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contact-tracing/create-exposure-case.html
 release: zurich
 product: Contact Tracing
 classification: contact-tracing
@@ -23,7 +24,7 @@ Role required: sn\_imt\_tracing.case\_manager
 
 **Important:** There can be only one active case for an affected employee. You can create a new case for the same employee only if the active case is closed or cancelled.
 
-If the [Emergency Self Report](../../business-continuity/task/set-up-emergency-self-report.md#) application is installed and an employee is reported being in quarantine through the [self-reporting option](../../business-continuity/concept/emergency-self-report.md#section_tfx_xw5_1lb), the system automatically creates a case. If an active case exists for the employee at the time of reporting, a work note is added to that case.
+If the [Emergency Self Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/emergency-self-report/set-up-emergency-self-report.md) application is installed and an employee is reported being in quarantine through the [self-reporting option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/emergency-self-report/emergency-self-report.md), the system automatically creates a case. If an active case exists for the employee at the time of reporting, a work note is added to that case.
 
 ## Procedure
 
@@ -142,11 +143,11 @@ The following related lists appear in the case:
 
 ## What to do next
 
-[Run the diagnostic request](identify-exposed-contacts.md) to identify all potentially exposed employees and add them to the case for follow-ups.
+[Run the diagnostic request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/identify-exposed-contacts.md) to identify all potentially exposed employees and add them to the case for follow-ups.
 
 You can also add potentially exposed contacts to the case manually from the Exposed Contacts related list.
 
-If you have the [Safe Workplace Dashboard](../../safe-workplace-dashboard/concept/using-safe-wkplc-dashboard.md) application installed, you can view a trend of active cases and potentially exposed contacts over a given time period for a campus or location on the dashboard.
+If you have the [Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace-dashboard/using-safe-wkplc-dashboard.md) application installed, you can view a trend of active cases and potentially exposed contacts over a given time period for a campus or location on the dashboard.
 
-**Parent Topic:**[Managing cases to follow up with potentially exposed contacts](../concept/exposure-case-management.md)
+**Parent Topic:**[Managing cases to follow up with potentially exposed contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/exposure-case-management.md)
 

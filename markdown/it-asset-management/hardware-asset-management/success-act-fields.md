@@ -2,6 +2,7 @@
 title: HAM Success Activity
 description: Fields on the HAM Success Activity form help you create success activities to track the success of your created goals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/success-act-fields.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -95,5 +96,5 @@ Work notes
 Notes relating to the success activity.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Hardware Asset Management reference](../concept/reference-hardware-asset-management.md)
+</table>**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
 

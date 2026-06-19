@@ -2,6 +2,7 @@
 title: Choose output parameters for a model
 description: Specify output parameters for a read or update operation in Zero Copy Connector for ERP to define how fields and parameters are mapped from the ERP system to the ServiceNow AI Platform. Output parameters also define how returned data is stored on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erp-canvas-manage-outputs.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -28,7 +29,7 @@ If you're already in the process of managing a model and ready to specify output
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the model page by selecting the models icon ![](../image/erpc-data-model-icon.png) in the side panel.
+2.  Open the model page by selecting the models icon \[Omitted image "erpc-data-model-icon.png"\] Alt text: in the side panel.
 
 3.  Select the model that you want to add a read operation to.
 
@@ -36,11 +37,11 @@ If you're already in the process of managing a model and ready to specify output
 
 5.  Open a model operation.
 
-    If you don't have a model operation, add one to the model. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](erpc-manage-models-read-op.md).
+    If you don't have a model operation, add one to the model. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md).
 
 6.  Open an entity.
 
-    If you don't have an entity, add one to the operation. For more information, see [Add an entity to a model](../concept/add-an-entity-to-model.md).
+    If you don't have an entity, add one to the operation. For more information, see [Add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
 
 7.  Select the **Choose outputs** tab.
 
@@ -48,19 +49,19 @@ If you're already in the process of managing a model and ready to specify output
 
     If your instance uses the Zurich Patch 4 release, skip to the next step.
 
-    ![Choose outputs page.](../image/erpc-output-parameters-manager-ys2.png)
+    \[Omitted image "erpc-output-parameters-manager-ys2.png"\] Alt text: Choose outputs page.
 
     The **Prepopulated outputs** section lists any fields that were added to the inputs. The fields are read-only on the output page, but can be edited and removed on the input page.
 
     **Note:** Prepopulated output applies only to table and OData entities.
 
-    ![Choose output page with outputs highlighted.](../image/erpc-output-prepopulated-outpus.png)
+    \[Omitted image "erpc-output-prepopulated-outpus.png"\] Alt text: Choose output page with outputs highlighted.
 
-    **Note:** Mapped value names in inputs and outputs are generated automatically, but you can edit the names manually. For more information, see [Edit input and output mapped value name in Zero Copy Connector for ERP](erp-edit-mapped-value-name-in-model-manager.md).
+    **Note:** Mapped value names in inputs and outputs are generated automatically, but you can edit the names manually. For more information, see [Edit input and output mapped value name in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-edit-mapped-value-name-in-model-manager.md).
 
 9.  If your instance uses the Zurich Patch 4 release, review the existing outputs to see if you must add any additional parameters.
 
-    ![Choose outputs page.](../image/erpc-output-parameters-manager-zs2.png)
+    \[Omitted image "erpc-output-parameters-manager-zs2.png"\] Alt text: Choose outputs page.
 
     The **Required outputs** section lists any fields that were added to the inputs. The fields are read-only on the output page, but can be edited and removed on the input page.
 
@@ -70,7 +71,7 @@ If you're already in the process of managing a model and ready to specify output
 
     Starting with the Zurich Patch 4 release, Zero Copy Connector for ERP automatically suggests mappings between table fields in source systems and target models. This reduces the amount of manual work to do, while still giving you control to edit the mappings as needed.
 
-    **Note:** Mapped value names in inputs and outputs are generated automatically, but you can edit the names manually. For more information, see [Edit input and output mapped value name in Zero Copy Connector for ERP](erp-edit-mapped-value-name-in-model-manager.md).
+    **Note:** Mapped value names in inputs and outputs are generated automatically, but you can edit the names manually. For more information, see [Edit input and output mapped value name in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-edit-mapped-value-name-in-model-manager.md).
 
 10. Add a new output field or parameter.
 
@@ -86,7 +87,7 @@ If you're already in the process of managing a model and ready to specify output
 
     If you're adding a complex, nested parameter, such as an address that includes other parameters \(for street, for city, etc.\), Zero Copy Connector for ERP automatically identifies that it needs additional related parameters. Zero Copy Connector for ERP creates new, nested parameter rows that you must then populate with the related values. You can nest only parameters with **Object** or **Array** as the **Data type**.
 
-    ![Table expanded to show outputs with a nested output highlighted.](../image/erpc-output-parameters-nested.png)
+    \[Omitted image "erpc-output-parameters-nested.png"\] Alt text: Table expanded to show outputs with a nested output highlighted.
 
 11. Add any nested output fields or parameters to choose what data to include from a complex parameter.
 
@@ -94,7 +95,7 @@ If you're already in the process of managing a model and ready to specify output
 
     1.  Specify the parent output field or parameter.
 
-    2.  Select the settings icon![](../image/erpc-output-indent-icon.png) or add icon + for the parent row.
+    2.  Select the settings icon\[Omitted image "erpc-output-indent-icon.png"\] Alt text: or add icon + for the parent row.
 
     3.  In the modal that appears, select any additional, related fields or parameters to include.
 
@@ -107,8 +108,8 @@ If you're already in the process of managing a model and ready to specify output
 
 When you add mapped fields or parameters as outputs and successfully read or update the ERP system, each parameter appears as a field. You can then add the field to a remote table or an extraction table. Manage the fields for the remote table or extraction table to add the retrieved parameters. For more information, see the following topics:
 
--   [Customize fields for an ERP remote table in Zero Copy Connector for ERP](erp-canvas-build-remote-table.md)
--   [Select fields for an extraction table in Zero Copy Connector for ERP](erpc-select-extraction-table-fields.md)
+-   [Customize fields for an ERP remote table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-build-remote-table.md)
+-   [Select fields for an extraction table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erpc-select-extraction-table-fields.md)
 
-**Parent Topic:**[Building and managing models to work with ERP data](../concept/work-with-erp-data-models.md)
+**Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
 

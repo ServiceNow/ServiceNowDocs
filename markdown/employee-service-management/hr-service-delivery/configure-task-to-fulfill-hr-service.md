@@ -2,6 +2,7 @@
 title: Configure a task
 description: Configure a service activity that is a task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/configure-task-to-fulfill-hr-service.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -47,7 +48,7 @@ Child task template
 
 </td><td>
 
-Name of the child task template that the service activity is associated with.**Note:** The HR task template automatically populates fields on the HR task form when the task is generated. See [Configure an HR task template](configure-hr-task-template.md) for more information.
+Name of the child task template that the service activity is associated with.**Note:** The HR task template automatically populates fields on the HR task form when the task is generated. See [Configure an HR task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-task-template.md) for more information.
 
 </td></tr><tr><td>
 
@@ -83,5 +84,5 @@ Order number for when the service activity is made available. Lower numbered ser
 4.  Click **Update** on the HR Service form.
 
 
-**Parent Topic:**[Configure a service activity for an HR service](configure-service-activity-for-hr-service.md)
+**Parent Topic:**[Configure a service activity for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-service-activity-for-hr-service.md)
 

@@ -2,6 +2,7 @@
 title: CMDB classes targeted in the Service Graph Connector for Microsoft Defender for IoT \(Azure\)
 description: When you complete the guided setup, you can configure the integration to periodically pull data from a Service Graph Connector for Microsoft Defender for IoT \(Azure\) \(Azure\) project. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-manager/sgc-microsoft-d4iot-azure-classes.html
 release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -272,5 +273,5 @@ The following attributes in the Serial Number \[cmdb\_serial\_number\] table are
 |Serial Number \[cmdb\_serial\_number\]|Reference|Hardware \[cmdb\_ci\_hardware\]|
 |Network Adapter \[cmdb\_ci\_network\_adapter\]|Reference|Hardware \[cmdb\_ci\_hardware\]|
 
-**Parent Topic:**[Service Graph Connector for Microsoft Defender for IoT \(Azure\)](../concept/integration-sgc-microsoft-defender-iot-azure.md)
+**Parent Topic:**[Service Graph Connector for Microsoft Defender for IoT \(Azure\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/integration-sgc-microsoft-defender-iot-azure.md)
 

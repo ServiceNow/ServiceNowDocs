@@ -2,6 +2,7 @@
 title: Citrix License Server and Delivery Controller discovery
 description: Discovery can find Citrix License Server instances and Delivery Controller components that run on Windows machines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/citrix-lic-server-deliv-controller.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -19,12 +20,12 @@ Discovery can find Citrix License Server instances and Delivery Controller compo
 
 ## Requirements
 
--   Configure [Windows administrative credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) to access the host machine.
--   Make sure that [PowerShell for Discovery](../reference/r_PowerShellForDiscovery.md) is installed on your MID Servers. The patterns used for Citrix discovery require the ability to run PowerShell commands.
+-   Configure Windows administrative credentials to access the host machine.
+-   Make sure that [PowerShell for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_PowerShellForDiscovery.md) is installed on your MID Servers. The patterns used for Citrix discovery require the ability to run PowerShell commands.
 -   For OS users, make sure you can execute “Get-XDSite.” The Citrix Studio Admin should provide permissions.
 -   \(Optional\) For top-down discovery with Service Mapping, on Citrix Delivery Controller, install the Citrix.Broker module.
 -   \(Optional\) For top-down discovery with Service Mapping, a user with permission to run PowerShell commands.
--   \(Optional\) \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+-   \(Optional\) \(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 ## Patterns
 
@@ -75,5 +76,5 @@ Name \[name\]
 |Citrix License Server \[cmdb\_ci\_appl\_license\_server\]|Runs on::Runs|Windows Server \[cmdb\_ci\_win\_server\]|
 |Citrix Delivery Controller \[cmdb\_ci\_appl\_delivery\_controler\]|Runs on::Runs|Windows Server \[cmdb\_ci\_win\_server\]|
 
-**Parent Topic:**[Software discovery](c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_Software.md)
 

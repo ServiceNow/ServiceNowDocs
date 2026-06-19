@@ -2,6 +2,7 @@
 title: Components installed with Collaboration services
 description: Several types of components are installed with activation of the Collaboration services application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/collaboration-services/installed-with-collaboration-services.html
 release: zurich
 product: Collaboration Services
 classification: collaboration-services
@@ -15,7 +16,7 @@ breadcrumb: [Install Collaboration services, Configure, Collaboration services, 
 
 Several types of components are installed with activation of the Collaboration services application.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Tables installed
 
@@ -54,5 +55,5 @@ Communication Plan — Collaboration Service Data\[comm\_plan\_collab\_data\]
 Stores Collaboration Service related data.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Collaboration services](../task/install-collaboration-services.md)
+</table>**Parent Topic:**[Install Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/install-collaboration-services.md)
 

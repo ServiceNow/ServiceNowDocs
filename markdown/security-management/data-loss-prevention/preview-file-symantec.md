@@ -2,6 +2,7 @@
 title: Preview evidence files
 description: Preview Data Loss Prevention Incident Response evidence files in the DLP IR Analyst workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/data-loss-prevention/preview-file-symantec.html
 release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -18,7 +19,7 @@ Preview Data Loss Prevention Incident Response evidence files in the DLP IR Anal
 
 ## Before you begin
 
-**Important:** While using the Evidence files action in the DLP analyst workspace, the evidence files are temporarily stored in the ServiceNow database in an unencrypted format. If you don't want to store the evidence files, disable the Evidence Files preview feature. For more information, see [Configure advanced settings](../../data-loss-prevention/task/configure-advanced-settings-dlp.md).
+**Important:** While using the Evidence files action in the DLP analyst workspace, the evidence files are temporarily stored in the ServiceNow database in an unencrypted format. If you don't want to store the evidence files, disable the Evidence Files preview feature. For more information, see [Configure advanced settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/configure-advanced-settings-dlp.md).
 
 Role required: sn\_dlir.analyst
 
@@ -28,7 +29,7 @@ Role required: sn\_dlir.analyst
 
 2.  Open a DLP incident record.
 
-3.  From the contextual sidebar, select the Evidence files icon \(![Evidence files icon.](../../data-loss-prevention/image/icon-evidence-files.png)\).
+3.  From the contextual sidebar, select the Evidence files icon \(\[Omitted image "icon-evidence-files.png"\] Alt text: Evidence files icon.\).
 
 4.  On the **Evidence Files** tab, select the **Evidence File** card to preview the evidence files in the document viewer.
 
@@ -91,5 +92,5 @@ PDF files
     Binary files won’t be rendered and have to be downloaded to preview their content. The preview evidence file feature also works for archived incidents.
 
 
-**Parent Topic:**[Create a profile for Symantec DLP integration](create-profile-symantec-dlp.md)
+**Parent Topic:**[Create a profile for Symantec DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/create-profile-symantec-dlp.md)
 

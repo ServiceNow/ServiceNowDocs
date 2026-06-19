@@ -2,6 +2,7 @@
 title: Resolve a collision in Team Development
 description: A collision is detected when the pulled version and the current local version are modifications of a different version. Collisions indicate that the record has been modified multiple times.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/t\_ResolveACollision.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -39,15 +40,15 @@ To confirm that your changes don’t conflict with other development efforts, yo
 
 4.  Review the differences and perform an action.
 
-<table id="choicetable_er4_v12_5s"><thead><tr><th align="left" id="d200613e137">
+<table id="choicetable_er4_v12_5s"><thead><tr><th align="left" id="d130683e137">
 
 Option
 
-</th><th align="left" id="d200613e140">
+</th><th align="left" id="d130683e140">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d200613e146">
+</th></tr></thead><tbody><tr><td id="d130683e146">
 
 **To maintain the local record as the current version**
 
@@ -55,7 +56,7 @@ Action
 
 Select **Use Local Version**. The pulled version is added to the version history for the record.
 
-</td></tr><tr><td id="d200613e158">
+</td></tr><tr><td id="d130683e158">
 
 **To load the version pulled from the parent as the current version**
 
@@ -63,13 +64,13 @@ Select **Use Local Version**. The pulled version is added to the version history
 
 Select **Use Pulled Version**.
 
-</td></tr><tr><td id="d200613e170">
+</td></tr><tr><td id="d130683e170">
 
 **To move a setting from the selected version to update the current version**
 
 </td><td>
 
-To move a change, select the **&gt;** button for the field. To work with scripts and text fields, select in the field and modify the text as needed. When the records meet your needs, select **Save Merge and Resolve Collision**.**Note:** Some types of record don’t support this method. See [Limitations on updating records](../reference/r_LimitationsOnResolvingCollisions.md) for more information.
+To move a change, select the **&gt;** button for the field. To work with scripts and text fields, select in the field and modify the text as needed. When the records meet your needs, select **Save Merge and Resolve Collision**.**Note:** Some types of record don’t support this method. See [Limitations on updating records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/r_LimitationsOnResolvingCollisions.md) for more information.
 
 </td></tr></tbody>
 </table>    The system performs the selected action and also clears the collision for future push/pulls.

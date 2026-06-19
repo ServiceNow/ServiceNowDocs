@@ -2,6 +2,7 @@
 title: Configure Virtual Agent for a ServiceNow mobile application
 description: Virtual Agent provides optimized templates for the mobile experience. Configure a service portal to run Virtual Agent on a ServiceNow mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/configure-va-mobile-web-client.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -23,7 +24,7 @@ Install the required plugins:
 -   Conversational Messaging \(com.glide.messaging.awa\)
 -   Core ServiceNow® mobile plugins
 
-    For more information, see [Mobile plugins](https://www.servicenow.com/docs/access?context=sg-mobile-plugins&version=zurich&pubname=zurich-mobile&ft:locale=en-US).
+    For more information, see Mobile plugins.
 
 
 Role required: admin
@@ -32,7 +33,7 @@ Role required: admin
 
 1.  Install the corresponding mobile plugins for each application that you want to use in Virtual Agent.
 
-    For example, if you're using Virtual Agent ITSM conversations, install the ITSM Mobile Agent \(sn\_itsm\_mobile\_agt\) plugin as well. For more information, see [Mobile plugins for ServiceNow Agent](https://www.servicenow.com/docs/access?context=sg-mobile-plugins&version=zurich&pubname=zurich-mobile&ft:locale=en-US).
+    For example, if you're using Virtual Agent ITSM conversations, install the ITSM Mobile Agent \(sn\_itsm\_mobile\_agt\) plugin as well. For more information, see Mobile plugins for ServiceNow Agent.
 
 2.  Navigate to **All** &gt; **Now Mobile App** &gt; **Applet Launchers**.
 
@@ -44,7 +45,7 @@ Role required: admin
 
 
 
-    ![Select the Body tab at the bottom of the Launcher screen Homepage record to see the Quick actions menus section.](../images/mobile-launcher-homepage.png)
+    \[Omitted image "mobile-launcher-homepage.png"\] Alt text: Select the Body tab at the bottom of the Launcher screen Homepage record to see the Quick actions menus section.
 
 5.  Click **Chat** under **Quick Action Button** to open the record.
 
@@ -52,7 +53,7 @@ Role required: admin
 
     1.  In the Unified Navigation bar, click the scope icon and change the application scope so that it matches the application that contains the record.
 
-        ![When you change the scope, the scope icon turns red. A message on the screen indicates that you're editing a record in the Now Mobile application.](../images/change-application-scope-mobile.png)
+        \[Omitted image "change-application-scope-mobile.png"\] Alt text: When you change the scope, the scope icon turns red. A message on the screen indicates that you're editing a record in the Now Mobile application.
 
     2.  Click the back button to return to the previous page.
 
@@ -72,29 +73,29 @@ Role required: admin
 
     1.  In the **Function** field, select **Agent Chat**.
 
-    2.  Click the info icon ![Info icon.](../images/icon-info.png) on the **Function** field and verify that **Chat Launcher** is set in the **Type** field \(this is the default setting\).
+    2.  Click the info icon \[Omitted image "icon-info.png"\] Alt text: Info icon. on the **Function** field and verify that **Chat Launcher** is set in the **Type** field \(this is the default setting\).
 
     3.  Select the **Active** check box.
 
     4.  Click **Update**.
 
-    ![The Function field should specify "Agent Chat." The Type field should display "Chat Launcher" by default.](../images/mobile-chat-configuration.png "Chat form configuration")
+    \[Omitted image "mobile-chat-configuration.png"\] Alt text: The Function field should specify "Agent Chat." The Type field should display "Chat Launcher" by default.
 
 
 ## Result
 
 Depending on the device and the patch version of the server instance, end users can access the Virtual Agent chat icon in the bottom-right or top-right corner of the app. Tap the plus icon or the chat icon to start a conversation.
 
-The topics you create in Virtual Agent Designer can be used in both the web and mobile clients, as well as any other channels you may configure. Virtual Agent output components are already optimized for Android and iOS, including [image and video cards](../reference/va-card-output.md), [link unfurling](../concept/va-link-unfurling.md), [AI Search results](../concept/va-ai-search.md), and [Virtual Agent notifications](../concept/configuring-va-notifications.md).
+The topics you create in Virtual Agent Designer can be used in both the web and mobile clients, as well as any other channels you may configure. Virtual Agent output components are already optimized for Android and iOS, including [image and video cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-card-output.md), [link unfurling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-link-unfurling.md), [AI Search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-ai-search.md), and [Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configuring-va-notifications.md).
 
 ## What to do next
 
-To enable Now Assist in native Virtual Agent, see [Configuring assistants overview](../../now-assist-in-va/task/configure-now-assist-va.md).
+To enable Now Assist in native Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
--   **[Now Mobile notification of unread chat and Virtual Agent messages](../concept/va-mobile-unread-messages.md)**  
+-   **[Now Mobile notification of unread chat and Virtual Agent messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-mobile-unread-messages.md)**  
 When Now® Mobile app users navigate away from the app after starting an active conversation, they can automatically receive Virtual Agent mobile push notifications informing them of new, unread chat messages and  Virtual Agent notifications that have arrived.
--   **[View and modify Virtual Agent style templates](modify-va-templates.md)**  
+-   **[View and modify Virtual Agent style templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/modify-va-templates.md)**  
 Virtual Agent provides optimized templates for the mobile experience. You can view and modify the style sheets in the Adapter Cards \[sys\_cs\_adapter\_card\] table.
 
-**Parent Topic:**[Configuring Virtual Agent](../concept/configure-virtual-agent.md)
+**Parent Topic:**[Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-virtual-agent.md)
 

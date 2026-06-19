@@ -2,6 +2,7 @@
 title: Publish an approved revision
 description: Publish a document revision that has been approved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/t\_PublishAnApprovedRevision.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -48,5 +49,5 @@ Publish the approved revision from the Document Revisions list.
     **Note:** If the approval and publishing process is repeated, the published revision is retired when the new revision is published. Any workflows running against previous revisions are canceled when the document is published.
 
 
-**Parent Topic:**[Create a document](../concept/c_CreateADocument.md)
+**Parent Topic:**[Create a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/c_CreateADocument.md)
 

@@ -2,6 +2,7 @@
 title: Using Conversational Integration with Apple Messages for Business
 description: Enable a requester to converse with an agent using Apple Messages for Business chat conversations. An administrator can configure the Conversational Integration with Apple Messages for Business application for integrating the Apple Messages for Business messaging app with a ServiceNow application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/messg-apple-using.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -21,7 +22,7 @@ Agents and requesters can do the following:
 -   A live agent can accept Apple Messages for Business chat conversations as work items from their Agent Workspace Inbox to converse with a requester.
 -   A live agent can continue to interact with a customer conversation in Apple Messages for Business for as long as the customer would like.
 
-For more information, see [Integrating Apple Messages for Business with Customer Service Management](https://www.servicenow.com/docs/access?context=integrate-amb-with-csm&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+For more information, see .
 
 ## Accepting Apple Messages for Business chat conversations
 
@@ -34,5 +35,5 @@ As a live agent interacting with a requester over the Apple Messages for Busines
 -   Share photos or videos.
 -   Share any files as attachments.
 
-**Note:** If an administrator has configured the Apple Messages for Business service channel for transfer of chat conversations, then you can accept a work item from the Apple Messages for Business chat conversation in your Agent Workspace Inbox. For more information, see [Transfer Apple Messages for Business chat conversations to live agents](../task/messg-apple-live-agent-conv.md) and [Service channels](../../advanced-work-assignment/concept/awa-service-channels.md).
+**Note:** If an administrator has configured the Apple Messages for Business service channel for transfer of chat conversations, then you can accept a work item from the Apple Messages for Business chat conversation in your Agent Workspace Inbox. For more information, see [Transfer Apple Messages for Business chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-apple-live-agent-conv.md) and [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-service-channels.md).
 

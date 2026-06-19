@@ -2,6 +2,7 @@
 title: Create predefined transition condition types
 description: Create predefined transition conditions to reuse the conditions for your Change models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/create-predefined-transition-condition-type.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -41,5 +42,5 @@ Role required: change\_manager
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Create a Change model](create-a-change-model.md)
+**Parent Topic:**[Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/create-a-change-model.md)
 

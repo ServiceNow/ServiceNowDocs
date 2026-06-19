@@ -2,7 +2,10 @@
 title: Create an account relationship record
 description: Create an account relationship record by selecting the account relationship type and then selecting the accounts involved in the relationship.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_CreateAcctRelationshipRecord.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

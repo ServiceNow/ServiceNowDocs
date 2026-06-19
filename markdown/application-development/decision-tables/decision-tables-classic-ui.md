@@ -2,6 +2,7 @@
 title: Decision tables in the classic environment
 description: In the classic environment, you can develop a table to use for your decision answer records. You then associate an answer record to each decision on your decision table. This answer record is returned when the decision is reached based on your inputs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/decision-tables/decision-tables-classic-ui.html
 release: zurich
 product: Decision Tables
 classification: decision-tables
@@ -15,10 +16,10 @@ breadcrumb: [Decision Tables, Builder library, Developing your application, Buil
 
 In the classic environment, you can develop a table to use for your decision answer records. You then associate an answer record to each decision on your decision table. This answer record is returned when the decision is reached based on your inputs.
 
-**Note:** Workflow Studio decision tables provide a new intuitive interface to create decision tables. For more information, see [Workflow Studio](https://www.servicenow.com/docs/access?context=workflow-studio&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+**Note:** Workflow Studio decision tables provide a new intuitive interface to create decision tables. For more information, see .
 
--   **[Create a decision table to resolve complex decisions](../task/create-a-decision.md)**  
+-   **[Create a decision table to resolve complex decisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/decision-tables/create-a-decision.md)**  
 Create a decision table to help you resolve a complex decision that depends on multiple factors.
 
-**Parent Topic:**[Decision Tables](decision-table.md)
+**Parent Topic:**[Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/decision-tables/decision-table.md)
 

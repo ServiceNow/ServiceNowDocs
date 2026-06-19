@@ -2,6 +2,7 @@
 title: Display approvers in workflow stage fields
 description: Enable workflow stage fields to display approvers, change the number of approvers to display, or disable displaying approvers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/legacy-workflow/display-approvers-workflow-stages.html
 release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-By default, only workflow stage fields that use the Workflow-driven renderer can display a list of approvers. Only these [workflow stage renderer](../reference/r_WorkflowStageRenderers.md#) types support displaying approvers.
+By default, only workflow stage fields that use the Workflow-driven renderer can display a list of approvers. Only these [workflow stage renderer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/r_WorkflowStageRenderers.md) types support displaying approvers.
 
 -   Linear renderer
 -   Main flow renderer
@@ -99,5 +100,5 @@ Enables \(true\) or disables \(false\) the Workflow-driven renderer to display a
 
 The workflow stage field renderers you enabled display approvers up to the approver display limit. For example, a Workflow-driven stage field displays up to five approvers when the workflow reaches an approval stage.
 
-**Parent Topic:**[Create a workflow stage field](t_CreateAWorkflowStageField.md)
+**Parent Topic:**[Create a workflow stage field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/t_CreateAWorkflowStageField.md)
 

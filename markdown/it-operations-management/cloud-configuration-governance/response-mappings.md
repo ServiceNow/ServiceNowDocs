@@ -2,6 +2,7 @@
 title: Response Mappings
 description: Response Mapping is the mechanism CMP uses to write back all the events and operations into CMDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/response-mappings.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

@@ -2,7 +2,10 @@
 title: Create a table map for case types
 description: Create table maps to configure the case type fields that are copied from a case record to the post case review or the case action summary records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-case-type-field-mapping.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

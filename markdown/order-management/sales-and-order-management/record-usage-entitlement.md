@@ -2,6 +2,7 @@
 title: Record the usage on the entitlement
 description: Record the consumption or usages made out of the total characteristic quantities allotted for an entitlement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/record-usage-entitlement.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -27,15 +28,15 @@ When an entitlement moves to the Active state, usage records are created. You ca
 
 1.  Navigate to the ServiceNow AI Platform interface or the CSM Configurable Workspace.
 
-<table id="choicetable_m1c_yvj_d1c"><thead><tr><th align="left" id="d137269e63">
+<table id="choicetable_m1c_yvj_d1c"><thead><tr><th align="left" id="d108000e63">
 
 Interface
 
-</th><th align="left" id="d137269e66">
+</th><th align="left" id="d108000e66">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d137269e72">
+</th></tr></thead><tbody><tr><td id="d108000e72">
 
 **Platform interface**
 
@@ -43,7 +44,7 @@ Action
 
 Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements** &gt; **Service Contracts**.
 
-</td></tr><tr><td id="d137269e96">
+</td></tr><tr><td id="d108000e96">
 
 **CSM Configurable Workspace**
 
@@ -56,15 +57,15 @@ Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements*
 </td></tr></tbody>
 </table>2.  Record the usage on an entitlement.
 
-<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d137269e148">
+<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d108000e148">
 
 From
 
-</th><th align="left" id="d137269e151">
+</th><th align="left" id="d108000e151">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d137269e157">
+</th></tr></thead><tbody><tr><td id="d108000e157">
 
 **Service Contracts**
 
@@ -76,7 +77,7 @@ Do this
 4.  From the Entitlement Usages related list, open the usage record.
 
 
-</td></tr><tr><td id="d137269e181">
+</td></tr><tr><td id="d108000e181">
 
 **Entitlements**
 
@@ -96,5 +97,5 @@ Do this
     If you have used the Service Contracts menu to record the usage, then select **Update** to save the contract line and then the service contract.
 
 
-**Parent Topic:**[Using Customer Contracts and Entitlements](../concept/using-post-sales-support.md)
+**Parent Topic:**[Using Customer Contracts and Entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/using-post-sales-support.md)
 

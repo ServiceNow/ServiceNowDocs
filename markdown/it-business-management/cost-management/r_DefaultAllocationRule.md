@@ -2,6 +2,7 @@
 title: Default allocation rule
 description: For every expense line generated for a business service, the default allocation rule Process Svc-CC Relationships will attempt to process the expense and create allocations for each cost center that is consuming the service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/cost-management/r\_DefaultAllocationRule.html
 release: zurich
 product: Cost Management
 classification: cost-management
@@ -28,5 +29,5 @@ For a given business service expense line, it is typical that less than 100% of 
 
 This is a system wide setting that can be configured by navigating to **Financial Management** &gt; **Properties** module and selecting an option from the choice list.
 
-**Parent Topic:**[Use business services with expenses](../concept/c_UseBusinessServicesWithExpenses.md)
+**Parent Topic:**[Use business services with expenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/cost-management/c_UseBusinessServicesWithExpenses.md)
 

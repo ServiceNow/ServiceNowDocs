@@ -2,6 +2,7 @@
 title: View stack dependency
 description: Explore the details of the configuration items, services, and other tasks that are associated with the stacks and resources by using View Dependency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/viewing-stack-dependency.html
 release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -35,10 +36,10 @@ A stack can be dependent on multiple stacks, and multiple stacks can depend on a
 
     The following example shows the settings for viewing the stack dependencies. The settings include Save Custom Settings, Load Custom Settings, Predefined Filters, Dependency Type, and Max Levels.
 
-    ![View of stack dependencies.](../image/viewing-stack-dependency.png "Viewing stacks dependencies")
+    \[Omitted image "viewing-stack-dependency.png"\] Alt text: View of stack dependencies.
 
 5.  Undo all the CI filter selections and reset the map setting by selecting **Reset**.
 
 
-**Parent Topic:**[Exploring the My Stacks tab](../concept/manage-stacks.md)
+**Parent Topic:**[Exploring the My Stacks tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/manage-stacks.md)
 

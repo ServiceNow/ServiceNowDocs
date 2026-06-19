@@ -1,7 +1,8 @@
 ---
 title: Modify the my favorites widget display
-description: The My Favorites widget displays the favorited content for quick use. You can configure the instance options to control the appearance of the widget, such as the title and number of items to display you want to view.
+description: The My Favorites widget displays the favorite content for quick use. You can configure the instance options to control the appearance of the widget, such as the title and number of items to display you want to view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/config-favorites-instance-options.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -13,7 +14,7 @@ breadcrumb: [Cross-channel favorites, Setup Employee Center browse experience fe
 
 # Modify the my favorites widget display
 
-The **My Favorites** widget displays the favorited content for quick use. You can configure the instance options to control the appearance of the widget, such as the title and number of items to display you want to view.
+The **My Favorites** widget displays the favorite content for quick use. You can configure the instance options to control the appearance of the widget, such as the title and number of items to display you want to view.
 
 ## Before you begin
 
@@ -25,15 +26,17 @@ Role required: sp\_admin or admin
 
     The Employee Center home page is displayed.
 
-2.  Press and hold the control key, right-click the Favorites widget, and then select **Instance Options**.
+2.  Press and hold the control key, right-select the Favorites widget, and then select **Instance Options**.
 
     Instance options page appears.
 
-    ![Instance options](../images/favorites-instance-options.png "Instance options")
+    \[Omitted image "favorites-instance-options.png"\] Alt text: Instance options
 
     .
 
 3.  Configure the instance options.
+
+    **Note:** The my **Favorites** widget syncs instantly with other widgets in real-time on the web. However, when adding favorites items across devices \(example: mobile to the web\), a manual refresh is required to reflect the latest changes — **Reload the page** on web or **Pull to refresh** on mobile.
 
 <table id="table_lgk_4yj_crb"><thead><tr><th>
 
@@ -101,8 +104,8 @@ Select the list of Load configuration option.-   **Async**
 You may make the load configuration Synchronous for the widgets visible on the Home page for better load experience.
 
 </td></tr></tbody>
-</table>4.  Click **Save**.
+</table>4.  Select **Save**.
 
-    For more information, see .
+    For more information, see [Cross-channel favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-center-favorites.md).
 
 

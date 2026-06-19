@@ -2,6 +2,7 @@
 title: Use the guided tour in Universal Request
 description: Use the guided tour to navigate a sequence of interactive steps that provides an overview of Universal Request cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-guided-tour.html
 release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -31,7 +32,7 @@ Use this procedure the start the guided tour manually.
 
 3.  Select a universal request in any given categories.
 
-4.  Select the **Show help** icon \(![Show help icon](../../wsd-indoor-mapping/images/help_question_mark_icon.png)\).​
+4.  Select the **Show help** icon \(\[Omitted image "help\_question\_mark\_icon.png"\] Alt text: Show help icon\).​
 
 5.  Select **Take a tour**.
 
@@ -46,5 +47,5 @@ Use this procedure the start the guided tour manually.
 9.  Select **Done** to complete the tour.
 
 
-**Parent Topic:**[Using Universal Request](../concept/using-ur.md)
+**Parent Topic:**[Using Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/using-ur.md)
 

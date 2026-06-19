@@ -2,12 +2,13 @@
 title: Create message and Kafka topic replications in Stream Connect
 description: Set up message and topic replications to replicate data between your Apache Kafka environment and ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/configure-message-topic-reps-sc.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Message replication, Using Stream Connect for Apache Kafka, Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -18,20 +19,22 @@ Set up message and topic replications to replicate data between your Apache Kafk
 ## Before you begin
 
 -   Role required: message\_replication\_admin
--   This feature requires a subscription. For more information, see [Using Stream Connect for Apache Kafka](../concept/stream-connect-apache-kafka.md).
+-   This feature requires a subscription. For more information, see [Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/stream-connect-apache-kafka.md).
 -   Verify the Hermes Messaging Service and Instance PKI Certificate Generator are working.
-    -   [Check the status of and connection to the Hermes Kafka cluster](https://www.servicenow.com/docs/access?context=run-hermes-messaging-service-diagnostics&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
-    -   Check the [Key Management Framework Health](https://www.servicenow.com/docs/access?context=kmf_diagnostics&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) to verify that all three items in the Instance PKI section are operational.
--   Configure and start a MID Server or MID Server cluster. For more information, see [Configuring MID Servers](https://www.servicenow.com/docs/access?context=c_MIDServerConfiguration&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) and [Configure a MID Server cluster](https://www.servicenow.com/docs/access?context=t_ConfigureAMIDServerCluster&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    -   .
+    -   Check the  to verify that all three items in the Instance PKI section are operational.
+-   Configure and start a MID Server or MID Server cluster. For more information, see  and .
 
     The MID Server must be able to access Hermes endpoints through the firewall. Work with your network administrator to make sure that the following port ranges are open.
 
     -   Producer: 4000–4050
     -   Consumer1: 4100–4150
     -   Consumer2: 4200–4250
+    **Note:** Proxy settings on the MID Server don't apply to Hermes connectivity. The MID Server proxy configuration applies only to HTTP-based communication. Hermes uses Kafka-native TCP connections, so traffic to the Hermes cluster bypasses proxy settings regardless of how the MID Server is configured.
+
     If you're using a MID Server cluster, it must have a cluster type of **Load Balance**. The **Failover** cluster type is not supported.
 
--   Stream Connect Message Replication uses a Connection &amp; Credential alias to connect to your local Kafka. [Create a Connection &amp; Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) with a **Connection type** of **Kafka**. A Connection &amp; Credential alias requires a [Kafka Connection](configure-kafka-connection.md) and a [Kafka SSL Credential](create-kafka-ssl-credentials.md).
+-   Stream Connect Message Replication uses a Connection &amp; Credential alias to connect to your local Kafka.  with a **Connection type** of **Kafka**. A Connection &amp; Credential alias requires a [Kafka Connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/configure-kafka-connection.md) and a [Kafka SSL Credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/create-kafka-ssl-credentials.md).
 -   Stream Connect Message Replication requires the ServiceNow Stream Connect Installer \[com.glide.hub.stream\_connect.installer\] plugin.
 
 ## About this task
@@ -151,9 +154,9 @@ Each Kafka Topic Replication record also has a related list named Message Replic
 
 ## What to do next
 
-If you're replicating messages from your local Kafka into ServiceNow, you can configure a [Script](configure-script-consumer.md), [ETL](configure-etl-consumer.md), or [Transform Map](configure-transform-map-consumer.md) consumer to process the messages or set up a [Kafka Message trigger](https://www.servicenow.com/docs/access?context=create-flow-kafka&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US) to start a flow.
+If you're replicating messages from your local Kafka into ServiceNow, you can configure a [Script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/configure-script-consumer.md), [ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/configure-etl-consumer.md), or [Transform Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/configure-transform-map-consumer.md) consumer to process the messages or set up a Kafka Message trigger to start a flow.
 
-If you're replicating messages from ServiceNow to your local Kafka, you can use a [Kafka Producer step](https://www.servicenow.com/docs/access?context=kafka-producer-action-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US) in Workflow Studio or use the [ProducerV2 API](https://www.servicenow.com/docs/access?context=ProducerV2ScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) to publish messages to the Hermes topic and your local Kafka.
+If you're replicating messages from ServiceNow to your local Kafka, you can use a  in Workflow Studio or use the ProducerV2 API to publish messages to the Hermes topic and your local Kafka.
 
-**Parent Topic:**[Stream Connect Message Replication](../concept/stream-connect-message-replication.md)
+**Parent Topic:**[Stream Connect Message Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/stream-connect-message-replication.md)
 

@@ -2,6 +2,7 @@
 title: Install Export to PowerPoint for Strategic Portfolio Management
 description: You can install the Export to PowerPoint for Strategic Portfolio Management application \(sn\_ppt\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins, if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/export-to-powerpoint-for-application-portfolio-management/install-export-to-ppt.html
 release: zurich
 product: Export to PowerPoint for Application Portfolio Management
 classification: export-to-powerpoint-for-application-portfolio-management
@@ -52,7 +53,7 @@ The following components are installed with installation of the Export to PowerP
 -   Roles
 -   Tables
 
-See [Components installed with Export to PowerPoint for Strategic Portfolio Management](../reference/installed-with-export-ppt.md) for more information.
+See [Components installed with Export to PowerPoint for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/export-to-powerpoint-for-application-portfolio-management/installed-with-export-ppt.md) for more information.
 
-**Parent Topic:**[Configuring Export to PowerPoint](../concept/configure-export-to-ppt.md)
+**Parent Topic:**[Configuring Export to PowerPoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/export-to-powerpoint-for-application-portfolio-management/configure-export-to-ppt.md)
 

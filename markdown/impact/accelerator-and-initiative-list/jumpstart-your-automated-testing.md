@@ -2,6 +2,7 @@
 title: Jumpstart Your Automated Testing
 description: Prescriptive guidance on enabling and utilizing Automated Test Framework
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/jumpstart-your-automated-testing.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

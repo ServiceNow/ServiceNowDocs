@@ -2,6 +2,7 @@
 title: Tasks landing page for AI Risk and Compliance
 description: The Tasks page in the AI Risk and Compliance Workspace provides a single-pane view of your pending tasks, your group's tasks, and the tasks that are on your watchlist. You can also update the tasks directly from the dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/ai-risk-management/tasks-ai-risk-compliance.html
 release: zurich
 product: AI Risk Management
 classification: ai-risk-management
@@ -26,7 +27,7 @@ The Tasks page in the AI Risk and Compliance Workspace displays the following ta
 
 A sample Tasks page for a logged-in user is shown in the following example. A user with the sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst role can view the Tasks workspace.
 
-![AI tasks page](../image/ai-tasks.png "Tasks page")
+\[Omitted image "ai-tasks.png"\] Alt text: AI tasks page
 
 ## My pending tasks
 
@@ -59,14 +60,14 @@ The **My items** section helps you to access various items that have been assign
 
 ## Watchlist
 
-The **Watchlist** section helps you to access all the cases and tasks to whom I am added under watch list.
+The **Watchlist** section lets you access all the cases and tasks where you're added to the watchlist.
 
 ## Edit list
 
 You can add or remove the reporting columns under any of the tabs on the Tasks page. To add or remove columns:
 
 1.  Navigate to the required tab and select the required category.
-2.  Select the List Actions icon ![](../image/list-actions-icon.png) and then **Edit columns**.
+2.  Select the List Actions icon \[Omitted image "list-actions-icon.png"\] Alt text: and then **Edit columns**.
 3.  Select and move the required columns from the list of **Available columns** to **Selected columns** and the other way around.
 4.  Select **OK**.
 

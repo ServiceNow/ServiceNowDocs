@@ -2,6 +2,7 @@
 title: Register an application using the Microsoft Azure portal
 description: Grant authorization to the ServiceNow instance by registering an application with Azure AD.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/walk-up-experience/register-an-application-using-the-microsoft-azure-portal.html
 release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -29,7 +30,7 @@ Complete these steps from the Microsoft Azure portal. For instructions on regist
 
 2.  For the **Required Permissions**, select **Microsoft Graph**.
 
-    ![Microsoft graph permissions](../image/ms-exchange-online-spoke-permissions.png)
+    \[Omitted image "ms-exchange-online-spoke-permissions.png"\] Alt text: Microsoft graph permissions
 
 3.  Record the **Client Secret** for use in later configurations.
 
@@ -38,5 +39,5 @@ Complete these steps from the Microsoft Azure portal. For instructions on regist
 
 The ServiceNow application is created with Microsoft Azure AD.
 
-**Parent Topic:**[Set up Microsoft Office 365 integration for Walk-up Experience](setup-walkup-msoffice365-cal-integ.md)
+**Parent Topic:**[Set up Microsoft Office 365 integration for Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/setup-walkup-msoffice365-cal-integ.md)
 

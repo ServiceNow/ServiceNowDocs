@@ -2,6 +2,7 @@
 title: Configure an avatar component for Work scheduler
 description: Use the Container component to add an avatar and the user name of the work item assignee.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/work-sched-avatar-component.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -35,8 +36,8 @@ Role required: workspace\_admin or ui\_builder\_admin​
 
     2.  In the **Config** tab, do the following:
 
-        1.  Select the Edit component visibility icon \(![Edit component visibility icon](../image/edit-comp-visibility-icon.png)\).
-        2.  Hover over the **Hide component** field and select the Dynamic data binding icon ![Dynamic data binding icon](../image/dynamic-data-binding-icon.png).
+        1.  Select the Edit component visibility icon \(\[Omitted image "edit-comp-visibility-icon.png"\] Alt text: Edit component visibility icon\).
+        2.  Hover over the **Hide component** field and select the Dynamic data binding icon \[Omitted image "dynamic-data-binding-icon.png"\] Alt text: Dynamic data binding icon.
         3.  In the **Hide component** field, enter `!@state.cardProps.assignedTo`
         4.  In the **Direction** menu, select **Row**.
         5.  In the **Styles** tab, in the **Align items** field, select the center icon.
@@ -47,46 +48,46 @@ Role required: workspace\_admin or ui\_builder\_admin​
 
     The Components pop-up screen appears.
 
-<table id="choicetable_jbw_3mm_ntb"><thead><tr><th align="left" id="d345470e220">
+<table id="choicetable_jbw_3mm_ntb"><thead><tr><th align="left" id="d63991e220">
 
 To
 
-</th><th align="left" id="d345470e223">
+</th><th align="left" id="d63991e223">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d345470e229">
+</th></tr></thead><tbody><tr><td id="d63991e229">
 
 **Add the Avatar component**
 
 </td><td>
 
 In the configure tab, set the size, user name, and tooltip.1.  In the **Size** menu, select **Medium**.
-2.  Hover over the **User name** menu, and select the Dynamic data binding icon ![Dynamic data binding icon](../image/dynamic-data-binding-icon.png).
+2.  Hover over the **User name** menu, and select the Dynamic data binding icon \[Omitted image "dynamic-data-binding-icon.png"\] Alt text: Dynamic data binding icon.
 3.  In the **User name** menu, type **!@state.cardProps.assignedTo**.
-4.  Hover over the **Tooltip text** menu, and select the Dynamic data binding icon ![Dynamic data binding icon](../image/dynamic-data-binding-icon.png).
+4.  Hover over the **Tooltip text** menu, and select the Dynamic data binding icon \[Omitted image "dynamic-data-binding-icon.png"\] Alt text: Dynamic data binding icon.
 5.  In the **Tooltip text** menu, type **!@state.cardProps.assignedTo**.
 
 
-</td></tr><tr><td id="d345470e292">
+</td></tr><tr><td id="d63991e292">
 
 **Add the Label Value Tabbed component**
 
 </td><td>
 
 In the configure tab, set the size, and items.1.  In the **Size** menu, select **Small**.
-2.  Hover over the **Items** field and select the Dynamic data binding icon ![Dynamic data binding icon](../image/dynamic-data-binding-icon.png).
+2.  Hover over the **Items** field and select the Dynamic data binding icon \[Omitted image "dynamic-data-binding-icon.png"\] Alt text: Dynamic data binding icon.
 3.  In the Items field, enter `[{value: @state.cardProps.assignedTo}`
 4.  Select **Save**.
 
 
 </td></tr></tbody>
-</table>    Here's a demo on how to configure an avatar component for Work scheduler Configure an avatar component for Work Scheduler
+</table>    Here's a demo on how to configure an avatar component for Work scheduler
 
 
-**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](create-workscheduler-card-wfo-itsm.md)
+**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/create-workscheduler-card-wfo-itsm.md)
 
-**Previous topic:**[Configure a display type component for a Work scheduler card](work-sched-stacked-component.md)
+**Previous topic:**[Configure a display type component for a Work scheduler card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/work-sched-stacked-component.md)
 
-**Next topic:**[Associate a work scheduler card to the work configuration](associate-card-config-wfo-itsm.md)
+**Next topic:**[Associate a work scheduler card to the work configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/associate-card-config-wfo-itsm.md)
 

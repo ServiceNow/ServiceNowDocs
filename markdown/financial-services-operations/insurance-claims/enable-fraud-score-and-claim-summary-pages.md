@@ -2,6 +2,7 @@
 title: Enable Claim workspace, Fraud score, and Claim summary pages
 description: Enable and set conditions for Fraud score and Claim summary variant pages so that a claims manager, adjuster, or processor can view them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/enable-fraud-score-and-claim-summary-pages.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims
@@ -25,29 +26,29 @@ Role required: admin
 
 2.  Enable the CSM default record page under CSM/FSM Configurable Workspace.
 
-    For more information, see [CSM Configurable Workspace record pages](https://www.servicenow.com/docs/access?context=csm-config-workspace-record-pages&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+    For more information, see .
 
 3.  From the CSM default record page, set the page order.
 
 4.  Set the variant conditions on the following record pages.
 
-<table><thead><tr><th align="left" id="d95504e91">
+<table><thead><tr><th align="left" id="d38665e90">
 
 Claims page variant
 
-</th><th align="left" id="d95504e94">
+</th><th align="left" id="d38665e93">
 
 Navigation to page records
 
-</th></tr></thead><tbody><tr><td id="d95504e100">
+</th></tr></thead><tbody><tr><td id="d38665e99">
 
 **Record page for the adjuster task**
 
 </td><td>
 
-To access the record page for the adjuster task, navigate to: **CSM Configurable Workspace** &gt; **Record** &gt; **Claim Adjuster Record Page**.The record page for the adjuster task is a variant of CSM default record page. For more information, see [CSM Configurable Workspace record pages](https://www.servicenow.com/docs/access?context=csm-config-workspace-record-pages&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+To access the record page for the adjuster task, navigate to: **CSM Configurable Workspace** &gt; **Record** &gt; **Claim Adjuster Record Page**.The record page for the adjuster task is a variant of CSM default record page. For more information, see .
 
-</td></tr><tr><td id="d95504e127">
+</td></tr><tr><td id="d38665e125">
 
 **Claim workspace page**
 
@@ -55,7 +56,7 @@ To access the record page for the adjuster task, navigate to: **CSM Configurable
 
 To access the Claim workspace page for updates, navigate to page collection: **CSM default record post-Details** &gt; **Claim workspace** &gt; **Claim Workspace Default**.
 
-</td></tr><tr><td id="d95504e148">
+</td></tr><tr><td id="d38665e146">
 
 **Fraud score page**
 
@@ -63,7 +64,7 @@ To access the Claim workspace page for updates, navigate to page collection: **C
 
 To access the Fraud score page for updates, navigate to page collection: **CSM default record post-Details** &gt; **Fraud score** &gt; **Default**.
 
-</td></tr><tr><td id="d95504e169">
+</td></tr><tr><td id="d38665e167">
 
 **Claim Summary page**
 

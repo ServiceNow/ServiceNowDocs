@@ -2,6 +2,7 @@
 title: Hide the inbox in Service Operations Workspace
 description: Hide the inbox automatically when a work item, like a chat or call, is accepted. If disabled, the inbox will remain visible even after accepting a work item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/hide-inbox-sow-interaction.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -28,5 +29,5 @@ Role required: admin
 3.  Toggle the **Hide inbox when work item is accepted** option.
 
 
-**Parent Topic:**[Configuring Interaction Management in Service Operations Workspace](../concept/configure-interaction-management-sow.md)
+**Parent Topic:**[Configuring Interaction Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/configure-interaction-management-sow.md)
 

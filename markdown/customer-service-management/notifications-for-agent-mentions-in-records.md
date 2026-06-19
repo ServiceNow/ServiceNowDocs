@@ -2,7 +2,10 @@
 title: Notifications for agent mentions in records
 description: Agents collaborating on records may need to notify teammates about specific updates or actions. By using the at key \(@\) to mention another agent in a comment, work note, or supported text field, the system automatically sends a workspace notification to the mentioned agent. This helps promote timely awareness and response without relying on separate communication channels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/notifications-for-agent-mentions-in-records.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-11-12"
 reading_time_minutes: 1

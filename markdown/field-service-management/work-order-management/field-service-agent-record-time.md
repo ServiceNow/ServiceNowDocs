@@ -2,6 +2,7 @@
 title: Record time worked for a task or activity manually
 description: Agents can record time worked on a work order task as well as time spent on other activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/field-service-agent-record-time.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -33,7 +34,7 @@ A time card is created for each category type and work order task. The total hou
 
     -   Navigate to a work order task and select **Record Time**. Selecting **Record Time** opens a **Time Worked** form with the **Task** and **User** field already populated.
     -   Navigate to **Time Sheets** &gt; **My Time Worked** and select **New**. This opens a **Time Worked** form with the **User** field already populated.
-    ![record time form](../image/record-time.png)
+    \[Omitted image "record-time.png"\] Alt text: record time form
 
 2.  If necessary, select the work order task in the **Task** field.
 

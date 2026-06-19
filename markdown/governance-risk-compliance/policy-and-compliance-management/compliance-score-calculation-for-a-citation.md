@@ -2,6 +2,7 @@
 title: Compliance score calculation for a citation
 description: Two methodologies determine a citation's compliance score. The previous method averaged child citations and associated control objectives. The current method averages child citations and directly linked controls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/compliance-score-calculation-for-a-citation.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

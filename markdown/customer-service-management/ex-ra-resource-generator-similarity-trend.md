@@ -2,7 +2,10 @@
 title: Configure a resource generator for providing a similar major case to the current case
 description: Configure a resource generator of type similarity with trend that provides a similar major case to the current case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ex-ra-resource-generator-similarity-trend.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -15,9 +18,9 @@ Configure a resource generator of type similarity with trend that provides a sim
 
 ## Before you begin
 
--   Ensure Predictive Intelligence is active and set up on your instance. See [Install Predictive Intelligence](https://www.servicenow.com/docs/access?context=install-predictive-intelligence&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+-   Ensure Predictive Intelligence is active and set up on your instance. See .
 -   Ensure you have a Predictive Intelligence subscription.
--   Train the Major issue detector similarity solution with the existing customer cases. For more information, see [Create and train a similarity solution](https://www.servicenow.com/docs/access?context=create-similarity-solution&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+-   Train the Major issue detector similarity solution with the existing customer cases. For more information, see .
 -   Create a trend definition with the name Major issue trends to define how many records that have something in common constitute a trend, for example, six or more records with common field values.
 
 Role required: sn\_nb\_action.next\_best\_action\_author, sn\_nb\_action.resource\_generator\_author, admin

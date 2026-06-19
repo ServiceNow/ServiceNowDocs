@@ -2,6 +2,7 @@
 title: Security Event Notifications history
 description: Explore the complete history of security event notifications on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/security-center/security-event-notifications-history.html
 release: zurich
 product: Security Center
 classification: security-center
@@ -17,5 +18,5 @@ Explore the complete history of security event notifications on your instance.
 
 The **Notifications** page provides an overview of the notification history for all security event notification policies on your instance. You can view the data in charts, presenting it graphically and applying performance analytics functionalities like targets, thresholds, and KPI signals. Alternatively, you can view the data in a table format, enabling you to utilize standard functionalities such as search, sort, filter, and querying.
 
-**Parent Topic:**[Security Event Notifications](security-policies.md)
+**Parent Topic:**[Security Event Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/security-policies.md)
 

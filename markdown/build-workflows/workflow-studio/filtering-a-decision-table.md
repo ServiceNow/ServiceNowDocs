@@ -2,6 +2,7 @@
 title: Filter conditions in a decision table
 description: Filter the conditions in the decision table to focus on the necessary data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/filtering-a-decision-table.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -27,7 +28,7 @@ Role required: admin
 
 3.  From the list of decision tables, select any desired decision table.
 
-4.  In the **Decision table**, select ![Ellipses](../image/ellipses.png) to view the filtering options.
+4.  In the **Decision table**, select \[Omitted image "ellipses.png"\] Alt text: Ellipses to view the filtering options.
 
 5.  In the **Filter by Value** field, select any desired condition from the drop-down list.
 
@@ -38,5 +39,5 @@ Role required: admin
 
 After applying the filters, you’ll see a table with the data focused on the conditions and values you set.
 
-**Parent Topic:**[Using decision tables](../concept/using-decision-builder.md)
+**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/using-decision-builder.md)
 

@@ -1,15 +1,18 @@
 ---
-title: Configure access using temporary credentials based on trusted AWS accounts with AWS credentials
+title: Configure temporary credential access for trusted AWS accounts
 description: Configure the trusting account whose resources need to be accessed, to rely on the trusted account using the Identity and Access Management \(IAM\) role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/configure-iam-role-aws-account.html
 release: zurich
+product: IT Operations Management
+classification: it-operations-management
 topic_type: task
 last_updated: "2025-09-03"
 reading_time_minutes: 4
 breadcrumb: [Setting up AWS service accounts, Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
 ---
 
-# Configure access using temporary credentials based on trusted AWS accounts with AWS credentials
+# Configure temporary credential access for trusted AWS accounts
 
 Configure the trusting account whose resources need to be accessed, to rely on the trusted account using the Identity and Access Management \(IAM\) role.
 
@@ -17,7 +20,7 @@ Configure the trusting account whose resources need to be accessed, to rely on t
 
 -   Familiarize yourself with the Amazon documentation on [Creating a role to delegate permissions to an IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-user.html).
 -   Decide which AWS account is going to be the trusted account. You use the trusted account to configure temporary credentials for Cloud Discovery using IAM roles. The trusted account that you use to access other accounts using IAM roles is referred to as an accessor account.
--   If you're setting up a trust chain where a member account trusts a management account, and the management account trusts an accessor account, verify that you've configured the member account to trust the management account. For more information, see [Configure access using temporary credentials for trusting AWS member accounts in management-accessor trust chain](configure-iam-role-aws-member.md).
+-   For trust chain setups, confirm that the member account trusts the management account before the management account trusts an accessor account. For more information, see [Configure access for trusting AWS member accounts in trust chain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/configure-iam-role-aws-member.md).
 -   Confirm that Discovery Admin Workspace is using at least version 1.10.0. The **Discovery** &gt; **Cloud Service Accounts** navigation module isn't available with earlier versions. To access **Cloud Service Accounts** with an earlier version, enter in the navigation filter: `cmdb_ci_cloud_service_account.list`.
 
 Role required:
@@ -29,7 +32,7 @@ Role required:
 
 During this configuration, you create an IAM role for the trusting account, and then configure the trusted service account for the trusting account at ServiceNow AI Platform. Finally, you associate the IAM role you created for the trusting account with the trusting account itself.
 
-![Set up the IAM role of the trusting AWS account to trust the user of the trusted AWS account for access](../image/aws-any-account-trusted-with-credentials.png "Setting up any AWS account to rely on a trusted account with AWS credentials")
+\[Omitted image "aws-any-account-trusted-with-credentials.png"\] Alt text: Set up the IAM role of the trusting AWS account to trust the user of the trusted AWS account for access
 
 ## Procedure
 
@@ -49,7 +52,7 @@ During this configuration, you create an IAM role for the trusting account, and 
 
     5.  Set the **AWS** parameter to the full user ARN of the trusted \(accessor\) account.
 
-        ![Editing trust relationship for the trusting account.](../image/aws-edit-trust-relat-trusting-iam.png)
+        \[Omitted image "aws-edit-trust-relat-trusting-iam.png"\] Alt text: Editing trust relationship for the trusting account.
 
     6.  Verify that the **Action** value is set to **sts:AssumeRole**.
 
@@ -79,15 +82,15 @@ During this configuration, you create an IAM role for the trusting account, and 
 
 4.  On the ServiceNow AI Platform, assign the AWS IAM role to the trusting account, using the relevant form, based on the relationship to the trusted account.
 
-<table id="choicetable_g1z_335_zfc"><thead><tr><th align="left" id="d592894e387">
+<table id="choicetable_g1z_335_zfc"><thead><tr><th align="left" id="d93375e378">
 
 Trusted account type
 
-</th><th align="left" id="d592894e390">
+</th><th align="left" id="d93375e381">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d592894e396">
+</th></tr></thead><tbody><tr><td id="d93375e387">
 
 **Management account**
 
@@ -132,7 +135,7 @@ Name of the trusting account for which you are providing access using the IAM ro
 </table>4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d592894e513">
+</td></tr><tr><td id="d93375e504">
 
 **Member or discrete account**
 
@@ -163,5 +166,5 @@ Verify that ServiceNow applications can access the trusting service account usin
     -   If the connection is successful, a message displays indicating the account validation is successful.
     -   If the connection isn't successful, an error message displays indicating the cause of failure.
 
-**Parent Topic:**[Setting up AWS service accounts](../concept/setup-aws-service-accounts.md)
+**Parent Topic:**[Setting up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/setup-aws-service-accounts.md)
 

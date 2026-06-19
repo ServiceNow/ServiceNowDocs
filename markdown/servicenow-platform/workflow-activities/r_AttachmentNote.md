@@ -2,6 +2,7 @@
 title: Attachment Note workflow activity
 description: The Attachment Note activity adds an attachment to the current record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/workflow-activities/r\_AttachmentNote.html
 release: zurich
 product: Workflow Activities
 classification: workflow-activities

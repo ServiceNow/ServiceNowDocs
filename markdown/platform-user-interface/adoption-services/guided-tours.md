@@ -2,6 +2,7 @@
 title: Guided Tours
 description: ServiceNowGuided Tours are interactive, step-by-step walkthroughs designed to help users navigate the platform's features and processes. They are useful for onboarding new users, training on new features, and providing assistance with specific tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/guided-tours.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
@@ -15,7 +16,7 @@ breadcrumb: [Adoption services, Configure user experiences]
 
 ServiceNow®Guided Tours are interactive, step-by-step walkthroughs designed to help users navigate the platform's features and processes. They are useful for onboarding new users, training on new features, and providing assistance with specific tasks.
 
-A sample guided tour and instructions on creating a guided tour.
+Guided Tours Overview 
 
 Watch this five-minute video to learn about creating Guided Tours that help users learn how to perform tasks in ServiceNow.
 
@@ -23,11 +24,11 @@ Watch this five-minute video to learn about creating Guided Tours that help user
 
 <table id="table_c2g_zps_nyb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about the key features and benefits of Guided Tours.](exploring-guided-tours.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the key features and benefits of Guided Tours.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/exploring-guided-tours.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Enable, create, modify, and customize Guided Tours.](../task/configure-guided-tours.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Enable, create, modify, and customize Guided Tours.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/configure-guided-tours.md)
 
 </td><td>
 
@@ -35,11 +36,11 @@ Watch this five-minute video to learn about creating Guided Tours that help user
 
 </td></tr><tr><td>
 
-[Using![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Use Guided Tours to train and onboard users.](using-guided-tours.md)
+[Using\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Guided Tours to train and onboard users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/using-guided-tours.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get more information about Guided Tours.](../reference/guided-tour-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get more information about Guided Tours.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/guided-tour-reference.md)
 
 </td><td>
 

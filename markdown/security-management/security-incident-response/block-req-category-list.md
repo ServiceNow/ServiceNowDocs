@@ -2,6 +2,7 @@
 title: CrowdStrike Block Request Category List
 description: Field descriptions for CrowdStrike Block Request Category List form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/block-req-category-list.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

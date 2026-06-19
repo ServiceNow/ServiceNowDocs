@@ -2,7 +2,10 @@
 title: Associate a product with a service definition
 description: After creating a service definition, you can associate one or more product models or sold products with the definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/service-def-associate-products.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

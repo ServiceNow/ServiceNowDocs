@@ -2,6 +2,7 @@
 title: Create a self-health monitor to use custom health monitor script
 description: You can create a self-health monitor to use custom health monitor script to monitor specified Event Management components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/custom-configure-threshold-monitoring.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -89,7 +90,7 @@ Connectors Status
 
 </td><td>
 
-Monitor to track the active status of the connectors. Select only one threshold to configure which severity to invoke using 1 to select the threshold field or 0 to ignore the threshold field. For more information, see [Connector status example](configure-threshold-monitoring.md#threshold-example). Health Monitor script selected: `Connectors Monitor`.
+Monitor to track the active status of the connectors. Select only one threshold to configure which severity to invoke using 1 to select the threshold field or 0 to ignore the threshold field. For more information, see [Connector status example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-threshold-monitoring.md). Health Monitor script selected: `Connectors Monitor`.
 
 </td></tr><tr><td>
 
@@ -178,7 +179,7 @@ Script
 
 </td><td>
 
-Monitoring script. Click the search icon. The existing scripts are listed in the Health Monitor Scripts screen, or click **New** to create a custom health monitor script. For more information about creating a custom health monitor script, see step [3](custom-configure-threshold-monitoring.md#step_4_custom).
+Monitoring script. Click the search icon. The existing scripts are listed in the Health Monitor Scripts screen, or click **New** to create a custom health monitor script. For more information about creating a custom health monitor script, see step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/custom-configure-threshold-monitoring.md).
 
 </td></tr><tr><td colspan="2">
 
@@ -267,7 +268,7 @@ Script
 
 </td><td>
 
-Custom script to run when called from a monitor. A script template is provided as a guide. You can use the [Health monitor scripts provided with the base system](custom-configure-threshold-monitoring.md#table_d5c_tz4_4cb) as examples of how to author the script, and use the [script editor tools](https://www.servicenow.com/docs/access?context=c_SyntaxEditor&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+Custom script to run when called from a monitor. A script template is provided as a guide. You can use the [Health monitor scripts provided with the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/custom-configure-threshold-monitoring.md) as examples of how to author the script, and use the script editor tools.
 
 Ensure that the custom script includes:Run the monitor function, which is called according to the "monitoring job frequency” setting **runUpdateHealthMonitorScripts\(scriptId\)**. Add this function to run the monitoring logic.
 
@@ -286,7 +287,7 @@ Ensure that the custom script includes:Run the monitor function, which is called
 </td></tr></tbody>
 </table>    You can use the Monitoring Configurations \[em\_monitor\_conf\] table for self-health monitoring configuration, the Health Monitor Scripts \[em\_monitor\_scripts\] table for scripts, and Monitoring States \[em\_monitor\_state\] table for displaying the results of the monitor, as initialized inside **runInsertHealthMonitorScripts**.
 
-    For more information about script includes and APIs, see:Script includes that are [installed with Event Management](../reference/r_InstalledWithEventManagement.md#)
+    For more information about script includes and APIs, see:Script includes that are [installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/r_InstalledWithEventManagement.md)
 
 5.  Click **Submit**.
 
@@ -295,5 +296,5 @@ Ensure that the custom script includes:Run the monitor function, which is called
 
 To monitor the Event Management components that you specify, you can configure a self-health monitor that uses the custom health monitor script that you created.
 
-**Parent Topic:**[Self-health monitors for Event Management](../concept/self-monitoring.md)
+**Parent Topic:**[Self-health monitors for Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/self-monitoring.md)
 

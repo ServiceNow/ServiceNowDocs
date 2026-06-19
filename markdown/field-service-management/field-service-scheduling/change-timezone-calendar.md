@@ -2,6 +2,7 @@
 title: Change the time zone in Dispatcher Workspace
 description: You can change the time zone that shows on the calendar or hybrid view in Dispatcher Workspace to quickly move between the time zones that your agents are working in.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/change-timezone-calendar.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -23,7 +24,7 @@ When you change the time zone in Dispatcher Workspace, the agent card shows the 
 
 Role required: wm\_dispatcher
 
-You must have more than one time zone configured. For more information, see the Calendar section in [Enable Dispatcher Workspace settings](dispatcher-wrkspc-settings.md).
+You must have more than one time zone configured. For more information, see the Calendar section in [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.md).
 
 ## Procedure
 
@@ -35,7 +36,7 @@ You must have more than one time zone configured. For more information, see the 
 
 4.  Select the time zone drop-down list.
 
-    ![dispatcher workspace timezone drop-down](../image/timezone-dropdown.png)
+    \[Omitted image "timezone-dropdown.png"\] Alt text: dispatcher workspace timezone drop-down
 
 5.  Select a time zone.
 

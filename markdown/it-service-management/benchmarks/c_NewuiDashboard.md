@@ -2,6 +2,7 @@
 title: New Benchmarks Dashboard
 description: The Benchmarks dashboard displays KPI data, performance trends, and indicator scorecards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/benchmarks/c\_NewuiDashboard.html
 release: zurich
 product: Benchmarks
 classification: benchmarks
@@ -31,7 +32,7 @@ The dashboard features include the following:
 
 **Note:** The new Benchmarks dashboard is available from the ServiceNow store.
 
-![Benchmarks Dashboard](../image/Newuidashboard.png)
+\[Omitted image "Newuidashboard.png"\] Alt text: Benchmarks Dashboard
 
 ## Percentile rank
 
@@ -63,11 +64,11 @@ Incident
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td align="center">
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td>
 
@@ -75,11 +76,11 @@ Incident
 
 </td><td align="center">
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td></tr><tr><td>
 
@@ -87,11 +88,11 @@ Incident
 
 </td><td align="center">
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td></tr><tr><td>
 
@@ -99,11 +100,11 @@ Incident
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td align="center">
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td>
 
@@ -111,11 +112,11 @@ Average time to resolve a high priority incident
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td align="center">
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td>
 
@@ -123,11 +124,11 @@ Average time to resolve an incident
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td align="center">
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td>
 
@@ -135,11 +136,11 @@ Number of incidents created per user
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td align="center">
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td class="sub-head" colspan="3" align="left">
 
@@ -151,11 +152,11 @@ Problem
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td align="center">
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td>
 
@@ -163,11 +164,11 @@ Problem
 
 </td><td align="center">
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td></tr><tr><td>
 
@@ -175,11 +176,11 @@ Average time to close a problem
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td align="center">
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td class="sub-head" colspan="3" align="left">
 
@@ -191,11 +192,11 @@ Change
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td align="center">
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td>
 
@@ -203,11 +204,11 @@ Change
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td align="center">
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td>
 
@@ -215,11 +216,11 @@ Average time to close a change
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td align="center">
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td class="sub-head" colspan="3" align="left">
 
@@ -231,11 +232,11 @@ Service Catalog
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td align="center">
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td>
 
@@ -243,11 +244,11 @@ Average time to fulfill a request
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td align="center">
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td>
 
@@ -255,11 +256,11 @@ Number of requests created per user
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td align="center">
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td class="sub-head" colspan="3" align="left">
 
@@ -271,11 +272,11 @@ Knowledge
 
 </td><td align="center">
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td></tr><tr><td>
 
@@ -283,11 +284,11 @@ Number of knowledge article views per user
 
 </td><td align="center">
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td></tr><tr><td class="sub-head" colspan="3" align="left">
 
@@ -299,11 +300,11 @@ ITSM Virtual Agent
 
 </td><td>
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td></tr><tr><td>
 
@@ -311,11 +312,11 @@ ITSM Virtual Agent
 
 </td><td>
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td></tr><tr><td class="sub-head" colspan="3" align="left">
 
@@ -327,11 +328,11 @@ Average customer satisfaction
 
 </td><td align="center">
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td></tr><tr><td>
 
@@ -339,11 +340,11 @@ Number of requesters per fulfiller
 
 </td><td align="center">
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td></tr><tr><td class="sub-head" colspan="3" align="left">
 
@@ -355,11 +356,11 @@ CMDB
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td align="center">
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td>
 
@@ -367,11 +368,11 @@ CMDB
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td align="center">
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td>
 
@@ -379,11 +380,11 @@ CMDB
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td align="center">
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td class="sub-head" colspan="3" align="left">
 
@@ -395,11 +396,11 @@ Security Incident Response
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td align="center">
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td class="sub-head" colspan="3" align="left">
 
@@ -411,11 +412,11 @@ Average critical vulnerability age
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td align="center">
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td>
 
@@ -423,11 +424,11 @@ Average vulnerability age
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td align="center">
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td class="sub-head" colspan="3" align="left">
 
@@ -439,11 +440,11 @@ Virtual Agent
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td>
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td>
 
@@ -451,11 +452,11 @@ Virtual Agent
 
 </td><td>
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td></tr><tr><td>
 
@@ -463,11 +464,11 @@ Virtual Agent CSAT score
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td>
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td class="sub-head" colspan="3" align="left">
 
@@ -479,11 +480,11 @@ Self-solved %
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td>
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td>
 
@@ -491,11 +492,11 @@ Call deflection %
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td>
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td>
 
@@ -503,11 +504,11 @@ Structured tickets %
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td>
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td>
 
@@ -515,11 +516,11 @@ Customer satisfaction survey scores
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td>
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td>
 
@@ -527,11 +528,11 @@ MTTR – Average mean time to resolution
 
 </td><td>
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td></tr><tr><td>
 
@@ -539,11 +540,11 @@ Breached SLA %
 
 </td><td>
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td></tr><tr><td>
 
@@ -551,11 +552,11 @@ First assignment resolution
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td>
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td>
 
@@ -563,11 +564,11 @@ First assignment resolution
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td>
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td>
 
@@ -575,11 +576,11 @@ First assignment resolution
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td>
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td>
 
@@ -587,11 +588,11 @@ First assignment resolution
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td>
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td>
 
@@ -599,11 +600,11 @@ First assignment resolution
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td>
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td>
 
@@ -611,11 +612,11 @@ First assignment resolution
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td>
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr><tr><td>
 
@@ -623,11 +624,11 @@ First assignment resolution
 
 </td><td align="center">
 
-![yes.](../image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: yes.
 
 </td><td>
 
-![no.](../image/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: no.
 
 </td></tr></tbody>
 </table>

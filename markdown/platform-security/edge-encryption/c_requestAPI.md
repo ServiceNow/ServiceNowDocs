@@ -2,6 +2,7 @@
 title: request
 description: The request object is a global object available in Edge Encryption rule action and condition scripts.Returns the request as an iterable object of type JsonNode.Returns the request content as an iterable object of type XMLContent.Returns true if the given path exists in the XML DOM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/c\_requestAPI.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -27,7 +28,7 @@ The request object includes the following attributes and data from the client re
 |urlParams|The parameters in the query string. This can also be evaluated to a String.|
 |postParams|If this is a form post, this contains the post parameters.|
 
-**Parent Topic:**[Encryption rule objects and APIs](api-overview.md)
+**Parent Topic:**[Encryption rule objects and APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/api-overview.md)
 
 ## request - getAsJsonContent\(\)
 
@@ -35,7 +36,7 @@ Returns the request as an iterable object of type JsonNode.
 
 This method is available only in an Edge Encryption rule if the request body is a valid JSON payload. If you are not sure what format the request body includes, check the contentType field on the request object.
 
-Once the request is returned as a JsonNode object, you can use the [JSON APIs](json-overview.md) to iterate over the object and encrypt fields.
+Once the request is returned as a JsonNode object, you can use the [JSON APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/json-overview.md) to iterate over the object and encrypt fields.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -51,7 +52,7 @@ Returns the request content as an iterable object of type XMLContent.
 
 This method is available only in an Edge Encryption rule if the request body is a valid XML payload. If you are not sure what format the request body includes, check the contentType field on the request object.
 
-Once the request is returned as an XMLContent object, you can use the [XML APIs](xml-overview.md) to iterate over the object and encrypt fields.
+Once the request is returned as an XMLContent object, you can use the [XML APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/xml-overview.md) to iterate over the object and encrypt fields.
 
 |Name|Type|Description|
 |----|----|-----------|

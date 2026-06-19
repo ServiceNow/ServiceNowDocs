@@ -2,6 +2,7 @@
 title: Run a playbook in Service Portal
 description: Launch a playbook as a Service Portal requestor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/run-a-playbook-in-service-portal.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -33,7 +34,7 @@ Keep track of where you're at in an overall process more easily, and pause and r
 
 3.  In the URL, you can apply the following properties to your playbook.
 
-    ![An example URL for a playbook in Service Portal](../images/portal-playbook-URL.png)
+    \[Omitted image "portal-playbook-URL.png"\] Alt text: An example URL for a playbook in Service Portal
 
     |Property|Description|Example|
     |--------|-----------|-------|
@@ -44,7 +45,7 @@ Keep track of where you're at in an overall process more easily, and pause and r
 
 4.  As you go through the playbook, you can open records and lists in a modal without needing to leave Service Portal, such as when you view a Knowledge Base article or a user record via the information icon.
 
-    ![Opening playbook modals in Service Portal](../images/portal-playbooks-modal.gif)
+    \[Omitted image "portal-playbooks-modal.gif"\] Alt text: Opening playbook modals in Service Portal
 
 
 |Error|Description|
@@ -57,5 +58,5 @@ Keep track of where you're at in an overall process more easily, and pause and r
 
 For client-side issues, check local browser console.logs which might show a runtime issue using the browser's inspector.
 
-**Parent Topic:**[Playbooks in Service Portal](../concept/playbooks-service-portal.md)
+**Parent Topic:**[Playbooks in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbooks-service-portal.md)
 

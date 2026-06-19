@@ -2,6 +2,7 @@
 title: Shipping cost calculations
 description: A framework to integrate shipping cost calculations into Sourcing and Purchasing Automation is implemented such that approvals can be done on the full value of purchases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/shipping-cost-calculations.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -41,8 +42,8 @@ A buyer can set shipping estimates at the following levels:
 
 **Note:** The entered decimal values are stored in percentage. For example, a shipping estimate value of 10.5 is stored as 10.5%.
 
--   **[Shipping cost calculation in cart line table](shipping-cost-calculation-cart-line.md)**  
+-   **[Shipping cost calculation in cart line table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/shipping-cost-calculation-cart-line.md)**  
 If the item in your cart is a good, a cart line shipping estimate prioritization logic is used to calculate the estimated shipping cost. If the item in your cart is a service, the estimated shipping cost shows as 0.0 in your currency.
 
-**Parent Topic:**[Sourcing and Purchasing Automation](purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

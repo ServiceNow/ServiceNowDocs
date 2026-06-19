@@ -2,11 +2,12 @@
 title: Customized lists
 description: Create customized lists for your List, Change, Tools, and Administration modules. You can create your own version of an existing list, or a new one.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/add-new-list-in-list-module.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Manage, DevOps Change Velocity, IT Service Management]
 ---
@@ -29,7 +30,7 @@ Role required: sn\_devops.admin, sn\_devops.tool\_owner, or sn\_devops.app\_owne
 
     You can create a different version of an existing list or a new one.
 
-    ![Create a new list.](../image/new-list-01.png)
+    \[Omitted image "new-list-01.png"\] Alt text: Create a new list.
 
 4.  You can create a different version of an existing list or a new one.
 
@@ -42,7 +43,7 @@ Role required: sn\_devops.admin, sn\_devops.tool\_owner, or sn\_devops.app\_owne
         5.  If required, add filters for the list.
         6.  If you want the list sorted by a column, select the column and order in the **Sort by** section.
         7.  Select **Create**.
-        ![Create from existing list.](../image/new-list-02.png)
+        \[Omitted image "new-list-02.png"\] Alt text: Create from existing list.
 
     -   To create your own list:
 
@@ -52,8 +53,8 @@ Role required: sn\_devops.admin, sn\_devops.tool\_owner, or sn\_devops.app\_owne
         4.  If required, add filters for the list.
         5.  If you want the list sorted by a column, select the column and order in the **Sort by** section.
         6.  Select **Create**.
-        ![Create your own list.](../image/new-list-03.png)
+        \[Omitted image "new-list-03.png"\] Alt text: Create your own list.
 
 
-**Parent Topic:**[Managing DevOps Change Velocity](../concept/using-devops-change-velocity.md)
+**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
 

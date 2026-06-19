@@ -2,6 +2,7 @@
 title: Dynamic actions script for list context menus
 description: The Dynamic actions script field, on the Context Menu form, defines a script. The script populates a list context menu with dynamic options, such as filters or views.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/list-administration/r\_DynamicActionsScript.html
 release: zurich
 product: List Administration
 classification: list-administration

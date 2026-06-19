@@ -2,6 +2,7 @@
 title: Resolve and complete a problem
 description: Resolve the issue and add detailed note of the resolution for future reference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/problem-management/resolve-and-complete-problem.html
 release: zurich
 product: Problem Management
 classification: problem-management
@@ -18,19 +19,19 @@ Resolve the issue and add detailed note of the resolution for future reference.
 ## Before you begin
 
 -   Role required: admin, problem\_admin, problem\_coordinator, or problem\_manager
--   Activate the Problem Management Best Practice — Madrid — State Model \(com.snc.best\_practice.problem.madrid.state\_model\) to get the new best practice states and guided actions to navigate the lifecycle of a problem. For details, see [Activate Problem Management Best Practice — Madrid — State Model](act-pm-best-prac-madrid-state-mod.md).
+-   Activate the Problem Management Best Practice — Madrid — State Model \(com.snc.best\_practice.problem.madrid.state\_model\) to get the new best practice states and guided actions to navigate the lifecycle of a problem. For details, see [Activate Problem Management Best Practice — Madrid — State Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/act-pm-best-prac-madrid-state-mod.md).
 
 ## Procedure
 
 1.  Click **Resolve**.
 
-    ![fix in progress state](../image/pm-resolve.png)
+    \[Omitted image "pm-resolve.png"\] Alt text: fix in progress state
 
     The problem enters the **Resolved** state with **Resolution code** as **Fix Applied**.
 
 2.  Click **Complete**.
 
-    ![resolved state](../image/pm-complete.png)
+    \[Omitted image "pm-complete.png"\] Alt text: resolved state
 
     The problem enters the **Closed** state with **Resolution code** as **Fix Applied**.
 
@@ -48,5 +49,5 @@ Resolve the issue and add detailed note of the resolution for future reference.
     **Note:** Changing this property to include new tables also requires you to create a corresponding Business Rule for the overall functionality to work seamlessly. For example, for the Change request, the Business Rule is **Check Related Problem Fixes - Change Req**.
 
 
-**Parent Topic:**[Managing Problems](../concept/problem-mgmt-lifecycle.md)
+**Parent Topic:**[Managing Problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/problem-mgmt-lifecycle.md)
 

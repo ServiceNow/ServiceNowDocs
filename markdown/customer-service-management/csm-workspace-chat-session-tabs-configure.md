@@ -2,7 +2,10 @@
 title: Configure chat session tabs
 description: Configure settings such as duration and color for the chat SLA threshold timers for a selected workspace in the Conversational interfaces \(CI\) Admin Console. These timers alert agents to unread messages in inactive chats.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-workspace-chat-session-tabs-configure.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -19,9 +22,9 @@ Role required: admin
 
 ## About this task
 
-Enable the [chat session tabs](../concept/csm-workspace-chat-session-tabs.md) feature and select the workspace that the feature applies to.
+Enable the [chat session tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-workspace-chat-session-tabs.md) feature and select the workspace that the feature applies to.
 
-You can configure a minimum of one and a maximum of three chat SLA threshold timers for a workspace. These timers alert agents to unread messages by changing the [tab colors](../concept/csm-workspace-chat-session-tabs.md#section_rsb_4j2_fdc) of the inactive chats.
+You can configure a minimum of one and a maximum of three chat SLA threshold timers for a workspace. These timers alert agents to unread messages by changing the [tab colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-workspace-chat-session-tabs.md) of the inactive chats.
 
 ## Procedure
 

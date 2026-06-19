@@ -2,13 +2,14 @@
 title: Decision configuration for third-party sourcing
 description: The Sourcing Event Generation Rule decision table in Sourcing and Procurement Operations helps the sourcing managers and procurement teams to configure the business criteria on demand, which provides them with flexibility to decide on the types of requests that should be integrated with a third-party sourcing solution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/decision-config-third-party-sourcing.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Sourcing and Procurement Operations integration with third-party sourcing solutions, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Sourcing Procurement Operations integration third-party, Integrate Sourcing Procurement Operations other, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Decision configuration for third-party sourcing
@@ -39,5 +40,5 @@ To configure a decision:
     **Note:** To send sourcing requests successfully to the applicable external third-party application, these conditions must be evaluated to be true.
 
 
-**Parent Topic:**[Sourcing and Procurement Operations integration with third-party sourcing solutions](psm-integration-third-party-sourcing.md)
+**Parent Topic:**[Sourcing and Procurement Operations integration with third-party sourcing solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/psm-integration-third-party-sourcing.md)
 

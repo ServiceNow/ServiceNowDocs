@@ -2,11 +2,12 @@
 title: Add a business rule for a new Order Management event
 description: Learn how to configure business rules on a ServiceNow instance to recognize new Order Management events and push them into the notification system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/developer-guides/orderMgmt-add-business-rule.html
 release: zurich
 product: Developer Guides
 classification: developer-guides
 topic_type: reference
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Producer Event Notification Framework developer guide, Developer guides, API implementation and reference]
 ---

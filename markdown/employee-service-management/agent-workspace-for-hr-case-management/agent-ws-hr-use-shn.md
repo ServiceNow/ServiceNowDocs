@@ -2,6 +2,7 @@
 title: View a special handling note in HR Service Delivery Agent Workspace
 description: When configured, special handling notes appear for HR cases that require special attention.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-use-shn.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -25,7 +26,7 @@ Role required: sn\_hr\_core.case\_writer
 
 2.  Locate and display an HR case.
 
-    If the HR case is configured to show a special handling note, it appears as a pop-up.![HR Agent Workspace - Special handling note](../image/agent-ws-hr-spec-hand-pop-up.png)
+    If the HR case is configured to show a special handling note, it appears as a pop-up.\[Omitted image "agent-ws-hr-spec-hand-pop-up.png"\] Alt text: HR Agent Workspace - Special handling note
 
 3.  Read the note and select **Dismiss**.
 

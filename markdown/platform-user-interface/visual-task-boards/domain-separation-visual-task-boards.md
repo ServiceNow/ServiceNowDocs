@@ -2,6 +2,7 @@
 title: Domain separation and Visual Task Boards
 description: Domain separation is supported in the Visual Task Boards application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/visual-task-boards/domain-separation-visual-task-boards.html
 release: zurich
 product: Visual Task Boards
 classification: visual-task-boards
@@ -25,7 +26,7 @@ Domain separation is supported in the Visual Task Boards application. Domain sep
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## How domain separation works in Visual Task Boards
 
@@ -33,10 +34,10 @@ Visual Task Boards that are "data-driven" show the data from tables that are lik
 
 Condition-based criteria is used to filter that data. Free-form VTBs' use Private Tasks \(vtb\_task\), which supports domain separation as an extension of Task and inherits domain separation logic as a result.
 
-**Parent Topic:**[Visual Task Boards reference](vis-task-boards-ref.md)
+**Parent Topic:**[Visual Task Boards reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/vis-task-boards-ref.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

@@ -2,6 +2,7 @@
 title: General Counsel Dashboard data visualizations
 description: Use these data visualizations to get high-level and detailed views of how contracts, privacy, and digital forensics are addressed in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/gc-db-dvs.html
 release: zurich
 topic_type: reference
 last_updated: "2025-09-01"

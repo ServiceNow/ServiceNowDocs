@@ -2,6 +2,7 @@
 title: Create an application with the ServiceNow SDK
 description: Create a scoped application to develop in source code with the ServiceNow SDK.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-sdk/create-application-now-sdk.html
 release: zurich
 product: ServiceNow SDK
 classification: servicenow-sdk
@@ -17,13 +18,13 @@ Create a scoped application to develop in source code with the ServiceNow SDK.
 
 ## Before you begin
 
-Use the ServiceNow SDK to authenticate to a ServiceNow instance. For more information, see [Authenticating to a ServiceNow instance with the ServiceNow SDK](../concept/authenticate-instance-now-sdk.md).
+Use the ServiceNow SDK to authenticate to a ServiceNow instance. For more information, see [Authenticating to a ServiceNow instance with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/authenticate-instance-now-sdk.md).
 
 Role required: admin
 
 ## About this task
 
-This procedure uses the ServiceNow SDK command-line interface \(CLI\). From a command-line tool, enter `now-sdk --help` to get information about the available commands and global options. To get additional information about a command and its parameters, enter the command and `--help` or `-h`. For example, `now-sdk auth --help`. For more information about the CLI, see [ServiceNow SDK CLI](../reference/servicenow-sdk-cli-commands.md#).
+This procedure uses the ServiceNow SDK command-line interface \(CLI\). From a command-line tool, enter `now-sdk --help` to get information about the available commands and global options. To get additional information about a command and its parameters, enter the command and `--help` or `-h`. For example, `now-sdk auth --help`. For more information about the CLI, see [ServiceNow SDK CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/servicenow-sdk-cli-commands.md).
 
 ## Procedure
 
@@ -91,7 +92,7 @@ Select whether to create a scoped or global application.-   Scoped: Create a sco
 
 </td><td>
 
-For scoped applications, enter the scope of the application.The scope name must be unique on the instance, begin with x\_&lt;prefix&gt;, and be 18 characters or fewer. For more information, see [Namespace identifier](../../applications/concept/c_NamespaceIdentifier.md).
+For scoped applications, enter the scope of the application.The scope name must be unique on the instance, begin with x\_&lt;prefix&gt;, and be 18 characters or fewer. For more information, see [Namespace identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/c_NamespaceIdentifier.md).
 
 </td></tr></tbody>
 </table>    In the following example, a scoped application named Example App \(x\_snc\_example\_app\) is created.
@@ -127,11 +128,11 @@ For scoped applications, enter the scope of the application.The scope name must 
 
 ## Result
 
-A scoped application with the default application structure is available locally. For information about the application structure, see the [Application structure](../../custom-application/concept/building-applications-source-code.md#application-structure) section of the Building applications in source code topic.
+A scoped application with the default application structure is available locally. For information about the application structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/building-applications-source-code.md) section of the Building applications in source code topic.
 
-If you installed the application successfully, it’s available on the instance. For more information about installing applications, see [Build and install an application with the ServiceNow SDK](build-deploy-application-now-sdk.md).
+If you installed the application successfully, it’s available on the instance. For more information about installing applications, see [Build and install an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/build-deploy-application-now-sdk.md).
 
 ## What to do next
 
-In Visual Studio Code, start developing your application in source code with ServiceNow Fluent, writing custom JavaScript modules, or adding third-party libraries. For more information, see [Developing applications with the ServiceNow SDK](../concept/developing-applications-sdk.md).
+In Visual Studio Code, start developing your application in source code with ServiceNow Fluent, writing custom JavaScript modules, or adding third-party libraries. For more information, see [Developing applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/developing-applications-sdk.md).
 

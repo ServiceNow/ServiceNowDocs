@@ -2,6 +2,7 @@
 title: Chief Risk Officer Dashboard pillars
 description: Organizing insights into these five pillars promotes CRO focus on delivering value quickly, improving productivity and optimizing risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/cro-dashboard-tab.html
 release: zurich
 topic_type: reference
 last_updated: "2025-09-01"
@@ -127,7 +128,7 @@ Governance of business continuity management
 Evaluates resilience, continuity plans, crisis response, and test execution.
 
 </td></tr></tbody>
-</table>![The dashboard visualizes enterprise risks, issues, internal audits, compliance status, and business continuity governance metrics.](../image/cro-db-tab.png)
+</table>\[Omitted image "cro-db-tab.png"\] Alt text: The dashboard visualizes enterprise risks, issues, internal audits, compliance status, and business continuity governance metrics.
 
 ## CRO Dashboard overview
 

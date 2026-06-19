@@ -2,6 +2,7 @@
 title: ExtractTermsFromAttachment - Global
 description: The ExtractTermsFromAttachment script include provides methods to extract terms from an attachment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_ExtractTermsFromAttachmentAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,5 +18,5 @@ The ExtractTermsFromAttachment script include provides methods to extract terms 
 
 This script include is called with the ScriptedExtractor object, SysAttachmentInputStream, the sys\_id for the attachment, and the extension for the attachment. The getTerms\(\) method is called to extract the terms from the attachment that should be indexed. The getTerms\(\) method should just return a string that contains the terms. If you prefer to input a file rather than an inputStream, call extractor.getFile\(\) to get the File object containing the attachment.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 

@@ -2,6 +2,7 @@
 title: Quick start tests for Coaching
 description: Validate that Coaching still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/coaching/cf-quick-start-tests-coaching.html
 release: zurich
 product: Coaching
 classification: coaching
@@ -30,10 +31,10 @@ Coaching quick start tests require activating the Coaching plugin \(com.sn\_coac
 |Coaching: Submit Coaching survey as a Coach user.|Verify that coach can submit survey for a trainee.|Quebec|
 |Coaching: Submit Coaching survey as a Traineer user.|Verify that trainee can submit survey for a coach.|Quebec|
 
-**Parent Topic:**[Coaching reference](../../../product/cf-coaching/reference/cf-coaching-reference.md)
+**Parent Topic:**[Coaching reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/coaching/cf-coaching-reference.md)
 
 **Related topics**  
 
 
-[Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+[bundle-cadev.quick-start-tests]
 

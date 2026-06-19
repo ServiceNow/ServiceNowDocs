@@ -2,6 +2,7 @@
 title: Convert your installed applications to development mode
 description: Convert the installed applications that your company owns to development mode after you install an application onto a non-production instance to use for development or clone a production instance into a non-production instance for development. With this conversion, you enable newer versions of the application to be created, committed, and published.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/application-repository-self-hosted/convert-installed-applications-to-development-mode.html
 release: zurich
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
@@ -45,14 +46,14 @@ After you convert the application, it can't receive updates from the application
 
     -   If the installed version of the application is equal to the latest version that is published to the Application Repository, you see the following dialog:
 
-        ![Convert installed app dialog is displayed.](../image/convert_dialog.png)
+        \[Omitted image "convert\_dialog.png"\] Alt text: Convert installed app dialog is displayed.
 
     -   If the installed version of the application is lower than the latest version that is published to the Application Repository, you see the following warning:
-        -   ![Version warning is displayed.](../image/warning.png)
+        -   \[Omitted image "warning.png"\] Alt text: Version warning is displayed.
 
         -   If an instance is connected to a self-hosted application repository, you may see this warning regardless of the availability of a higher version in the repository. Check your repository to ensure that the development version that you require is installed in this case.
     -   After the successful conversion, the following message is displayed:
-        -   ![Successful conversion message.](../image/convert-success.png)
+        -   \[Omitted image "convert-success.png"\] Alt text: Successful conversion message.
 
         -   Close the window to be redirected to the development application form.
 

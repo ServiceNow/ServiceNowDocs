@@ -2,11 +2,12 @@
 title: Update an OSHA form PDF template
 description: Update a saved OSHA form PDF template if changes to an OSHA form PDF file are required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety/update-osha-form-pdf-template.html
 release: zurich
 product: Health and Safety
 classification: health-and-safety
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure settings, Health and Safety Incident Management OSHA Content Pack, Health and Safety injury and illness reports, Health and Safety, Employee Service Management]
 ---
@@ -39,7 +40,7 @@ The Health and Safety Incident Management OSHA Content Pack includes preconfigur
 
     4.  Select **Manage attachments** and delete the old PDF template file and upload the new PDF template file.
 
-        For more information on managing attachments, see [Manage attachments](https://www.servicenow.com/docs/access?context=t_ManagingAttachments&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+        For more information on managing attachments, see Manage attachments.
 
     5.  Select **Update**.
 
@@ -61,7 +62,7 @@ The Health and Safety Incident Management OSHA Content Pack includes preconfigur
 
     2.  Select the corresponding system property for the OSHA form PDF template that you updated.
 
-        For information on the OSHA form PDF template system properties, see [Health and Safety Incident Management OSHA Content Pack properties](../reference/properties-installed-osha-content-pack.md).
+        For information on the OSHA form PDF template system properties, see [Health and Safety Incident Management OSHA Content Pack properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/properties-installed-osha-content-pack.md).
 
     3.  Update the sys\_id that you copied in step 2.
 
@@ -72,5 +73,5 @@ The Health and Safety Incident Management OSHA Content Pack includes preconfigur
 
 The new OSHA form PDF template is available and is used when exporting the corresponding OSHA form.
 
-**Parent Topic:**[Setting up the OSHA Content Pack](../concept/configuring-osha-forms.md)
+**Parent Topic:**[Setting up the OSHA Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/configuring-osha-forms.md)
 

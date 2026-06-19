@@ -2,6 +2,7 @@
 title: Employee Profile portal configuration form
 description: Use the Employee Profile Portal Configuration form to configure the profile for a service portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/profile-portal-config-form.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,7 +18,7 @@ Use the Employee Profile Portal Configuration form to configure the profile for 
 
 |Field|Description|
 |-----|-----------|
-|Name|Name of the profile configuration. For navigation and other information, see [Employee Profile portal configuration form](profile-portal-config-form.md), [Employee Profile upgrade scenarios](emp-profile-upgrade.md), [Employee Profile Header Configuration form](profile-header-config-form.md), and [Employee Profile form](employee-profile-fieldconfig.md)|
+|Name|Name of the profile configuration. For navigation and other information, see [Employee Profile portal configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/profile-portal-config-form.md), [Employee Profile upgrade scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/emp-profile-upgrade.md), [Employee Profile Header Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/profile-header-config-form.md), and [Employee Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-profile-fieldconfig.md)|
 |Active|Option to make the profile configuration active.|
 |Portal|Portal on which the configuration is applied.|
 |Widget Overview Panel|Option to enable the overview panel on the profile.|

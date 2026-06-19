@@ -2,6 +2,7 @@
 title: Required permissions for the integration user
 description: The integration user, or refresh token user, must have the following permissions if it does not already have system administrator permissions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/integration\_user\_required\_permissions.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

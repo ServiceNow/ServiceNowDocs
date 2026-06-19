@@ -2,6 +2,7 @@
 title: Completed subflow values in scripts
 description: The Parallel Flow Launcher activity exposes additional variables you can use in scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/workflow-activities/c\_CompletedSubflowValuesInScripts.html
 release: zurich
 product: Workflow Activities
 classification: workflow-activities
@@ -47,5 +48,5 @@ The subflow launched by the activity that completed most recently. You can use t
 -   contextId: the sys\_id of the workflow context for the subflow
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Parallel Flow Launcher workflow activity](../reference/r_ParallelFlowLauncher.md)
+</table>**Parent Topic:**[Parallel Flow Launcher workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/workflow-activities/r_ParallelFlowLauncher.md)
 

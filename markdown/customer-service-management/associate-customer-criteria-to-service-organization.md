@@ -2,7 +2,10 @@
 title: Define the configuration type for customers or business locations
 description: Define the configuration type to provide service to customers or business locations within any service organization \(SO\) using the Customer Service Management \(CSM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/associate-customer-criteria-to-service-organization.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -25,15 +28,15 @@ Role required: admin, sn\_customerservice\_manager, sn\_customerservice.svc\_loc
 
 3.  Select the configuration type based on whether you intend to provide service to customers or business locations within any service organization.
 
-<table id="choicetable_tgr_32q_1cc"><thead><tr><th align="left" id="d136884e96">
+<table id="choicetable_tgr_32q_1cc"><thead><tr><th align="left" id="d72986e96">
 
 Configuration type
 
-</th><th align="left" id="d136884e99">
+</th><th align="left" id="d72986e99">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d136884e105">
+</th></tr></thead><tbody><tr><td id="d72986e105">
 
 **Customers served**
 
@@ -43,7 +46,7 @@ Customers that are served at a business location. The customers served can be de
 -   **Criteria-based**: Enables service organization staff to create and resolve issues only for customers associated to the service organization using a criteria.
 
 
-</td></tr><tr><td id="d136884e126">
+</td></tr><tr><td id="d72986e126">
 
 **Business locations served**
 
@@ -63,5 +66,5 @@ In other words, it is a service organization relationship where a business locat
 
 ## What to do next
 
-Once the configuration is defined, you can associate your customers or business locations to a service organization. For more information, see [Associate customers or business locations to a service organization](associate-customers-or-bus-loc-to-so.md).
+Once the configuration is defined, you can associate your customers or business locations to a service organization. For more information, see [Associate customers or business locations to a service organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/associate-customers-or-bus-loc-to-so.md).
 

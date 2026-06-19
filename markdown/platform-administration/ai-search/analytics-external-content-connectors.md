@@ -2,6 +2,7 @@
 title: Analytics for external content connectors
 description: Metrics that show how your external content connector has run over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/analytics-external-content-connectors.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -16,7 +17,7 @@ breadcrumb: [Reference, External Content Connectors, ServiceNow Store applicatio
 
 Metrics that show how your external content connector has run over time.
 
-You can view analytics for an external content connector by navigating to the **Analytics** tab in the connector editor. For more details on this procedure, see [Review analytics for an external content connector](../task/review-analytics-external-content-connector.md).
+You can view analytics for an external content connector by navigating to the **Analytics** tab in the connector editor. For more details on this procedure, see [Review analytics for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/review-analytics-external-content-connector.md).
 
 ## Date range
 
@@ -151,5 +152,5 @@ User permission crawls
 -   Second value shows the number of failed user permission crawls run for the connector in the selected date range.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[External Content Connectors reference](../concept/reference-ext-cont-connectors.md)
+</table>**Parent Topic:**[External Content Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/reference-ext-cont-connectors.md)
 

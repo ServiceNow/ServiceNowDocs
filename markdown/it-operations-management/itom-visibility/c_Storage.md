@@ -2,6 +2,7 @@
 title: Storage discovery
 description: Discovery collects information on Direct Attached Storage \(DAS\), Storage Area Networks \(SAN\), and Network Attached Storage \(NAS\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/c\_Storage.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -33,7 +34,7 @@ Discovery collects and creates CIs in the CMDB for the following information:
 -   Disks \(both SAN disks and DAS drives\).
 -   Fibre Channel \(FC\) HBAs and ports.
 -   Linux Volume Manager \(LVM\) volumes. LVM volume data resides in the Storage Pool \[cmdb\_ci\_storage\_pool\] table.
--   [Veritas Volume Manager](../reference/r_DataCollDiscoVVMLinux.md) disks, subdisks, disk groups, plexes, and volumes.
+-   [Veritas Volume Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/r_DataCollDiscoVVMLinux.md) disks, subdisks, disk groups, plexes, and volumes.
 
 **Note:** For details about the discovery of direct attached or multipath block storage provisioned on a Linux host, see [KB0622583](https://support.servicenow.com/kb_view.do?sysparm_article=KB0622583).
 
@@ -49,7 +50,7 @@ Discovery collects and creates CIs in the CMDB for the following information:
     -   Windows - Storage 2012 - PS: identifies storage attached to Windows systems, using PowerShell.
     -   Windows - Storage 2012 - WMI: identifies storage attached to Windows systems, using WMI Runner.
 -   VMWare - vCenter ESX Hosts Storage: collects information about ESX servers and creates relationships from datastores to underlying disks.
--   Patterns for [NetApp storage discovery](netapp-discovery.md):
+-   Patterns for [NetApp storage discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/netapp-discovery.md):
 
     -   NetApp 7-mode: finds NetApp servers via REST with two nodes.
     -   NetApp cluster mode: finds NetApp servers via REST when more than two nodes are connected through a cluster interconnect switch.
@@ -86,20 +87,20 @@ Discovery creates the following relationships for storage CIs:
 |Fibre Channel Disk \[cmdb\_ci\_fc\_disk\]|Provides::Provided by|File System \[cmdb\_ci\_file\_system\]|
 |iSCSI Disk \[cmdb\_ci\_iscsi\_disk\]|Provides::Provided by|File System \[cmdb\_ci\_file\_system\]|
 
--   **[Configure discovery of hosts with attached storage](configure-discovery-of-hosts-with-attached-storage.md)**  
+-   **[Configure discovery of hosts with attached storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/configure-discovery-of-hosts-with-attached-storage.md)**  
 Discovery can find information about UNIX, Linux, and Windows hosts with attached storage.
--   **[Discovery data collected for storage via a host](../reference/r_DataCollDiscoStorageViaHost.md)**  
+-   **[Discovery data collected for storage via a host](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/r_DataCollDiscoStorageViaHost.md)**  
 Discovery gathers information about storage units that connect to Linux, Solaris, and Windows hosts via a local I/O port or Host Bus Adapter \(HBA\).
--   **[Storage Discovery via SMI-S and CIM](../reference/r_DataCollDiscoStorageviaSMISCIM.md)**  
+-   **[Storage Discovery via SMI-S and CIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/r_DataCollDiscoStorageviaSMISCIM.md)**  
 Discovery can explore storage devices that contain a Storage Management Initiative Specification \(SMI-S\) provider that is a specialized Common Information Model \(CIM\) server.
--   **[Data collected for Veritas Volume Manager on Linux](../reference/r_DataCollDiscoVVMLinux.md)**  
+-   **[Data collected for Veritas Volume Manager on Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/r_DataCollDiscoVVMLinux.md)**  
 Discovery collects disk and volume information for Veritas Volume Manager \(VxVM\) on Linux hosts and maps file systems mounted on Veritas volumes to the upstream storage provider.
--   **[NetApp Server and Cluster discovery](netapp-discovery.md)**  
+-   **[NetApp Server and Cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/netapp-discovery.md)**  
 Discovery and Service Mapping find NetApp servers and clusters using patterns. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
--   **[Manage large storage payloads in Linux and Solaris](../task/manage-lg-payloads-linux-solaris.md)**  
+-   **[Manage large storage payloads in Linux and Solaris](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/manage-lg-payloads-linux-solaris.md)**  
 Large payloads for Linux and Solaris direct attached storage can cause out of memory errors if not configured to serialize the processing of the payload.
--   **[Storage discovery examples](../reference/storage-discovery-examples.md)**  
+-   **[Storage discovery examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/storage-discovery-examples.md)**  
 Discovery creates configuration items \(CI\) and CI relationships for physical and logical storage components attached directly to application and database servers or by fibre channel switched fabric in a multi-path configuration.
 
-**Parent Topic:**[Data collected by ITOM Visibility](../reference/data-collected-by-itom-visibility.md)
+**Parent Topic:**[Data collected by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/data-collected-by-itom-visibility.md)
 

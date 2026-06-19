@@ -2,6 +2,7 @@
 title: Customize a relationship graph
 description: Visualize and analyze security incidents and their associated data in a relationship graph.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/create-relationship-graph-config.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -41,5 +42,5 @@ Role required: sn\_si.admin
 5.  Select **Save**.
 
 
-**Parent Topic:**[Viewing incident details with a relationship graph](../concept/sir-relationship-graph.md)
+**Parent Topic:**[Viewing incident details with a relationship graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/sir-relationship-graph.md)
 

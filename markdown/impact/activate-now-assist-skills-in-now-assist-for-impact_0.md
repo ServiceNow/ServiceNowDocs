@@ -2,7 +2,10 @@
 title: Activate Now Assist skills in Now Assist for Impact
 description: Activate a skill before you can use the generative AI capabilities for Now Assist for Impact.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/activate-now-assist-skills-in-now-assist-for-impact\_0.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-11-18"
 reading_time_minutes: 1
@@ -38,7 +41,7 @@ Role required: Impact admin
 
 2.  On the **Now Assist Skills** tab, under the **Technology** workflow group, select **Impact**.
 
-3.  ![](../image/now-assist-impact.png)On the Now Assist skills for Impact page, activate a skill by selecting **Turn On**.
+3.  \[Omitted image "now-assist-impact.png"\]On the Now Assist skills for Impact page, activate a skill by selecting **Turn On**.
 
 4.  Review the details of the skills on each tab, configure the skills, and select **Save**.
 

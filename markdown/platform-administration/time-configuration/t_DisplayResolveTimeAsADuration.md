@@ -2,6 +2,7 @@
 title: Display resolve time as a duration
 description: You can display the resolve time as a human-readable duration rather than an integer representing a duration in seconds.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/time-configuration/t\_DisplayResolveTimeAsADuration.html
 release: zurich
 product: Time Configuration
 classification: time-configuration
@@ -38,5 +39,5 @@ You can display the resolve time as a human-readable duration rather than an int
     **Note:** This attribute does not change the field data format, which remains an integer representing a duration in seconds. In reports and data exports, it still appears as the actual number of seconds, rather than as a duration.
 
 
-**Parent Topic:**[Resolve time](../concept/c_ResolveTime.md)
+**Parent Topic:**[Resolve time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/c_ResolveTime.md)
 

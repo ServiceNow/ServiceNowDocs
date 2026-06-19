@@ -2,6 +2,7 @@
 title: Automated Test Framework use case: test a script include
 description: This use case illustrates testing a script include with the Automated Test Framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/atf-use-script-include.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -27,11 +28,11 @@ To test a script include with the Automated Test Framework, create a test that p
 
 This example shows a test with one test step: Run Server Side Script. The script associated with this test step calls a script include that returns the value of its argument plus three. If the value returned from the script include is 8, the script include has worked as intended and the test passes.
 
-![Automated test to test a script include](../image/atf-script-include.png "Automated Test to test a script include")
+\[Omitted image "atf-script-include.png"\] Alt text: Automated test to test a script include
 
-![Run server side script test step](../image/atf-server-side-script-01.png "Automated test step for testing script include")
+\[Omitted image "atf-server-side-script-01.png"\] Alt text: Run server side script test step
 
-![Script include](../image/atf-server-side-script-02.png "Script include to test with Automated Test Framework")
+\[Omitted image "atf-server-side-script-02.png"\] Alt text: Script include
 
-**Parent Topic:**[Automated Test Framework use case examples](../concept/atf-use-cases.md)
+**Parent Topic:**[Automated Test Framework use case examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-use-cases.md)
 

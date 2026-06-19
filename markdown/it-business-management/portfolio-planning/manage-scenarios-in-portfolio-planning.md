@@ -2,6 +2,7 @@
 title: Manage scenarios
 description: Use the Manage scenarios option to view a list of all scenarios, rename scenarios, or delete scenarios.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/manage-scenarios-in-portfolio-planning.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -33,15 +34,15 @@ Role required:sn\_align\_core.apw\_user
 
 4.  Do any of the following actions.
 
-<table id="choicetable_qhd_5v3_ccc"><thead><tr><th align="left" id="d281482e111">
+<table id="choicetable_qhd_5v3_ccc"><thead><tr><th align="left" id="d265056e111">
 
 Action
 
-</th><th align="left" id="d281482e114">
+</th><th align="left" id="d265056e114">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d281482e120">
+</th></tr></thead><tbody><tr><td id="d265056e120">
 
 **Delete a scenario**
 
@@ -51,7 +52,7 @@ Description
 2.  Select **Delete**.
 
 
-</td></tr><tr><td id="d281482e141">
+</td></tr><tr><td id="d265056e141">
 
 **Rename a scenario**
 

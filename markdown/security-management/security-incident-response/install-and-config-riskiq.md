@@ -2,11 +2,12 @@
 title: Install and configure RISKIQ and WHOISIQ
 description: Before you run the integration on your instance, complete the installation and configuration steps so the RISKIQ and WHOISIQ applications properly integrate with ServiceNow AI Platform Security Operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/install-and-config-riskiq.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [RISKIQ and WHOISIQ integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -64,24 +65,24 @@ Madrid and later release requirements
 3.  Security Support Common
 4.  Security Support Orchestration
 
- For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product or application](../../security-incident-response/task/entitle-secops-product.md) and [Activate a ServiceNow Store application](../../security-incident-response/task/activate-entitled-store-app.md).
+ For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/activate-entitled-store-app.md).
 
 </td></tr></tbody>
 </table>## Procedure
 
-1.  If you have not installed the application for the integration, see [Install a Security Operations integration](../../security-incident-response/task/install-non-core-apps.md) and follow the steps to install it.
+1.  If you have not installed the application for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/install-non-core-apps.md) and follow the steps to install it.
 
 2.  Once the installation completes, navigate to **Security Operations** &gt; **Integrations** &gt; **Integrations Configurations** and locate the API tile.
 
-3.  Click **Configure**.
+3.  Select **Configure**.
 
-    ![RISKIQ Configure button](../image/riskiq-tile.png)
+    \[Omitted image "riskiq-tile.png"\] Alt text: RISKIQ Configure button
 
 4.  In the RiskIQ Configuration dialog box that is displayed, enter the **Username** and **API key**.
 
-    ![Task: Enter the Username and API key.](../image/riskiq-configuration.png)
+    \[Omitted image "riskiq-configuration.png"\] Alt text: Task: Enter the Username and API key.
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
 6.  Verify successful configuration.
 
@@ -90,11 +91,11 @@ Madrid and later release requirements
 
 If an error message is displayed, the Username or API key may be invalid. Verify that your username and API key are correct:
 
-![Configuration error message](../image/riskiq-config-error.png "Troubleshooting")
+\[Omitted image "riskiq-config-error.png"\] Alt text: Configuration error message
 
-**Parent Topic:**[RISKIQ and WHOISIQ integration](../concept/riskiq-lookups.md)
+**Parent Topic:**[RISKIQ and WHOISIQ integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/riskiq-lookups.md)
 
-**Previous topic:**[Supported observables for RISKIQ and RISKIQ WHOISIQ](../reference/riskiq_supported_obsv.md)
+**Previous topic:**[Supported observables for RISKIQ and RISKIQ WHOISIQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/riskiq_supported_obsv.md)
 
-**Next topic:**[Verify expected results for RISKIQ SSL certificate lookups](verify-expected-rslts-for-riskiq.md)
+**Next topic:**[Verify expected results for RISKIQ SSL certificate lookups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/verify-expected-rslts-for-riskiq.md)
 

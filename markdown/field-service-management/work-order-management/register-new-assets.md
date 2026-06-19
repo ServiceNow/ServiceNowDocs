@@ -2,6 +2,7 @@
 title: Register new assets
 description: Register new assets that are supported for customers and have not been registered previously using the ServiceNow Agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/register-new-assets.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -39,7 +40,7 @@ Role required: asset
 
 8.  Tap **Scan next item** each time to scan the barcodes of the next parts.
 
-    The default configuration enables you to scan a maximum of five parts at a time. You can increase or decrease the count of scanning multiple items at a time. For more information, see [Configure a grouped input for multiple scans](https://www.servicenow.com/docs/access?context=sg-configure-multiscan&version=zurich&pubname=zurich-mobile&ft:locale=en-US).
+    The default configuration enables you to scan a maximum of five parts at a time. You can increase or decrease the count of scanning multiple items at a time. For more information, see Configure a grouped input for multiple scans.
 
 9.  After scanning all the parts, tap **Review**.
 

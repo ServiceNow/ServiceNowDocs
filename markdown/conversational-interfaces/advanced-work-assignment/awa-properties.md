@@ -2,6 +2,7 @@
 title: Properties for Advanced Work Assignment
 description: The Advanced Work Assignment Properties page provides configuration options for AWA.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/awa-properties.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -69,7 +70,7 @@ Enables/disables the execution of subflows defined on the AWA queues when work i
 -   Default value: false
 
 </td></tr></tbody>
-</table>For information on adding a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>For information on adding a system property, see Add a system property.
 
-**Parent Topic:**[Advanced Work Assignment reference](reference-awa.md)
+**Parent Topic:**[Advanced Work Assignment reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/reference-awa.md)
 

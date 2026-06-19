@@ -2,6 +2,7 @@
 title: Restart a learning challenge
 description: Restart a challenge when you want to reset the progress you have made on the challenge.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/restart-challenge-lxp.html
 release: zurich
 product: Learning Core
 classification: learning-core
@@ -23,7 +24,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Employee Center** &gt; **My Learning**.
 
-2.  On the learning challenge widget, select the context ![context icon](../../../common/image/icon-menu.png) icon.
+2.  On the learning challenge widget, select the context \[Omitted image "icon-menu.png"\] Alt text: context icon icon.
 
     **Note:** You might see different labels on the widget depending on your current status on the challenge. If you have started the challenge, you will see Your current challenge.
 

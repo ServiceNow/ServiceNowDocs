@@ -2,6 +2,7 @@
 title: View active and inactive participants in the conference call
 description: You can view the participant status in an active conference call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/view-participants-inc-call-itsm-mobile.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -25,17 +26,17 @@ Role required: itil, itil\_admin, or admin
 
 2.  In **My work** tab, tap **See All**.
 
-    ![My work.](../image/my-work-itsm-mobile.png)
+    \[Omitted image "my-work-itsm-mobile.png"\] Alt text: My work.
 
 3.  Open the incident where the conference call is originated.
 
 4.  Tap **Collaborate**.
 
-    ![My work.](../image/incident-collaborate-itsm-mobile.png)
+    \[Omitted image "incident-collaborate-itsm-mobile.png"\] Alt text: My work.
 
 5.  Tap on the active conference call.
 
-    ![Participant status in a conference call](../image/participants-inc-call-itsm-mobile.png)
+    \[Omitted image "participants-inc-call-itsm-mobile.png"\] Alt text: Participant status in a conference call
 
 6.  Do one of the following:
 
@@ -45,5 +46,5 @@ Role required: itil, itil\_admin, or admin
     |**Inactive**|Tap **Inactive** to view the inactive participants|
 
 
-**Parent Topic:**[Collaboration with incidents](../concept/collaboration-incident-itsm-mobile.md)
+**Parent Topic:**[Collaboration with incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-mobile-agent/collaboration-incident-itsm-mobile.md)
 

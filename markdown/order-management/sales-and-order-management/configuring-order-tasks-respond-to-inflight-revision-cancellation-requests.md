@@ -2,6 +2,7 @@
 title: Configuring order tasks to respond to inflight revision and cancellation requests
 description: Configure your order task records to respond to inflight order changes and cancellation requests using Workflow Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configuring-order-tasks-respond-to-inflight-revision-cancellation-requests.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -19,8 +20,8 @@ The Create Order Task action contains flow actions that you use to define the or
 
 To learn more about creating a flow and inflight order change processing, see:
 
--   [Create a flow](https://www.servicenow.com/docs/access?context=create-flow&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
--   [Managing inflight order changes and cancellation requests](../concept/inflight-order-change-mgt-overview.md)
+-   Create a flow
+-   [Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/inflight-order-change-mgt-overview.md)
 
 To see a sample Create Flow action, see the sample Change Cisco Firepower Monitoring system flow, in your demo data, which is installed with the ServiceNow AI Platform.
 
@@ -99,12 +100,12 @@ Flow action to attach scripting that designates what redo actions, or field upda
 Flow action to attach scripting that designates what undo actions, or cancellations, if any, should take place in the order task.It is applied for revisions or cancellation requests for inflight orders that contain the inflight change types and options that are defined in the Inflight Change Type and Inflight Change Option flow actions.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring inflight changes](../concept/configure-inflight-order-change-mgt.md)
+</table>**Parent Topic:**[Configuring inflight changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/configure-inflight-order-change-mgt.md)
 
 **Related topics**  
 
 
-[Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+[bundle-cadev.flow-designer]
 
-[Flows](https://www.servicenow.com/docs/access?context=flows&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.flows]
 

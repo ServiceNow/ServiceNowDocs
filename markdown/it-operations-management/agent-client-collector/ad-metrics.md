@@ -2,6 +2,7 @@
 title: Active Directory metrics
 description: The following table lists the metrics that are gathered as output from Active Directory checks. Entries indicated as Featured metrics are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/ad-metrics.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -48,5 +49,5 @@ The following table lists the metrics that are gathered as output from Active Di
 |active\_dir.LDAP\_Searches/sec \(featured metric\)| | |Shows the rate at which LDAP clients perform search operations.|
 |active\_dir.LDAP\_Successful\_Binds/sec \(featured metric\)| | |Shows the number of LDAP binds per second.|
 
-**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](agent-policies-checks.md)
+**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-policies-checks.md)
 

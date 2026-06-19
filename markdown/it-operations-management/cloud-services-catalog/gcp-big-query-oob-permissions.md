@@ -2,6 +2,7 @@
 title: Google Cloud Platform \(GCP\) Big Query Out Of Box permissions
 description: GCP Big Query Out Of Box catalog items permissions
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/gcp-big-query-oob-permissions.html
 release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -62,5 +63,5 @@ Deprovision
 -   bigquery.models.delete
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Google Cloud Platform \(GCP\) Big Query](google-cloud-platform-big-query.md)
+</table>**Parent Topic:**[Google Cloud Platform \(GCP\) Big Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/google-cloud-platform-big-query.md)
 

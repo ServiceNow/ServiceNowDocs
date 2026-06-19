@@ -2,13 +2,14 @@
 title: Agentic Playbooks user roles
 description: The following roles are required for runtime users to access Agentic Playbooks, and come with the Now Assist for Platform AI agents skill.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/agentic-playbooks-roles.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
 last_updated: "2025-09-05"
 reading_time_minutes: 1
-breadcrumb: [Reference, Agentic Playbooks, Playbooks, Explore, Workflow Studio, Build workflows]
+breadcrumb: [Reference, Agentic Playbooks, Playbook, Explore, Workflow Studio, Build workflows]
 ---
 
 # Agentic Playbooks user roles
@@ -17,7 +18,7 @@ The following roles are required for runtime users to access Agentic Playbooks, 
 
 You can grant users entitlement to the applications that you purchase on the ServiceNow AI Platform by allocating subscriptions in Subscription Management. You allocate subscriptions by adding one or more groups with measured roles to a product subscription.
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing per-user subscriptions, see  and contact your account representative.
 
 ## Runtime user roles
 
@@ -51,5 +52,5 @@ Grants access to the Playbook Activity Assist Workflow, and includes:-   All age
 </td></tr></tbody>
 </table>**Note:** There are no roles specific to Agentic Playbooks for playbook authors. As long as a playbook author has admin, playbook.admin, pd\_author, or playbook.write rights, they can configure an activity to use AI agents.
 
-**Parent Topic:**[Agentic Playbooks reference](agentic-playbook-reference.md)
+**Parent Topic:**[Agentic Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/agentic-playbook-reference.md)
 

@@ -2,6 +2,7 @@
 title: Configure the Java connector
 description: Configure the Java connector to set up the Java application screens and elements on which the automation will be performed. After setting up, you can expose methods at the connector, screen, and element levels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/configure-java-connector.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -17,7 +18,7 @@ Configure the Java connector to set up the Java application screens and elements
 
 ## Before you begin
 
-Ensure you have installed the Java plugin on the RPA Desktop Design Studio. To install, see [Manage plugins in RPA Desktop Design Studio](install-plugins-rpa-studio.md).
+Ensure you have installed the Java plugin on the RPA Desktop Design Studio. To install, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/install-plugins-rpa-studio.md).
 
 Ensure that Java is installed on the computer.
 
@@ -37,7 +38,7 @@ Role required: none
 
 5.  In the AVAILABLE WINDOWS list, select a Java application.
 
-    **Tip:** If the window doesn't appear in the list, click the refresh icon \(![Refresh icon.](../image/refresh-jav-program.png)\).
+    **Tip:** If the window doesn't appear in the list, click the refresh icon \(\[Omitted image "refresh-jav-program.png"\] Alt text: Refresh icon.\).
 
 6.  Click **Add Window**.
 
@@ -53,12 +54,12 @@ Role required: none
 
 10. To capture elements, use the context dialog.
 
-    To use the context dialog, see [Use the Capture element dialog](use-context-dialog.md).
+    To use the context dialog, see [Use the Capture element dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/use-context-dialog.md).
 
 11. To close the Java Connector window, click **OK**.
 
-    The connector, screen and its elements are configured.![Connector levels](../image/connector-levels.png)
+    The connector, screen and its elements are configured.\[Omitted image "connector-levels.png"\] Alt text: Connector levels
 
 
-**Parent Topic:**[Java](../concept/java-connector.md)
+**Parent Topic:**[Java](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/java-connector.md)
 

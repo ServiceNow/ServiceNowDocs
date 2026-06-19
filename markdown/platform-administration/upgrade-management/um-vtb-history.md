@@ -2,6 +2,7 @@
 title: Skipped Records visual task board \(VTB\)
 description: View the resolution status of any previous upgrade with skipped records using the visual task board \(VTB\) view. An upgrade history record is created for each upgrade that is run.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/upgrade-management/um-vtb-history.html
 release: zurich
 product: Upgrade Management
 classification: upgrade-management
@@ -42,14 +43,14 @@ The skipped records are prioritized based on the importance of the file types. T
 -   Priority 4: Form Sections, Choice Sets, and more
 -   Priority 5 \(lowest priority\): other
 
-![Image showing the VTB view of skipped records resolution status](../../upgrade-center/image/uc-vtb.png)
+\[Omitted image "uc-vtb.png"\] Alt text: Image showing the VTB view of skipped records resolution status
 
--   **[Upgrade History Task form](../reference/um-history-task-form.md)**  
+-   **[Upgrade History Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-history-task-form.md)**  
 You can update information about a skipped record task using the Upgrade History Task form.
--   **[Previous Resolutions related list](../reference/um-previous-resolutions-rl.md)**  
+-   **[Previous Resolutions related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-previous-resolutions-rl.md)**  
 The Previous Resolutions related list shows the history of the selected skipped record. You can see what resolutions have been done with the selected skipped record in the previous upgrades.
--   **[Update default labels in VTB view](../task/um-label-vtb.md)**  
+-   **[Update default labels in VTB view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-label-vtb.md)**  
 Filter skipped records in the task board of the VTB with the implementation of color-coded labels. You can filter the skipped records by assigning a color to each of the products.
 
-**Parent Topic:**[Reviewing upgrade history](um-review-history.md)
+**Parent Topic:**[Reviewing upgrade history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-review-history.md)
 

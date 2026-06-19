@@ -2,6 +2,7 @@
 title: Accounts Payable Operations glossary
 description: Learn about the terms and concepts used in Accounts Payable Operations \(APO\).ServiceNow AI-powered tool for extracting data from invoices.A document issued by a buyer to a seller, detailing the items or services to be purchased.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/apo-glossary.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -18,7 +19,7 @@ Learn about the terms and concepts used in Accounts Payable Operations \(APO\).
 
 Glossary terms are grouped alphabetically.
 
-[A](apo-glossary.md#) \| [D](apo-glossary.md#) \| [E](apo-glossary.md#) [I](apo-glossary.md#) \| [S](apo-glossary.md#) \| [T](apo-glossary.md#) \| [V](apo-glossary.md#) \| [W](apo-glossary.md#)
+[A](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/apo-glossary.md) \| [D](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/apo-glossary.md) \| [E](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/apo-glossary.md) [I](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/apo-glossary.md) \| [S](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/apo-glossary.md) \| [T](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/apo-glossary.md) \| [V](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/apo-glossary.md) \| [W](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/apo-glossary.md)
 
 ## A
 

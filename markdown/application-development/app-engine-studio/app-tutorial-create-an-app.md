@@ -2,11 +2,12 @@
 title: Create an app
 description: When you're ready to start building your application, begin creating your application in App Engine Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/app-tutorial-create-an-app.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-04-28"
 reading_time_minutes: 3
 breadcrumb: [App creation tutorial, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
 ---
@@ -19,7 +20,7 @@ When you're ready to start building your application, begin creating your applic
 
 **Note:** To create apps in AES, you must be an admin or in the App Engine Studio Users group. If you are in the App Engine Studio User Limited group, you can only edit existing apps, not create new ones.
 
-Role required: admin, sn\_app\_eng\_studio.user
+Role required: sn\_app\_eng\_studio.admin, sn\_app\_eng\_studio.user, or delegated\_developer
 
 ## About this task
 
@@ -33,11 +34,11 @@ Step 1
 
 </td><td align="justify">
 
-![Completed icon](../image/app-tutorial-progress-complete2.png)
+\[Omitted image "app-tutorial-progress-complete2.png"\] Alt text: Completed icon
 
 </td><td>
 
-[Planning your application](../concept/app-tutorial-introduction.md)
+[Planning your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-introduction.md)
 
 </td></tr><tr><td>
 
@@ -45,11 +46,11 @@ Step 2
 
 </td><td align="justify">
 
-![Work in progress icon](../image/app-tutorial-progress-wip.png)
+\[Omitted image "app-tutorial-progress-wip.png"\] Alt text: Work in progress icon
 
 </td><td>
 
-[Create an app](app-tutorial-create-an-app.md)
+[Create an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-create-an-app.md)
 
 </td></tr><tr><td>
 
@@ -57,11 +58,11 @@ Step 3
 
 </td><td align="justify">
 
-![Not started icon](../image/app-tutorial-progress-not-started.png)
+\[Omitted image "app-tutorial-progress-not-started.png"\] Alt text: Not started icon
 
 </td><td>
 
-[Building a data model](../concept/app-tutorial-data-model.md)
+[Building a data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-data-model.md)
 
 </td></tr><tr><td>
 
@@ -69,11 +70,11 @@ Step 4
 
 </td><td align="justify">
 
-![Not started icon](../image/app-tutorial-progress-not-started.png)
+\[Omitted image "app-tutorial-progress-not-started.png"\] Alt text: Not started icon
 
 </td><td>
 
-[Creating user experiences](../concept/app-tutorial-experience-layer.md)
+[Creating user experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-experience-layer.md)
 
 </td></tr><tr><td>
 
@@ -81,11 +82,11 @@ Step 5
 
 </td><td align="justify">
 
-![Not started icon](../image/app-tutorial-progress-not-started.png)
+\[Omitted image "app-tutorial-progress-not-started.png"\] Alt text: Not started icon
 
 </td><td>
 
-[Adding logic and automation](../concept/app-tutorial-logic-automation-layer.md)
+[Adding logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-logic-automation-layer.md)
 
 </td></tr><tr><td>
 
@@ -93,11 +94,11 @@ Step 6
 
 </td><td align="justify">
 
-![Not started icon](../image/app-tutorial-progress-not-started.png)
+\[Omitted image "app-tutorial-progress-not-started.png"\] Alt text: Not started icon
 
 </td><td>
 
-[Test your application](app-tutorial-test-app.md)
+[Test your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-test-app.md)
 
 </td></tr></tbody>
 </table>Video in the app creation tutorial series. Create an application from scratch in App Engine Studio. 
@@ -150,5 +151,5 @@ You’ve created an application in App Engine Studio. The application is empty a
 
 ## What to do next
 
-Now that your application is created, you can start building the data model for the application. Proceed to the next step in the tutorial: [Building a data model](../concept/app-tutorial-data-model.md).
+Now that your application is created, you can start building the data model for the application. Proceed to the next step in the tutorial: [Building a data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-data-model.md).
 

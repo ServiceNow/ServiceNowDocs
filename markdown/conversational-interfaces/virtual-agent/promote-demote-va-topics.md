@@ -2,6 +2,7 @@
 title: Promote or demote LLM conversational subflows, actions, and topics in Virtual Agent Designer
 description: Promote assets including conversational subflows, conversational actions, and topics in Virtual Agent Designer, after associating them with a large language model \(LLM\) assistant, to have them suggested to the user by the LLM assistant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/promote-demote-va-topics.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -18,7 +19,7 @@ Promote assets including conversational subflows, conversational actions, and to
 
 ## Before you begin
 
-Associate an LLM topic, conversational subflow, or conversational action with an LLM assistant. For more information, see [Create a Virtual Agent topic](create-virtual-agent-topic.md), [Managing conversational subflows in Assistant Designer](../concept/managing-conversational-subflows.md), and [Managing conversational actions in Assistant Designer](../concept/managing-conversational-actions.md).
+Associate an LLM topic, conversational subflow, or conversational action with an LLM assistant. For more information, see [Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md), [Managing conversational subflows in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/managing-conversational-subflows.md), and [Managing conversational actions in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/managing-conversational-actions.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -28,11 +29,11 @@ After you associate a conversational subflow, conversational action, or topic wi
 
 System topics, setup topics, topic blocks, custom controls, and small talk topics cannot be promoted.
 
-**Note:** You can also promote NLU/keyword topics by creating topic recommendations in Conversational Interfaces settings. For more information, see [Using Virtual Agent Topic Recommendations](../concept/va-topic-recommendations.md).
+**Note:** You can also promote NLU/keyword topics by creating topic recommendations in Conversational Interfaces settings. For more information, see [Using Virtual Agent Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-topic-recommendations.md).
 
-For promotion controls for LLM assets, you can check the asset's **Promoted** status under the Show actions for this row icon ![Show actions for this row icon.](../images/kebab-menu.png). The **Promoted** status shows a check mark when the topic is promoted.
+For promotion controls for LLM assets, you can check the asset's **Promoted** status under the Show actions for this row icon \[Omitted image "kebab-menu.png"\] Alt text: Show actions for this row icon.. The **Promoted** status shows a check mark when the topic is promoted.
 
-For more information about LLM assistants, see [LLM assistants](../../now-assist-in-va/concept/llm-assistants.md).
+For more information about LLM assistants, see [LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/llm-assistants.md).
 
 ## Procedure
 
@@ -44,18 +45,18 @@ For more information about LLM assistants, see [LLM assistants](../../now-assist
 
 3.  Find the asset that you want to promote or demote.
 
-4.  Select the Show actions for this row icon ![Show actions for this row icon.](../images/kebab-menu.png), and then select **Promote** to toggle the asset's **Promoted** status.
+4.  Select the Show actions for this row icon \[Omitted image "kebab-menu.png"\] Alt text: Show actions for this row icon., and then select **Promote** to toggle the asset's **Promoted** status.
 
     If the asset is already promoted, the asset has a check mark next to the **Promoted** status. Demoting the asset removes the check mark.
 
 
 ## Result
 
-A toast message also appears for four seconds, confirming that the asset has been promoted or demoted. You can close the message by selecting the Close icon ![Close icon.](../images/gray-x-icon.png).
+A toast message also appears for four seconds, confirming that the asset has been promoted or demoted. You can close the message by selecting the Close icon \[Omitted image "gray-x-icon.png"\] Alt text: Close icon..
 
 ## What to do next
 
-Reorder promoted LLM conversational subflows, actions, and topics in Virtual Agent. For more information, see [Reorder promoted LLM conversational subflows, actions, and topics](sort-promoted-va-topics.md).
+Reorder promoted LLM conversational subflows, actions, and topics in Virtual Agent. For more information, see [Reorder promoted LLM conversational subflows, actions, and topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/sort-promoted-va-topics.md).
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](../reference/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

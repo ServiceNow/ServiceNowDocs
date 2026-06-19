@@ -2,6 +2,7 @@
 title: CMDB Coverage
 description: The ServiceNow CMDB Coverage application enables you to assess and improve the quality of the Configuration Management Database \(CMDB\). Improved CMDB coverage provides organizations with better visibility into their network coverage, reliable asset data, and stronger IT operational control.​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-coverage.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -19,19 +20,19 @@ The ServiceNow® CMDB Coverage application enables you to assess and improve the
 
 <table id="table_wxz_lyn_l3c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about the benefits of CMDB Coverage](cmdb-coverage-explore.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the benefits of CMDB Coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-coverage-explore.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure the application](../task/cmdb-coverage-configure-initialize.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-coverage-configure-initialize.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-optimize-manage.svg)Create discovery schedules, set up or review IPAM connectors, and review CMDB tables](cmdb-coverage-use.md)
+[Use\[Omitted image "bus-optimize-manage.svg"\] Alt text:Create discovery schedules, set up or review IPAM connectors, and review CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-coverage-use.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Details about the properties, scheduled jobs, and tables used by CMDB Coverage](cmdb-coverage-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Details about the properties, scheduled jobs, and tables used by CMDB Coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-coverage-reference.md)
 
 </td></tr></tbody>
 </table>## Helpful resource

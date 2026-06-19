@@ -2,6 +2,7 @@
 title: Define script variables for a topic
 description: Use the Variables sidebar to define script variables for a topic. Script variables can store information that is not found in ServiceNow tables. This information can then be shared elsewhere in a topic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/define-script-variables-topic.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -22,7 +23,7 @@ Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
-For more information about writing scripts for Virtual Agent, see [Virtual Agent scripts](../concept/virtual-agent-scripts.md).
+For more information about writing scripts for Virtual Agent, see [Virtual Agent scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/virtual-agent-scripts.md).
 
 ## Procedure
 
@@ -32,7 +33,7 @@ For more information about writing scripts for Virtual Agent, see [Virtual Agent
 
     The **Flow** tab displays the conversation flow.
 
-3.  In the sidebar, select the Variables tab, then select the **Script** plus ![Script plus icon.](../images/icon-plus-clear.png) icon.
+3.  In the sidebar, select the Variables tab, then select the **Script** plus \[Omitted image "icon-plus-clear.png"\] Alt text: Script plus icon. icon.
 
 4.  On the form, fill in the fields.
 
@@ -44,5 +45,5 @@ For more information about writing scripts for Virtual Agent, see [Virtual Agent
 5.  Select **Save**.
 
 
-**Parent Topic:**[Create a Virtual Agent topic](create-virtual-agent-topic.md)
+**Parent Topic:**[Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
 

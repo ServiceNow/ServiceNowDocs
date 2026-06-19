@@ -2,6 +2,7 @@
 title: Review external dependencies between projects
 description: Review the external dependencies between projects in a portfolio to track projects that are dependant on each other more closely.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-management/sp-review-ext-dependencies-between-prj.html
 release: zurich
 product: Portfolio Management
 classification: portfolio-management
@@ -29,7 +30,7 @@ For example, project B is dependent on project A \(external soft dependency\) an
 
 ## Procedure
 
-1.  Click the show or hide columns in gantt icon \(![show or hide columns in gantt](../image/show_hide_columns.png)\) in the timeline view and add the **Dependencies** column if it is not visible.
+1.  Click the show or hide columns in gantt icon \(\[Omitted image "show\_hide\_columns.png"\] Alt text: show or hide columns in gantt\) in the timeline view and add the **Dependencies** column if it is not visible.
 
     The number of incoming and outgoing external dependencies are displayed, if any.
 
@@ -45,10 +46,10 @@ For example, project B is dependent on project A \(external soft dependency\) an
 
         Tasks with an outgoing dependency to the project are listed.
 
-    ![Dependencies example](../../project-management/image/ReviewExternalDependencies.png "Example of external dependencies between projects")
+    \[Omitted image "ReviewExternalDependencies.png"\] Alt text: Dependencies example
 
 4.  Click the project number in a tab to open and review the linked project in the planning console view.
 
 
-**Parent Topic:**[Create planning scenarios](create-scenarios.md)
+**Parent Topic:**[Create planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-management/create-scenarios.md)
 

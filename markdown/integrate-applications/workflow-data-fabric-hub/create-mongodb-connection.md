@@ -2,6 +2,7 @@
 title: Create a MongoDB connection
 description: Establish a zero copy connection to a MongoDB database in Workflow Data Fabric Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/workflow-data-fabric-hub/create-mongodb-connection.html
 release: zurich
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -86,15 +87,15 @@ URL to establish the connection. For example:`mongodb://<host>:<port>/database_n
 </td></tr></tbody>
 </table>4.  Configure secure authentication by providing truststore information.
 
-<table id="choicetable_dth_vsc_qfc"><thead><tr><th align="left" id="d127369e218">
+<table id="choicetable_dth_vsc_qfc"><thead><tr><th align="left" id="d134501e218">
 
 Option
 
-</th><th align="left" id="d127369e221">
+</th><th align="left" id="d134501e221">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d127369e227">
+</th></tr></thead><tbody><tr><td id="d134501e227">
 
 **Upload truststore file**
 
@@ -104,7 +105,7 @@ Description
 2.  Browse and select the truststore file.
 
 
-</td></tr><tr><td id="d127369e248">
+</td></tr><tr><td id="d134501e248">
 
 **Enter truststore contents manually**
 
@@ -115,15 +116,15 @@ Copy and paste the contents of the keystore file.
 </td></tr></tbody>
 </table>5.  Configure secure authentication by providing keystore information.
 
-<table id="choicetable_zbg_15c_qfc"><thead><tr><th align="left" id="d127369e266">
+<table id="choicetable_zbg_15c_qfc"><thead><tr><th align="left" id="d134501e266">
 
 Option
 
-</th><th align="left" id="d127369e269">
+</th><th align="left" id="d134501e269">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d127369e275">
+</th></tr></thead><tbody><tr><td id="d134501e275">
 
 **Upload keystore file**
 
@@ -133,7 +134,7 @@ Description
 2.  Browse and select the keystore file.
 
 
-</td></tr><tr><td id="d127369e296">
+</td></tr><tr><td id="d134501e296">
 
 **Enter keystore contents manually**
 
@@ -155,7 +156,7 @@ A test connection is made to the external data source, verifying that the connec
 
 ## What to do next
 
-If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](manage-access-connection-wdf.md).
+If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/manage-access-connection-wdf.md).
 
 If the connection fails, verify the connection details with your data source administrator and try again.
 

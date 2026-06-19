@@ -2,13 +2,14 @@
 title: Define NDA content and update the list of signers
 description: As a procurement specialist, you can easily define your Non-Disclosure Agreement \(NDA\) content and update the list of participants for whose signature is required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/define-nda-content-update-signers.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Routing NDAs to suppliers, Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Routing NDAs to suppliers, Working Sourcing Procurement Operations playbooks, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Define NDA content and update the list of signers
@@ -23,7 +24,7 @@ Procurement specialists can do this with the help of a document template that is
 
 Role required: Procurement specialist
 
-![Supplier NDA draft.](../image/nda_content.png)
+\[Omitted image "nda\_content.png"\] Alt text: Supplier NDA draft.
 
 ## Procedure
 
@@ -46,5 +47,5 @@ Role required: Procurement specialist
 6.  Select **Update**.
 
 
-**Parent Topic:**[Routing NDAs to suppliers](../concept/routing-ndas-to-suppliers.md)
+**Parent Topic:**[Routing NDAs to suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/routing-ndas-to-suppliers.md)
 

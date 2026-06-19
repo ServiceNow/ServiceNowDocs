@@ -2,6 +2,7 @@
 title: Collecting indicator scores
 description: Performance Analytics uses data collection jobs to collect and clean scores and snapshots. You can also set indicator scores manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/c\_ClctData.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -26,16 +27,16 @@ For ongoing data collection, choose one of the following methods to collect indi
 
 Performance Analytics data collection jobs do not collect scores older than specified in the property **com.snc.pa.dc.keep\_snapshots\_for**. Scores or snapshots older than this value are not collected during data collection.
 
--   **[Collect historical data](../task/t_RunHistoricalDataCollection.md)**  
+-   **[Collect historical data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_RunHistoricalDataCollection.md)**  
 Run a historical data collection job to collect scores and snapshots for existing records. When collecting data for the first time, such as for a new indicator, run historical data collection once to generate scores and snapshots for existing records.
--   **[Create or schedule a data collection job](../task/t_CreatASchedDataCollJob.md)**  
+-   **[Create or schedule a data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_CreatASchedDataCollJob.md)**  
 Schedule a data collection job to regularly collect Performance Analytics indicator scores and snapshots.
--   **[Configure a job indicator](../task/configure-job-indicator.md)**  
+-   **[Configure a job indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/configure-job-indicator.md)**  
 Increase the efficiency of data collection by configuring job indicators to collect only necessary and sensible data.
--   **[Cancel a data collection job](../task/cancel-pa-dc-job.md)**  
+-   **[Cancel a data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/cancel-pa-dc-job.md)**  
 Cancel an active data collection job to stop the job from collecting scores.
--   **[Add or edit indicator scores manually](../task/t_ManuallyAddingScoresForIndicators.md)**  
+-   **[Add or edit indicator scores manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_ManuallyAddingScoresForIndicators.md)**  
 You can manually enter score data for automated and manual indicators. Exercise care when editing scores for automated indicators.
 
-**Parent Topic:**[Configure Performance Analytics advanced features](c_PADataArchitecture.md)
+**Parent Topic:**[Configure Performance Analytics advanced features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_PADataArchitecture.md)
 

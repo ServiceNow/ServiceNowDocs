@@ -2,6 +2,7 @@
 title: Modify Advanced Risk messages
 description: Modify the messages displayed on the risk assessment form using the Advanced Risk application. Modifying system messages enables personalized and consistent messaging for users, aligning with their preferences and specific requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/modify-advanced-risk-messages.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -36,5 +37,5 @@ Role required: admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configuring Risk Management](../concept/configure-risk-mgmt.md)
+**Parent Topic:**[Configuring Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/configure-risk-mgmt.md)
 

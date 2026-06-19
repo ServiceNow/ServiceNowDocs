@@ -2,6 +2,7 @@
 title: Assign a moderation task to your assignment group
 description: Change the assignment group to assign a moderation task to your assignment group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/communities/assign-moderation-task-assignment-group.html
 release: zurich
 product: Communities
 classification: communities
@@ -34,5 +35,5 @@ A moderation task is generated when a community user reports inappropriate conte
 4.  Select **Update**.
 
 
-**Parent Topic:**[Moderate a community](moderate-communities.md)
+**Parent Topic:**[Moderate a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/moderate-communities.md)
 

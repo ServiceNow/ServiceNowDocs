@@ -2,6 +2,7 @@
 title: Array.Choice data type
 description: Store a sequence of choice list values in an array.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/array-choice-data.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -90,8 +91,8 @@ Choices
 
 </td><td>
 
-Specify the choices available to select. Use the add button \(![Add button](../images/green-add-button.png)\) to create a choice. Each choice must have a **Name**, **Value**, and **Order**. See [Choice list field type](https://www.servicenow.com/docs/access?context=c_ChoiceLists&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) for more information about choice lists.
+Specify the choices available to select. Use the add button \(\[Omitted image "green-add-button.png"\] Alt text: Add button\) to create a choice. Each choice must have a **Name**, **Value**, and **Order**. See Choice list field type for more information about choice lists.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workflow Studio input and output data variables](action-inputs-outputs.md)
+</table>**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/action-inputs-outputs.md)
 

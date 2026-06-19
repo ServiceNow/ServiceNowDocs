@@ -2,11 +2,12 @@
 title: Implement custom actions for pipelines using a generic Docker container image
 description: Use the ServiceNow custom actions to collect data related to change request creation, Sonar scan, artifact registration, and package registration in your pipeline with the help of the generic Docker Container Image.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 18
 breadcrumb: [Manage, DevOps Change Velocity, IT Service Management]
 ---
@@ -29,9 +30,9 @@ When you configure a GitLab project, the environmental variables are created for
 
 When adding the SNOW\_TOKEN variable, you can acquire the token by selecting the **Copy token** button on the tool record, located in the Tool \[sn\_devops\_tool\] table.
 
-The environmental variables must be updated with the values available in the Configure webhooks manually pop-up in the tool record page. For details on how to view the connection details, see [Configure webhooks from the tool record](../task/configure-webhooks-from-the-tool-record.md) and [Configure webhooks in GitLab manually](../task/configure-webhooks-in-gitlab.md).
+The environmental variables must be updated with the values available in the Configure webhooks manually pop-up in the tool record page. For details on how to view the connection details, see [Configure webhooks from the tool record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/configure-webhooks-from-the-tool-record.md) and [Configure webhooks in GitLab manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/configure-webhooks-in-gitlab.md).
 
-![Connection details for GitLab](../image/gitlab-custom-actions-01.png)
+\[Omitted image "gitlab-custom-actions-01.png"\] Alt text: Connection details for GitLab
 
 ## Environmental variables for GitHub Actions
 
@@ -63,7 +64,7 @@ The following environment variables must be passed in your GitHub Actions pipeli
 
 When you configure a repository, the environmental variables are created for the repository and the latest configured variable values are considered. If you’re an upgrading customer, you must reconfigure your existing repositories or manually add the environmental variables in your instance.
 
-![Connection details for GitHub Actions](../image/github-actions-connection-details.png)
+\[Omitted image "github-actions-connection-details.png"\] Alt text: Connection details for GitHub Actions
 
 ## Environmental variables for Harness
 
@@ -86,7 +87,7 @@ The following environment variables must be passed in your Harness pipeline:
 
 When you configure a repository, the environmental variables are created for the repository and the latest configured variable values are considered. If you’re an upgrading customer, you must reconfigure your existing repositories or manually add the environmental variables in your instance.
 
-![Configure webhooks manually screen](../image/harness-workspace-3.png)
+\[Omitted image "harness-workspace-3.png"\] Alt text: Configure webhooks manually screen
 
 ## ServiceNow Docker Image
 
@@ -350,7 +351,7 @@ NOTE: State should be specified at last in case if you are update the state of c
 
 ## Auto close change
 
-Incorporate auto close change in ServiceNow instance. For detailed information about auto close, see [Configuring DevOps change request details within the pipeline](dev-ops-config-change-details.md).
+Incorporate auto close change in ServiceNow instance. For detailed information about auto close, see [Configuring DevOps change request details within the pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/dev-ops-config-change-details.md).
 
 For example:
 

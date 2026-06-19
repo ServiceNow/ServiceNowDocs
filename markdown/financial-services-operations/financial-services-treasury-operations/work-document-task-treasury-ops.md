@@ -2,6 +2,7 @@
 title: Work on a document task to generate agreement documents
 description: Work on a document task to generate customer agreement documents that are required to activate the treasury product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-treasury-operations/work-document-task-treasury-ops.html
 release: zurich
 product: Financial Services Treasury Operations
 classification: financial-services-treasury-operations
@@ -27,7 +28,7 @@ The Document Management Service determines which documents are required in a wor
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Document Service**, open the task list.
 
@@ -51,5 +52,5 @@ The Document Management Service determines which documents are required in a wor
 -   The document task moves to the Closed Complete state.
 -   In the parent treasury case, the Agreement documents stage in the case playbook shows as complete and the case moves to the next stage.
 
-**Parent Topic:**[Using Financial Services Treasury Operations](../concept/using-treasury-ops.md)
+**Parent Topic:**[Using Financial Services Treasury Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-treasury-operations/using-treasury-ops.md)
 

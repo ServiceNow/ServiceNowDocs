@@ -2,6 +2,7 @@
 title: Create an approval definition in Digital Product Release
 description: Create an approval definition that can be used in release tasks for getting approvals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-product-release/dpr-create-approval-definition.html
 release: zurich
 product: Digital Product Release
 classification: digital-product-release
@@ -27,7 +28,7 @@ An approval definition is a set of rules that specify how tasks will be approved
 
 1.  Navigate to **Workspaces** &gt; **Digital Product Release Workspace**.
 
-2.  Select the release administration icon \(![Release administration icon.](../image/dpr-icon-release-admin.png)\).
+2.  Select the release administration icon \(\[Omitted image "dpr-icon-release-admin.png"\] Alt text: Release administration icon.\).
 
 3.  On the Release administration page, select the **Approval definitions** tab.
 
@@ -37,7 +38,7 @@ An approval definition is a set of rules that specify how tasks will be approved
     -   To modify an existing approval definition, open the approval definition from the list.
 5.  On the form, fill in the fields.
 
-    For more information on approval definition field descriptions, see [Approval definition form](../reference/approval-definition-form.md).
+    For more information on approval definition field descriptions, see [Approval definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/approval-definition-form.md).
 
 6.  Select **Submit**.
 

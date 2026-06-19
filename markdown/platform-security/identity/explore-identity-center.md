@@ -2,6 +2,7 @@
 title: Explore Identity Center
 description: Identity Center is a collection of user attributes, access, devices, login history, security activity, and much more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/explore-identity-center.html
 release: zurich
 product: Identity
 classification: identity
@@ -19,5 +20,5 @@ Identity Center offers capabilities to monitor, manage, and minimize identity-ba
 
 Identity Center is one stop to monitor, manage, and minimize identity-based risk and security gaps on ServiceNow.
 
-To activate the Identity Center, install the Identity Center \(`com.snc.identity_center`\) plugin. Identity Center is available for the end user - to view the details about the active sessions, login history, and trusted devices with the Identity Center. For more information see, [Identity Center for users](identity-center-for-user.md).
+To activate the Identity Center, install the Identity Center \(`com.snc.identity_center`\) plugin. Identity Center is available for the end user - to view the details about the active sessions, login history, and trusted devices with the Identity Center. For more information see, [Identity Center for users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/identity-center-for-user.md).
 

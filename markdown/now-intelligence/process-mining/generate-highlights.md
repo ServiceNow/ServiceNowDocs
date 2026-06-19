@@ -2,6 +2,7 @@
 title: Generate highlights for improvement opportunities
 description: Generate highlights for the improvemet opportunities to optimize your processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/generate-highlights.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -32,7 +33,7 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 3.  Go to the Opportunities details page.
 
-    For more information about Opportunities details page, see [Opportunity details page](../concept/opportunity-details.md).
+    For more information about Opportunities details page, see [Opportunity details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/opportunity-details.md).
 
 4.  Select the Improvement Opportunities icon on the right-side panel.
 
@@ -53,5 +54,5 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
     The highlights for the selected improvement opportunity are displayed.
 
 
-**Parent Topic:**[Using Now Assist for Process Mining](../concept/use-na-process-mining.md)
+**Parent Topic:**[Using Now Assist for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/use-na-process-mining.md)
 

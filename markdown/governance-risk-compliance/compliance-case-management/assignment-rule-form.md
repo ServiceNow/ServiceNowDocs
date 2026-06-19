@@ -2,6 +2,7 @@
 title: Assignment Rule form
 description: Use the Assignment Rule form to define the case assignment rules in the Compliance Case Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/compliance-case-management/assignment-rule-form.html
 release: zurich
 product: Compliance Case Management
 classification: compliance-case-management
@@ -31,5 +32,5 @@ See the following table for a description of the field values.
 |Script|
 |Script|Script to define the advanced assignment rule.|
 
-**Parent Topic:**[Create an assignment rule](../task/create-assignment-rule.md)
+**Parent Topic:**[Create an assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/create-assignment-rule.md)
 

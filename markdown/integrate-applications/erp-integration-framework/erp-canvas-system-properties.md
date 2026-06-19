@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP system properties
 description: Review the system properties for Zero Copy Connector for ERP.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erp-canvas-system-properties.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -319,5 +320,5 @@ true \| false
 Indicates if CSRF token should be sent for OData calls in Zero Copy Connector for ERP operations.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP reference](erp-integration-reference.md)
+</table>**Parent Topic:**[Zero Copy Connector for ERP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-integration-reference.md)
 

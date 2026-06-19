@@ -2,6 +2,7 @@
 title: Add new CAB meeting agenda items
 description: You can add an agenda item to your CAB meeting to customize the agenda and make the meeting more effective.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/add-new-agenda-items.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -121,5 +122,5 @@ Time already spent on the agenda item.
 </table>5.  Click **Submit**.
 
 
-**Parent Topic:**[Working with the CAB Workbench](../concept/using-cab-workbench-cf.md)
+**Parent Topic:**[Working with the CAB Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/using-cab-workbench-cf.md)
 

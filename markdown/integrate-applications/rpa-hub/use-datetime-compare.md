@@ -2,6 +2,7 @@
 title: Use the Format component
 description: Change the format of a date by using the Format component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/use-datetime-compare.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the Format component. For more information about these properties, see [Properties of the DateTime components](../reference/util-datetime-prop.md).
+You can configure the properties for the Format component. For more information about these properties, see [Properties of the DateTime components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/util-datetime-prop.md).
 
 ## Procedure
 
@@ -29,7 +30,7 @@ You can configure the properties for the Format component. For more information 
 
 2.  Drag the Format component to the Design surface.
 
-3.  Click the component settings icon \(![Component settings icon](../image/component-settings-icon.png)\).
+3.  Click the component settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Component settings icon\).
 
 4.  Do the following:
 
@@ -39,7 +40,7 @@ You can configure the properties for the Format component. For more information 
 
     3.  Click **OK**.
 
-5.  To configure the input field, see [Configure port properties](configure-input-port-properties.md).
+5.  To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 6.  Connect the data and control ports of the Format component to the corresponding ports of the other components as described in the following table.
 
@@ -107,5 +108,5 @@ No. Connecting the port is optional.
 </table>7.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[DateTime](../concept/datetime-utility.md)
+**Parent Topic:**[DateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/datetime-utility.md)
 

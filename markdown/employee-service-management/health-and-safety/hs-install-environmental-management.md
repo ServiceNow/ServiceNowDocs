@@ -2,6 +2,7 @@
 title: Install Health and Safety Environmental Management
 description: You can install the Health and Safety Environmental Management if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety/hs-install-environmental-management.html
 release: zurich
 product: Health and Safety
 classification: health-and-safety
@@ -31,7 +32,7 @@ The following items are installed with Health and Safety Environmental Managemen
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Health and Safety Environmental Management](../reference/hs-components-installed-environmental-management.md).
+For more information, see [Components installed with Health and Safety Environmental Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-components-installed-environmental-management.md).
 
 This table lists the optional applications that can be installed for additional features:
 
@@ -107,5 +108,5 @@ Provides the IntegrationHub Professional capabilities required to connect to ext
 6.  Select **Install**.
 
 
-**Parent Topic:**[Setting up Health and Safety Environmental Management](../concept/hs-setting-up-environmental-management.md)
+**Parent Topic:**[Setting up Health and Safety Environmental Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-setting-up-environmental-management.md)
 

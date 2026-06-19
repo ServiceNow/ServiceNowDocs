@@ -2,6 +2,7 @@
 title: IBM WebSphere DataPower discovery
 description: ITOM Visibility discovers IBM WebSphere DataPower. The Discovery feature uses the DataPower Server pattern for horizontal discovery. The Service Mapping feature uses the DataPower pattern for top-down discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/data-coll-datapower.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -19,7 +20,7 @@ ITOM Visibility discovers IBM WebSphere DataPower. The Discovery feature uses th
 
 Configure the following credentials before discovering the IBM WebSphere DataPower devices:
 
--   **[SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)**
+-   **SNMP credentials**
 
     SNMP credentials are necessary for using the following SNMP queries:
 
@@ -35,7 +36,7 @@ Configure the following credentials before discovering the IBM WebSphere DataPow
         -   1.3.6.1.2.1.1.1
         -   1.3.6.1.2.1.1.5
         -   1.3.6.1.4.1.14685.3.1.11.1
--   **[Applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)**
+-   **Applicative credentials**
 
     Together with SNMP credentials, applicative credentials are required to discover DataPower application domains, otherwise known as logical CIs.
 
@@ -84,5 +85,5 @@ By default, Discovery uses the DataPower Server pattern to perform the discovery
 |Name \[name\]|
 |Domain \[domain\]|
 
-**Parent Topic:**[Network device discovery](../concept/c_NetworkDevices.md)
+**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_NetworkDevices.md)
 

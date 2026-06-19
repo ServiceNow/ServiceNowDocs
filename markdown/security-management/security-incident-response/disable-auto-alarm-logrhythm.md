@@ -2,6 +2,7 @@
 title: Disable automated alarm closure for LogRhythm
 description: Disable the automated alarm closure capability if you no longer want to view the security incident closure information on the LogRhythm Web Console. Once deactivated, the ServiceNow AI Platform no longer closes alarms within the LogRhythm Web Console. This process is optional.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/disable-auto-alarm-logrhythm.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -29,7 +30,7 @@ Once disabled, the status notes and other closure information on the security in
 
 2.  If not displayed in the **Business Rules** list, enter **LogRhythm Close Alarm On SI Closure** in the search field and press **Enter**.
 
-    ![Business rule highlighted in search field.](../image/lr-bus-list-search.png)
+    \[Omitted image "lr-bus-list-search.png"\] Alt text: Business rule highlighted in search field.
 
 3.  In the **Name** column, click the **LogRhythm Close Alarm On SI Closure** link to open the record.
 
@@ -40,5 +41,5 @@ Once disabled, the status notes and other closure information on the security in
     The automated alarm closure capability is now disabled.
 
 
-**Parent Topic:**[Additional configurations for the LogRhythm integration](configure-system-and-troubleshooting-properties.md)
+**Parent Topic:**[Additional configurations for the LogRhythm integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/configure-system-and-troubleshooting-properties.md)
 

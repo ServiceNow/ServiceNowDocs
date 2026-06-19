@@ -2,6 +2,7 @@
 title: Product Order form fields
 description: The Product Order form enables you to review and modify the domain product orders that are associated with a selected customer order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/fields-product-order-form.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -82,7 +83,7 @@ State
 
 </td><td>
 
-Current state for the product order. To view a listing of selections, select the down arrow icon ![](../image/field-selection-list.png):
+Current state for the product order. To view a listing of selections, select the down arrow icon \[Omitted image "field-selection-list.png"\] Alt text::
 
 -   **Draft**
 
@@ -207,9 +208,9 @@ Activity
 
 Activity stream section for viewing that all the processing activities and changes in field values have taken place for the product order. To expand, collapse, or filter by activity stream:
 
--   Select the activity stream filter icon ![](../image/activity-stream-filter.png) to filter by post types, field changes, or flagged items.
--   Select the search icon ![](../image/field-search.png) to search the required information in the activity stream.
--   Select the sort descending icon ![](../../../reuse/icons/product-icons/sort-descending-outline-24.svg) to sort the activity from oldest to newest or select the sort ascending icon ![](../../../reuse/icons/product-icons/sort-ascending-fill-24.svg) for the opposite action.
+-   Select the activity stream filter icon \[Omitted image "activity-stream-filter.png"\] Alt text: to filter by post types, field changes, or flagged items.
+-   Select the search icon \[Omitted image "field-search.png"\] Alt text: to search the required information in the activity stream.
+-   Select the sort descending icon \[Omitted image "sort-descending-outline-24.svg"\] Alt text: to sort the activity from oldest to newest or select the sort ascending icon \[Omitted image "sort-ascending-fill-24.svg"\] Alt text: for the opposite action.
 
 </td></tr><tr><td>
 
@@ -220,5 +221,5 @@ Attachments
 File attachments for the product order. Select **Select file** to add the file as an attachment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Domain order forms](field-descriptions-product-domain-orders.md)
+</table>**Parent Topic:**[Domain order forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/field-descriptions-product-domain-orders.md)
 

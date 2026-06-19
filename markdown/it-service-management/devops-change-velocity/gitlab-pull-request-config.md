@@ -2,11 +2,12 @@
 title: GitLab pull request configurations
 description: GitLab pull \(merge\) request pipeline executions, which goes through change acceleration before moving to production, can be tracked in DevOps Change Velocity. This integration also collects GitLab merge requests meta data to persist in DevOps Change Velocity. The data is linked with the change created in the merge request pipeline execution and can be used for applying change policies, review, and approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/gitlab-pull-request-config.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [GitLab, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -32,7 +33,7 @@ When enabled, the pull \(merge\) request changes will be reflected in DevOps Cha
 
 For pull request and orchestration pipeline linking and to enable change approval tracking, the following are required:
 
--   Use GitLab Docker for change tracking. For detailed information, see [Implement custom actions for pipelines using a generic Docker container image](servicenow-custom-actions-for-gitlab.md).
+-   Use GitLab Docker for change tracking. For detailed information, see [Implement custom actions for pipelines using a generic Docker container image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md).
 -   From your GitLab project,
     1.  Navigate to
         -   For GitLab cloud: **Settings** &gt; **Merge requests**.
@@ -41,7 +42,7 @@ For pull request and orchestration pipeline linking and to enable change approva
 
         With this selection, only if the change is approved, you can proceed with the merge request. That is, when the check box is selected, pull requests will be blocked until the change is approved.
 
-        ![Settings for merge options.](../image/gitlab-merge-01.png)
+        \[Omitted image "gitlab-merge-01.png"\] Alt text: Settings for merge options.
 
     3.  Select **Save changes**.
 -   Navigate to your project and open the `.yml` file.
@@ -78,5 +79,5 @@ For pull request and orchestration pipeline linking and to enable change approva
     ```
 
 
-**Parent Topic:**[GitLab integration with DevOps Change Velocity](gitlab-integration-dev-ops.md)
+**Parent Topic:**[GitLab integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/gitlab-integration-dev-ops.md)
 

@@ -2,13 +2,14 @@
 title: Confirm receipt of your order from Employee Center
 description: Provide confirmation of receipt of the items that you ordered that are in pending receipt state from Employee Center, so that payment is processed to the supplier accordingly. If you have not received the complete order, you can confirm receipt of a part of your order as well with the date when you received them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/confirm-receipt-task-ec.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Sourcing and Procurement Operations integration with Employee Center, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Sourcing Procurement Operations integration Employee, Integrate Sourcing Procurement Operations other, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Confirm receipt of your order from Employee Center
@@ -42,5 +43,5 @@ Role required: sn\_shop.shopper
 
 You can view the completed task in the **Completed** tab.
 
-**Parent Topic:**[Sourcing and Procurement Operations integration with Employee Center](../concept/employee-center-integration-psm.md)
+**Parent Topic:**[Sourcing and Procurement Operations integration with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/employee-center-integration-psm.md)
 

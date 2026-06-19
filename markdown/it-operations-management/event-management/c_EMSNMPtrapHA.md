@@ -2,6 +2,7 @@
 title: Configure SNMP Trap collection for high availability
 description: For SNMP traps, the MID Server requires failover configuration for the trap listener.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/c\_EMSNMPtrapHA.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -17,5 +18,5 @@ For SNMP traps, the MID Server requires failover configuration for the trap list
 
 You can configure two MID Servers for failover. Because the SNMP Trap listener on the MID Server receives inbound traffic on the IP address and port of the MID Server, you configure each MID Server to receive the same SNMP traps. Only one MID Server is active at any point in time, therefore Event Management does not receive duplicate traps.
 
-**Parent Topic:**[Configure event collection for SNMP traps](../task/t_EMSNMPTrapEvent.md)
+**Parent Topic:**[Configure event collection for SNMP traps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMSNMPTrapEvent.md)
 

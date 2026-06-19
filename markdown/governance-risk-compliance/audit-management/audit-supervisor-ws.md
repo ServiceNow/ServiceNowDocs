@@ -2,6 +2,7 @@
 title: Audit Workspace for the Audit supervisor
 description: An audit supervisor organizes and manages internal audits according to plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/audit-supervisor-ws.html
 release: zurich
 product: Audit Management
 classification: audit-management
@@ -36,11 +37,11 @@ Audit workspace provides a personalized experience for audit supervisors to mana
     Provides a summary of the logged in user's tasks and the group's tasks.
 
 
-![Workspace for audit supervisor.](../image/audit-supervisor-ws.png "Workspace for audit supervisor")
+\[Omitted image "audit-supervisor-ws.png"\] Alt text: Workspace for audit supervisor.
 
 The audit supervisor workspace also provides quick links to create new records.
 
-![Links to create records for audit supervisor.](../image/audit-supervisor-ws-tasks.png "Links to create records for audit supervisor")
+\[Omitted image "audit-supervisor-ws-tasks.png"\] Alt text: Links to create records for audit supervisor.
 
 The responsibilities of audit supervisors include overseeing the process of audits, making recommendations on policies, and ensuring that the organization fulfills international and governmental obligations of compliance.
 

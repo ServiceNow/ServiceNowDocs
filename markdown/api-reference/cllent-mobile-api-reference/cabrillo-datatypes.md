@@ -2,6 +2,7 @@
 title: Cabrillo JS data types
 description: These are common data types used by Cabrillo JS APIs.Defines an attachment.Defines attachment options.Defines a button. Different interface contexts may support a subset of a button's properties.Contains the result passed from a modal window that was dismissed.Specifies a request to navigate to a list or record.Contains the location and dimensions of a rectangle.Defines a spinner.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/cllent-mobile-api-reference/cabrillo-datatypes.html
 release: zurich
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Client mobile API reference, API reference, API implementation and 
 
 These are common data types used by Cabrillo JS APIs.
 
-**Parent Topic:**[Client mobile API reference](../../../../../build/applications/concept/api-client-mobile.md)
+**Parent Topic:**[Client mobile API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/api-client-mobile.md)
 
 ## Cabrillo.Attachment
 
@@ -95,7 +96,7 @@ String
 
 </td><td>
 
-Background color of the button or badge. A string containing hex, RGB, HSL, or an x11-named color.**Note:** The color can't be set for [buttons in the navigation bar](../../CabrilloViewLayout-client/concept/cabrillo-viewLayout-namespace.md#). The color can be set for [bottom buttons](../../CabrilloViewLayout-client/concept/cabrillo-viewLayout-namespace.md#).
+Background color of the button or badge. A string containing hex, RGB, HSL, or an x11-named color.**Note:** The color can't be set for [buttons in the navigation bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/cabrillo-viewLayout-namespace.md). The color can be set for [bottom buttons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/cabrillo-viewLayout-namespace.md).
 
 </td></tr><tr><td>
 
@@ -174,7 +175,7 @@ String
 
 </td><td>
 
-The text color of the badge or button. A string containing hex, RGB, HSL, or an x11-named color.**Note:** The color can't be set for [buttons in the navigation bar](../../CabrilloViewLayout-client/concept/cabrillo-viewLayout-namespace.md#). The color can be set for [bottom buttons](../../CabrilloViewLayout-client/concept/cabrillo-viewLayout-namespace.md#).
+The text color of the badge or button. A string containing hex, RGB, HSL, or an x11-named color.**Note:** The color can't be set for [buttons in the navigation bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/cabrillo-viewLayout-namespace.md). The color can be set for [bottom buttons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/cabrillo-viewLayout-namespace.md).
 
 </td></tr><tr><td>
 

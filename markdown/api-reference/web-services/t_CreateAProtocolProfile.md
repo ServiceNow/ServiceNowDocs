@@ -2,6 +2,7 @@
 title: Create a protocol profile
 description: You can create a custom HTTPS protocol profile to specify the credentials and certificates used for outbound web services. For example, you can create a custom HTTPS protocol profile to enable mutual authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/t\_CreateAProtocolProfile.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -18,8 +19,8 @@ You can create a custom HTTPS protocol profile to specify the credentials and ce
 ## Before you begin
 
 -   Role required: admin
--   [Uploading a certificate to an instance](https://www.servicenow.com/docs/access?context=t_UploadACertificateToAnInstance&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) to authenticate the client certificate of the instance.
--   [Uploading a trusted server certificate](https://www.servicenow.com/docs/access?context=t_UploadATrustedServerCertificate&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) to authenticate the server certificate of the web service provider.
+-    to authenticate the client certificate of the instance.
+-    to authenticate the server certificate of the web service provider.
 
 ## About this task
 
@@ -76,5 +77,5 @@ Select the client certificate the protocol uses to authenticate itself with the 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Outbound web service mutual authentication](../concept/c_OutboundWebServicesMutualAuth.md)
+**Parent Topic:**[Outbound web service mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_OutboundWebServicesMutualAuth.md)
 

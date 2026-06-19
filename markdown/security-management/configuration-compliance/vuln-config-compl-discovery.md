@@ -2,6 +2,7 @@
 title: Configuration Compliance discovery
 description: Configuration Compliance data is imported from third-party SCA scanner applications. They structure groups of software and hardware tests into data records to expedite conducting assessments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/vuln-config-compl-discovery.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance
@@ -30,5 +31,5 @@ When an import is complete, an event is sent to indicate end-of-import actions. 
 -   The state of test results that are in active remediation tasks are updated.
 -   The flag indicating whether a result is part of an active remediation task is updated.
 
-**Parent Topic:**[Configuration Compliance imported data](vuln-config-compl-policies.md)
+**Parent Topic:**[Configuration Compliance imported data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/configuration-compliance/vuln-config-compl-policies.md)
 

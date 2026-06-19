@@ -2,6 +2,7 @@
 title: Users in Service Operations Workspace for ITSM
 description: Users can access various Service Operations Workspace for ITSM pages based on assigned roles and associated service desk groups and audiences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/users-sow-itsm.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace

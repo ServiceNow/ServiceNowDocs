@@ -2,6 +2,7 @@
 title: Validate SOAP content type \[Updated in Security Center 1.3\]
 description: Use the glide.soap.require\_content\_type\_xml property to enable validation of a content type as text/xml and protect against invalid SOAP requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-soap-content-type-checking.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -52,7 +53,7 @@ Category
 
 </td><td>
 
-[API and web service](sc-api-web-service.md)
+[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 
 </td></tr><tr><td>
 
@@ -109,10 +110,10 @@ Reference
 
 </td><td>
 
-[Content types](https://www.servicenow.com/docs/access?context=c_ContentTypes&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
+Content types
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[API and web service](sc-api-web-service.md)
+**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 

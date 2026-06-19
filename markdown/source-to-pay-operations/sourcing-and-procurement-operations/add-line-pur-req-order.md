@@ -2,13 +2,14 @@
 title: Add a line to an existing purchase requisition or order
 description: You can add a new purchase line to an existing purchase requisition or order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/add-line-pur-req-order.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Purchase revision flows, Using Shopping Hub, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Purchase revision flows, Using Shopping Hub, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Add a line to an existing purchase requisition or order
@@ -25,13 +26,13 @@ Role required: sn\_spend\_psd.requestor or shopper
 
 2.  Select a purchase requisition or order and select **Edit** from the **More options** icon.
 
-    ![Editing a purchase order](../image/spo-edit-purchase-order.png)
+    \[Omitted image "spo-edit-purchase-order.png"\] Alt text: Editing a purchase order
 
     The Edit a purchase page is displayed with the available purchase lines.
 
 3.  Select **Add** to add a new line.
 
-    ![Adding a new line in a purchase order](../image/spo-edit-a-purchase-from-my-purchases.png)
+    \[Omitted image "spo-edit-a-purchase-from-my-purchases.png"\] Alt text: Adding a new line in a purchase order
 
 4.  On the form, fill in the fields.
 
@@ -39,7 +40,7 @@ Role required: sn\_spend\_psd.requestor or shopper
 
     -   **Browse catalog**
 
-        ![Selecting a supplier product from an existing system catalog when adding a new purchase line.](../image/spo-add-purchase-browse-catalog.png)
+        \[Omitted image "spo-add-purchase-browse-catalog.png"\] Alt text: Selecting a supplier product from an existing system catalog when adding a new purchase line.
 
 <table id="table_dlt_c4s_hsb"><thead><tr><th>
 
@@ -149,7 +150,7 @@ Enter your comments on the purchase.
 </td></tr></tbody>
 </table>    -   **Submit a quote**
 
-        ![Requesting for a new supplier product when adding a new purchase line.](../image/spo-add-purchase-submit-quote.png)
+        \[Omitted image "spo-add-purchase-submit-quote.png"\] Alt text: Requesting for a new supplier product when adding a new purchase line.
 
 <table id="table_gs5_ksy_msb"><thead><tr><th>
 
@@ -338,5 +339,5 @@ Enter additional comments if any.
     A confirmation message screen appears.
 
 
-**Parent Topic:**[Purchase revision flows](../concept/purchase-revision-flows.md)
+**Parent Topic:**[Purchase revision flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/purchase-revision-flows.md)
 

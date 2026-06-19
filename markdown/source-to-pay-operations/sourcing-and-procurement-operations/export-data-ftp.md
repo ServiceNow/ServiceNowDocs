@@ -2,13 +2,14 @@
 title: Export data to the FTP server
 description: Export a file from a local source, a remote network server, or another instance by providing a path and authentication information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/export-data-ftp.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Perform export steps, Procurement File Transfer Framework, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Perform export steps, Procurement File Transfer Framework, Integrate Sourcing Procurement Operations other, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Export data to the FTP server
@@ -49,12 +50,12 @@ You can use Flow Designer subflows to move the data into a mid server and then t
     **Note:** Based on your business requirements, add additional actions, triggers, or subflows.
 
 
-**Parent Topic:**[Perform export steps](validate-errors.md)
+**Parent Topic:**[Perform export steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/validate-errors.md)
 
 **Related topics**  
 
 
-[MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.mid-server-landing]
 
-[Introduction to credentials, connections, and aliases](https://www.servicenow.com/docs/access?context=credentials-connections-alias&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.credentials-connections-alias]
 

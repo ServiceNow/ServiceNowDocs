@@ -2,6 +2,7 @@
 title: Prepare your Pre-import OT Worksheet Entry Review tool for Service Graph Connector import
 description: Prepare your spreadsheet by positioning your existing data in the correct columns is crucial to the success of your upload.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-manager/preparing-your-pre-import-ot-worksheet-entry-review-tool-for-sgc-import.html
 release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -25,7 +26,7 @@ Role required: ot\_excel\_import\_user
 
 1.  Fill the following columns in the Microsoft Excel spreadsheet.
 
-    **Note:** Column names cannot be changed. Extra columns can be added to the staging table. For more information about adding a new custom field mapping in the staging table, see [Add a custom field mapping in the staging table for Service Graph Connector for Microsoft Excel](add-new-column-mappings-excel-service-graph.md).
+    **Note:** Column names cannot be changed. Extra columns can be added to the staging table. For more information about adding a new custom field mapping in the staging table, see [Add a custom field mapping in the staging table for Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/add-new-column-mappings-excel-service-graph.md).
 
     Refer to the following tables for guidance while filling in the spreadsheet. The spreadsheet contains many columns. The examples and field descriptions are split into multiple sections.
 
@@ -920,7 +921,7 @@ string
 
 </td><td>
 
-The equipment models start at the site level and contain a detailed hierarchical structure that describes each industrial site.For more information, see [ISA-95 equipment model](../../mftg-manufacturing-process-mgr/concept/isa-95-equipment-model.md).
+The equipment models start at the site level and contain a detailed hierarchical structure that describes each industrial site.For more information, see [ISA-95 equipment model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/isa-95-equipment-model.md).
 
 </td></tr><tr><td>
 
@@ -1195,7 +1196,7 @@ Users must not fill this column.
 
  A user cannot edit the Transformed name.
 
- For system properties, see [Review the system properties used by the Service Graph Connector for Microsoft Excel](access-system-properties-used-by-service-graph-connector.md).
+ For system properties, see [Review the system properties used by the Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/access-system-properties-used-by-service-graph-connector.md).
 
 </td></tr><tr><td>
 
@@ -1213,7 +1214,7 @@ string
 
 Type of OT device/configuration item \(CI\). Examples: PLC, DCS**Note:**
 
--   For a listing and explanation of valid CI types, see [Operation Technology \(OT\) extension classes](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-operation-technology&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+-   For a listing and explanation of valid CI types, see Operation Technology \(OT\) extension classes.
 -   For an OT device, you should create entries in the following spreadsheet columns, even though they are not required:
     -   type
     -   os\_version
@@ -1484,5 +1485,5 @@ Name of the primary support group responsible for managing the backup.Examples: 
 </table>2.  After populating the Microsoft Excel spreadsheet, save it in a known location for easy access to upload.
 
 
-**Parent Topic:**[Create an import task](create-import-task-excel-sgc.md)
+**Parent Topic:**[Create an import task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/create-import-task-excel-sgc.md)
 

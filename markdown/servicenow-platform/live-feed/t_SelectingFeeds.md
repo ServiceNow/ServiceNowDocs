@@ -2,6 +2,7 @@
 title: Select feeds
 description: A feed is a stream of related messages. You can use the feed selector to switch between feed types and to view specific group feeds and record feeds.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/live-feed/t\_SelectingFeeds.html
 release: zurich
 product: Live Feed
 classification: live-feed
@@ -63,5 +64,5 @@ Allows you to add a group feed.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Live Feed UI overview](../reference/r_LiveFeedUIOverview.md)
+**Parent Topic:**[Live Feed UI overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/live-feed/r_LiveFeedUIOverview.md)
 

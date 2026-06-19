@@ -2,6 +2,7 @@
 title: Configure Walk-up Experience online check-in icon to appear on Service Portal
 description: Requesters can check into a walk-up location online via the Service Portal. You can edit the Service Portal Home page to replace the general IT Get Help support icon link with the Walk-up Experience online check-in support icon link.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/walk-up-experience/add-walkup-checkin-icon-to-servport.html
 release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -25,7 +26,7 @@ Role required: sp\_admin or admin
 
 To replace the Get Help icon link with the Walk-up Check-in icon link on the Service Portal Home page, access Service Portal Designer. Alternatively, you can add a new container to the Service Portal for the Walk-up Check-in icon link, so that the Get Help icon link remains.
 
-![service portal with get help link](../image/ServicePortalGetHelp.png "Service Portal Home page with Get Help icon link")
+\[Omitted image "ServicePortalGetHelp.png"\] Alt text: service portal with get help link
 
 ## Procedure
 
@@ -62,14 +63,14 @@ To replace the Get Help icon link with the Walk-up Check-in icon link on the Ser
 
     The Service Portal Home page opens in edit mode. The online Walk-up Check-in icon link with your selected glyph image and description displays in place of the former **Get Help** icon link.
 
-    ![service portal with walk-up check-in link](../image/ServicePortalWalkupCheckin.png "Service Portal Home page with Walk-up Check-in icon link")
+    \[Omitted image "ServicePortalWalkupCheckin.png"\] Alt text: service portal with walk-up check-in link
 
 9.  Navigate to **Service Portal** &gt; **Service Portal Home** to verify and test the newly created Walk-up Check-in icon link.
 
-10. To add the Walk-up Check-in icon link to a new container, refer to [Create and edit a page using the Service Portal Designer](https://www.servicenow.com/docs/access?context=t_ConfigureAPage&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+10. To add the Walk-up Check-in icon link to a new container, refer to Create and edit a page using the Service Portal Designer.
 
 11. Edit the container form fields with the same data and presentation information as detailed above in the form configuration input descriptions and follow the remaining relevant steps.
 
 
-**Parent Topic:**[Configuring Walk-up Experience](../concept/walkup-experience-configuration.md)
+**Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walkup-experience-configuration.md)
 

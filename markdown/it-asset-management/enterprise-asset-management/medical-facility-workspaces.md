@@ -2,6 +2,7 @@
 title: Configurable workspaces for medical and facilities industries
 description: Use configurable workspaces for creating and managing medical and facility assets and models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/medical-facility-workspaces.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -35,7 +36,7 @@ If you’re logged in as a medical asset manager or a medical asset technician, 
 
 If you’re logged in to a specific workspace, you may see other assets and model categories that aren’t specific to your industry and have been added by the Enterprise admin or the system administrator role. As an example, if you’re logged in as a medical asset manager or a medical asset technician, you may see other assets and model categories such as construction, transportation, or facilities. However, you can't create or modify anything in these categories as these are read only.
 
-You can evaluate how effectively your assets are functioning and being used through the reports based on asset key performance indicators in the **Asset performance** tab of the **Asset analytics** view. The asset performance report is also available on the contextual sidebar of the asset record, displayed by selecting the **Asset availability and related KPIs** icon \[![Asset KPI icon](../image/asset-kpi-icon.png)\].
+You can evaluate how effectively your assets are functioning and being used through the reports based on asset key performance indicators in the **Asset performance** tab of the **Asset analytics** view. The asset performance report is also available on the contextual sidebar of the asset record, displayed by selecting the **Asset availability and related KPIs** icon \[\[Omitted image "asset-kpi-icon.png"\] Alt text: Asset KPI icon\].
 
 You can receive assets from any workﬂow directly at the stockroom using the unified receiving functionality in the Medical Asset Workspace and Facility Asset Workspace. You can receive assets in any of the following ways:
 

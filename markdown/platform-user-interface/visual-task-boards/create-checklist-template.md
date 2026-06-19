@@ -2,6 +2,7 @@
 title: Create a checklist template for Visual Task Board tasks
 description: A template saves time by creating checklist items automatically. You can add, edit, or remove checklist items without impacting the template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/visual-task-boards/create-checklist-template.html
 release: zurich
 product: Visual Task Boards
 classification: visual-task-boards
@@ -17,7 +18,7 @@ A template saves time by creating checklist items automatically. You can add, ed
 
 ## Before you begin
 
-[Activate Visual Task Boards](t_ActivateVisualTaskBoards.md).
+[Activate Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/t_ActivateVisualTaskBoards.md).
 
 Role required: none
 
@@ -35,11 +36,11 @@ There are two ways that you can create a checklist template:
 
     **Note:** You cannot give a checklist template a name when you create a checklist template in the Visual Task Board interface. To give a checklist a name, you must configure the checklist template in the ServiceNow AI Platform.
 
-3.  Click the checklist tab \(![Checklist tab](../image/IconChecklist.png)\).
+3.  Click the checklist tab \(\[Omitted image "IconChecklist.png"\] Alt text: Checklist tab\).
 
 4.  Add items to the checklist that you want to save as part of the template.
 
-5.  Click the more icon \(![More icon](../image/IconMore.png)\).
+5.  Click the more icon \(\[Omitted image "IconMore.png"\] Alt text: More icon\).
 
     The more icon does not display unless you have added an item to the checklist, or if you have a pre-existing checklist template.
 
@@ -58,7 +59,7 @@ There are two ways that you can create a checklist template:
 
 12. Configure the fields for your new checklist template.
 
-<table id="choicetable_dtf_dxh_j1c"><tbody><tr><td id="d53728e206">
+<table id="choicetable_dtf_dxh_j1c"><tbody><tr><td id="d57828e206">
 
 **Group**
 
@@ -66,7 +67,7 @@ There are two ways that you can create a checklist template:
 
 You can use this field to limit the group of users that are allowed to use this checklist template.
 
-</td></tr><tr><td id="d53728e215">
+</td></tr><tr><td id="d57828e215">
 
 **Template**
 
@@ -98,7 +99,7 @@ The name of a checklist item.
 
 The order in which a checklist item appears in the checklist.
 
-</td></tr><tr><td id="d53728e283">
+</td></tr><tr><td id="d57828e283">
 
 **Name**
 
@@ -106,7 +107,7 @@ The order in which a checklist item appears in the checklist.
 
 The name of the checklist template.
 
-</td></tr><tr><td id="d53728e292">
+</td></tr><tr><td id="d57828e292">
 
 **User**
 
@@ -126,5 +127,5 @@ Your checklist template is created.
 
 Create a checklist from a checklist template by selecting the template from the more icon.
 
-**Parent Topic:**[Visual Task Board checklists](../concept/c_VisualTaskBoardChecklists.md)
+**Parent Topic:**[Visual Task Board checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/c_VisualTaskBoardChecklists.md)
 

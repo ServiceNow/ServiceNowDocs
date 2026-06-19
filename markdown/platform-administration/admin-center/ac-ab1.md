@@ -2,6 +2,7 @@
 title: Deliver extraordinary employee experiences, resiliency and productivity blueprint
 description: Select this adoption blueprint to enhance your employees' IT experience by automating and optimizing IT service operations that enable self-resolution of incidents, improved productivity, and recovering from complicated IT scenarios.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/admin-center/ac-ab1.html
 release: zurich
 product: Admin Center
 classification: admin-center
@@ -43,7 +44,7 @@ Build the foundation
 
 </td><td>
 
-[Dynamic Translation](../../dynamic-translation/concept/dynamic-translation-overview.md)
+[Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/dynamic-translation-overview.md)
 
 </td><td>
 
@@ -51,11 +52,11 @@ Use Dynamic Translation to enhance your experience of dynamically translating te
 
 </td><td>
 
-Uses bases system roles. See [Base system roles](../../roles/reference/r_BaseSystemRoles.md).
+Uses bases system roles. See [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/r_BaseSystemRoles.md).
 
 </td><td>
 
--   [Dynamic Translation limitations](../../dynamic-translation/reference/limitations-dynamic-translation.md)
+-   [Dynamic Translation limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/limitations-dynamic-translation.md)
 -   [Dynamic Translation overview](https://www.servicenow.com/products/dynamic-translation.html)
 
 </td></tr><tr><td>
@@ -64,7 +65,7 @@ Build the foundation
 
 </td><td>
 
-[ITSM Success Dashboard indicators](https://www.servicenow.com/docs/access?context=success-dashboard-indicator-landing&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -72,7 +73,7 @@ Use ITSM Success Dashboard to get an insight to the IT leadership team and proce
 
 </td><td>
 
-[Roles installed with ITSM Success Dashboard indicators](https://www.servicenow.com/docs/access?context=success-roles&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+Roles installed with ITSM Success Dashboard indicators
 
 </td><td>
 
@@ -84,7 +85,7 @@ Build the foundation
 
 </td><td>
 
-[Employee Center](https://www.servicenow.com/docs/access?context=employee-center-landing-page&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -92,11 +93,11 @@ Use the Employee Center portal to experience a standard multi-department, dynami
 
 </td><td>
 
-[Roles installed with Employee Center](https://www.servicenow.com/docs/access?context=emp-center-personas&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US)
+Roles installed with Employee Center
 
 </td><td>
 
--   [Employee Center limitations and support](https://www.servicenow.com/docs/access?context=explore-emp-center&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US)
+-   Employee Center limitations and support
 -   [Employee Center \(ServiceNow Community](https://www.servicenow.com/community/employee-center/ct-p/employee-center)
 -   [Employee Center success story](https://www.servicenow.com/success/success-map/employee-center.html)
 -   [Employee Center implementation success story](https://www.servicenow.com/success/success-map/employee-center/implement.html)
@@ -107,7 +108,7 @@ Build the foundation
 
 </td><td>
 
-[Configure Walk-up Experience for Customer Service Management](https://www.servicenow.com/docs/access?context=configure-walk-up-csm&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -115,11 +116,11 @@ Use the Walk-up Experience application to create and manage an on-site IT walk-u
 
 </td><td>
 
-[Roles installed with Walk-up Experience](https://www.servicenow.com/docs/access?context=csm-walkup-experience-dashboard&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
+Roles installed with Walk-up Experience
 
 </td><td>
 
-[Walk-up Experience limitations and support](https://www.servicenow.com/docs/access?context=walkup-experience-landing-page&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+Walk-up Experience limitations and support
 
 </td></tr><tr><td>
 
@@ -127,7 +128,7 @@ Build the foundation
 
 </td><td>
 
-[Service Operations Workspace for ITSM](https://www.servicenow.com/docs/access?context=sow-landing-page&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -135,11 +136,11 @@ Use the Service Operations Workspace interface to unify and configure your agent
 
 </td><td>
 
-[Roles installed with Service Operations Workspace for ITSM](https://www.servicenow.com/docs/access?context=components-installed-with-sow-itom&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)
+Roles installed with Service Operations Workspace for ITSM
 
 </td><td>
 
--   [Service Operations Workspace limitations and support](https://www.servicenow.com/docs/access?context=explore-sow&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+-   Service Operations Workspace limitations and support
 -   [Service Operations Workspace overview](https://www.servicenow.com/products/service-operations-workspace.html)
 
 </td></tr><tr><td>
@@ -148,7 +149,7 @@ Build the foundation
 
 </td><td>
 
-[Survey Management](https://www.servicenow.com/docs/access?context=assessments-surveys-landing-page&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+Survey Management
 
 </td><td>
 
@@ -156,11 +157,11 @@ Use the Assessments and Surveys application to create, send, and collect respons
 
 </td><td>
 
-[Roles installed with Survey Management](https://www.servicenow.com/docs/access?context=r_SurveyManagementRoles&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+Roles installed with Survey Management
 
 </td><td>
 
--   [Survey Management limitations and support](https://www.servicenow.com/docs/access?context=c_SurveyServicePortal&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+-   Survey Management limitations and support
 -   [Survey Management overview](https://www.servicenow.com/products/survey-assessment.html)
 
 </td></tr><tr><td>
@@ -177,7 +178,7 @@ Use the Benchmarks application to compare the performance of your organization w
 
 </td><td>
 
-[Roles installed with Benchmarks](https://www.servicenow.com/docs/access?context=c_BenchRoles&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+Roles installed with Benchmarks
 
 </td><td>
 
@@ -189,7 +190,7 @@ Build the foundation
 
 </td><td>
 
-[Incident Management](https://www.servicenow.com/docs/access?context=c_IncidentManagement&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -197,11 +198,11 @@ Use the Incident Management application to enrich IT experience by restoring nor
 
 </td><td>
 
-incident\_manager and [Roles installed with Incident Management](https://www.servicenow.com/docs/access?context=request-itsm-roles-rm&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+incident\_manager and Roles installed with Incident Management
 
 </td><td>
 
--   [Incident Management limitations and support](https://www.servicenow.com/docs/access?context=c_IncidentManagement&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+-   Incident Management limitations and support
 -   [Automate change and incident management Playbook](https://www.servicenow.com/success/playbook/change-and-incident-management.html)
 -   [Incident Management Overview \(video\)](https://youtu.be/ryxjWBOq3sQ)
 
@@ -211,7 +212,7 @@ Build the foundation
 
 </td><td>
 
-[Knowledge Management](https://www.servicenow.com/docs/access?context=knowledge-management&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+
 
 </td><td>
 
@@ -219,12 +220,12 @@ Use the Knowledge Management application to share information in knowledge bases
 
 </td><td>
 
-[Roles installed with Knowledge Management](https://www.servicenow.com/docs/access?context=r_KnowledgeRoles&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+Roles installed with Knowledge Management
 
 </td><td>
 
 -   [Knowledge Management \(ServiceNow Community\)](https://www.servicenow.com/community/knowledge-management/ct-p/knowledge-management)
--   [Knowledge Management limitations and support](https://www.servicenow.com/docs/access?context=exploring-knowledge-management&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+-   Knowledge Management limitations and support
 
 </td></tr><tr><td>
 
@@ -232,7 +233,7 @@ Build the foundation
 
 </td><td>
 
-[Service Catalog](https://www.servicenow.com/docs/access?context=service-catalog&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+
 
 </td><td>
 
@@ -240,11 +241,11 @@ Use the Service Catalog application to self-create service catalogs contributing
 
 </td><td>
 
-[Roles installed with Service Catalog](https://www.servicenow.com/docs/access?context=r_ServiceCatalogManagementTermsandRoles&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+Roles installed with Service Catalog
 
 </td><td>
 
--   [Service Catalog limitations and support](https://www.servicenow.com/docs/access?context=scoping-support-catalog&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+-   Service Catalog limitations and support
 -   [Service Catalog success story](https://www.servicenow.com/success/playbook/service-catalog-design.html)
 
 </td></tr><tr><td>
@@ -253,7 +254,7 @@ Build the foundation
 
 </td><td>
 
-[AI Search](../../ai-search/concept/overview-ais.md)
+[AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/overview-ais.md)
 
 </td><td>
 
@@ -261,12 +262,12 @@ Use the AI Search application for a modern consumer-grade search engine for Serv
 
 </td><td>
 
-[Roles installed with AI Search](../../ai-search/task/assign-ais-admin-role.md)
+[Roles installed with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/assign-ais-admin-role.md)
 
 </td><td>
 
 -   [AI Search \(ServiceNow Community\)](https://www.servicenow.com/community/ai-intelligence/ct-p/ai-intelligence)
--   [AI Search limitations and support](../../ai-search/concept/explore-now-platform-apps-ais.md)
+-   [AI Search limitations and support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/explore-now-platform-apps-ais.md)
 
 </td></tr><tr><td>
 
@@ -274,7 +275,7 @@ Build the foundation
 
 </td><td>
 
-[Legacy: Performance Analytics ITSM Dashboards](https://www.servicenow.com/docs/access?context=itsm-dashboards-content-pack&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -282,7 +283,7 @@ Use the Performance Analytics ITSM Dashboards content pack to access the preconf
 
 </td><td>
 
-[Roles installed with Performance Analytics ITSM Dashboard](https://www.servicenow.com/docs/access?context=success-roles&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+Roles installed with Performance Analytics ITSM Dashboard
 
 </td><td>
 
@@ -294,7 +295,7 @@ Build the foundation
 
 </td><td>
 
-[Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
+
 
 </td><td>
 
@@ -302,11 +303,11 @@ Use Service Portal to build a mobile-friendly self-service portal experience for
 
 </td><td>
 
-[Roles installed with Service Portal](https://www.servicenow.com/docs/access?context=r_CustomerServicePortalUserRoles&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
+Roles installed with Service Portal
 
 </td><td>
 
--   [Service Portal limitations and support](https://www.servicenow.com/docs/access?context=unsupported-features-sp&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
+-   Service Portal limitations and support
 -   [Service Portal \(ServiceNow Community\)](https://www.servicenow.com/community/service-portal/ct-p/service-portal)
 
 </td></tr><tr><td>
@@ -315,7 +316,7 @@ Enhance the experience
 
 </td><td>
 
-[Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US)
+
 
 </td><td>
 
@@ -323,11 +324,11 @@ Unlock your enterprise productivity with ServiceNow® Virtual Agent. Provide you
 
 </td><td>
 
-[Roles installed with Virtual Agent](https://www.servicenow.com/docs/access?context=localization-roles-va&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US)
+Roles installed with Virtual Agent
 
 </td><td>
 
--   [Virtual Agent limitations and support](https://www.servicenow.com/docs/access?context=exploring-virtual-agent&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US)
+-   Virtual Agent limitations and support
 -   [Virtual Agent success story](https://www.servicenow.com/success/success-map/itsm-intelligent-automation/virtual-agent.html#csc-hub)
 
 </td></tr><tr><td>
@@ -336,7 +337,7 @@ Enhance the experience
 
 </td><td>
 
-[Predictive Intelligence Workbench ITSM content](https://www.servicenow.com/docs/access?context=predictive-intelligence-landing&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)
+Predictive Intelligence Workbench ITSM content
 
 </td><td>
 
@@ -377,7 +378,7 @@ Enhance the experience
 
 </td><td>
 
-[ITSM Virtual Agent Conversations](https://www.servicenow.com/docs/access?context=manage-citrix-convo-flow&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+ITSM Virtual Agent Conversations
 
 </td><td>
 
@@ -385,11 +386,11 @@ Users can reset any Citrix desktop or application session using Virtual Agent co
 
 </td><td>
 
-Uses bases system roles. See [Base system roles](../../roles/reference/r_BaseSystemRoles.md).
+Uses bases system roles. See [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/r_BaseSystemRoles.md).
 
 </td><td>
 
-[ITSM Virtual Agent Conversations support](https://www.servicenow.com/docs/access?context=va-conversation-settings&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US)
+ITSM Virtual Agent Conversations support
 
 </td></tr><tr><td>
 
@@ -397,7 +398,7 @@ Optimize the functionality
 
 </td><td>
 
-[Implement NLU in Virtual Agent](https://www.servicenow.com/docs/access?context=implement-nlu-va&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US)
+
 
 </td><td>
 
@@ -409,7 +410,7 @@ virtual\_agent\_admin
 
 </td><td>
 
-[NLU support](https://www.servicenow.com/docs/access?context=nlu-language-support&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)
+NLU support
 
 </td></tr><tr><td>
 
@@ -417,7 +418,7 @@ Add advanced features
 
 </td><td>
 
-[Discovery](https://www.servicenow.com/docs/access?context=r-discovery&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -429,7 +430,7 @@ discovery\_admin
 
 </td><td>
 
-[Discovery limitations and support](https://www.servicenow.com/docs/access?context=db-full-disk-encryption&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+Discovery limitations and support
 
 </td></tr><tr><td>
 
@@ -437,7 +438,7 @@ Add advanced features
 
 </td><td>
 
-[Automation Discovery](https://www.servicenow.com/docs/access?context=automation-discovery&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US)
+
 
 </td><td>
 
@@ -445,11 +446,11 @@ Automation Discovery helps you identify automation opportunities for your workfl
 
 </td><td>
 
-[Roles installed with Automation Discovery](https://www.servicenow.com/docs/access?context=installed-with-automation-discovery&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US) and nlu\_admin
+Roles installed with Automation Discovery and nlu\_admin
 
 </td><td>
 
--   [Automation Discovery limitations and support](https://www.servicenow.com/docs/access?context=automation-discovery&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US)
+-   Automation Discovery limitations and support
 -   [Automation Discovery overview](https://www.servicenow.com/products/automation-discovery.html)
 
 </td></tr><tr><td>
@@ -458,7 +459,7 @@ Add advanced features
 
 </td><td>
 
-[Intent Discovery](https://www.servicenow.com/docs/access?context=intent-discovery&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)
+
 
 </td><td>
 
@@ -473,5 +474,5 @@ nlu\_admin
 [Intent Discovery overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/resource-center/ebook/eb-now-intelligence-now-platform.pdf)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Select your adoption blueprint](../task/ac-select-business-objective.md)
+</table>**Parent Topic:**[Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-select-business-objective.md)
 

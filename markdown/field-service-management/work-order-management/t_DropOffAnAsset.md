@@ -2,6 +2,7 @@
 title: Drop off an asset
 description: Agents can physically drop assets off at a stockroom.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/t\_DropOffAnAsset.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

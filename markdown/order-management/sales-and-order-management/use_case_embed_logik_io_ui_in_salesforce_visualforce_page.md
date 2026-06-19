@@ -2,6 +2,7 @@
 title: Use case: Embed ServiceNow CPQ UI in a Salesforce VisualForce page
 description: Learn how to embed the ServiceNow CPQ user interface in a Salesforce VisualForce page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/use\_case\_embed\_logik\_io\_ui\_in\_salesforce\_visualforce\_page.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -139,5 +140,5 @@ Examples:
 
 To learn more about the easyXDM library used in this topic, see [easy XDM.net](https://easyxdm.net/wp/).
 
-**Parent Topic:**[Use cases](use-cases.md)
+**Parent Topic:**[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/use-cases.md)
 

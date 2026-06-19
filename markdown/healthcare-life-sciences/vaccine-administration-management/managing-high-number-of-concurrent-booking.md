@@ -2,6 +2,7 @@
 title: Manage high number of concurrent bookings
 description: Manage multiple parallel queues to help process mass booking appointments run in a parallel mode. You can distribute the mass booking event processors to different nodes rather than keeping the load on a single node.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/vaccine-administration-management/managing-high-number-of-concurrent-booking.html
 release: zurich
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -41,12 +42,12 @@ To avoid performance-related issues, configuration changes are required to pin t
 
     1.  Choose a node from the list of available nodes.
 
-    2.  Save the record by clicking the green checkmark icon \(![Green checkmark icon.](../image/green-checkmark-icon.png)‎\).
+    2.  Save the record by clicking the green checkmark icon \(\[Omitted image "green-checkmark-icon.png"\] Alt text: Green checkmark icon.‎\).
 
     The mass booking event processor record is assigned to a specific node.
 
 5.  To assign different mass booking event processor records to specific nodes, repeat step 3 and step 4, as needed.
 
 
-**Parent Topic:**[Configuring Vaccine Administration Management](vaccine-mgmt-config.md)
+**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 

@@ -2,6 +2,7 @@
 title: Components installed with HR Service Delivery Integration with SuccessFactors
 description: Several types of components are installed with activation of the HR Service Delivery Integration with SuccessFactors application, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/components-installed-with-hr-sd-integration-with-success-factors.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -60,12 +61,12 @@ Run Trigger SAP SuccessFactors Integrations Flow
 
 </td><td>
 
-Pulls data from SuccessFactors to ServiceNow. By default the flow is in inactive state. For information on how to activate the flow, see [Activating schedule flows](../task/activate-w-schedule-flow.md).
+Pulls data from SuccessFactors to ServiceNow. By default the flow is in inactive state. For information on how to activate the flow, see [Activating schedule flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/activate-w-schedule-flow.md).
 
 </td></tr></tbody>
 </table>## Tables installed
 
-The tables required for HR Service Delivery Integration with SuccessFactors are obtained from the Enterprise Service Management Integrations Framework. The tables get auto-installed with the Enterprise Service Management Integrations Framework installation when you activate the HR Service Delivery Integration with SuccessFactors application. For more information, see [Components installed with Enterprise Service Management Integrations Framework](../reference/installed-with-hr-int-fra.md).
+The tables required for HR Service Delivery Integration with SuccessFactors are obtained from the Enterprise Service Management Integrations Framework. The tables get auto-installed with the Enterprise Service Management Integrations Framework installation when you activate the HR Service Delivery Integration with SuccessFactors application. For more information, see [Components installed with Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/installed-with-hr-int-fra.md).
 
-**Parent Topic:**[HR Service Delivery Integration with SuccessFactors reference](hr-service-delivery-integration-with-success-factors-reference.md)
+**Parent Topic:**[HR Service Delivery Integration with SuccessFactors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-service-delivery-integration-with-success-factors-reference.md)
 

@@ -2,6 +2,7 @@
 title: Create a global API access policy to protect SOAP APIs
 description: Create a single global API access policy to protect all the SOAP APIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/create-global-api-access-protect-soap.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -19,7 +20,7 @@ Create a single global API access policy to protect all the SOAP APIs.
 
 -   Role required: admin
 -   Install the **Processor Access policy** \(`com.glide.processor.policy`\) plugin
--   Make sure that an authentication profile is created. For more information, see [Create an authentication profile](../../authentication/task/create-authentication-profile.md).
+-   Make sure that an authentication profile is created. For more information, see [Create an authentication profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-authentication-profile.md).
 
 The following steps describes how to create a single global access policy to protect all the SOAP APIs.
 
@@ -37,7 +38,7 @@ The following steps describes how to create a single global access policy to pro
     |Application|Scope of the authentication policy. Default: Global|
     |Authentication Profile|Type of the authentications profile. Select, **Global SOAP Auth Profile**.|
 
-    ![Create a global API access policy to protect SOAP APIs](../image/protect-soap-api.png)
+    \[Omitted image "protect-soap-api.png"\] Alt text: Create a global API access policy to protect SOAP APIs
 
 3.  Select **Submit**.
 

@@ -2,7 +2,10 @@
 title: Create a case action summary
 description: Create a case action summary for a customer service case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-case-action-summary.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -29,7 +32,7 @@ After creating a case action summary, the record is added to the Case form in th
 
 2.  To create a case action summary, do one of the following.
 
-    -   Agent Workspace: Click the More UI Actions icon \(![More UI Actions icon.](../image/agent-workspace-more-ui-actions-icon.jpg)\) and select **Send Case Action Summary**.
+    -   Agent Workspace: Click the More UI Actions icon \(\[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: More UI Actions icon.\) and select **Send Case Action Summary**.
     -   Platform interface: Click the form context menu icon and select **Send Case Action Summary**.
     This opens a new Case Action Summary form with a status of **In progress**. Depending on the table map configuration defined for the case action summary, some of the information from the case is copied to the Case Action Summary form. With the CAS Configuration, this includes the information from the **Short description** field.
 
@@ -54,15 +57,15 @@ After creating a case action summary, the record is added to the Case form in th
 
 7.  Publish the case action summary using one of the following actions.
 
-<table id="choicetable_dzr_w4v_d3b"><thead><tr><th align="left" id="d69149e238">
+<table id="choicetable_dzr_w4v_d3b"><thead><tr><th align="left" id="d71477e238">
 
 Action
 
-</th><th align="left" id="d69149e241">
+</th><th align="left" id="d71477e241">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d69149e247">
+</th></tr></thead><tbody><tr><td id="d71477e247">
 
 **Publish to Case**
 
@@ -72,7 +75,7 @@ Updates the case with the case action summary. -   Information from the customer
 -   Information from the case action summary is added to the **Work notes** field on the Case form.
 
 
-</td></tr><tr><td id="d69149e271">
+</td></tr><tr><td id="d71477e271">
 
 **Publish to Case &amp; Notify**
 

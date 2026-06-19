@@ -2,11 +2,12 @@
 title: Onboard GitHub to DevOps Change Velocity — Service Catalog
 description: Create, connect, discover, and configure your GitHub instance using the ServiceNow Service Catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/sc-github.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [GitHub, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -82,7 +83,7 @@ Use MidServer
 Optional. Select  MID Server  for a tool that is attached to a  MID Server. Application is automatically set to  DevOps and capability is set to REST.
 
 </td></tr></tbody>
-</table>    For a list of all the permissions required on the credentials for connecting to GitHub, see GitHub permissions in [Permissions required for DevOps tools](../reference/tool-req-permission.md).
+</table>    For a list of all the permissions required on the credentials for connecting to GitHub, see GitHub permissions in [Permissions required for DevOps tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/tool-req-permission.md).
 
 5.  Select **Order Now**.
 
@@ -162,5 +163,5 @@ Leave empty.
     A request is created. When the request is approved, the repository and pipeline objects are associated to the app record and webhooks are configured for real-time tracking. Historical data is imported for the selected repositories and the associated workflows. The **Track** field is automatically enabled for imported repositories and pipelines.
 
 
-**Parent Topic:**[GitHub integration with DevOps Change Velocity](../concept/github-integration-dev-ops.md)
+**Parent Topic:**[GitHub integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/github-integration-dev-ops.md)
 

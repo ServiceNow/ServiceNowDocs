@@ -2,6 +2,7 @@
 title: Jumpstart Your Platform Analytics
 description: The Jumpstart Your Platform Analytics Accelerator provides a demonstration of the possibilities and capabilities of Platform Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/jumpstart-platform-analytics.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

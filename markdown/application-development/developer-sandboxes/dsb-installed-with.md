@@ -2,6 +2,7 @@
 title: Tables installed with Developer Sandboxes
 description: Several types of components are installed with activation of Developer Sandboxes, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/developer-sandboxes/dsb-installed-with.html
 release: zurich
 product: Developer Sandboxes
 classification: developer-sandboxes
@@ -16,6 +17,11 @@ breadcrumb: [Installing, Developer Sandboxes, Developing your application, Build
 Several types of components are installed with activation of Developer Sandboxes, including tables and user roles.
 
 ## Tables installed with Developer Sandboxes
+
+**Note:**
+
+-   Tables that aren't explicitly mentioned in table config are shared across all sandboxes instead of copied separately.
+-   If you make a schema change, such as adding a column, to a shared table, the table becomes an isolated table on the sandbox that initiated the schema change.
 
 <table id="table_tzh_zsb_xhc"><thead><tr><th>
 

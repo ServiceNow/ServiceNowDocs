@@ -2,7 +2,10 @@
 title: Accessibility and conformance
 description: Learn about accessibility updates and improvements completed for the Zurich family release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/r\_Accessibility508Compliance.html
 release: zurich
+product: Release Notes
+classification: release-notes
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2

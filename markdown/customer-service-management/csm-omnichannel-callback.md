@@ -2,7 +2,10 @@
 title: Using Omnichannel Callback for Customer Service Management
 description: The ServiceNow Omnichannel Callback for Customer Service Management app enables a callback option for customers when there’s a long wait time for a live agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-omnichannel-callback.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -13,7 +16,7 @@ breadcrumb: [Customer communication, Use, Customer Service Management]
 
 The ServiceNow® Omnichannel Callback for Customer Service Management app enables a callback option for customers when there’s a long wait time for a live agent.
 
-For more information, see [Omnichannel Callback](https://www.servicenow.com/docs/access?context=omnichannel-callback&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+For more information, see Omnichannel Callback.
 
 ## Callback flow
 
@@ -30,7 +33,7 @@ The callback workflow proceeds as follows:
     -   If the customer doesn’t accept the call, the agent can retry the callback later.
 8.  The agent can decide to close the interaction or queue the callback again manually from the workspace.
 
-![Callback flow diagram](../image/Omni-callback-flow.png "Callback flow diagram")
+\[Omitted image "callback-flow-diagram.png"\] Alt text: Callback flow diagram
 
 ## Callback requests
 

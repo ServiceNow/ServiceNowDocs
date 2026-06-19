@@ -2,6 +2,7 @@
 title: Customize a design theme
 description: A theme is a collection of one or more style sheets \(CSS files\) that define a consistent look for a set of pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/content-management-system/t\_CreateADesignTheme.html
 release: zurich
 product: Content Management System
 classification: content-management-system
@@ -42,5 +43,5 @@ Themes can be invoked in any of the following ways.
 5.  Use the **Style Sheet** related list to add style sheets to the theme.
 
 
-**Parent Topic:**[Design themes](../concept/c_DesignThemes.md)
+**Parent Topic:**[Design themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/content-management-system/c_DesignThemes.md)
 

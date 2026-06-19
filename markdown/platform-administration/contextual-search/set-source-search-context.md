@@ -2,6 +2,7 @@
 title: Set the default source for search context
 description: You can decide which source to set as the default search source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/contextual-search/set-source-search-context.html
 release: zurich
 product: Contextual Search
 classification: contextual-search
@@ -48,5 +49,5 @@ Role required: admin
         **Note:** The **Searcher default search** field appears only when the **Searcher** field contains more than one source.
 
 
-**Parent Topic:**[Managing contextual search](../concept/working-with-contextual-search.md)
+**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/working-with-contextual-search.md)
 

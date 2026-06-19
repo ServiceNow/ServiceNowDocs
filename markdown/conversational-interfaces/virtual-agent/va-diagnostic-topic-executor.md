@@ -2,6 +2,7 @@
 title: Diagnostic Topic Executor utility
 description: Use the Diagnostic Topic Executor utility in Virtual Agent to ensure the proper function of components in a topic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-diagnostic-topic-executor.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -86,7 +87,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 </td></tr></tbody>
 </table>## Example Diagnostic Topic Executor utility
 
-![Properties include the node name, a diagnostic string, and output variables that indicate whether the topic executed or collected data.](../images/flow-designer-diagnostic-topic-executor-properties.png)
+\[Omitted image "flow-designer-diagnostic-topic-executor-properties.png"\] Alt text: Properties include the node name, a diagnostic string, and output variables that indicate whether the topic executed or collected data.
 
-**Parent Topic:**[Virtual Agent Designer utilities](va-utilities.md)
+**Parent Topic:**[Virtual Agent Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-utilities.md)
 

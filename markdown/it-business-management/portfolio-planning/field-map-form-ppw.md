@@ -2,6 +2,7 @@
 title: Field map form
 description: Understand the fields of the field map form. This form is used to create mappings for a corresponding table map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/field-map-form-ppw.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -64,5 +65,5 @@ Flow type
 Specifies whether the mapping is done from alignment to execution, execution to alignment, or both.Here, alignment implies Strategic Planning, and execution implies PPM, Agile Development 2.0, and SAFe applications.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Portfolio Planning](../../portfolio-planning/reference/form-field-information-for-portfolio-planning.md)
+</table>**Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)
 

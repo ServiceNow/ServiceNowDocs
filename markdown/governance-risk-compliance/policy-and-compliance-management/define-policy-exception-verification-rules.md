@@ -2,6 +2,7 @@
 title: Define the policy verification rules
 description: Configure granular approval rules for policy exceptions and extensions by using the GRC Approval Configurator. This allows you to manage approvals with precise rule definitions and support multi-level approval workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/define-policy-exception-verification-rules.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -220,5 +221,5 @@ Approval options: Select **All** to make it required for all the selected users 
 </table>    3.  Select **Submit**.
 
 
-**Parent Topic:**[Define policy exceptions and extensions with the GRC Approval Configurator](../concept/define-policy-exceptions-and-extensions-with-the-grc-approval-configurator.md)
+**Parent Topic:**[Define policy exceptions and extensions with the GRC Approval Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

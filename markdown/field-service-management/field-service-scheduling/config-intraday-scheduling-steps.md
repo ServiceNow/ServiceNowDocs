@@ -2,6 +2,7 @@
 title: Configuring Intraday schedule automation
 description: Intraday schedule automation updates agents schedules to maximize productivity during their shift.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/config-intraday-scheduling-steps.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -17,27 +18,27 @@ Intraday schedule automation updates agents schedules to maximize productivity d
 
 ## Configuration overview
 
-1.  [Activate intra-day schedule automation](../task/activate-intraday-scheduling-plugin.md)
+1.  [Activate intra-day schedule automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/activate-intraday-scheduling-plugin.md)
 
     Administrators must activate the intra-day schedule automation plugin before changing any values.
 
-2.  [Copy intraday schedule automation flows](../task/copy-intraday-scheduleing-flows.md)
+2.  [Copy intraday schedule automation flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/copy-intraday-scheduleing-flows.md)
 
     Copy the intra-day schedule automation flows and change only the copies. This practice ensures that you can copy the originals again if something happens to the versions you configure.
 
-3.  \(Optional\) [Change the value for agents being considered early or late](../task/intraday-scheduling-time-value.md)
+3.  \(Optional\) [Change the value for agents being considered early or late](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/intraday-scheduling-time-value.md)
 
     Update the value that triggers a notification to the dispatcher indicating whether an agent is early or late.
 
-4.  \(Optional\) [Change the time that determines whether an agent has acted](../task/change-intraday-scheduling-timing.md)
+4.  \(Optional\) [Change the time that determines whether an agent has acted](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/change-intraday-scheduling-timing.md)
 
     Update the value that determines whether an agent has acted.
 
-5.  \(Optional\) [Delete a flow](https://www.servicenow.com/docs/access?context=flow-delete&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
+5.  \(Optional\) Delete a flow
 
     If you do not need a flow installed with intra-day schedule automation, you can delete it.
 
-6.  [Activate a flow](https://www.servicenow.com/docs/access?context=flow-activate&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
+6.  Activate a flow
 
     Activate the flows when you want to add the configurations to your instance.
 

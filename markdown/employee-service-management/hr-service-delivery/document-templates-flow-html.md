@@ -2,6 +2,7 @@
 title: Document Templates of type HTML
 description: An HTML document template uses variables to pre-fill information from tables into the document. You can create how the document looks by defining the header, footer, images, placement of footer, and the text within the template. Using the HTML document template, you can collect e-signatures from multiple participants and generate a PDF document online.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/document-templates-flow-html.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -24,11 +25,11 @@ Before you begin generating documents, configure the templates with your company
 
 The following flow describes how you can use an HTML document template from configuring the template until signing and generating a PDF document online.
 
--   [Configure an HTML document template](../task/configure-HTML-doc-template.md).
--   [Create participants for an HTML document template](../task/create-participants-html.md#).
--   [Insert signatures](../task/create-participants-html.md#).
+-   [Configure an HTML document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-HTML-doc-template.md).
+-   [Create participants for an HTML document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/create-participants-html.md).
+-   [Insert signatures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/create-participants-html.md).
 -   Publish the HTML document template.
--   [Document tasks generation](../task/task-mapped-participants.md).
+-   [Document tasks generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/task-mapped-participants.md).
 
     **Note:** You can also edit the body of the HTML template and generate a PDF copy before initiating document tasks.
 

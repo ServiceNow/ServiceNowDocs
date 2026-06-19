@@ -2,6 +2,7 @@
 title: View, filter, and sort ideas
 description: View ideas submitted by you or all submitted ideas. Filter and sort the ideas based on idea state, category, or date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/innovation-management/view-filter-sort-ideas.html
 release: zurich
 product: Innovation Management
 classification: innovation-management
@@ -46,5 +47,5 @@ You can view the following information for an idea:
     |Sort the ideas based on the most recent ideas, the number of votes, or the date of creation.|Select an option from the Sort by list.|
 
 
-**Parent Topic:**[Managing ideas using Innovation Management](../concept/using-innovation-management.md)
+**Parent Topic:**[Managing ideas using Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/using-innovation-management.md)
 

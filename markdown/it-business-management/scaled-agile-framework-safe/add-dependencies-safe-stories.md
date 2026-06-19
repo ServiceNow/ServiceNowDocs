@@ -2,6 +2,7 @@
 title: Add dependencies to your SAFe stories
 description: Set dependencies to your SAFe story by adding prerequisite and dependent stories to it. Using the SAFe Planning board, you can distinguish these dependencies between stories during your big room planning and replan the stories as required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scaled-agile-framework-safe/add-dependencies-safe-stories.html
 release: zurich
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -27,15 +28,15 @@ Prerequisite stories are the stories that must be completed before the current s
 
 1.  Navigate to a story by using any of the following options.
 
-<table id="choicetable_txj_1mx_4lb"><thead><tr><th align="left" id="d115123e64">
+<table id="choicetable_txj_1mx_4lb"><thead><tr><th align="left" id="d48036e64">
 
 Option
 
-</th><th align="left" id="d115123e67">
+</th><th align="left" id="d48036e67">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d115123e73">
+</th></tr></thead><tbody><tr><td id="d48036e73">
 
 **From the Stories module**
 
@@ -45,7 +46,7 @@ Steps
 2.  Click the story that you want to add dependencies to.
 
 
-</td></tr><tr><td id="d115123e100">
+</td></tr><tr><td id="d48036e100">
 
 **From the SAFe planning board**
 
@@ -68,5 +69,5 @@ Steps
     If you're on the SAFe planning board, click the dependencies icon to show or hide dependency lines between stories.
 
 
-**Parent Topic:**[Define a story in SAFe](create-SAFestory.md)
+**Parent Topic:**[Define a story in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/create-SAFestory.md)
 

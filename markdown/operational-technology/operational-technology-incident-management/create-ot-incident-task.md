@@ -2,6 +2,7 @@
 title: Create tasks to fulfill an OT incident
 description: Create a set of incident tasks to fulfill an Operational Technology \(OT\) incident. Incident tasks help you to split up and categorize the work that is needed to resolve an incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-incident-management/create-ot-incident-task.html
 release: zurich
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -141,7 +142,7 @@ Work notes list
 
 </td><td>
 
-Users who receive notifications about this incident task when work notes are added. **Note:** You can select the add me icon ![Add me icon.](../../incident-management/image/add-me.png) to add yourself to the work notes list.
+Users who receive notifications about this incident task when work notes are added. **Note:** You can select the add me icon \[Omitted image "add-me.png"\] Alt text: Add me icon. to add yourself to the work notes list.
 
 </td></tr><tr><td>
 
@@ -163,5 +164,5 @@ You can view incident tasks in the Industrial Workspace list view in the followi
 -   Incident tasks assigned to your group: **OT Tasks** &gt; **Assigned to My Groups**
 -   Unassigned incident tasks: **OT Tasks** &gt; **Unassigned**
 
-**Parent Topic:**[Using Operational Technology Incident Management](../concept/using-operational-technology-incident-mgt.md)
+**Parent Topic:**[Using Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-incident-management/using-operational-technology-incident-mgt.md)
 

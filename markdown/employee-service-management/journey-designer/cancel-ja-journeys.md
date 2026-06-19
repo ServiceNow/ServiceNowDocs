@@ -2,6 +2,7 @@
 title: Cancel Journey Accelerator Journeys
 description: You can now cancel Journey Accelerator only journeys from the Employee Center portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/cancel-ja-journeys.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -17,7 +18,7 @@ You can now cancel Journey Accelerator only journeys from the Employee Center po
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_jny.admin
 
 ## Procedure
 
@@ -28,5 +29,5 @@ Role required: admin
 3.  Select **Cancel**.
 
 
-**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](../concept/jny-working-with-journeys.md)
+**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-working-with-journeys.md)
 

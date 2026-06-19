@@ -2,7 +2,10 @@
 title: Validation error notifications in Decision Tree Builder
 description: Notifications of errors that you might encounter while building and activating a decision tree in Decision Tree Builder enable you to recover easily from errors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/validation-errors-builder.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -13,7 +16,7 @@ breadcrumb: [Configuring decision trees in Decision Tree Builder, Configuring gu
 
 Notifications of errors that you might encounter while building and activating a decision tree in Decision Tree Builder enable you to recover easily from errors.
 
-![Error presentation in Decision Tree Builder.](../image/gd-error-presentation.png)
+\[Omitted image "gd-error-presentation.png"\] Alt text: Error presentation in Decision Tree Builder.
 
 ## Error display
 
@@ -25,5 +28,5 @@ The errors are indicated in the following ways:
 -   A label for a count of nodes and paths that have errors in the top-right corner
 -   An alert message in the side panel showing a list of errors in the selected node or path
 
-For more information on errors and recovery across various nodes and paths, see [Validation errors](../reference/ra-validation-errors.md).
+For more information on errors and recovery across various nodes and paths, see [Validation errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ra-validation-errors.md).
 

@@ -2,11 +2,12 @@
 title: Source-to-Pay integrations with SAP reference
 description: Reference topics provide additional information on integrating Source-to-Pay Operations with SAP integrations, including primary data, fixed assets, purchase orders, receipts, invoices, and tax integration between Source-to-Pay and ERP systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/source-to-pay-integration-framework/s2p-integrations-sap-reference.html
 release: zurich
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: reference
-last_updated: "2025-12-05"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Source-to-Pay integration with SAP, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---

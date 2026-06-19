@@ -2,6 +2,7 @@
 title: Configure message keys to spread SNMP object identifiers
 description: By default, most SNMP trap events are processed by a single Event Management processing job. This can negatively effect event processing. Configure message keys on the MID Server to ensure that more than one processing job is invoked, ensuring optimal SNMP trap performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/configure-snmp-trapkeyfilter.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -50,5 +51,5 @@ Role required: evt\_mgmt\_admin
     5.  Click **Update**.
 
 
-**Parent Topic:**[Configure event collection for SNMP traps](t_EMSNMPTrapEvent.md)
+**Parent Topic:**[Configure event collection for SNMP traps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMSNMPTrapEvent.md)
 

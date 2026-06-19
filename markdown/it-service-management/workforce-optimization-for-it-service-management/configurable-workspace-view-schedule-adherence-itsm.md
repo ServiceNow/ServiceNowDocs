@@ -2,6 +2,7 @@
 title: Monitor schedule adherence of your agents
 description: Evaluate whether or not your agents are adhering to their assigned schedules. Look for areas where agent activities that do not offer much value can be reduced or eliminated and fine-tune your staffing levels requirements based on their adherence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/configurable-workspace-view-schedule-adherence-itsm.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -35,19 +36,19 @@ Role required: sn\_shift\_planning.admin
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule icon \(![Schedule icon](../../itsm-manager-workspace/image/schedule-icon.png)\).
+2.  Click the Schedule icon \(\[Omitted image "schedule-icon.png"\] Alt text: Schedule icon\).
 
 3.  Monitor the schedule adherence of your agents.
 
-<table id="choicetable_c54_ns5_hrb"><thead><tr><th align="left" id="d326637e128">
+<table id="choicetable_c54_ns5_hrb"><thead><tr><th align="left" id="d91315e128">
 
 To
 
-</th><th align="left" id="d326637e131">
+</th><th align="left" id="d91315e131">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d326637e137">
+</th></tr></thead><tbody><tr><td id="d91315e137">
 
 **View schedule adherence at organization or team level**
 
@@ -55,7 +56,7 @@ Do this
 
 Click the **Schedule Adherence** tab.The bar displays the schedule adherence and conformance in percentage for your teams. Click on the bar chart to drill down and view more analytics.
 
-</td></tr><tr><td id="d326637e152">
+</td></tr><tr><td id="d91315e152">
 
 **Analyze planned vs actual scheduling for your team members**
 
@@ -76,8 +77,8 @@ Example: A clock-in event gets generated when an agent logs in or changes the pr
     -   Green—agent is available
     -   Purple—agent clock-in-time
     -   Red—agent clock-out-time
-    ![Schedule Adherence](../image/schedule-adherence-itsm.png)
+    \[Omitted image "schedule-adherence-itsm.png"\] Alt text: Schedule Adherence
 
 
-**Parent Topic:**[Schedule Adherence in Workforce Optimization for ITSM](../concept/schedule-adherence-configurable-itsm.md)
+**Parent Topic:**[Schedule Adherence in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/schedule-adherence-configurable-itsm.md)
 

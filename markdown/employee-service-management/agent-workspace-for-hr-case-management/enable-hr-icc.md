@@ -2,6 +2,7 @@
 title: Integration with Contact Center as a Service \(CCaaS\)
 description: Implement prebuilt, certified integrations with Contact Center as a Service \(CCaaS\) providers using the ServiceNow voice reference architecture.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/enable-hr-icc.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -19,7 +20,7 @@ Implement prebuilt, certified integrations with Contact Center as a Service \(CC
 
 The Interaction Controls Component \(ICC\) feature enables CCaaS providers to display native voice and callback integrations so HR agents can manage customer calls directly from HR Agent Workspace.
 
-HR agents are provided a brief wrap-up period at the end of customer conversations to complete their work before moving on to assist other customers. Review the [HR interaction wrap up](hr-interaction-wrapup.md) for more details.
+HR agents are provided a brief wrap-up period at the end of customer conversations to complete their work before moving on to assist other customers. Review the [HR interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/hr-interaction-wrapup.md) for more details.
 
 The voice controls and callback controls display under the following conditions:
 
@@ -66,5 +67,5 @@ Role required: admin
 
 ## What to do next
 
-Refer to [Plugin requirements](../concept/plugin-req-hr-icc.md) for dependencies and address all prerequisite requirements to access the ICC features.
+Refer to [Plugin requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/plugin-req-hr-icc.md) for dependencies and address all prerequisite requirements to access the ICC features.
 

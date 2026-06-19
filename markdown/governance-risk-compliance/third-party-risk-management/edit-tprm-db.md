@@ -2,6 +2,7 @@
 title: Edit TPRM dashboards
 description: You can edit dashboard and dashboard tab information in the in-line editor. If the dashboard has been shared, any changes you make are applied globally.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/edit-tprm-db.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -34,21 +35,21 @@ The **More actions** menu includes the option to clear the edit lock. Use this o
 
 1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**.
 
-2.  Select the dashboard page icon ![](../../grc-workspace-vrm/image/icon-tprm-ws-dashboard.png) and then select the dashboard you want to edit.
+2.  Select the dashboard page icon \[Omitted image "icon-tprm-ws-dashboard.png"\] Alt text: and then select the dashboard you want to edit.
 
 3.  Select the dashboard that you want to edit.
 
 4.  Perform any of the following actions.
 
-<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d173263e125">
+<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d125622e125">
 
 Action
 
-</th><th align="left" id="d173263e128">
+</th><th align="left" id="d125622e128">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d173263e134">
+</th></tr></thead><tbody><tr><td id="d125622e134">
 
 **Edit dashboard details**
 
@@ -56,20 +57,20 @@ Steps
 
 To edit the details of a dashboard created in the in-line editor:
 
-1.  Select the dashboard details icon ![](../../grc-business-continuity-management/image/InformationIcon.png).
+1.  Select the dashboard details icon \[Omitted image "InformationIcon.png"\] Alt text:.
 2.  Select the **Edit** to put the dashboard into edit mode.
 3.  Edit the details of the dashboard and then select **Exit editing mode**.
  To edit the details of a technical dashboard:
 
-1.  Select the dashboard details icon ![](../../grc-business-continuity-management/image/InformationIcon.png).
+1.  Select the dashboard details icon \[Omitted image "InformationIcon.png"\] Alt text:.
 2.  Select the arrow next to the **Edit in UI builder** button and then select **Edit dashboard details** to put the dashboard into edit mode.
 
 **Note:** If you don’t see this option, you don’t have permission to edit the dashboard.
 
 3.  Edit the details of the dashboard and then select **Exit editing mode**.
- For more information, see [Edit TPRM dashboard details](edit-tprm-db-details.md).
+ For more information, see [Edit TPRM dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/edit-tprm-db-details.md).
 
-</td></tr><tr><td id="d173263e208">
+</td></tr><tr><td id="d125622e208">
 
 **Configure the dashboard layout**
 
@@ -77,15 +78,15 @@ To edit the details of a dashboard created in the in-line editor:
 
 Select and drag an element's handlebars to resize it. Select and drag an entire element to move it around the dashboard layout. Elements include data visualizations, filters, and other dashboard content.
 
-</td></tr><tr><td id="d173263e217">
+</td></tr><tr><td id="d125622e217">
 
 **Add a tab to a dashboard**
 
 </td><td>
 
-Select **Add a tab**. A tab labeled `New Tab` is added next to any existing tabs. When you add your first tab to a dashboard, there’s a new part of the layout below the title and above the tabs. Add elements above the tabs that are visible no matter which tab has focus. Select the pencil icon ![](../image/icon-pencil-ac.png) to rename the tab.
+Select **Add a tab**. A tab labeled `New Tab` is added next to any existing tabs. When you add your first tab to a dashboard, there’s a new part of the layout below the title and above the tabs. Add elements above the tabs that are visible no matter which tab has focus. Select the pencil icon \[Omitted image "icon-pencil-ac.png"\] Alt text: to rename the tab.
 
-</td></tr><tr><td id="d173263e240">
+</td></tr><tr><td id="d125622e240">
 
 **Reorder a dashboard tab**
 
@@ -98,34 +99,34 @@ You can reorder tabs by dragging and dropping them. You can also reorder dashboa
 5.  Select **Save**.
 
 
-</td></tr><tr><td id="d173263e274">
+</td></tr><tr><td id="d125622e274">
 
 **Duplicate a dashboard tab**
 
 </td><td>
 
 You can duplicate a tab on the current dashboard.1.  Select the **Edit** to put the dashboard into edit mode.
-2.  Select the more actions menu icon ![](../image/context-menu-db-element-ac.png) next to the tab's name and choose **Duplicate**.
+2.  Select the more actions menu icon \[Omitted image "context-menu-db-element-ac.png"\] Alt text: next to the tab's name and choose **Duplicate**.
 A new tab with the same content as the duplicated tab opens with the name `New Tab`. Choose the pencil icon to rename the tab.
 
-</td></tr><tr><td id="d173263e307">
+</td></tr><tr><td id="d125622e307">
 
 **Delete a dashboard tab**
 
 </td><td>
 
 1.  Select the **Edit** to put the dashboard into edit mode.
-2.  Select the More actions menu icon ![](../image/context-menu-db-element-ac.png) next to the tab's name and choose **Delete**.
+2.  Select the More actions menu icon \[Omitted image "context-menu-db-element-ac.png"\] Alt text: next to the tab's name and choose **Delete**.
  **Note:** There’s no confirmation message. The tab disappears from the dashboard.
 
-</td></tr><tr><td id="d173263e339">
+</td></tr><tr><td id="d125622e339">
 
 **Rename a tab**
 
 </td><td>
 
 1.  Select the tab to make it active.
-2.  Point to the tab name and select the pencil icon ![](../image/icon-pencil-ac.png).
+2.  Point to the tab name and select the pencil icon \[Omitted image "icon-pencil-ac.png"\] Alt text:.
 3.  Enter the new name.
  **Note:**
 
@@ -136,39 +137,39 @@ If you rename a tab on a dashboard that has been translated, the translations ar
 3.  On the translated dashboard, rename the tab with the translation of its new name.
 
 
-</td></tr><tr><td id="d173263e383">
+</td></tr><tr><td id="d125622e383">
 
 **Configure the refresh settings**
 
 </td><td>
 
 Role required: admin.1.  Select **Edit** to put the dashboard into edit mode.
-2.  Select the dashboard settings icon ![](../image/icon-cogwheel-ac.png) to open the Settings panel.
+2.  Select the dashboard settings icon \[Omitted image "icon-cogwheel-ac.png"\] Alt text: to open the Settings panel.
 3.  Select **Show refresh information** to show the time of the last refresh under the dashboard's title.
 4.  Select **Scheduled repetition** to configure the number of minutes that the dashboard is automatically refreshed.
 
 The minimum refresh interval is 10 minutes.
 
-</td></tr><tr><td id="d173263e422">
+</td></tr><tr><td id="d125622e422">
 
 **Configure background colors**
 
 </td><td>
 
 1.  Select **Edit** to put the dashboard into edit mode.
-2.  Select the dashboard settings icon ![](../image/icon-cogwheel-ac.png) to open the Settings panel.
+2.  Select the dashboard settings icon \[Omitted image "icon-cogwheel-ac.png"\] Alt text: to open the Settings panel.
 3.  Open the Background Color menu to show the pre-configured colors.
-4.  Choose an existing color or select the color Palette icon ![](../image/icon-color-palette-ac.png) to open the palette.
+4.  Choose an existing color or select the color Palette icon \[Omitted image "icon-color-palette-ac.png"\] Alt text: to open the palette.
 
 Specify Hex or RGBA values, or choose from the color picker.
 
-</td></tr><tr><td id="d173263e461">
+</td></tr><tr><td id="d125622e461">
 
 **Configure Insights**
 
 </td><td>
 
-Choose whether and which analytics to show in the **Insights** section.When you select **Show insights panel**, an Insights button is added to the dashboard and the selected analytics options are shown. For more information, see [Proactive analytics insights on dashboards](https://www.servicenow.com/docs/access?context=proactive-analytics&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+Choose whether and which analytics to show in the **Insights** section.When you select **Show insights panel**, an Insights button is added to the dashboard and the selected analytics options are shown. For more information, see .
 
 </td></tr></tbody>
 </table>    **Note:** If you aren’t able to edit, either you don’t have permission to edit the dashboard, or it is in edit lock.

@@ -2,6 +2,7 @@
 title: View an error analysis by Now Assist in Agent Client Collector
 description: View an error analysis created by Now Assist using generative AI. Error analyses enable asking questions on a specific agent's error or error code.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/now-assist-for-it-operations-management/agent-errors-now-assist.html
 release: zurich
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
@@ -29,10 +30,10 @@ Role required: agent\_client\_collector\_admin
 
 4.  Enable the **Now Assist** option by sliding the **Display** toggle switch to the right.
 
-    ![Display toggle bar](../image/ai-agent-toggle-bar.png "Display toggle bar")
+    \[Omitted image "ai-agent-toggle-bar.png"\] Alt text: Display toggle bar
 
     Now Assist retrieves information on errors within agents.
 
 
-**Parent Topic:**[Use generative AI in Now Assist for ITOM](../concept/now-assist-itom-use.md)
+**Parent Topic:**[Use generative AI in Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.md)
 

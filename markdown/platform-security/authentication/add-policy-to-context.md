@@ -2,6 +2,7 @@
 title: Add an authentication policy to an authentication policy context
 description: Add an authentication policy to one of the authentication policy contexts. The authentication context uses the policy inputs and conditions to determine whether uses are granted access to the instance, or whether MFA is enforced for your users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/add-policy-to-context.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -43,7 +44,7 @@ Role required: admin
 
     The value in this field determines how the context uses the outcome of your policy's conditions.
 
-    The available options in this field depend on the selected context. For details on these contexts, see [Authentication policy contexts](../concept/auth-policy-contexts.md).
+    The available options in this field depend on the selected context. For details on these contexts, see [Authentication policy contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/auth-policy-contexts.md).
 
 3.  Assign a policy to the context.
 

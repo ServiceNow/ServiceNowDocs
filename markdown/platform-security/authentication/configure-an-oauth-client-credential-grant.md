@@ -2,6 +2,7 @@
 title: Configure an OAuth Client credential grant
 description: Configure the OAuth Client Credentials Grant for secure machine-to-machine authentication without user interaction. It authenticates applications using client credentials and grants-controlled API access with scoped permissions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/configure-an-oauth-client-credential-grant.html
 release: zurich
 product: Authentication
 classification: authentication

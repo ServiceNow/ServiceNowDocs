@@ -2,6 +2,7 @@
 title: Reference.\[Table\] data type
 description: Store a single Sys ID reference to a record in a specific table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/reference-data.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -32,5 +33,5 @@ Store a single Sys ID reference to a record in a specific table.
 |Default value|Specifies the value used when a flow or action designer does not provide a value.|
 |Reference qualifier conditions|Specifies the conditions used to filter records from the target table. The system only displays records from the target table that match the reference qualifier conditions. Use the condition builder to add one or more conditions.|
 
-**Parent Topic:**[Workflow Studio input and output data variables](action-inputs-outputs.md)
+**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/action-inputs-outputs.md)
 

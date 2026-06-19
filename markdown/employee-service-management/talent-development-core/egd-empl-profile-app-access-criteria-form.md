@@ -2,6 +2,7 @@
 title: Employee Application Access Criteria reference
 description: Talent Development uses the Employee licensing feature in the Employee Profile app to license users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/egd-empl-profile-app-access-criteria-form.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -22,5 +23,5 @@ Talent Development uses the **Employee licensing** feature in the Employee Profi
 |**Employee Licensed Application**|The application that the licensing is for.|
 |**Name**|A descriptive name for the access criteria.|
 
-**Parent Topic:**[Talent Development Core application reference](../concept/egd-reference.md)
+**Parent Topic:**[Talent Development Core application reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-reference.md)
 

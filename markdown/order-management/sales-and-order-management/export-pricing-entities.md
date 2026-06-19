@@ -2,11 +2,12 @@
 title: Export pricing entities
 description: Export pricing entities as a JSON file and save the file to your local download directory so that it can be imported to another ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/export-pricing-entities.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Pricing entities, Pricing Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -23,7 +24,7 @@ Role required: sn\_csm\_pricing\_pricelist\_administrator
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![image.Lists] view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Export** &gt; **Export Entities**.
 
@@ -58,5 +59,5 @@ Role required: sn\_csm\_pricing\_pricelist\_administrator
 
 ## What to do next
 
-[Import pricing entities](import-pricing-entities.md).
+[Import pricing entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/import-pricing-entities.md).
 

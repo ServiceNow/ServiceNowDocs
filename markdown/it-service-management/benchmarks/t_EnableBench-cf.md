@@ -2,6 +2,7 @@
 title: Enable Benchmarks
 description: Enable Benchmarks by opting in to participate in Benchmarks data collection. With Benchmarks you can compare your organization's performance with that of the recognized industry standards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/benchmarks/t\_EnableBench-cf.html
 release: zurich
 product: Benchmarks
 classification: benchmarks
@@ -23,11 +24,11 @@ Role required: sn\_bm\_client.benchmark\_admin
 
 ## About this task
 
-**Note:** You must install the [Success Dashboard](../../itsm-success-dashboard/task/install-success-dashboard.md) application to access the respective Benchmarks KPIs. For information on these KPIs, see [Benchmark KPIs](../concept/c_BenchKPIConfig.md).
+**Note:** You must install the [Success Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-success-dashboard-indicators/install-success-dashboard.md) application to access the respective Benchmarks KPIs. For information on these KPIs, see [Benchmark KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/benchmarks/c_BenchKPIConfig.md).
 
 Once you have manually opted into Benchmarks, enable and configure benchmark KPIs. From the Benchmarks dashboard, you can view the Benchmarks KPI data, performance trends, and indicator scorecards.
 
-**Note:** [Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) must be installed to view the Benchmarks dashboard.
+**Note:** Service Portal must be installed to view the Benchmarks dashboard.
 
 Six months of global data is available after opting in. If available, the corresponding data for your instance is also included.
 
@@ -37,15 +38,15 @@ Six months of global data is available after opting in. If available, the corres
 
 1.  Opt into Benchmarks using the guided setup or by navigating using the application navigator.
 
-<table id="choicetable_s1g_hly_clb"><thead><tr><th align="left" id="d453600e141">
+<table id="choicetable_s1g_hly_clb"><thead><tr><th align="left" id="d439481e141">
 
 Using
 
-</th><th align="left" id="d453600e144">
+</th><th align="left" id="d439481e144">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d453600e150">
+</th></tr></thead><tbody><tr><td id="d439481e150">
 
 **Guided setup**
 
@@ -55,7 +56,7 @@ Do this
 2.  Go to the **Enable Benchmarks** section and click **Configure**.
 
 
-</td></tr><tr><td id="d453600e186">
+</td></tr><tr><td id="d439481e186">
 
 **Application navigator**
 
@@ -75,5 +76,5 @@ Go to **Benchmarks** &gt; **Setup**.
 
 ## What to do next
 
-[Enable and configure your KPIs](../concept/c_BenchKPIConfig.md).
+[Enable and configure your KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/benchmarks/c_BenchKPIConfig.md).
 

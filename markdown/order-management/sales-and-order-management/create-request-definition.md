@@ -2,6 +2,7 @@
 title: Create a request definition
 description: Create a request definition and configure it into an order task to help your agents provide additional order attributes for the order fulfillment from the CSM/FSM configurable workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/create-request-definition.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,7 +24,7 @@ Role required: admin
 
 1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Request Definition Setup** &gt; **Request Definition**.
 

@@ -2,6 +2,7 @@
 title: Renew multiple child contracts
 description: Renew multiple child contracts under the parent contract by using the Contract selection task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/contract-management/select-contract.html
 release: zurich
 product: Contract Management
 classification: contract-management
@@ -33,7 +34,7 @@ This task is created only when the contract that you want to renew has valid chi
 
 4.  Indicate the child contracts you want to renew.
 
-    1.  Open the record by selecting the preview icon ![Preview icon.](../../software-asset-management2/image/preview-icon.png) besides a child contract.
+    1.  Open the record by selecting the preview icon \[Omitted image "preview-icon.png"\] Alt text: Preview icon. besides a child contract.
 
     2.  Choose whether to include child contracts for renewal by entering Yes or No in the **Renewal Decision** field.
 
@@ -52,5 +53,5 @@ The contract renewal request lines for parent and child contracts are listed in 
 
 ## What to do next
 
-[Supply contract renewal information](fill-cont-renew-info.md)
+[Supply contract renewal information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/contract-management/fill-cont-renew-info.md)
 

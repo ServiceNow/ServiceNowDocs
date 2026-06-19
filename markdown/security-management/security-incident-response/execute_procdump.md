@@ -2,6 +2,7 @@
 title: Execute procdump action
 description: Execute procdump is a powershell action that runs the procdump on the selected processes, dumps the data into a file, and posts it to a shared site on an internal network. An analyst can then view a deny listed process, highlighted in red in a security incident, and perform additional analysis on the file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/execute\_procdump.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -46,5 +47,5 @@ The output variables contain data that can be used in subsequent actions.
 |response|A JSON representation of the result of the procdump.|
 |result|The result of the procdump.|
 
-**Parent Topic:**[Run procdump flow](../concept/invoke_procdump.md)
+**Parent Topic:**[Run procdump flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/invoke_procdump.md)
 

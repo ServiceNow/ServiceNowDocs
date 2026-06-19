@@ -2,6 +2,7 @@
 title: Generate a certificate from an internal certificate authority
 description: When you configure Microsoft Active Directory for SSL access, you must generate an internal certificate and request the external certificate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/ldap-integration/t\_GenACertificateFromAnInternalCA.html
 release: zurich
 product: LDAP integration
 classification: ldap-integration

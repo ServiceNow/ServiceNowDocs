@@ -2,6 +2,7 @@
 title: Set up the Microsoft Teams Graph spoke
 description: Integrate the ServiceNow instance and Microsoft Teams account by creating a custom OAuth application in Microsoft Azure portal to authenticate ServiceNow requests.Provide authorization to the ServiceNow instance by registering an application in Microsoft Entra ID \(formerly Microsoft Azure Active Directory\).Add and configure the Microsoft Teams connections to authenticate ServiceNow requests in the Microsoft Teams Graph spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/set-up-msteams.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
@@ -14,8 +15,6 @@ breadcrumb: [Microsoft Teams Graph Spoke, Integration Hub spokes, Build integrat
 # Set up the Microsoft Teams Graph spoke
 
 Integrate the ServiceNow instance and Microsoft Teams account by creating a custom OAuth application in Microsoft Azure portal to authenticate ServiceNow requests.
-
-Demonstrates how to set up the Microsoft Teams Graph spoke.
 
 ## Before you begin
 
@@ -53,7 +52,7 @@ Complete these steps from the Microsoft Azure portal.
 
     For more information, see [Permissions and consent in the Microsoft identity platform](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent) in [Microsoft Docs](https://docs.microsoft.com/en-us/).
 
-    For information about the permissions required to use the spoke actions, see the Spoke actions section in [Microsoft Teams Graph Spoke](../concept/msteams-spoke.md). Provide permissions as per your requirement. For more information about the permissions, see [Microsoft Graph REST API v1.0 reference](https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0) in [Microsoft Docs](https://docs.microsoft.com/en-us/).
+    For information about the permissions required to use the spoke actions, see the Spoke actions section in [Microsoft Teams Graph Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/msteams-spoke.md). Provide permissions as per your requirement. For more information about the permissions, see [Microsoft Graph REST API v1.0 reference](https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0) in [Microsoft Docs](https://docs.microsoft.com/en-us/).
 
 6.  Record the **Client Secret** for use in later configurations.
 

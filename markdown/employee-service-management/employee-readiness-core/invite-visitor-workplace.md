@@ -2,6 +2,7 @@
 title: Invite a visitor to the workplace
 description: Submit a visitor invitation to send an email to your visitor with information about their upcoming visit. Before visitors can enter the workplace, they must respond to the email and agree to comply with the safety requirements and policies listed in the email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-readiness-core/invite-visitor-workplace.html
 release: zurich
 product: Employee Readiness Core
 classification: employee-readiness-core
@@ -55,5 +56,5 @@ A visitor record is created in the Health and Safety Visitors table \[sn\_imt\_c
 
 To view all of your invited visitors, navigate to **Employee Health and Safety Status** &gt; **My Visitors**.
 
-**Parent Topic:**[Employee Health and Safety Status](../concept/employee-health-safety-status.md)
+**Parent Topic:**[Employee Health and Safety Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-readiness-core/employee-health-safety-status.md)
 

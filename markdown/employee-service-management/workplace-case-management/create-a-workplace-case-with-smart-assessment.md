@@ -2,6 +2,7 @@
 title: Create and assign a workplace case with Smart Assessment
 description: Workplace managers create a workplace case and assign it to workplace agents for various service requests such as cleaning, maintenance, or inspection tasks. When a case is moved to a specific state \(for example, Work in Progress\) and meets the configured trigger conditions, a smart assessment instance is automatically created and attached to the case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-case-management/create-a-workplace-case-with-smart-assessment.html
 release: zurich
 product: Workplace Case Management
 classification: workplace-case-management
@@ -38,12 +39,12 @@ Role required: sn\_wsd\_case.manager
 
 5.  Specify other field details.
 
-    For more information, see [View and track workplace cases](view-workplace-cases.md).
+    For more information, see [View and track workplace cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-case-management/view-workplace-cases.md).
 
 6.  Select **Submit**.
 
     If the case matches the trigger conditions, a smart assessment instance is automatically created and the assessment is attached to the workplace case.
 
 
-**Parent Topic:**[Smart Assessment for Workplace Case and Task](smart-assessment-for-workplace-case-and-task.md)
+**Parent Topic:**[Smart Assessment for Workplace Case and Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-case-management/smart-assessment-for-workplace-case-and-task.md)
 

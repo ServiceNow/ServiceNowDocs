@@ -2,6 +2,7 @@
 title: Configure HR Multi Instance Integration for Consumer
 description: Plan and implement the configuration of HR Multi Instance Integration for Consumer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/config-hr-multi-instance.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,8 +26,8 @@ Plan and implement the configuration of HR Multi Instance Integration for Consum
         **Note:** In addition, you can also install ServiceNow Employee Center to enable employees to raise service requests via catalogs in Employee Center.
 
 2.  Configure HR Multi Instance Integration for Consumer by performing the following steps:
-    1.  Register a service bridge provider. For more information, see [Connect to a provider](https://www.servicenow.com/docs/access?context=service-bridge-v2-register&version=zurich&pubname=zurich-service-bridge&ft:locale=en-US).
-    2.  Activate remote record producers that the provider has published for your organization. For more information, see [Activate a remote record producer in Service Exchange](https://www.servicenow.com/docs/access?context=service-bridge-v2-activate-entitlements&version=zurich&pubname=zurich-service-bridge&ft:locale=en-US).
-    3.  Enable remote catalogs under the proper catalog category so that the remote catalogs are accessible to employees in the Employee portal. For more information, see [Associate content from catalog categories to a topic](../../employee-center/task/associate-catalog-categories-to-topics-in-bulk.md).
+    1.  Register a service bridge provider. For more information, see .
+    2.  Activate remote record producers that the provider has published for your organization. For more information, see .
+    3.  Enable remote catalogs under the proper catalog category so that the remote catalogs are accessible to employees in the Employee portal. For more information, see [Associate content from catalog categories to a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/associate-catalog-categories-to-topics-in-bulk.md).
     4.  Create an HR service that will create a task type of Submit catalog with remote record producer.
 

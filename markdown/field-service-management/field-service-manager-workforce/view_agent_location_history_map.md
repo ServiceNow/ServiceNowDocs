@@ -2,6 +2,7 @@
 title: View agent location history map
 description: Access a historical map of field service agents' locations to track and analyze their activities over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-manager-workforce/view\_agent\_location\_history\_map.html
 release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce

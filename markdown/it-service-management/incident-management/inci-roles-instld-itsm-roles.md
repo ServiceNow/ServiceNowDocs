@@ -2,6 +2,7 @@
 title: Components installed with ITSM Roles — Incident Management
 description: Several user roles are installed with activation of the ITSM Roles — Incident Management plugin \(com.snc.itsm.roles.incident\_management\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/inci-roles-instld-itsm-roles.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -15,7 +16,7 @@ breadcrumb: [Request ITSM Roles — Incident Management, Incident Management plu
 
 Several user roles are installed with activation of the ITSM Roles — Incident Management plugin \(com.snc.itsm.roles.incident\_management\).
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles installed
 
@@ -82,5 +83,5 @@ Enables gathering, and verifying information, as well as delivering quick resolu
 -   now\_assist\_panel\_user
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Request ITSM Roles — Incident Management](../task/req-itsm-roles-inci-mgmt.md)
+</table>**Parent Topic:**[Request ITSM Roles — Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/req-itsm-roles-inci-mgmt.md)
 

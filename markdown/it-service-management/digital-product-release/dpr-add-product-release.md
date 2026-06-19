@@ -2,6 +2,7 @@
 title: Add a product to a multi-product release
 description: Add a product to a multi-product release to expand the scope of the release as requirements evolve. The added product gets its own child release with phases, tasks, and policies aligned to the main release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-product-release/dpr-add-product-release.html
 release: zurich
 product: Digital Product Release
 classification: digital-product-release
@@ -26,7 +27,7 @@ Role required: sn\_dpr\_model.release\_admin or sn\_dpr\_model.product\_manager
 
 1.  Navigate to **Workspaces** &gt; **Digital Product Release Workspace**.
 
-2.  Select the releases icon \(![Releases icon.](../image/dpr-icon-release.png)\).
+2.  Select the releases icon \(\[Omitted image "dpr-icon-release.png"\] Alt text: Releases icon.\).
 
 3.  Select a release from the list to open.
 
@@ -51,7 +52,7 @@ A catalog request is submitted and auto-approved. The following actions occur:
 -   Tasks and policies are created for each phase based on the release template.
 -   The phase management in the release differs based on the release's current state:
     -   **Pending**: The product is added directly and its release is created.
-    -   **In Progress**: The product is added and a release is created and started immediately. The system begins executing policies sequentially from the earliest phase to catch up to the main release's current phase. For more information, see [Phase management in a multi-product release](../concept/dpr-product-release.md#dpr-dl-multi-prod-phase-mgmt).
+    -   **In Progress**: The product is added and a release is created and started immediately. The system begins executing policies sequentially from the earliest phase to catch up to the main release's current phase. For more information, see [Phase management in a multi-product release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-product-release.md).
 
 ## Adding a product to an in-progress release
 
@@ -74,5 +75,5 @@ If policies for any phase fail — for example, Development — Product D remain
 
 In this case, the Testing phase can’t be closed until all products, including Product D, pass their policies and reach the Testing phase.
 
-**Parent Topic:**[Manage releases for digital products and services](dpr-manage-releases.md)
+**Parent Topic:**[Manage releases for digital products and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-manage-releases.md)
 

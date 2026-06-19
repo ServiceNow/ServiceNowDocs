@@ -2,6 +2,7 @@
 title: Outbound REST authentication
 description: Outbound REST messages support multiple types of authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/c\_OutboundRESTAuth.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -48,14 +49,14 @@ Authentication requirement for REST Outbound are as follows:
 -   Outbound REST supports mutual authentication only when using basic authentication. Mutual authentication is not available with OAuth 2.0.
 -   OAuth 2.0 can be used only with messages that are not configured to use a MID Server. You cannot send OAuth 2.0 authenticated messages through a MID Server. Also, mutual authentication is not supported with MID Server.
 -   When scripting new REST messages configured with authentication you must use the RESTMessageV2 API. The legacy RESTMessage APIs do not support current authentication formats.
--   AWS credentials or any other custom authentication are supported only with the [REST step](https://www.servicenow.com/docs/access?context=rest-request-action-designer&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US), not with the RestMessage API.
+-   AWS credentials or any other custom authentication are supported only with the , not with the RestMessage API.
 
--   **[Configure a REST message with basic auth](../task/t_ConfigureRESTMsgBasicAuth.md)**  
+-   **[Configure a REST message with basic auth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/t_ConfigureRESTMsgBasicAuth.md)**  
 Configure an outbound REST message to provide basic authentication credentials with each request.
--   **[Configure a REST message with OAuth](../task/t_ConfigureARESTMessageWithOAuth.md)**  
+-   **[Configure a REST message with OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/t_ConfigureARESTMessageWithOAuth.md)**  
 You can configure an outbound REST message to send OAuth credentials with the request.
--   **[Outbound REST mutual authentication](c_OutboundRESTMutualAuthentication.md)**  
+-   **[Outbound REST mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_OutboundRESTMutualAuthentication.md)**  
 Mutual authentication causes the web service provider and consumer to authenticate with each other before communicating.
 
-**Parent Topic:**[Outbound REST web service](c_OutboundRESTWebService.md)
+**Parent Topic:**[Outbound REST web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_OutboundRESTWebService.md)
 

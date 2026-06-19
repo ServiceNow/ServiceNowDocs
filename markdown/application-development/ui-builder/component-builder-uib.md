@@ -2,6 +2,7 @@
 title: Component Builder
 description: Learn how to use Component Builder to assemble reusable components for your UI Builder pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/component-builder-uib.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -15,10 +16,10 @@ breadcrumb: [UI Builder, Builder library, Developing your application, Building 
 
 Learn how to use Component Builder to assemble reusable components for your UI Builder pages.
 
--   **[Create custom components to reuse across pages with component builder](component-builder.md#)**  
+-   **[Create custom components to reuse across pages with component builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/component-builder.md)**  
 Reuse custom components across experiences and pages in UI Builder.
--   **[Enable configuration of components with inherited controllers in component builder](inherited-controllers.md#)**  
+-   **[Enable configuration of components with inherited controllers in component builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/inherited-controllers.md)**  
 Learn how components can inherit page resources.
 
-**Parent Topic:**[UI Builder](ui-builder-overview.md)
+**Parent Topic:**[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/ui-builder-overview.md)
 

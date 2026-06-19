@@ -2,6 +2,7 @@
 title: Authorize access to an OAuth endpoint using auth code flow
 description: End users who own a protected resource on the ServiceNow instance must authorize access to the resource before the instance can provide the access token.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/t\_AuthorizeAccessEndpiont.html
 release: zurich
 product: Authentication
 classification: authentication

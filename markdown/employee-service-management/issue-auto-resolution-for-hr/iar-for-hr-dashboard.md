@@ -2,6 +2,7 @@
 title: Issue Auto Resolution for HR dashboard
 description: With the Issue Auto Resolution for HR dashboard, you can see a graphical representation of the Issue Auto Resolution application's case resolution performance. You can also monitor the success metrics for auto-resolved cases, estimated costs, and time saved by using the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/issue-auto-resolution-for-hr/iar-for-hr-dashboard.html
 release: zurich
 product: Issue Auto Resolution for HR
 classification: issue-auto-resolution-for-hr
@@ -21,7 +22,7 @@ The dashboard shows you a near real-time window into the application's case reso
 
 The following example shows the viewing perspective of the dashboard.
 
-![Issue Auto Resolution for HR application's dashboard view.](../image/iar-hr-dashboard.png "Dashboard user interface")
+\[Omitted image "iar-hr-dashboard.png"\] Alt text: Issue Auto Resolution for HR application's dashboard view.
 
 ## Reports and indicators
 
@@ -190,7 +191,7 @@ Each dashboard report is related to a data source \(table or indicator\). Select
 
 The following example shows how selecting any data point on the dashboard gives you the complete list report.
 
-![Issue Auto Resolution for HR for detailed report view.](../image/list-report-iar-dashboard.png "Viewing list report")
+\[Omitted image "list-report-iar-dashboard.png"\] Alt text: Issue Auto Resolution for HR for detailed report view.
 
 ## Dashboard filters
 
@@ -198,5 +199,5 @@ Use the dashboard filter to get the results that are based on a selected date ra
 
 The following example shows what the date filter option looks like in the dashboard.
 
-![Issue Auto Resolution for HR dashboard date filter.](../image/iar-hr-dashboard-filter.png "Viewing date filters")
+\[Omitted image "iar-hr-dashboard-filter.png"\] Alt text: Issue Auto Resolution for HR dashboard date filter.
 

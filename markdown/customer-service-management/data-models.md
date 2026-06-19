@@ -2,7 +2,10 @@
 title: Data models
 description: Create structured and flexible data models to represent the need across various industries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/data-models.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -15,6 +18,6 @@ Create structured and flexible data models to represent the need across various 
 
 |Task|Description|
 |----|-----------|
-|[Configure Service Model Foundation](../task/configure-industry-data-model.md)|Create foundational data models, such as service organizations, internal and external business locations, and households.|
-|[Configure Customer Data Models for B2B2C](configure-customer-data-model-b2b2c.md)|Configure the business-to-business-to-consumer \(B2B2C\) data model to enable business customers to support their end consumers by creating cases and tracking the services for products and services consumers use.|
+|[Configure Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-industry-data-model.md)|Create foundational data models, such as service organizations, internal and external business locations, and households.|
+|[Configure Customer Data Models for B2B2C](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-customer-data-model-b2b2c.md)|Configure the business-to-business-to-consumer \(B2B2C\) data model to enable business customers to support their end consumers by creating cases and tracking the services for products and services consumers use.|
 

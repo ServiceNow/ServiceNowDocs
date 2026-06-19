@@ -2,6 +2,7 @@
 title: Initiate a contract request
 description: Initiate a contract request from the Quote Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/quote-management-create-contract.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,13 +26,13 @@ You can create a legal sales contract to finalize a deal and formalist the agree
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Select **Quotes** &gt; **All**.
 
 3.  Select the quote in the Completed state for which you want to create a contract.
 
-4.  Select the **More Actions**![](../image/more-options.png) menu and select **Initiate contract**.
+4.  Select the **More Actions**\[Omitted image "more-options.png"\] Alt text: menu and select **Initiate contract**.
 
 5.  On the form, fill in the fields.
 
@@ -91,5 +92,5 @@ Date that the contract ends.**Note:** The End date must be later than the Start 
     A contract management request is generated in the Contract documents tab. Select the record to view the document.
 
 
-**Parent Topic:**[Using Quote Management](../concept/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-mgmt-using.md)
 

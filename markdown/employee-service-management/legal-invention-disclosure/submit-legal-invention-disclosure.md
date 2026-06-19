@@ -2,6 +2,7 @@
 title: Create a Legal Invention Disclosure request
 description: Create a Legal Invention Disclosure request to provide detailed information about the invention.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-invention-disclosure/submit-legal-invention-disclosure.html
 release: zurich
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
@@ -25,13 +26,15 @@ Role required: sn\_lg\_ops.legal\_user
 
     1.  Navigate to **All** &gt; **Employee Center**.
 
-    2.  From the **Legal Services** menu, select **Intellectual Property**.
+    2.  Navigate to **Help center** &gt; **Legal services** &gt; **.**.
 
-    3.  Select **Invention Disclosure Request**.
+    3.  Select **Intellectual Property** category.
+
+    4.  Select **Invention Disclosure Request**.
 
 2.  On the Legal Invention Disclosure request form, fill in the fields.
 
-    For a description of the field values, see [Legal Invention Disclosure form](../reference/legal-invention-disclosure-form.md).
+    For a description of the field values, see [Legal Invention Disclosure form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-invention-disclosure/legal-invention-disclosure-form.md).
 
 3.  Add any attachments with details of the invention to the request, if any.
 
@@ -43,8 +46,8 @@ Role required: sn\_lg\_ops.legal\_user
 -   A Legal Invention Disclosure request is created in the New state.
 -   A unique request ID is generated.
 -   The application status in Legal Counsel Center is set to New.
--   The request is assigned to a group or user in the legal department based on the assignment rules set in the associated practice area. For more information, see [Assignment rule to automatically assign legal requests or matters](../../legal-request-management/task/create-assignment-rules-intake-form.md).
+-   The request is assigned to a group or user in the legal department based on the assignment rules set in the associated practice area. For more information, see [Assignment rule to automatically assign legal requests or matters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/create-assignment-rules-intake-form.md).
 -   You will begin receiving notifications about the progress of the request.
 
-**Parent Topic:**[Using the Legal Invention Disclosure](../concept/use-legal-invention-disclosure.md)
+**Parent Topic:**[Using the Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-invention-disclosure/use-legal-invention-disclosure.md)
 

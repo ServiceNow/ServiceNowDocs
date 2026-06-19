@@ -2,6 +2,7 @@
 title: Resolve an error during send for signature
 description: As a legal user or fulfiller, update and synchronize signatory details when send for signature fails due to a mismatch between signatory information in the contract request and contract document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/snlc-sync-signatories-user.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -26,7 +27,7 @@ Role required:
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Select the List icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  Navigate to **Legal Requests**.
 
@@ -61,5 +62,5 @@ Role required:
 
 A new contract document revision is created with the latest signatory details and sent for signature. The Activity stream displays details of the contract document that is sent for signature.
 
-**Parent Topic:**[Updating and synchronizing signatories](snlc-update-sync-signatories.md)
+**Parent Topic:**[Updating and synchronizing signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-update-sync-signatories.md)
 

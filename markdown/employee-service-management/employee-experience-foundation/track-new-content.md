@@ -2,6 +2,7 @@
 title: Taxonomy and connected content
 description: Using the taxonomy and content personas, you can keep track and manage the new content updates on the topic pages. Connect new content to the categories linked to the topics. Monitor the categories to track new content available as the associated connected content types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/track-new-content.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -25,12 +26,12 @@ You can make the topic pages include the most updated content available for the 
 -   Alternatively, you can also autosync the new content updates by enabling a **Taxonomy category content autosync** system property.
 -   The connected content types supported for the features are Knowledge Base articles and Service Catalog items.
 
-Connected content is available on the Browser Extension for Employee Center. For more information, see [Browser Extension for Employee Center](ecbe-intro.md).
+Connected content is available on the Browser Extension for Employee Center. For more information, see [Browser Extension for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecbe-intro.md).
 
--   **[Manage connected content from topic pages](../task/mnge-content-topics.md)**  
+-   **[Manage connected content from topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/mnge-content-topics.md)**  
 Link your desired categories to the topics and track the additions and removals to have easier management of unconnected content.
--   **[Manage outdated connected content](../task/may-manage-outdated-content-topics.md)**  
+-   **[Manage outdated connected content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/may-manage-outdated-content-topics.md)**  
 Improve performance by tracking and removing outdated content from connected content from a dedicated tab. .
 
-**Parent Topic:**[Setup Employee Center browse experience features](setup-browse-experience.md)
+**Parent Topic:**[Setup Employee Center browse experience features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/setup-browse-experience.md)
 

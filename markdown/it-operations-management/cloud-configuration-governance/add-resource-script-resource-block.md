@@ -2,6 +2,7 @@
 title: Add a resource script to a resource block
 description: A resource script operates on a resource during deployment or returns data to the CMDB after a resource is deployed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/add-resource-script-resource-block.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -23,7 +24,7 @@ Role required: sn\_cmp.cloud\_service\_designer
 
 1.  In the Cloud Admin Portal, navigate to **Design** &gt; **Resource Blocks**.
 
-2.  Open the resource block and then set it to **Draft** ![Draft .](../image/draft-published-slider.png) state.
+2.  Open the resource block and then set it to **Draft** \[Omitted image "draft-published-slider.png"\] Alt text: Draft . state.
 
 3.  On the **Resource Script** tab, specify a unique and meaningful **Name** and then define the script:
 
@@ -54,5 +55,5 @@ Type of script:-   Instance Script: Javascript that performs an operation on the
     Add as many scripts as are needed.
 
 
-**Parent Topic:**[Resource blocks in Cloud Provisioning and Governance](../concept/resource-blocks.md)
+**Parent Topic:**[Resource blocks in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/resource-blocks.md)
 

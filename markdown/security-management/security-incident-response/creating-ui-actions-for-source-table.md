@@ -2,6 +2,7 @@
 title: Step 3. Create UI actions for the Source Table for a Security Case
 description: Create UI actions for the source table for a Security Case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/creating-ui-actions-for-source-table.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -25,18 +26,18 @@ Role required: admin
 
 2.  Run the Filter option to filter out the list by **Application**: Major Security Incident Management and **Table**: sn\_si\_incident.
 
-    ![UI Actions for linking reocrds](../image/ui-actions-step3.png)
+    \[Omitted image "ui-actions-step3.png"\] Alt text: UI Actions for linking records
 
 3.  Select each UI action one by one and save the details for the source table.
 
-    ![Change source table](../image/ui-action-change-source-table-step3.png)
+    \[Omitted image "ui-action-change-source-table-step3.png"\] Alt text: Change source table
 
-4.  Repeat the same steps as above for the following UI actions:
+4.  Repeat the steps for the following UI actions:
 
     -   Link to Major Security incident
     -   Proposed Major Security Incident
     -   Unlink from Major Security Incident
     -   Promote to Major Security Incident
 
-**Parent Topic:**[Rollup example use case implementation for a Security Case](../concept/use-case-for-a-security-case.md)
+**Parent Topic:**[Rollup example use case implementation for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/use-case-for-a-security-case.md)
 

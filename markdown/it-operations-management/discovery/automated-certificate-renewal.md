@@ -2,6 +2,7 @@
 title: Automated Certificate Renewal
 description: Detect certificates that are about to expire and renew them automatically before expiration to keep your digital systems secure and continuously available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/automated-certificate-renewal.html
 release: zurich
 product: Discovery
 classification: discovery

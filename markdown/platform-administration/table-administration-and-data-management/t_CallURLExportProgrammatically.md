@@ -2,6 +2,7 @@
 title: Call URL export programmatically
 description: Dynamically export data from a script or web service by calling a URL export from any programming language.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/t\_CallURLExportProgrammatically.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management

@@ -2,6 +2,7 @@
 title: Tutorial: Configuring session validation
 description: Configure session validation within the Adaptive Authentication framework to provide as an additional layer of protection for session or cookie hijacking.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/use-ip-session-context.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -35,13 +36,13 @@ To configure Session Validation, you must perform the following steps:
 
     2.  Choose the kind of Policy Input \(Filter Criteria\) that you want to create.
 
-        Available options are IP, Role, and Group Filter Criteria. Let's choose **IP Filter Criteria**.![IP Filter Criteria](../images/use-ip-session-context-filter.png)
+        Available options are IP, Role, and Group Filter Criteria. Let's choose **IP Filter Criteria**.\[Omitted image "use-ip-session-context-filter.png"\] Alt text: IP Filter Criteria
 
     3.  Fill the form with the filter details and provide the **IP Range**.
 
-        ![IP Filter Criteria](../images/ip-range-session-context.png)
+        \[Omitted image "ip-range-session-context.png"\] Alt text: IP Filter Criteria
 
-        To learn more about how to create an IP Filter, see [Create IP filter criteria](create-ip-filter-criteria.md).
+        To learn more about how to create an IP Filter, see [Create IP filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-ip-filter-criteria.md).
 
     4.  Select **Submit**.
 
@@ -53,15 +54,15 @@ To configure Session Validation, you must perform the following steps:
 
         **Note:** You can set the conditions to `true` or `false` based on the configuration of the policy input. In this example, it is set to `true`. Setting the condition to true in this case allows only the user with the configured IP address to log in.
 
-        ![Condition](../images/condition-session-context.png)
+        \[Omitted image "condition-session-context.png"\] Alt text: Condition
 
 5.  Select the `Active` check box to activate the policy after the Session Validation Policy is set up with policy inputs and conditions.
 
-    ![Activate Session Context](../images/activate-session-context.png)
+    \[Omitted image "activate-session-context.png"\] Alt text: Activate Session Context
 
 6.  Navigate to **All** &gt; **Adaptive Authentication** &gt; **Authentication Policies** &gt; **Properties** and enable the Session Validation property.
 
-    ![Session Validation property](../images/session-context.png)
+    \[Omitted image "session-context.png"\] Alt text: Session Validation property
 
 7.  Navigate to **All** &gt; **Adaptive Authentication** &gt; **Auth Policy Contexts** &gt; **Session Validation Context**.
 
@@ -72,7 +73,7 @@ To configure Session Validation, you must perform the following steps:
     -   The Session Validation context is set to **Allow Policy**.
     -   Allow Policy is selected as **Session Validation Policy**.
     -   The Session Validation Context for an authentication policy can only be with **Allow Policy**.
-    ![Policy Context](../images/policy-session-context.png)
+    \[Omitted image "policy-session-context.png"\] Alt text: Policy Context
 
 
 ## Result

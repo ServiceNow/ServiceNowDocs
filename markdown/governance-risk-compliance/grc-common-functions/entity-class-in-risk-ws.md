@@ -2,6 +2,7 @@
 title: Entity classes
 description: Entity classes are used to add a conceptual information about the entity or to tag the entity. They are used to classify the entities and they represent a collection of entities that have the same attributes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/entity-class-in-risk-ws.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -60,12 +61,12 @@ Information on the child classes:-   Name
 </td></tr></tbody>
 </table>To save the newly created entity class configuration, select **Save**.
 
--   **[Create an entity class](../task/create-new-entity-class-ws.md)**  
+-   **[Create an entity class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/create-new-entity-class-ws.md)**  
 Create an entity class that is associated with an entity. Entity classes are used to add a conceptual information about the entity and classify the entities. They represent a collection of entities that have the same attributes such as Department, Business Unit, or Business Service. You can gather data about the entities based on the entity class.
--   **[Update entity classes for multiple entities](../task/bulk-update-entity-class.md)**  
+-   **[Update entity classes for multiple entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/bulk-update-entity-class.md)**  
 Provide an entity class for multiple entities where the class field is empty. Entity classes are used to add a conceptual information about the entity and classify the entities. As an administrator, you can update the entity classes for multiple entities with a single click.
--   **[Scheduled jobs for Governance, Risk, and Compliance](../../grc-common/concept/scheduled-jobs.md)**  
+-   **[Scheduled jobs for Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/scheduled-jobs.md)**  
 Scheduled jobs are automated pieces of work that can be performed at a specific time or on a recurring schedule. GRC administrators run the scheduled jobs on demand to automate the tasks such as setting an entity class on the entities depending on the entity class rule.
 
-**Parent Topic:**[Exploring the entities](../../grc-common/concept/exploring-the-entities.md)
+**Parent Topic:**[Exploring the entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/exploring-the-entities.md)
 

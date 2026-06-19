@@ -2,6 +2,7 @@
 title: Install a single solution metadata record
 description: Install a single solution metadata record used by a dashboard, such as a widget, to match the latest version of the record without impacting other records used by the same dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/install-content-single-record.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -21,7 +22,7 @@ Role required: pa\_admin
 
 ## About this task
 
-To install the entire dashboard and all associated records, see [Install a dashboard](install-content.md).
+To install the entire dashboard and all associated records, see [Install a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/install-content.md).
 
 **Note:** Installing a record does not overwrite any customizations you have made to that record.
 
@@ -56,5 +57,5 @@ Available solution metadata types:
 5.  In the confirmation window, click **Install**.
 
 
-**Parent Topic:**[Install a dashboard](install-content.md)
+**Parent Topic:**[Install a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/install-content.md)
 

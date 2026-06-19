@@ -2,6 +2,7 @@
 title: Coaching in Workforce Optimization for Field Service
 description: By using Coaching in Workforce Optimization for Field Service, you can assess your team's abilities to efficiently resolve tasks by reviewing their work at critical moments of providing field services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-manager-workforce/coaching-wfo-fsm.html
 release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -20,7 +21,7 @@ By using Coaching in Workforce Optimization for Field Service, you can assess yo
 With Coaching, you can do the following:
 
 -   Recommend training for your agents to address skill gaps.
--   Use the coaching opportunities that are available by default to coach your agents. You can also create a coaching opportunity using the Coaching application specific to your agent's needs. For more information, see [Workforce Optimization for Field Service components](../reference/components-wfo-fsm.md) and Define trigger conditions for a coaching opportunity
+-   Use the coaching opportunities that are available by default to coach your agents. You can also create a coaching opportunity using the Coaching application specific to your agent's needs. For more information, see [Workforce Optimization for Field Service components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/components-wfo-fsm.md) and Define trigger conditions for a coaching opportunity
 -   Use assessments and surveys to apply consistent, measurable scores across teams.
 -   Use Predictive Intelligence to recommend skills for your agents and provide training to address those skill gaps.
 

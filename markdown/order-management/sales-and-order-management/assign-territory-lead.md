@@ -2,6 +2,7 @@
 title: Assigning a territory on lead
 description: You can update the primary territory on a lead in which Sales Territory Management​ has been implemented.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/assign-territory-lead.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sales territory admin \(or a user with sales territory override r
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![image.Lists] view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Leads** &gt; **All** and select the lead you want to update the territory.
 
@@ -30,5 +31,5 @@ Role required: sales territory admin \(or a user with sales territory override r
 4.  Select **Save**.
 
 
-**Parent Topic:**[Using Sales Territory Management​](use-sales-territory-management.md)
+**Parent Topic:**[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/use-sales-territory-management.md)
 

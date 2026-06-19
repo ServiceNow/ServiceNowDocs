@@ -2,6 +2,7 @@
 title: Map your application services using tags in the Service Mapping Workspace
 description: Categorize and organize organization's configuration items and map them into application services using the Tag-based dashboard in the Service Mapping workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/map-tag-based-services-workspace.html
 release: zurich
 product: Service Mapping
 classification: service-mapping
@@ -17,31 +18,31 @@ Categorize and organize organization's configuration items and map them into app
 
 ## Before you begin
 
--   Verify that you have installed Service Mapping Plus version 1.16.3, which is required to access tag-based mapping in the Service Mapping workspace. For more information, see [Install Service Mapping Plus](install-service-mapping-plus.md).
+-   Verify that you have installed Service Mapping Plus version 1.16.3, which is required to access tag-based mapping in the Service Mapping workspace. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/install-service-mapping-plus.md).
 -   Review and analyze your organization’s tag usage, making a list of all tags and their purposes. Use the Key Value \[cmdb\_key\_value\] table to see the tags in the Configuration Management Database \(CMDB\).
--   Use Tag Governance to optimize tag application in your organization. See [Tag Governance](../../it-operations-management/concept/exploring-tag-governance.md) for more information.
+-   Use Tag Governance to optimize tag application in your organization. See [Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/tag-governance/exploring-tag-governance.md) for more information.
 -   Assign tags to configuration items \(CIs\) that you want to include in application services.
--   Run Discovery to horizontally discover CIs. Discovery populates the CMDB with the CI data, including tags. For more information about discovery tag-based discovery for the Service Mapping workspace, see [Tag-based discovery for the Service Mapping Workspace](../concept/tag-discovery-service-mapping-workspace.md).
+-   Run Discovery to horizontally discover CIs. Discovery populates the CMDB with the CI data, including tags. For more information about discovery tag-based discovery for the Service Mapping workspace, see [Tag-based discovery for the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/tag-discovery-service-mapping-workspace.md).
 
 Role required: service\_mapping\_admin
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Service Mapping**, then select the Tag-based Service Mapping icon ![](../../../reuse/icons/product-icons/tag-outline-24.svg) from the navigation pane.
+1.  Navigate to **Workspaces** &gt; **Service Mapping**, then select the Tag-based Service Mapping icon \[Omitted image "tag-outline-24.svg"\] from the navigation pane.
 
 2.  Select **Create service maps**.
 
 3.  Either select an existing tag category or create a new tag category.
 
-<table id="choicetable_mmz_qlx_1gc"><thead><tr><th align="left" id="d623940e179">
+<table id="choicetable_mmz_qlx_1gc"><thead><tr><th align="left" id="d302109e179">
 
 Tag category option
 
-</th><th align="left" id="d623940e182">
+</th><th align="left" id="d302109e182">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d623940e188">
+</th></tr></thead><tbody><tr><td id="d302109e188">
 
 **Select an existing tag category**
 
@@ -52,7 +53,7 @@ Action
 3.  Select **Define the tag values** and enter values for the selected category.
 
 
-</td></tr><tr><td id="d623940e212">
+</td></tr><tr><td id="d302109e212">
 
 **Create a new tag category**
 
@@ -81,5 +82,5 @@ Action
 
 A tag-based application service and tag-based service family have been created.
 
-**Parent Topic:**[Using Service Mapping](../concept/using-service-mapping.md)
+**Parent Topic:**[Using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/using-service-mapping.md)
 

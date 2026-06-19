@@ -2,6 +2,7 @@
 title: Configuring compatibility rules for horizontal relationships
 description: As a provider, you can use compatibility rules to establish horizontal relationships between the specifications of multiple products, services, or resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/order-mgt-compatibility-management.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -30,5 +31,5 @@ Before you can capture a new customer order that has a horizontal relationship, 
 -   
 -   
 
-**Parent Topic:**[Configuring Order Management](order-mgt-configuring.md)
+**Parent Topic:**[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-mgt-configuring.md)
 

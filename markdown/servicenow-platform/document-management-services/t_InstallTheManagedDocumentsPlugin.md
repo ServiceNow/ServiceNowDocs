@@ -2,6 +2,7 @@
 title: Install the Managed Documents plugin
 description: The Managed Documents plugin is available for activation by users with the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/t\_InstallTheManagedDocumentsPlugin.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -34,5 +35,5 @@ Role required: admin
 4.  Select **Activate**.
 
 
-**Parent Topic:**[Managed Documents plugin](../reference/r_ManagedDocumentsPlugin.md)
+**Parent Topic:**[Managed Documents plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/r_ManagedDocumentsPlugin.md)
 

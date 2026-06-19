@@ -2,6 +2,7 @@
 title: Transaction Manager use case: Calculate the total of line-level prices
 description: Transaction Manager can include a determination rule that calculates the sum of line-level net prices so that it can be stored in a header-level field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/transaction-manager-use-case-calculate-the-total-of-line-level-prices.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -35,7 +36,7 @@ In ServiceNow CPQ Transaction Manager, you can use a Determination Rule to calcu
 
     For example, calculate the sum aggregate of the “List Price” of every line item. To calculate “Total List Price”, we are using the “sumField” function to calculate all the line-level list prices into a single field.
 
-    ![Transaction Manager Use Case: Calculate the Total of Line-Level Prices](../images/cpq-txn-mgr-use-case-calc-total-1.png)
+    \[Omitted image "cpq-txn-mgr-use-case-calc-total-1.png"\] Alt text: Transaction Manager Use Case: Calculate the Total of Line-Level Prices
 
 5.  Save and activate the rule so it applies in real time during the transaction lifecycle.
 6.  To test the rule, create a transaction and add line items with varying net prices.
@@ -53,7 +54,7 @@ Here are two more examples of line-level calculations stored in a header-level f
 
     `return txn.line.functions.sumField(txn.line.custom.listUnitPrice) - txn.line.functions.sumField(txn.line.pricing.extendedNet);`
 
-    ![Transaction Manager Use Case: Calculate the Total of Line-Level Prices](../images/cpq-txn-mgr-use-case-calc-total-2.png)
+    \[Omitted image "cpq-txn-mgr-use-case-calc-total-2.png"\] Alt text: Transaction Manager Use Case: Calculate the Total of Line-Level Prices
 
 -   Total Net
 
@@ -61,8 +62,8 @@ Here are two more examples of line-level calculations stored in a header-level f
 
     `return txn.line.functions.sumField(txn.line.pricing.extendedNet);`
 
-    ![Transaction Manager Use Case: Calculate the Total of Line-Level Prices](../images/cpq-txn-mgr-use-case-calc-total-3.png)
+    \[Omitted image "cpq-txn-mgr-use-case-calc-total-3.png"\] Alt text: Transaction Manager Use Case: Calculate the Total of Line-Level Prices
 
 
-**Parent Topic:**[Transaction Manager: Use cases](transaction-manager-use-cases.md)
+**Parent Topic:**[Transaction Manager: Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/transaction-manager-use-cases.md)
 

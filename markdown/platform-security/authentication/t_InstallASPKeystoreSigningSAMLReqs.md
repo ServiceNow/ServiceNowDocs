@@ -2,6 +2,7 @@
 title: Install a service provider keystore for signing SAML requests
 description: Use the following steps to remove the existing example key store and install your own Service Provider key store containing your public and private key pair.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/t\_InstallASPKeystoreSigningSAMLReqs.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -21,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  [Create a Service Provider key store](t_CreatingAServiceProviderKeyStore.md).
+1.  [Create a Service Provider key store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/t_CreatingAServiceProviderKeyStore.md).
 
 2.  Navigate to **SAML 2 Single Sign-on** &gt; **Certificate** or **Multi-provider** &gt; **Administrator** &gt; **x509 Certificate**.
 

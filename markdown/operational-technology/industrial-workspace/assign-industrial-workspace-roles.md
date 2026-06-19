@@ -2,6 +2,7 @@
 title: Assign the Industrial Workspace role
 description: Assign the Industrial Workspace role to your users so that you can control their access to the workspace's features, capabilities, and data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-workspace/assign-industrial-workspace-roles.html
 release: zurich
 product: Industrial Workspace
 classification: industrial-workspace
@@ -33,9 +34,9 @@ Users with the role that are listed in the following table can access the Guided
 
     |Task|User administration feature|
     |----|---------------------------|
-    |**Assign a role to a user**|See [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).|
-    |**Assign a role to a group**|See [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).|
+    |**Assign a role to a user**|See Assign a role to a user.|
+    |**Assign a role to a group**|See Assign a role to a group.|
 
 
-**Parent Topic:**[Configuring the Industrial Workspace](../concept/configuring-industrial-workspace.md)
+**Parent Topic:**[Configuring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/configuring-industrial-workspace.md)
 

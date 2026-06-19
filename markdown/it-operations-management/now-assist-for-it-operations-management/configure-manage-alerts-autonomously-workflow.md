@@ -2,13 +2,14 @@
 title: Configure the manage alerts autonomously agentic workflow
 description: Configure an alert management rule to operate the manage alerts autonomously agentic workflow manually or automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/now-assist-for-it-operations-management/configure-manage-alerts-autonomously-workflow.html
 release: zurich
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
 topic_type: task
 last_updated: "2026-01-01"
-reading_time_minutes: 4
-breadcrumb: [Configuring agents and skills for Now Assist for ITOM, Configure, Now Assist for ITOM, IT Operations Management]
+reading_time_minutes: 3
+breadcrumb: [Configure, Now Assist for ITOM, IT Operations Management]
 ---
 
 # Configure the manage alerts autonomously agentic workflow
@@ -17,21 +18,21 @@ Configure an alert management rule to operate the manage alerts autonomously age
 
 ## Before you begin
 
--   [Install Now Assist for IT Operations Management \(ITOM\)](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US). For more information about installing Now Assist plugins, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+-   Install Now Assist for IT Operations Management \(ITOM\). For more information about installing Now Assist plugins, see .
 
-[Role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://www.servicenow.com/docs/access?context=define-sec-controls-aw&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+Role masking enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
 
 Role required: evt\_mgmt\_admin, evt\_mgmt\_operator
 
 ## About this task
 
-Configure the autonomous workflow alert management rule to operate the manage alerts autonomously agentic workflow manually or automatically. For more information about alert management rules, see [Alert management rules for resolving alerts](../../event-management/concept/alert-management-rule.md).
+Configure the autonomous workflow alert management rule to operate the manage alerts autonomously agentic workflow manually or automatically. For more information about alert management rules, see [Alert management rules for resolving alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/alert-management-rule.md).
 
 When the workflow operates automatically, alerts are addressed as theyâ€™re created and AI insight information is displayed in Express List.
 
-When the workflow operates manually, users must manually generate AI insights. For more information, see [Review AI generated alert information and insights in Express List](use-ai-insights-express-list.md).
+When the workflow operates manually, users must manually generate AI insights. For more information, see [Review AI generated alert information and insights in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/use-ai-insights-express-list.md).
 
-For more information about the manage alerts autonomously agentic workflow, see [Manage alerts autonomously agentic workflow](../concept/itom-autonomous-operator-workflow.md).
+For more information about the manage alerts autonomously agentic workflow, see [Manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/itom-autonomous-operator-workflow.md).
 
 **Note:**
 
@@ -41,7 +42,7 @@ If you change the alert management rule for the manage alert autonomously workï¬
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the bottom of the navigation pane, select the AIOps configuration center icon ![ITOM AIOps configuration center icon](../../health-log-analytics-admin/image/icon-itom-aiops-config.png).
+2.  From the bottom of the navigation pane, select the AIOps configuration center icon \[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon.
 
     The ITOM AIOps configuration center page appears. The configuration center is a centralized workspace. Use it to configure and manage AIOps features from a single place.
 
@@ -49,7 +50,7 @@ If you change the alert management rule for the manage alert autonomously workï¬
 
     The Respond page appears.
 
-    ![Respond automation page from where you can create automation to remediate action on alerts, escalate alerts or notify stakeholders.](../../service-operations-workspace-itom/image/respond-automation-page.png)
+    \[Omitted image "respond-automation-page.png"\] Alt text: Respond automation page from where you can create automation to remediate action on alerts, escalate alerts or notify stakeholders.
 
 4.  In the Name column, select **Autonomous workflow**.
 
@@ -61,25 +62,17 @@ If you change the alert management rule for the manage alert autonomously workï¬
 
 6.  In the Execution column, double-click the cell for the **Autonomous workflow**.
 
-7.  Select the drop-down arrow to choose alert execution, and then select the green check mark to save. ![Execution information for the autonomous workflow alert management rule.](../image/autonomous_alert_execution.png)
+7.  Select the drop-down arrow to choose alert execution, and then select the green check mark to save. \[Omitted image "autonomous\_alert\_execution.png"\] Alt text: Execution information for the autonomous workflow alert management rule.
 
 
 ## What to do next
 
-To learn more about generating AI insights with the manage alerts autonomously agentic workflow, see [Review AI generated alert information and insights in Express List](use-ai-insights-express-list.md).
+To learn more about generating AI insights with the manage alerts autonomously agentic workflow, see [Review AI generated alert information and insights in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/use-ai-insights-express-list.md).
 
-**Parent Topic:**[Configuring agents and skills for Now Assist for ITOM](../concept/itom-ai-agent-configuration.md)
+-   **[Configure the Datadog analysis AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-config-datadog.md)**  
+Configure the Datadog analysis AI agent to use the Datadog observability skill in the manage alerts autonomously agentic workflow. Once configured, the skill gathers information to help you investigate alerts.
+-   **[Configure the Google Gemini Cloud Assist agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-config-google-cloud.md)**  
+Configure the Google Gemini Cloud Assist agent to use the Gemini Cloud Assistant observability skill in the manage alerts autonomously agentic workflow. Once configured, the skill gathers information to help you investigate alerts.
 
-**Related topics**  
-
-
-[Configure the Datadog analysis AI agent](now-assist-itom-config-datadog.md)
-
-[Configuring Dynatrace agents](now-assist-itom-dynatrace-configs.md)
-
-[Configure the Google Gemini Cloud Assist agent](now-assist-itom-config-google-cloud.md)
-
-[Configure the Kentik analysis AI agent](now-assist-itom-config-kentik.md)
-
-[Configure the New Relic analysis AI agent](now-assist-itom-config-new-relic.md)
+**Parent Topic:**[Configure Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-configure.md)
 

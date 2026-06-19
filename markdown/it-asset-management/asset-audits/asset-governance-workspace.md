@@ -2,6 +2,7 @@
 title: Asset Governance Workspace
 description: If you are an asset manager, you can use the Asset Governance Workspace to get a comprehensive view of your assigned evidence requests and to track and manage your responses to those requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/asset-audits/asset-governance-workspace.html
 release: zurich
 product: Asset Audits
 classification: asset-audits
@@ -24,5 +25,5 @@ The Asset Governance Workspace is a unified medium with a single view. This view
 -   Gain insight into important audit data, such as the due date and requirements of each request.
 -   Track and manage remediation tasks.
 
-The Asset Governance Workspace contains the [Asset governance overview](asset-governance-overview.md).
+The Asset Governance Workspace contains the [Asset governance overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-audits/asset-governance-overview.md).
 

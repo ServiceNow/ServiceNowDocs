@@ -2,6 +2,7 @@
 title: cabrillo.viewLayout - Client
 description: Cabrillo JS functions to provide access to native UI elements like buttons and spinners.Gets the current native view's title.Hides the back button on the client interface.Hides a native spinner in the current interface.Set buttons at the bottom of the current interface.Set buttons in the navigation bar of the current interface.Sets the current native view's title.Shows the back button on the client interface.Shows a native spinner in the current interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/cllent-mobile-api-reference/cabrillo-viewLayout-namespace.html
 release: zurich
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Client mobile API reference, API reference, API implementation and 
 
 Cabrillo JS functions to provide access to native UI elements like buttons and spinners.
 
-**Parent Topic:**[Client mobile API reference](../../../../../build/applications/concept/api-client-mobile.md)
+**Parent Topic:**[Client mobile API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/api-client-mobile.md)
 
 ## cabrillo.viewLayout - getTitle\(\)
 

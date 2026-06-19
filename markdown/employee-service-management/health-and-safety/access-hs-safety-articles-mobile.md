@@ -2,6 +2,7 @@
 title: Access safety knowledge articles through the Now Mobile app
 description: Access your company's health and safety knowledge base on your mobile device using the ServiceNow Now Mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety/access-hs-safety-articles-mobile.html
 release: zurich
 product: Health and Safety
 classification: health-and-safety
@@ -30,5 +31,5 @@ Role required: sn\_ohs\_im.requestor
     -   In the **Browse from all topics** section on the page, tap **Safety knowledge articles** and then tap the required knowledge article.
     -   In the **Safety knowledge articles** section on the page, tap the required knowledge article.
 
-**Parent Topic:**[Mobile experience for Health and Safety](../concept/hs-health-safety-mobile.md)
+**Parent Topic:**[Mobile experience for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-health-safety-mobile.md)
 

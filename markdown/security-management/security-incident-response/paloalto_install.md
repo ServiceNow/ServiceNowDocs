@@ -2,6 +2,7 @@
 title: Set up and install Palo Alto Networks Next-Generation Firewall
 description: Complete the following setup checklist prior to installation. These setup tasks are required for a smooth installation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/paloalto\_install.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -60,7 +61,7 @@ Verify that you have downloaded and configured the DigiCert Root Authority Certi
 
 </td><td>
 
-The integration requires this certificate to validate and authenticate the secure connection between the ServiceNow AI Platform server and the Palo Alto Networks Next-Generation Firewall server. For more information on setting up the certificate, see ["Configure a Certificate Profile" in the PAN-OS 10.0 Administrator's Guide](https://docs.paloaltonetworks.com/pan-os/10-0/pan-os-admin/certificate-management/configure-a-certificate-profile). For the download, see [Create a certificate profile for the Palo Alto Networks Next-Generation Firewall](../concept/paloalto-create-cert-profile.md) and [DigiCert Trusted Root Authority Certificates](https://www.digicert.com/kb/digicert-root-certificates.htm).
+The integration requires this certificate to validate and authenticate the secure connection between the ServiceNow AI Platform server and the Palo Alto Networks Next-Generation Firewall server. For more information on setting up the certificate, see ["Configure a Certificate Profile" in the PAN-OS 10.0 Administrator's Guide](https://docs.paloaltonetworks.com/pan-os/10-0/pan-os-admin/certificate-management/configure-a-certificate-profile). For the download, see [Create a certificate profile for the Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/paloalto-create-cert-profile.md) and [DigiCert Trusted Root Authority Certificates](https://www.digicert.com/kb/digicert-root-certificates.htm).
 
 </td></tr><tr><td>
 
@@ -79,7 +80,7 @@ Madrid and later release requirements
 3.  Security Support Common
 4.  Security Support Orchestration
 
- For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product or application](../../security-incident-response/task/entitle-secops-product.md) and [Activate a ServiceNow Store application](../../security-incident-response/task/activate-entitled-store-app.md).
+ For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/activate-entitled-store-app.md).
 
 </td></tr><tr><td>
 
@@ -92,12 +93,12 @@ To verify that email send/receive capability is enabled in your ServiceNow AI Pl
 </td></tr></tbody>
 </table>## Procedure
 
-1.  If you have not installed the application for the integration, see [Install a Security Operations integration](../../security-incident-response/task/install-non-core-apps.md) and follow the steps to install it.
+1.  If you have not installed the application for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/install-non-core-apps.md) and follow the steps to install it.
 
 
-**Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](../concept/paloalto_integration.md)
+**Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/paloalto_integration.md)
 
-**Previous topic:**[Create a certificate profile for the Palo Alto Networks Next-Generation Firewall](../concept/paloalto-create-cert-profile.md)
+**Previous topic:**[Create a certificate profile for the Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/paloalto-create-cert-profile.md)
 
-**Next topic:**[Create the API account role for Palo Alto Networks Next-Generation Firewall](paloalto-create-snrole.md)
+**Next topic:**[Create the API account role for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/paloalto-create-snrole.md)
 

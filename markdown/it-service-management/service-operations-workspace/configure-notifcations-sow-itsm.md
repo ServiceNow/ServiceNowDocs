@@ -2,6 +2,7 @@
 title: Configure notifications in Service Operations Workspace for ITSM
 description: Customize notifications that are sent to an agent to update about various changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/configure-notifcations-sow-itsm.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -28,9 +29,9 @@ An agent is notified in the following scenarios:
 -   A change request, incident, or problem assigned to an agent has any updates.
 -   A task is delegated to the agent.
 
-The notification icon shows notification alerts. The icon shows a badge with notification count and new notifications for a short duration.![SOW notification alert](../image/sow-notification-alert.png)
+The notification icon shows notification alerts. The icon shows a badge with notification count and new notifications for a short duration.\[Omitted image "sow-notification-alert.png"\] Alt text: SOW notification alert
 
-Use the notification icon to view the notifications.![SOW notifications](../image/sow-notifications.png)
+Use the notification icon to view the notifications.\[Omitted image "sow-notifications.png"\] Alt text: SOW notifications
 
 In email notifications, you can decide where the link to a record is redirected. Instead of a record automatically opening in the classic UI16 interface, the record can be opened in Service Operations Workspace \(SOW\). The ITSM Notifications Redirection \(com.snc.itsm.notifications\_redirection\) plugin is installed and activated automatically to support this behavior. The record link in an email notification opens in SOW only if the following conditions are met:
 

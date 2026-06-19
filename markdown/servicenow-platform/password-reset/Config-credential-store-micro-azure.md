@@ -2,6 +2,7 @@
 title: Integrate Password Reset with your Microsoft Entra ID
 description: When the Microsoft Entra ID Integration for Password Reset store app is activated, the Password Reset application can manage passwords of a Microsoft Entra ID application. The application manages passwords by referencing a Microsoft Entra ID user with appropriate roles and password change privileges.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/password-reset/Config-credential-store-micro-azure.html
 release: zurich
 product: Password Reset
 classification: password-reset
@@ -23,14 +24,14 @@ Role required: password\_reset\_admin
 
 1.  To integrate Password Reset with your Microsoft Entra ID, you must set up the Microsoft Entra ID spoke.
 
-    For more information about setting it up, see [Set up Microsoft Entra ID spoke](https://www.servicenow.com/docs/access?context=set-up-azure&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+    For more information about setting it up, see .
 
     The Microsoft Entra ID Integration for Password Reset is integrated.
 
 
 ## What to do next
 
-Create a connection to the credential store as described in [Configure the connection to an AD credential store](config-ad-credential-store.md).
+Create a connection to the credential store as described in [Configure the connection to an AD credential store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/config-ad-credential-store.md).
 
-**Parent Topic:**[Credential Store for Password Reset for Microsoft Entra ID](../concept/credentials-store-micro-ad.md)
+**Parent Topic:**[Credential Store for Password Reset for Microsoft Entra ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/credentials-store-micro-ad.md)
 

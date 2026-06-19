@@ -2,6 +2,7 @@
 title: Activate Universal Request Advanced Work Assignment
 description: You can activate the Universal Request: Advanced Work Assignment plugin \(com.snc.universal\_request.awa\) if you have the admin role. Activating this plugin enables you to use Advanced Work Assignment and automatically assign work items to your agents, based on their availability in the Universal Request application. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-request-for-hr-service-delivery/activate-ur-awa-plugin.html
 release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -19,7 +20,7 @@ You can activate the Universal Request: Advanced Work Assignment plugin \(com.sn
 
 **Note:** The Universal Request: Advanced Work Assignment plugin \(com.snc.universal\_request.awa\) plugin requires a separate subscription and must be activated by a ServiceNow personnel.
 
-Before installing the Universal Request: Advanced Work Assignment plugin \(com.snc.universal\_request.awa\) plugin, install the Universal Request plugin. For more information, see [Activate Universal Request](activate-ur-plugin.md).
+Before installing the Universal Request: Advanced Work Assignment plugin \(com.snc.universal\_request.awa\) plugin, install the Universal Request plugin. For more information, see [Activate Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/activate-ur-plugin.md).
 
 Role required: admin
 
@@ -35,13 +36,13 @@ Role required: admin
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
-**Parent Topic:**[Universal Request plugins](../concept/ur-plugins.md)
+**Parent Topic:**[Universal Request plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-plugins.md)
 
 **Related topics**  
 
 
-[List of plugins \(Zurich\)](https://www.servicenow.com/docs/access?context=list-of-plugins&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+[bundle-platadm.list-of-plugins]
 

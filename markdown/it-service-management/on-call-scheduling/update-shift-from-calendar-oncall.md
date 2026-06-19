@@ -2,6 +2,7 @@
 title: Update shift details from the On-Call calendar
 description: To save time, update shift details directly from an on-call calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/on-call-scheduling/update-shift-from-calendar-oncall.html
 release: zurich
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -23,7 +24,7 @@ Role required: rota\_admin or admin
 
 1.  Navigate to **All** &gt; **On-Call Scheduling** &gt; **On-Call Calendars**.
 
-2.  In the title bar, click the toggle filters icon ![Configuration icon](../image/ONC_SettingsIcon.png) and select a user group.
+2.  In the title bar, click the toggle filters icon \[Omitted image "ONC\_SettingsIcon.png"\] Alt text: Configuration icon and select a user group.
 
 3.  Click the shift name on the calendar.
 
@@ -147,5 +148,5 @@ Number of weeks or days for which you want to update the subscribed calendar.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configure or update an On-Call shift](config-update-shift-oncall.md)
+**Parent Topic:**[Configure or update an On-Call shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/config-update-shift-oncall.md)
 

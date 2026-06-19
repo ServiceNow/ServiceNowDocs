@@ -2,6 +2,7 @@
 title: Verify the conversion of Agile Development 1.0 teams to Agile Development 2.0 groups
 description: Perform verification steps to ensure that the conversion of a team to an assignment group is successful.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/verify-after-conversion.html
 release: zurich
 product: Agile Development
 classification: agile-development
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-**Important:** Agile Development 1.0 and its features such as Sprint burndown chart and release burndown chart are deprecated and no longer available. [Agile Development 2.0](../reference/agile-landing-page.md) provides the latest experience for supporting your Agile work methodology.
+**Important:** Agile Development 1.0 and its features such as Sprint burndown chart and release burndown chart are deprecated and no longer available. [Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/agile-landing-page.md) provides the latest experience for supporting your Agile work methodology.
 
 ## Procedure
 
@@ -61,5 +62,5 @@ Role required: admin
     You can repeat this procedure for all other teams one by one. This is a synchronous process, hence, you should perform these steps on one team at a time.
 
 
-**Parent Topic:**[Convert Agile Development 1.0 teams to Agile Development 2.0 groups](convert-teams-groups.md)
+**Parent Topic:**[Convert Agile Development 1.0 teams to Agile Development 2.0 groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/convert-teams-groups.md)
 

@@ -2,6 +2,7 @@
 title: Discovery sensors
 description: Every probe in Discovery must have a corresponding sensor to process the data returned.By default, this rule cancels the sensor transaction if it takes more than 20 minutes to complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/r\_Sensors.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -17,7 +18,7 @@ Every probe in Discovery must have a corresponding sensor to process the data re
 
 For example, if incoming data is the result of a WMI probe, then the WMI sensor is triggered to process the payload.
 
-**Note:** If you create a multiprobe, you must create a multisensor to process the data returned from this probe.For details, see [Multiprobes and Multisensors](r_MultiprobesIncludedWithDiscovery.md#).
+**Note:** If you create a multiprobe, you must create a multisensor to process the data returned from this probe.For details, see [Multiprobes and Multisensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_MultiprobesIncludedWithDiscovery.md).
 
 Navigate to **Discovery** &gt; **Discovery Definition** &gt; **Sensors** and edit or create a sensor.
 
@@ -180,7 +181,7 @@ External names
 Enter a name to tag the sensor data.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Discovery probes and sensors](../concept/c_DiscoveryProbesAndSensors.md)
+</table>**Parent Topic:**[Discovery probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_DiscoveryProbesAndSensors.md)
 
 ## Cancel sensor transaction by duration
 

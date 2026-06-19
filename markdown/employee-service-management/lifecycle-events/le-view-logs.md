@@ -2,6 +2,7 @@
 title: View log entries for a Lifecycle Events case
 description: View the log entries associated with a Lifecycle Events case to acquire pertinent information about the processes that ran and to identify any errors that surface. The error logs can be used as a tool to diagnose problems and effectively troubleshoot the root cause of an issue that is adversely affecting a Lifecycle Events case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/lifecycle-events/le-view-logs.html
 release: zurich
 product: Lifecycle Events
 classification: lifecycle-events
@@ -17,7 +18,7 @@ View the log entries associated with a Lifecycle Events case to acquire pertinen
 
 ## Before you begin
 
-Role required: admin \[sn\_hr\_le.admin\]
+Role required: sn\_hr\_le.admin
 
 ## Procedure
 
@@ -32,5 +33,5 @@ Role required: admin \[sn\_hr\_le.admin\]
 4.  View the list of log entries to acquire the information you need about an error or a process that ran.
 
 
-**Parent Topic:**[Lifecycle Events logging](../concept/le-logging.md)
+**Parent Topic:**[Lifecycle Events logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/le-logging.md)
 

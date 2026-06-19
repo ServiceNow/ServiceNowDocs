@@ -2,6 +2,7 @@
 title: Download a project status report
 description: Download your projects and project status reports as a Microsoft PowerPoint file to share it with the stakeholders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/export-to-powerpoint-for-application-portfolio-management/download-status-report.html
 release: zurich
 product: Export to PowerPoint for Application Portfolio Management
 classification: export-to-powerpoint-for-application-portfolio-management
@@ -23,20 +24,20 @@ Role required: sn\_ppt\_export.ppt\_user
 
 ## Procedure
 
-1.  To download your status report for Enterprise Architecture \(formerlyApplication Portfolio Management\), see [Export data to Microsoft PowerPoint - Legacy](https://www.servicenow.com/docs/access?context=export-apm-data-ppt&version=zurich&pubname=zurich-application-portfolio-management&ft:locale=en-US).
+1.  To download your status report for Enterprise Architecture \(formerlyApplication Portfolio Management\), see .
 
-2.  To download your status report for Project Workspace, see [Export a project status report to Microsoft PowerPoint from Project Workspace](../../project-workspace/task/export-project-status-report-to-powerpoint-from-project-workspace.md).
+2.  To download your status report for Project Workspace, see [Export a project status report to Microsoft PowerPoint from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/export-project-status-report-to-powerpoint-from-project-workspace.md).
 
-3.  To download your project from Project Workspace, see [Export a project from Project Workspace](../../project-workspace/task/export-project-to-powerpoint-from-project-workspace.md).
+3.  To download your project from Project Workspace, see [Export a project from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/export-project-to-powerpoint-from-project-workspace.md).
 
-4.  To download your status report for Strategic Planning, see [Export the portfolio plan status or roadmap to Microsoft PowerPoint](../../alignment-planner-workspace/task/export-a-portfolio-plan-to-powerpoint-strategic-planning.md).
+4.  To download your status report for Strategic Planning, see [Export the portfolio plan status or roadmap to Microsoft PowerPoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/export-a-portfolio-plan-to-powerpoint-strategic-planning.md).
 
-5.  To download your status report for Portfolio Planning, see [Export the portfolio plan status or roadmap to Microsoft PowerPoint](../../portfolio-planning/concept/export-portfolio-plan-status-to-ppt-portfolio-planning-workspace.md).
+5.  To download your status report for Portfolio Planning, see [Export the portfolio plan status or roadmap to Microsoft PowerPoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/export-portfolio-plan-status-to-ppt-portfolio-planning-workspace.md).
 
 
 ## Result
 
 Your report is downloaded as a Microsoft PowerPoint file with the project number and status report date as the file name.
 
-**Parent Topic:**[Using Export to PowerPoint](../concept/using-export-to-ppt.md)
+**Parent Topic:**[Using Export to PowerPoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/export-to-powerpoint-for-application-portfolio-management/using-export-to-ppt.md)
 

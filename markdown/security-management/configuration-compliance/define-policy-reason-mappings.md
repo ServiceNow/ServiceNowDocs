@@ -2,6 +2,7 @@
 title: Define policy reason mappings
 description: You can define the reason choices to be available to any user who requests an exception.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/define-policy-reason-mappings.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance

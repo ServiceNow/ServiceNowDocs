@@ -2,6 +2,7 @@
 title: Thread performance monitoring
 description: The instance tracks the performance of individual threads, which administrators can view in the transaction log.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-performance/c\_MonitorPerformanceOnThreads.html
 release: zurich
 product: Platform Performance
 classification: platform-performance
@@ -17,5 +18,5 @@ The instance tracks the performance of individual threads, which administrators 
 
 The amount of time a thread waits for an available semaphore or session synchronization is included in the **Response Time** field in the transaction log. To view the transaction log, navigate to **All** &gt; **System Logs** &gt; **Transactions**.
 
-**Parent Topic:**[Monitoring platform performance](monitoring-platform-performance.md)
+**Parent Topic:**[Monitoring platform performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/monitoring-platform-performance.md)
 

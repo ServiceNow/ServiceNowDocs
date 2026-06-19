@@ -2,6 +2,7 @@
 title: Create on-call rotation
 description: After creating on-call shift, create on-call rotation to be able to rotate the shift among employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workforce-optimization-for-hr/on-call-rotation-wfo-hr.html
 release: zurich
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -19,7 +20,7 @@ After creating on-call shift, create on-call rotation to be able to rotate the s
 
 Role required: admin
 
-Before create the on-call rotation, create an on-call shift. See, [Create an on-call shift](create-on-call-shift-wfo-hr.md).
+Before create the on-call rotation, create an on-call shift. See, [Create an on-call shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workforce-optimization-for-hr/create-on-call-shift-wfo-hr.md).
 
 ## Procedure
 
@@ -40,5 +41,5 @@ Before create the on-call rotation, create an on-call shift. See, [Create an on-
 6.  Click **Publish** to make the shift active and publish it on the schedule.
 
 
-**Parent Topic:**[Create an on-call shift](create-on-call-shift-wfo-hr.md)
+**Parent Topic:**[Create an on-call shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workforce-optimization-for-hr/create-on-call-shift-wfo-hr.md)
 

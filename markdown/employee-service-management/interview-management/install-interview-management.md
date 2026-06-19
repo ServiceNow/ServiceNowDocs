@@ -2,6 +2,7 @@
 title: Install Interview management
 description: You can install the Interview management application \(sn\_ta\_int\_mgmt\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/interview-management/install-interview-management.html
 release: zurich
 product: Interview Management
 classification: interview-management
@@ -30,7 +31,7 @@ The following items are installed with Interview management:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Interview Management](../reference/installed-with-int-mgmnt.md).
+For more information, see [Components installed with Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/interview-management/installed-with-int-mgmnt.md).
 
 ## Procedure
 
@@ -55,5 +56,5 @@ For more information, see [Components installed with Interview Management](../re
 6.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Interview Management](../concept/configuring-interview-management.md)
+**Parent Topic:**[Configuring Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/interview-management/configuring-interview-management.md)
 

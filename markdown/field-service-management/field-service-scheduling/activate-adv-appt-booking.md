@@ -2,6 +2,7 @@
 title: Activate Advanced Appointment Booking
 description: You can activate the Advanced Appointment Booking plugin \(com.snc.advanced\_appointment\_booking\) for Field Service Management if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/activate-adv-appt-booking.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -34,7 +35,7 @@ The following items are installed with Advanced Appointment Booking:
 -   Plugins
 -   Tables
 
-For more information, see [Advanced appointment booking components](../reference/adv-appt-booking-components.md).
+For more information, see [Advanced appointment booking components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/adv-appt-booking-components.md).
 
 ## Procedure
 
@@ -48,6 +49,6 @@ For more information, see [Advanced appointment booking components](../reference
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 

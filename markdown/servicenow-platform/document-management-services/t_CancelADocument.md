@@ -2,6 +2,7 @@
 title: Cancel a document
 description: Change the document state to Cancelled when no more changes will be made to the document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/t\_CancelADocument.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -38,5 +39,5 @@ When canceling a document, there is no confirmation message, so ensure that you 
     The **State** is set to **Cancelled**.
 
 
-**Parent Topic:**[Create a document](../concept/c_CreateADocument.md)
+**Parent Topic:**[Create a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/c_CreateADocument.md)
 

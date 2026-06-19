@@ -2,6 +2,7 @@
 title: Enable ServiceNow AI Platform records in CWM Docs
 description: Facilitate connecting work across ServiceNow AI Platform by enabling CWM users to add a reference to records of any ServiceNow table in CWM Docs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/collaborative-work-management/enable-now-platform-servicenow-records-cwm-docs.html
 release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -26,8 +27,6 @@ Role required: admin
 By default, the **sn\_cwm.record\_mention\_config** property is configured to include only CWM task records. To include any other ServiceNow AI Platform record, update the **Value** field of this property.
 
 Watch this video for information about enabling ServiceNow AI Platform records.
-
-Video explaining how to enable Now platform records in CWM. Approximately one minute and 4 seconds long.
 
 ## Procedure
 

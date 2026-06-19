@@ -2,6 +2,7 @@
 title: Assign a problematic CI to its incident to view live CI data
 description: Retrieve live CI data to help troubleshoot the issues that caused an incident by assigning the problematic CI to its incident. An incident typically is associated with the CI that caused the incident, but if this was omitted during the incident creation, you can assign the CI manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-live-ci-view-assign-ci.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -25,7 +26,7 @@ Role required: itil
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the Lists icon \(![Lists icon](../image/lists-icon.png)\) icon.
+2.  Select the Lists icon \(\[Omitted image "lists-icon.png"\] Alt text: Lists icon\) icon.
 
 3.  Select **Incidents** &gt; **All**.
 

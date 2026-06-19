@@ -2,6 +2,7 @@
 title: Work on a document task to verify documents for a deposit case
 description: Work on a document task to verify inbound documents that are needed for a deposit service case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-deposit-operations/work-document-task-deposit-ops.html
 release: zurich
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
@@ -30,7 +31,7 @@ The Document Management Service determines which documents are required in a wor
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Document Service**, open the task list.
 
@@ -54,5 +55,5 @@ The Document Management Service determines which documents are required in a wor
 -   The document task moves to the Closed Complete state.
 -   In the parent deposit case, the Verify documents stage in the case playbook shows as complete and the case moves to the next stage.
 
-**Parent Topic:**[Using Financial Services Deposit Operations](../concept/using-deposit-ops.md)
+**Parent Topic:**[Using Financial Services Deposit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-deposit-operations/using-deposit-ops.md)
 

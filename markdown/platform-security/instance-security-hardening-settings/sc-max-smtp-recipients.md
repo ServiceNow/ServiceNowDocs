@@ -2,6 +2,7 @@
 title: Minimize SMTP Recipient Quantity \[Updated in Security Center 1.3\]
 description: The glide.email.smtp.max\_recipients specifies the maximum number of recipients the instance can list in the To: line for a single email notification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-max-smtp-recipients.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -23,7 +24,7 @@ Set **glide.email.smtp.max\_recipients** to the recommended value of **100 or le
 |---------|-----------|
 |Property name|**glide.email.smtp.max\_recipients**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Business Logic](sc-business-logic.md)|
+|Category|[Business Logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-business-logic.md)|
 |Purpose|If this property is set to an insecure value above the default value of 100, then its possible a denial of service could happen on the instance.|
 |Recommended value|100|
 |Default value|100|
@@ -31,7 +32,7 @@ Set **glide.email.smtp.max\_recipients** to the recommended value of **100 or le
 |Security risk|\(Moderate\) Notifications that would exceed this limit instead create duplicate email notifications addressed to a subset of the recipient list.|
 |Security risk rating|4.9|
 
-To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Business Logic](sc-business-logic.md)
+**Parent Topic:**[Business Logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-business-logic.md)
 

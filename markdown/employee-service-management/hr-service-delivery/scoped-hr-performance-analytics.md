@@ -2,6 +2,7 @@
 title: Performance Analytics for HR Service Delivery
 description: HR Performance Analytics measures key performance indicators to track HR performance over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/scoped-hr-performance-analytics.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -30,19 +31,19 @@ To configure the Performance Analytics \(PA\) dashboard, assign the Performance 
 
 **Note:** Only the System Administrator \[admin\] can assign PA roles to employees.
 
-See [Performance Analytics roles](https://www.servicenow.com/docs/access?context=r_PARoles&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+See Performance Analytics roles.
 
 Contact your account manager for more information.
 
--   **[Viewing HR Performance Analytics Scoped](../task/viewing-hr-perf-analytics.md)**  
+-   **[Viewing HR Performance Analytics Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/viewing-hr-perf-analytics.md)**  
 HR Performance Analytics for the scoped version of HR Service Delivery helps you align resources and systems to strategic objectives.
--   **[HR Performance Analytics Dashboards](../../../use/dashboards/application-content-packs/human-resources-content-pack.md)**  
+-   **[HR Performance Analytics Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/human-resources-content-pack.md)**  
 Platform Analytics Solutions contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 
-**Parent Topic:**[Integration of HR Service Delivery with ServiceNow applications](integrate-hr-platform-apps.md)
+**Parent Topic:**[Integration of HR Service Delivery with ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/integrate-hr-platform-apps.md)
 
 **Related topics**  
 
 
-[Performance Analytics](https://www.servicenow.com/docs/access?context=pa-overview&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US)
+[bundle-par.pa-overview]
 

@@ -1,13 +1,14 @@
 ---
 title: GlideElement - Scoped
-description: The scoped GlideElement API provides a number of convenient script methods for dealing with fields and their values. Scoped GlideElement methods are available for the fields of the current glide record.Determines if the user's role permits the creation of new entries in the associated field.Indicates whether the user's role permits them to read the associated GlideRecord.Determines whether the user's role permits them to write to the associated GlideRecord.Determines if the current field has been modified. This functionality is available for all available data types, except Journal fields.Determines if the previous value of the current field matches the specified object.Determines if the new value of a field, after a change, matches the specified object.Returns the number of milliseconds since January 1, 1970, 00:00:00 GMT for a duration field. Does not require the creation of a GlideDateTime object because the duration field is already a GlideDateTime object.Returns the value of the specified attribute from the dictionary.Returns the Boolean value of the specified attribute from the dictionary.Returns the choice list for a specified field.Returns the choice label for the current choice.Returns the clear text value for Password \(2 way encrypted\) fields in scoped applications.Returns the formatted display value of a specified field from an associated GlideRecord object.Gets the display value of the field in the language passed as a parameter.Returns the field's element descriptor.Returns the phone number in international format.Returns the HTML value of a field.Returns either the most recent journal entry or all journal entries.Returns the object label.Gets the label value of the field in the language passed as a parameter.Returns the name of the field.Gets the table name for a reference element.Returns a GlideRecord object for a given reference element.Returns the name of the table on which the field resides.Determines if a field is null.Sets the value of a date/time element to the specified number of milliseconds since January 1, 1970 00:00:00 GMT.Sets the display value of the field.Adds an error message. Available in Fuji patch 3.Sets the field to the specified phone number.Sets the value of a field.Converts the value of a GlideRecord field to a string.
+description: The scoped GlideElement API provides a number of convenient script methods for dealing with fields and their values. Scoped GlideElement methods are available for the fields of the current glide record.Determines if the user's role permits the creation of new entries in the associated field.Indicates whether the user's role permits them to read the associated GlideRecord.Determines whether the user's role permits them to write to the associated GlideRecord.Determines if the current field has been modified. This functionality is available for all available data types, except Journal fields.Determines if the previous value of the current field matches the specified object.Determines if the new value of a field, after a change, matches the specified object.Returns the number of milliseconds since January 1, 1970, 00:00:00 GMT for a duration field. Does not require the creation of a GlideDateTime object because the duration field is already a GlideDateTime object.Returns the value of the specified attribute from the dictionary.Returns a specified Boolean-type attribute from the dictionary as a Boolean value.Returns the choice list for a specified field.Returns the choice label for the current choice.Returns the clear text value for Password \(2 way encrypted\) fields in scoped applications.Returns the formatted display value of a specified field from an associated GlideRecord object.Gets the display value of the field in the language passed as a parameter.Returns the field's element descriptor.Retrieves the platform object associated with the field's value.Returns the phone number in international format.Returns the HTML value of a field.Returns either the most recent journal entry or all journal entries.Returns the object label.Gets the label value of the field in the language passed as a parameter.Returns the name of the field.Gets the table name for a reference element.Returns a GlideRecord object for a given reference element.Returns the name of the table that contains the field.Returns the value of a specified field from a GlideRecord object.Determines if a field is null.Sets the value of a date/time element to the specified number of milliseconds since January 1, 1970 00:00:00 GMT.Sets the display value of the field.Adds an error message to the associated field.Sets the field to the specified phone number.Sets the value of a field.Converts the value of a GlideRecord field to a string.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_GlideElementScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 19
+reading_time_minutes: 21
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The scoped GlideElement API provides a number of convenient script methods for dealing with fields and their values. Scoped GlideElement methods are available for the fields of the current glide record.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## Scoped GlideElement - canCreate\(\)
 
@@ -77,7 +78,7 @@ I can create new records for the field Problem statement for - PRB0001001
 
 ### Scoped equivalent
 
-To use the canCreate\(\) method in a scoped application, use the corresponding scoped method: [canCreate\(\)](c_GlideElementScopedAPI.md#).
+To use the canCreate\(\) method in a scoped application, use the corresponding scoped method: [canCreate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## Scoped GlideElement - canRead\(\)
 
@@ -184,7 +185,7 @@ Determines if the current field has been modified. This functionality is availab
 |----|-----------|
 |Boolean|True if the fields have been changed, false if the field has not.|
 
-The following example from a business rule shows how to create an event in the EventQueue if the value of the **assigned\_to** field changes. For a comprehensive example, see [Sample scripts from the change events business rule](https://www.servicenow.com/docs/access?context=r_ChangeEventsSampleScripts&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+The following example from a business rule shows how to create an event in the EventQueue if the value of the **assigned\_to** field changes. For a comprehensive example, see .
 
 ```
 if (!current.assigned_to.nil() && current.assigned_to.changes()) {
@@ -266,41 +267,46 @@ Output:
 
 Returns the value of the specified attribute from the dictionary.
 
-If the attribute is a boolean attribute, use getBooleanAttribute\(String\) to get the value as a boolean rather than as a string.
+For Boolean attributes, you can use the getBooleanAttribute\(\) method to return the value as a Boolean instead of a string.
 
 |Name|Type|Description|
 |----|----|-----------|
-|attributeName|String|Attribute name|
+|attributeName|String|Name of the attribute. The attribute name is listed in the Dictionary Entries \[sys\_dictionary\] table.|
 
 |Type|Description|
 |----|-----------|
-|String|Attribute value|
+|String|Value of the specified attribute.|
+
+The following example shows how to get the value of the **tree\_picker** attribute in the **location** column of the User \[sys\_user\] table as a string.
 
 ```
-doit();
-function doit() {
-  var now_GR = new GlideRecord('sys_user');
-  now_GR.query("user_name","admin");
-  if (now_GR.next()) {
-    gs.info("we got one");
-    gs.info(now_GR.location.getAttribute("tree_picker"));
-  }
+var now_GR = new GlideRecord('sys_user');
+now_GR.query("user_name","admin");
+
+if (now_GR.next()) {
+   gs.info("The value of the tree_picker attribute in the location column is " + now_GR.location.getAttribute("tree_picker"));
 }
+```
+
+Output:
+
+```
+The value of the tree_picker attribute in the location column is true
 ```
 
 ## Scoped GlideElement - getBooleanAttribute\(String attributeName\)
 
-Returns the Boolean value of the specified attribute from the dictionary.
+Returns a specified Boolean-type attribute from the dictionary as a Boolean value.
 
-To get the value as a string, use getAttribute\(string\).
+To return the attribute value as a string, use the getAttribute\(\) method.
 
 |Name|Type|Description|
 |----|----|-----------|
-|attributeName|String|Attribute name|
+|attributeName|String|Name of the attribute. The attribute name is listed in the Dictionary Entries \[sys\_dictionary\] table.|
 
 |Type|Description|
 |----|-----------|
-|Boolean|Boolean value of the attribute. Returns false if the attribute does not exist.|
+|Boolean|Specifies the value of the attribute as Boolean true or false.|
 
 The following example shows how to get Boolean values of the **ignore\_filter\_on\_new** attribute for two fields.
 
@@ -329,7 +335,7 @@ false
 
 Returns the choice list for a specified field.
 
-The field for which to return the choice list is specified in the method call. For example: `var choices = glideRecord.urgency.getChoices();`. For information on choice list field types and their associated capabilities, see [Choice list field type](https://www.servicenow.com/docs/access?context=c_ChoiceLists&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+The field for which to return the choice list is specified in the method call. For example: `var choices = glideRecord.urgency.getChoices();`. For information on choice list field types and their associated capabilities, see Choice list field type.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -421,7 +427,7 @@ The display value that is returned is dependent on the field type.
 -   Encrypted text: The database value is encrypted, while the displayed value is unencrypted based on the user's encryption context.
 -   Reference fields: The database value is sys\_id, but the display value is a display field of the referenced record.
 
-For more information on display values, see [Display values](https://www.servicenow.com/docs/access?context=c_DisplayValues&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For more information on display values, see Display values.
 
 <table id="table_vy2_525_jq" class="parameters"><thead><tr><th>
 
@@ -501,11 +507,11 @@ Priority 1
 
 Gets the display value of the field in the language passed as a parameter.
 
-The result is only applicable to translatable field types such as **Choice**, **Translated Field**, and **Translated Text**. For other field types, the result defaults to [getDisplayValue\(\)](c_GlideElementScopedAPI.md#).
+The result is only applicable to translatable field types such as **Choice**, **Translated Field**, and **Translated Text**. For other field types, the result defaults to [getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
-You must have the corresponding language plugin to retrieve a translated value. For information, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+You must have the corresponding language plugin to retrieve a translated value. For information, see .
 
-See also [Scoped GlideElement - getLabelLang\(String language\)](c_GlideElementScopedAPI.md#).
+See also [Scoped GlideElement - getLabelLang\(String language\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -550,6 +556,65 @@ grInc.query('priority', '1');
  
 var field = grInc.getElement('priority');
 var ed = field.getED();
+```
+
+## Scoped GlideElement - getGlideObject\(\)
+
+Retrieves the platform object associated with the field's value.
+
+|Name|Type|Description|
+|----|----|-----------|
+|None| | |
+
+|Type|Description|
+|----|-----------|
+|Object|A platform object corresponding to the field's data type, such as GlideDateTime. You can use this object for type-specific operations on the value. For example, date arithmetic, formatting, and timezone conversions that are not available when accessing the field value as a plain string.|
+
+The following example shows how to calculate the duration between the opened date and Service Level Agreement \(SLA\) due date of an incident record.
+
+```
+// Query an incident record with both opened_at and sla_due populated
+var incGr = new GlideRecord('incident');
+incGr.addQuery('opened_at', '!=', '');
+incGr.addQuery('sla_due', '!=', '');
+incGr.setLimit(1);
+incGr.query();
+
+if (incGr.next()) {
+    gs.info("Incident: " + incGr.getValue('number'));
+    gs.info("Opened at: " + incGr.getValue('opened_at'));
+    gs.info("SLA due: " + incGr.getValue('sla_due'));
+
+    var duration = calcDateDelta(incGr.opened_at, incGr.sla_due);
+    if (duration) {
+        gs.info("Duration in seconds: " + duration.getNumericValue() / 1000);
+        gs.info("Duration display value: " + duration.getDisplayValue());
+    }
+}
+
+function calcDateDelta(start, end) {
+    var realStart = start.getGlideObject();
+    var realEnd = end.getGlideObject();
+
+    // Use GlideDuration to calculate the difference between two GlideDateTime objects
+    var startMS = realStart.getNumericValue();
+    var endMS = realEnd.getNumericValue();
+    var deltaMS = endMS - startMS;
+
+    // Create a GlideDuration from the millisecond difference
+    var duration = new GlideDuration(deltaMS);
+    return duration;
+}
+```
+
+Output:
+
+```
+Incident: INC0000031
+Opened at: 2025-03-06 00:18:03
+SLA due: 2025-03-06 08:18:03
+Duration in seconds: 28800
+Duration display value: 8 Hours
 ```
 
 ## Scoped GlideElement - getGlobalDisplayValue\(\)
@@ -682,12 +747,12 @@ var nicePrice = now_GR.price.toString();
 
 Gets the label value of the field in the language passed as a parameter.
 
-You must have the corresponding language plugin to retrieve a translated value. For information, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+You must have the corresponding language plugin to retrieve a translated value. For information, see .
 
 See also:
 
--   [getDisplayValueLang\(\)](c_GlideElementScopedAPI.md#)
--   [getLabel\(\)](c_GlideElementScopedAPI.md#)
+-   [getDisplayValueLang\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideElementScopedAPI.md)
+-   [getLabel\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideElementScopedAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -826,7 +891,7 @@ if (grUSER.isValidRecord())
 
 ## Scoped GlideElement - getTableName\(\)
 
-Returns the name of the table on which the field resides.
+Returns the name of the table that contains the field.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -834,29 +899,73 @@ Returns the name of the table on which the field resides.
 
 |Type|Description|
 |----|-----------|
-|String|Name of the table. The returned value may be different from the table Class that the record is in. See Tables and Classes in the product documentation.|
+|String|Name of the table that contains the field that is called on. The returned value might be different from the table class that the record is in. For more information, see .|
 
 ```
 if (current.approver.getTableName() == "sysapproval_approver") {
-  if (current.approver == email.from_sys_id)  {
-     current.comments = "reply from: " + email.from + "\n\n" + email.body_text;
- 
-   // if it's been cancelled, it's cancelled.
-  var doit = true;
-  if (current.state=='cancelled')
-      doit = false;
- 
-  if (email.body.state != undefined)
-     current.state= email.body.state;
- 
-   if (doit)
-      current.update();
-} else {
-   gs.log("Approval for task ("+current.sysapproval.getDisplayValue()+") rejected because user sending 
-           email( "+email.from+") does not match the approver ("+current.approver.getDisplayValue()+")");
+    if (current.approver == email.from_sys_id) {
+        current.comments = "reply from: " + email.from + "\n\n" + email.body_text;
+
+        // if it's been cancelled, it's cancelled.
+        var doit = true;
+        if (current.state == 'cancelled')
+            doit = false;
+
+        if (email.body.state != undefined)
+            current.state = email.body.state;
+
+        if (doit)
+            current.update();
+    } else {
+        gs.log("Approval for task " + current.sysapproval.getDisplayValue() +
+            " rejected because user sending email " + email.from +
+            " does not match the approver " + current.approver.getDisplayValue());
+    }
 }
- 
-}
+```
+
+## Scoped GlideElement - getValue\(\)
+
+Returns the value of a specified field from a GlideRecord object.
+
+This method returns the internal value of the associated database field. To return the display value of the field, use the [getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideElementScopedAPI.md) method.
+
+|Name|Type|Description|
+|----|----|-----------|
+|None| | |
+
+|Type|Description|
+|----|-----------|
+|String|Value of the field.|
+
+The following example shows how to retrieve both the display value and internal value of specified fields in the incident database.
+
+```
+var now_GR = new GlideRecord('incident');
+now_GR.get('9c573169c611228700193229fff72400'); //INC0000001
+gs.info('Display Values:');
+gs.info('Opened at ' + now_GR.opened_at.getDisplayValue());
+gs.info('Opened by ' + now_GR.opened_by.getDisplayValue());
+gs.info('Priority ' + now_GR.priority.getDisplayValue());
+gs.info('Values:');
+gs.info('Opened at ' + now_GR.opened_at.getValue());
+gs.info('Opened by ' + now_GR.opened_by.getValue());
+gs.info('Priority ' + now_GR.priority.getValue());
+
+```
+
+Output:
+
+```
+Display Values:
+Opened at 2022-02-01 15:09:51
+Opened by Joe Employee
+Priority 1 - Critical
+Values:
+Opened at 2022-02-01 23:09:51
+Opened by 681ccaf9c0a8016400b98a06818d57c7
+Priority 1
+
 ```
 
 ## Scoped GlideElement - nil\(\)
@@ -946,7 +1055,7 @@ gs.info(glideRecord.urgency);
 
 ## Scoped GlideElement - setError\(String errorMessage\)
 
-Adds an error message. Available in Fuji patch 3.
+Adds an error message to the associated field.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -954,14 +1063,24 @@ Adds an error message. Available in Fuji patch 3.
 
 |Type|Description|
 |----|-----------|
-|void| |
+|None| |
+
+The following example shows how to set an error message on Priority 1 incidents with empty short descriptions.
 
 ```
-var glideRecord = new GlideRecord('incident');
-glideRecord.query('priority','1');
-glideRecord.next();
- 
-glideRecord.short_description.setError('Error text');
+var now_GR = new GlideRecord('incident');
+now_GR.addQuery('priority', '1');
+now_GR.query();
+
+if (now_GR.next()) {
+    var shortDesc = now_GR.short_description.toString();
+
+    if (!shortDesc || shortDesc.trim() === '') {
+        now_GR.short_description.setError(
+            'A short description is required for all Priority 1 incidents. Please provide a brief summary of the issue.'
+        );
+    }
+}
 ```
 
 ## Scoped GlideElement - setPhoneNumber\(Object phoneNumber, Boolean strict\)
@@ -1035,9 +1154,9 @@ Sets the value of a field.
 
     See also:
 
-    -   [Deprecate GlideEncrypter usage of 3DES for password2 fields](https://www.servicenow.com/docs/access?context=password2-3des-deprecation&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+    -   
     -   [Alternatives to GlideEncrypter usage in knowledge base article KB1320986](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1320986)
-    -   [Password2 encryption with the Key Management Framework \(KMF\)](https://www.servicenow.com/docs/access?context=password-2way-encrypted-fields&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+    -   
 
 |Name|Type|Description|
 |----|----|-----------|

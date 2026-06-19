@@ -2,6 +2,7 @@
 title: Request updates for items in a single order
 description: Request changes for the expected order fulfillment date, shipping location, or quantity for specific items in an order by creating an order case from the Business Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/create-order-case-specific-order-lines.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

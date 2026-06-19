@@ -2,6 +2,7 @@
 title: Resolve order fallouts
 description: Learn how to close the order fallout tasks in Order Management so that you can progress with order fulfillment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/resolve-order-fallouts.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,7 +24,7 @@ Role required: sn\_fallout\_mgmt.fallout\_manager, sn\_fallout\_mgmt.fallout\_ag
 
 1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Fallouts** &gt; **All**.
 
@@ -31,7 +32,7 @@ Role required: sn\_fallout\_mgmt.fallout\_manager, sn\_fallout\_mgmt.fallout\_ag
 
 4.  Select the fallout record you want to view.
 
-    For information about field descriptions, see the Fallout workspace fields section in [Fallout form fields](../reference/fields-create-fallout-form.md).
+    For information about field descriptions, see the Fallout workspace fields section in [Fallout form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/fields-create-fallout-form.md).
 
 5.  Enter a work note to as you work with the fallout task.
 
@@ -42,7 +43,7 @@ Role required: sn\_fallout\_mgmt.fallout\_manager, sn\_fallout\_mgmt.fallout\_ag
 
 ## What to do next
 
-After resolving a fallout task, review and close the order fulfillment task. For more information, see [Review and close fulfillment tasks](order-mgt-customer-order-tasks.md).
+After resolving a fallout task, review and close the order fulfillment task. For more information, see [Review and close fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-mgt-customer-order-tasks.md).
 
-**Parent Topic:**[Managing order fallout](../concept/fallout-management-overview.md)
+**Parent Topic:**[Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/fallout-management-overview.md)
 

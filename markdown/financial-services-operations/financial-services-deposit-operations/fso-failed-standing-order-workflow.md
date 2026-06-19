@@ -2,6 +2,7 @@
 title: Failed standing order workflow
 description: Learn how bank agents, using the failed standing order workflow, proactively contact a customer for a failed standing order for their deposit account and decide on an action plan. The workflow applies to both business and personal deposit accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-deposit-operations/fso-failed-standing-order-workflow.html
 release: zurich
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
@@ -17,7 +18,7 @@ Learn how bank agents, using the failed standing order workflow, proactively con
 
 The following diagram shows how the application helps bank agents handle a failed standing order for a deposit account.
 
-![Workflow that shows how a failed standing order is handled using the Deposit Operations application. For the text description, refer to the workflow steps that follow.](../image/failed-standing-order-workflow.png "Failed standing order workflow example")
+\[Omitted image "failed-standing-order-workflow.png"\] Alt text: Workflow that shows how a failed standing order is handled using the Deposit Operations application. For the text description, refer to the workflow steps that follow.
 
 The deposit admin can review and customize this predefined flow based on the business needs of your organization.
 
@@ -55,5 +56,5 @@ The following workflow routes the case and tasks for a failed standing order to 
         After the child case is complete, the state and the stage of the parent case \(failed standing order\) are set to Closed Complete.
 
 
-**Parent Topic:**[Financial Services Deposit Operations workflows](deposit-operations-workflows.md)
+**Parent Topic:**[Financial Services Deposit Operations workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-deposit-operations/deposit-operations-workflows.md)
 

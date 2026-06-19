@@ -2,6 +2,7 @@
 title: Configure Accounts payable document classification skill
 description: Configure the Document classification skill to automatically identify and categorize incoming documents by type before the invoice extraction process begins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/config-doc-classification-skill-apo.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -42,9 +43,9 @@ Plugins required:
 
     The **Accounts payable document classification** use case is provided as out of the box within the skill. Make a copy of the following OOB flows in the flow designer and activate.
 
-    -   [Invoice processing case for invoice email](inv-processing-case-invoice-email.md)
-    -   [Process classification attachment using DI](process-classification-attachment-di.md)
-    -   [Classification values on invoice staging](set-classification-values-on-invoice-stage.md)
+    -   [Invoice processing case for invoice email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/inv-processing-case-invoice-email.md)
+    -   [Process classification attachment using DI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/process-classification-attachment-di.md)
+    -   [Classification values on invoice staging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/set-classification-values-on-invoice-stage.md)
     -       **Note:** The **Manual Classification on DI Error** scheduler runs every 30 minutes, checking for invoice cases where the DocIntel status is stuck in processing classification, and performs the following actions:
 
     -   Sets the DI status to Classification failed and the staging record status to Review required if all associated staging records are stuck in in-processing state

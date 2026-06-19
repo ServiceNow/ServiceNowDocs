@@ -2,6 +2,7 @@
 title: Preview and download a signed contract document
 description: View and download a signed contract document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-preview-contract.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -50,15 +51,15 @@ When multiple contract documents are attached, a separate contract repository re
 
 6.  View the contract document.
 
-<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d746398e125">
+<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d709468e125">
 
 Choice
 
-</th><th align="left" id="d746398e128">
+</th><th align="left" id="d709468e128">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d746398e134">
+</th></tr></thead><tbody><tr><td id="d709468e134">
 
 **When internal storage is configured**
 
@@ -69,7 +70,7 @@ Steps
 3.  Select download icon to download the document.
 
 
-</td></tr><tr><td id="d746398e155">
+</td></tr><tr><td id="d709468e155">
 
 **When external storage is configured**
 
@@ -81,5 +82,5 @@ Steps
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Contract Management Pro](../concept/cncore-use-cmpro.md)
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

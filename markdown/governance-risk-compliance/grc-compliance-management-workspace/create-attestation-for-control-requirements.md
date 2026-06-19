@@ -2,6 +2,7 @@
 title: Take attestation at control requirements level
 description: The Take attestation at requirement level option enables administrators to perform compliance attestation at a granular level for individual control requirements within a control.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/create-attestation-for-control-requirements.html
 release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

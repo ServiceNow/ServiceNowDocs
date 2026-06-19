@@ -2,6 +2,7 @@
 title: Activate the control objective impact analyzer skill
 description: Enable the control objective impact analyzer skill from the Now Assist Skills page. When this skill is activated, the system uses generative AI to identify control objectives that should be updated based on the modified citation details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/activate-the-impact-analyzer-skill-for-control-objective.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions

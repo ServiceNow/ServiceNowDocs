@@ -2,6 +2,7 @@
 title: Configure Sales Agreement Management
 description: Use the Sales Agreement Management application to create sales agreements between a buyer and a seller for future transactions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configure-sales-agreement-mgmt.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -17,7 +18,7 @@ Use the Sales Agreement Management application to create sales agreements betwee
 
 ## Activate Sales Agreement Management
 
-As an admin, you can activate the following plugins to enable users to create and manage sales agreements. For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+As an admin, you can activate the following plugins to enable users to create and manage sales agreements. For more information, see .
 
 <table id="table_dz4_d2c_wbc"><thead><tr><th>
 
@@ -62,9 +63,9 @@ This plugin provides workflow to create and manage sales agreements.
 
 
 </td></tr></tbody>
-</table>For more information on the installed roles and tables, see [Components installed with Sales Agreement Management](../reference/components-installed-sales-agreement.md). To view sales agreements from an account, you must manually configure the sales agreement related list on the Account form.
+</table>For more information on the installed roles and tables, see [Components installed with Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/components-installed-sales-agreement.md). To view sales agreements from an account, you must manually configure the sales agreement related list on the Account form.
 
 ## Request apps from the ServiceNow Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 

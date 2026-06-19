@@ -2,6 +2,7 @@
 title: Activate Group Action Framework for Now Assist for Telecommunications, Media and Technology \(TMT\)
 description: Activate Group Action Framework \(GAF\) to enable Now Assist AI agents to collect information about the related records across your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/activate-group-action-framework.html
 release: zurich
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -27,7 +28,7 @@ Role required: admin
 
 2.  In Group &amp; Action - Telecom, select **Activate skill**.
 
-    ![Now Assist skills for TMT.](../image/assist-skills-tmt.jpg)
+    \[Omitted image "assist-skills-tmt.jpg"\] Alt text: Now Assist skills for TMT.
 
 3.  On the form, select **Edit** to change the values.
 

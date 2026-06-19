@@ -2,6 +2,7 @@
 title: Add log-based CIs to the CMDB in Health Log Analytics
 description: Keep the Configuration Management Database \(CMDB\) updated with host data Health Log Analytics discovered in your logs by adding log-based configuration items \(CIs\) to the database.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-cmdb-enrich.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -27,15 +28,15 @@ Role required: evt\_mgmt\_admin
 
 2.  Handle a single CI candidate or multiple CI candidates together.
 
-<table id="choicetable_ywx_ypy_qrb"><thead><tr><th align="left" id="d75630e101">
+<table id="choicetable_ywx_ypy_qrb"><thead><tr><th align="left" id="d81202e101">
 
 Option
 
-</th><th align="left" id="d75630e104">
+</th><th align="left" id="d81202e104">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d75630e110">
+</th></tr></thead><tbody><tr><td id="d81202e110">
 
 **Take action on a single CI candidate**
 
@@ -43,7 +44,7 @@ Procedure
 
 1.  Select a CI candidate record and review the information on the form.
 
-For field descriptions, see [Log-based CI candidates fields in Health Log Analytics](../reference/hla-cmdb-enrich-fields.md).
+For field descriptions, see [Log-based CI candidates fields in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-cmdb-enrich-fields.md).
 
 2.  Add the CI candidate to the CMDB or delete it.
     -   If the CI candidate is appropriate, either add it to the CMDB as is or include more information in it before adding it to the CMDB.
@@ -55,7 +56,7 @@ The CI is added to the CMDB. In the CMDB table for the relevant class type, the 
     -   If the CI candidate is irrelevant, delete it by selecting **Delete**.
 
 
-</td></tr><tr><td id="d75630e180">
+</td></tr><tr><td id="d81202e180">
 
 **Take action on multiple CI candidates at the same time**
 
@@ -76,5 +77,5 @@ The selected CIs are added to the CMDB. The CI candidate records are automatical
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Enhancing the CMDB with host data Health Log Analytics found in logs](../concept/hla-cmdb-enrich-concept.md)
+**Parent Topic:**[Enhancing the CMDB with host data Health Log Analytics found in logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-cmdb-enrich-concept.md)
 

@@ -2,6 +2,7 @@
 title: Create, edit, and reapply risk calculators for Configuration Compliance
 description: Calculator rules can be applied to all affected test results and collections on-demand. Vulnerability managers may use this feature adjust their risk calculator configuration and apply changes on-demand to import findings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/v11reapplycalc.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance
@@ -31,7 +32,7 @@ Role required: sn\_vulc.admin
 
         The new calculator is displayed on the Risk Calculator list.
 
-        ![New risk calculator form](../image/v11newcalc2.png)
+        \[Omitted image "v11newcalc2.png"\] Alt text: New risk calculator form
 
     4.  In the list, click the new calculator to create the conditions under which the calculator runs and specify the fields and values you want displayed on test result records and remediation tasks.
 

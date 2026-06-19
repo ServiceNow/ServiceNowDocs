@@ -2,6 +2,7 @@
 title: Configure CSDM service mappings
 description: Configure Common Service Data Model \(CSDM\) service mappings to the appropriate service table mappings. Ensure that the services or service offerings are tagged with the right business portfolio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/config-csdm-ser-map.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

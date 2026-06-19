@@ -2,6 +2,7 @@
 title: Data snapshots sources and collection
 description: Data snapshots include data sources for indicator score collection and the mapping between indicators and these sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/tables-unlimited-breakdowns.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -19,7 +20,7 @@ Data snapshots include data sources for indicator score collection and the mappi
 
 For each automated indicator that successfully has Data snapshots activated, the Performance Analytics indicator and breakdown sources are replaced by a Data snapshots source. You can view the Data snapshots source for each indicator in the Indicators library \(**Platform Analytics** &gt; **Library** &gt; **Indicators**\). The source is given in the Source column. If the Data snapshots status is Enabled, this source is a Data snapshots source. Otherwise, it is the traditional indicator source. Data snapshots source names are in lower case with the individual words separated by underlines.
 
-![Two automated indicators in the Indicator Library, showing sources when Data snapshots are enabled or not.](../image/data-snapshots-sources-in-library.png "Sources of one automated indicator with and one without Data snapshots enabled")
+\[Omitted image "data-snapshots-sources-in-library.png"\] Alt text: Two automated indicators in the Indicator Library, showing sources when Data snapshots are enabled or not.
 
 ## Data snapshots data sources and logs
 
@@ -41,5 +42,5 @@ Data snapshots collection jobs copy a subset of the source table. These jobs als
 
 All job logs are in the Data Snapshots Statistics \[pa\_dm\_task\_telemetry\] table. Open Data snapshot job logs at **Platform analytics administration** &gt; **Data collector** &gt; **Data snapshots job logs**. Whereas a Data snapshots data source record shows only the job logs related to that data source, the Data Snapshots Statistics list shows all Data snapshots job logs.
 
-**Parent Topic:**[Data snapshots and multiple breakdowns](../concept/multi-level-breakdowns.md)
+**Parent Topic:**[Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/multi-level-breakdowns.md)
 

@@ -1,21 +1,26 @@
 ---
 title: Cloning and upgrading considerations for Developer Sandboxes
-description: You should understand how plugins and sandboxes work before you clone or upgrade an instance with Developer Sandboxes.
+description: You should understand how plugins and sandboxes work before you clone or upgrade an instance with Developer Sandboxes. Always back up your work in a sandbox before any clone or upgrade, either by exporting the update sets or committing to source control.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/developer-sandboxes/dev-sbx-clone-upgrade-info.html
 release: zurich
 product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: concept
-last_updated: "2025-10-21"
+last_updated: "2026-05-11"
 reading_time_minutes: 1
 breadcrumb: [Installing, Developer Sandboxes, Developing your application, Building applications]
 ---
 
 # Cloning and upgrading considerations for Developer Sandboxes
 
-You should understand how plugins and sandboxes work before you clone or upgrade an instance with Developer Sandboxes.
+You should understand how plugins and sandboxes work before you clone or upgrade an instance with Developer Sandboxes. Always back up your work in a sandbox before any clone or upgrade, either by exporting the update sets or committing to source control.
 
-Because sandboxes are retired automatically after an upgrade or clone, you should ensure any work that you want to keep is preserved before upgrading.
+**Warning:** Because sandboxes are retired automatically after an upgrade or clone, ensure any work that you want to keep is preserved before upgrading. You must manually recreate sandboxes after an upgrade or clone.
+
+-   For Zurich Patch 5 or later, uncommitted work in existing sandboxes is automatically exported as remote update sets on the base instance, which you must commit to sandboxes created after the upgrade.
+-   For clones, you must manually save and restore all work in sandboxes.
+-   Any custom table configuration changes or fixes must be reapplied after an upgrade. Contact Now Support to open a case.
 
 ## Upgrading instances with Developer Sandboxes
 
@@ -40,6 +45,8 @@ As of Zurich Patch 5, Developer Sandboxes will back up any update sets from the 
     </element>
     ```
 
+
+**Note:** When using sandboxes, make sure to save or backup work consistently. Automatic backups are available only for instances on Zurich Patch 10 and higher.
 
 ## Cloning instances with Developer Sandboxes
 

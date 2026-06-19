@@ -2,6 +2,7 @@
 title: Revert normalization in the workspace
 description: You can revert the normalization of discovery models in the Software Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/revert-norm-workspace.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -32,5 +33,5 @@ Role required: sam\_admin or sam\_user
     Once the revert normalization process is complete, fields are reset to their original values and any rules associated with the software discovery model are deactivated.
 
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/using-sam-workspace.md)
 

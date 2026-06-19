@@ -2,6 +2,7 @@
 title: Create a custom integration profile
 description: Create a custom integration profile to track software subscriptions and optimize stale licenses for any SaaS application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/saas-license-management/create-integration-custom.html
 release: zurich
 product: SaaS License Management
 classification: saas-license-management
@@ -32,15 +33,15 @@ If you’re using Software Asset Workspace, the option to create the custom inte
 
 1.  Navigate to the custom integration profile.
 
-<table id="choicetable_mtv_n33_rcc"><thead><tr><th align="left" id="d156241e91">
+<table id="choicetable_mtv_n33_rcc"><thead><tr><th align="left" id="d67802e91">
 
 Interface
 
-</th><th align="left" id="d156241e94">
+</th><th align="left" id="d67802e94">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d156241e100">
+</th></tr></thead><tbody><tr><td id="d67802e100">
 
 **Core UI**
 
@@ -50,7 +51,7 @@ Action
 2.  Select **Custom Integration Profile**.
 
 
-</td></tr><tr><td id="d156241e136">
+</td></tr><tr><td id="d67802e136">
 
 **Software Asset Workspace**
 
@@ -87,16 +88,16 @@ Connection &amp; Credential
 
 </td><td>
 
-1.  Select the lookup icon \(![Lookup icon](../../../common/image/List_SearchIcon.png)\).
+1.  Select the lookup icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text: Lookup icon\).
 2.  Select **New**.
 3.  On the Connection and Credential Aliases form, fill in the fields:
     -   Name: Name of your choice. For example, *app*\_alias, where *app* is the name of the SaaS application that you're integrating with.
-    -   Application: Spoke for connecting with the SaaS application. This spoke can be an existing Integration Hub spoke or a new spoke that you created. You can change the application in the Developer section of the System Settings ![Settings icon](../../../common/image/List_PersonalizeListIcon.png).
+    -   Application: Spoke for connecting with the SaaS application. This spoke can be an existing Integration Hub spoke or a new spoke that you created. You can change the application in the Developer section of the System Settings \[Omitted image "List\_PersonalizeListIcon.png"\] Alt text: Settings icon.
     -   Type: **Connection and Credential**.
     -   Connection Type: **HTTP**.
     -   Support Multiple Active Connections: Not selected.
     -   Default Retry Policy: **Default HTTP Retry Policy**.
-    -   Configuration Template: If you're using the OAuth authorization code grant type, **OAuth Authorization Code**. If you're using an API token, **Basic Auth with API Key**. If you're using another authentication method, create a configuration template. For more information, see [Create a configuration template](https://www.servicenow.com/docs/access?context=create-template&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) and [Configure a template for OAuth JWT Bearer grant type](https://www.servicenow.com/docs/access?context=docusign-example&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+    -   Configuration Template: If you're using the OAuth authorization code grant type, **OAuth Authorization Code**. If you're using an API token, **Basic Auth with API Key**. If you're using another authentication method, create a configuration template. For more information, see Create a configuration template and Configure a template for OAuth JWT Bearer grant type.
 4.  Select **Submit**.
 
 
@@ -119,7 +120,7 @@ Custom Integration. This value is automatically populated.
 </td></tr></tbody>
 </table>3.  Select **Save**.
 
-4.  Open the Connection &amp; Credential alias record by selecting the preview icon ![](../image/preview-icon.png) and then selecting **Open Record**.
+4.  Open the Connection &amp; Credential alias record by selecting the preview icon \[Omitted image "preview-icon.png"\] and then selecting **Open Record**.
 
 5.  Select the **Create New Connection &amp; Credential** related link.
 
@@ -159,7 +160,7 @@ Custom Integration. This value is automatically populated.
 
 ## What to do next
 
-[Create a data stream action to get users](create-data-stream-action-slc.md) and view SaaS related analytics on [SaaS overview dashboard](../reference/saas-dashboard-workspace.md).
+[Create a data stream action to get users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/create-data-stream-action-slc.md) and view SaaS related analytics on [SaaS overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/saas-dashboard-workspace.md).
 
-Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](t_RunReconciliation.md) \(Software Asset Management classic application\) or the [License usage view](run-recon-workspace.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
+Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_RunReconciliation.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/run-recon-workspace.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
 

@@ -2,6 +2,7 @@
 title: Acknowledge a policy using the Compliance Workspace
 description: After a policy has been published, you can create an acknowledgement campaign in the Compliance Workspace to define a group of your employees who must provide an acknowledgement that a particular policy is in compliance. When the campaign has been defined, you can submit the request to the audience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/acknowledge-policy-ws.html
 release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

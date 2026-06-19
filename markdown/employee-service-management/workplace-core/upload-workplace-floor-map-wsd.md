@@ -2,6 +2,7 @@
 title: Upload a workplace floor plan
 description: Upload Drawing eXchange Format \(.dxf\) files of floor plans that you can configure and use to reserve space for your employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-core/upload-workplace-floor-map-wsd.html
 release: zurich
 product: Workplace Core
 classification: workplace-core
@@ -17,13 +18,13 @@ Upload Drawing eXchange Format \(.dxf\) files of floor plans that you can config
 
 ## Before you begin
 
-Use workplace floor maps to find and reserve a space within Workplace Core. To view the maps in the Location directory and within Workplace Reservation Management, use Mappedin and Indoor Mapping. For more information on how to use floor maps, refer to [Workplace Space Mapping](../../workplace-space-mapping/concept/wsm-mappedin-admin.md).
+Use workplace floor maps to find and reserve a space within Workplace Core. To view the maps in the Location directory and within Workplace Reservation Management, use Mappedin and Indoor Mapping. For more information on how to use floor maps, refer to [Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/wsm-mappedin-admin.md).
 
 To avoid issues while rendering your floor plan, verify that the dxf.json attachment size is 5 MB or smaller. To view the size, download the dxf.json file and view the file properties. If the file size is larger than 5 MB, you can:
 
 -   Work with your AutoCAD designers to ensure that spaces are represented as blocks \(not single or multi-line text\).
 -   Ensure that the block reference attributes are appropriately set and try to import the dxf.json file again.
--   Set the **com.glide.attachment.max\_get\_size** property to a size that is greater or equal to the dxf.json file size. For more information, see [Administering attachments](https://www.servicenow.com/docs/access?context=r_AdministeringAttachments&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+-   Set the **com.glide.attachment.max\_get\_size** property to a size that is greater or equal to the dxf.json file size. For more information, see Administering attachments.
 
 Role required: sn\_wsd\_core.workplace\_manager
 
@@ -67,7 +68,7 @@ Region
 
 </td><td>
 
-Geographic location of the building the floor plan represents.Select the Lookup using list icon ![Lookup using list icon](../../workplace-case-mgmt/image/search-icon.png) to view a list of regions you can select.
+Geographic location of the building the floor plan represents.Select the Lookup using list icon \[Omitted image "search-icon.png"\] Alt text: Lookup using list icon to view a list of regions you can select.
 
 </td></tr><tr><td>
 
@@ -75,7 +76,7 @@ Site
 
 </td><td>
 
-The location of the office or campus within a region.Select the Lookup using list icon ![Lookup using list icon](../../workplace-case-mgmt/image/search-icon.png) to view a list of sites you can select.
+The location of the office or campus within a region.Select the Lookup using list icon \[Omitted image "search-icon.png"\] Alt text: Lookup using list icon to view a list of sites you can select.
 
 </td></tr><tr><td>
 
@@ -115,7 +116,7 @@ Managed by group
 
 </td><td>
 
-The group that manages the space reservation for the floor plan.Select the Lookup using list icon ![Lookup using list icon](../../workplace-case-mgmt/image/search-icon.png) to view a list of groups you can select.
+The group that manages the space reservation for the floor plan.Select the Lookup using list icon \[Omitted image "search-icon.png"\] Alt text: Lookup using list icon to view a list of groups you can select.
 
 </td></tr><tr><td>
 
@@ -123,10 +124,10 @@ Managed by
 
 </td><td>
 
-The workplace manager of the group that manages the space reservation for the floor plan.Select the Lookup using list icon ![Lookup using list icon](../../workplace-case-mgmt/image/search-icon.png) to view a list of group managers you can select.
+The workplace manager of the group that manages the space reservation for the floor plan.Select the Lookup using list icon \[Omitted image "search-icon.png"\] Alt text: Lookup using list icon to view a list of group managers you can select.
 
 </td></tr></tbody>
-</table>3.  Select the attachment icon ![Attach icon](../../human-resources/image/attach-icon.png) and upload your Drawing eXchange Format \(.dxf\) file.
+</table>3.  Select the attachment icon \[Omitted image "attach-icon.png"\] Alt text: Attach icon and upload your Drawing eXchange Format \(.dxf\) file.
 
     After you attach your .dxf file and import the floor plan, the .dxf file converts to a dxf.json file in your attachments. Don't remove any of these files or your floor plan does not appear. Also, the dxf.json file size must be 5 MB or smaller. Try selecting fewer layers from your .dxf file during the import process.
 
@@ -186,5 +187,5 @@ Determines the order of processing for your AutoCAD tag to Space Field mapping.*
 
 A new floor record is created with the floor plan attached to it. The Spaces related list is populated with all the workspaces of this floor.
 
-**Parent Topic:**[Providing your workplace data](../concept/providing-your-workplace-data-wsd.md)
+**Parent Topic:**[Providing your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/providing-your-workplace-data-wsd.md)
 

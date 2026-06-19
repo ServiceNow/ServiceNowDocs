@@ -2,6 +2,7 @@
 title: Update the app ID in the ServiceNow instance
 description: Update the ServiceNow for Teams app ID from the Microsoft Teams admin center in your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/update-app-id-instance-mt.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -29,18 +30,18 @@ Role required: admin
 
 4.  Copy the App ID value.
 
-    ![ServiceNow for Teams app ID value](../images/sn-ms-teams-app-id-value.png)
+    \[Omitted image "sn-ms-teams-app-id-value.png"\] Alt text: ServiceNow for Teams app ID value
 
 5.  In your ServiceNow instance, search for `sys_properties.list`.
 
 6.  Select the `sn_now_azure.teams_installed_app_id` property.
 
-    ![Edit the entry](../images/edit-record.png)
+    \[Omitted image "edit-record.png"\] Alt text: Edit the entry
 
 7.  Update the App ID value, then select **Update**.
 
-    ![Update the app id value](../images/update-app-id-value.png)
+    \[Omitted image "update-app-id-value.png"\] Alt text: Update the app id value
 
 
-**Parent Topic:**[Setup for integrating pre-published apps with Microsoft Teams for Employee Experience](../concept/c_employee_ex_tnt.md)
+**Parent Topic:**[Setup for integrating pre-published apps with Microsoft Teams for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/c_employee_ex_tnt.md)
 

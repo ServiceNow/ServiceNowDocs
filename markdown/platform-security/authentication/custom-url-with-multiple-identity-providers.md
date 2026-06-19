@@ -2,6 +2,7 @@
 title: Custom URL with Identity Provider
 description: Set your custom URL with the Identity Provider to enable the user to login with their IdP's.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/custom-url-with-multiple-identity-providers.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -27,13 +28,13 @@ Role required: admin
 
 3.  Provide the details of the IdP in the **Identity Provider** field.
 
-    For information about other fields, see [Set a custom URL as the instance URL](configure-custom-url.md). ![A Custom URL"configuration interface with fields for domain name, status, service portal, and identity provider (set to "GOOGLE OIDC"), along with helpful setup links.](../images/new-custom-url-idp.png)
+    For information about other fields, see [Set a custom URL as the instance URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/configure-custom-url.md). \[Omitted image "new-custom-url-idp.png"\] Alt text: A Custom URL"configuration interface with fields for domain name, status, service portal, and identity provider \(set to "GOOGLE OIDC"\), along with helpful setup links.
 
 4.  Click **Create**.
 
     The record is created and displayed on the Custom URL page.
 
-    ![Custom URL record with Identity Provider](../images/custom-url-with-odp.png)
+    \[Omitted image "custom-url-with-odp.png"\] Alt text: Custom URL record with Identity Provider
 
     When the custom URL is accessed, the user is redirected to the Identity Provider that is configured. In this case, accessing the `snowtest.com`, the user is navigated to the **Employee Center**, and then redirected to the Google Identity Provider.
 

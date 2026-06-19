@@ -2,6 +2,7 @@
 title: Configure an HR case template
 description: Create or modify an HR case template for an HR service to automatically populate fields on the HR case form when a request for that service is made.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/configure-hr-case-template.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -29,7 +30,7 @@ Role required: sn\_hr\_core.admin
 
     **Note:** To create a new HR case template for the HR service, click the **Lookup** icon, and then click **New**.
 
-    ![Open the HR case template for the HR service.](../image/hr-case-template-for-hr-service.png)
+    \[Omitted image "hr-case-template-for-hr-service.png"\] Alt text: Open the HR case template for the HR service.
 
 4.  Fill in the fields on the form, as appropriate.
 
@@ -107,7 +108,7 @@ Use global descriptions for translations
 
 </td><td>
 
-Option to enable the use of global descriptions for translations. If selected, you can provide the short description and description for the HR case template in one or more languages. See [Translations for HR cases and tasks](../concept/translation-of-hr-cases-and-tasks.md#) for more information.You can use dynamic variables to personalize your short and global descriptions.
+Option to enable the use of global descriptions for translations. If selected, you can provide the short description and description for the HR case template in one or more languages. See [Translations for HR cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/translation-of-hr-cases-and-tasks.md) for more information.You can use dynamic variables to personalize your short and global descriptions.
 
  Using dynamic variables in an HR task template works in:
 
@@ -132,9 +133,9 @@ Fields to automatically populate on the HR case form when a request for that HR 
 6.  Click **Update** on the HR service form.
 
 
-**Parent Topic:**[HR service configuration](../concept/hr-service-configuration.md)
+**Parent Topic:**[HR service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-service-configuration.md)
 
-**Previous topic:**[Add a custom column \(field\) to an HR table](configure-custom-column-hr-table.md)
+**Previous topic:**[Add a custom column \(field\) to an HR table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-custom-column-hr-table.md)
 
-**Next topic:**[Configure a record producer for an HR service](configure-hr-record-producer.md)
+**Next topic:**[Configure a record producer for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-record-producer.md)
 

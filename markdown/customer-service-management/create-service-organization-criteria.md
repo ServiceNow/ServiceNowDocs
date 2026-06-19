@@ -2,7 +2,10 @@
 title: Create the criteria for a service organization
 description: Define the criteria in the service organization criteria \[service\_organization\_criteria\] table so that you can later associate your service organizations to a service or your customers to a service organization. You do this task in the Customer Service Management \(CSM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-service-organization-criteria.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

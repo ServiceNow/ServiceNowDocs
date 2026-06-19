@@ -2,6 +2,7 @@
 title: Submit an IoC Lookup request from the Security Incident Catalog
 description: If the Security Incident Response plugin is activated, you can submit threat lookups for files, hash values, URLs, and IP addresses from the Security Incident Catalog. The requests are submitted and you can view the results in the My Requests module.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/t\_SubmitThrtScnReqFromCat.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

@@ -2,6 +2,7 @@
 title: Major Security Incident Management Playbooks
 description: You can invoke the Major Security Incident Management playbook flow automatically or manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/msim-playbooks.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

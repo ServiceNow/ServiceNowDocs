@@ -2,6 +2,7 @@
 title: Discuss an Insurance claims claim
 description: Discuss details of an Insurance claims case with additional users that have access to the claim record. Use this feature to collaborate with other Insurance claims users and create or view an ongoing sidebar discussion for a case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/discuss-an-insurance-claims-flow-claim.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims
@@ -27,7 +28,7 @@ This procedure references service definitions and products that are used in the 
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Open an Insurance claims case.
 

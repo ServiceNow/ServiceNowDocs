@@ -2,6 +2,7 @@
 title: Setting up the Operational Technology Unified Map experience
 description: Set up the Operational Technology \(OT\) Unified Map experience in the Industrial Workspace so that your users can access Unified Maps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-workspace/setting-up-unified-maps-experience.html
 release: zurich
 product: Industrial Workspace
 classification: industrial-workspace
@@ -42,8 +43,8 @@ Modify the following default settings of the Industrial Workspace Config Identif
 -   Table attributes
 
 </td></tr></tbody>
-</table>-   **[Default settings of the Operational Technology Unified Map experience](../concept/default-settings-unified-maps-experience.md)**  
+</table>-   **[Default settings of the Operational Technology Unified Map experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/default-settings-unified-maps-experience.md)**  
 You can modify the default settings available for the Operational Technology \(OT\) Unified Map experience.
 
-**Parent Topic:**[Configuring the Industrial Workspace](../../operational-technology-management/concept/configuring-industrial-workspace.md)
+**Parent Topic:**[Configuring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/configuring-industrial-workspace.md)
 

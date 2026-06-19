@@ -2,6 +2,7 @@
 title: Create consumable assets in Enterprise Asset Workspace
 description: Create consumables in the Enterprise Asset Workspace to track enterprise assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/create-consumables-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -259,5 +260,5 @@ Work notes related to the asset.
     The consumable asset is created and appears in the Consumable assets list.
 
 
-**Parent Topic:**[Create and manage enterprise assets](../concept/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

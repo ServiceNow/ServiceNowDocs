@@ -2,6 +2,7 @@
 title: Submit a gifts and entertainment disclosure
 description: Submit a disclosure to obtain the legal clearance for gifts and entertainment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-gifts-and-entertainment/lsd-submit-ge-dis-request.html
 release: zurich
 product: Legal Gifts and Entertainment
 classification: legal-gifts-and-entertainment
@@ -21,13 +22,13 @@ Role required: sn\_lg\_ops.legal\_user
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Employee Center** &gt; **Legal services** &gt; **Ethics and compliance**.
+1.  Navigate to **All** &gt; **Employee Center** &gt; **Help center** &gt; **Legal services** &gt; **Ethics and compliance**.
 
 2.  Select **Gifts &amp; Entertainment Disclosure**.
 
-3.  **Note:** For description on the field values, see [Gift and entertainment disclosure form](../reference/lsd-ge-disclosure-form.md)
+3.  **Note:** For description on the field values, see [Gift and entertainment disclosure form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-gifts-and-entertainment/lsd-ge-disclosure-form.md)
 
-    On the form, fill in the fields and click **Submit**.
+    On the form, fill in the fields and select **Submit**.
 
 
 ## Result
@@ -45,5 +46,5 @@ Role required: sn\_lg\_ops.legal\_user
 
     -   Request details: Review request details.
 
-**Parent Topic:**[Requesting legal clearance for gifts and entertainment](../concept/lsd-ge-submitting-request.md)
+**Parent Topic:**[Requesting legal clearance for gifts and entertainment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-gifts-and-entertainment/lsd-ge-submitting-request.md)
 

@@ -2,6 +2,7 @@
 title: Order guides
 description: Order guide submits a single service catalog request that generates several items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/c\_ServiceCatalogOrderGuides.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -38,18 +39,18 @@ Use the **Script** field in an order guide to add or remove catalog items to or 
     ```
 
 
--   **[Create an order guide](../task/t_CreateAnOrderGuide.md)**  
+-   **[Create an order guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/t_CreateAnOrderGuide.md)**  
 You can create an order guide with a two-step or three-step ordering process.
--   **[Request an order guide](../task/t_OrderProcess.md#)**  
+-   **[Request an order guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/t_OrderProcess.md)**  
 Once created, order guides present the customer with a three-step ordering process by default.
--   **[Create an order guide rule to add a catalog item](../task/t_CreateARule.md)**  
+-   **[Create an order guide rule to add a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/t_CreateARule.md)**  
 You can add a catalog item to an order guide using specific rules.
--   **[Create an order guide variable](c_CreateVariables.md)**  
+-   **[Create an order guide variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_CreateVariables.md)**  
 You can create variables within an order guide.
--   **[Avoid enforcement of a mandatory field](../task/t_AvoidEnforceOfMandFieldWinTab.md)**  
+-   **[Avoid enforcement of a mandatory field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/t_AvoidEnforceOfMandFieldWinTab.md)**  
 You can avoid enforcing a mandatory field within tabs.
--   **[Run order guides automatically](c_RunOrderGuidesAutomatically.md)**  
+-   **[Run order guides automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_RunOrderGuidesAutomatically.md)**  
 You can run an order guide automatically from within a workflow or a server script, passing parameters to that order guide to define variable values.
 
-**Parent Topic:**[Types of catalog items](../reference/r_ExtendedCatalogItemFunctions.md)
+**Parent Topic:**[Types of catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/r_ExtendedCatalogItemFunctions.md)
 

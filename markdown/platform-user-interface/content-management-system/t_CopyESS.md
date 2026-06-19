@@ -2,6 +2,7 @@
 title: Customize a copy of a page template
 description: One good source for templates is the base system sample site. It is easy to copy pages and restyle them into new page templates to meet different business requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/content-management-system/t\_CopyESS.html
 release: zurich
 product: Content Management System
 classification: content-management-system
@@ -43,8 +44,8 @@ The Employee Self-Service portal is provided as a working example and design tem
 
 8.  Click **Update**.
 
-9.  Use the page in other sites you created by [assigning pages](t_AssignAPageToASite.md) to a site.
+9.  Use the page in other sites you created by [assigning pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/content-management-system/t_AssignAPageToASite.md) to a site.
 
 
-**Parent Topic:**[Content Management templates](../concept/c_ContentManagementTemplates.md)
+**Parent Topic:**[Content Management templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/content-management-system/c_ContentManagementTemplates.md)
 

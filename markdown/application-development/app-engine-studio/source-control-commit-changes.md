@@ -2,6 +2,7 @@
 title: Commit changes to a repository
 description: Commit changes made in your application in App Engine Studio \(AES\) to a linked Git repository. You can either select a few changes to commit, or commit all changes on the instance at once.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/source-control-commit-changes.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -18,7 +19,7 @@ Commit changes made in your application in App Engine Studio \(AES\) to a linked
 ## Before you begin
 
 -   Role required: admin
--   [Link an application or application-customization to source control](source-control-link-application.md)
+-   [Link an application or application-customization to source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/source-control-link-application.md)
 
 ## Procedure
 
@@ -30,7 +31,7 @@ Commit changes made in your application in App Engine Studio \(AES\) to a linked
 
     The system displays the **Select files to commit to source control** window. The file changes from all the updates sets display. By default, the file changes from the current update set display.
 
-    ![Select files to commit to source control](../image/source-control-select-commit-purple.png)
+    \[Omitted image "source-control-select-commit-purple.png"\] Alt text: Select files to commit to source control
 
 4.  Select the file changes you wish to commit.
 
@@ -47,7 +48,7 @@ Commit changes made in your application in App Engine Studio \(AES\) to a linked
 
     Commits always occur in **include\_untracked** mode in the following cases:
 
-    -   Linking to source control for the first time. \(To learn more, see [Link an application or application-customization to source control](source-control-link-application.md).\)
+    -   Linking to source control for the first time. \(To learn more, see [Link an application or application-customization to source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/source-control-link-application.md).\)
     -   Publishing an application that's linked to source control from App Engine Studio.
     -   Selective commit mode is disabled.
 6.  Select **Continue**.
@@ -60,8 +61,8 @@ Commit changes made in your application in App Engine Studio \(AES\) to a linked
 
     -   The system identifies all local changes.
     -   The system commits all local changes to the remote repository.
-    **Note:** For list of known files that don’t have customer update records and are untracked, see [Customer Updates table](https://www.servicenow.com/docs/access?context=r_CustomerUpdatesTable&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+    **Note:** For list of known files that don’t have customer update records and are untracked, see .
 
 
-**Parent Topic:**[Work with changes in Git](../concept/work-changes-in-git.md)
+**Parent Topic:**[Work with changes in Git](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/work-changes-in-git.md)
 

@@ -2,6 +2,7 @@
 title: Create a characteristic
 description: Create a characteristic that can be associated with an entitlement or service contract line.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/create-entitlement-template-characteristic.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

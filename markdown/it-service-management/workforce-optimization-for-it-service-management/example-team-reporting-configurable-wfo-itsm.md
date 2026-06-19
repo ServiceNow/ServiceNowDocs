@@ -2,6 +2,7 @@
 title: Example for using teams in Workforce Optimization for ITSM
 description: Understand how you can manage your teams from a single location using an example.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/example-team-reporting-configurable-wfo-itsm.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -34,7 +35,7 @@ The manager can set up and use Teams by performing the following steps:
 5.  Associate multiple KPI groups with one or more assignment groups.
 6.  Drill down into a KPI, agent, or an incident to analyze performance
 
-Get an overview of how you can analyze team performance in this video.Use Teams to track performance
+Get an overview of how you can analyze team performance in this video.
 
-For detailed information on how to setup and use Teams, see [Teams](setup-teams-configurable-workforce-optimization-itsm.md).
+For detailed information on how to setup and use Teams, see [Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/setup-teams-configurable-workforce-optimization-itsm.md).
 

@@ -2,6 +2,7 @@
 title: Analyzing idea metrics using Idea Manager dashboard
 description: Review, analyze, and manage your ideas effectively by using the Idea Dashboard manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/innovation-management/idea-manager-dashboard.html
 release: zurich
 product: Innovation Management
 classification: innovation-management
@@ -23,7 +24,7 @@ The Idea Manager dashboard provides summary of idea metrics and trends such as i
 
 The Idea Manager dashboard provides comprehensive reports to the idea manager and users with read-only roles for ppm \(sn\_ppm\_read\). The dashboard uses Performance Analytics to provide a trend of historical data as well as regular reports. It provides you an overview of ideas, number of ideas converted into work entities, and trends based on categories, idea submitters, and votes. It helps you to review and analyze ideas and enables you to take required actions for managing your ideas effectively.
 
-![Animated tour of the Idea Manager Dashboard in Next experience UI](../image/idea-manager-dashboard.gif)
+\[Omitted image "idea-manager-dashboard.gif"\] Alt text: Animated tour of the Idea Manager Dashboard in Next experience UI
 
 ## End user and roles
 
@@ -84,12 +85,12 @@ The dashboard includes the following visualizations:
 
 |Title|Type|Description|
 |-----|----|-----------|
-|Ideas by state|Pie chart ![Pie chart](../../performance-analytics/image/donut-icon.png)|Breakdown of the number of ideas in each of the different states.|
-|Ideas converted|Pie chart ![Pie chart](../../performance-analytics/image/donut-icon.png)|Breakdown of the number of ideas converted into work entities such as demand and project.|
-|Top 10 ideas by votes|Horizontal bar chart ![Horizontal bar chart](../../performance-analytics/image/horizontal-bar.png)|Top 10 ideas based on the total number of up-votes.|
-|Top 10 idea creators|Horizontal bar chart ![Horizontal bar chart](../../performance-analytics/image/horizontal-bar.png)|Top 10 users based on the number of ideas submitted.|
-|Ideas trended by categories|Line chart ![Line chart](../../../reuse/reporting/image/line-multiple.svg)|Trend of the total number of ideas submitted under various categories. The trend is displayed on a monthly basis.|
-|Top 10 categories by ideas|Horizontal bar chart ![Horizontal bar chart](../../performance-analytics/image/horizontal-bar.png)|Top 10 categories based on the number of ideas submitted under each category.|
+|Ideas by state|Pie chart \[Omitted image "donut-icon.png"\] Alt text: Pie chart|Breakdown of the number of ideas in each of the different states.|
+|Ideas converted|Pie chart \[Omitted image "donut-icon.png"\] Alt text: Pie chart|Breakdown of the number of ideas converted into work entities such as demand and project.|
+|Top 10 ideas by votes|Horizontal bar chart \[Omitted image "horizontal-bar.png"\] Alt text: Horizontal bar chart|Top 10 ideas based on the total number of up-votes.|
+|Top 10 idea creators|Horizontal bar chart \[Omitted image "horizontal-bar.png"\] Alt text: Horizontal bar chart|Top 10 users based on the number of ideas submitted.|
+|Ideas trended by categories|Line chart \[Omitted image "line-multiple.svg"\] Alt text: Line chart|Trend of the total number of ideas submitted under various categories. The trend is displayed on a monthly basis.|
+|Top 10 categories by ideas|Horizontal bar chart \[Omitted image "horizontal-bar.png"\] Alt text: Horizontal bar chart|Top 10 categories based on the number of ideas submitted under each category.|
 
-**Parent Topic:**[Innovation Management](../../../product/innovation-management/concept/innovation-management-landing.md)
+**Parent Topic:**[Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/innovation-management-landing.md)
 

@@ -2,6 +2,7 @@
 title: Requesting evidence for financial regulatory audit engagements
 description: If you are an audit manager, you can request evidence for your financial regulatory audit engagements in the Audit Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/asset-audits/creating-evidence-requests-asset-audit-response.html
 release: zurich
 product: Asset Audits
 classification: asset-audits
@@ -19,7 +20,7 @@ If you are an audit manager, you can request evidence for your financial regulat
 
 Request evidence for your financial regulatory audit engagements by performing the following task:
 
-[Request evidence using Audit Workspace to Assest Audit Response](https://www.servicenow.com/docs/access?context=request-evidence-during-audits-using-audit-workspace-and-assest-audit-response&version=zurich&pubname=zurich-governance-risk-compliance&ft:locale=en-US)
+
 
 Request evidence at any stage of a financial regulatory audit by using the Audit Workspace.
 

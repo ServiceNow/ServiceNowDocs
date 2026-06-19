@@ -2,6 +2,7 @@
 title: Update epic methodology for an EAP configuration
 description: Change the epic methodology of your Enterprise Agile Planning configuration to SAFe or Scrum based on your Agile workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/enterprise-agile-planning/update-epic-methodology-for-an-eap-configuration.html
 release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -35,8 +36,8 @@ By default, the epic methodology for an EAP configuration is set to **SAFe** and
 
 3.  Double-click the Epic methodology cell to change and update the value.
 
-    ![Epic methodology update for EAP configurations.](../images/eap-epic-methodology.png)
+    \[Omitted image "eap-epic-methodology.png"\] Alt text: Epic methodology update for EAP configurations.
 
-    If the Epic methodology column is not displayed in your ServiceNow instance, personalize the column settings using the Update Personalized List icon \(![Update Personalized List icon](../images/eap-personalize-list.png)\) from the list header.
+    If the Epic methodology column is not displayed in your ServiceNow instance, personalize the column settings using the Update Personalized List icon \(\[Omitted image "eap-personalize-list.png"\] Alt text: Update Personalized List icon\) from the list header.
 
 

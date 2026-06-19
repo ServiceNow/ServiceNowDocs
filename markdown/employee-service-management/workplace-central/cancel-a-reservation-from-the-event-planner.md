@@ -2,6 +2,7 @@
 title: Cancel a reservation from the Event planner
 description: As a reservation planner, the Event planner enables you to cancel a reservation at any time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-central/cancel-a-reservation-from-the-event-planner.html
 release: zurich
 product: Workplace Central
 classification: workplace-central
@@ -29,7 +30,7 @@ Role required: sn\_wsd\_rsv.reservation\_planner
 
     The Workplace Analytics dashboard opens.
 
-2.  Select the **Event planner** icon from the menu \(![Event planner icon.](../images/event-planner-icon.png)\).
+2.  Select the **Event planner** icon from the menu \(\[Omitted image "event-planner-icon.png"\] Alt text: Event planner icon.\).
 
     The Event Planner dashboard opens.
 
@@ -60,5 +61,5 @@ Role required: sn\_wsd\_rsv.reservation\_planner
 
 The reservation is canceled. The cancellation notes are automatically generated.
 
-**Parent Topic:**[Working with Event planner](../concept/working-with-event-planner.md)
+**Parent Topic:**[Working with Event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/working-with-event-planner.md)
 

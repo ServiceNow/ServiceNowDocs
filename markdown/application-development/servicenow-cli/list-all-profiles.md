@@ -2,6 +2,7 @@
 title: View profiles
 description: View all connection profiles set in the configuration file, or view information about a specific profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-cli/list-all-profiles.html
 release: zurich
 product: ServiceNow CLI
 classification: servicenow-cli
@@ -58,5 +59,5 @@ For each profile, the CLI displays host information, version details, user name,
     ```
 
 
-**Parent Topic:**[Configuring and managing your ServiceNow CLI connection profiles](configure-profile.md)
+**Parent Topic:**[Configuring and managing your ServiceNow CLI connection profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-cli/configure-profile.md)
 

@@ -1,0 +1,30 @@
+---
+title: Upgrade issues
+description: What to do when monitors don't work after upgrading synthetic monitoring.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/troubleshoot-sm-mid.html
+release: zurich
+topic_type: topic
+last_updated: "2022-08-11"
+reading_time_minutes: 1
+breadcrumb: [Troubleshoot synthetic monitors, Synthetic monitoring reference, Synthetic monitoring, ITOM AIOps, IT Operations Management]
+---
+
+# Upgrade issues
+
+What to do when monitors don't work after upgrading synthetic monitoring.
+
+## Condition
+
+After upgrading synthetic monitoring, monitors remain in unknown state.
+
+## Cause
+
+After upgrading synthetic monitoring, if the monitor is hosted on a MID Server, the server must be restarted to re-recognize the hosted monitors.
+
+## Remedy
+
+Restart the MID Server. See .
+
+**Parent Topic:**[Troubleshoot synthetic monitors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/troubleshoot-synthetic-monitors.md)
+

@@ -2,6 +2,7 @@
 title: Device metrics page
 description: Access real-time metrics like CPU, memory, disk usage, I/O operations, battery, and energy consumption for insights into system resource utilization, performance, and improvement areas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/user-device-metrics.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -351,7 +352,7 @@ Transmit rates
 Wi-Fi transmit rates over a selected duration.This field appears on macOS machines only.
 
 </td></tr></tbody>
-</table>To return to the main device metrics page, see [Device details](../concept/dex-workspace-user-details.md).
+</table>To return to the main device metrics page, see [Device details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dex-workspace-user-details.md).
 
-**Parent Topic:**[Device details pages](user-device-details-pages.md)
+**Parent Topic:**[Device details pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/user-device-details-pages.md)
 

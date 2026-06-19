@@ -2,6 +2,7 @@
 title: Getting started with ServiceNow SQL API
 description: The ServiceNow SQL API provides data access to your ServiceNow instances through industry-standard ODBC and JDBC drivers, enabling direct connections from Business Intelligence \(BI\) tools and data analysis platforms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/getting-started-with-servicenow-sql-api.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -21,23 +22,25 @@ The ServiceNow SQL API plugin uses ServiceNow web services support for a query-o
 
 With the SQL API, you can:
 
--   Connect Your BI Tools: Integrate standard BI platforms such as Power BI, DBeaver, DBvisualizer, and other ODBC/JDBC-compatible tools directly with your ServiceNow data.
--   Query Data Securely: Access data through read-only operations that help avoid unintended modifications to your ServiceNow records. Allow access only to the desired tables.
--   Eliminate Data Duplication: Query your ServiceNow data directly without replicating it to external repositories or data warehouses.
--   Combine Data Sources: Merge your ServiceNow data with external datasets in your analytical platforms for comprehensive analysis.
--   Optimize Data Transfer: Write targeted SQL queries to retrieve only the data you need, reducing network overhead on data pipeline and data transformation, and improving performance.
+-   Connect your BI tools: Integrate standard BI platforms such as Power BI, DBeaver, DBvisualizer, and other ODBC/JDBC-compatible tools directly with your ServiceNow data.
+-   Query data securely: Access data through read-only operations that help avoid unintended modifications to your ServiceNow records. Allow access only to the desired tables.
+-   Eliminate data duplication: Query your ServiceNow data directly without replicating it to external repositories or data warehouses.
+-   Combine data sources: Merge your ServiceNow data with external datasets in your analytical platforms for comprehensive analysis.
+-   Optimize data transfer: Write targeted SQL queries to retrieve only the data you need, reducing network overhead for data pipeline and data transformation, and improving performance.
 
 ## How SQL API works
 
-When you connect your BI tool to your ServiceNow instance through the SQL API, you establish a standard database connection using ODBC or JDBC APIs. After connecting, you can write SQL queries to retrieve data from your ServiceNow tables and fields. The API processes your queries and returns results in standard tabular format, which your BI tool can then visualize, analyze, or export.
+When you connect your BI tool to your ServiceNow instance through the SQL API, you establish a standard database connection using ODBC or JDBC APIs. After connecting, you can write SQL queries to retrieve data from your ServiceNow tables and fields.
+
+The API processes your queries and returns results in standard tabular format, which your BI tool can then visualize, analyze, or export.
 
 ## Pass-through query support
 
-The SQL API supports pass-through queries, that means you can write SQL statements that execute directly on your ServiceNow data. This enables you to:
+The SQL API supports pass-through queries, meaning you can write SQL statements that execute directly on your ServiceNow data. This enables you to:
 
 -   Apply WHERE clauses to filter data at the source.
 -   Perform aggregations \(COUNT, SUM, AVG, etc.\) on the ServiceNow side.
--   Join multiple ServiceNow tables in a single query. The query engine only supports INNER and LEFT OUTER joins currently.
+-   Join multiple ServiceNow tables in a single query. The query engine supports only INNER and LEFT OUTER joins.
 -   Limit result sets to reduce data transfer.
 
 By processing queries at the source, you reduce the amount of data transferred over the network and improve overall query performance.
@@ -55,24 +58,24 @@ Your current ServiceNow security model still applies when you access the SQL API
 
 -   Authentication is required for all connections.
 
-Additionally, the SQL API is read-only by design. You cannot perform INSERT, UPDATE, or DELETE operations through this interface. This helps that your analytical work cannot accidentally modify production data.
+Additionally, the SQL API is read-only by design. You cannot perform INSERT, UPDATE, or DELETE operations through this interface. This helps prevent accidentally modify production data.
 
 ## What to explore next
 
 To learn more about configuring and using SQL API, see:
 
--   [SQL API architecture](sql-api-architecture.md)
--   [Configuring SQL API](configuring-sql-api.md)
--   [Install SQL API plugin on your ServiceNow instance](install-sql-api-plugin.md)
--   [Common use cases for SQL API](common-use-cases-for-sql-api.md)
--   [SQL API reference information](../reference/troubleshooting.md)
+-   [SQL API architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/sql-api-architecture.md)
+-   [Configuring SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configuring-sql-api.md)
+-   [Install SQL API plugin on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/install-sql-api-plugin.md)
+-   [Common use cases for SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/common-use-cases-for-sql-api.md)
+-   [SQL API reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/troubleshooting.md)
 
--   **[SQL API architecture](sql-api-architecture.md)**  
+-   **[SQL API architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/sql-api-architecture.md)**  
 The SQL API architecture demonstrates how the SQL API plugin integrates with the ServiceNow system to provide secure, read-only data access through industry-standard ODBC and JDBC drivers.
--   **[Supported SQL functions](../reference/supported-sql-functions.md)**  
+-   **[Supported SQL functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/supported-sql-functions.md)**  
 Common SQL functions used in SQL API for querying and analyzing incident data.
--   **[Common use cases for SQL API](common-use-cases-for-sql-api.md)**  
+-   **[Common use cases for SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/common-use-cases-for-sql-api.md)**  
 The SQL API supports business intelligence reporting, ad-hoc data analysis, and custom report development.
 
-**Parent Topic:**[Access your ServiceNow data using SQL API](accessing-your-servicenow-data-using-sql-api.md)
+**Parent Topic:**[Access your ServiceNow data using SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/accessing-your-servicenow-data-using-sql-api.md)
 

@@ -2,6 +2,7 @@
 title: Configure a provider for Notify in Service Operations Workspace
 description: Configure a conference provider to be used as a choice for initiating a conference call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/configure-provider-notify-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -52,5 +53,5 @@ Role required: notify\_admin
 9.  Select **Submit.**
 
 
-**Parent Topic:**[Configuring Notify in Service Operations Workspace](../concept/configure-notify-sow.md)
+**Parent Topic:**[Configuring Notify in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/configure-notify-sow.md)
 

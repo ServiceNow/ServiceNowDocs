@@ -2,6 +2,7 @@
 title: Procurement Strategy &amp; Ops Dashboard
 description: Visually analyze how your organization is placed strategically and operationally, over a given period of time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/procurement-strategy-ops-dashboard.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -384,9 +385,9 @@ View the time taken for the breached records of the team.The Procurement Special
 Data for this widget is derived from the Task SLA table that is fed by SLA definitions created on the active fields of PSM record types.
 
 </td></tr></tbody>
-</table>For information on how to work with dashboards in configurable workspaces, see [Dashboards in Platform Analytics](https://www.servicenow.com/docs/access?context=analytics-center-dashboards&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+</table>For information on how to work with dashboards in configurable workspaces, see .
 
-For information on how to work with widgets and data visualizations in configurable workspaces, see [Data visualizations in Platform Analytics](https://www.servicenow.com/docs/access?context=analytics-center-data-visualizations&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+For information on how to work with widgets and data visualizations in configurable workspaces, see .
 
-**Parent Topic:**[Performance Analytics for Sourcing and Procurement Operations](performance-analytics-for-spo.md)
+**Parent Topic:**[Performance Analytics for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/performance-analytics-for-spo.md)
 

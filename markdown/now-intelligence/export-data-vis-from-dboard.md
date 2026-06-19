@@ -2,6 +2,7 @@
 title: Download a data visualization from a dashboard
 description: As a viewer, download individual data visualizations from a dashboard or the Visualization Designer. Output formats differ between Lists and other data visualizations. The available output formats are CSV, Excel, PNG and JPEG.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/export-data-vis-from-dboard.html
 release: zurich
 topic_type: task
 last_updated: "2026-03-26"
@@ -39,7 +40,7 @@ Role required: Anyone viewing a data visualization can export that visualization
 
     1.  Select **Export**.
 
-        ![Export option under More Options for a data visualization.](../../par-for-workspace/image/dv-moreoptions-list.png)
+        \[Omitted image "dv-moreoptions-list.png"\] Alt text: Export option under More Options for a data visualization.
 
     2.  Select the desired file type from the Export list.
 
@@ -47,7 +48,7 @@ Role required: Anyone viewing a data visualization can export that visualization
         -   CSV
         -   JSON
         -   PDF
-        ![Export file type options](../../par-for-workspace/image/list-export-from-db.png)
+        \[Omitted image "list-export-from-db.png"\] Alt text: Export file type options
 
     3.  Select the delivery type.
 
@@ -60,5 +61,5 @@ Role required: Anyone viewing a data visualization can export that visualization
 
 The file is saved to the download folder of your browser, unless you are emailing a list.
 
-**Parent Topic:**[View data visualizations](../concept/view-data-visualizations.md)
+**Parent Topic:**[View data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/view-data-visualizations.md)
 

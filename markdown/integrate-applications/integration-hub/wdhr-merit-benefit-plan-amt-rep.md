@@ -2,6 +2,7 @@
 title: Workday configuration for merit and benefit plan amount report
 description: Retrieve the worker's target merit plan amount and benefit plan's employer contribution amount based on Employee ID by creating the merit and benefit plan amount report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/wdhr-merit-benefit-plan-amt-rep.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
@@ -41,51 +42,51 @@ Role required: User with access to report creation and the All Workers data sour
 
 6.  Do not select the **Temporary report** option and click **OK**.
 
-    ![Report setup with All Workers data source](../image/wdhr-merit-benefit-plan-amt-rep-1.png)
+    \[Omitted image "wdhr-merit-benefit-plan-amt-rep-1.png"\] Alt text: Report setup with All Workers data source
 
 7.  Select the report business object and report fields.
 
-    ![Columns tab with Worker, Merit Plan, and Benefit Elections fields](../image/wdhr-merit-benefit-plan-amt-rep-2.png)
+    \[Omitted image "wdhr-merit-benefit-plan-amt-rep-2.png"\] Alt text: Columns tab with Worker, Merit Plan, and Benefit Elections fields
 
 8.  In **Group Column Heading** section, select all business object as below.
 
-    **Group Column Heading** for each business object will be blank. ![Group Column Headings configuration](../image/wdhr-merit-benefit-plan-amt-rep-3.png)
+    **Group Column Heading** for each business object will be blank. \[Omitted image "wdhr-merit-benefit-plan-amt-rep-3.png"\] Alt text: Group Column Headings configuration
 
 9.  In **Filter** section, select the value as given below.
 
-    ![Filter on Instances with Employee ID prompt](../image/wdhr-merit-benefit-plan-amt-rep-4.png)
+    \[Omitted image "wdhr-merit-benefit-plan-amt-rep-4.png"\] Alt text: Filter on Instances with Employee ID prompt
 
 10. In **Prompts** section, select the **Populate Undefined Prompt Defaults** option.
 
-    ![Prompts tab with runtime date prompts](../image/wdhr-merit-benefit-plan-amt-rep-5.png)
+    \[Omitted image "wdhr-merit-benefit-plan-amt-rep-5.png"\] Alt text: Prompts tab with runtime date prompts
 
 11. Select the value of prompts as given below under Prompt default section.
 
     Make sure the **Label For Prompt XML Alias** of all prompt fields must be same.
 
-    ![Prompt Defaults with Employee ID field](../image/wdhr-merit-benefit-plan-amt-rep-6.png)
+    \[Omitted image "wdhr-merit-benefit-plan-amt-rep-6.png"\] Alt text: Prompt Defaults with Employee ID field
 
 12. In **Advanced** section, select **Enable as webservice** option and click **OK**.
 
 13. Click on three dots icon and navigate to **Web Services** &gt; **View URLs** option once report configuration is done.
 
-    ![Web Service menu with View URLs](../image/wdhr-merit-benefit-plan-amt-rep-7.png)
+    \[Omitted image "wdhr-merit-benefit-plan-amt-rep-7.png"\] Alt text: Web Service menu with View URLs
 
 14. Provide an employee ID in the **Employee ID** field and click **OK**.
 
-    ![View URLs dialog with Employee ID parameter](../image/wdhr-merit-benefit-plan-amt-rep-8.png)
+    \[Omitted image "wdhr-merit-benefit-plan-amt-rep-8.png"\] Alt text: View URLs dialog with Employee ID parameter
 
 15. In View URLs Web Service page, click the marked icon under the **CSV** section.
 
     A new browser tab is opened.
 
-    ![View URLs page with CSV download](../image/wdhr-merit-benefit-plan-amt-rep-9.png)
+    \[Omitted image "wdhr-merit-benefit-plan-amt-rep-9.png"\] Alt text: View URLs page with CSV download
 
 16. View the RaaS URL of the report in the new browser tab.
 
     The RaaS URL of the report is displayed in new browser tab and you can obtain these details from the link.
 
-    ![RaaS URL in browser](../image/wdhr-merit-benefit-plan-amt-rep-10.png)
+    \[Omitted image "wdhr-merit-benefit-plan-amt-rep-10.png"\] Alt text: RaaS URL in browser
 
     -   `https://wd2-impl-services1.workday.com` is the base URL of customer's workday tenant.
     -   **Tenant\_Name** is the customer's workday tenant.

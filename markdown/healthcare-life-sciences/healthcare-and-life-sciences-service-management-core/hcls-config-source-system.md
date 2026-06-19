@@ -2,6 +2,7 @@
 title: Configure an external Redox healthcare system as a source system for a custom integration
 description: Enable a custom integration application to exchange data with an external Redox healthcare system by configuring the source and destination IDs of the healthcare system in your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-source-system.html
 release: zurich
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -21,7 +22,7 @@ Role required: sn\_hcls.admin or admin
 
 ## About this task
 
-As a healthcare provider, you can store the source and destination IDs of an external healthcare system in the [Source system \[sn\_hcls\_source\_system\]](../reference/hcls-source-system.md) table for a custom integration with a ServiceNow application.
+As a healthcare provider, you can store the source and destination IDs of an external healthcare system in the [Source system \[sn\_hcls\_source\_system\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-source-system.md) table for a custom integration with a ServiceNow application.
 
 ## Procedure
 

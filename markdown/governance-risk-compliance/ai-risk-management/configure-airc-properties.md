@@ -2,11 +2,12 @@
 title: Set up AI Risk and Compliance properties
 description: Configure AI Risk and Compliance properties to specify which authority documents and policies you want to display on the home page. You can also specify a default automated risk classification assessment RAM for AI systems and specify a default RAM to be used for risk assessments of AI systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/ai-risk-management/configure-airc-properties.html
 release: zurich
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Configure, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---

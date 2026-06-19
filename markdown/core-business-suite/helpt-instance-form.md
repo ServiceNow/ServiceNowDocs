@@ -2,7 +2,10 @@
 title: Help topics instance options
 description: The details provide the field and its descriptions of the widget instance options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/core-business-suite/helpt-instance-form.html
 release: zurich
+product: Core Business Suite
+classification: core-business-suite
 topic_type: reference
 last_updated: "2025-11-24"
 reading_time_minutes: 1
@@ -73,5 +76,5 @@ The following options are available:-   **Asynchronous**
 -   **Synchronous**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Core Business Suite reference](cbs-reference-parent.md)
+</table>**Parent Topic:**[Core Business Suite reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/core-business-suite/cbs-reference-parent.md)
 

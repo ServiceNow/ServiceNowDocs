@@ -2,6 +2,7 @@
 title: Download and activate the GRC: 360° Relationship Visualization and Data Registry applications
 description: Before you can run the GRC: 360º Relationship Visualization \(com.servicenow\_sn\_grc\_360\_degree\_visualization\) and Data Registry \(com.sn\_app\_grc\_data\_registry\) applications in your instance, you must download them from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-360-degree-relationship-visualization/download\_activate-360.html
 release: zurich
 product: GRC: 360 Degree Relationship Visualization
 classification: grc-360-degree-relationship-visualization
@@ -21,8 +22,8 @@ Role required: admin
 
 ## Procedure
 
-1.  Follow the instructions for [Download a GRC application from the ServiceNow Store for the first time](../../grc-common/task/download-grc-first-time.md).
+1.  Follow the instructions for [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/download-grc-first-time.md).
 
 
-**Parent Topic:**[360° Relationship Visualization](../concept/grc-360-deg-rel-vis.md)
+**Parent Topic:**[360° Relationship Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-360-degree-relationship-visualization/grc-360-deg-rel-vis.md)
 

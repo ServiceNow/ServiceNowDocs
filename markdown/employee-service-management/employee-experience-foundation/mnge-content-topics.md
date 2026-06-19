@@ -2,6 +2,7 @@
 title: Manage connected content from topic pages
 description: Link your desired categories to the topics and track the additions and removals to have easier management of unconnected content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/mnge-content-topics.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -34,8 +35,8 @@ A weekly scheduled job runs to recognize new content added or removed from the c
 
 For more information on the execution and modification of the scheduled job, see
 
--   [Run the scheduled job for content association](schduld-job-link-cntnt.md) and [Check for updated content in categories](may-associate-updated-content-categories-topics.md) for manual checking and updation of each record.
--   [Enable connected content autosync system property](may-system-properties-taxonomy-autosync.md) for autosync.
+-   [Run the scheduled job for content association](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/schduld-job-link-cntnt.md) and [Check for updated content in categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/may-associate-updated-content-categories-topics.md) for manual checking and updation of each record.
+-   [Enable connected content autosync system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/may-system-properties-taxonomy-autosync.md) for autosync.
 
 **Important:** The connected content management is available from the Zurich family release.
 
@@ -65,21 +66,21 @@ For more information on the execution and modification of the scheduled job, see
 
     2.  Go to **Category** and the related list **Catalog Item** &gt; **Actions on selected rows** &gt; **Delete** to remove the record.
 
-        ![catalog item removal](../images/category-delete-content.png "Category removal")
+        \[Omitted image "category-delete-content.png"\] Alt text: catalog item removal
 
-5.  [Run the scheduled job for content association](schduld-job-link-cntnt.md) to surface the unconnected content of categories.
+5.  [Run the scheduled job for content association](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/schduld-job-link-cntnt.md) to surface the unconnected content of categories.
 
 6.  Select **Save** or **Reload form** the topic page.
 
     A confirmation message appears on the screen.
 
-    ![The notification that relevant category has been linked to the topic and content associated to the category is being added to the topic page.](../images/pop-up-notification.jpg "Confirmation notifications")
+    \[Omitted image "pop-up-notification.jpg"\] Alt text: The notification that relevant category has been linked to the topic and content associated to the category is being added to the topic page.
 
 7.  Select **View Details** on the pop-up notification displayed on the topic page to see the content additions and removals available.
 
 8.  Go to **Associated catalog and kb categories** to see the **Update Type**, such as Added or Removed content in the categories.
 
-    ![Associated catalog and kb categories addition and removal updates](../images/connected-content-view-add-remove.png "Update type: Add and Remove")
+    \[Omitted image "connected-content-view-add-remove.png"\] Alt text: Associated catalog and kb categories addition and removal updates
 
 9.  Add or dismiss content, as required, with **Update topic with content** or **Dismiss content** respectively.
 
@@ -92,16 +93,16 @@ Access all the connected content to the categories linked to the topic pages.
 
 Click **Check for updated content in categories** related link to see the content creation source.
 
-![Creation source list of Connected Content tab in a Topic](../images/connected-content-tab.png "Connected content creation source")
+\[Omitted image "connected-content-tab.png"\] Alt text: Creation source list of Connected Content tab in a Topic
 
 **Creation source** helps you distinguish and manage the content added from **Category** or by **User**.
 
--   **[Run the scheduled job for content association](schduld-job-link-cntnt.md)**  
+-   **[Run the scheduled job for content association](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/schduld-job-link-cntnt.md)**  
 Change the scheduled job frequency, as required, to ensure that the notification of new content availability to add to the topic pages is regular and uninterrupted.
--   **[Enable connected content autosync system property](may-system-properties-taxonomy-autosync.md)**  
+-   **[Enable connected content autosync system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/may-system-properties-taxonomy-autosync.md)**  
 Content updates are automatically synced when you enable the autosync system property.
--   **[Check for updated content in categories](may-associate-updated-content-categories-topics.md)**  
+-   **[Check for updated content in categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/may-associate-updated-content-categories-topics.md)**  
 Track and manage the updated content in categories for better visibility, content maintenance, and performance.
 
-**Parent Topic:**[Taxonomy and connected content](../concept/track-new-content.md)
+**Parent Topic:**[Taxonomy and connected content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/track-new-content.md)
 

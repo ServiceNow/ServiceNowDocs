@@ -2,6 +2,7 @@
 title: Import primary model content to a secondary model
 description: When content in your primary NLU model is updated, you can import the updates directly to secondary models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/nlu-service/import-primary-model-content-to-secondary-model.html
 release: zurich
 product: NLU Service
 classification: nlu-service
@@ -17,7 +18,7 @@ When content in your primary NLU model is updated, you can import the updates di
 
 ## Before you begin
 
--   Activate the Localization Framework \(com.glide.localization\_framework.installer\) plugin. See [Localization Framework](https://www.servicenow.com/docs/access?context=localization-framework-landing&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+-   Activate the Localization Framework \(com.glide.localization\_framework.installer\) plugin. See Localization Framework.
 -   For Virtual Agent or AI Search models, create or use an existing primary model that has at least one secondary model.
 -   Role required: nlu\_admin or admin.
 
@@ -39,9 +40,9 @@ You can import primary model content to only one secondary model at a time.
 
 3.  Select the **Check primary model for new content** button.
 
-    ![The button for Check primary model for new content, on the Build and train your model phase.](../images/import-primary-content01U.png)
+    \[Omitted image "import-primary-content01U.png"\] Alt text: The button for Check primary model for new content, on the Build and train your model phase.
 
-    The banner Import and translate the content to keep this model updated appears at the top of the screen, along with a summary of the updates in the primary model. ![The banner for "Import and translate the content to keep this model updated" is highlighted.](../images/import-primary-content02U.png)
+    The banner Import and translate the content to keep this model updated appears at the top of the screen, along with a summary of the updates in the primary model. \[Omitted image "import-primary-content02U.png"\] Alt text: The banner for "Import and translate the content to keep this model updated" is highlighted.
 
     **Note:** By default, newly imported intents are disabled in secondary models. Activate any imported intents manually.
 
@@ -49,7 +50,7 @@ You can import primary model content to only one secondary model at a time.
 
 5.  In the **Import and translate new content from your primary model** window, choose a translation method and select **Import**.
 
-    ![The window for "Import and translate new content from your primary model". Choose how to translate new content.](../images/import-primary-content03U.png)
+    \[Omitted image "import-primary-content03U.png"\] Alt text: The window for "Import and translate new content from your primary model". Choose how to translate new content.
 
     The new content begins translating. When finished, the translated content must be reviewed.
 
@@ -57,6 +58,4 @@ You can import primary model content to only one secondary model at a time.
 ## What to do next
 
 Make sure that each of your secondary models receive the new content from the primary model. Review all the new, translated content before publishing the secondary models.
-
-**Parent Topic:**[Multilingual model management](../concept/multilingual-model-managent.md)
 

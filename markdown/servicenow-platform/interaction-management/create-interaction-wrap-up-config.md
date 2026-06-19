@@ -2,6 +2,7 @@
 title: Create an interaction wrap-up configuration
 description: Create a configuration for each type of interaction that uses the interaction wrap up feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/interaction-management/create-interaction-wrap-up-config.html
 release: zurich
 product: Interaction Management
 classification: interaction-management
@@ -147,5 +148,5 @@ The default wrap up code that is used if an agent does not select a code before 
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Interaction wrap up](../concept/interaction-wrap-up-state.md)
+**Parent Topic:**[Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/interaction-management/interaction-wrap-up-state.md)
 

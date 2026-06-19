@@ -2,6 +2,7 @@
 title: Mobile Time Sheets
 description: The ServiceNow Mobile Timesheets app enables time sheet users and managers to access their time sheets from a mobile device. Mobile Time Sheets is available on the Now Mobile app and is supported on iOS and Android devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/time-card-management/timesheet-mobile.html
 release: zurich
 product: Time Card Management
 classification: time-card-management
@@ -31,7 +32,7 @@ The Mobile Time Sheets app provides the following capabilities to time sheet use
 -   Submit a time sheet
 -   Submit a time card
 
-![User view of Mobile Time Sheets](../image/timesheet_userview.png)
+\[Omitted image "timesheet\_userview.png"\] Alt text: User view of Mobile Time Sheets
 
 The Mobile Time Sheets app provides the following capabilities to resource or project managers:
 
@@ -39,24 +40,24 @@ The Mobile Time Sheets app provides the following capabilities to resource or pr
 -   Approve or reject a time card
 -   Recall a time sheet or time card
 
-![Manager view of Mobile Time Sheets](../image/timesheet_managerview.png)
+\[Omitted image "timesheet\_managerview.png"\] Alt text: Manager view of Mobile Time Sheets
 
--   **[Install Mobile Time Sheets](../task/install-timesheet-mobile.md)**  
+-   **[Install Mobile Time Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/time-card-management/install-timesheet-mobile.md)**  
 Install the Mobile Time Sheets application from the ServiceNow Store website.
--   **[Create a time sheet from your mobile device](../task/create-timesheet-mobile.md)**  
+-   **[Create a time sheet from your mobile device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/time-card-management/create-timesheet-mobile.md)**  
 Create a time sheet to group all your time cards for the given week and submit them in a single step from the Now Mobile application.
--   **[Add a time card and log time through the Mobile Time Sheets application](../task/create-timecard-mobile.md)**  
+-   **[Add a time card and log time through the Mobile Time Sheets application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/time-card-management/create-timecard-mobile.md)**  
 Create time cards to log time from your mobile application for the work you have done.
--   **[Manage your time cards](../task/manage-timecard.md)**  
+-   **[Manage your time cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/time-card-management/manage-timecard.md)**  
 View, edit, or delete your time cards from your mobile device.
--   **[Submit a time card from your mobile device](../task/submit-timecard-mobile.md)**  
+-   **[Submit a time card from your mobile device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/time-card-management/submit-timecard-mobile.md)**  
 Once a time card for the week is updated with the time worked, you can submit the time card from your mobile application.
--   **[Submit a time sheet from your mobile device](../task/submit-timesheet-mobile.md)**  
+-   **[Submit a time sheet from your mobile device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/time-card-management/submit-timesheet-mobile.md)**  
 Once you have updated the time sheet with the time you worked, you can submit the time sheet for the week to submit all the time cards for the week together from your mobile application.
--   **[Approve or reject a time sheet or time card from your mobile device](../task/approve-reject-timesheet-mobile.md)**  
+-   **[Approve or reject a time sheet or time card from your mobile device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/time-card-management/approve-reject-timesheet-mobile.md)**  
 As a user manager, you can approve or reject from your mobile device all time cards for a user in a given week in a single step by approving or rejecting a time sheet.
--   **[Recall a processed time sheet or time card from your mobile device](../task/recall-timesheet-mobile.md)**  
+-   **[Recall a processed time sheet or time card from your mobile device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/time-card-management/recall-timesheet-mobile.md)**  
 As a user manager, you can recall an incorrect time sheet or time card that is in the Approved or Processed state to return it to the submitter. The submitter can then make the necessary changes and resubmit the time sheet or time card.
 
-**Parent Topic:**[Time Card Management](../../../administer/task-table/concept/time-card-management.md)
+**Parent Topic:**[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/time-card-management/time-card-management.md)
 

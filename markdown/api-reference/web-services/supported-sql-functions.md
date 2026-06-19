@@ -2,6 +2,7 @@
 title: Supported SQL functions
 description: Common SQL functions used in SQL API for querying and analyzing incident data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/supported-sql-functions.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -52,5 +53,5 @@ ServiceNow supports a variety of SQL functions for querying and analyzing data i
 |String FN|TRIM|Clean white space from descriptions for data quality improvement|SELECT number, TRIM\(short\_description\) AS clean\_description FROM incident WHERE short\_description IS NOT NULL;|
 |Windows FN|RANK\(\)|Rank incidents by number of updates to identify most frequently modified tickets|SELECT number, sys\_mod\_count, assignment\_group, RANK\(\) OVER \(ORDER BY sys\_mod\_count DESC\) AS modification\_rank FROM incident WHERE assignment\_group IS NOT NULL;|
 
-**Parent Topic:**[Getting started with ServiceNow SQL API](../concept/getting-started-with-servicenow-sql-api.md)
+**Parent Topic:**[Getting started with ServiceNow SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/getting-started-with-servicenow-sql-api.md)
 

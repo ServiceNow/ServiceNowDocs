@@ -2,6 +2,7 @@
 title: Associate a task plan template to a work schedule
 description: Map a single or multiple task plan templates to a planned work schedule. Add conditions to identify the relevant templates for the planned work records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/map-schedule-to-task-template.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -21,7 +22,7 @@ Role required: sn\_fsm\_planned\_wm.planned\_work\_admin
 
 ## About this task
 
-If you set the template type of a work plan to Task plan template, you can link its planned work schedules with task plan templates. For more information, see [Create a work plan](create-work-plan.md).
+If you set the template type of a work plan to Task plan template, you can link its planned work schedules with task plan templates. For more information, see [Create a work plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/create-work-plan.md).
 
 When the conditions specified in the planned work schedule template are met, tasks, cases, or incidents are created based on the defined task plan templates.
 
@@ -53,7 +54,7 @@ Template
 
 </td><td>
 
-Task plan template to be associated with the planned work schedule. For more information on the creation and usage of task plans, see [Task Plan Templates](https://www.servicenow.com/docs/access?context=task-plan-templates&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+Task plan template to be associated with the planned work schedule. For more information on the creation and usage of task plans, see .
 
 </td></tr><tr><td>
 

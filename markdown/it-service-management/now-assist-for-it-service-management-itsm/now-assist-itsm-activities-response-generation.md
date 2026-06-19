@@ -2,6 +2,7 @@
 title: Generate a response in the activity stream
 description: Automatically generate a response in an incident record activity stream using the Incident activity response generation skill. Add them to the work notes or comments to enhance the quality of your interactions with the user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-activities-response-generation.html
 release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -28,7 +29,7 @@ Role required: itil
 
 2.  Do the following in the **Work notes** or **Comments** field:
 
-    1.  Select the Now Assist icon \(![Sparkle icon](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)\).
+    1.  Select the Now Assist icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text: Sparkle icon\).
 
         The following four options appear:
 

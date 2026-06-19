@@ -2,6 +2,7 @@
 title: Guidance based recommendations in Recommended Actions for ITSM
 description: ITSM base system includes the following guidance based recommendations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/guidance-based-recommendations-in-recommended-actions-for-itsm.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -150,5 +151,5 @@ Create known error article for high impact Problem
 Returns guidance based recommendation for a high-impact problem.Select **Create article** to create a known error article for a high-impact problem.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Recommended Actions for ITSM reference](../concept/recommended-actions-for-itsm-reference.md)
+</table>**Parent Topic:**[Recommended Actions for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/recommended-actions-for-itsm-reference.md)
 

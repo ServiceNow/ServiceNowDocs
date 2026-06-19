@@ -2,6 +2,7 @@
 title: Legal contract templates
 description: Create document templates to generate contract documents depending on various request types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-simple-contracts/document-template-block.html
 release: zurich
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -17,8 +18,8 @@ Create document templates to generate contract documents depending on various re
 
 You can save time and manual rework by using document templates to create contract documents instead of filling out a contract document from scratch for each request. It's also an efficient way of generating consistent contract documents for legal requests.
 
--   [Configure legal contract of type HTML](../task/lsc-config-html-ct.md)
--   [Create a legal contract template of type PDF](../task/create-legal-contract-template-pdf.md)
--   [Configure legal contract templates of type Microsoft Word](../task/lsc-configure-ct-msword.md)
--   [Configure a rule for selecting a legal contract template](../task/configure-legal-contract-template-rules.md)
+-   [Configure legal contract of type HTML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/lsc-config-html-ct.md)
+-   [Create a legal contract template of type PDF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/create-legal-contract-template-pdf.md)
+-   [Configure legal contract templates of type Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/lsc-configure-ct-msword.md)
+-   [Configure a rule for selecting a legal contract template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/configure-legal-contract-template-rules.md)
 

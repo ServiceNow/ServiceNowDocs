@@ -2,6 +2,7 @@
 title: Robotic Process Automation \(RPA\) Spoke
 description: With Robotic Process Automation, your flow designers can use actions to assign and unassign users to and from an attended automation process, add work items to a queue, update work items, fetch process jobs, get the status of a process job, and trigger a bot process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/rpa-actions.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -243,11 +244,11 @@ Stops a bot process. If Graceful Stop is enabled, this action gracefully stops t
 
 If this check box is selected, then bot process must stop gracefully.
 
-For more information about stopping a bot process, see [Stop an unattended bot process in RPA Hub](https://www.servicenow.com/docs/access?context=stop-bot-process&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+For more information about stopping a bot process, see .
 
-For more information about Graceful stop, see [Using Graceful Stop functionality in RPA Hub](https://www.servicenow.com/docs/access?context=graceful-stop-rpa&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+For more information about Graceful stop, see .
 
-For more information about Robot Pool, see [Robot pool in RPA Hub](https://www.servicenow.com/docs/access?context=robot-pool-rpa&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+For more information about Robot Pool, see .
 
 
 </td><td>
@@ -355,7 +356,7 @@ Verify HashCode of a Package Version
 
 </td><td>
 
-Verifies the HashCode of a package version in RPA Hub to validate the HashCode of the manually uploaded automation zip file with the associated package version record.For more information about verifying the HashCode of a package version, see [Verify the HashCode of a package version in RPA Hub](https://www.servicenow.com/docs/access?context=view-hash-code&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+Verifies the HashCode of a package version in RPA Hub to validate the HashCode of the manually uploaded automation zip file with the associated package version record.For more information about verifying the HashCode of a package version, see .
 
 </td><td>
 
@@ -390,7 +391,7 @@ Import Package Version Attachment Subflow
 
 </td><td>
 
-Imports the package version attachments automatically for a package version. To automatically migrate the package attachment \(automation zip file\) from a lower \(non-production\) to a higher \(production\) environment.For more information about importing a package version attachment in RPA Hub, see [Import a package version attachment in RPA Hub](https://www.servicenow.com/docs/access?context=import-attachment-package-version&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+Imports the package version attachments automatically for a package version. To automatically migrate the package attachment \(automation zip file\) from a lower \(non-production\) to a higher \(production\) environment.For more information about importing a package version attachment in RPA Hub, see .
 
 </td><td>
 
@@ -452,5 +453,5 @@ Triggers a specific bot process to stop in RPA Hub. Returns robots details and p
 -   **Result**: String
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Spokes](../concept/spokes.md)
+</table>**Parent Topic:**[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/spokes.md)
 

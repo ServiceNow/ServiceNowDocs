@@ -2,6 +2,7 @@
 title: Industrial Workspace Admin application menu and Guided Setup
 description: After you install the application and related plugins, you can use the Industrial Workspace Admin application menu to access the related Operational Technology Manager, Industrial Process Manager, Operational Technology Incident Management, Operational Technology Vulnerability Response, Operational Technology Change Management, Operational Technology Knowledge Management, and Operational Technology Request Management functions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-process-manager/manufacturing-app-menu-guided-setup.html
 release: zurich
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -42,7 +43,7 @@ The options that appear on the Industrial Workspace Admin application menu depen
     -   OT Incident Admin
     -   Operational Technology Change Management
 
-To learn more about application installation and assigned roles, see [Install the Industrial Process Manager](install-manufacturing-process-mgr.md) and [Assign Industrial Process Manager user roles](assign-manufacturing-process-manager-roles.md).
+To learn more about application installation and assigned roles, see [Install the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/install-manufacturing-process-mgr.md) and [Assign Industrial Process Manager user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/assign-manufacturing-process-manager-roles.md).
 
 ## Industrial Workspace Admin Guided Setup
 
@@ -63,7 +64,7 @@ If only the Industrial Process Manager is installed, the following setup functio
 -   The Operational Technology Knowledge Management setup steps.
 -   The Operational Technology Request Management setup steps.
 
-To learn more about Guided Setups and their use, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+To learn more about Guided Setups and their use, see Using guided setup.
 
-**Parent Topic:**[Configuring the Industrial Process Manager](../concept/configuring-manufacturing-process-mgr.md)
+**Parent Topic:**[Configuring the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
 

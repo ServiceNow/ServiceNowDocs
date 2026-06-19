@@ -2,6 +2,7 @@
 title: Action schedule form for an exposure
 description: The industrial hygienist can use the action schedule form for an action to be created when there's an active exposure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-risk-management/hs-action-schedule-form.html
 release: zurich
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Health and Safety Risk Management, Health and Safety, Em
 
 The industrial hygienist can use the action schedule form for an action to be created when there's an active exposure.
 
-For information on setting up an action schedule for an exposure, see [Define an action schedule for affected people](../task/hs-define-action-schedule-affected-people.md).
+For information on setting up an action schedule for an exposure, see [Define an action schedule for affected people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/hs-define-action-schedule-affected-people.md).
 
 <table id="table_ap1_wzv_zdc"><thead><tr><th>
 
@@ -60,7 +61,7 @@ Type of the action.-   **Corrective**: An action to eliminate the causes of non-
 -   **Task**: A generic task assigned as an action.
 -   **Learning**: An action that includes a learning for the user, for example, completing a training.
 
-**Note:** The **Learning** option in this field appears only when the Learning Core \(sn\_lc\) application is installed on your instance. For more information, see [Additional features in Health and Safety](../../ohs-incident-management/task/install-hs-incident-mgmt.md#table_ix1_bff_gxb).
+**Note:** The **Learning** option in this field appears only when the Learning Core \(sn\_lc\) application is installed on your instance. For more information, see [Additional features in Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-incident-management/install-hs-incident-mgmt.md).
 
 
 </td></tr><tr><td>
@@ -71,7 +72,7 @@ Learning material
 
 Learning material for the training, for example, knowledge article or URL for a training video.This field appears only when **Learning** is selected from **Type**.
 
-**Note:** This field lists the learning content created in Learning Core. For more information, see [Managing course and catalog content](../../human-resources/task/manage-ln-content.md).
+**Note:** This field lists the learning content created in Learning Core. For more information, see [Managing course and catalog content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/manage-ln-content.md).
 
 </td></tr><tr><td>
 
@@ -139,5 +140,5 @@ Day of the selected month when the schedule should run to generate the recurring
 This field appears only when **Frequency** is set as **Monthly**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Risk Management reference](../concept/hs-risk-mgmt-reference.md)
+</table>**Parent Topic:**[Health and Safety Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-reference.md)
 

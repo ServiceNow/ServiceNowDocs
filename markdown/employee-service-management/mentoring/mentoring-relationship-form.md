@@ -2,6 +2,7 @@
 title: Mentoring relationship form
 description: Use the mentoring relationship form to start a new relationship between a mentee and a mentor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/mentoring/mentoring-relationship-form.html
 release: zurich
 product: Mentoring
 classification: mentoring

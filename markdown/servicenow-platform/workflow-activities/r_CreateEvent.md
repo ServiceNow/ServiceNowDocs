@@ -2,6 +2,7 @@
 title: Create Event workflow activity
 description: The Create Event activity adds an event to the event queue, but does not immediately fire the event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/workflow-activities/r\_CreateEvent.html
 release: zurich
 product: Workflow Activities
 classification: workflow-activities
@@ -17,7 +18,7 @@ The **Create Event** activity adds an event to the event queue, but does not imm
 
 The event processor typically processes the event within one minute. This activity triggers any business rules or email notifications that would normally be triggered by the event.
 
-For more information about creating and using system events, see [System Events](https://www.servicenow.com/docs/access?context=events&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+For more information about creating and using system events, see .
 
 ## Results
 

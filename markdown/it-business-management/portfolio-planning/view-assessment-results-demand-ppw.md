@@ -2,6 +2,7 @@
 title: View assessment results
 description: View assessment results for a demand to evaluate its feasibility, priority, and alignment with organizational objectives. Assessment results provide demand managers with the insights needed to make informed decisions on whether to approve, defer, or reject a demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/view-assessment-results-demand-ppw.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -23,7 +24,7 @@ Role required: it\_demand\_manager
 
 1.  Open a demand from the home page of Next Experience for Demand Management.
 
-    For more information, see [Access demands](access-demands-ppw.md).
+    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/access-demands-ppw.md).
 
 2.  Select **Details** from the L-2 \(level 2\) navigation menu.
 

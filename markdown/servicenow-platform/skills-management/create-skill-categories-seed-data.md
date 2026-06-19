@@ -2,6 +2,7 @@
 title: Create skill categories using sample data
 description: Onboard your team quickly using the skill taxonomy framework provided with your application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/skills-management/create-skill-categories-seed-data.html
 release: zurich
 product: Skills Management
 classification: skills-management
@@ -25,7 +26,7 @@ The sample data provides 150 records that you can use to get started building yo
 
 ## Procedure
 
-1.  [Activate](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) the Skills Library Data for Skills Management \(com.snc.skills\_management.seed\_data\) plugin.
+1.  Activate the Skills Library Data for Skills Management \(com.snc.skills\_management.seed\_data\) plugin.
 
 2.  Navigate to **Skills** &gt; **Skill Taxonomy**.
 

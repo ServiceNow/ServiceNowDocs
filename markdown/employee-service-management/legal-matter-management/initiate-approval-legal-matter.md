@@ -2,6 +2,7 @@
 title: Initiate an ad hoc approval for a legal matter or its artifact
 description: Initiate an ad hoc approval for a legal matter or its artifacts from a user or a user group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-matter-management/initiate-approval-legal-matter.html
 release: zurich
 product: Legal Matter Management
 classification: legal-matter-management
@@ -40,19 +41,19 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d426953e150">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d301386e150">
 
 Option
 
-</th><th align="left" id="d426953e153">
+</th><th align="left" id="d301386e153">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d426953e159">
+</th></tr></thead><tbody><tr><td id="d301386e159">
 
 **As an assignee**
 
@@ -64,7 +65,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d426953e188">
+</td></tr><tr><td id="d301386e188">
 
 **As a collaborator**
 
@@ -77,7 +78,7 @@ The state of the legal matter updates to Work in Progress.
 </td></tr></tbody>
 </table>4.  In the **Approvers** tab, click **Initiate Approval**.
 
-    You can also initiate an approval by clicking the more actions button \(![More actions button icon.](../../legal-request-management/image/more-button-icon.png)\) and selecting **Initiate Approval**.
+    You can also initiate an approval by clicking the more actions button \(\[Omitted image "more-button-icon.png"\] Alt text: More actions button icon.\) and selecting **Initiate Approval**.\[Omitted image "lmm-initiate-app-button.png"\] Alt text: Select Initiate approval option for to submit an ad-hoc approval request
 
 5.  On the Initiate Approval dialog box, fill in the fields.
 
@@ -123,7 +124,7 @@ Select document
 
 Documents attached to the legal matter for which approval is required.This field appears only when **Document** is selected from **Approval for**.
 
-**Note:** The Document option in the list appears only when the [external storage option is enabled](../../legal-request-management/task/associate-categories-practice-area.md) on the intake form.
+**Note:** The Document option in the list appears only when the [external storage option is enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/associate-categories-practice-area.md) on the intake form.
 
 </td></tr><tr><td>
 
@@ -156,7 +157,9 @@ Approval note
 Note for the selected user or user group.
 
 </td></tr></tbody>
-</table>6.  Click **Initiate**.
+</table>    \[Omitted image "lmm-initiate-app-popup.png"\] Alt text: Fill in the details of the artifact or matter for which you want to request an ad-hoc approval
+
+6.  Select **Initiate**.
 
 
 ## Result
@@ -166,7 +169,7 @@ Assigned approvers are added in the **Approvers** tab based on the following con
 -   If you selected **User** in the **Approval by** field, an approval record is created for the selected user.
 -   If you selected **User group** in the **Approval by** field, an approval record for each user in the selected user group is created. Anyone from the group can approve.
 
-If the external storage option is enabled, document in a legal matter artifact are stored in the external storage systems. Based on the approval request, the document access to the approvers is at the matter, artifact, or document level. For more information on document access, see [Document access in a legal matter](../concept/document-access-legal-matter.md).
+If the external storage option is enabled, document in a legal matter artifact are stored in the external storage systems. Based on the approval request, the document access to the approvers is at the matter, artifact, or document level. For more information on document access, see [Document access in a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/document-access-legal-matter.md).
 
 The assigned approvers get an email notification with a link to open the record for review and action.
 
@@ -179,10 +182,10 @@ The approval details appear under the **Approvals** tab on the Standard Ticket p
 
 ## What to do next
 
-Approvers can review and [approve or reject the requested item](approve-reject-legal-matter-artif.md).
+Approvers can review and [approve or reject the requested item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/approve-reject-legal-matter-artif.md).
 
--   **[Cancel an ad hoc approval for a legal matter](cancel-approval-legal-matter.md)**  
+-   **[Cancel an ad hoc approval for a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/cancel-approval-legal-matter.md)**  
 Cancel an ad hoc approval for a legal matter if it no longer requires any action.
 
-**Parent Topic:**[Work on a legal matter](work-on-legal-matter-1.md)
+**Parent Topic:**[Work on a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

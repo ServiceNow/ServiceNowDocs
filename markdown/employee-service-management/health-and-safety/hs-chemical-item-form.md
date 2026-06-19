@@ -2,6 +2,7 @@
 title: Chemical item form
 description: The chemical manager uses the chemical item form to add a new chemical item record. The field and its descriptions are as follows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety/hs-chemical-item-form.html
 release: zurich
 product: Health and Safety
 classification: health-and-safety
@@ -41,5 +42,5 @@ The chemical manager uses the chemical item form to add a new chemical item reco
 |Additional comments|Additional comments relevant to the chemical.|
 |Work notes|Any work notes relevant to the chemical.|
 
-**Parent Topic:**[Health and Safety Environmental Management reference](../concept/hs-reference-environmental-management.md)
+**Parent Topic:**[Health and Safety Environmental Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-reference-environmental-management.md)
 

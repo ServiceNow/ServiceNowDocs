@@ -2,6 +2,7 @@
 title: Set criteria for quality review
 description: Configure criteria to determine which closed work order tasks qualify for review, enhancing efficiency and maintaining high service standards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/set-criteria-for-quality-review.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

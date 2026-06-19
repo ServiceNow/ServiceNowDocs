@@ -2,6 +2,7 @@
 title: Define new idea categories
 description: Create new idea categories that a user can select to associate with a submitted idea. You can also add custom idea categories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/innovation-management/define-idea-categories.html
 release: zurich
 product: Innovation Management
 classification: innovation-management
@@ -33,20 +34,20 @@ You can use multiple idea categories with an Idea module, however, you can map o
 
 2.  On the form, fill in the fields.
 
-    For more information, see [Idea category form](../reference/idea-category-form.md).
+    For more information, see [Idea category form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/idea-category-form.md).
 
 3.  Select **Submit**.
 
-    An idea category represents a theme for organizing idea submissions. All ideas submitted through the Idea Portal must be associated with at least one idea category. You can use values from an existing table or create new idea categories for organizing your idea. Users select one or more idea categories, configured by an admin, to associate with their idea when they submit it. For more information, see [Create an Idea module](create-idea-module.md), and [Idea category configuration](category-configuration-existing-table.md).
+    An idea category represents a theme for organizing idea submissions. All ideas submitted through the Idea Portal must be associated with at least one idea category. You can use values from an existing table or create new idea categories for organizing your idea. Users select one or more idea categories, configured by an admin, to associate with their idea when they submit it. For more information, see [Create an Idea module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/create-idea-module.md), and [Idea category configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/category-configuration-existing-table.md).
 
 
 ## What to do next
 
-Map idea categories with your idea module. For more information see, [Configure idea categories](category-configuration-existing-table.md).
+Map idea categories with your idea module. For more information see, [Configure idea categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/category-configuration-existing-table.md).
 
-**Parent Topic:**[Idea Portal administration](../concept/idea-portal-administration.md)
+**Parent Topic:**[Idea Portal administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/idea-portal-administration.md)
 
-**Previous topic:**[Create an Idea module](create-idea-module.md)
+**Previous topic:**[Create an Idea module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/create-idea-module.md)
 
-**Next topic:**[Adding Idea Portal to Employee Center](../concept/add-idea-portal-to-employee-center.md)
+**Next topic:**[Adding Idea Portal to Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/add-idea-portal-to-employee-center.md)
 

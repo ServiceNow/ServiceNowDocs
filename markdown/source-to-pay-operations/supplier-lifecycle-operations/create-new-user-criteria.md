@@ -2,6 +2,7 @@
 title: Create custom user criteria for primary managers
 description: You can create custom user criteria for primary relationship managers for configuring the assessment reassignment criteria.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/create-new-user-criteria.html
 release: zurich
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -181,5 +182,5 @@ With **Match All** selected, only users that meet all of these conditions are ma
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Configure user criteria for reassigning assessments](../concept/configure-user-criteria-for-reassigning-assessments.md)
+**Parent Topic:**[Configure user criteria for reassigning assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/configure-user-criteria-for-reassigning-assessments.md)
 

@@ -2,6 +2,7 @@
 title: Change default currency decimal places
 description: You can specify the number of decimal places stored and used in currency fields and calculations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/currency-administration/change-currency-fraction-digits.html
 release: zurich
 product: Currency Administration
 classification: currency-administration
@@ -31,5 +32,5 @@ Role required: admin
     |true|Uses four decimal places. This value is the default.|
 
 
-**Parent Topic:**[Setting up defaults required for standard currency use](../concept/setting-up-standard-currency-defaults.md)
+**Parent Topic:**[Setting up defaults required for standard currency use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/setting-up-standard-currency-defaults.md)
 

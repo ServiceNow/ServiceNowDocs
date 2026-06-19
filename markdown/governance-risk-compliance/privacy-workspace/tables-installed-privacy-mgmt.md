@@ -2,6 +2,7 @@
 title: Tables installed with Privacy Management
 description: Tables are added with activation of GRC: Privacy Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/tables-installed-privacy-mgmt.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -104,5 +105,5 @@ Processing activity hierarchy
 Personal data can be moved from one processing activity to another processing activity. This table stores the upstream and downstream processing activities information for each processing activity.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Privacy Management reference](privacy-mgmt-reference.md)
+</table>**Parent Topic:**[Privacy Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/privacy-mgmt-reference.md)
 

@@ -2,6 +2,7 @@
 title: Career Assessment reference
 description: All information regarding the system properties and tables installed with Career Assessment are listed here.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/exam-engine-reference.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core

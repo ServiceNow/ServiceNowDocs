@@ -2,6 +2,7 @@
 title: Configure inventory-based scheduling for a center
 description: Configure scheduling based on available inventory for a center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/vaccine-administration-management/configure-scheduling-by-inventory.html
 release: zurich
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -273,5 +274,5 @@ Notes about the vaccine availability for this lot.
     8.  To create more records for vaccine availability, repeat the Availability By Lots procedure, as needed.
 
 
-**Parent Topic:**[Configuring Vaccine Administration Management](../concept/vaccine-mgmt-config.md)
+**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 

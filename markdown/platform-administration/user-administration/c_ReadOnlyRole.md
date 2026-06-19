@@ -2,18 +2,19 @@
 title: Read-only role
 description: The read-only role \(snc\_read\_only\) restricts a user or a group of users to read-only access on the tables to which the user already has access.If it isn’t already active, an administrator can activate the Read-Only User Role \(com.snc.read\_only.role\) plugin.These system properties control the snc\_read\_only role. The following default values are used for the properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/user-administration/c\_ReadOnlyRole.html
 release: zurich
 product: User Administration
 classification: user-administration
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 3
 breadcrumb: [Base system roles, Managing roles, User admin, Configure core features, Administer]
 ---
 
 # Read-only role
 
-The read-only role \(snc\_read\_only\) restricts a user or a group of users to read-only access on the tables to which the user already has access.
+The read-only role \(**snc\_read\_only**\) restricts a user or a group of users to read-only access on the tables to which the user already has access.
 
 This role is designed to complement other roles a user possesses. Its purpose is to restrict actions like the insert, update, or delete operations on the tables accessible through their existing roles.
 
@@ -21,9 +22,9 @@ After you assign this role to a user, they can no longer create, update, or dele
 
 **Note:** Assign this role only to users. Don’t assign this role to other resources in the system, including applications, access control levels \(ACLs\), and so on.
 
-The snc\_read\_only role can be assigned to any user to limit access to data without having to create ACLs for system tables, custom tables, and fields. This practice is useful for performing internal or external audits without enabling a user to have insert or update access to data.
+The **snc\_read\_only** role can be assigned to any user to limit access to data without having to create ACLs for system tables, custom tables, and fields. This practice is useful for performing internal or external audits without enabling a user to have insert or update access to data.
 
-Users with the snc\_read\_only role have the following restrictions regardless of other roles and privileges that they have.
+Users with the **snc\_read\_only** role have the following restrictions regardless of other roles and privileges that they have.
 
 -   Can’t insert, update, or delete records from the UI or when using the GlideRecord API.
 -   Can’t activate or upgrade plugins.
@@ -33,7 +34,17 @@ Users with the snc\_read\_only role have the following restrictions regardless o
 
 **Note:** These role restrictions are in place even if impersonating another user with write access such as an admin.
 
-**Parent Topic:**[Base system roles](../../roles/reference/r_BaseSystemRoles.md)
+## Exempt tables from the read-only restriction
+
+Three system properties control which tables users with the **snc\_read\_only** role can still create, update, or delete records on. These properties are not created on instances by default. To use them, manually add each property to the System Properties \[sys\_properties\] table and set the value to a comma-separated list of table names. See [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
+
+|Property|Description|
+|--------|-----------|
+|**glide.security.snc\_read\_only\_role.tables.exempt\_create**|Comma-separated list of tables on which users with the **snc\_read\_only** role can create records.|
+|**glide.security.snc\_read\_only\_role.tables.exempt\_write**|Comma-separated list of tables on which users with the **snc\_read\_only** role can update records.|
+|**glide.security.snc\_read\_only\_role.tables.exempt\_delete**|Comma-separated list of tables on which users with the **snc\_read\_only** role can delete records.|
+
+**Parent Topic:**[Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/r_BaseSystemRoles.md)
 
 ## Activate the read-only role
 
@@ -55,7 +66,7 @@ Role required: admin
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/find-components.md).
 
 
 ## Read-only role properties

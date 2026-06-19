@@ -2,6 +2,7 @@
 title: UniversalTaskUtils - Scoped, Global
 description: The UniversalTaskUtils script include provides methods for managing universal tasks.Applies the specified universal task template to the specified universal task record.Returns the active child task records, in the form of a GlideRecord, for the specified parent ticket.Checks whether the specified parent ticket has any universal tasks that are in the work-in progress or complete state.Changes the state of all active universal tasks under the specified parent ticket to "Cancelled".Changes the state of all active child universal tasks associated with the specified parent ticket to "Complete".
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/UniversalTaskUtilsBothAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,21 +18,21 @@ The UniversalTaskUtils script include provides methods for managing universal ta
 
 With the ServiceNow Universal Task application, agents can create tasks for employees. For example, agents can ask for additional information or request an action to resolve a parent ticket or request. Universal tasks are available for any ticket type that extends the Task \[task\] table.
 
-Using this script include you can change the state of active universal tasks to "Complete" or "Cancelled", obtain all active universal tasks for a specified parent task, check whether a parent universal task has any children, and apply templates to a universal task record. You can use these methods in scripts and in the Visable condition builders on the **Tab configuration** form to manage the data that appears on the **Universal Task** tab. For additional information, see [Add a Task tab on the Standard Ticket page](https://www.servicenow.com/docs/access?context=config-stdtktpage-for-ut&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+Using this script include you can change the state of active universal tasks to "Complete" or "Cancelled", obtain all active universal tasks for a specified parent task, check whether a parent universal task has any children, and apply templates to a universal task record. You can use these methods in scripts and in the Visable condition builders on the **Tab configuration** form to manage the data that appears on the **Universal Task** tab. For additional information, see Add a Task tab on the Standard Ticket page.
 
-![Tab Configuration conditional builder example](../image/tab_config-method-imp.png)
+\[Omitted image "tab\_config-method-imp.png"\] Alt text: Tab Configuration conditional builder example
 
 You can use this script include in both scoped and global applications. The Universal Task application \(sn\_uni\_task\) must be installed on the associated instance to have access to this script include. You must always specify the `sn_uni_task` namespace when calling methods in this API.
 
-For additional information on the Universal Task application, see [Universal Task](https://www.servicenow.com/docs/access?context=universal-task-landing&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+For additional information on the Universal Task application, see Universal Task.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## UniversalTaskUtils - applyTemplate\(String templateSysId, GlideRecord uniTaskGr\)
 
 Applies the specified universal task template to the specified universal task record.
 
-Before you can use this method, there must be universal task templates configured in your instance. For details, see [Universal Task templates](https://www.servicenow.com/docs/access?context=ut-task-template-landing&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+Before you can use this method, there must be universal task templates configured in your instance. For details, see Universal Task templates.
 
 <table id="table_c3g_znf_hpb" class="parameters"><thead><tr><th>
 
@@ -89,7 +90,7 @@ This code example shows a function that acquires, and then applies, the Feedback
 
 Returns the active child task records, in the form of a GlideRecord, for the specified parent ticket.
 
-You can then use the GlideRecord API, [scoped](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#) or [global](../../GlideRecord/concept/c_GlideRecordAPI.md#) depending on the calling application's scope, to access the returned data, such as using the getRowCount\(\) method to count active tasks.
+You can then use the GlideRecord API, [scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) or [global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordAPI.md) depending on the calling application's scope, to access the returned data, such as using the getRowCount\(\) method to count active tasks.
 
 |Name|Type|Description|
 |----|----|-----------|

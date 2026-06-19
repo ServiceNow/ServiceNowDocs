@@ -2,6 +2,7 @@
 title: Configure domain separation for Vendor Management Workspace
 description: Configure domain separation for Vendor Management Workspace to collect vendor scores and analyze the data for a specific domain. Configure domains for vendor score metric models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/vendor-management-workspace/config-domain-sep-vendor-management-configurable-workspace.html
 release: zurich
 product: Vendor Management Workspace
 classification: vendor-management-workspace
@@ -39,26 +40,26 @@ Role required: pa\_data\_collector or admin
         -   VMW Daily Data Collection
         -   VMW Vendor Score Collection
     5.  Click **Update**.
-    For more information on creating or scheduling a data collection job, refer to [Create or schedule a data collection job](https://www.servicenow.com/docs/access?context=t_CreatASchedDataCollJob&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US)
+    For more information on creating or scheduling a data collection job, refer to Create or schedule a data collection job
 
     **Note:** The Performance Analytics application:
 
     -   Runs the job and collects the score as the **Run as** user.
     -   Collects the scores only for the domain in which the logged-in user runs the job. The scores are not visible to vendor admins or vendor managers who are not part of that domain in Vendor Manager Workspace.
-    -   Automatically adds database queries that limit results from the domain to the [indicator source queries](https://www.servicenow.com/docs/access?context=c_IndicatorSources&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US) when the application runs a job for a domain configuration.
+    -   Automatically adds database queries that limit results from the domain to the indicator source queries when the application runs a job for a domain configuration.
 2.  Configure a domain to assign a vendor score metric model to a domain.
 
     1.  Navigate to **Vendor Manager Workspace** &gt; **Vendor Score Metric Models**
     2.  Do any of the following:
-<table id="choicetable_uxc_zhx_5jb"><thead><tr><th align="left" id="d125562e200">
+<table id="choicetable_uxc_zhx_5jb"><thead><tr><th align="left" id="d41183e200">
 
 To
 
-</th><th align="left" id="d125562e203">
+</th><th align="left" id="d41183e203">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d125562e209">
+</th></tr></thead><tbody><tr><td id="d41183e209">
 
 **Configure the Vendor Score Metric Model list**
 
@@ -69,7 +70,7 @@ Do this
 3.  Click **OK**.
 
 
-</td></tr><tr><td id="d125562e242">
+</td></tr><tr><td id="d41183e242">
 
 **Configure a Vendor Score Metric Model form**
 
@@ -83,5 +84,5 @@ Do this
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Domain separation and Vendor Management Workspace](../concept/domain-sep-vendor-management-workspace.md)
+**Parent Topic:**[Domain separation and Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/domain-sep-vendor-management-workspace.md)
 

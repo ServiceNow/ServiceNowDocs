@@ -2,6 +2,7 @@
 title: Installed with approval with e-signature
 description: Installing approval with e-signature installs certain properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/approvals/r\_InstalledWApprWithEsignature.html
 release: zurich
 product: Approvals
 classification: approvals
@@ -22,7 +23,7 @@ Installing approval with e-signature installs certain properties.
 -   UI Page - form\_login\_validate\_dialog
 -   UI Page - login\_validate\_dialog
 -   UI page: saml2\_esignature\_login, the re-authentication page that appears when an approver tries to approve a request.
--   Properties: see [E-signature SAML properties](https://www.servicenow.com/docs/access?context=c_AddingSupportForESignature&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+-   Properties: see E-signature SAML properties
 -   Client Script - Authenticate Approver
 -   Script Include - User
 -   Script Include - UserAuthentication

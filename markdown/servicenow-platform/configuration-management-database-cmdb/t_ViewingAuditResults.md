@@ -2,6 +2,7 @@
 title: View an audit result
 description: To generate certification results, you must first create and run an audit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/t\_ViewingAuditResults.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

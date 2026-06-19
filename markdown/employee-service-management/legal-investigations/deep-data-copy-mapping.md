@@ -2,6 +2,7 @@
 title: Data mapping fields
 description: Data mapping of tables is necessary when ethics matter is transferred by the legal fulfiller to HR and an HR Employee Relations case is transferred to the Legal department.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-investigations/deep-data-copy-mapping.html
 release: zurich
 product: Legal Investigations
 classification: legal-investigations
@@ -104,5 +105,5 @@ HR Table: sn\_hr\_er\_corrective action.
 
 **Note:** The **Description** field includes **Assigned to** or **Discussion held by** fields for user name.
 
-**Parent Topic:**[Legal Investigations reference](legal-investigations-reference.md)
+**Parent Topic:**[Legal Investigations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-investigations/legal-investigations-reference.md)
 

@@ -2,7 +2,10 @@
 title: Bi-directional account relationships
 description: A bi-directional account relationship is a relationship that exists between two accounts. You can create account relationships between two customer accounts or between a partner account and a customer account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/c\_AccountRelationships.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -36,7 +39,7 @@ When creating an account relationship type, you define the following information
 -   The relationship between the source account and the target account.
 -   The reverse relationship between the source account and the target account.
 
-![Account Relationship form displaying an instance of the relationship between two accounts.](../image/CSMAccountRelationshipTypeForm.png "Account Relationship Type form")
+\[Omitted image "CSMAccountRelationshipTypeForm.png"\] Alt text: Account Relationship form displaying an instance of the relationship between two accounts.
 
 **Note:** One default account relationship type is provided for partner accounts.
 
@@ -56,7 +59,7 @@ View a relationship record from either account:
 
 Select the account relationship record from either account to see the Account Relationship form.
 
-![Account Relationship Type form displaying various fields related to customer and partner accounts.](../image/CSMAccountRelationshipForm.png "Account Relationship form")
+\[Omitted image "CSMAccountRelationshipForm.png"\] Alt text: Account Relationship Type form displaying various fields related to customer and partner accounts.
 
 You can also view account relationship records that use a specific account relationship type. This information appears as a related list on the Account Relationship Type form. This list shows the source account \(**Account From** field\) and the target account \(**Account To** field\) for each account relationship record.
 

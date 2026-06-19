@@ -2,6 +2,7 @@
 title: Configure branding for your self-configured bot
 description: Configure your self-configured Slack app's branding. You have the flexibility to customize the default ServiceNow branding for the Slack self-configured bot name and icon.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/slack-brand-self-configured.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -47,5 +48,5 @@ Role required: admin
 5.  Select **Save Changes**.
 
 
-**Parent Topic:**[Configure Virtual Agent settings for Slack](configure-va-slack-settings.md)
+**Parent Topic:**[Configure Virtual Agent settings for Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-va-slack-settings.md)
 

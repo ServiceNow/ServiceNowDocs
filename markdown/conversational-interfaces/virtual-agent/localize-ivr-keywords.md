@@ -2,6 +2,7 @@
 title: Customize keywords in Conversational IVR
 description: Customize the IVR integration-specific keywords that are provided by default for better conversation in another language with the Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/localize-ivr-keywords.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -37,9 +38,9 @@ Ensure that you have completed the IVR setup on both AWS Console and ServiceNow 
 
         **Important:** Ensure that you are editing the values only on the right column. Do not edit the values on the left column as they should not be changed regardless of the language.
 
-        By default the slot type values \(on the right column\) are in English. If the values on the right are not suitable for the another, change them to equivalent appropriate values, which shall be spoken by you when talking to the Virtual Agent.![Edit the slot type values in the column on the right.](../images/ivr-slot-type-values.png)
+        By default the slot type values \(on the right column\) are in English. If the values on the right are not suitable for the another, change them to equivalent appropriate values, which shall be spoken by you when talking to the Virtual Agent.\[Omitted image "ivr-slot-type-values.png"\] Alt text: Edit the slot type values in the column on the right.
 
-        If you have edited the slot type values on the right column, you must also ensure that you edit their respective bot messages on your instance to reflect these changes. For more information, see [Manage bot messages for Conversational IVR](edit-va-ivr-messages.md).
+        If you have edited the slot type values on the right column, you must also ensure that you edit their respective bot messages on your instance to reflect these changes. For more information, see [Manage bot messages for Conversational IVR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/edit-va-ivr-messages.md).
 
     3.  Click **Save Slot type** and click **Build** on the top right of the page.
 
@@ -67,10 +68,10 @@ Ensure that you have completed the IVR setup on both AWS Console and ServiceNow 
 
         **Note:** Ensure to always have the production alias to point to the latest version number.
 
-    3.  On the Associate alias to version pop-up, select the version and select **Associate**.![The Associated version list displays available versions and an option for None.](../images/ivr-associate-alias.png)
+    3.  On the Associate alias to version pop-up, select the version and select **Associate**.\[Omitted image "ivr-associate-alias.png"\] Alt text: The Associated version list displays available versions and an option for None.
 
         At this step, the bot is available for use in the language that you customized.
 
 
-**Parent Topic:**[Configuring your AWS account for use with Conversational IVR](../concept/configure-aws-account.md)
+**Parent Topic:**[Configuring your AWS account for use with Conversational IVR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-aws-account.md)
 

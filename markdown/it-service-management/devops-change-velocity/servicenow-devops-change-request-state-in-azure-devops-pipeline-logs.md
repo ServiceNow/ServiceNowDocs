@@ -2,11 +2,12 @@
 title: ServiceNow DevOps change request state in Azure DevOps pipeline logs
 description: View the change request state and the corresponding policy conditions in the Azure DevOps pipeline console logs whenever the state of a change request is updated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/servicenow-devops-change-request-state-in-azure-devops-pipeline-logs.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Azure DevOps, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -31,7 +32,7 @@ The following change request details are displayed:
 -   plannedEndDate
 -   changeRequestURL
 
-![Change state in Azure DevOps pipeline console logs.](../image/ado-change-state-policy-conditions.png)
+\[Omitted image "ado-change-state-policy-conditions.png"\] Alt text: Change state in Azure DevOps pipeline console logs.
 
 **Note:** **changeState** is the state of the change request, and **status** is the status of the step execution.
 
@@ -77,9 +78,9 @@ The change policy input and decision conditions are stored in the Decisions \[sy
 
 If a change request does not get created due to any issue, then the reason for the failure and the state is also logged in the console.
 
-![Change failure reason in ADO pipeline console logs.](../image/ado-change-state-failed.png)
+\[Omitted image "ado-change-state-failed.png"\] Alt text: Change failure reason in ADO pipeline console logs.
 
 **Note:** For Azure DevOps, if change receipt is enabled, the very first log may not be displayed onto the console. That is, when the change is created and is in the New state.
 
-**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](azure-devops-integration-dev-ops.md)
+**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
 

@@ -2,6 +2,7 @@
 title: Manually refresh Agent Client Collector certificates
 description: Pull self-signed certificates from the ServiceNow install server, instead of waiting for the scheduled MID Server synchronization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/manually-sync-certificates.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -40,5 +41,5 @@ The MID Server checks for updates once each day, or after being restarted.
 
 When an agent fails to perform a certificate check, the agent synchronizes certificates available on the MID Server. Synchronization is carried out for certificates on the ServiceNow install server and the self-signed certificates placed in the `.zip` file on the MID Server's `agent\static\cert` folder. Certificates are downloaded by the Agent Client Collector if the agent fails to validate a check definition's associated plugin assets.
 
-**Parent Topic:**[Agent Client Collector certificates](../concept/acc-certificates.md)
+**Parent Topic:**[Agent Client Collector certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-certificates.md)
 

@@ -2,6 +2,7 @@
 title: Veritas Cluster Server discovery
 description: The ServiceNow Discovery application uses the Unix Cluster – VERITAS Cluster pattern to find Veritas Cluster Server components. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/veritas-cluster-server-discovery.html
 release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -19,7 +20,7 @@ You can use this pattern on the ServiceNow AI Platform using Kingston Patch 8, L
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -57,7 +58,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     2.  In the **UNIX Classification** list, click **Solaris** or **Linux**.
     3.  On the **Triggers probes** tab, check that the **HorizontalDiscoveryProbe-HorizontalPatt** probe is assigned to the **UNIX Cluster – VERITAS Cluster** pattern.
 
-        ![Probe triggering the pattern for Veritas Cluster Server discovery](../image/VeritasClusterServer-probe-triggers.png)
+        \[Omitted image "VeritasClusterServer-probe-triggers.png"\] Alt text: Probe triggering the pattern for Veritas Cluster Server discovery
 
         **Note:** The discovery log shows the error for OS discovery step even if the discovery finished successfully.
 
@@ -105,7 +106,7 @@ You cannot customize the Unix Cluster – VERITAS Cluster pattern in the Debug m
 
 The graphic illustrates CIs that are part of Veritas Cluster Server discovery.
 
-![The Veritas Cluster Server components](../image/VeritasClusterServer-components.png)
+\[Omitted image "VeritasClusterServer-components.png"\] Alt text: The Veritas Cluster Server components
 
 ## CI relationships
 
@@ -124,5 +125,5 @@ The Unix Cluster – VERITAS Cluster pattern creates the following CI relationsh
 |Unix Cluster resource group \[cmdb\_ci\_unix\_cluster\_resource\_group \]|Contains: Contained by|The Node field on Unix Cluster Node \[cmdb\_ci\_unix\_cluster\_node\]|
 |Unix Cluster resource group \[cmdb\_ci\_unix\_cluster\_resource\_group \]|Contains: Contained by|Unix Cluster resource \[cmdb\_ci\_unix\_cluster\_resource\]|
 
-**Parent Topic:**[Available on-premise discovery patterns](available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

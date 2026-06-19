@@ -2,6 +2,7 @@
 title: Confirm observable-observable potential relationship
 description: Use this section to confirm the relationships between the observables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/define-observable-observable-potential-relationship.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -50,5 +51,5 @@ Role required: sn\_sec\_tisc.analyst
 6.  Click **Delete** to delete the relationships.
 
 
-**Parent Topic:**[Potential Relationships](../concept/potential-relationships.md)
+**Parent Topic:**[Potential Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/potential-relationships.md)
 

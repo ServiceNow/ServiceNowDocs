@@ -2,6 +2,7 @@
 title: Security scan comparison
 description: Compare two scans of the same security suite to gain visibility to the health of your hardening settings and improve the security posture of your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/security-center/score-comparison.html
 release: zurich
 product: Security Center
 classification: security-center
@@ -15,7 +16,7 @@ breadcrumb: [Security scanner, Security configuration console, Security Center, 
 
 Compare two scans of the same security suite to gain visibility to the health of your hardening settings and improve the security posture of your instance.
 
-![Security scan comparison](../images/sec-center-scan-comp.png)
+\[Omitted image "sec-center-scan-comp.png"\] Alt text: Security scan comparison
 
 **Important:** This page appears empty if you don’t have two or more instances of the same scan to compare. Run a scan at least twice to view a comparison on this page.
 
@@ -44,5 +45,5 @@ The security scan comparison page displays the security changes in your hardenin
     List of all scan findings. Select a finding, scan result, or check to view the associated record and find additional details. Use the bottoms in the upper right to filter, refresh, or export the list.
 
 
-**Parent Topic:**[Security scanner](sc-scanning.md)
+**Parent Topic:**[Security scanner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/sc-scanning.md)
 

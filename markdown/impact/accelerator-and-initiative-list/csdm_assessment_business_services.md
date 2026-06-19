@@ -2,6 +2,7 @@
 title: Common Service Data Model \(CSDM\) Assessment - Business Services \(Run\) - Advanced
 description: This Accelerator provides an assessment and guidance for CSDM Run maturity, including Business Services, Business Service Offerings, Request Catalog Items, and \(Business\) Service Portfolio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/csdm\_assessment\_business\_services.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,7 +20,7 @@ This Accelerator provides an assessment and guidance for CSDM Run maturity, incl
 
 Common Service Data Model Assessment – Business Services \(Run\) - Advanced provides Impact customers with an assessment and guidance based on leading practices related to the CSDM Business Services, Business Service Offerings, Request Catalog Items, and Service Portfolio framework elements. Interactions with  ServiceNow CSDM Subject Matter Experts and personalized content on CSDM for your organization are included.
 
-For more information on the CSDM, see [Common Service Data Model](https://www.servicenow.com/docs/access?context=csdm-landing-page&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+For more information on the CSDM, see .
 
 **Note:** This Accelerator is available for the Impact Advanced package.
 
@@ -185,9 +186,9 @@ For application portfolio management purposes, owns the application that underpi
 
 The completion of the following Accelerators:
 
--   [Common Service Data Model \(CSDM\) Assessment - Foundation Data - Advanced](csdm-assessment-foundation-data-advanced.md)
--   [Common Service Data Model \(CSDM\) Assessment-Application Services \(Crawl\) - Advanced](csdm-assessment-application-services-crawl-adv.md)
--   [Common Service Data Model \(CSDM\) Assessment Technical Services \(Walk\) - Advanced](csdm_assessment_technical_services.md)
+-   [Common Service Data Model \(CSDM\) Assessment - Foundation Data - Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/csdm-assessment-foundation-data-advanced.md)
+-   [Common Service Data Model \(CSDM\) Assessment-Application Services \(Crawl\) - Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/csdm-assessment-application-services-crawl-adv.md)
+-   [Common Service Data Model \(CSDM\) Assessment Technical Services \(Walk\) - Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/csdm_assessment_technical_services.md)
 
 ## Requested Information / Access
 

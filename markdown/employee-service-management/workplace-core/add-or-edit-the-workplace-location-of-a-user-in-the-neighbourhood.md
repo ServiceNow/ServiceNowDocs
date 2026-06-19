@@ -2,6 +2,7 @@
 title: Add or edit the workplace location of a user in the neighborhood
 description: Add a workplace location to a user assignment or update the existing workplace location of the user assignment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-core/add-or-edit-the-workplace-location-of-a-user-in-the-neighbourhood.html
 release: zurich
 product: Workplace Core
 classification: workplace-core
@@ -17,7 +18,7 @@ Add a workplace location to a user assignment or update the existing workplace l
 
 ## Before you begin
 
-If you’re using Workplace Space Management version 1.11.1 or later, you can also edit the workplace location of a user from their workplace profile directly. Refer to [Add or edit a neighborhood assignment of a workplace profile](add-a-user-to-the-neighbourhood-from-the-workplace-profile.md).
+If you’re using Workplace Space Management version 1.11.1 or later, you can also edit the workplace location of a user from their workplace profile directly. Refer to [Add or edit a neighborhood assignment of a workplace profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/add-a-user-to-the-neighbourhood-from-the-workplace-profile.md).
 
 **Important:** From Workplace Space Management version 1.11.1, the **Neighbourhood User Assignments** table is no longer available. Instead, the user assignment can be performed on a workplace profile directly using the **Workplace Profile Location Assignment** table \(displayed a related list on the form\) in the Workplace Core application. The **Workplace Profile Location Assignment** in the Workplace Core is configured with additional fields such as **Profile type**, **Neighborhood**, and **Source** where all the data is saved. This table helps a space manager to perform scenario planning and save any user assignment-related changes performed on a neighborhood directly on the workplace profile.
 
@@ -66,7 +67,7 @@ Role required: sn\_wsd\_core.admin, sn\_wsd\_core.workplace\_manager, sn\_wsd\_s
 
 ## Result
 
-The workplace location is updated for the selected workplace profile. You can also make neighborhood-related changes on the workplace profile directly. Refer to [Add or edit a neighborhood assignment of a workplace profile](add-a-user-to-the-neighbourhood-from-the-workplace-profile.md). Neighborhood assignments are applicable if **Neighborhood** is selected as the group by or view by option in a scenario or building overview. Location assignments are applicable for all other options.
+The workplace location is updated for the selected workplace profile. You can also make neighborhood-related changes on the workplace profile directly. Refer to [Add or edit a neighborhood assignment of a workplace profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/add-a-user-to-the-neighbourhood-from-the-workplace-profile.md). Neighborhood assignments are applicable if **Neighborhood** is selected as the group by or view by option in a scenario or building overview. Location assignments are applicable for all other options.
 
-**Parent Topic:**[Managing Neighborhoods](../concept/neighborhoods.md)
+**Parent Topic:**[Managing Neighborhoods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/neighborhoods.md)
 

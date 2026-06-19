@@ -2,6 +2,7 @@
 title: Use the For Each component
 description: Traverse each item in a collection in the order of first to last using the For Each component in the RPA Desktop Design Studio. The collection can be an array, list, or a table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/use-loops-foreach.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -37,7 +38,7 @@ You can configure the properties for the For Each component.
 
 2.  Drag the For Each component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the For Each component to the corresponding ports of the other components as described in the following table.
 
@@ -61,5 +62,5 @@ Use a For Each loop component to automate user account provisioning. In this sce
     -   Submit the form to create the user account.
     -   Send an email notification to the relevant department manager with the account details.
 
-**Parent Topic:**[Loops](../concept/loops.md)
+**Parent Topic:**[Loops](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/loops.md)
 

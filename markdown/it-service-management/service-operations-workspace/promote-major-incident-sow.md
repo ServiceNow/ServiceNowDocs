@@ -2,6 +2,7 @@
 title: Promote a major incident
 description: Review the information of the proposed major incident candidate and promote it to major incident using the Major Incident Playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/promote-major-incident-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -17,7 +18,7 @@ Review the information of the proposed major incident candidate and promote it t
 
 ## Before you begin
 
-You must propose the incident as a major incident candidate. For more information, see [Propose a major incident](propose-major-incident-sow.md).
+You must propose the incident as a major incident candidate. For more information, see [Propose a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/propose-major-incident-sow.md).
 
 Role required: major\_incident\_manager or admin
 
@@ -25,7 +26,7 @@ Role required: major\_incident\_manager or admin
 
 1.  Open an incident record.
 
-2.  Select the **Major Incident Playbooks** \(![Major incident playbook](../image/mim-playbook-icon.png)\) icon on a contextual side panel to launch the major incident playbook.
+2.  Select the **Major Incident Playbooks** \(\[Omitted image "mim-playbook-icon.png"\] Alt text: Major incident playbook\) icon on a contextual side panel to launch the major incident playbook.
 
     The Major Incident Playbook panel appears on the side panel. It includes the following tabs:
 
@@ -50,8 +51,8 @@ Role required: major\_incident\_manager or admin
 
 8.  Select **Promote to Major Incident**.
 
-    **Note:** You can also promote a major incident by selecting the **More actions** \(![More action icon from the top menu](../image/mim-more-actions-top-icon.png)\) icon and then selecting **Promote to Major Incident**.
+    **Note:** You can also promote a major incident by selecting the **More actions** \(\[Omitted image "mim-more-actions-top-icon.png"\] Alt text: More action icon from the top menu\) icon and then selecting **Promote to Major Incident**.
 
 
-**Parent Topic:**[Managing a major incident record](../concept/managing-major-incident-sow.md)
+**Parent Topic:**[Managing a major incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/managing-major-incident-sow.md)
 

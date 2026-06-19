@@ -2,6 +2,7 @@
 title: Activate Customer Service Problem Management
 description: Activate the Customer Service Problem Management plugin \(sn\_sprb\_mgmt\) for Customer Service Problem Management if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and activate related ServiceNow Store applications and plugins if they aren't already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/install-spm.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -38,7 +39,7 @@ The following items are installed with Customer Service Problem Management:
 -   Tables
 -   Properties
 
-For more information, see [Components installed with Customer Service Problem Management](../reference/spm-components.md) and [Customer Service Problem Management properties](../reference/cspm-properties.md).
+For more information, see [Components installed with Customer Service Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/spm-components.md) and [Customer Service Problem Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/cspm-properties.md).
 
 ## Procedure
 
@@ -48,7 +49,7 @@ For more information, see [Components installed with Customer Service Problem Ma
 
     You can search for the application by its name or ID. If you can't find the application, you may have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 

@@ -2,7 +2,10 @@
 title: Components installed with Core Business Suite
 description: Various components are installed with Core Business Suite.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/core-business-suite/comp-inst-with-cbs.html
 release: zurich
+product: Core Business Suite
+classification: core-business-suite
 topic_type: reference
 last_updated: "2025-12-02"
 reading_time_minutes: 1
@@ -13,7 +16,7 @@ breadcrumb: [Reference, Core Business Suite]
 
 Various components are installed with Core Business Suite.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Core Business Suite Roles
 
@@ -75,14 +78,14 @@ Grants permissions to submit requests for services included in the Core Business
 
 |Application|Component information|
 |-----------|---------------------|
-|Legal Service Delivery|[Components installed with Legal Request Management](https://www.servicenow.com/docs/access?context=installed-with-legal-request-management&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US)|
-|HR Service Delivery|[Components installed with Case and Knowledge Management](https://www.servicenow.com/docs/access?context=components-installed-with-case-and-knowledge-management&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US)|
-|Workplace Services Delivery|[Components installed with Workplace Case Management](https://www.servicenow.com/docs/access?context=components-installed-with-workplace-case-mgmt&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US)|
-|Health and Safety|[Components installed with Health and Safety Risk Management](https://www.servicenow.com/docs/access?context=components-installed-with-hs-risk-mgmt&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US)|
-|Sourcing and Procurement Operations|[Components installed with Sourcing and Procurement Operations](https://www.servicenow.com/docs/access?context=installed-with-FSC&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US)|
-|Finance and Supply Chain applications|[Components installed with Finance Case Management](https://www.servicenow.com/docs/access?context=installed-with-fin-ops&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US)|
-|Supplier Lifecycle Operations|[Components installed with Supplier Case Management](https://www.servicenow.com/docs/access?context=installed-with-supp-mgmt&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US)|
-|Accounts Payable Operations|[Components installed with Accounts Payable Invoice Processing](https://www.servicenow.com/docs/access?context=installed-with-acc-pay-mgmt&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US)|
+|Legal Service Delivery||
+|HR Service Delivery||
+|Workplace Services Delivery||
+|Health and Safety||
+|Sourcing and Procurement Operations||
+|Finance and Supply Chain applications||
+|Supplier Lifecycle Operations||
+|Accounts Payable Operations||
 
-**Parent Topic:**[Core Business Suite reference](cbs-reference-parent.md)
+**Parent Topic:**[Core Business Suite reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/core-business-suite/cbs-reference-parent.md)
 

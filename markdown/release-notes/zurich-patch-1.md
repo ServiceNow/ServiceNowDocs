@@ -2,10 +2,13 @@
 title: Zurich Patch 1
 description: The Zurich Patch 1 release contains important problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/zurich-patch-1.html
 release: zurich
+product: Release Notes
+classification: release-notes
 topic_type: reference
 last_updated: "2025-09-10"
-reading_time_minutes: 144
+reading_time_minutes: 143
 breadcrumb: [Available patches and hotfixes, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -17,7 +20,7 @@ The Zurich Patch 1 release contains important problem fixes.
     -   Build date: 09-08-2025\_1328
     -   Build tag: glide-zurich-07-01-2025\_\_patch1-08-20-2025
 
-**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](../upgrades/reference/upgrade.md).
+**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/upgrade.md).
 
 For more information about the release cycle, see the [ServiceNow Release Cycle](https://support.servicenow.com/kb_view.do?sysparm_article=KB0547244).
 
@@ -29,7 +32,7 @@ For a downloadable, sortable version of the fixed problems in this release, clic
 
 Zurich Patch 1 includes 514 problem fixes in various categories. The chart below shows the top 10 problem categories included in this patch.
 
-![Fixed issues grouped by problem categories bar chart](../image/prb-chart-zp1.png "Top 10 problem categories")
+\[Omitted image "prb-chart-zp1.png"\] Alt text: Fixed issues grouped by problem categories bar chart
 
 ## Security-related fixes
 
@@ -37,13 +40,13 @@ Zurich Patch 1 includes fixes for security-related problems that affected certai
 
 ## Changes in Zurich Patch 1
 
--   **[Create an endpoint for clients to access the instance](https://www.servicenow.com/docs/access?context=t_CreateEndpointforExternalClients&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)**
+-   ****
 
     Token FormatFormat of the token to generate. The format determines the structure of a token and the information it includes.
 
     Subject ClaimField in the User \(sys\_user\) table that's used to populate the value of the subject \(sub\) claim of a JWT token. The sub claim is a piece of information that identifies the subject, or user, of the JWT token. This field only applies if the **Token Format** is JWT.
 
--   **[Create an OAuth JWT API endpoint for external clients \(machine to machine integration\)](https://www.servicenow.com/docs/access?context=create-jwt-endpoint&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)**
+-   ****
 
     Token FormatFormat of the token to generate. The format determines the structure of a token and the information it includes.
 
@@ -10049,8 +10052,8 @@ The databoard isn't working for prod and sub prod glide instances
 
 Unless any exceptions are noted, you can safely upgrade to this release version from any of the versions listed below. These prior versions contain PRB fixes that are also included with this release. Be sure to upgrade to the latest listed patch that includes all of the PRB fixes you are interested in.
 
--   [Zurich security and notable fixes](zurich-security-notables.md)
--   [All other Zurich fixes](zurich-all-other-fixes.md)
+-   [Zurich security and notable fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-security-notables.md)
+-   [All other Zurich fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-all-other-fixes.md)
 
-**Parent Topic:**[Available patches and hotfixes](../available-versions.md)
+**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/available-versions.md)
 

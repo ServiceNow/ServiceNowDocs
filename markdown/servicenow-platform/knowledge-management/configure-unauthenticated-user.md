@@ -2,6 +2,7 @@
 title: Configure access to knowledge bases for unauthenticated users
 description: Identify knowledge bases accessible to unauthenticated users based on the user criteria and the system property settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/configure-unauthenticated-user.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -23,7 +24,7 @@ Role required: knowledge\_manager, knowledge\_admin, or admin
 
 **Note:**
 
-Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](../concept/knowledge-service-portal-pages.md).
+Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md).
 
 ## Procedure
 
@@ -37,12 +38,12 @@ Starting with the Washington DC release, the Knowledge Management v3 homepage \(
 
     -   Use user criteria to determine access to the knowledge base for unauthenticated users.
 
-        For more information, see [Managing access to knowledge bases and knowledge articles](../concept/user-access-knowledge.md).
+        For more information, see [Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/user-access-knowledge.md).
 
     -   If no user criteria is specified for the knowledge base, as an administrator, you can set the value of the **glide.knowman.block\_access\_with\_no\_user\_criteria** system property to **true**.
 
-        For more information, see [Knowledge Management properties](../reference/r_KnowledgeProperties.md#).
+        For more information, see [Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
 
 
-**Parent Topic:**[User criteria diagnostics for Knowledge Management](../concept/diagnose-knowledge-user-criteria.md)
+**Parent Topic:**[User criteria diagnostics for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/diagnose-knowledge-user-criteria.md)
 

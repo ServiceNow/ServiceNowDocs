@@ -2,6 +2,7 @@
 title: Use deep link for HR Service Delivery Integration with Cornerstone OnDemand
 description: Use the deep link prefix to pull learning objects from the Cornerstone OnDemand system during run time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/generate-deep-link-cor.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

@@ -2,6 +2,7 @@
 title: Agent Inbox controls
 description: Control certain elements of the agent experience in Agent Workspace. Define the agent presence \(availability\) states and the work item rejection reasons used by agents to decline work assignments in their Agent Workspace inbox.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/agent-experience.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -26,12 +27,12 @@ AWA admins can define the presence states that agents choose in their inbox to i
 
 AWA developers with the awa\_integration\_user role can also use JavaScript or REST APIs to get or set agent presence and agent channel availability. For more information, see
 
--   [Agent Presence API \(REST APIs\)](https://www.servicenow.com/docs/access?context=agent-api&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
--   [Agent - Global \(JavaScript APIs\)](https://www.servicenow.com/docs/access?context=c_AgentAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+-   Agent Presence API \(REST APIs\)
+-   Agent - Global \(JavaScript APIs\)
 
 ## Agent rejection controls
 
 AWA admins can give agents the option to reject work assignments and specify the reason for rejecting it. The **Reject** button displays on work assignment cards. When an agent rejects an assignment, a pop-up window enables the agent to select a reason for declining the work item.
 
-**Parent Topic:**[Exploring Advanced Work Assignment](awa-overview.md)
+**Parent Topic:**[Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-overview.md)
 

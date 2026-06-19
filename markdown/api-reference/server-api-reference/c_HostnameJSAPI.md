@@ -2,6 +2,7 @@
 title: HostnameJS - Global
 description: The HostnameJS script include provides methods to format host names according to property settings.Formats the specified host name according to the property settings.Returns the DNS domain name.Returns the current system name.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_HostnameJSAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The HostnameJS script include provides methods to format host names according to
 
 Use with any server-side script when you need to format host names.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## HostnameJS - format\(String hostname, String source\)
 

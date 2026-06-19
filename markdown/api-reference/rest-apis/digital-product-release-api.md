@@ -2,6 +2,7 @@
 title: Digital Product Release API
 description: The Digital Product Release API provides endpoints to manage releases and policy compliance.Retrieves release bundle details.Gets policy execution details by product for the current phase of a release.Creates an enhancement for a product or service.Creates a release.Creates a key date for a release.Executes mapped policies for the current phase of a release.Adds related tasks to a release.Creates a release calendar.Completes the current phase of a release.Creates a release readiness target or a set of recurring release readiness targets.Changes the readiness target for a release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-apis/digital-product-release-api.html
 release: zurich
 product: REST APIs
 classification: rest-apis
@@ -15,9 +16,9 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Digital Product Release API provides endpoints to manage releases and policy compliance.
 
-This API requires the Digital Product Release \(sn\_dpr\) application, which is available on the ServiceNow Store. For more information, see [Digital Product Release](https://www.servicenow.com/docs/access?context=dpr-landing-page&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+This API requires the Digital Product Release \(sn\_dpr\) application, which is available on the ServiceNow Store. For more information, see .
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/api-rest.md)
 
 ## Digital Product Release - GET /sn\_dpr/digital\_product\_release/bundle/\{sysId\}
 
@@ -97,7 +98,7 @@ Default: false
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -110,7 +111,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -371,7 +372,7 @@ Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -383,7 +384,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -851,7 +852,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -864,7 +865,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1187,7 +1188,7 @@ Data type: Boolean
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -1200,7 +1201,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1281,7 +1282,7 @@ Data type: String
 This example creates a release with included versions.
 
 ```
-curl "http://instance.service-now.com/api/sn_dpr/v1/digital_product_release/release" \ 
+curl "https://instance.service-now.com/api/sn_dpr/v1/digital_product_release/release" \ 
 --request POST \ 
 --header "Accept:application/json" \ 
 --header "Content-Type:application/json" \ 
@@ -1327,7 +1328,7 @@ Response body.
 This example moves an existing release from the Draft state to In Progress.
 
 ```
-curl "http://instance.service-now.com/api/sn_dpr/v1/digital_product_release/release" \ 
+curl "https://instance.service-now.com/api/sn_dpr/v1/digital_product_release/release" \ 
 --request POST \ 
 --header "Accept:application/json" \ 
 --header "Content-Type:application/json" \ 
@@ -1366,7 +1367,7 @@ Response body.
 This example creates an independent release.
 
 ```
-curl "http://instance.service-now.com/api/sn_dpr/v1/digital_product_release/release" \ 
+curl "https://instance.service-now.com/api/sn_dpr/v1/digital_product_release/release" \ 
 --request POST \ 
 --header "Accept:application/json" \ 
 --header "Content-Type:application/json" \ 
@@ -1405,7 +1406,7 @@ Creates a key date for a release.
 
 Key dates are used to track deadlines, milestones, and other important events during the release.
 
-Before calling this endpoint, a [timeline-oriented release](https://www.servicenow.com/docs/access?context=dpr-working-timeline-release&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US) must be created. A timeline-oriented release has fixed deadlines and follows a strict schedule, while a stage-oriented release is primarily focused on completing objectives and features rather than meeting due dates.
+Before calling this endpoint, a timeline-oriented release must be created. A timeline-oriented release has fixed deadlines and follows a strict schedule, while a stage-oriented release is primarily focused on completing objectives and features rather than meeting due dates.
 
 To access this endpoint, the caller must have one of the following roles.
 
@@ -1537,7 +1538,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -1550,7 +1551,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1701,7 +1702,7 @@ Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -1713,7 +1714,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1821,7 +1822,7 @@ Adds related tasks to a release.
 
 You can view release information in the Digital Product Release Workspace in the Releases tab. Related tasks for a release are shown in the Release Scope section of a release record.
 
-**Important:** Before calling this endpoint, there must be existing task records that can be added as related tasks for the release. The records must be in tables that extend the Task \[task\] table, but not in the Task table itself. In the [**sn\_dpr\_model.release\_related\_task\_types**](https://www.servicenow.com/docs/access?context=digital-product-release-properties&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US) system property, list the tables that contain your task records.
+**Important:** Before calling this endpoint, there must be existing task records that can be added as related tasks for the release. The records must be in tables that extend the Task \[task\] table, but not in the Task table itself. In the **sn\_dpr\_model.release\_related\_task\_types** system property, list the tables that contain your task records.
 
 To access this endpoint, the caller must have one of the following roles.
 
@@ -1881,14 +1882,14 @@ taskIds
 
 </td><td>
 
-Required. List of task sys\_ids to add as related tasks for the release. The task records must be from tables listed in the **sn\_dpr\_model.release\_related\_task\_types** system property. For more information, see [Digital Product Release properties](https://www.servicenow.com/docs/access?context=digital-product-release-properties&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+Required. List of task sys\_ids to add as related tasks for the release. The task records must be from tables listed in the **sn\_dpr\_model.release\_related\_task\_types** system property. For more information, see .
 
 Data type: Array
 
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -1901,7 +1902,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -2062,7 +2063,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -2076,7 +2077,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -2230,7 +2231,7 @@ Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -2242,7 +2243,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -2587,7 +2588,7 @@ Date for the readiness target recurrence.Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -2600,7 +2601,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -2668,7 +2669,7 @@ Error message. This parameter is empty for successful requests.Data type: String
 This example creates a set of four release readiness targets, with a target recurring every week on Friday.
 
 ```
-curl "http://instance.service-now.com/api/sn_dpr/digital_product_release/release_target" \ 
+curl "https://instance.service-now.com/api/sn_dpr/digital_product_release/release_target" \ 
 --request POST \ 
 --header "Accept:application/json" \ 
 --header "Content-Type:application/json" \ 
@@ -2725,7 +2726,7 @@ Response body.
 This example creates a release readiness target for a specified date.
 
 ```
-curl "http://instance.service-now.com/api/sn_dpr/digital_product_release/release_target" \ 
+curl "https://instance.service-now.com/api/sn_dpr/digital_product_release/release_target" \ 
 --request POST \ 
 --header "Accept:application/json" \ 
 --header "Content-Type:application/json" \ 
@@ -2756,7 +2757,7 @@ Response body.
 
 Changes the readiness target for a release.
 
-The new readiness target can be an existing readiness target that is already defined, or an out-of-band date \(a one-time readiness target not tied to the standard release calendar\). To set an out-of-band date, the [**sn\_dpr.out\_of\_band\_release\_allowed**](https://www.servicenow.com/docs/access?context=digital-product-release-properties&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US) system property must be set to `true`.
+The new readiness target can be an existing readiness target that is already defined, or an out-of-band date \(a one-time readiness target not tied to the standard release calendar\). To set an out-of-band date, the **sn\_dpr.out\_of\_band\_release\_allowed** system property must be set to `true`.
 
 The release phase duration is adjusted to reflect the new readiness target.
 
@@ -2864,7 +2865,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -2877,7 +2878,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

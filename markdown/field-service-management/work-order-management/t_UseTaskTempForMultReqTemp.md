@@ -2,6 +2,7 @@
 title: Create a task template for common task requests
 description: If you have tasks that are often repeated across multiple jobs, you can create and reuse a task template in multiple request templates. You can also use it on a Work order request to pull common and repeatable information into a request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/t\_UseTaskTempForMultReqTemp.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

@@ -2,6 +2,7 @@
 title: Configure an indicator to display in the Coaching Overview tab in Workforce Optimization for Field Service
 description: Display any Performance Analytics indicator that has the Assigned to and Assignment group breakdowns to display in the Coaching Overview tab in the Coaching application. The indicators can display the average quality of work in the past 30 days or more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/configure-property-coaching-indicator-wfo-fsm.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -17,7 +18,7 @@ Display any Performance Analytics indicator that has the Assigned to and Assignm
 
 ## Before you begin
 
-Set the map application scope to **Coaching**. For more information, see [Set map application scope](https://www.servicenow.com/docs/access?context=set-map-application-scope&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+Set the map application scope to **Coaching**. For more information, see Set map application scope.
 
 Role required: admin
 
@@ -67,7 +68,7 @@ Value
 
 </td><td>
 
-\{"title": "&lt;name&gt;", "sys\_id": "&lt;sys id&gt;"\}where &lt;name&gt; is the name of the indicator that you want to display in the Coaching Overview tab and &lt;sys id&gt; is the unique record identifier \(sys\_id\) of the indicator. For more information, see [Unique record identifier \(sys\_id\)](https://www.servicenow.com/docs/access?context=c_UniqueRecordIdentifier&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+\{"title": "&lt;name&gt;", "sys\_id": "&lt;sys id&gt;"\}where &lt;name&gt; is the name of the indicator that you want to display in the Coaching Overview tab and &lt;sys id&gt; is the unique record identifier \(sys\_id\) of the indicator. For more information, see Unique record identifier \(sys\_id\).
 
  For example:
 

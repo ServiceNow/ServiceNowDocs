@@ -2,6 +2,7 @@
 title: Create field mapping from an incident to a knowledge article
 description: Copy information from an incident into a knowledge article by creating custom mapping between the Incident table and the KCS article table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/table-mapping-knowledge-incident.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -82,5 +83,5 @@ Role required: admin
     If the fields configured in the basic and advanced field mapping are different, the field configurations in the advanced field mapping are appended to the field configurations in the basic field mapping.
 
 
-**Parent Topic:**[Knowledge article creation from an incident](../concept/article-from-incident.md)
+**Parent Topic:**[Knowledge article creation from an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/article-from-incident.md)
 

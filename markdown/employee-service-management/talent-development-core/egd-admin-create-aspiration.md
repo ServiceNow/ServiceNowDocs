@@ -2,6 +2,7 @@
 title: Add Talent Development Aspirations
 description: An Talent admin can manage Aspirations that employees create and share.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/egd-admin-create-aspiration.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -17,7 +18,7 @@ An Talent admin can manage **Aspirations** that employees create and share.
 
 ## Before you begin
 
-Role required: sn\_egd\_core.admin or admin
+Role required: sn\_egd\_core.admin
 
 ## About this task
 
@@ -31,14 +32,14 @@ Role required: sn\_egd\_core.admin or admin
 
 3.  Complete the **Aspiration New record** form.
 
-    Read details about the different fields in [Talent Aspirations reference](../reference/egd-aspirations-form.md).
+    Read details about the different fields in [Talent Aspirations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-aspirations-form.md).
 
 4.  Select **Submit**
 
 
 ## What to do next
 
-As an Talent admin you can create and maintain aspiration types, see [Add Talent Development Aspirations Types](egd-admin-create-aspiration-type.md).
+As an Talent admin you can create and maintain aspiration types, see [Add Talent Development Aspirations Types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-admin-create-aspiration-type.md).
 
-**Parent Topic:**[Administer and maintain the Talent Development Core app](../concept/egd-administration.md)
+**Parent Topic:**[Administer and maintain the Talent Development Core app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-administration.md)
 

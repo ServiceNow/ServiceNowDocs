@@ -2,6 +2,7 @@
 title: LeadAPIValidationUtilOOB - Scoped
 description: The LeadAPIValidationUtilOOB script include provides methods that are called by the lead REST API to validate lead records and associated lead line item records when they are created \(POST\) or updated \(PATCH\).Validates the passed fields for a specified lead and its associated line items when updating a lead record using the PATCH endpoint of the lead API.Validates the passed fields for a specified lead and its associated line items when creating a lead record using the POST endpoint of the lead API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/LeadAPIValidationUtilOOBAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,13 +16,13 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The LeadAPIValidationUtilOOB script include provides methods that are called by the lead REST API to validate lead records and associated lead line item records when they are created \(POST\) or updated \(PATCH\).
 
-If you want to customize how lead records are validated when the [lead API](../../../../../integrate/inbound-rest/concept/lead-api.md#) methods are called, override the methods in this script include in the LeadAPIValidationUtil script include. The names of the methods that you are overriding in the LeadAPIValidationUtil script include must be the same as those in the LeadAPIValidationUtilOOB script include file.
+If you want to customize how lead records are validated when the [lead API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/lead-api.md) methods are called, override the methods in this script include in the LeadAPIValidationUtil script include. The names of the methods that you are overriding in the LeadAPIValidationUtil script include must be the same as those in the LeadAPIValidationUtilOOB script include file.
 
 This API is provided within the `sn_lead_mgmt_core` namespace. To access the API, the Lead Management Data Model \(sn\_lead\_mgmt\_core\) plugin must be activated on the instance, and the calling user must have the sn\_lead\_mgmt\_core.lead\_integrator role.
 
-For additional information on Lead Management, see [Using Lead Management](https://www.servicenow.com/docs/access?context=lead-management-using&version=zurich&pubname=zurich-order-management&ft:locale=en-US).
+For additional information on Lead Management, see .
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## LeadAPIValidationUtilOOB - validateLeadObjectForPatchCall \(Object leadObject\)
 
@@ -36,7 +37,7 @@ This method is triggered by the processUpdateLead\(\) method in the LeadAPIValid
 
 |Name|Type|Description|
 |----|----|-----------|
-|leadObject|Object|Fields to update in the specified lead record and associated lead line item records. For a list of the fields that can be passed and their associated requirements, see [lead - PATCH /sn\_lead\_mgmt\_core/lead/\{sys\_id\}](../../../../../integrate/inbound-rest/concept/lead-api.md#).|
+|leadObject|Object|Fields to update in the specified lead record and associated lead line item records. For a list of the fields that can be passed and their associated requirements, see [lead - PATCH /sn\_lead\_mgmt\_core/lead/\{sys\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/lead-api.md).|
 
 <table id="table_h1v_qls_ydc" class="returns"><thead><tr><th>
 
@@ -118,7 +119,7 @@ This method is triggered by the processCreateLead\(\) method in the LeadAPIValid
 
 |Name|Type|Description|
 |----|----|-----------|
-|leadObject|Object|Fields to insert in the new lead record and associated lead line item records. For a list of the fields that can be passed and their associated requirements, see [lead - POST /sn\_lead\_mgmt\_core/lead](../../../../../integrate/inbound-rest/concept/lead-api.md#).|
+|leadObject|Object|Fields to insert in the new lead record and associated lead line item records. For a list of the fields that can be passed and their associated requirements, see [lead - POST /sn\_lead\_mgmt\_core/lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/lead-api.md).|
 
 <table id="table_hgp_t1s_ydc" class="returns"><thead><tr><th>
 

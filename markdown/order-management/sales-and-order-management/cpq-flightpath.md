@@ -2,6 +2,7 @@
 title: Flightpath
 description: Flightpath keeps a record of rule engine activity and field changes in real time, helping administrators analyze system behavior and troubleshoot complex configuration flows with pause and restart options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cpq-flightpath.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

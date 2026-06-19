@@ -2,6 +2,7 @@
 title: Continual Improvement Management reference
 description: Descriptions of CIM improvement, task, and approver states and process workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/continual-improvement-management/cim-reference.html
 release: zurich
 product: Continual Improvement Management
 classification: continual-improvement-management
@@ -17,7 +18,7 @@ Descriptions of CIM improvement, task, and approver states and process workflow.
 
 ## Improvement states
 
-The state of an improvement indicates the [progress](../concept/cim-improvement-initiative-mgmt.md) of the improvement in the process.
+The state of an improvement indicates the [progress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/cim-improvement-initiative-mgmt.md) of the improvement in the process.
 
 <table id="table_btf_d1z_ycb"><thead><tr><th>
 
@@ -42,7 +43,7 @@ Improvement request is created either manually, or from within an integrated app
 -   Accepted
 -   Canceled
 
- List Controls menu \(![List icon](../image/cim-list-controls.png)\) options on the Improvement Initiative form: Copy Initiative.
+ List Controls menu \(\[Omitted image "cim-list-controls.png"\] Alt text: List icon\) options on the Improvement Initiative form: Copy Initiative.
 
 </td></tr><tr><td>
 
@@ -57,7 +58,7 @@ Improvement request aligns with company strategic objectives and is considered v
 -   Assess
 -   Canceled
 
- List Controls menu \(![List icon](../image/cim-list-controls.png)\) options on the Improvement Initiative form: Copy Initiative.
+ List Controls menu \(\[Omitted image "cim-list-controls.png"\] Alt text: List icon\) options on the Improvement Initiative form: Copy Initiative.
 
 </td></tr><tr><td>
 
@@ -69,7 +70,7 @@ Improvement is not accepted \(**Reject** action is selected by the Improvement M
 
  **Note:** Any CIM tasks created for the improvement are also canceled.
 
- List Controls menu \(![List icon](../image/cim-list-controls.png)\) options on the Improvement Initiative form: Copy Initiative.
+ List Controls menu \(\[Omitted image "cim-list-controls.png"\] Alt text: List icon\) options on the Improvement Initiative form: Copy Initiative.
 
 </td></tr><tr><td>
 
@@ -89,7 +90,7 @@ All improvement attributes are set by the Improvement Manager, including busines
 
 -   Canceled
 
- List Controls menu \(![List icon](../image/cim-list-controls.png)\) options on the Improvement Initiative form:
+ List Controls menu \(\[Omitted image "cim-list-controls.png"\] Alt text: List icon\) options on the Improvement Initiative form:
 
 -   Copy Initiative
 -   Revert to Accepted
@@ -113,7 +114,7 @@ The improvement is assessed and approved by an Approver group member and is read
 If additional tasks were added, or if the target has changed, the improvement may need to go through approval again.
 
 
- List Controls menu \(![List icon](../image/cim-list-controls.png)\) options on the Improvement Initiative form:
+ List Controls menu \(\[Omitted image "cim-list-controls.png"\] Alt text: List icon\) options on the Improvement Initiative form:
 
 -   Copy Initiative
 -   Submit for Re-Approval
@@ -137,7 +138,7 @@ CIM task creation is completed by the Improvement Manager or Improvement Coordin
 If additional tasks were added, or if the target has changed, the improvement may need to go through approval again.
 
 
- List Controls menu \(![List icon](../image/cim-list-controls.png)\) options on the Improvement Initiative form:
+ List Controls menu \(\[Omitted image "cim-list-controls.png"\] Alt text: List icon\) options on the Improvement Initiative form:
 
 -   Copy Initiative
 -   Submit for Re-Approval
@@ -162,7 +163,7 @@ Improvement is no longer in progress but may resume at a later date.
 
 When the improvement is taken off hold, all active CIM tasks \(not closed or canceled\) are set to Open state \(unless they were changed manually\).
 
- List Controls menu \(![List icon](../image/cim-list-controls.png)\) options on the Improvement Initiative form: Copy Initiative.
+ List Controls menu \(\[Omitted image "cim-list-controls.png"\] Alt text: List icon\) options on the Improvement Initiative form: Copy Initiative.
 
 </td></tr><tr><td>
 
@@ -183,7 +184,7 @@ All CIM tasks for the improvement are complete, improvements have been measured,
 If additional tasks were added, or if the target has changed, the improvement may need to go through approval again.
 
 
- List Controls menu \(![List icon](../image/cim-list-controls.png)\) options on the Improvement Initiative form: Copy Initiative.
+ List Controls menu \(\[Omitted image "cim-list-controls.png"\] Alt text: List icon\) options on the Improvement Initiative form: Copy Initiative.
 
 </td></tr><tr><td>
 
@@ -206,7 +207,7 @@ Improvement is removed from the Improvement Register list.
 </td></tr></tbody>
 </table>## CIM task states
 
-An improvement contains of one or more [CIM tasks](../task/implement-cim-initiative.md) to complete the improvement. A CIM task is assigned to an owner to be responsible for the work specified.
+An improvement contains of one or more [CIM tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/implement-cim-initiative.md) to complete the improvement. A CIM task is assigned to an owner to be responsible for the work specified.
 
 The state of a CIM task indicates the level of progress for the task.
 
@@ -289,15 +290,15 @@ When the improvement is taken off hold, all active CIM tasks \(not closed or can
 </td></tr></tbody>
 </table>## CIM approver states
 
-Each improvement needs at least one [approval](https://www.servicenow.com/docs/access?context=r_Approvals&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US) to progress to the Implement state. The Approvers related list in the improvement contains a list of user approval records and the state of the approval.
+Each improvement needs at least one approval to progress to the Implement state. The Approvers related list in the improvement contains a list of user approval records and the state of the approval.
 
 The users in the Approvers related list belong to the **Approver Group** specified on the Improvement Initiative form. Once the improvement has been approved by an Approver Group member, approval from other members is no longer required to progress the improvement. However, other Approver Group members can still set their individual approval state.
 
-To require additional approvers, configure the CIM Approval workflow in [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+To require additional approvers, configure the CIM Approval workflow in .
 
 ## Improvement process flow
 
-![CIM process flow](../image/cim-closed.png "Process flow for Continual Improvement Management")
+\[Omitted image "cim-closed.png"\] Alt text: CIM process flow
 
 <table id="table_l1v_mfc_zdb"><thead><tr><th>
 
@@ -384,7 +385,7 @@ Assess
 
 CIM approver\(member of the Approver group\)
 
- [CIM approver states](cim-reference.md)
+ [CIM approver states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/cim-reference.md)
 
 </td><td>
 
@@ -471,18 +472,18 @@ Click **Close**.
  **Actual end date** is automatically populated.
 
 </td></tr></tbody>
-</table>-   **[CIM roles](cim-roles.md)**  
+</table>-   **[CIM roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/cim-roles.md)**  
 Roles are added with installation of Continual Improvement Management.
--   **[Improvement field descriptions](cim-field-descriptions.md)**  
+-   **[Improvement field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/cim-field-descriptions.md)**  
 Improvement Initiative form and related field descriptions.
--   **[Components installed with Continual Improvement Management](cim-components.md)**  
+-   **[Components installed with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/cim-components.md)**  
 Several types of components are installed with the CIM plugin, including tables, user roles, and scheduled jobs.
--   **[Quick tests for Continual Improvement Management](quick-tests-cim.md)**  
+-   **[Quick tests for Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/quick-tests-cim.md)**  
 Validate the continued functionality of Continual Improvement Management during application development and after upgrades. Copy and configure these automated tests to identify customizations needing review. All test suites and tests should pass.
--   **[Updates after improvement initiative creation from integrated applications](ui-updates-initiative-from-app.md)**  
+-   **[Updates after improvement initiative creation from integrated applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/ui-updates-initiative-from-app.md)**  
 UI changes display on the source application record and on the initiative record when you create an improvement initiative from an integrated application.
--   **[Updates after application record creation from improvement initiatives](updates-app-record-from-initiative.md)**  
+-   **[Updates after application record creation from improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/updates-app-record-from-initiative.md)**  
 UI changes display on the source improvement initiative or CIM task record and on the corresponding application records of some applications when you create application records from improvement initiatives or CIM tasks.
 
-**Parent Topic:**[Continual Improvement Management](../concept/cim-landing-page.md)
+**Parent Topic:**[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/cim-landing-page.md)
 

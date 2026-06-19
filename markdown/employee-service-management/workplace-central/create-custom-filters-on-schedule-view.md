@@ -2,6 +2,7 @@
 title: Create custom filters on the schedule view
 description: Create custom filters in the schedule view to control which records appear in your list. You can set filter conditions to view only the records that meet your criteria.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-central/create-custom-filters-on-schedule-view.html
 release: zurich
 product: Workplace Central
 classification: workplace-central
@@ -42,7 +43,7 @@ The following are filter categories:
 
     You can also open Workplace Central from Employee Center directly by navigating to **All** &gt; **Self-service** &gt; **Employee Center** &gt; **Workspaces** &gt; **Workplace Central**.
 
-2.  Select the event planner icon ![event planner icon](../images/event-planner-icon.png).
+2.  Select the event planner icon \[Omitted image "event-planner-icon.png"\] Alt text: event planner icon.
 
 3.  Select **Open Scheduled view**.
 
@@ -54,9 +55,9 @@ The following are filter categories:
 
 5.  Define filter conditions in the following tabs as needed:
 
-    -   Conditions: Use the condition builder to construct a statement with contextually generated fields. Select the **Field**, **Operator**, and **Value**. To view the Meeting Room or Workspace Reservable Purpose, along with the Room or Workspace or Desk Space type, you can filter by Space type using the following filter condition:![Use predicate builder to logically group elements using AND or OR logic.](../images/wsd-condition-builder.png)
+    -   Conditions: Use the condition builder to construct a statement with contextually generated fields. Select the **Field**, **Operator**, and **Value**. To view the Meeting Room or Workspace Reservable Purpose, along with the Room or Workspace or Desk Space type, you can filter by Space type using the following filter condition:\[Omitted image "wsd-condition-builder.png"\] Alt text: Use predicate builder to logically group elements using AND or OR logic.
     -   Group by: Organize event sections dynamically using the Group by filter condition. Applying a group by filter updates the schedule view to show sections based on the selected attribute. For example, grouping by campus displays separate sections for each campus, while grouping by space type organizes sections according to room types.
-    -   Related list conditions: Include relationships with other tables in the filter by selecting related table records from the drop-down list. For more information, see [Add related list conditions](https://www.servicenow.com/docs/access?context=create-related-list-query&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US). For Reservable Purpose, use Related list conditions to apply filtering on related tables as shown in the following image:![You can apply filtering on related tables using the Related list conditions tab.](../images/wsd-related-list-conditions.png)
+    -   Related list conditions: Include relationships with other tables in the filter by selecting related table records from the drop-down list. For more information, see . For Reservable Purpose, use Related list conditions to apply filtering on related tables as shown in the following image:\[Omitted image "wsd-related-list-conditions.png"\] Alt text: You can apply filtering on related tables using the Related list conditions tab.
     In this context, &gt;=1 means, that the system return the parent record \(the space\) only when there is at least one record in the related list \(M2M table\) that meets the specified filter condition.
 
     **Note:** You must define at least one filter condition to create a custom filter.
@@ -74,5 +75,5 @@ The following are filter categories:
     **Note:** The selected or applied filter stays active until the user navigates back to the page and changes it.
 
 
-**Parent Topic:**[Working with schedule view](working-with-schedule-view.md)
+**Parent Topic:**[Working with schedule view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/working-with-schedule-view.md)
 

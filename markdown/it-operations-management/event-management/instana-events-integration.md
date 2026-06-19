@@ -2,6 +2,7 @@
 title: Integrate Instana events
 description: Integrate Instana with Event Management by adding a standard webhook in the Instana console.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/instana-events-integration.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -71,5 +72,5 @@ Role required: evt\_mgmt\_admin
     4.  On the **Details** tab, locate the **Actions** section on the right side of the page and in the **Show Event on Instana UI** cell, select **Launch app**.
 
 
-**Parent Topic:**[Integrate with push connectors](configure-listener-transform-script.md)
+**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-listener-transform-script.md)
 

@@ -2,6 +2,7 @@
 title: Configure patient information in Healthcare workspace
 description: You can configure the Patient information related list in Healthcare workspace used by healthcare agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-patient-info.html
 release: zurich
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -15,7 +16,7 @@ breadcrumb: [Set up your Healthcare Workspace, Healthcare and Life Sciences Serv
 
 You can configure the Patient information related list in Healthcare workspace used by healthcare agents.
 
-Healthcare workspace used by healthcare agents is a CSM Configurable Workspace. As a user with the admin role, you can configure the Patient information related list by using UI Builder. For more information, see [Explore CSM Configurable Workspace](https://www.servicenow.com/docs/access?context=exploring-configurable-workspace&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+Healthcare workspace used by healthcare agents is a CSM Configurable Workspace. As a user with the admin role, you can configure the Patient information related list by using UI Builder. For more information, see Explore CSM Configurable Workspace.
 
-By default, patient information is displayed on interactions associated with patients. You can configure the CSM Configurable Workspace to display patient information for a healthcare case. Also, you can configure the Patient information related list for a specific healthcare case and user role. For more information, see [Display patient information on a healthcare case type in Healthcare workspace](hcls-enable-viewing-patient-info.md).
+By default, patient information is displayed on interactions associated with patients. You can configure the CSM Configurable Workspace to display patient information for a healthcare case. Also, you can configure the Patient information related list for a specific healthcare case and user role. For more information, see [Display patient information on a healthcare case type in Healthcare workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-enable-viewing-patient-info.md).
 

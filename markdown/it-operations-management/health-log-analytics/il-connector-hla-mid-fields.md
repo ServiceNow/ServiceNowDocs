@@ -2,6 +2,7 @@
 title: MID Server integration configuration fields
 description: Description of the fields on the MID Server integration configuration forms for Health Log Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/il-connector-hla-mid-fields.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -16,7 +17,7 @@ breadcrumb: [Integration configuration field descriptions, Health Log Analytics 
 
 Description of the fields on the MID Server integration configuration forms for Health Log Analytics.
 
-For the MID Server integration setup procedure, see [Set up a MID Server integration for Health Log Analytics](../task/il-connector-hla-mid.md).
+For the MID Server integration setup procedure, see [Set up a MID Server integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/il-connector-hla-mid.md).
 
 <table id="table_vct_hvs_32c"><thead><tr><th>
 
@@ -118,5 +119,5 @@ Drop if queue is full
 Option to discard logs if many processes are waiting in the queue to access the MID Server.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integration configuration field descriptions](../concept/hla-connector-config-fields.md)
+</table>**Parent Topic:**[Integration configuration field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

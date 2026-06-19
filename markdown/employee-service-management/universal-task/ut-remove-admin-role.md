@@ -2,6 +2,7 @@
 title: Remove the Universal Task admin role from the admin role
 description: After system configuration, remove the Universal Task Admin role \(sn\_uni\_task.admin\) from IT System Administrator role \(admin\) to help prevent IT System Administrators from viewing sensitive information via forms, lists and UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-task/ut-remove-admin-role.html
 release: zurich
 product: Universal Task
 classification: universal-task
@@ -42,9 +43,9 @@ By default, a system administrator also contains the sn\_uni\_task.admin role an
 6.  Click **Save**.
 
 
-**Parent Topic:**[Configuring your service for Universal Task](../concept/config-service-for-ut.md)
+**Parent Topic:**[Configuring your service for Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-task/config-service-for-ut.md)
 
-**Previous topic:**[Hide the template bar on the Universal Task form](ut-hide-template-bar.md)
+**Previous topic:**[Hide the template bar on the Universal Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-task/ut-hide-template-bar.md)
 
-**Next topic:**[Email notification layout for Universal Task notifications](../concept/email-notification-ut.md)
+**Next topic:**[Email notification layout for Universal Task notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-task/email-notification-ut.md)
 

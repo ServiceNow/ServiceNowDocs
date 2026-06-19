@@ -2,6 +2,7 @@
 title: Grant a role access to applications and modules
 description: Roles control access to features and capabilities in applications and modules. You add a role to an application or module to enable the role to grant access to the application or module for all users with the role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/user-administration/t\_GrantARoleAccessToAppsAndModules.html
 release: zurich
 product: User Administration
 classification: user-administration
@@ -32,5 +33,5 @@ Role required: admin
 5.  Select the lock to close the **Roles** field, and then save your changes.
 
 
-**Parent Topic:**[Create a role](t_CreateARole.md)
+**Parent Topic:**[Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/t_CreateARole.md)
 

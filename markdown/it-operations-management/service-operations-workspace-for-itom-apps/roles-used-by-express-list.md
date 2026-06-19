@@ -2,6 +2,7 @@
 title: Roles used by Express List
 description: Detailed information on all roles that can access the Express List feature on the Service Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/roles-used-by-express-list.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps

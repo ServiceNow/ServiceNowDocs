@@ -2,6 +2,7 @@
 title: Signal, no signal, and anti-signal
 description: When KPI Signals detects abnormal variation in the scores of a KPI, it generates a signal. When KPI Signals does not detect abnormal variation for a significant amount of time, it generates an "anti-signal." The anti-signal lets you know that your workflow is under control.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/signal-no-signal-anti-signal.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -18,7 +19,7 @@ Both the presence and absence of signals conveys information:
 -   The presence of signals lets you know that a workflow has changed, or at least is not statistically stable.
 -   The long-term absence of signals indicates that a workflow is statistically stable. With this information you can decide to launch a process improvement initiative, for example.
 
-**Note:** By default, dashboards that show indicators with KPI Signals enabled have insight cards for signals that get generated. For more information, see [Proactive analytics insights on dashboards](proactive-analytics.md).
+**Note:** By default, dashboards that show indicators with KPI Signals enabled have insight cards for signals that get generated. For more information, see [Proactive analytics insights on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/proactive-analytics/proactive-analytics.md).
 
 ## Signals
 
@@ -41,9 +42,9 @@ The KPI Signals application considers the following behaviors to 'signal' specia
 
 In the following example, you see a "Long run" signal: seven consecutive scores above or below the central line.
 
-![KPI Signals panel open on the KPI Details tab, showing a Long Run signal of seven consecutive scores all greater than or all less than the average value.](../image/kpi-signals-signal.png)
+\[Omitted image "kpi-signals-signal.png"\] Alt text: KPI Signals panel open on the KPI Details tab, showing a Long Run signal of seven consecutive scores all greater than or all less than the average value.
 
-**Note:** The KPI Signals application can detect signals for an indicator with no more than one first-level [breakdown element](../../performance-analytics/concept/performance-analytics-glossary.md#). The application does not support multiple breakdown elements or a second-level breakdown.
+**Note:** The KPI Signals application can detect signals for an indicator with no more than one first-level [breakdown element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md). The application does not support multiple breakdown elements or a second-level breakdown.
 
 ## Anti-signals
 
@@ -53,11 +54,11 @@ The application issues an anti-signal when it has not detected a signal for a le
 Length of time to calculate the baseline for the KPI * Anti-signal factor
 ```
 
-The application takes 14 days by default to calculate the baseline for a daily indicator. The default anti-signal factor is two. Thus, the default length of time to detect an anti-signal on a daily indicator is 28 days. For more information about setting the time to calculate a baseline, see [Configure signal detection](../task/configure-signal-detection.md). For more information about setting the anti-signal factor, see [Configure signal notifications](../task/configure-signal-notifications.md).
+The application takes 14 days by default to calculate the baseline for a daily indicator. The default anti-signal factor is two. Thus, the default length of time to detect an anti-signal on a daily indicator is 28 days. For more information about setting the time to calculate a baseline, see [Configure signal detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/configure-signal-detection.md). For more information about setting the anti-signal factor, see [Configure signal notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/configure-signal-notifications.md).
 
 In this example, the default configuration values apply to a daily indicator. The application has not detected a signal for 28 days, so it shows a 28-day anti-signal.
 
-![KPI Signals showing an anti-signal, where no signals have been detected for an extended period of time](../image/kpi-signals-anti-signal.png)
+\[Omitted image "kpi-signals-anti-signal.png"\] Alt text: KPI Signals showing an anti-signal, where no signals have been detected for an extended period of time
 
 Although responsible users are notified when an anti-signal is generated, no action is required.
 
@@ -67,7 +68,7 @@ Usually no signal is detected for a shorter amount of time than it takes to dete
 
 In the following example, no signal is detected for five days after the baseline was most recently reset. The baseline has been reset three times in the period being shown.
 
-![KPI Signals showing no signal for a KPI: neither a signal nor an anti-signal](../image/kpi-signals-no-signal.png)
+\[Omitted image "kpi-signals-no-signal.png"\] Alt text: KPI Signals showing no signal for a KPI: neither a signal nor an anti-signal
 
-**Parent Topic:**[Exploring KPI Signals](exploring-kpi-signals.md)
+**Parent Topic:**[Exploring KPI Signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/exploring-kpi-signals.md)
 

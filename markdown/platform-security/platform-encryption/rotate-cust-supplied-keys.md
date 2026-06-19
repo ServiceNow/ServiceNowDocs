@@ -2,6 +2,7 @@
 title: Rotate keys
 description: For increased security, you can rotate your cryptographic keys on a pre-determined schedule. Key rotation is when you retire an encryption key and replace that old key by generating a new cryptographic key.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/platform-encryption/rotate-cust-supplied-keys.html
 release: zurich
 product: Platform Encryption
 classification: platform-encryption
@@ -31,9 +32,9 @@ Encryption modules, unlike encryption contexts, support a rekey of records for r
 
 3.  On the **Module Keys** tab, select the Active key.
 
-    ![Select the active key from the Module Keys tab.](../../key-management-framework/image/active-key-selection.png "Select the active key")
+    \[Omitted image "active-key-selection.png"\] Alt text: Select the active key from the Module Keys tab.
 
-    ![Lifecycle key form to click Rotate Key.](../../key-management-framework/image/rotatekeys.png)
+    \[Omitted image "rotatekeys.png"\] Alt text: Lifecycle key form to click Rotate Key.
 
 4.  Select **Rotate Key**.
 
@@ -41,10 +42,10 @@ Encryption modules, unlike encryption contexts, support a rekey of records for r
 
 5.  Return to **Cryptographic Module** &gt; **** **Module Keys**.
 
-    ![Displays the Module Keys tab with the key lifecycle states updated based on active and deactivated keys.](../../key-management-framework/image/key-rotated.png)
+    \[Omitted image "key-rotated.png"\] Alt text: Displays the Module Keys tab with the key lifecycle states updated based on active and deactivated keys.
 
     There’s an extra module key listed in the table. The newly rotated key becomes "Active" and the last key is "Deactivated."
 
 
-**Parent Topic:**[Key management actions](../../key-management-framework/reference/key-management-actions.md)
+**Parent Topic:**[Key management actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/key-management-actions.md)
 

@@ -2,6 +2,7 @@
 title: Explore Case and Knowledge Management
 description: HR Case and Knowledge Management pulls together many HR case related features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-ckm-use-explore.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,8 +16,8 @@ breadcrumb: [Case and Knowledge Management, HR Service Delivery, Employee Servic
 
 HR Case and Knowledge Management pulls together many HR case related features.
 
--   **[Understanding Case and Knowledge Management](c_HRServiceAutomation.md)**  
+-   **[Understanding Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRServiceAutomation.md)**  
 Case and Knowledge Management for the scoped version of HR benefits your enterprise by automating standard HR processes within your organization that support relationships between employees and the HR department.
 
-**Parent Topic:**[Case and Knowledge Management](../reference/case-knowledge-management-landing-page.md)
+**Parent Topic:**[Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/case-knowledge-management-landing-page.md)
 

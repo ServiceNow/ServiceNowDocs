@@ -2,7 +2,10 @@
 title: Configuring Contracts and Entitlement Workflows
 description: Configure the Contracts and Entitlement Workflows plugin \(com.sn\_contract\_ent\_wf\) to generate and modify contracts using order management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-cont-ent-workflows-csm.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -13,7 +16,7 @@ breadcrumb: [Customer Contracts and Entitlements, Product data, Set up your envi
 
 Configure the Contracts and Entitlement Workflows plugin \(com.sn\_contract\_ent\_wf\) to generate and modify contracts using order management.
 
-As an admin, you can activate the Contracts and Entitlement Workflows plugin \(com.sn\_contract\_ent\_wf\). For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+As an admin, you can activate the Contracts and Entitlement Workflows plugin \(com.sn\_contract\_ent\_wf\). For more information, see .
 
 The following plugins are prerequisites for activating the Contracts and Entitlement Workflows plugin \(com.sn\_contract\_ent\_wf\):
 
@@ -27,6 +30,6 @@ After installing the Contracts and Entitlement Workflows plugin \(com.sn\_contra
 |Plugin|Description|
 |------|-----------|
 |Customer Contracts and Entitlements \(com.sn\_pss\_core\)|Provides foundational objects to manage customer contracts and entitlements.|
-|Lead to Cash Core \(com.snc.l2c\_core\)|Enables customers to compose​ sales and order management flows.|
+|Lead to Cash Core \(com.snc.l2c\_core\)|Enables customers to compose​ Sales CRM flows.|
 |Customer Life Cycle Management Workflows \(com.snc.l2c\_cust\_flows\)|Provides workflows to manage the life cycles of sold products and install base items.|
 

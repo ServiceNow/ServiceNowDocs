@@ -2,6 +2,7 @@
 title: Access an SLA map
 description: How to access the SLA map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/t\_AccessTheMap.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

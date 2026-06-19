@@ -2,6 +2,7 @@
 title: Incorporating the Agent Client Collector into a custom base image for mass deployment
 description: Deploy the Agent Client Collector on a virtual machine during mass deployment using the machine's base image. Mass deployment uses silent installation, which hides installation status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-virtual-deployment.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector

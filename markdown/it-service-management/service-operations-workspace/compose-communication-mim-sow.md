@@ -2,6 +2,7 @@
 title: Compose communications for incidents and major incidents
 description: Compose communication messages for incidents and major incidents using communication channels such as email and SMS.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/compose-communication-mim-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -30,8 +31,8 @@ The **Communicate** tab displays the list of communication tasks with various op
 
 You must configure the communication plans and tasks in one of the following ways:
 
--   For major incidents, you must configure communication plans and tasks for Major Incident Management in Admin Center. For more information, see [Configure a communication plan in Major Incident Management](configure-comm-plan-mim-sow.md).
--   For incidents, you must activate and then configure communication plans and tasks in Task Communications Management. For more information, see [Task Communications Management](https://www.servicenow.com/docs/access?context=tcm-landing-page&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+-   For major incidents, you must configure communication plans and tasks for Major Incident Management in Admin Center. For more information, see [Configure a communication plan in Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/configure-comm-plan-mim-sow.md).
+-   For incidents, you must activate and then configure communication plans and tasks in Task Communications Management. For more information, see .
 
 Role required: major\_incident\_manager, ia\_admin, itil, or admin
 
@@ -82,7 +83,7 @@ Email template
 
 Email template used for composing the email.**Note:**
 
-Selecting this field displays two sections of email templates. The first section contains the GenAI templates with corresponding Now Assist for ITSM icon \(![Now Assist for ITSM icon](../../now-assist-itsm/image/icon-now-assist-panel.png)\) and the second section contains the non GenAI templates. The GenAI email templates are displayed only if the following conditions exist:
+Selecting this field displays two sections of email templates. The first section contains the GenAI templates with corresponding Now Assist for ITSM icon \(\[Omitted image "icon-now-assist-panel.png"\] Alt text: Now Assist for ITSM icon\) and the second section contains the non GenAI templates. The GenAI email templates are displayed only if the following conditions exist:
 
 -   Any GenAI variable is available in the email templates.
 -   Now Assist for ITSM is installed and activated.
@@ -180,7 +181,7 @@ Message
 Content of the notification message.
 
 </td></tr></tbody>
-</table>    For more information on DEX Desktop Assistant, see [Use DEX Desktop Assistant](../../digital-end-user-experience/concept/use-dex-desktop-exp.md).
+</table>    For more information on DEX Desktop Assistant, see [Use DEX Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/use-dex-desktop-exp.md).
 
     |Field|Description|
     |-----|-----------|
@@ -192,9 +193,9 @@ Content of the notification message.
 
     -   Depending on the channel selected on the communication task, options such as email or SMS are displayed.
     -   SMS communication is sent to the recipient only if the recipient has a phone number linked to the recipient record.
-    -   For all supported channels such as email, SMS, or DEX Desktop Assistant, Major Incident Management allows notification to be sent to all users \(employees\) in the affected locations. You can use the demo recipient list available in the base system as part of the installed demo data installed. The affected locations list can be accessed from the Affected locations related list in the **Related records** tab of a major incident record. For more information, see [View and update incident information on the Overview tab in SOW](view-update-inc-overview-tab.md).
+    -   For all supported channels such as email, SMS, or DEX Desktop Assistant, Major Incident Management allows notification to be sent to all users \(employees\) in the affected locations. You can use the demo recipient list available in the base system as part of the installed demo data installed. The affected locations list can be accessed from the Affected locations related list in the **Related records** tab of a major incident record. For more information, see [View and update incident information on the Overview tab in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/view-update-inc-overview-tab.md).
 5.  Select **Send**.
 
 
-**Parent Topic:**[Communicating with stakeholders about incidents and major incidents in SOW](../concept/communicating-with-stakeholders-sow.md)
+**Parent Topic:**[Communicating with stakeholders about incidents and major incidents in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/communicating-with-stakeholders-sow.md)
 

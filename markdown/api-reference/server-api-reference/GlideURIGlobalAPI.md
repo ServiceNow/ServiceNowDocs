@@ -2,6 +2,7 @@
 title: GlideURI - Global
 description: The GlideURI API provides methods to handle URI parameters in a global application.Deletes one or more parameters from the URI that match the beginning of the provided string.Removes a specified parameter from the query portion of the URI.Returns the value of the specified parameter.Returns the file name portion of the URI.Returns a map \(key value pairs\) containing each parameter in the query and its associated value.Sets the specified parameter to the specified value.Adds the sysparm\_view parameter to the query with the named view.Reconstructs the URI string and performs the proper URL encoding by converting non-valid characters to their URL code. For example, converting &amp; to '%26'.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/GlideURIGlobalAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -19,12 +20,12 @@ The GlideURI API provides methods to handle URI parameters in a global applicati
 
 For more information on using URIs:
 
--   [Navigate by URL](https://www.servicenow.com/docs/access?context=navigate-using-url&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
--   [Navigation stack](https://www.servicenow.com/docs/access?context=c_NavigationStack&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
+-   Navigate by URL
+-   Navigation stack
 
-See also [Action - getGlideURI\(\)](../../Action/concept/ActionAPIBoth.md#).
+See also [Action - getGlideURI\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ActionAPIBoth.md).
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideURI - deleteMatchingParameter\(String match\)
 
@@ -105,7 +106,7 @@ priority=2^active=true
 
 ### Scoped equivalent
 
-To use the get\(\) method in a scoped application, use the corresponding scoped method: [GlideURI - get\(String name\)](../../GlideURIScoped/concept/c_GlideURIScopedAPI.md#) .
+To use the get\(\) method in a scoped application, use the corresponding scoped method: [GlideURI - get\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideURIScopedAPI.md) .
 
 ## GlideURI - getFileFromPath\(\)
 
@@ -128,7 +129,7 @@ gs.info(fileString);
 
 ### Scoped equivalent
 
-To use the getFileFromPath\(\) method in a scoped application, use the corresponding scoped method: [GlideURI - getFileFromPath\(\)](../../GlideURIScoped/concept/c_GlideURIScopedAPI.md#) .
+To use the getFileFromPath\(\) method in a scoped application, use the corresponding scoped method: [GlideURI - getFileFromPath\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideURIScopedAPI.md) .
 
 ## GlideURI - getMap\(\)
 
@@ -142,7 +143,7 @@ Returns a map \(key value pairs\) containing each parameter in the query and its
 |----|-----------|
 |Object| |
 
-The following example shows how to get `sysparm_query` parameters. See also [Action - getGlideURI\(\)](../../Action/concept/ActionAPIBoth.md#) .
+The following example shows how to get `sysparm_query` parameters. See also [Action - getGlideURI\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ActionAPIBoth.md) .
 
 ```
 gs.action.getGlideURI().getMap().get('sysparm_query');
@@ -165,7 +166,7 @@ Sets the specified parameter to the specified value.
 |----|-----------|
 |None| |
 
-The following example shows how to set value of a sysparm\_query field. See also [Action - getGlideURI\(\)](../../Action/concept/ActionAPIBoth.md#) .
+The following example shows how to set value of a sysparm\_query field. See also [Action - getGlideURI\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ActionAPIBoth.md) .
 
 ```
 var gURI = action.getGlideURI();
@@ -182,18 +183,18 @@ priority=2^active=true
 
 ### Scoped equivalent
 
-To use the set\(\) method in a scoped application, use the corresponding scoped method: [GlideURI - set\(String name, String value\)](../../GlideURIScoped/concept/c_GlideURIScopedAPI.md#) .
+To use the set\(\) method in a scoped application, use the corresponding scoped method: [GlideURI - set\(String name, String value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideURIScopedAPI.md) .
 
 ## GlideURI - setView\(String view\)
 
 Adds the **sysparm\_view** parameter to the query with the named view.
 
-A view defines the elements that appear when a user opens a form or a list. The **sysparm\_view** parameter specifies the view to be used for a list or a form. For more information on views, see [View management](https://www.servicenow.com/docs/access?context=view-management-overview&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+A view defines the elements that appear when a user opens a form or a list. The **sysparm\_view** parameter specifies the view to be used for a list or a form. For more information on views, see View management.
 
 See also:
 
--   [Action - getGlideURI\(\)](../../Action/concept/ActionAPIBoth.md#)
--   [GlideModalV3 - switchView\(\)](../../GlideModalClientSideV3/concept/c_GlideModalV3API.md#)
+-   [Action - getGlideURI\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ActionAPIBoth.md)
+-   [GlideModalV3 - switchView\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/c_GlideModalV3API.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -203,7 +204,7 @@ See also:
 |----|-----------|
 |None| |
 
-The following example shows how to add the major incidents view to the URI query in the Incidents \[incident\] table. For example, `sysparm_view=Major%20Incidents`. See also [Action - getGlideURI\(\)](../../Action/concept/ActionAPIBoth.md#) .
+The following example shows how to add the major incidents view to the URI query in the Incidents \[incident\] table. For example, `sysparm_view=Major%20Incidents`. See also [Action - getGlideURI\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ActionAPIBoth.md) .
 
 ```
 // create the GlideURI object
@@ -233,7 +234,7 @@ Parameters set with the set\(\) method are encoded with the URI as well.
 |----|-----------|
 |String|The URL.|
 
-The following examples shows how to convert invalid characters to URL code in an instance URL. See also [Action - getGlideURI\(\)](../../Action/concept/ActionAPIBoth.md#) .
+The following examples shows how to convert invalid characters to URL code in an instance URL. See also [Action - getGlideURI\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ActionAPIBoth.md) .
 
 ```
 var gURI = action.getGlideURI();
@@ -242,5 +243,5 @@ fileString = gURI.toString('https://<your instance>.service-now.com/navpage.do')
 
 ### Scoped equivalent
 
-To use the toString\(\) method in a scoped application, use the corresponding scoped method: [GlideURI - toString\(String path\)](../../GlideURIScoped/concept/c_GlideURIScopedAPI.md#) .
+To use the toString\(\) method in a scoped application, use the corresponding scoped method: [GlideURI - toString\(String path\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideURIScopedAPI.md) .
 

@@ -2,6 +2,7 @@
 title: Create custom SAP price lists in workspace
 description: Create custom SAP price lists so that you can track and manage SAP licenses based on the contracts that are specific to your SAP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/sap-prcielists-workspace.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -64,5 +65,5 @@ Role required: sam\_admin
     4.  Repeat steps a to c for each custom named user type that you want to add.
 
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/using-sam-workspace.md)
 

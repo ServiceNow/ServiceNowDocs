@@ -2,6 +2,7 @@
 title: Manage documents from Documents tab
 description: The Documents tab lets supplier contacts upload and manage documents without needing a supplier manager to initiate the process first. Supplier contacts can also manage document permissions from the Documents tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/manage-documents-from-documents-tab.html
 release: zurich
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -94,8 +95,8 @@ Download the latest or specific version of a document.
 
 
 </td></tr></tbody>
-</table>    ![Document details page.](../image/documents-tab-supp-collab.png)
+</table>    \[Omitted image "documents-tab-supp-collab.png"\] Alt text: Document details page.
 
 
-**Parent Topic:**[Manage documents from the Supplier Collaboration Portal](upload-doc-portal.md)
+**Parent Topic:**[Manage documents from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-portal.md)
 

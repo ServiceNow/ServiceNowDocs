@@ -2,6 +2,7 @@
 title: Create improvement initiatives from integrated applications
 description: Create improvement initiatives from applications integrated with Continual Improvement Management to enable planning, implementation, monitoring, and impact assessment of improvements in a centralized framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/continual-improvement-management/create-improvmt-from-apps.html
 release: zurich
 product: Continual Improvement Management
 classification: continual-improvement-management
@@ -35,14 +36,14 @@ Records of applications integrated with CIM display the **Create Improvement Ini
 
 4.  Enter the field values in the Improvement Initiative form.
 
-    For more information, see [Improvement field descriptions](../reference/cim-field-descriptions.md).
+    For more information, see [Improvement field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/cim-field-descriptions.md).
 
 5.  Select **Submit**.
 
 
 ## Result
 
-The improvement initiative is created and UI changes display on the source application record and on the initiative record. For more information, see [Updates after improvement initiative creation from integrated applications](../reference/ui-updates-initiative-from-app.md).
+The improvement initiative is created and UI changes display on the source application record and on the initiative record. For more information, see [Updates after improvement initiative creation from integrated applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/ui-updates-initiative-from-app.md).
 
-**Parent Topic:**[Applications integrated with Continual Improvement Management](../reference/cim-integration.md)
+**Parent Topic:**[Applications integrated with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/cim-integration.md)
 

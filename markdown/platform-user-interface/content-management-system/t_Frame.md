@@ -2,6 +2,7 @@
 title: Format a frame
 description: Frames provide a way to manage decorative containers for content blocks and any other elements within the site. For example, one frame can be a container, made of div or span tags, that is styled with rounded corners.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/content-management-system/t\_Frame.html
 release: zurich
 product: Content Management System
 classification: content-management-system
@@ -32,10 +33,10 @@ Configuring a new frame is a two-step process.
 2.  Create the frame UI macro to invoke the frame definition.
 
 
--   **[Define a frame in a style sheet](t_DefineTheFrameInAStyleSheet.md)**  
+-   **[Define a frame in a style sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/content-management-system/t_DefineTheFrameInAStyleSheet.md)**  
 Add style definitions for any custom frame UI macro you create.
--   **[Create a frame UI macro](t_CreateANewFrameUIMacro.md)**  
+-   **[Create a frame UI macro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/content-management-system/t_CreateANewFrameUIMacro.md)**  
 Copy an existing frame UI macro to display content in a custom frame.
 
-**Parent Topic:**[Style in Content Management](../concept/c_StyleInContentManagement.md)
+**Parent Topic:**[Style in Content Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/content-management-system/c_StyleInContentManagement.md)
 

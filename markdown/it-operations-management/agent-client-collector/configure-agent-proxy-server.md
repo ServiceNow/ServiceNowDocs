@@ -2,6 +2,7 @@
 title: Configure an agent on a proxy server
 description: Configure an Agent Client Collector on a proxy server when monitoring services external to the host server, such as URLs or external databases in the cloud.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/configure-agent-proxy-server.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -29,7 +30,7 @@ Proxy agents should be dedicated agents, as running other apps on a proxy agent 
 
 2.  Select the policy containing the checks that you want to run on a proxy server.
 
-    You must configure a proxy server for checks and policies that monitor external services. For details on these checks and policies, see [Agent Client Collector Monitoring default checks and policies](../reference/agent-policies-checks.md).
+    You must configure a proxy server for checks and policies that monitor external services. For details on these checks and policies, see [Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-policies-checks.md).
 
 3.  Select the **Proxy Settings** tab.
 

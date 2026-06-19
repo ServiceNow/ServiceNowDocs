@@ -2,6 +2,7 @@
 title: Download the Mobile Agent mobile application
 description: Access Mobile Agent on your mobile device to manage your change tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/configure-servicenow-agent.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -32,5 +33,5 @@ The Mobile Agent mobile application runs on the Mobile App Builder mobile platfo
 3.  Download and install the ServiceNow Agent application.
 
 
-**Parent Topic:**[Mobile experience for Change Management](../concept/mobile-experience-cm.md)
+**Parent Topic:**[Mobile experience for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/mobile-experience-cm.md)
 

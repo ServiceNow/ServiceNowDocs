@@ -2,6 +2,7 @@
 title: Run the 2011 SLA engine asynchronously
 description: By default in the 2011 SLA engine, the SLA processing is performed by the Run SLAs business rule. This business rule runs synchronously and is the suggested configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-level-management/t\_RunSLABusinessRule.html
 release: zurich
 product: Service Level Management
 classification: service-level-management
@@ -36,5 +37,5 @@ Use synchronous processing to get the best user experience. Asynchronous process
 3.  Click **Save**.
 
 
-**Parent Topic:**[SLA calculation](../reference/r_SLAAutomation.md)
+**Parent Topic:**[SLA calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-level-management/r_SLAAutomation.md)
 

@@ -2,6 +2,7 @@
 title: Implement automated job scheduling
 description: Implement the message processing framework \(automated jobs scheduling\) by using the Queue Registration link on the Event Registration form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/system-events/auto-job-scheduling.html
 release: zurich
 product: System Events
 classification: system-events

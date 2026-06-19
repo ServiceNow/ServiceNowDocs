@@ -2,6 +2,7 @@
 title: Register custom web applications with app launcher
 description: As an administrator, you can register applications manually and give one-click access to the applications. You can associate topics to the applications to discover and launch useful applications from the topic page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/web-applications-custom.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -140,13 +141,13 @@ Featured
 Option to mark the application as featured. Use the **Featured** option to promote new or important or seasonal applications for higher visibility. **Note:** Featured applications have display preferences and appear on the top of the page despite any filters or sorting.
 
 </td></tr></tbody>
-</table>    For more information, see [Configure application visibility and access](applauncher-enable-availability.md).
+</table>    For more information, see [Configure application visibility and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/applauncher-enable-availability.md).
 
 4.  Click **Submit**.
 
     The application is registered. You can proceed to associate topics suitable for the application.
 
-5.  Follow the steps from [Assign topics to web applications](web-applications-topic-assignment.md) to assign the topics to applications.
+5.  Follow the steps from [Assign topics to web applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/web-applications-topic-assignment.md) to assign the topics to applications.
 
 6.  Click **Update** to assign the topics to an application.
 
@@ -163,5 +164,5 @@ When you create applications, you can see the list of custom apps.
 
 ## What to do next
 
-Your employees can access all applications and associated topics. See [Access applications from App Launcher](../concept/web-application-employee.md).
+Your employees can access all applications and associated topics. See [Access applications from App Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/web-application-employee.md).
 

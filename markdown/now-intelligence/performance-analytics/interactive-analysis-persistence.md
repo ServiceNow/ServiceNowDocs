@@ -2,6 +2,7 @@
 title: Interactive Analysis persistence
 description: The filters that you select persist between uses of Interactive Analysis per view and per user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/interactive-analysis-persistence.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -20,5 +21,5 @@ When you launch Interactive Analysis on a view, a specific column in a table, fo
 
 In addition, **Group by** and **Stack by** elements are updated when filters are added to an analysis. For example, add a manager filter to an Interactive Analysis page. You can immediately group and stack your widgets by manager.
 
-**Parent Topic:**[Interactive Analysis](interactive-analysis.md)
+**Parent Topic:**[Interactive Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/interactive-analysis.md)
 

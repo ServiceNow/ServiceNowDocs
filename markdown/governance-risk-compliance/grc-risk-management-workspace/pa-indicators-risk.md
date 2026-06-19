@@ -2,6 +2,7 @@
 title: Monitor risks using GRC Performance Analytics Indicators
 description: You can link Risk Management risk statement and risks to Performance Analytics indicators, breakdowns and thresholds. You can associate Performance Analytics indicators with risk statements, and risks to view scorecards and trends and analyze current conditions and trends.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/pa-indicators-risk.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -32,14 +33,14 @@ There are two reports for the reporting of breaches:
 -   Risk PA Indicator Breaches
 -   Control PA Indicator Breaches
 
--   **[Activate GRC: Performance Analytics Integration](../../grc-common/task/activate-grc-pa-prem-integ.md)**  
+-   **[Activate GRC: Performance Analytics Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)**  
 The GRC: Performance Analytics Integration plugin provides an integration between Performance Analytics and the Risk Management and Policy and Compliance Management applications. This plugin provides more insight into organizational risk and compliance performance.
--   **[Associate a PA indicator with a risk statement or control objective](../../grc-indicators/task/associate-pa-indicator-grc-content.md)**  
+-   **[Associate a PA indicator with a risk statement or control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)**  
 You can associate Performance Analytics indicators with risk statements and policy statements to analyze trends related to the risk or policy.
--   **[Associate a PA indicator with risks and controls](../../grc-indicators/task/associate-pa-indicator-grc-item.md)**  
+-   **[Associate a PA indicator with risks and controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)**  
 You can associate Performance Analytics indicators with risks and controls to analyze trends related to the entity that risk or control belongs to.
--   **[Update associated GRC indicators for a set of items](../../grc-indicators/task/update-associted-indicators-set-of-items.md)**  
+-   **[Update associated GRC indicators for a set of items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)**  
 You can update all the items belonging to a GRC content record so each item is individually related to the PA indicator.
 
-**Parent Topic:**[Using Risk Management](using-risk-mgmt.md)
+**Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
 

@@ -2,6 +2,7 @@
 title: Propose a solution for an inquiry case
 description: Propose a solution that is based on your findings from the investigation of the inquiry case that you've just finished, so that you can resolve the case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-payment-operations/propose-solution-inquiry-case.html
 release: zurich
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
@@ -23,7 +24,7 @@ Role required: sn\_bom\_payment.inquiry\_agent or sn\_bom\_payment.inquiry\_agen
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Payment Inquiry Cases**, click **Assigned to me**.
 
@@ -44,16 +45,16 @@ Role required: sn\_bom\_payment.inquiry\_agent or sn\_bom\_payment.inquiry\_agen
 -   A pre-configured email notification about the case resolution is sent to the customer.
 -   If there's a Customer or Consumer Service Portal for customers, they get a notification for the proposed solution on the portal. Buttons for accepting or rejecting the solution appear in the section of the form that shows the consumer actions on the portal.
 
-    For more information, see [Accept or reject a case solution from the Consumer Service Portal](https://www.servicenow.com/docs/access?context=resolve-cases-consumer-portal&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+    For more information, see Accept or reject a case solution from the Consumer Service Portal.
 
     **Note:** To use the Consumer Service Portal, activate the Consumer Service Portal plugin \(com.glide.service-portal.consumer-portal\).
 
 
 ## What to do next
 
-Get an acceptance from the customer for the resolution and [close the inquiry case](close-payment-inquiry-case.md).
+Get an acceptance from the customer for the resolution and [close the inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/close-payment-inquiry-case.md).
 
 If the customer rejects the proposed solution, move the case back to the Open state. If the customer rejected the proposed solution from the Customer or Consumer Service Portal, the state of the case automatically updates to Open.
 
-**Parent Topic:**[Managing payment inquiries](../concept/managing-payment-inquiries.md)
+**Parent Topic:**[Managing payment inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/managing-payment-inquiries.md)
 

@@ -2,6 +2,7 @@
 title: Domain separation and Safe Workplace suite
 description: The Safe Workplace suite applications support domain separation at the Basic level with the exception of Safe Workplace Dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/domain-separation-safe-workplace.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace
@@ -30,7 +31,7 @@ ServiceNow applications that support domain separation might support the separat
     -   Business logic can be domain-separated by the instance owner per tenant.
 -   **Enhanced**: Data-driven process enables failsafe configuration by tenants through the UI to drive business logic.
 
-For more detail on the support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more detail on the support levels, see Application support for domain separation.
 
 ## How domain separation works in Safe Workplace applications
 
@@ -41,9 +42,9 @@ The following applications use the Safe Workplace domain table:
 -   Emergency Outreach \(Daily Contact Logs, Privacy Consent, and Privacy Consent \(common\)\)
 -   Emergency Exposure Management
 
-Admins must install the [Domain separation plugin](https://www.servicenow.com/docs/access?context=t_ActivateDomainSeparation&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)before working with these application tables. Most of those tables contain a **sys\_domain** field so they are able to be domain-separated if they have data that needs to be partitioned by domain.
+Admins must install the Domain separation pluginbefore working with these application tables. Most of those tables contain a **sys\_domain** field so they are able to be domain-separated if they have data that needs to be partitioned by domain.
 
--   Core domain table: Included in the [Safe Workplace plugin](../../human-resources/concept/safe-workplace.md) is an sn\_imt\_core\_domain table. Domains in this table are iterated when scheduled jobs run.
+-   Core domain table: Included in the [Safe Workplace plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/safe-workplace.md) is an sn\_imt\_core\_domain table. Domains in this table are iterated when scheduled jobs run.
 -   Property table: The sn\_imt\_core\_property table extends the sys\_properties table and adds a sys\_domain field. Adding that field allows sys\_properties values to be overridden for a domain.
 
 **Note:** Values are handled differently for `password2`​ fields than for other property types. Therefore, the value displays as blank in the domain-separated properties list view.
@@ -68,7 +69,7 @@ Scheduled jobs in applications with this level of domain separation run separate
 
 The **Domain Source Table** value is also set to Safe Workplace Domains by default. If you don't see the tables, verify that the **Domain Iterator** and Safe Workplace Domains settings are selected, and refresh the instance.
 
-![Domain iterator option selected in the Employee Readiness Core Scheduled Script Execution form.](../images/ds-iterator-checkbox.png "Domain iterator option selected in the Employee Readiness Core Scheduled Script Execution form")
+\[Omitted image "ds-iterator-checkbox.png"\] Alt text: Domain iterator option selected in the Employee Readiness Core Scheduled Script Execution form.
 
 ## Parent-child domains
 
@@ -78,7 +79,7 @@ Domains that also contain a sub-domain or “child” domain are not supported i
 
 When the Domain separation plugin is installed and you navigate to the Properties page in any of the four Safe Workplace domain-separated applications, their properties do not display by default. You must override properties for a domain before they appear in the list.
 
-![Domain-separated properties list with no properties displaying.](../images/ds-properties-none.png "Domain-separated properties list with no properties displaying")
+\[Omitted image "ds-properties-none.png"\] Alt text: Domain-separated properties list with no properties displaying.
 
 To display the properties, click **New** on the Properties page. In the form that creates a new domain-separated property, search in the reference field for the property you would like to override. Enter a specific prefix to narrow your search:
 
@@ -87,15 +88,15 @@ To display the properties, click **New** on the Properties page. In the form tha
 -   `sn_imt_health_testing` for Health and Safety Testing
 -   `sn_imt_tracing` for Contact Tracing
 
-![Entering a prefix in the Property field to narrow the search.](../images/ds-search-prefix.png "Entering a prefix in the Property field to narrow the search")
+\[Omitted image "ds-search-prefix.png"\] Alt text: Entering a prefix in the Property field to narrow the search.
 
 The properties display with a full description of the overrides.
 
-![System Properties list showing the property overrides.](../images/ds-prop-overrides.png "System Properties list showing the property overrides")
+\[Omitted image "ds-prop-overrides.png"\] Alt text: System Properties list showing the property overrides.
 
 After you create your domain-separated property override, the form displays the domain-separated properties.
 
-![List showing the domain-separated properties.](../images/ds-properties-list.png "List showing the domain-separated properties")
+\[Omitted image "ds-properties-list.png"\] Alt text: List showing the domain-separated properties.
 
 You can navigate back to the record form by selecting a property name in the list.
 
@@ -103,15 +104,15 @@ You can navigate back to the record form by selecting a property name in the lis
 
 Learn more about how these properties function in the following topics:
 
--   [Health and Safety Testing properties](../../health-safety-testing/task/configure-health-safety-testing.md#)
--   [Contact Tracing properties](../../contact-tracing/task/configure-contact-tracing-properties.md)
--   [System properties for tracing systems in Emergency Exposure Management](../../business-continuity/reference/list-of-tracing-system-sys-properties.md)
--   [Employee Health and Safety Status properties](../../employee-readiness-core/task/config-emp-core-properties.md)
+-   [Health and Safety Testing properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-testing/configure-health-safety-testing.md)
+-   [Contact Tracing properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/configure-contact-tracing-properties.md)
+-   [System properties for tracing systems in Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/emergency-exposure-management/list-of-tracing-system-sys-properties.md)
+-   [Employee Health and Safety Status properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-readiness-core/config-emp-core-properties.md)
 
-**Parent Topic:**[Safe Workplace](../../human-resources/concept/safe-workplace.md)
+**Parent Topic:**[Safe Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/safe-workplace.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

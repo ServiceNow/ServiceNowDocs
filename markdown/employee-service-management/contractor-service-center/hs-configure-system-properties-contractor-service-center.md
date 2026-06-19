@@ -2,6 +2,7 @@
 title: Configure system properties for Save as draft option
 description: Configure the system properties to enable the Save as draft option for some catalog item. For example, on the permit to work form or for password reset.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contractor-service-center/hs-configure-system-properties-contractor-service-center.html
 release: zurich
 product: Contractor Service Center
 classification: contractor-service-center
@@ -39,5 +40,5 @@ Role required: admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configuring Contractor Service Center](../concept/hs-configure-contractor-service-center.md)
+**Parent Topic:**[Configuring Contractor Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contractor-service-center/hs-configure-contractor-service-center.md)
 

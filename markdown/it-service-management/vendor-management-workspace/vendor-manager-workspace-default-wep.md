@@ -2,6 +2,7 @@
 title: Vendor KPI Groups in Vendor Management Workspace reference
 description: Use Vendor KPI Groups that are provided by default to analyze vendor performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/vendor-management-workspace/vendor-manager-workspace-default-wep.html
 release: zurich
 product: Vendor Management Workspace
 classification: vendor-management-workspace
@@ -107,9 +108,9 @@ The vendor score calculation is based on the weight of each indicator and the KP
 -   Average Availability \[ServiceOffering.MetricData.Availability.Daily\]
 -   Average Request Activity \[ServiceOffering.MetricData.Activity.Daily\]
 
-Therefore, if you have the Vendor Management Workspace application integrated with Service Portfolio Management, and if you are upgrading to the Service Portfolio Management standard portfolio, the metric data from the legacy indicators are no longer available. For information on Service Portfolio Management, see [Service Portfolio Management portfolios](../../service-portfolio-management2/concept/SPM2-service-portfolios.md).
+Therefore, if you have the Vendor Management Workspace application integrated with Service Portfolio Management, and if you are upgrading to the Service Portfolio Management standard portfolio, the metric data from the legacy indicators are no longer available. For information on Service Portfolio Management, see [Service Portfolio Management portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/SPM2-service-portfolios.md).
 
-You can calculate the vendor score using the indicators that have a percentage value. You can also create custom formula indicators and add them to your vendor score calculation. For more information, see [Add a formula indicator to track vendor score](../task/create-formula-indicator-vendor.md).
+You can calculate the vendor score using the indicators that have a percentage value. You can also create custom formula indicators and add them to your vendor score calculation. For more information, see [Add a formula indicator to track vendor score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/create-formula-indicator-vendor.md).
 
 This table provides an example of how a vendor score is calculated.
 
@@ -123,7 +124,7 @@ This table provides an example of how a vendor score is calculated.
 
 The total vendor score has been rounded up to 83.22%. The score is also highlighted in the header with colors that are distinct for the defined threshold values for the KPI group.
 
-**Note:** The vendor score is impacted based on whether the [direction for the indicator](https://www.servicenow.com/docs/access?context=t_CreateAnAutomatedIndicator&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US) is set to maximize or minimize. This table shows an example of how the vendor score is impacted based on the indicator direction.
+**Note:** The vendor score is impacted based on whether the direction for the indicator is set to maximize or minimize. This table shows an example of how the vendor score is impacted based on the indicator direction.
 
 <table id="table_hz2_qnj_gjb"><thead><tr><th>
 
@@ -246,5 +247,5 @@ Minimize
 **53.967%**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Vendor Management Workspace reference](vendor-manager-workspace-reference.md)
+</table>**Parent Topic:**[Vendor Management Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/vendor-manager-workspace-reference.md)
 

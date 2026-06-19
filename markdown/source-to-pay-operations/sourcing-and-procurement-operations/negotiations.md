@@ -2,6 +2,7 @@
 title: Negotiations
 description: A negotiation represents individual supplier negotiations and tracks the items and activities according to supplier. These activities involve obtaining the price for the products or services requested by the shopper, or negotiating the terms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/negotiations.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -168,7 +169,7 @@ Sourcing Requests
 
 </td><td>
 
-View and track all the sourcing requests associated with the purchase lines in the negotiation​.For details, see [Sourcing request](sourcing-request.md).
+View and track all the sourcing requests associated with the purchase lines in the negotiation​.For details, see [Sourcing request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/sourcing-request.md).
 
 </td></tr><tr><td>
 
@@ -176,7 +177,7 @@ Purchase Lines
 
 </td><td>
 
-View and track all the purchase line records within the parent purchase for the supplier referenced on the negotiation.For details, see [Purchase lines](purchase-lines.md).
+View and track all the purchase line records within the parent purchase for the supplier referenced on the negotiation.For details, see [Purchase lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/purchase-lines.md).
 
 </td></tr><tr><td>
 
@@ -184,7 +185,7 @@ Purchasing Tasks
 
 </td><td>
 
-View information on all the purchasing tasks that are related to the negotiation. For details, see [Purchasing tasks and procurement cases](purchasing-tasks.md).
+View information on all the purchasing tasks that are related to the negotiation. For details, see [Purchasing tasks and procurement cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/purchasing-tasks.md).
 
 </td></tr><tr><td>
 
@@ -200,7 +201,7 @@ Draft Contracts
 
 </td><td>
 
-View and track all the draft contracts for the supplier referenced on the negotiation. For more details, see [Contracts](contracts.md).
+View and track all the draft contracts for the supplier referenced on the negotiation. For more details, see [Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/contracts.md).
 
 </td></tr><tr><td>
 
@@ -251,11 +252,7 @@ Sent Emails
 Associated email communication that has been sent.
 
 </td></tr></tbody>
-</table>## Sourcing and negotiation workflow
-
-![Sourcing and negotiation workflow](../image/sourcing-workflow.png)
-
-## Negotiation state flows
+</table>## Negotiation state flows
 
 The status of the purchase line and the sourcing request updates automatically depending on the status of the negotiation. Negotiations are grouped by supplier.
 
@@ -279,5 +276,5 @@ The default states that are available for a negotiation are listed.
 -   Closed Rejected
 -   Closed Canceled
 
-**Parent Topic:**[Sourcing and Purchasing Automation](purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

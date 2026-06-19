@@ -2,6 +2,7 @@
 title: View the impact tree
 description: The impact tree shows the relationships between CIs and the relative percentage impact for each child CI. This information is available for both discovered services and application services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/t\_EMViewImpactTree.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -27,9 +28,7 @@ The numbers or percentages on a parent CI summarize overall severity based on al
 
 You can also learn about the impact tree from the following video tutorial.
 
-Event Management Part 2 \| Impact Tree
-
-![Impact Tree](../image/EMImpactTree.png "Impact Tree")
+\[Omitted image "EMImpactTree.png"\] Alt text: Impact Tree
 
 ## Procedure
 
@@ -52,7 +51,7 @@ Event Management Part 2 \| Impact Tree
     -   **OK \(green\)**: An alert is created. The resource is still functional.
 6.  Do one or more of the following.
 
-<table id="choicetable_rdg_w1m_35"><tbody><tr><td id="d284261e215">
+<table id="choicetable_rdg_w1m_35"><tbody><tr><td id="d269091e206">
 
 **Adjust impact rules**
 
@@ -62,7 +61,7 @@ Event Management Part 2 \| Impact Tree
 2.  Review and adjust the impact rules as necessary.
 
 
-</td></tr><tr><td id="d284261e236">
+</td></tr><tr><td id="d269091e227">
 
 **Remediate an alert**
 
@@ -75,6 +74,6 @@ Event Management Part 2 \| Impact Tree
 </td></tr></tbody>
 </table>    Network paths appearing in the impact tree can use a large amount of resources, which degrades system performance. To disable network paths from appearing in the impact tree, navigate to **System Properties** &gt; **All Properties** and set the **evt\_mgmt.network\_path\_excluded** property to **true**.
 
-    To view impact tree using Service Operations Workspace, see [View impact tree using Service Operations Workspace](../../service-operations-workspace-itom/task/view-impact-tree.md).
+    To view impact tree using Service Operations Workspace, see [View impact tree using Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/view-impact-tree.md).
 
 

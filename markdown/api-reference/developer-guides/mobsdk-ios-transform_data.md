@@ -2,6 +2,7 @@
 title: Transform data
 description: The NowData framework provides the ability to easily transform data into records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/developer-guides/mobsdk-ios-transform\_data.html
 release: zurich
 product: Developer Guides
 classification: developer-guides
@@ -15,7 +16,7 @@ breadcrumb: [Interact with table data in a ServiceNow instance, Mobile SDK Devel
 
 The NowData framework provides the ability to easily transform data into records.
 
-Using the [NowRecord](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowRecord/concept/NowRecordiOSAPI.md#) convenience structure, which contains the properties `sysId` and `fields`, you can easily transform data into a record. Whenever you obtain a `Data` wrapping `Result` or `Publisher`, you can easily transform it into a `NowRecord` wrapping `Result` or `Publisher` using the convertToRecord\(\) and convertToRecords\(\) methods. For additional information, see [NowTableService class - iOS](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowTableService/concept/NowTableServiceiOSAPI.md#).
+Using the [NowRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowRecordiOSAPI.md) convenience structure, which contains the properties `sysId` and `fields`, you can easily transform data into a record. Whenever you obtain a `Data` wrapping `Result` or `Publisher`, you can easily transform it into a `NowRecord` wrapping `Result` or `Publisher` using the convertToRecord\(\) and convertToRecords\(\) methods. For additional information, see [NowTableService class - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowTableServiceiOSAPI.md).
 
 **Note:** While NowRecord makes it very easy to quickly obtain data, depending on your use case, the Codable methods might be preferable as a strongly typed Codable structure provides more flexibility than a collection of "any" fields.
 

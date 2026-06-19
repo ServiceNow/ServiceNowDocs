@@ -2,6 +2,7 @@
 title: CEM Critical event record
 description: You can use the Critical Event Management application to create a critical event record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/critical-event-management/critical-event-record.html
 release: zurich
 product: Critical Event Management
 classification: critical-event-management

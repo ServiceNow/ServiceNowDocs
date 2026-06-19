@@ -2,6 +2,7 @@
 title: Hyperjump
 description: Hyperjump shows you a configuration as a graphic diagram.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/hyperjump.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -17,15 +18,15 @@ Hyperjump shows you a configuration as a graphic diagram.
 
 In a configurable product, you can access Hyperjump, which gives you a graphical view of the configuration.
 
-![Configurable products screen](../images/cpq-hyperjump.png)
+\[Omitted image "cpq-hyperjump.png"\] Alt text: Configurable products screen
 
 The Hyperjump view enables you to expand individual rules.
 
-![Individual rules](../images/cpq-hyperjump-rules.png)
+\[Omitted image "cpq-hyperjump-rules.png"\] Alt text: Individual rules
 
 It also lets you see field-related rules.
 
-![Field-related rules](../images/cpq-hyperjump-field-related-rules.png)
+\[Omitted image "cpq-hyperjump-field-related-rules.png"\] Alt text: Field-related rules
 
 This view gives you a look at the picklist options along with the conditions and actions that the field is part of.
 

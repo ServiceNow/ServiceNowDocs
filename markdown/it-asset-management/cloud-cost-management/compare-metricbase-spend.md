@@ -2,6 +2,7 @@
 title: Compare MetricBase data with spend data
 description: Compare MetricBase \(Clotho\) data with your Spend data for Amazon Web Services \(AWS\), Microsoft Azure, and Google Cloud Platform \(GCP\) to diagnose and troubleshoot Cloud Cost Management billing issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/compare-metricbase-spend.html
 release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -19,7 +20,7 @@ Compare MetricBase \(Clotho\) data with your Spend data for Amazon Web Services 
 
 Role required: Cloud Insights Admin \[sn\_clin\_core.insights\_admin\]
 
-Request the MetricBase \[com.snc.clotho\] plugin. For more information, see [Requesting the MetricBase product](https://www.servicenow.com/docs/access?context=request-metricbase&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+Request the MetricBase \[com.snc.clotho\] plugin. For more information, see .
 
 Verify that the Billing Download job has been completed successfully for the cloud provider.
 
@@ -86,5 +87,5 @@ If there are any errors, the **Work notes** field of this request item is update
 
 Select the **Requested Items** tab and then select the Requested Items number to navigate to the CSV file. In the Attachments section, you can find the CSV file. Download this file to analyze any mismatch in the cost values from both of the sources. You can also filter the data according to your requirements.
 
-**Parent Topic:**[Using Cloud Cost Management](../concept/using-cloud-insights.md)
+**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/using-cloud-insights.md)
 

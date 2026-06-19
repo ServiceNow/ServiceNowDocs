@@ -2,6 +2,7 @@
 title: Escalate a certification task
 description: Users with the certification\_admin role can escalate a task in the Work in Progress state. To escalate a task, the task owner identified in the Assigned to field on the task record must have an associated manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/t\_EscalateACertificationTask.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -30,7 +31,7 @@ Escalating a task:
 
 The event that triggers the escalation is named cert\_task.escalate and the email notification is named Escalation Notification. To edit the text of the email message that is sent, edit the Escalation Notification email notification directly.
 
-For more information, see [Email notifications](https://www.servicenow.com/docs/access?context=c_EmailNotifications&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For more information, see Email notifications.
 
 To escalate a certification task from the Certification Task form:
 

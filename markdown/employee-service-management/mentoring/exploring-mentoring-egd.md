@@ -2,6 +2,7 @@
 title: Exploring Mentoring
 description: The Mentoring application provides the opportunity for employees to find and build meaningful mentoring relationships to drive employee growth and engagement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/mentoring/exploring-mentoring-egd.html
 release: zurich
 product: Mentoring
 classification: mentoring
@@ -28,7 +29,7 @@ To establish a successful match, both mentors and mentees first complete compreh
 
 In the simulation below, a mentee is matched to mentors based on profile attributes, demonstrating that even with a relevant job role and validated skills, the lack of explicit intent to teach results in a lower match score.
 
-![An infographic compares three mentors matched to a mentee's skill request. It shows how matching scores drop when mentors do not explicitly list a required skill in their profile.](../image/mentorship-matching-simulation.png "Weighted Skill-Matching Simulation: Mentee to Potential Mentors")
+\[Omitted image "mentorship-matching-simulation.png"\] Alt text: An infographic compares three mentors matched to a mentee's skill request. It shows how matching scores drop when mentors do not explicitly list a required skill in their profile.
 
 The system prioritizes mentorship intent to ensure mentees are connected with both subject matter experts and willing educators. Even if a mentor is qualified in a specific area, the matching algorithm prioritizes those who have explicitly listed that topic as a skill they are eager to teach. This ensures that matches are determined not just by a mentor's capability, but by their active desire to provide guidance in a particular field.
 
@@ -40,19 +41,19 @@ You can activate the Mentoring from the ServiceNow store. This application inclu
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Configuring data
 
 Mentoring comes with optional demo data.
 
-For more information, see [Configuring mentoring](configuring-mentoring-egd.md) and [Mentoring reference](../reference/mentoring-egd-reference.md).
+For more information, see [Configuring mentoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/mentoring/configuring-mentoring-egd.md) and [Mentoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/mentoring/mentoring-egd-reference.md).
 
 ## Using Mentoring
 
 Use Mentoring to get a better understanding of your learnings. Act on items that need immediate attention, keep yourself up to date on upcoming content items, courses, and so on.
 
-For more information, see [Using Mentoring](using-mentoring-egd.md).
+For more information, see [Using Mentoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/mentoring/using-mentoring-egd.md).
 
 ## Skills Foundation integration with Mentoring
 

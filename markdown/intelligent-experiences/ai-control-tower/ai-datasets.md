@@ -1,19 +1,20 @@
 ---
 title: Datasets
-description: Explore datasets in detail with examples.
+description: Explore the datasets in detail with examples.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/ai-datasets.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2025-08-25"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Definitions of AI asset inventory, Explore, AI Control Tower, Enable AI experiences]
 ---
 
 # Datasets
 
-Explore datasets in detail with examples.
+Explore the datasets in detail with examples.
 
 A dataset is a collection of data used to train or evaluate an AI model. You can think of it as a large spreadsheet with rows representing examples and columns for features or labels. Datasets can also come in other formats, such as images, audio, or video. They help models learn patterns and decide.
 

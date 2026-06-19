@@ -2,6 +2,7 @@
 title: Cancel a playbook
 description: Cancel a playbook to stop a business workflow when no longer valid.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/cancel-playbook.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -27,20 +28,20 @@ If your playbook admin has added a cancel action to your playbook experience, yo
 
 1.  Open a playbook in workspace.
 
-2.  Click the ellipses action menu icon \(![Playbook action menu icon](../image/playbook-ellipses.png)\) in the playbook header.
+2.  Click the ellipses action menu icon \(\[Omitted image "playbook-ellipses.png"\] Alt text: Playbook action menu icon\) in the playbook header.
 
 3.  Click **Cancel Playbook**.
 
 4.  Provide a reason for canceling the playbook.
 
-    ![Cancel playbook through which you provide reason for cancellation](../image/playbook-cancel-modal.png)
+    \[Omitted image "playbook-cancel-modal.png"\] Alt text: Cancel playbook through which you provide reason for cancellation
 
 5.  Click **Cancel Playbook**.
 
     A canceled banner appears below the playbook header confirming that the playbook has been canceled.
 
-    ![Canceled banner](../image/playbook-cancel-banner.png)
+    \[Omitted image "playbook-cancel-banner.png"\] Alt text: Canceled banner
 
 
-**Parent Topic:**[Running playbooks](../concept/playbook-agents-and-fulfillers.md)
+**Parent Topic:**[Running playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
 

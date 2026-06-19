@@ -1,0 +1,47 @@
+---
+title: Configure script field types for a workspace
+description: Configure a Configurable Workspace to support script fields.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/configure-user-experiences/use-script-field-types-in-your-configurable-workspace.html
+release: zurich
+product: Configure User Experiences
+classification: configure-user-experiences
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Forms, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+---
+
+# Configure script field types for a workspace
+
+Configure a Configurable Workspace to support script fields.
+
+## Before you begin
+
+Role required: admin
+
+## Procedure
+
+1.  Navigate to `sys_properties.list`.
+
+    The entire list of properties in the System Properties \[sys\_properties\] table opens.
+
+2.  Show script fields in forms with a code editor component.
+
+    1.  Add a system property named **glide.ui.workspace.script.code\_editor.enable**.
+
+        For more information on adding system property, see Add a system property.
+
+    2.  Set the Value to **true**.
+
+    3.  Select **Submit**.
+
+3.  Configure the line number after which the scroll bar should appear for the code editor component.
+
+    1.  Add a system property named **glide.ui.workspace.script.code\_editor.autoresize\_line\_limit**.
+
+        For more information on adding system property, see Add a system property.
+
+    2.  Select **Submit**.
+
+

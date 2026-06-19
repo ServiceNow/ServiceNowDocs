@@ -2,6 +2,7 @@
 title: Create a software removal candidate in workspace
 description: Removal candidates reclaim software resources in your environment. They are created automatically from reclamation rules or can be created manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/add-sw-removal-workspace.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -325,5 +326,5 @@ Delete removal candidate.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/using-sam-workspace.md)
 

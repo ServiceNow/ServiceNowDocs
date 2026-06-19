@@ -2,6 +2,7 @@
 title: Create an NLU model using a pre-built model
 description: Use the prebuilt Natural Language Understanding \(NLU\) models in the NLU Workbench to create a new one.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/nlu-service/create-nlu-model-prebuilt.html
 release: zurich
 product: NLU Service
 classification: nlu-service
@@ -43,7 +44,7 @@ Your new model contains intents, entities, and vocabulary from the prebuilt mode
 
 6.  On the **Add some details** window, fill in the **Name** and **Short description** for the model.
 
-    ![Define details page for creating a model using a pre-built model.](../images/create-nlu-model-pre2.png)
+    \[Omitted image "create-nlu-model-pre2.png"\] Alt text: Define details page for creating a model using a pre-built model.
 
     In this example scenario, you enter `Human Resources VA Model` for the name and `Virtual Agent Model for responding to HR Requests` for the short description.
 
@@ -59,7 +60,7 @@ Your new model contains intents, entities, and vocabulary from the prebuilt mode
 
 10. Select the prebuilt model from the drop-down list.
 
-    ![Select a pre-built model screen.](../images/create-nlu-model-pre3.png)
+    \[Omitted image "create-nlu-model-pre3.png"\] Alt text: Select a pre-built model screen.
 
     In this example scenario, you select `HR NLU for VA`.
 
@@ -67,7 +68,7 @@ Your new model contains intents, entities, and vocabulary from the prebuilt mode
 
 12. On the **Select intents** screen, select the prebuilt intents to add to your model.
 
-    ![Select intents screen with several intents selected.](../images/create-nlu-model-pre4.png)
+    \[Omitted image "create-nlu-model-pre4.png"\] Alt text: Select intents screen with several intents selected.
 
     In this example scenario, you select 10 intents from the list.
 
@@ -80,9 +81,7 @@ Your new model contains intents, entities, and vocabulary from the prebuilt mode
 
 ## What to do next
 
-Add more intents and training utterances to continue building the model. Update entities and vocabulary to help the model understand inputs from your users. For more information, see [Build and train your model](../concept/managing-model-content.md).
+Add more intents and training utterances to continue building the model. Update entities and vocabulary to help the model understand inputs from your users. For more information, see [Build and train your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/managing-model-content.md).
 
-Add test utterances and intents to build the model's default test set. For more information, see [Test set creation and management](../concept/nlu-test-set-creation-management.md).
-
-**Parent Topic:**[Creating models](../concept/creating-models.md)
+Add test utterances and intents to build the model's default test set. For more information, see [Test set creation and management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/nlu-test-set-creation-management.md).
 

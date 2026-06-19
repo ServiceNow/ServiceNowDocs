@@ -2,6 +2,7 @@
 title: SkillDeterminationUtils - Scoped
 description: The SkillDeterminationUtils script include provides utility methods to get or set work item skill data.Constructor to create an instance of SkillDeterminationUtils.Assigns an array of active skill objects to a work item.Gets skills for a specified work item, indicates if the skills are mandatory, and lists any skill levels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/SkillDeterminationUtilsAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The SkillDeterminationUtils script include provides utility methods to get or se
 
 This script include requires the Skill Determination \(com.snc.skill\_determination\) plugin and is provided within the `sn_skill_rule` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## SkillDeterminationUtils - SkillDeterminationUtils\(\)
 

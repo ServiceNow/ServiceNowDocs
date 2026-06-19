@@ -2,6 +2,7 @@
 title: Cloud Discovery schedules dashboard in Cloud Discovery Workspace
 description: The Cloud Discovery schedules dashboard displays information about the selected discovery run.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/cloud-operations-discovery-schedules-dashboard.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -100,7 +101,7 @@ Resource counts from recent discovery runs
 
 </td><td>
 
-Bar chart![Bar chart.](../../../use/reporting/image/icon-bar-report-p.png)
+Bar chart\[Omitted image "icon-bar-report-p.png"\] Alt text: Bar chart.
 
 </td><td>
 
@@ -116,7 +117,7 @@ Time taken for recent discovery runs
 
 </td><td>
 
-Bar chart![Bar chart.](../../../use/reporting/image/icon-bar-report-p.png)
+Bar chart\[Omitted image "icon-bar-report-p.png"\] Alt text: Bar chart.
 
 </td><td>
 

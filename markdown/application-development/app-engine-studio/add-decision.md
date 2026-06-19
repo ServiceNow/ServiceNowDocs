@@ -2,6 +2,7 @@
 title: Add a decision
 description: Create automation for decisions in App Engine Studio \(AES\). The automation decouples decision logic from code by enabling you to create and manage decision rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/add-decision.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -17,7 +18,7 @@ Create automation for decisions in App Engine Studio \(AES\). The automation dec
 
 ## Before you begin
 
-Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](../concept/aes-app-dev-workflow.md).
+Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Procedure
 
@@ -63,7 +64,7 @@ Scopes that can use the decision table. Available values are as follows:-   **Al
 
 ## What to do next
 
-After you create the decision table, you must edit it to specify inputs and triggers. For more information on editing decision tables, see [Modify decision table structure in Workflow Studio](https://www.servicenow.com/docs/access?context=format-decision-table-in-decision-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+After you create the decision table, you must edit it to specify inputs and triggers. For more information on editing decision tables, see .
 
 <table id="table_m51_zrm_jtb-2"><thead><tr><th>
 
@@ -79,19 +80,19 @@ ServiceNow provides several additional resources on adding decisions in App Engi
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-try-a-demo.svg) [Getting started with Decision Builder YouTube video](https://www.youtube.com/watch?v=0edK6z6yFAs)
+\[Omitted image "bus-try-a-demo.svg"\] Alt text: [Getting started with Decision Builder YouTube video](https://www.youtube.com/watch?v=0edK6z6yFAs)
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-application-developer.svg) [Build my first App Engine Studio application](https://developer.servicenow.com/dev.do#!/learn/courses/vancouver/app_store_learnv2_bmfaesa_vancouver_build_my_first_app_engine_studio_application/BAP_vancouver/BAP_Objectives_BMFAESA_vancouver)
+\[Omitted image "bus-application-developer.svg"\] Alt text: [Build my first App Engine Studio application](https://developer.servicenow.com/dev.do#!/learn/courses/vancouver/app_store_learnv2_bmfaesa_vancouver_build_my_first_app_engine_studio_application/BAP_vancouver/BAP_Objectives_BMFAESA_vancouver)
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg) ServiceNow University [Introduction to App Engine Studio on-demand course](https://learning.servicenow.com/lxp?id=learning_course_prev&course_id=ae0beaabdb4e8550788d2509139619dc)
+\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: ServiceNow University [Introduction to App Engine Studio on-demand course](https://learning.servicenow.com/lxp?id=learning_course_prev&course_id=ae0beaabdb4e8550788d2509139619dc)
 
 </td></tr></tbody>
-</table>-   **[Edit a decision](edit-decision.md)**  
+</table>-   **[Edit a decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/edit-decision.md)**  
 To update or change an existing decision for an app built in App Engine Studio \(AES\), edit it in Workflow Studio.
 
-**Parent Topic:**[Add logic and automation](../concept/add-automation.md)
+**Parent Topic:**[Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-automation.md)
 

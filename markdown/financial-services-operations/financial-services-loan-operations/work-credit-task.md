@@ -2,6 +2,7 @@
 title: Work on a credit task for a loan service case
 description: Work on a credit task to review or authorize the credit for a loan customer. You can approve or reject the request based on your findings. A credit task is also used to update the covenant when you are working on a covenant breach.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-loan-operations/work-credit-task.html
 release: zurich
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
@@ -22,7 +23,7 @@ Role required:
 -   For a personal loan service task: sn\_bom\_credit\_asmt.b2c\_agent or sn\_bom\_credit\_asmt.b2b\_agent\_connector
 -   For a business loan service task: sn\_bom\_credit\_asmt.b2b\_agent or sn\_bom\_credit\_asmt.b2c\_agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -32,7 +33,7 @@ If a credit assessment is required for a loan service request, the workflow auto
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Credit Tasks**, open the task list.
 

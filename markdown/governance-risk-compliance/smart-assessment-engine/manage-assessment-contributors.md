@@ -2,6 +2,7 @@
 title: Manage assessment contributors
 description: The assessment owner can add or remove contributors to an assessment, assign them either full assessment access or section-specific access based on their responsibilities and expertise. Contributors can work simultaneously on the assessment, enabling real-time collaboration and efficient progress.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/smart-assessment-engine/manage-assessment-contributors.html
 release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -26,14 +27,14 @@ Role required: sn\_smart\_asmt.actor
     Here’s an example of how to navigate to this list in the Compliance Workspace.
 
     1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
-    2.  Select the tasks icon ![](../image/task-icon.png).
+    2.  Select the tasks icon \[Omitted image "task-icon.png"\] Alt text:.
     3.  Select the Control attestations on the left panel.
     4.  In the My pending tasks related list, the assessments are displayed.
 2.  Select the assessments in which you want to add contributors.
 
     The assessment owner and admin can add additional contributors to the assessment.
 
-3.  From the contextual sidebar, select the **Contributors** icon ![](../image/contributor-icon.png).
+3.  From the contextual sidebar, select the **Contributors** icon \[Omitted image "contributor-icon.png"\] Alt text:.
 
 4.  Select the **Manage** button.
 
@@ -55,9 +56,9 @@ Role required: sn\_smart\_asmt.actor
 
     3.  Select **Save and close**.
 
-7.  In the **Assessment assess** or **Sectional access** section, select the remove icon ![](../image/remove-user.png) next to the contributor's name you want to remove.
+7.  In the **Assessment assess** or **Sectional access** section, select the remove icon \[Omitted image "remove-user.png"\] Alt text: next to the contributor's name you want to remove.
 
-    In the **Sectional access** section, select **Assigned users** to display the remove icon ![](../image/remove-user.png).
+    In the **Sectional access** section, select **Assigned users** to display the remove icon \[Omitted image "remove-user.png"\] Alt text:.
 
 8.  Select **Save and close**.
 

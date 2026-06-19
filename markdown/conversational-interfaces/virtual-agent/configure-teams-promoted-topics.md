@@ -2,6 +2,7 @@
 title: Configure promoted topics for Conversational Integration with Microsoft Teams
 description: Configure promoted topics to push out important, common topics for users' quick consumption during a conversation with the Microsoft Teams bot. You can configure up to six different promoted topics to be displayed on the Microsoft Teams channel greeting message.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/configure-teams-promoted-topics.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -26,7 +27,7 @@ Role required: admin or va\_admin
 
 2.  In **Virtual Agent settings** under **Custom greetings and setup**, select **View All**.
 
-    The promoted topics that you have previously configured will reside in the default chat experience. For more information, see [Configure a Virtual Agent chat experience](configure-default-chat-experience.md). If default chat experience is the only row that you have on your instance, then you observe that the promoted topics will be applied to chat widget, Microsoft Teams, and Slack \(unless you configure something unique for Microsoft Teams as instructed below.\)
+    The promoted topics that you have previously configured will reside in the default chat experience. For more information, see [Configure a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-default-chat-experience.md). If default chat experience is the only row that you have on your instance, then you observe that the promoted topics will be applied to chat widget, Microsoft Teams, and Slack \(unless you configure something unique for Microsoft Teams as instructed below.\)
 
     If you want to set up unique promoted topics for Microsoft Teams that have to be different from the chat widget, follow the procedure below.
 
@@ -151,5 +152,5 @@ Start a conversation with the Microsoft Teams bot and you should be able to see 
 
 In you have not configured the promoted topics for Microsoft Teams, then the promoted topics from the default chat experience are displayed.
 
-**Parent Topic:**[Configure Virtual Agent for Microsoft Teams](configure-va-msteams-settings.md)
+**Parent Topic:**[Configure Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-va-msteams-settings.md)
 

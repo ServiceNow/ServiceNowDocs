@@ -2,6 +2,7 @@
 title: Set up External Connection in Logik
 description: Set up an External Connection in Logik by copying the Client ID and Client Secret of the Logik.ai Auth record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/set-up-external-connection-logik.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,9 +22,9 @@ Role required: admin
 
 ## Procedure
 
-1.  In Sales and Order Management, navigate to: https://&lt;service\_instance\_url&gt;/oauth\_entity.do?sys\_id=99a63a9e2baeea1001bff246f291bf57
+1.  In ServiceNow Sales CRM, navigate to `https://<service_instance_url>/oauth_entity.do?sys_id=99a63a9e2baeea1001bff246f291bf57`.
 
-    We will use the integration we created to set up an External Connection in Logik.
+    We will use the integration we created to set up an external connection in ServiceNow CPQ.
 
 2.  Copy the Client ID and Client Secret.
 

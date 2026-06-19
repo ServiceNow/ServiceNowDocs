@@ -2,6 +2,7 @@
 title: Network experience pages
 description: The Network experience pages display information about multiple facets of the network configuration. This information includes connection details, stability metrics, path metrics, and live application hops.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/network-experience-pages.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -287,5 +288,5 @@ Number of stops that data packets take when they travel from one network node or
 |RTT2|Duration in milliseconds \(ms\) that it takes for the second packet to get to a hop and back|
 |RTT3|Duration in milliseconds \(ms\) that it takes for the third packet to get to a hop and back|
 
-**Parent Topic:**[Device details pages](user-device-details-pages.md)
+**Parent Topic:**[Device details pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/user-device-details-pages.md)
 

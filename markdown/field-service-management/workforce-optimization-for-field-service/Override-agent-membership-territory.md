@@ -2,6 +2,7 @@
 title: Modify the resource membership of agents or crews associated with a territory
 description: Modify the territory membership of agents or crews to make them available to work in a territory for a certain period, set their priority when assigning tasks, or mark them as inactive.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/Override-agent-membership-territory.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -27,7 +28,7 @@ All agent and crew resources in the assignment group associated with a territory
 
 -   You can customize the membership of any resources regardless their assignment group and assignment territory.
 
--   You must activate Field Service Crew Operations plugin to view and customize crew membership. For more information, see [Activate Field Service Crew Operations](activate-fsm-crew-scheduling.md).
+-   You must activate Field Service Crew Operations plugin to view and customize crew membership. For more information, see [Activate Field Service Crew Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/activate-fsm-crew-scheduling.md).
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: Components installed with DEX Self-service
 description: Several components are installed with DEX Self-service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-self-service/components-installed-with-dex-self-service.html
 release: zurich
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service
@@ -57,7 +58,7 @@ Network health
 -   VPN connectivity
 
 </td></tr></tbody>
-</table>For category configuration information, see [Configure DEX Self-service categories and subcategories](../task/configuring-dex-self-service-categories.md).
+</table>For category configuration information, see [Configure DEX Self-service categories and subcategories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-self-service/configuring-dex-self-service-categories.md).
 
 ## Issue configurations
 
@@ -77,7 +78,7 @@ DEX Self-service provides the following base system issue configurations mapped 
 -   Zoom application crash on macOS device
 -   Zoom application crash on Windows device
 
-For more information, see [Issue configurations in DEX Self-service](issue-config-in-dex-ss.md).
+For more information, see [Issue configurations in DEX Self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-self-service/issue-config-in-dex-ss.md).
 
 ## Device actions
 

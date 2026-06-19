@@ -2,7 +2,10 @@
 title: Open a knowledge article in a sub-tab
 description: Search for a knowledge article in Agent Assist or Recommended Actions - AI Search and then open the article in a sub-tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-workspace-open-knowledge.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-08-14"
 reading_time_minutes: 1
@@ -28,7 +31,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, 
     -   In the Agent Assist tab, select an article from the default search or search for something specific using the search bar and then select an article.
     -   In the Recommended Actions - Search tab, search for the desired article and select the Search source as **Knowledge** to filter the knowledge articles.
 
-        For more information on how to enable Recommended Actions - AI Search and disable Agent Assist, see [Enable AI search in Recommended Actions](../../../product/customer-service-management/task/migrate-ra-agent-assist.md).
+        For more information on how to enable Recommended Actions - AI Search and disable Agent Assist, see [Enable AI search in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/migrate-ra-agent-assist.md).
 
 4.  View the article in the Contextual side panel.
 

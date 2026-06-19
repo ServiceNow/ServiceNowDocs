@@ -2,6 +2,7 @@
 title: WFActivityHandler - Global
 description: The WFActivityHandler script include is the base class for all workflow activities.Logs a debug message.Logs a debug message.Generates approvals and tasks before the activity runs for a preview of upcoming work.Logs an information message.Logs an information message.Evaluates activity variables in the script.Event handler for cancel event.Virtual method. Activity subclasses must override this method to perform work appropriate to the activity.Enables activities to run a script contained in an activity variable of type script.Sets the activity output property.Sets the activity result as failed with an optional reason string.Sets the result of this activity as successful.Logs a warning message.Logs a warning message.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_WFACtivityHandlerAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -19,7 +20,7 @@ As the base class for all workflow activities, this code always executes as part
 
 When developing your own workflow activities, create your script object by deriving from this class and overriding methods as necessary to get the functionality you want. Client code must override method onExecute\(\) to perform meaningful activity processing.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## WFActivityHandler - debug\(String msg, String args\)
 
@@ -51,7 +52,7 @@ Logs a debug message.
 
 Generates approvals and tasks before the activity runs for a preview of upcoming work.
 
-Enables generating objects at the start of a workflow in a **pending** state. For related information, see [Generate workflow activity](https://www.servicenow.com/docs/access?context=r_Generate&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+Enables generating objects at the start of a workflow in a **pending** state. For related information, see Generate workflow activity.
 
 <table id="table_dv2_sh5_4t" class="parameters"><thead><tr><th>
 
@@ -99,7 +100,7 @@ String
 
 </td><td>
 
-Starting time for the task or approval in [GlideDateTime](../../GlideDateTime/concept/c_GlideDateTimeAPI.md#) format.
+Starting time for the task or approval in [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideDateTimeAPI.md) format.
 
 </td></tr><tr><td>
 

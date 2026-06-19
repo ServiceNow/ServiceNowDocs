@@ -2,6 +2,7 @@
 title: Install Order Case Playbook
 description: You can install the Order Case Playbook application \(sn\_ord\_case\_pb\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/install-order-case-playbook.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

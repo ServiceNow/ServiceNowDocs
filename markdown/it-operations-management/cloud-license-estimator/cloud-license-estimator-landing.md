@@ -2,6 +2,7 @@
 title: Cloud License Estimator
 description: Cloud License Estimator enables you to get the estimated resource count for all the cloud resources that are eligible for licensing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-license-estimator/cloud-license-estimator-landing.html
 release: zurich
 product: Cloud License Estimator
 classification: cloud-license-estimator
@@ -17,15 +18,15 @@ Cloud License Estimator enables you to get the estimated resource count for all 
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about Cloud License Estimator.](explore-cloud-license-estimator.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text: Learn about Cloud License Estimator.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-license-estimator/explore-cloud-license-estimator.md)
 
 </td><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set up credentials and configure accounts.](configure-cloud-license-estimator.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Set up credentials and configure accounts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-license-estimator/configure-cloud-license-estimator.md)
 
 </td><td>
 
-[Generate Reports![](../../../reuse/icons/brand-icons/bus-learn.svg) Generate reports with Cloud License Estimator.](cle-generate-reports.md)
+[Generate Reports\[Omitted image "bus-learn.svg"\] Alt text: Generate reports with Cloud License Estimator.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-license-estimator/cle-generate-reports.md)
 
 </td></tr></tbody>
 </table>

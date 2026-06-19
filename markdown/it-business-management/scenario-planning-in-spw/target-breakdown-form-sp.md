@@ -2,6 +2,7 @@
 title: Target Breakdown form
 description: Use the Target Breakdown form to track and measure the progress of the target breakdown and its goal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/target-breakdown-form-sp.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -26,5 +27,5 @@ Use the Target Breakdown form to track and measure the progress of the target br
 |Actual|Actual value for the target breakdown.|
 |Remark|Remark entered for business justification when updating the actuals.|
 
-**Parent Topic:**[Form field information for Strategic Planning](../../alignment-planner-workspace/reference/form-field-information-for-strategic-planning.md)
+**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
 

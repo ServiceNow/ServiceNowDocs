@@ -2,6 +2,7 @@
 title: Optimize a GRC issue resolution
 description: Optimize a GRC issue resolution plan by using the Optimize GRC issue resolution agentic workflow in the Now Assist panel. This agentic workflow generates an action plan for the issue and suggests remediation tasks to resolve the issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/generate-grc-issue-resolution.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -24,7 +25,7 @@ Role required: sn\_grc\_genai.issue\_user or sn\_irm\_gen\_ai.user
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
-To modify the Optimize GRC issue resolution workflow [duplicate it](https://www.servicenow.com/docs/bundle/yokohama-intelligent-experiences/page/administer/now-assist-ai-agents/task/clone-aia-usecase.html), and adjust the settings according to your requirements. You can activate the workflow template by making the triggers active and setting the display settings to include the Now Assist panel.
+To modify the Optimize GRC issue resolution workflow duplicate it, and adjust the settings according to your requirements. You can activate the workflow template by making the triggers active and setting the display settings to include the Now Assist panel.
 
 ## Procedure
 
@@ -32,7 +33,7 @@ To modify the Optimize GRC issue resolution workflow [duplicate it](https://www.
 
 2.  Open the issue that you want to resolve by using the agentic workflow.
 
-3.  Select the Now Assist \(![Now Assist panel icon.](../image/nap-icon.png)\) icon.
+3.  Select the Now Assist \(\[Omitted image "nap-icon.png"\] Alt text: Now Assist panel icon.\) icon.
 
     The Now Assist panel is displayed.
 
@@ -76,7 +77,7 @@ If you accept the action plan, the Now Assist virtual agent can suggest remediat
 
 
 </td></tr></tbody>
-</table>    ![Now Assist panel for issue resolution.](../image/nap-issue-resolution.png)
+</table>    \[Omitted image "nap-issue-resolution.png"\] Alt text: Now Assist panel for issue resolution.
 
     In the Now Assist panel, the agent receives a notification when the interaction is generated, enabling your users to follow the on-screen instructions and complete the task.
 

@@ -2,6 +2,7 @@
 title: Process pending approvals for Policy exceptions with the GRC Mobile application
 description: Approve or reject pending policy exceptions and policy exception extension requests that are assigned to you.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/mobile-policy-exceptions.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -32,45 +33,45 @@ Time to complete this task: 5-10 minutes.
 
 ## Procedure
 
-1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the GRC Mobile application](mobile-login-P-C-app.md).
+1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/mobile-login-P-C-app.md).
 
 2.  With the Policy and Compliance landing screen displayed, tap **Policy Exceptions**.
 
     If you navigate away from the GRC Mobile application after you have logged in, tap the Now Agent app at any time to return to the last screen you had displayed.
 
-    ![Policy Exceptions applet highlighted.](../image/mobile_Policy_and_Compliance_overview-app_rd.png)
+    \[Omitted image "mobile\_Policy\_and\_Compliance\_overview-app\_rd.png"\] Alt text: Policy Exceptions applet highlighted.
 
     The Policy Exceptions screen is displayed with a list of records.
 
-    ![Policy Exceptions list.](../image/mobile-exception-list.jpg)
+    \[Omitted image "mobile-exception-list.jpg"\] Alt text: Policy Exceptions list.
 
-3.  If you want to reduce the number of records that are displayed on the screen, see [Filter records with the GRC Mobile application](mobile-pc-set-filters.md) to search for records that match specific search criteria.
+3.  If you want to reduce the number of records that are displayed on the screen, see [Filter records with the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/mobile-pc-set-filters.md) to search for records that match specific search criteria.
 
     Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform. Setting filters can reduce the number of records that are displayed on screens.
 
 4.  To edit, approve or reject, or request more information about a policy exception directly from the list of records displayed on the screen, swipe left on a record to open the menu.
 
-    ![Policy Exception swipe action.](../image/mobile-policy-exception-swip.png)
+    \[Omitted image "mobile-policy-exception-swip.png"\] Alt text: Policy Exception swipe action.
 
 5.  On the menu that is displayed, choose one from the following table to continue.
 
-<table id="choicetable_khx_51t_xhb"><thead><tr><th align="left" id="d276424e178">
+<table id="choicetable_khx_51t_xhb"><thead><tr><th align="left" id="d147381e178">
 
 Option
 
-</th><th align="left" id="d276424e181">
+</th><th align="left" id="d147381e181">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d276424e187">
+</th></tr></thead><tbody><tr><td id="d147381e187">
 
-**Tap the menu icon \(![Swipe menu icon.](../../grc-common/image/mobile-top-menu-rotated.png)\)**
+**Tap the menu icon \(\[Omitted image "mobile-top-menu-rotated.png"\] Alt text: Swipe menu icon.\)**
 
 </td><td>
 
 From the fields that are displayed, choose one to continue.-   Tap **Request more information**.
 
-In the Additional comments field, enter a comment to the user who requested the policy exception request. Your request is sent to the originator of the exception request and the extension number is included with your comment. Tap the send icon \(![Send icon.](../../grc-common/image/mobile_instances_send_droid.png)\) or **Submit** to submit your request.
+In the Additional comments field, enter a comment to the user who requested the policy exception request. Your request is sent to the originator of the exception request and the extension number is included with your comment. Tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) or **Submit** to submit your request.
 
 After your request is sent, the option to request more information is no longer available from the menu until the requester provides the information and requests approval once again. If available, tap the **Activity Stream** tab on the policy exception record and refer to the work notes for the audit trail.
 
@@ -78,74 +79,74 @@ After your request is sent, the option to request more information is no longer 
 
 **Note:** Only users from your approval group are available for the Approver field.
 
-Tap the Send icon \(![Send icon.](../../grc-common/image/mobile_instances_send_droid.png)\) or **Submit** to save and submit your changes.
+Tap the Send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) or **Submit** to save and submit your changes.
 
 -   Cancel the operation and return to the exception record list.
 
 
-</td></tr><tr><td id="d276424e251">
+</td></tr><tr><td id="d147381e251">
 
 **Approve**
 
 </td><td>
 
-In the Additional comments field, enter comments. Comments are optional for approvals. Tap the calendar icon to edit the Valid to date. Tap **OK** followed by the Send icon \(![Send icon.](../../grc-common/image/mobile_instances_send_droid.png)\) or **Submit** to save and submit your changes.
+In the Additional comments field, enter comments. Comments are optional for approvals. Tap the calendar icon to edit the Valid to date. Tap **OK** followed by the Send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) or **Submit** to save and submit your changes.
 
-</td></tr><tr><td id="d276424e272">
+</td></tr><tr><td id="d147381e272">
 
 **Reject**
 
 </td><td>
 
-In the Additional comments field, enter comments. Comments are required for rejections. Tap the Send icon \(![Send icon.](../../grc-common/image/mobile_instances_send_droid.png)\) or **Submit** to save and submit your changes.
+In the Additional comments field, enter comments. Comments are required for rejections. Tap the Send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) or **Submit** to save and submit your changes.
 
 </td></tr></tbody>
 </table>6.  To approve or reject a policy exception extension request directly from the list of records displayed on the Policy Exceptions screen after you have requested more information, swipe left on a record to open the menu.
 
-    ![Swipe menu on exception extension request.](../image/mobile-policy-ext-except-menu.png)
+    \[Omitted image "mobile-policy-ext-except-menu.png"\] Alt text: Swipe menu on exception extension request.
 
 7.  On the menu for policy extension that is displayed, choose one to continue.
 
-<table id="choicetable_rt2_ldt_xhb"><thead><tr><th align="left" id="d276424e318">
+<table id="choicetable_rt2_ldt_xhb"><thead><tr><th align="left" id="d147381e318">
 
 Option
 
-</th><th align="left" id="d276424e321">
+</th><th align="left" id="d147381e321">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d276424e327">
+</th></tr></thead><tbody><tr><td id="d147381e327">
 
 **Approve the extension**
 
 </td><td>
 
-In the Additional comments field, enter comments. Comments are optional for approvals.In the Requested extension field, tap the calendar icon to edit the date. Tap **OK** followed by the Send icon \(![Send icon.](../../grc-common/image/mobile_instances_send_droid.png)\) or **Submit** to save and submit your changes.
+In the Additional comments field, enter comments. Comments are optional for approvals.In the Requested extension field, tap the calendar icon to edit the date. Tap **OK** followed by the Send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) or **Submit** to save and submit your changes.
 
-</td></tr><tr><td id="d276424e351">
+</td></tr><tr><td id="d147381e351">
 
 **Reject the extension**
 
 </td><td>
 
-In the Additional comments field, enter comments. Comments are required for rejections. Tap the Send icon \(![Send icon.](../../grc-common/image/mobile_instances_send_droid.png)\) or **Submit** to save and submit your changes.
+In the Additional comments field, enter comments. Comments are required for rejections. Tap the Send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) or **Submit** to save and submit your changes.
 
 </td></tr></tbody>
 </table>8.  Alternatively, with the Policy Exceptions screen displayed, tap a record on the list to open it and review more details.
 
     With the fields on the record displayed, choose one in the following table to continue.
 
-    ![Policy Exception record details.](../image/mobile-exception-record.png)
+    \[Omitted image "mobile-exception-record.png"\] Alt text: Policy Exception record details.
 
-<table id="choicetable_zfb_gdt_xhb"><thead><tr><th align="left" id="d276424e393">
+<table id="choicetable_zfb_gdt_xhb"><thead><tr><th align="left" id="d147381e393">
 
 Option
 
-</th><th align="left" id="d276424e396">
+</th><th align="left" id="d147381e396">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d276424e402">
+</th></tr></thead><tbody><tr><td id="d147381e402">
 
 **Details tab**
 
@@ -157,20 +158,20 @@ If displayed, tap the **Policy** field to display a list of policies and tap an 
 
 Tap the **Control Objective** field to display a list of control objectives. Tap an item on the list to open the record.
 
--   At the top right of the screen, tap the menu icon \(![Top menu icon.](../../grc-common/image/mobile-top-menu.png)\). Approve or reject the pending policy exception request, or edit it and request more information. Follow the steps described in the preceding table. If the extension request menu is displayed, follow the steps described in the preceding table to approve or reject the extension request.
+-   At the top right of the screen, tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Top menu icon.\). Approve or reject the pending policy exception request, or edit it and request more information. Follow the steps described in the preceding table. If the extension request menu is displayed, follow the steps described in the preceding table to approve or reject the extension request.
 
 
-</td></tr><tr><td id="d276424e437">
+</td></tr><tr><td id="d147381e437">
 
 **Activity Stream tab**
 
 </td><td>
 
-With the Activity Stream tab selected, choose one to continue.-   View work notes and additional comments. Tap the plus icon ![Plus icon.](../../grc-common/image/mobile_instances_plus.png) to add a work note or attach a file.
--   At the top right of the screen, tap the menu icon \(![Top menu icon.](../../grc-common/image/mobile-top-menu.png)\). Approve or reject the pending policy exception request, or edit and request more information. Follow the steps described in the preceding table. If the extension request menu is displayed, follow the steps described in the preceding table to approve or reject the extension request.
+With the Activity Stream tab selected, choose one to continue.-   View work notes and additional comments. Tap the plus icon \[Omitted image "mobile\_instances\_plus.png"\] Alt text: Plus icon. to add a work note or attach a file.
+-   At the top right of the screen, tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Top menu icon.\). Approve or reject the pending policy exception request, or edit and request more information. Follow the steps described in the preceding table. If the extension request menu is displayed, follow the steps described in the preceding table to approve or reject the extension request.
 
 
-</td></tr><tr><td id="d276424e467">
+</td></tr><tr><td id="d147381e467">
 
 **Related Lists**
 
@@ -180,9 +181,9 @@ With the Related lists tab selected, follow these steps.
 
  1.  Tap **Impacted Controls** to view the items on the Impacted Controls related list.
 2.  On the list that is displayed, tap an item to open the record and view more details.
- At the top right of the screen, tap the menu icon \(![Top menu icon.](../../grc-common/image/mobile-top-menu.png)\). Approve or reject the pending policy exception request, or edit and request more information. Follow the steps described in the preceding table. If the extension request menu is displayed, follow the steps described in the preceding table to approve or reject the extension request.
+ At the top right of the screen, tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Top menu icon.\). Approve or reject the pending policy exception request, or edit and request more information. Follow the steps described in the preceding table. If the extension request menu is displayed, follow the steps described in the preceding table to approve or reject the extension request.
 
-</td></tr><tr><td id="d276424e500">
+</td></tr><tr><td id="d147381e500">
 
 **Screen icons at the bottom of the screen.**
 
@@ -197,5 +198,5 @@ On the bottom of the screen, choose one to continue.-   Tap the Policy and Compl
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Manage mobile experience for GRC Policy and Compliance](../concept/mobile-policy_compliance-ovrvw.md)
+**Parent Topic:**[Manage mobile experience for GRC Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/mobile-policy_compliance-ovrvw.md)
 

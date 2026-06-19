@@ -2,6 +2,7 @@
 title: Configure a PIP lifecycle event
 description: After a PIP request is initiated by a manager, a structured workflow \(a predefined lifecycle event\) auto-initiates tasks for a manager, an employee, and an ER agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/pip-act-admin.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -27,7 +28,7 @@ After a PIP request is initiated by a manager, a structured workflow \(a predefi
 
 2.  Open the Performance Improvement plan \(PIP\) life cycle event with predefined activity sets and activities.
 
-    ![Performance Improvement plan lifecycle event](../image/pip-service.png "Performance Improvement plan (PIP) lifecycle event")
+    \[Omitted image "pip-service.png"\] Alt text: Performance Improvement plan lifecycle event
 
 3.  Configure the activity set and activities as per your business use case.
 

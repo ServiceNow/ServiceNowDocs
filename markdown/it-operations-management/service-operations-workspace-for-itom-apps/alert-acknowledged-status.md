@@ -2,6 +2,7 @@
 title: Place an alert in the Acknowledged state
 description: Placing an alert into the Acknowledged state indicates that the alert has issues that need to be addressed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/alert-acknowledged-status.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -25,13 +26,13 @@ Role required: evt\_mgmt\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the navigation bar, select the Express list icon: ![Express list icon](../image/express-list1.png).
+2.  From the navigation bar, select the Express list icon: \[Omitted image "express-list1.png"\] Alt text: Express list icon.
 
 3.  Filter with **Active alerts**.
 
 4.  Select an alert.
 
-    ![Maintenance check box for an alert](../image/maintenance-check-box.png)
+    \[Omitted image "maintenance-check-box.png"\] Alt text: Maintenance check box for an alert
 
 5.  On the **Details** subtab, select the **Acknowledged** check box to place the alert into the Acknowledged state.
 

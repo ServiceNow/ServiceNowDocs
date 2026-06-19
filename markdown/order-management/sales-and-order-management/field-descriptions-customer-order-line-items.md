@@ -2,6 +2,7 @@
 title: Customer and service order line items forms
 description: The Order Line Items form enables you to select, review, and modify the captured customer or service order line items.The order line items form line item details section enables you to review and modify general details for a customer or service order line item.The Order Line Items form - dates section enables you to review and modify crucial date details for a customer order line item.The Order Line Items form - shipping address details section enables you to review and modify the shipping details for a customer order line item.The Order Line Items form - notes section enables you to review and modify the additional details for a customer order line item.The Order Line Related Items form enables you to review, create, and modify the related items for a customer order line item.OM revamp project - This table has been moved from the order-mgt-review-update-order-line-related-item.dita topic as we're deprecating that topic and removing it from the SOM bundle.The Price Adjustments tab on the order line item details enables you to review and modify manual price adjustments applied to an order line item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/field-descriptions-customer-order-line-items.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -15,7 +16,7 @@ breadcrumb: [Order Management reference, Reference, Sales Customer Relationship 
 
 The Order Line Items form enables you to select, review, and modify the captured customer or service order line items.
 
-**Parent Topic:**[Order Management reference](order-mgt-reference.md)
+**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-mgt-reference.md)
 
 ## Order Line items form - Details fields
 
@@ -85,9 +86,9 @@ State
 
 </td><td>
 
-Indicator of the current processing state for this customer order line item. Unless indicated, the service order manager manually assigns the appropriate state to the service order line item, depending on where it resides in your processing and fulfillment cycle. To view a listing of the state selections, select the down arrow icon ![](../image/field-selection-list.png). **Note:** To view a comprehensive listing of the customer order line item states with detailed descriptions, see [Order line item form states](order-mgt-state-values.md#section-cust-order-line-state).
+Indicator of the current processing state for this customer order line item. Unless indicated, the service order manager manually assigns the appropriate state to the service order line item, depending on where it resides in your processing and fulfillment cycle. To view a listing of the state selections, select the down arrow icon \[Omitted image "field-selection-list.png"\] Alt text:. **Note:** To view a comprehensive listing of the customer order line item states with detailed descriptions, see [Order line item form states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-mgt-state-values.md).
 
-For service order line item states, see [Service order states](service-order-mgt-state-values.md).
+For service order line item states, see [Service order states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/service-order-mgt-state-values.md).
 
 </td></tr><tr><td>
 
@@ -132,7 +133,7 @@ Type of action that is taking place in the order line item. Options include:
 -   Resume
 -   No change
 
- For more information, see [Action types for customer and service orders](../concept/order-mgt-customer-order-types.md).
+ For more information, see [Action types for customer and service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-mgt-customer-order-types.md).
 
 </td></tr><tr><td>
 
@@ -347,8 +348,8 @@ Comments / Work notes \(Private\)
 
 Free-form comment or private work note text:
 
--   Select the comments icon ![](../image/comments-compose.png) to enter the comment text for the order line item so that everyone, including the customer, can see. Enter the comment text, and then select **Post Comments**.
--   Select the work notes \(private\) icon ![](../image/work-notes-private-compose.png) to enter the work note text for internal purposes only so that the customer can't see it. Enter the work note text, and then select **Post Work notes \(Private\)**.
+-   Select the comments icon \[Omitted image "comments-compose.png"\] Alt text: to enter the comment text for the order line item so that everyone, including the customer, can see. Enter the comment text, and then select **Post Comments**.
+-   Select the work notes \(private\) icon \[Omitted image "work-notes-private-compose.png"\] Alt text: to enter the work note text for internal purposes only so that the customer can't see it. Enter the work note text, and then select **Post Work notes \(Private\)**.
 
 </td></tr><tr><td>
 
@@ -358,9 +359,9 @@ Activity
 
 Listing of the processing activities, and changes in field values, that have taken place for the order and order line item. This activity includes the messages that indicate the approval of the order for processing and fulfillment. To expand, collapse, or filter by activity stream, do one of the following actions:
 
--   Select the activity stream filter icon ![](../image/activity-stream-filter.png) to filter by post types, field changes, or flagged items.
--   Select the search icon ![](../image/field-search.png) to search the required information in the activity stream.
--   Select the sort descending icon ![](../../../reuse/icons/product-icons/sort-descending-outline-24.svg) to sort the activity from oldest to newest or select the sort ascending icon ![](../../../reuse/icons/product-icons/sort-ascending-fill-24.svg) for the opposite action.
+-   Select the activity stream filter icon \[Omitted image "activity-stream-filter.png"\] Alt text: to filter by post types, field changes, or flagged items.
+-   Select the search icon \[Omitted image "field-search.png"\] Alt text: to search the required information in the activity stream.
+-   Select the sort descending icon \[Omitted image "sort-descending-outline-24.svg"\] Alt text: to sort the activity from oldest to newest or select the sort ascending icon \[Omitted image "sort-ascending-fill-24.svg"\] Alt text: for the opposite action.
 
 </td></tr><tr><td>
 

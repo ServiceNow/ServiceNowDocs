@@ -2,6 +2,7 @@
 title: View recent activity
 description: Review your recent learning activity with easy access to your assigned, saved, shared with, and history tabs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/view-recent-activity-lxp.html
 release: zurich
 product: Learning Core
 classification: learning-core

@@ -2,6 +2,7 @@
 title: Use the Change Approval Policy workflow activity
 description: Apply your Change Policy in your Change Request workflow to manage the approvals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/use-change-policy-wf-activity.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -40,5 +41,5 @@ Role required: admin
 7.  Click **Update**.
 
 
-**Parent Topic:**[Creating change approval policies](../concept/using-change-approval-policies-cf.md)
+**Parent Topic:**[Creating change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/using-change-approval-policies-cf.md)
 

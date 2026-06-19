@@ -2,6 +2,7 @@
 title: Select the parent instance
 description: An instance can have multiple peer instances but only one parent instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/t\_SelectTheParentInstance.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -48,5 +49,5 @@ Don’t use Team Development with production or test instances. When you back ou
     **Note:** The parent instance is saved in the glide.apps.hub.current system property.
 
 
-**Parent Topic:**[Building an instance hierarchy](../concept/c_InstanceHierarchies.md)
+**Parent Topic:**[Building an instance hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_InstanceHierarchies.md)
 

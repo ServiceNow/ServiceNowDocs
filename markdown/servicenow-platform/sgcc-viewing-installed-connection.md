@@ -2,6 +2,7 @@
 title: Viewing connections for a Service Graph Connector in SGC Central
 description: You can view installed and draft connections that were added using Service Graph Connectors within the SGC Central view of the Service Graph Workspace or CMDB Workspace.View the details of an installed connection that was added using a Service Graph Connector within the SGC Central view of the Service Graph Workspace or CMDB Workspace.View the details and resume setting up draft connections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/sgcc-viewing-installed-connection.html
 release: zurich
 topic_type: concept
 last_updated: "2026-03-06"
@@ -15,8 +16,8 @@ You can view installed and draft connections that were added using Service Graph
 
 The following connection types are available for viewing:
 
--   Installed connection \(see [View an installed connection in SGC Central](sgcc-viewing-installed-connection.md#).\)
--   Draft connection \(see [View a draft connection in SGC Central](sgcc-viewing-installed-connection.md#).\)
+-   Installed connection \(see [View an installed connection in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/sgcc-viewing-installed-connection.md).\)
+-   Draft connection \(see [View a draft connection in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/sgcc-viewing-installed-connection.md).\)
 
 ## View an installed connection in SGC Central
 

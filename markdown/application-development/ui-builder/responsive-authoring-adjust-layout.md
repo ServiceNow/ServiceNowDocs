@@ -2,6 +2,7 @@
 title: Adjust layout for responsive authoring
 description: When creating pages with responsive authoring for different form factors, learn how to adjust the layout to improve the look and feel of the page at smaller sizes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/responsive-authoring-adjust-layout.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -29,7 +30,7 @@ Most column layout options on the property pane can be edited for different form
 -   **Stack columns below \(pixels\)** option
 -   All options under **Accessibility**
 
-![Column layout properties pane with black arrows pointing to the options that cannot be set by form factor.](../image/responsive-author-column-layout.png)
+\[Omitted image "responsive-author-column-layout.png"\] Alt text: Column layout properties pane with black arrows pointing to the options that cannot be set by form factor.
 
 ## Procedure
 
@@ -37,15 +38,15 @@ Most column layout options on the property pane can be edited for different form
 
 2.  Open an experience to work in or create an experience by selecting **Create &gt; Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create a page from scratch with responsive authoring.
 
-    For more information about how to create a page, see [Create a page in UI Builder](create-page.md).
+    For more information about how to create a page, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/create-page.md).
 
 4.  At the top, check that the desktop form factor icon is selected.
 
-    ![Black arrow pointing to desktop form factor icon at the top of a UI Builder page in editor view.](../image/responsive-author-icon-desktop.png)
+    \[Omitted image "responsive-author-icon-desktop.png"\] Alt text: Black arrow pointing to desktop form factor icon at the top of a UI Builder page in editor view.
 
 5.  On the stage, select **+ Add content**.
 
@@ -61,7 +62,7 @@ Most column layout options on the property pane can be edited for different form
 
 8.  In the configuration panel, on the **Configure** tab, edit the name of the first tab by selecting the edit icon.
 
-    ![Configure tab with black arrow pointing to tab edit icon.](../image/responsive-author-layout1.png)
+    \[Omitted image "responsive-author-layout1.png"\] Alt text: Configure tab with black arrow pointing to tab edit icon.
 
 9.  In **Tab label**, enter `Tab 1`.
 
@@ -79,7 +80,7 @@ Most column layout options on the property pane can be edited for different form
 
     4.  Check that **Tab ID** has been automatically filled in with **tab\_2**.
 
-        ![Configuration panel with configure tab displayed and black arrow pointing to the label field.](../image/responsive-author-layout2.png)
+        \[Omitted image "responsive-author-layout2.png"\] Alt text: Configuration panel with configure tab displayed and black arrow pointing to the label field.
 
     5.  Select **Create**.
 
@@ -89,13 +90,13 @@ Most column layout options on the property pane can be edited for different form
 
 15. Select the tablet form factor icon.
 
-    ![Black arrow pointing to tablet form factor icon at the top of a UI Builder page in editor view.](../image/responsive-author-icon-tablet.png)
+    \[Omitted image "responsive-author-icon-tablet.png"\] Alt text: Black arrow pointing to tablet form factor icon at the top of a UI Builder page in editor view.
 
     The spacing and position of the tabs looks good at tablet width.
 
 16. Select the mobile form factor icon.
 
-    ![Black arrow pointing to mobile form factor icon at the top of a UI Builder page in editor view.](../image/responsive-author-icon-mobile.png)
+    \[Omitted image "responsive-author-icon-mobile.png"\] Alt text: Black arrow pointing to mobile form factor icon at the top of a UI Builder page in editor view.
 
     The tabs take more space at the smaller size.
 
@@ -105,7 +106,7 @@ Most column layout options on the property pane can be edited for different form
 
     2.  On the configuration panel, in **Direction**, select the row icon.
 
-        ![Configuration panel for column 1 with black arrow pointing to row icon for direction option.](../image/responsive-author-layout7.png)
+        \[Omitted image "responsive-author-layout7.png"\] Alt text: Configuration panel for column 1 with black arrow pointing to row icon for direction option.
 
     3.  Select **Save**.
 
@@ -122,5 +123,5 @@ Most column layout options on the property pane can be edited for different form
 21. Select the **X** to close the **Preview** overlay.
 
 
-**Parent Topic:**[Responsive authoring](../concept/responsive-authoring.md)
+**Parent Topic:**[Responsive authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/responsive-authoring.md)
 

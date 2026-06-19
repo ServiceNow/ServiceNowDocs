@@ -2,6 +2,7 @@
 title: Update a fallout record
 description: Review the detailed information for a selected fallout record to verify that the information is correct and complete. You can change the fallout type, state, or priority. You can even assign it to a specific person to follow up on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/review-update-selected-order-fallout-records.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -27,7 +28,7 @@ If you have a fallout agent role, you can change the state of the fallout record
 
 1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Fallouts** &gt; **All**.
 
@@ -37,10 +38,10 @@ If you have a fallout agent role, you can change the state of the fallout record
 
 5.  On the Fallout form, update the required fields.
 
-    For information about field descriptions, see the Fallout workspace fields section in [Fallout form fields](../reference/fields-create-fallout-form.md).
+    For information about field descriptions, see the Fallout workspace fields section in [Fallout form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/fields-create-fallout-form.md).
 
 6.  Select **Save**.
 
 
-**Parent Topic:**[Managing order fallout](../concept/fallout-management-overview.md)
+**Parent Topic:**[Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/fallout-management-overview.md)
 

@@ -2,6 +2,7 @@
 title: Enable or disable Health Log Analytics system features
 description: Customize the basic configuration of Health Log Analytics by enabling or disabling system features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-features-configure.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics

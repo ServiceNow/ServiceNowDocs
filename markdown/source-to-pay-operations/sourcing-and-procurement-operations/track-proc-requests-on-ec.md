@@ -2,13 +2,14 @@
 title: Tracking your procurement requests in Employee Center
 description: As a shopper, you can enjoy complete visibility into the progress of your requests by tracking your procurement cases in Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/track-proc-requests-on-ec.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Sourcing and Procurement Operations integration with Employee Center, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Sourcing Procurement Operations integration Employee, Integrate Sourcing Procurement Operations other, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Tracking your procurement requests in Employee Center
@@ -27,9 +28,9 @@ For your shoppers to view the complete list of steps on procurement cases or req
 
 For more information on these playbooks available on Source-to-Pay Workspace, see:
 
--   [Process a purchase order edit in playbook](../task/process-purchase-order.md)
--   [Process a purchase requisition edit request in playbook](../task/playbook-edit-request-flow.md)
--   [Process a return request in playbook](../task/playbook-return-request.md)
+-   [Process a purchase order edit in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/process-purchase-order.md)
+-   [Process a purchase requisition edit request in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/playbook-edit-request-flow.md)
+-   [Process a return request in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/playbook-return-request.md)
 
-**Parent Topic:**[Sourcing and Procurement Operations integration with Employee Center](employee-center-integration-psm.md)
+**Parent Topic:**[Sourcing and Procurement Operations integration with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/employee-center-integration-psm.md)
 

@@ -2,6 +2,7 @@
 title: Discussion series form
 description: Career Conversations administrators create conversations that are used by managers and employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/career-conversations/egd-activities-conversations-form.html
 release: zurich
 product: Career Conversations
 classification: career-conversations
@@ -106,5 +107,5 @@ Select the table containing the data that you want to use.This field appears onl
 Select the record you want to use from the table you specified in the **Table name** field.This field appears only when the **Conversation type** field is set to **Mentoring Conversations**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Career Conversations reference](../concept/egd-activities-reference.md)
+</table>**Parent Topic:**[Career Conversations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/career-conversations/egd-activities-reference.md)
 

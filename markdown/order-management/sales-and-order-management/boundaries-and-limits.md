@@ -2,6 +2,7 @@
 title: Boundaries and limits
 description: View a list of boundaries and limits in ServiceNow CPQ.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/boundaries-and-limits.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -73,5 +74,5 @@ ZIP files over 75 MB cannot be imported.
 
 500 fields can be automatically loaded when the Layout Wizard is initialized. Additional fields must be added manually via the Add Field menu.
 
-**Parent Topic:**[ServiceNow CPQ reference](../reference/servicenow-cpq-reference.md)
+**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/servicenow-cpq-reference.md)
 

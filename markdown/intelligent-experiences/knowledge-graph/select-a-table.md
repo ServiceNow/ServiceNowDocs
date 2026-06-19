@@ -2,6 +2,7 @@
 title: Select multiple tables
 description: Choose one or multiple nodes to view in the Enterprise graph canvas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/knowledge-graph/select-a-table.html
 release: zurich
 product: Knowledge Graph
 classification: knowledge-graph
@@ -27,7 +28,7 @@ Role required: admin
 
     Choose up to 200 nodes to customize your view. Once you select a node, all the related edges will also be selected.
 
-    ![Select tables in Enterprise Graph](../Images/multiple_tables_EG.png)
+    \[Omitted image "multiple\_tables\_EG.png"\] Alt text: Select tables in Enterprise Graph
 
 2.  Select a group using the **By Tag** or **By Application** search bar.
 

@@ -2,6 +2,7 @@
 title: LDAP record synchronization
 description: Administrators can synchronize inactive, disabled, or deleted LDAP records with their LDAP records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/ldap-integration/c\_LDAPRecordSynchronization.html
 release: zurich
 product: LDAP integration
 classification: ldap-integration
@@ -25,5 +26,5 @@ A data indicator can be:
 
 Imported data comes into the instance through import set tables where the data can be evaluated and processed.
 
-The import process can use [LDAP refresh filters](../reference/r_LDAPRefreshFilters.md)on multiple import jobs to divide different types of user records and segregarte records for separate processing.
+The import process can use [LDAP refresh filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/ldap-integration/r_LDAPRefreshFilters.md)on multiple import jobs to divide different types of user records and segregarte records for separate processing.
 

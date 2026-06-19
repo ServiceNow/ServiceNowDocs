@@ -2,6 +2,7 @@
 title: ScriptableFlowRunnerResult - Scoped
 description: Captures the result of using ScriptableFlowRunner to execute a flow, subflow, or action. Includes data such as the context ID, domain, and any outputs from the flow execution.Returns information about the executed flow, subflow, or action, including the context ID, domain ID, and execution outputs.Returns the context ID of the flow, subflow, or action.Returns the date and time when a Workflow Studio action, flow, or subflow ran as a GlideDateTime object.Returns the stream of data from a data stream action.Returns the sys\_id of the domain that the Workflow Studio action, flow, or subflow ran in.Returns the type of Workflow Studio object run.Returns the scope and internal name of the Workflow Studio action, flow, or subflow run.Returns the outputs of a completed Workflow Studio action, flow, or subflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/ScriptableFlowRunnerResultScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -75,7 +76,7 @@ This example shows how to create a ScriptableFlowRunner builder object and uses 
    
 ```
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## ScriptableFlowRunnerResult - debug\(\)
 
@@ -210,9 +211,9 @@ Output:
 
 Returns the stream of data from a data stream action.
 
-If the datastream\(\) method was used in the ScriptableFlowRunner builder class, this returns the stream of data as a ScriptableDataStream object. Use the ScriptableDataStream class to iterate over items in the stream. See [ScriptableDataStream](../../ScriptableDataStream/concept/ScriptableDataStreamAPI.md#).
+If the datastream\(\) method was used in the ScriptableFlowRunner builder class, this returns the stream of data as a ScriptableDataStream object. Use the ScriptableDataStream class to iterate over items in the stream. See [ScriptableDataStream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ScriptableDataStreamAPI.md).
 
-For more information about data stream actions, see [Data Stream actions and pagination](https://www.servicenow.com/docs/access?context=data-stream-actions&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+For more information about data stream actions, see Data Stream actions and pagination.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -220,7 +221,7 @@ For more information about data stream actions, see [Data Stream actions and pag
 
 |Type|Description|
 |----|-----------|
-|ScriptableDataStream|A ScriptableDataStream object you can use to iterate through items in a data stream. Use the methods in the ScriptableDataStream class to interact with this object. See [ScriptableDataStream](../../ScriptableDataStream/concept/ScriptableDataStreamAPI.md#).|
+|ScriptableDataStream|A ScriptableDataStream object you can use to iterate through items in a data stream. Use the methods in the ScriptableDataStream class to interact with this object. See [ScriptableDataStream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ScriptableDataStreamAPI.md).|
 
 This example shows how to retrieve a data stream from a ScriptableFlowRunnerResult object.
 

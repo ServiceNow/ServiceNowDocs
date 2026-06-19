@@ -2,7 +2,10 @@
 title: Assign a Core Business Suite admin role to a user
 description: Grant administrative permissions for the Core Business Suite application and provide full access to configure its underlying services by assigning users a Core Business Suite admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/core-business-suite/cbs-admin-role.html
 release: zurich
+product: Core Business Suite
+classification: core-business-suite
 topic_type: task
 last_updated: "2025-11-20"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ Grant administrative permissions for the Core Business Suite application and pro
 
 ## Before you begin
 
-Ensure that a user record exists for the user to whom you want to add the role. For information about how to add a new user, see [Create a user](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Ensure that a user record exists for the user to whom you want to add the role. For information about how to add a new user, see .
 
 Role required: admin
 

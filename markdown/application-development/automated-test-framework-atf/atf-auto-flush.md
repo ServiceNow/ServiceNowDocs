@@ -2,6 +2,7 @@
 title: Autoflush form
 description: On the Auto Flush form, you specify a retention policy for a set of records on a given test results table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/atf-auto-flush.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -25,7 +26,7 @@ On the Auto Flush form, you specify a retention policy for a set of records on a
 |Cascade delete|If checked, the system deletes all matching records plus any records referring to them. If unchecked, the system deletes matching records, but not records referring to them.|
 |Conditions|The filter conditions defining the records in this table to which the policy applies.|
 
-**Note:** Table cleanup policies are platform-specific policies. See [Table cleaner](https://www.servicenow.com/docs/access?context=table-cleaner&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) for more information.
+**Note:** Table cleanup policies are platform-specific policies. See Table cleaner for more information.
 
-**Parent Topic:**[Table cleanup](../concept/table-cleanup.md)
+**Parent Topic:**[Table cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/table-cleanup.md)
 

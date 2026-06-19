@@ -1,0 +1,106 @@
+---
+title: Zurich Patch 9 Hotfix 2
+description: The Zurich Patch 9 Hotfix 2 release contains fixes to these problems.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/zurich-patch-9-hf-2-PO.html
+release: zurich
+product: Release Notes
+classification: release-notes
+topic_type: reference
+last_updated: "2026-06-09"
+reading_time_minutes: 2
+breadcrumb: [Available patches and hotfixes, Learn about the Zurich release, Zurich release notes]
+---
+
+# Zurich Patch 9 Hotfix 2
+
+The Zurich Patch 9 Hotfix 2 release contains fixes to these problems.
+
+-   **Build information:**
+
+    Build date: 06-05-2026\_1122
+
+    Build tag: glide-zurich-07-01-2025\_\_patch9-hotfix2-05-29-2026
+
+
+**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/upgrade.md).
+
+For more information about the release cycle, see the [ServiceNow Release Cycle](https://support.servicenow.com/kb_view.do?sysparm_article=KB0547244).
+
+**Note:** This ServiceNow AI Platform® major family release is now available in ServiceNow's Regulated Market environments. For more information about services available in isolated environments, see [KB0743854](https://support.servicenow.com/kb_view.do?sysparm_article=KB0743854).
+
+## Fixed problem
+
+<table id="all-other-fixes"><thead><tr><th>
+
+Problem
+
+</th><th>
+
+Short description
+
+</th><th>
+
+Description
+
+</th><th>
+
+Steps to reproduce
+
+</th></tr></thead><tbody><tr><td>
+
+AI Agents \(Glide Family\)
+
+ PRB2025859
+
+</td><td>
+
+The OffGlideScriptObject.generateAuthorizationInfo API creates JSON Web Tokens \(JWT\) with current session users
+
+</td><td>
+
+The API sn\_cs\_offglide.OffGlideScriptObject.generateAuthorizationInfo\(\) creates JWT with current user sessions, even though the userID value is passed in the request.
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Virtual Agent
+
+ PRB2031950
+
+</td><td>
+
+AI-user fetch issue
+
+</td><td>
+
+The conversation user for the ZTSD flow is AI L1 Service Desk Specialist, which is the identity type ai\_agent. The cache configuration get\_user\|table:\{table\}\|field:\{field\}\|value:\{value\} explicitly ignores users of type 'ai\_agent'.
+
+</td><td>
+
+Perform a cache fetch call for the cache key 'get\_user\|table:\{table\}\|field:\{field\}\|value:\{value\}' for any user of the identity type 'ai\_agent'.
+
+ See that it doesn't return the **User** field value.
+
+</td></tr></tbody>
+</table>## Fixes included
+
+Unless any exceptions are noted, you can safely upgrade to this release version from any of the versions listed below. These prior versions contain PRB fixes that are also included with this release. Be sure to upgrade to the latest listed patch that includes all of the PRB fixes you are interested in.
+
+-   [Zurich Patch 9 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-9-hf-1.md)
+-   [Zurich Patch 8](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-8.md)
+-   [Zurich Patch 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-7.md)
+-   [Zurich Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-6.md)
+-   [Zurich Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-5.md)
+-   [Zurich Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-4.md)
+-   [Zurich Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-3.md)
+-   [Zurich Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-2.md)
+-   [Zurich Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1.md)
+-   [Zurich security and notable fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-security-notables.md)
+-   [All other Zurich fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-all-other-fixes.md)
+
+**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/available-versions.md)
+

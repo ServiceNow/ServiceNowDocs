@@ -2,6 +2,7 @@
 title: CIUtils - Global
 description: The CIUtils script include is a utility class that provides methods for working with configuration items \(CI\).Determines which business services are affected by the specific configuration item \(CI\).Determines which business services are affected by the specified task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_CIUtilsAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -21,7 +22,7 @@ The maximum number of items returns is 1000. You can override this value by modi
 
 The CIUtils class is available to server-side scripts.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## CIUtils - servicesAffectedByCI\(String CI\_sys\_id\)
 

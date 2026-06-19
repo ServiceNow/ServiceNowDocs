@@ -2,6 +2,7 @@
 title: Suspend an entitlement
 description: Suspend an entitlement by creating an order on the CSM Configurable Workspace. By suspending an entitlement, you are suspending or disabling the services and characteristics associated with that entitlement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cce-suspend-entitlement.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -37,7 +38,7 @@ Role required: sn\_customerservice\_manager and sn\_ind\_tmt\_orm.order\_agent
 
 6.  In the Suspend entitlement window, enter the period of suspension for the entitlement in the **Start date and time** and the **End date and time** field.
 
-    **Note:** If you do not enter a value in the **End date and time**, the entitlement will be suspended You can resume the entitlement manually by using the resume option. For more info, see [Resume an entitlement](cce-resume-entitlement.md).
+    **Note:** If you do not enter a value in the **End date and time**, the entitlement will be suspended You can resume the entitlement manually by using the resume option. For more info, see [Resume an entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/cce-resume-entitlement.md).
 
 7.  Add a reason for a suspension in the **Reason for suspension** field.
 
@@ -54,5 +55,5 @@ Role required: sn\_customerservice\_manager and sn\_ind\_tmt\_orm.order\_agent
 
 If you specify an end date and time, a resume order line item is created as a part of the same order. After this period of suspension, the entitlement will be in Active state again. After the end date of the entitlement, the suspended entitlement will move to Expired state.
 
-**Parent Topic:**[Using Contracts and Entitlements Workflows](../concept/using-customer-cnt-ent-wf.md)
+**Parent Topic:**[Using Contracts and Entitlements Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/using-customer-cnt-ent-wf.md)
 

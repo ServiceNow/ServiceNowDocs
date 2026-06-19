@@ -2,6 +2,7 @@
 title: Personalize Hierarchy view
 description: Personalize the Hierarchy tab view in the Planning page of Strategic Planning Workspace so that you can view the information that is most relevant to you and your stakeholders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/personalize-hierarchy-view.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -18,7 +19,7 @@ Personalize the Hierarchy tab view in the Planning page of Strategic Planning Wo
 
 ## Before you begin
 
-[Create a portfolio plan](../../alignment-planner-workspace/task/create-portfolio-plans-in-alignment-planner-workspace.md).
+[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md).
 
 Role required: sn\_align\_core.apw\_user
 
@@ -36,11 +37,11 @@ Personalization preferences are saved as the portfolio plan's settings in Strate
 
 3.  Personalize the timeline view and the columns on the grid view using the Personalize side panel.
 
-    1.  Select the Personalize icon \(![Personalize icon.](../../project-workspace/image/icon-settings.png)\).
+    1.  Select the Personalize icon \(\[Omitted image "icon-settings.png"\] Alt text: Personalize icon.\).
 
         The personalize side panel opens.
 
-        ![Personalize settings in the Hierarchy view](../images/hierarchy.png)
+        \[Omitted image "hierarchy.png"\] Alt text: Personalize settings in the Hierarchy view
 
     2.  From the Timeline section, toggle the display of item names and dependency lines.
 
@@ -57,5 +58,5 @@ Personalization preferences are saved as the portfolio plan's settings in Strate
 5.  Apply filters to the data shown in Prioritization.
 
 
-**Parent Topic:**[Personalizing views for prioritization](../concept/personalize-prioritization-page-in-strategic-planinng-workspace.md)
+**Parent Topic:**[Personalizing views for prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/personalize-prioritization-page-in-strategic-planinng-workspace.md)
 

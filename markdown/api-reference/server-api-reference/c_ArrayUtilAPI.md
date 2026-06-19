@@ -2,6 +2,7 @@
 title: ArrayUtil - Global
 description: The ArrayUtil script include provides methods for working with JavaScript arrays.Merge two arrays.Searches the array for the specified element. Returns true if the element exists in the array, otherwise returns false.Converts a Java object to an array.Finds the differences between two or more arrays.Returns an array from the specified object.Searches the array for the element. Returns the element index or -1 if not found.Searches the array for the element starting at the specified index. Returns the element index or -1 if not found.Finds the elements present in all arrays.Merge two or more arrays.Removes duplicate items from an array.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_ArrayUtilAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The ArrayUtil script include provides methods for working with JavaScript arrays
 
 These methods are available to any server-side script.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## ArrayUtil - concat\(Array parent, Array child\)
 

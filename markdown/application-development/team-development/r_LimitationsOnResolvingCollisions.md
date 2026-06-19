@@ -2,6 +2,7 @@
 title: Limitations on updating records
 description: There are some types of records that you can’t merge while resolving differences on the Compare to Current and Resolve Collision pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/r\_LimitationsOnResolvingCollisions.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -120,5 +121,5 @@ The following field types don’t support individual merging between versions or
 |WMS Job|wms\_job|
 |Workflow|workflow|
 
-**Parent Topic:**[Team Development Reference](team-development-reference.md)
+**Parent Topic:**[Team Development Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/team-development-reference.md)
 

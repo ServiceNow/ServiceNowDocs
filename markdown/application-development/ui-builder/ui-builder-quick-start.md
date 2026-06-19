@@ -2,6 +2,7 @@
 title: UI Builder quick start
 description: This quick start guides you through the process of creating your first page in UI Builder. Creating your first page is the first step in understanding how to build user interface pages for your workspace or custom portal experiences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/ui-builder-quick-start.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -22,8 +23,8 @@ Role required: ui\_builder\_admin
 In this UI Builder quick start, you perform the following tasks to build your first page in UI Builder:
 
 -   Start UI Builder.
--   Create a page for your workspace or custom portal experience. For more information about creating pages, see [Create a page in UI Builder](create-page.md).
--   Build your page by adding components. For more information about components, see [Customize UI Builder pages using components](../concept/work-components.md).
+-   Create a page for your workspace or custom portal experience. For more information about creating pages, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/create-page.md).
+-   Build your page by adding components. For more information about components, see [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-components.md).
 -   Save your page.
 -   Preview your page to see how it looks in a browser.
 
@@ -33,21 +34,21 @@ In this UI Builder quick start, you perform the following tasks to build your fi
 
 2.  Select an experience that you want to work in from the UI Builder home page.
 
-    If you don’t see any experiences listed in which to work, contact your administrator to get access to an experience, or create an experience. For more information, see [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md).
+    If you don’t see any experiences listed in which to work, contact your administrator to get access to an experience, or create an experience. For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md).
 
 3.  Create a page.
 
     1.  Select the **+** icon in the **Pages** section.
 
-        ![Create page button on the experience view page.](../image/create-page-icon.png)
+        \[Omitted image "create-page-icon.png"\] Alt text: Create page button on the experience view page.
 
     2.  Select **Create a new page**.
 
     3.  Select **→ Create from scratch instead**.
 
-        ![Create a blank page by selecting Create from scratch instead.](../image/page-create-blank.png)
+        \[Omitted image "page-create-blank.png"\] Alt text: Create a blank page by selecting Create from scratch instead.
 
-        You can also create pages using page templates, see [Create a page from a template](reuse-page-definitions.md) for more information.
+        You can also create pages using page templates, see [Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/reuse-page-definitions.md) for more information.
 
     4.  Enter `Start Page` as the unique name for the page in the **Name** field.
 
@@ -55,13 +56,13 @@ In this UI Builder quick start, you perform the following tasks to build your fi
 
         A default path is added based on your page name. You can also create your own path. The path is required and must be unique. The path can include digits \(0-9\), letters \(A-Z, a-z\), and a few special characters \(`"-"`, `"."`, `"_"`, `"~"`\), with the words separated by a forward slash or hyphen. The **URL preview** shows the path of your page.
 
-        **Note:** The application scope defaults to the scope that the user is currently in within the ServiceNow AI Platform®. For more information about the application scope, see [Learn about security and roles](security-roles.md).
+        **Note:** The application scope defaults to the scope that the user is currently in within the ServiceNow AI Platform®. For more information about the application scope, see [Learn about security and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/security-roles.md).
 
     6.  Select **Continue**.
 
     7.  Add parameters to your page URL by selecting **+ Add**.
 
-        For more information, see [Manage UI Builder pages and page variants](../concept/work-pages.md).
+        For more information, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-pages.md).
 
     8.  Select **Looks good**.
 
@@ -83,7 +84,7 @@ In this UI Builder quick start, you perform the following tasks to build your fi
 
 4.  Select **Editor** to start adding customizing your page.
 
-    ![Arrow pointing to the page editor link.](../image/select-page-editor.png)
+    \[Omitted image "select-page-editor.png"\] Alt text: Arrow pointing to the page editor link.
 
 5.  Add a container component to your page.
 
@@ -91,39 +92,39 @@ In this UI Builder quick start, you perform the following tasks to build your fi
 
     1.  Select **+ Add content** in the content tree.
 
-        ![Pointer selecting +Add content in the content tree.](../image/qs-add-component.png)
+        \[Omitted image "qs-add-component.png"\] Alt text: Pointer selecting +Add content in the content tree.
 
     2.  Select the **Single column** layout in the toolbox.
 
     3.  Select **Column layout 1** in the content tree to highlight the container.
 
-        ![Arrow pointing to column layout 1 in the content tree.](../image/qs-select-column-1.png)
+        \[Omitted image "qs-select-column-1.png"\] Alt text: Arrow pointing to column layout 1 in the content tree.
 
     4.  Select the component name in the configuration panel.
 
-        ![Column layout label and ID fields.](../image/qs-component-label.png)
+        \[Omitted image "qs-component-label.png"\] Alt text: Column layout label and ID fields.
 
     5.  In the **Component label** field, type `Container for heading`.
 
-    6.  In the [Component ID](../concept/ui-builder-glossary.md#) field, type `container_for_heading`.
+    6.  In the [Component ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/ui-builder-glossary.md) field, type `container_for_heading`.
 
     7.  Select **Apply**.
 
         See that the column layout name changes to **Container for heading** in the content tree. The content tree is an important concept. The content tree is an easy way to see the structured layout of your page. The content tree is especially important when you have multiple components on your page. You select the component in your content tree to highlight the component on the page, making it easier to build your page. You can do a text search for a component.
 
-        ![Content tree with customized column layout.](../image/qs-content-tree-custom-label.png)
+        \[Omitted image "qs-content-tree-custom-label.png"\] Alt text: Content tree with customized column layout.
 
-        For more information on component IDs, see [Component ID](../concept/work-components.md#component_id).
+        For more information on component IDs, see [Component ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-components.md).
 
     You’ve successfully added your first column layout to your page.
 
 6.  Add a **Heading** component to your column layout.
 
-    You can add components to the page in different ways. For more information on the ways you can add components to your page, see [Add and configure components](add-components.md#).
+    You can add components to the page in different ways. For more information on the ways you can add components to your page, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/add-components.md).
 
     1.  Select **+ Add content** in the content tree below the column layout created in step 5.
 
-        ![Arrow pointing to + Add content within the container for heading.](../image/qs-select-add-component.png)
+        \[Omitted image "qs-select-add-component.png"\] Alt text: Arrow pointing to + Add content within the container for heading.
 
     2.  Type `heading` into the search and select the **Heading** component.
 
@@ -139,7 +140,7 @@ In this UI Builder quick start, you perform the following tasks to build your fi
 
     8.  Click **Apply**.
 
-        ![Arrow pointing to the custom heading label.](../image/qs-add-header-name-id.png)
+        \[Omitted image "qs-add-header-name-id.png"\] Alt text: Arrow pointing to the custom heading label.
 
 7.  Customize the heading component.
 
@@ -151,7 +152,7 @@ In this UI Builder quick start, you perform the following tasks to build your fi
 
     4.  The Style changes the size of the heading text.
 
-        For example, if you select **Header-secondary**, the text is smaller. Different headings sizes are useful if you have two headings and want the second heading smaller that the primary heading. For more information on configuring components, see [Configure components in UI Builder](../concept/work-components.md#config_components).
+        For example, if you select **Header-secondary**, the text is smaller. Different headings sizes are useful if you have two headings and want the second heading smaller that the primary heading. For more information on configuring components, see [Configure components in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-components.md).
 
     5.  Leave the **Level** as **1**.
 
@@ -163,13 +164,13 @@ In this UI Builder quick start, you perform the following tasks to build your fi
 
     1.  Similar to before, select **+ Add content** in the content tree.
 
-        ![Arrow pointing to + Add content in the content tree.](../image/qs-select-add-column-2.png)
+        \[Omitted image "qs-select-add-column-2.png"\] Alt text: Arrow pointing to + Add content in the content tree.
 
     2.  Select the **Single column** layout in the toolbox.
 
     3.  Select **Column layout 1** in the content tree to highlight the container.
 
-        ![Content tree with two column layouts.](../image/qs-content-tree-column-2.png)
+        \[Omitted image "qs-content-tree-column-2.png"\] Alt text: Content tree with two column layouts.
 
     4.  Select the component name in the configuration panel.
 
@@ -179,7 +180,7 @@ In this UI Builder quick start, you perform the following tasks to build your fi
 
     7.  Select **Apply**.
 
-        ![Column layout label and ID fields.](../image/qs-component-label-2.png)
+        \[Omitted image "qs-component-label-2.png"\] Alt text: Column layout label and ID fields.
 
     8.  Select **Save**.
 
@@ -197,7 +198,7 @@ In this UI Builder quick start, you perform the following tasks to build your fi
 
     3.  Select the **Image 1** component in the **Content** tree to highlight the image.
 
-        ![Arrow pointing to Image 1 component in the content tree.](../image/qs-content-tree-image.png)
+        \[Omitted image "qs-content-tree-image.png"\] Alt text: Arrow pointing to Image 1 component in the content tree.
 
     4.  Select **None** in the configuration panel.
 
@@ -209,7 +210,7 @@ In this UI Builder quick start, you perform the following tasks to build your fi
 
     8.  Select **Apply**.
 
-        ![Image component label and ID.](../image/qs-image-label.png)
+        \[Omitted image "qs-image-label.png"\] Alt text: Image component label and ID.
 
     9.  Select **Save**.
 
@@ -232,5 +233,5 @@ In this UI Builder quick start, you perform the following tasks to build your fi
 
 You successfully completed the UI Builder quick start!
 
-**Parent Topic:**[Exploring UI Builder](../concept/create-custom-experience.md)
+**Parent Topic:**[Exploring UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/create-custom-experience.md)
 

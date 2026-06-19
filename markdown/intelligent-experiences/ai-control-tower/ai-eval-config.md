@@ -2,6 +2,7 @@
 title: Configuring evaluations
 description: Configure conversation evaluations by disabling evaluations, adjusting execution logic and thresholds, and tuning scoring weights.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/ai-eval-config.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower

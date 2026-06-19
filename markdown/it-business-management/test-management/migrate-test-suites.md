@@ -2,6 +2,7 @@
 title: Convert test suites
 description: Convert test suites in Test Management 1.0 to test sets in Test Management 2.0. Start using Test Management 2.0 for its enhanced testing capabilities and features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/test-management/migrate-test-suites.html
 release: zurich
 product: Test Management
 classification: test-management
@@ -31,5 +32,5 @@ Convert test suites in Test Management 1.0 to test sets in Test Management 2.0. 
 
 ## What to do next
 
-After converting test suites, verify that the migrated test sets and tests appear correctly in Test Management 2.0 before performing the migration on a production instance. For more information about verifying migrated data, see [Migration from Test Management 1.0 to Test Management 2.0](migrate-test.md).
+After converting test suites, verify that the migrated test sets and tests appear correctly in Test Management 2.0 before performing the migration on a production instance. For more information about verifying migrated data, see [Migration from Test Management 1.0 to Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/migrate-test.md).
 

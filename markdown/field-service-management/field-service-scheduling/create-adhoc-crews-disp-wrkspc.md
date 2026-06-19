@@ -2,6 +2,7 @@
 title: Create ad-hoc crews in Dispatcher Workspace
 description: Create ad-hoc crews for a task if no existing crews are available to work on the task or the task requires specific skills to complete the job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/create-adhoc-crews-disp-wrkspc.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -38,7 +39,7 @@ The Create Crew option is available in the work order task form if the following
 
 3.  Search for and open a work order task for which you want to create a crew.
 
-    For more information, see [Search for tasks that need a crew on Dispatcher Workspace](search-crew-task.md).
+    For more information, see [Search for tasks that need a crew on Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/search-crew-task.md).
 
 4.  Click **Create Crew**.
 

@@ -2,6 +2,7 @@
 title: Service Graph Connector for Jamf properties
 description: Service Graph Connector for Jamf properties control the behavior of the connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/cmdb-sgc-jamf-props.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -45,7 +46,7 @@ The default Bearer token authentication type uses a user name and password to re
 **Note:**
 
 -   For an OOB default connection, any of the three authentication types can be used.
--   For additional connections \(multi-instance\), only the Basic and Bearer authentication types can be used. To use the Client credentials \(OAuth 2.0\) authentication type, follow the guided setup to configure client authentication credentials for the connection. See [Configure Service Graph Connector for Jamf using the guided setup](../task/configure-jamf-integration.md).
+-   For additional connections \(multi-instance\), only the Basic and Bearer authentication types can be used. To use the Client credentials \(OAuth 2.0\) authentication type, follow the guided setup to configure client authentication credentials for the connection. See [Configure Service Graph Connector for Jamf using the guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-jamf-integration.md).
 
 </td></tr><tr><td>
 
@@ -71,7 +72,7 @@ Set the property to `true` to enable the SG-Jamf Computers data source to pull o
 -   Type: true \| false
 -   Default value: `false`
 
-See [Configuring data synchronization in Service Graph Connector for Jamf](../concept/sgc-cmdb-jamf-data-sync.md#).
+See [Configuring data synchronization in Service Graph Connector for Jamf](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-jamf-data-sync.md).
 
 </td></tr><tr><td>
 
@@ -86,7 +87,7 @@ Set the property to `true` to enable the SG-Jamf Mobile Devices data source to p
 -   Type: true \| false
 -   Default value: `false`
 
-See [Configuring data synchronization in Service Graph Connector for Jamf](../concept/sgc-cmdb-jamf-data-sync.md#).
+See [Configuring data synchronization in Service Graph Connector for Jamf](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-jamf-data-sync.md).
 
 </td></tr><tr><td>
 

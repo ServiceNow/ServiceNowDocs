@@ -2,6 +2,7 @@
 title: Update Feedback or Product idea records from the list page
 description: Edit the details of a feedback or product idea record and make real-time updates using the list page of feedback or product ideas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/product-feedback/update-feedback-or-idea.html
 release: zurich
 product: Product Feedback
 classification: product-feedback
@@ -29,29 +30,29 @@ Modify feedback or product idea records within the list view or side panel using
 
 2.  From the feedback or product idea list, select the feedback or product idea record that you want to edit.
 
-    You can use the full details page to edit the feedback or product idea record. Select ![Info icon.](../image/icon-help.png) to open the preview of the feedback or product idea record from the list view.
+    You can use the full details page to edit the feedback or product idea record. Select \[Omitted image "icon-help.png"\] Alt text: Info icon. to open the preview of the feedback or product idea record from the list view.
 
 3.  Update the record details, attach files, or delete the feedback or product idea record.
 
-<table id="choicetable_yky_q3f_tzb"><thead><tr><th align="left" id="d260368e88">
+<table id="choicetable_yky_q3f_tzb"><thead><tr><th align="left" id="d212192e88">
 
 Choice
 
-</th><th align="left" id="d260368e91">
+</th><th align="left" id="d212192e91">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d260368e97">
+</th></tr></thead><tbody><tr><td id="d212192e97">
 
 **Update feedback or product idea record**
 
 </td><td>
 
-Double-click on the feedback or product idea field on the grid to make inline edits. You can select the short description of feedback or product idea to open the full details page. Bulk edit rows in the list view to enable quick updates without editing each record individually. For feedback or product idea field information, see [Feedback form](../reference/feedback-form.md) and [Product idea form](../reference/product-idea-form.md).
+Double-click on the feedback or product idea field on the grid to make inline edits. You can select the short description of feedback or product idea to open the full details page. Bulk edit rows in the list view to enable quick updates without editing each record individually. For feedback or product idea field information, see [Feedback form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/feedback-form.md) and [Product idea form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/product-idea-form.md).
 
  **Note:** You can’t make inline edits for read-only fields.
 
-</td></tr><tr><td id="d260368e135">
+</td></tr><tr><td id="d212192e135">
 
 **Add worknotes or attachments**
 
@@ -63,7 +64,7 @@ From the full details page:
 -   Compose work notes and select **Post Work notes**.
 
 
-</td></tr><tr><td id="d260368e161">
+</td></tr><tr><td id="d212192e161">
 
 **Delete feedback or product idea record**
 
@@ -71,7 +72,7 @@ From the full details page:
 
 From the full details page:
 
-1.  Select the More Actions icon \(![More actions icon](../image/more-actions-feedback-icon.png)\).
+1.  Select the More Actions icon \(\[Omitted image "more-actions-feedback-icon.png"\] Alt text: More actions icon\).
 2.  Select **Delete**.
 3.  Select **OK** to confirm.
 

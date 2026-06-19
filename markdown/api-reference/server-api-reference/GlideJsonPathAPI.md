@@ -2,6 +2,7 @@
 title: GlideJsonPath - Global
 description: The GlideJsonPath API retrieves values from a JSON document using a query path string.Instantiates a GlideJsonPath scriptable object by parsing a JSON document.Retrieves values from a JSON document using a query path string.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/GlideJsonPathAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The GlideJsonPath API retrieves values from a JSON document using a query path s
 
 This API is available by default.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideJsonPath - GlideJsonPath\(String jsonDocument\)
 

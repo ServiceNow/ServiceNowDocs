@@ -2,6 +2,7 @@
 title: The ServiceNow CPQ Technology and Product Training Portal
 description: The ServiceNow CPQ Training Portal includes self-paced video training content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/new\_logik\_io\_technology\_and\_product\_training\_portal.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -61,5 +62,5 @@ In the Student Home page you can view the Course Catalog and select courses, mon
 
 For more information about the Training Portal and how to purchase a subscription to the Portal, contact ServiceNow CPQ Training at [training@logik.io](mailto:training@logik.io) or your ServiceNow CPQ Sales Representative.
 
-**Parent Topic:**[ServiceNow CPQ reference](../reference/servicenow-cpq-reference.md)
+**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/servicenow-cpq-reference.md)
 

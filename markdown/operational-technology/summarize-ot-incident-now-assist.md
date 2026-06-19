@@ -2,7 +2,10 @@
 title: Summarize an Operational Technology incident by using Now Assist for Operational Technology Service Management \(OTSM\)
 description: Quickly understand the Operational Technology \(OT\) incident context and respond to a user's inquiries by using the OT incident summarization skill in the Now Assist for Operational Technology Service Management \(OTSM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/summarize-ot-incident-now-assist.html
 release: zurich
+product: Operational Technology
+classification: operational-technology
 topic_type: task
 last_updated: "2026-01-14"
 reading_time_minutes: 1
@@ -45,15 +48,15 @@ An OT incident summary provides you with a concise summary of an incident. The s
 
 6.  When you're finished summarizing an OT incident, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d43381e167">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d45646e167">
 
 Option
 
-</th><th align="left" id="d43381e170">
+</th><th align="left" id="d45646e170">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d43381e176">
+</th></tr></thead><tbody><tr><td id="d45646e176">
 
 **Save the summary information by adding it to the incident work notes**
 
@@ -64,39 +67,39 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d43381e203">
+</td></tr><tr><td id="d45646e203">
 
 **Expand or collapse the summary**
 
 </td><td>
 
-Select the expand card icon \(![expand card icon.](../image/icon-expand.png)\) to view the complete summary or the collapse card icon \(![collapse card icon.](../image/icon-collapse.png)\) to view a collapsed summary.
+Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expand card icon.\) to view the complete summary or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: collapse card icon.\) to view a collapsed summary.
 
-</td></tr><tr><td id="d43381e224">
+</td></tr><tr><td id="d45646e224">
 
 **Provide feedback for the summary**
 
 </td><td>
 
-If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../image/icon-helpful.png)\). If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../image/icon-not-helpful.png)\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
+If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d43381e247">
+</td></tr><tr><td id="d45646e247">
 
 **Copy the incident summary**
 
 </td><td>
 
-If you want to reuse the summary, select the copy to clipboard icon \(![Copy to clipboard icon.](../image/icon-copy.png)\).
+If you want to reuse the summary, select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\).
 
-</td></tr><tr><td id="d43381e263">
+</td></tr><tr><td id="d45646e263">
 
 **View the information about the incident summary**
 
 </td><td>
 
-If you want to check some details about the summary, select the more info icon \(![More info icon.](../image/icon-more-info.png)\).
+If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text: More info icon.\).
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Now Assist for Operational Technology Service Management \(OTSM\)](../concept/using-now-assist-otsm.md)
+**Parent Topic:**[Using Now Assist for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/using-now-assist-otsm.md)
 

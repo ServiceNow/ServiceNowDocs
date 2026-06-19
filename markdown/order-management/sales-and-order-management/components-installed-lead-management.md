@@ -2,6 +2,7 @@
 title: Components installed with Lead Management
 description: Several types of components are installed with activation of the Lead Management plugin, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/components-installed-lead-management.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -170,5 +171,5 @@ Lead
 Prospective customers who have expressed their interest through various channels, such as website forms, social media, or events.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Lead and opportunity management reference](../concept/reference-lead-opportunity-mgt.md)
+</table>**Parent Topic:**[Lead and opportunity management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/reference-lead-opportunity-mgt.md)
 

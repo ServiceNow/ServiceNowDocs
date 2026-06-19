@@ -2,6 +2,7 @@
 title: Process approvals
 description: Once a request has passed its gating approvals, any relevant execution plans are initiated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/approvals/c\_ProcessApprovals.html
 release: zurich
 product: Approvals
 classification: approvals
@@ -15,7 +16,7 @@ breadcrumb: [Approval rules, Classic approvals, Exploring Service Administration
 
 Once a request has passed its gating approvals, any relevant execution plans are initiated.
 
-**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://www.servicenow.com/docs/access?context=ask-approval-flow-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
+**Important:** Classic approval rules have been replaced by the Workflow Studio . Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
 
 Those plans, in turn, create a sequence of required tasks. You can add an approval step to an execution plan, which is configured to occur at the appropriate point.
 
@@ -33,11 +34,11 @@ After you create the task, right click the title bar and select **Save**. Two re
 -   **Approved By Group**: A list of groups that must approve the request before this task is complete
 -   **Approved By**: A list of users who must approve the request before this task is complete
 
-![Approval task](../image/ApproveTask.png "Approval task")
+\[Omitted image "ApproveTask.png"\] Alt text: Approval task
 
 In the example above, this security approval task must be approved by Fred Luddy.
 
 **Note:** When an in-process approval is rejected, that particular line item is canceled as well, but the request itself isn't necessarily canceled. Thus if one ordered a blackberry and a laptop, and the blackberry was rejected, the laptop request would continue being processed.
 
-**Parent Topic:**[Approval rules](c_ApprovalRules.md)
+**Parent Topic:**[Approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/approvals/c_ApprovalRules.md)
 

@@ -2,6 +2,7 @@
 title: Data visualization tables
 description: The following tables relate to Platform Analytics data visualizations and can be accessed through scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/par-dv-tables.html
 release: zurich
 topic_type: reference
 last_updated: "2025-07-31"
@@ -27,5 +28,5 @@ The following tables relate to Platform Analytics data visualizations and can be
 |par\_visualization|Contains all data visualizations in the visualization library. Extends par\_component.|
 |par\_visualization\_permission|Contains the role, group, and user permissions for all data visualizations in the visualization library. Extends par\_component\_permission.|
 
-**Parent Topic:**[Data visualization reference](data-visualization-reference.md)
+**Parent Topic:**[Data visualization reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/data-visualization-reference.md)
 

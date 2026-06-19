@@ -2,6 +2,7 @@
 title: Inventory view
 description: Use the Inventory view in the Hardware Asset Workspace to view the inventory functions such as Asset audits and Disposal orders and to take any inventory-related actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/inventory-view.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -28,7 +29,7 @@ Use the following tabs to view the inventory functions and take appropriate acti
 -   **Donation orders**: View the list of asset donation orders.
 -   **Repair orders**: View the list of repair orders submitted for repair of assets with your stockroom. You can also create repair orders.
 
-To create an asset audit for your inventory, select **New asset audit**. For more details, see [Create an audit record in the Hardware Asset Management application](../task/audit-your-inventory.md).
+To create an asset audit for your inventory, select **New asset audit**. For more details, see [Create an audit record in the Hardware Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/audit-your-inventory.md).
 
 **Note:** You need the asset or inventory\_admin role to access the Inventory view.
 
@@ -36,7 +37,7 @@ To create an asset audit for your inventory, select **New asset audit**. For mor
 
 Use the **Overview** tab for a consolidated view of various inventory data as widgets. You can also view notifications about actions with links to act on discrepancies, such as incomplete information on asset audits or disposal orders.
 
-![Inventory view in Hardware Asset Workspace.](../image/inventory-view.png "Inventory view")
+\[Omitted image "inventory-view.png"\] Alt text: Inventory view in Hardware Asset Workspace.
 
 Select any widget or chart to view in detail and take required actions. You can also use **Domain**, **Location**, **Stockroom**, and **Model category** lists to narrow down your results. The **Domain** filter is available only when domain separation is enabled.
 

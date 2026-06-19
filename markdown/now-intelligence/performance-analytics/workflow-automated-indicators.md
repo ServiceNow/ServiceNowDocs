@@ -2,6 +2,7 @@
 title: Workflow for creating indicators
 description: Start with ServiceNow AI Platform tables and work your way up to a completed indicator with score collection that you can share on a dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/workflow-automated-indicators.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -17,7 +18,7 @@ Start with ServiceNow AI Platform tables and work your way up to a completed ind
 
 ## Before you begin
 
-Design your KPIs before trying to create them. Using KPI Composer, start by deciding on the business goals you want to achieve with Performance Analytics. For each business goal, determine the critical success factors for that goal. Finally, decide what measurements you need to make to see your progress on those critical success factors. These measurements correspond to the KPIs you need to implement. For more information about designing your Performance Analytics Solution, see [Design your Performance Analytics solution with KPI Composer](../concept/designing-pa-solution.md).
+Design your KPIs before trying to create them. Using KPI Composer, start by deciding on the business goals you want to achieve with Performance Analytics. For each business goal, determine the critical success factors for that goal. Finally, decide what measurements you need to make to see your progress on those critical success factors. These measurements correspond to the KPIs you need to implement. For more information about designing your Performance Analytics Solution, see [Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/designing-pa-solution.md).
 
 Role required: none
 

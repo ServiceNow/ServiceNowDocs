@@ -2,6 +2,7 @@
 title: Convert an SLA to an SLA Definition
 description: You must replicate the default SLA record as a new SLA definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-level-management/t\_ConvertAnSLAToATaskSLA.html
 release: zurich
 product: Service Level Management
 classification: service-level-management
@@ -56,17 +57,17 @@ To convert old SLAs to SLA Definitions:
 
 The following example is an old SLA for Priority 1 incidents to be resolved on a Monday-Friday \(8-5\) Calendar, with escalations to Moderate at 4 hours, to High at 2 hours, and to Overdue at 2 hours:
 
-![Old SLA form.](../image/OldSLA.png "Old SLA example")
+\[Omitted image "OldSLA.png"\] Alt text: Old SLA form.
 
 This is the new Task SLA created from the same information:
 
-![New SLA form.](../image/NewSLA.png "New SLA example")
+\[Omitted image "NewSLA.png"\] Alt text: New SLA form.
 
 This is the workflow which powers the new Task SLA.
 
 **Note:** This example workflow responds to each escalation by firing off an event. A business rule can be configured to respond to escalation events, or the workflow can be adjusted to match the organization's process.
 
-![Diagram of the new SLA workfow.](../image/NewSLAWorkflow.png "New SLA workflow")
+\[Omitted image "NewSLAWorkflow.png"\] Alt text: Diagram of the new SLA workfow.
 
-**Parent Topic:**[Service Level Agreement \(Legacy\) engines](../concept/c_GetStartedWithSLAs.md)
+**Parent Topic:**[Service Level Agreement \(Legacy\) engines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-level-management/c_GetStartedWithSLAs.md)
 

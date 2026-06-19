@@ -2,7 +2,10 @@
 title: View list of entitlements
 description: As an OSP manager or agent, you must view entitlements for an account or consumer to create or fulfil cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/osp-view-entitlements.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

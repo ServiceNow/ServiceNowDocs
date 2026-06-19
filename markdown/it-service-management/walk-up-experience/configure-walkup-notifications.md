@@ -2,6 +2,7 @@
 title: Create or modify Walk-up Experience notifications
 description: Create and use Walk-up Experience notifications to keep requesters informed of queue events that concern them. The system can notify users by email, SMS text message, or push notification to a mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/walk-up-experience/configure-walkup-notifications.html
 release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -38,10 +39,10 @@ Walk-up Experience includes several base-system notifications that you can use o
 
 3.  To modify a walk-up notification, edit any of the form fields.
 
-4.  To create a new walk-up email or push notification, click **New** and refer to [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) or [Create a push message](https://www.servicenow.com/docs/access?context=t_CreateAPushMessage&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) .
+4.  To create a new walk-up email or push notification, click **New** and refer to Create an email notification or Create a push message .
 
-    For complete information regarding using the System Notification application, refer to [Notifications](https://www.servicenow.com/docs/access?context=notifications&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) .
+    For complete information regarding using the System Notification application, refer to Notifications .
 
 
-**Parent Topic:**[Configuring Walk-up Experience](../concept/walkup-experience-configuration.md)
+**Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walkup-experience-configuration.md)
 

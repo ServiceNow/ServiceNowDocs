@@ -2,6 +2,7 @@
 title: Viewing a network topology
 description: View the details of a network topology and visualize how the network elements are organized and connected to one another. You can understand the detailed overview of the network infrastructure of the topology in the Telecommunications Network Inventory application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/viewing-network-topology.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -23,7 +24,7 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent, sn\
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the blue hub icon ![Blue Hub Icon.](../image/icon-blue-hub.png).
+2.  Select the blue hub icon \[Omitted image "icon-blue-hub.png"\] Alt text: Blue Hub Icon..
 
     The Network viewer window is displayed.
 
@@ -31,12 +32,12 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent, sn\
 
 4.  Visualize a topology by typing the topology name in the search box and selecting it.
 
-    You can select multiple topologies of your choice. You can also use the advanced filter options to find the topology by selecting the filter icon \(![Filter icon.](../image/icon-filter.png)\).
+    You can select multiple topologies of your choice. You can also use the advanced filter options to find the topology by selecting the filter icon \(\[Omitted image "icon-filter.png"\] Alt text: Filter icon.\).
 
 5.  Select the node that you want see the details, and view the related information in the details pane.
 
 6.  In the details pane, select **View Details** to redirect to the CI record \(optional\).
 
 
-**Parent Topic:**[Network topology](../concept/using-network-topology.md)
+**Parent Topic:**[Network topology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/using-network-topology.md)
 

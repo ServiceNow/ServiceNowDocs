@@ -2,6 +2,7 @@
 title: Download files for DLP incidents of type Exchange Online, OneDrive, and SharePoint
 description: Download files or email that violates the DLP policy on Microsoft Purview. Download this file or email on to your local machine from the DLP IR Incident view. You can download the files for DLP IR incidents of type Scan source Exchange Online, OneDrive, and SharePoint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/data-loss-prevention/download-file-dlp-microsoft.html
 release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -32,8 +33,8 @@ Role required:
 
     The file or email that violated the DLP policy on the Microsoft Purview side will be downloaded to the user’s local machine.
 
-    **Note:** DLP admin can control the access of **Download File** action by disabling the **Should downloading the violating file of the reported incident be allowed** setting from the Advanced Settings page. For more information, see [Configure advanced settings](../../data-loss-prevention/task/configure-advanced-settings-dlp.md).
+    **Note:** DLP admin can control the access of **Download File** action by disabling the **Should downloading the violating file of the reported incident be allowed** setting from the Advanced Settings page. For more information, see [Configure advanced settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/configure-advanced-settings-dlp.md).
 
 
-**Parent Topic:**[Data Loss Prevention Incident Response with Microsoft](../concept/dlp-integration-microsoft.md)
+**Parent Topic:**[Data Loss Prevention Incident Response with Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/dlp-integration-microsoft.md)
 

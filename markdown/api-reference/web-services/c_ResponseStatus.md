@@ -2,6 +2,7 @@
 title: JSON response status
 description: JSONv2 requests may return one of several response statuses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/c\_ResponseStatus.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -46,5 +47,5 @@ For example:
 {"_error":"Cannot update with empty sysparm_query","reason":null}
 ```
 
-**Parent Topic:**[JSONv2 web service](c_JSONv2WebService.md)
+**Parent Topic:**[JSONv2 web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_JSONv2WebService.md)
 

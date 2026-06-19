@@ -2,6 +2,7 @@
 title: Handling fees
 description: As an administrator, you can configure the conditions of a purchase request, which when met, adds a handling fee to that purchase request. Any field on the Purchase Request table can be used as part of the conditions to determine if a handling fee is to be applied for a purchase.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/handling-fees.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -32,5 +33,5 @@ Shipping method is stored in each cart line and purchase line. It is also stored
 
 Shipping method is one of the criteria for grouping purchase requisitions, along with supplier, business owner, and blanket requisition. All purchase lines with the same shipping method are grouped together.
 
-**Parent Topic:**[Purchase requisition](../reference/purchase-requisition.md)
+**Parent Topic:**[Purchase requisition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/purchase-requisition.md)
 

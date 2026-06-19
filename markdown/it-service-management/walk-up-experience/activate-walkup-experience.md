@@ -2,6 +2,7 @@
 title: Activate Walk-up Experience
 description: You can activate the Walk-up Experience plugin \(com.snc.walkup\) if you have the admin role. This plugin includes demo data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/walk-up-experience/activate-walkup-experience.html
 release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -28,11 +29,11 @@ The Interaction Logging, Routing, and Queuing \(com.glide.interaction\) plugin a
 -   Asset Management \(com.snc.asset\_management\)
 -   Service Portal \(com.glide.service-portal\)
 
-To activate Walk-up Experience Badge Reader Integration and for more information about this feature, refer to [Badge Reader Integration for Walk-up Experience](../concept/badge-scan-walkup-onsite.md).
+To activate Walk-up Experience Badge Reader Integration and for more information about this feature, refer to [Badge Reader Integration for Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/badge-scan-walkup-onsite.md).
 
 For enhanced security, activate the Explicit Role \(com.glide.explicit\_roles\) plugin. The walk-up user is assigned snc\_external automatically. This plugin was introduced in the ServiceNow AI Platform Paris release.
 
-**Note:** Refer to [Explicit roles plugin](https://www.servicenow.com/docs/access?context=explicit-roles-plugin&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US) for details about the plugin and [Explicit Roles](https://www.servicenow.com/docs/access?context=explicit-roles&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) for more information about this upgrade process.
+**Note:** Refer to  for details about the plugin and Explicit Roles for more information about this upgrade process.
 
 ## Procedure
 
@@ -46,13 +47,13 @@ For enhanced security, activate the Explicit Role \(com.glide.explicit\_roles\) 
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
-**Parent Topic:**[Walk-up Experience administration](../concept/walkup-experience-administration.md)
+**Parent Topic:**[Walk-up Experience administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walkup-experience-administration.md)
 
 **Related topics**  
 
 
-[List of plugins \(Zurich\)](https://www.servicenow.com/docs/access?context=list-of-plugins&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+[bundle-platadm.list-of-plugins]
 

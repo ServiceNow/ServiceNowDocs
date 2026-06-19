@@ -2,6 +2,7 @@
 title: Route walk-up tasks to skilled agents
 description: Use business rules to automatically route walk-up tasks to the agents based on their skill set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/walk-up-experience/walkup-routing-tasks-to-skilled-agents.html
 release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -17,7 +18,7 @@ Use business rules to automatically route walk-up tasks to the agents based on t
 
 ## Before you begin
 
-Set up metadata in **All Skills**, **Group Skills**, and **User Skills**tables before configuring walk-up locations for skill-based routing. For more information, [Configuring Skills Management](https://www.servicenow.com/docs/access?context=configuring-skills-management&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+Set up metadata in **All Skills**, **Group Skills**, and **User Skills**tables before configuring walk-up locations for skill-based routing. For more information, .
 
 Role required: admin
 
@@ -45,5 +46,5 @@ Role required: admin
 7.  Select **Submit**
 
 
-**Parent Topic:**[Configure skill-based routing in Walk-up Experience](../concept/walkup-skill-based-routing.md)
+**Parent Topic:**[Configure skill-based routing in Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walkup-skill-based-routing.md)
 

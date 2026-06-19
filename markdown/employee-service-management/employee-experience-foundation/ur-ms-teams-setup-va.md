@@ -2,6 +2,7 @@
 title: Set up Virtual Agent for Universal Request integration with Microsoft Teams
 description: Publish the default Virtual Agent topics \(conversation flows\) so that they can be used in the Universal Request integration with Microsoft Teams application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ur-ms-teams-setup-va.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -28,7 +29,7 @@ Role required: admin
 
 Activate the Virtual Agent topics for Universal Request.
 
-You can also clone and modify the default topics or create your own topics to use during the chatbot conversations. For more information on creating a topic, see [Create a Virtual Agent topic](https://www.servicenow.com/docs/access?context=create-virtual-agent-topic&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+You can also clone and modify the default topics or create your own topics to use during the chatbot conversations. For more information on creating a topic, see Create a Virtual Agent topic.
 
 ## Procedure
 
@@ -55,5 +56,5 @@ You can also clone and modify the default topics or create your own topics to us
     **Note:** If you have already published the **Track Universal Request Status \(Template\)** topic for Universal Request, you can skip this step.
 
 
-**Parent Topic:**[Configure Universal Request integration with Microsoft Teams](../concept/ur-ms-teams-config-ur.md)
+**Parent Topic:**[Configure Universal Request integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ur-ms-teams-config-ur.md)
 

@@ -2,6 +2,7 @@
 title: Issue Auto Resolution configuration settings
 description: Learn about the different configuration settings that you can use for the Issue Auto Resolution \(IAR\) application. For example, you can see the status of your Issue Auto Resolution configurations and decide to turn off or edit each configuration setting to fit your organization's needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/iar-channels.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -188,5 +189,5 @@ Duration that an issue is assigned to the Issue Auto Resolution application befo
 |-------|----------|
 |Review|Opportunity to review your configuration before you select **Enable IAR**.|
 
-**Parent Topic:**[Using Issue Auto Resolution](auto-resolution-va.md)
+**Parent Topic:**[Using Issue Auto Resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/auto-resolution-va.md)
 

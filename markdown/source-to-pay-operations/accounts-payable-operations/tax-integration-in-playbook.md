@@ -2,6 +2,7 @@
 title: Tax integration in playbook
 description: The Accounts Payable Operations playbook enables AP specialists and tax specialists to perform invoice tax validation using tax engine integration. Use the playbook for implementing and viewing the different stages of tax validation using the tax engine integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/tax-integration-in-playbook.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -23,13 +24,13 @@ Role required: AP specialist, tax specialist
 
 1.  Navigate to **Workspaces** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon](../../supplier-lifecycle-operations/image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon\).
 
     A list of options within the workspace is displayed.
 
 3.  Select **Invoices &gt;****All invoices.**
 
-    You can create an invoice manually. For more information on invoices, see [Work with invoices](../concept/work-with-invoices.md). Invoices can be entered manually or extracted using DocIntel. For more information on invoice extraction, see [Configure data extraction modes](set-up-extraction-modes-di.md).
+    You can create an invoice manually. For more information on invoices, see [Work with invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md). Invoices can be entered manually or extracted using DocIntel. For more information on invoice extraction, see [Configure data extraction modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/set-up-extraction-modes-di.md).
 
 4.  Select **View Invoice processing case**.
 
@@ -45,7 +46,7 @@ Role required: AP specialist, tax specialist
 
     4.  Select the **Review invoice lines** activity and manually review the invoice lines associated with the invoice.
 
-        **Note:** When tax integration is disabled, you can create tax lines from related list of invoice lines or invoice case. For more information on tax lines in related list see [Using Playbook in Accounts Payable Operations](how-to-use-playbook.md). If tax integration is enabled, you can add tax lines using the related list but the tax lines are deleted and new tax lines are added as a response from external tax engine. Tax mentioned for each invoice line in the invoice copy is entered or extracted as supplier tax \(editable\) at invoice line level and the system tax \(read only, derived from external tax engine\) is the sum total of system tax \(read only\) for all the tax lines of that particular invoice line.
+        **Note:** When tax integration is disabled, you can create tax lines from related list of invoice lines or invoice case. For more information on tax lines in related list see [Using Playbook in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/how-to-use-playbook.md). If tax integration is enabled, you can add tax lines using the related list but the tax lines are deleted and new tax lines are added as a response from external tax engine. Tax mentioned for each invoice line in the invoice copy is entered or extracted as supplier tax \(editable\) at invoice line level and the system tax \(read only, derived from external tax engine\) is the sum total of system tax \(read only\) for all the tax lines of that particular invoice line.
 
     5.  Select **Add new invoice lines** to create invoice lines.
 
@@ -55,7 +56,7 @@ Role required: AP specialist, tax specialist
 
         **Note:** During invoice processing \(straight-through processing\), when the invoice is sent to tax engine for validation, you can view the progress in the **Review compliance** swim lane. You will be prompted with a message "No action is needed. The system automatically runs a tax validation using a third-party tax engine. This verifies tax details from the invoice and ensures compliance by validating tax rates and jurisdictions. After tax validation is complete, the system moves to the next step automatically.
 
-        ![Tax validation](../image/tax-validation-success.png)![Tax validation success](../image/tax-validation-success.png)![Tax validation failed](../image/tax-validation-failed.png)
+        \[Omitted image "tax-validation-success.png"\] Alt text: Tax validation\[Omitted image "tax-validation-success.png"\] Alt text: Tax validation success\[Omitted image "tax-validation-failed.png"\] Alt text: Tax validation failed
 
 <table id="table_fgw_ctv_j3c"><thead><tr><th>
 
@@ -136,7 +137,7 @@ Tax amount on the invoice line is greater than the tax \(considering the varianc
 </td></tr></tbody>
 </table>6.  Select **Review exceptions**.
 
-    The list of exceptions raised for the invoice is listed. For more information on exceptions, see [Invoice exceptions](../concept/work-with-invoice-exceptions.md) and [Using Playbook in Accounts Payable Operations](how-to-use-playbook.md).
+    The list of exceptions raised for the invoice is listed. For more information on exceptions, see [Invoice exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/work-with-invoice-exceptions.md) and [Using Playbook in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/how-to-use-playbook.md).
 
     The invoice tax validation is successful.
 

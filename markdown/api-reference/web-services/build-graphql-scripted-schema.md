@@ -2,6 +2,7 @@
 title: Create a GraphQL schema
 description: Create a GraphQL schema to make data available to GraphQL queries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/build-graphql-scripted-schema.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -154,7 +155,7 @@ Path ACL depth
 
 </td><td>
 
-Specify the level of the GraphQL API to which to apply ACLs. Setting the path depth to 3 or lower uses fewer resources and helps with returning query responses.To specify the ACLs to use for the path, you must create an ACL with the GraphQL type and add the exact API path beginning with the schema namespace in the **Name** field. For example: `/<planet>/<findAll>/<name>`. Wildcards aren’t supported. For more information, see [Configure an ACL rule](https://www.servicenow.com/docs/access?context=t_CreateAnACLRule&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+Specify the level of the GraphQL API to which to apply ACLs. Setting the path depth to 3 or lower uses fewer resources and helps with returning query responses.To specify the ACLs to use for the path, you must create an ACL with the GraphQL type and add the exact API path beginning with the schema namespace in the **Name** field. For example: `/<planet>/<findAll>/<name>`. Wildcards aren’t supported. For more information, see .
 
 **Note:** The **ACLs** field applies to the entire API and is independent of the ACLs applied to specific paths.
 
@@ -308,5 +309,5 @@ Define the value returned for union and interface types. Functions available on 
     3.  Select **Submit**.
 
 
-**Parent Topic:**[Query record data using the GraphQL API framework](../concept/scripted-graph-ql.md)
+**Parent Topic:**[Query record data using the GraphQL API framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/scripted-graph-ql.md)
 

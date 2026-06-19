@@ -2,6 +2,7 @@
 title: Create an HR Predictive Intelligence Workbench user group
 description: Create an HR Predictive Intelligence Workbench user group and add users or roles to the group to receive email notifications when the use-case model training and testing phase are complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-piwb-user-group.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -29,10 +30,10 @@ Create an HR Predictive Intelligence Workbench user group and add either users o
 
 ## Procedure
 
--   To create an HR Predictive Intelligence Workbench user group and add users, see [Create a user group](https://servicenow.com/docs/bundle/vancouver-platform-administration/page/administer/users-and-groups/task/t_CreateAGroup.html) [Create a user group](https://www.servicenow.com/docs/access?context=t_CreateAGroup&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+-   To create an HR Predictive Intelligence Workbench user group and add users, see Create a user group Create a user group.
 
-    For more information about the email notifications provided with this application, refer to [HR Predictive Intelligence Workbench notifications](../concept/hr-piwb-notifications.md).
+    For more information about the email notifications provided with this application, refer to [HR Predictive Intelligence Workbench notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-piwb-notifications.md).
 
 
-**Parent Topic:**[HR Predictive Intelligence Workbench administration](../concept/hr-piwb-administration.md)
+**Parent Topic:**[HR Predictive Intelligence Workbench administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-piwb-administration.md)
 

@@ -2,6 +2,7 @@
 title: Export CAD configuration
 description: Export the updated CAD changes to your CAD file. Exporting the updated changes creates a copy of the modified CAD file in Indoor Mapping.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/indoor-mapping/export-cad-config.html
 release: zurich
 product: Indoor Mapping
 classification: indoor-mapping
@@ -27,13 +28,13 @@ Role required: admin
 
 ## Procedure
 
-1.  Select the More options menu icon \(![More options menu icon.](../../wsd-for-mobile/images/more-options-icon.png)\) and select **Export to autocad**.
+1.  Select the More options menu icon \(\[Omitted image "more-options-icon.png"\] Alt text: More options menu icon.\) and select **Export to autocad**.
 
-    ![CAD configuration showing the more options menu.](../images/wsd-cad-editor-more-options-menu.png)
+    \[Omitted image "wsd-cad-editor-more-options-menu.png"\] Alt text: CAD configuration showing the more options menu.
 
 2.  The export dialog box appears.
 
-    ![Export changes to CAD file.](../images/wsd-export-changes-cad.png)
+    \[Omitted image "wsd-export-changes-cad.png"\] Alt text: Export changes to CAD file.
 
 3.  Select **Export**.
 
@@ -41,7 +42,7 @@ Role required: admin
 
     **Note:** Updates made to the CAD file are only locally available in Indoor Mapping until you export the changes to your CAD file. Exporting the file keeps the CAD file up to date with changes made in Indoor Mapping.
 
-4.  The **Download updated file** option is activated in the more options menu \(![More options menu.](../../wsd-for-mobile/images/more-options-icon.png)\) after you’ve exported your CAD changes.
+4.  The **Download updated file** option is activated in the more options menu \(\[Omitted image "more-options-icon.png"\] Alt text: More options menu.\) after you’ve exported your CAD changes.
 
     Selecting this option downloads the updated CAD file.
 
@@ -55,12 +56,12 @@ Role required: admin
 
     The exported CAD changes are available as a new file in the **Updated file** column.
 
-    ![Autocad source for CAD file showing the exported and updated file.](../images/wsd-autocad-source-updatedfile.png)
+    \[Omitted image "wsd-autocad-source-updatedfile.png"\] Alt text: Autocad source for CAD file showing the exported and updated file.
 
 
-**Parent Topic:**[Autocad import tool](../concept/autocad-ovw-v2.md)
+**Parent Topic:**[Autocad import tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/autocad-ovw-v2.md)
 
-**Previous topic:**[Closing a geometry or a polyline in a layer](editing-a-shape-autocadv2.md)
+**Previous topic:**[Closing a geometry or a polyline in a layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/editing-a-shape-autocadv2.md)
 
-**Next topic:**[Import CAD configuration](import-cad-config.md)
+**Next topic:**[Import CAD configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/import-cad-config.md)
 

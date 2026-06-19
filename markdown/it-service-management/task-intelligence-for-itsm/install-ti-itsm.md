@@ -2,6 +2,7 @@
 title: Install Task Intelligence for ITSM
 description: You can install the Task Intelligence for ITSM application \(com.snc.itsm\_ml\_task\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they aren't already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/task-intelligence-for-itsm/install-ti-itsm.html
 release: zurich
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
@@ -31,7 +32,7 @@ The following items are installed with Task Intelligence for ITSM:
 -   Roles
 -   Tables
 
-For more information on what is installed, see [Components installed with Task Intelligence for ITSM](../reference/components-installed-ti-itsm.md).
+For more information on what is installed, see [Components installed with Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/task-intelligence-for-itsm/components-installed-ti-itsm.md).
 
 ## Procedure
 
@@ -56,5 +57,5 @@ For more information on what is installed, see [Components installed with Task I
 6.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Task Intelligence for ITSM](../concept/configure-task-intelligence-for-itsm.md)
+**Parent Topic:**[Configuring Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/task-intelligence-for-itsm/configure-task-intelligence-for-itsm.md)
 

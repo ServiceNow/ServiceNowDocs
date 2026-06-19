@@ -2,6 +2,7 @@
 title: Integrate Password Reset with a CMS integration
 description: You can configure a site in the ServiceNow content management \(CMS\) application to define a single-site access point that includes the Password Reset service. For example, you can create an employee self-service site that provides Password Reset service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/password-reset/t\_PasswordResetCMSIntegration.html
 release: zurich
 product: Password Reset
 classification: password-reset
@@ -29,7 +30,7 @@ Each Password Reset process requires a separate CMS page.
 
 2.  Go to **Content Management** &gt; **Sites** and create a site that has no login page.
 
-    ![New site](../image/password-reset-cms.png)
+    \[Omitted image "password-reset-cms.png"\] Alt text: New site
 
 3.  Go to **Content Management** &gt; **Pages** and create a password reset page.
 
@@ -44,5 +45,5 @@ Each Password Reset process requires a separate CMS page.
 8.  Click **Update**.
 
 
-**Parent Topic:**[Configuring Password Reset](../../login/concept/password-reset-admin-guide.md)
+**Parent Topic:**[Configuring Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/password-reset-admin-guide.md)
 

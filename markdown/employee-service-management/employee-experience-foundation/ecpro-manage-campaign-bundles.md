@@ -2,6 +2,7 @@
 title: Create campaign bundles/stages
 description: Use campaign stages to group your campaign content within a campaign. This process allows you to determine when the content is available to your employees and for how long.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ecpro-manage-campaign-bundles.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,7 +22,7 @@ Role required: sn\_ca.campaign\_manager, sn\_cd.content\_admin
 
 ## About this task
 
-Stages organize and manage the delivery of campaign content. When configuring a stage, you set the stage trigger, which determines when content becomes available and for how long. To learn more about triggers, see [Campaign bundle triggers](../reference/ecpro-triggers.md).
+Stages organize and manage the delivery of campaign content. When configuring a stage, you set the stage trigger, which determines when content becomes available and for how long. To learn more about triggers, see [Campaign bundle triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-triggers.md).
 
 **Note:** Some parts of the interface use the term "bundles" to refer to stages.
 
@@ -35,7 +36,7 @@ Stages organize and manage the delivery of campaign content. When configuring a 
     |-----|-----------|
     |Title|The name of the campaign bundle.|
     |Campaign|The campaign associated with the campaign bundle.|
-    |Trigger type|How the campaign bundle starts or ends. To learn more about triggers, see [Campaign bundle triggers](../reference/ecpro-triggers.md)|
+    |Trigger type|How the campaign bundle starts or ends. To learn more about triggers, see [Campaign bundle triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-triggers.md)|
     |Description|Descriptive information about the campaign bundle.|
 
 3.  Right-click the form header and select **Save** to remain on the Campaign Bundle form.

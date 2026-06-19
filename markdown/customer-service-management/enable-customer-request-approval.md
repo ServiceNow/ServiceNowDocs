@@ -2,7 +2,10 @@
 title: Enable external customers to approve requests and changes
 description: Enable your external customers to approve change and request records related to customer service cases from the Customer Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/enable-customer-request-approval.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-08-08"
 reading_time_minutes: 1
@@ -43,6 +46,6 @@ Use this feature to send approval requests and enable external customers with th
     -   Request Item \(sc\_req\_item\)
     **Note:** The sn\_esm\_user role provides access to the approval records where the logged-in user is the approver and enables the logged-in user to either approve or reject the approval request. Customer Service Management requester roles \(including the customer contact, partner contact, customer admin, and partner admin roles\) contain the sn\_esm\_user role, which enables these roles to perform the approve and actions.
 
-    For more information, see [Table ACL rules](https://www.servicenow.com/docs/access?context=acl-rule-types&version=zurich&pubname=zurich-platform-security&ft:locale=en-US#section_tjv_xcn_l1b) and [Field ACL rules](https://www.servicenow.com/docs/access?context=acl-rule-types&version=zurich&pubname=zurich-platform-security&ft:locale=en-US#section_tgm_xcn_l1b).
+    For more information, see Table ACL rules and Field ACL rules.
 
 

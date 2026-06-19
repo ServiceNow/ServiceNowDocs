@@ -2,6 +2,7 @@
 title: Create a check type
 description: Create a check type to execute the osquery command on the Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-api-check-type.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector

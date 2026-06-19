@@ -2,6 +2,7 @@
 title: Machine Identity Console Settings
 description: Configure the Machine Identity security score settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/machine-identity-console-settings.html
 release: zurich
 product: Identity
 classification: identity
@@ -33,6 +34,6 @@ The following task is specific to your organization on how to handle the inactiv
     -   **Accounts using Basic Authentication**
     -   **Integration accounts with Web Service Access disabled**
     -   **Accounts logging into the UI despite being integration only**
-    ![Machine Identity Console Settings](../images/mic-settings.png)
+    \[Omitted image "mic-settings.png"\] Alt text: Machine Identity Console Settings
 
 

@@ -2,6 +2,7 @@
 title: Review and close an action task
 description: Review and close an action task after an action task owner provides responses and observations for the case in the GRC: Compliance Case Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/compliance-case-management/review-compliance-case-task.html
 release: zurich
 product: Compliance Case Management
 classification: compliance-case-management
@@ -27,15 +28,15 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst
 
 3.  Review the Action task and then select one of the following options.
 
-<table id="choicetable_l5k_yst_1wb"><thead><tr><th align="left" id="d368039e86">
+<table id="choicetable_l5k_yst_1wb"><thead><tr><th align="left" id="d229111e86">
 
 Choice
 
-</th><th align="left" id="d368039e89">
+</th><th align="left" id="d229111e89">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d368039e95">
+</th></tr></thead><tbody><tr><td id="d229111e95">
 
 **To request revision of the details provided by the Action task owner**
 
@@ -46,7 +47,7 @@ Steps
 3.  Select **Request revision**.
 
 
-</td></tr><tr><td id="d368039e122">
+</td></tr><tr><td id="d229111e122">
 
 **To close the task as complete**
 
@@ -57,7 +58,7 @@ Steps
 3.  Select **Close as complete**.
 
 
-</td></tr><tr><td id="d368039e149">
+</td></tr><tr><td id="d229111e149">
 
 **To close the task as incomplete**
 
@@ -68,7 +69,7 @@ Steps
 3.  Select **Close as incomplete**.
 
 
-</td></tr><tr><td id="d368039e176">
+</td></tr><tr><td id="d229111e176">
 
 **To cancel the Action task**
 
@@ -81,5 +82,5 @@ Steps
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Work on an action task](work-on-compliance-case-task.md)
+**Parent Topic:**[Work on an action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/work-on-compliance-case-task.md)
 

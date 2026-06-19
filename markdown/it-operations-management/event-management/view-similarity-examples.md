@@ -2,6 +2,7 @@
 title: Review Event Management similarity examples
 description: Review the similarity examples and scores that the system provides during solution training to see how the selected alert record compares to existing alert records. For example, you can modify the similarity score threshold to increase the accuracy of your similarity recommendations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/view-similarity-examples.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -17,7 +18,7 @@ Review the similarity examples and scores that the system provides during soluti
 
 ## Before you begin
 
-Train a similarity solution in a ServiceNow datacenter. For more information, see [Create an Event Management similarity solution](create-solution-similarity.md).
+Train a similarity solution in a ServiceNow datacenter. For more information, see [Create an Event Management similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-solution-similarity.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -29,13 +30,13 @@ Adjust the current threshold to provide useful results. For example, a low simil
 
 1.  Navigate to **All** &gt; **Predictive Intelligence** &gt; **Similarity** &gt; **Solutions**.
 
-2.  In the ML Solutions list, locate your solution and click the Information icon \(![Information icon](../image/info.png)\).
+2.  In the ML Solutions list, locate your solution and click the Information icon \(\[Omitted image "info.png"\] Alt text: Information icon\).
 
 3.  Click **Open Record**.
 
 4.  Click the **Similarity Examples** related link.
 
-    ![Similarity example](../image/similarity-example.png)
+    \[Omitted image "similarity-example.png"\] Alt text: Similarity example
 
 5.  Review the similarity examples and their threshold scores to determine the accuracy and coverage levels you want applied to your solution similarity results.
 
@@ -47,7 +48,7 @@ Adjust the current threshold to provide useful results. For example, a low simil
 
 7.  Navigate to **Predictive Intelligence** &gt; **Similarity** &gt; **Solutions**.
 
-8.  In the ML Solutions list, locate your solution and click the Reference icon \(![Reference icon](../image/reference-icon.png)\).
+8.  In the ML Solutions list, locate your solution and click the Reference icon \(\[Omitted image "reference-icon.png"\] Alt text: Reference icon\).
 
 9.  Click **Open Record**.
 
@@ -60,5 +61,5 @@ Adjust the current threshold to provide useful results. For example, a low simil
     Your solution uses the new similarity threshold value. In the example, the solution returns similar results that have a score higher than 90.
 
 
-**Parent Topic:**[Alert similarity](../concept/alert-similarity.md)
+**Parent Topic:**[Alert similarity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/alert-similarity.md)
 

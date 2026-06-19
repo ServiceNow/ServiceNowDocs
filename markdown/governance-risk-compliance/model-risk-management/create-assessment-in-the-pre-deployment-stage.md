@@ -2,6 +2,7 @@
 title: Create assessment in the Pre-deployment stage
 description: Create a model risk assessment by verifying the details, assigning stakeholders, and create an assessment using the Model Risk Management application in the Pre-deployment stage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/model-risk-management/create-assessment-in-the-pre-deployment-stage.html
 release: zurich
 product: Model Risk Management
 classification: model-risk-management
@@ -25,7 +26,7 @@ The Model Risk Coordinator \[sn\_model\_risk\_mgmt.risk\_coordinator\] can also 
 
 1.  Navigate to **All** &gt; **Model Risk Workspace**.
 
-2.  Select the list icon ![](../../grc-compliance-case-mgmt/image/list-icon.png).
+2.  Select the list icon \[Omitted image "list-icon-mrm.png"\] Alt text:.
 
 3.  From the list, navigate to **Models** &gt; **Pre-deployment**.
 
@@ -46,7 +47,7 @@ The Model Risk Coordinator \[sn\_model\_risk\_mgmt.risk\_coordinator\] can also 
 
 ## What to do next
 
-[Perform model risk assessment](perform-model-risk-assessment.md)
+[Perform model risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/model-risk-management/perform-model-risk-assessment.md)
 
-**Parent Topic:**[Using Model Risk Management](../concept/using-mrm.md)
+**Parent Topic:**[Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/model-risk-management/using-mrm.md)
 

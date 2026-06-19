@@ -2,6 +2,7 @@
 title: Query record data using the GraphQL API framework
 description: Create a custom GraphQL API to query record data from a component or a third-party system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/scripted-graph-ql.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -17,7 +18,7 @@ Create a custom GraphQL API to query record data from a component or a third-par
 
 For example, you can create a component that displays the cases associated with an SLA. You can use the Next Experience UI Framework to develop the component you need, and access case data from the platform by creating a GraphQL schema that defines data in the Case table.
 
-To learn more about developing components, see [Developing components for Workspace](https://www.servicenow.com/docs/access?context=custom-components&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+To learn more about developing components, see Developing components for Workspace.
 
 ## Benefits of GraphQL
 
@@ -63,7 +64,7 @@ Creating a scripted GraphQL API includes these parts:
 
 To learn more about the GraphQL query language, see the [GraphQL website](https://graphql.org/).
 
-To test queries to your GraphQL APIs, you can use the GraphQL Explorer, an integrated GraphQL testing tool. For more information, see [Test GraphQL APIs with GraphQL Explorer](../task/test-gql-schema.md).
+To test queries to your GraphQL APIs, you can use the GraphQL Explorer, an integrated GraphQL testing tool. For more information, see [Test GraphQL APIs with GraphQL Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/test-gql-schema.md).
 
 ## Limitations
 
@@ -74,7 +75,7 @@ The following GraphQL features aren't supported:
 
 ## Introspection
 
-By default, introspective queries into your custom schemas aren’t enabled. To turn on introspection, see [Enable introspective queries for GraphQL schemas](../task/enable-introspective-queries-graphql-schemas.md).
+By default, introspective queries into your custom schemas aren’t enabled. To turn on introspection, see [Enable introspective queries for GraphQL schemas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/enable-introspective-queries-graphql-schemas.md).
 
 ## Namespaces
 
@@ -82,7 +83,7 @@ GraphQL APIs have two different namespaces:
 
 -   **Application namespace**
 
-    The namespace for the custom application. To learn more about application namespaces, see [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+    The namespace for the custom application. To learn more about application namespaces, see Application scope.
 
 -   **Schema namespace**
 
@@ -146,16 +147,16 @@ query {
 
 To see a demo GraphQL PTO calendar schema with mutations and queries, enable the GraphQL Framework Demo Application plugin \(com.glide.graphql.framework.demo\).
 
--   **[Create a GraphQL schema](../task/build-graphql-scripted-schema.md#)**  
+-   **[Create a GraphQL schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/build-graphql-scripted-schema.md)**  
 Create a GraphQL schema to make data available to GraphQL queries.
--   **[Enable introspective queries for GraphQL schemas](../task/enable-introspective-queries-graphql-schemas.md)**  
+-   **[Enable introspective queries for GraphQL schemas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/enable-introspective-queries-graphql-schemas.md)**  
 Discover the queries and mutations supported by schemas on your instance by enabling introspection.
--   **[Test GraphQL APIs with GraphQL Explorer](../task/test-gql-schema.md)**  
+-   **[Test GraphQL APIs with GraphQL Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/test-gql-schema.md)**  
 Test query your GraphQL APIs using an integrated GraphQL testing tool.
--   **[Query a GraphQL schema from a component](../task/query-schema-from-component.md)**  
+-   **[Query a GraphQL schema from a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/query-schema-from-component.md)**  
 Access record data in a component by querying your scripted GraphQL schema.
--   **[GraphQL system properties](../reference/graphql-properties.md)**  
+-   **[GraphQL system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/graphql-properties.md)**  
 Configure GraphQL API framework behavior. For example, you can configure whether to allow introspective queries into your schema.
 
-**Parent Topic:**[Additional integration resources](../../outbound-web-services/concept/additional-integration-resources.md)
+**Parent Topic:**[Additional integration resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/additional-integration-resources.md)
 

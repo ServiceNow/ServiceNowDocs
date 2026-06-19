@@ -2,6 +2,7 @@
 title: Use the ActionSet Mouse action
 description: Do various mouse device actions on the desktop, Windows applications, and web pages on the Internet Explorer browser using the ActionSet Mouse action in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/use-actionset-mouse-action.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -21,17 +22,17 @@ Role required: none
 
 ## About this task
 
-Configure the properties for the ActionSet Mouse action. For more information about these properties, see [ActionSet-Mouse Action properties](../reference/actionset-actions-properties.md#actionset-mouse-action).
+Configure the properties for the ActionSet Mouse action. For more information about these properties, see [ActionSet-Mouse Action properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/actionset-actions-properties.md).
 
 ## Procedure
 
 1.  Right-click the anchor.
 
-    To know about the anchor, see [Anchor](../concept/anchor.md).
+    To know about the anchor, see [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/anchor.md).
 
 2.  Click **Mouse Action**.
 
-3.  Drag and place the green plus icon \(![Green plus icon.](../image/green-plus-icon.png)\) to the location on the captured image where the component will perform an action.
+3.  Drag and place the green plus icon \(\[Omitted image "green-plus-icon.png"\] Alt text: Green plus icon.\) to the location on the captured image where the component will perform an action.
 
 4.  To specify a mouse device action, select the action from the Type list in the PROPERTIES pane.
 
@@ -48,5 +49,5 @@ Configure the properties for the ActionSet Mouse action. For more information ab
 7.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Use the ActionSet component](use-actionsui-actionset.md)
+**Parent Topic:**[Use the ActionSet component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/use-actionsui-actionset.md)
 

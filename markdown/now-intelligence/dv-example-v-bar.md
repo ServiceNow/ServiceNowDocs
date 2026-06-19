@@ -2,6 +2,7 @@
 title: Vertical bar visualization example
 description: Vertical bar visualizations enable you to show the comparative size or frequency of different categories or groups, for example, sales in different regions or over different periods of time. The X axis of a vertical usually shows a numerical value such years or date ranges, age ranges, or salary ranges.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/dv-example-v-bar.html
 release: zurich
 topic_type: task
 last_updated: "2026-03-25"
@@ -15,7 +16,7 @@ Vertical bar visualizations enable you to show the comparative size or frequency
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../../reporting/concept/report-view-access-control.md) and [Platform Analytics roles](../reference/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -23,7 +24,7 @@ Use the vertical bar visualization type to compare different categories or group
 
 ## Procedure
 
-1.  Follow the first steps to [Create a horizontal or vertical bar data visualization](../../reporting/task/create-dv-bar-ac.md):
+1.  Follow the first steps to [Create a horizontal or vertical bar data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-dv-bar-ac.md):
 
     1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or open an in-line dashboard and select **Edit**.
 
@@ -65,7 +66,7 @@ Use the vertical bar visualization type to compare different categories or group
 
     Select **Type** and choose **Apply**. The columns now show different colors to distinguish the different types of outages.
 
-    ![Vertical bar additional group by selection with the Type field highlighted](../../reporting/image/dv-ex-v-bar-addl-groupby.png)
+    \[Omitted image "dv-ex-v-bar-addl-groupby.png"\] Alt text: Vertical bar additional group by selection with the Type field highlighted
 
 6.  Under Sorting, maintain the Sort by `Value` and Sort by order `Descending`.
 
@@ -103,7 +104,7 @@ Use the vertical bar visualization type to compare different categories or group
 
     |Stacked|Side-by-side|Normalized|
     |-------|------------|----------|
-    |![Stacked variation](../../reporting/image/dv-ex-v-bar-char-var-stacked.png)|![Side by side variation](../../reporting/image/dv-ex-v-bar-char-var-sbs.png)|![Normalized variation](../../reporting/image/dv-ex-v-bar-char-var-norm.png)|
+    |\[Omitted image "dv-ex-v-bar-char-var-stacked.png"\] Alt text: Stacked variation|\[Omitted image "dv-ex-v-bar-char-var-sbs.png"\] Alt text: Side by side variation|\[Omitted image "dv-ex-v-bar-char-var-norm.png"\] Alt text: Normalized variation|
 
 9.  Configure the Y axis.
 
@@ -119,7 +120,7 @@ Use the vertical bar visualization type to compare different categories or group
 
         In this example, select **Clean** because it's a little bit neater.
 
-        ![Vertical bar visualization with Y axis options](../../reporting/image/dv-ex-v-bar-y-axis.png)
+        \[Omitted image "dv-ex-v-bar-y-axis.png"\] Alt text: Vertical bar visualization with Y axis options
 
     4.  Change the Max label size to `50`.
 
@@ -164,7 +165,7 @@ Use the vertical bar visualization type to compare different categories or group
     -   **Default** applies the colors associated with your UX theme.
     -   **Color palette** uses hues of the same color, for example Sequential - Blues Light to Dark.
 
-        ![CMDB outages by type with blue palette applied](../../reporting/image/dv-ex-v-bar-color-palette-blues.png)
+        \[Omitted image "dv-ex-v-bar-color-palette-blues.png"\] Alt text: CMDB outages by type with blue palette applied
 
     -   **Fixed element color** specifies the same color for each element, such as hardware incidents. All data visualizations that use fixed element colors show the same element in the same color.
 
@@ -172,5 +173,5 @@ Use the vertical bar visualization type to compare different categories or group
 
 You have created a vertical bar visualization grouped on two fields. You have also configured the visualization's labeling, legend and ranges.
 
-**Parent Topic:**[Bar visualization examples](dv-example-bar.md)
+**Parent Topic:**[Bar visualization examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dv-example-bar.md)
 

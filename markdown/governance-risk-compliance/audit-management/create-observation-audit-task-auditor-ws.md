@@ -2,6 +2,7 @@
 title: Create an observation for an audit task
 description: Create an observation for an audit task to comply with federal state and local security legal requirements by studying the existing and new security legislation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/create-observation-audit-task-auditor-ws.html
 release: zurich
 product: Audit Management
 classification: audit-management
@@ -27,7 +28,7 @@ Creating an observation also helps enforce adherence to requirements, thereby ad
 
 1.  Navigate to **All** &gt; **Audit** &gt; **Audit Workspace**.
 
-2.  Click the tasks icon \(![Tasks icon.](../image/TasksIcon.jpg)\).
+2.  Click the tasks icon \(\[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon.\).
 
     The workspace opens listing **All** tasks in the **My pending tasks** tab. You can view **All – Audit tasks** assigned to you.
 
@@ -39,7 +40,7 @@ Creating an observation also helps enforce adherence to requirements, thereby ad
 
 5.  Click **New**.
 
-6.  Enter the details in the [Create New Observation](create-observation-audit-ws.md#create-observation-auditor-audit-ws) form.
+6.  Enter the details in the [Create New Observation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/create-observation-audit-ws.md) form.
 
 7.  Click **Save**.
 

@@ -2,6 +2,7 @@
 title: Update the assign\_business\_roles\_catalog system property
 description: The assign\_business\_roles\_catalog system property enables you to assign business roles to users through a catalog item as part of a lifecycle event, and is included with the Lifecycle Events for Enterprise \[com.sn\_hr\_lifecycle\_ent\] plugin. If you are using a custom catalog item with your lifecycle event, you must update the system property with the sys id of that item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-journey-management/update-assign-business-roles-catalog-item-system-property.html
 release: zurich
 product: Employee Journey Management
 classification: employee-journey-management
@@ -33,10 +34,10 @@ Role required: sn\_hr\_le\_ent.admin
 
     **Note:** The default value is the sys id of the **Assign business roles to new hire** catalog item that is included as part of the demo data for the lifecycle event for new hire onboarding.
 
-    ![Add the sys id of the catalog item that will be used to assign business roles as part of a lifecycle event.](../image/business-roles-system-property.png)
+    \[Omitted image "business-roles-system-property.png"\] Alt text: Add the sys id of the catalog item that will be used to assign business roles as part of a lifecycle event.
 
 4.  Click **Update**.
 
 
-**Parent Topic:**[Business roles](../concept/business-roles.md)
+**Parent Topic:**[Business roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-journey-management/business-roles.md)
 

@@ -2,6 +2,7 @@
 title: Data Discovery supported data types
 description: Check which field types are supported when using Data Discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-discovery/data-discovery-supported-data-types.html
 release: zurich
 product: Data Discovery
 classification: data-discovery
@@ -17,7 +18,7 @@ Check which field types are supported when using Data Discovery.
 
 **Note:** Not all field types that have been classified are available for Data Discovery.
 
-Some high risk field types are turned off by default, as detailed in the table. For more information about fields, see [Field Types](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Some high risk field types are turned off by default, as detailed in the table. For more information about fields, see Field Types.
 
 |Field type|Available by default|
 |----------|--------------------|

@@ -2,6 +2,7 @@
 title: GlideUser - Client
 description: The GlideUser API provides methods that access information about the current user and current user roles. Using this API avoids the need to use the slower GlideRecord queries to get user information.The current user's first name.Returns a client value set using setClientData\(\) or GlideSession -- putClientData\(\).Returns the first and last name of the current user.Returns true if the current user has the specified role or the admin role.Determines whether the current user has the specified role.Returns true if the current user has at least one of the specified roles or has the admin role.Returns true if the current user has any role.The current user's last name.Sets a client value that you can retrieve using getClientData\(\).The current user's username, for example gsmith02. It is not the user's name, for example George Smith.Returns the sys\_id of the current user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/c\_GlideUserAPI.html
 release: zurich
 product: API Reference
 classification: api-reference
@@ -27,7 +28,7 @@ Session information about the current user and current user roles is contained i
 
 For information on using client-side scripts, see [Introduction to Client-side Scripting](https://developer.servicenow.com/dev.do#!/learn/courses/sandiego/app_store_learnv2_scripting_rome_scripting_in_servicenow/app_store_learnv2_scripting_rome_client_side_scripting/app_store_learnv2_scripting_rome_introduction_to_client_side_scripting).
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/api-client.md)
 
 ## GlideUser - firstName
 
@@ -45,9 +46,9 @@ alert('first name = ' + g_user.firstName);
 
 Returns a client value set using setClientData\(\) or GlideSession -- putClientData\(\).
 
-Session client data is a set of named strings that may be setup on the server using [GlideSession -- putClientData\(\)](../../GlideSessionScoped/concept/c_GlideSessionScopedAPI.md#). You can use getClientData\(\) during form load time to get information that the client script needs to make decisions about the form. For example, to identify which fields should be visible.
+Session client data is a set of named strings that may be setup on the server using [GlideSession -- putClientData\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSessionScopedAPI.md). You can use getClientData\(\) during form load time to get information that the client script needs to make decisions about the form. For example, to identify which fields should be visible.
 
-See also [GlideForm](../../GlideForm/concept/c_GlideFormAPI.md#).
+See also [GlideForm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/c_GlideFormAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -115,7 +116,7 @@ Boolean
 
 </td><td>
 
-Optional. Flag that indicates whether to include default roles, such as snc\_internal and snc\_external, in the request. For additional information on roles, see [Exploring user administration](https://www.servicenow.com/docs/access?context=exploring-user-administration&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US). Default: false
+Optional. Flag that indicates whether to include default roles, such as snc\_internal and snc\_external, in the request. For additional information on roles, see . Default: false
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -156,7 +157,7 @@ Boolean
 
 </td><td>
 
-Optional. Flag that indicates whether to include default roles, such as snc\_internal and snc\_external, in the request. For additional information on roles, see [Explicit roles](https://www.servicenow.com/docs/access?context=explicit-roles&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+Optional. Flag that indicates whether to include default roles, such as snc\_internal and snc\_external, in the request. For additional information on roles, see Explicit roles.
 
 Default: false
 
@@ -223,7 +224,7 @@ Boolean
 
 </td><td>
 
-Optional. Flag that indicates whether to include default roles, such as snc\_internal and snc\_external, in the request. For additional information on roles, see [Exploring user administration](https://www.servicenow.com/docs/access?context=exploring-user-administration&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US). Default: false
+Optional. Flag that indicates whether to include default roles, such as snc\_internal and snc\_external, in the request. For additional information on roles, see . Default: false
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -264,7 +265,7 @@ Boolean
 
 </td><td>
 
-Optional. Flag that indicates whether to include default roles, such as snc\_internal and snc\_external, in the request. For additional information on roles, see [Exploring user administration](https://www.servicenow.com/docs/access?context=exploring-user-administration&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US). Default: false
+Optional. Flag that indicates whether to include default roles, such as snc\_internal and snc\_external, in the request. For additional information on roles, see . Default: false
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -295,7 +296,7 @@ alert('last name = ' + g_user.lastName);
 
 Sets a client value that you can retrieve using getClientData\(\).
 
-See also [GlideForm](../../GlideForm/concept/c_GlideFormAPI.md#).
+See also [GlideForm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/c_GlideFormAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|

@@ -2,6 +2,7 @@
 title: Edit or cancel a reservation on Now Mobile app
 description: Modify your upcoming reservation or cancel the reservation at any time using the Now Mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-service-delivery-for-mobile/edit-rsv-on-mobile.html
 release: zurich
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
@@ -25,11 +26,11 @@ Role required: sn\_wsd\_core.workplace\_user
 
 2.  In the Workplace Reservations section, tap **My reservations**.
 
-    You can also open the My reservations section by tapping the more options icon \(![more option icon in an android device.](../images/cance-rsv.png)\) and selecting **My reservations**.
+    You can also open the My reservations section by tapping the more options icon \(\[Omitted image "cance-rsv.png"\] Alt text: more option icon in an android device.\) and selecting **My reservations**.
 
 3.  Select the reservation that you want to edit.
 
-    **Note:** You can edit a reservation only if the option is enabled. The ![more option icon in an android device.](../images/cance-rsv.png) will appear if the editing option is available.
+    **Note:** You can edit a reservation only if the option is enabled. The \[Omitted image "cance-rsv.png"\] Alt text: more option icon in an android device. will appear if the editing option is available.
 
 4.  Tap **Edit reservation**.
 
@@ -51,7 +52,7 @@ Role required: sn\_wsd\_core.workplace\_user
 
 10. To cancel the reservation, click **Cancel**.
 
-    You can also click the more options icon \(![more option icon in an android device.](../images/cance-rsv.png)\)
+    You can also click the more options icon \(\[Omitted image "cance-rsv.png"\] Alt text: more option icon in an android device.\)
 
     **Note:** The appearance of the icon depends on the type of device that you are using.
 
@@ -60,9 +61,9 @@ Role required: sn\_wsd\_core.workplace\_user
 
 The reservation is updated or canceled accordingly.
 
-**Parent Topic:**[Using Workplace Service Delivery for Mobile](../concept/using-wsd-mobile.md)
+**Parent Topic:**[Using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery-for-mobile/using-wsd-mobile.md)
 
-**Previous topic:**[Get directions to a workplace](get-directions-to-a-workplace.md)
+**Previous topic:**[Get directions to a workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery-for-mobile/get-directions-to-a-workplace.md)
 
-**Next topic:**[Check in or check out a reservation](check-in-out-rsv-on-mobile.md)
+**Next topic:**[Check in or check out a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery-for-mobile/check-in-out-rsv-on-mobile.md)
 

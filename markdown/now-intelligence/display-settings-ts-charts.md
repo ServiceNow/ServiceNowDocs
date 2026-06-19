@@ -2,6 +2,7 @@
 title: Display settings for different time series data visualizations
 description: Each time series visualization type has a different set of display settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/display-settings-ts-charts.html
 release: zurich
 topic_type: reference
 last_updated: "2025-07-31"
@@ -265,5 +266,5 @@ Show continuous line
 When selected and there is no data for a specific time, there is no gap in the chart and it shows continuous line.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create time series data visualizations](../task/create-dv-time-series-ac.md)
+</table>**Parent Topic:**[Create time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-dv-time-series-ac.md)
 

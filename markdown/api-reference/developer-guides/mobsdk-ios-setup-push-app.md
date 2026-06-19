@@ -2,6 +2,7 @@
 title: Setting up push notifications in your iOS application
 description: In addition to the tasks that you must perform on your ServiceNow instance to configure a push notification, you must also include specific code in your iOS application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/developer-guides/mobsdk-ios-setup-push-app.html
 release: zurich
 product: Developer Guides
 classification: developer-guides
@@ -28,7 +29,7 @@ func setup(with instanceURL: URL) -> AnyPublisher<NowService, ConfigurationError
 }
 ```
 
-For additional information on the NowPush.makePushService\(\) method, refer to [NowPush API - iOS](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowPush/concept/NowPushiOSAPI.md#).
+For additional information on the NowPush.makePushService\(\) method, refer to [NowPush API - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowPushiOSAPI.md).
 
 ## Register the push token
 
@@ -52,7 +53,7 @@ func registerForPushNotifications(deviceToken: Data) {
 }
 ```
 
-For additional information on the registerPushToken\(\) method, refer to [NowPushService - registerPushToken\(\_token: Data, pushAppName: String, environment: NowPushEnvironment, completion: @escaping \(Result&lt;Data, NowPushError&gt;\) -&gt; Void\)](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowPushService/concept/NowPushServiceiOSAPI.md#).
+For additional information on the registerPushToken\(\) method, refer to [NowPushService - registerPushToken\(\_token: Data, pushAppName: String, environment: NowPushEnvironment, completion: @escaping \(Result&lt;Data, NowPushError&gt;\) -&gt; Void\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowPushServiceiOSAPI.md).
 
 ## Unregister the push token
 
@@ -73,7 +74,7 @@ func unregisterFromPushNotifications(deviceToken: Data) {
 }
 ```
 
-For additional information on the unregisterPushToken\(\) method, refer to [NowPushService - unregisterPushToken\(\_token: Data, pushAppName: String, environment: NowPushEnvironment, completion: @escaping \(Result&lt;Data, NowPushError&gt;\) -&gt; Void\)](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowPushService/concept/NowPushServiceiOSAPI.md#).
+For additional information on the unregisterPushToken\(\) method, refer to [NowPushService - unregisterPushToken\(\_token: Data, pushAppName: String, environment: NowPushEnvironment, completion: @escaping \(Result&lt;Data, NowPushError&gt;\) -&gt; Void\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowPushServiceiOSAPI.md).
 
 ## Parse push payload
 

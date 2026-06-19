@@ -2,9 +2,12 @@
 title: Contextualize an external document
 description: With the AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\), contextualize an external document to get an explanation of why the document is relevant to an Operational Technology \(OT\) incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/use-ai-enhanced-ra-otsm.html
 release: zurich
+product: Operational Technology
+classification: operational-technology
 topic_type: task
-last_updated: "2026-01-23"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use, AI Enhanced Recommended Actions for OTSM, Operational Technology]
 ---
@@ -34,5 +37,5 @@ Role required: sn\_ot\_incident\_write
     A summary appears that explains why the selected document is relevant to your OT incident.
 
 
-**Parent Topic:**[Using AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](../concept/using-ai-enhanced-ra-otsm.md)
+**Parent Topic:**[Using AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/using-ai-enhanced-ra-otsm.md)
 

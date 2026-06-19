@@ -2,6 +2,7 @@
 title: Run Discovery on GitHub Actions config provider
 description: Discover all repositories and workflows in your organization by adding a GitHub Actions config provider and running Discovery on it using the Cloud Services Catalog application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/run-discovery-on-github-actions-config-provider.html
 release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -113,5 +114,5 @@ Order in which  Discovery  tries this credential when it attempts to log on 
 
 Discovered config installables are saved in the sn\_cmp\_cfg\_installable table using the format ProviderName.WorkflowName.
 
-**Parent Topic:**[Integrating GitHub Actions with Cloud-Services-Catalog](../concept/integrating-github-actions-with-cloud-service-catalog.md)
+**Parent Topic:**[Integrating GitHub Actions with Cloud-Services-Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/integrating-github-actions-with-cloud-service-catalog.md)
 

@@ -2,6 +2,7 @@
 title: Access a Microsoft Teams chat in Employee Center
 description: Access a ticket's Microsoft Teams chat in the Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/access-teams-chat-widget-hr.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -44,5 +45,5 @@ Messages are loaded dynamically. The Teams Chat widget does not display message 
     -   For the desktop version, select **Open in Microsoft Teams Desktop**.
     -   For the mobile version, select **Open in Microsoft Teams Browser**.
 
-**Parent Topic:**[Employee actions](../concept/employee-sn-ms-teams.md)
+**Parent Topic:**[Employee actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-sn-ms-teams.md)
 

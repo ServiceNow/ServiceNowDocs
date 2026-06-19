@@ -2,6 +2,7 @@
 title: Monitoring order jeopardy
 description: Order managers and agents can monitor jeopardy-enabled fulfillment tasks. When a task enters jeopardy, managers can take action to ensure the fulfillment workflow isn’t delayed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/monitoring-jeopardy-management.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -59,7 +60,7 @@ SLA Definition Progress Bar
 </td><td>
 
 Navigate to **Customer Order** &gt; **Order** &gt; **Order Line Item** &gt; **Task** &gt; **SLA** and view the status bar. The status bar shows the SLA progress, for example:-   Green: SLA progressing on its time line.
--   Red: Task is near the end of the critical percentage of allotted time.![The image shows a method of monitoring jeopardy risk level using the Order Task Characteristics Values table.](../image/jm-sla-indicator.png)
+-   Red: Task is near the end of the critical percentage of allotted time.\[Omitted image "jm-sla-indicator.png"\] Alt text: The image shows a method of monitoring jeopardy risk level using the Order Task Characteristics Values table.
 
 </td></tr></tbody>
 </table>

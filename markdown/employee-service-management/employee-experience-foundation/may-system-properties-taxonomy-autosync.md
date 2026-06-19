@@ -2,6 +2,7 @@
 title: Enable connected content autosync system property
 description: Content updates are automatically synced when you enable the autosync system property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/may-system-properties-taxonomy-autosync.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -26,7 +27,7 @@ By enabling this property, you can gain visibility into new and outdated content
 **Note:** The connected content autosync system property is available from Zurich and above.
 
 -   Auto-sync content additions and removals on topic pages in bulk.
--   Eliminate the need to manually update the content additions and deletions. For more information, see [Run the scheduled job for content association](schduld-job-link-cntnt.md).
+-   Eliminate the need to manually update the content additions and deletions. For more information, see [Run the scheduled job for content association](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/schduld-job-link-cntnt.md).
 
 ## Procedure
 
@@ -45,7 +46,7 @@ By enabling this property, you can gain visibility into new and outdated content
 
 The system property syncs updates automatically.
 
-However, to check the updated content in categories manually, see [Check for updated content in categories](may-associate-updated-content-categories-topics.md).
+However, to check the updated content in categories manually, see [Check for updated content in categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/may-associate-updated-content-categories-topics.md).
 
-**Parent Topic:**[Manage connected content from topic pages](mnge-content-topics.md)
+**Parent Topic:**[Manage connected content from topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/mnge-content-topics.md)
 

@@ -2,6 +2,7 @@
 title: AuthorizationToken class - Android
 description: The AuthorizationToken class provides the authorization token provided by the host application. Used by the NowSDK to authorize access to a specified ServiceNow instance for the currently logged in user.Returns the authorization token provided by the host application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/cllent-mobile-api-reference/AuthorizationTokenAndroidAPI.html
 release: zurich
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -56,7 +57,7 @@ Type of authorization token.Valid values \(case-sensitive\):
 -   OAuthRefresh
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK - Android](../../concept/MobileSDKAndroidAPI.md)
+</table>**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## AuthorizatonToken - AuthorizationToken\(type: AuthorizationTokenType, token: String\)
 

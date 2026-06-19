@@ -2,6 +2,7 @@
 title: Generate workflow activity
 description: The Generate activity immediately creates task or approval records from any task or approval activities placed after the Generate activity in the workflow path. These pre-generated tasks and approvals start when the task and approval activities are reached during flow execution. This allows a task to have a set of associated pre-generated sequential tasks or approvals, but still require them to be completed in order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-activities/r\_Generate.html
 release: zurich
 product: Workflow Activities
 classification: workflow-activities
@@ -21,7 +22,7 @@ By default, the workflow does not create any tasks or approvals until it reaches
 
 The **Generate** activity follows all transitions through the workflow to each activity. For each activity:
 
--   If it is a [task activity](https://www.servicenow.com/docs/access?context=r_TaskActivities&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US), creates the task and sets:
+-   If it is a task activity, creates the task and sets:
 
     -   The **State** to **Pending**
     -   The **Expected Start Date**
@@ -68,7 +69,7 @@ The activity state tells the workflow engine what to do with the activity.
 
 ## Example
 
-![Sample workflow that uses the Generate activity](../image/GenerateWorkflow.png "Generate workflow")
+\[Omitted image "GenerateWorkflow.png"\] Alt text: Sample workflow that uses the Generate activity
 
 In this example, the following approvals are generated:
 
@@ -79,7 +80,7 @@ Approval-4 is skipped since the **Rejected** condition of Approval-3 has **Skip 
 
 Here is an example of using the **Generate** activity that describes the expected start and due dates:
 
-![](../image/GenerateWorkflowStartAndDueDate.png "Generate workflow start and due date")
+\[Omitted image "GenerateWorkflowStartAndDueDate.png"\] Alt text:
 
 In this example, if the **Generate** activity is run on Jan 1, 2016, the following expected start dates and due dates would be set for the generated tasks.
 

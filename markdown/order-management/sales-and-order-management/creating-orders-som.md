@@ -2,11 +2,12 @@
 title: Creating orders in Order Management
 description: Familiarize yourself with the steps for creating customer or service orders in Order Management using the CSM/FSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/creating-orders-som.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
-last_updated: "2025-08-21"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -17,7 +18,7 @@ Familiarize yourself with the steps for creating customer or service orders in O
 
 The following illustration lists the high-level steps for creating a fresh order with the Add action type. At this stage, the order agents focus on capturing commercial details such as quantity, product configuration, and pricing for placing an order. Fulfillment agents capture technical details required for fulfilling the order in the order enrichment stage.
 
-![High-level steps in the order creation process. For details, refer to the list of task topics that follows.](../image/create-order-flow.svg "Order creation process")
+\[Omitted image "create-order-flow.svg"\] Alt text: High-level steps in the order creation process. For details, refer to the list of task topics that follows.
 
 1.  Initiate the order process from the CSM/FSM Configurable Workspace.
 2.  Input delivery information, including the shipping and billing preferences.

@@ -2,6 +2,7 @@
 title: Working with scheduled test suites
 description: You can schedule a test suite to run at a specified date and time.You can designate users to be notified when a scheduled test suite finishes executing.When the system completes executing a scheduled test suite, it sends an email to users on the Scheduled Suite Run record watchlist. This email contains information and links to further information about the Scheduled Suite Run and its results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/atf-sched-suites.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -29,11 +30,11 @@ The watchlist on the test suite run record also allows you to specify users to r
 
 If the test suite contains one or more form steps \(steps involving a user interface\), you must ensure that a scheduled client test runner is actively running in a browser when the schedule triggers the suite run.
 
-**Note:** See [Browser recommendations and requirements](atf-test-runners.md#kvv_h25_gx) for recommendations and requirements for running the client test runner.
+**Note:** See [Browser recommendations and requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-test-runners.md) for recommendations and requirements for running the client test runner.
 
-For step-by-step instructions on how to schedule a test suite, see [Schedule an automated test suite](../task/atf-sched-suite-steps.md).
+For step-by-step instructions on how to schedule a test suite, see [Schedule an automated test suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-sched-suite-steps.md).
 
-**Parent Topic:**[Administering the Automated Test Framework \(ATF\)](atf-admin-overview.md)
+**Parent Topic:**[Administering the Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-admin-overview.md)
 
 ## Designate users to receive email when system finishes running a scheduled test suite
 
@@ -58,17 +59,17 @@ When the system completes executing a scheduled test suite, it sends an email to
 
 ### Suite Stats
 
-The Suite Stats section of the email reports the number of suites and individual tests broken down by result status: Failed \(F\), Error \(E\), Skipped \(S\), Canceled \(C\), or Passed \(P\). For a description of what each status means, see [Test suite results record](../reference/atf-test-suite-results-record.md).
+The Suite Stats section of the email reports the number of suites and individual tests broken down by result status: Failed \(F\), Error \(E\), Skipped \(S\), Canceled \(C\), or Passed \(P\). For a description of what each status means, see [Test suite results record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-test-suite-results-record.md).
 
 ### Test Suite Results
 
 The Test Suite Results section of the email reports test suite results over time.
 
-**Note:** By default, this report includes only suites with failed tests, but you can change this setting with the **Email properties** field on the [Properties](../reference/atf-admin-properties.md) page. If set to default, only the failed tests within a test suite are reported.
+**Note:** By default, this report includes only suites with failed tests, but you can change this setting with the **Email properties** field on the [Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-admin-properties.md) page. If set to default, only the failed tests within a test suite are reported.
 
-![Image showing ATF email report](../image/atf-email-report.png "Preview email report")
+\[Omitted image "atf-email-report.png"\] Alt text: Image showing ATF email report
 
-**Note:** ATF reports only recent tests results on the email report. All the previous test results still exist if it's within the set retention time limit. See [Table cleanup](table-cleanup.md) for more information on retention policy for ATF test results.
+**Note:** ATF reports only recent tests results on the email report. All the previous test results still exist if it's within the set retention time limit. See [Table cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/table-cleanup.md) for more information on retention policy for ATF test results.
 
 |Letter|Color|Description|
 |------|-----|-----------|
@@ -82,5 +83,5 @@ Each entry acts as a link to the result record for that run. If you point the mo
 
 ### Properties affecting email content
 
-On the [Automated Test Framework Properties](../reference/atf-admin-properties.md) form, you can set options affecting the format and content of the email.
+On the [Automated Test Framework Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-admin-properties.md) form, you can set options affecting the format and content of the email.
 

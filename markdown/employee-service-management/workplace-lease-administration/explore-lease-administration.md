@@ -2,6 +2,7 @@
 title: Exploring Workplace Lease Administration
 description: The ServiceNow Workplace Lease Administration enables you to create, manage and track workplace contracts from a single interface. You can also add workplace contract services, assets, locations, documents and track important dates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-lease-administration/explore-lease-administration.html
 release: zurich
 product: Workplace Lease Administration
 classification: workplace-lease-administration
@@ -51,5 +52,5 @@ Using Workplace Lease Administration you can create workplace contracts with the
 
 ## Workplace contract notifications
 
-You will receive notifications on a weekly basic with the list of contracts that are near to their expiration date. For information about how to renew contracts, see [Renew workplace contract in Core UI](../task/renew-lease-workplace-contracts.md).
+You will receive notifications on a weekly basic with the list of contracts that are near to their expiration date. For information about how to renew contracts, see [Renew workplace contract in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-lease-administration/renew-lease-workplace-contracts.md).
 

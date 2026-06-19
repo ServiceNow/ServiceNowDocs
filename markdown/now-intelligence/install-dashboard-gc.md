@@ -2,6 +2,7 @@
 title: Install the General Counsel \(GC\) Dashboard
 description: For a general counsel, this dashboard provides transparency into legal service delivery and operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/install-dashboard-gc.html
 release: zurich
 topic_type: task
 last_updated: "2025-08-18"
@@ -41,7 +42,7 @@ Application plugins:
 
     Select **Request** to request the GC Dashboard application plugin for the specified instance and provide the instance details with your reason for request and validate the instance.
 
-    ![](../image/cxo-request-install.png)
+    \[Omitted image "cxo-request-install.png"\] Alt text:
 
 4.  Navigate to **System applications** &gt; **All available applications**.
 
@@ -59,6 +60,6 @@ Application plugins:
 
         Assign the user role sn\_lsd\_dashboard.gc\_dashboard\_user to users or groups who must view the dashboard.
 
-    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://www.servicenow.com/docs/access?context=exploring-user-administration&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see .
 
 

@@ -2,13 +2,14 @@
 title: Perform export steps
 description: Export a file from a local source, a remote network server, or another instance by providing a path and authentication information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/validate-errors.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Procurement File Transfer Framework, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Procurement File Transfer Framework, Integrate Sourcing Procurement Operations other, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Perform export steps
@@ -44,15 +45,15 @@ Role required: admin
     Verify the accuracy of the data, identify any discrepancies, and share the errors with the reseller on the same FTP server. You may use flow designer to move the data from your instance to external applications.
 
 
--   **[Export data to the FTP server](export-data-ftp.md)**  
+-   **[Export data to the FTP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/export-data-ftp.md)**  
 Export a file from a local source, a remote network server, or another instance by providing a path and authentication information.
 
-**Parent Topic:**[Procurement File Transfer Framework](../concept/procurement-file-transfer-framework.md)
+**Parent Topic:**[Procurement File Transfer Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/procurement-file-transfer-framework.md)
 
 **Related topics**  
 
 
-[MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.mid-server-landing]
 
-[Introduction to credentials, connections, and aliases](https://www.servicenow.com/docs/access?context=credentials-connections-alias&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.credentials-connections-alias]
 

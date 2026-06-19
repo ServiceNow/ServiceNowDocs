@@ -2,6 +2,7 @@
 title: Project form in Project Workspace
 description: Learn about the fields on the project form of the Project Workspace. Use this form to create a project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/project-form-pw.html
 release: zurich
 product: Project Workspace
 classification: project-workspace
@@ -35,6 +36,14 @@ Preferred name of the project.
 
 </td></tr><tr><td>
 
+Project type
+
+</td><td>
+
+Project type that determines the custom fields and form layout applied to this project.
+
+</td></tr><tr><td>
+
 Planned start date
 
 </td><td>
@@ -58,5 +67,5 @@ Project template
 Template to apply for your project. If the template you need is not available in the list, you can create it later and apply to your project.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Project Workspace](form-field-information-for-project-workspace.md)
+</table>**Parent Topic:**[Form field information for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/form-field-information-for-project-workspace.md)
 

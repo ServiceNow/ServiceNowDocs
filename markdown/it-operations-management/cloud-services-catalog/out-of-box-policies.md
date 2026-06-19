@@ -2,6 +2,7 @@
 title: Out Of Box Policies
 description: The Cloud Services Catalog Out of the Box Policies comprise Approval, Naming, Lease and Quota Provisioning Policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/out-of-box-policies.html
 release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -53,8 +54,8 @@ Quota Policy
 
 </td><td>
 
-Quota Policy is used to decide if a request which is run once quota is exceeded, should go to approval or to be aborted. See [Resource order controls for template-based cloud catalog items](../../cloud-management-v2/concept/resource-order-control-template-based-catalog.md)
+Quota Policy is used to decide if a request which is run once quota is exceeded, should go to approval or to be aborted. See [Resource order controls for template-based cloud catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/resource-order-control-template-based-catalog.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](../concept/out-of-the-box-catalog-items.md)
+</table>**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md)
 

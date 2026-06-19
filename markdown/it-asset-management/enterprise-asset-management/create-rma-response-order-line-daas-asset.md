@@ -2,6 +2,7 @@
 title: Create a Return Merchandise Authorization \(RMA\) response order line for a defective Device as a Service \(DaaS\) asset
 description: Create an RMA response order line for each defective DaaS asset that you want to repair or replace through an RMA response order. Use each order line to track and manage the tasks that you must complete to repair or replace the given asset.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/create-rma-response-order-line-daas-asset.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -25,15 +26,15 @@ Role required: sn\_eam\_provider.provider\_asset\_manager
 
 2.  Open the RMA response order lines list.
 
-<table id="choicetable_my1_vjg_bhc"><thead><tr><th align="left" id="d202824e78">
+<table id="choicetable_my1_vjg_bhc"><thead><tr><th align="left" id="d198600e78">
 
 Navigation option
 
-</th><th align="left" id="d202824e81">
+</th><th align="left" id="d198600e81">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d202824e87">
+</th></tr></thead><tbody><tr><td id="d198600e87">
 
 **Provider RMA response order**
 
@@ -44,7 +45,7 @@ Procedure
 3.  On the RMA response order record, select the **RMA response order lines** tab.
 
 
-</td></tr><tr><td id="d202824e120">
+</td></tr><tr><td id="d198600e120">
 
 **Provider RMA response order line**
 
@@ -105,7 +106,7 @@ Asset that you want to repair or replace.**Note:** The list of available assets 
 
 ## What to do next
 
-Perform all tasks that are required for completing the RMA response order line so that you can complete and close the associated RMA response order. For detailed instructions, see [Completing a Return Merchandise Authorization \(RMA\) response order for defective Device as a Service \(DaaS\) assets](../concept/completing-rma-response-order-daas-assets.md).
+Perform all tasks that are required for completing the RMA response order line so that you can complete and close the associated RMA response order. For detailed instructions, see [Completing a Return Merchandise Authorization \(RMA\) response order for defective Device as a Service \(DaaS\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/completing-rma-response-order-daas-assets.md).
 
-**Parent Topic:**[Managing Return Merchandise Authorization \(RMA\) response orders for defective Device as a Service \(DaaS\) assets](../concept/managing-rma-response-orders-daas-assets.md)
+**Parent Topic:**[Managing Return Merchandise Authorization \(RMA\) response orders for defective Device as a Service \(DaaS\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/managing-rma-response-orders-daas-assets.md)
 

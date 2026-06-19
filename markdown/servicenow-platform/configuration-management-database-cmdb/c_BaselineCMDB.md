@@ -2,6 +2,7 @@
 title: Baseline CMDB
 description: Baseline CMDB provides capabilities that help you understand and control the changes that have been made to your configuration items \(CIs\) in the CMDB.You can create a baseline for a CI to track updates to the CI over time.You can see the changes that have been made to a CI or any first level related CIs by configuring the CI form layout to display the CMDB Baseline diff field. This field is labeled Baseline differences on the form.Use the baseline CMDB properties to configure how many changes and relationships for a CI can appear in the baseline diff for the CI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/c\_BaselineCMDB.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -75,7 +76,7 @@ Changes are displayed only for the cmdb\_ci table and child tables. You can chan
 
 3.  To add a relationship to the CI, click the green plus icon in the **Related Items** toolbar.
 
-    The new relationship appears below the toolbar. For more information about the Related Items toolbar and how to control the display, see [CI relations formatter](c_CIRelationsFormatterNG.md).
+    The new relationship appears below the toolbar. For more information about the Related Items toolbar and how to control the display, see [CI relations formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_CIRelationsFormatterNG.md).
 
 4.  Update a related CI and see the changes displayed as **Basic attribute changes** in the current CI record.
 
@@ -85,7 +86,12 @@ Changes are displayed only for the cmdb\_ci table and child tables. You can chan
 To improve performance and prevent memory issues when showing large amounts of baseline differences data on CI forms, complete the following steps:
 
 1.  Set the system property **com.cmdb.baseline.entry.attachment** to true.
-2.  Manually run once the **CMDB Baseline convert XML to attachment** fix script. For information about running a fix script, see [Run fix scripts](https://www.servicenow.com/docs/access?context=t_RunFixScripts&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+2.  Manually run once the **CMDB Baseline convert XML to attachment** fix script. For information about running a fix script, see .
+
+**Related topics**  
+
+
+[bundle-psec.c_HistoryTimeline]
 
 ## Properties for baseline CMDB
 
@@ -125,8 +131,8 @@ Lets you manually run the **CMDB Baseline convert XML to attachment** fix script
 
  -   Type: true \| false
 -   Default value: false
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
--   Learn more: [Baseline CMDB](c_BaselineCMDB.md#)
+-   Location: Add to System Properties \[sys\_properties\] table.
+-   Learn more: [Baseline CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_BaselineCMDB.md)
 
 </td></tr></tbody>
 </table>

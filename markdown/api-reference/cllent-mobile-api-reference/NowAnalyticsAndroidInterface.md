@@ -2,6 +2,7 @@
 title: NowAnalyticsSDK interface - Android
 description: The NowAnalyticsSDK interface provides functions that enable you to configure analytics properties, user settings, and events for managing a collection of user analytics data.Adds an application event, such as a user reaching a specific level or screen. These events appear on the dashboard in the order that they occurred.Adds an application event, such as a user reaching a specific level or screen, and enables the setting of custom properties on the event. These events appear on the dashboard in the order that they occurred.Adds a custom action. These actions appear in the user dashboard as part of the session data and describes a screen change in an application.Appends the specified item to the specified user property list.Configures the specified ServiceNow instance URL and callbacks to NowAnalytics.Deletes all local and remote data for the current user.Returns the current user's consent response to analytics tracking.Increments or decrements the value of the specified numeric property by the specified value.Enables the calling of javaScript.SNMobileAnalytics methods from within a \{@link android.webkit.WebView\}, using JavaScript.Deletes the specified property for the current user.Sets a listener on the NowAnalytics' events such as session changes and automatic screen detections.Sets the current user's consent response to analytics tracking.Sets the application-specific user identifier. Pass nil to log the current user out.Sets multiple properties with the specified values for the current user. Properties can be anything that you want to track on the dashboard for a user.Sets the specified property with the specified value for the current user. Properties can be anything that you want to track on the dashboard for a user.Logs the time when the associated screen first appears in the UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/cllent-mobile-api-reference/NowAnalyticsAndroidInterface.html
 release: zurich
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -17,9 +18,9 @@ The NowAnalyticsSDK interface provides functions that enable you to configure an
 
 |Name|Type|Description|
 |----|----|-----------|
-|configuration|[NowServiceConfiguration](../../NowServiceConfiguration/concept/NowServiceConfigurationAndroidAPI.md)|Configuration to associate with the service.|
+|configuration|[NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowServiceConfigurationAndroidAPI.md)|Configuration to associate with the service.|
 
-**Parent Topic:**[Mobile SDK - Android](../../concept/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## NowAnalyticsSDK - addEvent\(eventName: String\)
 
@@ -438,7 +439,7 @@ NowAnalyticsSDK.getAnalyticsService().setUserId("John Doe")
 
 Sets multiple properties with the specified values for the current user. Properties can be anything that you want to track on the dashboard for a user.
 
-To set the current user, call the [NowAnalyticsSDK - setUserId\(userId: String\)](NowAnalyticsAndroidInterface.md#) function.
+To set the current user, call the [NowAnalyticsSDK - setUserId\(userId: String\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAnalyticsAndroidInterface.md) function.
 
 <table id="table_wqc_g5j_5pb" class="parameters"><thead><tr><th>
 
@@ -493,7 +494,7 @@ NowAnalyticsSDK.getAnalyticsService().setUserProperties(
 
 Sets the specified property with the specified value for the current user. Properties can be anything that you want to track on the dashboard for a user.
 
-To set the current user, call the [NowAnalyticsSDK - setUserId\(userId: String\)](NowAnalyticsAndroidInterface.md#) function.
+To set the current user, call the [NowAnalyticsSDK - setUserId\(userId: String\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAnalyticsAndroidInterface.md) function.
 
 <table id="table_fzh_fvj_5pb" class="parameters"><thead><tr><th>
 

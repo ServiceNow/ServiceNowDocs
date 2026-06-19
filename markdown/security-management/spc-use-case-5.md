@@ -2,6 +2,7 @@
 title: Security Posture Control use case: Detecting assets with vulnerabilities and security tool coverage gaps
 description: You can identify assets with critical vulnerabilities and missing critical security tools such as endpoint protection to prioritize those assets for remediation. Security Posture Control ships a few policies included with the product to support this use case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/spc-use-case-5.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"

@@ -2,6 +2,7 @@
 title: Pipelines in ReleaseOps
 description: A pipeline is the flow of a deployment in ReleaseOps. A pipeline's flow is defined within playbooks, which enables you to customize as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/releaseops/releaseops-pipeline-environments.html
 release: zurich
 product: ReleaseOps
 classification: releaseops
@@ -26,7 +27,7 @@ ReleaseOps includes sample playbooks to demonstrate basic pipelines with the int
 |Playbook|Stage|Description|
 |--------|-----|-----------|
 |Deployment Request Assessment playbook|Assessment stage for a standard/scheduled release|Moves update sets in deployment request to the Test instance and executes defined Automated Test Framework \(ATF\) tests \(as specified in the deployment request and the pipeline\).|
-|On-Demand Deployment Request Assessment playbook|Assessment stage for an on-demand release|Runs the deployment analyzer and Instance Scan with [sample rules](../reference/deployment-analyzer-rules.md) to either enable or deny an on-demand deployment. Doesn’t run any ATF tests.|
+|On-Demand Deployment Request Assessment playbook|Assessment stage for an on-demand release|Runs the deployment analyzer and Instance Scan with [sample rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/deployment-analyzer-rules.md) to either enable or deny an on-demand deployment. Doesn’t run any ATF tests.|
 |Release Deployment playbook|Release stage|Prepares a release, including moving deployment requests that aren’t ready out of the release and calculating update set ordering. Used for both on-demand and scheduled releases.|
 
 A pipeline maps intermediate instances to the playbook. For example, the sample playbooks reference a Test instance, which must be mapped to a physical deployment instance. The actual pipeline runs from the source instance specified in the deployment request, to the destination instance specified in the release. Intermediate instances \(such as Test\) are defined in the pipeline. ATF test suites can also be specified at the pipeline level to enforce a given list of tests to be run when a given pipeline is used.

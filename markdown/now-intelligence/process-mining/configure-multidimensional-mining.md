@@ -2,6 +2,7 @@
 title: Configure multi-dimensional mining
 description: Use multi-dimensional mining to identify inefficiencies and improve performance by evaluating data from multiple related tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/configure-multidimensional-mining.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -37,13 +38,13 @@ Often the start and end of a full workflow occurs outside the life cycle of your
 
     A new table configuration page is displayed.
 
-    ![Add child table](../image/multi-dimension-2.png)
+    \[Omitted image "multi-dimension-2.png"\] Alt text: Add child table
 
 3.  Provide a name for the child table configuration in the **Name** field.
 
 4.  In the **Step 1** section, provide details as you would do for table configuration.
 
-    For more information, see [Set up a table configuration](po-table-configuration.md).
+    For more information, see [Set up a table configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/po-table-configuration.md).
 
 5.  To set a relationship, fill the fields in the **Step 2** section.
 
@@ -98,8 +99,8 @@ If you select the **Reference** relation, then select a field from the child tab
 
     A new child table configuration is created.
 
-    Configure an activity definition for the table configuration. For more information, see [Configure an activity definition](configure-activity.md).
+    Configure an activity definition for the table configuration. For more information, see [Configure an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/configure-activity.md).
 
 
-**Parent Topic:**[Set up a table configuration](po-table-configuration.md)
+**Parent Topic:**[Set up a table configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/po-table-configuration.md)
 

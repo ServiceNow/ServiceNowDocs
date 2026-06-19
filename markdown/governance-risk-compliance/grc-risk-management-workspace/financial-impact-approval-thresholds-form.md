@@ -2,6 +2,7 @@
 title: Financial Impact Approval Thresholds
 description: Use the Financial Impact Approval Thresholds form to define monetary thresholds that trigger approval requirements for risk events and to configure how approvers are determined when those thresholds are met.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/financial-impact-approval-thresholds-form.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -87,5 +88,5 @@ Persona
 Stakeholder role associated with the entity, such as Head of Business or Risk Manager. The system uses the selected persona to determine the risk event approver when approval is based on an entity stakeholder. This field appears only when **Entity stakeholder** is selected from **Assignment type**.**Note:** Based on the selected persona, the **Owning group** field is auto-populated.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Define a threshold amount for the risk event response template](../task/define-threshold-amount-risk-event.md)
+</table>**Parent Topic:**[Define a threshold amount for the risk event response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/define-threshold-amount-risk-event.md)
 

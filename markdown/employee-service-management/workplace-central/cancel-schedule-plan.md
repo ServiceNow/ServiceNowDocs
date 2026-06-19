@@ -2,6 +2,7 @@
 title: Cancel a schedule plan
 description: Cancel a schedule plan to deactivate the location assignment records for your employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-central/cancel-schedule-plan.html
 release: zurich
 product: Workplace Central
 classification: workplace-central
@@ -27,7 +28,7 @@ Role required: sn\_wsd\_spcmgmt.project\_owner
 
     You can also open Workplace Central from the Employee Center by navigating to **Workspaces** &gt; **Workplace Central**.
 
-2.  Select the **Schedule Planner** icon \(![Schedule Planner icon.](../images/schedule-plan-icon.png)\).
+2.  Select the **Schedule Planner** icon \(\[Omitted image "schedule-plan-icon.png"\] Alt text: Schedule Planner icon.\).
 
 3.  From the Schedule Plans list, select the schedule plan that you want to cancel.
 
@@ -40,5 +41,5 @@ Role required: sn\_wsd\_spcmgmt.project\_owner
 
 The schedule plan is moved to the Canceled state. If the schedule plan was published before being cancelled, the location assignments created in the plan are made inactive.
 
-**Parent Topic:**[Working with Schedule Planning](../concept/working-with-schedule-planning.md)
+**Parent Topic:**[Working with Schedule Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/working-with-schedule-planning.md)
 

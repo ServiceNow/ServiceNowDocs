@@ -2,12 +2,13 @@
 title: Work on self-served contract requests as a contract fulfiller
 description: Review and finalize a contract document according to the contract request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-work-ss-cntr-request-fulfiller.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Use self-served contract request, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -33,33 +34,33 @@ You cannot add the same user to the Assigned to and Collaborator fields.
 
 3.  Work on the contract request.
 
-<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d675355e99">
+<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d614340e99">
 
 Action
 
-</th><th align="left" id="d675355e102">
+</th><th align="left" id="d614340e102">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d675355e108">
+</th></tr></thead><tbody><tr><td id="d614340e108">
 
 **Specify the contract as perpetual**
 
 </td><td>
 
-Select the **Perpetual** check box in the Details tab to classify the contract as perpetual.**Note:** The **End date** must be blank when this check box is selected.
+Select the **Perpetual** check box in the Details tab to classify the contract as perpetual.**Note:** The **End date** must be empty when this check box is selected.
 
 The **Perpetual** check box is available in contract requests that are initiated from the Sales Customer Relationship Management and Source-to-Pay Operations.
 
-</td></tr><tr><td id="d675355e136">
+</td></tr><tr><td id="d614340e136">
 
 **Regenerate contract document**
 
 </td><td>
 
-Create a version of the contract document. Using this option discards the changes made in the previous version of the document. For more information, see [Regenerate contract document after modifying request](cncore-regen-contract-doc.md).
+Create a version of the contract document. Using this option discards the changes made in the previous version of the document. For more information, see [Regenerate contract document after modifying request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-regen-contract-doc.md).
 
-</td></tr><tr><td id="d675355e152">
+</td></tr><tr><td id="d614340e152">
 
 **Sync the document__Note:__ This option is available on Contract Management Pro starting with version 1.2.1
 
@@ -67,67 +68,77 @@ Create a version of the contract document. Using this option discards the change
 
 </td><td>
 
-Create a version of the contract document while retaining the changes made in the previous version. For more information, see [Create an updated contract document revision after modifying a self-served contract request \(starting Contract Management Pro 1.2.1\)](cncore-sync-document.md).
+Create a version of the contract document while retaining the changes made in the previous version. For more information, see [Create an updated contract document revision after modifying a self-served contract request \(starting Contract Management Pro 1.2.1\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-sync-document.md).
 
-</td></tr><tr><td id="d675355e173">
+</td></tr><tr><td id="d614340e173">
 
 **Create document revisions**
 
 </td><td>
 
-Create a document revision. For more information, see [Create a document revision](cncore-create-doc-rev.md).
+Create a document revision. For more information, see [Create a document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-create-doc-rev.md).
 
-</td></tr><tr><td id="d675355e190">
+</td></tr><tr><td id="d614340e190">
 
 **Add signatories**
 
 </td><td>
 
-Add signatories. For more information, see [Add signatories in self-served contract request](cncore-update-sign-ss-cmr.md).
+Add signatories. For more information, see [Add signatories in self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-update-sign-ss-cmr.md).
 
-</td></tr><tr><td id="d675355e208">
+</td></tr><tr><td id="d614340e208">
 
-**Sync signatories__Note:__ This option isn’t available on Contract Management Pro starting with version 1.2.1 because it is no longer necessary.
+**Sync signatories__Note:__ This option isn't available on Contract Management Pro starting with version 1.2.1 because it is no longer necessary.
 
 **
 
 </td><td>
 
-Update the contract document with the latest signatory details. For more information, see [Updating and synchronizing signatories](cncore-update-sync-signatories.md).
+Update the contract document with the latest signatory details. For more information, see [Updating and synchronizing signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-update-sync-signatories.md).
 
-</td></tr><tr><td id="d675355e229">
+</td></tr><tr><td id="d614340e229">
 
 **Initiate ad hoc approvals**
 
 </td><td>
 
-Initiate ad hoc approvals. For more information, see [Initiate an ad hoc approval for a contract document revision](cmpro-initiate-approval-contract-request.md).
+Initiate ad hoc approvals. For more information, see [Initiate an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-initiate-approval-contract-request.md).
 
-</td></tr><tr><td id="d675355e245">
+</td></tr><tr><td id="d614340e245">
 
 **Communicate with stakeholders using Email**
 
 </td><td>
 
-Communicate with stakeholders via email. For more information, see [Send email to stakeholders](cncore-send-email.md)
+Communicate with stakeholders via email. For more information, see [Send email to stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-send-email.md)
 
-</td></tr><tr><td id="d675355e260">
+</td></tr><tr><td id="d614340e260">
 
 **Analyze contract documents using Now Assist to identify non-standard and missing clauses**
 
 </td><td>
 
-Use Now Assist to analyze the contract documents to identify the non-standard and missing clauses. For more information, see [Contract analysis using Now Assist in Contract Management](../concept/cncore-NA-review-land.md).
+Use Now Assist to analyze the contract documents to identify the non-standard and missing clauses. For more information, see [Contract analysis using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-NA-review-land.md).
 
-</td></tr><tr><td id="d675355e289">
+</td></tr><tr><td id="d614340e289">
 
 **Send the document for signature**
 
 </td><td>
 
-Send the document for a signature. For more information, see [Signature workflow for a contract request](../concept/cncore-signature-workflow.md).
+Send the document for a signature. For more information, see [Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-signature-workflow.md).
 
-</td></tr><tr><td id="d675355e307">
+</td></tr><tr><td id="d614340e309">
+
+**Initiate an offline signature__Note:__ This option is available only when the signature type is Offline signature.
+
+**
+
+</td><td>
+
+Use this option for a contract signed outside Contract Management Pro. For offline signatures, the system does not send signature request emails to the signatories. For more information, see [Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-signature-workflow.md).
+
+</td></tr><tr><td id="d614340e334">
 
 **Cancel request**
 
@@ -139,5 +150,5 @@ Cancel a request:-   On the contract request page, from the Actions menu, select
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use self-served contract request](../concept/cncore-request-ss-contract-1.md)
+**Parent Topic:**[Use self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

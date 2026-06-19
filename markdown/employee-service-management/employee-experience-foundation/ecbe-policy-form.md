@@ -2,6 +2,7 @@
 title: Browser Extension policy form
 description: The Policy form provides the field descriptions to set up the Browser Extension policies on the supported browsers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ecbe-policy-form.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -152,5 +153,5 @@ Enable state header logo
 Logo displayed on the empty state header.**Note:** The URL requires the entire filepath including the `https://` prefix.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Browser Extension for Employee Center forms](../concept/ecbe-forms.md)
+</table>**Parent Topic:**[Browser Extension for Employee Center forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecbe-forms.md)
 

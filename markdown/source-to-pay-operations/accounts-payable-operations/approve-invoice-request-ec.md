@@ -2,6 +2,7 @@
 title: Approve an invoice approval task from Employee Center
 description: Review the invoice approval tasks that are assigned to you and approve or reject them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/approve-invoice-request-ec.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -41,5 +42,5 @@ Role required: sn\_shop.invoice\_owner
 
 The invoice approval tasks are reviewed and approved or rejected.
 
-**Parent Topic:**[Invoice approvals](../concept/invoice-approvals.md)
+**Parent Topic:**[Invoice approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/invoice-approvals.md)
 

@@ -2,9 +2,12 @@
 title: Accessibility information for all Zurich features and products
 description: Cumulative release notes summary on accessibility information for Zurich features and products. Some products have specific accessibility information or exceptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/rn-summary-accessibility.html
 release: zurich
+product: Release Notes
+classification: release-notes
 topic_type: reference
-last_updated: "2026-04-08"
+last_updated: "2026-06-12"
 reading_time_minutes: 23
 breadcrumb: [Release notes summaries for Zurich features, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
@@ -88,7 +91,7 @@ Adoption Services
 
 </td><td>
 
--   **[Guided Tours](https://www.servicenow.com/docs/access?context=guided-tours&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)**
+-   ****
 
 Guided Tours is enhanced with more accessibility features including:
 
@@ -203,7 +206,7 @@ Configurable Workspace
 
 </td><td>
 
--   **[Screen Summarization](https://www.servicenow.com/docs/access?context=use-screen-summarization&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)**
+-   **Screen Summarization**
 
 Screen Summarization is a feature that supports visually impaired and low-vision users by providing AI-generated summaries of workspace pages and their sections. The summaries can be read aloud with a screen reader to help reduce navigation and comprehension time.
 
@@ -265,7 +268,7 @@ Creator Studio
 The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
 
 
-For more information, see [Dark mode in Creator Studio](https://www.servicenow.com/docs/access?context=crs-enabling-dark-mode&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+For more information, see .
 
 </td></tr><tr><td>
 
@@ -302,7 +305,7 @@ The new Coral theme includes a dark theme option for web and mobile experiences.
 
 </td></tr><tr><td>
 
-Customer self-service for Sales and Order Management
+Customer self-service for Sales Customer Relationship Management
 
 </td><td>
 
@@ -398,11 +401,11 @@ Document Services
 
 The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
 
--   **[Guardrails for PDF generation and accessibility](https://www.servicenow.com/docs/access?context=guardrails-pdf-generation-accessibility&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)**
+-   ****
 
 Added static and dynamic guardrails for accessibility support for PDF document generation
 
--   **[PDF generation and accessibility](https://www.servicenow.com/docs/access?context=pdf-generation-accessibility&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)**
+-   ****
 
 Added support for PDF document generation with accessibility for regulated markets.
 
@@ -417,6 +420,14 @@ Dynamic Translation
 
 The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
 
+
+</td></tr><tr><td>
+
+Employee Slate
+
+</td><td>
+
+Employee Slate includes built-in accessibility compliance through the AI-native widget builder. Custom widgets automatically meet accessibility standards when created through the prompt-driven interface with design components that include accessibility features by default.
 
 </td></tr><tr><td>
 
@@ -714,11 +725,11 @@ Next Experience
 
 The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
 
--   **[New Accessibility preference added for page alerts](https://www.servicenow.com/docs/access?context=next-experience-accessibility-preferences&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)**
+-   **New Accessibility preference added for page alerts**
 
 Turn on the **Do not auto-dismiss page alerts** preference to keep page alerts visible until you manually close them.
 
--   **[New Workspace preference added to enhance screen reader output for your Workspace pages](https://www.servicenow.com/docs/access?context=next-experience-workspace-preferences&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)**
+-   **New Workspace preference added to enhance screen reader output for your Workspace pages**
 
 A new Workspace preference lets you turn off lazy loading for workspace pages. When you turn off lazy loading, the entire page loads at once. This action improves compatibility with screen readers and provides a more consistent and reliable reading experience.
 
@@ -740,11 +751,11 @@ Now Assist
 
 </td><td>
 
--   **[Voice Input in Now Assist](https://www.servicenow.com/docs/access?context=enable-voice-input-for-now-assist-panel&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)**
+-   **Voice Input in Now Assist**
 
 Administrators can enable an optional voice input setting for the Now Assist panel in the Now Assist Admin console. This feature, Voice Input, gives users a voice-to-text input option to access the Now Assist skills in the panel in any supported language. Voice Input helps users with mobility impairments access generative AI skills without using a keyboard. This feature can also be useful to blind or low-vision users, neurodivergent users, non-native language speakers, or users using hand-held devices on the go, such as field service agents.
 
-Once enabled, Voice Input can be changed using the individual user accessibility preferences. See [Configure Next Experience accessibility preferences](https://www.servicenow.com/docs/access?context=next-experience-accessibility-preferences&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) for more information.
+Once enabled, Voice Input can be changed using the individual user accessibility preferences. See  for more information.
 
 
 </td></tr><tr><td>
@@ -753,11 +764,11 @@ Now Assist AI agents
 
 </td><td>
 
--   **[Voice Input for Now Assist AI agents](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)**
+-   **Voice Input for Now Assist AI agents**
 
-Administrators can enable an optional voice input setting for the Now Assist panel in the Now Assist Admin console. This feature gives users a voice-to-text input option to access the Now Assist skills in the panel in any supported language. For more information, see [Enable voice input for Now Assist panel](https://www.servicenow.com/docs/access?context=enable-voice-input-for-now-assist-panel&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+Administrators can enable an optional voice input setting for the Now Assist panel in the Now Assist Admin console. This feature gives users a voice-to-text input option to access the Now Assist skills in the panel in any supported language. For more information, see Enable voice input for Now Assist panel.
 
-After enabled, the Enable voice input for the Now Assist panel option is available in individual user accessibility preferences. See [Configure Next Experience accessibility preferences](https://www.servicenow.com/docs/access?context=next-experience-accessibility-preferences&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) for more information.
+After enabled, the Enable voice input for the Now Assist panel option is available in individual user accessibility preferences. See Configure Next Experience accessibility preferences for more information.
 
 Voice-to-text input can help users with mobility impairments access generative AI skills without using a keyboard. This feature can also be useful to blind or low-vision users, neurodivergent users, non-native language speakers, or mobile users on the go, such as field service agents.
 
@@ -816,6 +827,15 @@ Now Assist in Document Intelligence
 
 The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
 
+
+</td></tr><tr><td>
+
+Now Assist in Platform Analytics
+
+</td><td>
+
+-   \(June 2026 AI Data Explorer\) Keyboard navigation allows tabbing between the text editor and the icons.
+-   \(June 2026 AI Data Explorer\) Users can use move up/move down control menu items to change the order of question/response nodes in the exploration. Previously they could only drag the nodes.
 
 </td></tr><tr><td>
 
@@ -915,8 +935,10 @@ Playbooks in Workflow Studio
 
 </td><td>
 
--   In Diagram view, navigate between and configure stages and activities [via keyboard](https://www.servicenow.com/docs/access?context=keyboard-navigation-in-playbook-diagram-view&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
--   Set the action bar to always show in Diagram view. To learn more, see [View all buttons without hover](https://www.servicenow.com/docs/access?context=view-all-buttons-without-hover&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+-   In Diagram view, navigate between and configure stages and activities via keyboard.
+-   Set the action bar to always show in Diagram view. To learn more, see .
+-   In Diagram view, use a screen reader to help navigate the designer.
+-   Updated color contrast for activities to meet WCAG standards.
 
 </td></tr><tr><td>
 
@@ -1245,14 +1267,14 @@ Theme Builder
 
 </td><td>
 
--   **[Upload a custom font to your theme](https://www.servicenow.com/docs/access?context=upload-custom-font&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)**
+-   ****
 
 The ability to upload custom fonts to your theme can help users with disabilities in several ways, including:
 
     -   **Improved readability**: Custom fonts can be selected to enhance readability, making text easier to see, understand, and retain. This is beneficial for users with visual impairments, as clear letter forms reduce eye strain.
     -   **Support for cognitive differences**: Custom fonts can address cognitive accessibility needs. For instance, users with dyslexia or Attention- Deficit/Hyperactivity Disorder \(ADHD\) may benefit from fonts that reduce reading strain and improve information processing.
     -   **Improved globalization support**: Custom fonts tailored to specific languages improve the readability for non-Latin alphabets and ensure consistent, accessible user experiences across global audiences.
--   **[Dark mode in Theme Builder](https://www.servicenow.com/docs/access?context=dark-mode-theme-builder&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)**
+-   ****
 
 As of version 6.1, Theme Builder is now available in light and dark mode. This option is commonly used to alleviate eye strain and improve readability. Dark mode applies to the Theme Builder interface only and does not affect the appearance of individual themes.
 
@@ -1359,7 +1381,7 @@ Zero Copy Connector for ERP
 
 </td><td>
 
-[Zurich Patch 1](../quality/zurich-patch-1.md)
+[Zurich Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1.md)
 
 -   **Dark theme**
 
@@ -1367,5 +1389,5 @@ The new Coral theme includes a dark theme option for web and mobile experiences.
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Zurich features](../release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Zurich features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/release-notes-summaries.md)
 

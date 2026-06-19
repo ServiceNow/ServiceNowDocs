@@ -2,6 +2,7 @@
 title: Connection &amp; Credential configuration templates
 description: Enable users with the admin and flow\_designer roles to set up spoke integrations with third-party systems using a single, customizable form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/connections-and-credentials/spoke-configuration-template.html
 release: zurich
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -54,17 +55,17 @@ You can create configuration templates for integrations with these credential ty
 
 -   **Test Action**
 
-    Enables you to test a connection directly from an integration action in the flow view of Workflow Studio. The test action uses an action definition to test the alias that the template is currently attached to. For details, see [Create a test action to test a connection alias from a configuration template](https://www.servicenow.com/docs/access?context=test-alias-configuration-template&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+    Enables you to test a connection directly from an integration action in the flow view of Workflow Studio. The test action uses an action definition to test the alias that the template is currently attached to. For details, see .
 
 
 ## Demo data
 
 The Connection &amp; Credential Templates \[sys\_alias\_templates\] table includes example templates to demonstrate how to set up templates for common authentication types. Use these examples as a guide when creating your own.
 
--   **[Configure a template for OAuth JWT Bearer grant type](../reference/docusign-example.md)**  
+-   **[Configure a template for OAuth JWT Bearer grant type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/docusign-example.md)**  
 This example configuration template sets up Credential and Connection records using the JWT Bearer grant type to authenticate requests to Docusign.
--   **[Create a configuration template](../task/create-template.md)**  
+-   **[Create a configuration template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/create-template.md)**  
 Create a template that defines the inputs required to set up a spoke. Set static key-value pairs to create records and set values that apply to every integration. Set dynamic key-value pairs to gather user input and set field values that may vary. Using this template, admins and flow designers can set up the spoke from a single form.
 
-**Parent Topic:**[Explore credentials, connections, and aliases](credentials-connections-alias.md)
+**Parent Topic:**[Explore credentials, connections, and aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/credentials-connections-alias.md)
 

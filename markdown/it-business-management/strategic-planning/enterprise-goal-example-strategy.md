@@ -2,11 +2,12 @@
 title: Enterprise strategy example
 description: In Strategy and Goals, you start by creating a strategic plan that captures your organization's mission, vision, and values. You then define strategic priorities that align with your mission and vision of your organization, and create goals under each priority to establish what your organization wants to achieve. For each goal, you can set targets to track and measure progress toward achieving it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/enterprise-goal-example-strategy.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Explore, Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -15,7 +16,7 @@ breadcrumb: [Explore, Strategy and Goals, Strategic Planning, Strategic Portfoli
 
 In Strategy and Goals, you start by creating a strategic plan that captures your organization's mission, vision, and values. You then define strategic priorities that align with your mission and vision of your organization, and create goals under each priority to establish what your organization wants to achieve. For each goal, you can set targets to track and measure progress toward achieving it.
 
-The illustration below provides an example of a strategic plan, including its strategic priorities, goals, and targets.
+The following illustration provides an example of a strategic plan, including its strategic priorities, goals, and targets.
 
-![Example of a an enterprise strategy map.](../image/stratey-map-example.png)
+\[Omitted image "stratey-map-example.png"\] Alt text: Enterprise strategy map example.
 

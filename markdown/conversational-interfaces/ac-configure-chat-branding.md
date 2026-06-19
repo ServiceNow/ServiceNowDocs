@@ -2,6 +2,7 @@
 title: Set up your Virtual Agent bot's branding
 description: Create different Virtual Agent branding configurations for the various organizations that use your instance. These configurations apply to the web-based chat and mobile clients only.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/ac-configure-chat-branding.html
 release: zurich
 product: Conversational Interfaces
 classification: conversational-interfaces
@@ -18,11 +19,11 @@ Create different Virtual Agent branding configurations for the various organizat
 
 ## Before you begin
 
-If you're using ServiceNow® mobile, make sure you set up Virtual Agent for mobile chat. For details, see [Configure Virtual Agent for a ServiceNow mobile application](../../virtual-agent/task/configure-va-mobile-web-client.md).
+If you're using ServiceNow® mobile, make sure you set up Virtual Agent for mobile chat. For details, see [Configure Virtual Agent for a ServiceNow mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-va-mobile-web-client.md).
 
 Check for updates and improvements to the Omni-Experience Standard Feature Set application on the ServiceNow Store.
 
-**Note:** Branding for bots in the Conversational Integration with Microsoft Teams is available through the Microsoft Teams app customization feature. For details, see [MS Teams branding for the conversational integration](https://community.servicenow.com/community?id=community_article&sys_id=3b4f487edbe17490904fa9fb1396195b) in Now Community. Branding for bots in Slack is available as well. For details, see [Configure branding for your Virtual Agent bot in Slack](../../virtual-agent/task/slack-branding-overview.md).
+**Note:** Branding for bots in the Conversational Integration with Microsoft Teams is available through the Microsoft Teams app customization feature. For details, see [MS Teams branding for the conversational integration](https://community.servicenow.com/community?id=community_article&sys_id=3b4f487edbe17490904fa9fb1396195b) in Now Community. Branding for bots in Slack is available as well. For details, see [Configure branding for your Virtual Agent bot in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/slack-branding-overview.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -141,12 +142,12 @@ Select this option to display notifications for new messages below or above your
 
     From here, you can adjust the color, icons, and font type and size of the chat client to match your brand. For example, you can:
 
-    -   [Change the color of items](ac-configure-chat-branding.md#ul_b3w_xsv_jvb)
-    -   [Customize the icons](ac-configure-chat-branding.md#customize-icons)
-    -   [Customize the fonts used in the chat](ac-configure-chat-branding.md#customize-fonts)
+    -   [Change the color of items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/ac-configure-chat-branding.md)
+    -   [Customize the icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/ac-configure-chat-branding.md)
+    -   [Customize the fonts used in the chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/ac-configure-chat-branding.md)
 6.  To change the color of items in the chat window, select the **Colors** tab.
 
-    ![Chat branding colors tab showing chat window and chat messages colors.](../image/chat-branding-colors-tab.png)
+    \[Omitted image "chat-branding-colors-tab.png"\] Alt text: Chat branding colors tab showing chat window and chat messages colors.
 
     Select an item and specify the Hex or red blue green alpha \(RGBA\) colors you want to use for that item. When you do so, the example chat window shows a preview of your changes.
 
@@ -180,7 +181,7 @@ Select this option to display notifications for new messages below or above your
 
 7.  To customize the chat icons in the chat window, select the **Icons** tab.
 
-    ![Chat branding Icons tab showing main chat window and all topics window icons.](../image/chat-branding-new-tabs.png)
+    \[Omitted image "chat-branding-new-tabs.png"\] Alt text: Chat branding Icons tab showing main chat window and all topics window icons.
 
     You can customize the icons on four different chat screens: the main chat screen, the all topics screen, the support menu, and the end conversation screen. Use this tab to do the following:
 
@@ -198,7 +199,7 @@ Select this option to display notifications for new messages below or above your
 
 8.  Customize the font type and font size.
 
-    The available branding configurations \(for example, Coral Light\) are located [here.](ac-configure-chat-branding.md#table_epv_csw_gjb)
+    The available branding configurations \(for example, Coral Light\) are located [here.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/ac-configure-chat-branding.md)
 
     **Note:** This feature is only available after you've installed and updated the Omni-Experience Standard Feature Set to the latest version through the ServiceNow® Store.
 
@@ -234,7 +235,7 @@ Select this option to display notifications for new messages below or above your
 
 9.  To update the Contact support menu, scroll down to the **Menu Items** section.
 
-    ![Chat branding menu items section, showing chat, email, and phone contact items.](../image/chat-branding-menu-section.png)
+    \[Omitted image "chat-branding-menu-section.png"\] Alt text: Chat branding menu items section, showing chat, email, and phone contact items.
 
     You can change the icons, labels, visibility, and display order of the Email, Chat, and Phone menu items. You can also add custom options to the menu.
 
@@ -242,7 +243,7 @@ Select this option to display notifications for new messages below or above your
 
         -   To edit a menu item, select the record icon.
         -   To add a new menu item, select **New**.
-        -   To delete a menu item, select the record icon. In the record, select the More Actions icon ![More Actions icon.](../../virtual-agent/images/icon-more-actions.png), and then select **Delete**.
+        -   To delete a menu item, select the record icon. In the record, select the More Actions icon \[Omitted image "icon-more-actions.png"\] Alt text: More Actions icon., and then select **Delete**.
         For each menu entry, fill in the fields.
 
 <table id="table_t21_dx1_krb"><thead><tr><th>
@@ -340,7 +341,7 @@ Global.
 
     **Note:** This step is only applicable if you’re configuring an assistant using Now Assist in Virtual Agent enhanced chat or enhanced chat's full-page experience.
 
-    1.  Select **Configure** &gt; **Form Layout** from the Additional Actions icon ![](../../../product/document-services/image/additional-actions-icon.png).
+    1.  Select **Configure** &gt; **Form Layout** from the Additional Actions icon \[Omitted image "additional-actions-icon.png"\] Alt text:.
 
     2.  Move the following Available fields to the Selected fields, and then **Save**:
 
@@ -357,13 +358,13 @@ Global.
 
 11. Do one of the following to apply the branding configuration:
 
-    -   Apply the branding configuration to a Service Portal Agent Chat Configuration. In the server script that passes page and widget data to an Agent Chat \(Virtual Agent or Live Agent\) conversation, specify the branding key to be used. Items passed in this script are available to all pages in the portal. For details on setting up Service Portal Agent Chat, see [Add your bot to a portal](ac-configure-bot-portal.md).
+    -   Apply the branding configuration to a Service Portal Agent Chat Configuration. In the server script that passes page and widget data to an Agent Chat \(Virtual Agent or Live Agent\) conversation, specify the branding key to be used. Items passed in this script are available to all pages in the portal. For details on setting up Service Portal Agent Chat, see [Add your bot to a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/ac-configure-bot-portal.md).
 
         For example, the following Service Portal Agent Chat Configuration for the Knowledge Portal uses the chat branding key, `custom_1`.
 
-        ![Service Portal Agent Chat Configuration record example.](../../virtual-agent/images/va-sp-chat-config.png)
+        \[Omitted image "va-sp-chat-config.png"\] Alt text: Service Portal Agent Chat Configuration record example.
 
-        **Note:** There are other Service Portal Agent Chat features that you can configure, such as [customizing the Agent Chat button](https://www.servicenow.com/docs/access?context=configure-va-in-sp&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) in your portal. For more information on customizing the Agent Chat widget in Service Portal, see [Configure Agent Chat in Service Portal](https://www.servicenow.com/docs/access?context=configure-va-in-sp&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+        **Note:** There are other Service Portal Agent Chat features that you can configure, such as customizing the Agent Chat button in your portal. For more information on customizing the Agent Chat widget in Service Portal, see Configure Agent Chat in Service Portal.
 
     -   Apply the branding configuration to a destination page. Enter the system parameter `sysparm_branding_key` with the branding key in the chat widget URL. For example:
 
@@ -377,7 +378,7 @@ Global.
 
         In this example, `acme` is the key of the branding configuration to be used.
 
-12. If you're using [Conversation Autopilot](../concept/ci-agent-chat-using.md#) with your branded bot, specify the branded bot name displayed in the chat window during Autopilot sessions by changing system properties as follows.
+12. If you're using [Conversation Autopilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/agent-chat/ci-agent-chat-using.md) with your branded bot, specify the branded bot name displayed in the chat window during Autopilot sessions by changing system properties as follows.
 
     1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Settings**.
 
@@ -385,12 +386,12 @@ Global.
 
     3.  Change the **Value** field of the **com.glide.cs.autopilot.client\_initiated\_header** system property to specify the branded bot name instead of the Virtual Agent bot name displayed in the header of the chat window.
 
-        ![Bot name highlighted in header of chat window during Conversation Autopilot session.](../../virtual-agent/images/autopilot-header.png "Autopilot header in chat window")
+        \[Omitted image "autopilot-header.png"\] Alt text: Bot name highlighted in header of chat window during Conversation Autopilot session.
 
     4.  Update the **com.glide.cs.autopilot.client\_initiated\_message** system property to specify the branded bot name displayed to the requester during the conversation.
 
-        ![Message displayed in the chat window informing the user that the Agent has enabled Virtual Agent to help complete the task.](../../virtual-agent/images/autopilot-msg-chat-window.png "Autopilot message during the conversation")
+        \[Omitted image "autopilot-msg-chat-window.png"\] Alt text: Message displayed in the chat window informing the user that the Agent has enabled Virtual Agent to help complete the task.
 
 
-**Parent Topic:**[Branding your chat client](../concept/branding-chat-client.md)
+**Parent Topic:**[Branding your chat client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/branding-chat-client.md)
 

@@ -2,6 +2,7 @@
 title: Autocad import requirements
 description: After adding a building, you can start importing your CAD floor plan source file in the Map Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/indoor-mapping/autocad-requirements.html
 release: zurich
 product: Indoor Mapping
 classification: indoor-mapping
@@ -49,5 +50,5 @@ Ensure that all lines and shapes are properly closed. For example, if shapes are
 
 Export your CAD file in DWG or DXF formats. Other formats are not supported. Make sure you are exporting the right version of CAD file. AutoCAD 12 \(AC1009\) to AutoCAD 2018–2021\(AC1032\) is supported in Indoor Mapping Map Studio.
 
-**Parent Topic:**[Manage CAD source files](manage-autocad-files.md)
+**Parent Topic:**[Manage CAD source files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/manage-autocad-files.md)
 

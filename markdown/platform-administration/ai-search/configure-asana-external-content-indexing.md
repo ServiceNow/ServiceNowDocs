@@ -2,6 +2,7 @@
 title: Configure Asana for external content indexing
 description: Create and authorize an OAuth 2.0 application in the Asana developer console to allow the Asana external content connector to access your Asana source system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-asana-external-content-indexing.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -26,7 +27,7 @@ Role required: none
 
 The Asana external content connector retrieves projects, tasks, and comments from your Asana source system using the Asana API.
 
-To allow the connector to access your Asana source system via the Asana API, you must configure and authorize an OAuth 2.0 application in the Asana developer console. Your connector admin can use settings copied from the OAuth 2.0 application to configure the Asana external connector for proper connection to your source system.
+To allow the connector to access your Asana source system via the Asana API, you must configure and authorize an OAuth 2.0 application in the Asana developer console. Your connector administrator can use settings copied from the OAuth 2.0 application to configure the Asana external connector for proper connection to your source system.
 
 ## Procedure
 
@@ -60,11 +61,11 @@ To allow the connector to access your Asana source system via the Asana API, you
 
     1.  In the Client ID field, select **Copy** to copy your new app's client ID, then record its value in a secure location.
 
-        **Important:** Your external content connector admin needs this client ID when configuring the Asana external content connector.
+        **Important:** Your external content connector administrator needs this client ID when configuring the Asana external content connector.
 
     2.  In the Client secret field, select **Copy** to copy your new app's client secret, then record its value in a secure location.
 
-        **Important:** Your external content connector admin needs this client secret when configuring the Asana external content connector.
+        **Important:** Your external content connector administrator needs this client secret when configuring the Asana external content connector.
 
 4.  Configure an OAuth redirect URL for your new app.
 
@@ -108,14 +109,14 @@ To allow the connector to access your Asana source system via the Asana API, you
 
 ## What to do next
 
-Provide the following items to your connector admin:
+Provide the following items to your connector administrator:
 
--   The client ID for your new OAuth 2.0 application that you copied in step [3.a](configure-asana-external-content-indexing.md#copy-client-id-step).
--   The client secret for your new OAuth 2.0 application that you copied in step [3.b](configure-asana-external-content-indexing.md#copy-client-secret-step).
+-   The client ID for your new OAuth 2.0 application that you copied in step [3.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-asana-external-content-indexing.md).
+-   The client secret for your new OAuth 2.0 application that you copied in step [3.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-asana-external-content-indexing.md).
 
-Your connector admin needs these items to configure an Asana external content connector to retrieve projects, tasks, comments, and security principals from your Asana source system.
+Your connector administrator needs these items to configure an Asana external content connector to retrieve projects, tasks, comments, and security principals from your Asana source system.
 
-For details on creating and configuring an Asana external content connector, see [Create an Asana external content connector](create-ext-cont-connector-asana.md).
+For details on creating and configuring an Asana external content connector, see [Create an Asana external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-asana.md).
 
-**Parent Topic:**[Asana external content connector](../concept/asana-external-content-connector.md)
+**Parent Topic:**[Asana external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/asana-external-content-connector.md)
 

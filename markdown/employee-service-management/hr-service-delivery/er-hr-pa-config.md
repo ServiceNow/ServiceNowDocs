@@ -2,6 +2,7 @@
 title: Configure the Analytics and Reporting Solution for Employee Relations
 description: Run diagnostics, review and customize components, and start collecting data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/er-hr-pa-config.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,7 +26,7 @@ Role required: pa\_admin
 
 1.  Run diagnostics on all records.
 
-    These diagnostics can catch many mismatches between the configuration of your Platform Analytics Solutions and your tables. For more information, see [Performance Analytics diagnostics](https://www.servicenow.com/docs/access?context=self-diagnostics&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+    These diagnostics can catch many mismatches between the configuration of your Platform Analytics Solutions and your tables. For more information, see Performance Analytics diagnostics.
 
 2.  Navigate to **All** &gt; **Performance Analytics** &gt; **Administration Console**.
 
@@ -41,7 +42,7 @@ Role required: pa\_admin
 
         Here you see the indicator sources filtered on the **Self-Service Analytics** dashboard from the Employee Relations Executive Overview.
 
-        ![Indicator Sources tab of the PA Admin Console listing indicator sources and their details on the Employee Relations Executive Overview dashboard.](../../../reuse/images/hr-er-admin-console.png)
+        \[Omitted image "hr-er-admin-console.png"\] Alt text: Indicator Sources tab of the PA Admin Console listing indicator sources and their details on the Employee Relations Executive Overview dashboard.
 
     2.  Review the facts table, conditions, and frequency of the indicator sources compared to the data structure on your own instance.
 
@@ -67,10 +68,10 @@ Role required: pa\_admin
 
 11. Set up and run the historical job for this Analytics and Reporting Solution, **ERCases.HistoricalDataCollection**.
 
-    Follow the procedure in [Run historical data collection for a Platform Analytics Solution](https://www.servicenow.com/docs/access?context=historical-data-nowintel-solution&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+    Follow the procedure in Run historical data collection for a Platform Analytics Solution.
 
 12. Edit and activate the scheduled data collection job for this Analytics and Reporting Solution, **ERCases.DailyCollection**.
 
-    Follow the procedure in [Schedule data collection for a Platform Analytics Solution](https://www.servicenow.com/docs/access?context=schedule-job-nowintel-solution&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+    Follow the procedure in Schedule data collection for a Platform Analytics Solution.
 
 

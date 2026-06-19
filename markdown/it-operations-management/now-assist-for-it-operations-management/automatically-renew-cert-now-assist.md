@@ -2,6 +2,7 @@
 title: Automatically renew a certificate using the Now Assist certificate renewal AI agent
 description: Automatically renew a single certificate using the Now Assist certificate renewal AI agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/now-assist-for-it-operations-management/automatically-renew-cert-now-assist.html
 release: zurich
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
@@ -19,10 +20,10 @@ Automatically renew a single certificate using the Now Assist certificate renewa
 
 Complete the following steps to configure your system for the Now Assist certificate renewal AI agent:
 
-1.  [Configure your MID Server for automatic certificate renewal](configure-mid-server-automatic-cert-renewal.md)
-2.  [Add the required applications and capabilities to your MID Server](add-req-apps-capabilities-to-mid-server.md)
+1.  [Configure your MID Server for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/configure-mid-server-automatic-cert-renewal.md)
+2.  [Add the required applications and capabilities to your MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.md)
 
-[Role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) enables users to limit the roles and privileges of AI agents during tool execution. AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an AI agent](https://www.servicenow.com/docs/access?context=define-sec-controls-aia&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+Role masking enables users to limit the roles and privileges of AI agents during tool execution. AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see Define security controls for an AI agent.
 
 Role required: sn\_disco\_certmgmt.pki\_admin
 
@@ -36,7 +37,7 @@ Navigate to the certificate that you want to renew and use the Now Assist certif
 
 2.  Select the certificate that you want to renew.
 
-3.  Select the Now Assist icon ![](../../../administer/now-assist-platform/images/wwna-icon.png).
+3.  Select the Now Assist icon \[Omitted image "wwna-icon.png"\] Alt text:.
 
     **Warning:** Make sure that you are on the unique certificate page of the certificate that you want to renew.
 
@@ -49,5 +50,5 @@ Navigate to the certificate that you want to renew and use the Now Assist certif
 
 Now Assist updates you on its progress in renewing your certificate. The certificate renewal AI agent gives you a link to the task record that displays the status of the renewed certificate.
 
-**Parent Topic:**[Now Assist certificate renewal AI agent](../../it-operations-management/concept/now-assist-cert-renewal-ai-agent.md)
+**Parent Topic:**[Now Assist certificate renewal AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-cert-renewal-ai-agent.md)
 

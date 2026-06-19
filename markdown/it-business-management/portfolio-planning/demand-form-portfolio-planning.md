@@ -2,6 +2,7 @@
 title: Demand planning item form
 description: Learn about the fields of the demand form. Use this form to create or edit the details of a planning item of the type Demand in Portfolio Planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/demand-form-portfolio-planning.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -72,6 +73,14 @@ Category
 </td><td>
 
 Category of this planning item. Choose from **Strategic** or **Operational**.
+
+</td></tr><tr><td>
+
+Execution URL
+
+</td><td>
+
+Link to the demand's execution record in Next Experience for Demand Management.
 
 </td></tr><tr><td>
 
@@ -200,5 +209,5 @@ Strategic priority that this planning item is associated to.
 |Value|Numerical value for the value obtained with this planning item.|
 |Score|Score of the planning item.|
 
-**Parent Topic:**[Form field information for Portfolio Planning](form-field-information-for-portfolio-planning.md)
+**Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)
 

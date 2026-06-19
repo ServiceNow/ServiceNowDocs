@@ -2,6 +2,7 @@
 title: Configure gift policy for Gifts and Entertainment Compliance
 description: Configure a gift policy in accordance with your organization's policy. This policy will outline the conditions under which approval is required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-gifts-and-entertainment/lsd-configure-ge-policy.html
 release: zurich
 product: Legal Gifts and Entertainment
 classification: legal-gifts-and-entertainment
@@ -29,10 +30,10 @@ Role required: sn\_lg\_gifts.gifts\_config
 
 3.  On the form, fill in the fields:
 
-    For description on the field values, see [Gift Policies form](../reference/lsd-ge-policy-form.md).
+    For description on the field values, see [Gift Policies form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-gifts-and-entertainment/lsd-ge-policy-form.md).
 
 4.  Click **Save**.
 
 
-**Parent Topic:**[Configure Gifts and Entertainment Compliance](../concept/lsd-ge-administration.md)
+**Parent Topic:**[Configure Gifts and Entertainment Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-gifts-and-entertainment/lsd-ge-administration.md)
 

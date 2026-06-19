@@ -2,6 +2,7 @@
 title: Logout \(LogoutRequest\) process flow
 description: During logout, the instance issues the SAML 2.0 LogoutRequest service call to the IdP.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/c\_LogoutLogoutRequestProcessFlow.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -17,7 +18,7 @@ During logout, the instance issues the SAML 2.0 LogoutRequest service call to th
 
 This service logs the user out and then redirects back to the specified logout URL.
 
-![](../image/Saml2Logout.png "SAML 2 Logout")
+\[Omitted image "Saml2Logout.png"\] Alt text:
 
 ## User Clicks the Logout Button
 

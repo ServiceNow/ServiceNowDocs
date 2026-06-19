@@ -2,6 +2,7 @@
 title: SOAP template post-processing parameters
 description: Use these parameters to create a post-processing script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/orchestration/r\_STPstPPrm.html
 release: zurich
 product: Orchestration
 classification: orchestration
@@ -22,5 +23,5 @@ Use these parameters to create a post-processing script.
 |Body|body|String|Contains a string value representing the output from the SOAP message|
 |Error|error|String|Returns the error string from the SOAP web service, unless there are no errors, in which case it returns**null**.|
 
-**Parent Topic:**[Create a SOAP web service activity](../task/t_CreateASOAPWebServiceActivity.md)
+**Parent Topic:**[Create a SOAP web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateASOAPWebServiceActivity.md)
 

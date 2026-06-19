@@ -2,7 +2,10 @@
 title: Major, candidate, and child cases
 description: Major issue management uses major case candidates to identify potential issues that impact multiple customers. With approval, candidate cases are promoted to major cases, which you can use to manage issues to resolution. Child cases are created for customers impacted by an issue and are associated with the corresponding major case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/major-candidate-child-case-types.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 4
@@ -19,7 +22,7 @@ A major case contains information about a specific issue that impacts multiple c
 
 The recipients list associated with the major case identifies customers impacted by the issue. Select a list in the **Affected Customers** field in the Major Case Information form section of the Major Case form. After adding the list, you can automatically create child cases for all customers on the list. These cases are added to the **Child Cases** related list on the Major Case form.
 
-With [synchronization](major-candidate-child-case-types.md#section_lx3_1tv_ndb) enabled, updates to the parent major case are automatically synchronized to the associated child cases. When the major case is closed, the associated child cases in the following states are also closed: New, Open, Awaiting Customer Info.
+With [synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/major-candidate-child-case-types.md) enabled, updates to the parent major case are automatically synchronized to the associated child cases. When the major case is closed, the associated child cases in the following states are also closed: New, Open, Awaiting Customer Info.
 
 To identify major cases in the list view, check the value in the **Major case state** field.
 

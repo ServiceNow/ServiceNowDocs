@@ -2,6 +2,7 @@
 title: Install Conversational IVR with Amazon Connect
 description: Install Conversational IVR with Amazon Connect application, to use interactive voice response \(IVR\) with Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/install-va-ivr.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -34,10 +35,10 @@ Role required: admin
 
 ## What to do next
 
-To learn how to configure your AWS account for enabling Conversational IVR, see [Configuring your AWS account for use with Conversational IVR](../concept/configure-aws-account.md).
+To learn how to configure your AWS account for enabling Conversational IVR, see [Configuring your AWS account for use with Conversational IVR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-aws-account.md).
 
--   **[Components installed with Conversational IVR with Amazon Connect](../reference/components-installed-with-va-ivr.md)**  
+-   **[Components installed with Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/components-installed-with-va-ivr.md)**  
 After installing the Conversational IVR with Amazon Connect application from the ServiceNow Store, the additional dependant plugins and spokes get auto-installed to enable other features for interactive voice response.
 
-**Parent Topic:**[Conversational IVR with Amazon Connect](../concept/va-ivr-voice.md)
+**Parent Topic:**[Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-ivr-voice.md)
 

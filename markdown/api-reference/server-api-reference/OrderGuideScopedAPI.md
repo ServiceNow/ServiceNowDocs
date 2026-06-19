@@ -2,6 +2,7 @@
 title: OrderGuide - Scoped
 description: The OrderGuide API enables you to initialize and view order guide details.Creates an instance of the OrderGuide class with the specified sys\_id.Returns the sys\_id of the order guide.Initialises the order guide with the specified catalog items and the variables, and returns the order guide.Specifies if the Show Include Toggle \(include\_items\) check box is selected for the specified order guide.Specifies if the two-step checkout is enabled.Specifies if a separate cart \(different from that for catalog items\) usage is enabled for a two-step order guide.Navigates to the catalog items of an order guide.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/OrderGuideScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The OrderGuide API enables you to initialize and view order guide details.
 
 To use this class in a scoped application, use the `sn_sc` namespace identifier. The Service Catalog Scoped API plugin \(com.glideapp.servicecatalog.scoped.api\) that is enabled by default is required to access the OrderGuide API.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## OrderGuide - OrderGuide\(String sys\_id\)
 

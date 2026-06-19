@@ -2,6 +2,7 @@
 title: Configure cache duration for the user presence status
 description: You can modify the system property to configure the cache duration to retain the user presence status of the Microsoft Teams user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/configure-cache-duration.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -25,11 +26,11 @@ Role required: admin
 
     The entire list of properties in the System Properties \[sys\_properties\] table appears.
 
-    ![System properties](../images/sys-properties-0012.png)
+    \[Omitted image "sys-properties-0012.png"\] Alt text: System properties
 
 2.  In the Name column, search for the system property `sn_tcm_collab_hook.teams.presence_status_cache_invalidate_duration` and click the property to view the property details.
 
-    ![Edit system property](../images/edit_sys_property_0013.png)
+    \[Omitted image "edit\_sys\_property\_0013.png"\] Alt text: Edit system property
 
 3.  Click here to edit the property details.
 
@@ -38,5 +39,5 @@ Role required: admin
 5.  Click **Update**.
 
 
-**Parent Topic:**[User Presence Indicator](../concept/user-presence-indicator.md)
+**Parent Topic:**[User Presence Indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/user-presence-indicator.md)
 

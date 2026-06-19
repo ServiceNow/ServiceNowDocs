@@ -2,6 +2,7 @@
 title: Integrate Sidebar and Microsoft Teams
 description: Enable conversations between Sidebar and Microsoft Teams users by integrating Sidebar with Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/sidebar/integrating-sidebar-teams.html
 release: zurich
 product: Sidebar
 classification: sidebar
@@ -22,5 +23,5 @@ Follow these steps to integrate Sidebar and Microsoft Teams.
 1.  Install the [store app](https://store.servicenow.com/sn_appstore_store.do#!/store/application/53b1b0e79761011018b2fa98c253afcc) on the Washington DC instance.
 2.  Create the Microsoft Teams developer account and Azure app. See [KB article KB1225842](https://support.servicenow.com/kb_view.do?sysparm_article=KB1225842) for more information.
 3.  Create the Microsoft Teams app. See [KB article KB1225842](https://support.servicenow.com/kb_view.do?sysparm_article=KB1225842) for more information.
-4.  Enable the Microsoft Teams integration using the information in [Enable the Microsoft teams integration](../task/enable-teams-integration.md).
+4.  Enable the Microsoft Teams integration using the information in [Enable the Microsoft teams integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/sidebar/enable-teams-integration.md).
 

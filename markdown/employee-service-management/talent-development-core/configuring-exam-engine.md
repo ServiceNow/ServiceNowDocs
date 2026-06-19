@@ -2,6 +2,7 @@
 title: Configuring Career Assessment
 description: Configure Career Assessment by setting up the following.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/configuring-exam-engine.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core

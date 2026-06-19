@@ -2,6 +2,7 @@
 title: Search text for phrases
 description: You can specify phrases that text analytics searches for, instead of searching for only the most frequent individual words.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/search-text-for-phrases.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -42,5 +43,5 @@ Role required: pa\_analyst, pa\_power\_user, or admin
 
 When you include a text widget for this indicator in a dashboard, the specified phrases appear in the trend line.
 
-![The phrases that were specified are visible as trend lines in the widget.](../image/text-analysis-phrases.png "Text widget with phrases "don't see" and "can't access"")
+\[Omitted image "text-analysis-phrases.png"\] Alt text: The phrases that were specified are visible as trend lines in the widget.
 

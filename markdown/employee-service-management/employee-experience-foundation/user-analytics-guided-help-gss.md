@@ -2,6 +2,7 @@
 title: Guided Self-Service user experience analytics
 description: Visually analyze Guided Self-Service usage, user behavior, and other information from the user experience dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/user-analytics-guided-help-gss.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,7 +20,7 @@ You can use the dashboard to view the information about the Guided Self-Service 
 
 Navigate to **User Experience Analytics** &gt; **Dashboard** &gt; **Guided Self-Service** for a detailed view and analysis. Click the respective widget or chart for more information. You can create a funnel to track session adoption and abandonment.
 
-![Guided Self-Service dashboard](../images/user-exp-analytics-guided-self-service.png "User experience analytics dashboard - Guided Self-Service")
+\[Omitted image "user-exp-analytics-guided-self-service.png"\] Alt text: Guided Self-Service dashboard
 
 ## Widgets
 

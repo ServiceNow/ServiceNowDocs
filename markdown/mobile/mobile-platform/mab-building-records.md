@@ -1,0 +1,20 @@
+---
+title: Using the Mobile App Builder
+description: Use the Mobile App Builder to create, edit, and manage your records.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/mobile-platform/mab-building-records.html
+release: zurich
+product: Mobile Platform
+classification: mobile-platform
+topic_type: concept
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Mobile App Builder, Building tools, Building mobile apps, Mobile Platform]
+---
+
+# Using the Mobile App Builder
+
+Use the Mobile App Builder to create, edit, and manage your records.
+
+Select the listed topics to help you manage the components of your mobile app.
+

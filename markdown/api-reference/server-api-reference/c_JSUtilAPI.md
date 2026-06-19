@@ -2,6 +2,7 @@
 title: JSUtil - Global
 description: The JSUtil script include provides shortcuts for common JavaScript routines.Checks if item is null or is undefined.Escape ampersands commonly used to define URL attributes.Escapes invalid XML characters such as "&lt; &gt; &amp;".Returns the value in a boolean GlideRecord field.Checks if item is not null and is not undefined.Checks to see if the specified object is a member of the specified class.Checks if the specified object is a Java class.Logs all the properties in the given object: name, type, and value.Checks if item is null, undefined, or evaluates to the empty string.Checks if an item is null, undefined, or evaluates to the empty string.Converts the specified object to a Boolean.Determines the type of the specified object.Restore ampersands from escaped text.Removes escape characters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_JSUtilAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The JSUtil script include provides shortcuts for common JavaScript routines.
 
 This API is available in global server-side scripts, not scoped scripts.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## JSUtil - doesNotHave\(Object item\)
 

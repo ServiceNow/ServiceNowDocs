@@ -1,7 +1,8 @@
 ---
-title: Generate a response to request activity by using Now Assist for IT Service Management \(ITSM\)
+title: Generate a response to Request Management records by using Now Assist for IT Service Management \(ITSM\)
 description: Automatically generate a response in request-related record activity streams using the activity response generation skills for requests and requested items. Add responses to work notes or comments to enhance the quality of your interactions with the user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/summarize-request-related-activity-response-generation.html
 release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -12,7 +13,7 @@ keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use generative AI skills, Now Assist for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Generate a response to request activity by using Now Assist for IT Service Management \(ITSM\)
+# Generate a response to Request Management records by using Now Assist for IT Service Management \(ITSM\)
 
 Automatically generate a response in request-related record activity streams using the activity response generation skills for requests and requested items. Add responses to work notes or comments to enhance the quality of your interactions with the user.
 
@@ -22,11 +23,11 @@ Role required: itil
 
 ## Procedure
 
-1.  Navigate to a request or a requested item record in the SOW or Core UI where you want to generate work notes or comments using Now Assist.
+1.  Navigate to a request, requested item, or catalog task record in the SOW or Core UI where you want to generate work notes or comments using Now Assist.
 
 2.  Do the following in the **Work notes** or **Comments** field:
 
-    1.  Select the Now Assist icon \(![Sparkle icon](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)\).
+    1.  Select the Now Assist icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text: Sparkle icon\).
 
         The following four options appear:
 

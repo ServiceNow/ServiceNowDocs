@@ -2,6 +2,7 @@
 title: Modify a workplace knowledge base article
 description: Update a knowledge base article at any time. Retire a published article or republish a retired article.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/modify-workplace-kb-article-hr.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace

@@ -2,11 +2,12 @@
 title: Assign roles and tasks using workspace
 description: Assign roles and tasks to users and groups so that they can perform the required DevOps tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/assign-roles-tasks-workspace.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configure, DevOps Change Velocity, IT Service Management]
 ---
@@ -29,15 +30,15 @@ Role required: admin or sn\_devops.admin
     -   From the left navigation panel, navigate to **Administration** &gt; **Onboarding** and select the onboarding task.
 3.  Onboard users and groups by assigning them roles and tasks.
 
-<table id="choicetable_u1j_pcz_qwb"><thead><tr><th align="left" id="d416515e98">
+<table id="choicetable_u1j_pcz_qwb"><thead><tr><th align="left" id="d207731e98">
 
 Onboarding task
 
-</th><th align="left" id="d416515e101">
+</th><th align="left" id="d207731e101">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d416515e107">
+</th></tr></thead><tbody><tr><td id="d207731e107">
 
 **Assign user roles**
 
@@ -48,12 +49,12 @@ Steps
 3.  Select the users that you want to assign a specific DevOps role to.
 4.  Select the DevOps role from the list.
 
-For more information on the roles, see [Components installed with DevOps Change Velocity](../reference/installed-with-dev-ops.md).
+For more information on the roles, see [Components installed with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/installed-with-dev-ops.md).
 
 5.  Select **Done**.
 
 
-</td></tr><tr><td id="d416515e155">
+</td></tr><tr><td id="d207731e155">
 
 **Assign group roles**
 
@@ -64,13 +65,13 @@ For more information on the roles, see [Components installed with DevOps Change 
 3.  Select the group for which you want to assign a specific DevOps role.
 4.  Select the DevOps role from the list.
 
-For more information on the roles, see [Components installed with DevOps Change Velocity](../reference/installed-with-dev-ops.md).
+For more information on the roles, see [Components installed with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/installed-with-dev-ops.md).
 
 5.  If you want to assign the same role to the child groups of the selected group, then select the **Assign selected role to child groups** option.
 6.  Select **Done**.
 
 
-</td></tr><tr><td id="d416515e210">
+</td></tr><tr><td id="d207731e210">
 
 **Assign user tasks**
 
@@ -84,7 +85,7 @@ For more information on the roles, see [Components installed with DevOps Change 
 6.  Select **Done**.
 
 
-</td></tr><tr><td id="d416515e256">
+</td></tr><tr><td id="d207731e256">
 
 **Assign group tasks**
 
@@ -102,5 +103,5 @@ For more information on the roles, see [Components installed with DevOps Change 
 </table>
 ## What to do next
 
-[Set up integration user account in DevOps Change Velocity](devops-plybk-set-up-system-accts.md)
+[Set up integration user account in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/devops-plybk-set-up-system-accts.md)
 

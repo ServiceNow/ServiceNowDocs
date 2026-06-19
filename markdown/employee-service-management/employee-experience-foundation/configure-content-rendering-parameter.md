@@ -2,6 +2,7 @@
 title: Configure content rendering parameter
 description: A content rendering parameter functions similarly to video hosting URL parameters, allowing content managers to customize the viewer's experience through an interface element in the Rich Content Editor. Depending on the hosting provider, this can include defining a checkbox for enabling full screen or autoplay, or a textbox for specifying the start time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/configure-content-rendering-parameter.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -18,7 +19,7 @@ A content rendering parameter functions similarly to video hosting URL parameter
 ## Before you begin
 
 -   Role required: sn\_cd.content\_admin
--   Complete the steps to [Configure content provider and mapping](configure-content-provider.md)
+-   Complete the steps to [Configure content provider and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/configure-content-provider.md)
 
 ## Procedure
 

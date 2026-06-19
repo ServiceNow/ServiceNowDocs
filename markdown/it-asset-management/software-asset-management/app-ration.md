@@ -2,6 +2,7 @@
 title: Overlapping usage view
 description: Use the Overlapping usage view in Software Asset Workspace to get insights into the feature level usage and rationalize your SaaS and Single sign-on \(SSO\) applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/app-ration.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -63,7 +64,7 @@ By selecting the **Overlapping applications** tab, you can view the following in
 -   **Total spend**: Total spend on overlapping software applications grouped by application category, such as spend detection or SaaS. Selecting any application category bar navigates you to the list of applications of that type with details on their relevant number of subscriptions, total spend, and overall usage.
 -   **All categories with applications**: The list of overlapping software applications grouped by category based on the main function of the software application. The number next to each category indicates the number of applications in that category, such as development and email marketing.
 
-![Overlapping usage view showing the number of applications and their total spend grouped by category](../image/overlapping-usage-workspace.png)
+\[Omitted image "overlapping-usage-workspace.png"\] Alt text: Overlapping usage view showing the number of applications and their total spend grouped by category
 
 ## Application feature usage
 
@@ -144,7 +145,7 @@ Graphical representation of monthly spending trends on the application.
 
 </td></tr></tbody>
 </table>
-![Application feature usage in the Overlapping usage view showing a list view of the application categories](../image/appl-feature-usage.png)
+\[Omitted image "appl-feature-usage.png"\] Alt text: Application feature usage in the Overlapping usage view showing a list view of the application categories
 
 ## SaaS feature usage
 
@@ -152,7 +153,7 @@ The SaaS feature usage page includes the event details for each integration, suc
 
 **Note:** The SaaS feature usage page displays event details for up to one year from the current date.
 
-![SaaS feature usage page in the Overlapping usage view showing the event details for each integration.](../image/saas-feature-usage.png)
+\[Omitted image "saas-feature-usage.png"\] Alt text: SaaS feature usage page in the Overlapping usage view showing the event details for each integration.
 
 ## Creating demand to rationalize software applications
 
@@ -160,5 +161,5 @@ Creating demands enables you to take meaningful action against any redundant sof
 
 **Note:** The PPM Standard plugin \(com.snc.financial\_planning\_pmo\) must be installed to create demands.
 
-Select **Create demand** to rationalize software applications. For more information, see [Create demand to rationalize software applications](../task/soft-asset-demand.md).
+Select **Create demand** to rationalize software applications. For more information, see [Create demand to rationalize software applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/soft-asset-demand.md).
 

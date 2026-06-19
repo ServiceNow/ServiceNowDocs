@@ -2,6 +2,7 @@
 title: Configure Sighting Search
 description: You can perform sightings search on one or multiple observables to determine the number of times the observables are sighted in your organisation logs. You can perform sighting search on observables within a selected number of days or within a date range.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/configure-sighting-search.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -38,7 +39,7 @@ This section displays cards for each of the configured integration implementatio
 
 2.  Click the **Integrations** icon, and select the **Sighting Search** section.
 
-    ![Sighting Search integrations](../image/enrich-sighting-section.png)
+    \[Omitted image "enrich-sighting-section.png"\] Alt text: Sighting Search integrations
 
 3.  Click the **Configure new enrichment** action.
 
@@ -48,7 +49,7 @@ This section displays cards for each of the configured integration implementatio
 
     This takes you to the Create New Enrichment Integration page of the selected integration. This page is pre-filled with details of the selected integration by default. For example, Splunk integration.
 
-    ![Select and integration from the list of available integrations](../image/enrich-sighting-config.png)
+    \[Omitted image "enrich-sighting-config.png"\] Alt text: Select and integration from the list of available integrations
 
 5.  On the Create New Integration form, fill the fields.
 
@@ -60,7 +61,7 @@ This section displays cards for each of the configured integration implementatio
     |**Integration Type**|Type of integration that you selected, which is Sighting Search. The details of the selected integration type are pre-filled by default.|
     |**Description**|Enter a unique description for the new enrichment integration.|
 
-    ![Create new enrichment integration form](../image/enrich-sighting-splunk.png)
+    \[Omitted image "enrich-sighting-splunk.png"\] Alt text: Create new enrichment integration form
 
 6.  In the Integration Configuration section, configure the integration details based on your requirements.
 
@@ -79,16 +80,16 @@ This section displays cards for each of the configured integration implementatio
     The enrichment integration is enabled successfully. You can also enable a particular enrichment integration by using the Actions menu of the required integration tile on the Catalog page or the All Integration page.
 
 
--   **[Define queries for Sighting Search](../concept/manage-sighting-search-configurations.md)**  
+-   **[Define queries for Sighting Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/manage-sighting-search-configurations.md)**  
 You can use sighting search configurations for defining the queries used to find the prevalence of observables in your environment as part of observable investigation.
--   **[Using Sighting Search Parameters](../concept/manage-sighting-search-parameters.md)**  
+-   **[Using Sighting Search Parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/manage-sighting-search-parameters.md)**  
 You can use sighting search parameters that define more complex queries, which include logic and other operators supported by the specified log store.
--   **[Get started with Elasticsearch integration](../concept/get-started-with-elasticsearch-integration.md)**  
+-   **[Get started with Elasticsearch integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/get-started-with-elasticsearch-integration.md)**  
 The Elasticsearch enrichment integration searches your logs and adds relevant sighting information to your observables.
--   **[Get started with Splunk Search integration](../concept/get-started-with-splunk-search-integration.md)**  
+-   **[Get started with Splunk Search integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/get-started-with-splunk-search-integration.md)**  
 Splunk software searches, monitors, and analyzes machine-generated big data and integrates easily with Security Operations. Before you can use the Splunk Sighting Search integration, you must download it from the ServiceNow Store.
--   **[TISC add-on for Splunk overview](../concept/tisc-addon-splunk.md)**  
-The Threat Intelligence Security Center \(TISC\) for Splunk app offers integration between TISC and Splunk that enables users to seamlessly import the latest threat intelligence from TISC into Splunk for monitoring and enriching alerts. Users can configure indicator collections, perform searches and utilize dashboards to analyse search matches and indicator collections effectively.
+-   **[Get started with Sighting Search Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-get-sighting-configs.md)**  
+Sighting Search Configurations define how threat intelligence data is searched and matched against your environment. Configure these settings to customize threat detection and improve security monitoring accuracy.
 
-**Parent Topic:**[Sighting Search](../concept/tisc-sighting-search.md)
+**Parent Topic:**[Sighting Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-sighting-search.md)
 

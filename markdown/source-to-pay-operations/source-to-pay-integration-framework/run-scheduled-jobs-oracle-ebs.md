@@ -2,11 +2,12 @@
 title: Run scheduled jobs in Oracle EBS
 description: Run adhoc scheduled jobs to look up entity primary data from the target Oracle EBS ERP source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/source-to-pay-integration-framework/run-scheduled-jobs-oracle-ebs.html
 release: zurich
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Scheduled jobs to look up primary data in Oracle EBS, Configure, Source-to-Pay integration with Oracle EBS, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -36,5 +37,5 @@ Executes on-demand scheduled jobs on true entities of an ERP source target and f
     Entity inbound tables are populated with primary data.
 
 
-**Parent Topic:**[Scheduled jobs to look up primary data in Oracle EBS](../concept/scheduled-jobs-to-primary-data-oracle-ebs.md)
+**Parent Topic:**[Scheduled jobs to look up primary data in Oracle EBS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-integration-framework/scheduled-jobs-to-primary-data-oracle-ebs.md)
 

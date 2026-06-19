@@ -2,6 +2,7 @@
 title: Create custom recommendation criteria
 description: Define recommendation criteria that policies can use to rank or evaluate tasks for agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/create-recommendation-criteria.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Some predefined recommendation criteria are provided for you. For more information, see [Predefined recommendation criteria](../reference/fsm-task-recommendation-components.md#).
+Some predefined recommendation criteria are provided for you. For more information, see [Predefined recommendation criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/fsm-task-recommendation-components.md).
 
 ## Procedure
 
@@ -51,7 +52,7 @@ Some predefined recommendation criteria are provided for you. For more informati
     ruleResult = TaskRecommendationFSMUtil.parseRuleResult(ruleProcessResult, "Distance from task");
     ```
 
-    For information about custom script requirements, see [Providing a script for custom task recommendation criteria](../reference/script-guidelines-recommendation-criteria.md).
+    For information about custom script requirements, see [Providing a script for custom task recommendation criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/script-guidelines-recommendation-criteria.md).
 
 5.  Click **Submit**.
 

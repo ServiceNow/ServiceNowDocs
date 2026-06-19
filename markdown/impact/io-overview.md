@@ -2,7 +2,10 @@
 title: Overview of Instance Observer
 description: Instance Observer \(IO\) is an observability and performance monitoring tool that empowers you to track your instance health and performance in near real-time, while also providing historical insights.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/io-overview.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 7
@@ -39,14 +42,14 @@ IO helps Instance administrators, Platform Owners, and DevOps teams accelerate v
 
 |Feature|Description|
 |-------|-----------|
-|[Instance Observer user configurable dashboard](user-configurable-dashboard.md)|Provides a snapshot of the overall health of your instance.|
-|[Performance](instance-observer-performance.md)|Overviews Instance Health and Performance Metrics, and enables drill down into specific datasets with recommended troubleshooting.|
-|[Availability](io-availability.md)|View live Instance Availability status tied to ServiceNow  monitoring— Up/Down Status|
-|[Key alerts – activation and notifications](io-alerts.md)|Flexibility to set alerts with thresholds specific to your business needs, and configure who on your team receives notifications and the method.|
-|[Analytics](io-analytics.md)|View comparisons for performance of key metrics over time.|
-|[Triaged instance data](io-triage.md)|Point-in-time instance snapshot providing metadata to troubleshoot live issues|
-|[Instance performance telemetry reports](../reference/instance-observer-reporting.md)|Quickly generate reports to download and share with your team business stakeholders.​|
-|[Help](io-help.md)|Get assistance with Instance Observer tools, terminology review, how-to videos, and relevant documents.|
+|[Instance Observer user configurable dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/user-configurable-dashboard.md)|Provides a snapshot of the overall health of your instance.|
+|[Performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/instance-observer-performance.md)|Overviews Instance Health and Performance Metrics, and enables drill down into specific datasets with recommended troubleshooting.|
+|[Availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-availability.md)|View live Instance Availability status tied to ServiceNow  monitoring— Up/Down Status|
+|[Key alerts – activation and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-alerts.md)|Flexibility to set alerts with thresholds specific to your business needs, and configure who on your team receives notifications and the method.|
+|[Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-analytics.md)|View comparisons for performance of key metrics over time.|
+|[Triaged instance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-triage.md)|Point-in-time instance snapshot providing metadata to troubleshoot live issues|
+|[Instance performance telemetry reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/instance-observer-reporting.md)|Quickly generate reports to download and share with your team business stakeholders.​|
+|[Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-help.md)|Get assistance with Instance Observer tools, terminology review, how-to videos, and relevant documents.|
 
 ## Support matrix according to Impact package
 
@@ -97,7 +100,7 @@ IO seats add-on
 
 </td></tr><tr><td>
 
-User configurable dashboardFor more information, see [Instance Observer user configurable dashboard](user-configurable-dashboard.md).
+User configurable dashboardFor more information, see [Instance Observer user configurable dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/user-configurable-dashboard.md).
 
 </td><td>
 
@@ -117,7 +120,7 @@ User configurable dashboardFor more information, see [Instance Observer user con
 
 </td></tr><tr><td>
 
-Performance: KPI visualization For more information, see [Performance](instance-observer-performance.md).
+Performance: KPI visualization For more information, see [Performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/instance-observer-performance.md).
 
 </td><td>
 
@@ -137,7 +140,7 @@ Performance: KPI visualization For more information, see [Performance](instance-
 
 </td></tr><tr><td>
 
-Performance: Root cause analysis \(Root cause correlation, Root cause summarization, and Root cause remediation\) \(Generative AI\)For more information, see [Generative AI powered Root cause analysis](generative-ai-root-cause-anal.md).
+Performance: Root cause analysis \(Root cause correlation, Root cause summarization, and Root cause remediation\) \(Generative AI\)For more information, see [Generative AI powered Root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/generative-ai-root-cause-anal.md).
 
 </td><td>
 
@@ -157,7 +160,7 @@ Performance: Root cause analysis \(Root cause correlation, Root cause summarizat
 
 </td></tr><tr><td>
 
-Performance: Anomaly detection \(AI\)For more information, see [Anomalies detection](../task/anomalies-detection.md)
+Performance: Anomaly detection \(AI\)For more information, see [Anomalies detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/anomalies-detection.md)
 
 </td><td>
 
@@ -197,7 +200,7 @@ Performance: Lookback date range
 
 </td></tr><tr><td>
 
-Availability: Instance availabilityFor more information, see [Instance Availability](io-availability.md#section_hwn_b55_qgc).
+Availability: Instance availabilityFor more information, see [Instance Availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-availability.md).
 
 </td><td>
 
@@ -237,7 +240,7 @@ Availability: Known issues
 
 </td></tr><tr><td>
 
-Alerts: Alert consoleFor more information, see [Availability](io-availability.md).
+Alerts: Alert consoleFor more information, see [Availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-availability.md).
 
 </td><td>
 
@@ -257,7 +260,7 @@ Alerts: Alert consoleFor more information, see [Availability](io-availability.md
 
 </td></tr><tr><td>
 
-Alerts: Configure alertsFor more information, see [Configure Key Alerts](../task/configuring-io-alerts.md).
+Alerts: Configure alertsFor more information, see [Configure Key Alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-io-alerts.md).
 
 </td><td>
 
@@ -277,7 +280,7 @@ All alert types and conditions
 
 </td></tr><tr><td>
 
-Alerts: Configure notificationsFor more information, see [Instance Observer Notifications](i-o-notifications.md).
+Alerts: Configure notificationsFor more information, see [Instance Observer Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/i-o-notifications.md).
 
 </td><td>
 
@@ -297,7 +300,7 @@ Alerts: Configure notificationsFor more information, see [Instance Observer Noti
 
 </td></tr><tr><td>
 
-Alerts: Root cause analysis historyFor more information, see [Use the Root cause analysis history](utilizing-rcc-reports-perform-root-cause-analysis.md).
+Alerts: Root cause analysis historyFor more information, see [Use the Root cause analysis history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/utilizing-rcc-reports-perform-root-cause-analysis.md).
 
 </td><td>
 
@@ -377,7 +380,7 @@ Analytics: Query patterns
 
 </td></tr><tr><td>
 
-Analytics: User experienceFor more information, see [User Experience](user-experience-insights.md).
+Analytics: User experienceFor more information, see [User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/user-experience-insights.md).
 
 </td><td>
 
@@ -397,7 +400,7 @@ Analytics: User experienceFor more information, see [User Experience](user-exper
 
 </td></tr><tr><td>
 
-TriageFor more information, see [Triage a ServiceNow instance](../task/io-triage-sn-instance.md).
+TriageFor more information, see [Triage a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-triage-sn-instance.md).
 
 </td><td>
 
@@ -417,7 +420,7 @@ TriageFor more information, see [Triage a ServiceNow instance](../task/io-triage
 
 </td></tr><tr><td>
 
-Reports: On demandFor more information, see [Instance performance telemetry reports](../reference/instance-observer-reporting.md).
+Reports: On demandFor more information, see [Instance performance telemetry reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/instance-observer-reporting.md).
 
 </td><td>
 
@@ -478,7 +481,7 @@ Reports: Lookback date range
 </td></tr></tbody>
 </table>To access the Instance Observer page, navigate to **Impact** &gt; **Platform Health** &gt; **Monitor** &gt; **Instance Observer**.
 
-**Note:** For more information on subscription support, see [Impact packages](../reference/impact-packages.md).
+**Note:** For more information on subscription support, see [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-packages.md).
 
 ## Serviceability limitations
 

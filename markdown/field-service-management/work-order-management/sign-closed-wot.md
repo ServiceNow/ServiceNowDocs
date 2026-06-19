@@ -2,6 +2,7 @@
 title: Sign on closed work order on the Contractor Portal
 description: Customers can digitally sign and confirm work orders that are closed with the Closed Complete or Closed Incomplete state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/sign-closed-wot.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

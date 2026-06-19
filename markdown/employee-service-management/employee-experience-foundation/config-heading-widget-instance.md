@@ -2,6 +2,7 @@
 title: Configure widget heading levels for accessibility
 description: Flexible heading configuration helps with widget accessibility compliance on homepage and topic pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/config-heading-widget-instance.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -35,15 +36,15 @@ Manage widget headings from Heading1 to Heading6 to support company standards, c
     -   Topic Content
     The following example shows an instance option for topic page.
 
-    ![instance option topic page](../images/heading-config-instance-options.png "Instance option")
+    \[Omitted image "heading-config-instance-options.png"\] Alt text: instance option topic page
 
     You can go to these widget instance options and select the title heading level \(H1, H2, H3, etc.\) directly for flexible and accessible heading structure.
 
 2.  Change the widget level heading from the available options, Heading 1 to Heading 6.
 
-    ![instance option heading selection](../images/heading-selection.png "Heading level selection")
+    \[Omitted image "heading-selection.png"\] Alt text: instance option heading selection
 
-3.  Fill in the following fields as explained in [Modify the Support resources widget display](config-support-resources-instanceoptions.md)
+3.  Fill in the following fields as explained in [Modify the Support resources widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/config-support-resources-instanceoptions.md)
 
 4.  Click **Save**.
 

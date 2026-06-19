@@ -2,6 +2,7 @@
 title: Connect content to topic pages with the topic list selector
 description: Get a uniform Service Catalog item-to-topic association experience with the topic list selector on Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/config-topic-selector.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation

@@ -2,6 +2,7 @@
 title: Run the Quick Start tests for Third-party Risk Management
 description: Verify that TPRM still works after you make configuration changes such as applying an upgrade or developing an application. Copy and customize the quick-start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/quick-start-tests-grc-vrm.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -29,5 +30,5 @@ GRC: Vendor Manager Workspace and Third-party Risk Management quick start tests 
 **Related topics**  
 
 
-[Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+[bundle-cadev.quick-start-tests]
 

@@ -2,6 +2,7 @@
 title: Configure and enable Splunk integration
 description: The Splunk Enrichment integration searches your logs and adds relevant sighting information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-splunk-integration.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -28,7 +29,7 @@ Role required: sn\_sec\_tisc.admin
 
 1.  Using your instance, access **Threat Intelligence Security Center**.
 
-2.  [Download the integration from the ServiceNow Store](../../security-incident-response/reference/download-app-first-time.md).
+2.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/download-app-first-time.md).
 
 3.  When the installation is complete, navigate to **Workspaces** &gt; **Threat Intelligence Security Center**.
 
@@ -55,7 +56,7 @@ Role required: sn\_sec\_tisc.admin
     |Password|Your Intel Elasticsearch password.|
     |Max Rows|The maximum number of rows you want to search.|
     |Earliest Result \(days\)|The earliest results you want to see in number of days.|
-    |Include raw data samples in search results|Select this to include samples of raw data in your sightings search results. The amount of data returned depends on your setting in the number of rows of raw data property in [Security Incident Response properties](https://servicenow.com/docs/bundle/vancouver-security-management/page/product/security-incident-response/reference/installed-with-sir.html).|
+    |Include raw data samples in search results|Select this to include samples of raw data in your sightings search results. The amount of data returned depends on your setting in the number of rows of raw data property in [Security Incident Response properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/installed-with-sir.md).|
     |On Premises Deployment|The On Premises Deployed environment.|
     |MID Server|Select Any to use any active MID Server, or select a specific MID Server name.|
 
@@ -72,5 +73,5 @@ Role required: sn\_sec\_tisc.admin
 
 After it is configured, Splunk can be selected for performing sighting search on observables in Threat Intelligence Security Center.
 
-**Parent Topic:**[Get started with Splunk Search integration](../concept/get-started-with-splunk-search-integration.md)
+**Parent Topic:**[Get started with Splunk Search integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/get-started-with-splunk-search-integration.md)
 

@@ -2,6 +2,7 @@
 title: Review the digitally signed document
 description: Review the digitally signed PDF document to either approve or reject it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/review-signed-documents.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -32,5 +33,5 @@ Role required: none
     -   To approve the document, select **Approve**.
     -   To reject the document, select **Reject** and provide a reason for the rejection.
 
-**Parent Topic:**[Digital signature for PDF documents using CAC or PIV smart cards](../concept/digital-signature.md)
+**Parent Topic:**[Digital signature for PDF documents using CAC or PIV smart cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/digital-signature.md)
 

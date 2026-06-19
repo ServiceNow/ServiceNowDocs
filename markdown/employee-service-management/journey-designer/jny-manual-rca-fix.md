@@ -2,6 +2,7 @@
 title: Fix Restricted Caller Access \(RCA\) approval requests
 description: After you install or upgrade to the latest Journey designer application from ServiceNow Store, you might encounter RCA approval messages requesting for an update in the access request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/jny-manual-rca-fix.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -42,5 +43,5 @@ RCA requests that are generated after the installation of a newer version of the
     If there are multiple RCA requests, you must follow this task for each request.
 
 
-**Parent Topic:**[Installation and configuration overview](../concept/jny-inst-config-overview.md)
+**Parent Topic:**[Installation and configuration overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-inst-config-overview.md)
 

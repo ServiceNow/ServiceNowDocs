@@ -2,6 +2,7 @@
 title: Identify the FX Currency field and its display parameters
 description: Specify the table, and the field within the table \(for example, cost\), that the FX Currency configuration applies to. Then, select the decimal precision and currency display parameters for the field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/currency-administration/fx-currency-display-parameters.html
 release: zurich
 product: Currency Administration
 classification: currency-administration
@@ -27,7 +28,7 @@ Role required: admin, currency\_admin
 
 3.  In the **Table** field, select the table that contains the FX Currency dictionary attribute.
 
-    For example, if you created a custom table that stores transactional information and contains an FX Currency field, select it from the table listing. To learn more about creating tables in an instance, see [Create a table](../../table-administration/task/t_CreateATable.md).
+    For example, if you created a custom table that stores transactional information and contains an FX Currency field, select it from the table listing. To learn more about creating tables in an instance, see [Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/t_CreateATable.md).
 
 4.  In the **Field** field, select the column with the FX Currency field type.
 
@@ -39,7 +40,7 @@ Role required: admin, currency\_admin
 
 7.  In the **Display Digits** field, select the number of digits that should appear after the decimal point in lists and reports.
 
-<table id="choicetable_display_digits"><tbody><tr><td id="d212804e128">
+<table id="choicetable_display_digits"><tbody><tr><td id="d142388e128">
 
 **Currency Default**
 
@@ -50,7 +51,7 @@ Number of digits that appear on lists and forms, based on what is appropriate an
 -   Yen: No digits appear after the decimal, because the Yen uses no cents and numbers round to the next latest value. For example, a calculated currency value of 69.535 rounds up to, and appears as, 67 Yen.
 
 
-</td></tr><tr><td id="d212804e149">
+</td></tr><tr><td id="d142388e149">
 
 **0–12**
 
@@ -65,7 +66,7 @@ Specific number of digits that should appear after the decimal, with selectable 
 
 8.  In the **Display Value Currency** field, select what currency value appears in the designated FX Currency field on forms and lists.
 
-<table id="choicetable_display_value_currency"><tbody><tr><td id="d212804e191">
+<table id="choicetable_display_value_currency"><tbody><tr><td id="d142388e191">
 
 **Use Global Default**
 
@@ -73,7 +74,7 @@ Specific number of digits that should appear after the decimal, with selectable 
 
 Use the global default you established in the **glide.currency2.display\_value** system property in **System Localization** &gt; **All Properties.**
 
-</td></tr><tr><td id="d212804e212">
+</td></tr><tr><td id="d142388e212">
 
 **Display As Entered**
 
@@ -81,7 +82,7 @@ Use the global default you established in the **glide.currency2.display\_value**
 
 Currency value, as entered into the designated FX Currency field. For example, if the user locale is US Dollars, the value appears in Euros if they select the Euro as the currency during an entry session.
 
-</td></tr><tr><td id="d212804e221">
+</td></tr><tr><td id="d142388e221">
 
 **Display in Session Currency**
 
@@ -89,20 +90,20 @@ Currency value, as entered into the designated FX Currency field. For example, i
 
 Currency value entered into the designated FX Currency field, converted to the session currency. -   For example, if the user locale is the United States, the session currency appears in US Dollars.
 -   If the user locale is Japan, the session currency appears in the Yen.
- To learn more about the user locale, see [Locale settings](../concept/locales.md).
+ To learn more about the user locale, see [Locale settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/locales.md).
 
-</td></tr><tr><td id="d212804e249">
+</td></tr><tr><td id="d142388e249">
 
 **Display in Reference Currency**
 
 </td><td>
 
-Currency value entered into the designated FX Currency field, converted to the reference currency designated in the **Reference Currency** field in the Reference tab. For example, if you enter the currency amount in Euros, it converts to and appears in US Dollars if that is the designated reference currency. To learn more the reference currency, see [Set the reference currency](fx-currency-set-reference.md).
+Currency value entered into the designated FX Currency field, converted to the reference currency designated in the **Reference Currency** field in the Reference tab. For example, if you enter the currency amount in Euros, it converts to and appears in US Dollars if that is the designated reference currency. To learn more the reference currency, see [Set the reference currency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/fx-currency-set-reference.md).
 
 </td></tr></tbody>
 </table>9.  In the **Aggregation Source** field, select the currency type to use when aggregating currency amounts for the designated field on reports.
 
-<table id="choicetable_aggregation_source"><tbody><tr><td id="d212804e286">
+<table id="choicetable_aggregation_source"><tbody><tr><td id="d142388e286">
 
 **Use Global Default**
 
@@ -110,7 +111,7 @@ Currency value entered into the designated FX Currency field, converted to the r
 
 Use the global default you established in the **glide.currency2.default\_reference\_currency** property in **System Localization** &gt; **All Properties.**
 
-</td></tr><tr><td id="d212804e307">
+</td></tr><tr><td id="d142388e307">
 
 **As Entered Values**
 
@@ -118,7 +119,7 @@ Use the global default you established in the **glide.currency2.default\_referen
 
 Currency values, as entered into the designated FX Currency field. **Note:** If you select this option, you may experience situations where amounts entered in dissimilar currencies can't be aggregated on reports. For example, if you enter currency amounts in US Dollars, Yen, and Euros, the amounts can't be properly aggregated, or may result in erroneous totals.
 
-</td></tr><tr><td id="d212804e319">
+</td></tr><tr><td id="d142388e319">
 
 **Reference values**
 
@@ -130,5 +131,5 @@ Currency values, as entered into the designated FX Currency field, converted to 
 </table>10. Click **Save**.
 
 
-**Parent Topic:**[Configuring FX Currency field behavior](../concept/configure-fx-currency-field-behavior.md)
+**Parent Topic:**[Configuring FX Currency field behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/configure-fx-currency-field-behavior.md)
 

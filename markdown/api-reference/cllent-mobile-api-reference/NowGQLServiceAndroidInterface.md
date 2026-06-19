@@ -2,6 +2,7 @@
 title: NowGraphQLService interface - Android
 description: The NowGraphQLService interface provides functions that allow you to make GraphQL requests to your ServiceNow through its GraphQL API.Passes the specified GraphQL query to the associated ServiceNow instance and returns the query results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/cllent-mobile-api-reference/NowGQLServiceAndroidInterface.html
 release: zurich
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -17,13 +18,13 @@ The NowGraphQLService interface provides functions that allow you to make GraphQ
 
 **Note:** The GraphQL API works for guest users in the base ServiceNow system.
 
-For more details on the ServiceNow GraphQL API, see [Query record data using the GraphQL API framework](../../../../../../integrate/graphql/concept/scripted-graph-ql.md).
+For more details on the ServiceNow GraphQL API, see [Query record data using the GraphQL API framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/scripted-graph-ql.md).
 
 |Name|Type|Description|
 |----|----|-----------|
-|configuration|[NowServiceConfiguration](../../NowServiceConfiguration/concept/NowServiceConfigurationAndroidAPI.md)|Configuration to associate with the service.|
+|configuration|[NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowServiceConfigurationAndroidAPI.md)|Configuration to associate with the service.|
 
-**Parent Topic:**[Mobile SDK - Android](../../concept/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## NowGraphQLService - graphQLRequest\(String query\)
 
@@ -35,7 +36,7 @@ Passes the specified GraphQL query to the associated ServiceNow instance and ret
 
 |Type|Description|
 |----|-----------|
-|[Call](../../Call/concept/CallAndroidInterface.md#)&lt;[Byte Array](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/)&gt;|Query response.|
+|[Call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/CallAndroidInterface.md)&lt;[Byte Array](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/)&gt;|Query response.|
 
 ```
 fun makeGraphQLRequest(query: String) { 

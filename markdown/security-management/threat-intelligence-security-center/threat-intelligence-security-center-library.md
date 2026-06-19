@@ -2,6 +2,7 @@
 title: Threat Intelligence Security Center Library
 description: A threat library is defined as a group of organized objects and entities that serve the organizations with structured and unstructured security threat information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -21,20 +22,20 @@ Threat Intelligence Security Center library explains how to browse through the d
 
 The detailed view provides the insights to the intelligence records and from list views you can perform quick actions on one or more records.
 
--   **[Understanding the Data Model](../reference/understanding-the-data-model.md)**  
+-   **[Understanding the Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/understanding-the-data-model.md)**  
 The data model and architecture of threat intelligence security center module is designed to support threat intelligence platform capabilities and different security views that provides detailed data for threat analysts.
--   **[TISC Library Objects form view](tisc-library-home-page-view.md)**  
+-   **[TISC Library Objects form view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-library-home-page-view.md)**  
 The Threat Intelligence Security Center objects home page consists of the following features.
--   **[TISC Library Repository](tisc-ioc.md)**  
+-   **[TISC Library Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-ioc.md)**  
 IoC repository contains STIX objects, each of these objects contain a specific piece of information.
--   **[Access Vulnerability Downstream actions](downstream-actions-from-the-vulnerability-form-view.md)**  
+-   **[Access Vulnerability Downstream actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/downstream-actions-from-the-vulnerability-form-view.md)**  
 Access all downstream actions generated from a vulnerability record to track remediation progress and understand the scope of response activities.
--   **[Deleting threat intelligence library records](../task/tisc-delete-lib-records.md)**  
+-   **[Deleting threat intelligence library records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-delete-lib-records.md)**  
 Delete threat intelligence library records such as observables, indicators, and objects.
--   **[Export intelligence data](../task/tisc-export-observables.md)**  
+-   **[Export intelligence data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-export-observables.md)**  
 Use the export feature to manually export the intelligence data in various formats.
--   **[Confirm Potential Relationships from Related Records](../task/confirm-potential-relationships.md)**  
+-   **[Confirm Potential Relationships from Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/confirm-potential-relationships.md)**  
 Confirm the relationships between the two SDOs.
--   **[Automated Correlation](automated-correlation-rules.md)**  
+-   **[Automated Correlation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/automated-correlation-rules.md)**  
 Automated correlation helps you identify the relationships between observables, indicators, and objects.
 

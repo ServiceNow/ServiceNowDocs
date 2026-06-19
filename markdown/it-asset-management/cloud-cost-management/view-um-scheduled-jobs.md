@@ -2,6 +2,7 @@
 title: View or edit scheduled and completed Unused resources jobs
 description: View and manage the upcoming and completed Unused resources jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/view-um-scheduled-jobs.html
 release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -103,5 +104,5 @@ Time that the job ran or will run.You can edit the date.
 </table>4.  Select **Save**.
 
 
-**Parent Topic:**[Manage unused resources](../concept/manage-unused-mac.md)
+**Parent Topic:**[Manage unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/manage-unused-mac.md)
 

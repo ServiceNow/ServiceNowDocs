@@ -2,6 +2,7 @@
 title: Compliance Workspace issue form details
 description: Field descriptions to enter on the New Issue form in the Compliance Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/new-issue-form-compliance-ws.html
 release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -169,9 +170,9 @@ Assigned to
 
 Member of the group assigned to resolve the issue. Starting with Version 12.0.1, the user must have at least the sn\_grc.business\_user role.
 
-**Note:** Use the bulb icon to get suggestions on who must the issue be assigned to. The bulb icon only appears if you have the GRC: Predictive Intelligence application activated, the form is saved, the **Assigned to** field is not disabled, and the GRC Property is selected as Similarity Analysis. For more information, see [Governance, Risk, and Compliance properties](../../grc-common/reference/grc-properties.md).
+**Note:** Use the bulb icon to get suggestions on who must the issue be assigned to. The bulb icon only appears if you have the GRC: Predictive Intelligence application activated, the form is saved, the **Assigned to** field is not disabled, and the GRC Property is selected as Similarity Analysis. For more information, see [Governance, Risk, and Compliance properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-properties.md).
 
-Starting with Version 12.0.1, the assigned-to user receives an email notification when the issue manager [requests more information](../../grc-policy-and-compliance/task/remediate-issue.md).
+Starting with Version 12.0.1, the assigned-to user receives an email notification when the issue manager [requests more information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/remediate-issue.md).
 
 Starting with Version 12.0.1, when an issue transitions to the **Respond** state, an entry in the **Assigned to** field is mandatory.
 
@@ -204,7 +205,7 @@ Issue manager
 The user responsible for managing and reviewing the issue. Starting with Version 12.0.1, the following enhancements and requirements were introduced:
 
 -   The issue manager must have at least the sn\_grc.user role.
--   The issue manager receives an email notification when the assigned-to user [requests more information](../../grc-policy-and-compliance/task/remediate-issue.md).
+-   The issue manager receives an email notification when the assigned-to user [requests more information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/remediate-issue.md).
 -   When an issue transitions to the **Analyze** state, an entry in either this field or **Issue manager** is mandatory.
 -   When an issue transitions to the **Respond** state, an entry in this field is mandatory.
 
@@ -354,7 +355,7 @@ Confidential
 
 </td><td>
 
-Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record. For more information on confidential option, see [Confidentiality flag for audit and compliance records](../../grc-audit/concept/confidentiality-flag-audit-pc.md).
+Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record. For more information on confidential option, see [Confidentiality flag for audit and compliance records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/confidentiality-flag-audit-pc.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

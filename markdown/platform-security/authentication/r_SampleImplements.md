@@ -2,6 +2,7 @@
 title: Sample digest token implementations
 description: Here are several samples of creating a digest token.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/r\_SampleImplements.html
 release: zurich
 product: Authentication
 classification: authentication

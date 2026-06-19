@@ -2,6 +2,7 @@
 title: Create a new OT subnet mapping record
 description: Create a new OT subnet mapping to associate with an equipment model entity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-process-manager/create-a-new-ot-subnet-mapping-record.html
 release: zurich
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -148,7 +149,7 @@ Location
 
 </td><td>
 
-Add a location to the subnet record to automatically add or update the location in the mapped OT devices.**Note:** The location is mapped based on the sn\_otsm.subnet\_mapping.location\_auto\_update system property. For more information about system properties used for OT subnet mapping, see [System properties used by the OT subnet mapping feature](../reference/system-properties-used-by-automated-mapping-feature.md).
+Add a location to the subnet record to automatically add or update the location in the mapped OT devices.**Note:** The location is mapped based on the sn\_otsm.subnet\_mapping.location\_auto\_update system property. For more information about system properties used for OT subnet mapping, see [System properties used by the OT subnet mapping feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/system-properties-used-by-automated-mapping-feature.md).
 
 </td></tr><tr><td>
 
@@ -170,5 +171,5 @@ Specify the VLAN ID if applicable.
 </table>6.  Select **Submit**.
 
 
-**Parent Topic:**[Automatically map all OT devices to an equipment model entity](automatedly-map-all-ot-assets.md)
+**Parent Topic:**[Automatically map all OT devices to an equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/automatedly-map-all-ot-assets.md)
 

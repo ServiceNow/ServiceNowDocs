@@ -2,6 +2,7 @@
 title: Import your Wi-Fi access logs spreadsheet
 description: Import Wi-Fi access logs from an Excel spreadsheet into the Wi-Fi Access Register table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contact-tracing/import-wifi-data.html
 release: zurich
 product: Contact Tracing
 classification: contact-tracing
@@ -29,7 +30,7 @@ Role required: sn\_imt\_tracing.wifi\_manager
 
 4.  In the **Data Source** field, open the **Wi-Fi Access Register Data Source** record.
 
-    1.  Click the manage attachments icon \(![Manage attachments icon](../image/icon-paperclip.png)\).
+    1.  Click the manage attachments icon \(\[Omitted image "icon-paperclip.png"\] Alt text: Manage attachments icon\).
     2.  Click **Choose File** and select the source Excel file.
     3.  Click the **Load All Records** related link to load the Excel data.
 5.  Navigate to Scheduled Import record.
@@ -43,5 +44,5 @@ Role required: sn\_imt\_tracing.wifi\_manager
 7.  Verify that the data records were imported into the Wi-Fi Access Register table by navigating to **Contact Tracing** &gt; **Wi-Fi Access Management** &gt; **Wi-Fi Access Register**.
 
 
-**Parent Topic:**[Retrieving Wi-Fi access log data](../concept/wifi-access-management.md)
+**Parent Topic:**[Retrieving Wi-Fi access log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/wifi-access-management.md)
 

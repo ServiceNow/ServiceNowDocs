@@ -2,6 +2,7 @@
 title: Approve a localization task
 description: Proofread the translated content and approve a localization task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/localization-framework/approve-localization-task.html
 release: zurich
 product: Localization Framework
 classification: localization-framework

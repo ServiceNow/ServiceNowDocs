@@ -2,6 +2,7 @@
 title: RESTAPIResponse - Scoped, Global
 description: The RESTAPIResponse API provides methods that allow you to build a RESTful response to a scripted REST API request.Returns the ResponseStreamWriter for this response, allowing you to write directly to the response stream.Sets the body content to send in the web service response.Assigns a value to the Content-Type header in the web service response.Configures the REST response to return an error.Assign a value to a REST service response header.Sets the headers for the web service response.Assigns a value to the Location header in the web service response.Sets the status code number for the web service response.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_ScriptableServiceResponseBuilder.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -19,7 +20,7 @@ This API runs in the `sn_ws` namespace.
 
 **Note:** You cannot instantiate objects of this type. Objects of this type are created automatically and are accessible only in scripted REST API resource scripts.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## RESTAPIResponse - getStreamWriter\(\)
 
@@ -143,7 +144,7 @@ Object
 
 </td><td>
 
-Error object. For more information about the types of error objects that can be used, see [Scripted REST API example - script samples](../../../../../integrate/custom-web-services/reference/r_ScriptedRESTServiceScriptExamples.md).
+Error object. For more information about the types of error objects that can be used, see [Scripted REST API example - script samples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/r_ScriptedRESTServiceScriptExamples.md).
 
 </td></tr></tbody>
 </table>|Type|Description|

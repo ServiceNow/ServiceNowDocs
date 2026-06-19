@@ -2,6 +2,7 @@
 title: Legal name change configuration
 description: Complete the legal name change configuration to allow employees to change their legal name through virtual agent conversation in Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/leg-name-awd.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

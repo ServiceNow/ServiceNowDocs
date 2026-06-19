@@ -2,6 +2,7 @@
 title: Pulling changes
 description: Developers synchronize their instances to the parent instance by pulling and pushing versions of customized records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/c\_PullsAndPushes.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -19,21 +20,21 @@ Pulling retrieves all versions that haven’t already been pulled onto the devel
 
 **Note:** You can’t choose specific versions to pull.
 
-Comparing reports the differences between two peer instances. You can choose which versions to pull from a peer instance. You can learn about comparing instances [Compare to peer instances](../task/t_CompareToAPeerInstance.md).
+Comparing reports the differences between two peer instances. You can choose which versions to pull from a peer instance. You can learn about comparing instances [Compare to peer instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_CompareToAPeerInstance.md).
 
--   You can learn about pulling a version [Pull a version](../task/t_PullAVersion.md).
+-   You can learn about pulling a version [Pull a version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_PullAVersion.md).
 
     Pulling retrieves versions of customized records from the parent instance and adds them on the development instance.
 
--   You can learn about the pull exceptions here [Pull exceptions](../reference/r_PullExceptions.md).
+-   You can learn about the pull exceptions here [Pull exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/r_PullExceptions.md).
 
     Pulling ignores versions when certain conditions occur.
 
 
-The pushes and pulls related list on the [Team dashboard](r_TeamDashboard.md) displays the user who created a change and the remote instance where the change was created.
+The pushes and pulls related list on the [Team dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/r_TeamDashboard.md) displays the user who created a change and the remote instance where the change was created.
 
--   **[Pull a version](../task/t_PullAVersion.md)**  
+-   **[Pull a version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_PullAVersion.md)**  
 Pulling retrieves versions of customized records from the parent instance and adds them on the development instance. Pulling doesn’t retrieve any versions for changes made by system upgrades.
 
-**Parent Topic:**[Local changes](c_LocalChanges.md)
+**Parent Topic:**[Local changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_LocalChanges.md)
 

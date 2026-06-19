@@ -2,6 +2,7 @@
 title: Create a resource collector
 description: Create a resource collector to set up how Cloud Configuration Governance imports all the resources of a given type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-cloud-accelerate/create-ccg-resource-collector.html
 release: zurich
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -29,17 +30,17 @@ The cloud resources are available under a service account or service account-dat
 
     1.  Copy the **CCG – Collector Template** subflow.
 
-        For more information on copying subflow templates, see [Copy an Integration Hub subflow template](copy-ih-subflow-template.md).
+        For more information on copying subflow templates, see [Copy an Integration Hub subflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/copy-ih-subflow-template.md).
 
     2.  Add the appropriate Cloud Action Library \(CAL\) action and flow logic to read the resource data.
 
-        For more information on the available CAL actions, see [Cloud Action Library actions reference](../reference/ccg-cal-actions.md).
+        For more information on the available CAL actions, see [Cloud Action Library actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/ccg-cal-actions.md).
 
-        If CAL doesn’t have the required action, you can refer to an existing CAL action and use the Integration Hub datastream action to implement the custom action. Alternatively, you can also use the REST step. For more information, see [Data Stream actions and pagination](https://www.servicenow.com/docs/access?context=data-stream-actions&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) and [REST step](https://www.servicenow.com/docs/access?context=rest-request-action-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+        If CAL doesn’t have the required action, you can refer to an existing CAL action and use the Integration Hub datastream action to implement the custom action. Alternatively, you can also use the REST step. For more information, see Data Stream actions and pagination and REST step.
 
     3.  Add the **CCG – Insert Resource Record** action, and then select the appropriate inputs to insert the configuration data to the Configuration Management Database \(CMDB\).
 
-        For more information on the **CCG – Insert Resource Record** action, see [Cloud Configuration Governance actions reference](../reference/ccg-ih-reference.md).
+        For more information on the **CCG – Insert Resource Record** action, see [Cloud Configuration Governance actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/ccg-ih-reference.md).
 
     4.  Select **Publish**.
 
@@ -49,15 +50,15 @@ The cloud resources are available under a service account or service account-dat
 
 4.  On the form, fill in the fields.
 
-    For the description of the field values, see [Cloud Configuration Governance Resource collector form](../reference/ccg-res-collector-form.md).
+    For the description of the field values, see [Cloud Configuration Governance Resource collector form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/ccg-res-collector-form.md).
 
 5.  Select **Submit**.
 
 
 ## What to do next
 
--   If the required configuration data is not available at the cloud resource level, see [Create a configuration key](create-ccg-config-key.md).
+-   If the required configuration data is not available at the cloud resource level, see [Create a configuration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/create-ccg-config-key.md).
 
--   If you have created a new resource type in the Cloud Configuration Governance application, you can optionally create a CI finder mapping for the newly created resource type. For more information, see [Create a CI finder mapping](create-ci-finder-mapping-for-ccg.md).
+-   If you have created a new resource type in the Cloud Configuration Governance application, you can optionally create a CI finder mapping for the newly created resource type. For more information, see [Create a CI finder mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/create-ci-finder-mapping-for-ccg.md).
 
 

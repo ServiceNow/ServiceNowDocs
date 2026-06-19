@@ -2,12 +2,13 @@
 title: Integrate with Docusign at Organization level
 description: Integrating your Software Asset Management application with the Docusign service at the organization level enables you to track your software subscriptions and envelope consumption data.Register a Docusign application through the Docusign admin portal.Generate RSA keys to integrate the Docusign application with your ServiceNow instance.Generate a Java Key Store \(JKS\) certificate for the JSON Web Token \(JWT\) authentication of your Docusign integration profile.Create an integration profile to track software subscriptions and optimize licensing for the Docusign service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/saas-license-management/integrate-with-docusign-org.html
 release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
 last_updated: "2025-11-07"
-reading_time_minutes: 10
+reading_time_minutes: 11
 breadcrumb: [Integrating with Docusign, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
 ---
 
@@ -44,7 +45,7 @@ Docusign Role required: admin
 
 2.  Go to the Admin tab.
 
-    -   If you already have an API integration key from a previous integration ready for use in production, skip to [step 14](integrate-with-docusign-org.md#docusign-prod-login).
+    -   If you already have an API integration key from a previous integration ready for use in production, skip to [step 15](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-docusign-org.md).
     -   If you don't have your API integration key saved, you must generate a new one.
 3.  On the side navigation pane, select **Account Profile** and copy the **Organization ID** to secure it for later use.
 
@@ -66,15 +67,17 @@ Docusign Role required: admin
 
 11. Select **Actions** &gt; **Select Go-Live account**.
 
-    A window pops up prompting you to enter the credentials for your Docusign production account.
+    A Docusign login window pops up prompting you to enter the credentials for your Docusign account.
 
-12. Enter the Docusign production account credentials to which you want to promote your integration key.
+12. Enter your Docusign credentials.
+
+13. Select a production account on the window that pops up prompting you to choose a production account to which you want to promote your integration key.
 
     The **Go Live Status** field changes to **Pending approval**. For a successful Go-Live review, your app must meet the requirements for Go-Live for each API that it uses. For more information on the Go-Live review stages, see [Docusign documentation](https://developers.docusign.com/platform/go-live/).
 
-13. After the integration is approved, the **Go Live Status** changes to **View in production**.
+14. After the integration is approved, the **Go Live Status** changes to **View in production**.
 
-14. Log in to your Docusign production account and verify that the same integration key is present in the production account.
+15. Log in to your Docusign production account and verify that the same integration key has been promoted to the production account.
 
 
 ## Generate RSA keypair for Docusign integration
@@ -120,7 +123,7 @@ Role required: admin
 
 2.  Paste the Private key that you had generated from your Docusign integrator app.
 
-    For more information, see [Generate RSA keypair for Docusign integration](integrate-with-docusign-org.md#).
+    For more information, see [Generate RSA keypair for Docusign integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-docusign-org.md).
 
     **Note:** Make sure to include both the beginning and ending of the private key.
 
@@ -169,27 +172,35 @@ Create an integration profile to track software subscriptions and optimize licen
 
 To create a Docusign integration profile, request the Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_int\) from the [ServiceNow Store](https://store.servicenow.com/).
 
-ServiceNow Role required: sam\_integrator or admin
+Role required: sam\_integrator
 
 ### About this task
 
-An organization level integration profile uses the Docusign Data feed API that retrieves detailed subscription and consumption data across an entire organization. It aggregates data from all subaccounts under an organization, offering a centralized view of envelope activity and usage.
+An organization level integration profile uses the Docusign Data Feed API that retrieves detailed subscription and consumption data across an entire organization. The Data Feed API aggregates data from all subaccounts under an organization, offering a centralized view of envelope activity and usage.
 
-If you’re using Software Asset Workspace, the option to create the Docusign integration profile in Core UI is inactive.
+How Data feeds work:
+
+-   Data feeds are updated nightly based on the site the accounts are in.
+-   Data for each account is processed every seven days.
+-   If an organization has multiple accounts, each account is processed on a different weekday. The system randomly selects a few accounts to process each day, so that data is processed daily but for different accounts. For example, Accounts 1 and 2 on Monday, Accounts 3, 4, and 5 on Tuesday, and so on.
+
+Even if the integration job runs on the same day the envelopes are sent, the data feeds for those envelopes may not be available. After the data feeds are generated, they are included in the API response. The scheduled job then processes those envelopes during its next run.
+
+If you're using Software Asset Workspace, the option to create the Docusign integration profile in Core UI is inactive.
 
 ### Procedure
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d94344e807">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d94707e831">
 
 Interface
 
-</th><th align="left" id="d94344e810">
+</th><th align="left" id="d94707e834">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d94344e816">
+</th></tr></thead><tbody><tr><td id="d94707e840">
 
 **Core UI**
 
@@ -200,7 +211,7 @@ Action
 3.  Select **DocuSign Integration Profile**.
 
 
-</td></tr><tr><td id="d94344e858">
+</td></tr><tr><td id="d94707e882">
 
 **Software Asset Workspace**
 
@@ -245,7 +256,7 @@ Contract start date
 
 </td><td>
 
-The date on which the contract agreement became effective.This date is not same as the date when your Docusign account was created.
+The date on which the contract agreement became effective.This date isn't the same as the date when your Docusign account was created.
 
 </td></tr><tr id="row_nn5_st5_bgb"><td>
 
@@ -263,7 +274,7 @@ Organization Id
 
 The organization ID to which this account belongs.You can find this value in your Docusign account on the Admin tab. Navigate to **Account Profile** and copy the **Organization ID**.
 
-![Docusign account profile highlighting the Organization ID](../image/docusign-org-id.png)
+\[Omitted image "docusign-org-id.png"\] Alt text: Docusign account profile highlighting the Organization ID
 
 </td></tr><tr><td>
 
@@ -274,13 +285,13 @@ Renewal period \(months\)
 The frequency at which envelope consumption gets renewed.For example, if you enter a renewal period of three months, then the consumption data is renewed every three months. The renewal period governs the consumption cycle and is separate from the overall contract term.
 
 </td></tr></tbody>
-</table>3.  Review the required user roles or API permissions specified in the **Process configuration** field for each process to minimize security risks and optimize SaaS licenses.
+</table>3.  Review the required user roles or API permissions specified in the **Process configuration** field for each process to reduce security risks and optimize SaaS licenses.
 
-    **Note:** For more information about the required roles and scopes, see the [Minimal user permissions](integrate-with-docusign-org.md#) table.
+    **Note:** For more information about the required roles and scopes, see the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-docusign-org.md) table.
 
     The **Download subscriptions** check box is selected by default and you can't clear it.
 
-    The **Download Consumption** check box is selected by default.
+    The **Download Consumption** check box is selected by default. You can check the detailed consumption data in the Docusign consumption \[samp\_docusign\_consumption\] table. The data in this consumption table is in UTC time zone.
 
 4.  Select **Submit**.
 
@@ -288,7 +299,7 @@ The frequency at which envelope consumption gets renewed.For example, if you ent
 
     The **Connection &amp; Credential** field appears and is automatically set to **sn\_sam\_saas\_int.Docusign\_OAuth\_with\_JWT**.
 
-5.  Open the connection &amp; credential aliases record by selecting the preview icon ![](../image/preview-icon.png) next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
+5.  Open the connection &amp; credential aliases record by selecting the preview icon \[Omitted image "preview-icon.png"\] next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
 
 6.  On the Connection &amp; Credential Aliases form, select the **Create New Connection &amp; Credential** related link.
 
@@ -300,14 +311,14 @@ The frequency at which envelope consumption gets renewed.For example, if you ent
     |Connection Name|Name of the connection.|
     |Connection URL|This field is automatically set to **https://api.docusign.net**.|
     |Credential Information|
-    |Integration Key|The API integration key that you had generated in the [Register a Docusign application](integrate-with-docusign-org.md#) procedure.|
-    |Key Pair ID|The key pair ID of the private key that you had generated in the [Generate RSA keypair for Docusign integration](integrate-with-docusign-org.md#) procedure.|
+    |Integration Key|The API integration key that you generated in the [Register a Docusign application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-docusign-org.md) procedure.|
+    |Key Pair ID|The key pair ID of the private key that you generated in the [Generate RSA keypair for Docusign integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-docusign-org.md) procedure.|
     |Audience URI|Enter `account.docusign.com` as the URI.|
-    |Keystore Password|Password associated with the uploaded JKS file that you had created in the [Generate a Java Key Store certificate](integrate-with-docusign-org.md#) procedure.|
+    |Keystore Password|Password associated with the uploaded JKS file that you created in the [Generate a Java Key Store certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-docusign-org.md) procedure.|
 
 8.  Locate the JKS file on your device by selecting **Keystore**.
 
-    For more information on creating the JKS file, see [Generate a Java Key Store certificate](integrate-with-docusign-org.md#).
+    For more information on creating the JKS file, see [Generate a Java Key Store certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-docusign-org.md).
 
 9.  Select **Create and Get OAuth Token**.
 
@@ -330,18 +341,18 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](subscription-exclusions.md#).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/subscription-exclusions.md).
 
-If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](../reuse/create-child-alias-saas.md).
+If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](../task/track-software-rights.md).
--   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](../task/create-entitlements-workspace.md).
--   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](../task/guidedwalk-workspace.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-entitlements-workspace.md).
+-   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 
-Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
+Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
 
--   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](../task/t_RunReconciliation.md).
--   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](../task/run-recon-workspace.md).
+-   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_RunReconciliation.md).
+-   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/run-recon-workspace.md).
 

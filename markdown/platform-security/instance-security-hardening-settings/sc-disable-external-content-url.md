@@ -2,6 +2,7 @@
 title: Disable external content url \[Updated in Security Center 2.0\]
 description: Manage how external link metadata is used in your instance with Connect Chat.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-disable-external-content-url.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -15,7 +16,7 @@ breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platfor
 
 Manage how external link metadata is used in your instance with Connect Chat.
 
-Use the **glide.ui.url.external.content** property to manage external link metadata in your instance. If the property is set to the recommended value of **false**, then no external link metadata will be rendered. If set to **true** then [Connect Chat](https://www.servicenow.com/docs/access?context=c_Collaboration&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) will retrieve external link metadata from sources such as YouTube or news articles to render richer messages. This could lead to Server Side Request Forgery \(SSRF\) attacks.
+Use the **glide.ui.url.external.content** property to manage external link metadata in your instance. If the property is set to the recommended value of **false**, then no external link metadata will be rendered. If set to **true** then  will retrieve external link metadata from sources such as YouTube or news articles to render richer messages. This could lead to Server Side Request Forgery \(SSRF\) attacks.
 
 Ensure the Glide Property **glide.ui.url.external.content** exists and is set to the value false. If the property does not appear in the sys\_properties table, add a new record.
 
@@ -75,7 +76,7 @@ Category
 
 </td><td>
 
-[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 
 </td></tr><tr><td>
 
@@ -101,8 +102,8 @@ References
 
 </td><td>
 
-[Connect Chat](https://www.servicenow.com/docs/access?context=c_Collaboration&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+</table>**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

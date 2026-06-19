@@ -2,6 +2,7 @@
 title: GlassFish Server discovery
 description: Discovery creates or updates a CMDB record when it detects a running instance of GlassFish Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/r-GlassFishServer.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -21,19 +22,31 @@ By default, Discovery uses the following patterns to perform the discovery: **Gl
 
 ## Data collected by Discovery for GlassFish
 
-The following data is collected in the GlassFish \[cmdb\_ci\_appl\_glassfish\] and GlassFish Wars \[cmdb\_ci\_appl\_glassfish\_war\] tables:
+The following data is collected in the GlassFish \[cmdb\_ci\_appl\_glassfish\] table:
 
-|Label|Field Name|
+|Label|Field name|
+|-----|----------|
+|Inst name|inst\_name|
+|Port|port|
+|Class|sys\_class\_name|
+|Version|version|
+|Configuration file|config\_file|
+|Domain directory|domain\_directory|
+|Install Status|install\_status|
+|Installation directory|install\_directory|
+|PID|pid|
+|Running process|running\_process|
+|Running process command|running\_process\_command|
+|Running process key parameters|running\_process\_key\_parameters|
+|TCP port\(s\)|tcp\_port|
+|Operational status|operational\_status|
+
+The following data is collected in the GlassFish War \[cmdb\_ci\_appl\_glassfish\_war\] table:
+
+|Label|Field name|
 |-----|----------|
 |Name|name|
-|Version|version|
-|Class|sys\_class\_name|
-|Fully qualified domain name|fqdn|
-|IP Address|ip\_address|
-|Installation directory|install\_directory|
-|TCP port\(s\)|tcp\_port|
-|Configuration directory|config\_directory|
-|Configuration file|config\_file|
+|Class|class|
 
-**Parent Topic:**[Software discovery](../concept/c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_Software.md)
 

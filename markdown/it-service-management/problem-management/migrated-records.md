@@ -2,6 +2,7 @@
 title: Migrated
 description: You have successfully activated the Problem Management Best Practice - Madrid - State Model plugin and updated your problem and problem task records to the new best practice states.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/problem-management/migrated-records.html
 release: zurich
 product: Problem Management
 classification: problem-management

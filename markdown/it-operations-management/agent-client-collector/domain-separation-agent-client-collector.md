@@ -2,6 +2,7 @@
 title: Domain separation and Agent Client Collector
 description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is supported for Agent Client Collector \(ACC\). Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/domain-separation-agent-client-collector.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -28,15 +29,15 @@ Domain separation in ACC allows the isolation of data collected by the Agent Cli
 -   Regulatory compliance: Domain separation helps comply with regulations like GDPR or SOX by ensuring that only authorized personnel can access sensitive data. For instance, the Compliance department can monitor regulatory checks while being restricted from accessing IT infrastructure data.
 -   Incident management and troubleshooting: IT can troubleshoot network issues, while Finance monitors transaction systems. Domain separation allows both departments to work independently, ensuring faster resolution and preventing data exposure.
 
--   **[Use case: Optimizing data isolation and monitoring with domain separation](acc-domain-separation-use-case.md)**  
+-   **[Use case: Optimizing data isolation and monitoring with domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-domain-separation-use-case.md)**  
 Optimizing data isolation and monitoring with domain separation ensures financial institutions protect sensitive information, improve operational efficiency, and maintain compliance by securely segregating departmental data.
--   **[Use case: Regulatory compliance in a financial services solution](acc-domain-sep-use-case-solution.md)**  
+-   **[Use case: Regulatory compliance in a financial services solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-domain-sep-use-case-solution.md)**  
 A financial institution needs to ensure that its data is accessible only to the departments that have authorization for the indicated data.
 
-**Parent Topic:**[Exploring Agent Client Collector Framework](exploring-agent-client-collector-framework.md)
+**Parent Topic:**[Exploring Agent Client Collector Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/exploring-agent-client-collector-framework.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

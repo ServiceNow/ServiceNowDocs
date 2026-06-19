@@ -2,6 +2,7 @@
 title: Create a connection for the MicrosoftTranslation alias
 description: Connect to the Microsoft translation service by creating a connection. Provide information that is used by HTTP\(s\) actions or activities to connect to that service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/dynamic-translation/create-connection-ms-translation.html
 release: zurich
 product: Dynamic Translation
 classification: dynamic-translation
@@ -139,9 +140,9 @@ For information on supported regions, see the [Microsoft](https://docs.microsoft
 </table>5.  Click **Submit**.
 
 
-**Parent Topic:**[Microsoft Azure Translator Service spoke](../concept/microsoft-translation-spoke.md)
+**Parent Topic:**[Microsoft Azure Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/microsoft-translation-spoke.md)
 
-**Previous topic:**[Create a credential for the MicrosoftTranslation alias](create-credential-ms-translation.md)
+**Previous topic:**[Create a credential for the MicrosoftTranslation alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/create-credential-ms-translation.md)
 
-**Next topic:**[Activate the Microsoft translator configuration](activate-ms-translator-config.md)
+**Next topic:**[Activate the Microsoft translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/activate-ms-translator-config.md)
 

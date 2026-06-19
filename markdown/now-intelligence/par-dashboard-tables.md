@@ -2,6 +2,7 @@
 title: Platform Analytics dashboard tables
 description: The following tables relate to Platform Analytics dashboards and can be accessed through scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/par-dashboard-tables.html
 release: zurich
 topic_type: reference
 last_updated: "2025-07-31"
@@ -222,5 +223,5 @@ par\_recommendation\_user\_action
 Stores whether users accepted or dismissed a Process Mining insight recommendation.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Dashboard reference](../concept/dashboard-reference-page.md)
+</table>**Parent Topic:**[Dashboard reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboard-reference-page.md)
 

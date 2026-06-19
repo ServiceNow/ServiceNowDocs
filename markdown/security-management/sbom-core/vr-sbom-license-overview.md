@@ -2,6 +2,7 @@
 title: Classifying licenses and resolving component licenses in the Software Bill of Materials workspace
 description: Classify licenses and resolve \(match\) them to components, or create licenses in the License administration module in the SBOM workspace. Classifying and matching licenses to your components permits you determine your license compliance for the proprietary, open-source, and vendor-supplied software components you upload in your SBOM files.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sbom-core/vr-sbom-license-overview.html
 release: zurich
 product: SBOM Core
 classification: sbom-core
@@ -69,7 +70,7 @@ You have the following options to view any license information you've uploaded w
     -   All licenses - Total count of licenses.
     All the components in your organization are using one of the licenses that is listed on this page. When a new license is detected from an SBOM upload, a record is created and stored in the SBOM license \[sn\_sbom\_license\] table and added to this list. It’s classification by default is, **Classification Required**. License records in this state must be reviewed and classified before you can resolve \(match\) them to components so your overall license compliance is accurately calculated.
 
-    For information on how to classify licenses, see [Classify imported licenses in the Software Bill of Materials Workspace](../task/vr-sbom-classify-license.md).
+    For information on how to classify licenses, see [Classify imported licenses in the Software Bill of Materials Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sbom-core/vr-sbom-classify-license.md).
 
 
 ## Roles

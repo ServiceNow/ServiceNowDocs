@@ -2,12 +2,13 @@
 title: Request translations in Localization Workspace: Types
 description: Add content types to a translation request in Localization Workspace. Your translation request can include multiple types of documents from tables across your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/localization-workspace/lw-request-translations-types.html
 release: zurich
 product: Localization Workspace
 classification: localization-workspace
 topic_type: task
-last_updated: "2026-02-03"
-reading_time_minutes: 1
+last_updated: "2026-06-08"
+reading_time_minutes: 2
 breadcrumb: [Requesting translations in Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer]
 ---
 
@@ -17,9 +18,9 @@ Add content types to a translation request in Localization Workspace. Your trans
 
 ## Before you begin
 
--   Content types correspond to tables. For details about making your content available to Localization Workspace, see [Types of Localizable content in Localization Workspace](../reference/lw-localizable-content.md).
--   Complete the first step in the Translation Request wizard, then proceed to this step. See [Request translations in Localization Workspace: Languages](lw-request-translations-langs.md).
--   Role required: localization\_requestor
+-   Content types correspond to tables. For details about making your content available to Localization Workspace, see [Types of Localizable content in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/lw-localizable-content.md).
+-   Complete the first step in the Translation Request wizard, then proceed to this step. See [Request translations in Localization Workspace: Languages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/lw-request-translations-langs.md).
+-   Role required: sn\_lw.user
 
 ## About this task
 
@@ -27,15 +28,17 @@ When you choose content types to include in your request, Localization Workspace
 
 A document may be considered partially translated when its original is updated after it was translated. In such cases it may be possible to synchronize the translated versions to the English original by translating only the new portion of the text.
 
+Items currently in the translation process can't be selected or resubmitted until the current translation finishes.
+
 The following procedure covers step number two in the Translation Request wizard.
 
 ## Procedure
 
-1.  Complete the first step in the Translation request wizard \(Languages\), then proceed to **Types**.![The Types step in the Translation Request wizard in Localization Workspace, with the Knowledge type highlighted. There are four steps in the wizard. Types is step number two.](../image/lw-request-translations-types1.png)
+1.  Complete the first step in the Translation request wizard \(Languages\), then proceed to **Types**.\[Omitted image "lw-request-translations-types1.png"\] Alt text: The Types step in the Translation Request wizard in Localization Workspace, with the Knowledge type highlighted. There are four steps in the wizard. Types is step number two.
 
 2.  Choose the content types you want to translate by selecting the appropriate check boxes.
 
-    **Note:** Content types that are not selectable may require table or role permissions. Ask your administrator to enable access. For more information see [Types of Localizable content in Localization Workspace](../reference/lw-localizable-content.md).
+    **Note:** Content types that are not selectable may require table or role permissions. Ask your administrator to enable access. For more information see [Types of Localizable content in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/lw-localizable-content.md).
 
 3.  Select **Save**.
 

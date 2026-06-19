@@ -2,6 +2,7 @@
 title: Add value template form
 description: Add value template form fields and descriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/add-value-template-form.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
@@ -140,5 +141,5 @@ Instance
 The instance where the value template is applied. This field is useful for managing value templates across instances.**Note:** You can validate a formula in a non-production instance before publishing it to a production instance. After initiating testing for a value template, you might need to wait up to 10 minutes for same-instance testing or 30 minutes for cross-instance testing. During this time, you can't edit or resend the template for testing, but you can continue working with other templates.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Control Tower reference](aict-references.md)
+</table>**Parent Topic:**[AI Control Tower reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/aict-references.md)
 

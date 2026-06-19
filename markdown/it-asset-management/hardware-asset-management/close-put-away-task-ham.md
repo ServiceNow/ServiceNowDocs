@@ -2,6 +2,7 @@
 title: Close an Asset put away task
 description: Add the asset drop-off location for an open Asset put away task and close it in the Hardware Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/close-put-away-task-ham.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -9,7 +10,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [close asset put away task, asset put away task]
-breadcrumb: [Manage asset put away using the Hardware Asset Workspace, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage asset put away for stockrooms, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Close an Asset put away task
@@ -35,15 +36,15 @@ You can bulk close selected Asset put away tasks that are open and assigned to y
 
 2.  Open the put away task either from the Inventory overview section or the **All Stockrooms** tab.
 
-<table id="choicetable_t5y_1ct_xfc"><thead><tr><th align="left" id="d263114e107">
+<table id="choicetable_t5y_1ct_xfc"><thead><tr><th align="left" id="d33278e107">
 
 Option
 
-</th><th align="left" id="d263114e110">
+</th><th align="left" id="d33278e110">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d263114e116">
+</th></tr></thead><tbody><tr><td id="d33278e116">
 
 **From the Inventory overview section**
 
@@ -53,7 +54,7 @@ Description
 2.  Select the **Number** link to open the Asset put away task.
 
 
-</td></tr><tr><td id="d263114e140">
+</td></tr><tr><td id="d33278e140">
 
 **From the __All Stockrooms__ tab.**
 
@@ -81,5 +82,5 @@ Description
 -   Closed tasks aren’t displayed in the Open put away tasks list.
 -   The task closure is captured in the **Activity** tab. The name of the user who closed the task is shown in the work notes.
 
-**Parent Topic:**[Manage asset put away using the Hardware Asset Workspace](../concept/manage-asset-putaway-stockroom-hardware-asset-workspace.md)
+**Parent Topic:**[Manage asset put away using the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-asset-putaway-stockroom-hardware-asset-workspace.md)
 

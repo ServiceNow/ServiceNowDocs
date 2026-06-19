@@ -2,6 +2,7 @@
 title: Join workflow activity
 description: The Join activity unites multiple execution paths into one transition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/workflow-activities/r\_JoinActivity.html
 release: zurich
 product: Workflow Activities
 classification: workflow-activities

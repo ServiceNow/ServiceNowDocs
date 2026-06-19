@@ -2,6 +2,7 @@
 title: Scripting outbound REST
 description: You can send outbound REST requests from any place in the ServiceNow AI Platform where scripting is allowed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/c\_ScriptingOutboundREST.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -19,14 +20,14 @@ For example, you can return data from a REST endpoint using a business rule when
 
 For detailed API information about the server-side RESTMessageV2 and RESTResponseV2 APIs, see the API documentation on [developer.servicenow.com](https://developer.servicenow.com/app.do#!/home). For additional tips and best practices, see the [Outbound REST Web Services RESTMessageV2 and SOAPMessageV2 execute\(\) vs executeAsync\(\) Best Practices \[KB0694711\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0694711) article in the Now Support Knowledge Base.
 
--   **[Generate a REST message script preview](../task/t_ScriptingWithREST.md)**  
+-   **[Generate a REST message script preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/t_ScriptingWithREST.md)**  
 You can generate an example script to send a REST message based on content and parameters you provide in the method record.
--   **[Direct RESTMessageV2 example](../../../app-store/dev_portal/API_reference/RESTMessageV2/reference/r_DirectRESTMessageV2Example.md)**  
+-   **[Direct RESTMessageV2 example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/r_DirectRESTMessageV2Example.md)**  
 You can send an outbound REST message directly to the endpoint.
--   **[RESTMessageV2 MID server example](../../../app-store/dev_portal/API_reference/RESTMessageV2/reference/r_RESTMessageV2MIDServerExample.md)**  
+-   **[RESTMessageV2 MID server example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/r_RESTMessageV2MIDServerExample.md)**  
 You can send an outbound REST message through a MID Server.
--   **[Recordless RESTMessageV2 example](../../../app-store/dev_portal/API_reference/RESTMessageV2/reference/r_RecordlessRESTMessageV2Example.md)**  
+-   **[Recordless RESTMessageV2 example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/r_RecordlessRESTMessageV2Example.md)**  
 You can use the RESTMessageV2\(\) constructor with no parameters to define a REST message entirely in the script.
 
-**Parent Topic:**[Outbound REST web service](c_OutboundRESTWebService.md)
+**Parent Topic:**[Outbound REST web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_OutboundRESTWebService.md)
 

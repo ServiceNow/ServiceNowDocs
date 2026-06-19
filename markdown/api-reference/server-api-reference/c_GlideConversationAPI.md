@@ -2,6 +2,7 @@
 title: GlideConversation - Global
 description: The GlideConversation API provides methods to access information in a Connect message.The conversation's description.The sysID of the document associated with the conversation.The name of the conversation.The queue entry associated with the conversation.The sys\_id of the conversation.The name of the table containing the record being discussed.The conversation type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_GlideConversationAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,13 +18,13 @@ The GlideConversation API provides methods to access information in a Connect me
 
 **Important:**
 
-Starting with the Paris release, Connect Support no longer receives enhancements or non-priority bug fixes. Consider moving to ServiceNow® Advanced Work Assignment and Agent Chat in workspace to automatically assign chat requests and other work items to agents. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://www.servicenow.com/docs/access?context=migrate-from-connect-support&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+Starting with the Paris release, Connect Support no longer receives enhancements or non-priority bug fixes. Consider moving to ServiceNow® Advanced Work Assignment and Agent Chat in workspace to automatically assign chat requests and other work items to agents. For details, see Move from Connect Support to Advanced Work Assignment and Agent Chat.
 
 Access GlideConversation properties through a global object \(conversation\) that is available only in Connect action conditions and scripts.
 
 Connect conversations are stored on the Live Group Profile \[live\_group\_profile\] table.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideConversation - description
 

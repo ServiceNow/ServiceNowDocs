@@ -2,6 +2,7 @@
 title: Common Service Data Model \(CSDM\) Assessment– Total
 description: Guidance to assess and improve the CSDM framework
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/CSDM-assessment-total.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

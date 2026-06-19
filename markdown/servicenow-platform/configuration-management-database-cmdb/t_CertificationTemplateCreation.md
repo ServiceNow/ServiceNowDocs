@@ -2,6 +2,7 @@
 title: Create or edit a certification template
 description: To create a certification template, follow these instructions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/t\_CertificationTemplateCreation.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -17,7 +18,7 @@ To create a certification template, follow these instructions.
 
 ## Before you begin
 
-Activate the Certification Core plugin to enable the Compliance functionality. See [Compliance Activation](../concept/c_ActivatingCompliance.md) for details.
+Activate the Certification Core plugin to enable the Compliance functionality. See [Compliance Activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_ActivatingCompliance.md) for details.
 
 ## Procedure
 
@@ -65,7 +66,7 @@ Activate the Certification Core plugin to enable the Compliance functionality. S
 
         The **Show Related Fields** item supports dot-walking, enabling you to include referenced fields in a certification attribute condition. Select **Show Related Fields** or **Remove Related Fields** to add or remove referenced fields \(in the form of &lt;field&gt; =&gt; &lt;field&gt;\). Select a referenced field to drill down to the next level of referenced fields.
 
-        See [Dot walking](https://www.servicenow.com/docs/access?context=c_DotWalking&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+        See Dot walking.
 
     -   **Certification CI Relationship Conditions**: \[Desired State audit types\] Define the CI relationships to certify, such as Runs on or Depends on.
     -   **Certification User Relationship Conditions**: \[Desired State audit types\] Select the desired user relationship for this configuration item. The relationship provided in the base system is Log reviewed by.
@@ -102,7 +103,7 @@ Activate the Certification Core plugin to enable the Compliance functionality. S
 
     Updating the template description does not create a new version.
 
-    **Note:** If you select a filter whose table is incompatible with the existing template conditions, the system displays a warning that the conditions cannot be applied. ![Error message reading,"Some template conditions are incompatible with the selected filter. Incompatible conditions will not be used for auditing."](../image/IncompatibleFilterWarning.png)
+    **Note:** If you select a filter whose table is incompatible with the existing template conditions, the system displays a warning that the conditions cannot be applied. \[Omitted image "IncompatibleFilterWarning.png"\] Alt text: Error message reading,"Some template conditions are incompatible with the selected filter. Incompatible conditions will not be used for auditing."
 
 11. Select **Update**.
 

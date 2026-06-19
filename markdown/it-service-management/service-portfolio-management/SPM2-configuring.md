@@ -2,6 +2,7 @@
 title: Configuring Service Portfolio Management
 description: Configuring topics provide information about how to set up and configure the Service Portfolio Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-portfolio-management/SPM2-configuring.html
 release: zurich
 product: Service Portfolio Management
 classification: service-portfolio-management
@@ -19,18 +20,18 @@ Configuring topics provide information about how to set up and configure the Ser
 
 To activate Service Portfolio Management, its plugins, and the sample content pack, you must have the admin role. To set up services and commitments, you must have the portfolio admin role or the service editor role.
 
--   **[Activate Service Portfolio Management](../task/activate-SPM2-plugin.md)**  
+-   **[Activate Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/activate-SPM2-plugin.md)**  
 The Service Portfolio Management Core plugin \(com.snc.service\_portfolio\_core\) is available by default for ITSM licensed customers. You can activate additional available related plugins for enhanced features and functionality.
--   **[Service Portfolio Management activation administration](SPM2-administration.md)**  
+-   **[Service Portfolio Management activation administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/SPM2-administration.md)**  
 Service Portfolio Management includes several plugins to enable the organization, documentation, and management of service portfolios within your IT business department.
--   **[Applying the CSDM guidelines to Service Portfolio Management](SPM2-csdm.md)**  
+-   **[Applying the CSDM guidelines to Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/SPM2-csdm.md)**  
 Service data relates to each other using different applications in different ways. Service Portfolio Management references the Common Service Data Model \(CSDM\) framework to bring service-related data together in a single view.
--   **[Set up services and commitments in Service Portfolio Management](../task/SPM2-setup.md)**  
+-   **[Set up services and commitments in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/SPM2-setup.md)**  
 Set up services and commitments in Service Portfolio Management to define services and track their performance against availability commitments. You can relay the performance information in real-time to your stakeholders.
--   **[Quick start tests for Service Portfolio Management Premium](../../../administer/atf-quick-start-tests/reference/quick-start-tests-SPM-Premium.md)**  
+-   **[Quick start tests for Service Portfolio Management Premium](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/quick-start-tests-SPM-Premium.md)**  
 Validate that Service Portfolio Management Premium still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
--   **[Install the Service Portfolio Management Sample Content Pack](../task/activate-SPM2-content-pack-plugin.md)**  
+-   **[Install the Service Portfolio Management Sample Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/activate-SPM2-content-pack-plugin.md)**  
 Install the Service Portfolio Management Taxonomy Content Pack plugin \(com.snc.spm.content\) to access a sample portfolio structure and service taxonomy. This sample data accelerates your ability to create and manage a service portfolio.
 
-**Parent Topic:**[Service Portfolio Management](../reference/SPM2-landing-page.md)
+**Parent Topic:**[Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/SPM2-landing-page.md)
 

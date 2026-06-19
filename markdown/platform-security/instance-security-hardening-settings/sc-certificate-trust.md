@@ -2,6 +2,7 @@
 title: Enforce certificate trust \[Updated in Security Center 1.3, removed in 2.0, added in 7.0\]
 description: Use system properties to ensure that certificate expiration and trust are checked for certificates received from outbound HTTPS call endpoints when host verification is not performed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-certificate-trust.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -53,7 +54,7 @@ Category
 
 </td><td>
 
-[Communications](sc-communications.md)
+[Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-communications.md)
 
 </td></tr><tr><td>
 
@@ -101,10 +102,10 @@ References
 
 </td><td>
 
-[Certificates](../../general/concept/c_Certificates.md)
+[Certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/c_Certificates.md)
 
- [Verify certificate chain and hostname \[New in Security Center 1.3 and updated in 2.0\]](sc-verify-certificate-chain-and-hostname.md)
+ [Verify certificate chain and hostname \[New in Security Center 1.3 and updated in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-verify-certificate-chain-and-hostname.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Communications](sc-communications.md)
+</table>**Parent Topic:**[Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-communications.md)
 

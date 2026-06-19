@@ -2,11 +2,12 @@
 title: Onboard GitLab to DevOps Change Velocity — Service Catalog
 description: Create, connect, discover, and configure your GitLab instance using the ServiceNow Service Catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/sc-gitlab.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [GitLab, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -90,7 +91,7 @@ Use MidServer
 Optional. Select MID Server for an on-premises tool that is attached to a MID Server. Application is automatically set to  DevOps and capability is set to REST.
 
 </td></tr></tbody>
-</table>    For a list of all the permissions required on the credentials for connecting to GitLab, see GitLab permissions in [Permissions required for DevOps tools](../reference/tool-req-permission.md).
+</table>    For a list of all the permissions required on the credentials for connecting to GitLab, see GitLab permissions in [Permissions required for DevOps tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/tool-req-permission.md).
 
 5.  Select **Order Now**.
 
@@ -186,5 +187,5 @@ Select the dates for which you want to import the Plans data. By default, the la
     A request is created. When the request is approved, the plan and repository objects are associated to the app record and webhooks are configured for real-time tracking. Historical data is imported for the selected plans and repositories. The **Track** field is automatically enabled for imported repositories.
 
 
-**Parent Topic:**[GitLab integration with DevOps Change Velocity](../concept/gitlab-integration-dev-ops.md)
+**Parent Topic:**[GitLab integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/gitlab-integration-dev-ops.md)
 

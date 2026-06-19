@@ -2,6 +2,7 @@
 title: SAFe Epic Dashboard
 description: The SAFe Epic Dashboard provides a visualization of how the features of an epic are progressing over a given period of time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scaled-agile-framework-safe/safe-epic-dashboard.html
 release: zurich
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -15,9 +16,9 @@ breadcrumb: [Performance Analytics Content Pack for Essential SAFe, Scaled Agile
 
 The SAFe Epic Dashboard provides a visualization of how the features of an epic are progressing over a given period of time.
 
-![SAFe Epic Summary tab](../image/safe-epic-summary-dashboard.png "Epic Summary tab")
+\[Omitted image "safe-epic-summary-dashboard.png"\] Alt text: SAFe Epic Summary tab
 
-![epic cycle time](../image/safe-epic-cycle-time.png "Cycle Time tab")
+\[Omitted image "safe-epic-cycle-time.png"\] Alt text: epic cycle time
 
 The SAFe epic dashboard displays such as total number of features that are complete, and number of stories that are missing estimates. It also indicates the pace at which the ART members are completing the features in the epic.
 
@@ -83,7 +84,7 @@ If you are upgrading from version 1.0.2 or earlier of Performance Analytics Cont
 -   Epic Cumulative Flow Diagram
 -   Story Cycle Time
 
-For more information, see [Using Solution Library for Essential SAFe dashboards](../reference/using-solution-library-for-essential-safe-dashboards.md).
+For more information, see [Using Solution Library for Essential SAFe dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/using-solution-library-for-essential-safe-dashboards.md).
 
 <table id="table_fcx_vdk_k3b"><thead><tr><th>
 
@@ -105,7 +106,7 @@ Feature Progress
 
 Horizontal bar chart
 
- ![](../../reporting/image/inline-data-vis-96px-bar-horizontal.png)
+ \[Omitted image "inline-data-vis-96px-bar-horizontal.png"\] Alt text:
 
 </td><td>
 
@@ -117,7 +118,7 @@ Epic Burnup
 
 </td><td>
 
-Line chart![](../../reporting/image/inline-data-vis-96px-line.png)
+Line chart\[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
 
 </td><td>
 
@@ -138,7 +139,7 @@ Epic Cumulative Flow Diagram
 
 </td><td>
 
-Area chart![](../../reporting/image/inline-data-vis-96px-area.png)
+Area chart\[Omitted image "inline-data-vis-96px-area.png"\] Alt text:
 
 </td><td>
 
@@ -175,7 +176,7 @@ Story Cycle Time
 
 </td><td>
 
-Bubble chart![](../../reporting/image/inline-data-vis-96px-bubble.png)
+Bubble chart\[Omitted image "inline-data-vis-96px-bubble.png"\] Alt text:
 
 </td><td>
 
@@ -194,10 +195,10 @@ Hovering your mouse cursor over a bubble displays the following details about th
 
 If there are too many stories at any area of the chart and the bubbles appear crowded on the report, you can zoom in that particular area of the report for clearer view.
 
- ![Cycle Time Zoom](../image/cycle-time-zoom.gif)
+ \[Omitted image "cycle-time-zoom.gif"\] Alt text: Cycle Time Zoom
 
 </td></tr></tbody>
-</table>You can customize the Burnup and Cumulative Flow Diagram reports. For more information, see [Customizing Essential SAFe dashboard reports](../concept/customizing-safe-dashboard-reports.md).
+</table>You can customize the Burnup and Cumulative Flow Diagram reports. For more information, see [Customizing Essential SAFe dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/customizing-safe-dashboard-reports.md).
 
-**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](pa-content-pack-essential-safe.md)
+**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/pa-content-pack-essential-safe.md)
 

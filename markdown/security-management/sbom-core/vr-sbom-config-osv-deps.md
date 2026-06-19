@@ -2,6 +2,7 @@
 title: Configuring the Deps.dev, OSV.dev, and PaCE integrations for Software Bill of Materials
 description: You can edit some of the parameters for the Deps.dev and OSV.dev integrations. There are also two code trigger versions of these integrations that are used strictly for internal workflows, and you should not initiate these integrations on-demand. Additionally, you can activate a scheduled job to create policies using Policy as Code Engine \(PaCE\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sbom-core/vr-sbom-config-osv-deps.html
 release: zurich
 product: SBOM Core
 classification: sbom-core
@@ -59,5 +60,5 @@ Starting with version 4.0 of SBOM Response, you can view components that are ide
 -   Determine if components are stale or abandoned with the **Run PaCE policies for SBOM Response** scheduled job. This scheduled job is deactivated by default.
 -   View components that are identified as stale or abandoned as Non-compliant in the PaCE interface that is available and viewed in the SBOM Workspace.
 
-See [Integrating PaCE with other applications](https://www.servicenow.com/docs/access?context=pace-integrate-other-apps&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) for more information about PaCE and PaCE policies.
+See  for more information about PaCE and PaCE policies.
 

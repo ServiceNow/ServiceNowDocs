@@ -2,6 +2,7 @@
 title: Set Allowed MIME Child Types \[New in Security Center 2.0\]
 description: Learn how to configure the glide.security.mime.type.allowed\_child\_types property to a secure setting so that file types will not pass the Multipurpose Internet Mail Extensions \(MIME\) type checking. This reduces the risk of remote code execution on an uploaded file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-set-allowed-mime-child-types.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -73,7 +74,7 @@ Category
 
 </td><td>
 
-[File and resources](sc-file-resources.md)
+[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 
 </td></tr><tr><td>
 
@@ -102,5 +103,5 @@ Functional impact
 To support MIME types whose file extensions do not match the content of the files but are valid according to the Tika sub-type configurations in **tika-mimetypes.xml**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[File and resources](sc-file-resources.md)
+</table>**Parent Topic:**[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 

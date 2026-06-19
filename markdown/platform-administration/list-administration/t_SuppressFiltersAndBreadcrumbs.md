@@ -2,6 +2,7 @@
 title: Suppress filters and breadcrumbs with list controls
 description: Use list controls to suppress filters and breadcrumbs on defined tables for users with specific roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/list-administration/t\_SuppressFiltersAndBreadcrumbs.html
 release: zurich
 product: List Administration
 classification: list-administration

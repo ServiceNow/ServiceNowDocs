@@ -2,6 +2,7 @@
 title: Preview and download a signed contract document
 description: Preview and download a signed contract document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-simple-contracts/review-contract-doc-repository.html
 release: zurich
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -34,7 +35,7 @@ Access to a contract document is based on the following user roles and condition
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Select the list icon \(![List icon.](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon.\).
 
 3.  In the **Lists** tab, under **Simple Contracts**, select **Legal Contracts** .
 
@@ -44,15 +45,15 @@ Access to a contract document is based on the following user roles and condition
 
 6.  Download the contract document.
 
-<table id="choicetable_chr_vty_2zb"><thead><tr><th align="left" id="d429396e163">
+<table id="choicetable_chr_vty_2zb"><thead><tr><th align="left" id="d269931e163">
 
 External integration status
 
-</th><th align="left" id="d429396e166">
+</th><th align="left" id="d269931e166">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d429396e172">
+</th></tr></thead><tbody><tr><td id="d269931e172">
 
 **Active and published**
 
@@ -60,17 +61,17 @@ Action
 
 Select the link in the Signed Contract list in the **Details** tab
 
-</td></tr><tr><td id="d429396e184">
+</td></tr><tr><td id="d269931e184">
 
 **Not available**
 
 </td><td>
 
 1.  Select the attachment icon in the Counsel Assist sidebar.
-2.  In the Attachments section, select the actions icon \(![Actions icon.](../image/menu-icon.png)\) and then select **Download**.
+2.  In the Attachments section, select the actions icon \(\[Omitted image "menu-icon.png"\] Alt text: Actions icon.\) and then select **Download**.
 
 
 </td></tr></tbody>
 </table>    -   If an external integration is active and published, open the external storage location to download the contract document by selecting the link in the Signed Contract list in the **Details** tab.
-    -   If an external storage integration is not available, select the attachment icon in the Counsel Assist sidebar and then in the Attachments section, click the actions icon \(![Actions icon.](../image/menu-icon.png)\) and select **Download**.
+    -   If an external storage integration is not available, select the attachment icon in the Counsel Assist sidebar and then in the Attachments section, click the actions icon \(\[Omitted image "menu-icon.png"\] Alt text: Actions icon.\) and select **Download**.
 

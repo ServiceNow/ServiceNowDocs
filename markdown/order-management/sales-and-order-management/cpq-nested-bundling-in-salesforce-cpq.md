@@ -2,6 +2,7 @@
 title: Nested bundling in Salesforce CPQ
 description: Enable nested bundling in Salesforce CPQ to support complex product hierarchies and configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cpq-nested-bundling-in-salesforce-cpq.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,7 +24,7 @@ To enable support for nested bundles, additional setup steps must be completed i
 
 1.  Navigate to Setup &gt; Installed Packages &gt; Salesforce CPQ, and then click **Configure**.
 
-    ![Setup in Salesforce](../images/cpq-layout-number-field-props-sf-settings.png)
+    \[Omitted image "cpq-layout-number-field-props-sf-settings.png"\] Alt text: Setup in Salesforce
 
 2.  On the Additional Settings tab, check the box to enable **Nested Bundles for External Configurator**.
 3.  Click **Save** to save the changes.

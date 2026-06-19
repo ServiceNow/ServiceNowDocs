@@ -2,6 +2,7 @@
 title: Properties installed with Financial Services Payment Operations
 description: Customize the properties that are available with Financial Services Payment Operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-payment-operations/properties-installed-with-payment-operations.html
 release: zurich
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
@@ -36,7 +37,7 @@ Number of days to wait until creation of a follow-up claim tasksn\_bom\_payment.
 The system creates a follow-up claim task for a claim if the claim case is not closed within the number of days mentioned in this property. -   **Type**: integer
 -   **Default value**: 16
 -   **Location**: **All** &gt; **Payment Operations** &gt; **Administration** &gt; **Properties**
--   Learn more: [Work on a claim task for an external refund](../task/work-claim-task.md)
+-   Learn more: [Work on a claim task for an external refund](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/work-claim-task.md)
 
 </td></tr><tr><td>
 
@@ -47,8 +48,8 @@ Number of days to wait until creation of a follow up inquiry tasksn\_bom\_paymen
 The system creates a follow-up inquiry task for the payment inquiry case if the case is not resolved or closed within the number of days mentioned in this property. -   **Type**: integer
 -   **Default value**: 16
 -   **Location**: **All** &gt; **Payment Operations** &gt; **Administration** &gt; **Properties**
--   Learn more: [Work on an inquiry task](../task/work-on-inquiry-task.md)
+-   Learn more: [Work on an inquiry task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/work-on-inquiry-task.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Financial Services Payment Operations reference](../concept/payment-operations-reference.md)
+</table>**Parent Topic:**[Financial Services Payment Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/payment-operations-reference.md)
 

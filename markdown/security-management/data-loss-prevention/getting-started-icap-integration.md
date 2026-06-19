@@ -2,6 +2,7 @@
 title: Getting started with ICAP DLP integration for Data Loss Prevention
 description: Before you can use the integration, you must download it from the ServiceNow Store
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/data-loss-prevention/getting-started-icap-integration.html
 release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -60,5 +61,5 @@ Verify that the following DLP applications and security support common applicati
 -   Data Loss Prevention Incident Response
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Internet Content Adaption Protocol \(ICAP\) integration for DLP IR](icap-dlp-integration.md)
+</table>**Parent Topic:**[Internet Content Adaption Protocol \(ICAP\) integration for DLP IR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/icap-dlp-integration.md)
 

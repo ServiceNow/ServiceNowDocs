@@ -2,6 +2,7 @@
 title: Create list views for new planning item tables in Strategic Planning
 description: For every new planning item table that you create, you must create the necessary list views. You can also customize the views for existing planning items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/create-list-views-for-new-planning-item-tables-in-strategic-planning.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -17,7 +18,7 @@ For every new planning item table that you create, you must create the necessary
 
 ## Before you begin
 
--   [Define a new planning item type in Strategic Planning](create-planning-organization-and-planning-item-type.md).
+-   [Define a new planning item type in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/create-planning-organization-and-planning-item-type.md).
 -   Ensure that the application scope in your instance is set to Portfolio Planning.
 
 Role required: admin
@@ -55,5 +56,5 @@ Create the APW Default and APW Prioritization list views for the planning item t
 
 ## What to do next
 
-[Create related list views for new planning item types in Strategic Planning](create-related-list-views-new-planning-item-types-strategic-planning.md)
+[Create related list views for new planning item types in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/create-related-list-views-new-planning-item-types-strategic-planning.md)
 

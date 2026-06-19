@@ -1,7 +1,8 @@
 ---
 title: Assign user roles in Sales Customer Relationship Management applications
-description: The Sales Customer Relationship Management applications use roles to control access to features and capabilities. Roles also determine access to information for data security, identify users, and define the work that users perform in your organization.
+description: The Sales Customer Relationship Management \(Sales CRM\) applications use roles to control access to features and capabilities. Roles also determine access to information for data security, identify users, and define the work that users perform in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configure-SOM-roles.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -13,11 +14,11 @@ breadcrumb: [Configure, Sales Customer Relationship Management]
 
 # Assign user roles in Sales Customer Relationship Management applications
 
-The Sales Customer Relationship Management applications use roles to control access to features and capabilities. Roles also determine access to information for data security, identify users, and define the work that users perform in your organization.
+The Sales Customer Relationship Management \(Sales CRM\) applications use roles to control access to features and capabilities. Roles also determine access to information for data security, identify users, and define the work that users perform in your organization.
 
 ## Overview of roles
 
-Roles define the functions available to users of the Sales Customer Relationship Management applications, including:
+Roles define the functions available to users of the Sales CRM applications, including:
 
 -   Product Catalog Management
 -   Pricing Management
@@ -29,8 +30,8 @@ Roles define the functions available to users of the Sales Customer Relationship
 
 Assign roles to users and groups by using the ServiceNow AI Platform user administration feature.
 
--   To assign a role to a user, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
--   To assign a role to a group, see [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+-   To assign a role to a user, see Assign a role to a user.
+-   To assign a role to a group, see Assign a role to a group.
 
 ## Lead Management roles
 
@@ -46,7 +47,7 @@ The roles in the following table apply to Lead Management.
 
 ## Opportunity Management roles
 
-The roles in the following table apply to Opportunity Management. To learn more about these roles, see [Opportunity Management](opportunity-management.md).
+The roles in the following table apply to Opportunity Management. To learn more about these roles, see [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-management.md).
 
 |Role|Description|
 |----|-----------|
@@ -165,7 +166,7 @@ Order Viewer \[order\_viewer\]
 
 View access to customer orders, product orders, product order tasks, service orders, and resource orders. You should also grant an order viewer with the sn\_prd\_pm.product\_catalog\_viewer role to access the product catalog data.
 
- **Note:** The order approver and order viewer roles are included in the Order Management Business Stakeholder role, which has a fee associated with it. Don’t assign these roles to users without confirming that your organization has the appropriate entitlement. To learn more, see [Activate Business Stakeholder](https://www.servicenow.com/docs/access?context=activate-business-stakeholders&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+ **Note:** The order approver and order viewer roles are included in the Order Management Business Stakeholder role, which has a fee associated with it. Don’t assign these roles to users without confirming that your organization has the appropriate entitlement. To learn more, see .
 
 </td></tr><tr><td>
 
@@ -250,5 +251,5 @@ Fallout Agent \[sn\_fallout\_mgmt.fallout\_agent\]
 View fallout records. Agents with this role can also update the state of fallout records and create work notes on them.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring Sales Customer Relationship Management applications](som-configuring.md)
+</table>**Parent Topic:**[Configuring Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-configuring.md)
 

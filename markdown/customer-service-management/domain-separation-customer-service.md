@@ -2,7 +2,10 @@
 title: Domain separation and Customer Service Management
 description: Domain separation is supported in Customer Service Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/domain-separation-customer-service.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 4
@@ -23,7 +26,7 @@ Domain separation is supported in Customer Service Management. Domain separation
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## Overview
 
@@ -89,15 +92,15 @@ When an escalation record is created from a case or account, it’s created in t
 
 Ribbon and Lookup Verify configurations and Special Handling Notes support domain separation as process-separated tables.
 
-When inserting or updating a record for process-separated tables, the picker domain scope takes precedence by design with the Overrides \[sys\_override\] field on process-separated tables. For more information, see [Process administration](https://www.servicenow.com/docs/access?context=c_DelegatedAdministration&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+When inserting or updating a record for process-separated tables, the picker domain scope takes precedence by design with the Overrides \[sys\_override\] field on process-separated tables. For more information, see Process administration.
 
--   **[Domain separation and entity relationships](../reference/domain_separation_csm_accounts.md)**  
+-   **[Domain separation and entity relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/domain_separation_csm_accounts.md)**  
 With domain separation in Customer Service Management, you can further control visibility and access to data by using contact, partner, and parent-child relationships.
 
-**Parent Topic:**[Customer Service Management](c_CustomerServiceManagement.md)
+**Parent Topic:**[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/c_CustomerServiceManagement.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

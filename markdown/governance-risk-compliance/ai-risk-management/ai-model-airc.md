@@ -2,6 +2,7 @@
 title: AI models
 description: An AI model is designed, deployed, and monitored in accordance with structured governance frameworks. These frameworks ensure the AI model’s ethical use, regulatory compliance, and risk mitigation throughout its life cycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/ai-risk-management/ai-model-airc.html
 release: zurich
 product: AI Risk Management
 classification: ai-risk-management
@@ -23,9 +24,9 @@ Regular validation and performance monitoring ensure ongoing model effectiveness
 
 The following image shows the overview page of an AI model.
 
-![AI model overview page](../image/ai-model-overview-page.png "AI model overview page")
+\[Omitted image "ai-model-overview-page.png"\] Alt text: AI model overview page
 
-An AI model record provides an aggregated risk score. The individual risk scores for entities that have Risk assessment for AI inventory as the Risk Assessment Methodology \(RAM\) roll-up and form an aggregated risk score. You can see the aggregated risk score under the Details tab of the AI system record in the **Aggregated risk score** section. For more information about how risk score is rolled up, see [Risk score rollup in Advanced Risk Assessment](../../grc-risk/concept/risk-rollup-ara-concept.md).
+An AI model record provides an aggregated risk score. The individual risk scores for entities that have Risk assessment for AI inventory as the Risk Assessment Methodology \(RAM\) roll-up and form an aggregated risk score. You can see the aggregated risk score under the Details tab of the AI system record in the **Aggregated risk score** section. For more information about how risk score is rolled up, see [Risk score rollup in Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/risk-rollup-ara-concept.md).
 
 **Important:** To see the aggregated risk score, you must enable the **Migrate to Advanced Risk Assessments** \(`sn_risk_advanced.migrate_to_advanced_risk`\) under **All** &gt; **Advanced Risk** &gt; **Properties**.
 

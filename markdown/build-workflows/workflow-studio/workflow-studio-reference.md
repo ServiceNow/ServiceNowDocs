@@ -2,6 +2,7 @@
 title: Workflow Studio reference
 description: Review additional information about Workflow Studio properties and component workflow applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/workflow-studio-reference.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -15,12 +16,12 @@ breadcrumb: [Workflow Studio, Build workflows]
 
 Review additional information about Workflow Studio properties and component workflow applications.
 
--   **[Playbooks reference](../../process-automation-designer/reference/process-automation-designer-reference.md)**  
+-   **[Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer-reference.md)**  
 Guides, lists, tables and more that you can reference as you work with Playbooks and their associated components.
--   **[Flows, subflows, and actions reference](../../flow-designer/reference/flow-designer-reference.md)**  
+-   **[Flows, subflows, and actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-designer-reference.md)**  
 Get details about Workflow Studio flow components like actions, flow logic, and properties.
--   **[Decision tables reference](../../decision-table/concept/decision-builder-reference.md)**  
+-   **[Decision tables reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/decision-builder-reference.md)**  
 Reference topics provide additional information about decision tables properties and administration in Workflow Studio.
 
-**Parent Topic:**[Workflow Studio](workflow-studio.md)
+**Parent Topic:**[Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/workflow-studio.md)
 

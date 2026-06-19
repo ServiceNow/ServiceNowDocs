@@ -2,25 +2,23 @@
 title: Report savings when awarding a supplier
 description: When awarding a supplier, enter the spend and savings data for the sourcing event associated with the pipeline project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/report-savings-pipeline.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2025-11-07"
-reading_time_minutes: 2
-keywords: [savings, report savings, enter spend and savings data, awarding suppliers]
-breadcrumb: [Using Sourcing Pipeline Management, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Using Sourcing Pipeline Management, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Report savings when awarding a supplier
 
 When awarding a supplier, enter the spend and savings data for the sourcing event associated with the pipeline project.
 
-Describes a procedure to report savings when awarding a supplier in Source-to-Pay Workspace. 
-
 ## Before you begin
 
-Role required: sn\_shop.procurement\_specialist
+Role required: sn\_spend\_pipeline.pipeline\_management\_admin
 
 ## About this task
 
@@ -30,25 +28,25 @@ The sourcing event that you plan to work on, and all its associated negotiations
 
 1.  Navigate to **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon.](../../supplier-lifecycle-operations/image/cases-list-icon.png)\) and do one of the following:
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and do one of the following:
 
     -   Navigate to **Lists** &gt; **My work** &gt; **Sourcing events**.
     -   Navigate to **Lists** &gt; **All work** &gt; **Sourcing events**.
-3.  Open the sourcing event that is in the Requires Decision state.
+3.  Open the sourcing event that is in Requires Decision state.
 
-    ![Award multiple suppliers option for a sourcing event.](../image/pipeline-award-option.png)
+    \[Omitted image "pipeline-award-option.png"\] Alt text: Award option for a pipeline project.
 
 4.  Select **Award**.
 
-    The Award to supplier dialog box is displayed.
+    The Award to a supplier dialog box is displayed.
 
 5.  In the **Supplier** field, select a supplier, and then select **Next**.
 
-    ![Select a supplier.](../image/pipeline-award-supplier-select.png)
+    \[Omitted image "pipeline-award-supplier-select.png"\] Alt text: Select a supplier.
 
 6.  Enter the spend and savings data in the **Final spend**, **Cost avoidance**, **Lost savings**, and **Other savings** fields.
 
-    ![Enter spend and savings data for the pipeline project.](../image/pipeline-award-supplier-financials.png)
+    \[Omitted image "pipeline-award-supplier-financials.png"\] Alt text: Enter spend and savings data for the pipeline project.
 
     **Note:** The Review financials modal is displayed only if the sourcing event is associated with a pipeline project.
 
@@ -59,9 +57,5 @@ The sourcing event that you plan to work on, and all its associated negotiations
 7.  Select **Submit**.
 
 
-## Result
-
-The sourcing event is moved to Closed Complete, with the individual negotiations under it moved to Closed Decided or Closed Rejected based on your selection. The awarded sourcing request is moved to Closed Complete, with purchase requisitions automatically created for the purchase lines. In addition, the spend and savings data is updated in the associated pipeline project.
-
-**Parent Topic:**[Using Sourcing Pipeline Management](../concept/use-pipeline-sourcing-mgmt.md)
+**Parent Topic:**[Using Sourcing Pipeline Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/use-pipeline-sourcing-mgmt.md)
 

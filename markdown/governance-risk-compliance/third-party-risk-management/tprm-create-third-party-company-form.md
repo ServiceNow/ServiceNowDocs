@@ -2,6 +2,7 @@
 title: Create New Company form
 description: On the Create New Company form, fill in the fields for the third party.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-create-third-party-company-form.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management

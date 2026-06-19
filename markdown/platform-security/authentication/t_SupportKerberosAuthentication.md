@@ -2,6 +2,7 @@
 title: \(Workaround\) Support Kerberos authentication
 description: A workaround is available for the SAML 2.0 integration that changes the authentication context from forms-based authentication to Windows-based authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/t\_SupportKerberosAuthentication.html
 release: zurich
 product: Authentication
 classification: authentication

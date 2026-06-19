@@ -2,6 +2,7 @@
 title: Submitting Legal Simple Contracts requests
 description: Employees from different departments in your organization can submit legal requests for the creation or review of contracts with third parties, such as vendors, customers, and partners.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-simple-contracts/sub-lg-sim-conts-reqs.html
 release: zurich
 product: Legal Simple Contracts
 classification: legal-simple-contracts

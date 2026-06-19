@@ -2,6 +2,7 @@
 title: Create a playbook variant
 description: Create variations of a playbook for different use cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/create-playbook-variant.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -25,13 +26,13 @@ Role required: admin or playbook.admin
 
 2.  Open the playbook that you want to create variant for.
 
-3.  Select the variant icon \(![](../images/playbook-variants-icon.png)\) to open the variant panel on the left.
+3.  Select the variant icon \(\[Omitted image "playbook-variants-icon.png"\]\) to open the variant panel on the left.
 
 4.  Select **Add a variant**.
 
 5.  Fill in the following fields.
 
-<table id="choicetable_oqd_gxb_hdc"><tbody><tr><td id="d152139e92">
+<table id="choicetable_oqd_gxb_hdc"><tbody><tr><td id="d142089e92">
 
 **Variant name**
 
@@ -39,42 +40,42 @@ Role required: admin or playbook.admin
 
 Enter a unique, user-facing name for your playbook variant. This name appears to agents and fulfillers when this variant runs.
 
-</td></tr><tr><td id="d152139e104">
+</td></tr><tr><td id="d142089e104">
 
 **Conditions**
 
 </td><td>
 
-In the condition builder, select or enter a field, operator, and value.**Note:** To learn more about condition builders, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+In the condition builder, select or enter a field, operator, and value.**Note:** To learn more about condition builders, see .
 
 Add more conditions for this variant to run, as needed.
 
 </td></tr></tbody>
 </table>    In this example, we want to create different versions of a base recruitment process playbook for individual contributors \(IC\) and managers. In the condition builder, we indicate whether the variant is for management roles or not.
 
-    ![Conditions for the IC variant of a recruitment playbook](../images/playbook-variant-conditions.png "IC variant")
+    \[Omitted image "playbook-variant-conditions.png"\] Alt text: Conditions for the IC variant of a recruitment playbook
 
-    ![Conditions for the manager variant of a recruitment playbook](../images/playbook-variant-conditions-2.png "Manager variant")
+    \[Omitted image "playbook-variant-conditions-2.png"\] Alt text: Conditions for the manager variant of a recruitment playbook
 
 6.  Select **Create variant**.
 
     You have two new variants of the base recruitment playbook, one for ICs and one for managers.
 
-    ![Playbook variants panel with variants of a base playbook](../images/playbook-variants-panel.png)
+    \[Omitted image "playbook-variants-panel.png"\] Alt text: Playbook variants panel with variants of a base playbook
 
     The color of the canvas border corresponds to the color of the variant that is open.
 
-    **Important:** The order of your variants is important. Variants are evaluated in the order that they are listed in the panel, from top to bottom. To learn more about reordering your variants, see [Re-order playbook variants](reorder-playbook-variants.md).
+    **Important:** The order of your variants is important. Variants are evaluated in the order that they are listed in the panel, from top to bottom. To learn more about reordering your variants, see [Re-order playbook variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/reorder-playbook-variants.md).
 
 7.  As you make changes to your variants, make sure all activity properties are still configured as needed.
 
     Override properties for an activity if they should be different from the parent playbook.
 
-    ![Override activity property button](../images/override-activity-property.png)
+    \[Omitted image "override-activity-property.png"\] Alt text: Override activity property button
 
     Activities that are the same as in a parent playbook are grayed out. If you change or add an activity, it is shown in full color.
 
-    **Note:** For more general guidelines, see [General Guidelines](../concept/playbook-variants.md#general-guidelines-playbook-variants).
+    **Note:** For more general guidelines, see [General Guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-variants.md).
 
 8.  Add a child variant to a variant.
 
@@ -108,18 +109,18 @@ Enter a unique, user-facing name for your playbook variant. This name appears to
 
 </td><td>
 
-In the condition builder, select or enter a field, operator, and value. To learn more about condition builders, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+In the condition builder, select or enter a field, operator, and value. To learn more about condition builders, see .
 
 Add more conditions for this variant to run, as needed.**Note:** Child variants automatically inherit the conditions of the parent variant.
 
 </td></tr></tbody>
 </table>        In this example, we want to create a child variant of the Manager variant for recruiting senior managers and above. We add an extra condition to specify that this particular Manager child variant runs for levels M4 to M6 manager roles.
 
-        ![Adding a child variant for senior managers under the Manager variant](../images/playbook-child-variant-conditions.png)
+        \[Omitted image "playbook-child-variant-conditions.png"\] Alt text: Adding a child variant for senior managers under the Manager variant
 
 9.  Follow step 8 to add a variant at the same level as another variant \(a sibling variant\), but choose the **Add sibling variant** option instead.
 
-    ![Playbook variants action menu with Add sibling variant option highlighted](../images/playbook-variants-action-menu.png)
+    \[Omitted image "playbook-variants-action-menu.png"\] Alt text: Playbook variants action menu with Add sibling variant option highlighted
 
 10. Edit a playbook variant's conditions.
 
@@ -127,12 +128,12 @@ Add more conditions for this variant to run, as needed.**Note:** Child variants 
 
     2.  Select **Edit properties**.
 
-11. To save a variant as a favorite, see [Save a playbook variant as a favorite](bookmark-playbook-variant.md).
+11. To save a variant as a favorite, see [Save a playbook variant as a favorite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/bookmark-playbook-variant.md).
 
 
 ## What to do next
 
-[Set variant evaluation point](set-evaluation-point.md)
+[Set variant evaluation point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/set-evaluation-point.md)
 
-**Parent Topic:**[Playbook variants](../concept/playbook-variants.md)
+**Parent Topic:**[Playbook variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-variants.md)
 

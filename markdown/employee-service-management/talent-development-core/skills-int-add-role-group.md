@@ -2,6 +2,7 @@
 title: Adding role groups and role levels for skills administration
 description: Create additional role groups and role levels based on the various roles in your organization and create a comprehensive role-based structure to accommodate various employee roles in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/skills-int-add-role-group.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -17,7 +18,7 @@ Create additional role groups and role levels based on the various roles in your
 
 ## About this task
 
-You can add role groups and role levels by importing them through the job architecture data import. For more information, see [Load job architecture data into your ServiceNow instance](load-data-skills-tables.md).
+You can add role groups and role levels by importing them through the job architecture data import. For more information, see [Load job architecture data into your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/load-data-skills-tables.md).
 
 This procedure describes how to add role groups and role levels to the Role Groups \[sn\_skills\_int\_role\_group\] and Role Levels \[sn\_skills\_int\_role\_level\] tables manually after the job architecture data is imported.
 

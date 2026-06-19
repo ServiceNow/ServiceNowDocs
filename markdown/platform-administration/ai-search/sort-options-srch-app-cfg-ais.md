@@ -2,6 +2,7 @@
 title: Search result sort options in AI Search application configurations
 description: A search result sort option enables users to display search results in an order determined by their field values. Applying a search result sort option overrides the default AI Search relevancy-based result order. You can define custom search result sort options for your AI Search applications.Define a sort option to enable users of an AI Search application to order their search results using field values.Remove a search result sort option from the sort menu in an AI Search application. The removal of the search result sort option prevents users of the application from selecting that option to reorder their search results with.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/sort-options-srch-app-cfg-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -17,9 +18,9 @@ A search result sort option enables users to display search results in an order 
 
 When sorting search results on a string field, AI Search uses collation-based sort following the rules for the ServiceNow AI Platform® session language.
 
-For details on how users apply search result sort options, see [Change the sort order for your search results](../task/sort-search-results-ais.md).
+For details on how users apply search result sort options, see [Change the sort order for your search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/sort-search-results-ais.md).
 
-**Parent Topic:**[Search application configurations](defining-search-app-cfgs-ais.md)
+**Parent Topic:**[Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/defining-search-app-cfgs-ais.md)
 
 ## Create a search result sort option in an AI Search application configuration
 
@@ -47,7 +48,7 @@ The sort menu in an AI Search application displays all active search result sort
 
 4.  On the Sort Option form, fill in the fields.
 
-    For a description of the field values, see [Sort Option form](../reference/sort-option-form-ais.md).
+    For a description of the field values, see [Sort Option form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/sort-option-form-ais.md).
 
 5.  Select **Submit**.
 
@@ -74,7 +75,7 @@ Role required: search\_application\_admin
 
 4.  On the Sort Option form, clear the **Active** option and select **Update**.
 
-    For a description of the field values, see [Sort Option form](../reference/sort-option-form-ais.md).
+    For a description of the field values, see [Sort Option form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/sort-option-form-ais.md).
 
 
 ### Result

@@ -2,6 +2,7 @@
 title: View details about the impact and cause of an alert in Express List
 description: View information about an alert on the alert's Overview tab in the Express List.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/use-alert-overview-tab.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -23,7 +24,7 @@ Role required: evt\_mgmt\_operator
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the navigation bar, select the Express list icon: ![Express list icon](../../event-management/image/express-list1.png).
+2.  From the navigation bar, select the Express list icon: \[Omitted image "express-list1.png"\] Alt text: Express list icon.
 
 3.  Select the alert number to open it.
 
@@ -55,7 +56,7 @@ Impact
 
 Lists the Configuration item and any services impacted by the alert.The **Impacted Services** tile includes the following subtabs:
 
--   **Application services:** The application services affected by the alert. For details on application services, see [Application services](https://www.servicenow.com/docs/access?context=application-services&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+-   **Application services:** The application services affected by the alert. For details on application services, see Application services.
 -   **Related service offerings:** The service offerings connected to the application services affected by the alert.
 Application services and their related service offerings display on a many-to-many basis. That is, several service offerings can relate to one or more application services, and several application services can relate to one or more service offerings.
 

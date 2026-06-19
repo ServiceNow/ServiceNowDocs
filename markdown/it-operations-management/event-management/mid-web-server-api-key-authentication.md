@@ -2,6 +2,7 @@
 title: Configure MID Web Server API key authentication
 description: Authenticate incoming requests from clients to the MID Web Server extension using API key authentication. API authentication is a secure and simple way to authenticate your request. You can create or modify a MID Web Server API key.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/mid-web-server-api-key-authentication.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -17,7 +18,7 @@ Authenticate incoming requests from clients to the MID Web Server extension usin
 
 ## Before you begin
 
-Create a MID Web Server extension to use API Key authentication, as described in [Configure the MID Web Server extension](configure-mid-web-server-extension.md). Ensure that you select **API Key** in the extension's **Authentication Type** field.
+Create a MID Web Server extension to use API Key authentication, as described in [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-mid-web-server-extension.md). Ensure that you select **API Key** in the extension's **Authentication Type** field.
 
 Role required: event\_mgmt\_admin
 

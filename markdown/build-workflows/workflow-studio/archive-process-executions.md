@@ -2,6 +2,7 @@
 title: Archive process contexts
 description: Improve database query performance by archiving unneeded records for playbooks that are in a Complete, Error, or Cancelled state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/archive-process-executions.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -28,10 +29,10 @@ By default, context records are automatically archived for process executions th
 -   In **Complete**, **Skipped**, or **Cancelled** state
 -   For a playbook that hasn’t been edited within 14 days.
 
-    **Note:** You can adjust the number of days. To learn more about configuring archive settings, see [Configure archive settings for process contexts](config-archive-settings-process-contexts.md).
+    **Note:** You can adjust the number of days. To learn more about configuring archive settings, see [Configure archive settings for process contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/config-archive-settings-process-contexts.md).
 
 
-If you don't want context records to automatically be archived, see [Turn off automated archiving](turn-off-automated-archiving.md).
+If you don't want context records to automatically be archived, see [Turn off automated archiving](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/turn-off-automated-archiving.md).
 
 Contexts for process executions that are in an **Error** state must be archived manually.
 
@@ -45,13 +46,13 @@ When you archive context records for a process execution, the following records 
 -   Activity context \[`sys_pd_activity_context`\]
 -   Stage context \[`sys_pd_lane_context`\]
 
-The JSON record can be viewed, but not edited. To learn more about viewing the JSON record for archived context data, see [View archived process contexts](view-archived-process-executions.md).
+The JSON record can be viewed, but not edited. To learn more about viewing the JSON record for archived context data, see [View archived process contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/view-archived-process-executions.md).
 
-**Warning:** Archiving cannot be undone. If you need context logs or reports that use these records, don’t archive. If automated archiving creates report problems, turn off the feature. To learn how to turn off automated archiving, see [Turn off automated archiving](turn-off-automated-archiving.md).
+**Warning:** Archiving cannot be undone. If you need context logs or reports that use these records, don’t archive. If automated archiving creates report problems, turn off the feature. To learn how to turn off automated archiving, see [Turn off automated archiving](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/turn-off-automated-archiving.md).
 
 Agents can still open playbooks to see historical data, such as why a playbook was canceled or who an activity was assigned to.
 
-Flow context \(`sys_flow_context`\) records are also deleted automatically 2 weeks after completion. For more information about flow data retention, see [Flow execution details retention](../../flow-designer/concept/flow-reporting.md).
+Flow context \(`sys_flow_context`\) records are also deleted automatically 2 weeks after completion. For more information about flow data retention, see [Flow execution details retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-reporting.md).
 
 ## Procedure
 
@@ -75,14 +76,14 @@ If you have a large number of context records to archive, records are archived i
 
 ## What to do next
 
-Configure the form layout for process executions so that you can see the archived data. To learn more about configuring the form layout for a process execution, see [View archived process contexts](view-archived-process-executions.md).
+Configure the form layout for process executions so that you can see the archived data. To learn more about configuring the form layout for a process execution, see [View archived process contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/view-archived-process-executions.md).
 
--   **[Configure archive settings for process contexts](config-archive-settings-process-contexts.md)**  
+-   **[Configure archive settings for process contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/config-archive-settings-process-contexts.md)**  
 Change the default settings for the automated archiving feature for process contexts.
--   **[Turn off automated archiving](turn-off-automated-archiving.md)**  
+-   **[Turn off automated archiving](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/turn-off-automated-archiving.md)**  
 Turn off the automatic archiving of context records for your complete and cancelled playbooks.
--   **[View archived process contexts](view-archived-process-executions.md)**  
+-   **[View archived process contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/view-archived-process-executions.md)**  
 Configure the form layout for a process execution so that you can see the JSON record for archived context records.
 
-**Parent Topic:**[Administering playbooks](../concept/administering-process-automation-designer.md)
+**Parent Topic:**[Administering playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/administering-process-automation-designer.md)
 

@@ -2,7 +2,10 @@
 title: Automatically close customer service cases
 description: Customer service cases in the Resolved state can be closed automatically if customers don’t act.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/auto-close-customer-service-case.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -67,5 +70,5 @@ Use this business rule to configure when the system automatically sets the **Aut
 </table>**Related topics**  
 
 
-[Workflow Studio](https://www.servicenow.com/docs/access?context=flow-designer&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+[bundle-cadev.flow-designer]
 

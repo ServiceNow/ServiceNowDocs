@@ -2,6 +2,7 @@
 title: Task Intelligence Analytics and Monitoring
 description: Use the Task Intelligence Admin Console to monitor, analyze, and assess the performance of your machine learning model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/task-intelligence/task-intelligence-analytics-and-monitoring.html
 release: zurich
 product: Task Intelligence
 classification: task-intelligence
@@ -15,15 +16,15 @@ breadcrumb: [Manage machine learning models with Task Intelligence, Task Intelli
 
 Use the Task Intelligence Admin Console to monitor, analyze, and assess the performance of your machine learning model.
 
--   **[Task Intelligence for ITSM Analytics and Monitoring](https://www.servicenow.com/docs/access?context=task-intel-monitor-analystics&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)**
+-   **Task Intelligence for ITSM Analytics and Monitoring**
 
     View the impacts of your Task Intelligence models. Monitor model performance overtime, track business value, and view what predictions your agents did and didn't use.
 
--   **[View Analytics for Task Intelligence for CSM](https://www.servicenow.com/docs/access?context=csm-task-intel-case-monitoring&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)**
+-   **View Analytics for Task Intelligence for CSM**
 
     View Task Intelligence for Customer Service analytics and see how your machine learning models are working.
 
--   **[View Task Intelligence prediction history](https://www.servicenow.com/docs/access?context=csm-task-intel-prediction-history&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)**
+-   ****
 
     View details about historical predictions in the Predictor Results for CSM models.
 

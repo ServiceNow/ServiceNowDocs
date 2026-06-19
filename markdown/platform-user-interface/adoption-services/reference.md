@@ -2,6 +2,7 @@
 title: Reference
 description: Reference information for Dynamic Guidance
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/reference.html
 release: zurich
 product: Adoption Services
 classification: adoption-services

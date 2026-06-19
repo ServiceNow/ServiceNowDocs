@@ -2,6 +2,7 @@
 title: Change the navigation and menu settings in your portal experience
 description: Change the header, footer, and menu settings for your custom portal experience in UI Builder to fit the needs of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/portal-navigation-menu-settings.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -19,7 +20,7 @@ Change the header, footer, and menu settings for your custom portal experience i
 
 This task has the following prerequisites:
 
--   You have an existing portal experience on UI Builder. For more information, see [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md).
+-   You have an existing portal experience on UI Builder. For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md).
 -   This workspace experience contains at least two pages.
 -   You want users to be able to navigate from a page to other pages that you specify.
 
@@ -27,9 +28,9 @@ Role required: ui\_builder\_admin
 
 ## About this task
 
-Set up the navigation and menu settings in the [app shell](../concept/ui-builder-glossary.md#) of your portal experience. The app shell is the wrapper of the portal contents. For example, the app shell can show things like the logo of your company, user preferences, the search icon, the configuration icon, and the user menu. You can configure this app shell in the ServiceNow AI Platform. For more information about app shells, see [Define UI experiences using app shells](../concept/app-shells-uibuilder.md).
+Set up the navigation and menu settings in the [app shell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/ui-builder-glossary.md) of your portal experience. The app shell is the wrapper of the portal contents. For example, the app shell can show things like the logo of your company, user preferences, the search icon, the configuration icon, and the user menu. You can configure this app shell in the ServiceNow AI Platform. For more information about app shells, see [Define UI experiences using app shells](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/app-shells-uibuilder.md).
 
-You must be in the correct application scope to edit experience settings. If you are in a different scope, the experience settings are read-only. To change your application scope, in the main header, select the application picker \(![Application picker](../image/application-picker.png)\), and then select the application scope. For more information about the application scope, see [Learn about security and roles](security-roles.md).
+You must be in the correct application scope to edit experience settings. If you are in a different scope, the experience settings are read-only. To change your application scope, in the main header, select the application picker \(\[Omitted image "application-picker.png"\] Alt text: Application picker\), and then select the application scope. For more information about the application scope, see [Learn about security and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/security-roles.md).
 
 **Note:** For advanced information about UX page properties, including JSON examples, see [https://www.servicenow.com/community/next-experience-articles/workspace-app-shell-ux-page-properties/ta-p/2331956](https://www.servicenow.com/community/next-experience-articles/workspace-app-shell-ux-page-properties/ta-p/2331956).
 
@@ -39,15 +40,15 @@ You must be in the correct application scope to edit experience settings. If you
 
 2.  Open a portal experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    For more information, see [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md).
+    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md).
 
 3.  Select **Experience settings** in the UI Builder header.
 
-    ![Arrow pointing to the settings toggle on the experience view page.](../image/portal-settings-toggle.png)
+    \[Omitted image "portal-settings-toggle.png"\] Alt text: Arrow pointing to the settings toggle on the experience view page.
 
 4.  To change the settings for the header, footer, and navigation menu for the app shell of the portal experience you’re working in, select the advanced settings links.
 
-    ![Portal experience settings for navigation.](../image/experience-portal-navigation.png "Portal experience settings for navigation")
+    \[Omitted image "experience-portal-navigation.png"\] Alt text: Portal experience settings for navigation.
 
 <table id="table_yhn_b1f_h4b"><thead><tr><th>
 
@@ -75,7 +76,7 @@ Show the menu
 
 1.  To add a menu to your portal experience, select **Navigation Menu**.
 2.  To remove the navigation menu, deselect **Navigation Menu**.
-3.  To go to the ServiceNow AI Platform, select **Advanced navigation menu settings**. Here, you can change what menu and menu items are displayed in the navigation menu. For more information, see [Define UI experiences using app shells](../concept/app-shells-uibuilder.md).
+3.  To go to the ServiceNow AI Platform, select **Advanced navigation menu settings**. Here, you can change what menu and menu items are displayed in the navigation menu. For more information, see [Define UI experiences using app shells](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/app-shells-uibuilder.md).
 
 
 </td></tr><tr><td>
@@ -93,5 +94,5 @@ Display a footer
 </table>5.  Click **Save**.
 
 
-**Parent Topic:**[Configure UI Builder portal experiences](../concept/ui-builder-portal-settings.md)
+**Parent Topic:**[Configure UI Builder portal experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/ui-builder-portal-settings.md)
 

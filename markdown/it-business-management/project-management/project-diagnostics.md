@@ -2,11 +2,12 @@
 title: Use Project Diagnostics to detect corrupt project data
 description: Project Diagnostics uses the Application Diagnostics Tool to detect corrupt data in a project, such as tasks with invalid parents, tasks without top tasks, and invalid or cyclic relations in a project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-management/project-diagnostics.html
 release: zurich
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Project Diagnostics, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -27,15 +28,15 @@ Project Diagnostics can also detect whether date calculations in a project appea
 
 1.  Determine whether you want to run a diagnostic scan on a single project or multiple projects.
 
-<table id="choicetable_ez5_jcj_hkb"><thead><tr><th align="left" id="d115584e55">
+<table id="choicetable_ez5_jcj_hkb"><thead><tr><th align="left" id="d113325e55">
 
 Scope
 
-</th><th align="left" id="d115584e58">
+</th><th align="left" id="d113325e58">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d115584e64">
+</th></tr></thead><tbody><tr><td id="d113325e64">
 
 **All Projects**
 
@@ -43,7 +44,7 @@ Steps
 
 Navigate to **All** &gt; **Project Administration** &gt; **Project Diagnostics**.
 
-</td></tr><tr><td id="d115584e88">
+</td></tr><tr><td id="d113325e88">
 
 **Single Project**
 
@@ -61,15 +62,15 @@ Navigate to **All** &gt; **Project Administration** &gt; **Project Diagnostics**
 
 4.  From the **Diagnostics** section, run a single diagnostic scan or multiple scans on the projects matching the filter criteria.
 
-<table id="choicetable_hqd_pcj_hkb"><thead><tr><th align="left" id="d115584e154">
+<table id="choicetable_hqd_pcj_hkb"><thead><tr><th align="left" id="d113325e154">
 
 Task
 
-</th><th align="left" id="d115584e157">
+</th><th align="left" id="d113325e157">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d115584e163">
+</th></tr></thead><tbody><tr><td id="d113325e163">
 
 **Run multiple diagnostic scans**
 
@@ -79,7 +80,7 @@ Steps
 2.  Select **Run Diagnostics** at the top-right corner of the page.
 
 
-</td></tr><tr><td id="d115584e184">
+</td></tr><tr><td id="d113325e184">
 
 **Run a specific diagnostic scan**
 
@@ -95,5 +96,5 @@ Steps
 
 ## What to do next
 
-Add your own [diagnostic scans](../../project-portfolio-suite-with-financials/task/create-diagnostic-scan-map-script.md) and [fix scripts](../../project-portfolio-suite-with-financials/task/add-diagnostic-and-fix-script.md).
+Add your own [diagnostic scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/create-diagnostic-scan-map-script.md) and [fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/add-diagnostic-and-fix-script.md).
 

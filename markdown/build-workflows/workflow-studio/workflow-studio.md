@@ -2,6 +2,7 @@
 title: Workflow Studio
 description: Integrate workflow authoring, configuring, and monitoring into a single page experience. Consolidate playbooks, flows, actions, decision tables, and integrations into one design environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/workflow-studio.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -19,27 +20,27 @@ Integrate workflow authoring, configuring, and monitoring into a single page exp
 
 <table id="table_o5z_b1s_fzb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Workflow Studio concepts and features](../concept/exploring-workflow-studio.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Workflow Studio concepts and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-workflow-studio.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure workflow builders](../concept/configuring-workflow-studio.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure workflow builders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/configuring-workflow-studio.md)
 
 </td></tr><tr><td>
 
-[Using![](../../../reuse/icons/brand-icons/bus-workflow.svg)Build workflows and workflow components](building-workflow-studio-components.md)
+[Using\[Omitted image "bus-workflow.svg"\] Alt text:Build workflows and workflow components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/building-workflow-studio-components.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Review roles and system properties](workflow-studio-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Review roles and system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/workflow-studio-reference.md)
 
 </td></tr><tr><td>
 
-[Flow Assist![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Generate flows and flow recommendations from text prompts.](../../flow-designer/reference/flow-generation-landing.md)
+[Flow Assist\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Generate flows and flow recommendations from text prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/flow-generation-landing.md)
 
 </td><td>
 
-[Playbook Assist![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Generate playbook outlines from text directions.](../../process-automation-designer/concept/playbook-assist-landing.md)
+[Playbook Assist\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Generate playbook outlines from text directions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/playbook-assist-landing.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

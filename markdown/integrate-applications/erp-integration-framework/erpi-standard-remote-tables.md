@@ -2,6 +2,7 @@
 title: Standard remote tables for Zero Copy Connector for ERP
 description: Zero Copy Connector for ERP accesses several standard remote tables for ERP \(Enterprise Resource Planning\) models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erpi-standard-remote-tables.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -39,16 +40,16 @@ The following remote tables are available through Zero Copy Connector for ERP an
 |SAP Vendor Invoice|sn\_erp\_integration\_st\_sap\_vendor\_invoice|Sales|
 |SAP Transport|sn\_erp\_integration\_st\_sap\_transport|Transport|
 
-For more details on working with remote tables, see [Remote tables](https://www.servicenow.com/docs/access?context=remote-tables&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+For more details on working with remote tables, see .
 
 You can use any of the standard remote tables as data sources when building apps in ServiceNow products, such as:
 
--   [ServiceNow Studio](https://www.servicenow.com/docs/access?context=servicenow-studio-landing&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
--   [Flows in Workflow Studio](https://www.servicenow.com/docs/access?context=exploring-flows&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
--   [Playbooks in Workflow Studio](https://www.servicenow.com/docs/access?context=exploring-process-automation-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
--   [Table Builder](https://www.servicenow.com/docs/access?context=tb-landing-page&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
--   [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
--   [Workspace Builder](https://www.servicenow.com/docs/access?context=workspace-builder-landing&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+-   ServiceNow Studio
+-   Flows in Workflow Studio
+-   Playbooks in Workflow Studio
+-   Table Builder
+-   UI Builder
+-   
 
 You can also access data from the system of record through the Glide API.
 
@@ -62,5 +63,5 @@ sap_customer_gr.getValue('name');
 
 ```
 
-**Parent Topic:**[Zero Copy Connector for ERP standard tables, fields, and models](erp-canvas-standard-tables-and-fields-landing.md)
+**Parent Topic:**[Zero Copy Connector for ERP standard tables, fields, and models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-standard-tables-and-fields-landing.md)
 

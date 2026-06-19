@@ -2,11 +2,12 @@
 title: Create an incident from app landing page
 description: Create an incident directly from your agent mobile app landing page with a single tap.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/create-incident-mobile.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [My Work applet, ITSM Mobile Agent, IT Service Management]
 ---
@@ -21,7 +22,7 @@ Role required: itil, sn\_incident\_write, or admin
 
 ## Procedure
 
-1.  On your agent mobile app landing page, click on the ![create incident shortcut](../image/create-incident-shortcut-1.png)to create an incident directly from the landing screen.
+1.  On your agent mobile app landing page, select the \[Omitted image "create-incident-shortcut.jpg"\] Alt text: create incident shortcutto create an incident directly from the landing screen.
 
 2.  Fill in the fields.
 
@@ -81,7 +82,7 @@ Level of identification of how quickly the service desk should address the task.
 
 -   This field is read-only and is auto-populated based on the values defined in **Urgency** and **Impact**.
 -   When updating **Urgency** and **Impact**, you must add the work notes. In such case, the value in this field is updated based on the modified the **Urgency** and **Impact** values.
-For more information on configuring the auto-populated values, see [Configure auto-fill inputs on input form screens](https://www.servicenow.com/docs/access?context=config-autofil-inputs-nptfrmscrn&version=zurich&pubname=zurich-mobile&ft:locale=en-US).
+For more information on configuring the auto-populated values, see .
 
 </td></tr><tr><td>
 

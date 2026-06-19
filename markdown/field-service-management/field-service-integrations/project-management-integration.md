@@ -2,6 +2,7 @@
 title: Integration with Project Portfolio Management
 description: Link project tasks to work orders to assist with managing installation or deployment projects in the field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-integrations/project-management-integration.html
 release: zurich
 product: Field Service Integrations
 classification: field-service-integrations
@@ -54,8 +55,8 @@ Work order and project task states are updated as follows.
 
 Activate the Field Service with Project Management plugin \(com.snc.wm\_ppm\) to use this feature. This plugin requires the Field Service Management plugin \(com.snc.work\_management\) and the PPM Standard plugin \(com.snc.financial\_planning\_pmo\).
 
--   **[Customize the work order state transition map](customize-state-transition-map.md)**  
+-   **[Customize the work order state transition map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-integrations/customize-state-transition-map.md)**  
 Users with the system administrator role can customize the work order state transition map, which maps work order states to project task states.
 
-**Parent Topic:**[Integrating Field Service Management with other applications](integrate-fsm-other-applications.md)
+**Parent Topic:**[Integrating Field Service Management with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-integrations/integrate-fsm-other-applications.md)
 

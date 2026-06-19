@@ -2,6 +2,7 @@
 title: Enable log monitoring in a Linux environment
 description: To enable monitoring logs in a Linux environment, select the relevant policy and assign specific check parameters to the policy. When log monitoring is enabled and a specified string is discovered in the log being monitored, the system creates an event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-enable-log-monitoring-linux.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -46,7 +47,7 @@ Role required: agent\_client\_collector\_admin
 
 7.  Select the **util.check-logs-sudo** check to monitor logs owned by the root user.
 
-8.  Repeat steps [4](acc-enable-log-monitoring-linux.md#log-file) and [5](acc-enable-log-monitoring-linux.md#string) to monitor logs owned by the root user.
+8.  Repeat steps [4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-enable-log-monitoring-linux.md) and [5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-enable-log-monitoring-linux.md) to monitor logs owned by the root user.
 
 9.  For the **util.check-logs-sudo** check, modify the `/etc/sudoers` file on the host or Linux virtual machine, as follows:
 

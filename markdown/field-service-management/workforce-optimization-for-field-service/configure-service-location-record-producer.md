@@ -2,6 +2,7 @@
 title: Add Service Locations functionality to a work order catalog item in the Customer Service Portal
 description: Add Service Locations functionality to a work order or work order task catalog item to enable the ability to add a location on demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/configure-service-location-record-producer.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

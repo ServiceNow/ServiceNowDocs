@@ -2,6 +2,7 @@
 title: Use claim automation decision tables
 description: Use decision tables to define the claim automation rules in the Insurance claims application. You can review and update these rules to suit your claims workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/update-insurance-claims-automation-using-decision-tables.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims

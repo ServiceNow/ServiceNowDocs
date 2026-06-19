@@ -2,6 +2,7 @@
 title: Mapping application services containing Oracle Tuxedo platform
 description: Service Mapping can discover application services containing Oracle Tuxedo platform and its components.Map an application service containing an Oracle Tuxedo platform and verify that Service Mapping discovered all Tuxedo components correctly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/mapping-services-tuxedo.html
 release: zurich
 product: Service Mapping
 classification: service-mapping
@@ -102,7 +103,7 @@ Horizontal and top-down
 Tuxedo Portal pattern
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Map a single application service using classic Service Mapping](../task/t_DefineNewBusinessService.md)
+</table>**Parent Topic:**[Map a single application service using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/t_DefineNewBusinessService.md)
 
 ## Map application services containing Oracle Tuxedo platform
 
@@ -110,9 +111,9 @@ Map an application service containing an Oracle Tuxedo platform and verify that 
 
 ### Before you begin
 
--   On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
--   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
--   \(If hosted on Unix\) Provide a user with the elevated rights for running commands described in [Service Mapping commands requiring a privileged user](../reference/r_CommandsnCredentials.md).
+-   On the ServiceNow AI Platform, configure SSH credentials.
+-   \(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
+-   \(If hosted on Unix\) Provide a user with the elevated rights for running commands described in [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 Role required: service\_mapping\_admin
 
@@ -159,6 +160,6 @@ If the mapping result is not as you expected, perform basic troubleshooting.
 
 |Symptom|Cause|Solution|
 |-------|-----|--------|
-|Service Mapping fails to discover the Tuxedo CI. The discovery log displays the message that states that the credentials are insufficient for running the command including "permissions.tmadadmin -v".|The provided user does not have elevated permissions for running this command.|Make sure that you provided a user with permissions to run [commands requiring elevated rights](../reference/r_CommandsnCredentials.md).|
+|Service Mapping fails to discover the Tuxedo CI. The discovery log displays the message that states that the credentials are insufficient for running the command including "permissions.tmadadmin -v".|The provided user does not have elevated permissions for running this command.|Make sure that you provided a user with permissions to run [commands requiring elevated rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/r_CommandsnCredentials.md).|
 |Service Mapping fails to discover the Tuxedo CI. The discovery log displays the message that states that the user cannot run the tux.env script.|The provided user does not have the permissions to run the tux.env script.|Make sure that you provided a user with permissions to run the tux.env script.|
 

@@ -2,6 +2,7 @@
 title: Add Predictive Intelligence
 description: Add predictive intelligence as a tool in Now Assist Skill Kit. Predictive intelligence models enable you to predict, estimate, and identify patterns that can be used to route work, populate forms, estimate wait times, and more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-skill-kit/add-predictive-intelligence.html
 release: zurich
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -64,7 +65,7 @@ Type of solution
 
 
 </td></tr></tbody>
-</table>    ![Tool form for predictive intelligence](../image/nask-pi.png)
+</table>    \[Omitted image "nask-pi.png"\] Alt text: Tool form for predictive intelligence
 
 8.  Add tool inputs.
 
@@ -75,5 +76,5 @@ Type of solution
 11. Select **Add tool**.
 
 
-**Parent Topic:**[Add a tool](../concept/add-a-tool.md)
+**Parent Topic:**[Add a tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/add-a-tool.md)
 

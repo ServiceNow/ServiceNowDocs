@@ -2,7 +2,10 @@
 title: Configure product data
 description: Configure product data including product models, sold products, install base items and installed products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-csm-products.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -31,22 +34,22 @@ Role required: admin
 
 -   You can import the following product data using guided setup.
 
-    -   [Import product models with guided setup](import-csm-product-models.md)
-    -   [Import sold products with guided setup](import-csm-sold-products.md)
-    -   [Import install base items with guided setup](import-csm-install-base-items.md)
-    -   [Import installed products with guided setup](import-csm-installed-products.md)
+    -   [Import product models with guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/import-csm-product-models.md)
+    -   [Import sold products with guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/import-csm-sold-products.md)
+    -   [Import install base items with guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/import-csm-install-base-items.md)
+    -   [Import installed products with guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/import-csm-installed-products.md)
 -   You can create new product data using the Customer Service Management application.
 
-    -   [Create a product model](c_CreateAProductModel.md)
-    -   [Create sold products](create-sold-item.md)
-    -   [Create install base items](create-install-base-item.md)
-    -   [Create installed products](create-deployed-sold-item.md)
+    -   [Create a product model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/c_CreateAProductModel.md)
+    -   [Create sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-sold-item.md)
+    -   [Create install base items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-install-base-item.md)
+    -   [Create installed products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-deployed-sold-item.md)
 -   You can configure the following relationships and associations after importing or creating product data:
 
     -   Product models
-        -   [Associate service offerings to product models](associate-service-offering-product.md)
-        -   [Configure product model and catalog item relationships](create-csm-product-model-items.md)
+        -   [Associate service offerings to product models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/associate-service-offering-product.md)
+        -   [Configure product model and catalog item relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-csm-product-model-items.md)
     -   Sold products
-        -   [Associate service offerings with sold products](asssociate-service-offering-sold-prod.md)
-        -   [Associate sold products with contracts](add-sold-product-contract.md)
+        -   [Associate service offerings with sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/asssociate-service-offering-sold-prod.md)
+        -   [Associate sold products with contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/add-sold-product-contract.md)
 

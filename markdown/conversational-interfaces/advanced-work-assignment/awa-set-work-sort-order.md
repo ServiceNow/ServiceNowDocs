@@ -2,6 +2,7 @@
 title: Set work item sort order
 description: Specify the order in which work items in a queue are sorted.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/awa-set-work-sort-order.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -44,5 +45,5 @@ The **Work Item Sort Order** field only determines the order that AWA assigns th
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Advanced Work Assignment](installing-awa.md)
+**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

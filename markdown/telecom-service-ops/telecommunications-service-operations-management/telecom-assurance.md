@@ -2,6 +2,7 @@
 title: Telecom Assurance
 description: Telecom assurance monitors network performance, detects faults, and maintains service quality. ServiceNow AI Platform Telecommunications Service Operations Management software is integrated with existing monitoring tools to consolidate alerts into a single platform, delivering AI-driven insights and automated workflows from fault detection to resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-service-ops/telecommunications-service-operations-management/telecom-assurance.html
 release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management

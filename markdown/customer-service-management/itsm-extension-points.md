@@ -2,7 +2,10 @@
 title: Extension points for CSM integration with IT Service Management
 description: Use the extension points available with CSM integration with IT Service Management to extend the functionality of your application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/itsm-extension-points.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -74,5 +77,5 @@ This feature includes an extension point that can be used to configure approval 
 **Related topics**  
 
 
-[Using extension points to extend application functionality](https://www.servicenow.com/docs/access?context=extension-points&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.extension-points]
 

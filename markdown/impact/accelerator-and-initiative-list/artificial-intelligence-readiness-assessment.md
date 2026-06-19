@@ -2,6 +2,7 @@
 title: Artificial Intelligence Readiness Assessment
 description: The Artificial Intelligence \(AI\) Readiness Assessment Accelerator provides an assessment and guidance related to your readiness for adoption of ServiceNow Generative AI capabilities \(Now Assist\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/artificial-intelligence-readiness-assessment.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -28,7 +29,7 @@ This Accelerator provides you with an assessment and guidance on your readiness 
 
 Your Impact Squad provides guidance based on your selected Generative AI products \(we recommend up to three per accelerator\).
 
-See [Enable AI experiences](https://www.servicenow.com/docs/access?context=ai-products&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) for additional information on ServiceNow AI-based tools.
+See  for additional information on ServiceNow AI-based tools.
 
 **Note:** This Accelerator is available for Impact Guided+ \(Platform Governance\), Advanced and Total Packages.
 

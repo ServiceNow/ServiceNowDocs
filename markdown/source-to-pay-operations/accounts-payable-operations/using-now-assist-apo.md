@@ -2,6 +2,7 @@
 title: Using Now Assist for Accounts Payable Operations \(APO\)
 description: If you've the sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_cm.agent role, you can summarize the details of an invoice case, completed actions, or pending tasks with the Now Assist for Accounts Payable Operations \(APO\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/using-now-assist-apo.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations

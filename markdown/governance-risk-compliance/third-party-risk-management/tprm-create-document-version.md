@@ -2,6 +2,7 @@
 title: Create a document version
 description: Use the document management system to version documents in Third-Party Risk Management \(TPRM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-create-document-version.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -26,13 +27,13 @@ A document can have many versions. You can view these versions as a related list
 
 The term "document" refers to the container record that holds document information such as its name, description, type and other metadata. While the document record doesn’t contain the actual document file, it does contain versions in the record, which you can open, update, and track.
 
-Use the attachment icon ![](../../../common/image/Form_Attachment.png) to add documents to a record.
+Use the attachment icon \[Omitted image "Form\_Attachment.png"\] Alt text: to add documents to a record.
 
 Alternatively, you can provide the link to a document in the URL field. You then access the actual documents by selecting the versions in the related list.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png)\) and then navigate to **All Documents**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text:\) and then navigate to **All Documents**.
 
 2.  Select the document record that you want and then the **Versions** tab.
 
@@ -88,6 +89,6 @@ Any information related to the file.
 
 After saving the document record, complete the following tasks to finalize the document setup:
 
--   Define who can view, edit, or manage the document using the sharing permissions field. For more information, see [Define document sharing permissions](tprm-doc-share-permissions.md).
--   Link references by associating the document with relevant records such as assessments, engagements, issues, or tasks to enable roll-up and traceability. For more information, see [Link documents to a TPRM record](tprm-link-document.md).
+-   Define who can view, edit, or manage the document using the sharing permissions field. For more information, see [Define document sharing permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-doc-share-permissions.md).
+-   Link references by associating the document with relevant records such as assessments, engagements, issues, or tasks to enable roll-up and traceability. For more information, see [Link documents to a TPRM record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-link-document.md).
 

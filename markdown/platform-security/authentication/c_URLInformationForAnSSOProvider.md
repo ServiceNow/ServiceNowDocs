@@ -2,6 +2,7 @@
 title: URL information for an SSO provider
 description: During a login challenge resulting from a URL link into the instance that requires an SSO session, the referring URL might need to be supplied to the SSO provider so that after authentication, the URL can be passed back to the instance and linked to the correct resource.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/c\_URLInformationForAnSSOProvider.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -15,7 +16,7 @@ breadcrumb: [SAML 2.0 concepts, SAML, Multi-Provider single sign-on \(SSO\), Aut
 
 During a login challenge resulting from a URL link into the instance that requires an SSO session, the referring URL might need to be supplied to the SSO provider so that after authentication, the URL can be passed back to the instance and linked to the correct resource.
 
-![SSO flow with redirect](../image/SSOTargetRedirect.png "SSO Target Redirect")
+\[Omitted image "SSOTargetRedirect.png"\] Alt text: SSO flow with redirect
 
 Installation exit return values have been enhanced to pass a URL instead of, or in addition to the URL defined by the properties. Usually, you would return a username or a predefined string value to control authorize or challenge the SSO session. The following examples show the extended behavior of passing a URL.
 

@@ -2,6 +2,7 @@
 title: Send data to the Employee Health Screening log
 description: Send data from a third-party system to the Employee Health Screening application log table. You can use this table to create reports and monitor health trends.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/send-health-logs.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace
@@ -23,7 +24,7 @@ Role required: sn\_imt\_core.api\_logging\_user
 
 1.  Send a POST request to the Table API on your instance.
 
-    For more information, see [Table API](https://www.servicenow.com/docs/access?context=c_TableAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+    For more information, see Table API.
 
     1.  Construct the endpoint using the Log Import \[sn\_imt\_core\_log\_import\] table.
 
@@ -59,5 +60,5 @@ Role required: sn\_imt\_core.api\_logging\_user
 
 ## What to do next
 
-Generate reports on the data you imported to the Log \[sn\_imt\_core\_log\] table using [Reporting](https://www.servicenow.com/docs/access?context=reporting-landing-page&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+Generate reports on the data you imported to the Log \[sn\_imt\_core\_log\] table using Reporting.
 

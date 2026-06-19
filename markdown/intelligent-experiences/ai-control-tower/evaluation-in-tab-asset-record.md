@@ -2,6 +2,7 @@
 title: Evaluation in the Virtual Agent's asset record
 description: The Evaluation tab in the Virtual Agent's Asset record contains the Evaluation dashboard, which is designed to measure, automate, and improve the quality of interactions with Virtual Agent. This dashboard addresses several key challenges to enhance the end-user experience and overall virtual agent utility.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/evaluation-in-tab-asset-record.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
@@ -19,7 +20,7 @@ The **Evaluation** tab in the Virtual Agent's Asset record contains the Evaluati
 
 **Prerequisites**
 
-You must [Enabling evaluations](../concept/ai-eval-enable.md).
+You must [Enabling evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-eval-enable.md).
 
 Conversations are excluded from auto-evaluation if any of the following conditions are met:
 
@@ -51,11 +52,11 @@ The following widgets are available, showing various metrics:
 
 -   Average auto-evaluation score for the selected metric: Shows the average auto-evaluation score for the metric selected and its trend over time.
 
-    For more information about each metric, see [Evaluation metrics and calculations](../reference/ai-eval-metrics.md).
+    For more information about each metric, see .
 
 -   Average Human Feedback score for the selected metric: Shows the average human-labeled score for the selected metric.
 
-    **Note:** The score is available only if there are sufficient chat records that are manually evaluated. For more information about manually evaluating conversations, see [Human feedback for evaluations](../concept/ai-eval-human-fb.md).
+    **Note:** The score is available only if there are sufficient chat records that are manually evaluated. For more information about manually evaluating conversations, see [Human feedback for evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-eval-human-fb.md).
 
 -   Evaluation score trend: Tracks the weekly score for the selected metric.
 
@@ -63,23 +64,23 @@ The following widgets are available, showing various metrics:
 
     **Note:** The deviation and adjusted scores are calculated only if you have at least 50 human labels.
 
-    ![Evaluation trend with deviation and adjusted scores.](../image/ai-eval-01.png)
+    \[Omitted image "ai-eval-01.png"\] Alt text: Evaluation trend with deviation and adjusted scores.
 
-    For more information about how the calculations are made, see [Evaluation metrics and calculations](../reference/ai-eval-metrics.md).
+    For more information about how the calculations are made, see .
 
 -   Evaluations: Shows the total number of conversations that were evaluated each week.
 
--   Human feedback section: Contains detailed information about each evaluation. From here, you can manually evaluate conversations. For more information, see [Human feedback for evaluations](../concept/ai-eval-human-fb.md).
+-   Human feedback section: Contains detailed information about each evaluation. From here, you can manually evaluate conversations. For more information, see [Human feedback for evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-eval-human-fb.md).
 
 ## Evaluations
 
 Each conversation is evaluated on eight different metrics. For each of these metrics, there’s a separate skill. You can view these skills in Now Assist Skill Kit under **Custom skills**.
 
-For more information about each metric, see [Evaluation metrics and calculations](../reference/ai-eval-metrics.md).
+For more information about each metric, see .
 
 Role required: sn\_skill\_builder.admin
 
-![Custom skills for evaluation.](../image/ai-eval-02.png)
+\[Omitted image "ai-eval-02.png"\] Alt text: Custom skills for evaluation.
 
 The following Now Assist custom skills are used:
 
@@ -94,7 +95,7 @@ The following Now Assist custom skills are used:
 
 The default provider for these skills is Now LLM. You can change the provider to Azure OpenAI, Google Gemini, or AWS Claude. Azure OpenAI has been observed to improve results in certain scenarios.
 
-For more information about Now Assist Skill Kit, see [Now Assist Skill Kit](../../now-assist-skill-kit/concept/now-assist-skill-kit-landing.md).
+For more information about Now Assist Skill Kit, see [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
 
 **Process of evaluation**
 
@@ -106,5 +107,5 @@ Flow: Execute Evaluation.
 
 **Note:** Conversation evaluation estimates are considered as of the evaluation date and not the conversation created date. For example, if a chat that happened at time t is evaluated at time t+10, the scores from the evaluator is aggregated for the week of t+10 and not for the week of t.
 
-For detailed information about the evaluation flow, see [Evaluation flow](../reference/ai-eval-flow.md).
+For detailed information about the evaluation flow, see .
 

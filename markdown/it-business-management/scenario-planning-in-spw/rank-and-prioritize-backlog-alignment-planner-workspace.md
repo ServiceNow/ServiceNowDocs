@@ -2,6 +2,7 @@
 title: Rank planning items
 description: Rank the planning items that are added to the pipeline of your portfolio plan to decide on their priority so that you can start prioritizing work for your portfolio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/rank-and-prioritize-backlog-alignment-planner-workspace.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -18,7 +19,7 @@ Rank the planning items that are added to the pipeline of your portfolio plan to
 
 ## Before you begin
 
--   [Create a portfolio plan](../../alignment-planner-workspace/task/create-portfolio-plans-in-alignment-planner-workspace.md).
+-   [Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md).
 -   Ensure that the planning items in the Prioritization tab are sorted by the Rank column in ascending order.
 
 Role required: sn\_align\_core.apw\_user
@@ -41,54 +42,54 @@ The Rank column helps you quickly identify the rank of an item relative to the o
 
 3.  From the Prioritization tab, rank the planning items according to your priority by rearranging their order.
 
-<table id="choicetable_pfl_vwb_zsb"><thead><tr><th align="left" id="d279547e149">
+<table id="choicetable_pfl_vwb_zsb"><thead><tr><th align="left" id="d160801e149">
 
 Choice
 
-</th><th align="left" id="d279547e152">
+</th><th align="left" id="d160801e152">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d279547e158">
+</th></tr></thead><tbody><tr><td id="d160801e158">
 
 **Reorder a single planning item**
 
 </td><td>
 
-Use the Rearrange rows icon \(![Rearrange rows icon.](../../alignment-planner-workspace/images/icon-rearrange.png)\) to drag and drop the row to the required position.
+Use the Rearrange rows icon \(\[Omitted image "icon-rearrange.png"\] Alt text: Rearrange rows icon.\) to drag and drop the row to the required position.
 
- ![Prioritization page single row reorder](../images/backlog-v2-single-reorder.gif)
+ \[Omitted image "backlog-v2-single-reorder.gif"\] Alt text: Prioritization page single row reorder
 
-</td></tr><tr><td id="d279547e183">
+</td></tr><tr><td id="d160801e183">
 
 **Reorder multiple planning items at once**
 
 </td><td>
 
-1.  Use the Select row checkbox \(![Select checkbox.](../../alignment-planner-workspace/images/icon-select.png)\) to select the items that you want to reorder.
-2.  Use the Rearrange rows icon \(![Rearrange rows icon.](../../alignment-planner-workspace/images/icon-rearrange.png)\) to drag and drop the rows to the required position.
- ![Prioritization page multi-row reorder](../images/backlog-v2-multi-row-reorder.gif)
+1.  Use the Select row checkbox \(\[Omitted image "icon-select.png"\] Alt text: Select checkbox.\) to select the items that you want to reorder.
+2.  Use the Rearrange rows icon \(\[Omitted image "icon-rearrange.png"\] Alt text: Rearrange rows icon.\) to drag and drop the rows to the required position.
+ \[Omitted image "backlog-v2-multi-row-reorder.gif"\] Alt text: Prioritization page multi-row reorder
 
-</td></tr><tr><td id="d279547e223">
+</td></tr><tr><td id="d160801e223">
 
 **Reorder multiple planning items using the Rank items option**
 
 </td><td>
 
-1.  Use the Select row check box \(![Select check box.](../../alignment-planner-workspace/images/icon-select.png)\) to select the items that you want to reorder.
+1.  Use the Select row check box \(\[Omitted image "icon-select.png"\] Alt text: Select check box.\) to select the items that you want to reorder.
 2.  Select **Rank Items**.
 3.  On the Rank items window, assign ranks to the items based on the attributes such as score, planned ROI, and so on, in an ascending or descending order.
- ![Prioritization multi row reorder using rank items button](../images/prioritization-multi-row-reorder-using-rank-items-button.gif)
+ \[Omitted image "prioritization-multi-row-reorder-using-rank-items-button.gif"\] Alt text: Prioritization multi row reorder using rank items button
 
 </td></tr></tbody>
 </table>    Repeat this step until the ranking of the planning items align with your business priorities. To get better visibility of data that you need:
 
-    -   Sort or group the list by the required columns. See [Personalize the Prioritization view](personalize-backlog-in-alignment-planner-workspace.md)
+    -   Sort or group the list by the required columns. See [Personalize the Prioritization view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/personalize-backlog-in-alignment-planner-workspace.md)
     -   Filter the planning items by applying filters.
-    **Tip:** Using the Row context menu \(![Row context menu](../../project-workspace/image/icon-row-context-menu.png)\), you can also assign the highest and lowest ranks to the planning items using the **Move to top** and **Move to bottom** options respectively.
+    **Tip:** Using the Row context menu \(\[Omitted image "icon-row-context-menu.png"\] Alt text: Row context menu\), you can also assign the highest and lowest ranks to the planning items using the **Move to top** and **Move to bottom** options respectively.
 
 
 ## What to do next
 
-[Prioritize work](prioritize-planning-items-strategic-planning-workspace.md)
+[Prioritize work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/prioritize-planning-items-strategic-planning-workspace.md)
 

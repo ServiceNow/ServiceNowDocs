@@ -2,6 +2,7 @@
 title: Chief Information Security Officer Dashboard indicators
 description: Indicators provide the data used in most of the dashboard’s visualizations. The indicators are used across the dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/ciso-db-indicators.html
 release: zurich
 topic_type: reference
 last_updated: "2025-09-23"
@@ -15,8 +16,8 @@ Indicators provide the data used in most of the dashboard’s visualizations. Th
 
 This dashboard employs Automated and Formula indicators. For more information about configuring these indicators, see
 
--   [Automated indicators](../../performance-analytics/concept/automated-indicators.md)
--   [Formula indicators](../../performance-analytics/concept/formula-indicators.md)
+-   [Automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/automated-indicators.md)
+-   [Formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/formula-indicators.md)
 
 <table id="table_zcc_dry_mgc"><thead><tr><th>
 

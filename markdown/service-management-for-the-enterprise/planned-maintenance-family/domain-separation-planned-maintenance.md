@@ -2,6 +2,7 @@
 title: Domain separation and Planned Maintenance
 description: Domain separation is supported in Planned Maintenance. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/service-management-for-the-enterprise/planned-maintenance-family/domain-separation-planned-maintenance.html
 release: zurich
 product: Planned Maintenance \(Family\)
 classification: planned-maintenance-family
@@ -25,7 +26,7 @@ The support level is Standard but has some exceptions or special conditions.
 
 Sample use case: An Admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## How domain separation works in Planned Maintenance
 
@@ -33,10 +34,10 @@ There is no sys\_domain column in the Maintenance Plan \(sm\_maint\_plan\) table
 
 You can set maintenance plans to include or exclude domains or set them globally by design. Support in the Part Requirements \(sm\_part\_requirement\} table is data only.
 
-**Parent Topic:**[Planned Maintenance](c_SMPlanMaint.md)
+**Parent Topic:**[Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-management-for-the-enterprise/planned-maintenance-family/c_SMPlanMaint.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

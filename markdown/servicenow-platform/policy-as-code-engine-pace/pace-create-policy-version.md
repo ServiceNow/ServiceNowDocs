@@ -2,6 +2,7 @@
 title: Create a PaCE policy version
 description: Create a version from scratch at any time for any of your existing PaCE policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/policy-as-code-engine-pace/pace-create-policy-version.html
 release: zurich
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
@@ -33,11 +34,11 @@ Role required: sn\_pace.code\_editor
 
 3.  You can create a new version two different ways:
 
-    -   Select the **Policy builder** tab, then the Overflow menu icon![Overflow menu icon.](../image/pace-overflow-icon.jpg)
+    -   Select the **Policy builder** tab, then the Overflow menu icon\[Omitted image "pace-overflow-icon.jpg"\] Alt text: Overflow menu icon.
     -   Select the **Version management** tab then **Create new version**.
-4.  Select **Create new version**.![Create new version in Policy builder tab.](../image/pace-new-version-2.jpg)
+4.  Select **Create new version**.\[Omitted image "pace-new-version-2.jpg"\] Alt text: Create new version in Policy builder tab.
 
-    ![Create new version in Version management tab.](../image/pace-new-versions-manage.jpg)
+    \[Omitted image "pace-new-versions-manage.jpg"\] Alt text: Create new version in Version management tab.
 
 5.  Select the New blank version tile or an existing policy template, then **Create**.
 
@@ -58,26 +59,26 @@ The policy version is saved and the version is assigned a number according to po
 
 -   Define API Variables, Config Parameters, and Record References.
 
-    See [Passing parameters to PaCE policies](../concept/pace-passing-parameters.md).
+    See [Passing parameters to PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/policy-as-code-engine-pace/pace-passing-parameters.md).
 
 -   Modify the policy script.
 
-    See [Edit a PaCE policy script](pace-edit-policy-script.md).
+    See [Edit a PaCE policy script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/policy-as-code-engine-pace/pace-edit-policy-script.md).
 
 -   Test your policy version to ensure it is compliant.
 
-    See [Use the Test Playground for PaCE policies](../concept/pace-use-test-playground.md) for details.
+    See [Use the Test Playground for PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/policy-as-code-engine-pace/pace-use-test-playground.md) for details.
 
 -   Publish the policy version.
 
-    See [Publish a PaCE policy version](pace-publish-policy-version.md).
+    See [Publish a PaCE policy version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/policy-as-code-engine-pace/pace-publish-policy-version.md).
 
 -   Review execution activity for the version.
 
-    See [Review executed policy activity](pace-review-executed-policies.md).
+    See [Review executed policy activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/policy-as-code-engine-pace/pace-review-executed-policies.md).
 
 -   Delete the version.
 
-    See [Delete a PaCE policy version](pace-delete-policy-version.md).
+    See [Delete a PaCE policy version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/policy-as-code-engine-pace/pace-delete-policy-version.md).
 
 

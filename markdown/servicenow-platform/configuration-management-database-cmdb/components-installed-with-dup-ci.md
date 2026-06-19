@@ -2,6 +2,7 @@
 title: Components installed for duplicate CI remediation
 description: Tables installed to support duplicate CI remediation \(included in the com.snc.cmdb plugin\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/components-installed-with-dup-ci.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -113,5 +114,5 @@ De-duplication: Populate Template Suggested and Orphan Tasks
 Runs hourly to count the number of tasks that match each published template and the number of tasks that don’t match any published template. These counts then appear on various cards in the De-duplication dashboard.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Duplicate CIs remediation](../concept/de-duplication-tasks.md)
+</table>**Parent Topic:**[Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md)
 

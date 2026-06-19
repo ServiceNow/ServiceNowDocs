@@ -2,6 +2,7 @@
 title: Create an investment entity
 description: Create an entity for investments through which you can receive or allocate funds.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/investment-funding/create-funding-entity.html
 release: zurich
 product: Investment Funding
 classification: investment-funding
@@ -149,13 +150,13 @@ Condition to filter users that are listed in the **Owner** field in the Investme
 
 ## What to do next
 
--   Create funding artifacts to [create a business rule to synchronize investment and investment entity owners](enable-funding-owner-sync.md) or to [add a related link on the investment target form](create-funding-artifacts.md).
--   Create [a top-level investment](create-top-level-investment.md) or [an investment](create-investment.md) for an investment entity.
+-   Create funding artifacts to [create a business rule to synchronize investment and investment entity owners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/enable-funding-owner-sync.md) or to [add a related link on the investment target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/create-funding-artifacts.md).
+-   Create [a top-level investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/create-top-level-investment.md) or [an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/create-investment.md) for an investment entity.
 
--   **[Enable synchronization of investment and investment entity owners](enable-funding-owner-sync.md)**  
+-   **[Enable synchronization of investment and investment entity owners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/enable-funding-owner-sync.md)**  
 Create a business rule for an investment entity that synchronizes the investment owner with the investment entity owner. If you update the name of the investment entity owner, the owner of the corresponding investment and the **Viewable by** field for the investment is automatically updated.
--   **[Access investments directly from an investment target](create-funding-artifacts.md)**  
+-   **[Access investments directly from an investment target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/create-funding-artifacts.md)**  
 Create a related link to go directly to the My Funds page from an investment target.
 
-**Parent Topic:**[Investment Funding administration](../concept/investment-funding-administration.md)
+**Parent Topic:**[Investment Funding administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/investment-funding-administration.md)
 

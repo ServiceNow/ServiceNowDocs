@@ -2,6 +2,7 @@
 title: Configure Employee Readiness Surveys
 description: Review the default Employee workplace readiness survey installed with the Employee Readiness Surveys app. Modify the survey, or create one or more surveys to use based on the readiness concerns that you want to address and any legal obligations under applicable law, including data protection laws.Create one or more additional surveys to use for different workplaces or to evaluate other areas of concern. Start by planning the surveys carefully to gather the best data for your evaluation of readiness to return to the workplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/config-emp-readiness-survey.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace
@@ -17,7 +18,7 @@ Review the default Employee workplace readiness survey installed with the Employ
 
 ## Before you begin
 
-Familiarize yourself with [Survey administration](https://www.servicenow.com/docs/access?context=r_SurveyAdminTasks&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US). Then meet with other emergency response team stakeholders to plan the changes to the survey. Decide whether to edit the existing survey before you send it to employees, or to create one or more new surveys.
+Familiarize yourself with Survey administration. Then meet with other emergency response team stakeholders to plan the changes to the survey. Decide whether to edit the existing survey before you send it to employees, or to create one or more new surveys.
 
 Role required: sn\_imt\_checkin.checkin\_admin, survey\_creator, survey\_admin, or admin
 
@@ -25,33 +26,33 @@ Role required: sn\_imt\_checkin.checkin\_admin, survey\_creator, survey\_admin, 
 
 Users with the sn\_imt\_checkin.checkin\_admin role have the survey\_creator role, and are made owners of the default readiness survey. Users with the survey\_creator role can edit or copy the default survey. These users can also add another readiness survey and add other users as owners to collaborate with them.
 
-![Survey definition with owners who are check-in admins](../image/survey-definition-owners.png "Survey definition owners")
+\[Omitted image "survey-definition-owners.png"\] Alt text: Survey definition with owners who are check-in admins
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Surveys** &gt; **View Surveys** and open the **Employee workplace readiness survey**.
 
-    ![Survey definition Introduction and end notes form section and related lists](../image/survey-definition-fields-lists.png)
+    \[Omitted image "survey-definition-fields-lists.png"\] Alt text: Survey definition Introduction and end notes form section and related lists
 
 2.  Using the plan that you made for changing the survey, update any of the following survey elements.
 
-<table id="reuse-choicetable_afj_nqk_qlb"><thead><tr><th align="left" id="d201326e114">
+<table id="reuse-choicetable_afj_nqk_qlb"><thead><tr><th align="left" id="d197528e114">
 
 Option
 
-</th><th align="left" id="d201326e117">
+</th><th align="left" id="d197528e117">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d201326e123">
+</th></tr></thead><tbody><tr><td id="d197528e123">
 
 **Add owners**
 
 </td><td>
 
-Select the lock icon \(![Lock icon](../../../common/image/icon-lock.png)\) beside **Owners** to unlock the list of survey owners. Add the user to collaborate with on this survey.
+Select the lock icon \(\[Omitted image "icon-lock.png"\] Alt text: Lock icon\) beside **Owners** to unlock the list of survey owners. Add the user to collaborate with on this survey.
 
-</td></tr><tr><td id="d201326e141">
+</td></tr><tr><td id="d197528e141">
 
 **Update the introductory and ending text**
 
@@ -59,7 +60,7 @@ Select the lock icon \(![Lock icon](../../../common/image/icon-lock.png)\) besid
 
 Select the Introduction &amp; End Notes section tab and update the text.
 
-</td></tr><tr><td id="d201326e150">
+</td></tr><tr><td id="d197528e150">
 
 **Work with the questions**
 
@@ -69,7 +70,7 @@ Select the Introduction &amp; End Notes section tab and update the text.
 2.  Select the question to open the Survey Question form. Modify and complete your edits. The answers are listed in the Assessment Metric Definitions related list.
 
 
-</td></tr><tr><td id="d201326e171">
+</td></tr><tr><td id="d197528e171">
 
 **Work with the question responses**
 
@@ -85,7 +86,7 @@ In the Assessment Metric Definitions related list, select the response to edit. 
 
 The modified survey is used for future outreach surveys.
 
-**Parent Topic:**[Employee Readiness Surveys](../concept/employee-readiness-surveys.md)
+**Parent Topic:**[Employee Readiness Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/employee-readiness-surveys.md)
 
 ## Add Employee Readiness Surveys
 
@@ -97,7 +98,7 @@ Role required: sn\_imt\_checkin.checkin\_admin, survey\_creator, survey\_admin, 
 
 ### About this task
 
-Consider how you want to begin to reopen your workplace, and what you must understand about the employees before you can begin. Work with a user with the survey\_admin role in your company to plan the types of questions and responses for the survey. For information about adding surveys, see [Survey administration](https://www.servicenow.com/docs/access?context=r_SurveyAdminTasks&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) and [Survey designer](https://www.servicenow.com/docs/access?context=c_SurveyDesigner&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+Consider how you want to begin to reopen your workplace, and what you must understand about the employees before you can begin. Work with a user with the survey\_admin role in your company to plan the types of questions and responses for the survey. For information about adding surveys, see Survey administration and Survey designer.
 
 ### Procedure
 

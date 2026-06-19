@@ -2,6 +2,7 @@
 title: Create a service in Service Builder
 description: Create a service in Service Builder to model, map, and document your own business and technology management services and offerings that relate to your data in Service Portfolio Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-builder/create-service.html
 release: zurich
 product: Service Builder
 classification: service-builder
@@ -29,7 +30,7 @@ The Service Builder framework offers you the option to create a business service
 4.  **Manage Offerings**
 5.  **Review &amp; Submit**
 
-**Tip:** You can cancel out of creating a service anytime by selecting the **Cancel** button \(next to the **Save** button\). Also, to return to the home page at any time while creating or editing a service, select ![Home icon.](../../digital-portfolio-management/image/home-polaris-primary2x.png).
+**Tip:** You can cancel out of creating a service anytime by selecting the **Cancel** button \(next to the **Save** button\). Also, to return to the home page at any time while creating or editing a service, select \[Omitted image "home-polaris-primary2x.png"\] Alt text: Home icon..
 
 ## Procedure
 
@@ -95,7 +96,7 @@ The stage and status for the service that you're creating.
 
  If you don't have the plugin installed, then the legacy Service Portfolio Management phase and status fields display.
 
- For information on the different types of fields, see [Apply the CSDM guidelines to Digital Portfolio Management](../../digital-portfolio-management/reference/dpm-csdm.md).
+ For information on the different types of fields, see [Apply the CSDM guidelines to Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-csdm.md).
 
 </td></tr><tr><td>
 
@@ -153,7 +154,7 @@ The business justification for the service. Some examples are how it reduces cos
 
 13. Select the **Manage Offerings** tab or **Continue to Manage Offerings**.
 
-    The **Manage Offerings tab** displays those offerings that this service is provided for and how it’s provided to them. Here you can edit an offering or create a new offering. It contains tabs for the offering's details, team, operations, financials, and performance. A service must have at least one offering to be published. Select a tooltip \(![Information icon](../../../administer/on-call-scheduling/image/icon-information.png)\) to see a description for each tab's field entry.
+    The **Manage Offerings tab** displays those offerings that this service is provided for and how it’s provided to them. Here you can edit an offering or create a new offering. It contains tabs for the offering's details, team, operations, financials, and performance. A service must have at least one offering to be published. Select a tooltip \(\[Omitted image "icon-information.png"\] Alt text: Information icon\) to see a description for each tab's field entry.
 
 14. Select **Continue to Review and Submit**.
 

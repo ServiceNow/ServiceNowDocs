@@ -2,6 +2,7 @@
 title: Reporting, dashboards, and Performance Analytics in the Core UI
 description: Present analytics on Core UI dashboards through reports and Performance Analytics widgets. Explore Performance Analytics indicators on the Analytics Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/classic-vis-overview.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -21,33 +22,33 @@ Visualizations in the Core UI tools include dashboards, reports, and analytics h
 
 **Note:** For net new instances, reporting, dashboards, and Performance Analytics in the Core UI are replaced in the Zurich release with Platform Analytics experience functionality:
 
--   [Data visualizations in Platform Analytics](../../performance-analytics/concept/analytics-center-data-visualizations.md)
--   [Dashboards in Platform Analytics](../../par-for-workspace/concept/analytics-center-dashboards.md)
--   [Filters in Platform Analytics](../../par-for-workspace/concept/interactive-filters-workspace.md)
+-   [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-data-visualizations.md)
+-   [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-dashboards.md)
+-   [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters-workspace.md)
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Reporting ![](../../../reuse/icons/brand-icons/bus-datasheet.svg) Visualise the current state of your data to share with other users.](../reference/reporting-landing-page.md)
+[Reporting \[Omitted image "bus-datasheet.svg"\] Alt text: Visualise the current state of your data to share with other users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/reporting-landing-page.md)
 
 </td><td>
 
-[Responsive Dashboards ![](../../../reuse/icons/brand-icons/bus-application-logic.svg) Use dashboards to create a story with data you can share across your organization.](../../dashboards/reference/dashboards-landing-page.md)
+[Responsive Dashboards \[Omitted image "bus-application-logic.svg"\] Alt text: Use dashboards to create a story with data you can share across your organization.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/dashboards-landing-page.md)
 
 </td><td>
 
-[Interactive filters![](../../../reuse/icons/brand-icons/bus-filter.svg)Filter all the reports on a dashboard together, dynamically.](../../dashboards/concept/c_HomepagePublishers.md)
+[Interactive filters\[Omitted image "bus-filter.svg"\] Alt text:Filter all the reports on a dashboard together, dynamically.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters/c_HomepagePublishers.md)
 
 </td></tr><tr><td>
 
-[Performance Analytics Widgets ![](../../../reuse/icons/brand-icons/bus-anomaly-detection.svg) Define visualizations for Key Performance Indicator scores to show the evolution of your data to share on dashboards.](../../performance-analytics/concept/c_Widgets.md)
+[Performance Analytics Widgets \[Omitted image "bus-anomaly-detection.svg"\] Alt text: Define visualizations for Key Performance Indicator scores to show the evolution of your data to share on dashboards.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_Widgets.md)
 
 </td><td>
 
-[Analytics Hub ![](../../../reuse/icons/brand-icons/bus-customize.svg) Dig into the details of your KPIs with Analytics Hubs.](../../performance-analytics/concept/c_UsePerformanceAnalyticsScorecards.md)
+[Analytics Hub \[Omitted image "bus-customize.svg"\] Alt text: Dig into the details of your KPIs with Analytics Hubs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)
 
 </td><td>
 
-[Interactive Analysis![](../../../reuse/icons/brand-icons/bus-datasheet.svg) Analyze the data in filtered columns on list views of table records.](../../dashboards/concept/interactive-analysis.md)
+[Interactive Analysis\[Omitted image "bus-datasheet.svg"\] Alt text: Analyze the data in filtered columns on list views of table records.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/interactive-analysis.md)
 
 </td></tr></tbody>
 </table>## Reporting
@@ -70,11 +71,11 @@ Interactive Filters allow you to filter all reports on a dashboard dynamically, 
 
 Analyze indicator scores by aggregating data, comparing scores, or viewing changes over time, and filter scores by breakdown. Enhance the Analytics Hub by adding targets, thresholds, trendlines, and useful comments for significant changes.
 
-![The overview tab of the Analytics Hub](../../performance-analytics/image/detailed-scorecard-overview.png)
+\[Omitted image "detailed-scorecard-overview.png"\] Alt text: The overview tab of the Analytics Hub
 
 ## Interactive Analysis
 
 Dynamically analyze the data in a field across multiple records on a table. From the context menu of a table column, open an interface where you see bar and heatmap representations of the data in the field. Interactively select what values to group the data by and how to filter which data you analyze.
 
-![Interactive analysis with information panel option](../../dashboards/image/interactive-analysis-p.png)
+\[Omitted image "interactive-analysis-p.png"\] Alt text: Interactive analysis with information panel option
 

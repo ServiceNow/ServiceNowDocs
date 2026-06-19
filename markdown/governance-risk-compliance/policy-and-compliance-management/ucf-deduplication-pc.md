@@ -2,6 +2,7 @@
 title: Elimination of duplicate citations from UCF Shared list download
 description: You can eliminate duplicate citations associated with the authority documents when you receive citations from UCF content as part of the same Shared list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/ucf-deduplication-pc.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -23,7 +24,7 @@ Duplication occurs when you download UCF content that has multiple citations tie
 
 Duplication is identified when the downloaded citations tied to an authority document have similar **Reference**, **Authority document**, and **Description** details but a different **Source ID**. Such citations that belong to the same authority document but downloaded multiple times are termed as duplicate citations.
 
-![Duplicate citations downloaded from UCF.](../image/citation-ucf-duplication.png)
+\[Omitted image "citation-ucf-duplication.png"\] Alt text: Duplicate citations downloaded from UCF.
 
 ## Deduplication of UCF citations
 
@@ -35,7 +36,7 @@ Similarly, the child citations of the duplicate citations, if any, can be groupe
 
 This enhancement helps you to eliminate duplicate citations associated with the authority documents when you download UCF content, or by running an on-demand job after UCF content is downloaded. The fix is available when you:
 
--   Import data from the UCF Shared list. To download a UCF shared list, see [Download a UCF shared list](../task/download-a-shared-list.md).
+-   Import data from the UCF Shared list. To download a UCF shared list, see [Download a UCF shared list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/download-a-shared-list.md).
 -   Run the **UCF citation deduplication issue fix** on-demand job if you don’t want to import UCF again. This job eliminates the duplicate citations and fixes the parent–child relationship by appending the child citations of the inactive parent citation to the active parent.
 
 1.  To run the on-demand job, navigate to **All** &gt; **System Definition** &gt; **Scheduled jobs**.
@@ -49,10 +50,10 @@ After the fix:
 
     You can view citations with unique Reference ID, unique Description, and each citation belongs to a different AO. In the **Active** column, the active citation is **true**, and the duplicate citations are marked as **false**. Select and open one of the citation record, all control objectives are grouped in the Control objectives related list, and its child citations in the Citations related list.
 
-    ![Active citation marked as true and duplicate citations marked as false.](../image/citation-dedup-fix.png)
+    \[Omitted image "citation-dedup-fix.png"\] Alt text: Active citation marked as true and duplicate citations marked as false.
 
     **Note:** Citations are considered as duplicate only when their **Reference ID**, **Authority document**, **Description** are the same. Even if one of these conditions isn’t fulfilled, then they’re considered as two different citations and not as duplicate.
 
 
-**Parent Topic:**[Configure the UCF integration using the UCF Common Controls Hub](../task/configure-UCF-integration.md)
+**Parent Topic:**[Configure the UCF integration using the UCF Common Controls Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/configure-UCF-integration.md)
 

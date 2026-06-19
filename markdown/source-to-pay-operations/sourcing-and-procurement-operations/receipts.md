@@ -2,6 +2,7 @@
 title: Receipts
 description: Receipts reference a purchase order line. Depending on the product type of the purchase, a goods receipt or services receipt is generated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/receipts.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -26,7 +27,7 @@ Receipts can either be a partial or full receipt, and are used determine the sta
 
 You can view all receipts from the **Receipt Acknowledgment** sub-module under the Sourcing and Purchasing Automation module.
 
-![Receipt form.](../image/spo-receipts.png "Receipt form")
+\[Omitted image "spo-receipts.png"\] Alt text: Receipt form.
 
 The following are the key fields of a receipt:
 
@@ -131,5 +132,5 @@ Amount received
 Receipt amount for the service received.This field is visible only for a services receipt.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Sourcing and Purchasing Automation](purchase-experience-workflow.md)
+</table>**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

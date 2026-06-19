@@ -2,6 +2,7 @@
 title: View data collection usage
 description: To view statistics about data collection jobs, click Data Collection Overview in the Usage tile on the Performance Analytics Admin Console.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/view-data-collection-usage-statistics.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -17,11 +18,13 @@ To view statistics about data collection jobs, click **Data Collection Overview*
 
 ## Before you begin
 
+**Important:** This functionality is available only on migrated instances that still have Core UI artifacts. Net new instances do not have the Admin Console.
+
 Role required: pa\_admin, admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Admin Console**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Admin Console**.
 
 2.  In the Usage tile, click **Data Collection Overview**.
 
@@ -38,5 +41,5 @@ The following widgets are displayed:
 
 By default, weekly statistics are shown in an Analytics Hub, broken down by data collector. You can select different visualizations and breakdowns in the widget.
 
-**Parent Topic:**[Data collection process and logging](../concept/data-collection-process-logging.md)
+**Parent Topic:**[Data collection process and logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/data-collection-process-logging.md)
 

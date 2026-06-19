@@ -2,6 +2,7 @@
 title: Related lists for a Product in Agile Development 2.0
 description: Use the related lists in the Product form for the actions that you need to perform on your product record in Agile Development 2.0, such as associating releases, themes, epics, stories, or assignment groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/related-links-lists-product-agile-2.html
 release: zurich
 product: Agile Development
 classification: agile-development
@@ -19,7 +20,7 @@ The Product form related lists help you organize your agile work. Agile Developm
 
 **Tip:**
 
-In Agile Development 2.0, Product &gt; Theme &gt; Epic &gt; Story &gt; Scrum Task. For detailed definitions, see [Basics of Agile Development](../concept/basics-agile-development.md).
+In Agile Development 2.0, Product &gt; Theme &gt; Epic &gt; Story &gt; Scrum Task. For detailed definitions, see [Basics of Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/basics-agile-development.md).
 
 <table id="table_fff_5wg_g5b"><thead><tr><th>
 
@@ -47,7 +48,7 @@ A high-level area of focus with associated business value, related to one or mor
 
  Lists the themes that are part of the product. You can create a theme and associate it with this product by selecting **New** or add an existing theme by selecting **Add**.
 
- For more information, see [Create a theme in Agile Development 2.0](../task/create-a-theme.md).
+ For more information, see [Create a theme in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/create-a-theme.md).
 
 </td></tr><tr><td>
 
@@ -59,7 +60,7 @@ High-level definition of a requirement that provides business value, such as a n
 
  Lists the epics associated with the product. You can create an epic and associate it with this product by selecting **New** or add an existing epic by selecting **Add**.
 
- For more information, see [Create an epic in Agile Development 2.0](../task/create-an-epic.md).
+ For more information, see [Create an epic in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/create-an-epic.md).
 
 </td></tr><tr><td>
 
@@ -71,7 +72,7 @@ Short, manageable pieces of work related to an epic. Stories capture the who, wh
 
  Lists the stories associated with the product. You can create a story and associate it with this product by selecting **New** or add an existing story by selecting **Add**.
 
- For more information, see [Create a story in Agile Development 2.0](../task/create-a-story.md).
+ For more information, see [Create a story in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/create-a-story.md).
 
 </td></tr><tr><td>
 
@@ -84,5 +85,5 @@ Lists the groups assigned to the product. You can assign an existing agile group
  When you associate a product to a release, the groups assigned to the product are automatically added to the release too.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agile Development 2.0 reference](agile-development-2-reference.md)
+</table>**Parent Topic:**[Agile Development 2.0 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/agile-development-2-reference.md)
 

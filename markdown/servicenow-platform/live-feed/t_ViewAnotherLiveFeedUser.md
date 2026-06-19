@@ -2,6 +2,7 @@
 title: View another Live Feed user
 description: When a requester user, one that has no ServiceNow role, is viewing a feed and points to another user's picture, information for the user appears from the Business Card view of the User \[sys\_user\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/live-feed/t\_ViewAnotherLiveFeedUser.html
 release: zurich
 product: Live Feed
 classification: live-feed
@@ -34,5 +35,5 @@ Admins can change the amount of information that is displayed for users with dif
     Use the tabs to view different types of information about the user.
 
 
-**Parent Topic:**[Live Feed UI overview](../reference/r_LiveFeedUIOverview.md)
+**Parent Topic:**[Live Feed UI overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/live-feed/r_LiveFeedUIOverview.md)
 

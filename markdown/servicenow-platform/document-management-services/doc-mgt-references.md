@@ -2,6 +2,7 @@
 title: Document references
 description: References are used for linking a document record to other records, which can be any other table or record on the platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/doc-mgt-references.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -21,12 +22,12 @@ You can add references directly and view all document references in other record
 
 You can create and link document references directly from references or from the document record.
 
--   **[Create document references from document record](../task/link-document-with-reference.md)**  
+-   **[Create document references from document record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/link-document-with-reference.md)**  
 Link the document record to other records in any other table or record.
--   **[Create document reference from References](../task/create-doc-ref-doc-form.md)**  
+-   **[Create document reference from References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/create-doc-ref-doc-form.md)**  
 Link document references to any record directly from the References list. You can easily see all documents linked to tables and target records.
--   **[Delete a document reference from document record](../task/delete-doc-ref-doc-rec.md)**  
+-   **[Delete a document reference from document record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/delete-doc-ref-doc-rec.md)**  
 Remove and unlink a document reference from a document record.
 
-**Parent Topic:**[Using Document Management](using-document-management.md)
+**Parent Topic:**[Using Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/using-document-management.md)
 

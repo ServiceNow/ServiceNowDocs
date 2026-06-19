@@ -2,6 +2,7 @@
 title: Unused resources analysis for Microsoft Azure
 description: Cloud Cost Management uses an optimized Unused resources process for each provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/azure-how-um-works-cloudin.html
 release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management

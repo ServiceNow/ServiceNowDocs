@@ -2,6 +2,7 @@
 title: Omit record count in a list
 description: Speed up how fast lists load by removing the calculation of the total number of records in a list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/list-administration/omit-record-count.html
 release: zurich
 product: List Administration
 classification: list-administration
@@ -23,11 +24,11 @@ Role required: workspace\_admin
 
 Calculating the total number of records included in a list that's filtered from large tables can take a long time. Platform displays the total number of records in the list.
 
-![Record calculation](../image/pagination-calculation.jpg)
+\[Omitted image "pagination-calculation.jpg"\] Alt text: Record calculation
 
-To load lists faster, you can remove the page calculation for all or only specified filtered lists. When you remove the calculation, the total record count is not displayed and the Last Page icon \(![Forward arrows](../image/double-arrow-forward.jpg)\) is grayed out.
+To load lists faster, you can remove the page calculation for all or only specified filtered lists. When you remove the calculation, the total record count is not displayed and the Last Page icon \(\[Omitted image "double-arrow-forward.jpg"\] Alt text: Forward arrows\) is grayed out.
 
-![No pagination](../image/no-pagination.jpg)
+\[Omitted image "no-pagination.jpg"\] Alt text: No pagination
 
 ## Procedure
 
@@ -41,14 +42,14 @@ To load lists faster, you can remove the page calculation for all or only specif
 
     1.  Select **Remove pagination count for specific views**.
 
-    2.  Beside **Specific list of views prevented from getting full record count**, select the lock icon \(![Lock icon](../../../common/image/icon-lock.png)\).
+    2.  Beside **Specific list of views prevented from getting full record count**, select the lock icon \(\[Omitted image "icon-lock.png"\] Alt text: Lock icon\).
 
-    3.  Select the search icon \(![Search icon](../image/magnifying-glass.png)\) and select the view where platform omits the page count.
+    3.  Select the search icon \(\[Omitted image "magnifying-glass.png"\] Alt text: Search icon\) and select the view where platform omits the page count.
 
     4.  Repeat the previous step for as many views as necessary.
 
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configuring lists on the ServiceNow AI Platform](../concept/c_ListConfiguration.md)
+**Parent Topic:**[Configuring lists on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/list-administration/c_ListConfiguration.md)
 

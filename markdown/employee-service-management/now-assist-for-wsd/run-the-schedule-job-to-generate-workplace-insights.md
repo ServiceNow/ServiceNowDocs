@@ -2,6 +2,7 @@
 title: Run the scheduled job to generate workplace insights
 description: Run the Generate Workplace Insights - Weekly scheduled job to generate workplace insights based on the configured data source and prompt configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-wsd/run-the-schedule-job-to-generate-workplace-insights.html
 release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd

@@ -2,6 +2,7 @@
 title: Software asset overview for Software Asset Management Foundation plugin dashboard
 description: Enhance your Software Asset Management Foundation plugin experience by using the modernized and user-friendly software asset overview dashboard. The software asset overview is a simplified and intuitive environment that helps you use the application more effectively by reducing complexity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/software-asset-management-foundation-plugin/software-asset-overview-samf.html
 release: zurich
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
@@ -22,7 +23,7 @@ Use the software asset overview view to:
 
 Click any widget to view detailed information. All the widgets are updated whenever a new reconciliation result is available.
 
-![Software asset overview landing page](../image/software-asset-overview-samf.png "Software asset overview dashboard")
+\[Omitted image "software-asset-overview-samf.png"\] Alt text: Software asset overview landing page
 
 <table id="table_nq2_bjl_2qb"><thead><tr><th>
 
@@ -73,5 +74,5 @@ Product Results\[samp\_product\_result\]
 Cost to be compliant based on the average prices in entitlements for the rights by publisher.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Software Asset Management Foundation plugin workspace](using-samf-workspace.md)
+</table>**Parent Topic:**[Using Software Asset Management Foundation plugin workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/using-samf-workspace.md)
 

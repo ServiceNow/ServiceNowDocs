@@ -2,6 +2,7 @@
 title: Adjuster tasks
 description: Adjusters can work on claim tasks from the claim workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/adjuster-tasks-workspace.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims
@@ -30,5 +31,5 @@ From the claim workspace, an adjuster can also access tabs to view the Fraud sco
 
 ## Adjuster claim workspace - Commercial auto claim review
 
-![Adjuster claim workspace for commercial auto claim that shows the Claim details, Claim properties list, Claim participants list, Task details, and Task work list.](../image/claim-workspace-commercial-claim-review.png)
+\[Omitted image "claim-workspace-commercial-claim-review.png"\] Alt text: Adjuster claim workspace for commercial auto claim that shows the Claim details, Claim properties list, Claim participants list, Task details, and Task work list.
 

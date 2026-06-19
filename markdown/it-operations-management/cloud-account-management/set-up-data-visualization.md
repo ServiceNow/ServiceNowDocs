@@ -2,13 +2,14 @@
 title: Set up scan configuration for data visualization
 description: Visualize all account violations by scanning them using the selected policy set. Display the severity of all violations on the admin dashboard to take appropriate actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/set-up-data-visualization.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Configuring Cloud Account Management, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Set up scan configuration for data visualization
@@ -17,7 +18,7 @@ Visualize all account violations by scanning them using the selected policy set.
 
 ## Before you begin
 
-Make sure you have referred to the default policies \([Policy list for scanning cloud accounts](../reference/policies-for-scanning-cloud-accounts.md)\). To create a custom policy set, see [Create a policy set](../../itom-cloud-accelerate/task/create-ccg-policy-set.md).
+Make sure you have referred to the default policies \([Policy list for scanning cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/policies-for-scanning-cloud-accounts.md)\). To create a custom policy set, see [Create a policy set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/create-ccg-policy-set.md).
 
 Role required: sn\_itom\_cam.cw\_admin or sn\_itom\_ccg.scheduling\_admin
 
@@ -31,13 +32,13 @@ Role required: sn\_itom\_cam.cw\_admin or sn\_itom\_ccg.scheduling\_admin
 
 4.  Under the **Configuration** tab, select a **Cloud Provider Type** from the lookup.
 
-5.  Select the **Unlock Policy Sets** icon \(![Unlock policy sets](../image/unlock_icon.png)\) and select a policy set from the list.
+5.  Select the **Unlock Policy Sets** icon \(\[Omitted image "unlock\_icon.png"\] Alt text: Unlock policy sets\) and select a policy set from the list.
 
-6.  Select the **Lock Policy Sets** icon \(![Lock policy sets](../image/lock_icon.png)\).
+6.  Select the **Lock Policy Sets** icon \(\[Omitted image "lock\_icon.png"\] Alt text: Lock policy sets\).
 
-7.  Select Additional actions icon \(![Additional actions icon](../../event-management/image/additional-actions.png)\) or right-click on the top bar and select **Save** to save the current settings.
+7.  Select Additional actions icon \(\[Omitted image "additional-actions.png"\] Alt text: Additional actions icon\) or right-click on the top bar and select **Save** to save the current settings.
 
-    ![Save Cloud Configuration Governance Scan Configuration](../image/save-scan-config.png)
+    \[Omitted image "save-scan-config.png"\] Alt text: Save Cloud Configuration Governance Scan Configuration
 
 8.  Under the **Service Account** column, select all the management accounts and member accounts from the lookup.
 
@@ -47,12 +48,12 @@ Role required: sn\_itom\_cam.cw\_admin or sn\_itom\_ccg.scheduling\_admin
 
 10. Select **Update**.
 
-11. Synchronize the configuration with the Cloud Account Management app by selecting **Sync CAM Config**.![Sync CW Config button on the Scan Configuration page](../image/sync_CAM_config.png)
+11. Synchronize the configuration with the Cloud Account Management app by selecting **Sync CAM Config**.\[Omitted image "sync\_CAM\_config.png"\] Alt text: Sync CW Config button on the Scan Configuration page
 
     **Note:**
 
     -   To view the synchronized configuration, navigate to **All** &gt; **Cloud Workspace** &gt; **Configuration**.
-    -   If you have synchronized the configuration, you don’t have to create a Scan Account configuration mentioned in [Create a scan account configuration](create-scan-account-config.md).
+    -   If you have synchronized the configuration, you don’t have to create a Scan Account configuration mentioned in [Create a scan account configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/create-scan-account-config.md).
 12. To run an on-demand scan, select **Execute**.
 
     **Note:** You can create unlimited configurations for each account. An account may have multiple scan configurations, with violations and assessments based on all of them.

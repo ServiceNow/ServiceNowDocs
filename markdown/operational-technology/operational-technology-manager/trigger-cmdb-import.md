@@ -2,6 +2,7 @@
 title: Trigger a CMDB import for valid staging records
 description: Trigger a Configuration Management Database \(CMDB\) import for your valid staging records to directly import them into the CMDB
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-manager/trigger-cmdb-import.html
 release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -23,7 +24,7 @@ Role required: ot\_excel\_import\_user
 
 1.  Navigate to **All** &gt; **Industrial Workspace**.
 
-2.  Select the **List** \(![List icon](../../../common/image/icon-list.png)\) icon.
+2.  Select the **List** \(\[Omitted image "icon-list.png"\] Alt text: List icon\) icon.
 
 3.  Under the OT Excel SGC - Import Task module, select one of the available lists.
 
@@ -38,5 +39,5 @@ Role required: ot\_excel\_import\_user
 7.  Review the newly imported OT devices in OT List module in the Industrial Workspace.
 
 
-**Parent Topic:**[Using the Service Graph Connector for Microsoft Excel through import tasks](../concept/use-excel-sgc-through-import-tasks.md)
+**Parent Topic:**[Using the Service Graph Connector for Microsoft Excel through import tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/use-excel-sgc-through-import-tasks.md)
 

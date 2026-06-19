@@ -2,6 +2,7 @@
 title: Associate SLAs and Service Commitments with Vendors
 description: Create a vendor SLA and a service commitment and associate that with a vendor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/vendor-management-workspace/associate-sla-service-commitment-vendors.html
 release: zurich
 product: Vendor Management Workspace
 classification: vendor-management-workspace
@@ -33,7 +34,7 @@ Role required: sn\_vlm.vendor\_manager and sla\_manager
 
     3.  Fill in the fields on the form.
 
-        For information on field descriptions, see [Create an SLA definition](../../service-level-management/task/t_CreateAnSLADefinition.md).
+        For information on field descriptions, see [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-level-management/t_CreateAnSLADefinition.md).
 
     4.  Select **Save**.
 
@@ -60,5 +61,5 @@ Role required: sn\_vlm.vendor\_manager and sla\_manager
     In the List menu, go to **Service Levels** &gt; **My Vendor SLAs** to view the vendor SLA and service commitment you've created.
 
 
-**Parent Topic:**[Managing vendors using Vendor Management Workspace](../concept/using-vendor-management-workspace.md)
+**Parent Topic:**[Managing vendors using Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/using-vendor-management-workspace.md)
 

@@ -2,6 +2,7 @@
 title: Show item details in sections or pop-ups
 description: By default, a service catalog category displays the first two items with the preview section expanded to show item details. You can change the number of items that are previewed, or change the preview to appear in a pop-up window.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/t\_ShowItemDetlsCollapsSect.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -37,13 +38,13 @@ Expanded to 1 item.
 
 
 
- ![](../image/SC_ShowItemDetailsCol-1.png)
+ \[Omitted image "SC\_ShowItemDetailsCol-1.png"\] Alt text:
 
 </td><td>
 
 
 
- ![](../image/SC_ShowItemDetailsCol-2.png)
+ \[Omitted image "SC\_ShowItemDetailsCol-2.png"\] Alt text:
 
 </td></tr></tbody>
 </table>3.  To use the preview icon, set the **When browsing a category use the pop-up icon to show item details** \(**glide.sc.cat\_view\_use\_popup\_for\_details**\) property to **Yes**.
@@ -60,15 +61,15 @@ When set to **Yes**, the item details appear as a pop-up when the cursor hovers 
 
 
 
- ![](../image/SC_ShowItemDetailsPopup-1.png)
+ \[Omitted image "SC\_ShowItemDetailsPopup-1.png"\] Alt text:
 
 </td><td>
 
 
 
- ![](../image/SC_ShowItemDetailsPopup-2.png)
+ \[Omitted image "SC\_ShowItemDetailsPopup-2.png"\] Alt text:
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Service Catalog home page configuration](../concept/c_ManagingTheHomepageForACatalog.md)
+**Parent Topic:**[Service Catalog home page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_ManagingTheHomepageForACatalog.md)
 

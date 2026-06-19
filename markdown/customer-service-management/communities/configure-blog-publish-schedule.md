@@ -2,6 +2,7 @@
 title: Configure blog publish schedule
 description: Configure the publishing interval to ensure blogs are published closer to the scheduled time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/communities/configure-blog-publish-schedule.html
 release: zurich
 product: Communities
 classification: communities
@@ -36,5 +37,5 @@ The default interval for publishing blogs is 30 minutes. You can configure a sho
 4.  Click **Update**.
 
 
-**Parent Topic:**[Community content types](../concept/c_communities-content-types.md)
+**Parent Topic:**[Community content types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/c_communities-content-types.md)
 

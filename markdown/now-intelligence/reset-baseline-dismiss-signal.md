@@ -2,6 +2,7 @@
 title: Reset baseline or dismiss signal
 description: When you get a signal that abnormal variation has occurred, either dismiss the signal or recalculate the parameters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reset-baseline-dismiss-signal.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -15,7 +16,7 @@ When you get a signal that abnormal variation has occurred, either dismiss the s
 
 ## Before you begin
 
-Role required: You must be a [responsible user](../concept/kpi-signals-responsible-users.md#), unless you have the admin, pa\_admin, or pa\_kpi\_signal\_admin role.
+Role required: You must be a [responsible user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/kpi-signals-responsible-users.md), unless you have the admin, pa\_admin, or pa\_kpi\_signal\_admin role.
 
 ## About this task
 
@@ -25,7 +26,7 @@ Investigate the reason for the variation before deciding to reset the baseline o
 
 1.  Open KPI Signals from KPI Details.
 
-    In the KPI Details page for an indicator, you see a notification dot on the KPI Signals tab. This dot tells you that you have a signal for the indicator. ![Open KPI Signals icon with notification dot](../../performance-analytics/image/kpi-signals-notification-dot.png)
+    In the KPI Details page for an indicator, you see a notification dot on the KPI Signals tab. This dot tells you that you have a signal for the indicator. \[Omitted image "kpi-signals-notification-dot.png"\] Alt text: Open KPI Signals icon with notification dot
 
     **Note:** KPI Signals can detect signals for an indicator that is filtered on one first-level breakdown element. It does not support multiple elements or second-level breakdowns.
 
@@ -70,12 +71,12 @@ The default number of scores for calculating the baseline depends on the indicat
 
     In the dialog for resetting the baseline, you can first click **How does it work?** Doing so opens a window with information about what a baseline reset is and when to perform one.
 
-    ![Explanation of a baseline reset including what, why, and when.](../../performance-analytics/image/kpi-signals-understand-reset.png)
+    \[Omitted image "kpi-signals-understand-reset.png"\] Alt text: Explanation of a baseline reset including what, why, and when.
 
 
 ## Result
 
 If you reset the baseline, a message appears that the baseline is reset. You also see whether there is a more recent signal than the one you just handled. You can review the signals that you dismissed and your baseline resets in the **Past** tab.
 
-**Parent Topic:**[Using KPI Signals](../concept/using-kpi-signals.md)
+**Parent Topic:**[Using KPI Signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/using-kpi-signals.md)
 

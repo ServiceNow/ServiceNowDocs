@@ -2,6 +2,7 @@
 title: Specify the duration of an exception requested for a remediation task
 description: Use system properties to limit the duration for which an exception is requested for a remediation task. Remediation of the remediation task is deferred for the specified period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/cc-ex-mgmt-sys-prop.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance

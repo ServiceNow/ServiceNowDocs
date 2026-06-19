@@ -2,11 +2,12 @@
 title: Install the Conversational SMS Integration with AWS End User Messaging application
 description: You can install the Conversational SMS Integration with AWS End User Messaging application \(sn\_sms\_aws\_adapter\) from the ServiceNow store and integrate it with AWS End User Messaging to enable customer support agent conversations via an SMS channel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/install-conversational-sms-integration-with-amazon.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Configure, Conversational SMS Integration with AWS End User Messaging, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
@@ -36,5 +37,5 @@ Ensure that the application and all of its associated ServiceNow store applicati
     In the Install dialog box, all dependent plugins are displayed.
 
 
-**Parent Topic:**[Configuring Conversational SMS Integration with AWS End User Messaging](../concept/configure-ci-sms-with-aws.md)
+**Parent Topic:**[Configuring Conversational SMS Integration with AWS End User Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-ci-sms-with-aws.md)
 

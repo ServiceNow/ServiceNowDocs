@@ -2,6 +2,7 @@
 title: Add skills to a model
 description: You can associate skills with any model. Creating associations between skills and models is helpful if you are using work management and want to assign tasks to agents based on their skills with specific models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/product-catalog/t\_AddingSkillsToAModel.html
 release: zurich
 product: Product Catalog
 classification: product-catalog
@@ -32,5 +33,5 @@ Role required: skill\_admin or model\_manager
 5.  Click **Save**.
 
 
-**Parent Topic:**[Models](../concept/c_Models.md)
+**Parent Topic:**[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/product-catalog/c_Models.md)
 

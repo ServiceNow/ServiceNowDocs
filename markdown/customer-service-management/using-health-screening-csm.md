@@ -2,7 +2,10 @@
 title: Using Customer Service Management with Safe Workplace applications
 description: Screen consumers and contacts for compliance with health and safety policies to determine whether they are permitted to enter a location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/using-health-screening-csm.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -35,7 +38,7 @@ sn\_customerservice.consumer or sn\_customerservice\_customer
 
 </td><td>
 
-Access and complete the Health Verification form on the Consumer or Customer Service Portals. **Note:** For more information on filling out the form, see [Verify your health status and compliance](https://www.servicenow.com/docs/access?context=agree-compliance-return&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+Access and complete the Health Verification form on the Consumer or Customer Service Portals. **Note:** For more information on filling out the form, see Verify your health status and compliance.
 
 </td></tr><tr><td>
 
@@ -45,7 +48,7 @@ sn\_imt\_monitoring.monitoring \_user
 
 Screen external users entering a location to ensure compliance with entry requirements. **Note:** Health screeners cannot view additional Customer Service Management information on the screening form.
 
-For more information on screening, see [Conduct a health screen for entry](https://www.servicenow.com/docs/access?context=screen-returning-employee&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+For more information on screening, see Conduct a health screen for entry.
 
 </td></tr><tr><td>
 

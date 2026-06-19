@@ -2,11 +2,12 @@
 title: Using a declarative or scripted pipeline in DevOps
 description: When you use a Jenkinsfile, steps are created, mapped, and associated to orchestration tasks automatically instead of manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/dev-ops-scripted-pipeline.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Additional information - Jenkins, Jenkins, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -27,17 +28,17 @@ Each root-level stage configured in the Jenkinsfile is discovered as a separate 
 
     Where `ignoreErrors` specifies the setting to prevent job failure if there is an error \(true/false\)
 
-    Where `changeRequestDetails` specifies [closure code and change request fields](dev-ops-config-change-details.md) from within the pipeline
+    Where `changeRequestDetails` specifies [closure code and change request fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/dev-ops-config-change-details.md) from within the pipeline
 
     Enables change control for each root-level stage that is mapped to a DevOps step.
 
 -   `snDevOpsArtifact`
 
-    Registers artifacts when configuring [Artifacts and packages](using-dev-ops-release-change.md).
+    Registers artifacts when configuring [Artifacts and packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/using-dev-ops-release-change.md).
 
 -   `snDevOpsPackage`
 
-    Creates a package for artifacts when configuring [Artifacts and packages](using-dev-ops-release-change.md).
+    Creates a package for artifacts when configuring [Artifacts and packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/using-dev-ops-release-change.md).
 
 -   `snDevOpsGetChangeNumber`
 

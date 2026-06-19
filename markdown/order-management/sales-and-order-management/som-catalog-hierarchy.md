@@ -2,6 +2,7 @@
 title: Product catalog hierarchy visualization
 description: As a product catalog admin or manager, you can view the complete hierarchy of a product offering and any associated specifications \(product, service, and resource\). Use these views to verify that all entities have been defined and associated correctly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/som-catalog-hierarchy.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -17,7 +18,7 @@ As a product catalog admin or manager, you can view the complete hierarchy of a 
 
 For product offerings that have associated specifications, you can toggle the hierarchical view of the product offering to show its specification hierarchy. The hierarchical specification view shows the services that enable the product to be realized and the resources that are required to deliver those services. This view helps you visualize different aspects of a product offering, to validate the product and determine that the supporting services and resources are designed as needed. The hierarchy also highlights any relationships between specifications.
 
-![Hierarchical view of product specifications for the SD-WAN Gold Plan product offering](../image/product-catalog-hierarchy.png "Product catalog hierarchy views")
+\[Omitted image "product-catalog-hierarchy.png"\] Alt text: Hierarchical view of product specifications for the SD-WAN Gold Plan product offering
 
 To view the product catalog hierarchy in the CSM Configurable Workspace, in the List view navigate to **Offerings** &gt; **Product Offerings**. Select a product offering, then select the Catalog Hierarchy tab. Use the **Show specification** toggle to switch between the product offering and specification hierarchical views.
 

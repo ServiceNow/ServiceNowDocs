@@ -2,6 +2,7 @@
 title: Resume a service contract line
 description: Create an order to resume a service contract line and its child service contract lines on the CSM Configurable Workspace. By resuming a service contract line, you are restarting the services specified in that service contract line.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cce-resume-service-contract-line.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -50,5 +51,5 @@ Role required: sn\_customerservice\_manager and sn\_ind\_tmt\_orm.order\_agent
 
 With the service contract line, all the associated entities in the hierarchy are also back in Active or Draft state, depending on the start date of the respective entity.
 
-**Parent Topic:**[Using Contracts and Entitlements Workflows](../concept/using-customer-cnt-ent-wf.md)
+**Parent Topic:**[Using Contracts and Entitlements Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/using-customer-cnt-ent-wf.md)
 

@@ -2,6 +2,7 @@
 title: Manage workplace contracts
 description: Lease administrators and managers can track, renew, and view information related to workplace contracts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-lease-administration/manage-lease-contracts.html
 release: zurich
 product: Workplace Lease Administration
 classification: workplace-lease-administration
@@ -17,8 +18,8 @@ Lease administrators and managers can track, renew, and view information related
 
 You can access Workplace Lease Administration, either from the Core UI or Workplace Central from different views, refer to the below topics.
 
--   [Manage workplace contracts from Core UI](manage-contracts-from-core-ui.md)
--   [Manage workplace contracts from Workplace Central](manage-contracts-from-wpc.md)
+-   [Manage workplace contracts from Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-lease-administration/manage-contracts-from-core-ui.md)
+-   [Manage workplace contracts from Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-lease-administration/manage-contracts-from-wpc.md)
 
-For more information on the lease contract workflow, states, and substates, see [Contract life cycle](https://www.servicenow.com/docs/access?context=c_ContractLifeCycle&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+For more information on the lease contract workflow, states, and substates, see Contract life cycle.
 

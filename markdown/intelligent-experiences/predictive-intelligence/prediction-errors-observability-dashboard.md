@@ -2,6 +2,7 @@
 title: Reviewing prediction errors with the Observability Dashboard
 description: The Observability Dashboard offers a unified view and actionable insights for errors detected in Predictive Intelligence. Use this dashboard to visualize logged errors and gain information on prediction reliability and potential problem areas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/predictive-intelligence/prediction-errors-observability-dashboard.html
 release: zurich
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -26,7 +27,7 @@ View the PI - Observability Dashboard by navigating to **Predictive Intelligence
 
 You can drill down to the underlying records from the widget graphics. You can also change the date range of all widgets by selecting **Date** to open the selector.
 
-![The Predictive Intelligence dashboard, showing four widgets: Total Number of Prediction Errors, Prediction Errors Breakdown by Date, Prediction Errors Count by Capability, Prediction Error Count by Error Type.](../images/prediction-errors-observability-dashboardZ1.png "PI Observability Dashboard — upper four widgets")
+\[Omitted image "prediction-errors-observability-dashboardZ1.png"\] Alt text: The Predictive Intelligence dashboard, showing four widgets: Total Number of Prediction Errors, Prediction Errors Breakdown by Date, Prediction Errors Count by Capability, Prediction Error Count by Error Type.
 
 The PI - Observability Dashboard draws from a table dedicated to logging prediction errors: **ML Predictor Error Logs** \[ml\_predictor\_error\_logs\].
 
@@ -43,5 +44,5 @@ The table logs the following types of granular errors.
 
 **Note:** Errors in training aren't included in this table.
 
-![The lower section of the Predictive Intelligence Observability dashboard, showing two widgets: Error Types by Capability, Successful and Unsuccessful Predictions Breakdown by Date.](../images/prediction-errors-observability-dashboardZ2.png "PI Observability Dashboard — lower two widgets")
+\[Omitted image "prediction-errors-observability-dashboardZ2.png"\] Alt text: The lower section of the Predictive Intelligence Observability dashboard, showing two widgets: Error Types by Capability, Successful and Unsuccessful Predictions Breakdown by Date.
 

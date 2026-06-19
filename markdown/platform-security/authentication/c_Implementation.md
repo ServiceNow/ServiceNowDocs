@@ -2,6 +2,7 @@
 title: Implement a nonce
 description: Add a cryptographic nonce to the authentication header to ensure that it can only be used once.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/c\_Implementation.html
 release: zurich
 product: Authentication
 classification: authentication

@@ -2,6 +2,7 @@
 title: Task table structure
 description: The Task table structure provides a framework to organize and store task-related data, and includes extensive customization options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/task-table-structure.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -15,12 +16,12 @@ breadcrumb: [Working with Task table, Table admin, Tables and data, Configure co
 
 The Task table structure provides a framework to organize and store task-related data, and includes extensive customization options.
 
--   **[Important Task table fields](../../task-table/reference/r_ImportantTaskTableFields.md)**  
+-   **[Important Task table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/r_ImportantTaskTableFields.md)**  
 The Task table is a base class that provides fields for the core ITSM applications such as Incident, Problem, and Change Management. All applications that extend the Task table share these fields in common.
--   **[Journal fields](../../task-table/reference/r_JournalFields.md)**  
+-   **[Journal fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/r_JournalFields.md)**  
 Journal fields work together to create a log of changes and comments as tasks are worked on.
--   **[Reminder table](../../task-table/concept/reminder-table.md)**  
+-   **[Reminder table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/reminder-table.md)**  
 The Reminder \[reminder\] table provides a way to auto-generate reminders for a task.
 
-**Parent Topic:**[Working with the Task table](../../task-table/concept/c_TaskTable.md)
+**Parent Topic:**[Working with the Task table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_TaskTable.md)
 

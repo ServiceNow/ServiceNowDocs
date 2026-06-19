@@ -2,6 +2,7 @@
 title: Granting access rights for the developers
 description: To use Team Development, application developers must have a set of credentials for each instance in the Team Development hierarchy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/r\_GrantingAccessRightsToDevelopers.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -17,7 +18,7 @@ To use Team Development, application developers must have a set of credentials f
 
 **Note:** The `teamdev_user` role doesn’t grant access to the Team Development application and isn’t intended for developers to work on local development instances. It’s intended to grant developers non-admin access to remote instances such as the parent instance or a peer development instance.
 
-An instance's placement in the [team development hierarchy](../task/t_SetUpAnInstanceHierarchy.md) determines the credentials that it requires.
+An instance's placement in the [team development hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_SetUpAnInstanceHierarchy.md) determines the credentials that it requires.
 
 <table id="table_vnz_5jb_bq"><thead><tr><th>
 
@@ -37,7 +38,7 @@ admin role on the instance you’re accessing
 
 </td></tr><tr><td>
 
-Right to [register a remote instance](../task/t_DefineARemoteInstance.md)
+Right to [register a remote instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_DefineARemoteInstance.md)
 
 </td><td>
 
@@ -64,7 +65,7 @@ One of following:-   admin role on the registered development instance
 
 </td></tr><tr><td>
 
-Access to the [Code Review Requests](../task/t_EnableCodeReview.md) module
+Access to the [Code Review Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_EnableCodeReview.md) module
 
 </td><td>
 
@@ -72,5 +73,5 @@ One of following:-   admin role on the parent instance
 -   teamdev\_code\_reviewer role on the parent instance
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Team Development Reference](team-development-reference.md)
+</table>**Parent Topic:**[Team Development Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/team-development-reference.md)
 

@@ -2,6 +2,7 @@
 title: Set up your ServiceNow AI Platform instance for the ArcSight ESM event ingestion integration
 description: The following section lists the setup tasks that you are required to complete in your ServiceNow AI Platform instance prior to installing the application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/arcsight-esm-setup-sn.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -49,7 +50,7 @@ The following roles are required for the installation, setup, and use of the int
     -   Assigns the security incident analyst \(sn\_si.analyst\) role.
     -   Users with the sn\_si.analyst work with security incidents.
 
- For more information about roles and assigning roles to users, see Roles on the [Servicenow Product Documentation website](https://servicenow.com/docs).
+ For more information about roles and assigning roles to users, see Roles on the [Servicenow Product Documentation website](https://www.servicenow.com/docs).
 
 </td></tr><tr><td>
 
@@ -65,7 +66,7 @@ Set up the Query Viewer in ArcSight ESM.
 
 </td><td>
 
-Before you can ingest correlation events, you must configure the Query Viewer in the ArcSight ESM console. See [Set up the ArcSight ESM Query Viewer](arcsight-esm-setup-queryviewer.md) for details.
+Before you can ingest correlation events, you must configure the Query Viewer in the ArcSight ESM console. See [Set up the ArcSight ESM Query Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/arcsight-esm-setup-queryviewer.md) for details.
 
 </td></tr><tr><td>
 
@@ -73,7 +74,7 @@ Before you can ingest correlation events, you must configure the Query Viewer in
 
 </td><td>
 
-A correlation event goes through many stages in its life cycle before it is closed. ArcSight ESM provides default stages like Initial, Monitoring, Queued, and Closed. Some of these stages require user inputs but other stages are automatically applied to the event without any user intervention \(the **User Required** field is unchecked in the ArcSight ESM console\). You can create custom stages that do not require any user intervention and use them in your ServiceNow AI Platform® instance. See [Additional options: Automate correlated event updates and closure based on SIR incident status](arcsight-esm-create-profile-additional.md) for details.
+A correlation event goes through many stages in its life cycle before it is closed. ArcSight ESM provides default stages like Initial, Monitoring, Queued, and Closed. Some of these stages require user inputs but other stages are automatically applied to the event without any user intervention \(the **User Required** field is unchecked in the ArcSight ESM console\). You can create custom stages that do not require any user intervention and use them in your ServiceNow AI Platform® instance. See [Additional options: Automate correlated event updates and closure based on SIR incident status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/arcsight-esm-create-profile-additional.md) for details.
 
 </td></tr><tr><td>
 
@@ -81,9 +82,9 @@ Verify that you have installed and configured a MID Server Application.
 
 </td><td>
 
-Configured MID Server ApplicationA MID Server in your ServiceNow AI Platform® instance is required to connect to the ArcSight ESM service if the ArcSight ESM server is deployed within your corporate network. See [Install and configure the ServiceNow application for the ArcSight ESM Event Ingestion integration](arcsight-esm-install-configure.md) for instructions on how to configure a MID Server Application.
+Configured MID Server ApplicationA MID Server in your ServiceNow AI Platform® instance is required to connect to the ArcSight ESM service if the ArcSight ESM server is deployed within your corporate network. See [Install and configure the ServiceNow application for the ArcSight ESM Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/arcsight-esm-install-configure.md) for instructions on how to configure a MID Server Application.
 
- See the [MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) for information about MID Servers.
+ See the MID Server for information about MID Servers.
 
  If you are using a hosted or cloud service, that is Internet accessible, a MID Server is not required.
 
@@ -103,7 +104,7 @@ Verify that the following Security Operations applications are installed and act
     -   com.glide.hub.action\_step.rest =&gt; ServiceNow IntegrationHub Action Step - REST
 5.  Threat Core
 
- For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](../../../security-incident-response/task/entitle-secops-product.md) and [Activate a ServiceNow Store application](../../../security-incident-response/task/activate-entitled-store-app.md).
+ For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/activate-entitled-store-app.md).
 
 </td></tr></tbody>
 </table>## What to do next

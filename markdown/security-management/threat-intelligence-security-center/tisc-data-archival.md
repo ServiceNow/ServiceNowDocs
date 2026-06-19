@@ -2,13 +2,14 @@
 title: TISC Data Archival
 description: The Threat Intelligence Security Center is provisioned with archival rules in the base system for the TISC table. The related records are also added in the base system to the TISC archive rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-data-archival.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [TISC Data Archival, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [TISC Data archival and cleanup, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # TISC Data Archival
@@ -84,7 +85,7 @@ Role required: admin
 
     **Note:**
 
-    For information on how the archival rules are created, see [Create an archive rule](https://www.servicenow.com/docs/access?context=t_CreateAnArchiveRule&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For information on how the archival rules are created, see .
 
 4.  Select an archival rule.
 

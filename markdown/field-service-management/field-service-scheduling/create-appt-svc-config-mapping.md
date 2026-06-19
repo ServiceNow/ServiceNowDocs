@@ -2,6 +2,7 @@
 title: Create an Appointment service configuration mapping
 description: An appointment service configuration mapping contains the service configuration, service configuration rule, and territory for use in an appointment schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/create-appt-svc-config-mapping.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -20,7 +21,7 @@ An appointment service configuration mapping contains the service configuration,
 
 Role required: appointment\_booking\_admin
 
-Ensure that the Advanced Appointment Booking plugin is active. For more information, see [Activate Advanced Appointment Booking](activate-adv-appt-booking.md).
+Ensure that the Advanced Appointment Booking plugin is active. For more information, see [Activate Advanced Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/activate-adv-appt-booking.md).
 
 Ensure you have already created a **Service Configuration**
 
@@ -94,7 +95,7 @@ Demand channel
 
 </td><td>
 
-Select the demand channel for the configuration. For more information, see [Create a demand channel](create-a-demand-channel.md). **Note:** Applies only if territory plugin is installed.
+Select the demand channel for the configuration. For more information, see [Create a demand channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/create-a-demand-channel.md). **Note:** Applies only if territory plugin is installed.
 
 </td></tr></tbody>
 </table>5.  Click **Submit**.
@@ -102,7 +103,7 @@ Select the demand channel for the configuration. For more information, see [Crea
 
 ## What to do next
 
-Both a service configuration mapping and an appointment window configuration are required to create an Appointment schedule. For more information on appointment window configurations, see [Create an Appointment window configuration](create-appt-window-config.md).
+Both a service configuration mapping and an appointment window configuration are required to create an Appointment schedule. For more information on appointment window configurations, see [Create an Appointment window configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/create-appt-window-config.md).
 
-If a service configuration mapping already exists, see [Create an Appointment schedule](create-appt-sched.md).
+If a service configuration mapping already exists, see [Create an Appointment schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/create-appt-sched.md).
 

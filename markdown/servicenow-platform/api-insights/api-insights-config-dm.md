@@ -2,6 +2,7 @@
 title: Configure data model recommendations for API clustering in API Insights
 description: Set recommendations for clustering API components to align the organization's data with the desired data model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/api-insights/api-insights-config-dm.html
 release: zurich
 product: API Insights
 classification: api-insights

@@ -2,6 +2,7 @@
 title: View related events and alerts in security incidents
 description: As a security incident is being worked on, you can view the details of the events. For alerts, you can view and acknowledge these alerts, and create incidents or security incidents from them as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/t\_ViewRelatedAlerts.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

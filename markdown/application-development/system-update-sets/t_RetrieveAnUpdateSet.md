@@ -2,6 +2,7 @@
 title: Retrieve an update set
 description: Retrieve completed update sets from another instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/system-update-sets/t\_RetrieveAnUpdateSet.html
 release: zurich
 product: System Update Sets
 classification: system-update-sets
@@ -116,5 +117,5 @@ Short description
 
 ## What to do next
 
-If the system property **glide.update\_set.auto\_preview** is set to **true**, the system automatically starts the preview process after the update set is retrieved. If this property is **false**, you must start the process manually. For more information on the preview process, see [Preview a remote update set](t_PreviewARemoteUpdateSet.md#).
+If the system property **glide.update\_set.auto\_preview** is set to **true**, the system automatically starts the preview process after the update set is retrieved. If this property is **false**, you must start the process manually. For more information on the preview process, see [Preview a remote update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/t_PreviewARemoteUpdateSet.md).
 

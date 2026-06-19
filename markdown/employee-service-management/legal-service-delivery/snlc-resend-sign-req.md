@@ -2,6 +2,7 @@
 title: Resend signature request
 description: Resend signature request functionality enables contract fulfillers to manually trigger signature request when needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/snlc-resend-sign-req.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -34,5 +35,5 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 Notification is resent to the current signatory.
 
-**Parent Topic:**[Signature workflow for a request](../concept/snlc-lsd-signature-workflow.md)
+**Parent Topic:**[Signature workflow for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md)
 

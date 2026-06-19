@@ -2,6 +2,7 @@
 title: Opting out of a prompt in Employee Portal
 description: Choose not to receive a specific prompt by opting out of the signal displayed in Employee Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/proactive-prompts/proactive-prompts-opt-out.html
 release: zurich
 product: Proactive Prompts
 classification: proactive-prompts
@@ -20,7 +21,7 @@ Choose not to receive a specific prompt by opting out of the signal displayed in
 Role required: none
 
 -   Make sure that Manager Hub and Talent Development installed to access these tabs in the Employee Portal.
--   To access the prompts on any other portal page in the Employee Portal, the Prompt widget must be added. For information on configuring portal pages, see [Create and edit a page using the Service Portal Designer](https://www.servicenow.com/docs/access?context=t_ConfigureAPage&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US). For information on adding widgets to a page, see [Service Portal widgets](https://www.servicenow.com/docs/access?context=service-portal-widgets&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+-   To access the prompts on any other portal page in the Employee Portal, the Prompt widget must be added. For information on configuring portal pages, see Create and edit a page using the Service Portal Designer. For information on adding widgets to a page, see Service Portal widgets.
 
 
 ## Procedure
@@ -31,7 +32,7 @@ Role required: none
 
     -   If you are a manager, navigate to **Your team** &gt; **Manager Hub**.
     -   If you are an employee, navigate to **Your career** &gt; **Career Hub**.
-3.  On the prompt widget, display a list of all signals by selecting the Manage preferences icon \(![Actions icon.](../../legal-request-management/image/more-actions-icon.png)\).
+3.  On the prompt widget, display a list of all signals by selecting the Manage preferences icon \(\[Omitted image "more-actions-icon.png"\] Alt text: Actions icon.\).
 
     **Note:** All signals for which there is a prompt in the prompts table are listed regardless of their status.
 

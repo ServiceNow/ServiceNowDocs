@@ -2,6 +2,7 @@
 title: CatItem - Scoped
 description: The CatItem API provides methods that enable you to create and modify service catalog items using scripts.Adds the Available For user criteria to the current catalog item.Verifies whether the current catalog item is viewable in the selected domain \(domain selected in the domain picker\).Determines if the user has access to view the catalog item on global search.Inserts the defined catalog item.Deletes a catalog item.Returns the first category that the user can view in a catalog.Returns an array of users for whom the associated item cannot be delegated \(requested on behalf of\).Returns the class name for the current catalog item record.Verifies whether the specified delegated user has acquisition rights to the current service catalog item.Determines if the current catalog item is available in service portal.Adds the Not Available For user criteria to a catalog item.Returns a mapping of catalog item attribute values.Sets attributes for a catalog item.Defines the catalogs that this catalog item is associated with.Defines the categories that this catalog item is associated with.Adds an image to a catalog item.Defines the table name for this catalog item.Creates a record using a specified Service Catalog record producer.Updates the values for specified fields of a catalog item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_CatItem.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The CatItem API provides methods that enable you to create and modify service ca
 
 This API runs in the `sn_sc` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## CatItem - availableForUserCriteria\(String action, Array criteriaIDs\)
 

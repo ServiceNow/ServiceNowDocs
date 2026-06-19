@@ -2,6 +2,7 @@
 title: Installing MID-less Agent Client Collector
 description: Installing MID-less Agent Client Collector enables you to send data from the agent to the instance through the cloud. Sending information through the cloud allows the MID Server to be used for more persistent resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-itom-cloud-services.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -29,21 +30,21 @@ Before using MID-less Agent Client Collector, do the following:
 
     If you’re using Agent Client Collector for Visibility - Content, install the Agent Client Collector for Visibility - Content \(sn\_acc\_vis\_content\) plugin.
 
-3.  Configure an agent registration key on the instance. For details, see [Configure an agent registration key](../task/agent-registration-key-configuration.md).
+3.  Configure an agent registration key on the instance. For details, see [Configure an agent registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-registration-key-configuration.md).
 
     If registration fails between the agent and the instance, the registration key is cleared from the `acc.yml` configuration file.
 
 
--   **[Install MID-less Agent Client Collector using a single-line command in a Windows environment](../task/acc-install-ics-windows.md)**  
+-   **[Install MID-less Agent Client Collector using a single-line command in a Windows environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-install-ics-windows.md)**  
 Install MID-less Agent Client Collector on a Windows machine to enable sending data from the agent to the instance through the cloud. Sending information through the cloud allows the MID Server to be used for more persistent resources.
--   **[Install MID-less Agent Client Collector manually in a Linux environment](../task/acc-install-ics-linux-manual.md)**  
+-   **[Install MID-less Agent Client Collector manually in a Linux environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-install-ics-linux-manual.md)**  
 Install MID-less Agent Client Collector manually on a Linux machine to enable sending data from the agent to the instance through the cloud. Sending information through the cloud allows the MID Server to be used for more persistent resources.
--   **[Install MID-less Agent Client Collector using a single-line command in a Linux environment](../task/acc-install-ics-linux.md)**  
+-   **[Install MID-less Agent Client Collector using a single-line command in a Linux environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-install-ics-linux.md)**  
 Install MID-less Agent Client Collector on a Linux machine to enable sending data from the agent to the instance through the cloud. Sending information through the cloud allows the MID Server to be used for more persistent resources.
--   **[Install MID-less Agent Client Collector manually in a macOS environment](../task/acc-install-ics-macos-manual.md)**  
+-   **[Install MID-less Agent Client Collector manually in a macOS environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-install-ics-macos-manual.md)**  
 Install MID-less Agent Client Collector manually on a macOS machine to enable sending data from the agent to the instance through the cloud. Sending information through the cloud allows the MID Server to be used for more persistent resources.
--   **[Install MID-less Agent Client Collector using a single-line command in a macOS environment](../task/acc-install-ics-macos.md)**  
+-   **[Install MID-less Agent Client Collector using a single-line command in a macOS environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-install-ics-macos.md)**  
 Install MID-less Agent Client Collector on a macOS machine to enable sending data from the agent to the instance through the cloud. Sending information through the cloud allows the MID Server to be used for more persistent resources.
 
-**Parent Topic:**[Configuring MID-less Agent Client Collector](acc-configuring-without-mid.md)
+**Parent Topic:**[Configuring MID-less Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-configuring-without-mid.md)
 

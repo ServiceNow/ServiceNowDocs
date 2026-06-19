@@ -2,6 +2,7 @@
 title: Configure finding rules
 description: Configure finding rules for your finding definition. Finding rules define what record criteria triggers your finding definitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/configure-finding-rule.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -27,7 +28,7 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Finding rule form](../reference/finding-rule-form.md).
+    For a description of the field values, see [Finding rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/finding-rule-form.md).
 
 4.  Right-click the form header, and select **Save** to save the finding rule record.
 
@@ -44,15 +45,15 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 In this example, a finding rule is created to find when someone requests an approval on an incident record, and that approval is approved by the same user. Because the **Duration min** field is set to one day, the rule only triggers when the approval is approved more than 24 hours after it was requested.
 
-![Example finding rule record](../image/finding-rule-example-new.png "Example of finding rule record")
+\[Omitted image "finding-rule-example-new.png"\] Alt text: Example finding rule record
 
 ## What to do next
 
--   Configure automated root cause analysis to find the root cause of undesired process behavior. For details on this feature. See [Automated root cause analysis](../concept/auto-rca.md).
--   Configure Automation Discovery to help you identify automation opportunities for your workflows. For details on this configuration, see [Automation Discovery](../../automation-discovery/concept/automation-discovery.md).
+-   Configure automated root cause analysis to find the root cause of undesired process behavior. For details on this feature. See [Automated root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/auto-rca.md).
+-   Configure Automation Discovery to help you identify automation opportunities for your workflows. For details on this configuration, see [Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics/automation-discovery.md).
 
--   Configure cluster analysis to group similar records into a cluster \(one group\) so you can identify patterns. For more detail on this configuration, see [Cluster analysis](../concept/cluster-analysis.md).
+-   Configure cluster analysis to group similar records into a cluster \(one group\) so you can identify patterns. For more detail on this configuration, see [Cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/cluster-analysis.md).
 
 
-**Parent Topic:**[Set rule-based finding definitions using Classic view](configure-finding-definition.md)
+**Parent Topic:**[Set rule-based finding definitions using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/configure-finding-definition.md)
 

@@ -2,6 +2,7 @@
 title: An entity in the workspace view
 description: The Entity form in the workspace provides a complete view of an entity across your organization. The Entity form is listed under the Library menu of the List view in the workspace. Select an entity in the list view so that you can display its overview, details, hierarchy, entity types, or downstream risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/entities-in-risk-ws.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -19,7 +20,7 @@ The Entity form in the workspace provides a complete view of an entity across yo
 
 The Entity form displays the details on the entity such as Compliance status, Risk status, and Tracking. The information about an entity is organized in different tabs such as Overview, Details, and Hierarchy as shown in the following example.
 
-![Entities overview page](../image/entities-overview-final.png "Overview tab on the Entity form")
+\[Omitted image "entities-overview-final.png"\] Alt text: Entities overview page
 
 The related lists on the Entity form display the dependencies that are related to the entities as explained in the following table:
 
@@ -217,10 +218,10 @@ Stakeholders with customizable roles relevant to single and composite entities, 
 </td></tr></tbody>
 </table>The 360° view displays an entire relationship view for the selected entity the upstream entities, downstream entities, entity class and entity type associated with the entity, and the relationships that the entity includes.
 
-![360 degree view of the entity](../image/360-degree-view-of-the-entity.png "360 degree view of the entity")
+\[Omitted image "360-degree-view-of-the-entity.png"\] Alt text: 360 degree view of the entity
 
--   **[Create an entity](../task/create-new-entity-ws.md)**  
+-   **[Create an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/create-new-entity-ws.md)**  
 Create an entity for your enterprise. In Governance, Risk, and Compliance, entities can be people, processes, departments, applications, or objects. These entities have controls that are defined to mitigate their exposure, and their audits must be completed.
 
-**Parent Topic:**[Exploring the entities](../../grc-common/concept/exploring-the-entities.md)
+**Parent Topic:**[Exploring the entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/exploring-the-entities.md)
 

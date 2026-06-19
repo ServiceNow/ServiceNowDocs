@@ -2,6 +2,7 @@
 title: Advanced Work Assignment monitoring page
 description: Administrators \(admin or awa\_admin\) can monitor Advanced Work Assignment activity by reviewing information on the Advanced Work Assignment Stats page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/awa-monitoring-page.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -77,5 +78,5 @@ The Advanced Work Assignment Stats page displays AWA performance statistics. Adm
 |Median Routing Time for Work Items|Median routing time of creating a work item for a given record and assigning it to the queue|
 |Total Routing Count of Work Items|Total number of work items routed to the queue from created records|
 
-**Parent Topic:**[Advanced Work Assignment reference](reference-awa.md)
+**Parent Topic:**[Advanced Work Assignment reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/reference-awa.md)
 

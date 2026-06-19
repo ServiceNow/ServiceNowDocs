@@ -2,6 +2,7 @@
 title: Migrate financial baselines of demands to Next Experience
 description: Migrate the financial baselines of demands to Next Experience to manage the financial using Project Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/demand-management/migrate-fin-baselines-demands.html
 release: zurich
 product: Demand Management
 classification: demand-management
@@ -23,14 +24,12 @@ Baselines view in the Next Experience provides better insights to view and analy
 
 Unlike the financial baselines created using Next Experience, the financial baselines created in the Classic UI don’t capture the actual expenses along with planned costs as a default behavior. To have relevant information for baselines comparison, the actual costs are captured as part of the baseline migration using the processed expense lines as of the baseline creation date of the financial baseline.
 
-For detailed information and use cases on using financials in Next Experience, see [Managing financials for planning items in Portfolio Planning](../../portfolio-planning/concept/using-financials-pp.md).
+For detailed information and use cases on using financials in Next Experience, see [Managing financials for planning items in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/using-financials-pp.md).
 
 **Note:** Starting March 2026 release, for customers using multicurrency, migration of financial baselines updates the baseline data in project currency to investment currency.
 
 1.  Existing demands that have only financial baselines but no investment baselines. With the migration, financial baseline will be migrated to investment baseline and you can view the migrated baseline from the `sn_invst_pln_invst_investment_baseline` table list view.
-2.  Existing demands that have both project and investment baselines, you need to run the scheduled job to populate the fields for investment currency in the baselines with the values from project currency. For more information, see [Activate scheduled job to populate to multicurrency fields](../../spw-financials/task/multi-currency-scheduled-job-spw.md).
-
-![Flow chart explaining the logical flow of migrating a financial baseline from classic to Next Experience.](../../pw-financials/images/fin_baseline_migration_logical_flow_no_background.png)
+2.  Existing demands that have both project and investment baselines, you need to run the scheduled job to populate the fields for investment currency in the baselines with the values from project currency. For more information, see [Activate scheduled job to populate to multicurrency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/multi-currency-scheduled-job-spw.md).
 
 ## Before you begin
 
@@ -44,15 +43,15 @@ Role required: it\_demand\_manager
 
 2.  Migrate baselines using one of the following options.
 
-<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d93985e164">
+<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d48205e156">
 
 Choice
 
-</th><th align="left" id="d93985e167">
+</th><th align="left" id="d48205e159">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d93985e173">
+</th></tr></thead><tbody><tr><td id="d48205e165">
 
 **Using list actions**
 
@@ -63,7 +62,7 @@ Description
 3.  Select **OK** on the Migrate Financial Baselines confirmation window.
 
 
-</td></tr><tr><td id="d93985e203">
+</td></tr><tr><td id="d48205e195">
 
 **Using related links**
 
@@ -73,7 +72,7 @@ Description
 2.  Select the **Migrate Financial Baselines** related link.
 
 
-</td></tr><tr><td id="d93985e224">
+</td></tr><tr><td id="d48205e216">
 
 **Activate a scheduled job**
 
@@ -83,7 +82,7 @@ Description
 2.  Filter the Name field to locate the **Migrate financial baselines to Next Experience** scheduled job and open it.
 3.  Select **Active** and on the Scheduled Script Execution form, fill the fields.
 
-For a description of the field names, see [Scheduled Script Execution Form](../../project-management/reference/scheduled-script-execution-form.md).
+For a description of the field names, see [Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/scheduled-script-execution-form.md).
 
 4.  Select **Update**.
 
@@ -94,11 +93,11 @@ For a description of the field names, see [Scheduled Script Execution Form](../.
 
 ## Result
 
-Financial baselines for the selected demands are migrated to Next Experience and you can view them in the [Baselines view](../../portfolio-planning/concept/using-financials-pp.md#section_bkp_g2l_2zb).
+Financial baselines for the selected demands are migrated to Next Experience and you can view them in the [Baselines view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/using-financials-pp.md).
 
 ## What to do next
 
-[View and compare the migrated baselines](../../portfolio-planning/task/create-compare-baselines-pp.md) with any existing baselines or current baseline \(![Flag icon to indicate current baseline.](../../spw-financials/images/fin-current-baseline-flag.png)\).
+[View and compare the migrated baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/create-compare-baselines-pp.md) with any existing baselines or current baseline \(\[Omitted image "fin-current-baseline-flag.png"\] Alt text: Flag icon to indicate current baseline.\).
 
-**Parent Topic:**[Create a demand](t_CreatingDemands.md)
+**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/t_CreatingDemands.md)
 

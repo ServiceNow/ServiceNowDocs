@@ -2,6 +2,7 @@
 title: Learn about domain separation
 description: Domain separation is supported for UI Builder . Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/uib-domain-sep.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -24,7 +25,7 @@ Domain separation is supported for UI Builder. Domain separation enables you to 
 
 Sample use case: An Admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## Overview of Domain Separation in UI Builder
 
@@ -44,7 +45,7 @@ If the current domain does not match the domain of the variant or dashboard, the
 
 The following diagram shows what is \(in green\) and is not \(in blue\) domain separated in UI Builder.
 
-![Diagram of what is, and what is not, domain separated in UI Builder.](../image/UIB-domain-separation-included.png)
+\[Omitted image "UIB-domain-separation-included.png"\] Alt text: Diagram of what is, and what is not, domain separated in UI Builder.
 
 Not shown in the diagram are viewports, declarative actions, and screen applicabilities, which are domain supported as process.
 
@@ -60,7 +61,7 @@ For items that are not domain separated, any change to the logic globally affect
 
 When designing a workspace, dashboard, or portal experience using the UI Builder \(including Dashboard Builder\), a system administrator or ui\_builder\_admin has access to a **Domain Selection** menu in UI Builder. A system administrator or ui\_builder\_admin should switch to the proper domain prior to creating, editing, or overriding a variant or dashboard page.
 
-By default, the ui\_builder\_admin role does not have access to the **Domain Selection** menu. The **Domain Selection** menu must be coupled with a role that grants access, such as ITIL, or it can be added via system property. For more information, see [Enable domain selection menus in Core UI](https://www.servicenow.com/docs/access?context=t_EnableDomainReferencePickerProperty&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+By default, the ui\_builder\_admin role does not have access to the **Domain Selection** menu. The **Domain Selection** menu must be coupled with a role that grants access, such as ITIL, or it can be added via system property. For more information, see .
 
 In addition, the **Domain Selection** menu also shows **Expand/Collapse Domain Scope**, that is displayed while the system administrator or ui\_builder\_admin is in Global. Select **Expand** to show any variant or dashboard that has been overridden, or exists as a standalone in a sub domain. Select **Collapse** to only show variants or dashboards created in Global.
 
@@ -84,7 +85,7 @@ After the override and the conditions and audiences are set, the content and con
 
 In addition, a user can access the domain hierarchy to view existing overrides from higher domains. For example, Global &lt;- Top &lt;- Acme &lt;- Current domain. If no overrides exist, the default variant or dashboard are displayed. The exception is if the default variant or dashboard is in a child domain or a peer domain.
 
-![Example overrides in domain separation.](../image/UIB-domnain-separation-example1.png)
+\[Omitted image "UIB-domnain-separation-example1.png"\] Alt text: Example overrides in domain separation.
 
 If you select **Expand Domain Scope** while in Global, all variants and overrides in sub domains are shown as previously mentioned.
 
@@ -98,10 +99,10 @@ Viewports are variants that can be nested in page definition content. They can b
 
 Declarative Actions can be overridden per domain as well. A system administrator or ui\_builder\_admin should select the appropriate domain prior to creating a domain specific declarative action override.
 
-**Parent Topic:**[Learning UI Builder](learning-uib.md)
+**Parent Topic:**[Learning UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/learning-uib.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

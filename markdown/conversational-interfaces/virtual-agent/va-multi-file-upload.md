@@ -2,6 +2,7 @@
 title: Multi File Upload utility
 description: Use the Multi File Upload utility to upload more than one file at a time in a Virtual Agent conversation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-multi-file-upload.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -130,7 +131,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 </td></tr></tbody>
 </table>## Example Multi File Upload utility
 
-![Multi File Upload utility properties.](../images/flow-designer-multi-file-upload-properties.png)
+\[Omitted image "flow-designer-multi-file-upload-properties.png"\] Alt text: Multi File Upload utility properties.
 
-**Parent Topic:**[Virtual Agent Designer utilities](va-utilities.md)
+**Parent Topic:**[Virtual Agent Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-utilities.md)
 

@@ -2,6 +2,7 @@
 title: Create a plan type
 description: Create the communication plan type and specify whether the plan type is applicable globally or to a particular table. When you create the communication plan type, it is referenced in the communication plan definition. The type of the communication plan helps you to filter the plan by its type, generate a report of a particular plan type, or create SLAs for any communication plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/task-communications-management/define-plan-type.html
 release: zurich
 product: Task Communications Management
 classification: task-communications-management
@@ -42,5 +43,5 @@ Role required: sn\_comm\_management.comm\_plan\_admin or admin
 
 Define a communication plan.
 
-**Parent Topic:**[Working with Task Communications Management](../concept/working-with-tcm.md)
+**Parent Topic:**[Working with Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/task-communications-management/working-with-tcm.md)
 

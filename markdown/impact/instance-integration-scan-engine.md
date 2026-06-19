@@ -2,7 +2,10 @@
 title: Scan Engine integrations
 description: You can integrate the Scan Engine into a variety of processes, such as the syncing of definitions or exception reasons, as well as integrating with your existing agile project management systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/instance-integration-scan-engine.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-10-20"
 reading_time_minutes: 2
@@ -32,7 +35,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Definitions integration](definitions-integrations.md)
+[Definitions integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/definitions-integrations.md)
 
 </td><td>
 
@@ -40,7 +43,7 @@ Allows users to synchronize definition overrides and custom definitions between 
 
 </td></tr><tr><td>
 
-[Exception reason integration](../task/exception-reason-integration.md)
+[Exception reason integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/exception-reason-integration.md)
 
 </td><td>
 
@@ -49,7 +52,7 @@ Allows users to synchronize definition overrides and custom definitions between 
 
 </td></tr><tr><td>
 
-[User story integration](user-story-integration-properties.md)
+[User story integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/user-story-integration-properties.md)
 
 </td><td>
 
@@ -60,7 +63,7 @@ Creates tasks for findings from a ServiceNow instance to:-   ServiceNow producti
 
 </td></tr><tr><td>
 
-[Update set integration](update-set-integration.md)
+[Update set integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/update-set-integration.md)
 
 </td><td>
 
@@ -68,7 +71,7 @@ Synchronizes update set summary scans to the production instance from instances 
 
 </td></tr><tr><td>
 
-[AES/AEMC integration properties](../task/aes-aemc-integration-properties.md)
+[AES/AEMC integration properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/aes-aemc-integration-properties.md)
 
 </td><td>
 

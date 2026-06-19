@@ -2,6 +2,7 @@
 title: Track the progress of a portfolio
 description: After confirming a scenario to complete planning of your portfolio, track the progress of the portfolio. You can also monitor the status of cost, resource, schedule, and scope for the selected fiscal period or planning window for the portfolio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-management/track-portfolio.html
 release: zurich
 product: Portfolio Management
 classification: portfolio-management
@@ -23,15 +24,15 @@ Role required: it\_portfolio\_manager
 
 1.  Navigate to Portfolio Planning Workbench from either of two starting points.
 
-<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d277043e71">
+<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d76958e71">
 
 Location
 
-</th><th align="left" id="d277043e74">
+</th><th align="left" id="d76958e74">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d277043e80">
+</th></tr></thead><tbody><tr><td id="d76958e80">
 
 **From application navigator**
 
@@ -41,7 +42,7 @@ Steps
 2.  From the **Portfolio** choice list, select the portfolio that you want to perform the planning for.
 
 
-</td></tr><tr><td id="d277043e116">
+</td></tr><tr><td id="d76958e116">
 
 **From the portfolio list**
 
@@ -60,14 +61,14 @@ Steps
 3.  Track the progress of your portfolio by reviewing the status of key parameters in the **Timeline View** tab.
 
     -   Details such as planned and actual costs, variance, planned and end dates, and priorities for the selected demands and projects.
-    -   Identify the projects that are dependent on each other by viewing external dependencies between projects in a portfolio. For more information, see [Review external dependencies between projects](sp-review-ext-dependencies-between-prj.md).
+    -   Identify the projects that are dependent on each other by viewing external dependencies between projects in a portfolio. For more information, see [Review external dependencies between projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-management/sp-review-ext-dependencies-between-prj.md).
     -   Track the current status of an individual project by viewing the latest project status report by selecting the **Status Report** option.
     -   Track the progress of project tasks in an individual project in your portfolio using the **Planning Console** option. This option is available in the context menu for a project.
 4.  Check status information such as the overall health, schedule, cost, resources, and scope of all selected projects in the portfolio in the **Project KPIs** tab.
 
     The most recent status report created for a project populates this information. Point to a status indicator to view comments entered by the project manager for that KPI.
 
-    **Note:** A grey X icon \(![No comments icon](../image/grey_icon.png)\) next to any project KPI indicates that the project manager has not entered any comments for that aspect in the status report.
+    **Note:** A grey X icon \(\[Omitted image "grey\_icon.png"\] Alt text: No comments icon\) next to any project KPI indicates that the project manager has not entered any comments for that aspect in the status report.
 
 5.  Review cost and resource-related information in the **Cost \(Budget vs. Actual\)** and **Resource \(Allocated vs. Actual\)** charts.
 
@@ -81,5 +82,5 @@ Steps
 6.  Track the risks, issues, decisions, actions, and the project change requests across all selected projects in the portfolio by going to the **Risks**, **Issues**, **Decisions**, **Actions**, and **Changes** tabs.
 
 
-**Parent Topic:**[Scenario Planning for PPM](../concept/portfolio-planning-overview.md)
+**Parent Topic:**[Scenario Planning for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-management/portfolio-planning-overview.md)
 

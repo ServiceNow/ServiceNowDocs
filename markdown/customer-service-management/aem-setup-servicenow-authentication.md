@@ -2,7 +2,10 @@
 title: Configuring authentication settings for ServiceNow services and components in AEM
 description: Enable logging in to both the Adobe Experience Manager \(AEM\) instance of your website and the ServiceNow instance using a third-party OpenID Connect \(OIDC\) provider that supports both OIDC and single sign-on \(SSO\) protocols.Register ServiceNow as a web application with a third-party OIDC provider to validate the identity of a user using a JSON Web Token \(JWT\).Add a third-party OIDC provider service to your ServiceNow instance to verify the identity of end users.Configure the third-party OIDC provider details in your Adobe Experience Manager \(AEM\) instance to access the ServiceNow components as an authenticated user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/aem-setup-servicenow-authentication.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 4
@@ -105,7 +108,7 @@ Add a third-party OIDC provider service to your ServiceNow instance to verify th
 
 ### Before you begin
 
-You must have configured the third-party OIDC provider service as an OAuth provider and recorded your **Client ID** and **Client secret** values. For more information, see [Register ServiceNow with a third-party OIDC provider](aem-setup-servicenow-authentication.md#).
+You must have configured the third-party OIDC provider service as an OAuth provider and recorded your **Client ID** and **Client secret** values. For more information, see [Register ServiceNow with a third-party OIDC provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/aem-setup-servicenow-authentication.md).
 
 Role required: oauth\_admin
 
@@ -118,7 +121,7 @@ Role required: oauth\_admin
     -   Click **New**, select **Configure an OIDC provider to verify ID tokens**, and then fill in the Application Registries form.
     -   Select an existing template for your OIDC provider \(Okta or Microsoft Azure\), and then either accept the default values in the Application Registries form or modify them.
 
-        **Note:** OIDC provider templates are available after loading demo data with the OAuth 2.0 plugin. For more information, see [Configure an OAuth OIDC provider](https://www.servicenow.com/docs/access?context=add-OIDC-entity&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+        **Note:** OIDC provider templates are available after loading demo data with the OAuth 2.0 plugin. For more information, see Configure an OAuth OIDC provider.
 
 <table id="table_zfw_cyj_vkb"><thead><tr><th>
 
@@ -174,7 +177,7 @@ Configure the third-party OIDC provider details in your Adobe Experience Manager
 
 ### Before you begin
 
-You must have configured the third-party OIDC provider service as an OAuth provider and recorded your **Client ID** and **Client secret** values \(see [Register ServiceNow with a third-party OIDC provider](aem-setup-servicenow-authentication.md#)\).
+You must have configured the third-party OIDC provider service as an OAuth provider and recorded your **Client ID** and **Client secret** values \(see [Register ServiceNow with a third-party OIDC provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/aem-setup-servicenow-authentication.md)\).
 
 Role required: AEM administrator
 

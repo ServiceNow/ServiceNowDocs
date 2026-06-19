@@ -2,6 +2,7 @@
 title: Add tags to PaCE policies
 description: Add or create policy tags on-the-fly for any PaCE policy, including currently Active policies. Tags enable you to manage policies more efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/policy-as-code-engine-pace/pace-add-tags-policies.html
 release: zurich
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
@@ -33,7 +34,7 @@ Role required: sn\_pace.admin
 
 4.  In the **Add Tag** field, enter the required tag.
 
-    ![Policy dialog and tag icon.](../image/pace-tag-icon-2.jpg)
+    \[Omitted image "pace-tag-icon-2.jpg"\] Alt text: Policy dialog and tag icon.
 
 5.  Press **Enter** to add the tag.
 

@@ -2,6 +2,7 @@
 title: Sort your search results
 description: Sort your community search results to narrow down the content displayed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/communities/sort.html
 release: zurich
 product: Communities
 classification: communities
@@ -36,5 +37,5 @@ The search results are sorted according to **Relevance** by default.
 4.  To display the results in ascending order, click **Newest**.
 
 
-**Parent Topic:**[Search the community](search.md)
+**Parent Topic:**[Search the community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/search.md)
 

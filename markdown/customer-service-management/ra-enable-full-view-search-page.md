@@ -2,7 +2,10 @@
 title: Enable full view search for Recommended Actions in a configurable workspace
 description: The full view search feature displays the AI search results in a new subtab with an expanded view. Use the following information to enable this feature in any configurable workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ra-enable-full-view-search-page.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -45,7 +48,7 @@ Use the following steps to define the full view search page in a configurable wo
 
 2.  Create a new page with the following URL path: **ra-expanded-search**.
 
-    This is the path that you will use in the above script to open the full view search page. For more information, see [Create a blank page](https://www.servicenow.com/docs/access?context=learn-by-example-create-blank-page&version=zurich&pubname=zurich-application-development&ft:locale=en-US) in the UI Builder documentation.
+    This is the path that you will use in the above script to open the full view search page. For more information, see Create a blank page in the UI Builder documentation.
 
 3.  Select the following required parameters for the page.
 

@@ -2,6 +2,7 @@
 title: View CI health in Metric Explorer
 description: View the health and performance of an alert's CI using Metric Explorer, to help troubleshoot problematic areas in the CI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/view-metric-explorer.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -39,7 +40,7 @@ Metrics are displayed only for alerts containing a CI.
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the navigation bar, select the List icon: ![List icon](../image/list-icon-sow-itom.png).
+2.  From the navigation bar, select the List icon: \[Omitted image "list-icon-sow-itom.png"\] Alt text: List icon.
 
 3.  Select **Lists** &gt; **Alerts** &gt; **All Alerts**.
 
@@ -53,7 +54,7 @@ Metrics are displayed only for alerts containing a CI.
 
 6.  Select the **Metric explorer** button.
 
-    The **Metric explorer** interface opens. ![Metric explorer interface.](../image/metric-explorer.png)
+    The **Metric explorer** interface opens. \[Omitted image "metric-explorer.png"\] Alt text: Metric explorer interface.
 
     **Note:** You can also access the **Metrics** subtab and **Metric Explorer** button when selecting a CI.
 
@@ -71,7 +72,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-![Metrics on the current CI icon.](../image/metrics-on-this-ci-icon.png)
+\[Omitted image "metrics-on-this-ci-icon.png"\] Alt text: Metrics on the current CI icon.
 
 </td><td>
 
@@ -79,7 +80,7 @@ Displays metrics on the current CI.
 
 </td></tr><tr><td>
 
-![Metrics on other CIs from the same host icon.](../image/metrics-other-ci-icon.png)
+\[Omitted image "metrics-other-ci-icon.png"\] Alt text: Metrics on other CIs from the same host icon.
 
 </td><td>
 
@@ -87,7 +88,7 @@ Displays metrics on other CIs on the same host.
 
 </td></tr><tr><td>
 
-![Metrics from impacted services icon.](../image/metrics-impacted-services-icon.png)
+\[Omitted image "metrics-impacted-services-icon.png"\] Alt text: Metrics from impacted services icon.
 
 </td><td>
 
@@ -98,8 +99,8 @@ Displays metrics on entry points that relate to the service that the CI is impac
 
 9.  Label alerts on the Custom chart by turning on the **Show alerts on CI** option.
 
-    An alert icon \(![Alert icon](../../event-management/image/alert-icon.png)\) appears at the top of the graph at the point where the alert occurred.
+    An alert icon \(\[Omitted image "alert-icon.png"\] Alt text: Alert icon\) appears at the top of the graph at the point where the alert occurred.
 
-    ![Alert indicator on graph](../image/alert-on-CI.png)
+    \[Omitted image "alert-on-CI.png"\] Alt text: Alert indicator on graph
 
 

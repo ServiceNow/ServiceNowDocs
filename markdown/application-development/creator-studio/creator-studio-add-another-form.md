@@ -2,6 +2,7 @@
 title: Add more forms to an app in Creator Studio
 description: Add as many forms as you need to create catalog items for your app. For example, you could have an office booking app with three different forms: one for requesting parking spaces, one for requesting a desk, and one for reserving conference rooms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/creator-studio/creator-studio-add-another-form.html
 release: zurich
 product: Creator Studio
 classification: creator-studio
@@ -31,7 +32,7 @@ To add forms to an app, you must be given permission to work on the app.
 
 3.  Select **+ Add form** in the navigation panel.
 
-    ![Select Add form link in the navigation panel](../image/crs-forms-add-form-another.png "Add a form")
+    \[Omitted image "crs-forms-add-form-another.png"\] Alt text: Select Add form link in the navigation panel
 
 4.  Select the catalog template that you want to use to build the form from the list.
 
@@ -39,7 +40,7 @@ To add forms to an app, you must be given permission to work on the app.
 
 6.  Choose how you want to build the form:
 
-    -   To use Now Assist, stay on the **Build with Now Assist** tab and enter directions to provide a description for the form you want. To learn more, see [Generating forms with Now Assist](../concept/creator-studio-text-to-form.md).
+    -   To use Now Assist, stay on the **Build with Now Assist** tab and enter directions to provide a description for the form you want. To learn more, see [Generating forms with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-text-to-form.md).
 
         **Note:** You can select **Try an example** to see some examples of the available directions. To see a quick mock up of what the form will look like, select the **Generate form preview** button. If you want a different form, change the provided direction and select **Regenerate preview** for a quick look.
 
@@ -60,7 +61,7 @@ To add forms to an app, you must be given permission to work on the app.
 
 ## What to do next
 
-Next, you can edit the form to populate its questions and customize its layout. For more information, see [Customize your form for an app in Creator Studio](creator-studio-edit-form.md).
+Next, you can edit the form to populate its questions and customize its layout. For more information, see [Customize your form for an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-edit-form.md).
 
-**Parent Topic:**[Working with forms in Creator Studio](../concept/creator-studio-work-with-forms.md)
+**Parent Topic:**[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-work-with-forms.md)
 

@@ -2,6 +2,7 @@
 title: Inbound invoice payment fields
 description: The Inbound invoice payment details needed for a supplier to complete the transaction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/inbound-invoice-payment-fields.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -32,5 +33,5 @@ The Inbound invoice payment details needed for a supplier to complete the transa
 |ERP Source|The available ERP|String|
 |Currency|Standard of amount exchangedin Currency Code ISO 4217 format \(USD, GBP, INR, etc\)|String|
 
-**Parent Topic:**[Inbound Invoice Fields](inbound-invoice-fields.md)
+**Parent Topic:**[Inbound Invoice Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/inbound-invoice-fields.md)
 

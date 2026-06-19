@@ -2,6 +2,7 @@
 title: Access Analyzer Debug logs
 description: Debug logs display the details of the select access result operation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/access-analyzer-logs.html
 release: zurich
 product: Access Control
 classification: access-control
@@ -19,7 +20,7 @@ Debug logs display the details of the select access result operation.
 
 The Debug logs in the Access Analyzer displays information about the selected operation to understand the permissions, business rules, and ACLs associated with the operation.
 
-![Fields in the Debug log](../images/access-analyzer-logs-details.png)
+\[Omitted image "access-analyzer-logs-details.png"\] Alt text: Fields in the Debug log
 
 Following are the fields and their description in the Debug logs:
 

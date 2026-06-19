@@ -2,6 +2,7 @@
 title: Restrict access
 description: Service Catalog enables an administrator to grant or deny access to a service catalog item or category by company, department, group, user, or location.By default, individual catalog items and categories do not have access restrictions.Service Catalog enables you to control access to a service catalog item or category with a custom script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/t\_ContrlAccessByCDGUOrLoc.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -25,16 +26,16 @@ Role required: admin
 
 2.  Open the relevant catalog item or category.
 
-3.  [Configure the form](https://www.servicenow.com/docs/access?context=configure-form-layout&version=zurich&pubname=zurich-platform-administration&section=t_ConfigureAForm&ft:locale=en-US) to add the appropriate **Available** or **Not available** lists.
+3.  Configure the form to add the appropriate **Available** or **Not available** lists.
 
-    ![access control](../image/AccessControl.png "Access Control")
+    \[Omitted image "AccessControl.png"\] Alt text: access control
 
 4.  Add the companies, departments, groups, users, or locations to the appropriate list.
 
 5.  Click **Update**.
 
 
-**Parent Topic:**[Legacy service catalog access controls](../concept/c_LegcySrvcCatAccessCntrol.md)
+**Parent Topic:**[Legacy service catalog access controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_LegcySrvcCatAccessCntrol.md)
 
 ## Restrict access by role
 
@@ -56,9 +57,9 @@ Administrators can grant or deny access to a service catalog item or category ba
 
 3.  Add the required roles to the **Roles** field.
 
-    You can, if needed, [Configure the form](https://www.servicenow.com/docs/access?context=configure-form-layout&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) or change to **Default View** to see the **Roles** field.
+    You can, if needed, Configure the form or change to **Default View** to see the **Roles** field.
 
-    ![roles granted](../image/RolesGranted.png "Roles Granted")
+    \[Omitted image "RolesGranted.png"\] Alt text: roles granted
 
 
 ## Restrict access by a script
@@ -75,9 +76,9 @@ Role required: admin
 
 2.  Open the relevant catalog item or category.
 
-3.  [Configure the form](https://www.servicenow.com/docs/access?context=configure-form-layout&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) to add the **Entitlement Script** field.
+3.  Configure the form to add the **Entitlement Script** field.
 
-    ![entitlement script](../image/EntitlementScript.png "Entitlement Script")
+    \[Omitted image "EntitlementScript.png"\] Alt text: entitlement script
 
 4.  In the **Entitlement Script** field, enter the access control script.
 

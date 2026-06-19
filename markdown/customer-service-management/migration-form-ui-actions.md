@@ -2,7 +2,10 @@
 title: UI Action Bar
 description: Learn how the Workspace UI Actions component functions with Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/migration-form-ui-actions.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -21,5 +24,5 @@ UI actions include custom buttons, menu items, and limiting access to forms base
 
 To migrate UI actions, each UI action must have a corresponding form action to use UI actions in Configurable Workspace.
 
-For more information, see [Set up a form action in Configurable Workspace](../task/config-csm-config-ws-form-action.md).
+For more information, see [Set up a form action in Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-csm-config-ws-form-action.md).
 

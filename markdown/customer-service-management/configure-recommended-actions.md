@@ -2,7 +2,10 @@
 title: Configuring the Recommended Actions application
 description: As an admin, configure the Recommended Actions application to display relevant actions to your agents based on a record context.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-recommended-actions.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -27,7 +30,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Create a context](../task/ra-csm-contexts-create.md)
+[Create a context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ra-csm-contexts-create.md)
 
 </td><td>
 
@@ -35,7 +38,7 @@ A context enables agents to see recommendations for records from a specific tabl
 
 </td></tr><tr><td>
 
-[Create a context input](../task/ra-csm-create-context-inputs.md)
+[Create a context input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ra-csm-create-context-inputs.md)
 
 </td><td>
 
@@ -43,7 +46,7 @@ A context input enables you to associate entities beyond just the context table 
 
 </td></tr><tr><td>
 
-[Create a rule for a context](../task/ra-csm-rules-create.md)
+[Create a rule for a context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ra-csm-rules-create.md)
 
 </td><td>
 
@@ -58,7 +61,7 @@ A rule is a set of conditions that applies to a context and determines when a re
 
 </td></tr><tr><td>
 
-[Create a recommendation for a rule](../task/ra-csm-recommendations-create.md)
+[Create a recommendation for a rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ra-csm-recommendations-create.md)
 
 </td><td>
 
@@ -110,13 +113,13 @@ Field recommendation
 A recommended value to use for a field. For example, this type of action can recommend the assignment group based on the text in the case short description.
 
 </td></tr></tbody>
-</table>For more information, see [Creating guidance and field recommendation in Recommended Actions](ra-csm-config-recommendations.md).
+</table>For more information, see [Creating guidance and field recommendation in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ra-csm-config-recommendations.md).
 
 ## Resource generators
 
-Configure resource generators to provide information that you can use as inputs to actions such as guidances and field recommendations. Configuration of decision trees don’t require resource generators. For more information, see [Create a resource generator in Recommended Actions](../task/ra-csm-resource-generators-create.md).
+Configure resource generators to provide information that you can use as inputs to actions such as guidances and field recommendations. Configuration of decision trees don’t require resource generators. For more information, see [Create a resource generator in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ra-csm-resource-generators-create.md).
 
 ## Arbitration parameters
 
-Configure arbitration parameters to determine the frequency of issues or the priority order of the recommended actions so that agents get the guidance that they must help resolve customer issues. For more information, see [Configure the arbitration parameters in Recommended Actions](configure-nba-arbitration-param.md).
+Configure arbitration parameters to determine the frequency of issues or the priority order of the recommended actions so that agents get the guidance that they must help resolve customer issues. For more information, see [Configure the arbitration parameters in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-nba-arbitration-param.md).
 

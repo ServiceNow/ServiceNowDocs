@@ -2,6 +2,7 @@
 title: Use case: Modifying layout text with SLDS styles
 description: Learn how to implement styles in the Salesforce Lightning Design System to control the appearance of text.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/use\_case\_modifying\_layout\_text\_with\_slds\_styles.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,21 +22,21 @@ Due to the lack of complete support, utilizing an SLDS class will affect everyth
 
 If we want to make a header using SLDS, the first step is to identify which field\(s\) you want a header for, and make sure theyʼre displayed in the layout. Then, from the layout screen, navigate to the field and remove its label. This will leave you with just the fieldʼs variable name.
 
-![Graphics card](../images/cpq-layout-field-label-removed.png)
+\[Omitted image "cpq-layout-field-label-removed.png"\] Alt text: Graphics card
 
 Next, create a new text field and give it some text. This new field will be placed above the existing field and essentially act as its “header”. Place it in the layout and remove its label. Your layout should resemble this example.
 
 **Note:** Instead of creating a new field, you can also just add text directly to the layout. In the image below, you would click the down arrow to create the text. However, unlike when using fields, you wouldnʼt be able to conditionally hide the text.
 
-![graphics card](../images/cpq-layout-field-new-no-label.png)
+\[Omitted image "cpq-layout-field-new-no-label.png"\] Alt text: graphics card
 
 Finally, in the layout, hover over the new field you created that will act as the header, and click the gear to bring up the Field Properties. For Class Name, add the desired SLDS class. In this example, we have used `slds-text-heading_large`.
 
-![Fieldproperties](../images/cpq-layout-field-properties.png)
+\[Omitted image "cpq-layout-field-properties.png"\] Alt text: Fieldproperties
 
 Redeploy your blueprint and youʼre done. Open an applicable product in the configurator to see the result.
 
-![Graphics card](../images/cpq-layout-custom-headings.png)
+\[Omitted image "cpq-layout-custom-headings.png"\] Alt text: Graphics card
 
-**Parent Topic:**[Use cases](use-cases.md)
+**Parent Topic:**[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/use-cases.md)
 

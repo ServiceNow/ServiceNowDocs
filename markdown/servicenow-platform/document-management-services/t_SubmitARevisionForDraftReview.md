@@ -2,6 +2,7 @@
 title: Submit a revision for draft review
 description: Submit a document draft for review.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/t\_SubmitARevisionForDraftReview.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -42,5 +43,5 @@ When a draft of the document is ready, submit the draft for review. If the docum
     The document name and parameters are changed to read-only. The document state is set to Active.
 
 
-**Parent Topic:**[Create a document](../concept/c_CreateADocument.md)
+**Parent Topic:**[Create a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/c_CreateADocument.md)
 

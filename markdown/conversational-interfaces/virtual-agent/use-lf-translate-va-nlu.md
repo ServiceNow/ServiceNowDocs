@@ -2,6 +2,7 @@
 title: Localize Virtual Agent topics that use NLU topic discovery
 description: Use the ServiceNow Localization Framework to manage the process of localizing Virtual Agent conversations that use Natural Language Understanding \(NLU\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/use-lf-translate-va-nlu.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Use the ServiceNow Localization Framework to manage the process of localizing Vi
 
 ## Before you begin
 
-Check the prerequisites for translating Virtual Agent components. For more information, see [Localizing Virtual Agent conversations](../concept/localize-va-topic.md).
+Check the prerequisites for translating Virtual Agent components. For more information, see [Localizing Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/localize-va-topic.md).
 
 Make sure that your Virtual Agent topics are published and performing the way you want them to. Make any adjustments before you send them to localization.
 
@@ -37,7 +38,7 @@ Role required: virtual\_agent\_admin or admin
 
     The translation status of each topic in the chosen language displays on the page. Select a topic name to open the topic in Virtual Agent Designer, view or edit translations, or test translated content. The **Topic translation status** column shows the current status of the topic in the localization process.
 
-    ![The Manage languages page displaying the topic and their associated NLU models with topic translation status, translations, test, and NLU intent.](../images/va-loc-manage-languages-page.png "Manage languages page")
+    \[Omitted image "va-loc-manage-languages-page.png"\] Alt text: The Manage languages page displaying the topic and their associated NLU models with topic translation status, translations, test, and NLU intent.
 
     If the **Topic translation status** column shows **Needs publishing**, you must publish the topic before you can submit it for translation.
 
@@ -47,14 +48,14 @@ Role required: virtual\_agent\_admin or admin
 
     -   Select the check boxes for the topics you want to translate, and then click **Request topic translations**. When prompted, confirm your choice.
 
-        A translation record is created, and the translation status changes to **In progress**. The translation task is assigned to a user with the localization fulfiller role. For information about the fulfillment process in the Localization Framework, see [Fulfill a localization task](https://www.servicenow.com/docs/access?context=fulfill-localization-task&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+        A translation record is created, and the translation status changes to **In progress**. The translation task is assigned to a user with the localization fulfiller role. For information about the fulfillment process in the Localization Framework, see Fulfill a localization task.
 
         **Note:** If a topic is already in localization, the corresponding check box is not available.
 
-    -   [Edit translations directly.](edit-translations-va-topics.md)
+    -   [Edit translations directly.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/edit-translations-va-topics.md)
 6.  Click **Manage NLU translations**.
 
-    The model opens in NLU Workbench. Request translations for your model group. For more information, see [Translate a multilingual model](https://www.servicenow.com/docs/access?context=translate-multilingual-model&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+    The model opens in NLU Workbench. Request translations for your model group. For more information, see Translate a multilingual model.
 
 
 ## Result
@@ -65,14 +66,14 @@ Once translations are published, they are made available to Virtual Agent topics
 
 ## What to do next
 
-You may need to [map a topic to secondary models or a language-specific model](map-nlu-language-model.md).
+You may need to [map a topic to secondary models or a language-specific model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/map-nlu-language-model.md).
 
-When translations are done, you can [test localized NLU models](test-nlu-language-model.md).
+When translations are done, you can [test localized NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/test-nlu-language-model.md).
 
--   **[Map a topic to a secondary NLU model](map-nlu-language-model.md)**  
+-   **[Map a topic to a secondary NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/map-nlu-language-model.md)**  
 Map a Virtual Agent topic to a secondary model in the model group or to a standalone, single-language NLU model for each supported language.
--   **[Test topic and NLU model translations](test-nlu-language-model.md)**  
+-   **[Test topic and NLU model translations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/test-nlu-language-model.md)**  
 Test a translated Virtual Agent topic and the localized NLU model to ensure that it works as expected in a conversation.
 
-**Parent Topic:**[Localizing Virtual Agent conversations](../concept/localize-va-topic.md)
+**Parent Topic:**[Localizing Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/localize-va-topic.md)
 

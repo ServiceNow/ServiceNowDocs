@@ -2,6 +2,7 @@
 title: Portal Object widget
 description: The Portal Object widget displays key information of a record from the tables available on your ServiceNow instance. Additionally, your users can take related actions on the selected record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-object-widget.html
 release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -19,7 +20,7 @@ The Portal Object widget enables you to display information from a specified tab
 
 The Portal Object widget currently supports both desktop and mobile versions.
 
-![Portal Object widget displaying information and related actions for a record.](../image/port-object.png "Portal Object widget")
+\[Omitted image "port-object.png"\] Alt text: Portal Object widget displaying information and related actions for a record.
 
-For more information about how to configure the Portal Object widget, see [Add and configure the Portal Object widget](../task/add-conf-port-object-widget.md).
+For more information about how to configure the Portal Object widget, see [Add and configure the Portal Object widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/add-conf-port-object-widget.md).
 

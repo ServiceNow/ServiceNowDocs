@@ -2,6 +2,7 @@
 title: Create a flow definition for a remote table
 description: Build and create a flow for a remote table so that you can retrieve data from an external source with it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/remote-tables/create-remote-table-flow.html
 release: zurich
 product: Remote Tables
 classification: remote-tables
@@ -122,8 +123,8 @@ Option to select the enhanced capacity to support more than 1000 rows in a remot
 5.  Click **Submit**.
 
 
--   **[Define a flow logic](define-flow.md)**  
+-   **[Define a flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/remote-tables/define-flow.md)**  
 Set the triggers and actions to define a remote table flow logic.
 
-**Parent Topic:**[Remote tables](../concept/remote-tables.md)
+**Parent Topic:**[Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/remote-tables/remote-tables.md)
 

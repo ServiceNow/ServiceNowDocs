@@ -2,6 +2,7 @@
 title: Project Portfolio Management Platform Analytics Solutions
 description: Platform Analytics Solutions contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/ppm-collaboration/project-portfolio-content-pack.html
 release: zurich
 product: PPM Collaboration
 classification: ppm-collaboration
@@ -15,7 +16,7 @@ breadcrumb: [Project Portfolio Management, Strategic Portfolio Management]
 
 Platform Analytics Solutions contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 
-Platform Analytics data visualizations use Performance Analytics [indicator](https://www.servicenow.com/docs/access?context=now-platform-glossary&version=zurich&pubname=zurich-glossary&section=gloss-indicator&ft:locale=en-US) data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
+Platform Analytics data visualizations use Performance Analytics indicator data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
 
 To enable the solution for Project Portfolio Management, log in as an admin and navigate to **Performance Analytics** &gt; **Guided Setup**. Click **Get Started**, then scroll to the section for PPM Standard Dashboards. The guided setup takes you through the entire setup and configuration process.
 
@@ -43,15 +44,15 @@ In some solutions, System Administrator is the **Run As** user for data collecti
 
 This solution replaces the Project Portfolio Suite \(com.snc.pa.ppm\) Solution. If you activated an earlier version of the solution and then upgraded your instance, you still have and can still use the earlier solution. You can also activate the newer version without losing data from existing indicators and breakdowns. If you activate the newer version, run a historical data collection job to populate new indicators and breakdowns for the Time Sheet dashboard.
 
--   **[PMO dashboard](pmo-dashboard.md)**  
+-   **[PMO dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/pmo-dashboard.md)**  
 The PMO dashboard provides comprehensive reports to the portfolio and program managers. The dashboard uses Platform Analytics to provide a trend of historical data as well as regular reports. It gives an overview of your investments, provides a pipeline view of upcoming intake and a calendar view of upcoming dates.
--   **[Analytics Time sheet](time-sheet-dashboard.md)**  
+-   **[Analytics Time sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/time-sheet-dashboard.md)**  
 The Analytics Time sheet provides comprehensive time sheet activities and reports to the time card approvers and time card users. The dashboard uses Performance Analytics to provide a trend of historical data and regular reports. It gives an overview of the time sheet activities of resources, time sheet approval and rejection rate, over-allocated and under-allocated resource counts.
 
-**Parent Topic:**[Project Portfolio Management](../../../product/project-portfolio-suite/concept/c_ProjectPortfolioSuite.md)
+**Parent Topic:**[Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md)
 
 **Related topics**  
 
 
-[Activate your Performance Analytics subscription](https://www.servicenow.com/docs/access?context=c_PremiumPerformanceAnalytics&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US)
+[bundle-par.c_PremiumPerformanceAnalytics]
 

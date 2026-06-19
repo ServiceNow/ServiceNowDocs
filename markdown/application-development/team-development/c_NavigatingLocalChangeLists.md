@@ -2,6 +2,7 @@
 title: Local change lists
 description: On the team dashboard, the local changes list shows the local changes that haven’t been queued for the next push or ignored for all pushes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/c\_NavigatingLocalChangeLists.html
 release: zurich
 product: Team Development
 classification: team-development

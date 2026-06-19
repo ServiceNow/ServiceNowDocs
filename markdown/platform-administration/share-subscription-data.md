@@ -2,6 +2,7 @@
 title: Share subscription data from another instance
 description: View subscription data from another instance by enabling data sharing on that instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/share-subscription-data.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -21,7 +22,7 @@ Role required: usage\_admin, sn\_sub\_man.admin, or admin
 
 By default, data sharing is restricted between production instances, which means you can't see subscription data for other production instances in Subscription Management. To view subscription data from another production instance, modify the trust configuration settings on that instance.
 
-For more information about modifying the trust configuration for an instance, see [Basic trust configuration for data sync applications](../../core-configuration/concept/grant-access-other-instances.md).
+For more information about modifying the trust configuration for an instance, see [Basic trust configuration for data sync applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/grant-access-other-instances.md).
 
 **Note:** Subscription data from a non-production instance is only viewable from a production instance.
 
@@ -46,5 +47,5 @@ Subscription data is shared with your primary production instance.
 
 Log in to your primary production instance to view the subscription data that is now shared with that instance. Repeat these steps for each additional production instance that has subscription data that you want to view from the primary production instance.
 
-**Parent Topic:**[Configuring Subscription Management](../concept/configuring-subscription-management-v2.md)
+**Parent Topic:**[Configuring Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/configuring-subscription-management-v2.md)
 

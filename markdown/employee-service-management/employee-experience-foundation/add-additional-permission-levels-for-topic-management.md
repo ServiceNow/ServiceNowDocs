@@ -2,6 +2,7 @@
 title: Configure additional permission levels for topic management
 description: Experience decentralized management of topics by configuring two new permission levels, topic manager and topic contributor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/add-additional-permission-levels-for-topic-management.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -32,7 +33,7 @@ Use distributed topic management by establishing two new user criteria, **Topic 
 
 ## Result
 
-Admins can configure additional permission levels to delegate topic management level tasks to these two user criteria. For more information on these two user criteria, see [Topic managers and contributors for topic page management](../concept/topic-managers-and-contributors-for-topic-page-management.md).
+Admins can configure additional permission levels to delegate topic management level tasks to these two user criteria. For more information on these two user criteria, see [Topic managers and contributors for topic page management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/topic-managers-and-contributors-for-topic-page-management.md).
 
 ## What to do next
 

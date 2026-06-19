@@ -2,6 +2,7 @@
 title: Credential affinity for Discovery and Orchestration
 description: Credential affinity is an association between a set of credentials and a device on your network.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/connections-and-credentials/c\_CredentialAffinity.html
 release: zurich
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -17,7 +18,7 @@ Credential affinity is an association between a set of credentials and a device 
 
 When Discovery or Orchestration first attempts to access a device, they try all available credentials until they find the correct ones. After identifying the credentials for a device, Discovery and Orchestration create an affinity between the credentials and the device using the Credential Affinity `[dscy_credentials_affinity]` table. All subsequent discoveries or Orchestration activities attempt to match the credentials in this table with a device for which an affinity exists. If credentials for a device change, Discovery and Orchestration try all available credentials again until they create a new affinity.
 
-![Lookup process for credential affinity](../image/CredentialsAffinityDiagram.png "Credential Affinity diagram")
+\[Omitted image "CredentialsAffinityDiagram.png"\] Alt text: Lookup process for credential affinity
 
 **Note:** If Orchestration and Discovery are installed, and credential alias is enabled, multiple affinities can exist. In this case, the platform looks up credentials for each affinity and inserts the credential for the affinity with the lowest order into the probe.
 

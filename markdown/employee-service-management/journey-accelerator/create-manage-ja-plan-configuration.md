@@ -2,6 +2,7 @@
 title: Create and manage Journey Accelerator plan configurations
 description: Create and manage plan configurations that are based on a plan type. Plan configurations are customized for specific employee audiences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-accelerator/create-manage-ja-plan-configuration.html
 release: zurich
 product: Journey Accelerator
 classification: journey-accelerator

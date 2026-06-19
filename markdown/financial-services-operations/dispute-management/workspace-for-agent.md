@@ -2,6 +2,7 @@
 title: Dispute agent workspace
 description: The dispute agent workspace provides a single, streamlined, and consistent workflow for agents. This workspace offers alignment with back‑end process steps and easier decision‑making through each stage of a dispute. The landing page provides an overview of your cases and tasks, which helps to monitor your workload, focus on high-priority items, and track the status of disputes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/workspace-for-agent.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -23,7 +24,7 @@ The dispute agent workspace provides a single, streamlined, and consistent workf
 
 The disputes workspace for Financial Services Operations provides a centralized interface for managing and resolving dispute cases. As a dispute agent, you can resolve disputes in a visual and consistent workflow by handling chargebacks, fraud reports, duplicate transactions, SLAs, and ensure timely resolutions.
 
-Let's understand the Financial Services Operations disputes page.![Dashboard of the tasks opened](../image/my-tasks.png)
+Let's understand the Financial Services Operations disputes page.\[Omitted image "my-tasks.png"\] Alt text: Dashboard of the tasks opened
 
 The **Card Dispute Landing Page** consists of a dashboard with the following sections.
 
@@ -39,7 +40,7 @@ The dispute life cycle of Financial Services Operations includes the following s
 
 -   **Initiate**: Submit a dispute case in a playbook
 
-    ![Dispute displayed as playbook](../image/dispute-initiate.png)
+    \[Omitted image "dispute-initiate.png"\] Alt text: Dispute displayed as playbook
 
 -   Processing: Investigate the dispute. In this stage, each transaction within a dispute case is presented as a process-based layout. This layout visually represents the distinct stages of the investigation workflow for that specific transaction.
 
@@ -60,5 +61,5 @@ The **Dispute Workspace** displays a list of all open tasks for the agent, each 
 -   The agent can write work notes for the task, which appears in the activity stream once the task is saved.
 -   After a task is complete, it automatically moves to the **Closed** tab.
 
-**Parent Topic:**[Managing Disputes](managing-disputes.md)
+**Parent Topic:**[Managing Disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/managing-disputes.md)
 

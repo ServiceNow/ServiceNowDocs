@@ -2,6 +2,7 @@
 title: Set up browser policies
 description: Set up the browser policies to enable access to the Browser Extension for Employee Center within the supported browsers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/setup-chrome-policy-ecbe.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -90,6 +91,6 @@ The browser settings and policy page might look different for different browsers
 
 2.  In the **ServiceNow Employee Center Browser Extension** policy, fill in the fields.
 
-    For a description of the field values, see [Browser Extension policy form](../reference/ecbe-policy-form.md).
+    For a description of the field values, see [Browser Extension policy form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecbe-policy-form.md).
 
 

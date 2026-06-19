@@ -2,6 +2,7 @@
 title: Monitor inbound REST API rate limit counts and violations
 description: To determine if you have set a rate limit rule appropriately, monitor the counts and violations for inbound REST API requests that are restricted by the rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-api-explorer/monitor-request-counts.html
 release: zurich
 product: REST API Explorer
 classification: rest-api-explorer
@@ -30,5 +31,5 @@ Role required: rate\_limit\_admin
     -   In the Rate Limit Counts related list, view the count of inbound REST API requests limited by the rule. This list is cleared daily.
     -   In the Rate Limit Violations related list, view the number of inbound REST API requests that exceeded the **Request limit per hour** value for the rule. This list is cleared biweekly.
 
-**Parent Topic:**[Inbound REST API rate limiting](../concept/inbound-REST-API-rate-limiting.md)
+**Parent Topic:**[Inbound REST API rate limiting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/inbound-REST-API-rate-limiting.md)
 

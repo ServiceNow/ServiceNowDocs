@@ -2,6 +2,7 @@
 title: Create an Orchestration ROI correlated task rule
 description: The correlated task rule applies configurable conditions to fields in a selected table that tell the instance which manual tasks correspond to an automation entry record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/orchestration/t\_CreateOrchROICorrTaskRule.html
 release: zurich
 product: Orchestration
 classification: orchestration
@@ -19,7 +20,7 @@ The correlated task rule applies configurable conditions to fields in a selected
 
 Role required: orchestration\_manager
 
-Before starting this procedure, make sure you have created [labor rate cards](t_CreateOrchROILaborRateCard.md) and the appropriate [automation entry records](t_CreateOrchROIAutoEntryRecord.md) for the automated tasks you want to evaluate.
+Before starting this procedure, make sure you have created [labor rate cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateOrchROILaborRateCard.md) and the appropriate [automation entry records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateOrchROIAutoEntryRecord.md) for the automated tasks you want to evaluate.
 
 ## About this task
 
@@ -57,5 +58,5 @@ When a new employee opens an incident to request services or assets which are ty
 7.  To view the list of tasks that match this rule in the system, click **Correlated Tasks** under **Related Links** in this form
 
 
-**Parent Topic:**[Orchestration ROI](../concept/c_OrchestrationROI.md)
+**Parent Topic:**[Orchestration ROI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_OrchestrationROI.md)
 

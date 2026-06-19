@@ -2,6 +2,7 @@
 title: Create Security Attributes
 description: Create new Security Attributes with a step-by-step guide.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/create-security-attributes.html
 release: zurich
 product: Access Control
 classification: access-control
@@ -59,7 +60,7 @@ Type
 
 The type of Security Attribute. -   compound
 
-**Note:** For further information about Compound Security Attributes see [Compound Security Attributes](../concept/compound-security-attributes.md#)
+**Note:** For further information about Compound Security Attributes see [Compound Security Attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/compound-security-attributes.md)
 
 -   integer
 -   list

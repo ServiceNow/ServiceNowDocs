@@ -2,6 +2,7 @@
 title: ReportCiStatusOutputJS - Scoped
 description: The ReportCiStatusOutputJS API provides methods that return specific object properties for the DiscoveryAPI reportCiIpAddressStatus method and then converts the information into a JSON string.Returns the state of the scanned CI.Returns the value in the cmdb\_ci field from the discovery\_device\_history table for the CI being scanned.Returns the value from the State field in the Discovery Status \[discovery\_status\] table.Returns the value from the source field in the discovery\_device\_history table for the CI being scanned.Returns the value from the issues field in the discovery\_device\_history table for the CI being scanned.Returns the value from the issues\_link field in the discovery\_device\_history table for the CI being scanned.Serializes the ReportCiStatusOutputJS object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_ReportCiStatusOutputJSScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The ReportCiStatusOutputJS API provides methods that return specific object prop
 
 This class runs is in the `sn_discovery` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## ReportCiStatusOutputJS - getCiOperationStatus\(\)
 
@@ -76,7 +77,7 @@ gs.info("ipResultObj(cmdb): " + ipResultObj.getCmdbCI());
 
 Returns the value from the **State** field in the Discovery Status \[discovery\_status\] table.
 
-The values returned by this method are used to calculate the value returned by the [getCiOperationStatus\(\)](c_ReportCiStatusOutputJSScopedAPI.md#) method
+The values returned by this method are used to calculate the value returned by the [getCiOperationStatus\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_ReportCiStatusOutputJSScopedAPI.md) method
 
 |Name|Type|Description|
 |----|----|-----------|

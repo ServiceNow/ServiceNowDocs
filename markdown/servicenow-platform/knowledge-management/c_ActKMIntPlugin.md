@@ -2,6 +2,7 @@
 title: Activate the knowledge management internationalization plugin
 description: To enable translation of knowledge articles, you must activate multiple plugins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/c\_ActKMIntPlugin.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -15,9 +16,9 @@ breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage cont
 
 To enable translation of knowledge articles, you must activate multiple plugins.
 
--   Knowledge Management Advanced \(com.snc.knowledge\_advanced\) plugin. For more information, see [Activate the Knowledge Management Advanced plugin](../task/activate-knowledge-advanced-plugin.md)
--   I18N:Knowledge Management Internationalization Plugin v2 \(com.glideapp.knowledge.i18n2\) plugin. For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
--   Internationalization plugins for each appropriate language. For more information, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+-   Knowledge Management Advanced \(com.snc.knowledge\_advanced\) plugin. For more information, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md)
+-   I18N:Knowledge Management Internationalization Plugin v2 \(com.glideapp.knowledge.i18n2\) plugin. For more information, see Activate a plugin.
+-   Internationalization plugins for each appropriate language. For more information, see Activate a language.
 
     **Note:**
 
@@ -45,5 +46,5 @@ The I18N:Knowledge Management Internationalization Plugin v2 \(com.glideapp.know
 
 Additionally, the Translated Versions related list is automatically added to the Knowledge form after you save an article.
 
-**Parent Topic:**[Configuring Knowledge Management](configuring-knowledge-management.md)
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 

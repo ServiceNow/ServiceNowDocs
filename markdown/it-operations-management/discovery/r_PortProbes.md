@@ -2,6 +2,7 @@
 title: Port probes
 description: Port probes are used in Discovery by the Shazzam probe to detect protocol activity on open ports on devices it encounters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/r\_PortProbes.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -32,7 +33,7 @@ To access the Port Probe form, navigate to **Discovery Definition** &gt; **Port 
 
 To add multiple classification probes to a port probe, create a link between the port probe and the actual classification probe itself. See the bottom of the form to add additional Trigger probes. That way, if one classification fails, it does not affect the others, thus Discovery performance may be enhanced.
 
-![Discovery port probe form](../image/discovery_port_probe.png)
+\[Omitted image "discovery\_port\_probe.png"\] Alt text: Discovery port probe form
 
 The Port Probe form provides the following fields:
 
@@ -146,10 +147,10 @@ Script
 Script to run.
 
 </td></tr></tbody>
-</table>-   **[Shazzam probe, port probes, and protocols](r_DiscoveryPortsAndProtocols.md)**  
+</table>-   **[Shazzam probe, port probes, and protocols](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_DiscoveryPortsAndProtocols.md)**  
 Port scanning is the first step in the discovery process. The Shazzam probe performs port scanning, regardless of whether you use patterns for horizontal discovery. The following table lists the known ports and protocols used by Discovery.
--   **[Configure Shazzam probe](../task/t_ConfigureTheShazzamProbe.md#)**  
+-   **[Configure Shazzam probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_ConfigureTheShazzamProbe.md)**  
 When you run Discovery, the Shazzam probe finds your active network devices by scanning specified ports on specified IP address ranges. If the list of IP ranges being scanned is large, you can configure the Shazzam payload for JSON encoding to reduce its size.
 
-**Parent Topic:**[List of Discovery probes](r_ListOfDiscoveryProbes.md)
+**Parent Topic:**[List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_ListOfDiscoveryProbes.md)
 

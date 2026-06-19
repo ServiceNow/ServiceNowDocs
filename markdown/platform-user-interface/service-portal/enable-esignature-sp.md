@@ -2,6 +2,7 @@
 title: Enable e-signature for Service Portal
 description: You can configure e-signature in Service Portal to require re-authentication from approving users.Open a new window for SSO authentication when using e-Signature for approvals.Paste the spEsignatureCustom script in the sys\_ui\_script.list script field.Paste the spAuthCustom script in the sys\_ui\_script.list script field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/enable-esignature-sp.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -32,9 +33,9 @@ Role required: admin
 
 ## Result
 
-With e-signature enabled, approvers are required to provide a password to approve or reject any requests. Authentication with touch ID works in the mobile app. On the mobile web, approvers are still required to enter a password. For more information on configuring e-signature, see [Approval with e-signature](https://www.servicenow.com/docs/access?context=approval-with-e-signature&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+With e-signature enabled, approvers are required to provide a password to approve or reject any requests. Authentication with touch ID works in the mobile app. On the mobile web, approvers are still required to enter a password. For more information on configuring e-signature, see .
 
-**Parent Topic:**[Managing portal access](../concept/portal-security.md)
+**Parent Topic:**[Managing portal access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/portal-security.md)
 
 ## Enable SSO login in a new window
 
@@ -60,7 +61,7 @@ Role required: admin
 
     4.  In the UI Type field, select **Mobile/Service Portal**.
 
-    5.  Paste the [spEsignatureCustom script](enable-esignature-sp.md#) in the **Script** field.
+    5.  Paste the [spEsignatureCustom script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/enable-esignature-sp.md) in the **Script** field.
 
     6.  Select **Submit**.
 
@@ -72,7 +73,7 @@ Role required: admin
 
     3.  In the UI Type field, select **Mobile/Service Portal**.
 
-    4.  Paste the [spAuthCustom script](enable-esignature-sp.md#) in the **Script** field.
+    4.  Paste the [spAuthCustom script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/enable-esignature-sp.md) in the **Script** field.
 
     5.  Select **Submit**.
 

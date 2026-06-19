@@ -2,6 +2,7 @@
 title: Schedule risk assessments in the Risk Workspace
 description: Schedule risk assessments automatically for multiple entities. The risk assessment scheduler helps the risk managers save time by automatically initiating the assessments based on the defined frequency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/schedule-risk-assessment-workspace.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -27,7 +28,7 @@ In most organizations, the second line of risk managers is responsible for coord
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Select the list ![](../image/list-icon-risk-workspace.png).
+2.  Select the list \[Omitted image "list-icon-risk-workspace.png"\] Alt text:.
 
 3.  Navigate to **Risk assessment planning** &gt; **Scheduled assessments**.
 
@@ -35,7 +36,7 @@ In most organizations, the second line of risk managers is responsible for coord
 
     The Assessment Scheduler playbook opens the Scope definition stage, where you define the risk assessment methodology \(RAM\) and assessable entity.
 
-    ![Assement scheduler.](../image/assessment-scheduler-playbook.png)
+    \[Omitted image "assessment-scheduler-playbook.png"\] Alt text: Assement scheduler.
 
 5.  On the Scope definition activity card, fill in the fields.
 
@@ -176,5 +177,5 @@ Number of days within which the assessment should be completed after it’s init
 
 The assessments are initiated. You can view all the scheduled assessments under **Risk assessment planning** &gt; **Scheduled assessments**.
 
-**Parent Topic:**[Using the Risk Workspace](../concept/using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

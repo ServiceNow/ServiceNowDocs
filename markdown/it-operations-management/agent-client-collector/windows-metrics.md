@@ -2,6 +2,7 @@
 title: Windows metrics
 description: The following table lists the metrics that are gathered as output from Windows checks. Entries indicated as Featured metrics are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/windows-metrics.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -63,5 +64,5 @@ The following table lists the metrics that are gathered as output from Windows c
 |system.network.TCP\_RSC\_Coalesced\_Packets/sec| | |The large-packet receive rate across all TCP connections.|
 |system.network.TCP\_RSC\_Exceptions/sec| | |The RSC exception rate for received packets across all TCP connections.|
 
-**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](agent-policies-checks.md)
+**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-policies-checks.md)
 

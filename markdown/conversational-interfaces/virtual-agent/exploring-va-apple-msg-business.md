@@ -2,6 +2,7 @@
 title: Exploring Conversational Integration with Apple Messages for Business
 description: Use Conversational Integration with Apple Messages for Business to connect a requester with a virtual agent or live agent using your company's Apple Messages for Business account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/exploring-va-apple-msg-business.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -21,7 +22,7 @@ Conversational Integration with Apple Messages for Business provides rich messag
 
 Customers can start a conversation from a variety of entry points. From each of these entry points, customers can launch the Apple messages app and compose a message. You can add custom buttons to a website, app, or social media page, so that customers can start a conversation with Virtual Agent or live agent. For a full overview of the options available, see the [Apple documentation](https://register.apple.com/resources/messages/messaging-documentation/message-with-customers#entry-points-overview).
 
-![Device with Apple "message us" button displayed](../images/amb-app.png "Apple message example")
+\[Omitted image "amb-app.png"\] Alt text: Device with Apple "message us" button displayed
 
 -   iMessage
 -   Apple Maps
@@ -75,7 +76,7 @@ Time pickers
 
 Provides time slots for users to choose for appointments, deliveries, and services.
 
- To use time pickers, you must have [Conversational Appointment Booking](https://www.servicenow.com/docs/access?context=conv_appt_booking&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US) installed.
+ To use time pickers, you must have  installed.
 
 </td></tr><tr><td>
 
@@ -132,8 +133,8 @@ Users or live or virtual agents can send PDF documents during a chat.
 
 To learn more about configuring and using Conversational Integration with Apple Messages for Business, see:
 
--   [Configuring Conversational Integration with Apple Messages for Business](../task/messg-apple-configure.md)
--   [Using Conversational Integration with Apple Messages for Business](messg-apple-using.md)
+-   [Configuring Conversational Integration with Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-apple-configure.md)
+-   [Using Conversational Integration with Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-apple-using.md)
 
-**Parent Topic:**[Conversational Integration with Apple Messages for Business](integration-apple-mssg.md)
+**Parent Topic:**[Conversational Integration with Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/integration-apple-mssg.md)
 

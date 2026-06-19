@@ -2,6 +2,7 @@
 title: Create a work item queue
 description: Define or change a queue so that you can determine which work items are routed automatically to agents through a given service channel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/awa-create-queue.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -60,7 +61,7 @@ Number
 
 </td><td>
 
-Base number for the table. For more information, see [Record numbering](https://www.servicenow.com/docs/access?context=c_ManagingRecordNumbering&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Base number for the table. For more information, see Record numbering.
 
 </td></tr><tr><td>
 
@@ -140,7 +141,7 @@ Work item routing condition
 
 Condition that applies to routing work items to this queue.
 
- Use the condition builder to select routing conditions. The fields available for selection are based on the selected service channel. For the chat service channel, you can specify chat context variables in the condition builder by [dot-walking](https://www.servicenow.com/docs/access?context=dot-walking-examples&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) to related context fields.
+ Use the condition builder to select routing conditions. The fields available for selection are based on the selected service channel. For the chat service channel, you can specify chat context variables in the condition builder by dot-walking to related context fields.
 
  For example, if you defined chat context variables that store pre-chat routing information, you can dot-walk to those chat context variables in the condition builder. You can use the variables in routing conditions to specify where chats are routed.
 
@@ -182,7 +183,7 @@ Max Wait Time
 
 </td><td>
 
-Maximum amount of time that all available agents have to accept or reject a chat request. After time runs out, the requester receives the value in either the **Max wait time message** field or the **No Agents Available Message** field defined in [Agent Chat settings](../../conversational-interfaces/task/ac-configure-agent-chat.md).**Note:** The **Max Wait Time** field is available after you associate the queue to the chat service channel.
+Maximum amount of time that all available agents have to accept or reject a chat request. After time runs out, the requester receives the value in either the **Max wait time message** field or the **No Agents Available Message** field defined in [Agent Chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).**Note:** The **Max Wait Time** field is available after you associate the queue to the chat service channel.
 
 </td></tr></tbody>
 </table>4.  Select **Submit** for a new queue or **Update** to change the queue.
@@ -192,10 +193,10 @@ Maximum amount of time that all available agents have to accept or reject a chat
 
 ## What to do next
 
--   Define the [**Assignment Eligibility**](awa-specify-assignment-eligibility.md).
--   Optionally, define the [**Work Item Sort Order**](awa-set-work-sort-order.md).
--   Optionally, define the [**Queue Triggers**](awa-create-queue-triggers.md).
--   Optionally, define the [**Set Agent Affinity rules**](awa-set-agent-affinity-for-queue.md).
+-   Define the [**Assignment Eligibility**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-specify-assignment-eligibility.md).
+-   Optionally, define the [**Work Item Sort Order**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-set-work-sort-order.md).
+-   Optionally, define the [**Queue Triggers**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-create-queue-triggers.md).
+-   Optionally, define the [**Set Agent Affinity rules**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-set-agent-affinity-for-queue.md).
 
-**Parent Topic:**[Configuring Advanced Work Assignment](installing-awa.md)
+**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

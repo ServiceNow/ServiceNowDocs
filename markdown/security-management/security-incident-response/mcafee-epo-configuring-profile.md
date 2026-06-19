@@ -2,6 +2,7 @@
 title: Configure settings
 description: After you create a profile and select the McAfee ePO capabilities that you want the profile to run, configure the settings so that the profile is invoked only under the specific conditions that you define.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/mcafee-epo-configuring-profile.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -21,7 +22,7 @@ In this step, you configure a capability profile so that it runs only when the c
 
 ## Alternate configuration item \(CI\) trigger field
 
-In cases when the Configuration item \(CI\) field on the ServiceNow AI Platform® Security Incident Response \(SIR\) security incident is not populated with a value, or a match cannot be found in the database, you can select an alternate field on the security incident to display any matching CI enrichment data found during the scan of your assets. For more information about the Configuration item and the Alternate configuration item fields on a security incident, see [Defining triggering conditions with a Configuration item \(CI\) field](mcafee-epo-alternate-ci.md).
+In cases when the Configuration item \(CI\) field on the ServiceNow AI Platform® Security Incident Response \(SIR\) security incident is not populated with a value, or a match cannot be found in the database, you can select an alternate field on the security incident to display any matching CI enrichment data found during the scan of your assets. For more information about the Configuration item and the Alternate configuration item fields on a security incident, see [Defining triggering conditions with a Configuration item \(CI\) field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/mcafee-epo-alternate-ci.md).
 
 ## Security tags
 
@@ -47,7 +48,7 @@ In version 5.10.0 of McAfee ePO, a ServiceNow tab is displayed with a log of com
 
 In the following image, an example of a log for a host \(`PODCLIENT1`\) is displayed.
 
-![System tree in ePO console](../image/mcafee_newtab.png "PODClient")
+\[Omitted image "mcafee\_newtab.png"\] Alt text: System tree in ePO console
 
 The events initiated from the profiles in your ServiceNow AI Platform® instance are recorded and displayed in the log. Verify by checking the status of the host machine that the events listed in the log are successfully completed on the host.
 
@@ -55,10 +56,10 @@ The events initiated from the profiles in your ServiceNow AI Platform® instance
 
 The following topics include examples for how to configure profiles and test security incidents. These examples include profiles for all of the McAfee ePO capabilities that are available for this integration.
 
--   **[Configure profiles and security incidents for system enrichment queries](../task/mcafee-epo-configure-profile.md)**  
+-   **[Configure profiles and security incidents for system enrichment queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/mcafee-epo-configure-profile.md)**  
 Configure your profile settings so that the profile triggers only under the conditions that you set.
--   **[Configure a profile to initiate malware scan](../task/mcafee-epo-config-scan-malwr.md)**  
+-   **[Configure a profile to initiate malware scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/mcafee-epo-config-scan-malwr.md)**  
 After you create a profile with the Initiate Malware Scan capability and any other McAfee ePO capabilities that you want the profile to run, configure the settings of the profile so that it is invoked under the specific conditions that you define.
 
-**Parent Topic:**[McAfee ePO integration capability profiles](mcafee-epo-creating-profiles.md)
+**Parent Topic:**[McAfee ePO integration capability profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/mcafee-epo-creating-profiles.md)
 

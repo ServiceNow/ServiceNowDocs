@@ -2,6 +2,7 @@
 title: Activate Field Service with Service Locations Support
 description: You can activate the Field Service with Service Locations Support \(com.snc.fsm\_service\_locations\) plugin if you have the admin role. The application includes demo data and installs related plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/activate-service-location-plugin.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -23,7 +24,7 @@ Role required: admin
 
 Activation of Field Service with Service Locations Support \(com.snc.fsm\_service\_locations\) plugin activates Field Service Management \(com.snc.work\_management\) and sn-fsm-components \(com.sn\_fsm\_components\) plugins if they are not already active.
 
-For more information, see [Field Service with Service Locations Support components](service-locations-components.md).
+For more information, see [Field Service with Service Locations Support components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/service-locations-components.md).
 
 ## Procedure
 
@@ -37,6 +38,6 @@ For more information, see [Field Service with Service Locations Support componen
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 

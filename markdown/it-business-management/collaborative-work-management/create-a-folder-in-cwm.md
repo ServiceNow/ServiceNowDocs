@@ -2,6 +2,7 @@
 title: Create a folder in CWM
 description: Organize Boards and Docs of a Space into folders in Collaborative Work Management Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/collaborative-work-management/create-a-folder-in-cwm.html
 release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -17,7 +18,7 @@ Organize Boards and Docs of a Space into folders in Collaborative Work Managemen
 
 ## Before you begin
 
-[Create a Space in CWM](create-spaces-in-cwm.md).
+[Create a Space in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/create-spaces-in-cwm.md).
 
 Role required: sn\_cwm.cwm\_user
 
@@ -27,9 +28,9 @@ Role required: sn\_cwm.cwm\_user
 
 2.  Open a Space that you want to create a folder in.
 
-    ![Spaces menu in CWM.](../images/cwm-spaces-navigation.png)
+    \[Omitted image "cwm-spaces-navigation.png"\] Alt text: Spaces menu in CWM.
 
-3.  From the More options menu of the Space \(![More options icon.](../images/cwm-icon-column-actions.png)\), select **New folder**.
+3.  From the More options menu of the Space \(\[Omitted image "cwm-icon-column-actions.png"\] Alt text: More options icon.\), select **New folder**.
 
 4.  In the **Folder name** field, enter a name for the folder.
 
@@ -45,8 +46,8 @@ A new folder is created in the Space that you selected.
 -   Create subfolders, Boards, and Docs in this new folder.
 -   Move any existing Boards, Docs, or folders into this new folder.
 
-    ![Folder options in CWM workspace.](../images/cwm-folder-options.png)
+    \[Omitted image "cwm-folder-options.png"\] Alt text: Folder options in CWM workspace.
 
 
-**Parent Topic:**[Collaborating with Spaces in CWM](../concept/cwm-spaces.md)
+**Parent Topic:**[Collaborating with Spaces in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/cwm-spaces.md)
 

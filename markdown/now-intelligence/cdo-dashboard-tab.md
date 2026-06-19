@@ -2,6 +2,7 @@
 title: Chief Digital Officer \(CDO\) Dashboard pillars
 description: Organizing insights into these five pillars promotes Chief Digital Officer \(CDO\) focus on delivering value quickly, improving productivity and optimizing risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/cdo-dashboard-tab.html
 release: zurich
 topic_type: reference
 last_updated: "2025-09-01"
@@ -128,7 +129,7 @@ Spend optimization
 Provides financial visibility into digital transformation impact, tracking spending patterns and savings achieved from technology and automation initiatives.
 
 </td></tr></tbody>
-</table>![CDO Dashboard with Sentiment, Usage, Operations, Transformation, and Outcome pillars, each containing key metrics and visualizations.](../image/cdo-db-tab.png)
+</table>\[Omitted image "cdo-db-tab.png"\] Alt text: CDO Dashboard with Sentiment, Usage, Operations, Transformation, and Outcome pillars, each containing key metrics and visualizations.
 
 ## CDO Dashboard overview
 

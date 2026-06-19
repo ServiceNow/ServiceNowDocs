@@ -2,6 +2,7 @@
 title: Add suggested agents to a territory
 description: View suggested agents of a particular territory and add them directly to a territory.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/assign-agents-to-territory.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -23,7 +24,7 @@ Role required: sn\_fsm\_tp.fsm\_territory\_planner, sn\_fsm\_tp.fsm\_territory\_
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Click the Lists icon \(![Lists icon.](../image/lists-icon.jpg)\).
+2.  Click the Lists icon \(\[Omitted image "lists-icon.jpg"\] Alt text: Lists icon.\).
 
 3.  In the **Field Service Territories** list, select **All**.
 
@@ -31,7 +32,7 @@ Role required: sn\_fsm\_tp.fsm\_territory\_planner, sn\_fsm\_tp.fsm\_territory\_
 
     The territory record appears in a new tab.
 
-5.  Click the Suggested Agents icon \(![Suggested Agents icon.](../image/suggested-agents.jpg)\).
+5.  Click the Suggested Agents icon \(\[Omitted image "suggested-agents.jpg"\] Alt text: Suggested Agents icon.\).
 
     The **Available Members** list appears with the suggested agents.
 
@@ -54,7 +55,7 @@ Role required: sn\_fsm\_tp.fsm\_territory\_planner, sn\_fsm\_tp.fsm\_territory\_
         |Fields|Description|
         |------|-----------|
         |From Date|Start date of the work duration for the territory.|
-        |To date|End date of the work duration for the territory. For more information, see **sn\_fsm\_tp.territory\_membership\_override\_to\_date** in [Field Service Territory Planning console properties](../reference/territory-planning-components-fsm.md#).|
+        |To date|End date of the work duration for the territory. For more information, see **sn\_fsm\_tp.territory\_membership\_override\_to\_date** in [Field Service Territory Planning console properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/territory-planning-components-fsm.md).|
         |User|Name of agent.|
         |Work schedule|Select the work schedule. For example 8 AM to 5 PM.|
         |Type|Select **Primary Work** for agent as a primary contact for the selected territory.|

@@ -2,6 +2,7 @@
 title: Discover replication delays in Instance Data Replication
 description: Monitor possible data replication issues by using the Instance Data Replication \(IDR\) Monitoring Dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/instance-data-replication-idr/diagnose-delayed-replication.html
 release: zurich
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -25,7 +26,7 @@ Role required: admin
 
 1.  To view the time lag on a producer instance, navigate to **Instance Data Replication** &gt; **Monitoring Dashboard**, and check the Active Producer Replication Sets for the following details.
 
-<table id="choicetable_mkm_wmd_skb"><tbody><tr><td id="d73932e70">
+<table id="choicetable_mkm_wmd_skb"><tbody><tr><td id="d80476e70">
 
 **Name**
 
@@ -33,7 +34,7 @@ Role required: admin
 
 Name of the producer replication set.
 
-</td></tr><tr><td id="d73932e79">
+</td></tr><tr><td id="d80476e79">
 
 **Replication Queue Reading Lag**
 
@@ -41,7 +42,7 @@ Name of the producer replication set.
 
 Time between a record change on the producer instance and the moment it is sent over the outbound replication queue.
 
-</td></tr><tr><td id="d73932e88">
+</td></tr><tr><td id="d80476e88">
 
 **Status**
 
@@ -49,7 +50,7 @@ Time between a record change on the producer instance and the moment it is sent 
 
 Status of a replication set, either active or in error.
 
-</td></tr><tr><td id="d73932e97">
+</td></tr><tr><td id="d80476e97">
 
 **Status Message**
 
@@ -57,7 +58,7 @@ Status of a replication set, either active or in error.
 
 Message that describes the error status.
 
-</td></tr><tr><td id="d73932e106">
+</td></tr><tr><td id="d80476e106">
 
 **Message Queue Version**
 
@@ -68,7 +69,7 @@ Version of the Message Queue. Default is V2 \(Hermes\).
 </td></tr></tbody>
 </table>    To get additional information, view the producer instance xmlstats at `https://<producer-instance-name>/xmlstats.do?include=idr`.
 
-    ![Producer instance xmlstats](../image/xmlstats-producer.png)
+    \[Omitted image "xmlstats-producer.png"\] Alt text: Producer instance xmlstats
 
     The xmlstats shows:
 
@@ -79,7 +80,7 @@ Version of the Message Queue. Default is V2 \(Hermes\).
 
 2.  To view the time lag on a consumer instance, navigate to **Instance Data Replication** &gt; **Monitoring Dashboard** and check the Active Consumer Replication Sets for the following details.
 
-<table id="choicetable_pgt_f12_skb"><tbody><tr><td id="d73932e165">
+<table id="choicetable_pgt_f12_skb"><tbody><tr><td id="d80476e165">
 
 **Name**
 
@@ -87,7 +88,7 @@ Version of the Message Queue. Default is V2 \(Hermes\).
 
 Name of the consumer replication set.
 
-</td></tr><tr><td id="d73932e174">
+</td></tr><tr><td id="d80476e174">
 
 **Data Lag**
 
@@ -95,7 +96,7 @@ Name of the consumer replication set.
 
 Time between a record change on the producer instance and the moment it is recorded in the consumer instance.
 
-</td></tr><tr><td id="d73932e183">
+</td></tr><tr><td id="d80476e183">
 
 **Network Lag**
 
@@ -103,7 +104,7 @@ Time between a record change on the producer instance and the moment it is recor
 
 Time between a record change logs in the outbound replication queue and the moment it is recorded in the consumer instance.
 
-</td></tr><tr><td id="d73932e192">
+</td></tr><tr><td id="d80476e192">
 
 **Status**
 
@@ -111,7 +112,7 @@ Time between a record change logs in the outbound replication queue and the mome
 
 Status of a replication set, either active or in error.
 
-</td></tr><tr><td id="d73932e201">
+</td></tr><tr><td id="d80476e201">
 
 **Status Message**
 
@@ -119,7 +120,7 @@ Status of a replication set, either active or in error.
 
 Message that describes the error status.
 
-</td></tr><tr><td id="d73932e211">
+</td></tr><tr><td id="d80476e211">
 
 **Message Queue Version**
 
@@ -128,7 +129,7 @@ Message that describes the error status.
 Version of the Message Queue. Default is V2 \(Hermes\)
 
 </td></tr></tbody>
-</table>    To get additional information, view the consumer instance xmlstats at `https://<consumer-instance-name>/xmlstats.do?include=idr`. ![Consumer xmlstats](../image/xmlstats-consumer.png) The xmlstats shows:
+</table>    To get additional information, view the consumer instance xmlstats at `https://<consumer-instance-name>/xmlstats.do?include=idr`. \[Omitted image "xmlstats-consumer.png"\] Alt text: Consumer xmlstats The xmlstats shows:
 
     -   The *consumer\_last\_run* indicates the last time that the consumer job ran and received changes from the producer.
     -   The *last\_heartbeat\_received\_on* shows the timestamp when the consumer last received a heartbeat from the producer instance.
@@ -136,5 +137,5 @@ Version of the Message Queue. Default is V2 \(Hermes\)
         **Note:** The timestamps are GMT.
 
 
-**Parent Topic:**[Resolving data replication errors in Instance Data Replication](../reference/common-issues-idr.md)
+**Parent Topic:**[Resolving data replication errors in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/instance-data-replication-idr/common-issues-idr.md)
 

@@ -2,6 +2,7 @@
 title: Update your similarity score threshold
 description: After you review the similarity examples provided by the system, update your solution similarity score threshold if you want the results returned by the solution to be more or less similar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/predictive-intelligence/update-similarity-threshold.html
 release: zurich
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -17,7 +18,7 @@ After you review the similarity examples provided by the system, update your sol
 
 ## Before you begin
 
--   Review your similarity examples and their scores. For more information see [Review solution similarity examples](review-similarity-examples.md).
+-   Review your similarity examples and their scores. For more information see [Review solution similarity examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/review-similarity-examples.md).
 -   Role required: ml\_admin or admin
 
 ## About this task

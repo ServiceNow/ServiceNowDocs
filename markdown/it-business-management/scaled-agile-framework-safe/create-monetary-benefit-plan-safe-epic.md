@@ -2,6 +2,7 @@
 title: Create a monetary benefit plan for an epic
 description: Epic benefit plans capture the potential benefits accrued by the epic when the epic is executed. Create a monetary benefit plan to specify the estimated benefit in a category spanning one or more fiscal periods.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scaled-agile-framework-safe/create-monetary-benefit-plan-safe-epic.html
 release: zurich
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -29,7 +30,7 @@ The monetary benefit plan breakdown records are automatically created when you s
 
 2.  Open the required epic.
 
-3.  Click the hamburger icon \(![Hamburger icon](../../agile-development/image/hamburger-icon.png)\) and navigate to **View** &gt; **Benefit**.
+3.  Click the hamburger icon \(\[Omitted image "hamburger-icon.png"\] Alt text: Hamburger icon\) and navigate to **View** &gt; **Benefit**.
 
 4.  On the form, fill in the fields in the Planning section.
 
@@ -201,7 +202,7 @@ Non-monetary benefit that is associated to this monetary benefit plan.
     |-----|-----------|
     |Entered benefit|Benefit incurred from the epic specified in terms of entered currency.|
     |Entered currency|Currency in which you want the benefit plan to be created.|
-    |Functional currency|Currency that is obtained from the [**glide.system.locale** property](https://www.servicenow.com/docs/access?context=currency-properties&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).|
+    |Functional currency|Currency that is obtained from the **glide.system.locale** property.|
     |Total planned benefit|Estimated amount of potential benefit of the epic.|
     |Benefit in functional currency|Benefit incurred from epic in terms of functional currency. The value in this field changes if the **Entered currency** is different from the functional currency.|
     |Actual benefit|Actual benefit that is incurred from the epic. This value is rolled up from the **Actual benefit** field of all the benefit plan breakdowns.|
@@ -214,8 +215,8 @@ Non-monetary benefit that is associated to this monetary benefit plan.
 
 On the Benefit Plan form, view the benefit breakdown by fiscal period in the Monetary Benefit Plan Breakdowns related list.
 
--   **[Update a monetary benefit plan breakdown for an epic](update-monetary-benefit-plan-breakdown-safe-epic.md)**  
+-   **[Update a monetary benefit plan breakdown for an epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/update-monetary-benefit-plan-breakdown-safe-epic.md)**  
 Update a monetary benefit plan breakdown record that specifies the estimated and actual benefits, at a granular level, for specific fiscal periods.
 
-**Parent Topic:**[Define an epic in SAFe](create-SAFeepic.md)
+**Parent Topic:**[Define an epic in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/create-SAFeepic.md)
 

@@ -2,6 +2,7 @@
 title: NIST CSF Use Case Accelerator
 description: The NIST CSF Use Case Accelerator gives customers an operational head-start when adopting the NIST CSF. When the accelerator is downloaded and activated in the GRC applications, pre-configured policies, scopes \(profiles, profile type recommendations\), indicators, risks, and other GRC elements appear.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/grc-csf-usecase-accelerator.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -77,18 +78,18 @@ GRC admin
 Access to the following sections: **NIST CSF** &gt; **Administration**
 
 </td></tr></tbody>
-</table>-   **[Install the NIST CSF Use Case Accelerator](../task/install-nist-csf.md)**  
+</table>-   **[Install the NIST CSF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/install-nist-csf.md)**  
 The NIST Cybersecurity Framework \(CSF\) Use Case Accelerator is used with the GRC core applications: Policy and Compliance Management, Risk Management, and Audit Management applications.
--   **[Verify the NIST CSF Use Case Accelerator](../task/verify-nist-csf.md)**  
+-   **[Verify the NIST CSF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/verify-nist-csf.md)**  
 After installing the GRC: NIST Cybersecurity Framework \(CSF\) Use Case Accelerator, review the NIST CSF application structure, core content, and demo data, if selected during installation.
--   **[NIST CSF supporting concepts](../reference/grc-nist-csf-key-concepts.md)**  
+-   **[NIST CSF supporting concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-nist-csf-key-concepts.md)**  
 Familiarize yourself with these concepts, developed from the NIST CSF guidance.
--   **[NIST CSF tables](../reference/nist-csf-tables.md)**  
+-   **[NIST CSF tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/nist-csf-tables.md)**  
 A few tables are impacted by the NIST CSF guidance.
--   **[NIST CSF Use Case Accelerator dashboards and reports](../reference/csf-dashboard-reports.md)**  
+-   **[NIST CSF Use Case Accelerator dashboards and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/csf-dashboard-reports.md)**  
 The contains various reports. The NIST Cybersecurity Framework \(CSF\) Use Case Accelerator contains a variety of reports displayed on different dashboards, available within each of the sections in the NIST CSF process:
--   **[NIST CSF process overview](nist-csf-process.md)**  
+-   **[NIST CSF process overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/nist-csf-process.md)**  
 The NIST CSF navigation structure facilitates the management of the NIST cybersecurity through activities of identification and prioritization, as described in the NIST Framework for Improving Critical Infrastructure Cybersecurity version 1.1and version 2.0 special publications.
 
-**Parent Topic:**[Governance, Risk, and Compliance use case accelerators](../../grc-common/reference/grc-use-case-accelerators.md)
+**Parent Topic:**[Governance, Risk, and Compliance use case accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-use-case-accelerators.md)
 

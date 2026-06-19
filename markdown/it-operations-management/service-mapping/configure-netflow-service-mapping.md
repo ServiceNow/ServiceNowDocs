@@ -2,6 +2,7 @@
 title: Configure data collection using Netflow
 description: Enable Service Mapping to perform discovery based on data collected using the Netflow protocol. This setup results in fully automated data collection flow, where all involved components send, collect, and analyze data automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/configure-netflow-service-mapping.html
 release: zurich
 product: Service Mapping
 classification: service-mapping
@@ -17,7 +18,7 @@ Enable Service Mapping to perform discovery based on data collected using the Ne
 
 ## Before you begin
 
-Learn about [Traffic-based discovery in Service Mapping](../concept/traffic-based-discovery.md).
+Learn about [Traffic-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/traffic-based-discovery.md).
 
 Enable the following scheduled job: Flow Discovery Scheduler \[sysauto\_script\_74c676f0dbb0220060ff742eaf9619f2\].
 
@@ -25,7 +26,7 @@ Role required: admin or service\_mapping\_admin
 
 ## About this task
 
-In base systems, which are the default or standard configurations, traffic-based discovery relies solely on TCP-related data collected using the **netstat**, **ss**, and **lsof** commands. Discovery based on Netflow and VPC logs requires additional configuration. You can enrich your traffic-based discovery by configuring Service Mapping to use the Netflow protocol. For more information about the way Service Mapping uses Netflow, see [Data collection and discovery using Netflow](../concept/data-collection-netflow-mapping.md).
+In base systems, which are the default or standard configurations, traffic-based discovery relies solely on TCP-related data collected using the **netstat**, **ss**, and **lsof** commands. Discovery based on Netflow and VPC logs requires additional configuration. You can enrich your traffic-based discovery by configuring Service Mapping to use the Netflow protocol. For more information about the way Service Mapping uses Netflow, see [Data collection and discovery using Netflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/data-collection-netflow-mapping.md).
 
 Configure the ServiceNow Netflow connector to trigger the MID Server to collect the data from the Netflow flows and process them.
 
@@ -86,7 +87,7 @@ Configure the ServiceNow Netflow connector to trigger the MID Server to collect 
 
     2.  In the command output, verify that marked fields contain real data:
 
-        ![Verification command output](../image/NetflowVerificationOutput.png)
+        \[Omitted image "NetflowVerificationOutput.png"\] Alt text: Verification command output
 
 6.  Configure Service Mapping to receive data collected by the Netflow collector:
 
@@ -119,5 +120,5 @@ Configure the ServiceNow Netflow connector to trigger the MID Server to collect 
     5.  Verify that the table contains data.
 
 
-**Parent Topic:**[Advanced Service Mapping configuration](../concept/c_ConfigureSM.md)
+**Parent Topic:**[Advanced Service Mapping configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/c_ConfigureSM.md)
 

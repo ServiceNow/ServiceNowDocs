@@ -2,7 +2,10 @@
 title: Matching rules for case assignment
 description: Use a matching rule to create a configuration for the assignment workbench.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/case-assignment-matching-rules.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -21,7 +24,7 @@ The default configuration uses the **Recommendation for Case Assignment** matchi
 -   Matching Skills
 -   Assigned Cases
 
-**Note:** If using the mandatory skills feature, use the **Matching Skills - Mandatory Skills Support** criterion to match agents with the [mandatory skills](configure-mandatory-skills-feature.md) identified for a case.
+**Note:** If using the mandatory skills feature, use the **Matching Skills - Mandatory Skills Support** criterion to match agents with the [mandatory skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-mandatory-skills-feature.md) identified for a case.
 
 You can customize this matching rule to meet your specific need for calculating agent recommendations. This matching rule can also be used for auto assignment if you create an assignment rule.
 

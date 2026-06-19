@@ -2,6 +2,7 @@
 title: Collaboration workflow overview
 description: The collaboration workflow involves the issuer initiating pre-arbitration and arbitration for processing errors and consumer disputes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/collaboration-workflow.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -15,7 +16,7 @@ breadcrumb: [Pre-arbitration and arbitration overview, Resolving disputes with V
 
 The collaboration workflow involves the issuer initiating pre-arbitration and arbitration for processing errors and consumer disputes.
 
-![Workflow illustrating the order of actions between the issuer, acquirer, and Visa in a collaboration dispute workflow.](../image/collab-arb-pre-arb-workflows.png)
+\[Omitted image "collab-arb-pre-arb-workflows.png"\] Alt text: Workflow illustrating the order of actions between the issuer, acquirer, and Visa in a collaboration dispute workflow.
 
 1.  The issuer creates a dispute for a transaction. The acquirer can send a dispute response either fully accepting, partially accepting, or declining the dispute on behalf of the merchant. If the acquirer fully accepts the dispute, the dispute is closed and the flow ends.
 2.  If the acquirer partially accepts or declines the dispute, the flow continues.
@@ -25,5 +26,5 @@ The collaboration workflow involves the issuer initiating pre-arbitration and ar
 6.  The case is sent to Visa; they adjudicate and provide the final ruling on the case.
 7.  Either party can appeal the decision if they are dissatisfied, provided they meet the appeal guidelines from Visa.
 
-**Parent Topic:**[About pre-arbitration and arbitration](pre-arbitration-and-arbitration-overview.md)
+**Parent Topic:**[About pre-arbitration and arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/pre-arbitration-and-arbitration-overview.md)
 

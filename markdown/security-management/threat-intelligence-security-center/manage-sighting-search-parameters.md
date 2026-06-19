@@ -2,6 +2,7 @@
 title: Using Sighting Search Parameters
 description: You can use sighting search parameters that define more complex queries, which include logic and other operators supported by the specified log store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/manage-sighting-search-parameters.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -30,7 +31,7 @@ To view the sighting search parameters, perform the following steps:
 
 5.  Click on the required Sighting Search Configuration to view the details of the configuration.
 
-    ![Sighting Search Parameters tab](../image/enrich-sighting-parameters.png)
+    \[Omitted image "enrich-sighting-parameters.png"\] Alt text: Sighting Search Parameters tab
 
 6.  Select the **Sighting Search Parameters** tab.
 
@@ -38,12 +39,12 @@ To view the sighting search parameters, perform the following steps:
 
 7.  Click on the required Sighting Search Parameter to view the details of the parameter.
 8.  You can also perform the following actions on the Sighting Search Parameters tab:
-    1.  To refresh the list of sighting search parameters, click ![Refresh option](../image/enrich-refresh-icon.png) icon.
-    2.  To perform a list action on the sighting search parameters, click the ![List actions](../image/enrich-list-actions.png) icon.
+    1.  To refresh the list of sighting search parameters, click \[Omitted image "enrich-refresh-icon.png"\] Alt text: Refresh option icon.
+    2.  To perform a list action on the sighting search parameters, click the \[Omitted image "enrich-list-actions.png"\] Alt text: List actions icon.
 
         **Edit columns**: You can use this action to add or remove existing columns and modify the order according to your requirements.
 
-    3.  To filter sighting search parameters based on conditions, click the ![Filter panel](../image/enrich-filter.png) icon.
+    3.  To filter sighting search parameters based on conditions, click the \[Omitted image "enrich-filter.png"\] Alt text: Filter panel icon.
 
         The value 1 indicates that one condition is used for the filtering.
 
@@ -82,7 +83,7 @@ To create a sighting search parameter, perform the following steps:
 
 7.  To create a sighting search parameter, click **New**.
 
-    ![Create a Sighting Search Parameter](../image/enrich-create-sighting-parameters.png)
+    \[Omitted image "enrich-create-sighting-parameters.png"\] Alt text: Create a Sighting Search Parameter
 
 8.  On the form, fill the fields.
 
@@ -97,5 +98,5 @@ To create a sighting search parameter, perform the following steps:
 
 9.  Click **Save**.
 
-**Parent Topic:**[Configure Sighting Search](../task/configure-sighting-search.md)
+**Parent Topic:**[Configure Sighting Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/configure-sighting-search.md)
 

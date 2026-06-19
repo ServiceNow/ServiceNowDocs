@@ -2,6 +2,7 @@
 title: Complete the prerequisites to manage your documents using Microsoft
 description: Complete the prerequisites to manage your documents using Microsoft so that you can enable the cloud file integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/enable-onedrive-int-on-a-table.html
 release: zurich
 product: Audit Management
 classification: audit-management
@@ -39,12 +40,12 @@ Ensure that you have installed the following applications:
 
     -   For grant type as **Client Credentials**, the required API permissions in Azure application registration are **Files.Read.All** and **Files.ReadWrite.All**.
 
-    For more information, see [Document Services Framework for Microsoft OneDrive](https://www.servicenow.com/docs/access?context=onedrive-spoke-document-services-framework&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    For more information, see .
 
 2.  Navigate to the **Cloud file configurations** module and configure this feature for Engagement and Audit tasks.
 
     The Cloud file configuration record is displayed.
 
-    For more information on the fields, see [Create a Cloud file configuration record](manage-access-permissions-to-the-cloud-file.md).
+    For more information on the fields, see [Create a Cloud file configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/manage-access-permissions-to-the-cloud-file.md).
 
 

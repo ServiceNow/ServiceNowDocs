@@ -2,6 +2,7 @@
 title: Use hierarchical list view for quote line items
 description: Sales agents can view quote line items as a hierarchical list, which helps to view the parent and child relationship between line items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/quote-management-view-hierarchical-line-items.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+1.  In the CSM Configurable Workspace, select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 2.  Navigate to **Quotes** &gt; **All**.
 
@@ -31,12 +32,12 @@ Role required: sales\_agent
 
     |Control|Description|
     |-------|-----------|
-    |Caret ![](../image/icon-caret.png)|Opens the hierarchical list view showing the child line items.|
-    |Pencil ![](../image/icon-pencil.png)|Make additional configuration changes to the products in the line item.|
-    |Number ![](../image/icon-list-item-number.png)|Shows the number of child line items contained in the parent line item.|
-    |Filter ![](../image/icon-filter.png)|Filters line items.|
-    |Toggle ![](../image/icon-list-toggle.png)|Toggles between hierarchical view and standard view.|
+    |Caret \[Omitted image "icon-caret.png"\] Alt text:|Opens the hierarchical list view showing the child line items.|
+    |Pencil \[Omitted image "icon-pencil.png"\] Alt text:|Make additional configuration changes to the products in the line item.|
+    |Number \[Omitted image "icon-list-item-number.png"\] Alt text:|Shows the number of child line items contained in the parent line item.|
+    |Filter \[Omitted image "icon-filter.png"\] Alt text:|Filters line items.|
+    |Toggle \[Omitted image "icon-list-toggle.png"\] Alt text:|Toggles between hierarchical view and standard view.|
 
 
-**Parent Topic:**[Using Quote Management](../concept/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-mgmt-using.md)
 

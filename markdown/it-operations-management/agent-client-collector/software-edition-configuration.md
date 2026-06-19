@@ -2,6 +2,7 @@
 title: Software edition configuration fields
 description: Description of the software edition configuration fields in use when identifying the edition of Windows software.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/software-edition-configuration.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector

@@ -2,6 +2,7 @@
 title: Remove Conversational Integration with LINE
 description: Users can remove the Conversational Integration with LINE application when the app is no longer needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/remove-conv-integ-line.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent

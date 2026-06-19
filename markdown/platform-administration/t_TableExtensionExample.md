@@ -2,6 +2,7 @@
 title: Apply table extension
 description: Preserve data sets using table extension.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/t\_TableExtensionExample.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -60,7 +61,7 @@ The days and hours during which data is written to each shard.
 </td></tr></tbody>
 </table>4.  Select **Submit**.
 
-    ![New table extension](../image/TableExtension.png)
+    \[Omitted image "TableExtension.png"\] Alt text: New table extension
 
 
 ## Result
@@ -69,5 +70,5 @@ A schedule is created and new shards are added indefinitely to preserve data.
 
 **Note:** Deleting a rotation deletes the additional tables and all the data. Do not delete the rotation if you still need the data.
 
-**Parent Topic:**[Table extension](../../managing-data/concept/table-extension.md)
+**Parent Topic:**[Table extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-extension.md)
 

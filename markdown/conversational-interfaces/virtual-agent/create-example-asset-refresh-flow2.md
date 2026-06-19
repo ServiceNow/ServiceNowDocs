@@ -2,6 +2,7 @@
 title: Create the Open Incident workflow in the Asset Refresh topic
 description: Each Decision branch introduces additional workflows. After creating our main Asset Refresh workflow, we need to ensure that the user can get help if something goes wrong. In this example, we will help the user create an incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/create-example-asset-refresh-flow2.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Each Decision branch introduces additional workflows. After creating our main As
 
 ## Before you begin
 
-[Create the Asset Refresh topic in Virtual Agent Designer](create-example-conv-asset-refresh.md)
+[Create the Asset Refresh topic in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-example-conv-asset-refresh.md)
 
 Role required: virtual\_agent\_admin or admin
 
@@ -35,7 +36,7 @@ Role required: virtual\_agent\_admin or admin
 
         For example, name the node `Open Incident`. For the **Response message**, type `Since you no longer have the device, we need to open an incident.`
 
-        ![The Open Incident text bot response appears in the false decision flow for the Boolean question. The user will be prompted to open an incident.](../images/crawl-ex-open-incident-txt.png)
+        \[Omitted image "crawl-ex-open-incident-txt.png"\] Alt text: The Open Incident text bot response appears in the false decision flow for the Boolean question. The user will be prompted to open an incident.
 
 3.  Add a Topic Block utility to node to create the incident.
 
@@ -47,11 +48,11 @@ Role required: virtual\_agent\_admin or admin
 
         -   For the caller, specify Input Variables &gt; User.
         -   For the short description, specify Input Variables &gt; Asset Lookup &gt; Asset tag.
-        ![Use dot-walking to designate input mapping variables for the Incident. User is the session user, and the Asset tag is derived from the previous Asset Lookup node.](../images/crawl-ex-incident-input-vars.png)
+        \[Omitted image "crawl-ex-incident-input-vars.png"\] Alt text: Use dot-walking to designate input mapping variables for the Incident. User is the session user, and the Asset tag is derived from the previous Asset Lookup node.
 
     4.  Under Output mapping, make sure to enable the created\_incident\_sys\_id variable.
 
-        ![Select the Enable box for created_incident_sys_id to pass the Incident ID back to Virtual Agent.](../images/crawl-ex-incident-output-var.png)
+        \[Omitted image "crawl-ex-incident-output-var.png"\] Alt text: Select the Enable box for created\_incident\_sys\_id to pass the Incident ID back to Virtual Agent.
 
 4.  Drag this flow's arrow to the End node to complete this part of the workflow.
 
@@ -60,5 +61,5 @@ Role required: virtual\_agent\_admin or admin
 
 ## What to do next
 
-[Create the More Information workflow in the Asset Refresh topic](create-example-asset-refresh-flow3.md)
+[Create the More Information workflow in the Asset Refresh topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-example-asset-refresh-flow3.md)
 

@@ -2,6 +2,7 @@
 title: Operational Technology Knowledge Management
 description: ServiceNow Operational Technology Knowledge Management can help you collect, organize, and share knowledge about your Operational Technology \(OT\) system, its devices, and the resolved incidents within your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-knowledge-management/operational-technology-knowledge-management-landing-page.html
 release: zurich
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
@@ -17,19 +18,19 @@ ServiceNow® Operational Technology Knowledge Management can help you collect, o
 
 <table id="table_e3m_qbq_3rb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Exploring Operational Technology Knowledge Management](exploring-operational-technology-knowledge-management.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Exploring Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-knowledge-management/exploring-operational-technology-knowledge-management.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Plan and configure your implementation](configuring-operational-technology-knowledge-management.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-knowledge-management/configuring-operational-technology-knowledge-management.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-management-console.svg)Using Operational Technology Knowledge Management](using-operational-technology-knowledge-management.md)
+[Use\[Omitted image "bus-management-console.svg"\] Alt text:Using Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-knowledge-management/using-operational-technology-knowledge-management.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about related information and applications](operational-technology-knowledge-management-reference-landing-page.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about related information and applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-knowledge-management/operational-technology-knowledge-management-reference-landing-page.md)
 
 </td></tr></tbody>
 </table>

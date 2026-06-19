@@ -2,6 +2,7 @@
 title: Landing page configuration example
 description: Learn how to configure a landing page through an example configuration process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/landing-page-example.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -17,7 +18,7 @@ Learn how to configure a landing page through an example configuration process.
 
 ## Before you begin
 
-Create a variant of your landing page. For more information, see [Create a landing page variant](configure-report-aws.md).
+Create a variant of your landing page. For more information, see [Create a landing page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/configure-report-aws.md).
 
 Role required: sn\_hr\_agent\_ws.admin and sn\_hr\_core.basic
 
@@ -33,11 +34,11 @@ The configuration example shows how you would configure an **HR Cases closed in 
 
 3.  Select the **Editor** tab if it is not already selected.
 
-4.  In the Page content panel, select **Container 7**.![Container 7 in the Page content panel](../image/uib-container-seven.png)
+4.  In the Page content panel, select **Container 7**.\[Omitted image "uib-container-seven.png"\] Alt text: Container 7 in the Page content panel
 
-5.  In the Configuration panel, create three columns by entering `3` in the **Columns** field.![Column entry in the Configuration panel](../image/uib-container-seven-config.png)
+5.  In the Configuration panel, create three columns by entering `3` in the **Columns** field.\[Omitted image "uib-container-seven-config.png"\] Alt text: Column entry in the Configuration panel
 
-6.  Select the more icon \(![More icon](../../legal-simple-contracts/image/menu-icon.png)\) beside **Column 2**.
+6.  Select the more icon \(\[Omitted image "menu-icon.png"\] Alt text: More icon\) beside **Column 2**.
 
 7.  Select **Add after**.
 
@@ -45,7 +46,7 @@ The configuration example shows how you would configure an **HR Cases closed in 
 
     A container is an area of the page where you add information, images, or functionality \(your components\). You can have several containers on a page, nest containers within containers, and include several components in the containers.
 
-9.  Add a component by selecting **+Add component** under the container.![Add component](../image/add-component.png)
+9.  Add a component by selecting **+Add component** under the container.\[Omitted image "add-component.png"\] Alt text: Add component
 
     This example uses **Container 23**.
 
@@ -53,7 +54,7 @@ The configuration example shows how you would configure an **HR Cases closed in 
 
 11. Add a data source.
 
-    1.  In the Configuration panel, select **+ Add data source**.![Adding a data source](../image/add-data-source.png)
+    1.  In the Configuration panel, select **+ Add data source**.\[Omitted image "add-data-source.png"\] Alt text: Adding a data source
 
     2.  In the **Select a source** field, enter `HR Case`.
 
@@ -77,7 +78,7 @@ The configuration example shows how you would configure an **HR Cases closed in 
         -   Enter value: `Last week`
     8.  Select **Add this source**.
 
-12. In the Configurations panel, expand **Additional settings**.![Additional settings in the Configuration panel](../image/additional-settings.png)
+12. In the Configurations panel, expand **Additional settings**.\[Omitted image "additional-settings.png"\] Alt text: Additional settings in the Configuration panel
 
 13. Add additional data to display by enabling **Show metric label** and **Show score update time**.
 
@@ -94,5 +95,5 @@ The configuration example shows how you would configure an **HR Cases closed in 
     4.  Select **Save**.
 
 
-**Parent Topic:**[Create a landing page variant](configure-report-aws.md)
+**Parent Topic:**[Create a landing page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/configure-report-aws.md)
 

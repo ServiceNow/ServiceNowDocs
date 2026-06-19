@@ -2,6 +2,7 @@
 title: Reindex a table without impacting text search results
 description: Rebuild text search indexes without adversely impacting search results. You can continue to perform text searches on a table while the index regeneration takes place.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/search-administration/real-time-reindexing.html
 release: zurich
 product: Search Administration
 classification: search-administration
@@ -17,11 +18,11 @@ Rebuild text search indexes without adversely impacting search results. You can 
 
 ## Before you begin
 
-The table that you want to rebuild the index for must already be configured for indexing and searching. For details on this configuration process, see [Configure a table for indexing and searching](configure-single-table-for-indexing.md#).
+The table that you want to rebuild the index for must already be configured for indexing and searching. For details on this configuration process, see [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/search-administration/configure-single-table-for-indexing.md).
 
 Role required: admin
 
-**Note:** If the **glide.script\_processor.admin** system property's value has been changed from the default value, you need the role specified by that property value. For details on this property value and its effects, see [Restrict access to background script \[Updated in Security Center 1.3 and 2.0\]](https://www.servicenow.com/docs/access?context=sc-restrict-access-to-background-script&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+**Note:** If the **glide.script\_processor.admin** system property's value has been changed from the default value, you need the role specified by that property value. For details on this property value and its effects, see .
 
 ## About this task
 
@@ -31,7 +32,7 @@ This reindexing method doesn't purge the entire text search index before the reb
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Scripts - Background**.
 
-    **Note:** If the **glide.script\_processor.admin** system property's value is set to security\_admin, you must elevate to that privileged role to access this module. For more information on elevating privileges, see [Elevated privilege roles](https://www.servicenow.com/docs/access?context=c_ElevatedPrivilege&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+    **Note:** If the **glide.script\_processor.admin** system property's value is set to security\_admin, you must elevate to that privileged role to access this module. For more information on elevating privileges, see .
 
 2.  In the **Run script \(JavaScript executed on server\)** text field, enter the following background script, being sure to enclose both arguments in quotes as shown:
 
@@ -61,5 +62,5 @@ This reindexing method doesn't purge the entire text search index before the reb
 
 The system reindexes the text search for the specified table. For large tables, such as sys\_metadata, reindexing can take a couple of hours, but you can still perform text searches on the table while the script is running.
 
-**Parent Topic:**[Regenerate a text index for a table](t_RegenerateATextIndexForATable.md)
+**Parent Topic:**[Regenerate a text index for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/search-administration/t_RegenerateATextIndexForATable.md)
 

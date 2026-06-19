@@ -2,6 +2,7 @@
 title: Configure maximum multiple appointments
 description: Enhance Walk-up Experience service experience by helping requesters to book multiple appointments simultaneously. You can configure the location to accept multiple bookings and also decide the maximum number of appointments a requester can book at a location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/walk-up-experience/configure-max-multiple-appointments.html
 release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -23,9 +24,9 @@ Scheduling multiple appointments, the requesters and the agents can maintain the
 
 **Implementation**
 
--   **Administrators:** The administrators can decide and configure the maximum number of appointments a requester can book for a particular location. For example, at Santa Clara tech lounge location, set up the maximum number of appointments as 2. The requester can only schedule two appointments in advance. If maximum number of appointments per user is changed or modified, existing appointments are not affected. The change is applied to all future appointment bookings. To configure and set the maximum number of appointments at a location, see [Create or modify Walk-up Experience locations](../task/configure-walkup-location.md).
--   **Agents:**To book a walk-up appointment on behalf of the requesters when incident resolution requires requesters for a follow-up visit, see [Create an appointment through incident](../task/walkup-create-appointment-through-incident.md)
--   **Requesters:**To book multiple appointments and plan walk-up visits in advance, see [Plan your walk-up experience visit with Employee Center](../task/plan-your-visit.md).
+-   **Administrators:** The administrators can decide and configure the maximum number of appointments a requester can book for a particular location. For example, at Santa Clara tech lounge location, set up the maximum number of appointments as 2. The requester can only schedule two appointments in advance. If maximum number of appointments per user is changed or modified, existing appointments are not affected. The change is applied to all future appointment bookings. To configure and set the maximum number of appointments at a location, see [Create or modify Walk-up Experience locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/configure-walkup-location.md).
+-   **Agents:**To book a walk-up appointment on behalf of the requesters when incident resolution requires requesters for a follow-up visit, see [Create an appointment through incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walkup-create-appointment-through-incident.md)
+-   **Requesters:**To book multiple appointments and plan walk-up visits in advance, see [Plan your walk-up experience visit with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/plan-your-visit.md).
 
-**Parent Topic:**[Walk-up Experience appointment booking administration](walkup-appointment-administration.md)
+**Parent Topic:**[Walk-up Experience appointment booking administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walkup-appointment-administration.md)
 

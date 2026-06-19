@@ -2,6 +2,7 @@
 title: Trigger ServiceNow AI Lens from the desktop app
 description: Trigger ServiceNow AI Lens from the desktop app by using a Lens action to preview the extracted data and initiate post processing or auto-fill a form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/servicenow-lens/preview-desktop-others-lens.html
 release: zurich
 product: ServiceNow Lens
 classification: servicenow-lens
@@ -17,15 +18,15 @@ Trigger ServiceNow AI Lens from the desktop app by using a Lens action to previe
 
 ## Before you begin
 
-To access the ServiceNow AI Lens functionality, perform the following steps:
+Perform the following tasks on the ServiceNow instance:
 
--   Install ServiceNow AI Lens on your ServiceNow instance. For more information, see [Install the ServiceNow Lens in the ServiceNow instance](install-sn-lens.md).
--   Turn on the ServiceNow AI Lens skill to add the generative AI capability. For more information, see [Activate the ServiceNow AI Lens skill](activate-lens-skill.md).
--   Download the ServiceNow AI Lens installer to scan your desktop screen. For more information, see [Download the ServiceNow AI Lens installer](download-sn-lens-msi.md).
+-   Turn on the ServiceNow AI Lens skill to add the generative AI capability. For more information, see [Activate the ServiceNow AI Lens skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/activate-lens-skill.md).
+-   Download the ServiceNow AI Lens installer. For more information, see [Download the ServiceNow AI Lens installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md).
+-   Install ServiceNow AI Lens on your ServiceNow instance. For more information, see [Install the ServiceNow Lens in the ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/install-sn-lens.md).
 
-Verify that you've defined the Lens action for this purpose. For more information, see [Define a Lens action.](../concept/servicenow-lens-actions.md#)
+Verify that you've defined the Lens action for this purpose. For more information, see [Define a Lens action.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
 
-Verify that ServiceNow AI Lens has access to record the screen on your system. For more information, see [Providing permission to ServiceNow AI Lens](download-sn-lens-msi.md#lens-permission).
+Verify that ServiceNow AI Lens has access to record the screen on your system. For more information, see [Providing permission to ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md).
 
 You must have create and update access privileges for creating or updating a record using ServiceNow AI Lens.
 
@@ -48,7 +49,7 @@ By using Lens actions, you can perform one of the following tasks:
 
 ## Procedure
 
-1.  From your system, launch the ServiceNow AI Lens application.
+1.  From your system, launch the ServiceNow AI Lens desktop application.
 
 2.  On the login page, in the **Instance URL** field, enter the ServiceNow instance URL.
 
@@ -60,9 +61,13 @@ By using Lens actions, you can perform one of the following tasks:
 
     Your account must have the lens\_user role.
 
+    **Note:**
+
+    -   If your administrator has enabled auto-login, you can skip signing in every time you launch ServiceNow AI Lens. After your first login, ServiceNow AI Lens automatically takes you to the home page on subsequent launches as long as your session is active. If your session expires or you sign out, ServiceNow AI Lens shows the login screen again. For more information, see [Set up auto-login for ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/configure-instance-url-and-auto-login.md).
+    -   On macOS, when you launch ServiceNow AI Lens desktop app for the first time, your Mac asks whether ServiceNow AI Lens can store your login credentials. Select **Always Allow** to avoid entering your credentials every time you open the application.
 5.  On the onboarding journey widget, complete the onboarding and select **Got it**.
 
-    ![Onboarding journey widget with three pages to show you the highlights of the application.](../image/onboarding-widget-lens.png)
+    \[Omitted image "onboarding-widget-lens.png"\] Alt text: Onboarding journey widget with three pages to show you the highlights of the application.
 
     If you launch the ServiceNow AI Lens for the first time, the onboarding journey widget appears. You can select **Don't show me again** to hide the widget the next time you launch ServiceNow AI Lens.
 
@@ -70,7 +75,7 @@ By using Lens actions, you can perform one of the following tasks:
 
 7.  Select **Proceed with Lens**.
 
-    ![Proceed with Lens button.](../image/lens-actions-home-screen.png)
+    \[Omitted image "lens-actions-home-screen.png"\] Alt text: Proceed with Lens button.
 
     Lens scanner opens in a separate window.
 
@@ -86,45 +91,45 @@ By using Lens actions, you can perform one of the following tasks:
 
 10. Extract data from a single screen.
 
-    1.  Enter additional instructions to extract, analyze, and organize data by selecting the Edit icon \(![Edit icon.](../image/lens-instructions-icon.png)\) and then enter the instructions.
+    1.  Enter additional instructions to extract, analyze, and organize data by selecting the Edit icon \(\[Omitted image "lens-instructions-icon.png"\] Alt text: Edit icon.\) and then enter the instructions.
 
         The default character limit is 500. Users with the admin role can increase this limit to up to 5000 characters by navigating to the `sn_lens_user_prompt_max_length` system property.
 
-        ![Capture data from a single screen](../image/lens-action-submit-form.png "Capture data from a single screen")
+        \[Omitted image "lens-action-submit-form.png"\] Alt text: Capture data from a single screen
 
         **Note:** This is an optional step.
 
-        **Tip:** Use the Upload file icon \(![File Upload icon.](../image/lens-file-upload-icon.png)\) to upload a file from which data is extracted. For more information, see [sn-lens-standalone-app.md\#upload-files-steps](sn-lens-standalone-app.md#upload-files-steps)
+        **Tip:** Use the Upload file icon \(\[Omitted image "lens-file-upload-icon.png"\] Alt text: File Upload icon.\) to upload a file from which data is extracted. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/sn-lens-standalone-app.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/sn-lens-standalone-app.md)
 
     2.  Select **Analyze**.
 
         The ServiceNow AI Lens preview window displays the extracted output in an editable form.
 
-        ![Preview of extracted output displayed](../image/lens-action-form-preview-window.png "Preview of extracted output displayed in an editable form")
+        \[Omitted image "lens-action-form-preview-window.png"\] Alt text: Preview of extracted output displayed
 
 11. Extract data from multiple screenshots.
 
-    1.  To provide additional instructions to extract, analyze, and organize data, select the Edit icon \(![Edit icon.](../image/lens-instructions-icon.png)\) and then enter the instructions.
+    1.  To provide additional instructions to extract, analyze, and organize data, select the Edit icon \(\[Omitted image "lens-instructions-icon.png"\] Alt text: Edit icon.\) and then enter the instructions.
 
         The default character limit is 500. Users with the admin role can increase this limit to up to 5000 characters by navigating to the `sn_lens_user_prompt_max_length` system property.
 
         **Note:** This is an optional step.
 
-    2.  Select the **Multi-capture** button ![Multi-capture icon.](../image/multi-capture-icon.png).
+    2.  Select the **Multi-capture** button \[Omitted image "multi-capture-icon.png"\] Alt text: Multi-capture icon..
 
-        **Tip:** Use the Upload file icon \(![File Upload icon.](../image/lens-file-upload-icon.png)\) to upload one or more files. For more information, see [sn-lens-standalone-app.md\#upload-files-steps](sn-lens-standalone-app.md#upload-files-steps)
+        **Tip:** Use the Upload file icon \(\[Omitted image "lens-file-upload-icon.png"\] Alt text: File Upload icon.\) to upload one or more files. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/sn-lens-standalone-app.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/sn-lens-standalone-app.md)
 
-    3.  Select the Capture icon \(![Capture icon.](../image/capture-icon.png)\)
+    3.  Select the Capture icon \(\[Omitted image "capture-icon.png"\] Alt text: Capture icon.\)
 
         The first screenshot is captured.
 
-    4.  Place the ServiceNow AI Lensscannerwindow over another document or page and then select the Capture icon ![Capture icon.](../image/capture-icon.png)\).
+    4.  Place the ServiceNow AI Lensscannerwindow over another document or page and then select the Capture icon \[Omitted image "capture-icon.png"\] Alt text: Capture icon.\).
 
         The second screenshot is captured.
 
         Repeat the step to capture more screenshots, if required.
 
-        ![Display of the number of screenshots captured.](../image/lens-action-multi-capture-scrnshts.png "Display of the number of screenshots captured")
+        \[Omitted image "lens-action-multi-capture-scrnshts.png"\] Alt text: Display of the number of screenshots captured.
 
         **Note:**
 
@@ -136,31 +141,31 @@ By using Lens actions, you can perform one of the following tasks:
             |glide.rest.max\_content\_length|Integer|15|
             |glide.rest.scripted.max\_inbound\_content\_length\_mb|Integer|15|
 
-            For more information, see [Configure system property](https://www.servicenow.com/docs/access?context=r_ControllingMaxRequestSize&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+            For more information, see Configure system property
 
             **Note:** You must have the admin role to set the system properties.
 
-    5.  To complete the capture, select the Done icon \(![Capture complete icon.](../image/lens-capture-done-icon.png)\).
+    5.  To complete the capture, select the Done icon \(\[Omitted image "lens-capture-done-icon.png"\] Alt text: Capture complete icon.\).
 
     6.  Select **Analyze**.
 
         The data is extracted from the screenshots and the form that you can update and submit is shown.
 
-        ![Data extracted from multiple screenshots and editable form shown.](../image/lens-multi-scrnsht-submit-form.png "Data extracted from multiple screenshots and editable form shown")
+        \[Omitted image "lens-multi-scrnsht-submit-form.png"\] Alt text: Data extracted from multiple screenshots and editable form shown.
 
-        ![Lens action data preview.](../image/lens-action-data-preview.png "Lens action data preview")
+        \[Omitted image "lens-action-data-preview.png"\] Alt text: Lens action data preview.
 
 12. Depending on the type of Lens action selected, perform the following steps.
 
-<table id="choicetable_vdv_pdx_mgc"><thead><tr><th align="left" id="d116007e695">
+<table id="choicetable_vdv_pdx_mgc"><thead><tr><th align="left" id="d39428e747">
 
 Task
 
-</th><th align="left" id="d116007e698">
+</th><th align="left" id="d39428e750">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d116007e704">
+</th></tr></thead><tbody><tr><td id="d39428e756">
 
 **Filling form**
 
@@ -170,14 +175,14 @@ Steps
 2.  On the form header in the Preview window, select **Submit** to save the filled form on the instance.
 
 
-</td></tr><tr><td id="d116007e725">
+</td></tr><tr><td id="d39428e777">
 
 **Previewing extracted data**
 
 </td><td>
 
 1.  \(Optional\) In case of editable preview, if necessary, edit the auto-filled field values before saving or copying the values.
-2.  \(Optional\) Copy the previewed data by selecting the Copy icon ![](../../../administer/document-intelligence/image/icon-docintel-na-copy.png).
+2.  \(Optional\) Copy the previewed data by selecting the Copy icon \[Omitted image "icon-docintel-na-copy.png"\] Alt text:.
 
 
 </td></tr></tbody>

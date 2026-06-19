@@ -2,6 +2,7 @@
 title: Accessing Microsoft Teams meeting transcripts
 description: The Notify Connector for Microsoft Teams can automatically retrieve and store meeting transcripts from Microsoft Teams meetings in ServiceNow
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/teams-meeting-transcript.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,8 +20,8 @@ If you choose to download the transcript, ServiceNow will save meeting transcrip
 
 Meeting transcripts from Microsoft Teams are retrieved through the Microsoft Graph Events API and stored in the Notify TRanscript and Summary table. You can configure how transcripts are processed based on your organization's requirements for storage, compliance, and accessibility.
 
--   **[Configure to download the Microsoft Teams transcript](../task/configure-teams-transcript.md)**  
+-   **[Configure to download the Microsoft Teams transcript](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/configure-teams-transcript.md)**  
 Configure how the Notify Connector for Microsoft Teams processes and stores meeting transcripts in ServiceNow.
 
-**Parent Topic:**[Configure Notify connector for Microsoft Teams](config-notify-ms-teams.md)
+**Parent Topic:**[Configure Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/config-notify-ms-teams.md)
 

@@ -2,6 +2,7 @@
 title: SLARepair - Global
 description: The SLARepair script include provides methods that delete the existing SLAs and then recreates them from each task's history.Repair the task SLAs associated with the passed-in filter and source table.Repair the task SLAs associated with the passed in GlideRecord.Repair the task SLAs associated with the passed in sys\_id and source table.Enables or disables auditing when running a repair.Enables or disables running a workflow for each of the Task SLA records being repaired.Validates the repair request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_SLARepair.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The SLARepair script include provides methods that delete the existing SLAs and then recreates them from each task's history.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## SLARepair - repairByFilter\(String filter, String sourceTable\)
 

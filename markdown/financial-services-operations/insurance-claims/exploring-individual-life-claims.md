@@ -2,6 +2,7 @@
 title: Exploring Individual Life Claims
 description: Learn how your first-notice-of-loss \(FNOL\) representatives, adjusters, and managers can use Individual Life Claims to create and manage individual life insurance claims.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/exploring-individual-life-claims.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims

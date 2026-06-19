@@ -2,6 +2,7 @@
 title: Create and track plans for your employees
 description: Create and manage employee transition plans by using Journey Accelerator templates. You can use role-based plans to create consistent plans for different roles on your team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-accelerator/create-employee-plan.html
 release: zurich
 product: Journey Accelerator
 classification: journey-accelerator
@@ -75,13 +76,13 @@ Role required: All employees with direct reports
 
     -   Click **Edit plan details** to edit the plan name, add or remove a mentor, set a mentor's permission, or edit the plan description.
     -   Click **Delete plan** to remove the entire plan from the Employee Center.
-    You can edit existing plans at any time before the plan is marked complete. See [Edit existing Journey Accelerator plans](manager-edit-plans.md).
+    You can edit existing plans at any time before the plan is marked complete. See [Edit existing Journey Accelerator plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/manager-edit-plans.md).
 
 
--   **[Edit existing Journey Accelerator plans](manager-edit-plans.md)**  
+-   **[Edit existing Journey Accelerator plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/manager-edit-plans.md)**  
 Edit existing Journey Accelerator plans by adding, removing, or rearranging stages and tasks to meet the needs of the employee and your team.
--   **[Manage action plan to-do tasks and create templates](../concept/manage-todo-tasks-as-manager.md)**  
+-   **[Manage action plan to-do tasks and create templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/manage-todo-tasks-as-manager.md)**  
 Create, modify, and manage to-do tasks for employees and mentors as part of your management responsibilities.
 
-**Parent Topic:**[Working with Journey Accelerator plans](../concept/working-with-journey-accelerator-plans.md)
+**Parent Topic:**[Working with Journey Accelerator plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/working-with-journey-accelerator-plans.md)
 

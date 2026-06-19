@@ -2,6 +2,7 @@
 title: View permissions for a role
 description: Use Access Analyzer to view permissions for a selected role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/view-permissions-for-a-role.html
 release: zurich
 product: Access Control
 classification: access-control
@@ -84,7 +85,7 @@ Specify a REST endpoint method. For example, GET.
 
 4.  Select **Analyze permissions**.
 
-    ![REST endpoint permissions](../images/view-permissions-for-a-role.png)
+    \[Omitted image "view-permissions-for-a-role.png"\] Alt text: REST endpoint permissions
 
     The **Access results** for the **user\_admin** role is displayed.
 

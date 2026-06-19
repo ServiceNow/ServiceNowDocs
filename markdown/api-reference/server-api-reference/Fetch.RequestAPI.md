@@ -2,6 +2,7 @@
 title: Fetch Request - Scoped, Global
 description: The Fetch Request API contains methods for creating or retrieving a Request object to allow applications to asynchronously request resources, such as JSON, text, or binary data, from a server, and handle the response. This API supports various HTTP methods like GET, POST, PUT, DELETE, and so on.Creates a new Request object. Optionally create the Request object from a URL or object resource.Reads the request body and returns it as a promise that resolves with an arrayBuffer.Reads the request body and returns it as a promise that resolves with a Blob.Reads the request body and returns it as a promise that resolves with an Uint8Array.Creates a copy of the current Request object.Reads the request body and returns it as a promise that resolves with a FormData object.Reads the request body, parses the content as JSON, and returns a promise that resolves with the parsed result.Reads the request body and returns it as a promise that resolves with a String decoded using UTF-8.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/Fetch.RequestAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,13 +18,13 @@ The Fetch Request API contains methods for creating or retrieving a Request obje
 
 This API is part of a set of Fetch APIs, which provide various actions for fetching resources from external websites. The full Fetch API collection includes:
 
--   [Fetch - fetch\(String resource, Object options\)](FetchAPI.md#): Start the process of fetching a resource from the network.
--   [Fetch Headers - Scoped, Global](Fetch.HeadersAPI.md#): Retrieve and modify request and response headers.
--   [Fetch Request - Scoped, Global](Fetch.RequestAPI.md#): Create a new request object.
--   [Fetch RequestInit - Scoped, Global](Fetch.RequestInitAPI.md#): Set options to configure a fetch request.
--   [Fetch Response - Scoped,Global](Fetch.ResponseAPI.md#): Create a new response object.
+-   [Fetch - fetch\(String resource, Object options\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/FetchAPI.md): Start the process of fetching a resource from the network.
+-   [Fetch Headers - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/Fetch.HeadersAPI.md): Retrieve and modify request and response headers.
+-   [Fetch Request - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/Fetch.RequestAPI.md): Create a new request object.
+-   [Fetch RequestInit - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/Fetch.RequestInitAPI.md): Set options to configure a fetch request.
+-   [Fetch Response - Scoped,Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/Fetch.ResponseAPI.md): Create a new response object.
 
-To support fetch actions, the system property, `glide.hosts.allowlist`, allows controls over what hosts a fetch method can access. It applies to HTTP APIs like RestMessageV2 and those mentioned above. For more information about `glide.hosts.allowlist`, see [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+To support fetch actions, the system property, `glide.hosts.allowlist`, allows controls over what hosts a fetch method can access. It applies to HTTP APIs like RestMessageV2 and those mentioned above. For more information about `glide.hosts.allowlist`, see .
 
 ## Request properties
 
@@ -512,7 +513,7 @@ const myURL = myRequest.url; // "https://github.com/mdn/dom-examples/tree/main/f
 ```
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+</table>**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## Fetch Request - Request\(\)
 
@@ -560,7 +561,7 @@ Object
 
 </td><td>
 
-Optional. A [Fetch RequestInit - Scoped, Global](Fetch.RequestInitAPI.md#) object containing any custom settings to apply to the request. If you construct a new request from an existing request, options set in the new request override any corresponding options in the original request.Default: Returns default values for all properties.
+Optional. A [Fetch RequestInit - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/Fetch.RequestInitAPI.md) object containing any custom settings to apply to the request. If you construct a new request from an existing request, options set in the new request override any corresponding options in the original request.Default: Returns default values for all properties.
 
 </td></tr></tbody>
 </table>The following example shows how to create a new Request object using the Request\(\) constructor.
@@ -691,7 +692,7 @@ Creates a copy of the current Request object.
 
 |Type|Description|
 |----|-----------|
-|Request|A Request object that is an exact copy of the request that `clone()` was called on. `clone()` throws a error if the request body has already been used. If you want to modify the request, you use the [Fetch Request - Request\(\)](Fetch.RequestAPI.md#) constructor.|
+|Request|A Request object that is an exact copy of the request that `clone()` was called on. `clone()` throws a error if the request body has already been used. If you want to modify the request, you use the [Fetch Request - Request\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/Fetch.RequestAPI.md) constructor.|
 
 The following example demonstrates how to create a new request using request\(\) and then copy it using clone\(\).
 

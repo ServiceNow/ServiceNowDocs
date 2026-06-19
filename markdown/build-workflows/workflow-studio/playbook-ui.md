@@ -2,6 +2,7 @@
 title: About Playbook Experience
 description: Interact with a business workflow in real time from within Workspace. Agents can use Playbook Experience to update records, upload attachments, and complete tasks across multiple workflow activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/playbook-ui.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -37,20 +38,20 @@ Playbooks contain helpful UI features.
 
     The stage progress updates as activities are completed. A checkmark inside the playbook header indicates that the stage is complete.
 
-    ![Stage status complete and in progress](../image/playbook-stage-progress.png)
+    \[Omitted image "playbook-stage-progress.png"\] Alt text: Stage status complete and in progress
 
-    Use the stage filter \(![Playbook filter icon](../image/playbook-hr-filter-icon.png)\) to filter a playbook.
+    Use the stage filter \(\[Omitted image "playbook-hr-filter-icon.png"\] Alt text: Playbook filter icon\) to filter a playbook.
 
-    ![stage filter selections](../image/playbook-stage-filter.png)
+    \[Omitted image "playbook-stage-filter.png"\] Alt text: stage filter selections
 
-    Use the ellipses action menu icon \(![Playbook action menu icon](../image/playbook-ellipses.png)\) to perform select actions at the playbook and stage level.
+    Use the ellipses action menu icon \(\[Omitted image "playbook-ellipses.png"\] Alt text: Playbook action menu icon\) to perform select actions at the playbook and stage level.
 
-    ![Playbook action menu at playbook level](../image/playbook-ellipses-menu.png)
+    \[Omitted image "playbook-ellipses-menu.png"\] Alt text: Playbook action menu at playbook level
 
 -   **Activity cards**
 
     Playbook activity cards display details about an activity, which may include the status, SLA timer, form data, and attachments. Use playbook activity cards to complete tasks by filling in forms, completing checklists, and adding attachments.
 
 
-**Parent Topic:**[Running playbooks](playbook-agents-and-fulfillers.md)
+**Parent Topic:**[Running playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
 

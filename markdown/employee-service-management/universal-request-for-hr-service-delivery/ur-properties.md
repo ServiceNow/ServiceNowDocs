@@ -2,6 +2,7 @@
 title: Universal Request properties
 description: Administrators can use Universal Request properties to determine and configure the application behavior.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-properties.html
 release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -256,5 +257,5 @@ sn\_uni\_req.com.snc.ur.request\_integration
 Creates a universal request when a request is submitted from a catalog item or record producer.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Universal Request reference](ur-reference-topic.md)
+</table>**Parent Topic:**[Universal Request reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-reference-topic.md)
 

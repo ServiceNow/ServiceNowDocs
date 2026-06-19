@@ -2,6 +2,7 @@
 title: Interaction wrap up scheduled job
 description: The interaction wrap up feature includes a scheduled job to close any interactions in the Wrap Up state that were not closed either manually by an agent or automatically by the system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/interaction-management/interaction-wrap-up-scheduled-job.html
 release: zurich
 product: Interaction Management
 classification: interaction-management
@@ -18,7 +19,7 @@ The interaction wrap up feature includes a scheduled job to close any interactio
 Ending the wrap up period is typically performed in the following ways:
 
 -   Manually by the agent.
--   Automatically by the system, if the **Enforce wrap up duration** setting is enabled in the [interaction wrap up configuration](../task/create-interaction-wrap-up-config.md).
+-   Automatically by the system, if the **Enforce wrap up duration** setting is enabled in the [interaction wrap up configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/interaction-management/create-interaction-wrap-up-config.md).
 -   By closing the workspace tab.
 
 While most interaction records are automatically closed when the configured wrap up period ends, the interaction wrap up feature also includes a scheduled job to close any remaining records. For example, if the **Enforce wrap up duration** setting is not enabled in the configuration and agents close interactions by closing the browser, these interactions can remain in the Wrap Up state.
@@ -36,5 +37,5 @@ The default run interval for this scheduled job is five minutes. The system admi
 
 **Note:** This scheduled job is inactive by default.
 
-**Parent Topic:**[Interaction wrap up](interaction-wrap-up-state.md)
+**Parent Topic:**[Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/interaction-management/interaction-wrap-up-state.md)
 

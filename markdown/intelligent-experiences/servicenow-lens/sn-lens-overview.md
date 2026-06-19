@@ -2,6 +2,7 @@
 title: ServiceNow AI Lens desktop app landing page overview
 description: Learn about the ServiceNow AI Lens desktop application landing page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/servicenow-lens/sn-lens-overview.html
 release: zurich
 product: ServiceNow Lens
 classification: servicenow-lens
@@ -16,7 +17,7 @@ breadcrumb: [Explore, ServiceNow AI Lens, Enable AI experiences]
 
 Learn about the ServiceNow AI Lens desktop application landing page.
 
-![ServiceNow AI Lens landing page overview](../image/sn-lens-home-page-overview.png "ServiceNow AI Lens landing page")
+\[Omitted image "sn-lens-home-page-overview.png"\] Alt text: ServiceNow AI Lens landing page overview
 
 <table id="table_drt_5s5_xfc"><thead><tr><th>
 
@@ -81,7 +82,7 @@ Action card options
 -   Details - Shows Lens action details, such as Name, Description, Default additional directions, and Table.
 
 </td></tr></tbody>
-</table>![ServiceNow AI Lens preview page overview.](../image/lens-images-captured.png "ServiceNow AI Lens preview")
+</table>\[Omitted image "lens-images-captured.png"\] Alt text: ServiceNow AI Lens preview page overview.
 
 |No.|Feature|Description|
 |---|-------|-----------|

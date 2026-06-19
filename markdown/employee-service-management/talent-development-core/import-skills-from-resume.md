@@ -2,6 +2,7 @@
 title: Import skills from your resume or LinkedIn profile
 description: Import the skills residing in your resume or LinkedIn profile and add them to your Employee Profile in the Employee Center so that you have all your skills at one place and focus on your career development in the organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/import-skills-from-resume.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -25,7 +26,7 @@ Role required: sn\_skills\_int.emp
 
 1.  Navigate to **All** &gt; **Employee Center**.
 
-2.  On the Employee Center home page, select the User options drop-down menu \(![User options menu](../image/emp-profile-user-options.png)\).
+2.  On the Employee Center home page, select the User options drop-down menu \(\[Omitted image "emp-profile-user-options.png"\] Alt text: User options menu\).
 
 3.  Select **Profile**.
 
@@ -56,5 +57,5 @@ Role required: sn\_skills\_int.emp
 
 The skills are added to the Additional skills section on the skills widget.
 
-**Parent Topic:**[Using Skills Foundation](../concept/using-skills-intelligence.md)
+**Parent Topic:**[Using Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/using-skills-intelligence.md)
 

@@ -2,7 +2,10 @@
 title: Customer Service Management considerations
 description: Consider these points while implementing the CSDM framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-use-case-faqs.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -55,7 +58,7 @@ Consider these points while implementing the CSDM framework.
 
 -   Do I need elements from all the CSDM domains to set up CSM?
 
-    No. The approach mentioned in this use case is based on the recommended guidelines and assumes you are in the Run or Fly stage of the CSDM implementation. See [Implementing the CSDM framework in stages](https://www.servicenow.com/docs/access?context=csdm-implementation-stages&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) for more information.
+    No. The approach mentioned in this use case is based on the recommended guidelines and assumes you are in the Run or Fly stage of the CSDM implementation. See  for more information.
 
     When you’re implementing CSM, start with the tables in the CSDM Foundation domain and the CSM Customer Service domain. Using these domains enables you to leverage the capabilities included in CSM.
 

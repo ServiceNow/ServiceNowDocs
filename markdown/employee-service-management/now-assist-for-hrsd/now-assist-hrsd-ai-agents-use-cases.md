@@ -2,12 +2,13 @@
 title: Using agentic workflows in Now Assist for HRSD
 description: Use the HR Service Delivery AI agent collection to complete tasks autonomously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-use-cases.html
 release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [Now Assist, generative AI]
 breadcrumb: [Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
@@ -131,6 +132,19 @@ Accelerate onboarding with the Generate onboarding ramp-up plan workflow, which 
 -   Ramp up plan generation AI agent
 -   Ramp up plan gather inputs AI agent
 -   Ramp up plan reviewer AI agent
+
+</td></tr><tr><td>
+
+Offboarding knowledge transfer plan generation agentic workflow
+
+</td><td>
+
+Automate the knowledge transfer process during employee offboarding with the Offboarding knowledge transfer plan generation agentic workflow. Powered by AI agents, it discovers documents authored by the departing employee, organizes them into categories, and generates a structured knowledge transfer summary. The departing employee can review and approve the summary before sharing it with the manager and successors.
+
+</td><td>
+
+-   Offboarding knowledge transfer gather inputs AI agent
+-   Knowledge transfer reviewer AI agent
 
 </td></tr></tbody>
 </table><table id="table_qxx_bcg_vfc"><thead><tr><th>
@@ -277,15 +291,15 @@ To run the AI agents autonomously, you must first duplicate the agentic workflow
 
 For more information about duplicating an agentic workflow, implementing access control lists and activating the required components, see the following topics:
 
--   [Duplicate an agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)
--   [Activate an agentic workflow template](https://www.servicenow.com/docs/access?context=activate-aia-use-case&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)
--   [Modify an AI agent](https://www.servicenow.com/docs/access?context=modify-ai-agent&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)
--   [Implement access control in Now Assist AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)
+-   
+-   
+-   
+-   
 
 Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 
-**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see .
 

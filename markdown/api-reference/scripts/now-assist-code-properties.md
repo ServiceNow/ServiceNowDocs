@@ -2,6 +2,7 @@
 title: Now Assist for Code properties
 description: You can adjust how code generation functions on an instance using several advanced properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/now-assist-code-properties.html
 release: zurich
 product: Scripts
 classification: scripts
@@ -36,7 +37,7 @@ Enables using code generation in supported script editors.
  -   Type: true \| false
 -   Default value: true
 -   Location: System Property \[sys\_properties\] table
--   Learn more: You can also enable code generation from Now Assist Admin. For more information, see [Activate a Now Assist skill](https://www.servicenow.com/docs/access?context=configure-a-now-assist-skill&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+-   Learn more: You can also enable code generation from Now Assist Admin. For more information, see .
 
 </td></tr><tr><td>
 
@@ -61,7 +62,7 @@ Enables using the Code with Now Assist dialog box to provide text prompts.
  -   Type: true \| false
 -   Default value: true
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Generate code with AI-powered code generation](../task/generate-scripts-from-text.md)
+-   Learn more: [Generate code with AI-powered code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/generate-scripts-from-text.md)
 
 </td></tr><tr><td>
 
@@ -74,7 +75,7 @@ Enables tracking which lines of code are AI-generated. In a script editor, the A
  -   Type: true \| false
 -   Default value: true
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Tracking AI-generated code](../concept/tracking-ai-generated-code.md#)
+-   Learn more: [Tracking AI-generated code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/tracking-ai-generated-code.md)
 
 </td></tr><tr><td>
 
@@ -152,5 +153,5 @@ Users with access to the system property table can modify system properties. How
 -   sn\_now\_assist\_code.enable\_auto\_complete
 -   sn\_now\_assist\_code.disable\_snowsk8s\_autocomplete
 
-**Parent Topic:**[Now Assist for Code reference](../concept/now-assist-code-reference.md)
+**Parent Topic:**[Now Assist for Code reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/now-assist-code-reference.md)
 

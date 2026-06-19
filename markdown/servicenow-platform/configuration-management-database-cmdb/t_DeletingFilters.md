@@ -2,6 +2,7 @@
 title: Delete a certification filter
 description: Delete certification filters that are no longer needed and no longer in use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/t\_DeletingFilters.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

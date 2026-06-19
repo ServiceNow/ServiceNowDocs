@@ -2,6 +2,7 @@
 title: Contracts Dashboard
 description: With Contracts Dashboard, you can make data-driven decisions by analyzing the trends and insights derived from the contract request data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-contracts-dashboard.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -17,9 +18,9 @@ With Contracts Dashboard, you can make data-driven decisions by analyzing the tr
 
 On the dashboard, you can analyze the contract request trends, compare data, and drill down into each report to view key performance indicator \(KPI\) details.
 
-For more information on working with KPI details, see [Examining indicators with KPI Details](https://www.servicenow.com/docs/access?context=kpi-details-components&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+For more information on working with KPI details, see .
 
-![Contracts Dashboard displaying contract-related trends and reports.](../../../product/contract-mgmt-pro/image/cmpro-contracts-dashboard.png "Contracts Dashboard")
+\[Omitted image "cmpro-contracts-dashboard.png"\] Alt text: Contracts Dashboard displaying contract-related trends and reports.
 
 ## Required ServiceNow AI Platform roles
 
@@ -90,7 +91,7 @@ Total contract requests \(YTD\)
 
 </td><td>
 
-Score![Score icon.](../../reporting/image/icon-single-score-report-p.png)
+Score\[Omitted image "icon-single-score-report-p.png"\] Alt text: Score icon.
 
 </td><td>
 
@@ -112,7 +113,7 @@ Total signed contracts \(YTD\)
 
 </td><td>
 
-Score![Score icon.](../../reporting/image/icon-single-score-report-p.png)
+Score\[Omitted image "icon-single-score-report-p.png"\] Alt text: Score icon.
 
 </td><td>
 
@@ -134,7 +135,7 @@ Open contract requests by type of paper
 
 </td><td>
 
-Donut![Donut icon.](../../reporting/image/icon-donut-report-p.png)
+Donut\[Omitted image "icon-donut-report-p.png"\] Alt text: Donut icon.
 
 </td><td>
 
@@ -150,7 +151,7 @@ Contract requests trend
 
 </td><td>
 
-Line![Line icon.](../../reporting/image/icon-line-report-p.png)
+Line\[Omitted image "icon-line-report-p.png"\] Alt text: Line icon.
 
 </td><td>
 
@@ -166,7 +167,7 @@ Open contract requests by age
 
 </td><td>
 
-Bar![Bar icon.](../../performance-analytics/image/column-icon.png)
+Bar\[Omitted image "column-icon.png"\] Alt text: Bar icon.
 
 </td><td>
 
@@ -182,7 +183,7 @@ Contract request completion time
 
 </td><td>
 
-Line![Line icon.](../../reporting/image/icon-line-report-p.png)
+Line\[Omitted image "icon-line-report-p.png"\] Alt text: Line icon.
 
 </td><td>
 
@@ -234,5 +235,5 @@ Choice
 Displays own paper and third-party paper in the list. You can select the desired option to view the relevant data in the Contracts Dashboard.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Platform Analytics Solutions for Contract Management Pro](../../application-content-packs/concept/cncore-analytics-pa.md)
+</table>**Parent Topic:**[Platform Analytics Solutions for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-analytics-pa.md)
 

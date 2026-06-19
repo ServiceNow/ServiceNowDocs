@@ -2,6 +2,7 @@
 title: GlideList2 \(g\_list\) - Client
 description: The GlideList2 API provides methods to customize \(v2\) lists.Adds a single term to the list query filter.Returns the GlideList2 object for the list that contains the specified item.Returns the GlideList2 object for the list specified.Returns a comma-separated list of the sys\_ids for the items that are checked in the associated list.Returns the fixed query. Returns the field or comma-separated list of fields that are used to group the list.Returns the name of the list, which is usually the table name.Returns the first field used to order the list.Returns the name of the parent table for a related list \(the table associated with the form\).Returns the encoded query string for the list.Returns the related list field that associates the related list to the parent form.Returns the table name for the list.Returns the view used to display the list.Returns the list title.Returns true if the list has been personalized by the user by choosing the list mechanic and changing the list layout.Refreshes the list. The orderBy part of the list filter is ignored so that the list uses its natural ordering when it is refreshed.Refreshes the list. The orderBy part of the list filter is included if it is specified for the list.Sets the encoded query string for the list, ignoring the orderBy and groupBy parts of the query string.Sets the encoded query string for the list, including the orderBy and groupBy if specified, and then refreshes the list using the new filter.Sets the first row that appears in the list when the list is refreshed.Sets the list groupBy criteria for a single field.Sets the orderBy criteria for the list.Sets the number of rows per page to display.Shows or hides all the groups within the list and saves the current collapsed/expanded state of the groups as a user preference.Displays or hides the list and saves the current collapsed/expanded state of the list as a user preference.Sorts the list in ascending order and sets the field as an orderBy column.Sorts a single field in the list in descending order and sets the field as an orderByDescField column.Toggles the display of the list and saves the current collapsed/expanded state of the list as a user preference.Toggles the display of the list but does not save the current collapsed/expanded state of the list as a user preference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/c\_GlideList2API.html
 release: zurich
 product: API Reference
 classification: api-reference
@@ -19,9 +20,9 @@ The variable `g_list` is used to access a specified list object. The `g_list` va
 
 These methods are used in UI context menus and UI actions.
 
-Several of these methods are available in Next Experience UI Framework. For details, see [GlideList \(Next Experience UI Framework\)](../../GlideListClientNowEx/concept/GlideListClientAPINEx.md#).
+Several of these methods are available in Next Experience UI Framework. For details, see [GlideList \(Next Experience UI Framework\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/GlideListClientAPINEx.md).
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/api-client.md)
 
 ## GlideList2 - addFilter\(String filter\)
 
@@ -29,7 +30,7 @@ Adds a single term to the list query filter.
 
 |Name|Type|Description|
 |----|----|-----------|
-|filter|String|Encoded query string in standard Glide format. See [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).|
+|filter|String|Encoded query string in standard Glide format. See Encoded query strings.|
 
 |Type|Description|
 |----|-----------|
@@ -532,7 +533,7 @@ Sets the encoded query string for the list, ignoring the **orderBy** and **group
 
 |Name|Type|Description|
 |----|----|-----------|
-|filter|String|Encoded query string in standard Glide format. See [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).|
+|filter|String|Encoded query string in standard Glide format. See Encoded query strings.|
 
 |Type|Description|
 |----|-----------|

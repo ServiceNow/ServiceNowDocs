@@ -2,6 +2,7 @@
 title: Synchronization properties for validating Agent Client Collector plugins
 description: Use the following properties when synchronizing public certificates from the MID Server to the Agent Client Collector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/plugin-validation-reference.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -73,5 +74,5 @@ fetch-certificates-from-mid
 Status of whether the public certificates are retrieved from the MID Server for plugin asset validation. Default value: True
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Framework reference](agent-client-collector-reference.md)
+</table>**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

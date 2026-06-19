@@ -2,6 +2,7 @@
 title: Python web services client examples
 description: Examples demonstrating an integration with a Python web services client.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/c\_PythonWebServicesClientExamples.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -216,5 +217,5 @@ entriestosend = { } for line  in matchedlines:
 	response  = server. insert (agent =soapagent , topic =ecctopic+value [ 0 ] , name =eccname+key , source =eccsource , payload =value [ 1 ] )
 ```
 
-**Parent Topic:**[Inbound web service examples](c_InboundWebServiceExamples.md)
+**Parent Topic:**[Inbound web service examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_InboundWebServiceExamples.md)
 

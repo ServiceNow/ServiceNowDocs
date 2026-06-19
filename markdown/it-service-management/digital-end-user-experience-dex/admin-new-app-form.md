@@ -2,11 +2,12 @@
 title: New web or installed application form
 description: Using a custom form, you can add an application to be monitored for compliance or performance metrics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/admin-new-app-form.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Administration cards, DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Service Management]
 ---
@@ -29,7 +30,7 @@ Select an application service
 
 </td><td>
 
-List of application services that references the Service \(cmdb\_ci\_service\) table to select an application service added for monitoring.You can open the list of available services by selecting the magnifying glass icon \(![](../image/icon-magnifying-glass-blue.png)\).
+List of application services that references the Service \(cmdb\_ci\_service\) table to select an application service added for monitoring.You can open the list of available services by selecting the magnifying glass icon \(\[Omitted image "icon-magnifying-glass-blue.png"\] Alt text:\).
 
 </td></tr><tr><td>
 
@@ -66,7 +67,7 @@ Enable page-level monitoring
 
 </td><td>
 
-Specific pages to monitor within the domain.You can add a specific page to monitor after adding and saving the application to monitored applications. In the Application management table, select the added application to set up one or more pages. See [Set up page-level monitoring](../concept/set-up-page-level-monitoring.md) for more details.
+Specific pages to monitor within the domain.You can add a specific page to monitor after adding and saving the application to monitored applications. In the Application management table, select the added application to set up one or more pages. See [Set up page-level monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/set-up-page-level-monitoring.md) for more details.
 
 This field appears only if you select **Web application** under the **New** drop-down list.
 
@@ -81,7 +82,7 @@ Toggle switch to enable or disable monitoring for the application performance an
 -   **Compliance**: Enables reporting on whether this application is running on your organization's devices.
 -   **Metrics**: Enables performance reporting for this application.
 
-Move the monitoring toggle switch \(![](../image/icon-toggle-button-enabled.png)\) to turn the reporting on or off.
+Move the monitoring toggle switch \(\[Omitted image "icon-toggle-button-enabled.png"\] Alt text:\) to turn the reporting on or off.
 
 **Note:** You can also enable monitoring for multiple applications simultaneously. From the Application management page, use the bulk check box to select multiple applications, and adjust your selection as needed with the individual check boxes for each app.
 
@@ -109,8 +110,8 @@ Option to add a Software Asset Management \(SAM\) product to enable tracking of 
 
 This field appears only when you're editing a web application.
 
-For more information, see [Using DEX or SAM for application monitoring](../concept/using-dex-or-sam-for-app-monitoring.md).
+For more information, see [Using DEX or SAM for application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/using-dex-or-sam-for-app-monitoring.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Administration cards](administration-cards.md)
+</table>**Parent Topic:**[Administration cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/administration-cards.md)
 

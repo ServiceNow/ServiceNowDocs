@@ -2,6 +2,7 @@
 title: Reopen a deactivated document
 description: A document that has been deactivated can be reopened.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/t\_ReopenADeactivatedDocument.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -30,5 +31,5 @@ Role required: document\_management\_user
 2.  Right-click the header bar and select **Reopen Document**.
 
 
-**Parent Topic:**[Create a document](../concept/c_CreateADocument.md)
+**Parent Topic:**[Create a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/c_CreateADocument.md)
 

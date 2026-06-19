@@ -2,6 +2,7 @@
 title: Activate Advanced Work Assignment
 description: You can activate the Advanced Work Assignment plugin \(com.glide.awa\) if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/awa-activate.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -59,5 +60,5 @@ Implements user and user group skills. Based on the same principles of roles man
 
 Activate the targeted routing capabilities plugins and other popular AWA plugins to enable the appropriate service channels and the Platform Analytics Solutions for Advanced Work Assignment.
 
-**Parent Topic:**[Get started with Advanced Work Assignment](implement-awa.md)
+**Parent Topic:**[Get started with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/implement-awa.md)
 

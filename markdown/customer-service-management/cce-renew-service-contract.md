@@ -2,7 +2,10 @@
 title: Renew a service contract
 description: Renew a service contract on the CSM Configurable Workspace before the service contract expires.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/cce-renew-service-contract.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -34,7 +37,7 @@ Role required:
 
 4.  Select **Renew**.
 
-    The target entity is created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](../concept/create-cont-ent-workflows-csm.md#section_qp4_rxv_tcc).
+    The target entity is created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-cont-ent-workflows-csm.md).
 
     -   If the selected target entity is a quote, a quote to renew the service contract is created. You can select the quote number from the confirmation message to review the renewal quote. After the quote is approved and the status is updated to **Complete**, an order is created for further processing.
     -   If the selected target entity is an order, an order to renew the service contract is created. You can select the order number from the confirmation message to review the renewal order.

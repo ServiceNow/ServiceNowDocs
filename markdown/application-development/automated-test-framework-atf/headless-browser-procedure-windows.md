@@ -2,6 +2,7 @@
 title: Headless Browser setup for Microsoft Windows
 description: The ServiceNow Headless Browser for Automated Test Framework \(ATF\) provides automation so you can skip having to manually open a browser during testing. The Headless Browser setup is available in both Linux and Microsoft Windows. This topic covers the setup for Windows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/headless-browser-procedure-windows.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -30,7 +31,7 @@ Role required: admin on your ServiceNow instance and local administrator on the 
 **Warning:** The only supported version of Microsoft Windows as a host is Windows Server 2019 v10.0.17763.737. No other versions are supported. If you are unable to meet these requirements, a Linux host is recommended.
 
 -   Make sure that the following programs are installed on your Windows server:
-    -   Docker: [Install Docker for Headless Browser setup for Microsoft Windows](../task/headless-browser-install-docker.md)
+    -   Docker: [Install Docker for Headless Browser setup for Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/headless-browser-install-docker.md)
     -   Java keytool: [Chocolatey tool for javaruntime](https://community.chocolatey.org/packages/javaruntime)
     -   OpenSSL: [Chocolatey tool for openssl](https://community.chocolatey.org/packages/openssl)
 -   Two-way communication
@@ -47,22 +48,22 @@ Role required: admin on your ServiceNow instance and local administrator on the 
 
 Follow these seven steps \(plus verification\) to set up the Headless Browser for Windows.
 
-1.  [Install Docker for Headless Browser setup for Microsoft Windows](../task/headless-browser-install-docker.md)  
+1.  [Install Docker for Headless Browser setup for Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/headless-browser-install-docker.md)  
 Step 1 in the Windows setup for the ServiceNow® Headless Browser for Automated Test Framework: Install Docker.
-2.  [Generate certificates for Headless Browser setup for Microsoft Windows](../task/headless-browser-certificates-windows.md)  
+2.  [Generate certificates for Headless Browser setup for Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/headless-browser-certificates-windows.md)  
 Generate TLS/SSL certificates to secure the Docker REST API and authenticate HTTP requests.
-3.  [Configure Docker for Headless Browser setup in Microsoft Windows](../task/headless-browser-configure-docker-windows.md)  
+3.  [Configure Docker for Headless Browser setup in Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/headless-browser-configure-docker-windows.md)  
 Configure Docker Server to authenticate all requests.
-4.  [Create the Docker image and containers for Headless Browser setup in Microsoft Windows](../task/headless-browser-create-docker-image-containers-windows.md)  
+4.  [Create the Docker image and containers for Headless Browser setup in Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/headless-browser-create-docker-image-containers-windows.md)  
 Pull the Docker image from the Public Registry.
-5.  [Add secrets to Docker for Headless Browser setup in Microsoft Windows](../task/headless-browser-add-secrets-docker-windows.md)  
+5.  [Add secrets to Docker for Headless Browser setup in Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/headless-browser-add-secrets-docker-windows.md)  
 Create a Docker secret that stores the password of the ServiceNow user who will log into the instance to execute the tests. Docker Secrets is a feature of ServiceNow® for securely storing the passwords that will be used in containers.
-6.  [Set up instance for Headless Browser in Microsoft Windows](../task/headless-browser-instance-setup-windows.md)  
+6.  [Set up instance for Headless Browser in Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/headless-browser-instance-setup-windows.md)  
 Step 6 in the Microsoft Windows setup for the ServiceNow® Headless Browser for ATF: Set up your instance so it can support the Headless Browser.
-7.  [Configure Automated Test Framework \(ATF\) for Headless Browser in Microsoft Windows](../task/headless-browser-configure-atf-windows.md)  
+7.  [Configure Automated Test Framework \(ATF\) for Headless Browser in Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/headless-browser-configure-atf-windows.md)  
 Step 7 in the Microsoft Windows setup for the ServiceNow® Headless Browser for ATF: Configure ATF with properties.
-8.  [Verify Headless Browser procedures for ATF in Microsoft Windows](../task/headless-browser-verify-tests-windows.md)  
+8.  [Verify Headless Browser procedures for ATF in Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/headless-browser-verify-tests-windows.md)  
 Verify that your Headless Browser setup procedures have been successful.
 
-**Parent Topic:**[Headless Browser for Automated Test Framework](atf-headless-browser.md)
+**Parent Topic:**[Headless Browser for Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-headless-browser.md)
 

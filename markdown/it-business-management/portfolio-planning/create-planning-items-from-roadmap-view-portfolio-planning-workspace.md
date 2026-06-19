@@ -2,6 +2,7 @@
 title: Create planning items from roadmap view
 description: Create and add new planning items to your portfolio roadmap or free-form roadmap directly from the roadmap view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/create-planning-items-from-roadmap-view-portfolio-planning-workspace.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -24,15 +25,15 @@ Role required: sn\_align\_core.apw\_user
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d321127e93">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d60223e93">
 
 Roadmap type
 
-</th><th align="left" id="d321127e96">
+</th><th align="left" id="d60223e96">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d321127e102">
+</th></tr></thead><tbody><tr><td id="d60223e102">
 
 **Portfolio plan roadmap**
 
@@ -42,7 +43,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d321127e123">
+</td></tr><tr><td id="d60223e123">
 
 **Free-form roadmap**
 
@@ -65,16 +66,16 @@ Multiple planning item types
 
 </th></tr></thead><tbody><tr><td>
 
-![New planning item on simple roadmap](../../spw-roadmap/images/new-planning-item-simple.png)
+\[Omitted image "new-planning-item-simple.png"\] Alt text: New planning item on simple roadmap
 
 </td><td>
 
-![Sample actions for a new planning item on hybrid roadmap.](../../spw-prioritization/images/new-planning-item.png)
+\[Omitted image "new-planning-item.png"\] Alt text: Sample actions for a new planning item on hybrid roadmap.
 
 </td></tr></tbody>
 </table>3.  On the form, fill in the required field information.
 
-    For full field information, see [Demand planning item form](../reference/demand-form-portfolio-planning.md) or [Project planning item form](../reference/project-form-portfolio-planning.md).
+    For full field information, see [Demand planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/demand-form-portfolio-planning.md) or [Project planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/project-form-portfolio-planning.md).
 
 4.  Select **Submit**.
 
@@ -83,10 +84,10 @@ Multiple planning item types
 
 The new item appears on the roadmap, at a place based on its approved start and end dates.
 
-If you don’t fill both the approved start and end date fields, the item that you created would be moved to the list of unscheduled items. You can add them to your roadmap plan later. For more information, see [Plan unscheduled items into roadmap](plan-unscheduled-items-into-roadmap-in-portfolio-planning.md).
+If you don’t fill both the approved start and end date fields, the item that you created would be moved to the list of unscheduled items. You can add them to your roadmap plan later. For more information, see [Plan unscheduled items into roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/plan-unscheduled-items-into-roadmap-in-portfolio-planning.md).
 
--   **[Modify planning items from roadmap](modify-planning-items-from-roadmap-portfolio-planning.md)**  
+-   **[Modify planning items from roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/modify-planning-items-from-roadmap-portfolio-planning.md)**  
 Update the details of planning items or delete them from a portfolio plan or free-form roadmap so that your roadmap reflects the latest plans.
 
-**Parent Topic:**[Planning roadmaps in Portfolio Planning](../concept/planning-roadmaps-in-portfolio-planning.md)
+**Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)
 

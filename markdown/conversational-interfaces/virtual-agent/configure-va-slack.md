@@ -2,6 +2,7 @@
 title: Manage the ServiceNow Virtual Agent integration with Slack
 description: Manage your Conversational Integration with Slack application, its branding, and customize the bot-specific messages in your ServiceNow instance after integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/configure-va-slack.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -35,7 +36,7 @@ Roles required:
 
 4.  To integrate your ServiceNow instance with another Slack bot, select the Add integration for ServiceNow Virtual Agent icon against the ServiceNow Virtual Agent.
 
-    Additionally, you can also select the **Add integration** drop-down on the top-right of the Manage Slack channel page and select **Integrate with ServiceNow Virtual Agent**.![Manage Slack channel view in Conversational Interfaces general settings. The Add integration for ServiceNow Virtual Agent icon and the Integrate with Servicenow Virtual Agent dropdown are highlighted.](../images/add-integration-icon-slck.png)
+    Additionally, you can also select the **Add integration** drop-down on the top-right of the Manage Slack channel page and select **Integrate with ServiceNow Virtual Agent**.\[Omitted image "add-integration-icon-slck.png"\] Alt text: Manage Slack channel view in Conversational Interfaces general settings. The Add integration for ServiceNow Virtual Agent icon and the Integrate with Servicenow Virtual Agent dropdown are highlighted.
 
 5.  Select the Manage Bot icon and select **Manage Virtual Agent**.
 
@@ -43,12 +44,12 @@ Roles required:
 
 6.  Select the **Branding** tab to brand your ServiceNow Virtual Agent bot.
 
-    For more information about branding your bot, see [Configure branding for your Virtual Agent bot in Slack](slack-branding-overview.md).
+    For more information about branding your bot, see [Configure branding for your Virtual Agent bot in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/slack-branding-overview.md).
 
 7.  Select the **Bot Messages** tab to create and edit a bot message.
 
-    For more information, see [Create bot messages](create-bot-messages.md#).
+    For more information, see [Create bot messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-bot-messages.md).
 
 
-**Parent Topic:**[Integrating ServiceNow Virtual Agent with Slack](../concept/va-integ-slack.md)
+**Parent Topic:**[Integrating ServiceNow Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integ-slack.md)
 

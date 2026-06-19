@@ -2,6 +2,7 @@
 title: Add or edit CI relationships in tag-based discovery
 description: Activate pre-configured CI relationships that Service Mapping does not include by default or add additional relationships to use in the tag-based discovery process. For example, you can add a CI relationship between Linux servers and storage devices to discover servers hosting storage devices based on tags.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/edit\_ci\_relationships\_tag\_mapping.html
 release: zurich
 product: Service Mapping
 classification: service-mapping
@@ -17,7 +18,7 @@ Activate pre-configured CI relationships that Service Mapping does not include b
 
 ## Before you begin
 
-Learn about default feature configuration in [Tag-based discovery in Service Mapping](../concept/tag-based-mapping.md).
+Learn about default feature configuration in [Tag-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/tag-based-mapping.md).
 
 **Note:** Starting with Service Mapping Plus version 1.16.3, take advantage of the Tag-based Service Mapping workspace to efficiently map your application services. .
 
@@ -33,22 +34,22 @@ The Application Services \[svc\_traversal\_rules\] table appears filtered to sho
 
 1.  Navigate to **Service Mapping** &gt; **Administration** &gt; **Tag-based Service Traversal Rules**.
 
-    ![Table containing information on CI relationships used in tag-based discovery.](../image/traversal-rules-application-services-table.png)
+    \[Omitted image "traversal-rules-application-services-table.png"\] Alt text: Table containing information on CI relationships used in tag-based discovery.
 
 2.  Click the existing CI relationship that you want to modify or click **New** to use an additional CI relationship in the tag-based discovery process.
 
-    To view default CI relationships, see [Preconfigured CI relationships in tag-based discovery](../reference/ci_relationships_tag_mapping.md).
+    To view default CI relationships, see [Preconfigured CI relationships in tag-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/ci_relationships_tag_mapping.md).
 
 3.  Complete the **Traversal Rules for Application Services** form.
 
-    To complete this form, see [Traversal Rules for Application Services form completion](../reference/traversal_rules_form_completion.md).
+    To complete this form, see [Traversal Rules for Application Services form completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/traversal_rules_form_completion.md).
 
 4.  Click **Submit**.
 
 
 ## What to do next
 
-If you refine the default configuration after creating appliations based on tags, see [Recalculate previously created application services](recalculate_application_services.md) for the next steps
+If you refine the default configuration after creating appliations based on tags, see [Recalculate previously created application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/recalculate_application_services.md) for the next steps
 
-**Parent Topic:**[Tag-based discovery configuration](../concept/tag_discovery_configuration.md)
+**Parent Topic:**[Tag-based discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/tag_discovery_configuration.md)
 

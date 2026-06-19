@@ -2,6 +2,7 @@
 title: Database catalog discovery
 description: The database catalog lists all the catalog objects, or databases, discovered for an instance of a database.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/c\_DatabaseCatalogs.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -21,11 +22,11 @@ Most database manufacturers use the term catalog to mean database, while Microso
 
 **Important:** Discovery does not support MySQL database catalog discovery in the base system. The Oracle DB on Unix and Oracle DB on Windows patterns discover Oracle catalog objects through the pattern extension Get Catalog info. The MSSql DB On Windows and MSSql 2000 DB patterns discover both database instances and catalogs and store them in the database instance records.
 
-For more information about Oracle catalog discovery, see [Oracle Catalog discovery](../../service-mapping/reference/oracle-catalog-discovery.md).
+For more information about Oracle catalog discovery, see [Oracle Catalog discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-catalog-discovery.md).
 
-For more information about Microsoft SQL database instances, see [Microsoft SQL Server and Cluster discovery](../reference/mssql-data-collected-pattern.md#).
+For more information about Microsoft SQL database instances, see [Microsoft SQL Server and Cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/mssql-data-collected-pattern.md).
 
 If you discovered database catalogs using probes before migrating to patterns, you can view the probe-based database catalogs by navigating to **All** &gt; **Configuration** &gt; **Database Catalogs** and selecting a database.
 
-**Parent Topic:**[Database discovery](database-discovery.md)
+**Parent Topic:**[Database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/database-discovery.md)
 

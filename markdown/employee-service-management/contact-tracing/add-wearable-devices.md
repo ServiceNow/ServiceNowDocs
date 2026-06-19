@@ -2,6 +2,7 @@
 title: Add wearable devices assigned to employees
 description: Add wearable devices such as Bluetooth LE-enabled devices that are assigned to employees to enable them to connect to the Wi-Fi network in your workplaces.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contact-tracing/add-wearable-devices.html
 release: zurich
 product: Contact Tracing
 classification: contact-tracing
@@ -17,13 +18,13 @@ Add wearable devices such as Bluetooth LE-enabled devices that are assigned to e
 
 ## Before you begin
 
-The wearable device data is stored in the Wearable Technology \[cmdb\_ci\_wearable\] table. The table is installed with the CMDB CI Class Models application available on ServiceNow Store. Ensure that you have the CMDB CI Class Models application installed and active. For more information, see [CMDB CI Class Models](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-iot&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+The wearable device data is stored in the Wearable Technology \[cmdb\_ci\_wearable\] table. The table is installed with the CMDB CI Class Models application available on ServiceNow Store. Ensure that you have the CMDB CI Class Models application installed and active. For more information, see CMDB CI Class Models.
 
 Role required: sn\_imt\_tracing.wifi\_manager
 
 ## About this task
 
-You can also import your wearable devices data from an Excel spreadsheet. For more information, see [Easy import data from a list](https://www.servicenow.com/docs/access?context=c_EasyImport&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+You can also import your wearable devices data from an Excel spreadsheet. For more information, see Easy import data from a list.
 
 ## Procedure
 
@@ -79,11 +80,11 @@ MAC address
 
 </td><td>
 
-MAC address of the device.Follow the steps in [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) to add this field to the Wearables form.
+MAC address of the device.Follow the steps in Configuring the form layout to add this field to the Wearables form.
 
 </td></tr></tbody>
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Retrieving Wi-Fi access log data](../concept/wifi-access-management.md)
+**Parent Topic:**[Retrieving Wi-Fi access log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/wifi-access-management.md)
 

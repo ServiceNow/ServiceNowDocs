@@ -2,6 +2,7 @@
 title: Mandatory Skills
 description: Use the mandatory skills feature to identify any skills that are required for agents and technicians to work on customer service cases and field service work orders and tasks. Then assign cases and tasks to agents and technicians who have those required skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/mandatory-skills.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -27,5 +28,5 @@ Mandatory skills are an optional feature. Mandatory skills can be identified on 
 **Related topics**  
 
 
-[Use the assignment workbench](https://www.servicenow.com/docs/access?context=case-assignment-workbench&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
+[bundle-csm.case-assignment-workbench]
 

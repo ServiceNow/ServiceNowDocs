@@ -2,6 +2,7 @@
 title: Configure Creator Studio using Guided Setup
 description: So you've installed Creator Studio on an instance. Now what? You must configure it before users can start building apps.Set up the admin group to enable ServiceNow administrators access to work on and configure Creator Studio.Set up collaboration descriptors to manage what app Owner and Editor collaboration types can do in Creator Studio.Set up who has full access to Creator Studio to decide which users get full access to work on app in Creator Studio, and who has more limited capabilities.Set up limited access for Creator Studio users. People in the Creator Studio Restricted Users Group have limited access to working with apps, and must request that admins create apps for them.Configure customized email notifications that Creator Studio apps send. For example, you can add branding to notification emails that a request was opened.Configure the activities that appear when users build playbooks in Creator Studio.Use Guided Setup to change the table that the app saves its requests to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/creator-studio/config-creator-studio-guided-setup.html
 release: zurich
 product: Creator Studio
 classification: creator-studio
@@ -17,7 +18,7 @@ So you've installed Creator Studio on an instance. Now what? You must configure 
 
 ## Before you begin
 
-Creator Studio must be installed on the instance before you can configure it. Find out more about that in [Installing Creator Studio from the ServiceNow Store](../concept/installing-creator-studio-from-the-store.md).
+Creator Studio must be installed on the instance before you can configure it. Find out more about that in [Installing Creator Studio from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/installing-creator-studio-from-the-store.md).
 
 To ensure that forms appear correctly for users, the non-production and production instances must have the same Service Catalog and all of its categories.
 
@@ -33,7 +34,7 @@ In this Guided Setup, you'll configure user access and collaboration settings to
 
 1.  Let's open Guided Setup. On your instance, select the **All** tab.
 
-    ![Interface showing All, Favorites, and History tabs with a Filter field.](../image/cs-all-menu.png "All tab")
+    \[Omitted image "cs-all-menu.png"\] Alt text: Interface showing All, Favorites, and History tabs with a Filter field.
 
 2.  In the white text field, enter `App Engine`.
 
@@ -43,7 +44,7 @@ In this Guided Setup, you'll configure user access and collaboration settings to
 
     The Guided Setup app opens, where you make some basic configurations.
 
-    ![Guided Setup walks you through Creator Studio configuration tasks](../image/cs-guided-setup.png "Guided Setup")
+    \[Omitted image "cs-guided-setup.png"\] Alt text: Guided Setup walks you through Creator Studio configuration tasks
 
 4.  Start the setup process by selecting the **Get Started** button.
 
@@ -54,19 +55,19 @@ In this Guided Setup, you'll configure user access and collaboration settings to
 
 Next, it's time to configure specific Creator Studio features, which include the following:
 
--   [Set up the Creator Studio admin group](config-creator-studio-guided-setup.md#)
--   [Set up Creator Studio collaboration descriptors](config-creator-studio-guided-setup.md#)
--   [Set up Creator Studio full access users](config-creator-studio-guided-setup.md#)
--   [Set up Creator Studio restricted access users](config-creator-studio-guided-setup.md#)
--   [Set up Creator Studio playbook activities](config-creator-studio-guided-setup.md#)
--   [Configure the table for Creator Studio apps](config-creator-studio-guided-setup.md#)
--   [Set up Creator Studio custom notification emails](config-creator-studio-guided-setup.md#)
+-   [Set up the Creator Studio admin group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/config-creator-studio-guided-setup.md)
+-   [Set up Creator Studio collaboration descriptors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/config-creator-studio-guided-setup.md)
+-   [Set up Creator Studio full access users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/config-creator-studio-guided-setup.md)
+-   [Set up Creator Studio restricted access users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/config-creator-studio-guided-setup.md)
+-   [Set up Creator Studio playbook activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/config-creator-studio-guided-setup.md)
+-   [Configure the table for Creator Studio apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/config-creator-studio-guided-setup.md)
+-   [Set up Creator Studio custom notification emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/config-creator-studio-guided-setup.md)
 
 ## What to do next
 
-After you finish configuring Creator Studio, you can configure Pipelines and Deployments to enable apps built in Creator Studio to be deployed to production. For information on how, see [Configure Pipelines and Deployments](../../pipelines-and-deployments/task/config-p-and-d.md).
+After you finish configuring Creator Studio, you can configure Pipelines and Deployments to enable apps built in Creator Studio to be deployed to production. For information on how, see [Configure Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/config-p-and-d.md).
 
-**Parent Topic:**[Configuring Creator Studio](../concept/configuring-creator-studio.md)
+**Parent Topic:**[Configuring Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/configuring-creator-studio.md)
 
 ## Set up the Creator Studio admin group
 
@@ -74,7 +75,7 @@ Set up the admin group to enable ServiceNow administrators access to work on and
 
 ### Before you begin
 
-Initiate the Guided Setup as described in [Configure Creator Studio using Guided Setup](config-creator-studio-guided-setup.md#).
+Initiate the Guided Setup as described in [Configure Creator Studio using Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/config-creator-studio-guided-setup.md).
 
 ### Before you begin
 
@@ -97,7 +98,7 @@ Role required: admin
 
 ### What to do next
 
-Next, [Set up Creator Studio collaboration descriptors](config-creator-studio-guided-setup.md#).
+Next, [Set up Creator Studio collaboration descriptors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/config-creator-studio-guided-setup.md).
 
 ## Set up Creator Studio collaboration descriptors
 
@@ -105,7 +106,7 @@ Set up collaboration descriptors to manage what app Owner and Editor collaborati
 
 ### Before you begin
 
-Initiate the Guided Setup as described in [Configure Creator Studio using Guided Setup](config-creator-studio-guided-setup.md#).
+Initiate the Guided Setup as described in [Configure Creator Studio using Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/config-creator-studio-guided-setup.md).
 
 Role required: admin
 
@@ -113,11 +114,11 @@ Role required: admin
 
 1.  Select the **Configure** button for the Set up collaboration descriptors to manage your user's capabilities section.
 
-    By default, owners can do anything on an app, while editors are more restricted in what they can do. For more information, see [Collaborating with others to build apps in Creator Studio](../reference/creator-studio-collaboration-roles.md).
+    By default, owners can do anything on an app, while editors are more restricted in what they can do. For more information, see [Collaborating with others to build apps in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-collaboration-roles.md).
 
 2.  Customize the collaboration roles or add new ones.
 
-    For more information, see [Application collaboration](../../applications/concept/application-collaboration.md).
+    For more information, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/application-collaboration.md).
 
 3.  Update the record to save your changes.
 
@@ -126,7 +127,7 @@ Role required: admin
 
 ### What to do next
 
-Next, [Set up Creator Studio full access users](config-creator-studio-guided-setup.md#).
+Next, [Set up Creator Studio full access users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/config-creator-studio-guided-setup.md).
 
 ## Set up Creator Studio full access users
 
@@ -134,11 +135,11 @@ Set up who has full access to Creator Studio to decide which users get full acce
 
 ### About this task
 
-For example, restricted users must request that an admin create a new app for them. For more information, see [Creator Studio roles and personas](../reference/roles-creator-studio.md).
+For example, restricted users must request that an admin create a new app for them. For more information, see [Creator Studio roles and personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/roles-creator-studio.md).
 
 ### Before you begin
 
-Initiate the Guided Setup as described in [Configure Creator Studio using Guided Setup](config-creator-studio-guided-setup.md#).
+Initiate the Guided Setup as described in [Configure Creator Studio using Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/config-creator-studio-guided-setup.md).
 
 Role required: admin
 
@@ -159,7 +160,7 @@ Role required: admin
 
 ### What to do next
 
-Next, [Set up Creator Studio restricted access users](config-creator-studio-guided-setup.md#).
+Next, [Set up Creator Studio restricted access users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/config-creator-studio-guided-setup.md).
 
 ## Set up Creator Studio restricted access users
 
@@ -167,7 +168,7 @@ Set up limited access for Creator Studio users. People in the Creator Studio Res
 
 ### Before you begin
 
-Initiate the Guided Setup as described in [Configure Creator Studio using Guided Setup](config-creator-studio-guided-setup.md#).
+Initiate the Guided Setup as described in [Configure Creator Studio using Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/config-creator-studio-guided-setup.md).
 
 Role required: admin
 
@@ -194,7 +195,7 @@ Customized email templates can be applied to notifications that are sent when us
 
 ### Before you begin
 
-Initiate the Guided Setup as described in [Configure Creator Studio using Guided Setup](config-creator-studio-guided-setup.md#).
+Initiate the Guided Setup as described in [Configure Creator Studio using Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/config-creator-studio-guided-setup.md).
 
 Role required: admin
 
@@ -219,7 +220,7 @@ Role required: admin
     1.  **When to send**
     2.  **Who will receive**
     3.  **What it will contain**
-    For more information on editing notifications on the ServiceNow AI Platform, see [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For more information on editing notifications on the ServiceNow AI Platform, see .
 
 5.  Update the record to save your changes.
 
@@ -232,7 +233,7 @@ Configure the activities that appear when users build playbooks in Creator Studi
 
 ### Before you begin
 
-Initiate the Guided Setup as described in [Configure Creator Studio using Guided Setup](config-creator-studio-guided-setup.md#).
+Initiate the Guided Setup as described in [Configure Creator Studio using Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/config-creator-studio-guided-setup.md).
 
 Role required: admin
 
@@ -242,7 +243,7 @@ Role required: admin
 
     All of the default Creator Studio playbook activities appear.
 
-    ![List of playbook activities](../image/crs-setup-activities-list.png "Creator Studio activities in Guided Setup")
+    \[Omitted image "crs-setup-activities-list.png"\] Alt text: List of playbook activities
 
 2.  Rearrange the order activities appear in the selection list.
 
@@ -252,9 +253,9 @@ Role required: admin
 
     2.  Enter a new order number for the activity.
 
-        ![Enter a new order number for the activity](../image/crs-setup-reorder.png "Reorder an activity")
+        \[Omitted image "crs-setup-reorder.png"\] Alt text: Enter a new order number for the activity
 
-    3.  Select the Save icon ![](../image/crs-save-check.png) or press Enter.
+    3.  Select the Save icon \[Omitted image "crs-save-check.png"\] Alt text: or press Enter.
 
 3.  Add a new activity.
 
@@ -295,15 +296,15 @@ Some general guidelines for changing the table are:
 
 ### Before you begin
 
-Initiate the Guided Setup as described in [Configure Creator Studio using Guided Setup](config-creator-studio-guided-setup.md#).
+Initiate the Guided Setup as described in [Configure Creator Studio using Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/config-creator-studio-guided-setup.md).
 
 The app must already be created before you can change the table for it.
 
 ### Before you begin
 
-For more information on changing an app's table, see [Changing the table for an app](../concept/creator-studio-admin-app-table-about.md).
+For more information on changing an app's table, see [Changing the table for an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-admin-app-table-about.md).
 
-Role required: admin, app configurator \(sn\_creatorstudio.app\_configurator\), or Creator Studio configuration admin \(sn\_creatorstudio.configuration\_admin\). For more information on working with granular roles, see [Granular admin roles required to secure your instance](https://www.servicenow.com/docs/access?context=roles-within-platform-security&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+Role required: admin, app configurator \(sn\_creatorstudio.app\_configurator\), or Creator Studio configuration admin \(sn\_creatorstudio.configuration\_admin\). For more information on working with granular roles, see .
 
 ### Procedure
 
@@ -311,7 +312,7 @@ Role required: admin, app configurator \(sn\_creatorstudio.app\_configurator\), 
 
     All of the apps built on the instance in Creator Studio appear.
 
-    ![List of apps in Guided Setup](../image/crs-setup-table-list.png "Guided Setup to configure the associated table")
+    \[Omitted image "crs-setup-table-list.png"\] Alt text: List of apps in Guided Setup
 
 2.  Select the app that you want to change the table for.
 
@@ -323,7 +324,7 @@ Role required: admin, app configurator \(sn\_creatorstudio.app\_configurator\), 
 
     2.  Search for and select the table that you want to associate the app with.
 
-        ![Search for and select the table to change to](../image/crs-setup-table-change.png "Change the table")
+        \[Omitted image "crs-setup-table-change.png"\] Alt text: Search for and select the table to change to
 
 4.  Select the **Update** button.
 

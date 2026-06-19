@@ -2,6 +2,7 @@
 title: Understanding pattern identifiers
 description: A pattern identifier is a set of criteria or attributes \(such as alert type, affected system, etc.\) used to group similar alerts. It helps to identify recurring issues, making it easier for teams to respond and address ongoing problems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/pattern-identifiers-grouping.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -52,7 +53,7 @@ Create an event rule
 
 </td><td>
 
-Define an event rule.To know how to create an event rule, see [Create or edit an event rule](../task/create-or-edit-event-rule.md).
+Define an event rule.To know how to create an event rule, see [Create or edit an event rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-or-edit-event-rule.md).
 
 </td><td>
 
@@ -64,7 +65,7 @@ Manage pattern identifier
 
 </td><td>
 
-Add relevant alert field to the pattern identifier.To know how to add fields to the pattern identifier, see [Specify and manage pattern identifier attributes for alert grouping](../task/ptrn-attributes-alrt-aggregate.md).
+Add relevant alert field to the pattern identifier.To know how to add fields to the pattern identifier, see [Specify and manage pattern identifier attributes for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/ptrn-attributes-alrt-aggregate.md).
 
 </td><td>
 
@@ -131,11 +132,11 @@ To identify an issue, the system utilizes a combination of Configuration Items \
 
 By default, a Pattern Identifier is defined as the Metric Name, but this can be modified. Two alerts are considered similar if they share the same CI and Pattern Identifier, although fields such as Source, Severity, Description, and others may differ.
 
-For more information, see [Specify and manage pattern identifier attributes for alert grouping](../task/ptrn-attributes-alrt-aggregate.md).**Note:** The Alert Aggregation Learner also identifies patterns of alerts within manual alert groups.
+For more information, see [Specify and manage pattern identifier attributes for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/ptrn-attributes-alrt-aggregate.md).**Note:** The Alert Aggregation Learner also identifies patterns of alerts within manual alert groups.
 
-In some cases, you can create patterns from alerts where the CIs share the same value in a specified field. For example, to build patterns from alerts with the same CI **Location** field, enter `location` in the **sa\_analytics.agg.learner\_group\_by\_property** property. For more information, [Configure scheduled job-based alert grouping](../task/enable-alert-grouping.md).
+In some cases, you can create patterns from alerts where the CIs share the same value in a specified field. For example, to build patterns from alerts with the same CI **Location** field, enter `location` in the **sa\_analytics.agg.learner\_group\_by\_property** property. For more information, [Configure scheduled job-based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/enable-alert-grouping.md).
 
-When working with CI-based groups, ensure that the pattern identifier includes both the node and the metric name. For details on configuring the Feature Identifier, see [Learned patterns report](c_SALearnedPattersReport.md).
+When working with CI-based groups, ensure that the pattern identifier includes both the node and the metric name. For details on configuring the Feature Identifier, see [Learned patterns report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/c_SALearnedPattersReport.md).
 
 **Note:** Alerts that lack a CI can still be grouped together as Text-based or CI-based alert groups, treating a node as a CI. To enable this functionality, set the sa\_analytics.enable\_no\_ci\_grouping property to true.
 

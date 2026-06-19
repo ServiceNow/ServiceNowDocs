@@ -2,6 +2,7 @@
 title: Configure an HR service for a lifecycle event
 description: Create a corresponding HR service so that the lifecycle event can be requested for service. For example, the lifecycle event for New Hire Onboarding has a corresponding HR service also named New Hire Onboarding. When an HR case for that HR service is created, the HR case will be fulfilled by the associated lifecycle event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/lifecycle-events/create-hr-service-for-lifecycle-event.html
 release: zurich
 product: Lifecycle Events
 classification: lifecycle-events
@@ -21,7 +22,7 @@ Role required: sn\_hr\_core.admin
 
 ## About this task
 
-HR services are the requests and assistance an HR organization provides its employees, and they are the starting point for HR case creation. You must create an HR service for a lifecycle event so that it can be requested for service. To learn more about HR services, including whether to make an HR service available for internal use only or for employee self-service, see [HR services](../concept/hr-service-administration.md).
+HR services are the requests and assistance an HR organization provides its employees, and they are the starting point for HR case creation. You must create an HR service for a lifecycle event so that it can be requested for service. To learn more about HR services, including whether to make an HR service available for internal use only or for employee self-service, see [HR services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-service-administration.md).
 
 ## Procedure
 
@@ -66,14 +67,14 @@ Select the COE you want the HR service to be categorized under.**Note:** An HR s
 </td></tr></tbody>
 </table>4.  Fill in the other fields on the form, as appropriate.
 
-    For further details on the form fields, see [Configure an HR service](configure-hr-service.md).
+    For further details on the form fields, see [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-service.md).
 
 5.  Click **Submit** or **Update**.
 
 
-**Parent Topic:**[Building a lifecycle event](../concept/hr-lifecycle-event-configuration.md)
+**Parent Topic:**[Building a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/hr-lifecycle-event-configuration.md)
 
-**Previous topic:**[Configure the rescind process for a lifecycle event](configure-rescind-for-a-lifecycle-event.md)
+**Previous topic:**[Configure the rescind process for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/configure-rescind-for-a-lifecycle-event.md)
 
-**Next topic:**[Configure an HR service for a journey](configure-hr-service-for-journey.md)
+**Next topic:**[Configure an HR service for a journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/configure-hr-service-for-journey.md)
 

@@ -2,6 +2,7 @@
 title: Recalculate resource costs form
 description: Use the recalculate resource costs form to make sure that the resource assignment costs are up to date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/demand-management/recalculate-resource-costs-form.html
 release: zurich
 product: Demand Management
 classification: demand-management
@@ -66,5 +67,5 @@ Option for including the planned cost of a confirmed or allocated plan.The optio
  By default, the option isn’t selected.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Demand Management forms](../concept/demand-management-forms.md)
+</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/demand-management-forms.md)
 

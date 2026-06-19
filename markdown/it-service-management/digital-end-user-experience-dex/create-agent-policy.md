@@ -2,11 +2,12 @@
 title: Create an agent policy
 description: Create an agent policy by configuring a filter that determines the Configuration Items \(CI\) to run the checks and the metrics that are collected.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/create-agent-policy.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Managing DEX Agent policy, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -25,7 +26,7 @@ Role required: admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the DEX Administration icon \(![](../image/icon-administration.png)\).
+2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text:\).
 
 3.  In the Device and application configuration section, select **Manage policies** on the Agent policies card.
 
@@ -37,15 +38,15 @@ Role required: admin
 
 6.  On the **Monitored CIs** tab, select one of the following options.
 
-<table id="choicetable_en5_d41_52c"><thead><tr><th align="left" id="d238333e145">
+<table id="choicetable_en5_d41_52c"><thead><tr><th align="left" id="d112647e145">
 
 Option
 
-</th><th align="left" id="d238333e148">
+</th><th align="left" id="d112647e148">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d238333e154">
+</th></tr></thead><tbody><tr><td id="d112647e154">
 
 **Manual calculation**
 
@@ -53,7 +54,7 @@ Description
 
 Select to exclude the policy from scheduled policy calculation, ignoring any changes to the policy impacted CIs.Select this option when the policy monitors a single CI. The option enables you to avoid a long completion time for the Refresh and Publish Monitoring Policies scheduled job.
 
-</td></tr><tr><td id="d238333e165">
+</td></tr><tr><td id="d112647e165">
 
 **Monitored CI type by filter**
 
@@ -63,7 +64,7 @@ Select to exclude the policy from scheduled policy calculation, ignoring any cha
 2.  In the **Filter** field, configure a filter so that the policy checks monitor only CI types, which meet the specified criteria. CI **tags** are included in the available criteria.
 
 
-</td></tr><tr><td id="d238333e192">
+</td></tr><tr><td id="d112647e192">
 
 **Monitored CI type by script**
 
@@ -71,7 +72,7 @@ Select to exclude the policy from scheduled policy calculation, ignoring any cha
 
 Specify the monitored CIs using a script. Using a script enables you to create a CI filter for several tables related to each other. For example, you can set a filter in both a Linux servers table and an Oracle table when searching for a CI.
 
-</td></tr><tr><td id="d238333e203">
+</td></tr><tr><td id="d112647e203">
 
 **Monitored CI type by CMDB Group**
 
@@ -90,15 +91,15 @@ Specify the monitored CIs by using CMDB group queries. When selected, the **Moni
 
 9.  On the **Scheduling** tab, select one of the following options.
 
-<table id="choicetable_elq_mdb_52c"><thead><tr><th align="left" id="d238333e268">
+<table id="choicetable_elq_mdb_52c"><thead><tr><th align="left" id="d112647e268">
 
 Option
 
-</th><th align="left" id="d238333e271">
+</th><th align="left" id="d112647e271">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d238333e277">
+</th></tr></thead><tbody><tr><td id="d112647e277">
 
 **Interval-based scheduling**
 
@@ -106,14 +107,14 @@ Steps
 
 Configure the time interval \(in seconds\) to indicate the frequency with which the policy's checks run.
 
-</td></tr><tr><td id="d238333e286">
+</td></tr><tr><td id="d112647e286">
 
 **Cron-based scheduling**
 
 </td><td>
 
-Enables configuring the policy to be active only during a specific time or time frames.1.  Select the Unlock icon \(![Unlock icon](../image/icon-acc-lock.png)\) to enable selecting cron expressions.
-2.  Select the search icon \(![Search icon](../../configurable-workforce-optimization-itsm/image/search-icon.png)\), then select **New** to create a cron expression.
+Enables configuring the policy to be active only during a specific time or time frames.1.  Select the Unlock icon \(\[Omitted image "icon-acc-lock.png"\] Alt text: Unlock icon\) to enable selecting cron expressions.
+2.  Select the search icon \(\[Omitted image "search-icon.png"\] Alt text: Search icon\), then select **New** to create a cron expression.
 
 You can also select one of the following cron expressions that come with the base system:
 
@@ -130,7 +131,7 @@ The specified cron expression operates in the time zone of the machine hosting t
     |Options|Steps|
     |-------|-----|
     |**Credential name**|Select credentials to be assigned to the policy. The available credentials are displayed on the associated check definition's **Check Secure Parameter Definitions** tab.|
-    |**Credential alias**|Select the Search icon ![Search icon](../../configurable-workforce-optimization-itsm/image/search-icon.png) to select a credential alias to be used by the policy's checks to connect to the monitored CI. The available options are created on the **Connection &amp; Credential Aliases** page.|
+    |**Credential alias**|Select the Search icon \[Omitted image "search-icon.png"\] Alt text: Search icon to select a credential alias to be used by the policy's checks to connect to the monitored CI. The available options are created on the **Connection &amp; Credential Aliases** page.|
 
 11. Select **Save**.
 

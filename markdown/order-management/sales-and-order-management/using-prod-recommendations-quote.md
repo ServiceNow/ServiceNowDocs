@@ -2,6 +2,7 @@
 title: Using product offering recommendations in quotes
 description: As a sales agent, you can use recommended product offerings to upsell or cross-sell additional products in your quotes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/using-prod-recommendations-quote.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -19,7 +20,7 @@ As a sales agent, you can use recommended product offerings to upsell or cross-s
 
 Product recommendations appear as cards in the contextual side panel in the CSM Configurable Workspace when you're adding, updating, or viewing quote line items using the Catalog or Line items tab. Each card provides a recommendation to either upsell or cross-sell a product.
 
-![Contextual side panel in the CSM Configurable Workspace that displays product offering recommendation cards, which are described in the next section](../image/prod-recommendations-quote.png "Product offering recommendations for a quote")
+\[Omitted image "prod-recommendations-quote.png"\] Alt text: Contextual side panel in the CSM Configurable Workspace that displays product offering recommendation cards, which are described in the next section
 
 Product recommendation cards display the following information:
 
@@ -35,10 +36,10 @@ When multiple cards are displayed, they're arranged in the order value that was 
 
 ## Recommendation process
 
-When you add a product recommendation, the recommended product offering is added as a line item to your quote. For more information, see [Get additional product offering recommendations for quotes](../task/quote-get-product-offer.md). After you add or dismiss recommendations, they’re moved to the recommendation history. Use the History ![](../image/history-prod-recommendations-icon.png) icon in the Recommended products panel to view the recommendation history.
+When you add a product recommendation, the recommended product offering is added as a line item to your quote. For more information, see [Get additional product offering recommendations for quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-get-product-offer.md). After you add or dismiss recommendations, they’re moved to the recommendation history. Use the History \[Omitted image "history-prod-recommendations-icon.png"\] Alt text: icon in the Recommended products panel to view the recommendation history.
 
--   **[Get additional product offering recommendations for quotes](../task/quote-get-product-offer.md)**  
+-   **[Get additional product offering recommendations for quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-get-product-offer.md)**  
 Get product offering recommendations to upsell or cross-sell additional products in quotes.
 
-**Parent Topic:**[Using Quote Management](quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-mgmt-using.md)
 

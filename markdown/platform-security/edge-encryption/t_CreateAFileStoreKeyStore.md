@@ -2,6 +2,7 @@
 title: Create an encryption key stored in a file
 description: You can use a simple text file as a keystore. Each file holds a single encryption key.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/t\_CreateAFileStoreKeyStore.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -23,7 +24,7 @@ Role required: admin
 
 This step creates both the key storage and the encryption key.
 
-**Note:** The name of the key file must match the key alias specified in the encryption keys table in the instance. See [Configure encryption keys on the instance](t_RotateEncryptionKeys.md).
+**Note:** The name of the key file must match the key alias specified in the encryption keys table in the instance. See [Configure encryption keys on the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_RotateEncryptionKeys.md).
 
 ## Procedure
 
@@ -31,7 +32,7 @@ This step creates both the key storage and the encryption key.
 
 2.  Add the encryption key to the file.
 
-<table id="choicetable_sm3_f1b_tt"><tbody><tr><td id="d193626e88">
+<table id="choicetable_sm3_f1b_tt"><tbody><tr><td id="d72628e88">
 
 **AES 128**
 
@@ -39,7 +40,7 @@ This step creates both the key storage and the encryption key.
 
 Place the encryption key, exactly 16 bytes, into the file.
 
-</td></tr><tr><td id="d193626e97">
+</td></tr><tr><td id="d72628e97">
 
 **AES 256**
 
@@ -54,10 +55,10 @@ Place the encryption key, exactly 32 bytes, into the file.
 
     2.  Open the `edgeencryption.properties` file.
 
-    3.  Enter the properties for the [file store](../reference/edge-encryption-proxy-server-properties.md).
+    3.  Enter the properties for the [file store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/edge-encryption-proxy-server-properties.md).
 
     4.  Save and close the file.
 
 
-**Parent Topic:**[Set up a keystore and encryption keys](set-up-keystore.md)
+**Parent Topic:**[Set up a keystore and encryption keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/set-up-keystore.md)
 

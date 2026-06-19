@@ -2,6 +2,7 @@
 title: Establish a connection using client secret
 description: Establish a connection between newly created Microsoft Teams graph application with ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/establish-a-connection-using-client-secret.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -29,7 +30,7 @@ Role required: admin
 
     **Note:** This template contains the delegated API permission required for the MSTeams integration.
 
-4.  From the Related Links section, click Create **New Connection &amp; Credential**.
+4.  From the Related Links section, select Create **New Connection &amp; Credential**.
 
     | | |
     |---|---|
@@ -46,8 +47,8 @@ Role required: admin
 
     On success, the following API permissions are added to the Azure application.
 
-    ![API Permissions - MS Teams](../../secops-integration-major-security-incident-management/image/api-permissions-msteams.png)
+    \[Omitted image "api-permissions-msteams.png"\] Alt text: API Permissions - MS Teams
 
 
-**Parent Topic:**[Using Client Secret value](using-client-secret-value.md)
+**Parent Topic:**[Using Client Secret value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/using-client-secret-value.md)
 

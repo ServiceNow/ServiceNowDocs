@@ -2,6 +2,7 @@
 title: Approve a reservation
 description: Review employee reservations raised using Workplace Reservation Management and approve or reject them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-calendar-synchronization/approve-or-reject-reservation.html
 release: zurich
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization

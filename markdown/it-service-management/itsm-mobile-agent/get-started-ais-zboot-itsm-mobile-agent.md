@@ -2,6 +2,7 @@
 title: Get started with AI search in new or zBoot instances
 description: Enable intelligent query features that help agents to quickly find the required answers in ITSM Mobile Agent in new or restarted instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/get-started-ais-zboot-itsm-mobile-agent.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -27,7 +28,7 @@ AI search is enabled by default in the base system for new and restarted instanc
 
 1.  To ensure AI search is enabled, navigate to **All** &gt; **AI Search** &gt; **AI Search Status**.
 
-    ![AI search confirmation](../image/ai-search-ready.png "AI Search")
+    \[Omitted image "ai-search-ready.png"\] Alt text: AI search confirmation
 
 2.  Publish the AI search-related search profile.
 

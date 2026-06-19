@@ -2,6 +2,7 @@
 title: Add clauses during authoring or negotiation
 description: As a contract fulfiller or reviewer, while authoring or negotiating a contract revision, add clauses from the clause library listed in the Microsoft Word add-in for ServiceNow Contracts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-add-clauses-from-library.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -36,7 +37,7 @@ The clause library is available under the following conditions:
 
 3.  On the add-in login screen, enter the credentials of the ServiceNow instance from where you downloaded the manifest file.
 
-    For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](cncore-config-word-addin.md)
+    For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-config-word-addin.md)
 
 4.  Select the **Clause library** tab.
 
@@ -50,8 +51,8 @@ The clause library is available under the following conditions:
 
 8.  Select **Use this clause** for a specific clause that is applicable.
 
-    The clause is added to the document. When a valid metadata mapping exists within clause content, the metadata gets auto-populated. Otherwise, a content control tag name is added and the metadata has to be manually updated. For more information, see [Configure metadata for fields, variables, and variables sets in a contract document](cncore-addin-add-metadata.md).
+    The clause is added to the document. When a valid metadata mapping exists within clause content, the metadata gets auto-populated. Otherwise, a content control tag name is added and the metadata has to be manually updated. For more information, see [Configure metadata for fields, variables, and variables sets in a contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-addin-add-metadata.md).
 
 
-**Parent Topic:**[Using Contract Management Pro](../concept/cncore-use-cmpro.md)
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

@@ -2,6 +2,7 @@
 title: Using Project workbench - Legacy
 description: The project workbench provides a central location for creating and managing projects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-management/c\_ProjectWorkbench.html
 release: zurich
 product: Project Management
 classification: project-management
@@ -17,7 +18,7 @@ The project workbench provides a central location for creating and managing proj
 
 **Important:**
 
-Project Workbench is being prepared for future deprecation. It will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Use new [Project Workspace](../../project-workspace/concept/project-workspace-landing-page.md) with enhanced UI to help you efficiently manage your projects.
+Project Workbench is being prepared for future deprecation. It will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Use new [Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/project-workspace-landing-page.md) with enhanced UI to help you efficiently manage your projects.
 
 The workbench supports the Project Management and application life cycle management applications, allowing for a hybrid approach to project management. Project managers can create projects that combine both waterfall and agile methodologies and add waterfall, agile, and test phases to these projects.
 
@@ -42,16 +43,16 @@ The project workbench displays project information in two distinct areas. The to
 
 The project workbench scales to fit the available browser height. If necessary, scroll bars are added to display the workbench details.
 
-![The project workbench](../image/ProjectWorkbench.png "Project Workbench")
+\[Omitted image "ProjectWorkbench.png"\] Alt text: The project workbench
 
--   **[Access the project workbench](../task/t_AccessTheProjectWorkbench.md)**  
+-   **[Access the project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/t_AccessTheProjectWorkbench.md)**  
 Access the project workbench from the Project form or from the application navigator.
--   **[Components of project workbench](components-project-workbench.md)**  
+-   **[Components of project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/components-project-workbench.md)**  
 The project workbench displays project information in two distinct areas. The top pane displays the project visualization, and the bottom pane displays phase details in a list view or visual task board. There is also a header above the workbench that includes several buttons and controls.
--   **[Project calculation](c_ProjectWorkbenchProjectCalc.md)**  
+-   **[Project calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/c_ProjectWorkbenchProjectCalc.md)**  
 When creating a project, the project manager can select the type of calculation to use: manual or automatic \(default\).
--   **[Managing Project workbench](c_UsingProjectWorkbench.md)**  
+-   **[Managing Project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/c_UsingProjectWorkbench.md)**  
 The project workbench allows project managers to manage all aspects of a project.
 
-**Parent Topic:**[Using Project Management](using-project-management.md)
+**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/using-project-management.md)
 

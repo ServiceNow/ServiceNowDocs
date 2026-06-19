@@ -2,11 +2,12 @@
 title: Commits included in DevOps change request
 description: The DevOps artifact package and its associated artifact versions are used to determine which commits are included in a DevOps change.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/dev-ops-commits-release.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 breadcrumb: [Artifacts and packages, Accelerate your DevOps change process, DevOps Change Velocity, IT Service Management]
 ---
@@ -605,5 +606,5 @@ Continuing with the use case:
 -   The number of commits shown in the change request will be the same as the number in the tool.
 -   To have other step types, like Test or Deploy, use the same commit logic as Prod Deploy, update the **Controls whether other Step types should follow the same logic as Prod Deploy to determine commits for a Change** \[**sn\_devops.commit\_rel\_change\_step\_type**\] property. Specify which step types \(such as Deploy and Test\) should use the same commit logic as Prod Deploy as the property value. If these are set up, the Prod Deploy commit process will also apply to their relationship scripts.
 
-**Parent Topic:**[Artifacts and packages](using-dev-ops-release-change.md)
+**Parent Topic:**[Artifacts and packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/using-dev-ops-release-change.md)
 

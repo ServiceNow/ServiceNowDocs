@@ -2,6 +2,7 @@
 title: Copy a project
 description: Copy an existing definition to apply its related configurations to a new project definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/copy-process-model-definition.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -43,7 +44,7 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 ## What to do next
 
-[Mine a project](generate-process-map.md#)
+[Mine a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/generate-process-map.md)
 
-**Parent Topic:**[Using Process Mining](../concept/use-process-mining.md)
+**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/use-process-mining.md)
 

@@ -2,6 +2,7 @@
 title: Information objects
 description: Information objects are a part of the information portfolio management capability in the Application Portfolio Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/information-objects.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -19,7 +20,7 @@ An information object is a configuration item that displays information in an or
 
 The following figure shows an example of information objects. There are two applications: Workday and Now HR. Both applications store employee information. Employee information is an information object. The Now HR application can only read employee information, while the Workday application has more permissions. The risks and controls that apply to the applications are similar. However, Workday not only reads, but also creates, updates, and deletes the employee information. This means that the risks associated with Workday are higher, and so the controls applied to Workday are more stringent.
 
-![Information objects.](../image/information-objects.png "Example of information objects")
+\[Omitted image "information-objects.png"\] Alt text: Information objects.
 
-**Parent Topic:**[Associate risks, citations, policies, and controls with a risk identification record](../task/associate-risks-pols-citations-risk-idenfn.md)
+**Parent Topic:**[Associate risks, citations, policies, and controls with a risk identification record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/associate-risks-pols-citations-risk-idenfn.md)
 

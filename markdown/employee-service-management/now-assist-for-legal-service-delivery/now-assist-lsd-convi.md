@@ -2,6 +2,7 @@
 title: Submit COI request using Now Assist conversational intake
 description: Submit Conflict of Interest \(COI\) requests through natural language conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-convi.html
 release: zurich
 product: Now Assist for Legal Service Delivery
 classification: now-assist-for-legal-service-delivery
@@ -28,23 +29,23 @@ Legal Conflict of Interest \(COI\) enables you to manage the disclosure, approva
 
 This topic describes how to submit a COI request using the conversational interface. The conversational intake functionality is available only when you have installed and configured Now Assist for Legal Service Delivery \(LSD\) that is a paid application.
 
-For more information on how to submit a COI request using Employee Center intake form, see [Submit COI request form Employee Center](../../legal-conflict-of-interest/task/submit-coi-disclosure-request.md)
+For more information on how to submit a COI request using Employee Center intake form, see [Submit COI request form Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-conflict-of-interest/submit-coi-disclosure-request.md)
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Employee Center**.
 
-2.  Select the Now Assist panel icon \(![Now Assist Panel icon](../../legal-conflict-of-interest/image/lsd-coi-nap-icon.png)\).
+2.  Select the Now Assist panel icon \(\[Omitted image "lsd-coi-nap-icon.png"\] Alt text: Now Assist Panel icon\).
 
 3.  Enter a message in the chat to indicate that you want to report disclose a conflict of interest.
 
     Example: I need to disclose an employment opportunity for Acme, a for-profit services company, for an 18-month starting 2026-04- 01 and ending 2027-09-30. The organization is not family-owned. My role will involve providing technical services on a project basis.
 
-    ![Enter message in chat with the details of COI](../../legal-conflict-of-interest/image/lsd-coi-chat-start.png)
+    \[Omitted image "lsd-coi-chat-start.png"\] Alt text: Enter message in chat with the details of COI
 
 4.  The message is analyzed and you are presented with suggestions, including an option to initiate a COI request.
 
-    ![Option to initiate COI request](../../legal-conflict-of-interest/image/lsd-coi-converse-getstarted.png)
+    \[Omitted image "lsd-coi-converse-getstarted.png"\] Alt text: Option to initiate COI request
 
 5.  Select **Get started**.
 
@@ -54,20 +55,20 @@ For more information on how to submit a COI request using Employee Center intake
 
     After all relevant details are gathered, a summary is displayed with an option to submit the request.
 
-    ![Confirmation for submitting a request](../../legal-conflict-of-interest/image/lsd-coi-converse-submit-conf.png)
+    \[Omitted image "lsd-coi-converse-submit-conf.png"\] Alt text: Confirmation for submitting a request
 
 7.  Review the summary and select **Submit** when the details are as required.
 
     The request is submitted and you can view it from the Employee Center. The system evaluates the COI request to determine risk. Low‑risk requests are auto‑approved, while medium‑ and high‑risk requests are routed for approval.
 
-    ![Review the request summary before submitting the request](../../legal-conflict-of-interest/image/lsd-coi-converse-req-submitted.png)
+    \[Omitted image "lsd-coi-converse-req-submitted.png"\] Alt text: Review the request summary before submitting the request
 
-    For more information, see [Approve or reject a conflict of interest disclosure request](../../legal-conflict-of-interest/task/approve-reject-coi-request.md)
+    For more information, see [Approve or reject a conflict of interest disclosure request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-conflict-of-interest/approve-reject-coi-request.md)
 
 
 ## Result
 
-When an employee submits a COI disclosure the risk assessment utility evaluates the submission against a set of predefined risk factor . Each risk factor contributes to an overall risk score, which determines the risk level \(Low, Medium, or High\) and the corresponding approval routing. The risk level determines whether the request needs approval or can be auto-approved. For more information in how to manage COI requests, see [Approve or reject a conflict of interest disclosure request](../../legal-conflict-of-interest/task/approve-reject-coi-request.md).
+When an employee submits a COI disclosure the risk assessment utility evaluates the submission against a set of predefined risk factor . Each risk factor contributes to an overall risk score, which determines the risk level \(Low, Medium, or High\) and the corresponding approval routing. The risk level determines whether the request needs approval or can be auto-approved. For more information in how to manage COI requests, see [Approve or reject a conflict of interest disclosure request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-conflict-of-interest/approve-reject-coi-request.md).
 
-**Parent Topic:**[Using Now Assist for Legal Service Delivery \(LSD\)](../concept/now-assist-lsd-using.md)
+**Parent Topic:**[Using Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-using.md)
 

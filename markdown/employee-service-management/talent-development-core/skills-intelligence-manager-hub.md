@@ -2,6 +2,7 @@
 title: Validate skills in Manager Hub
 description: Affirm the skills that your employee claims to have by reviewing and validating them in Manager Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/skills-intelligence-manager-hub.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -29,7 +30,7 @@ Role required: sn\_skills\_int.manager
 
 4.  On the **Employee details** tab, select the **Skills** tab.
 
-    ![Skill validation section in Manager Hub.](../image/skills-validated-skills.png)
+    \[Omitted image "skills-validated-skills.png"\] Alt text: Skill validation section in Manager Hub.
 
 5.  Select the **Validate skills** button, and then select the skills that you want to validate.
 
@@ -42,7 +43,7 @@ Role required: sn\_skills\_int.manager
 
 ## Result
 
-The validated skills are marked with a green tick in the employee skills profile, indicating that you validated the skills of your employee. For more information, see [Career tab in Employee Center](../concept/manage-skills-profile.md).
+The validated skills are marked with a green tick in the employee skills profile, indicating that you validated the skills of your employee. For more information, see [Career tab in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/manage-skills-profile.md).
 
-**Parent Topic:**[Using Skills Foundation](../concept/using-skills-intelligence.md)
+**Parent Topic:**[Using Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/using-skills-intelligence.md)
 

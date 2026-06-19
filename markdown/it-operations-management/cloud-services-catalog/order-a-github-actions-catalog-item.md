@@ -2,6 +2,7 @@
 title: Provision a GitHub Actions workflow using Cloud Services Catalog
 description: Provision the GitHub Actions catalog by using the GitHub Actions catalog order form in the Cloud Services Catalog application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/order-a-github-actions-catalog-item.html
 release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -43,5 +44,5 @@ You can use the GitHub Actions workflow deployment form to call a GitHub Actions
 
 Verify that a blueprint approval policy \(CSC Content Approval Policy GitHub Actions Integration\) is applied on the GitHub Actions catalog. This policy mandates that an approval must be obtained from the Change management group before any provisioning can take place.
 
-**Parent Topic:**[Integrating GitHub Actions with Cloud-Services-Catalog](../concept/integrating-github-actions-with-cloud-service-catalog.md)
+**Parent Topic:**[Integrating GitHub Actions with Cloud-Services-Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/integrating-github-actions-with-cloud-service-catalog.md)
 

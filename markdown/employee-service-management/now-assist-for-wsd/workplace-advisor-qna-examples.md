@@ -2,6 +2,7 @@
 title: Workplace Advisor QnA examples
 description: You can interact with the Now Assist panel to retrieve workplace-related information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-wsd/workplace-advisor-qna-examples.html
 release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd

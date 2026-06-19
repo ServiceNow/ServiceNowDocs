@@ -2,6 +2,7 @@
 title: Request a vaccine exemption
 description: Request a vaccine exemption from your organization with information about why you require an exemption.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/request-vaccine-exemption.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -43,5 +44,5 @@ Role required: none
 
 Your vaccine exemption request is submitted to your organization for an administrator or a managerto review.
 
-**Parent Topic:**[Vaccination Status](../concept/vaccination-status.md)
+**Parent Topic:**[Vaccination Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/vaccination-status.md)
 

@@ -2,6 +2,7 @@
 title: Data imported into security alerts
 description: When an event is created with more JSON-encoded data, that data is imported into any field with a name that matches the fieldName of that value in the JSON data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/c\_DataImportedIntoSecAlerts.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

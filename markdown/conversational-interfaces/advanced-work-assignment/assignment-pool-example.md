@@ -2,6 +2,7 @@
 title: Create an assignment pool of agents
 description: Create an eligible assignment pool in Advanced Work Assignment that receives overflow work items, just in case you need more help from other agents to handle change requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/assignment-pool-example.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -39,5 +40,5 @@ Role required: awa\_admin or admin
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Advanced Work Assignment](installing-awa.md)
+**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

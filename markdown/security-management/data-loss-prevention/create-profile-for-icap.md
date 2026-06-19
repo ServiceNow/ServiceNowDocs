@@ -2,6 +2,7 @@
 title: Create a profile for ICAP DLP integration
 description: Create an incident profile in your  ServiceNow AI Platform instance. Determine the  ICAP DLP alerts that are suitable for creating DLP incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/data-loss-prevention/create-profile-for-icap.html
 release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -85,10 +86,10 @@ Description for this profile.
 
 To move to the Filtering section,  click **Continue**.
 
--   **[Define filters to apply for the Incident creation](define-filters-for-incidents.md)**  
+-   **[Define filters to apply for the Incident creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/define-filters-for-incidents.md)**  
 Define and set filter conditions to filter the incoming  DLP  alerts. Determine the alerts that should be created as DLP incidents in ServiceNow.
--   **[Schedule the ICAP DLP incidents retrieval](schedule-icap-dlp-incidents-retrieval.md)**  
+-   **[Schedule the ICAP DLP incidents retrieval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/schedule-icap-dlp-incidents-retrieval.md)**  
 Set a schedule to retrieve ICAP DLP alerts that match the criteria in the profile.
 
-**Parent Topic:**[Internet Content Adaption Protocol \(ICAP\) integration for DLP IR](../concept/icap-dlp-integration.md)
+**Parent Topic:**[Internet Content Adaption Protocol \(ICAP\) integration for DLP IR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/icap-dlp-integration.md)
 

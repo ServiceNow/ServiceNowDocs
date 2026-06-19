@@ -2,6 +2,7 @@
 title: Configure user authentication for Conversational IVR
 description: You must configure the authentication level for how the end-user can be authenticated to be the logged-in ServiceNow user using Voice.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/setup-user-authentication-ivr.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -49,7 +50,7 @@ Role required: admin
 
         **Note:** Requires the phone number to match and also for end user to identify user's personal Soft Pin registered with the customer’s ServiceNow record, in addition to have the end user authenticate using MFA.
 
-    To set up your end users with Soft PIN or MFA, see [Configure your Password Reset process to auto-enroll users](https://www.servicenow.com/docs/access?context=configure-auto-enroll-for-pwd-reset&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    To set up your end users with Soft PIN or MFA, see Configure your Password Reset process to auto-enroll users.
 
 8.  Provide the authentication details as per the selected authentication style.
 
@@ -69,10 +70,10 @@ Role required: admin
 
         **Note:** This option is only available for Phone + Soft PIN and Phone + Soft PIN + MFA.
 
-    Changing the values or messages updates the record on the Password Reset verification record. For more information, see [Configure your Password Reset process to auto-enroll users](https://www.servicenow.com/docs/access?context=configure-auto-enroll-for-pwd-reset&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+    Changing the values or messages updates the record on the Password Reset verification record. For more information, see Configure your Password Reset process to auto-enroll users
 
 9.  Click **Save**.
 
 
-**Parent Topic:**[Configure Conversational IVR with Amazon Connect](configure-va-ivr.md)
+**Parent Topic:**[Configure Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-va-ivr.md)
 

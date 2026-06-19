@@ -2,6 +2,7 @@
 title: View and use the Condition with Event BR \(Demo\) activity set
 description: You can trigger activity sets using an event that is included in the Condition with Event BR \(Demo\) activity set or you can create and use server-side code \(business rule, event script, scheduled job, etc.\) that triggers the check\_activity\_set\_trigger event into the HR Activity Set Trigger Check workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/lifecycle-events/le-evaluation-interval-process.html
 release: zurich
 product: Lifecycle Events
 classification: lifecycle-events
@@ -33,10 +34,10 @@ Role required: admin
 
     **Note:** The **Condition with Event BR \(Demo\)** activity set is an example of what you can use. This is an optional solution, but you can create and use server-side code \(business rule, event script, scheduled job, etc.\) that triggers the check\_activity\_set\_trigger event into the HR Activity Set Trigger Check workflow.
 
-5.  Select the edit \(![Edit icon](../../legal-mobile/image/edit-icon.png)\) in the **Condition with Event BR \(Demo\)** activity set.
+5.  Select the edit \(\[Omitted image "edit-icon.png"\] Alt text: Edit icon\) in the **Condition with Event BR \(Demo\)** activity set.
 
     -   The **Trigger type** is **Condition**.
     -   When the **State** of the LE/HR case changes to **Work in Progress**, the **Condition with Event BR \(Demo\)** activity set triggers and sends a email.
 
-**Parent Topic:**[Lifecycle Events evaluation interval](../concept/le-evaluation-interval1.md)
+**Parent Topic:**[Lifecycle Events evaluation interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/le-evaluation-interval1.md)
 

@@ -2,6 +2,7 @@
 title: Disable feedback
 description: You can disable the feedback providing mechanism by creating a system property and disabling it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/disable-feedbak.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
@@ -27,7 +28,7 @@ Role required: admin
 
 3.  In the **Name** field, type **glide.ui.product\_feedback\_enabled**.
 
-4.  In the **Type** field, select ![true-false](../image/true-false.png).
+4.  In the **Type** field, select \[Omitted image "true-false.png"\] Alt text: true-false.
 
 5.  In the **Value** field, select false.
 

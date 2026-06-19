@@ -2,6 +2,7 @@
 title: Cassandra metrics
 description: The following table lists the metrics that are gathered as output from Cassandra checks. Entries indicated as Featured metrics are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/cassandra-metrics.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -153,5 +154,5 @@ The following table lists the metrics that are gathered as output from Cassandra
 |cassandra.system\_auth.write\_latency| | | |
 |cassandra.system\_auth.pending\_flushes| |count| |
 
-**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](agent-policies-checks.md)
+**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-policies-checks.md)
 

@@ -2,6 +2,7 @@
 title: Record page configurations in Service Operations Workspace for ITSM
 description: You can configure the data available in record pages in Service Operations Workspace for ITSM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/record-page-configurations-sow-itsm.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -17,10 +18,10 @@ You can configure the data available in record pages in Service Operations Works
 
 **Note:** Selecting any empty reference field such as **Configuration item**, **Service offering** and **Service** in SOW displays only the recent selection values instead of automatic searching and displaying the results of the field values available in the system. This change increases the overall performance of the reference fields. This change is applicable only to reference fields with no field values. By default, this change is enabled. To revert this change, set the **Reference search on click** \(**ref\_search\_on\_click**\) UX page property to set to `true`.
 
--   **[Configure the incident record page in SOW for ITSM](../task/configure-incident-record-page.md)**  
+-   **[Configure the incident record page in SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/configure-incident-record-page.md)**  
 Configure the data displayed in various incident tabs such as **Overview** and **Details** tabs.
--   **[Configure the change record page in SOW for ITSM](../task/configure-change-form-sow.md)**  
+-   **[Configure the change record page in SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/configure-change-form-sow.md)**  
 Configure the data displayed in various Change record tabs such as **Overview** and **Details** tabs.
 
-**Parent Topic:**[Getting started with Service Operations Workspace for ITSM](getting-started-sow.md)
+**Parent Topic:**[Getting started with Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/getting-started-sow.md)
 

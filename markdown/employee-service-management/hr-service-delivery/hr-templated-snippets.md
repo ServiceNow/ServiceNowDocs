@@ -2,6 +2,7 @@
 title: Response templates for HR Service Delivery
 description: You can use response templates with HR Service Delivery to resolve cases faster and more efficiently.Several types of components are installed with activation of the Templated Responses \(com.sn\_templated\_snip\) plugin, including tables and user roles.Create or modify a response template \(formerly known as a templated snippet\) to define a reusable message. You can copy these messages when responding to employees to provide quick and consistent messages.Follow these steps to create a response template channel. Response template channels ensure the correct response templates appear for use with chat, email, or HR case or task.Copy response template \(formerly known as templated snippet\) content to any field on an HR case form that meets the specified conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-templated-snippets.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,7 +18,7 @@ You can use response templates with HR Service Delivery to resolve cases faster 
 
 Response templates \(formerly known as templated snippets\) are reusable messages. You can copy these messages created from these templates to an HR case, task, email, or chat to provide quick and consistent messages to employees. For example, a response template for a payroll discrepancy case enables HR agents to use a standardized message when responding to that case type.
 
-**Note:** For more information on response templates, see [Response templates](https://www.servicenow.com/docs/access?context=response-templates-templated-snippets&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+**Note:** For more information on response templates, see Response templates.
 
 ## Response template channels
 
@@ -35,31 +36,31 @@ To create a universal response template that is available for all channels, assi
 
 ## Activation information
 
-The response templates feature automatically activates when Case and Knowledge Management activates. See [Activate response templates](https://www.servicenow.com/docs/access?context=activate-templated-snippets&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+The response templates feature automatically activates when Case and Knowledge Management activates. See Activate response templates.
 
 To use response templates in a chat in Agent Workspace for HR Service Delivery, activate: Advanced Work Assignment for HRSD \(com.sn\_hr\_awa\) plugin.
 
 For more information, see  and Setting up Workspace Agent Chat.
 
-For more information on setting up chat in Virtual Agent, see [Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+For more information on setting up chat in Virtual Agent, see Virtual Agent.
 
 ## How to use response templates with form \(HR case or task\)
 
 HR administrators and managers can create response templates. Each template is associated with an HR table that is an extension of the Task \[task\] table. Configure the template to include variables pulled from that table. Also, use a condition builder to specify what a case must meet for the template to be available, such as for a specific HR service.
 
-For more information on creating or modifying a response template, see [Create or modify an HR Service Delivery response template](hr-templated-snippets.md#).
+For more information on creating or modifying a response template, see [Create or modify an HR Service Delivery response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
 
-Response templates appear for an HR case form for templates associated with the Form channel and satisfy the conditions on the response template. For the HR case form, the **Responses** button appears at the top. If there are multiple templates available, you can select the appropriate one. See [Work an HR case](../task/t_CreateAnHRCase.md).
+Response templates appear for an HR case form for templates associated with the Form channel and satisfy the conditions on the response template. For the HR case form, the **Responses** button appears at the top. If there are multiple templates available, you can select the appropriate one. See [Work an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateAnHRCase.md).
 
-**Note:** For more information on using a response template with an HR case, see [Copy a response template to an HR case](hr-templated-snippets.md#).
+**Note:** For more information on using a response template with an HR case, see [Copy a response template to an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
 
-For Agent Workspace for HR Service Delivery, the Response Templates icon \(![Response template icon](../reference/images/response-template-icon.png)\) appears in the Contextual sidebar. For more information, see .
+For Agent Workspace for HR Service Delivery, the Response Templates icon \(\[Omitted image "response-template-icon.png"\] Alt text: Response template icon\) appears in the Contextual sidebar. For more information, see [Using a Response template in an HR case or HR task record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-using-response-template.md).
 
 ## Components installed with response templates
 
 Several types of components are installed with activation of the Templated Responses \(com.sn\_templated\_snip\) plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -120,11 +121,11 @@ None
 </td></tr></tbody>
 </table>You can assign these roles to the appropriate roles, groups, or users in your application.
 
--   To assign a role to another role, see [Add a role to an existing role](https://www.servicenow.com/docs/access?context=t_AddARoleToAnExistingRole&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
--   To assign a role to a group, see [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
--   To assign a role to a user, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+-   To assign a role to another role, see Add a role to an existing role.
+-   To assign a role to a group, see Assign a role to a group.
+-   To assign a role to a user, see Assign a role to a user.
 
-For further information on user administration and how to manage users, see [User administration](https://www.servicenow.com/docs/access?context=c_UserAdministration&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For further information on user administration and how to manage users, see User administration.
 
 ### Tables installed
 
@@ -169,7 +170,7 @@ Note Template for Table\[sn\_m2m\_note\_template\_for\_table\]
 Maps notes to response templates.
 
 </td></tr></tbody>
-</table>For further information on table administration and how to manage data, see [Table administration](https://www.servicenow.com/docs/access?context=c_TableAdministration&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+</table>For further information on table administration and how to manage data, see Table administration.
 
 ## Create or modify an HR Service Delivery response template
 
@@ -235,7 +236,7 @@ Condition
 
 </td><td>
 
-Conditions that determine when the response template is available for use.When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+Conditions that determine when the response template is available for use.When defining conditions like case sensitivity or null values, see API .
 
  **Note:** The conditions available depend on the table you select. For chat response templates, specify the condition: **\[Type\] \[is\] \[Chat\]**
 
@@ -292,11 +293,11 @@ Variables you can add to the template body. For example, if you choose the HR Ca
 </td></tr></tbody>
 </table>    The following GIF shows an example of an HR manager in the HR Service Delivery application creating a response template to escalate payroll discrepancy cases. The template is associated with the HR Payroll Case \[sn\_hr\_core\_case\_payroll\] table, and a condition is set to filter on cases that match the Payroll Discrepancy HR service. The template text is pasted into the body, and then a variable for the subject person is added to the salutation.
 
-    ![Response Template](../image/response-template.png)
+    \[Omitted image "response-template.png"\] Alt text: Response Template
 
 4.  Click **Submit** or **Update**.
 
-    Channels limit the response template to only the channels you add. If you leave this blank, the response template is available to no channels. This feature allows you to have different messages for chats, emails, or form. For more information, see [Create a response template channel](hr-templated-snippets.md#).
+    Channels limit the response template to only the channels you add. If you leave this blank, the response template is available to no channels. This feature allows you to have different messages for chats, emails, or form. For more information, see [Create a response template channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
 
     The Channels related list appears.
 
@@ -307,7 +308,7 @@ You can copy response template content to any field on a form that meets the spe
 
 The following GIF shows an example of an HR case writer in the HR Service Delivery application opening a payroll discrepancy case and copying a payroll discrepancy escalation template to the comments field in the HR case form for the employee to read.
 
-![How you can copy response template content to a field on a case form.](../image/response-template-example-2.gif)
+\[Omitted image "response-template-example-2.gif"\] Alt text: How you can copy response template content to a field on a case form.
 
 ## Create a response template channel
 
@@ -325,7 +326,7 @@ Role required: admin
 
 3.  Select **Channels**.
 
-4.  Select the ![Lookup using list icon](../image/magnifying-glass.png) **Lookup using list** icon.
+4.  Select the \[Omitted image "magnifying-glass.png"\] Alt text: Lookup using list icon **Lookup using list** icon.
 
 5.  Select **New**.
 
@@ -379,7 +380,7 @@ Activates the Response Template Channel.**Note:** Unchecking the box inactivates
 </td></tr></tbody>
 </table>6.  Select **Save**.
 
-    Channels limit the response template to only the channels you add. If you leave this blank, the response template is available to no channels. This feature allows you to have different messages for chats, emails, or form. For more information, see [Create a response template channel](hr-templated-snippets.md#).
+    Channels limit the response template to only the channels you add. If you leave this blank, the response template is available to no channels. This feature allows you to have different messages for chats, emails, or form. For more information, see [Create a response template channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
 
     The Channels related list appears.
 
@@ -391,7 +392,7 @@ Activates the Response Template Channel.**Note:** Unchecking the box inactivates
 
 9.  Click **Update**.
 
-    For more information on response templates, see [Create or modify an HR Service Delivery response template](hr-templated-snippets.md#).
+    For more information on response templates, see [Create or modify an HR Service Delivery response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
 
 
 ## Copy a response template to an HR case
@@ -410,13 +411,13 @@ Role required: sn\_hr\_core.case\_writer
 
 3.  Click **Responses** to open the **Response Templates** side panel.
 
-    **Note:** If the **Responses** button is not visible, make sure that a response template that meets the conditions for the open case is available to use. See [Create or modify an HR Service Delivery response template](hr-templated-snippets.md#) for more information.
+    **Note:** If the **Responses** button is not visible, make sure that a response template that meets the conditions for the open case is available to use. See [Create or modify an HR Service Delivery response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-templated-snippets.md) for more information.
 
-    ![Click Responses to open the Response Templates side panel.](../image/response-template-1.png)
+    \[Omitted image "response-template-1.png"\] Alt text: Click Responses to open the Response Templates side panel.
 
 4.  In the **Response Templates** side panel, you can select a template and copy it to the clipboard.
 
-    ![In the Response Templates side panel, you can select a template and copy it to the clipboard.](../image/response-template-2.png)
+    \[Omitted image "response-template-2.png"\] Alt text: In the Response Templates side panel, you can select a template and copy it to the clipboard.
 
 5.  Once copied, you can paste the content to a field on the form, such as to **Comments**, or into an email that you send to the employee.
 

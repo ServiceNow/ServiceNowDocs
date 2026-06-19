@@ -2,6 +2,7 @@
 title: Bind an event to a component
 description: Bind data elements within UI Builder so that you can add event actions to your components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/bind-event-component.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -33,33 +34,33 @@ To add actions to components, pages, and data resources on your page, you can ad
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    For more information, see [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md).
+    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md).
 
 3.  Create or open a page.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/create-page.md).
 
 4.  Add a component that has events to which it can bind to your page, such as a button.
 
-    For more information about adding components to a page, see [Add and configure components](add-components.md#).
+    For more information about adding components to a page, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/add-components.md).
 
 5.  To add an event handler to your component, select the **Events** tab.
 
-    For more information on how to add event handlers to your component, see [Manage actions in UI Builder pages](../concept/work-events.md).
+    For more information on how to add event handlers to your component, see [Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-events.md).
 
     1.  To start the process of setting up an event handler for your component, click **Add event mapping**.
 
-        ![Arrow pointing to add event mapping option.](../image/event-handler-mapping-button.png)
+        \[Omitted image "event-handler-mapping-button.png"\] Alt text: Arrow pointing to add event mapping option.
 
     2.  Select the event mapping that you want to configure from the list.
 
-        ![List of available event mappings.](../image/event-handler-list.png)
+        \[Omitted image "event-handler-list.png"\] Alt text: List of available event mappings.
 
     3.  Select **Continue**.
 
     4.  From the Event handler preview section, select an event handler to bind to your component.
 
-        ![Clear alert notifications when a row is clicked in a list.](../image/event-handler-add-page-level.png)
+        \[Omitted image "event-handler-add-page-level.png"\] Alt text: Clear alert notifications when a row is clicked in a list.
 
     5.  Select **Continue**.
 
@@ -71,15 +72,15 @@ To add actions to components, pages, and data resources on your page, you can ad
 
 6.  If you want a modal to pop up for your event, add the modal to the page before you bind your event to the component.
 
-    A modal is a confirmation pop-up that appears when you click the component. For example, if you add a button component that deletes a record, you add a modal to ask the user to confirm that the user wants to delete the record. For more information, see [Add modal to component](modals-uib.md).
+    A modal is a confirmation pop-up that appears when you click the component. For example, if you add a button component that deletes a record, you add a modal to ask the user to confirm that the user wants to delete the record. For more information, see [Add modal to component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/modals-uib.md).
 
     1.  Select the **+** icon in the content tree next to **Modals**.
 
-        ![Arrow pointing to the add new modal option.](../image/add-modal-selection.png)
+        \[Omitted image "add-modal-selection.png"\] Alt text: Arrow pointing to the add new modal option.
 
     2.  Choose a modal type such as **Confirm**.
 
-        ![Modal options with the confirm modal highlighted.](../image/add-modal-options.png)
+        \[Omitted image "add-modal-options.png"\] Alt text: Modal options with the confirm modal highlighted.
 
     3.  Configure the modal.
 
@@ -99,7 +100,7 @@ To add actions to components, pages, and data resources on your page, you can ad
 
     5.  Select **Add handler**.
 
-        ![Arrow pointing to the add event handler link for the button component.](../image/modal-button-event.png)
+        \[Omitted image "modal-button-event.png"\] Alt text: Arrow pointing to the add event handler link for the button component.
 
         The button component only has the button-clicked event associated with it. Other components can have more than one event.
 
@@ -107,7 +108,7 @@ To add actions to components, pages, and data resources on your page, you can ad
 
         For example, to add an event handler for the button component, you could link it to another destination and add alert notifications. In this example, you can choose **Open or close modal dialog** to make the button open the modal that you created earlier. In this button scenario, select the Confirm and destroy modal dialog event handler that you created earlier.
 
-        ![Event handler configuration screen showing the open or close modal dialog settings.](../image/modal-open-button-event.png)
+        \[Omitted image "modal-open-button-event.png"\] Alt text: Event handler configuration screen showing the open or close modal dialog settings.
 
     7.  Select **Continue**.
 
@@ -122,5 +123,5 @@ To add actions to components, pages, and data resources on your page, you can ad
 10. To trigger the modal that you created, click the button on the page.
 
 
-**Parent Topic:**[Bind events to add actions](../concept/bind-events.md)
+**Parent Topic:**[Bind events to add actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/bind-events.md)
 

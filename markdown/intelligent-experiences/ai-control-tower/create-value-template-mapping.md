@@ -2,6 +2,7 @@
 title: Create a new value template mapping
 description: Create a value template mapping for an AI asset to standardize the usage of templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/create-value-template-mapping.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
@@ -43,5 +44,5 @@ Role required: AI steward \[sn\_ai\_g overnance\_ai\_steward\]
     The new value template mapping has been created and is updated in the **Productivity- Templates mapping** list.
 
 
-**Parent Topic:**[Using value templates](../concept/using-value-templates.md)
+**Parent Topic:**[Using value templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/using-value-templates.md)
 

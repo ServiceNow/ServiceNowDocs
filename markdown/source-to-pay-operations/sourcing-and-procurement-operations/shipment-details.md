@@ -2,6 +2,7 @@
 title: Shipment details
 description: Shipment details display tracking information of a product that is shipped to the employee shopper.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/shipment-details.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -20,7 +21,7 @@ Shipments can be tracked for USPS, FedEx, UPS, or other carrier services. The tr
 
 You can view all shipment details from the **Receipt Acknowledgment** sub-module under the Sourcing and Purchasing Automation module.
 
-![Shipment details form.](../image/spo-shipment.png "Shipment Details form")
+\[Omitted image "spo-shipment.png"\] Alt text: Shipment details form.
 
 The following are the key fields for a shipment:
 
@@ -111,5 +112,5 @@ Purchase order line associated with the shipment.
 </td></tr></tbody>
 </table>When the status of the shipment is updated to **Delivered**, a receipt is created for the quantity mentioned in the shipment.
 
-**Parent Topic:**[Sourcing and Purchasing Automation](purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

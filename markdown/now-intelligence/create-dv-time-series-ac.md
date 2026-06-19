@@ -2,6 +2,7 @@
 title: Create time series data visualizations
 description: Show changes in data over time. Use different time series visualizations to emphasize different aspects of the data, such as trends or individual values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/create-dv-time-series-ac.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -15,7 +16,7 @@ Show changes in data over time. Use different time series visualizations to emph
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../concept/report-view-access-control.md) and [Platform Analytics roles](../../par-for-workspace/reference/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -29,7 +30,7 @@ When you are selecting a visualization for a time series, consider whether you w
 
 For information about the use of a Time series visualization in a dashboard, see [the Developer Site](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/shared-components/now-vis-timeseries-wrapper/usage). This site gives information about Time series data visualization components in the UI Builder, and some configuration options may differ from the Visualization Designer.
 
-For an example of creating a time series visualization, see [Time series data visualization example](../../par-for-workspace/task/dv-example-line.md).
+For an example of creating a time series visualization, see [Time series data visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dv-example-line.md).
 
 ## Procedure
 
@@ -162,36 +163,36 @@ Specify the text color of the title. The default title color is black, but you c
 </td></tr></tbody>
 </table>4.  Choose a data source.
 
-    For general descriptions of the data sources, see [Data sources for data visualizations](../../par-for-workspace/reference/data-sources-visualizations.md).
+    For general descriptions of the data sources, see [Data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/data-sources-visualizations.md).
 
     -   Table \(available in the base system\). When you select a table, you can filter it by custom or preconfigured conditions. Custom conditions can include questions or Service Catalog variables.
 
-        Configured report sources appear in the **Predefined conditions** list. For more information, see [Report sources](../concept/c_ReportSources.md#).
+        Configured report sources appear in the **Predefined conditions** list. For more information, see [Report sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_ReportSources.md).
 
         To help you create a custom filter, there is a preview list of records that would be included in the visualization. You can change which fields are shown as columns and the width of columns in the list actions.
 
-        ![Preview record list for table source data visualization with list actions shown.](../../par-for-workspace/image/dv-preview-edit-cols.png)
+        \[Omitted image "dv-preview-edit-cols.png"\] Alt text: Preview record list for table source data visualization with list actions shown.
 
     -   Indicator \(available in the base system\). You can filter the indicator scores by breakdowns and elements.
 
         **Note:** Benchmark indicators are not supported.
 
-        ![Conditional filter for indicator data source on data visualization.](../../performance-analytics/image/dv-ind-source-con-filter.png)
+        \[Omitted image "dv-ind-source-con-filter.png"\] Alt text: Conditional filter for indicator data source on data visualization.
 
         **Note:**
 
-        You might have a multiple select \(is one of\) or dynamic \(is \(dynamic\)\) operator on the breakdown element filter. These operators require the indicator and breakdown to support them. For more information about the configurations that support these operators, see ["Is one of" and "Is \(Dynamic\)" operators on breakdown conditions in data visualizations](../../performance-analytics/concept/condition-operators-ind-bkdowns.md#section_breakdown-operators).
+        You might have a multiple select \(is one of\) or dynamic \(is \(dynamic\)\) operator on the breakdown element filter. These operators require the indicator and breakdown to support them. For more information about the configurations that support these operators, see ["Is one of" and "Is \(Dynamic\)" operators on breakdown conditions in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/condition-operators-ind-bkdowns.md).
 
     -   MetricBase \(available if MetricBase is enabled\). When you select a MetricBase data source, you have the option of constructing a custom filter for it using conditions and related list conditions, as with Table data sources.
-    -   User Experience Analytics \(available with the User Experience PAR Integration application, to users with a required role\). Choose one of up to three KPIs included with this application, depending on the visualization type. For more information, see [User Experience Analytics data sources for data visualizations](../../performance-analytics/concept/uxa-data-sources.md).
-    **Note:** You can select multiple data sources for this visualization, but they must be of the same type: table, indicator, User Experience Analytics, or MetricBase. For more information, see [Multiple data sources](../../par-for-workspace/reference/multiple-data-sources.md#).
+    -   Usage Insights \(available with the User Experience PAR Integration application, to users with a required role\). Choose one of up to three KPIs included with this application, depending on the visualization type. For more information, see [User Experience Analytics data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/uxa-data-sources.md).
+    **Note:** You can select multiple data sources for this visualization, but they must be of the same type: table, indicator, Usage Insights, or MetricBase. For more information, see [Multiple data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/multiple-data-sources.md).
 
 5.  Select the options for your data source.
 
-    -   If your visualization represents table data, go to [Table data options for time series data visualizations](../reference/config-dv-time-series-table-data.md).
-    -   If your visualization represents indicator data, go to [Indicator data options for time series data visualizations](../reference/config-dv-time-series-ind-data.md).
-    -   If your visualization represents User Experience Analytics data, go to [User Experience Analytics data options for time series data visualizations](../reference/config-dv-time-series-uxa-data.md).
-    -   If your visualization represents MetricBase data, go to [MetricBase data options for time series data visualizations](../reference/config-dv-time-series-mb-data.md).
+    -   If your visualization represents table data, go to [Table data options for time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/config-dv-time-series-table-data.md).
+    -   If your visualization represents indicator data, go to [Indicator data options for time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/config-dv-time-series-ind-data.md).
+    -   If your visualization represents Usage Insights data, go to [Usage Insights data options for time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/config-dv-time-series-uxa-data.md).
+    -   If your visualization represents MetricBase data, go to [MetricBase data options for time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/config-dv-time-series-mb-data.md).
 6.  Under **Presentation**, provide display and color information.
 
 <table id="table_gvk_2mr_qtb"><thead><tr><th>
@@ -204,7 +205,7 @@ Description
 
 </th></tr></thead><tbody><tr><td colspan="2">
 
-Display settings: Each visualization type, such as Area and Column, has a different set of display settings. See [Display settings for different time series data visualizations](../reference/display-settings-ts-charts.md).
+Display settings: Each visualization type, such as Area and Column, has a different set of display settings. See [Display settings for different time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/display-settings-ts-charts.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -361,7 +362,7 @@ Set color type
 
 Type of color scheme to apply to the component. Options include:
 
--   Default: A color or set of colors that come from the UX Theme that is applied to the instance. For more information, see [Working with themes in Next Experience](https://www.servicenow.com/docs/access?context=next-experience-theming&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+-   Default: A color or set of colors that come from the UX Theme that is applied to the instance. For more information, see .
 -   Color palette: List of color palettes to select from predefined system palettes in the Chart Color Scheme \[pa\_chart\_color\_schemes\] table. For grouped or stacked data, the colors apply in order from highest value to lowest. For multiple data sources, palette colors apply in the order of data sources. For example, the first color of a palette applies to the first data source, and the second palette color applies to the second source. All visualizations that use the same color palette show the same colors, regardless of what data they display.
 -   Fixed element color: Use a specific color from the Chart Colors table \[sys\_report\_chart\_color\] for each element. All data visualizations that use fixed element colors show the same element, such as critical incidents in the Global scope, in the same color.
 
@@ -394,9 +395,9 @@ Action
 
 </td><td>
 
-Choose the event that occurs when a user clicks in a visualization or one of its segments. Choices depend on the visualization type and data source. Applies only when **Allow chart interaction** is on. For more information, see [Chart interactions in a data visualization](../../par-for-workspace/concept/dv-chart-interactions.md).
+Choose the event that occurs when a user clicks in a visualization or one of its segments. Choices depend on the visualization type and data source. Applies only when **Allow chart interaction** is on. For more information, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dv-chart-interactions.md).
 
--   **Go to data view** opens a list view, KPI Details page, or User Experience Analytics overview page relevant to the associated segment or visualization. For table data, a system property determines whether a Core UI list or a Platform Analytics list opens. For more information, see [Data views for different data sources](../../dashboards/reference/visualization-drilldown-in-config-ws.md).
+-   **Go to data view** opens a list view, KPI Details page, or Usage Insights overview page relevant to the associated segment or visualization. For table data, a system property determines whether a Core UI list or a Platform Analytics list opens. For more information, see [Data views for different data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/visualization-drilldown-in-config-ws.md).
 -   **Go to URL** opens the specified URL, which can be on the instance or external. You have the option of specifying a page name to appear in the tooltip, for those visualizations with tooltips.
 -   **Drill down to chart** \(Visualization Designer only\) Opens a different data visualization that is filtered by the selected data. You can add a drill-down visualization for each metric on the parent visualization.
 
@@ -412,28 +413,28 @@ Choose the event that occurs when a user clicks in a visualization or one of its
 
 ## What to do next
 
--   [Add a visualization to a dashboard from the Visualization Designer](add-dv-new-db.md)
--   [Share a data visualization in the Visualization Designer](share-dv-ac.md#)
--   [Bookmark a visualization in the Visualization Designer](../../dashboards/task/bookmark-dv-ac.md)
+-   [Add a visualization to a dashboard from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/add-dv-new-db.md)
+-   [Share a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/share-dv-ac.md)
+-   [Bookmark a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/bookmark-dv-ac.md)
 
--   **[Use cases for different time series visualization types](../reference/time-series-visualization-types.md)**  
+-   **[Use cases for different time series visualization types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/time-series-visualization-types.md)**  
 Time series visualizations can emphasize the trend in the data or specific changes in the data. They can show one data source or compare several related data sources.
--   **[Table data options for time series data visualizations](../reference/config-dv-time-series-table-data.md)**  
+-   **[Table data options for time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/config-dv-time-series-table-data.md)**  
 The following Data configuration options are available for all time series type visualizations of table data.
--   **[Indicator data options for time series data visualizations](../reference/config-dv-time-series-ind-data.md)**  
+-   **[Indicator data options for time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/config-dv-time-series-ind-data.md)**  
 The following Data configuration options are available for all time series type visualizations of indicator scores.
--   **[User Experience Analytics data options for time series data visualizations](../reference/config-dv-time-series-uxa-data.md)**  
-The following Data configuration options are available for all time series type visualizations of User Experience Analytics data.
--   **[MetricBase data options for time series data visualizations](../reference/config-dv-time-series-mb-data.md)**  
+-   **[Usage Insights data options for time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/config-dv-time-series-uxa-data.md)**  
+The following Data configuration options are available for all time series type visualizations of Usage Insights data.
+-   **[MetricBase data options for time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/config-dv-time-series-mb-data.md)**  
 The following data options are available for all time series type visualizations of MetricBase data.
--   **[Display settings for different time series data visualizations](../reference/display-settings-ts-charts.md)**  
+-   **[Display settings for different time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/display-settings-ts-charts.md)**  
 Each time series visualization type has a different set of display settings.
--   **[Configure a forecast in a time series data visualization](configure-forecast-ts-viz.md#)**  
+-   **[Configure a forecast in a time series data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/configure-forecast-ts-viz.md)**  
 If a time series visualization is configured to show forecasts, you can configure the forecasts for that visualization.
--   **[Options for time series data visualizations with multiple metrics](../concept/chart-options-multi-metrics.md)**  
+-   **[Options for time series data visualizations with multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/chart-options-multi-metrics.md)**  
 If you are showing multiple metrics in a time series data visualization, you can set the group by, visualization type, and Y-axis scale for each metric. You can also have filters on a dashboard apply only to specific metrics.
--   **[Time series data visualization example](../../par-for-workspace/task/dv-example-line.md)**  
+-   **[Time series data visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dv-example-line.md)**  
 Time series visualizations show the changes in data over time. This example starts with a single indicator data source and adds more complexity.
 
-**Parent Topic:**[Creating data visualizations](../concept/creating-data-visualizations.md)
+**Parent Topic:**[Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/creating-data-visualizations.md)
 

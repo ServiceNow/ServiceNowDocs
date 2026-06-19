@@ -2,6 +2,7 @@
 title: Update a template in CWM
 description: Update sharing permissions for a Board template or edit the format of a Doc template using the Template Center in Collaborative Work Management \(CWM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/collaborative-work-management/edit-a-template.html
 release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -40,28 +41,28 @@ You must be the owner of the template to update its details.
 
 3.  Open the Template Center by selecting **Explore templates**.
 
-    ![Main create menu of CWM.](../images/cwm-templates-explore.png)
+    \[Omitted image "cwm-templates-explore.png"\] Alt text: Main create menu of CWM.
 
 4.  Locate the template that you want to edit.
 
     -   Filter the available templates by Owner or Type
     -   Search for the template using its title or keyword.
-5.  From the template card, select the Template actions menu \(![Template actions icon.](../images/cwm-icon-page-actions.png)\) and select **View details**.
+5.  From the template card, select the Template actions menu \(\[Omitted image "cwm-icon-page-actions.png"\] Alt text: Template actions icon.\) and select **View details**.
 
-    ![View template details.](../images/cwm-templates-view-details.png)
+    \[Omitted image "cwm-templates-view-details.png"\] Alt text: View template details.
 
 6.  Modify the template title, the **Share with** access, or the description.
 
-    ![Editing a Board template.](../images/cwm-templates-edit-board.png "Editing a Board template")
+    \[Omitted image "cwm-templates-edit-board.png"\] Alt text: Editing a Board template.
 
 7.  For a Doc template, select **Edit** to edit the content of the template.
 
-    ![Editing a Doc template.](../images/cwm-templates-edit-doc-temp.png "Editing a Doc template")
+    \[Omitted image "cwm-templates-edit-doc-temp.png"\] Alt text: Editing a Doc template.
 
 8.  After making your changes, select **Done** to close the template editor.
 
     The changes are automatically saved to the template and they are applied to any Docs that you create from this template in the future.
 
 
-**Parent Topic:**[Templates in CWM for Boards and Docs](../concept/templates-in-cwm-for-spaces-boards-and-docs.md)
+**Parent Topic:**[Templates in CWM for Boards and Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/templates-in-cwm-for-spaces-boards-and-docs.md)
 

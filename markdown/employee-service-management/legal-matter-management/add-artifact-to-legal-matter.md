@@ -2,6 +2,7 @@
 title: Create an artifact for a legal matter
 description: Create an artifact for a legal matter to upload and store documents, emails, and files related to the matter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-matter-management/add-artifact-to-legal-matter.html
 release: zurich
 product: Legal Matter Management
 classification: legal-matter-management
@@ -31,19 +32,19 @@ Apart from the matter owner, a collaborator or a task fulfiller can also add an 
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d737960e108">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d66550e108">
 
 Option
 
-</th><th align="left" id="d737960e111">
+</th><th align="left" id="d66550e111">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d737960e117">
+</th></tr></thead><tbody><tr><td id="d66550e117">
 
 **As an assignee**
 
@@ -55,7 +56,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d737960e146">
+</td></tr><tr><td id="d66550e146">
 
 **As a collaborator**
 
@@ -113,12 +114,12 @@ The state of the legal matter updates to Work in Progress.
 
 ## What to do next
 
-[Attach files to a legal matter artifact](add-files-to-artifact.md).
+[Attach files to a legal matter artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/add-files-to-artifact.md).
 
--   **[Attach files to a legal matter artifact](add-files-to-artifact.md)**  
+-   **[Attach files to a legal matter artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/add-files-to-artifact.md)**  
 Upload supporting documentation, such as documents, email copies, images, or any other files into the artifact while you are working on a legal matter or matter task. You can also use these artifacts as a reference material to solve similar requests in future.
--   **[Document access in a legal matter](../concept/document-access-legal-matter.md)**  
+-   **[Document access in a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/document-access-legal-matter.md)**  
 Documents attached to legal matters are uploaded to the configured external storage system when the external storage option is enabled on an intake form with All or matter type selected. The access permission of these documents to various personas is controlled in real time, via a scheduled job, or on-demand.
 
-**Parent Topic:**[Work on a legal matter](work-on-legal-matter-1.md)
+**Parent Topic:**[Work on a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

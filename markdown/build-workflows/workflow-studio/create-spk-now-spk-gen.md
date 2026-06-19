@@ -2,6 +2,7 @@
 title: Create spoke and build actions using the spoke generation skill in Now Assist
 description: Automate an integration and generate reusable actions by providing the required third-party API documentation snippet as an input.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/create-spk-now-spk-gen.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -17,7 +18,7 @@ Automate an integration and generate reusable actions by providing the required 
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 -   Role required: admin
 -   Create the required action categories for your integration in the Action Category \[sys\_hub\_category\] table.
@@ -40,13 +41,13 @@ Automate an integration and generate reusable actions by providing the required 
         |Spoke name|Name to identify the custom spoke.|
         |Description|Description about the custom spoke.|
 
-        ![Spoke generator window.](../images/build-spoke-now-assist.png "Spoke generator window")
+        \[Omitted image "build-spoke-now-assist.png"\] Alt text: Spoke generator window.
 
         **Note:**
 
-        The value of **App scope name** is the format: `x_<company-code>_<spoke-name>_<spoke>`. By default, the &lt;company-code&gt; is, `snc`. You can configure the company code by configuring **Value** of the system property, **glide.appcreator.company.code**.![Configuring Value of glide.appcreator.company.code.](../images/spoke-gen-sys-property.png)
+        The value of **App scope name** is the format: `x_<company-code>_<spoke-name>_<spoke>`. By default, the &lt;company-code&gt; is, `snc`. You can configure the company code by configuring **Value** of the system property, **glide.appcreator.company.code**.\[Omitted image "spoke-gen-sys-property.png"\] Alt text: Configuring Value of glide.appcreator.company.code.
 
-        This configured value is used when the value **App scope name** is generated.![Configured value of App scope name.](../images/spoke-gen-app-scope.png)
+        This configured value is used when the value **App scope name** is generated.\[Omitted image "spoke-gen-app-scope.png"\] Alt text: Configured value of App scope name.
 
     2.  If you choose to create the spoke in an existing scope, select an image as the logo for your integration and fill in the fields.
 
@@ -66,7 +67,7 @@ Application name
 
 </td><td>
 
-An existing application name or scope.![Select an existing application.](../images/spk-gen-existing-app-name.png)
+An existing application name or scope.\[Omitted image "spk-gen-existing-app-name.png"\] Alt text: Select an existing application.
 
 </td></tr><tr><td>
 
@@ -91,7 +92,7 @@ Description about the custom spoke.
 
 6.  Select **Now Assist** and click **Continue** to generate reusable actions by providing the required third-party API documentation snippet.
 
-    ![Create spoke using Now Assist.](../images/now-assist-spk-gen2.png)
+    \[Omitted image "now-assist-spk-gen2.png"\] Alt text: Create spoke using Now Assist.
 
 7.  On the Generate action screen, paste the required content from the 360Learning API documentation in **Now Assist Context**.
 
@@ -99,19 +100,19 @@ Description about the custom spoke.
 
     **Note:** Ensure that you paste the documentation related to only one action at a time.
 
-    ![Create spoke action window.](../images/build-spoke-action-api-docs.png "Create spoke action window")
+    \[Omitted image "build-spoke-action-api-docs.png"\] Alt text: Create spoke action window.
 
 8.  Click **Generate preview**.
 
     The action preview is generated. Details of the action properties, inputs, outputs, and steps are displayed.
 
-    ![Action generation outcome preview.](../images/build-action-outcome-preview.png "Action generation outcome preview")
+    \[Omitted image "build-action-outcome-preview.png"\] Alt text: Action generation outcome preview.
 
 9.  If you want to modify the generated action, modify the provided content in **Now Assist Context** accordingly and click **Regenerate preview**.
 
     If there are any missing fields in the content provided for **Now Assist Context**, an error message is displayed.
 
-    ![Action generation error sample.](../images/build-spoke-action-error.png "Action generation error sample")
+    \[Omitted image "build-spoke-action-error.png"\] Alt text: Action generation error sample.
 
 10. Click **Continue**.
 
@@ -124,7 +125,7 @@ Description about the custom spoke.
     |Connection &amp; Credential name|Name to identify the connection and credential alias record.|
     |Configuration Template for authentication|Required authentication mechanism for this integration. Ensure that the authentication mechanism is compatible with the third-party application.|
 
-    ![Connection and credential alias window.](../images/build-spoke-alias.png "Connection and credential alias window")
+    \[Omitted image "build-spoke-alias.png"\] Alt text: Connection and credential alias window.
 
 13. Click **Create alias and continue**.
 
@@ -155,5 +156,5 @@ Description about the custom spoke.
     If you have saved action as a draft, you can access these draft actions in the spoke details page under **Actions** &gt; **Draft**.
 
 
-**Parent Topic:**[Use Now Assist to create spokes and build actions](../concept/now-assist-in-spk-gen.md)
+**Parent Topic:**[Use Now Assist to create spokes and build actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/now-assist-in-spk-gen.md)
 

@@ -2,6 +2,7 @@
 title: Get started with update sets
 description: Because update sets make changes to an instance, review this information to avoid errors and performance issues. Learn how to plan the update process and avoid common mistakes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/system-update-sets/get-started-update-sets.html
 release: zurich
 product: System Update Sets
 classification: system-update-sets
@@ -113,5 +114,5 @@ Review this information to avoid errors and performance issues.
 -   Don’t make too many changes at one time. Verify that the correct changes have been made incrementally.
 -   You can’t change a single update to update across multiple domains \(that is, global and TOP domains\). This function isn’t supported in the ServiceNow AI Platform.
 
-To create an update set see [Create and select an update set as the current set](../task/create-select-update-set.md).
+To create an update set see [Create and select an update set as the current set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/create-select-update-set.md).
 

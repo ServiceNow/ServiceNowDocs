@@ -2,6 +2,7 @@
 title: Manage risk issues and remediation
 description: Issues can be created manually to document audit observations or remediations, or to accept any problems. They are automatically generated from indicator results, attestation results, or control test effectiveness.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/issues-risk.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace

@@ -2,6 +2,7 @@
 title: Run actions to resolve alert issues in Service Operations Workspace for ITOM
 description: Resolve the underlying issue of an alert by running predefined remediation tasks, ensuring faster issue resolution and ensuring consistent resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/run-alert-remediation.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -23,7 +24,7 @@ Role required: evt\_mgmt\_operator
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the navigation bar, select the Express list icon: ![Express list icon](../../event-management/image/express-list1.png).
+2.  From the navigation bar, select the Express list icon: \[Omitted image "express-list1.png"\] Alt text: Express list icon.
 
 3.  Select the alert number to open it.
 
@@ -35,7 +36,7 @@ Role required: evt\_mgmt\_operator
 
     The **Run remediation** card displays the available remediation actions.
 
-    ![An alert displayed in a separate tab with the Overview, Details, Related records, and Playbook sub-tabs. The Playbook subtab shows Run remediation and Alert executions cards.](../image/playbook-tab.png "Playbook tab")
+    \[Omitted image "playbook-tab.png"\] Alt text: An alert displayed in a separate tab with the Overview, Details, Related records, and Playbook sub-tabs. The Playbook subtab shows Run remediation and Alert executions cards.
 
 6.  Select the tile corresponding to the action you want to run.
 

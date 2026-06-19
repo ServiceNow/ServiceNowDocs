@@ -2,6 +2,7 @@
 title: Run Certificate discovery via Certificate Authority query
 description: Running Certificate discovery via Certificate Authority query allows for systematic identification and import of TLS certificates from specific Certificate Authorities, ensuring comprehensive tracking, management, and security of the certificate inventory. Discover TLS certificates from Certificate Authorities \(CA\) with Certificate Inventory and Management, using Patterns for diverse certificate authority vendors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/run-cert-inventory-mgmt-ca-query.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -21,13 +22,13 @@ Role required: pki\_admin or discovery\_admin
 
 ## About this task
 
-In Certificate discovery, the Certificate Authorities \(CA\) pattern uses specific API elements. The user added to the instance credentials needs permissions for these queries. For more information on the Certificate Authorities \(CA\) pattern and the associated API elements, see [Certificate authorities pattern API elements and permissions](../reference/ca-api-permission.md).
+In Certificate discovery, the Certificate Authorities \(CA\) pattern uses specific API elements. The user added to the instance credentials needs permissions for these queries. For more information on the Certificate Authorities \(CA\) pattern and the associated API elements, see [Certificate authorities pattern API elements and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/ca-api-permission.md).
 
 ## Procedure
 
 1.  Generate a credential alias if needed.
 
-    For more information, see [Credential aliases for Discovery](https://www.servicenow.com/docs/access?context=discovery-credential-alias&version=zurich&pubname=zurich-platform-security&ft:locale=en-US). Create a new credential alias for new credentials. In case multiple credentials share the same alias, Discovery prioritizes the Credential and initiates the process.
+    For more information, see Credential aliases for Discovery. Create a new credential alias for new credentials. In case multiple credentials share the same alias, Discovery prioritizes the Credential and initiates the process.
 
 2.  Create a new credential type specific to the Certificate Authority \(CA\).
 
@@ -47,21 +48,11 @@ In Certificate discovery, the Certificate Authorities \(CA\) pattern uses specif
 
     6.  Fill in the fields that are specific to the CA type you selected.
 
-        Each Certificate Authority \(CA\) requires specific form field entries. For more information, see [API Key credentials](https://www.servicenow.com/docs/access?context=API-key-credential-form&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
-
-        See the following examples of forms for each CA.
-
-        ![godaddy](../image/goDaddy.png "GoDaddy form")
-
-        ![digicert](../image/Digicert.png "DigiCert form")
-
-        ![entrust](../image/Entrust.png "Entrust form")
-
-        ![sectigo](../image/Sectigo.png "Sectigo form")
+        Each Certificate Authority \(CA\) requires specific form field entries. For more information, see API Key credentials.
 
 3.  Create a Discovery schedule with the following fields.
 
-    For more information on setting up your Discovery schedules, see [Schedule a horizontal discovery](t_CreateADiscoverySchedule.md#).
+    For more information on setting up your Discovery schedules, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
     1.  Select **Discovery**: **Certificates**.
 

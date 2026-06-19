@@ -2,6 +2,7 @@
 title: Associate consumer criteria to a remote record producer
 description: In the provider instance, associate the appropriate consumer criteria to the remote record producer created for a remote catalog item. The consumer criteria determines which consumers are entitled to the catalog item. Service Exchange automatically generates the entitlement records that are replicated to eligible consumer instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/associate-criteria-remote-catalog.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -17,7 +18,7 @@ In the provider instance, associate the appropriate consumer criteria to the rem
 
 ## Before you begin
 
-By default remote record producers are available to all consumers. If you have specific criteria for certain users, define the consumer criteria for Service Exchange those users. For more information, see [Creating entitlements in Service Exchange for Providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-entitlements&version=zurich&pubname=zurich-service-bridge&ft:locale=en-US).
+By default remote record producers are available to all consumers. If you have specific criteria for certain users, define the consumer criteria for Service Exchange those users. For more information, see .
 
 Role required: sn\_sb.Admin or admin
 
@@ -42,5 +43,5 @@ Role required: sn\_sb.Admin or admin
 
 ## What to do next
 
-[Activate the entitlements for the remote record producer.](activate-entitlements-sb-consumer.md)
+[Activate the entitlements for the remote record producer.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/activate-entitlements-sb-consumer.md)
 

@@ -2,6 +2,7 @@
 title: Create a Mentoring relationship
 description: As a manager, create a mentoring relationship between two of your employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/mentoring/create-mentoring-relationship.html
 release: zurich
 product: Mentoring
 classification: mentoring
@@ -27,7 +28,7 @@ Role required: sn\_ecn.mentoring\_admin
 
 3.  On the Mentoring relationship form, fill in the fields.
 
-    For a description of the field values, see [Mentoring relationship form](../reference/mentoring-relationship-form.md).
+    For a description of the field values, see [Mentoring relationship form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/mentoring/mentoring-relationship-form.md).
 
 4.  Select **Save**.
 

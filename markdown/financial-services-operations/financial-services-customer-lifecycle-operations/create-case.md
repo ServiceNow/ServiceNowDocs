@@ -2,6 +2,7 @@
 title: Create a CLO case
 description: Begin the Customer Lifecycle Operations application process by creating a CLO case for review.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-customer-lifecycle-operations/create-case.html
 release: zurich
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations
@@ -26,7 +27,7 @@ Role required:
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the upper right-hand corner, click **New**.
 
@@ -51,5 +52,5 @@ A Customer Lifecycle Operations case is created and assigned to an available age
 
 ## What to do next
 
-Continue to [Add contacts](create-contact.md).
+Continue to [Add contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-customer-lifecycle-operations/create-contact.md).
 

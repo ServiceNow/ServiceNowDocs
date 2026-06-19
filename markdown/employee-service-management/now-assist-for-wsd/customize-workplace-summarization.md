@@ -2,6 +2,7 @@
 title: Configure the workplace case summarization skill
 description: As an admin, customize the workplace case summarization skill to include additional fields for the case summary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-wsd/customize-workplace-summarization.html
 release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -31,15 +32,15 @@ Role required: admin
 
 5.  Edit any of the following sections based on your requirement.
 
-<table id="choicetable_nxz_ynt_33c"><thead><tr><th align="left" id="d503958e156">
+<table id="choicetable_nxz_ynt_33c"><thead><tr><th align="left" id="d234217e105">
 
 Section
 
-</th><th align="left" id="d503958e159">
+</th><th align="left" id="d234217e108">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d503958e165">
+</th></tr></thead><tbody><tr><td id="d234217e114">
 
 **General details**
 
@@ -47,7 +48,7 @@ Description
 
 Edit basic information about the skill like the name, workflow, large language model \(LLM\), and skill template.
 
-</td></tr><tr><td id="d503958e186">
+</td></tr><tr><td id="d234217e123">
 
 **Choose input**
 
@@ -55,17 +56,17 @@ Edit basic information about the skill like the name, workflow, large language m
 
 Select the fields to be included as an input for the summarization skill. For example, you can add the start and end time fields as an input to the summary.You can customize inputs for every state of the case like new, work in progress, or resolved.
 
-For more information about customizing the input fields, see [Configure case or incident summarization in the Now Assist Admin console](https://www.servicenow.com/docs/access?context=configure-case-or-incident-summarization-in-the-now-assist-admin-console&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+For more information about customizing the input fields, see .
 
-</td></tr><tr><td id="d503958e207">
+</td></tr><tr><td id="d234217e139">
 
 **Customize prompt**
 
 </td><td>
 
-Add or remove sections that are included in the generated summary. You can customize the prompts for every state of the case like New, Work in progress, or Resolved.For more information about customizing the prompt output, see [Configure case or incident summarization in the Now Assist Admin console](https://www.servicenow.com/docs/access?context=configure-case-or-incident-summarization-in-the-now-assist-admin-console&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+Add or remove sections that are included in the generated summary. You can customize the prompts for every state of the case like New, Work in progress, or Resolved.For more information about customizing the prompt output, see .
 
-</td></tr><tr><td id="d503958e248">
+</td></tr><tr><td id="d234217e153">
 
 **Role attribution**
 
@@ -73,15 +74,15 @@ Add or remove sections that are included in the generated summary. You can custo
 
 Select the table, fields for the requester and fulfiller, and fulfiller roles for the skill.
 
-</td></tr><tr><td id="d503958e261">
+</td></tr><tr><td id="d234217e163">
 
 **Define availability**
 
 </td><td>
 
-Customize whether the skill is available by default, or only available based on the configured conditions. For more information about the availability, see [Activate a Now Assist skill](https://www.servicenow.com/docs/access?context=configure-a-now-assist-skill&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+Customize whether the skill is available by default, or only available based on the configured conditions. For more information about the availability, see .
 
-</td></tr><tr><td id="d503958e280">
+</td></tr><tr><td id="d234217e175">
 
 **Define access**
 
@@ -89,15 +90,15 @@ Customize whether the skill is available by default, or only available based on 
 
 Add roles to provide the access required to summarize a case. For example, `sn_wsd_core.workplace_manager`.
 
-</td></tr><tr><td id="d503958e305">
+</td></tr><tr><td id="d234217e187">
 
 **Select display**
 
 </td><td>
 
-Configure where the case summarization feature is displayed. For more information about configuring the display, see [Activate a Now Assist skill](https://www.servicenow.com/docs/access?context=configure-a-now-assist-skill&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)
+Configure where the case summarization feature is displayed. For more information about configuring the display, see .
 
 </td></tr></tbody>
-</table>6.  After you make your changes, save the skill and exit.
+</table>6.  After you make your changes, select **Exit**.
 
 

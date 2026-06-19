@@ -2,6 +2,7 @@
 title: Test result and remediation task state transitions in the Configuration Compliance application
 description: The states of configuration test records and their associated remediation tasks \(RTs\) are impacted if test result records are deferred, resolved, reopened, and transferred to other remediation efforts \(REs\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/cc-state-transition.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance

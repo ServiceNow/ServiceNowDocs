@@ -2,6 +2,7 @@
 title: Create a change request in the IT Remediation Workspace
 description: From a remediation task \(VUL, AVUL, CVUL, or CRG\), create a change request. Alternatively, add a remediation task to an existing change request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/it-remediation-workspace/vr-ws-CRs.html
 release: zurich
 product: IT Remediation Workspace
 classification: it-remediation-workspace
@@ -30,7 +31,7 @@ Role required:
 
 There might be various reasons that you want to create a change request for a remediation task. Usually, it is because your investigation requires manual intervention to fix the vulnerabilities.
 
-For more information about the change requests and creating change requests from the classic environment, see [Change management for Vulnerability Response](../concept/vuln-change_mgmnt_ovrvw.md).
+For more information about the change requests and creating change requests from the classic environment, see [Change management for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/vuln-change_mgmnt_ovrvw.md).
 
 **Note:** Starting with v19.0 of Vulnerability Response, the following terms have been renamed:
 
@@ -54,7 +55,7 @@ For more information about the change requests and creating change requests from
     -   **Add to existing change**
 5.  To create a new change request, in the modal that displays, fill in the fields.
 
-    For information on the form fields, see [Create change request form fields](../../vr-it-remediation-workspace/reference/itr-ws-create-cr-fields.md).
+    For information on the form fields, see [Create change request form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/it-remediation-workspace/itr-ws-create-cr-fields.md).
 
 6.  Select **Create Change Request**.
 
@@ -90,6 +91,6 @@ For more information about the change requests and creating change requests from
 
         -   Click the **View change** link in the message to open the change request \(CHG\) record.
         -   Select the **Change Requests** related item menu link on the remediation task record to view all the change requests associated with the record.
-        Alternatively, in the classic environment, navigate to **Self-service** &gt; **My Requests**. After you submit the change and it is implemented, if state synchronization is enabled, the remediation task automatically moves to `Resolved`. For more information about states and state synchronization in change requests, see [Create a change request from a remediation task](vuln-change_mgmnt_create_change.md).
+        Alternatively, in the classic environment, navigate to **Self-service** &gt; **My Requests**. After you submit the change and it is implemented, if state synchronization is enabled, the remediation task automatically moves to `Resolved`. For more information about states and state synchronization in change requests, see [Create a change request from a remediation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/vuln-change_mgmnt_create_change.md).
 
 

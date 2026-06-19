@@ -2,6 +2,7 @@
 title: Enable a code review
 description: You can require a code review of all changes pushed to an instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/t\_EnableCodeReview.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -30,5 +31,5 @@ Role required: admin
 3.  Select **Save**.
 
 
-**Parent Topic:**[Code reviews](../concept/c_CodeReview.md)
+**Parent Topic:**[Code reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_CodeReview.md)
 

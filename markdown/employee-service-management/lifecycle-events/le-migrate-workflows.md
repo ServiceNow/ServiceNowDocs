@@ -2,6 +2,7 @@
 title: Migrate Lifecycle Events workflows
 description: Lifecycle Events customers upgrading from the Washington DC or Xanadu release to the Yokohama release can use a system property to define the workflow technology that the Lifecycle Events app uses for its base system workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/lifecycle-events/le-migrate-workflows.html
 release: zurich
 product: Lifecycle Events
 classification: lifecycle-events
@@ -17,7 +18,7 @@ Lifecycle Events customers upgrading from the Washington DC or Xanadu release to
 
 ## Before you begin
 
-Role required: admin \[sn\_hr\_le.admin\]
+Role required: sn\_hr\_le.admin
 
 ## About this task
 
@@ -81,5 +82,5 @@ A new activity for an approval must be created so it can use the corresponding c
 -   **Activity** field set to **Approval**.
 -   **Configuration Type** field set to **Flow \(Template\)**.
 
-For more information about the Lifecycle Events activity creation process, see [Configure a lifecycle event activity](configure-hr-lifecycle-event-activity.md#).
+For more information about the Lifecycle Events activity creation process, see [Configure a lifecycle event activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md).
 

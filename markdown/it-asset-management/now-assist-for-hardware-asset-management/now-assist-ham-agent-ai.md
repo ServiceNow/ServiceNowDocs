@@ -2,6 +2,7 @@
 title: Using generative AI skills for Now Assist for Hardware Asset Management \(HAM\)
 description: Streamline asset management tasks in the Hardware Asset Workspace by using the generative AI skills available in the Now Assist for HAM application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham-agent-ai.html
 release: zurich
 product: Now Assist for Hardware Asset Management
 classification: now-assist-for-hardware-asset-management

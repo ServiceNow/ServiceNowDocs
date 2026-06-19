@@ -2,7 +2,10 @@
 title: Configure time zones for dispatchers
 description: Add time zones for dispatchers to choose from and make it easier for dispatchers to see what time zones agents are located in. If there are too many time zones, you can also remove time zone options from a dispatcher's options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/add-remore-time-zones.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -17,7 +20,7 @@ Add time zones for dispatchers to choose from and make it easier for dispatchers
 
 Dispatchers can choose what time zones to display on the calendar or hybrid views in Dispatcher Workspace. You, the administrator, determine what time zones each dispatcher can add.
 
-After you add a time zone as an option, dispatchers can select it from the settings menu. For more information, see the calendar section on [Enable Dispatcher Workspace settings](dispatcher-wrkspc-settings.md).
+After you add a time zone as an option, dispatchers can select it from the settings menu. For more information, see the calendar section on [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.md).
 
 ## Before you begin
 

@@ -2,6 +2,7 @@
 title: Microsoft Defender for Endpoint Default Settings
 description: There are additional configuration settings you must perform after you complete the installation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/microsoft-defender-default-settings.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -36,5 +37,5 @@ The following are additional configuration settings:
     -   **Run Antivirus Scan Timeout \(in minutes\):** Indicates the execution threshold for the Run Antivirus Scan capability.
     -   **Stop and Quarantine File Timeout \(in minutes\):** Indicates the execution threshold for the Stop and Quarantine File capability.
 
-![Additional configuration settings after you complete the installation](../image/ms_defender_default_settings.png "Default Settings")
+\[Omitted image "ms\_defender\_default\_settings.png"\] Alt text: Additional configuration settings after you complete the installation
 

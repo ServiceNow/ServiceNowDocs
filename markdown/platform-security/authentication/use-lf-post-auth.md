@@ -2,6 +2,7 @@
 title: Use Location Filter Post Authentication Context
 description: Use the location filter criteria created in the Post Authentication Context.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/use-lf-post-auth.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -21,7 +22,7 @@ Role required: admin
 
 Plugin required: **Zero Trust - Location Based Access** \(`com.snc.zero_trust_location_access`\).
 
-Create a Location Filter with the countries that you want restrict access to the users based on the location. For more information, see [Create location filter criteria](create-location-filter-criteria.md).
+Create a Location Filter with the countries that you want restrict access to the users based on the location. For more information, see [Create location filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-location-filter-criteria.md).
 
 ## Procedure
 
@@ -41,27 +42,27 @@ Create a Location Filter with the countries that you want restrict access to the
 
 3.  In the Allow Access Policy, under the Policy Inputs section, select **New**.
 
-    ![Add Post auth](../images/edit-post-auth.png)
+    \[Omitted image "edit-post-auth.png"\] Alt text: Add Post auth
 
 4.  Add the Role Filter criteria and Location Filter criteria.
 
     1.  Adding Role Filter criteria:
 
-        -   Create Role Filter Input as `itil`.![Itil Post Auth](../images/itil-post-auth.png)
-        -   Create Role Filter Condition and set it to `true`.![Role condition](../images/itil-post-auth-condition.png)
-        For more information on how to create role filter criteria, see [Create role filter criteria](create-role-filter-criteria.md).
+        -   Create Role Filter Input as `itil`.\[Omitted image "itil-post-auth.png"\] Alt text: Itil Post Auth
+        -   Create Role Filter Condition and set it to `true`.\[Omitted image "itil-post-auth-condition.png"\] Alt text: Role condition
+        For more information on how to create role filter criteria, see [Create role filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-role-filter-criteria.md).
 
     2.  Adding Location Filter criteria:
 
-        -   Create Location Filter Input. Add United States in the Locations.![Ading Location](../images/itil-post-auth-US.png)
-        -   Create Location Filter Condition and set it to `true`.![Location Filter Condition](../images/itil-post-auth-US-condition.png)
-        For more information on how to create role filter criteria, see [Create location filter criteria](create-location-filter-criteria.md).
+        -   Create Location Filter Input. Add United States in the Locations.\[Omitted image "itil-post-auth-US.png"\] Alt text: Ading Location
+        -   Create Location Filter Condition and set it to `true`.\[Omitted image "itil-post-auth-US-condition.png"\] Alt text: Location Filter Condition
+        For more information on how to create role filter criteria, see [Create location filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-location-filter-criteria.md).
 
         The Allow Access Policy shows the Policy Inputs and Conditions that are created in the previous steps:
 
         -   Policy Inputs: itil, itil user from US
         -   Policy Conditions: itil user login, itil user from US condition.
-        ![Policy Input and Conditions](../images/post-auth-policy-condition.png)
+        \[Omitted image "post-auth-policy-condition.png"\] Alt text: Policy Input and Conditions
 
         **Note:**
 

@@ -2,7 +2,10 @@
 title: Roles installed with Field Service Management
 description: Roles are added with Field Service Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/r\_UserRoleInstallWFieldSrvMgmnt.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 4
@@ -323,7 +326,7 @@ wm\_initiator
 </td></tr></tbody>
 </table>## Role integration with Customer Service Management
 
-When you enable the Customer Service Management plugin \(com.sn\_customerservice\) along with the Field Service Management plugin \(com.snc.work\_management\) and add specific Customer Service roles to Field Service agents, they can view or create a case and also view additional customer service data. For more information on customer service agent roles, see [Roles installed with Customer Service Management](https://www.servicenow.com/docs/access?context=r_RolesInstalledWithCustomerService&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+When you enable the Customer Service Management plugin \(com.sn\_customerservice\) along with the Field Service Management plugin \(com.snc.work\_management\) and add specific Customer Service roles to Field Service agents, they can view or create a case and also view additional customer service data. For more information on customer service agent roles, see Roles installed with Customer Service Management.
 
 <table id="table_abt_gsr_4jb"><thead><tr><th>
 
@@ -373,5 +376,5 @@ wm\_location\_security
 View data based on the provider service organization.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Field Service Management](r_InstalledWithFSM.md)
+</table>**Parent Topic:**[Components installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/r_InstalledWithFSM.md)
 

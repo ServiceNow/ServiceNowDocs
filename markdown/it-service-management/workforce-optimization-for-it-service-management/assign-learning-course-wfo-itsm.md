@@ -2,6 +2,7 @@
 title: Assign a course item to agents
 description: Assign a course item to one or more agents and add a due date for them to complete the course.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/assign-learning-course-wfo-itsm.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -29,7 +30,7 @@ You can analyze the course items that were most taken by your team members. You 
 
 1.  Navigate to **All** &gt; **Workforce Optimization for ITSM** &gt; **Manager Workspace**.
 
-2.  Select the coaching icon \(![Coaching icon](../image/coaching-icon-uib.png)\).
+2.  Select the coaching icon \(\[Omitted image "coaching-icon-uib.png"\] Alt text: Coaching icon\).
 
 3.  Select the **Learning** tab.
 
@@ -42,19 +43,19 @@ You can analyze the course items that were most taken by your team members. You 
         -   Whether the course item is an internal or an external course item.
         -   Skills associated with the course. If a course has more than one skill, you can select the count next to a skill and view all skills. To remove a skill, select a skill and select **Remove**.
     -   You can close the status of a course item for any of your team members that you directly or additionally manage and by selecting **Mark as complete** for that course item.​
-5.  Select the assign icon \(![Assign course icon](../image/assign-course-icon.png)\) for the course item you want to assign to agents.
+5.  Select the assign icon \(\[Omitted image "assign-course-icon.png"\] Alt text: Assign course icon\) for the course item you want to assign to agents.
 
 6.  In the **Assign learning course** screen, assign the learning course to groups or team members.
 
-<table id="choicetable_byw_mnk_rvb"><thead><tr><th align="left" id="d279946e174">
+<table id="choicetable_byw_mnk_rvb"><thead><tr><th align="left" id="d272638e174">
 
 To
 
-</th><th align="left" id="d279946e177">
+</th><th align="left" id="d272638e177">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d279946e183">
+</th></tr></thead><tbody><tr><td id="d272638e183">
 
 **Assign the course to all groups that you directly and additionally manage**
 
@@ -62,7 +63,7 @@ Do this
 
 Select **To my groups**.
 
-</td></tr><tr><td id="d279946e195">
+</td></tr><tr><td id="d272638e195">
 
 **Assign the course to specific groups or team members**
 
@@ -85,5 +86,5 @@ Select **To my groups**.
         -   The course that is most taken by your agents is identified with the **Most taken** highlight.
         -   The course that has been created less than five days before the current date is identified with the **New** highlight.
 
-**Parent Topic:**[Learning in Workforce Optimization for ITSM](../concept/workforce-learning-configurable-wfo-itsm.md)
+**Parent Topic:**[Learning in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/workforce-learning-configurable-wfo-itsm.md)
 

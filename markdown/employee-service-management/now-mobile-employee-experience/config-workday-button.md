@@ -2,6 +2,7 @@
 title: Configure Workday approval functions for Now Mobile
 description: Configure the approve and reject buttons for all the Workday approval task types. Complete all your approval tasks in the Now Mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-mobile-employee-experience/config-workday-button.html
 release: zurich
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
@@ -29,12 +30,12 @@ Role required: sn\_hr\_workday.admin
 
 3.  In the **Function instances belonging to screen** tab, turn the options to **True** as required.
 
-    **Note:** The base system settings for a few approval types are set to false in the Now Mobile app. For more information, see [Workday approvals in Now Mobile](../concept/ec-workday-mobile.md).
+    **Note:** The base system settings for a few approval types are set to false in the Now Mobile app. For more information, see [Workday approvals in Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/ec-workday-mobile.md).
 
 
 ## Result
 
 Approve and reject buttons are displayed on the configured approval task types in mobile.
 
-**Parent Topic:**[Workday approvals in Now Mobile](../concept/ec-workday-mobile.md)
+**Parent Topic:**[Workday approvals in Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/ec-workday-mobile.md)
 

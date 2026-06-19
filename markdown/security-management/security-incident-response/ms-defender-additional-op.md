@@ -2,6 +2,7 @@
 title: Automate incident updates and closures
 description: Automate incident updates and closures based on the incident status. The Microsoft Defender integration has a bi-directional interface that enables incidents to create security incidents and to update the incidents after the security incident is created or closed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/ms-defender-additional-op.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -148,7 +149,7 @@ Update Defender incident comments with SIR work notes
 Option to update your SIR work notes in the Defender incident comments. The comment in Microsoft Defender appears with the prefix- Comment from ServiceNow.
 
 </td></tr></tbody>
-</table>    ![Options for automating incidents](../image/ms-def-additional-op.png)
+</table>    \[Omitted image "ms-def-additional-op.png"\] Alt text: Options for automating incidents
 
 3.  Select **Finish**.
 

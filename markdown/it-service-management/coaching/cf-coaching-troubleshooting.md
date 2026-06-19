@@ -2,6 +2,7 @@
 title: Resolve Coaching issues
 description: Resolve common issues when setting up or running Coaching.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/coaching/cf-coaching-troubleshooting.html
 release: zurich
 product: Coaching
 classification: coaching
@@ -55,20 +56,20 @@ You want to override ACLs and trainings for the Assigned Training related list o
 
 </td><td>
 
-Implement Coaching [extension points](https://www.servicenow.com/docs/access?context=extension-points&version=zurich&pubname=zurich-api-reference&ft:locale=en-US):-   CoachingExtensionPoint
+Implement Coaching extension points:-   CoachingExtensionPoint
 -   CoachingACLExtensionPoint
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Coaching reference](cf-coaching-reference.md)
+</table>**Parent Topic:**[Coaching reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/coaching/cf-coaching-reference.md)
 
 **Related topics**  
 
 
-[Using extension points to extend application functionality](https://www.servicenow.com/docs/access?context=extension-points&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.extension-points]
 
-[Using scripted extension points in server-side scripts](https://www.servicenow.com/docs/access?context=scripted-extension-points&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.scripted-extension-points]
 
-[Using UI extension points in server-side UI macros](https://www.servicenow.com/docs/access?context=ui-extension-points&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.ui-extension-points]
 
-[Using client extension points in client-side UI scripting](https://www.servicenow.com/docs/access?context=client-extension-points&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.client-extension-points]
 

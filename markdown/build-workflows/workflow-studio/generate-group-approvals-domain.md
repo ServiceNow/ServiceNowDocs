@@ -2,6 +2,7 @@
 title: Generate group approvals for domain separated requests
 description: Configure Workflow Studio to generate approvals for all members of a group or to restrict approvals to only group members who are visible from the domain of the request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/generate-group-approvals-domain.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -21,11 +22,11 @@ Role required: admin
 
 ## About this task
 
-By default, Workflow Studio generates approvals for all group members who can access the parent request regardless of domain visibility. This configuration allows requests from members of a child domain to generate approvals for members of a parent domain who are not otherwise visible from lower in the domain hierarchy. You can use this procedure to restrict the generation of approvals to only those group members who are visible from the domain of the parent request. For information about domain hierarchies, see [Understanding domain separation](https://www.servicenow.com/docs/access?context=c_DomainSeparation&version=zurich&pubname=zurich-platform-security&ft:locale=en-US). For more information about visibility and contains domains, see [Visibility domains and contains domains](https://www.servicenow.com/docs/access?context=c_DomainVisibility&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+By default, Workflow Studio generates approvals for all group members who can access the parent request regardless of domain visibility. This configuration allows requests from members of a child domain to generate approvals for members of a parent domain who are not otherwise visible from lower in the domain hierarchy. You can use this procedure to restrict the generation of approvals to only those group members who are visible from the domain of the parent request. For information about domain hierarchies, see Understanding domain separation. For more information about visibility and contains domains, see Visibility domains and contains domains.
 
 ## Procedure
 
-1.  [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+1.  Add a system property.
 
 2.  For the system property name, enter `com.glide.hub.flow.approval.group_member.use_query_no_domain`.
 
@@ -33,7 +34,7 @@ By default, Workflow Studio generates approvals for all group members who can ac
 
 4.  For the system property value, enter one of these values.
 
-<table id="choicetable_j55_c14_t4b"><tbody><tr><td id="d47381e98">
+<table id="choicetable_j55_c14_t4b"><tbody><tr><td id="d47744e98">
 
 **true**
 
@@ -41,7 +42,7 @@ By default, Workflow Studio generates approvals for all group members who can ac
 
 Generate approvals for all members of the group who have access to the domain of the parent request. Select this option to exclude domain visibility from the approval generation query. For example, generate approvals for users who belong to domains higher in the domain hierarchy. This is the default value.
 
-</td></tr><tr><td id="d47381e107">
+</td></tr><tr><td id="d47744e107">
 
 **false**
 
@@ -57,5 +58,5 @@ Generate approvals only for group members who are visible from the domain of the
 
 Workflow Studio only generates approvals for group members who belong to the same domain or child domains of the parent request.
 
-**Parent Topic:**[Domain separation and Workflow Studio](../concept/flow-designer-domain-separation.md)
+**Parent Topic:**[Domain separation and Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-designer-domain-separation.md)
 

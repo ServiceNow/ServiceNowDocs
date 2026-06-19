@@ -1,7 +1,8 @@
 ---
 title: Add PI information objects to a privacy case
-description: Add information objects to the privacy case after a privacy case is created. Adding information objects helps you understand the types of personal information that is being compromised during a breach.
+description: To identify the types of personal data compromised during a breach, add \[PI\] information objects to a privacy case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/add-pi-information-objects-to-a-privacy-case.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -13,7 +14,7 @@ breadcrumb: [Use, Privacy Case Management, Privacy Management, Governance, Risk,
 
 # Add PI information objects to a privacy case
 
-Add information objects to the privacy case after a privacy case is created. Adding information objects helps you understand the types of personal information that is being compromised during a breach.
+To identify the types of personal data compromised during a breach, add \[PI\] information objects to a privacy case.
 
 ## Before you begin
 
@@ -23,7 +24,7 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace**.
 
-2.  Select the list ![List](../../grc-workspace-vrm/image/ws-list-icon.png) icon.
+2.  Select the list \[Omitted image "ws-list-icon.png"\] icon.
 
 3.  Select **All Cases**.
 
@@ -33,10 +34,14 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 6.  Click **Add**.
 
-7.  Select the information objects you want to add.
+7.  Select the information object\(s\) you want to add to the privacy case.
 
 8.  Click **Add**.
 
 
-**Parent Topic:**[Using Privacy Case Management](../concept/using-pcm.md)
+## What to do next
+
+After adding PI information objects, add key stakeholders to the privacy case. For more information, see [Add key stakeholders to a privacy case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/add-keystakeholders-to-privacy-case.md).
+
+**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/using-pcm.md)
 

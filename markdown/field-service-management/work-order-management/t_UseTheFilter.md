@@ -2,6 +2,7 @@
 title: Customize the display of task information on the agent map
 description: Configure the agent map to display assigned and unassigned tasks for an agent on the specified date. Display agent location and routing numbers for tasks dispatched on that day.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/t\_UseTheFilter.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -27,15 +28,15 @@ Role required: wm\_agent
 
 3.  Change the filter settings as needed.
 
-<table id="choicetable_jh3_jhn_kfb"><thead><tr><th align="left" id="d129858e107">
+<table id="choicetable_jh3_jhn_kfb"><thead><tr><th align="left" id="d125527e107">
 
 Option
 
-</th><th align="left" id="d129858e110">
+</th><th align="left" id="d125527e110">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d129858e116">
+</th></tr></thead><tbody><tr><td id="d125527e116">
 
 **Date**
 
@@ -43,7 +44,7 @@ Description
 
 Displays the current date. Select a different date to view task assignments for that day.
 
-</td></tr><tr><td id="d129858e125">
+</td></tr><tr><td id="d125527e125">
 
 **Show my location**
 
@@ -51,7 +52,7 @@ Displays the current date. Select a different date to view task assignments for 
 
 Displays your current location on the map with an agent location icon. Clear the check box to remove this icon from the map. If the system cannot locate you automatically by mobile device, it uses the location of a continuing task or the home office.
 
-</td></tr><tr><td id="d129858e137">
+</td></tr><tr><td id="d125527e137">
 
 **Show routing numbers**
 
@@ -59,7 +60,7 @@ Displays your current location on the map with an agent location icon. Clear the
 
 Displays the routing numbers for the tasks dispatched for the date selected in the calendar. Clear the check box to hide the routing numbers.
 
-</td></tr><tr><td id="d129858e146">
+</td></tr><tr><td id="d125527e146">
 
 **Assigned**
 
@@ -67,7 +68,7 @@ Displays the routing numbers for the tasks dispatched for the date selected in t
 
 Displays all assigned tasks for the selected date. Clear the checkbox to hide assigned tasks.
 
-</td></tr><tr><td id="d129858e156">
+</td></tr><tr><td id="d125527e156">
 
 **Unassigned**
 

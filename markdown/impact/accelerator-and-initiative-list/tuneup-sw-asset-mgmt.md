@@ -2,6 +2,7 @@
 title: TuneUp Your Software Asset Management
 description: The TuneUp Your Software Asset Management \(SAM\) Accelerator provides guidance on maintaining and governing Software Asset Management health to optimize value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/tuneup-sw-asset-mgmt.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,7 +20,7 @@ The TuneUp Your Software Asset Management \(SAM\) Accelerator provides guidance 
 
 TuneUp Your Software Asset Management provides Impact customers with an assessment of their current SAM implementation. This Accelerator includes  an  applied demonstration of SAM capabilities to reduce IT costs and limit various risks  through managing and optimizing software assets across the customer's lifecycle.  Customers obtain assistance for better insight into their SAM investment and  are provided leading practices on how to best increase adoption and usage.
 
-See [Software Asset Management](https://www.servicenow.com/docs/access?context=c_SoftwareAssetMgmt&version=zurich&pubname=zurich-it-asset-management&ft:locale=en-US) for additional information about SAM.
+See  for additional information about SAM.
 
 **Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 

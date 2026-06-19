@@ -2,6 +2,7 @@
 title: Create feedback from Microsoft Outlook
 description: Create or submit feedback from Microsoft Outlook directly. By configuring feedback creation and submission within Microsoft Outlook, project managers can easily provide feedback without having to switch between different applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/product-feedback/create-feedback-from-outlook.html
 release: zurich
 product: Product Feedback
 classification: product-feedback
@@ -38,5 +39,5 @@ Project managers can provide feedback while performing their daily tasks on Micr
 5.  Add a **Tag** to the feedback and select **Save**.
 
 
-**Parent Topic:**[Configuring Feedback application in Strategic Planning](../concept/configuring-product-feedback-in-sp.md)
+**Parent Topic:**[Configuring Feedback application in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/configuring-product-feedback-in-sp.md)
 

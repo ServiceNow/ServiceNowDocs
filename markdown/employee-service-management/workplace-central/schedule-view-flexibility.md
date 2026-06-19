@@ -2,6 +2,7 @@
 title: Schedule view flexibility
 description: Event planners and space planners can organize, view, and manage events across multiple spaces and time zones using the Event planner Scheduled view tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-central/schedule-view-flexibility.html
 release: zurich
 product: Workplace Central
 classification: workplace-central
@@ -19,7 +20,7 @@ The following configuration options are available on the **Schedule view** tab:
 
 -   **Time zone selection**
 
-    View and manage events in different time zones. You can select the time zone based on the buildings returned by the filter. When you apply a filter, the **Schedule view** tab displays the relevant time zones for all qualified spaces. You can select a time zone, such as Europe/Amsterdam or VST, to view events in that time zone.![Time zone selection on the Schedule view tab.](../images/wsd-time-zone-selection.png)
+    View and manage events in different time zones. You can select the time zone based on the buildings returned by the filter. When you apply a filter, the **Schedule view** tab displays the relevant time zones for all qualified spaces. You can select a time zone, such as Europe/Amsterdam or VST, to view events in that time zone.\[Omitted image "wsd-time-zone-selection.png"\] Alt text: Time zone selection on the Schedule view tab.
 
 -   **Row title configuration**
 
@@ -45,7 +46,7 @@ The following configuration options are available on the **Schedule view** tab:
 
 -   **Multiple time zone settings**
 
-    View reservation details in specific time zones in addition to the default time zone. Select the settings icon ![](../../workplace-safety-mgmt/images/system-settings-icon.png) and choose a time zone from the available options to update all event times in the Schedule view accordingly.
+    View reservation details in specific time zones in addition to the default time zone. Select the settings icon \[Omitted image "system-settings-icon.png"\] Alt text: and choose a time zone from the available options to update all event times in the Schedule view accordingly.
 
 -   **Edit events in selected time zone**
 
@@ -57,11 +58,11 @@ The following configuration options are available on the **Schedule view** tab:
 
     -   Select the Settings icon in the Schedule view.
     -   Add up to three additional time zones alongside your default time zone.
-    -   The selected time zones appear in the Schedule view, enabling you to easily coordinate events across different regions.![Multiple timezone settings appear on the page when you select Settings.](../images/wsd-timezone-settings.png)
+    -   The selected time zones appear in the Schedule view, enabling you to easily coordinate events across different regions.\[Omitted image "wsd-timezone-settings.png"\] Alt text: Multiple timezone settings appear on the page when you select Settings.
 -   **Group by filter**
 
     Organize event sections dynamically using the Group by filter in the Advanced filter dialog. In addition to building and floor, you can group by other fields such as campus or space type. Applying a group by filter updates the schedule view to show sections based on the selected attribute. For example, grouping by campus displays separate sections for each campus, while grouping by space type organizes sections according to room types.
 
 
-**Parent Topic:**[Working with schedule view](working-with-schedule-view.md)
+**Parent Topic:**[Working with schedule view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/working-with-schedule-view.md)
 

@@ -2,7 +2,10 @@
 title: Manage customer registration requests
 description: Users with the customer administrator role can approve or reject registration requests that customers submit from the Customer Service Portal.Approve a registration request from a user that was submitted from the Customer Service Portal with a valid registration code.Reject a registration request from a user that was submitted from the Customer Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/manage-cust-registration-requests.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

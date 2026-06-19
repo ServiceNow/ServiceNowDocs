@@ -2,6 +2,7 @@
 title: GlideSysAttachment - Scoped
 description: The GlideSysAttachment API provides methods to handle attachments.Creates an instance of the GlideSysAttachment class.Adds a single attribute to an existing attachment record.Adds multiple attributes to an attachment record.Copies attachments from the source record to the target record.Deletes all attributes from an existing attachment record.Deletes the specified attachment.Deletes a specified attribute from attachment record.Fetches all attributes from a specified attachment record.Fetches a specified attribute from an attachment record.Returns a GlideRecord containing the matching attachment metadata such as name, type, or size.Returns the attachment content as a string.Returns the attachment content as a string with base64 encoding.Returns a GlideScriptableInputStream object given the sys\_id of an attachment.Updates all the attributes for an existing attachment record.Updates a single attribute for an existing attachment record.Attaches a specified attachment to the specified record.Inserts an attachment for the specified record using base64 encoded content.Inserts an attachment using the input stream.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_GlideSysAttachmentScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -19,7 +20,7 @@ Content is returned as a string, not as a byte array when getContent\(\) is call
 
 Content is returned as a GlideScriptableInputStream object when getContentStream\(\) is called. The GlideScriptableInputStream contains the actual bytes not converted into a string.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## Scoped GlideSysAttachment - GlideSysAttachment\(\)
 
@@ -35,15 +36,15 @@ Adds a single attribute to an existing attachment record.
 
 See also:
 
--   [addMultipleAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [deleteAllAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [deleteAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [fetchAllAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [fetchAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [updateAllAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [updateAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
+-   [addMultipleAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [deleteAllAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [deleteAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [fetchAllAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [fetchAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [updateAllAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [updateAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
 
-For the global equivalent of this method, use [GlideSysAttachment - addAttribute\(String attrKey, String attrValue\)](../../GlideSysAttachmentGlobal/concept/GlideSysAttachmentGlobalAPI.md#).
+For the global equivalent of this method, use [GlideSysAttachment - addAttribute\(String attrKey, String attrValue\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/GlideSysAttachmentGlobalAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -81,15 +82,15 @@ Adds multiple attributes to an attachment record.
 
 See also:
 
--   [addAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [deleteAllAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [deleteAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [fetchAllAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [fetchAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [updateAllAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [updateAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
+-   [addAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [deleteAllAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [deleteAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [fetchAllAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [fetchAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [updateAllAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [updateAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
 
-For the global equivalent of this method, use [GlideSysAttachment - addMultipleAttributes\(Object attrsKeyValuePair\)](../../GlideSysAttachmentGlobal/concept/GlideSysAttachmentGlobalAPI.md#).
+For the global equivalent of this method, use [GlideSysAttachment - addMultipleAttributes\(Object attrsKeyValuePair\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/GlideSysAttachmentGlobalAPI.md).
 
 <table id="table_rql_3mg_5fc" class="parameters"><thead><tr><th>
 
@@ -223,15 +224,15 @@ Deletes all attributes from an existing attachment record.
 
 See also:
 
--   [addAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [addMultipleAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [deleteAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [fetchAllAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [fetchAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [updateAllAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [updateAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
+-   [addAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [addMultipleAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [deleteAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [fetchAllAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [fetchAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [updateAllAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [updateAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
 
-For the global equivalent of this method, use [GlideSysAttachment - deleteAllAttributes\(\)](../../GlideSysAttachmentGlobal/concept/GlideSysAttachmentGlobalAPI.md#).
+For the global equivalent of this method, use [GlideSysAttachment - deleteAllAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/GlideSysAttachmentGlobalAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -327,15 +328,15 @@ Deletes a specified attribute from attachment record.
 
 See also:
 
--   [addAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [addMultipleAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [deleteAllAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [fetchAllAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [fetchAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [updateAllAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [updateAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
+-   [addAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [addMultipleAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [deleteAllAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [fetchAllAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [fetchAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [updateAllAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [updateAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
 
-For the global equivalent of this method, use [GlideSysAttachment - deleteAttribute\(String attrKey\)](../../GlideSysAttachmentGlobal/concept/GlideSysAttachmentGlobalAPI.md#).
+For the global equivalent of this method, use [GlideSysAttachment - deleteAttribute\(String attrKey\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/GlideSysAttachmentGlobalAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -390,15 +391,15 @@ Fetches all attributes from a specified attachment record.
 
 See also:
 
--   [addAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [addMultipleAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [deleteAllAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [deleteAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [fetchAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [updateAllAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [updateAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
+-   [addAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [addMultipleAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [deleteAllAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [deleteAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [fetchAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [updateAllAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [updateAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
 
-For the global equivalent of this method, use [GlideSysAttachment - fetchAllAttributes\(\)](../../GlideSysAttachmentGlobal/concept/GlideSysAttachmentGlobalAPI.md#).
+For the global equivalent of this method, use [GlideSysAttachment - fetchAllAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/GlideSysAttachmentGlobalAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -406,7 +407,7 @@ For the global equivalent of this method, use [GlideSysAttachment - fetchAllAttr
 
 |Type|Description|
 |----|-----------|
-|[GlideRecord](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)|The attachment record and all of its attributes.|
+|[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)|The attachment record and all of its attributes.|
 
 The following example shows how to get all attributes assigned to a specified attachment.
 
@@ -437,15 +438,15 @@ Fetches a specified attribute from an attachment record.
 
 See also:
 
--   [addAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [addMultipleAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [deleteAllAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [deleteAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [fetchAllAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [updateAllAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [updateAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
+-   [addAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [addMultipleAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [deleteAllAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [deleteAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [fetchAllAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [updateAllAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [updateAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
 
-For the global equivalent of this method, use [GlideSysAttachment - fetchAttribute\(String attrKey\)](../../GlideSysAttachmentGlobal/concept/GlideSysAttachmentGlobalAPI.md#).
+For the global equivalent of this method, use [GlideSysAttachment - fetchAttribute\(String attrKey\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/GlideSysAttachmentGlobalAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -454,7 +455,7 @@ For the global equivalent of this method, use [GlideSysAttachment - fetchAttribu
 
 |Type|Description|
 |----|-----------|
-|[GlideRecord](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)|The GlideRecord of the attachment and the specified attribute.|
+|[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)|The GlideRecord of the attachment and the specified attribute.|
 
 The following example shows how to get an attachment attribute with the key `author`.
 
@@ -584,7 +585,7 @@ Attachment content: SSBhbSB0ZXh0IGluIGEgdHh0IGZpbGUgYXR0YWNoZWQgdG8gYSByZWNvcmQu
 
 Returns a GlideScriptableInputStream object given the sys\_id of an attachment.
 
-You can use the [GlideTextReader](../../GlideTextReaderScoped/concept/c_GlideTextReaderScopedAPI.md#) API to read the content stream.
+You can use the [GlideTextReader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideTextReaderScopedAPI.md) API to read the content stream.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -613,15 +614,15 @@ Updates all the attributes for an existing attachment record.
 
 See also:
 
--   [addAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [addMultipleAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [deleteAllAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [deleteAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [fetchAllAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [fetchAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [updateAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
+-   [addAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [addMultipleAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [deleteAllAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [deleteAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [fetchAllAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [fetchAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [updateAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
 
-For the global equivalent of this method, use [GlideSysAttachment - updateAllAttributes\(Object attrsKeyValuePair\)](../../GlideSysAttachmentGlobal/concept/GlideSysAttachmentGlobalAPI.md#).
+For the global equivalent of this method, use [GlideSysAttachment - updateAllAttributes\(Object attrsKeyValuePair\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/GlideSysAttachmentGlobalAPI.md).
 
 <table id="table_rql_3mg_5fc" class="parameters"><thead><tr><th>
 
@@ -709,15 +710,15 @@ Updates a single attribute for an existing attachment record.
 
 See also:
 
--   [addAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [addMultipleAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [deleteAllAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [deleteAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [fetchAllAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [fetchAttribute\(\)](c_GlideSysAttachmentScopedAPI.md#)
--   [updateAllAttributes\(\)](c_GlideSysAttachmentScopedAPI.md#)
+-   [addAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [addMultipleAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [deleteAllAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [deleteAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [fetchAllAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [fetchAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+-   [updateAllAttributes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
 
-For the global equivalent of this method, use [GlideSysAttachment - updateAttribute\(String attrKey, String attrValue\)](../../GlideSysAttachmentGlobal/concept/GlideSysAttachmentGlobalAPI.md#).
+For the global equivalent of this method, use [GlideSysAttachment - updateAttribute\(String attrKey, String attrValue\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/GlideSysAttachmentGlobalAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|

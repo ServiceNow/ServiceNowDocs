@@ -2,6 +2,7 @@
 title: Create Zabbix server credentials
 description: Create credentials to access Zabbix server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/create-credentials-zabbix.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -44,10 +45,10 @@ Role required: evt\_mgmt\_admin
 
 The Basic Auth credential for use with the Zabbix server connector is created.
 
-**Parent Topic:**[Configure event collection from Zabbix server](t_EMConfigureZabbixConnector.md)
+**Parent Topic:**[Configure event collection from Zabbix server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMConfigureZabbixConnector.md)
 
 **Related topics**  
 
 
-[Credentials and connection information](https://www.servicenow.com/docs/access?context=r-credentials&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.r-credentials]
 

@@ -2,6 +2,7 @@
 title: Export OSCAL POA&amp;M
 description: Generate zip files Plan of Action and Milestones \(POA&amp;M\) data in Open Security Controls Assessment Language \(OSCAL\) JSON format from the Authorization package overview record page. The authorization package must be in Implement state or later, and a POA&amp;M file must link to the selected authorization package.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/export-oscal-poa-m.html
 release: zurich
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -23,7 +24,7 @@ Role required: sn\_irm\_cont\_auth.admin, sn\_irm\_cont\_auth.system\_owner, sn\
 
 1.  Navigate to **Workspaces** &gt; **CAM Workspace**.
 
-2.  In the CAM Workspace, select the List icon \(![List](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the CAM Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List\).
 
 3.  Select **Authorization packages** from the **RMF** list.
 
@@ -37,7 +38,7 @@ Role required: sn\_irm\_cont\_auth.admin, sn\_irm\_cont\_auth.system\_owner, sn\
 
     A message appears to indicate that file generation is in progress. Refresh the page before downloading the JSON files.
 
-    ![Generating OSCAL POA&M.](../image/cam-oscal-export-poa-m1.png)
+    \[Omitted image "cam-oscal-export-poa-m1.png"\] Alt text: Generating OSCAL POA&amp;M.
 
 6.  To download the POA&amp;M zip file, select **Download OSCAL POAM** from the **Download OSCAL** drop-down list.
 
@@ -50,5 +51,5 @@ Role required: sn\_irm\_cont\_auth.admin, sn\_irm\_cont\_auth.system\_owner, sn\
     For more information on OSCAL import error, see the [OSCAL Import \[KB1794095\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1794095) article in the Now Support Knowledge Base.
 
 
-**Parent Topic:**[Export OSCAL files from authorization package](../concept/export-oscal-files-from-authorization-package.md)
+**Parent Topic:**[Export OSCAL files from authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/export-oscal-files-from-authorization-package.md)
 

@@ -2,6 +2,7 @@
 title: Setting up HR Service Delivery Integration with Cornerstone OnDemand
 description: Understand how to set up the HR Service Delivery Integration with Cornerstone OnDemand application for pulling learning courses from the Cornerstone OnDemand system into the ServiceNow system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/set-up-cornerstone.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,16 +26,16 @@ Understand how to set up the HR Service Delivery Integration with Cornerstone On
 
 1.  Set up the Cornerstone spoke in IntegrationHub.
 
-    For more information, refer to the [Cornerstone spoke](https://www.servicenow.com/docs/access?context=cornerstone-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) documentation.
+    For more information, refer to the Cornerstone spoke documentation.
 
 2.  Configure the URL prefix in the Cornerstone source record in HR Service Delivery Integration with Cornerstone OnDemand.
 
-    For more information, refer to [Use deep link for HR Service Delivery Integration with Cornerstone OnDemand](generate-deep-link-cor.md).
+    For more information, refer to [Use deep link for HR Service Delivery Integration with Cornerstone OnDemand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/generate-deep-link-cor.md).
 
-    **Important:** Once you have activated the necessary plugins and set up the Cornerstone spoke, HR Integration Services \(for Cornerstone OnDemand application\) are automatically created. For more information, refer to [HR Integration Services for HR Service Delivery Integration with Cornerstone OnDemand](../concept/cornerstone-hr-service.md).
+    **Important:** Once you have activated the necessary plugins and set up the Cornerstone spoke, HR Integration Services \(for Cornerstone OnDemand application\) are automatically created. For more information, refer to [HR Integration Services for HR Service Delivery Integration with Cornerstone OnDemand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/cornerstone-hr-service.md).
 
 3.  Configure the flow for HR Service Delivery Integration with Cornerstone OnDemand.
 
-    For more information, refer to [Configure the flow for HR Service Delivery Integration with Cornerstone OnDemand](schedule-job-hrint.md).
+    For more information, refer to [Configure the flow for HR Service Delivery Integration with Cornerstone OnDemand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/schedule-job-hrint.md).
 
 

@@ -2,6 +2,7 @@
 title: Configure a web proxy
 description: If your network uses a web proxy, you can set up the Edge Encryption proxy to use the web proxy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/t\_SetUpWebProxyProperties.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-If your network does not use a web proxy, leave the [web proxy properties](../reference/edge-encryption-proxy-server-properties.md) in the configuration file commented out.
+If your network does not use a web proxy, leave the [web proxy properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/edge-encryption-proxy-server-properties.md) in the configuration file commented out.
 
 The Edge Encryption proxy server supports HTTP connection to and basic authentication with the web proxy.
 
@@ -31,7 +32,7 @@ The Edge Encryption proxy server supports HTTP connection to and basic authentic
 
 2.  Open the `edgeencryption.properties` file.
 
-3.  Configure the [web proxy properties](../reference/edge-encryption-proxy-server-properties.md).
+3.  Configure the [web proxy properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/edge-encryption-proxy-server-properties.md).
 
 4.  Save and close the `edgeencryption.properties` file.
 
@@ -42,9 +43,9 @@ The Edge Encryption proxy server supports HTTP connection to and basic authentic
     2.  Execute the command: `keytool -keystore cacerts -importcert -alias <chooseAlias> -file <certificateFile>`
 
 
-**Parent Topic:**[Install the Edge Encryption proxy server using the command line installer](manual-proxy-install.md)
+**Parent Topic:**[Install the Edge Encryption proxy server using the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/manual-proxy-install.md)
 
-**Previous topic:**[Configure additional properties in the Edge Encryption properties file](set-props.md)
+**Previous topic:**[Configure additional properties in the Edge Encryption properties file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/set-props.md)
 
-**Next topic:**[Set the proxy server initial memory limit and upper bound memory limit](increase-memory.md)
+**Next topic:**[Set the proxy server initial memory limit and upper bound memory limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/increase-memory.md)
 

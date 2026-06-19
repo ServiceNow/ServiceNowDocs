@@ -2,6 +2,7 @@
 title: VMware vCenter Object \[cmdb\_ci\_vcenter\_object\] class
 description: Attributes, identification rule, and other important schema structures for Virtual Machine related classes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/class-vmware.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -15,7 +16,7 @@ breadcrumb: [CMDB schema model, Explore, Configuration Management Database \(CMD
 
 Attributes, identification rule, and other important schema structures for Virtual Machine related classes.
 
-For descriptions of common CMDB tables in a base system, see [CMDB tables descriptions](../reference/cmdb-tables-details.md).
+For descriptions of common CMDB tables in a base system, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 ## Schema description​
 
@@ -27,7 +28,7 @@ ServiceNow® has an extensive modeling of virtual machines \(VMs\) environment, 
 
 Virtual machines are modeled just like any other server, but with the **IsVirtual** attribute set to **true**.
 
-![Relationships and references in VMWare vCenter Instance schema.](../image/ClassVMWare.png "VMWare vCenter Instance schema structure")
+\[Omitted image "ClassVMWare.png"\] Alt text: Relationships and references in VMWare vCenter Instance schema.
 
 In the diagram above, the 'Discovered' virtual server is referred to as the 'Guest' \(VM object\). Follow the preceding diagram for any further modeling of VMWare components.
 

@@ -2,6 +2,7 @@
 title: Activate Test Management
 description: To activate the Test Management \(com.snc.test\_mgmt\) plugin you must have an admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/test-management/t\_ActivateTestManagement.html
 release: zurich
 product: Test Management
 classification: test-management
@@ -25,7 +26,7 @@ Role required: admin
 
 There are two ways to activate the Test Management plugin:
 
--   [As an individual application](t_ActivateTestManagement.md)
+-   [As an individual application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/t_ActivateTestManagement.md)
 -   As part of the Project Portfolio Suite with Financials plugin.
 
 ## Procedure
@@ -40,6 +41,6 @@ There are two ways to activate the Test Management plugin:
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 

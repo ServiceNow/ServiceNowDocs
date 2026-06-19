@@ -2,6 +2,7 @@
 title: Request interviewer to share scheduling preferences
 description: Request interviewers on a job requisition to share their scheduling preferences to plan a seamless interview process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/interview-management/request-interviewer-availability.html
 release: zurich
 product: Interview Management
 classification: interview-management
@@ -31,16 +32,16 @@ Role required: sn\_ta\_hiring\_core.recruiter or sn\_ta\_hiring\_core.recruitmen
 
 5.  On the Request scheduling preferences form, fill in the fields.
 
-    For a description of the field values, see [Request scheduling preferences form](../reference/request-availability-form.md).
+    For a description of the field values, see [Request scheduling preferences form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/interview-management/request-availability-form.md).
 
 6.  Select **Send**.
 
 
 ## What to do next
 
--   Once you have sent a request, you can navigate to **List view** &gt; **Lists** &gt; **Scheduling preferences-All** &gt; **Interviewer name** and select **Send reminder** to remind the interviewer via an email notification to share their scheduling preferences. For more information, see [List view in Recruitment workspace](../concept/list-view-recruit-workspace.md).
+-   Once you have sent a request, you can navigate to **List view** &gt; **Lists** &gt; **Scheduling preferences-All** &gt; **Interviewer name** and select **Send reminder** to remind the interviewer via an email notification to share their scheduling preferences. For more information, see [List view in Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/recruitment-workspace/list-view-recruit-workspace.md).
 -   By default, a scheduled job sends a reminder email to the interviewer on alternate days for 14 days from the day it was requested, if they haven't shared their preferences. This default value can be configured by an admin by updating the **sn\_ta\_int\_mgmt.remind\_availability\_in\_days** value.
 -   If the interviewer is part of the same Microsoft organization as yours and have installed Proactive prompts application and configured Virtual Agent in Microsoft Teams, they will be notified about the reminder in Microsoft Teams.
 
-**Parent Topic:**[Using Interview Management](../concept/using-interview-mgmnt.md)
+**Parent Topic:**[Using Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/interview-management/using-interview-mgmnt.md)
 

@@ -2,6 +2,7 @@
 title: Create a Password Reset verification from an existing verification
 description: The Password Reset application includes several example verifications that you can use as they are or as the basis for a custom verification. If the verification types in the base system do not meet your needs, you can create a custom verification type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/password-reset/t\_CreatePWRVerFromBaseVer.html
 release: zurich
 product: Password Reset
 classification: password-reset
@@ -36,5 +37,5 @@ Role required: password\_reset\_admin
     **Note:** Each verification type has properties that control the user experience. Review the property settings and update as needed.
 
 
-**Parent Topic:**[Customizing Password Reset processes](../concept/customizing-password-reset.md)
+**Parent Topic:**[Customizing Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/customizing-password-reset.md)
 

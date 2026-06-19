@@ -2,6 +2,7 @@
 title: About Report Templates in TISC
 description: Defines the ability to re use the report templates that can be shared within the group of users to generate reports quickly and consistently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-report-templates.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

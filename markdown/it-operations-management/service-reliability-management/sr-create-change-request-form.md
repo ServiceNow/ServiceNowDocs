@@ -2,6 +2,7 @@
 title: Create change request forms
 description: Fill out the fields in the forms to create a change task to implement a controlled process for modifying approved and supported actions for SRM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-reliability-management/sr-create-change-request-form.html
 release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
@@ -17,7 +18,7 @@ Fill out the fields in the forms to create a change task to implement a controll
 
 ## Change request form
 
-Create a new change request. For more information, see [Manually create an SRM change task](../task/sr-create-change.md).
+Create a new change request. For more information, see [Manually create an SRM change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-create-change.md).
 
 <table id="id_pmn_dcs_1bc"><thead><tr><th>
 
@@ -337,5 +338,5 @@ Close notes
 Notes on the change request closure.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Reliability Management reference](service-reliability-management-reference.md)
+</table>**Parent Topic:**[Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
 

@@ -2,7 +2,10 @@
 title: Initiate application scans
 description: You can scan applications to identify definition findings before publishing to the application repository. Application scans give insight into health scores, the number of findings, and the total impact of findings within your custom applications. 
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/initiating-on-demand-scans-scan-engine.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-11-13"
 reading_time_minutes: 1

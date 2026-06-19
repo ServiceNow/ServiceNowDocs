@@ -2,11 +2,12 @@
 title: Adding applications with the ServiceNow SDK
 description: Add applications to your local system to get started with development in source code with the ServiceNow SDK.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-sdk/creating-applications-servicenow-sdk.html
 release: zurich
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: concept
-last_updated: "2025-07-09"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -15,11 +16,11 @@ breadcrumb: [ServiceNow SDK, Building applications in source code, Building pro-
 
 Add applications to your local system to get started with development in source code with the ServiceNow SDK.
 
--   [Create an application with the ServiceNow SDK](../task/create-application-now-sdk.md)
+-   [Create an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/create-application-now-sdk.md)
 
     Create a scoped application that supports development in source code.
 
--   [Convert an application with the ServiceNow SDK](../task/convert-application-now-sdk.md)
+-   [Convert an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/convert-application-now-sdk.md)
 
     Convert an existing scoped application to support development in source code.
 

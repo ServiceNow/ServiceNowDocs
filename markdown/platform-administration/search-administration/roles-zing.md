@@ -2,6 +2,7 @@
 title: Zing roles
 description: Zing is installed with these roles.Create, read, update, and delete search application configurations for Zing and AI Search.Configure text indexes, text index groups, text index stop words, and text index synonyms for Zing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/search-administration/roles-zing.html
 release: zurich
 product: Search Administration
 classification: search-administration
@@ -15,9 +16,9 @@ breadcrumb: [Installed with Zing, Zing text indexing and search engine, Search a
 
 Zing is installed with these roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](../../subscription-management/concept/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[Installed with Zing](installed-with-zing.md)
+**Parent Topic:**[Installed with Zing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/search-administration/installed-with-zing.md)
 
 ## Search application administrator \[search\_application\_admin\]
 

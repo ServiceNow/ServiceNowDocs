@@ -2,6 +2,7 @@
 title: Delegating deployment permissions
 description: A system administrator can assign a non-administrator user or group as a deployment resource for a specific application. You can set specific permissions, or grant access to all permissions, that designate what specific actions the assigned user can perform in the current instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/delegated-development-and-deployment/delegating-deployment-permissions.html
 release: zurich
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
@@ -19,9 +20,9 @@ A system administrator can assign a non-administrator user or group as a deploym
 
 -   Role required: admin or application administrator
 
-    If [Application administration](../concept/application-administration.md) is enabled, only an application administrator of the target application can delegate deployment resources to an application. If application administration isn’t enabled, an admin user can delegate deployment resources.
+    If [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/application-administration.md) is enabled, only an application administrator of the target application can delegate deployment resources to an application. If application administration isn’t enabled, an admin user can delegate deployment resources.
 
--   System properties control the visibility of the **Publish To Update Set** and **Manage Update Sets** permissions. By default, both deployment permissions for update sets are hidden. See [Delegated Development System Properties](../reference/delegated-development-system-properties.md).
+-   System properties control the visibility of the **Publish To Update Set** and **Manage Update Sets** permissions. By default, both deployment permissions for update sets are hidden. See [Delegated Development System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/delegated-development-system-properties.md).
 
 -   Records required:
     -   Application
@@ -55,7 +56,7 @@ A system administrator can assign a non-administrator user or group as a deploym
 
 6.  Select custom deployment permissions for the application, or select **Delegated Admin** to grant access to all permissions for the application.
 
-    For details, see [Developer permissions](../reference/developer-permissions.md).
+    For details, see [Developer permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/developer-permissions.md).
 
 7.  Select **Save**.
 

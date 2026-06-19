@@ -2,6 +2,7 @@
 title: Multi Provider Document Services Framework
 description: Enable your team to collaborate in real time and add versions, store, copy, delete, restore, and upload documents by integrating document providers with your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/mp-document-services-framework-landing.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -19,23 +20,23 @@ Enable your team to collaborate in real time and add versions, store, copy, dele
 
 <table id="table_jkb_q1y_pcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg) Explore Multi Provider Document Services Framework](explore-mp-framework.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text: Explore Multi Provider Document Services Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/explore-mp-framework.md)
 
 </td><td>
 
-[Activate![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Activate Multi Provider Document Services Framework](../task/activate-multi-provider-doc-framework.md)
+[Activate\[Omitted image "bus-sdlc.svg"\] Alt text: Activate Multi Provider Document Services Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/activate-multi-provider-doc-framework.md)
 
 </td><td>
 
-[Integrate![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg) Integrate with Microsoft OneDrive, Google Drive, and Microsoft SharePoint](integrate-with-document-services-mp.md)
+[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text: Integrate with Microsoft OneDrive, Google Drive, and Microsoft SharePoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/integrate-with-document-services-mp.md)
 
 </td></tr><tr><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg) Use Multi Provider Document Services Framework](use-mp-document-services-framework.md)
+[Use \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Use Multi Provider Document Services Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/use-mp-document-services-framework.md)
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg)Reference Multi Provider Document Services Framework](reference-mp-doc-framework.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text:Reference Multi Provider Document Services Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/reference-mp-doc-framework.md)
 
 </td><td>
 

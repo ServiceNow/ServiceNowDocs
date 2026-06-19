@@ -2,6 +2,7 @@
 title: Previewing the security incident with mapped LogRhythm alarm values
 description: After you have completed the mapping step, preview the values that you mapped to the fields on the security incident. This preview step permits you to verify that you have mapped all the critical LogRhythm alarm fields you want displayed on the security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/preview-si-logrhythm.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -25,7 +26,7 @@ An example of the preview for the entire ServiceNow AI Platform security inciden
 
 In the following figure, the `Configuration item`, `Affected user`, `Priority`, `Assignment Group`, and `Short description` fields of the security incident are populated.
 
-![Upper half of the security incident in Preview.](../image/logrythm-preview.gif "Upper half of the security incident")
+\[Omitted image "logrythm-preview.gif"\] Alt text: Upper half of the security incident in Preview.
 
 On the lower half of the security incident form, the `Description` field is populated. Under the Related Items section, the `Configuration item`, `Observable`, and `Work note` fields are populated with values. If multiple values for these fields are mapped, each value is displayed on the security incident, because each of these fields can accept more than one value.
 
@@ -76,7 +77,7 @@ Enter another alarm ID in the **Sample Alarm ID** choice list at the top of the 
 The **Sample Alarm ID** choice list is displayed for every alarm ID you have entered. You can select up to five alarms.This option permits you to preview another LogRhythm alarm ID on a security incident.
 
 </td></tr></tbody>
-</table>After you preview the security incident and are satisfied with the results, the next step is to [Schedule and retrieve LogRhythm alarms](../task/schedule-and-alarm-retrieval-logrhythm.md).
+</table>After you preview the security incident and are satisfied with the results, the next step is to [Schedule and retrieve LogRhythm alarms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/schedule-and-alarm-retrieval-logrhythm.md).
 
-**Parent Topic:**[Creating an alarm profile for LogRhythm](../task/create-alarm-profile-logrhythm.md)
+**Parent Topic:**[Creating an alarm profile for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/create-alarm-profile-logrhythm.md)
 

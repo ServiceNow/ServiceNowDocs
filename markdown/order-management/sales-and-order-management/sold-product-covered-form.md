@@ -2,6 +2,7 @@
 title: Sold Product Covered form
 description: The Customer Contracts and Entitlements application uses the Sold Product Covered form to add sold products or install base items that are covered to the Customer Contracts and Entitlements entities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/sold-product-covered-form.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -15,7 +16,7 @@ breadcrumb: [Customer Contracts and Entitlements reference, Configure, price, qu
 
 The Customer Contracts and Entitlements application uses the Sold Product Covered form to add sold products or install base items that are covered to the Customer Contracts and Entitlements entities.
 
-For information about adding sold products or install base items that are covered, see [Add a sold product or install base item to a service contract](../task/add-products-service-contract.md).
+For information about adding sold products or install base items that are covered, see [Add a sold product or install base item to a service contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/add-products-service-contract.md).
 
 <table id="table_tk2_ntk_bzb"><thead><tr><th>
 
@@ -43,7 +44,7 @@ The products that are sold to a customer.**Note:**
 
 -   The list of sold products is filtered based on the account related to the contract or entitlement.
 -   If a product is added, the **Install Base Items** field is automatically removed.
--   If a product isn't listed, you can add it. Select **New** in the Sold Products window. For more information, see [Create a sold product](https://www.servicenow.com/docs/access?context=create-sold-item&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+-   If a product isn't listed, you can add it. Select **New** in the Sold Products window. For more information, see .
 
 </td></tr><tr><td>
 
@@ -55,7 +56,7 @@ The related install base item.**Note:**
 
 -   The list of sold products is filtered based on the account related to the contract or entitlement.
 -   If an install base item is added, the **Sold Product** field is automatically removed.
--   If an install base item isn't listed, you can add it. Select **New** in the Install Base Item window. For more information, see [Create an Install base item](https://www.servicenow.com/docs/access?context=create-install-base-item&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+-   If an install base item isn't listed, you can add it. Select **New** in the Install Base Item window. For more information, see .
 
 </td></tr><tr><td>
 
@@ -92,5 +93,5 @@ The date until which the product is active on the entity.
 </td></tr></tbody>
 </table>**Note:** The activation time period for the sold product or install base item covered must comply with the related entity's activation period.
 
-**Parent Topic:**[Customer Contracts and Entitlements reference](../concept/pss-reference.md)
+**Parent Topic:**[Customer Contracts and Entitlements reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/pss-reference.md)
 

@@ -2,6 +2,7 @@
 title: Compare user records
 description: Compare user records to understand the access between two users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/comparing-user-records.html
 release: zurich
 product: Access Control
 classification: access-control
@@ -35,15 +36,15 @@ The following procedure describes the steps for comparing user records using the
 
     For example, `ITIL User` as **user 1** and `Abel Tuter` as **user 2**.
 
-    ![Compare user records](../images/comparing-user-records.png)
+    \[Omitted image "comparing-user-records.png"\] Alt text: Compare user records
 
 4.  Select **Compare user records**.
 
     The results are displayed with the following tabs:
 
-    -   **Details**: Display the user's metadata.![Details page](../images/comparing-page.png)
-    -   **Roles**: Display the roles that are assigned to the user. You can select the role to know more about the role and its entitlements. ![Roles](../images/role-compare-user-records.png)
-    -   **Groups**: Display the groups that are assigned to the user. You can select the group to know more about the group and its entitlements.![Group](../images/group-compare-user-records.png)
+    -   **Details**: Display the user's metadata.\[Omitted image "comparing-page.png"\] Alt text: Details page
+    -   **Roles**: Display the roles that are assigned to the user. You can select the role to know more about the role and its entitlements. \[Omitted image "role-compare-user-records.png"\] Alt text: Roles
+    -   **Groups**: Display the groups that are assigned to the user. You can select the group to know more about the group and its entitlements.\[Omitted image "group-compare-user-records.png"\] Alt text: Group
     Similarly you can compare different users in the ServiceNow instance to understand the access that is assigned to the users.
 
 

@@ -2,6 +2,7 @@
 title: Configure Personal Lines Claims
 description: Review the components that are installed with the Personal Lines Claims application and modify as needed for your organization's business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/configure-personal-lines-claims.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims
@@ -17,7 +18,7 @@ Review the components that are installed with the Personal Lines Claims applicat
 
 ## Before you begin
 
-Make sure that the Personal Lines Claims application is installed. For more information, see [Install Personal Lines Claims](install-personal-lines-claims.md).
+Make sure that the Personal Lines Claims application is installed. For more information, see [Install Personal Lines Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/install-personal-lines-claims.md).
 
 Role required: sn\_ins\_claim\_pers.admin and admin
 
@@ -25,91 +26,91 @@ Role required: sn\_ins\_claim\_pers.admin and admin
 
 1.  Import your financial accounts, financial products, financial institutions, and transactions data into ServiceNow tables.
 
-    For more information, see [Import your financial data using import sets](../../fso-common/task/import-financial-accounts-products-institutions.md).
+    For more information, see [Import your financial data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/import-financial-accounts-products-institutions.md).
 
 2.  Review the installed components and modify them or add new ones as applicable.
 
-<table id="choicetable_jt1_44w_fvb"><thead><tr><th align="left" id="d35990e109">
+<table id="choicetable_jt1_44w_fvb"><thead><tr><th align="left" id="d38547e109">
 
 Task
 
-</th><th align="left" id="d35990e112">
+</th><th align="left" id="d38547e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d35990e118">
+</th></tr></thead><tbody><tr><td id="d38547e118">
 
 **Configure service definitions**
 
 </td><td>
 
-Configure service definitions to enable unique flows and views for service cases and tasks. For more information, see [Configure service definitions](../../fso-common/task/configure-service-definitions.md).You can add new case types and configure service definitions for each type.
+Configure service definitions to enable unique flows and views for service cases and tasks. For more information, see [Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-service-definitions.md).You can add new case types and configure service definitions for each type.
 
-</td></tr><tr><td id="d35990e140">
+</td></tr><tr><td id="d38547e140">
 
 **Edit or create flows**
 
 </td><td>
 
-Edit or create flows using Workflow Studio. For more information, see [Edit or create flows](../../fso-common/task/configure-flow-designer-flows-fso-apps.md).
+Edit or create flows using Workflow Studio. For more information, see [Edit or create flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-flow-designer-flows-fso-apps.md).
 
-</td></tr><tr><td id="d35990e162">
+</td></tr><tr><td id="d38547e162">
 
 **Configure playbook**
 
 </td><td>
 
-Create a playbook by using Playbooks. For more information, see [Edit or create a new playbook](../../fso-common/task/configure-playbooks-fso-apps.md).
+Create a playbook by using Playbooks. For more information, see [Edit or create a new playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-playbooks-fso-apps.md).
 
-</td></tr><tr><td id="d35990e184">
+</td></tr><tr><td id="d38547e184">
 
 **Configure CSM Configurable Workspace**
 
 </td><td>
 
-Configure CSM Configurable Workspace to enable agents to interact with customers and create and work on cases.For more information, see [Configure CSM Configurable Workspace](../../fso-common/task/configure-csm-workspace-fso-apps.md).
+Configure CSM Configurable Workspace to enable agents to interact with customers and create and work on cases.For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-csm-workspace-fso-apps.md).
 
-</td></tr><tr><td id="d35990e218">
+</td></tr><tr><td id="d38547e218">
 
 **Configure the Claim Workspace, Fraud score and Claim summary pages**
 
 </td><td>
 
-Configure Claim workspace, Fraud score, and Claim summary pages on claim cases and claim adjuster tasks. For more information, see [Enable Claim workspace, Fraud score, and Claim summary pages](../../fso-commercial-lines-claims/task/enable-fraud-score-and-claim-summary-pages.md).**Note:** The Claim workspace is accessible from an adjuster task. The Fraud score and Claim summary pages are accessible from both a claim case and an adjuster task.
+Configure Claim workspace, Fraud score, and Claim summary pages on claim cases and claim adjuster tasks. For more information, see [Enable Claim workspace, Fraud score, and Claim summary pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/enable-fraud-score-and-claim-summary-pages.md).**Note:** The Claim workspace is accessible from an adjuster task. The Fraud score and Claim summary pages are accessible from both a claim case and an adjuster task.
 
-</td></tr><tr><td id="d35990e236">
+</td></tr><tr><td id="d38547e236">
 
 **Configure Service Level Agreements \(SLAs\)**
 
 </td><td>
 
-Configure the installed SLAs to configure SLA timings for claim service cases and tasks.For more information, see [Configure the installed SLAs](../../fso-common/task/configure-sla-definitions-fso-cases.md)
+Configure the installed SLAs to configure SLA timings for claim service cases and tasks.For more information, see [Configure the installed SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-sla-definitions-fso-cases.md)
 
-</td></tr><tr><td id="d35990e257">
+</td></tr><tr><td id="d38547e257">
 
 **Configure user groups**
 
 </td><td>
 
-Configure user groups for assignment of cases and tasks. You can also assign roles to groups and users.For more information, see [Configure user groups](../../fso-common/task/configure-groups-fso.md).
+Configure user groups for assignment of cases and tasks. You can also assign roles to groups and users.For more information, see [Configure user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-groups-fso.md).
 
-</td></tr><tr><td id="d35990e279">
+</td></tr><tr><td id="d38547e279">
 
 **Configure assignment rules**
 
 </td><td>
 
-Configure assignment rules to identify cases that meet certain conditions and then route those cases to agents. For more information, see [Configure assignment rules](../../fso-common/task/configure-assignment-rules-fso-applications.md).
+Configure assignment rules to identify cases that meet certain conditions and then route those cases to agents. For more information, see [Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-assignment-rules-fso-applications.md).
 
-</td></tr><tr><td id="d35990e295">
+</td></tr><tr><td id="d38547e295">
 
 **Configure Document Processor**
 
 </td><td>
 
-Configure document processor for document categories, document types, inbound and outbound document rules, and approval rules for document deferments and exceptions.For more information, see [Configure Document Processor](../../fso-common/concept/configuring-fso-document-processor.md).
+Configure document processor for document categories, document types, inbound and outbound document rules, and approval rules for document deferments and exceptions.For more information, see [Configure Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configuring-fso-document-processor.md).
 
-</td></tr><tr><td id="d35990e322">
+</td></tr><tr><td id="d38547e322">
 
 **Configure archive rules**
 

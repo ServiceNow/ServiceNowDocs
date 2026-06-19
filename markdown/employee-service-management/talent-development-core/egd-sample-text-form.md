@@ -2,6 +2,7 @@
 title: Talent Sample texts reference
 description: Sample text is content that is used in different types of content in a selected document. Administrators create sample text templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/egd-sample-text-form.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -25,5 +26,5 @@ Sample text is content that is used in different types of content in a selected 
 |**Sample text**|The sample text that's used in the selected document.|
 |**Table**|The table used to track where the sample text is used.|
 
-**Parent Topic:**[Talent Development Core application reference](../concept/egd-reference.md)
+**Parent Topic:**[Talent Development Core application reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-reference.md)
 

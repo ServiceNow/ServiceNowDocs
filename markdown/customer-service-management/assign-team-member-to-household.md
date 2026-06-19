@@ -2,9 +2,12 @@
 title: Assign a team member to a household
 description: Assign a team member to a household by selecting an employee and their role or responsibility in the Customer Service Management \(CSM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/assign-team-member-to-household.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Configuring households, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -61,7 +64,7 @@ Type
 
 </td><td>
 
-Defines the label for the relationship with the selected user. You can select the type from the list of related party configurations. **Note:** Starting with the Zurich release, the **Type** field is added to the Household Team Member form. For more information on how to populate the **Type** field for existing data, see [Populate the Type field in relationship tables using the fix script](migration-of-account-manager-responsibility-access.md).
+Defines the label for the relationship with the selected user. You can select the type from the list of related party configurations. **Note:** Starting with the Zurich release, the **Type** field is added to the Household Team Member form. For more information on how to populate the **Type** field for existing data, see [Populate the Type field in relationship tables using the fix script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/migration-of-account-manager-responsibility-access.md).
 
 </td></tr><tr><td>
 

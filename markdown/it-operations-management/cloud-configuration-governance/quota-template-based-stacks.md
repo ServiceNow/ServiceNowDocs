@@ -2,6 +2,7 @@
 title: Provisioning stacks based on quota limits
 description: The system calculates the quota allocated to you and the user groups to which you belong when you provision stacks. If quota limits are exceeded, the system either displays an error message or triggers a policy-based approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/quota-template-based-stacks.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -15,7 +16,7 @@ breadcrumb: [Launch a stack, Cloud User Portal, Cloud Provisioning and Governanc
 
 The system calculates the quota allocated to you and the user groups to which you belong when you provision stacks. If quota limits are exceeded, the system either displays an error message or triggers a policy-based approval.
 
-To view quota limits, navigate to the Overview page. For more information, see [Viewing resource quota limits](resource-quota.md).
+To view quota limits, navigate to the Overview page. For more information, see [Viewing resource quota limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/resource-quota.md).
 
 ## Quota calculation for template-based stacks
 
@@ -30,5 +31,5 @@ If the quota limit set for you or your user group has been exceeded, the system 
 -   If the system displays an error message indicating that the quota limit has been exceeded, you cannot provision the stack. If you think the quota limit should be increased, contact your Cloud Provisioning and Governance administrator.
 -   If a policy is defined in the system for exceeding the quota limit, that policy is triggered. Based on the policy, the system raises an approval request or notification for increasing the quota limit. The request follows a predefined subflow in the system for approval. If the request is approved, the system deploys the stack.
 
-![Policy triggered for provisioning a stack.](../image/policy-approval.png "Policy triggered for provisioning a stack after exceeding the quota limit")
+\[Omitted image "policy-approval.png"\] Alt text: Policy triggered for provisioning a stack.
 

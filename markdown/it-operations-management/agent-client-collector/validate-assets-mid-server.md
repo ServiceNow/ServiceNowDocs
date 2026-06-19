@@ -2,6 +2,7 @@
 title: Validate plugins on the MID Server
 description: Validate plugins on your MID Server to ensure that they match the plugins on your ServiceNow instance. Validating plugins ensures that the instance provides accurate data on all of your MID Server plugins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/validate-assets-mid-server.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector

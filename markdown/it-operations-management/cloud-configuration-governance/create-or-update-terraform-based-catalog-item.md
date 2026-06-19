@@ -2,6 +2,7 @@
 title: Manage the Terraform template-based catalog items
 description: Use an Infrastructure as Code \(IaC\) change task to create or update the Terraform template-based catalog items. The IaC change task helps ensure that the catalog items are aligned with the latest infrastructure specifications coded in the Terraform template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/create-or-update-terraform-based-catalog-item.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -67,10 +68,10 @@ The Cloud Services Catalog Terraform Connector creates an IaC change task for a 
 
 6.  On the form, fill in the fields.
 
-    For more information, see [Cloud Services Catalog Terraform Connector IAC Catalog Item Task form reference](../reference/cpg-terraform-connector-catalog-item-task-form.md).
+    For more information, see [Cloud Services Catalog Terraform Connector IAC Catalog Item Task form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-catalog-item-task-form.md).
 
 7.  Select **Update**.
 
 
-**Parent Topic:**[Using Cloud Services Catalog Terraform Connector](../concept/using-ccg-terraform-connector.md)
+**Parent Topic:**[Using Cloud Services Catalog Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/using-ccg-terraform-connector.md)
 

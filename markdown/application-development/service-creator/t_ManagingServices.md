@@ -2,6 +2,7 @@
 title: Manage a service
 description: Using the Service Creator, department managers can request a new service category, designate editors and service fulfillers for that category, and create and publish services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/service-creator/t\_ManagingServices.html
 release: zurich
 product: Service Creator
 classification: service-creator
@@ -39,7 +40,7 @@ A service category request involves assigning a service category manager, which 
 
 5.  Click **Submit**.
 
-    ![Service Creator Request Category](../image/ServiceCreatorRequestCategory.png)
+    \[Omitted image "ServiceCreatorRequestCategory.png"\] Alt text: Service Creator Request Category
 
     |Field|Description|
     |-----|-----------|

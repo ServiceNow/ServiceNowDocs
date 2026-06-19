@@ -2,6 +2,7 @@
 title: Submit a safety incident or observation through the Now Mobile app
 description: Submit a safety incident or observation to report it your organization's safety department.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety/submit-hs-safety-incident-mobile.html
 release: zurich
 product: Health and Safety
 classification: health-and-safety
@@ -40,5 +41,5 @@ Role required: sn\_ohs\_im.requestor
 7.  Tap **Close** to return to the list of safety topics.
 
 
-**Parent Topic:**[Mobile experience for Health and Safety](../concept/hs-health-safety-mobile.md)
+**Parent Topic:**[Mobile experience for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-health-safety-mobile.md)
 

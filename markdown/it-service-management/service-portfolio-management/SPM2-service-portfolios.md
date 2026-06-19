@@ -2,6 +2,7 @@
 title: Service Portfolio Management portfolios
 description: A service portfolio presents an overall top-level view of your currently available services, possible future services, and services that existed in the past. Evaluate the impact that services have on your business and manage them in a single portfolio or multiple portfolios with unique taxonomy structures, owners, and market scope.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-portfolio-management/SPM2-service-portfolios.html
 release: zurich
 product: Service Portfolio Management
 classification: service-portfolio-management
@@ -68,7 +69,7 @@ Don't opt in — keep legacy service portfolios
 -   Average Availability \[ServiceOffering.MetricData.Availability.Daily\]
 -   Average Request Activity \[ServiceOffering.MetricData.Activity.Daily\]
 
-Therefore, if you have the Vendor Management Workspace application integrated with Service Portfolio Management, and if you are upgrading to the Service Portfolio Management standard portfolio, the metric data from the legacy indicators are no longer available. For information on vendor scores, see [Vendor KPI Groups in Vendor Management Workspace reference](../../vendor-management-workspace/reference/vendor-manager-workspace-default-wep.md).
+Therefore, if you have the Vendor Management Workspace application integrated with Service Portfolio Management, and if you are upgrading to the Service Portfolio Management standard portfolio, the metric data from the legacy indicators are no longer available. For information on vendor scores, see [Vendor KPI Groups in Vendor Management Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/vendor-manager-workspace-default-wep.md).
 
 ## Portfolio administration
 
@@ -81,5 +82,5 @@ As a portfolio\_admin user, you can create a single service portfolio or multipl
 -   Update services and service offerings \(the service\_editor role also has access\).
 -   Reparent services \(the service\_editor role also has access\).
 
-**Parent Topic:**[Exploring Service Portfolio Management](c_ServicePortfolioManagementv2.md)
+**Parent Topic:**[Exploring Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/c_ServicePortfolioManagementv2.md)
 

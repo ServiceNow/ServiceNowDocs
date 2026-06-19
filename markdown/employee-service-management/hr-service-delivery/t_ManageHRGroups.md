@@ -2,6 +2,7 @@
 title: Manage HR Groups
 description: HR Groups are a set of users with common job skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/t\_ManageHRGroups.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -61,7 +62,7 @@ Type
 
 Use to define a category a group belongs to. A group can be associated with one group type \(narrow scope\) or multiple group types \(expanded scope\). This allows you to ensure qualified agents are assigned to complex cases or you have adequate coverage for less complex cases.
 
- Click the **Unlock Type** ![Unlock Type icon](../image/icon-hr-unlock-add-parties.png) icon. Then click the **Lookup using list** ![Lookup using list icon](../image/magnifying-glass.png) icon and add **human\_resources**.
+ Click the **Unlock Type** \[Omitted image "icon-hr-unlock-add-parties.png"\] Alt text: Unlock Type icon icon. Then click the **Lookup using list** \[Omitted image "magnifying-glass.png"\] Alt text: Lookup using list icon icon and add **human\_resources**.
 
 </td></tr><tr><td>
 
@@ -150,11 +151,11 @@ Activities
 
 This field only appears for the Lifecycle Events application. The HR Service Activities the group manages. The HR Service Activities are part of the Activity Set and together make up a Lifecycle Event. Only members of this group can update this HR Service Activity.
 
-Refer to [Configure a lifecycle event activity](configure-hr-lifecycle-event-activity.md#).
+Refer to [Configure a lifecycle event activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md).
 
 </td></tr></tbody>
 </table>4.  Click **Submit** or **Update**.
 
 
-**Parent Topic:**[Manage HR roles](../concept/c_ManageRoles.md)
+**Parent Topic:**[Manage HR roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_ManageRoles.md)
 

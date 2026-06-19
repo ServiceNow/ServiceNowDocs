@@ -2,6 +2,7 @@
 title: Tables installed with Model Risk Management
 description: Tables are added with the activation of the Model Risk Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/model-risk-management/tables-installed-with-mrm.html
 release: zurich
 product: Model Risk Management
 classification: model-risk-management
@@ -116,5 +117,5 @@ Model risk score
 Stores the scores calculated by the execution of model risk scoring configurations whenever a Smart Assessment is submitted and the assessment task is completed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Model Risk Management reference](../concept/mrm-reference.md)
+</table>**Parent Topic:**[Model Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/model-risk-management/mrm-reference.md)
 

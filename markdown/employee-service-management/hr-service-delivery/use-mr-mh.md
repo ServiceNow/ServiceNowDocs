@@ -2,6 +2,7 @@
 title: Know your team members
 description: Effectively manage a globally disbursed team. Understand your team's needs and activities to support them better.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/use-mr-mh.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -36,11 +37,11 @@ Role required: sn\_mh.manager\_hub\_user
     -   Focus on what the team is doing across multiple activities such as journeys, and growth and development \(if Talent Development is installed\).
     -   Use the **Sort by** filter to filter data by employee name, type, location, or attention needed. If Talent Development is installed, filters can be applied on the outcome type of growth plans and on the learnings that the team members are currently pursuing.
     -   Search for a specific employee by entering at least two characters in the **Search** field.
-    -   Select the Card view icon \(![Card view icon](../image/card-view-mh.png)\) to view employee details in a card view.
-    -   Select the List view icon \(![List view icon](../image/list-view-mh.png)\) to view employee details in a list view.
+    -   Select the Card view icon \(\[Omitted image "card-view-mh.png"\] Alt text: Card view icon\) to view employee details in a card view.
+    -   Select the List view icon \(\[Omitted image "list-view-mh.png"\] Alt text: List view icon\) to view employee details in a list view.
 6.  Provide assistance to your skip level reporting employees when the direct reporting manager is unavailable, for example, on leave.
 
-    To view details of your skip level employees along with your direct reporting employees, select the Settings icon \(![Settings icon](../image/settings-icon-mh.png)\) in the **Direct team** tab, then enable the **Show skip level reports** option.
+    To view details of your skip level employees along with your direct reporting employees, select the Settings icon \(\[Omitted image "settings-icon-mh.png"\] Alt text: Settings icon\) in the **Direct team** tab, then enable the **Show skip level reports** option.
 
     You cannot view skip level reports of employees that are not part of your direct reporting line.
 
@@ -48,12 +49,12 @@ Role required: sn\_mh.manager\_hub\_user
 
 8.  Select an employee's name on the employee card to view the employee details modal.
 
-    For more information, see [View employee details](employee-modal-mh.md).
+    For more information, see [View employee details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/employee-modal-mh.md).
 
-9.  Select the View menu icon \(![View menu icon](../image/viewmenu.png)\) on an employee card or employee modal, to schedule conversations, assign learning, and so on.
+9.  Select the View menu icon \(\[Omitted image "viewmenu.png"\] Alt text: View menu icon\) on an employee card or employee modal, to schedule conversations, assign learning, and so on.
 
-    For more information, see [Use the View menu icon in Manager Hub](../reference/view-menu.md).
+    For more information, see [Use the View menu icon in Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/view-menu.md).
 
-    **Note:** The actions on the employee card are configurable. For more information, refer to [Action Framework in Employee Center](../../employee-center/concept/action-group-framework.md)
+    **Note:** The actions on the employee card are configurable. For more information, refer to [Action Framework in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/action-group-framework.md)
 
 

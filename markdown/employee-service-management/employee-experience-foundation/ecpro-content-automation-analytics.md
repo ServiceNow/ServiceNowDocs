@@ -2,6 +2,7 @@
 title: Content Analytics
 description: Monitor and measure the impact of the content you provide through the Employee Center and in campaigns using Content Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ecpro-content-automation-analytics.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -15,7 +16,7 @@ breadcrumb: [Setup continuous improvement, Configure, Employee Center Pro, Unifi
 
 Monitor and measure the impact of the content you provide through the Employee Center and in campaigns using Content Analytics.
 
-Content Analytics collects data and generates visualizations on employee engagement with content in the Employee Center. Content Analytics is powered by the [Platform Analytics framework](https://www.servicenow.com/docs/access?context=par-workspace&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+Content Analytics collects data and generates visualizations on employee engagement with content in the Employee Center. Content Analytics is powered by the Platform Analytics framework.
 
 **Note:** Google Analytics is no longer supported as Google has stopped offering the integration.
 
@@ -25,23 +26,23 @@ Dashboards display data visualizations in widgets. Each widget displays data for
 
 |Dashboard|Description of data visualizations|
 |---------|----------------------------------|
-|[Content Analytics](content-analytics-dashboards.md)|Portal engagement metrics, including unique users, average time per page, and bounce rate.|
-|[Content Analytics - Basics](content-analytics-dashboards.md)|Portal page visits and views, including visits per day and most-frequently viewed pages.|
-|[Campaign Analytics](ecpro-content-automation-content-pack.md)|Campaign engagement metrics, to-dos, and impact, filtered by campaign or campaign success goal.|
-|[Campaign Overview](ecpro-content-automation-content-pack.md)|Campaign performance metrics by campaign, including tasks closed and user actions.|
-|[Content Library Overview dashboard](content-library-overview-dashboard.md)|Performance metrics for content published to the portal or Now mobile app.|
-|[Content engagement](ec-pro-content-engagement-dashboard.md)|Metrics on user engagement, such as content views, reaction icon clicks, comments, and replies to comments.|
+|[Content Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/content-analytics-dashboards.md)|Portal engagement metrics, including unique users, average time per page, and bounce rate.|
+|[Content Analytics - Basics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/content-analytics-dashboards.md)|Portal page visits and views, including visits per day and most-frequently viewed pages.|
+|[Campaign Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-content-automation-content-pack.md)|Campaign engagement metrics, to-dos, and impact, filtered by campaign or campaign success goal.|
+|[Campaign Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-content-automation-content-pack.md)|Campaign performance metrics by campaign, including tasks closed and user actions.|
+|[Content Library Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/content-library-overview-dashboard.md)|Performance metrics for content published to the portal or Now mobile app.|
+|[Content engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-pro-content-engagement-dashboard.md)|Metrics on user engagement, such as content views, reaction icon clicks, comments, and replies to comments.|
 
 ## Setting up Content Analytics
 
-1.  [Activate Content Analytics](../task/activate-content-analytics-plugin.md)
+1.  [Activate Content Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/activate-content-analytics-plugin.md)
 2.  Establish the tracking profile, by performing one of the following steps:
 
-    -   Activate one of the out-of-the-box tracking profiles and set it as the default tracking profile: [Activate a tracking profile](../task/activate-tracking-profile.md)
-    -   Create a custom tracking profile: [Create a Content Analytics tracking profile](../task/ecpro-content-analytics-setup.md)
+    -   Activate one of the out-of-the-box tracking profiles and set it as the default tracking profile: [Activate a tracking profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/activate-tracking-profile.md)
+    -   Create a custom tracking profile: [Create a Content Analytics tracking profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-content-analytics-setup.md)
     For more information on tracking profiles, see the section below.
 
-3.  To track analytics for a custom widget or page, you must add the tracking profile to the header: [Set up Content Analytics tracking](../task/ecpro-content-analytics-tracking-setup.md)
+3.  To track analytics for a custom widget or page, you must add the tracking profile to the header: [Set up Content Analytics tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-content-analytics-tracking-setup.md)
 
     **Important:** A new **Enable Tracking** field has been introduced to content notifications, designed specifically for email content. Existing notification records will have this field disabled by default, in line with prior system settings and by default, existing email content will have tracking turned off. However, for new email notification contents, the **Enable Tracking**option will be available for your selection and will be automatically enabled on new record creation. This feature provides greater flexibility, allowing you to determine whether tracking should be applied to specific email content record.
 
@@ -58,7 +59,7 @@ Content Analytics stores collected data in tables, which are organized by data t
 
 **Note:** If a dashboard does not display visualizations, check that the data is being collected by opening a table. Enter the table name in the navigation bar, appended by `.list`.
 
-For a list of Content Analytics tables, see [Components installed with Content Analytics](../reference/ecpro-installed-content-analytics-1.md).
+For a list of Content Analytics tables, see [Components installed with Content Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
 This is an overview of the process by which Content Analytics collects and moves data:
 

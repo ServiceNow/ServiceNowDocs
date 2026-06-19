@@ -2,6 +2,7 @@
 title: Install Zoom extension for Omnichannel Callback
 description: You can install the Zoom extension for Omnichannel Callback application \(com.sn.zoom.callback\) if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/callback-over-zoom/install-zoom-extension-omni-callback.html
 release: zurich
 product: Callback over Zoom
 classification: callback-over-zoom
@@ -29,7 +30,7 @@ The following items are installed with Zoom extension for Omnichannel Callback:
 -   Script includes
 -   Business rules
 
-For more information, see [Components installed with Zoom extension for Omnichannel Callback](../Reference/comp-installed-zoom-extension.md).
+For more information, see [Components installed with Zoom extension for Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/callback-over-zoom/comp-installed-zoom-extension.md).
 
 ## Procedure
 

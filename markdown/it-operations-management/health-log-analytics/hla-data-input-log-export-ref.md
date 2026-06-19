@@ -2,6 +2,7 @@
 title: ServiceNow Log Export data input configuration fields
 description: Description of the fields on the ServiceNow Log Export data input configuration form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-data-input-log-export-ref.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -46,7 +47,7 @@ Certificate password alias
 
 </td><td>
 
-The credential alias you created in **Basic Auth Credentials**. This field is required.For more information, see the Before you begin section in [Configure a ServiceNow Log Export data input in Health Log Analytics manually](../task/hla-data-input-log-export.md).
+The credential alias you created in **Basic Auth Credentials**. This field is required.For more information, see the Before you begin section in [Configure a ServiceNow Log Export data input in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-log-export.md).
 
 </td></tr><tr><td>
 
@@ -85,5 +86,5 @@ Disabled since
 The time when the data input stopped or failed. This field is read-only.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data input configuration field descriptions](../concept/hla-data-input-config-fields.md)
+</table>**Parent Topic:**[Data input configuration field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

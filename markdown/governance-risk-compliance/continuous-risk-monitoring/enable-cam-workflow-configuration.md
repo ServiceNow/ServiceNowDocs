@@ -2,6 +2,7 @@
 title: Enable CAM workflow configuration
 description: Enable the CAM workflow configuration to use custom workflows and frameworks in CAM. This feature enables you to configure workflows beyond the default National Institute of Standards and Technology \(NIST\) framework and adapt CAM to your organization's specific requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/continuous-risk-monitoring/enable-cam-workflow-configuration.html
 release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -25,7 +26,7 @@ Role required: sn\_irm\_cont\_auth.admin
 
 2.  In the **CAM System Properties** page, select **Enable CAM workflow configuration**.
 
-    ![Enabling CAM workflow configuration.](../../grc-cam-workspace/image/enable-CAM-workflow-configuration.png)
+    \[Omitted image "enable-CAM-workflow-configuration.png"\] Alt text: Enabling CAM workflow configuration.
 
 3.  In the **Enable CAM Workflow Configuration** pop-up page, read the impact listed under **Turning this property on will update your CAM experience**.
 
@@ -36,7 +37,7 @@ Role required: sn\_irm\_cont\_auth.admin
     -   Any custom workflow changes will need to be managed separately.
     -   New boundaries and packages will not be affected.
     -   Once enabled, this property cannot be turned off.
-    ![Impact on enabling CAM workflow configuration.](../../grc-cam-workspace/image/enable-CAM-workflow-configuration-1.png)
+    \[Omitted image "enable-CAM-workflow-configuration-1.png"\] Alt text: Impact on enabling CAM workflow configuration.
 
 4.  Select **I will run the data migration script to complete the setup** option to confirm you’ll migrate existing data after enabling the workflow configuration.
 
@@ -47,5 +48,5 @@ Role required: sn\_irm\_cont\_auth.admin
 
 ## What to do next
 
-To proceed with data migration, select **Script for migrating data to cam workflow configurator** link under the **Enable CAM workflow configuration** option. See [Run migration scheduled job](run-migration-scheduled-job.md) from Step 4 for detailed migration steps.
+To proceed with data migration, select **Script for migrating data to cam workflow configurator** link under the **Enable CAM workflow configuration** option. See [Run migration scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/run-migration-scheduled-job.md) from Step 4 for detailed migration steps.
 

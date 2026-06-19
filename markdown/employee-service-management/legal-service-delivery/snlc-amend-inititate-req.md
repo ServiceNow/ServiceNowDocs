@@ -2,6 +2,7 @@
 title: Submit amendment request
 description: Submit an amendment request from the Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/snlc-amend-inititate-req.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -39,21 +40,21 @@ A sample workflow while submitting on an amendment request would be:
 
 1.  Navigate to **All** &gt; **Employee Center**.
 
-2.  Select **Legal services** from the header.
+2.  Navigate **Help center** &gt; **Legal services**.
 
-3.  Search for **Amendment request** and open the intake form.![Amendment request intake form in Employee Center](../image/snlc-amend-record-producer.png)
+3.  Search for **Amendment request** and open the intake form.\[Omitted image "snlc-amend-record-producer.png"\] Alt text: Amendment request intake form in Employee Center
 
 4.  Enter the contract details.
 
-<table id="choicetable_ihc_fgn_fhc"><thead><tr><th align="left" id="d122415e139">
+<table id="choicetable_ihc_fgn_fhc"><thead><tr><th align="left" id="d124448e145">
 
 Option
 
-</th><th align="left" id="d122415e142">
+</th><th align="left" id="d124448e148">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d122415e148">
+</th></tr></thead><tbody><tr><td id="d124448e154">
 
 **Select an existing contract**
 
@@ -74,7 +75,7 @@ Steps
     -   A parent contract child hierarchy is established between the selected contract and the amendment request. You can’t unlink the parent and the child contract.
 
 
-</td></tr><tr><td id="d122415e200">
+</td></tr><tr><td id="d124448e206">
 
 **Manually enter contract details**
 
@@ -103,21 +104,21 @@ Steps
 
 7.  Select Electronic or Wet signature, in the **Signature type** drop-down.
 
-    For more information on the signature flow, see [Signature workflow for a request](../concept/snlc-lsd-signature-workflow.md)
+    For more information on the signature flow, see [Signature workflow for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md)
 
 8.  Attach contract documents.
 
     -   For own paper based amendment requests: Adding documents isn’t required. The attached documents are classified as supporting documents.
     -   For third-party paper based amendment requests: Adding documents is required. You must classify the attached document. The options available for classification are supporting documents and contract type selected in the contract details section.
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d122415e334">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d124448e340">
 
 Method
 
-</th><th align="left" id="d122415e337">
+</th><th align="left" id="d124448e343">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d122415e343">
+</th></tr></thead><tbody><tr><td id="d124448e349">
 
 **__Choose the file__**
 
@@ -127,7 +128,7 @@ Actions
 2.  Select the files to attach and select **Open**.
 
 
-</td></tr><tr><td id="d122415e368">
+</td></tr><tr><td id="d124448e374">
 
 **__Drag the file__**
 
@@ -142,9 +143,9 @@ Drag files from your local computer into your browser window to attach them to t
 
     -   To add a signatory, select **Add** and provide the signatory's details.
 
-    -   To modify a signatory's information, select the Edit row icon \(![Edit row icon.](../../legal-digital-forensics/image/rename-icon.png)\) on the signatory's row and update the details.
+    -   To modify a signatory's information, select the Edit row icon \(\[Omitted image "rename-icon.png"\] Alt text: Edit row icon.\) on the signatory's row and update the details.
 
-    -   To remove a signatory, select the Remove row icon \(![Remove row icon.](../../legal-digital-forensics/image/delete-icon.png)\) on the signatory's row.
+    -   To remove a signatory, select the Remove row icon \(\[Omitted image "delete-icon.png"\] Alt text: Remove row icon.\) on the signatory's row.
 
 10. Save the information in the request to submit later in Employee Center by selecting **Save as Draft**.
 
@@ -162,9 +163,9 @@ Drag files from your local computer into your browser window to attach them to t
     -   Replacing the metadata with data from the request.
     -   Replacing the signatory information.
     -   Placing the content of the clauses in the contract document according to the clause variation rules.
--   Internal signatories based on the template are also populated in the generated document. For more information, see [Define an internal signatory rule](../../contract-mgmt-pro/task/cncore-define-internal-signers-rule.md). View the signatories in the Signatories tab of the contract request.
+-   Internal signatories based on the template are also populated in the generated document. For more information, see [Define an internal signatory rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-define-internal-signers-rule.md). View the signatories in the Signatories tab of the contract request.
 
-For more information on how to view and track a legal request, see [View and track non-disclosure agreement requests as a legal user](snlc-view-legal-req-details.md).
+For more information on how to view and track a legal request, see [View and track non-disclosure agreement requests as a legal user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-view-legal-req-details.md).
 
-**Parent Topic:**[Contract amendments](../concept/snlc-amend-req-landing.md)
+**Parent Topic:**[Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-amend-req-landing.md)
 

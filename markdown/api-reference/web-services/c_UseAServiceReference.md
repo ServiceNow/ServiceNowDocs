@@ -2,6 +2,7 @@
 title: Use a service reference in a C Sharp integration
 description: Use a wizard to add a service reference for a C Sharp integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/c\_UseAServiceReference.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -19,7 +20,7 @@ Go to the **Solutions Explorer** and select **Service References** &gt; **Add Se
 
 Open the app.config file and change the Security mode to "Transport" and the clientCredentialType and proxyCredentialType to "Basic"
 
-![](../image/DotNetAppConfig.png "Dot net app config")
+\[Omitted image "DotNetAppConfig.png"\] Alt text:
 
-**Parent Topic:**[Call a web service in visual studio .NET](c_CallAWebServiceInVisualStudioNET.md)
+**Parent Topic:**[Call a web service in visual studio .NET](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_CallAWebServiceInVisualStudioNET.md)
 

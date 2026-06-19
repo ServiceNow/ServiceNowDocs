@@ -2,6 +2,7 @@
 title: Create an access control list for a claim incident table
 description: Create an access control list \(ACL\) for a claim incident table by using the Insurance claims application. By creating an ACL, you ensure that users with specific roles can interact with tables for particular claim incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/create-acls-for-a-claim-incident-table.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims
@@ -38,5 +39,5 @@ Role required: admin
 
 ## What to do next
 
-Grant Insurance claims roles access to the claim incident table so that they can read and write entries during the claim creation process. For more information, see [Grant Insurance claims roles access to a claim incident table](update-insurance-claim-roles-for-a-claim-incident-table.md).
+Grant Insurance claims roles access to the claim incident table so that they can read and write entries during the claim creation process. For more information, see [Grant Insurance claims roles access to a claim incident table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/update-insurance-claim-roles-for-a-claim-incident-table.md).
 

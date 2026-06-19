@@ -2,6 +2,7 @@
 title: Security Posture Control use case: Detecting assets with missing endpoint protection
 description: To detect assets missing an endpoint protection agent, the following prerequisites are required. 
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/spc-use-case-1.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -30,5 +31,5 @@ Depending on your use case, you can choose to activate only the required connect
     3.  Networking
     4.  Application Performance Monitoring .
 
-After you verify you have met these prerequisites, you must activate the following policy, Assets missing endpoint protection   .  For more information on policies, please refer to [Policies for Security Posture Control](spc-policies-overview.md).
+After you verify you have met these prerequisites, you must activate the following policy, Assets missing endpoint protection   .  For more information on policies, please refer to [Policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-policies-overview.md).
 

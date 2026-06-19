@@ -2,12 +2,13 @@
 title: Incident assist agentic workflow
 description: Use the Incident assist agentic workflow to get answers to questions about an incident, including caller assets, recent incidents, similar resolved incidents, and on-call experts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-incident-assist-workflow.html
 release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Agentic AI in the ITSM application, Use agentic AI in IT Service Management, Now Assist for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -16,17 +17,21 @@ breadcrumb: [Agentic AI in the ITSM application, Use agentic AI in IT Service Ma
 
 Use the Incident assist agentic workflow to get answers to questions about an incident, including caller assets, recent incidents, similar resolved incidents, and on-call experts.
 
-**Important:** The Incident assist agentic workflow is active by default and includes all the capabilities of the \[DEPRECATED\] Incident assist skill, with enhancements. If you have the \[DEPRECATED\] Incident assist skill activated, consider deactivating it to avoid redundancy.
+**Important:**
 
-To deactivate the skill:
+-   Starting with Zurich Patch 9, the Incident assist skill has been deprecated, moved to the **Archive** section, and is no longer available for use. For more information, see [Incident assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-incident-assist.md)
 
-1.  Navigate to **Admin** &gt; **Now Assist Admin**.
-2.  Select the **Now Assist Skills** tab.
-3.  Go to **Technology** &gt; **ITSM**.
-4.  Select the Ask questions about an incident by using the Now Assist panel skill.
-5.  Select **Deactivate skill**.
+-   In Zurich Patch 8, the Incident assist agentic workflow is active by default and includes all the capabilities of the \[DEPRECATED\] Incident assist skill, with enhancements. If you have the \[DEPRECATED\] Incident assist skill activated, consider deactivating it to avoid redundancy.
 
-For more information, see [Incident assist skill](../task/now-assist-itsm-incident-assist.md)
+    To deactivate the skill:
+
+    1.  Navigate to **Admin** &gt; **Now Assist Admin**.
+    2.  Select the **Now Assist Skills** tab.
+    3.  Go to **Technology** &gt; **ITSM**.
+    4.  Select the Ask questions about an incident by using the Now Assist panel skill.
+    5.  Select **Deactivate skill**.
+    For more information, see [Incident assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-incident-assist.md)
+
 
 As an IT support agent, use the Incident assist agentic workflow to ask questions about an incident. Based on your question, the workflow routes to the appropriate specialist AI agent, which retrieves data from the incident record and related tables and returns a direct answer in the Now Assist panel.
 
@@ -85,11 +90,11 @@ In the agentic workflow record:
     The agent executes the request for the agentic workflow.
 
 
-**Example of Incident assist agentic workflow output with the Incident context AI agent in the ServiceNow AI Agent Studio**![Incident context AI agent in the Incident assist agentic workflow](../image/now-assist-itsm-incident-assist-inc-context-ai-agent.png)
+**Example of Incident assist agentic workflow output with the Incident context AI agent in the ServiceNow AI Agent Studio**\[Omitted image "now-assist-itsm-incident-assist-inc-context-ai-agent.png"\] Alt text: Incident context AI agent in the Incident assist agentic workflow
 
-**Example of Incident assist agentic workflow output with the Additional incident context AI agent in the ServiceNow AI Agent Studio**![Additional Incident context AI agent in the Incident assist agentic workflow](../image/now-assist-itsm-incident-assist-add-inc-context-aiagent.png)
+**Example of Incident assist agentic workflow output with the Additional incident context AI agent in the ServiceNow AI Agent Studio**\[Omitted image "now-assist-itsm-incident-assist-add-inc-context-aiagent.png"\] Alt text: Additional Incident context AI agent in the Incident assist agentic workflow
 
-In the AI Agent Studio, the human agent gets notified as soon as the recommendations to resolve incidents get generated so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the Now Assist panel](../task/request-gen-ai-capabilities-itsm-now-assist-panel.md).
+In the AI Agent Studio, the human agent gets notified as soon as the recommendations to resolve incidents get generated so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
 
 ## Generating answers to user questions in the Now Assist panel
 
@@ -121,7 +126,7 @@ The agent continues until you ask something outside its scope or end the convers
 
 See examples of the screens for different use cases for this workflow in the Now Assist panel.
 
-**Example of options available using the Incident assist agentic workflow in the Now Assist panel**![Example of options available using the Incident assist agentic workflow in the Now Assist panel](../image/now-assist-itsm-incident-assist-nap.png)
+**Example of options available using the Incident assist agentic workflow in the Now Assist panel**\[Omitted image "now-assist-itsm-incident-assist-nap.png"\] Alt text: Example of options available using the Incident assist agentic workflow in the Now Assist panel
 
-**Example of getting similar resolved incidents using the Incident assist agentic workflow in the Now Assist panel**![Example of getting similar resolved incidents using the Incident assist agentic workflow in the Now Assist panel](../image/now-assist-itsm-incident-assist-similar-incidents.png)
+**Example of getting similar resolved incidents using the Incident assist agentic workflow in the Now Assist panel**\[Omitted image "now-assist-itsm-incident-assist-similar-incidents.png"\] Alt text: Example of getting similar resolved incidents using the Incident assist agentic workflow in the Now Assist panel
 

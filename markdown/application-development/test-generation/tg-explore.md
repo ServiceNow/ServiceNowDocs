@@ -2,6 +2,7 @@
 title: Exploring Test generation
 description: If you are new to Test generation application, read this overview to learn what the app can do.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/test-generation/tg-explore.html
 release: zurich
 product: Test Generation
 classification: test-generation
@@ -17,7 +18,7 @@ If you are new to Test generation application, read this overview to learn what 
 
 Follow the gif to create tests from natural language leveraging AI power.
 
-![Gif showing the working of Test generation](../image/tg-gif.gif)
+\[Omitted image "tg-gif.gif"\] Alt text: Gif showing the working of Test generation
 
 ## Test generation overview
 
@@ -28,7 +29,7 @@ Revolutionize your test automation with Test generation application. Simply outl
 -   Test generation application generates comprehensive test cases, ensuring thorough testing coverage.
 -   You can keep modifying the prompt without saving the generated tests until the final objective has been attained.
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://www.servicenow.com/docs/access?context=ai-model-providers&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://www.servicenow.com/docs/access?context=manage-large-language-models&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US). For more information, see [Large language models on the ServiceNow AI Platform®](https://www.servicenow.com/docs/access?context=exploring-large-language-models&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the Now Assist Admin console. For more information, see .
 
 ## Test generation users
 
@@ -45,13 +46,13 @@ Test generation has the following users.
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Automate test generation|[Generate a test using Test generation](../task/tg-implement.md)|System Administrator|
-|Edit a generated test after the preview|[Edit a generated test using Test generation](tg-edit-test.md)|System Administrator|
+|Automate test generation|[Generate a test using Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/test-generation/tg-implement.md)|System Administrator|
+|Edit a generated test after the preview|[Edit a generated test using Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/test-generation/tg-edit-test.md)|System Administrator|
 
 ## What to explore next
 
 To learn more about using Test generation, see:
 
--   [Using Test generation](tg-use.md)
--   [Test generation references](tg-reference.md)
+-   [Using Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/test-generation/tg-use.md)
+-   [Test generation references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/test-generation/tg-reference.md)
 

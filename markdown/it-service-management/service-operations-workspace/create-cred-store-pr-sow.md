@@ -2,6 +2,7 @@
 title: Create credential store for Password Reset in Service Operations Workspace
 description: Create a password reset credential store record to configure access to your credential store server while a user is changing or resetting a password.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/create-cred-store-pr-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -91,7 +92,7 @@ Enable password policy
 
 </td><td>
 
-See [Enable password policies on your instance](https://www.servicenow.com/docs/access?context=enable-password-policies&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+See Enable password policies on your instance
 
 </td></tr><tr><td>
 
@@ -132,5 +133,5 @@ Option to ensure that the users don’t reuse passwords. For example, you might 
     You must test the connection to a credential store after you configure a new credential store.
 
 
-**Parent Topic:**[Setting up Service Desk assisted Password Reset in Service Operations Workspace](../concept/setup-password-reset-sow.md)
+**Parent Topic:**[Setting up Service Desk assisted Password Reset in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/setup-password-reset-sow.md)
 

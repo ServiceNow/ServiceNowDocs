@@ -2,6 +2,7 @@
 title: Unique ID numbers for TPRM records
 description: When you create \(or the system generates\) a new record \(for example, a request for due diligence or a task\), the system auto-assigns a unique ID number that helps to identify the type of data in the record. You can use the ID number to search for or filter the item you want to work on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-records-chars-in-number.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -31,5 +32,5 @@ When you create \(or the system generates\) a new record \(for example, a reques
 -   **Third-party risk scoring rule**: For each third-party risk scoring rule, the system auto-assigns a unique ID number that starts with the text VRS.
 -   **Risk tiering assessment**: For each risk tiering assessment, the system auto-assigns a unique ID number that starts with the text VTA.
 
-**Parent Topic:**[Third-party Risk Management reference](../concept/tprm-reference.md)
+**Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
 

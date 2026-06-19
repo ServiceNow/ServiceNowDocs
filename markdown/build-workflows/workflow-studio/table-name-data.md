@@ -2,6 +2,7 @@
 title: Table name data type
 description: Store a table name value as specified in the database dictionary. Table names are always alphanumeric strings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/table-name-data.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -31,5 +32,5 @@ Store a table name value as specified in the database dictionary. Table names ar
 |Hint|Provides guidance to flow or action designers on how to configure the data.|
 |Default value|Specifies the value used when a flow or action designer does not provide a value.|
 
-**Parent Topic:**[Workflow Studio input and output data variables](action-inputs-outputs.md)
+**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/action-inputs-outputs.md)
 

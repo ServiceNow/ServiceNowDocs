@@ -2,11 +2,12 @@
 title: Request translations in Localization Workspace: Scope
 description: Select specific documents to add to a translation request in Localization Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/localization-workspace/lw-request-translations-scope.html
 release: zurich
 product: Localization Workspace
 classification: localization-workspace
 topic_type: task
-last_updated: "2025-12-03"
+last_updated: "2026-06-08"
 reading_time_minutes: 2
 breadcrumb: [Requesting translations in Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer]
 ---
@@ -17,13 +18,14 @@ Select specific documents to add to a translation request in Localization Worksp
 
 ## Before you begin
 
-Role required: localization\_requestor
+Role required: sn\_lw.user
 
 ## About this task
 
 In the Scope step of a translation request, you can drill down to select or deselect specific documents from the list of translatable items collected by the Types step.
 
 -   When the Scope screen first opens, all of the retrieved items are selected by default.
+-   Items that are currently in the translation process aren't retrieved.
 -   If you don't want an item to be included in the translation request, deselect that item by clearing its check box.
 -   It's possible to select a document for one target language, and deselect the same document for a different target language.
 -   From version 2.0.2, you can use a text filter in the column filter row. Filter operators are the same as other tables in your instance \(such as **starts with**, **contains**, and so forth\).
@@ -41,17 +43,17 @@ The following procedure covers step three of four steps in the Translation Reque
 
 2.  Reveal the filter row by selecting the **Show column filter row** icon, if needed.
 
-    ![The Translation Request wizard at step 2, Scope. The Show column filter row toggle is highlighted.](../image/lw-request-translations-scope-show-filter-row.png)
+    \[Omitted image "lw-request-translations-scope-show-filter-row.png"\] Alt text: The Translation Request wizard at step 2, Scope. The Show column filter row toggle is highlighted.
 
 3.  Filter the list according to terms in the document titles \(Translation Item\), or by Translation State or Language.
 
-    ![The Show column filter displays under each column. Under Translation Item, the filter is Operator starts with "How", so only documents whose titles start with the word How are displayed.](../image/lw-request-translations-scope-filter-row.png)
+    \[Omitted image "lw-request-translations-scope-filter-row.png"\] Alt text: The Show column filter displays under each column. Under Translation Item, the filter is Operator starts with "How", so only documents whose titles start with the word How are displayed.
 
-4.  Reveal the Types pane by opening the **Resizable panes divider**, then expand Types by selecting the caret icon. ![In the Scope step, the Types pane is open with the Resizable panes divider highlighted.](../image/lw-request-translations-scope-resizeable-panes.png)
+4.  Reveal the Types pane by opening the **Resizable panes divider**, then expand Types by selecting the caret icon. \[Omitted image "lw-request-translations-scope-resizeable-panes.png"\] Alt text: In the Scope step, the Types pane is open with the Resizable panes divider highlighted.
 
 5.  Deselect any retrieved documents that you don't want to include in your request by clearing the item's check box.
 
-    You can use the bulk select/deselect check box in the Filter row to select \(or clear\) a set of items. If anything is highlighted in the Types pane, bulk selection/deselection applies only to the highlighted type or language.![Under the Types pane, one language (Brazilian Portuguese) is selected, and also the bulk select/deselect check box is cleared. This means that Brazilian Portuguese documents are excluded from the request.](../image/lw-request-translations-scope-types-selector.png)
+    You can use the bulk select/deselect check box in the Filter row to select \(or clear\) a set of items. If anything is highlighted in the Types pane, bulk selection/deselection applies only to the highlighted type or language.\[Omitted image "lw-request-translations-scope-types-selector.png"\] Alt text: Under the Types pane, one language \(Brazilian Portuguese\) is selected, and also the bulk select/deselect check box is cleared. This means that Brazilian Portuguese documents are excluded from the request.
 
 6.  Select **Save**.
 

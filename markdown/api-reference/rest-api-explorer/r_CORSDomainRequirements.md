@@ -2,6 +2,7 @@
 title: CORS domain requirements
 description: When you define a cross-origin resource sharing \(CORS\) rule, the value you enter in the Domain field must meet certain requirements. Each CORS rule supports a single wildcard to match incoming Origin headers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-api-explorer/r\_CORSDomainRequirements.html
 release: zurich
 product: REST API Explorer
 classification: rest-api-explorer
@@ -47,5 +48,5 @@ For example, if there are rules for the domain patterns `http://*.blog.mysite.co
 |`http://*.service-now.com`|`http://blog.*.service-now.com`|
 |`http://*.com`|`http://*com`|
 
-**Parent Topic:**[REST APIs](../concept/c_RESTAPI.md)
+**Parent Topic:**[REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md)
 

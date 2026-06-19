@@ -2,6 +2,7 @@
 title: Manage the HR chat queue
 description: You can configure the HR department chat queue and review the chat records to measure how well employees are being assisted when they initiate a conversation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/t\_ManageTheHRChatQueue.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -56,5 +57,5 @@ You can review the chat records to see how long employees waited for a response 
     |**Who is actively helping employees in the queue**|Review the names of agents in the **Assigned to** column.|
 
 
-**Parent Topic:**[HR chat from lists and forms](../concept/chat-with-scoped-hr.md)
+**Parent Topic:**[HR chat from lists and forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/chat-with-scoped-hr.md)
 

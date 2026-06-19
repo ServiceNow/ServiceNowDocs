@@ -2,6 +2,7 @@
 title: Create a script macro for the syntax editor
 description: Administrators can define new script macros or modify existing script macros.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/t\_ManageScriptMacros.html
 release: zurich
 product: Scripts
 classification: scripts
@@ -38,5 +39,5 @@ Script macros provide shortcuts for typing commonly used code. Several script ma
     |Text|Full macro text that replaces the name in the editor.|
 
 
-**Parent Topic:**[JavaScript syntax editor](../concept/c_SyntaxEditor.md)
+**Parent Topic:**[JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_SyntaxEditor.md)
 

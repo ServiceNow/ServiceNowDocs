@@ -2,6 +2,7 @@
 title: Software Bill of Materials
 description: View a list of the open source and third-party software components that you’re using in your application development. Get insights into software licenses, version information, and the known vulnerabilities in your components in the Software Bill of Materials \(SBOM\) files that you upload into your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sbom-core/sbom-landing.html
 release: zurich
 product: SBOM Core
 classification: sbom-core
@@ -19,15 +20,15 @@ View a list of the open source and third-party software components that you’re
 
 <table id="table_uqb_jcw_szb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../../reuse/icons/brand-icons/bus-explore.svg) Learn about SBOM concepts and features.](../concept/vr-sbom-exploring.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text: Learn about SBOM concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sbom-core/vr-sbom-exploring.md)
 
 </td><td>
 
-[Configure![](../../../../reuse/icons/brand-icons/bus-sdlc.svg) Configure SBOM applications.](../task/vr-sbom-install-apps.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text: Configure SBOM applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sbom-core/vr-sbom-install-apps.md)
 
 </td><td>
 
-[Use![](../../../../reuse/icons/brand-icons/bus-optimize-manage.svg) Learn how to import SBOM components and view data in the workspace.](../concept/vr-sbom-using-parent.md)
+[Use\[Omitted image "bus-optimize-manage.svg"\] Alt text: Learn how to import SBOM components and view data in the workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sbom-core/vr-sbom-using-parent.md)
 
 </td></tr><tr><td>
 
@@ -35,7 +36,7 @@ View a list of the open source and third-party software components that you’re
 
 </td><td>
 
-[Reference![](../../../../reuse/icons/brand-icons/bus-learn.svg) Get details about SBOM forms, fields, tables, and properties.](sbom-installed-with-app.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text: Get details about SBOM forms, fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sbom-core/sbom-installed-with-app.md)
 
 </td><td>
 

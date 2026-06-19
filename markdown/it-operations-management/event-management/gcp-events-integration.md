@@ -2,6 +2,7 @@
 title: Integrate Google Cloud Platform \(GCP\) events
 description: Integrate Google Cloud Platform \(GCP\) with Event Management by adding a standard webhook in the GCP console.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/gcp-events-integration.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -66,7 +67,7 @@ GCP does not send values such as the severity level in the payload. The default 
 
 **Note:**
 
-To map the GCP hosts to the**cmdb\_ci\_server**record instead of**cmdb\_ci\_vm\_object**, disable the**Google Monitor - General**event rule created for GCP. For further information about event rules, see [Event rules](../concept/create-event-rules.md).
+To map the GCP hosts to the**cmdb\_ci\_server**record instead of**cmdb\_ci\_vm\_object**, disable the**Google Monitor - General**event rule created for GCP. For further information about event rules, see [Event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-event-rules.md).
 
-**Parent Topic:**[Integrate with push connectors](configure-listener-transform-script.md)
+**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-listener-transform-script.md)
 

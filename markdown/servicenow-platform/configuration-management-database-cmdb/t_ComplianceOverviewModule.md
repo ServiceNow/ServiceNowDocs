@@ -2,6 +2,7 @@
 title: Compliance Overview module
 description: The Compliance Overview module is a type of a homepage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/t\_ComplianceOverviewModule.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

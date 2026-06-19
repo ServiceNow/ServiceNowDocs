@@ -2,6 +2,7 @@
 title: Manage lean budgeting for demand
 description: Allocate budget for demands at each fiscal period instead of the entire fiscal year to reduce the overhead costs associated with traditional approach.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/manage-lean-budgeting-for-demand-ppw.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -17,7 +18,7 @@ Allocate budget for demands at each fiscal period instead of the entire fiscal y
 
 ## Before you begin
 
--   Lean budgeting is enabled. For more information, see [Enable lean budgeting for demands](enable-lean-budgeting-for-demands-ppw.md).
+-   Lean budgeting is enabled. For more information, see [Enable lean budgeting for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/enable-lean-budgeting-for-demands-ppw.md).
 -   Role required: sn\_invst\_pln.sn\_spm\_funding\_user
 
     Any user role with this specific role attached can add or manage the investment budgets.
@@ -27,7 +28,7 @@ Allocate budget for demands at each fiscal period instead of the entire fiscal y
 
 1.  Open a demand from the home page of Next Experience for Demand Management.
 
-    For more information, see [Access demands](access-demands-ppw.md).
+    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/access-demands-ppw.md).
 
 2.  Select **Details** from the L-2 \(level 2\) navigation menu.
 

@@ -2,7 +2,10 @@
 title: Associate activity groups and activity types to activity contexts
 description: Add the activity groups and activity types that you created to an activity context, depending on who you want to display the information for.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-act-contexts-ca.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -13,11 +16,7 @@ breadcrumb: [Configure the Customer History view, Configure Customer Central, Ag
 
 Add the activity groups and activity types that you created to an activity context, depending on who you want to display the information for.
 
-Associate an activity group to an activity context
-
 Learn more about associating an activity group to an activity context from the following video tutorial.
-
-Associate an activity type to an activity context
 
 Learn more about associating an activity type to an activity context from the following video tutorial.
 

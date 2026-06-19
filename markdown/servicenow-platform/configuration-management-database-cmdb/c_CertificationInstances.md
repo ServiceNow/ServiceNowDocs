@@ -2,6 +2,7 @@
 title: Certification instances
 description: A certification instance is the collection of certification tasks for one execution of a certification schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/c\_CertificationInstances.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -15,5 +16,5 @@ breadcrumb: [Data Certification on Core UI, Data Certification, CMDB data manage
 
 A certification instance is the collection of certification tasks for one execution of a certification schedule.
 
-![Certification instances.](../image/CertificationInstances.png "Certification instances")
+\[Omitted image "CertificationInstances.png"\] Alt text: Certification instances.
 

@@ -2,6 +2,7 @@
 title: Ethics complaints intake form in the Anonymous Report Center portal
 description: Employees can use the Ethics Complaints intake form in the Anonymous Report Center \(ARC\) portal to report an ethics violation incident. Different sets of fields appear on the form based on the active record producers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-investigations/ethics-complaint-intake-form-arc.html
 release: zurich
 product: Legal Investigations
 classification: legal-investigations
@@ -73,5 +74,5 @@ Option to acknowledge submitting sensitive information or personal details of pe
 |Summary of complaint|Type of complaint or allegation that violated the ethics policy of the organization.|
 |Detailed description|Detailed information about the incident, such as the detailed description of the incident, the names of the people involved, and the approximate date and time of the incident.|
 
-**Parent Topic:**[Legal Investigations reference](legal-investigations-reference.md)
+**Parent Topic:**[Legal Investigations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-investigations/legal-investigations-reference.md)
 

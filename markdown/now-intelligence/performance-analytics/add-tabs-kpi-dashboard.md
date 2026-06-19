@@ -2,6 +2,7 @@
 title: Add tabs and rows to a dashboard
 description: A dashboard mock-up in KPI Composer requires you to lay out the tabs and rows before adding visual components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/add-tabs-kpi-dashboard.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -16,7 +17,7 @@ breadcrumb: [Designing dashboards, Design your indicator solution, Configure fun
 A dashboard mock-up in KPI Composer requires you to lay out the tabs and rows before adding visual components.
 
 Prerequisites
-:   [Add a dashboard](add-dashboard-kpi-comp.md#)
+:   [Add a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/add-dashboard-kpi-comp.md)
 
 ## Before you begin
 
@@ -32,13 +33,13 @@ Role required: sn\_kpi\_composer.user \(own project\), sn\_kpi\_composer.admin \
 
 3.  Click the + icon underneath the dashboards.
 
-    ![The Add Tab icon next to the other tab icons on a KPI Composer dashboard visualization.](../image/kpi-comp-add-tab.png)
+    \[Omitted image "kpi-comp-add-tab.png"\] Alt text: The Add Tab icon next to the other tab icons on a KPI Composer dashboard visualization.
 
 4.  Either:
 
     -   Select a tab template. The tab is created with a name, rows, and canvases inherited from the template. You do not have to add rows or canvases, but you can edit the ones you have.
     -   Select **No template**. You create an empty tab and populate it with rows and canvases, as described in the rest of this procedure.
-    ![The Select Dashboard Template dialog that opens when you add a dashboard tab.](../image/kpi-comp-select-dashboard-template.png)
+    \[Omitted image "kpi-comp-select-dashboard-template.png"\] Alt text: The Select Dashboard Template dialog that opens when you add a dashboard tab.
 
 5.  Give the tab a meaningful name, probably matching a lower-level Critical Success Factor.
 
@@ -53,15 +54,15 @@ Role required: sn\_kpi\_composer.user \(own project\), sn\_kpi\_composer.admin \
 
 ## Adding a tab and a row to a dashboard
 
-In the following short animation, you see a user adding the Quality of service tab to the Customer Experience dashboard mock-up. The user gives the first row in this tab three canvases.![A tab and a row being added to a dashboard.](../image/kpi-comp-add-tab-row.gif)
+In the following short animation, you see a user adding the Quality of service tab to the Customer Experience dashboard mock-up. The user gives the first row in this tab three canvases.\[Omitted image "kpi-comp-add-tab-row.gif"\] Alt text: A tab and a row being added to a dashboard.
 
 ## What to do next
 
 Add more rows or tabs following this procedure. Or, you can add canvases to the rows you have created and come back and add more tabs and rows later.
 
-**Parent Topic:**[Designing dashboards](../concept/create-a-dashboard-mock-up.md)
+**Parent Topic:**[Designing dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-a-dashboard-mock-up.md)
 
-**Previous topic:**[Add a dashboard](add-dashboard-kpi-comp.md#)
+**Previous topic:**[Add a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/add-dashboard-kpi-comp.md)
 
-**Next topic:**[Add canvases to a dashboard tab](add-canvases-kpi-dashboard.md)
+**Next topic:**[Add canvases to a dashboard tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/add-canvases-kpi-dashboard.md)
 

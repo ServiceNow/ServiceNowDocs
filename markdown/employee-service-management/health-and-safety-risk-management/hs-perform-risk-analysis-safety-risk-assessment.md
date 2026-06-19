@@ -2,6 +2,7 @@
 title: Perform risk analysis for a safety risk assessment
 description: For a risk assessment, perform risk analyses of identified hazards and choose control measures to assess how they impact and mitigate the hazard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-risk-management/hs-perform-risk-analysis-safety-risk-assessment.html
 release: zurich
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -27,7 +28,7 @@ A risk analysis can be associated with job steps in a job and have their inheren
 
 1.  Navigate to **Workspaces** &gt; **Health and Safety Workspace**.
 
-2.  Select the risk management icon \(![Risk assessment icon](../image/icon-risk-assessment.png)\).
+2.  Select the risk management icon \(\[Omitted image "icon-risk-assessment.png"\] Alt text: Risk assessment icon\).
 
 3.  Select the **Risk assessment** list and then **All**.
 
@@ -35,23 +36,23 @@ A risk analysis can be associated with job steps in a job and have their inheren
 
 5.  In the **Risk analyses** tab, add risk analysis records.
 
-<table id="choicetable_b2k_l3c_4hc"><thead><tr><th align="left" id="d367802e114">
+<table id="choicetable_b2k_l3c_4hc"><thead><tr><th align="left" id="d353354e114">
 
 Option
 
-</th><th align="left" id="d367802e117">
+</th><th align="left" id="d353354e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d367802e123">
+</th></tr></thead><tbody><tr><td id="d353354e123">
 
 **Import from predefined job**
 
 </td><td>
 
-To create risk analyses by importing hazards and controls from a predefined job, see [Create a risk analysis from a job](import-hazards-and-controls.md).
+To create risk analyses by importing hazards and controls from a predefined job, see [Create a risk analysis from a job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/import-hazards-and-controls.md).
 
-</td></tr><tr><td id="d367802e139">
+</td></tr><tr><td id="d353354e139">
 
 **Create in Risk analyses tab**
 
@@ -64,7 +65,7 @@ To add a risk analysis manually,1.  In the **Risk analyses** list, select **New*
 </td></tr></tbody>
 </table>6.  In the **Hazard assessments** tab of a risk analysis, review hazards and their controls to assess their risk levels.
 
-    For more information on how the risk level for a hazard is evaluated, see [Assess safety hazards and risk levels for a risk analysis](add-a-risk-and-its-controls-for-a-safety-risk-assessment.md).
+    For more information on how the risk level for a hazard is evaluated, see [Assess safety hazards and risk levels for a risk analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/add-a-risk-and-its-controls-for-a-safety-risk-assessment.md).
 
     The inherent and residual risk levels \(severity and likelihood\) on the risk analysis form are calculated from the corresponding risk levels in its associated hazard assessments.
 
@@ -85,5 +86,5 @@ To add a risk analysis manually,1.  In the **Risk analyses** list, select **New*
 -   The overall level of inherent and residual risk is determined based on the highest identified risk in the **Risk analyses** list.​
 -   The computed risk levels from all risk analyses appear in the **Inherent risk** and **Residual risk** fields in the risk assessment's form header.
 
-**Parent Topic:**[Safety risk assessment](../concept/hs-risk-assessment.md)
+**Parent Topic:**[Safety risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/hs-risk-assessment.md)
 

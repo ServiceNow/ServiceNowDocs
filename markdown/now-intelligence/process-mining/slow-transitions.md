@@ -2,6 +2,7 @@
 title: Configure slow transitions
 description: Configure a slow transitions finding definition to view a pattern where clusters of records have an unusual duration that's higher than the average duration of another group of records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/slow-transitions.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -21,13 +22,13 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 Slow transitions finding definition displays clusters of records that have an unusual duration that's higher than the average duration of another group of records. This helps identify slower progression for a significant group of records.
 
-![Slow transition](../image/slow-transition.png)
+\[Omitted image "slow-transition.png"\] Alt text: Slow transition
 
 ## Procedure
 
 1.  Navigate to Improvement opportunity definition page.
 
-    For information about the Improvement opportunity definition page, see [Set improvement opportunities](improve-opportunities.md).
+    For information about the Improvement opportunity definition page, see [Set improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/improve-opportunities.md).
 
 2.  Select **Create** on the Slow transition card.
 
@@ -35,7 +36,7 @@ Slow transitions finding definition displays clusters of records that have an un
 
 3.  Provide details in the **Define** section.
 
-    For details, see [Rule-based finding definition form from Finding Builder](../reference/finding-definition-form.md).
+    For details, see [Rule-based finding definition form from Finding Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/finding-definition-form.md).
 
 4.  Select **Configure**.
 
@@ -45,7 +46,7 @@ Slow transitions finding definition displays clusters of records that have an un
 
     Default values are provided. You can edit them if needed.
 
-    ![Slow transition configuration](../image/slow-transition-config.png)
+    \[Omitted image "slow-transition-config.png"\] Alt text: Slow transition configuration
 
     According to the example, records that meet the following conditions are available as improvement opportunities in the Summary and insights page:
 
@@ -55,5 +56,5 @@ Slow transitions finding definition displays clusters of records that have an un
 6.  Select **Save and exit**.
 
 
-**Parent Topic:**[Automated improvement opportunities](../concept/automated-findings.md)
+**Parent Topic:**[Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/automated-findings.md)
 

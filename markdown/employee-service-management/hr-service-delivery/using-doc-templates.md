@@ -2,6 +2,7 @@
 title: Using Document Templates
 description: Learn how to use Document Templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/using-doc-templates.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,14 +16,14 @@ breadcrumb: [Document Templates, HR Documents, HR Service Delivery, Employee Ser
 
 Learn how to use Document Templates.
 
--   **[Using Document Templates: HR Service Delivery](understanding-doc-templates.md)**  
+-   **[Using Document Templates: HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/understanding-doc-templates.md)**  
 Learn how to use Document Templates along with the HR Service Delivery application.
--   **[Using Document Templates: Custom use case](../task/doc-temp-gen.md)**  
+-   **[Using Document Templates: Custom use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/doc-temp-gen.md)**  
 Understand how to use Document Templates outside of HR Service Delivery.
--   **[Working on a document task](../task/work-doctemp-tasks.md)**  
+-   **[Working on a document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/work-doctemp-tasks.md)**  
 Complete your document tasks from Employee Center.
--   **[Using Guided Tours in Document Templates](../task/guided-tours-doc-temp.md)**  
+-   **[Using Guided Tours in Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/guided-tours-doc-temp.md)**  
 Use Guided Tours in Document Templates to get instructions on how to create a document template.
 
-**Parent Topic:**[HR Documents](hr-esigning-app.md)
+**Parent Topic:**[HR Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-esigning-app.md)
 

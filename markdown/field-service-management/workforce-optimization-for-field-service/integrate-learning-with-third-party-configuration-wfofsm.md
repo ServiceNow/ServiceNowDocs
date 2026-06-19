@@ -2,6 +2,7 @@
 title: Integrate third-party learning management systems with the Coaching with Learning application
 description: Connect your ServiceNow instance with third-party learning sites to pull learning content into your repository.When you integrate Coaching with Learning with third-party learning management systems, the source record for Cornerstone OnDemand, Pluralsight, and Udemy applications are automatically created in the Enterprise Service Management Integrations Framework. These source records contain a predefined set of properties and integration services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/integrate-learning-with-third-party-configuration-wfofsm.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -17,7 +18,7 @@ Connect your ServiceNow instance with third-party learning sites to pull learnin
 
 ## Before you begin
 
-**Important:** The Coaching with Learning application is available with the Workforce Optimization for Field Service \(sn\_fsm\_wfo\) from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for Field Service](activate-wfo-fsm.md).
+**Important:** The Coaching with Learning application is available with the Workforce Optimization for Field Service \(sn\_fsm\_wfo\) from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md).
 
 Role required: learning\_admin
 
@@ -25,7 +26,7 @@ Role required: learning\_admin
 
 Activating the Coaching with Learning \(sn\_coach\_lrn\) plugin enables the following applications from the ServiceNow Store:
 
--   [Enterprise Service Management Integrations Framework](https://www.servicenow.com/docs/access?context=hr-integrations-framework&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US)
+-   Enterprise Service Management Integrations Framework
 -   Cornerstone spoke
 -   Pluralsight spoke
 -   Udemy spoke
@@ -127,31 +128,31 @@ Configuration set to push a record if the previous push fails.**Note:** This fie
 </table>    7.  Click **Submit**.
 2.  Integrate your ServiceNow instance with your third-party learning source accounts.
 
-<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d94715e319">
+<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d92507e319">
 
 To integrate with this third-party learning source
 
-</th><th align="left" id="d94715e322">
+</th><th align="left" id="d92507e322">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d94715e328">
+</th></tr></thead><tbody><tr><td id="d92507e328">
 
 **Pluralsight Skills account**
 
 </td><td>
 
-Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set up the Pluralsight spoke](https://www.servicenow.com/docs/access?context=setup-pluralsight-spk&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) to perform the integration.
+Use an API key to authenticate the ServiceNow requests. Follow the steps in Set up the Pluralsight spoke to perform the integration.
 
-</td></tr><tr><td id="d94715e341">
+</td></tr><tr><td id="d92507e341">
 
 **Cornerstone application**
 
 </td><td>
 
-Register an OAuth application in Cornerstone and authenticate requests from ServiceNow. Follow the steps in [Set up the Cornerstone spoke](https://www.servicenow.com/docs/access?context=setup-cornerstone&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) to perform the integration.
+Register an OAuth application in Cornerstone and authenticate requests from ServiceNow. Follow the steps in Set up the Cornerstone spoke to perform the integration.
 
-</td></tr><tr><td id="d94715e357">
+</td></tr><tr><td id="d92507e357">
 
 **Udemy application**
 
@@ -166,7 +167,7 @@ Register an OAuth application in Cornerstone and authenticate requests from Serv
     2.  For each of the following properties, set the value to **1638400**:
         -   com.glide.transform.json.max-partial-length
         -   com.snc.process\_flow.reporting.serialized.val\_size\_limit
-    For more information on these system properties, see [Coaching With Learning System Properties](https://www.servicenow.com/docs/access?context=components-installed-configurable-wfo-cs&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+    For more information on these system properties, see Coaching With Learning System Properties.
 
 3.  Activate schedule flows to integrate third-party learning content.
 
@@ -179,7 +180,7 @@ Register an OAuth application in Cornerstone and authenticate requests from Serv
     4.  Select each of the third-party learning sources and set the **Active** field to **true**.
     Schedule flows automatically run on a scheduled basis to synchronize third-party learning content into your ServiceNow instance.
 
-    For more information, see [configure the third-party integration sources](https://www.servicenow.com/docs/access?context=integration-source-coaching-with-learning-coaching-wfo-cs&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
+    For more information, see configure the third-party integration sources
 
 4.  After you configure the third-party integration sources, you can refresh the entire third-party content or synchronize new and updated services into your ServiceNow instance.
 
@@ -237,7 +238,7 @@ Pluralsight
 </table>
 ## What to do next
 
-[Add external courses to Coaching With Learning](https://www.servicenow.com/docs/access?context=coaching-configurable-wfo-cs&version=zurich&pubname=zurich-customer-service-management&section=integrate-external-courses-configurable-wfo-cs&ft:locale=en-US)
+Add external courses to Coaching With Learning
 
 ## External Content Integration Sources
 

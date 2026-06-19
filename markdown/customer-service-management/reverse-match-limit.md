@@ -2,7 +2,10 @@
 title: Limit the number of task sys\_ids returned for reverse matching rules
 description: Reverse matching rules return a list of case sys\_ids. Limit the number of cases returned by configuring the number in the reverse.matchingrule.entity.limit system property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/reverse-match-limit.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -32,5 +35,5 @@ Role required: admin
 
 If the number of cases returned is more than the value listed in the system property, the reverse matching rule doesn’t run for Scripted and Selection Criteria matching rules.
 
-**Parent Topic:**[Reverse matching](t_ReverseMatching.md)
+**Parent Topic:**[Reverse matching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_ReverseMatching.md)
 

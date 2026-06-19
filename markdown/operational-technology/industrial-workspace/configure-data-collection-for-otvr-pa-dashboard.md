@@ -2,6 +2,7 @@
 title: Configure the data collection for the Operational Technology Vulnerability Response \(PA\) dashboard
 description: Configure the data collection for the data shown on the Operational Technology Vulnerability Response \(PA\) dashboard. Scheduled jobs are automated pieces of work that can be performed at a specific time or on a recurring schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-workspace/configure-data-collection-for-otvr-pa-dashboard.html
 release: zurich
 product: Industrial Workspace
 classification: industrial-workspace
@@ -23,7 +24,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Data Collector** &gt; **Performance Analytics** &gt; **Jobs**.
 
-2.  Apply a filter by selecting the Show/hide filter \(![Show/hide filter icon in the table header.](../../mftg-manufacturing-oper-tech-mgr/image/show-hide-filter-icon.png)\) icon and add the following filters .
+2.  Apply a filter by selecting the Show/hide filter \(\[Omitted image "show-hide-filter-icon.png"\] Alt text: Show/hide filter icon in the table header.\) icon and add the following filters .
 
     -   `[Application] [is] [Operational Technology Vulnerability Response]`
     -   `[Class] [is] [Scheduled Data Collection]`
@@ -31,7 +32,7 @@ Role required: admin
 
     -   \[PA OT VR\] Historical Vulnerability Data Collection
 
-        **Note:** The \[PA OT VR\] Historical Vulnerability Data Collection job is an on-demand job that you only need to execute once. After the historical data is collected, the daily data collection jobs run on a scheduled time every day. For more information about historical data, see [Collect historical data](https://www.servicenow.com/docs/access?context=t_RunHistoricalDataCollection&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+        **Note:** The \[PA OT VR\] Historical Vulnerability Data Collection job is an on-demand job that you only need to execute once. After the historical data is collected, the daily data collection jobs run on a scheduled time every day. For more information about historical data, see .
 
     -   \[PA OT VR\] Daily Collection for Remediation Tasks
     -   \[PA OT VR\] Daily Collection for Vulnerable Items 1
@@ -56,7 +57,7 @@ The Operational Technology Vulnerability Response \(PA\) dashboard is now showin
 
 ## What to do next
 
-Now, you can review the indicator sources and determine if you need to override the default records collection. For more information, see [Review the indicator sources for a larger number of records](update-indicator-source-to-collect-more-records.md).
+Now, you can review the indicator sources and determine if you need to override the default records collection. For more information, see [Review the indicator sources for a larger number of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/update-indicator-source-to-collect-more-records.md).
 
-**Parent Topic:**[Setting up the Operational Technology Vulnerability Response \(PA\) dashboard](../../operational-technology-management/concept/setting-up-the-otvr-pa-dashboard.md)
+**Parent Topic:**[Setting up the Operational Technology Vulnerability Response \(PA\) dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/setting-up-the-otvr-pa-dashboard.md)
 

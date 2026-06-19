@@ -2,13 +2,14 @@
 title: Configure push notification \(Okta Verify\)
 description: Configure Okta Verify to receive push notifications for secure and convenient identity verification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/configure-okta-verify-push-notification.html
 release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
 last_updated: "2025-11-14"
 reading_time_minutes: 1
-breadcrumb: [Push notification - Okta verify, Configure authentication factors, Authentication factors, Authentication, Access Management]
+breadcrumb: [Push notification - Okta verify, Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
 ---
 
 # Configure push notification \(Okta Verify\)
@@ -34,7 +35,7 @@ The push notification authentication factor on **Okta** must be enabled. To lear
 
 3.  Select **Tokens**.
 
-    ![Okta Admin Console](../images/okta-admin-console.png "Okta Admin Console")
+    \[Omitted image "okta-admin-console.png"\] Alt text: Okta Admin Console
 
 4.  Select **Create** token to create token and copy its value.
 
@@ -44,7 +45,7 @@ The push notification authentication factor on **Okta** must be enabled. To lear
 
     For example, `<instance_url>/sys_alias.do?sys_id=692e16a0ffb72210d487ffffffffff1b`.
 
-    ![Connection & Credential Alias record](../images/okta-configuration-push.png "Connection & Credential Alias new record")
+    \[Omitted image "okta-configuration-push.png"\] Alt text: Connection &amp; Credential Alias record
 
 6.  Select **New** under the Connections tab.
 
@@ -53,22 +54,22 @@ The push notification authentication factor on **Okta** must be enabled. To lear
     -   Name
     -   Connection alias
     -   Connection URL
-    ![HTTP(s) Connections](../images/okta-configuration-push-1.png "HTTP(s) Connections details")
+    \[Omitted image "okta-configuration-push-1.png"\] Alt text: HTTP\(s\) Connections
 
 8.  Select the **Search** icon next to Credentials to add new **API Key Credentials**.
 
-    ![API Key Credentials](../images/okta-configuration-push-2.png "API Key Credentials selection")
+    \[Omitted image "okta-configuration-push-2.png"\] Alt text: API Key Credentials
 
 9.  Specify the **Name** and **API Key** on the API Key Credentials form.
 
     **Note:** The API key should be prefixed with ‘SSWS'. If the copied token value is `00iJ88ydm9ZLnDNE8AeGsmjcUC-ZFyCt3pts2pNTwZ` you must provide the value as `SSWS 00iJ88ydm9ZLnDNE8AeGsmjcUC-ZFyCt3pts2pNTwZ`.
 
-    ![API Key Credentials](../images/okta-configuration-push-3.png "API Key Credential details")
+    \[Omitted image "okta-configuration-push-3.png"\] Alt text: API Key Credentials
 
 10. Select **Submit** to submit the API Key Credentials.
 
 11. Select **Submit** on the Connection record.
 
-    ![HTTP(s) Connections record completion](../images/okta-configuration-push-4.png "HTTP(s) Connections record completion")
+    \[Omitted image "okta-configuration-push-4.png"\] Alt text: HTTP\(s\) Connections record completion
 
 

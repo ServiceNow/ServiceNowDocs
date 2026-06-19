@@ -2,6 +2,7 @@
 title: Provide interview feedback
 description: As a recruiter or recruitment coordinator, provide feedback for interviews that you're part of.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/interview-management/provide-interview-feedback-recruiter.html
 release: zurich
 product: Interview Management
 classification: interview-management
@@ -64,5 +65,5 @@ Role required: sn\_ta\_hiring\_core.recruiter or sn\_ta\_hiring\_core.recruitmen
     4.  Select **Submit**.
 
 
-**Parent Topic:**[Using Interview Management](../concept/using-interview-mgmnt.md)
+**Parent Topic:**[Using Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/interview-management/using-interview-mgmnt.md)
 

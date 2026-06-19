@@ -2,6 +2,7 @@
 title: AI Search Admin console reference
 description: Reference information for the AI Search Admin Console application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/ais-admin-console-reference.html
 release: zurich
 product: AI Search
 classification: ai-search

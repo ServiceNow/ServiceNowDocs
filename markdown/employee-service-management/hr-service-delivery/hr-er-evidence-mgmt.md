@@ -2,6 +2,7 @@
 title: Evidence Management for Employee Relations
 description: Use Evidence Management to capture and categorize evidence for Employee Relations or related cases.Set up HR Service Delivery Management so your agents can collect evidence and information related to Employee Relation \(ER\) cases.Create evidence types to catalog and organize employee relation evidence in an efficient and logical way to enhance your business processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-er-evidence-mgmt.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -21,7 +22,7 @@ Evidence is defined as any digital artifacts gathered as part of an investigatio
 
 Set up HR Service Delivery Management so your agents can collect evidence and information related to Employee Relation \(ER\) cases.
 
-You can activate Evidence Management \[com.sn\_evidence\_management\] plugin if you have the admin role. This plugin activates when the Human Resources Scoped App: Employee Relations \[com.sn\_hr\_employee\_realtions\] plugin is activated. For more information, see [Activate Employee Relations](../task/activate-hr-employee-relations.md#).
+You can activate Evidence Management \[com.sn\_evidence\_management\] plugin if you have the admin role. This plugin activates when the Human Resources Scoped App: Employee Relations \[com.sn\_hr\_employee\_realtions\] plugin is activated. For more information, see [Activate Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/activate-hr-employee-relations.md).
 
 ### Roles
 
@@ -108,7 +109,7 @@ Before you can add evidence to an ER case, you must set up evidence types. Evide
 -   SMS
 -   Video
 
-You can create additional evidence types. For more information, see [Create evidence types](hr-er-evidence-mgmt.md#).
+You can create additional evidence types. For more information, see [Create evidence types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-er-evidence-mgmt.md).
 
 ### Create evidence types
 

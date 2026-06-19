@@ -2,6 +2,7 @@
 title: Configure the chat to enable auto-import
 description: Create a chat configuration to automatically import the chats between the agents and the requesters for additional tables to extend the auto import functionality.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/configure-auto-import-chats.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -124,12 +125,12 @@ Option to provide a text message that displays to the agent when the agent initi
  This field is enabled only if the **Auto Import** option is selected.
 
 </td></tr></tbody>
-</table>    ![New chat configuration](../images/new-chat-configuration-2.png)
+</table>    \[Omitted image "new-chat-configuration-2.png"\] Alt text: New chat configuration
 
 6.  Click **Submit**.
 
     The chat configuration defined will be applicable only for the table selected. You can extend the chat configuration to other tables by creating another chat configuration record.
 
 
-**Parent Topic:**[Configure Request-based chats to import messages from Microsoft Teams to ServiceNow](../concept/auto-import-messages.md)
+**Parent Topic:**[Configure Request-based chats to import messages from Microsoft Teams to ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/auto-import-messages.md)
 

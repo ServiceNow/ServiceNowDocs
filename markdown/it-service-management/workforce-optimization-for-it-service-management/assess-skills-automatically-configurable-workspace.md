@@ -2,6 +2,7 @@
 title: Assess the quality of your agent's completed tasks
 description: Assess the ability of your agents to resolve incidents or the quality of their completed tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/assess-skills-automatically-configurable-workspace.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -23,7 +24,7 @@ Role required: sn\_coaching.coach
 
 ## About this task
 
-If the [coaching opportunity](../../cf-coaching/task/cf-create-coaching-opportunity.md) includes a survey, you can opt to take the survey and the assessment. When you use a survey to [assess a trainee](../../cf-coaching/task/cf-assess-trainee.md), the score for the survey is automatically calculated when you complete the survey. The assessment rating is then updated based on that score.
+If the [coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/coaching/cf-create-coaching-opportunity.md) includes a survey, you can opt to take the survey and the assessment. When you use a survey to [assess a trainee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/coaching/cf-assess-trainee.md), the score for the survey is automatically calculated when you complete the survey. The assessment rating is then updated based on that score.
 
 The Coaching Overview screen displays the average quality of the tasks that were completed in the past 30 days for your assignment groups.
 
@@ -37,15 +38,15 @@ The Coaching Overview screen displays the average quality of the tasks that were
 
 2.  Perform adhoc assessments or the ones triggered by coaching opportunities.
 
-<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d313237e109">
+<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d150553e109">
 
 To
 
-</th><th align="left" id="d313237e112">
+</th><th align="left" id="d150553e112">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d313237e118">
+</th></tr></thead><tbody><tr><td id="d150553e118">
 
 **Perform adhoc assessments**
 
@@ -53,11 +54,11 @@ Do this
 
 1.  Click the List icon.
 2.  Select any record, such as an incident or change request, for which you want to create an assessment.
-3.  Select the Assessments icon ![Coaching assessment icon](../image/coaching-assessment-icon.png). The assessment screen appears in the right panel.
+3.  Select the Assessments icon \[Omitted image "coaching-assessment-icon.png"\] Alt text: Coaching assessment icon. The assessment screen appears in the right panel.
 4.  Click the plus \(+\) icon.
 
 
-</td></tr><tr><td id="d313237e148">
+</td></tr><tr><td id="d150553e148">
 
 **Use assessments triggered by coaching opportunities**
 
@@ -167,5 +168,5 @@ Training to assign to the trainee.You can also assign learning tasks from course
     -   To complete the adhoc assessment, click **Save**.
     -   To complete assessments creating using coaching opportunities, click **Complete assessment**.
 
-**Parent Topic:**[Surveys in Workforce Optimization for ITSM](../concept/surveys-wfo-itsm.md)
+**Parent Topic:**[Surveys in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/surveys-wfo-itsm.md)
 

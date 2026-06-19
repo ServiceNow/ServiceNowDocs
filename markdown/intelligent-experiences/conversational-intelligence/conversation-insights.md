@@ -2,6 +2,7 @@
 title: Conversation Insights
 description: The ServiceNow Conversation Insights application is designed to deliver Inferred customer satisfaction \(CSAT\) scores, with underlying factors that can help improve CSAT actionability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/conversational-intelligence/conversation-insights.html
 release: zurich
 product: Conversational Intelligence
 classification: conversational-intelligence
@@ -22,15 +23,15 @@ Get started with Conversation Insights to integrate Inferred CSAT scores and fac
 
 <table id="table_u4v_4y5_xfc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about Conversation Insights](exploring-conversation-insights.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Conversation Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/conversational-intelligence/exploring-conversation-insights.md)
 
 </td><td>
 
-[Install![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Install Conversation Insights](install-conversation-insights.md)
+[Install\[Omitted image "bus-sdlc.svg"\] Alt text:Install Conversation Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/conversational-intelligence/install-conversation-insights.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Additional information about Conversation Insights](conversation-insights-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Additional information about Conversation Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/conversational-intelligence/conversation-insights-reference.md)
 
 </td></tr></tbody>
 </table>## AI limitations
@@ -43,5 +44,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](../../now-assist-admin/task/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/opt-out-of-data-sharing-for-now-assist.md).
 

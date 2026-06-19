@@ -2,6 +2,7 @@
 title: Create a Service Account and assign Roles
 description: Create a dedicated non-interactive Service Account in User Administration and assign the appropriate SQL API access role to enable secure, programmatic access for BI tools and analytics platforms.
 locale: en-us
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/create-service-account.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -99,7 +100,7 @@ Do not check this check box as this is a machine account. To set a password for 
     -   To access data via the ODBC driver, choose **sn\_odbc\_rest\_access**.
     -   To access data via the JDBC driver, choose **sn\_jdbc\_rest\_access**.
     -   To turn off row and field-level checks at the Service Account level, choose **sn\_sql\_api\_privileged\_mode**.
-    ![Selecting desired roles in the Collection list.](../image/sql-api-collection-list-roles.png)
+    \[Omitted image "sql-api-collection-list-roles.png"\] Alt text: Selecting desired roles in the Collection list.
 
     Make sure that service account has the required roles with read-access enabled on the desired tables.
 
@@ -108,7 +109,7 @@ Do not check this check box as this is a machine account. To set a password for 
 
 ## Result
 
-The Service Account is now created with the appropriate SQL API access role. This account can be used to authenticate ODBC or JDBC connections from BI tools and analytics platforms. The account will only be able to query tables for which explicit access has been granted through Access Control Lists \(ACLs\). See [Create Access Control Lists \(ACLs\) for SQL API](create-acls-sql-api.md).
+The Service Account is now created with the appropriate SQL API access role. This account can be used to authenticate ODBC or JDBC connections from BI tools and analytics platforms. The account will only be able to query tables for which explicit access has been granted through Access Control Lists \(ACLs\). See [Create Access Control Lists \(ACLs\) for SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/create-acls-sql-api.md).
 
-**Parent Topic:**[Configure SQL API plugin on your ServiceNow instance](configure-sql-api-overview.md)
+**Parent Topic:**[Configure SQL API plugin on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configure-sql-api-overview.md)
 

@@ -2,6 +2,7 @@
 title: Approve or reject the processing of custodial and non-custodial data
 description: Review and approve or reject the processing of a custodial or non-custodial record of a digital forensic request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/approve-reject-dft-request.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -25,7 +26,7 @@ The approval flow for permitting a digital forensic team member to access the cu
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Click the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, under **My Work**, click **Items Pending Approval**.
 
@@ -61,5 +62,5 @@ Reject
 -   The state of the legal request remains Assigned.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Managing digital forensics requests](../concept/managing-legal-dft-request.md)
+</table>**Parent Topic:**[Managing digital forensics requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/managing-legal-dft-request.md)
 

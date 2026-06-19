@@ -2,12 +2,13 @@
 title: Using Resource Management Workspace
 description: Create custom resource board views of persistent portfolios to view the current resource allocation and resource requests for all of your resources and work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/resource-management/using-rmw.html
 release: zurich
 product: Resource Management
 classification: resource-management
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 13
+reading_time_minutes: 14
 keywords: [resource assignments, resource management, resource allocation]
 breadcrumb: [Use, Resource Management Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -16,7 +17,7 @@ breadcrumb: [Use, Resource Management Workspace, Project Portfolio Management, S
 
 Create custom resource board views of persistent portfolios to view the current resource allocation and resource requests for all of your resources and work.
 
-Resource assignments from different planning workspaces are pulled into this dedicated view for Resource Managers to give you an overall work view. Resource Managers can access the dashboard to view the assignment details at high level and [create resource cards](../task/rmw-create-rsrc-card.md) to build persistent portfolios and view the resource allocations.
+Resource assignments from different planning workspaces are pulled into this dedicated view for Resource Managers to give you an overall work view. Resource Managers can access the dashboard to view the assignment details at high level and [create resource cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rmw-create-rsrc-card.md) to build persistent portfolios and view the resource allocations.
 
 Quickly create multiple portfolios using resource cards and navigate between these cards to work on the resource requests. Use the advanced condition builder to customize these portfolios based on the teams, attributes, groups, and so on, to view the resource allocation.
 
@@ -35,7 +36,7 @@ You can edit the dashboard based on:
 -   Primary attributes and date range selection.
 -   Add and edit widgets to the dashboard.
 
-![Dashboard view of Resource Management Workspace displaying the resource assignments stats.](../images/rmw-dashboard.png)
+\[Omitted image "rmw-dashboard.png"\] Alt text: Dashboard view of Resource Management Workspace displaying the resource assignments stats.
 
 The interactive dashboard creates a resource board for any selected data helping you to directly access the customized board view from the dashboard. For example, if you select the Unassigned tasks widget, this creates and navigates you to a resource board view with the list of unassigned tasks from the widget.
 
@@ -43,7 +44,7 @@ On the board view, you can get the drill down view of all the assigned assignmen
 
 By accessing these custom boards, Resource managers can assign and approve the assignments in reduced turn-around time, and enhancing productivity.
 
-![GIF showing the interactive dashboard selection navigating to resource board view.](../images/rmw-interactive-dashboard-gif.gif)
+\[Omitted image "rmw-interactive-dashboard-gif.gif"\] Alt text: GIF showing the interactive dashboard selection navigating to resource board view.
 
 <table id="table_am1_hdr_1fc"><thead><tr><th>
 
@@ -194,7 +195,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-![Green tick mark within a green circle indicating the resource allocation is within the available bandwidth.](../images/rmw-green-tick.png)
+\[Omitted image "rmw-green-tick.png"\] Alt text: Green tick mark within a green circle indicating the resource allocation is within the available bandwidth.
 
 </td><td>
 
@@ -202,7 +203,7 @@ Indicates that the resource allocation is within the available bandwidth.
 
 </td></tr><tr><td>
 
-![Red exclamation mark within a red triangle indication the resource is over-allocated.](../images/rmw-red-warning.png)
+\[Omitted image "rmw-red-warning.png"\] Alt text: Red exclamation mark within a red triangle indication the resource is over-allocated.
 
 </td><td>
 
@@ -210,7 +211,7 @@ Indicates that the resource is over allocated for the available bandwidth.
 
 </td></tr><tr><td>
 
-![Alphabet i in a circle representing group assignments.](../images/rmw-group-asgnmnt-icon.png)
+\[Omitted image "rmw-group-asgnmnt-icon.png"\] Alt text: Alphabet i in a circle representing group assignments.
 
 </td><td>
 
@@ -218,7 +219,7 @@ Indicates the work assignment is made for a group.
 
 </td></tr><tr><td>
 
-![Bell icon indicating changes to the approved resource assignment.](../images/rmw-bell-indicator.png)
+\[Omitted image "rmw-bell-indicator.png"\] Alt text: Bell icon indicating changes to the approved resource assignment.
 
 </td><td>
 
@@ -230,7 +231,7 @@ Indicates changes to start or end date, allocated hours, and so on, to the appro
 -   View the priority and state of the project, demand, or epic in the Priority and State columns in the resource board and allocate resources to priority or high-risk planning items.
 -   View the actual hours vs allocated hours for a task.
 
-    Enable the **Show actuals** toggle \(![Toggle button to view actual hours in Resource Management Workspace](../images/rmw-show-actuals-toggle.png)\) from the settings side panel \(![Gear icon to view or hide settings side panel.](../images/rmw-settings-panel-icon.png)\) to view the efforts captured for a task via time cards. Approved time cards are reflected in the resource board view as actual hours.
+    Enable the **Show actuals** toggle \(\[Omitted image "rmw-show-actuals-toggle.png"\] Alt text: Toggle button to view actual hours in Resource Management Workspace\) from the settings side panel \(\[Omitted image "rmw-settings-panel-icon.png"\] Alt text: Gear icon to view or hide settings side panel.\) to view the efforts captured for a task via time cards. Approved time cards are reflected in the resource board view as actual hours.
 
 -   Get insights about the resource allocations using the new heatmap modal.
 -   View or hide requested work in the lower tray using **Unassigned tasks** toggle.
@@ -239,13 +240,13 @@ Indicates changes to start or end date, allocated hours, and so on, to the appro
 
     **Note:** If you edit the allocations for any approved group assignment, a confirmation window appears. Once approved, the state is changed to Pending.
 
--   [Assign the unassigned](../task/allocate-resources-rmw.md) tasks.
--   [Approve or unapprove](../task/allocate-resources-rmw.md) the assigned tasks.
--   [Split a resource assignment](../task/split-resource-assignment-rmw.md) into two for one resource at the required date.
+-   [Assign the unassigned](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/allocate-resources-rmw.md) tasks.
+-   [Approve or unapprove](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/allocate-resources-rmw.md) the assigned tasks.
+-   [Split a resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/split-resource-assignment-rmw.md) into two for one resource at the required date.
 
-Once you access these resource cards, you get a similar view as the following example with extensive insights.![Resource Portfolio view depicting resource allocation and unassigned tasks.](../images/rmw-rsrc-portfolio-view.png)
+Once you access these resource cards, you get a similar view as the following example with extensive insights.\[Omitted image "rmw-rsrc-portfolio-view.png"\] Alt text: Resource Portfolio view depicting resource allocation and unassigned tasks.
 
-**Tip:** You can filter out or add required columns in the top and bottom tray of the resource board view using **Column config** \(![Column configuration settings.](../../alignment-planner-workspace/images/icon-column-config.png)\) settings.
+**Tip:** You can filter out or add required columns in the top and bottom tray of the resource board view using **Column config** \(\[Omitted image "icon-column-config.png"\] Alt text: Column configuration settings.\) settings.
 
 ## Personalize your resource board view
 
@@ -253,11 +254,11 @@ You can customize the resource board to personalize your view. These user prefer
 
 -   View or hide unassigned tasks
 
-    Use the **Unassigned tasks** \(![Unassigned tasks toggle.](../images/rmw-unassigned-tasks-toggle.png)\) toggle to view or hide the unassigned tasks in the bottom tray.
+    Use the **Unassigned tasks** \(\[Omitted image "rmw-unassigned-tasks-toggle.png"\] Alt text: Unassigned tasks toggle.\) toggle to view or hide the unassigned tasks in the bottom tray.
 
     The Unassigned tasks view, in the bottom tray, facilitates you to build a custom filter condition to view unassigned requests with details such as duration, breakdown view of requested efforts, requested work item and its parent item, owner or requester of the task. Use the filter condition builder to get a custom or focused view of the unassigned tasks.
 
-    ![Filter condition to view the current quarter's unassigned work for a specific resource.](../images/rmw-unassigned-work-filter-condition.png)
+    \[Omitted image "rmw-unassigned-work-filter-condition.png"\] Alt text: Filter condition to view the current quarter's unassigned work for a specific resource.
 
 -   Change effort type
 
@@ -269,7 +270,7 @@ You can customize the resource board to personalize your view. These user prefer
 
 -   View or hide columns
 
-    Use the column config option \(![Column configuration settings.](../../alignment-planner-workspace/images/icon-column-config.png)\) to view or hide any columns on the top tray or bottom tray of the resource board.
+    Use the column config option \(\[Omitted image "icon-column-config.png"\] Alt text: Column configuration settings.\) to view or hide any columns on the top tray or bottom tray of the resource board.
 
 
 ## Data grid filtering
@@ -280,7 +281,7 @@ Quick filters help you filter and build a personalized view to narrow down datas
 
 The resource allocation view in the top tray provides you with a nested view of the assigned work items rolling up to resource level and the resource allocation breakdown view based on the time-frame \(weekly or monthly\) and by work efforts \(hours, FTE, or person days\).
 
-Select the arrow \(![Right pointed arrow head to expand resource details icon.](../images/icon-expand-arrow.png)\) icon to get details at the individual task level \(epics, demands, and so on\) assigned to the resources. This helps you to get a breakdown view to understand:
+Select the arrow \(\[Omitted image "icon-expand-arrow.png"\] Alt text: Right pointed arrow head to expand resource details icon.\) icon to get details at the individual task level \(epics, demands, and so on\) assigned to the resources. This helps you to get a breakdown view to understand:
 
 -   Work assigned to a specific resource.
 -   The amount of time a resource is allocated to an individual task.
@@ -289,7 +290,7 @@ Select the arrow \(![Right pointed arrow head to expand resource details icon.](
 
 You can edit the resource assignments using the inline editing feature in the top-tray.
 
-The **Resource status** column helps you to easily identify any Pending \(![Yellow rectangular pending state icon.](../images/rmw-pending-state.png)\) or Unapproved \(![Pink rectangular unapproved state icon.](../images/rmw-unapproved-state.png)\) work items assigned to a resource.
+The **Resource status** column helps you to easily identify any Pending \(\[Omitted image "rmw-pending-state.png"\] Alt text: Yellow rectangular pending state icon.\) or Unapproved \(\[Omitted image "rmw-unapproved-state.png"\] Alt text: Pink rectangular unapproved state icon.\) work items assigned to a resource.
 
 **Note:** The status of the assigned work is rolled up to the resource level and the resource card level. If there are any pending or unassigned work items in the top tray, the rolled up status at resource level and card level shows Pending.
 
@@ -299,13 +300,13 @@ Allocation heatmap modal gives you an overview of the resource utilization to id
 
 The new heatmap modal gives you the following insights for a resource such as the assigned tasks with their respective project owner, resource status, efforts for each task, total utilization percentage for the approved tasks, and the remaining capacity.
 
-![Legend for resource allocation view.](../images/rmw-heatmap-legend.png)
+\[Omitted image "rmw-heatmap-legend.png"\] Alt text: Legend for resource allocation view.
 
-![Heatmap modal explaining different parameter values of resource allocation.](../images/rmw-allocation-modal.png "Allocation heatmap breakdown")
+\[Omitted image "rmw-allocation-modal.png"\] Alt text: Heatmap modal explaining different parameter values of resource allocation.
 
 From the preceding example, you can see the breakdown of the approved work items along with the rolled up efforts, Utilization percentage, and the Remaining capacity for the month of January 2025. The approved work is within the resource capacity as the remaining capacity is 120 hours. A Resource manager can use these insights to decide and allocate the pending work items to another resource with available effort.
 
-**Important:** Resource efforts calculations are driven by the `com.snc.resource_management.exclude_status_from_capacity` property. Admin can configure this property to calculate efforts for certain defined resource assignments only. For more information, see [Resource Management properties](../../resource-management/reference/r_ResourceProperties.md).
+**Important:** Resource efforts calculations are driven by the `com.snc.resource_management.exclude_status_from_capacity` property. Admin can configure this property to calculate efforts for certain defined resource assignments only. For more information, see [Resource Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/r_ResourceProperties.md).
 
 Using the `com.snc.resource_management.exclude_status_from_capacity` property, Resources managers can customize to view the resource assignments with a specific state in their workspace and what to view in the total allocation modal. For example, you can view resource assignments in either Approved, Unapproved, and Pending resource assignments, or the ones in Approved and Pending states only.
 
@@ -313,7 +314,7 @@ Once the property is set up, work items in a specific states to show up in the f
 
 When you group a resource board using the Group by option, the heatmap allocation modal for a group gives the following insights.
 
-![Allocation modal displaying utilization and remaining capacity for a resource group.](../images/rmw-grouped-allocation-modal.png)
+\[Omitted image "rmw-grouped-allocation-modal.png"\] Alt text: Allocation modal displaying utilization and remaining capacity for a resource group.
 
 For example, when you group a resource board by Primary Group to view the allocation heatmap modal of a group for January 2025, the following modal is displayed. This modal gives insights into the total overall allocation of different types of Resource statuses.
 
@@ -327,26 +328,36 @@ If you group the resource board by **Primary Group**, you see the list of primar
 
 Resource Managers can use this information to plan the resources and manage assignments.
 
-**Tip:** Grouping the resources based on the primary attributes helps Resource Managers to easily reassign the work as the primary attributes should match to reassign work. For more information on how to reassign a work, see [Reassign or unassign work using Resource Management Workspace](../task/rmw-reassign-unassign-work.md).
+**Tip:** Grouping the resources based on the primary attributes helps Resource Managers to easily reassign the work as the primary attributes should match to reassign work. For more information on how to reassign a work, see [Reassign or unassign work using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rmw-reassign-unassign-work.md).
 
-![Resource board grouped by Primary Group attribute.](../images/rmw-board-groupby-primary-group.png)
+\[Omitted image "rmw-board-groupby-primary-group.png"\] Alt text: Resource board grouped by Primary Group attribute.
 
--   **[Create a resource card](../task/rmw-create-rsrc-card.md)**  
+-   **[Create a resource card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rmw-create-rsrc-card.md)**  
 Create a custom resource card to view resources and unassigned tasks, and work on resource mapping for your persistent and focused portfolios.
--   **[Create resource assignments and operation resource assignments in Resource Management Workspace](../task/create-ra-rmw.md)**  
+-   **[Create resource assignments and operation resource assignments in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/create-ra-rmw.md)**  
 Create and assign resource assignments and operation resource assignments from Resource Management Workspace.
--   **[View, assign, and approve unassigned work using Resource Management Workspace](../task/allocate-resources-rmw.md)**  
+-   **[Copy a resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/copy-ra-rmw.md)**  
+Copy an existing resource assignment to create one with inherited values, then adjust the fields before submitting. This reduces repetitive data entry when similar assignments recur across plans.
+-   **[View unassigned tasks using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/view-unassigned-work-rmw.md)**  
+Filter unassigned tasks to view custom requests to match with your organization's priorities and planning, and assign them to resources.
+-   **[Assign unassigned work using Resource finder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/assign-resources-using-resource-finder.md)**  
+Assign resource using the AI suggestions which match the skill-set and primary attributes requirements.
+-   **[Assign and approve unassigned work using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/allocate-resources-rmw.md)**  
 Filter the unassigned work to view priority requests and assign them to resources. Quickly connect with the requester via Microsoft Teams to get additional insights and approve the assigned work using the inline editing feature.
--   **[Move a resource assignment](../task/move-ra-rmw.md)**  
+-   **[Extend or reduce duration of an assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/extend-reduce-assignment-time-rmw.md)**  
+Extend or reduce the duration of an assignment from the grid view in the Resource Management Workspace when the work duration shifts. The system updates the assignment dates and recalculates the allocated effort across the new date range based on the effort redistribution property.
+-   **[Edit allocated efforts for tasks with actual hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/edit-allocated-efforts-ra-rmw.md)**  
+Edit allocated efforts for tasks which have partial actual efforts logged directly from the grid view. This keeps reported time accurate without rolling back time entries through other channels.
+-   **[Move a resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/move-ra-rmw.md)**  
 Move a resource assignment to a different start and end dates depending on the availability of the resource.
--   **[Reassign or unassign work using Resource Management Workspace](../task/rmw-reassign-unassign-work.md)**  
+-   **[Reassign or unassign work using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rmw-reassign-unassign-work.md)**  
 Reassign or unassign any assigned work from the Resource Management Workspace. You can group the resource board by primary attributes to identify the resources with same primary attributes.
--   **[Split resource assignments using Resource Management Workspace](../task/split-resource-assignment-rmw.md)**  
+-   **[Split resource assignments using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/split-resource-assignment-rmw.md)**  
 Splitting a resource assignment at a specific date creates a resource assignment for the same user.
--   **[Manage resource allocations in Resource Management Workspace](../task/manage-resource-allocations-rmw.md)**  
+-   **[Manage resource allocations in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/manage-resource-allocations-rmw.md)**  
 Manage resource allocations to change efforts, start and end dates, extend and so on to adjust resources based on their availability and the priority of the tasks.
--   **[Export resource portfolio view to Excel or CSV format](../task/export-rmw-card-view.md)**  
+-   **[Export resource portfolio view to Excel or CSV format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/export-rmw-card-view.md)**  
 Export your resource portfolio view in Resource Management Workspace as Microsoft Excel or CSV format to review or share the resource status with stakeholders, even if they don't have access to your instance.
 
-**Parent Topic:**[Use resource assignments](use-resource-assignment.md)
+**Parent Topic:**[Use resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/use-resource-assignment.md)
 

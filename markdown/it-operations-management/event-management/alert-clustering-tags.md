@@ -2,6 +2,7 @@
 title: Create alert clustering tags
 description: Create streamlined alert correlations with alert clustering tags by grouping alerts that share identical or similar tags based on your configured match method. This reduces noise, enhances incident prioritization, and improves operational efficiency, enabling faster issue resolution and response times.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/alert-clustering-tags.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -25,7 +26,7 @@ Role required: evt\_mgmt\_admin
 
 2.  Click **New**.
 
-3.  Fill in the values on the [Event Management tag based alert clustering tag form](../reference/tag-based-alert-clustering-tag-form.md).
+3.  Fill in the values on the [Event Management tag based alert clustering tag form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/tag-based-alert-clustering-tag-form.md).
 
 4.  Select **Submit**.
 

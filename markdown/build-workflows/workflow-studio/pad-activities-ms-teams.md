@@ -2,6 +2,7 @@
 title: Microsoft Teams activities
 description: Enable agents and fulfillers to send direct messages and post in Microsoft Teams channels during a playbook run, via Workflow Data Fabric's Microsoft Teams spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/pad-activities-ms-teams.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -22,7 +23,7 @@ Enable agents and fulfillers to send direct messages and post in Microsoft Teams
 
 ## Inputs
 
-Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see [Dot-walking examples](https://www.servicenow.com/docs/access?context=dot-walking-examples&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see .
 
 <table id="table_zlc_4nc_35b"><thead><tr><th>
 
@@ -96,7 +97,7 @@ True/False
 
 </td><td>
 
-Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
+Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -163,5 +164,5 @@ Microsoft Teams user that the message is sent to.
 
 Your message posted in a Microsoft Teams channel or sent as a direct message.
 
-**Parent Topic:**[Interactive activities](../concept/interactive-activities.md)
+**Parent Topic:**[Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/interactive-activities.md)
 

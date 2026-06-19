@@ -2,13 +2,14 @@
 title: Extend your lease contract
 description: Extend your lease contract before the contract expires and avoid paying a penalty.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/extend-your-lease-contract.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Manage your expiring contracts for leased hardware assets, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage expiring lease contracts, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Extend your lease contract
@@ -39,7 +40,7 @@ After you choose to extend the lease contract of your asset, various Contract As
 
 6.  Change the **State** field to **Closed Complete**.
 
-    To take a lease action, you can follow any of the ways mentioned in [Manage your expiring contracts for leased hardware assets](manage-your-leased-hw-asts-expiring-contract.md).
+    To take a lease action, you can follow any of the ways mentioned in [Manage your expiring contracts for leased hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-your-leased-hw-asts-expiring-contract.md).
 
     The Purchase order and Purchase order lines are created. The **PO Type** field on the Purchase order line is automatically set to **Extension**. You can order the Purchase orders only after completing all the asset tasks that are associated with the items of the Purchase Order line.
 
@@ -74,5 +75,5 @@ After you choose to extend the lease contract of your asset, various Contract As
 
 A new contract is created with the start and end dates set as the extension start and end dates.
 
-**Parent Topic:**[Manage your expiring contracts for leased hardware assets](manage-your-leased-hw-asts-expiring-contract.md)
+**Parent Topic:**[Manage your expiring contracts for leased hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-your-leased-hw-asts-expiring-contract.md)
 

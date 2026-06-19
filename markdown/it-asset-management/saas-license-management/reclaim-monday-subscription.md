@@ -2,6 +2,7 @@
 title: Reclaim monday.com user subscriptions in Software Asset Management classic
 description: Reclaim unused monday.com subscriptions to reduce your total software costs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/saas-license-management/reclaim-monday-subscription.html
 release: zurich
 product: SaaS License Management
 classification: saas-license-management
@@ -43,7 +44,7 @@ The SaaS License Management monday.com integration doesn’t support reclamation
 
 2.  Deactivate the associated users on your monday.com account.
 
-    Based on the list of removal candidates that you identified in [step 1](reclaim-monday-subscription.md#identify-removal-candidate), you can reclaim user subscriptions by deactivating the associated users on your monday.com account.
+    Based on the list of removal candidates that you identified in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/reclaim-monday-subscription.md), you can reclaim user subscriptions by deactivating the associated users on your monday.com account.
 
     1.  From a web browser, go to [monday.com](https://monday.com/).
 
@@ -59,7 +60,7 @@ The SaaS License Management monday.com integration doesn’t support reclamation
 
     5.  From the list of users, select the ellipsis icon \(…\) for the user that you want to deactivate.
 
-        You can identify which user you want to deactivate based on the associated user name or email address. The user name or email address corresponds directly to the user principal name of each removal candidate that you identified in [step 1](reclaim-monday-subscription.md#identify-removal-candidate).
+        You can identify which user you want to deactivate based on the associated user name or email address. The user name or email address corresponds directly to the user principal name of each removal candidate that you identified in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/reclaim-monday-subscription.md).
 
     6.  When prompted, select **Deactivate user**.
 
@@ -75,7 +76,7 @@ The SaaS License Management monday.com integration doesn’t support reclamation
 
     4.  On the Software Model form, select the **Reclamation Candidates** related tab.
 
-    5.  From the list of available removal candidates, select the removal candidate number \(RCCxxxxxxx\) for a user that you deactivated in [step 2](reclaim-monday-subscription.md#remove-user).
+    5.  From the list of available removal candidates, select the removal candidate number \(RCCxxxxxxx\) for a user that you deactivated in [step 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/reclaim-monday-subscription.md).
 
     6.  On the Removal Candidate form, update the state of the removal candidate by selecting **Closed Skipped**.
 
@@ -88,5 +89,5 @@ The SaaS License Management monday.com integration doesn’t support reclamation
     2.  Verify the user deletion in the Software Subscriptions \[samp\_sw\_subscription\] table.
 
 
-**Parent Topic:**[Reclaim user subscriptions in Software Asset Management classic](reclaim-user-subscription-saas-classic.md)
+**Parent Topic:**[Reclaim user subscriptions in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/reclaim-user-subscription-saas-classic.md)
 

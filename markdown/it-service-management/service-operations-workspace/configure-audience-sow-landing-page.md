@@ -2,6 +2,7 @@
 title: Configure the audience for the SOW landing page
 description: Define who can access your SOW landing pages. You can targeted experiences for audiences such as agents and managers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/configure-audience-sow-landing-page.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -21,7 +22,7 @@ Role required: sn\_sow\_admin.sn\_sow\_admin or admin
 
 ## About this task
 
-You can configure the audiences that define who can access the SOW landing pages. For information about audiences, see [Learn about audiences](https://www.servicenow.com/docs/access?context=add-audiences&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+You can configure the audiences that define who can access the SOW landing pages. For information about audiences, see .
 
 By default, the SOW landing page is associated with the following audiences. To access SOW, a user must align with the following criteria.
 

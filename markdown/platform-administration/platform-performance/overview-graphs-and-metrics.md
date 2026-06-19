@@ -2,6 +2,7 @@
 title: Application Insights overview graphs and metrics
 description: The Application Insights overview graphs provide consolidated views of key metrics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-performance/overview-graphs-and-metrics.html
 release: zurich
 product: Platform Performance
 classification: platform-performance
@@ -15,7 +16,7 @@ breadcrumb: [Working with Application Insights graphs, Application Insights, Mon
 
 The Application Insights overview graphs provide consolidated views of key metrics.
 
-Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the [Overview of Instance Observer](https://www.servicenow.com/docs/access?context=io-overview&version=zurich&pubname=zurich-impact&ft:locale=en-US) product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
+Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the  product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -139,5 +140,5 @@ Semaphore AMB Receive
 Average number of transactions in the AMB Receive semaphore queue and total number of transactions rejected across all nodes
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Working with Application Insights graphs](working-with-application-insights-graphs.md)
+</table>**Parent Topic:**[Working with Application Insights graphs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/working-with-application-insights-graphs.md)
 

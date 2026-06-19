@@ -2,6 +2,7 @@
 title: Add adhoc approvers to a case
 description: Provide your agents with the flexibility to add adhoc approvers to a case that is part of an HR service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/add-approvers-cm.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -90,5 +91,5 @@ Any other information that you want to share with the approvers.
 </table>5.  Click **Send for approval**.
 
 
-**Parent Topic:**[Work an HR case](t_CreateAnHRCase.md)
+**Parent Topic:**[Work an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateAnHRCase.md)
 

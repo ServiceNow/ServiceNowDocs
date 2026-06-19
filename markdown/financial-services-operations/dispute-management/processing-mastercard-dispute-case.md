@@ -2,6 +2,7 @@
 title: Processing a Mastercard dispute
 description: You can view all the transactions of the dispute in the Processing stage of the playbook. This stage provides transaction information such as dispute amount, transaction date and time, merchant name, transaction state, current activity, and activity SLA.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/processing-mastercard-dispute-case.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -17,7 +18,7 @@ You can view all the transactions of the dispute in the **Processing** stage of 
 
 After a dispute case is submitted, each disputed transaction is displayed in a **Dispute Workspace**. The dispute transaction progresses through these stages: **Investigate**, **Chargeback**, and **Closure**. As the dispute proceeds, the appropriate stage is updated accordingly. To open a transaction in the **Dispute Workspace**, select the transaction number.
 
-![The transactions are displayed in the Dispute Workspace](../image/mastercard-dispute-workspace.png "Dispute workspace")
+\[Omitted image "mastercard-dispute-workspace.png"\] Alt text: The transactions are displayed in the Dispute Workspace
 
 -   Each transaction progresses through a series of steps, during which a corresponding sequence of tasks is generated. The tasks are displayed in **Tasks**.
 -   The **Open** tab displays the tasks open along with the SLA and State.
@@ -27,10 +28,10 @@ After a dispute case is submitted, each disputed transaction is displayed in a *
 -   The dispute transaction and financial transaction details are displayed in **Disputed transaction details** and **Financial transaction details** widget.
 -   The **Attachments** displays files attached to the case.
 
--   **[About Financial adjustments in Mastercard disputes](financial-adjustments.md)**  
+-   **[About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/financial-adjustments.md)**  
 Financial adjustments are tasks or activities displayed based on the policy of the transaction. In Mastercard, there are two types of financial adjustments: Financial adjustments 1 and Financial adjustments 2.
--   **[Chargeback in Mastercard transaction disputes](chargeback-stage-mastercard.md)**  
+-   **[Chargeback in Mastercard transaction disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/chargeback-stage-mastercard.md)**  
 After a chargeback is initiated, the chargeback request is sent to Mastercard, which alerts the merchant. Mastercard requests collaboration from merchants, who either provide a voucher, refund, or First-Party Trust evidence as response. If the merchant doesn’t respond, the process escalates to formal chargeback procedures.
 
-**Parent Topic:**[Managing disputes integrated with Mastercard](work-on-disputes-integrated-with-mc.md)
+**Parent Topic:**[Managing disputes integrated with Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/work-on-disputes-integrated-with-mc.md)
 

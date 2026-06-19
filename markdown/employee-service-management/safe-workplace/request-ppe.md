@@ -2,6 +2,7 @@
 title: Request PPE
 description: Use Service Catalog to request personal protective equipment \(PPE\) for you to use at your workplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/request-ppe.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace
@@ -36,5 +37,5 @@ Role required: sn\_imt\_ppe.ppe\_admin
 
 View the status of your request by navigating to **PPE Inventory Management** &gt; **My Requests**.
 
-**Parent Topic:**[Workplace PPE Inventory Management](../concept/ppe-inventory-management.md)
+**Parent Topic:**[Workplace PPE Inventory Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/ppe-inventory-management.md)
 

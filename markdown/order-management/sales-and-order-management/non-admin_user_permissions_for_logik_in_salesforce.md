@@ -2,6 +2,7 @@
 title: Assigning non-Admin user permissions for ServiceNow CPQ in Salesforce
 description: You need to apply certain user permissions in Salesforce in order to use ServiceNow CPQ properly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/non-admin\_user\_permissions\_for\_logik\_in\_salesforce.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -64,7 +65,7 @@ For issues specifically with reconfiguration, make sure that the user has the co
 
 To check whether the user has the necessary permissions for these fields, go to Settings &gt; Object Manager &gt; \[Object\] &gt; Fields &amp; Relationships &gt; \[Committed Configuration ID/Configuration ID\] &gt; Set Field-Level Security and check whether the "Visible" checkbox is checked for Field-Level Security for Profile of the user.
 
-![Product Options](../images/cpq-product-option-page.png)
+\[Omitted image "cpq-product-option-page.png"\] Alt text: Product Options
 
 The full list of objects and fields contained in the ServiceNow CPQ packages can be found by navigating to SFDC Setup and searching for "Installed Packages". "ServiceNow CPQ Managed Package" is used for parts of our SFDC Integration and custom objects, while ServiceNow CPQ Extension for Salesforce CPQ" contains the fields used in the standard user flow.
 

@@ -2,6 +2,7 @@
 title: Release Management
 description: The ServiceNow Release Management v2 application encompasses the planning, design, build, configuration, and testing of hardware and software releases to create a defined set of release components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/release-management/c\_ITILReleaseManagement.html
 release: zurich
 product: Release Management
 classification: release-management
@@ -19,29 +20,29 @@ The ServiceNow® Release Management v2 application encompasses the planning, des
 
 <table id="table_tfq_nff_jgc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about how Release Management v2 help you manage the release process for delivering products and services.](exploring-release-management.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how Release Management v2 help you manage the release process for delivering products and services.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/release-management/exploring-release-management.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Plan and configure your releases.](configuring-release-management.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your releases.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/release-management/configuring-release-management.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Manage products, product hierarchy, and releases.](c_Release.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Manage products, product hierarchy, and releases.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/release-management/c_Release.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about components such as roles, tables, and plugins that are installed.](reference-release-management.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components such as roles, tables, and plugins that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/release-management/reference-release-management.md)
 
 </td></tr></tbody>
-</table>-   **[Exploring Release Management](exploring-release-management.md)**  
+</table>-   **[Exploring Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/release-management/exploring-release-management.md)**  
 Learn about Release Management that helps you in managing hardware and software releases to create a defined set of release components.
--   **[Configuring Release Management v2](configuring-release-management.md)**  
+-   **[Configuring Release Management v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/release-management/configuring-release-management.md)**  
 Plan and configure the Release Management application.
--   **[Using Release Management v2](c_Release.md)**  
+-   **[Using Release Management v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/release-management/c_Release.md)**  
 The Release Management v2 plugin \(com.snc.release\_management\_v2\) provides release tables which store information about the planned release and tasks that are required to execute the release.
--   **[Release Management v2 reference](reference-release-management.md)**  
+-   **[Release Management v2 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/release-management/reference-release-management.md)**  
 Reference topics provide additional information about the lists and forms that you use to configure and administer Digital Product Release \(DPR\).
 
-**Parent Topic:**[IT Service Management](../../it-service-management/reference/r_ITServiceManagement.md)
+**Parent Topic:**[IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/r_ITServiceManagement.md)
 

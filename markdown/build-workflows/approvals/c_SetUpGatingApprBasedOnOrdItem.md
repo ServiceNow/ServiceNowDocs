@@ -2,6 +2,7 @@
 title: Set up a gating approval based on the item being ordered
 description: In addition to adding approvals via approval rules, you can also add approvals based on what kind of item is being ordered.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/approvals/c\_SetUpGatingApprBasedOnOrdItem.html
 release: zurich
 product: Approvals
 classification: approvals
@@ -15,7 +16,7 @@ breadcrumb: [Gating approvals, Approval rules, Classic approvals, Build workflow
 
 In addition to adding approvals via approval rules, you can also add approvals based on what kind of item is being ordered.
 
-**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](../../flow-designer/reference/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
+**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
 
 In addition to adding approvals via approval rules, you can also add approvals based on what kind of item is being ordered. We can, for example, specify that all Blackberrys need to be approved by David Loo.
 
@@ -24,7 +25,7 @@ To do so, navigate to the item in question and scroll to the related list of req
 -   **Approved By Group**: A list of groups that have to approve requests for this item
 -   **Approved By**: A list of users who have to approve requests for this item
 
-![Approve list](../image/ApproveList.png "Approve list")
+\[Omitted image "ApproveList.png"\] Alt text: Approve list
 
 In the example above, this request must be approved by all members of the Hardware group and by David Loo.
 

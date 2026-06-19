@@ -2,6 +2,7 @@
 title: Properties of the Mouse components
 description: Learn about the properties of the Mouse components in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/util-mouse-prop.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -22,5 +23,5 @@ Learn about the properties of the Mouse components in RPA Desktop Design Studio.
 |Enable Timeout|Option to set a timeout value.|
 |Timeout|Number of seconds that the operation ends after if not completed. To apply this value, you must set the **Enable Timeout** property.|
 
-**Parent Topic:**[Mouse](../concept/mouse-utility.md)
+**Parent Topic:**[Mouse](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/mouse-utility.md)
 

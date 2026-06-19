@@ -2,6 +2,7 @@
 title: Establish a connection using certificates
 description: Establish a connection between newly created Microsoft Teams graph application using certificates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/establish-a-connection-using-certificates.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -29,17 +30,17 @@ Role required: admin
 
     **Note:** This template contains the delegated API permission required for the MSTeams integration.
 
-4.  From the Related Links section, click Create **New Connection &amp; Credential**.
+4.  From the Related Links section, select Create **New Connection &amp; Credential**.
 
-<table id="choicetable_pnx_jpr_gwb"><thead><tr><th align="left" id="d267449e92">
-
- 
-
-</th><th align="left" id="d267449e94">
+<table id="choicetable_pnx_jpr_gwb"><thead><tr><th align="left" id="d198814e92">
 
  
 
-</th></tr></thead><tbody><tr><td id="d267449e99">
+</th><th align="left" id="d198814e94">
+
+ 
+
+</th></tr></thead><tbody><tr><td id="d198814e99">
 
 **Name**
 
@@ -47,7 +48,7 @@ Role required: admin
 
 Any unique Name.
 
-</td></tr><tr><td id="d267449e108">
+</td></tr><tr><td id="d198814e108">
 
 **Connection URL**
 
@@ -55,7 +56,7 @@ Any unique Name.
 
 Connection URL. For example, https://graph.microsoft.com
 
-</td></tr><tr><td id="d267449e117">
+</td></tr><tr><td id="d198814e117">
 
 **API Version**
 
@@ -63,7 +64,7 @@ Connection URL. For example, https://graph.microsoft.com
 
 Version of the API. For example, v1.0
 
-</td></tr><tr><td id="d267449e126">
+</td></tr><tr><td id="d198814e126">
 
 **Authorization URL**
 
@@ -71,7 +72,7 @@ Version of the API. For example, v1.0
 
 https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/authorize
 
-</td></tr><tr><td id="d267449e136">
+</td></tr><tr><td id="d198814e136">
 
 **Token URL**
 
@@ -79,7 +80,7 @@ https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/authorize
 
 https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/token
 
-</td></tr><tr><td id="d267449e145">
+</td></tr><tr><td id="d198814e145">
 
 **Token Revocation URL**
 
@@ -87,7 +88,7 @@ https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/token
 
 https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/revoke
 
-</td></tr><tr><td id="d267449e154">
+</td></tr><tr><td id="d198814e154">
 
 **OAuth Client ID**
 
@@ -95,7 +96,7 @@ https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/revoke
 
 Client ID.
 
-</td></tr><tr><td id="d267449e163">
+</td></tr><tr><td id="d198814e163">
 
 **OAuth Client Secret**
 
@@ -104,7 +105,7 @@ Client ID.
 You can enter any value. **Note:** This is not important as you will be using the certificate-based authentication.
 
 </td></tr></tbody>
-</table>5.  Click **Create and Get Oauth Token**.
+</table>5.  Select **Create and Get Oauth Token**.
 
     An error message is displayed prompting 401- unauthorised.
 
@@ -124,12 +125,12 @@ You can enter any value. **Note:** This is not important as you will be using th
 
 12. Open the record **MSIM Microsoft Teams Connector Credential**.
 
-13. From Related Links, click **Get OAuth Token**.
+13. From Related Links, select **Get OAuth Token**.
 
     On success, the following API permissions are added to the Azure application.
 
-    ![API Permissions - MS Teams](../image/api-permissions-msteams.png)
+    \[Omitted image "api-permissions-msteams.png"\] Alt text: API Permissions - MS Teams
 
 
-**Parent Topic:**[Using Certificates for authentication](using-certificates-for-authentication.md)
+**Parent Topic:**[Using Certificates for authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/using-certificates-for-authentication.md)
 

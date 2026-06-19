@@ -2,7 +2,10 @@
 title: Configure Azure DevOps story integration
 description: Perform the following procedure to configure your Azure DevOps integration options.The following best practices are guidelines for creating Azure DevOps integration scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/configure-azure-devops-integration-options.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-11-04"
 reading_time_minutes: 1

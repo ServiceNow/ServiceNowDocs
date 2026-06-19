@@ -2,6 +2,7 @@
 title: Perform a questionnaire-based post incident review
 description: You may decide that a post incident review of the security incident is warranted. A post incident review describes what happened, helps to determine why the incident occurred, and identifies how it can be avoided or handled in the future.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/t\_PerformPostIncidentReview.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -37,7 +38,7 @@ To start a post incident review:
 
 ## Procedure
 
-1.  [Create a security incident](../concept/si-creation.md), or open an existing one by navigating to **Security Incident** &gt; **Incidents** &gt; **Assigned to Me \(or Assigned to Team or Unassigned Incidents\)**.
+1.  [Create a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/si-creation.md), or open an existing one by navigating to **Security Incident** &gt; **Incidents** &gt; **Assigned to Me \(or Assigned to Team or Unassigned Incidents\)**.
 
 2.  Click the **Post Incident Review** tab.
 
@@ -47,11 +48,11 @@ To start a post incident review:
 
 4.  When you have completed your entries, click the lock icon to lock the field.
 
-    **Note:** You can also define conditions which, when met in a security incident, can cause specific users to be automatically added to the **Request assessments** field for that security incident. For example, when a security incident **Category** is changed to **Phishing**, specific individuals who have expertise in phishing threats can be added to the post incident review list. For more information, see [Create post incident review assignment rules](create-pir-assignment-rules.md).
+    **Note:** You can also define conditions which, when met in a security incident, can cause specific users to be automatically added to the **Request assessments** field for that security incident. For example, when a security incident **Category** is changed to **Phishing**, specific individuals who have expertise in phishing threats can be added to the post incident review list. For more information, see [Create post incident review assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/create-pir-assignment-rules.md).
 
 5.  Click **Update**.
 
-    When the incident goes into the **Review** state \(or immediately, if it is already in the **Review** state\), each of the users in the review list receives an initial [email notification](https://www.servicenow.com/docs/access?context=r_AssessmentNotifications&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US). Reminders are sent as the due date nears. When each user accesses the questionnaire from the email link or by going to **Post Incident Review** &gt; **My Pending Reviews**, the questions shown are drawn from all categories that fit this security incident. If new users are added to the review list before the due date is reached, they are sent notifications when the security incident is saved.
+    When the incident goes into the **Review** state \(or immediately, if it is already in the **Review** state\), each of the users in the review list receives an initial email notification. Reminders are sent as the due date nears. When each user accesses the questionnaire from the email link or by going to **Post Incident Review** &gt; **My Pending Reviews**, the questions shown are drawn from all categories that fit this security incident. If new users are added to the review list before the due date is reached, they are sent notifications when the security incident is saved.
 
     As users complete their questionnaires, the post incident report compiles the data and displays the report in the **Post Incident Review** tab. The questionnaire data is displayed in the **Findings** tab.
 

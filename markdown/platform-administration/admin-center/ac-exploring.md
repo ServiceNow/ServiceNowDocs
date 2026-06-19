@@ -2,6 +2,7 @@
 title: Exploring Admin Center
 description: Admin Center gives a centralized control of the instance to the admins with easy access to the platform capabilities, applications, and configurable admin dashboards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/admin-center/ac-exploring.html
 release: zurich
 product: Admin Center
 classification: admin-center
@@ -31,22 +32,22 @@ Admin Center has the following users.
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Explore all the key applications via the **Admin**menu|[Admin Center summary](ac-overview.md)|System administrator|
-|Manage and track all your administrative work within a single page|[Admin Home](ac-administer-admin-home.md#)|System administrator|
-|Access all the applications and features available to you to achieve business goals via Adoption Blueprints|[Adoption blueprints](ac-achieve-business-objective.md)|System administrator|
-|Zoom-in into relevant applications and information on a single-page experience via Configuration Hub|[Configuration Hub](ac-configuration-hub.md)|System administrator|
+|Explore all the key applications via the **Admin**menu|[Admin Center summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-overview.md)|System administrator|
+|Manage and track all your administrative work within a single page|[Admin Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-administer-admin-home.md)|System administrator|
+|Access all the applications and features available to you to achieve business goals via Adoption Blueprints|[Adoption blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-achieve-business-objective.md)|System administrator|
+|Zoom-in into relevant applications and information on a single-page experience via Configuration Hub|[Configuration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-configuration-hub.md)|System administrator|
 
 ## What to explore next
 
 To learn more about using Admin Center, see:
 
--   [Administering Admin Home](ac-administer-admin-home.md#)
--   [Discovering adoption blueprints](ac-discover-ab.md)
--   [Configuration Hub](ac-configuration-hub.md)
--   [Admin Center references](ac-reference.md)
+-   [Administering Admin Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-administer-admin-home.md)
+-   [Discovering adoption blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-discover-ab.md)
+-   [Configuration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-configuration-hub.md)
+-   [Admin Center references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-reference.md)
 
--   **[Admin Center summary](ac-overview.md)**  
+-   **[Admin Center summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-overview.md)**  
 If you are new to Admin Center, read this summary to learn what the product can do.
 
-**Parent Topic:**[Admin Center](admin-center-intro.md)
+**Parent Topic:**[Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/admin-center-intro.md)
 

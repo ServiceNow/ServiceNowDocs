@@ -2,6 +2,7 @@
 title: Conversational Analytics dashboard reference
 description: Reference topics provide descriptions about the Conversational Analytics dashboard roles and system parameters to configure the dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/conversational-analytics-dashboard-reference-pae.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -15,12 +16,12 @@ breadcrumb: [Conversational Analytics dashboard, Analyze VA performance, Virtual
 
 Reference topics provide descriptions about the Conversational Analytics dashboard roles and system parameters to configure the dashboard.
 
--   **[Conversational Analytics dashboard roles](conversational-analytics-dashboard-roles-pae.md#)**  
+-   **[Conversational Analytics dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversational-analytics-dashboard-roles-pae.md)**  
 Conversational Analytics dashboard is installed with these roles.
--   **[System property configuration](config-sys-parameters-pae.md)**  
+-   **[System property configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/config-sys-parameters-pae.md)**  
 Use system properties to configure the functionality of the Conversational Analytics dashboard.
--   **[Domain separation and Conversational Analytics](conversational-analytics-and-domain-separation.md)**  
+-   **[Domain separation and Conversational Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversational-analytics-and-domain-separation.md)**  
 Domain separation is supported in Conversational Analytics dashboard. Domain separation enables you to separate data into logical groupings called domains. You can control several aspects of this application, including which users can see and access data.
 
-**Parent Topic:**[Conversational Analytics dashboard](VA-dashboard-landing-page-pae.md)
+**Parent Topic:**[Conversational Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/VA-dashboard-landing-page-pae.md)
 

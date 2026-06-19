@@ -2,6 +2,7 @@
 title: Synchronizing alert response with automated alert grouping
 description: Synchronize alert response with grouping by ensuring alert management jobs runs after alert grouping jobs—this prevents duplicate actions like incident creation on secondary alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/coordinating-alert-response-with-automated-alert-grouping.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -49,5 +50,5 @@ By default, the alert grouping job \(**Service Analytics group alerts using RCA/
 9.  Select **Update**.
 
 
-**Parent Topic:**[Alert management rules for resolving alerts](../concept/alert-management-rule.md)
+**Parent Topic:**[Alert management rules for resolving alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/alert-management-rule.md)
 

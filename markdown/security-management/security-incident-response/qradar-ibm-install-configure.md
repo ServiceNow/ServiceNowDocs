@@ -2,6 +2,7 @@
 title: Install and configure the ServiceNow application for the IBM QRadar offense ingestion integration
 description: Before you run the integration on your ServiceNow AI Platform instance, complete these installation and configuration steps so the application properly integrates with the Security Incident Response and Security Operations products on your ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/qradar-ibm-install-configure.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -21,7 +22,7 @@ Role required: sn\_si.admin
 
 ## Procedure
 
-1.  If you have not installed the IBM QRadar application from the ServiceNow Store for the integration, see [Install a Security Operations integration](../../../security-incident-response/task/install-non-core-apps.md) and follow the steps to install it.
+1.  If you have not installed the IBM QRadar application from the ServiceNow Store for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/install-non-core-apps.md) and follow the steps to install it.
 
 2.  After you have successfully installed the application, navigate to **Integrations** &gt; **Integrations Configurations** and locate the IBM QRadar tile.
 
@@ -31,15 +32,15 @@ Role required: sn\_si.admin
 
 5.  In the **Offense Ingestions Configuration** dialog that is displayed, fill in the fields.
 
-<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d210572e154">
+<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d204408e154">
 
 Field
 
-</th><th align="left" id="d210572e157">
+</th><th align="left" id="d204408e157">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d210572e163">
+</th></tr></thead><tbody><tr><td id="d204408e163">
 
 **Name**
 
@@ -47,7 +48,7 @@ Description
 
 Name of the IBM QRadar console or the IBM QRadar instance used for the integration.Spaces are supported for names, but parentheses are not supported.
 
-</td></tr><tr><td id="d210572e181">
+</td></tr><tr><td id="d204408e181">
 
 **IBM QRadar API Base URL**
 
@@ -55,7 +56,7 @@ Name of the IBM QRadar console or the IBM QRadar instance used for the integrati
 
 Host URL for your IBM QRadar instance.**Note:** You need to enter only the URL and the port number here. For example, https://ibm-qradar.com:8443. If the port number is 443, it need not be explicitly entered.
 
-</td></tr><tr><td id="d210572e196">
+</td></tr><tr><td id="d204408e196">
 
 **IBM QRadar Dashboard URL**
 
@@ -65,7 +66,7 @@ The URL for the IBM QRadar dashboard or the console. This URL is used to auto co
 
  **Note:** If the dashboard URL is not available, enter the IBM QRadar API Base URL here.
 
-</td></tr><tr><td id="d210572e220">
+</td></tr><tr><td id="d204408e220">
 
 **IBM QRadar API Version**
 
@@ -73,7 +74,7 @@ The URL for the IBM QRadar dashboard or the console. This URL is used to auto co
 
 Version 10 and above are supported.
 
-</td></tr><tr><td id="d210572e233">
+</td></tr><tr><td id="d204408e233">
 
 **IBM QRadar API Authorized Service Token \(on premises\)**
 
@@ -89,7 +90,7 @@ The IBM QRadar authorized service token is used for authentication. The authoriz
 -   Click **Add Authorized Service** and create a token with the user role and security profile. Ensure that you specify an expiry date for a long validity period.
 
 
-</td></tr><tr><td id="d210572e301">
+</td></tr><tr><td id="d204408e301">
 
 **IBM QRadar API Authorized Service Token \(for QRoC\)**
 
@@ -97,7 +98,7 @@ The IBM QRadar authorized service token is used for authentication. The authoriz
 
 If you are using IBM QRadar on Cloud \(QRoC\), use the self service application to generate the authorized service token with admin user role and admin security profile for authentication.
 
-</td></tr><tr><td id="d210572e313">
+</td></tr><tr><td id="d204408e313">
 
 **On Premises Deployment**
 
@@ -107,7 +108,7 @@ Default is disabled. If this option is enabled, you must specify a MID Applicati
 
  If you are using IBM QRadar on Cloud \(QRoC\), verify that the check box is cleared.
 
-</td></tr><tr><td id="d210572e331">
+</td></tr><tr><td id="d204408e331">
 
 **MID Application Name**
 
@@ -116,7 +117,7 @@ Default is disabled. If this option is enabled, you must specify a MID Applicati
 Specify a MID Server Application that is set up in your environment. If you do not have a Mid Server Application configured,you must create a new MID Server application for this integration. **Note:** The MID Server Application can be configured only by users with system administrator role.
 
 </td></tr></tbody>
-</table>    ![Minimum User Roles](../image/ibm-qradar-min-roles.png "Minimum User Roles")
+</table>    \[Omitted image "ibm-qradar-min-roles.png"\] Alt text: Minimum User Roles
 
     To create a new MID Server Application, follow these steps:
 
@@ -124,12 +125,12 @@ Specify a MID Server Application that is set up in your environment. If you do n
     -   Enter a name for the MID Server Application and select a MID Server to be used as the default.
     -   Deselect the Included in application ALL check box and click **Save**.
 
-        ![IBM QRadar: Configure MID server](../image/ibm-qradar-config-midserver.png)
+        \[Omitted image "ibm-qradar-config-midserver.png"\] Alt text: IBM QRadar: Configure MID server
 
     -   Click **Edit**. In the **Edit Members** page, select all available MID Servers, move them to the MID Servers List, and click **Save**. Depending on the availability, one of the MID Servers configured with the MID Server Application will be used.
 6.  Enter the configuration details and specify the MID Server Application you have created.
 
-    ![IBM QRadar: configuration tile](../image/ibm-qradar-config-tile.png)
+    \[Omitted image "ibm-qradar-config-tile.png"\] Alt text: IBM QRadar: configuration tile
 
     The source that you configure on the **IBM QRadar Offense Ingestion Configuration** form can be reused for multiple ServiceNow AI Platform profiles as long as each profile ingests offenses.
 

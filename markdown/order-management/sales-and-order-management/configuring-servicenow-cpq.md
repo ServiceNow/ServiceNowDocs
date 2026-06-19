@@ -2,6 +2,7 @@
 title: Configuring CPQ Configurator
 description: Plan and configure your implementation of the CPQ Configurator. Product catalog admins and agents run CPQ Configurator in the CSM Configurable Workspace, while customers using self-service features use it in the Business Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configuring-servicenow-cpq.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -31,11 +32,11 @@ Plan and configure your implementation of the CPQ Configurator. Product catalog 
     -   Sales Cart v2.1.0
     **Note:** Other applications, such as Product Catalog Management Core v17.1.0, and Pricing Management v15.0.0 are installed automatically with the preceding applications.
 
-2.  [Set up ServiceNow instance for CPQ Integration](../task/cpq-integration-create-certificates.md).
-3.  [Set up Logik.ai instance](../task/set-up-logik-instance.md)
-4.  [Set up ServiceNow instance connection with Logik.ai instance](../task/connect-sn-instance-logik.md).
-5.  [Set up External Connection in Logik](../task/set-up-external-connection-logik.md).
-6.  [Enable the CPQ Configurator](../task/enable-advanced-configurator.md).
+2.  [Set up ServiceNow instance for CPQ Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/cpq-integration-create-certificates.md).
+3.  [Set up Logik.ai instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/set-up-logik-instance.md)
+4.  [Set up a ServiceNow instance connection with a Logik.ai instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/connect-sn-instance-logik.md).
+5.  [Set up External Connection in Logik](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/set-up-external-connection-logik.md).
+6.  [Enable the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/enable-advanced-configurator.md).
 
     If you're currently using the Sales Customer Relationship Management product configurator and want to use the CPQ Configurator, use the **enable\_advanced\_configuration** system property to enable the CPQ Configurator.
 

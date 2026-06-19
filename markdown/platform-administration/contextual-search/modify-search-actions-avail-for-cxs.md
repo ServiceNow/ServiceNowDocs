@@ -2,6 +2,7 @@
 title: Modify or disable search actions available for contextual search
 description: Modify or disable search actions to restrict the actions that a user can perform on a search result.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/contextual-search/modify-search-actions-avail-for-cxs.html
 release: zurich
 product: Contextual Search
 classification: contextual-search
@@ -31,7 +32,7 @@ The Search Action Configurations related list contains all the available Search 
 
 3.  In the Search Action Configurations related list, view the list of search actions available for the contextual search.
 
-    ![Search actions displayed in the Search Action Configurations related list.](../image/search-actions-1.png)
+    \[Omitted image "search-actions-1.png"\] Alt text: Search actions displayed in the Search Action Configurations related list.
 
     To disable a search action, set the value of **Active** to **false**.
 
@@ -45,8 +46,8 @@ The Search Action Configurations related list contains all the available Search 
 
         **Note:** This option only applies to tables with the Platform UI type. It defaults to **false** to provide a consistent user experience between Platform and Workspace tables.
 
-    ![Search actions highlighted in the search result preview window.](../image/search-actions-2.png)
+    \[Omitted image "search-actions-2.png"\] Alt text: Search actions highlighted in the search result preview window.
 
 
-**Parent Topic:**[Managing contextual search](../concept/working-with-contextual-search.md)
+**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/working-with-contextual-search.md)
 

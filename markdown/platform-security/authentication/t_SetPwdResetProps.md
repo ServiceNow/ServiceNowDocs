@@ -2,6 +2,7 @@
 title: Configure Password Reset properties
 description: You can specify properties that configure the Password Reset experience for end users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/t\_SetPwdResetProps.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -29,7 +30,7 @@ For example, you would not want to allow 100 attempts for users to verify their 
 
 1.  Navigate to **All** &gt; **Password Reset** &gt; **Properties**.
 
-    For information about the Password Reset properties, see [Password Reset global properties](https://www.servicenow.com/docs/access?context=password-reset-global-properties&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    For information about the Password Reset properties, see Password Reset global properties.
 
 2.  Update settings as needed and then click **Save**.
 

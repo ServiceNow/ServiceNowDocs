@@ -2,6 +2,7 @@
 title: Case task form
 description: On the new case task form, fill in the fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/prm-case-task-form.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -58,7 +59,7 @@ Assessment template
 
 </td><td>
 
-[Assessment template](../../grc-compliance-case-mgmt/task/ccm-create-assessment-template.md) to assess the case. This field appears only when **Assessment** is selected from the **Type** field. **Note:** Each case type can be mapped to specific assessment templates during configuration. Only the templates mapped to the case are available for selection. For example, if the case type is **Financial**, then the assessment templates specific to the Financial type will be available for selection. You cannot select the same assessment template if there is already an open assessment with the assessment template that you have selected is being worked upon.
+[Assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/ccm-create-assessment-template.md) to assess the case. This field appears only when **Assessment** is selected from the **Type** field. **Note:** Each case type can be mapped to specific assessment templates during configuration. Only the templates mapped to the case are available for selection. For example, if the case type is **Financial**, then the assessment templates specific to the Financial type will be available for selection. You cannot select the same assessment template if there is already an open assessment with the assessment template that you have selected is being worked upon.
 
 </td></tr><tr><td>
 
@@ -173,5 +174,5 @@ Additional comments \(Customer visible\)
 Comments related to the case task, if any.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a case task](../task/prm-create-a-case-task.md)
+</table>**Parent Topic:**[Create a case task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/prm-create-a-case-task.md)
 

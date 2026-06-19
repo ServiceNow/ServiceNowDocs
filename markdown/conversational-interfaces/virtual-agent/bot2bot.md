@@ -2,6 +2,7 @@
 title: Virtual Agent bot-to-bot integration
 description: The Virtual Agent API supports environments that use multiple bots. In this situation, a primary bot communicates with third-party secondary bots, such as a ServiceNow bot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/bot2bot.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -22,13 +23,13 @@ There are two types of bot communication with the primary bot:
 
 In both scenarios, the ServiceNow bot informs the primary bot when the request is completed or when it cannot continue handling the request. The primary bot can then determine whether to inform the end user that the conversation is complete or provide further assistance.
 
-![Diagram of a bot-to-bot ecosystem with the ServiceNow Virtual Agent as a secondary bot.](../images/bot-to-bot-ecosystem.png "Bot-to-Bot ecosystem with ServiceNow Virtual Agent as a secondary bot")
+\[Omitted image "bot-to-bot-ecosystem.png"\] Alt text: Diagram of a bot-to-bot ecosystem with the ServiceNow Virtual Agent as a secondary bot.
 
 The ServiceNow secondary bot uses a standard request and response through REST endpoints. When the request is received through the Bot Framework or an enterprise app seeking to integrate with the ServiceNow bot, the response for a request is sent asynchronously via the API to the requesting system. Virtual Agent supports Live Agent in the channel as well.
 
 ## Properties for bot-to-bot integrations
 
-You can [add system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) to configure the following:
+You can add system properties to configure the following:
 
 -   Number of times that the Virtual Agent bot tries to get a response
 -   Bot normalization score
@@ -38,5 +39,5 @@ You can [add system properties](https://www.servicenow.com/docs/access?context=r
 |va.bot.to.bot.take.control\_times|Number of times that Virtual Agent tries to get a response, after which control is returned to the primary bot.|2|
 |va.bot.to.bot.score.normalization\_factor|A value used to normalize the prediction confidence score returned by Virtual Agent, if the primary bot does not use intents to route requests to the appropriate bot.|1|
 
-**Parent Topic:**[Using Virtual Agent API](use-virtual-agent-api.md)
+**Parent Topic:**[Using Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/use-virtual-agent-api.md)
 

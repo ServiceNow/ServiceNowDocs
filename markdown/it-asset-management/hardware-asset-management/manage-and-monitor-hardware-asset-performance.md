@@ -2,6 +2,7 @@
 title: Manage and monitor hardware asset performance
 description: Configure settings for asset KPI tracking and monitor asset KPIs using performance reports in the Hardware Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/manage-and-monitor-hardware-asset-performance.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management

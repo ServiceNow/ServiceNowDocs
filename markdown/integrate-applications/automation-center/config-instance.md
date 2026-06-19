@@ -2,6 +2,7 @@
 title: Configure an instance for migration
 description: Configure an instance to migrate your automations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/automation-center/config-instance.html
 release: zurich
 product: Automation Center
 classification: automation-center
@@ -33,8 +34,8 @@ Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
 5.  Select **Create New Connection &amp; Credentials**.
 
-    For more information about OAuth authorization in connections and credentials, see [Set up OAuth integration via MID Server](https://www.servicenow.com/docs/access?context=create-conn-alias-oauth-integration-via-mid-server&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+    For more information about OAuth authorization in connections and credentials, see .
 
 
-**Parent Topic:**[Migrate automations to ServiceNow RPA Hub](../concept/migrate-automations.md)
+**Parent Topic:**[Migrate automations to ServiceNow RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/migrate-automations.md)
 

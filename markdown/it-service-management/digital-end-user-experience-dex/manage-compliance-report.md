@@ -2,11 +2,12 @@
 title: Manage your system compliance report
 description: Configure the DEX policy metrics and the applications to monitor for your organization's compliance report. Set up the compliance-related rules and actions for your organization's devices based on defined thresholds.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/manage-compliance-report.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [DEX Insights, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -25,21 +26,21 @@ Role required: admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the DEX Administration icon \(![](../image/icon-administration.png)\).
+2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text:\).
 
 3.  Select **Configure** on the System compliance card.
 
 4.  Choose one or more of the following options to configure how you want to monitor the compliance of your organization's IT devices.
 
-<table id="choicetable_l2j_bvc_fdc"><thead><tr><th align="left" id="d174233e101">
+<table id="choicetable_l2j_bvc_fdc"><thead><tr><th align="left" id="d51072e101">
 
 Option
 
-</th><th align="left" id="d174233e104">
+</th><th align="left" id="d51072e104">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d174233e110">
+</th></tr></thead><tbody><tr><td id="d51072e110">
 
 **Manage compliance policy**
 
@@ -49,7 +50,7 @@ Steps
 2.  In the **Actions** drop-down list, select **Turn on monitoring**.
 
 
-</td></tr><tr><td id="d174233e134">
+</td></tr><tr><td id="d51072e134">
 
 **Manage applications**
 
@@ -57,19 +58,19 @@ Steps
 
 1.  Select a check box by the system policy value that you want to use for monitoring.
 2.  In the **Actions** drop-down list, select **Turn on monitoring**.
- **Note:** To learn more about adding or editing an application to monitor, see [Add an application for monitoring](add-new-application.md) or [New web or installed application form](../reference/admin-new-app-form.md).
+ **Note:** To learn more about adding or editing an application to monitor, see [Add an application for monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/add-new-application.md) or [New web or installed application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/admin-new-app-form.md).
 
-</td></tr><tr><td id="d174233e175">
+</td></tr><tr><td id="d51072e175">
 
 **Manage metric rules**
 
 </td><td>
 
-Select a metric rule name to customize. The rules trigger actions based on specific metric thresholds.**Note:** To edit or add a metric rule, see [Create metric rules](../concept/create-metric-rules.md).
+Select a metric rule name to customize. The rules trigger actions based on specific metric thresholds.**Note:** To edit or add a metric rule, see [Creating a metric rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/create-metric-rules.md).
 
 </td></tr></tbody>
 </table>    **Note:** You can enable multiple compliance policy values simultaneously by selecting a check box next to **Metric name**. Adjust your selection as needed by selecting individual check boxes for each value.
 
-    For more information on the compliance report, see [DEX Insights](../concept/dex-workspace-insights-tab.md).
+    For more information on the compliance report, see [DEX Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dex-workspace-insights-tab.md).
 
 

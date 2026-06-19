@@ -2,13 +2,14 @@
 title: Conflicts between changeset commits
 description: Service delivery can include multiple teams working at the same time on config data with potentially hundreds of configuration changes every day. Because changes can be in conflict with earlier changes by a different user, CDM manages commits and snapshots to block commits that conflict. You are notified of changeset conflicts to help you to resolve them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-family/cdm-changeset-conflicts.html
 release: zurich
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Changesets and version control in CDM, Use, DevOps Config, IT Service Management]
+breadcrumb: [Changesets and version control in CDM, Using DevOps Config, DevOps Config, IT Service Management]
 ---
 
 # Conflicts between changeset commits

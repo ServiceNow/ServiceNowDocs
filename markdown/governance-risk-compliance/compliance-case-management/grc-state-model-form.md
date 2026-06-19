@@ -2,6 +2,7 @@
 title: GRC state model form
 description: Use the GRC State Model form to define the workflow states and transition conditions in the Compliance Case Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/compliance-case-management/grc-state-model-form.html
 release: zurich
 product: Compliance Case Management
 classification: compliance-case-management
@@ -27,5 +28,5 @@ See the following table for a description of the field values.
 |State field|Field to hold the state value in a table that this state model applies to. It is dependent on Table name. This field is automatically set to **State**. You can change the value to match your configuration.|
 |Manage Attachments|Select this icon and choose the required files to attach.|
 
-**Parent Topic:**[Create a compliance state model](../task/create-state-model.md)
+**Parent Topic:**[Create a compliance state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/create-state-model.md)
 

@@ -2,6 +2,7 @@
 title: Enable accessibility features for DOCX to PDF conversion
 description: Enable the com.snc.document.conversion.accessibility\_enabled system property to enable accessibility features for DOCX to PDF conversion. If the DOCX files have accessibility support, then accessibility support is retained in the Document Viewer while viewing the files.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/enable-accessibility-docx-to-pdf.html
 release: zurich
 product: Document Management Services
 classification: document-management-services

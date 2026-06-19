@@ -2,11 +2,12 @@
 title: Add tasks to a quote
 description: Create a single or multiple tasks for a quote and assign those to different agents. Tasks are the various actions that agents perform to create a quote.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/quote-management-tasks.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -21,7 +22,7 @@ Role required: sales\_manager
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, navigate to the **List** view ![image.Lists] and select **Quotes** &gt; **All**.
+1.  In the CSM Configurable Workspace, navigate to the **List** view \[Omitted image "list-outline-24.svg"\] Alt text: and select **Quotes** &gt; **All**.
 
 2.  Select the quote that you want to work with and select the **Tasks** tab.
 
@@ -44,5 +45,5 @@ Role required: sales\_manager
     The quote task is added to the main quote.
 
 
-**Parent Topic:**[Using Quote Management](../concept/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-mgmt-using.md)
 

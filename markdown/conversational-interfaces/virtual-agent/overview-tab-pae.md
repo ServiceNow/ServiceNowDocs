@@ -2,6 +2,7 @@
 title: Overview tab
 description: Use the Overview tab to view key indicators that help you evaluate the performance of Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/overview-tab-pae.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Use the Overview tab to view key indicators that help you evaluate the performan
 
 The **Overview** tab is the landing page for the dashboard. The visualizations in the **Overview** tab are important indicators of how VA is performing. You must have the Chat Analytics Viewer \(chat\_analytics\_viewer\) role to use the **Overview** tab.
 
-![Virtual agent analytics dashboard overview tab](../images/vaa-next-exp-overview-pae.png)
+\[Omitted image "vaa-next-exp-overview-pae.png"\] Alt text: Virtual agent analytics dashboard overview tab
 
 <table id="table_lhm_1qk_4rb"><thead><tr><th>
 
@@ -152,5 +153,5 @@ Number of conversations that have ended in the out-of-the-box conversation end s
 -   Selecting the visualized data, for example, a bar in a bar chart, to get additional information about the data.
 -   Changing the date range of the data displayed.
 
-**Parent Topic:**[Using the Conversational Analytics Dashboard](use-the-dashboard-overview-pae.md)
+**Parent Topic:**[Using the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/use-the-dashboard-overview-pae.md)
 

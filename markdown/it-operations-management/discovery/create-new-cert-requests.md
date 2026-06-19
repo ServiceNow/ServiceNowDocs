@@ -2,6 +2,7 @@
 title: Create new certificate requests
 description: Create new certificate requests manually through Service Catalog for a personalized and efficient procurement of certificates, providing greater flexibility and control.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/create-new-cert-requests.html
 release: zurich
 product: Discovery
 classification: discovery

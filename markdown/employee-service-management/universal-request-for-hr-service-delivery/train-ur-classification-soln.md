@@ -2,6 +2,7 @@
 title: Train the classification solution to predict the assignment group
 description: Train the Universal Request classification solution definition to identify and predict an assignment group using the short description and create service level tickets that are associated with the universal request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-request-for-hr-service-delivery/train-ur-classification-soln.html
 release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -23,7 +24,7 @@ Ensure that you have installed Predictive Intelligence \(com.glide.platform\_ml\
 
 Set the **Enable universal request auto categorization** property to true by navigating to **Universal Request** &gt; **Administration** &gt; **Properties**. Enabling this property enables the application to use the **Universal Request Classification solution** for UR.
 
-![Enable universal request auto categorization property](../images/ur-enable-categorization-property.png)
+\[Omitted image "ur-enable-categorization-property.png"\] Alt text: Enable universal request auto categorization property
 
 **Note:** A minimum of ten thousand records are needed to train the classifications.
 
@@ -35,8 +36,8 @@ Set the **Enable universal request auto categorization** property to true by nav
 
 3.  On the form, verify the default field values and customize the solution as required.
 
-    For more information about the Classification Definition form fields, see [Create and train classification solution](https://www.servicenow.com/docs/access?context=create-solution-definition&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+    For more information about the Classification Definition form fields, see Create and train classification solution.
 
 
-**Parent Topic:**[Predictive Intelligence for Universal Request](../concept/predictive-intelligence-ur.md)
+**Parent Topic:**[Predictive Intelligence for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/predictive-intelligence-ur.md)
 

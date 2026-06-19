@@ -2,6 +2,7 @@
 title: Configure Virtual Agent topics for HR Service Delivery Integration with SuccessFactors
 description: Complete the configuration steps to enable your employees place requests to the SuccessFactors system using the Now Assist for HRSD Virtual Agent topics in Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/config-sf-va.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -23,15 +24,15 @@ Role required: flow\_designer, decision\_table\_admin, sn\_hr\_integr\_fw.admin,
 
 1.  Install the HR Service Delivery Integration with SuccessFactors, Now Assist for HRSD, and Enterprise Service Management Integrations Framework \(v3.6\) applications from ServiceNow Store.
 
-2.  Configure the [SuccessFactors Spoke](https://www.servicenow.com/docs/access?context=successfactors-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) to pull data from SuccessFactors system.
+2.  Configure the  to pull data from SuccessFactors system.
 
 3.  Create subflows aligning with Template Integration Gateway.
 
-    See [Create a subflow using Template Integration Gateway](configure-integration-gateway.md).
+    See [Create a subflow using Template Integration Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-integration-gateway.md).
 
     **Note:** You can use the default subflows that have been created for SuccessFactors.
 
-4.  [Configure Integration Provider Mapping \(Decision table\)](configure-integration-mapping.md) by adding input choices and configuring conditions on input choices and results.
+4.  [Configure Integration Provider Mapping \(Decision table\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-integration-mapping.md) by adding input choices and configuring conditions on input choices and results.
 
 5.  Create a Virtual Agent topic block:
 

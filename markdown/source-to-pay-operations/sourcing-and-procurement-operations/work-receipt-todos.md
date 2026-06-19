@@ -2,13 +2,14 @@
 title: Confirm receipt of your order from Shopping Hub Home
 description: Provide confirmation of receipt of the items you ordered that are in pending receipt state from Shopping Hub Home, so that payment is processed to the supplier accordingly. If you have not received the complete order, you can confirm receipt of a part of your order as well with the date when you received them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/work-receipt-todos.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Shopper to-dos, Using Shopping Hub, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Shopper to-dos, Using Shopping Hub, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Confirm receipt of your order from Shopping Hub Home
@@ -33,15 +34,15 @@ Role required: sn\_shop.shopper
 
 5.  Do one of these actions.
 
-<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d192405e107">
+<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d38017e116">
 
 Action
 
-</th><th align="left" id="d192405e110">
+</th><th align="left" id="d38017e119">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d192405e116">
+</th></tr></thead><tbody><tr><td id="d38017e125">
 
 **Received selected**
 
@@ -53,7 +54,7 @@ Confirms receipt of the selected orders. On the **Confirm receipt** window, fill
 -   **Date received**: Date when you received the items.
 
 
-</td></tr><tr><td id="d192405e143">
+</td></tr><tr><td id="d38017e152">
 
 **Received all**
 
@@ -65,5 +66,5 @@ Confirms receipt of all the orders. On the **Confirm you received everything** w
 </table>6.  Select **Submit**.
 
 
-**Parent Topic:**[Shopper to-dos](../reference/shopper-todos.md)
+**Parent Topic:**[Shopper to-dos](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos.md)
 

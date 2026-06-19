@@ -2,6 +2,7 @@
 title: Set up
 description: Prior to using Security Incident Response Orchestration, perform steps to set up various parts of the system, including populating the CMDB, configuring the mid-server, and configuring credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/t\_SecInRespOrchSetup.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -19,7 +20,7 @@ Prior to using Security Incident Response Orchestration, perform steps to set up
 
 Role required: admin
 
-To use Security Incident Response, you need a fully populated CMDB with domain names. For more information, see [Discovery](https://www.servicenow.com/docs/access?context=r-discovery&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+To use Security Incident Response, you need a fully populated CMDB with domain names. For more information, see Discovery.
 
 ## About this task
 
@@ -27,10 +28,10 @@ To use Security Incident Response, you need a fully populated CMDB with domain n
 
 1.  Activate Security Incident Response plugin.
 
-2.  [Configuring MID Servers](https://www.servicenow.com/docs/access?context=c_MIDServerConfiguration&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+2.  Configuring MID Servers.
 
-3.  [Configure Windows MID Server service credentials](https://www.servicenow.com/docs/access?context=mid-server-install-prereqs&version=zurich&pubname=zurich-servicenow-platform&section=t_ConfigMIDSvrSvcCredentials&ft:locale=en-US).
+3.  Configure Windows MID Server service credentials.
 
 
-**Parent Topic:**[Security Incident Response Orchestration](../concept/c_SecIncRespOrchestration.md)
+**Parent Topic:**[Security Incident Response Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/c_SecIncRespOrchestration.md)
 

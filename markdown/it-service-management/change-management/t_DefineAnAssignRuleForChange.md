@@ -2,6 +2,7 @@
 title: Create a change request assignment rule
 description: You can define assignment rules to automate the process of assigning change requests to the appropriate group or individual.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/t\_DefineAnAssignRuleForChange.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -42,5 +43,5 @@ To test the assignment rule, navigate to **Change** &gt; **Create New** and ente
 
 Save the change and see that it was automatically assigned to the **Database** group.
 
-**Parent Topic:**[Configuring Change Management](../concept/configure-change-management.md)
+**Parent Topic:**[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/configure-change-management.md)
 

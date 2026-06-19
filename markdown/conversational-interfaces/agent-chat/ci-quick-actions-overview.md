@@ -2,6 +2,7 @@
 title: Configuring quick actions
 description: Quick actions are shortcuts that perform Agent Chat tasks. Agents can work more efficiently with customers by using quick actions because they don't have to enter as many characters to perform a task.Create a quick action so that agents can use shortcuts for performing actions in Agent Chat.Define a quick action parameter to allow agents to further control a quick action in Workspace chat.Configure a quick action button so that agents can perform actions in Agent Chat with a single click.Customize the quick actions that appear on the chat toolbar.Activate context quick actions to enable agents to view context relevant to a chat interaction. When launched in a chat, display cards show: sysparm\_portal, sysparm\_page, table, sys\_id, or sysparm\_language.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/agent-chat/ci-quick-actions-overview.html
 release: zurich
 product: Agent Chat
 classification: agent-chat
@@ -18,7 +19,7 @@ Quick actions are shortcuts that perform Agent Chat tasks. Agents can work more 
 
 ## Activate quick actions
 
-To enable your agents to use quick actions, you must activate the and [related plugins for Advanced Work Assignment](../../advanced-work-assignment/reference/awa-related-plugins.md), which is required for chat in Workspace.
+To enable your agents to use quick actions, you must activate the and [related plugins for Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-related-plugins.md), which is required for chat in Workspace.
 
 ## Default quick actions
 
@@ -82,7 +83,7 @@ r
 
 </td><td>
 
-Uses [Response templates](https://www.servicenow.com/docs/access?context=response-templates-templated-snippets&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) to insert as text in a conversation.**Note:** Only response templates that have a condition of **\[Type\]\[is\]\[Chat\]** are available in Agent Chat.
+Uses Response templates to insert as text in a conversation.**Note:** Only response templates that have a condition of **\[Type\]\[is\]\[Chat\]** are available in Agent Chat.
 
 </td><td>
 
@@ -110,7 +111,7 @@ ta
 
 </td><td>
 
-![Transfer to another agent icon.](../../workspace/image/add-user-icon-big.png)
+\[Omitted image "add-user-icon-big.png"\] Alt text: Transfer to another agent icon.
 
 </td><td>
 
@@ -126,7 +127,7 @@ tq
 
 </td><td>
 
-![Transfer to another queue icon.](../../workspace/image/arrow-icon-big.png)
+\[Omitted image "arrow-icon-big.png"\] Alt text: Transfer to another queue icon.
 
 </td><td>
 
@@ -137,7 +138,7 @@ Transfers the conversation to another queue.
 Available queues
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring Agent Chat](ci-agent-chat-configuring.md)
+</table>**Parent Topic:**[Configuring Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/agent-chat/ci-agent-chat-configuring.md)
 
 ## Creating a quick action
 
@@ -290,9 +291,9 @@ Text that displays as a hint when the agent enters a quick action.
 
 ### What to do next
 
-If your quick action requires a secondary menu, define a quick action parameter so that agents can further control the quick action. For more information, see [Define a quick action parameter](ci-quick-actions-overview.md#).
+If your quick action requires a secondary menu, define a quick action parameter so that agents can further control the quick action. For more information, see [Define a quick action parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/agent-chat/ci-quick-actions-overview.md).
 
-Optionally, you can make the quick action available in Agent Chat as a button. For more information, see [Configuring a quick action button](ci-quick-actions-overview.md#).
+Optionally, you can make the quick action available in Agent Chat as a button. For more information, see [Configuring a quick action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/agent-chat/ci-quick-actions-overview.md).
 
 ## Defining a quick action parameter
 
@@ -436,7 +437,7 @@ Role required: admin
 
 ### About this task
 
-The toolbar of the Workspace chat window contains three buttons. Selecting the left button \(![Paperclip icon](../../virtual-agent/images/paperclip.png)\) attaches a file in a conversation, selecting the center button \(![Arrow icon](../image/arrow.png)\) initiates a queue transfer, and selecting the right button \(![Add user icon](../image/add-user.png)\) initiates an agent transfer. You can't configure the left button, but you can assign different quick actions to the center and right buttons.
+The toolbar of the Workspace chat window contains three buttons. Selecting the left button \(\[Omitted image "paperclip.png"\] Alt text: Paperclip icon\) attaches a file in a conversation, selecting the center button \(\[Omitted image "arrow.png"\] Alt text: Arrow icon\) initiates a queue transfer, and selecting the right button \(\[Omitted image "add-user.png"\] Alt text: Add user icon\) initiates an agent transfer. You can't configure the left button, but you can assign different quick actions to the center and right buttons.
 
 ### Procedure
 
@@ -444,8 +445,8 @@ The toolbar of the Workspace chat window contains three buttons. Selecting the l
 
 2.  In the Agent Experience section, select **View all** next to Quick actions.
 
-    -   To configure the arrow button \(![Arrow icon](../image/arrow.png)\), select **Transfer to Queue**.
-    -   To configure the add user button \(![Add user icon](../image/add-user.png)\), select **Transfer to Agent**.
+    -   To configure the arrow button \(\[Omitted image "arrow.png"\] Alt text: Arrow icon\), select **Transfer to Queue**.
+    -   To configure the add user button \(\[Omitted image "add-user.png"\] Alt text: Add user icon\), select **Transfer to Agent**.
     -   To create a new button, select **New**.
 3.  On the form, fill in the fields.
 
@@ -616,6 +617,6 @@ Context quick actions are a default quick action, but require activation.
 
 1.  Navigate to **All** &gt; **Quick Actions** &gt; **Actions**.
 
-2.  In the **Get Chat Context Variables** record, use the list editor to set the **Active** value to true.![Get Chat Context Variable record, with Active value of True highlighted.](../image/quick-actions.png)
+2.  In the **Get Chat Context Variables** record, use the list editor to set the **Active** value to true.\[Omitted image "quick-actions.png"\] Alt text: Get Chat Context Variable record, with Active value of True highlighted.
 
 

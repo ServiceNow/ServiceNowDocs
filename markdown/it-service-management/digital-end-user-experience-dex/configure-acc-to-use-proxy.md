@@ -2,11 +2,12 @@
 title: Configure ACC to use a proxy for all traffic
 description: Configure the Agent Client Collector \(ACC\) to use a proxy for all traffic by setting environment variables. Using a proxy helps you enhance security, monitor and control internet usage, improve performance through caching, protect privacy, and enforce compliance with your organization's policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/configure-acc-to-use-proxy.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Getting started, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -38,15 +39,15 @@ Proxy setup is needed in the following use cases:
 
 1.  Run diagnostics to verify that the endpoint can reach ServiceNow before making changes.
 
-<table id="choicetable_onx_ylc_1fc"><thead><tr><th align="left" id="d347006e113">
+<table id="choicetable_onx_ylc_1fc"><thead><tr><th align="left" id="d337366e113">
 
 Option
 
-</th><th align="left" id="d347006e116">
+</th><th align="left" id="d337366e116">
 
 Command
 
-</th></tr></thead><tbody><tr><td id="d347006e122">
+</th></tr></thead><tbody><tr><td id="d337366e122">
 
 **Windows**
 
@@ -54,7 +55,7 @@ Command
 
 PowerShell: `.\servicenow-net-check.ps1`
 
-</td></tr><tr><td id="d347006e134">
+</td></tr><tr><td id="d337366e134">
 
 **macOS**
 

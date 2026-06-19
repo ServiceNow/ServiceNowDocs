@@ -2,6 +2,7 @@
 title: Performance Analytics \(Indicator data sources\)
 description: ServiceNow Performance Analytics is an in-platform process optimization solution that utilizes indicators \(KPIs\) to answer key business questions. Performance Analytics can help increase quality and reduce the costs of service delivery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/pa-overview.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -21,19 +22,19 @@ Performance Analytics tools including KPI Composer, KPI Details, and Spotlight, 
 
 <table id="table_iwv_lpv_klba" class="nav-card"><tbody><tr><td>
 
-[Explore Performance Analytics ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about Performance Analytics concepts and features such as indicators, breakdowns, and data collection.](c_GetStartedwithPA.md)
+[Explore Performance Analytics \[Omitted image "bus-explore.svg"\] Alt text: Learn about Performance Analytics concepts and features such as indicators, breakdowns, and data collection.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_GetStartedwithPA.md)
 
 </td><td>
 
-[Configure Performance Analytics fundamentals ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Learn how to design your Performance Analytics solution, configure indicators and breakdowns and apply aggregations.](c_PAWidgetsAndDashboards.md)
+[Configure Performance Analytics fundamentals \[Omitted image "bus-sdlc.svg"\] Alt text: Learn how to design your Performance Analytics solution, configure indicators and breakdowns and apply aggregations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_PAWidgetsAndDashboards.md)
 
 </td></tr><tr><td>
 
-[Configure advanced Performance Analytics ![](../../../reuse/icons/brand-icons/bus-customize.svg) Delve into advanced features such as Spotlight, diagnostics, and logging.](c_PADataArchitecture.md)
+[Configure advanced Performance Analytics \[Omitted image "bus-customize.svg"\] Alt text: Delve into advanced features such as Spotlight, diagnostics, and logging.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_PADataArchitecture.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Roles, system properties, and a glossary of terms](performance-analytics-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Roles, system properties, and a glossary of terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

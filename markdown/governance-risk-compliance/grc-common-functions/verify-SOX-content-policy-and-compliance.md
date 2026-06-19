@@ -2,6 +2,7 @@
 title: Verify the SOX Content Pack in Policy and Compliance Management
 description: After importing the SOX Content Pack, verify and edit the profile types, profiles, policies, policy statements, controls, policies, indicator templates, and indicators, within the Policy and Compliance Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/verify-SOX-content-policy-and-compliance.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -45,15 +46,15 @@ Role required: Compliance Admin \(sn\_compliance.admin\)
     -   Tax
     -   Travel and Expense
     -   Treasury
-    ![Profile type record is pictured with the Profiles related list](../image/SOX-profile-type.png)
+    \[Omitted image "SOX-profile-type.png"\] Alt text: Profile type record is pictured with the Profiles related list
 
 2.  If using the Kingston SOX contact pack, under the Entity filters related list, a filter is added to query the SOX processes table for the generation of SOX entities.
 
-    ![Profile type record is pictured with the Profile Filters Related List](../image/SOX-profile-filter.png)
+    \[Omitted image "SOX-profile-filter.png"\] Alt text: Profile type record is pictured with the Profile Filters Related List
 
 3.  Open an entity to see all the downstream controls.
 
-    ![Profile record is pictured with the Profile Types Related List](../image/SOX-downstream-controls.png)
+    \[Omitted image "SOX-downstream-controls.png"\] Alt text: Profile record is pictured with the Profile Types Related List
 
 4.  Navigate to **Policy and Compliance** &gt; **Policies and Procedures** &gt; **Policies**.
 
@@ -67,7 +68,7 @@ Role required: Compliance Admin \(sn\_compliance.admin\)
     -   Financial Reporting - Standard Operating Procedure
     -   Fixed Assets Standard Operating Procedures
     -   General Ledger - Flowchart
-    ![List of all policies is pictured](../image/SOX-draft-policies.png)
+    \[Omitted image "SOX-draft-policies.png"\] Alt text: List of all policies is pictured
 
 5.  Open a SOX policy record.
 
@@ -81,7 +82,7 @@ Role required: Compliance Admin \(sn\_compliance.admin\)
 
     -   All the SOX policy statements are created and assigned to SOX policies.
     -   The SOX Control Attestation is created and added to the policy statement.
-    ![List of Policy Statements is pictured with all Policy Statement beginning with SOX in the Name](../image/SOX-policy-statements.png)
+    \[Omitted image "SOX-policy-statements.png"\] Alt text: List of Policy Statements is pictured with all Policy Statement beginning with SOX in the Name
 
 8.  Navigate to **Policy and Compliance** &gt; **Controls**.
 
@@ -91,18 +92,18 @@ Role required: Compliance Admin \(sn\_compliance.admin\)
 
     -   All the SOX controls are created for each entity.
     -   The SOX Control Attestation is added to all controls with no attestation respondents.
-    ![A list of SOX Controls is pictured](../image/SOX-controls.png)
+    \[Omitted image "SOX-controls.png"\] Alt text: A list of SOX Controls is pictured
 
 10. Navigate to **Policy and Compliance** &gt; **Indicators**.
 
     SOX Control Indicators were added and indicator templates were assigned to them.
 
-    ![A list of SOX Indicators is pictured](../image/SOX-indicators-templates.png)
+    \[Omitted image "SOX-indicators-templates.png"\] Alt text: A list of SOX Indicators is pictured
 
 
 ## Result
 
-For information about the SOX Compliance Dashboard, see [SOX Content Pack dashboard and reports](../concept/grc-SOX-compliance-content-pack.md).
+For information about the SOX Compliance Dashboard, see [SOX Content Pack dashboard and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-SOX-compliance-content-pack.md).
 
-**Parent Topic:**[Sarbanes-Oxley \(SOX\) Content Pack](../concept/sn-store-SOX-governance-risk-compliance.md)
+**Parent Topic:**[Sarbanes-Oxley \(SOX\) Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/sn-store-SOX-governance-risk-compliance.md)
 

@@ -2,6 +2,7 @@
 title: Close a risk event
 description: Close a risk event to complete the risk events life cycle. A user with the sn\_risk.manager role must close the risk event after verifying that all associated open issues and remedial tasks are closed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/close-a-risk-event.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -28,5 +29,5 @@ Role required: sn\_risk.manager
 3.  Click **Close**.
 
 
-**Parent Topic:**[Use Risk Events](../concept/use-risk-events.md)
+**Parent Topic:**[Use Risk Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/use-risk-events.md)
 

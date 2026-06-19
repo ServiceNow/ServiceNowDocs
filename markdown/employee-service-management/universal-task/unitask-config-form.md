@@ -2,6 +2,7 @@
 title: Universal Task Configuration form
 description: Use the Universal Task Configuration form to associate Universal Task to your service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-task/unitask-config-form.html
 release: zurich
 product: Universal Task
 classification: universal-task
@@ -48,5 +49,5 @@ Default Assigned to
 User field on the parent table that the universal task must be assigned to on creation. **Note:** Agents can still change the value of **assigned to** at the time of creating a universal task.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Universal Task reference](../concept/universal-task-reference.md)
+</table>**Parent Topic:**[Universal Task reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-task/universal-task-reference.md)
 

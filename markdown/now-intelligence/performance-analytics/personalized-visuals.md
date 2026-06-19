@@ -2,6 +2,7 @@
 title: Personalized visuals
 description: Configure visuals with dynamic elements to show information that applies only to the person looking at the visual on a dashboard, service portal, or Workspace canvas.Personalized visuals enable you to share the information that is most relevant to the person who uses the visual on a dashboard or canvas. You personalize the visuals of a widget by applying an element filter.To personalize a visual, you create an element filter and configure a Performance Analytics widget with the same filter. In this example, you create a filter to show only the incidents that belong to the user, then you configure a score widget with the filter you create.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/personalized-visuals.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -21,7 +22,7 @@ Use personalized visuals to push Performance Analytics down to the managers and 
 
 Personalization applies to Time Series, Score, and Breakdown widgets. When you configure personalized visuals, the personalization applies wherever the widget appears: a dashboard, landing page, or the Service Portal.
 
-Technically, you personalize a visual by applying an element filter to the widget instead of specifying [breakdown elements](performance-analytics-glossary.md#). The personalization comes about through using a dynamic condition on the filter, such as \[is \(dynamic\)\] \[me\].
+Technically, you personalize a visual by applying an element filter to the widget instead of specifying [breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md). The personalization comes about through using a dynamic condition on the filter, such as \[is \(dynamic\)\] \[me\].
 
 **Note:** Personalized visuals apply only to first-level breakdowns.
 
@@ -29,13 +30,13 @@ Technically, you personalize a visual by applying an element filter to the widge
 
 When an element filter returns more than one element, the scores for these elements are shown as an aggregated value on Score and Time Series widgets. However, these scores are shown separately on Breakdown widgets. The following example shows a Time Series widget and a Breakdown widget with the same personalized visuals. The logged in viewer is a member of the Technical Services Support, SAP Support, and Marketing Systems Support groups. The Time Series widget, on top, shows an aggregate view of these groups, while the Breakdown widget underneath shows a separate view.
 
-![The time series widget shows the aggregate score of the three groups to which the viewer belongs, while the Breakdown widget shows the scores separately.](../image/personal-vis-time-series-vs-bkdown.png "Time Series widget and Breakdown widget with personalized visuals")
+\[Omitted image "personal-vis-time-series-vs-bkdown.png"\] Alt text: The time series widget shows the aggregate score of the three groups to which the viewer belongs, while the Breakdown widget shows the scores separately.
 
 **Note:** When you configure a widget to follow the elements on a breakdown dashboard, your choice of an **Aggregate** or **Separate** view of multiple elements does not affect personalized visuals. For example, the following time series widget on a breakdown dashboard is configured to show multiple elements separately. This configuration applies to elements of the Category breakdown on the dashboard. However, the widget still shows the elements of Assignment Group from the personalized visual as an aggregate.
 
-![A widget on a breakdown dashboard showing multiple elements from the breakdown dashboard separately but showing multiple elements from the personalized visual as an aggregate](../image/personal-vis-bkdown-dashboard.png "Widget with personalized visual on breakdown dashboard")
+\[Omitted image "personal-vis-bkdown-dashboard.png"\] Alt text: A widget on a breakdown dashboard showing multiple elements from the breakdown dashboard separately but showing multiple elements from the personalized visual as an aggregate
 
-For more information, see [Configure widgets for breakdown dashboards](../task/set-up-widgets-for-breakdown-dashboards.md).
+For more information, see [Configure widgets for breakdown dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/set-up-widgets-for-breakdown-dashboards.md).
 
 ## Configure a widget with personalized visuals
 
@@ -49,7 +50,7 @@ Role required: pa\_admin, pa\_power\_user
 
 ### Procedure
 
-1.  Create one or more [breakdown element filters](c_BreakdownElementFilters.md#) with a dynamic condition, such as \[is \(dynamic\)\] \[me\].
+1.  Create one or more [breakdown element filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_BreakdownElementFilters.md) with a dynamic condition, such as \[is \(dynamic\)\] \[me\].
 
     Before you create an element filter, verify whether you can use an existing one.
 
@@ -57,7 +58,7 @@ Role required: pa\_admin, pa\_power\_user
 
 3.  Select the widget that you want to personalize.
 
-4.  On the Widget form, select the breakdown that applies to the personalization, such as Assigned To or Assignment Group.![Widget form with breakdown and elements filter fields highlighted.](../image/personalize-widget.png)
+4.  On the Widget form, select the breakdown that applies to the personalization, such as Assigned To or Assignment Group.\[Omitted image "personalize-widget.png"\] Alt text: Widget form with breakdown and elements filter fields highlighted.
 
 5.  On the Element Settings tab, click the magnifier to select the Elements filter that applies to the breakdown and personalizes the widget.
 
@@ -86,7 +87,7 @@ In this example, you create an element filter that uses the `Users.Active` break
 
 1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Elements Filters** and create a new elements filter with the details in the Element filter fields table.
 
-    For more information, see [Create an elements filter](c_BreakdownElementFilters.md#).
+    For more information, see [Create an elements filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_BreakdownElementFilters.md).
 
 <table id="table_yvq_m5s_vv"><thead><tr><th>
 
@@ -120,7 +121,7 @@ Filter
 
 Specify the filter conditions to limit the available elements. Only elements that meet these conditions are displayed when you apply this element filter.For this element filter, specify `[User][is (dynamic)][Me]`.
 
- For [Personalized visuals](personalized-visuals.md#), the operator in the filter condition must be `[is (dynamic)]`.
+ For [Personalized visuals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/personalized-visuals.md), the operator in the filter condition must be `[is (dynamic)]`.
 
 </td></tr><tr><td>
 
@@ -131,17 +132,17 @@ Roles
 Select any roles that a user must have to select this element filter on a widget form. A user must have at least one of the specified roles. If no roles are specified, all users who can edit a Performance Analytics widget can add this element filter. For this example, we don't want to limit who can select the filter.
 
 </td></tr></tbody>
-</table>    ![Elements filter personalized visual example with user is dynamic Me specified as the condition.](../image/elements-filter-example.png)
+</table>    \[Omitted image "elements-filter-example.png"\] Alt text: Elements filter personalized visual example with user is dynamic Me specified as the condition.
 
 2.  Create a score widget with the details in the widget fields table.
 
-    For more information, see [Performance Analytics widgets](c_Widgets.md). The important thing to know is that the elements filter applies to the indicator's first-level breakdown.
+    For more information, see [Performance Analytics widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_Widgets.md). The important thing to know is that the elements filter applies to the indicator's first-level breakdown.
 
     |Field|Description|
     |-----|-----------|
     |Name|My open incidents|
     |Indicator|Number of open incidents|
-    |Breakdown|Select `Assigned To`. If this breakdown is not available, add it to the indicator. For more information, see [assign and map breakdowns](../task/create-breakdown-mapping.md#).|
+    |Breakdown|Select `Assigned To`. If this breakdown is not available, add it to the indicator. For more information, see [assign and map breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-breakdown-mapping.md).|
     |Type|Score|
     |Visualization|Latest Score|
 
@@ -154,7 +155,7 @@ Select any roles that a user must have to select this element filter on a widget
 
 ### What to do next
 
-Log in as a user who is assigned incidents and open a dashboard with the My open incidents widget. The My open incidents widget shows the score only for the incidents assigned to that user. ![The My open incidents single score widget showing eight open incidents for the logged in user.](../image/my-open-incidents-widget.png)
+Log in as a user who is assigned incidents and open a dashboard with the My open incidents widget. The My open incidents widget shows the score only for the incidents assigned to that user. \[Omitted image "my-open-incidents-widget.png"\] Alt text: The My open incidents single score widget showing eight open incidents for the logged in user.
 
-Click the score to open the Analytics hub for this indicator, filtered on the user looking at the dashboard. ![Analytics hub for the Number of open incidents indicator filtered on the user named ITIL user.](../image/my-open-incidents-drilldown.png)
+Click the score to open the Analytics hub for this indicator, filtered on the user looking at the dashboard. \[Omitted image "my-open-incidents-drilldown.png"\] Alt text: Analytics hub for the Number of open incidents indicator filtered on the user named ITIL user.
 

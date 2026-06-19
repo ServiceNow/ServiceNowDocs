@@ -2,6 +2,7 @@
 title: Retire assets
 description: You can retire an asset at any time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/asset-management/t\_RetiringAssets.html
 release: zurich
 product: Asset Management
 classification: asset-management
@@ -36,5 +37,5 @@ After you change the state of an asset to **Retired**, the **Substate** field is
 4.  Click **Update**.
 
 
-**Parent Topic:**[Work with Asset and CI](../../hardware-asset-management/concept/work-with-asset-ci.md)
+**Parent Topic:**[Work with Asset and CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/work-with-asset-ci.md)
 

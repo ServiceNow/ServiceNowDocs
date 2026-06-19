@@ -1,15 +1,18 @@
 ---
-title: Configure access using temporary credentials for trusting AWS member accounts in management-accessor trust chain
+title: Configure access for trusting AWS member accounts in trust chain
 description: Configure access for AWS member accounts by using a trust chain from the accessor through the management account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/configure-iam-role-aws-member.html
 release: zurich
+product: IT Operations Management
+classification: it-operations-management
 topic_type: task
 last_updated: "2025-09-03"
 reading_time_minutes: 3
 breadcrumb: [Setting up AWS service accounts, Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
 ---
 
-# Configure access using temporary credentials for trusting AWS member accounts in management-accessor trust chain
+# Configure access for trusting AWS member accounts in trust chain
 
 Configure access for AWS member accounts by using a trust chain from the accessor through the management account.
 
@@ -28,7 +31,7 @@ Role required:
 
 You can configure access for AWS member accounts by using a trust chain from the accessor through the management account. The accessor account either has AWS credentials or uses a credential-free method.
 
-![Set up the IAM role of the trusting member accounts to trust their management account, which in turn trusts an accessor account](../image/aws-member-account-trusted-with-credentials.png "Configuring member accounts to use their management account for access")
+\[Omitted image "aws-member-account-trusted-with-credentials.png"\] Alt text: Set up the IAM role of the trusting member accounts to trust their management account, which in turn trusts an accessor account
 
 ## Procedure
 
@@ -50,7 +53,7 @@ You can configure access for AWS member accounts by using a trust chain from the
 
         -   Set the **Action** parameter to `sts:AssumeRole`
         -   Set the `AWS` parameter to the full role ARN of the management account.
-        ![Editing trust relationship for the trusting account.](../image/aws-edit-trust-relat-member-iam.png)
+        \[Omitted image "aws-edit-trust-relat-member-iam.png"\] Alt text: Editing trust relationship for the trusting account.
 
     6.  Click **Update Trust Policy**.
 
@@ -64,7 +67,7 @@ You can configure access for AWS member accounts by using a trust chain from the
 
     4.  On the form, fill in the remaining fields.
 
-        For a description of the field values, see [Create AWS service accounts](create-aws-service-accounts.md).
+        For a description of the field values, see [Create AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/create-aws-service-accounts.md).
 
     5.  Select **Submit**.
 
@@ -117,8 +120,8 @@ Name of the trusting account for which you are providing access using the IAM ro
 
 Configure the trusting management account and the trusted accessor account.
 
--   For information on configuring accessor accounts with AWS credentials, see [Configure access using temporary credentials based on trusted AWS accounts with AWS credentials](configure-iam-role-aws-account.md).
--   For information on configuring accessor accounts without AWS credentials, see [Configure access using temporary credentials based on trusted AWS accounts without AWS credentials](aws-trusted-credential-less.md).
+-   For information on configuring accessor accounts with AWS credentials, see [Configure temporary credential access for trusted AWS accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/configure-iam-role-aws-account.md).
+-   For information on configuring accessor accounts without AWS credentials, see [Configure credential-less access using trusted AWS accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aws-trusted-credential-less.md).
 
-**Parent Topic:**[Setting up AWS service accounts](../concept/setup-aws-service-accounts.md)
+**Parent Topic:**[Setting up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/setup-aws-service-accounts.md)
 

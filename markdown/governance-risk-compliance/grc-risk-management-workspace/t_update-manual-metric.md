@@ -2,6 +2,7 @@
 title: Update a manually created metric
 description: Update a manually created manual metric to add goals, metric data, and targets. Associate citations to the metric.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/t\_update-manual-metric.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -359,5 +360,5 @@ Details of the thresholds associated with the metric, such as type, related metr
 7.  To visually explore the 360° relationship view of the metric definition, select **360° view**.
 
 
-**Parent Topic:**[Configuring metrics](../concept/configuring-irm-metrics.md)
+**Parent Topic:**[Configuring metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/configuring-irm-metrics.md)
 

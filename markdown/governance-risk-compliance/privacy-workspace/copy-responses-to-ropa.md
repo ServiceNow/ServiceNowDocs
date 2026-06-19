@@ -2,6 +2,7 @@
 title: Map the processing activity fields to a question response
 description: Map some of the processing activity fields with the responses of the assessment questions to update the processing activity details based on the assessment response.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/copy-responses-to-ropa.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -50,5 +51,5 @@ The following table shows mappings between the fields on the processing activity
 7.  Click **Update**.
 
 
-**Parent Topic:**[Create a privacy assessment](create-assessment-template.md)
+**Parent Topic:**[Create a privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/create-assessment-template.md)
 

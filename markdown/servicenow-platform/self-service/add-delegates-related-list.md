@@ -2,6 +2,7 @@
 title: Add the Delegates related list to a user profile
 description: To delegate approvals and tasks to another user, configure your user profile form to display the Delegates related list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/self-service/add-delegates-related-list.html
 release: zurich
 product: Self-service
 classification: self-service
@@ -30,5 +31,5 @@ Role required: personalize\_list or admin
 
 The Delegates related list displays at the bottom of the user profile form.
 
-**Parent Topic:**[Service Delegation](../concept/c_ServiceDelegation.md)
+**Parent Topic:**[Service Delegation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/self-service/c_ServiceDelegation.md)
 

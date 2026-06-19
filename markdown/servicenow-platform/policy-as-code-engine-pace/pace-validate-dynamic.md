@@ -2,6 +2,7 @@
 title: Map PaCE policies using Dynamic Mapping
 description: Use Dynamic Mapping to map multiple PaCE policies against specified conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/policy-as-code-engine-pace/pace-validate-dynamic.html
 release: zurich
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
@@ -41,7 +42,7 @@ Role required: sn\_pace.mapping\_admin
 
 3.  Select a document type in the **Document Type** field, then a condition in the **Condition** field.
 
-4.  Select a policy in the **Policy** field or you can select the Search icon ![Search icon.](../image/pace-search-icon.jpg) to view and select multiple policies, then select **Map**.
+4.  Select a policy in the **Policy** field or you can select the Search icon \[Omitted image "pace-search-icon.jpg"\] Alt text: Search icon. to view and select multiple policies, then select **Map**.
 
 5.  When you're finished, select **Done**.
 

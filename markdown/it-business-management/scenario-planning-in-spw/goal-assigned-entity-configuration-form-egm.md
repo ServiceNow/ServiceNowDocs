@@ -2,6 +2,7 @@
 title: Goal Assigned Entity Configuration form
 description: Use the Goal Assigned Entity Configuration form to configure a table for an assigned entity type so that the goal user can associate goals with the required assigned entity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/goal-assigned-entity-configuration-form-egm.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -21,5 +22,5 @@ Use the Goal Assigned Entity Configuration form to configure a table for an assi
 |Application|Name of the application scope.|
 |Assigned entity field|Reference field on the goal form.|
 
-**Parent Topic:**[Form field information for Strategic Planning](../../alignment-planner-workspace/reference/form-field-information-for-strategic-planning.md)
+**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
 

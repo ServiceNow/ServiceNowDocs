@@ -2,6 +2,7 @@
 title: Install AI Search for Next Experience
 description: Install the AI Search for Next Experience application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/install-ais-next-experience-app.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -31,14 +32,14 @@ Role required: admin
 
     You can search for the application by its name or ID. If you can't find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Select **Install**.
 
 
 ## What to do next
 
-With the plugin installed, you can walk through Guided Setup tasks to enable AI Search as the search engine for the Unified Navigation search field in Next Experience. To get started with Guided Setup, see [Verify that your instance meets the prerequisites for AI Search for Next Experience](verify-ais-next-exp-prereqs.md).
+With the plugin installed, you can walk through Guided Setup tasks to enable AI Search as the search engine for the Unified Navigation search field in Next Experience. To get started with Guided Setup, see [Verify that your instance meets the prerequisites for AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/verify-ais-next-exp-prereqs.md).
 
-**Parent Topic:**[AI Search for Next Experience](../concept/ais-next-experience-app.md)
+**Parent Topic:**[AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-next-experience-app.md)
 

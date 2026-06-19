@@ -2,6 +2,7 @@
 title: ITOM Maturity Assessment
 description: This accelerator assesses your current IT Operations Management \(ITOM\) processes and functional maturity within ServiceNow, providing targeted recommendations on next steps to unlock additional value from the platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/ITOM-maturity-assessment.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

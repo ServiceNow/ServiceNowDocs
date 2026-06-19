@@ -2,12 +2,13 @@
 title: Set up tokenized HTTP connection and credentials
 description: After configuring the connections for Card Data Security in our tokenizer service, you can define the connection and credentials in your ServiceNow instance. This enables you to communicate to the Third-Party System in your ServiceNow instance via our tokenizer service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/create-a-new-tokenizer-route.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Configure, Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -17,9 +18,9 @@ After configuring the connections for Card Data Security in our tokenizer servic
 
 ## Before you begin
 
-Set up your Third-Party System connections in our tokenizer service. For more information, see [Set up connections to the tokenizer service](set-up-outbound-connections.md).
+Set up your Third-Party System connections in our tokenizer service. For more information, see [Set up connections to the tokenizer service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/set-up-outbound-connections.md).
 
-Install and set up integrations to the Third-Party Systems \(such as Visa Spoke or Mastercard Spoke\). Card Data Security requires these integrations to function correctly. For more information, see [Integrating with spokes](../../fso-common/concept/spokes.md).
+Install and set up integrations to the Third-Party Systems \(such as Visa Spoke or Mastercard Spoke\). Card Data Security requires these integrations to function correctly. For more information, see [Integrating with spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/spokes.md).
 
 Role required: admin
 
@@ -33,7 +34,7 @@ You need to create new connection aliases to third-party services that use our t
 
 2.  Create a Connection &amp; Credential alias for your third-party connection.
 
-    For more information, see [Create a Connection &amp; Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+    For more information, see .
 
     You will see records for VROLCardDataSecurity or MastercomCardDataSecurity if Visa Spoke or Mastercard Spoke are installed.
 
@@ -41,9 +42,9 @@ You need to create new connection aliases to third-party services that use our t
 
 4.  In the Related Links section, select **Connections** &gt; **New**.
 
-5.  Follow the steps in [Create an HTTP\(s\) connection](https://www.servicenow.com/docs/access?context=create-https-connection&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) to create a new credential record for this connection.
+5.  Follow the steps in  to create a new credential record for this connection.
 
-    When selecting the type of credentials to create, select the credential type that match the authentication method you defined in our tokenizer service as part of the steps in [Set up connections to the tokenizer service](set-up-outbound-connections.md).
+    When selecting the type of credentials to create, select the credential type that match the authentication method you defined in our tokenizer service as part of the steps in [Set up connections to the tokenizer service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/set-up-outbound-connections.md).
 
     |Tokenizer service authentication method|Credential type|
     |---------------------------------------|---------------|
@@ -52,7 +53,7 @@ You need to create new connection aliases to third-party services that use our t
 
     In the new record form for the credential, use the API key or credentials data generated from our tokenizer service.
 
-    ![For API key credentials, enter the API key from our tokenizer service into the API Key field for the record.](../image/api-key-credentials.png)
+    \[Omitted image "api-key-credentials.png"\] Alt text: For API key credentials, enter the API key from our tokenizer service into the API Key field for the record.
 
 
 ## What to do next

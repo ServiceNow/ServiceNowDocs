@@ -2,6 +2,7 @@
 title: Use service catalog variables in a report
 description: In reports on service catalog data, stack and group by variables, use variables as columns in list reports, and as columns and rows in multilevel pivot tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/use-service-catalog-variables-in-report.html
 release: zurich
 product: Reporting
 classification: reporting
@@ -30,7 +31,7 @@ Users with the report\_admin role can report on service catalog variables. Add t
 
 For primary **Group by** and **Stack by**, these steps are intuitive.
 
-![Service catalog variable use in Group by and Stack by fields.](../image/VariableGroupByStackBy.png "Variable use in Group by and Stack by fields")
+\[Omitted image "VariableGroupByStackBy.png"\] Alt text: Service catalog variable use in Group by and Stack by fields.
 
 **Note:** List, Box, Trendbox, and Pivot reports cannot use service catalog variables as a primary or secondary **Group by**. Single Score, Calendar, Control, and Map reports do not support **Group by** on any fields. List reports can use service catalog variables as columns.
 
@@ -42,7 +43,7 @@ Use a variable as an extra **Group by**, as a column in a list report, or as a c
 
 2.  Do one of the following.
 
-<table id="choicetable_p2g_2qf_v5"><tbody><tr><td id="d197146e117">
+<table id="choicetable_p2g_2qf_v5"><tbody><tr><td id="d30211e117">
 
 **Add as a column in a list report**
 
@@ -50,7 +51,7 @@ Use a variable as an extra **Group by**, as a column in a list report, or as a c
 
 On the **Configure** tab, move **Variables+** to the **Selected** column.
 
-</td></tr><tr><td id="d197146e135">
+</td></tr><tr><td id="d30211e135">
 
 **Add as an extra __Group by__**
 
@@ -58,7 +59,7 @@ On the **Configure** tab, move **Variables+** to the **Selected** column.
 
 On the **Configure** tab, click **Additional group by**, then move **Variables+** at the bottom of the **Selected** of the **Additional group by** list.
 
-</td></tr><tr><td id="d197146e162">
+</td></tr><tr><td id="d30211e162">
 
 **Add as a column or row in a multilevel pivot table**
 
@@ -71,7 +72,7 @@ Click **Select columns** or **Select rows**, then select **Variables+** at the b
 
 
 </td></tr></tbody>
-</table>3.  Click the structure icon \(![Report structure icon](../image/Form_ShowReportStructureIcon.png)\) and then the plus sign that appears.
+</table>3.  Click the structure icon \(\[Omitted image "Form\_ShowReportStructureIcon.png"\] Alt text: Report structure icon\) and then the plus sign that appears.
 
     A list of service catalog items appears.
 
@@ -84,5 +85,5 @@ Click **Select columns** or **Select rows**, then select **Variables+** at the b
 6.  **Save** the report.
 
 
-**Parent Topic:**[Report on service catalog variables](../concept/rep-service-catalog-variables.md)
+**Parent Topic:**[Report on service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/rep-service-catalog-variables.md)
 

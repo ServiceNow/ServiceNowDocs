@@ -2,6 +2,7 @@
 title: Manage Post Incident Review Report
 description: Manage post incident review report includes the information that was configured and applied by the Security Admin, and the security analysts can modify the timeline filters at run-time and download it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/new-manage-post-incident-review-report.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

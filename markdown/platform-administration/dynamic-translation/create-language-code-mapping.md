@@ -2,6 +2,7 @@
 title: Create a language code mapping
 description: Create a language code mapping to map the ServiceNow language codes with the language codes of the translation service providers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/dynamic-translation/create-language-code-mapping.html
 release: zurich
 product: Dynamic Translation
 classification: dynamic-translation

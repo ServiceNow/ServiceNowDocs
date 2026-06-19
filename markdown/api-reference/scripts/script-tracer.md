@@ -2,6 +2,7 @@
 title: Script Tracer and debugging scripts
 description: The Script Tracer can help you filter your debugging search to quickly narrow down script problems. You can identify lines of scripts in the Glide record that have undergone change during execution. Finding those specific lines of scripts rather than doing a wide search helps save time and improves productivity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/script-tracer.html
 release: zurich
 product: Scripts
 classification: scripts
@@ -26,7 +27,7 @@ Once you enable Script Tracer and execute a UI transaction, the Tracer searches 
 -   **File type**: Search for a specific file type
 -   **Table**: Look in the specific table for the script being executed
 
-The Script Tracer searches for changes in the script during execution and presents them in a list for you to examine. When you click **Start Tracer**, the Tracer begins searching for changes in the Glide record. You can click the **Debug Script** button at any time to see the script itself.![Script difference output](../image/script-tracer-diff-line.png)
+The Script Tracer searches for changes in the script during execution and presents them in a list for you to examine. When you click **Start Tracer**, the Tracer begins searching for changes in the Glide record. You can click the **Debug Script** button at any time to see the script itself.\[Omitted image "script-tracer-diff-line.png"\] Alt text: Script difference output
 
 Use the tabs to see specific information from the Tracer.
 
@@ -37,7 +38,7 @@ The **State** tab displays the differences between the old and new scripts.
 
 **Note:** If the file is not reflected in the trace statement, it means the changes in the Glide record is not recognized by the system.
 
-If there are any errors, they display at the top of the State tab, with their line numbers and error message displayed in order of occurrence.![Errors listed in the State tab.](../image/script-tracer-error.png)
+If there are any errors, they display at the top of the State tab, with their line numbers and error message displayed in order of occurrence.\[Omitted image "script-tracer-error.png"\] Alt text: Errors listed in the State tab.
 
 -   **Script**: Displays the line of changed scripts that the Glide record has undergone during execution. You can view the entire line of script by clicking the **Show Script** button.
 -   **Transaction**: Shows all transaction records of the trace
@@ -51,7 +52,7 @@ You may want to set a limit for your trace so that you don't generate too many r
 
 Since each trace you run is new, make sure you're finished reading the results of one trace before clearing it and beginning another one.
 
-To learn more, see [Debugging scripts](script-debug-overview.md).
+To learn more, see [Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/script-debug-overview.md).
 
-**Parent Topic:**[Script Debugger user interface](../reference/parts-script-debugger-interface.md)
+**Parent Topic:**[Script Debugger user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/parts-script-debugger-interface.md)
 

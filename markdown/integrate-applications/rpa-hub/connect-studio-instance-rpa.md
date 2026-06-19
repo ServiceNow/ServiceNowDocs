@@ -2,6 +2,7 @@
 title: Connect to an RPA Hub instance from RPA Desktop Design Studio
 description: Connect to an RPA Hub instance in three ways using the Connection Manager so that you can establish a connection between the RPA Desktop Design Studio and ServiceNow RPA Hub instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/connect-studio-instance-rpa.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -17,9 +18,9 @@ Connect to an RPA Hub instance in three ways using the Connection Manager so tha
 
 ## Before you begin
 
-Set up the RPA Desktop Design Studio application to add ServiceNow instance details. For more information, see [Set up RPA Desktop Design Studio](set-up-rpa-studio.md).
+Set up the RPA Desktop Design Studio application to add ServiceNow instance details. For more information, see [Set up RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/set-up-rpa-studio.md).
 
-Open an automation project. For more information, see [Open a local automation project in RPA Desktop Design Studio](open-project-rpa-studio.md) and [Open a cloud automation project in RPA Desktop Design Studio](open-project-remote-rpa-studio.md).
+Open an automation project. For more information, see [Open a local automation project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/open-project-rpa-studio.md) and [Open a cloud automation project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/open-project-remote-rpa-studio.md).
 
 Role required: none
 
@@ -35,15 +36,15 @@ To connect to a different instance, you must close and reopen the RPA Desktop De
 
 1.  To connect to an RPA Hub instance, do any of the following actions in the Connection Manager dialog box.
 
-<table id="choicetable_ag1_lyx_jrb"><thead><tr><th align="left" id="d300985e153">
+<table id="choicetable_ag1_lyx_jrb"><thead><tr><th align="left" id="d160413e153">
 
 Option
 
-</th><th align="left" id="d300985e156">
+</th><th align="left" id="d160413e156">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d300985e162">
+</th></tr></thead><tbody><tr><td id="d160413e162">
 
 **If there is a single instance**
 
@@ -53,7 +54,7 @@ Action
 2.  Select **Connect**.
 
 
-</td></tr><tr><td id="d300985e189">
+</td></tr><tr><td id="d160413e189">
 
 **If there are multiple instances and none of them are marked as default**
 
@@ -68,7 +69,7 @@ Action
 7.  Select **Log in**.
 
 
-</td></tr><tr><td id="d300985e244">
+</td></tr><tr><td id="d160413e244">
 
 **If an instance is marked as default**
 

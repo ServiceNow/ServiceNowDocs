@@ -2,6 +2,7 @@
 title: SegmentHandle API - Scoped
 description: Methods for handling a single instance of a segment, such as a header or item. This class is defined in the SegmentHandler script include.Adds a predefined field on the current segment instance to the payload.Adds a predefined nested child segment to the payload.Moves up one level in a schema.Gets the root SegmentHandler object, regardless of nesting depth.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/SegmentHandleAPIScoped.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 Methods for handling a single instance of a segment, such as a header or item. This class is defined in the SegmentHandler script include.
 
-The [SegmentHandler](../../SegmentHandlerScoped/concept/SegmentHandlerAPIScoped.md#) script include requires the Zero Copy Connector for ERP \(com.sn\_erp\_integration\) store application and is provided within the sn\_erp\_integration namespace. For more information, refer to [Zero Copy Connector for ERP](https://www.servicenow.com/docs/access?context=erp-integration-overview&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+The [SegmentHandler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/SegmentHandlerAPIScoped.md) script include requires the Zero Copy Connector for ERP \(com.sn\_erp\_integration\) store application and is provided within the sn\_erp\_integration namespace. For more information, refer to .
 
 Role required: sn\_erp\_integration.erp\_user
 
@@ -25,7 +26,7 @@ Use the methods in this class for the following tasks:
 -   Add nested/child segments under the instance.
 -   Chain back to parent or root using the `endSegment()` or `root()` methods.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## SegmentHandle - addField\(String fieldName, String value\)
 

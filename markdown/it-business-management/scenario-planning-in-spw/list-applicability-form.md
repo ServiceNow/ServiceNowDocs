@@ -2,6 +2,7 @@
 title: List Applicability form
 description: Learn the field information for the List Applicability form. Use this information to define audience for the newly created lists for Strategic Planning workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/list-applicability-form.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -56,5 +57,5 @@ Active
 Option to enable this applicability to the list.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Strategic Planning](form-field-information-for-strategic-planning.md)
+</table>**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
 

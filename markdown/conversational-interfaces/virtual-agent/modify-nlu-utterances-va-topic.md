@@ -2,6 +2,7 @@
 title: Modify NLU utterances and entities for a Virtual Agent topic
 description: View, test, and modify NLU utterances for a Virtual Agent topic on the NLU Intent tab in Virtual Agent Designer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/modify-nlu-utterances-va-topic.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -39,14 +40,14 @@ Role required: virtual\_agent\_admin or admin
 
 5.  Associate entities with words in utterances.
 
-    Entities represent the context for the action. For example, common industry terms can be defined as entities to clarify the context. Universal system entities may include known elements like date and time or currency. NLU can match defined entities with user input to slot-fill the values. There are five types of entities you can define. For detailed information, see [NLU entities](https://www.servicenow.com/docs/access?context=entities&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+    Entities represent the context for the action. For example, common industry terms can be defined as entities to clarify the context. Universal system entities may include known elements like date and time or currency. NLU can match defined entities with user input to slot-fill the values. There are five types of entities you can define. For detailed information, see NLU entities.
 
 6.  Select **Save** in the header bar.
 
 
 ## What to do next
 
-After making changes, you can [train, test, and publish the model](train-test-publish-nlu-model-vad.md) from this tab.
+After making changes, you can [train, test, and publish the model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/train-test-publish-nlu-model-vad.md) from this tab.
 
-**Parent Topic:**[Create a Virtual Agent topic](create-virtual-agent-topic.md)
+**Parent Topic:**[Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
 

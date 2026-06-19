@@ -2,6 +2,7 @@
 title: Components installed with HR Service Delivery Integration with Ultimate Kronos Group
 description: Several types of components are installed with activation of the HR Service Delivery Integration with Ultimate Kronos Group plugin, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/installed-with-ukg-int.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -70,5 +71,5 @@ Symbolic Period \[sn\_hr\_ukg\_symbolic\_period\]
 Stores symbolic periods with their associated IDs. Symbolic periods denote the time periods that are identifiable by the Ultimate Kronos Group application.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference - HR Service Delivery with Ultimate Kronos Group](ref-hrsd-ukg.md)
+</table>**Parent Topic:**[Reference - HR Service Delivery with Ultimate Kronos Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/ref-hrsd-ukg.md)
 

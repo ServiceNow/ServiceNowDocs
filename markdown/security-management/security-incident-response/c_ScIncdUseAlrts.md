@@ -2,6 +2,7 @@
 title: Security incidents created from events and alerts
 description: As events are imported from alert monitoring tools, they are first processed by Event Management and grouped into alerts. These alerts can be used to create security incidents based on customizable alert rules, or manually reviewed to select those alerts to be investigated as a security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/c\_ScIncdUseAlrts.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

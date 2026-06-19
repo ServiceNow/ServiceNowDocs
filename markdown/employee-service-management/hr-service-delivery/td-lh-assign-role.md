@@ -2,6 +2,7 @@
 title: Assign a leader or supporter role to a user record
 description: Provide organizational leaders and supporters with access to Leader Hub by assigning the required roles to their user record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/td-lh-assign-role.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,13 +18,13 @@ Provide organizational leaders and supporters with access to Leader Hub by assig
 
 ## Before you begin
 
-You must create an active employee definition to generate employee profiles. For more information about this process, refer to [Create an active employee definition](../../employee-center/task/generate-profile-definition.md).
+You must create an active employee definition to generate employee profiles. For more information about this process, refer to [Create an active employee definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/generate-profile-definition.md).
 
-You must enable the new employee details and design. For more information, see [Opt in to the employee profile](../../employee-center/task/profile-opt-in.md).
+You must enable the new employee details and design. For more information, see [Opt in to the employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/profile-opt-in.md).
 
-You must provide employees of your organization with a license to enable access to Leader Hub. For more information about employee licensing, refer to [License Talent Development Core users](../../employee-service-management/task/egd-employee-profile-licensing.md).
+You must provide employees of your organization with a license to enable access to Leader Hub. For more information about employee licensing, refer to [License Talent Development Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-employee-profile-licensing.md).
 
-Define eligible users to show up in the org chart. For more information, see [Organization chart in Employee Center Pro](../../employee-center/concept/employee-profile-org-chart.md). Select **Employee Profile** in the **Table** field.
+Define eligible users to show up in the org chart. For more information, see [Organization chart in Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-profile-org-chart.md). Select **Employee Profile** in the **Table** field.
 
 Role required: admin \[sn\_egd\_lh.admin\]
 
@@ -64,5 +65,5 @@ Organizational leaders and supporters have the required role assigned to their u
 |Organizational leader|**All** &gt; **Leader Hub** &gt; **Leaders**|
 |Organizational supporter|**All** &gt; **Leader Hub** &gt; **Supporters**|
 
-**Parent Topic:**[Installing and configuring Leader Hub](../concept/td-lh-install-config.md)
+**Parent Topic:**[Installing and configuring Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/td-lh-install-config.md)
 

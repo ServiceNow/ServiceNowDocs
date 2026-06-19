@@ -2,6 +2,7 @@
 title: Configure an ADFS relying party
 description: Take the instance metadata and import it into your ADFS server. However, manual configuration of the relying party appears to be easier to implement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/t\_ConfigureADFSRelyingParty.html
 release: zurich
 product: Authentication
 classification: authentication

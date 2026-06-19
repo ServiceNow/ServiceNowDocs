@@ -2,11 +2,12 @@
 title: Enable integration with ServiceNow DevOps in Split tool
 description: Enable integration with ServiceNow DevOps in Split tool and restrict approvers to only the enabled integration for your environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/enable-integration-servicenow-devops-split.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Split, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -23,7 +24,7 @@ Role required: admin in Split organization
 
 1.  In Split tool marketplace, navigate to **Admin Settings &gt; Integrations**.
 
-2.  Add ServiceNow DevOps in the **Integration Name** field, and select **Save**.![ServiceNow admin settings in Split tool](../image/split-admin-settings.png)
+2.  Add ServiceNow DevOps in the **Integration Name** field, and select **Save**.\[Omitted image "split-admin-settings.png"\] Alt text: ServiceNow admin settings in Split tool
 
     A token is generated, which must be used while onboarding the Split.io tool.
 
@@ -31,8 +32,8 @@ Role required: admin in Split organization
 
 4.  In the **Change permissions** field, select **Require approvals for changes &gt; Restrict who can approve**.
 
-5.  Select **Integrations** from the drop-down and select the integration configured in step 2 as, and select **Save**.![Restrict approvers for environment](../image/split-restrict-approver.png)
+5.  Select **Integrations** from the drop-down and select the integration configured in step 2 as, and select **Save**.\[Omitted image "split-restrict-approver.png"\] Alt text: Restrict approvers for environment
 
 
-**Parent Topic:**[Split.io integration with DevOps Change Velocity](../concept/split-integration-devops-classic.md)
+**Parent Topic:**[Split.io integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/split-integration-devops-classic.md)
 

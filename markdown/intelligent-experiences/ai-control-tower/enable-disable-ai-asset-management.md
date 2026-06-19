@@ -2,6 +2,7 @@
 title: Enable or disable the management of an AI asset
 description: Enable or disable the management of an AI asset by designating it as either managed or unmanaged.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/enable-disable-ai-asset-management.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
@@ -21,7 +22,7 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## About this task
 
-If you designate an AI asset as managed, you can perform all life-cycle management and request creation processes on that asset. In addition, you can determine the risk classification, value, quality, and safety of the asset. If you designate an AI asset as unmanaged, you cannot perform any processes on it. By using these designations, you can streamline the asset management process and reduce operational risks. For more information on managed and unmanaged AI assets, see [Assets list- managed and unmanaged assets](assets-list-managing-and-unmanaging-assets.md).
+If you designate an AI asset as managed, you can perform all life-cycle management and request creation processes on that asset. In addition, you can determine the risk classification, value, quality, and safety of the asset. If you designate an AI asset as unmanaged, you cannot perform any processes on it. By using these designations, you can streamline the asset management process and reduce operational risks. For more information on managed and unmanaged AI assets, see [Managing AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/assets-list-managing-and-unmanaging-assets.md).
 
 **Note:** By default, all AI assets that you create through the AI Control Tower application are automatically designated as managed.
 
@@ -64,5 +65,5 @@ If you designate an AI asset as managed, you can perform all life-cycle manageme
         The asset is designated as unmanaged and automatically moves to the corresponding **AI asset inventory - Unmanaged** subsection. The life-cycle review process, risk classification, value template calculations, and evaluations for the asset are automatically canceled.
 
 
-**Parent Topic:**[Using AI Control Tower](../concept/using-ai-control-tower.md)
+**Parent Topic:**[Using AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
 

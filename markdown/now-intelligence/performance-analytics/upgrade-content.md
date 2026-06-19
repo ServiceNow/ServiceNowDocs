@@ -2,6 +2,7 @@
 title: Upgrade a dashboard
 description: When you upgrade a dashboard, solution metadata that have updates available, including any new records added to the dashboard, are installed. Solution metadata records that you have customized, even if those records are updated in the newer release​, are not affected.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/upgrade-content.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -52,5 +53,5 @@ New dashboard records are added to the dashboard. Updates to dashboard records t
 
 If the dashboard does not appear as you expected after installing the solution content, see if the uninstalled records appear on the customer update table. Any uninstalled records on this table were previously customized. To view the customer updates table, enter `sys_update_xml.list` in the filter navigator.
 
-**Parent Topic:**[Install a dashboard](install-content.md)
+**Parent Topic:**[Install a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/install-content.md)
 

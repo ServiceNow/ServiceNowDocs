@@ -2,6 +2,7 @@
 title: Convert manual services to application services using API
 description: You can use a JavaScript API to convert existing manual services to application services. Event Management can use application services to monitor service performance and identify health issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/convert-manual-to-application-service.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -26,7 +27,7 @@ During the conversion process:
 -   The configuration items \(CIs\) of the manual service are retained in the application services after the conversion.
 -   The system queries the CMDB for the latest CI changes and applies CI impact rules.
 
-The maximum number of CI connections added to application services during this operation is controlled by the [sa.service.max\_ci\_service\_population](https://www.servicenow.com/docs/access?context=components-installed-app-services&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) property. By default, the value is 1,000 \(one thousand connections\). Increasing the number of CI connections may cause performance issues. To adjust the maximum number of added CI connections, add the sa.service.max\_ci\_service\_population property, as described in [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+The maximum number of CI connections added to application services during this operation is controlled by the sa.service.max\_ci\_service\_population property. By default, the value is 1,000 \(one thousand connections\). Increasing the number of CI connections may cause performance issues. To adjust the maximum number of added CI connections, add the sa.service.max\_ci\_service\_population property, as described in Add a system property.
 
 Attempting to process more CIs than the value specified in the sa.service.max\_ci\_service\_population property causes the operation to fail.
 
@@ -65,10 +66,10 @@ var bsManager = new SNC.BusinessServiceManager();
 var res = bsManager.migrateManualToApplicationService("451047c6c0a8016400de0ae6df9b9d76");
 ```
 
-**Parent Topic:**[Application services in Event Management](../concept/application-service-event-management.md)
+**Parent Topic:**[Application services in Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/application-service-event-management.md)
 
 **Related topics**  
 
 
-[BusinessServiceManager - Global](https://www.servicenow.com/docs/access?context=BusinessServiceManagerAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.BusinessServiceManagerAPI]
 

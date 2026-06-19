@@ -2,6 +2,7 @@
 title: Configure your pipeline
 description: Configure your app development pipeline so that your administrator can quickly move an application from one environment to another.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-management-center/config-pipeline.html
 release: zurich
 product: App Engine Management Center
 classification: app-engine-management-center
@@ -17,7 +18,7 @@ Configure your app development pipeline so that your administrator can quickly m
 
 ## Before you begin
 
-You must create all of your pipeline environment records before completing these steps. For more information, see [Configure your pipeline environments](config-pipeline-environments.md).
+You must create all of your pipeline environment records before completing these steps. For more information, see [Configure your pipeline environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/config-pipeline-environments.md).
 
 Role required: admin or app\_engine\_admin
 
@@ -27,7 +28,7 @@ Role required: admin or app\_engine\_admin
 
 2.  Select **New**.
 
-    ![Creating a new pipeline record](../image/new-pipeline-purple.png "Pipeline - new record")
+    \[Omitted image "new-pipeline-purple.png"\] Alt text: Creating a new pipeline record
 
 3.  On the form, fill in the fields.
 

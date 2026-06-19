@@ -2,6 +2,7 @@
 title: Notify voice and SMS capabilities
 description: Notify provides support for SMS and voice channels for communicating internally with team members and externally with customers and contractors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/notify/notify-voice-SMS-capabilities.html
 release: zurich
 product: Notify
 classification: notify
@@ -17,8 +18,8 @@ Notify provides support for SMS and voice channels for communicating internally 
 
 Notify provides a way for applications to start and manage a conference, send/receive SMS, send/receive calls and present them with IVR like system.
 
--   **[How Notify processes incoming calls](c_ProcessingNotifyCalls.md)**  
+-   **[How Notify processes incoming calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/c_ProcessingNotifyCalls.md)**  
 Notify processes incoming calls using workflow activities.
 
-**Parent Topic:**[Exploring Notify](exploring-notify.md)
+**Parent Topic:**[Exploring Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/exploring-notify.md)
 

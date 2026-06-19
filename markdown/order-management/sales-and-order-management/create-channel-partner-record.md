@@ -2,11 +2,12 @@
 title: Create Channel Partner record
 description: Create and track channel partner records on the partner workspace to manage and store all information related to the channel partners.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/create-channel-partner-record.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Partner Workspace, Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -21,7 +22,7 @@ Role required: sn\_prm.enterprise\_partner\_admin
 
 ## Procedure
 
-1.  Navigate to the **CSM/FSM Configurable Workspace** and select the list ![](../../tmt-assurance-workflows/image/lists_icon-proactive.png) view.
+1.  Navigate to the **CSM/FSM Configurable Workspace** and select the list \[Omitted image "lists\_icon-proactive.png"\] Alt text: view.
 
 2.  Select **Channel Partners** from the Partner Relationship Management.
 
@@ -29,7 +30,7 @@ Role required: sn\_prm.enterprise\_partner\_admin
 
 4.  On the form, fill in the fields.
 
-    To learn more about the fields in the channel partner details section, see [Channel partner table fields](../reference/channel-partner-table-fields.md).
+    To learn more about the fields in the channel partner details section, see [Channel partner table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/channel-partner-table-fields.md).
 
     |Field|Description|
     |-----|-----------|
@@ -44,10 +45,10 @@ Role required: sn\_prm.enterprise\_partner\_admin
 7.  Select **Save**.
 
 
--   **[View Channel Partner information on partner workspace](view-channel-partner-information-on-partner-workspace.md)**  
+-   **[View Channel Partner information on partner workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/view-channel-partner-information-on-partner-workspace.md)**  
 View consolidated channel partner information through the multiple tabs on workspace.
--   **[Register Partner Staff on workspace](register-partner-staff-on-workspace.md)**  
+-   **[Register Partner Staff on workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/register-partner-staff-on-workspace.md)**  
 Register a new partner member or transfer existing staff in a partner organization.
 
-**Parent Topic:**[Partner Workspace](../concept/partner-workspace.md)
+**Parent Topic:**[Partner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/partner-workspace.md)
 

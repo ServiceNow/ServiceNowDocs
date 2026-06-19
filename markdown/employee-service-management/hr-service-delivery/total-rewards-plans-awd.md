@@ -2,6 +2,7 @@
 title: Set up plans for Total Rewards
 description: Complete the one time set up of pulling plans, such as employee benefits plan, compensation plan, insurance plan, from Workday into the ServiceNow application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/total-rewards-plans-awd.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

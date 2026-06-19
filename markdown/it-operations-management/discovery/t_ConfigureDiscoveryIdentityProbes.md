@@ -2,6 +2,7 @@
 title: Configure Discovery identity probes
 description: Identity probes are multi-probes, which contain one or more simple probes configured to extract specific information from manageable devices. You can create your own identity multi-probe to identify CIs that Discovery does not already identify.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/t\_ConfigureDiscoveryIdentityProbes.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -40,11 +41,11 @@ Identity probes return such information as device serial numbers \(there can be 
 
 ## Example
 
-![Discovery identity probes](../image/DiscoveryMultiprobeSelect.png "Discovery identity probes")
+\[Omitted image "DiscoveryMultiprobeSelect.png"\] Alt text: Discovery identity probes
 
 ## What to do next
 
-[Configure Discovery identity sensors](t_ConfigDiscoIdentSens.md) that are part of the identify probes.
+[Configure Discovery identity sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_ConfigDiscoIdentSens.md) that are part of the identify probes.
 
-**Parent Topic:**[Discovery identifiers](../concept/c_DiscoveryIdentifiers.md)
+**Parent Topic:**[Discovery identifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_DiscoveryIdentifiers.md)
 

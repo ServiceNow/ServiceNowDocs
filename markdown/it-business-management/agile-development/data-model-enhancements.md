@@ -2,6 +2,7 @@
 title: Data model enhancements from Agile Development 1.0 to Agile Development 2.0
 description: Agile Development 2.0 offers a few data model enhancements over Agile Development 1.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/data-model-enhancements.html
 release: zurich
 product: Agile Development
 classification: agile-development
@@ -19,7 +20,7 @@ Agile Development 2.0 offers a few data model enhancements over Agile Developmen
 
 To map an agile team \(scrum team\), Agile Development 1.0 uses a separate entity called the Release Team table \( scrum\_pp\_team\). This entity is associated to a release entity as displayed in the following screen shot.
 
-**Important:** Agile Development 1.0 and its features such as Sprint burndown chart and release burndown chart are deprecated and no longer available. [Agile Development 2.0](agile-landing-page.md) provides the latest experience for supporting your Agile work methodology.
+**Important:** Agile Development 1.0 and its features such as Sprint burndown chart and release burndown chart are deprecated and no longer available. [Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/agile-landing-page.md) provides the latest experience for supporting your Agile work methodology.
 
 All other tasks on platform such as incidents, problems, changes, projects rely on the assignment group entity to make assignments to a group. Group managers can run reports on an assignment group to gain insight into the work assigned to their groups.
 
@@ -56,5 +57,5 @@ Specify the number of sprints for which the group works in a release. From the c
 
 Total Release Capacity = 90+ 160 = 250 points
 
-**Parent Topic:**[Agile Development 2.0 enhancements over Agile Development 1.0](../concept/appendix.md)
+**Parent Topic:**[Agile Development 2.0 enhancements over Agile Development 1.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/appendix.md)
 

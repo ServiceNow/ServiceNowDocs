@@ -2,6 +2,7 @@
 title: Configuring Territory Level
 description: Create territory levels to categorize territories such as regional, district, area, and global for better organization of territories.​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configure-territory-levels.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

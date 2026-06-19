@@ -1,20 +1,21 @@
 ---
-title: Configuring TISC add-on in Splunk
-description: Follow this below procedure to configure the application.
+title: Configure TISC add-on in Splunk
+description: Configure the TISC add-on in Splunk to connect your account, define data inputs, and pull observable records into the KV store for search and analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-configure-splunk.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-05"
-reading_time_minutes: 6
+last_updated: "2026-03-12"
+reading_time_minutes: 7
 keywords: [configure, tisc add-on, splunk]
-breadcrumb: [TISC add-on for Splunk overview, Configure Sighting Search, Sighting Search, TISC Enrichment Integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [TISC add-on for Splunk overview, TISC Security Tools Integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
-# Configuring TISC add-on in Splunk
+# Configure TISC add-on in Splunk
 
-Follow this below procedure to configure the application.
+Configure the TISC add-on in Splunk to connect your account, define data inputs, and pull observable records into the KV store for search and analysis.
 
 ## Before you begin
 
@@ -22,13 +23,13 @@ Role required: Splunk admin
 
 ## About this task
 
-The below procedure describes the configuration of TISC add-on in Splunk.
+The TISC add-on connects your ServiceNow account to Splunk and pulls observable records into the KV store.
 
 ## Procedure
 
 1.  Search for **Threat Intelligence Security Center for Splunk** app from the left navigation.
 
-2.  Click on **Set up** under the **Actions** column.
+2.  Select **Set up** under the **Actions** column.
 
     The **Configuration** page is displayed, and you can set up your ServiceNow TISC account.
 
@@ -40,21 +41,19 @@ The below procedure describes the configuration of TISC add-on in Splunk.
     |-----|-----------|
     |**Add Accounts**|
     |Name|A unique name for the account.|
-    |User Name|Provide your ServiceNow account user name. You can use the same user name that is used for the users which is created during the role creation `sn_sec_tisc.api_obs_read_access` in the above step.|
-    |Password|Provide ServiceNow account password.|
-    |Instance URL|Provide the ServiceNow instance URL address.|
+    |User Name|The ServiceNow account user name. You can use the same user name created during role creation \[`sn_sec_tisc.api_obs_read_access`\] in the preceding step.|
+    |Password|The ServiceNow account password.|
+    |Instance URL|The ServiceNow instance URL.|
 
-5.  Click **Add**.
+5.  Select **Add**.
 
     The ServiceNow instance account is added to the Splunk.
 
-6.  Navigate to the **Inputs** page to create collections manage your data inputs for your ServiceNow account.
+6.  Navigate to the **Inputs** page to manage your data inputs for your ServiceNow account.
 
-7.  Click **Create New Input**.
+7.  Select **Create Input**.
 
-    The **Add Input** dialogue box is displayed for you to add the inputs to your ServiceNow account.
-
-    Once the input set is defined, the application sends the information to the TISC instance to retrieve a specific number of observables that meet the criteria.
+    The **Add Input** dialogue box is displayed for you to add the inputs to your ServiceNow account. After the input set is defined, the application sends the information to the TISC instance to retrieve a specific number of observables that meet the criteria.
 
 8.  Fill in the input details, as appropriate.
 
@@ -80,7 +79,7 @@ Account
 
 </td><td>
 
-Provide your ServiceNow account user name. You can use the same user name that is used for the users that is created with the role `sn_sec_tisc.api_obs_read_access` in the above step.
+The ServiceNow account user name. You can use the same user name created with the role `sn_sec_tisc.api_obs_read_access` in the preceding step.
 
 </td></tr><tr><td>
 
@@ -88,15 +87,17 @@ Interval
 
 </td><td>
 
-Set time interval in seconds to retrieve the data from TISC.
+Set time interval in seconds to retrieve the incremental data from TISC to the Splunk instance.
 
 </td></tr><tr><td>
 
-Expiry Period\(in days\)
+Offset \(in seconds\)
 
 </td><td>
 
-Option to set the expiry period in days.**Note:** The sample expiration is set to 30 days. For example, when data is pulled on a specific date, a set of 10,000 records may be retrieved. These records will be stored in the KV \(Key-Value\) store within Splunk. Starting from the ingested date, the records will be retained for 30 days. On the 31st day, they will be automatically deleted from the KV store.
+Number of seconds to subtract from the last execution time when building the incremental fetch filter. For example, if the last fetch ran at 10:00:00 and **Offset** is set to 5, the next fetch requests records updated since 09:59:55, creating a 5-second overlap window. The offset ensures that records updated in TISC at the same time as the data being retrieved from Splunk, are included in sequential runs and not overlooked.Valid values: 1 to 30. Default: 5. Empty: no offset.
+
+**Note:** A higher offset value reduces the chance of missed records, but may fetch duplicate records.
 
 </td></tr><tr><td>
 
@@ -104,7 +105,33 @@ Never Expire
 
 </td><td>
 
-Choose this option if you don’t wish to expire the records ingested.
+Choose this option if you don't want to expire the records ingested.
+
+</td></tr><tr><td>
+
+Expiration Type
+
+</td><td>
+
+Controls how the records expire from the Splunk KV store: -   **Splunk-side expiry** — Records expire after the number of days configured in **Expiry Period \(in days\)**, calculated from the time of ingestion into Splunk.
+-   **Map TISC expiration** — Records expire when the `expiration_time` configured for the TISC observable `` is reached.
+
+
+</td></tr><tr><td>
+
+Expiry Period \(in days\)
+
+</td><td>
+
+Option to set the expiry period in days — displayed when you select **Splunk-side expiry**. **Note:** The sample expiration is set to 30 days. For example, when data is pulled on a specific date, a set of 10,000 records may be retrieved. These records are stored in the KV \(Key-Value\) store within Splunk. Starting from the ingested date, the records are retained for 30 days. On the 31st day, they are automatically deleted from the KV store.
+
+</td></tr><tr><td>
+
+Enable Historical Fetch
+
+</td><td>
+
+Select this option to fetch records from a date and time you specify, instead of only the delta since the last fetch. The fetch runs once on the next interval and then the option is disabled automatically. To run another historical fetch, re-enable the option and set a new start date.
 
 </td></tr><tr><td>
 
@@ -112,7 +139,7 @@ Additional Attributes
 
 </td><td>
 
-Allows you to add additional attributes from the list of recommended options to include in the KV store. Attributes must be separated by commas.A list of allowed attributes is provided in the table following the mandatory attributes table.
+Additional attributes from the list of recommended options to include in the KV store. Attributes must be separated by commas.A list of allowed attributes is provided in the table following the mandatory attributes table.
 
 </td></tr><tr><td>
 
@@ -120,10 +147,11 @@ Filters
 
 </td><td>
 
-Define the conditions based on which data should be imported will be filtered.To set the filter conditions, you can define the criteria based on the fields such as threat score, confidence level, and type.
+Conditions that determine which data is imported and filtered. To set the filter conditions, you can define the criteria based on the fields such as threat score, confidence level, and type.
 
-For simple filter conditions, you can use this filtering option. However, if the filter conditions are more complex and for any advanced filtering then you can choose to add JSON filters.
+Use this option for simple, single-level conditions joined by AND operators. For complex conditions or nested groups, select **JSON Filters**.
 
+ -   Allowed tokens: `threat_score`, `confidence`, `reputation`, `type`, `value`.
 -   The allowed integer operators are:
 
 "=", "!=", "&gt;", "&lt;", "&gt;=", "&lt;="
@@ -132,81 +160,83 @@ For simple filter conditions, you can use this filtering option. However, if the
 
 "=", "!=", "IN"
 
-**Below is an example of a simple filter**:
+Simple filter example:
 
 ```
-{Sample filter format: Allowed Tokens: "threat_score", "confidence", "reputation", "type", "value". Allowed Integer Operators: "=", "!=", ">", "<", ">=", "<=". Allowed String Operators: "=", "!=", "IN". Example: reputation IN ("clean","suspicious","malicious") AND threat_score > 90 AND confidence > 90 AND type = "ip_v4_address"}
+reputation IN ("clean","suspicious","malicious") AND threat_score > 90 AND confidence > 90 AND type = "ip_v4_address"
 ```
 
 </td></tr><tr><td>
 
-JSON
+JSON Filters
 
 </td><td>
 
-JSON based filters allows you to define more intricate conditions.
+JSON-format filters for more complex conditions, including grouped boolean logic. Filters support up to 2 levels of nesting. The top-level can use `AND` or `OR` as the boolean operator, with individual filter conditions or one level of nested boolean groups beneath it. Filters with nesting deeper than 2 levels are rejected. **Note:** When using a top-level OR filter, the latest version of TISC must be installed.
+
+Sample JSON filter:
+
+```
+{"boolean_operator":"AND","filters":[{"field_name":"reputation","operator":"IN","field_value":"clean,suspicious,malicious"},{"field_name":"threat_score","operator":">","field_value":"90"},{"field_name":"confidence","operator":">","field_value":"90"},{"field_name":"type","operator":"=","field_value":"ip_v4_address"}]}
+```
 
 </td></tr></tbody>
-</table>    **Sample advanced filter**:
+</table>    **Note:** Accounts are active by default, but inputs are inactive by default. Activate inputs to start importing data. For possible filters refer to Observable\_filters section in Adds observable source records to the Threat Intelligence Security Center \(TISC\) application.
 
-    ```
-    {"boolean_operator":"AND","filters":[{"field_name":"reputation","operator":"IN","field_value":"clean,suspicious,malicious"},{"field_name":"threat_score","operator":">","field_value":"90"},{"field_name":"confidence","operator":">","field_value":"90"},{"field_name":"type","operator":"=","field_value":"ip_v4_address"}]}
-    ```
+9.  Select **Add** to save the inputs.
 
-    **Note:** Accounts are active by default, but inputs are inactive by default, you must activate them to start importing the data. For possible filters refer to Observable\_filters section in [Adds observable source records to the Threat Intelligence Security Center \(TISC\)](https://www.servicenow.com/docs/bundle/zurich-api-reference/page/integrate/inbound-rest/concept/tisc-api.html#title_tisc-POST-observables) application.
+10. Select **Clone** to copy and create an account based on the existing account.
 
-9.  Click **Add** to add the inputs.
+    Deactivate the input before copying to avoid creating duplicate entries when importing data using the same criteria.
 
-10. Click **Clone** or copy to copy and create a new account based on the existing account.
-
-    Make sure that the input is deactivated before cloning to avoid creating duplicate entries when importing data using the same criteria.
-
-11. Once the data is pulled in, the following information will be retrieved and stored in the KV store within Splunk along with the records pulled from TISC:
+11. Review the information retrieved and stored in the KV store within Splunk along with the records pulled from TISC.
 
     |Field|Description|
     |-----|-----------|
     |confidence|Indicates the confidence level associated with the accuracy of the threat score.|
+    |instance\_url|Indicates the ServiceNow instance URL.|
     |kvlookup\_created\_time|Indicates the record creation time in the key value store.|
-    |kvlookup\_days\_till\_expiry|Indicates the number of days after which the record will be deleted from the KV store.|
-    |instance\_url|Indicates the ServiceNow instance URL address.|
+    |kvlookup\_days\_till\_expiry|Indicates the number of days before the record is deleted from the KV store.|
+    |kvlookup\_expiration\_time|Expiration time of the record in Splunk.|
+    |kvlookup\_updated\_time|Indicates the timestamp when the record was last updated in the key value store.|
+    |last\_updated\_by\_input\_name|Name of the input that most recently created or updated this record.|
     |reputation|Indicates the reputation of the entity involved.|
     |source\_reported\_score|The reported source score from TISC.|
-    |sys\_id|Sys ID of the record which is coming through TISC.|
+    |sys\_id|Sys ID of the record from TISC.|
     |threat\_level|Indicates the severity level of the threat.|
     |threat\_score|The score indicating the level of threat associated with a record.|
     |threat\_severity|Indicates the threat severity of the observable.|
     |type|Indicates the observables type.|
-    |updated\_by|Provides the information on who has last updated the record.|
-    |kvlookup\_updated\_time|Indicates the time stamp when the record was last updated in the key value store.|
-    |value|Value of the record. For example, IP, hash and so on.|
+    |updated\_by|The user who last updated the record.|
+    |value|Value of the record. For example, IP address, hash, and similar values.|
 
     |Field|Description|
     |-----|-----------|
-    |additional\_context|Provide any additional context, as needed.|
+    |additional\_context|Any additional context for the observable.|
     |attack\_phases|Indicates attack phases in a kill chain such as LM, MITRE ATT&amp;CK.|
-    |author|Provide the author name.|
-    |comments|Add any additional comments as needed.|
+    |author|Name of the author.|
+    |comments|Any additional comments for the observable.|
     |created|Indicates when the observable was created.|
-    |description|Provide the description.|
-    |expiration\_time|Specifies the expiration time of the observable record.|
+    |description|Description of the observable.|
+    |expiration\_time|Specifies the expiration time of the observable record in TISC.|
     |extensions|Indicates the extensions of an observable.|
     |first\_observed|The first time when the data was observed.|
-    |first\_seen|The first time that this record was first seen performing malicious activities.|
+    |first\_seen|The first time this record was seen performing malicious activities.|
     |historically\_significant|Indicates if the observable is considered historically significant. This TISC system flag is used to exclude the observable from archival.|
     |id|Unique identifier assigned to the observable by the TISC system.|
     |is\_defanged|Flag indicating whether the observable value has been defanged.|
-    |is\_false\_positive|A boolean flag that indicates if observable is identified as false positive.|
+    |is\_false\_positive|Boolean flag that indicates if an observable is identified as false positive.|
     |language|Indicates the language of the text content in this object.|
     |last\_observed|The last time when the data was observed.|
     |last\_seen|The time that this object was last seen performing malicious activities.|
-    |notes|Add any additional notes for an observable record.|
+    |notes|Any additional notes for the observable record.|
     |number|System-generated number assigned to the observable by TISC.|
     |security\_type|Specifies whether the observable belongs to the Allowlist or Denylist.|
     |no\_of\_sources|Represents the number of unique sources that have contributed to the observable.|
     |sources|Specifies the threat source from which this record is created.|
-    |status|Enter the status of the observable if active or inactive.|
-    |tisc\_tags|Select the TISC tags that are associated with an observable.|
-    |taxonomies|Select the Taxonomy that is associated with an observable.|
+    |status|Status of the observable: active or inactive.|
+    |tisc\_tags|The TISC tags associated with the observable.|
+    |taxonomies|The taxonomy associated with the observable.|
     |tlp|Unique value that indicates the Data sensitivity setting per TLP.|
     |updated|Indicates when the observable record was last updated|
     |usage\_categories|Categories that the observable falls under, such as botnet or phishing.|
@@ -215,8 +245,10 @@ JSON based filters allows you to define more intricate conditions.
     These fields along with any others defined by your criteria will be available in Splunk and can be viewed, searched, and analyzed through the search tab.
 
 
--   **[Data storage in Splunk](../concept/tisc-storage-splunk.md)**  
-This section outlines how TISC utilizes lookups during the integration within Splunk's Key-Value store for data storage. It details how these lookups are configured and retrieved within Splunk.
+-   **[Data storage in Splunk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-storage-splunk.md)**  
+Configure and retrieve Key-Value store lookups used by TISC during its integration with Splunk.
+-   **[Troubleshoot the TISC add-on in Splunk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-splunk-troubleshooting.md)**  
+Enable debug logging on the add-on, view the resulting log entries in Splunk, and check input execution status from the Input Metadata Lookup KV store.
 
-**Parent Topic:**[TISC add-on for Splunk overview](../concept/tisc-addon-splunk.md)
+**Parent Topic:**[TISC add-on for Splunk overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-addon-splunk.md)
 

@@ -2,6 +2,7 @@
 title: Identity and Access Audit
 description: Use the Identity and Access Audit to understand changes made for users, groups, roles, and ACLs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/identity-audit.html
 release: zurich
 product: Identity
 classification: identity
@@ -17,21 +18,21 @@ Use the Identity and Access Audit to understand changes made for users, groups, 
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore![Explore](../../../common/image/icon-explore.png)](explore-identity-audit.md)
+[Explore\[Omitted image "icon-explore.png"\] Alt text: Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/explore-identity-audit.md)
 
- [Learn about the features and business value of Identity and Access Audit.](explore-identity-audit.md)
+ [Learn about the features and business value of Identity and Access Audit.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/explore-identity-audit.md)
 
 </td><td>
 
-[Configure![Use](../../../common/image/icon-set-up.png)](../task/configure-tables-and-fields.md)
+[Configure\[Omitted image "icon-set-up.png"\] Alt text: Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/configure-tables-and-fields.md)
 
- [Understand how to configure Identity and Access Audit.](../task/configure-tables-and-fields.md)
+ [Understand how to configure Identity and Access Audit.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/configure-tables-and-fields.md)
 
 </td></tr><tr><td>
 
-[Audit Results![Evaluation](../../../common/image/icon-manage.png)](https://www.servicenow.com/docs/access?context=audit-results&version=zurich&pubname=zurich-it-asset-management&ft:locale=en-US)
+Audit Results\[Omitted image "icon-manage.png"\] Alt text: Evaluation
 
- [View results from Identity and Access Audit.](https://www.servicenow.com/docs/access?context=audit-results&version=zurich&pubname=zurich-it-asset-management&ft:locale=en-US)
+ View results from Identity and Access Audit.
 
 </td><td>
 

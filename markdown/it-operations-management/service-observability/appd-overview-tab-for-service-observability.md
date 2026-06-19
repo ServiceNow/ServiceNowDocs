@@ -2,6 +2,7 @@
 title: AppDynamics Overview tab for Service Observability
 description: Information that is displayed on the AppDynamics Overview tab of the Service Details page in the SOW.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-observability/appd-overview-tab-for-service-observability.html
 release: zurich
 product: Service Observability
 classification: service-observability
@@ -52,7 +53,7 @@ SLO Error Budget
 
 </td><td>
 
-Information about your current error budget for this service, as configured in Service Reliability Management \(SRM\).For more information on error budgets, see [Create SLOs, SLIs, and error budget policies](../../slo-management/task/sr-create-slo-sli.md).
+Information about your current error budget for this service, as configured in Service Reliability Management \(SRM\).For more information on error budgets, see [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-level-objective-management/sr-create-slo-sli.md).
 
 </td><td>
 
@@ -119,5 +120,5 @@ Listing of active alerts that affect this service.
 CMDB
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AppDynamics templates for Service Observability](appd-templates.md)
+</table>**Parent Topic:**[AppDynamics templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/appd-templates.md)
 

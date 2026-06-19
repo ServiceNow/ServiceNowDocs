@@ -2,6 +2,7 @@
 title: Link a Genius Result configuration to a search profile
 description: Link a Genius Result configuration to one or more search profiles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/link-gr-search-profile-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -37,7 +38,7 @@ AI Search evaluates active Genius Result configurations for a search profile in 
 
 4.  On the Search Profile - Genius Result Mapping form, fill in the fields.
 
-    For a description of the field values, see [Search Profile - Genius Result Mapping form](../reference/search-prof-gr-mapping-form-ais.md).
+    For a description of the field values, see [Search Profile - Genius Result Mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/search-prof-gr-mapping-form-ais.md).
 
 5.  Select **Submit**.
 
@@ -46,5 +47,5 @@ AI Search evaluates active Genius Result configurations for a search profile in 
 
 The new Genius Result configuration link appears in the search profile's Genius Results related list.
 
-**Parent Topic:**[Genius Results](../concept/genius-results-ais.md)
+**Parent Topic:**[Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/genius-results-ais.md)
 

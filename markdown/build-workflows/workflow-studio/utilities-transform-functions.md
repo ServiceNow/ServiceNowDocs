@@ -2,6 +2,7 @@
 title: Utilities transform functions
 description: Use utilities transform functions to return a Complex Object from an Array, or a value associated with a specific key.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/utilities-transform-functions.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -15,7 +16,7 @@ breadcrumb: [Transform functions, Flows, subflows, and actions reference, Refere
 
 Use utilities transform functions to return a Complex Object from an Array, or a value associated with a specific key.
 
-Utilities transform functions require an Array, Name-Value Pair, String, Integer, or Choice input data pill. Make sure to use the correct input [data pill type](action-inputs-outputs.md) when applying utilities transform functions. If a utility transform function is applied to an improper data type, the data is not transformed at runtime and the input value is returned instead. For more information on confirming your flow runtime values, see [Test a flow](../task/flow-test.md).
+Utilities transform functions require an Array, Name-Value Pair, String, Integer, or Choice input data pill. Make sure to use the correct input [data pill type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/action-inputs-outputs.md) when applying utilities transform functions. If a utility transform function is applied to an improper data type, the data is not transformed at runtime and the input value is returned instead. For more information on confirming your flow runtime values, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-test.md).
 
 ## Get First Item from Array
 
@@ -74,7 +75,7 @@ Example usage:
 
 In this example, an action makes a REST call to a third-party system and GETs ticket data as a map of Name-Value Pairs. A Ticket ID is provided as an output for this action. The Get Item from Name/Values transform function returns either the value that is associated with the `ticket_id` key or `Ticket ID not found`.
 
-![Associated value for ticket_id key or "Ticket ID not found" returned as action output.](../images/value-map-transform-function-example.png)
+\[Omitted image "value-map-transform-function-example.png"\] Alt text: Associated value for ticket\_id key or "Ticket ID not found" returned as action output.
 
 ## Get Last Item from Array
 
@@ -188,7 +189,7 @@ String associated with the matching key
 
 In this example, a log action stores a record's priority as a message. In the Name-Values section, each priority is mapped to a corresponding string value. When the flow runs, the record's priority number is transformed to a string, and the string is logged to a message.
 
-![A Key-value map transforms a value from a number to a string.](../images/key-value-transform-function-example.png)
+\[Omitted image "key-value-transform-function-example.png"\] Alt text: A Key-value map transforms a value from a number to a string.
 
 ## Sort
 
@@ -233,5 +234,5 @@ Example usage:
 -   Parameters: `<`
 -   Output: `1<2<3`
 
-**Parent Topic:**[Transform functions](../concept/transform-functions.md)
+**Parent Topic:**[Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/transform-functions.md)
 

@@ -2,6 +2,7 @@
 title: Translating the knowledge base
 description: The knowledge base has its own Translation Management system. However, when this is disabled, knowledge base articles use translated\_html fields for translated content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/system-localization/c\_TranslateTheKnowledgeBase.html
 release: zurich
 product: System Localization
 classification: system-localization
@@ -15,7 +16,7 @@ breadcrumb: [Exploring System Localization, System Localization, Translation and
 
 The knowledge base has its own Translation Management system. However, when this is disabled, knowledge base articles use translated\_html fields for translated content.
 
-When any of the internationalization \(I18N\) plugins are enabled, the Knowledge Management Internationalization plugin is enabled. This plugin allows knowledge article authors to create language-specific articles and to translate and access articles. For more information about Knowledge Management internationalization, see [Translation Management](https://www.servicenow.com/docs/access?context=translation-management&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) in the Knowledge Management documentation.
+When any of the internationalization \(I18N\) plugins are enabled, the Knowledge Management Internationalization plugin is enabled. This plugin allows knowledge article authors to create language-specific articles and to translate and access articles. For more information about Knowledge Management internationalization, see Translation Management in the Knowledge Management documentation.
 
-If the Knowledge Management Internationalization plugin is disabled, knowledge base articles use translated\_html fields for article content. This type of field displays the translation based on the language of the user, if multiple translations are stored. To learn about using translated\_html fields, see [Translating text fields](c_UseTranslatedText.md#).
+If the Knowledge Management Internationalization plugin is disabled, knowledge base articles use translated\_html fields for article content. This type of field displays the translation based on the language of the user, if multiple translations are stored. To learn about using translated\_html fields, see [Translating text fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/c_UseTranslatedText.md).
 

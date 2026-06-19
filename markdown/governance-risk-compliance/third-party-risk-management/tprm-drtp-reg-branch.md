@@ -2,6 +2,7 @@
 title: Create a branch and enhance digital resilience data
 description: Create a branch record in Digital resilience third-party registers using Third-party Risk Management. You can then enhance its digital resilience information for compliance with DORA regulation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-branch.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -25,13 +26,13 @@ A legal entity can operate multiple branches across various cities or countries,
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Digital resilience third-party registers**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Digital resilience third-party registers**.
 
 2.  Select **Branches** and then create a branch by selecting **New**.
 
 3.  On the form, fill in the fields.
 
-    For descriptions of all these fields, see [Create New Branch form](../reference/tprm-create-new-branch-form.md).
+    For descriptions of all these fields, see [Create New Branch form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-create-new-branch-form.md).
 
     Users typically fill in the following details of the branch:
 
@@ -53,5 +54,5 @@ A legal entity can operate multiple branches across various cities or countries,
 
 ## What to do next
 
-Specify the functions that are associated with a branch. For more information, see [Create a function and enhance digital resilience data](tprm-drtp-reg-function.md).
+Specify the functions that are associated with a branch. For more information, see [Create a function and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-function.md).
 

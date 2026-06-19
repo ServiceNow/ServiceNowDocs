@@ -2,6 +2,7 @@
 title: Launch the Edge Encryption proxy server
 description: After an Edge Encryption proxy is installed and configured, you can start the proxy from the installer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/launch-proxy.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -25,18 +26,16 @@ Role required: admin
 
 2.  If an issue is detected, or to check the status of your proxy server, you can click **Check Status** to verify that the proxy is running.
 
-    A message displays the proxy status.
-
-
+    A message displays the proxy status.\[Omitted image "Madrid-Edge-Installer-End-2.png"\] Alt text: Proxy status
 
 
 ## What to do next
 
-After successfully installing the Edge Encryption proxy server, [Set the proxy server initial memory limit and upper bound memory limit](increase-memory.md).
+After successfully installing the Edge Encryption proxy server, [Set the proxy server initial memory limit and upper bound memory limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/increase-memory.md).
 
-**Parent Topic:**[Install the Edge Encryption proxy server using the interactive installer](proxy-installer.md)
+**Parent Topic:**[Install the Edge Encryption proxy server using the interactive installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/proxy-installer.md)
 
-**Previous topic:**[Configure the Edge Encryption proxy database](configure-proxy-db.md)
+**Previous topic:**[Configure the Edge Encryption proxy database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/configure-proxy-db.md)
 
-**Next topic:**[Verify and troubleshoot the Edge Encryption proxy server installation](verify-install.md)
+**Next topic:**[Verify and troubleshoot the Edge Encryption proxy server installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/verify-install.md)
 

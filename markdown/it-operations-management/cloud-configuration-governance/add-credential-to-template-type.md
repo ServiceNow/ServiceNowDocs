@@ -2,6 +2,7 @@
 title: Add credentials to an image template
 description: When you add credentials to an image template, the credentials are inherited by all VMs that are provisioned using the template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/add-credential-to-template-type.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -18,7 +19,7 @@ When you add credentials to an image template, the credentials are inherited by 
 ## Before you begin
 
 -   Role required: cloud\_admin
--   A set of [basic authentication credentials](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) must exist.
+-   A set of basic authentication credentials must exist.
 
 ## Procedure
 

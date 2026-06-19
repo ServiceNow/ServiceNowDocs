@@ -2,6 +2,7 @@
 title: Create KPI groups to monitor team performance
 description: Create key performance indicator \(KPI\) groups with the KPIs that matter most to your teams. When you associate your KPI groups with assignment groups, you can monitor your team's performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/create-kpi-groups-configurable-wfo-itsm.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -42,7 +43,7 @@ By default, the KPIs that are associated with your KPI assignment groups are sch
 
     5.  Right-click the form header and click **Save**.
 
-        You can add up to five KPIs to a KPI group. For more information about KPIs and how the aggregates are calculated, see the overview video in the [Teams example](../concept/example-team-reporting-configurable-wfo-itsm.md) section.
+        You can add up to five KPIs to a KPI group. For more information about KPIs and how the aggregates are calculated, see the overview video in the [Teams example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/example-team-reporting-configurable-wfo-itsm.md) section.
 
 2.  Add KPIs to a KPI group.
 
@@ -62,5 +63,5 @@ By default, the KPIs that are associated with your KPI assignment groups are sch
     **Note:** When you open a KPI Group, by default, the KPI Groups form displays the KPI Group's type based on the application you’ve currently selected.
 
 
-**Parent Topic:**[Setting up Teams in Workforce Optimization for ITSM](../concept/setup-teams-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Setting up Teams in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/setup-teams-configurable-workforce-optimization-itsm.md)
 

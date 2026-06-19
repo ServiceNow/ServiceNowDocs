@@ -2,6 +2,7 @@
 title: Copy an incident or create a child incident
 description: Copy an incident or create a child incident without manually entering the value of all the fields in the new incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/copy-incident-or-create-child-incident.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -34,29 +35,29 @@ The Copy Incident functionality copies the details of an existing incident recor
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_rsq_41q_23b"><thead><tr><th align="left" id="d132840e107">
+<table id="choicetable_rsq_41q_23b"><thead><tr><th align="left" id="d132402e107">
 
 Option
 
-</th><th align="left" id="d132840e110">
+</th><th align="left" id="d132402e110">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d132840e116">
+</th></tr></thead><tbody><tr><td id="d132402e116">
 
 **Copy an incident**
 
 </td><td>
 
-Click the Additional actions icon ![The Additional actions icon](../image/context-menu.png) and then click **Copy Incident**.**Note:** After the incident is copied, the **Work notes** field of the new incident is updated with the following message: `Created from a similar incident: INCXXXXXX`.
+Click the Additional actions icon \[Omitted image "context-menu.png"\] Alt text: The Additional actions icon and then click **Copy Incident**.**Note:** After the incident is copied, the **Work notes** field of the new incident is updated with the following message: `Created from a similar incident: INCXXXXXX`.
 
-</td></tr><tr><td id="d132840e143">
+</td></tr><tr><td id="d132402e143">
 
 **Create a child incident**
 
 </td><td>
 
-Click the Additional actions icon ![The Additional actions icon](../image/context-menu.png) and then click **Create Child Incident**.**Note:** Ensure you have added the **Parent Incident** field and the **Incident -&gt; Parent Incident** related list to the incident form. The incident, from which you have created the child incident, is considered as the parent incident.
+Click the Additional actions icon \[Omitted image "context-menu.png"\] Alt text: The Additional actions icon and then click **Create Child Incident**.**Note:** Ensure you have added the **Parent Incident** field and the **Incident -&gt; Parent Incident** related list to the incident form. The incident, from which you have created the child incident, is considered as the parent incident.
 
 </td></tr></tbody>
 </table>4.  Fill out the other fields, as required.

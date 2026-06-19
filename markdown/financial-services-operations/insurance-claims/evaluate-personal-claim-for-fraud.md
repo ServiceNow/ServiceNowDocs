@@ -2,6 +2,7 @@
 title: Evaluate a personal claim for fraud
 description: A special investigations agent can review a claim to determine whether a claim is fraudulent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/evaluate-personal-claim-for-fraud.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims
@@ -29,11 +30,11 @@ When business rule logic identifies a claim case as a 'close proximity' claim- a
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Open the task from the special investigation tasks list.
 
-<table id="choicetable_bn1_2hs_25b"><tbody><tr><td id="d78252e94">
+<table id="choicetable_bn1_2hs_25b"><tbody><tr><td id="d80533e94">
 
 **From the Special Investigation tasks list**
 

@@ -2,11 +2,12 @@
 title: Enable DEX browser extension on multiple macOS devices
 description: Deploy the DEX browser extension to all your organization's employees using Jamf.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/enable-dex-extension-bulk-macos.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2025-08-26"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Getting started, Configure, Digital End-User Experience, IT Service Management]
 ---

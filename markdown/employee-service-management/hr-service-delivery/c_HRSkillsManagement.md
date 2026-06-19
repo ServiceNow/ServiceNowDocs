@@ -2,6 +2,7 @@
 title: HR skills management
 description: Your organization can define HR skills to establish the qualifications of HR staff. Skills can be included in the auto-assignment process used to assign HR agents to HR cases and tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/c\_HRSkillsManagement.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -21,7 +22,7 @@ Skills are also a way to ensure that HR cases are assigned to the correct group 
 
 When an HR case is opened:
 
--   Matching rules are used to determine case assignment by matching criteria. Refer to [Matching rules for case assignment](https://www.servicenow.com/docs/access?context=case-assignment-matching-rules&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US) .
+-   Matching rules are used to determine case assignment by matching criteria. Refer to Matching rules for case assignment .
 -   An HR template is applied based on the HR Service selected.
 -   An HR template assigns the skill required for the case or task.
 -   The skill determines which group or individual is assigned to the case.
@@ -29,12 +30,12 @@ When an HR case is opened:
     **Note:** If an HR case is created without skills, it will be assigned to a user without skills.
 
 
--   **[Assign an HR skill to a group](../task/t_AssignHRSkillsToGroups.md)**  
+-   **[Assign an HR skill to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_AssignHRSkillsToGroups.md)**  
 When you assign skills to HR groups, all members of the group inherit the skills and any child skills.
--   **[Add or modify an HR skill](../task/t_CreateOrModifyHRSkills.md)**  
+-   **[Add or modify an HR skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateOrModifyHRSkills.md)**  
 You can create HR skills and assign them to HR staff to assist with the auto-assignment of HR cases and tasks.
--   **[Assign an HR skill to a user](../task/t_AssignHRSkillsToUsers.md)**  
+-   **[Assign an HR skill to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_AssignHRSkillsToUsers.md)**  
 You can assign skills to HR users to facilitate the auto-assignment of HR cases and tasks.
 
-**Parent Topic:**[Manage HR roles](c_ManageRoles.md)
+**Parent Topic:**[Manage HR roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_ManageRoles.md)
 

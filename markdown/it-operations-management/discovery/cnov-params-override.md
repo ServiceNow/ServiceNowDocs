@@ -2,12 +2,13 @@
 title: Override Informer parameters from the Instance
 description: Control Kubernetes Visibility Agent Informer execution parameters from the ServiceNow Instance to avoid dependence on your Kubernetes admin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/cnov-params-override.html
 release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-05-21"
+reading_time_minutes: 2
 keywords: [Agent Client Collector, Kubernetes, Visibility, Informer, settings, override, Cloud Native Operations for Visibility, CNO for Visibility]
 breadcrumb: [Install Kubernetes Visibility Agent \(KVA\), Configuring Kubernetes Visibility Agent, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -43,6 +44,8 @@ You can update the following parameters from the Instance:
 |CLUSTER\_RESOURCE\_ID|No|
 |CLUSTER\_NAME|No|
 
+The **CREATE\_CONTAINERS** parameter determines which Docker containers are deployed to the instance. It is managed automatically and is not exposed in the Configuration Parameters list. A new system property, **sn\_itom\_pattern.bring\_discovery\_container**, which is available when the Discovery and Service Mapping Patterns plugin is installed, governs **CREATE\_CONTAINERS** automatically. When **sn\_itom\_pattern.bring\_discovery\_container** is set to `true` \(default\), **CREATE\_CONTAINERS** is set to `non-init-containers`. When set to `false`, **CREATE\_CONTAINERS** is set to `none` and no Docker containers are brought to the instance. Each change triggers the ECC Queue sync to propagate the updated value with the Informer.
+
 For information about the purpose of each parameter, see the [Kubernetes Visibility Agent \(formerly CNO for Visibility\) Advanced Configuration Options \[KB1648891\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1648891) article in the Now Support Knowledge Base.
 
 ## Procedure
@@ -54,5 +57,5 @@ For information about the purpose of each parameter, see the [Kubernetes Visibil
 3.  Change the configured value as needed, and then select **Update**.
 
 
-**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\)](cnov-deploy-install.md)
+**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cnov-deploy-install.md)
 

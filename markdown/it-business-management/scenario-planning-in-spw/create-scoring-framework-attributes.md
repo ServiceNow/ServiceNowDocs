@@ -2,6 +2,7 @@
 title: Create your scoring framework attributes
 description: Add attributes within your scoring framework, so that you can build a formula and start scoring your planning items within your portfolio plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/create-scoring-framework-attributes.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -20,8 +21,6 @@ Add attributes within your scoring framework, so that you can build a formula an
 Role required: sn\_align\_core.apw\_admin
 
 ## About this task
-
-Create Scoring Framework attribute.
 
 ## Procedure
 
@@ -48,7 +47,7 @@ Create Scoring Framework attribute.
 
 ## What to do next
 
-[Create a final score attribute](create-a-final-score-attribute.md)
+[Create a final score attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/create-a-final-score-attribute.md)
 
-**Parent Topic:**[Custom scoring frameworks in Strategic Planning](../concept/custom-scoring-frameworks-in-strategic-planning.md)
+**Parent Topic:**[Custom scoring frameworks in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/custom-scoring-frameworks-in-strategic-planning.md)
 

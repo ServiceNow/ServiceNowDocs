@@ -2,6 +2,7 @@
 title: Related List configuration
 description: You can add new related lists or new related list groups, and modify existing groups or related lists that appear in the Security Analyst Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/sir-new-ui-setup-uiaction.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

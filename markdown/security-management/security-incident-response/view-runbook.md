@@ -1,7 +1,8 @@
 ---
 title: View a Security Incident Response runbook
-description: Runbooks give you access to procedures related to tasks you are working on.
+description: Runbooks give you access to procedures related to tasks you're working on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/view-runbook.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -13,7 +14,7 @@ breadcrumb: [View information in a security incident, Managing security incident
 
 # View a Security Incident Response runbook
 
-Runbooks give you access to procedures related to tasks you are working on.
+Runbooks give you access to procedures related to tasks you're working on.
 
 ## Before you begin
 
@@ -25,10 +26,10 @@ Role required: sn\_si.knowledge\_admin
 
 2.  Select a runbook from the list.
 
-    ![View runbook](../image/viewRunbook.png)
+    \[Omitted image "viewRunbook.png"\] Alt text: View runbook
 
-3.  To create a runbook, click **New**.
+3.  To create a runbook, select **New**.
 
-    For more information, see [Create a runbook](../reference/setup-assistant-reference.md#).
+    For more information, see [Create a runbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/setup-assistant-reference.md).
 
 

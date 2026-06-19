@@ -2,6 +2,7 @@
 title: Hide closed alerts in Express List
 description: Choose whether to display the closed alerts in an alert group as well as the open alerts on the preview panel and in Link View.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/el-hide-closed-alerts.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -23,7 +24,7 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the navigation bar, select the Express list icon: ![Express list icon](../../event-management/image/express-list1.png).
+2.  From the navigation bar, select the Express list icon: \[Omitted image "express-list1.png"\] Alt text: Express list icon.
 
 3.  In the Active alerts list, select an alert group.
 
@@ -36,9 +37,9 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
     On the preview panel, Alerts tab:
 
     1.  Show both the open and the closed alerts by switching the **Hide closed alerts** toggle to the closed position.
-    2.  \(Optional\) Sort the displayed alerts by time or by severity by selecting the sort icon \(![Sort alerts icon.](../image/el-sort-alerts-icon.png)\) and then choosing the relevant menu item.
+    2.  \(Optional\) Sort the displayed alerts by time or by severity by selecting the sort icon \(\[Omitted image "el-sort-alerts-icon.png"\] Alt text: Sort alerts icon.\) and then choosing the relevant menu item.
 
-        ![Sort alerts on the preview panel.](../image/el-sort-alerts.png)
+        \[Omitted image "el-sort-alerts.png"\] Alt text: Sort alerts on the preview panel.
 
     **Note:** If you switch the toggle or sort the alerts in the Timeline view, the Alerts tab adjusts to reflect your selection.
 

@@ -2,6 +2,7 @@
 title: Update similar tasks in bulk
 description: Managers, mentors, and other journey participants with access to certain Journey designer task types are able to update similar tasks identified by Journey designer in a single action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/jny-dsgnr-update-tasks.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -55,5 +56,5 @@ Role required: you can use bulk update for any available Journey designer tasks 
     **Note:** Some tasks may be optional. Optional tasks can be skipped. Required tasks can’t be skipped.
 
 
-**Parent Topic:**[Manage Journey designer task updates in bulk](../concept/jny-dsgnr-bulk-task-update.md)
+**Parent Topic:**[Manage Journey designer task updates in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-bulk-task-update.md)
 

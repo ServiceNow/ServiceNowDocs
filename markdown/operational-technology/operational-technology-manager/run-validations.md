@@ -2,6 +2,7 @@
 title: Validate imported staging records
 description: Validate the imported staging records from your import task to find missing, duplicate, and invalid data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-manager/run-validations.html
 release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -23,7 +24,7 @@ Role required: ot\_excel\_import\_user
 
 1.  Navigate to **All** &gt; **Industrial Workspace**.
 
-2.  Select the **List** \(![List icon](../../../common/image/icon-list.png)\) icon.
+2.  Select the **List** \(\[Omitted image "icon-list.png"\] Alt text: List icon\) icon.
 
 3.  Under the OT Excel SGC - Import Task module, select one of the available lists.
 
@@ -42,19 +43,19 @@ Role required: ot\_excel\_import\_user
     -   Partially invalid
     If invalid, the **Validation comments** field contains the cause or causes of the invalid state.
 
-    If an imported staging record matches an existing configuration item \(CI\) in the CMDB, you can preview the existing OT records. For more information, see [Preview existing OT records in the CMDB](preview-existing-asset-records.md).
+    If an imported staging record matches an existing configuration item \(CI\) in the CMDB, you can preview the existing OT records. For more information, see [Preview existing OT records in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/preview-existing-asset-records.md).
 
 
 ## What to do next
 
-For valid records, you can directly trigger the Configuration Management Database \(CMDB\) import. For more information, see [Trigger a CMDB import for valid staging records](trigger-cmdb-import.md).
+For valid records, you can directly trigger the Configuration Management Database \(CMDB\) import. For more information, see [Trigger a CMDB import for valid staging records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/trigger-cmdb-import.md).
 
-To resolve invalid or partially invalid records, you can optionally create remediation tasks. For more information, see [Create a remediation task for invalid staging records](create-remediation-task-for-validation-errors.md).
+To resolve invalid or partially invalid records, you can optionally create remediation tasks. For more information, see [Create a remediation task for invalid staging records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/create-remediation-task-for-validation-errors.md).
 
--   **[Managing Validations](../concept/managing-validations.md)**  
+-   **[Managing Validations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/managing-validations.md)**  
 Validation enables you to review and manage the imported data in the staging table.
--   **[Preview existing OT records in the CMDB](preview-existing-asset-records.md)**  
+-   **[Preview existing OT records in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/preview-existing-asset-records.md)**  
 Preview existing Operational Technology \(OT\) device records in the Configuration Management Database \(CMDB\) before you import any new records from the staging table. By previewing existing records, you can avoid reconciling or merging unrelated records.
 
-**Parent Topic:**[Using the Service Graph Connector for Microsoft Excel through import tasks](../concept/use-excel-sgc-through-import-tasks.md)
+**Parent Topic:**[Using the Service Graph Connector for Microsoft Excel through import tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/use-excel-sgc-through-import-tasks.md)
 

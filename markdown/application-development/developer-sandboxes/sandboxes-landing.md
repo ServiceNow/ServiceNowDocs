@@ -2,12 +2,13 @@
 title: Developer Sandboxes
 description: Developer Sandboxes provide admins and delegated developers the ability to request, access, and manage individual sandboxes on top of the same underlying development instance. Delegated developers can write and merge code and configuration changes without the risk of their changes getting overwritten on the instance mid-development.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/developer-sandboxes/sandboxes-landing.html
 release: zurich
 product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Developing your application, Building applications]
 ---
 
@@ -21,19 +22,19 @@ Developer Sandboxes overview video
 
 <table id="table_bcm_2pm_bcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Explore Developer Sandboxes](exploring-sandboxes.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/exploring-sandboxes.md)
 
 </td><td>
 
-[Install![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Install Developer Sandboxes](dev-sbx-installing.md)
+[Install\[Omitted image "bus-sdlc.svg"\] Alt text:Install Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/dev-sbx-installing.md)
 
 </td></tr><tr><td>
 
-[Administer![](../../../reuse/icons/brand-icons/bus-compliance.svg)Administer Developer Sandboxes](../task/configuring-sandboxes.md)
+[Administer\[Omitted image "bus-compliance.svg"\] Alt text:Administer Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/configuring-sandboxes.md)
 
 </td><td>
 
-[Allocate![](../../../reuse/icons/brand-icons/bus-try-a-demo.svg)Allocate Developer Sandboxes](../task/administering-sandboxes.md)
+[Allocate\[Omitted image "bus-try-a-demo.svg"\] Alt text:Allocate Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/administering-sandboxes.md)
 
 </td></tr></tbody>
 </table>Use Developer Sandboxes to create isolated development environments where users can develop on the ServiceNow AI Platform in parallel. Sandboxes help enhance Git-based workflows of the modern software development life cycle by reducing conflicts and enabling faster time to production.
@@ -48,7 +49,7 @@ Developer Sandboxes is in general availability for Zurich. Developer Sandboxes h
 
 **Note:** If your instance is in a regulated environment, check with ServiceNow Support for more information about support for Developer Sandboxes.
 
-**Note:** Cloning and upgrading an instance removes all sandboxes from the instance. For details, see [Cloning and upgrading considerations for Developer Sandboxes](dev-sbx-clone-upgrade-info.md).
+**Note:** Cloning and upgrading an instance removes all sandboxes from the instance. For details, see [Cloning and upgrading considerations for Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/dev-sbx-clone-upgrade-info.md).
 
 ## Troubleshoot and get help
 

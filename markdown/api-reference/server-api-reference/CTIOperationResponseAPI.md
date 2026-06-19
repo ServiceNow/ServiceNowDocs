@@ -2,6 +2,7 @@
 title: CTIOperationResponse - Scoped, Global
 description: The CTIOperationResponse script include provides methods to set and get data on the current CTIOperationResponse object.Instantiates a CTIOperationResponse object.Returns the authentication token that was set on the CTIOperationResponse object.Returns the error object associated with the current CTIOperationResponse object.Returns the sys\_id of the interaction record associated with the call session that was set on the CTIOperationResponse object.Returns the major version of the computer telephony integrator \(CTI\) software set on the current CTIOperationResponse object.Returns the message string set on the current CTIOperationResponse object.Returns the minor version of the computer telephony integrator \(CTI\) software set on the current CTIOperationResponse object.Returns the value of a specified key previously set on the current CTIOperationResponse object.Returns the key-value pairs for all parameters that were previously set on the current CTIOperationResponse object.Returns the value for a specified session attribute key set on the current CTIOperationResponse object.Returns the key-value pairs for all session attributes that were previously set on the current CTIOperationResponse object.Returns the status code set on the current CTIOperationResponse object.Sets an authentication token on the current CTIOperationResponse object.Sets the error object in the current CTIOperationResponse object.Sets the sys\_id of the interaction record associated with the operation request on the current CTIOperationResponse object.Sets the major version of the computer telephony integrator \(CTI\) provider software making the request on the associated CTIOperationResponse object.Sets a text message on the current CTIOperationResponse object.Sets the minor version of the computer telephony integrator \(CTI\) provider software making the request on the associated CTIOperationResponse object.Sets the specified key-value pair on the associated CTIOperationResponse object.Sets the specified session attribute key-value pair on the associated CTIOperationResponse object.Sets the status code of the current operation request on the CTIOperationResponse object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/CTIOperationResponseAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -110,7 +111,7 @@ The following operation handler script shows how to use various CTIOperationResp
 })(request, response);
 ```
 
-For additional information on creating operation handlers, see [Configure a contact flow for an automated caller interaction](https://www.servicenow.com/docs/access?context=establish-automated-bot-interactions&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+For additional information on creating operation handlers, see Configure a contact flow for an automated caller interaction.
 
 The following message transformer script gets the values set on the CTIOperationResponse object and stores them in the CTI-specific payload that is then sent back to the CTI provider.
 
@@ -127,11 +128,11 @@ The following message transformer script gets the values set on the CTIOperation
 })(operationResponse, httpResponse);
 ```
 
-This script include runs in the `sn_cti_core` namespace. Before you are able to access the CTIOperationRequest script include, the ServiceNow Voice Core \(sn\_cti\_core\) plugin must be installed. For information on this installation, see [Install ServiceNow Voice applications](https://www.servicenow.com/docs/access?context=install-ccc-apps&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+This script include runs in the `sn_cti_core` namespace. Before you are able to access the CTIOperationRequest script include, the ServiceNow Voice Core \(sn\_cti\_core\) plugin must be installed. For information on this installation, see Install ServiceNow Voice applications.
 
-For additional information on the ServiceNow Voice, see [ServiceNow Voice](https://www.servicenow.com/docs/access?context=cloud-call-center-overview&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+For additional information on the ServiceNow Voice, see ServiceNow Voice.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## CTIOperationResponse - CTIOperationResponse\(String origin\)
 
@@ -270,7 +271,7 @@ You might use this information to formulate the payload returned to the computer
 
 Returns the sys\_id of the interaction record associated with the call session that was set on the CTIOperationResponse object.
 
-The [CTIOperationResponse - setInteractionSysId\(String Id\)](CTIOperationResponseAPI.md#) method must have been called prior to calling this method.
+The [CTIOperationResponse - setInteractionSysId\(String Id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CTIOperationResponseAPI.md) method must have been called prior to calling this method.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -337,7 +338,7 @@ var majorVersion = response.getMajorVersion();
 
 Returns the message string set on the current CTIOperationResponse object.
 
-Typically this is a message that is spoken back to the user once an operation is complete. You can set this value using the [CTIOperationResponse - setMessage\(String message\)](CTIOperationResponseAPI.md#) method.
+Typically this is a message that is spoken back to the user once an operation is complete. You can set this value using the [CTIOperationResponse - setMessage\(String message\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CTIOperationResponseAPI.md) method.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -396,7 +397,7 @@ var minorVersion = request.getMinorVersion();
 
 Returns the value of a specified key previously set on the current CTIOperationResponse object.
 
-Using the get/set parameter methods enables the passing of virtually any string or number value between an operation handler and a message transformer. The parameter object can contain zero or more key/value pairs of data that directly correlate to the current operation response. The operation handler determines what key/value pairs are required as it produces these values. Use the [CTIOperationResponse - setParameter\(String key, Object value\)](CTIOperationResponseAPI.md#) method to set parameters on the current CTIOperationResponse object.
+Using the get/set parameter methods enables the passing of virtually any string or number value between an operation handler and a message transformer. The parameter object can contain zero or more key/value pairs of data that directly correlate to the current operation response. The operation handler determines what key/value pairs are required as it produces these values. Use the [CTIOperationResponse - setParameter\(String key, Object value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CTIOperationResponseAPI.md) method to set parameters on the current CTIOperationResponse object.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -415,7 +416,7 @@ var parm = request.getParameter('contact.phone');
 
 Returns the key-value pairs for all parameters that were previously set on the current CTIOperationResponse object.
 
-Using the get/set parameter methods enables the passing of virtually any string or number value between an operation handler and a message transformer. The parameter object can contain zero or more key/value pairs of data that directly correlate to the current operation response. The operation handler determines what key/value pairs are required as it produces these values. Use the [CTIOperationResponse - setParameter\(String key, Object value\)](CTIOperationResponseAPI.md#) method to set parameters on the current CTIOperationResponse object.
+Using the get/set parameter methods enables the passing of virtually any string or number value between an operation handler and a message transformer. The parameter object can contain zero or more key/value pairs of data that directly correlate to the current operation response. The operation handler determines what key/value pairs are required as it produces these values. Use the [CTIOperationResponse - setParameter\(String key, Object value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CTIOperationResponseAPI.md) method to set parameters on the current CTIOperationResponse object.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -503,7 +504,7 @@ Using the get/set parameter methods enables the passing of virtually any string 
 
 Returns the value for a specified session attribute key set on the current CTIOperationResponse object.
 
-Using the get/set session attribute methods enables the passing of virtually any string or number value between an operation handler and a message transformer. Session attributes can also be accessed within a contact flow. The sessionAttribute object can contain zero or more key/value pairs of data, such as the contact's phone number, that are valid for the duration of a computer telephony integration provider defined session. The operation handler determines what session attribute key/value pairs are needed as it utilizes these values during processing. Typically the operation handler sets these attributes on the CTIOperationResponse object by calling the [CTIOperationResponse - setSessionAttribute\(String key, Object value\)](CTIOperationResponseAPI.md#) method and the message transformer consumes the attributes using this method.
+Using the get/set session attribute methods enables the passing of virtually any string or number value between an operation handler and a message transformer. Session attributes can also be accessed within a contact flow. The sessionAttribute object can contain zero or more key/value pairs of data, such as the contact's phone number, that are valid for the duration of a computer telephony integration provider defined session. The operation handler determines what session attribute key/value pairs are needed as it utilizes these values during processing. Typically the operation handler sets these attributes on the CTIOperationResponse object by calling the [CTIOperationResponse - setSessionAttribute\(String key, Object value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CTIOperationResponseAPI.md) method and the message transformer consumes the attributes using this method.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -522,7 +523,7 @@ var phoneAttribute = response.getSessionAttribute('contact.phone');
 
 Returns the key-value pairs for all session attributes that were previously set on the current CTIOperationResponse object.
 
-Using the get/set session attribute methods enables the passing of virtually any string or number value between an operation handler and a message transformer. Session attributes can also be accessed within a contact flow. The sessionAttribute object can contain zero or more key/value pairs of data, such as the contact's phone number, that are valid for the duration of a computer telephony integration provider defined session. The operation handler determines what session attribute key/value pairs are needed as it utilizes these values during processing. Typically the operation handler sets these attributes on the CTIOperationResponse object by calling the [CTIOperationResponse - setSessionAttribute\(String key, Object value\)](CTIOperationResponseAPI.md#) method and the message transformer consumes the attributes using this method.
+Using the get/set session attribute methods enables the passing of virtually any string or number value between an operation handler and a message transformer. Session attributes can also be accessed within a contact flow. The sessionAttribute object can contain zero or more key/value pairs of data, such as the contact's phone number, that are valid for the duration of a computer telephony integration provider defined session. The operation handler determines what session attribute key/value pairs are needed as it utilizes these values during processing. Typically the operation handler sets these attributes on the CTIOperationResponse object by calling the [CTIOperationResponse - setSessionAttribute\(String key, Object value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CTIOperationResponseAPI.md) method and the message transformer consumes the attributes using this method.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -549,7 +550,7 @@ Using the get/set session attribute methods enables the passing of virtually any
 
 Returns the status code set on the current CTIOperationResponse object.
 
-These status codes should correspond with standard HTTP status codes, such as 200 for success, 401 for authorization required. Typically, the resultant status codes are determined by the operation handler and are set on the CTIOperationResponse object using the [CTIOperationResponse - setStatusCode\(String statusCode\)](CTIOperationResponseAPI.md#) method. The message transformer then uses this method to include the status code in the payload returned to the computer telephony integrator provider.
+These status codes should correspond with standard HTTP status codes, such as 200 for success, 401 for authorization required. Typically, the resultant status codes are determined by the operation handler and are set on the CTIOperationResponse object using the [CTIOperationResponse - setStatusCode\(String statusCode\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CTIOperationResponseAPI.md) method. The message transformer then uses this method to include the status code in the payload returned to the computer telephony integrator provider.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -692,7 +693,7 @@ request.setMajorVersion(2);
 
 Sets a text message on the current CTIOperationResponse object.
 
-Typically this is a message that is spoken back to the user once an operation is complete and is set by the associated operation handler. The message transformer then uses the [CTIOperationResponse - getMessage\(\)](CTIOperationResponseAPI.md#) method to obtain the message and pass it back to the computer telephony integration provider.
+Typically this is a message that is spoken back to the user once an operation is complete and is set by the associated operation handler. The message transformer then uses the [CTIOperationResponse - getMessage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CTIOperationResponseAPI.md) method to obtain the message and pass it back to the computer telephony integration provider.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -781,7 +782,7 @@ response.setMinorVersion(3);
 
 Sets the specified key-value pair on the associated CTIOperationResponse object.
 
-Using the get/set parameter methods enables the passing of virtually any string or number value between an operation handler and a message transformer. The parameter object can contain zero or more key/value pairs of data that directly correlate to the current operation request. The operation handler determines what key/value pairs are required as it consumes these values. Typically the operation handler sets these parameters on the CTIOperationResponse object by calling this method and the message transformer consumes them using the [CTIOperationResponse - getParmeter\(String key\)](CTIOperationResponseAPI.md#) or [CTIOperationResponse - getSParameters\(\)](CTIOperationResponseAPI.md#) method.
+Using the get/set parameter methods enables the passing of virtually any string or number value between an operation handler and a message transformer. The parameter object can contain zero or more key/value pairs of data that directly correlate to the current operation request. The operation handler determines what key/value pairs are required as it consumes these values. Typically the operation handler sets these parameters on the CTIOperationResponse object by calling this method and the message transformer consumes them using the [CTIOperationResponse - getParmeter\(String key\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CTIOperationResponseAPI.md) or [CTIOperationResponse - getSParameters\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CTIOperationResponseAPI.md) method.
 
 **Note:** You should only store objects that can survive a `JSON.parse(JSON.stringify(object))` operation. Objects not meeting this criteria may not propagate correctly through the entire operation processing chain.
 
@@ -887,7 +888,7 @@ response.setParameter('contact.address', {
 
 Sets the specified session attribute key-value pair on the associated CTIOperationResponse object.
 
-Using the get/set session attribute methods enables the passing of virtually any string or number value between an operation handler and a message transformer. The sessionAttribute object can contain zero or more key/value pairs of data that are valid for the duration of a computer telephony integration provider defined session. Session attributes can also be accessed within a contact flow. The operation handler determines what session attribute key/value pairs are needed as it consumes these values. Typically the operation handler sets these attributes on the CTIOperationResponse object by calling this method and the message transformer gets the attributes using the [CTIOperationResponse - getSessionAttribute\(String key\)](CTIOperationResponseAPI.md#) or [CTIOperationResponse - getSessionAttribute\(\)](CTIOperationResponseAPI.md#) method.
+Using the get/set session attribute methods enables the passing of virtually any string or number value between an operation handler and a message transformer. The sessionAttribute object can contain zero or more key/value pairs of data that are valid for the duration of a computer telephony integration provider defined session. Session attributes can also be accessed within a contact flow. The operation handler determines what session attribute key/value pairs are needed as it consumes these values. Typically the operation handler sets these attributes on the CTIOperationResponse object by calling this method and the message transformer gets the attributes using the [CTIOperationResponse - getSessionAttribute\(String key\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CTIOperationResponseAPI.md) or [CTIOperationResponse - getSessionAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CTIOperationResponseAPI.md) method.
 
 **Note:** You should only store objects that can survive a `JSON.parse(JSON.stringify(object))` operation. Objects not meeting this criteria may not propagate correctly through the entire operation processing chain.
 

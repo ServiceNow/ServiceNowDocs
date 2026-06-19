@@ -2,6 +2,7 @@
 title: Assess the quality of completed tasks
 description: Assess the ability of your agents to resolve tasks or the quality of their completed tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-manager-workforce/asses-completed-task-quality-wfo-fsm.html
 release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -37,40 +38,40 @@ The Coaching Overview screen displays the average quality of the tasks that were
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Coaching \(![Coaching icon.](../../workforce-optimization-for-customer-service-configurable/image/coaching-new.png)\) icon.
+2.  Click the Coaching \(\[Omitted image "coaching-new.png"\] Alt text: Coaching icon.\) icon.
 
 3.  Perform assessments.
 
-<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d99766e118">
+<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d97474e118">
 
 To
 
-</th><th align="left" id="d99766e121">
+</th><th align="left" id="d97474e121">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d99766e127">
+</th></tr></thead><tbody><tr><td id="d97474e127">
 
 **Perform adhoc assessments**
 
 </td><td>
 
-1.  Click the Lists icon \(![Lists icon.](../../workforce-optimization-for-customer-service-configurable/image/list-new.png)\).
+1.  Click the Lists icon \(\[Omitted image "list-new.png"\] Alt text: Lists icon.\).
 2.  Select any record, such as a work order task, for which you want to create an assessment.
-3.  Select the Assessments icon \(![Coaching Assessment icon.](../../workforce-optimization-for-customer-service-configurable/image/coaching-assessment-new.png)\).
+3.  Select the Assessments icon \(\[Omitted image "coaching-assessment-new.png"\] Alt text: Coaching Assessment icon.\).
 
 The assessment screen appears in the right panel.
 
 4.  Click the plus \(+\) icon.
 
 
-</td></tr><tr><td id="d99766e167">
+</td></tr><tr><td id="d97474e167">
 
 **Use assessments triggered by coaching opportunities**
 
 </td><td>
 
-1.  Click the Coaching icon \(![Coaching icon.](../../workforce-optimization-for-customer-service-configurable/image/coaching-new.png)\).
+1.  Click the Coaching icon \(\[Omitted image "coaching-new.png"\] Alt text: Coaching icon.\).
 2.  Select any record for which you want to create an assessment.
 
 **Note:** Click the **Active Assessments** tab to view assessments of all teams for which you are a manager or an additional manager.

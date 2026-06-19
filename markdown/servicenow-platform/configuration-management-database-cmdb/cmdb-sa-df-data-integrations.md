@@ -2,12 +2,13 @@
 title: Analyzing data integrations for improving Data Foundations
 description: Improve Data Foundations coverage by analyzing existing and suggested data integrations, including Discovery patterns and Service Graph Connectors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-data-integrations.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-02-25"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -17,13 +18,13 @@ Improve Data Foundations coverage by analyzing existing and suggested data integ
 
 Use the **Data integrations** tab in the CMDB success advisor for Data Foundations to assess the effectiveness of your current data integration sources in the Configuration Management Database \(CMDB\) and identify opportunities to improve coverage across your principal classes. The **Data integrations** tab provides a breakdown of active Discovery patterns and installed Service Graph Connectors, including how many key configuration item \(CI\) attributes each integration source is populating.
 
-For a quick reference to improve Data Foundations coverage, see [Data integration checklist for Data Foundations in CMDB success advisor](cmdb-sa-df-integ-checklist.md).
+For a quick reference to improve Data Foundations coverage, see [Data integration checklist for Data Foundations in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-integ-checklist.md).
 
 ## Access data integrations
 
-Navigate to the CMDB success advisor landing page, and on the Data Foundations card, select **View insights**. Select the **Data integrations** tab to access integration-related details. For more information, see [Access CMDB success advisor](../task/cmdb-sa-access.md).
+Navigate to the CMDB success advisor landing page, and on the Data Foundations card, select **View insights**. Select the **Data integrations** tab to access integration-related details. For more information, see [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-access.md).
 
-**Note:** The CMDB success advisor for Data Foundations dashboard is available only after the setup process is complete. For more information, see [Set up CMDB success advisor for Data Foundations](cmdb-sa-df-config-settings.md).
+**Note:** The CMDB success advisor for Data Foundations dashboard is available only after the setup process is complete. For more information, see [CMDB success advisor for Data Foundations setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-config-settings.md).
 
 ## Required roles
 
@@ -62,7 +63,8 @@ CMDB administrator
 |Feature|Description|
 |-------|-----------|
 |Integration overview|Displays the count of all Discovery patterns and Service Graph Connectors contributing CI data to your principal classes in the CMDB.|
-|Status indicators|Check whether Discovery patterns are active and Service Graph Connectors are installed with active connections. For more information, see [Reviewing data integrations for Data Foundations](cmdb-sa-df-integration-details.md).|
-|Attribute coverage insights|Select the **Attribute coverage** link next to the integration to review which CI attributes it populates for your principal classes. For more information, see [Evaluate Data Foundations data integration coverage](../task/cmdb-sa-df-evaluate-data-integration.md).|
-|Access integration details|Configure integrations to improve attribute coverage. For more information, see [Evaluate Data Foundations data integration coverage](../task/cmdb-sa-df-evaluate-data-integration.md).|
+|Status indicators|Check whether Discovery patterns are active and Service Graph Connectors are installed with active connections. For more information, see [Reviewing data integrations for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-integration-details.md).|
+|Attribute coverage insights|Select the **Attribute coverage** link next to the integration to review which CI attributes it populates for your principal classes. For more information, see [Evaluate Data Foundations data integration coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-evaluate-data-integration.md).|
+|Access integration details|Configure integrations to improve attribute coverage. For more information, see [Evaluate Data Foundations data integration coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-evaluate-data-integration.md).|
+|Suggested integrations|Displays integrations that are recommended but not yet installed, based on the selected advisor scope. For more information, see [View suggested integrations for the Data Foundations advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-sugg-integ.md).|
 

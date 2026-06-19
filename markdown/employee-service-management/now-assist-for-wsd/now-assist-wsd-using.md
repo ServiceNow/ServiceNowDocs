@@ -2,6 +2,7 @@
 title: Using Now Assist for WSD
 description: Using Now Assist for Workplace Service Delivery \(WSD\) for creating a reservation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-wsd/now-assist-wsd-using.html
 release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd

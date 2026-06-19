@@ -2,6 +2,7 @@
 title: Authenticating ServiceNow CPQ API calls
 description: Secure ServiceNow CPQ API calls with admin API keys, JWT tokens, session cookies, or Google IdP for runtime and Admin tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cpq-authenticating-api-calls.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -19,11 +20,11 @@ Secure ServiceNow CPQ API calls with admin API keys, JWT tokens, session cookies
 
 When using ServiceNow CPQ in a headless manner, you authenticate your configuration session by using a runtime client. To create a runtime client, navigate to the ServiceNow CPQ Admin UI, click **Utilities** in the sidebar, and then click **Runtime Clients**. From here, specify the origin of your call, whether it is an external URL or an origin specified in the header of your call. You can also give your client an expiration date. After you save your client, you can copy the token and use it as the bearer token in other runtime API calls.
 
-![Menu](../images/cpq-menu-runtime-clients.png)
+\[Omitted image "cpq-menu-runtime-clients.png"\] Alt text: Menu
 
-![Edit Run time client](../images/cpq-edit-runtime-client-dialog.png)
+\[Omitted image "cpq-edit-runtime-client-dialog.png"\] Alt text: Edit Run time client
 
-For more information on ServiceNow CPQ runtime calls, see [Intro to runtime API calls](intro_to_runtime_api_calls.md).
+For more information on ServiceNow CPQ runtime calls, see [Intro to runtime API calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/intro_to_runtime_api_calls.md).
 
 ## Authenticating admin API calls
 
@@ -39,13 +40,13 @@ There are four ways to authenticate your admin API calls:
 
     To ensure tighter security for long-term admin API authentication, we leverage the Salesforce JWT web token. For steps to initialize this access flow, see:
 
-    [Admin APIs: Authentication using a Salesforce-connected app](admin-apis-authentication-via-salesforce-connected-app.md)
+    [Admin APIs: Authentication using a Salesforce-connected app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/admin-apis-authentication-via-salesforce-connected-app.md)
 
 -   Session cookies
 
     To authenticate a short term admin session, you can leverage your browser’s session cookie. Navigate to the cookies in your browser’s console, and take the session cookie. Enter the cookie in your request header as a keyed pair: `"Cookie”:”SESSION=<yourSessionCookie>"`
 
-    ![Session cookie in Google Chrome browser](../images/cpq-matrix-loader-select-cookie.png)
+    \[Omitted image "cpq-matrix-loader-select-cookie.png"\] Alt text: Session cookie in Google Chrome browser
 
 -   Google IdP
 

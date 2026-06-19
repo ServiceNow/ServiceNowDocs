@@ -2,6 +2,7 @@
 title: Create a success goal for Hardware Asset Management
 description: Create a success goal to track the success of the Hardware Asset Management application in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/create-suc-goal.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -29,7 +30,7 @@ Role required: ham\_admin
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [HAM Success Goal Details](../reference/ham-suc-goal.md).
+    For a description of the field values, see [HAM Success Goal Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/ham-suc-goal.md).
 
 4.  Select **Save**.
 
@@ -40,5 +41,5 @@ Role required: ham\_admin
 
 The success goal that you created gets displayed on the Success goals page in the Asset operations view.
 
-**Parent Topic:**[Assess performance of Hardware Asset Management](../concept/suc-goal-act-hw.md)
+**Parent Topic:**[Assess performance of Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/suc-goal-act-hw.md)
 

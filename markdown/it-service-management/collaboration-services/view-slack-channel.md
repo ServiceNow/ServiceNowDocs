@@ -2,6 +2,7 @@
 title: View or join slack channel from an incident
 description: View all slack channels associated with an incident to know if a required slack channel already exists before you create a new one. You can also import messages from a slack channel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/collaboration-services/view-slack-channel.html
 release: zurich
 product: Collaboration Services
 classification: collaboration-services
@@ -47,8 +48,8 @@ The system property **sn\_tcm\_collab\_hook.slack\_on\_task** enables the slack 
 6.  To import messages from any slack channel, click **Import messages**.
 
 
--   **[Add form section to view slack channels](add-slack-channels-section.md)**  
+-   **[Add form section to view slack channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/add-slack-channels-section.md)**  
 View unarchived slack channels associated with an incident in the form section. The form section saves you the effort of opening the available channel list manually from the related list.
 
-**Parent Topic:**[Configuring Collaboration services](../concept/configuring-collab-services.md)
+**Parent Topic:**[Configuring Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/configuring-collab-services.md)
 

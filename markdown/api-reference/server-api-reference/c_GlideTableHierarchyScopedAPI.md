@@ -2,6 +2,7 @@
 title: GlideTableHierarchy - Scoped
 description: The GlideTableHierarchy API provides methods for handling information about table relationships.Instantiates a GlideTableHierarchy object.Returns an array of strings containing all tables that extend the current table and includes the current table.Returns the parent class.Returns an array of strings containing all classes in the hierarchy of the current table.Returns the table's name.Returns the top level class in the hierarchy.Returns an array of strings of the table names in the hierarchy.Returns an array of strings containing all tables that extend the current table.Returns true if this is a base class.Returns true if this table is not in a hierarchy.Returns true of this class has been extended.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_GlideTableHierarchyScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideTableHierarchy API provides methods for handling information about table relationships.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideTableHierarchy - GlideTableHierarchy\(String tableName\)
 

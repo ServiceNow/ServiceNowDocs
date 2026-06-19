@@ -2,6 +2,7 @@
 title: Key terms used in this integration
 description: This section describes some of the key terms used in this integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/splunk-event-ingest-integration-architecture-security.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -15,7 +16,7 @@ breadcrumb: [Splunk Enterprise Security event ingestion integration, Security In
 
 This section describes some of the key terms used in this integration.
 
-The following key terms are used during the installation and configuration. For more information about these terms, see the [ServiceNow Product Documentation website](https://servicenow.com/docs) and the [Splunk website](https://www.splunk.com/) and resources on [Splunk Resources](https://www.splunk.com/en_us/resources/getting-started.html) page.
+The following key terms are used during the installation and configuration. For more information about these terms, see the [ServiceNow Product Documentation website](https://www.servicenow.com/docs) and the [Splunk website](https://www.splunk.com/) and resources on [Splunk Resources](https://www.splunk.com/en_us/resources/getting-started.html) page.
 
 -   **ServiceNow AI Platform**
 

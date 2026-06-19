@@ -2,6 +2,7 @@
 title: Oracle Infrastructure report
 description: You can use the Oracle Infrastructure report to gain visibility into your Oracle infrastructure. This report includes information about the Oracle databases that you are running and the configuration items that are supporting these databases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/oracle-infrastructure-report.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -37,7 +38,7 @@ Required by \(Device\)
 
 </td><td>
 
-Configuration item, such as a server, cluster, vCenter, or datacenter, that the Oracle database, database option, or management pack is installed on.Select an entry to view additional information about the licensing requirements for that configuration item. See [Licenses Required By form](oracle-infrastructure-report.md#section_ahj_vhh_vpb) for more details.
+Configuration item, such as a server, cluster, vCenter, or datacenter, that the Oracle database, database option, or management pack is installed on.Select an entry to view additional information about the licensing requirements for that configuration item. See [Licenses Required By form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/oracle-infrastructure-report.md) for more details.
 
 </td></tr><tr><td>
 
@@ -469,5 +470,5 @@ Vendor
 Vendor of the database that the database instance accesses and manages. This field is always set to **Oracle**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management publisher pack for Oracle](../concept/oracle-publisher-pack.md)
+</table>**Parent Topic:**[Software Asset Management publisher pack for Oracle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/oracle-publisher-pack.md)
 

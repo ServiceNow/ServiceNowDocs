@@ -2,6 +2,7 @@
 title: Scoring logic for predefined formulas for group factors
 description: Group factors have multiple predefined formulae and each of them has a specific contribution to the scoring logic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/scoring-logic-group-factors.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -58,5 +59,5 @@ The qualitative scores calculated after transformation will be derived using the
     For Qualitative, this formula divides the sum of qualitative scores in an assessment instance by the sum of weights. The scores are contributed by scores corresponding to the factors that a comprise a group factor and have factor contribution of either Qualitative or Both.
 
 
-**Parent Topic:**[Create a group factor](../task/define-group-factor.md)
+**Parent Topic:**[Create a group factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/define-group-factor.md)
 

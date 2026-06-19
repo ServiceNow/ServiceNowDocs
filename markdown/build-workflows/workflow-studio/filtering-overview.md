@@ -2,6 +2,7 @@
 title: Filter decision tables
 description: Apply filters to both condition and result columns in the Decision Tables in Workflow Studio. Filters can enhance the usability and efficiency of managing large Decision Tables. This feature can be used to view, modify, and reorder a subset of rows directly within the Decision Tables, without exporting the table to Excel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/filtering-overview.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -28,7 +29,7 @@ The default filtering operator is "is", when no other filtering is applied.
 
 The following image shows a table interface that includes filtering functionality.
 
-![Decision Table Filter](../image/filtering-decision-table.png)
+\[Omitted image "filtering-decision-table.png"\] Alt text: Decision Table Filter
 
-**Parent Topic:**[Exploring Decision Tables](decision-designer-overview.md)
+**Parent Topic:**[Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/decision-designer-overview.md)
 

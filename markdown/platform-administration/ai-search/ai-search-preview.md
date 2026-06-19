@@ -2,6 +2,7 @@
 title: Search Preview UI for AI Search
 description: The Search Preview UI enables you to test AI Search queries using settings from a selected search profile. Administrator tools help you review search query performance data and feedback, debug queries, and override default query settings for testing purposes.Understand the output, controls, and fields provided by admin tools in the search preview UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/ai-search-preview.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -21,11 +22,11 @@ Access the Search Preview UI by navigating to **AI Search** &gt; **Preview** &gt
 
 -   The ais\_admin role is required to view and use the Search Preview UI.
 -   The impersonator role is required for some AI Search administrator tools.
--   The ais\_high\_security\_admin role is required to bypass search source and content security filtering. For details on this procedure, see [Diagnose search result access issues using the Search Preview UI](../../../administer/ai-search/task/diagnose-srch-result-access-ais.md).
+-   The ais\_high\_security\_admin role is required to bypass search source and content security filtering. For details on this procedure, see [Diagnose search result access issues using the Search Preview UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/diagnose-srch-result-access-ais.md).
 
 ## Search Preview UI components
 
-![Sample Search Preview UI screen displaying sales laptop search query results.](../image/adv-ais-mgmt-search-preview.png "Search Preview UI")
+\[Omitted image "adv-ais-mgmt-search-preview.png"\] Alt text: Sample Search Preview UI screen displaying sales laptop search query results.
 
 <table id="table_f15_qb3_b4b"><thead><tr><th>
 
@@ -43,7 +44,7 @@ Description
 
 Select the search profile to apply when previewing search queries. The list only includes published search profiles that have one or more linked search sources.
 
-**Note:** If a search profile has unpublished changes, the list displays a warning icon ![](../image/icon-warning-circle.png) and shows `[DRAFT]` after the profile's name. Publish the search profile to see these changes reflected in the search query preview.
+**Note:** If a search profile has unpublished changes, the list displays a warning icon \[Omitted image "icon-warning-circle.png"\] Alt text: and shows `[DRAFT]` after the profile's name. Publish the search profile to see these changes reflected in the search query preview.
 
 </td></tr><tr><td>
 
@@ -83,11 +84,11 @@ Review the results the search query produces when executed with the selected sea
 
 </td><td>
 
-Select the icon for the administrator tool that you want to use:-   Process data tool ![](../image/icon-help.png): View summary information on the search query's triggered result improvement rules, matched NLU model intents, and processing time.
--   Alerts tool ![](../image/icon-alert.png): Review alert feedback messages produced during processing of the search query.
--   Dictionary and query feedback tool ![](../image/icon-book-open.png): Review dictionary and query feedback messages and NLU model intent data for the search query. Enable debugging.
--   Context settings tool ![](../image/icon-boolean.png): Specify user context values for the search query to trigger result improvement rules.
--   User impersonation tool ![](../image/icon-user.png): Change the search query's user or locale to test access settings and view translated documents.
+Select the icon for the administrator tool that you want to use:-   Process data tool \[Omitted image "icon-help.png"\] Alt text:: View summary information on the search query's triggered result improvement rules, matched NLU model intents, and processing time.
+-   Alerts tool \[Omitted image "icon-alert.png"\] Alt text:: Review alert feedback messages produced during processing of the search query.
+-   Dictionary and query feedback tool \[Omitted image "icon-book-open.png"\] Alt text:: Review dictionary and query feedback messages and NLU model intent data for the search query. Enable debugging.
+-   Context settings tool \[Omitted image "icon-boolean.png"\] Alt text:: Specify user context values for the search query to trigger result improvement rules.
+-   User impersonation tool \[Omitted image "icon-user.png"\] Alt text:: Change the search query's user or locale to test access settings and view translated documents.
 
  For more detailed descriptions of each administrator tool's output, controls, and fields, see the following reference section.
 
@@ -173,14 +174,14 @@ With these tools, you can specify user context values to test user context trigg
 |User Country|To set a country in the user context for search preview, select it from the list. This list includes all countries found in user locations from the User \[sys\_user\] table.|
 |User Language|To set a language in the user context for search preview, select it from the list of supported languages.|
 |User Office Country|To set an office country in the user context for search preview, select it from the list. This list includes all countries found in user locations from the User \[sys\_user\] table.|
-|User Office City|To set an office city in the user context for search preview, enter it in this field. You can enable [session debugging for AI Search](../../../administer/ai-search/task/session-debugging-ais.md) to review values submitted for this user context field in user queries.|
-|User Office State|To set an office state in the user context for search preview, enter it in this field. You can enable [session debugging for AI Search](../../../administer/ai-search/task/session-debugging-ais.md) to review values submitted for this user context field in user queries.|
-|User OS|To set an operating system in the user context for search preview, enter its name in this field. You can enable [session debugging for AI Search](../../../administer/ai-search/task/session-debugging-ais.md) to review values submitted for this user context field in user queries.|
-|User Device Type|To set a user device type in the user context for search preview, enter it in this field. You can enable [session debugging for AI Search](../../../administer/ai-search/task/session-debugging-ais.md) to review values submitted for this user context field in user queries.|
-|User OS Version Type|To set an operating system version type in the user context for search preview, enter it in this field. You can enable [session debugging for AI Search](../../../administer/ai-search/task/session-debugging-ais.md) to review values submitted for this user context field in user queries.|
-|User Browser Agent|To set a browser agent string in the user context for search preview, enter it in this field. You can enable [session debugging for AI Search](../../../administer/ai-search/task/session-debugging-ais.md) to review values submitted for this user context field in user queries.|
-|User Browser|To set a browser name in the user context for search preview, enter it in this field. You can enable [session debugging for AI Search](../../../administer/ai-search/task/session-debugging-ais.md) to review values submitted for this user context field in user queries.|
-|User Device Form|To set a device form in the user context for search preview, enter it in this field. You can enable [session debugging for AI Search](../../../administer/ai-search/task/session-debugging-ais.md) to review values submitted for this user context field in user queries.|
+|User Office City|To set an office city in the user context for search preview, enter it in this field. You can enable [session debugging for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/session-debugging-ais.md) to review values submitted for this user context field in user queries.|
+|User Office State|To set an office state in the user context for search preview, enter it in this field. You can enable [session debugging for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/session-debugging-ais.md) to review values submitted for this user context field in user queries.|
+|User OS|To set an operating system in the user context for search preview, enter its name in this field. You can enable [session debugging for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/session-debugging-ais.md) to review values submitted for this user context field in user queries.|
+|User Device Type|To set a user device type in the user context for search preview, enter it in this field. You can enable [session debugging for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/session-debugging-ais.md) to review values submitted for this user context field in user queries.|
+|User OS Version Type|To set an operating system version type in the user context for search preview, enter it in this field. You can enable [session debugging for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/session-debugging-ais.md) to review values submitted for this user context field in user queries.|
+|User Browser Agent|To set a browser agent string in the user context for search preview, enter it in this field. You can enable [session debugging for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/session-debugging-ais.md) to review values submitted for this user context field in user queries.|
+|User Browser|To set a browser name in the user context for search preview, enter it in this field. You can enable [session debugging for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/session-debugging-ais.md) to review values submitted for this user context field in user queries.|
+|User Device Form|To set a device form in the user context for search preview, enter it in this field. You can enable [session debugging for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/session-debugging-ais.md) to review values submitted for this user context field in user queries.|
 
 ### User impersonation tool
 

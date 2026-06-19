@@ -2,11 +2,12 @@
 title: Create a safety incident or observation as a safety agent or supervisor
 description: Begin the investigation for a safety incident or observation by reporting it on behalf of an employee.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-incident-management/create-hs-incident-obv-safety-agent.html
 release: zurich
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Submit, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
@@ -23,7 +24,7 @@ Role required: sn\_ohs\_im.operations\_manager, sn\_ohs\_im.manager, or sn\_ohs\
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
-2.  Select the incident management icon \(![Incident Management icon.](../image/list-icon-hs.png)\).
+2.  Select the incident management icon \(\[Omitted image "list-icon-hs.png"\] Alt text: Incident Management icon.\).
 
 3.  In the **Lists** tab, open the safety incident or observation list.
 
@@ -35,7 +36,7 @@ Role required: sn\_ohs\_im.operations\_manager, sn\_ohs\_im.manager, or sn\_ohs\
 
     -   For a safety incident, fill in the fields in the **Enter incident summary** activity in the **Report an incident** tab.
     -   For a safety observation, fill in the fields in the **Details** tab.
-    **Note:** To enable the map component in the Health and Safety Workspace install the Geo map component \[sn\_geo\_map\] plugin. For more information, see [Additional features in Health and Safety](install-hs-incident-mgmt.md#table_ix1_bff_gxb).
+    **Note:** To enable the map component in the Health and Safety Workspace install the Geo map component \[sn\_geo\_map\] plugin. For more information, see [Additional features in Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-incident-management/install-hs-incident-mgmt.md).
 
 6.  If necessary, attach an image about the incident or observation using the Attachments section.
 
@@ -48,7 +49,7 @@ Based on the selected category, a safety incident or observation is created in t
 
 ## What to do next
 
-As a safety manager or agent, you can assign the incident or observation to yourself and start working on it. You can also assign it to another safety agent. For more information, see [Assign a safety incident or observation](assign-hs-incident-observation.md).
+As a safety manager or agent, you can assign the incident or observation to yourself and start working on it. You can also assign it to another safety agent. For more information, see [Assign a safety incident or observation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-incident-management/assign-hs-incident-observation.md).
 
-**Parent Topic:**[Submitting safety incidents and observations](../concept/submitting-safety-incidents-obvs.md)
+**Parent Topic:**[Submitting safety incidents and observations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-incident-management/submitting-safety-incidents-obvs.md)
 

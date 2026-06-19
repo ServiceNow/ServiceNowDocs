@@ -2,6 +2,7 @@
 title: Run a Schedule report to view my schedule
 description: An On-Call Rotation Schedule report shows users or groups that are on-call for a specified time period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/on-call-scheduling/run-schedule-report-oncall.html
 release: zurich
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -21,7 +22,7 @@ Role required: itil, roster\_admin, rota\_admin, rota\_manager
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **On-Call Scheduling** &gt; **Reports** &gt; **Schedule Report**.![Screenshot showing how to navigate to schedule report.](../image/schedule-report-ocs.png)
+1.  Navigate to **All** &gt; **On-Call Scheduling** &gt; **Reports** &gt; **Schedule Report**.\[Omitted image "schedule-report-ocs.png"\] Alt text: Screenshot showing how to navigate to schedule report.
 
 2.  Specify the **Report style**:
 
@@ -40,7 +41,7 @@ Role required: itil, roster\_admin, rota\_admin, rota\_manager
 
 Example Formatted report: The report shows on-call commitments for all specified groups during the specified date range.
 
-![Formatted Schedule report](../image/ScheduleReportFormattedReport.png "Formatted Schedule report")
+\[Omitted image "ScheduleReportFormattedReport.png"\] Alt text: Formatted Schedule report
 
-**Parent Topic:**[Viewing On-Call Scheduling reports](../../user-administration/concept/viewing-reports.md)
+**Parent Topic:**[Viewing On-Call Scheduling reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/viewing-reports.md)
 

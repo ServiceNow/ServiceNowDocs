@@ -2,6 +2,7 @@
 title: View error logs
 description: View error logs to understand the cause of any issues that might have occurred during the integration process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/error-logs.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw

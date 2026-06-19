@@ -2,11 +2,12 @@
 title: Associate orchestration tool from Veracode tool record and vice-versa
 description: You can associate orchestration tool from the Veracode tool record and associate the Veracode tool record from the orchestration or pipeline record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/associate-orchestration-tool-from-security-tool-record-and-vice-versa.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Veracode, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -29,14 +30,14 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 4.  Select **Associate orchestration tools**.
 
-5.  In the Select tool dialog box, select the orchestration tools you want to associate with your security tool, and select **Associate orchestration tools**. ![Associate orchestration tool for a security tool](../image/asso-orch-tool-sec-01.png)
+5.  In the Select tool dialog box, select the orchestration tools you want to associate with your security tool, and select **Associate orchestration tools**. \[Omitted image "asso-orch-tool-sec-01.png"\] Alt text: Associate orchestration tool for a security tool
 
-6.  In the Add custom action dialog box, copy the required custom action code for your orchestration tool, and add it as a step in your pipelines. ![Add custom action to your pipeline](../image/asso-orch-tool-sec-02.png)
+6.  In the Add custom action dialog box, copy the required custom action code for your orchestration tool, and add it as a step in your pipelines. \[Omitted image "asso-orch-tool-sec-02.png"\] Alt text: Add custom action to your pipeline
 
 7.  Select **Done**.
 
     **Note:** In a similar way, you can associate a security tool instance with an orchestration tool or pipeline record. You can navigate to the orchestration tool or pipeline record, and from the Security tools tab, you can select **Associate security tool**. In the dialog boxes that are displayed, you can select the security tool instances to associate and then copy the custom action to add it in the corresponding pipeline step.
 
 
-**Parent Topic:**[Veracode integration with DevOps Change Velocity](../concept/veracode-integration-with-devops-change-velocity.md)
+**Parent Topic:**[Veracode integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/veracode-integration-with-devops-change-velocity.md)
 

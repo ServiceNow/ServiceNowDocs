@@ -2,6 +2,7 @@
 title: Visualize circuits
 description: The network diagram in the Telecommunications Network Inventory application graphically displays a hierarchical map of the logical connection and its underlying connection elements. You can use the network diagram to get a detailed overview of the logical connection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/unified-map-view-of-connection-elements.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -25,14 +26,14 @@ A protection path of a logical connection refers to an alternative route in case
 
 The following example shows a network diagram in the Telecommunications Network Inventory application.
 
-![View of a network diagram with map pane, details pane, and zoom options.](../image/netwotk-diagram.png "Example for a network diagram")
+\[Omitted image "netwotk-diagram.png"\] Alt text: View of a network diagram with map pane, details pane, and zoom options.
 
 A network diagram contains two panels:
 
 -   The map pane shows the map for a selected logical connection, revision of the logical connection, and protection path.
 -   The details pane shows related information of the logical connection according to the current selections.
 
-To learn more about how to use the network diagram, see [Network diagram](using-network-diagram.md).
+To learn more about how to use the network diagram, see [Network diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/using-network-diagram.md).
 
 ## Map pane
 
@@ -45,7 +46,7 @@ You can perform the following actions in the map pane:
 -   View the protection paths of the logical connection.
 -   Use the zoom controls to zoom in and out of the map.
 
-To learn more, see [View the details of a network diagram](../task/show-a-ci-related-details-network-diagram.md).
+To learn more, see [View the details of a network diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/show-a-ci-related-details-network-diagram.md).
 
 ## Details pane
 
@@ -53,8 +54,8 @@ The details pane shows the related information about the logical connection elem
 
 You can perform the following actions in the details pane:
 
--   Select the info icon \(![Info Icon.](../image/icon-info.png)\) to open the details pane.
--   Select more options icon \(![More Options Icon.](../image/icon-more-option.png)\) in the details pane and then select **View Details** to redirect to the corresponding CI form.
+-   Select the info icon \(\[Omitted image "icon-info.png"\] Alt text: Info Icon.\) to open the details pane.
+-   Select more options icon \(\[Omitted image "icon-more-option.png"\] Alt text: More Options Icon.\) in the details pane and then select **View Details** to redirect to the corresponding CI form.
 
 ## Access
 

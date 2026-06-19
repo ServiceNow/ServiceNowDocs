@@ -2,6 +2,7 @@
 title: Configuring ReleaseOps
 description: Configure ReleaseOps to move changes from development to testing to production.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/releaseops/configuring-releaseops.html
 release: zurich
 product: ReleaseOps
 classification: releaseops
@@ -20,14 +21,14 @@ Configure ReleaseOps to move changes from development to testing to production.
 
 Starting with version 1.2.1 of ReleaseOps, you can complete initial configuration with ReleaseOps guided setup. Use the following procedure to complete ReleaseOps configuration using guided setup:
 
-1.  [Install ReleaseOps](../task/install-releaseops.md) on each instance that participates in your ReleaseOps ecosystem.
-2.  [Complete ReleaseOps guided setup](../task/complete-guided-setup.md).
-3.  [Create a custom pipeline](../task/create-release-ops-pipeline.md#), if needed, for your company's deployment and testing needs.
+1.  [Install ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/install-releaseops.md) on each instance that participates in your ReleaseOps ecosystem.
+2.  [Complete ReleaseOps guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/complete-guided-setup.md).
+3.  [Create a custom pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/create-release-ops-pipeline.md), if needed, for your company's deployment and testing needs.
 
 You can also configure ReleaseOps manually without guided setup using the following procedure:
 
-1.  [Configure multi-instance management for instances using ReleaseOps](../task/configure-mif.md).
-2.  [Install ReleaseOps](../task/install-releaseops.md) on each instance that participates in your ReleaseOps ecosystem.
-3.  [Configure a new ReleaseOps ecosystem](../task/configure-new-releaseops-ecosystem.md).
-4.  [Create a custom pipeline](../task/create-release-ops-pipeline.md#), if needed, for your company's deployment and testing needs.
+1.  [Configure multi-instance management for instances using ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/configure-mif.md).
+2.  [Install ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/install-releaseops.md) on each instance that participates in your ReleaseOps ecosystem.
+3.  [Configure a new ReleaseOps ecosystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/configure-new-releaseops-ecosystem.md).
+4.  [Create a custom pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/create-release-ops-pipeline.md), if needed, for your company's deployment and testing needs.
 

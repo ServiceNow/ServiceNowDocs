@@ -2,6 +2,7 @@
 title: Digital End-user Experience Self-service Reference
 description: Reference topics provide additional information about the cards, lists, and forms that help you configure and use DEX Self-service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-self-service/dex-self-service-reference.html
 release: zurich
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service

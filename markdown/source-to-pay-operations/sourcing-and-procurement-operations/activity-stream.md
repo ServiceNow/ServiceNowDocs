@@ -2,6 +2,7 @@
 title: Activity stream
 description: Track the updates on a selected purchase by navigating to the Activity tab. The activity stream shows the progress that your order has made since the time you placed it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/activity-stream.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -28,10 +29,10 @@ You can also perform the following actions in the **Activity** tab.
 
 -   **Watchlist**:
 
-    Business owners can view and edit the watchlist users from the purchase requisition in **My purchases** while the purchase requisition is still in open state \(not in complete, cancelled or rejected state\). Alternatively, you can view and edit the **Watchlist** from the **Reason for purchase** page. For more information, see [Add users to the watchlist of the purchase](../task/add-users-watchlist-purchase.md). By default, you can add up to 20 users in the watchlist. You can modify this value by configuring the system properties.
+    Business owners can view and edit the watchlist users from the purchase requisition in **My purchases** while the purchase requisition is still in open state \(not in complete, cancelled or rejected state\). Alternatively, you can view and edit the **Watchlist** from the **Reason for purchase** page. For more information, see [Add users to the watchlist of the purchase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/add-users-watchlist-purchase.md). By default, you can add up to 20 users in the watchlist. You can modify this value by configuring the system properties.
 
 
-![Activity tab in Shopping Hub.](../image/shoppinghub-activity.png)
+\[Omitted image "shoppinghub-activity.png"\] Alt text: Activity tab in Shopping Hub.
 
 Updates to the following fields on the respective parent objects are displayed in the activity stream of the purchase line or purchase order line:
 
@@ -62,5 +63,5 @@ Updates to the following fields on the respective parent objects are displayed i
     -   **Assignment group**
     -   **State**
 
-**Parent Topic:**[My purchases on Shopping Hub](my-purchases.md)
+**Parent Topic:**[Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/shopping-hub-overview.md)
 

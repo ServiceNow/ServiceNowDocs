@@ -2,6 +2,7 @@
 title: Add schedule breaks to a shift
 description: After creating a work shift, you can add schedule breaks to the shift.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workforce-optimization-for-hr/add-break-shift-who-hr.html
 release: zurich
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -19,7 +20,7 @@ After creating a work shift, you can add schedule breaks to the shift.
 
 Role required: admin
 
-Before adding schedule breaks to a shift, make sure to create a shift plan and a work shift. See, [Create a shift plan](create-shift-wfo-hr.md). Create a work shift, [Create a work shift](create-work-shift-wfo-hr.md).
+Before adding schedule breaks to a shift, make sure to create a shift plan and a work shift. See, [Create a shift plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workforce-optimization-for-hr/create-shift-wfo-hr.md). Create a work shift, [Create a work shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workforce-optimization-for-hr/create-work-shift-wfo-hr.md).
 
 ## Procedure
 
@@ -40,5 +41,5 @@ Before adding schedule breaks to a shift, make sure to create a shift plan and a
 5.  Click **Save**.
 
 
-**Parent Topic:**[Create a work shift](create-work-shift-wfo-hr.md)
+**Parent Topic:**[Create a work shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workforce-optimization-for-hr/create-work-shift-wfo-hr.md)
 

@@ -2,6 +2,7 @@
 title: Order decomposition
 description: Order decomposition is the process of breaking down an approved customer or service order into a set of smaller, manageable domain orders for fulfillment. This process is driven by definitions in the product catalog to ensure that all necessary components are provisioned correctly. Learn about the decomposition process for customer and service order and their differences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/order-mgt-order-decomposition.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -203,5 +204,5 @@ Customer order decomposition supports the following additional features:
 -   Quantity-based decomposition: Customer orders can be decomposed into multiple domain orders based on order quantity, supporting revisions, and fulfillment of multiple instances.
 -   Support for change orders: Customer order decomposition supports updates to quantity characteristics, enabling upgrades, downgrades, and inventory management during fulfillment.
 
-Fore more information, see [Customer order decomposition](customer-order-decomposition.md).
+Fore more information, see [Customer order decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/customer-order-decomposition.md).
 

@@ -2,6 +2,7 @@
 title: Identifying and remediating missing API data in API Insights
 description: Identify and remediate missing API data in the API Insights workspace by linking missing elements and verifying complete API records.Improve the operational efficiency of the API ecosystem within your organization by creating a relationship or reference for APIs that lack key attributes such as business context, ownership groups, product models, or designs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/api-insights/api-insights-resolve-gaps.html
 release: zurich
 product: API Insights
 classification: api-insights
@@ -97,7 +98,7 @@ Available missing data categories include:
     **Note:** Displayed only when the Digital Integration Management plugin \(sn\_apm\_di\) is activated.
 
 
-**Important:** When creating relationships for a large number of APIs, you can automate creating relationships based on tags on API. For more information, see [Automating creating tag-based relationship mapping within API Insights](../../../Chunk1495442636.md#).
+**Important:** When creating relationships for a large number of APIs, you can automate creating relationships based on tags on API. For more information, see [Automating creating tag-based relationship mapping within API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
 ### Procedure
 

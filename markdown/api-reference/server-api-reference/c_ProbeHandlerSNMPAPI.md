@@ -2,6 +2,7 @@
 title: ProbeHandlerSNMP - Global
 description: The ProbeHandlerSNMP script include is a discovery probe handler for SNMP probes, invoked when an SNMP probe is about to be created.Adds a boolean value to the parameter map.Adds debugging to the probe handler.Adds a JavaScript handler.Adds OID automatic resolution.Adds OID specifications to the parameter map.Adds a sensor handler.Adds the stage to the parameter map.Adds timing specifications to the parameter map.Returns the parameters added by this probe handler.Runs the probe.Sets the value of a given XML parameter element.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_ProbeHandlerSNMPAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The ProbeHandlerSNMP script include is a discovery probe handler for SNMP probes
 
 You can use this script include in any server-side script where you need to configure an SNMP probe.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## ProbeHandlerSNMP - addBoolean\(String dbName, String paramName, String paramMap\)
 

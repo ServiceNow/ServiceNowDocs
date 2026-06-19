@@ -2,6 +2,7 @@
 title: GlideEventManager - Global
 description: The GlideEventManager API provides methods to process events.Instantiates a GlideEventManager object.Processes the eligible events in a queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/GlideEventManagerGlobalAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,9 +16,9 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideEventManager API provides methods to process events.
 
-For information on creating an event queue, see [Creating custom queues to process events](../../../../../script/useful-scripts/concept/useful-server-side-scripts.md#).
+For information on creating an event queue, see [Creating custom queues to process events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/useful-server-side-scripts.md).
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideEventManager - GlideEventManager\(String queueName\)
 

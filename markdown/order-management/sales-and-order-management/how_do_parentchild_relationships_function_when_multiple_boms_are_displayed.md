@@ -2,6 +2,7 @@
 title: How parent/child relationships function when multiple BOMs are displayed
 description: See how product relationships are displayed in a product list that includes more than one bill of materials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/how\_do\_parentchild\_relationships\_function\_when\_multiple\_boms\_are\_displayed.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -19,5 +20,5 @@ If a parent or child product is not displayed in a BOM because it has a differen
 
 Parent/child product relationships between products with different BOM types will appear in the product list similarly to the example below. Here, the parent of Grandchild Product2 is the child product. Child Product is a manufacturing item, while Grandchild Product2 is a sales item. Because Child Product is not shown in the sales BOM, Parent Product is shown as the parent \(becoming the effective parent\) of Grandchild Product2.
 
-![Sales BOM](../images/cpq-parent-child-multiple-boms.png)
+\[Omitted image "cpq-parent-child-multiple-boms.png"\] Alt text: Sales BOM
 

@@ -2,6 +2,7 @@
 title: Handle alerts while CIs are in maintenance
 description: When an alert occurs on a CI that is in the maintenance state, the alert state is also changed to maintenance. You should find and monitor the states of these alerts. Later, when changes on the CI are complete, finish triaging the alert and close it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/operator-alerts-CIs-in-maintenance.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -31,7 +32,7 @@ Role required: evt\_mgmt\_operator
 
     1.  Navigate to **Event Management** &gt; **Operators Workspace**.
 
-    2.  Click the filter icon \(![Filter icon](../image/filter-icon.png)\) and in the Filter box, click **Advanced view** and specify:
+    2.  Click the filter icon \(\[Omitted image "filter-icon.png"\] Alt text: Filter icon\) and in the Filter box, click **Advanced view** and specify:
 
         `State` \| `is` \| `Maintenance`.
 
@@ -47,9 +48,9 @@ Role required: evt\_mgmt\_operator
 
     In this example, the status of the server \(on the **Details** tab\) is **In Maintenance**. You can view the scheduled change request on the **Change Requests** tab \(someone will reconfigure the CI\).
 
-    ![Maintenance](../image/ci-in-maint.png)
+    \[Omitted image "ci-in-maint.png"\] Alt text: Maintenance
 
-    ![Change](../image/ci-change-request.png)
+    \[Omitted image "ci-change-request.png"\] Alt text: Change
 
 5.  At this point, you should not modify the alert associated with this CI.
 
@@ -57,8 +58,8 @@ Role required: evt\_mgmt\_operator
 
 6.  After you verify that the **Status** field on the CI is not **In Maintenance**, open the alert again and clear the **Maintenance** check box.
 
-7.  Continue to [triage the alert](operator-phase-triage-incident.md).
+7.  Continue to [triage the alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-phase-triage-incident.md).
 
 
-**Parent Topic:**[Advanced tasks for the Event Management operator](../concept/operator-advanced-tasks.md)
+**Parent Topic:**[Advanced tasks for the Event Management operator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-advanced-tasks.md)
 

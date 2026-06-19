@@ -2,6 +2,7 @@
 title: Find and cleanse sensitive data
 description: You can scan your datasets for sensitive data, like personally identifiable information \(PII\). If you find sensitive data, then you can cleanse it from your datasets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-data-kit/sensitive-data.html
 release: zurich
 product: Now Assist Data Kit
 classification: now-assist-data-kit
@@ -27,12 +28,12 @@ Plugins required: sn\_data\_discovery, sn\_dp\_store\_app, com.glide.data\_priva
 
 2.  From the **Dataset** tab, select the dataset that you want to scan.
 
-3.  Select the Scan and cleanse data icon ![](../image/nadk-scan-icon.png).
+3.  Select the Scan and cleanse data icon \[Omitted image "nadk-scan-icon.png"\] Alt text:.
 
 4.  From the **Scan Data** tab, select **Scan data**.
 
 5.  If there is sensitive data in your dataset, select the **Cleanse Data** tab and select **Cleanse data** to remove it.
 
-    You can also see the records that contain sensitive data by viewing the Data Insights tab. To learn more, see [View data insights](../task/view-data-insights.md).
+    You can also see the records that contain sensitive data by viewing the Data Insights tab. To learn more, see [View data insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-data-kit/view-data-insights.md).
 
 

@@ -2,6 +2,7 @@
 title: Localizing Virtual Agent conversations
 description: The ServiceNow platform provides several methods for localizing Virtual Agent conversations, depending on your needs. Use the Localization Framework to manage all aspects of the translation process, whether you are using machine translation, a third-party provider, or both.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/localize-va-topic.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -32,7 +33,7 @@ Use the ServiceNow Localization Framework to standardize and track the translati
     -   Auto translation and publication
     -   Approval required for translation and publication
 
-To learn more, see [Localization Framework](https://www.servicenow.com/docs/access?context=localization-framework-landing&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US). To learn more about localization roles, see [Localization roles for Virtual Agent](../reference/localization-roles-va.md#).
+To learn more, see . To learn more about localization roles, see [Localization roles for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/localization-roles-va.md).
 
 ## Localizing topics
 
@@ -44,9 +45,9 @@ The localization process flow depends on the method of topic discovery that you 
 
 -   Natural Language Understanding \(NLU\) topic discovery
 
-    If your topics use NLU, both the topic and the model group must be localized. When you request a translation from Virtual Agent Designer, the topic and any optional keywords are translated. You must request translation for model groups from NLU Workbench. For more information about that process, see [Translate a multilingual model](https://www.servicenow.com/docs/access?context=translate-multilingual-model&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+    If your topics use NLU, both the topic and the model group must be localized. When you request a translation from Virtual Agent Designer, the topic and any optional keywords are translated. You must request translation for model groups from NLU Workbench. For more information about that process, see Translate a multilingual model.
 
-    Once the topic and secondary models are localized, you may need to [map the models to the topic](../task/map-nlu-language-model.md) before publishing them.
+    Once the topic and secondary models are localized, you may need to [map the models to the topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/map-nlu-language-model.md) before publishing them.
 
 
 ## Prerequisites
@@ -57,20 +58,20 @@ Do the following before you begin managing translations:
 
 -   Activate the ServiceNow plugin for each language you want to support.
 
-    The Localization Framework is also installed by default. For more information, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    The Localization Framework is also installed by default. For more information, see Activate a language.
 
 -   Configure the translation mode that you want to use in the Localization Framework.
 
-    You can configure machine translation, a translation management system \(TMS\), or send via email. For more information, see [Translation modes](https://www.servicenow.com/docs/access?context=translation-modes&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    You can configure machine translation, a translation management system \(TMS\), or send via email. For more information, see Translation modes.
 
 -   If you are using Natural Language Understanding \(NLU\), enable languages in Virtual Agent settings.
 
-    For more information, see [Enable NLU languages in Virtual Agent settings](../task/enable-langs-va-gen-settings.md).
+    For more information, see [Enable NLU languages in Virtual Agent settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-langs-va-gen-settings.md).
 
--   If necessary, add secondary languages to your NLU model group. For more information, see [Multilingual model management](https://www.servicenow.com/docs/access?context=multilingual-model-managent&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+-   If necessary, add secondary languages to your NLU model group. For more information, see Multilingual model management.
 -   Assign localization roles to team member groups.
 
-    Users are assigned different roles based on their responsibilities for the translation process. For more information, see [Localization roles for Virtual Agent](../reference/localization-roles-va.md#).
+    Users are assigned different roles based on their responsibilities for the translation process. For more information, see [Localization roles for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/localization-roles-va.md).
 
 
 ## Manage languages by model
@@ -84,26 +85,26 @@ If NLU is enabled for your instance, you can view and manage translations by mod
 
 Click **Manage NLU translations** for easy access to the model management page in NLU Workbench.
 
-For more information, see [Localize Virtual Agent topics that use NLU topic discovery](../task/use-lf-translate-va-nlu.md).
+For more information, see [Localize Virtual Agent topics that use NLU topic discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/use-lf-translate-va-nlu.md).
 
--   **[Enable NLU languages in Virtual Agent settings](../task/enable-langs-va-gen-settings.md)**  
+-   **[Enable NLU languages in Virtual Agent settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-langs-va-gen-settings.md)**  
 If you plan to use language-specific NLU models, you must enable the installed languages in the Supported NLU Languages list. A language is enabled if the **Enabled** column displays true. English language is enabled by default.
--   **[Localize Virtual Agent topics that use keyword topic discovery](../task/use-lf-translate-va.md)**  
+-   **[Localize Virtual Agent topics that use keyword topic discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/use-lf-translate-va.md)**  
 Use the ServiceNow Localization Framework to manage the process of localizing Virtual Agent conversations and keywords.
--   **[Localize Virtual Agent topics that use NLU topic discovery](../task/use-lf-translate-va-nlu.md)**  
+-   **[Localize Virtual Agent topics that use NLU topic discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/use-lf-translate-va-nlu.md)**  
 Use the ServiceNow Localization Framework to manage the process of localizing Virtual Agent conversations that use Natural Language Understanding \(NLU\).
--   **[Edit translations for Virtual Agent topics](../task/edit-translations-va-topics.md)**  
+-   **[Edit translations for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/edit-translations-va-topics.md)**  
 A Virtual Agent admin user can edit and publish translations directly in Virtual Agent Designer.
--   **[Request bulk translations for multiple topics](../task/request-bulk-translations-va.md)**  
+-   **[Request bulk translations for multiple topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/request-bulk-translations-va.md)**  
 If you need to translate many Virtual Agent topics across multiple models at one time, you can use the \[sys\_cs\_topic\] table list view to request translations.
--   **[Authoring Virtual Agent conversations for localization](authoring-va-l18n.md)**  
+-   **[Authoring Virtual Agent conversations for localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/authoring-va-l18n.md)**  
 Use localization methods in your Virtual Agent scripts to ensure that the content can be translated. Localization methods are designed to show the original text when no translation is found. These methods can be applied to your code before you have created translations.
--   **[Language support for NLU services](../reference/language-support-nlu-services.md)**  
+-   **[Language support for NLU services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/language-support-nlu-services.md)**  
 Entity extraction is supported on ServiceNow® NLU models for specific languages only. The remaining languages support intent matching only. If you are using IBM Watson Assistant or Microsoft LUIS, supported languages vary.
--   **[Localization roles for Virtual Agent](../reference/localization-roles-va.md#)**  
+-   **[Localization roles for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/localization-roles-va.md)**  
 Assign localization roles according to a user's scope in the localization process. Users may request translations, fulfill translation requests, and edit translations, based on their role.
--   **[Virtual Agent translation tables](../reference/va-translation-tables.md)**  
+-   **[Virtual Agent translation tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-translation-tables.md)**  
 Virtual Agent uses the \[sys\_translated\_text\] and \[sys\_ui\_message\] tables to store translated text.
 
-**Parent Topic:**[Localization options for Virtual Agent](multi-language-options-va.md)
+**Parent Topic:**[Localization options for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/multi-language-options-va.md)
 

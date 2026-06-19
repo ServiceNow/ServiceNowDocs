@@ -2,6 +2,7 @@
 title: Add a portal
 description: Create a portal in App Engine Studio \(AES\) to give your users a site where they can find information, create requests, and complete business tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/add-portal.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -17,7 +18,7 @@ Create a portal in App Engine Studio \(AES\) to give your users a site where the
 
 ## Before you begin
 
-Role required: sn\_app\_eng\_studio.user, sn\_app\_eng\_studio.admin, or delegated\_developer. For more information, see [Delegate developers using AES](../concept/aes-app-dev-workflow.md).
+Role required: sn\_app\_eng\_studio.user, sn\_app\_eng\_studio.admin, or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## About this task
 
@@ -77,16 +78,16 @@ Roles
 
 </td><td>
 
-User roles to limit who can access the portal. To use a custom role for your portal, you must create one in **Security** first. For more information, see [Add application security](../concept/add-security.md).
+User roles to limit who can access the portal. To use a custom role for your portal, you must create one in **Security** first. For more information, see [Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-security.md).
 
 </td></tr></tbody>
 </table>6.  Select **Continue**, and then select **Done**.
 
     After you create the portal in AES, you must edit it in UI Builder by adding or configuring components on each page.
 
-7.  Next to the portal you created, select the menu icon \(![Menu icon](../image/menu-icon-purple.png)\) and then select **Edit**.
+7.  Next to the portal you created, select the menu icon \(\[Omitted image "menu-icon-purple.png"\] Alt text: Menu icon\) and then select **Edit**.
 
-    ![Edit a portal to make changes to it](../image/aes-edit-portal-purple-update.png "Edit a portal")
+    \[Omitted image "aes-edit-portal-purple-update.png"\] Alt text: Edit a portal to make changes to it
 
 8.  In UI Builder, edit the portal by adding or configuring components on each page.
 
@@ -97,10 +98,10 @@ User roles to limit who can access the portal. To use a custom role for your por
 
 ## What to do next
 
-For more information on using UI Builder to edit portals, see [UI Builder](../../../administer/ui-builder/concept/ui-builder-overview.md).
+For more information on using UI Builder to edit portals, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/ui-builder-overview.md).
 
--   **[Sample portals you can build](../concept/portal-example.md)**  
+-   **[Sample portals you can build](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/portal-example.md)**  
 A portal is a site where users inside of your organization can find information, submit requests, and complete business tasks.
 
-**Parent Topic:**[Add an application experience](../concept/add-experience.md)
+**Parent Topic:**[Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-experience.md)
 

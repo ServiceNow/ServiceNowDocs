@@ -2,6 +2,7 @@
 title: Run a scan configuration
 description: Run a scan configuration to evaluate the resource configuration of the given cloud against the specified policy sets and identify the policy violations. Cloud Configuration Governance reports the identified policy violations as audit results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-cloud-accelerate/run-ccg-scan-configuration.html
 release: zurich
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate

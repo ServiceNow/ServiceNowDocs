@@ -2,6 +2,7 @@
 title: Add diagnostics and fix scripts for resource
 description: Add existing or new diagnostic scripts to scan the data in your application for any corruption. You can also attach fix scripts to rectify the corrupt or invalid data identified by the diagnostic script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/resource-management/add-diagnostic-and-fix-script-rm.html
 release: zurich
 product: Resource Management
 classification: resource-management
@@ -31,7 +32,7 @@ You can create multiple diagnostic scripts to check various aspects of data. The
 
 3.  On the Diagnostics Scripts form, fill the fields.
 
-    For a description of the field names, see [Diagnostics Scripts form](../reference/diag-scripts-form.md).
+    For a description of the field names, see [Diagnostics Scripts form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/diag-scripts-form.md).
 
 4.  If you want to include a script for fixing the corrupt or invalid data identified by the diagnostic script, select the **Has Fix script** check box.
 
@@ -44,5 +45,5 @@ You can create multiple diagnostic scripts to check various aspects of data. The
 7.  Select **Submit**.
 
 
-**Parent Topic:**[Use Resource Diagnostics to detect corrupt resource data](use-resource-diagnostics.md)
+**Parent Topic:**[Use Resource Diagnostics to detect corrupt resource data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/use-resource-diagnostics.md)
 

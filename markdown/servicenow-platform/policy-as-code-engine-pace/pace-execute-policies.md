@@ -2,6 +2,7 @@
 title: Execute policies
 description: Execute a policy to determine if the policy is compliant or non-compliant. Executions can be run as part of your policy evaluation process, or in real time when mapped to an object \(table or document ID\).I presume we should also mention invoking with the API? Do we want to tell the user how to do that exactly?
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/policy-as-code-engine-pace/pace-execute-policies.html
 release: zurich
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
@@ -15,7 +16,7 @@ breadcrumb: [Administer PaCE policies, Policy as Code Engine \(PaCE\), Extend Se
 
 Execute a policy to determine if the policy is compliant or non-compliant. Executions can be run as part of your policy evaluation process, or in real time when mapped to an object \(table or document ID\).
 
-Before you publish a policy version, you can run a test evaluation of the version to determine if it is compliant, non-compliant, compliant-exception, or other. Evaluating a policy enables you to test repeatedly and apply any required changes to the policy version, before moving it to a production environment. For further information about testing your policy version, see [Use the Test Playground for PaCE policies](pace-use-test-playground.md).
+Before you publish a policy version, you can run a test evaluation of the version to determine if it is compliant, non-compliant, compliant-exception, or other. Evaluating a policy enables you to test repeatedly and apply any required changes to the policy version, before moving it to a production environment. For further information about testing your policy version, see [Use the Test Playground for PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/policy-as-code-engine-pace/pace-use-test-playground.md).
 
-When the version is ready to be moved into the production environment, make sure that all policy mappings are in place and verified. When the policy is invoked by the relevant object, its execution output is stored for review. For further information, see [Review executed policy activity](../task/pace-review-executed-policies.md).
+When the version is ready to be moved into the production environment, make sure that all policy mappings are in place and verified. When the policy is invoked by the relevant object, its execution output is stored for review. For further information, see [Review executed policy activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/policy-as-code-engine-pace/pace-review-executed-policies.md).
 

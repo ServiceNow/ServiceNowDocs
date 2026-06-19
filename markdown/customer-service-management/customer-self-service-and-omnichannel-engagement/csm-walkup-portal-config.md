@@ -2,6 +2,7 @@
 title: Configure the Walk-up Experience portal
 description: Create engaging walk-up center service portals featuring your logo, portal theme, desired catalog, links to a knowledge base and social community, and more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-portal-config.html
 release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -32,7 +33,7 @@ There are several ways to configure the Walk-up service portal:
 
     The Service Portal configuration page opens.
 
-2.  To customize the base-system walk-up portal with your unique branding, title, logo, theme colors, layout, properties, widgets, and more, or to create a new walk-up portal, refer to [Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) for detailed information.
+2.  To customize the base-system walk-up portal with your unique branding, title, logo, theme colors, layout, properties, widgets, and more, or to create a new walk-up portal, refer to Service Portal for detailed information.
 
 3.  Alternatively, to configure the Walk-up service portal using the Service Portal Walk-up form, navigate to **CSM Walk-up Experience** &gt; **Administration** &gt; **Portal Configurations**.
 
@@ -40,13 +41,13 @@ There are several ways to configure the Walk-up service portal:
 
 4.  In the Service Portals list, click Walk-up or search for it in the list header search box.
 
-5.  Click the Form menu icon ![Form menu icon.](../../../common/image/Form_MenuIcon.png) and select **Configure** &gt; **Form Design**.
+5.  Click the Form menu icon \[Omitted image "Form\_MenuIcon.png"\] Alt text: Form menu icon. and select **Configure** &gt; **Form Design**.
 
     The form designer opens.
 
 6.  In the form designer header drop-down list select or search for any of the configurable walk-up forms to customize your portal appearance.
 
-<table id="choicetable_egv_2gp_ldb"><tbody><tr><td id="d291020e156">
+<table id="choicetable_egv_2gp_ldb"><tbody><tr><td id="d239767e156">
 
 **Walk-up context \[wu\_context\]**
 
@@ -54,7 +55,7 @@ There are several ways to configure the Walk-up service portal:
 
 Configure an online check-in channel for users to join a walk-up queue before physically arriving at the walk-up location. Identifies a walk-up user and the description of the associated interaction.
 
-</td></tr><tr><td id="d291020e165">
+</td></tr><tr><td id="d239767e165">
 
 **Walk-up Location Queue \[wu\_location\_queue\]**
 
@@ -62,7 +63,7 @@ Configure an online check-in channel for users to join a walk-up queue before ph
 
 Configure the physical walk-up location interaction queue to manage and administer the service center. You can establish walk-up locations, set hours of operation, enable online check-in, determine assignment groups, associate stockrooms, as well as design the queue time display and position notification system.
 
-</td></tr><tr><td id="d291020e174">
+</td></tr><tr><td id="d239767e174">
 
 **Walk-up Reason \[wu\_m2m\_location\_queue\_reason\]**
 
@@ -70,7 +71,7 @@ Configure the physical walk-up location interaction queue to manage and administ
 
 Define various common reasons why a user needs walk-up support.
 
-</td></tr><tr><td id="d291020e183">
+</td></tr><tr><td id="d239767e183">
 
 **Walk-up Reason for Visit \[wu\_reason\]**
 
@@ -79,6 +80,6 @@ Define various common reasons why a user needs walk-up support.
 Specify the order in which reasons for a visit should be prioritized at a walk-up location.
 
 </td></tr></tbody>
-</table>    To modify form content to meet your portal requirements, refer to [Form configuration](https://www.servicenow.com/docs/access?context=basic-form-administration&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) for detailed information.
+</table>    To modify form content to meet your portal requirements, refer to Form configuration for detailed information.
 
 

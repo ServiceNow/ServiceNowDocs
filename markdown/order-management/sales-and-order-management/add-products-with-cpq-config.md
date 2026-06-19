@@ -2,6 +2,7 @@
 title: Add customizable products using CPQ Configurator
 description: Use the CPQ Configurator to add configurable products to a Sales Customer Relationship Management transaction, for example an opportunity or quote.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/add-products-with-cpq-config.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,7 +24,7 @@ Role required: sales agent, order agent, customer
 
 1.  Create the transaction, for example an opportunity or quote in the CSM Configurable Workspace.
 
-    1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+    1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
     2.  Navigate to the module for the transaction, for example **Quotes** &gt; **All**, and select **New** to create the transaction.
 
@@ -41,12 +42,12 @@ Role required: sales agent, order agent, customer
 
     -   As you select options and enter quantity items, review the shopping cart to see the associated pricing for your selections.
     -   Review the completion icons.
-        -   Attention icon ![](../image/icon-attention.png): Indicates that a required option or entry must be completed. Select the icon to see which item must be completed. To find the required entry, review the options for all the products in the bundle. The required entry is identified by the Alert icon ![](../image/icon-alert-triangle.png) and message.
-        -   Checkmark icon ![](../../../reuse/icons/product-icons/check-fill-24.svg): Indicates that all required options and entries for the configurable offering have been completed.
+        -   Attention icon \[Omitted image "icon-attention.png"\] Alt text:: Indicates that a required option or entry must be completed. Select the icon to see which item must be completed. To find the required entry, review the options for all the products in the bundle. The required entry is identified by the Alert icon \[Omitted image "icon-alert-triangle.png"\] Alt text: and message.
+        -   Checkmark icon \[Omitted image "check-fill-24.svg"\] Alt text:: Indicates that all required options and entries for the configurable offering have been completed.
 5.  When you complete your selections, select **Save and Close**.
 
     The configurable product is added as a line item to the transaction.
 
 
-**Parent Topic:**[Using the CPQ Configurator](../concept/using-servicenowcpq.md)
+**Parent Topic:**[Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/using-servicenowcpq.md)
 

@@ -2,12 +2,13 @@
 title: Purchasing tasks and procurement cases
 description: All automated purchasing tasks and procurement cases are created using flow designer from the Service Delivery Common \(SDC\) application. The flow designer uses the underlying task and case generation decision tables. Purchasing tasks and procurement cases are created based on the conditions defined in the decision tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/purchasing-tasks.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [automatically create purchasing tasks, automatically create procurement cases]
 breadcrumb: [Sourcing and Purchasing Automation, Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -18,7 +19,7 @@ All automated purchasing tasks and procurement cases are created using flow desi
 
 ## Conditions and triggers for task and case creation
 
-The **Sourcing decision dependent on case** and **Order dependent on case** fields in the Finance Case table determine the need for a [procurement case](../concept/spo-glossary.md#) to be created. In contrast, the **Sourcing decision dependent on task** and **Order dependent on task** fields in the Finance Task table determine the need for a [procurement task](../concept/spo-glossary.md#) to be created.
+The **Sourcing decision dependent on case** and **Order dependent on case** fields in the Finance Case table determine the need for a [procurement case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/spo-glossary.md) to be created. In contrast, the **Sourcing decision dependent on task** and **Order dependent on task** fields in the Finance Task table determine the need for a [procurement task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/spo-glossary.md) to be created.
 
 Tasks and cases are generated when the following rules are triggered. The decision tables support this generation via decision inputs.
 
@@ -69,7 +70,7 @@ The requestor gets an email notification to accept or reject the resolution with
 -   If the requestor rejects the case resolution, the case moves back to Work in Progress.
 -   If the requestor does not respond in time, the case is automatically marked as Closed Completed.
 
-For more information on email notifications, see [Alerts and email notifications from ShoppingHub](alerts-messages-email-notifications.md#awaiting_acceptance_email_notification).
+For more information on email notifications, see [Alerts and email notifications from ShoppingHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/alerts-messages-email-notifications.md).
 
 ## Purchasing task types
 
@@ -81,7 +82,7 @@ Here's a list of the types and subtypes of purchasing tasks:
     -   Ask a question: Ask the shopper for more information about the purchase.
 -   Procurement/Supplier task: Create a procurement task for a supplier.
 
-![Create new procurement task.](../image/create_procurement_task.png)
+\[Omitted image "create\_procurement\_task.png"\] Alt text: Create new procurement task.
 
 You can also create child tasks or associate child tasks to parent tasks. However, you must close all child tasks and associated child tasks before you can close any parent task. Similarly, you can reopen a child task or associated child task only when the parent task is still open.
 
@@ -280,8 +281,8 @@ Question &amp; Answer
 This section contains the information of the questions posed to the shopper and the responses that the shopper provides.
 
 </td></tr></tbody>
-</table>-   **[Purchasing task and procurement case creation](../concept/automated-purchasing-task-creation-from-flow-designer.md)**  
+</table>-   **[Purchasing task and procurement case creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/automated-purchasing-task-creation-from-flow-designer.md)**  
 Create purchasing tasks and procurement cases in sourcing requests and purchase requisitions.
 
-**Parent Topic:**[Sourcing and Purchasing Automation](purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

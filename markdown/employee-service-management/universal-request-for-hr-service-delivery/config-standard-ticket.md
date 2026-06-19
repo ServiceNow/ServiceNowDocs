@@ -2,6 +2,7 @@
 title: Configure Standard Ticket page for Universal Request
 description: Use the Standard ticket page configuration for Universal Request to provide a consistent layout across all tickets raised and associated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-request-for-hr-service-delivery/config-standard-ticket.html
 release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -37,8 +38,8 @@ By default, a standard ticket configuration is provided for UR. You can customiz
 
 6.  Click **New** to create your custom configuration.
 
-    For more information, see [Standard ticket page](https://www.servicenow.com/docs/access?context=standard-ticket-page&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    For more information, see Standard ticket page.
 
 
-**Parent Topic:**[Standard Ticket page for Universal Request](../concept/ur-std-ticket-page.md)
+**Parent Topic:**[Standard Ticket page for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-std-ticket-page.md)
 

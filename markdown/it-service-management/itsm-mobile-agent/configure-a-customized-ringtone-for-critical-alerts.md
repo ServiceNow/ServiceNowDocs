@@ -2,11 +2,12 @@
 title: Configure a ringtone for critical alerts
 description: Select a preferred ringtone for your critical notifications in ITSM Mobile Agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/configure-a-customized-ringtone-for-critical-alerts.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [ringtone]
 breadcrumb: [Enable Override do not disturb to receive critical alerts, Configure, ITSM Mobile Agent, IT Service Management]
@@ -26,7 +27,7 @@ Role required: admin
 
 2.  Search and select **CriticalPushPayloadBuilder** from the list of scripts.
 
-    Ensure that the selected script **CriticalPushPayloadBuilder** is in **ITSM Mobile Agent** application scope.
+    Verify that the selected script **CriticalPushPayloadBuilder** is in **ITSM Mobile Agent** application scope.
 
 3.  Open the **CriticalPushPayloadBuilder** record and edit the script with your preferred ringtone name:
 

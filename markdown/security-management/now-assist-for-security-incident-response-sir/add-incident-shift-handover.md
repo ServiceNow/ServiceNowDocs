@@ -2,6 +2,7 @@
 title: Add security incident to shift handover report
 description: Chat with an AI agent in the Now Assist panel to add a security incident details to a shift handover report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/now-assist-for-security-incident-response-sir/add-incident-shift-handover.html
 release: zurich
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -21,7 +22,7 @@ Role required: sn\_si.analyst
 
 ## About this task
 
-**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Important:** This agentic workflow is turned on by default. For more information, see .
 
 ## Procedure
 
@@ -29,7 +30,7 @@ Role required: sn\_si.analyst
 
 2.  Open the security incident that you want to add to a shift handover report using the AI agent.
 
-3.  Select the Now Assist \(![Now Assist panel for AI agent icon.](../image/ai-icon-now-assist.png)\) icon.
+3.  Select the Now Assist \(\[Omitted image "ai-icon-now-assist.png"\] Alt text: Now Assist panel for AI agent icon.\) icon.
 
     The Generate SIR Shift Handover Report agentic workflow is on-demand. You can enter a query in natural language to add a security incident to a shift handover report.
 
@@ -51,12 +52,12 @@ Role required: sn\_si.analyst
 
     For each section of the shift handover report, the AI agent provides the content and requests feedback from the analyst. If required, you can skip to update any section.
 
-    ![Content added to shift handover report.](../image/NA-shift-handover.png)
+    \[Omitted image "NA-shift-handover.png"\] Alt text: Content added to shift handover report.
 
 
 ## Result
 
 The AI agent displays the summary of all the updated and skipped sections.
 
-![Shift handover workflow result](../image/shifthandover-report-update.png)
+\[Omitted image "shifthandover-report-update.png"\] Alt text: Shift handover workflow result
 

@@ -2,6 +2,7 @@
 title: Associate or update the primary goal or target for a planning item
 description: Associate a primary goal or target for the planning items where the items contribute to achieving the goal or target.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/associate-update-primary-goal-egm.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -21,7 +22,7 @@ Role required: sn\_apw\_advanced.spw\_goal\_user and sn\_align\_core.apw\_user
 
 ## About this task
 
-You can associate a goal or target as primary with a planning item by populating the **Primary goal** and **Primary target** fields on the Planning item form respectively. When you populate the **Primary target** field, the **Primary goal** is automatically populated with the goal of the populated target. For more information, see [Planning item form](../../alignment-planner-workspace/reference/planning-item-form.md).
+You can associate a goal or target as primary with a planning item by populating the **Primary goal** and **Primary target** fields on the Planning item form respectively. When you populate the **Primary target** field, the **Primary goal** is automatically populated with the goal of the populated target. For more information, see [Planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/planning-item-form.md).
 
 After you associate planning items with goals or targets, you can check these relationships directly on the Planning items tab of the goal's form or on the Goal/Target Relationships tab of the planning item's form.
 
@@ -36,15 +37,15 @@ After you associate planning items with goals or targets, you can check these re
 
 1.  Open the required planning item form using one of the following options.
 
-<table id="choicetable_ncp_ty2_fqb"><thead><tr><th align="left" id="d200792e115">
+<table id="choicetable_ncp_ty2_fqb"><thead><tr><th align="left" id="d192287e115">
 
 Option
 
-</th><th align="left" id="d200792e118">
+</th><th align="left" id="d192287e118">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d200792e124">
+</th></tr></thead><tbody><tr><td id="d192287e124">
 
 **From the Portfolio Plans tab**
 
@@ -60,7 +61,7 @@ The side panel opens with the **Details** tab.
 
 Alternatively, you can select **Full details** and open the item's record page. Select the **Details** tab from the record page.
 
-</td></tr><tr><td id="d200792e189">
+</td></tr><tr><td id="d192287e189">
 
 **From the Free-form Roadmaps tab**
 
@@ -80,7 +81,7 @@ Alternatively, you can select **Full details** and open the item's record page. 
 
     Alternatively, you can select **Add** in the **Goal/Target Relationships** tab, populate the **Goal** and **Target** fields as needed, and then select **Primary**. The **Primary goal** and **Primary target** fields are then automatically populated on the planning item form.
 
-    For a description of the field values, see [Planning item form](../../alignment-planner-workspace/reference/planning-item-form.md).
+    For a description of the field values, see [Planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/planning-item-form.md).
 
 3.  Select either **Update** or **Save**.
 

@@ -2,6 +2,7 @@
 title: Get application metrics
 description: Filter metrics by application in the Performance Analyzer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/performance-analyzer/get-application-metrics.html
 release: zurich
 product: Performance Analyzer
 classification: performance-analyzer

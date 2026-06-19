@@ -2,6 +2,7 @@
 title: Subflow-agent mapping for HR Service Delivery Integration with SuccessFactors
 description: View the subflow-agent mapping for HR Service Delivery Integration with SuccessFactors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/sf-agent-mapping.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,5 +26,5 @@ View the subflow-agent mapping for HR Service Delivery Integration with SuccessF
 |Employee details updater AI agent|Human Capital Management|Update Personal Details|SuccessFactors HR - Update Personal Details|
 |Worker Management|Get Worker|SuccessFactors HR - Look up Worker Profile|
 
-**Parent Topic:**[HR Service Delivery Integration with SuccessFactors reference](../concept/hr-service-delivery-integration-with-success-factors-reference.md)
+**Parent Topic:**[HR Service Delivery Integration with SuccessFactors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-service-delivery-integration-with-success-factors-reference.md)
 

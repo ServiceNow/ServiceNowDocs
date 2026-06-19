@@ -2,6 +2,7 @@
 title: Review chargeback response and decide on pre-arbitration or arbitration
 description: Review second presentment for the chargeback and initiate pre-arbitration or arbitration, as required for the dispute workflow of the Chargeback stage. For Mastercard transaction chargeback, you can skip raising the pre-arbitration and directly raise the arbitration request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/review-and-decide-prearbitration.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -19,7 +20,7 @@ Review second presentment for the chargeback and initiate pre-arbitration or arb
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector.
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -31,14 +32,14 @@ This task becomes active when the merchant proceeds with a second presentment af
     -   If the merchant responds, the task progresses to the next stage.
     -   If the merchant doesn't respond within the specified time frame, a response from Mastercard displays on your **Landing page** and according to which you can manually take an action on the disputed transaction.
 
-        **Note:** You can access this response from your **Landing Page** &gt; **Acquirer deadline expired tasks**. For more information, see [Dispute agent workspace](../concept/workspace-for-agent.md)
+        **Note:** You can access this response from your **Landing Page** &gt; **Acquirer deadline expired tasks**. For more information, see [Dispute agent workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/workspace-for-agent.md)
 
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -72,15 +73,15 @@ This task becomes active when the merchant proceeds with a second presentment af
 
 13. In the **Response outcome** field, select **Resolved** or **Unresolved**.
 
-<table id="choicetable_sc5_fy5_vfc"><thead><tr><th align="left" id="d50886e382">
+<table id="choicetable_sc5_fy5_vfc"><thead><tr><th align="left" id="d53446e382">
 
 Selection
 
-</th><th align="left" id="d50886e385">
+</th><th align="left" id="d53446e385">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d50886e391">
+</th></tr></thead><tbody><tr><td id="d53446e391">
 
 **Unresolved**
 
@@ -97,7 +98,7 @@ Select **Unresolved** to indicate that the chargeback is not resolved, the **Res
 
 The **Pre arbitration response received** drop-down is displayed.
 
-            -   If a response is received from the acquirer, then the value is set to **Yes**. You’ll be redirected to the next task [Review pre-arbitration response and escalate to arbitration](review-prearbitration-response-escalate-arbitration.md).
+            -   If a response is received from the acquirer, then the value is set to **Yes**. You’ll be redirected to the next task [Review pre-arbitration response and escalate to arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/review-prearbitration-response-escalate-arbitration.md).
             -   If you don’t receive a response from the merchant, then the case goes in the favor of the cardholder and the transaction moves to Financial adjustments 1.
 For Mastercard dispute transaction, you can skip raising the pre-arbitration and directly raise the arbitration request.
 
@@ -110,12 +111,12 @@ For Mastercard dispute transaction, you can skip raising the pre-arbitration and
 
 The **Arbitration response received** drop-down is displayed.
 
-            -   If a response is received from the acquirer, then the value is set to **Yes**. You’ll be redirected to the next task [Review arbitration response](review-arbitration-response-mc.md).
+            -   If a response is received from the acquirer, then the value is set to **Yes**. You’ll be redirected to the next task [Review arbitration response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/review-arbitration-response-mc.md).
             -   If you don’t receive a response from the merchant, then the case goes in the favor of the cardholder and the transaction moves to Financial adjustments 1.
 -   **No** to end the chargeback, then the transaction moves to the Financial adjustments 2. The task is then marked as Complete.
 
 
-</td></tr><tr><td id="d50886e570">
+</td></tr><tr><td id="d53446e570">
 
 **Resolved**
 
@@ -141,8 +142,8 @@ Accept the chargeback response and resolve the dispute. The transaction moves to
 
 Based on the option the dispute agent selects, the response received field changes accordingly.
 
--   **Pre-arbitration** - When a response is received from the merchant for the pre-arbitration, the **Pre arbitration response received** value is marked as **Yes**. You’ll be redirected to the next task [Review pre-arbitration response and escalate to arbitration](review-prearbitration-response-escalate-arbitration.md). If you don’t receive a response from the merchant, then the appropriate task is displayed based on the policy.
--   **Arbitration** - When a response is received from the merchant, the **Arbitration response received** value is marked as **Yes**. You’ll be redirected to the next task [Review arbitration response](review-arbitration-response-mc.md). If you don’t receive a response from the merchant, then the appropriate task is displayed based on the policy.
+-   **Pre-arbitration** - When a response is received from the merchant for the pre-arbitration, the **Pre arbitration response received** value is marked as **Yes**. You’ll be redirected to the next task [Review pre-arbitration response and escalate to arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/review-prearbitration-response-escalate-arbitration.md). If you don’t receive a response from the merchant, then the appropriate task is displayed based on the policy.
+-   **Arbitration** - When a response is received from the merchant, the **Arbitration response received** value is marked as **Yes**. You’ll be redirected to the next task [Review arbitration response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/review-arbitration-response-mc.md). If you don’t receive a response from the merchant, then the appropriate task is displayed based on the policy.
 
-**Parent Topic:**[Chargeback in Mastercard transaction disputes](../concept/chargeback-stage-mastercard.md)
+**Parent Topic:**[Chargeback in Mastercard transaction disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/chargeback-stage-mastercard.md)
 

@@ -2,6 +2,7 @@
 title: Create a demand requirement
 description: Create a demand requirement for rationalizing your SaaS and SSO applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/create-demand-req.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -148,5 +149,5 @@ The demand requirement for the demand is created. You can view the created deman
 
 To view all Software Asset Management demand requirements, navigate to **Software Asset** &gt; **Software Asset Demand** &gt; **Demand Requirements**.
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/using-sam-workspace.md)
 

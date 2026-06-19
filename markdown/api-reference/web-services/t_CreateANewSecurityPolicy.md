@@ -2,6 +2,7 @@
 title: Create a new security policy
 description: Administrators can specify which security profiles WS-Security communications must meet by creating a new security policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/t\_CreateANewSecurityPolicy.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -33,10 +34,10 @@ Role required: web\_service\_admin or admin
     |Type|Select whether the SOAP security policy applies to inbound or outbound traffic.|
     |Required to Sign SOAP Request|Select this checkbox to require signed SOAP requests. Clear the checkbox to allow unsigned SOAP requests. When enabled, the instance will produce an error for any SOAP request that does not include a valid signature. When disabled, the instance still verifies any signature included with a SOAP request.|
     |Authenticate|Select if a SOAP request must authenticate against all security profiles or at least one security profile.|
-    |Security Profiles|Select the [security profiles](../reference/ws-security-reference.md) you want to apply to this SOAP security policy. You must select at least one security profile.|
+    |Security Profiles|Select the [security profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/ws-security-reference.md) you want to apply to this SOAP security policy. You must select at least one security profile.|
 
 4.  Click **Submit**.
 
 
-**Parent Topic:**[SOAP web service](../concept/c_SOAPWebService.md)
+**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_SOAPWebService.md)
 

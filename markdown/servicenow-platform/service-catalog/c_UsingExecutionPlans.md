@@ -2,6 +2,7 @@
 title: Service catalog execution plans
 description: Service catalog enables you to associate execution plans with catalog items.After you submit the execution plan record, you select a catalog item to use the execution plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/c\_UsingExecutionPlans.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -22,7 +23,7 @@ You can also:
 -   Apply conditions to tasks
 -   Create approval tasks, enabling you to step back to a previous step if the approver rejects the request.
 
-**Parent Topic:**[Execution Plans](c_ExecutionPlans.md)
+**Parent Topic:**[Execution Plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_ExecutionPlans.md)
 
 ## Associate execution plan with items
 

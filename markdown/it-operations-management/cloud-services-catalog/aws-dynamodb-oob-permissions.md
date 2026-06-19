@@ -2,6 +2,7 @@
 title: Amazon Web Services DynamoDB Out Of Box permissions
 description: Amazon Web Services DynamoDB OOB catalog items permissions. DynamoDB supports provision and deprovision only.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/aws-dynamodb-oob-permissions.html
 release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -62,5 +63,5 @@ AWS DynamoDB deprovision
 7.  DescribeTable
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Amazon Web Services DynamoDB Out Of Box Catalog Items](aws-dynamodb-out-of-box-catalogs.md)
+</table>**Parent Topic:**[Amazon Web Services DynamoDB Out Of Box Catalog Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/aws-dynamodb-out-of-box-catalogs.md)
 

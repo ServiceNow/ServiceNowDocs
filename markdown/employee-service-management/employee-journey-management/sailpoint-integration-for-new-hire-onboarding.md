@@ -2,6 +2,7 @@
 title: Sailpoint integration for new hire onboarding
 description: Provide relevant applications for new hires automatically as part of the onboarding process with the Sailpoint integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-journey-management/sailpoint-integration-for-new-hire-onboarding.html
 release: zurich
 product: Employee Journey Management
 classification: employee-journey-management
@@ -40,7 +41,7 @@ The application provisioning process works as follows. When an onboarding case i
 
 **Important:** New hires must have a user record in the Sailpoint system in order for their applications to be provisioned to them.
 
-![Application provisioning process for the Sailpoint integration for new hire onboarding.](../image/sailpoint-integration-for-new-hire-onboarding.png)
+\[Omitted image "sailpoint-integration-for-new-hire-onboarding.png"\] Alt text: Application provisioning process for the Sailpoint integration for new hire onboarding.
 
-**Parent Topic:**[Lifecyle events for enterprise integrations](onbrd-trans-integrations.md)
+**Parent Topic:**[Lifecyle events for enterprise integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-journey-management/onbrd-trans-integrations.md)
 

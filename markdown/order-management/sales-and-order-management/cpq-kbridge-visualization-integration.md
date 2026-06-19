@@ -2,6 +2,7 @@
 title: Integrating kBridge visualization
 description: Integrate kBridge for real-time 3D visualization. Sync configuration inputs with visual updates to enhance user experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cpq-kbridge-visualization-integration.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

@@ -2,6 +2,7 @@
 title: Import OSCAL SSP
 description: Import Open Security Controls Assessment Language \(OSCAL\) files in the System Security Plan \(SSP\) model into Continuous Authorization and Monitoring workspace. Import OSCAL SSP enables you import authorization packages, authorization boundary, controls, and others in OSCAL format.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal-ssp-cam-ws.html
 release: zurich
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -30,7 +31,7 @@ The OSCAL SSP import is an asynchronous process.
 
 1.  Navigate to **Workspaces** &gt; **CAM Workspace**.
 
-2.  In the CAM Workspace, select the OSCAL import landing page icon \(![OSCAL import](../image/cam-oscal-import-icon.png)\).
+2.  In the CAM Workspace, select the OSCAL import landing page icon \(\[Omitted image "cam-oscal-import-icon.png"\] Alt text: OSCAL import\).
 
 3.  Select **New Import** from the **All OSCAL imports** landing page.
 
@@ -42,7 +43,7 @@ The OSCAL SSP import is an asynchronous process.
 
     Recipients receive an email notification about the import status.
 
-    ![OSCAL import SSP details tab.](../image/cam-oscal-import-ssp1.png)
+    \[Omitted image "cam-oscal-import-ssp1.png"\] Alt text: OSCAL import SSP details tab.
 
 7.  Select **Next** to continue to the next step in the OSCAL import process.
 
@@ -54,7 +55,7 @@ The OSCAL SSP import is an asynchronous process.
 
     -   **Catalog**: Contains the details of the control objectives and its related objects.
     -   **Profile**: Contains a baseline of selected controls from one or more control or overlay catalogs.
-    -   **Catalog Overlay**: Contains information regarding overlay policies and its control objectives and behavior of the overlay. This behavior depends on the addition or subtraction in which the overlay is included in the Authorization Package. For more information, see [Apply overlays to the baseline controls](apply-overlay-to-baseline.md). You can also upload multiple overlay files.
+    -   **Catalog Overlay**: Contains information regarding overlay policies and its control objectives and behavior of the overlay. This behavior depends on the addition or subtraction in which the overlay is included in the Authorization Package. For more information, see [Apply overlays to the baseline controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/apply-overlay-to-baseline.md). You can also upload multiple overlay files.
     -   **SSP**: Contains the details of the authorization boundary, authorization package, system elements, information types, controls, common controls, inherit, hybrid controls, and others.
     -   **Data flow diagram**, **Boundary diagram**, **Network diagram**, and **Enterprise architecture**: These diagrams are attached to the authorization boundary.
     -   **POA&amp;Ms**: Contains a structured list of issues, milestones, and acceptance tasks.
@@ -62,7 +63,7 @@ The OSCAL SSP import is an asynchronous process.
 
     You can also upload multiple overlay files.
 
-    ![Attach OSCAL SSP files.](../image/cam-oscal-import-ssp4.png)
+    \[Omitted image "cam-oscal-import-ssp4.png"\] Alt text: Attach OSCAL SSP files.
 
 10. Select **Add file** to attach the POA&amp;Ms file, then select **Next**.
 
@@ -72,11 +73,11 @@ The OSCAL SSP import is an asynchronous process.
     -   You can’t import a POA&amp;M file, which is already linked to another active authorization package.
     -   If there are any errors in the uploaded files for import, an error message is displayed, select **Restart** to upload a valid file.
 
-        ![Import error message.](../image/cam-oscal-import-ssp9.png)
+        \[Omitted image "cam-oscal-import-ssp9.png"\] Alt text: Import error message.
 
     -   If a warning appears, you can choose to skip it and select **Next** to proceed with the import process.
 
-        ![Import warning message.](../image/cam-oscal-import-ssp10.png)
+        \[Omitted image "cam-oscal-import-ssp10.png"\] Alt text: Import warning message.
 
     You’re directed to the **User and Group Mapping** tab to map the users for the import process.
 
@@ -92,17 +93,17 @@ The OSCAL SSP import is an asynchronous process.
 
     Assign users to specific roles for the imported files. These users retain their roles throughout each step in the authorization package.
 
-    ![User and group mapping for OSCAL import SSP.](../image/cam-oscal-import-ssp3.png)
+    \[Omitted image "cam-oscal-import-ssp3.png"\] Alt text: User and group mapping for OSCAL import SSP.
 
-14. You can also select the attachments, package mapping, or user and group mapping action icon \(![Restart attachments or roles and responsibilities.](../image/cam-oscal-import-attachments-icon.png)\) on the **Attachments** or **User and Group Mapping** tab to select **Restart Stage** to restart the particular stage.
+14. You can also select the attachments, package mapping, or user and group mapping action icon \(\[Omitted image "cam-oscal-import-attachments-icon.png"\] Alt text: Restart attachments or roles and responsibilities.\) on the **Attachments** or **User and Group Mapping** tab to select **Restart Stage** to restart the particular stage.
 
-    ![Restarting stage.](../image/cam-oscal-import-ssp8.png)
+    \[Omitted image "cam-oscal-import-ssp8.png"\] Alt text: Restarting stage.
 
 15. Select **Next** to verify the files you uploaded.
 
     **Preview and Override** tab displays.
 
-    ![OSCAL SSP import.](../image/cam-oscal-import-ssp5.png)
+    \[Omitted image "cam-oscal-import-ssp5.png"\] Alt text: OSCAL SSP import.
 
 16. In the **Preview and Override** tab, review the details that are to be created, skipped, or overridden and then perform one of the following:
 
@@ -116,7 +117,7 @@ The OSCAL SSP import is an asynchronous process.
         2.  Select **Skipped** to list the object that is to be overridden.
         3.  Select the object from the list that you want to override.
 
-            ![Overriding skipped files.](../image/cam-oscal-import-ssp6.png)
+            \[Omitted image "cam-oscal-import-ssp6.png"\] Alt text: Overriding skipped files.
 
         4.  Select **Override** to override one or more selected object.
 
@@ -156,7 +157,7 @@ The OSCAL SSP import is an asynchronous process.
             -   When you skip a control objective, you can still independently override its related control objective requirements.
         3.  Select the object from the list that you want to skip.
 
-            ![Skipping overridden files.](../image/cam-oscal-import-ssp7.png)
+            \[Omitted image "cam-oscal-import-ssp7.png"\] Alt text: Skipping overridden files.
 
         4.  Select **Skip** to skip one or more selected references.
 
@@ -164,16 +165,16 @@ The OSCAL SSP import is an asynchronous process.
 
 17. Select **Import** to import the SSP files.
 
-    **Note:** You can also select the playbook action icon \(![Restart playbook icon](../image/cam-oscal-import-action-icon.png)\) to select **Restart Playbook** to restart the playbook.
+    **Note:** You can also select the playbook action icon \(\[Omitted image "cam-oscal-import-action-icon.png"\] Alt text: Restart playbook icon\) to select **Restart Playbook** to restart the playbook.
 
     -   A pop-up message appears on the commencement of the import process. Select **Close** and you 're directed to the OSCAL import landing page.
 
-        ![OSCAL import process begins.](../image/cam-oscal-landing-final_ssp1.png)
+        \[Omitted image "cam-oscal-landing-final\_ssp1.png"\] Alt text: OSCAL import process begins.
 
     -   You can view the import status report in the **All OSCAL import** list.
 
-        ![OSCAL import status.](../image/cam-oscal-landing-final_ssp2.png)
+        \[Omitted image "cam-oscal-landing-final\_ssp2.png"\] Alt text: OSCAL import status.
 
 
-**Parent Topic:**[Import in OSCAL format](../concept/import-oscal.md)
+**Parent Topic:**[Import in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal.md)
 

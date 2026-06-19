@@ -2,6 +2,7 @@
 title: Alert similarity
 description: Finding alerts that are similar to the alert that you are currently investigating can help save troubleshooting time by seeing how similar alerts were resolved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/alert-similarity.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -17,7 +18,7 @@ Finding alerts that are similar to the alert that you are currently investigatin
 
 ## Finding similar alerts
 
-Alert similarity applies natural language processing \(NLP\) based on ServiceNow AI Platform machine learning \(ML\) as implemented in [Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+Alert similarity applies natural language processing \(NLP\) based on ServiceNow AI Platform machine learning \(ML\) as implemented in Predictive Intelligence.
 
 ML logic filters out irrelevant information and provides further information to help you understand the cause of alerts. You can view solutions used to resolve similar alerts and the probable root cause.
 
@@ -49,20 +50,20 @@ The alert insight tabs are:
 -   Related Change Requests
 -   Related Problems
 
-For more information about the alert insight tabs, see [Alert insight information](alert-insight-information.md).
+For more information about the alert insight tabs, see [Alert insight information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/alert-insight-information.md).
 
--   **[Find similar alerts](../task/find-similar-alerts.md)**  
+-   **[Find similar alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/find-similar-alerts.md)**  
 You can find alerts similar to the alert currently being investigated. Save troubleshooting time by reviewing similar alerts to see how they were resolved.
--   **[Similarity solutions](word-collection-similarity-solution.md)**  
+-   **[Similarity solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/word-collection-similarity-solution.md)**  
 Similarity solutions enable you to use Machine Learning \(ML\) to compare the text in a resolved alert record to an open alert record to reuse its resolution approach.
--   **[Create an Event Management similarity solution](../task/create-solution-similarity.md)**  
+-   **[Create an Event Management similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-solution-similarity.md)**  
 Create and train a solution that applies machine learning to a collection of words to target and suggest similar alerts in your instance dataset. For example, you can compare the text in a resolved alert record to an open alert record to reuse its resolution approach.
--   **[View Event Management solution training progress](../task/view-solution-training-progress.md)**  
+-   **[View Event Management solution training progress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/view-solution-training-progress.md)**  
 View solution training progress or statistics to determine whether a solution is available or how long the next training cycle might take to complete.
--   **[Review Event Management similarity examples](../task/view-similarity-examples.md)**  
+-   **[Review Event Management similarity examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/view-similarity-examples.md)**  
 Review the similarity examples and scores that the system provides during solution training to see how the selected alert record compares to existing alert records. For example, you can modify the similarity score threshold to increase the accuracy of your similarity recommendations.
--   **[Activate Event Management solution version](../task/solution-version-activated.md)**  
+-   **[Activate Event Management solution version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/solution-version-activated.md)**  
 The system activates the most recent version of the solution, but you can activate any previously trained Event Management solution version if it is more appropriate.
 
-**Parent Topic:**[Manage and monitor alerts](c_EMAlert.md)
+**Parent Topic:**[Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/c_EMAlert.md)
 

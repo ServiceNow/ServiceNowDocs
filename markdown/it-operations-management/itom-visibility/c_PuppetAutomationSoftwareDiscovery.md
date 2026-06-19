@@ -2,6 +2,7 @@
 title: Puppet automation software discovery
 description: Discovery identifies Puppet Masters running on UNIX servers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/c\_PuppetAutomationSoftwareDiscovery.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -55,8 +56,8 @@ The credentials used to discover the UNIX server must have privileges to execute
 |IP Address|Puppet Master \[cmdb\_ci\_puppet\_master\]|ip\_address|Puppet - Master Info|
 |Version|Puppet Master \[cmdb\_ci\_puppet\_master\]|version|Puppet - Master Info|
 
--   **[Add the must\_sudo parameter to the Puppet probe](../task/t_AddMustSudoParameterPuppetProbe.md)**  
+-   **[Add the must\_sudo parameter to the Puppet probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/t_AddMustSudoParameterPuppetProbe.md)**  
 To use the Puppet probe with sudo, you must add the **must\_sudo** parameter to each probe that requires it.
 
-**Parent Topic:**[Software discovery](c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_Software.md)
 

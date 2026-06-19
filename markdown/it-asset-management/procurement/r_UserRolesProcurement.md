@@ -2,6 +2,7 @@
 title: User roles installed with Procurement
 description: Procurement plugin adds the following user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/procurement/r\_UserRolesProcurement.html
 release: zurich
 product: Procurement
 classification: procurement
@@ -52,5 +53,5 @@ financial\_mgmt\_user, model\_manager
 Can create purchase orders without a request. Can view requests and requested items. Can view transfer orders. Can create a purchase order or transfer order when sourcing items for a request. Can view the vendor catalog. Can view and refresh gauges in the Procurement Overview module.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Procurement](r_InstalledWithProcurement.md)
+</table>**Parent Topic:**[Components installed with Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/procurement/r_InstalledWithProcurement.md)
 

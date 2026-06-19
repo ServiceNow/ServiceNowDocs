@@ -2,6 +2,7 @@
 title: Understand the Content Operations dashboard
 description: The Content Operations dashboard is a launchpad for content authors, where they can create content, view engagement metrics for published content, content publishing calender, incoming content requests, and review ownership for pages and widgets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ec-content-operations.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -25,7 +26,7 @@ Users with the Content Manager role can access the **My Content Operations** das
 -   Content Governance
 -   Content Experiences \(optional\)
 
-For more information, see [Employee Center plugins](install-plugins.md).
+For more information, see [Employee Center plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/install-plugins.md).
 
 ## My Content
 
@@ -61,7 +62,7 @@ Click this card to open the Schedule content records.
 -   **Campaign content to be published**: The number of your content items that are in a campaign bundle.
 -   **Campaign content expiring within 7 days**: The number of your currently-published content items that are in bundles with an end date within seven days.
 
-**Note:** The Content Admin can change the number of days for the **Content expiring** and **Campaign content expiring** fields by modifying the Content Governance properties. See [Properties installed with Content Governance](../reference/properties-installed-content-governance.md).
+**Note:** The Content Admin can change the number of days for the **Content expiring** and **Campaign content expiring** fields by modifying the Content Governance properties. See [Properties installed with Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/properties-installed-content-governance.md).
 
 </td></tr><tr><td>
 
@@ -75,14 +76,14 @@ Provides a quick view of content requests via the following cards:-   **Content 
 -   **Content requests in review**: Content requests that are awaiting approval from the user who requested the content or from additional reviewers.
 -   **Content requests ready to publish**: Approved content requests that have a content item with a content schedule record.
 
-**Note:** The Content Admin can change the number of days for the **Content requests due** field by modifying the Content Governance properties. See [Properties installed with Content Governance](../reference/properties-installed-content-governance.md).
+**Note:** The Content Admin can change the number of days for the **Content requests due** field by modifying the Content Governance properties. See [Properties installed with Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/properties-installed-content-governance.md).
 
 </td></tr></tbody>
 </table>## Publishing Calendar
 
 The publishing calender provides a single interface where content managers can view what content will be published and where, upcoming campaigns, and content requests by due date.
 
-![The publishing calendar includes filters to narrow the content displayed](../images/content-ops-calendar.png)
+\[Omitted image "content-ops-calendar.png"\] Alt text: The publishing calendar includes filters to narrow the content displayed
 
 <table id="table_lsx_pmr_wbc"><thead><tr><th>
 
@@ -100,7 +101,7 @@ View type
 
 Narrow the items displayed on the calendar to show:-   Content requests
 
-The Content request appears on the Content request item due date. For more information, see [Managing content requests](ec-content-governance.md).
+The Content request appears on the Content request item due date. For more information, see [Managing content requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-governance.md).
 
 -   Content Library
 
@@ -110,13 +111,13 @@ Content appears based on the content schedule record, with the exception of news
 
 -   Campaign Content
 
-The calendar displays content that is in a published campaign and in a bundle with either an immediate or fixed date trigger. For more information, see [Campaign bundle triggers](../reference/ecpro-triggers.md). The content appears in the calendar based on the bundle date, not the campaign start date.
+The calendar displays content that is in a published campaign and in a bundle with either an immediate or fixed date trigger. For more information, see [Campaign bundle triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-triggers.md). The content appears in the calendar based on the bundle date, not the campaign start date.
 
 **Note:** This option appears only if the Content Experiences plugin is installed.
 
 -   Campaign Content
 
-The calendar displays campaign content based on the bundle trigger configuration. For more information, see [Campaign bundle triggers](../reference/ecpro-triggers.md).
+The calendar displays campaign content based on the bundle trigger configuration. For more information, see [Campaign bundle triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-triggers.md).
 
 **Note:** This option appears only if the Content Experiences plugin is installed.
 
@@ -147,12 +148,12 @@ Widget
 
 </td><td>
 
-Narrow the displayed content by widget instance.The drop-down menu displays Content Publishing widgets. For more information, see [Employee Center widgets](employee-center-widgets-list.md).
+Narrow the displayed content by widget instance.The drop-down menu displays Content Publishing widgets. For more information, see [Employee Center widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-center-widgets-list.md).
 
 </td></tr></tbody>
 </table>## Ownership
 
-The ownership tab provides an overview of content, pages, topics, and audience ownership. To learn more about ownership, see [Content Ownership](ecpro-content-restriction.md).
+The ownership tab provides an overview of content, pages, topics, and audience ownership. To learn more about ownership, see [Content Ownership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-content-restriction.md).
 
 You can use filters to specify a group or user to view information by:
 

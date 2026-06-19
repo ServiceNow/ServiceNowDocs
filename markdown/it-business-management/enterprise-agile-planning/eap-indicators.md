@@ -2,6 +2,7 @@
 title: Enterprise Agile Planning Indicators
 description: Indicators included in the EAP dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/enterprise-agile-planning/eap-indicators.html
 release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -21,7 +22,7 @@ Indicators included in the EAP dashboard.
 |EAP: Sum of story points of all stories in the current iteration|Sum of story points of all stories in the current iteration is measured daily as unit.|Washington DC|
 |EAP: Sum of story points of active stories in the current iteration|Sum of story points of active stories in the current iteration is measured daily as unit.|Washington DC|
 
-For information about the metrics you can view on the EAP dashboard through these indicators, see [EAP reports and dashboards](../concept/using-eap-dashboard.md).
+For information about the metrics you can view on the EAP dashboard through these indicators, see [EAP reports and dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/using-eap-dashboard.md).
 
-**Parent Topic:**[Enterprise Agile Planning reference](eap-reference.md)
+**Parent Topic:**[Enterprise Agile Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/eap-reference.md)
 

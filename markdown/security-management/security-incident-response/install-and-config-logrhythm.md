@@ -2,6 +2,7 @@
 title: Install the plugin and configure LogRhythm
 description: Before you run the integration on your instance, complete the installation and configuration steps so the application properly integrates with Security Operations on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/install-and-config-logrhythm.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -55,7 +56,7 @@ Obtain a LogRhythm API user name and password and verify that you are using vers
 
 Visit the product website for information on API keys and to create an account: [LogRhythm Enterprise website](https://logrhythm.com/). The user accounts, credentials, and certificates must be configured properly prior to installing the application. The integration requires LogRhythm version 7.8 or later and the LogRhythm REST APIs.
 
- See [Set up the REST API for LogRhythm](drilldown-api-lr.md).
+ See [Set up the REST API for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/drilldown-api-lr.md).
 
 </td></tr><tr><td>
 
@@ -63,7 +64,7 @@ Verify that you have installed and configured a MID Server.
 
 </td><td>
 
-A MID Server is required in your ServiceNow AI Platform environment. See the [ServiceNow Product Documentation website](https://servicenow.com/docs) for information about how to set up and configure MID Servers.
+A MID Server is required in your ServiceNow AI Platform environment. See the [ServiceNow Product Documentation website](https://www.servicenow.com/docs) for information about how to set up and configure MID Servers.
 
 </td></tr><tr><td>
 
@@ -80,24 +81,24 @@ For the Rome release and later family releases, the Security Incident Response D
 3.  Security Support Common
 4.  Security Support Orchestration
 
- For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product or application](../../security-incident-response/task/entitle-secops-product.md) and [Activate a ServiceNow Store application](../../security-incident-response/task/activate-entitled-store-app.md).
+ For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/activate-entitled-store-app.md).
 
 </td></tr></tbody>
-</table>**Important:** If you have any connectivity issues to the LogRhythm client console, refer to the [Verify connectivity for LogRhythm](verify-connectivity.md).
+</table>**Important:** If you have any connectivity issues to the LogRhythm client console, refer to the [Verify connectivity for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/verify-connectivity.md).
 
 ## Procedure
 
-1.  If you have not installed the application for the integration, see [Install a Security Operations integration](../../security-incident-response/task/install-non-core-apps.md) and follow the steps to install it.
+1.  If you have not installed the application for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/install-non-core-apps.md) and follow the steps to install it.
 
 2.  Once the installation completes, navigate to **Integrations** &gt; **Integrations Configurations** and locate the LogRhythm tile.
 
 3.  Click **Configure**.
 
-    ![Task: Click Configure button for LogRhythm.](../image/lr-config-tile-4-2.png)
+    \[Omitted image "lr-config-tile-4-2.png"\] Alt text: Task: Click Configure button for LogRhythm.
 
 4.  Click the **New Configuration** link.
 
-    ![Task: Click New Configuration link.](../image/lr-config-2-4-2.png)
+    \[Omitted image "lr-config-2-4-2.png"\] Alt text: Task: Click New Configuration link.
 
 5.  On the form, fill in the fields:
 
@@ -152,7 +153,7 @@ Specific MID Server that is set up in your environment. Only the MID Servers tha
 </td></tr></tbody>
 </table>    The following figure is an example of a completed form.
 
-    ![A completed LogRhythm Configuration form.](../image/logrhythm-configuration.png)
+    \[Omitted image "logrhythm-configuration.png"\] Alt text: A completed LogRhythm Configuration form.
 
 6.  Click **Validate and save**.
 
@@ -161,11 +162,11 @@ Specific MID Server that is set up in your environment. Only the MID Servers tha
 
 ## What to do next
 
-After you successfully complete the validation, the next step is to [Creating an alarm profile for LogRhythm](create-alarm-profile-logrhythm.md).
+After you successfully complete the validation, the next step is to [Creating an alarm profile for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/create-alarm-profile-logrhythm.md).
 
-**Parent Topic:**[LogRhythm Overview](../concept/ovrview-logrhythm.md)
+**Parent Topic:**[LogRhythm Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/ovrview-logrhythm.md)
 
-**Previous topic:**[Set up the REST API for LogRhythm](drilldown-api-lr.md)
+**Previous topic:**[Set up the REST API for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/drilldown-api-lr.md)
 
-**Next topic:**[Creating an alarm profile for LogRhythm](create-alarm-profile-logrhythm.md)
+**Next topic:**[Creating an alarm profile for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/create-alarm-profile-logrhythm.md)
 

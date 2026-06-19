@@ -2,6 +2,7 @@
 title: Content pack for ITSM
 description: The ITSM Process Mining Content Pack provides preconfigured Process Mining projects and improvement initiatives for IT Service Management \(ITSM\) processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/itsm-proc-opti-content-pack.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -17,7 +18,7 @@ The ITSM Process Mining Content Pack provides preconfigured Process Mining proje
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 The ITSM Process Mining content pack \(sn\_itsm\_po\) adds pre-built Process Mining project definitions for these ITSM processes:
 
@@ -28,18 +29,18 @@ The ITSM Process Mining content pack \(sn\_itsm\_po\) adds pre-built Process Min
 
 The pack also includes the predefined Continual Improvement Management \(CIM\) initiative for incident and change processes. The improvement initiative and Process Mining projects are automatically linked.
 
-To enable this content pack, go to the ServiceNow Store. For more detail, see [Activate Process Mining content packs](po-content-pack.md).
+To enable this content pack, go to the ServiceNow Store. For more detail, see [Activate Process Mining content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/po-content-pack.md).
 
 ## Dashboards
 
 You can use the default KPI dashboard for projects in the ITSM Process Mining Content Pack. You can also create dashboards and add elements to them as per your requirements.
 
--   **[Cluster analysis configurations for ITSM work items](../reference/itsm-cluster-analysis-po.md)**  
+-   **[Cluster analysis configurations for ITSM work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/itsm-cluster-analysis-po.md)**  
 The Process Mining application provides solution definitions for incidents, problems, change requests, and requested items. You can use these definitions to configure cluster analysis for those work items.
--   **[Configure KPIs for ITSM work items in the Process Mining dashboard](../task/configure-kpi-itsm-po.md)**  
+-   **[Configure KPIs for ITSM work items in the Process Mining dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/configure-kpi-itsm-po.md)**  
 Add the desired Key Performance Indicators \(KPIs\) to monitor the performance of the ITSM work items in the Process Mining Summary and insights page. Remove the indicators that you no longer want to use.
--   **[Configure insights in the Process Mining dashboard](../task/configure-insights-itsm-po.md)**  
+-   **[Configure insights in the Process Mining dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/configure-insights-itsm-po.md)**  
 Configure rule definitions for incidents, problems, change requests, or request items to discover insights in the Summary and insights page.
 
-**Parent Topic:**[Activate Process Mining content packs](po-content-pack.md)
+**Parent Topic:**[Activate Process Mining content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/po-content-pack.md)
 

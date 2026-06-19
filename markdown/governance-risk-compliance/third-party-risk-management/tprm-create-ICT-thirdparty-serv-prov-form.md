@@ -2,6 +2,7 @@
 title: Create New ICT third-party service provider form
 description: On the Create New ICT third-party service provider form, fill in the fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-create-ICT-thirdparty-serv-prov-form.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -138,7 +139,7 @@ Total annual expense or estimated cost of the ICT third-party service provider
 
 Total annual expense or estimated cost of the ICT third-party service provider.**Note:** Provider‑level annual expense totals may be automatically aggregated during report generation when all contracts meet the required criteria.
 
-For more information, see [Currency conversion and third-party total expense aggregation](../concept/tprm-dora-currency-aggregation.md).
+For more information, see [Currency conversion and third-party total expense aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-dora-currency-aggregation.md).
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: Use Access analyzer
 description: Analyze identities and their access on the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/use-access-analyzer.html
 release: zurich
 product: Access Control
 classification: access-control
@@ -31,9 +32,9 @@ The following procedure describes the steps for accessing Access analyzer and us
 
     Access Analyzer has the following capabilities:
 
-    -   [Evaluate Access](using-evaluate-access.md)
-    -   [Compare user records](comparing-user-records.md)
-    -   [Compare access controls](comparing-access-controls.md)
+    -   [Evaluate Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/using-evaluate-access.md)
+    -   [Compare user records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/comparing-user-records.md)
+    -   [Compare access controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/comparing-access-controls.md)
 2.  Select the respective tab to use Access analyzer based on your requirement.
 
 

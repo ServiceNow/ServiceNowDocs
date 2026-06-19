@@ -2,6 +2,7 @@
 title: SAP Commerce Cloud Spoke
 description: The SAP Commerce Cloud spoke is built by Bristlecone, Inc. Retrieve shopping cart content, order details, and order history for a selected customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/sap-commerce-cloud.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ The SAP Commerce Cloud spoke is built by Bristlecone, Inc. Retrieve shopping car
 
 ## Request apps on Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html). Starting on March 1st 2022, all SAP spokes will be available only on the Store.
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html). Starting on March 1st 2022, all SAP spokes will be available only on the Store.
 
 ## Integration Hub subscription
 
@@ -44,7 +45,7 @@ If you’re having trouble installing the app, ensure that these dependent plugi
 
 ## Spoke version
 
-[SAP Commerce Cloud Spoke](sap-commerce-cloud.md) v1.1.0 is the latest version.
+[SAP Commerce Cloud Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/sap-commerce-cloud.md) v1.1.0 is the latest version.
 
 ## Spoke actions
 
@@ -58,7 +59,7 @@ The SAP Commerce Cloud provides actions to automate  tasks when events occur in 
 
 ## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://www.servicenow.com/docs/access?context=r-credentials&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see .
 
-For information about setting up the spoke, see [Set up the SAP Commerce Cloud spoke](../task/setup-sap-commerce-cloud.md#).
+For information about setting up the spoke, see [Set up the SAP Commerce Cloud spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/setup-sap-commerce-cloud.md).
 

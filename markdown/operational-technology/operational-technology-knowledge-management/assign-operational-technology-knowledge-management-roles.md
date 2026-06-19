@@ -2,6 +2,7 @@
 title: Assign roles to your Operational Technology Knowledge Management users
 description: Assign Knowledge Management roles to your users so that you can control their access to the features, capabilities, and data for Operational Technology Knowledge Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-knowledge-management/assign-operational-technology-knowledge-management-roles.html
 release: zurich
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
@@ -23,9 +24,9 @@ Role required: admin
 
 If you're assigned a Knowledge Management role, you can use the Operational Technology Knowledge Management capabilities.
 
-**Note:** The user criteria determine the access to knowledge articles. For more information, see [Managing access to knowledge bases and knowledge articles](https://www.servicenow.com/docs/access?context=user-access-knowledge&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+**Note:** The user criteria determine the access to knowledge articles. For more information, see .
 
-For more information about the Knowledge Management roles applicable to Operational Technology Knowledge Management, see [Operational Technology Knowledge Management roles](../concept/operational-technology-knowledge-management-roles.md).
+For more information about the Knowledge Management roles applicable to Operational Technology Knowledge Management, see [Operational Technology Knowledge Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-knowledge-management/operational-technology-knowledge-management-roles.md).
 
 ## Procedure
 
@@ -33,9 +34,9 @@ For more information about the Knowledge Management roles applicable to Operatio
 
     |Task|User administration feature|
     |----|---------------------------|
-    |**Assign a role to a user**|See [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).|
-    |**Assign a role to a group**|See [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).|
+    |**Assign a role to a user**|See Assign a role to a user.|
+    |**Assign a role to a group**|See Assign a role to a group.|
 
 
-**Parent Topic:**[Configuring Operational Technology Knowledge Management](../concept/configuring-operational-technology-knowledge-management.md)
+**Parent Topic:**[Configuring Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-knowledge-management/configuring-operational-technology-knowledge-management.md)
 

@@ -2,6 +2,7 @@
 title: Change the navigation and menu settings in your UI Builder workspace experience
 description: Select pages for side navigation in your UI Builder workspace experience. From any page in the workspace experience, users can navigate to the pages you selected.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/workspace-side-navigation-settings.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -19,7 +20,7 @@ Select pages for side navigation in your UI Builder workspace experience. From a
 
 This task has the following prerequisites:
 
--   You have an existing workspace experience on UI Builder. For more information, see [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md).
+-   You have an existing workspace experience on UI Builder. For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md).
 -   This workspace experience was created with the Workspace App Shell.
 -   This workspace experience includes at least two pages.
 -   You want users to be able to navigate from a page to other pages that you specify.
@@ -30,7 +31,7 @@ Role required: ui\_builder\_admin
 
 You can add up to seven pages to your side navigation.
 
-You must be in the correct application scope to edit the experience settings. If you are in a different scope, the experience settings are read-only. To change your application scope, go to the main header, select the application picker \(![Application picker.](../image/application-picker.png)\), and then select the application scope that you want. For more information about the application scope, see [Learn about security and roles](security-roles.md).
+You must be in the correct application scope to edit the experience settings. If you are in a different scope, the experience settings are read-only. To change your application scope, go to the main header, select the application picker \(\[Omitted image "application-picker.png"\] Alt text: Application picker.\), and then select the application scope that you want. For more information about the application scope, see [Learn about security and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/security-roles.md).
 
 ## Procedure
 
@@ -40,13 +41,13 @@ You must be in the correct application scope to edit the experience settings. If
 
 3.  Select **Experience settings** in the upper-right.
 
-    ![Arrow pointing to the Experience settings link on the experience view page.](../image/experience-settings-navigation.png)
+    \[Omitted image "experience-settings-navigation.png"\] Alt text: Arrow pointing to the Experience settings link on the experience view page.
 
 4.  Scroll down to **Side navigation**.
 
 5.  Select **+ Add**.
 
-    ![Arrow pointing at the +Add button for adding pages to a side navigation.](../image/settings-side-nav.png)
+    \[Omitted image "settings-side-nav.png"\] Alt text: Arrow pointing at the +Add button for adding pages to a side navigation.
 
 6.  Fill in the following fields:
 
@@ -99,8 +100,8 @@ Place the link in the top or the bottom group of the side navigation panel.Defau
 
 10. Select the **URL path** link to open the experience in a new tab and check that the side navigation is displayed on the left side.
 
-    **Tip:** If the side navigation doesn’t work as expected, consider reviewing the UX Page Property \[sys\_ux\_page\_property\] record underlying the side navigation. Reopen the Side Navigation experience settings, as described in Steps [3](workspace-side-navigation-settings.md#step_edit-exp-settings)-[4](workspace-side-navigation-settings.md#step_side-nav). Select **Advanced side navigation settings** to open the record. Verify that the fields have the correct values, such as Type=`json`.
+    **Tip:** If the side navigation doesn’t work as expected, consider reviewing the UX Page Property \[sys\_ux\_page\_property\] record underlying the side navigation. Reopen the Side Navigation experience settings, as described in Steps [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/workspace-side-navigation-settings.md)-[4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/workspace-side-navigation-settings.md). Select **Advanced side navigation settings** to open the record. Verify that the fields have the correct values, such as Type=`json`.
 
 
-**Parent Topic:**[Configure UI Builder workspace experiences](../concept/ui-builder-workspace-settings.md)
+**Parent Topic:**[Configure UI Builder workspace experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/ui-builder-workspace-settings.md)
 

@@ -2,6 +2,7 @@
 title: Create trigger rules for major incidents
 description: Create trigger rules to define the conditions under which a trigger action is executed. You can create major incident trigger rules to define the conditions under which an incident is automatically considered as a major incident candidate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/major-incident-trigger-rules.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -122,5 +123,5 @@ Conditions that must be met to execute the trigger rule.
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Managing major incidents](../concept/major-incident-management.md)
+**Parent Topic:**[Managing major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/major-incident-management.md)
 

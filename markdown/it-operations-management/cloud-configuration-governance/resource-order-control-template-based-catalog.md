@@ -2,6 +2,7 @@
 title: Resource order controls for template-based cloud catalog items
 description: Use resource order controls to perform quota checks for template-based catalog items using quota definitions and policies. Quota limits enable you to control provisioning or ordering resources for users and groups. Configure policy actions to trigger notifications, an approval subflow, or both.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/resource-order-control-template-based-catalog.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -19,7 +20,7 @@ Use resource order controls to perform quota checks for template-based catalog i
 
 Resource order controls enable you to control the quota limit of resources provisioned through template-based catalogs. Quota checks for cloud template-based catalog items are available beginning with the Zurich release.
 
-You can now map quota limits to template-based catalogs and trigger notifications or an approval subflow when the resource limit or quota definitions you specify for a user or user group is exceeded. For more information, see [Resource Quota](../../cloud-management-v2-user/concept/resource-quota.md).
+You can now map quota limits to template-based catalogs and trigger notifications or an approval subflow when the resource limit or quota definitions you specify for a user or user group is exceeded. For more information, see [Resource Quota](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/resource-quota.md).
 
 Use resource controls to perform the following actions:
 
@@ -45,14 +46,14 @@ The stack count quota introduces a default base system quota for template-based 
 
 ## Resource Order Control Policy
 
-The Resource Order Control policy is a base system policy that is in the Draft state by default. You can customize the default policy to meet your requirements and publish it, or create a new policy and define quotas, rules and actions to enable resource order controls. The 'on Resource Limits exceeded' policy action triggers the Resource Order Control policy when any resource exceeds the defined quota limit. You can determine whether to initiate an approval subflow, a notification, or a combination of both when the resource limit exceeded policy is triggered. For more information, see [Create an action for an 'on Resource Limit exceeded' policy](../task/create-action-on-resource-limits-exceeded.md).
+The Resource Order Control policy is a base system policy that is in the Draft state by default. You can customize the default policy to meet your requirements and publish it, or create a new policy and define quotas, rules and actions to enable resource order controls. The 'on Resource Limits exceeded' policy action triggers the Resource Order Control policy when any resource exceeds the defined quota limit. You can determine whether to initiate an approval subflow, a notification, or a combination of both when the resource limit exceeded policy is triggered. For more information, see [Create an action for an 'on Resource Limit exceeded' policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-action-on-resource-limits-exceeded.md).
 
 **Note:** You cannot provision catalog items once the user or user group quota is exceeded without the policy being published because the existing quota behavior disables further provisioning and does not process the request further.
 
 ## Next Steps
 
--   **[Set up resource order controls](../task/set-up-resource-order-controls.md)**  
+-   **[Set up resource order controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/set-up-resource-order-controls.md)**  
 Create quota definitions and policies mapped to cloud-template based catalog items. Use policy rules and actions to trigger an approval subflow or notification when the quota limit defined for the group or user exceeds.
 
-**Parent Topic:**[Quotas and resource order controls](quotas.md)
+**Parent Topic:**[Quotas and resource order controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/quotas.md)
 

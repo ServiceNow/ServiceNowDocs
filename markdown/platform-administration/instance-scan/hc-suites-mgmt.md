@@ -2,6 +2,7 @@
 title: Suites management
 description: A suite is a collection of individual checks and suites that can be used for a scan. Suites can be created for specific business needs. All child suites are executed when a parent suite is used in a scan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/instance-scan/hc-suites-mgmt.html
 release: zurich
 product: Instance Scan
 classification: instance-scan
@@ -15,7 +16,7 @@ breadcrumb: [Explore, Instance Scan, Maintain and monitor, Administer]
 
 A suite is a collection of individual checks and suites that can be used for a scan. Suites can be created for specific business needs. All child suites are executed when a parent suite is used in a scan.
 
-Navigate to **Instance Scan** &gt; **Suites**. Select one of the suites from the list. Select **Execute Suite Scan** to run a suite scan. See [Execute a suite scan](../task/hc-execute-suite-scan.md) for more information.![Image showing a suite](../image/hc-suites.png)
+Navigate to **Instance Scan** &gt; **Suites**. Select one of the suites from the list. Select **Execute Suite Scan** to run a suite scan. See [Execute a suite scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/instance-scan/hc-execute-suite-scan.md) for more information.\[Omitted image "hc-suites.png"\] Alt text: Image showing a suite
 
 **Note:** Some ServiceNow provided suites are protected suites and the checks in the suite are not modifiable. For example, if you have a suite from the app store, the suite is unmodifiable. You can't add a child suite to the unmodifiable suite. But you can add a parent suite because it doesn't affect the suite.
 

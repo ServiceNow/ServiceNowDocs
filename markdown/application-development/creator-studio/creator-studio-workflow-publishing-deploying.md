@@ -2,6 +2,7 @@
 title: Publishing, activation, and deployment workflow for forms, automation, and apps
 description: When you build an app in Creator Studio, you must create forms and automation. You can also customize the workspace list configurations and records that fulfillers use before everything is deployed to production.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/creator-studio/creator-studio-workflow-publishing-deploying.html
 release: zurich
 product: Creator Studio
 classification: creator-studio

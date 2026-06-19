@@ -2,6 +2,7 @@
 title: Delete a test case
 description: Delete a test case and all the tests associated to it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/test-management/t\_DeleteATestCase.html
 release: zurich
 product: Test Management
 classification: test-management
@@ -36,5 +37,5 @@ Role required: tm\_test\_manager
 
 The test case is removed from the list and all the associated tests are deleted.
 
-**Parent Topic:**[Test cases](../concept/c_TestCases.md)
+**Parent Topic:**[Test cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/c_TestCases.md)
 

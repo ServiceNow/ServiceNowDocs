@@ -2,6 +2,7 @@
 title: MFA reset
 description: FAQ related to MFA reset and why it’s important.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/faq-reset-mfa.html
 release: zurich
 product: Authentication
 classification: authentication

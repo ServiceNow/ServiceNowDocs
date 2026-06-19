@@ -2,6 +2,7 @@
 title: Publish an application to the application repository
 description: Publish a custom application to the application repository so that it can be installed on other instances in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/application-repository-self-hosted/t\_PublishAppsToTheAppRepository.html
 release: zurich
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
@@ -17,7 +18,7 @@ Publish a custom application to the application repository so that it can be ins
 
 ## Before you begin
 
-To enable a developer to publish an application to the application repository, delegate the Publish to App Repo permission to the developer. For more information, see [Delegating development permissions to personnel](t_AddADeveloper.md).
+To enable a developer to publish an application to the application repository, delegate the Publish to App Repo permission to the developer. For more information, see [Delegating development permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/t_AddADeveloper.md).
 
 Role required: admin or delegated\_developer with Publish To App Repo permission enabled
 
@@ -36,7 +37,7 @@ Role required: admin or delegated\_developer with Publish To App Repo permission
 
 ## What to do next
 
-Install the application on company instances so that your organization can start using it. For more information, see [Install an application from the application repository](install-app-from-repo.md).
+Install the application on company instances so that your organization can start using it. For more information, see [Install an application from the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/application-repository-self-hosted/install-app-from-repo.md).
 
 By default, after you publish an application to the application repository, all your company instances are entitled to the application automatically. To limit which company instances are entitled to the application, access the application repository by going to [https://apprepo.service-now.com/sn\_appstore\_store.do](https://apprepo.service-now.com/sn_appstore_store.do), and then change the entitlement type for the application.
 
@@ -44,5 +45,5 @@ By default, after you publish an application to the application repository, all 
 
 The **Can Edit Application in Studio** property defaults to true for new applications, but you can set it false before publishing.
 
-For more information, see [Manage application entitlements from the application repository](manage-app-entitlements.md) and [Legacy - Access ServiceNow Studio](t_AccessStudio.md).
+For more information, see [Manage application entitlements from the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/application-repository-self-hosted/manage-app-entitlements.md).
 

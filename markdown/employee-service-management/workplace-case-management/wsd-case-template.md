@@ -2,6 +2,7 @@
 title: Create a Workplace case template
 description: Create a Workplace case template for use when creating workplace services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-case-management/wsd-case-template.html
 release: zurich
 product: Workplace Case Management
 classification: workplace-case-management
@@ -31,7 +32,7 @@ A Case template simplifies the process of creating cases in Workplace Case Manag
 
     -   To create a template, select **New**.
     -   To modify an existing template, select the template from the list.
-    For information about the template form fields, see [Create a template](https://www.servicenow.com/docs/access?context=t_CreateATemplateUsingTheTmplForm&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For information about the template form fields, see Create a template.
 
 3.  In the **Table** field, select the **Workplace case \[sn\_wsd\_case\_workplace\_case\]** table.
 
@@ -44,5 +45,5 @@ The case template is created. You can use the template for workplace services.
 
 ## What to do next
 
-Create a case template with user acceptance, for more information, see [Create a User acceptance Workplace case template](create-usr-accptnce-workplace-case-template.md).
+Create a case template with user acceptance, for more information, see [Create a User acceptance Workplace case template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-case-management/create-usr-accptnce-workplace-case-template.md).
 

@@ -2,6 +2,7 @@
 title: Re-order playbook variants
 description: Change the order in which playbook variants are evaluated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/reorder-playbook-variants.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -29,14 +30,14 @@ Playbook variants are evaluated from the top down at every level. The first vari
 
 2.  Open the playbook with the variants that you want to re-order.
 
-3.  Select the variant icon \(![](../images/playbook-variants-icon.png)\) to open the variant panel on the left.
+3.  Select the variant icon \(\[Omitted image "playbook-variants-icon.png"\]\) to open the variant panel on the left.
 
 4.  Drag and drop the variants to a new place within their level.
 
-    ![Changing the order of variants in the variant panel](../images/reorder-variant.gif)
+    \[Omitted image "reorder-variant.gif"\] Alt text: Changing the order of variants in the variant panel
 
     Variants cannot be moved to different levels. They can only be reordered at the sibling level.
 
 
-**Parent Topic:**[Playbook variants](../concept/playbook-variants.md)
+**Parent Topic:**[Playbook variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-variants.md)
 

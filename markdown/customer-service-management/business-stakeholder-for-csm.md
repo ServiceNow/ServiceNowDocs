@@ -2,7 +2,10 @@
 title: Business Stakeholder for Customer Service Management
 description: Business Stakeholder for Customer Service Management includes plugins and roles that provide access to business stakeholder features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/business-stakeholder-for-csm.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -206,7 +209,7 @@ CSM Extension for Proxy Contacts \(com.snc.csm\_proxy\_contacts\)
 Internal
 
 </td></tr></tbody>
-</table>For more information about the proxy contact role, see [Create cases as a proxy contact](employee-create-case-for-customer.md).
+</table>For more information about the proxy contact role, see [Create cases as a proxy contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/employee-create-case-for-customer.md).
 
 <table id="table_xv4_rpx_znb"><thead><tr><th>
 
@@ -490,14 +493,14 @@ sn\_customerservice.projectstakeholder
 Internal
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Roles installed with Customer Service Management](../reference/r_RolesInstalledWithCustomerService.md)
+</table>**Parent Topic:**[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/r_RolesInstalledWithCustomerService.md)
 
 **Related topics**  
 
 
-[Business stakeholder role for PPM](https://www.servicenow.com/docs/access?context=business-stakeholder-role-ppm&version=zurich&pubname=zurich-it-business-management&ft:locale=en-US)
+[bundle-itbm.business-stakeholder-role-ppm]
 
-[Business stakeholder role for APM](https://www.servicenow.com/docs/access?context=business-stakeholder-role-apm&version=zurich&pubname=zurich-application-portfolio-management&ft:locale=en-US)
+[bundle-appportman.business-stakeholder-role-apm]
 
-[Installed with Business Stakeholder](https://www.servicenow.com/docs/access?context=installed-with-business-stakeholder&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+[bundle-itsm.installed-with-business-stakeholder]
 

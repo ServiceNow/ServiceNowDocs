@@ -2,6 +2,7 @@
 title: Configure an event load order in Workforce Optimization for ITSM
 description: Add a system property to display your preferred event categories first on the calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/add-event-load-property-configurable-workspace.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -17,7 +18,7 @@ Add a system property to display your preferred event categories first on the ca
 
 ## Before you begin
 
-Set the map application scope to **Shift Planning**. For information on how to set the scope, see [Set map application scope](https://www.servicenow.com/docs/access?context=set-map-application-scope&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+Set the map application scope to **Shift Planning**. For information on how to set the scope, see Set map application scope.
 
 Role required: admin
 
@@ -97,5 +98,5 @@ sn\_shift\_planning.admin
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Configure event categories for the ITSM Manager Workspace](categorize-events-configurable-wfo-itsm.md)
+**Parent Topic:**[Configure event categories for the ITSM Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/categorize-events-configurable-wfo-itsm.md)
 

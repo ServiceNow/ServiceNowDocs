@@ -2,7 +2,10 @@
 title: ITOM/OT SU Licensing Bundle and Individual \(ala carte\) subscription
 description: You can purchase subscriptions for individual ITOM applications \(a la carte\) or as a bundle covering multiple ITOM applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-licensing-bundle-individual-subscription.html
 release: zurich
+product: IT Operations Management
+classification: it-operations-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -23,19 +26,19 @@ If you purchased ITOM subscriptions as a bundle and also acquired a la carte sub
 
 In the following example, an organization utilized all subscriptions allocated by the ITOM Pro bundle for ITOM AIOps. Subsequently, the licensing module deducted from the a la carte subscriptions for ITOM AIOps.
 
-![Subscriptions window showing subscriptions consumed within bundle.](../image/itom-license-summary-all.png "Subscription consumption by bundles")
+\[Omitted image "itom-license-summary-all.png"\] Alt text: Subscriptions window showing subscriptions consumed within bundle.
 
 ## Subscription display: Application covered by bundle and a la carte subscriptions
 
 If your organization surpasses the total number of subscriptions in both the bundle and a la carte subscriptions, the licensing module regards it as overdrawn on the a la carte subscription. However, if your organization exceeds the subscriptions specifically for an application covered solely by the bundle, it is considered overdrawn on the bundle.
 
-![The diagram shows how the licensing module calculates bundle and a la carte subscriptions for the same ITOM applications.](../image/itom-license-subscr-all-diagram.png "Licensing module calculates bundle and a la carte subscriptions for the same ITOM applications")
+\[Omitted image "itom-license-subscr-all-diagram.png"\] Alt text: The diagram shows how the licensing module calculates bundle and a la carte subscriptions for the same ITOM applications.
 
 ## Subscription calculation illustration: Bundle and a la carte allocation
 
 The diagram illustrates how the licensing module calculates subscriptions through bundle and a la carte methods for specific applications covered by the bundle.
 
-![Subscriptions window showing overdrafts on the bundle and a la carte subscriptions.](../image/itom-license-summary-some-overdraft.png "Overdrafts on the bundle and a la carte subscriptions")
+\[Omitted image "itom-license-summary-some-overdraft.png"\] Alt text: Subscriptions window showing overdrafts on the bundle and a la carte subscriptions.
 
 In this scenario, the Subscriptions window indicates the a la carte subscriptions for this application as overdrawn. If your organization exceeds the total subscriptions for an application covered solely by the bundle, the Subscriptions window displays the bundle as overdrawn.
 

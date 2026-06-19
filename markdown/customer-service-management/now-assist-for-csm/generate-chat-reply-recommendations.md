@@ -2,6 +2,7 @@
 title: Generate a chat reply recommendation by using Now Assist for Customer Service Management \(CSM\)
 description: Generate a reply based on the context of the chat conversation using Now Assist icon. Chat reply recommendations can help provide agents with quick replies to common questions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/generate-chat-reply-recommendations.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -43,19 +44,19 @@ You can do these actions by using the Now Assist icon:
 
     For example, if the requester is having an issue with hardware, you may need the hardware model number and serial number.
 
-4.  In the chat message window, either type a response, or leave blank, and then select the Now Assist icon ![Sparkle icon for Now Assist.](../../../common/image/icon-ai-sparkle.png)
+4.  In the chat message window, either type a response, or leave blank, and then select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
 
-    ![Modal that shows a chat recommendation from the agent.](../image/now-assist-chat-reply-recommendation.png "Now Assist icon Modal")
+    \[Omitted image "now-assist-chat-reply-recommendation.png"\] Alt text: Modal that shows a chat recommendation from the agent.
 
-<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d30641e170">
+<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d33245e170">
 
 Chat message window
 
-</th><th align="left" id="d30641e173">
+</th><th align="left" id="d33245e173">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d30641e181">
+</th></tr></thead><tbody><tr><td id="d33245e181">
 
 **Typed response**
 
@@ -72,7 +73,7 @@ Provides the option to refine your response:
 -   Sympathetic
 
 
-</td></tr><tr><td id="d30641e215">
+</td></tr><tr><td id="d33245e215">
 
 **Left blank**
 
@@ -92,7 +93,7 @@ Generates a recommended reply that is based on the context of the conversation u
 7.  End the chat by selecting **End Chat**.
 
 
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](../concept/now-assist-csm-using.md)
+**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 
 **Related topics**  
 

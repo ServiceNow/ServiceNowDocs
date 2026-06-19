@@ -2,6 +2,7 @@
 title: Automate offense updates and closure based on SIR incident status
 description: The IBM QRadar integration has a bi-directional interface that allows for both offenses to create security incidents, as well as an ability to update the offenses once the security incident is created and/or closed with relevant incident details such as security incident number, assignment group, security incident URL, and so on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/qradar-ibm-create-profile-additional.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -25,15 +26,15 @@ Role required: sn\_si.admin
 
 2.  Follow the instructions below to complete the configuration for updating offenses when the security incident is created.
 
-<table id="choicetable_bsh_yxn_kjb"><thead><tr><th align="left" id="d255167e68">
+<table id="choicetable_bsh_yxn_kjb"><thead><tr><th align="left" id="d106335e68">
 
 Option or Field
 
-</th><th align="left" id="d255167e71">
+</th><th align="left" id="d106335e71">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d255167e77">
+</th></tr></thead><tbody><tr><td id="d106335e77">
 
 **Update Offenses upon SIR Incident Creation**
 
@@ -41,7 +42,7 @@ Description
 
 Select this option if you want to update the offense status and add additional comments when a security incident is created from the offense. This can occur for both the initial triggering offenses that create the security incident, as well as aggregated offenses.
 
-</td></tr><tr><td id="d255167e86">
+</td></tr><tr><td id="d106335e86">
 
 **Initial Offense Status Update**
 
@@ -51,7 +52,7 @@ You can select:-   Open: The status of the offense is set to **Open** and a comm
 -   Hidden: The status of the offense is set to **Hidden** and this offense is hidden in the IBM QRadar dashboard.
 
 
-</td></tr><tr><td id="d255167e113">
+</td></tr><tr><td id="d106335e113">
 
 **Initial Comments posted back to Offense**
 
@@ -59,7 +60,7 @@ You can select:-   Open: The status of the offense is set to **Open** and a comm
 
 Based on the stage you have selected, the initial comments as defined in the IBM QRadar console are displayed here.
 
-</td></tr><tr><td id="d255167e125">
+</td></tr><tr><td id="d106335e125">
 
 **Pull Closed Offenses**
 
@@ -69,7 +70,7 @@ Select this option if you want the integration to fetch **Closed** offenses from
 
 By default, closed offenses are ignored and open offenses are retrieved from IBM QRadar during polling.
 
-</td></tr><tr><td id="d255167e152">
+</td></tr><tr><td id="d106335e152">
 
 **Close out offenses upon SIR Incident Closure**
 
@@ -77,7 +78,7 @@ By default, closed offenses are ignored and open offenses are retrieved from IBM
 
 Select this option if you want to use the automated offense closure option. When the security incident is closed in ServiceNow with a relevant close code, the offense status is updated in IBM QRadar to **Closed** with closure comments. **Note:** The close code specified for the security incident must correspond to the closing reason specified in the IBM QRadar dashboard. The offense is closed in IBM QRadar only if a corresponding closing reason is found. If a corresponding reason is not found, the offense is closed with a default close code.
 
-</td></tr><tr><td id="d255167e179">
+</td></tr><tr><td id="d106335e179">
 
 **Closure Comments Posted back to Offense**
 
@@ -85,7 +86,7 @@ Select this option if you want to use the automated offense closure option. When
 
 The closure comments as defined in the IBM QRadar dashboard are displayed here.
 
-</td></tr><tr><td id="d255167e191">
+</td></tr><tr><td id="d106335e191">
 
 **Default closing reason when security incident closes**
 
@@ -94,7 +95,7 @@ The closure comments as defined in the IBM QRadar dashboard are displayed here.
 The default reason to be used when a security incident is closed, When a security incident is closed, a close code \(or the reason for closing\) is specified in the security incident record, If the close code does not match the closing reason specified in the IBM QRadar dashboard, and you try to close the security incident, an error message is displayed. In such cases, the default closing reason specified here is used when the security incident is closed.
 
 </td></tr></tbody>
-</table>    ![IBM QRadar: Create Profile: Automate Offense](../image/ibm-qradar-profile-auto.png)
+</table>    \[Omitted image "ibm-qradar-profile-auto.png"\] Alt text: IBM QRadar: Create Profile: Automate Offense
 
 3.  Select **Finish** to complete the configuration and move the profile to the **Waiting** state.
 

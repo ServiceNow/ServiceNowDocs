@@ -2,6 +2,7 @@
 title: Solution configuration setup
 description: Solution configuration lets ServiceNow CPQ admins manage multiple blueprints in a single configuration. Configurable product actions include a blueprint definition and can pass data between configurations via defined fields.It's not clear to me how solution configuration and configurable product actions are related. This topic seems to concern the latter, despite the title.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/solution-configuration-setup.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

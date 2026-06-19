@@ -2,6 +2,7 @@
 title: Components installed with Workplace Concierge
 description: Several types of components are installed with activation of the Workplace Concierge application, including tables, user roles, and business rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-concierge/components-installed-with-workplace-concierge.html
 release: zurich
 product: Workplace Concierge
 classification: workplace-concierge
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Workplace Concierge, Workplace Service Delivery, Employe
 
 Several types of components are installed with activation of the Workplace Concierge application, including tables, user roles, and business rules.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles installed with Workplace Concierge
 
@@ -47,8 +48,8 @@ Employee Presence Exceptions
 
 </td><td>
 
-If the presence status is changed from **In-office** to **Remote**, a record is created in the Employee Presence Exceptions table \(**All** &gt; **Workplace Concierge** &gt; **Employee Presence** &gt; **Exceptions**\). If the presence status is changed from "**In-office** or **Remote**" to "**Visit another office**," a record is created in the Employee Presence Exceptions table and Location column is updated with the building name for the **In-office** day. For more information, see [Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile](../../wsd-for-mobile/concept/workplace-preference-schedule.md).
+If the presence status is changed from **In-office** to **Remote**, a record is created in the Employee Presence Exceptions table \(**All** &gt; **Workplace Concierge** &gt; **Employee Presence** &gt; **Exceptions**\). If the presence status is changed from "**In-office** or **Remote**" to "**Visit another office**," a record is created in the Employee Presence Exceptions table and Location column is updated with the building name for the **In-office** day. For more information, see [Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery-for-mobile/workplace-preference-schedule.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Concierge reference](../concept/workplace-concierge-reference.md)
+</table>**Parent Topic:**[Workplace Concierge reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-concierge/workplace-concierge-reference.md)
 

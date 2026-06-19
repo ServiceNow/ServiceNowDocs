@@ -2,6 +2,7 @@
 title: Create New Third-party engagement form
 description: Use the create new third-party engagement form to capture all the information that you need to create a third-party engagement record in Digital resilience third-party registers using Third-party Risk Management. As a third-party risk assessor you can create a third-party engagement record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-create-engmt-form.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -144,7 +145,7 @@ Latitude and Longitude
 
 </td><td>
 
-The **Latitude** and **Longitude** values are used to mark the location on the Risk concentration map. See [TPRM Risk concentration map](../../grc-workspace-vrm/concept/tprm-ws-risk-concentration-map.md).
+The **Latitude** and **Longitude** values are used to mark the location on the Risk concentration map. See [TPRM Risk concentration map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-ws-risk-concentration-map.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -268,7 +269,7 @@ Repeating assessments
 
 </td><td>
 
-Repeating assessments for the third-party engagement.**Note:** You can create repeating assessments if you are using the classic assessment engine. You can configure rules that auto-generate and send questionnaires and doc requests to engagements and third parties using the Event-driven management feature if you are using the Smart Assessment Engine. For more information, see [Configure a risk assessment to recur on a schedule](../task/define-repeating-vend-assess.md) and [Event-driven management — automate assessment processes](../../grc-workspace-vrm/task/tprm-event-drvn-mgt-rule-create.md).
+Repeating assessments for the third-party engagement.**Note:** You can create repeating assessments if you are using the classic assessment engine. You can configure rules that auto-generate and send questionnaires and doc requests to engagements and third parties using the Event-driven management feature if you are using the Smart Assessment Engine. For more information, see [Configure a risk assessment to recur on a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/define-repeating-vend-assess.md) and [Event-driven management — automate assessment processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-event-drvn-mgt-rule-create.md).
 
 </td></tr><tr><td>
 

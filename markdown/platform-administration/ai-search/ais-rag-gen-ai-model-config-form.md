@@ -2,6 +2,7 @@
 title: Generative AI model configuration form
 description: The Generative AI model configuration form contains information about a custom embedding model that your AI Search Retrieval Augmented Generation \(RAG\) application uses to generate embeddings for semantic indexing. Use this form when creating or modifying a custom embedding model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/ais-rag-gen-ai-model-config-form.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -15,7 +16,7 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 The Generative AI model configuration form contains information about a custom embedding model that your AI Search Retrieval Augmented Generation \(RAG\) application uses to generate embeddings for semantic indexing. Use this form when creating or modifying a custom embedding model.
 
-For details on creating or modifying a custom embedding model, see [Create a custom embedding model](../task/create-byom.md).
+For details on creating or modifying a custom embedding model, see [Create a custom embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-byom.md).
 
 <table id="id_zlx_lbc_lgc"><thead><tr><th>
 
@@ -114,5 +115,5 @@ Max Tokens
 Maximum limit to generate embeddings.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Search reference](../concept/reference-ais.md)
+</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/reference-ais.md)
 

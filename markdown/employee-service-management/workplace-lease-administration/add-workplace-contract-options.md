@@ -2,6 +2,7 @@
 title: Add workplace contract options in Core UI
 description: Add workplace contract options such as option to renew, option to sub lease, option to terminate to store the lease contract options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-lease-administration/add-workplace-contract-options.html
 release: zurich
 product: Workplace Lease Administration
 classification: workplace-lease-administration
@@ -47,5 +48,5 @@ Role required: sn\_wsd\_la.manager or sn\_wsd\_la.admin
 
 The contract options are added to the contract.
 
-**Parent Topic:**[Create workplace contracts in Core UI](create-lease-contracts.md)
+**Parent Topic:**[Create workplace contracts in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-lease-administration/create-lease-contracts.md)
 

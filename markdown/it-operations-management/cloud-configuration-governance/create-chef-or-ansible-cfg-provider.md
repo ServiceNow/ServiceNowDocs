@@ -2,6 +2,7 @@
 title: Create an Ansible configuration management provider and run Discovery
 description: Create an Ansible configuration management provider, and then run Discovery on the provider to find its resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/create-chef-or-ansible-cfg-provider.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -17,7 +18,7 @@ Create an Ansible configuration management provider, and then run Discovery on t
 
 ## Before you begin
 
--   Ensure to have an Ansible server and [Ansible credentials](configure-ansible-creds.md).
+-   Ensure to have an Ansible server and [Ansible credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/configure-ansible-creds.md).
 -   If you want to use Ansible Tower version 3.6.x or higher, ensure to set the mid.cmp.ansible.api\_version property to V2. You can access this property under the Properties section of the Mid Server module.
 -   Role required: cloud\_admin
 
@@ -89,7 +90,7 @@ Credential
 
 </td><td>
 
-Credentials to access the Ansible server. For more information on creating credential for Ansible server, see [Ansible credentials](configure-ansible-creds.md).
+Credentials to access the Ansible server. For more information on creating credential for Ansible server, see [Ansible credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/configure-ansible-creds.md).
 
 </td></tr><tr><td>
 
@@ -104,7 +105,7 @@ Version of the configuration provider you are creating. **Note:** For Ansible To
 
 5.  Select the Ansible Tower configuration provider card.
 
-    ![Config providers](../image/config-providers.png)
+    \[Omitted image "config-providers.png"\] Alt text: Config providers
 
 6.  Select **Discover Now** to find the resources in the Ansible configuration management provider.
 
@@ -116,15 +117,15 @@ Version of the configuration provider you are creating. **Note:** For Ansible To
 
     -   **Ansible Inventory**: Displays the discovered applications and virtual resources.
     -   **Cfg Installable**: Displays theactual components that run when the applications install. For Ansible, the items in this list are job templates, which are also referred to as runlists in this form.
-    ![Example Ansible inventories](../image/ansible-inventory.png "Example Ansible Inventory")
+    \[Omitted image "ansible-inventory.png"\] Alt text: Example Ansible inventories
 
-    ![Ansible resources](../image/cfg-ansible-resources.png "Ansible config installables (job templates)")
+    \[Omitted image "cfg-ansible-resources.png"\] Alt text: Ansible resources
 
 7.  Select **Ansible Inventory** to explore the contents.
 
     **Note:** Communicate the supported applications to users so they can select the correct application from the **Hostgroup** field in the Cloud User Portal. The **Hostgroup** field shows all possible applications \(called Groups in Ansible\), not just the ones that the configuration management provider supports. Therefore, the provisioning fails when the user selects an unsupported application.
 
-    ![Ansible Tower groups within an inventory](../image/ansible-tower-groups.png "Ansible Tower groups within an inventory")
+    \[Omitted image "ansible-tower-groups.png"\] Alt text: Ansible Tower groups within an inventory
 
 
 ## What to do next

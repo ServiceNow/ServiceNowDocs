@@ -2,6 +2,7 @@
 title: Convert one RIDAC record to another for a project in Project Workspace
 description: Convert one RIDAC \(Risk, Issue, Decision, Action, and Request Change\) record to another for a project in the Project Workspace. Keep a record of risks or issues and their outcome for analysis at project closure and planning. Track the risks and issues throughout the project life cycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/convert-ridac-project-workspace.html
 release: zurich
 product: Project Workspace
 classification: project-workspace
@@ -29,7 +30,7 @@ You can also specify to close the parent record on creation of the new record in
 
 1.  Select the project for which you want to convert one RIDAC entry to another.
 
-    For information on how to navigate to a Project in the Project Workspace, see [Access the new Project Workspace](access-new-project-workspace.md).
+    For information on how to navigate to a Project in the Project Workspace, see [Access the new Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the RIDAC page of the project by selecting **RIDAC** from the list.
 
@@ -43,7 +44,7 @@ You can also specify to close the parent record on creation of the new record in
 
 6.  Modify the text in the **Short description** field, which is copied from the parent record.
 
-7.  Change the default assignment copied from the parent record in the **Assigned to** field by selecting the search for record icon \(![search for record icon.](../image/lookup_icon.png)\) and selecting a different user.
+7.  Change the default assignment copied from the parent record in the **Assigned to** field by selecting the search for record icon \(\[Omitted image "lookup\_icon.png"\] Alt text: search for record icon.\) and selecting a different user.
 
 8.  If you want to close the parent RIDAC record on creation of a new record, select the close parent record option.
 
@@ -52,5 +53,5 @@ You can also specify to close the parent record on creation of the new record in
 9.  Select **OK**.
 
 
-**Parent Topic:**[Managing projects with Project Workspace](../concept/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/use-projects-pw.md)
 

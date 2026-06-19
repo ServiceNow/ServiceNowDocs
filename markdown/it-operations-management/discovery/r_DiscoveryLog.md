@@ -2,6 +2,7 @@
 title: Logs for horizontal discovery
 description: The system collects logs to reflect the activity that takes place during a horizontal discovery based on both patterns and probes. Use the logs to fine-tune or troubleshoot the discovery process.Access the logs to understand the discovery process and fine-tune the discovery process.You can configure the amount of time that Discovery retains log entries for the probe-based horizontal discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/r\_DiscoveryLog.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -21,7 +22,7 @@ For horizontal discovery the system generates logs of the following types:
 
     The logs for probe-based horizontal discovery cover classification failures, CMDB updates, and authentication failures. A Discovery Log record is created for each action associated with a discovery status.
 
-    **Note:** The Discovery log also displays errors that occur during identification by taking log entries from the Identification Engine log. See [Examine run logs](https://www.servicenow.com/docs/access?context=identification-simulation&version=zurich&pubname=zurich-servicenow-platform&section=examine-identification-engine-logs&ft:locale=en-US) for more information about the identification engine and possible errors.
+    **Note:** The Discovery log also displays errors that occur during identification by taking log entries from the Identification Engine log. See Examine run logs for more information about the identification engine and possible errors.
 
 -   **Pattern-based**
 
@@ -40,11 +41,11 @@ Role required: discovery\_admin
 
 1.  Navigate to **All** &gt; **Discovery** &gt; **Status**.
 
-2.  Open a [Discovery Status](../concept/c_DiscoveryStatus.md) record.
+2.  Open a [Discovery Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_DiscoveryStatus.md) record.
 
-    The **Discovery Log** related list displays the logs for probe-based discovery. See [Discovery log details](discovery-log.md).
+    The **Discovery Log** related list displays the logs for probe-based discovery. See [Discovery log details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-log.md).
 
-    ![Discovery Log Records](../image/DiscoveryLog2.png)
+    \[Omitted image "DiscoveryLog2.png"\] Alt text: Discovery Log Records
 
 3.  Find out the information related to the relevant log entry:
 
@@ -53,11 +54,11 @@ Role required: discovery\_admin
     -   Select the IP address link in the **Device** column to view the log records for a particular device.
 4.  To view logs for pattern-based discovery, select the **Here** link for a log entry that has **HorizontalDiscoveryProbe** in the **ECC queue input**.
 
-    ![The link to the pattern-based discovery log.](../image/discovery-log-link-pattern-based-log.png)
+    \[Omitted image "discovery-log-link-pattern-based-log.png"\] Alt text: The link to the pattern-based discovery log.
 
-    The Horizontal Discovery Log window opens showing the list of pattern-based log entries. For information on logged discovery phases, see [Discovery log details](discovery-log.md).
+    The Horizontal Discovery Log window opens showing the list of pattern-based log entries. For information on logged discovery phases, see [Discovery log details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-log.md).
 
-    ![Horizontal Discovery log](../image/horizontal-pattern-log.png "Horizontal Discovery log")
+    \[Omitted image "horizontal-pattern-log.png"\] Alt text: Horizontal Discovery log
 
 5.  Select an item in the left-hand column to see more information about it in the right-hand column.
 
@@ -69,18 +70,18 @@ Role required: discovery\_admin
 ### What to do next
 
 -   To fine-tune or troubleshoot the pattern-based discovery, retrieve the payload as described in [KB0998923: Retrieve Payload Feature](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0998923).
--   [Validate commands used in pattern-based discovery](../../it-operations-management/task/validate-discovery-commands.md), if there is one of the following errors:
+-   [Validate commands used in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/validate-discovery-commands.md), if there is one of the following errors:
     -   Authentication issue
     -   Authorization/Permission issue
     -   No Valid credentials present
     -   IP not reachable from mid
     -   Command with wrong syntax
--   If there is an error in payload processing, select the **IRE Error Documentation** button to learn about the Identification and Reconciliation Engine \(IRE\) error that occurred and how to resolve it.![Horizontal Discovery Log window showing a payload processing error](../image/discovery-log-payload-error-IRE.png)
+-   If there is an error in payload processing, select the **IRE Error Documentation** button to learn about the Identification and Reconciliation Engine \(IRE\) error that occurred and how to resolve it.\[Omitted image "discovery-log-payload-error-IRE.png"\] Alt text: Horizontal Discovery Log window showing a payload processing error
 
 **Related topics**  
 
 
-[Identification and Reconciliation engine \(IRE\)](https://www.servicenow.com/docs/access?context=ire&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.ire]
 
 [KB0854603: Pattern Debugger Session Timed Out](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0854603)
 

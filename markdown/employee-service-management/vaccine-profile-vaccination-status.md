@@ -2,6 +2,7 @@
 title: Viewing vaccine profile records
 description: Vaccine profiles contain vaccination information for vaccine admins to review, such as a user's vaccination date, whether users are exempt from receiving a vaccine, or the results of their most recent COVID-19 tests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/vaccine-profile-vaccination-status.html
 release: zurich
 topic_type: reference
 last_updated: "2025-07-31"
@@ -85,7 +86,7 @@ Most recent COVID test result verified
 
 Indicates that the most recently reported COVID-19 test result was verified by a scoped manager or administrator.
 
- For more information, see [Confirm COVID-19 test results for a user](../../health-safety-testing/task/confirm-health-test-result.md).
+ For more information, see [Confirm COVID-19 test results for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-testing/confirm-health-test-result.md).
 
 </td></tr><tr><td>
 
@@ -97,8 +98,8 @@ The outcome of a user's most recently reported COVID-19 vaccine. This field is u
 
 **Note:** A validator service can only approve reviews or leave them in the same status as if they had not been reviewed. If the vaccine response could not be validated and approved, the response must be manually reviewed.
 
- For more information, see [Confirm the reported vaccination status for a user](../task/confirm-vaccine-response.md).
+ For more information, see [Confirm the reported vaccination status for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/confirm-vaccine-response.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Vaccination Status](../concept/vaccination-status.md)
+</table>**Parent Topic:**[Vaccination Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/vaccination-status.md)
 

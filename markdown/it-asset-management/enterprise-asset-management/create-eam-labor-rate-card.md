@@ -2,6 +2,7 @@
 title: Create a labor rate card in Enterprise Asset Workspace
 description: Create a labor rate card to capture costs by the time consumed on an hourly basis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/create-eam-labor-rate-card.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -48,5 +49,5 @@ Labor rate cards are included in the base system. Except for the **Number** fiel
     After a labor rate card is created, expense lines are created based on the value in the **Use time worked** field.
 
 
-**Parent Topic:**[Configuring Total Cost of Ownership for enterprise assets](../concept/confifure-eam-asset-tco.md)
+**Parent Topic:**[Configuring Total Cost of Ownership for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/confifure-eam-asset-tco.md)
 

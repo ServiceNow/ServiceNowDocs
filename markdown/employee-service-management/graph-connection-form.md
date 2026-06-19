@@ -2,7 +2,10 @@
 title: Graph connection form
 description: The following are the available fields in the Graph connection form to create a Graph connection for Microsoft SharePoint connectivity configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/graph-connection-form.html
 release: zurich
+product: Employee Service Management
+classification: employee-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1

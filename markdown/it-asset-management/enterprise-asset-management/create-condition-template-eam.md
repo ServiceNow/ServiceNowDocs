@@ -2,6 +2,7 @@
 title: Create condition templates for condition attributes
 description: Create a condition template and associate the template to condition attributes for enterprise models and assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/create-condition-template-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -50,13 +51,13 @@ Create condition templates before defining condition attributes on enterprise mo
 
 6.  Select **Enable scoring**
 
-    You must enable scoring to make results available for the condition attributes. For more details on scoring, see [Create Smart Assessment templates for BIA](https://www.servicenow.com/docs/access?context=conf-impact-asmt-template&version=zurich&pubname=zurich-governance-risk-compliance&ft:locale=en-US).
+    You must enable scoring to make results available for the condition attributes. For more details on scoring, see .
 
 7.  After entering the details in the **Scoring** tab, select **Save**.
 
 8.  Select the **Questions** tab to create sections and questions.
 
-    You can create sections and questions in this tab and enable scoring for any specific section and for individual questions. For more details on creating questions, sections, and scoring, see [Create Smart Assessment templates for BIA](https://www.servicenow.com/docs/access?context=conf-impact-asmt-template&version=zurich&pubname=zurich-governance-risk-compliance&ft:locale=en-US).
+    You can create sections and questions in this tab and enable scoring for any specific section and for individual questions. For more details on creating questions, sections, and scoring, see .
 
 9.  After entering all the details in the **Questions** tab, select **Save**.
 
@@ -67,5 +68,5 @@ Create condition templates before defining condition attributes on enterprise mo
     If you don’t publish the template, the template won’t be available in the condition template picker when creating condition attributes.
 
 
-**Parent Topic:**[Create and manage enterprise assets](../concept/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

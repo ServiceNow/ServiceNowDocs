@@ -1,0 +1,50 @@
+---
+title: Use response templates in License and Permit Playbook
+description: Respond to cases by using the response templates in the contextual side panel in CSM Configurable Workspace. Good templates save you time by eliminating repetitive work. Response templates replace the static text with details from the license/permit application.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/public-sector-digital-services/use-response-templates-lpr-psds.html
+release: zurich
+product: Public Sector Digital Services
+classification: public-sector-digital-services
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Using the contextual side panel, License and Permit Playbook, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
+---
+
+# Use response templates in License and Permit Playbook
+
+Respond to cases by using the response templates in the contextual side panel in CSM Configurable Workspace. Good templates save you time by eliminating repetitive work. Response templates replace the static text with details from the license/permit application.
+
+## Before you begin
+
+Role required: sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_gsm.agency\_agent, sn\_gsm.relationship\_agent, or sn\_gsm.service\_manager, sn\_gsm.case\_task\_agent
+
+## About this task
+
+Selecting the response templates icon\[Omitted image "email-template-icon.png"\] Alt text: Email template icon shows the reusable messages that you can copy and paste into cases and case tasks.
+
+In License and Permit Playbook,Response Templates replace the static text with details from the license/permit application, such as:
+
+-   Constituent or Business Contact Name
+-   License/permit application Number
+-   License/permit application submission date
+-   Short description
+-   Address Information
+-   Assigned to
+
+For information on how to create response templates, see Create or modify a response template.
+
+## Procedure
+
+1.  In the CSM Configurable Workspace, open an information request task.
+
+2.  In the contextual side panel, select the response templates icon \[Omitted image "response-template-icon.png"\] Alt text: Response template icon. to display a list of the available templates.
+
+3.  In the Response Templates side panel, search for a template.
+
+4.  Select a template and then select **Copy** to copy the template to the clipboard.
+
+    Paste the template text into the **Work notes** field or the **Additional comments** field.
+
+

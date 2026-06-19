@@ -2,6 +2,7 @@
 title: PdfPage - Scoped, Global
 description: Creates a PdfPage object representing a PDF page and its attributes; such as size, width, and color.Instantiates a new PdfPage object.Gets the Y-coordinate of the lower edge of a PDF page.Gets the X-coordinate of the left edge of a PDF page.Gets the size of a PDF pageGets the X-coordinate of the right edge of a PDF page.Gets the Y-coordinate of the upper edge of a PDF page.Gets the width of a PDF page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/PdfPageBothAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,9 +18,9 @@ Creates a PdfPage object representing a PDF page and its attributes; such as siz
 
 This API is part of the ServiceNow PDF Generation Utilities plugin \(com.snc.apppdfgenerator\) and is provided within the `sn_pdfgeneratorutils` namespace. The plugin is activated by default.
 
-This API is a component used with the [Document API](../../DocumentBoth/concept/DocumentBothAPI.md#) to generate a PDF.
+This API is a component used with the [Document API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentBothAPI.md) to generate a PDF.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## PdfPage - PdfPage\(String pageSize, String orientation\)
 

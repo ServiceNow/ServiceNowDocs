@@ -2,6 +2,7 @@
 title: Discovery data collected for storage via a host
 description: Discovery gathers information about storage units that connect to Linux, Solaris, and Windows hosts via a local I/O port or Host Bus Adapter \(HBA\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/r\_DataCollDiscoStorageViaHost.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -822,5 +823,5 @@ computer
 -   Windows - Storage 2012
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Storage discovery](../concept/c_Storage.md)
+</table>**Parent Topic:**[Storage discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_Storage.md)
 

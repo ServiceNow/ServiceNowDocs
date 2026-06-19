@@ -2,7 +2,10 @@
 title: Playbook activity stream component
 description: The activity stream component displays a list of activities occurring on a case record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-playbook-activity-stream-component.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -15,9 +18,9 @@ The activity stream component displays a list of activities occurring on a case 
 
 The activities in the list can be collapsed or expanded. When collapsed, the agent can quickly scan the list to get an overview of case activities. When expanded, the agent can see detailed information on individual activities.
 
-![The playbook activity stream component lists record activities in a collapsed or expanded format and uses tiles to represent the activity types.](../image/case-playbook-template-activity-stream.png "Playbook activity stream component")
+\[Omitted image "case-playbook-template-activity-stream.png"\] Alt text: The playbook activity stream component lists record activities in a collapsed or expanded format and uses tiles to represent the activity types.
 
-**Note:** The activity stream uses [Modeless dialogs](csm-front-line-case-page-modeless-dialogs.md) for composing comments, work notes, and emails.
+**Note:** The activity stream uses [Modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-front-line-case-page-modeless-dialogs.md) for composing comments, work notes, and emails.
 
 ## Activity stream Case and Task tabs
 

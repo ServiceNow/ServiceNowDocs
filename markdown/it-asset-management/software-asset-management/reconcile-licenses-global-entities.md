@@ -2,6 +2,7 @@
 title: Reconciliation of licenses across global entities
 description: Share entitlements across different entities within your organization by creating consumption rules for entitlements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/reconcile-licenses-global-entities.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -88,5 +89,5 @@ If you're upgrading from a Pre Zurich release and based on what you have selecte
 
 -   Non-grouping: **None** is selected. No consumption rule is created as reconciliation runs without grouping. The entitlements can be used by any group.
 
-**Parent Topic:**[Exploring Software Asset Management](explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

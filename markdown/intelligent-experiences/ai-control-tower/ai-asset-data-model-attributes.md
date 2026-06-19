@@ -2,6 +2,7 @@
 title: AI asset data model attributes
 description: Additional attributes for the AI asset data model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/ai-asset-data-model-attributes.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
@@ -199,5 +200,5 @@ AI model
 Reference to the AI model for which the prompt is created.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Control Tower reference](aict-references.md)
+</table>**Parent Topic:**[AI Control Tower reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/aict-references.md)
 

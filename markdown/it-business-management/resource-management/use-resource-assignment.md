@@ -2,6 +2,7 @@
 title: Use resource assignments
 description: The Resource Management Workspace is presented as a new approach to assigning resources to outcomes. Resource Management Workspace integrates with Project Workspace, Strategic Planning, and Portfolio Planning enabling the portfolio stakeholders to create resource assignments for their work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/resource-management/use-resource-assignment.html
 release: zurich
 product: Resource Management
 classification: resource-management
@@ -28,10 +29,10 @@ The Resource Management Workspace is presented as a new approach to assigning re
 -   Clear alerts: notify a stakeholder or a resource user using the alert icons which indicate any over allocations or change in assignment status.
 -   Streamline communication: capture the required or additional information in the notes to establish a seamless communication between resource manager and resource requester.
 
--   **[Using Resource Management Workspace](using-rmw.md)**  
+-   **[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/using-rmw.md)**  
 Create custom resource board views of persistent portfolios to view the current resource allocation and resource requests for all of your resources and work.
--   **[Manage resource assignments from Project Workspace](use-ra-rmw.md)**  
+-   **[Manage resource assignments from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/use-ra-rmw.md)**  
 Optimize project execution by assigning resources to tasks within the Project Workspace. You can create resource assignments for any project or project task, specifying the tasks to be performed and the resources to be allocated. Use the Resource Management application to allocate and manage your resources in the Project Workspace.
 
-**Parent Topic:**[Resource Management Workspace](rsrc-mgmt-wrkspc.md)
+**Parent Topic:**[Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rsrc-mgmt-wrkspc.md)
 

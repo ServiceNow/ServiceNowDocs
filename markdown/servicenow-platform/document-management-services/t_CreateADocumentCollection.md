@@ -2,6 +2,7 @@
 title: Create a document collection
 description: A document collection is a set of individual documents. After documents have been uploaded into Managed Documents, organize the documents by grouping them into collections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/t\_CreateADocumentCollection.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -46,5 +47,5 @@ Role required: document\_management\_user
     The Document Collection page displays and the individual documents in the collection are listed.
 
 
-**Parent Topic:**[Create a document](../concept/c_CreateADocument.md)
+**Parent Topic:**[Create a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/c_CreateADocument.md)
 

@@ -2,7 +2,10 @@
 title: Field Service Quality Management components
 description: Several types of components are installed with the activation of the Field Service Quality Management feature including tables, substates, and roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/quality-mgmt-components.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -51,5 +54,5 @@ Field Service Quality Management adds the following roles:
 |----|-----------|
 |sn\_fsm\_quality.wm\_quality\_agent|Reviewer role that can review work order tasks.|
 
-**Parent Topic:**[Components installed with additional plugins for Field Service Management](components-inst-additional-plugin.md)
+**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/components-inst-additional-plugin.md)
 

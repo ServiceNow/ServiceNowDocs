@@ -2,6 +2,7 @@
 title: Health Log Analytics severity mapping
 description: Health Log Analytics \(HLA\) uses common severity values to identify severity labels in the Source Type Structure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-severity-mapping.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -48,7 +49,7 @@ The **Log severity mapping** table illustrates how HLA identifies severity words
 |EMERGENCY|EMERGENCY|CRITICAL|
 |EMER|EMERGENCY|CRITICAL|
 
-**Note:** If your raw log contains numerical severities or unrecognized words, map these values to the HLA Log Severity column by creating a conditional statement using the JS function in the Source Type Structure. For more information, see [Source type structure adjustment in Health Log Analytics](../concept/hla-source-type-structure-adjustment.md).
+**Note:** If your raw log contains numerical severities or unrecognized words, map these values to the HLA Log Severity column by creating a conditional statement using the JS function in the Source Type Structure. For more information, see [Source type structure adjustment in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-source-type-structure-adjustment.md).
 
-**Parent Topic:**[Health Log Analytics reference](../concept/hla-reference.md)
+**Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-reference.md)
 

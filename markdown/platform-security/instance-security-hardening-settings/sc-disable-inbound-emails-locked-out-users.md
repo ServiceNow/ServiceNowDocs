@@ -2,6 +2,7 @@
 title: Disable inbound emails for locked out users
 description: Use the glide.pop3.process\_locked\_out property to control inbound email actions for locked out, active users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-disable-inbound-emails-locked-out-users.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -25,7 +26,7 @@ Set this property to **false** to disable inbound emails for locked out users.
 |---------|-----------|
 |Property name|**glide.pop3.process\_locked\_out**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Access control](sc-access-control.md)|
+|Category|[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)|
 |Purpose|This property controls inbound email actions for locked out users.|
 |Data type|Boolean|
 |Recommended value|false|
@@ -33,7 +34,7 @@ Set this property to **false** to disable inbound emails for locked out users.
 |Security risk|\(High\) When you set this property to **true**, there may be an information disclosure as inbound emails would be received by users with locked accounts.|
 |Security risk rating|7.5|
 
-To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Access control](sc-access-control.md)
+**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

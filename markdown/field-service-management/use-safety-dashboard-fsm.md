@@ -2,7 +2,10 @@
 title: Field Service Safety dashboard
 description: Review the status of agents, tasks, and assets using the Field Service Management Covid19 map. Monitor the compliance reports of agents through the Field Service Safety dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/use-safety-dashboard-fsm.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -27,13 +30,13 @@ You can use the COVID-19 Global Health Data Set application to see the Field Ser
 
 Navigate to **Field Service** &gt; **Safety Dashboard**.
 
-![Field Service Safety Map that displays COVID-19 alert locations by date range. A dashboard with task compliance by agents and the number of non-compliant agents, and working agents is displayed.](../../../use/dashboards/image/safety_dashboard.png "Field Service Safety Dashboard with COVID-19 data")
+\[Omitted image "safety\_dashboard.png"\] Alt text: Field Service Safety Map that displays COVID-19 alert locations by date range. A dashboard with task compliance by agents and the number of non-compliant agents, and working agents is displayed.
 
 Locations with alerts are listed on the FSM Covid19 map. Use the map controls as follows:
 
--   To zoom in to a location and its alerts, click the location icon \(![COVID-19 alert location marker.](../image/marker-wot-unassigned-multiple-clear.svg) \).
+-   To zoom in to a location and its alerts, click the location icon \(\[Omitted image "marker-wot-unassigned-multiple-clear.svg"\] Alt text: COVID-19 alert location marker. \).
 -   To select a time period to review, use the Task Date Range at the top left.
--   To filter the information displayed on the map, click the layers icon \(![Layers icon to select filters.](../../../use/dashboards/image/layers-map.png)\) on the top right and select your filters.
+-   To filter the information displayed on the map, click the layers icon \(\[Omitted image "layers-map.png"\] Alt text: Layers icon to select filters.\) on the top right and select your filters.
 
 Each icon displays the information in the following table.
 
@@ -83,5 +86,5 @@ Managers can view the task compliance result of their agents based on the date, 
 |My Working Agents|The number of agents working on at least one task and reporting to the logged-in field service manager. Click the metrics to view the list of their compliant and non-compliant tasks.|
 |Task Compliance by my Agents|The breakdown of compliant and non-compliant tasks by each agent within the selected date range. Click a section to view the list of tasks.|
 
-**Parent Topic:**[Analytics and reporting for Field Service Management](analytics-reporting-fsm.md)
+**Parent Topic:**[Analytics and reporting for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/analytics-reporting-fsm.md)
 

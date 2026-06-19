@@ -2,6 +2,7 @@
 title: Configure contract template rules
 description: Configure a rule to identify the contract document template used for generating the contract document for a request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-config-template-rules.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -21,7 +22,7 @@ Role required: sn\_cm\_core.contract\_config
 
 ## About this task
 
-If you want the variables related to contract request to be available in condition builder, add the contract request reference to your application table. For more information, see [Enable contract request fields in condition builders](cncore-add-cmr-condtion-build.md)
+If you want the variables related to contract request to be available in condition builder, add the contract request reference to your application table. For more information, see [Enable contract request fields in condition builders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-add-cmr-condtion-build.md)
 
 ## Procedure
 
@@ -114,10 +115,10 @@ Conditions under which the contract template is selected. For example, to apply 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
 
-    ![Configure contract template rules](../image/cmpro-ct-rules.png "Contract template rules")
+    \[Omitted image "cmpro-ct-rules.png"\] Alt text: Configure contract template rules
 
 
 ## What to do next
 
-[Create a contract configuration](cncore-contract-config.md)
+[Create a contract configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-contract-config.md)
 

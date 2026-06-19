@@ -2,6 +2,7 @@
 title: Create adobe sign groups
 description: Connect your ServiceNow instance to a particular group to send and receive agreements on a business use case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/create-adobe-groups.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

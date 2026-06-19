@@ -2,6 +2,7 @@
 title: Create an OT knowledge base
 description: Create an Operational Technology \(OT\) knowledge base to provide a self-service platform for OT knowledge users to store, share, and manage content that is related to OT incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-knowledge-management/configure-ot-knowledge-base.html
 release: zurich
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
@@ -27,7 +28,7 @@ Role required: admin
 
 3.  On the knowledge base form, fill in the fields.
 
-    For a description of the field values, see [Knowledge base form](../reference/knowledge-base-form-fields.md).
+    For a description of the field values, see [Knowledge base form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-knowledge-management/knowledge-base-form-fields.md).
 
 4.  Right click the form header and select **Save**.
 
@@ -91,5 +92,5 @@ List of knowledge categories that are associated with the OT knowledge base. **N
 </table>6.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Operational Technology Knowledge Management](../concept/configuring-operational-technology-knowledge-management.md)
+**Parent Topic:**[Configuring Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-knowledge-management/configuring-operational-technology-knowledge-management.md)
 

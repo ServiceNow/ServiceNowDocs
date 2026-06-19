@@ -2,6 +2,7 @@
 title: Preconfigured email templates in a card dispute flow
 description: Email templates are pre-formatted files that you can use to start creating email notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/pre-cofigured-email-template.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -68,5 +69,5 @@ Dispute denial \[case.dispute.denial\]
 Template that notifies users that their dispute submission is denied.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Dispute manager workspace](workspace-for-dispute-manager.md)
+</table>**Parent Topic:**[Dispute manager workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/workspace-for-dispute-manager.md)
 

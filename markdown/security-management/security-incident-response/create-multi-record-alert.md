@@ -2,6 +2,7 @@
 title: Create a multi-record, custom field Splunk alert
 description: To create a multiple record Splunk alert with custom fields, you must build a search that is designed to match the ServiceNow columns you want to populate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/create-multi-record-alert.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -25,7 +26,7 @@ Role required: sn\_si.admin
 
 2.  In the **Search** box, create a search that generates your record data.
 
-    See the [examples](../reference/multi-record-examples.md) for recommended search criteria.
+    See the [examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/multi-record-examples.md) for recommended search criteria.
 
 3.  Click **Save As** and select **Alert**.
 

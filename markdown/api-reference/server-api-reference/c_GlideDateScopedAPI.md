@@ -2,6 +2,7 @@
 title: GlideDate - Scoped
 description: The scoped GlideDate class provides methods for performing operations on GlideDate objects, such as instantiating GlideDate objects or working with GlideDate fields.Creates a GlideDate object with the current date time.Gets the date in the specified date format.Gets the day of the month stored by the GlideDate object, expressed in the UTC time zone.Gets the date and time field value in the UTC time zone.Gets the date in the internal format \(yyyy-MM-dd\) and current user's timezone.Returns the date value in the user's locale according to a specified language and date style.Gets the month stored by the GlideDate object, expressed in the UTC time zone.Gets the date in the internal format \(yyyy-MM-dd\) and the system time zone \(UTC by default\).Gets the year stored by the GlideDate object, expressed in the UTC time zone.Sets a date value using the current user's display format and time zone.Sets a date using a specified style and format according to the current user's locale.Sets a date using a specified style, language, and format according to the current user's locale.Sets the date of the current GlideDate object in internal format \(yyyy-MM-dd\) and the system time zone \(UTC by default\).Gets the duration difference between two GlideDate values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_GlideDateScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,11 +16,11 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The scoped GlideDate class provides methods for performing operations on GlideDate objects, such as instantiating GlideDate objects or working with GlideDate fields.
 
-For guidance on date time input strings with a list of common format conflicts, refer to [Date and time format guidelines](../../../../../script/glide-server-apis/topic/p_GlideServerAPIs.md#).
+For guidance on date time input strings with a list of common format conflicts, refer to [Date and time format guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/p_GlideServerAPIs.md).
 
-See also [GlideDateTime - Scoped](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+See also [GlideDateTime - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## Scoped GlideDate - GlideDate\(\)
 
@@ -93,7 +94,7 @@ Output:
 
 Gets the date and time field value in the UTC time zone.
 
-See also: [getDisplayValueInternal\(\)](c_GlideDateScopedAPI.md#)
+See also: [getDisplayValueInternal\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideDateScopedAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -119,7 +120,7 @@ Output:
 
 Gets the date in the internal format \(yyyy-MM-dd\) and current user's timezone.
 
-See also [getDisplayValue\(\)](c_GlideDateScopedAPI.md#)
+See also [getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideDateScopedAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|

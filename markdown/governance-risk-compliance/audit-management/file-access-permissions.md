@@ -2,6 +2,7 @@
 title: File access permissions
 description: The Workspace administrators with the sn\_grc\_workspace.admin role can configure the file access permissions for the users and groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/file-access-permissions.html
 release: zurich
 product: Audit Management
 classification: audit-management
@@ -22,7 +23,7 @@ The Workspace administrators with the sn\_grc\_workspace.admin role can configur
 -   For a combination of the **Table** field, **Access permission** field, and **Users** field, you can have only one File access permission record. If you have an existing record for a table with a given set of user and access permissions, you cannot create a duplicate record with the same access permissions. For example, if a contributor has Read access permission for the policy \(sn\_compliance\_policy\) record, creating another record for the same condition is not permitted.
 -   For a given combination of the **Table** field, **Provider** field, and **Active** option, only one Cloud file configuration record is permitted. A duplicate configuration is not permitted for an active table as shown in the following example.
 
-    ![Duplicate configuration.](../image/doc-access-config-no-duplicate-config.png)
+    \[Omitted image "doc-access-config-no-duplicate-config.png"\] Alt text: Duplicate configuration.
 
 -   If a user is part of multiple **User** fields or a **Group** field, a higher access is granted to the user.
 
@@ -36,7 +37,7 @@ A source link to the GRC record always has the write access and the reference li
 
 When a record is mapped as a source link to the cloud file, the configuration is applied as it is to the cloud file. For example, if the configuration contains write access for some users and read access for some users, the same configuration is maintained and applied to the users.
 
-The Document reference table shows how one document record is being referenced such as its source link and reference link to the GRC record as shown in the following example ![Document reference table.](../image/doc-ref-table.png)
+The Document reference table shows how one document record is being referenced such as its source link and reference link to the GRC record as shown in the following example \[Omitted image "doc-ref-table.png"\] Alt text: Document reference table.
 
 Consider the example of Engagement\_memo.xslx for which Control test CTR0020005 is a source link and Control test CTR0020004 is a reference link. For any configuration that matches the configuration of Control test CTR0020004, all the users under this configuration even though they have Write access in the configuration has only read access.
 
@@ -68,7 +69,7 @@ To configure the file access permissions on other tables such as control records
 
 The users that are part of a group should request access to the cloud file by using the **Request access** action button. When a user who is part of the Audit Managers group selects **Request access** on the form, a UI message is displayed as shown in the example: `The file access is being processed.`
 
-![Request access.](../image/request-access.png)
+\[Omitted image "request-access.png"\] Alt text: Request access.
 
 Requesting access to the cloud file is a one-time activity for the users of a group. If a user selects **Request access** more than once and the access has already been granted, the following message is displayed: `File access has already been granted.`
 

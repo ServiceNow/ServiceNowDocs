@@ -2,6 +2,7 @@
 title: Register Basic Authentication
 description: Register basic authentication for your inbound API integrations to effectively monitoring their API usage on the Inbound API Usage Dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/register-basic-authentication.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -75,5 +76,5 @@ Specify the integration name.**Note:** The integration name is auto filled for O
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Registered integrations](../concept/registered-integrations.md)
+**Parent Topic:**[Registered integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/registered-integrations.md)
 

@@ -2,6 +2,7 @@
 title: Configure a list menu to display in the Learning tab in Workforce Optimization for Field Service
 description: Add list or list categories to modify the list menu for Coaching with Learning in the Coaching application in Workforce Optimization for Field Service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/configure-listmenu-to-wfo-fsm.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -17,7 +18,7 @@ Add list or list categories to modify the list menu for Coaching with Learning i
 
 ## Before you begin
 
-Set the map application scope to **Coaching With Learning**. For more information, see [Set map application scope](https://www.servicenow.com/docs/access?context=set-map-application-scope&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+Set the map application scope to **Coaching With Learning**. For more information, see Set map application scope.
 
 Role required: admin
 

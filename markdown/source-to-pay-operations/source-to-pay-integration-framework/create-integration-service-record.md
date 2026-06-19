@@ -2,6 +2,7 @@
 title: Create Integration Service record
 description: Create Integration Service records for entities using the sn\_fcms\_intg\_service table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/source-to-pay-integration-framework/create-integration-service-record.html
 release: zurich
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

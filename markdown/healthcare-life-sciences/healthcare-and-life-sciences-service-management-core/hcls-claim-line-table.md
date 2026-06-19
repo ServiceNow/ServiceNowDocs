@@ -2,6 +2,7 @@
 title: Claim line table
 description: The Claim line \[sn\_hcls\_claim\_line\] table stores the details of the items pertaining to a claim header.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-claim-line-table.html
 release: zurich
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -22,7 +23,7 @@ The Claim line \[sn\_hcls\_claim\_line\] table stores the details of the items p
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](../concept/hcls-serv-mgmt-core-1.md).
+For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
 <table id="table_i41_xh3_npb"><thead><tr><th>
 
@@ -207,7 +208,7 @@ Alpha-numeric profile identifier of the claim line.
 
  The value is auto-generated and is incremented every time you add a new claim line to an instance. The initial value for the **Number** field is CLAIMLN00001001.
 
-**Note:** To customize the number, define the auto-numbering format for the Claim line \[sn\_hcls\_claim\_line\] table. For more information, see [Add auto-numbering records in a table](https://www.servicenow.com/docs/access?context=t_AutoNumberingRecordsInATable&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** To customize the number, define the auto-numbering format for the Claim line \[sn\_hcls\_claim\_line\] table. For more information, see Add auto-numbering records in a table.
 
 </td></tr><tr><td>
 
@@ -346,5 +347,5 @@ Code of the tooth on which service was performed.
  Applies to dental providers only.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](hcls-healthcare-data-tables.md)
+</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)
 

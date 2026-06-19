@@ -2,6 +2,7 @@
 title: Read the inserted incident
 description: Use a GET request to view a record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-api-explorer/t\_GetStartedReadInt.html
 release: zurich
 product: REST API Explorer
 classification: rest-api-explorer
@@ -43,8 +44,8 @@ Use the sys\_id from the POST response Location header to run a GET request.
 
     The response also indicates the **Status code** and **Execution time** \(in milliseconds\) of the request.
 
-    ![REST API Explorer GET response](../image/rest-api-exp-get-response-2.png)
+    \[Omitted image "rest-api-exp-get-response-2.png"\] Alt text: REST API Explorer GET response
 
 
-**Parent Topic:**[Use the REST API Explorer](../concept/use-REST-API-Explorer.md)
+**Parent Topic:**[Use the REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/use-REST-API-Explorer.md)
 

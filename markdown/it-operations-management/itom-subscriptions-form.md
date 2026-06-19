@@ -2,7 +2,10 @@
 title: Subscriptions form for the ITOM products
 description: Description of the fields on the Subscriptions form for the ITOM products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-subscriptions-form.html
 release: zurich
+product: IT Operations Management
+classification: it-operations-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -68,5 +71,5 @@ Number of consumed subscription units from a bundle or application \(a la carte\
 -   Red: Your organization has used 100% or more and exceeded the number of purchased subscriptions. Purchased subscriptions are overdrawn.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ITOM/OT SU Licensing Reference](itom-su-licensing-reference.md)
+</table>**Parent Topic:**[ITOM/OT SU Licensing Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-su-licensing-reference.md)
 

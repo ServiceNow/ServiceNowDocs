@@ -2,6 +2,7 @@
 title: Import a KPI Composer project
 description: If you have an exported KPI Composer project, you can import it to your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/import-kpi-composer-project.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -16,7 +17,7 @@ breadcrumb: [KPI Composer projects, Design your indicator solution, Configure fu
 If you have an exported KPI Composer project, you can import it to your instance.
 
 Prerequisites
-:   [Create a KPI Composer project](create-kpi-composer-project.md)
+:   [Create a KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-kpi-composer-project.md)
 
 ## Before you begin
 
@@ -37,9 +38,9 @@ Role required: sn\_kpi\_composer.admin
 
 You now can open the project in KPI Composer.
 
-**Parent Topic:**[KPI Composer projects](../concept/kpi-composer-projects.md)
+**Parent Topic:**[KPI Composer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/kpi-composer-projects.md)
 
-**Previous topic:**[Export a KPI Composer project](export-kpi-composer-project.md)
+**Previous topic:**[Export a KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/export-kpi-composer-project.md)
 
-**Next topic:**[Analysis and the KPI tree](../concept/design-kpi-tree.md#)
+**Next topic:**[Analysis and the KPI tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/design-kpi-tree.md)
 

@@ -2,6 +2,7 @@
 title: Respond to attestations on the Risk Portal
 description: Respond to your attestations by logging in to the Risk Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/smart-assessment-risk-portal.html
 release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

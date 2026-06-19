@@ -2,6 +2,7 @@
 title: Record an incidental expense
 description: Record incidental expenses associated with your business travel through the Field Service application to execute work order tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/t\_RecordAnIncidentalExpense.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

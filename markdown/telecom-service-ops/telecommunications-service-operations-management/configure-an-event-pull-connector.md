@@ -2,11 +2,12 @@
 title: Configure an event pull connector
 description: Configure event pull connectors that require a script, connector definition, and connector instance to pull events from external management systems. These connectors automate the data retrieval process, promoting the seamless integration of external events into your system for efficient monitoring and management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-service-ops/telecommunications-service-operations-management/configure-an-event-pull-connector.html
 release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Fault Management: Events and alerts, Telecom Assurance, Explore, Telecommunications Service Operations Management]
 ---
@@ -23,17 +24,17 @@ Role required: TSOM Assurance admin
 
 1.  Navigate to &gt; **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the left pane, select the Integrations Launchpad icon ![](../images/integrations_launchpad_icon.png).
+2.  From the left pane, select the Integrations Launchpad icon \[Omitted image "integrations\_launchpad\_icon.png"\] Alt text:.
 
 3.  Select the **Browse Integrations** tab, and search for the desired integration \(for example, Meraki, Fortinet, or VeloCloud\).
 
-    ![Integrations launchpad page](../images/integrations_laundpad.png "Integrations Launchpad page")
+    \[Omitted image "integrations\_laundpad.png"\] Alt text: Integrations launchpad page
 
 4.  Select the integration tile labeled **Metrics**.
 
     The pull connector setup page opens in a new window.
 
-    ![Pull connector set-up page](../images/pull-connector-setup.png "Pull connectors details page")
+    \[Omitted image "pull-connector-setup.png"\] Alt text: Pull connector set-up page
 
 5.  In the **Name** field, enter a unique name for the connector type.
 

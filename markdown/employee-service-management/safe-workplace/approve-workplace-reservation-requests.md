@@ -2,6 +2,7 @@
 title: Approve employee workplace reservation requests
 description: Review employee area and space reservation requests in Workplace Core and approve or reject them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/approve-workplace-reservation-requests.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace
@@ -17,7 +18,7 @@ Review employee area and space reservation requests in Workplace Core and approv
 
 ## Before you begin
 
-To approve or reject a workplace request using your mobile device, you must have the [Now® Mobile](../../../administer/mobile-employee/concept/mobile-employee-experience.md) app.
+To approve or reject a workplace request using your mobile device, you must have the [Now® Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app.
 
 Role required: approver\_user
 
@@ -25,15 +26,15 @@ Role required: approver\_user
 
 1.  Navigate to a reservation approval task.
 
-<table id="choicetable_dpt_bjp_zlb"><thead><tr><th align="left" id="d676447e71">
+<table id="choicetable_dpt_bjp_zlb"><thead><tr><th align="left" id="d644730e71">
 
 Application
 
-</th><th align="left" id="d676447e74">
+</th><th align="left" id="d644730e74">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d676447e80">
+</th></tr></thead><tbody><tr><td id="d644730e80">
 
 **Now Mobile**
 
@@ -41,7 +42,7 @@ Action
 
 In the Now Mobile app, open a task from the My Tasks section.
 
- ![Approver tasks](../../../reuse/workplace-safety-mgmt/images/my-tasks-manager-approver.jpg)
+ \[Omitted image "my-tasks-manager-approver.jpg"\] Alt text: Approver tasks
 
 </td></tr></tbody>
 </table>2.  Review the details of the request.

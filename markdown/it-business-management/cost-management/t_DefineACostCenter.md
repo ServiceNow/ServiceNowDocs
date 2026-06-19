@@ -2,6 +2,7 @@
 title: Define a cost center
 description: Cost centers are a commonly used reference between financial systems and IT. Cost center records represent business entities, and have a related list of CI Cost Center Relationships that measure the cost center's consumption of business services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/cost-management/t\_DefineACostCenter.html
 release: zurich
 product: Cost Management
 classification: cost-management
@@ -44,5 +45,5 @@ Role required: financial\_mgmt\_admin
     |Allocation Units|The number of units that the cost center is using. This is measured using the same type of unit used to define the total capacity of the business service in the allocation unit record. This number will be used to update the number of allocated units in the allocation unit record. It will also be used to determine the amount of expenses to allocate to the cost center based on the percentage of business service used versus the total capacity.|
 
 
-**Parent Topic:**[Use business services with expenses](../concept/c_UseBusinessServicesWithExpenses.md)
+**Parent Topic:**[Use business services with expenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/cost-management/c_UseBusinessServicesWithExpenses.md)
 

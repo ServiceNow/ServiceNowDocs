@@ -2,6 +2,7 @@
 title: Resolution for Proactive Engagement
 description: Resolution is information provided to the end user to self-solve the issue, or execute a remedial action on the end user device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/proactive-engagement/resolutions.html
 release: zurich
 product: Proactive Engagement
 classification: proactive-engagement
@@ -19,10 +20,10 @@ The resolution information is provided to the end user through the following met
 
 |Resolution Type|Description|
 |---------------|-----------|
-|Remedial Action|[Remedial action](remedial-action.md) triggers an action on the end user device.|
+|Remedial Action|[Remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/proactive-engagement/remedial-action.md) triggers an action on the end user device.|
 |Create Incident|Create incident to resolve the issue where ServiceNow Digital End-User Experience will detect the issue based on the metric rule and create an incident with details so the agent can resolve the issue.|
 |Self-help instructions|Set of instructions for the user to follow and resolve the issue.|
 |URL|Link to any page \(including KB articles\) with details on how to resolve the issue.|
 
-**Parent Topic:**[Proactive Engagement reference](../proactive-engagement-reference.md)
+**Parent Topic:**[Proactive Engagement reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/proactive-engagement/proactive-engagement-reference.md)
 

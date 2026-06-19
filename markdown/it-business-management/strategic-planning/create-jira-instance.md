@@ -2,6 +2,7 @@
 title: Create Jira instance for SPW Jira Integrations
 description: Create a Jira instance record which is later used to connect Strategic Planning Workspace and Jira.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/create-jira-instance.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning
@@ -17,7 +18,7 @@ Create a Jira instance record which is later used to connect Strategic Planning 
 
 ## Before you begin
 
-[Create connection and credentials for SPW Jira Integrations](create-connection-and-credentials.md).
+[Create connection and credentials for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/create-connection-and-credentials.md).
 
 Role required: sn\_jira\_int.admin
 
@@ -29,14 +30,14 @@ Role required: sn\_jira\_int.admin
 
 3.  On the form, fill in the fields.
 
-    For field information, see [Jira Instance form](../reference/jira-instance-form.md).
+    For field information, see [Jira Instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/jira-instance-form.md).
 
 4.  Select **Submit**.
 
 
 ## What to do next
 
-[Connect SPW to Jira](connect-spw-to-jira.md).
+[Connect SPW to Jira](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/connect-spw-to-jira.md).
 
-**Parent Topic:**[Setting up a Jira instance for SPW Jira Integrations](../concept/setting-up-jira-instance-spw.md)
+**Parent Topic:**[Setting up a Jira instance for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/setting-up-jira-instance-spw.md)
 

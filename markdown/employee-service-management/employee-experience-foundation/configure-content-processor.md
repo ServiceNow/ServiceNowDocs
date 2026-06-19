@@ -2,6 +2,7 @@
 title: Configure a video authorization
 description: Configure a content processor to enable employees to view private videos without providing credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/configure-content-processor.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -18,11 +19,11 @@ Configure a content processor to enable employees to view private videos without
 ## Before you begin
 
 -   Role required: sn\_cd.content\_admin and fd\_read\_flows
--   [Create a subflow in Workflow Studio](https://www.servicenow.com/docs/access?context=create-subflow&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US) with the following inputs and outputs:
+-    with the following inputs and outputs:
 
-    ![necessary inputs and outputs for the authorization subflow](../images/subflows-auth.png)
+    \[Omitted image "subflows-auth.png"\] Alt text: necessary inputs and outputs for the authorization subflow
 
--   [Configure content provider and mapping](configure-content-provider.md)
+-   [Configure content provider and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/configure-content-provider.md)
 
 ## About this task
 
@@ -56,6 +57,6 @@ Content Publishing appends the authentication token as a query parameter along w
 
 ## What to do next
 
--   Enable content managers to view thumbnails of available videos: [Configure video content search](configure-content-search.md)
--   Add interface elements to the Content Library video picker: [Configure content rendering parameter](configure-content-rendering-parameter.md)
+-   Enable content managers to view thumbnails of available videos: [Configure video content search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/configure-content-search.md)
+-   Add interface elements to the Content Library video picker: [Configure content rendering parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/configure-content-rendering-parameter.md)
 

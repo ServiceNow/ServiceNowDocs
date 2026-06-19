@@ -2,6 +2,7 @@
 title: Revert a change
 description: Undo changes to a customized record by reverting to an older version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/t\_RevertAChange.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -42,5 +43,5 @@ Role required: admin
     This new version is marked as the current version.
 
 
-**Parent Topic:**[Working with version records](../concept/c_Versions.md)
+**Parent Topic:**[Working with version records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_Versions.md)
 

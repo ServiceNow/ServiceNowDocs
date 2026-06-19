@@ -2,13 +2,14 @@
 title: Add delivery locations
 description: Add the address that can be selected by the user to have the product delivered. You can add multiple delivery locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-delivery-locations.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Setting up primary data for Shopping Hub, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Setting up primary data Shopping, Configure Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Add delivery locations
@@ -53,8 +54,8 @@ Role required: sn\_shop.shopping\_hub\_admin
 
 5.  Select **Submit**.
 
-    ![Delivery location.](../image/add_delivery_location.png)
+    \[Omitted image "add\_delivery\_location.png"\] Alt text: Delivery location.
 
 
-**Parent Topic:**[Setting up primary data for Shopping Hub](../reference/set-up-master-data-shopping-hub.md)
+**Parent Topic:**[Setting up primary data for Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/set-up-master-data-shopping-hub.md)
 

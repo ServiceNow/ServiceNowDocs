@@ -2,6 +2,7 @@
 title: Create an audit table
 description: Create an audit table to store data. Audit table is a staging table that is created with the required columns to populate the external data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/create-table.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -23,7 +24,7 @@ Role required: sn\_process\_optimization\_admin
 
 1.  Navigate to **Workspaces** &gt; **Process Mining Workspace**.
 
-2.  On the left of the page, select the External data integration icon \( ![External data integration icon](../image/ext-dataset-modules.png)\).
+2.  On the left of the page, select the External data integration icon \( \[Omitted image "ext-dataset-modules.png"\] Alt text: External data integration icon\).
 
 3.  Select **Create dataset**.
 
@@ -31,7 +32,7 @@ Role required: sn\_process\_optimization\_admin
 
 4.  Provide a name for your dataset.
 
-    ![Create a dataset](../image/ext-dataset1.png)
+    \[Omitted image "ext-dataset1.png"\] Alt text: Create a dataset
 
     **Note:** The dataset name must be unique. Ensure to have a user-friendly name that clarifies the type of data and the source for ease of use later.
 
@@ -41,7 +42,7 @@ Role required: sn\_process\_optimization\_admin
 
 6.  Select **Next**.
 
-    ![List of columns for the audit table](../image/ext-dataset2.png)
+    \[Omitted image "ext-dataset2.png"\] Alt text: List of columns for the audit table
 
     The next screen enables you to add custom columns for the table. If you need more columns than what is already provided, you can do it here.
 
@@ -56,5 +57,5 @@ Role required: sn\_process\_optimization\_admin
 7.  Select **Next**.
 
 
-**Parent Topic:**[Working with external datasets](../concept/external-dataset.md)
+**Parent Topic:**[Working with external datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/external-dataset.md)
 

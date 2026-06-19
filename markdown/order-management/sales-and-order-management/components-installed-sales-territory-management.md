@@ -2,6 +2,7 @@
 title: Components installed with Sales Territory Management​
 description: Several types of components are installed with activation of the Sales Territory Management​ plugin, including user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/components-installed-sales-territory-management.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -109,5 +110,5 @@ Granular role to access sales territory data.
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Lead and opportunity management reference](../concept/reference-lead-opportunity-mgt.md)
+</table>**Parent Topic:**[Lead and opportunity management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/reference-lead-opportunity-mgt.md)
 

@@ -2,6 +2,7 @@
 title: Create a growth conversation using an agent
 description: As a manager, use the growth conversation preparation AI agent to streamline your employee growth discussions. Leverage this agent to gather key employee talent activity and journeys data to get a clear, structured summary that helps you prepare for the conversation faster and effectively. Rely on data-driven talking points, so every growth conversation is focused, meaningful, and impactful.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/career-conversations/agentic-wf-conversations-na-td.html
 release: zurich
 product: Career Conversations
 classification: career-conversations
@@ -23,8 +24,8 @@ As a manager, use the growth conversation preparation AI agent to streamline you
 
 Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 
-**Parent Topic:**[Using the Career Conversations application](egd-activities-use.md)
+**Parent Topic:**[Using the Career Conversations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/career-conversations/egd-activities-use.md)
 

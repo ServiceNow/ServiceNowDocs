@@ -2,7 +2,10 @@
 title: CSM Landing Page - Premium
 description: The CSM Landing Page - Premium provides users with lists of assigned cases and case tasks as well as agent, group, and organization metrics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-ws-landing-page-premium.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -13,7 +16,7 @@ breadcrumb: [Landing pages, CSM Configurable Workspace features, CSM Configurabl
 
 The CSM Landing Page - Premium provides users with lists of assigned cases and case tasks as well as agent, group, and organization metrics.
 
-Customer service agents and managers can use the CSM Landing Page - Premium to quickly scan and prioritize work, access records, and track performance. Administrators can customize landing pages in [UI Builder](https://www.servicenow.com/docs/access?context=using-ui-builder&version=zurich&pubname=zurich-application-development&ft:locale=en-US) to meet their unique business needs.
+Customer service agents and managers can use the CSM Landing Page - Premium to quickly scan and prioritize work, access records, and track performance. Administrators can customize landing pages in UI Builder to meet their unique business needs.
 
 The CSM Landing Page - Premium includes components that display case information, plus visualizations that further break down the component data. For example, the **High priority cases** component includes visualizations for P1 and escalated cases, plus cases that need attention. It also includes additional indicators and visualizations in the **Performance** and **Organization's Performance** sections. Each of the visualizations is connected to a data source.
 
@@ -24,7 +27,7 @@ The CSM Landing Page - Premium is available with the following plugins:
 
 **Note:** Upgrade customers who haven’t customized the existing CSM Configurable Workspace landing page are automatically upgraded to the landing page available with the Zurich release. Upgrade customers who have customized the existing CSM Configurable Workspace landing page must manually accept the Zurich landing page.
 
-![Landing page with agent and organization performance data. For the text description, refer to the CSM Landing Page and CSM Landing Page - Premium sections and components table that follows.](../image/csm-config-ws-polaris-performance-section.png "CSM landing page - Performance metrics")
+\[Omitted image "csm-config-ws-polaris-performance-section.png"\] Alt text: Landing page with agent and organization performance data. For the text description, refer to the CSM Landing Page and CSM Landing Page - Premium sections and components table that follows.
 
 ## CSM Landing Page - Premium sections and components
 
@@ -96,7 +99,7 @@ Select an indicator to view a KPI details page.**Note:** This section is availab
 </td></tr></tbody>
 </table>## Create a landing page for CSM Configurable Workspace
 
-Use UI Builder to create landing pages for your agents. For more information, see [Create a CSM Configurable Workspace landing page](../task/config-csm-config-ws-landing-page.md).
+Use UI Builder to create landing pages for your agents. For more information, see [Create a CSM Configurable Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-csm-config-ws-landing-page.md).
 
 ## Create multiple landing pages
 

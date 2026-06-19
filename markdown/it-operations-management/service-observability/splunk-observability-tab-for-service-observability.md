@@ -2,6 +2,7 @@
 title: Splunk Observability tab for Service Observability
 description: Dashboard and charts on the Splunk Observability tab of the Service Details page in the SOW.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-observability/splunk-observability-tab-for-service-observability.html
 release: zurich
 product: Service Observability
 classification: service-observability
@@ -58,5 +59,5 @@ These dashboards display metrics for databases related to the service.
 |Threads|Number of threads used by this service|Splunk|
 |Uptime|Amount of time in \(?\) that the database has been running since its last restart.|CMDB|
 
-**Parent Topic:**[Splunk Observability templates for Service Observability](splunk-templates.md)
+**Parent Topic:**[Splunk Observability templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/splunk-templates.md)
 

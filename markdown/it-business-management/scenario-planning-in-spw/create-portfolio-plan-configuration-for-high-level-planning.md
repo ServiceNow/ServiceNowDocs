@@ -2,6 +2,7 @@
 title: Create portfolio plan configuration for high-level planning
 description: To enable high-level planning on a table that is not a planning item in Strategic Planning Workspace, create portfolio plan configuration for the table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/create-portfolio-plan-configuration-for-high-level-planning.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -17,7 +18,7 @@ To enable high-level planning on a table that is not a planning item in Strategi
 
 ## Before you begin
 
-[Create rank configuration for high-level planning](create-rank-configuration-enable-high-level-planning.md)
+[Create rank configuration for high-level planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/create-rank-configuration-enable-high-level-planning.md)
 
 Role required: admin
 
@@ -71,7 +72,7 @@ Rank configuration
 Table that is used to create the portfolio plan.The value for this field is the table selected in the **Source table** field.
 
 </td></tr></tbody>
-</table>    For complete details of the fields on this form, see [Portfolio plan configuration form](../reference/portfolio-plan-configuration-form.md).
+</table>    For complete details of the fields on this form, see [Portfolio plan configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/portfolio-plan-configuration-form.md).
 
 4.  Save the form.
 

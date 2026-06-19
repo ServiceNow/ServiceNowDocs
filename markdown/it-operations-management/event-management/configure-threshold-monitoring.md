@@ -2,6 +2,7 @@
 title: Configure a self-health monitor
 description: You can configure a self-health monitor to track Event Management components and see that they do not exceed the specified threshold.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/configure-threshold-monitoring.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -80,7 +81,7 @@ The values in the modified monitoring configuration record are compared to the a
 
 ## What to do next
 
-Create a customized monitor. A template is provided to assist you to create script that can monitor the specified components. For more information, see [Create a self-health monitor to use custom health monitor script](custom-configure-threshold-monitoring.md).
+Create a customized monitor. A template is provided to assist you to create script that can monitor the specified components. For more information, see [Create a self-health monitor to use custom health monitor script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/custom-configure-threshold-monitoring.md).
 
-**Parent Topic:**[Self-health monitors for Event Management](../concept/self-monitoring.md)
+**Parent Topic:**[Self-health monitors for Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/self-monitoring.md)
 

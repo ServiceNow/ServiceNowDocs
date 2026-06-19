@@ -2,6 +2,7 @@
 title: Workplace Advisor Overview
 description: Workplace Advisor is an AI-powered solution designed to help Space Planners and Facilities Managers optimize workplace management through intelligent insights and conversational support.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-wsd/workplace-advisor-overview.html
 release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd

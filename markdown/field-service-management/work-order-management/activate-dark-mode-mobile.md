@@ -2,6 +2,7 @@
 title: Activate dark mode
 description: Turn on dark mode in ServiceNow Agent to alleviate eye strain if the default is too bright.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/activate-dark-mode-mobile.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

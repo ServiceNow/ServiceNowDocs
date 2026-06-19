@@ -2,6 +2,7 @@
 title: Request an AI model form
 description: The Request an AI model form is designed to streamline the request process for developing or procuring an AI model. This intake form confirms that all necessary details, supporting documents, and compliance considerations are captured before moving forward with the approval process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/ai-risk-management/request-ai-model-form.html
 release: zurich
 product: AI Risk Management
 classification: ai-risk-management
@@ -43,7 +44,7 @@ State
 
 </td><td>
 
-Indicates whether the AI model is in a draft, development, or deployed state. For more information on states, see [AI asset lifecycle](https://www.servicenow.com/docs/access?context=ai-asset-lifecycle&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+Indicates whether the AI model is in a draft, development, or deployed state. For more information on states, see .
 
 </td></tr><tr><td>
 
@@ -205,5 +206,5 @@ Required infrastructure
 Description of the Hardware and software resources needed to deploy and run the AI model. For example, you can mention that one graphics processing unit \(GPU\) of type A100 is required.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Request an AI model](../task/request-ai-model.md)
+</table>**Parent Topic:**[Request an AI model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/request-ai-model.md)
 

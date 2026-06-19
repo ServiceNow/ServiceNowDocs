@@ -2,6 +2,7 @@
 title: Download and install the ODBC driver
 description: Download the ODBC driver \(32-bit or 64-bit\) that is compatible with your computer's operating system from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/t\_DownloadAndInstallTheODBCDriver.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -40,7 +41,7 @@ If this is the first time that the driver is installed, the installer is in firs
 
     The ODBC Driver Setup Wizard appears.
 
-    ![f ODBC Driver Setup Wizard.](../image/OdbcStep1.png)
+    \[Omitted image "OdbcStep1.png"\] Alt text: f ODBC Driver Setup Wizard.
 
 4.  Click **Next**.
 
@@ -73,22 +74,22 @@ If this is the first time that the driver is installed, the installer is in firs
     -   **Service Data Source**: The name that can be selected in the **Service Data Source** field of the ODBC Administrator.
     Usually, the default values are appropriate.
 
-    ![Service Configuration.](../image/OdbcStep5.png)
+    \[Omitted image "OdbcStep5.png"\] Alt text: Service Configuration.
 
 10. Under the Start menu, select the **Program Folder** to create links for the driver.
 
-    ![ODBC Driver Setup - Select Program Folder.](../image/OdbcStep6.png)
+    \[Omitted image "OdbcStep6.png"\] Alt text: ODBC Driver Setup - Select Program Folder.
 
     The installation creates the following links in the menu:
 
     -   **Interactive SQL \(ODBC\)**: An interactive SQL command window for directly testing SQL statements.
     -   **Management Console**: A Microsoft MMC snap-in for configuring default properties for the ODBC driver.
     -   **ODBC Administrator**: A Microsoft ODBC Administrator program.
-    ![ODBC Program Menu.](../image/OdbcProgramMenu.png)
+    \[Omitted image "OdbcProgramMenu.png"\] Alt text: ODBC Program Menu.
 
     The driver code is copied to the target folder.
 
-    ![ODBC Driver Setup - Start Copying Files.](../image/OdbcStep7.png)
+    \[Omitted image "OdbcStep7.png"\] Alt text: ODBC Driver Setup - Start Copying Files.
 
     A progress bar appears.
 
@@ -111,5 +112,5 @@ If this is the first time that the driver is installed, the installer is in firs
 
 The ODBC driver application is ready for testing.
 
-**Parent Topic:**[Installing the ODBC driver](../concept/c_InstallingTheODBCDriver.md)
+**Parent Topic:**[Installing the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_InstallingTheODBCDriver.md)
 

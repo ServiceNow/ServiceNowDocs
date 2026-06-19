@@ -2,6 +2,7 @@
 title: Customise cost plan form
 description: Manage the fields required on the new cost plan form as per your organization needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/customise-cost-plan-form-fin.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw

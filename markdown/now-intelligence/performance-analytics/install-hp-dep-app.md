@@ -2,6 +2,7 @@
 title: Install the Homepage deprecation help tool
 description: To convert, retire, and restore homepages, install the Homepage deprecation help tool.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/install-hp-dep-app.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -21,7 +22,7 @@ Role required: admin.
 
 ## About this task
 
-The Homepage deprecation help tool is a store app. For more information about installing store apps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallApplications&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+The Homepage deprecation help tool is a store app. For more information about installing store apps, see Install a ServiceNow Store application.
 
 ## Procedure
 
@@ -31,7 +32,7 @@ The Homepage deprecation help tool is a store app. For more information about in
 
     You can search for the application by its name or ID. If you can’t find an application, you may have to request it from the ServiceNow Store.
 
-    ![Application Store search with search string 'deprecation' returning the Homepage deprecation help tool with its install button highlighted.](../image/hp-dep-tool-search.png)
+    \[Omitted image "hp-dep-tool-search.png"\] Alt text: Application Store search with search string 'deprecation' returning the Homepage deprecation help tool with its install button highlighted.
 
 3.  Select the help tool's button to open the summary page for the application.
 

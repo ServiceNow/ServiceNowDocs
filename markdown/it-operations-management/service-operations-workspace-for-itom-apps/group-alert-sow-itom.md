@@ -2,6 +2,7 @@
 title: Create Group automation
 description: Grouping automation helps you manage alerts more effectively by collecting similar alerts together. This makes it easier to see patterns, quickly identify issues, and respond efficiently. By organizing alerts in this way, you can reduce alert noise, identify root causes, and assign them to the appropriate teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/group-alert-sow-itom.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -21,7 +22,7 @@ Role required: evt\_mgmt\_admin, evt\_team\_operator, or srm\_responder
 
 ## About this task
 
-Grouping of this method is most useful when alerts share common data or tags, such as a node or location. You can use fields or tags populated via an enrich automation. It’s the best way to group alerts when your CMDB or service maps are immature. This complements our other grouping algorithms, including alert correlation rules, CMDB, ML, and text-based grouping. Alerts are grouped with their first match, and you can control the priority order of these algorithms via system property. For information on correlation logic order, see [Configure alert correlation logic order](../../event-management/task/configure-alert-correlation-logic-order.md).
+Grouping of this method is most useful when alerts share common data or tags, such as a node or location. You can use fields or tags populated via an enrich automation. It’s the best way to group alerts when your CMDB or service maps are immature. This complements our other grouping algorithms, including alert correlation rules, CMDB, ML, and text-based grouping. Alerts are grouped with their first match, and you can control the priority order of these algorithms via system property. For information on correlation logic order, see [Configure alert correlation logic order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-alert-correlation-logic-order.md).
 
 Alert automation also provides a simulation feature allowing you to test how many alert groups would be formed, how many are left ungrouped, and the compression rate. A higher compression rate means your team will be more productive and may be able to identify root causes faster. However, consider whether the groups are accurate, operationally correct, and assigned to the right teams. You may adjust the group criteria until you are satisfied with the resulting groups.
 
@@ -31,19 +32,23 @@ For users familiar with the classic Event Management experience, this feature of
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the bottom of the navigation pane, select the AIOps configuration center icon ![ITOM AIOps configuration center icon](../../health-log-analytics-admin/image/icon-itom-aiops-config.png).
+2.  From the bottom of the navigation pane, select the AIOps configuration center icon \[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon.
 
     The ITOM AIOps configuration center page appears. The configuration center is a centralized workspace. Use it to configure and manage AIOps features from a single place.
 
 3.  On the ITOM AIOps configuration center page, under the Optimize section, select **Group alerts**
 
-    The Group alerts page is displayed.
+    The Group Alerts page appears. In the Suggested Grouping Automations section, review the suggested automations. If you want to proceed with one, select **Create** on the corresponding automation tile.
 
-    ![Group alerts page opens.](../image/group-automation-page.png)
+    \[Omitted image "group-automation-page.png"\] Alt text: The Group Automation page displays suggested grouping automations.
+
+    If you want to see all suggested automations—including previously suggested and ignored ones—select **View all** in the Suggested Grouping Automations section.
+
+    \[Omitted image "group-automation-recomd-automations.png"\] Alt text: View all suggested grouping automations, including previously suggested and ignored automations.
 
 4.  Select **Create automation**.
 
-    ![Group alerts page opens.](../image/group-automtion-name.png)
+    \[Omitted image "group-automtion-name.png"\] Alt text: Group alerts page opens.
 
 5.  In the **Automation name** field, enter the name of the automation for grouping alerts.
 
@@ -51,7 +56,7 @@ For users familiar with the classic Event Management experience, this feature of
 
 6.  In the **If these conditions are met** section, set up filter criteria to identify the alerts that you want to group.
 
-    ![Group alerts conditions.](../image/group-automation-operator.png)
+    \[Omitted image "group-automation-operator.png"\] Alt text: Group alerts conditions.
 
     1.  From the **Assignment group** field menu, select the assignment group to determine which team’s alerts will trigger the automation.
 
@@ -72,7 +77,7 @@ For users familiar with the classic Event Management experience, this feature of
 
 7.  In the **Then, group alerts by the following criteria** section, perform the following steps.
 
-    ![Alert grouping criteria](../image/group-automation-criteria.png)
+    \[Omitted image "group-automation-criteria.png"\] Alt text: Alert grouping criteria
 
     1.  In the **Grouping timeframe** field, specify the duration \(in minutes\) when alerts must be collected and grouped together.
     2.  In the **Criteria type** menu, select how you want to group the alerts.
@@ -93,7 +98,7 @@ For users familiar with the classic Event Management experience, this feature of
 
         For example, if you have alerts from USA, CA, and USA, NY, and you want to group the alerts by country, you would set the **Source** field to USA. If the **Match Method for Grouping** is a fuzzy match and the **Similarity threshold \(percentage\)** is 50%, then alerts will be grouped if they are at least 50% similar, meaning they share the country "USA" as a common attribute.
 
-    5.  When you select a value for the pattern match method in the grouping field, the **Pattern matching** field becomes visible. Alerts are grouped when the specified pattern matches. For more information, see [Pattern matching](https://www.servicenow.com/docs/access?context=c_PatternMatching&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    5.  When you select a value for the pattern match method in the grouping field, the **Pattern matching** field becomes visible. Alerts are grouped when the specified pattern matches. For more information, see .
 
         Use asterisks \(\*\) in the search string to match any number of characters or a question mark \(?\) to match any single character. Everything else in the search string matches itself. For example, use "HTTP Error 5??" to match all HTTP 500 errors.
 
@@ -120,7 +125,7 @@ For users familiar with the classic Event Management experience, this feature of
         -   **Add condition set**: Adds a new, independent set of conditions.
 9.  In the **Automation details** section, provide an order and automation description.
 
-    ![Alert grouping automation details](../image/group-automation-details.png)
+    \[Omitted image "group-automation-details.png"\] Alt text: Alert grouping automation details
 
     1.  In the **Order** field, enter the automation order.
 
@@ -131,7 +136,7 @@ For users familiar with the classic Event Management experience, this feature of
 
     You can also modify any alert grouping conditions or field values and initiate the process again by selecting **Re-run test**.
 
-    ![Test automation section](../image/group-automation-test.png)
+    \[Omitted image "group-automation-test.png"\] Alt text: Test automation section
 
     The header of the Test Automation section also displays the following: matching alerts, alert groups, ungrouped alerts, and compression.
 
@@ -152,12 +157,12 @@ For users familiar with the classic Event Management experience, this feature of
 
     **Note:** After you save the automation, when you select an automation result and hover over the green dot next to an alert, a tooltip appears explaining its meaning.
 
-    ![A tooltip explaining its meaning of the alert.](../image/group-automation-test-details1.png)
+    \[Omitted image "group-automation-test-details1.png"\] Alt text: A tooltip explaining its meaning of the alert.
 
-    If you select the description, it opens a detailed view with additional information.![A detailed view with additional information.](../image/group-automation-test-details2.png)
+    If you select the description, it opens a detailed view with additional information.\[Omitted image "group-automation-test-details2.png"\] Alt text: A detailed view with additional information.
 
 
 ## What to do next
 
-You can escalate alerts needing quicker responses from teams or individuals by implementing [respond automation](esc-notify-alert-sow-itom.md).
+You can escalate alerts needing quicker responses from teams or individuals by implementing [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/respond-alert-sow-itom.md).
 

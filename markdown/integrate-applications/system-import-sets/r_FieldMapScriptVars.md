@@ -2,6 +2,7 @@
 title: Field map script variables
 description: Several predefined variables are available in the Source script field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/system-import-sets/r\_FieldMapScriptVars.html
 release: zurich
 product: System Import Sets
 classification: system-import-sets
@@ -100,5 +101,5 @@ String
 Contains either the value **insert** or **update**, depending on whether the current target row will be created or updated.**Note:** The *action* variable is available only when the **Coalesce** field is **false**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Importing data using import sets](../concept/c_ImportDataUsingImportSets.md)
+</table>**Parent Topic:**[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
 

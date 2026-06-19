@@ -2,6 +2,7 @@
 title: Set up the Conversational SMS service channel
 description: Configure the Conversational SMS service channel store app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/configure-conversational-sms.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -42,12 +43,12 @@ Role required: admin
 
 8.  On the Presence State - Available screen, select **SMS** in the Available column.
 
-    ![Presence State screen](../image/sms-presence-state-example.png)
+    \[Omitted image "sms-presence-state-example.png"\] Alt text: Presence State screen
 
 9.  Select the right-pointing arrow to move SMS from the Available column to the Selected column.
 
 10. Select **Update**.
 
 
-**Parent Topic:**[Configuring Advanced Work Assignment](installing-awa.md)
+**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

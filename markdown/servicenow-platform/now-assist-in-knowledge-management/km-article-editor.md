@@ -2,6 +2,7 @@
 title: Generate and edit articles using Now Assist in the Knowledge Center article editor
 description: This task explains how to create and improve a knowledge article with the Knowledge center article editor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/now-assist-in-knowledge-management/km-article-editor.html
 release: zurich
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
@@ -19,7 +20,7 @@ This task explains how to create and improve a knowledge article with the Knowle
 
 Role required: admin
 
-Suggested reading: [Edit an article using the Now Assist context menu](Now-Assist-generate-article-using-context-menu.md#).
+Suggested reading: [Edit an article using the Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-using-context-menu.md).
 
 ## Procedure
 
@@ -42,5 +43,5 @@ Suggested reading: [Edit an article using the Now Assist context menu](Now-Assis
     **Note:** The instruction block's content should not include any of the following tags: `img`, `video`, `audio`, `canvas`, `svg`, `iframe`, `script`, `input`, and `button`. Additionally, some elements, when selected on their own, can prevent the Now Assist icon from appearing.
 
 
-**Parent Topic:**[Using Now Assist in Knowledge Management](../concept/using-now-assist-in-km.md)
+**Parent Topic:**[Using Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)
 

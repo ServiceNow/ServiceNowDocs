@@ -2,13 +2,14 @@
 title: Set the purge period for records of exporter executions
 description: Change the default deletion period. By default, records of exporter executions are deleted after a period of three years.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-family/cdm-export-record-purge.html
 release: zurich
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Export a snapshot, Use, DevOps Config, IT Service Management]
+breadcrumb: [Export a snapshot, Using DevOps Config, DevOps Config, IT Service Management]
 ---
 
 # Set the purge period for records of exporter executions

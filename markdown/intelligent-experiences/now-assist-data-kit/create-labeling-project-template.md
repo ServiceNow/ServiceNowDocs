@@ -2,6 +2,7 @@
 title: Create labeling project from template
 description: Templates enable you to create new labeling projects quickly by reusing pre-configured project settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-data-kit/create-labeling-project-template.html
 release: zurich
 product: Now Assist Data Kit
 classification: now-assist-data-kit

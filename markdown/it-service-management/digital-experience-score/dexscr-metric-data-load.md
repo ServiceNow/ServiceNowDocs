@@ -2,6 +2,7 @@
 title: Data collection frequency for DEX Score metrics
 description: Application and device health metrics are collected daily, weekly, and monthly from employees' devices, imported into the ServiceNow instance, and displayed on the Digital Experience Score​ dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-experience-score/dexscr-metric-data-load.html
 release: zurich
 product: Digital Experience Score
 classification: digital-experience-score
@@ -66,5 +67,5 @@ All days of the month
 On 2nd day of the next month.For example, the data for the month of February 2024 is available on the DEX Score dashboard to view on Mar 2, 2024.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Digital Experience Score​ reference](../concept/dexscr-dex-score-reference.md)
+</table>**Parent Topic:**[Digital Experience Score​ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-experience-score/dexscr-dex-score-reference.md)
 

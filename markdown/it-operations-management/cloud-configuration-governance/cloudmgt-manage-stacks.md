@@ -2,6 +2,7 @@
 title: Manage a stack
 description: Use the Stack Details page to view details and status for a stack and to perform life-cycle operations on a stack.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/cloudmgt-manage-stacks.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -33,7 +34,7 @@ Role required: sn\_cmp.cloud\_service\_user
 
     The **Stack Details** page displays the following information:
 
-    ![Stack details](../image/stack-details.png)
+    \[Omitted image "stack-details.png"\] Alt text: Stack details
 
     -   Breadcrumb navigation
     -   Name of the stack. Click **View Dependency** to view the dependency map for the stack, **Manage Stack** to view the resources, properties, and activities of the stack, and **Track Operations** to view the list of lifecycle operations performed on the stack and its resources.
@@ -44,12 +45,12 @@ Role required: sn\_cmp.cloud\_service\_user
         -   Red: Terminated or Error.
     -   List of the stack properties. Some properties are set in the stack request form and others are set by policy
     -   Activities associated with the stack. Click a tab to view:
-        -   Change requests that are associated with the stack. See [Track a change request](cloudmgt-track-change-request.md).
-        -   Incidents that were raised for the stack. See [Submit an incident for a stack](cloudmgt-submit-incident.md) and [Track an incident](cloudmgt-track-incident.md).
-        -   Cloud events that are associated with the stack. Cloud Events appears only when a resource is selected. See [View cloud events](cloudmgt-view-cloud-events.md).
-        -   Catalog tasks associated with the stack. See [Resubmit a failed stack request](../../cloud-management-v2/task/resubmit-failed-request.md).
-        -   Upcoming business hours schedule operations associated with the stack. You can skip an upcoming operation or cancel a schedule associated with the stack. See [Modify business schedule operations for a stack](cloudmgmt-modify-business-schedule.md).
-    -   Operations you can perform on a stack. See [Perform a life-cycle operation on a stack or resource](cloudmgt-lifecycle-operation.md).
+        -   Change requests that are associated with the stack. See [Track a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloudmgt-track-change-request.md).
+        -   Incidents that were raised for the stack. See [Submit an incident for a stack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloudmgt-submit-incident.md) and [Track an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloudmgt-track-incident.md).
+        -   Cloud events that are associated with the stack. Cloud Events appears only when a resource is selected. See [View cloud events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloudmgt-view-cloud-events.md).
+        -   Catalog tasks associated with the stack. See [Resubmit a failed stack request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/resubmit-failed-request.md).
+        -   Upcoming business hours schedule operations associated with the stack. You can skip an upcoming operation or cancel a schedule associated with the stack. See [Modify business schedule operations for a stack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloudmgmt-modify-business-schedule.md).
+    -   Operations you can perform on a stack. See [Perform a life-cycle operation on a stack or resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloudmgt-lifecycle-operation.md).
     -   Text box used to search the Cloud User Portal for stacks, resources based on types, stack requests, change requests, incidents, keys, and catalog items.
 <table id="table-activities"><tbody><tr><td>
 

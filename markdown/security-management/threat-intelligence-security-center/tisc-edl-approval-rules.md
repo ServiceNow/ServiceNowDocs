@@ -2,13 +2,14 @@
 title: Palo Alto EDL Approval Rules
 description: Approval rules allows the users to activate the approval work flow required to approve or reject the EDL entries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-edl-approval-rules.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Palo Alto Networks integration, TISC Security Tools - Firewall, TISC Security Tools Integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Palo Alto Networks integration, Firewall integration, TISC Security Tools Integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Palo Alto EDL Approval Rules
@@ -59,5 +60,5 @@ The TISC admin defines these approval rules to grant consent on the approval req
 5.  Click **Enable** to enable the approval rule.
 
 
-**Parent Topic:**[Palo Alto Networks integration](../concept/palo-alto-networks-integration.md)
+**Parent Topic:**[Palo Alto Networks integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/palo-alto-networks-integration.md)
 

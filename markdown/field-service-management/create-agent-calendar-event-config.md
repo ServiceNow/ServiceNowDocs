@@ -2,7 +2,10 @@
 title: Create an event configuration
 description: Create event configurations to define and manage event types for the team calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/create-agent-calendar-event-config.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -34,15 +37,15 @@ Role required: agent\_schedule\_admin
 
 1.  Navigate to **Agent Schedule** &gt; **Event Configuration** and perform one of the following actions.
 
-<table id="choicetable_v4z_cfp_gfb"><thead><tr><th align="left" id="d141001e131">
+<table id="choicetable_v4z_cfp_gfb"><thead><tr><th align="left" id="d38967e131">
 
 Option
 
-</th><th align="left" id="d141001e134">
+</th><th align="left" id="d38967e134">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d141001e140">
+</th></tr></thead><tbody><tr><td id="d38967e140">
 
 **Create a configuration from an existing event configuration**
 
@@ -53,7 +56,7 @@ Description
 
 A copy of the selected event type configuration is created.
 
-</td></tr><tr><td id="d141001e163">
+</td></tr><tr><td id="d38967e163">
 
 **Create a new event configuration**
 

@@ -2,6 +2,7 @@
 title: Optimization and savings dashboard in workspace
 description: Use the Optimization and savings dashboard to view actual and potential cost savings for your software assets. In addition, view the recommended licensing optimizations for third-party software publishers, including Microsoft, Red Hat, Adobe, and SAP. Use this information to downgrade or reclaim licenses so that you can optimize your licensing costs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/optimization-dashboard-workspace.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -26,12 +27,12 @@ You can access the Optimization and savings dashboard by navigating to **Softwar
 
 View the licensing optimizations for a publisher by selecting the publisher from the **Publisher** drop-down list.
 
--   [Publisher optimizations for SAP](pub-opt-sap.md)
--   [Publisher optimizations for Red Hat](pub-opt-redhat.md)
--   [Publisher optimizations for Microsoft](pub-opt-microsoft.md)
--   [Publisher optimizations for Adobe](pub-opt-adobe.md)
+-   [Publisher optimizations for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/pub-opt-sap.md)
+-   [Publisher optimizations for Red Hat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/pub-opt-redhat.md)
+-   [Publisher optimizations for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/pub-opt-microsoft.md)
+-   [Publisher optimizations for Adobe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/pub-opt-adobe.md)
 
-![Optimization and savings dashboard in Software Asset Workspace.](../image/optimizations-savings-dboard.png "Optimization and savings dashboard")
+\[Omitted image "optimizations-savings-dboard.png"\] Alt text: Optimization and savings dashboard in Software Asset Workspace.
 
 <table id="table_xvt_zjm_qpb"><thead><tr><th>
 

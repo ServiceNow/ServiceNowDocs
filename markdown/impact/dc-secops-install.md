@@ -2,7 +2,10 @@
 title: Install the Data Collection Pack for SecOps
 description: To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/dc-secops-install.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ To enable the Data Collection Pack, you must install dependent plugins and activ
 
 ## Before you begin
 
-The SecOps Success Metric Definitions in this application rely on another applications. Ensure that the required plugins are installed if they are not already installed. For more information, see [Install Impact Value Management Data Collection Content Pack Apps dependent plugins](dc-install-plugins.md).
+The SecOps Success Metric Definitions in this application rely on another applications. Ensure that the required plugins are installed if they are not already installed. For more information, see [Install Impact Value Management Data Collection Content Pack Apps dependent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-install-plugins.md).
 
 Role required: Impact users
 
@@ -31,6 +34,6 @@ Role required: Impact users
 
     -   **Impact VM - SecOps - Monthly Data Collection**
     -   **Impact VM - SecOps - Historical Data Collection**
-    If you're having trouble finding the data collection jobs, check whether the required data collection-dependent plugins are installed correctly. See [Install Impact Value Management Data Collection Content Pack Apps dependent plugins](dc-install-plugins.md).
+    If you're having trouble finding the data collection jobs, check whether the required data collection-dependent plugins are installed correctly. See [Install Impact Value Management Data Collection Content Pack Apps dependent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-install-plugins.md).
 
 

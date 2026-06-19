@@ -2,6 +2,7 @@
 title: Create an asset onboarding process
 description: Create an asset onboarding process to walk you through the process of entering important information for assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/create-asset-onboarding-task-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -17,7 +18,7 @@ Create an asset onboarding process to walk you through the process of entering i
 
 ## Before you begin
 
-The asset onboarding process is a playbook experience that provides an interactive user interface to complete a process. The asset onboarding process is triggered after an onboarding task is created. An onboarding task can be automatically created from the asset request flow or manually created from an asset record. For an overview of the asset onboarding playbook, see [Playbooks for Enterprise Asset Management](../concept/asset-onboarding-eam.md).
+The asset onboarding process is a playbook experience that provides an interactive user interface to complete a process. The asset onboarding process is triggered after an onboarding task is created. An onboarding task can be automatically created from the asset request flow or manually created from an asset record. For an overview of the asset onboarding playbook, see [Playbooks for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/asset-onboarding-eam.md).
 
 Onboarding is available only for preassembled and simple assets. Also, only the parent preassembled asset can be onboarded; not the child preassembled assets.
 
@@ -87,8 +88,8 @@ Substates
     Your asset is successfully onboarded.
 
 
--   **[View an automatically created onboarding task](view-auto-onboard-task.md)**  
+-   **[View an automatically created onboarding task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/view-auto-onboard-task.md)**  
 View an automatically created asset onboarding task.
 
-**Parent Topic:**[Create and manage enterprise assets](../concept/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

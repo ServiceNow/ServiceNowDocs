@@ -2,6 +2,7 @@
 title: Analyze Vendor KPI Groups
 description: After you set up vendor KPI Groups, you can analyze the metrics related to all of your vendors in one location. You can search all vendor-related information such as incidents, outages, improvement initiatives, and vendors and find associated records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/vendor-management-workspace/analyze-vendor-score-metrics-configurable-workspace.html
 release: zurich
 product: Vendor Management Workspace
 classification: vendor-management-workspace
@@ -29,7 +30,7 @@ In workspace, you can sort the list by vendor types and analyze the performance 
 
 2.  Analyze the vendor score.
 
-    For information on how the vendor score is calculated, refer to [Calculating the vendor score](../reference/vendor-manager-workspace-default-wep.md).
+    For information on how the vendor score is calculated, refer to [Calculating the vendor score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/vendor-manager-workspace-default-wep.md).
 
     The color indicator that highlights the vendor score in the header shows you how the vendor is performing based on the set threshold.
 
@@ -56,5 +57,5 @@ In workspace, you can sort the list by vendor types and analyze the performance 
     2.  Click **Browse** and select the desired file to attach to the profile.
     3.  Optionally, you can click the ellipses icon and download, replace, or remove the attachment.
 
-**Parent Topic:**[Managing vendors using Vendor Management Workspace](../concept/using-vendor-management-workspace.md)
+**Parent Topic:**[Managing vendors using Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/using-vendor-management-workspace.md)
 

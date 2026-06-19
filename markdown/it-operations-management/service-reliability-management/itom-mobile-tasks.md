@@ -2,6 +2,7 @@
 title: Working with tasks on mobile
 description: Manage change and catalog tasks on your mobile device using ITOM Mobile Agent. Learn how to respond to issues quickly by viewing, closing, and adding comments to tasks on the go.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-reliability-management/itom-mobile-tasks.html
 release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
@@ -19,16 +20,16 @@ ITOM Mobile Agent auto-integrates with ITSM Mobile Agent, letting you manage ale
 
 ## Manage change tasks
 
--   [Change tasks](https://www.servicenow.com/docs/access?context=change-tasks&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
--   [Overdue changes](https://www.servicenow.com/docs/access?context=overdue-change-mobile&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+-   
+-   
 
 ## Manage catalog tasks
 
-[View catalog tasks](https://www.servicenow.com/docs/access?context=catalog-tasks&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
 
-**Parent Topic:**[Using ITOM Mobile Agent](../concept/use-itom-mobile.md)
 
-**Previous topic:**[Working with On-Call Scheduling on mobile](itom-mobile-on-call-scheduling.md)
+**Parent Topic:**[Using ITOM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/use-itom-mobile.md)
 
-**Next topic:**[ITOM Mobile Agent reference](itom-mobile-settings.md)
+**Previous topic:**[Working with On-Call Scheduling on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/itom-mobile-on-call-scheduling.md)
+
+**Next topic:**[ITOM Mobile Agent reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/itom-mobile-settings.md)
 

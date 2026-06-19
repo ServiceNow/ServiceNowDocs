@@ -2,6 +2,7 @@
 title: Configure the C\#.Net connector
 description: Write and validate custom C\#.Net scripts and execute them as part of your automation by using the C\#.Net connector in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/configure-C-net-connector.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -17,7 +18,7 @@ Write and validate custom C\#.Net scripts and execute them as part of your autom
 
 ## Before you begin
 
-Ensure you have installed the Scripting plugin on the RPA Desktop Design Studio. To install, see [Manage plugins in RPA Desktop Design Studio](install-plugins-rpa-studio.md).
+Ensure you have installed the Scripting plugin on the RPA Desktop Design Studio. To install, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/install-plugins-rpa-studio.md).
 
 Role required: Developer
 
@@ -33,7 +34,7 @@ Role required: Developer
 
 4.  Enter the custom script in the Script pane.
 
-    ![Script pane in Script Editor](../image/cscript-editor.png "Script pane in Script Editor")
+    \[Omitted image "cscript-editor.png"\] Alt text: Script pane in Script Editor
 
 5.  Select **Add Reference** from the **References** tab section if you want to add Dynamic-link library \(DLL\) references to your custom script.
 
@@ -43,7 +44,7 @@ Role required: Developer
 
     If your custom script has any errors, it is displayed in the Errors pane. Resolve the errors and select **Validate** to check for errors again.
 
-    ![Error pane for Script Editor](../image/cscript-error.PNG "Error pane for Script Editor")
+    \[Omitted image "cscript-error.PNG"\] Alt text: Error pane for Script Editor
 
 7.  Click **OK**.
 
@@ -54,5 +55,5 @@ Role required: Developer
 
 The custom script you created by using the C\#.Net connector is now ready to be used in your automation.
 
-**Parent Topic:**[C\#.Net](../concept/c.md)
+**Parent Topic:**[C\#.Net](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/c.md)
 

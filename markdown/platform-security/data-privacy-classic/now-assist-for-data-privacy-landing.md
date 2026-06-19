@@ -2,6 +2,7 @@
 title: Data Privacy for Now Assist
 description: Set up and configure how to discover and anonymize sensitive data from generative AI prompts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-privacy-classic/now-assist-for-data-privacy-landing.html
 release: zurich
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
@@ -19,11 +20,11 @@ Set up and configure how to discover and anonymize sensitive data from generativ
 
 <table id="table_tpg_p4l_ydc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about Data Privacy for Now Assist](explore-now-assist-data-privacy.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Data Privacy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/explore-now-assist-data-privacy.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure Data Privacy for Now Assist](configure-now-assist-data-privacy.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Data Privacy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/configure-now-assist-data-privacy.md)
 
 </td></tr></tbody>
 </table>**Note:** Data Privacy for Now Assist detects and masks sensitive data based on Regex patterns and does not support contextual\(model-type\) data patterns.

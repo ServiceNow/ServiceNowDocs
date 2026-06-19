@@ -2,6 +2,7 @@
 title: Use conversational search for technician support
 description: Ask natural language questions and get quick, accurate answers from the Knowledge Base, including additional information and related steps for effective help, all from the ServiceNow Agent app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/now-assist-for-field-service-management-fsm/use-conversational-search-for-technician-support.html
 release: zurich
 product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm
@@ -31,7 +32,7 @@ You can use natural language processing to pose questions in your own words and 
 
 2.  From quick actions, tap **Ask Now Assist**.
 
-    ![Ask Now Assist](../image/ask-now-assist.png)
+    \[Omitted image "ask-now-assist.png"\] Alt text: Ask Now Assist
 
 3.  In the Now Assist panel, type a question.
 
@@ -46,5 +47,5 @@ You can use natural language processing to pose questions in your own words and 
 7.  Tap the plus icon to begin a new conversation.
 
 
-**Parent Topic:**[Using Now Assist for Field Service Management \(FSM\)](../concept/using-now-assist-fsm.md)
+**Parent Topic:**[Using Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/now-assist-for-field-service-management-fsm/using-now-assist-fsm.md)
 

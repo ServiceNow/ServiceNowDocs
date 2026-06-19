@@ -2,6 +2,7 @@
 title: Risk Management Framework \(RMF\) step 6 - Monitor the approved authorization package
 description: Monitor the approved package to track its status and ensure all activities progress as planned.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/continuous-risk-monitoring/RMF\_step\_6\_monitor.html
 release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -23,7 +24,7 @@ Role required: sn\_irm\_cont\_auth.system\_owner, sn\_irm\_cont\_auth.info\_syst
 
 1.  When the authorization package is approved by the Authorizing Official the authorization package in the Authorization state, transitions to **Monitor**.
 
-    **Note:** In the Monitor state, continuous monitoring is achievable if you have indicators. If not, you can manually review the controls. For more information, see [Manage control indicators](../../grc-policy-and-compliance/concept/manage-indicators-policy-comp.md#).
+    **Note:** In the Monitor state, continuous monitoring is achievable if you have indicators. If not, you can manually review the controls. For more information, see [Manage control indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/manage-indicators-policy-comp.md).
 
 2.  You can monitor the authorization package.
 

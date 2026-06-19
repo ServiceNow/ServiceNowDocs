@@ -2,6 +2,7 @@
 title: Group Filter
 description: Use group filter criteria to filter users based on the user group to which the user belongs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/group-filter.html
 release: zurich
 product: Authentication
 classification: authentication

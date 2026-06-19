@@ -2,6 +2,7 @@
 title: Regenerate the text index for a single record
 description: Update the text search index for a single record. Use this approach to quickly verify whether text indexing is the cause of a search issue without rebuilding the full text index for an entire table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/search-administration/regenerate-text-index-one-record.html
 release: zurich
 product: Search Administration
 classification: search-administration
@@ -23,11 +24,11 @@ Identify the following:
 -   A record containing the identified search term that isn't returned when searching for the term
 -   The table that includes the identified record
 
-The identified table must already be configured for indexing and searching. For details on this configuration process, see [Configure a table for indexing and searching](configure-single-table-for-indexing.md#).
+The identified table must already be configured for indexing and searching. For details on this configuration process, see [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/search-administration/configure-single-table-for-indexing.md).
 
 Role required: admin
 
-**Note:** If the **glide.script\_processor.admin** system property's value has been changed from the default value, you need the role specified by that property value. For details on this property value and its effects, see [Restrict access to background script \[Updated in Security Center 1.3 and 2.0\]](https://www.servicenow.com/docs/access?context=sc-restrict-access-to-background-script&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+**Note:** If the **glide.script\_processor.admin** system property's value has been changed from the default value, you need the role specified by that property value. For details on this property value and its effects, see .
 
 ## About this task
 
@@ -41,9 +42,9 @@ You can use this method to quickly determine whether text indexing is the cause 
 
 2.  Navigate to **All** &gt; **System Definition** &gt; **Scripts - Background**.
 
-    **Note:** If the **glide.script\_processor.admin** system property's value is set to security\_admin, you must elevate to that privileged role to access this module. For more information on elevating privileges, see [Elevated privilege roles](https://www.servicenow.com/docs/access?context=c_ElevatedPrivilege&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+    **Note:** If the **glide.script\_processor.admin** system property's value is set to security\_admin, you must elevate to that privileged role to access this module. For more information on elevating privileges, see .
 
-3.  In the **Run script \(JavaScript executed on server\)** text field, enter the following script, replacing `TABLE_NAME` with the name of the table containing the identified record and `SYS_ID` with the record's sys\_id that you copied in step [1](regenerate-text-index-one-record.md#copy-sys-id-step):
+3.  In the **Run script \(JavaScript executed on server\)** text field, enter the following script, replacing `TABLE_NAME` with the name of the table containing the identified record and `SYS_ID` with the record's sys\_id that you copied in step [1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/search-administration/regenerate-text-index-one-record.md):
 
     ```
     var gr = new GlideRecord('TABLE_NAME');
@@ -66,7 +67,7 @@ The system updates the text index for the specified record in the specified tabl
 
 ## What to do next
 
-Repeat your sample search. If this search returns the identified record, you may want to update the text index for the entire table that contains that record. For details, see [Regenerate a text index for a table](t_RegenerateATextIndexForATable.md).
+Repeat your sample search. If this search returns the identified record, you may want to update the text index for the entire table that contains that record. For details, see [Regenerate a text index for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/search-administration/t_RegenerateATextIndexForATable.md).
 
-**Parent Topic:**[Regenerate a text index for a table](t_RegenerateATextIndexForATable.md)
+**Parent Topic:**[Regenerate a text index for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/search-administration/t_RegenerateATextIndexForATable.md)
 

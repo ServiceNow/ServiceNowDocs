@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP data product process extensions
 description: Use the process extensions in Zero Copy Connector for ERP data products as examples that can be copied to add subflows with business logic to one or more models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erp-canvas-content-pack-process-extensions.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -18,9 +19,9 @@ Use the process extensions in Zero Copy Connector for ERP data products as examp
 
 Process extensions are subflows that can use one or more models. Process extensions enable you to use a model without needing to understand the model details. The process extensions are another abstraction layer on top of the models inside the data product to make the models easier to use.
 
-Process extensions in a data product are read-only examples. To use a process extension, make a copy and edit it within Workflow Studio. For the steps to copy a process extension and add cloned models, see [Using Zero Copy Connector for ERP process extensions](../task/erp-canvas-using-process-extensions.md).
+Process extensions in a data product are read-only examples. To use a process extension, make a copy and edit it within Workflow Studio. For the steps to copy a process extension and add cloned models, see [Using Zero Copy Connector for ERP process extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-using-process-extensions.md).
 
-![Workflow Studio subflows list showing data product process extensions.](../image/erpc-process-extensions-list-ws.png)
+\[Omitted image "erpc-process-extensions-list-ws.png"\] Alt text: Workflow Studio subflows list showing data product process extensions.
 
 ## Process extension example
 
@@ -28,5 +29,5 @@ In this example, there's a model for reading a sales order. You want to determin
 
 A process extension can filter or add data when reading, using the model to find exactly what you are looking for based on the process extension description. So, in the example, instead of reading all sales orders, the process extension finds only the blocked sales orders.
 
-**Parent Topic:**[Zero Copy Connector for ERP data products](erp-canvas-content-packs.md)
+**Parent Topic:**[Zero Copy Connector for ERP data products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md)
 

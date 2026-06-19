@@ -2,6 +2,7 @@
 title: Playbook record generator
 description: Use the playbook record generator to guide a user through the record creation process using a playbook experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/playbook-record-generator-overview.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -21,5 +22,5 @@ Playbook record generator inserts a record generator activity as the first step 
 
 Admins can specify the name of the record generator activity, the form view, and the process definition shown to the user before the record is created. Admins can also optionally configure the declarative action used to submit the form.
 
-**Parent Topic:**[Designing playbooks](playbook-experience-admins.md)
+**Parent Topic:**[Designing playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-experience-admins.md)
 

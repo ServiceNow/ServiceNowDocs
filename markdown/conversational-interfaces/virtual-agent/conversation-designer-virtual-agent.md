@@ -2,12 +2,13 @@
 title: Getting started with Virtual Agent Designer
 description: The Virtual Agent Designer is a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user. You can design topics that help your users resolve common work issues or guide them through self-service tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
 last_updated: "2025-08-06"
-reading_time_minutes: 15
+reading_time_minutes: 16
 keywords: [virtual agent, designer, topic, controls]
 breadcrumb: [Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
@@ -25,22 +26,22 @@ You can also view and manage the following in Virtual Agent Designer:
     Virtual Agent conversations can include subflows and actions if they were made conversational in Workflow Studio or topics that include subflows and actions through the Action utility node.
 
     -   Conversational subflows and actions are available in Virtual Agent Designer only if Now Assist in Virtual Agent has been configured.
-    -   Conversational subflows and actions are also shown in Virtual Agent Designer if the Now Assist Panel is available. For more information on the Virtual Agent Designer Panel, see [Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
-    -   Conversational subflows and actions only appear to users during a conversation if the Subflows and actions skill is turned on in Now Assist Admin. For more information, see [Now Assist in Virtual Agent](../../now-assist-in-va/concept/now-assist-in-va-landing.md).
+    -   Conversational subflows and actions are also shown in Virtual Agent Designer if the Now Assist Panel is available. For more information on the Virtual Agent Designer Panel, see .
+    -   Conversational subflows and actions only appear to users during a conversation if the Subflows and actions skill is turned on in Now Assist Admin. For more information, see [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md).
     **Note:** Conversational subflows and actions are not applicable to the Virtual Agent Designer legacy topic cards page view.
 
 -   Custom skills
 
-    You can view custom skills created in Now Assist Skill Kit through Assistant Designer. For more information, see [Managing custom skills in Assistant Designer Asset library](../concept/managing-custom-skills.md).
+    You can view custom skills created in Now Assist Skill Kit through Assistant Designer. For more information, see [Managing custom skills in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/managing-custom-skills.md).
 
 -   AI agents
 
-    You can view AI agents created in AI Agent Studio through Assistant Designer. For more information, see [Managing AI agents in Assistant Designer](../concept/managing-use-cases-ai-agents.md).
+    You can view AI agents created in AI Agent Studio through Assistant Designer. For more information, see [Managing AI agents in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/managing-use-cases-ai-agents.md).
 
 
 Virtual Agent can use either large language model \(LLM\) or Natural Language Understanding \(NLU\) to match the user's request with the appropriate conversation or topic.
 
-With LLM topic discovery, you can use generative AI through Now Assist in Virtual Agent to match the user's request with the desired conversation or topic. With Now Assist in Virtual Agent, you can test and publish your models from within Virtual Agent Designer. Now Assist in Virtual Agent uses LLMs and generative AI skills to improve deflection rates and reduce the amount of time-consuming work that Natural Language Understanding \(NLU\) topic discovery requires. For more information, see [LLM topic discovery in Virtual Agent](../concept/va-llm.md).
+With LLM topic discovery, you can use generative AI through Now Assist in Virtual Agent to match the user's request with the desired conversation or topic. With Now Assist in Virtual Agent, you can test and publish your models from within Virtual Agent Designer. Now Assist in Virtual Agent uses LLMs and generative AI skills to improve deflection rates and reduce the amount of time-consuming work that Natural Language Understanding \(NLU\) topic discovery requires. For more information, see [LLM topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-llm.md).
 
 With NLU/keyword topic discovery, the topic author associates the topic with an intent within an NLU model. An intent describes what the user wants to achieve. User utterances are matched with intents to determine the most appropriate topic for the user. Associating a topic with a model and intent is called mapping.
 
@@ -48,19 +49,19 @@ If you're using ServiceNow NLU/keyword topic discovery, then Virtual Agent Desig
 
 ## Assistant Designer Asset library
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 When you open Assistant Designer Asset library, you can see all the assets in your instance. These assets include topics, topic blocks, setup topics, small talk topics, custom controls, subflows, actions, and AI agents.
 
-**Note:** Along with small talk topics, you can also set small talk filters to redirect conversations based on unexpected user statements. For more information, see [Configure small talk filters](https://www.servicenow.com/docs/access?context=configure-small-talk-filters&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Note:** Along with small talk topics, you can also set small talk filters to redirect conversations based on unexpected user statements. For more information, see .
 
 On the home page, you can access and edit any of these assets in Virtual Agent Designer, and create topics, topic blocks, setup topics, small talk topics, and custom controls.
 
-![Assistant Designer Asset library page.](../images/vad-home-page-2.png)
+\[Omitted image "vad-home-page-2.png"\] Alt text: Assistant Designer Asset library page.
 
-**Note:** Conversational subflows and actions are available in Virtual Agent Designer if Now Assist in Virtual Agent has been configured. Conversational subflows and actions are also shown in th Assistant Designer Asset library if the Now Assist Panel is available. For more information on the Now Assist Panel, see [Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Note:** Conversational subflows and actions are available in Virtual Agent Designer if Now Assist in Virtual Agent has been configured. Conversational subflows and actions are also shown in th Assistant Designer Asset library if the Now Assist Panel is available. For more information on the Now Assist Panel, see .
 
-You can test and preview active topics to verify that they work as intended. You can also sort and search for topics. When you have many assets, use the search bar ![](../images/search-icon.png) and filter icon ![](../images/filter-icon.png) to quickly organize and find your topics. For more information, see [Assistant Designer Asset library](vad-topics-page.md).
+You can test and preview active topics to verify that they work as intended. You can also sort and search for topics. When you have many assets, use the search bar \[Omitted image "search-icon.png"\] Alt text: and filter icon \[Omitted image "filter-icon.png"\] Alt text: to quickly organize and find your topics. For more information, see [Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-topics-page.md).
 
 Each topic list entry identifies the asset and provides the following information by default:
 
@@ -75,7 +76,7 @@ Each topic list entry identifies the asset and provides the following informatio
 
 When you open a topic, a tab is displayed in the navigation header bar. The topic's name is shown on the tab, and a red dot appears if the topic has unsaved changes. Hover over the tab to view the scope in which the topic was created.
 
-![Topic tab that displays the topic name, saved condition, and application scope.](../images/topic-tab-example.png)
+\[Omitted image "topic-tab-example.png"\] Alt text: Topic tab that displays the topic name, saved condition, and application scope.
 
 When you open a subflow or action, a tab is displayed in the navigation header bar. This tab opens the subflow or action in Workflow Studio within the Assistant Designer environment.
 
@@ -86,11 +87,14 @@ For LLM topics, the **Select assistant** list enables you to filter the assets b
 -   Now Assist in Virtual Agent \(default\)
 -   Now Assist Panel - Platform \(default\)
 
-![Select an assistant.](../images/vad-home-assist-2.png)
+    For the Now Assist Panel - Platform \(default\) assistant, if you want AI agents to be Discoverable, Visible, or Promoted, set the **Value** field in the system property **sn\_aia.enable\_aiagents\_discovery** to **True**. If the **Value** field is set to **False**, then AI agents can't be set as Discoverable, Visible, or Promoted. To enable this property, you must contact ServiceNow support.
 
-You can create new assistants from **Conversational interfaces** &gt; **Assistants**. For more information about creating assistants, see [Create a chat assistant](../../now-assist-in-va/task/create-assistant.md).
 
-For more information about LLM assistants, see [LLM assistants](../../now-assist-in-va/concept/llm-assistants.md).
+\[Omitted image "vad-home-assist-2.png"\] Alt text: Select an assistant.
+
+You can create new assistants from **Conversational interfaces** &gt; **Assistants**. For more information about creating assistants, see [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md).
+
+For more information about LLM assistants, see [LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/llm-assistants.md).
 
 ## Topic properties
 
@@ -98,14 +102,14 @@ Use the topic **Properties** tab to identify a Virtual Agent asset and how it’
 
 Use the **Properties** tab to do the following:
 
--   Specify the name and type of asset, such as [topic](../task/create-virtual-agent-topic.md), [topic block](../concept/topic-blocks-overview.md), [custom control](../concept/custom-controls.md), and so on.
+-   Specify the name and type of asset, such as [topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md), [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/topic-blocks-overview.md), [custom control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/custom-controls.md), and so on.
 -   Specify the model type, purpose of the topic, and which assistants can run this topic for Now Assist customers.
 -   Specify the model type, add a topic description, specify the purpose of the topic, and select which assistants can run this topic for Now Assist customers.
--   Control who uses the topic and [what channels it can run in](../concept/integrate-virtual-agent.md).
--   Associate [live agent variables](live-agent-chat-context-vars.md) with a topic.
+-   Control who uses the topic and [what channels it can run in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/integrate-virtual-agent.md).
+-   Associate [live agent variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/live-agent-chat-context-vars.md) with a topic.
 -   Add keywords to the topic or map the topic to a ServiceNow NLU model and intent.
 
-For more information, see [Topic Properties tab](vad-topic-properties-tab.md).
+For more information, see [Topic Properties tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-topic-properties-tab.md).
 
 ## Topic flow
 
@@ -119,26 +123,26 @@ As you create or update your design, you might find it helpful to switch between
 
 Use the **Flow** tab to do the following:
 
--   Design your topic flow. For more information, see [Design the flow of your topic](../concept/design-va-topic.md).
--   Add script variables. For more information, see [Define script variables for a topic](../task/define-script-variables-topic.md).
--   Add entities to your topic. For more information, see [Use system-derived entities in your topic](../task/use-system-entities-va-topic.md).
--   Add nodeless entities, if you’re creating a topic for [Add nodeless NLU entities to your topic flow](../task/add-nodeless-entities-input-vars.md).
+-   Design your topic flow. For more information, see [Design the flow of your topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/design-va-topic.md).
+-   Add script variables. For more information, see [Define script variables for a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/define-script-variables-topic.md).
+-   Add entities to your topic. For more information, see [Use system-derived entities in your topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/use-system-entities-va-topic.md).
+-   Add nodeless entities, if you’re creating a topic for [Add nodeless NLU entities to your topic flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/add-nodeless-entities-input-vars.md).
 
-For more information, see [Topic Flow tab](vad-topic-flow-tab.md).
+For more information, see [Topic Flow tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-topic-flow-tab.md).
 
 ## NLU model and intent mappings
 
 If you activated NLU on your instance, the **NLU Intent** tab is available for your topics in Virtual Agent Designer. Once you have bound the topic to a model and intent on the **Properties** tab, you can use the **NLU Intent** tab to do the following:
 
--   Review utterances used in your topic. For more information, see [Review and edit utterances and associated entities](../task/modify-nlu-utterances-va-topic.md).
--   Train your NLU models. For more information, see [Train, test, and publish your NLU model](../task/train-test-publish-nlu-model-vad.md).
+-   Review utterances used in your topic. For more information, see [Review and edit utterances and associated entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/modify-nlu-utterances-va-topic.md).
+-   Train your NLU models. For more information, see [Train, test, and publish your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/train-test-publish-nlu-model-vad.md).
 
     Test the topic model with user utterances to see if it triggers the appropriate intent and topic. You can also test entity recognition.
 
 
 **Note:** The virtual\_agent\_admin role includes the nlu\_admin role, which enables topic authors to work on ServiceNow models.
 
-For more information about this tab, see [Topic NLU Intent tab](vad-topic-nlu-intent-tab.md).
+For more information about this tab, see [Topic NLU Intent tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-topic-nlu-intent-tab.md).
 
 ## Topic languages
 
@@ -147,52 +151,52 @@ The **Languages** tab displays the topic's translation status for languages that
 Use the **Languages** tab to do the following:
 
 -   View translation status for activated language plugins.
--   Test your topic with a given language. For more information, see [View and test the topic in a specific language](../task/test-nlu-language-model.md).
--   Edit translations. For more information, see [Edit the topic translations](../task/edit-translations-va-topics.md).
--   Request translations. For more information, see [Request topic translations in additional languages](../task/use-lf-translate-va.md).
--   View and update NLU language and entity mapping. For more information, see [View or modify NLU language mappings and entity mapping](../task/map-nlu-language-model.md).
+-   Test your topic with a given language. For more information, see [View and test the topic in a specific language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/test-nlu-language-model.md).
+-   Edit translations. For more information, see [Edit the topic translations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/edit-translations-va-topics.md).
+-   Request translations. For more information, see [Request topic translations in additional languages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/use-lf-translate-va.md).
+-   View and update NLU language and entity mapping. For more information, see [View or modify NLU language mappings and entity mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/map-nlu-language-model.md).
 
-    For more information, see [NLU model mapping in Virtual Agent Designer](../concept/nlu-model-binding-vad.md).
+    For more information, see [NLU model mapping in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/nlu-model-binding-vad.md).
 
 
-For more information about this tab, see [Topic Languages tab](vad-topic-languages-tab.md).
+For more information about this tab, see [Topic Languages tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-topic-languages-tab.md).
 
--   **[Designing a Virtual Agent topic](../concept/design-va-topic.md)**  
+-   **[Designing a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/design-va-topic.md)**  
 Walk through the design of an example Virtual Agent topic that enables users to view incidents they submitted. The example highlights various design controls that can be used to build the conversation flow.
--   **[Create a Virtual Agent topic](../task/create-virtual-agent-topic.md)**  
+-   **[Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)**  
 Use Virtual Agent Designer to create and modify Virtual Agent topics \(conversations\). Build your topic to meet a specific objective or goal, such as fulfilling a user's request or helping a user complete a task.
--   **[Migrating NLU/keyword Virtual Agent topics to LLM topics](../concept/llm-topic-migration.md)**  
+-   **[Migrating NLU/keyword Virtual Agent topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/llm-topic-migration.md)**  
 The topic migration workflow enables you to migrate your existing Natural Language Understanding \(NLU\)/keyword topics into new large language model \(LLM\) topics.
--   **[Duplicate a Virtual Agent topic](../task/duplicate-virtual-agent-topic.md)**  
+-   **[Duplicate a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/duplicate-virtual-agent-topic.md)**  
 Create a new topic or topic block by copying an existing Virtual Agent topic or topic block and customize it.
--   **[Testing LLM topics](test-llm-topics.md)**  
+-   **[Testing LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/test-llm-topics.md)**  
 Preview, test, and debug topics that use large language models \(LLMs\) in the Virtual Agent Designer chat window.
--   **[Testing NLU/Keyword topics](va-designer-testing.md)**  
+-   **[Testing NLU/Keyword topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-designer-testing.md)**  
 Use the chat test window to preview, test, and debug Natural Language Understanding \(NLU\)/Keyword topics.
--   **[Debug a Virtual Agent topic](virtual-agent-troubleshooting-guide.md)**  
+-   **[Debug a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/virtual-agent-troubleshooting-guide.md)**  
 Investigate and resolve unexpected behavior in your custom Virtual Agent topics, topic blocks, and controls.
--   **[Publish a Virtual Agent topic](../task/publish-virtual-agent-topic.md)**  
+-   **[Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md)**  
 Deploy an inactive topic or an updated topic to save it and make it available to users on Virtual Agent clients.
--   **[Delete a Virtual Agent topic](../task/delete-virtual-agent-topic.md)**  
+-   **[Delete a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/delete-virtual-agent-topic.md)**  
 Delete a Virtual Agent topic that is no longer needed.
--   **[Promote or demote LLM conversational subflows, actions, and topics in Virtual Agent Designer](../task/promote-demote-va-topics.md)**  
+-   **[Promote or demote LLM conversational subflows, actions, and topics in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/promote-demote-va-topics.md)**  
 Promote assets including conversational subflows, conversational actions, and topics in Virtual Agent Designer, after associating them with a large language model \(LLM\) assistant, to have them suggested to the user by the LLM assistant.
--   **[Reorder promoted LLM conversational subflows, actions, and topics](../task/sort-promoted-va-topics.md)**  
+-   **[Reorder promoted LLM conversational subflows, actions, and topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/sort-promoted-va-topics.md)**  
 Rearrange LLM assets like conversational subflows, conversational actions, and topics to the desired order after promoting them for recommendation by the Virtual Agent.
--   **[Conversational settings for Assets in the Asset library](../concept/asset-lib-conv-settings.md)**  
+-   **[Conversational settings for Assets in the Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/asset-lib-conv-settings.md)**  
 Manage asset settings from the Asset library for individual assets.
--   **[Add a condition builder to promoted assets](../task/add-condition-builder-promoted-topics.md)**  
+-   **[Add a condition builder to promoted assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/add-condition-builder-promoted-topics.md)**  
 You can define a condition for a given promoted Virtual Agent topic to bring it higher up on the list of promoted assets in a panel conversation.
--   **[Managing conversational subflows in Assistant Designer](../concept/managing-conversational-subflows.md)**  
+-   **[Managing conversational subflows in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/managing-conversational-subflows.md)**  
 View and manage conversational subflows through Assistant Designer.
--   **[Managing conversational actions in Assistant Designer](../concept/managing-conversational-actions.md)**  
+-   **[Managing conversational actions in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/managing-conversational-actions.md)**  
 View and manage conversational actions through Assistant Designer.
--   **[Managing custom skills in Assistant Designer Asset library](../concept/managing-custom-skills.md)**  
+-   **[Managing custom skills in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/managing-custom-skills.md)**  
 View custom skills through Assistant Designer Asset library.
--   **[Managing AI agents in Assistant Designer](../concept/managing-use-cases-ai-agents.md)**  
+-   **[Managing AI agents in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/managing-use-cases-ai-agents.md)**  
 View AI agents created in AI Agent Studio through Assistant Designer.
--   **[Using AI agents in Virtual Agent topics](../../now-assist-skill-kit/reference/ai-agent-custom-skill.md)**  
+-   **[Using AI agents in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/ai-agent-custom-skill.md)**  
 Use an AI agent custom skill to have it perform a task passed to it, such as compiling info on a KB article.
 
-**Parent Topic:**[Building and deploying Virtual Agent](../concept/using-virtual-agent.md)
+**Parent Topic:**[Building and deploying Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/using-virtual-agent.md)
 

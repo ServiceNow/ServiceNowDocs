@@ -2,6 +2,7 @@
 title: Disable attorney client privilege for legal matter
 description: Disable privileged and confidential status of a legal matter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-matter-management/lmm-acp-disable.html
 release: zurich
 product: Legal Matter Management
 classification: legal-matter-management
@@ -27,19 +28,19 @@ As a fulfiller or matter owner, you can disable attorney client privilege on a l
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Click the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d710676e102">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d677027e102">
 
 Option
 
-</th><th align="left" id="d710676e105">
+</th><th align="left" id="d677027e105">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d710676e111">
+</th></tr></thead><tbody><tr><td id="d677027e111">
 
 **As an assignee**
 
@@ -51,7 +52,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d710676e140">
+</td></tr><tr><td id="d677027e140">
 
 **As a collaborator**
 
@@ -64,11 +65,11 @@ The state of the legal matter updates to Work in Progress.
 </td></tr></tbody>
 </table>4.  Disable Privileged and Confidential status.
 
-    1.  Click the More actions icon \(![More actions icon](../../workplace-central/images/more-actions-move-schedule.png)\).
+    1.  Click the More actions icon \(\[Omitted image "more-actions-move-schedule.png"\] Alt text: More actions icon\).
 
     2.  Select **Remove Privileged and Confidential**.
 
-        ![Disable privleged and confidential](../../legal-request-management/image/lmm-disable-acp.png)
+        \[Omitted image "lmm-disable-acp.png"\] Alt text: Disable privleged and confidential
 
     3.  In the confirmation modal enter work notes and select **Disable**.
 
@@ -81,5 +82,5 @@ The state of the legal matter updates to Work in Progress.
 -   In the Privileged Document Access tab, the document permissions is reset to Public.
 -   Stakeholders are notified of the change.
 
-**Parent Topic:**[Work on a legal matter](work-on-legal-matter-1.md)
+**Parent Topic:**[Work on a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

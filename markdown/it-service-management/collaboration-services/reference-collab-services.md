@@ -2,6 +2,7 @@
 title: Collaboration services reference
 description: Reference topics provide additional information about integrating Slack integration with ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/collaboration-services/reference-collab-services.html
 release: zurich
 product: Collaboration Services
 classification: collaboration-services
@@ -16,8 +17,8 @@ breadcrumb: [Collaboration services, IT Service Management]
 
 Reference topics provide additional information about integrating Slack integration with ServiceNow AI Platform®.
 
--   **[Slack integration - Incident Management](im-slack-collaboration.md)**  
+-   **[Slack integration - Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/im-slack-collaboration.md)**  
 With Slack integration, you can create a dedicated channel for incident responders to collaborate during an incident​ enabling bidirectional integration with slack. You can create and update an incident, view information such as who is on-call for a group or view the list of incidents assigned to you.
 
-**Parent Topic:**[Collaboration services](collab-services-tcm.md)
+**Parent Topic:**[Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/collab-services-tcm.md)
 

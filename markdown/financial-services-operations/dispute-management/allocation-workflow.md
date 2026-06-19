@@ -2,6 +2,7 @@
 title: Allocation workflow overview
 description: The allocation workflow involves the acquirer initiating pre-arbitration and arbitration for fraud and authorization disputes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/allocation-workflow.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -15,7 +16,7 @@ breadcrumb: [Pre-arbitration and arbitration overview, Resolving disputes with V
 
 The allocation workflow involves the acquirer initiating pre-arbitration and arbitration for fraud and authorization disputes.
 
-![Infographic that highlights the pre-arbitration and arbitration process in allocation workflow, which is described in the text following this image.](../image/alloc-arb-pre-arb-workflows.png)
+\[Omitted image "alloc-arb-pre-arb-workflows.png"\] Alt text: Infographic that highlights the pre-arbitration and arbitration process in allocation workflow, which is described in the text following this image.
 
 1.  The issuer creates a dispute for a transaction. The acquirer accepts the dispute on behalf of the merchant and closes the dispute.
 2.  If the acquirer doesn’t accept the dispute, they can file a pre-arbitration with the issuer. The issuer can accept the pre-arbitration and end the dispute.
@@ -24,5 +25,5 @@ The allocation workflow involves the acquirer initiating pre-arbitration and arb
 5.  Visa provides the final ruling. The issuer or acquirer accepts the ruling and the case is closed.
 6.  Either party can appeal the decision if they’re dissatisfied, provided they meet the appeal guidelines from Visa.
 
-**Parent Topic:**[About pre-arbitration and arbitration](pre-arbitration-and-arbitration-overview.md)
+**Parent Topic:**[About pre-arbitration and arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/pre-arbitration-and-arbitration-overview.md)
 

@@ -2,6 +2,7 @@
 title: Add or modify HR survey categories and questions
 description: When an HR survey definition is created, a survey category is automatically added. You can create questions that are associated with this category or define another category for questions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/t\_CreateOrModifyHRSurveyQuestionsIst.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -65,5 +66,5 @@ The following steps describe how to work with survey questions in the Survey Def
     The Survey Definition reopens.
 
 
-**Parent Topic:**[HR surveys](../concept/c_HRSurveysIst.md)
+**Parent Topic:**[HR surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRSurveysIst.md)
 

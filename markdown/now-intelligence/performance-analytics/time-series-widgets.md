@@ -2,6 +2,7 @@
 title: Time series widgets
 description: Time series widgets show changes in an indicator score over time. Different visualizations emphasize the trend in the scores or the scores themselves, and can display one indicator or compare several indicators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/time-series-widgets.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -15,7 +16,7 @@ breadcrumb: [Performance Analytics widgets, Reporting, dashboards, and Performan
 
 Time series widgets show changes in an indicator score over time. Different visualizations emphasize the trend in the scores or the scores themselves, and can display one indicator or compare several indicators.
 
-**Note:** This feature is part of the Core UI front end. It is not supported on Platform Analytics dashboards or UI Builder pages, except to a limited extent when migrated in compatibility mode. To build Platform Analytics components, see [Data visualizations in Platform Analytics](../concept/analytics-center-data-visualizations.md) or [Filters in Platform Analytics](../../par-for-workspace/concept/interactive-filters-workspace.md).
+**Note:** This feature is part of the Core UI front end. It is not supported on Platform Analytics dashboards or UI Builder pages, except to a limited extent when migrated in compatibility mode. To build Platform Analytics components, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-data-visualizations.md) or [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters-workspace.md).
 
 This feature is in maintenance mode and is no longer being augmented or changed. Only security fixes to this feature will be addressed.
 
@@ -47,11 +48,11 @@ Visualizing trends in the scores of an indicator
 
 </td></tr><tr><td>
 
-![Line time series](../../reporting/image/inline-data-vis-96px-line.png)
+\[Omitted image "inline-data-vis-96px-line.png"\] Alt text: Line time series
 
 </td><td>
 
-[Line](../task/create-line-visualization-ts.md)
+[Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-line-visualization-ts.md)
 
 </td><td>
 
@@ -59,11 +60,11 @@ Shows how one or more values change over time by connecting a series of data poi
 
 </td></tr><tr><td>
 
-![Spline time series](../../reporting/image/inline-data-vis-96px-spline.png)
+\[Omitted image "inline-data-vis-96px-spline.png"\] Alt text: Spline time series
 
 </td><td>
 
-[Spline](../task/create-spline-visualization-ts.md)
+[Spline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-spline-visualization-ts.md)
 
 </td><td>
 
@@ -75,11 +76,11 @@ Comparing scores in an indicator
 
 </td></tr><tr><td>
 
-![Column time series](../../reporting/image/inline-data-vis-96px-bar-column.png)
+\[Omitted image "inline-data-vis-96px-bar-column.png"\] Alt text: Column time series
 
 </td><td>
 
-[Column](../task/create-column-visualization-ts.md)
+[Column](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-column-visualization-ts.md)
 
 </td><td>
 
@@ -87,11 +88,11 @@ Shows changes between scores over time by displaying them as proportional vertic
 
 </td></tr><tr><td>
 
-![Step time series](../../reporting/image/inline-data-vis-96px-stepline.png)
+\[Omitted image "inline-data-vis-96px-stepline.png"\] Alt text: Step time series
 
 </td><td>
 
-[Step](../task/create-step-visualization-ts.md)
+[Step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-step-visualization-ts.md)
 
 </td><td>
 
@@ -103,11 +104,11 @@ Comparing scores or trends between indicators
 
 </td></tr><tr><td>
 
-![Stacked column icon](../image/stacked-column-ts.png)
+\[Omitted image "stacked-column-ts.png"\] Alt text: Stacked column icon
 
 </td><td>
 
-[Stacked Column](../task/create-stacked-col-visualization-ts.md)
+[Stacked Column](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-stacked-col-visualization-ts.md)
 
 </td><td>
 
@@ -115,11 +116,11 @@ Each column is divided into a stack of slices representing different indicators.
 
 </td></tr><tr><td>
 
-![Area visualization icon](../image/area-ts-icon.png)
+\[Omitted image "area-ts-icon.png"\] Alt text: Area visualization icon
 
 </td><td>
 
-[Area](../task/create-area-visualization-ts.md)
+[Area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-area-visualization-ts.md)
 
 </td><td>
 
@@ -127,11 +128,11 @@ Resembles a line visualization, but the area between the axis and line is emphas
 
 </td></tr><tr><td>
 
-![Relative compare icon](../image/relative-compare-icon.png)
+\[Omitted image "relative-compare-icon.png"\] Alt text: Relative compare icon
 
 </td><td>
 
-[Relative Compare](../task/create-relative-compare-ts.md)
+[Relative Compare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-relative-compare-ts.md)
 
 </td><td>
 

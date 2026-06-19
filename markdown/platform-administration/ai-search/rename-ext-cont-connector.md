@@ -2,6 +2,7 @@
 title: Rename an external content connector
 description: Change the name of an existing external content connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/rename-ext-cont-connector.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -18,7 +19,7 @@ Change the name of an existing external content connector.
 
 ## Before you begin
 
-Ensure that the external content connector you want to rename is not currently running a crawl.
+Verify that the external content connector you want to rename is not currently running a crawl.
 
 Role required: sn\_ext\_conn.xcc\_admin
 
@@ -30,18 +31,18 @@ Role required: sn\_ext\_conn.xcc\_admin
 
 3.  In the Connectors pane, find the record for the connector you want to deactivate or delete, and open its context menu in one of the following ways:
 
-    -   Select the connector record's Overflow icon ![](../image/icon-action-menu-ext-cont-conn.png).
+    -   Select the connector record's Overflow icon \[Omitted image "icon-action-menu-ext-cont-conn.png"\] Alt text:.
     -   Long-press \(or right-click\) the connector record.
 4.  In the context menu, select **Manage**.
 
     The connector's Configuration tab opens.
 
-5.  Select the pencil icon ![](../image/icon-pencil.png).
+5.  Select the pencil icon \[Omitted image "icon-pencil.png"\] Alt text:.
 
     The Rename connector dialog box appears.
 
 6.  Enter a new name for the connector, then select **Save**.
 
 
-**Parent Topic:**[Configuring External Content Connectors](../concept/configuring-ext-cont-connectors.md)
+**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configuring-ext-cont-connectors.md)
 

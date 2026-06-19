@@ -2,13 +2,14 @@
 title: Credential-less host Discovery
 description: Credential-less host discovery occurs when a scanned host is found to be alive, but not active, or when all configured credential-based classification probes have failed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/credential-less-host-discovery.html
 release: zurich
 product: Discovery
 classification: discovery
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Credential-less Discovery with Nmap, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Credential-less discovery with Nmap, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Credential-less host Discovery
@@ -23,12 +24,12 @@ If the Shazzam probe scans a host that is alive but not active, and if credentia
 
 <table id="table_lbt_4ng_5bb"><tbody><tr><td>
 
-The system creates these entries in the ECC queue during execution of the HorizontalDiscoveryProbe. ![ECC Queue entries created during execution of the HorizontalDiscoveryProbe](../image/ECCQueueCredential-lessDisco.png "Credential-less Discovery")
+The system creates these entries in the ECC queue during execution of the HorizontalDiscoveryProbe. \[Omitted image "ECCQueueCredential-lessDisco.png"\] Alt text: ECC Queue entries created during execution of the HorizontalDiscoveryProbe
 
 </td></tr></tbody>
 </table><table id="table_als_h4g_5bb"><tbody><tr><td>
 
-These log messages are published during execution of the HorizontalDiscoveryProbe.![Log messages during execution of the HorizontalDiscoveryProbe](../image/Credential-lessHostIdentifier.png "Credential-less host identifier")
+These log messages are published during execution of the HorizontalDiscoveryProbe.\[Omitted image "Credential-lessHostIdentifier.png"\] Alt text: Log messages during execution of the HorizontalDiscoveryProbe
 
 </td></tr></tbody>
 </table>## The Nmap command
@@ -37,7 +38,7 @@ The Nmap command executed on the MID Server determines if the host is up. Using 
 
 **Note:** The list of ports that Nmap is configured to scan during credential-less host Discovery is stored in the IP Service \[cmdb\_ip\_service\] table, which is editable. By default, all ports are available for scanning. To block the use of any port for an Nmap scan, set the value in the **Credentialless Discovery \[cl\_discovery\]** column to **false**.
 
-![Configurable list of ports for credential-less Discovery](../image/Credential-lessPortList.png "Credential-less port list")
+\[Omitted image "Credential-lessPortList.png"\] Alt text: Configurable list of ports for credential-less Discovery
 
 ## Creating or updating host CIs
 
@@ -59,7 +60,7 @@ After successful execution of the Credentialless Discovery Network Device patter
 
 The Discovery - IP Based \[com.snc.discovery.ip\_based\] plugin adds an identifier to the Hardware Rule for the Hardware \[cmdb\_ci\_hardware\] base table that matches on the host CI **name** for Nmap scans. The Hardware Rule is used by both credential-based and credential-less Discovery.
 
-![Hardware rule identifier for Credential-less Discovery](../image/Credential-lessHardwareRule.png "Credential-less hardware rule")
+\[Omitted image "Credential-lessHardwareRule.png"\] Alt text: Hardware rule identifier for Credential-less Discovery
 
-**Parent Topic:**[Credential-less Discovery with Nmap](../concept/nmap-credential-less-discovery.md)
+**Parent Topic:**[Credential-less discovery with Nmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/nmap-credential-less-discovery.md)
 

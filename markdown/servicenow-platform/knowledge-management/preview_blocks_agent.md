@@ -2,6 +2,7 @@
 title: Preview a knowledge article with knowledge blocks in Agent Workspace
 description: Preview a knowledge article with knowledge blocks in Agent Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/preview\_blocks\_agent.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management

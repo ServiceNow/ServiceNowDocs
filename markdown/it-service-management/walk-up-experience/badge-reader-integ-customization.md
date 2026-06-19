@@ -2,6 +2,7 @@
 title: Customize badge Reader Integration
 description: Badge Reader Integration includes several scripted extension points for you to customize script includes installed with the feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/walk-up-experience/badge-reader-integ-customization.html
 release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -74,7 +75,7 @@ Extension point used by the BadgeReaderScanProcessor script include.
  Use this frontage to manage the badge scan event.
 
 </td></tr></tbody>
-</table>For complete details about scripted extension points and how to create and use them, refer to [Using extension points to extend application functionality](https://www.servicenow.com/docs/access?context=extension-points&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) and [Creating and adding a scripted extension point](https://www.servicenow.com/docs/access?context=impl-scripted-ext-pts-base-code&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+</table>For complete details about scripted extension points and how to create and use them, refer to Using extension points to extend application functionality and Creating and adding a scripted extension point.
 
-**Parent Topic:**[Walk-up Experience Badge Reader Integration setup and configuration](walkup-badge-read-integ-config.md)
+**Parent Topic:**[Walk-up Experience Badge Reader Integration setup and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walkup-badge-read-integ-config.md)
 

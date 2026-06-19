@@ -2,6 +2,7 @@
 title: Network ping metrics
 description: The following table lists the metrics that are gathered as output from Network ping checks. Entries indicated as Featured metrics are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/network-ping-metrics.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -26,5 +27,5 @@ The following table lists the metrics that are gathered as output from Network p
 |ping.max|ms|Longest amount of time for a series of ping requests on the data packets.|
 |ping.mdev|ms|Mean deviation \(measure of the variability or dispersion\) of the round-trip time \(RTT\) of the packets sent during the ping test.|
 
-**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](agent-policies-checks.md)
+**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-policies-checks.md)
 

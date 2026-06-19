@@ -2,6 +2,7 @@
 title: Place a request
 description: Use ServiceNow's web-based interface for ordering predefined goods and services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/self-service/t\_PlaceARequest.html
 release: zurich
 product: Self-service
 classification: self-service
@@ -25,7 +26,7 @@ Role required: admin
 
     The default catalog view organizes items in categories and subcategories.
 
-    ![Default catalog view](../image/DefaultCatalogView.png "Default catalog view")
+    \[Omitted image "DefaultCatalogView.png"\] Alt text: Default catalog view
 
 2.  Select an item to order.
 
@@ -33,7 +34,7 @@ Role required: admin
 
     The order screen requests any additional information that's needed, such as the requester's name or location and the date the item is needed. It also displays the item's delivery time after approval.
 
-    ![Delivery time](../image/DeliveryTime.png "Delivery time")
+    \[Omitted image "DeliveryTime.png"\] Alt text: Delivery time
 
 3.  Enter complete and accurate information to expedite your order.
 
@@ -43,7 +44,7 @@ Role required: admin
 
     ServiceNow displays a confirmation screen for your order:
 
-    ![Order submitted](../image/OrderSubmitted.png "Order submitted")
+    \[Omitted image "OrderSubmitted.png"\] Alt text: Order submitted
 
     You can view the order's progress in the **Stage** column.
 
@@ -52,5 +53,5 @@ Role required: admin
     ServiceNow automatically notifies the approvers if approval is required and creates work orders to fulfill the order according to your organization's process. For example, if you order a new notebook computer, the purchasing group might receive a work order to order the computer, and the desktop services group might receive a work order to configure the new computer and deliver it to your office after it arrives.
 
 
-**Parent Topic:**[Service catalog requests](../topic/p_ServiceCatalogRequests.md)
+**Parent Topic:**[Service catalog requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/self-service/p_ServiceCatalogRequests.md)
 

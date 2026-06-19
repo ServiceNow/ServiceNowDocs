@@ -2,6 +2,7 @@
 title: Create New AI Issue form
 description: Use the Create New Issue form to identify and manage issues related to the impacted areas for the reported AI case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/ai-risk-management/create-new-ai-issue-form.html
 release: zurich
 product: AI Risk Management
 classification: ai-risk-management
@@ -105,7 +106,7 @@ Workflow state of the issue. This field is automatically set to **Review**. The 
 -   **Closed Complete**
 -   **Closed Incomplete**
 
- For more information on Issue management workflow and life cycle, see [Manage issues](../../grc-common/concept/manage-issues-common-core.md).
+ For more information on Issue management workflow and life cycle, see [Manage issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/manage-issues-common-core.md).
 
 </td></tr><tr><td>
 
@@ -350,5 +351,5 @@ Functional domain
 Functional domain that the issue belongs to. For example, an issue may belong to the AI Risk and Compliance domain.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create an AI issue in the AI Risk and Compliance workspace](../task/create-ai-issue-in-the-ai-risk-and-compliance-workspace.md)
+</table>**Parent Topic:**[Create an AI issue in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/create-ai-issue-in-the-ai-risk-and-compliance-workspace.md)
 

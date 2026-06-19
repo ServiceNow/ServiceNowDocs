@@ -2,6 +2,7 @@
 title: Supported and unsupported fields in Identity Access and Audit
 description: List of fields that are supported and not supported for audit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/allowed-fields-for-audit.html
 release: zurich
 product: Identity
 classification: identity

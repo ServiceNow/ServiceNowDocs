@@ -2,6 +2,7 @@
 title: Record workflow activity
 description: The Record workflow activity records audio from a user on a Notify call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/notify/r\_WorkflowActivityRecord.html
 release: zurich
 product: Notify
 classification: notify
@@ -15,7 +16,7 @@ breadcrumb: [Notify workflow activities, Reference, Notify, Manage service capab
 
 The **Record** workflow activity records audio from a user on a Notify call.
 
-**Note:** The Record workflow activity records Notify call but not the Notify conference call. To record the Notify conference call, you can set the **Record** activity variable on the [Join Conference Call](r_WflowActivJoinConfCall.md) workflow activity.
+**Note:** The Record workflow activity records Notify call but not the Notify conference call. To record the Notify conference call, you can set the **Record** activity variable on the [Join Conference Call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/r_WflowActivJoinConfCall.md) workflow activity.
 
 ## Input Variables
 
@@ -41,5 +42,5 @@ The **record** activity adds the **recording** variable to the workflow scratchp
 |recording.recordingID|The ID used by the telephony provider to identify the recording.|
 |recording.recordingURL|The URL from the telephony provider to access the recording.|
 
-**Parent Topic:**[Notify workflow activities](../concept/c_NotifyActivities.md)
+**Parent Topic:**[Notify workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/c_NotifyActivities.md)
 

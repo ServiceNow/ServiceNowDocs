@@ -2,6 +2,7 @@
 title: Event Management Operator Tutorial
 description: As an Event Management operator, your role is to find alerts, analyze them, and take action to help resolve the underlying issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/operator-guide-em.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -29,7 +30,7 @@ Lesson 1
 
 </td><td>
 
-[An overview of events and alerts](operator-events-alerts.md)
+[An overview of events and alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-events-alerts.md)
 
 </td></tr><tr><td>
 
@@ -37,7 +38,7 @@ Lesson 2
 
 </td><td>
 
-[An overview of application services](operator-application-services.md)
+[An overview of application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-application-services.md)
 
 </td></tr><tr><td>
 
@@ -45,7 +46,7 @@ Lesson 3
 
 </td><td>
 
-[Event Management operator workspaces](operator-user-interfaces.md)
+[Event Management operator workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-user-interfaces.md)
 
 </td></tr><tr><td>
 
@@ -53,19 +54,19 @@ Lesson 4
 
 </td><td>
 
-[What operators do](operator-process.md)
+[What operators do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-process.md)
 
 </td></tr></tbody>
-</table>-   **[An overview of alerts for Event Management operators](operator-events-alerts.md)**  
+</table>-   **[An overview of alerts for Event Management operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-events-alerts.md)**  
 As an Event Management operator, you need to understand how an alert is generated from an event, what to look for in an alert, and how alerts can be grouped together.
--   **[Application services for Event Management operators](operator-application-services.md)**  
+-   **[Application services for Event Management operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-application-services.md)**  
 As an Event Management operator, you need to understand what application services are.
--   **[Event Management operator environment](operator-user-interfaces.md)**  
+-   **[Event Management operator environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-user-interfaces.md)**  
 As an Event Management operator, your primary work environment is the Service Operations Workspace dashboard.
--   **[What Event Management operators do](operator-process.md)**  
+-   **[What Event Management operators do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-process.md)**  
 As an Event Management operator, your typical workflow involves three phases: analyzing an alert and its effect on application services, taking some type of action, and making sure the alert is finally closed.
--   **[Advanced tasks for the Event Management operator](operator-advanced-tasks.md)**  
+-   **[Advanced tasks for the Event Management operator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-advanced-tasks.md)**  
 As an Event Management operator, you might need to perform additional tasks that are outside of your typical workflow, or tasks that you need to perform only once.
 
-**Parent Topic:**[Using Event Management](../../event-management/concept/user-guide.md)
+**Parent Topic:**[Using Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/user-guide.md)
 

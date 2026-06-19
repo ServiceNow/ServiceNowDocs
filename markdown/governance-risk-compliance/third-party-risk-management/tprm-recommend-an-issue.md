@@ -2,6 +2,7 @@
 title: Activate TPRM issue recommendation skill
 description: Activate the TPRM issue recommendation skill from Now Assist for TPRM to generate recommendations for TPRM issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-recommend-an-issue.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -28,7 +29,7 @@ Role required: admin
 
 The recommendation skill helps third-party risk assessors quickly identify issues by generating AI-driven suggestions based on the content of assessment responses. Recommendations simplify the process of associating issues and creating tasks, and are accessible when an external assessment questionnaire has received responses.
 
-To generate meaningful recommendations, data must be available from completed prior assessments and previously created issues. The recommendation skill uses these historical issues, along with their associated questions and responses, as reference data. After recommendations are generated, you can accept or dismiss them individually. For more information, see [Generate issue recommendations for TPRM](create-recommendation-tprm-issue.md).
+To generate meaningful recommendations, data must be available from completed prior assessments and previously created issues. The recommendation skill uses these historical issues, along with their associated questions and responses, as reference data. After recommendations are generated, you can accept or dismiss them individually. For more information, see [Generate issue recommendations for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/create-recommendation-tprm-issue.md).
 
 **Note:** If you want generated issues to be created using historical data for individual third party, you need to navigate to **All** &gt; **System Properties** &gt; **All** select `sn_tprm_genai.same_vendor_required` and set the property to true.
 
@@ -48,7 +49,7 @@ To generate meaningful recommendations, data must be available from completed pr
 
 6.  Review and confirm that the recommendation skill meets your requirements.
 
-    1.  Select **Define access** review or update the conditions when the skill is accessible to users.
+    1.  Select **Define access** to review or update the conditions when the skill is accessible to users.
 
         |Field|Description|
         |-----|-----------|
@@ -89,5 +90,5 @@ sn\_tprm\_genai.nowassist\_user
 
 ## What to do next
 
-You can now use the recommendation for TPRM issues skill. You can generate issue recommendations for questionnaires that are part of an external assessment with responses received. For more information, see [Generate issue recommendations for TPRM](create-recommendation-tprm-issue.md).
+You can now use the recommendation for TPRM issues skill. You can generate issue recommendations for questionnaires that are part of an external assessment with responses received. For more information, see [Generate issue recommendations for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/create-recommendation-tprm-issue.md).
 

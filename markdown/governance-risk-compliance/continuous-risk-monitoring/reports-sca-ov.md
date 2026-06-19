@@ -2,6 +2,7 @@
 title: SCA Overview dashboard
 description: The SCA Overview dashboard enables you to view and manage control assessments as they occur.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/continuous-risk-monitoring/reports-sca-ov.html
 release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -25,7 +26,7 @@ Users with the following roles can access the dashboard:
 
 To open the dashboard, navigate to **All** &gt; **Continuous Authorization &amp; Monitoring** &gt; **Analytics Dashboards** &gt; **SCA Overview**.
 
-![SCA Overview dashboard displaying the different reports.](../image/cam-sca-overview.png)
+\[Omitted image "cam-sca-overview.png"\] Alt text: SCA Overview dashboard displaying the different reports.
 
 ## Reports on the SCA Overview dashboard
 

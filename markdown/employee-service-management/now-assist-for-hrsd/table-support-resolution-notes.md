@@ -2,6 +2,7 @@
 title: Extend table support for resolution notes generation
 description: Extend table support for the resolution notes generation skill to include additional data sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-hrsd/table-support-resolution-notes.html
 release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -25,12 +26,12 @@ Role required: sn\_hr\_core.admin
 
 2.  Select your skill from the **Custom skills** or **ServiceNow skills** tab.
 
-3.  In the Skill contents section, select the Edit Skill Input icon ![](../image/edit-new.png) beside **inputs**.
+3.  In the Skill contents section, select the Edit Skill Input icon \[Omitted image "edit-new.png"\] Alt text: beside **inputs**.
 
 4.  In the **Input table** field, select the table you want to include as a data source.
 
 5.  Select **Save**.
 
 
-**Parent Topic:**[Configure resolution notes generation for Now Assist for HRSD](resolution-notes-nacm-config.md)
+**Parent Topic:**[Configure resolution notes generation for Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/resolution-notes-nacm-config.md)
 

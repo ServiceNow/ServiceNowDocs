@@ -2,6 +2,7 @@
 title: CSDM life-cycle terms
 description: Most ServiceNow products and ServiceNow AI Platform applications align closely with the Common Service Data Model. This table defines terms as they are used across the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/common-service-data-model-csdm/csdm-life-cyle-terms.html
 release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -31,7 +32,7 @@ Most ServiceNow products and ServiceNow AI Platform applications align closely w
     -   **life cycle stage status** is the particular status of a CI within its current life cycle stage.
     For example, a tangible/physical CI in the **Operational** stage might change stage status over time from **In Use** to **In Maintenance** to **End of Support**. A different tangible/physical CI might go from **In Use** to **End of Support** without ever having been in **In Maintenance** status.
 
-    ![Allowed life-cycle values during the Operational stage of a tangible/physical CI's life cycle](../../csdm-implementation/image/csdm-op-stage-of-hw-ci.png)
+    \[Omitted image "csdm-op-stage-of-hw-ci.png"\] Alt text: Allowed life-cycle values during the Operational stage of a tangible/physical CI life cycle
 
 -   **CI legacy values**
 
@@ -63,9 +64,9 @@ The base system includes the life cycle mapping \[life\_cycle\_mapping\] table. 
 
 The table typically contains multiple record entries per class, each entry that maps a specific legacy status to a life-cycle value pair. When there are multiple record entries for a class, the entries are prioritized by importance and likelihood for containing meaningful values for the mapping process. The highest priority rule is used when multiple candidate rules apply.
 
-![Mapping rule that specifies the mapping between a legacy status value and the equivalent CSDM life cycle stage and life cycle stage status values.](../../csdm-implementation/image/csdm-lifecycle-mapping-form-annota.png)
+\[Omitted image "csdm-lifecycle-mapping-form-annota.png"\] Alt text: Mapping rule that specifies the mapping between a legacy status value and the equivalent CSDM life cycle stage and life cycle stage status values.
 
-See [Map legacy status values to CSDM life-cycle values](../concept/csdm-life-cycle-standard-values.md#) and [How life-cycle values for Asset, CI, and IBI are synced](../../csdm-implementation/reference/cmdb-asset-CI-IBI-sync-options.md).
+See [Map legacy status values to CSDM life-cycle values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md) and [How life-cycle values for Asset, CI, and IBI are synced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/cmdb-asset-CI-IBI-sync-options.md).
 
-**Parent Topic:**[CSDM reference](../../csdm-implementation/concept/csdm-content-frame-reference.md)
+**Parent Topic:**[CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
 

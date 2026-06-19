@@ -1,25 +1,24 @@
 ---
 title: Set up checklist for the GRC Mobile application
-description: The following checklist includes the set up tasks that you are required to complete in your ServiceNow AI Platform instance and on your mobile device. Complete these set up tasks prior to using the GRC Mobile application to view the Risk Management application on your mobile device.
+description: The following checklist includes the set up tasks that you're required to complete in your ServiceNow AI Platform instance and on your mobile device. Complete these set up tasks before using the GRC Mobile application to view the Risk Management application on your mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/mobile-setup-risk-app.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-04-30"
 reading_time_minutes: 5
 breadcrumb: [Configure, Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Set up checklist for the GRC Mobile application
 
-The following checklist includes the set up tasks that you are required to complete in your ServiceNow AI Platform® instance and on your mobile device. Complete these set up tasks prior to using the GRC Mobile application to view the Risk Management application on your mobile device.
+The following checklist includes the set up tasks that you're required to complete in your ServiceNow AI Platform® instance and on your mobile device. Complete these set up tasks before using the GRC Mobile application to view the Risk Management application on your mobile device.
 
 ## Before you begin
 
 As an option, print this checklist and use it to guide you through the set up tasks that are required for the GRC Mobile application. Verify that each item on the list is completed so that you can log in to the GRC Mobile application and add a ServiceNow AI Platform instance.
-
-Time to complete this task: 15-20 minutes.
 
 Roles required: admin, sn\_risk.manager
 
@@ -33,7 +32,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-![Checkbox](../../grc-audit-implementation/image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text: Checkbox
 
 </td><td>
 
@@ -41,13 +40,13 @@ As a user with the admin role, verify that you have the GRC core applications in
 
  **Note:** The GRC core applications and the ServiceNow AI Platform instance should be from the same family release.
 
- 1.  To verify the GRC: GRC Profile Dependencies core application is installed on your instance, navigate to **Plugins** and search for GRC Profile.
+ 1.  To verify the GRC: Profile Dependencies core application is installed on your instance, navigate to **Plugins** and search for GRC Profile.
 2.  If the GRC Profile core application is not already installed, click **Install** to install it.
 3.  After the GRC Profile application is installed, install either the Policy and Compliance Management core application, or the Risk Management core application, or both the Policy and Compliance Management and Risk Management applications. These are the two GRC applications that you can view with the GRC Mobile application.
 
  If not visible in your instance, all of the GRC core applications are available from the ServiceNow Store.
 
- For more information about getting entitlement, downloading, and installing the GRC core applications, see [GRC and the ServiceNow Store](../../grc-common/concept/grc-and-store.md).
+ For more information about getting entitlement, downloading, and installing the GRC core applications, see [GRC and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/grc-and-store.md).
 
 When you install the GRC core applications, the dependency plugins for the GRC Mobile application, \(com.glide.sg and com.glide.sg.agent\_native\_client\) are also automatically installed.To verify that these dependency plugins are installed and activated:
 
@@ -57,7 +56,7 @@ When you install the GRC core applications, the dependency plugins for the GRC M
 
 </td></tr><tr><td>
 
-![Checkbox](../../grc-audit-implementation/image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text: Checkbox
 
 </td><td>
 
@@ -65,11 +64,11 @@ As a user with the admin role, verify that you have the GRC mobile app installed
 
  **Note:** The GRC mobile app and the ServiceNow AI Platform instance should be from the same family release.
 
- For more information about getting entitlement, downloading, and installing the GRC Mobile application, see [GRC and the ServiceNow Store](../../grc-common/concept/grc-and-store.md).
+ For more information about getting entitlement, downloading, and installing the GRC Mobile application, see [GRC and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/grc-and-store.md).
 
 </td></tr><tr><td>
 
-![Checkbox](../../grc-audit-implementation/image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text: Checkbox
 
 </td><td>
 
@@ -83,23 +82,21 @@ As a user with the admin role, in your ServiceNow AI Platform instance verify th
 
  **Note:** If you have multiple users for the mobile application, you alternatively can assign the sn\_risk.manager role to a group. Each user you add to the group inherits this role.
 
- For more information on users and assigning roles to users and groups, see [Create a user](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+ For more information on users and assigning roles to users and groups, see Create a user.
 
 </td></tr><tr><td>
 
-![Checkbox](../../grc-audit-implementation/image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text: Checkbox
 
 </td><td>
 
 As a mobile user with the sn\_risk.manager role, verify that you have installed the most current ServiceNow® Agent application on your mobile device.
 
- ![Agent mobile app.](../../../common/image/mobile-vr-agent_app-8182.png "Agent mobile app")
-
  The most current Agent app is available on the Apple iOS App Store and the Google Play Store.
 
 </td></tr><tr><td>
 
-![Checkbox](../../grc-audit-implementation/image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text: Checkbox
 
 </td><td>
 
@@ -112,7 +109,7 @@ As a user with the sn\_risk.manager role, verify notifications are enabled on yo
 1.  Verify you have downloaded and installed the GRC Mobile application on your ServiceNow AI Platform instance.
 2.  In System Settings in your ServiceNow AI Platform instance, under Notifications, verify you have enabled the **ServiceNow Mobile Application**.
 
-For more information about setting notifications, see "User notification preferences in Core UI" on the [Setting notification preferences in Core UI](https://www.servicenow.com/docs/access?context=user-notification-preferences&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For more information about setting notifications, see "User notification preferences in Core UI" on the Setting notification preferences in Core UI.
 
 
  ServiceNow AI Platform notifications are also displayed on the messages screen on your mobile device. Verify that notifications are also enabled in the settings of your mobile device.
@@ -120,5 +117,5 @@ For more information about setting notifications, see "User notification prefere
 </td></tr></tbody>
 </table>You have successfully set up your mobile device and the ServiceNow AI Platform for the GRC Mobile application. The next step is to log in to your ServiceNow AI Platform instance with the ServiceNow Agent app on your mobile device.
 
-**Parent Topic:**[Configuring Risk Management](../concept/configure-risk-mgmt.md)
+**Parent Topic:**[Configuring Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/configure-risk-mgmt.md)
 

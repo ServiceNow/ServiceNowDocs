@@ -2,13 +2,14 @@
 title: Allocate budget to a demand
 description: Set the capital expense \(Capex\) and operating expense \(Opex\) budgets in demand or functional currency according to the fiscal years. The sum of the Capex and Opex budgets is calculated as the total budget in demand currency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/allocate-budget-to-demand-dw.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
 last_updated: "2026-01-19"
 reading_time_minutes: 2
-breadcrumb: [Manage financials for demands, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage financials for demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Allocate budget to a demand
@@ -23,7 +24,7 @@ Role required: portfolio\_manager
 
 1.  Open a demand from the home page of Next Experience for Demand Management.
 
-    For more information, see [Access demands](access-demand-workspace.md).
+    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/access-demand-workspace.md).
 
 2.  Select **Details** from the L-2 \(level 2\) navigation menu.
 
@@ -37,9 +38,9 @@ Role required: portfolio\_manager
     -   To update the details of a demand budget record, select the record.
 5.  On the Create New Project Funding form, fill in the fields.
 
-    **Tip:** You can work on allocating lean budgets at the fiscal period level using the Investment Budget. For more information, see [Enable lean budgeting for demands](../../planning-and-policy/task/config-investment-budget-demand.md).
+    **Tip:** You can work on allocating lean budgets at the fiscal period level using the Investment Budget. For more information, see [Enable lean budgeting for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/config-investment-budget-demand.md).
 
-    For a description of the field names, see [Create project funding form](../reference/demand-budget-form-dw.md).
+    For a description of the field names, see [Create project funding form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/demand-budget-form-dw.md).
 
 6.  Select **Save**.
 

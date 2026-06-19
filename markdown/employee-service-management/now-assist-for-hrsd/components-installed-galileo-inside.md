@@ -2,6 +2,7 @@
 title: Components installed with Now Assist for HR - Galileo Inside
 description: Information about the roles and scheduled jobs that are installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-hrsd/components-installed-galileo-inside.html
 release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -61,5 +62,5 @@ Retrieves data from the Josh Bersin company. The admin first manually executes t
  Subsequently, the system runs the scheduled job monthly to retrieve new data.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference for Now Assist for HR Service Delivery \(HRSD\)](reference-now-assist-hrsd.md)
+</table>**Parent Topic:**[Reference for Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/reference-now-assist-hrsd.md)
 

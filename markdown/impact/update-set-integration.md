@@ -2,7 +2,10 @@
 title: Update set integration
 description: Scans performed on update sets automatically sync from Developer to Production instances defined in My SN Instances once the update set scan is marked complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/update-set-integration.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-11-18"
 reading_time_minutes: 1
@@ -19,13 +22,13 @@ Role required: admin
 
 Register your instances.
 
-See [Register your instance](../task/register-your-instance.md).
+See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/register-your-instance.md).
 
 ## Procedure
 
 1.  Navigate to **ALL** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties**.
 
-    For more information, see [Configure update set scanning properties](../task/update-set-scanning-properties.md).
+    For more information, see [Configure update set scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/update-set-scanning-properties.md).
 
 2.  Select the **Update set scanning** properties tab, and then configure the settings.
 

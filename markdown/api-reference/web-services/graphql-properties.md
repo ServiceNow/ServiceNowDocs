@@ -2,6 +2,7 @@
 title: GraphQL system properties
 description: Configure GraphQL API framework behavior. For example, you can configure whether to allow introspective queries into your schema.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/graphql-properties.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -73,5 +74,5 @@ Enabling this option allows the GraphQL Explorer to show the GraphQL schema in t
 **glide.graphql.introspection\_enabled**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Query record data using the GraphQL API framework](../concept/scripted-graph-ql.md)
+</table>**Parent Topic:**[Query record data using the GraphQL API framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/scripted-graph-ql.md)
 

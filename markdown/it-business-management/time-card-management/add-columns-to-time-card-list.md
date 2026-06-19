@@ -2,6 +2,7 @@
 title: Add columns to the logged time card list
 description: Add columns in the logged time card list on the Time Sheet Portal to show additional information that you might require to log your time cards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/time-card-management/add-columns-to-time-card-list.html
 release: zurich
 product: Time Card Management
 classification: time-card-management
@@ -86,5 +87,5 @@ The following sample code adds the **category** column of the Time Card \[time\_
 }
 ```
 
-**Parent Topic:**[Time Sheet Portal](../concept/worker-portal.md)
+**Parent Topic:**[Time Sheet Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/time-card-management/worker-portal.md)
 

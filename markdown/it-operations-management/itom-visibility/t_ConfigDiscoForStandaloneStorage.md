@@ -2,6 +2,7 @@
 title: Configure SMI-S Provider for storage Discovery
 description: Use this procedure for configuring a standalone storage device with the required SMI-S Provider for Discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/t\_ConfigDiscoForStandaloneStorage.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -25,22 +26,22 @@ Role required: admin
 
     The SMI-S Provider software is often part of the device management software. For more information, download the SMI-S Provider instructions from the storage provider manufacture.
 
-2.  For NetApp storage devices, [install the SMI-S agent](https://www.servicenow.com/docs/access?context=r_CIMCredentialsForm&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) on the storage device host.
+2.  For NetApp storage devices, install the SMI-S agent on the storage device host.
 
-    **Note:** Discovery can also perform native discovery of NetApp servers without accessing the SMI-S server. See [NetApp Server and Cluster discovery](../concept/netapp-discovery.md) for more information.
+    **Note:** Discovery can also perform native discovery of NetApp servers without accessing the SMI-S server. See [NetApp Server and Cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/netapp-discovery.md) for more information.
 
 3.  Start the SMI-S Provider service.
 
 4.  In the SMI-S Provider or agent, configure the **Discovery Interval** with a synchronization rate that allows the wbem probe to receives the most current information during discovery.
 
-5.  On the ServiceNow instance, set up [CIM credentials](https://www.servicenow.com/docs/access?context=r_CIMCredentialsForm&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+5.  On the ServiceNow instance, set up CIM credentials.
 
 6.  Create a Discovery Schedule with the IP addresses of each SMI-S Provider.
 
-7.  Create a [Discovery behavior](../concept/c_DiscoveryBehaviors.md) that uses a functionality definition with a **wbem** port probe to make the initial port-scanning phase \(Shazzam\) more efficient.
+7.  Create a [Discovery behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_DiscoveryBehaviors.md) that uses a functionality definition with a **wbem** port probe to make the initial port-scanning phase \(Shazzam\) more efficient.
 
 8.  Run a basic IP address Discovery.
 
 
-**Parent Topic:**[Storage Discovery via SMI-S and CIM](../reference/r_DataCollDiscoStorageviaSMISCIM.md)
+**Parent Topic:**[Storage Discovery via SMI-S and CIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/r_DataCollDiscoStorageviaSMISCIM.md)
 

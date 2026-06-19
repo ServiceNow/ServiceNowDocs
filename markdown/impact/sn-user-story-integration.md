@@ -2,7 +2,10 @@
 title: Configure instance user story integration
 description: Formally track findings from a non-production environment using Stories in a production instance. To configure ServiceNow instance user story integration, perform the procedure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/sn-user-story-integration.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-11-18"
 reading_time_minutes: 3
@@ -21,7 +24,7 @@ Role required: Scan Engine Admin \(`sn_se.scan_engine_admin`\)
 
 1.  Register your instances.
 
-    See [Register your instance](register-your-instance.md).
+    See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/register-your-instance.md).
 
 2.  Set the **User Story Table**.
 

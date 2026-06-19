@@ -2,6 +2,7 @@
 title: Test the Service Graph Connector for Microsoft Excel
 description: The troubleshooting actions can help resolve common issues when importing your Operational Technology devices or data. Access the System Log to troubleshoot for these errors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-manager/excel-service-graph-connector-troubleshooting.html
 release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -74,7 +75,7 @@ The validation state is set to Pending validation, when the following attributes
 -   Rack Number
 -   Slot Number
 
- For more information about the system properties, see [Review the system properties used by the Service Graph Connector for Microsoft Excel](../task/access-system-properties-used-by-service-graph-connector.md).
+ For more information about the system properties, see [Review the system properties used by the Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/access-system-properties-used-by-service-graph-connector.md).
 
 </td></tr><tr><td>
 
@@ -107,5 +108,5 @@ Only the existing site records in the CMDB are considered.
  If the entity\_name for the site does not match, the value is set to empty.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring the Service Graph Connector for Microsoft Excel](../concept/configuring-service-graph-connector-for-excel.md)
+</table>**Parent Topic:**[Configuring the Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/configuring-service-graph-connector-for-excel.md)
 

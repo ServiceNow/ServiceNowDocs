@@ -2,6 +2,7 @@
 title: Add a dataset
 description: Add the data from a table to a data catalog as a dataset through generative AI by using the Now Assist Data Kit application. Adding a dataset is required to create and publish a data collection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-data-kit/add-dataset.html
 release: zurich
 product: Now Assist Data Kit
 classification: now-assist-data-kit
@@ -76,12 +77,12 @@ Role required: sn\_data\_kit.admin
 
 11. Navigate to the Data governance section and select each check box.
 
-    ![Data governance options for Now Assist Data Kit](../image/nadk-data-governance.png)
+    \[Omitted image "nadk-data-governance.png"\] Alt text: Data governance options for Now Assist Data Kit
 
     -   I'm assuring to use data responsibly for AI Evaluation
     -   Scan for personally identifiable or information sensitive data before creating datasets. You can turn this off if you prefer.
 
-        **Note:** If you opt in, your data is scanned for sensitive data like names or email addresses using [vault service](https://www.servicenow.com/docs/bundle/yokohama-platform-security/page/administer/general/concept/privacy-landing-page.html). After the scan, records will be highlighted and give you an option to anonymize them. You can also choose to scan the dataset after it is generated.
+        **Note:** If you opt in, your data is scanned for sensitive data like names or email addresses using vault service. After the scan, records will be highlighted and give you an option to anonymize them. You can also choose to scan the dataset after it is generated.
 
 12. Select **Generate dataset**.
 

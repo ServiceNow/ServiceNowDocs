@@ -2,6 +2,7 @@
 title: HermesEventPublisherOOB - Scoped
 description: The HermesEventPublisherOOB script include provides methods to publish messages to the Hermes Messaging Service.Returns the message headers associated with the passed message.Returns the partition key associated with the passed message.Returns all Kafka topics that are associated with the passed message.Publishes the passed TMF688-compliant payload using the Hermes Messaging Service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/HermesEventPublishOOBScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,11 +16,11 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The HermesEventPublisherOOB script include provides methods to publish messages to the Hermes Messaging Service.
 
-If you want to change the default functionality of this script include, you need to override the methods contained in this script include in the `HermesEventPublisher` script include. For additional information on overriding the methods in this script include, see [Configure the Producer Event Notification Framework to use the Hermes Messaging Service](../../../../../integrate/guides/ProducerEventNotifFramework/task/prod_evt_not-dev_gd-cfg_herm_bus.md).
+If you want to change the default functionality of this script include, you need to override the methods contained in this script include in the `HermesEventPublisher` script include. For additional information on overriding the methods in this script include, see [Configure the Producer Event Notification Framework to use the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/developer-guides/prod_evt_not-dev_gd-cfg_herm_bus.md).
 
 This script include runs in the `sn_api_notif_mgmt` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## HermesEventPublisherOOB - fetchMessageHeaders\(Object message\)
 
@@ -153,7 +154,7 @@ Returns all Kafka topics that are associated with the passed message.
 
 This method is not implemented in the base implementation, it only returns a static sys\_id. You must override this method in the `HermesEventPublisher` script include and provide logic that determines which Kafka topic or topics to send the passed message to.
 
-For additional information on how to implement this method, see [Configure the Producer Event Notification Framework to use the Hermes Messaging Service](../../../../../integrate/guides/ProducerEventNotifFramework/task/prod_evt_not-dev_gd-cfg_herm_bus.md).
+For additional information on how to implement this method, see [Configure the Producer Event Notification Framework to use the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/developer-guides/prod_evt_not-dev_gd-cfg_herm_bus.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -241,7 +242,7 @@ return topicSysIdsArr
 
 Publishes the passed TMF688-compliant payload using the Hermes Messaging Service.
 
-This is a parent method that calls other methods to publish the event. It is unlikely that you will need to override this method unless you want to change the Kafka publishing mechanism, such as using Workflow Studio instead of using the [ProducerV2](../../ProducerV2/concept/ProducerV2ScopedAPI.md#) API.
+This is a parent method that calls other methods to publish the event. It is unlikely that you will need to override this method unless you want to change the Kafka publishing mechanism, such as using Workflow Studio instead of using the [ProducerV2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ProducerV2ScopedAPI.md) API.
 
 |Name|Type|Description|
 |----|----|-----------|

@@ -2,6 +2,7 @@
 title: Associate related legal requests with a legal matter
 description: Associate one or more legal requests with a legal matter to organize and resolve related requests through a single matter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-matter-management/associate-related-legal-requests-to-matter.html
 release: zurich
 product: Legal Matter Management
 classification: legal-matter-management
@@ -27,19 +28,19 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d473980e105">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d290892e105">
 
 Option
 
-</th><th align="left" id="d473980e108">
+</th><th align="left" id="d290892e108">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d473980e114">
+</th></tr></thead><tbody><tr><td id="d290892e114">
 
 **As an assignee**
 
@@ -51,7 +52,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d473980e143">
+</td></tr><tr><td id="d290892e143">
 
 **As a collaborator**
 
@@ -73,5 +74,5 @@ The state of the legal matter updates to Work in Progress.
 
 The selected legal requests are added to the matter and listed in the **Related Requests** tab.
 
-**Parent Topic:**[Work on a legal matter](work-on-legal-matter-1.md)
+**Parent Topic:**[Work on a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

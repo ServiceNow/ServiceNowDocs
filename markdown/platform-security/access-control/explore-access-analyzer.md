@@ -2,6 +2,7 @@
 title: Explore Access analyzer
 description: Analyze identities on the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/explore-access-analyzer.html
 release: zurich
 product: Access Control
 classification: access-control

@@ -2,6 +2,7 @@
 title: Executive journey view dashboard
 description: Executive-focused dashboard with reports containing information such as the number of employees completing their journeys, SLA breaches, average days to complete journeys, and other metrics executives would be interested in.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/executive-jny-view-dashboard.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -15,7 +16,7 @@ breadcrumb: [Journey designer dashboards and reports, Use, Journey designer, Emp
 
 Executive-focused dashboard with reports containing information such as the number of employees completing their journeys, SLA breaches, average days to complete journeys, and other metrics executives would be interested in.
 
-![Executive journey view dashboard](../image/jny-executive-dashboard.png)
+\[Omitted image "jny-executive-dashboard.png"\] Alt text: Executive journey view dashboard
 
 ## Required ServiceNow AI Platform roles
 
@@ -72,7 +73,7 @@ Overdue journey accelerator tasks
 
 Single score
 
-![](../../../use/reporting/image/inline-data-vis-96px-single-score.png)
+\[Omitted image "inline-data-vis-96px-single-score.png"\] Alt text:
 
 </td><td>
 
@@ -88,7 +89,7 @@ Overdue lifecycle events tasks
 
 </td><td>
 
-Single score ![](../../../use/reporting/image/inline-data-vis-96px-single-score.png)
+Single score \[Omitted image "inline-data-vis-96px-single-score.png"\] Alt text:
 
 </td><td>
 
@@ -104,7 +105,7 @@ Employee journey status
 
 </td><td>
 
-Donut ![](../../../use/reporting/image/inline-data-vis-96px-donut.png)
+Donut \[Omitted image "inline-data-vis-96px-donut.png"\] Alt text:
 
 </td><td>
 
@@ -120,7 +121,7 @@ Service level agreement breached cases
 
 </td><td>
 
-Bar ![](../../../use/reporting/image/inline-data-vis-96px-bar-column.png)
+Bar \[Omitted image "inline-data-vis-96px-bar-column.png"\] Alt text:
 
 </td><td>
 
@@ -136,7 +137,7 @@ Journeys opened each month
 
 </td><td>
 
-Line ![](../../../use/reporting/image/inline-data-vis-96px-line.png)
+Line \[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
 
 </td><td>
 
@@ -152,7 +153,7 @@ Employees onboarding each month
 
 </td><td>
 
-Area ![](../../../use/reporting/image/inline-data-vis-96px-area.png)
+Area \[Omitted image "inline-data-vis-96px-area.png"\] Alt text:
 
 </td><td>
 
@@ -168,7 +169,7 @@ Average number of days to complete a journey
 
 </td><td>
 
-Bar ![](../../../use/reporting/image/inline-data-vis-96px-bar-column.png)
+Bar \[Omitted image "inline-data-vis-96px-bar-column.png"\] Alt text:
 
 </td><td>
 
@@ -254,5 +255,5 @@ Choice
 Displays tasks based on the start date of the employee.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Journey designer dashboards and reports](../reference/jny-report-dashboards.md)
+</table>**Parent Topic:**[Journey designer dashboards and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-report-dashboards.md)
 

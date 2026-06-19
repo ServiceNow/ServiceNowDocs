@@ -2,7 +2,10 @@
 title: Initiate messaging conversations from CSM Configurable Workspace
 description: Compose an SMS message from CSM Configurable Workspace to interact with a customer contact or a consumer regarding customer service cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/agent-init-messg-csm-cws.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 4
@@ -17,8 +20,8 @@ Compose an SMS message from CSM Configurable Workspace to interact with a custom
 
 Ensure that an administrator has completed the following tasks:
 
--   Configured the Agent-Initiated Messaging Interface application. For more information, see [Agent-initiated messaging interface](https://www.servicenow.com/docs/access?context=agent-init-messg-interface&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
--   Configured at least one qualifying messaging channel for the agent-initiated messages. For more information, see [Determine whether messaging channels are available for agent-initiated messages](https://www.servicenow.com/docs/access?context=agent-init-messg-channel-ext-pt&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+-   Configured the Agent-Initiated Messaging Interface application. For more information, see Agent-initiated messaging interface.
+-   Configured at least one qualifying messaging channel for the agent-initiated messages. For more information, see Determine whether messaging channels are available for agent-initiated messages.
 
 Role required: agent\_workspace\_user
 
@@ -34,9 +37,9 @@ Role required: agent\_workspace\_user
 
 4.  On the Details tab of the workspace form, fill in the details for a new interaction or modify the details.
 
-    For more information about the form, see [CSM workspace form features](../../../administer/workspace/reference/csm-agent-workspace-agent-actions.md).
+    For more information about the form, see [CSM workspace form features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-agent-workspace-agent-actions.md).
 
-    **Note:** The user profile associated with an interaction is configured by an administrator by using the sn\_agent\_initiated.AgentInitiatedMessagingUserDocument extension point. The AgentMessagingInteractionUserDocument script include that implements the sn\_agent\_initiated.AgentInitiatedMessagingUserDocument extension point is available for the Agent-Initiated Messaging Interface application. For more information, see [Associate user profiles with agent-initiated messages](https://www.servicenow.com/docs/access?context=agent-init-messg-user-record-ext-pt&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+    **Note:** The user profile associated with an interaction is configured by an administrator by using the sn\_agent\_initiated.AgentInitiatedMessagingUserDocument extension point. The AgentMessagingInteractionUserDocument script include that implements the sn\_agent\_initiated.AgentInitiatedMessagingUserDocument extension point is available for the Agent-Initiated Messaging Interface application. For more information, see Associate user profiles with agent-initiated messages.
 
 5.  Click **Compose Message**.
 
@@ -56,9 +59,9 @@ Channel
 
 </td><td>
 
-Messaging channel that is installed with the application available for a service channel.For example, select **SMS** to send an SMS message. The SMS messaging channel is available when an administrator has installed the [Conversational SMS service channel](https://www.servicenow.com/docs/access?context=install-conversational-sms&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US) application.
+Messaging channel that is installed with the application available for a service channel.For example, select **SMS** to send an SMS message. The SMS messaging channel is available when an administrator has installed the Conversational SMS service channel application.
 
- An administrator can configure whether a messaging channel is available for agent-initiated messages. For more information, see [Determine whether messaging channels are available for agent-initiated messages](https://www.servicenow.com/docs/access?context=agent-init-messg-channel-ext-pt&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+ An administrator can configure whether a messaging channel is available for agent-initiated messages. For more information, see Determine whether messaging channels are available for agent-initiated messages.
 
 </td></tr><tr><td>
 
@@ -66,13 +69,13 @@ To
 
 </td><td>
 
-Recipient ID of the consumer or customer contact, or when both are not available the recipient ID of the user for which the interaction was opened. The recipient ID is pre-populated from the User \[sys\_user\] table record of the consumer, customer contact, or opened for user.If the entered ID is a phone number, it must be an E.164-compliant phone number or is automatically converted to the E.164 format. For more information, see [Phone number fields](https://www.servicenow.com/docs/access?context=c_UsePhoneNumberFields&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Recipient ID of the consumer or customer contact, or when both are not available the recipient ID of the user for which the interaction was opened. The recipient ID is pre-populated from the User \[sys\_user\] table record of the consumer, customer contact, or opened for user.If the entered ID is a phone number, it must be an E.164-compliant phone number or is automatically converted to the E.164 format. For more information, see Phone number fields.
 
- An administrator can configure the format of the recipient ID based on the selected channel and associate user profiles with agent-initiated messages. For more information, see [Validate recipient IDs for agent-initiated messages](https://www.servicenow.com/docs/access?context=agent-init-messg-validate-recipient&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US) and [Associate user profiles with agent-initiated messages](https://www.servicenow.com/docs/access?context=agent-init-messg-user-record-ext-pt&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+ An administrator can configure the format of the recipient ID based on the selected channel and associate user profiles with agent-initiated messages. For more information, see Validate recipient IDs for agent-initiated messages and Associate user profiles with agent-initiated messages.
 
- If you select **Other** from the To list, you can manually enter a ID of the consumer or customer contact. Any manually entered phone number is automatically converted to the E.164 format. For more information, see [Phone number fields](https://www.servicenow.com/docs/access?context=c_UsePhoneNumberFields&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+ If you select **Other** from the To list, you can manually enter a ID of the consumer or customer contact. Any manually entered phone number is automatically converted to the E.164 format. For more information, see Phone number fields.
 
-**Note:** The **Other** list value appears only when an administrator has configured the option to enter recipient ID manually for the messaging channel. For more information, see [Set up agent-initiated message interface for a messaging channel](https://www.servicenow.com/docs/access?context=agent-init-messg-setup&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+**Note:** The **Other** list value appears only when an administrator has configured the option to enter recipient ID manually for the messaging channel. For more information, see Set up agent-initiated message interface for a messaging channel.
 
 </td></tr><tr><td>
 

@@ -2,12 +2,13 @@
 title: Manage interviews
 description: Manage interviews as a recruiter or recruitment coordinator. Update interviews as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/interview-management/manage-interviews-recruiter.html
 release: zurich
 product: Interview Management
 classification: interview-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 3
 breadcrumb: [Use, Interview Management, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 
@@ -35,15 +36,15 @@ You must activate the Interview Management plugin to have access to this functio
 
 6.  From the interview record page, perform any of the following actions.
 
-<table id="choicetable_j1m_phc_bdc"><thead><tr><th align="left" id="d497577e104">
+<table id="choicetable_j1m_phc_bdc"><thead><tr><th align="left" id="d477822e104">
 
 Option
 
-</th><th align="left" id="d497577e107">
+</th><th align="left" id="d477822e107">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d497577e113">
+</th></tr></thead><tbody><tr><td id="d477822e113">
 
 **Update the state**
 
@@ -51,7 +52,7 @@ Action
 
 On the **Details** tab, update the **State** field.
 
-</td></tr><tr><td id="d497577e128">
+</td></tr><tr><td id="d477822e128">
 
 **View the attendee details**
 
@@ -59,7 +60,7 @@ On the **Details** tab, update the **State** field.
 
 On the **Attendees** tab, view the attendee details such as name, role, acceptance status, job title, and type.
 
-</td></tr><tr><td id="d497577e140">
+</td></tr><tr><td id="d477822e140">
 
 **View the interview feedback details**
 
@@ -67,7 +68,7 @@ On the **Attendees** tab, view the attendee details such as name, role, acceptan
 
 On the **Feedback** tab, view the feedback details such as number, state, rating, review comments, interviewer, and interview type.
 
-</td></tr><tr><td id="d497577e152">
+</td></tr><tr><td id="d477822e152">
 
 **Add a feedback record manually, when an interview has happened off the system**
 
@@ -79,7 +80,7 @@ On the **Feedback** tab, select **Add feedback** and then select the **Interview
 -   The due date on the feedback record created is set as seven days from the interview start date by default. An admin can update the **sn\_ta\_hiring\_core.due\_date\_for\_interview\_feedback** property to change the default value.
 
 
-</td></tr><tr><td id="d497577e185">
+</td></tr><tr><td id="d477822e185">
 
 **Send reminder to interviewer to submit feedback**
 
@@ -87,18 +88,18 @@ On the **Feedback** tab, select **Add feedback** and then select the **Interview
 
 From the **Feedback** tab, open the feedback record and select **Send reminder**.**Note:** Feedback reminders are also configured to be sent automatically for one week \(on alternate days\) from the feedback creation date, by default. This default value can be updated using the **sn\_ta\_hiring\_core.due\_date\_for\_interview\_feedback** property.
 
-</td></tr><tr><td id="d497577e205">
+</td></tr><tr><td id="d477822e205">
 
 **Provide interview feedback**
 
 </td><td>
 
-From the **Feedback** tab:-   To provide interview feedback, open the feedback record assigned to you and enter the details, and then select **Submit feedback**. For more information, see [Provide interview feedback](provide-interview-feedback-recruiter.md).
+From the **Feedback** tab:-   To provide interview feedback, open the feedback record assigned to you and enter the details, and then select **Submit feedback**. For more information, see [Provide interview feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/interview-management/provide-interview-feedback-recruiter.md).
 -   To edit a feedback submitted by you, open the feedback record and then select **Edit feedback**.
 -   To indicate that an interview assigned to you didn't happen, open the feedback record and select **Interview incomplete** to enter the corresponding reason and comments.
 
 
-</td></tr><tr><td id="d497577e244">
+</td></tr><tr><td id="d477822e244">
 
 **Reschedule an interview**
 
@@ -112,11 +113,26 @@ From the **Feedback** tab:-   To provide interview feedback, open the feedback r
 3.  Select **Proceed**.
 4.  On the Reschedule interview form, fill in the fields.
 
-For a description of the field values, see [Schedule interview form](../reference/schedule-interview-form.md).
+For a description of the field values, see [Schedule interview form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/interview-management/schedule-interview-form.md).
 
  **Note:** The reschedule count of an interview, and the reason and notes entered during rescheduling are saved in the activity stream of the interview record.
 
-</td></tr><tr><td id="d497577e297">
+</td></tr><tr><td id="d477822e297">
+
+**Substitute an interviewer**
+
+</td><td>
+
+1.  Select **Substitute**.
+2.  Select the **Interviewer** to be substituted.
+3.  Select the **Substitute** interviewer.
+4.  Select a **Substitution reason**.
+5.  Add any **Additional message to substitute**, if needed.
+6.  Select **Notify the interviewer** to let the interviewer know about the substitution.
+7.  Select **Confirm**.
+ A confirmation message is displayed, both interviewers' calendars are updated, an invite is sent to the substitute, and the recruiter, coordinator, hiring manager, and other interviewers are notified. The feedback task is reassigned, and the change is logged in the activity log.
+
+</td></tr><tr><td id="d477822e355">
 
 **Complete an interview**
 
@@ -124,7 +140,7 @@ For a description of the field values, see [Schedule interview form](../referenc
 
 Select **Mark as complete**.
 
-</td></tr><tr><td id="d497577e309">
+</td></tr><tr><td id="d477822e367">
 
 **Mark an interview as no show**
 
@@ -132,7 +148,7 @@ Select **Mark as complete**.
 
 From the Mark as complete list, select **No show**.
 
-</td></tr><tr><td id="d497577e321">
+</td></tr><tr><td id="d477822e380">
 
 **Cancel an interview**
 
@@ -142,5 +158,5 @@ From the Mark as complete list, select **Cancel interview**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Interview Management](../concept/using-interview-mgmnt.md)
+**Parent Topic:**[Using Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/interview-management/using-interview-mgmnt.md)
 

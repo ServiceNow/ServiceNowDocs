@@ -2,6 +2,7 @@
 title: Activate Employee Profile
 description: You can activate the Employee Profile plugin \[sn\_employee\] if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/activate-employee-profile.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -31,11 +32,11 @@ Role required: admin
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
--   **[Components installed with Employee Profile](../reference/installed-with-employee-profile.md)**  
+-   **[Components installed with Employee Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/installed-with-employee-profile.md)**  
 Several types of components are installed with activation of the Employee Profile \[sn\_employee\_profile\] plugin, including tables, user roles, and scheduled jobs.
 
-**Parent Topic:**[Employee Profile table](../concept/employee-profile.md)
+**Parent Topic:**[Employee Profile table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/employee-profile.md)
 

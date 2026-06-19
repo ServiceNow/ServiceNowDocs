@@ -2,6 +2,7 @@
 title: My Safe Workplace
 description: Use the ServiceNow My Safe Workplace page to view all of your information and resources for returning to the workplace. Manage your requirement status for workplace entry, update your health status, track workspace reservations, and create requests for PPE or testing.Add or remove widgets that employees can view on My Safe Workplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-readiness-core/safe-workplace-today.html
 release: zurich
 product: Employee Readiness Core
 classification: employee-readiness-core
@@ -95,7 +96,7 @@ Key resources
 View featured knowledge articles.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Readiness Core](employee-readiness-core.md)
+</table>**Parent Topic:**[Employee Readiness Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-readiness-core/employee-readiness-core.md)
 
 ## Set up My Safe Workplace
 
@@ -136,7 +137,7 @@ If some of these applications are not installed, employees can still use the wid
 
 4.  Adjust the page layout to remove any blank spaces.
 
-    You can also remove any widgets that you don't want to use, or add new widgets. For detailed instructions, see [Create and edit a page using the Service Portal Designer](https://www.servicenow.com/docs/access?context=t_ConfigureAPage&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    You can also remove any widgets that you don't want to use, or add new widgets. For detailed instructions, see Create and edit a page using the Service Portal Designer.
 
 
 ### What to do next

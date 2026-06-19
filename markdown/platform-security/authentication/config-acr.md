@@ -2,6 +2,7 @@
 title: Configure an account recovery user
 description: Configure an account recovery user to perform account recovery activities on your instance.Configure an account recovery from the Account Recovery properties page.Configure an administrator as an account recovery user from the admin user profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/config-acr.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -43,7 +44,7 @@ For an upgraded instance to use ACR, you must do the following:
 
 -   Before enabling SSO property \(`glide.authenticate.multisso.enabled`\), the administrator must enroll as an ACR user.
 
-    **Note:** Setting this property to false will not disable multi-provider SSO if Account Recovery \(ACR\) is also enabled on the instance. To log in with a username and password ACR must also be disabled using the **glide.sso.acr.enabled** property. For details on this property see [Account recovery properties](../reference/acr-properties.md).
+    **Note:** Setting this property to false will not disable multi-provider SSO if Account Recovery \(ACR\) is also enabled on the instance. To log in with a username and password ACR must also be disabled using the **glide.sso.acr.enabled** property. For details on this property see [Account recovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/acr-properties.md).
 
 -   Administrator must set a password for local login and register MFA before enrolling as an ACR user.
 
@@ -51,21 +52,23 @@ For an upgraded instance to use ACR, you must do the following:
 
 1.  Navigate to **All** &gt; **Account Recovery** &gt; **Properties**.
 
-2.  Click **Enable account recovery**.
+2.  Select **Enable account recovery**.
 
     **Note:** You need to enable account recovery when SSO is enable. Account recovery users will be limited to SSO configuration and troubleshooting-related tasks.
 
-3.  Click the **here** text in the Step 2.
+3.  Select the **here** text in the Step 2.
 
-    ![Account recovery warning with a link to account recovery setup](../image/acct-recover-click.png)
+    \[Omitted image "acct-recover-click.png"\] Alt text: Account recovery warning with a link to account recovery setup
 
 4.  Following the on-screen directions in the **Configure account recovery for Multi-SSO** modal.
 
-    ![Configure account recovery for Multi-SSO modal](../image/acct-recover-setup.png)
+    \[Omitted image "acct-recover-setup.png"\] Alt text: Configure account recovery for Multi-SSO modal
 
     After completing the on-screen steps, the **Enable account recovery** is enabled.
 
-5.  Click **Enable account recovery**.
+5.  Select **Enable account recovery**.
+
+6.  Select **Save**.
 
 
 ### Result
@@ -86,11 +89,11 @@ Role required: admin
 
 2.  Click on the user name in the instance header, and select **Profile**.
 
-    ![User profile location](../image/user-profile-1.png)
+    \[Omitted image "user-profile-1.png"\] Alt text: User profile location
 
 3.  In the **User** form, click **Enable Account Recovery** in the **Related Links** section.
 
-    ![User profile location](../image/user-profile-2.png)
+    \[Omitted image "user-profile-2.png"\] Alt text: User profile location
 
     **Note:**
 
@@ -98,7 +101,7 @@ Role required: admin
 
 4.  Following the on-screen directions in the **Configure account recovery for Multi-SSO** modal.
 
-    ![Configure account recovery for Multi-SSO modal](../image/acct-recover-setup.png)
+    \[Omitted image "acct-recover-setup.png"\] Alt text: Configure account recovery for Multi-SSO modal
 
     After completing the on-screen steps, the **Enable account recovery** is enabled.
 

@@ -2,6 +2,7 @@
 title: Cancel a Legal Content Review request
 description: Cancel a Legal Content Review request irrespective of its state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-content-review/cancel-a-legal-cr-request.html
 release: zurich
 product: Legal Content Review
 classification: legal-content-review
@@ -38,5 +39,5 @@ Role required: sn\_lg\_ops.legal\_user
     Any associated active flows are terminated.
 
 
-**Parent Topic:**[Legal Content Review requests](../concept/legal-content-review-requests.md)
+**Parent Topic:**[Legal Content Review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-content-review/legal-content-review-requests.md)
 

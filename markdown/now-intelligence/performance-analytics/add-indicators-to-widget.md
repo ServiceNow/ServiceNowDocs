@@ -2,6 +2,7 @@
 title: Add widget indicators
 description: Add any number of secondary indicators to an existing time series or list widget.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/add-indicators-to-widget.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -23,7 +24,7 @@ Role required: pa\_power\_user or admin
 
 ## About this task
 
-**Note:** This feature is part of the Core UI front end. It is not supported on Platform Analytics dashboards or UI Builder pages, except to a limited extent when migrated in compatibility mode. To build Platform Analytics components, see [Data visualizations in Platform Analytics](../concept/analytics-center-data-visualizations.md) or [Filters in Platform Analytics](../../par-for-workspace/concept/interactive-filters-workspace.md).
+**Note:** This feature is part of the Core UI front end. It is not supported on Platform Analytics dashboards or UI Builder pages, except to a limited extent when migrated in compatibility mode. To build Platform Analytics components, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-data-visualizations.md) or [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters-workspace.md).
 
 This feature is in maintenance mode and is no longer being augmented or changed. Only security fixes to this feature will be addressed.
 
@@ -33,7 +34,7 @@ When you create a list widget, you must either specify an indicator group or add
 
 **Note:** When you include main and widget indicators with different frequencies on a time series widget, be aware of how the widget shows time values on the x-axis. For more information about this behavior, see [KB0755757](https://support.servicenow.com/nav_to.do?uri=%2Fkb%3Fid%3Dkb_article_view%26sys_kb_id%3D9ff78fc4dbc7b38823f4a345ca9619b9).
 
-If the widget follows elements on a breakdown dashboard, the **Show multiple elements as** value applies to both the main widget and any widget indicators. If **Aggregate** is selected but one of the widget indicators does not support the **Aggregate** view, that indicator does not follow the elements on the breakdown dashboard. Instead, the indicator follows any first-level breakdown and element that are set in the widget configuration. The other indicators follow the elements on the breakdown dashboard and show an aggregate of their values. For more information, see [Configure widgets for breakdown dashboards](set-up-widgets-for-breakdown-dashboards.md).
+If the widget follows elements on a breakdown dashboard, the **Show multiple elements as** value applies to both the main widget and any widget indicators. If **Aggregate** is selected but one of the widget indicators does not support the **Aggregate** view, that indicator does not follow the elements on the breakdown dashboard. Instead, the indicator follows any first-level breakdown and element that are set in the widget configuration. The other indicators follow the elements on the breakdown dashboard and show an aggregate of their values. For more information, see [Configure widgets for breakdown dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/set-up-widgets-for-breakdown-dashboards.md).
 
 **Warning:** You cannot have Previous Period Chart and widget indicators on the same time series widget. If you enable Previous Period Chart on a time series that already has widget indicators specified, the widget indicator list is cleared.
 
@@ -47,7 +48,7 @@ When a user selects breakdown elements on a breakdown dashboard, the breakdown a
 
 1.  Either save a widget that you are creating, or open an existing widget for editing.
 
-    You can open a widget either from **Performance Analytics** &gt; **Widgets** or from the dashboard. For more information, see [Edit a responsive dashboard](../../dashboards/task/t_EditADashboard.md).
+    You can open a widget either from **Performance Analytics** &gt; **Widgets** or from the dashboard. For more information, see [Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_EditADashboard.md).
 
 2.  Scroll to the bottom of the form and locate a related list with the label **Widget Indicators**.
 
@@ -79,7 +80,7 @@ Breakdown and Element
 
 Only the scores that match the specified element of this breakdown are shown. Select values for both **Breakdown** and **Element**. Otherwise, only scores that are not associated with any element of the breakdown are shown.
 
- **Note:** If the widget indicator is on a time series widget, you can specify an elements filter instead of a first-level element. See Step [8](add-indicators-to-widget.md#step_elements-filter).
+ **Note:** If the widget indicator is on a time series widget, you can specify an elements filter instead of a first-level element. See Step [8](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/add-indicators-to-widget.md).
 
 </td></tr><tr><td>
 
@@ -99,7 +100,7 @@ Time series
 
 </td><td>
 
-Runs a function on the indicator scores for a specific time period, such as a 7-day sum or average. For more information, see [Applying time series aggregations](../concept/applying-time-series-aggregations.md#).**Note:** Business and fiscal calendars do not support time series aggregations. You cannot set a time series aggregation on a widget for an indicator that uses such a calendar.
+Runs a function on the indicator scores for a specific time period, such as a 7-day sum or average. For more information, see [Applying time series aggregations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/applying-time-series-aggregations.md).**Note:** Business and fiscal calendars do not support time series aggregations. You cannot set a time series aggregation on a widget for an indicator that uses such a calendar.
 
 </td></tr><tr><td>
 
@@ -154,13 +155,13 @@ A custom label for this indicator.
 
         For example, the indicator Number of open incidents uses two breakdowns: Assigned to, and Opened by. Both breakdowns are based on the Users.Active breakdown source. Consider the case where you create a widget for this indicator and you have the widget follow elements on breakdown dashboards. You want the widget to display separate values for the elements of the Assigned to breakdown. Therefore, you select **Assigned to** in the field **Followed breakdown**.
 
-    For more information about breakdown dashboards, see [Using breakdowns on dashboards](../concept/c_SpecialDashboards.md).
+    For more information about breakdown dashboards, see [Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_SpecialDashboards.md).
 
 8.  Time series widgets only: In the **Elements Filter** tab, you can select an element filter to use instead of selecting a first-level element in the **Element** field.
 
-    See [Element filters](../concept/c_BreakdownElementFilters.md#).
+    See [Element filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_BreakdownElementFilters.md).
 
-    Use this approach to personalize which breakdowns are shown depending on the viewer. For more information about using element filters to personalize widgets, see [Personalized visuals](../concept/personalized-visuals.md#).
+    Use this approach to personalize which breakdowns are shown depending on the viewer. For more information about using element filters to personalize widgets, see [Personalized visuals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/personalized-visuals.md).
 
     **Note:** On a dashboard, the names of all the elements that the elements filter passes are appended to the indicator name or label of the widget indicator.
 
@@ -174,7 +175,7 @@ To edit any of these settings later, go to the **Widget Indicators** list and cl
 **Related topics**  
 
 
-[Related lists](https://www.servicenow.com/docs/access?context=c_RelatedLists&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
+[bundle-platux.c_RelatedLists]
 
 [KB0724552: How to Add Secondary Indicators to a Time Series or List Widget](https://support.servicenow.com/nav_to.do?uri=%2Fkb%3Fid%3Dkb_article_view%26sysparm_article%3DKB0724552)
 

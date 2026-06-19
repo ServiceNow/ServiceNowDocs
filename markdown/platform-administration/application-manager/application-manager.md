@@ -2,6 +2,7 @@
 title: Application Manager
 description: Application Manager provides admins the ability to install, update, and manage licensed applications and plugins for their instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/application-manager/application-manager.html
 release: zurich
 product: Application Manager
 classification: application-manager
@@ -15,41 +16,35 @@ breadcrumb: [Administering applications, Get started, Administer]
 
 Application Manager provides admins the ability to install, update, and manage licensed applications and plugins for their instance.
 
-Application Manager Overview
-
 ## Get started
 
-<table id="table_w4z_j5y_chc" class="nav-card"><tbody><tr><td>
+<table id="table_wz4_wn5_5zb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Explore how Application Manager can help you manage your licensed applications in one convenient location.](exploring-application-manager.md)
-
-</td><td>
-
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Change default behaviors of the Application Manager if desired. The Application Manager is active by default.](configuring-app-manager.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore how Application Manager can help you manage your licensed applications in one convenient location.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/application-manager/exploring-application-manager.md)
 
 </td><td>
 
-[Manage Now Assist applications![](../../../reuse/icons/brand-icons/bus-artificial-intelligence.svg)Install and update Now Assist applications with suites of compatible versions.](now-assist-app-mgr.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Change default behaviors of the Application Manager if desired. The Application Manager is active by default.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/application-manager/configuring-app-manager.md)
 
 </td></tr><tr><td>
 
-[Install![](../../../use/par-for-workspace/image/BUS_64px_Agent-Workspace-1_YG.png)Use Application Manager to install applications, plugins, and products to your instance.](installing-apps-app-manager.md)
+[Install\[Omitted image "BUS\_64px\_Agent-Workspace-1\_YG.png"\] Alt text:Use Application Manager to install applications, plugins, and products to your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/application-manager/installing-apps-app-manager.md)
 
 </td><td>
 
-[Update![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Use Application Manager to update one or more applications or plugins in your instance.](updating-apps-app-manager.md)
-
-</td><td>
-
-[Uninstall![](../../../reuse/icons/brand-icons/bus-back.svg)Use Application Manager to uninstall applications that you don't need anymore.](uninstalling-apps-app-manager.md)
+[Update\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Application Manager to update one or more applications or plugins in your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/application-manager/updating-apps-app-manager.md)
 
 </td></tr><tr><td>
 
-[Repair![](../../../reuse/icons/brand-icons/bus-optimize-manage.svg)Repair applications and plugins to revert accidental changes and repair file corruption that's occurred since installation.](repairing-apps-app-manager.md)
+[Uninstall\[Omitted image "bus-back.svg"\] Alt text:Use Application Manager to uninstall applications that you don't need anymore.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/application-manager/uninstalling-apps-app-manager.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Find information about Application Manager status indicators.](../reference/app-mgr-reference.md)
+[Repair\[Omitted image "bus-optimize-manage.svg"\] Alt text:Repair applications and plugins to revert accidental changes and repair file corruption that's occurred since installation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/application-manager/repairing-apps-app-manager.md)
+
+</td></tr><tr><td>
+
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Find information about Application Manager status indicators.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/application-manager/app-mgr-reference.md)
 
 </td><td>
 

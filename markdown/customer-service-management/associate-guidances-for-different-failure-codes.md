@@ -2,7 +2,10 @@
 title: Associate guidances for different failure codes
 description: Associate guidances to paths with different failure code conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/associate-guidances-for-different-failure-codes.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ Role required: admin, sn\_gd\_core.decision\_tree\_author
 
 ## About this task
 
-![Failure code nodes](../image/ex-associate-guidances-failure-codes.png)
+\[Omitted image "ex-associate-guidances-failure-codes.png"\] Alt text: Failure code nodes
 
 ## Procedure
 
@@ -35,7 +38,7 @@ Role required: admin, sn\_gd\_core.decision\_tree\_author
 
     4.  In the **Guidance** field, select the Reassign case guidance.
 
-    5.  In the **Set more field inputs to show to users** section, map inputs by selecting the Link input icon \(![Link input icon](../image/icon-link-input.png)\) next to the field and selecting a guidance input from the list.
+    5.  In the **Set more field inputs to show to users** section, map inputs by selecting the Link input icon \(\[Omitted image "icon-link-input.png"\] Alt text: Link input icon\) next to the field and selecting a guidance input from the list.
 
     6.  Select **Save and close**.
 
@@ -51,7 +54,7 @@ Role required: admin, sn\_gd\_core.decision\_tree\_author
 
     4.  In the **Guidance** field, select the Create work order guidance.
 
-    5.  In the **Set more field inputs to show to users** section, map inputs by selecting the Link input icon \(![Link input icon](../image/icon-link-input.png)\) next to the field and selecting a guidance input from the list.
+    5.  In the **Set more field inputs to show to users** section, map inputs by selecting the Link input icon \(\[Omitted image "icon-link-input.png"\] Alt text: Link input icon\) next to the field and selecting a guidance input from the list.
 
     6.  Select **Save and close**.
 
@@ -67,12 +70,12 @@ Role required: admin, sn\_gd\_core.decision\_tree\_author
 
     4.  In the **Guidance** field, select the Assign IT technician guidance.
 
-    5.  In the **Set more field inputs to show to users** section, map inputs by selecting the Link input icon \(![Link input icon](../image/icon-link-input.png)\) next to the field and selecting a guidance input from the list.
+    5.  In the **Set more field inputs to show to users** section, map inputs by selecting the Link input icon \(\[Omitted image "icon-link-input.png"\] Alt text: Link input icon\) next to the field and selecting a guidance input from the list.
 
     6.  Select **Save and close**.
 
 
 ## Result
 
-![Failure code nodes displaying a process flowchart that involves asking for failure codes and branching into three distinct paths based on the code provided.](../image/ex-failure-code-guidances-result.png)
+\[Omitted image "ex-failure-code-guidances-result.png"\] Alt text: Failure code nodes displaying a process flowchart that involves asking for failure codes and branching into three distinct paths based on the code provided.
 

@@ -2,6 +2,7 @@
 title: Incident email notifications
 description: Use Operational Technology \(OT\) incident email notifications to alert users when changes are made to an incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-incident-management/ot-incident-notifications.html
 release: zurich
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -208,5 +209,5 @@ Subject: &lt;Incident \#&gt; - State changed
  URL to the incident
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Operational Technology Incident Management](../concept/using-operational-technology-incident-mgt.md)
+</table>**Parent Topic:**[Using Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-incident-management/using-operational-technology-incident-mgt.md)
 

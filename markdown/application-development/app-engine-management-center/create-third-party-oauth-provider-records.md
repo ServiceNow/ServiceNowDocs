@@ -2,6 +2,7 @@
 title: Create third-party OAuth provider records
 description: Create third-party OAuth provider records to enable each of your instances to access the API endpoints you've created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-management-center/create-third-party-oauth-provider-records.html
 release: zurich
 product: App Engine Management Center
 classification: app-engine-management-center
@@ -17,7 +18,7 @@ Create third-party OAuth provider records to enable each of your instances to ac
 
 ## Before you begin
 
-Complete the tasks in [Create OAuth API endpoints for external clients](create-oauth-api-endpoints-for-external-clients.md).
+Complete the tasks in [Create OAuth API endpoints for external clients](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/create-oauth-api-endpoints-for-external-clients.md).
 
 In the top right corner of your instance, make sure you set the application scope to **Global**.
 
@@ -30,8 +31,6 @@ Role required: admin
 1.  On your production instance, navigate to **All** &gt; **System OAuth** &gt; **Application Registry**.
 
     You must create three records here, one for each of the three instances \(development, test, and production\). If you have any additional non-production instances \(staging, and the like\), create a record for each of those following the method shown here.
-
-    Demonstration of how to create the first three records on your production instance
 
 2.  Select **New**.
 
@@ -276,8 +275,6 @@ For example: `https://<production instance name>.service-now.com/oauth_token.do`
 
 17. On your development instance, navigate to **All** &gt; **System OAuth** &gt; **Application Registry**.
 
-    Demonstration of how to create records for your production instance on both your development and test instances
-
 18. Select **New**.
 
 19. Select **Connect to a third party OAuth Provider** to create a record for your production instance.
@@ -437,5 +434,5 @@ For example: `https://<production instance name>.service-now.com/oauth_token.do`
 
 ## What to do next
 
-Now that you’ve completed the pre-work for using OAuth, complete all the steps in [Use OAuth to create pipeline credentials](use-oauth-to-create-pipeline-credentials.md) on the specified instances.
+Now that you’ve completed the pre-work for using OAuth, complete all the steps in [Use OAuth to create pipeline credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/use-oauth-to-create-pipeline-credentials.md) on the specified instances.
 

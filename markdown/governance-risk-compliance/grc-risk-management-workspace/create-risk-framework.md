@@ -2,6 +2,7 @@
 title: Create a risk framework in the Risk Workspace
 description: Create risk frameworks to group risk statements into manageable categories and generate risks. After the risks are generated, you can identify methods to mitigate them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/create-risk-framework.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -88,15 +89,15 @@ Additional information for this risk framework.
 
 6.  To add risk statements, click the Risk Statements related list and do one of the following.
 
-<table id="choicetable_tsm_t3y_qpb"><thead><tr><th align="left" id="d222741e219">
+<table id="choicetable_tsm_t3y_qpb"><thead><tr><th align="left" id="d54133e219">
 
 Choice
 
-</th><th align="left" id="d222741e222">
+</th><th align="left" id="d54133e222">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d222741e228">
+</th></tr></thead><tbody><tr><td id="d54133e228">
 
 **To add an existing risk statement**
 
@@ -107,7 +108,7 @@ Steps
 3.  Click **Add**.
 
 
-</td></tr><tr><td id="d222741e254">
+</td></tr><tr><td id="d54133e254">
 
 **To create a risk statement**
 
@@ -116,7 +117,7 @@ Steps
 1.  Click **New**.
 2.  Select the risk statement and fill in the form.
 
-For more information, see [Create a risk statement in the Risk Workspace](create-risk-stmt-workspace.md).
+For more information, see [Create a risk statement in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/create-risk-stmt-workspace.md).
 
 3.  Click **Add**.
 
@@ -127,8 +128,8 @@ For more information, see [Create a risk statement in the Risk Workspace](create
 
 The new risk framework is created.
 
--   **[Create a risk statement in the Risk Workspace](create-risk-stmt-workspace.md)**  
+-   **[Create a risk statement in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/create-risk-stmt-workspace.md)**  
 Create risk statements to group risks into manageable categories.
 
-**Parent Topic:**[Using the Risk Workspace](../concept/using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

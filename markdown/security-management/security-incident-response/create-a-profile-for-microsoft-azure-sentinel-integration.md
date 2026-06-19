@@ -2,6 +2,7 @@
 title: Create a profile for Microsoft Azure Sentinel
 description: Create an incident profile in your ServiceNow AI Platform instance and determine the Microsoft Azure Sentinel incidents that are suitable for creating security incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/create-a-profile-for-microsoft-azure-sentinel-integration.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

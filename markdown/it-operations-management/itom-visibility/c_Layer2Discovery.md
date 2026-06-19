@@ -2,6 +2,7 @@
 title: Layer 2 discovery
 description: Discovery can detect the physical connections, known as layer 2, between network devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/c\_Layer2Discovery.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -19,9 +20,9 @@ Discovery can detect the physical connections, known as layer 2, between network
 
 Discovery uses multiple probes to gather information about network adapters and their Layer 2 connections. The following diagram shows the probes that Discovery launches for network Discovery, including those used for Layer 2 Discovery.
 
-![Layer 2 probes](../image/Layer2DiscoveryProbesDiagram.png)
+\[Omitted image "Layer2DiscoveryProbesDiagram.png"\] Alt text: Layer 2 probes
 
-For example, if Discovery finds a switch in a network, it triggers the **SNMP - Switch - Vlan** probe and the **SNMP - Network - ARPTable** probe. For every Vlan that Discovery finds, it triggers various switch probes. If a switch has routing capabilities, Discovery triggers the **SNMP - Routing** probe to collect network adapter information in the Network Adapter \[cmdb\_ci\_network\_adapter\] table. If Discovery finds a server, it triggers the appropriate Address Resolution Protocol \(ARP\) probe for that operating system. Discovery also supports the use of patterns, such as the **Network Switch** and **Network Router** patterns, which are available by default in Discovery. See [Network switch and router discovery](../reference/r_DataCollDiscoNWRouteAndSwitch.md) for more information.
+For example, if Discovery finds a switch in a network, it triggers the **SNMP - Switch - Vlan** probe and the **SNMP - Network - ARPTable** probe. For every Vlan that Discovery finds, it triggers various switch probes. If a switch has routing capabilities, Discovery triggers the **SNMP - Routing** probe to collect network adapter information in the Network Adapter \[cmdb\_ci\_network\_adapter\] table. If Discovery finds a server, it triggers the appropriate Address Resolution Protocol \(ARP\) probe for that operating system. Discovery also supports the use of patterns, such as the **Network Switch** and **Network Router** patterns, which are available by default in Discovery. See [Network switch and router discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/r_DataCollDiscoNWRouteAndSwitch.md) for more information.
 
 During the discovery of a network device, Discovery creates records in the Router Interface \[dscy\_router\_interface\] table and the Switchport \[dscy\_switchport\] table. This information contains network adapter information for that device. For SNMP-enabled devices, Discovery gathers the information from a routing probe during the exploration phase. The Layer 2 protocol cache probe runs next to collect neighbor data from the device.
 
@@ -51,7 +52,7 @@ In the following example, Discovery found a server running AIX, and was also abl
 -   A **Connects to** relationship between the adapters on the two IP switches \(not shown in the following image\).
 -   A **Connects to** relationship between the network adapter of the AIX server and the switch port of IP switch A \(highlighted in red\). This kind of relationship is created by default.
 
-![Layer 2 relationships](../image/layer2-discovery.png)
+\[Omitted image "layer2-discovery.png"\] Alt text: Layer 2 relationships
 
 To view these relationships, open the dependency view for the server. To view the relationship between the two IP switches, open the dependency view from one of the switches and select the **Physical Network Connections** option for the **Dependency Type** in the map settings.
 
@@ -330,5 +331,5 @@ These port tables are populated during horizontal Discovery of a device:
 -   Router Interface \[dscy\_router\_interface\]
 -   Load Balancer Interface \[cmdb\_ci\_lb\_interface\]
 
-**Parent Topic:**[Network device discovery](c_NetworkDevices.md)
+**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_NetworkDevices.md)
 

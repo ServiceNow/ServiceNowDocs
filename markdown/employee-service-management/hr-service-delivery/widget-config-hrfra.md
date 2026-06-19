@@ -2,6 +2,7 @@
 title: Widgets to display tasks from a third-party system
 description: The HRSD Framework Integration and HRSD Integration Framework Complete pre-configured widgets help to display tasks from a third-party system to the To-dos page in Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/widget-config-hrfra.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,5 +18,5 @@ The **HRSD Framework Integration** and **HRSD Integration Framework Complete** p
 
 These widgets are available only when the Human Resources Scoped App: Core \[com.sn\_hr\_core\] application is activated. For more information on these widgets, navigate to **Employee Service Center** &gt; **To-dos Configuration**.
 
-**Parent Topic:**[Enterprise Service Management Integrations Framework reference](../task/ent-service-mgmt-int-framework-reference.md)
+**Parent Topic:**[Enterprise Service Management Integrations Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/ent-service-mgmt-int-framework-reference.md)
 

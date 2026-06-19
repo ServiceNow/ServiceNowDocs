@@ -2,6 +2,7 @@
 title: View Rule form
 description: Use the View Rule form to define the workspace and default view rules in the GRC: Compliance Case Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/compliance-case-management/view-rule-form.html
 release: zurich
 product: Compliance Case Management
 classification: compliance-case-management
@@ -167,5 +168,5 @@ Default Tab Focus
 Item that should be in focus when you open a record in the table that is specified in this rule.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create view rule](../task/create-view-rule.md)
+</table>**Parent Topic:**[Create view rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/create-view-rule.md)
 

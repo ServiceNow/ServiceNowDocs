@@ -2,6 +2,7 @@
 title: Chief Information Security Officer Dashboard data visualizations
 description: Use these data visualizations to get high-level and detailed views of how information security is addressed in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/ciso-db-dvs.html
 release: zurich
 topic_type: reference
 last_updated: "2025-09-01"

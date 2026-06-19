@@ -2,6 +2,7 @@
 title: Share your reservation details with other users
 description: Share the details of your reservation with a colleague. An email notification is sent to the colleague with the details. The colleague can also make a reservation near to your workplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-service-delivery-for-mobile/share-rsv-details.html
 release: zurich
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
@@ -25,13 +26,13 @@ Role required: sn\_wsd\_core.workplace\_user
 
 2.  In the Workplace Reservations section, tap **My reservations**.
 
-    You can also open the My reservations section by selecting the services icon \(![Services icon.](../images/services-app.png)\).
+    You can also open the My reservations section by selecting the services icon \(\[Omitted image "services-app.png"\] Alt text: Services icon.\).
 
 3.  Select the reservation that you want to share.
 
 4.  Tap the more options and select the **Share icon**.
 
-    icon \(![More option icon in an android device.](../images/cance-rsv.png)\)
+    icon \(\[Omitted image "cance-rsv.png"\] Alt text: More option icon in an android device.\)
 
     The appearance of the icon depends on the type of device that you are using.
 
@@ -48,9 +49,9 @@ Role required: sn\_wsd\_core.workplace\_user
 
 After the reservation is confirmed, the reservation details are shared with the selected users.
 
-**Parent Topic:**[Using Workplace Service Delivery for Mobile](../concept/using-wsd-mobile.md)
+**Parent Topic:**[Using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery-for-mobile/using-wsd-mobile.md)
 
-**Previous topic:**[Check in or check out a reservation](check-in-out-rsv-on-mobile.md)
+**Previous topic:**[Check in or check out a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery-for-mobile/check-in-out-rsv-on-mobile.md)
 
-**Next topic:**[Scan the QR code to reserve a space](scan-qr-code.md)
+**Next topic:**[Scan the QR code to reserve a space](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery-for-mobile/scan-qr-code.md)
 

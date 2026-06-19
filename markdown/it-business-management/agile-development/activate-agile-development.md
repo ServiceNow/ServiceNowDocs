@@ -2,11 +2,12 @@
 title: Activate Agile Development 2.0
 description: Activate the Agile Development 2.0 plugin \(com.snc.sdlc.agile.2.0\) if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/activate-agile-development.html
 release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Configure, Agile Development 2.0, Strategic Portfolio Management]
 ---
@@ -36,8 +37,8 @@ Role required: admin
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
-**Parent Topic:**[Configuring Agile Development 2.0](../concept/setting-up-agile-development-2.md)
+**Parent Topic:**[Configuring Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/setting-up-agile-development-2.md)
 

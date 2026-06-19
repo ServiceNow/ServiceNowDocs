@@ -2,13 +2,14 @@
 title: Manage assessment instances and questions
 description: Add and manage assessment instances and questions for a demand to evaluate its feasibility and gather structured feedback from relevant stakeholders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/add-and-manage-assessment-instances-dw.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
 last_updated: "2026-02-20"
 reading_time_minutes: 1
-breadcrumb: [Manage demands, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Manage assessment instances and questions
@@ -23,11 +24,11 @@ Role required: admin
 
 1.  Open a demand from the home page of Next Experience for Demand Management.
 
-    For more information, see [Access demands](access-demand-workspace.md).
+    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/access-demand-workspace.md).
 
 2.  Select **Details** from the L-2 \(level 2\) navigation menu.
 
-3.  Select **Assessment Instances**.![Use the Assessment Instances tab to add or edit assessment instances for a demand.](../images/assessment-instances-demand.png)
+3.  Select **Assessment Instances**.\[Omitted image "assessment-instances-demand.png"\] Alt text: Use the Assessment Instances tab to add or edit assessment instances for a demand.
 
     **Note:** If the **Assessment Instances** tab isn’t visible, select **More** and then select **Assessment Instances**.
 
@@ -37,7 +38,7 @@ Role required: admin
     -   To update the details of an assessment instance record, select the record.
 5.  On the assessment instance form, fill in the fields.
 
-    For a description of the field names, see [Assessment instance form](../reference/assessment-instance-form-dw.md) form.
+    For a description of the field names, see [Assessment instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/assessment-instance-form-dw.md) form.
 
 6.  Select **Save**.
 
@@ -47,7 +48,7 @@ Role required: admin
 
 9.  On the Create New Assessment Instance Question form, fill in the fields.
 
-    For a description of the field names, see [Create assessment instance question form](../reference/create-assessment-instance-question-form-dw.md) form.
+    For a description of the field names, see [Create assessment instance question form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/create-assessment-instance-question-form-dw.md) form.
 
 10. Select **Save**.
 

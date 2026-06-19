@@ -2,6 +2,7 @@
 title: Customize Virtual Agent welcome messages in Microsoft Teams
 description: Alter the default welcome message to send a custom greeting in Virtual Agent conversations integrated with Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/customize-va-welcome-msg-msteams.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -20,7 +21,7 @@ Alter the default welcome message to send a custom greeting in Virtual Agent con
 
 Role required: virtual\_agent\_admin or admin
 
-Install the Microsoft Teamsplugin. For more information, see [Integrating Virtual Agent with Microsoft Teams](../concept/va-integ-msteams.md).
+Install the Microsoft Teamsplugin. For more information, see [Integrate Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integ-msteams.md).
 
 ## About this task
 
@@ -51,5 +52,5 @@ The Provider Channel Identity \[sys\_cs\_provider\_application\_list\] table sto
 
 The Channel Identity for Virtual Agent Microsoft Teams has the new **default\_welcome\_message** parameter in the Bot Messages tab. The new welcome message displays each time you open a Virtual Agent conversation in Microsoft Teams.
 
-**Parent Topic:**[Configure Virtual Agent for Microsoft Teams](configure-va-msteams-settings.md)
+**Parent Topic:**[Configure Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-va-msteams-settings.md)
 

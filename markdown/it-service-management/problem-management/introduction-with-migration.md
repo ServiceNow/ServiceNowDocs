@@ -2,6 +2,7 @@
 title: Introducing activities for migration
 description: The Introduction activity helps you to understand the purpose of the migration utility.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/problem-management/introduction-with-migration.html
 release: zurich
 product: Problem Management
 classification: problem-management

@@ -2,6 +2,7 @@
 title: Inbound Invoice Fields
 description: The Inbound invoice table is the source table from where you import the invoice required fields to successfully create an invoice through the integration framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/inbound-invoice-fields.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -244,10 +245,10 @@ Name of the third party application associated with the invoice.
 String
 
 </td></tr></tbody>
-</table>-   **[Inbound invoice line fields](inbound-invoice-line-fields.md)**  
+</table>-   **[Inbound invoice line fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/inbound-invoice-line-fields.md)**  
 The Inbound invoice line table is the source table from where you import the invoice line required fields to successfully create an invoice through the integration framework.
--   **[Inbound invoice payment fields](inbound-invoice-payment-fields.md)**  
+-   **[Inbound invoice payment fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/inbound-invoice-payment-fields.md)**  
 The Inbound invoice payment details needed for a supplier to complete the transaction.
 
-**Parent Topic:**[Create New Invoice form](create-new-invoice-form.md)
+**Parent Topic:**[Create New Invoice form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/create-new-invoice-form.md)
 

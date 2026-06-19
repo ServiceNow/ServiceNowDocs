@@ -2,6 +2,7 @@
 title: Migrate the UI component from ITSM Agent Workspace to Service Operations Workspace for field decorators actions
 description: Configure the UI component to migrate field decorators actions from ITSM Agent Workspace to Service Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/migrate-field-declarative-ui-component-aw-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -119,7 +120,7 @@ Role required: admin
 
     4.  If the record isn’t found with the table, remove the table filter and search for targetPayload contains route=mra or interceptor.
 
-        For **List** and **Field** decorator, you must add the mra and interceptor add-on event mappings manually. For more information, see [Create a UX add-on event mapping](https://www.servicenow.com/docs/access?context=create-a-ux-add-on-event-mapping&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+        For **List** and **Field** decorator, you must add the mra and interceptor add-on event mappings manually. For more information, see .
 
     **Note:**
 
@@ -132,5 +133,5 @@ Role required: admin
     For a change\_request table that has a value as standard, Active is set as False when migrating the records from ITSM Agent Workspace to SOW.
 
 
-**Parent Topic:**[Migration of field decorators from ITSM Agent Workspace to Service Operations Workspace for ITSM](../reference/field-declarative-actions-aw-sow.md)
+**Parent Topic:**[Migration of field decorators from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/field-declarative-actions-aw-sow.md)
 

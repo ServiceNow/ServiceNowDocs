@@ -2,6 +2,7 @@
 title: Exploring ITOM Mobile Agent
 description: Learn how you can use ITOM Mobile Agent to manage service reliability on the go, including its capabilities, benefits, and a sample workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-reliability-management/explore-itom-mobile.html
 release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
@@ -21,7 +22,7 @@ Use ITOM Mobile Agent to access Service Reliability Management \(SRM\) features 
 
 To help you manage service reliability in one place, ITOM Mobile Agent auto-integrates with existing ServiceNow mobile apps. It runs in the ServiceNow Agent app and automatically includes ITSM Mobile Agent features. With that setup, you can manage alerts, incidents, on-call schedules, and tasks in one mobile app.
 
-**Note:** If you already use ITSM Mobile Agent for incidents, on-call schedules, and tasks, install ITOM Mobile Agent to add alerts to your mobile experience. With ITOM Mobile Agent, you get and configure alert notifications and view alerts in the My work, My team, and Notifications tabs. See [Install ITOM Mobile Agent](../task/install-itom-mobile.md) for installation instructions.
+**Note:** If you already use ITSM Mobile Agent for incidents, on-call schedules, and tasks, install ITOM Mobile Agent to add alerts to your mobile experience. With ITOM Mobile Agent, you get and configure alert notifications and view alerts in the My work, My team, and Notifications tabs. See [Install ITOM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/install-itom-mobile.md) for installation instructions.
 
 ## ITOM Mobile Agent users
 
@@ -68,7 +69,7 @@ Working with ITOM Mobile Agent has the following benefits:
 
 To learn more about configuring and using ITOM Mobile Agent, see:
 
--   [Configuring ITOM Mobile Agent](configure-itom-mobile.md)
--   [Using ITOM Mobile Agent](use-itom-mobile.md)
--   [ITOM Mobile Agent reference](../reference/itom-mobile-settings.md)
+-   [Configuring ITOM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/configure-itom-mobile.md)
+-   [Using ITOM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/use-itom-mobile.md)
+-   [ITOM Mobile Agent reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/itom-mobile-settings.md)
 

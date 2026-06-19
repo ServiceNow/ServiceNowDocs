@@ -2,6 +2,7 @@
 title: ITSM Configurable Workspace chat session tabs in SOW
 description: Use visual indicators on chat session tabs, such as colors and icons, to alert agents about unread messages and SLA threshold timers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/sow-itsm-workspace-chat-session-tabs.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -50,7 +51,7 @@ Tab colors
 This feature uses tab colors to indicate the status of a chat with one or more unread messages.-   Inactive tabs display a purple background color to indicate that a message has been received.
 -   Tab colors shift to yellow and then to red to highlight critical wait times.
 
-For more information, see [Tab colors](sow-itsm-workspace-chat-session-tabs.md#section_rsb_4j2_fdc).
+For more information, see [Tab colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/sow-itsm-workspace-chat-session-tabs.md).
 
 </td></tr><tr><td>
 
@@ -58,7 +59,7 @@ Unread message counters
 
 </td><td>
 
-Inactive tabs display a counter that shows the number of unread chat messages.For more information, see [Unread message counters](sow-itsm-workspace-chat-session-tabs.md#section_zq4_1k2_fdc).
+Inactive tabs display a counter that shows the number of unread chat messages.For more information, see [Unread message counters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/sow-itsm-workspace-chat-session-tabs.md).
 
 </td></tr><tr><td>
 
@@ -97,7 +98,7 @@ The chat session tabs feature uses tab background colors to provide information 
 
 Administrators can configure threshold levels for chat sessions that set timer values and tab background colors for the thresholds. Agents see different colors in the chat session tabs based on the threshold timer value.
 
-**Note:** Default values are provided for the SLA threshold timers. For more information about changing these values, see [Configure chat session tabs in SOW](../task/sow-itsm-workspace-chat-session-tabs-configure.md).
+**Note:** Default values are provided for the SLA threshold timers. For more information about changing these values, see [Configure chat session tabs in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/sow-itsm-workspace-chat-session-tabs-configure.md).
 
 <table id="table_v2g_pcc_jdc"><thead><tr><th>
 
@@ -117,7 +118,7 @@ White
 
 </td><td>
 
-![Active chat session tab with white background](../image/chat-session-tabs-white.png)
+\[Omitted image "chat-session-tabs-white.png"\] Alt text: Active chat session tab with white background
 
 </td><td>
 
@@ -129,7 +130,7 @@ Purple
 
 </td><td>
 
-![Inactive chat session tab with purple background](../image/chat-session-tabs-purple.png)
+\[Omitted image "chat-session-tabs-purple.png"\] Alt text: Inactive chat session tab with purple background
 
 </td><td>
 
@@ -144,13 +145,13 @@ Yellow
 
 </td><td>
 
-![Inactive chat session tab with yellow background and unread message counter](../image/chat-session-tabs-yellow.png)
+\[Omitted image "chat-session-tabs-yellow.png"\] Alt text: Inactive chat session tab with yellow background and unread message counter
 
 </td><td>
 
 Indicates an inactive tab with unread messages that has reached the warning SLA threshold level.The tab remains yellow for 30-60 seconds \(default value\), at which point the timer reaches the critical SLA threshold level. The tab also includes a warning icon.
 
-See [SLA threshold timers](sow-itsm-workspace-chat-session-tabs.md#section_ffn_zlb_jdc) for more information.
+See [SLA threshold timers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/sow-itsm-workspace-chat-session-tabs.md) for more information.
 
 </td></tr><tr><td>
 
@@ -158,20 +159,20 @@ Red
 
 </td><td>
 
-![Inactive chat session tab with red background and unread message counter](../image/chat-session-tabs-red.png)
+\[Omitted image "chat-session-tabs-red.png"\] Alt text: Inactive chat session tab with red background and unread message counter
 
 </td><td>
 
 Indicates an inactive tab with unread messages that has reached the critical SLA threshold level. The tab remains red until the agent selects it and restarts the timer. The tab also includes a critical icon.
 
-See [SLA threshold timers](sow-itsm-workspace-chat-session-tabs.md#section_ffn_zlb_jdc) for more information.
+See [SLA threshold timers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/sow-itsm-workspace-chat-session-tabs.md) for more information.
 
 </td></tr></tbody>
 </table>## SLA threshold timers
 
 Administrators can configure warning and critical SLA threshold timers for inactive chat session tabs. If an agent leaves a customer’s chat unanswered beyond the length of time defined in these threshold timers, the system changes the tab color.
 
-The chat session tabs feature includes the following default SLA threshold timer settings. For more information about changing these values, see [Configure chat session tabs in SOW](../task/sow-itsm-workspace-chat-session-tabs-configure.md).
+The chat session tabs feature includes the following default SLA threshold timer settings. For more information about changing these values, see [Configure chat session tabs in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/sow-itsm-workspace-chat-session-tabs-configure.md).
 
 <table id="table_b2f_dbd_jdc"><thead><tr><th>
 
@@ -253,7 +254,7 @@ When a chat is automatically transferred to another agent or to a queue:-   The 
 </td></tr></tbody>
 </table>If a chat is transferred to a queue, SLA threshold timers and tab colors are applicable to the next agent who picks up the case.
 
-When an agent seeks help from a colleague or manager using the [Agent Whisper](https://www.servicenow.com/docs/access?context=ci-agent-whisper&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US) feature, the SLA threshold timers and tab behavior are applicable only for the owner agent and not for anyone else participating in the interaction.
+When an agent seeks help from a colleague or manager using the  feature, the SLA threshold timers and tab behavior are applicable only for the owner agent and not for anyone else participating in the interaction.
 
 ## Configuring the chat session tabs feature
 
@@ -264,10 +265,10 @@ When this feature is enabled, chat session tabs display colors to indicate the c
 -   Warning of SLA breach
 -   Critical SLA breach
 
-For more information, see [Configure chat session tabs in SOW](../task/sow-itsm-workspace-chat-session-tabs-configure.md).
+For more information, see [Configure chat session tabs in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/sow-itsm-workspace-chat-session-tabs-configure.md).
 
--   **[Configure chat session tabs in SOW](../task/sow-itsm-workspace-chat-session-tabs-configure.md)**  
+-   **[Configure chat session tabs in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/sow-itsm-workspace-chat-session-tabs-configure.md)**  
 Enable the chat session tabs feature and configure values for the chat SLA threshold timers in the SOW admin center.
 
-**Parent Topic:**[Configuring Interaction Management in Service Operations Workspace](configure-interaction-management-sow.md)
+**Parent Topic:**[Configuring Interaction Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/configure-interaction-management-sow.md)
 

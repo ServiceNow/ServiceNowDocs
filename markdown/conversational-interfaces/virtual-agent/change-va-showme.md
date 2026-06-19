@@ -2,6 +2,7 @@
 title: Change text in the Show me everything button
 description: Configure the text in the Show me everything button displayed in the chat window to control the display of the initial greetings and the Show me everything button in Virtual Agent conversations. Edit the message in the System Properties \[sys\_properties\] table, or in a copy of the Greetings setup topic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/change-va-showme.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -18,7 +19,7 @@ Configure the text in the **Show me everything** button displayed in the chat wi
 
 ## Before you begin
 
-If you’re updating the Greetings setup topic in Virtual Agent Designer, first [Create a copy](duplicate-virtual-agent-topic.md) of the Greetings setup topic, since the prebuilt Greetings setup topic is read-only.
+If you’re updating the Greetings setup topic in Virtual Agent Designer, first [Create a copy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/duplicate-virtual-agent-topic.md) of the Greetings setup topic, since the prebuilt Greetings setup topic is read-only.
 
 Role required: virtual\_agent\_admin or admin
 
@@ -34,15 +35,15 @@ The Greetings setup topic contains the Send Topic Picker script action, which co
 
 1.  Navigate to **All** and use one of the following methods.
 
-<table id="choicetable_llf_w4t_d1c"><thead><tr><th align="left" id="d61320e130">
+<table id="choicetable_llf_w4t_d1c"><thead><tr><th align="left" id="d41257e130">
 
 Method
 
-</th><th align="left" id="d61320e133">
+</th><th align="left" id="d41257e133">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d61320e139">
+</th></tr></thead><tbody><tr><td id="d41257e139">
 
 **System properties**
 
@@ -50,10 +51,10 @@ Description
 
 1.  Input `sys_properties.list`.
 2.  Under **com.glide.cs.topic\_picker\_button\_label**, set the value to a message of your choice, such as `Show me everything.`
-3.  Select the Save icon ![Save icon.](../images/icon_save.png).
+3.  Select the Save icon \[Omitted image "icon\_save.png"\] Alt text: Save icon..
 
 
-</td></tr><tr><td id="d61320e174">
+</td></tr><tr><td id="d41257e174">
 
 **Virtual Agent Designer**
 
@@ -62,7 +63,7 @@ Description
 1.  Navigate to **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
 2.  Select the copy of the Greetings setup topic that you created.
 3.  In the **Flow** tab, select the node for the Send Topic Picker script action.
-4.  In the Script action properties sheet, select the Script icon ![Script icon.](../images/icon-script.png) to open the **Action expression** script.
+4.  In the Script action properties sheet, select the Script icon \[Omitted image "icon-script.png"\] Alt text: Script icon. to open the **Action expression** script.
 5.  Change the `greetingMessage` text string as needed, and select **Save**. For example, to change the button text to **Show more**, you would change the script as follows:
 
     ```
@@ -85,7 +86,7 @@ If you follow the System Properties method, your change to the greeting message 
 
 ## What to do next
 
-If you customized your Greetings topic, add it to the default chat experience or to a new custom chat experience that you created. For details, see [Configure a Virtual Agent chat experience](configure-default-chat-experience.md).
+If you customized your Greetings topic, add it to the default chat experience or to a new custom chat experience that you created. For details, see [Configure a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-default-chat-experience.md).
 
-**Parent Topic:**[Working with setup topics](../concept/working-setup-topics.md)
+**Parent Topic:**[Working with setup topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/working-setup-topics.md)
 

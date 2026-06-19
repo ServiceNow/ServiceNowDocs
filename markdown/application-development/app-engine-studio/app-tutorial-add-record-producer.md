@@ -2,6 +2,7 @@
 title: Add a record producer
 description: Create a record producer to start building user experiences for the employee travel request application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/app-tutorial-add-record-producer.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -29,11 +30,11 @@ Phase 1
 
 </td><td align="justify">
 
-![In progress icon](../image/app-tutorial-progress-wip.png)
+\[Omitted image "app-tutorial-progress-wip.png"\] Alt text: In progress icon
 
 </td><td>
 
-[Add a record producer](app-tutorial-add-record-producer.md)
+[Add a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-add-record-producer.md)
 
 </td></tr><tr><td>
 
@@ -41,14 +42,14 @@ Phase 2
 
 </td><td align="justify">
 
-![Not started icon](../image/app-tutorial-progress-not-started.png)
+\[Omitted image "app-tutorial-progress-not-started.png"\] Alt text: Not started icon
 
 </td><td>
 
-[Configure a record producer](app-tutorial-configure-record-producer.md)
+[Configure a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-configure-record-producer.md)
 
 </td></tr></tbody>
-</table>This procedure covers the first part of the task demonstrated in the tutorial video. The rest of the procedure is outlined in the next topic [Configure a record producer](app-tutorial-configure-record-producer.md).
+</table>This procedure covers the first part of the task demonstrated in the tutorial video. The rest of the procedure is outlined in the next topic [Configure a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-configure-record-producer.md).
 
 Follow along with the tutorial to add a record producer to the employee travel request application.
 
@@ -88,5 +89,5 @@ You have added a record producer to your application. The record producer is rea
 
 ## What to do next
 
-Complete the setup of the record producer by proceeding to the next phase: [Configure a record producer](app-tutorial-configure-record-producer.md).
+Complete the setup of the record producer by proceeding to the next phase: [Configure a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-configure-record-producer.md).
 

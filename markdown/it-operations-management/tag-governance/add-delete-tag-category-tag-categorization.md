@@ -2,6 +2,7 @@
 title: Add or delete a tag category for Tag Categorization
 description: Add or delete a tag category for improved tagging of your organization's configuration items \(CIs\) and cloud assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/tag-governance/add-delete-tag-category-tag-categorization.html
 release: zurich
 product: Tag Governance
 classification: tag-governance
@@ -17,7 +18,7 @@ Add or delete a tag category for improved tagging of your organization's configu
 
 ## Before you begin
 
-Verify that you have installed version 1.16.3 of Service Mapping Plus to access to the CI tag category and CI tag key tables. For more information, see [Install Service Mapping Plus](../../service-mapping/task/install-service-mapping-plus.md).
+Verify that you have installed version 1.16.3 of Service Mapping Plus to access to the CI tag category and CI tag key tables. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/install-service-mapping-plus.md).
 
 Role required: tag\_governance\_admin
 
@@ -27,21 +28,21 @@ Role required: tag\_governance\_admin
 
 2.  Verify that you are in the leaf domain.
 
-    1.  In the page header, select the globe icon ![](../image/globe-icon.png).
+    1.  In the page header, select the globe icon \[Omitted image "globe-icon.png"\].
 
     2.  Select **Domain scope**, and choose the appropriate leaf domain.
 
 3.  Add or delete a tag category.
 
-<table id="choicetable_eks_y2x_yfc"><thead><tr><th align="left" id="d591722e127">
+<table id="choicetable_eks_y2x_yfc"><thead><tr><th align="left" id="d549839e127">
 
 Action
 
-</th><th align="left" id="d591722e130">
+</th><th align="left" id="d549839e130">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d591722e136">
+</th></tr></thead><tbody><tr><td id="d549839e136">
 
 **Add a tag category**
 
@@ -49,7 +50,7 @@ Description
 
 1.  Select **New**.
 2.  Enter the category name in the **Tag category name** field.
-3.  Select the Lookup using list icon ![](../../../administer/field-administration/image/SearchIconHeisenberg.png).
+3.  Select the Lookup using list icon \[Omitted image "SearchIconHeisenberg.png"\] Alt text:.
 4.  Select **New** in the Tag Category Definitions window.
 5.  Enter the value for the category definition in the **Regex** field.
 
@@ -60,7 +61,7 @@ Description
 8.  Select **Submit** on the CI tag category - New Record page.
 
 
-</td></tr><tr><td id="d591722e198">
+</td></tr><tr><td id="d549839e198">
 
 **Delete a tag category**
 

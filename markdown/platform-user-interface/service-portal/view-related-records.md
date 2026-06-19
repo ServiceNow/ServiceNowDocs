@@ -2,6 +2,7 @@
 title: Identify customizations in widget related records
 description: View and identify potentially problematic code in the widget dependencies, Angular Providers, and ng-templates that are being used by the widget.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/view-related-records.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -46,7 +47,7 @@ You can view these related records directly from your portal page to check the c
     |Blue|New widget|
     |Red|Customized widget|
 
-4.  On any widget, click the information icon \(![Information icon](../image/info-icon.png)\).
+4.  On any widget, click the information icon \(\[Omitted image "info-icon.png"\] Alt text: Information icon\).
 
 5.  On the window, open links to the following related records:
 
@@ -85,7 +86,7 @@ Angular ng-templates that the widget uses from the Angular ng-templates \[sp\_ng
 </td></tr></tbody>
 </table>    Related records that you modified or developed are outlined in red.
 
-    ![Related records outlined in red](../image/outlined-in-red.png)
+    \[Omitted image "outlined-in-red.png"\] Alt text: Related records outlined in red
 
     You can open each related record by clicking the record name.
 

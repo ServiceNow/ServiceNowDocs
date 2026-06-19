@@ -2,6 +2,7 @@
 title: View data assets from an established connection
 description: View the external schema and tables that are accessible to the service account used in a zero copy connection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/workflow-data-fabric-hub/view-assets-connection-wdf.html
 release: zurich
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -47,8 +48,8 @@ Role required: df\_connection\_admin or a role containing the df\_data\_steward 
 ## What to do next
 
 -   Identify the tables and columns that you want to map to a data fabric table.
--   Create a data fabric table and map source columns to the target table. See [Managing data fabric tables in Workflow Data Fabric Hub](../concept/managing-data-fabric-tables-wdf.md).
+-   Create a data fabric table and map source columns to the target table. See [Managing data fabric tables in Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/managing-data-fabric-tables-wdf.md).
 -   Consult with the data source administrator if the required schema and tables aren't available from this connection.
 
-**Parent Topic:**[Managing zero copy connections in Workflow Data Fabric Hub](../concept/managing-connections-wdf.md)
+**Parent Topic:**[Managing zero copy connections in Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/managing-connections-wdf.md)
 

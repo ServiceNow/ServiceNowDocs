@@ -2,6 +2,7 @@
 title: Problem model form
 description: Description of the field values for the problem task model form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/problem-management/problem-model-form.html
 release: zurich
 product: Problem Management
 classification: problem-management
@@ -25,5 +26,5 @@ Description of the field values for the problem task model form.
 |Read Roles|Option to define the roles to view the problem model.|
 |Write Roles|Option to define the roles to edit the problem model.|
 
-**Parent Topic:**[Reference section for Problem Management](../concept/reference-section-for-problem-management.md)
+**Parent Topic:**[Reference section for Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/reference-section-for-problem-management.md)
 

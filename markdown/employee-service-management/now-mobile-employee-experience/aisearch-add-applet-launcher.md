@@ -2,6 +2,7 @@
 title: Add AI Search to a launcher screen
 description: Configure your launcher screen to use the AI Search search engine.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-mobile-employee-experience/aisearch-add-applet-launcher.html
 release: zurich
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience

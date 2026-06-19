@@ -2,6 +2,7 @@
 title: Create a control tailoring request
 description: Create a control tailoring request to modify baseline controls for an authorization package after the Select step without reverting the package or disrupting ongoing assessments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/create-a-control-tailoring-request.html
 release: zurich
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -32,7 +33,7 @@ When you submit the request, the system generates an approval task for the AO. A
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CAM Workspace** and then select the lists icon \(![Lists icon.](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+1.  Navigate to **All** &gt; **CAM Workspace** and then select the lists icon \(\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon.\).
 
 2.  From the Authorization packages in the RMF list, select an authorization package record.
 
@@ -103,5 +104,5 @@ When you submit the request, the system generates an approval task for the AO. A
 
 The request state changes to In Review, and the system assigns the request to the AO or AO Delegate for approval. The control tailoring request appears in the Pending state. The authorization package displays an indicator showing that baseline changes are under review. You can view the request status in the My Items view under the CAM Workspace task page, which shows all control tailoring requests you have created.
 
-**Parent Topic:**[Request control trailoring](../concept/request-control-trailoring.md)
+**Parent Topic:**[Request control trailoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/request-control-trailoring.md)
 

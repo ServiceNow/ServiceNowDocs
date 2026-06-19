@@ -2,6 +2,7 @@
 title: Assign topics to web applications
 description: Associate topics to the applications which can help discover and launch useful applications right from topic page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/web-applications-topic-assignment.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -40,5 +41,5 @@ Role required: Taxonomy admin, taxonomy manager, and taxonomy contributor
 
 ## What to do next
 
-Your employees can access all applications and associated topics. See [Access applications from App Launcher](../concept/web-application-employee.md)
+Your employees can access all applications and associated topics. See [Access applications from App Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/web-application-employee.md)
 

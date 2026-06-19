@@ -2,7 +2,10 @@
 title: Using the Customer Service Portal
 description: Search for information about a question or an issue, or request assistance from a customer service agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/use-the-customer-portal.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -17,7 +20,7 @@ Your Customer Service Management Service Portal activity usually begins on the h
 
 **Note:** If any active outages exist for your install base, they are displayed on the homepage.
 
-**Note:** A new customer service portal experience is available on the business portal. For details, see [Using the Business Portal](use-the-business-portal.md).
+**Note:** A new customer service portal experience is available on the business portal. For details, see [Using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/use-the-business-portal.md).
 
 From the Customer Service Portal homepage, you can access and use the following features:
 

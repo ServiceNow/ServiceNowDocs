@@ -2,6 +2,7 @@
 title: Redirect a reference to a page ID
 description: Redirect all references from Service Portal widgets to route to a new page with a single record to avoid manually replacing the hard-coded page ID in widgets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/reroute-page.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -54,5 +55,5 @@ Creating a record in the Page Route Map table only redirects references to a pag
 
 All references to the page listed in the **Route from** field redirect to the page in the **Route to** field.
 
-**Parent Topic:**[Creating portal pages](../concept/c_Pages.md)
+**Parent Topic:**[Creating portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/c_Pages.md)
 

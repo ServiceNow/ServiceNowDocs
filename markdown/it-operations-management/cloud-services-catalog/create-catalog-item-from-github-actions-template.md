@@ -2,6 +2,7 @@
 title: Create a catalog item from a GitHub Actions template
 description: Enable users to order items from an Employee Center service catalog through a GitHub Actions template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/create-catalog-item-from-github-actions-template.html
 release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -17,7 +18,7 @@ Enable users to order items from an Employee Center service catalog through a Gi
 
 ## Before you begin
 
-Ensure an appropriate GitHub Actions configuration provider exists. For more information, see [Run Discovery on GitHub Actions config provider](run-discovery-on-github-actions-config-provider.md).
+Ensure an appropriate GitHub Actions configuration provider exists. For more information, see [Run Discovery on GitHub Actions config provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/run-discovery-on-github-actions-config-provider.md).
 
 Ensure that the workflow of the GitHub Actions adheres to the following syntax:
 
@@ -68,5 +69,5 @@ Role required: sn\_cmp\_cloud\_service\_designer
 
 GitHub Actions catalog items can be ordered from the Employee Center catalog order form.
 
-**Parent Topic:**[Integrating GitHub Actions with Cloud-Services-Catalog](../concept/integrating-github-actions-with-cloud-service-catalog.md)
+**Parent Topic:**[Integrating GitHub Actions with Cloud-Services-Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/integrating-github-actions-with-cloud-service-catalog.md)
 

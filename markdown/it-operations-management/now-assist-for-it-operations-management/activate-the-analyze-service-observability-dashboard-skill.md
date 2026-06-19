@@ -2,6 +2,7 @@
 title: Activate the analyze Service Observability dashboard skill
 description: The analyze Service Observability dashboard skill uses generative AI to provide an analysis of a Service Observability dashboard. You need to activate this skill before using it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/now-assist-for-it-operations-management/activate-the-analyze-service-observability-dashboard-skill.html
 release: zurich
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
@@ -19,8 +20,8 @@ The analyze Service Observability dashboard skill uses generative AI to provide 
 
 Before activating the Now Assist skills, you must install the following:
 
--   Now Assist for IT Operations Management \(ITOM\) plugin. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](install-now-assist-itom.md).
--   Service Observability. For more information, see [Install Service Observability](../../service-observability/task/install-service-observability.md).
+-   Now Assist for IT Operations Management \(ITOM\) plugin. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
+-   Service Observability. For more information, see [Install Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/install-service-observability.md).
 
 You must configure the following settings:
 
@@ -41,5 +42,5 @@ Role required: admin
 3.  On the **Analyze Service Observability dashboard** tile, select **Activate**.
 
 
-**Parent Topic:**[Activate Now Assist skills in Now Assist for IT Operations Management \(ITOM\)](activate-now-assist-skills-itom.md)
+**Parent Topic:**[Activate Now Assist skills in Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/activate-now-assist-skills-itom.md)
 

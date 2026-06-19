@@ -2,6 +2,7 @@
 title: Wait for condition workflow activity
 description: The Wait for condition activity causes the workflow to wait at this activity until the current record matches the specified condition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/workflow-activities/r\_WaitForCondition.html
 release: zurich
 product: Workflow Activities
 classification: workflow-activities
@@ -15,7 +16,7 @@ breadcrumb: [Condition Workflow activities, Workflow activities reference, Workf
 
 The **Wait for condition** activity causes the workflow to wait at this activity until the current record matches the specified condition.
 
-The workflow evaluates the **Wait for condition** activity each time the current record is updated. Use this activity to pause a workflow indefinitely until a particular criteria is met by a record update. To pause a workflow for a timed duration see [Timer workflow activities](../concept/c_TimerActivities.md).
+The workflow evaluates the **Wait for condition** activity each time the current record is updated. Use this activity to pause a workflow indefinitely until a particular criteria is met by a record update. To pause a workflow for a timed duration see [Timer workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/workflow-activities/c_TimerActivities.md).
 
 For workflow to consider the condition met, all conditions specified – whether in the builder or in a script – must be true.
 
@@ -84,5 +85,5 @@ The activity state tells the workflow engine what to do with the activity.
 |Cancelled|This activity, or the workflow that contains this activty, was canceled.|
 |Error|A JavaScript error occurred. Review the logs for error details.|
 
-**Parent Topic:**[Condition Workflow activities](r_ConditionActivites.md)
+**Parent Topic:**[Condition Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/workflow-activities/r_ConditionActivites.md)
 

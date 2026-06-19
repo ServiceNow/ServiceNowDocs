@@ -2,6 +2,7 @@
 title: Activate People Genius Results
 description: Enable AI Search's People default Genius Result configuration for use in your search profiles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/activate-people-genius-results-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -36,7 +37,7 @@ The People default Genius Result configuration is inactive in the base system. T
 
 As part of activation, you need to run a scheduled job that trains and publishes the Default AI Search Genius Results Model. This **NLU** model contains intents used by the People configuration's **NLU** trigger.
 
-For more information on the People default Genius Result configuration, see [People Genius Results](../concept/genius-result-people-ais.md).
+For more information on the People default Genius Result configuration, see [People Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/genius-result-people-ais.md).
 
 ## Procedure
 
@@ -60,7 +61,7 @@ For more information on the People default Genius Result configuration, see [Peo
 
     3.  On the AI Search Genius Result Configuration form, select **Change Active State**.
 
-        For a description of the field values, see [AI Search Genius Result Configuration form](../reference/genius-result-cfg-form-ais.md).
+        For a description of the field values, see [AI Search Genius Result Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/genius-result-cfg-form-ais.md).
 
         The Genius Result configuration's **Active** field value changes to **true**.
 
@@ -69,5 +70,5 @@ For more information on the People default Genius Result configuration, see [Peo
 
 The People Genius Result configuration is available for use in search profiles.
 
-**Parent Topic:**[People Genius Results](../concept/genius-result-people-ais.md)
+**Parent Topic:**[People Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/genius-result-people-ais.md)
 

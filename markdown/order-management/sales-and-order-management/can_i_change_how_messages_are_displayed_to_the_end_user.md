@@ -2,6 +2,7 @@
 title: Change how messages are displayed to the end user
 description: Control how messages appear in ServiceNow CPQ.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/can\_i\_change\_how\_messages\_are\_displayed\_to\_the\_end\_user.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,5 +26,5 @@ Accepted type values are `above`, `below`, `popup`, and `tooltip`.
 
 The following image shows a popup message \(`{“messageDisplayType”: “popup”}`\).
 
-![Message](../images/cpq-messages-default.png)
+\[Omitted image "cpq-messages-default.png"\] Alt text: Message
 

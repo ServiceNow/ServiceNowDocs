@@ -2,6 +2,7 @@
 title: Install Career Conversations
 description: Install the Career Conversations app to enable employees and managers to create, manage, and track conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/career-conversations/egd-activities-install.html
 release: zurich
 product: Career Conversations
 classification: career-conversations
@@ -19,10 +20,10 @@ Install the Career Conversations app to enable employees and managers to create,
 
 Dependent plugins and apps for Career Conversations
 
--   [Manager Hub](../../human-resources/concept/manager-hub-overview.md) 3.0.0
--   [Talent Development Core](../concept/egd-landing-page.md)
+-   [Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/manager-hub-overview.md) 3.0.0
+-   [Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-landing-page.md)
 
--   See [Install the Talent Development Core application](egd-core-install.md).
+-   See [Install the Talent Development Core application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-core-install.md).
 
 
 Role required: admin
@@ -54,5 +55,5 @@ Career Conversations is dependent on features in Talent Development Core.
 5.  Select **Install**.
 
 
-**Parent Topic:**[Install and configure Career Conversations](../concept/egd-activities-install-config.md)
+**Parent Topic:**[Install and configure Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/career-conversations/egd-activities-install-config.md)
 

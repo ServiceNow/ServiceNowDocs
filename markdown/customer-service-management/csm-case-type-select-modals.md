@@ -2,7 +2,10 @@
 title: Case type selector
 description: The case type selector enables customer service agents to quickly and easily create the right kind of case for a contact or consumer by selecting from a list of available case types or services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-case-type-select-modals.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 5
@@ -21,13 +24,13 @@ The case type selector is a component that provides agents with the ability to s
 -   Select a product from a list of products owned by the customer and create a case for that product.
 -   Select a service and create a case for that specific service.
 
-The selections that an agent can make is determined by the case type selector configuration. The system administrator can configure [different versions of the case type selector](csm-case-type-select-modals.md#section_h24_lf1_yxb) by setting [properties](csm-case-type-select-modals.md#section_p3t_k3f_svb). The different versions include:
+The selections that an agent can make is determined by the case type selector configuration. The system administrator can configure [different versions of the case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-case-type-select-modals.md) by setting [properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-case-type-select-modals.md). The different versions include:
 
 -   Multi-select \(default\)
 -   single-select
--   [Product Service select](csm-case-type-select-modals-product-service.md)
+-   [Product Service select](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-case-type-select-modals-product-service.md)
 
-![Multi-select version of the case type selector with fields for selecting a category and case type](../image/case-type-multi-select.png "Case type selector (multi-select version)")
+\[Omitted image "case-type-multi-select.png"\] Alt text: Multi-select version of the case type selector with fields for selecting a category and case type
 
 ## Using the case type selector
 
@@ -65,7 +68,7 @@ Select this action from the following records:-   Interaction
 -   Child Case
 
 </td></tr></tbody>
-</table>Some declarative actions available with the Customer Service Case Types plugin are disabled by default. For more information, see [Configure case type declarative actions](../task/config-case-type-declarative-action.md).
+</table>Some declarative actions available with the Customer Service Case Types plugin are disabled by default. For more information, see [Configure case type declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-case-type-declarative-action.md).
 
 ## Case type selector versions
 
@@ -93,7 +96,7 @@ With the multi-select version, the agent selects a case type and optionally sele
 
  The multi-select version of the case type selector is the default functionality.
 
- For more information, see [Select a category and subtype for a case type](manage-csm-case-types.md#section_l3d_jr3_3kb).
+ For more information, see [Select a category and subtype for a case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/manage-csm-case-types.md).
 
 </td></tr><tr><td>
 
@@ -112,8 +115,8 @@ With the single-select version, the agent selects a case type from a list of ava
 
  For more information, see the following topics:
 
--   [Enable the case type single select property](../task/enable-case-type-single-select-prop.md)
--   [Create a configuration for case type single-select](../task/create-case-type-single-selection.md)
+-   [Enable the case type single select property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/enable-case-type-single-select-prop.md)
+-   [Create a configuration for case type single-select](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-case-type-single-selection.md)
 
 </td></tr><tr><td>
 
@@ -121,7 +124,7 @@ Product Service Select
 
 </td><td>
 
-With the Product Service Select version, the agent selects a product and/or a service to create a case. For more information, see [Product Service select version of the case type selector](csm-case-type-select-modals-product-service.md).
+With the Product Service Select version, the agent selects a product and/or a service to create a case. For more information, see [Product Service select version of the case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-case-type-select-modals-product-service.md).
 
  The display of the Product Service Select version is controlled by the **sn\_csm\_case\_types.service\_definition\_select** system property.
 
@@ -183,7 +186,7 @@ Determines the number of the products and services displayed in the Product Serv
 </td></tr></tbody>
 </table>## Configuring service definitions for cases and case tasks
 
-The system administrator creates the [service definitions](csm-service-definitions.md) for cases and case tasks, along with their relationships. The service definition manager and service definition admin can also create these service definitions and relationships.
+The system administrator creates the [service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-service-definitions.md) for cases and case tasks, along with their relationships. The service definition manager and service definition admin can also create these service definitions and relationships.
 
-For case task service definitions, the system administrator can include logic and default field values that the system uses when creating the case tasks. For more information, see [Configuring service definitions](csm-service-definitions-configure.md).
+For case task service definitions, the system administrator can include logic and default field values that the system uses when creating the case tasks. For more information, see [Configuring service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-service-definitions-configure.md).
 

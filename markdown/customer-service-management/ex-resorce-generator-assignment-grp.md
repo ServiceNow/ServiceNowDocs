@@ -2,7 +2,10 @@
 title: Configure a resource generator for providing assignment group as an outcome
 description: Configure a resource generator of type decision table that provides an assignment group for a given router model and associated issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ex-resorce-generator-assignment-grp.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -46,9 +49,9 @@ Role required: sn\_nb\_action.next\_best\_action\_author, sn\_nb\_action.resourc
 
 ## Result
 
-![Resource generator configuration for Assignment group for router issue RG, using a decision table with inputs for Problem (case short description) and Product (case product display name).](../image/ex-config-rg-assg-grp.png)
+\[Omitted image "ex-config-rg-assg-grp.png"\] Alt text: Resource generator configuration for Assignment group for router issue RG, using a decision table with inputs for Problem \(case short description\) and Product \(case product display name\).
 
 ## What to do next
 
-[Create a field recommendation](ex-create-field-recommendation-assg-grp.md) that you can use while creating recommended action for recommending assignment group field value.
+[Create a field recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ex-create-field-recommendation-assg-grp.md) that you can use while creating recommended action for recommending assignment group field value.
 

@@ -2,6 +2,7 @@
 title: AI Search analytics dashboard
 description: The AI Search analytics dashboard displays key performance metrics, trends, and reports for AI Search usage. Analysts can apply interactive filters to view performance analytics for individual search applications and to select the time frame to analyze.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/ai-search-analytics-dashboard.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -15,13 +16,13 @@ breadcrumb: [Advanced AI Search Management Tools, ServiceNow Store applications 
 
 The AI Search analytics dashboard displays key performance metrics, trends, and reports for AI Search usage. Analysts can apply interactive filters to view performance analytics for individual search applications and to select the time frame to analyze.
 
-To access the AI Search analytics dashboard, navigate to **All** &gt; **User Experience Analytics**, select an application's **Launch Dashboard** link, then select the Search Analytics icon ![](../image/icon-appsee-ai-srch-analytics.png) or link in the modules menu. To learn more about the User Experience Analytics dashboard, see [Overview of the dashboard](https://www.servicenow.com/docs/access?context=user-exp-analytics-dashboard&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+To access the AI Search analytics dashboard, navigate to **All** &gt; **User Experience Analytics**, select an application's **Launch Dashboard** link, then select the Search Analytics icon \[Omitted image "icon-appsee-ai-srch-analytics.png"\] Alt text: or link in the modules menu. To learn more about the Usage Insights dashboard, see Overview of the dashboard.
 
-**Note:** If the dashboard doesn't load, follow the steps from [Configure Service Portal to send analytics data](adv-ais-enable-sp-analytics-data.md) to enable it.
+**Note:** If the dashboard doesn't load, follow the steps from [Configure Service Portal to send analytics data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/adv-ais-enable-sp-analytics-data.md) to enable it.
 
 In the **Queries** section of the dashboard, you can view the query lists on their own page by selecting **View all**. To return to the main dashboard from the sub-page, select **AI Search Analytics**.
 
-You can improve the visual experience by using the dark theme. For more information, see [Working with themes in Next Experience](https://www.servicenow.com/docs/access?context=next-experience-theming&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+You can improve the visual experience by using the dark theme. For more information, see .
 
 ## Required ServiceNow AI Platform roles
 
@@ -125,7 +126,7 @@ This numeric metric shows the total number of unique users who submitted search 
 
 The chart shows the number of unique search users for dates in your selected date range.
 
-![Search users metric, trend, and chart.](../image/ai-search-analytics-dashboard-search-users.png)**Note:** Searches performed while impersonating another user are ignored for this metric, trend, and chart.
+\[Omitted image "ai-search-analytics-dashboard-search-users.png"\] Alt text: Search users metric, trend, and chart.**Note:** Searches performed while impersonating another user are ignored for this metric, trend, and chart.
 
 </td></tr><tr><td>
 
@@ -137,7 +138,7 @@ This numeric metric shows the total number of search queries submitted.The trend
 
 The chart shows the number of search queries submitted for dates in your selected date range.
 
-![Total queries metric, trend, and chart.](../image/ai-search-analytics-dashboard-total-queries.png)
+\[Omitted image "ai-search-analytics-dashboard-total-queries.png"\] Alt text: Total queries metric, trend, and chart.
 
 </td></tr><tr><td>
 
@@ -149,7 +150,7 @@ This chart shows counts for searches in your selected date range. It includes th
 2.  The number of search results that users clicked \(selected\)
 3.  The number of Genius Result answers that users clicked \(selected\)
 
-![Searches over time chart.](../image/ai-search-analytics-dashboard-searches-over-time.png)
+\[Omitted image "ai-search-analytics-dashboard-searches-over-time.png"\] Alt text: Searches over time chart.
 
 </td></tr><tr><td>
 
@@ -161,7 +162,7 @@ This numeric metric shows the average response time for search queries in millis
 
 The trend describes how the average response time for search queries has changed since the start of your selected date range.
 
-![Average response time metric, chart, and trend.](../image/ai-search-analytics-dashboard-avg-response-time.png)
+\[Omitted image "ai-search-analytics-dashboard-avg-response-time.png"\] Alt text: Average response time metric, chart, and trend.
 
 </td></tr><tr><td>
 
@@ -173,7 +174,7 @@ This numeric metric indicates the average position of user-selected search query
 
 The trend describes how the average click position has changed since the start of your selected date range.
 
-![Average click position metric, chart, and trend.](../image/ai-search-analytics-dashboard-avg-click-position.png)
+\[Omitted image "ai-search-analytics-dashboard-avg-click-position.png"\] Alt text: Average click position metric, chart, and trend.
 
 </td></tr><tr><td>
 
@@ -185,7 +186,7 @@ This metric indicates the percentage of search queries that produced a search re
 
 The trend describes how the self-solved rate has changed since the start of your selected date range.
 
-![Self-solve rate metric, chart, and trend.](../image/ai-search-analytics-dashboard-self-solve-rate.png)
+\[Omitted image "ai-search-analytics-dashboard-self-solve-rate.png"\] Alt text: Self-solve rate metric, chart, and trend.
 
 </td></tr></tbody>
 </table><table id="table_uyh_gk5_1hc"><thead><tr><th>
@@ -214,7 +215,7 @@ This list shows user-submitted search queries.Each entry displays the following 
 
 To view entries for these search queries in the Search Events \[sys\_search\_event\] table, select **View all**.
 
-![Search queries list.](../image/ai-search-analytics-dashboard-search-queries.png)
+\[Omitted image "ai-search-analytics-dashboard-search-queries.png"\] Alt text: Search queries list.
 
 </td></tr></tbody>
 </table><table id="table_xl5_nr5_1hc"><thead><tr><th>
@@ -231,7 +232,7 @@ Top queries
 
 </td><td>
 
-This list shows the most frequently submitted search queries.![Top queries list.](../image/ai-search-analytics-dashboard-top-query-themes.png)
+This list shows the most frequently submitted search queries.\[Omitted image "ai-search-analytics-dashboard-top-query-themes.png"\] Alt text: Top queries list.
 
 To view this list on its own sub-page, select **View all**. To return to the main dashboard from the sub-page, select **AI Search Analytics**.
 
@@ -241,7 +242,7 @@ Queries with no clicks
 
 </td><td>
 
-This list shows the most frequently submitted search queries for which users didn't select any search result.![Queries with no clicks list.](../image/ai-search-analytics-dashboard-queries-zero-clicks-themes.png)
+This list shows the most frequently submitted search queries for which users didn't select any search result.\[Omitted image "ai-search-analytics-dashboard-queries-zero-clicks-themes.png"\] Alt text: Queries with no clicks list.
 
 To view this list on its own sub-page, select **View all**. To return to the main dashboard from the sub-page, select **AI Search Analytics**.
 
@@ -251,7 +252,7 @@ Queries with no results
 
 </td><td>
 
-This list shows the most frequently submitted search queries that produced no results. ![Queries with no results list.](../image/ai-search-analytics-dashboard-queries-no-results-themes.png)
+This list shows the most frequently submitted search queries that produced no results. \[Omitted image "ai-search-analytics-dashboard-queries-no-results-themes.png"\] Alt text: Queries with no results list.
 
 To view this list on its own sub-page, select **View all**. To return to the main dashboard from the sub-page, select **AI Search Analytics**.
 
@@ -270,7 +271,7 @@ Top clicked results
 
 </td><td>
 
-This list shows the most frequently clicked search results.![Top clicked results list.](../image/ai-search-analytics-dashboard-top-clicked-results.png)
+This list shows the most frequently clicked search results.\[Omitted image "ai-search-analytics-dashboard-top-clicked-results.png"\] Alt text: Top clicked results list.
 
 </td></tr></tbody>
 </table>

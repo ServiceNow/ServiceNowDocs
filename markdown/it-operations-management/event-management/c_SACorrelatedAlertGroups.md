@@ -2,6 +2,7 @@
 title: Automated alert grouping
 description: Automated alert grouping is a process that uses historical data to automatically organize similar alerts into groups. These alerts could be system issues, like server errors or network outages. By grouping related alerts together, it helps teams quickly identify patterns, manage recurring problems, and reduce the noise from too many individual alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/c\_SACorrelatedAlertGroups.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -21,7 +22,7 @@ Imagine you’re monitoring a city’s traffic system. You get a lot of alerts�
 
 To enable machine learning-based automation for alert correlation, set the property **Enable ML based Automation correlation** \(sa\_analytics.specific\_patterns\_enabled\) to true.
 
-If the Domain Support - Domain Extensions Installer is activated, alert aggregation patterns are created based on the domain level defined in the sa\_analytics.agg.learner\_domain\_level property. By default, this domain level is set to two, which corresponds to the second level in the domain hierarchy. For example, in a company, Level 1 might represent the company itself, while Level 2 could represent departments or teams within the company. Alerts are grouped based on this second level, like sorting them by department or team. For more details, [Domain separation and Event Management](domain-separation-event-management.md).
+If the Domain Support - Domain Extensions Installer is activated, alert aggregation patterns are created based on the domain level defined in the sa\_analytics.agg.learner\_domain\_level property. By default, this domain level is set to two, which corresponds to the second level in the domain hierarchy. For example, in a company, Level 1 might represent the company itself, while Level 2 could represent departments or teams within the company. Alerts are grouped based on this second level, like sorting them by department or team. For more details, [Domain separation and Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/domain-separation-event-management.md).
 
 ## How does it work
 

@@ -2,6 +2,7 @@
 title: HTML syntax editor
 description: The HTML syntax editor provides support for editing HTML and Jelly scripts and defines what's rendered when the page is displayed. The HTML syntax editor can contain either static XHTML or dynamically generated content defined as Jelly, and can call script includes and UI Macros.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/html-syntax-editor.html
 release: zurich
 product: Scripts
 classification: scripts
@@ -22,7 +23,7 @@ The syntax editor has these features.
 -   Auto-suggestions for HTML and Jelly tags
 -   Script macros for common code shortcuts
 
-![Syntax editor for HTML and Jelly scripts.](../image/HTMLSyntaxEditor.png "HTML syntax editor")
+\[Omitted image "HTMLSyntaxEditor.png"\] Alt text: Syntax editor for HTML and Jelly scripts.
 
 <table id="table_cwn_f3t_3hb"><thead><tr><th>
 
@@ -42,7 +43,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-![Toggle syntax editor icon](../image/toggle-syntax-editor.png)
+\[Omitted image "toggle-syntax-editor.png"\] Alt text: Toggle syntax editor icon
 
 </td><td>
 
@@ -54,11 +55,11 @@ Toggle syntax editor
 
 </td><td>
 
-Disables the syntax editor. Click the Toggle syntax editor icon \(![Toggle syntax editor icon](../image/toggle-syntax-editor.png)\) again to enable the syntax editor.
+Disables the syntax editor. Click the Toggle syntax editor icon \(\[Omitted image "toggle-syntax-editor.png"\] Alt text: Toggle syntax editor icon\) again to enable the syntax editor.
 
 </td></tr><tr><td>
 
-![Toggle comment icon](../image/toggle-comment.png)
+\[Omitted image "toggle-comment.png"\] Alt text: Toggle comment icon
 
 </td><td>
 
@@ -74,7 +75,7 @@ Comments the selected code.
 
 </td></tr><tr><td>
 
-![Replace icon](../image/replace-html-syn-editor.png)
+\[Omitted image "replace-html-syn-editor.png"\] Alt text: Replace icon
 
 </td><td>
 
@@ -86,12 +87,12 @@ Replace
 
 </td><td>
 
-Replaces the next occurrence of a text string in the script field.1.  Click the Replace icon \(![Replace icon](../image/replace-html-syn-editor.png)\), then enter the string to replace, and press Enter. You can use regular expressions enclosed in slashes to define the string to replace. For example, the term `/a{3}/` locates `aaa`.
+Replaces the next occurrence of a text string in the script field.1.  Click the Replace icon \(\[Omitted image "replace-html-syn-editor.png"\] Alt text: Replace icon\), then enter the string to replace, and press Enter. You can use regular expressions enclosed in slashes to define the string to replace. For example, the term `/a{3}/` locates `aaa`.
 2.  Enter the replacement string and press Enter.
 
 </td></tr><tr><td>
 
-![Replace all icon](../image/replace-all.png)
+\[Omitted image "replace-all.png"\] Alt text: Replace all icon
 
 </td><td>
 
@@ -103,12 +104,12 @@ Replace All
 
 </td><td>
 
-Replaces all occurrences of a text string in the script field.1.  Click the Replace all icon \(![Replace all icon](../image/replace-all.png)\), then enter the string to replace and press Enter. You can use regular expressions enclosed in slashes to define the string to replace. For example, the term `/a{3}/` locates `aaa`.
+Replaces all occurrences of a text string in the script field.1.  Click the Replace all icon \(\[Omitted image "replace-all.png"\] Alt text: Replace all icon\), then enter the string to replace and press Enter. You can use regular expressions enclosed in slashes to define the string to replace. For example, the term `/a{3}/` locates `aaa`.
 2.  Enter the replacement string and press Enter.
 
 </td></tr><tr><td>
 
-![Start searching icon](../image/start-searching.png)
+\[Omitted image "start-searching.png"\] Alt text: Start searching icon
 
 </td><td>
 
@@ -120,11 +121,11 @@ Start Searching
 
 </td><td>
 
-Highlights all occurrences of a search term in the script field and locates the first occurrence. Click the Start searching icon \(![Start searching icon](../image/start-searching.png)\), then enter the search term and press Enter.
+Highlights all occurrences of a search term in the script field and locates the first occurrence. Click the Start searching icon \(\[Omitted image "start-searching.png"\] Alt text: Start searching icon\), then enter the search term and press Enter.
 
 </td></tr><tr><td>
 
-![Find next icon](../image/find-next.png)
+\[Omitted image "find-next.png"\] Alt text: Find next icon
 
 </td><td>
 
@@ -136,11 +137,11 @@ Find Next
 
 </td><td>
 
-Locates the next occurrence of the current search term in the script field. Click the Start searching icon \(![Start searching icon](../image/start-searching.png)\) to change the current search term.
+Locates the next occurrence of the current search term in the script field. Click the Start searching icon \(\[Omitted image "start-searching.png"\] Alt text: Start searching icon\) to change the current search term.
 
 </td></tr><tr><td>
 
-![Find previous icon](../image/find-previous.png)
+\[Omitted image "find-previous.png"\] Alt text: Find previous icon
 
 </td><td>
 
@@ -152,11 +153,11 @@ Find Previous
 
 </td><td>
 
-Locates the previous occurrence of the current search term in the script field. Click the Start searching icon \(![Start searching icon](../image/start-searching.png)\) to change the current search term.
+Locates the previous occurrence of the current search term in the script field. Click the Start searching icon \(\[Omitted image "start-searching.png"\] Alt text: Start searching icon\) to change the current search term.
 
 </td></tr><tr><td>
 
-![Toggle full screen icon](../image/toggle-full-screen.png)
+\[Omitted image "toggle-full-screen.png"\] Alt text: Toggle full screen icon
 
 </td><td>
 
@@ -168,11 +169,11 @@ Toggle Full Screen
 
 </td><td>
 
-Expands the script field to use the full form view for easier editing. Click the Toggle full screen icon \(![Toggle full screen icon](../image/toggle-full-screen.png)\) again to return to standard form view. This feature is not available for Internet Explorer.
+Expands the script field to use the full form view for easier editing. Click the Toggle full screen icon \(\[Omitted image "toggle-full-screen.png"\] Alt text: Toggle full screen icon\) again to return to standard form view. This feature is not available for Internet Explorer.
 
 </td></tr><tr><td>
 
-![Help icon](../image/help-html-syn-editor.png)
+\[Omitted image "help-html-syn-editor.png"\] Alt text: Help icon
 
 </td><td>
 
@@ -188,7 +189,7 @@ Displays the keyboard shortcuts help screen.
 
 </td></tr><tr><td>
 
-![Save icon](../image/save.png)
+\[Omitted image "save.png"\] Alt text: Save icon
 
 </td><td>
 
@@ -200,7 +201,7 @@ Save
 
 </td><td>
 
-Saves changes without leaving the current view. Click the Save icon \(![Save icon](../image/save.png)\) in full screen mode to save without returning to standard form view.
+Saves changes without leaving the current view. Click the Save icon \(\[Omitted image "save.png"\] Alt text: Save icon\) in full screen mode to save without returning to standard form view.
 
 </td></tr></tbody>
 </table>## Editing tips
@@ -210,5 +211,5 @@ Saves changes without leaving the current view. Click the Save icon \(![Save ico
 -   To indent one or more lines of code, select the code and then press Tab. To decrease the indentation, press Shift+Tab.
 -   To remove one tab from the start of a line of code, click in the line and press Shift+Tab.
 
-**Parent Topic:**[Scripting](../../topic/c_Script.md)
+**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_Script.md)
 

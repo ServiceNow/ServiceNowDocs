@@ -2,6 +2,7 @@
 title: View and participate in a community event
 description: You can view details for published events and perform tasks such as responding to the event or adding it to your calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/communities/participate-event.html
 release: zurich
 product: Communities
 classification: communities
@@ -94,7 +95,7 @@ Top five most popular past events and the number of community users that were in
     -   If an event is updated, and you responded **Yes**, **Waitlist**, or **Maybe**, you receive an email notification based on your notification preferences.
 6.  Click **...** to perform one of the following actions.
 
-<table id="choicetable_mwq_zkn_1bb"><tbody><tr><td id="d157344e320">
+<table id="choicetable_mwq_zkn_1bb"><tbody><tr><td id="d156133e320">
 
 **Add to calendar**
 
@@ -102,7 +103,7 @@ Top five most popular past events and the number of community users that were in
 
 Downloads an .ics file that you can add to your calendar. The file includes the title and description of the event, the event location, start and end dates, the event time, and any attachments. If guests have chosen not to share details, the information is not displayed in the file.
 
-</td></tr><tr><td id="d157344e329">
+</td></tr><tr><td id="d156133e329">
 
 **Bookmark**
 
@@ -110,7 +111,7 @@ Downloads an .ics file that you can add to your calendar. The file includes the 
 
 The event appears in your bookmarks list on your profile page. Click **Remove Bookmark** to delete a bookmark.
 
-</td></tr><tr><td id="d157344e341">
+</td></tr><tr><td id="d156133e341">
 
 **Report content**
 
@@ -120,5 +121,5 @@ Click **Report content** to report inappropriate content in the event.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Community events](community-events.md)
+**Parent Topic:**[Community events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/community-events.md)
 

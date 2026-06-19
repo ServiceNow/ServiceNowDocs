@@ -2,6 +2,7 @@
 title: Add Teams Chat widget
 description: Add the Teams Chat widget to enable employees to view or continue chats with agents and view and access the content of attached files in the Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/add-teams-chat-widget-hr.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,7 +28,7 @@ Role required: sp\_admin
 
 3.  On the Ticket Configuration form, fill in the fields.
 
-    For more information about the field descriptions, see [Configure the standard ticket page](https://www.servicenow.com/docs/access?context=configure-st-page&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    For more information about the field descriptions, see Configure the standard ticket page.
 
 4.  Right-click in the page header and select **Save**.
 
@@ -138,5 +139,5 @@ Comma-separated list of tab widget parameters. This field appears only when **Cu
 
 A Teams Chat tab is added in each record of the Employee Center My Request page for the configured ticket type or table.
 
-**Parent Topic:**[Microsoft Teams Chat widget in Employee Center](../concept/config-std-ticket-page-teams-hr.md)
+**Parent Topic:**[Microsoft Teams Chat widget in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/config-std-ticket-page-teams-hr.md)
 

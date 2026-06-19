@@ -2,6 +2,7 @@
 title: Using language detection and dynamic machine translation in Virtual Agent enhanced chat conversations
 description: Enable a combination of language detection and machine translation for Virtual Agent to improve the chat experience for diverse users. You can designate fallback languages for locales or dynamically translate languages that are not professionally localized or are not supported in topic discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/dynamic-lang-detection-translation-enhanced-chat.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -21,11 +22,11 @@ Guest conversations do not support language detection if resumable guest session
 
 You can use language detection to support custom or locale-specific language codes as well. For example, you could designate Spanish \(es\) as the fallback language for Mexican Spanish \(es-mx\) to ensure that those users have a good customer experience.
 
-Virtual Agent conversations can be dynamically translated. Virtual Agent uses platform translations and if no platform translations are found, then Dynamic Translation is used instead. If some conversations have been professionally translated, you should disable dynamic translation for those specific languages. Expert translations may be more accurate and of higher quality than machine translations. Prior to making a dynamic translation call, the Text Translations for Dynamic Translation \[sys\_cs\_dynamic\_translation\_text\] and Message \[sys\_ui\_message\] tables are checked to see if the text has been previously translated or already has a localization record. A dynamic translation call is only made if no translation exists in either table. After a dynamic translation call is made and that text is translated, that translated text is stored in the Text Translations for Dynamic Translation \[sys\_cs\_dynamic\_translation\_text\] table for future use. This table is cleared every 24 hours to ensure that the most up-to-date translations stored in the Message \[sys\_ui\_message\] table are being referenced. Storing previously translated text results in fewer dynamic translation calls to third-party translation services. For more information about localizing Virtual Agent conversations, see [Localizing Virtual Agent conversations](localize-va-topic.md).
+Virtual Agent conversations can be dynamically translated. Virtual Agent uses platform translations and if no platform translations are found, then Dynamic Translation is used instead. If some conversations have been professionally translated, you should disable dynamic translation for those specific languages. Expert translations may be more accurate and of higher quality than machine translations. Prior to making a dynamic translation call, the Text Translations for Dynamic Translation \[sys\_cs\_dynamic\_translation\_text\] and Message \[sys\_ui\_message\] tables are checked to see if the text has been previously translated or already has a localization record. A dynamic translation call is only made if no translation exists in either table. After a dynamic translation call is made and that text is translated, that translated text is stored in the Text Translations for Dynamic Translation \[sys\_cs\_dynamic\_translation\_text\] table for future use. This table is cleared every 24 hours to ensure that the most up-to-date translations stored in the Message \[sys\_ui\_message\] table are being referenced. Storing previously translated text results in fewer dynamic translation calls to third-party translation services. For more information about localizing Virtual Agent conversations, see [Localizing Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/localize-va-topic.md).
 
 You can use Dynamic Translation during the localization process as well. If you are localizing conversations with professional linguists, you can enable Dynamic Translation while some topics and strings remain untranslated. When your deployment in that language is complete, you can disable Dynamic Translation, since professional translations are likely more accurate.
 
-![Video link](../../conversational-interfaces/image/icon-video-link.png) [Virtual Agent Academy: Dynamically translate languages in Virtual Agent](https://www.youtube.com/watch?v=QiwwPii5rq4&list=PLkGSnjw5y2U79gjQuQW-2GBqzEccwFkWH&index=5) Watch this video for a demonstration of using Virtual Agent with Dynamic Translation.
+\[Omitted image "icon-video-link.png"\] Alt text: Video link [Virtual Agent Academy: Dynamically translate languages in Virtual Agent](https://www.youtube.com/watch?v=QiwwPii5rq4&list=PLkGSnjw5y2U79gjQuQW-2GBqzEccwFkWH&index=5) Watch this video for a demonstration of using Virtual Agent with Dynamic Translation.
 
 **Note:** You can use language detection independently of Dynamic Translation. Language detection only occurs at the beginning of the conversation, while a Topic Picker is present. It doesn't apply when a user tries to switch the language in the middle of a topic.
 
@@ -33,7 +34,7 @@ You can use Dynamic Translation during the localization process as well. If you 
 
 When you enable language detection and Dynamic Translation for Virtual Agent for other languages, a variety of diverse users gain access to your Virtual Agent chat environment.
 
-For more information on enabling language detection, see [Enable Dynamic Translation for languages in Virtual Agent](../task/enable-dynamic-lang-detection.md). For more information on enabling dynamic translation, see [Configure multilingual service for Now Assist applications](../../now-assist-admin/task/enable-dynamic-translation-for-now-assist-applications.md).
+For more information on enabling language detection, see [Enable Dynamic Translation for languages in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-dynamic-lang-detection.md). For more information on enabling dynamic translation, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.md).
 
 Language detection is only applicable to the first utterance entered into the conversation. Conversational language switching cannot occur mid-conversation. During LLM enhanced chat conversations, the conversational language automatically switches to the user's detected language. This automatic switch can occur when a user enters an utterance at the start of a new conversation or within the home page’s search field. If the conversational language does not automatically switch to the detected language, the preferred conversational language continues. The following list details the few exceptions in an enhanced chat conversation that would not automatically switch the conversational language:
 
@@ -50,7 +51,7 @@ The default system language sets all users’ default session language. That us
 
 The following examples show how a conversational language can be impacted depending upon the language detection and dynamic translation settings:
 
-**Note:** If you create exclusion rules for Dynamic Translation, those excluded terms are honored during Dynamic Translation. For more information about the Exclusion Framework, see [Exclusion Framework in Dynamic Translation](https://www.servicenow.com/docs/access?context=dyn-translation-exclusion-framework&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** If you create exclusion rules for Dynamic Translation, those excluded terms are honored during Dynamic Translation. For more information about the Exclusion Framework, see Exclusion Framework in Dynamic Translation.
 
 <table id="table_r24_xr4_ftb"><thead><tr><th>
 
@@ -90,19 +91,19 @@ If the detected language is enabled for dynamic translation in Virtual Agent Cha
 -   When the conversation has closed and restarted, the language used in the next conversation is the preferred conversational language.
 -   If a user's detected language is the same as the preferred language, the user does not switch languages.
 -   If a user's detected language has no fallback language specified and dynamic translation is not enabled for it, the conversation continues in the preferred language.
--   If a user's detected language is not activated on the instance, the conversation continues in the preferred language. For more information, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+-   If a user's detected language is not activated on the instance, the conversation continues in the preferred language. For more information, see Activate a language.
 
 **Note:** AI Search results are not translated.
 
 ## Dynamic Translation and Agent Chat
 
-If Dynamic Translation is enabled on Virtual Agent but turned off for Agent Chat, the live agent will see what the user sees. If the user started the conversation in another language and the conversational language switches, then the live agent will see the conversation in the user's detected language. This may cause some confusion for both the agent and the customer. To resolve this issue, consider turning on Dynamic Translation for Agent Chat as well. For details, see [Configuring Dynamic Translation for Agent Chat](../../conversational-interfaces/concept/configure-dtac.md).
+If Dynamic Translation is enabled on Virtual Agent but turned off for Agent Chat, the live agent will see what the user sees. If the user started the conversation in another language and the conversational language switches, then the live agent will see the conversation in the user's detected language. This may cause some confusion for both the agent and the customer. To resolve this issue, consider turning on Dynamic Translation for Agent Chat as well. For details, see [Configuring Dynamic Translation for Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/agent-chat/configure-dtac.md).
 
 ## Supported languages
 
-For better results, install the ServiceNow language plugins for each language that uses dynamic translation. For a detailed list of language plugins, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For better results, install the ServiceNow language plugins for each language that uses dynamic translation. For a detailed list of language plugins, see Activate a language.
 
-You can enable dynamic translation for languages that are not currently supported on the ServiceNow platform. For details, see [Enable Dynamic Translation for an unsupported language](../task/enable-dt-unsupported-language.md).
+You can enable dynamic translation for languages that are not currently supported on the ServiceNow platform. For details, see [Enable Dynamic Translation for an unsupported language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-dt-unsupported-language.md).
 
 ## Supported channels
 
@@ -126,5 +127,5 @@ The following channels do not support Dynamic Translation for Virtual Agent:
 -   Google Assistant
 -   Siri
 
-**Parent Topic:**[Localization options for Virtual Agent](multi-language-options-va.md)
+**Parent Topic:**[Localization options for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/multi-language-options-va.md)
 

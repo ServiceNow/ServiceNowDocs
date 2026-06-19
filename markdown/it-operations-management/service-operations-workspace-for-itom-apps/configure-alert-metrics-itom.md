@@ -2,6 +2,7 @@
 title: Configure alert metrics
 description: Configure the metrics you want to be visible for Service Operations Workspace alerts or use the metrics configured with the base system to focus on relevant data for faster troubleshooting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/configure-alert-metrics-itom.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -25,13 +26,13 @@ Role required: evt\_mgmt\_admin
 
 1.  Navigate to **All** &gt; **Event Management** &gt; **Administration** &gt; **Metrics View Configuration**.
 
-    ![Metrics view configuration page](../image/sow-metrics-view-config.png)
+    \[Omitted image "sow-metrics-view-config.png"\] Alt text: Metrics view configuration page
 
 2.  On the Metrics View Configuration page, select **New**.
 
 3.  On the form, fill in the fields.
 
-    For information on the fields, see [Metrics View Configuration form fields](../reference/metrics-view-config-fields.md).
+    For information on the fields, see [Metrics View Configuration form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/metrics-view-config-fields.md).
 
 4.  Select **Submit**.
 

@@ -2,6 +2,7 @@
 title: Modify important actions on the Governance view of Service Graph Workspace
 description: Modify the appearance order and other properties of the important action cards that appear on the Governance view of Service Graph Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-edit-imp-action.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

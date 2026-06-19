@@ -2,6 +2,7 @@
 title: Contexts in Recommended Actions for ITSM
 description: The ITSM base system includes the following context.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/contexts-in-recommended-actions-for-itsm.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -88,5 +89,5 @@ Request
 This will allow you to search for AI powered recommendations for requests in Service Operations Workspace.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Recommended Actions for ITSM reference](../concept/recommended-actions-for-itsm-reference.md)
+</table>**Parent Topic:**[Recommended Actions for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/recommended-actions-for-itsm-reference.md)
 

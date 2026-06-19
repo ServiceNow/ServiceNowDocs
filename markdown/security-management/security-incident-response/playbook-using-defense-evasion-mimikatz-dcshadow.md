@@ -2,6 +2,7 @@
 title: Use the T1003 - Defense Evasion - Mimikatz DCShadow playbook
 description: Use this playbook to investigate security incidents suspected to be caused by Mimikatz DCShadow. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the T1003 - Defense Evasion - Mimikatz DCShadow playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/playbook-using-defense-evasion-mimikatz-dcshadow.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -34,8 +35,6 @@ Role required:
 
 4.  In Action 4, if the user provided a valid business justification, perform the following steps:
 
-    ![Response task to check whether the user provided a valid business justification](../image/playbook-mimikatz-dcshadow-overview.png "T1003 - Defense Evasion - Mimikatz DCShadow playbook")
-
     1.  In Action 5, document the findings so far.
 
     2.  In Action 6, initiate a post incident review.
@@ -43,8 +42,6 @@ Role required:
         In Action 7, after the post incident review, the flow ends.
 
 5.  In Action 8, if the user didn’t provide a valid business justification, perform the following steps:
-
-    ![Response tasks when the user didn't provide a valid business justification.](../image/playbook-mimikatz-dcshadow-investigate.png "Using the T1003 - Defense Evasion - Mimikatz DCShadow playbook")
 
     1.  In Action 9, lock down or quarantine all the accounts, computers, and other devices involved.
 
@@ -57,5 +54,5 @@ Role required:
     5.  In Action 13, complete the post-incident review before closing the task.
 
 
-**Parent Topic:**[Playbook for T1003 - Defense Evasion - Mimikatz DCShadow](../concept/playbook-defense-evasion-mimikatz-dcshadow.md)
+**Parent Topic:**[Playbook for T1003 - Defense Evasion - Mimikatz DCShadow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/playbook-defense-evasion-mimikatz-dcshadow.md)
 

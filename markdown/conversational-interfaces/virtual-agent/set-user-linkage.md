@@ -2,6 +2,7 @@
 title: Redirect user authentication to a Service Portal
 description: After installing a pre-built Conversational Integration \(for messaging apps, Consumer apps or voice apps\), you can specify a Service Portal in which unauthenticated end users complete the user authentication step \(user account linking\), instead of in their ServiceNow instance. Users who do not have linked accounts complete authentication before continuing with the virtual agent in the messaging application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/set-user-linkage.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -34,7 +35,7 @@ Role required: admin
 
 ## Result
 
-When unauthenticated users start a conversation with the virtual agent for the first time in the messaging integration, they are redirected to the Service Portal specified for the provider in the Provider Auth table. After they log in to the Service Portal, they are prompted to [link their ServiceNow account to the messaging application](link-accounts-with-virtual-agent.md).
+When unauthenticated users start a conversation with the virtual agent for the first time in the messaging integration, they are redirected to the Service Portal specified for the provider in the Provider Auth table. After they log in to the Service Portal, they are prompted to [link their ServiceNow account to the messaging application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/link-accounts-with-virtual-agent.md).
 
-**Parent Topic:**[Integrating Virtual Agent with messaging apps](../concept/va-integration-messaging-apps.md)
+**Parent Topic:**[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md)
 

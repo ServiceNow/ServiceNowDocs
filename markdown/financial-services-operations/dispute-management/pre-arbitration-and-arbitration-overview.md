@@ -2,6 +2,7 @@
 title: About pre-arbitration and arbitration
 description: The Card dispute playbook integration with Visa supports pre-arbitration and arbitration workflows. Initiate pre-arbitration and arbitration workflows to resolve unresolved disputes between issuers and acquirers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/pre-arbitration-and-arbitration-overview.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -62,10 +63,10 @@ Allocation
 Acquirer
 
 </td></tr></tbody>
-</table>-   **[Allocation workflow overview](allocation-workflow.md)**  
+</table>-   **[Allocation workflow overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/allocation-workflow.md)**  
 The allocation workflow involves the acquirer initiating pre-arbitration and arbitration for fraud and authorization disputes.
--   **[Collaboration workflow overview](collaboration-workflow.md)**  
+-   **[Collaboration workflow overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/collaboration-workflow.md)**  
 The collaboration workflow involves the issuer initiating pre-arbitration and arbitration for processing errors and consumer disputes.
 
-**Parent Topic:**[Managing disputes integrated with Visa](work-on-a-dispute-case-integrated-with-visa.md)
+**Parent Topic:**[Managing disputes integrated with Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/work-on-a-dispute-case-integrated-with-visa.md)
 

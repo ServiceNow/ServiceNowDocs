@@ -2,6 +2,7 @@
 title: Change Service State activity
 description: The Change Service State activity starts or stops a Windows service on a remote system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/orchestration/r\_ChangeServiceState.html
 release: zurich
 product: Orchestration
 classification: orchestration
@@ -15,7 +16,7 @@ breadcrumb: [PowerShell activity pack, Orchestration activity packs, Classic Orc
 
 The Change Service State activity starts or stops a Windows service on a remote system.
 
-This activity replaces a Powershell activity by the same name available in releases prior to Istanbul. If you have a workflow created in a previous version that uses the deprecated activity, your workflow will continue to work normally after upgrading to Istanbul. However, all new workflows must use the custom version of this activity. This activity was built with the [Powershell activity template](../../orchestration-activity-designer/task/t_CreateAPowershellActivity.md#), which gives workflow administrators the ability to store input and output variables in the [databus](../../orchestration-activity-designer/concept/c_OrchestrationDatabus.md#).
+This activity replaces a Powershell activity by the same name available in releases prior to Istanbul. If you have a workflow created in a previous version that uses the deprecated activity, your workflow will continue to work normally after upgrading to Istanbul. However, all new workflows must use the custom version of this activity. This activity was built with the [Powershell activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateAPowershellActivity.md), which gives workflow administrators the ability to store input and output variables in the [databus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_OrchestrationDatabus.md).
 
 ## Input Variables
 
@@ -29,7 +30,7 @@ This activity replaces a Powershell activity by the same name available in relea
 
 |Variable|Description|
 |--------|-----------|
-|errorMessage|The **executionResult.errorMessages** from the [Activity designer parsing sources](../../orchestration-activity-designer/task/t_CreateAParsingRule.md#). If there is no error, this value is null.|
+|errorMessage|The **executionResult.errorMessages** from the [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateAParsingRule.md). If there is no error, this value is null.|
 
 ## Conditions
 
@@ -38,5 +39,5 @@ This activity replaces a Powershell activity by the same name available in relea
 |Success|The target service was successfully started or stopped.|
 |Failure|The update to the target service was unsuccessful, or the service was not found on the target system.|
 
-**Parent Topic:**[PowerShell activity pack](../concept/c_OrchestrPwrshellActivityPack.md)
+**Parent Topic:**[PowerShell activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_OrchestrPwrshellActivityPack.md)
 

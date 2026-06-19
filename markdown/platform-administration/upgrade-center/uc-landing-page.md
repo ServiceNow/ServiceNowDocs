@@ -2,6 +2,7 @@
 title: Upgrade Center
 description: Use ServiceNow Upgrade Center
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/upgrade-center/uc-landing-page.html
 release: zurich
 product: Upgrade Center
 classification: upgrade-center
@@ -19,19 +20,19 @@ Use ServiceNow® Upgrade Center
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../common/image/icon-explore.png)Learn about Upgrade Center](uc-explore.md)
+[Explore\[Omitted image "icon-explore.png"\] Alt text:Learn about Upgrade Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-center/uc-explore.md)
 
 </td><td>
 
-[Use![](../image/uc-review-icon.png) Preview, schedule, monitor and review your upgrade](uc-using.md)
+[Use\[Omitted image "uc-review-icon.png"\] Alt text: Preview, schedule, monitor and review your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-center/uc-using.md)
 
 </td></tr><tr><td>
 
-[Administer![](../image/uc-administer-icon.png)Administering Upgrade Center](../reference/uc-administration.md)
+[Administer\[Omitted image "uc-administer-icon.png"\] Alt text:Administering Upgrade Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-center/uc-administration.md)
 
 </td><td>
 
-[Reference![](../image/uc-reference-icon.png) Learn miscellaneous information about Upgrade Center](../reference/uc-reference.md)
+[Reference\[Omitted image "uc-reference-icon.png"\] Alt text: Learn miscellaneous information about Upgrade Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-center/uc-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

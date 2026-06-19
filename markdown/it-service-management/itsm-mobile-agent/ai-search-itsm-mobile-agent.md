@@ -2,6 +2,7 @@
 title: AI Search in ITSM Mobile Agent
 description: Intelligent query features enable agents to quickly find the required answers in ITSM Mobile Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/ai-search-itsm-mobile-agent.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -34,14 +35,14 @@ AI Search in ITSM Mobile Agent offers the following features:
 -   Synonym handling: The search engine also looks for words similar to the search term.
 -   Genius cards: Genius result cards display the most relevant answers.
 
-![Screenshot for ITSM Mobile Agent](../image/itsm-mobile-agent.png "ITSM Mobile Agent")
+\[Omitted image "itsm-mobile-agent.png"\] Alt text: Screenshot for ITSM Mobile Agent
 
-For information about AI search, see [AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For information about AI search, see AI Search.
 
-For information about AI search in mobile, see [AI Search in mobile](https://www.servicenow.com/docs/access?context=text-search-advanced-now&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+For information about AI search in mobile, see AI Search in mobile.
 
 The following configurations are added for AI search experience in ITSM Mobile Agent:
 
--   A search application configuration, \[AIS\] ITSM Mobile Agent Search Configuration. For information about search application configurations, see [Search application configurations](https://www.servicenow.com/docs/access?context=defining-search-app-cfgs-ais&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
--   A search profile, ITSM Mobile Agent Search Profile. For information about search profiles, see [Search profiles](https://www.servicenow.com/docs/access?context=defining-search-profiles-ais&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+-   A search application configuration, \[AIS\] ITSM Mobile Agent Search Configuration. For information about search application configurations, see Search application configurations.
+-   A search profile, ITSM Mobile Agent Search Profile. For information about search profiles, see Search profiles.
 

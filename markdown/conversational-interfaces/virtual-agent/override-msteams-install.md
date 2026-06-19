@@ -2,6 +2,7 @@
 title: Override Microsoft Teams integration
 description: Override Virtual Agent integration with Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/override-msteams-install.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -23,9 +24,9 @@ Role required: admin or virtual\_agent\_admin
 
 Before Tokyo release, an admin was able to override a Microsoft Teams installation that is associated with an instance with a different ServiceNow instance.
 
-Starting from Tokyo release, if you intend to associate your Microsoft Teams tenant with a new ServiceNow instance, contact the administrator to uninstall the tenant from the previously associated instance.![Microsoft Teams integration removal message.](../images/msteams-new-proceed-uninstall.png)
+Starting from Tokyo release, if you intend to associate your Microsoft Teams tenant with a new ServiceNow instance, contact the administrator to uninstall the tenant from the previously associated instance.\[Omitted image "msteams-new-proceed-uninstall.png"\] Alt text: Microsoft Teams integration removal message.
 
-**Important:** The instructions in [Remove Conversational Integration with Microsoft Teams](uninstall_va_msteams.md) are only applicable when both instances are compatible with Tokyo and following releases. If one of your ServiceNow instances is on the Tokyo release and another on a release prior to Tokyo, use the following steps.
+**Important:** The instructions in [Remove Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/uninstall_va_msteams.md) are only applicable when both instances are compatible with Tokyo and following releases. If one of your ServiceNow instances is on the Tokyo release and another on a release prior to Tokyo, use the following steps.
 
 ## Procedure
 
@@ -41,8 +42,8 @@ Starting from Tokyo release, if you intend to associate your Microsoft Teams ten
 
 4.  Select **Override** to associate the instance with a new tenant.
 
-    ![Microsoft Teams override installation.](../images/msteams-new-override.png)
+    \[Omitted image "msteams-new-override.png"\] Alt text: Microsoft Teams override installation.
 
 
-**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams](../concept/va-integ-msteams.md)
+**Parent Topic:**[Integrate Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integ-msteams.md)
 

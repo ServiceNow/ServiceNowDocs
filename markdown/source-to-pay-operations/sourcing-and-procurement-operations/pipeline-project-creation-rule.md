@@ -2,6 +2,7 @@
 title: Pipeline project creation rule for high-value sourcing requests
 description: By default, the Pipeline project creation rule decision table is used to create pipeline projects automatically in Sourcing Pipeline Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-project-creation-rule.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -17,9 +18,9 @@ By default, the Pipeline project creation rule decision table is used to create 
 
 **Note:** You must have the `sn_spend_pipeline.pipeline_management_admin` role to update the Pipeline project creation rule decision table configuration.
 
-The `sn_spend_pipeline.pipeline_management_admin` role contains the `decision_table_admin` role, which enables you to create, read, edit, and delete decision table inputs, columns, and values. For more information about configuring decision tables, see [Configuring decision tables](https://www.servicenow.com/docs/access?context=configuring-decision-builder&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+The `sn_spend_pipeline.pipeline_management_admin` role contains the `decision_table_admin` role, which enables you to create, read, edit, and delete decision table inputs, columns, and values. For more information about configuring decision tables, see .
 
-![Pipeline project creation rule.](../image/pipeline-decision-table.png)
+\[Omitted image "pipeline-decision-table.png"\] Alt text: Pipeline project creation rule.
 
 When a shopper requests pricing for items over $250,000 through Shopping Hub or via Employee Center using the default "I need a product" record producer, specific decision inputs are triggered. If the shopper enters a budget greater than $250,000, the system automatically evaluates these decision inputs to apply the rule conditions:
 
@@ -33,5 +34,5 @@ The Pipeline project creation rule is applied to the **Budget** field in the Sou
 
 **Note:** The **Budget** field controls the creation of pipeline projects based on the entered amount. If the currency is different from the USD, it's converted to USD before the rule conditions are applied.
 
-**Parent Topic:**[Sourcing Pipeline Management](spo-sourcing-pipeline-mgmt.md)
+**Parent Topic:**[Sourcing Pipeline Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/spo-sourcing-pipeline-mgmt.md)
 

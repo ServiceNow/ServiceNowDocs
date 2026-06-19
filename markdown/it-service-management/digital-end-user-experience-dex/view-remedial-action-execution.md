@@ -2,6 +2,7 @@
 title: View remedial action execution
 description: Monitor in-progress and completed remedial actions across all devices from the Remedial action executions page in DEX Administration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/view-remedial-action-execution.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

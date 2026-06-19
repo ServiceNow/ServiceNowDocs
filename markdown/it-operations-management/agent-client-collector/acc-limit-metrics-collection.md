@@ -2,6 +2,7 @@
 title: Limit metrics collection and evaluation
 description: You can limit the metrics you send from the MID Server to the instance, either by de-activating a specific CI or an entire CI type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-limit-metrics-collection.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -27,7 +28,7 @@ Role required: agent\_client\_collector\_admin
 
         The **Metric to CI Mappings** page appears.
 
-        ![Metric to CI Mappings page](../image/metric-to-ci-mappings.png "Metric to CI Mappings")
+        \[Omitted image "metric-to-ci-mappings.png"\] Alt text: Metric to CI Mappings page
 
         **Note:** The Metric to CI Mapping is identified by both its metric identifier and its configuration item.
 
@@ -39,7 +40,7 @@ Role required: agent\_client\_collector\_admin
 
         The **Monitoring System Metric Types** page appears.
 
-        ![Monitoring System Metric Types page](../image/monitoring-system-metric-types.png "Monitoring System Metric Types")
+        \[Omitted image "monitoring-system-metric-types.png"\] Alt text: Monitoring System Metric Types page
 
     2.  To prevent sending metrics for a metric type, set the value of the **Active** column to **false**.
 

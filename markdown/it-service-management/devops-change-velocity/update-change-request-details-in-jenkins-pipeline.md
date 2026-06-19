@@ -2,11 +2,12 @@
 title: Update change request details in Jenkins pipeline
 description: Update the change request details associated with a Jenkins pipeline by running the snDevOpsUpdateChangeInfo script in the pipeline.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/update-change-request-details-in-jenkins-pipeline.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Additional information - Jenkins, Jenkins, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -31,13 +32,13 @@ Specify the change request state as an integer value:
 -   4 - Cancel \(Value set in the sn\_devops.change\_request.cancel\_state property\)
 -   3 - Closed \(Value set in the sn\_devops.change\_request.closed\_state property\)
 
-When you update a choice field, you must specify a valid choice value that is available in the corresponding choice list. For example, the choice list values for the **Close code** field are successful, successful\_issues, and unsuccessful. ![Choice values for the Close code field](../image/choice-field-update-change.png)
+When you update a choice field, you must specify a valid choice value that is available in the corresponding choice list. For example, the choice list values for the **Close code** field are successful, successful\_issues, and unsuccessful. \[Omitted image "choice-field-update-change.png"\] Alt text: Choice values for the Close code field
 
 ## Procedure
 
 1.  In your Jenkins dashboard, open the pipeline for which you want to update the change request details.
 
-2.  Navigate to **Configure &gt; Pipeline**. ![Pipeline script section in Jenkins](../image/jenkins-script-pipeline.png)
+2.  Navigate to **Configure &gt; Pipeline**. \[Omitted image "jenkins-script-pipeline.png"\] Alt text: Pipeline script section in Jenkins
 
 3.  In the Pipeline script section, update the `snDevOpsUpdateChangeInfo` script with the following input parameters:
 

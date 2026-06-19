@@ -2,6 +2,7 @@
 title: Using agentic workflows in Now Assist for Integrated Risk Management \(IRM\)
 description: Use the Integrated Risk Management AI agent collection to help complete tasks autonomously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -79,5 +80,5 @@ Helps risk managers and entity owners identify risks for an entity, minimize man
 Risk Suggestion AI agent
 
 </td></tr></tbody>
-</table>For more information on language support, see [Multilingual service for Now Assist](https://www.servicenow.com/docs/access?context=translation-for-now-assist&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) and [Multilingual support for ServiceNow generative AI products](https://www.servicenow.com/community/now-assist-articles/multilingual-support-for-servicenow-generative-ai-products/ta-p/3099258).
+</table>For more information on language support, see  and [Multilingual support for ServiceNow generative AI products](https://www.servicenow.com/community/now-assist-articles/multilingual-support-for-servicenow-generative-ai-products/ta-p/3099258).
 

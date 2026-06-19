@@ -2,6 +2,7 @@
 title: Create a risk assessment project
 description: Create a risk assessment project to perform assessments on multiple risks and controls simultaneously using Risk Workspace. You can define the project context, including the assessable entity, Risk assessment methodology \(RAM\), project name, description, and identify and add stakeholders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/create-risk-assessment-project.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -23,7 +24,7 @@ Role required: sn\_risk\_advanced.project\_user or sn\_risk\_workspace.operation
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Select the list ![list icon.](../../grc-compliance-case-mgmt/image/list-icon.png) icon.
+2.  Select the list \[Omitted image "list-icon-risk-workspace.png"\] Alt text: list icon. icon.
 
 3.  From the list, navigate to **Risk assessment projects** and select **New**.
 
@@ -156,5 +157,5 @@ Watchlist users from the assessable entity stakeholders list. This field appears
     The project moves to the Assess stage, and a notification goes to the assessor.
 
 
-**Parent Topic:**[Risk assessment project](../concept/risk-assessment-project.md)
+**Parent Topic:**[Risk assessment project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-project.md)
 

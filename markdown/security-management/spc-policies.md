@@ -2,6 +2,7 @@
 title: Use cases, policy examples, and supported service graph connectors in Security Posture Control
 description: Use cases are different scenarios that you configure to help you identify specific types of tool coverage gaps. Each use case requires a policy or policies to audit your assets for potential violations. You can also define your own policies to help you fulfill requirements for your specific internal security standards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/spc-policies.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -27,7 +28,7 @@ The Key use cases tab on the Home landing pages does not list all the possible u
 
 Before you activate policies for the supported use cases provided with the application verify you have completed the following tasks.
 
--   You have installed and configured all the required applications described in [Install the supported applications for Security Posture Control](../task/spc-install.md).
+-   You have installed and configured all the required applications described in [Install the supported applications for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-install.md).
 -   You have met one or more of the following prerequisites for each use case. 
 
 1.  You are currently using or you install and activate service graph connectors for various categories.
@@ -41,9 +42,9 @@ Specific requirements for each supported use case are described in the following
 
 ## Examples of base, child, and cloned policies
 
-See [Examples of base, child, and cloned policies for Security Posture Control](spc-policy-examples.md) and how you can reuse the conditions of a base policy when you create other policies. Create base, child policies and cloning existing policies in these examples. These examples also help you see how the policy builder works in the Policies and findings module.
+See [Examples of base, child, and cloned policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-policy-examples.md) and how you can reuse the conditions of a base policy when you create other policies. Create base, child policies and cloning existing policies in these examples. These examples also help you see how the policy builder works in the Policies and findings module.
 
 ## Supported service graph connectors
 
-See tables of supported service graph connectors, their tool categories, and the types of data they import in [Supported hardware service graph connectors for Security Posture Control](../reference/scp-hw-connectors-ci-classes.md) and [Supported software service graph connectors for Security Posture Control](../reference/spc-connector-types-ci-classes.md).
+See tables of supported service graph connectors, their tool categories, and the types of data they import in [Supported hardware service graph connectors for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/scp-hw-connectors-ci-classes.md) and [Supported software service graph connectors for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-connector-types-ci-classes.md).
 

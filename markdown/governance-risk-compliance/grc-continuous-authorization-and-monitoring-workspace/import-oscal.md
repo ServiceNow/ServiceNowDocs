@@ -2,6 +2,7 @@
 title: Import in OSCAL format
 description: Import Open Security Controls Assessment Language \(OSCAL\) formatted Catalog, System Security Plan \(SSP\), and Plan of Action and Milestones \(POA&amp;M\) into Continuous Authorization and Monitoring using a guided playbook experience that validates data and manages conflicts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal.html
 release: zurich
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -31,20 +32,20 @@ The import process follows these structured stages.
 
 For step-by-step instructions on importing each OSCAL model, see the following topics:
 
--   [Import OSCAL catalog](../task/import-oscal-cam-ws.md)
--   [Import OSCAL SSP](../task/import-oscal-ssp-cam-ws.md)
--   [Import OSCAL POA&amp;M](../task/import-oscal-poa-m.md)
+-   [Import OSCAL catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal-cam-ws.md)
+-   [Import OSCAL SSP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal-ssp-cam-ws.md)
+-   [Import OSCAL POA&amp;M](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal-poa-m.md)
 
 For more information on the OSCAL import error and control catalog, see the [OSCAL Import \[KB1794095\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1794095) article in the Now Support Knowledge Base.
 
--   **[Import OSCAL catalog](../task/import-oscal-cam-ws.md)**  
+-   **[Import OSCAL catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal-cam-ws.md)**  
 Import Open Security Controls Assessment Language \(OSCAL\) JSON format in the Catalog files into CAM workspace. This task focuses on uploading and processing the required JSON files to begin the import process.
--   **[Import OSCAL SSP](../task/import-oscal-ssp-cam-ws.md)**  
+-   **[Import OSCAL SSP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal-ssp-cam-ws.md)**  
 Import Open Security Controls Assessment Language \(OSCAL\) files in the System Security Plan \(SSP\) model into Continuous Authorization and Monitoring workspace. Import OSCAL SSP enables you import authorization packages, authorization boundary, controls, and others in OSCAL format.
--   **[Import OSCAL POA&amp;M](../task/import-oscal-poa-m.md)**  
+-   **[Import OSCAL POA&amp;M](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal-poa-m.md)**  
 Import Open Security Controls Assessment Language \(OSCAL\) Plans of Action and Milestones \(POA&amp;M\) JSON files by selecting the **POA&amp;M** model into Continuous Authorization and Monitoring workspace. Import OSCAL POA&amp;M action enables you to upload POA&amp;Ms files and link it to CAM relevant objects like controls, authorization packages, engagements, and others in OSCAL format.
--   **[Import OSCAL AP](../task/import-oscal-ap-cam-ws.md)**  
+-   **[Import OSCAL AP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal-ap-cam-ws.md)**  
 Import Assessment Plan \(AP\) data in Open Security Controls Assessment Language \(OSCAL\) format to create or update authorization packages with assessment-related information including engagements, control tests, test plans, and assessment procedures.
 
-**Parent Topic:**[CAM OSCAL](oscal-cam-ws.md)
+**Parent Topic:**[CAM OSCAL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-cam-ws.md)
 

@@ -2,6 +2,7 @@
 title: AbstractScriptProcessor - Global
 description: The AbstractScriptProcessor script include is a base JavaScript processor class that other JavaScript processors extend.Called by the Prototype JavaScript Framework during object construction.Called by the Prototype JavaScript Framework during object processing. Do not call this method directly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_AbstractScriptProcessorAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The AbstractScriptProcessor script include is a base JavaScript processor class 
 
 Extend this class to create your own JavaScript processors.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## AbstractScriptProcessor - initialize\(String request, String response, String process\)
 

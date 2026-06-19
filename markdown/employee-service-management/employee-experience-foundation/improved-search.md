@@ -2,6 +2,7 @@
 title: Search on the topic pages
 description: The new search functionality on the topic pages provides different filters, sorting options, to make searching data easier on Employee Center.Specify the maximum number of search results the system should return.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/improved-search.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -23,7 +24,7 @@ The search functionality on the topic pages provides results for the Service Cat
 -   The reset option clears out all the filter and sort options previously selected.
 -   The default number of results for a search on the topic pages and on the Unified Browse widget is 12 at a time.
 
-    For more information on changing the default number of results, see [Change the number of returned search results](improved-search.md#).
+    For more information on changing the default number of results, see [Change the number of returned search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/improved-search.md).
 
 
 **Note:** You must have the Employee Center for the search on the topic pages feature to function.

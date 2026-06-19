@@ -2,7 +2,10 @@
 title: Zurich Patch 4 Hotfix 4b
 description: The Zurich Patch 4 Hotfix 4b release contains fixes to these problems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/zurich-patch-4-hf-4b-PO.html
 release: zurich
+product: Release Notes
+classification: release-notes
 topic_type: reference
 last_updated: "2026-03-11"
 reading_time_minutes: 1
@@ -20,7 +23,7 @@ The Zurich Patch 4 Hotfix 4b release contains fixes to these problems.
     Build tag: glide-zurich-07-01-2025\_\_patch4-hotfix4b-03-03-2026
 
 
-**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](../upgrades/reference/upgrade.md).
+**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/upgrade.md).
 
 For more information about the release cycle, see the [ServiceNow Release Cycle](https://support.servicenow.com/kb_view.do?sysparm_article=KB0547244).
 
@@ -74,11 +77,11 @@ Scenario 1:
 Unless any exceptions are noted, you can safely upgrade to this release version from any of the versions listed below. These prior versions contain PRB fixes that are also included with this release. Be sure to upgrade to the latest listed patch that includes all of the PRB fixes you are interested in.
 
 -   [Zurich Patch 4 Hotfix 3b](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2774148)
--   [Zurich Patch 3](zurich-patch-3.md)
--   [Zurich Patch 2](zurich-patch-2.md)
--   [Zurich Patch 1](zurich-patch-1.md)
--   [Zurich security and notable fixes](zurich-security-notables.md)
--   [All other Zurich fixes](zurich-all-other-fixes.md)
+-   [Zurich Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-3.md)
+-   [Zurich Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-2.md)
+-   [Zurich Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1.md)
+-   [Zurich security and notable fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-security-notables.md)
+-   [All other Zurich fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-all-other-fixes.md)
 
-**Parent Topic:**[Available patches and hotfixes](../available-versions.md)
+**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/available-versions.md)
 

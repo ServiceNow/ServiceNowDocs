@@ -2,6 +2,7 @@
 title: Update to the latest version of Flow Diagramming
 description: Flow diagramming is automatically installed on your instance as a dependency of Workflow Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/update-to-latest-version-flow-diagramming.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -38,5 +39,5 @@ As of Washington DC Patch 3, updating Workflow Studio automatically updates all 
 
 The Flow Diagramming application is updated to the latest application version. See the [Flow Diagramming](https://store.servicenow.com/sn_appstore_store.do#!/store/application/a4f5f4d7ca80209b2a32be23119ae821/) application listing on the ServiceNow Store for the latest available version and features.
 
-**Parent Topic:**[Configuring flows](../concept/configuring-flow-designer.md)
+**Parent Topic:**[Configuring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/configuring-flow-designer.md)
 

@@ -2,6 +2,7 @@
 title: Make a request to swap shifts or take time off using the Mobile Agent application
 description: Use the ITSM mobile app to look up your schedule, request time off, or swap your shift with your peers. If you can work during the requested shift, you can also approve your peer's request for the shift swap.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/manage-schedule-configurable-wfo-itsm-mobile.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -25,15 +26,15 @@ Role required: sn\_shift\_planning.agent
 
 2.  Request time off.
 
-<table id="choicetable_l1r_jp3_p4b"><thead><tr><th align="left" id="d454363e68">
+<table id="choicetable_l1r_jp3_p4b"><thead><tr><th align="left" id="d406706e68">
 
 To
 
-</th><th align="left" id="d454363e71">
+</th><th align="left" id="d406706e71">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d454363e77">
+</th></tr></thead><tbody><tr><td id="d406706e77">
 
 **Request time off after reviewing your schedule**
 
@@ -50,7 +51,7 @@ Do this
 6.  In the **Description** field, enter a reason requesting time off.
 
 
-</td></tr><tr><td id="d454363e125">
+</td></tr><tr><td id="d406706e125">
 
 **Request time off after reviewing your time-off requests**
 
@@ -63,12 +64,12 @@ Do this
 2.  Tap the menu icon and then tap **Request time off**.
 3.  In the **Title** field, enter a reason for the time off request.
 4.  In the **Start time** field:
-    1.  Tap the calendar icon![Calendar icon](../image/calendar-icon.png).
+    1.  Tap the calendar icon\[Omitted image "calendar-icon.png"\] Alt text: Calendar icon.
     2.  Tap and select the date you want to start taking time off.
     3.  Tap the time field at the top-right corner of the calendar and select the time to start taking your time off.
     4.  Click **OK**.
 5.  In the **End time** field:
-    1.  Tap the calendar icon![Calendar icon](../image/calendar-icon.png).
+    1.  Tap the calendar icon\[Omitted image "calendar-icon.png"\] Alt text: Calendar icon.
     2.  Tap and select the date you want to end taking time off.
     3.  Tap the time field at the top-right corner of the calendar and select the time to end your time off.
     4.  Click **OK**.
@@ -109,5 +110,5 @@ Do this
     A notification is sent to the agent to approve your request.
 
 
-**Parent Topic:**[Requesting time-off using the ITSM Mobile Agent for Workforce Optimization for ITSM](../concept/configurable-agent-schedule-mobile-wfo-itsm.md)
+**Parent Topic:**[Requesting time-off using the ITSM Mobile Agent for Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/configurable-agent-schedule-mobile-wfo-itsm.md)
 

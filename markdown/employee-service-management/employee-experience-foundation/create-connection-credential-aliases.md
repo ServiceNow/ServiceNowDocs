@@ -2,6 +2,7 @@
 title: Create a Connection &amp; Credentials alias for Microsoft Teams
 description: Create an alias to associate the connection information with the credential data required to complete the application integration in Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/create-connection-credential-aliases.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-For more information, refer [Introduction to credentials, connections, and aliases](https://www.servicenow.com/docs/access?context=credentials-connections-alias&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information, refer Introduction to credentials, connections, and aliases.
 
 ## Procedure
 
@@ -44,5 +45,5 @@ For more information, refer [Introduction to credentials, connections, and alias
 6.  Select **Submit**.
 
 
-**Parent Topic:**[Integrating Notify connector self-configured app with Microsoft Teams](../concept/setup-notify-ms-teams-single-tenant.md)
+**Parent Topic:**[Integrating Notify connector self-configured app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/setup-notify-ms-teams-single-tenant.md)
 

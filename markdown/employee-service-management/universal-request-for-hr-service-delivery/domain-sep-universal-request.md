@@ -2,6 +2,7 @@
 title: Domain separation and Universal Request
 description: Domain separation is supported for ServiceNow Universal Request. Universal Request helps Help Desk agents to resolve cases across the enterprise for a better employee experience. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-request-for-hr-service-delivery/domain-sep-universal-request.html
 release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -25,7 +26,7 @@ Domain separation is supported for ServiceNow Universal Request. Universal Reque
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## How domain separation works in Universal Request
 
@@ -46,10 +47,10 @@ Configuration tables \(strict domain separation\)
 
 Data tables \(data separated\): universal\_request.
 
-**Parent Topic:**[Setting up and configuring Universal Request](setup-configure-ur.md)
+**Parent Topic:**[Setting up and configuring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/setup-configure-ur.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

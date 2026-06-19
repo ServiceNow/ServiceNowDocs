@@ -2,6 +2,7 @@
 title: Tokenize strings using encryption patterns
 description: You can replace string patterns with tokens before they are sent to and stored in the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/t\_ConfigureBasicEncryptionPatterns.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -46,7 +47,7 @@ When using patterns, the clear text never leaves your network. When the proxy se
 
 3.  Define the **Edge pattern input type**.
 
-<table id="choicetable_nkx_mdv_s1b"><tbody><tr><td id="d33835e126">
+<table id="choicetable_nkx_mdv_s1b"><tbody><tr><td id="d36061e126">
 
 **Basic**
 
@@ -58,7 +59,7 @@ A series of character types. In the **Basic Pattern Input** tab, click **Add** a
 
  Click **X** to delete the last character in the pattern.
 
-</td></tr><tr><td id="d33835e159">
+</td></tr><tr><td id="d36061e159">
 
 **Advanced**
 
@@ -72,5 +73,5 @@ A Java RegEx expression. If advanced is selected, you cannot change the input ty
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Configuring Edge Encryption](../concept/edge-config.md)
+**Parent Topic:**[Configuring Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/edge-config.md)
 

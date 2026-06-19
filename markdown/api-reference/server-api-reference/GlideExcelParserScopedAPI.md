@@ -2,6 +2,7 @@
 title: GlideExcelParser - Scoped, Global
 description: The GlideExcelParser API parses .xlsx formatted Excel files and access file data in scripts.Creates an instance of GlideExcelParser.Close the connection to the input stream and release the document.Returns a list of column headers from the parsed document.Returns the error message when the parse\(\) method fails.Get the current row values and headers.Gets a list of all worksheet names in an Excel workbook.Gets table column types and max character length from a spreadsheet or CSV attachment.Moves to the next row.Parses an XLSX-formatted Excel document.Set the number of the header row to be retrieved.Return an empty value instead of null when an Excel cell is not present.Set the name of the sheet to be retrieved.Set the number of the Excel sheet to be retrieved.Defines an input source for parsing multiple times or parsing each worksheet in an Excel file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/GlideExcelParserScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The GlideExcelParser API parses .xlsx formatted Excel files and access file data
 
 You can use the GlideExcelParser methods in global and scoped scripts. Use the `sn_impex` namespace identifier to create a GlideExcelParser object.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideExcelParser - GlideExcelParser\(\)
 
@@ -519,11 +520,11 @@ inputStream
 
 </td><td>
 
-[GlideScriptableInputStream](../../GlideScriptableInputStreamScoped/concept/c_GlideScriptableInpStrmScopedAPI.md)
+[GlideScriptableInputStream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideScriptableInpStrmScopedAPI.md)
 
 </td><td>
 
-Excel document provided as an input stream. **Note:** Do not set this value if using the [setSource\(\)](GlideExcelParserScopedAPI.md#) method to parse the same source multiple times.
+Excel document provided as an input stream. **Note:** Do not set this value if using the [setSource\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/GlideExcelParserScopedAPI.md) method to parse the same source multiple times.
 
 </td></tr></tbody>
 </table><table id="table_v2j_lch_4z" class="returns"><thead><tr><th>
@@ -797,7 +798,7 @@ Defines an input source for parsing multiple times or parsing each worksheet in 
 
 |Name|Type|Description|
 |----|----|-----------|
-|inputStream|[GlideScriptableInputStream](../../GlideScriptableInputStreamScoped/concept/c_GlideScriptableInpStrmScopedAPI.md)|Excel document provided as an input stream.|
+|inputStream|[GlideScriptableInputStream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideScriptableInpStrmScopedAPI.md)|Excel document provided as an input stream.|
 
 |Type|Description|
 |----|-----------|

@@ -2,6 +2,7 @@
 title: Download the manifest file
 description: Configure the user roles and download the add-in manifest file to use the Export to PowerPoint add-in for Microsoft PowerPoint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/export-to-powerpoint-for-application-portfolio-management/download-manifest-export-to-ppt.html
 release: zurich
 product: Export to PowerPoint for Application Portfolio Management
 classification: export-to-powerpoint-for-application-portfolio-management
@@ -38,7 +39,7 @@ Role required: sn\_ppt\_export.ppt\_admin
 
 ## What to do next
 
--   Share the `manifest.xml` file with Microsoft Office 365 account manager to [upload the manifest file for Microsoft Office 365 users](https://www.servicenow.com/docs/access?context=upload-the-manifest-file-office365&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US) to enable the Export to PowerPoint add-in for Microsoft PowerPoint.
+-   Share the `manifest.xml` file with Microsoft Office 365 account manager to upload the manifest file for Microsoft Office 365 users to enable the Export to PowerPoint add-in for Microsoft PowerPoint.
 
     Alternatively, you can sideload the add-in for testing purposes using one of the following processes.
 
@@ -46,5 +47,5 @@ Role required: sn\_ppt\_export.ppt\_admin
     -   For macOS machines: [https://learn.microsoft.com/en-us/office/dev/add-ins/testing/sideload-an-office-add-in-on-mac](https://learn.microsoft.com/en-us/office/dev/add-ins/testing/sideload-an-office-add-in-on-mac)
 -   For more information about the additional configuration steps required to enable the Export to PowerPoint add-in for browser version of Microsoft PowerPoint, see the [KB1171422](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1171422) article in the Now Support Knowledge Base.
 
-**Parent Topic:**[Configuring Export to PowerPoint](../concept/configure-export-to-ppt.md)
+**Parent Topic:**[Configuring Export to PowerPoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/export-to-powerpoint-for-application-portfolio-management/configure-export-to-ppt.md)
 

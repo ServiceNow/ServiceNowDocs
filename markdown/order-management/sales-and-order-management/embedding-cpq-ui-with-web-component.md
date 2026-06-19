@@ -2,6 +2,7 @@
 title: Embedding the ServiceNow CPQ UI with the ServiceNow CPQ Web Component
 description: By using the ServiceNow CPQ Web Component, you can embed the Logik UI in a web page without using an iframe. Because the component's UI is compatible with themes, users can easily edit the look of the UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/embedding-cpq-ui-with-web-component.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

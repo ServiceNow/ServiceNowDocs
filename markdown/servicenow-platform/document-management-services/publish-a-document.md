@@ -2,6 +2,7 @@
 title: Publish a document
 description: Publish a document revision that has been approved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/publish-a-document.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -36,5 +37,5 @@ After a document has been created and edited, a version can be submitted for dra
 5.  Select **Publish Version**.
 
 
-**Parent Topic:**[Document approval and publish process](../concept/document-review-approval.md)
+**Parent Topic:**[Document approval and publish process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/document-review-approval.md)
 

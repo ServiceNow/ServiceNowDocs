@@ -2,7 +2,10 @@
 title: Configure Data Collection for SecOps
 description: Configure Data Collection for SecOps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/dc-secops-config.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -29,6 +32,6 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
 
 2.  Enter the data point in the relevant month cell.
 
-    ![Example with Mar 2024 cell selected.](../image/dct_config_secops.png)
+    \[Omitted image "dct\_config\_secops.png"\] Alt text: Example with Mar 2024 cell selected.
 
 

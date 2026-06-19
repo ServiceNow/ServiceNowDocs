@@ -2,6 +2,7 @@
 title: View job tracker details
 description: View details of the source job and service job, such as when did the job begin and end, when did the records start loading into staging tables, or did the job run completely or fail in between.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-integration-job-tracker.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

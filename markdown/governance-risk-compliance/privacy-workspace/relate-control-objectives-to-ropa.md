@@ -2,6 +2,7 @@
 title: Map a control objective to a question response
 description: Map the control objectives to the responses of the assessment questions to automatically create and apply the respective controls on the processing activity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/relate-control-objectives-to-ropa.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -40,15 +41,15 @@ You can relate control objectives to an assessment question only if the question
 
 2.  Click and open the required assessment template.
 
-<table id="choicetable_rlk_wqh_sqb"><thead><tr><th align="left" id="d73304e110">
+<table id="choicetable_rlk_wqh_sqb"><thead><tr><th align="left" id="d75476e110">
 
 Type of questions
 
-</th><th align="left" id="d73304e113">
+</th><th align="left" id="d75476e113">
 
 Steps to map controls
 
-</th></tr></thead><tbody><tr><td id="d73304e119">
+</th></tr></thead><tbody><tr><td id="d75476e119">
 
 **Boolean, Template**
 
@@ -63,7 +64,7 @@ To create and apply controls for a response, perform the following steps.1.  Sel
 4.  Click **Save**.
 
 
-</td></tr><tr><td id="d73304e154">
+</td></tr><tr><td id="d75476e154">
 
 **Choice, Image scale, Numeric, Ranking**
 
@@ -88,5 +89,5 @@ To create and apply controls for a response, perform the following steps.1.  In 
 
 The control objectives are related to the processing activity.
 
-**Parent Topic:**[Create a privacy assessment](create-assessment-template.md)
+**Parent Topic:**[Create a privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/create-assessment-template.md)
 

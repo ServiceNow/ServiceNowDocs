@@ -2,6 +2,7 @@
 title: Modify the workflow feedback widget
 description: Customize the appearance of the workflow feedback widget with the instance options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/modify-wrkflw-widget.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -29,12 +30,12 @@ Role required: sn\_hr\_sp.esc\_admin
 
 4.  On the feedback widget instance options window, fill in the fields.
 
-    For a description of the field values, see [Modify the experience flow feedback widget](modify-fdbck-widgets.md).
+    For a description of the field values, see [Modify the experience flow feedback widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/modify-fdbck-widgets.md).
 
 
 ## Result
 
 The workflow feedback widget is customized according to your preference.
 
-**Parent Topic:**[Integrated service and experience feedback management](../concept/ex-fdbck-manage.md)
+**Parent Topic:**[Integrated service and experience feedback management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ex-fdbck-manage.md)
 

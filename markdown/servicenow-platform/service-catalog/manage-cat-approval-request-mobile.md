@@ -2,6 +2,7 @@
 title: Manage a catalog request approval
 description: Manage your assigned catalog request or requested item by approving or rejecting it from anywhere using your mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/manage-cat-approval-request-mobile.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -35,7 +36,7 @@ Role required: business\_stakeholder or approver\_user
 
     3.  To view the details of a pending approval request, tap it.
 
-        **Note:** To approve or reject a request, tap the menu icon \(![menu icon](../image/mobileTopMenu.png)\) and tap **Approve** or **Reject**.
+        **Note:** To approve or reject a request, tap the menu icon \(\[Omitted image "mobileTopMenu.png"\] Alt text: menu icon\) and tap **Approve** or **Reject**.
 
 3.  To view a completed approval request, perform the following steps.
 
@@ -46,5 +47,5 @@ Role required: business\_stakeholder or approver\_user
     2.  To view the details of the request, tap it.
 
 
-**Parent Topic:**[Fulfiller experience in Mobile Agent](../concept/itsm-mobile-request-approval.md)
+**Parent Topic:**[Fulfiller experience in Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/itsm-mobile-request-approval.md)
 

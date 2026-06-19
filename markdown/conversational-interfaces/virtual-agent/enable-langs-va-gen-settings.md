@@ -2,6 +2,7 @@
 title: Enable NLU languages in Virtual Agent settings
 description: If you plan to use language-specific NLU models, you must enable the installed languages in the Supported NLU Languages list. A language is enabled if the Enabled column displays true. English language is enabled by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/enable-langs-va-gen-settings.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ If you plan to use language-specific NLU models, you must enable the installed l
 
 ## Before you begin
 
-Activate the ServiceNow plugin for each language you want to support. For more information, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Activate the ServiceNow plugin for each language you want to support. For more information, see Activate a language.
 
 Role required: virtual\_agent\_admin or admin
 
@@ -35,12 +36,12 @@ Role required: virtual\_agent\_admin or admin
 
     For example, in the following image, German, Portuguese, and Japanese are not enabled.
 
-    ![For each language, the Enabled column shows either true or false.](../images/nlu-settings-example.png)
+    \[Omitted image "nlu-settings-example.png"\] Alt text: For each language, the Enabled column shows either true or false.
 
 6.  Select the **Enabled** check box.
 
 7.  Click **Save**.
 
 
-**Parent Topic:**[Localizing Virtual Agent conversations](../concept/localize-va-topic.md)
+**Parent Topic:**[Localizing Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/localize-va-topic.md)
 

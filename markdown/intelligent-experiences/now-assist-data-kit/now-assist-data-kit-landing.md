@@ -2,6 +2,7 @@
 title: Now Assist Data Kit
 description: Use ServiceNowNow Assist Data Kit to add datasets to a data catalog. The curated data works with ServiceNow SDK to enable the AI skill development and evaluation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.html
 release: zurich
 product: Now Assist Data Kit
 classification: now-assist-data-kit
@@ -23,15 +24,15 @@ Now Assist Data KitNow Assist Data Kit
 
 <table id="table_zhp_snh_jcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore](exploring-now-assist-data-kit.md)![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn how Now Assist Data Kit can help create custom datasets
+[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-data-kit/exploring-now-assist-data-kit.md)\[Omitted image "bus-explore.svg"\] Alt text: Learn how Now Assist Data Kit can help create custom datasets
 
 </td><td>
 
-[Configure](configuring-now-assist-data-kit.md)![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Configure Now Assist Data Kit for prompts and skills
+[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-data-kit/configuring-now-assist-data-kit.md)\[Omitted image "bus-sdlc.svg"\] Alt text: Configure Now Assist Data Kit for prompts and skills
 
 </td><td>
 
-[Use](using-now-assist-data-kit.md)![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Use Now Assist Data Kit to create datasets to add to data collections
+[Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-data-kit/using-now-assist-data-kit.md)\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Now Assist Data Kit to create datasets to add to data collections
 
 </td></tr><tr><td>
 
@@ -43,7 +44,7 @@ Now Assist Data KitNow Assist Data Kit
 
 </td><td>
 
-[Reference](na-data-kit-reference.md)![](../../../reuse/icons/brand-icons/bus-learn.svg)Reference information for Now Assist Data Kit
+[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-data-kit/na-data-kit-reference.md)\[Omitted image "bus-learn.svg"\] Alt text:Reference information for Now Assist Data Kit
 
 </td></tr></tbody>
 </table>**Important:** Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Please check for availability updates in future releases.
@@ -66,5 +67,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](../../now-assist-admin/task/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/opt-out-of-data-sharing-for-now-assist.md).
 

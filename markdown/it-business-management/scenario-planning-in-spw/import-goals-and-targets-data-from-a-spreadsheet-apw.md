@@ -2,6 +2,7 @@
 title: Import goals and targets data from a spreadsheet
 description: With the admin role, you can import your existing goals and targets data from a spreadsheet to the Goal Framework tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/import-goals-and-targets-data-from-a-spreadsheet-apw.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -55,5 +56,5 @@ Role required: sn\_gf.goal\_admin
     **Note:** The Import operation can be used for inserting new data or updating the existing data in the tables. By default, the Name and Owner values are the primary keys used for updating the existing records. You can also add additional fields as primary key for inserting new data or updating the existing data. For details on how to add additional fields as primary key, see [Import goals and targets data \[KB1191233\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1191233).
 
 
-**Parent Topic:**[Configuring goals in Strategic Planning](../concept/configuring-goal-framework-apw.md)
+**Parent Topic:**[Configuring goals in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/configuring-goal-framework-apw.md)
 

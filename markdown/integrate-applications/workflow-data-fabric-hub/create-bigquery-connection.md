@@ -2,6 +2,7 @@
 title: Create a Google BigQuery connection
 description: Establish a zero copy connection to the Google BigQuery data warehouse service in Workflow Data Fabric Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/workflow-data-fabric-hub/create-bigquery-connection.html
 release: zurich
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -44,15 +45,15 @@ Work with your data source admin to create a connection to Google BigQuery. For 
 
     You can obtain the JSON key from the Google Cloud Console when you create a service account.
 
-<table id="choicetable_nbh_ccm_rfc"><thead><tr><th align="left" id="d188030e198">
+<table id="choicetable_nbh_ccm_rfc"><thead><tr><th align="left" id="d193039e198">
 
 Option
 
-</th><th align="left" id="d188030e201">
+</th><th align="left" id="d193039e201">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d188030e207">
+</th></tr></thead><tbody><tr><td id="d193039e207">
 
 **Upload service account key**
 
@@ -62,7 +63,7 @@ Description
 2.  Browse and select the file.
 
 
-</td></tr><tr><td id="d188030e228">
+</td></tr><tr><td id="d193039e228">
 
 **Enter service key contents manually**
 
@@ -90,7 +91,7 @@ A test connection is made to the external data source, verifying that the connec
 
 ## What to do next
 
-If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](manage-access-connection-wdf.md).
+If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/manage-access-connection-wdf.md).
 
 If the connection fails, verify the connection details with your data source administrator and try again.
 

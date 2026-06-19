@@ -2,6 +2,7 @@
 title: Service desks and Creator Studio
 description: Service desk apps enable users to request things, such as IT equipment or travel bookings, and track their fulfillment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/creator-studio/creator-studio-service-desk-about.html
 release: zurich
 product: Creator Studio
 classification: creator-studio
@@ -88,5 +89,5 @@ Hardware request app
 </td></tr></tbody>
 </table>## Other types of apps
 
-See [Example apps you can build in Creator Studio](creator-studio-sample-apps.md) for some other, less-recurring ideas for apps.
+See [Example apps you can build in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-sample-apps.md) for some other, less-recurring ideas for apps.
 

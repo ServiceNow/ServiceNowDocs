@@ -2,6 +2,7 @@
 title: Operations tab
 description: The Operations tab on the privacy management dashboard offers visibility into operational performance across key privacy compliance processes, supporting proactive management and confirming adherence to regulatory and internal risk standards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/operations-tab-prm.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -44,7 +45,7 @@ This dashboard displays the following widgets.
 
 The following image shows the Operations dashboard.
 
-![Operations tab on the privacy management home page.](../image/operations-tab-prm.png "Operations dashboard")
+\[Omitted image "operations-tab-prm.png"\] Alt text: Operations tab on the privacy management home page.
 
-**Parent Topic:**[Privacy Workspace for the privacy manager](privacy-mgmt-ws-privacy-compliance-manager.md)
+**Parent Topic:**[Privacy Workspace for the privacy manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/privacy-mgmt-ws-privacy-compliance-manager.md)
 

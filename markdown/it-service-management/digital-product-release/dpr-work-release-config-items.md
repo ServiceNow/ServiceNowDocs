@@ -2,6 +2,7 @@
 title: Manage configuration items in a release
 description: View and manage the configuration items \(CIs\) in a release phase to manage the release effectively. These associated CIs can be used for managing change requests and future tasks through the release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-product-release/dpr-work-release-config-items.html
 release: zurich
 product: Digital Product Release
 classification: digital-product-release
@@ -27,7 +28,7 @@ You can add a specific configuration item to a phase only once, although it can 
 
 1.  Navigate to **Workspaces** &gt; **Digital Product Release Workspace**.
 
-2.  Select the releases icon \(![Releases icon.](../image/dpr-icon-release.png)\).
+2.  Select the releases icon \(\[Omitted image "dpr-icon-release.png"\] Alt text: Releases icon.\).
 
 3.  Select a release from the list to open.
 
@@ -37,15 +38,15 @@ You can add a specific configuration item to a phase only once, although it can 
 
 5.  Select a phase from the **Phase** list to add or remove configuration items of any CI class.
 
-<table id="choicetable_l2q_vl2_52c"><thead><tr><th align="left" id="d74415e110">
+<table id="choicetable_l2q_vl2_52c"><thead><tr><th align="left" id="d75369e110">
 
 Option
 
-</th><th align="left" id="d74415e113">
+</th><th align="left" id="d75369e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d74415e119">
+</th></tr></thead><tbody><tr><td id="d75369e119">
 
 **Add existing CIs to the release phase**
 
@@ -56,7 +57,7 @@ Steps
 3.  Select **Add**.
  The selected configuration items are added to the phase.
 
-</td></tr><tr><td id="d74415e149">
+</td></tr><tr><td id="d75369e149">
 
 **Remove associated CIs from a phase**
 
@@ -68,5 +69,5 @@ Steps
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Manage releases for digital products and services](dpr-manage-releases.md)
+**Parent Topic:**[Manage releases for digital products and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-manage-releases.md)
 

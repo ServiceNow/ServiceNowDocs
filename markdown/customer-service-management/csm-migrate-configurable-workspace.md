@@ -2,7 +2,10 @@
 title: Migrate to CSM Configurable Workspace
 description: Follow the instructions in this topic to migrate from CSM Agent Workspace to CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-migrate-configurable-workspace.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -13,7 +16,7 @@ breadcrumb: [Migrating to Configurable Workspace, CSM Configurable Workspace, Or
 
 Follow the instructions in this topic to migrate from CSM Agent Workspace to CSM Configurable Workspace.
 
-If you are currently using CSM Agent Workspace and want to migrate to CSM Configurable Workspace, you can continue using most of your existing configurations. Some features, however, need to be configured specifically for CSM Configurable Workspace. You can migrate some of the configurations using lists and forms and others using the [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=zurich&pubname=zurich-application-development&ft:locale=en-US) tool.
+If you are currently using CSM Agent Workspace and want to migrate to CSM Configurable Workspace, you can continue using most of your existing configurations. Some features, however, need to be configured specifically for CSM Configurable Workspace. You can migrate some of the configurations using lists and forms and others using the UI Builder tool.
 
 <table id="table_rrk_p52_v4b"><thead><tr><th>
 
@@ -52,18 +55,18 @@ This section provides information, parameters, and steps to complete the migrati
 
 |Feature|Description|
 |-------|-----------|
-|[Activity stream](migration-activity-stream.md)|Activity Stream enables agents to communicate with requesters and make internal notes about the work done on a record.|
-|[Agent assist](migration-agent-assist.md)|Agent assist provides agents with automatic search results that show possible solutions for records they open.|
-|[Agent Chat for Customer Service Management Configurable Workspace](migration-agent-chat.md)|Agent Chat enables agents to interact with customers, create incident or case records, or transfer chats to another agent or queue.|
-|[Branding and theming](migration-branding-theming.md)|Branding and theming enables you to customize your Configurable Workspace to your company branding and theming.|
-|[Email Composer and Email Viewer](migration-compose-preview-email.md)|The Email Composer enables requestors and fulfillers to use email to communicate.|
-|[Customer Central](migration-custom-central.md)|Customer Central displays all the touch points that a customer has had with a contact center in the form of information cards.|
-|[Declarative actions](migration-form-declarative-actions.md)|Declarative actions add custom functionality to your Workspace forms, fields, lists, and related lists without writing custom scripts or learning APIs.|
-|[Forms](migration-forms.md)|The form is the user interface where agents do most of their work.|
-|[Form headers](migration-form-headers.md)|Form headers provide an overview of the record.|
-|[Global Search in configurable workspaces](migration-search-config.md)|Global Search provides users with the ability to search for information within the defined search sources.|
-|[Highlights](migration-form-highlights.md)|Highlights provide background color that visually expresses the status of a highlighted value.|
-|[Lists](migration-lists.md)|The list view displays filtered lists of records, such as All tasks, Open tasks, and My tasks.|
-|[Ribbons](migration-form-ribbons.md)|Ribbons help agents quickly scan relevant information about a record, such as a timeline, a user, or a customer summary.|
-|[UI Action Bar](migration-form-ui-actions.md)|UI actions include custom buttons, menu items, and limiting access to forms based on user role.|
+|[Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/migration-activity-stream.md)|Activity Stream enables agents to communicate with requesters and make internal notes about the work done on a record.|
+|[Agent assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/migration-agent-assist.md)|Agent assist provides agents with automatic search results that show possible solutions for records they open.|
+|[Agent Chat for Customer Service Management Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/migration-agent-chat.md)|Agent Chat enables agents to interact with customers, create incident or case records, or transfer chats to another agent or queue.|
+|[Branding and theming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/migration-branding-theming.md)|Branding and theming enables you to customize your Configurable Workspace to your company branding and theming.|
+|[Email Composer and Email Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/migration-compose-preview-email.md)|The Email Composer enables requestors and fulfillers to use email to communicate.|
+|[Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/migration-custom-central.md)|Customer Central displays all the touch points that a customer has had with a contact center in the form of information cards.|
+|[Declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/migration-form-declarative-actions.md)|Declarative actions add custom functionality to your Workspace forms, fields, lists, and related lists without writing custom scripts or learning APIs.|
+|[Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/migration-forms.md)|The form is the user interface where agents do most of their work.|
+|[Form headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/migration-form-headers.md)|Form headers provide an overview of the record.|
+|[Global Search in configurable workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/migration-search-config.md)|Global Search provides users with the ability to search for information within the defined search sources.|
+|[Highlights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/migration-form-highlights.md)|Highlights provide background color that visually expresses the status of a highlighted value.|
+|[Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/migration-lists.md)|The list view displays filtered lists of records, such as All tasks, Open tasks, and My tasks.|
+|[Ribbons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/migration-form-ribbons.md)|Ribbons help agents quickly scan relevant information about a record, such as a timeline, a user, or a customer summary.|
+|[UI Action Bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/migration-form-ui-actions.md)|UI actions include custom buttons, menu items, and limiting access to forms based on user role.|
 

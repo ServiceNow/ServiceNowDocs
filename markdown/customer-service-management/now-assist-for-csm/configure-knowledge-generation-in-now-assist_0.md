@@ -2,6 +2,7 @@
 title: Configure knowledge generation
 description: Configure the Knowledge Generation skill to draft knowledge articles on resolving case tasks for agents to review and edit before publishing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/configure-knowledge-generation-in-now-assist\_0.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -103,7 +104,9 @@ Input fields
 
 
 </td></tr></tbody>
-</table>5.  Select **Define Availability** to customize how and when the skill capability is active and accessible.
+</table>    **Note:** When you select **Run Test**, a new task record input window appears where the user can select an input record from the drop-down through which the system automatically resolves and populates all the required fields.
+
+5.  Select **Define Availability** to customize how and when the skill capability is active and accessible.
 
     -   Select **Skill is always available** so no restrictions are placed on when a skill is available.
     -   Select **Customize skill availability** to define conditions and use the condition builder to configure fields and values.

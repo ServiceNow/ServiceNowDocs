@@ -2,6 +2,7 @@
 title: Configure Devvio integration
 description: Configure Contact Tracing properties to import risk scores from the DevvTrace platform using the Devvio API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contact-tracing/configure-devvio-integration.html
 release: zurich
 product: Contact Tracing
 classification: contact-tracing
@@ -93,5 +94,5 @@ The Devvio Users Risk Report updates daily at midnight \(00:00\) instance time. 
 
 **Note:** If a user with an open case has a health status other than **Cleared**, a work note is added but the source remains unchanged. If a user with an open case has a health status of **Cleared**, their health status updates to **Under Investigation** or **Infected** and a work note is added. The source for the case remains unchanged.
 
-**Parent Topic:**[Collecting risk scores in Contact Tracing](../concept/contact-tracing-collect-risk-scores.md)
+**Parent Topic:**[Collecting risk scores in Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/contact-tracing-collect-risk-scores.md)
 

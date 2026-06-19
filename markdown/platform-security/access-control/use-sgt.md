@@ -1,7 +1,8 @@
 ---
-title: Use SGT
-description: Use the Scripting Governance Tool \(SGT\) to provide a single, centralised control for managing scripting access across your ServiceNow AI Platform.
+title: Use Scripting Governance Tool
+description: Use the Scripting Governance Tool to provide a single, centralised control for managing scripting access across your ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/use-sgt.html
 release: zurich
 product: Access Control
 classification: access-control
@@ -12,17 +13,17 @@ keywords: [Scripting Governance Tool, SGT, scripting, Conditional Script Writer]
 breadcrumb: [Scripting Governance Tool, Access Management]
 ---
 
-# Use SGT
+# Use Scripting Governance Tool
 
-Use the Scripting Governance Tool \(SGT\) to provide a single, centralised control for managing scripting access across your ServiceNow AI Platform.
+Use the Scripting Governance Tool to provide a single, centralised control for managing scripting access across your ServiceNow AI Platform.
 
 ## Before you begin
 
 Role required: security\_admin
 
-**Important:** You must have elevate your role `security_admin`. See [Elevate to a privileged role](t_ElevateToAPrivilegedRole.md).
+**Important:** You must have elevate your role `security_admin`. See [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/t_ElevateToAPrivilegedRole.md).
 
-The **Scripting Governance Tool** helps you review user scripting governance your ServiceNow AI Platform. The **Conditional Script Writer** group grants scripting permissions to its members via the `snc_required_script_writer_permission` role. Users are added to the group by either an automated assignment or manual configuration. You can manage both of these settings from the **Scripting Governance Tool**.
+The Scripting Governance Tool helps you review user scripting governance your ServiceNow AI Platform. The **Conditional Script Writer** group grants scripting permissions to its members via the `snc_required_script_writer_permission` role. Users are added to the group by either an automated assignment or manual configuration. You can manage both of these settings from the Scripting Governance Tool.
 
 ## Procedure
 
@@ -103,13 +104,13 @@ View removals
 When you schedule for removal of user from the **Conditional Script Writer** group, the details are displayed on the View removals.
 
 </td></tr></tbody>
-</table>    ![Scripting Governance Tool dashboard](../image/scripting-governance-dashboard.png)
+</table>    \[Omitted image "scripting-governance-dashboard.png"\] Alt text: Scripting Governance Tool dashboard
 
 
 ## Result
 
 You can view the following topics to understand how you can:
 
--   [Scan for users who have scripted](scan-for-users-who-have-scripted.md)
--   [Remove users from the Conditional Script Writer group](remove-conditional-script-writer-users.md)
+-   [Scan for users who have scripted](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/scan-for-users-who-have-scripted.md)
+-   [Remove users from the Conditional Script Writer group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/remove-conditional-script-writer-users.md)
 

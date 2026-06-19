@@ -2,13 +2,14 @@
 title: Confirm meeting a milestone for your service from Employee Center
 description: Provide confirmation from Employee Center on whether the supplier has met a milestone for a service you had ordered, so that payment can be processed to the supplier for that milestone. If a milestone hasn’t been met by the due date, you can raise a cancel request or propose a new completion date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/confirm-meeting-milestone-ec.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Sourcing and Procurement Operations integration with Employee Center, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Sourcing Procurement Operations integration Employee, Integrate Sourcing Procurement Operations other, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Confirm meeting a milestone for your service from Employee Center
@@ -37,15 +38,15 @@ This confirm milestone completion task is automatically created by the system on
 
 4.  Do one of these actions.
 
-<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d101805e100">
+<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d40366e109">
 
 Action
 
-</th><th align="left" id="d101805e103">
+</th><th align="left" id="d40366e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d101805e109">
+</th></tr></thead><tbody><tr><td id="d40366e118">
 
 **Comments**
 
@@ -53,7 +54,7 @@ Description
 
 Provide your response, if any, and select **Confirm**.
 
-</td></tr><tr><td id="d101805e121">
+</td></tr><tr><td id="d40366e130">
 
 **Request to cancel**
 
@@ -61,7 +62,7 @@ Provide your response, if any, and select **Confirm**.
 
 Request to cancel the milestone altogether.On the **Request to cancel milestone** window, provide your reason for canceling the milestone, and select **Submit**.
 
-</td></tr><tr><td id="d101805e138">
+</td></tr><tr><td id="d40366e147">
 
 **Propose new completion date**
 
@@ -77,5 +78,5 @@ Push the milestone to a later date.On the **Propose a new expected completion da
 
 You can view the completed task in the **Completed** tab after the fulfiller has also reviewed and confirmed that the task is complete.
 
-**Parent Topic:**[Sourcing and Procurement Operations integration with Employee Center](../concept/employee-center-integration-psm.md)
+**Parent Topic:**[Sourcing and Procurement Operations integration with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/employee-center-integration-psm.md)
 

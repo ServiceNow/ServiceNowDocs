@@ -2,6 +2,7 @@
 title: Configure Model Workflow Settings
 description: Configure the conditions and frequency for scheduling assessment and validation tasks to maintain a structured and timely approach to model risk management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/model-risk-management/create-model-workflow-settings.html
 release: zurich
 product: Model Risk Management
 classification: model-risk-management
@@ -26,7 +27,7 @@ This task explains how to configure the frequency for assessment and validation 
 
 **Note:** Models with customized frequencies at the model risk record level aren’t affected.
 
-To manually schedule assessment and validation tasks from the model risk record, refer to [Schedule assessment and validation tasks](schedule-assessment-and-validation-tasks.md).
+To manually schedule assessment and validation tasks from the model risk record, refer to [Schedule assessment and validation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/model-risk-management/schedule-assessment-and-validation-tasks.md).
 
 ## Procedure
 
@@ -34,7 +35,7 @@ To manually schedule assessment and validation tasks from the model risk record,
 
 2.  Users with sn\_model\_risk\_mgmt.model\_governance role, navigate to **All** &gt; **Model Risk Workspace** and do the following:
 
-    1.  Select the list ![](../../grc-compliance-case-mgmt/image/list-icon.png) icon.
+    1.  Select the list \[Omitted image "list-icon-mrm.png"\] Alt text: icon.
 
     2.  From the list, navigate to **Model risk configurations** &gt; **Model workflow settings**.
 
@@ -50,7 +51,7 @@ To manually schedule assessment and validation tasks from the model risk record,
     |Table|Table that the workflow setting applies to. This field is automatically set to **Model Risk**.|
     |Priority|Priority level for this workflow setting. If multiple workflow settings match the same conditions, the system uses the one with the highest priority.|
     |Active|Option to activate the workflow setting. When active, the defined scheduling rules and frequencies are applied to the filtered models.|
-    |Filter condition|Conditions that determine which model records the workflow applies to. Select **Set conditions** to choose filter criteria. For more information, refer to [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).|
+    |Filter condition|Conditions that determine which model records the workflow applies to. Select **Set conditions** to choose filter criteria. For more information, refer to .|
 
 5.  Select **Save**.
 

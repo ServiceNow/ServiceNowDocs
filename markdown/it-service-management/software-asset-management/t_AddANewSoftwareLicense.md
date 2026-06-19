@@ -2,6 +2,7 @@
 title: Add a software license using the legacy Software Asset Management plugin
 description: You can add a new software license using the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/software-asset-management/t\_AddANewSoftwareLicense.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -51,10 +52,10 @@ Role required: sam
     |Installed|Date on which the software license was installed.|
     |Comments|Information about the software license that would be helpful for others to know.|
 
-    For information about the fields in the **Financial** and **Contracts** sections of the form, see [Create assets](https://www.servicenow.com/docs/access?context=t_CreatingAssets&version=zurich&pubname=zurich-it-asset-management&ft:locale=en-US).
+    For information about the fields in the **Financial** and **Contracts** sections of the form, see .
 
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Software licenses in the legacy Software Asset Management plugin](../concept/c_SoftwareLicenses.md)
+**Parent Topic:**[Software licenses in the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management/c_SoftwareLicenses.md)
 

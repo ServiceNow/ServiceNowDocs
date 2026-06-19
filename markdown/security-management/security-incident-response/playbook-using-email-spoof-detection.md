@@ -2,6 +2,7 @@
 title: Use the Email Domain Spoofing Detection playbook
 description: Use this playbook to find a similarity match between the Phisher's sender email domain with a trusted domain name exists in the observable repository. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Email Domain Spoofing Detection playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/playbook-using-email-spoof-detection.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -32,8 +33,6 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
 3.  In Action 3, the playbook calculates the similarity between the Get Tagged domain and Email domain using the Levenshtein algorithm.
 
-    ![Calculate the similarity between the two domains using the Levenshtein algorithm](../image/playbook-email-spoof-similarity.png "Email Domain Spoofing Detection playbook")
-
 4.  In Action 4, the playbook looks up for the System Property record based on the following conditions:
 
     -   Name is sn\_sec\_spoke.domain\_spoof\_threshold, \(OR\)
@@ -42,8 +41,6 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
     If the similarity of the two domains doesn't exceed the threshold, a manual response task is created in Action 5 and the flow ends. If the similarity of the two domains exceeds the threshold, then Actions 6 and 7 are executed.
 
-    ![Response tasks to check if the similarity of the two domains exceeds the threshold.](../image/playbook-email-spoof-detect-threshold.png "Similarity exceeds the threshold")
-
 6.  In Action 6, the playbook adds the Email Domain Spoofing security tag to the security incident.
 
 7.  In Action 7, the playbook adds a worknote link to the context using the script option.
@@ -51,5 +48,5 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 8.  In Action 8, the flow ends.
 
 
-**Parent Topic:**[Playbook for Email Domain Spoofing Detection](../concept/playbook-email-spoof-detection.md)
+**Parent Topic:**[Playbook for Email Domain Spoofing Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/playbook-email-spoof-detection.md)
 

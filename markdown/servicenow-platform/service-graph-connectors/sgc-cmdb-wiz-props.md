@@ -2,6 +2,7 @@
 title: Service Graph Connector for Wiz properties
 description: Service Graph Connector for Wiz properties control the behavior of the connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-props.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors

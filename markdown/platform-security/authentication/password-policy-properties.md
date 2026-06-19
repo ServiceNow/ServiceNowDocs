@@ -2,6 +2,7 @@
 title: Password policy properties
 description: The password policy properties enable you to administrate password policies, exclude list passwords, and apply a password policy during login.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/password-policy-properties.html
 release: zurich
 product: Authentication
 classification: authentication

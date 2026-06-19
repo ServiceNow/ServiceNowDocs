@@ -2,13 +2,14 @@
 title: View snapshots
 description: View the snapshots of all deployables for an application on the Details tab for the application. The release pipeline can access only a snapshot that is the currently published version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-family/cdm-snapshots-view-list.html
 release: zurich
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Use, DevOps Config, IT Service Management]
+breadcrumb: [Using DevOps Config, DevOps Config, IT Service Management]
 ---
 
 # View snapshots
@@ -63,7 +64,7 @@ Published
 
 Boolean that indicates whether the snapshot is published. Only published snapshots can be exported.**Important:** By default, exporters use the most recently created published snapshot.
 
- While defining or updating a deployable, you can specify that only validated snapshots can be published. You can unupublish a snapshot. See [Publish or unpublish a snapshot](cdm-snapshot-publish.md).
+ While defining or updating a deployable, you can specify that only validated snapshots can be published. You can unupublish a snapshot. See [Publish or unpublish a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/cdm-snapshot-publish.md).
 
 </td></tr><tr><td>
 
@@ -84,7 +85,7 @@ Validation status:-   Not validated: This is the initial snapshot state where no
 -   In progress: The validation flow is running and policies are currently executing.
 -   Passed: The snapshot has passed all policies.
 -   Failed: The snapshot has failed one or more policies.
--   Execution error: A policy failed to run to completiondue to an unexpected error, mostly when the [CdmPolicyUtil script include](../reference/cdm-about-cdmpolicyutil.md) is not used to provide warning and failure messages..
+-   Execution error: A policy failed to run to completiondue to an unexpected error, mostly when the [CdmPolicyUtil script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/cdm-about-cdmpolicyutil.md) is not used to provide warning and failure messages..
 
 
 </td></tr><tr><td>

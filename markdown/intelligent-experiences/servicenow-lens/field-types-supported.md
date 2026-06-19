@@ -2,6 +2,7 @@
 title: Field types supported
 description: Learn about the field types that are currently supported with the ServiceNow AI Lens application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/servicenow-lens/field-types-supported.html
 release: zurich
 product: ServiceNow Lens
 classification: servicenow-lens
@@ -52,7 +53,7 @@ The following field types are currently supported with ServiceNow AI Lens:
 -   reference
 -   glide\_list
 
-For more information about these fields, see [Field types reference](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For more information about these fields, see .
 
 <table id="table_psc_fs3_mfc"><thead><tr><th>
 
@@ -115,5 +116,5 @@ table\_name
 The value is only populated when the exact internal name of table is identified.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow AI Lens reference](servicenow-lens-reference.md)
+</table>**Parent Topic:**[ServiceNow AI Lens reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/servicenow-lens-reference.md)
 

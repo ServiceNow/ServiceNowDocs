@@ -2,6 +2,7 @@
 title: Opt in to model categories to track performance KPIs for hardware assets
 description: Monitor the performance KPIs of hardware assets in your organization by enabling the KPI tracking for the models to which the assets belong.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/opt-in-kpi-tracking-ham.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -34,5 +35,5 @@ Role required: admin
 
 ## Result
 
-[Create an operational schedule for hardware assets](create-operational-schedule-ham.md).
+[Create an operational schedule for hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-operational-schedule-ham.md).
 

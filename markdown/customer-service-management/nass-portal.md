@@ -2,7 +2,10 @@
 title: Now Assist conversational experience in self-service portals
 description: Learn about the Now Assist enhanced chat feature in the Self-service portals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/nass-portal.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ Learn about the Now Assist enhanced chat feature in the Self-service portals.
 
 Now Assist enhanced chat is a conversational support experience within a dynamic window that also includes the ability to have multiple active conversations and superior search capabilities.
 
-You can enable enhanced chat experience from the Now Assist in Virtual Agent guided setup. For details, see [Display your chat assistant on a portal, channel, or mobile app](https://www.servicenow.com/docs/access?context=display-assistant-portal-channel&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+You can enable enhanced chat experience from the Now Assist in Virtual Agent guided setup. For details, see .
 
 ## Enhanced chat experience on self-service portal
 
@@ -36,7 +39,7 @@ You can enable enhanced chat experience from the Now Assist in Virtual Agent gui
     The new theme is visually appealing, engaging, and user-friendly, with a focus on enhancing productivity.
 
 
-![Portal homepage with enhanced chat](../image/enhanced-chat-NASS.png "Enhanced chat with Now Assist in Portals")
+\[Omitted image "enhanced-chat-NASS.png"\] Alt text: Portal homepage with enhanced chat
 
 ## Search experience 
 

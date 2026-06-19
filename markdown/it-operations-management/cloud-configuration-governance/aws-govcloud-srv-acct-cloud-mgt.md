@@ -2,6 +2,7 @@
 title: Create a service account for AWS GovCloud
 description: If your organization uses AWS GovCloud \(US\) region, you must create a service account in the region where you provision the resources. These credentials that you create are used for Cloud Discovery, Cloud Provisioning and Governance, and Cloud Cost Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/aws-govcloud-srv-acct-cloud-mgt.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -36,7 +37,7 @@ A service account holds the credential and account information that you created 
     |Field|Description|
     |-----|-----------|
     |Account ID|Account ID to which this credential belongs.|
-    |Discovery credentials|Select the name of the credentials that you created in the [Create AWS GovCloud credentials for Cloud Provisioning and Governance](aws-govcloud-creds-cloud-mgt.md) procedure. In the example, you used the name `AWS GovCloud Creds O1`.|
+    |Discovery credentials|Select the name of the credentials that you created in the [Create AWS GovCloud credentials for Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/aws-govcloud-creds-cloud-mgt.md) procedure. In the example, you used the name `AWS GovCloud Creds O1`.|
     |Datacenter URL|URL of the datacenter. For example, [https://ec2.us-gov-west-1.amazonaws.com](https://ec2.us-gov-west-1.amazonaws.com)|
     |Datacenter type|Select the CMDB table that represents the type of datacenter. For example, the \[`cmdb_ci_aws_datacenter`\] table.|
     |Datacenter discovery status|Auto-generated value: Status and timestamp of the last execution of Discovery on the datacenter.|

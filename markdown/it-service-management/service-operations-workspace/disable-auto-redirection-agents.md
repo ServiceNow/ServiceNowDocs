@@ -2,6 +2,7 @@
 title: Disable auto-redirection for all agents to Service Operations Workspace
 description: Verify that the agents aren't automatically redirected to Service Operations Workspace after logging in to the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/disable-auto-redirection-agents.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -46,5 +47,5 @@ Role required: sn\_sow\_admin.sn\_sow\_admin, or admin
         If the Homepage Destination Rules \[sys\_homepage\_destination\_rule\] table contains other records that redirect to SOW, use these steps to clear the **Active**  check box for each record.
 
 
-**Parent Topic:**[Landing page redirection in Service Operations Workspace for ITSM](../concept/landing-page-redirection-sow-itsm.md)
+**Parent Topic:**[Landing page redirection in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/landing-page-redirection-sow-itsm.md)
 

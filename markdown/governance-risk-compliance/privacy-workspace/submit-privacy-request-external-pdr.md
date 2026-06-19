@@ -2,6 +2,7 @@
 title: Submit a privacy request using the external facing PDR form
 description: Submit a privacy request using the external-facing Personal Data Rights \(PDR\) form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/submit-privacy-request-external-pdr.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace

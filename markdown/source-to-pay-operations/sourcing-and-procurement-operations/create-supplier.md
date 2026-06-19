@@ -2,13 +2,14 @@
 title: Add a supplier
 description: Add suppliers and their products to populate your primary data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-supplier.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Setting up primary data for Shopping Hub, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Setting up primary data Shopping, Configure Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Add a supplier
@@ -164,7 +165,7 @@ Shipping time in days
 
 </td><td>
 
-Estimated number of days to ship products to the delivery location. For more information, see [Lead time calculations](../reference/lead-time-calculations.md).
+Estimated number of days to ship products to the delivery location. For more information, see [Lead time calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/lead-time-calculations.md).
 
 </td></tr><tr><td>
 
@@ -243,7 +244,7 @@ Legal entities that are allowed to buy from this supplier.
 ## What to do next
 
 -   Use the related lists of the supplier form to view the supplier products and contracts that are associated with this supplier.
--   Add a supplier product. For more information, see [Add a supplier product](add-supplier-product.md).
+-   Add a supplier product. For more information, see [Add a supplier product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/add-supplier-product.md).
 
-**Parent Topic:**[Setting up primary data for Shopping Hub](../reference/set-up-master-data-shopping-hub.md)
+**Parent Topic:**[Setting up primary data for Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/set-up-master-data-shopping-hub.md)
 

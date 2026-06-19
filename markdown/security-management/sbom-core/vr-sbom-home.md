@@ -2,6 +2,7 @@
 title: Review the Home page in the Software Bill of Materials Workspace
 description: Uploaded data is rolled up to the visualizations on the landing \(Home\) page in the Software Bill of Materials \(SBOM\) Workspace. Data is modified after you upload files so vulnerability analysts can see trends and review current information about your components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sbom-core/vr-sbom-home.html
 release: zurich
 product: SBOM Core
 classification: sbom-core
@@ -58,7 +59,7 @@ If you have installed SBOM Response
 The following data visualizations are displayed.-   All BOM Entities - A breakdown of BOM entities by type: Application, Container, Library, and Others. A BOM entity refers to the root level component in an SBOM file for which an SBOM document was generated and uploaded.
 -   BOM Entities with Vulnerabilities - Entities that have a vulnerability associated with any component that they depend on. If an entity dependency has one **Critical** vulnerability, the entity's severity is considered critical.
 -   Active AVIs - The trend for the number of application vulnerable items \(AVI\)s created each day.
-The data visualizations display data for the last 30 days. The 30-day range isn’t editable. This data is available after you've reviewed and set up the creation rules for application vulnerable items. For more information, see [Creating rules for application vulnerable items in the Software Bill of Materials Workspace](../task/vr-sbom-config-sbom-response.md).
+The data visualizations display data for the last 30 days. The 30-day range isn’t editable. This data is available after you've reviewed and set up the creation rules for application vulnerable items. For more information, see [Creating rules for application vulnerable items in the Software Bill of Materials Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sbom-core/vr-sbom-config-sbom-response.md).
 
 </td></tr></tbody>
 </table>2.  Select a data visualization card to see its list of records.
@@ -95,7 +96,7 @@ The data visualizations display data for the last 30 days. The 30-day range isn�
 
     3.  Select the **Vulnerabilities** tab to see the vulnerabilities associated with a dependency of this entity.
 
-        For more information about the vulnerabilities displayed for an entity, see [View upload status for Software Bill of Materials files](../task/vr-sbom-bom-queue.md).
+        For more information about the vulnerabilities displayed for an entity, see [View upload status for Software Bill of Materials files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sbom-core/vr-sbom-bom-queue.md).
 
     4.  Select the **AVIs** tab to see if there are application vulnerable items for this entity.
 

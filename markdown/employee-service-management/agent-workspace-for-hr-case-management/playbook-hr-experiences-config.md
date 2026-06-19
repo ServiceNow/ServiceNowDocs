@@ -2,6 +2,7 @@
 title: Configure HR Playbook Experiences
 description: Use Playbook Experiences to modify the default playbook experience configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/playbook-hr-experiences-config.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

@@ -2,6 +2,7 @@
 title: Add, edit, or delete journey quick links
 description: Journey owners and mentors add, edit, and delete quick links in a journey.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/jny-dsgnr-mngr-mntr-quick-links.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -23,7 +24,7 @@ Role required: Journey owner or Journey Mentor with **Can add quick links** perm
 
 Journey owners and mentors have permissions assigned to them from a Journey Configuration. The permission the enable owners and mentors to add, edit, or delete quick links to a journey is **Can add quick links**. Owners and mentors with this permission can add valid URLs to an individual journey as a quick link.
 
-**Note:** If the **Quick links** widget is not visible in a journey, the **Can add quick links** is not configured in the Journey Configuration. Only administrators can update the permissions for the journey configuration. See, [Update users' permissions for journeys](jny-dsgnr-update-user-permissions.md).
+**Note:** If the **Quick links** widget is not visible in a journey, the **Can add quick links** is not configured in the Journey Configuration. Only administrators can update the permissions for the journey configuration. See, [Update users' permissions for journeys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-update-user-permissions.md).
 
 ## Procedure
 
@@ -31,7 +32,7 @@ Journey owners and mentors have permissions assigned to them from a Journey Conf
 
 2.  Open the journey to add the quick link to.
 
-    The **Quick links** widget is at the bottom right of the journey page. You can also add quick links when you are creating a journey. See, [Create a journey](jny-dsgnr-create-journey.md).
+    The **Quick links** widget is at the bottom right of the journey page. You can also add quick links when you are creating a journey. See, [Create a journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-create-journey.md).
 
 3.  Select **Add a link** and fill in the fields.
 
@@ -42,5 +43,5 @@ Journey owners and mentors have permissions assigned to them from a Journey Conf
     Select the more icon to edit or delete a link.
 
 
-**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](../concept/jny-working-with-journeys.md)
+**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-working-with-journeys.md)
 

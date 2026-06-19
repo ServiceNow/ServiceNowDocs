@@ -2,6 +2,7 @@
 title: Control cascading quantity values in child product offerings
 description: Control how the quantities for child line items in a product offering for an opportunity, quote, or order are calculated by using the sn\_prd\_pm.enable\_cascade\_quantity system property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/som-activate-cascade-quantity.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

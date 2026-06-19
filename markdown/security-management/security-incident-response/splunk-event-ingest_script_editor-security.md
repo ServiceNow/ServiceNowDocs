@@ -2,6 +2,7 @@
 title: Use the script editor to format alert values for the Splunk Enterprise Security Event Ingestion integration
 description: In addition to the directly mapped fields from the ingested notable event values, and the values you enter manually, use the script editor to format field values on the security incident during the mapping step.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/splunk-event-ingest\_script\_editor-security.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -29,7 +30,7 @@ In certain cases, Splunk Enterprise Security notable event values are mapped to 
 
 1.  With the mapping form displayed, click the link to open the script editor.
 
-    ![Script editor link](../image/splunk_es_script_editor1_security.png)
+    \[Omitted image "splunk\_es\_script\_editor1\_security.png"\] Alt text: Script editor link
 
 2.  From the choice list, select a destination field for the value that you want to edit.
 
@@ -41,7 +42,7 @@ In certain cases, Splunk Enterprise Security notable event values are mapped to 
 
     The editor opens with the field displayed in Destination Field. The following image shows the editor with the `Configuration item` field as the Destination Field.
 
-    ![Script editor](../image/splunk_es_script_editor2_security.png)
+    \[Omitted image "splunk\_es\_script\_editor2\_security.png"\] Alt text: Script editor
 
 4.  Enter any changes to then script, and click **Update** to save your changes.
 

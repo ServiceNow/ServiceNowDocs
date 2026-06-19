@@ -2,6 +2,7 @@
 title: Associate a knowledge base article with an alert
 description: As an Event Management operator, you can associate a knowledge base \(KB\) article with the alert to capture additional information about the alert. This might include a procedure that someone has to follow to resolve the underlying issue on your network, or a best practice to prevent the issue from reoccurring.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/operator-associate-kb.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -25,11 +26,11 @@ Phase 1
 
 </td><td align="justify">
 
-![Analyze icon](../image/progress-complete2.png)
+\[Omitted image "progress-complete2.png"\] Alt text: Analyze icon
 
 </td><td>
 
-[Analyze and acknowledge an alert](operator-phase-acknowledge-analyze.md)
+[Analyze and acknowledge an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-phase-acknowledge-analyze.md)
 
 </td></tr><tr><td>
 
@@ -37,7 +38,7 @@ Phase 2
 
 </td><td align="justify">
 
-![Operator icon](../image/progress-wip.png)
+\[Omitted image "progress-wip.png"\] Alt text: Operator icon
 
 </td><td>
 
@@ -49,11 +50,11 @@ Phase 3
 
 </td><td align="justify">
 
-![Operator do icon](../image/progress-not-started.png)
+\[Omitted image "progress-not-started.png"\] Alt text: Operator do icon
 
 </td><td>
 
-[Close an alert](operator-close-alert.md)
+[Close an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-close-alert.md)
 
 </td></tr></tbody>
 </table>This task assumes that your organization uses the Knowledge Base application in your ServiceNow instance.
@@ -64,17 +65,17 @@ Role required: evt\_mgmt\_operator
 
 1.  From the Service Operations Workspace dashboard, open the alert that you acknowledged in Phase 1: Analyze and acknowledge an alert.
 
-2.  On the Alert form, click the lookup icon \(![Lookup icon](../image/lookup-icon.png)\) next to the **Knowledge article** field.
+2.  On the Alert form, click the lookup icon \(\[Omitted image "lookup-icon.png"\] Alt text: Lookup icon\) next to the **Knowledge article** field.
 
 3.  Filter the list of existing KB articles by first selecting a field, such as **Short Description**, and then entering related text into the search text field.
 
     You can use the `contains` \(**\***\) operator to search for articles that contain keywords. For example, entering `*oracle` in the short description filters the KB articles that contain the word `oracle` somewhere in the short description.
 
-    ![Search the KB](../image/search-kb.png)
+    \[Omitted image "search-kb.png"\] Alt text: Search the KB
 
 4.  If you cannot find any related KB articles, you can click **New**, create a new one, and then click **Submit**.
 
-    The KB article number appears in the **Knowledge article** field on the Alert form. ![KB number](../image/knowledge-article-number.png)
+    The KB article number appears in the **Knowledge article** field on the Alert form. \[Omitted image "knowledge-article-number.png"\] Alt text: KB number
 
 5.  Click **Update** on the Alert form to save the information.
 
@@ -83,11 +84,11 @@ Role required: evt\_mgmt\_operator
 
 There are also other tasks you can take as part of the triage stage:
 
--   [Run a remediation workflow on an alert](operator-run-remdiation.md) if your Event Management administrator already set up a workflow in your ServiceNow instance and your policies allow you to trigger it from the alert.
--   [Launch a web application from an alert](operator-launch-web-app.md) to open a website or an event monitoring tool that provides more information about the alert.
--   [Put an alert into maintenance](operator-put-alert-into-maintenance.md) to temporarily hide it from the Service Operations Workspace dashboard if the alert does not require action at this time.
+-   [Run a remediation workflow on an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-run-remdiation.md) if your Event Management administrator already set up a workflow in your ServiceNow instance and your policies allow you to trigger it from the alert.
+-   [Launch a web application from an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-launch-web-app.md) to open a website or an event monitoring tool that provides more information about the alert.
+-   [Put an alert into maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-put-alert-into-maintenance.md) to temporarily hide it from the Service Operations Workspace dashboard if the alert does not require action at this time.
 
-If you do not need to perform any other triage actions, proceed to [Phase 3: Close an alert](operator-close-alert.md).
+If you do not need to perform any other triage actions, proceed to [Phase 3: Close an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-close-alert.md).
 
-**Parent Topic:**[Operator phase 2: Triage an alert](operator-phase-triage-incident.md)
+**Parent Topic:**[Operator phase 2: Triage an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-phase-triage-incident.md)
 

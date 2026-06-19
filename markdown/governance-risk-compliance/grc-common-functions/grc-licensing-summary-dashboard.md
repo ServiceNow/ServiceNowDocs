@@ -2,6 +2,7 @@
 title: GRC licensing summary dashboard
 description: Use the GRC licensing summary dashboard to track license usage trends and next month's projected usage. You can see the aggregated counts of license consumption across different product families. You can also search for roles to identify their combined GRC license treatment when these roles are assigned to a user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/grc-licensing-summary-dashboard.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -209,10 +210,10 @@ Shows the license treatment for a specific combination of roles. You can search 
 </td></tr></tbody>
 </table>The following illustration shows the tabs, sections, and cards that are available on the GRC licensing summary dashboard:
 
-![GRC licensing summary dashboard](../image/grc-licensing-summary-dashboard.gif "GRC licensing summary dashboard")
+\[Omitted image "grc-licensing-summary-dashboard.gif"\] Alt text: GRC licensing summary dashboard
 
--   **[Displaying the role hierarchy of a user](role-hierarchy.md)**  
+-   **[Displaying the role hierarchy of a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/role-hierarchy.md)**  
 The role hierarchy node map displays the relationship between the license contributing roles for role-based users and provides insights into the licensing treatment of a user.
 
-**Parent Topic:**[Common Governance, Risk, and Compliance features](common-grc-features.md)
+**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

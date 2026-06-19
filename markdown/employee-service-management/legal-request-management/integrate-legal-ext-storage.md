@@ -2,6 +2,7 @@
 title: Configure an external storage system for legal requests and legal matters
 description: Configure an external storage system to store documents attached to legal requests and legal matters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-request-management/integrate-legal-ext-storage.html
 release: zurich
 product: Legal Request Management
 classification: legal-request-management
@@ -19,25 +20,25 @@ Configure an external storage system to store documents attached to legal reques
 
 Ensure that the administrator has installed and set up spokes for the external storage system you want to configure for legal apps.
 
--   **[Box spoke](https://www.servicenow.com/docs/access?context=box-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) v3.1.0 or later version**
+-   **Box spoke v3.1.0 or later version**
 
-    For more information on the setup and creating the Box account, see [Set up Box spoke](https://www.servicenow.com/docs/access?context=setup-box-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+    For more information on the setup and creating the Box account, see Set up Box spoke.
 
--   **[Google Drive spoke](https://www.servicenow.com/docs/access?context=googledrive-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) v1.3.0 or later version**
+-   **Google Drive spoke v1.3.0 or later version**
 
-    For more information on the setup and creating the Google Drive account, see [Set up Google Drive spoke](https://www.servicenow.com/docs/access?context=setup-gdrive&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+    For more information on the setup and creating the Google Drive account, see Set up Google Drive spoke.
 
--   **[Microsoft OneDrive spoke](https://www.servicenow.com/docs/access?context=onedrive-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) v2.1.0 or later version**
+-   **Microsoft OneDrive spoke v2.1.0 or later version**
 
-    For more information on the setup and creating the Microsoft OneDrive account, see [Set up Microsoft OneDrive spoke](https://www.servicenow.com/docs/access?context=setup-msonedrive&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+    For more information on the setup and creating the Microsoft OneDrive account, see Set up Microsoft OneDrive spoke.
 
--   **[Microsoft SharePoint spoke](https://www.servicenow.com/docs/access?context=sharepoint-online-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) v2.2.0 or later version**
+-   **Microsoft SharePoint spoke v2.2.0 or later version**
 
-    For more information on setting up Microsoft SharePoint, see [Configure Microsoft SharePoint Online connection record](https://www.servicenow.com/docs/access?context=set-up-microsoft-sharepoint-online-and-connection-record&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+    For more information on setting up Microsoft SharePoint, see .
 
--   **[iManage Spoke](https://www.servicenow.com/docs/access?context=imanage-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) spoke v1.0.0**
+-   ** spoke v1.0.0**
 
-    For more information on the setup and creating the iManage account, see [Set up iManage spoke](https://www.servicenow.com/docs/access?context=set-up-imanage-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+    For more information on the setup and creating the iManage account, see Set up iManage spoke.
 
     **Important:** After setting up the spoke, give the iManage spoke user \[sn\_imanage\_spk.user\] role to users accessing iManage external storage.
 
@@ -50,15 +51,15 @@ Role required: sn\_lg\_ops.request\_config
 
 2.  Create or modify an external app configuration.
 
-<table id="choicetable_tdc_kmg_dtb"><thead><tr><th align="left" id="d429771e203">
+<table id="choicetable_tdc_kmg_dtb"><thead><tr><th align="left" id="d83722e201">
 
 Option
 
-</th><th align="left" id="d429771e206">
+</th><th align="left" id="d83722e204">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d429771e212">
+</th></tr></thead><tbody><tr><td id="d83722e210">
 
 **To create an external app configuration**
 
@@ -68,7 +69,7 @@ Steps
 2.  On the Integration Type page, select the **External Storage** link.
 
 
-</td></tr><tr><td id="d429771e236">
+</td></tr><tr><td id="d83722e234">
 
 **To modify an existing external app configuration**
 
@@ -179,7 +180,7 @@ Attributes
 
 Additional configuration items based on your Microsoft SharePoint and iManage configuration. Add the following details:**Microsoft SharePoint**
 
--   **Tenant**: Add the sys\_id of the [Microsoft SharePoint tenant record](https://www.servicenow.com/docs/access?context=create-tenant&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+-   **Tenant**: Add the sys\_id of the Microsoft SharePoint tenant record.
 -   **Site\_Name**: Add the name of the site in the tenant.
 -   **Document Library**: Add the document library set up in the site where all documents related to legal requests and legal matters are stored.
 For more information on managing Microsoft SharePoint tenants, sites, and document libraries, see the Microsoft documentation.
@@ -215,14 +216,14 @@ The external storage system integration is published and is ready for storing do
 
 ## What to do next
 
-Add the **Enable External Storage for attachment** option in the intake forms so that the documents attached to those legal requestsor legal mattersare stored in the configured external storage. For more information, see [Add an intake form to a practice area](associate-categories-practice-area.md).
+Add the **Enable External Storage for attachment** option in the intake forms so that the documents attached to those legal requestsor legal mattersare stored in the configured external storage. For more information, see [Add an intake form to a practice area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/associate-categories-practice-area.md).
 
-Configure the system properties for Legal Service Delivery apps to administer integration with the external storage provider. For more information, see [Legal Service Delivery properties](../reference/legal-properties.md).
+Configure the system properties for Legal Service Delivery apps to administer integration with the external storage provider. For more information, see [Legal Service Delivery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/legal-properties.md).
 
--   **[Integrating Legal Service Delivery applications with iManage storage](../reference/configuring-imanage-integration.md)**  
+-   **[Integrating Legal Service Delivery applications with iManage storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/configuring-imanage-integration.md)**  
 Integrate iManage storage with Legal Service Delivery applications to provide more security to the files.
--   **[Create implementation in Scripted Extension Point](create-scripted-extension-point.md)**  
+-   **[Create implementation in Scripted Extension Point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/create-scripted-extension-point.md)**  
 Create the implementation in the Scripted Extension Point, provided out-of-the-box, by placing it in the script include in the base application code.
 
-**Parent Topic:**[Configuring Legal Request Management](../concept/legal-ops-administration.md)
+**Parent Topic:**[Configuring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/legal-ops-administration.md)
 

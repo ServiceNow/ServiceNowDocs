@@ -2,6 +2,7 @@
 title: Configure extreme duration finding definition
 description: Configure an extreme duration finding definition to view a pattern where transitions take significantly longer than the usual duration between the steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/extreme-duration.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -21,13 +22,13 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 Extreme duration finding definition displays transitions that take significantly longer than the median duration. This helps uncover potential duration anomalies.
 
-![Extreme duration](../image/extreme-duration.png)
+\[Omitted image "extreme-duration.png"\] Alt text: Extreme duration
 
 ## Procedure
 
 1.  Navigate to Improvement opportunity definition page.
 
-    For information about the Improvement opportunity definition page, see [Set improvement opportunities](improve-opportunities.md).
+    For information about the Improvement opportunity definition page, see [Set improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/improve-opportunities.md).
 
 2.  Select **Create** on the Extreme duration card.
 
@@ -35,7 +36,7 @@ Extreme duration finding definition displays transitions that take significantly
 
 3.  Provide details in the **Define** section.
 
-    For details, see [Rule-based finding definition form from Finding Builder](../reference/finding-definition-form.md).
+    For details, see [Rule-based finding definition form from Finding Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/finding-definition-form.md).
 
 4.  Select **Configure**.
 
@@ -45,7 +46,7 @@ Extreme duration finding definition displays transitions that take significantly
 
     Default values are provided. You can edit them if needed.
 
-    ![Extreme duration configuration](../image/extreme-duration-config.png)
+    \[Omitted image "extreme-duration-config.png"\] Alt text: Extreme duration configuration
 
     According to the example, records that meet the following conditions are available as improvement opportunities in the Summary and insights page:
 
@@ -55,5 +56,5 @@ Extreme duration finding definition displays transitions that take significantly
 6.  Select **Save and exit**.
 
 
-**Parent Topic:**[Automated improvement opportunities](../concept/automated-findings.md)
+**Parent Topic:**[Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/automated-findings.md)
 

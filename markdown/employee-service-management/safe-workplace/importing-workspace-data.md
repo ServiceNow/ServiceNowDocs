@@ -2,6 +2,7 @@
 title: Configuring spreadsheets to import workplace data
 description: Doing a bulk import of the data of all your workspaces into the Workplace Core application through a spreadsheet enables you to avoid manually entering redundant data for each workspace, which saves time and effort.Customize the information in your organization's existing workspace spreadsheet to avoid having to manually enter repeated information for each workspace. You can then import the data into your ServiceNow instance.Create a Microsoft Excel spreadsheet from the data you entered into the Workplace Core so you can avoid having to manually enter global information such as the site or building names for each workspace. You can then import the data into your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/importing-workspace-data.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace
@@ -17,7 +18,7 @@ Doing a bulk import of the data of all your workspaces into the Workplace Core a
 
 By using a spreadsheet that contains the global information for your work sites, you can enter only the distinguishing space information instead of having to manually repeat information such as the region, site, building, and floor. You can either create an Excel spreadsheet from the data you've entered into the Workplace Core application or modify an existing workplaces spreadsheet.
 
-**Parent Topic:**[Providing your workplace data](providing-your-workplace-data.md)
+**Parent Topic:**[Providing your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/providing-your-workplace-data.md)
 
 ## Configure an existing workspaces spreadsheet
 
@@ -54,7 +55,7 @@ This example describes how to modify the floor information for your workspace da
         -   RGIN0001002 represents USA
         **Note:** You can exclude the **Area** column as it is not mandatory. Enter a dummy value in the column instead of leaving it empty.
 
-        ![Import workspace data](../../../reuse/workplace-safety-mgmt/images/import-workspace-data.gif)
+        \[Omitted image "import-workspace-data.gif"\] Alt text: Import workspace data
 
 2.  In your workspaces spreadsheet, add individual workspace information in the **Name** column.
 
@@ -73,7 +74,7 @@ Role required: sn\_wsd\_core.admin
 
 If you have a large number of work sites, consider creating a spreadsheet that you can then import into your ServiceNow instance to avoid having to manually enter global information such as the site or building names for each workspace.
 
-**Note:** If you already have an existing workspaces spreadsheet for your organization, follow the instructions in [Configure an existing workspaces spreadsheet](../../workplace-service-delivery/concept/importing-workspace-data-wsd.md#) to customize it for exporting the data.
+**Note:** If you already have an existing workspaces spreadsheet for your organization, follow the instructions in [Configure an existing workspaces spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/importing-workspace-data-wsd.md) to customize it for exporting the data.
 
 ### Procedure
 
@@ -100,5 +101,5 @@ If you have a large number of work sites, consider creating a spreadsheet that y
 
 ### What to do next
 
-[Import your workspaces data from an Excel spreadsheet](../../workplace-service-delivery/task/import-excel-spreadsheet-workspace-data-wsd.md)
+[Import your workspaces data from an Excel spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/import-excel-spreadsheet-workspace-data-wsd.md)
 

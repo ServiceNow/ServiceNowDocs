@@ -2,6 +2,7 @@
 title: Enable export debug logging
 description: When the property glide.export.debug is true, the instance logs export processing including database query time and the time taken to write data to the file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/c\_EnableExportDebugLogging.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management

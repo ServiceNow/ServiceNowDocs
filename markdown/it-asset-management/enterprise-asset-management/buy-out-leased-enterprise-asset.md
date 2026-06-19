@@ -2,6 +2,7 @@
 title: Buy out a leased enterprise asset
 description: Buy out a leased enterprise asset before the corresponding lease contract expires.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/buy-out-leased-enterprise-asset.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -17,7 +18,7 @@ Buy out a leased enterprise asset before the corresponding lease contract expire
 
 ## Before you begin
 
-Before you can proceed with buying out a leased enterprise asset, you must complete the Planning task for the associated lease contract. See [Complete the Planning task for an expiring enterprise asset lease contract](complete-leased-asset-planning.md) for detailed instructions.
+Before you can proceed with buying out a leased enterprise asset, you must complete the Planning task for the associated lease contract. See [Complete the Planning task for an expiring enterprise asset lease contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/complete-leased-asset-planning.md) for detailed instructions.
 
 Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
@@ -180,13 +181,13 @@ Notes about the task that are visible to all users within your organization.
 
         The Buyout confirmation task opens.
 
-        **Note:** Aside from the **State** field and the additional **Buyout confirmation** field, all editable fields in the Buyout confirmation task are pre-populated based on the corresponding fields that you filled out in the Buyout task. The **Purchase order** and **Purchase order line** fields are pre-populated with the purchase order and purchase order line that the Enterprise Asset Management application automatically created for the enterprise asset buyout in the [Planning task](complete-leased-asset-planning.md).
+        **Note:** Aside from the **State** field and the additional **Buyout confirmation** field, all editable fields in the Buyout confirmation task are pre-populated based on the corresponding fields that you filled out in the Buyout task. The **Purchase order** and **Purchase order line** fields are pre-populated with the purchase order and purchase order line that the Enterprise Asset Management application automatically created for the enterprise asset buyout in the [Planning task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/complete-leased-asset-planning.md).
 
     2.  In the Buyout details section of the **Details** tab, set the **Buyout confirmation** field to **Yes**.
 
         This field indicates if you bought out the enterprise asset successfully.
 
-    3.  In the same section, select the Open Record icon ![](../image/open-record-icon.png) in the **Purchase order** field.
+    3.  In the same section, select the Open Record icon \[Omitted image "open-record-icon.png"\] Alt text: in the **Purchase order** field.
 
         The purchase order record opens.
 
@@ -207,5 +208,5 @@ Notes about the task that are visible to all users within your organization.
 
 After you successfully buy out the enterprise asset, the **Date removed** field on the lease contract record automatically updates with the date on which you completed all buyout tasks. Following this date, you can no longer track the enterprise asset through this lease contract record.
 
-**Parent Topic:**[Managing expiring contracts for leased enterprise assets](../concept/managing-expiring-contracts-leased-assets.md)
+**Parent Topic:**[Managing expiring contracts for leased enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/managing-expiring-contracts-leased-assets.md)
 

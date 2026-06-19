@@ -2,6 +2,7 @@
 title: Components installed with Process Mining
 description: Several types of components are installed with activation of the com.sn\_po plugin, including tables, user roles, and scheduled jobs.Process Mining adds these roles.Access all projects and manage all project settings and configurations and schedule background and jobs.Perform the following actions when assigned to this role.Perform the following actions when assigned to this role.System properties control system behavior. The properties in this section are specific to the Process Mining application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/components-installed.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -15,7 +16,7 @@ breadcrumb: [Process Mining reference, Process Mining, Platform Analytics]
 
 Several types of components are installed with activation of the com.sn\_po plugin, including tables, user roles, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Scheduled jobs installed
 
@@ -290,7 +291,7 @@ Job Process Mining Project\[promin\_job\_m2m\_project\]
 Stores information about the project attached to a job.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Process Mining reference](../concept/process-mining-reference.md)
+</table>**Parent Topic:**[Process Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/process-mining-reference.md)
 
 ## Process Mining roles
 

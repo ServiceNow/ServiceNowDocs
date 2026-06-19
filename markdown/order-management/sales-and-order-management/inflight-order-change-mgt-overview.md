@@ -2,6 +2,7 @@
 title: Managing inflight order changes and cancellation requests
 description: Manage how your organization receives changes for customer orders, service orders or individual line items that are still being orchestrated and fulfilled. By using inflight change order management, you can designate when you permit such changes. You can also assess the impact of the requested changes for an order or order line item, and automatically generate a plan to compensate for them when you approve the revision or cancellation request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/inflight-order-change-mgt-overview.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -44,7 +45,7 @@ Based on the types of customer requests, you update an inflight order to do the 
 |Add a product or service to an order.|A customer wants to add a new item to an existing order.|
 |Increase or decrease the quantity of order line items in a product or service order.|A customer wants a higher or lower the quantity of an existing order.|
 |Add, change, or cancel a product or service, or product or service options, in a related domain product or service order.|A customer wants to update the characteristic value of a product or service that the customer ordered at an earlier date. For example, the customer wants to change the speed of an internet service from 100 Mbps to 500 Mbps.|
-|Incorporate changes that are applicable to the related items of a product or service order.|A customer wants to add or change an item to an order that has horizontal relationships. To learn more, see [Horizontal relationships between products](horizontal-relationships.md).|
+|Incorporate changes that are applicable to the related items of a product or service order.|A customer wants to add or change an item to an order that has horizontal relationships. To learn more, see [Horizontal relationships between products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/horizontal-relationships.md).|
 
 Fulfillment user-initiated requests
 
@@ -57,7 +58,7 @@ To expedite the completion of the order fulfillment process, the order fulfillme
 |Add, change, or cancel the service domain orders and product inventory.|A customer wants to change the characteristics value of a product or service. For example, the customers wants to change the Firewall Security Service from Standard to Basic.|
 |Add, change, or cancel a service, including service options, in a related domain service order.|A customer wants to change the standard warranty of 90 days to an extended service policy.|
 |Add, change, or cancel a resource, including resource options, in a related domain resource order.|Revised installation instructions are available for a product that the customer ordered.|
-|Incorporate changes that are applicable to the related items and product inventory of a product or service order.|A customer wants to add or change an item to an order that has horizontal relationships. To learn more, see [Horizontal relationships between products](horizontal-relationships.md).|
+|Incorporate changes that are applicable to the related items and product inventory of a product or service order.|A customer wants to add or change an item to an order that has horizontal relationships. To learn more, see [Horizontal relationships between products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/horizontal-relationships.md).|
 
 ## Inflight Order Change processing
 
@@ -67,7 +68,7 @@ When a user or order fulfillment manager attempts to make any of these changes, 
 -   Updating product characteristics options
 -   Updating contact or billing information
 
-![Infographic displaying the scenario and approach of Inflight order change high-level processing. For the text description, refer to the steps that follow.](../image/inflight-order-change-high-level-approach.svg "Inflight order change high-level approach")
+\[Omitted image "inflight-order-change-high-level-approach.svg"\] Alt text: Infographic displaying the scenario and approach of Inflight order change high-level processing. For the text description, refer to the steps that follow.
 
 The sequence for inflight change order processing is as follows:
 
@@ -94,10 +95,6 @@ The sequence for inflight change order processing is as follows:
 
 ## Inflight order change example
 
-The following diagram shows the process where PONR occurs for order changes that were made for an SD-WAN Service Package and its related products.
-
-![Infographic showing the workflow of SD-WAN service package inflight order changes. For text description, refer to the Inflight order change example section that follows.](../image/inflight-sd-wan-order.png "SD-WAN Service Package inflight change orders")
-
 For the top-level SD-WAN Service package, the PONR only occurs before the testing and turn up stage. A customer or internal fulfillment personnel can't change the ordered item after that point.
 
 For subordinate products, such as the SD-WAN Edge device, the order can be changed before the Customer Premise Equipment \(CPE\) configuration completes. If CPE delivery is initiated but doesn't complete, and a product substitution is requested, the Inflight Change Order function can do the following actions:
@@ -108,16 +105,16 @@ For subordinate products, such as the SD-WAN Edge device, the order can be chang
 
 After the CPE configuration is complete, no further changes are allowed in the order for that device. This scenario also applies to the SD-WAN Controller and SD-WAN Security selections.
 
--   **[Key inflight order change and cancellation request fields](key-inflight-order-change-cancellation-request-fields.md#)**  
+-   **[Key inflight order change and cancellation request fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/key-inflight-order-change-cancellation-request-fields.md)**  
 Learn how the ServiceNow AI Platform uses key fields in the Customer Order and Order Line Item forms to track your order changes and cancellation requests. You can see how these fields operate and what information they show you when you revise or request a cancellation of an order, or order line items.
--   **[Cancel orders](../task/order-mgt-review-cust-order-detail.md#)**  
+-   **[Cancel orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-mgt-review-cust-order-detail.md)**  
 Cancel an inflight order, or order line item when a customer requests it or your internal personnel determine an order cancellation is necessary.
--   **[Revise orders](../task/revise-orders.md)**  
+-   **[Revise orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/revise-orders.md)**  
 Revise order line items to update product quantity for ongoing orders.
--   **[Delete orders](../task/delete-orders.md)**  
+-   **[Delete orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/delete-orders.md)**  
 Delete order or order line items if you no longer require them to be part of the order.
--   **[Review and approve order revisions or cancellation requests](../task/review-and-approve-or-decline-order-cancellation-requests.md)**  
+-   **[Review and approve order revisions or cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/review-and-approve-or-decline-order-cancellation-requests.md)**  
 Review a customer or service order that has a pending revision or cancellation request so that you can make sure that the order is correct and complete. You can also approve the order and order line item revisions or cancellations requests.
 
-**Parent Topic:**[Using Order Management](using-order-management.md)
+**Parent Topic:**[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/using-order-management.md)
 

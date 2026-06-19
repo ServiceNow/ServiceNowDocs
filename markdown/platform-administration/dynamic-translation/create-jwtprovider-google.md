@@ -2,6 +2,7 @@
 title: Create a JWT provider for Google Cloud Translator Service spoke
 description: Add a JSON Web Token \(JWT\) provider to Google Cloud Translator Service spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/dynamic-translation/create-jwtprovider-google.html
 release: zurich
 product: Dynamic Translation
 classification: dynamic-translation
@@ -47,9 +48,9 @@ Role required: admin
 7.  Click **Update**.
 
 
-**Parent Topic:**[Set up the Google Cloud Translator Service spoke](setup-google-translator.md)
+**Parent Topic:**[Set up the Google Cloud Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/setup-google-translator.md)
 
-**Previous topic:**[Create a JWT signing key for Google Cloud Translator Service spoke](create-jwtkey-google.md)
+**Previous topic:**[Create a JWT signing key for Google Cloud Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/create-jwtkey-google.md)
 
-**Next topic:**[Configure the credential for the GoogleTranslation alias](configure-credential-google.md)
+**Next topic:**[Configure the credential for the GoogleTranslation alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/configure-credential-google.md)
 

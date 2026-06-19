@@ -2,6 +2,7 @@
 title: Create dependencies for an Enterprise Asset Management work order task
 description: If your work order task requires any upstream or downstream task dependencies, add them to your work order task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/create-dependencies-eam-work-order-task.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management

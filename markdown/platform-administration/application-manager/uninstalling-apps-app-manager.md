@@ -2,6 +2,7 @@
 title: Uninstalling applications
 description: Application Manager can be used to uninstall applications that are no longer in use on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/application-manager/uninstalling-apps-app-manager.html
 release: zurich
 product: Application Manager
 classification: application-manager
@@ -21,8 +22,8 @@ Some applications can be uninstalled from your instance to remove scripts, backg
 
 **Note:** Some applications and plugins can't be uninstalled after they've been installed.
 
--   **[Uninstall an application](../task/uninstall-application-app-mgr.md)**  
+-   **[Uninstall an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/application-manager/uninstall-application-app-mgr.md)**  
 Uninstall an unused application to remove unnecessary or conflicting scripts, background jobs, and roles from your instance.
 
-**Parent Topic:**[Administering applications](../../../build/applications/reference/administering-applications.md)
+**Parent Topic:**[Administering applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/administering-applications.md)
 

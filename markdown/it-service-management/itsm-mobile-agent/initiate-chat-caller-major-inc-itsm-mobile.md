@@ -2,6 +2,7 @@
 title: Initiate a chat with the caller from a major incident
 description: Initiate a chat from a major incident record to discuss about the resolution of the issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/initiate-chat-caller-major-inc-itsm-mobile.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -25,13 +26,13 @@ Role required: major\_incident\_manager, itil, itil\_admin, or admin
 
 2.  Tap **Major incidents** tab, tap **See All**.
 
-    ![See All in major incidents tab.](../image/major-incident-itsm-mobile.png)
+    \[Omitted image "major-incident-itsm-mobile.png"\] Alt text: See All in major incidents tab.
 
 3.  Tap the major incident record you want to work on.
 
 4.  Tap **Caller**.
 
-    ![Major incident details in ITSM Mobile Agent.](../image/major-inc-caller-itsm-mobile.png)
+    \[Omitted image "major-inc-caller-itsm-mobile.png"\] Alt text: Major incident details in ITSM Mobile Agent.
 
 5.  Do one of the following:
 
@@ -40,7 +41,7 @@ Role required: major\_incident\_manager, itil, itil\_admin, or admin
     |Initiate chat in Slack|Tap on the Slack contact.|
     |Initiate chat in Microsoft Teams|Tap on the Microsoft Teams contact.|
 
-    ![User details in ITSM Mobile Agent.](../image/user-details-2-itsm-mobile.png)
+    \[Omitted image "user-details-2-itsm-mobile.png"\] Alt text: User details in ITSM Mobile Agent.
 
     **Note:** The Slack and the Microsoft Teams contacts will be displayed only if the caller has a valid Slack and Microsoft Teams accounts.
 

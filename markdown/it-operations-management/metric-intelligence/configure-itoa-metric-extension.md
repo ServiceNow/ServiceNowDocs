@@ -2,6 +2,7 @@
 title: Manually configure the Metric Intelligence extension
 description: Configure the MID Server Metric Intelligence extension to enable the MID Server to pull raw metrics from external systems, to detect anomalies and report anomalies to the instance along with raw data. This MID Server Metric Intelligence extension is required and must be running in order for your system to be able to collect Metric Intelligence data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/metric-intelligence/configure-itoa-metric-extension.html
 release: zurich
 product: Metric Intelligence
 classification: metric-intelligence
@@ -17,7 +18,7 @@ Configure the MID Server Metric Intelligence extension to enable the MID Server 
 
 ## Before you begin
 
-See [Get started with Metric Intelligence](get-started-metrics.md) for the high level steps of setting up Metric Intelligence.
+See [Get started with Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/metric-intelligence/get-started-metrics.md) for the high level steps of setting up Metric Intelligence.
 
 Role required: evt\_mgmt\_admin
 
@@ -117,7 +118,7 @@ Executing on
 \[Read-Only\] The name of the MID Server on which the extension is running. This field shows the name of the MID Server even if the MID Server is down. If the user stops the extension, this field is empty.
 
 </td></tr></tbody>
-</table>4.  When using the Push method for collecting Metric Intelligence data, the MID Server Metric Intelligence extension must be configured with the **Enable REST Listener** enabled. This option enables a listener so that a REST endpoint can receive raw metric data. The raw metric data is then placed in the regular data flow where the data is sent to the instance and the anomaly detector looks for anomalies. When selected, it adds a handler to the web server to listen for any metrics that are pushed to the MID Server. When this option is selected, the Web Server extension, which starts a Web Server on the MID Server, must also be configured. For more information, see [Configure the MID Web Server extension](configure-mid-web-server-extension.md).
+</table>4.  When using the Push method for collecting Metric Intelligence data, the MID Server Metric Intelligence extension must be configured with the **Enable REST Listener** enabled. This option enables a listener so that a REST endpoint can receive raw metric data. The raw metric data is then placed in the regular data flow where the data is sent to the instance and the anomaly detector looks for anomalies. When selected, it adds a handler to the web server to listen for any metrics that are pushed to the MID Server. When this option is selected, the Web Server extension, which starts a Web Server on the MID Server, must also be configured. For more information, see [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-mid-web-server-extension.md).
 
 5.  Right-click the form heading and select **Save**.
 

@@ -2,6 +2,7 @@
 title: Configure Platform Analytics dashboard details
 description: You can change a dashboard name, add a description, certify it, configure visibility, and specify the requester, the owner, the owner group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/config-db-in-ac.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -18,7 +19,7 @@ You can change a dashboard name, add a description, certify it, configure visibi
 
 You can edit **Dashboard Details** for both dashboards created in UI Builder and dashboards created with the inline editor.
 
-Role required: dashboard\_admin for all dashboards, or any role for dashboards that you own or ones that you have been given the right to edit. See [Platform Analytics dashboard roles](../../par-for-workspace/concept/pa-dashboard-roles.md) for more information about viewing and editing rights on dashboards.
+Role required: dashboard\_admin for all dashboards, or any role for dashboards that you own or ones that you have been given the right to edit. See [Platform Analytics dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/pa-dashboard-roles.md) for more information about viewing and editing rights on dashboards.
 
 ## Procedure
 
@@ -26,7 +27,7 @@ Role required: dashboard\_admin for all dashboards, or any role for dashboards t
 
 2.  On the **Dashboards** overview, choose the dashboard you want to configure.
 
-3.  Select the info button \(![information button](../../par-for-workspace/image/icon-info.png)\) to open the **Details** panel.
+3.  Select the info button \(\[Omitted image "icon-info.png"\] Alt text: information button\) to open the **Details** panel.
 
     On the **Details** panel, you can edit several aspects of the dashboard.
 
@@ -36,15 +37,15 @@ Role required: dashboard\_admin for all dashboards, or any role for dashboards t
 
     3.  Mark the dashboard as **Certified** to inform the user that the dashboard is recommended for use across your organization.
 
-        **Note:** You must have an admin role to mark a dashboard as **Certified**. For more information, see [Certify a Platform Analytics dashboard](certify-db-ac.md).
+        **Note:** You must have an admin role to mark a dashboard as **Certified**. For more information, see [Certify a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/certify-db-ac.md).
 
     4.  In **Dashboard Visibility**, view, add, or remove workspaces the dashboard can be added to.
 
-        **Important:** Specifying a workspace here does not make the dashboard visible in that workspace. It only enables you to add the dashboard to that workspace. For more information about adding a dashboard to a workspace, see [Add a dashboard to a Dashboards page](../../performance-analytics/task/add-dashboard-to-workspace.md).
+        **Important:** Specifying a workspace here does not make the dashboard visible in that workspace. It only enables you to add the dashboard to that workspace. For more information about adding a dashboard to a workspace, see [Add a dashboard to a Dashboards page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/add-dashboard-to-workspace.md).
 
     5.  Specify one or more dashboard categories.
 
-        For more information, see [Platform Analytics experience dashboard categories](db-categories.md#).
+        For more information, see [Platform Analytics experience dashboard categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/db-categories.md).
 
     6.  Specify who requested the dashboard.
 
@@ -62,6 +63,6 @@ Role required: dashboard\_admin for all dashboards, or any role for dashboards t
 
     10. See who the dashboard has been shared with.
 
-    ![inline editor dashboard details example.](../image/db-ac-details-ex.png)
+    \[Omitted image "db-ac-details-ex.png"\] Alt text: inline editor dashboard details example.
 
 

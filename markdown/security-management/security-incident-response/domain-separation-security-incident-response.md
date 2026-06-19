@@ -2,6 +2,7 @@
 title: Domain separation and Security Incident Response
 description: Domain separation is supported in Security Incident Response. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/domain-separation-security-incident-response.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -24,7 +25,7 @@ Domain separation is supported in Security Incident Response. Domain separation 
 
 Sample use case: An Admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## Domain separation in SIR overview
 
@@ -117,35 +118,35 @@ All aspects of product configuration are self-contained in a domain-separated en
 The following tasks must be configured:
 
 1.  System Administration
-    -   Assign roles to users and groups of users: [User roles installed with Security Incident Response](../reference/installed-with-sir.md)
-    -   Install one or more third-party integration plugins to work with Security Incident Response: [Security Incident Response integrations](sir_integrations.md)
+    -   Assign roles to users and groups of users: [User roles installed with Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/installed-with-sir.md)
+    -   Install one or more third-party integration plugins to work with Security Incident Response: [Security Incident Response integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/sir_integrations.md)
 2.  Security Incident Response Administration
-    -   Add or review roles: [Components installed with Security Incident Response](../reference/installed-with-sir.md)
-    -   Configure groups and users: [Create a security incident group](../reference/setup-assistant-reference.md#)
-    -   Set up incident escalations: [Escalate a security incident](../task/escalate-security-incident.md)
-    -   Set up security incident risk score calculators: [Understanding security incident calculators](../reference/setup-assistant-reference.md#)
-    -   Set up service level agreements: [Create a Security Incident Response SLA](../reference/setup-assistant-reference.md#)
-    -   Set up security incident process definitions: [Understanding Security Incident Response process definition](../reference/setup-assistant-reference.md#)
-    -   Set up post-incident review processes: [Manage post incident activities](c_PostIncidentReview.md)
+    -   Add or review roles: [Components installed with Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/installed-with-sir.md)
+    -   Configure groups and users: [Create a security incident group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/setup-assistant-reference.md)
+    -   Set up incident escalations: [Escalate a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/escalate-security-incident.md)
+    -   Set up security incident risk score calculators: [Understanding security incident calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/setup-assistant-reference.md)
+    -   Set up service level agreements: [Create a Security Incident Response SLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/setup-assistant-reference.md)
+    -   Set up security incident process definitions: [Understanding Security Incident Response process definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/setup-assistant-reference.md)
+    -   Set up post-incident review processes: [Manage post incident activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/c_PostIncidentReview.md)
 3.  Security incident email settings
-    -   Set the email parsing inbox: [Security Operations email parsing](../../security-operations-common/concept/email-parsing.md)
-    -   Set up email parsers for alert ingestion: [Create email parsers in Security Operations](../../security-operations-common/task/parsing-emails.md)
-    -   Set up email matching rules for user-reported phishing: [Create rules to validate user-reported phishing attacks](../reference/setup-assistant-reference.md#)
-    -   Set up email inbound actions: [Inbound email actions](https://www.servicenow.com/docs/access?context=c_InboundEmailActions&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+    -   Set the email parsing inbox: [Security Operations email parsing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/email-parsing.md)
+    -   Set up email parsers for alert ingestion: [Create email parsers in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/parsing-emails.md)
+    -   Set up email matching rules for user-reported phishing: [Create rules to validate user-reported phishing attacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/setup-assistant-reference.md)
+    -   Set up email inbound actions: Inbound email actions
 4.  Security incident playbook settings
-    -   Review and set up runbook documents: [Create a Security Incident Response runbook](../reference/setup-assistant-reference.md#)
-    -   Set up security incident workflows: [Security Operations common functionality](../../security-operations-common/concept/sec-ops-common-functionality.md)
+    -   Review and set up runbook documents: [Create a Security Incident Response runbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/setup-assistant-reference.md)
+    -   Set up security incident workflows: [Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/sec-ops-common-functionality.md)
 5.  Capability configurations
-    -   Block request: [Security Operations Integration- Block Request capability](../../security-operations-common/concept/block-request-capability.md)
-    -   Email search and delete: [Security Operations Integration- Email Search and Delete capability](../../security-operations-common/concept/email-search-capability.md)
-    -   Enrich configuration item: [Security Operations Integration- Enrich CI capability](../../security-operations-common/concept/enrich-ci-capability.md)
-    -   Enrich observable: [Security Operations Integration- Enrich Observable capability](../../security-operations-common/concept/enrich-observable-capability.md)
-    -   Get network statistics: [Security Operations Integration- Get Network Statistics capability](../../security-operations-common/concept/get-network-statistics-capability.md)
-    -   Get running processes: [Security Operations Integration- Get Running Processes capability](../../security-operations-common/concept/get-running-processes-capability.md)
-    -   Isolate host: [Security Operations Integration- Isolate Host capability](../../security-operations-common/concept/isolate-host-capability.md)
-    -   Publish to Watchlist: [Security Operations Integration- Publish to Watchlist capability](../../security-operations-common/concept/pubish-to-watchlist-capability.md)
-    -   Sighting search: [Security Operations Integration- Sightings Search capability](../../security-operations-common/concept/sightings-search-capability.md)
-    -   Threat lookup: [Security Operations Integration - Threat Lookup capability](../../security-operations-common/concept/sec-ops-threat-lookups-capability.md)
+    -   Block request: [Security Operations Integration- Block Request capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/block-request-capability.md)
+    -   Email search and delete: [Security Operations Integration- Email Search and Delete capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/email-search-capability.md)
+    -   Enrich configuration item: [Security Operations Integration- Enrich CI capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/enrich-ci-capability.md)
+    -   Enrich observable: [Security Operations Integration- Enrich Observable capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/enrich-observable-capability.md)
+    -   Get network statistics: [Security Operations Integration- Get Network Statistics capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/get-network-statistics-capability.md)
+    -   Get running processes: [Security Operations Integration- Get Running Processes capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/get-running-processes-capability.md)
+    -   Isolate host: [Security Operations Integration- Isolate Host capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/isolate-host-capability.md)
+    -   Publish to Watchlist: [Security Operations Integration- Publish to Watchlist capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/pubish-to-watchlist-capability.md)
+    -   Sighting search: [Security Operations Integration- Sightings Search capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/sightings-search-capability.md)
+    -   Threat lookup: [Security Operations Integration - Threat Lookup capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/sec-ops-threat-lookups-capability.md)
 
 ## How tenant domains manage their own application data
 
@@ -171,5 +172,5 @@ The following tasks must be configured:
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

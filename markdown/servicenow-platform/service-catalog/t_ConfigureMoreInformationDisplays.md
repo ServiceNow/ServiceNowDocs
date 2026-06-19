@@ -2,6 +2,7 @@
 title: Configure preview
 description: Configure the number of items that have the Preview section expanded to display item details. You can also change the default number \(5\) of items and categories that display, and hide the Exists in categories information.By default, up to five items or categories appear in each category on the homepage.By default, catalog items that are in several categories show Exists in categories information that shows other categories that the items are available in. You can hide this information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/t\_ConfigureMoreInformationDisplays.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -35,14 +36,14 @@ Expanding to 1 item
 
 </td></tr><tr><td>
 
-![](../image/ConfigurePreview1.png)
+\[Omitted image "ConfigurePreview1.png"\] Alt text:
 
 </td><td>
 
-![](../image/ConfigurePreview2.png)
+\[Omitted image "ConfigurePreview2.png"\] Alt text:
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Catalog home page configuration](../concept/c_ManagingTheHomepageForACatalog.md)
+</table>**Parent Topic:**[Service Catalog home page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_ManagingTheHomepageForACatalog.md)
 
 ## Set number of items and categories to preview
 
@@ -54,11 +55,11 @@ To change this number, set the **Number of Catalog Items/Categories to preview i
 
 <table id="simpletable_gk5_psq_bq"><tbody><tr><td>
 
-![Screenshot for previewing five items](../image/ServiceCatalogPreview5Items.png "Previewing five items")
+\[Omitted image "ServiceCatalogPreview5Items.png"\] Alt text: Screenshot for previewing five items
 
 </td><td>
 
-![Screenshot for previewing two items](../image/ServiceCatalogPreview2Items.png "Previewing two items")
+\[Omitted image "ServiceCatalogPreview2Items.png"\] Alt text: Screenshot for previewing two items
 
 </td></tr></tbody>
 </table>## Hide the existing categories in the categories display
@@ -75,11 +76,11 @@ Role required: admin
 
 <table id="simpletable_gk5_psq_bq"><tbody><tr><td>
 
-![Screenshot for showing additional categories](../image/ServiceCatalogShowAdditionaCatsOn.png "Showing additional categories")
+\[Omitted image "ServiceCatalogShowAdditionaCatsOn.png"\] Alt text: Screenshot for showing additional categories
 
 </td><td>
 
-![Screenshot for hiding additional categories](../image/ServiceCatalogShowAdditionaCatsOff.png "Hiding additional categories")
+\[Omitted image "ServiceCatalogShowAdditionaCatsOff.png"\] Alt text: Screenshot for hiding additional categories
 
 </td></tr></tbody>
 </table>

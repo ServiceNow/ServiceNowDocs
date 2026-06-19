@@ -2,6 +2,7 @@
 title: Configuring knowledge bases to enable guest users to read knowledge articles from the Source-to-Pay Workspace
 description: Configure knowledge bases so that guest users can read the created knowledge articles from the Source-to-Pay Workspace.To enable guest users to read a knowledge article, add them to the Can Read list of the corresponding knowledge base in the Source-to-Pay Workspace.You can publish a knowledge article from the from the Source-to-Pay Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/source-to-pay-workspace/configuring-kb-publish.html
 release: zurich
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
@@ -15,7 +16,7 @@ breadcrumb: [Configure, Workspace, Source-to-Pay Operations, Finance and Supply 
 
 Configure knowledge bases so that guest users can read the created knowledge articles from the Source-to-Pay Workspace.
 
-**Parent Topic:**[Configure Source-to-Pay Workspace](../../accounts-payable-operations/concept/configuring-source-to-pay-ws.md)
+**Parent Topic:**[Configure Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-workspace/configuring-source-to-pay-ws.md)
 
 ## Publish knowledge articles to enable guest users to read them from the Source-to-Pay Workspace
 
@@ -56,7 +57,7 @@ Role required: sn\_slm.manager, sn\_shop.procurement\_specialist\_manager, or ad
 
 1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/cases-list-icon.png)\) and
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and
 
 3.  Navigate to **Lists** &gt; **Knowledge**, and then select one of the following:
 

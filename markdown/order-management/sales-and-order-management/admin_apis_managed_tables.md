@@ -2,6 +2,7 @@
 title: Admin APIs: Managed tables
 description: Legacy information about APIs that interact with managed tables
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/admin\_apis\_managed\_tables.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -15,7 +16,7 @@ breadcrumb: [API overview and resources, ServiceNow CPQ app, Configure, price, q
 
 Legacy information about APIs that interact with managed tables
 
-We highly recommend leveraging [Admin API keys](cpq-admin-api-keys.md) to interact with the ServiceNow CPQ APIs for managed tables. Bulk-level permissions are necessary for your admin API key to authenticate calls related to managed tables. For more information on these APIs, see the full API documentation:
+We highly recommend leveraging [Admin API keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/cpq-admin-api-keys.md) to interact with the ServiceNow CPQ APIs for managed tables. Bulk-level permissions are necessary for your admin API key to authenticate calls related to managed tables. For more information on these APIs, see the full API documentation:
 
 [ServiceNow CPQ API documentation](https://api-docs.logik.io/#introduction)
 
@@ -43,5 +44,5 @@ The following operations are demonstrated in this collection:
 
 All calls leverage JWT authorization. The bearer token is stored in the global variable `{{logik_admin_BearerToken}}`. For instructions for generating JWT, see:
 
-[Admin APIs: Authentication using a Salesforce-connected app](admin-apis-authentication-via-salesforce-connected-app.md)
+[Admin APIs: Authentication using a Salesforce-connected app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/admin-apis-authentication-via-salesforce-connected-app.md)
 

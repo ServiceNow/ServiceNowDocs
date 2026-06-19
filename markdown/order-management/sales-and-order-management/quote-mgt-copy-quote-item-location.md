@@ -2,11 +2,12 @@
 title: Copy locations for quote line items
 description: Use the copy location function to change the location of multiple quote line items in Quote Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/quote-mgt-copy-quote-item-location.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -21,7 +22,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![image.Lists] view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Quotes** &gt; **All**
 
@@ -33,15 +34,15 @@ Role required: sales\_agent
 
 6.  In the **Copy line items** dialog box, choose one of the options.
 
-<table id="choicetable_ij4_ykn_zcc"><thead><tr><th align="left" id="d52464e143">
+<table id="choicetable_ij4_ykn_zcc"><thead><tr><th align="left" id="d53831e143">
 
 Option
 
-</th><th align="left" id="d52464e148">
+</th><th align="left" id="d53831e148">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d52464e156">
+</th></tr></thead><tbody><tr><td id="d53831e156">
 
 **Keep original location**
 
@@ -49,7 +50,7 @@ Description
 
 Line items for the selected quote are created and the source location is retained.
 
-</td></tr><tr><td id="d52464e165">
+</td></tr><tr><td id="d53831e165">
 
 **Choose new location**
 
@@ -58,12 +59,12 @@ Line items for the selected quote are created and the source location is retaine
 This action copies the quote line items to a new location.In the **Service location** filter, select the new location that you want the line items to be copied to.
 
 </td></tr></tbody>
-</table>    **Note:** Be sure to select **Continue to copy only eligible lines for this location \(exclude ineligible\)** in the **Copy line items** dialog box.
+</table>    **Note:** Be sure to select **Continue to copy only eligible lines for this location \(exclude ineligible\)** within the **Copy line items** dialog box.
 
     This selection copies the eligible line items to your preferred location and skips the line items that aren’t eligible. If the option isn't selected, no quote line items are copied if any line item is ineligible.
 
 7.  Select **Copy**.
 
 
-**Parent Topic:**[Using Quote Management](../concept/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-mgmt-using.md)
 

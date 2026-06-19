@@ -2,6 +2,7 @@
 title: Change the general settings in your workspace experience
 description: Change the general settings for your workspace experience in UI Builder to fit the needs of your organization. For example, you can modify the title, description, and path for your workspace experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/workspace-general-settings.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -15,11 +16,11 @@ breadcrumb: [Configure UI Builder workspace experiences, Configure how users int
 
 Change the general settings for your workspace experience in UI Builder to fit the needs of your organization. For example, you can modify the title, description, and path for your workspace experience.
 
-This video show you how to perform the following procedure.This video shows you how to change the general setting in a UI Builder workspace experience.
+This video show you how to perform the following procedure.
 
 ## Before you begin
 
-You must be in the correct application scope to edit the experience settings. If you're in a different scope, the experience settings are read-only. To change your application scope, go to the main header, select the application picker \(![Application picker.](../image/application-picker.png)\), and then select the application scope that you want. For more information about the application scope, see [Application scope](../../../build/applications/concept/c_ApplicationScope.md).
+You must be in the correct application scope to edit the experience settings. If you're in a different scope, the experience settings are read-only. To change your application scope, go to the main header, select the application picker \(\[Omitted image "application-picker.png"\] Alt text: Application picker.\), and then select the application scope that you want. For more information about the application scope, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/c_ApplicationScope.md).
 
 Role required: ui\_builder\_admin
 
@@ -29,18 +30,18 @@ Role required: ui\_builder\_admin
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    For more information, see [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md).
+    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md).
 
 3.  Select **Experience settings** in the upper right.
 
-    ![Arrow pointing to the Experience settings link on the experience view page.](../image/experience-settings-toggle.png)
+    \[Omitted image "experience-settings-toggle.png"\] Alt text: Arrow pointing to the Experience settings link on the experience view page.
 
 4.  Change the title, description, and URL path of your workspace experience.
 
     -   The title lets everyone know what the workspace is called. Take care when choosing a name for your workspace.
     -   The description lets your users know the details of the workspace.
     -   The path must be unique. The path can include digits \(0-9\), letters \(A-Z, a-z\), and a few special characters \(`"-"`, `"."`, `"_"`, or `"~"`\) with the words separated by a forward slash or hyphen.
-    ![UI Builder experience general settings with fields for the title, URL path, and landing path.](../image/experience-general-settings.png "UI Builder experience settings")
+    \[Omitted image "experience-general-settings.png"\] Alt text: UI Builder experience general settings with fields for the title, URL path, and landing path.
 
 5.  Select **Advanced settings** to edit the workspace record on the ServiceNow AI Platform.
 
@@ -51,5 +52,5 @@ Role required: ui\_builder\_admin
 6.  Click **Save**.
 
 
-**Parent Topic:**[Configure UI Builder workspace experiences](../concept/ui-builder-workspace-settings.md)
+**Parent Topic:**[Configure UI Builder workspace experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/ui-builder-workspace-settings.md)
 

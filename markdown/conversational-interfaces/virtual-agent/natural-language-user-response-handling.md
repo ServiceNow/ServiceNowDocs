@@ -2,6 +2,7 @@
 title: Enhanced natural language handling of user inputs in NLU topic discovery
 description: Give Virtual Agent the capability of recognizing natural variations on yes and no from the user, such as sure or nope. By defining a range of boolean responses as affirmative or negative, Virtual Agent doesn't have to prompt the user to restate their preference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/natural-language-user-response-handling.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -23,20 +24,20 @@ The VA NLU Dispatches \[sys\_cs\_nlu\_dispatch\] table stores the names of the m
 
 For ServiceNow® NLU, the Setup Topics Model is already configured to handle boolean user inputs in English. There are two records in the table, **BOOLEAN\_NO** and **BOOLEAN\_YES**, which are mapped to the **Negative** and **Affirmative** intents in the Setup Topics Model.
 
-![The VA NLU Dispatches table displaying the names of the intent and model that handle the utterance variations.](../images/va-nlu-dispatches-list.png)
+\[Omitted image "va-nlu-dispatches-list.png"\] Alt text: The VA NLU Dispatches table displaying the names of the intent and model that handle the utterance variations.
 
 The Setup Topics Model and intents are read only, so if you need to modify the intents or add additional intents in other languages, create a new model with new intents. You can update the existing entries and add new ones to the table.
 
 ## Setting up natural language handling for third-party NLU providers
 
-If you are using IBM Watson, Microsoft LUIS, or Google Dialogflow for NLU topic discovery, add entries for the corresponding model and intents in the VA NLU Dispatches table, as described in [Configure enhanced natural language user input handling](../task/set-up-natural-lang-handling-other-nlu.md).
+If you are using IBM Watson, Microsoft LUIS, or Google Dialogflow for NLU topic discovery, add entries for the corresponding model and intents in the VA NLU Dispatches table, as described in [Configure enhanced natural language user input handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/set-up-natural-lang-handling-other-nlu.md).
 
 ## Changing the confidence threshold
 
-The confidence threshold for boolean inputs is defined in the **com.glide.cs.dialog.boolean\_threshold** system property. The default value is **0.9**. For more information, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+The confidence threshold for boolean inputs is defined in the **com.glide.cs.dialog.boolean\_threshold** system property. The default value is **0.9**. For more information, see Add a system property.
 
--   **[Configure enhanced natural language user input handling](../task/set-up-natural-lang-handling-other-nlu.md)**  
+-   **[Configure enhanced natural language user input handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/set-up-natural-lang-handling-other-nlu.md)**  
 Add enhanced natural language handling for boolean user responses to your Virtual Agent environment. If you're using additional languages or third-party NLU providers, specify the model and intents that define variations in yes/no utterances for your bot.
 
-**Parent Topic:**[Configure Natural Language Understanding in Virtual Agent](../task/configure-nlu-settings.md)
+**Parent Topic:**[Configure Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-nlu-settings.md)
 

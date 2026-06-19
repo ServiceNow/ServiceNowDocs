@@ -2,6 +2,7 @@
 title: SystemDocumentListEntry - Scoped, Global
 description: The SystemDocumentListEntry API provides methods for setting the record fields in the Document List Entries \[ds\_document\_list\_entry\] table.Instantiates a SystemDocumentListEntry object.Sets the Description field of a document list entry record.Specifies the document template to add to a document list.Specifies the document list in which to add a document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/SystemDocumentListEntryBothAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,18 +16,18 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The SystemDocumentListEntry API provides methods for setting the record fields in the Document List Entries \[ds\_document\_list\_entry\] table.
 
-This API requires the Document Management plugin \(com.snc.platform\_document\_management\) and is provided within the `sn_doc_services` namespace. For information, see [Document Services](https://www.servicenow.com/docs/access?context=document-services-landing-page&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+This API requires the Document Management plugin \(com.snc.platform\_document\_management\) and is provided within the `sn_doc_services` namespace. For information, see Document Services.
 
 Before using the methods in this API, you must add a document with its versions, and create a document list.
 
--   [SystemDocument](../../SystemDocument/concept/SystemDocumentBothAPI.md#) – Define a document object.
--   [DocumentService](../../DocumentService/concept/DocumentServiceBothAPI.md#) – Add, update, or delete a document.
--   [SystemDocumentVersion](../../SystemDocumentVersion/concept/SystemDocumentVersionBothAPI.md#) – Define a document version.
--   [DocumentVersionService](../../DocumentVersionService/concept/DocumentVersionServiceBothAPI.md#) – Add, update, or delete a document version.
--   [SystemDocumentList](../../SystemDocumentList/concept/SystemDocumentListBothAPI.md#) – Define a document list.
--   [DocumentListService](../../DocumentListService/concept/DocumentListServiceBothAPI.md#) – Add, update, or delete a document list.
+-   [SystemDocument](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/SystemDocumentBothAPI.md) – Define a document object.
+-   [DocumentService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentServiceBothAPI.md) – Add, update, or delete a document.
+-   [SystemDocumentVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/SystemDocumentVersionBothAPI.md) – Define a document version.
+-   [DocumentVersionService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentVersionServiceBothAPI.md) – Add, update, or delete a document version.
+-   [SystemDocumentList](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/SystemDocumentListBothAPI.md) – Define a document list.
+-   [DocumentListService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentListServiceBothAPI.md) – Add, update, or delete a document list.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## SystemDocumentListEntry - SystemDocumentListEntry\(String listID\)
 
@@ -58,7 +59,7 @@ Sets the Description field of a document list entry record.
 |----|-----------|
 |None| |
 
-The following example shows how to add a description to the document list entry provided using the constructor. See also [DocumentListEntryService](../../DocumentListEntryService/concept/DocumentListEntryServiceBothAPI.md#) API.
+The following example shows how to add a description to the document list entry provided using the constructor. See also [DocumentListEntryService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentListEntryServiceBothAPI.md) API.
 
 ```
 var docListEntry = new sn_doc_services.SystemDocumentListEntry('21afddea2460fc10f877a6fed1c2b0dd');
@@ -85,13 +86,13 @@ Specifies the document template to add to a document list.
 
 To define a document as a template:
 
--   Define the document object setting the [SystemDocument – template\(\)](../../SystemDocument/concept/SystemDocumentBothAPI.md#) method to true. Create or update the document record with the methods in the [DocumentService](../../DocumentService/concept/DocumentServiceBothAPI.md#) API.
+-   Define the document object setting the [SystemDocument – template\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/SystemDocumentBothAPI.md) method to true. Create or update the document record with the methods in the [DocumentService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentServiceBothAPI.md) API.
 -   Select the Template check box of a document in the Documents \[ds\_document\] table.
 
 The document record specified must have a version. Use the following APIs to define and add a document version:
 
--   [SystemDocumentVersion](../../SystemDocumentVersion/concept/SystemDocumentVersionBothAPI.md#) – Define a document version.
--   [DocumentVersionService](../../DocumentVersionService/concept/DocumentVersionServiceBothAPI.md#) – Add, update, or delete a document version.
+-   [SystemDocumentVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/SystemDocumentVersionBothAPI.md) – Define a document version.
+-   [DocumentVersionService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentVersionServiceBothAPI.md) – Add, update, or delete a document version.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -101,7 +102,7 @@ The document record specified must have a version. Use the following APIs to def
 |----|-----------|
 |None| |
 
-The following example shows how to add a document template as a document list entry. See also [DocumentListEntryService API](../../DocumentListEntryService/concept/DocumentListEntryServiceBothAPI.md#).
+The following example shows how to add a document template as a document list entry. See also [DocumentListEntryService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentListEntryServiceBothAPI.md).
 
 ```
 var docListEntry = new sn_doc_services.SystemDocumentListEntry('21afddea2460fc10f877a6fed1c2b0dd');
@@ -130,8 +131,8 @@ Specifies the document list in which to add a document.
 
 Use the following APIs to define and create a document list:
 
--   [SystemDocumentList](../../SystemDocumentList/concept/SystemDocumentListBothAPI.md#) – Define a document list.
--   [DocumentListService](../../DocumentListService/concept/DocumentListServiceBothAPI.md#) – Add, update, or delete a document list.
+-   [SystemDocumentList](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/SystemDocumentListBothAPI.md) – Define a document list.
+-   [DocumentListService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentListServiceBothAPI.md) – Add, update, or delete a document list.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -141,7 +142,7 @@ Use the following APIs to define and create a document list:
 |----|-----------|
 |None| |
 
-The following example shows how to set the document list in which to add a document. See also [DocumentListEntryService API](../../DocumentListEntryService/concept/DocumentListEntryServiceBothAPI.md#).
+The following example shows how to set the document list in which to add a document. See also [DocumentListEntryService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/DocumentListEntryServiceBothAPI.md).
 
 ```
 var docListEntry = new sn_doc_services.SystemDocumentListEntry();

@@ -2,6 +2,7 @@
 title: Review a dispute response and initiate pre-arbitration
 description: Review a merchant’s response for the dispute and initiate pre-arbitration, if necessary for the collaboration dispute workflow for the Chargeback stage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/review-dispute-response-and-create-pre-arbitration.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -23,7 +24,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -49,15 +50,15 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 10. Select one of the following options.
 
-<table id="choicetable_sh5_nr3_f5b"><thead><tr><th align="left" id="d53790e220">
+<table id="choicetable_sh5_nr3_f5b"><thead><tr><th align="left" id="d56322e220">
 
 Selection
 
-</th><th align="left" id="d53790e223">
+</th><th align="left" id="d56322e223">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d53790e231">
+</th></tr></thead><tbody><tr><td id="d56322e231">
 
 **Unresolved**
 
@@ -73,7 +74,7 @@ Result
 8.  Select **Submit**.
 
 
-</td></tr><tr><td id="d53790e295">
+</td></tr><tr><td id="d56322e295">
 
 **Resolved**
 
@@ -103,5 +104,5 @@ request if you're within three days from the submission date and you haven't rec
 
 To recall the request, select **Recall**. When a response is received, the **Pre arbitration response received** value changes to **Yes** and the transaction state moves to **Work to Progress**.
 
-**Parent Topic:**[Collaboration dispute workflow](../concept/collaboration-dispute-workflow.md)
+**Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
 

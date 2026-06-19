@@ -2,6 +2,7 @@
 title: Assign an HR skill to a user
 description: You can assign skills to HR users to facilitate the auto-assignment of HR cases and tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/t\_AssignHRSkillsToUsers.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,7 +18,7 @@ You can assign skills to HR users to facilitate the auto-assignment of HR cases 
 
 ## Before you begin
 
-For more information about HR skills and the auto-assignment process, see [HR skills management](../concept/c_HRSkillsManagement.md).
+For more information about HR skills and the auto-assignment process, see [HR skills management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRSkillsManagement.md).
 
 Role required: sn\_hr\_core.manager
 
@@ -29,7 +30,7 @@ The following procedure describes how to assign HR skills in the Manage HR Skill
 
 1.  Navigate to **All** &gt; **HR Administration** &gt; **Manage Roles** &gt; **Manage HR Skills**.
 
-    ![HR skills](../image/HRSkillsAssignment.png "HR skills assignment")
+    \[Omitted image "HRSkillsAssignment.png"\] Alt text: HR skills
 
     Skills appear on the left. Select a skill to see the assigned users on the right. The user cards indicate how many skills each employee is assigned. If no skills are assigned to a user, the number on the user card is red. Skills with no assigned users are red in the skills list.
 
@@ -68,5 +69,5 @@ The following procedure describes how to assign HR skills in the Manage HR Skill
     |**Edit a skill**|Click the pencil icon beside the skill name in the **HR Skills** list. Change the information and click **Submit**.|
 
 
-**Parent Topic:**[HR skills management](../concept/c_HRSkillsManagement.md)
+**Parent Topic:**[HR skills management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRSkillsManagement.md)
 

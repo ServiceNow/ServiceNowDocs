@@ -2,6 +2,7 @@
 title: Create a persona for the community profile
 description: Create a persona and associate it to a role to manage which data users can modify.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/communities/create-new-persona.html
 release: zurich
 product: Communities
 classification: communities
@@ -38,5 +39,5 @@ A persona is associated to a user role and can be mapped to specific fields for 
 3.  Click **Submit**.
 
 
-**Parent Topic:**[Configure the community profile](configure-community-profile.md)
+**Parent Topic:**[Configure the community profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/configure-community-profile.md)
 

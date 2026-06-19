@@ -2,6 +2,7 @@
 title: Work on an inquiry task
 description: Work on a payment inquiry task to request additional information that is related to an inquiry case from the recipient bank.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-payment-operations/work-on-inquiry-task.html
 release: zurich
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
@@ -27,19 +28,19 @@ An inquiry task is automatically generated for a Beneficiary Claim Non-Receipt -
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Open the inquiry task from a payment inquiry case or from the **Inquiry Tasks** list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d68057e99">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d70476e99">
 
 Option
 
-</th><th align="left" id="d68057e102">
+</th><th align="left" id="d70476e102">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d68057e108">
+</th></tr></thead><tbody><tr><td id="d70476e108">
 
 **From a payment inquiry case**
 
@@ -50,7 +51,7 @@ Steps
 3.  In the case, click the **Inquiry Tasks** tab and click the inquiry task.
 
 
-</td></tr><tr><td id="d68057e141">
+</td></tr><tr><td id="d70476e141">
 
 **From the __Inquiry Tasks__ list**
 
@@ -77,8 +78,8 @@ Steps
 -   After you've received the requested information from the recipient bank and you've closed the inquiry task, update the associated inquiry case as per the received information.
 -   Change the state of the associated case to **Work in Progress** and work on the case to resolve it.
 
-    **Note:** If the inquiry case is not resolved or closed within the number of days that are mentioned in the **sn\_bom\_payment.inquiry\_task\_folow\_up\_interval\_in\_days** [payment property](../reference/properties-installed-with-payment-operations.md), the system creates another follow-up inquiry task for the case.
+    **Note:** If the inquiry case is not resolved or closed within the number of days that are mentioned in the **sn\_bom\_payment.inquiry\_task\_folow\_up\_interval\_in\_days** [payment property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/properties-installed-with-payment-operations.md), the system creates another follow-up inquiry task for the case.
 
 
-**Parent Topic:**[Investigate a payment inquiry case](investigate-payment-inquiry-case.md)
+**Parent Topic:**[Investigate a payment inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/investigate-payment-inquiry-case.md)
 

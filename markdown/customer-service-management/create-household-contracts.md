@@ -2,7 +2,10 @@
 title: Create service contracts for a household
 description: Create service contracts for a household so that all household members are covered under the same terms and conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-household-contracts.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -43,7 +46,7 @@ When a case is created for a household or a consumer, the **Contract** field on 
 
 5.  Fill in the remaining fields on the Contract form.
 
-    For more information, see [Create service contracts](create-csm-service-contracts.md).
+    For more information, see [Create service contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-csm-service-contracts.md).
 
 6.  Click **Submit**.
 

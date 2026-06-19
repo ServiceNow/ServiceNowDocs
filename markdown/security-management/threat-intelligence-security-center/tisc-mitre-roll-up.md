@@ -2,6 +2,7 @@
 title: Roll up of MITRE technique associations
 description: Roll up of MITRE technique associations from observables, indicators, objects, and security incidents which are linked or unlinked from a case record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-mitre-roll-up.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -59,5 +60,5 @@ Role required: sn\_sec\_tisc.analyst
     After you unlink the observables to a case then the MITRE techniques associated for that particular observable are automatically removed and the MITRE techniques list count under the artifacts section is automatically updated.
 
 
-**Parent Topic:**[Creating cases using Threat Analyst Workbench](../concept/create-cases-using-threat-analyst-workbench.md)
+**Parent Topic:**[Creating cases using Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/create-cases-using-threat-analyst-workbench.md)
 

@@ -2,6 +2,7 @@
 title: Define a relationship type
 description: Create type codes that define the relationship between parent and child tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/t\_DefineARelationshipType.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -17,7 +18,7 @@ Create type codes that define the relationship between parent and child tasks.
 
 ## Before you begin
 
-Activate the Many to Many Task Relations plugin \(com.snc.task\_relations\) first. See [Request many to many task relations](t_RequestManyToManyTaskRelations.md).
+Activate the Many to Many Task Relations plugin \(com.snc.task\_relations\) first. See [Request many to many task relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/t_RequestManyToManyTaskRelations.md).
 
 Role required: admin
 
@@ -32,5 +33,5 @@ Role required: admin
     The Name field automatically populates with the Parent and Child descriptors.
 
 
-**Parent Topic:**[Creating many-to-many task relations](../concept/c_ManyToManyTaskRelations.md)
+**Parent Topic:**[Creating many-to-many task relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_ManyToManyTaskRelations.md)
 

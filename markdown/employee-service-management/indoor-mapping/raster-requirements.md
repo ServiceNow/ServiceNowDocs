@@ -2,6 +2,7 @@
 title: Raster file requirements
 description: Raster files are flat files and therefore, design and places have to be manually created. Raster floor plan files must meet the Map Studio import requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/indoor-mapping/raster-requirements.html
 release: zurich
 product: Indoor Mapping
 classification: indoor-mapping
@@ -64,8 +65,8 @@ Export the image file with the following requirements:-   Type: Currently, only 
 -   Dimensions: Image dimension must be 20,000 x 20,000 pixels.
 
 </td></tr></tbody>
-</table>1.  [Import Raster files](../task/import-raster-files.md)  
+</table>1.  [Import Raster files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/import-raster-files.md)  
 After creating your campus, buildings, and floor, upload and import the raster floor plan sources.
 
-**Parent Topic:**[Indoor Mapping](../reference/Indoor-mapping.md)
+**Parent Topic:**[Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/Indoor-mapping.md)
 

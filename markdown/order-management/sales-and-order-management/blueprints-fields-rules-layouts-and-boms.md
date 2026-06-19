@@ -2,6 +2,7 @@
 title: Blueprints, fields, rules, layouts, and BOMs
 description: Learn how the core building blocks of ServiceNow CPQ—Blueprints, Fields, Rules, Layouts, and Bills of Materials \(BOMs\)—work together to power configuration and transaction experiences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/blueprints-fields-rules-layouts-and-boms.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

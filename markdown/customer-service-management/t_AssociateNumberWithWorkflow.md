@@ -2,7 +2,10 @@
 title: Associate a phone number with a workflow
 description: You can associate a Notify phone number with a workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_AssociateNumberWithWorkflow.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -46,7 +49,7 @@ Role required: admin
 **Related topics**  
 
 
-[Numbers and number groups](https://www.servicenow.com/docs/access?context=c_NumberGroups&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.c_NumberGroups]
 
-[Configure Notify with\\n Twilio](https://www.servicenow.com/docs/access?context=t_ConfigureNotifyWithTwilio&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.t_ConfigureNotifyWithTwilio]
 

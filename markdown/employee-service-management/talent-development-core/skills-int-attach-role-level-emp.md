@@ -2,6 +2,7 @@
 title: Map a role level to the employee profile
 description: Mapping a role level to the employee is a critical step that links the job architecture data with the employee data in your organization, which enables you to track the skills of the employee.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/skills-int-attach-role-level-emp.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core

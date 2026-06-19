@@ -2,6 +2,7 @@
 title: Upgrade Agent Client Collector manually on a macOS system
 description: Perform a manual upgrade of your existing Agent Client Collector version on a system running a macOS. Manual upgrade is useful if the single-line command script isn’t connected to the instance or you want to use enhanced customization options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-macos-upgrade-manual.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -18,6 +19,7 @@ Perform a manual upgrade of your existing Agent Client Collector version on a sy
 ## Before you begin
 
 -   The upgrade procedure is the same for both MID Server and MID-less deployments.
+-   Enable golden image mode for cloning additional agents by setting the golden image marker located at `/Library/Preferences/acc.rc.plist`.
 -   Role required: agent\_client\_collector\_admin
 
 ## Procedure
@@ -65,5 +67,5 @@ Perform a manual upgrade of your existing Agent Client Collector version on a sy
         -   **Host data collection** = Collected
         -   **Version** = &lt;Relevant version number&gt;
 
-**Parent Topic:**[Agent Client Collector installation on a macOS system](../concept/acc-install-mac-os.md)
+**Parent Topic:**[Agent Client Collector installation on a macOS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-install-mac-os.md)
 

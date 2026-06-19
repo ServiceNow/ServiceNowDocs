@@ -2,6 +2,7 @@
 title: Set up a risk intelligence provider service
 description: After you register a risk intelligence provider, you specify which of the provider's scoring or rating services you’ll use. You also specify how their scores or ratings map to your TPRM ratings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-set-up.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -27,7 +28,7 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer
 
     **Note:** The list of provider services also appears as a related list while you’re registering a provider. The system auto-generates a unique name for the service by concatenating the **Provider** name and **Score type**.
 
-    ![List of risk intelligence provider services.](../image/3rd-party-service-provider.png)
+    \[Omitted image "3rd-party-service-provider.png"\] Alt text: List of risk intelligence provider services.
 
 2.  Select **New** and then fill in the fields on the form.
 
@@ -83,7 +84,7 @@ Risk area
 
 Select the third-party risk domain associated with the score type.
 
- For more information, see [Define a third-party risk domain](tprm-risk-domain-define.md).
+ For more information, see [Define a third-party risk domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-risk-domain-define.md).
 
  **Note:** Risk domains are called "risk areas" in some platform applications.
 
@@ -106,14 +107,14 @@ If applicable, specify an existing service with this provider that uses identica
 
     -   All rows must be either ratings or ranges. A mix of the two types isn’t allowed.
     -   If there are more returned values than rows, group values in the appropriate row and separate with commas.
-    ![Mapping a range of scores to each platform rating.](../image/is-not-rating.png)
+    \[Omitted image "is-not-rating.png"\] Alt text: Mapping a range of scores to each platform rating.
 
 4.  Select **Submit**.
 
     You can now specify the types of requests that you might later request from the provider.
 
-    A request type is the name of the report available for the provider. For more information, [Set up a request type for a provider](tprm-riskintelprvdr-request-type.md).
+    A request type is the name of the report available for the provider. For more information, [Set up a request type for a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-request-type.md).
 
 
-**Parent Topic:**[Integrating scores from risk intelligence providers](../concept/tprm-riskintelprvdr-overview.md)
+**Parent Topic:**[Integrating scores from risk intelligence providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-overview.md)
 

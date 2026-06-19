@@ -2,6 +2,7 @@
 title: Using Skills Management
 description: Use the Skills Management dashboard to analyze trends in assessing skill gaps in your organization and plan for coaching or training of your employees based on needs. Identify users and teams who have the right skills to work on tasks and projects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/skills-management/using-skills-management.html
 release: zurich
 product: Skills Management
 classification: skills-management
@@ -19,11 +20,11 @@ The Skills Management dashboard provides comprehensive reports on skill competen
 
 You can access the dashboard by navigating to **Skills** &gt; **Dashboard**.
 
-![Skills Matrix](../images/SkillDashboard_skill_matrix.png "Overview and Skill Matrix tab")
+\[Omitted image "SkillDashboard\_skill\_matrix.png"\] Alt text: Skills Matrix
 
 You can filter these reports based on the skill category and view reports for each category.
 
-![Skill Taxonomy](../images/SkillManagement_skill_taxonomy.png "Skill Taxonomy")
+\[Omitted image "SkillManagement\_skill\_taxonomy.png"\] Alt text: Skill Taxonomy
 
 ## End user and roles
 
@@ -74,7 +75,7 @@ Skills Matrix
 
 </td><td>
 
-![Multi-level pivot table representing skills matrix](../../../use/reporting/image/inline-data-vis-96px-pivot-table.png) Multi-level pivot table
+\[Omitted image "inline-data-vis-96px-pivot-table.png"\] Alt text: Multi-level pivot table representing skills matrix Multi-level pivot table
 
 </td><td>
 
@@ -87,7 +88,7 @@ Top 10 skills used in the last six months
 
 </td><td>
 
-![Bar chart representing top 10 skills used in the last six months](../../../use/reporting/image/inline-data-vis-96px-bar-column.png) Bar chart
+\[Omitted image "inline-data-vis-96px-bar-column.png"\] Alt text: Bar chart representing top 10 skills used in the last six months Bar chart
 
 </td><td>
 
@@ -99,7 +100,7 @@ Tasks associated with skills
 
 </td><td>
 
-![Bar chart representing number of tasks with skills assigned to them](../../../use/reporting/image/inline-data-vis-96px-bar-column.png) Bar chart
+\[Omitted image "inline-data-vis-96px-bar-column.png"\] Alt text: Bar chart representing number of tasks with skills assigned to them Bar chart
 
 </td><td>
 
@@ -111,7 +112,7 @@ Users with Skills
 
 </td><td>
 
-![Bar chart representing users with skills](../../../use/reporting/image/inline-data-vis-96px-bar-column.png) Bar chart
+\[Omitted image "inline-data-vis-96px-bar-column.png"\] Alt text: Bar chart representing users with skills Bar chart
 
 </td><td>
 
@@ -123,7 +124,7 @@ Skills in Category
 
 </td><td>
 
-![Bar chart representing the total number of skills in a selected category](../../../use/reporting/image/inline-data-vis-96px-bar-column.png) Bar chart
+\[Omitted image "inline-data-vis-96px-bar-column.png"\] Alt text: Bar chart representing the total number of skills in a selected category Bar chart
 
 </td><td>
 
@@ -135,7 +136,7 @@ List of user skills
 
 </td><td>
 
-![Number of users available for each skill](../../../use/reporting/image/inline-data-vis-96px-list.png)List of skills with total count of users for each skill
+\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: Number of users available for each skillList of skills with total count of users for each skill
 
 </td><td>
 

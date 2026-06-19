@@ -2,6 +2,7 @@
 title: Initiate sidebar discussions
 description: Start a sidebar discussion to collaborate with stakeholders while working on a finance inquiry case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/finance-case-management/initiate-sidebar-discussions.html
 release: zurich
 product: Finance Case Management
 classification: finance-case-management
@@ -25,7 +26,7 @@ Role required: sn\_fin\_ops.specialist
 
     -   **All** &gt; **Finance Operations** &gt; **Finance Operations Workspace**.
     -   **Workspaces** &gt; **Finance Operations Workspace**.
-2.  In the Finance Operations workspace, select the List icon ![](../image/fin-ops-list-icon.png) to open the List page.
+2.  In the Finance Operations workspace, select the List icon \[Omitted image "fin-ops-list-icon.png"\] Alt text: to open the List page.
 
 3.  From the list page, navigate to either of the following submodules:
 
@@ -44,17 +45,17 @@ Role required: sn\_fin\_ops.specialist
 
 ## Result
 
-The stakeholders are notified when you add them to a discussion. They can join the discussion by selecting the Sidebar discussions icon ![](../image/fin-ops-sidebar-chat-icon.png).
+The stakeholders are notified when you add them to a discussion. They can join the discussion by selecting the Sidebar discussions icon \[Omitted image "fin-ops-sidebar-chat-icon.png"\] Alt text:.
 
-![Join the sidebar discussion](../image/fin-ops-sidebar-discussion.png)
+\[Omitted image "fin-ops-sidebar-discussion.png"\] Alt text: Join the sidebar discussion
 
 ## What to do next
 
-For more information on the sidebar, see [Sidebar](https://www.servicenow.com/docs/access?context=sidebar-landing&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+For more information on the sidebar, see .
 
-To learn more about using the sidebar, see [Using Sidebar](https://www.servicenow.com/docs/access?context=using-sidebar&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+To learn more about using the sidebar, see .
 
-For information on the activity stream in the sidebar is, see [Activity stream in Sidebar](https://www.servicenow.com/docs/access?context=activity-stream-sidebar&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+For information on the activity stream in the sidebar is, see .
 
-**Parent Topic:**[Use the Finance Operations Workspace](../concept/using-fin-case-mgmt-workspace.md)
+**Parent Topic:**[Use the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/finance-case-management/using-fin-case-mgmt-workspace.md)
 

@@ -2,6 +2,7 @@
 title: Work on a TPC review request
 description: As a member of the legal contracts support team, review and revise a third-party contract document. You can email the revised document to stakeholders to verify the revisions and then send the ready document for e-signature from within the legal request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-simple-contracts/work-tpc-review-request.html
 release: zurich
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -23,25 +24,25 @@ Role required: sn\_lg\_contracts.contracts\_fulfiller
 
 As a collaborator added to a request, you can access and work on the request just as assignees can. However, you can't modify the **Assigned to** and **Assignment group** fields.
 
-**Note:** During times when you're unavailable, you can [delegate your legal duties to other users](../../legal-request-management/concept/legal-services-delegation.md).
+**Note:** During times when you're unavailable, you can [delegate your legal duties to other users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/legal-services-delegation.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d279733e114">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d269574e114">
 
 Option
 
-</th><th align="left" id="d279733e117">
+</th><th align="left" id="d269574e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d279733e123">
+</th></tr></thead><tbody><tr><td id="d269574e123">
 
 **As an assignee**
 
@@ -53,7 +54,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d279733e152">
+</td></tr><tr><td id="d269574e152">
 
 **As a collaborator**
 
@@ -72,15 +73,15 @@ The state of the legal request is Work in progress and the document is Legal rev
 
 5.  In the **Document Revisions** tab, manage all revisions of the contract document.
 
-<table id="choicetable_v1f_bjj_bwb"><thead><tr><th align="left" id="d279733e206">
+<table id="choicetable_v1f_bjj_bwb"><thead><tr><th align="left" id="d269574e206">
 
 Option
 
-</th><th align="left" id="d279733e209">
+</th><th align="left" id="d269574e209">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d279733e215">
+</th></tr></thead><tbody><tr><td id="d269574e215">
 
 **To review an existing document revision**
 
@@ -88,11 +89,11 @@ Steps
 
 -   Select the name of the document to open the document revision record.
 -   To preview the file, click the file name in the **Document** field.
--   To download the file, click the download icon \(![Download icon.](../../legal-request-management/image/download-icon.png)\).
+-   To download the file, click the download icon \(\[Omitted image "download-icon.png"\] Alt text: Download icon.\).
 -   To mark the document revision as ready, select **Ready**.
 
 
-</td></tr><tr><td id="d279733e251">
+</td></tr><tr><td id="d269574e251">
 
 **To create another document revision**
 
@@ -105,7 +106,7 @@ The Create Revision dialog box displays.
 2.  In the **Create revision from** list, select the location of the document.
     -   **Computer**: Select a file from your local system. Click **Attach File** and upload a file.
     -   **Activity**: Select an attachment from the Activities stream. All files that are attached in the inbound emails are listed in the **Document** field.
-    -   **Online**: Select a file stored in the [configured external storage system](../../legal-request-management/task/integrate-legal-ext-storage.md).
+    -   **Online**: Select a file stored in the [configured external storage system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/integrate-legal-ext-storage.md).
 3.  Add more information about the document in the **Work notes** field. This information is added to the Activities stream along with the attachment.
 4.  To make the document ready for review or sending for e-signature, select **Ready**.
 5.  Click **Create**.
@@ -114,7 +115,7 @@ The Create Revision dialog box displays.
 </td></tr></tbody>
 </table>    **Note:** If you mark the current document revision as Ready, any previous document versions that were marked as Ready are cleared.
 
-6.  [Send the document for ad-hoc approval](../../legal-request-management/task/initiate-approval-legal-request.md) when an approval is required from other stakeholders.
+6.  [Send the document for ad-hoc approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/initiate-approval-legal-request.md) when an approval is required from other stakeholders.
 
 7.  Send an email to stakeholders to have the completed contract document reviewed and the changes confirmed.
 
@@ -157,12 +158,12 @@ The Create Revision dialog box displays.
 
 ## What to do next
 
-1.  Signatories can review and [sign or decline to sign the contract document](sign-a-legal-contract-document.md).
+1.  Signatories can review and [sign or decline to sign the contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/sign-a-legal-contract-document.md).
 2.  You can check the document status in the request.
-    -   If all signatories sign the contract document, the document status updates to Contract Signed. A [legal contracts repository record](review-contract-doc-repository.md) is created where the signed document is attached or linked. You can also access the legal contract repository record from the **Legal Contracts** tab.
+    -   If all signatories sign the contract document, the document status updates to Contract Signed. A [legal contracts repository record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/review-contract-doc-repository.md) is created where the signed document is attached or linked. You can also access the legal contract repository record from the **Legal Contracts** tab.
     -   In the **Signatories** tab, the status of all signatories updates to Signed.
     -   If any signatory declines to sign the contract document, the document status updates to Contract Declined.If more changes are required in the contract document, update it and resend it to the signatories for signature.
-3.  If the contract is signed by all parties, you can [close the request](../../legal-request-management/task/close-legal-request.md) by clicking **Close Complete.**
+3.  If the contract is signed by all parties, you can [close the request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/close-legal-request.md) by clicking **Close Complete.**
 
-**Parent Topic:**[Third-party contract review requests](../concept/legal-request-third-party-contract.md)
+**Parent Topic:**[Third-party contract review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/legal-request-third-party-contract.md)
 

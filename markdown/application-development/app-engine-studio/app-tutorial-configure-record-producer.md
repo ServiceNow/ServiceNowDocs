@@ -2,6 +2,7 @@
 title: Configure a record producer
 description: Configure the record producer so that it contains the necessary questions for employee travel requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/app-tutorial-configure-record-producer.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -29,11 +30,11 @@ Phase 1
 
 </td><td align="justify">
 
-![Completed icon](../image/app-tutorial-progress-complete2.png)
+\[Omitted image "app-tutorial-progress-complete2.png"\] Alt text: Completed icon
 
 </td><td>
 
-[Add a record producer](app-tutorial-add-record-producer.md)
+[Add a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-add-record-producer.md)
 
 </td></tr><tr><td>
 
@@ -41,14 +42,14 @@ Phase 2
 
 </td><td align="justify">
 
-![In progress icon](../image/app-tutorial-progress-wip.png)
+\[Omitted image "app-tutorial-progress-wip.png"\] Alt text: In progress icon
 
 </td><td>
 
-[Configure a record producer](app-tutorial-configure-record-producer.md)
+[Configure a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-configure-record-producer.md)
 
 </td></tr></tbody>
-</table>This procedure covers the second part of the task demonstrated in the tutorial video. The first part of the procedure is outlined in the previous topic [Add a record producer](app-tutorial-add-record-producer.md).
+</table>This procedure covers the second part of the task demonstrated in the tutorial video. The first part of the procedure is outlined in the previous topic [Add a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-add-record-producer.md).
 
 Follow along to configure the record producer for the employee travel request application.
 
@@ -73,7 +74,7 @@ Create a record producer
     -   To open a record producer that you have created, select **Edit record producer**.
     When your record producer is open, it appears in the canvas space.
 
-    ![Your record producer is open in the canvas space.](../image/app-tutorial-record-producer-open.png)
+    \[Omitted image "app-tutorial-record-producer-open.png"\] Alt text: Your record producer is open in the canvas space.
 
 2.  Edit or add details about the record producer in the **Item name** or **Short description** fields.
 
@@ -85,13 +86,13 @@ Create a record producer
 
 5.  Select **Continue to location** to specify the location of your record producer.
 
-    **Note:** Location determines where users can find the record producer. You can locate your record producer in a catalog, such as the Service Catalog, which is a set of business and technical products, services, and offerings that users can order. You can also locate your record producer with a topic, such as a knowledge base article. For more information about locations for record producers, see [Creating or editing catalog item template](https://www.servicenow.com/docs/access?context=create-cat-item-template-cat-builder&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    **Note:** Location determines where users can find the record producer. You can locate your record producer in a catalog, such as the Service Catalog, which is a set of business and technical products, services, and offerings that users can order. You can also locate your record producer with a topic, such as a knowledge base article. For more information about locations for record producers, see .
 
     In our tutorial, we locate our record producer in the Service Catalog, so that employees can access the employee travel request form easily.
 
 6.  In the **Catalogs** card, select **Browse**.
 
-7.  From the **Available options** list, select **Service Catalog** and use the move icon \(![Move icon](../image/app-tutorial-move-right-icon.png)\) to add it to the **Selected catalogs** list.
+7.  From the **Available options** list, select **Service Catalog** and use the move icon \(\[Omitted image "app-tutorial-move-right-icon.png"\] Alt text: Move icon\) to add it to the **Selected catalogs** list.
 
 8.  Select **Save selections**.
 
@@ -99,7 +100,7 @@ Create a record producer
 
 10. Create containers, or sections, for the form questions.
 
-    1.  Select the arrow icon \(![Arrow icon](../image/app-tutorial-dropdown-arrow-icon.png)\) in the **Insert new question** button to expand the menu of available question types.
+    1.  Select the arrow icon \(\[Omitted image "app-tutorial-dropdown-arrow-icon.png"\] Alt text: Arrow icon\) in the **Insert new question** button to expand the menu of available question types.
 
     2.  Select **Single column container** from the list.
 
@@ -117,11 +118,11 @@ Create a record producer
 
 11. Add a question to the form.
 
-    **Note:** You can build different types of questions for your record producer. To see the full list of available question types in Catalog Builder, see [Create a question for a catalog item in Catalog Builder](https://www.servicenow.com/docs/access?context=create-question-cat-builder&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    **Note:** You can build different types of questions for your record producer. To see the full list of available question types in Catalog Builder, see .
 
     In our tutorial, we create several questions to collect details about employees' travel requests.
 
-    1.  In the correct question container, hover over the plus icon \(![Add icon](../image/plus-icon.png)\), then select **+ Insert**.
+    1.  In the correct question container, hover over the plus icon \(\[Omitted image "plus-icon.png"\] Alt text: Add icon\), then select **+ Insert**.
 
         In our tutorial, we insert this question in the General Information container.
 
@@ -135,7 +136,7 @@ Create a record producer
 
     4.  Select **Continue to Choices** to complete additional configurations for the question.
 
-    5.  In the **Available choices** section, hover over the plus icon \(![Add icon](../image/plus-icon.png)\), then select **+ Insert**.
+    5.  In the **Available choices** section, hover over the plus icon \(\[Omitted image "plus-icon.png"\] Alt text: Add icon\), then select **+ Insert**.
 
     6.  In the **Display name** field, enter `Customer meeting`.
 
@@ -200,8 +201,8 @@ Create a record producer
 
     In our tutorial, we don’t grant or deny access to any users or groups.
 
-    -   To make the form available to specific users or groups, select **Browse** in the **Available for** card, then search for the users or groups that you want to grant access to. Move the users or groups from the **Available options** list to the **User criteria granted access** list using the move icon \(![Move icon](../image/app-tutorial-move-right-icon.png)\).
-    -   To make the form unavailable for certain users or groups, select **Browse** in the **Unavailable for** card, then search for the users or groups that you want to deny access to. Move the users or groups from the **Available options** list to the **User criteria denied access** list using the move icon \(![Move icon](../image/app-tutorial-move-right-icon.png)\).
+    -   To make the form available to specific users or groups, select **Browse** in the **Available for** card, then search for the users or groups that you want to grant access to. Move the users or groups from the **Available options** list to the **User criteria granted access** list using the move icon \(\[Omitted image "app-tutorial-move-right-icon.png"\] Alt text: Move icon\).
+    -   To make the form unavailable for certain users or groups, select **Browse** in the **Unavailable for** card, then search for the users or groups that you want to deny access to. Move the users or groups from the **Available options** list to the **User criteria denied access** list using the move icon \(\[Omitted image "app-tutorial-move-right-icon.png"\] Alt text: Move icon\).
 18. Select **Continue to review and submit** to review and finalize your form.
 
 19. Select **Submit**.
@@ -213,5 +214,5 @@ Your record producer is configured and ready for testing.
 
 ## What to do next
 
-Continue building the employee travel request application by proceeding to the next step: [Adding logic and automation](../concept/app-tutorial-logic-automation-layer.md).
+Continue building the employee travel request application by proceeding to the next step: [Adding logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-logic-automation-layer.md).
 

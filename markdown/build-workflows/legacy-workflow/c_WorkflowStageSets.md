@@ -2,6 +2,7 @@
 title: Workflow stage sets
 description: Stage sets are named groups of workflow stages commonly used together. Create a stage set and assign it as a default set to any number of tables. You can import the choice list values of a workflow field as stages for a workflow, and export a stage set to create a new one.You can create a new stage set by creating a stage set record and adding stage set entries manually.You can assign a stage set as a default set to any number of tables.You can import the choice list values of a workflow field as stages for a workflow.You can create a new stage set by exporting the stages from an existing workflow as a set, instead of manually adding stage set entries to a stage set record.You can add any number of stage sets to an existing workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/legacy-workflow/c\_WorkflowStageSets.html
 release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
@@ -26,9 +27,9 @@ During an upgrade, the system makes changes to the **Value** field of records in
 -   All entries are made lowercase.
 -   All spaces and special characters are replaced with underscores.
 
-These changes support [System Localization](https://www.servicenow.com/docs/access?context=system-localization-landing&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) and enable workflows to display translated text in the **Stage** field.
+These changes support  and enable workflows to display translated text in the **Stage** field.
 
-**Parent Topic:**[Workflow stages](c_WorkflowStages.md)
+**Parent Topic:**[Workflow stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/c_WorkflowStages.md)
 
 ## Create a new stage set
 
@@ -66,7 +67,7 @@ Create a stage set record only when you want additional stages that are not avai
 
     Enter a low value for stages that should appear early in the workflow and a higher value for later stages.
 
-    ![Create stage set](../image/CreateStageSet.png)
+    \[Omitted image "CreateStageSet.png"\] Alt text: Create stage set
 
 
 ### What to do next
@@ -106,7 +107,7 @@ Create a choice list as follows:
 -   Configure the custom field to use a choice list.
 -   If you are creating a new field, set the **Choice List type** to **Display without --None--** and create the choices for the newly created field.
 
-For more information, see [Create a workflow stage field](../../workflow-administration/task/t_CreateAWorkflowStageField.md).
+For more information, see [Create a workflow stage field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/t_CreateAWorkflowStageField.md).
 
 ### Procedure
 
@@ -181,5 +182,5 @@ When multiple stage sets have stage set entries with the same **Value**, the sta
 
 ### What to do next
 
-After you add all necessary stage sets to the workflow, you can add them to the workflow activities. For more information, see [Add a stage to a workflow activity](../task/add-translate-stages.md#).
+After you add all necessary stage sets to the workflow, you can add them to the workflow activities. For more information, see [Add a stage to a workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/add-translate-stages.md).
 

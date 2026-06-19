@@ -2,6 +2,7 @@
 title: Create schedule entries in the Schedule calendar
 description: Add events such as meeting, time-off, or appointment to display them in the schedule calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/time-configuration/create-events-next-experience-ui.html
 release: zurich
 product: Time Configuration
 classification: time-configuration
@@ -33,7 +34,7 @@ A calendar view displays events for a specified time period. A time line view di
 
 3.  Select **Show Schedule** related link.
 
-    Using the Next Experience user interface, you can view the schedules in the schedule calendar for all schedule types except the roster type. The schedules of roster type display in the [on-call schedule.](https://www.servicenow.com/docs/access?context=c_OnCallScheduling&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+    Using the Next Experience user interface, you can view the schedules in the schedule calendar for all schedule types except the roster type. The schedules of roster type display in the on-call schedule.
 
 4.  Create a schedule entry.
 
@@ -69,5 +70,5 @@ A calendar view displays events for a specified time period. A time line view di
             **Note:** If the **Timezone** field value is **Floating**, then the calendar uses the start and end dates from the time zone of the logged-in user.
 
 
-**Parent Topic:**[Using time configuration](../using-time-configuration.md)
+**Parent Topic:**[Using time configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/using-time-configuration.md)
 

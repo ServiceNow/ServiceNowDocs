@@ -2,6 +2,7 @@
 title: UX: Taxonomy Design or Review
 description: This Accelerator provides Impact customers with guidance to optimize the content structure and navigation of their portal, focusing on categorizing knowledge and catalog content to improve usability and make information easier to find.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/ux\_review\_unified\_taxonomy.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

@@ -2,11 +2,12 @@
 title: Install DevOps Change Velocity
 description: Install the DevOps Change Velocity application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/activate-dev-ops.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configure, DevOps Change Velocity, IT Service Management]
 ---
@@ -21,7 +22,7 @@ Role required: admin
 
 Ensure that the application and all of its associated store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 
-If you’re installing DevOps Change Velocity in your production instance for the first time, ensure that you opt-in to the following required products. For more information, see [Opt in to the ServiceNow Store products](https://www.servicenow.com/docs/access?context=optin-optout-prod&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+If you’re installing DevOps Change Velocity in your production instance for the first time, ensure that you opt-in to the following required products. For more information, see .
 
 <table id="table_ux3_lfg_cyb"><tbody><tr><td>
 
@@ -102,7 +103,7 @@ To install the DevOps application on a subprod instance, navigate to the DevOps 
 
     You can search for the application by its name or ID \(sn\_devops\_chgvlcty\). If you can’t find an application, you may have to request it from the ServiceNow store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release note information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release note information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 4.  Select **Install**.
 
@@ -127,11 +128,11 @@ To install the DevOps application on a subprod instance, navigate to the DevOps 
 
 Installing DevOps Change Velocity also installs the dependent applications, user roles, tables, scheduled jobs, and other components.
 
-See [Components installed with DevOps Change Velocity](../reference/installed-with-dev-ops.md).
+See [Components installed with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/installed-with-dev-ops.md).
 
 ## What to do next
 
-[Assign roles and tasks using workspace](assign-roles-tasks-workspace.md).
+[Assign roles and tasks using workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/assign-roles-tasks-workspace.md).
 
-**Note:** Roles that are installed with DevOps Change Velocity are listed in [Components installed with DevOps Change Velocity](../reference/installed-with-dev-ops.md).
+**Note:** Roles that are installed with DevOps Change Velocity are listed in [Components installed with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/installed-with-dev-ops.md).
 

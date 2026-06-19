@@ -2,6 +2,7 @@
 title: Default state categories for Release and Release task tables
 description: Understand how the different states of the Release \[rm\_release\] and Release Task \[rm\_task\] tables are configured by default. Use this information to customize the states according to your organizational release processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/release-management/default-state-categories-for-release-and-release-task-tables.html
 release: zurich
 product: Release Management
 classification: release-management
@@ -43,5 +44,5 @@ Understand how the different states of the Release \[rm\_release\] and Release T
 |work\_in\_progress\_states|2|
 |skipped\_states|4, 7|
 
-**Parent Topic:**[Release Management v2 reference](../concept/reference-release-management.md)
+**Parent Topic:**[Release Management v2 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/release-management/reference-release-management.md)
 

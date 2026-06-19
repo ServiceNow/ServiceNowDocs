@@ -2,6 +2,7 @@
 title: New event form
 description: use the New event form to add tasks, events, and appointments to your calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/resource-management/new-event-form.html
 release: zurich
 product: Resource Management
 classification: resource-management
@@ -67,7 +68,7 @@ Choose the start and end date and time, or select the All day option.
 
 When you select All day for a **Time off** event, the system allocates 24 hours for that day, not the standard 8-hour work schedule. To book time off for only your working hours \(for example, 8 hours\), specify the exact start and end times instead of selecting All day.
 
- The allocated hours for an event are calculated based on the duration between the start and end times you specify. To align time off with your work schedule, see [Resource schedules](../concept/c_UsingResourceSchedules.md#).
+ The allocated hours for an event are calculated based on the duration between the start and end times you specify. To align time off with your work schedule, see [Resource schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/c_UsingResourceSchedules.md).
 
  Do not use this field to set repeatable events.
 
@@ -79,7 +80,7 @@ Repeats
 
 Select the frequency that the activity repeats, such as **Daily**, **Weekly**, **Monthly**, or select **Does not repeat**if this event is a non-repeating event.
 
- For example, if you have a task that you want to work on Monday and Friday, set a weekly repeatable event for Monday and Friday. See [Create repeatable events](../task/t_CreateRepeatableEvents.md).
+ For example, if you have a task that you want to work on Monday and Friday, set a weekly repeatable event for Monday and Friday. See [Create repeatable events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/t_CreateRepeatableEvents.md).
 
 </td></tr><tr><td>
 
@@ -112,5 +113,5 @@ Select an end date.
  This field appears only if you select Daily, Monthly, or Yearly in the **Repeats** field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Resource Management reference](../task/rsrc-mgmt-reference.md)
+</table>**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rsrc-mgmt-reference.md)
 

@@ -2,6 +2,7 @@
 title: Chief Customer Operations Officer Dashboard tabs
 description: Organizing insights into these pillars enables Chief Customer Operations Officer \(CCO\) to improve customer experience, increase proactive service maturity, drive digital self-service adoption, strengthen service performance, and reduce customer risk.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/cco-db-tabs.html
 release: zurich
 topic_type: reference
 last_updated: "2025-09-01"
@@ -21,7 +22,7 @@ The strategic pillars of the CFO dashboard show metrics related to Sentiment, Pr
 
 The Outcome tab provides CCOs with a centralized view into customer experience, proactive service effectiveness, digital self-service performance, and escalation health. It helps CCOs quickly understand the customer sentiment trends, service impact, and overall experience outcomes to drive strategic improvements.
 
-![CCO Dashboard Outcome tab with Sentiment, Proactive, Self Service, Service Health, and Spotlight pillars, each containing KPIs and visualizations.](../image/cco-db-outcome-tab.png)
+\[Omitted image "cco-db-outcome-tab.png"\] Alt text: CCO Dashboard Outcome tab with Sentiment, Proactive, Self Service, Service Health, and Spotlight pillars, each containing KPIs and visualizations.
 
 <table id="table_yds_3cy_mgd"><thead><tr><th>
 
@@ -138,7 +139,7 @@ Highlights critical and at-risk customer cases requiring executive attention and
 
 The Operations tab focuses on the day-to-day execution of support services, including case handling efficiency, outage impact, customer risk indicators, and backlog management. It enables operational leaders to monitor case flow, resolve issues faster, and maintain consistent service quality at scale.
 
-![CCO Dashboard Operations tab with Throughput, Availability, Risk, and Performance pillars, each containing metrics and visualizations.](../image/cco-db-ops-tab.png)
+\[Omitted image "cco-db-ops-tab.png"\] Alt text: CCO Dashboard Operations tab with Throughput, Availability, Risk, and Performance pillars, each containing metrics and visualizations.
 
 <table id="table_yds_3cy_mgc"><thead><tr><th>
 

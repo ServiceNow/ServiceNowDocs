@@ -2,6 +2,7 @@
 title: Extensions to Jelly syntax
 description: Apache's Jelly syntax is used to render forms, lists, UI pages, and many other things rendered in ServiceNow.Jelly often includes multiple namespaces when invoking tags.Usually, there are two phases indicated by namespaces &lt;j&gt; versus &lt;j2&gt; and &lt;g&gt; versus &lt;g2&gt;.You can use if statements in Jelly scripts.Sets a variable to one of two different values depending on whether a test is true or false.This page provides a comparative explanation of three tags: &lt;g:insert&gt;, &lt;g:inline&gt;, and &lt;g:call&gt;.The &lt;g:evaluate&gt; tag is used to evaluate an expression written in Rhino JavaScript and sometimes to set a variable to the value of the expression.This tag can be used to display the current Jelly variables and their values in the log.This tag defines a form on the UI page.This tag adds a reference to a UI macro that creates an input field on a page that allows users to input information. The ui\_input\_field passes a label, name, value, and size into the UI macro.This tag puts a user-editable check mark on a page. The name and value are passed into the UI macro.This tag puts buttons on the UI page that run a specified processing script if the tag returns true.This tag adds a reference to a page that can be referenced by a Processing Script.Ampersands in Jelly can cause you grief because Jelly is XML.Use $\{AND\} to insert a JavaScript and in Jelly.Similar to ampersands, less than \("&lt;"\) signs can also cause problems due to Jelly being XML. This can be resolved by reversing your test such that it is not necessary or by using $\{AMP\}lt; in place of the less than sign.Normally, white space is removed by Jelly. To keep it, you must specify that it not be trimmed.To encode a non-breaking space \(&amp;nbsp;\), you can use $\[SP\].ServiceNow has a feature that allows the evaluation of Jelly to be traced.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/c\_ExtensionsToJellySyntax.html
 release: zurich
 product: Scripts
 classification: scripts
@@ -21,7 +22,7 @@ With Jelly, logic can be embedded within static content and computed values may 
 
 This page from Apache has a summary of the standard Jelly tags: [http://commons.apache.org/jelly/tags.html](http://commons.apache.org/jelly/tags.html)
 
-**Parent Topic:**[Jelly tags](../reference/r_JellyTags.md)
+**Parent Topic:**[Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/r_JellyTags.md)
 
 ## Namespaces
 
@@ -243,7 +244,7 @@ For example, if your form contained the `application_sys_id` field, the g:ui\_fo
  </g:ui_form>
 ```
 
-For more information, see [UI macros](../../server-scripting/concept/c_UIMacros.md#).
+For more information, see [UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_UIMacros.md).
 
 ## &lt;g:ui\_input\_field /&gt;
 
@@ -255,7 +256,7 @@ Here is an example from a UI page:
 <g:ui_input_field label="sys_id" name="sysid" value="9d385017c611228701d22104cc95c371" size="50"/>
 ```
 
-For more information, see [UI macros](../../server-scripting/concept/c_UIMacros.md#).
+For more information, see [UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_UIMacros.md).
 
 ## &lt;g:ui\_checkbox/&gt;
 
@@ -276,7 +277,7 @@ Here is an example from a table on a UI page:
 </table>
 ```
 
-For more information, see [UI macros](../../server-scripting/concept/c_UIMacros.md#).
+For more information, see [UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_UIMacros.md).
 
 ## &lt;g:dialog\_buttons\_ok\_cancel/&gt;
 

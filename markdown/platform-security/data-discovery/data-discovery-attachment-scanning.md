@@ -2,6 +2,7 @@
 title: Attachment scanning in Data Discovery jobs
 description: Attachment scanning in Data Discovery enables you to scan, discover, and report on sensitive data in file attachments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-discovery/data-discovery-attachment-scanning.html
 release: zurich
 product: Data Discovery
 classification: data-discovery

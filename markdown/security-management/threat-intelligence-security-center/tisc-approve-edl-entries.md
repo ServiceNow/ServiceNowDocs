@@ -2,13 +2,14 @@
 title: Approve EDL entries for Palo Alto Networks
 description: Approving External Dynamic List \(EDL\) entries is part of the pre configuration. You must approve the EDL entries before the entries are activated on EDLs for the firewall to retrieve the entry and apply the security policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-approve-edl-entries.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Palo Alto Networks integration, TISC Security Tools - Firewall, TISC Security Tools Integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Palo Alto Networks integration, Firewall integration, TISC Security Tools Integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Approve EDL entries for Palo Alto Networks
@@ -39,15 +40,15 @@ When the approval process is enabled, an EDL entry is not activated or deactivat
 
 7.  Choose the option for approving the EDL entry.
 
-<table id="choicetable_xbq_cvh_vdb"><thead><tr><th align="left" id="d240363e121">
+<table id="choicetable_xbq_cvh_vdb"><thead><tr><th align="left" id="d142896e121">
 
 Option
 
-</th><th align="left" id="d240363e124">
+</th><th align="left" id="d142896e124">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d240363e130">
+</th></tr></thead><tbody><tr><td id="d142896e130">
 
 **Approve**
 
@@ -55,7 +56,7 @@ Description
 
 On the entry record, the **Status** field changes to `Added`, and the **Active** check box is selected. The **Deactivate** button is displayed and active.Work notes show that the request for the EDL entry has been approved.
 
-</td></tr><tr><td id="d240363e154">
+</td></tr><tr><td id="d142896e154">
 
 **Reject**
 
@@ -66,8 +67,8 @@ On the entry record, the Status field changes to **Rejected**, and the **Active*
 </td></tr></tbody>
 </table>    After you have approved the EDL entry and it is activated, the Palo Alto Networks retrieves the EDL entry after the next retrieval interval. After the entry is retrieved, the observable is blocked from that point forward. In the following figure, note that the **Active** check box is selected, the status is Added, and the work notes indicate that the request has been approved.
 
-    ![Approved EDL entry.](../image/tisc-edl-approved-entry.png)
+    \[Omitted image "tisc-edl-approved-entry.png"\] Alt text: Approved EDL entry.
 
 
-**Parent Topic:**[Palo Alto Networks integration](../concept/palo-alto-networks-integration.md)
+**Parent Topic:**[Palo Alto Networks integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/palo-alto-networks-integration.md)
 

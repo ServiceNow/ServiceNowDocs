@@ -2,6 +2,7 @@
 title: Request document access for a legal matter
 description: Request access to documents attached to a legal matter that you do not currently have access to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-matter-management/request-doc-access-legal-matter.html
 release: zurich
 product: Legal Matter Management
 classification: legal-matter-management
@@ -25,7 +26,7 @@ Role required: sn\_lg\_ops.legal\_user or sn\_lg\_ops.legal\_fulfiller
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, under **Matters**, click **All**.
 
@@ -40,5 +41,5 @@ Role required: sn\_lg\_ops.legal\_user or sn\_lg\_ops.legal\_fulfiller
 
 The system processes the user's permissions and grants access to the documents in the matter artifact.
 
-**Parent Topic:**[Document access in a legal matter](../concept/document-access-legal-matter.md)
+**Parent Topic:**[Document access in a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/document-access-legal-matter.md)
 

@@ -2,6 +2,7 @@
 title: Configure signal schedules in Proactive Prompts
 description: Schedule that determines when to run the signal configuration to generate prompts that notify the user to act on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/proactive-prompts/proactive-prompts-signal-schedules.html
 release: zurich
 product: Proactive Prompts
 classification: proactive-prompts

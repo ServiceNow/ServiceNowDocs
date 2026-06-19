@@ -2,6 +2,7 @@
 title: Create a TCO report in Enterprise Asset Workspace
 description: Create a TCO report to compare the actual or projected TCO of assets or to compare the actual or projected asset TCO with the benchmark cost of the enterprise model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/create-eam-tco-report.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -25,15 +26,15 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
 2.  Select **New**on the right side of the page.
 
-<table id="choicetable_xfs_scj_hzb"><thead><tr><th align="left" id="d139042e71">
+<table id="choicetable_xfs_scj_hzb"><thead><tr><th align="left" id="d137259e71">
 
 Field
 
-</th><th align="left" id="d139042e74">
+</th><th align="left" id="d137259e74">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d139042e80">
+</th></tr></thead><tbody><tr><td id="d137259e80">
 
 **Name**
 
@@ -41,7 +42,7 @@ Description
 
 Name of the report.
 
-</td></tr><tr><td id="d139042e89">
+</td></tr><tr><td id="d137259e89">
 
 **Type**
 
@@ -51,7 +52,7 @@ The type of report. Choose from the following options:-   TCO comparison: Evalua
 -   TCO vs benchmark: Evaluates how efficiently an asset or group of assets is managed in relation to industry or market standards.
 
 
-</td></tr><tr><td id="d139042e106">
+</td></tr><tr><td id="d137259e106">
 
 **Report Table**
 
@@ -59,7 +60,7 @@ The type of report. Choose from the following options:-   TCO comparison: Evalua
 
 The table this report is based on. This is a read-only field with the value **Enterprise asset**.
 
-</td></tr><tr><td id="d139042e121">
+</td></tr><tr><td id="d137259e121">
 
 **Total cost type**
 
@@ -73,7 +74,7 @@ The total cost type of the report. -   Actual TCO: The TCO value of the selected
     -   When useful life of the asset is lower than asset life, the Projected TCO \(at end of life\) is calculated by using the following formula:`Normalized TCO * Asset life`, where Normalized TCO \(TCO per month\) is `(Purchase cost + Sum of operational cost) / Asset life)`.
 
 
-</td></tr><tr><td id="d139042e167">
+</td></tr><tr><td id="d137259e167">
 
 **Description**
 
@@ -81,7 +82,7 @@ The total cost type of the report. -   Actual TCO: The TCO value of the selected
 
 Description of the report.
 
-</td></tr><tr><td id="d139042e176">
+</td></tr><tr><td id="d137259e176">
 
 **Show benchmark**
 
@@ -91,7 +92,7 @@ Shows the benchmark threshold on the TCO comparison report.
 
  This field appears only if you select TCO comparison as your report type.
 
-</td></tr><tr><td id="d139042e191">
+</td></tr><tr><td id="d137259e191">
 
 **Benchmark model**
 
@@ -99,7 +100,7 @@ Shows the benchmark threshold on the TCO comparison report.
 
 The enterprise model for the benchmark threshold.
 
-</td></tr><tr><td id="d139042e203">
+</td></tr><tr><td id="d137259e203">
 
 **Real time report**
 
@@ -107,7 +108,7 @@ The enterprise model for the benchmark threshold.
 
 When selected, generates real-time data on the report. You can deselect this check box to make it an offline report.
 
-</td></tr><tr><td id="d139042e212">
+</td></tr><tr><td id="d137259e212">
 
 **Workspace**
 
@@ -121,5 +122,5 @@ The workspace that you are currently logged into. By default, the value for this
     The report is created and the TCO report sources related list appears. You can now add the report sources.
 
 
-**Parent Topic:**[Configuring Total Cost of Ownership for enterprise assets](../concept/confifure-eam-asset-tco.md)
+**Parent Topic:**[Configuring Total Cost of Ownership for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/confifure-eam-asset-tco.md)
 

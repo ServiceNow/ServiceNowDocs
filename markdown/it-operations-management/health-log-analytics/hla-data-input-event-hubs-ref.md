@@ -2,6 +2,7 @@
 title: Microsoft Azure Event Hubs data input configuration fields
 description: Description of the fields on the Microsoft Azure Event Hubs data input configuration form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-data-input-event-hubs-ref.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -82,7 +83,7 @@ The MID Server cluster to which the log data is pulled. This field is required.T
 -   Log ingestion must be enabled for each MID Server in the cluster. If log ingestion is not enabled for the active MID Server, Health Log Analytics enables it automatically.
 -   The default maximum number of data inputs or integrations streaming logs to a single MID Server is 10. A cluster passes capacity validation if it contains at least one MID Server with fewer than 10 data inputs or integrations running on it, even when that MID Server is down.
 
-For more information about MID Server clusters, see [Configure a MID Server cluster](https://www.servicenow.com/docs/access?context=t_ConfigureAMIDServerCluster&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+For more information about MID Server clusters, see Configure a MID Server cluster.
 
 </td></tr><tr><td>
 
@@ -90,7 +91,7 @@ Service instance
 
 </td><td>
 
-The service instance to which to bind the log data.**Note:** If no relevant service instance exists, [Create an service instance](https://www.servicenow.com/docs/access?context=create-it-services&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) and add CIs to it. Set the status of the new service instance to Operational.
+The service instance to which to bind the log data.**Note:** If no relevant service instance exists, Create an service instance and add CIs to it. Set the status of the new service instance to Operational.
 
  This field is required.
 
@@ -252,5 +253,5 @@ The Consumer Group to use.This field is required.
 |Polling interval|The interval, in seconds, to wait before polling for new events.|0|
 |Drop if queue is full|Option for selecting to discard logs if there is a load on the MID Server.|False|
 
-**Parent Topic:**[Data input configuration field descriptions](../concept/hla-data-input-config-fields.md)
+**Parent Topic:**[Data input configuration field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

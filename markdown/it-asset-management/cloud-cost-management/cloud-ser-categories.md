@@ -2,6 +2,7 @@
 title: Cloud service categories in Cloud Cost Management
 description: Provider services are grouped into service categories in Cloud Cost Management. This grouping enables you to use filters to focus your analysis on particular types of service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/cloud-ser-categories.html
 release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -19,7 +20,7 @@ To perform targeted analysis, you can filter for particular services within a se
 
 Here are the supported cloud service categories in Cloud Cost Management:
 
--   [Cloud service categories in Cloud Cost Management for Microsoft Azure services](../reference/azure-service-category-crossref.md)
--   [Cloud service categories in Cloud Cost Management for Amazon AWS Cloud services](../reference/aws-service-category-crossref.md)
--   [Cloud service categories in Cloud Cost Management for Google Cloud services](../reference/gcp-service-category-crossref.md)
+-   [Cloud service categories in Cloud Cost Management for Microsoft Azure services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/azure-service-category-crossref.md)
+-   [Cloud service categories in Cloud Cost Management for Amazon AWS Cloud services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/aws-service-category-crossref.md)
+-   [Cloud service categories in Cloud Cost Management for Google Cloud services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/gcp-service-category-crossref.md)
 

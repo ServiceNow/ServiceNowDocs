@@ -2,6 +2,7 @@
 title: Manual and Automated Sharing using flows
 description: This section describes how to configure manual sharing via GUI and automated intelligence sharing between TISC instances. It outlines the setup of inbound and outbound intelligence profiles, required roles, authentication configuration, and exclusion rules in both the source and target instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-manual-automated-sharing.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

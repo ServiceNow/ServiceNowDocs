@@ -2,6 +2,7 @@
 title: Service Level Objective Management
 description: Service Level Objective Management \(SLO Management\) helps your organization define, track, and meet agreed-upon service quality standards. It works alongside Service Level Agreements \(SLAs\) to help make sure that services meet customer expectations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-level-objective-management/slo-landing-page.html
 release: zurich
 product: Service Level Objective Management
 classification: service-level-objective-management
@@ -35,15 +36,15 @@ Service Level Objective Management \(SLO Management\) helps your organization de
 
 <table id="table_b4x_psb_4bc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Service Level Objective Management concepts and features.](../concept/exploring-service-level-objective-management.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Service Level Objective Management concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-level-objective-management/exploring-service-level-objective-management.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-investor-relations-2.svg)Using Service Level Objective Management](../task/using-service-level-objective-management.md)
+[Use\[Omitted image "bus-investor-relations-2.svg"\] Alt text:Using Service Level Objective Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-level-objective-management/using-service-level-objective-management.md)
 
 </td></tr><tr><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about Service Level Objective Management components, such as fields, tables, and properties.](service-level-objective-management-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about Service Level Objective Management components, such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-level-objective-management/service-level-objective-management-reference.md)
 
 </td><td>
 

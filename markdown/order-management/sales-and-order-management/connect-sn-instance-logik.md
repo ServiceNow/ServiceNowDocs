@@ -1,17 +1,18 @@
 ---
-title: Set up ServiceNow instance connection with Logik.ai instance
+title: Set up a ServiceNow instance connection with a Logik.ai instance
 description: Set up the connections between the ServiceNow instance and the Logik.ai instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/connect-sn-instance-logik.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2025-12-07"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Set up ServiceNow instance connection with Logik.ai instance
+# Set up a ServiceNow instance connection with a Logik.ai instance
 
 Set up the connections between the ServiceNow instance and the Logik.ai instance.
 
@@ -23,14 +24,14 @@ Role required: admin
 
 1.  Set the application scope to CPQ Integration.
 
-    Use the scope selection menu icon in the Unified Navigation menu to select the scope.
+    Use the scope selection menu icon \[Omitted image "globe-outline-24.svg"\] Alt text: in the Unified Navigation menu to select the scope.
 
-2.  Navigate to: https://&lt;service\_instance\_url&gt;/oauth\_entity.do?sys\_id=3b119df83b566210a0c0989e53e45a15
+2.  Navigate to `https://<service_instance_url>/oauth_entity.do?sys_id=3b119df83b566210a0c0989e53e45a15`.
 
-    1.  Update the Redirect URL to: https://&lt;logik-tenant-url&gt;/login/oauth2/code/&lt;logik-tenant-name&gt;-login
+    1.  Update the Redirect URL to `https://<logik-tenant-url>/login/oauth2/code/<logik-tenant-name>-login`.
 
         -   The logik-tenant-name is the name of the logik site \(for example, logiksite-som\). The logik-tenant-url is the full URL of the site \(for example, logiksite-som.test.logik.io\)
-        -   Example: https://logiksite-som.test.logik.io/login/oauth2/code/logiksite-som-login
+        -   Example: `https://logiksite-som.test.logik.io/login/oauth2/code/logiksite-som-login`
     2.  Select the **Activate** property.
 
     3.  Select **Update**.
@@ -65,7 +66,7 @@ Role required: admin
 
 6.  Populate the Connection and Credential Aliases.
 
-    1.  In SOM, navigate to: https://&lt;service\_instance\_url&gt;/now/workflow-studio/integration/connection
+    1.  In ServiceNow Sales CRM, navigate to `https://<service_instance_url>/now/workflow-studio/integration/connection`
 
     2.  Select Advanced Setup of the CPQ – Sync connection.
 

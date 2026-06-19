@@ -2,6 +2,7 @@
 title: Credential handling
 description: Extend the workflow engine to manage processes and automate things outside of an instance with Orchestration. Use the appropriate credentials required by Orchestration SSH and PowerShell activity elements: SSH requires SSH and PowerShell requires Windows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/credential-handling.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

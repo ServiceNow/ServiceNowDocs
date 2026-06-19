@@ -2,6 +2,7 @@
 title: Register an event
 description: You can register an event for a specific table and a business rule that fires the event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/system-events/t\_RegisterAnEvent.html
 release: zurich
 product: System Events
 classification: system-events
@@ -55,7 +56,7 @@ Queue
 
 </td><td>
 
-Name of the queue that the event is placed into when triggered.Use only lowercase letters, no spaces, and no special characters except underscore \(\_\). For example, `my_queue`. See [Using custom queues to process events](https://www.servicenow.com/docs/access?context=useful-server-side-scripts&version=zurich&pubname=zurich-api-reference&section=queues-create&ft:locale=en-US).
+Name of the queue that the event is placed into when triggered.Use only lowercase letters, no spaces, and no special characters except underscore \(\_\). For example, `my_queue`. See .
 
 </td></tr><tr><td>
 

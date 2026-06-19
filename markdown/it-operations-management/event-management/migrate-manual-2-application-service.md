@@ -2,6 +2,7 @@
 title: Convert manual services to application services
 description: You can convert existing manual services to application services. Event Management can use application services to monitor service performance and identify health issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/migrate-manual-2-application-service.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -46,11 +47,11 @@ If your ServiceNow instance uses domain separation, the conversion fails if CIs 
 
 1.  Navigate to **All** &gt; **Event Management** &gt; **Services** &gt; **Manual Services**.
 
-    ![Manual service in the list](../image/manual-service-in-list.png)
+    \[Omitted image "manual-service-in-list.png"\] Alt text: Manual service in the list
 
 2.  Select the manual service that you want to convert to an application services.
 
-    ![Convert manual service to application service](../image/migrate-manual-2-application.png)
+    \[Omitted image "migrate-manual-2-application.png"\] Alt text: Convert manual service to application service
 
 3.  Click **Migrate to Application Service**.
 
@@ -62,5 +63,5 @@ If your ServiceNow instance uses domain separation, the conversion fails if CIs 
 -   The CIs from the manual service are added to the converted application services.
 -   After the conversion process is complete, the application services form opens.
 
-**Parent Topic:**[Application services in Event Management](../concept/application-service-event-management.md)
+**Parent Topic:**[Application services in Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/application-service-event-management.md)
 

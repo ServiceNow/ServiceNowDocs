@@ -2,6 +2,7 @@
 title: Report a critical event as an agent
 description: Create a ticket to report a critical event in Critical Event Management as an agent when an emergency alarm is raised offline.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/critical-event-management/report-an-emergency.html
 release: zurich
 product: Critical Event Management
 classification: critical-event-management
@@ -27,7 +28,7 @@ Role required: sn\_critical.agent
 
 3.  On the Critical Event form, fill out the fields.
 
-    For a description of the field values, see [Critical Event form](../reference/new-critical-event-form.md).
+    For a description of the field values, see [Critical Event form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/critical-event-management/new-critical-event-form.md).
 
 4.  Select **Save**.
 

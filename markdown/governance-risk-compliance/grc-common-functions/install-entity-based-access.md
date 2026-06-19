@@ -2,6 +2,7 @@
 title: Install the Entity Based Access application
 description: Install the GRC: Entity Based Access application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/install-entity-based-access.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -40,5 +41,5 @@ Role required: admin
     The Entity Based Access application is available in your instance.
 
 
-**Parent Topic:**[Configuring Entity Based Access](../concept/setting-up-entity-based-access.md)
+**Parent Topic:**[Configuring Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/setting-up-entity-based-access.md)
 

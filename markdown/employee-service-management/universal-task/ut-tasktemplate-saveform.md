@@ -2,6 +2,7 @@
 title: Create a task template by saving a form
 description: Save a populated Universal Task form as a template. This is an alternative method for creating a task template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-task/ut-tasktemplate-saveform.html
 release: zurich
 product: Universal Task
 classification: universal-task
@@ -17,7 +18,7 @@ Save a populated Universal Task form as a template. This is an alternative metho
 
 ## Before you begin
 
-Make sure you have a Universal Task form that you want to use. If you need to create a form, see [Create a universal task](create-unitask.md).
+Make sure you have a Universal Task form that you want to use. If you need to create a form, see [Create a universal task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-task/create-unitask.md).
 
 Role required: sn\_uni\_task.template\_admin
 
@@ -44,5 +45,5 @@ Role required: sn\_uni\_task.template\_admin
 8.  Click **Submit**.
 
 
-**Parent Topic:**[Universal Task templates](../concept/ut-task-template-landing.md)
+**Parent Topic:**[Universal Task templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-task/ut-task-template-landing.md)
 

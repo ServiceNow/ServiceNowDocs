@@ -2,6 +2,7 @@
 title: Migrate from legacy chat to Connect Support
 description: Connect Support is an extension of Connect. Users designated as support agents have access to the support tab of the connect sidebar. Do not use Connect Support concurrently with legacy chat.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/connect/t\_ConnectSupportMigration.html
 release: zurich
 product: Connect
 classification: connect
@@ -31,10 +32,10 @@ If you do not close out existing help desk chats, your metrics and chat queue wi
 
     When you activate the Connect Support plugin, the **glide.connect.support.enabled** property redirects the legacy chat URL to Connect Support.
 
-    For more information, see [Activate Connect Support](t_ActivateConnectSupport.md#).
+    For more information, see [Activate Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/connect/t_ActivateConnectSupport.md).
 
 2.  Hide the Social IT application.
 
-    Activating Connect Support does not completely eliminate the legacy chat module. To prevent users from using the legacy chat, hide the Social IT application menu. For more information, see [Enable or disable an application menu or module](https://www.servicenow.com/docs/access?context=t_EnDisableAppMenuOrMod&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) .
+    Activating Connect Support does not completely eliminate the legacy chat module. To prevent users from using the legacy chat, hide the Social IT application menu. For more information, see Enable or disable an application menu or module .
 
 

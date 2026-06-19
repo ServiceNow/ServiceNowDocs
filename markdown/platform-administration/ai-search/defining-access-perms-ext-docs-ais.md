@@ -2,12 +2,13 @@
 title: Defining access permissions for external documents
 description: You can specify access permissions for externally defined users and groups when ingesting external documents. AI Search preserves these permissions during indexing so that user content security filters can operate on them at search time.External content security includes permissions that describe user and group access for an external document. When indexing an external document, AI Search stores these permissions so that content security filters can limit user access to the indexed search result.Certain user roles provide special access permissions for external content indexed records.Make external group deny access permissions take precedence over external user read access permissions for all external documents ingested through an indexed source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/defining-access-perms-ext-docs-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 8
+reading_time_minutes: 7
 breadcrumb: [External content security, Indexing and searching external content, Configure, AI Search, Search administration, Configure core features, Administer]
 ---
 
@@ -15,9 +16,9 @@ breadcrumb: [External content security, Indexing and searching external content,
 
 You can specify access permissions for externally defined users and groups when ingesting external documents. AI Search preserves these permissions during indexing so that user content security filters can operate on them at search time.
 
-For details on including access permissions for externally defined users and groups in ingested external documents, see the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the [External Content Ingestion API](https://www.servicenow.com/docs/access?context=external-content-ingestion-api&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+For details on including access permissions for externally defined users and groups in ingested external documents, see the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the External Content Ingestion API.
 
-**Parent Topic:**[External content security for AI Search](external-content-security-ais.md)
+**Parent Topic:**[External content security for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/external-content-security-ais.md)
 
 ## External content access permissions
 
@@ -41,7 +42,7 @@ everyone
 
 </td><td>
 
-Boolean option that indicates whether access to the external document is allowed for all users. AI Search applies this global access permission to the indexed record created from the document. Set this permission for an ingested document via the \[array\].principals.everyone request body parameter in a request to the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the [External Content Ingestion API](https://www.servicenow.com/docs/access?context=external-content-ingestion-api&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+Boolean option that indicates whether access to the external document is allowed for all users. AI Search applies this global access permission to the indexed record created from the document. Set this permission for an ingested document via the \[array\].principals.everyone request body parameter in a request to the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the External Content Ingestion API.
 
  When set to **true**, this permission overrides all **groups** and **users** permissions.
 
@@ -53,11 +54,11 @@ groups.deny
 
 </td><td>
 
-List of externally defined groups that are denied access to the external document. ServiceNow AI Platform® users mapped to any of these external groups can't view the indexed search result record created from the document. Set this permission for an ingested document via the \[array\].principals.groups.deny request body parameter in a request to the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the [External Content Ingestion API](https://www.servicenow.com/docs/access?context=external-content-ingestion-api&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+List of externally defined groups that are denied access to the external document. ServiceNow AI Platform® users mapped to any of these external groups can't view the indexed search result record created from the document. Set this permission for an ingested document via the \[array\].principals.groups.deny request body parameter in a request to the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the External Content Ingestion API.
 
  This permission takes precedence over **groups.read**. If the same group has both read and deny access permissions for a document, AI Search denies members of the group access to the indexed record.
 
- By default, **users.read** takes precedence over this permission. To reverse this precedence order for an indexed source, see [Change the precedence of user read and group deny permissions for an external content indexed source](defining-access-perms-ext-docs-ais.md#).
+ By default, **users.read** takes precedence over this permission. To reverse this precedence order for an indexed source, see [Change the precedence of user read and group deny permissions for an external content indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/defining-access-perms-ext-docs-ais.md).
 
 </td></tr><tr><td>
 
@@ -65,7 +66,7 @@ groups.read
 
 </td><td>
 
-List of externally defined groups that are allowed access to the external document. ServiceNow AI Platform users mapped to any of these external groups can view the indexed search result record created from the document. Set this permission for an ingested document via the \[array\].principals.groups.read request body parameter in a request to the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the [External Content Ingestion API](https://www.servicenow.com/docs/access?context=external-content-ingestion-api&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+List of externally defined groups that are allowed access to the external document. ServiceNow AI Platform users mapped to any of these external groups can view the indexed search result record created from the document. Set this permission for an ingested document via the \[array\].principals.groups.read request body parameter in a request to the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the External Content Ingestion API.
 
  **groups.deny** permission takes precedence over this permission. If the same group has both read and deny access permissions for a document, AI Search denies members of the group access to the indexed record.
 
@@ -75,7 +76,7 @@ none
 
 </td><td>
 
-Boolean option indicating whether access to the external document is denied for all users. AI Search applies this global denial permission to the indexed record created from the document. Set this permission for an ingested document via the \[array\].principals.none request body parameter in a request to the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the [External Content Ingestion API](https://www.servicenow.com/docs/access?context=external-content-ingestion-api&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+Boolean option indicating whether access to the external document is denied for all users. AI Search applies this global denial permission to the indexed record created from the document. Set this permission for an ingested document via the \[array\].principals.none request body parameter in a request to the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the External Content Ingestion API.
 
  When set to **true**, this permission overrides all **groups** and **users** permissions.
 
@@ -87,7 +88,7 @@ users.deny
 
 </td><td>
 
-List of externally defined users that are denied access to the external document. ServiceNow AI Platform users mapped to any of these external users can't view the indexed search result record created from the document. Set this permission for an ingested document via the \[array\].principals.users.deny request body parameter in a request to the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the [External Content Ingestion API](https://www.servicenow.com/docs/access?context=external-content-ingestion-api&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+List of externally defined users that are denied access to the external document. ServiceNow AI Platform users mapped to any of these external users can't view the indexed search result record created from the document. Set this permission for an ingested document via the \[array\].principals.users.deny request body parameter in a request to the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the External Content Ingestion API.
 
  This permission takes precedence over **users.read**. If the same user has both read and deny access permissions for a document, AI Search denies that user access to the indexed record.
 
@@ -97,11 +98,11 @@ users.read
 
 </td><td>
 
-List of externally defined users that are allowed access to the external document. ServiceNow AI Platform users mapped to any of these external users can view the indexed search result record created from the document. Set this permission for an ingested document via the \[array\].principals.users.read request body parameter in a request to the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the [External Content Ingestion API](https://www.servicenow.com/docs/access?context=external-content-ingestion-api&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+List of externally defined users that are allowed access to the external document. ServiceNow AI Platform users mapped to any of these external users can view the indexed search result record created from the document. Set this permission for an ingested document via the \[array\].principals.users.read request body parameter in a request to the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the External Content Ingestion API.
 
  **users.deny** takes precedence over this permission. If the same user has both read and deny access permissions for a document, AI Search denies that user access to the indexed record.
 
- By default, this permission takes precedence over **groups.deny**. To reverse this precedence order for an indexed source, see [Change the precedence of user read and group deny permissions for an external content indexed source](defining-access-perms-ext-docs-ais.md#).
+ By default, this permission takes precedence over **groups.deny**. To reverse this precedence order for an indexed source, see [Change the precedence of user read and group deny permissions for an external content indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/defining-access-perms-ext-docs-ais.md).
 
 </td></tr></tbody>
 </table>### Precedence order for principal permissions
@@ -140,10 +141,10 @@ From highest precedence to lowest:1.  **everyone** and **none**
 2.  **users.deny** and **groups.deny**
 3.  **users.read** and **groups.read**
 
- **Note:** For instructions on setting this attribute value, see [Change the precedence of user read and group deny permissions for an external content indexed source](defining-access-perms-ext-docs-ais.md#).
+ **Note:** For instructions on setting this attribute value, see [Change the precedence of user read and group deny permissions for an external content indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/defining-access-perms-ext-docs-ais.md).
 
 </td></tr></tbody>
-</table>For details on how content security permissions from certain user roles interact with these external content security principals, see [Special external content access permissions by role](defining-access-perms-ext-docs-ais.md#).
+</table>For details on how content security permissions from certain user roles interact with these external content security principals, see [Special external content access permissions by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/defining-access-perms-ext-docs-ais.md).
 
 ## Special external content access permissions by role
 
@@ -163,7 +164,7 @@ AI Search administrator \[ais\_admin\]
 
 </td><td>
 
-An AI Search administrator can access all external content indexed records in a search application.**Note:** To bypass all search source and content security filtering in the Search Preview UI, you also need the impersonator and AI Search high security administrator \[ais\_high\_security\_admin\] roles. For details on this procedure, see [Diagnose search result access issues using the Search Preview UI](../task/diagnose-srch-result-access-ais.md).
+An AI Search administrator can access all external content indexed records in a search application.**Note:** To bypass all search source and content security filtering in the Search Preview UI, you also need the impersonator and AI Search high security administrator \[ais\_high\_security\_admin\] roles. For details on this procedure, see [Diagnose search result access issues using the Search Preview UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/diagnose-srch-result-access-ais.md).
 
 </td></tr><tr><td>
 
@@ -179,7 +180,7 @@ Self-registered external user \[snc\_external\]
 
 </td><td>
 
-Self-registered external users that belong to groups can access external content indexed records based on their group memberships. External users that don't belong to any group can only access external content indexed records that have the **everyone** permission set to **true**. For more details on self-registered external users, see [Self-register to ServiceNow instance](https://www.servicenow.com/docs/access?context=external-user-self-registration&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+Self-registered external users that belong to groups can access external content indexed records based on their group memberships. External users that don't belong to any group can only access external content indexed records that have the **everyone** permission set to **true**. For more details on self-registered external users, see Self-register to ServiceNow instance.
 
 </td></tr></tbody>
 </table>## Change the precedence of user read and group deny permissions for an external content indexed source
@@ -206,7 +207,7 @@ To reverse this default behavior for an indexed source, making external group de
 
 1.  Navigate to **All** &gt; **AI Search** &gt; **AI Search Index** &gt; **Indexed Sources**.
 
-2.  If the Advanced Configuration related list doesn't appear on the form, follow the steps in [Add a related list to a form](../../form-administration/concept/configure-form-layout.md#), selecting the **AI Search Indexed Source Attribute-&gt;Indexed Source** list in the slushbucket.
+2.  Edit the record for the indexed source you want to change the permissions precedence for.
 
 3.  In the Advanced Configuration related list, select **New**.
 
@@ -217,7 +218,7 @@ To reverse this default behavior for an indexed source, making external group de
     |Attribute|user\_read\_takes\_precedence\_over\_group\_deny|
     |Value|false|
 
-    For a description of the field values, see [Indexed Source Attribute form](../reference/indexed-source-attribute-form-ais.md).
+    For a description of the field values, see [Indexed Source Attribute form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/indexed-source-attribute-form-ais.md).
 
 5.  Select **Submit**.
 

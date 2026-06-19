@@ -2,6 +2,7 @@
 title: Software Asset Management Foundation plugin roles
 description: Software Asset Management Foundation plugin adds the following roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/software-asset-management-foundation-plugin/r\_SAMRolesSAMF.html
 release: zurich
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
@@ -22,5 +23,5 @@ Software Asset Management Foundation plugin adds the following roles.
 
 Users with the sam\_user or sam\_admin role can view and refresh the overview page.
 
-**Parent Topic:**[Exploring Software Asset Management Foundation plugin](../concept/exploring-sam-foundation.md)
+**Parent Topic:**[Exploring Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/exploring-sam-foundation.md)
 

@@ -2,6 +2,7 @@
 title: Manage enhanced sync operations
 description: Review pending sync operations and decide whether to process or ignore the operation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/indoor-mapping/manage-sync-operations.html
 release: zurich
 product: Indoor Mapping
 classification: indoor-mapping
@@ -25,7 +26,7 @@ Role required: sn\_wsd\_indoor\_map.admin or sn\_wsd\_core.workplace\_manager
 
 2.  Filter the list to include the records that you want to process.
 
-    Only the records that are included in the filter are processed. For more information about filtering lists, see [Create a filter in List](https://www.servicenow.com/docs/access?context=t_CreatingFilters&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    Only the records that are included in the filter are processed. For more information about filtering lists, see .
 
     Review the pending operations, which include Workplace Space retirements or Indoor Mapping Place deactivations.
 
@@ -46,5 +47,5 @@ If some records aren’t processed, you can review the error logs. You can view 
 
 .
 
-**Parent Topic:**[Using enhanced synchronization](../concept/using-enhanced-sync.md)
+**Parent Topic:**[Using enhanced synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/using-enhanced-sync.md)
 

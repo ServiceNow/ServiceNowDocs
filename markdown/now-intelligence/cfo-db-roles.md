@@ -2,6 +2,7 @@
 title: Chief Financial Officer Dashboard roles
 description: Two roles are associated with this dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/cfo-db-roles.html
 release: zurich
 topic_type: reference
 last_updated: "2025-09-01"

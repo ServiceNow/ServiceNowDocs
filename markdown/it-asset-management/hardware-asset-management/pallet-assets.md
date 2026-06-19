@@ -2,6 +2,7 @@
 title: Pallet assets
 description: Use the Pallet asset class to track and manage assets in your inventory as a group. You can easily move a group of assets between locations or dispose of them as a group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/pallet-assets.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -29,10 +30,10 @@ Note the following when you plan to use pallet assets for inventory management:
 
 -   You can't add software, enterprise, and excluded assets to a pallet.
 
-    **Note:** For information on excluded assets, see [Hardware Asset Management license exclusion](ham-license-exclusion.md).
+    **Note:** For information on excluded assets, see [Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/ham-license-exclusion.md).
 
 -   You can't add an asset that is already associated to a parent asset.
 -   Pallet assets can't be a part of asset bundles.
 
-For more details on pallet assets, see [Manage your inventory through pallet assets](pallets-for-inventory-management.md).
+For more details on pallet assets, see [Manage your inventory through pallet assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/pallets-for-inventory-management.md).
 

@@ -2,6 +2,7 @@
 title: Redact data from documents
 description: Redact sensitive data from PDF documents by either searching keywords or selecting text.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/redact-sensitive-data.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -31,9 +32,9 @@ Role required: none
 
 4.  Select and open the attached PDF document.
 
-5.  Select the redact icon ![icon redact](../image/redact-icon.png) to enable data redaction.
+5.  Select the redact icon \[Omitted image "redact-icon.png"\] Alt text: icon redact to enable data redaction.
 
-6.  Enter a keyword under **Search a keyword to redact** and select the search icon ![Search icon](../../../administer/virtual-agent/images/icon-search.png).
+6.  Enter a keyword under **Search a keyword to redact** and select the search icon \[Omitted image "icon-search.png"\] Alt text: Search icon.
 
     **Note:**
 
@@ -43,14 +44,14 @@ Role required: none
 
 7.  To select and draw over an area to redact data, select **Draw and redact**.
 
-8.  To undo, select the undo ![icon undo](../image/redact-undo-icon.png).
+8.  To undo, select the undo \[Omitted image "redact-undo-icon.png"\] Alt text: icon undo.
 
 9.  Select **Apply redaction**.
 
 10. Select **Save changes**.
 
-11. To discard, select the close icon ![icon close](../image/redact-close-icon.png) in the Redact document pane.
+11. To discard, select the close icon \[Omitted image "redact-close-icon.png"\] Alt text: icon close in the Redact document pane.
 
 
-**Parent Topic:**[Redact sensitive data from documents](../concept/data-redaction-documents.md)
+**Parent Topic:**[Redact sensitive data from documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/data-redaction-documents.md)
 

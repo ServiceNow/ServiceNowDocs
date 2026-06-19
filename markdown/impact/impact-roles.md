@@ -2,7 +2,10 @@
 title: Roles installed with Impact
 description: Impact offers many roles to assign to fit your business needs. When you log in to Impact, you’ll see a personalized view of your objectives, metrics, and recommendations tied directly to your role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/impact-roles.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -199,5 +202,5 @@ Impact Development Team Lead
 Access to the Impact Development Team Lead dashboard
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Impact reference](impact-reference.md)
+</table>**Parent Topic:**[Impact reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-reference.md)
 

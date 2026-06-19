@@ -2,6 +2,7 @@
 title: Add outside counsel details
 description: Add outside counsel details for an outside firm to enable matter creation in Legal Tracker.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-matter-management/lmm-lt-setup-outside-counsels.html
 release: zurich
 product: Legal Matter Management
 classification: legal-matter-management
@@ -17,7 +18,7 @@ Add outside counsel details for an outside firm to enable matter creation in Leg
 
 ## Before you begin
 
-Ensure you have installed and activated Legal Tracker spoke. For more information, see [Legal Tracker](https://www.servicenow.com/docs/access?context=legal-tracker-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+Ensure you have installed and activated Legal Tracker spoke. For more information, see Legal Tracker.
 
 Verify the schedule job **Fetch Firms Data** has been executed once before you add the outside counsel details for an outside firm.
 
@@ -35,15 +36,15 @@ The scheduled job **Fetch Firms Data** pulls the data for outside firms from Leg
 
 2.  Open the outside counsels list.
 
-<table id="choicetable_urg_zmd_jzb"><thead><tr><th align="left" id="d151739e109">
+<table id="choicetable_urg_zmd_jzb"><thead><tr><th align="left" id="d151305e109">
 
 Location
 
-</th><th align="left" id="d151739e112">
+</th><th align="left" id="d151305e112">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d151739e118">
+</th></tr></thead><tbody><tr><td id="d151305e118">
 
 **From the Legal Matter module**
 
@@ -51,14 +52,14 @@ Actions
 
 Navigate to **All** &gt; **Legal Matter** &gt; **Outside Counsel Setup** &gt; **Setup Outside Counsels**.
 
-</td></tr><tr><td id="d151739e145">
+</td></tr><tr><td id="d151305e145">
 
 **From Legal Counsel Center**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Legal Counsel Center**.
-2.  Select the List icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\) from the primary navigation and in the Outside Counsel section of the **Lists** menu, select **All**.
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\) from the primary navigation and in the Outside Counsel section of the **Lists** menu, select **All**.
 
 
 </td></tr></tbody>
@@ -78,5 +79,5 @@ Navigate to **All** &gt; **Legal Matter** &gt; **Outside Counsel Setup** &gt; **
     -   If you have added details from the Legal Matter module, select **Update**.
     -   If you have added details from the Legal Counsel Center, select **Save**.
 
-**Parent Topic:**[Configure data to enable matter creation in Legal Tracker](lmm-config-data-mtemplates.md)
+**Parent Topic:**[Configure data to enable matter creation in Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/lmm-config-data-mtemplates.md)
 

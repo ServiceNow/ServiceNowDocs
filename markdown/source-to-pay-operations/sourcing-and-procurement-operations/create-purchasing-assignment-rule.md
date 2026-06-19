@@ -2,6 +2,7 @@
 title: Create a purchasing assignment rule
 description: Automatically assign a sourcing request, negotiation, or purchase requisition to a procurement specialist user or a task fulfiller’s group based on pre-defined conditions by using a purchasing assignment rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-purchasing-assignment-rule.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -18,7 +19,7 @@ Automatically assign a sourcing request, negotiation, or purchase requisition to
 
 ## Before you begin
 
-To create a purchasing assignment rule, you must have set up your product catalog \(with the necessary product categories, product models, and supplier products\) and should be able to raise a purchase request. For more information on how to set up your product catalog, see [Create a product category](create-product-model-categories.md), [Create a product model](create-product-models.md), and [Add a supplier product](add-supplier-product.md). You should have also set up user attributes on the sys\_user record appropriately.
+To create a purchasing assignment rule, you must have set up your product catalog \(with the necessary product categories, product models, and supplier products\) and should be able to raise a purchase request. For more information on how to set up your product catalog, see [Create a product category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-product-model-categories.md), [Create a product model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-product-models.md), and [Add a supplier product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/add-supplier-product.md). You should have also set up user attributes on the sys\_user record appropriately.
 
 Role required: sn\_shop.procurement\_administrator
 
@@ -34,7 +35,7 @@ You can create a purchasing assignment rule to route sourcing requests, negotiat
 
 3.  On the form, fill in the fields.
 
-    ![Assignment rule.](../image/create_assignment_rule.png)
+    \[Omitted image "create\_assignment\_rule.png"\] Alt text: Assignment rule.
 
     |Field|Description|
     |-----|-----------|
@@ -44,7 +45,7 @@ You can create a purchasing assignment rule to route sourcing requests, negotiat
 
 4.  Select the **Applies To** tab and fill in the fields.
 
-    ![Assignment rule.](../image/create_assignment_rule_appliesto.png)
+    \[Omitted image "create\_assignment\_rule\_appliesto.png"\] Alt text: Assignment rule.
 
 <table id="table_ysk_5rb_glb"><thead><tr><th>
 
@@ -75,7 +76,7 @@ Combination of conditions that must be met before the task is assigned to a user
 </td></tr></tbody>
 </table>5.  Select the **Assign To** tab and fill in the fields.
 
-    ![Assignment rule.](../image/create_assignment_rule_assignto.png)
+    \[Omitted image "create\_assignment\_rule\_assignto.png"\] Alt text: Assignment rule.
 
     |Field|Description|
     |-----|-----------|
@@ -84,7 +85,7 @@ Combination of conditions that must be met before the task is assigned to a user
 
 6.  Select the **Script** tab and fill in the fields.
 
-    ![Assignment rule.](../image/create_assignment_rule_script.png)
+    \[Omitted image "create\_assignment\_rule\_script.png"\] Alt text: Assignment rule.
 
     |Field|Description|
     |-----|-----------|
@@ -93,5 +94,5 @@ Combination of conditions that must be met before the task is assigned to a user
 7.  Select **Submit**.
 
 
-**Parent Topic:**[Sourcing and Purchasing Automation](../reference/purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

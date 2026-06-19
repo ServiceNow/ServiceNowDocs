@@ -2,6 +2,7 @@
 title: Set up PDF document templates
 description: Sales operation specialists can set up templates for PDF documents in Quote Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/quote-mgt-setup-pdf-document-templates.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -31,9 +32,9 @@ Role required: sales\_operation\_specialist
 
     |Link|Description|
     |----|-----------|
-    |[Document Templates](https://www.servicenow.com/docs/access?context=document-templates-overview&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US)|Explanation of document templates and how the work in ServiceNow.|
-    |[Configuring Document Templates](https://www.servicenow.com/docs/access?context=set-up-doc-temp&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US)|Steps to configure documents templates.|
-    |[Reference for Document Templates](https://www.servicenow.com/docs/access?context=reference-doc-templates&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US)|Additional information about document templates.|
-    |[Using Document Templates](https://www.servicenow.com/docs/access?context=using-doc-templates&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US)|How to use document templates.|
+    ||Explanation of document templates and how the work in ServiceNow.|
+    ||Steps to configure documents templates.|
+    ||Additional information about document templates.|
+    ||How to use document templates.|
 
 

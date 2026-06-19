@@ -2,6 +2,7 @@
 title: Using agent feedback to improve your case criticality predictions
 description: By using your agent's feedback to determine how critical a case is, you can improve the machine learning \(ML\) models of the Issue Auto Resolution \(IAR\) application to predict cases more correctly over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/issue-auto-resolution-for-hr/iar-agent-feedback.html
 release: zurich
 product: Issue Auto Resolution for HR
 classification: issue-auto-resolution-for-hr

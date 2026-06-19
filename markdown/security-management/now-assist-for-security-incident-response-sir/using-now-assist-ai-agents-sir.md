@@ -2,6 +2,7 @@
 title: Using agentic AI workflows in Now Assist for Security Incident Response
 description: Use the Security Incident Response AI agentic workflows to complete your tasks autonomously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/now-assist-for-security-incident-response-sir/using-now-assist-ai-agents-sir.html
 release: zurich
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -16,7 +17,7 @@ breadcrumb: [Now Assist for Security Incident Response, Security Operations]
 
 Use the Security Incident Response AI agentic workflows to complete your tasks autonomously.
 
-[Role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://www.servicenow.com/docs/access?context=define-sec-controls-aw&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+Role masking enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
 
 **Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. The default behavior works as follows:
 
@@ -36,8 +37,6 @@ Use the Security Incident Response AI agentic workflows to complete your tasks 
 
     -   The asset was previously turned on, and then turned off again.
     -   An admin has adjusted roles for the asset.
-
-For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
 
 <table id="table_fsq_52h_m2c"><thead><tr><th>
 
@@ -110,10 +109,10 @@ Security incident shift handover AI agent
 </td></tr></tbody>
 </table>**Important:** By default, all agentic workflows and AI agent records are read-only.
 
-To modify an agentic workflow, you must first [duplicate the agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US). If required, you can add a trigger to invoke the workflow automatically.
+To modify an agentic workflow, you must first duplicate the agentic workflow. If required, you can add a trigger to invoke the workflow automatically.
 
 Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 

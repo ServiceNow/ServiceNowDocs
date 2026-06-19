@@ -2,6 +2,7 @@
 title: Parameters of MID Server distributed cluster
 description: The following MID Server parameters support the MID Server Distributed cluster type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/opsintelgnc-mid-server-param.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -15,7 +16,7 @@ breadcrumb: [Agent Client Collector Monitoring reference, Agent Client Collector
 
 The following MID Server parameters support the MID Server Distributed cluster type.
 
-You can access these parameters in the **Configuration Parameters** related list of a MID Server. To add and set any of these parameter, see [Add a MID Server parameter](https://www.servicenow.com/docs/access?context=mid-server-parameters&version=zurich&pubname=zurich-servicenow-platform&section=t_SetMIDServerParameters&ft:locale=en-US).
+You can access these parameters in the **Configuration Parameters** related list of a MID Server. To add and set any of these parameter, see Add a MID Server parameter.
 
 <table id="table_psp_b3r_mbb"><thead><tr><th>
 
@@ -72,5 +73,5 @@ The amount of off heap memory used by Metric Intelligence to process data series
 -   **Default value**: 4096
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Monitoring reference](../../agent-client-collector/reference/acc-monitoring-reference.md)
+</table>**Parent Topic:**[Agent Client Collector Monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-monitoring-reference.md)
 

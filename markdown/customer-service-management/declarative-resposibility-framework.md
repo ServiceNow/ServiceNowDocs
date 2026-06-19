@@ -2,7 +2,10 @@
 title: Configure access through the responsibility access configuration
 description: Streamline how you create and update your responsibility definitions and access configurations by using the declarative responsibility framework in the Customer Service Management \(CSM\) application. This framework enables you to select the level of access for each responsibility by leveraging low-code or no-code capabilities, which reduces the time required for scripting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/declarative-resposibility-framework.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -21,7 +24,7 @@ Role required: admin
 
 The Responsibility Access Configuration \[sn\_customerservice\_responsibility\_access\_config\] table is used to store the metadata of the responsibility access configuration. With this configuration, you can enable different levels of access for related party users across different records of the same entity. For example, a user with a location manager role might serve as a fulfiller at one business location and as an agent at another.
 
-For more information about creating a responsibility definition, see [Create a responsibility definition](t_CreateAResponsibilityDefinition.md). The need for domain separation in configuring access records is determined by the domain of the referenced responsibility.
+For more information about creating a responsibility definition, see [Create a responsibility definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_CreateAResponsibilityDefinition.md). The need for domain separation in configuring access records is determined by the domain of the referenced responsibility.
 
 ## Procedure
 

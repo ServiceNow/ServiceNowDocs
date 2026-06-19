@@ -2,13 +2,14 @@
 title: Payloads samples and errors
 description: Use the following sample payloads to enable procurement data import and export.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/payloads-information.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Data source table information, Procurement File Transfer Framework, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Data source table information, Procurement File Transfer Framework, Integrate Sourcing Procurement Operations other, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Payloads samples and errors
@@ -21,12 +22,12 @@ See the following sample payload for importing and exporting procurement records
 
 |Name|Sample payload|
 |----|--------------|
-|Invoice Import|See [Spendint API - POST /sn\_spend\_intg/spendint/invoice](https://www.servicenow.com/docs/access?context=spendint-api&version=zurich&pubname=zurich-api-reference&section=spendint-POST-invoice&ft:locale=en-US)|
-|Catalog Import|See [Spendint API - POST /sn\_spend\_intg/spendint/catalog](https://www.servicenow.com/docs/access?context=spendint-api&version=zurich&pubname=zurich-api-reference&section=spendint-POST-catalog&ft:locale=en-US)|
-|Availability Import|See [Spendint API - POST /sn\_spend\_intg/spendint/availability](https://www.servicenow.com/docs/access?context=spendint-api&version=zurich&pubname=zurich-api-reference&section=spendint-POST-availability&ft:locale=en-US)|
-|Shipment Import|See [Spendint API - POST /sn\_spend\_intg/spendint/shipment](https://www.servicenow.com/docs/access?context=spendint-api&version=zurich&pubname=zurich-api-reference&section=spendint-POST-shipment&ft:locale=en-US)|
-|Order Acknowledgment|See [Spendint API - POST /sn\_spend\_intg/spendint/orderack](https://www.servicenow.com/docs/access?context=spendint-api&version=zurich&pubname=zurich-api-reference&section=spendint-POST-orderack&ft:locale=en-US)|
-|Price Import|See [Spendint API - POST /sn\_spend\_intg/spendint/price](https://www.servicenow.com/docs/access?context=spendint-api&version=zurich&pubname=zurich-api-reference&section=spendint-POST-price&ft:locale=en-US)|
+|Invoice Import|See |
+|Catalog Import|See |
+|Availability Import|See |
+|Shipment Import|See |
+|Order Acknowledgment|See |
+|Price Import|See |
 
 ## Errors
 
@@ -173,5 +174,5 @@ This section describes the following procurement errors:
 }
 ```
 
-**Parent Topic:**[Data source table information](data-sources-info.md)
+**Parent Topic:**[Data source table information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/data-sources-info.md)
 

@@ -2,6 +2,7 @@
 title: The CPQ Reconfigure API
 description: The CPQ Reconfigure API headlessly invokes CPQ services to reconfigure a quote bundle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cpq\_reconfigure\_api.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,7 +26,7 @@ The Runtime Configuration URL must also be set in the Admin Custom Settings page
 
 In Salesforce Setup, go to Security, and then to Remote Site Settings. Add a new remote site with your ServiceNow CPQ domain as the URL.
 
-![Remote sites list](../images/cpq-salesforce-remote-site-settings.png)
+\[Omitted image "cpq-salesforce-remote-site-settings.png"\] Alt text: Remote sites list
 
 **Important:** This API relies on **uniqueIdentifier** to match child lines. If you don't have unique **uniqueIdentifier** values for products, child lines may update incorrectly.
 

@@ -2,6 +2,7 @@
 title: Asynchronous SOAPMessageV2 example
 description: You can send an outbound SOAP message asynchronously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/r\_AsyncronousSOAPMessageV2Example.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -45,5 +46,5 @@ gs.info("Response: " + responseBody);
 gs.info("HTTP Status: " + status);
 ```
 
-**Parent Topic:**[Scripting outbound SOAP](../../../../../integrate/outbound-soap/reference/r_ScriptingOutboundSOAP.md)
+**Parent Topic:**[Scripting outbound SOAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/r_ScriptingOutboundSOAP.md)
 

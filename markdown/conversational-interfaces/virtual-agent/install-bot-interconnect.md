@@ -2,6 +2,7 @@
 title: Install Virtual Agent Bot Interconnect
 description: You can install the Bot Interconnect application if you have the admin role. The application is available from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/install-bot-interconnect.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -41,5 +42,5 @@ Role required: admin
 5.  Select **Install**.
 
 
-**Parent Topic:**[Using Virtual Agent Bot Interconnect in your configuration](../concept/using-sn-va-primary-bot-api.md)
+**Parent Topic:**[Using Virtual Agent Bot Interconnect in your configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/using-sn-va-primary-bot-api.md)
 

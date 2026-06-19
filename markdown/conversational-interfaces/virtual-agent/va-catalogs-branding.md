@@ -2,6 +2,7 @@
 title: Set up catalog branding
 description: Customize the appearance of catalogs in Virtual Agent to match your business' branding.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-catalogs-branding.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -20,7 +21,7 @@ Customize the appearance of catalogs in Virtual Agent to match your business' br
 
 Role required: admin, virtual\_agent\_admin
 
-Download Theme Builder from the ServiceNow Store and activate the plugin \(sn\_theme\_builder\). For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Download Theme Builder from the ServiceNow Store and activate the plugin \(sn\_theme\_builder\). For more information, see .
 
 ## About this task
 
@@ -32,7 +33,7 @@ Virtual Agent uses the Branding Setup \[sys\_cs\_branding\_setup\] table to defi
 
 2.  Create a new theme by providing primary and secondary colors.
 
-    **Note:** You can match your colors to the Chat Header Background and Chat Background colors in the branding record of your choice. For more information creating themes, see [Create a theme with Theme Builder](https://www.servicenow.com/docs/access?context=tb-create-theme&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    **Note:** You can match your colors to the Chat Header Background and Chat Background colors in the branding record of your choice. For more information creating themes, see .
 
 3.  Save your theme.
 
@@ -42,7 +43,7 @@ Virtual Agent uses the Branding Setup \[sys\_cs\_branding\_setup\] table to defi
 
     2.  Select the record for the theme you want to import.
 
-    3.  Under the Additional Actions icon ![Additional actions icon.](../../../product/document-services/image/additional-actions-icon.png), select **Copy sys\_id**.
+    3.  Under the Additional Actions icon \[Omitted image "additional-actions-icon.png"\] Alt text: Additional actions icon., select **Copy sys\_id**.
 
     4.  Navigate to **All** &gt; **Service Portal** &gt; **Agent Chat**.
 
@@ -84,7 +85,7 @@ Virtual Agent uses the Branding Setup \[sys\_cs\_branding\_setup\] table to defi
 
 11. Under the **Component styles** tab, select **Edit**.
 
-    ![Update the color hex codes in Theme Builder to match your branding colors.](../images/catalog-branding-02.png)
+    \[Omitted image "catalog-branding-02.png"\] Alt text: Update the color hex codes in Theme Builder to match your branding colors.
 
 12. Select one of the elements needing branding found in Step 8.
 
@@ -97,5 +98,5 @@ Virtual Agent uses the Branding Setup \[sys\_cs\_branding\_setup\] table to defi
 
 Catalog color themes now match your branding.
 
-**Parent Topic:**[Using catalogs and autopilot in Virtual Agent](../concept/va-catalogs.md)
+**Parent Topic:**[Using catalogs and autopilot in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-catalogs.md)
 

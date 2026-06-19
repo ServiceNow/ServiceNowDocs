@@ -2,6 +2,7 @@
 title: Playbook for remedial actions in incident investigation with DEX
 description: The Playbook Experience displays current and past remedial actions executed from different sources. You can manage actions run from the Suggested resolutions or Action library within a DEX incident investigation page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/playbook-remedial-actions.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -30,5 +31,5 @@ You can monitor current and past remedial actions and cancel ongoing actions run
 -   Current actions: Actions with the status of New or In Progress.
 -   Past actions: Actions with the status of Completed, Canceled, or Failed.
 
-For more information, see [Manage remedial actions in DEX incident investigation Playbook](../task/manage-incident-remedial-actions-playbook.md).
+For more information, see [Manage remedial actions in DEX incident investigation Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/manage-incident-remedial-actions-playbook.md).
 

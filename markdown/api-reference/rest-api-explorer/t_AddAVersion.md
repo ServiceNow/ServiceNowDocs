@@ -2,6 +2,7 @@
 title: Add a version to a scripted REST API
 description: Add a new version to a versioned scripted REST API to define new API behavior without impacting older versions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-api-explorer/t\_AddAVersion.html
 release: zurich
 product: REST API Explorer
 classification: rest-api-explorer
@@ -38,5 +39,5 @@ Role required: web\_service\_admin
 6.  Click **OK**.
 
 
-**Parent Topic:**[Enable versioning for a scripted REST API](t_EnableVersioning.md)
+**Parent Topic:**[Enable versioning for a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/t_EnableVersioning.md)
 

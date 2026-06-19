@@ -2,6 +2,7 @@
 title: Install Investment Funding
 description: You can install the Investment Funding application \(sn\_invst\_pln\_v2\) from ServiceNow Store if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/investment-funding/activate-investment-funding.html
 release: zurich
 product: Investment Funding
 classification: investment-funding
@@ -74,7 +75,7 @@ Enables task entities.
 
 2.  Find the Investment Funding application using the filter criteria and search bar.
 
-    You can search for the application by its name or ID \(sn\_invst\_pln\_v2\). If you cannot find an application, you may have to request it from ServiceNow store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release note information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    You can search for the application by its name or ID \(sn\_invst\_pln\_v2\). If you cannot find an application, you may have to request it from ServiceNow store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release note information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Click **Install**.
 
@@ -94,10 +95,10 @@ The following components are installed with installation of the Investment Fundi
 -   Roles
 -   Tables
 
-See [Components installed with Investment Funding](../reference/installed-with-investment-funding.md) for more information.
+See [Components installed with Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/installed-with-investment-funding.md) for more information.
 
--   **[Components installed with Investment Funding](../reference/installed-with-investment-funding.md)**  
+-   **[Components installed with Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/installed-with-investment-funding.md)**  
 Several types of components are installed with activation of the Investment Funding \(sn\_invst\_pln\) plugin, including tables and user roles.
 
-**Parent Topic:**[Investment Funding](../concept/investment-funding-overview.md)
+**Parent Topic:**[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/investment-funding-overview.md)
 

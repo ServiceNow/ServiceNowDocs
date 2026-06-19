@@ -2,6 +2,7 @@
 title: Confidence score calculation for hardware vulnerability assessment
 description: Confidence Score is displayed for partially matched assessments, vulnerable items \(VITs\), and ignored assessments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-workspace/otvr-hva-confidence-score-sample.html
 release: zurich
 product: Industrial Workspace
 classification: industrial-workspace
@@ -26,11 +27,11 @@ The Confidence Score varies for the following assessments:
 
 Following is an example of calculating the confidence score from the Common Platform Enumeration \(CPE\) information available for an OT device.
 
-The following is a sample of a vulnerability assessment record, **CVE-2019-13946**: ![Screenshot displaying a CVE vulnerability for the OT device, named OT_device_demo_internal_963.](../image/hva-confidence-score-example.png)
+The following is a sample of a vulnerability assessment record, **CVE-2019-13946**: \[Omitted image "hva-confidence-score-example.png"\] Alt text: Screenshot displaying a CVE vulnerability for the OT device, named OT\_device\_demo\_internal\_963.
 
-The following is a sample of information available in CPE Firmware mapped to the OT device, **OT\_device\_demo\_internal\_963**:![Screenshot displaying the CPE Firmware information available in the OT device, named OT_device_demo_internal_963.](../image/hva-cpe-firmware-info-example.png)
+The following is a sample of information available in CPE Firmware mapped to the OT device, **OT\_device\_demo\_internal\_963**:\[Omitted image "hva-cpe-firmware-info-example.png"\] Alt text: Screenshot displaying the CPE Firmware information available in the OT device, named OT\_device\_demo\_internal\_963.
 
-The following is a sample of the information available in discovery model for the OT device, **OT\_device\_demo\_internal\_963**:![Screenshot displaying the device discovery model information available in the OT device, named OT_device_demo_internal_963.](../image/hva-discovered-model-cpe-example.png)
+The following is a sample of the information available in discovery model for the OT device, **OT\_device\_demo\_internal\_963**:\[Omitted image "hva-discovered-model-cpe-example.png"\] Alt text: Screenshot displaying the device discovery model information available in the OT device, named OT\_device\_demo\_internal\_963.
 
 ## How to calculate the confidence score
 
@@ -63,7 +64,7 @@ The confidence score range is 0–1. Based on the CPE information, the confidenc
 .70
 ```
 
-**Note:** To refer to the values used to calculate the confidence score, see [Confidence score reference tables for hardware vulnerability assessment](otvr-hva-confidence-score-ref.md).
+**Note:** To refer to the values used to calculate the confidence score, see [Confidence score reference tables for hardware vulnerability assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/otvr-hva-confidence-score-ref.md).
 
-**Parent Topic:**[Operational Technology Hardware Vulnerability Assessment](../concept/understanding-hwd-vuln-assessment.md)
+**Parent Topic:**[Operational Technology Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/understanding-hwd-vuln-assessment.md)
 

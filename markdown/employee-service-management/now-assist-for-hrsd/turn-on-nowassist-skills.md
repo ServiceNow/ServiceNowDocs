@@ -2,6 +2,7 @@
 title: Activate the associated Now Assist skills
 description: Enable the Now Assist skills to allow the system to analyze interview notes and job descriptions, extract keywords, and identify relevant skills. This improves skill gap analysis and ensures accurate, personalized ramp-up plans for new employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-hrsd/turn-on-nowassist-skills.html
 release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -17,7 +18,7 @@ Enable the Now Assist skills to allow the system to analyze interview notes and 
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_hr\_gen\_ai.admin
 
 ## Procedure
 

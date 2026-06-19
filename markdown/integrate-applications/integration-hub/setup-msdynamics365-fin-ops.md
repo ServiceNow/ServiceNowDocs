@@ -2,6 +2,7 @@
 title: Set up the Microsoft Dynamics 365 for Finance and Operations spoke
 description: Integrate the ServiceNow instance and Microsoft Dynamics 365 for Finance and Operations by creating a custom OAuth application in Microsoft Azure to authenticate ServiceNow requests.Register Microsoft Dynamics 365 for Finance and Operations as the OAuth provider so that the ServiceNow instance can request OAuth 2.0 tokens.Modify the short description to provide spoke specific information.Create a connection record for your Microsoft Dynamics 365 for Finance and Operations. The Microsoft Dynamics 365 for Finance and Operations spoke connection and credential aliases use these connections to perform actions in Microsoft Dynamics 365 for Finance and Operations.Retrieve the metadata from Microsoft Dynamics 365 Finance and Operations and store it in your ServiceNow instance. Dynamic actions require the latest metadata from Microsoft Dynamics 365 Finance and Operations.Configure webhook to subscribe to Microsoft Dynamics 365 for Finance and Operations Spoke with a ServiceNow callback URL.Create webhook routing policy and subflow as per your requirement in the Microsoft Dynamics 365 Finance and Operations spoke.Register your ServiceNow instance in Microsoft Azure portal in order to use Microsoft Dynamics 365 Finance and Operations spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/setup-msdynamics365-fin-ops.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
@@ -347,7 +348,7 @@ Condition
 
 </td><td>
 
-Conditions to be met when the required events occur in Microsoft Dynamics 365 Finance and Operations. See [Microsoft Dynamics 365 for Finance and Operations Spoke](../concept/msdyn-finops-spoke.md) for information about the supported fields.
+Conditions to be met when the required events occur in Microsoft Dynamics 365 Finance and Operations. See [Microsoft Dynamics 365 for Finance and Operations Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/msdyn-finops-spoke.md) for information about the supported fields.
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: Remediate issues using the Compliance Workspace
 description: After an issue has been identified, triaged, and investigated using the Compliance Workspace, you can remediate it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/remediate-issue-ws.html
 release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

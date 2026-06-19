@@ -2,6 +2,7 @@
 title: Manage controls
 description: Learn how to rationalize, and consolidate controls to build an effective control framework when deploying your GRC application. Use entity-based access to manage control visibility, and ensure all controls are properly mapped to entities to maintain audit reliability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/c\_GRCControls.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -25,15 +26,13 @@ Controls are specific implementations of control objectives. Before uploading or
 -   Is there a control that you can put in place that reduces process overhead and improves IT performance while also mitigating risk?
 -   Can a complicated control be replaced with a simpler more effective control?
 
-**Note:** When you define controls manually or when you import them from the Unified Compliance Framework \(UCF\), an entity is associated with the controls. It is a mandatory field on the Control form. If, however, you import controls from a source other than the UCF, you may encounter controls that do not have associated entities. It is important that you return to the Control form and [add an entity to the control](../task/t_CreateAControl.md). Missing entities can cause unreliable results in calculations. Also, if you encounter a control with an entity that has been disabled, the control should be retired.
+**Note:** When you define controls manually or when you import them from the Unified Compliance Framework \(UCF\), an entity is associated with the controls. It is a mandatory field on the Control form. If, however, you import controls from a source other than the UCF, you may encounter controls that do not have associated entities. It is important that you return to the Control form and [add an entity to the control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/t_CreateAControl.md). Missing entities can cause unreliable results in calculations. Also, if you encounter a control with an entity that has been disabled, the control should be retired.
 
 ## Consolidate your controls
 
 Look for opportunities to consolidate controls. For example, you can look for common, repeated controls across multiple regulatory authorities of frameworks \(such as SOX,GLBA, and AML\). Avoid operating a single control multiple times for each regulation by cross-mapping controls and eliminating the redundant ones. This process establishes a single consolidated control framework. Performing and preserving the cross mapping of controls is critical for audits.
 
 The following diagram shows how industry regulations \(financial, insurance, energy and utilities, and healthcare and pharmaceuticals\) and requirements can overlap.
-
-![Industry regulations and requirements overlap.](../../grc-common/image/industry-regulations.png "Industry regulations and requirements overlap")
 
 ## Define controls and business rules
 
@@ -57,7 +56,7 @@ The Attestation at control requirement level feature allows attestation at a gra
 
 ## Entity Based Access \(EBA\)
 
-EBA provides a framework for a more granular approach to managing data access to objects that are associated with an entity. Administrators can grant access to an entity's related records by adding users or user groups or by using entity user fields for entity-based access configuration. For more information, see [Entity Based Access](../../grc-common/concept/entity-based-access.md).
+EBA provides a framework for a more granular approach to managing data access to objects that are associated with an entity. Administrators can grant access to an entity's related records by adding users or user groups or by using entity user fields for entity-based access configuration. For more information, see [Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/entity-based-access.md).
 
 When a user is qualified based on these configurations and has the minimum required roles, they will have access to the following tables:
 
@@ -69,5 +68,5 @@ When a user is qualified based on these configurations and has the minimum requi
 
 When entity based record access rules are enabled on the Entity Based Access Configuration Properties page, any new controls, control attestations, indicators, and indicator tasks associated with a configured entity automatically inherit the entity-based access \(EBA\) value from that entity. Previously, users had to run bulk access updates to apply EBA restrictions whenever new objects were created.
 
-For more information, see [Entity based record access rules to secure new records](../../grc-common/concept/continuous-monitoring-of-entity-based-access.md).
+For more information, see [Entity based record access rules to secure new records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/continuous-monitoring-of-entity-based-access.md).
 

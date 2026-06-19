@@ -2,6 +2,7 @@
 title: AWA group queue priorities
 description: Use the group queue priority feature to set a queue or work item preference for a given group of agents. For a given group or agent with limited capacity, this feature controls which queues should be preferred if matching work items are found in both.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/awa-group-queue-priorities.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -152,5 +153,5 @@ Outcome
 -   Agent 1 gets the last two items from Queue C
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Advanced Work Assignment](awa-overview.md)
+</table>**Parent Topic:**[Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-overview.md)
 

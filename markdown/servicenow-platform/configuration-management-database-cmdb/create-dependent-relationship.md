@@ -2,6 +2,7 @@
 title: Create dependent relationship rules
 description: Create hosting and containment rules \(dependent relationship rules\) for CI classes to help with correctly identifying dependent CIs during the business discovery process and service mapping. Discovery calls the identification API that applies dependent relationship rules.Use the CI Class Manager to create a basic dependent relationship rule \(hosting or containment relationship rule\) for a CMDB class.Create containment rule for CIs to help with correctly identifying dependent CIs during the business discovery process and service mapping. Discovery calls the identification API that applies dependent relationship rules.Create hosting rule for CIs to assist in correctly identifying dependent CIs during the business discovery process and service mapping. Discovery calls the identification API that applies dependent relationship rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/create-dependent-relationship.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -18,7 +19,7 @@ Create hosting and containment rules \(dependent relationship rules\) for CI cla
 
 You can create a basic hosting or containment rule in the CI Class Manager. Or, use the Metadata Editor to create groups of hosting and containment rules, and inbound or outbound endpoints in containment rules. The CI Class Manager and the Metadata Editor are synchronized, and you can use each of those tools to display and edit a dependent rule.
 
-**Parent Topic:**[CMDB dependent relationship rules](c_ServiceRulesMetadata.md)
+**Parent Topic:**[CMDB dependent relationship rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_ServiceRulesMetadata.md)
 
 ## Create a dependent relationship rule for a CMDB class
 
@@ -30,7 +31,7 @@ Role required: itil has read access, itil\_admin \(on top of itil\) has full acc
 
 ### About this task
 
-The class for which you create dependent relationship rule, must have a [dependent identification rule](c_IdentificationRules.md).
+The class for which you create dependent relationship rule, must have a [dependent identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_IdentificationRules.md).
 
 ### Procedure
 
@@ -58,7 +59,7 @@ The class for which you create dependent relationship rule, must have a [depende
 
 You can click **Reset to derived** and then confirm the operation to delete all dependent relationship rules that were added specifically for the selected class. Only dependent relationships that are derived from a parent class, remain.
 
-For more information about child and parent classes, see [Table extension and classes](https://www.servicenow.com/docs/access?context=table-extension-and-classes&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For more information about child and parent classes, see .
 
 ## Create or edit a collection of containment rules
 

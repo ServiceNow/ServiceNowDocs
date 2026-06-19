@@ -2,6 +2,7 @@
 title: Manage the access for your third-party contacts
 description: View your existing third-party contacts and adjust their information and access permissions as needed by using Third-party Risk Management. When you keep the contact details up to date, you can help to avoid your third-party contacts from getting unauthorized access or losing authorized access to the third-party portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-manage-tp-contact.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -33,19 +34,19 @@ Your third-party contacts are external users at the third-party organization. Th
 
 2.  Select the third party that you want to view the list of associated contacts for and then select the third-party contact.
 
-    ![Third-party contact's information and the relevant buttons, options, and related link locations on the form. For a description of each action, refer to the steps that follow.](../image/tprm-manage-tp-contact.png)
+    \[Omitted image "tprm-manage-tp-contact.png"\] Alt text: Third-party contact's information and the relevant buttons, options, and related link locations on the form. For a description of each action, refer to the steps that follow.
 
 3.  Manage the access to the portal for your third-party contacts.
 
-<table id="choicetable_x4v_zdv_2bc"><thead><tr><th align="left" id="d77728e103">
+<table id="choicetable_x4v_zdv_2bc"><thead><tr><th align="left" id="d79871e103">
 
 Option
 
-</th><th align="left" id="d77728e106">
+</th><th align="left" id="d79871e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d77728e112">
+</th></tr></thead><tbody><tr><td id="d79871e112">
 
 **Deactivate the account**
 
@@ -55,7 +56,7 @@ Deactivate the account by clearing the **Active** check box.
 
  After you deactivate the account, the third-party contact can't log in or appear in the list of associated contacts.
 
-</td></tr><tr><td id="d77728e130">
+</td></tr><tr><td id="d79871e130">
 
 **Resend Invite**
 
@@ -65,7 +66,7 @@ Resend an email invitation for accessing the third-party contact portal by selec
 
  The email contains a link to the third-party portal and login credentials.
 
-</td></tr><tr><td id="d77728e148">
+</td></tr><tr><td id="d79871e148">
 
 **Delete Contact**
 
@@ -73,7 +74,7 @@ Resend an email invitation for accessing the third-party contact portal by selec
 
 Remove the snc\_external role from the third-party contact and deactivate the third-party contact by selecting the **Delete Contact** related link.
 
-</td></tr><tr><td id="d77728e160">
+</td></tr><tr><td id="d79871e160">
 
 **Locked out**
 
@@ -83,7 +84,7 @@ Lock out the third-party contact by selecting the **Locked out** option.
 
  After you lock out the third-party contact, that person can't log in anymore. This option enables the third-party contact to lose access while still being active. This action can be useful as a precautionary measure while the third-party contact's password is being reset.
 
-</td></tr><tr><td id="d77728e179">
+</td></tr><tr><td id="d79871e179">
 
 **Set password**
 
@@ -91,7 +92,7 @@ Lock out the third-party contact by selecting the **Locked out** option.
 
 Generate a new password and send it to the third-party contact by selecting **Set Password**.
 
-</td></tr><tr><td id="d77728e191">
+</td></tr><tr><td id="d79871e191">
 
 **Reset a password**
 
@@ -104,6 +105,6 @@ Send an email with a link for resetting a third-party contact's password by sele
 </td></tr></tbody>
 </table>4.  Select **Update**.
 
-    **Note:** For more information on setting up third-party contacts, see [Set up third-party contacts](../../grc-vendor-risk-implementation/task/tprm-tp-contact-config.md) and [Enable email with third-party contacts](../../grc-vendor-risk-implementation/task/set_sys_props_for_email.md).
+    **Note:** For more information on setting up third-party contacts, see [Set up third-party contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-tp-contact-config.md) and [Enable email with third-party contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/set_sys_props_for_email.md).
 
 

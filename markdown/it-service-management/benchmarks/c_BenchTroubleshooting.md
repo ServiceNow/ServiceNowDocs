@@ -2,6 +2,7 @@
 title: Troubleshooting Benchmarks errors
 description: Troubleshoot and resolve common errors when setting up or running Benchmarks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/benchmarks/c\_BenchTroubleshooting.html
 release: zurich
 product: Benchmarks
 classification: benchmarks

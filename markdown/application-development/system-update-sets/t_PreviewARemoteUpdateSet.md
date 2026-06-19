@@ -2,6 +2,7 @@
 title: Preview a remote update set
 description: Previewing compares an update set retrieved from a remote instance to updates on the local instance to detect potential problems. You must preview an update set and address all problems before you can commit the update set.The process of previewing an update set creates a preview record for each update. You can review the preview records to make sure that the correct updates are being committed.Preview an update set to detect and resolve problems that may occur if you commit the updates on the local instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/system-update-sets/t\_PreviewARemoteUpdateSet.html
 release: zurich
 product: System Update Sets
 classification: system-update-sets
@@ -49,7 +50,7 @@ Role required: admin
     3.  Review the **Update Set Preview Problems** related list to confirm that the correct updates are being committed.
 
 
-**Parent Topic:**[Update set transfers](../reference/update-set-transfers.md)
+**Parent Topic:**[Update set transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/update-set-transfers.md)
 
 ## Review a preview record for an update set
 
@@ -193,7 +194,7 @@ Role required: admin.
 
         Resolution: Compare the conflicting update sets and determine which version to use. Select the row for that set and select **Accept this collision.** otherwise, select **Compare Collisions** to compare the conflicting update sets.
 
-        ![Compare two Updates form](../image/UpdateSetCompare.png "Compare two Updates")
+        \[Omitted image "UpdateSetCompare.png"\] Alt text: Compare two Updates form
 
         From this screen, you can compare any two of the conflicting update sets and choose the update set to commit.
 

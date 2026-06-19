@@ -2,6 +2,7 @@
 title: Install and configure the Service Graph Connector for Microsoft SCCM and the Microsoft Defender Mitigation Control Integration
 description: The Service Graph Connector for SCCM and the Microsoft Defender Mitigation Control Integration require separate configuration steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/spc-install-config-sccm-defender.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -119,6 +120,6 @@ Roles required:
 
 11. Select **Done**.
 
-    The configuration page should look like the screen in the following image.![SPC API Integrations page after successful configuration of Microsoft SCCM](../image/spc-api-integration-sccm.png)
+    The configuration page should look like the screen in the following image.\[Omitted image "spc-api-integration-sccm.png"\] Alt text: SPC API Integrations page after successful configuration of Microsoft SCCM
 
 

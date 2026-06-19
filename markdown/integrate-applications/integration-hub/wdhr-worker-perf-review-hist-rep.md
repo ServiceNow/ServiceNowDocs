@@ -2,6 +2,7 @@
 title: Workday configuration for workers performance review historical data report
 description: Retrieve the workers historical performance review information by creating the workers performance review historical data report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/wdhr-worker-perf-review-hist-rep.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
@@ -32,43 +33,43 @@ Create all calculated fields so that these fields can be used while developing r
 
 -   Calculated field 1: Create Aggregate Related Instances type calculated field named **CF\_Competencies\_all**
 
-    ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-1.png)
+    \[Omitted image "wdhr-worker-perf-review-hist-rep-1.png"\] Alt text: Workday HR spoke.
 
     .
 
 -   Calculated field 2: Create Aggregate Related Instances type calculated field named **CF Content Evaluation - Accomplishments all**
 
-    ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-2.png)
+    \[Omitted image "wdhr-worker-perf-review-hist-rep-2.png"\] Alt text: Workday HR spoke.
 
     .
 
 -   Calculated field 3: Create Aggregate Related Instances type calculated field named **CF\_Content Evaluation - Areas for Development all**
 
-    ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-3.png)
+    \[Omitted image "wdhr-worker-perf-review-hist-rep-3.png"\] Alt text: Workday HR spoke.
 
     .
 
 -   Calculated field 4: Create Aggregate Related Instances type calculated field named **CF\_Content Evaluation - Career Interests all**
 
-    ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-4.png)
+    \[Omitted image "wdhr-worker-perf-review-hist-rep-4.png"\] Alt text: Workday HR spoke.
 
     .
 
 -   Calculated field 5: Create Aggregate Related Instances type calculated field named **CF\_Content Evaluation - Goals all**
 
-    ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-5.png)
+    \[Omitted image "wdhr-worker-perf-review-hist-rep-5.png"\] Alt text: Workday HR spoke.
 
     .
 
 -   Calculated field 6: Create Aggregate Related Instances type calculated field named **CF\_Content Evaluation - Responsibilities all**
 
-    ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-6.png)
+    \[Omitted image "wdhr-worker-perf-review-hist-rep-6.png"\] Alt text: Workday HR spoke.
 
     .
 
 -   Calculated field 7: Create True False condition type calculated field named **CF\_evaluated by manager**
 
-    ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-7.png)
+    \[Omitted image "wdhr-worker-perf-review-hist-rep-7.png"\] Alt text: Workday HR spoke.
 
     .
 
@@ -87,73 +88,73 @@ Create all calculated fields so that these fields can be used while developing r
 
 6.  Do not select the **Temporary report** option and click **OK**.
 
-    ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-8.png)
+    \[Omitted image "wdhr-worker-perf-review-hist-rep-8.png"\] Alt text: Workday HR spoke.
 
 7.  Select the report business object and report fields.
 
-    ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-9.png)
+    \[Omitted image "wdhr-worker-perf-review-hist-rep-9.png"\] Alt text: Workday HR spoke.
 
-    ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-10.png)Workday HR spoke.
+    \[Omitted image "wdhr-worker-perf-review-hist-rep-10.png"\] Alt text: Workday HR spoke.Workday HR spoke.
 
-    ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-11.png)
+    \[Omitted image "wdhr-worker-perf-review-hist-rep-11.png"\] Alt text: Workday HR spoke.
 
-    ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-12.png)
+    \[Omitted image "wdhr-worker-perf-review-hist-rep-12.png"\] Alt text: Workday HR spoke.
 
 8.  In **Group Column Heading** section, select all business object as below.
 
-    ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-13.png)**Group Column Heading** for each business object will be blank.
+    \[Omitted image "wdhr-worker-perf-review-hist-rep-13.png"\] Alt text: Workday HR spoke.**Group Column Heading** for each business object will be blank.
 
 9.  In **Sort** section, select the value as shown below.
 
-    ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-14.png)
+    \[Omitted image "wdhr-worker-perf-review-hist-rep-14.png"\] Alt text: Workday HR spoke.
 
 10. In **Sort** section, under **Sub level sort**, select the value as shown below.
 
-    ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-15.png)
+    \[Omitted image "wdhr-worker-perf-review-hist-rep-15.png"\] Alt text: Workday HR spoke.
 
-    ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-16.png)
+    \[Omitted image "wdhr-worker-perf-review-hist-rep-16.png"\] Alt text: Workday HR spoke.
 
-    ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-17.png)
+    \[Omitted image "wdhr-worker-perf-review-hist-rep-17.png"\] Alt text: Workday HR spoke.
 
-    ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-18.png)
+    \[Omitted image "wdhr-worker-perf-review-hist-rep-18.png"\] Alt text: Workday HR spoke.
 
 11. In **Filter** section, select the value as given below.
 
-    Ensure to add parenthesis. ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-19.png)
+    Ensure to add parenthesis. \[Omitted image "wdhr-worker-perf-review-hist-rep-19.png"\] Alt text: Workday HR spoke.
 
 12. In **Sub-Filter** section, select the value as given below.
 
     Ensure to add parenthesis.
 
-    ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-20.png)
+    \[Omitted image "wdhr-worker-perf-review-hist-rep-20.png"\] Alt text: Workday HR spoke.
 
-    ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-21.png)
+    \[Omitted image "wdhr-worker-perf-review-hist-rep-21.png"\] Alt text: Workday HR spoke.
 
-    ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-22.png)
+    \[Omitted image "wdhr-worker-perf-review-hist-rep-22.png"\] Alt text: Workday HR spoke.
 
 13. In **Prompts** section, select the **Populate Undefined Prompt Defaults** option.
 
-    ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-23.png)
+    \[Omitted image "wdhr-worker-perf-review-hist-rep-23.png"\] Alt text: Workday HR spoke.
 
 14. Select the value of prompts as given below under Prompt default section.
 
     Make sure the **Label For Prompt XML Alias** of all prompt fields must be same.
 
-    ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-24.png)
+    \[Omitted image "wdhr-worker-perf-review-hist-rep-24.png"\] Alt text: Workday HR spoke.
 
 15. In **Advanced** section, select **Enable as webservice** option and click **OK**.
 
 16. Click on three dots icon and navigate to **Web Services** &gt; **View URLs** option once report configuration is done.
 
-    ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-25.png)
+    \[Omitted image "wdhr-worker-perf-review-hist-rep-25.png"\] Alt text: Workday HR spoke.
 
 17. Select the **Organization** for which you want to run this report and select the option if you want to include subordinate organization and managers.
 
-    ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-26.png)
+    \[Omitted image "wdhr-worker-perf-review-hist-rep-26.png"\] Alt text: Workday HR spoke.
 
 18. In View URLs Web Service page, click the marked icon under the **CSV** section.
 
-    ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-27.png)
+    \[Omitted image "wdhr-worker-perf-review-hist-rep-27.png"\] Alt text: Workday HR spoke.
 
     A new browser tab is opened.
 
@@ -163,7 +164,7 @@ Create all calculated fields so that these fields can be used while developing r
     -   **Tenant\_Name** is the customer's workday tenant.
     -   **Report\_Owner\_user\_name** represents user name of the report's owner.
     -   **Report\_Name** is the report name.
-    ![Workday HR spoke.](../image/wdhr-worker-perf-review-hist-rep-28.png)
+    \[Omitted image "wdhr-worker-perf-review-hist-rep-28.png"\] Alt text: Workday HR spoke.
 
     **Note:** Each section in the report \(such as competencies and goals\) is independent, but these sections will be grouped together to assess a specific worker's performance. For example, to retrieve Worker A's performance review information for the year 2023, it is necessary to examine all records from each section where the assessment date falls within the 2023 review period.
 

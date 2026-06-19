@@ -2,6 +2,7 @@
 title: Schematic of a hypothetical approval process
 description: In the diagram below of a hypothetical approval process, the gating approval is color coded blue and an in-process approval is orange.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/approvals/c\_SchematicOfAHypoApprovalProc.html
 release: zurich
 product: Approvals
 classification: approvals
@@ -15,5 +16,5 @@ breadcrumb: [Approval rules, Classic approvals, Build workflows]
 
 In the diagram below of a hypothetical approval process, the gating approval is color coded blue and an in-process approval is orange.
 
-![Approval process diagram](../image/ApprovalChart.png "Approval process")
+\[Omitted image "ApprovalChart.png"\] Alt text: Approval process diagram
 

@@ -2,6 +2,7 @@
 title: Using value templates
 description: Use value templates to define, calculate, and track the value delivered by your AI systems and models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/using-value-templates.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
@@ -67,16 +68,16 @@ ServiceNow AI use case
 Daily AI use case invocations \(Usage\) x average time per invocation \(Time\) x 50% \(Acceptance rate\)
 
 </td></tr></tbody>
-</table>-   **[Create a new value template](../task/create-new-value-template.md)**  
+</table>-   **[Create a new value template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-new-value-template.md)**  
 Add a value template to define, calculate, and track the value delivered by an AI asset.
--   **[Edit a value template](../task/edit-value-template.md)**  
+-   **[Edit a value template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/edit-value-template.md)**  
 Edit a value template to update how value is calculated for AI assets.
--   **[Create a new value template mapping](../task/create-value-template-mapping.md)**  
+-   **[Create a new value template mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-value-template-mapping.md)**  
 Create a value template mapping for an AI asset to standardize the usage of templates.
--   **[Assign a default template](../task/assign-default-template.md)**  
+-   **[Assign a default template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/assign-default-template.md)**  
 Assign a template as default to an AI system.
--   **[Review a value template mapping](../task/review-value-template-mapping.md)**  
+-   **[Review a value template mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/review-value-template-mapping.md)**  
 Review and approve value template mapping for an AI asset.
 
-**Parent Topic:**[Using AI Control Tower](using-ai-control-tower.md)
+**Parent Topic:**[Using AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
 

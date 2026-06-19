@@ -2,6 +2,7 @@
 title: Risk Identification Overview dashboard
 description: The risk identification dashboard is useful for risk managers and helps them to keep a track of various records or objects which are in transit in the risk identification workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/risk-identification-overview-dashboard.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -17,7 +18,7 @@ The risk identification dashboard is useful for risk managers and helps them to 
 
 This dashboard offers various insights for the users. These insights enable risk managers to decide the required action and helps them to prioritize the risk identification records that need attention. For example, if there are questionnaires past their due date, the risk managers may want to follow up with the person who was assigned the questionnaire.
 
-![Risk Identification Overview dashboard for risk managers.](../image/risk-identi-overview.png "Risk Identification Overview")
+\[Omitted image "risk-identi-overview.png"\] Alt text: Risk Identification Overview dashboard for risk managers.
 
 **Important:** Starting with version 18.1.0 of the Risk Management and Advanced Risk applications, the Risk Identification Overview dashboard is available in the Next Experience UI Framework.
 
@@ -25,7 +26,7 @@ If you are on Vancouver or Washington DC, you can view the dashboard in the Next
 
 To open the dashboard, navigate to **All** &gt; **Advanced Risk Assessment** &gt; **Risk Identification** &gt; **Analytics Overview**.
 
-![Risk Identification Overview in the Next Experience.](../../../use/dashboards/image/risk-identification-overview-dashboard-nextgen.jpg "Risk Identification Overview in the Next Experience")
+\[Omitted image "risk-identification-overview-dashboard-nextgen.jpg"\] Alt text: Risk Identification Overview in the Next Experience.
 
 ## Reports
 
@@ -49,7 +50,7 @@ New Entities
 
 </td><td>
 
-Single score![Single score icon.](../../../use/reporting/image/icon-single-score-report.png)
+Single score\[Omitted image "icon-single-score-report.png"\] Alt text: Single score icon.
 
 </td><td>
 
@@ -61,7 +62,7 @@ Questionnaires Past Due Date
 
 </td><td>
 
-Single score![Single score icon.](../../../use/reporting/image/icon-single-score-report.png)
+Single score\[Omitted image "icon-single-score-report.png"\] Alt text: Single score icon.
 
 </td><td>
 
@@ -73,7 +74,7 @@ Orphan New Entities
 
 </td><td>
 
-Single score![Single score icon.](../../../use/reporting/image/icon-single-score-report.png)
+Single score\[Omitted image "icon-single-score-report.png"\] Alt text: Single score icon.
 
 </td><td>
 
@@ -85,7 +86,7 @@ Risk Identifications by State
 
 </td><td>
 
-Horizontal bar![Horizontal bar icon.](../../../use/reporting/image/icon-horizontal-bar-report.png)
+Horizontal bar\[Omitted image "icon-horizontal-bar-report.png"\] Alt text: Horizontal bar icon.
 
 </td><td>
 
@@ -103,7 +104,7 @@ Entities by Inherent Risk
 
 </td><td>
 
-Pie chart![Pie chart icon.](../../../use/reporting/image/icon-pie-report.png)
+Pie chart\[Omitted image "icon-pie-report.png"\] Alt text: Pie chart icon.
 
 </td><td>
 
@@ -115,7 +116,7 @@ Inherent Assessments by Due Date
 
 </td><td>
 
-Bar graph![Bar graph icon.](../../../use/reporting/image/icon-bar-report.png)
+Bar graph\[Omitted image "icon-bar-report.png"\] Alt text: Bar graph icon.
 
 </td><td>
 
@@ -127,12 +128,12 @@ Questionnaires by Due Date
 
 </td><td>
 
-Bar graph![Bar graph icon.](../../../use/reporting/image/icon-bar-report.png)
+Bar graph\[Omitted image "icon-bar-report.png"\] Alt text: Bar graph icon.
 
 </td><td>
 
 The number of upcoming questionnaires assigned to a user based on the due dates. This is a weekly report.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Analytics and reporting solutions for Risk Management](../../../use/dashboards/application-content-packs/grc-risk-mgmt-content-pack.md)
+</table>**Parent Topic:**[Analytics and reporting solutions for Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/grc-risk-mgmt-content-pack.md)
 

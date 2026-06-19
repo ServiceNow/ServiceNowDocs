@@ -2,6 +2,7 @@
 title: Prepare a subflow
 description: Review the process of preparing a subflow for use in a parent workflow, and for preparing the parent workflow to use a subflow.After you create a subflow, use this procedure to prepare the parent workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/legacy-workflow/t\_PrepareASubflow.html
 release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
@@ -21,7 +22,7 @@ Review the process of preparing a subflow for use in a parent workflow, and for 
 
 2.  In the title bar, click the menu icon and select **Edit Inputs**.
 
-    ![Editing workflow inputs](../image/SubflowEditInputs.png)
+    \[Omitted image "SubflowEditInputs.png"\] Alt text: Editing workflow inputs
 
 3.  In the Workflow Inputs window, click **New** in the **Variables** list.
 
@@ -29,7 +30,7 @@ Review the process of preparing a subflow for use in a parent workflow, and for 
 
     The following example sets up a string value.
 
-    ![Adding new variables](../image/SubflowNewVariables.png)
+    \[Omitted image "SubflowNewVariables.png"\] Alt text: Adding new variables
 
 5.  Click **Submit**.
 
@@ -43,18 +44,18 @@ Review the process of preparing a subflow for use in a parent workflow, and for 
 
     -   Create a new field on the request form but do not display the field. This serves as temporary storage.
 
-        ![Create a script to set the parameter value](../image/RunScriptSetParaValue.png)
+        \[Omitted image "RunScriptSetParaValue.png"\] Alt text: Create a script to set the parameter value
 
 8.  Create a **Notification** activity on the subflow and use `${description}` in the subject to return the value from the field.
 
-    ![Setting up the notification to return a value](../image/NotificationActivityValues.png)
+    \[Omitted image "NotificationActivityValues.png"\] Alt text: Setting up the notification to return a value
 
     This is what the subflow would look like:
 
-    ![Completed subflow](../image/WorkflowWithSubflow.png)
+    \[Omitted image "WorkflowWithSubflow.png"\] Alt text: Completed subflow
 
 
-**Parent Topic:**[Workflows used as subflows](../reference/workflows-as-subflows.md)
+**Parent Topic:**[Workflows used as subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/workflows-as-subflows.md)
 
 ## Prepare a workflow to use a subflow
 
@@ -66,7 +67,7 @@ After you create a subflow, use this procedure to prepare the parent workflow.
 
     In the following example, the variable is named **Blue Main Variable**.
 
-    ![Creating input variables for the workflow](../image/ParentWorkflowInputVariable.png)
+    \[Omitted image "ParentWorkflowInputVariable.png"\] Alt text: Creating input variables for the workflow
 
 2.  Click **Submit**.
 
@@ -76,7 +77,7 @@ After you create a subflow, use this procedure to prepare the parent workflow.
 
     `workflow.scratchpad.bluemainvariable = current.short_description;`
 
-    ![Run script activity properties](../image/RunScriptActivityProperty.png)
+    \[Omitted image "RunScriptActivityProperty.png"\] Alt text: Run script activity properties
 
 4.  Click **Submit**.
 
@@ -86,6 +87,6 @@ After you create a subflow, use this procedure to prepare the parent workflow.
 
     This is what the main workflow looks like:
 
-    ![Completed sample workflow with a subflow](../image/WorkflowExampleWithSubflow.png)
+    \[Omitted image "WorkflowExampleWithSubflow.png"\] Alt text: Completed sample workflow with a subflow
 
 

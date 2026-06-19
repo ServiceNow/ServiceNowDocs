@@ -2,6 +2,7 @@
 title: Create relationships between entity classes using the GRC: Workbench
 description: Managers create relationships between entity classes using the GRC: Workbench to build out the dependency map and better understand how entities relate to one another.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/create-relationships-between-profile-classes.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -19,7 +20,7 @@ Managers create relationships between entity classes using the GRC: Workbench to
 
 Role required: sn\_grc.manager
 
-[Create profile classes using the GRC: Workbench](create-profile-class-using-grc-workbench.md), before creating relationships between entity classes.
+[Create profile classes using the GRC: Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/create-profile-class-using-grc-workbench.md), before creating relationships between entity classes.
 
 Entity classes can roll up to each other, leading to the development of the dependency model.
 
@@ -33,7 +34,7 @@ Entity classes can roll up to each other, leading to the development of the depe
 
 4.  Do one of the following actions.
 
-<table id="choicetable_klb_sq3_4w"><tbody><tr><td id="d135047e98">
+<table id="choicetable_klb_sq3_4w"><tbody><tr><td id="d53734e98">
 
 **If there are no relationships between entity classes**
 
@@ -41,7 +42,7 @@ Entity classes can roll up to each other, leading to the development of the depe
 
 Drag an entity class from the left to the center and drop it.
 
-</td></tr><tr><td id="d135047e107">
+</td></tr><tr><td id="d53734e107">
 
 **If there are relationships between entity classes**
 
@@ -57,11 +58,11 @@ Drag additional entity classes from the list on the left and drop them on the to
 
 After modeling out entities, define the risks in your organization:
 
--   [Generate a risk from a risk framework](../../grc-risk/task/t_GenerateRiskFromStatement.md)
--   [Generate a risk from a risk statement](../../grc-risk/task/t_GenRiskFromRiskFrameProfile.md)
--   [Associate a risk framework or risk statement with an entity type to generate risks](../../grc-risk/task/t_GenerateRiskFromFramework.md)
+-   [Generate a risk from a risk framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/t_GenerateRiskFromStatement.md)
+-   [Generate a risk from a risk statement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/t_GenRiskFromRiskFrameProfile.md)
+-   [Associate a risk framework or risk statement with an entity type to generate risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/t_GenerateRiskFromFramework.md)
 
-After generating risks, [Relate risks to each other](../../grc-risk/task/relate-risks-to-each-other.md).
+After generating risks, [Relate risks to each other](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/relate-risks-to-each-other.md).
 
-**Parent Topic:**[Use entity and risk dependencies using the GRC: Workbench](../concept/grc-workbench.md)
+**Parent Topic:**[Use entity and risk dependencies using the GRC: Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/grc-workbench.md)
 

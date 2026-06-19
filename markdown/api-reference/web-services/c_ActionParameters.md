@@ -2,6 +2,7 @@
 title: Action parameters
 description: Action parameters are separate and different from data parameters because they specify the action to take when the JSON object parameter is part of an HTTP GET or POST request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/c\_ActionParameters.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -65,5 +66,5 @@ The displayvalue parameter can have three values: **true**, **false**, or **all*
 
 Set this boolean value to **true** during a get or getRecords function call to retrieve all variables attached to this record.
 
-**Parent Topic:**[JSONv2 web service](c_JSONv2WebService.md)
+**Parent Topic:**[JSONv2 web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_JSONv2WebService.md)
 

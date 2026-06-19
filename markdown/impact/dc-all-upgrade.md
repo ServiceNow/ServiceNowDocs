@@ -2,7 +2,10 @@
 title: Upgrading the Data Collection Content Pack
 description: When you upgrade the Data Collection Content Pack, you must account for any customizations you've made.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/dc-all-upgrade.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

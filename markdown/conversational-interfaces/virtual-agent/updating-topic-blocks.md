@@ -2,6 +2,7 @@
 title: Maintain reusable topic blocks
 description: When you update topic blocks, Virtual Agent Designer provides built-in checks to help you identify changes to topic blocks that affect the calling topics that use them. Updates include changing input and output parameters, deleting topic blocks, and publishing inactive and active topic blocks and calling topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/updating-topic-blocks.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -29,5 +30,5 @@ For example, suppose you added a new input parameter and made an existing parame
 
 When you open an affected topic, Virtual Agent Designer displays warnings and messages on the canvas indicating where you need to make changes. When you select the Topic Block node, warning messages are displayed in the properties sheet so that you can update parameters accordingly.
 
-![Virtual Agent Designer topic Properties tab, Topic Library usages table, and conversation builder canvas with highlighted areas showing how to find topics affected by input parameter changes.](../images/parameter-change.png "Messaging of input parameter changes")
+\[Omitted image "parameter-change.png"\] Alt text: Virtual Agent Designer topic Properties tab, Topic Library usages table, and conversation builder canvas with highlighted areas showing how to find topics affected by input parameter changes.
 

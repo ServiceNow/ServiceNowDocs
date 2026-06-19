@@ -2,6 +2,7 @@
 title: Modify control requirement
 description: Approve the authorization package when it is in the Select step to create controls. After approval, the authorization package moves to the Implement step and the controls are generated. You can still modify the control requirement implementation status at the control level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/continuous-risk-monitoring/cam-ap-control-req.html
 release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -45,7 +46,7 @@ All the controls are generated in the **Implement** state, however you can still
 
 4.  Select the control to modify its setup.
 
-    ![UI setup actions on a control when the authorization package is in Implement state.](../image/cam-implement-setup.png)
+    \[Omitted image "cam-implement-setup.png"\] Alt text: UI setup actions on a control when the authorization package is in Implement state.
 
 5.  To change the provider for a particular requirement, select the control requirement in the Control requirements related list.
 
@@ -87,9 +88,9 @@ All the controls are generated in the **Implement** state, however you can still
 
         If this is the only requirement that is in self implemented status for the hybrid control, then you cannot convert it to inherited.
 
-8.  To see the list of control requirements for a hybrid control, select the Display/hide hierarchical lists \(![Display or hide hierarchical lists icon.](../image/cam-display-hide-hierarch-icon.png)\) icon that gives you a hierarchy view.
+8.  To see the list of control requirements for a hybrid control, select the Display/hide hierarchical lists \(\[Omitted image "cam-display-hide-hierarch-icon.png"\] Alt text: Display or hide hierarchical lists icon.\) icon that gives you a hierarchy view.
 
-    You can use ![Display or hide hierarchical lists icon.](../image/cam-display-hide-hierarch-icon.png) in the Hybrid Controls related list as well. Additionally, you can also do the above three actions – Convert to Self implemented, Convert to Inherited, and Change Provider – from the Controls related list.
+    You can use \[Omitted image "cam-display-hide-hierarch-icon.png"\] Alt text: Display or hide hierarchical lists icon. in the Hybrid Controls related list as well. Additionally, you can also do the above three actions – Convert to Self implemented, Convert to Inherited, and Change Provider – from the Controls related list.
 
     From the Implement state you can move back to the Select state. When you do so, all the controls that were active and created in the Implement state will be deleted or retired. When you are in Select state, you can modify the setup for all the hybrid controls and generate controls once again.
 

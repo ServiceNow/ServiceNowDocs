@@ -2,7 +2,10 @@
 title: Enable external customers to access problem, change, and request records
 description: With access to problem, change, and request records, external customers can view these records associated with their customer service cases from the Customer and Consumer Service Portals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-itsm-integration-view-request.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -26,7 +29,7 @@ The snc\_internal or snc\_external role and with read access to the related prob
 
 **Note:** The Related Records list shows data only if the logged-in user has access to view the related records.
 
-Customers, customer partners, and internal users with the proxy contact role \(sn\_customerservice.proxy\_contact\) can also create requests from the Customer and Consumer Service Portals. For more information about this feature, see [Create cases as a proxy contact](../concept/employee-create-case-for-customer.md).
+Customers, customer partners, and internal users with the proxy contact role \(sn\_customerservice.proxy\_contact\) can also create requests from the Customer and Consumer Service Portals. For more information about this feature, see [Create cases as a proxy contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/employee-create-case-for-customer.md).
 
 Customers can also view Known Error articles for a problem related to a case. These articles are displayed:
 
@@ -37,17 +40,17 @@ Customers can also view Known Error articles for a problem related to a case. Th
 
 1.  Provide access to problem, change, and request records by configuring ACLs for the snc\_external role.
 
-    This access isn’t provided out of box. You must add these ACLs to the snc\_external user role based on case access. For more information, see [Access control list rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+    This access isn’t provided out of box. You must add these ACLs to the snc\_external user role based on case access. For more information, see Access control list rules.
 
     **Note:** Existing ACLs on the problem, change, and request records might impact the visibility for external users.
 
 2.  Configure the Case Related Records widget.
 
-    By default, this widget is displayed for users with the snc\_internal and snc\_external roles. For more information, see [Service Portal widgets](https://www.servicenow.com/docs/access?context=service-portal-widgets&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    By default, this widget is displayed for users with the snc\_internal and snc\_external roles. For more information, see Service Portal widgets.
 
 3.  Define the views for the problem, change, and request records and select the fields that are visible to external customers.
 
-    For more information, see [Create and delete views](https://www.servicenow.com/docs/access?context=create-delete-view&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    For more information, see Create and delete views.
 
     **Note:** For the Consumer Service Portal, you can define views and select fields for problem and change records. Request records display a default set of fields in the Ticket Fields widget.
 

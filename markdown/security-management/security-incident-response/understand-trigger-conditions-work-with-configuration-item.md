@@ -2,6 +2,7 @@
 title: Understand how trigger conditions work with a configuration item
 description: After you create a profile and select the FireEye capabilities that you want the profile to run, configure the profile settings so that it runs only when a set of specific conditions are met.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/understand-trigger-conditions-work-with-configuration-item.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -25,5 +26,5 @@ During the configuration step of the profile setup, you can select an alternate 
 
 **Note:** The alternate CI fields are considered only for capabilities that could be added to a profile. For all the additional actions, the alternate CI is picked from the default settings page.
 
-![Security Incident New record](../image/trigger-condition.png)
+\[Omitted image "trigger-condition.png"\] Alt text: Security Incident New record
 

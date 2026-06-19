@@ -2,6 +2,7 @@
 title: Edge Encryption limitations
 description: Edge Encryption impacts system functions. Carefully evaluate the impact of encrypting a field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/edge-encryption-limitations.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -22,7 +23,6 @@ You can encrypt only the following field types:
 -   Date
 -   Email
 -   Date/Time
--   HTML
 -   IP Address
 -   Journal
 -   Journal Input
@@ -31,9 +31,10 @@ You can encrypt only the following field types:
 -   String
 -   URL
 
-You cannot encrypt the following field types:
+You can't encrypt the following field types:
 
 -   Choice fields
+-   HTML
 -   Virtual fields
 -   Fields in system tables, except for certain fields in sys\_user
 -   System fields in tables
@@ -46,7 +47,7 @@ Additional restrictions:
 -   Encrypted fields aren’t available in **Go to** and header filter boxes.
 -   When encrypting fields used as an index, you can use only order-preserving and equality-preserving encryption types. Indexed fields can’t be encrypted using the standard encryption type.
 
-For more information, see [Field types](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For more information, see Field types.
 
 ## Filtering and searching restrictions
 
@@ -76,9 +77,13 @@ For more information, see [Field types](https://www.servicenow.com/docs/access?c
     -   **before or on**
 -   **Date and Date/Time pickers**
 
-    For Date fields, use the date picker to specify the date: ![Date picker](../../encryption/image/date-picker.png)
+    For Date fields, use the date picker to specify the date:
 
-    For Date/Time fields, use the date and time picker to specify the date and time:![Date/Time picker](../../encryption/image/date-time-picker.png)
+    \[Omitted image "date-picker.png"\] Alt text: Date picker
+
+    For Date/Time fields, use the date and time picker to specify the date and time:
+
+    \[Omitted image "date-time-picker.png"\] Alt text: Date/Time picker
 
 -   **List condition filters**
 
@@ -124,5 +129,5 @@ Impact of using Edge Encryption on the instance:
 -   Edge Encryption can’t be used with Data Archiving.
 -   Edge Encryption proxies cannot encrypt requests that use the batch REST request API. If you are using Edge Encryption proxies, disable REST batching by setting the `glide.uxf.disable_rest_batching` system property to true.
 
-**Parent Topic:**[Planning for Edge Encryption](../concept/c_EdgeEncryptionPlanning.md)
+**Parent Topic:**[Planning for Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/c_EdgeEncryptionPlanning.md)
 

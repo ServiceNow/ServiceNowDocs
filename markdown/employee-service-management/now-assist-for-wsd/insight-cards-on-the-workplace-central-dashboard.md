@@ -2,6 +2,7 @@
 title: Insight cards on the Workplace Central dashboard
 description: Display key metrics and AI-generated insights from workplace data sources using Insight cards on the Workplace Central dashboard. These Insight cards are auto-generated using generative AI, enabling Space Planners, and Facilities Managers to make data-driven decisions to optimize workplace resources. Insight cards provide proactive insights into various workplace metrics such as space utilization, occupancy rates, attendance patterns, and reservation trends.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-wsd/insight-cards-on-the-workplace-central-dashboard.html
 release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd

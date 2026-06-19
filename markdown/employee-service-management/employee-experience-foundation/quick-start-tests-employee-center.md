@@ -2,6 +2,7 @@
 title: Quick start tests for Employee Center
 description: Validate the continued functionality of the Employee Center after any configuration change such as an upgrade or after developing an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/quick-start-tests-employee-center.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,7 +22,7 @@ Quick start tests are disabled and read-only test templates. By default, they on
 
 To make quick start tests produce a pass result when you run them with your instance-specific data, copy and configure them to use your instance data.
 
-Use Performance Profiling to compare tests to detect performance degradation when you upgrade your instance, so you can investigate and fix the issues. See [Performance profiling](https://www.servicenow.com/docs/access?context=atf-perf-prof&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+Use Performance Profiling to compare tests to detect performance degradation when you upgrade your instance, so you can investigate and fix the issues. See .
 
 The Agile Development 2.0 \(com.snc.sdlc.agile.2.0\) and the Agile Development 2.0 - ATF Tests \(com.snc.sdlc.agile.2.0.atf\) plugins must be enabled.
 

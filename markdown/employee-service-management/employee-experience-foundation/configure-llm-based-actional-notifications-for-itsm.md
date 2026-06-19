@@ -2,6 +2,7 @@
 title: Configure LLM based provider notifications for ITSM
 description: Enable LLM-based actionable provider notifications for ITSM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/configure-llm-based-actional-notifications-for-itsm.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -80,7 +81,7 @@ Role required: admin
 
 ## What to do next
 
-You can customize the fields displayed in approval notifications. For more information, see [Customizing approval notification fields](../concept/customizing-approval-notifications.md).
+You can customize the fields displayed in approval notifications. For more information, see [Customizing approval notification fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/customizing-approval-notifications.md).
 
-**Parent Topic:**[Configure IT Service Management integration with Microsoft Teams](../concept/sn-ms-teams-config-it.md)
+**Parent Topic:**[Configure IT Service Management integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/sn-ms-teams-config-it.md)
 

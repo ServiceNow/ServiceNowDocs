@@ -2,6 +2,7 @@
 title: Manually override SAM Foundation edition value
 description: When the edition of a software install is not automatically discovered, you can specify the edition on the Software Installation form with the correct value \(if known\) so the software can be successfully reconciled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/software-asset-management-foundation-plugin/t\_ManOverrideEditionSAMF.html
 release: zurich
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
@@ -40,5 +41,5 @@ Once the edition value is set, the discovery model for the software install is a
     The software installation is associated to different discovery model containing the edition value as part of the primary key. If the appropriate discovery model does not exist, a new one is created.
 
 
-**Parent Topic:**[Configuring the classic Software Asset Management Foundation plugin](../concept/samf-plugin-configuration.md)
+**Parent Topic:**[Configuring the classic Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.md)
 

@@ -2,6 +2,7 @@
 title: Containerized MID Server Deployment and Auto-configuration
 description: An agent admin can enter a MID Server Profile and create a deployment request on the instance. She/he can then export the deployment request to a YAML file and use it to deploy MID Servers to Kubernetes or OpenShift cluster.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/mid-server/containerized-mid-deployment.html
 release: zurich
 product: MID Server
 classification: mid-server
@@ -20,7 +21,7 @@ An agent admin can enter a MID Server Profile and create a deployment request on
 ![Setup indicator for configuration phase](../image/ProgressBarConfig.png)
 
 </td></tr></tbody>
-</table>Containerized MID Servers use a Docker image of the MID Server that allows you to quickly deploy MID Servers. The documentation for [Build MID Server Docker Image for Linux](../task/mid-build-docker-linux.md#) provides steps for manually preparation and deployment. The following Containerized MID Server auto-configuration simplifies the process and makes it scalable.
+</table>Containerized MID Servers use a Docker image of the MID Server that allows you to quickly deploy MID Servers. The documentation for [Build MID Server Docker Image for Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-build-docker-linux.md) provides steps for manually preparation and deployment. The following Containerized MID Server auto-configuration simplifies the process and makes it scalable.
 
 ## MID Server profile
 
@@ -68,7 +69,7 @@ wrapper.java.additional.3
 
 ## MID Server Deployment Request
 
-After creating a MID server profile, the user can make a new deployment request to prepare the deployment process.​ A deployment request can be different for different container orchestrators. See [MID Server Deployment Request](../task/containerized-mid-deploy-request.md) for more information.
+After creating a MID server profile, the user can make a new deployment request to prepare the deployment process.​ A deployment request can be different for different container orchestrators. See [MID Server Deployment Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/containerized-mid-deploy-request.md) for more information.
 
 ## Export MID Deployment Request for Manual Deployment
 
@@ -76,7 +77,7 @@ The user can export it to a K8s deployment YAML file. The user can download the 
 
 ## Docker image preparation
 
-To prepare a Docker image, first build a MID Server image on a K8s cluster as explained in [Build MID Server Docker Image](../task/mid-build-docker-linux.md#). Upload the built image to an image registry and pull the image to a local image with the command: `docker pull registry/mid:<tag>`. Refer to [Docker Registry Setup for Containerized MID Server II: Auto Configuration \[KB1001380\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1001380) for information on limitations on pulling an image directly from a remote registry.
+To prepare a Docker image, first build a MID Server image on a K8s cluster as explained in [Build MID Server Docker Image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-build-docker-linux.md). Upload the built image to an image registry and pull the image to a local image with the command: `docker pull registry/mid:<tag>`. Refer to [Docker Registry Setup for Containerized MID Server II: Auto Configuration \[KB1001380\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1001380) for information on limitations on pulling an image directly from a remote registry.
 
 ## Kubernetes preparation
 
@@ -126,7 +127,7 @@ apiVersion: rbac.authorization.k8s.io/v1
 
 **Kubernetes Secret setup**
 
-Secrets are created for **mid-secrets.properties** or PEM files for mutual authentication. For more information about how to create a Secret, see the section in [Containerized MID Server](containerized-mid.md).
+Secrets are created for **mid-secrets.properties** or PEM files for mutual authentication. For more information about how to create a Secret, see the section in [Containerized MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/containerized-mid.md).
 
 ## Auto-configure new Containerized MID Servers
 

@@ -2,6 +2,7 @@
 title: openframe API
 description: The openframe API provides endpoints that provide Contact Center as a Service \(CCaaS\) the ability to create and update interaction records without using the Operation Handler.Updates the specified interaction record in the Interaction \[interaction\] table. Contact Center as a Service \(CCaaS\) providers can then use these records to track phone calls.Creates an interaction record in the Interaction \[interaction\] table when an agent accepts a call. Contact Center as a Service \(CCaaS\) providers can then use these records to track phone calls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-apis/openframe-api.html
 release: zurich
 product: REST APIs
 classification: rest-apis
@@ -19,9 +20,9 @@ Use this API to create interaction records to track agent phone calls. Once an i
 
 To access this API, the com.sn\_openframe\_store plugin must be installed on the instance and the calling user must have either the sn\_openframe\_api\_user or sn\_openframe\_user role. The openframe API runs in the `sn_openframe` namespace.
 
-For additional information on CSM voice interaction records, see [CSM voice interaction record page](https://www.servicenow.com/docs/access?context=csm-native-voice-record-page&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+For additional information on CSM voice interaction records, see .
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/api-rest.md)
 
 ## openframe - PATCH /openframe/voice-interaction/\{interactionSysId\}
 
@@ -33,7 +34,7 @@ Versioned URL: `/api/now/openframe/{api_version}/voice-interaction/{interactionS
 
 Default URL: `/api/now/openframe/voice-interaction/{interactionSysId}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -59,7 +60,7 @@ interactionSysId
 
 </td><td>
 
-Sys\_id of the interaction record to update. This value is returned by the [Create Voice Interaction/POST](openframe-api.md#) endpoint.Data type: String
+Sys\_id of the interaction record to update. This value is returned by the [Create Voice Interaction/POST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/openframe-api.md) endpoint.Data type: String
 
 Table: Interaction \[interaction\]
 
@@ -122,7 +123,7 @@ interaction.callbackPhoneNumber
 
 Caller's callback phone number. This is the number the agent uses to reach the caller in case the call drops.This value maps to the caller\_phone\_number field in the Interaction \[interaction\] table.
 
-See also the **callerPhoneNumber** property description for [Create Voice Interaction/POST](openframe-api.md#).
+See also the **callerPhoneNumber** property description for [Create Voice Interaction/POST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/openframe-api.md).
 
 Data type: String
 
@@ -241,7 +242,7 @@ Name of the table that contains the related record.Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -274,7 +275,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -380,7 +381,7 @@ Versioned URL: `/api/now/openframe/{api_version}/voice-interaction`
 
 Default URL: `/api/now/openframe/voice-interaction`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -459,7 +460,7 @@ interaction.callbackPhoneNumber
 
 Caller's callback phone number. This is the number the agent uses to reach the caller in case the call drops.This value maps to the caller\_phone\_number field in the Interaction \[interaction\] table.
 
-See also the **callerPhoneNumber** property description for [Create Voice Interaction/POST](openframe-api.md#).
+See also the **callerPhoneNumber** property description for [Create Voice Interaction/POST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/openframe-api.md).
 
 Data type: String
 
@@ -578,7 +579,7 @@ Name of the table that contains the related record.Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -611,7 +612,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

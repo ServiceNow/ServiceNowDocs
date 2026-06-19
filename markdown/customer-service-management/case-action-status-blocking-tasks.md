@@ -2,7 +2,10 @@
 title: Blocking tasks
 description: Certain agent actions trigger case flows which create and resolve the blocking tasks for customer service cases. These tasks determine the case action status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/case-action-status-blocking-tasks.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -93,5 +96,5 @@ When a blocking task is resolved:
 
 Records that have the blocking tasks are stored in the Blocked By table \[sn\_action\_status\_blocked\_by\]. Records are periodically removed from this table. Six months after a blocked record is closed, the entries in the Blocked By table related to the blocked record are removed.
 
-**Parent Topic:**[Administering case action status](../concept/customer-service-case-action-status.md)
+**Parent Topic:**[Administering case action status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-case-action-status.md)
 

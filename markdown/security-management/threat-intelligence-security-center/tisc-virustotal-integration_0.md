@@ -2,6 +2,7 @@
 title: TISC VirusTotal integration
 description: TISC VirusTotal integration enables you to request the analysis of suspicious IP addresses, file hashes, and URL addresses to aid in your investigation to determine if they are malicious.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-virustotal-integration\_0.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -15,8 +16,8 @@ breadcrumb: [Threat Lookup, TISC Enrichment Integrations, TISC Integrations, Int
 
 TISC VirusTotal integration enables you to request the analysis of suspicious IP addresses, file hashes, and URL addresses to aid in your investigation to determine if they are malicious.
 
--   **[Configure and Enable VirusTotal Integration](../task/tisc-virustotal-integration.md)**  
+-   **[Configure and Enable VirusTotal Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-virustotal-integration.md)**  
 Before you can use the VirusTotal integration, you must download it from the ServiceNow Store.
 
-**Parent Topic:**[Threat Lookup](tisc-threat-lookup.md)
+**Parent Topic:**[Threat Lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-threat-lookup.md)
 

@@ -2,6 +2,7 @@
 title: MFA types
 description: FAQ related to MFA types and why it’s important.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/faq-mfa-types.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -33,9 +34,9 @@ FAQ related to MFA types and why it’s important.
 
     User can perform either of the following MFA options.
 
-    ![MFA screen](../images/new-mfa.png)
+    \[Omitted image "new-mfa.png"\] Alt text: MFA screen
 
-    Refer the [Multi-factor authentication](mfa-landing.md) documentation for more information about MFA setup.
+    Refer the [Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/mfa-landing.md) documentation for more information about MFA setup.
 
 4.  Can the SMS and Email OTP-based MFA limited to certain users?
 
@@ -47,6 +48,6 @@ FAQ related to MFA types and why it’s important.
 
 6.  As an end user how to set up MFA?
 
-    Refer the [Using Multi-factor authentication](mfa-use.md) documentation for more information about MFA setup.
+    Refer the [Using Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/mfa-use.md) documentation for more information about MFA setup.
 
 

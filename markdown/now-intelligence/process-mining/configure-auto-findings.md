@@ -2,6 +2,7 @@
 title: Set automated improvement opportunities using Classic view
 description: Configure automated finding definitions to view the insights specified by you in your Summary and insights page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/configure-auto-findings.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -32,12 +33,12 @@ Configure automated finding definitions to view the insights specified by you in
 
 4.  On the form, fill in the fields.
 
-    For more information, see [Automation finding definition form from Classic view](../reference/auto-find-form-classic.md).
+    For more information, see [Automation finding definition form from Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/auto-find-form-classic.md).
 
     **Note:** You can have a maximum of 15 automated improvement opportunities for a project.
 
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Setting improvement opportunities from Classic view](../concept/impr-opp-classic-project.md)
+**Parent Topic:**[Setting improvement opportunities from Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/impr-opp-classic-project.md)
 

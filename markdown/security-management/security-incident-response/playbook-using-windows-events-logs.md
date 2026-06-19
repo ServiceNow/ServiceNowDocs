@@ -2,6 +2,7 @@
 title: Use the T1070 - Windows Events Logs Cleared playbook
 description: Use this playbook to investigate incidents that track event types where the user removes security logs. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the T1070 - Windows Events Logs Cleared playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/playbook-using-windows-events-logs.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -36,8 +37,6 @@ Role required:
 
         If the user has been identified from the CMDB, a manual response task is created in Action 5 and the flow ends.
 
-        ![Response task if the user has not been identified in the Windows Events Logs Cleared playbook](../../secops-analyst-workspace/image/playbook-windows-event-user-identify.png "T1070 - Windows Events Logs Cleared playbook")
-
     3.  In Action 6, if the user has not been identified from the CMDB, perform the following steps:
 
         1.  In Action 7, create an incident to identify the system owner and the individual who deleted the logs.
@@ -60,8 +59,6 @@ Role required:
 
     You can use the provided email template to contact the user.
 
-    ![Response task if the user has been identified in the Windows Events Logs Cleared playbook](../../secops-analyst-workspace/image/playbook-windows-event-user-not-identified.png "Using the T1070 - Windows Events Logs Cleared playbook")
-
 6.  In Action 18, check whether a valid business justification is provided or not.
 
 7.  In Action 19, if there was a valid business justification provided, then in Action 20, document the findings so far.
@@ -83,5 +80,5 @@ Role required:
 9.  In Action 26, complete the post-incident review before closing the task.
 
 
-**Parent Topic:**[Playbook for T1070 - Windows Events Logs Cleared](../concept/playbook-windows-events-log.md)
+**Parent Topic:**[Playbook for T1070 - Windows Events Logs Cleared](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/playbook-windows-events-log.md)
 

@@ -2,6 +2,7 @@
 title: Create a contract type
 description: As a contract configurator, create a contract type for defining different types of contract requests and associate it to a contract model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-create-contract-type.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -30,7 +31,7 @@ Role required: sn\_cm\_core.contract\_config
 
     -   To create a contract type, select **New**.
     -   To modify an existing contract type, open the contract type from the list.
-    ![Contract type form](../image/cmpro-contract-type-form.png "Contract template form")
+    \[Omitted image "cmpro-contract-type-form.png"\] Alt text: Contract type form
 
 3.  In the **Name** field, enter a unique name for the contract type.
 
@@ -44,7 +45,7 @@ Role required: sn\_cm\_core.contract\_config
 
     1.  In the Contract Model embedded list, double-click **Insert a new row**.
 
-    2.  Select Lookup using list icon\(![Lookup using list icon](../image/lsd-cont-rec-search.png)\).
+    2.  Select Lookup using list icon\(\[Omitted image "lsd-cont-rec-search.png"\] Alt text: Lookup using list icon\).
 
         List of contract models is displayed.
 

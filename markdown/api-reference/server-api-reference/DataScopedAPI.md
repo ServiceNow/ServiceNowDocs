@@ -2,6 +2,7 @@
 title: Data - Scoped, Global
 description: The Data API provides a data object that contains the results of transform performed by a sn\_clotho.Client.transform\(\) method.Returns the end time for data in the Data object.Returns the label assigned by the sn\_clotho.ClothoTransform.label\(\) method.Returns the name of the metric of the data series. Returns null when the data object is associated with multiple data series.Returns the time period in milliseconds.Returns the start time for data in the Data object.Returns the subject of the data series. Returns null when the data object is associated with multiple data series.Returns the name of the table assigned in the DataSelector class constructor. Returns null when the data object is associated with multiple data series.Returns an array of values.Returns the number of values in the Data object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/DataScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -21,7 +22,7 @@ You can call this class in scoped and global server scripts. This class runs in 
 
 This class is part of the MetricBase application.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## Scoped Data - getEnd\(\)
 

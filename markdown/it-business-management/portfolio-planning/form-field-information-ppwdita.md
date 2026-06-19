@@ -2,6 +2,7 @@
 title: Form field information
 description: Field information for forms used in Next Experience for Demand Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/form-field-information-ppwdita.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning

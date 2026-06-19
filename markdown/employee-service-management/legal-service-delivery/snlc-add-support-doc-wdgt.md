@@ -2,6 +2,7 @@
 title: Add supporting document widget in own-paper record producer
 description: Add the supporting document widget to a record producer to enable uploading of supporting documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/snlc-add-support-doc-wdgt.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -29,17 +30,17 @@ Role required: admin
 
     1.  Navigate to **Variable Set** related list.
 
-        ![Navigate to Variable set related list](../image/snlc-add-suppdoc-wdg-variableset.png)
+        \[Omitted image "snlc-add-suppdoc-wdg-variableset.png"\] Alt text: Navigate to Variable set related list
 
     2.  Select **Edit**.
 
     3.  Add the widget by moving **Upload Contract Documents** and **Upload documents optional interaction** from the Collection to the Variable set list.
 
-        ![Adding supporting document widget variable list](../image/snlc-add-variableset-suppdocs.png "Add supporting docs variable set")
+        \[Omitted image "snlc-add-variableset-suppdocs.png"\] Alt text: Adding supporting document widget variable list
 
     4.  Select **Save**.
 
-4.  Configure variables for **Upload documents optional interaction** variable set.![Configure variables](../image/snlc-add-suppdoc-wdg-variableset.png)
+4.  Configure variables for **Upload documents optional interaction** variable set.\[Omitted image "snlc-add-suppdoc-wdg-variableset.png"\] Alt text: Configure variables
 
     1.  Select **Upload documents optional interaction** from the variable set related list.
 
@@ -49,7 +50,7 @@ Role required: admin
 
         To get sys\_id, go to contract type record, select and hold \(or right-click\) on the header and select **Copy sys\_id** Example: If you’re adding the widget to the Non-disclosure agreement record producer, add the sys\_id of the Non-disclosure agreement contract type.
 
-    The supporting document widget is available in the own-paper record producers.![Suporting document widget added to the record producer](../image/snlc-suppdoc-added.png)
+    The supporting document widget is available in the own-paper record producers.\[Omitted image "snlc-suppdoc-added.png"\] Alt text: Suporting document widget added to the record producer
 
 5.  Customize the standard ticket page to display the supporting document related list.
 
@@ -109,5 +110,5 @@ Role required: admin
     A supporting document widget is available while editing an own-paper based request.
 
 
-**Parent Topic:**[Configure Contract Management Pro for Legal Service Delivery](../concept/snlc-config-sn-legal-contracts.md)
+**Parent Topic:**[Configure Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-config-sn-legal-contracts.md)
 

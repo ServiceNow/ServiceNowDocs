@@ -2,6 +2,7 @@
 title: Enable Slack from ServiceNow
 description: Ensure the email field of system user records that will be mapped to Slack users are properly updated. This must be done before the scheduled job that syncs the users between Slack and ServiceNow runs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/sidebar/enable-slack-from-servicenow.html
 release: zurich
 product: Sidebar
 classification: sidebar

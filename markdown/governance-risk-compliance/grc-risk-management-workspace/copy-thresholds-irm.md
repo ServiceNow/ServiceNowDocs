@@ -2,6 +2,7 @@
 title: Copy thresholds
 description: Copy existing thresholds to quickly create similar threshold configurations for the same metric or metric definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/copy-thresholds-irm.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -44,5 +45,5 @@ The system validates the copied threshold configuration. If any validation error
     A new threshold is created for the metric with the configuration from the original threshold. You can now modify either threshold independently.
 
 
-**Parent Topic:**[Configuring metrics](../concept/configuring-irm-metrics.md)
+**Parent Topic:**[Configuring metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/configuring-irm-metrics.md)
 

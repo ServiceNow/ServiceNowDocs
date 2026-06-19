@@ -2,6 +2,7 @@
 title: Anonymous Reporting Center
 description: The Anonymous Reporting Center \(ARC\) enables employees to submit compliance, privacy, or AI‑related concerns without revealing their identity. Employees are automatically signed out of the Employee Center when ARC opens.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -29,13 +30,13 @@ ARC is included with the following GRC applications:
 
 If any of these applications are already installed, no additional setup is required.
 
-For privacy and compliance cases, ARC can be accessed from the **Risk and Compliance** tab of the **Employee Center**.
+For privacy and compliance cases, access ARC from the **Risk and Compliance** tab of the **Employee Center**.
 
 For AI cases, it’s available at **Help center** &gt; **Technology services** &gt; **AI assets**.
 
 ## ARC landing page
 
-![Use the Anonymous Reporting Center (ARC) landing page to submit a report and track its progress anonymously.](../image/arc-landing-page.png "ARC landing page")
+\[Omitted image "arc-landing-page.png"\] Alt text: Use the Anonymous Reporting Center \(ARC\) landing page to submit a report and track its progress anonymously.
 
 Use the ARC landing page to report a case anonymously or follow up on a report.
 
@@ -53,8 +54,8 @@ Description
 
 </td><td>
 
-Raise suspected compliance, privacy, or AI-related issues confidentially. Depending on the case type, you can choose to:-   [Report a compliance case](../../grc-compliance-case-mgmt/task/report-compliance-case-anonymously.md)
--   [Report a privacy case](../../grc-privacy-management/task/report-privacy-case-anonymously.md)
+Raise suspected compliance, privacy, or AI-related issues confidentially. Depending on the case type, you can choose to:-   [Report a compliance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/report-compliance-case-anonymously.md)
+-   [Report a privacy case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/report-privacy-case-anonymously.md)
 -   Report an AI case
 
 **Important:** After submission, download a copy of your report to record the Report key and Report number.
@@ -82,10 +83,10 @@ Sanitization reduces the risk of unsafe or malformed input.
 
 All reports submitted through ARC are routed to the appropriate case management team depending on the case type. The reporters appear as guests in the application workspace where records are created. A case analyst validates the details, assesses the severity, and determines the next steps for investigation.
 
--   **[Submit a report anonymously from the Anonymous Reporting Center](../task/grc-submit-report-anonymously.md)**  
+-   **[Submit a report anonymously from the Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-submit-report-anonymously.md)**  
 Use **Submit a report anonymously** on the Anonymous Reporting Center \(ARC\) landing page to raise suspected compliance, privacy, or AI-related issues confidentially.
--   **[Follow up on a report from the Anonymous Reporting Center](../task/grc-follow-up-anonymously.md)**  
+-   **[Follow up on a report from the Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-follow-up-anonymously.md)**  
 Check the status of your case on the Anonymous Reporting Center using the Report key and Report number. You must download a copy of your anonymous report after submitting a case to record these values.
 
-**Parent Topic:**[Common Governance, Risk, and Compliance features](common-grc-features.md)
+**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

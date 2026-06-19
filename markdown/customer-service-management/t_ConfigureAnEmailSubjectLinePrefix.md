@@ -2,7 +2,10 @@
 title: Configure an email subject line prefix
 description: Configure a prefix to include in an email subject line that creates a case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_ConfigureAnEmailSubjectLinePrefix.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

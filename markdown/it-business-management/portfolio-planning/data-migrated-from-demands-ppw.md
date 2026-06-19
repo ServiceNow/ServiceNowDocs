@@ -2,6 +2,7 @@
 title: Data migrated from demands to created entities
 description: Data fields that are migrated from a demand to an entity when the selected entity is created from the demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/data-migrated-from-demands-ppw.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning

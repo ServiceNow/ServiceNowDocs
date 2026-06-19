@@ -2,6 +2,7 @@
 title: RSS basic authentication
 description: To enforce basic authentication on each request for an RSS feed, set the property glide.basicauth.required.rss to true.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/c\_BasicAuthentication.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -27,7 +28,7 @@ https://itil:itil@<instance name>.service-now.com/incident.do?RSS
 
 Some older browsers, such as Microsoft IE 7 do not support direct URL authentication. If the site uses basic authentication, Internet Explorer automatically prompts users for a user name and a password. In some cases, users can click the Remember my password box in the prompt to save their credentials for later visits to that site.
 
-**Parent Topic:**[RSS feed generator](c_RSSFeedGenerator.md)
+**Parent Topic:**[RSS feed generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_RSSFeedGenerator.md)
 
 **Related topics**  
 
@@ -36,5 +37,5 @@ Some older browsers, such as Microsoft IE 7 do not support direct URL authentica
 
 [http://support.microsoft.com/kb/834489](http://support.microsoft.com/kb/834489)
 
-[RSS request authorization](https://www.servicenow.com/docs/access?context=sc-rss-request-authorization&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.sc-rss-request-authorization]
 

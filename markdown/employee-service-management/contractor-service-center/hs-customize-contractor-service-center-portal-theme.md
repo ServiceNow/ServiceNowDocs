@@ -2,6 +2,7 @@
 title: Configure the Contractor Service Center portal theme
 description: A theme is a collection of one or more style sheets \(CSS files\) that define a consistent look for a set of pages. Configure the default portal theme to apply your own theme to suit your branding and improve the visual design of the portal pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contractor-service-center/hs-customize-contractor-service-center-portal-theme.html
 release: zurich
 product: Contractor Service Center
 classification: contractor-service-center
@@ -41,18 +42,18 @@ Contractor Service Center application ships a default **CSC theme** that has the
 
     3.  Select **here** on the note to edit the record.
 
-    4.  Select the **Preview this record** icon ![preview icon](../../safe-workplace-dashboard/image/icon-preview.png) for the **Theme** field and select **Open record**.
+    4.  Select the **Preview this record** icon \[Omitted image "icon-preview.png"\] Alt text: preview icon for the **Theme** field and select **Open record**.
 
     5.  Select **here** on the note to edit the record.
 
     6.  Edit the **CSS variables** field to customize the text and the background colors of your portal.
 
-        -   To create a portal theme and for a description of the field values to create a portal theme, see [Create a portal theme](https://www.servicenow.com/docs/access?context=c_CustomCSS&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
-        -   To configure a portal header or footer, see [Configure a portal header menu](https://www.servicenow.com/docs/access?context=configure-header-menu&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
+        -   To create a portal theme and for a description of the field values to create a portal theme, see Create a portal theme.
+        -   To configure a portal header or footer, see 
 4.  Navigate to **All** &gt; **Service Portal** &gt; **Portals** &gt; **Contractor service center** and then select **Try it** to preview.
 
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configuring Contractor Service Center](../concept/hs-configure-contractor-service-center.md)
+**Parent Topic:**[Configuring Contractor Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contractor-service-center/hs-configure-contractor-service-center.md)
 

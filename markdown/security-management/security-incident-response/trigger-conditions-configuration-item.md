@@ -2,6 +2,7 @@
 title: Trigger conditions in a configuration item
 description: After you create a profile and select the Microsoft Defender for Endpoint capabilities that you want the profile to run, configure the profile settings so that the profile runs only when a set of specific conditions is met.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/trigger-conditions-configuration-item.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

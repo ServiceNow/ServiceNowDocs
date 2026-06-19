@@ -2,6 +2,7 @@
 title: ServiceNow AI Platform tables and data
 description: ServiceNow provides options for managing your data on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/tables-fields-and-forms.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -17,19 +18,19 @@ ServiceNow provides options for managing your data on the ServiceNow AI Platform
 
 <table id="table_oyp_mhr_r5b" class="nav-card"><tbody><tr><td>
 
-[Table administration ![](../../../reuse/icons/brand-icons/bus-management-console.svg) Learn about working with complex, large amounts of data, by using tables and records on the ServiceNow AI Platform.](../../table-administration/concept/c_TableAdministration.md)
+[Table administration \[Omitted image "bus-management-console.svg"\] Alt text: Learn about working with complex, large amounts of data, by using tables and records on the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_TableAdministration.md)
 
 </td><td>
 
-[Data management ![](../../../reuse/icons/brand-icons/bus-datasheet.svg) Explore options for storing and deleting data with ServiceNow.](../../managing-data/concept/c_DataManagement.md)
+[Data management \[Omitted image "bus-datasheet.svg"\] Alt text: Explore options for storing and deleting data with ServiceNow.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_DataManagement.md)
 
 </td><td>
 
-[Export data ![](../../../reuse/icons/brand-icons/bus-share.svg) Learn about exporting data from the ServiceNow AI Platform.](../../exporting-data/concept/c_ExportData.md)
+[Export data \[Omitted image "bus-share.svg"\] Alt text: Learn about exporting data from the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_ExportData.md)
 
 </td><td>
 
-[Roll back and delete recovery![](../../../reuse/icons/brand-icons/bus-rewind.svg)Learn how to roll back actions and recover deleted records.](../../table-administration/concept/rollback-delete-recovery.md)
+[Roll back and delete recovery\[Omitted image "bus-rewind.svg"\] Alt text:Learn how to roll back actions and recover deleted records.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/rollback-delete-recovery.md)
 
 </td></tr></tbody>
 </table>## Table administration

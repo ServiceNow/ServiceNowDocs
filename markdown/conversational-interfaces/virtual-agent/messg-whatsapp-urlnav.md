@@ -2,6 +2,7 @@
 title: Set the URL navigation for WhatsApp chat
 description: When agents share links in their WhatsApp chat conversations, customize the portal that those links point to. For example, you can configure links to point to your brand’s portal, or to the ServiceNow portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/messg-whatsapp-urlnav.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -42,5 +43,5 @@ Role required: admin
 
 ## What to do next
 
-For more information on setting up URL navigation, see [Configure URL navigation for chat links](../../conversational-interfaces/task/ac-configure-url-navigation.md).
+For more information on setting up URL navigation, see [Configure URL navigation for chat links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/ac-configure-url-navigation.md).
 

@@ -2,6 +2,7 @@
 title: View automated phishing response playbook flow action designer
 description: You can drill down to the Action Designer to view detailed information about the actions being performed for a specific step in the automated phishing response playbook flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/action-phishing-playbook.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -21,21 +22,21 @@ This page describes the Action Designer page for the Get Observables from Task s
 
 This section shows details on how the action was created including the incident id, the type of observable \(hash or IP\) and observable finding \(malicious emails only\).
 
-![Automated phishing playbook flow: action designer inputs](../image/cj-sir-flow-phishing-action5-1.png)
+\[Omitted image "cj-sir-flow-phishing-action5-1.png"\] Alt text: Automated phishing playbook flow: action designer inputs
 
 ## Get M2M Records
 
 This section shows the conditions that have been defined to search for observables in a specified table.
 
-![Automated phishing playbook flow: action designer get records](../image/cj-sir-flow-phishing-action5-2.png)
+\[Omitted image "cj-sir-flow-phishing-action5-2.png"\] Alt text: Automated phishing playbook flow: action designer get records
 
 ## Get Observables
 
 This section shows the script used to retrieve observables based on the specified filter conditions. Finally, the observables meeting this criteria and the count is displayed.
 
-![Automated phishing playbook flow: action designer get observables](../image/cj-sir-flow-phishing-action5-3.png)
+\[Omitted image "cj-sir-flow-phishing-action5-3.png"\] Alt text: Automated phishing playbook flow: action designer get observables
 
 **Note:** All actions defined in this flow are reusable and can be modified according to your requirements.
 
-**Parent Topic:**[Run the automated phishing response playbook flow](../task/run-phishing-playbook.md)
+**Parent Topic:**[Run the automated phishing response playbook flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/run-phishing-playbook.md)
 

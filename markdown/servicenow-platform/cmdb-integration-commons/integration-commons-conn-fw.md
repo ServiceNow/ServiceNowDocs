@@ -2,6 +2,7 @@
 title: Accessing the connection details of Service Graph Connectors
 description: The common connection framework \(CCF\) included within the Integration Commons for CMDB \(sn\_cmdb\_int\_util\) store app enables accessing connection details of Service Graph Connectors in a single view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/cmdb-integration-commons/integration-commons-conn-fw.html
 release: zurich
 product: CMDB Integration Commons
 classification: cmdb-integration-commons

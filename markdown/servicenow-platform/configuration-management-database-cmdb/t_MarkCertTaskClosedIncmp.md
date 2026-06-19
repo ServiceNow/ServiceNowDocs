@@ -2,6 +2,7 @@
 title: Mark a certification task as closed incomplete
 description: Mark a task as closed incomplete if, for example, only some of the elements can be certified.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/t\_MarkCertTaskClosedIncmp.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

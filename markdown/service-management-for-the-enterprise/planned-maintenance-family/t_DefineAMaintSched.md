@@ -2,6 +2,7 @@
 title: Configure a maintenance schedule
 description: After creating a maintenance plan, define specific criteria for determining when the plan should be executed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/service-management-for-the-enterprise/planned-maintenance-family/t\_DefineAMaintSched.html
 release: zurich
 product: Planned Maintenance \(Family\)
 classification: planned-maintenance-family
@@ -181,11 +182,11 @@ Script that determines if the maintenance schedule should run. This field appear
 </td></tr></tbody>
 </table>4.  Specify whether the next planned maintenance should occur at the originally calculated time/meter value or whether to restart the meter/interval calculation from the time that the work order was completed.
 
-    See [Property settings for Planned Maintenance](../reference/planned-maint-properties.md).
+    See [Property settings for Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-management-for-the-enterprise/planned-maintenance-family/planned-maint-properties.md).
 
 
--   **[Changes to maintenance schedules](../concept/c_ChangesToMaintSched.md)**  
+-   **[Changes to maintenance schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-management-for-the-enterprise/planned-maintenance-family/c_ChangesToMaintSched.md)**  
 If you make and save changes to an existing maintenance schedule, any previously associated records are updated accordingly.
 
-**Parent Topic:**[Managing maintenance plans](../concept/c_MaintPlanMgmt.md)
+**Parent Topic:**[Managing maintenance plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-management-for-the-enterprise/planned-maintenance-family/c_MaintPlanMgmt.md)
 

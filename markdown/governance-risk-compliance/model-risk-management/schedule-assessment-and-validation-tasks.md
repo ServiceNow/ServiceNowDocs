@@ -2,6 +2,7 @@
 title: Schedule assessment and validation tasks
 description: Schedule assessment and validation tasks for model risks in the Monitor stage to ensure regulatory compliance and effective risk management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/model-risk-management/schedule-assessment-and-validation-tasks.html
 release: zurich
 product: Model Risk Management
 classification: model-risk-management
@@ -21,7 +22,7 @@ Role required: sn\_model\_risk\_mgmt.model\_governance or sn\_model\_risk\_mgmt.
 
 ## About this task
 
-You can schedule assessment and validation tasks for a model risk in the Monitor stage. You can also configure the conditions and frequency for these tasks in the model workflow settings. Based on the configuration, the assessment and validation tasks are created automatically. For more information, refer to [Configure Model Workflow Settings](create-model-workflow-settings.md).
+You can schedule assessment and validation tasks for a model risk in the Monitor stage. You can also configure the conditions and frequency for these tasks in the model workflow settings. Based on the configuration, the assessment and validation tasks are created automatically. For more information, refer to [Configure Model Workflow Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/model-risk-management/create-model-workflow-settings.md).
 
 This task guides you on how to schedule assessment and validation tasks manually from the model risk record.
 
@@ -29,13 +30,13 @@ This task guides you on how to schedule assessment and validation tasks manually
 
 1.  Navigate to **All** &gt; **Model Risk Workspace**.
 
-2.  Select the list icon ![](../../grc-compliance-case-mgmt/image/list-icon.png).
+2.  Select the list icon \[Omitted image "list-icon-mrm.png"\] Alt text:.
 
 3.  From the list, navigate to **Models** &gt; **Monitor**.
 
 4.  Select the model record to schedule assessment and validation tasks.
 
-5.  Select **Edit schedule** on the Assessment schedule or Validation schedule card.![Edit schedule button on the assessment and validation task cards.](../image/schedule-tasks.png)
+5.  Select **Edit schedule** on the Assessment schedule or Validation schedule card.\[Omitted image "schedule-tasks.png"\] Alt text: Edit schedule button on the assessment and validation task cards.
 
 6.  On the Edit assessment schedule dialog, fill in the fields.
 
@@ -195,8 +196,8 @@ Time unit for the custom interval. The options are as follows:-   **Days**
 This field appears only when **Custom** is selected from **Frequency** field.
 
 </td></tr></tbody>
-</table>8.  To use the frequency defined in the Model workflow settings, select **Revert to default frequency**.![Revert to default frequency button.](../image/revert-to-default-frequency.png)
+</table>8.  To use the frequency defined in the Model workflow settings, select **Revert to default frequency**.\[Omitted image "revert-to-default-frequency.png"\] Alt text: Revert to default frequency button.
 
 
-**Parent Topic:**[Using Model Risk Management](../concept/using-mrm.md)
+**Parent Topic:**[Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/model-risk-management/using-mrm.md)
 

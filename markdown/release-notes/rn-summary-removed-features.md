@@ -2,10 +2,13 @@
 title: Removed features and products in Zurich
 description: Cumulative release notes summary on features that were removed from Zurich features and products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/rn-summary-removed-features.html
 release: zurich
+product: Release Notes
+classification: release-notes
 topic_type: reference
-last_updated: "2026-04-08"
-reading_time_minutes: 3
+last_updated: "2026-06-12"
+reading_time_minutes: 2
 breadcrumb: [Release notes summaries for Zurich features, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -110,13 +113,13 @@ Now Assist for Creator
 
 </td><td>
 
-[Zurich Patch 6](../quality/zurich-patch-6.md)
+[Zurich Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-6.md)
 
 -   Spoke generation has been removed from Now Assist for Creator. See the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website for additional information.
 
-[Zurich Patch 4](../quality/zurich-patch-4.md)
+[Zurich Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-4.md)
 
--   Starting with version 28.4.3 of Now Assist for Creator, the now.assist.creator role has been removed as a required role for using most Now Assist for Creator skills and agents. Some skills and agents might have additional role requirements. See the [Now Assist for Creator](https://www.servicenow.com/docs/access?context=now-assist-for-creator-landing&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US) product documentation for more information.
+-   Starting with version 28.4.3 of Now Assist for Creator, the now.assist.creator role has been removed as a required role for using most Now Assist for Creator skills and agents. Some skills and agents might have additional role requirements. See the  product documentation for more information.
 
 </td></tr><tr><td>
 
@@ -154,7 +157,7 @@ ServiceNow SDK
 
 </td><td>
 
--   The `now-sdk upgrade` command has been removed. To upgrade the version of the ServiceNow SDK, see [Upgrade the ServiceNow SDK](https://www.servicenow.com/docs/access?context=upgrade-servicenow-sdk&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+-   The `now-sdk upgrade` command has been removed. To upgrade the version of the ServiceNow SDK, see .
 
 </td></tr><tr><td>
 
@@ -175,5 +178,5 @@ Upgrade Console
 -   Removed the Ready your environment step in the pre-upgrade activities on a production instance.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Zurich features](../release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Zurich features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/release-notes-summaries.md)
 

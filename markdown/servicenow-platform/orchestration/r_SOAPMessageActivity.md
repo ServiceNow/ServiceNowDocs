@@ -2,6 +2,7 @@
 title: SOAP Message workflow activity
 description: The SOAP Message activity uses SOAP messages defined in the System Web Services plugin and can call the messages using a MID Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/orchestration/r\_SOAPMessageActivity.html
 release: zurich
 product: Orchestration
 classification: orchestration
@@ -105,7 +106,7 @@ midserver
 
 </td><td>
 
-Name of the MID Server to use. This field appears when you select the **Use MID Server** check box. The workflow ignores this parameter if the **use\_midserver** parameter is disabled.**Note:** You can only select a specific MID Server in the legacy SOAP message activity and REST messages. These legacy activities do not use the [MID Server selection](../../../product/mid-server/concept/c_MIDServerSelector.md) available starting with the Istanbul release.
+Name of the MID Server to use. This field appears when you select the **Use MID Server** check box. The workflow ignores this parameter if the **use\_midserver** parameter is disabled.**Note:** You can only select a specific MID Server in the legacy SOAP message activity and REST messages. These legacy activities do not use the [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/c_MIDServerSelector.md) available starting with the Istanbul release.
 
 </td></tr><tr><td>
 
@@ -120,5 +121,5 @@ sensor\_script
 The script to execute after the request has been made and a response has been received. You can access the full XML response body from the activity.output object.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Deprecated Orchestration activities](r_OrchestrationBasicActivities.md)
+</table>**Parent Topic:**[Deprecated Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/r_OrchestrationBasicActivities.md)
 

@@ -2,6 +2,7 @@
 title: Define an API resource request structure
 description: Add a schema to a REST request record to define the request's expected data structure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-api-explorer/add-schema-rest-api-request.html
 release: zurich
 product: REST API Explorer
 classification: rest-api-explorer
@@ -23,7 +24,7 @@ Role required: web\_service\_admin
 
 ## About this task
 
-The following procedure describes the process for manually adding a request schema to a resource. For details about automatically generating request schema definitions in non-production instances, see [Automatically generate API request definitions](autogenerate-api-request-definitions.md).
+The following procedure describes the process for manually adding a request schema to a resource. For details about automatically generating request schema definitions in non-production instances, see [Automatically generate API request definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/autogenerate-api-request-definitions.md).
 
 ## Procedure
 
@@ -31,15 +32,15 @@ The following procedure describes the process for manually adding a request sche
 
     If you navigate through a scripted REST API record, most fields in the REST Request record are pre-populated.
 
-<table id="choicetable_ehs_g3d_j3c"><thead><tr><th align="left" id="d450878e70">
+<table id="choicetable_ehs_g3d_j3c"><thead><tr><th align="left" id="d318338e70">
 
 Option
 
-</th><th align="left" id="d450878e73">
+</th><th align="left" id="d318338e73">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d450878e79">
+</th></tr></thead><tbody><tr><td id="d318338e79">
 
 **Navigate through a scripted REST API record**
 
@@ -51,7 +52,7 @@ Procedure
 4.  In the **Request Schema** tab, select **New**.
 
 
-</td></tr><tr><td id="d450878e127">
+</td></tr><tr><td id="d318338e127">
 
 **Navigate directly to a new REST Request record**
 
@@ -74,7 +75,7 @@ Procedure
 
 ## Result
 
-The schema you used to define the request body structure is included in the exportable OpenAPI specification in the REST API Explorer. For more information about exporting OpenAPI specifications, see [Export to OpenAPI specification](../../inbound-rest/task/export-openapi-specification.md).
+The schema you used to define the request body structure is included in the exportable OpenAPI specification in the REST API Explorer. For more information about exporting OpenAPI specifications, see [Export to OpenAPI specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/export-openapi-specification.md).
 
-**Parent Topic:**[Create a scripted REST API](t_CreateAScriptedRESTService.md)
+**Parent Topic:**[Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/t_CreateAScriptedRESTService.md)
 

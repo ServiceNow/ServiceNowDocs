@@ -2,6 +2,7 @@
 title: Add a catalog item
 description: Service Catalog enables you to add a catalog item to multiple catalogs and categories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/t\_AssignItemToAddlCatalogsCategory.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -35,8 +36,8 @@ Within an item:
     **Note:** The values in these lists override the values of the **Catalogs** **** and **Category** fields in the catalog item form. If you change values for either related list, these changes automatically update the values in those fields.
 
 
--   **[Share catalog items across catalogs](t_ShareCatalogItemsAcrossCatalogs.md)**  
+-   **[Share catalog items across catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/t_ShareCatalogItemsAcrossCatalogs.md)**  
 You can share a catalog item, enabling users to order that item from different catalogs. For example, you can share a Password Reset item across catalogs serving different teams.
 
-**Parent Topic:**[Types of catalog items](../reference/r_ExtendedCatalogItemFunctions.md)
+**Parent Topic:**[Types of catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/r_ExtendedCatalogItemFunctions.md)
 

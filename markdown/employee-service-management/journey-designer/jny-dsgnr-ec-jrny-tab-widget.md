@@ -2,6 +2,7 @@
 title: Add Journey designer widget
 description: The Journey designer widget is not on the Employee Center home page by default. An administrator must add it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/jny-dsgnr-ec-jrny-tab-widget.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -41,5 +42,5 @@ Verify that the widget is available in your organization's Employee Center porta
 1.  Login as a user that has permissions to view or modify journeys.
 2.  Verify that the title **Team journeys** is visible.
 
-**Parent Topic:**[Employee Center \(EC\) homepage journey tabs widget](../concept/jny-dsgnr-ec-hp-widget.md)
+**Parent Topic:**[Employee Center \(EC\) homepage journey tabs widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-ec-hp-widget.md)
 

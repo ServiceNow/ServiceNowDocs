@@ -2,13 +2,14 @@
 title: Assessment instance form
 description: The assessment instance form information is used to create and edit an assessment instance for a demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/assessment-instance-form-dw.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
 last_updated: "2026-02-20"
 reading_time_minutes: 1
-breadcrumb: [Form field information, Reference, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Forms, Reference, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Assessment instance form

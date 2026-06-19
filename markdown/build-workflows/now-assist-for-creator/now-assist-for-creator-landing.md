@@ -2,12 +2,13 @@
 title: Now Assist for Creator
 description: Now Assist for Creator includes generative AI skills and agents that can make developing on the ServiceNow AI Platform more efficient.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.html
 release: zurich
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Build workflows]
 ---
 
@@ -19,75 +20,75 @@ Now Assist for Creator includes generative AI skills and agents that can make de
 
 <table id="table_jb4_kgc_r1c_ddd" class="nav-card"><tbody><tr><td>
 
-[Install![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Install Now Assist for Creator.](../task/install-now-assist-for-creator.md)
+[Install\[Omitted image "bus-sdlc.svg"\] Alt text:Install Now Assist for Creator.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/install-now-assist-for-creator.md)
 
 </td><td>
 
-[App generation![](../../../reuse/icons/brand-icons/bus-application-development.svg)Generate simplified apps with AI-generated tables, experiences, and roles tailored to your text prompts.](https://www.servicenow.com/docs/access?context=sns-now-assist-app-gen-landing&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+App generation\[Omitted image "bus-application-development.svg"\] Alt text:Generate simplified apps with AI-generated tables, experiences, and roles tailored to your text prompts.
 
 </td><td>
 
-[App summary generation![](../../../reuse/icons/brand-icons/bus-news.svg)Summarize what an app does using generative AI.](https://www.servicenow.com/docs/access?context=sns-now-assist-app-summarize-landing&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+App summary generation\[Omitted image "bus-news.svg"\] Alt text:Summarize what an app does using generative AI.
 
 </td></tr><tr><td>
 
-[ATF troubleshooting agent![](../../../reuse/icons/brand-icons/bus-field-service-technician.svg)Simplify test failure diagnosis on specific metadata.](https://www.servicenow.com/docs/access?context=atf-troubleshooting-agent-landing-page&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+ATF troubleshooting agent\[Omitted image "bus-field-service-technician.svg"\] Alt text:Simplify test failure diagnosis on specific metadata.
 
 </td><td>
 
-[Build Agent![](../../../reuse/icons/brand-icons/bus-rocketship.svg)Generate a complete scoped application, including core logic and user interface components, in the ServiceNow IDE.](https://www.servicenow.com/docs/access?context=build-agent&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+Build Agent\[Omitted image "bus-rocketship.svg"\] Alt text:Generate a complete scoped application, including core logic and user interface components, in the ServiceNow IDE.
 
 </td><td>
 
-[Catalog item generation![](../../../reuse/icons/brand-icons/bus-service-catalog.svg)Generate catalog items using generative AI.](https://www.servicenow.com/docs/access?context=now-assist-for-catalog-generation&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+Catalog item generation\[Omitted image "bus-service-catalog.svg"\] Alt text:Generate catalog items using generative AI.
 
 </td></tr><tr><td>
 
-[Code generation![](../../../reuse/icons/brand-icons/bus-start-developing.svg)Get help writing scripts quickly with AI-generated code based on text or code prompts.](https://www.servicenow.com/docs/access?context=now-assist-code-landing&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+Code generation\[Omitted image "bus-start-developing.svg"\] Alt text:Get help writing scripts quickly with AI-generated code based on text or code prompts.
 
 </td><td>
 
-[Flow generation![](../../../reuse/icons/brand-icons/bus-workflow.svg)Create multiple step flows with generative AI](../reference/flow-generation-landing.md)
+[Flow generation\[Omitted image "bus-workflow.svg"\] Alt text:Create multiple step flows with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/flow-generation-landing.md)
 
 </td><td>
 
-[Flow recommendations![](../../../reuse/icons/brand-icons/bus-innovation.svg)Generate recommendations for the next step of a flow.](../reference/flow-recommendations-landing.md)
+[Flow recommendations\[Omitted image "bus-innovation.svg"\] Alt text:Generate recommendations for the next step of a flow.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/flow-recommendations-landing.md)
 
 </td></tr><tr><td>
 
-[Flow summarization![](../../../reuse/icons/brand-icons/bus-news.svg)Summarize what a flow or subflow does with generative AI.](exploring-flow-summarization.md)
+[Flow summarization\[Omitted image "bus-news.svg"\] Alt text:Summarize what a flow or subflow does with generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 
 </td><td>
 
-[Playbook generation![](../../../reuse/icons/brand-icons/bus-service-aware.svg)Generate playbook outlines from text directions.](../../process-automation-designer/concept/playbook-assist-landing.md)
+Mobile card generation\[Omitted image "bus-mobile-phone.svg"\] Alt text:Generate cards for mobile applications.
 
 </td><td>
 
-[Process Mining![](../../../reuse/icons/brand-icons/bus-elevate.svg)Identify the work notes and generate insights about inefficiencies, challenges, and other reasons that cause reassignment of work.](https://www.servicenow.com/docs/access?context=now-assist&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US)
+[Playbook generation\[Omitted image "bus-service-aware.svg"\] Alt text:Generate playbook outlines from text directions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/playbook-assist-landing.md)
 
 </td></tr><tr><td>
 
-[RPA bot generation ![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Create automations, activities, and add automation logic from text instructions and preview options.](https://www.servicenow.com/docs/access?context=rpa-bot-generation&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)
+Process Mining\[Omitted image "bus-elevate.svg"\] Alt text:Identify the work notes and generate insights about inefficiencies, challenges, and other reasons that cause reassignment of work.
 
 </td><td>
 
-[Spoke generation![](../../../reuse/icons/brand-icons/bus-endpoint.svg)Create spoke from third-party API documentation snippets.](now-assist-in-spk-gen.md)
+RPA bot generation \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Create automations, activities, and add automation logic from text instructions and preview options.
 
 </td><td>
 
-[Test generation ![](../../test-generation/image/test-generation-icon.png)Automate test creation from simple descriptions with AI-powered test generation.](https://www.servicenow.com/docs/access?context=test-generation-intro&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+Test generation \[Omitted image "test-generation-icon.png"\] Alt text:Automate test creation from simple descriptions with AI-powered test generation.
 
 </td></tr><tr><td>
 
-[Theme creation![](../../../reuse/icons/brand-icons/bus-customize.svg)Generate themes from images directly in Theme Builder.](https://www.servicenow.com/docs/access?context=theme-creation-with-ai&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
+Theme creation\[Omitted image "bus-customize.svg"\] Alt text:Generate themes from images directly in Theme Builder.
 
 </td><td>
 
-[UI generation![](../../../reuse/icons/brand-icons/bus-app-creator.svg)Create experiences by describing what you want using natural language.](https://www.servicenow.com/docs/access?context=ui-generation-landing&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+UI generation\[Omitted image "bus-app-creator.svg"\] Alt text:Create experiences by describing what you want using natural language.
 
 </td><td>
 
- 
+Widget generation and updation\[Omitted image "bus-asset.svg"\] Alt text:Create and modify widgets via natural language prompts.
 
 </td></tr></tbody>
 </table>**Important:**
@@ -107,7 +108,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect skill usage metrics. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect skill usage metrics. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+For more information, see the Now Assist documentation.
 

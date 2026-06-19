@@ -2,6 +2,7 @@
 title: Dynamic task bundling
 description: You can create policies and rules to bundle tasks automatically with Field Service Task Bundling.Policies dictate how many work order tasks should be grouped per bundle, as well as the maximum duration of bundles.Rules specify the parameters for which work order tasks should be bundled.Administrators can enable the Dynamic Bundling before Dynamic Scheduling\(com.snc.dynamic.scheduling.bundle\_before\_scheduling\) property to ensure bundles are generated before dynamic scheduling.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/dynamic-task-bundling.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -17,7 +18,7 @@ You can create policies and rules to bundle tasks automatically with Field Servi
 
 Dynamic task bundling enables administrators to create policies and rules to bundle tasks automatically according to custom criteria.
 
-For information about the policies and rules installed with Field Service Task Bundling, see [Field Service Task Bundling components](../reference/task-bundling-components.md).
+For information about the policies and rules installed with Field Service Task Bundling, see [Field Service Task Bundling components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/task-bundling-components.md).
 
 ## Policies
 
@@ -33,7 +34,7 @@ A policy consists of multiples rules. Policies have the following restrictions:
 
 ### Qualifiers
 
-Qualifiers dictate which work order tasks are targeted for bundling. By default, qualifiers are based on assignment groups. If [Field Service Territory Planning](territory-planning-fsm.md) is active, qualifiers are based on territories.
+Qualifiers dictate which work order tasks are targeted for bundling. By default, qualifiers are based on assignment groups. If [Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/territory-planning-fsm.md) is active, qualifiers are based on territories.
 
 Qualifiers have the following restrictions:
 

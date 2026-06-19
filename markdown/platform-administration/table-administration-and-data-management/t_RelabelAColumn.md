@@ -2,6 +2,7 @@
 title: Relabel a column
 description: Sometimes, two different tables may have fields of the same name that are both important \(such as two tables with a sys\_updated\_on field\). For clarity, relabel one of the fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/t\_RelabelAColumn.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -41,9 +42,9 @@ To create clear reports, relabel the fields on the Database View \[sys\_db\_view
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Joining tables using database views](c_CreatingDatabaseViews.md)
+**Parent Topic:**[Joining tables using database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_CreatingDatabaseViews.md)
 
-**Previous topic:**[Specify a field to return](../concept/c_SpecifyAFieldToReturn.md)
+**Previous topic:**[Specify a field to return](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_SpecifyAFieldToReturn.md)
 
-**Next topic:**[Configuring the number of records to return](../concept/c_SpecifyTheNumberOfRecordsToReturn.md)
+**Next topic:**[Configuring the number of records to return](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_SpecifyTheNumberOfRecordsToReturn.md)
 

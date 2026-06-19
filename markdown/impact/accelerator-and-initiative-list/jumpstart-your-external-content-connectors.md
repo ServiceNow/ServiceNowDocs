@@ -2,6 +2,7 @@
 title: Jumpstart Your External Content Connectors
 description: This accelerator provides a demonstration of the possibilities and capabilities of External Content Connectors \(XCC\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/jumpstart-your-external-content-connectors.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

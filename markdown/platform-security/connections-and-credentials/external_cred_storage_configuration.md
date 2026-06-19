@@ -2,6 +2,7 @@
 title: External credential storage configuration
 description: Configure your instance to obtain credentials from a remote repository.Create a JAR file to resolve credential identifiers sent from the MID Server into actual credentials from the repository.Import a JAR file created to resolve credential identifiers sent from the MID Server into actual credentials from the repository.Configure the credential identifier in the instance.Configure your instance to obtain credentials from a remote repository.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/connections-and-credentials/external\_cred\_storage\_configuration.html
 release: zurich
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -21,7 +22,7 @@ These procedures assume that you already have an external repository configured 
 
 To configure External Credential Storage, complete the following tasks in order.
 
-**Parent Topic:**[External credential storage](c_ExternalCredentialStorage.md)
+**Parent Topic:**[External credential storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/c_ExternalCredentialStorage.md)
 
 ## Create a JAR file to resolve credentials
 
@@ -200,7 +201,7 @@ Import a JAR file created to resolve credential identifiers sent from the MID Se
 
 Role required: agent\_admin or admin
 
-After you [create the JAR file](external_cred_storage_configuration.md#), import it into the instance, where it becomes accessible to the MID Server.
+After you [create the JAR file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/external_cred_storage_configuration.md), import it into the instance, where it becomes accessible to the MID Server.
 
 ### Procedure
 
@@ -221,7 +222,7 @@ After you [create the JAR file](external_cred_storage_configuration.md#), import
 
 5.  Click the paper clip icon in the banner and attach the JAR file to the record.
 
-    ![The paper clip icon appears next to the Submit button.](../image/AttachingAJARFile.png "Attaching a JAR file")
+    \[Omitted image "AttachingAJARFile.png"\] Alt text: The paper clip icon appears next to the Submit button.
 
 6.  Click **Submit**.
 
@@ -240,8 +241,8 @@ Role required: admin
 
 Verify the following items:
 
--   The [External Credential Storage](../task/t_ActivateExtrnlCredStoragePlugIn.md) plugin must be active.
--   The [Enable External Credential Storage](c_ExternalCredentialStorage.md) Discovery property is enabled.
+-   The [External Credential Storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/t_ActivateExtrnlCredStoragePlugIn.md) plugin must be active.
+-   The [Enable External Credential Storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/c_ExternalCredentialStorage.md) Discovery property is enabled.
 
 ### Procedure
 
@@ -265,7 +266,7 @@ Verify the following items:
 
     2.  Create a new record using a name associated an imported JAR file for a custom credential resolver.
 
-        See the procedures [Create a JAR file to resolve credentials](external_cred_storage_configuration.md#) and [Import a JAR file to resolve credentials](external_cred_storage_configuration.md#) for information on creating a custom external credential storage vault.
+        See the procedures [Create a JAR file to resolve credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/external_cred_storage_configuration.md) and [Import a JAR file to resolve credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/external_cred_storage_configuration.md) for information on creating a custom external credential storage vault.
 
 6.  Complete the Credentials form using the fields from the following table.
 
@@ -319,7 +320,7 @@ External credential store
 
 </td><td>
 
-Select this check box to use an external credential storage system. When you select this option the **User name** and **Password** fields are replaced with the **Credential ID** field. External credential storage is only available when the [External Credential Storage plugin](../task/t_ActivateExtrnlCredStoragePlugIn.md) in activated.
+Select this check box to use an external credential storage system. When you select this option the **User name** and **Password** fields are replaced with the **Credential ID** field. External credential storage is only available when the [External Credential Storage plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/t_ActivateExtrnlCredStoragePlugIn.md) in activated.
 
 </td></tr><tr><td>
 
@@ -327,7 +328,7 @@ Credential storage vault
 
 </td><td>
 
-Choose the external credential storage vault from a list of available vaults. The menu is composed of records from the Vault Configurations \[vault\_configuration.list\]. New records can be added and use names associated with custom credential resolver JAR files. See the procedures [Create a JAR file to resolve credentials](external_cred_storage_configuration.md#) and [Import a JAR file to resolve credentials](external_cred_storage_configuration.md#) for information on creating a custom external credential storage vault.
+Choose the external credential storage vault from a list of available vaults. The menu is composed of records from the Vault Configurations \[vault\_configuration.list\]. New records can be added and use names associated with custom credential resolver JAR files. See the procedures [Create a JAR file to resolve credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/external_cred_storage_configuration.md) and [Import a JAR file to resolve credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/external_cred_storage_configuration.md) for information on creating a custom external credential storage vault.
 
 </td></tr><tr><td>
 

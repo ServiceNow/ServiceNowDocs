@@ -2,6 +2,7 @@
 title: Script Includes installed with SLA Timer Config API
 description: When SLA Timer Config API is activated, script includes are installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-level-management/sla-timer-rest-api.html
 release: zurich
 product: Service Level Management
 classification: service-level-management
@@ -21,5 +22,5 @@ SLA Timer Config API adds the following script includes.
 |--------------|-----------|
 |SLATimerConfigAPI|This script includes provides various functions to process and identify the task SLA that is about to breach.|
 
-**Parent Topic:**[Activate Service Level Management - SLA Timer Config API](../task/activate-sla-timer-config-api.md)
+**Parent Topic:**[Activate Service Level Management - SLA Timer Config API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-level-management/activate-sla-timer-config-api.md)
 

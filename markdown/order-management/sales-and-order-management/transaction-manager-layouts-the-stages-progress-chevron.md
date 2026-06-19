@@ -2,6 +2,7 @@
 title: Transaction Manager: Layouts - the stages progress chevron
 description: You can configure a progress bar using layout JSON or YAML and define it either statically or dynamically. See code snippets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/transaction-manager-layouts-the-stages-progress-chevron.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

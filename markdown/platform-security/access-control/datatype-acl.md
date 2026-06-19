@@ -2,6 +2,7 @@
 title: Datatype ACL
 description: The datatype ACL enables you to write ACL rules that apply to all fields of a specific type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/datatype-acl.html
 release: zurich
 product: Access Control
 classification: access-control
@@ -19,7 +20,7 @@ Datatype ACLs provide a targetted approach to access controls by restricting tab
 
 Conventional field ACLs are limited to specific table-field identifiers, all fields in a table, or all tables with a specific field name, in contrast the datatype ACLs enable you to apply security uniformly across fields that share certain metadata. This helps prevent creating additional ACLs to apply security uniformly across all fields.
 
-When implementing datatype ACLs, its essential to validate all affected fields before and after adding them to avoid unexpected security issues. See [Create a datatype ACL](../task/create-a-datatype-acl.md) to create your own datatype ACL.
+When implementing datatype ACLs, its essential to validate all affected fields before and after adding them to avoid unexpected security issues. See [Create a datatype ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/create-a-datatype-acl.md) to create your own datatype ACL.
 
 To review existing datatype ACLs navigate to **All** &gt; **System Security** &gt; **Access Controls** and use the **Name** field to search for ACLs that start with `*.[`.
 

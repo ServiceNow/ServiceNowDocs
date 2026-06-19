@@ -2,6 +2,7 @@
 title: Perform an automatic observable enrichment in Microsoft Defender for Endpoint
 description: Perform an automatic observable enrichment in Microsoft Defender for Endpoint to enrich observables with additional information from various sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/observable-enrichment-ms-defender-endpoint.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

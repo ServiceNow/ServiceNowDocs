@@ -2,6 +2,7 @@
 title: Assign the Azure AD test user
 description: Assign the Azure AD test user that is created to use Azure single sign-on by granting access to ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/assign-the-azure-ad-test-user.html
 release: zurich
 product: Authentication
 classification: authentication

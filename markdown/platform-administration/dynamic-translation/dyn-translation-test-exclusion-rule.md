@@ -2,6 +2,7 @@
 title: Test Exclusion Rule
 description: Test Exclusion Rule in Dynamic Translation enables you to test your exclusion pattern manually. You can check whether the pattern accurately excludes a text string from translation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/dynamic-translation/dyn-translation-test-exclusion-rule.html
 release: zurich
 product: Dynamic Translation
 classification: dynamic-translation
@@ -17,7 +18,7 @@ Test Exclusion Rule in Dynamic Translation enables you to test your exclusion pa
 
 ## Before you begin
 
-At least one additional language must be available on your instance. For more information about installing languages, see [Activate a language](../../localization/task/t_ActivateALanguage.md).
+At least one additional language must be available on your instance. For more information about installing languages, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/t_ActivateALanguage.md).
 
 Role required: admin
 
@@ -34,7 +35,7 @@ You can select a target language from among the languages enabled on the instanc
 
 You can test iteratively to refine your exclusion pattern.
 
-![Test Exclusion Rule is highlighted in the navigation.](../image/dyn-translation-test-exclusion-rule1Z.png "Navigation for Test Exclusion Rule")
+\[Omitted image "dyn-translation-test-exclusion-rule1Z.png"\] Alt text: Test Exclusion Rule is highlighted in the navigation.
 
 ## Procedure
 
@@ -44,23 +45,23 @@ You can test iteratively to refine your exclusion pattern.
 
 2.  Select the appropriate option for the first question, **Do you want to test an existing or new exclusion rule?**
 
-<table id="choicetable_smp_tfm_tfc"><thead><tr><th align="left" id="d189800e136">
+<table id="choicetable_smp_tfm_tfc"><thead><tr><th align="left" id="d90177e136">
 
 Option
 
-</th><th align="left" id="d189800e139">
+</th><th align="left" id="d90177e139">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d189800e145">
+</th></tr></thead><tbody><tr><td id="d90177e145">
 
 **Existing exclusion rule**
 
 </td><td>
 
-If you choose this option, the next field opens: **Which exclusion pattern would you like to test?** Select your pattern from the list, or use the field's search function.The information icon \(![Information icon.](../../localization-framework/image/information-icon.png)\) offers a read-only summary of the selected rule.
+If you choose this option, the next field opens: **Which exclusion pattern would you like to test?** Select your pattern from the list, or use the field's search function.The information icon \(\[Omitted image "information-icon.png"\] Alt text: Information icon.\) offers a read-only summary of the selected rule.
 
-</td></tr><tr><td id="d189800e163">
+</td></tr><tr><td id="d90177e163">
 
 **New exclusion rule**
 
@@ -77,7 +78,7 @@ If you choose this option, two fields and a button appear on the form. 1.  **Rul
 
 
 </td></tr></tbody>
-</table>    ![The Test Exclusion Rule form with New exclusion rule and Pattern Match selected.](../image/dyn-translation-test-exclusion-rule2Z.png "Use Pattern match for regular expressions")
+</table>    \[Omitted image "dyn-translation-test-exclusion-rule2Z.png"\] Alt text: The Test Exclusion Rule form with New exclusion rule and Pattern Match selected.
 
 3.  **Target language**: Select a language from the languages installed on your instance.
 
@@ -85,14 +86,14 @@ If you choose this option, two fields and a button appear on the form. 1.  **Rul
 
 4.  **Input**: In the source language, enter text containing the string that you want your exclusion pattern or term to match, then select **Submit**.
 
-    ![The Test Exclusion Rule form with an Existing exclusion rule selected and a sample utterance in the Input field.](../image/dyn-translation-test-exclusion-rule3Z.png "Testing an Existing exclusion rule (exact match)")
+    \[Omitted image "dyn-translation-test-exclusion-rule3Z.png"\] Alt text: The Test Exclusion Rule form with an Existing exclusion rule selected and a sample utterance in the Input field.
 
 
 ## Result
 
 The input is translated into the target language, but the part that matched the exclusion pattern remains in the source language. The result is a mix of translated and untranslated text. The match is highlighted in bold font.
 
-![The sample input is translated from English to Spanish. The match is highlighted with bold font.](../image/dyn-translation-test-exclusion-rule4Z.png "Results of Test Exclusion Rule")
+\[Omitted image "dyn-translation-test-exclusion-rule4Z.png"\] Alt text: The sample input is translated from English to Spanish. The match is highlighted with bold font.
 
 If your test pattern did not match any part of the input, the result displays a translation with no bold font.
 
@@ -102,7 +103,7 @@ When testing variations of existing rules, temporarily deactivating similar rule
 
 ## What to do next
 
-If you chose **New exclusion rule**, you can create a rule based on the exclusion pattern that you tested. For more information see [Add new rules to Exclusion Framework](dyn-translation-add-exclusion-rule.md).
+If you chose **New exclusion rule**, you can create a rule based on the exclusion pattern that you tested. For more information see [Add new rules to Exclusion Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/dyn-translation-add-exclusion-rule.md).
 
-**Parent Topic:**[Exclusion Framework in Dynamic Translation](../concept/dyn-translation-exclusion-framework.md)
+**Parent Topic:**[Exclusion Framework in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/dyn-translation-exclusion-framework.md)
 

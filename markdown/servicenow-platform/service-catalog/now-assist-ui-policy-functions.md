@@ -2,6 +2,7 @@
 title: Now Assist: UI policy functions
 description: Now Assist can generate UI policies with multiple actions from simple natural language.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/now-assist-ui-policy-functions.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -56,5 +57,5 @@ Now Assist also picks up on natural conversational phrases to understand when yo
 
 If a new instruction contradicts an existing UI policy, for example, one policy says "If RAM is 8GB, set color to red" and you now ask it to "set color to blue" under the same condition, Now Assist flags the conflict rather than overwriting silently. It will ask you to confirm how you want to proceed, for example: "There is an existing UI policy with a conflicting action for this condition. Do you still want to proceed with creating this action?" This ensures that changes are always intentional and nothing gets overwritten by mistake.
 
-**Parent Topic:**[Catalog item generation reference](catalog-item-generation-reference.md)
+**Parent Topic:**[Catalog item generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/catalog-item-generation-reference.md)
 

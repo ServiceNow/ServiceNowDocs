@@ -2,6 +2,7 @@
 title: Managing portfolio plans in Strategic Planning Workspace
 description: Create personalized portfolio plans in Strategic Planning Workspace and enable focused planning of work in the desired perspective \(lens\) to drive alignment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/managing-portfolio-plans-in-alignment-planner-workspace.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -18,20 +19,20 @@ Create personalized portfolio plans in Strategic Planning Workspace and enable f
 
 The following sections guide you on creating, updating, sharing, and collaborating with portfolio plans in Strategic Planning Workspace.
 
--   **[Create a high-level portfolio plan](../task/high-level-portfolio-plan-strategic-wkspc.md)**  
+-   **[Create a high-level portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/high-level-portfolio-plan-strategic-wkspc.md)**  
 Build a portfolio plan for high-level strategic items in the Strategic Planning Workspace so that you can prioritize, roadmap, and manage work aligned to these strategic items.
--   **[Create a portfolio plan](../task/create-portfolio-plans-in-alignment-planner-workspace.md)**  
+-   **[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md)**  
 Use lens and build a personalized portfolio plan in Strategic Planning Workspace so that you can start to prioritize and align work.
--   **[Duplicate a portfolio plan](../task/copy-portfolio-plan-in-strategic-planning.md)**  
+-   **[Duplicate a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/copy-portfolio-plan-in-strategic-planning.md)**  
 Create a portfolio plan with the data of an existing portfolio plan. If the portfolio plan you want to create is similar to an existing portfolio plan, duplicating the existing portfolio plan saves your time. You can also duplicate portfolio plans that were shared with you either with view or edit access.
--   **[Modify a portfolio plan](../task/modify-the-details-of-a-portfolio-plan-alignment-planner-workspace.md)**  
+-   **[Modify a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/modify-the-details-of-a-portfolio-plan-alignment-planner-workspace.md)**  
 Update the details of a portfolio plan in Strategic Planning Workspace or delete it, to reflect the changes in your planning priorities.
--   **[Show or hide the features for a portfolio plan](../task/show-or-hide-the-features-for-your-portfolio-plan-spw.md)**  
+-   **[Show or hide the features for a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/show-or-hide-the-features-for-your-portfolio-plan-spw.md)**  
 As a portfolio manager, show or hide the features \(for example, Goals, Scoring, Prioritization, Roadmap, and so on\) for your portfolio plan as needed so that you can share only the required data with your stakeholders.
--   **[Share a portfolio plan with stakeholders](../task/share-portfolio-plan-alignment-planner-workspace.md)**  
+-   **[Share a portfolio plan with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/share-portfolio-plan-alignment-planner-workspace.md)**  
 Share your portfolio plan with stakeholders and other planning managers so that they have visibility into the plan's progress and start collaborating.
--   **[Collaborate on a portfolio plan](../task/collaborate-stakeholders-portfolio-plan-alignment-planner-workspace.md)**  
+-   **[Collaborate on a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/collaborate-stakeholders-portfolio-plan-alignment-planner-workspace.md)**  
 Add comments and attachments to your portfolio plan so that users can review and share their feedback. Collaborate with stakeholders and drive shared outcomes.
 
-**Parent Topic:**[Portfolio Planning in Strategic Planning Workspace](planning-in-spw.md)
+**Parent Topic:**[Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/planning-in-spw.md)
 

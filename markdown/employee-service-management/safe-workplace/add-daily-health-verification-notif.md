@@ -2,6 +2,7 @@
 title: Add an email notification for daily health verification
 description: Add an Employee Readiness Surveys email notification to use for sending the survey link.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/add-daily-health-verification-notif.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace
@@ -45,7 +46,7 @@ Role required: admin
 
     The following figure shows example settings for the Daily Health Verification base system notification.
 
-    ![The When to send tab in the Daily Health Verification notification.](../image/daily-health-verif-when-send-notif.png)
+    \[Omitted image "daily-health-verif-when-send-notif.png"\] Alt text: The When to send tab in the Daily Health Verification notification.
 
 6.  On the Who will receive tab, open **Users/Groups in fields** and select **Assigned to**.
 
@@ -60,5 +61,5 @@ Role required: admin
 11. Select **Update**.
 
 
-**Parent Topic:**[Employee Health Screening](../../employee-health-screening/concept/employee-health-screening.md)
+**Parent Topic:**[Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/employee-health-screening.md)
 

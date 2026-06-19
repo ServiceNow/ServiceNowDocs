@@ -2,6 +2,7 @@
 title: Data Owner Home view in Service Graph Workspace
 description: Data Owner Home view in Service Graph Workspace provides a filtered view for data owner users who own, manage, or support CIs. It provides those users with a simple method to browse their CIs, view health, related activity associated with their CIs, understand what their CIs support, and access to actions they're authorized to use for their CIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-data-owner-home-view.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -97,10 +98,10 @@ You can perform the following actions on the Data Owner Home view:
 -   Filter the data that shows in the CMDB data cards, by:
     -   Association: Select **CIs I own** to show only those CIs that you own \(CIs in which **owned\_by** is equal to the data owner user\). Select **CIs I manage** to show only those CIs that you manage or that are managed by a group that you're a member of \(CIs in which **managed\_by** is equal to one of the groups that the data owner user belongs to\). Or, select **All association types** to show both types.
     -   Classes: Select a CI class derived from the CIs specified by the association filter, or **All classes**. This filter is applied on top of the association filter.
--   Personalize the list of the CIs included in the view. You can specify conditions that limit which CIs are included, you can sort and group the list, and select a CI from the list to show it in CI Form. For more information about CI Form, see [Manage CI details using CI Form in Service Graph Workspace](ci-form-sg-workspace.md).
+-   Personalize the list of the CIs included in the view. You can specify conditions that limit which CIs are included, you can sort and group the list, and select a CI from the list to show it in CI Form. For more information about CI Form, see [Manage CI details using CI Form in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ci-form-sg-workspace.md).
 -   Select related items to open a list view of the associated records.
 -   Select the Related items settings icon in the Related activity tab and select and arrange which related items categories appear in the cards in the Related activity tab.
--   Select **CMDB Health Settings** in the Health card on the CMDB data tab to configure CMDB Health preferences. For more information, see [Configuring CMDB Health](c_CMDBHealthSetupandConfig.md).
+-   Select **CMDB Health Settings** in the Health card on the CMDB data tab to configure CMDB Health preferences. For more information, see [Configuring CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealthSetupandConfig.md).
 -   Select a tool in the Recommended tools card in the Insights &amp; Actions pane.
 -   In the CIs list, select an action such as Edit, Export, New, or select the More Actions icon and then select **Personalize fields**.
 -   An Administrator can configure which related items appear in the Related activity summary card in the Actions &amp; Insights panel.

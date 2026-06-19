@@ -2,6 +2,7 @@
 title: Implementing normalization data services using guided setup
 description: You can implement Normalization Data Services using a guided setup.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/user-administration/implementing-normalization-data-services-using-guided-setup.html
 release: zurich
 product: User Administration
 classification: user-administration
@@ -15,13 +16,13 @@ breadcrumb: [Normalization data services, Creating users, companies, departments
 
 You can implement Normalization Data Services using a guided setup.
 
-Normalization Data Services guided setup provides a sequence of tasks that help you configure the Normalization Data Services plugin on your instance. To open Normalization Data Services guided setup, navigate to **Normalization Data Services** &gt; **Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+Normalization Data Services guided setup provides a sequence of tasks that help you configure the Normalization Data Services plugin on your instance. To open Normalization Data Services guided setup, navigate to **Normalization Data Services** &gt; **Guided Setup**. For more information about using the guided setup interface, see Using guided setup.
 
 **Note:** Because the Normalization Data Services feature requires an internet connection to download mapping information, this feature isn’t supported for on-premise instances.
 
 ## Activating the plugin
 
-In the first task of the guided setup, you activate the Normalization Data Services plugin \(com.glide.data\_services\_canonicalization.client\). Activating the plugin installs all the necessary schema to support normalizing references to Company records in the customer management database \(CMDB\) and Asset Management.
+In the first task of the guided setup, you activate the Normalization Data Services plugin \(com.glide.data\_services\_canonicalization.client\). Activating the plugin installs all the necessary schema to support normalizing references to Company records in the configuration management database \(CMDB\) and Asset Management.
 
 ## Downloading normalized data
 
@@ -35,7 +36,7 @@ Some reference qualifiers may not get updated. To normalize these reference qual
 
 ## Activating normalization properties
 
-In this task, select the properties you want to activate. See [Normalization properties](../reference/r_NormalizedProperties.md).
+In this task, select the properties you want to activate. See [Normalization properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/r_NormalizedProperties.md).
 
 Enable the **Normalize existing canonical core\_company records** property if the Companies \[core\_company\] table has two or more records that were both set to Normalized \("canonical=true"\) before any mapping. This option ensures only one \[core\_company\] record is set to Normalized. When you normalize the CMDB tables later in guided setup, the normalization job reassigns the proper normalized value.
 
@@ -49,5 +50,5 @@ To finish the guided setup, complete the remaining tasks by normalizing data in 
 -   Configuration Items \(CMDB\) Model
 -   Software Asset Management tables
 
-**Parent Topic:**[Normalization data services](c_NormalizationOverview.md)
+**Parent Topic:**[Normalization data services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/c_NormalizationOverview.md)
 

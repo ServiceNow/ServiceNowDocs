@@ -2,6 +2,7 @@
 title: Amazon Web Services EC2 Windows Out Of Box permissions
 description: Amazon Web Services EC2 Windows OOB catalog items permissions
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/aws-ec2-windows-oob-permissions.html
 release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -212,5 +213,5 @@ AWS EC2 Windows with security groups deprovision
 11. DescribeInstanceTypes
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Amazon Web Services EC2 Microsoft Windows Out Of Box Catalog items](aws-ec2-microsoft-windows-out-of-box-catalogs.md)
+</table>**Parent Topic:**[Amazon Web Services EC2 Microsoft Windows Out Of Box Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/aws-ec2-microsoft-windows-out-of-box-catalogs.md)
 

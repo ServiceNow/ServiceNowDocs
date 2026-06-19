@@ -2,6 +2,7 @@
 title: Create an engagement
 description: Audit managers create engagements to manage audit information and collect entities, controls, and control tests that are relevant to the audit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/t\_CreateEngagement.html
 release: zurich
 product: Audit Management
 classification: audit-management
@@ -19,14 +20,14 @@ Audit managers create engagements to manage audit information and collect entiti
 
 Role required: sn\_audit.admin or sn\_audit.manager
 
-**Note:** For more information on engagements, see [Manage engagements](../concept/c_Engagements.md).
+**Note:** For more information on engagements, see [Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/c_Engagements.md).
 
 ## About this task
 
 To know more about how to define a control and control objective, see:
 
--   [Create a control](../../grc-policy-and-compliance/task/t_CreateAControl.md)
--   [Create a control objective](../../grc-policy-and-compliance/task/t_CreateAPolicyStatement.md)
+-   [Create a control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/t_CreateAControl.md)
+-   [Create a control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/t_CreateAPolicyStatement.md)
 
 ## Procedure
 
@@ -154,9 +155,9 @@ Audit Period Start
 
 </td><td rowspan="2">
 
-**Note:** The Audit period start and end is available from Yokohama patch 10 and Zurich patch 4 release. To enable this feature, see [Schedule job for audit date enhancement](schedule-job-for-audit-date.md).
+**Note:** The Audit period start and end is available from Yokohama patch 10 and Zurich patch 4 release. To enable this feature, see [Schedule job for audit date enhancement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/schedule-job-for-audit-date.md).
 
-To enable Audit period start and end for older version, see [Create exclusion table for audit date](create-exclusion-table-for-audit-date.md).
+To enable Audit period start and end for older version, see [Create exclusion table for audit date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/create-exclusion-table-for-audit-date.md).
 
 Enables auditing of past or future periods within an ongoing engagement. Only indicator results falling within the specified audit period will be displayed. These fields enable you to specify the time period being audited, separate from the overall Engagement time frame.
 
@@ -346,16 +347,16 @@ Confidential
 
 </td><td>
 
-Option to enable confidentiality of the record. Only the assigned users or groups of users can access the record.For more information on the confidential option, see [Confidentiality flag for audit and compliance records](../concept/confidentiality-flag-audit-pc.md).
+Option to enable confidentiality of the record. Only the assigned users or groups of users can access the record.For more information on the confidential option, see [Confidentiality flag for audit and compliance records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/confidentiality-flag-audit-pc.md).
 
 </td></tr></tbody>
 </table>3.  Select **Submit**.
 
 
--   **[Schedule job for audit date enhancement](schedule-job-for-audit-date.md)**  
+-   **[Schedule job for audit date enhancement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/schedule-job-for-audit-date.md)**  
 Scheduled Jobs are automated pieces of work that can be performed at a specific time or on a recurring schedule. Execute this scheduled job to enable enhanced audit date behavior. The audit date enhancements provide improved handling of fieldwork dates at the engagement level, making them independent of child audit task dates.
--   **[Create exclusion table for audit date](create-exclusion-table-for-audit-date.md)**  
+-   **[Create exclusion table for audit date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/create-exclusion-table-for-audit-date.md)**  
 Create exclusion lists for the various policy types used in Audit Management.
 
-**Parent Topic:**[Manage engagements](../concept/c_Engagements.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/c_Engagements.md)
 

@@ -2,6 +2,7 @@
 title: Request time off and suggest who can cover
 description: You can schedule your own time off and suggest a suitable cover from among fellow roster members.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/on-call-scheduling/schedule-time-off-and-cover-oncall.html
 release: zurich
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -29,7 +30,7 @@ Role required: itil
 
 3.  Click **Schedule Time Off** and fill in the form.
 
-    ![Schedule time off form](../image/OC_SchedTimeOff.png)
+    \[Omitted image "OC\_SchedTimeOff.png"\] Alt text: Schedule time off form
 
     |Field|Description|
     |-----|-----------|
@@ -44,5 +45,5 @@ Role required: itil
     The time off is tentatively scheduled in your On-Call calendar.
 
 
-**Parent Topic:**[Viewing schedules and request time-off](../../user-administration/concept/viewing-schedules-and-escalation.md)
+**Parent Topic:**[Viewing schedules and request time-off](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/viewing-schedules-and-escalation.md)
 

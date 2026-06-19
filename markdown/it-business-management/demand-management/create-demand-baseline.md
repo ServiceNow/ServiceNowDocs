@@ -2,6 +2,7 @@
 title: Create a baseline of a demand
 description: Create a financial baseline of a demand, which captures benefit and financial metric information \(snapshot of cost plan, benefit plan, and demand-level financial metrics\) at a particular moment in time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/demand-management/create-demand-baseline.html
 release: zurich
 product: Demand Management
 classification: demand-management
@@ -29,15 +30,15 @@ Role required: it\_demand\_manager
 
 3.  To create a financial baseline of a demand, use either of the options.
 
-<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d327550e86">
+<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d48218e86">
 
 Option
 
-</th><th align="left" id="d327550e89">
+</th><th align="left" id="d48218e89">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d327550e95">
+</th></tr></thead><tbody><tr><td id="d48218e95">
 
 **From a related link**
 
@@ -48,7 +49,7 @@ Steps
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d327550e122">
+</td></tr><tr><td id="d48218e122">
 
 **From a related list**
 
@@ -62,8 +63,8 @@ Steps
 
 </td></tr></tbody>
 </table>
--   **[Compare financial baselines of a demand](compare-baselines-of-demand.md)**  
+-   **[Compare financial baselines of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/compare-baselines-of-demand.md)**  
 You can compare baselines to review the variances in the financial data of a demand and see what changed.
 
-**Parent Topic:**[Create a demand](t_CreatingDemands.md)
+**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/t_CreatingDemands.md)
 

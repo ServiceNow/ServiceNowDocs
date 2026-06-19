@@ -2,11 +2,12 @@
 title: Configure Partner Program Relationship table
 description: With the Partner Relationship Management application, you can establish a relationship between channel partners and partner programs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configure-partner-program-relationship-table.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Data model for PRM, Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -31,10 +32,10 @@ Associate channel partners to different structured initiatives or programs using
 
 3.  On the form, fill in the fields.
 
-    To learn more about the fields on the Partner Program Relationship table and their descriptions, see [Partner program relationship table fields](../reference/partner-program-relationship-table-fields.md).
+    To learn more about the fields on the Partner Program Relationship table and their descriptions, see [Partner program relationship table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/partner-program-relationship-table-fields.md).
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Data model for Partner Relationship Management](../concept/data-model-for-partner-relationship-management.md)
+**Parent Topic:**[Data model for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/data-model-for-partner-relationship-management.md)
 

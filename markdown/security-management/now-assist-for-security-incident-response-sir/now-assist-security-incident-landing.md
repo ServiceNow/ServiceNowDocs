@@ -2,6 +2,7 @@
 title: Now Assist for Security Incident Response
 description: Security analysts can use intelligent workflows and ServiceNow generative AI skills to help them resolve security incidents. Security managers can review the context of security incidents and closure notes quickly in a concise, easy-to-read format, view post-incident analysis data, and see recommended remediation steps with the Now Assist for Security Incident Response application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/now-assist-for-security-incident-response-sir/now-assist-security-incident-landing.html
 release: zurich
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -19,15 +20,15 @@ Security analysts can use intelligent workflows and ServiceNow generative AI ski
 
 <table id="table_jlh_dgk_1cc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Now Assist for Security Incident Response](../concept/exploring-now-assist-security-incident.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/exploring-now-assist-security-incident.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Learn how to configure and activate the skills for Now Assist for Security Incident Response](../concept/configuring-now-assist-for-security-operations.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to configure and activate the skills for Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/configuring-now-assist-for-security-operations.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-supervised-machine-learning.svg)Learn how to summarize details and generate closure notes for security incidents with generative AI and Now Assist for Security Incident Response](../concept/using-now-assist-for-security.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Learn how to summarize details and generate closure notes for security incidents with generative AI and Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/using-now-assist-for-security.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -54,7 +55,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect data from security incidents, incidents, change requests, problems, and vulnerable items. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect data from security incidents, incidents, change requests, problems, and vulnerable items. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+For more information, see the Now Assist documentation.
 

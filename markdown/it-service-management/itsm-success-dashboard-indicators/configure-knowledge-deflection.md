@@ -2,6 +2,7 @@
 title: Set the refresh interval for Success Dashboard indicators
 description: Set the refresh interval to calculate the number of incidents deflected within the defined time range when a user reads the KB article recommended by the Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-success-dashboard-indicators/configure-knowledge-deflection.html
 release: zurich
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -38,8 +39,8 @@ Role required: sn\_sd.success\_dashboard\_admin
 7.  Right-click on the header and select **Save**.
 
 
--   **[Configure the knowledge base for ITSM Success Dashboard indicators](configure-knowledge-sdb.md)**  
+-   **[Configure the knowledge base for ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-success-dashboard-indicators/configure-knowledge-sdb.md)**  
 Include only the relevant knowledge bases related to IT while determining the **Self-solved using Knowledge** KPI in ITSM Success Dashboard indicators.
 
-**Parent Topic:**[ITSM Success Dashboard Admin console](../concept/admin-console-sd.md)
+**Parent Topic:**[ITSM Success Dashboard Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-success-dashboard-indicators/admin-console-sd.md)
 

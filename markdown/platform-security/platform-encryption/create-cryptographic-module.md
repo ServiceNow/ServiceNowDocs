@@ -2,6 +2,7 @@
 title: Create a cryptographic module
 description: Create a cryptographic module to define the mechanisms used for cryptographic operations. After you create the module, you create a cryptographic specification, where you define an algorithm for encryption and generates a key.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/platform-encryption/create-cryptographic-module.html
 release: zurich
 product: Platform Encryption
 classification: platform-encryption
@@ -17,13 +18,13 @@ Create a cryptographic module to define the mechanisms used for cryptographic op
 
 ## Before you begin
 
-If you're supplying your own keys, go to [Configure and upload your customer supplied key](upload-customer-supplied-key.md).
+If you're supplying your own keys, go to [Configure and upload your customer supplied key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/upload-customer-supplied-key.md).
 
 Role required: sn\_kmf.cryptographic\_manager
 
 ## About this task
 
-This procedure describes options that are available with KMF in the ServiceNow platform base system. Field Encryption Enterprise functionality is available only when the com.glide.now.platform.encryption plugin is active. See [Activate Field Encryption](../../now-platform-encryption/task/activate-platform-encryption.md) for more information on obtaining Field Encryption Enterprise. See [Create cryptographic module for Field Encryption](create-PE-cryptographic-module.md).
+This procedure describes options that are available with KMF in the ServiceNow platform base system. Field Encryption Enterprise functionality is available only when the com.glide.now.platform.encryption plugin is active. See [Activate Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/activate-platform-encryption.md) for more information on obtaining Field Encryption Enterprise. See [Create cryptographic module for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/create-PE-cryptographic-module.md).
 
 **Note:** Cryptographic module \[sys\_kmf\_crypto\_module\] records can't be deleted.
 
@@ -108,16 +109,16 @@ Life cycle refers to the creation, use, and deactivation of a cryptographic modu
 
 ## What to do next
 
-[Create a cryptographic specification](create-crypto-spec.md)
+[Create a cryptographic specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/create-crypto-spec.md)
 
 .
 
--   **[Create a cryptographic specification](create-crypto-spec.md)**  
+-   **[Create a cryptographic specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/create-crypto-spec.md)**  
 After you create a cryptographic module, create a cryptographic specification to define the module algorithms.
--   **[Configure key lifecycle states](configure-key-lifecycle-states.md)**  
+-   **[Configure key lifecycle states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/configure-key-lifecycle-states.md)**  
 After you have created a cryptographic specification, you can configure the lifecycle actions for the keys in your instance.
--   **[Generate a ServiceNow cryptographic key](generate_sn_key.md)**  
+-   **[Generate a ServiceNow cryptographic key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/generate_sn_key.md)**  
 Follow this procedure to upload and configure a ServiceNow cryptographic key to encrypt sensitive data.
 
-**Parent Topic:**[Configuring the Key Management Framework](../../encryption/concept/configure-kmf.md)
+**Parent Topic:**[Configuring the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/configure-kmf.md)
 

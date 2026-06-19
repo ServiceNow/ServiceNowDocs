@@ -2,6 +2,7 @@
 title: Create an auditable unit
 description: Create auditable units with entities such as business units, departments, vendors, products, business processes, business applications, locations, authority documents, and policies to perform risk assessments on the auditable units.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/create-auditable-unit.html
 release: zurich
 product: Audit Management
 classification: audit-management

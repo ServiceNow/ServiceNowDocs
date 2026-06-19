@@ -2,6 +2,7 @@
 title: Configure risk heatmaps
 description: Within a risk assessment methodology \(RAM\), configure the heatmap visualization for inherent and residual assessments. Use different heatmaps for different risk assessment methodologies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/configure-risk-heatmap.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -29,7 +30,7 @@ Configure the heatmap using the prepackaged heatmap widgets. Map the configured 
 
 2.  In the upper-right corner, change the selected application from Global to GRC: Advanced Risk.
 
-3.  To add widgets, select the plus ![Add widgets icon](../../grc-common-workspace/image/plus-icon.png) icon in the upper right.
+3.  To add widgets, select the plus \[Omitted image "plus-icon.png"\] Alt text: Add widgets icon icon in the upper right.
 
 4.  From the Add Widgets list, select one of the following.
 
@@ -50,5 +51,5 @@ Configure the heatmap using the prepackaged heatmap widgets. Map the configured 
 
 The selected heatmap appears on the dashboard.
 
-**Parent Topic:**[Perform Advanced Risk Assessment](../concept/use-advanced-risk-assessment.md)
+**Parent Topic:**[Perform Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/use-advanced-risk-assessment.md)
 

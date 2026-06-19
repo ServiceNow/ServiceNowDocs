@@ -2,6 +2,7 @@
 title: Activate Template Management for Field Service
 description: You can activate the Template Management for Field Service plugin \(com.snc.fsm\_template\_management\) for Field Service Management if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/activate-template-management.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -29,7 +30,7 @@ The following items are installed with Field Service Template Management:
 -   Script includes
 -   Business roles
 
-For more information, see [Template Management for Field Service components](../reference/template-management-components.md).
+For more information, see [Template Management for Field Service components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/template-management-components.md).
 
 ## Procedure
 
@@ -43,6 +44,6 @@ For more information, see [Template Management for Field Service components](../
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 

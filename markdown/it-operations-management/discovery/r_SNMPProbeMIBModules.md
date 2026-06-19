@@ -2,6 +2,7 @@
 title: SNMP probe MIB modules
 description: A management information base module \(MIB\) is a database that is used to manage elements in a network.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/r\_SNMPProbeMIBModules.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -15,7 +16,7 @@ breadcrumb: [SNMP probes, List of Discovery probes, Discovery probes and sensors
 
 A management information base module \(MIB\) is a database that is used to manage elements in a network.
 
-Your instance includes object definitions from the most common management information base \(MIB\) files. Before adding a new object definition, consult the list of MIB modules to ensure that the object definitions are not already available. The instance includes object definitions from the most common management information base \(MIB\) files. The MID Server MIB File \[ecc\_agent\_mib\] table is domain separated. You can create versions of these policies that only a MID Server from the same domain can use. For instructions, see [Set up domain separation for MID servers](https://www.servicenow.com/docs/access?context=c_MIDServerDomainSeparation&version=zurich&pubname=zurich-servicenow-platform&section=t_SetUpDomainSeparationForDiscovery&ft:locale=en-US).
+Your instance includes object definitions from the most common management information base \(MIB\) files. Before adding a new object definition, consult the list of MIB modules to ensure that the object definitions are not already available. The instance includes object definitions from the most common management information base \(MIB\) files. The MID Server MIB File \[ecc\_agent\_mib\] table is domain separated. You can create versions of these policies that only a MID Server from the same domain can use. For instructions, see Set up domain separation for MID servers.
 
 The following table contains the MIBs that load automatically. The MIBs that are bundled with the MID Server are not visible in the instance. The MIBs that are in the ecc\_agent\_mib table are included in the instance by default and can be viewed in the **MID Server** &gt; **SNMP MIBs** module.
 
@@ -50,5 +51,5 @@ The following table contains the MIBs that load automatically. The MIBs that are
 |SNMPv2-TC| |
 |UPS-MIB| |
 
-**Parent Topic:**[SNMP probes](../concept/c_SNMPProbe.md)
+**Parent Topic:**[SNMP probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_SNMPProbe.md)
 

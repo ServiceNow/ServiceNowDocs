@@ -2,6 +2,7 @@
 title: Create request change form
 description: The request change form information is used to create a request change for a demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/create-request-change-form-ppw.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning

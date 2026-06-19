@@ -2,6 +2,7 @@
 title: Set up locations
 description: If your organization supports more than one distinct location, you can configure these locations in the platform to help further identify users, assets, and incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/system-localization/t\_LocationSetup.html
 release: zurich
 product: System Localization
 classification: system-localization

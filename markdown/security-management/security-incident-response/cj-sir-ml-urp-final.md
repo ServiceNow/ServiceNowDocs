@@ -2,11 +2,12 @@
 title: Final verdict generation for User Reported Phishing
 description: Security Incident Response teams can now drive the finalized verdict for a user reported phishing record based on results from predictive intelligence and threat enrichment integrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/cj-sir-ml-urp-final.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Manage Predictive Intelligence for User Reported Phishing, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -19,13 +20,11 @@ This final verdict generation is enabled through a decision table construct and 
 
 **Prerequisites**
 
-Ensure that all the plugins listed in [Required components and plugins](cj-sir-ml-urp-comp.md) have been installed.
+Ensure that all the plugins listed in [Required components and plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/cj-sir-ml-urp-comp.md) have been installed.
 
 Navigate to **Predictive Intelligence for Phishing** &gt; **Final Verdict** &gt; **Final Verdict for Phishing Security Incident**.
 
 The **Decision Inputs** tab shows the different conditions that were evaluated to arrive at the final verdict.
-
-![User Reported Phishing: ML Config: Decision Inputs](../image/cj-sir-ml-urp-final0.png)
 
 The following conditions are available with the base system:
 
@@ -37,17 +36,13 @@ The following conditions are available with the base system:
 
 The **Decisions** tab shows the final verdict options that can be arrived at for a given security incident.
 
-![User Reported Phishing: ML Config: Decisions](../image/cj-sir-ml-urp-final1.png)
-
 The following decisions are available with the base system:
 
 -   Confirmed Phish: When the conditions have led to the final verdict as being a confirmed phishing email.
 -   Likely Phish: When the conditions have led to the final verdict as a potential phishing attempt.
 -   Likely Benign: When the conditions have led to the final verdict as a benign submission.
 
-You can see the conditions that were evaluated for each of the final verdict options. Click on the Label link to see the conditions.
-
-![User Reported Phishing: ML Config: Decision](../image/cj-sir-ml-urp-final2.png)
+You can see the conditions that were evaluated for each of the final verdict options. Select the Label link to see the conditions.
 
 You can customize the decision table provided with the base system or create your own decision table. This decision table can be leveraged in security incident response playbooks. The **Generate Final Verdict for Phishing Security Incidents** subflow is available with the base system. This subflow automatically generates the final verdict for a phishing security incident and applies a security tag based on that decision. You can include this subflow as part of the **Automated Phishing** playbook.
 
@@ -60,6 +55,4 @@ The inputs for this subflow are:
 -   sender\_email \(optional\): The email address of the sender of the phishing email.
 
 The output of this flow can be **Confirmed Phish**, **Likely Phish**, or **Likely Benign**.
-
-![User Reported Phishing: ML Config: Phishing subflow](../image/cj-sir-pi-phishing-subflow.png)
 

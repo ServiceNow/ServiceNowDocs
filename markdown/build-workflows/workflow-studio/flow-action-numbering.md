@@ -2,6 +2,7 @@
 title: Flow action numbering
 description: The action outline displays a whole number besides each action and flow logic block in a flow. You can update flows containing legacy action numbering from within Workflow Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/flow-action-numbering.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -29,11 +30,11 @@ The legacy number sequence increments each item within a flow logic block by a d
 
 Workflow Studio automatically updates the action numbering of all flows during upgrade. Whenever you open a flow that contains inline scripts, Workflow Studio checks the script for references to legacy action numbering. If the script contains legacy references, it displays a prompt to update the action numbering.
 
-![Confirmation prompt to Allow Flow Designer to update action numbering in your scripts?](../images/update-script-action-numbers-confirmation.png "Prompt to automatically update action numbers in inline scripts")
+\[Omitted image "update-script-action-numbers-confirmation.png"\] Alt text: Confirmation prompt to Allow Flow Designer to update action numbering in your scripts?
 
 The system attempts to match the actions referred to by the legacy action numbering to actions with the new numbering. Review the inline script changes to ensure that your inline scripts refer to the correct actions.
 
 **Note:** If an upgraded flow does not have the correct numbering, move the actions and flow logic to the correct sequence.
 
-**Parent Topic:**[Exploring flows](../../workflow-studio/concept/exploring-flows.md)
+**Parent Topic:**[Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-flows.md)
 

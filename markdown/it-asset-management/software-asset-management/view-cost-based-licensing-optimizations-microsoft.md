@@ -2,6 +2,7 @@
 title: View realized and potential cost-based licensing optimizations for Microsoft
 description: View the realized and potential cost-based licensing optimizations for your Microsoft software products. Gain an in-depth understanding of each licensing optimization so that you can maximize cost savings across your Microsoft deployments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/view-cost-based-licensing-optimizations-microsoft.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -31,7 +32,7 @@ You can view in-depth details about your realized and potential licensing optimi
 -   determine the cost savings that you have achieved by using the Software Asset Management application to track and manage your Microsoft licenses,
 -   and download optimization reports that you can share with other users in your organization.
 
-For more information on cost-based licensing optimizations, see [Cost-based licensing optimization for Microsoft](../concept/cost-based-microsoft-cluster-licensing.md).
+For more information on cost-based licensing optimizations, see [Cost-based licensing optimization for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/cost-based-microsoft-cluster-licensing.md).
 
 ## Procedure
 
@@ -43,8 +44,8 @@ For more information on cost-based licensing optimizations, see [Cost-based lice
 
 3.  View your realized and potential cost-based licensing optimizations for Microsoft.
 
-    The Microsoft Core License Optimization Reports \[samp\_ms\_optimization\_report\] table provides detailed information about each realized and potential licensing optimization, including the recommended license type, the recommend license consumption layer, and the potential and realized cost savings. For a detailed description of each field in this table, see [Microsoft Core License Optimization Reports fields](../reference/microsoft-core-license-optimization-report-fields.md).
+    The Microsoft Core License Optimization Reports \[samp\_ms\_optimization\_report\] table provides detailed information about each realized and potential licensing optimization, including the recommended license type, the recommend license consumption layer, and the potential and realized cost savings. For a detailed description of each field in this table, see [Microsoft Core License Optimization Reports fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/microsoft-core-license-optimization-report-fields.md).
 
 
-**Parent Topic:**[Cost-based licensing optimization for Microsoft](../concept/cost-based-microsoft-cluster-licensing.md)
+**Parent Topic:**[Cost-based licensing optimization for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/cost-based-microsoft-cluster-licensing.md)
 

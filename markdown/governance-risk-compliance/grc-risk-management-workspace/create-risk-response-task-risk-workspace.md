@@ -2,6 +2,7 @@
 title: Create a risk response task in the Risk Workspace
 description: Create a risk response task to define plan of actions, assign responsibilities, set priorities, and establish deadlines to ensure effective management of the assessed risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/create-risk-response-task-risk-workspace.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -23,7 +24,7 @@ Role required: sn\_risk\_advanced.ara\_assessor
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Select the task ![Task icon.](../../assessment-engine/image/task-icon.png) icon.
+2.  Select the task \[Omitted image "task-icon.png"\] Alt text: Task icon. icon.
 
 3.  Open a risk assessment for which you want to add a risk response task and navigate to the Risk response section.
 
@@ -42,8 +43,8 @@ Role required: sn\_risk\_advanced.ara\_assessor
 6.  Select **Save task**.
 
 
--   **[Create an action item in the risk response task](create-action-item-risk-response-task.md)**  
+-   **[Create an action item in the risk response task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/create-action-item-risk-response-task.md)**  
 Create multiple strategies with various action items for each risk response task. Action items help you to understand and focus on specific steps needed to manage risks.
 
-**Parent Topic:**[Using the Risk Workspace](../../grc-workspace-risk/concept/using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

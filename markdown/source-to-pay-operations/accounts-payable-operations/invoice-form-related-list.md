@@ -2,6 +2,7 @@
 title: Invoice form tabs
 description: The Invoice form includes tabs that store invoice information that an Accounts Payable Specialist can use to perform related tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/invoice-form-related-list.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -80,5 +81,5 @@ Goods receipts
 Displays the corresponding goods receipt information for the invoice.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create New Invoice form](create-new-invoice-form.md)
+</table>**Parent Topic:**[Create New Invoice form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/create-new-invoice-form.md)
 

@@ -2,6 +2,7 @@
 title: Cost centers related records
 description: Cost centers are related to additional records, displayed as related lists on its form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/cost-management/c\_CostCentersRelatedRecords.html
 release: zurich
 product: Cost Management
 classification: cost-management
@@ -21,7 +22,7 @@ The Cost Management plugin adds the following related lists to the cost center r
 -   CI Cost Center Relationships: Defines how much of a business service capacity this cost center is consuming.
 -   Expense Allocations: Shows all the expense allocation records that have this cost center as the target.
 
-![Cost center related lists.](../image/cost-center-related-lists.png "Cost center related lists")
+\[Omitted image "cost-center-related-lists.png"\] Alt text: Cost center related lists.
 
-**Parent Topic:**[Budgets and cost centers](c_BudgetsAndCostCenters.md)
+**Parent Topic:**[Budgets and cost centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/cost-management/c_BudgetsAndCostCenters.md)
 

@@ -2,6 +2,7 @@
 title: Activate a schedule flow
 description: Activate the schedule flow that interacts with Magnit to pull contingent workers from Magnit into the ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/activate-sch-flow-magnit.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,7 +26,7 @@ Role required: sn\_hr\_magnit.admin
 
 2.  Open **Run HRSD Magnit Integration**.
 
-    Alternatively, you can click **Run Job** in [Source for HR Service Delivery Integration with Magnit](../reference/source-magnit.md#) to pull contingent workers from Magnit into the ServiceNow AI Platform instance.
+    Alternatively, you can click **Run Job** in [Source for HR Service Delivery Integration with Magnit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/source-magnit.md) to pull contingent workers from Magnit into the ServiceNow AI Platform instance.
 
 3.  Click **Activate**.
 

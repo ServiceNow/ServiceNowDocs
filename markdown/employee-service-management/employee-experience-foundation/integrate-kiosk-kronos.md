@@ -2,6 +2,7 @@
 title: Integrate with the UKG spoke
 description: Integrate with the UKG spoke to use the Employee Center Pro Kiosk in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/integrate-kiosk-kronos.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -35,16 +36,16 @@ If you don't plan to activate the HR Service Delivery with Ultimate Kronos Group
 
 1.  Set up the UKG spoke.
 
-    -   For more information on the setup, see [Set up the](https://www.servicenow.com/docs/access?context=setup-kronos&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+    -   For more information on the setup, see .
     -   The schedule and time off data on the Employee Center Pro kiosk is enabled with the existing UKG spoke actions.
         -   **Look up Employee Schedule**: To get the shift schedule data.
         -   **Get Employee Accruals by Person Number**: To get the time off balance data.
 
-            For more information on creating requests, see [Create request as manager using the catalog item](https://www.servicenow.com/docs/access?context=kronos-serv-cat&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+            For more information on creating requests, see .
 
 
--   **[Receive employee data from UKG to the Employee Center Pro Kiosk](user-map-kronos-kiosk.md)**  
+-   **[Receive employee data from UKG to the Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/user-map-kronos-kiosk.md)**  
 Map the employee IDs between the UKG system and the Employee Center Pro Kiosk to see employee details in your organizational kiosks.
 
-**Parent Topic:**[Employee Center Pro Kiosk](../concept/deskless-kiosk-overview.md)
+**Parent Topic:**[Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md)
 

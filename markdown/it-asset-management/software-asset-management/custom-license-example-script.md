@@ -2,6 +2,7 @@
 title: Custom license metric example script
 description: The following is an example of a custom license metric script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/custom-license-example-script.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -29,5 +30,5 @@ var rightsForDevice = -1;
 }]]></script>
 ```
 
-**Parent Topic:**[Add a custom license metric](../task/add-custom-license-metric.md)
+**Parent Topic:**[Add a custom license metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/add-custom-license-metric.md)
 

@@ -2,7 +2,10 @@
 title: Consumption Report
 description: The Consumption Report provides an overview of your Impact tier features and their usage.View a concise summary of the consumption report in the Impact store application including adoption of recommended applications, active Now Support cases with response times, and usage of developer support and instance observer seats.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/ide-consumption-report.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 4
@@ -129,7 +132,7 @@ See who is available to assist with real-troubleshooting and get timely support 
 
  View additional details about developer support users such as username, access status, locked status, and access permissions by selecting the **View Users** link.
 
-**Note:** Impact developer support users are managed in Impact Delivery Instance. For more information, see [Developer Support](developer-support.md).
+**Note:** Impact developer support users are managed in Impact Delivery Instance. For more information, see [Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/developer-support.md).
 
 </td></tr></tbody>
 </table>## Gen AI based consumption report summarization
@@ -138,7 +141,7 @@ View a concise summary of the consumption report in the Impact store application
 
 ### Before you begin
 
-Configure the Now Assist consumption report summarization for Impact application to use the generative AI skills. For more information, see [Activate Now Assist skills in Now Assist for Impact](activate-now-assist-skills-in-now-assist-for-impact_0.md).
+Configure the Now Assist consumption report summarization for Impact application to use the generative AI skills. For more information, see [Activate Now Assist skills in Now Assist for Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/activate-now-assist-skills-in-now-assist-for-impact_0.md).
 
 **Note:** Access to the AI-based consumption report summarization feature requires a Pro Plus license for any ServiceNow product.
 
@@ -160,12 +163,12 @@ Use the Gen AI based consumption report summary to view the following:
 
     Now Assist generates and displays summary information for the outcome, as shown in the following example.
 
-    ![Consumption report feature overview.](../image/consumptionreport_summarization.png)
+    \[Omitted image "consumptionreport\_summarization.png"\] Alt text: Consumption report feature overview.
 
-3.  Provide feedback for the summary by selecting the thumbs-up ![](../../../reuse/icons/product-icons/thumbs-up-outline-24.svg) or thumbs-down ![](../../../reuse/icons/product-icons/thumbs-down-outline-24.svg) icons.
+3.  Provide feedback for the summary by selecting the thumbs-up \[Omitted image "thumbs-up-outline-24.svg"\] or thumbs-down \[Omitted image "thumbs-down-outline-24.svg"\] icons.
 
-4.  Copy the summary to use its information outside the app, for example, for including in an email or editing before forwarding, by selecting the Copy to clipboard icon ![Copy to clipboard](../image/copytoclipboard.png).
+4.  Copy the summary to use its information outside the app, for example, for including in an email or editing before forwarding, by selecting the Copy to clipboard icon \[Omitted image "copytoclipboard.png"\] Alt text: Copy to clipboard.
 
-5.  If you think that data might have changed after you viewed the summary, refresh the summary information by selecting the redo icon ![Refresh](../image/refresh_aisummary.png).
+5.  If you think that data might have changed after you viewed the summary, refresh the summary information by selecting the redo icon \[Omitted image "refresh\_aisummary.png"\] Alt text: Refresh.
 
 

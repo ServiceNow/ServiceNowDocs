@@ -2,7 +2,10 @@
 title: Contexts in Recommended Actions for Customer Service
 description: A context enables agents to see recommendations for records from a table when certain rules are met. These recommendations can help agents by suggesting actions to take based on the record context.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ra-csm-context-records.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -19,7 +22,7 @@ The Recommended Actions for Customer Service application provides context record
 
 The Recommended Actions for Customer Service application provides the Case Context record for the Case table.
 
-Context records include [rules](ra-csm-rules.md) and [recommendations](ra-csm-recommendations.md). The Case Context record also includes search result mapping records for the search source tables. The following tables are mapped to specific guidance actions:
+Context records include [rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ra-csm-rules.md) and [recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ra-csm-recommendations.md). The Case Context record also includes search result mapping records for the search source tables. The following tables are mapped to specific guidance actions:
 
 -   Knowledge
 -   Case
@@ -27,7 +30,7 @@ Context records include [rules](ra-csm-rules.md) and [recommendations](ra-csm-re
 -   Problem
 -   Change Request
 
-The remaining tables are mapped to the [Default guidance for search results](ra-csm-guidances-default-guidance-search.md) guidance action.
+The remaining tables are mapped to the [Default guidance for search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ra-csm-guidances-default-guidance-search.md) guidance action.
 
 ## Interaction Context record
 
@@ -35,7 +38,7 @@ The Recommended Actions for Customer Service application includes a context reco
 
 The Interaction Context record enables search based on the short description of the interaction record and displays relevant articles. The search mapping record maps knowledge results to the **Share KB in chat interactions** guidance. During chat interactions, the system accurately displays knowledge results in the Search tab in the contextual side panel.
 
-The Recommended Actions for Customer Service application also includes a search mapping record that maps all search source tables, with the exception of the Knowledge table, to the [Default guidance for search results](ra-csm-guidances-default-guidance-search.md) guidance action. During chat interactions, the system accurately displays results for the search source tables in the Search tab.
+The Recommended Actions for Customer Service application also includes a search mapping record that maps all search source tables, with the exception of the Knowledge table, to the [Default guidance for search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ra-csm-guidances-default-guidance-search.md) guidance action. During chat interactions, the system accurately displays results for the search source tables in the Search tab.
 
 Follow these steps to enable recommendations in the contextual side panel for chat interactions:
 

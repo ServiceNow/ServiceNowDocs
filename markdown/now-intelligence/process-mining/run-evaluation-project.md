@@ -2,6 +2,7 @@
 title: Run Process Mining evaluation project
 description: Run Process Mining evaluation project to familiarize with improving your process with Process Mining capability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/run-evaluation-project.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -41,7 +42,7 @@ You can run an evaluation project from Platform Analytics or Process Mining Work
 
         You will be able to view the records of the last 7 days and a maximum of 3600 records.
 
-        **Note:** To know more about the evaluation projects available in Process Mining, see [Process Mining evaluation project for Incident Management](../concept/evaluation-pm-inci-manag.md), [Process Mining evaluation project for Customer Service Management](../concept/evaluation-pm-csm.md), and [Process Mining evaluation project for Human Resources](../concept/evaluation-pm-hr.md).
+        **Note:** To know more about the evaluation projects available in Process Mining, see [Process Mining evaluation project for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/evaluation-pm-inci-manag.md), [Process Mining evaluation project for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/evaluation-pm-csm.md), and [Process Mining evaluation project for Human Resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/evaluation-pm-hr.md).
 
 2.  To run an evaluation project from Process Mining Workspace:
 
@@ -50,5 +51,5 @@ You can run an evaluation project from Platform Analytics or Process Mining Work
     2.  From the details button for the evaluation project, select **Run sample mining**.
 
 
-**Parent Topic:**[Evaluating Process Mining](../concept/evaluate-pm.md)
+**Parent Topic:**[Evaluating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/evaluate-pm.md)
 

@@ -2,6 +2,7 @@
 title: Components installed with Customer Service Problem Management
 description: Several types of components are installed with activation of the Customer Service Problem Management application, including tables, user roles, and business rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/spm-components.html
 release: zurich
 topic_type: reference
 last_updated: "2025-07-31"

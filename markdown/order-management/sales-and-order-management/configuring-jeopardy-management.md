@@ -2,6 +2,7 @@
 title: Configuring Jeopardy Management
 description: You can configure Jeopardy Management to monitor tasks in a fulfillment plan and alert managers about the jeopardy levels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configuring-jeopardy-management.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -27,7 +28,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Define Jeopardy-enabled fulfillment workflows](../task/define-jm-enabled-fulfillment-flows.md)
+[Define Jeopardy-enabled fulfillment workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/define-jm-enabled-fulfillment-flows.md)
 
 </td><td>
 
@@ -41,7 +42,7 @@ Define subflows for product and service specifications using the following Jeoap
 
 </td></tr><tr><td>
 
-[Configure the Order Jeopardy Enablement Policy](../task/enable-jeopardy-management.md)
+[Configure the Order Jeopardy Enablement Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/enable-jeopardy-management.md)
 
 </td><td>
 
@@ -49,7 +50,7 @@ Enable Jeopardy Management for product and service using the Order Jeopardy Enab
 
 </td></tr><tr><td>
 
-[Create Service Level Agreement definitions in Jeopardy Management](../task/create-sla-definitions.md)
+[Create Service Level Agreement definitions in Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-sla-definitions.md)
 
 </td><td>
 
@@ -57,7 +58,7 @@ Define service level agreements \(SLA\) based on request type and specify the pr
 
 </td></tr><tr><td>
 
-[Configuring Jeopardy Management](configuring-jeopardy-management.md)
+[Configuring Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/configuring-jeopardy-management.md)
 
 </td><td>
 

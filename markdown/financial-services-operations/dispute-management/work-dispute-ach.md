@@ -2,6 +2,7 @@
 title: Resolving ACH disputes
 description: Work on an ACH dispute case to review case information, verify that any outstanding tasks are completed, and resolve the dispute.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/work-dispute-ach.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -21,7 +22,7 @@ The Processing stage of the playbook provides transaction information such as di
 
 After a dispute case is submitted, each disputed transaction is displayed in a **Dispute Workspace**. The dispute transaction progresses through these stages: Investigate, Chargeback, and Closure. As the dispute proceeds, the appropriate stage is updated accordingly. To open a transaction in the Dispute Workspace, select the transaction number.
 
-![Dispute workspace displaying an ACH dispute.](../image/ach-dispute-processing.png)
+\[Omitted image "ach-dispute-processing.png"\] Alt text: Dispute workspace displaying an ACH dispute.
 
 -   The transactions are displayed in the **Dispute Workspace**.
 -   Each transaction progresses through a series of steps, during which a corresponding sequence of tasks is generated. The tasks are displayed in **Tasks**.
@@ -32,8 +33,8 @@ After a dispute case is submitted, each disputed transaction is displayed in a *
 -   The dispute transaction and financial transaction details are displayed in the **Disputed** transaction details and **Financial transaction details** widget.
 -   **Attachments** can be added as needed.
 
--   **[Processing an ACH dispute](process-dispute-ach.md)**  
+-   **[Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/process-dispute-ach.md)**  
 On the **Processing** tab of the card disputes playbook, all disputed transactions in an ACH dispute case are displayed on a dashboard. The tab also provides transaction information such as dispute amount, transaction date and time, merchant, transaction state, current activity, and activity SLA.
 
-**Parent Topic:**[Managing Disputes](managing-disputes.md)
+**Parent Topic:**[Managing Disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/managing-disputes.md)
 

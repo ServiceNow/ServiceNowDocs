@@ -2,6 +2,7 @@
 title: ChangeCollisionHelper - Global
 description: The ChangeCollisionHelper script include provides helper methods found in the Change Management - Collision Detector \(com.snc.change.collision\) plugin.Adds the CI to the change's affected CI list.Returns the Affected CI sys\_ids for the given change.Returns any blackout that overlap the period defined by startDate and endDate.Returns changes scheduled in the timespan \(defined by startDate and endDate\) that have the given CI in their Affected CIs list.Returns the changes that are in the timespan \(startDate, endDate\) and that are linked to the given CI.Returns the Maintenance Schedule for a CI.Returns all the CIs that depend on the given CI.Returns all the CIs that the given CI depends on.Check if an CI is already in the change's affected CIs list.Checks if the time span defined by startDate and endDate falls in the CI's maintenance window.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_ChangeCollisionHelperAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The ChangeCollisionHelper script include provides helper methods found in the Ch
 
 Use these methods in server side scripts, or when using Ajax calls on the client. You must have the Change Management - Collision Detector plugin installed to use these methods.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## ChangeCollisionHelper - addCiToChangeAffectedCis\(String ci, String changeId\)
 

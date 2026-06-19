@@ -2,6 +2,7 @@
 title: Talent Feature growth item reference
 description: Administrators create featured growth items that are used by managers and employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/egd-featured-growth-item.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -116,5 +117,5 @@ Type of feature growth item. Options are as follows:-   Select **Job Title** to 
 Criteria to target specific groups of employees to whom the feature growth item is available. Groups, created by administrators, are logical containers composed of similar users.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Talent Development Core application reference](../concept/egd-reference.md)
+</table>**Parent Topic:**[Talent Development Core application reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-reference.md)
 

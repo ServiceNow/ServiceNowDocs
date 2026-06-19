@@ -2,6 +2,7 @@
 title: Customize information on task cards and agent cards
 description: Customize the fields that appear on the task cards and agent cards to display certain information in Dispatcher Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/personalize-information-on-task-card.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -31,11 +32,11 @@ On the task cards and agent cards, the administrator has to configure what field
 
 3.  Customize the information to be presented on the card.
 
-    -   For task cards, click Settings icon \(![Settings icon.](../image/IconPersonalizeList.png)\) and then select the **Tasks** tab.
-    -   For agent cards, click Settings icon \(![Settings icon.](../image/IconPersonalizeList.png)\) and then select the **Resources** tab.
+    -   For task cards, click Settings icon \(\[Omitted image "IconPersonalizeList.png"\] Alt text: Settings icon.\) and then select the **Tasks** tab.
+    -   For agent cards, click Settings icon \(\[Omitted image "IconPersonalizeList.png"\] Alt text: Settings icon.\) and then select the **Resources** tab.
 4.  Enable or disable the fields in the Settings dialog box.
 
-    For more information, see [Enable Dispatcher Workspace settings](dispatcher-wrkspc-settings.md).
+    For more information, see [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.md).
 
 5.  Click **Save**.
 

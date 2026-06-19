@@ -2,6 +2,7 @@
 title: Repair or recover order-preserving encrypted data
 description: If you have the security-admin role, you can schedule jobs performed by the Edge Encryption proxy to repair or recover fields that use order preserving encryption.You can schedule a job to find and repair fields where the order token is missing.Run this job when the proxy database has lost data. This job finds all records that have been encrypted with a token \(order preserving encryption type\) and sends them to the proxy so that the proxy database can be rebuilt.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/c\_EdgeEncryptionJobs.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -22,7 +23,7 @@ Schedule jobs to:
 
 Running these jobs can be a time-consuming operation that might impact the performance of the Edge Encryption proxy. Schedule these jobs at a time when no users or a minimum set of users are using the system, such as midnight on the weekend.
 
-**Parent Topic:**[Configuring Edge Encryption](edge-config.md)
+**Parent Topic:**[Configuring Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/edge-config.md)
 
 ## Schedule an order token repair job
 

@@ -2,6 +2,7 @@
 title: Request a cloud account
 description: Request a cloud account as a requester. A notification email is sent when the requester creates an account request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/request-account.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
@@ -29,9 +30,9 @@ Role required: sn\_itom\_cam.cw\_requester
 
 3.  On the Request new cloud account form, fill in the fields.
 
-    For a description of the field values, see [New cloud account request form](../reference/account-creation-details.md).
+    For a description of the field values, see [New cloud account request fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/account-creation-details.md).
 
-    **Note:** For information about how to create your custom catalog, see [Configure a custom catalog ID in Cloud Account Management account request](configuring-catalog-ids-in-cam-account-request.md).
+    **Note:** For information about how to create your custom catalog, see [Configure a custom catalog ID in Cloud Account Management account request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/configuring-catalog-ids-in-cam-account-request.md).
 
 4.  Request a GovCloud cloud account by selecting the **This is a GovCloud account** check box.
 

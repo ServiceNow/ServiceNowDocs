@@ -2,6 +2,7 @@
 title: Set up Service Graph Workspace
 description: Set up and access CMDB Workspace and then switch to using Service Graph Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/setup-service-graph-workspace.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -26,7 +27,7 @@ Use the sections in this topic to try and then switch into using Service Graph W
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 **Note:** The CMDB Workspace store app is automatically installed when installing or upgrading the product.
 
@@ -58,12 +59,12 @@ To populate Service Graph Workspace dashboards with demo data:
 
     -   Recommended: CSDM Activation \(com.snc.cmdb.csdm.activation\)
 
-        Allows for legacy **Lifecycle Status** field mappings and synchronization to legacy status fields. For details about use and customization of retirement definitions when this plugin isn't activated, see [Retirement definitions](life-cycle-rules.md).
+        Allows for legacy **Lifecycle Status** field mappings and synchronization to legacy status fields. For details about use and customization of retirement definitions when this plugin isn't activated, see [Retirement definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/life-cycle-rules.md).
 
     -   Required \(activated by default\): CMDB CSDM Support \(com.snc.cmdb.csdm\)
     -   Required \(activated by default\): CMDB Page Templates \(sn\_cmdb\_pg\_templts\)
     -   Required \(activated by default\): CMDB NLQ Search Connected \(sn-cmdb-nlq-search\)
-    For details about activating a plugin, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For details about activating a plugin, see Activate a plugin.
 
 -   Roles: To access the Service Graph Workspace, you must, at a minimum, have one of the following roles, which are essential for interacting with the Service Graph Workspace. Depending on which of these roles is assigned to you, you might only have access to some of the features available in the Service Graph Workspace:
 
@@ -94,7 +95,7 @@ To switch to Service Graph Workspace and turn off CMDB Workspace:
     This sets the system to permanently use Service Graph Workspace instead of CMDB Workspace.
 
 
-For information about the different views in Service Graph Workspace, see [Exploring Service Graph Workspace](exploring-sg-workspace.md).
+For information about the different views in Service Graph Workspace, see [Exploring Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/exploring-sg-workspace.md).
 
 ## Access Service Graph Workspace
 

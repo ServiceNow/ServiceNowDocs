@@ -2,6 +2,7 @@
 title: Define policy exceptions and extensions with the GRC Approval Configurator
 description: If you're a compliance manager, you can define the policy exceptions and extensions for granular, multi-level approval workflows by using the GRC Approval Configurator. The GRC Approval Configurator is a tool within the Governance, Risk, and Compliance application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/grc-approval-configurator-for-policy-extension-and-exception.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -65,30 +66,30 @@ To configure policy exceptions and extensions, you must have the following roles
 
 After you have the required roles, you can then configure the policy exceptions and extensions by using the Approval Configurator.
 
-[Enable the GRC Approval Configurator](../task/enable-grc-approval-configurator.md)
+[Enable the GRC Approval Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/enable-grc-approval-configurator.md)
 
 Enable the GRC Approval Configurator so that you can manage policy exceptions and extensions with granular, multi-level approval flows.
 
-[Define the policy verification rules](../task/define-policy-exception-verification-rules.md)
+[Define the policy verification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/define-policy-exception-verification-rules.md)
 
 Configure granular approval rules for policy exception verification rules by using the GRC Approval Configurator.
 
-[Define the policy exception approval rules](../task/define-approval-rules-grc-config.md)
+[Define the policy exception approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/define-approval-rules-grc-config.md)
 
 Configure granular approval rules for policy exception approval rules by using the GRC Approval Configurator.
 
-[Define extension rules for policy exceptions](../task/define-policy-exception-extension-rules.md)
+[Define extension rules for policy exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/define-policy-exception-extension-rules.md)
 
 Enable the GRC Approval Configurator from the Policy and Compliance Properties page to allow multiple approvers for policy extension approvals, replacing the single default approver \(Compliance Manager\).
 
--   **[Enable the GRC Approval Configurator](../task/enable-grc-approval-configurator.md)**  
+-   **[Enable the GRC Approval Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/enable-grc-approval-configurator.md)**  
 Enable the GRC Approval Configurator so that you can manage policy exceptions and extensions with granular, multi-level approval flows.
--   **[Define the policy verification rules](../task/define-policy-exception-verification-rules.md)**  
+-   **[Define the policy verification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/define-policy-exception-verification-rules.md)**  
 Configure granular approval rules for policy exceptions and extensions by using the GRC Approval Configurator. This allows you to manage approvals with precise rule definitions and support multi-level approval workflows.
--   **[Define the policy exception approval rules](../task/define-approval-rules-grc-config.md)**  
+-   **[Define the policy exception approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/define-approval-rules-grc-config.md)**  
 Approval rules define how policy exception requests are reviewed and approved, enabling organizations to create customized, multi-level workflows.
--   **[Define extension rules for policy exceptions](../task/define-policy-exception-extension-rules.md)**  
+-   **[Define extension rules for policy exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/define-policy-exception-extension-rules.md)**  
 Enable the GRC Approval Configurator from the Policy and Compliance Properties page to allow multiple approvers for policy extension approvals, replacing the single default approver \(Compliance Manager\).
 
-**Parent Topic:**[Policy and Compliance Management enhancement steps](../../grc-policy-compliance-implementation/concept/policy-compliance-optional-steps.md)
+**Parent Topic:**[Policy and Compliance Management enhancement steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/policy-compliance-optional-steps.md)
 

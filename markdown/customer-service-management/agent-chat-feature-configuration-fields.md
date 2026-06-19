@@ -2,7 +2,10 @@
 title: Chat feature configuration form fields
 description: Description of the Chat feature configuration form fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/agent-chat-feature-configuration-fields.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -57,7 +60,7 @@ Option for enabling the Live and Virtual Agent chat feature for guest users who 
 
  **Note:**
 
-Starting with the Vancouver release, the chat client was enabled by default only for authenticated users. To enable the chat client for unauthenticated users to be able to access Virtual Agent chat and Live Agent chat, you must enable the **$sn-va-web-client-app** and **sn\_va\_web\_client\_app\_embed** pages for public access. For more information, see [Make UI pages public or private](https://www.servicenow.com/docs/access?context=t_MakeAPagePublic&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+Starting with the Vancouver release, the chat client was enabled by default only for authenticated users. To enable the chat client for unauthenticated users to be able to access Virtual Agent chat and Live Agent chat, you must enable the **$sn-va-web-client-app** and **sn\_va\_web\_client\_app\_embed** pages for public access. For more information, see .
 
 </td></tr><tr><td>
 
@@ -97,7 +100,7 @@ Change the default mode for chatting
 
 </td><td>
 
-Determines the default mode for chatting, either synchronously \(Chat\) or asynchronously \(Messaging\).For information on how to set the default chat mode, see [Change the default chat mode for the Chat feature](../task/em-set-default-mode-of-chatting.md).
+Determines the default mode for chatting, either synchronously \(Chat\) or asynchronously \(Messaging\).For information on how to set the default chat mode, see [Change the default chat mode for the Chat feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/em-set-default-mode-of-chatting.md).
 
 </td></tr><tr><td>
 
@@ -105,7 +108,7 @@ Configure advanced chat options
 
 </td><td>
 
-Determines the chat options for managing various conversation features.For more information, see [Chat Setup configuration form](em-advanced-chat-setup.md).
+Determines the chat options for managing various conversation features.For more information, see [Chat Setup configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/em-advanced-chat-setup.md).
 
 </td></tr><tr><td>
 
@@ -113,18 +116,18 @@ Email notifications for unread messages
 
 </td><td>
 
-Determines the email settings for sending email summaries for unread messages.For more information on how to enable email notifications for a specified duration, see[Configure email notifications for unread chat messages](../task/setup-email-notification-unread-message.md).
+Determines the email settings for sending email summaries for unread messages.For more information on how to enable email notifications for a specified duration, see[Configure email notifications for unread chat messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/setup-email-notification-unread-message.md).
 
 **Note:** The green color next to **Status** indicates that the email notification is enabled.
 
 </td></tr></tbody>
 </table><table id="table_tww_xgb_g4b"><tbody><tr><td>
 
-![Engagement Messenger home page displaying a Chat with an agent widget to initiate a chat with Virtual Agent.](../image/em-agent-chat-widget.png "Agent chat widget")
+\[Omitted image "em-agent-chat-widget.png"\] Alt text: Engagement Messenger home page displaying a Chat with an agent widget to initiate a chat with Virtual Agent.
 
 </td><td>
 
-![Widget displaying the Chat with us and Submit a case features along with their description.](../image/em-chat-launcher.png "Chat feature launcher widget")
+\[Omitted image "em-chat-launcher.png"\] Alt text: Widget displaying the Chat with us and Submit a case features along with their description.
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: Bind alerts to a specific process
 description: Bind specific server processes to their corresponding Configuration Items \(CIs\) in the CMDB to ensure accurate mapping and visibility. This binding is crucial for identifying service dependencies, reducing ambiguity from generic process names, and enabling effective monitoring. It supports faster alert resolution, impact analysis, and better alignment between infrastructure and application components in dynamic environments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/t\_EMBindApplication.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -78,7 +79,7 @@ When an event is triggered, the system:1.  Applies default binding to identify t
 
 3.  Select the **Transform and Compose Alert Output** tab and perform the following steps:
 
-    ![Add sa_process_name.](../image/em-sa-process-name.png)
+    \[Omitted image "em-sa-process-name.png"\] Alt text: Add sa\_process\_name.
 
     1.  Select the **Manual attributes** check box.
     2.  Enter `sa_process_name` is `${process}`.
@@ -95,13 +96,13 @@ When an event is triggered, the system:1.  Applies default binding to identify t
 
     The **CI type** determines the specific CMDB table where the system searches for the matching CI.
 
-    ![Add CI type.](../image/em-binding-ci-type.png)
+    \[Omitted image "em-binding-ci-type.png"\] Alt text: Add CI type.
 
 8.  Navigate to **All** and search `em_binding_process_map.list`.
 
     The Process to CI Type Mappings page opens. Here the values from the **CI type** column are mapped to entries in the **Process** column. For example, **cmdb\_ci\_db\_mssql\_instance** is mapped to the **MSSQLSERVER** process.
 
-    ![The CI type values are matched with the corresponding entries in the Process column.](../image/em-processing-map.png)
+    \[Omitted image "em-processing-map.png"\] Alt text: The CI type values are matched with the corresponding entries in the Process column.
 
 9.  Navigate to **All** and search `cmdb_rel_ci.list`.
 
@@ -109,7 +110,7 @@ When an event is triggered, the system:1.  Applies default binding to identify t
 
 10. Verify that the node is in a Runs on::Runs relationship with the appropriate process.
 
-    ![The node linked to the appropriate process via a Runs on::Runs relationship.](../image/em-verify-runs-relationship.png)
+    \[Omitted image "em-verify-runs-relationship.png"\] Alt text: The node linked to the appropriate process via a Runs on::Runs relationship.
 
 11. Navigate to **All** &gt; **Event Management** &gt; **All Events**.
 
@@ -119,6 +120,6 @@ When an event is triggered, the system:1.  Applies default binding to identify t
 
     In the following image, you can see the processing notes indicating that the binding has occurred between the alert and the matching process.
 
-    ![Processing notes confirming alert-process binding.](../image/em-processing-notes.png)
+    \[Omitted image "em-processing-notes.png"\] Alt text: Processing notes confirming alert-process binding.
 
 

@@ -2,6 +2,7 @@
 title: Create and configure the RSA key pair for the digital signature
 description: Create an RSA key pair that the proxy server can use to create the digital signature for signing changes to the encryption properties and configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/t\_SetUpAKeyPair.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -58,16 +59,16 @@ You must use the Java 1.8 version of the keytool utility. A copy of the utility 
 
     2.  Open the `edgeencryption.properties` file.
 
-    3.  Enter the properties for the [digital signature](../reference/edge-encryption-proxy-server-properties.md).
+    3.  Enter the properties for the [digital signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/edge-encryption-proxy-server-properties.md).
 
         These properties must be the same for all proxies.
 
 5.  Save and close the `edgeencryption.properties` file.
 
 
-**Parent Topic:**[Install the Edge Encryption proxy server using the command line installer](manual-proxy-install.md)
+**Parent Topic:**[Install the Edge Encryption proxy server using the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/manual-proxy-install.md)
 
-**Previous topic:**[Install the Edge Encryption proxy server \(command line installer\)](install-edge-linux-windows.md)
+**Previous topic:**[Install the Edge Encryption proxy server \(command line installer\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/install-edge-linux-windows.md)
 
-**Next topic:**[Import and configure the certificate for secure SSL connection](t_SetUpSecureSSLConnection.md)
+**Next topic:**[Import and configure the certificate for secure SSL connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_SetUpSecureSSLConnection.md)
 

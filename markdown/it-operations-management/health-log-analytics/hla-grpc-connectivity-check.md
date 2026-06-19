@@ -2,6 +2,7 @@
 title: Check gRPC and network connectivity for Health Log Analytics on the MID Server
 description: Verify that Health Log Analytics can function properly by performing diagnostic tests on the MID Server to check gRPC and network connectivity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-grpc-connectivity-check.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -34,7 +35,7 @@ Your organization's network and security configuration may be keeping Health Log
 
     The system performs gRPC connectivity tests, such as domain name resolution, TCP/IP, and HTTP connection. When the testing is complete, the test results are displayed. Successful tests are preceded by a green check-mark, while failed tests are preceded by a red x mark.
 
-    ![gRPC diagnostic test results screen.](../image/hla-grpc-test-results.png)
+    \[Omitted image "hla-grpc-test-results.png"\] Alt text: gRPC diagnostic test results screen.
 
 4.  Fix the issues that caused any tests to fail by following the instructions on the **gRPC diagnostic test results** screen.
 

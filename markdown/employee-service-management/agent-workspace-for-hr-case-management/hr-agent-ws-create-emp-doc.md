@@ -2,6 +2,7 @@
 title: Create or upload employee documents using Agent Workspace for HR Case Management
 description: Create or upload employee documents to an HR case using the Agent Workspace for HR Case Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-create-emp-doc.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -23,7 +24,7 @@ Role required: sn\_hr\_ef.document\_writer
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
 
-2.  Click the **Lists** icon \(![HR Workspace Lists icon](../image/agent-ws-hr-list-icon.png)\).
+2.  Click the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: HR Workspace Lists icon\).
 
 3.  Click **Employee documents**.
 
@@ -51,7 +52,7 @@ Employee Document
 
 Employee document to upload.Click **Browse** to upload an employee document.
 
- By default, the maximum size of a document allowed is 30 MB. The default can be changed from the**Maximum file upload size in megabytes** field in Employee Document Properties. For more information, see [Properties for Employee Document Management application](../reference/employee-doc-properties.md).
+ By default, the maximum size of a document allowed is 30 MB. The default can be changed from the**Maximum file upload size in megabytes** field in Employee Document Properties. For more information, see [Properties for Employee Document Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-document-management/employee-doc-properties.md).
 
  After selecting a document, the read-only fields show the file size, file format, created on, and created by.
 

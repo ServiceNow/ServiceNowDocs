@@ -2,6 +2,7 @@
 title: Customize recipient list for Major Incident Management updates
 description: Customize the base system recipient list for Major Incident Management updates based on application usage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/recipient-lists-for-mim.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

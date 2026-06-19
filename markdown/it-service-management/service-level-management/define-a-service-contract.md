@@ -2,6 +2,7 @@
 title: Define a service contract
 description: A new table of SLA contracts is provided through the Service Level Management Service Contracts module. These contracts group together SLAs that relate to a single vendor or customer, as well as the CIs, locations, groups, users, and child contracts that are related to the contract.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-level-management/define-a-service-contract.html
 release: zurich
 product: Service Level Management
 classification: service-level-management
@@ -165,9 +166,9 @@ A full description of the Service Contract.
 </td></tr></tbody>
 </table>## Add contract field to task form
 
-Depending on how the contract is used, the **Contract** field can be added to any task form by configuring the form. For information about how to configure a form, see [Form configuration](https://www.servicenow.com/docs/access?context=basic-form-administration&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) . As the **Caller**, **Assignment Group**, **Location**, and **Configuration item** fields are populated, the **Contract** field filters appropriately, helping the support desk to associate the ticket to the correct contract.
+Depending on how the contract is used, the **Contract** field can be added to any task form by configuring the form. For information about how to configure a form, see Form configuration . As the **Caller**, **Assignment Group**, **Location**, and **Configuration item** fields are populated, the **Contract** field filters appropriately, helping the support desk to associate the ticket to the correct contract.
 
 **Note:** Do not add the same field to different sections of a form unless the field displays read-only data. Having two or more instances of an editable field can cause data loss and prevent the proper functioning of UI and data policies.
 
-**Parent Topic:**[Exploring Service Level Management](exploring-slm.md)
+**Parent Topic:**[Exploring Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-level-management/exploring-slm.md)
 

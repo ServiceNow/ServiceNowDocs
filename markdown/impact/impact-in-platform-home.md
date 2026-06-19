@@ -2,7 +2,10 @@
 title: Navigating Impact
 description: Use Impact to obtain new and updated features quickly. Leverage the home page for a personalized value guidance to get relevant and immediate access to the right content, at the right time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/impact-in-platform-home.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-10-08"
 reading_time_minutes: 6
@@ -13,7 +16,7 @@ breadcrumb: [Using Impact, Impact]
 
 Use Impact to obtain new and updated features quickly. Leverage the home page for a personalized value guidance to get relevant and immediate access to the right content, at the right time.
 
-**Important:** To access Impact, be sure to have the appropriate entitlements. See [Impact packages](../reference/impact-packages.md) for details. For setup information, see [Configuring Impact](configuring-impact.md).
+**Important:** To access Impact, be sure to have the appropriate entitlements. See [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-packages.md) for details. For setup information, see [Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-impact.md).
 
 ## Impact Home page
 
@@ -48,10 +51,10 @@ If it’s a recommendation related to Strategic Portfolio Management \(SPM\), th
 
 For more information on convert to work item, see:
 
--   [Manage work items with recommendations for the Impact Store Application](../task/convert-spm-entity-impact-entity-recommendations.md)
--   [Manage work items from an initiative in the Impact Store Application](../task/create-spm-work-item-impact-entity.md)
+-   [Manage work items with recommendations for the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/convert-spm-entity-impact-entity-recommendations.md)
+-   [Manage work items from an initiative in the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/create-spm-work-item-impact-entity.md)
 
-For more information on recommendations, see [Use the recommendations list](../task/using-recommendations-iip-ws.md).
+For more information on recommendations, see [Use the recommendations list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/using-recommendations-iip-ws.md).
 
 ## Learn about Impact
 
@@ -80,19 +83,19 @@ This section features current information, curated news, webinars, workshops, an
 
 Use the **Preferences settings** option to filter content that is relevant to your workflow, business area, or features. Save the preference settings so you can view the content that you are interested in the landing page when you enable the **Preferences** button.
 
-Similarly, you can save a news item or an upcoming event as your favorite by selecting the add to favorites \(![Add to favorites icon.](../image/add-favorite-icon-imp-ws.png)\) icon in the topic tile. The next time when you enable **Favorites only** button you can view all your favorite news bits and events.
+Similarly, you can save a news item or an upcoming event as your favorite by selecting the add to favorites \(\[Omitted image "add-favorite-icon-imp-ws.png"\] Alt text: Add to favorites icon.\) icon in the topic tile. The next time when you enable **Favorites only** button you can view all your favorite news bits and events.
 
-![Save a curated item as your favorite.](../image/add-favorite-imp-ws-home.png)
+\[Omitted image "add-favorite-imp-ws-home.png"\] Alt text: Save a curated item as your favorite.
 
 ## Help Center
 
-When you are on an Impact page, to view its contextual help content, select the ![](../image/help-icon.png) icon in the Navigation pane.
+When you are on an Impact page, to view its contextual help content, select the \[Omitted image "help-icon.png"\] Alt text: icon in the Navigation pane.
 
 ## Impact Squad
 
 This section displays your subscription package along the name and role of the Impact team members you interact with, in your Impact journey.
 
-For more information on the team and roles, see [Impact Squad](impact-squad.md).
+For more information on the team and roles, see [Impact Squad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-squad.md).
 
 ## Impact Foundations
 
@@ -106,7 +109,7 @@ View the Strategic Portfolio Management or the Collaborative Work Management \(C
 
 Select **View work items** to view or edit Strategic Portfolio Management \(SPM\) or Collaborative Work Management \(CWM\) work items created in Impact.
 
-For more information, see [Work items in the Impact Store Application](creating-work-items-using-recommendations-and-initiatives.md).
+For more information, see [Work items in the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/creating-work-items-using-recommendations-and-initiatives.md).
 
 ## Stay updated
 
@@ -118,5 +121,5 @@ The release notes link takes you to Impact features and content that are documen
 
 If you are in the Impact Store Application, access Quick links that take you directly to the Impact Delivery Instance, which was formerly known as Impact Digital Experience \(IDE\) portal.
 
-Select [Activity Center](impact-activity-center.md) and [Benefits &amp; Usage](impact-features.md) to know more about the features listed in this section.
+Select [Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-activity-center/impact-activity-center.md) and [Benefits &amp; Usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-features.md) to know more about the features listed in this section.
 

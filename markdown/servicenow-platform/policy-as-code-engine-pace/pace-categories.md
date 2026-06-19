@@ -2,6 +2,7 @@
 title: Managing categories in PaCE
 description: Use the Categories option to group your PaCE policies more efficiently. As the policy administrator, you can create and edit any number of categories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/policy-as-code-engine-pace/pace-categories.html
 release: zurich
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

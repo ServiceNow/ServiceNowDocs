@@ -2,6 +2,7 @@
 title: Date Time user input control
 description: Use the Date Time user input control in a Virtual Agent topic to enable the user to select a calendar date, time \(hours and minutes\), or both.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-date-time-input.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -58,9 +59,9 @@ Detail description
 
 </td><td>
 
-Description of the information that you need from users. If the **Allow automatic slot filling** toggle is deactivated, you can create a dynamic detail description by selecting the Data Pill Picker icon ![](../images/variable-reference-picker.png) to define conditions, or select the Open Editor icon ![](../images/icon-script.png) to enter a script. If the **Allow automatic slot filling** toggle is activated, you can only enter a static description.
+Description of the information that you need from users. If the **Allow automatic slot filling** toggle is deactivated, you can create a dynamic detail description by selecting the Data Pill Picker icon \[Omitted image "variable-reference-picker.png"\] Alt text: to define conditions, or select the Open Editor icon \[Omitted image "icon-script.png"\] Alt text: to enter a script. If the **Allow automatic slot filling** toggle is activated, you can only enter a static description.
 
- ![When the Allow automatic slot-filling toggle is inactive, the detail description includes Data Pill Picker and script dynamic options. When the toggle is active, the Detail description field becomes static.](../images/LLM-input-discoverable-toggle.png)
+ \[Omitted image "LLM-input-discoverable-toggle.png"\] Alt text: When the Allow automatic slot-filling toggle is inactive, the detail description includes Data Pill Picker and script dynamic options. When the toggle is active, the Detail description field becomes static.
 
 </td></tr><tr><td>
 
@@ -139,11 +140,11 @@ Date Time prompt
 
 </th></tr></thead><tbody><tr><td>
 
-![All basic Date Time user input fields are openly available. Select any of the advanced options to toggle them open individually.](../images/va-date-time-llm-3.png)
+\[Omitted image "va-date-time-llm-3.png"\] Alt text: All basic Date Time user input fields are openly available. Select any of the advanced options to toggle them open individually.
 
 </td><td>
 
-![In the Web client, a calendar pop-up lets the user choose a date and time.](../images/va-datetime-native.png "Web UI Date Time prompt")
+\[Omitted image "va-datetime-native.png"\] Alt text: In the Web client, a calendar pop-up lets the user choose a date and time.
 
 </td></tr></tbody>
 </table>## Date Time user input control properties for NLU topic discovery
@@ -297,11 +298,11 @@ Date Time prompt
 
 </th></tr></thead><tbody><tr><td>
 
-![Basic properties include the node name, prompt, input format, and NLU entity.](../images/va-datetime-properties.png "Date Time user input control basic properties")
+\[Omitted image "va-datetime-properties.png"\] Alt text: Basic properties include the node name, prompt, input format, and NLU entity.
 
 </td><td>
 
-![In the Web client, a calendar pop-up lets the user choose a date and time.](../images/va-datetime-native.png "Web UI Date Time prompt")
+\[Omitted image "va-datetime-native.png"\] Alt text: In the Web client, a calendar pop-up lets the user choose a date and time.
 
 </td></tr></tbody>
 </table>## Channel support
@@ -434,7 +435,7 @@ Supported
 
 </td><td>
 
-If your administrator has set the option to request the time zone from the customer, the selected date and time reflect the customer's time zone. Otherwise, they appear in the UTC time zone. For more information about the time zone setting, see [Set up Conversational Integration with Facebook Messenger](../task/messg-fbm-setup.md).
+If your administrator has set the option to request the time zone from the customer, the selected date and time reflect the customer's time zone. Otherwise, they appear in the UTC time zone. For more information about the time zone setting, see [Set up Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-fbm-setup.md).
 
 </td></tr><tr><td>
 
@@ -533,5 +534,5 @@ Supported
 For best results, enable NLU at the node.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer user input controls](va-user-inputs.md)
+</table>**Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-user-inputs.md)
 

@@ -2,6 +2,7 @@
 title: Intro to runtime API calls
 description: Runtime, or buyside, APIs are used to create, update, and save configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/intro\_to\_runtime\_api\_calls.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,7 +26,7 @@ All API calls follow this base URL format: `https://<yourTenant>.<sector>.logik.
 
 If you are a Salesforce user, you can find your tenant URL by clicking **Setup** in your Salesforce account. In the Quick Find box, search for or click **Custom Settings**, and then click **Manage**. Your tenant URL will be displayed.
 
-![Runtime API Calls](../images/cpq-apis-runtime-configuration-url.png)
+\[Omitted image "cpq-apis-runtime-configuration-url.png"\] Alt text: Runtime API Calls
 
 All runtime API calls require bearer token authentication using a unique token that is available in the runtime client. They also require that the origin URL configured in the runtime client appears in the request header.
 
@@ -36,11 +37,11 @@ Key: Origin
 Value: <yourOrigin>
 ```
 
-![Runtime API Calls](../images/cpq-apis-runtime-origin.png)
+\[Omitted image "cpq-apis-runtime-origin.png"\] Alt text: Runtime API Calls
 
 In the Authorization tab of Postman or your API tool, select **Bearer Token**, and then input the unique token you copied from ServiceNow CPQ Admin.
 
-![Runtime API Calls](../images/cpq-apis-runtime-bearer-token.png)
+\[Omitted image "cpq-apis-runtime-bearer-token.png"\] Alt text: Runtime API Calls
 
 **Note:** The token in the image is a dummy value that does not correspond to any actual environment. It appears only for illustrative purposes.
 

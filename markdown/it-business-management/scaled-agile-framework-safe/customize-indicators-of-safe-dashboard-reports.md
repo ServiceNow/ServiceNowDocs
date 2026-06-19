@@ -2,6 +2,7 @@
 title: Customize indicators of your Essential SAFe dashboard reports
 description: Configure indicators to reflect your customizations in Essential SAFe dashboards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scaled-agile-framework-safe/customize-indicators-of-safe-dashboard-reports.html
 release: zurich
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -32,5 +33,5 @@ Role required: admin or pa\_admin
 4.  Click **Update**.
 
 
-**Parent Topic:**[Customizing Essential SAFe dashboard reports](../concept/customizing-safe-dashboard-reports.md)
+**Parent Topic:**[Customizing Essential SAFe dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/customizing-safe-dashboard-reports.md)
 

@@ -2,11 +2,12 @@
 title: DevOps Change Velocity suite health scan checks
 description: View the list of scan checks available in DevOps Change Velocity to get recommendations on fixing any errors that might exist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/devops-change-velocity-suite-health-scan-checks.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: reference
-last_updated: "2026-02-11"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Reference, DevOps Change Velocity, IT Service Management]
 ---
@@ -221,7 +222,7 @@ DevOps Change Velocity Health - On-demand
 
 </td><td>
 
-Before working with update sets, create a standard process for moving customizations. For more information, see the [Get started with update sets](https://www.servicenow.com/docs/access?context=get-started-update-sets&version=zurich&pubname=zurich-application-development&ft:locale=en-US) topic in product documentation.
+Before working with update sets, create a standard process for moving customizations. For more information, see the  topic in product documentation.
 
 </td></tr><tr><td>
 
@@ -340,5 +341,5 @@ DevOps Change Velocity Health - On-demand
 N/A
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DevOps Change Velocity reference](devops-change-velocity-reference.md)
+</table>**Parent Topic:**[DevOps Change Velocity reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/devops-change-velocity-reference.md)
 

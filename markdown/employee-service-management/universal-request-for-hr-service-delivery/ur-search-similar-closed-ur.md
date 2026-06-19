@@ -2,6 +2,7 @@
 title: Search similar and closed Universal Requests
 description: When creating a Universal Request, search for closed universal requests that are similar using Predictive Intelligence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-search-similar-closed-ur.html
 release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -19,7 +20,7 @@ When creating a Universal Request, search for closed universal requests that are
 
 Role required: admin
 
-**Note:** This search option is available only if you install the Predictive Intelligence plugin \(com.glide.platform\_ml\) plugin and then enable the **Enable related search for similar closed Universal Requests** \(sn\_uni\_req.similar\_closed\_universal\_request\) property. For more information on this property, see [Universal Request properties](../reference/ur-properties.md).
+**Note:** This search option is available only if you install the Predictive Intelligence plugin \(com.glide.platform\_ml\) plugin and then enable the **Enable related search for similar closed Universal Requests** \(sn\_uni\_req.similar\_closed\_universal\_request\) property. For more information on this property, see [Universal Request properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-properties.md).
 
 ## Procedure
 
@@ -36,5 +37,5 @@ Role required: admin
 
 Review the solutions to copy the closed information or mark the solution as **This helped**.
 
-**Parent Topic:**[Using Universal Request](../concept/using-ur.md)
+**Parent Topic:**[Using Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/using-ur.md)
 

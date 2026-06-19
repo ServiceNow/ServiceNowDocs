@@ -2,6 +2,7 @@
 title: Flow summarization
 description: Summarize what a flow or subflow does by using generative AI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/now-assist-for-creator/flow-summarization-landing.html
 release: zurich
 product: Now Assist for Creator
 classification: now-assist-for-creator
@@ -19,19 +20,19 @@ Summarize what a flow or subflow does by using generative AI.
 
 <table id="table_hgk_ldl_1gc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about flow summarization](../concept/exploring-flow-summarization.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about flow summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Activate the Now Assist for Creator plugin and the flow summarization skill](../task/turn-on-the-flow-recommendations-skill.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate the Now Assist for Creator plugin and the flow summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 
 </td></tr><tr><td>
 
-[Generate![](../../../reuse/icons/brand-icons/bus-start-developing.svg)Create a flow summary](../task/summarize-a-flow.md)
+[Generate\[Omitted image "bus-start-developing.svg"\] Alt text:Create a flow summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/summarize-a-flow.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about Now Assist for Creator roles](../../creator/reference/creator-roles-1.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about Now Assist for Creator roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/creator-roles-1.md)
 
 </td></tr></tbody>
 </table>## AI limitations

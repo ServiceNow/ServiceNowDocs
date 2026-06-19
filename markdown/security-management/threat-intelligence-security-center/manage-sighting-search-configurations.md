@@ -2,6 +2,7 @@
 title: Define queries for Sighting Search
 description: You can use sighting search configurations for defining the queries used to find the prevalence of observables in your environment as part of observable investigation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/manage-sighting-search-configurations.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -28,24 +29,24 @@ To view the sighting search configurations, perform the following steps:
 
     You can view the list of sighting search configurations.
 
-    ![Sighting Search Configurations tab](../image/enrich-view-sighting-search-config.png)
+    \[Omitted image "enrich-view-sighting-search-config.png"\] Alt text: Sighting Search Configurations tab
 
 5.  Click on the required Sighting Search Configuration to view the details of the configuration.
 6.  To generate a test sighting search query, click the **Generate Test Sighting Search Query** action.
 
-    **Note:** The **Generate Test Sighting Search Query** action would only work if you had configured sighting search query parameters. For more information, see [Using Sighting Search Parameters](manage-sighting-search-parameters.md).
+    **Note:** The **Generate Test Sighting Search Query** action would only work if you had configured sighting search query parameters. For more information, see [Using Sighting Search Parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/manage-sighting-search-parameters.md).
 
 7.  In the Generate Test Sighting Search Query pop-up, enter or paste multiple observables using comma, new line, tab, or pipe separators to generate a test query.
 8.  Click **Generate** to generate the test sighting search query.
 9.  You can also perform the following actions on the Sighting Search Configurations tab:
-    1.  To refresh the list of sighting search configurations, click the ![Refresh option](../image/enrich-refresh-icon.png) icon.
-    2.  To perform a list action on the sighting search configurations, click the ![List actions](../image/enrich-list-actions.png) icon.
+    1.  To refresh the list of sighting search configurations, click the \[Omitted image "enrich-refresh-icon.png"\] Alt text: Refresh option icon.
+    2.  To perform a list action on the sighting search configurations, click the \[Omitted image "enrich-list-actions.png"\] Alt text: List actions icon.
 
         You can perform the following two list actions:
 
         -   **Edit columns**: You can use this action to add or remove existing columns and modify the order according to your requirements.
         -   **Reset widths**: You can use this action to reset the widths of the columns.
-    3.  To filter sighting search configurations based on conditions, click the ![Filter panel](../image/enrich-filter.png) icon.
+    3.  To filter sighting search configurations based on conditions, click the \[Omitted image "enrich-filter.png"\] Alt text: Filter panel icon.
 
         The value 1 indicates that one condition is used for the filtering.
 
@@ -72,7 +73,7 @@ To create a sighting search configuration, perform the following steps:
 
 5.  To create a sighting search configuration, click **New**.
 
-    ![Create a Sighting Search Configuration](../image/enrich-create-sighting-search-config.png)
+    \[Omitted image "enrich-create-sighting-search-config.png"\] Alt text: Create a Sighting Search Configuration
 
 6.  On the form, fill the fields.
 
@@ -88,5 +89,5 @@ To create a sighting search configuration, perform the following steps:
 
 7.  Click **Save**.
 
-**Parent Topic:**[Configure Sighting Search](../task/configure-sighting-search.md)
+**Parent Topic:**[Configure Sighting Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/configure-sighting-search.md)
 

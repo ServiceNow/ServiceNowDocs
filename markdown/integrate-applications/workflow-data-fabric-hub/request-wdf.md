@@ -2,6 +2,7 @@
 title: Request Zero Copy Connectors
 description: Create zero copy connections and data fabric tables in Workflow Data Fabric Hub after requesting the Zero Copy Connectors app through the Now Support Service Catalog. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:If it isn't already installed, the app installs Workflow Data Fabric Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/workflow-data-fabric-hub/request-wdf.html
 release: zurich
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -57,7 +58,11 @@ Plugin Name
 
 </td><td>
 
-Enter: `Zero Copy Connectors (sn_data_fabric_zcc)`
+The plugin to activate depends on whether you're also installing primary and community connectors.
+
+ To install primary connectors with the Zero Copy Connector Hub, enter `Zero Copy Connectors Primary (sn_zcc_primary)`.
+
+ To install both primary and community connectors with the Zero Copy Connector Hub, enter gin name and ID. Enter:`Zero Copy Connectors (sn_data_fabric_zcc)`
 
 </td></tr><tr><td>
 
@@ -73,5 +78,5 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Configuring Workflow Data Fabric Hub](../concept/configuring-wdf.md)
+**Parent Topic:**[Configuring Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/configuring-wdf.md)
 

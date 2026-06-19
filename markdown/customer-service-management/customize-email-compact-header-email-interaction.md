@@ -2,7 +2,10 @@
 title: Customize an email compact header for an email interaction
 description: Customize an email compact header within the UI Builder to view information such as the email subject, sender, and receiver in a compact format.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customize-email-compact-header-email-interaction.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -15,13 +18,13 @@ Customize an email compact header within the UI Builder to view information such
 
 ## Before you begin
 
-A duplicate variant must be configured by an administrator. If the duplicate variant isn’t configured, you can't enable the email compact header. For more information, see [Customize the email interaction experience](customize-email-interaction-experience.md).
+A duplicate variant must be configured by an administrator. If the duplicate variant isn’t configured, you can't enable the email compact header. For more information, see [Customize the email interaction experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customize-email-interaction-experience.md).
 
 Role required: admin
 
 ## About this task
 
-For more information on UI Builder, see [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+For more information on UI Builder, see .
 
 **Note:** By default, **Show Email Compact Header** is enabled for Email Interaction for CSM.
 

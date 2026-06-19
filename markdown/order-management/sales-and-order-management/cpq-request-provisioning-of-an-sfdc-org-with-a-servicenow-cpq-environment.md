@@ -2,6 +2,7 @@
 title: Request provisioning of an SFDC org with a ServiceNow CPQ environment
 description: Learn how to submit a request through ServiceNow CPQ Support for environment setup.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cpq-request-provisioning-of-an-sfdc-org-with-a-servicenow-cpq-environment.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

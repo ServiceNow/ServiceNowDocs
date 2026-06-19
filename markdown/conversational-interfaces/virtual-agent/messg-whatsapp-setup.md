@@ -2,6 +2,7 @@
 title: Set up Conversational Integration with WhatsApp \(powered by Twilio\)
 description: Set up the Conversational Integration with WhatsApp \(powered by Twilio\) application so that you can engage requesters in bot conversations. Integrating with ServiceNow Virtual Agent enables you to interact on WhatsApp chat with a Virtual Agent or Live Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/messg-whatsapp-setup.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -31,7 +32,7 @@ Before you begin, do the following:
     -   Twilio spoke
     -   Conversational Integration with WhatsApp \(powered by Twilio\)
 -   [Connect your Twilio Number to your WhatsApp Business Profile](https://www.twilio.com/docs/sms/whatsapp/tutorial/connect-number-business-profile).
--   [Set up Twilio spoke](https://www.servicenow.com/docs/access?context=setup-twilio&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+-   Set up Twilio spoke.
 
 Role required: external\_app\_install\_admin or va\_admin
 
@@ -158,7 +159,7 @@ Inbound message verification
 
 </td><td>
 
-Name of the Hash Message Verification record that you created for the inbound hash messages in [step 2](messg-whatsapp-setup.md#wa-hash).
+Name of the Hash Message Verification record that you created for the inbound hash messages in [step 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-whatsapp-setup.md).
 
 </td></tr><tr><td>
 
@@ -166,7 +167,7 @@ Outbound message verification
 
 </td><td>
 
-Name of the Hash Message Verification record that you created for the inbound hash messages in [step 2](messg-whatsapp-setup.md#wa-hash).**Note:** The values for the **Inbound message verification** and **Inbound message verification** fields are the same.
+Name of the Hash Message Verification record that you created for the inbound hash messages in [step 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-whatsapp-setup.md).**Note:** The values for the **Inbound message verification** and **Inbound message verification** fields are the same.
 
 </td></tr></tbody>
 </table>    3.  Click **Submit**.
@@ -215,7 +216,7 @@ Message auth
 
 </td><td>
 
-Message auth that you created in [step 3](messg-whatsapp-setup.md#wa-auth-record).
+Message auth that you created in [step 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-whatsapp-setup.md).
 
 </td></tr></tbody>
 </table>    5.  Click **Submit**.

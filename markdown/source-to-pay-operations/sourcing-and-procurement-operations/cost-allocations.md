@@ -2,6 +2,7 @@
 title: Cost allocations
 description: Cost allocation defines how to allocate the payment for a particular purchase line. Costs can be allocated towards a cost center, employee credit, or payroll payments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/cost-allocations.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -17,7 +18,7 @@ Cost allocation defines how to allocate the payment for a particular purchase li
 
 **Note:** Shipping and tax costs are excluded from cost allocation calculations.
 
-For more information about modifying PRs and POs while preserving cost allocations across multiple cost centers, see [Editing purchase requisitions and orders with cost allocation adjustments](../concept/edit-purchase-cost-allocation.md).
+For more information about modifying PRs and POs while preserving cost allocations across multiple cost centers, see [Editing purchase requisitions and orders with cost allocation adjustments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/edit-purchase-cost-allocation.md).
 
 The key fields for a cost allocation are as follows:
 
@@ -115,5 +116,5 @@ Percentage of the cost allocated.This field is visible only if the allocation ty
 -   From the ShoppingHub catalog, the cost allocation is created from the payment method that the employee selects during checkout. The employee can define the cost center to allocate to, and can split the allocation amongst multiple cost centers, as required. Employee credits and paycheck payments also result in the creation of a cost allocation.
 -   When an employee submits an off-catalog request from the I need to submit a quote flow, and selects a cost center that is not their default cost center, the selected cost center gets populated in the Cost Allocation table associated to the purchase requisition line. The employee can define the cost center to allocate to, but the allocation is 100% to that cost center, and can't be split.
 
-**Parent Topic:**[Purchase lines](purchase-lines.md)
+**Parent Topic:**[Purchase lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/purchase-lines.md)
 

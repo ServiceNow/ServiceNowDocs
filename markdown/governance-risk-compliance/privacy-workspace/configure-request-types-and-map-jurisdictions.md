@@ -2,6 +2,7 @@
 title: Configure request types and map jurisdictions
 description: Configure new privacy request types by adding a request type with relevant details, and then map it to a specific jurisdiction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/configure-request-types-and-map-jurisdictions.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace

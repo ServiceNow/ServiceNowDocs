@@ -2,6 +2,7 @@
 title: Enforce relative links \[Updated in Security Center 1.3 and 1.5\]
 description: Use the glide.cms.catalog\_uri\_relative property to enforce relative links from the URI parameter on /ess/catalog.do.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-enforce-relative-links.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -23,7 +24,7 @@ The **glide.cms.catalog\_uri\_relative** property enforces relative links from t
 |---------|-----------|
 |Property name|**glide.cms.catalog\_uri\_relative**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Validation, sanitization, and encoding](validation-sanitization-encoding.md)|
+|Category|[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)|
 |Purpose|To restrict attempts to link external unauthorized content.|
 |Recommended value|true|
 |Default value|false|
@@ -31,7 +32,7 @@ The **glide.cms.catalog\_uri\_relative** property enforces relative links from t
 |Functional impact|This remediation enforces validation on Catalog page such that only Relative URLs are permitted. Existing links to external web applications become broken.|
 |Security risk|\(High\) Absolute URLs can pose a security risk when used as a part of parameter or a field value, thus redirecting the source page to an adversary-controlled website.|
 
-To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

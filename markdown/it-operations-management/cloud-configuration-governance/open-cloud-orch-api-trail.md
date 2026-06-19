@@ -2,6 +2,7 @@
 title: Open the Cloud Orchestration Trail
 description: Open the Cloud Orchestration Trail to debug and troubleshoot issues like a failed policy or failed Discovery of cloud resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/open-cloud-orch-api-trail.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

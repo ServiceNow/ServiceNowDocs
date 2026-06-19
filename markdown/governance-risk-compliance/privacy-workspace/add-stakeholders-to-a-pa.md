@@ -2,6 +2,7 @@
 title: Add key stakeholders and send privacy assessments
 description: Add key stakeholders to a processing activity to identify the key members who are responsible for processing the personal data within the processing activity. You can then send the respective privacy assessments to the stakeholders based on their responsibilities. For example, an entity owner is a key stakeholder for a processing activity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/add-stakeholders-to-a-pa.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -45,15 +46,15 @@ A processing activity can have multiple key stakeholders. While you can add or d
 
 7.  In the **Processing activity privileges** field, select one of the following options.
 
-<table id="choicetable_qyt_gy1_2sb"><thead><tr><th align="left" id="d91583e150">
+<table id="choicetable_qyt_gy1_2sb"><thead><tr><th align="left" id="d41905e150">
 
 Option
 
-</th><th align="left" id="d91583e153">
+</th><th align="left" id="d41905e153">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d91583e159">
+</th></tr></thead><tbody><tr><td id="d41905e159">
 
 **Respond to privacy assessments**
 
@@ -61,7 +62,7 @@ Result
 
 To enable the stakeholder only to respond to the privacy assessment.**Note:** When you choose this option, the role of the stakeholder changes to sn\_privacy.assessment\_responder
 
-</td></tr><tr><td id="d91583e171">
+</td></tr><tr><td id="d41905e171">
 
 **Edit processing activity and respond to privacy assessments**
 
@@ -85,5 +86,5 @@ To enable the stakeholder to edit and then respond to the privacy assessment.**N
     4.  Click **Send**.
 
 
-**Parent Topic:**[Using Privacy Management](../concept/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

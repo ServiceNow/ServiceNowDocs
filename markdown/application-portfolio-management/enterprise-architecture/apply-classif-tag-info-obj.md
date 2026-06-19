@@ -1,0 +1,39 @@
+---
+title: Apply classification tags to an information object - Legacy
+description: Apply data classification tags to an information object to get better visibility and control over the information objects data.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/enterprise-architecture/apply-classif-tag-info-obj.html
+release: zurich
+product: Enterprise Architecture
+classification: enterprise-architecture
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Configure - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+---
+
+# Apply classification tags to an information object - Legacy
+
+Apply data classification tags to an information object to get better visibility and control over the information objects data.
+
+## Before you begin
+
+Role required: sn\_apm.apm\_user
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Enterprise Architecture** &gt; **Information Portfolio** &gt; **Information objects**.
+
+2.  Open an existing information object.
+
+3.  From the Select classification tag list, select the appropriate tags to classify the information object data.
+
+    For field information, see [Information Objects form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/enterprise-architecture/information-objects-form.md).
+
+    The applied tags are displayed in various colors on the top of the form.
+
+4.  Select **Update**.
+
+
+**Parent Topic:**[Configuring Enterprise Architecture \(formerly Application Portfolio Management\) - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/enterprise-architecture/configure-apm.md)
+

@@ -2,6 +2,7 @@
 title: Security configuration console
 description: Use the security configuration page to get an overview of the security posture of your instance. View your hardening compliance score, discover graphical trends, analyze the top non-compliant hardening settings, and see the results of your security scans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/security-center/homepage.html
 release: zurich
 product: Security Center
 classification: security-center
@@ -15,7 +16,7 @@ breadcrumb: [Security Center, Platform Security]
 
 Use the security configuration page to get an overview of the security posture of your instance. View your hardening compliance score, discover graphical trends, analyze the top non-compliant hardening settings, and see the results of your security scans.
 
-![Security center overview page](../images/overview-page.png)
+\[Omitted image "overview-page.png"\] Alt text: Security center overview page
 
 ## Navigation bar
 
@@ -23,7 +24,7 @@ Use the bar at the top of the page to navigate between this page and the securit
 
 ## Security hardening
 
-Find details about your hardening compliance in the security hardening section. Select the cards on in this section to navigate to the [Security hardening](sc-hardening.md) page.
+Find details about your hardening compliance in the security hardening section. Select the cards on in this section to navigate to the [Security hardening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/sc-hardening.md) page.
 
 The hardening compliance score is a percentage that shows how closely your security settings align with the recommended settings. The security hardening section shows this percentage, as well as the history of the score on your instance over time.
 
@@ -45,12 +46,12 @@ View the most urgent Security Tasks assigned to you. Select a task to view its d
 
 Use the additional resources section on the edge of the screen to navigate to documentation and videos relevant to learning Security Center as well as information on managing instance security.
 
--   **[Security hardening](sc-hardening.md)**  
+-   **[Security hardening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/sc-hardening.md)**  
 View your hardening compliance score, compare it with previous scores, and change settings to improve your compliance score and security posture in the security hardening page.
--   **[Security scanner](sc-scanning.md)**  
+-   **[Security scanner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/sc-scanning.md)**  
 Scan your instance against a set of security checks to identify misconfiguration. The scanner tool simplifies the process of creating different suites of checks for different use cases so that you can analyze the results over time.
--   **[Customer Actions](critical-updates.md)**  
+-   **[Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/critical-updates.md)**  
 Use the Customer Actions tool to implement important security updates based on your instance and the configuration of plugins.
 
-**Parent Topic:**[Security Center](sec-center-v2.md)
+**Parent Topic:**[Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/sec-center-v2.md)
 

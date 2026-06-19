@@ -2,6 +2,7 @@
 title: Create a slot for equipment
 description: Added as per STRY57142377 - DOC1091704Create a slot to provide a designated space for the equipment to maintain, update and access all types of equipment. You can route cables using the Telecommunications Network Inventory application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/create-a-slot.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -27,22 +28,22 @@ Slots help a rack to distribute the weight of the equipment across the rack even
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/ni-workspace-list-icon.png)\), and then go to **Inventory** &gt; **Slot**.
+2.  Select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List icon.\), and then go to **Inventory** &gt; **Slot**.
 
 3.  Create a slot by selecting **New**.
 
 4.  On the Equipment Holder form, fill in the fields.
 
-    To learn more, see [Equipment Holder form](../reference/tni-equipment-holder-form-configuration.md).
+    To learn more, see [Equipment Holder form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/tni-equipment-holder-form-configuration.md).
 
 5.  Select **Set Inventory Attributes**.
 
 6.  On the TNI CI Attributes form, fill in the fields.
 
-    To learn more about the fields, see [TNI CI Attributes form](../reference/ci-attribue-form.md).
+    To learn more about the fields, see [TNI CI Attributes form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/ci-attribue-form.md).
 
 7.  Select **Save**.
 
 
-**Parent Topic:**[Manually create and review your network asset instances](../concept/creating-telecommunications-network-inventory.md)
+**Parent Topic:**[Manually create and review your network asset instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/creating-telecommunications-network-inventory.md)
 

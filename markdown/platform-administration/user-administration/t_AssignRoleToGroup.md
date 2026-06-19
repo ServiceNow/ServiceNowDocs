@@ -2,6 +2,7 @@
 title: Assign a role to a group
 description: You can assign a role to a group to grant access to applications and modules to group members.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/user-administration/t\_AssignRoleToGroup.html
 release: zurich
 product: User Administration
 classification: user-administration
@@ -21,7 +22,7 @@ Role required: user\_admin or admin
 
 ## About this task
 
-When you assign roles to groups rather than to individual users, members of the group inherit the role. When a user switches groups, the new group role is assigned automatically. For information about the Service Mapping roles, see [Control user access to application services](https://www.servicenow.com/docs/access?context=control-user-access-to-business-services&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+When you assign roles to groups rather than to individual users, members of the group inherit the role. When a user switches groups, the new group role is assigned automatically. For information about the Service Mapping roles, see Control user access to application services.
 
 ## Procedure
 
@@ -36,5 +37,5 @@ When you assign roles to groups rather than to individual users, members of the 
 5.  Select **Save**.
 
 
-**Parent Topic:**[Create a role](t_CreateARole.md)
+**Parent Topic:**[Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/t_CreateARole.md)
 

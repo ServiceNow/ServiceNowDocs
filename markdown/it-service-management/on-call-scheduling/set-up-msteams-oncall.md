@@ -2,6 +2,7 @@
 title: Set up Microsoft Teams as a contact method for an on-call escalation
 description: Enable users to receive Microsoft Teams notifications for an on-call escalation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/on-call-scheduling/set-up-msteams-oncall.html
 release: zurich
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -25,18 +26,18 @@ Role required: admin
 
 1.  Ensure that your ServiceNow instance is configured for Conversational Integration with Microsoft Teams and the IT Service Management integration with Microsoft 365 plugin \(sn\_now\_teams\_it\) is active.
 
-    For information on Virtual Agent permission policies, see [Manage Now Virtual Agent permission policies](https://www.servicenow.com/docs/access?context=disable-now-virtual-agent-ms-teams&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+    For information on Virtual Agent permission policies, see Manage Now Virtual Agent permission policies.
 
 2.  Select **Microsoft Teams** as your preferred notification channel while defining the escalation settings for a user group.
 
-    For information on escalation settings, see [Escalation and reminder settings for rosters](../reference/escalation-remind-settings-oncall.md).
+    For information on escalation settings, see [Escalation and reminder settings for rosters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/escalation-remind-settings-oncall.md).
 
 3.  For the required user group, create a trigger rule that uses the On-Call: Assign by Acknowledgement trigger workflow.
 
     If a user or shift manager sets the preferred contact channel as Microsoft Teams, a notification is sent to the user in Microsoft Teams along with the actions that a user can perform.
 
-    For information on creating a trigger rule, see [Create an escalation trigger rule](create-trigger-rule-oncall.md).
+    For information on creating a trigger rule, see [Create an escalation trigger rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/create-trigger-rule-oncall.md).
 
 
-**Parent Topic:**[Configuring On-Call Scheduling](../../user-administration/concept/configuration.md)
+**Parent Topic:**[Configuring On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/configuration.md)
 

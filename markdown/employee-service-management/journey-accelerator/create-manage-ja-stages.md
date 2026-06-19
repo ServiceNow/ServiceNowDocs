@@ -2,6 +2,7 @@
 title: Create and manage Journey Accelerator stages
 description: Create and manage stages that are contained inside the Journey Accelerator plan. Stages contain tasks or to-do lists for managers, mentors, or employees to complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-accelerator/create-manage-ja-stages.html
 release: zurich
 product: Journey Accelerator
 classification: journey-accelerator

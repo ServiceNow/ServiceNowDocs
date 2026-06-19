@@ -2,6 +2,7 @@
 title: Capturing multiple job records for a user
 description: Capture multiple job records for a user with the new Jobs \(sn\_hr\_core\_job\) table. When creating HR cases, you can specify which job the case pertains to. For example, say that you have a payroll discrepancy case and the employee has two associated job records. When the case is created, you can specify which job the case is for.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/support-hr-users-with-multiple-jobs.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -49,7 +50,7 @@ Reference field to the Jobs \(sn\_hr\_core\_job\) table.
 
 **Note:** The employment start date represents the first day the user was employed with the organization. The job start date represents the first day of the user's current primary job. Because Eva left the organization in August 2018, but was rehired in June 2019. This represents Eva's new employment start date.
 
-![HR profile record with multiple job records.](../image/multiple-jobs-hr-profile-example.png)
+\[Omitted image "multiple-jobs-hr-profile-example.png"\] Alt text: HR profile record with multiple job records.
 
 ## Jobs table and HR Case table
 
@@ -63,16 +64,16 @@ In the case of Eva Seahorn, for example, Eva was rehired as a marketing director
 
 ## Supporting multiple jobs in a lifecycle event
 
-Use the Jobs table to create lifecycle event cases where you can specify which job the case pertains to. For example, say that you have an intern that is being transferred to a full-time position. The intern has two associated job records. When an onboarding case for the full-time position is created, the case is associated with the full-time job record, ensuring that downstream activity sets and activities are triggered based on information from that relevant job record. For more information, see [Support multiple jobs in a lifecycle event](../task/adopt-jobs-table.md).
+Use the Jobs table to create lifecycle event cases where you can specify which job the case pertains to. For example, say that you have an intern that is being transferred to a full-time position. The intern has two associated job records. When an onboarding case for the full-time position is created, the case is associated with the full-time job record, ensuring that downstream activity sets and activities are triggered based on information from that relevant job record. For more information, see [Support multiple jobs in a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/adopt-jobs-table.md).
 
-**Parent Topic:**[HR Administration](c_AdministerHRServiceManagement.md)
+**Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 
 **Related topics**  
 
 
-[hr\_Utils - Global](https://www.servicenow.com/docs/access?context=hr_UtilsAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.hr_UtilsAPI]
 
-[hr\_ActivitySet - Global](https://www.servicenow.com/docs/access?context=hr_ActivitySetAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.hr_ActivitySetAPI]
 
-[hr\_ActivityUtils - Global](https://www.servicenow.com/docs/access?context=hr_ActivityUtilsAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.hr_ActivityUtilsAPI]
 

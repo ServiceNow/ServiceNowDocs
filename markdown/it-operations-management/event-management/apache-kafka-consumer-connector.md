@@ -2,6 +2,7 @@
 title: Apache Kafka Consumer Connector
 description: The Apache Kafka Consumer connector instance enables you to create events from messages collected from the Apache Kafka topic as a JSON payload that contains essential information in a data block.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/apache-kafka-consumer-connector.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -23,10 +24,10 @@ Like other message broker systems, Kafka facilitates the asynchronous data excha
 
 Kafka software runs on one or more servers. Each node, called a broker, in a Kafka cluster helps producer applications write data to topics, which are where records are stored and published. Consumer applications read from topics. Topics are divided into partitions to make them more manageable and Kafka guarantees strong ordering for each partition.
 
--   **[Configure the Apache Kafka Consumer connector](../task/configure-kafka-consumer-connector.md)**  
+-   **[Configure the Apache Kafka Consumer connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-kafka-consumer-connector.md)**  
 Configure the Apache Kafka Consumer connector instance to create events from streaming messages collected by the Apache Kafka connector.
--   **[Map Kafka message payload attributes to alert fields](../task/map-kafka-message-payload-attributes-to-alert-fields.md)**  
+-   **[Map Kafka message payload attributes to alert fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/map-kafka-message-payload-attributes-to-alert-fields.md)**  
 Map Kafka message attributes to alert fields to make alerts based on the messages more meaningful. Use event field mapping to map Kafka severity values to appropriate ServiceNow values.
 
-**Parent Topic:**[Configure a pull connector](../task/t_EMConfigureConnectorInstance.md)
+**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 

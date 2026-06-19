@@ -2,6 +2,7 @@
 title: Create a business rule for high-level planning
 description: To enable high-level planning on a table that is not a planning item in Strategic Planning Workspace, create a business rule to allow assigning a rank value for all future records of this table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/create-a-business-rule-for-high-level-planning.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -17,7 +18,7 @@ To enable high-level planning on a table that is not a planning item in Strategi
 
 ## Before you begin
 
-[Populate global rank for high-level planning items](populate-global-rank-for-high-level-planning-items.md).
+[Populate global rank for high-level planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/populate-global-rank-for-high-level-planning-items.md).
 
 Role required: admin
 
@@ -99,5 +100,5 @@ Option to enable advanced settings for this business rule.
 
 This task is the end of the series of tasks to enable high-level planning on a table that does not extend the Planning Item \[sn\_align\_planning\_item\] table. After this task is complete, you can notify your planning managers that they can start creating portfolio plans for the configured entity type.
 
-See [Managing portfolio plans in Strategic Planning Workspace](../concept/managing-portfolio-plans-in-alignment-planner-workspace.md).
+See [Managing portfolio plans in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/managing-portfolio-plans-in-alignment-planner-workspace.md).
 

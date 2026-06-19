@@ -2,13 +2,14 @@
 title: Create financial baselines
 description: Create a financial baseline of a demand, which captures benefit and financial metric information \(snapshot of cost plan, benefit plan, and demand-level financial metrics\) at a particular moment in time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/create-compare-financial-baselines-dw.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
 last_updated: "2026-01-19"
 reading_time_minutes: 1
-breadcrumb: [Manage financials for demands, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage financials for demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Create financial baselines
@@ -27,21 +28,21 @@ You can create as many financial baselines as necessary and review the financial
 
 1.  Open a demand from the home page of Next Experience for Demand Management.
 
-    For more information, see [Access demands](access-demand-workspace.md).
+    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/access-demand-workspace.md).
 
 2.  Select **Details** from the L-2 \(level 2\) navigation menu.
 
 3.  To create a financial baseline of a demand, use either of the options.
 
-<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d236110e96">
+<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d78970e99">
 
 Option
 
-</th><th align="left" id="d236110e99">
+</th><th align="left" id="d78970e102">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d236110e105">
+</th></tr></thead><tbody><tr><td id="d78970e108">
 
 **From the Details page**
 
@@ -49,7 +50,7 @@ Steps
 
 Select **Create Baseline** from the More Actions option.
 
-</td></tr><tr><td id="d236110e117">
+</td></tr><tr><td id="d78970e120">
 
 **From a related list**
 

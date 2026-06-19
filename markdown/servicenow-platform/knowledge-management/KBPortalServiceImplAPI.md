@@ -2,6 +2,7 @@
 title: KBPortalServiceImpl - Global
 description: The KBPortalServiceImpl API is included with Knowledge Management V3 \[com.snc.knowledge3\] as a script include. It provides methods to use with knowledge, such as integration with a custom search.Instantiates a KBPortalServiceImpl object in a global application.Returns search results based on keywords from the knowledge article and from relevant knowledge block content that the user has access to read.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/KBPortalServiceImplAPI.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -15,7 +16,7 @@ breadcrumb: [Integrating a custom search or knowledge article viewer with knowle
 
 The `KBPortalServiceImpl` API is included with Knowledge Management V3 \[com.snc.knowledge3\] as a script include. It provides methods to use with knowledge, such as integration with a custom search.
 
-**Parent Topic:**[Integrating a custom search or knowledge article viewer with knowledge blocks](integrating-with-custom-search-or-knowledge-article-viewer.md)
+**Parent Topic:**[Integrating a custom search or knowledge article viewer with knowledge blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/integrating-with-custom-search-or-knowledge-article-viewer.md)
 
 ## KBPortalServiceImpl - KBPortalServiceImpl\(\)
 

@@ -2,6 +2,7 @@
 title: Upgrade Kubernetes Visibility Agent
 description: You can upgrade Kubernetes Visibility Agent using either a Helm chart or the Kubernetes YAML file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/acckv-upgrade.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -24,7 +25,7 @@ Role required: none
 
 This procedure describes the standard Kubernetes Visibility Agent upgrade process. Typically, you would use a Helm chart to perform the upgrade. Alternatively, you can upgrade Kubernetes Visibility Agent by configuring and running the Kubernetes YAML file provided by ServiceNow. In both cases, there is no need to uninstall before upgrading.
 
-You can also upgrade Kubernetes Visibility Agent Informer pods in Kubernetes clusters remotely from the ServiceNow Instance. For more information, see [Upgrade Kubernetes Visibility Agent Informers remotely](cnov-informer-upgrade-remote.md).
+You can also upgrade Kubernetes Visibility Agent Informer pods in Kubernetes clusters remotely from the ServiceNow Instance. For more information, see [Upgrade Kubernetes Visibility Agent Informers remotely](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cnov-informer-upgrade-remote.md).
 
 ## Procedure
 
@@ -52,9 +53,9 @@ You can also upgrade Kubernetes Visibility Agent Informer pods in Kubernetes clu
                     **Note:** If the Informer is not installed in OpenShift, there is no need to set this parameter.
 
             2.  In the command, configure additional settings as needed:
-                -   [Configure the memory limit of the Informer pod](cnov-config-informer-memory.md)
-                -   [Change the full discovery frequency in Kubernetes Visibility Agent](cnov-config-full-discovery-frequency.md)
-                -   [Deactivate continuous discovery in Kubernetes Visibility Agent](cnov-config-continuous-discovery-off.md)
+                -   [Configure the memory limit of the Informer pod](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cnov-config-informer-memory.md)
+                -   [Change the full discovery frequency in Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cnov-config-full-discovery-frequency.md)
+                -   [Deactivate continuous discovery in Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cnov-config-continuous-discovery-off.md)
                 -   Suppress frequent changes in the Kubernetes cluster to reduce the load on your instance. When this feature is active, the Informer does not report changes above the configured threshold rate back to the instance. For more information, see the [Suppressing frequent changes in Kubernetes clusters reported by Kubernetes Visibility Agent \(formerly CNO for visibility\) \[KB1580745\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1580745) article in the Now Support Knowledge Base.
                 -   Control the maximum number of full discoveries that Informers can run on multiple clusters at the same time. For more information, see the [Scheduling Full Discoveries in Kubernetes Visibility Agent \(formerly CNO for Visibility\) \[KB1580250\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1580250) article in the Now Support Knowledge Base.
         2.  Run the command.
@@ -86,5 +87,5 @@ You can also upgrade Kubernetes Visibility Agent Informer pods in Kubernetes clu
 
 For information about Kubernetes Visibility Agent administration and troubleshooting, see the [Administrating and Troubleshooting Kubernetes Visibility Agent \(formerly CNO for Visibility\) \[KB1532614\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1532614) article in the Now Support Knowledge Base.
 
-**Parent Topic:**[Configuring Kubernetes Visibility Agent](../concept/cnov-configuring.md)
+**Parent Topic:**[Configuring Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cnov-configuring.md)
 

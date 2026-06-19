@@ -2,6 +2,7 @@
 title: Retriever chunking and reranking
 description: When you’re building a skill prompt that uses a retriever you can use chunking and reranking to enhance the accuracy and relevance of your responses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-skill-kit/retriever-chunking.html
 release: zurich
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -21,7 +22,7 @@ Role required: sn\_skill\_builder.admin
 
 ## About this task
 
-To set up the chunking and reranking options for a retriever, you must have a retriever tool added to your skill with the **Hybrid** or **Semantic** search criteria. The following steps come after the semantic configuration in [Add a retriever](add-retriever.md).
+To set up the chunking and reranking options for a retriever, you must have a retriever tool added to your skill with the **Hybrid** or **Semantic** search criteria. The following steps come after the semantic configuration in [Add a retriever](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/add-retriever.md).
 
 ## Procedure
 
@@ -29,7 +30,7 @@ To set up the chunking and reranking options for a retriever, you must have a re
 
 2.  Select the skill that you’re adding a retriever to.
 
-3.  [Add a retriever](add-retriever.md).
+3.  [Add a retriever](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/add-retriever.md).
 
 4.  On the form, fill in the fields.
 
@@ -109,5 +110,5 @@ The number of chunks the reranker returns. If you leave this field empty, the de
 8.  Review the selections that you made for the tool and select **Add tool**.
 
 
-**Parent Topic:**[Add a retriever](add-retriever.md)
+**Parent Topic:**[Add a retriever](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/add-retriever.md)
 

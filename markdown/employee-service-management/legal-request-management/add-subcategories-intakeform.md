@@ -2,6 +2,7 @@
 title: Add a subcategory for the intake form
 description: Add a subcategory to an intake form of a practice area to organize legal requests and assignments through the intake form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-request-management/add-subcategories-intakeform.html
 release: zurich
 product: Legal Request Management
 classification: legal-request-management

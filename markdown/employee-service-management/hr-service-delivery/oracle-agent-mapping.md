@@ -2,6 +2,7 @@
 title: Subflow-agent mapping for HR Service Delivery Advanced Integration with Oracle HCM
 description: View the subflow-agent mapping for HR Service Delivery Advanced Integration with Oracle HCM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/oracle-agent-mapping.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

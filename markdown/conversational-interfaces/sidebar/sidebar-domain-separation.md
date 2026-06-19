@@ -2,6 +2,7 @@
 title: Domain separation and Sidebar
 description: Domain separation is supported for Sidebar . Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/sidebar/sidebar-domain-separation.html
 release: zurich
 product: Sidebar
 classification: sidebar
@@ -24,7 +25,7 @@ Domain separation is supported for Sidebar. Domain separation enables you to sep
 
 Sample use case: An Admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## Overview of Domain separation and Sidebar
 
@@ -51,5 +52,5 @@ Domain separation will not work with Microsoft Teams if multiple domains are con
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

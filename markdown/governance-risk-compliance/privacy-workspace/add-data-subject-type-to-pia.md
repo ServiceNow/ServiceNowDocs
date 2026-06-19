@@ -2,6 +2,7 @@
 title: Add data subject type to privacy impact assessment
 description: Add data subject types to privacy impact assessment from the Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/add-data-subject-type-to-pia.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -104,7 +105,7 @@ Type of information object.-   Full name
 
 The data subject types appear in a tabular format.
 
-![Data subject types in a tabular format in Employee Center.](../image/add-data-sub-type-to-pia.png "Data subject types")
+\[Omitted image "add-data-sub-type-to-pia.png"\] Alt text: Data subject types in a tabular format in Employee Center.
 
-**Parent Topic:**[Using Privacy Management](../concept/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

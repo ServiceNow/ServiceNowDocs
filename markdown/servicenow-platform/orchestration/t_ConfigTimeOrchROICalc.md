@@ -2,6 +2,7 @@
 title: Configure the time range for Orchestration ROI calculations
 description: Select a date range to calculate the average number of tasks and the duration per month for the correlated tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/orchestration/t\_ConfigTimeOrchROICalc.html
 release: zurich
 product: Orchestration
 classification: orchestration
@@ -32,5 +33,5 @@ By default, the system creates a range ending at the current date and time and e
 3.  Click **Calculate** to recalculate the ROI based on the new time range and to save your settings.
 
 
-**Parent Topic:**[Orchestration ROI](../concept/c_OrchestrationROI.md)
+**Parent Topic:**[Orchestration ROI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_OrchestrationROI.md)
 

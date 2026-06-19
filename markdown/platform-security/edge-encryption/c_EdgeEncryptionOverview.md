@@ -2,6 +2,7 @@
 title: Exploring Edge Encryption
 description: Edge Encryption is a network encryption system that resides on your network and that encrypts and decrypts sensitive data as it travels between your data center and the ServiceNow cloud.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/c\_EdgeEncryptionOverview.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -44,7 +45,6 @@ Edge Encryption supports both encryption \(through encryption configurations\) a
     -   Date
     -   Email
     -   Date/Time
-    -   HTML
     -   IP Address
     -   Journal
     -   Journal Input
@@ -75,9 +75,9 @@ Edge Encryption supports both encryption \(through encryption configurations\) a
     You can use encryption patterns to tokenize strings that match regular patterns such as social security and credit card numbers. While encryption configurations should be the primary method of encryption, use encryption patterns as a supplement to secure sensitive information found outside of encrypted fields.
 
 
-**Note:** The Edge Encryption proxy server requires a MySQL database in your network only if using order preserving encryption or encryption patterns. Clear text values are stored in the proxy database in your network. For this reason, it is critical that you secure and regularly back up your proxy database. For recommendations, see [Edge Encryption components](c_EdgeEncryptionProxy.md).
+**Note:** The Edge Encryption proxy server requires a MySQL database in your network only if using order preserving encryption or encryption patterns. Clear text values are stored in the proxy database in your network. For this reason, it is critical that you secure and regularly back up your proxy database. For recommendations, see [Edge Encryption components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/c_EdgeEncryptionProxy.md).
 
-![Flow of data using Edge Encryption.](../images/edge-overview.png)
+\[Omitted image "edge-overview-2.png"\] Alt text: Flow of data using Edge Encryption.
 
 ## Edge Encryption on the ServiceNow AI Platform
 
@@ -114,23 +114,23 @@ Because the proxy server is installed and maintained in your network, Edge Encry
 
 Review the following topics to understand the impact of Edge Encryption on your instance:
 
--   [Planning for Edge Encryption](c_EdgeEncryptionPlanning.md)
--   [Edge Encryption system requirements](../reference/r_CloudEdgeSystemRequirements.md)
--   [Sizing your Edge Encryption environment](edge-environment-size.md)
--   [Calculate the order-preserving and tokenization database size](../task/size-db.md)
--   [Edge Encryption limitations](../reference/edge-encryption-limitations.md)
--   [Key management for Edge Encryption](c_EncryptionKeyManagement.md)
+-   [Planning for Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/c_EdgeEncryptionPlanning.md)
+-   [Edge Encryption system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/r_CloudEdgeSystemRequirements.md)
+-   [Sizing your Edge Encryption environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/edge-environment-size.md)
+-   [Calculate the order-preserving and tokenization database size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/size-db.md)
+-   [Edge Encryption limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/edge-encryption-limitations.md)
+-   [Key management for Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/c_EncryptionKeyManagement.md)
 
--   **[Edge Encryption components](c_EdgeEncryptionProxy.md)**  
+-   **[Edge Encryption components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/c_EdgeEncryptionProxy.md)**  
 Edge Encryption is composed of the Edge Encryption proxy server that runs on a server in your network, and the Edge Encryption plugin that must be installed on your ServiceNow instance. If using order-preserving encryption types or encryption patterns, a proxy database must also be installed in your network.
--   **[Edge Encryption clients](../reference/edge-clients.md)**  
+-   **[Edge Encryption clients](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/edge-clients.md)**  
 Edge Encryption uses three clients to inform the instance that the proxy is running, to synchronize requests between the proxy and the instance, and to forward all end user requests to the instance after any potential encryption.
--   **[Key management for Edge Encryption](c_EncryptionKeyManagement.md)**  
+-   **[Key management for Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/c_EncryptionKeyManagement.md)**  
 You are responsible for providing and managing the encryption keys used by Edge Encryption.
--   **[Encryption configurations and patterns](c_EncryptionTypes.md)**  
+-   **[Encryption configurations and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/c_EncryptionTypes.md)**  
 With Edge Encryption, you can encrypt fields and tokenize strings.
--   **[Installed with Edge Encryption](../reference/installed-with-edge-encryption.md)**  
+-   **[Installed with Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/installed-with-edge-encryption.md)**  
 Edge Encryption installs tables to store encryption-related data, system properties to configure default behavior, and the edge\_encryption role to administer Edge Encryption.
 
-**Parent Topic:**[Edge Encryption](../reference/edge-encryption.md)
+**Parent Topic:**[Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/edge-encryption.md)
 

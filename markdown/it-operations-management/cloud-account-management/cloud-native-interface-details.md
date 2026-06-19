@@ -2,6 +2,7 @@
 title: Cloud native interface configuration account fields
 description: Cloud native interface configuration account form and related list field descriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/cloud-native-interface-details.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
@@ -73,7 +74,7 @@ Cloud Account Management uses an email address to generate the root email ID for
 
  For example, if your root email ID is myawsaccount@example.com, the Cloud Account Management application appends a request ID to generate myawsaccount-CWSAREQ0000001@example.com.
 
- **Note:** To create a root email, see [Set up and verify root email in AWS](../task/aws-setup.md).
+ **Note:** To create a root email, see [Set up and verify root email in AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/aws-setup.md).
 
 </td></tr><tr><td>
 
@@ -81,7 +82,7 @@ Cloud credential alias
 
 </td><td>
 
-Alias created to access all the Cloud APIs. The entries are populated from the CMDB records.**Note:** Only Cloud Account Management admin can configure the cloud credential alias. To configure the cloud credential alias, see [Set up AWS API configuration information in ServiceNow](../concept/configure-aws-api-key-in-servicenow.md).
+Alias created to access all the Cloud APIs. The entries are populated from the CMDB records.**Note:** Only Cloud Account Management admin can configure the cloud credential alias. To configure the cloud credential alias, see [Set up AWS API configuration information in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/configure-aws-api-key-in-servicenow.md).
 
 </td></tr><tr><td>
 
@@ -116,7 +117,7 @@ Linked GovCloud orgs \(only if the GovCloud option is enabled\)
 List of GovCloud organizations into which the standalone GovCloud account can be moved.
 
 </td></tr></tbody>
-</table>To return to the procedure, see [Create a cloud native interface account configuration](../task/create-cloud-native-interface-config.md).
+</table>To return to the procedure, see [Create a cloud native interface account configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/create-cloud-native-interface-config.md).
 
-**Parent Topic:**[Cloud Account Management reference](cam-reference.md)
+**Parent Topic:**[Cloud Account Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/cam-reference.md)
 

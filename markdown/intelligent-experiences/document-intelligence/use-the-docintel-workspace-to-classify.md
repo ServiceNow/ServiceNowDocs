@@ -2,6 +2,7 @@
 title: Classify documents using the Document Intelligence workspace
 description: Use the Document Intelligence workspace to label your documents. The workspace enables you to train the AI model by providing direct input and by validating or correcting the recommendations provided by DocIntel.Classify your documents in the Classify panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/document-intelligence/use-the-docintel-workspace-to-classify.html
 release: zurich
 product: Document Intelligence
 classification: document-intelligence
@@ -15,7 +16,7 @@ breadcrumb: [Complete a document task, Use, Document Intelligence, Enable AI exp
 
 Use the Document Intelligence workspace to label your documents. The workspace enables you to train the AI model by providing direct input and by validating or correcting the recommendations provided by DocIntel.
 
-**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](docintel-nowassist-landing.md).
+**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
 
 ## Overview of the Document Intelligence workspace
 
@@ -23,8 +24,8 @@ The Document Intelligence \(DocIntel\) workspace provides features that enable y
 
 To get started with the Document Intelligence workspace, complete the following:
 
--   [Create a document task](../task/upload-documents-for-extraction.md) for a document classification use case, upload a document, and process the task.
--   After DocIntel has processed the task, you can begin using the workspace. See [Complete a document task](../task/extract-data-from-documents.md).
+-   [Create a document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/document-intelligence/upload-documents-for-extraction.md) for a document classification use case, upload a document, and process the task.
+-   After DocIntel has processed the task, you can begin using the workspace. See [Complete a document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/document-intelligence/extract-data-from-documents.md).
 
 ## Layout of the Document Intelligence workspace
 
@@ -37,7 +38,7 @@ The following image shows the Document Intelligence workspace for a document tas
 
 **Note:** In this view, the documents in the Classify panel are expanded so that the categories are visible.
 
-![Areas of the Document Intelligence workspace for document classification.](../image/docintel-dc-workspace-2.png)
+\[Omitted image "docintel-dc-workspace-2.png"\] Alt text: Areas of the Document Intelligence workspace for document classification.
 
 ## Thumbnail panel
 
@@ -57,7 +58,7 @@ The Classify panel enables you to open each document and page classification for
 
 The following image shows the Classify panel with a category field for each attachment in the document task, enabling you to enter or review the category.
 
-![Category fields in the Classify panel corresponding to the documents shown in the thumbnail panel.](../image/docintel-dc-panel-2.png)
+\[Omitted image "docintel-dc-panel-2.png"\] Alt text: Category fields in the Classify panel corresponding to the documents shown in the thumbnail panel.
 
 ## Classify documents and document pages
 
@@ -85,7 +86,7 @@ If the categories are already auto-filled with values, you can review them to en
 
     -   Begin typing in the **Category** field and select a recommendation from the list.
 
-        The recommendation with the highest [confidence score](docintel-confidence-scores.md) displays at the top of the list.
+        The recommendation with the highest [confidence score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/document-intelligence/docintel-confidence-scores.md) displays at the top of the list.
 
     -   Select **Mixed categories** for a multi-page document that includes more than one document type.
 
@@ -101,6 +102,6 @@ If the categories are already auto-filled with values, you can review them to en
 
     The page will be marked as complete when you move to the next page.
 
-5.  If needed, flag the documents or pages for later attention by selecting **Flag for follow-up** in the options menu from the options icon \( ![Options icon.](../image/icon-docintel-field-options-menu.png)\).
+5.  If needed, flag the documents or pages for later attention by selecting **Flag for follow-up** in the options menu from the options icon \( \[Omitted image "icon-docintel-field-options-menu.png"\] Alt text: Options icon.\).
 
 

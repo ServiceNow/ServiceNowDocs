@@ -2,6 +2,7 @@
 title: Map the downstream production processes for the selected equipment model entity
 description: Use the downstream process to review the downstream production processes for the selected equipment model entity. You can also create and map a new downstream production process for the equipment model entity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-process-manager/map-downstream-production-processes-equipment-model-entity.html
 release: zurich
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -21,7 +22,7 @@ Role required: cmdb\_ot\_isa\_editor, cmdb\_ot\_isa\_viewer, cmdb\_ot\_isa\_admi
 
 ## About this task
 
-Users with an assigned cmdb\_ot\_isa\_admin role can view equipment model entities for any site. However, users with an assigned cmdb\_ot\_isa\_editor role can only access those sites that an administrator has granted access to for specific users. To learn more about granting site access, see [Assign or remove equipment model site access for non-administrators](create-user-criteria-for-equipment-model-entity-site-users.md).
+Users with an assigned cmdb\_ot\_isa\_admin role can view equipment model entities for any site. However, users with an assigned cmdb\_ot\_isa\_editor role can only access those sites that an administrator has granted access to for specific users. To learn more about granting site access, see [Assign or remove equipment model site access for non-administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/create-user-criteria-for-equipment-model-entity-site-users.md).
 
 ## Procedure
 
@@ -37,15 +38,15 @@ Users with an assigned cmdb\_ot\_isa\_admin role can view equipment model entiti
 
 5.  Review the downstream production processes for the equipment model, or map a new one.
 
-<table id="choicetable_nnq_bxc_3qb"><thead><tr><th align="left" id="d21961e124">
+<table id="choicetable_nnq_bxc_3qb"><thead><tr><th align="left" id="d24399e124">
 
 Task
 
-</th><th align="left" id="d21961e127">
+</th><th align="left" id="d24399e127">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d21961e133">
+</th></tr></thead><tbody><tr><td id="d24399e133">
 
 **Review the downstream production processes for the selected equipment model entity**
 
@@ -53,7 +54,7 @@ Description
 
 Proceed to the next step and review the Downstream process form.
 
-</td></tr><tr><td id="d21961e142">
+</td></tr><tr><td id="d24399e142">
 
 **Map a downstream production process**
 
@@ -64,7 +65,7 @@ Proceed to the next step and review the Downstream process form.
 3.  Click **Save**.
 
 
-</td></tr><tr><td id="d21961e169">
+</td></tr><tr><td id="d24399e169">
 
 **Remove a downstream process**
 
@@ -82,5 +83,5 @@ Use the Dependency Map view.1.  Click **View Process**.
 </table>6.  Click **Submit**.
 
 
-**Parent Topic:**[Review and update the equipment model details](equipment-model-workspace.md)
+**Parent Topic:**[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/equipment-model-workspace.md)
 

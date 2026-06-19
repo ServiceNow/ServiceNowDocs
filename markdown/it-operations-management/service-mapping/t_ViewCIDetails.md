@@ -2,6 +2,7 @@
 title: View CI attributes in an application service map in classic Service Mapping
 description: An application service map displays attributes for each configuration item \(CI\) that is part of the application service, as well as for the application service itself. The attributes come from the CMDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/t\_ViewCIDetails.html
 release: zurich
 product: Service Mapping
 classification: service-mapping
@@ -38,7 +39,7 @@ You can view the following information for each CI:
 
 Each CI type \(CI class\) has different attributes. For example, the Linux Server type has different attributes than the SQL Instance type.
 
-If Service Mapping is deployed, the way CIs appear on the map depends on the [view you select for the map](modify-map-view.md). Attributes available for viewing also depend on the Service Mapping setup. For more information, see description of [components installed with Service Mapping](../reference/components-installed-with-service-mapping.md).
+If Service Mapping is deployed, the way CIs appear on the map depends on the [view you select for the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/modify-map-view.md). Attributes available for viewing also depend on the Service Mapping setup. For more information, see description of [components installed with Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/components-installed-with-service-mapping.md).
 
 ## Procedure
 
@@ -62,7 +63,7 @@ If Service Mapping is deployed, the way CIs appear on the map depends on the [vi
 
     The attributes of applications and the servers that host them appear separately.
 
-    ![CI attributes displayed in the Properties pane](../image/AppServerProperties.gif)
+    \[Omitted image "AppServerProperties.gif"\] Alt text: CI attributes displayed in the Properties pane
 
 5.  To view more detailed attributes for the CI, click **Detailed properties** at the bottom of the Properties pane.
 
@@ -71,5 +72,5 @@ If Service Mapping is deployed, the way CIs appear on the map depends on the [vi
     -   Review the list of files under **Tracked Files** in the **Properties** pane. Click the file name to open the actual file.
     -   Click the **Affected CIs** tab and view the list of configuration files. Click the file name to open the actual file.
 
-**Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](../concept/c_SvcPlanningAndAnalysisUsingMaps.md)
+**Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/c_SvcPlanningAndAnalysisUsingMaps.md)
 

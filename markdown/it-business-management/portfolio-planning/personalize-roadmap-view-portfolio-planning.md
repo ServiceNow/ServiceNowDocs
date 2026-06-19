@@ -2,6 +2,7 @@
 title: Personalize roadmap view
 description: Customize the way that your roadmap is displayed. Group the roadmap items, color them by a category, add numerical data points, and display milestones and dependencies to analyze your roadmap efficiently and take informed decisions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/personalize-roadmap-view-portfolio-planning.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -30,15 +31,15 @@ Any settings that you apply here are saved as preferences per roadmap. All users
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d40352e99">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d44114e99">
 
 Roadmap type
 
-</th><th align="left" id="d40352e102">
+</th><th align="left" id="d44114e102">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d40352e108">
+</th></tr></thead><tbody><tr><td id="d44114e108">
 
 **Portfolio plan roadmap**
 
@@ -48,7 +49,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d40352e129">
+</td></tr><tr><td id="d44114e129">
 
 **Free-form roadmap**
 
@@ -59,19 +60,19 @@ From the Free-form Roadmaps tab, select a roadmap.
 </td></tr></tbody>
 </table>2.  Modify the scale of the timeline of your roadmap.
 
-    Select the time scale icon \(![Time scale icon.](../../alignment-planner-workspace/images/timescale-icon.png)\) and choose **Month**, **Quarter**, or **Year**.
+    Select the time scale icon \(\[Omitted image "timescale-icon.png"\] Alt text: Time scale icon.\) and choose **Month**, **Quarter**, or **Year**.
 
     **Note:** The timescale view that you choose is saved in the roadmap preferences.
 
 3.  Use the side panel to personalize how your roadmap looks like.
 
-    1.  From the side bar, select the Personalize icon \(![Personalize icon.](../../alignment-planner-workspace/images/personalize-icon.png)\).
+    1.  From the side bar, select the Personalize icon \(\[Omitted image "personalize-icon.png"\] Alt text: Personalize icon.\).
 
     2.  Group and color your roadmap items by the available attributes.
 
         You can group the roadmap items by up to two attributes and color-code them by one attribute.
 
-        You can work with your admin to add other attributes for the Group by, Color by, and Metrics fields. See [Customize the planning item display preferences for Prioritization and Roadmap in Portfolio Planning Workspace](update-source-table-preferences-roadmap-portfolio-planning.md).
+        You can work with your admin to add other attributes for the Group by, Color by, and Metrics fields. See [Customize the planning item display preferences for Prioritization and Roadmap in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/update-source-table-preferences-roadmap-portfolio-planning.md).
 
     3.  Enable visibility of owners of the roadmap items by using the **Owner** toggle.
 
@@ -79,15 +80,15 @@ From the Free-form Roadmaps tab, select a roadmap.
 
         You can add up to three metrics.
 
-        ![Sample metrics on roadmap items.](../../spw-roadmap/images/metrics-fields-on-roadmap.png)
+        \[Omitted image "metrics-fields-on-roadmap.png"\] Alt text: Sample metrics on roadmap items.
 
     5.  If your roadmap items \(such as projects, epics, or demands\) have milestones, adjust how they’re displayed using the toggles in the Milestones section.
 
-        For more information, see [Customizing milestone display on roadmap](../reference/customizing-milestone-display-roadmap-portfolio-planning.md).
+        For more information, see [Customizing milestone display on roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/customizing-milestone-display-roadmap-portfolio-planning.md).
 
     6.  If your roadmap items have dependencies, adjust how they’re displayed using the toggles in the Dependencies section.
 
-        For more information, see [Customizing roadmap item dependency display](../reference/customizing-roadmap-item-dependency-display-portfolio-planning.md).
+        For more information, see [Customizing roadmap item dependency display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/customizing-roadmap-item-dependency-display-portfolio-planning.md).
 
     7.  Identify the current date on your timeline using the current date indicator.
 
@@ -95,7 +96,7 @@ From the Free-form Roadmaps tab, select a roadmap.
 
 4.  Filter the data shown on the roadmap by applying conditions to the planning items.
 
-    1.  From the sidebar, select the Filter roadmap items icon \(![Filter roadmap items icon.](../../alignment-planner-workspace/images/icon-filter-roadmap.png)\).
+    1.  From the sidebar, select the Filter roadmap items icon \(\[Omitted image "icon-filter-roadmap.png"\] Alt text: Filter roadmap items icon.\).
 
         The side panel opens to show the currently applied filters in the Filter overview.
 
@@ -105,21 +106,21 @@ From the Free-form Roadmaps tab, select a roadmap.
 
     3.  Select **Apply**.
 
-5.  Quickly enable or disable the display of dependency lines between the roadmap items using the Display dependency lines icon \(![Display dependency lines icon.](../../alignment-planner-workspace/images/icon-dependency-lines.png)\).
+5.  Quickly enable or disable the display of dependency lines between the roadmap items using the Display dependency lines icon \(\[Omitted image "icon-dependency-lines.png"\] Alt text: Display dependency lines icon.\).
 
 6.  Zoom in, zoom out, and reset the zoom of your roadmap view by using the zoom options.
 
-    ![Roadmap zoom options.](../../spw-roadmap/images/roadmap-zoom-options.png)
+    \[Omitted image "roadmap-zoom-options.png"\] Alt text: Roadmap zoom options.
 
     **Note:** The zoom level that you choose isn’t saved as the roadmap preferences.
 
-7.  [Apply quick filters for Prioritization and Roadmap data in Portfolio Planning](quick-fiters-prioitization-roadmap-ppw.md)
+7.  [Apply quick filters for Prioritization and Roadmap data in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/quick-fiters-prioitization-roadmap-ppw.md)
 
 
--   **[Customizing milestone display on roadmap](../reference/customizing-milestone-display-roadmap-portfolio-planning.md)**  
+-   **[Customizing milestone display on roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/customizing-milestone-display-roadmap-portfolio-planning.md)**  
 Easily track the milestones of your roadmap timeline or its planning items by choosing how the milestones are displayed on the roadmap view.
--   **[Customizing roadmap item dependency display](../reference/customizing-roadmap-item-dependency-display-portfolio-planning.md)**  
+-   **[Customizing roadmap item dependency display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/customizing-roadmap-item-dependency-display-portfolio-planning.md)**  
 Improve the efficiency of identifying the relationships between your planning items by choosing how the dependencies are displayed on the roadmap view.
 
-**Parent Topic:**[Planning roadmaps in Portfolio Planning](../concept/planning-roadmaps-in-portfolio-planning.md)
+**Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)
 

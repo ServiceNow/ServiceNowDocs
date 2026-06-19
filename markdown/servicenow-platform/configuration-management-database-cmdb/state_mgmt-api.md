@@ -2,6 +2,7 @@
 title: Lifecycle management APIs
 description: CI Lifecycle Management provides a set of state management APIs for manipulating CI operational states, and applying CI actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/state\_mgmt-api.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -71,5 +72,5 @@ output = SNC.StateManagementScriptableApi.addBulkCIAction(requestorId, sys_ids, 
 gs.print(output);
 ```
 
-**Parent Topic:**[CMDB CI Lifecycle Management \(legacy\)](cmdb-ci-lifecycle-mgmt.md)
+**Parent Topic:**[CMDB CI Lifecycle Management \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-ci-lifecycle-mgmt.md)
 

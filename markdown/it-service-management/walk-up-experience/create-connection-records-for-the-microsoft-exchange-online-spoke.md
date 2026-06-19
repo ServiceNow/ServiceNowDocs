@@ -2,6 +2,7 @@
 title: Create connection records for the Microsoft Exchange Online spoke
 description: Perform actions in Microsoft Exchange Online by creating connection records for your Microsoft Exchange Online account. The Microsoft Exchange Online spoke connection and credential alias uses these connections to perform actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/walk-up-experience/create-connection-records-for-the-microsoft-exchange-online-spoke.html
 release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -192,5 +193,5 @@ Domain that the action or activity runs in.
 
 The Microsoft Exchange Online spoke is set up and integrated with the Walk-up Experience instance.
 
-**Parent Topic:**[Set up Microsoft Office 365 integration for Walk-up Experience](setup-walkup-msoffice365-cal-integ.md)
+**Parent Topic:**[Set up Microsoft Office 365 integration for Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/setup-walkup-msoffice365-cal-integ.md)
 

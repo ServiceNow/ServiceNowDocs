@@ -2,11 +2,12 @@
 title: Generate an annual OSHA 300 Log or 300A Summary form
 description: Generate an annual 300 Log or 300A Summary OSHA form for all OSHA recordable injuries and illnesses that happened in an establishment between January 1 and December 31 of a calendar year.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety/generate-osha-annual-form.html
 release: zurich
 product: Health and Safety
 classification: health-and-safety
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Health and Safety Incident Management OSHA Content Pack, Health and Safety injury and illness reports, Health and Safety, Employee Service Management]
 ---
@@ -36,7 +37,7 @@ For the PDF export format, the system uses the saved PDF templates for OSHA 300 
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
-2.  Select the incident management icon \(![Incident Management icon.](../image/list-icon-hs.png)\) and navigate to the **Lists** tab.
+2.  Select the incident management icon \(\[Omitted image "list-icon-hs.png"\] Alt text: Incident Management icon.\) and navigate to the **Lists** tab.
 
 3.  In the **Lists** tab, under the **Injury / illnesses** list, open a report list.
 
@@ -74,7 +75,7 @@ Establishment
 
 Establishment to generate the form for.The form includes all OSHA recordable injuries and illnesses that happened in the selected establishment.
 
-**Note:** In OSHA 300A form, the total hours worked by employees are auto-filled from the establishment's annual information. However, when the total hours information is not available for the selected year for this establishment, the system uses the default value from the Total hours worked system property in the report. For more information, see [Manage the list of establishments](manage-establishment-list.md).
+**Note:** In OSHA 300A form, the total hours worked by employees are auto-filled from the establishment's annual information. However, when the total hours information is not available for the selected year for this establishment, the system uses the default value from the Total hours worked system property in the report. For more information, see [Manage the list of establishments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/manage-establishment-list.md).
 
 </td></tr><tr><td>
 
@@ -108,7 +109,7 @@ Calendar year to generate the form for.The form includes all OSHA recordable inj
 
 ## What to do next
 
-You can view the saved OSHA form by navigating to the **Establishments** list. For more information, see [View a saved OSHA 300 and 300A form](view-osha-annual-forms.md).
+You can view the saved OSHA form by navigating to the **Establishments** list. For more information, see [View a saved OSHA 300 and 300A form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/view-osha-annual-forms.md).
 
-**Parent Topic:**[Health and Safety Incident Management OSHA Content Pack](../concept/generating-osha-forms.md)
+**Parent Topic:**[Health and Safety Incident Management OSHA Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/generating-osha-forms.md)
 

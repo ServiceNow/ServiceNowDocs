@@ -2,6 +2,7 @@
 title: Configure HR Playbook activity overrides
 description: Create optional activity overrides for the default behavior of activities in your HR playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/playbook-hr-act-overrides-config.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -23,7 +24,7 @@ Role required: sn\_hr\_ws.admin
 
 If this system property is true, Agent Workspace for HR Case Management Playbook Card Configurations are used, and it's activity overrides will apply. If this system property is false, which is the default value, Classic HR Service Delivery Agent Workspace Playbook Card Configurations are used, and it's activity overrides will apply.
 
-You can also access Playbook Activity Overrides from Playbook Experiences. See [Configure HR Playbook Experiences](playbook-hr-experiences-config.md).
+You can also access Playbook Activity Overrides from Playbook Experiences. See [Configure HR Playbook Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/playbook-hr-experiences-config.md).
 
 ## Procedure
 

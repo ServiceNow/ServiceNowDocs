@@ -2,6 +2,7 @@
 title: Work order task states
 description: Work orders are made up of at least one work order task. Work order tasks states are sequential and progress from one state to the next.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/work-order-task-states.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -47,7 +48,7 @@ Scheduled
 
 </td><td>
 
-The work order task is soft booked but not confirmed. The work order task is pending assignment from the dispatcher.**Note:** This state only shows if use scheduled state is enabled. For more information, see [Configure the Scheduled state](../task/configure-scheduled-state.md).
+The work order task is soft booked but not confirmed. The work order task is pending assignment from the dispatcher.**Note:** This state only shows if use scheduled state is enabled. For more information, see [Configure the Scheduled state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/configure-scheduled-state.md).
 
 </td></tr><tr><td>
 

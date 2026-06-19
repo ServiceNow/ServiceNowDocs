@@ -2,6 +2,7 @@
 title: Add or discard multiple skills with skill sensing
 description: Review and approve the Large Language Model \(LLM\) recommended skills before tagging​ them to the learning courses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/bulk-skill-sensing.html
 release: zurich
 product: Learning Core
 classification: learning-core

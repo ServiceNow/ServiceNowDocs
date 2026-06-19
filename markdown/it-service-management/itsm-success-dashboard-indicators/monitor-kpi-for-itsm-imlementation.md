@@ -2,6 +2,7 @@
 title: Monitoring the KPIs of your ITSM implementation
 description: View and monitor the ITSM Success Dashboard indicators to measure the performance of your ITSM implementation using the Key Performance Indicators \(KPIs\) defined by ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-success-dashboard-indicators/monitor-kpi-for-itsm-imlementation.html
 release: zurich
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -17,7 +18,7 @@ View and monitor the ITSM Success Dashboard indicators to measure the performanc
 
 You can access the aggregated KPI data in the ITSM Success Dashboard indicators by navigating to **All&gt;** &gt; **Success Dashboard** &gt; **Success Dashboard** if you have the sn\_sd.success\_dashboard\_admin, sn\_sd.success\_dashboard\_read, or sn\_sd.success\_dashboard\_details\_read role.
 
-![ITSM Success Dashboard landing page](../image/sd-overview-fb23.png)
+\[Omitted image "sd-overview-fb23.png"\] Alt text: ITSM Success Dashboard landing page
 
 You can monitor data by any of the following time aggregations.
 
@@ -27,9 +28,9 @@ You can monitor data by any of the following time aggregations.
 
 Once the time aggregation is set, all the score-cards show the data for that period.
 
-For more information on the dashboard components, see [HR Success Dashboard indicators components](https://www.servicenow.com/docs/access?context=sdb-dasboard-overview&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+For more information on the dashboard components, see HR Success Dashboard indicators components.
 
-For more information on the KPI definitions and formulas, see [HR Success Dashboard indicators KPI definitions and formulae](https://www.servicenow.com/docs/access?context=sd-formulae&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+For more information on the KPI definitions and formulas, see HR Success Dashboard indicators KPI definitions and formulae.
 
-**Parent Topic:**[Maximise the benefits of using the ITSM Success Dashboard indicators](../concept/measuring-performance-success-dashboard.md)
+**Parent Topic:**[Maximise the benefits of using the ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-success-dashboard-indicators/measuring-performance-success-dashboard.md)
 

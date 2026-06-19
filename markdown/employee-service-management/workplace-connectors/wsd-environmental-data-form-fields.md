@@ -2,6 +2,7 @@
 title: Environmental data form for Workplace Connectors
 description: Environmental sensor data form has pre-filled environmental data values and units of measure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-connectors/wsd-environmental-data-form-fields.html
 release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
@@ -160,9 +161,9 @@ Query status
 NA
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Connectors references](../concept/workplace-connectors-references.md)
+</table>**Parent Topic:**[Workplace Connectors references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/workplace-connectors-references.md)
 
-**Previous topic:**[Components installed with Workplace Connectors](component-workplace-connectors.md)
+**Previous topic:**[Components installed with Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/component-workplace-connectors.md)
 
-**Next topic:**[Data summarization](data-summarization-workplace-connectors.md)
+**Next topic:**[Data summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/data-summarization-workplace-connectors.md)
 

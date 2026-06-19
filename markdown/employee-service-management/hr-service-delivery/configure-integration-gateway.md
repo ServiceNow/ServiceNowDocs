@@ -2,6 +2,7 @@
 title: Create a subflow using Template Integration Gateway
 description: Use the Template Integration Gateway as a reference to create the supported subflows for Integration Gateway.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/configure-integration-gateway.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -43,7 +44,7 @@ Role required: flow\_designer, sn\_hr\_integr\_fw.admin
 
 1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 2.  In Subflows, select Integration Gateway.
-3.  Create an entry for the above created subflow. For more information, see [Configure Integration Provider Mapping \(Decision table\)](configure-integration-mapping.md).
+3.  Create an entry for the above created subflow. For more information, see [Configure Integration Provider Mapping \(Decision table\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-integration-mapping.md).
 4.  Click **Test**.
 
     1.  In Test Subflow, select User, Feature Name, Service Name, and Payload.

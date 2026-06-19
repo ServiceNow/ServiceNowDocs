@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP roles
 description: Administrators assign roles to give team members permission to configure or use Zero Copy Connector for ERP.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erp-canvas-roles.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -18,9 +19,9 @@ Administrators assign roles to give team members permission to configure or use 
 
 **Important:** When you assign Zero Copy Connector for ERP \(Enterprise Resource Planning\) roles to a user, you must include the scope. For example, assign the `sn_erp_integration.erp_admin` role, not just `erp_admin`.
 
-For more on assigning roles, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For more on assigning roles, see .
 
-To learn more about product-specific \(granular\) admin roles, see [Granular admin roles required to secure your instance](https://www.servicenow.com/docs/access?context=roles-within-platform-security&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+To learn more about product-specific \(granular\) admin roles, see .
 
 ## Zero Copy Connector for ERP roles
 
@@ -50,7 +51,7 @@ Grants the user access to updating the application setup.
 
 Granular admin role for Zero Copy Connector for ERP that contains the sn\_erp\_integration.erp\_user role.
 
- For more information on working with granular roles, see [Granular admin roles required to secure your instance](https://www.servicenow.com/docs/access?context=roles-within-platform-security&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+ For more information on working with granular roles, see Granular admin roles required to secure your instance.
 
 </td></tr><tr><td>
 
@@ -145,5 +146,5 @@ If users need access to work with specific ERP data models, such as purchasing o
 |Vendor invoice user|sn\_erp\_integration.sap\_vendor\_invoice|
 |Vendor user|sn\_erp\_integration.sap\_vendor|
 
-**Parent Topic:**[Configuring Zero Copy Connector for ERP](../concept/erp-integration-configuration-overview.md)
+**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-integration-configuration-overview.md)
 

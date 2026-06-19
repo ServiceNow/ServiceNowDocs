@@ -2,6 +2,7 @@
 title: Create and select an update set as the current set
 description: Create an update set to store customization changes and select it as the current set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/system-update-sets/create-select-update-set.html
 release: zurich
 product: System Update Sets
 classification: system-update-sets
@@ -33,7 +34,7 @@ You can select an update set as the current set when you create it, or you can s
 
 4.  If the picker is enabled and the update set is in the In progress state, click **Submit and Make Current** to select the new update set as the target for configuration changes.
 
-    ![New update set](../image/UpdateSetNew.png "New update set")
+    \[Omitted image "UpdateSetNew.png"\] Alt text: New update set
 
 <table id="table_nln_kgn_vp"><thead><tr><th>
 
@@ -57,11 +58,11 @@ State
 
 </td><td>
 
-Select **In progress** for a new update set. Selecting an In progress update set tracks customizations in the update set. The [update set picker](select-update-set-system-settings.md) only displays In progress update sets.Select **Completed** only when you are certain that the update set is complete. After it is marked Completed, do not set it back to In progress. Instead, create a new update set with further customizations, and make sure to commit the update sets in the order that they were marked Completed. Use Completed update sets to transfer changes from one instance to another.
+Select **In progress** for a new update set. Selecting an In progress update set tracks customizations in the update set. The [update set picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/select-update-set-system-settings.md) only displays In progress update sets.Select **Completed** only when you are certain that the update set is complete. After it is marked Completed, do not set it back to In progress. Instead, create a new update set with further customizations, and make sure to commit the update sets in the order that they were marked Completed. Use Completed update sets to transfer changes from one instance to another.
 
  Select **Ignore** when you are no longer working on an update set but do not want it to be transferred to another instance. You should always set Completed update sets on the production instance to Ignore. This state ensures the update set is not committed again when cloning the instance.
 
- Update set picker only displays In progress update sets. See [Select the current update set in Unified Navigation](select-update-set-system-settings.md).Select **Completed** only when you are certain that the update set is complete. After it is marked Completed, do not set it back to In progress. Instead, create a new update set with further customizations, and make sure to commit the update sets in the order that they were marked Completed. Use Completed update sets to transfer changes from one instance to another.
+ Update set picker only displays In progress update sets. See [Select the current update set in Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/select-update-set-system-settings.md).Select **Completed** only when you are certain that the update set is complete. After it is marked Completed, do not set it back to In progress. Instead, create a new update set with further customizations, and make sure to commit the update sets in the order that they were marked Completed. Use Completed update sets to transfer changes from one instance to another.
 
  Select **Ignore** when you are no longer working on an update set but do not want it to be transferred to another instance. You should always set Completed update sets on the production instance to Ignore. This state ensures the update set is not committed again when cloning the instance.
 

@@ -2,6 +2,7 @@
 title: Use Policy and Compliance Management
 description: Use the features and capabilities of the Policy and Compliance Management to create policies, control objectives, and controls, and map them to authoritative sources so you can assess and monitor compliance with regulations and industry guidelines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/use-policy-compliance-mgmt.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

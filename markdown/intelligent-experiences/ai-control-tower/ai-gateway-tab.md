@@ -2,6 +2,7 @@
 title: AI Gateway tab in AI Control Tower
 description: Explore the AI Gateway tab in the AI Control Tower.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/ai-gateway-tab.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower

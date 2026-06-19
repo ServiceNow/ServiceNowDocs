@@ -2,6 +2,7 @@
 title: Request for domain separation in Service Catalog
 description: Enable domain separation in Service Catalog by requesting for the activation of the Service Catalog - Domain Separation plugin \(com.glideapp.servicecatalog.domain\_separation\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/activate-domain-sep-catalog.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -78,5 +79,5 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Domain separation and Service Catalog](../concept/domain-separation-service-catalog-management.md)
+**Parent Topic:**[Domain separation and Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/domain-separation-service-catalog-management.md)
 

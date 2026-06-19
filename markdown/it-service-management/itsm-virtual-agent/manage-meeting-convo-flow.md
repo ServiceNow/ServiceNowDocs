@@ -2,6 +2,7 @@
 title: Microsoft Exchange Online meeting management pre-built topic for ITSM Virtual Agent
 description: ITSM Virtual Agent helps you manage meetings in Microsoft Exchange Online. Using the Manage Meetings EXO topic, you can schedule, reschedule, and cancel a meeting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-virtual-agent/manage-meeting-convo-flow.html
 release: zurich
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -21,12 +22,12 @@ Natural Language Understanding \(NLU\) is used to identify and trigger the meeti
 
 Requirements:
 
--   [Microsoft Exchange Online spoke](https://www.servicenow.com/docs/access?context=ms-exch-online-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) \(sn\_ex\_online\_spke\)
+-   Microsoft Exchange Online spoke \(sn\_ex\_online\_spke\)
 -   Email addresses for meeting attendees must be configured in the User \[sys\_user\] table to be added to meeting invites
--   Some actions can use the [Microsoft Teams Communication spoke](https://www.servicenow.com/docs/access?context=msteams-comm&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) \(sn\_msteams\_com\_spk\) to send meeting links to Microsoft Teams
--   Some actions can use the [Cisco Webex Teams spoke](https://www.servicenow.com/docs/access?context=cisco-teams-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) \(sn\_cisco\_teams\_spk\)
--   Some actions can use the [Zoom spoke](https://www.servicenow.com/docs/access?context=zoom-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)\(com.sn.zoom.spoke\) to add meeting links
--   This topic uses the [Employee Experience VA topic blocks](employee-experience-va-topicblocks.md)
+-   Some actions can use the Microsoft Teams Communication spoke \(sn\_msteams\_com\_spk\) to send meeting links to Microsoft Teams
+-   Some actions can use the Cisco Webex Teams spoke \(sn\_cisco\_teams\_spk\)
+-   Some actions can use the Zoom spoke\(com.sn.zoom.spoke\) to add meeting links
+-   This topic uses the [Employee Experience VA topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-virtual-agent/employee-experience-va-topicblocks.md)
 
 **Note:** If this topic is duplicated in a different scope than ITSM Virtual Agent Conversations, script logic can be affected and cause errors. This topic must be duplicated in the ITSM Virtual Agent Conversations scope.
 
@@ -67,10 +68,10 @@ This topic is deprecated. Use Manage Meetings EXO v1.0 instead.
 
 Requirements:
 
--   [Microsoft Exchange Online spoke](https://www.servicenow.com/docs/access?context=ms-exch-online-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)
+-   Microsoft Exchange Online spoke
 -   Email addresses for meeting attendees must be configured in the User \[sys\_user\] table to be added to meeting invites
--   Some actions can use the [Zoom spoke](https://www.servicenow.com/docs/access?context=zoom-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)\(com.sn.zoom.spoke\) to add meeting links
--   Some actions can use the [Microsoft Teams Communication spoke](https://www.servicenow.com/docs/access?context=msteams-comm&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) \(sn\_msteams\_com\_spk\) to send meeting links to Microsoft Teams
+-   Some actions can use the Zoom spoke\(com.sn.zoom.spoke\) to add meeting links
+-   Some actions can use the Microsoft Teams Communication spoke \(sn\_msteams\_com\_spk\) to send meeting links to Microsoft Teams
 
 **Note:** If this topic is duplicated in a different scope than ITSM Virtual Agent Conversations, script logic can be affected and cause errors. This topic must be duplicated in the ITSM Virtual Agent Conversations scope.
 
@@ -102,5 +103,5 @@ Basic flow for rescheduling a meeting:
 5.  Virtual Agent confirms that the meeting has been rescheduled.
 6.  User can reschedule additional meetings, if desired.
 
-**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](../concept/using-itsm-va.md)
+**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-virtual-agent/using-itsm-va.md)
 

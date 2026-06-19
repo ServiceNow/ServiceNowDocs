@@ -2,6 +2,7 @@
 title: Revoke certificate using ACME automated flow
 description: Request a revoke certificate for an application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/revoke-certificate-using-acme-automated-flow.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -35,7 +36,7 @@ Role required: pki\_admin or admin
 
 3.  Unlock the **Issued Certificate** field.
 
-4.  Select the Lookup using list icon \(![Lookup using list icon](../../itom-cloud-accelerate/image/lookup-using-list.png)\) and select the certificate you want to revoke.
+4.  Select the Lookup using list icon \(\[Omitted image "lookup-using-list.png"\] Alt text: Lookup using list icon\) and select the certificate you want to revoke.
 
     You can select more than one certificate.
 

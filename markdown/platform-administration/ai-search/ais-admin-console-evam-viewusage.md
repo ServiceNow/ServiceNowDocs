@@ -2,6 +2,7 @@
 title: Track how your EVAM view configurations are used
 description: Track where Entity View Action Mapper \(EVAM\) view configurations are being used in the AI Search application. It helps you understand search result layouts, identify shared settings, and make adjustments for better search results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/ais-admin-console-evam-viewusage.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -38,12 +39,12 @@ Tracking the usage of view configuration enables you to do the following tasks:
 
     The list of view configurations that are associated with the selected bundle are displayed.
 
-5.  Hover over the view configuration and select the **More Actions icon \(![More Actions.](../../localization-framework/image/more-actions-icon.png)\)** &gt; **View usage**.
+5.  Hover over the view configuration and select the **More Actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More Actions.\)** &gt; **View usage**.
 
 6.  In the View usage dialog box, review the values.
 
 7.  Select **Close**.
 
 
-**Parent Topic:**[Customizing the result-card interface of an AI Search application by using EVAM](../concept/ais-admin-console-managing-evam.md)
+**Parent Topic:**[Customizing the result-card interface of an AI Search application by using EVAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-admin-console-managing-evam.md)
 

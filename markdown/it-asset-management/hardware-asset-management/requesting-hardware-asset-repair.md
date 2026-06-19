@@ -2,6 +2,7 @@
 title: Repair flow to fix defective hardware assets within a stockroom
 description: Use the Repair flow to get the defective hardware assets in your stockroom fixed so that the repaired assets can be used in different Hardware Asset Management workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/requesting-hardware-asset-repair.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -17,7 +18,7 @@ Use the Repair flow to get the defective hardware assets in your stockroom fixed
 
 By using the Repair flow, your organization can internally fix the assets that are damaged or out of the warranty period. The repaired assets can be put back to use after validation. There's no external vendor involved in the repair of defective assets.
 
-As an asset manager, you can request repair of assets that are either defective or pending repair in your stockroom by submitting repair orders. For more details, see [Request repair of defective hardware assets in your stockroom](request-repair-defective-ham-assets.md). The repair flow is triggered when you submit a repair order. A repair order has repair order lines that are associated with repair tasks for the assets. The asset technician completes the repair tasks in the Hardware Asset Workspace or by using the Mobile Agent application. The repair flow completes after the repaired asset is evaluated. For details, see [Manage repair of defective assets in your stockroom in the Hardware Asset Workspace](manage-repair-of-defective-ham-assets.md) and [Manage hardware asset repair tasks using the Mobile Agent application](repair-orders-mobile-agent-ham.md).
+As an asset manager, you can request repair of assets that are either defective or pending repair in your stockroom by submitting repair orders. For more details, see [Request repair of defective hardware assets in your stockroom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/request-repair-defective-ham-assets.md). The repair flow is triggered when you submit a repair order. A repair order has repair order lines that are associated with repair tasks for the assets. The asset technician completes the repair tasks in the Hardware Asset Workspace or by using the Mobile Agent application. The repair flow completes after the repaired asset is evaluated. For details, see [Manage repair of defective assets in your stockroom in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-repair-of-defective-ham-assets.md) and [Manage hardware asset repair tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/repair-orders-mobile-agent-ham.md).
 
 ## Stages in the Repair flow
 

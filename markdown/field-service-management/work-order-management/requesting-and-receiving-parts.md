@@ -2,6 +2,7 @@
 title: Requesting and receiving required parts
 description: Get the parts you need to complete the assigned work order tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/requesting-and-receiving-parts.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

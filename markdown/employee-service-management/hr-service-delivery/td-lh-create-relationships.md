@@ -2,6 +2,7 @@
 title: Create support relationships
 description: Use the Org Support Relationships table to create a relationship between an organizational leader and an organizational supporter. After the relationship is established, supporters can use Leader Hub to view their designated leader's organization and provide support accordingly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/td-lh-create-relationships.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -40,5 +41,5 @@ Role required: admin \[sn\_egd\_lh.admin\]
 
 The organizational supporter that you specified in the **Supporter** field can view the organization associated with the leader you specified in the **Leader** field when they access Leader Hub.
 
-**Parent Topic:**[Installing and configuring Leader Hub](../concept/td-lh-install-config.md)
+**Parent Topic:**[Installing and configuring Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/td-lh-install-config.md)
 

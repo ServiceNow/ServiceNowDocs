@@ -2,6 +2,7 @@
 title: Request an Instance Data Replication subscription
 description: The Instance Data Replication \(IDR\) plugin requires a separate subscription and must be activated by ServiceNow personnel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/instance-data-replication-idr/request-instance-data-replication.html
 release: zurich
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -85,12 +86,12 @@ Select the date and time to activate the plugin.
 
 ## What to do next
 
-Plan your replication strategy. See [Preparing for Instance Data Replication](../concept/prepare-instance-data-replication.md).
+Plan your replication strategy. See [Preparing for Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/instance-data-replication-idr/prepare-instance-data-replication.md).
 
-**Parent Topic:**[Configuring Instance Data Replication](../concept/configuring-instance-data-replication.md)
+**Parent Topic:**[Configuring Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/instance-data-replication-idr/configuring-instance-data-replication.md)
 
 **Related topics**  
 
 
-[List of plugins \(Zurich\)](https://www.servicenow.com/docs/access?context=list-of-plugins&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+[bundle-platadm.list-of-plugins]
 

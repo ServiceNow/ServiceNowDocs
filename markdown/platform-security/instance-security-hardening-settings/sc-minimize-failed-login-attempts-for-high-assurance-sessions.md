@@ -2,6 +2,7 @@
 title: Minimize failed login attempts for high assurance sessions
 description: Decrease the likelihood of a brute force attack by minimizing failed login attempts for high assurance sessions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-minimize-failed-login-attempts-for-high-assurance-sessions.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -35,7 +36,7 @@ Set the value of this system property to a low value \(such as 5\) to decrease t
 |Fallback value|5|
 |Recommended value|5|
 
-To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Authentication](sc-authentication.md)
+**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

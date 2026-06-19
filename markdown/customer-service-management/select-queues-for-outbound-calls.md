@@ -2,7 +2,10 @@
 title: Selecting queues for outbound calls
 description: Agents can select a queue for their outbound calls directly from the keypad or phone directory in the Global Call window to improve routing and reporting accuracy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/select-queues-for-outbound-calls.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-01-02"
 reading_time_minutes: 1
@@ -20,7 +23,7 @@ This feature provides a search interface that enables agents to find and select 
 -   Set it as default for all outbound dialing methods
 -   Apply it to the current call only
 
-![Select a queue for outbound calls](../image/int-select-outbound-queue.png)
+\[Omitted image "int-select-outbound-queue.png"\] Alt text: Select a queue for outbound calls
 
 Agents can modify queue settings during the idle state or during active calls. The default queue selection persists until changed or log out, and applies across keypad, phone directory, and click-to-dial workflows. This feature is available for CCaaS partner integration.
 
@@ -36,7 +39,7 @@ Queue selection for outbound calls addresses the following capabilities for cont
 
 ## Queue selection Features
 
-![Search or select a queue from the available list](../image/int-search-to-select-queue.png)
+\[Omitted image "int-search-to-select-queue.png"\] Alt text: Search or select a queue from the available list
 
 -   **Find and select a queue in Global Call**
 
@@ -59,5 +62,5 @@ Queue selection for outbound calls addresses the following capabilities for cont
     Queue selection is embedded within the keypad and phone directory, as required by the CCaaS platform.
 
 
-See [Select queues for outbound calls from keypad, phone directory, and Interaction record](../task/select-queue-for-outbound-calls-from-keypad.md).
+See [Select queues for outbound calls from keypad, phone directory, and Interaction record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/select-queue-for-outbound-calls-from-keypad.md).
 

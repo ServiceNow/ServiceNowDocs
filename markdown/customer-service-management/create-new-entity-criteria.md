@@ -2,7 +2,10 @@
 title: Create entity criteria
 description: Create an entity criteria record to define customer-based conditions, either for selected accounts \(B2B\) or consumers \(B2C\). These criteria can be applied to filter which customers are eligible for specific services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-new-entity-criteria.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

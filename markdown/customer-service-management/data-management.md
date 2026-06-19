@@ -2,7 +2,10 @@
 title: Getting started with Customer Service Management
 description: Activate the Customer Service plugin and plan your Customer Service Management implementation by installing additional plugins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/data-management.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -23,7 +26,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Activate Customer Service Management](../task/t_ActivateCustomerService.md)
+[Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_ActivateCustomerService.md)
 
 </td><td>
 
@@ -31,7 +34,7 @@ As an admin, activate the Customer Service plugin \(com.sn\_customerservice\). T
 
 </td></tr><tr><td>
 
-[Plugins activated with Customer Service Management](../reference/plugins-activated-with-csm.md)
+[Plugins activated with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/plugins-activated-with-csm.md)
 
 </td><td>
 
@@ -39,7 +42,7 @@ Refer the list of related CSM plugins that are activated after activating the Cu
 
 </td></tr><tr><td>
 
-[Additional plugins for Customer Service Management](../reference/r_CustServMgmtAddtlPluginsTable.md)
+[Additional plugins for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/r_CustServMgmtAddtlPluginsTable.md)
 
 </td><td>
 
@@ -47,7 +50,7 @@ Refer the list of additional CSM plugins that you can activate after activating 
 
 </td></tr><tr><td>
 
-[Customer Service properties](configure-csm-properties.md)
+[Customer Service properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-csm-properties.md)
 
 </td><td>
 
@@ -55,7 +58,7 @@ Customize settings for several different features, including email communication
 
 </td></tr><tr><td>
 
-[Configure foundation data](../task/configure-csm-foundation-data.md)
+[Configure foundation data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-csm-foundation-data.md)
 
 </td><td>
 

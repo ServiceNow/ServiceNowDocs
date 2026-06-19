@@ -2,6 +2,7 @@
 title: Service Catalog properties
 description: The Service Catalog application contains properties used to configure various settings in the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/r\_ServiceCatalogProperties.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -429,7 +430,7 @@ List of roles \(comma-separated\) that can update the "Requested for" widget in 
 
 </td><td>
 
-List of users with the roles \(comma-separated\) provided here can request items for other users. If no role is specified, then the default behavior is defined by the **glide.sc.req\_for.roles.default** property. For information about configuring the **glide.sc.req\_for.roles.default** property, see [Configure the default behavior to request items for other users](../task/config-default-behavior-request-other-user.md).Controls access to the **Requested For** widget on the catalog homepage. Users with access to this widget can request items for another person. Users without access can place orders in their own name only.
+List of users with the roles \(comma-separated\) provided here can request items for other users. If no role is specified, then the default behavior is defined by the **glide.sc.req\_for.roles.default** property. For information about configuring the **glide.sc.req\_for.roles.default** property, see [Configure the default behavior to request items for other users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/config-default-behavior-request-other-user.md).Controls access to the **Requested For** widget on the catalog homepage. Users with access to this widget can request items for another person. Users without access can place orders in their own name only.
 
 </td></tr><tr><td>
 
@@ -841,7 +842,7 @@ Log all client-side actions on variable \(**glide.sc.log.variable\_actions**\)
 
 </td><td>
 
-If set to **true**, captures the variable log in the [Variable Action Logger](../task/debug-actions-on-catalog-item-variables.md) window: -   **Type:** true \| false
+If set to **true**, captures the variable log in the [Variable Action Logger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/debug-actions-on-catalog-item-variables.md) window: -   **Type:** true \| false
 -   **Default value:** false
 
 </td></tr><tr><td>
@@ -875,5 +876,5 @@ The maximum number of orphan sc\_item\_option records to delete when any sc\_req
 Maximum number of orphan sc\_item\_option records to delete when any sc\_req\_item record is deleted.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Catalog Reference](../concept/service-catalog-reference.md)
+</table>**Parent Topic:**[Service Catalog Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/service-catalog-reference.md)
 

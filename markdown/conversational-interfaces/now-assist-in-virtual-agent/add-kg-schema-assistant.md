@@ -2,6 +2,7 @@
 title: Add a Knowledge Graph schema to a chat assistant
 description: Create Knowledge Graph schemas to represent semantic relationships in your data. Schemas improve assistant responses by providing additional context about users and your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/now-assist-in-virtual-agent/add-kg-schema-assistant.html
 release: zurich
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -17,7 +18,7 @@ Create Knowledge Graph schemas to represent semantic relationships in your data.
 
 ## Before you begin
 
-See [Assign search sources to a chat assistant](add-info-sources-assistant.md).
+See [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/add-info-sources-assistant.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -27,7 +28,7 @@ Knowledge Graph transforms search into an intelligent, predictive, and efficient
 
 **Note:** Knowledge Graph is not applicable to the Now Assist panel - Developer assistant.
 
-For more information about Knowledge Graph, see [Leverage Knowledge Graph prebuilt integration with Now Assist Virtual Agent and Now Assist Panel](https://www.servicenow.com/docs/access?context=example-use-case-for-knowledge-graph&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+For more information about Knowledge Graph, see .
 
 **Note:** By default, search personalization is available with AI Search in the assistant, and delivers personalized, context-aware search experiences powered by Knowledge Graph. To disable the integration with Knowledge Graph for personalization, open support ticket.
 
@@ -37,7 +38,7 @@ An empty Knowledge Graph page is shown if the Knowledge Graph app isn’t instal
 
 1.  If Knowledge Graph is turned on, select the Knowledge Graph schema to apply to the assistant.
 
-    ![Choose your Knowledge Graph](../image/NAinVA-kg-122025.png "Choose your Knowledge Graph")
+    \[Omitted image "NAinVA-kg-122025.png"\] Alt text: Choose your Knowledge Graph
 
     **Note:** During a platform upgrade, if you previously created an assistant and assigned a Knowledge Graph schema to the assistant, you may need to reassign the schema to the assistant as it may show as **None**.
 
@@ -49,18 +50,18 @@ An empty Knowledge Graph page is shown if the Knowledge Graph app isn’t instal
 
     **Note:** For Now Assist panel - Platform \(default\) assistant, if Enterprise Graph and Enterprise Graph \(Small\) are selected within the NLQ schema, tags can be selected for specific workspaces that are active on the instance.
 
-    For more information about Knowledge Graph tags, see [Tagging in Knowledge Graph Designer](https://www.servicenow.com/docs/access?context=tagging-in-knowledge-graph&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+    For more information about Knowledge Graph tags, see .
 
-    ![Fields to add workspace tags.](../image/NAinVA-kg-workspace-tags2-122025.png "Select workspace tags")
+    \[Omitted image "NAinVA-kg-workspace-tags2-122025.png"\] Alt text: Fields to add workspace tags.
 
 2.  Select**Manage tags** to open the tag list from the Knowledge Graph as a new browser tab.
 
-    ![Manage tags.](../image/NAinVA-kg-tags-122025.png "Manage")
+    \[Omitted image "NAinVA-kg-tags-122025.png"\] Alt text: Manage tags.
 
 3.  Select **Manage Knowledge Graph** to open a new browser tab that directs you to the Knowledge Graph app.
 
 
 ## What to do next
 
-See [Add assets to a chat assistant](add-assets.md).
+See [Add assets to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/add-assets.md).
 

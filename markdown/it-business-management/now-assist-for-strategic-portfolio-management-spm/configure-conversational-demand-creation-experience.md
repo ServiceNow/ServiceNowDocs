@@ -2,6 +2,7 @@
 title: Enable conversational demand creation using Now Assist in Virtual Agent
 description: Activate the required skills and learn about required configuration to enable creating a demand through Agent assist in Virtual Agent using the conversational experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-conversational-demand-creation-experience.html
 release: zurich
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
@@ -31,7 +32,7 @@ Role required: admin
 ## What to do next
 
 -   Ensure that AI Search is installed and provisioned for your instance. Navigate to **All** &gt; **AI Search** &gt; **AI Search Status**
--   Set up Now Assist in Virtual Agent. See [Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
--   You can add or modify the question prompts to be asked by Agent assist in Virtual Agent while creating a demand for the user. See [Configure the questions for demand creation in Now Assist for Strategic Portfolio Management \(SPM\)](configure-questions-for-demand-creation.md).
+-   Set up Now Assist in Virtual Agent. See .
+-   You can add or modify the question prompts to be asked by Agent assist in Virtual Agent while creating a demand for the user. See [Configure the questions for demand creation in Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-questions-for-demand-creation.md).
 
 

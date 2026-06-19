@@ -2,6 +2,7 @@
 title: Define AI prompt configurations
 description: Define prompt configurations to control how data from each source is queried and presented to the large language model \(LLM\)
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-wsd/ai-prompt-configurations.html
 release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd

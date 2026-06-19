@@ -2,6 +2,7 @@
 title: View permissions for a group
 description: Use Access Analyzer to view permissions for a selected group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/view-permissions-for-a-group.html
 release: zurich
 product: Access Control
 classification: access-control
@@ -42,11 +43,11 @@ The following procedure describes the sample steps to view permissions for a sel
 
 4.  Select **Analyze permissions**.
 
-    ![View permission of the group for a UI page](../images/view-permissions-for-a-group.png)
+    \[Omitted image "view-permissions-for-a-group.png"\] Alt text: View permission of the group for a UI page
 
     The **Access results** for the **Incident Management** group is displayed.
 
-    ![Permission results](../images/permissions-for-a-group.png)
+    \[Omitted image "permissions-for-a-group.png"\] Alt text: Permission results
 
     The results can be read, by referring to the Legends, access control list \(ACL\), IAccesshandler, and Data filters.
 

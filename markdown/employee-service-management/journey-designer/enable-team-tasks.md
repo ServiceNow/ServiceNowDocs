@@ -2,6 +2,7 @@
 title: Enable team tasks
 description: Enable team tasks to allow managers to add tasks to the Lifecycle Events activity sets that appear in the Skills widget on the Journey detail page. Enabling this feature gives managers and AI agents the flexibility to tailor journeys to individual employee needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/enable-team-tasks.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -38,7 +39,7 @@ Role required: \[sn\_jny.admin\]
 
 You enabled team tasks for the selected journey configuration. Managers are able to add tasks to activity sets for new journeys that are created using the configuration you modified.
 
-To learn how to add tasks to activity sets from the Employee Center, see [Add tasks to an activity set using Journey designer](add-tasks-activity-set.md).
+To learn how to add tasks to activity sets from the Employee Center, see [Add tasks to an activity set using Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/add-tasks-activity-set.md).
 
-**Parent Topic:**[Configure Journey designer features](../concept/jny-dsgnr-configuration.md)
+**Parent Topic:**[Configure Journey designer features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-configuration.md)
 

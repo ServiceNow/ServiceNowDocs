@@ -2,7 +2,10 @@
 title: Analytics
 description: View comparisons for performance of key metrics over time with the Impact Total package.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/io-analytics.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

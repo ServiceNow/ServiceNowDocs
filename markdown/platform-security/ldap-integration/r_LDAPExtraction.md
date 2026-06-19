@@ -1,29 +1,30 @@
 ---
 title: LDAP extraction
-description: An LDAP extraction process can be implemented to detect disabled users.
+description: Implement an LDAP extraction process to detect inactive users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/ldap-integration/r\_LDAPExtraction.html
 release: zurich
 product: LDAP integration
 classification: ldap-integration
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-05-20"
 reading_time_minutes: 1
 breadcrumb: [LDAP record synchronization, LDAP integration, Authentication, Access Management]
 ---
 
 # LDAP extraction
 
-An LDAP extraction process can be implemented to detect disabled users.
+Implement an LDAP extraction process to detect inactive users.
 
-An extract from your LDAP source can filtered for disabled users using an active flag that can be set for every record in the import to ‘false’. Specify \(‘target.active=false’\) and copy into the **Script** field directly on the Table Transform Map record.
+To detect inactive users using LDAP extraction, create a separate LDAP data source scoped specifically to inactive user accounts. For example, target a inactive users organizational unit \(OU\) or apply a query filter that matches inactive account flags. In the Table Transform Map for that data source, add a transform script that sets `target.active = false` for each record. Because the data source returns only inactive users, the script deactivates only those accounts in ServiceNow.
 
 ## Benefits
 
 Benefits to this method include:
 
 -   Simple scripting
--   Existing user records are not involved in processing
--   Inactive users are not loaded into a temporary import table
+-   Existing user records aren't involved in processing
+-   Inactive users aren't loaded into a temporary import table
 -   No performance impact
 
 ## Drawbacks
@@ -35,5 +36,5 @@ Drawbacks to this method include:
 
 ## Alternative method
 
-[LDAP refresh filters](r_LDAPRefreshFilters.md) use multiple import jobs to divide different types of user records, segregating records for separate processing.
+[LDAP refresh filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/ldap-integration/r_LDAPRefreshFilters.md) use multiple import jobs to divide different types of user records, segregating records for separate processing.
 

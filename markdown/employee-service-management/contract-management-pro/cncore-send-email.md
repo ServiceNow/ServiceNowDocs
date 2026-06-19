@@ -2,6 +2,7 @@
 title: Send email to stakeholders
 description: As a contract fulfiller, set up an email to stakeholders to request review of the contract document reviewed and confirm the changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-send-email.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -29,7 +30,7 @@ The option to compose an email is available only when the State is Awaiting appr
 
 2.  Open the contract request.
 
-3.  Select the More Actions ![More actions icon](../../workplace-central/images/more-actions-move-schedule.png) icon.
+3.  Select the More Actions \[Omitted image "more-actions-move-schedule.png"\] Alt text: More actions icon icon.
 
 4.  Select **Compose email**.
 
@@ -43,15 +44,15 @@ The option to compose an email is available only when the State is Awaiting appr
 
 8.  Compose an email body.
 
-<table id="choicetable_tcf_fx2_21c"><thead><tr><th align="left" id="d696468e127">
+<table id="choicetable_tcf_fx2_21c"><thead><tr><th align="left" id="d586723e127">
 
 Action
 
-</th><th align="left" id="d696468e130">
+</th><th align="left" id="d586723e130">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d696468e136">
+</th></tr></thead><tbody><tr><td id="d586723e136">
 
 **Enter your own message.**
 
@@ -59,42 +60,42 @@ Steps
 
 Enter your message in the text box.
 
-</td></tr><tr><td id="d696468e145">
+</td></tr><tr><td id="d586723e145">
 
 **Use Response templates to insert predefined content into the email body**
 
 </td><td>
 
--   Select Response Templates icon \(![Response Templates icon](../../human-resources/reference/images/response-template-icon.png)\).
+-   Select Response Templates icon \(\[Omitted image "response-template-icon.png"\] Alt text: Response Templates icon\).
 -   Select the appropriate response template.
 -   Select **Copy to clipboard**.
 -   Paste the content in the email body.
 
 
-</td></tr><tr><td id="d696468e178">
+</td></tr><tr><td id="d586723e178">
 
 **Use Email templates to use predefined template**
 
 </td><td>
 
--   Select Email Templates icon \(![Email Templates icon](../image/cncore-email-template.png)\).
+-   Select Email Templates icon \(\[Omitted image "cncore-email-template.png"\] Alt text: Email Templates icon\).
 -   Select an appropriate response template based on the subject of your email.
 -   Select **Apply Template** to use the template.
 
-**Note:** Only response templates configured for the email channel are available to use. For more information, see [Response templates](https://www.servicenow.com/docs/access?context=response-templates-templated-snippets&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+**Note:** Only response templates configured for the email channel are available to use. For more information, see Response templates.
 
 </td></tr></tbody>
 </table>9.  Send the email immediately or later, or discard it.
 
-<table id="choicetable_a54_ll2_21c"><thead><tr><th align="left" id="d696468e225">
+<table id="choicetable_a54_ll2_21c"><thead><tr><th align="left" id="d586723e225">
 
 Action
 
-</th><th align="left" id="d696468e228">
+</th><th align="left" id="d586723e228">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d696468e234">
+</th></tr></thead><tbody><tr><td id="d586723e234">
 
 **Send the email immediately**
 
@@ -102,19 +103,19 @@ Steps
 
 To send the email immediately, select **Send email**.
 
-</td></tr><tr><td id="d696468e246">
+</td></tr><tr><td id="d586723e246">
 
 **Send the email later**
 
 </td><td>
 
--   In the New Email Draft form, select the More Actions ![More actions button icon.](../../legal-request-management/image/more-button-icon.png) icon To view draft emails, select **View drafts**
+-   In the New Email Draft form, select the More Actions icon \[Omitted image "more-button-icon.png"\] Alt text: More Actions icon To view draft emails, select **View drafts**
 -   Select a draft email from the list to load it.
 -   If a newer document revision has been posted, you will have to substitute that revision for the document you attached.
 -   To send the email, select **Send email**.
 .
 
-</td></tr><tr><td id="d696468e278">
+</td></tr><tr><td id="d586723e280">
 
 **Discard the email**
 
@@ -123,7 +124,7 @@ To send the email immediately, select **Send email**.
 To discard the email, select **Discard draft**.
 
 </td></tr></tbody>
-</table>    For more information, see [Communicating via email](https://www.servicenow.com/docs/access?context=using-email&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+</table>    For more information, see Communicating via email.
 
 
 ## Result
@@ -132,5 +133,5 @@ After the email is sent, it is added to the activity stream on the request form.
 
 To see a list of available default email notifications, go to **All** &gt; **System Notifications** &gt; **Notifications** and search for the **Contracts Support** category.
 
-**Parent Topic:**[Using Contract Management Pro](../concept/cncore-use-cmpro.md)
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

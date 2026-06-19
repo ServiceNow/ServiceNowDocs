@@ -2,6 +2,7 @@
 title: Manage user groups for Application Intake
 description: Control which user groups are available for admins to give Creator Studio and App Engine Studio app development permissions to during the Application Intake process. These groups are managed on the User Groups Permission Types \[sn\_app\_intake\_permission\_type\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-management-center/manage-app-intake-user-groups.html
 release: zurich
 product: App Engine Management Center
 classification: app-engine-management-center

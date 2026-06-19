@@ -2,6 +2,7 @@
 title: Create a UI policy for catalog items
 description: You can apply UI policies for catalog items ordered in the service catalog.The following is an example of how Service Catalog UI policies work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/t\_CreatUIPolicyForSvcCalgIt.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -97,7 +98,7 @@ Applies on Catalog Tasks
 
 </td><td>
 
-Select the check box to apply the UI policy on a Catalog Task form. Available in the fulfiller view. See [VEditor](../concept/service-catalog-variable-editor.md#cat-VEditor).
+Select the check box to apply the UI policy on a Catalog Task form. Available in the fulfiller view. See [VEditor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/service-catalog-variable-editor.md).
 
 </td></tr><tr><td>
 
@@ -105,7 +106,7 @@ Applies on Requested Items
 
 </td><td>
 
-Select the check box to apply the UI policy on a Requested Item form. Available in the fulfiller view. See [VEditor](../concept/service-catalog-variable-editor.md#cat-VEditor).
+Select the check box to apply the UI policy on a Requested Item form. Available in the fulfiller view. See [VEditor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/service-catalog-variable-editor.md).
 
 </td></tr><tr><td>
 
@@ -113,7 +114,7 @@ Applies on the Target Record
 
 </td><td>
 
-Select the check box to support the catalog UI policy on a record created for task-extended tables via record producers. See [Default variable editor](../concept/service-catalog-variable-editor.md#cat-default-variable-editor).
+Select the check box to support the catalog UI policy on a record created for task-extended tables via record producers. See [Default variable editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/service-catalog-variable-editor.md).
 
 </td></tr><tr><td>
 
@@ -284,7 +285,7 @@ Enter a message that you want to show for the question when a specified conditio
     **Note:** Configure the variable form to display all fields.
 
 
-**Parent Topic:**[Service catalog UI policy](../concept/c_ServiceCatalogUIPolicy.md)
+**Parent Topic:**[Service catalog UI policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_ServiceCatalogUIPolicy.md)
 
 ## Service Catalog UI policy examples
 
@@ -292,5 +293,5 @@ The following is an example of how Service Catalog UI policies work.
 
 The following UI policy makes it mandatory for any department to specify the name of the department if **Department** is selected for the question **Department or group?**.
 
-![Catalog UI policy](../image/CatalogUIPolicyExmple.png "Catalog UI policy")
+\[Omitted image "CatalogUIPolicyExmple.png"\] Alt text: Catalog UI policy
 

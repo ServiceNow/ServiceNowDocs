@@ -2,6 +2,7 @@
 title: Create a goal in Strategic Planning
 description: Create goals for your portfolio plans and set targets to measure overall goal progress and align goals with your organizational strategic priorities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/create-goal-egm.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -37,14 +38,14 @@ Only the owner or contributors of the goal can edit the goal.
 
 4.  On the form, fill in the fields.
 
-    For a description of the field values, see [Goal form](../reference/goal-form-egm.md).
+    For a description of the field values, see [Goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/goal-form-egm.md).
 
 5.  Select **Save**.
 
-    You can also select **Save and add target** and add a target for the goal on the flow. For a description of the field values for a target, see [Target form](../reference/target-form-egm.md).
+    You can also select **Save and add target** and add a target for the goal on the flow. For a description of the field values for a target, see [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/target-form-egm.md).
 
 
 ## What to do next
 
-Set targets for the goals. For more information, see [Add targets for a goal in Strategic Planning](set-targets-for-goal-egm.md) or [Configuring target source for target automation](../concept/setting-targets-for-a-goal-and-automating-the-actual-value-using-agf-apw.md).
+Set targets for the goals. For more information, see [Add targets for a goal in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/set-targets-for-goal-egm.md) or [Configuring target source for target automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/setting-targets-for-a-goal-and-automating-the-actual-value-using-agf-apw.md).
 

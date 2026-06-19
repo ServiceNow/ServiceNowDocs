@@ -2,7 +2,10 @@
 title: Create facets for activity contexts
 description: Create facets to group the data and enable customer service agents to filter and display the data they want to see in the activity feed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-facet-customer-central.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -12,8 +15,6 @@ breadcrumb: [Configure the Customer History view, Configure Customer Central, Ag
 # Create facets for activity contexts
 
 Create facets to group the data and enable customer service agents to filter and display the data they want to see in the activity feed.
-
-Defining and associating facets to contexts
 
 Learn more about configuring facets from the following video tutorial.
 
@@ -28,9 +29,9 @@ An activity context is the person or user who is interacting with the customer s
 
 Facets are displayed in the Customer History view in Agent Workspace. Dynamic facets display record details associated with the facet.
 
-![Customer History tab displaying Cases facet with list of cases and with a brief description.](../image/dynamic-facet.png)
+\[Omitted image "dynamic-facet.png"\] Alt text: Customer History tab displaying Cases facet with list of cases and with a brief description.
 
-Static facets display a subcategorization of the facets without any record details. ![Customer History tab with the Interactions facet highlighted.](../image/static-facet.png)
+Static facets display a subcategorization of the facets without any record details. \[Omitted image "static-facet.png"\] Alt text: Customer History tab with the Interactions facet highlighted.
 
 ## Procedure
 

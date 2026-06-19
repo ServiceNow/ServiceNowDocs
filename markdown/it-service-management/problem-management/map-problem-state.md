@@ -2,6 +2,7 @@
 title: Map problem states
 description: Define how problem records are updated when you migrate the records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/problem-management/map-problem-state.html
 release: zurich
 product: Problem Management
 classification: problem-management
@@ -48,5 +49,5 @@ Role required: admin
 
 ## What to do next
 
-[Map problem task states](map-problem-task-state.md).
+[Map problem task states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/map-problem-task-state.md).
 

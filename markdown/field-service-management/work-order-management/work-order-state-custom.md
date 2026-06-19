@@ -2,6 +2,7 @@
 title: Customizing state flows
 description: State flows control the sequence in which records transition between states in the Field Service Management applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/work-order-state-custom.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -52,31 +53,31 @@ An example of this in Field Service Management is the Roll Up Changes business r
 
 The steps for setting up state flow customizations are:
 
-1.  [Configure state flows for work orders and work order tasks](../task/configure-state-flow.md)
+1.  [Configure state flows for work orders and work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/configure-state-flow.md)
 
     Configure the states that work orders, and work order tasks move between. This can be helpful if you have a specific sequence of states that help track work.
 
-2.  \(Optional\) [State flow dictionary overrides](../task/state-flow-overrides.md)
+2.  \(Optional\) [State flow dictionary overrides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/state-flow-overrides.md)
 
     Define the starting state for all new work orders and work order tasks with dictionary overrides.
 
-3.  \(Optional\) [Work notes in state flows](work-notes-in-states.md)
+3.  \(Optional\) [Work notes in state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/work-notes-in-states.md)
 
     Add customized work notes to work order tasks when they reach a certain state. For example, you might include the note, "Task rejected by agent" in the Reject state flow.
 
-4.  \(Optional\) [Field controls in state flows](state-flow-field-controls.md)
+4.  \(Optional\) [Field controls in state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/state-flow-field-controls.md)
 
     Determine what happens if the system detects a specified state transition. For example, you might want the Problem field to be visible when an incident moves to the Awaiting Problem state.
 
-5.  \(Optional\) [Trigger events on state changes](../task/trigger-events-on-states.md)
+5.  \(Optional\) [Trigger events on state changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/trigger-events-on-states.md)
 
     Configure a state flow to trigger a registered system event when a task transitions from a starting state to a specified end state. For example, you can use events to trigger email notifications and create script actions.
 
-6.  \(Optional\) [Rebuild state flows](rebuild-state.md)
+6.  \(Optional\) [Rebuild state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/rebuild-state.md)
 
     Rebuild state flows when a mismatch between existing and new sys\_ids occurs.
 
-7.  \(Optional\) [State flow cleanup](state-flow-cleanup.md)
+7.  \(Optional\) [State flow cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/state-flow-cleanup.md)
 
     Cleanup the business rules, client scripts, and UI actions that the system creates to perform custom transitions that only exist while the state flow records that use them are present.
 

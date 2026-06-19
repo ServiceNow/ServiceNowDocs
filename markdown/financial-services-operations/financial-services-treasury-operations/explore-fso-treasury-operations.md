@@ -2,6 +2,7 @@
 title: Exploring Financial Services Treasury Operations
 description: You can use ServiceNow Financial Services Treasury Operations to manage treasury product onboarding with workflows available for key services such as wire transfers and Remote Deposit Capture \(RDC\). ​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-treasury-operations/explore-fso-treasury-operations.html
 release: zurich
 product: Financial Services Treasury Operations
 classification: financial-services-treasury-operations
@@ -80,5 +81,5 @@ A treasury manager of a financial institution:-   Reviews reports, dashboards, a
 -   Analyzes business processes using Process Mining projects
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Financial Services Treasury Operations](fso-treasury-ops-landing-page.md)
+</table>**Parent Topic:**[Financial Services Treasury Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-treasury-operations/fso-treasury-ops-landing-page.md)
 

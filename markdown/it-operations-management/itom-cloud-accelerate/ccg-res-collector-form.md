@@ -2,6 +2,7 @@
 title: Cloud Configuration Governance Resource collector form
 description: The Resource collector form contains detailed information about the resource collector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-cloud-accelerate/ccg-res-collector-form.html
 release: zurich
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -58,7 +59,7 @@ Resource type
 
 Cloud resource type that you want to import through the resource collector.If Cloud Configuration Governance doesn't contain the required resource type, you can create it as follows:
 
- 1.  Select the lookup using list icon \(![Lookup using list icon.](../image/lookup-using-list.png)\).
+ 1.  Select the lookup using list icon \(\[Omitted image "lookup-using-list.png"\] Alt text: Lookup using list icon.\).
 2.  Select **New**.
 3.  In the **Name** field, enter the cloud resource type.
 4.  Select **Submit**.
@@ -72,5 +73,5 @@ Flow
 Resource collector flow that can import the given resource type.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Configuration Governance reference](ccg-reference.md)
+</table>**Parent Topic:**[Cloud Configuration Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/ccg-reference.md)
 

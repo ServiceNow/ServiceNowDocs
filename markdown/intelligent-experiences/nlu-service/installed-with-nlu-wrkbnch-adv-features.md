@@ -2,6 +2,7 @@
 title: Components installed with NLU Workbench - Advanced Features
 description: Several types of components are installed with activation of the com.snc.nlu.workbench.advanced plugin, including tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/nlu-service/installed-with-nlu-wrkbnch-adv-features.html
 release: zurich
 product: NLU Service
 classification: nlu-service
@@ -15,7 +16,7 @@ breadcrumb: [Install NLU Workbench - Advanced Features, NLU Workbench - Advanced
 
 Several types of components are installed with activation of the com.snc.nlu.workbench.advanced plugin, including tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Tables installed
 
@@ -153,5 +154,4 @@ NLU Feedback Admin
 Data labelling \(NLU feedback\) Admin role - to manage data labelling across models also ability to optimize models
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install NLU Workbench - Advanced Features](../task/install-nlu-workbench-adv-features.md)
-
+</table>

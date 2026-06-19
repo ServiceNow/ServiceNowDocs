@@ -2,6 +2,7 @@
 title: View a note
 description: Review notes posted for a project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/view-note.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -27,7 +28,7 @@ Notes can be viewed from a main or linked process. A note can be edited or delet
 
 1.  Select the project to view a note from.
 
-2.  From the project view, select the Notes icon \(![Notes icon](../image/notes-icon.png)\) to open the Notes panel.
+2.  From the project view, select the Notes icon \(\[Omitted image "notes-icon.png"\] Alt text: Notes icon\) to open the Notes panel.
 
 3.  From the **Show** list, select whether to show one or more of these options:
 
@@ -35,5 +36,5 @@ Notes can be viewed from a main or linked process. A note can be edited or delet
     -   **Main Model Notes** - From a linked process, shows notes created on the main process.
     -   **All Linked Notes** - Shows all notes created on the main and all linked processes.
 
-**Parent Topic:**[Adding notes to a project](../concept/annotate-project.md)
+**Parent Topic:**[Adding notes to a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/annotate-project.md)
 

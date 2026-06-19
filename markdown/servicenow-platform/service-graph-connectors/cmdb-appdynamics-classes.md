@@ -2,6 +2,7 @@
 title: CMDB classes targeted in Service Graph Connector for Observability - AppDynamics
 description: When you complete setting up the connection, you can configure the integration to periodically pull data from AppDynamics. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/cmdb-appdynamics-classes.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors

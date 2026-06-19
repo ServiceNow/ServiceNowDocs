@@ -2,6 +2,7 @@
 title: Delete a filter set
 description: Delete a filter set when it's no longer useful for your project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/delete-filter-set.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -28,5 +29,5 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
     The filter set is deleted.
 
 
-**Parent Topic:**[Create a filter set](create-filter-set.md)
+**Parent Topic:**[Create a filter set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/create-filter-set.md)
 

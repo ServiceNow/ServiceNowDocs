@@ -2,12 +2,13 @@
 title: Paginate search source results
 description: Limit the number of results that a search source displays at one time to improve performance. End users can load more results as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/paginate-scripted-search-source.html
 release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Define a search source, Zing search in Service Portal, Configuring search in a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -41,8 +42,8 @@ If adding pagination to a simple search source, set **Paginate results** on the 
 
     |Scope|Method|
     |-----|------|
-    |Global|setLocation\(\) in [GlideRecord - Global](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)|
-    |Scoped application|chooseWindow\(\) in [GlideRecord - Scoped](https://www.servicenow.com/docs/access?context=c_GlideRecordScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)|
+    |Global|setLocation\(\) in GlideRecord - Global|
+    |Scoped application|chooseWindow\(\) in GlideRecord - Scoped|
 
     The following is an example data fetch script for a global search source that queries the incident table and paginates results.
 
@@ -98,12 +99,14 @@ If adding pagination to a simple search source, set **Paginate results** on the 
 
 5.  Define the maximum number of results per query for the search source in the Search Page widget or Faceted Search widget instance options.
 
+    For more information, see [Faceted Search widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/faceted-search.md) or [Legacy: Search Page widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/search-page-widget.md).
+
 
 ## Result
 
 The search page only returns the defined number of results at one time. When a user selects **Load more results**, the search source re-executes the query or data fetch script.
 
-![Paginated results](../image/load-more-results.png)
+\[Omitted image "load-more-results.png"\] Alt text: Paginated results
 
-**Parent Topic:**[Define a search source](add-table-search-source.md)
+**Parent Topic:**[Define a search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/add-table-search-source.md)
 

@@ -2,6 +2,7 @@
 title: Security Tasks
 description: Use Security Tasks to monitor, prioritize, and assign all your security-related tasks in one place.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/security-center/security-task-manager.html
 release: zurich
 product: Security Center
 classification: security-center
@@ -19,9 +20,9 @@ Save time tracking and organizing all the tasks needed to improve and maintain y
 
 ## Review and manage Security Tasks
 
-![Security Task page in Security Center](../images/sec-task-mgr-1.png)
+\[Omitted image "sec-task-mgr-1.png"\] Alt text: Security Task page in Security Center
 
-Access the Security Tasks by navigating to **All** &gt; **Security Center** &gt; **Security Tasks**. By default, all tasks are displayed in the list. You can easily filter upcoming, overdue, or open tasks by selecting the cards above the list. These cards also display the current count of tasks in each of these categories. You can further refine your filter by using the normal table field filtering options and then selecting the filter button \(![filter button](../images/filter-panel-icon.png)\), then selecting the Advanced view button to create and save a custom filters to use later.
+Access the Security Tasks by navigating to **All** &gt; **Security Center** &gt; **Security Tasks**. By default, all tasks are displayed in the list. You can easily filter upcoming, overdue, or open tasks by selecting the cards above the list. These cards also display the current count of tasks in each of these categories. You can further refine your filter by using the normal table field filtering options and then selecting the filter button \(\[Omitted image "filter-panel-icon.png"\] Alt text: filter button\), then selecting the Advanced view button to create and save a custom filters to use later.
 
 ## User roles
 
@@ -38,7 +39,7 @@ The Security Tasks use the following roles:
 
 Use the check boxes to the left of the items in the list to select multiple items. When one of more tasks is selected, you can use the **Delete** button to delete the selected tasks, or the **Edit** button to assign the selected tasks to yourself.
 
-![Selected tasks on the task list](../images/sec-task-mgr-2.png)
+\[Omitted image "sec-task-mgr-2.png"\] Alt text: Selected tasks on the task list
 
 ## Create Security Tasks
 
@@ -48,31 +49,31 @@ For example, in Security Center, on the Best Practices tool details page, the ad
 
 <table id="table_wgc_bvj_cfc"><tbody><tr><td>
 
-![Incomplete best practice record with create task button](../images/task-example-3.png)
+\[Omitted image "task-example-3.png"\] Alt text: Incomplete best practice record with create task button
 
 </td><td>
 
-![Security task record](../images/sec-task-mgr-3.png)
+\[Omitted image "sec-task-mgr-3.png"\] Alt text: Security task record
 
 </td></tr></tbody>
 </table>## Automatically generated tasks
 
-Security Tasks can be automatically generated. Automatic Security Task generation is triggered by an associated event that occurred on the platform. Learn more about generated Security Tasks in [Automatic Security Task generation](auto-sec-task.md).
+Security Tasks can be automatically generated. Automatic Security Task generation is triggered by an associated event that occurred on the platform. Learn more about generated Security Tasks in [Automatic Security Task generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/auto-sec-task.md).
 
 ## Edit and assign Security Tasks
 
-Edit Security Tasks to assign them to users, define due dates, and provide additional details to the users who will complete these tasks. For details, see [Edit Security Tasks](../task/create-edit-security-tasks.md).
+Edit Security Tasks to assign them to users, define due dates, and provide additional details to the users who will complete these tasks. For details, see [Edit Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/create-edit-security-tasks.md).
 
 ## Export tasks
 
-You can export Security Tasks into the format of your choice. For details, see [Export Security Tasks](../task/export-security-tasks.md).
+You can export Security Tasks into the format of your choice. For details, see [Export Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/export-security-tasks.md).
 
--   **[Automatic Security Task generation](auto-sec-task.md)**  
+-   **[Automatic Security Task generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/auto-sec-task.md)**  
 Learn about how and when your instance generates Security Tasks.
--   **[Edit Security Tasks](../task/create-edit-security-tasks.md)**  
+-   **[Edit Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/create-edit-security-tasks.md)**  
 Learn how to create, edit, delete, or export Security Tasks in Security Center
--   **[Export Security Tasks](../task/export-security-tasks.md)**  
+-   **[Export Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/export-security-tasks.md)**  
 Learn how to export Security Tasks into files you can download and use in other software.
 
-**Parent Topic:**[Security Center](sec-center-v2.md)
+**Parent Topic:**[Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/sec-center-v2.md)
 

@@ -2,12 +2,13 @@
 title: Customize a Now Assist for IT Service Management \(ITSM\) skill
 description: If you have the admin role, you can customize a Now Assist for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-skill.html
 release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 9
+last_updated: "2026-03-12"
+reading_time_minutes: 10
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Configure, Now Assist for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -40,7 +41,7 @@ From the Now Assist Admin console, you can select the input tables, related list
 
         You can choose to make a copy of the skill before activating it.
 
-    3.  Select the more actions icon ![More actions icon.](../../itsm-workspace/image/more-actions-icon.png) for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
+    3.  Select the more actions icon \[Omitted image "more-actions-icon.png"\] Alt text: More actions icon. for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
 
         The copy that you make is listed in the Active skills section.
 
@@ -52,7 +53,7 @@ From the Now Assist Admin console, you can select the input tables, related list
 
 5.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](../reference/now-assist-itsm-skills.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
 
     1.  Enter a name and description for the skill.
 
@@ -70,7 +71,7 @@ From the Now Assist Admin console, you can select the input tables, related list
 
         Add multiple base input fields if more inputs are needed.
 
-        ![Choose input data screen that contains the input tables and fields to define the prompt.](../image/now-assist-itsm-input1.png)
+        \[Omitted image "now-assist-itsm-input1.png"\] Alt text: Choose input data screen that contains the input tables and fields to define the prompt.
 
         The following table lists the base input table fields and descriptions, including a relevant example.
 
@@ -122,7 +123,7 @@ Description of the base input field value.
 
         You can also add the rule conditions to these additional related table and activity stream data sources.
 
-        ![Choose additional input data screen that contains the input tables and fields to define the prompt.](../image/now-assist-itsm-input2.png)
+        \[Omitted image "now-assist-itsm-input2.png"\] Alt text: Choose additional input data screen that contains the input tables and fields to define the prompt.
 
         The following table lists the data sources you can add to the input data.
 
@@ -161,7 +162,7 @@ Activity: Attachment
 
 </td><td>
 
-Summarizes attachments in the Incident summarization skill record using Document Intelligence. For supported types, see [Customize a Now Assist for IT Service Management \(ITSM\) Incident Summarization skill](cust-now-assist-itsm-record-summ-skill.md).
+Summarizes attachments in the Incident summarization skill record using Document Intelligence. For supported types, see [Customize a Now Assist for IT Service Management \(ITSM\) Incident Summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-record-summ-skill.md).
 
 </td></tr></tbody>
 </table>    4.  Select **Save and continue** to go to the next step.
@@ -178,7 +179,7 @@ Summarizes attachments in the Incident summarization skill record using Document
 
         2.  In the Change Overview Containers list, select the state that you've added or modified.
         3.  Add the GenAI Summary Card to the Change Overview Cards related list.
-        ![GenAI Summary Card in the Change Overview Cards related list](../image/now-assist-itsm-change-overview-container.png)
+        \[Omitted image "now-assist-itsm-change-overview-container.png"\] Alt text: GenAI Summary Card in the Change Overview Cards related list
 
         For more information, see the KB article on [Handling custom state choices for the Change request summarization skill](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2027162).
 
@@ -188,16 +189,29 @@ Summarizes attachments in the Incident summarization skill record using Document
 
 8.  Cluster incidents
 
-    If you’re using the Suggested steps generation skill, select **Launch clustering** in the **Record clustering** screen to group records based on similar past closed incidents.
+    -   **Important:** Starting with the Zurich release, the Suggested steps skill is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. This feature is being replaced with . For information on how to get started see, [How to get started with LEAP](https://www.servicenow.com/community/itom-articles/leap-learning-enhanced-automation-platform-how-to-get-started/ta-p/3555322).
 
-    **Note:**
+To transition to LEAP:
 
+1.  Install the LEAP \(sn\_itom\_leap\) plugin.
+2.  Activate the LEAP installer skill.
+
+    **Note:** You must be in LEAP scope to activate this skill.
+
+    1.  Go to **Admin** &gt; **Now Assist Admin**.
+    2.  Select **Now Assist Skills**.
+    3.  In **Technology**, select **ITOM**.
+    4.  Activate the LEAP installer plugin.
+3.  Add the itil role to access LEAP.
+    1.  In the LEAP installer, in the Define access screen, add the itil role in the **Roles** field.\[Omitted image "now-assist-itsm-leap-itil-role.png"\] Alt text: Add itil role in the Roles field
+    2.  Select **Save and continue**.
+    -   If you’re using the Suggested steps generation skill, select **Launch clustering** in the **Record clustering** screen to group records based on similar past closed incidents.
     -   You should have at least 2000 records for successful clustering. If you get an error that there aren’t enough records to cluster, broaden your filter criteria. You can perform this action by setting the rule conditions to include more records or add more data.
     -   For information on troubleshooting steps to resolve issues with the Suggested steps generation skill, see [Troubleshoot Suggested steps generation skill set up](https://www.servicenow.com/community/itsm-articles/troubleshooting-steps-for-now-assist-for-itsm-suggested-steps/ta-p/3256267).
     -   Domain separation is not supported for the Suggested steps generation skill.
     To broaden the criteria:
 
-    1.  In the **Choose input** screen, select **Edit conditions**.![Suggested steps edit conditions screen](../image/now-assist-itsm-suggested-steps-edit-conditions.png)
+    1.  In the **Choose input** screen, select **Edit conditions**.\[Omitted image "now-assist-itsm-suggested-steps-edit-conditions.png"\] Alt text: Suggested steps edit conditions screen
 
         Select **Switch scope** if you’re unable to edit the conditions.
 
@@ -279,13 +293,13 @@ Closed
 
     3.  Select the incident record in the Test response section, and test the prompt response output format by selecting **Run Test**.
 
-        ![Customize prompt screen that shows the input template states and the Edit prompt button to modify prompts in the Now Assist skill kit.](../image/now-assist-itsm-cust-prompt.png)
+        \[Omitted image "now-assist-itsm-cust-prompt.png"\] Alt text: Customize prompt screen that shows the input template states and the Edit prompt button to modify prompts in the Now Assist skill kit.
 
         The prompt response is shown. You can make changes to the incident state selections and retest as needed.
 
     4.  Select **Edit prompt in Now Assist Skill Kit** to make necessary changes to the prompt in the Now Assist Skill Kit.
 
-        ![Edit prompt screen to modify prompts in the Now Assist Skill Kit.](../image/now-assist-itsm-edit-prompt.png)
+        \[Omitted image "now-assist-itsm-edit-prompt.png"\] Alt text: Edit prompt screen to modify prompts in the Now Assist Skill Kit.
 
     5.  Select **Save and continue** to go to the next step.
 
@@ -325,7 +339,7 @@ Closed
 
         -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+            If you don't see this option, you must activate the Now Assist panel. For more information, see .
 
             For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 
@@ -335,7 +349,7 @@ Closed
 
     The **Define access** screen defines the roles required to execute a skill. The script include, **NowAssistitsmGenAIUtilsSNC,** contains functions related to multiple skills. The itil or sn\_incident\_read roles that are set in the Access Control List \(ACL\) for this client-callable script include and are necessary to call any function in it.
 
-    ![Roles required for skills](../image/now-assist-itsm-skill-required-role.png)
+    \[Omitted image "now-assist-itsm-skill-required-role.png"\] Alt text: Roles required for skills
 
 13. Review and activate.
 

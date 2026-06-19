@@ -2,6 +2,7 @@
 title: Create a service table configuration in Service Portfolio Management
 description: Create a service table configuration for your Business Unit \(BU\). Associate your BU service mappings to the correct service table configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/config-service-table.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

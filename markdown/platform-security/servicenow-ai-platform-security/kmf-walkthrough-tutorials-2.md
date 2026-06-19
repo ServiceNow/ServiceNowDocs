@@ -1,0 +1,25 @@
+---
+title: Column Level Encryption Enterprise
+description: These examples walk you through the encryption of fields and attachments using customer-supplied keys.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/servicenow-ai-platform-security/kmf-walkthrough-tutorials-2.html
+release: zurich
+product: ServiceNow AI Platform Security
+classification: servicenow-ai-platform-security
+topic_type: concept
+last_updated: "2026-02-01"
+reading_time_minutes: 1
+breadcrumb: [Using Column Level Encryption, Column Level Encryption, Encryption]
+---
+
+# Column Level Encryption Enterprise
+
+These examples walk you through the encryption of fields and attachments using customer-supplied keys.
+
+-   **[Column Level Encryption Enterprise walkthrough](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/column-level-encryption-walkthrough-2.md)**  
+This walkthrough shows you how to encrypt a field in your instance using Column Level Encryption Enterprise with the Key Management Framework \(KMF\). It also shows you how to use your own key.
+-   **[Attachment encryption walkthrough](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/attachment-encryption-walkthrough.md)**  
+This walkthrough shows you how to encrypt an attachment in your instance using Field Encryption Enterprise with the Key Management Framework \(KMF\). It also shows you how to use your own key.
+
+**Parent Topic:**[Using Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/using-column-level-encryption-2.md)
+

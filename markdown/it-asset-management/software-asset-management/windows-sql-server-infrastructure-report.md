@@ -2,6 +2,7 @@
 title: Windows and SQL Server Infrastructure report
 description: You can use the Windows and SQL Server Infrastructure report to gain visibility into the infrastructure details for all physical hosts and virtual machines \(VMs\) that are running Microsoft Windows Server or Microsoft SQL Server across your on-premise and public cloud environments, such as AWS and Microsoft Azure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/windows-sql-server-infrastructure-report.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -168,5 +169,5 @@ Cloud license type - SQL Server
 Cloud license type of the Microsoft SQL Server installation. The options are **BYOL** and **License Included**.**Note:** This field is applicable for cloud deployments only.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management publisher pack for Microsoft](../concept/microsoft-publisher-pack.md)
+</table>**Parent Topic:**[Software Asset Management publisher pack for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/microsoft-publisher-pack.md)
 

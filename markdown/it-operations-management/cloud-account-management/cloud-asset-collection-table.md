@@ -2,11 +2,12 @@
 title: Cloud Asset Collection table
 description: Stores metadata of cloud assets collected from providers for IT operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/cloud-asset-collection-table.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Reference, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -86,5 +87,5 @@ Comments
 Free-text field for notes or context about the configuration.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Account Management reference](../reference/cam-reference.md)
+</table>**Parent Topic:**[Cloud Account Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/cam-reference.md)
 

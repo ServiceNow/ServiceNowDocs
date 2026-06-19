@@ -2,6 +2,7 @@
 title: Import OSCAL POA&amp;M
 description: Import Open Security Controls Assessment Language \(OSCAL\) Plans of Action and Milestones \(POA&amp;M\) JSON files by selecting the POA&amp;M model into Continuous Authorization and Monitoring workspace. Import OSCAL POA&amp;M action enables you to upload POA&amp;Ms files and link it to CAM relevant objects like controls, authorization packages, engagements, and others in OSCAL format.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal-poa-m.html
 release: zurich
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -28,7 +29,7 @@ Role required: sn\_irm\_cont\_auth.info\_system\_sec\_manager, sn\_irm\_cont\_au
 
 1.  Navigate to **Workspaces** &gt; **CAM Workspace**.
 
-2.  In the CAM Workspace, select the OSCAL import landing page icon \(![OSCAL import](../image/cam-oscal-import-icon.png)\).
+2.  In the CAM Workspace, select the OSCAL import landing page icon \(\[Omitted image "cam-oscal-import-icon.png"\] Alt text: OSCAL import\).
 
 3.  On the **All OSCAL imports** landing page, select **New Import**.
 
@@ -38,7 +39,7 @@ Role required: sn\_irm\_cont\_auth.info\_system\_sec\_manager, sn\_irm\_cont\_au
 
     Recipients receive an email notification about the import status.
 
-    ![OSCAL import POA&M details tab.](../image/cam-oscal-import-poam1.png)
+    \[Omitted image "cam-oscal-import-poam1.png"\] Alt text: OSCAL import POA&amp;M details tab.
 
 6.  Select **Next** to continue to the next step in the OSCAL import process.
 
@@ -50,7 +51,7 @@ Role required: sn\_irm\_cont\_auth.info\_system\_sec\_manager, sn\_irm\_cont\_au
     -   If there are any errors in the uploaded files for import, an error message is displayed, select **Restart** to upload a valid file. If a warning appears, you can choose to skip it and select **Next** to proceed with the import process.
     -   Error: The import fails if a POAM item is mapped to multiple observations or findings. To resolve this issue, correct the JSON file and restart the attachment stage.
     -   Warning: The system skips a POAM item if it’s linked to a non-existent object such as a control, control requirement, or control test. The warning count displays the number of skipped items.
-    ![Uploading POA&M json file.](../image/cam-oscal-import-poam2.png)
+    \[Omitted image "cam-oscal-import-poam2.png"\] Alt text: Uploading POA&amp;M json file.
 
 9.  Select **Next** to continue to the next step in the OSCAL import process.
 
@@ -70,15 +71,15 @@ Role required: sn\_irm\_cont\_auth.info\_system\_sec\_manager, sn\_irm\_cont\_au
 
     The **OSCAL Group** listed in the OSCAL file match the **ServiceNow Group** in your instance, and all roles are automatically mapped in the **Listed as** section.
 
-    ![User and Group mapping.](../image/cam-oscal-import-poam3.png)
+    \[Omitted image "cam-oscal-import-poam3.png"\] Alt text: User and Group mapping.
 
-13. You can also select the attachments, package mapping, or user and group mapping action icon \(![Restart attachments or roles and responsibilities.](../image/cam-oscal-import-attachments-icon.png)\) on the **Attachments**, **Package Mapping**, or **User and Group Mapping** tab to select **Restart Stage** to restart the particular stage.
+13. You can also select the attachments, package mapping, or user and group mapping action icon \(\[Omitted image "cam-oscal-import-attachments-icon.png"\] Alt text: Restart attachments or roles and responsibilities.\) on the **Attachments**, **Package Mapping**, or **User and Group Mapping** tab to select **Restart Stage** to restart the particular stage.
 
-    ![Restarting stage.](../image/cam-oscal-import-poam7.png)
+    \[Omitted image "cam-oscal-import-poam7.png"\] Alt text: Restarting stage.
 
 14. Select **Next** to verify the files you uploaded.
 
-    ![OSCAL POA&M import.](../image/cam-oscal-import-poam4.png)
+    \[Omitted image "cam-oscal-import-poam4.png"\] Alt text: OSCAL POA&amp;M import.
 
     **Preview and Override** tab displays.
 
@@ -97,7 +98,7 @@ Role required: sn\_irm\_cont\_auth.info\_system\_sec\_manager, sn\_irm\_cont\_au
 
         3.  Select the object from the list that you want to override.
 
-            ![Overriding skipped files.](../image/cam-oscal-import-poam5.png)
+            \[Omitted image "cam-oscal-import-poam5.png"\] Alt text: Overriding skipped files.
 
         4.  Select **Override** to override one or more selected objects.
 
@@ -112,7 +113,7 @@ Role required: sn\_irm\_cont\_auth.info\_system\_sec\_manager, sn\_irm\_cont\_au
 
         3.  Select the object from the list that you want to skip.
 
-            ![Skipping overridden files.](../image/cam-oscal-import-poam6.png)
+            \[Omitted image "cam-oscal-import-poam6.png"\] Alt text: Skipping overridden files.
 
         4.  Select **Skip** to skip one or more selected objects.
 
@@ -120,16 +121,16 @@ Role required: sn\_irm\_cont\_auth.info\_system\_sec\_manager, sn\_irm\_cont\_au
 
 16. Select **Import** to import the POA&amp;M files.
 
-    **Note:** You can also select the playbook action icon \(![Restart playbook icon](../image/cam-oscal-import-action-icon.png)\) to select **Restart Playbook** to restart the playbook.
+    **Note:** You can also select the playbook action icon \(\[Omitted image "cam-oscal-import-action-icon.png"\] Alt text: Restart playbook icon\) to select **Restart Playbook** to restart the playbook.
 
     -   A pop-up message appears on the commencement of the import process. Select **Close** and you 're directed to the OSCAL import landing page.
 
-        ![OSCAL import process begins.](../image/cam-import-oscal-landing-page2.png)
+        \[Omitted image "cam-import-oscal-landing-page2.png"\] Alt text: OSCAL import process begins.
 
     -   You can view the import status report in the **All OSCAL import** list.
 
-        ![OSCAL import status.](../image/cam-oscal-landing-final1.png)
+        \[Omitted image "cam-oscal-landing-final1.png"\] Alt text: OSCAL import status.
 
 
-**Parent Topic:**[Import in OSCAL format](../concept/import-oscal.md)
+**Parent Topic:**[Import in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal.md)
 

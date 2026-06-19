@@ -2,6 +2,7 @@
 title: Set up the GitHub Actions workflow
 description: Set up the GitHub Actions workflow as the first step before you run Discovery and order a catalog item in the Cloud Services Catalog application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/setting-up-the-github-actions-console.html
 release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -34,5 +35,5 @@ Role required: sn\_cmp.cloud\_admin
     For more, see [Creating a Personal Access Token \(Classic](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic)
 
 
-**Parent Topic:**[Integrating GitHub Actions with Cloud-Services-Catalog](../concept/integrating-github-actions-with-cloud-service-catalog.md)
+**Parent Topic:**[Integrating GitHub Actions with Cloud-Services-Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/integrating-github-actions-with-cloud-service-catalog.md)
 

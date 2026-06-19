@@ -2,6 +2,7 @@
 title: Transfer Apple Messages for Business chat conversations to live agents
 description: Configure the Advanced Work Assignment application to transfer a Apple Messages for Business chat conversation initiated by a requester to a live agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/messg-apple-live-agent-conv.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -20,17 +21,17 @@ Configure the Advanced Work Assignment application to transfer a Apple Messages 
 
 Your administrator must have completed the following tasks:
 
--   [Activate Advanced Work Assignment](../../advanced-work-assignment/task/awa-activate.md).
--   Set the application scope to Conversational Integration with Apple Messages for Business using the application picker. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
--   Activate the Conversational Messaging plugin \(com.glide.messaging.awa\). For more information, see [Activate Conversational Messaging](activate-messaging-actions.md).
+-   [Activate Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-activate.md).
+-   Set the application scope to Conversational Integration with Apple Messages for Business using the application picker. For more information, see Application picker.
+-   Activate the Conversational Messaging plugin \(com.glide.messaging.awa\). For more information, see [Activate Conversational Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/activate-messaging-actions.md).
 
 Role required: admin
 
 ## About this task
 
-![A conversation with a virtual agent on an iPhone.](../images/iMessage-apps.png "Messaging with a virtual agent")
+\[Omitted image "iMessage-apps.png"\] Alt text: A conversation with a virtual agent on an iPhone.
 
-![A conversation with a live agent on an iPhone.](../images/amb-rich-links.png "Messaging with a live agent")
+\[Omitted image "amb-rich-links.png"\] Alt text: A conversation with a live agent on an iPhone.
 
 ## Procedure
 
@@ -48,7 +49,7 @@ Role required: admin
 
     6.  Add agents to the `Agent Apple Messages for Business Queue`.
 
-    For more information, see [Service channels](../../advanced-work-assignment/concept/awa-service-channels.md).
+    For more information, see [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-service-channels.md).
 
 2.  Automatically route work items for Apple Messages for Business chat conversations to agents by configuring the queue for the Apple Messages for Business service channel.
 
@@ -62,7 +63,7 @@ Role required: admin
 
     5.  Select **Update**.
 
-    **Note:** By default, the **Apple Messages for Business - Most Capacity** assignment rule is associated with the Agent Apple Messages for Business Queue. You can create another assignment rule and associate it with the queue. For more information, see [Configure agent assignment rules](../../advanced-work-assignment/task/awa-create-assignment-rule.md) and [Work item queues](../../advanced-work-assignment/reference/awa-queues.md).
+    **Note:** By default, the **Apple Messages for Business - Most Capacity** assignment rule is associated with the Agent Apple Messages for Business Queue. You can create another assignment rule and associate it with the queue. For more information, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md) and [Work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-queues.md).
 
 3.  Configure agent presence states for the Apple Messages for Business service channel.
 
@@ -76,6 +77,6 @@ Role required: admin
 
     4.  Select **Update**.
 
-    For more information, see [Configure agent presence states](../../advanced-work-assignment/task/awa-configure-agent-presence.md).
+    For more information, see [Configure agent presence states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-configure-agent-presence.md).
 
 

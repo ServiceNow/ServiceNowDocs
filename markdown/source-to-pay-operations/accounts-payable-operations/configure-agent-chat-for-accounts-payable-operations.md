@@ -2,6 +2,7 @@
 title: Configure Agent chat for Accounts Payable Operations
 description: Configure agent chat settings to interact with an Accounts Payable Operations agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/configure-agent-chat-for-accounts-payable-operations.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -23,7 +24,7 @@ Role required: admin
 
 1.  Navigate to **Source-to-Pay workspace** &gt; **All** &gt; **Conversational Interfaces** &gt; **Settings** &gt; **Agent control**.
 
-    ![Toggle agent names and avatars](../image/apo-agent-chat.png)
+    \[Omitted image "apo-agent-chat.png"\] Alt text: Toggle agent names and avatars
 
 2.  In the User Experience section, swipe the **Agent names and avatars** toggle switch to the right to enable this option.
 
@@ -31,9 +32,9 @@ Role required: admin
 
     The Quick Action Toolbar Controls is displayed.
 
-    ![View the quick action configurations](../image/apo-quick-action-toolbar.png)
+    \[Omitted image "apo-quick-action-toolbar.png"\] Alt text: View the quick action configurations
 
-    Add or update the quick action shortcuts for live agents in Agent Chat. For more information about configuring the toolbar controls, see [Configuring Agent Chat](https://www.servicenow.com/docs/access?context=ci-agent-chat-configuring&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+    Add or update the quick action shortcuts for live agents in Agent Chat. For more information about configuring the toolbar controls, see .
 
 4.  Select **Save**.
 
@@ -42,5 +43,5 @@ Role required: admin
 
 The agent chat settings are configured to interact with an Accounts Payable Operations agent.
 
-**Parent Topic:**[Configure Advanced Work Assignment for Accounts Payable Operations](configure-advanced-work-assignment-for-apo.md)
+**Parent Topic:**[Configure Advanced Work Assignment for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/configure-advanced-work-assignment-for-apo.md)
 

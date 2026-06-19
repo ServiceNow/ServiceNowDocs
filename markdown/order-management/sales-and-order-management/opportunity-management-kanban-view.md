@@ -2,11 +2,12 @@
 title: Track opportunities using Kanban view
 description: Personalize and manage the opportunities information that is most relevant to you and your stakeholders using the Kanban view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/opportunity-management-kanban-view.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
@@ -29,17 +30,17 @@ A Kanban view is a visual representation of the data that enables you to drag an
 
 The Kanban view as part of Opportunity Management in Sales Customer Relationship Management.
 
-![The image shows the Kanban view in Opportunity Management](../image/opportunity-management-kanban-view.png)
+\[Omitted image "opportunity-management-kanban-view.png"\] Alt text: The image shows the Kanban view in Opportunity Management
 
 ## Procedure
 
-1.  Navigate to the **List** view ![image.Lists] and select **Opportunity - All**.
+1.  Navigate to the **List** view \[Omitted image "list-outline-24.svg"\] Alt text: and select **Opportunity - All**.
 
 2.  Select the **View Kanban** button.
 
     -   To change an opportunity state, drag the opportunity card from one state and drop it into another state.
     -   To view the opportunities of different sales type, use the Filter by option on the page.
-    -   To create a new opportunity directly from this page, select the **Create Opportunity** button. To learn more, see [Create an opportunity](create-new-opportunity.md).
+    -   To create a new opportunity directly from this page, select the **Create Opportunity** button. To learn more, see [Create an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-new-opportunity.md).
 
-**Parent Topic:**[Using Opportunity Management](opportunity-mgmt-using.md)
+**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-mgmt-using.md)
 

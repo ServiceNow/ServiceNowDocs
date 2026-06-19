@@ -2,6 +2,7 @@
 title: Use the Apply Change Approval Policy flow action
 description: Apply your change approval policy in the Change Management Workflow Studio action to control the approval process for a change request. You can create user and group approvals according to a change approval policy record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/use-apply-change-approval-policy-flow-activity.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-This flow action uses the **Ask For Approval** flow action to apply approvals that are derived from the Change approval policy. For more information on how to configure approval policies, see [Create approval definitions](create-approval-definitions.md).
+This flow action uses the **Ask For Approval** flow action to apply approvals that are derived from the Change approval policy. For more information on how to configure approval policies, see [Create approval definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/create-approval-definitions.md).
 
 When approvals are being generated, the **Ask For Approval** action avoids generating more than one approval for the same user. For example, if the policy requires approval from two groups and both groups have the same user, then the shared user is notified only once for the approval.
 
@@ -65,7 +66,7 @@ Change Request
 
 </td><td>
 
-Source of the change request required by the policy. Select this field using the data pill picker icon \( ![data pill picker icon.](../image/data_pill_picker.png)\). Alternatively, you can select the change request from the Change Request list.
+Source of the change request required by the policy. Select this field using the data pill picker icon \( \[Omitted image "data\_pill\_picker.png"\] Alt text: data pill picker icon.\). Alternatively, you can select the change request from the Change Request list.
 
 </td></tr><tr><td>
 
@@ -83,5 +84,5 @@ Due date for the approval policy. Select one of the following options:-   **None
 </table>5.  Click **Submit**.
 
 
-**Parent Topic:**[Creating change approval policies](../concept/using-change-approval-policies-cf.md)
+**Parent Topic:**[Creating change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/using-change-approval-policies-cf.md)
 

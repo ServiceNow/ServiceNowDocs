@@ -2,6 +2,7 @@
 title: Employee requests page
 description: The requests page is where employees can view all their requests on a single page in the Employee Center. You can configure the requests page by applying filters to show a user's service catalog requests, IT incidents, HR cases, and more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/employee-center-requests-page-configuration.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,9 +20,9 @@ The requests page is where employees can view all their requests on a single pag
 
 The requests page displays all of an employee's requests. The following GIF shows an example of an employee viewing and opening requests on the requests page.
 
-**Note:** Leverage the Enhanced Requests Experience to get more flexibility of configuration and requests management on Employee Center. For more information, see [Enhanced Requests Experience](my-requests-update-intro.md).
+**Note:** Leverage the Enhanced Requests Experience to get more flexibility of configuration and requests management on Employee Center. For more information, see [Enhanced Requests Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/my-requests-update-intro.md).
 
-![Using request page](../images/request-gif.gif)
+\[Omitted image "request-gif.gif"\] Alt text: Using request page
 
 ## Configuring the requests page
 
@@ -32,7 +33,7 @@ You control the type of requests that appear by configuring the request filters.
 -   HR child cases that are rolled up with the parent do not appear as separate requests on the requests page.
 -   Non-HR child cases \(such as IT or service catalog requests\) appear both as a separate request and as part of the roll-up on the parent case.
 
-To learn more, including how to configure the view for the subject person of an HR case, see [Use HR Case Management](../../human-resources/concept/c_HRCaseManagement.md).
+To learn more, including how to configure the view for the subject person of an HR case, see [Use HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRCaseManagement.md).
 
 ## Preconfigured filters
 

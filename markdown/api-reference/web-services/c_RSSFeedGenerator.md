@@ -2,6 +2,7 @@
 title: RSS feed generator
 description: ServiceNow supports the dynamic generation of RSS feeds.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/c\_RSSFeedGenerator.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -39,16 +40,14 @@ https://<instance name>.service-now.com/incident.do?sysparm_query=assigned_to=ja
 
 **Note:** You can in most cases simply append "&amp;RSS" to a URL that you generate in the U.I. or that of your favorite module. The easiest way to get the URL is to simply click the last breadcrumb from the list view. After appending "&amp;RSS" then you can use this URL in your RSS feed reader
 
-![](../image/GetBreadURL.png "Get Bread URL")
-
--   **[Limiting results with a view](c_LimitingResultsWithAView.md)**  
+-   **[Limiting results with a view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_LimitingResultsWithAView.md)**  
 The description element in the returned RSS xml is constructed using the view as specified in the URL, when no view is specified, the default no-name view is used.
--   **[Formatting results](c_FormattingResults.md)**  
+-   **[Formatting results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_FormattingResults.md)**  
 The description element in the returned RSS xml can be formatted by setting the URL parameter **sysparm\_format=true** and specifying the format string in the property **glide.rss.description\_format**.
--   **[RSS basic authentication](c_BasicAuthentication.md)**  
+-   **[RSS basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_BasicAuthentication.md)**  
 To enforce basic authentication on each request for an RSS feed, set the property **glide.basicauth.required.rss** to true.
--   **[RSS title override](c_OverridingTheRSSTitle.md)**  
+-   **[RSS title override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_OverridingTheRSSTitle.md)**  
 You may optionally override the automatically generated title of the RSS feed by added the **sysparm\_title** parameter to the request URL.
 
-**Parent Topic:**[RSS web service](../topic/p_RSS.md)
+**Parent Topic:**[RSS web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/p_RSS.md)
 

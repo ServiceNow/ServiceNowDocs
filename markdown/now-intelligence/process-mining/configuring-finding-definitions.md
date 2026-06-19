@@ -2,6 +2,7 @@
 title: Configuring improvement opportunities
 description: Configure an improvement opportunities to view the insights on the Summary and insights page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/configuring-finding-definitions.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -28,7 +29,7 @@ Rule-based improvement opportunities are created where you can change the table 
 
 Automated improvement opportunities are simpler to create. The process is short and can be completed in a few steps.
 
-For more information on creating finding definitions, see [Setting improvement opportunities from Classic view](impr-opp-classic-project.md).
+For more information on creating finding definitions, see [Setting improvement opportunities from Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/impr-opp-classic-project.md).
 
-**Parent Topic:**[Create a project using Classic view](../task/create-proj.md)
+**Parent Topic:**[Create a project using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/create-proj.md)
 

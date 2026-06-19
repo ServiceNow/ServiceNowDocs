@@ -2,6 +2,7 @@
 title: Advanced AI Search Management Tools reference
 description: This reference topic describes system components installed with the Advanced AI Search Management Tools application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/reference-adv-ais-mgmt-tools.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -74,5 +75,5 @@ Pre-calculates metrics to improve load time for the AI Search Analytics dashboar
 </td></tr></tbody>
 </table>## List of all components installed with Advanced AI Search Management Tools
 
-To view the complete list of components installed with Advanced AI Search Management Tools, follow the steps described in [Find components installed with an application](../../../administer/plugins/task/find-components.md). The application's package name is **Advanced AI Search Management Tools**.
+To view the complete list of components installed with Advanced AI Search Management Tools, follow the steps described in [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/find-components.md). The application's package name is **Advanced AI Search Management Tools**.
 

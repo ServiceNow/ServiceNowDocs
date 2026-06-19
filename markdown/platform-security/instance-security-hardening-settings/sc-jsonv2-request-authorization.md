@@ -2,6 +2,7 @@
 title: Require authorization for JSONv2 request \[Updated in Security Center 1.3\]
 description: Use the glide.basicauth.required.jsonv2 property to designate if incoming JSONv2 requests should require basic authorization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-jsonv2-request-authorization.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -49,7 +50,7 @@ Category
 
 </td><td>
 
-[API and web service](sc-api-web-service.md)
+[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 
 </td></tr><tr><td>
 
@@ -85,7 +86,7 @@ This remediation enforces a combination of authentication methods, in the form o
 -   It restricts any guest users who are currently accessing this data.
 -   Create an account for a user who needs access to this content, with the necessary access control permissions.
 
- To learn more, see [JSONv2 Web Service](https://www.servicenow.com/docs/access?context=c_JSONv2WebService&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) [JSONv2 Web Service](https://www.servicenow.com/docs/access?context=c_JSONv2WebService&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+ To learn more, see JSONv2 Web Service JSONv2 Web Service.
 
 </td></tr><tr><td>
 
@@ -101,8 +102,8 @@ References
 
 </td><td>
 
-[Authentication](../../../integrate/single-sign-on/concept/c_Authentication.md) [Requiring basic authentication for incoming JSONv2 requests](https://www.servicenow.com/docs/access?context=c_ReqBasicAuthIncomJSONv2Requ&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/c_Authentication.md) Requiring basic authentication for incoming JSONv2 requests
 
 </td></tr></tbody>
-</table>**Parent Topic:**[API and web service](sc-api-web-service.md)
+</table>**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 

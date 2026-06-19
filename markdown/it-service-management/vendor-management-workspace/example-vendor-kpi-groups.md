@@ -2,6 +2,7 @@
 title: Example for Vendor Management Workspace setup
 description: Learn how you can create KPI groups using Vendor Management Workspace with an example.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/vendor-management-workspace/example-vendor-kpi-groups.html
 release: zurich
 product: Vendor Management Workspace
 classification: vendor-management-workspace
@@ -83,7 +84,7 @@ Let's assume that a vendor manager wants to create a vendor KPI group for all of
         -   In the **Status** menu, select **Moderate**.
         -   In the **Order** field, enter `300`.
     3.  Click **Submit**.
-    The threshold values for the KPI are highlighted with the color based on the threshold range in Vendor Management Workspace.![Threshold color indicators](../image/thresholds-color.png)
+    The threshold values for the KPI are highlighted with the color based on the threshold range in Vendor Management Workspace.\[Omitted image "thresholds-color.png"\] Alt text: Threshold color indicators
 
 6.  Add vendors to the KPI group.
 

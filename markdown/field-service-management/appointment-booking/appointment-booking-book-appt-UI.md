@@ -2,6 +2,7 @@
 title: Book an appointment as a customer
 description: Book an appointment for a service from either the Customer or the Consumer Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/appointment-booking/appointment-booking-book-appt-UI.html
 release: zurich
 product: Appointment Booking
 classification: appointment-booking

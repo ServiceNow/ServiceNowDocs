@@ -2,6 +2,7 @@
 title: DatasetDefinition - Global
 description: The DatasetDefinition API provides methods to identify a set of records including a table name, columns, and row selection criteria to use as input for ML training algorithms. Datasets don't contain the actual data.Creates an instance of the DatasetDefinition class, enabling you to define a dataset by table name, fields, and query.Returns a list of fields that are eligible as either input fields \(features\) or predicted fields regarding a solution of a given capability, for example, a classification solution. Eligibility is determined based on the fields having the appropriate glide data types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/DatasetDefinitionAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,18 +16,18 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The DatasetDefinition API provides methods to identify a set of records including a table name, columns, and row selection criteria to use as input for ML training algorithms. Datasets don't contain the actual data.
 
-This API requires the Predictive Intelligence plugin \(com.glide.platform\_ml\) and is provided within the `sn_ml` namespace. For information, see [Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+This API requires the Predictive Intelligence plugin \(com.glide.platform\_ml\) and is provided within the `sn_ml` namespace. For information, see Predictive Intelligence.
 
-Use the dataset to estimate mutual information [PredictabilityEstimate](../../PredictabilityEstimate/concept/PredictabilityEstimateAPI.md#) or train data specified by an [Encoder](../../Encoder/concept/EncoderAPI.md#). You can also use the dataset to train data specified by one of the following solution types:
+Use the dataset to estimate mutual information [PredictabilityEstimate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/PredictabilityEstimateAPI.md) or train data specified by an [Encoder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/EncoderAPI.md). You can also use the dataset to train data specified by one of the following solution types:
 
--   [ClassificationSolution](../../ClassificationSolution/concept/ClassificationSolutionAPI.md#)
--   [ClusteringSolution](../../ClusteringSolution/concept/ClusteringSolutionAPI.md#)
--   [RegressionSolution](../../RegressionSolution/concept/RegressionSolutionAPI.md#)
--   [SimilaritySolution](../../SimilaritySolution/concept/SimilaritySolutionAPI.md#)
+-   [ClassificationSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ClassificationSolutionAPI.md)
+-   [ClusteringSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/ClusteringSolutionAPI.md)
+-   [RegressionSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/RegressionSolutionAPI.md)
+-   [SimilaritySolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/SimilaritySolutionAPI.md)
 
-For usage guidelines, refer to [Using ML APIs](https://www.servicenow.com/docs/access?context=using-ml-apis&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+For usage guidelines, refer to Using ML APIs.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## DatasetDefinition - DatasetDefinition\(Object\)
 
@@ -152,7 +153,7 @@ String
 
 </td><td>
 
-Optional. Encoded query string in standard Glide format. See [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US). You can construct the query to be absolute or relative. For example, your query can return rows for the previous 3 months \(relative\), or for the May through July period \(absolute\). Whether using an absolute or relative pattern, the data a definition identifies can change if the rows in the underlying table change.
+Optional. Encoded query string in the standard platform format. You can construct the query to be absolute or relative. For example, your query can return rows for the previous 3 months \(relative\), or for the May through July period \(absolute\). Whether using an absolute or relative pattern, the data a definition identifies can change if the rows in the underlying table change.
 
 </td></tr></tbody>
 </table>The following example shows how to create a dataset definition.

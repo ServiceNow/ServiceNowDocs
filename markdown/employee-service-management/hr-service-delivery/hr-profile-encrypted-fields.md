@@ -2,6 +2,7 @@
 title: HR profile encrypted tax identification fields
 description: HR Service Delivery provides different choices for capturing your employee's tax identification number.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-profile-encrypted-fields.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -29,7 +30,7 @@ You can further define the encrypted **National tax ID \(encrypted\)** field by 
 
 And you can provide additional details by associating the country.
 
-**Note:** For more information on how to add the tax identification number for an employee, see [Add or modify an HR profile](../task/t_CreateOrModifyAUserProfile.md).
+**Note:** For more information on how to add the tax identification number for an employee, see [Add or modify an HR profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateOrModifyAUserProfile.md).
 
-**Parent Topic:**[Use HR Profile](c_HRProfileRecords.md)
+**Parent Topic:**[Use HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
 

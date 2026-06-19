@@ -2,6 +2,7 @@
 title: Compliance filter
 description: The compliance filter for license bases uses the following fields to define entitled users or CIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/r\_ComplianceFilter.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

@@ -2,6 +2,7 @@
 title: Configure the CI summarization skill
 description: Review and configure the settings of the Now Assist for Configuration Management Database \(CMDB\) CI summarization skill to restrict the availability of the skill to certain users or conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-config-ci-summary.html
 release: zurich
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
@@ -39,7 +40,7 @@ Discovery
 
 The CI summarization skill extracts details from the **Discovery source** and **Most recent discovery** CI attributes.
 
- If CMDB 360 is enabled, the summary can show additional discovery sources for the CI. For more information, see [CMDB 360/Multisource CMDB](../concept/multisource-cmdb.md).
+ If CMDB 360 is enabled, the summary can show additional discovery sources for the CI. For more information, see [CMDB 360/Multisource CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md).
 
 </td></tr><tr><td>
 
@@ -47,7 +48,7 @@ Alerts
 
 </td><td>
 
-Event Management must be activated for the CI summarization skill. For more information, see [Event Management](https://www.servicenow.com/docs/access?context=c_EM&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+Event Management must be activated for the CI summarization skill. For more information, see .
 
 </td></tr><tr><td>
 
@@ -55,7 +56,7 @@ Security vulnerabilities
 
 </td><td>
 
-Security Operations must be activated for the CI summarization skill. For more information, see [Security Operations](https://www.servicenow.com/docs/access?context=security-operations-landing-page&version=zurich&pubname=zurich-security-management&ft:locale=en-US).
+Security Operations must be activated for the CI summarization skill. For more information, see .
 
 </td></tr><tr><td>
 
@@ -65,7 +66,7 @@ CI ownership
 
 The CI summarization skill determines the CI ownership based on the attribute that is specified in the **glide.cmdb.health.ci\_ownership\_field** system property.
 
- For more information, see [CMDB Health system properties](../reference/r_CMDBHealthProperties.md) and [CMDB Health](../concept/c_CMDBHealth.md).
+ For more information, see [CMDB Health system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/r_CMDBHealthProperties.md) and [CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md).
 
 </td></tr><tr><td>
 
@@ -73,10 +74,10 @@ Data on the CMDB Health Dashboard
 
 </td><td>
 
-The Correctness Score Calculation scheduled job improves the accuracy of the summary details on the CMDB Health Dashboard. For more information, see [Enable and configure a CMDB Health Dashboard job](t_EnableCMDBHealthDashboardJob.md).
+The Correctness Score Calculation scheduled job improves the accuracy of the summary details on the CMDB Health Dashboard. For more information, see [Enable and configure a CMDB Health Dashboard job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/t_EnableCMDBHealthDashboardJob.md).
 
 </td></tr></tbody>
-</table>By default, all skills exist in the global domain. When you use Now Assist in a domain-separated environment, users are only able to access data in their domain. For example, if a user uses the summarization skill, Now Assist only uses material that exists in the user's domain when generating that summary. Additionally, there is no co-mingling of data for domain-separated instances when using generative AI skills. The data resides only on the instance, and the shared services used for generative AI do not persist any requests \(prompts\) and responses. For more information, see [Domain separation in the Now Assist Admin console](https://www.servicenow.com/docs/access?context=domain-separation-in-the-now-assist-admin-console&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US). \(Note that global domain is not the same as global scope. For more information, see [Exploring Next Experience pickers](https://www.servicenow.com/docs/access?context=next-experience-pickers&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).\)
+</table>By default, all skills exist in the global domain. When you use Now Assist in a domain-separated environment, users are only able to access data in their domain. For example, if a user uses the summarization skill, Now Assist only uses material that exists in the user's domain when generating that summary. Additionally, there is no co-mingling of data for domain-separated instances when using generative AI skills. The data resides only on the instance, and the shared services used for generative AI do not persist any requests \(prompts\) and responses. For more information, see . \(Note that global domain is not the same as global scope. For more information, see .\)
 
 ## Procedure
 
@@ -135,7 +136,7 @@ Select display
 </td><td>
 
 1.  Toggle the Display switch to expose the CI summarization skill on CI forms. When the **Display** toggle is in the off state, the CI summarization skill isn't available even when the skill itself is activated.
-2.  Specify the user roles that can use the CI summarization skill by selecting the drop-down list icon ![](../image/NowAssistDisplayDropDown.png) and then selecting the user roles in the **User roles** field.
+2.  Specify the user roles that can use the CI summarization skill by selecting the drop-down list icon \[Omitted image "NowAssistDisplayDropDown.png"\] and then selecting the user roles in the **User roles** field.
 3.  Select **Save and continue**.
 
 
@@ -150,12 +151,12 @@ Review the summary of settings for the skill \(each card displays a different ca
 </td></tr></tbody>
 </table>    The **Summarize** button appears when a user with the appropriate role views a CI.
 
-    ![Summarize button becomes available for any CI.](../../now-assist-cmdb/image/na-cmdb-summarize-button.png)
+    \[Omitted image "na-cmdb-summarize-button.png"\] Alt text: Summarize button is available for any CI.
 
 
 ## What to do next
 
-[Use the CI summarization skill](../concept/now-assist-cmdb-using.md).
+[Use the CI summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using.md).
 
-**Parent Topic:**[Configuring Now Assist for CMDB](../concept/now-assist-cmdb-configuring.md)
+**Parent Topic:**[Configuring Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-configuring.md)
 

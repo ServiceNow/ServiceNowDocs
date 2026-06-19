@@ -2,6 +2,7 @@
 title: Managing security incidents and inbound requests
 description: After a security incident has been created, there are numerous types of information that can be added and viewed as your analysis of the issue progresses toward resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/manage-si-details.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -19,10 +20,10 @@ After a security incident has been created, there are numerous types of informat
 
 This section describes the following:
 
--   [Create an inbound request](../task/t_CreateSecurityIncidentRequest.md)
--   [Manage observables](sec-inc-observables.md)
--   [Manage lookups and scans](c_Scans.md)
--   [Calculate the severity of a security incident](../task/calculate-si-severity.md)
--   [Manage post incident activities](c_PostIncidentReview.md)
--   [Close security incidents](../task/t_ClosingSecIncidents.md)
+-   [Create an inbound request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/t_CreateSecurityIncidentRequest.md)
+-   [Manage observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/sec-inc-observables.md)
+-   [Manage lookups and scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/c_Scans.md)
+-   [Calculate the severity of a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/calculate-si-severity.md)
+-   [Manage post incident activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/c_PostIncidentReview.md)
+-   [Close security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/t_ClosingSecIncidents.md)
 

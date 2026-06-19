@@ -2,6 +2,7 @@
 title: General guidelines for code generation
 description: Use these general guidelines for code generation to get better code suggestions and create useful and accurate scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/general-guidelines-code-generation.html
 release: zurich
 product: Scripts
 classification: scripts

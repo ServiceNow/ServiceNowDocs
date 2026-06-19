@@ -2,6 +2,7 @@
 title: Quick access to plugins and history records
 description: Reduce the navigating time by directly accessing plugins, application installation history records, and update set commits history records. The filters for the plugins and history records are automatically implemented in the plugins and history records views.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/upgrade-management/um-quick-access1.html
 release: zurich
 product: Upgrade Management
 classification: upgrade-management
@@ -28,5 +29,5 @@ Role required: admin
     1.  Navigate to **System Update Sets** &gt; **Update Sets to Commit**.
     2.  Select any of the update sets to directly view the commit history of that update set.
 
-**Parent Topic:**[Reviewing upgrade history](../concept/um-review-history.md)
+**Parent Topic:**[Reviewing upgrade history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-review-history.md)
 

@@ -2,6 +2,7 @@
 title: Success score calculation
 description: To calculate the success score, formula indicators are provided. These indicators apply the multiplication operation to the data collected by the automated indicators to arrive at the final score.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/change-score-calculation.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -28,8 +29,8 @@ Review the following table to understand the default multipliers used in success
 |P2 incident caused by change|-5|
 |P3 incident caused by change|-2|
 
--   **[Modify score calculation](../reference/modify-success-score-calculations.md)**  
+-   **[Modify score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/modify-success-score-calculations.md)**  
 Modify the multiplier values in the formula indicators to calculate the final success score.
 
-**Parent Topic:**[Change success score](change-success-score.md)
+**Parent Topic:**[Change success score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-success-score.md)
 

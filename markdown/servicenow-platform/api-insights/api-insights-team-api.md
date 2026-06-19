@@ -2,6 +2,7 @@
 title: Manage your team's API data in API Insights
 description: Improve the operational efficiency of the API ecosystem within your organization by creating a relationship for APIs missing key attributes such as business context also called as business application ownership groups, product models, or designs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/api-insights/api-insights-team-api.html
 release: zurich
 product: API Insights
 classification: api-insights
@@ -31,7 +32,7 @@ Role required: sn\_api\_insights\_ws.api\_mgmt\_architect
     -   To view the APIs managed by your team that have reached the end of their life cycle, select **End of Life**.
 3.  From the **Name** column, select an API to view more details of the API.
 
-    See [Viewing API details in API Insights](../concept/api-insights-api-details-page.md).
+    See [Viewing API details in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/api-insights/api-insights-api-details-page.md).
 
 4.  Select **Request access** to gain access to the API.
 

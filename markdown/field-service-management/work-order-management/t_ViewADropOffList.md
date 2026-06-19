@@ -2,6 +2,7 @@
 title: View a drop off list
 description: Agents can view a consolidated list, grouped by stockroom, of all items that have been added to drop off lists by all agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/t\_ViewADropOffList.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -25,6 +26,6 @@ Role required: wm\_agent
 
 2.  Expand a group by clicking the arrow beside the group name.
 
-    ![drop off lists](../../field-service-management/image/all-dropoff-lists.png)
+    \[Omitted image "all-dropoff-lists.png"\] Alt text: drop off lists
 
 

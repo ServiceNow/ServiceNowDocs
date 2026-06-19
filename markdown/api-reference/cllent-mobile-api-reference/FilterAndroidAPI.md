@@ -2,6 +2,7 @@
 title: Filter class - Android
 description: The Filter class provides the ability to configure filters that define the data to return in the return results of a REST endpoint query.Creates a filter based on specific keywords and conditions that can be OR'd or AND'd together.Creates a filter based on one or more filter criteria that are OR'd together.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/cllent-mobile-api-reference/FilterAndroidAPI.html
 release: zurich
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -19,7 +20,7 @@ The Filter class provides the ability to configure filters that define the data 
 |----|----|-----------|
 |queryItems|Map&lt;String, String&gt;|Collection of query items representing the filter.|
 
-**Parent Topic:**[Mobile SDK - Android](../../concept/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## Filter - Filter\(conditions: List&lt;Condition&gt;, keywords: String? = null, sortBy: List&lt;Sort&gt;? = null\)
 

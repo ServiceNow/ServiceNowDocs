@@ -2,6 +2,7 @@
 title: Create an entity tier
 description: Create an entity tier for the entity classes in your organization. When you create entity tiers, you can apply a level or hierarchy to the entity classes. The hierarchy level applies to all the entities associated with the entity classes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/create-new-entity-tier-ws.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -41,5 +42,5 @@ Roles required: sn\_grc.admin
 4.  To save the entity tier, click **Save**.
 
 
-**Parent Topic:**[Entity tiers](../concept/entity-tier-in-risk-ws.md)
+**Parent Topic:**[Entity tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/entity-tier-in-risk-ws.md)
 

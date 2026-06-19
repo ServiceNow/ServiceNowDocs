@@ -2,6 +2,7 @@
 title: Chief Information Officer Dashboard indicators
 description: Indicators provide the data used in most of the dashboard’s visualizations. The indicators are used across the dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/cio-db-indicators.html
 release: zurich
 topic_type: reference
 last_updated: "2025-09-01"
@@ -15,9 +16,9 @@ Indicators provide the data used in most of the dashboard’s visualizations. Th
 
 This dashboard employs all three kinds of indicators, Automated, Formula, and Manual. For more information about configuring indicators, see
 
--   [Automated indicators](../../performance-analytics/concept/automated-indicators.md)
--   [Formula indicators](../../performance-analytics/concept/formula-indicators.md)
--   [Manual indicators](../../performance-analytics/task/t_CreateAManualIndicator.md)
+-   [Automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/automated-indicators.md)
+-   [Formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/formula-indicators.md)
+-   [Manual indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_CreateAManualIndicator.md)
 
 ## Overview tab
 

@@ -2,6 +2,7 @@
 title: Procedure table
 description: The Procedure \[sn\_hcls\_procedure\] table stores the information about an action that is or was performed on or for a patient. An action can be a physical intervention like an operation, or less invasive like long-term services, counseling, or hypnotherapy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-procedure-table.html
 release: zurich
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -22,7 +23,7 @@ The Procedure \[sn\_hcls\_procedure\] table stores the information about an acti
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](../concept/hcls-serv-mgmt-core-1.md).
+For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
 <table id="table_gsz_dbb_npb"><thead><tr><th>
 
@@ -122,7 +123,7 @@ Alpha-numeric profile identifier of the procedure.
 
  The value is auto-generated and is incremented every time you add a new procedure to your ServiceNow instance. The initial value for the **Number** field is PRCD00001001.
 
-**Note:** To customize the number, define the auto-numbering format for the Procedure \[sn\_hcls\_procedure\] table. For more information, see [Add auto-numbering records in a table](https://www.servicenow.com/docs/access?context=t_AutoNumberingRecordsInATable&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** To customize the number, define the auto-numbering format for the Procedure \[sn\_hcls\_procedure\] table. For more information, see Add auto-numbering records in a table.
 
 </td></tr><tr><td>
 
@@ -224,5 +225,5 @@ Status of a procedure.
  For more information about the available statuses, see [event statuses](https://www.hl7.org/fhir/valueset-event-status.html) defined in the FHIR specifications.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](hcls-healthcare-data-tables.md)
+</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)
 

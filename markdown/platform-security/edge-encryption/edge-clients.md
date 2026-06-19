@@ -2,6 +2,7 @@
 title: Edge Encryption clients
 description: Edge Encryption uses three clients to inform the instance that the proxy is running, to synchronize requests between the proxy and the instance, and to forward all end user requests to the instance after any potential encryption.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/edge-clients.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -52,5 +53,5 @@ default/user traffic client
 For everything else, this client handles all end user requests and forwards them to the ServiceNow instance after any potential encryption. This client also handles responses from the instance, forwarding them to the end user after any potential decryption.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Edge Encryption](../concept/c_EdgeEncryptionOverview.md)
+</table>**Parent Topic:**[Exploring Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/c_EdgeEncryptionOverview.md)
 

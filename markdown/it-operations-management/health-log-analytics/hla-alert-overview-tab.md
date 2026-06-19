@@ -2,6 +2,7 @@
 title: Sections and cards on the alert Overview tab in Health Log Analytics
 description: The Overview tab helps you understand component-based alerts, Log Analytics alerts, and Log Analytics alert groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-alert-overview-tab.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -15,12 +16,12 @@ breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM AIOps, I
 
 The **Overview** tab helps you understand component-based alerts, Log Analytics alerts, and Log Analytics alert groups.
 
--   **[Information on the Overview tab for a Component-based alert](../../health-log-analytics-operator/reference/hla-op-ovrvw-tab-comp-based-alerts.md)**  
+-   **[Information on the Overview tab for a Component-based alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-ovrvw-tab-comp-based-alerts.md)**  
 The alert **Overview** tab in Health Log Analytics helps you understand Component-based alerts.
--   **[Information on the Overview tab for a Log Analytics group](../../health-log-analytics-operator/reference/hla-op-ovrvw-tab-log-anltcs-alerts.md)**  
+-   **[Information on the Overview tab for a Log Analytics group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-ovrvw-tab-log-anltcs-alerts.md)**  
 The alert **Overview** tab in Health Log Analytics helps you understand Log Analytics groups.
--   **[Information on the Overview tab for a Log Analytics alert](../../health-log-analytics-operator/reference/hla-op-ovrvw-tab-single-ci-alerts.md)**  
+-   **[Information on the Overview tab for a Log Analytics alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-ovrvw-tab-single-ci-alerts.md)**  
 The alert **Overview** tab in Health Log Analytics helps you understand Log Analytics alerts.
 
-**Parent Topic:**[Health Log Analytics reference](hla-reference.md)
+**Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-reference.md)
 

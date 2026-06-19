@@ -2,7 +2,10 @@
 title: Chat Setup configuration form
 description: Description of the Chat setup configuration form fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/em-advanced-chat-setup.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -67,7 +70,7 @@ Agent Whisper
 
 </td><td>
 
-Option to enable Agent Whisper, which enables agents to message supervisors without the requester knowing.For more information, see [Agent Whisper](https://www.servicenow.com/docs/access?context=ci-agent-whisper&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+Option to enable Agent Whisper, which enables agents to message supervisors without the requester knowing.For more information, see .
 
 </td></tr><tr><td>
 
@@ -75,7 +78,7 @@ Emoji Enabled
 
 </td><td>
 
-Option to enable the ability to include emojis in Agent Chat. For more information, see [Using emojis in Agent Chat](https://www.servicenow.com/docs/access?context=ci-agent-chat-using&version=zurich&pubname=zurich-conversational-interfaces&section=ac-using-emojis-agent-chat&ft:locale=en-US).
+Option to enable the ability to include emojis in Agent Chat. For more information, see Using emojis in Agent Chat.
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: Exclude preconfigured CI relationships in tag-based discovery
 description: Exclude preconfigured CI relationships from the tag-based discovery process to refine the application services created. Service Mapping consists of preconfigured CI relationships and includes CIs in these relationships even if they do not have assigned tags. Choose which preconfigured CI relationships to exclude and the remaining CI relationships participate in tag-based discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/exclude\_ci\_relationships\_tag\_mapping.html
 release: zurich
 product: Service Mapping
 classification: service-mapping
@@ -17,7 +18,7 @@ Exclude preconfigured CI relationships from the tag-based discovery process to r
 
 ## Before you begin
 
-Learn about default feature configuration in [Tag-based discovery in Service Mapping](../concept/tag-based-mapping.md).
+Learn about default feature configuration in [Tag-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/tag-based-mapping.md).
 
 **Note:** Starting with Service Mapping Plus version 1.16.3, take advantage of the Tag-based Service Mapping workspace to efficiently map your application services. .
 
@@ -33,11 +34,11 @@ The Traversal Rules for Application Services \[svc\_traversal\_rules\] table sto
 
 1.  Navigate to **Service Mapping** &gt; **Administration** &gt; **Tag-based Service Traversal Rules**.
 
-    ![Table containing information on CI relationships used in tag-based discovery.](../image/traversal-rules-application-services-table.png)
+    \[Omitted image "traversal-rules-application-services-table.png"\] Alt text: Table containing information on CI relationships used in tag-based discovery.
 
 2.  Click the preconfigured CI relationship you want to exclude from tag-based discovery.
 
-    To view these CI relationships, see [Preconfigured CI relationships in tag-based discovery](../reference/ci_relationships_tag_mapping.md)
+    To view these CI relationships, see [Preconfigured CI relationships in tag-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/ci_relationships_tag_mapping.md)
 
 3.  Clear the **Active** check box.
 
@@ -46,7 +47,7 @@ The Traversal Rules for Application Services \[svc\_traversal\_rules\] table sto
 
 ## What to do next
 
-If you refine the default configuration after creating appliations based on tags, see [Recalculate previously created application services](recalculate_application_services.md) for the next steps.
+If you refine the default configuration after creating appliations based on tags, see [Recalculate previously created application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/recalculate_application_services.md) for the next steps.
 
-**Parent Topic:**[Tag-based discovery configuration](../concept/tag_discovery_configuration.md)
+**Parent Topic:**[Tag-based discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/tag_discovery_configuration.md)
 

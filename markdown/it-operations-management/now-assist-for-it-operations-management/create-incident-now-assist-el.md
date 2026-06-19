@@ -2,6 +2,7 @@
 title: Create an incident from an alert with Now Assist in Express List
 description: Create an incident with a human-readable, AI-generated description from the Express List pane by using Now Assist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/now-assist-for-it-operations-management/create-incident-now-assist-el.html
 release: zurich
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
@@ -26,22 +27,22 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the navigation bar, select the Express list icon: ![Express list icon](../../event-management/image/express-list1.png).
+2.  From the navigation bar, select the Express list icon: \[Omitted image "express-list1.png"\] Alt text: Express list icon.
 
 3.  Create an incident from a selected alert.
 
     1.  In the Express List pane, select the check box for the desired alert.
 
-        **Note:** To display the individual alerts inside a group, select the chevron icon \(![Chevron icon.](../../service-operations-workspace-itom/image/icon-chevron.png)\) at the beginning of the alert group row.
+        **Note:** To display the individual alerts inside a group, select the chevron icon \(\[Omitted image "icon-chevron.png"\] Alt text: Chevron icon.\) at the beginning of the alert group row.
 
     2.  Select the **Alert actions** drop-down list.
 
-        ![Alert actions drop down arrow](../../service-operations-workspace-itom/image/alert-actions-tool-tip.png)
+        \[Omitted image "alert-actions-tool-tip.png"\] Alt text: Alert actions drop down arrow
 
     3.  Under **Response actions**, select **Create Incident with Now Assist**.
 
     An incident with a human-readable, AI-generated description is created from the selected alert and a confirmation message is displayed.
 
 
-**Parent Topic:**[Use generative AI in Now Assist for ITOM](../concept/now-assist-itom-use.md)
+**Parent Topic:**[Use generative AI in Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.md)
 

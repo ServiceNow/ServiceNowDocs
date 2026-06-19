@@ -2,7 +2,10 @@
 title: Outcomes based contextual learning recommendations
 description: Outcomes based contextual learning recommendations provide data-driven recommendations for your operational outcomes. This includes tailored trainings for your outcome results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/contextual-learning-recommendations.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-11-10"
 reading_time_minutes: 1
@@ -27,11 +30,11 @@ The **Outcome Recommendations** panel appears on the **Outcome Detail** page. Th
 -   Tailored ServiceNow University training recommendations derived from the capabilities associated with the selected outcome. Select a course to launch it in an external browser.
 -   Relevant training courses based on the user’s adoption level of each capability.
 
-![outcomes_learning_recommendations](../image/outcomes_learning_recommendation.png)
+\[Omitted image "outcomes\_learning\_recommendation.png"\] Alt text: outcomes\_learning\_recommendations
 
-You can provide feedback by selecting thumbs-up ![](../../../reuse/icons/product-icons/thumbs-up-outline-24.svg) or thumbs-down ![](../../../reuse/icons/product-icons/thumbs-down-outline-24.svg). You can also provide feedback about the recommendation.
+You can provide feedback by selecting thumbs-up \[Omitted image "thumbs-up-outline-24.svg"\] or thumbs-down \[Omitted image "thumbs-down-outline-24.svg"\]. You can also provide feedback about the recommendation.
 
-You can use the![](../../../reuse/icons/product-icons/ellipsis-vertical-outline-24.svg) icon to do the following:
+You can use the\[Omitted image "ellipsis-vertical-outline-24.svg"\] icon to do the following:
 
 -   Copy the recommended text.
 -   Email the recommendation text to your team.

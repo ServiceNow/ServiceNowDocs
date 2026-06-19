@@ -2,6 +2,7 @@
 title: ServiceNow CPQ reference
 description: Reference topics provide additional information about ServiceNow CPQ.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/servicenow-cpq-reference.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -15,24 +16,24 @@ breadcrumb: [Configure, price, quote, Reference, Sales Customer Relationship Man
 
 Reference topics provide additional information about ServiceNow CPQ.
 
--   **[Boundaries and limits](../concept/boundaries-and-limits.md)**  
+-   **[Boundaries and limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/boundaries-and-limits.md)**  
 View a list of boundaries and limits in ServiceNow CPQ.
--   **[Session and configuration timeouts](../concept/session__configuration_timeouts.md)**  
+-   **[Session and configuration timeouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/session__configuration_timeouts.md)**  
 Learn how timeouts for inactive or abandoned configurations improve system efficiency and prevent resource waste.
--   **[Troubleshooting](../concept/troubleshooting.md)**  
+-   **[Troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/troubleshooting.md)**  
 Steps to take if you encounter problems using ServiceNow CPQ.
--   **[Common browser issues while using ServiceNow CPQ](../concept/common_browser_issues_while_using_logik_io.md)**  
+-   **[Common browser issues while using ServiceNow CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/common_browser_issues_while_using_logik_io.md)**  
 When cookies are blocked by the browser or by browser extensions, it can interfere with the use of ServiceNow CPQ.
--   **[ServiceNow CPQ Support Team access to customer Salesforce sites](../concept/logik_ai_support_team_access_to_customer_salesforce_sites.md)**  
+-   **[ServiceNow CPQ Support Team access to customer Salesforce sites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/logik_ai_support_team_access_to_customer_salesforce_sites.md)**  
 Learn how ServiceNow CPQ support team members can securely access customer Salesforce and ServiceNow CPQ Admin environments for troubleshooting. This article outlines recommended access methods, user-management practices, and considerations for customers with stricter security policies.
--   **[Common error messages and causes](../concept/common_error_messages_and_causes.md)**  
+-   **[Common error messages and causes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/common_error_messages_and_causes.md)**  
 Look here for information and troubleshooting steps when you receive an error message.
--   **[ServiceNow CPQ Upgrade Schedule](../concept/logik_io_upgrade_schedule.md)**  
+-   **[ServiceNow CPQ Upgrade Schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/logik_io_upgrade_schedule.md)**  
 ServiceNow CPQ updates customer environments on a predictable bi-weekly schedule to deliver new features, enhancements, and fixes. Test environments are upgraded first, with production updates following after at least 14 days to ensure stability. You can identify your environment’s sector from its URL and refer to the Upgrade Calendar to see which version your instance is currently running.
--   **[Glossary](../concept/glossary.md)**  
+-   **[Glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/glossary.md)**  
 A list of terms used in ServiceNow CPQ
--   **[The ServiceNow CPQ Technology and Product Training Portal](../concept/new_logik_io_technology_and_product_training_portal.md)**  
+-   **[The ServiceNow CPQ Technology and Product Training Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/new_logik_io_technology_and_product_training_portal.md)**  
 The ServiceNow CPQ Training Portal includes self-paced video training content.
 
-**Parent Topic:**[Configure, price, quote reference](../../tmt-order-mgt/concept/reference-cpq.md)
+**Parent Topic:**[Configure, price, quote reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/reference-cpq.md)
 

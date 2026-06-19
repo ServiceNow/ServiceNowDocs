@@ -2,6 +2,7 @@
 title: Build a needs decision tree
 description: Define the decision tree question nodes, decision paths, and guidance for each decision path using Decision Tree Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/build-needs-decision-tree.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -45,7 +46,7 @@ As you build your decision tree, for example after adding a decision node or a p
 
     5.  Select the type of answer for your question.
 
-        For a description of the answer types, see [Answer types for questions](https://www.servicenow.com/docs/access?context=type-of-answer&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+        For a description of the answer types, see .
 
     6.  Add more questions.
 
@@ -53,31 +54,31 @@ As you build your decision tree, for example after adding a decision node or a p
 
 5.  Continue building your decision tree in Decision Tree Builder.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d54983e179">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d56322e178">
 
 Option
 
-</th><th align="left" id="d54983e182">
+</th><th align="left" id="d56322e181">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d54983e188">
+</th></tr></thead><tbody><tr><td id="d56322e187">
 
-**[Determine the next node displayed in a decision tree](https://www.servicenow.com/docs/access?context=configure-path-in-gdb&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)**
+****
 
 </td><td>
 
 Configure a path to set the conditions for when the next question is displayed in a decision tree.
 
-</td></tr><tr><td id="d54983e199">
+</td></tr><tr><td id="d56322e197">
 
-**[Add a follow-up set of questions or instructions in a decision tree](https://www.servicenow.com/docs/access?context=configure-decision-node-in-gdb&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)**
+****
 
 </td><td>
 
 Configure a question node to add follow-up questions or instructions. An answer to these questions either leads to a guidance or a further set of questions.
 
-</td></tr><tr><td id="d54983e210">
+</td></tr><tr><td id="d56322e207">
 
 **Add a guidance node for the product recommendation questionnaire**
 
@@ -92,9 +93,9 @@ Configure a guidance node, which identifies the product recommendation displayed
 7.  Select **Save and close**.
 
 
-</td></tr><tr><td id="d54983e261">
+</td></tr><tr><td id="d56322e258">
 
-**[Activate a decision tree](https://www.servicenow.com/docs/access?context=activate-guided-decision-tree&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)**
+****
 
 </td><td>
 
@@ -104,5 +105,5 @@ When your decision tree is complete, select **Activate** in Decision Tree Builde
 </table>
 ## What to do next
 
-[Create a needs template and set the catalog relationship](create-publish-needs-template.md).
+[Create a needs template and set the catalog relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-publish-needs-template.md).
 

@@ -2,6 +2,7 @@
 title: Center of Excellence &amp; Innovation Design
 description: The Center of Excellence and Innovation Design \(CoEI\) Accelerator provides guidance on building your ServiceNow CoEI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/CoEI-design.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

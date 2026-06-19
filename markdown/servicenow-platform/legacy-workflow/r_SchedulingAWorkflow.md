@@ -2,6 +2,7 @@
 title: Scheduling a workflow
 description: In addition to being run based on conditions, workflows can also be scheduled to perform at a particular time, similar to a scheduled job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/legacy-workflow/r\_SchedulingAWorkflow.html
 release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
@@ -106,10 +107,10 @@ Starting
 For periodical workflows, the first date and time to run the workflow. For scheduled workflows run once, the date and time to run the workflow.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workflow administration](../../workflow/concept/c_WorkflowAdministration.md)
+</table>**Parent Topic:**[Workflow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/c_WorkflowAdministration.md)
 
 **Related topics**  
 
 
-[Create a scheduled job](https://www.servicenow.com/docs/access?context=t_CreateAScheduledJob&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+[bundle-platadm.t_CreateAScheduledJob]
 

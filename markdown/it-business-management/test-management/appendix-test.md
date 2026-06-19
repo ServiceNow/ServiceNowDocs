@@ -2,6 +2,7 @@
 title: Appendix — Test Management 2.0
 description: Test Management 2.0 offers a few enhancements over Test Management 1.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/test-management/appendix-test.html
 release: zurich
 product: Test Management
 classification: test-management
@@ -17,7 +18,7 @@ Test Management 2.0 offers a few enhancements over Test Management 1.0.
 
 These enhancements can be divided into the following categories:
 
--   [Functionality enhancements](../reference/functionality-enhancements-test.md)
--   [Data model enhancements](../reference/data-model-enhancements-test.md)
--   [Usability enhancements](../reference/usability-enhancements-test.md)
+-   [Functionality enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/functionality-enhancements-test.md)
+-   [Data model enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/data-model-enhancements-test.md)
+-   [Usability enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/usability-enhancements-test.md)
 

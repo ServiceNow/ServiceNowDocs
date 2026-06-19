@@ -2,6 +2,7 @@
 title: Configure KPI participation
 description: Review and configure Benchmarks KPI participation by opting in or out of categorized KPIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/benchmarks/t\_EnableABenchKPI.html
 release: zurich
 product: Benchmarks
 classification: benchmarks
@@ -53,7 +54,7 @@ Role required: sn\_bm\_client.benchmark\_admin
 
 7.  Create or schedule a Benchmarks historical data collection job for a newly enabled KPI.
 
-    For information about how to create or schedule a data collection job, see [Create or schedule a data collection job](https://www.servicenow.com/docs/access?context=t_CreatASchedDataCollJob&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US). The recommended time interval to collect data for a new KPI is 60 days.
+    For information about how to create or schedule a data collection job, see Create or schedule a data collection job. The recommended time interval to collect data for a new KPI is 60 days.
 
 8.  Execute the Benchmarks historical data collection job to collect data for the new KPI.
 

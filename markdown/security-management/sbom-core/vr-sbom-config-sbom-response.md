@@ -2,6 +2,7 @@
 title: Creating rules for application vulnerable items in the Software Bill of Materials Workspace
 description: Before you can see application vulnerable items \(AVITs\) in the Software Bill of Materials \(SBOM\) Workspace, you must set up the conditions under which AVITs are created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sbom-core/vr-sbom-config-sbom-response.html
 release: zurich
 product: SBOM Core
 classification: sbom-core
@@ -19,7 +20,7 @@ Before you can see application vulnerable items \(AVITs\) in the Software Bill o
 
 If you’ve installed and activated the SBOM Response application, AVITs are created for SBOM files if any of the imported data matches the conditions of your existing AVIT creation rules.
 
-The SBOM Response and Vulnerability Response applications are required to set up rules for creating application vulnerable items \(AVITs\) automatically and remediating them with the Application Vulnerability Response workflow. See [Exploring Software Bill of Materials](../concept/vr-sbom-exploring.md) for more information.
+The SBOM Response and Vulnerability Response applications are required to set up rules for creating application vulnerable items \(AVITs\) automatically and remediating them with the Application Vulnerability Response workflow. See [Exploring Software Bill of Materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sbom-core/vr-sbom-exploring.md) for more information.
 
 As a user with the sn\_sbom\_resp.manage\_avi\_rule role, you must add AVIT creation rules in the SBOM Workspace before you can create AVITs for the vulnerabilities that are found in your ingested SBOM data. AVITs enable you to evaluate the integrity of the third-party components in your applications. An AVIT is created in your instance when an application is matched to a component that has an associated vulnerability.
 
@@ -29,7 +30,7 @@ You can also assign AVITs for remediation based on recommendations from known vu
 
 You can track and remediate AVITs by setting up customized rules.
 
-See [Create an application vulnerable item rule in the Software Bill of Materials Workspace](vr-sbom-create-avi-rule.md) for information about how to create a rule.
+See [Create an application vulnerable item rule in the Software Bill of Materials Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sbom-core/vr-sbom-create-avi-rule.md) for information about how to create a rule.
 
 ## SBOM AVITs in Vulnerability Manager Workspace in Vulnerability Response
 
@@ -37,12 +38,12 @@ You can view any SBOM AVITs that are created in the SBOM Workspace in the Vulner
 
 **Note:** To view only SBOM AVITs from the Application Vulnerable Items list in the Vulnerability Manager Workspace rather than all AVITs, set the condition **\[Source\] \[is\] \[SBOM\]** **AND** **\[Scan type\] \[is\] \[SBOM-SCA\]** on the Application Vulnerable Items \[sn\_vul\_app\_vulnerable\_item\] table. To view the table, navigate in your instance to **All** and enter **sn\_vul\_app\_vulnerable\_item.list** in the filter navigator.
 
-For more information about the Vulnerability Manager Workspace, how to view watch topics, application remediation efforts, and application remediation task rules for AVITs that are configured from the Vulnerability Response application in the Vulnerability Manager Workspace, see [Use watch topics in the Vulnerability Manager Workspace](../../../vulnerability-response/task/vr-ws-wtopic-ui-options.md).
+For more information about the Vulnerability Manager Workspace, how to view watch topics, application remediation efforts, and application remediation task rules for AVITs that are configured from the Vulnerability Response application in the Vulnerability Manager Workspace, see [Use watch topics in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-manager-workspace/vr-ws-wtopic-ui-options.md).
 
 Remediation tasks \(AVULs\) are created from AVITs and assigned automatically to groups for remediation based on your assignment rules. For more information about how to create these rules, see the following topics:
 
--   [Create or edit Vulnerability Response assignment rules](../../../vulnerability-response/task/create-vul-assign-rules.md)
--   [Create or edit Vulnerability Response remediation task rules](../../../vulnerability-response/task/create-vul-group-rules.md) and [Create a remediation effort in the Vulnerability Manager Workspace](../../../vulnerability-response/task/vr-ws-create-rev16.md).
+-   [Create or edit Vulnerability Response assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/create-vul-assign-rules.md)
+-   [Create or edit Vulnerability Response remediation task rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/create-vul-group-rules.md) and [Create a remediation effort in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-manager-workspace/vr-ws-create-rev16.md).
 
 ## Reopening application vulnerable items in SBOM Response
 

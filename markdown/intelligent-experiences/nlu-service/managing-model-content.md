@@ -2,12 +2,13 @@
 title: Build and train your model
 description: After creating a model, build the model's content by adding intents, entities, vocabulary, and test set utterances. Your NLU model content determines how the model responds to user inputs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/nlu-service/managing-model-content.html
 release: zurich
 product: NLU Service
 classification: nlu-service
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Model management, Natural Language Understanding, Enable AI experiences]
 ---
 
@@ -24,7 +25,7 @@ Models are made up of the following content:
 
 To access the model content, navigate to **NLU Workbench** &gt; **Models**. The Virtual Agent tab opens by default. Select the tab for your model's application and then select the name of the model to open the **Model details** page. In the **Build and train your model** card, select **View phase**.
 
-![The phase for Build and train your model](../images/managing-model-content2.png)
+\[Omitted image "managing-model-content2.png"\] Alt text: The phase for Build and train your model
 
 ## Intents
 
@@ -32,7 +33,7 @@ When your model receives user input, it uses an intent to perform a system actio
 
 Intents contain training utterances, or examples of user inputs that would trigger the system action. Provide realistic utterances that the model might encounter from your users. The quality of training utterances affects the accuracy of your model.
 
-For more information, see [NLU intents](intents.md).
+For more information, see [NLU intents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/intents.md).
 
 ## Entities
 
@@ -42,7 +43,7 @@ NLU entities fall into two categories: system-defined and user-defined. System e
 
 All entities are reusable across other NLU models. However, you must add them to a training utterance for each model to use them.
 
-For more information, see [NLU entities](entities.md).
+For more information, see [NLU entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/entities.md).
 
 ## Vocabulary
 
@@ -54,42 +55,27 @@ For example, your model includes an entity for the term computer. When a user ty
 
 You can also use tables and lists as vocabulary sources. Your models can look up the vocabulary sources when predicting intents.
 
-For more information, see [NLU vocabulary](using-nlu-vocabulary.md).
+For more information, see [NLU vocabulary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/using-nlu-vocabulary.md).
 
 ## Test set
 
 Your model contains a default test set that you can use to evaluate the model’s performance. Initially the test set is empty, ready to be populated with your content. Add test utterances and their expected intents to build the test set.
 
-For more information, see [Test set creation and management](nlu-test-set-creation-management.md).
+For more information, see [Test set creation and management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/nlu-test-set-creation-management.md).
 
 ## Test panel
 
 Access the test panel by clicking **Train model** or **Try model** in the **Build and train your model** phase. Training incorporates new content into your model. With **Try model**, you can manually enter individual utterances to test what intents the model predicts for them.
 
-For more information, see [Train and try your NLU model](../task/test-train-nlu-model.md).
+For more information, see [Train and try your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/test-train-nlu-model.md).
 
-You can also use the test panel to provide feedback on your model's predictions. Your feedback helps improve intent prediction. See [Test panel feedback](test-model-panel-feedback.md).
+You can also use the test panel to provide feedback on your model's predictions. Your feedback helps improve intent prediction. See [Test panel feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/test-model-panel-feedback.md).
 
 ## Settings
 
 Use the **Settings** tab to edit the name, short description, and confidence threshold of the model. You can't change the language or purpose of the model.
 
-![Settings tab of an example model.](../images/managing-model-contentT1.png)
+\[Omitted image "managing-model-contentT1.png"\] Alt text: Settings tab of an example model.
 
-For more information on the confidence threshold, see [Test and publish your model](testing-your-model.md). For more information on Settings, see [NLU model settings](nlu-model-settings.md).
-
--   **[NLU intents](intents.md)**  
-Intents drive your models' responses by matching a system action to user inputs. Models with good intents help Virtual Agent and Search respond to your users accurately.
--   **[NLU entities](entities.md)**  
-Entities provide your model with additional context when receiving user input. Add entities to your utterances and intents to improve the predictions of your Natural Language Understanding \(NLU\) model.
--   **[NLU vocabulary](using-nlu-vocabulary.md)**  
-Use NLU vocabulary items to help the system recognize the various ways your users express their requests. Use vocabulary sources to help the system recognize objects in tables or lists, such as names of conference rooms or catalog items.
--   **[Test set creation and management](nlu-test-set-creation-management.md)**  
-Use the default test set of your NLU model to test the model's performance and accuracy. Manage your test set over time by building or updating its content in the NLU Workbench.
--   **[Train and try your NLU model](../task/test-train-nlu-model.md)**  
-Train and try your model iteratively so that its intents and entities are validated, compiled, and saved to your model.
--   **[Test panel feedback](test-model-panel-feedback.md)**  
-When testing your NLU model on the Try model section of the test panel, use this feature to provide feedback on the model's intent predictions.
-
-**Parent Topic:**[Model management](model-management-phases.md)
+For more information on the confidence threshold, see [Test and publish your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/testing-your-model.md). For more information on Settings, see [NLU model settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/nlu-model-settings.md).
 

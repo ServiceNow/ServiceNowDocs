@@ -2,6 +2,7 @@
 title: Generate instance service provider \(SP\) metadata for SAML
 description: As part of your SSO configuration, you can generate the instance SP metadata to provide to the IdP.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/t\_GenerateServiceNowSPMetadata.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -27,7 +28,7 @@ The IdP needs the instance SP metadata to authenticate and forward requests.
 
 1.  Choose your installed SSO plugin:
 
-<table id="choicetable_eqz_pd4_pdb"><tbody><tr><td id="d46138e71">
+<table id="choicetable_eqz_pd4_pdb"><tbody><tr><td id="d47756e71">
 
 **Multi-Provider SSO**
 
@@ -35,7 +36,7 @@ The IdP needs the instance SP metadata to authenticate and forward requests.
 
 Navigate to **Multi-Provider SSO** &gt; **Identity Providers**. Choose an IdP and click the **Generate Metadata** button. The integration automatically generates the instance's SP metadata from the system property settings.
 
-</td></tr><tr><td id="d46138e92">
+</td></tr><tr><td id="d47756e92">
 
 **SAML 2 SSO**
 

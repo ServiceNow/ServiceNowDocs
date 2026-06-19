@@ -2,6 +2,7 @@
 title: Explore Access Insights
 description: The Access Insights in the Access Analyzer helps you gain confidence in your Role or Group assignments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/explore-access-insights.html
 release: zurich
 product: Access Control
 classification: access-control
@@ -17,9 +18,9 @@ The Access Insights in the Access Analyzer helps you gain confidence in your Rol
 
 The Access Insights displays the statistics of your user’s peer and organizational level access to a resource. It enables you to see if the role or group can be assigned to the user that you're currently reviewing for additional entitlements. It helps you to compare the role and group assignments withing the same peer group.
 
-The Access Insights is displayed only while comparing user's access using the compare user access feature in the Access Analyzer. To learn more about using Access Insights, see [Use Access Insights](../task/use-access-insights.md).
+The Access Insights is displayed only while comparing user's access using the compare user access feature in the Access Analyzer. To learn more about using Access Insights, see [Use Access Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/use-access-insights.md).
 
-![Access Insights](../images/access-insights-homepage.png)
+\[Omitted image "access-insights-homepage.png"\] Alt text: Access Insights
 
 Based on the statistics, you can decide to provide the correct role or group assignments to the users you're comparing within their peers.
 
@@ -28,5 +29,5 @@ Based on the statistics, you can decide to provide the correct role or group ass
 -   Access Insights is available with Access Analyzer V4.
 -   You should compare users at a peer-level \(same organization, same department, same manager\), while viewing the statistics within the Access Insights feature.
 
-To enable Access Insights in the Access Analyzer, you must navigate to the Settings. To learn more, see [Configure Access Insights](../task/configure-access-insights.md).
+To enable Access Insights in the Access Analyzer, you must navigate to the Settings. To learn more, see [Configure Access Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/configure-access-insights.md).
 

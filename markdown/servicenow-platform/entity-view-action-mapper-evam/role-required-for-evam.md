@@ -2,6 +2,7 @@
 title: Roles required for EVAM
 description: Learn about the roles needed to configure and manage the Entity View Action Mapper \(EVAM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/entity-view-action-mapper-evam/role-required-for-evam.html
 release: zurich
 product: Entity View Action Mapper \(EVAM\)
 classification: entity-view-action-mapper-evam
@@ -20,5 +21,5 @@ Learn about the roles needed to configure and manage the Entity View Action Mapp
 |admin or evam\_admin|Grants full administrative rights, including the ability to configure and manage all aspects of the ServiceNow platform, such as creating data sources, configuring EVAM bundles, and defining view templates.|
 |itil|Provides access to IT Service Management features, allowing users to interact with incidents, changes, and other ITSM records, which may be relevant when associating EVAM configurations with ITSM data.|
 
-**Parent Topic:**[Entity View Action Mapper reference](entity-view-action-mapper-reference.md)
+**Parent Topic:**[Entity View Action Mapper reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/entity-view-action-mapper-evam/entity-view-action-mapper-reference.md)
 

@@ -2,6 +2,7 @@
 title: Delete a stockroom with assets
 description: You can delete a stockroom. If the stock room has assets, you must remove the assets from the stockroom first.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/t\_DeleteAStockroomWithAssets.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -29,8 +30,8 @@ Role required: inventory\_admin
 
 4.  Change or remove the stockroom for all of the asset records.
 
-5.  After removing assets from the stockroom you want to delete, continue with the instructions for [deleting a stockroom with no assets](t_DeleteAStockroomWithNoAssets.md).
+5.  After removing assets from the stockroom you want to delete, continue with the instructions for [deleting a stockroom with no assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/t_DeleteAStockroomWithNoAssets.md).
 
 
-**Parent Topic:**[Manage stockrooms](../../hardware-asset-management/concept/manage-your-stockrooms.md)
+**Parent Topic:**[Manage stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
 

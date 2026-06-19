@@ -2,7 +2,10 @@
 title: Scheduling Health dashboard
 description: Use this dashboard to view technician metrics, task metrics, and Schedule Optimization configuration details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/scheduling-health-dashboard.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -13,7 +16,7 @@ breadcrumb: [Analytics and reporting, Field Service Management]
 
 Use this dashboard to view technician metrics, task metrics, and Schedule Optimization configuration details.
 
-![Scheduling health dashboard overview](../../../product/field-service-management/image/Scheduling_health_new_metrics.png)
+\[Omitted image "Scheduling\_health\_new\_metrics.png"\] Alt text: Scheduling health dashboard overview
 
 ## Required ServiceNow AI Platform roles
 
@@ -77,7 +80,7 @@ Admins have the capabilities of a dispatcher and can update the information that
 |Tasks without parts|Single Score|wm\_task|The number of tasks with no part requirements.|
 |Tasks without technician preferences|Single Score|wm\_task|The number of tasks that don't have technician preferences.|
 
-![Schedule optimization scheduling health metrics](../../../product/field-service-management/image/SO-scheduling-health.png)
+\[Omitted image "SO-scheduling-health.png"\] Alt text: Schedule optimization scheduling health metrics
 
 ## Schedule Optimization Data Visualizations
 
@@ -155,5 +158,5 @@ The **Type** filter contains two choices, batch and intraday. Your selection out
 |Batch|Single select|Generate a report based on the selected batch configuration.|
 |Intraday configuration|Single select|Generate a report based on the selected intraday configuration.|
 
-**Parent Topic:**[Analytics and reporting for Field Service Management](../../../product/field-service-management/concept/analytics-reporting-fsm.md)
+**Parent Topic:**[Analytics and reporting for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/analytics-reporting-fsm.md)
 

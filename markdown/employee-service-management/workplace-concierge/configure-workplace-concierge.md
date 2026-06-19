@@ -2,6 +2,7 @@
 title: Configure Workplace Concierge
 description: Install and configure the Workplace Concierge application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-concierge/configure-workplace-concierge.html
 release: zurich
 product: Workplace Concierge
 classification: workplace-concierge
@@ -15,12 +16,12 @@ breadcrumb: [Workplace Concierge, Workplace Service Delivery, Employee Service M
 
 Install and configure the Workplace Concierge application.
 
--   **[Install Workplace Concierge](../task/install-workplace-concierge.md)**  
-Install the Workplace Concierge application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
--   **[Configure calendar sections on the Presence dashboard](../task/configure-presence-dashboard-sections.md)**  
+-   **[Install Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-concierge/install-workplace-concierge.md)**  
+Install the Workplace Concierge application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+-   **[Configure calendar sections on the Presence dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-concierge/configure-presence-dashboard-sections.md)**  
 As an admin, add or remove calendar sections from the Presence dashboard.
--   **[Configure workplace space suggestions for employees](configure-workplace-suggestions.md)**  
+-   **[Configure workplace space suggestions for employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-concierge/configure-workplace-suggestions.md)**  
 Configure the workplace space suggestions table to fetch workspace suggestions. Application provides workspace suggestions based on employee preferences when they are reserving a space.
 
-**Parent Topic:**[Workplace Concierge](workplace-concierge-feat.md)
+**Parent Topic:**[Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-concierge/workplace-concierge-feat.md)
 

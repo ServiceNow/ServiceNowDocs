@@ -2,6 +2,7 @@
 title: Enable or disable global header options
 description: Enable or disable the global header options by configuring additional options in JSON format for the Employee Center menu record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/config-global-header-components.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -35,15 +36,15 @@ Role required: admin
 
 5.  Edit the **Additional options, JSON format** field.
 
-<table id="choicetable_osb_gxg_5qb"><thead><tr><th align="left" id="d436465e114">
+<table id="choicetable_osb_gxg_5qb"><thead><tr><th align="left" id="d418795e114">
 
 Option
 
-</th><th align="left" id="d436465e117">
+</th><th align="left" id="d418795e117">
 
 Parameter setting
 
-</th></tr></thead><tbody><tr><td id="d436465e123">
+</th></tr></thead><tbody><tr><td id="d418795e123">
 
 **Search bar**
 
@@ -57,7 +58,7 @@ To enable this option, set the `exclude_search_on_homepage` value to **false**.`
 
 Default value: true**Note:** By default, the search widget is displayed in the Employee Center homepage. Search bar on the global header is hidden by default that you can enable, if needed.
 
-</td></tr><tr><td id="d436465e147">
+</td></tr><tr><td id="d418795e147">
 
 **Wishlist**
 
@@ -71,7 +72,7 @@ To enable this option, set the `enable_wishlist` value to **true** ```
 
 Default value: False
 
-</td></tr><tr><td id="d436465e165">
+</td></tr><tr><td id="d418795e165">
 
 **My Requests**
 
@@ -85,7 +86,7 @@ To disable this option, set the `enable_requests` value to **false** ```
 
 Default value: True
 
-</td></tr><tr><td id="d436465e183">
+</td></tr><tr><td id="d418795e183">
 
 **My Tasks**
 
@@ -99,7 +100,7 @@ To disable this option, set the `enable_tasks` value to **false** ```
 
 Default value: True
 
-</td></tr><tr><td id="d436465e202">
+</td></tr><tr><td id="d418795e202">
 
 **More**
 
@@ -115,7 +116,7 @@ To disable this option, set the `enable_more_items` value to **false** ```
 
 Default value: True
 
-</td></tr><tr><td id="d436465e220">
+</td></tr><tr><td id="d418795e220">
 
 **Cart**
 
@@ -129,7 +130,7 @@ To enable this option, set the `enable_cart` value to **true** ```
 
 Default value: False
 
-</td></tr><tr><td id="d436465e238">
+</td></tr><tr><td id="d418795e238">
 
 **Update Cart**
 

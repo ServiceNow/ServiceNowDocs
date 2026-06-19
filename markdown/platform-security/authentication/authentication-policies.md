@@ -2,6 +2,7 @@
 title: Authentication policies
 description: Authentication policies evaluate authentication requests based on the specified policy conditions and either allow or deny access depending on the output of policy conditions evaluation. For example, access is allowed only if all the policy conditions specified in Allow Access Policy evaluate to true.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/authentication-policies.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -25,7 +26,7 @@ Use the built-in authentication policies or create an authentication policy acco
 |Allow access pre-auth policy|Allow access pre-auth policy.|
 |Allow non local login users|Choose this policy to allow non-local login users. Used in the context of SSO recovery flows.|
 |Deny access policy|Allows the authentication requests by default. Denies only the authentication requests that match the specified policy conditions.|
-|Global blocking policy|Denies the access requests of users and APIs before authentication. This policy can be used as an alternative to the [IP Address Access Control](../../../administer/login/task/t_AccessControl.md).|
+|Global blocking policy|Denies the access requests of users and APIs before authentication. This policy can be used as an alternative to the [IP Address Access Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/t_AccessControl.md).|
 |Session Validation Policy|The authentication policy evaluates Filter Criteria \(For example, IP address\) to determine whether a session should remain active for incoming requests. You must set the filter criteria on this policy.|
 |Local login deny policy|Choose this policy to block all local logins. Used in the context of SSO recovery flows.|
 |Step-down MFA policy|Choose **Step-Down MFA Policy** as the default policy in situations where users do not require MFA authentication. When the policy conditions defined in the Step-Up MFA Policy evaluate to true, users are not required to login using MFA.|

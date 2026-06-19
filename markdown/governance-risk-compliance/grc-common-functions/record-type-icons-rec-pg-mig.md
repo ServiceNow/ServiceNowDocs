@@ -2,6 +2,7 @@
 title: Record type icons configured for forms in GRC Common Workspace Elements
 description: The table gives you a list of icons configured for the forms in the Audit Workspace and Compliance Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/record-type-icons-rec-pg-mig.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -19,29 +20,29 @@ The table gives you a list of icons configured for the forms in the Audit Worksp
 
 |Form name|Table name|Record icon type|Icon name|
 |---------|----------|----------------|---------|
-|Evidence request|sn\_grc\_advanced\_evidence\_request|![Evidence request record type icon.](../../grc-workspace-audit/image/rec-type-icon-evidence-request.png)|panel-display-popout-outline|
-|Evidence response|sn\_grc\_advanced\_evidence\_response|![Evidence response record type icon.](../../grc-workspace-audit/image/rec-type-icon-evidence-response.png)|pop-in-outline|
-|Engagement|sn\_audit\_engagement|![Engagement record type icon.](../../grc-workspace-audit/image/rec-type-icon-engagement.png)|calendar-days-clock-outline|
-|Indicator|sn\_grc\_indicator|![Indicator record type icon.](../../grc-workspace-audit/image/rec-type-icon-indicator.png)|chart-speedometer-outline|
-|Plan|sn\_audit\_advanced\_plan|![Plan record type icon.](../../grc-workspace-audit/image/rec-type-icon-plan.png)|calendar-days-outline|
-|Observation|sn\_audit\_advanced\_observation|![Observation record type icon.](../../grc-workspace-audit/image/rec-type-icon-observation.png)|eye-outline|
-|Interview|sn\_audit\_interview|![Interview record type icon.](../../grc-workspace-audit/image/rec-type-icon-interview.png)|conference-room-outline|
-|Activity|sn\_audit\_activity|![Activity record type icon.](../../grc-workspace-audit/image/rec-type-icon-activity.png)|checklist-outline|
-|Milestone|sn\_audit\_advanced\_milestone|![Milestone record type icon.](../../grc-workspace-audit/image/rec-type-icon-milestone.png)|flag-event-outline|
-|Auditable unit|sn\_audit\_advanced\_auditable\_unit|![Auditable unit icon.](../../grc-workspace-audit/image/rec-type-icon-auditable-unit.png)|component-outline|
+|Evidence request|sn\_grc\_advanced\_evidence\_request|\[Omitted image "rec-type-icon-evidence-request.png"\] Alt text: Evidence request record type icon.|panel-display-popout-outline|
+|Evidence response|sn\_grc\_advanced\_evidence\_response|\[Omitted image "rec-type-icon-evidence-response.png"\] Alt text: Evidence response record type icon.|pop-in-outline|
+|Engagement|sn\_audit\_engagement|\[Omitted image "rec-type-icon-engagement.png"\] Alt text: Engagement record type icon.|calendar-days-clock-outline|
+|Indicator|sn\_grc\_indicator|\[Omitted image "rec-type-icon-indicator.png"\] Alt text: Indicator record type icon.|chart-speedometer-outline|
+|Plan|sn\_audit\_advanced\_plan|\[Omitted image "rec-type-icon-plan.png"\] Alt text: Plan record type icon.|calendar-days-outline|
+|Observation|sn\_audit\_advanced\_observation|\[Omitted image "rec-type-icon-observation.png"\] Alt text: Observation record type icon.|eye-outline|
+|Interview|sn\_audit\_interview|\[Omitted image "rec-type-icon-interview.png"\] Alt text: Interview record type icon.|conference-room-outline|
+|Activity|sn\_audit\_activity|\[Omitted image "rec-type-icon-activity.png"\] Alt text: Activity record type icon.|checklist-outline|
+|Milestone|sn\_audit\_advanced\_milestone|\[Omitted image "rec-type-icon-milestone.png"\] Alt text: Milestone record type icon.|flag-event-outline|
+|Auditable unit|sn\_audit\_advanced\_auditable\_unit|\[Omitted image "rec-type-icon-auditable-unit.png"\] Alt text: Auditable unit icon.|component-outline|
 
 ## Icons configured for the forms in Compliance Workspace
 
 |Form name|Table name|Record icon type|Icon name|
 |---------|----------|----------------|---------|
-|Policy exception|sn\_compliance\_policy\_exception|![Policy exception record type icon.](../../grc-workspace-compliance/image/rec-type-icon-policy-excep.png)|diamond-exclamation-outline|
-|Acknowledgement|sn\_compliance\_policy\_acknowledgement\_instance|![Acknowledgement record type icon.](../../grc-workspace-compliance/image/rec-type-icon-acknowledgement.png)|script-check-outline|
-|Authority document|sn\_compliance\_authority\_document|![Authority document record type icon.](../../grc-workspace-compliance/image/rec-type-icon-authority-document.png)|document-certificate-outline|
-|Policy|sn\_compliance\_policy|![Policy record type icon.](../../grc-workspace-compliance/image/rec-type-icon-policy.png)|form-outline|
-|Acknowledgement Campaign|sn\_compliance\_policy\_acknowledgement|![Acknowledgement campaign record type icon.](../../grc-workspace-compliance/image/rec-type-icon-ack-campaign.png)|calendar-check-outline|
-|Control|sn\_compliance\_control|![Control record type icon.](../../grc-workspace-compliance/image/rec-type-icon-control.png)|clipboard-check-outline|
-|Citation|sn\_compliance\_citation|![Citation record type icon.](../../grc-workspace-compliance/image/rec-type-icon-citation.png)|connect-view-document-outline|
-|Control objective|sn\_compliance\_policy\_statement|![Control objective record type icon.](../../grc-workspace-compliance/image/rec-type-icon-control-objective.png)|clipboard-lines-outline|
+|Policy exception|sn\_compliance\_policy\_exception|\[Omitted image "rec-type-icon-policy-excep.png"\] Alt text: Policy exception record type icon.|diamond-exclamation-outline|
+|Acknowledgement|sn\_compliance\_policy\_acknowledgement\_instance|\[Omitted image "rec-type-icon-acknowledgement.png"\] Alt text: Acknowledgement record type icon.|script-check-outline|
+|Authority document|sn\_compliance\_authority\_document|\[Omitted image "rec-type-icon-authority-document.png"\] Alt text: Authority document record type icon.|document-certificate-outline|
+|Policy|sn\_compliance\_policy|\[Omitted image "rec-type-icon-policy.png"\] Alt text: Policy record type icon.|form-outline|
+|Acknowledgement Campaign|sn\_compliance\_policy\_acknowledgement|\[Omitted image "rec-type-icon-ack-campaign.png"\] Alt text: Acknowledgement campaign record type icon.|calendar-check-outline|
+|Control|sn\_compliance\_control|\[Omitted image "rec-type-icon-control.png"\] Alt text: Control record type icon.|clipboard-check-outline|
+|Citation|sn\_compliance\_citation|\[Omitted image "rec-type-icon-citation.png"\] Alt text: Citation record type icon.|connect-view-document-outline|
+|Control objective|sn\_compliance\_policy\_statement|\[Omitted image "rec-type-icon-control-objective.png"\] Alt text: Control objective record type icon.|clipboard-lines-outline|
 
-**Parent Topic:**[Configure workspace page](../task/configure-workspace-page.md)
+**Parent Topic:**[Configure workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/configure-workspace-page.md)
 

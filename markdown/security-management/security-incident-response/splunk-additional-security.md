@@ -2,6 +2,7 @@
 title: Automate notable event updates and closures
 description: Security incidents can be created and updated after they are created with a bi-directional interface with the Splunk Enterprise Security integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/splunk-additional-security.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -31,15 +32,15 @@ Role required: sn\_si.ingestion\_profile\_admin
 
 2.  Follow the instructions below to complete the configuration for updating notable events based on security incident updates.
 
-<table id="choicetable_bsh_yxn_kjb"><thead><tr><th align="left" id="d220358e92">
+<table id="choicetable_bsh_yxn_kjb"><thead><tr><th align="left" id="d125784e92">
 
 Option or Field
 
-</th><th align="left" id="d220358e95">
+</th><th align="left" id="d125784e95">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d220358e101">
+</th></tr></thead><tbody><tr><td id="d125784e101">
 
 **Update Notable Events upon SIR Incident Creation**
 
@@ -47,7 +48,7 @@ Description
 
 Select this option if you want to update the notable event status and add additional comments when a security incident is created from the notable event. This can occur for both the initial triggering notable events that create the security incident, as well as aggregated events.
 
-</td></tr><tr><td id="d220358e110">
+</td></tr><tr><td id="d125784e110">
 
 **Initial Notable Event Status Update**
 
@@ -55,7 +56,7 @@ Select this option if you want to update the notable event status and add additi
 
 You must select a status option from the menu that displays all available status values retrieved from the Splunk Enterprise Security server. This may include a custom created status, such as ServiceNow - Assigned as shown in the screen shot below. Select the status value to be set for all notable events when a security incident is created for an ingested notable event. This includes notables that create new incidents and notables that are ingested and aggregated to an existing open incident.
 
-</td></tr><tr><td id="d220358e125">
+</td></tr><tr><td id="d125784e125">
 
 **Initial Comments posted back to Notable Event**
 
@@ -63,7 +64,7 @@ You must select a status option from the menu that displays all available status
 
 In addition to updating the notable status value, you can also post comments to the notable event incident review history. As indicated in the instructions, you may edit the default text displayed in the comments section including adding or modifying the substitution variables using format $⁠\{field name\}$ for any field on the Security Incident Response incident form.
 
-</td></tr><tr><td id="d220358e137">
+</td></tr><tr><td id="d125784e137">
 
 **Close out Notable Events upon SIR Incident Closure**
 
@@ -71,7 +72,7 @@ In addition to updating the notable status value, you can also post comments to 
 
 Select this option if you want to update the notable event status and add additional comments when a security incident is closed from the notable event. This will occur for both the initial triggering notable events that create the security incident, as well as aggregated events.
 
-</td></tr><tr><td id="d220358e147">
+</td></tr><tr><td id="d125784e147">
 
 **Closure Notable Event Status Update**
 
@@ -79,7 +80,7 @@ Select this option if you want to update the notable event status and add additi
 
 You must select a status option from the list menu that displays all available status values that are retrieved from the Splunk Enterprise Security server. This may include a custom created status, such as ServiceNow - Assigned as shown in the screen shot below. Select the status value to be set for all notable events when a security incident is created for an ingested notable event. This includes notables that create new incidents as well as notables that are ingested and aggregated to an existing open incident.
 
-</td></tr><tr><td id="d220358e162">
+</td></tr><tr><td id="d125784e162">
 
 **Closure Comments Posted back to Notable Event**
 
@@ -87,7 +88,7 @@ You must select a status option from the list menu that displays all available s
 
 In addition to updating the notable status value, you can also post closure comments to the notable event incident review history. As indicated in the instructions, you may edit the default text displayed in the comments section including adding or modifying the substitution variables using format $⁠\{field name\}$ for any field on the Security Incident Response incident form.
 
-</td></tr><tr><td id="d220358e174">
+</td></tr><tr><td id="d125784e174">
 
 **Update SIR Automation Activity with Splunk Event comments**
 
@@ -97,7 +98,7 @@ Option to update your Splunk Event comments in the SIR Automation Activity. The 
 
 Starting from Splunk Enterprise Security version 8.0.x, the comments field has been deprecated, and therefore our application can no longer retrieve comments from Splunk Enterprise Security.
 
-</td></tr><tr><td id="d220358e203">
+</td></tr><tr><td id="d125784e203">
 
 **Update Splunk comments with SIR work notes**
 
@@ -112,10 +113,10 @@ Option to update your SIR work notes in the Splunk Event comments. The comment i
 
     The following image shows the Additional Options tab with default values populated:
 
-    ![Additional Options:1](../image/splunk_es_additional_security.png)
+    \[Omitted image "splunk\_es\_additional\_security.png"\] Alt text: Additional Options:1
 
     With the Additional Options configuration enabled, the notable event incident review shows the status change and an update to the history comments:
 
-    ![Additional Options: 2](../image/splunk_es_additional1_security.png)
+    \[Omitted image "splunk\_es\_additional1\_security.png"\] Alt text: Additional Options: 2
 
 

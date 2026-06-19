@@ -2,6 +2,7 @@
 title: Step configuration categories
 description: The Step Configuration Categories module opens a list of records specifying the step categories on the Add Step dialog. From this module, you can add, delete, and edit these categories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/step-configuration-categories-module.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -15,10 +16,10 @@ breadcrumb: [Administration, Reference, Automated Test Framework \(ATF\), Testin
 
 The Step Configuration Categories module opens a list of records specifying the step categories on the Add Step dialog. From this module, you can add, delete, and edit these categories.
 
-Categories are used for filtering the step list in the Add Step dialog. For more information, see [Category field example](../reference/atf-step-config-xmpls.md#hbm_xwc_yw).
+Categories are used for filtering the step list in the Add Step dialog. For more information, see [Category field example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-step-config-xmpls.md).
 
--   **[Test step config category form](../reference/atf-step-categories.md)**  
+-   **[Test step config category form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-step-categories.md)**  
 On the Test Step Config Category form, you specify a retention policy for a set of records on a given test results table.
 
-**Parent Topic:**[Administration](../reference/atf-test-admin-module.md)
+**Parent Topic:**[Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-test-admin-module.md)
 

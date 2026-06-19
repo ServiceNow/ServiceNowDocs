@@ -2,6 +2,7 @@
 title: Data copied to Contract Management Pro for Legal Service Delivery during migration from Legal Simple Contracts
 description: A migration utility copies data from Legal Simple Contracts tables to Contract Management Pro for Legal Service Delivery tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-simple-contracts/lsc-migrate-cmpro-components.html
 release: zurich
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -470,5 +471,5 @@ Document
 The file in the document field is copied to the newly created revision record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Migrate to Contract Management Pro for Legal Service Delivery from Legal Simple Contracts](migration-to-cmpro.md)
+</table>**Parent Topic:**[Migrate to Contract Management Pro for Legal Service Delivery from Legal Simple Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/migration-to-cmpro.md)
 

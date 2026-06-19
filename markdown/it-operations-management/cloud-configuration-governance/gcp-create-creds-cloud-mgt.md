@@ -2,6 +2,7 @@
 title: Specify the credentials that CSC Terraform Connector uses to access Google Cloud Platform data
 description: To securely access data on your provider account, the Discovery process must present appropriate credentials. To make the credentials available to Discovery, you open the Google Cloud Console to identify the Google Cloud Platform project that will have programmatic access to your Google Cloud Platform data. You then securely store the credentials in a service account in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/gcp-create-creds-cloud-mgt.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -50,7 +51,7 @@ Cloud providers often use different names for accounts, regions, and credential 
 
         For example, enter `Google credentials-1` and then copy/paste values from the JSON key file into the form fields. Paste the `private_key` value into the **Secret key** field and the `client_email` value into the **EMail** field.
 
-        ![Specifying the Google Cloud Platform credentials in the instance](../image/gcp-copy-cred-to-sn-form.png)
+        \[Omitted image "gcp-copy-cred-to-sn-form.png"\] Alt text: Specifying the Google Cloud Platform credentials in the instance
 
     4.  Select the **Active** check box to use the credentials and then click **Submit**.
 

@@ -2,6 +2,7 @@
 title: Update a Legal Content Review request
 description: Update request details, add comments, or upload documents in a Legal Content Review request you submitted while it is still in the New or Assigned state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-content-review/update-existing-legal-cr-request.html
 release: zurich
 product: Legal Content Review
 classification: legal-content-review
@@ -23,75 +24,50 @@ Role required: sn\_lg\_ops.legal\_user
 
 ## Procedure
 
-1.  Open the Legal Content Review request.
+1.  Navigate to **All** &gt; **Employee Center**.
 
-<table id="choicetable_av2_r5c_3xb"><thead><tr><th align="left" id="d123498e66">
+    **Note:** If you're using Legal Service Portal, you can submit a legal request by navigating to the Legal Service Portal and selecting **View all requests** under **My Requests**.
 
-Option
-
-</th><th align="left" id="d123498e69">
-
-Description
-
-</th></tr></thead><tbody><tr><td id="d123498e75">
-
-**Using __Employee Center__**
-
-</td><td>
-
-1.  Navigate to **All** &gt; **Employee Center**
 2.  Select **My Requests** from the header.
 
-
-</td></tr><tr><td id="d123498e106">
-
-**Using __Legal Service Portal__**
-
-</td><td>
-
-1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Service Portal**
-2.  Select **View all requests** from the **My Requests** panel.
-
-
-</td></tr></tbody>
-</table>2.  Open your submitted Legal Content Review request.
+3.  Open your submitted Legal Content Review request.
 
     On the Standard Ticket page, review and edit the request details, manage attachments, or cancel the request.
 
-3.  Select **Edit Request** from the Actions menu.
+4.  Select **Edit Request** from the Actions menu.
 
-4.  In the Variables form, modify the request details.
+5.  In the Variables form, modify the request details.
 
-5.  Select **Save**.
+6.  Select **Save**.
 
-6.  Select **Back** to return to the Standard Ticket page.
+7.  Select **Back** to return to the Standard Ticket page.
 
     The request is updated with the new information. The changes appear as comments in the Additional Comments section of the request.
 
-7.  In the **Activity** tab, provide comments or more information about your request for the request fulfiller.
+8.  In the **Activity** tab, provide comments or more information about your request for the request fulfiller.
 
-8.  Manage documents supporting your request.
+9.  Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d123498e210">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d83988e157">
 
 Option
 
-</th><th align="left" id="d123498e213">
+</th><th align="left" id="d83988e160">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d123498e219">
+</th></tr></thead><tbody><tr><td id="d83988e166">
 
 **If the Attachments tab is visible**
 
 </td><td>
 
--   To upload a new document, select the add attachment icon \(![Add attachment icon.](../../legal-request-management/image/add-attachment-icon.png)\) and select a file.
--   To rename an attached file, select the edit file name icon \(![Edit file name icon.](../../legal-digital-forensics/image/rename-icon.png)\) and update the file name.
--   To remove an attached file, select the delete icon \(![Delete icon.](../../legal-digital-forensics/image/delete-icon.png)\).
+-   To upload a new document, select the add attachment icon \(\[Omitted image "add-attachment-icon.png"\] Alt text: Add attachment icon.\) and select a file.
+-   To rename an attached file, select the edit file name icon \(\[Omitted image "rename-icon.png"\] Alt text: Edit file name icon.\) and update the file name.
+-   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d123498e258">
+</td></tr><tr><td id="d83988e205">
 
 **If the Documents tab is visible**
 
@@ -105,10 +81,10 @@ A link to the document is listed in the **External URL** column of the documents
 
 
 </td></tr></tbody>
-</table>9.  In the **Approvals** tab, view the approval details associated with the request.
+</table>10. In the **Approvals** tab, view the approval details associated with the request.
 
     **Note:** The **Approvals** tab appears only when the Legal Content Review request or its attachment has approval records.
 
 
-**Parent Topic:**[Legal Content Review requests](../concept/legal-content-review-requests.md)
+**Parent Topic:**[Legal Content Review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-content-review/legal-content-review-requests.md)
 

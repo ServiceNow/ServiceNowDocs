@@ -2,6 +2,7 @@
 title: Configure Service Graph Connector for Microsoft Azure using the guided setup
 description: Set up data sources and scheduled import jobs to pull in data from Azure into your CMDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/configure-azure-integration.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -19,22 +20,22 @@ Set up data sources and scheduled import jobs to pull in data from Azure into yo
 
 **Important:** Unless there are configuration issues, use the SGC Central view in the Service Graph Workspace or CMDB Workspace to configure the connection for the connector, as the guided setup method is planned for deprecated.
 
-To use this Service Graph Connector, you need a subscription to a Subscription Unit that is based in the IT Operations Management \(ITOM\) Visibility application or in the ITOM Discovery application. As defined in the section titled "Managed IT Resource Types" in [ServiceNow Subscription Unit Overview](https://www.servicenow.com/products/entitlements-packages.html) for your subscription, for managed IT resources that are created or modified in the CMDB by this Service Graph Connector, but that aren’t yet managed by [ITOM Visibility or ITOM Discovery](https://www.servicenow.com/docs/access?context=itom-license-module&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US), these resources will increase Subscription Unit consumption from that application. Review your current Subscription Unit consumption within ITOM Visibility or ITOM Discovery to ensure available capacity.
+To use this Service Graph Connector, you need a subscription to a Subscription Unit that is based in the IT Operations Management \(ITOM\) Visibility application or in the ITOM Discovery application. As defined in the section titled "Managed IT Resource Types" in [ServiceNow Subscription Unit Overview](https://www.servicenow.com/products/entitlements-packages.html) for your subscription, for managed IT resources that are created or modified in the CMDB by this Service Graph Connector, but that aren’t yet managed by ITOM Visibility or ITOM Discovery, these resources will increase Subscription Unit consumption from that application. Review your current Subscription Unit consumption within ITOM Visibility or ITOM Discovery to ensure available capacity.
 
 Dependencies and requirements:
 
--   The [Integration Commons for CMDB](../concept/integration-commons-for-cmdb.md) store app, which is automatically installed.
--   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models](../concept/cmdb-ci-class-models.md).
+-   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
+-   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
 -   Discovery Core plugin \(com.snc.discovery.core\), which is automatically installed by Discovery.
 -   The Datastream Action plugin \(com.glide.hub.action\_type.datastream\), which is automatically installed.
 -   The ITOM Discovery License plugin \(com.snc.itom.discovery.license\). You must activate this plugin.
--   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://www.servicenow.com/docs/access?context=t_ActivateTheDiscoveryPlugin&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+-   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see Request Discovery.
 
-**Important:** After the initial import of Azure data, the application performs a delta import of data. However, you can perform a full pull of data anytime later by disabling the delta synchronization and setting the **sn\_sg\_azure\_integ.is\_delta\_sync\_enabled** property to `false`. For more information, see [Configuring data synchronization in Service Graph Connector for Microsoft Azure](../concept/sgc-cmdb-azure-data-sync.md#).
+**Important:** After the initial import of Azure data, the application performs a delta import of data. However, you can perform a full pull of data anytime later by disabling the delta synchronization and setting the **sn\_sg\_azure\_integ.is\_delta\_sync\_enabled** property to `false`. For more information, see [Configuring data synchronization in Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-azure-data-sync.md).
 
 Role required: SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin
 
-**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](../concept/cmdb-sgc-intro.md#section_ett_spp_4hc).
+**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
 
 ## About this task
 
@@ -60,7 +61,7 @@ For more information on the Azure setup instructions, see the [Service Graph Con
         4.  Select **Update** to close the tab and return to the guided setup.
         5.  Modify the application scope again to **Service Graph Connector for Microsoft Azure** by using the application picker.
         6.  Set the Update Scheduled Data Import access task to complete by selecting **Mark as Complete**.
-        7.  Repeat the steps [3.b.ii](configure-azure-integration.md#global) to [3.b.v](configure-azure-integration.md#app) for the Update Data Source Access task with the Data Source \[sys\_data\_source\] table and set the task to complete by selecting **Mark as Complete**.
+        7.  Repeat the steps [3.b.ii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-azure-integration.md) to [3.b.v](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-azure-integration.md) for the Update Data Source Access task with the Data Source \[sys\_data\_source\] table and set the task to complete by selecting **Mark as Complete**.
     3.  Clear the cache for the new connection.
 
         1.  In the Clear Cache for Datasource and Import set section, select **Configure**.
@@ -146,7 +147,7 @@ OAuth Client ID
 
 </td><td>
 
-Application \(client\) ID of your Azure client application as described in step [4.a](configure-azure-integration.md#azure-oauth-details).
+Application \(client\) ID of your Azure client application as described in step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-azure-integration.md).
 
 </td></tr><tr><td>
 
@@ -154,7 +155,7 @@ OAuth Client Secret
 
 </td><td>
 
-Client Secret of your Azure client application as described in step [4.a](configure-azure-integration.md#azure-oauth-details).
+Client Secret of your Azure client application as described in step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-azure-integration.md).
 
 </td></tr><tr><td>
 
@@ -188,7 +189,7 @@ https://login.partner.microsoftonline.cn/*&lt;tenantid&gt;*/oauth2/v2.0/token
 https://login.microsoftonline.de/*&lt;tenantid&gt;*/oauth2/v2.0/token
     ```
 
-Where *&lt;tenantid&gt;* is the tenant ID of your Azure client application as described in step [4.a](configure-azure-integration.md#azure-oauth-details).
+Where *&lt;tenantid&gt;* is the tenant ID of your Azure client application as described in step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-azure-integration.md).
 
 </td></tr></tbody>
 </table>        5.  Select **Configure and Get OAuth Token**.
@@ -207,7 +208,7 @@ Where *&lt;tenantid&gt;* is the tenant ID of your Azure client application as de
         2.  Select the **SG-Azure Subscriptions** scheduled job.
         3.  On the Scheduled Data Import form, verify the field values for the scheduled job and select the **Active** check box.
 
-            For more information, see [Schedule a data import](https://www.servicenow.com/docs/access?context=t_ScheduleADataImport&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US#table_r53_5hm_xp).
+            For more information, see .
 
         4.  Select **Update**.
         5.  Set the Set up scheduled import jobs task to complete by selecting **Mark as Complete** in the Help panel.
@@ -217,7 +218,7 @@ Where *&lt;tenantid&gt;* is the tenant ID of your Azure client application as de
 
     1.  Obtain the OAuth credentials and set up the Log Analytics workspace in the Azure.
 
-        1.  Ensure that you have the OAuth credentials from step [4.a](configure-azure-integration.md#azure-oauth-details).
+        1.  Ensure that you have the OAuth credentials from step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-azure-integration.md).
         2.  Configure the Log Analytics workspace in the Azure client application.
 
             -   Use an existing workspace, if available.
@@ -269,7 +270,7 @@ Hardware Connection Name
 
 </td><td>
 
-Name of the hardware connection associated with the software as described in step [4.b.iv](configure-azure-integration.md#hw-connection).You add a hardware connection name to associate the software connection with the respective hardware.
+Name of the hardware connection associated with the software as described in step [4.b.iv](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-azure-integration.md).You add a hardware connection name to associate the software connection with the respective hardware.
 
 </td></tr><tr><td>
 
@@ -281,7 +282,7 @@ Base URL to connect to the Log Analytics workspace in the following format: ```
 https://api.loganalytics.io/v1/workspaces/<workspace_id>
 ```
 
-Where `<workspace_id>` is the ID of the Log Analytics workspace as described in step [5.a.ii](configure-azure-integration.md#config-log-ws). **Note:** This field is automatically set to the URL to connect to the Log Analytics workspace. Replace the `<workspace_id>` variable in the auto-generated URL with the workspace ID of your Log Analytics workspace.
+Where `<workspace_id>` is the ID of the Log Analytics workspace as described in step [5.a.ii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-azure-integration.md). **Note:** This field is automatically set to the URL to connect to the Log Analytics workspace. Replace the `<workspace_id>` variable in the auto-generated URL with the workspace ID of your Log Analytics workspace.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -293,7 +294,7 @@ OAuth Client ID
 
 </td><td>
 
-Application \(client\) ID of your Azure client application as described in step [4.a](configure-azure-integration.md#azure-oauth-details).
+Application \(client\) ID of your Azure client application as described in step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-azure-integration.md).
 
 </td></tr><tr><td>
 
@@ -301,7 +302,7 @@ OAuth Client Secret
 
 </td><td>
 
-Client Secret of your Azure client application as described in step [4.a](configure-azure-integration.md#azure-oauth-details).
+Client Secret of your Azure client application as described in step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-azure-integration.md).
 
 </td></tr><tr><td>
 
@@ -335,7 +336,7 @@ https://login.partner.microsoftonline.cn/*&lt;tenantid&gt;*/oauth2/v2.0/token
 https://login.microsoftonline.de/*&lt;tenantid&gt;*/oauth2/v2.0/token
     ```
 
-Where *&lt;tenantid&gt;* is the tenant ID of your Azure client application as described in step [4.a](configure-azure-integration.md#azure-oauth-details).
+Where *&lt;tenantid&gt;* is the tenant ID of your Azure client application as described in step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-azure-integration.md).
 
 </td></tr></tbody>
 </table>        5.  Select **Configure and Get OAuth Token**.
@@ -354,7 +355,7 @@ Where *&lt;tenantid&gt;* is the tenant ID of your Azure client application as de
         2.  Select the **SG-Azure Software** scheduled data import.
         3.  On the Scheduled Data Import form, verify the field values for the scheduled job and select the **Active** check box.
 
-            For more information, see [Schedule a data import](https://www.servicenow.com/docs/access?context=t_ScheduleADataImport&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US#table_r53_5hm_xp).
+            For more information, see .
 
         4.  Select **Update**.
         5.  Set the Set up scheduled import jobs task to complete by selecting **Mark as Complete** in the Help panel.

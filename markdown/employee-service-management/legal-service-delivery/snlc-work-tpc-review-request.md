@@ -2,6 +2,7 @@
 title: Work on a third-party contract review request
 description: As a member of the legal contracts support team, review and revise a third-party contract document. You can email the revised document to stakeholders to verify the revisions and then send the ready document for signature from within the legal request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/snlc-work-tpc-review-request.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -27,13 +28,13 @@ As a collaborator added to a request, you can access and work on the request jus
 
 1.  Assign a legal request to yourself or to someone in your assignment group.
 
-    For more information, see [Assign a legal request](../../legal-request-management/task/assign-legal-request-1.md)
+    For more information, see [Assign a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 
 2.  Start working on a legal request.
 
     1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-    2.  Click the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+    2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
     3.  Select **Legal requests** option.
 
@@ -47,15 +48,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 3.  In the **Lists** tab, navigate to **Legal Requests** or **Contract Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d685456e163">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d222723e163">
 
 Option
 
-</th><th align="left" id="d685456e166">
+</th><th align="left" id="d222723e166">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d685456e172">
+</th></tr></thead><tbody><tr><td id="d222723e172">
 
 **As an assignee**
 
@@ -65,7 +66,7 @@ Steps
 2.  Select a contract request to work on.
 
 
-</td></tr><tr><td id="d685456e193">
+</td></tr><tr><td id="d222723e193">
 
 **As a collaborator**
 
@@ -84,7 +85,7 @@ Steps
 
 5.  Reclassify the contract or supporting documents submitted for review.
 
-    For more information, see [Reclassify contract documents in third-party contract review request as a legal fulfiller](snlc-tpc-reclassify-doc.md) and [Modify supporting documents in third-party contract review request as a legal fulfiller](snlc-tpc-mod-supporting-doc.md).
+    For more information, see [Reclassify contract documents in third-party contract review request as a legal fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-tpc-reclassify-doc.md) and [Modify supporting documents in third-party contract review request as a legal fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-tpc-mod-supporting-doc.md).
 
 6.  If you have opened contract request from the **Legal requests** listing, select **Contract request** tab.
 
@@ -122,7 +123,7 @@ Steps
 
 10. If an approval is required from other stakeholders, send the document for ad hoc approval.
 
-    For more information, see [Initiate an ad hoc approval for a legal request or its attachment](../../legal-request-management/task/initiate-approval-legal-request.md).
+    For more information, see [Initiate an ad hoc approval for a legal request or its attachment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/initiate-approval-legal-request.md).
 
 11. Set up an email to stakeholders to have the completed contract document reviewed and the changes confirmed.
 
@@ -146,11 +147,11 @@ Steps
 
     7.  Either enter your own message in the email body or copy and paste the content from an email response template into the email body.
 
-        Using response templates, you can insert predefined content into the email body. Select the response template icon \(![Response template icon.](../../legal-request-management/image/response-template-email-icon.png)\) and find an appropriate response template based on the subject of your email. Copy and paste the template's content into the email body.
+        Using response templates, you can insert predefined content into the email body. Select the response template icon \(\[Omitted image "response-template-email-icon.png"\] Alt text: Response template icon.\) and find an appropriate response template based on the subject of your email. Copy and paste the template's content into the email body.
 
-        **Note:** Only response templates configured for the email channel are available to use. For more information, see [Response templates configured for email channel](../../legal-request-management/task/create-lsd-response-template.md).
+        **Note:** Only response templates configured for the email channel are available to use. For more information, see [Response templates configured for email channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/create-lsd-response-template.md).
 
-        For more information, see [Communicating via email](https://www.servicenow.com/docs/access?context=using-email&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+        For more information, see Communicating via email.
 
     8.  Either send the email immediately or indicate that it should be sent later.
 
@@ -158,15 +159,15 @@ Steps
         -   To indicate that the email should be sent later, select **Save as draft**.
 12. In the **Signatories** tab, add signatories to whom the contract will be sent for signature by selecting **Add**.
 
-<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d685456e596">
+<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d222723e596">
 
 Option
 
-</th><th align="left" id="d685456e599">
+</th><th align="left" id="d222723e599">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d685456e605">
+</th></tr></thead><tbody><tr><td id="d222723e605">
 
 **Internal**
 
@@ -176,7 +177,7 @@ Steps
 2.  In the **Order** field, enter the order in which the email should be sent to the signer. The order value should be unique
 
 
-</td></tr><tr><td id="d685456e638">
+</td></tr><tr><td id="d222723e638">
 
 **External**
 
@@ -222,21 +223,21 @@ Steps
 
 -   Signatories can review and sign or decline to sign the contract.
 
-    For more information, see [Signature workflow for a request](../concept/snlc-lsd-signature-workflow.md).
+    For more information, see [Signature workflow for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md).
 
 -   Check the Contract status in the request.
     -   If all signatories sign the contract document, the Contract status updates to Contract Signed. In the **Signatories** tab, the status of all signatories updates to Signed. You can access the legal contract repository record from the **Legal Contracts Repository** tab.
     -   If any signatory declines to sign the contract document, the Contract status updates to Signing declined. In the **Signatories** tab, the status of all signatories updates to Declined. If more changes are required in the contract document, update it and resend it to the signatories for their signature.
     -   After all the signatories have signed the document, an email is sent to the legal signatories with the finalized contract document attached.
     -   If the certificate of completion is enabled, a certificate will be issued with the time stamp details about each signatory's action during an electronic signature.
--   If the contract is signed by all signatories, you can close the request by selecting **Close Complete**. For more information, see [Close a legal request](../../legal-request-management/task/close-legal-request.md)
+-   If the contract is signed by all signatories, you can close the request by selecting **Close Complete**. For more information, see [Close a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/close-legal-request.md)
 
--   **[Reclassify contract documents in third-party contract review request as a legal fulfiller](snlc-tpc-reclassify-doc.md)**  
+-   **[Reclassify contract documents in third-party contract review request as a legal fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-tpc-reclassify-doc.md)**  
 As a legal fulfiller, reclassify the documents submitted in a third-party contract review request. For example, you need to change the contract document type from Non-disclosure Agreement to Partnership Agreement.
--   **[Modify supporting documents in third-party contract review request as a legal fulfiller](snlc-tpc-mod-supporting-doc.md)**  
+-   **[Modify supporting documents in third-party contract review request as a legal fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-tpc-mod-supporting-doc.md)**  
 As a legal fulfiller, add, remove, or reclassify supporting documents submitted in a third-party contract review request.
--   **[Cancel the wet signature process from the Employee Center](snlc-tpc-cancel-wet-signature.md)**  
+-   **[Cancel the wet signature process from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-tpc-cancel-wet-signature.md)**  
 Cancel a wet signature process for a Non-disclosure agreement legal requests from the Employee Center.
 
-**Parent Topic:**[Third-party contract review requests](../concept/snlc-request-third-party-contract-1.md)
+**Parent Topic:**[Third-party contract review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

@@ -2,6 +2,7 @@
 title: Report an AI case from the Employee Center
 description: Report an AI case by providing a detailed description, such as system behavior, affected users, and any relevant data. Ensure all necessary information, such as supporting attachments, is included for prompt resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/ai-risk-management/report-ai-case.html
 release: zurich
 product: AI Risk Management
 classification: ai-risk-management
@@ -29,7 +30,7 @@ Role required: sn\_ai\_case\_mgmt.ai\_case\_business\_user
 
 4.  On the form, fill in the fields.
 
-    For a description of the field values on the Report an AI case form, see [Report an AI case form](../reference/report-ai-case-form.md).
+    For a description of the field values on the Report an AI case form, see [Report an AI case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/report-ai-case-form.md).
 
 5.  To add attachments, select **Add attachments**.
 
@@ -48,10 +49,10 @@ An AI case passes through: New, Triage, Investigate, Resolve, Post case review, 
 
 ## What to do next
 
-[Initiate AI assessment on an AI asset](initiate-assessment-on-an-ai-asset.md)
+[Initiate AI assessment on an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/initiate-assessment-on-an-ai-asset.md)
 
--   **[Report an AI case form](../reference/report-ai-case-form.md)**  
+-   **[Report an AI case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/report-ai-case-form.md)**  
 Use the Report an AI case form in the Employee Center to report an AI case with the necessary details.
 
-**Parent Topic:**[Using AI Risk and Compliance](../concept/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

@@ -2,6 +2,7 @@
 title: Lists in Agent Workspace for HR Case Management
 description: Lists are an easy way of accessing cases under various categories. For example, you can quickly get a list of HR cases in lifecycle events or cases related to payroll.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-lists.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -53,7 +54,7 @@ Service Activity
 
 </td><td>
 
-Service activities fulfill the HR service. In the **Service Activities** section at the bottom of the HR Service form, add one or more service activities to fulfill the HR service.**Note:** Service activities can be approvals, tasks, or child HR services. See [Configure a service activity for an HR service](../task/configure-service-activity-for-hr-service.md) for more information.
+Service activities fulfill the HR service. In the **Service Activities** section at the bottom of the HR Service form, add one or more service activities to fulfill the HR service.**Note:** Service activities can be approvals, tasks, or child HR services. See [Configure a service activity for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-service-activity-for-hr-service.md) for more information.
 
 </td></tr><tr><td>
 
@@ -61,7 +62,7 @@ Lifecycle Events
 
 </td><td>
 
-HR cases fulfilled by lifecycle events. For more information, see [Lifecycle event cases in Agent Workspace for HR Case Management](hr-agent-ws-lifecycle.md).
+HR cases fulfilled by lifecycle events. For more information, see [Lifecycle event cases in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-lifecycle.md).
 
 </td></tr><tr><td>
 
@@ -74,7 +75,7 @@ The following categories of ER cases are displayed:-   **Assigned to me**: List 
 -   **Closed**: List of all closed ER cases.
 -   **All**: All ER cases.
 
-For more information, see [Employee Relations](hr-case-employee-relations.md).
+For more information, see [Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-case-employee-relations.md).
 
 
 </td></tr><tr><td>
@@ -95,7 +96,7 @@ Interactions
 
 </td><td>
 
-All interactions. For more information, see [Using interactions in Agent Workspace for HR Case Management](hr-agent-ws-interactions.md).
+All interactions. For more information, see [Using interactions in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-interactions.md).
 
 </td></tr><tr><td>
 
@@ -103,7 +104,7 @@ HR Tasks
 
 </td><td>
 
-All Hr tasks in Open, Closed, Assigned to me or Open - unassigned categories. For more information, see [Create a task for a case using Agent Workspace for HR Case Management](../task/agent-ws-hr-case-mgmt-task.md).
+All Hr tasks in Open, Closed, Assigned to me or Open - unassigned categories. For more information, see [Create a task for a case using Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-task.md).
 
 </td></tr><tr><td>
 
@@ -135,7 +136,7 @@ Reminders
 
 </td><td>
 
-Reminders created by the HR agents. For more information, see [Create a reminder in Agent Workspace for HR Case Management](../task/hr-agent-ws-reminder.md).
+Reminders created by the HR agents. For more information, see [Create a reminder in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-reminder.md).
 
 </td></tr><tr><td>
 
@@ -146,5 +147,5 @@ Delegation
 Cases delegated to you or that you have delegated to other HR agents. The Delegation list appears only when you have activated the Granular Delegation \(com.glide.granular\_service\_delegation\) plugin.
 
 </td></tr></tbody>
-</table>You can create your own lists to show specific cases that are relevant to you in the **My Lists** tab. Having a custom **My Lists** helps you work faster and efficiently. For more information, see [Create My Lists](../task/hr-agent-ws-create-list.md). For general information on using lists, see [Using lists to find work to do](https://www.servicenow.com/docs/access?context=list-menu&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+</table>You can create your own lists to show specific cases that are relevant to you in the **My Lists** tab. Having a custom **My Lists** helps you work faster and efficiently. For more information, see [Create My Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-create-list.md). For general information on using lists, see .
 

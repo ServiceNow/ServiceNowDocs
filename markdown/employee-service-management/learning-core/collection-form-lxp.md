@@ -2,6 +2,7 @@
 title: Collection form
 description: Use the Collection form to create a content collection in Learning Core to dynamically group Learning content that includes multiple internal and external courses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/collection-form-lxp.html
 release: zurich
 product: Learning Core
 classification: learning-core
@@ -171,5 +172,5 @@ Valid until
 Retirement date of the collection.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Learning reference](learning-experience-reference.md)
+</table>**Parent Topic:**[Learning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/learning-experience-reference.md)
 

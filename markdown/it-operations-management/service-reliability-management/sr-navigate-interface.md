@@ -2,6 +2,7 @@
 title: SRM interface
 description: The different components on the Service Reliability Management \(SRM\) interface provide easy access to different functions. The features and functions that appear depend on your role and permissions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-reliability-management/sr-navigate-interface.html
 release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
@@ -17,7 +18,7 @@ The different components on the Service Reliability Management \(SRM\) interface
 
 The SRM interface has the following different sections:
 
-![Reliability tasks page with numbered sections corresponding to the following table.](../image/sr-ui.png "Interface sections")
+\[Omitted image "sr-ui.png"\] Alt text: Reliability tasks page with numbered sections corresponding to the following table.
 
 **Note:** If you use other Service Operations Workspace \(SOW\) applications, you may see the SOW Home page instead of the SRM Home page. The SOW Home page includes SRM alerts and incidents in its metrics. Depending on your role, you may see other icons in the primary navigation.
 
@@ -77,12 +78,12 @@ If you want to minimize the side panel on forms, by default, navigate to **Prefe
 That action disables it across the Service Operations Workspace, not just SRM.
 
 </td></tr></tbody>
-</table>-   **[Search, filters, lists, forms, and guides](sr-visualize-content.md)**  
+</table>-   **[Search, filters, lists, forms, and guides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-visualize-content.md)**  
 An overview of the additional elements in the Service Reliability Management \(SRM\) interface that help you find items, view available forms and lists, and follow setup processes.
--   **[Export list information to a file](../task/sr-export-to-file.md)**  
+-   **[Export list information to a file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-export-to-file.md)**  
 You can export live information to a file in Service Reliability Management \(SRM\).
--   **[Manually create SRM tags](../task/sr-create-tags.md)**  
+-   **[Manually create SRM tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-create-tags.md)**  
 Add tags to classify, categorize, and add context to data. Service Reliability Management \(SRM\) imports tags and attaches them to services, alerts, and incidents. You can also manually create tags.
 
-**Parent Topic:**[Get started with Service Reliability Management](sr-get-started.md)
+**Parent Topic:**[Get started with Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-get-started.md)
 

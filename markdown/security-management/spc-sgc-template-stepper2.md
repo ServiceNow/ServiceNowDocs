@@ -2,6 +2,7 @@
 title: Create connector alias and connection credentials
 description: Enter the connection URL and credential alias details for your API connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/spc-sgc-template-stepper2.html
 release: zurich
 topic_type: task
 last_updated: "2025-11-20"
@@ -31,13 +32,13 @@ Role required: sn\_sec\_spc\_core.developer
 
     1.  In the Connection and Credential Aliases record, enter a unique name for your API connector's alias.
 
-    2.  Select the search ![Magnifying glass](../../../common/image/List_SearchIcon.png) icon on the Parent Alias field and select one.
+    2.  Select the search \[Omitted image "List\_SearchIcon.png"\] Alt text: Magnifying glass icon on the Parent Alias field and select one.
 
         If you select a parent alias from the list, this record points to another alias record. If you select a parent alias some fields on the form are no longer displayed, and you can submit your changes.
 
     3.  Select **Submit**.
 
-    4.  Select the refresh icon \(![Rotating arrows that refresh the page](../../../reuse/icons/product-icons/sync-outline-24.svg)\) to see your alias on the list.
+    4.  Select the refresh icon \(\[Omitted image "sync-outline-24.svg"\] Alt text: Rotating arrows that refresh the page\) to see your alias on the list.
 
     5.  Select your alias.
 
@@ -58,13 +59,13 @@ Role required: sn\_sec\_spc\_core.developer
 
     7.  Select **Submit**.
 
-    8.  Select the refresh icon \(![Rotating arrows that refresh the page](../../../reuse/icons/product-icons/sync-outline-24.svg)\) for the Connection field to see your connection on the list.
+    8.  Select the refresh icon \(\[Omitted image "sync-outline-24.svg"\] Alt text: Rotating arrows that refresh the page\) for the Connection field to see your connection on the list.
 
     9.  Select your connection.
 
         The base URL and credential are displayed in read-only fields. These connections are associated with the alias that you choose. This list isn’t a complete list.
 
-        If you don’t see the Credential field, you can select the view connection link \(![Open link icon](../../../reuse/icons/product-icons/open-link-right-fill-24.svg)\) icon next to the Connection field.
+        If you don’t see the Credential field, you can select the view connection link \(\[Omitted image "open-link-right-fill-24.svg"\] Alt text: Open link icon\) icon next to the Connection field.
 
         In the form that is displayed, add the Credential in the Credential field. You must have the credential field populated before you can save the record.
 
@@ -74,8 +75,8 @@ Role required: sn\_sec\_spc\_core.developer
 
     You must save your changes before you can continue.
 
-    After you save your edits, the [Select template](spc-sgc-template-stepper-3.md) step is displayed and highlighted on the stepper.
+    After you save your edits, the [Select template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-sgc-template-stepper-3.md) step is displayed and highlighted on the stepper.
 
 
-Select the view connection link \(![Open link icon](../../../reuse/icons/product-icons/open-link-right-fill-24.svg)\) if you see the following message: `There are no credentials associated with the selected connection. Please update the connection via the View connection button.`
+Select the view connection link \(\[Omitted image "open-link-right-fill-24.svg"\] Alt text: Open link icon\) if you see the following message: `There are no credentials associated with the selected connection. Please update the connection via the View connection button.`
 

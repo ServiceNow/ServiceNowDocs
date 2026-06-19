@@ -2,6 +2,7 @@
 title: Follow a risk
 description: Connect integrates with Risk Management providing an overlay to the standard interface, allowing users to participate in conversations while they work and collaborate on the risk record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/follow-risk.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -19,7 +20,7 @@ Connect integrates with Risk Management providing an overlay to the standard int
 
 Role required: sn\_risk.user
 
-For more information about Connect, see [Connect](https://www.servicenow.com/docs/access?context=c_Connect&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+For more information about Connect, see Connect.
 
 ## Procedure
 
@@ -35,5 +36,5 @@ For more information about Connect, see [Connect](https://www.servicenow.com/doc
     |**To add the Connect full-screen view**|Click **Open Connect Full**.|
 
 
-**Parent Topic:**[Using Risk Management](../concept/using-risk-mgmt.md)
+**Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
 

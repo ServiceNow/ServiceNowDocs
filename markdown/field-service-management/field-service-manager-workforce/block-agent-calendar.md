@@ -2,6 +2,7 @@
 title: Block the calendar of a field agent based on an Emergency Exposure Management diagnostic report
 description: Block the calendar of affected and potentially affected agents based on an Emergency Exposure Management diagnostic report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-manager-workforce/block-agent-calendar.html
 release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -21,7 +22,7 @@ Role required: wm\_manager
 
 ## About this task
 
-As the Field Service manager, you can view a diagnostic report and take appropriate action to mitigate the spread of infection. You can promote agent safety by blocking the availability of the affected and potentially exposed agents for future dates on the calendar. For more information about the agent calendar, see [Configure the agent calendar](https://www.servicenow.com/docs/access?context=configure-agent-calendar&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+As the Field Service manager, you can view a diagnostic report and take appropriate action to mitigate the spread of infection. You can promote agent safety by blocking the availability of the affected and potentially exposed agents for future dates on the calendar. For more information about the agent calendar, see Configure the agent calendar.
 
 ## Procedure
 
@@ -63,7 +64,7 @@ Type
 
 </td><td>
 
-Type of event scheduled for the agent.**Note:** The event type configurations are inactive by default. For information about activating them, see [Create an event configuration for the agent calendar](https://www.servicenow.com/docs/access?context=create-agent-calendar-event-config&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+Type of event scheduled for the agent.**Note:** The event type configurations are inactive by default. For information about activating them, see Create an event configuration for the agent calendar.
 
  The event types are:
 
@@ -121,5 +122,5 @@ Enter notes for the event, if any.
     3.  Repeat steps 3 through 5 to block the calendar of a potentially affected agent for future dates.
 
 
-**Parent Topic:**[Use Emergency Exposure Management for Field Service agent monitoring and assignments](../concept/use-exposure-management-fsm.md)
+**Parent Topic:**[Use Emergency Exposure Management for Field Service agent monitoring and assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-manager-workforce/use-exposure-management-fsm.md)
 

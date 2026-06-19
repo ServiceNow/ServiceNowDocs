@@ -2,6 +2,7 @@
 title: Recall event-driven questionnaires and doc requests
 description: You can recall third-party risk assessments \(questionnaires and document requests\) that were sent by an event-driven management rule. The items are removed from the Third-party portal for all third parties or engagements that haven’t yet responded.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-event-drvn-mgt-rule-recall.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -27,7 +28,7 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_risk\_manager
 
 1.  Use either of the following methods to start the process:
 
-    -   Workspace: Select **Workspaces** &gt; **Vendor Management Workspace** and on the **Risk** tab, select the list icon ![](../image/icon-tprm-ws-list.png). In the **Event-driven management** list, select any option: **Active**, **Inactive**, or **All**.
+    -   Workspace: Select **Workspaces** &gt; **Vendor Management Workspace** and on the **Risk** tab, select the list icon \[Omitted image "icon-tprm-ws-list.png"\] Alt text:. In the **Event-driven management** list, select any option: **Active**, **Inactive**, or **All**.
     -   Legacy: Navigate to **All** &gt; **Third-party Risk Management** &gt; **Event-driven management** and then select any option: **Active**, **Inactive**, or **All**.
 2.  Enter text that explains the reason for recalling the items in the **Recall justification** field and then select **Recall**.
 

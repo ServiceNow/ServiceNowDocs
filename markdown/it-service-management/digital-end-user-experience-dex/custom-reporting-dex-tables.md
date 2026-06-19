@@ -2,6 +2,7 @@
 title: Custom reporting on DEX tables
 description: You can use the following listed tables to generate a report for the required metrics on DEX.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/custom-reporting-dex-tables.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -404,5 +405,5 @@ DEX
 Device metrics provide details on memory usage, virtual memory, and device stability, including antivirus status, firewall status, system uptime, and power plan configuration.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Digital End-User Experience reference](../concept/dex-reference.md)
+</table>**Parent Topic:**[Digital End-User Experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dex-reference.md)
 

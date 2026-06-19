@@ -2,7 +2,10 @@
 title: Summarize a case
 description: Enable your agents to summarize the case details and to display this information on the case record by using the Now Assist for CSM case summarization skill.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/case-summarization-in-process-page.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

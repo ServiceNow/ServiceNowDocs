@@ -2,6 +2,7 @@
 title: Add external assignment groups to the dispatch group
 description: Add external vendor assignment groups to the dispatch group to assign work order tasks directly to these external groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/add-external-assignment-group-to-disp-group.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

@@ -2,6 +2,7 @@
 title: Enroll in the company retirement plan
 description: As an employee, you can submit a question about, or enroll in the company retirement plan from the Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/t\_CreateOrModifyARetirementBenefit.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -23,7 +24,7 @@ Role required: none
 
 Employees can ask questions about retirement benefits and request to enroll in a retirement benefit plan by submitting a request through the Employee Center.
 
-Alternatively, a manager can submit a tuition reimbursement request by opening an HR case: [Create an HR case](search-hr-case.md).
+Alternatively, a manager can submit a tuition reimbursement request by opening an HR case: [Create an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/search-hr-case.md).
 
 ## Procedure
 
@@ -40,5 +41,5 @@ Alternatively, a manager can submit a tuition reimbursement request by opening a
     The system creates an HR case and assigns it to the configured HR person. View the status of your request from the **My Requests** tab.
 
 
-**Parent Topic:**[Use HR Profile](../concept/c_HRProfileRecords.md)
+**Parent Topic:**[Use HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
 

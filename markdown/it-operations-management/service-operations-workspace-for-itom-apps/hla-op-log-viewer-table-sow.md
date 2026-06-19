@@ -2,6 +2,7 @@
 title: Customize the Log Viewer table in Health Log Analytics
 description: Add or remove columns in the Log viewer table to show only the data you want to view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-log-viewer-table-sow.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -27,9 +28,9 @@ This feature is supported in the Health Log Analytics application, Version 20.0.
 
 1.  Open the **Log Viewer** using one of the following methods:
 
-    -   Navigate to **Workspaces** &gt; **Service Operations Workspace** and select the Log Viewer icon \(![Log Viewer icon.](../image/icon-log-viewer-sow.png)\).
+    -   Navigate to **Workspaces** &gt; **Service Operations Workspace** and select the Log Viewer icon \(\[Omitted image "icon-log-viewer-sow.png"\] Alt text: Log Viewer icon.\).
     -   While viewing log entries for an alert on the **Surrounding logs** tab, select **Log Viewer**.
-2.  Select the filter icon \(![Filter icon.](../image/icon-lv-filters-sow.png)\) to display the **Filters** pane.
+2.  Select the filter icon \(\[Omitted image "icon-lv-filters-sow.png"\] Alt text: Filter icon.\) to display the **Filters** pane.
 
     The Selected fields list includes the fields that currently display as columns in the **Log viewer** table. By default, the table includes the following columns: Application service, Component, Host, Level, Message, Raw message, and Time. The Available fields include all remaining fields that the system has extracted from the log.
 
@@ -37,15 +38,15 @@ This feature is supported in the Health Log Analytics application, Version 20.0.
 
 3.  Add or remove columns in the **Log viewer** table.
 
-    -   To add a column to the table, select the field of the same name in the Available fields list and then select the add icon \(![Add icon.](../image/icon-add-sow.png)\).
+    -   To add a column to the table, select the field of the same name in the Available fields list and then select the add icon \(\[Omitted image "icon-add-sow.png"\] Alt text: Add icon.\).
 
         The added field displays as a column in the table. It is now listed in the Selected fields list.
 
-    -   To remove a column, select the field of the same name in the Selected fields list and then select the remove icon \(![Remove icon.](../image/icon-remove-sow.png)\).
+    -   To remove a column, select the field of the same name in the Selected fields list and then select the remove icon \(\[Omitted image "icon-remove-sow.png"\] Alt text: Remove icon.\).
 
         The corresponding column is removed from the table. The removed field is added to the Available fields list.
 
-        If you have filtered the data for specific values in a field, that data still displays even when the field is no longer selected. For more information about filtering data, see [Filter search results on the Log Viewer in Health Log Analytics](hla-op-log-viewer-filter-sow.md).
+        If you have filtered the data for specific values in a field, that data still displays even when the field is no longer selected. For more information about filtering data, see [Filter search results on the Log Viewer in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-log-viewer-filter-sow.md).
 
         **Note:** The Time column can't be removed from the table.
 
@@ -64,5 +65,5 @@ This feature is supported in the Health Log Analytics application, Version 20.0.
 
 The **Log viewer** table shows the customized view from the current session onward until you change your preferences.
 
-**Parent Topic:**[Reviewing the logs for an alert on the Log Viewer in Health Log Analytics](../concept/hla-op-logs-log-viewer-concept-sow.md)
+**Parent Topic:**[Reviewing the logs for an alert on the Log Viewer in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-logs-log-viewer-concept-sow.md)
 

@@ -2,6 +2,7 @@
 title: Integrate Grafana events
 description: Integrate Grafana with Event Management by adding a standard webhook in the Grafana console.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/grafana-events-integration.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -133,8 +134,8 @@ Alerts start flowing from Grafana into the Event Management plugin. The plugin e
 -   For Grafana v7.4.3, you may see extra clear events coming into ServiceNow which aren’t bound to an alert. Ignore them as they’re created to overcome the issue of Grafana not sending information in the clear notification.
 -   A severity parameter is added which is used only for Grafana 8 and above. The provided value is used as a severity for an event if the severity isn’t passed in custom labels.
 
--   **[Integrate Grafana with REST API key token](integrate-grafana-api-key.md)**  
+-   **[Integrate Grafana with REST API key token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/integrate-grafana-api-key.md)**  
 Integrate using an API key to establish secure communication and automate data exchange via REST API. This simplifies integration, enabling seamless access to services and enhancing operational efficiency.
 
-**Parent Topic:**[Integrate with push connectors](configure-listener-transform-script.md)
+**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-listener-transform-script.md)
 

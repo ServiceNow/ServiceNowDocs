@@ -2,6 +2,7 @@
 title: ExpenseLine - Global
 description: The ExpenseLine script include is used by various cost management processes and can also be used for generating expense line \(fm\_expense\_line\) records from your own server-side scripts.Constructor for ExpenseLine object.Creates a new expense line record.Used internally by the createExpense method to process CI relationships when the expense source is a cmdb\_ci record.Identifies the source rate card or distribution cost that was the source of expense line generation.Defines the description of an expense.Sets the parent field on the expense line.Flags the expense as recurring by setting the recurring field to true.Sets a value for the expense line summary\_type field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_ExpenseLineAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The ExpenseLine script include is used by various cost management processes and 
 
 This script include requires the Cost Management \(com.snc.cost\_management\) plugin.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## ExpenseLine - ExpenseLine \(GlideRecord source, Number amount, String description\)
 

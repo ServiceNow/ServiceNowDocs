@@ -2,7 +2,10 @@
 title: Create a knowledge article from a case
 description: Reuse information from a customer service case by creating knowledge articles from customer service cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-workspace-create-knowledge.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, 
 
 ## About this task
 
-Your administrator must [enable creation of articles from customer service cases](https://www.servicenow.com/docs/access?context=administer-create-article-from-case&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+Your administrator must enable creation of articles from customer service cases.
 
 ## Procedure
 
@@ -27,7 +30,7 @@ Your administrator must [enable creation of articles from customer service cases
 
 2.  Open a customer service case.
 
-3.  Click the More UI Actions icon \(![More UI Actions icon.](../../../product/customer-service-management/image/agent-workspace-more-ui-actions-icon.jpg)\).
+3.  Click the More UI Actions icon \(\[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: More UI Actions icon.\).
 
 4.  Click **Create Knowledge Article**.
 

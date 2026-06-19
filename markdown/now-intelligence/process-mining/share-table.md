@@ -2,6 +2,7 @@
 title: Share the audit and record tables
 description: Share the audit and record tables with the analyst to analyze the data. The audit and record tables are available only to the administrator. However, the administrator might want an analyst to look at the tables and create projects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/share-table.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -23,7 +24,7 @@ Role required: sn\_process\_optimization\_admin
 
 1.  Navigate to **Workspaces** &gt; **Process Mining Workspace**.
 
-2.  On the left of the page, select the External data integration icon \(![External data integration icon](../image/ext-dataset-modules.png)\).
+2.  On the left of the page, select the External data integration icon \(\[Omitted image "ext-dataset-modules.png"\] Alt text: External data integration icon\).
 
 3.  Select a dataset that you want to share.
 
@@ -31,7 +32,7 @@ Role required: sn\_process\_optimization\_admin
 
 4.  Select **Share**.
 
-    ![Share dataset](../image/ext-data-edit.png)
+    \[Omitted image "ext-data-edit.png"\] Alt text: Share dataset
 
     The **External dataset permissions** tab is displayed.
 
@@ -41,10 +42,10 @@ Role required: sn\_process\_optimization\_admin
 
 6.  Select a user, role, or group, and select **Save**.
 
-    ![Permissions for sharing tables](../image/ext-dataset-share.png)
+    \[Omitted image "ext-dataset-share.png"\] Alt text: Permissions for sharing tables
 
     Every user with the specified permission can access the audit and record tables.
 
 
-**Parent Topic:**[Managing an audit table](../concept/managing-audit-table.md)
+**Parent Topic:**[Managing an audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/managing-audit-table.md)
 

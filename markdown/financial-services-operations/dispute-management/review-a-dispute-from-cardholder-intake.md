@@ -2,6 +2,7 @@
 title: Review a dispute from portal or workspace intake
 description: Review dispute cases that customers submit through the dispute intake portal, or that contributors create in the intake workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/review-a-dispute-from-cardholder-intake.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -27,7 +28,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -43,15 +44,15 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 6.  Under the **Review** playbook stage, review the submitted information and make any necessary adjustments.
 
-<table id="choicetable_fwv_5cd_1cc"><thead><tr><th align="left" id="d104723e173">
+<table id="choicetable_fwv_5cd_1cc"><thead><tr><th align="left" id="d99272e173">
 
 Activity
 
-</th><th align="left" id="d104723e176">
+</th><th align="left" id="d99272e176">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d104723e182">
+</th></tr></thead><tbody><tr><td id="d99272e182">
 
 **Review intake**
 
@@ -71,7 +72,7 @@ Review the disputed transactions and the reason for dispute.
 
  **Note:** In case of integration with Visa and Mastercard APIs, if an error displays, refer to the **Activity stream** to see the error cause, resolve it and then select **Continue** to be able to proceed to the next activity.
 
-</td></tr><tr><td id="d104723e239">
+</td></tr><tr><td id="d99272e239">
 
 **Additional questions**
 
@@ -79,7 +80,7 @@ Review the disputed transactions and the reason for dispute.
 
 Provide answers to any additional questions not answered by the customer and update any additional questions as required. If the dispute category changes, the system will produce a questionnaire for the newly selected category, which you must fill out. Select **Continue** when you have finished the questionnaire.
 
-</td></tr><tr><td id="d104723e251">
+</td></tr><tr><td id="d99272e251">
 
 **Customer signature required**
 
@@ -95,7 +96,7 @@ For compliance purposes, inform the customer to sign a written statement for the
 
  **Note:** In order for users to view the Written Statement of Unauthorized Debit \(WSUD\) document, the Document Templates \[sn\_doc\] plugin must be activated.
 
-</td></tr><tr><td id="d104723e278">
+</td></tr><tr><td id="d99272e278">
 
 **Submit for investigation**
 
@@ -105,5 +106,5 @@ Review the dispute amount and add any comments or descriptions for the dispute t
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing dispute service requests](../concept/managing-card-disputes.md)
+**Parent Topic:**[Managing dispute service requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/managing-card-disputes.md)
 

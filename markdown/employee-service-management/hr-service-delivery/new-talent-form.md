@@ -2,6 +2,7 @@
 title: Create talent form
 description: A new candidate profile is added by filling the following details in the form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/new-talent-form.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

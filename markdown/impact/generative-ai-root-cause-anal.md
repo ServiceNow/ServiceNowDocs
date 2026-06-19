@@ -2,7 +2,10 @@
 title: Generative AI powered Root cause analysis
 description: Root cause analysis in Instance Observer provides automated detection and summarization of issues. It includes built-in root cause correlation and root cause summary using a large language model \(LLM\), which helps reduce troubleshooting time, improve incident transparency, and generative AI driven root cause recommendation by analyzing similar historical incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/generative-ai-root-cause-anal.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -26,7 +29,7 @@ RCA automatically identifies and explains the origin of incidents by analyzing m
 -   Actionable summaries for faster remediation or automation.
 -   Recommended resolutions by analyzing similar historical incidents.
 
-For more information, see [Instance Observer performance insights](io-performance-insights.md).
+For more information, see [Instance Observer performance insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-performance-insights.md).
 
 ## Root Cause Correlation \(RCC\)
 

@@ -2,6 +2,7 @@
 title: Create a cloud policy group
 description: A cloud policy group is a container for related policies. Consider grouping policies that are often used together or should be considered together. Grouping policies can help you to apply policies consistently across your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/create-cloud-policy-group.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -30,5 +31,5 @@ Role required: sn\_cmp.cloud\_governor or admin
     -   To add the policy to an existing group, select the group and then click **Submit**.
     -   To create a policy group to add the policy to, click **New** on the Policy Groups list, specify a unique and meaningful **Name**, and then click **Submit**. The policy is added to the new group.
 
-**Parent Topic:**[Policies for Cloud Provisioning](../concept/cloud-policy.md)
+**Parent Topic:**[Policies for Cloud Provisioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloud-policy.md)
 

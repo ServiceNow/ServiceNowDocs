@@ -2,6 +2,7 @@
 title: Create a named profile
 description: Create a named connection profile to use with specific commands. This allows you to specify a different instance or connection protocol for a specific command.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-cli/create-named-profile.html
 release: zurich
 product: ServiceNow CLI
 classification: servicenow-cli
@@ -77,5 +78,5 @@ Role required: none.
     The command creates a record in the instance specified in the `user1` profile with the specified connection options.
 
 
-**Parent Topic:**[Configuring and managing your ServiceNow CLI connection profiles](configure-profile.md)
+**Parent Topic:**[Configuring and managing your ServiceNow CLI connection profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-cli/configure-profile.md)
 

@@ -2,6 +2,7 @@
 title: Configure a program service
 description: Add a program service for use within the programs associated with the Healthcare and Life Sciences Service Management applications.Create a specification characteristic so that you can define the program service offering in Healthcare and Life Sciences programs.Create a relationship between a program service and programs to make the service available within the program.Publish a program service for use within the Healthcare and Life Sciences Service Management applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program-service.html
 release: zurich
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -98,18 +99,18 @@ Description
 Summary of the program service.
 
 </td></tr></tbody>
-</table>    **Note:** Either enter the date in the `yyyy-mm-dd` format, such as `2021-12-31`, or click the select date icon corresponding to the date type. For example, provide the end date of the program service by either entering the date in the **End Date** field or clicking the select date icon \(![Select date icon.](../image/select-date-icon.png)\) and selecting the date.
+</table>    **Note:** Either enter the date in the `yyyy-mm-dd` format, such as `2021-12-31`, or click the select date icon corresponding to the date type. For example, provide the end date of the program service by either entering the date in the **End Date** field or clicking the select date icon \(\[Omitted image "select-date-icon.png"\] Alt text: Select date icon.\) and selecting the date.
 
 4.  Click **Submit**.
 
-5.  [Configure a specification characteristic for the program service](hcls-create-program-service.md#).
+5.  [Configure a specification characteristic for the program service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program-service.md).
 
-6.  [Associate the program service with a program](hcls-create-program-service.md#).
+6.  [Associate the program service with a program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program-service.md).
 
-7.  [Publish the program service](hcls-create-program-service.md#).
+7.  [Publish the program service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program-service.md).
 
 
-**Parent Topic:**[Configure programs and program services for Healthcare and Life Sciences workflows](../concept/hcls-program-setup.md)
+**Parent Topic:**[Configure programs and program services for Healthcare and Life Sciences workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-program-setup.md)
 
 ## Configure a specification characteristic for a program service
 
@@ -127,11 +128,11 @@ Role required: sn.hcls\_manager or admin
 
 3.  In the Specification Characteristics related list, click **New**.
 
-4.  In the **Characteristic** field, click the lookup icon ![Lookup using list icon.](../image/lookup-using-list.png) and select a characteristic from the **Name** column of the Characteristics list.
+4.  In the **Characteristic** field, click the lookup icon \[Omitted image "lookup-using-list.png"\] Alt text: Lookup using list icon. and select a characteristic from the **Name** column of the Characteristics list.
 
     By default, the application provides the **Benefit Investigation** characteristic for use a reference when creating a characteristic. To create a new characteristic, click **New** in the Characteristics list and fill in the characteristic details.
 
-5.  In the **Characteristic Option** field, click the lookup icon ![Lookup using list icon.](../image/lookup-using-list.png) and select a characteristic option from the **Option** column of the Characteristic Options list.
+5.  In the **Characteristic Option** field, click the lookup icon \[Omitted image "lookup-using-list.png"\] Alt text: Lookup using list icon. and select a characteristic option from the **Option** column of the Characteristic Options list.
 
     To create a new characteristic option, click **New** in the Characteristic Options list and fill in the characteristic option details.
 
@@ -148,13 +149,13 @@ Create a relationship between a program service and programs to make the service
 
 ### Before you begin
 
-[Configure a program](hcls-create-program.md#).
+[Configure a program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program.md).
 
 Role required: sn.hcls\_manager or admin
 
 ### About this task
 
-You can also associate a program service with a program by using the Program module. For more information, see [Associate a program with a program service](hcls-create-program.md#).
+You can also associate a program service with a program by using the Program module. For more information, see [Associate a program with a program service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program.md).
 
 ### Procedure
 
@@ -164,9 +165,9 @@ You can also associate a program service with a program by using the Program mod
 
 3.  In the Program relationships related list, click **New**.
 
-4.  In the **Program** field, click the lookup icon ![Lookup using list icon.](../image/lookup-using-list.png) and select the program from the **Name** column of the Specifications list.
+4.  In the **Program** field, click the lookup icon \[Omitted image "lookup-using-list.png"\] Alt text: Lookup using list icon. and select the program from the **Name** column of the Specifications list.
 
-5.  In the **Program service** field, click the lookup icon ![Lookup using list icon.](../image/lookup-using-list.png) and select a program service from the **Name** column of the Specifications list.
+5.  In the **Program service** field, click the lookup icon \[Omitted image "lookup-using-list.png"\] Alt text: Lookup using list icon. and select a program service from the **Name** column of the Specifications list.
 
 6.  In the **Relationship Type** field, select **Offers**.
 

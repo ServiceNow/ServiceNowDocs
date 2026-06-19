@@ -2,6 +2,7 @@
 title: JavaScript function test outcome fields
 description: Description of the JavaScript function test outcome fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-mapping-script-outcome-ref.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -73,7 +74,7 @@ Samples
 
 The number of log samples on which the test is run.The default value is 1,000.
 
-**Note:** You can increase the number of log samples up to a maximum of 5,000 samples in the system property data\_input\_mapping.max\_examples. For more information, see [Configure global Health Log Analytics system properties](../task/hla-system-properties-configure.md).
+**Note:** You can increase the number of log samples up to a maximum of 5,000 samples in the system property data\_input\_mapping.max\_examples. For more information, see [Configure global Health Log Analytics system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-system-properties-configure.md).
 
 </td></tr></tbody>
 </table>In the related lists, view the predicted or created source types and sources.
@@ -133,5 +134,5 @@ The source type structures for this data input.Reviewing the source type structu
 The **Last event time** column on this tab shows the last date and time the AI engine processed a log for the source type structure. The system refreshes this information every 5 minutes. Knowing when the last log was processed for this source type structure makes it easier to verify that log data is streaming.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health Log Analytics reference](../concept/hla-reference.md)
+</table>**Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-reference.md)
 

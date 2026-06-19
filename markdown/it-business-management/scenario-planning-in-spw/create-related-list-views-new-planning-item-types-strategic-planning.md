@@ -2,6 +2,7 @@
 title: Create related list views for new planning item types in Strategic Planning
 description: For every new planning item table that you create, you must create the necessary related list views. You can also customize the related list views for existing planning items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/create-related-list-views-new-planning-item-types-strategic-planning.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -17,7 +18,7 @@ For every new planning item table that you create, you must create the necessary
 
 ## Before you begin
 
--   [Define a new planning item type in Strategic Planning](create-planning-organization-and-planning-item-type.md).
+-   [Define a new planning item type in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/create-planning-organization-and-planning-item-type.md).
 -   Ensure that the application scope in your instance is set to Portfolio Planning.
 
 Role required: admin
@@ -36,7 +37,7 @@ Every Related list that you add to your planning item tables must be in the APW 
 
 4.  Select the **Show Form** related link.
 
-5.  From the form header, select the Additional actions menu \(![Additional actions icon.](../images/additional-actions-icon.png)\) and select **Configure** &gt; **Related Lists**.
+5.  From the form header, select the Additional actions menu \(\[Omitted image "additional-actions-icon.png"\] Alt text: Additional actions icon.\) and select **Configure** &gt; **Related Lists**.
 
 6.  From the **View name** field in the List view section, select **New**.
 
@@ -53,5 +54,5 @@ Every Related list that you add to your planning item tables must be in the APW 
 
 ## What to do next
 
-[Create workspace view rules for new planning item forms in Strategic Planning](create-workspace-view-rules-for-planning-item-tables.md).
+[Create workspace view rules for new planning item forms in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/create-workspace-view-rules-for-planning-item-tables.md).
 

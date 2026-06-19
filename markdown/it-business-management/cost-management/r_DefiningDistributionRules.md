@@ -2,6 +2,7 @@
 title: Defining distribution rules
 description: Define distribution rules to view distribution costs that are distributed according to the rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/cost-management/r\_DefiningDistributionRules.html
 release: zurich
 product: Cost Management
 classification: cost-management
@@ -52,5 +53,5 @@ As noted in the default script, when the advanced field is enabled, the followin
 
 A scheduled job called Process FM Costs automatically processes distribution costs daily.
 
-**Parent Topic:**[Using distribution costs and rules](r_UsingDistributionCostsAndRules.md)
+**Parent Topic:**[Using distribution costs and rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/cost-management/r_UsingDistributionCostsAndRules.md)
 

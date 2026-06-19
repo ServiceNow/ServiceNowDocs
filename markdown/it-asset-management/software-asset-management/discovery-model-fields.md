@@ -2,6 +2,7 @@
 title: Discovery models fields
 description: Discovery Models form and related list field descriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/discovery-model-fields.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -39,7 +40,7 @@ Normalization status
 
 </td><td>
 
-[Status](normalization-status.md) of the normalization process:-   Normalized
+[Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/normalization-status.md) of the normalization process:-   Normalized
 -   Partially Normalized
 -   Publisher Normalized
 -   Match Not Found
@@ -48,7 +49,7 @@ Normalization status
 
  **Note:** If a normalization suggestion record exists, a caution icon is shown next to the **Normalization status** field.
 
-The caution icon opens the [Normalization Suggestion](../task/view-norm-suggestions-sam.md) record for the discovery model.
+The caution icon opens the [Normalization Suggestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/view-norm-suggestions-sam.md) record for the discovery model.
 
 </td></tr><tr id="row_z1l_pcp_sfb"><td>
 
@@ -169,7 +170,7 @@ Exclude from content service
 
 </td><td>
 
-Option that excludes the software discovery model details from being transferred to the [Software Asset Management Content Service](../concept/c_SAMContentService.md).The value is set on the [custom product](../task/t_AddACustomProduct.md) form.
+Option that excludes the software discovery model details from being transferred to the [Software Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_SAMContentService.md).The value is set on the [custom product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_AddACustomProduct.md) form.
 
  **Note:** This field is only shown for custom products when you have opted in to the Software Asset Management Content Service.
 
@@ -251,7 +252,7 @@ Exclude from content service
 
 </td><td>
 
-Option that excludes the software discovery model details from being transferred to the [Software Asset Management Content Service](../concept/c_SAMContentService.md).The value is set on the [custom product](../task/t_AddACustomProduct.md) form.
+Option that excludes the software discovery model details from being transferred to the [Software Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_SAMContentService.md).The value is set on the [custom product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_AddACustomProduct.md) form.
 
  **Note:** This field is only shown for custom products when you have opted in to the Software Asset Management Content Service.
 
@@ -265,5 +266,5 @@ Option that excludes the software discovery model details from being transferred
 |Version|Version of the software.|
 |Installed on|Name of the hardware the software is installed on.|
 
-**Parent Topic:**[Software Asset Management references](references.md)
+**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/references.md)
 

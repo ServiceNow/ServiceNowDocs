@@ -2,6 +2,7 @@
 title: Attributes in Express List Link View
 description: The table lists the node attributes available in Link View with their icon and description.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/link-view-tags-icons-descriptions.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -35,7 +36,7 @@ Impacted service
 
 </td><td>
 
-![](../image/tag-icon-impacted-service.png)
+\[Omitted image "tag-icon-impacted-service.png"\] Alt text:
 
 </td><td>
 
@@ -47,7 +48,7 @@ Resource
 
 </td><td>
 
-![](../image/tag-icon-resource.png)
+\[Omitted image "tag-icon-resource.png"\] Alt text:
 
 </td><td>
 
@@ -59,7 +60,7 @@ Source
 
 </td><td>
 
-![](../image/tag-icon-source.png)
+\[Omitted image "tag-icon-source.png"\] Alt text:
 
 </td><td>
 
@@ -71,7 +72,7 @@ Region
 
 </td><td>
 
-![](../image/tag-icon-region.png)
+\[Omitted image "tag-icon-region.png"\] Alt text:
 
 </td><td>
 
@@ -83,7 +84,7 @@ Location
 
 </td><td>
 
-![](../image/tag-icon-location.png)
+\[Omitted image "tag-icon-location.png"\] Alt text:
 
 </td><td>
 
@@ -95,7 +96,7 @@ Assignment group
 
 </td><td>
 
-![](../image/tag-icon-assignment-group.png)
+\[Omitted image "tag-icon-assignment-group.png"\] Alt text:
 
 </td><td>
 
@@ -107,7 +108,7 @@ Environment
 
 </td><td>
 
-![](../image/tag-icon-environment.png)
+\[Omitted image "tag-icon-environment.png"\] Alt text:
 
 </td><td>
 
@@ -119,7 +120,7 @@ Metric
 
 </td><td>
 
-![](../image/tag-icon-metric.png)
+\[Omitted image "tag-icon-metric.png"\] Alt text:
 
 </td><td>
 
@@ -131,7 +132,7 @@ IP address
 
 </td><td>
 
-![](../image/tag-icon-ip-address.png)
+\[Omitted image "tag-icon-ip-address.png"\] Alt text:
 
 </td><td>
 
@@ -143,7 +144,7 @@ CI
 
 </td><td>
 
-![](../image/tag-icon-ci.png)
+\[Omitted image "tag-icon-ci.png"\] Alt text:
 
 </td><td>
 
@@ -155,7 +156,7 @@ Node
 
 </td><td>
 
-![](../image/tag-icon-node.png)
+\[Omitted image "tag-icon-node.png"\] Alt text:
 
 </td><td>
 
@@ -167,7 +168,7 @@ Application
 
 </td><td>
 
-![](../image/tag-icon-application.png)
+\[Omitted image "tag-icon-application.png"\] Alt text:
 
 </td><td>
 
@@ -179,7 +180,7 @@ Process
 
 </td><td>
 
-![](../image/attribute-icon-process.jpg)
+\[Omitted image "attribute-icon-process.jpg"\] Alt text:
 
 </td><td>
 
@@ -191,7 +192,7 @@ Component
 
 </td><td>
 
-![](../image/attribute-icon-component.png)
+\[Omitted image "attribute-icon-component.png"\] Alt text:
 
 </td><td>
 
@@ -203,7 +204,7 @@ Service
 
 </td><td>
 
-![](../image/attribute-icon-service.png)
+\[Omitted image "attribute-icon-service.png"\] Alt text:
 
 </td><td>
 
@@ -215,7 +216,7 @@ Host
 
 </td><td>
 
-![](../image/attribute-icon-host.png)
+\[Omitted image "attribute-icon-host.png"\] Alt text:
 
 </td><td>
 
@@ -227,7 +228,7 @@ User
 
 </td><td>
 
-![](../image/attribute-icon-user.png)
+\[Omitted image "attribute-icon-user.png"\] Alt text:
 
 </td><td>
 
@@ -239,7 +240,7 @@ Account
 
 </td><td>
 
-![](../image/attribute-icon-account.png)
+\[Omitted image "attribute-icon-account.png"\] Alt text:
 
 </td><td>
 
@@ -251,7 +252,7 @@ Path
 
 </td><td>
 
-![](../image/attribute-icon-path.png)
+\[Omitted image "attribute-icon-path.png"\] Alt text:
 
 </td><td>
 
@@ -263,7 +264,7 @@ Request id
 
 </td><td>
 
-![](../image/attribute-icon-request-id.png)
+\[Omitted image "attribute-icon-request-id.png"\] Alt text:
 
 </td><td>
 
@@ -275,7 +276,7 @@ URL
 
 </td><td>
 
-![](../image/attribute-icon-url.png)
+\[Omitted image "attribute-icon-url.png"\] Alt text:
 
 </td><td>
 
@@ -287,7 +288,7 @@ Detection
 
 </td><td>
 
-![](../image/attribute-icon-detection.png)
+\[Omitted image "attribute-icon-detection.png"\] Alt text:
 
 </td><td>
 
@@ -299,7 +300,7 @@ Other**Note:** This attribute is user-defined. All the other attributes are pred
 
 </td><td>
 
-![](../image/tag-icon-other.png)
+\[Omitted image "tag-icon-other.png"\] Alt text:
 
 </td><td>
 
@@ -308,8 +309,8 @@ User-defined attribute.**Note:** All the other attributes are predefined in the 
 </td></tr></tbody>
 </table>|Link|Visual representation|Description|
 |----|---------------------|-----------|
-|Solid line|![Solid line linking attributes in Link View.](../image/link-view-solid-line.png)|Solid line linking attributes in Link View, indicating that the attributes share one or more alerts.|
-|Dotted line|![Dotted line linking attributes in Link View.](../image/link-view-dotted-line.png)|Dotted line linking attributes in Link View, indicating that the attributes are correlated by grouping criteria.|
+|Solid line|\[Omitted image "link-view-solid-line.png"\] Alt text: Solid line linking attributes in Link View.|Solid line linking attributes in Link View, indicating that the attributes share one or more alerts.|
+|Dotted line|\[Omitted image "link-view-dotted-line.png"\] Alt text: Dotted line linking attributes in Link View.|Dotted line linking attributes in Link View, indicating that the attributes are correlated by grouping criteria.|
 
-**Parent Topic:**[Service Operations Workspace for ITOM reference](../concept/sow-reference-itom.md)
+**Parent Topic:**[Service Operations Workspace for ITOM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/sow-reference-itom.md)
 

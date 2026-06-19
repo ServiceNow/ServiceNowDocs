@@ -2,6 +2,7 @@
 title: View details screen on the Field Service Contractor for mobile
 description: Use Field Service Contractor for mobile application to view work order fields detail.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/view-details-tab-fsc.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

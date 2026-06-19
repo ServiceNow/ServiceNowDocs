@@ -2,6 +2,7 @@
 title: Footer form
 description: Use the Footer form to create a new footer that you want to appear in the Employee Center or Employee Center Pro.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ec-footer-form.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,12 +18,12 @@ Use the Footer form to create a new footer that you want to appear in the Employ
 
 |Field|Description|
 |-----|-----------|
-|Name|Name of the footer. For more information, see [Footer configuration](../concept/emp-center-footer-config.md).|
+|Name|Name of the footer. For more information, see [Footer configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/emp-center-footer-config.md).|
 |Portal|The portal that you want to associate this footer with.|
 |Logo|The logo of your company that you want to appear in the footer.|
 |Organization Content|Information about your company that you want to appear in the footer.|
 |Copyright|The copyright information to appear in the footer.|
 |Active|Option to activate this footer for use.|
 
-**Parent Topic:**[Footer configuration](../concept/emp-center-footer-config.md)
+**Parent Topic:**[Footer configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/emp-center-footer-config.md)
 

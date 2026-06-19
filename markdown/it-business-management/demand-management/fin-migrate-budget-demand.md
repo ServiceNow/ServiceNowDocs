@@ -2,6 +2,7 @@
 title: Migrate budget of active demands to Next Experience
 description: Migrate your demand budget to Next Experience to manage the financials using Project Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/demand-management/fin-migrate-budget-demand.html
 release: zurich
 product: Demand Management
 classification: demand-management
@@ -25,15 +26,15 @@ Role required: it\_demand\_manager
 
 2.  Migrate baselines using one of the following options.
 
-<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d207254e85">
+<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d48198e85">
 
 Choice
 
-</th><th align="left" id="d207254e88">
+</th><th align="left" id="d48198e88">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d207254e94">
+</th></tr></thead><tbody><tr><td id="d48198e94">
 
 **Using list actions**
 
@@ -44,7 +45,7 @@ Description
 3.  On the migrate budget confirmation window, select **OK**.
 
 
-</td></tr><tr><td id="d207254e124">
+</td></tr><tr><td id="d48198e124">
 
 **Using related links**
 
@@ -55,7 +56,7 @@ Description
 3.  On the migrate budget confirmation window, select **OK**.
 
 
-</td></tr><tr><td id="d207254e151">
+</td></tr><tr><td id="d48198e151">
 
 **Activate a scheduled job**
 
@@ -65,7 +66,7 @@ Description
 2.  Filter the Name field to locate the **Migrate budget for active demands and projects** scheduled job and open it.
 3.  Select **Active** and on the Scheduled Script Execution form, fill the fields.
 
-For a description of the field names, see [Scheduled Script Execution Form](../../project-management/reference/scheduled-script-execution-form.md).
+For a description of the field names, see [Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/scheduled-script-execution-form.md).
 
 4.  Select **Update**.
 
@@ -74,5 +75,5 @@ For a description of the field names, see [Scheduled Script Execution Form](../.
 </table>    **Note:** After migration, you won't be able to view the budget on Classic UI. You're encouraged to manage budget using the Financials in Next Experience.
 
 
-**Parent Topic:**[Create a demand](t_CreatingDemands.md)
+**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/t_CreatingDemands.md)
 

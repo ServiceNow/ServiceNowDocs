@@ -2,13 +2,14 @@
 title: Return to the playbook to continue pending asset attestation activities
 description: Resume work on the incomplete asset attestation activities in the playbook by using the attestation schedule details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/continue-with-attestation-playbook.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Playbook for asset attestation, Audit your hardware assets by using Asset Attestation, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Playbook for asset attestation, Audit assets using Asset Attestation, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Return to the playbook to continue pending asset attestation activities
@@ -36,7 +37,7 @@ The Create asset attestation playbook is displayed for the schedule number that 
 
 ## What to do next
 
-Complete all the pending activities in the playbook. For details, see [Create an asset attestation or a schedule using the playbook](create-attestation-using-playbook.md).
+Complete all the pending activities in the playbook. For details, see [Create an asset attestation or a schedule using the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-attestation-using-playbook.md).
 
-**Parent Topic:**[Playbook for asset attestation](../concept/playbook-asset-attestation-ham.md)
+**Parent Topic:**[Playbook for asset attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/playbook-asset-attestation-ham.md)
 

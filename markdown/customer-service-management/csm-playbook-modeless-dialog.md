@@ -2,7 +2,10 @@
 title: Playbook modeless dialogs
 description: Use modeless dialogs, windows that overlay the main window content, to create and post comments and work notes to the activity stream and to compose and send emails.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-playbook-modeless-dialog.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 6
@@ -198,7 +201,7 @@ Minimize a Compose Email window
 
 </td><td>
 
-Minimized emails appear in a list in the In-process Actions menu in the action bar.Select the Minimize icon \(![Compose email minimize icon](../image/csm-email-modeless-dialog-minimize.png)\) in the Compose Email window header to move the email draft to the In-progress Actions menu.
+Minimized emails appear in a list in the In-process Actions menu in the action bar.Select the Minimize icon \(\[Omitted image "csm-email-modeless-dialog-minimize.png"\] Alt text: Compose email minimize icon\) in the Compose Email window header to move the email draft to the In-progress Actions menu.
 
 </td></tr><tr><td>
 
@@ -217,7 +220,7 @@ Maximize a Compose Email window
 
 </td><td>
 
-Select the Maximize icon \(![Compose email maximize icon](../image/csm-email-modeless-dialog-maximize.png)\) in the Compose Email window header to expand the Compose Email window to the full screen.Select the Maximize icon again to exit the Maximize mode.
+Select the Maximize icon \(\[Omitted image "csm-email-modeless-dialog-maximize.png"\] Alt text: Compose email maximize icon\) in the Compose Email window header to expand the Compose Email window to the full screen.Select the Maximize icon again to exit the Maximize mode.
 
 </td></tr><tr><td>
 
@@ -225,7 +228,7 @@ Open a draft email in a sub-tab
 
 </td><td>
 
-Select the Pop out icon \(![Compose email pop out icon](../image/csm-email-modeless-dialog-pop-out.png)\) in the Compose Email window header to open the draft email in a sub-tab.The Compose Email window closes when the email opens in the sub-tab.
+Select the Pop out icon \(\[Omitted image "csm-email-modeless-dialog-pop-out.png"\] Alt text: Compose email pop out icon\) in the Compose Email window header to open the draft email in a sub-tab.The Compose Email window closes when the email opens in the sub-tab.
 
 </td></tr><tr><td>
 
@@ -233,7 +236,7 @@ Close a Compose Email window
 
 </td><td>
 
-Select the Close icon \(![Compose email close icon](../image/csm-email-modeless-dialog-close.png)\) in the Compose Email window header.The system saves the text as a draft email and closes the Compose Email window.
+Select the Close icon \(\[Omitted image "csm-email-modeless-dialog-close.png"\] Alt text: Compose email close icon\) in the Compose Email window header.The system saves the text as a draft email and closes the Compose Email window.
 
 </td></tr><tr><td>
 

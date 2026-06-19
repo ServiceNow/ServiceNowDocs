@@ -2,6 +2,7 @@
 title: RESTAPIRequestBody - Scoped, Global
 description: The RESTAPIRequestBody API provides methods that allow you to access the body content of a scripted REST API request in scripts.The content of the request body.The content of the request body, as a stream.The content of the request body, as a String.Determines if there are additional entries in the request body.Retrieve one entry from the request body as a script object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_ScriptableServiceRequestBody.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -63,7 +64,7 @@ Multiple entry example-request-body in JSON format.
 }]
 ```
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## RESTAPIRequestBody - data
 

@@ -2,6 +2,7 @@
 title: Service catalog variables in data visualizations
 description: Group or filter data on visualizations by a variable on a selected service catalog item.In data visualizations based on service catalog data, stack and group by variables, use variables as columns in lists, and as columns and rows in multilevel pivot tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/dv-rep-sc-variables.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -18,7 +19,7 @@ Reporting on variables can be helpful in determining if certain catalog items ar
 
 Additionally, you can create filters on the same variable. For example, if a specific mobile phone item has a storage variable, you can create a report that only shows those phones with 32 GB of storage.
 
-**Parent Topic:**[Configure data visualizations](../../performance-analytics/concept/configure-data-visualizations.md)
+**Parent Topic:**[Configure data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/configure-data-visualizations.md)
 
 ## Use service catalog variables in data visualizations
 
@@ -46,7 +47,7 @@ Use a variable as a filter, a group by, or an alternative group by.
 
 2.  Select one of the following options.
 
-<table id="choicetable_p2g_2qf_v5"><tbody><tr><td id="d201874e151">
+<table id="choicetable_p2g_2qf_v5"><tbody><tr><td id="d40850e151">
 
 **Use the variable as a filter**
 
@@ -54,7 +55,7 @@ Use a variable as a filter, a group by, or an alternative group by.
 
 Add or edit a data source and select **Add custom conditions**. If any custom conditions have already been defined, select **+ Add**. Then select **Variables** at the bottom of the field list.
 
-</td></tr><tr><td id="d201874e169">
+</td></tr><tr><td id="d40850e169">
 
 **Add the variable as a __group by__**
 
@@ -62,15 +63,15 @@ Add or edit a data source and select **Add custom conditions**. If any custom co
 
 Under **Group by**, select **+ Add**. Then select **Variables** at the bottom of the field list.
 
-</td></tr><tr><td id="d201874e190">
+</td></tr><tr><td id="d40850e190">
 
 **Add the variable as an alternative group by**
 
 </td><td>
 
-Under **Group by**, select **Add alternative group by**. Then select **Variables** at the bottom of the field list. A viewer can choose one of these variables at runtime, as described in [Select a group-by value in a data visualization as a viewer](../../performance-analytics/concept/select-group-runtime.md).
+Under **Group by**, select **Add alternative group by**. Then select **Variables** at the bottom of the field list. A viewer can choose one of these variables at runtime, as described in [Select a group-by value in a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/select-group-runtime.md).
 
-</td></tr><tr><td id="d201874e215">
+</td></tr><tr><td id="d40850e215">
 
 **Add the variable as a column or row in a pivot table**
 
@@ -98,11 +99,11 @@ Under **Group by**, select **+Add** for Columns or Rows, then select **Variables
 
 Here you have opened the Edit data source page for a data visualization. No custom conditions have been defined for this data visualization, so you select **Add custom condition**.
 
-![The Add custom conditions link in the Edit data source page.](../image/edit-data-source-custom-conditions.png)
+\[Omitted image "edit-data-source-custom-conditions.png"\] Alt text: The Add custom conditions link in the Edit data source page.
 
 Next, you scroll down the Select field list to Variable, select that, and select a variable.
 
-![Selecting a variable for the custom filter.](../image/edit-data-source-variable-filter.png)
+\[Omitted image "edit-data-source-variable-filter.png"\] Alt text: Selecting a variable for the custom filter.
 
 Finally you select the operator and the value, such as Is \| A4, and select **Apply**.
 
@@ -110,7 +111,7 @@ Finally you select the operator and the value, such as Is \| A4, and select **Ap
 
 In this case, you have a horizontal bar visualization of data in the Requested Items table. In the Group by section, you edit the group by. You scroll to the bottom of the list of fields and replace the Active field with Variables, and select your variable.
 
-![Selecting a service catalog variable in a Group by field.](../image/sc-variable-dv-addl-groupby.png)
+\[Omitted image "sc-variable-dv-addl-groupby.png"\] Alt text: Selecting a service catalog variable in a Group by field.
 
 If you want to add a service catalog variable as a row or column on a Pivot Table, the experience is almost identical.
 
@@ -118,5 +119,5 @@ If you want to add a service catalog variable as a row or column on a Pivot Tabl
 
 You want a different service catalog variable as an alternative group by. You select **Add alternative group by** and scroll to the bottom. You expand **Variables**, and the list changes to a selection of variables. Not all variables that were available as a group by are available as an alternative group by. Anyway, you select some variables and press **Apply all**.
 
-![Additional group by selector for service catalog variables.](../../par-for-workspace/image/additional-group-by-variables-dv.png)
+\[Omitted image "additional-group-by-variables-dv.png"\] Alt text: Additional group by selector for service catalog variables.
 

@@ -2,6 +2,7 @@
 title: Use Live Feed to work on records
 description: A record feed is associated with a record, such as an incident or change.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/live-feed/c\_UsingLiveFeedToWorkOnRecords.html
 release: zurich
 product: Live Feed
 classification: live-feed

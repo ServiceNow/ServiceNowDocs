@@ -2,6 +2,7 @@
 title: Enable or disable appointment booking
 description: Turn the Appointment Booking feature on or off for an application and its individual services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/appointment-booking-enable.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -46,5 +47,5 @@ Appointment booking is enabled or disabled based on your configuration settings.
 
 ## What to do next
 
-[Create or modify an application configuration for Appointment Booking](appt-booking-create-app-config.md)
+[Create or modify an application configuration for Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/appt-booking-create-app-config.md)
 

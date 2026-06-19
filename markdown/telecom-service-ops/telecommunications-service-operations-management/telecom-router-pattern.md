@@ -2,6 +2,7 @@
 title: Telecom Router Pattern
 description: The ServiceNow Telecom Discovery application uses the Telecom Router discovery pattern to find SNMP-based routers in the network. Discovering some of these resources requires updating the Telecommunications Discovery Patterns \(TSOM Patterns\) from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-service-ops/telecommunications-service-operations-management/telecom-router-pattern.html
 release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -21,14 +22,14 @@ Telecom Router pattern is part of the Telecommunications Discovery Patterns appl
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
 -   Subscription to TSOM.
 -   Confirm that your network router devices have SNMP access.
--   On the ServiceNow instance, configure SNMP credentials. For more information, see [SNMP support for Discovery](https://www.servicenow.com/docs/access?context=c_SNMPSupportForDiscovery&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
--   For setting up TSOM Patterns, see [Install Horizontal Discovery and set up Discovery Patterns](../task/install-horizontal-telecommunication-discoverypatterns.md).
+-   On the ServiceNow instance, configure SNMP credentials. For more information, see .
+-   For setting up TSOM Patterns, see [Install Horizontal Discovery and set up Discovery Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/install-horizontal-telecommunication-discoverypatterns.md).
 
 ## Impacted CMDB CIs and CI Relationships \(Physical Layer\)
 

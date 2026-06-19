@@ -2,6 +2,7 @@
 title: Configure Zendesk for external content indexing
 description: Create an API token in Zendesk Admin Center to allow the Zendesk Guide external content connector to access your Zendesk source system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-zendesk-guide-external-content-indexing.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -26,7 +27,7 @@ Role required: none
 
 The Zendesk Guide external content connector retrieves documents and user permissions from your Zendesk source system using the Zendesk API.
 
-To allow the connector to access your Zendesk source system via the Zendesk API, you must create an API token in the Zendesk Admin Center. Your connector admin can use this API token to configure the Zendesk Guide external connector for proper connection to your source system.
+To allow the connector to access your Zendesk source system via the Zendesk API, you must create an API token in the Zendesk Admin Center. Your connector administrator can use this API token to configure the Zendesk Guide external connector for proper connection to your source system.
 
 ## Procedure
 
@@ -34,17 +35,17 @@ To allow the connector to access your Zendesk source system via the Zendesk API,
 
 2.  Log in with your Zendesk administrator credentials.
 
-3.  Open the app menu by selecting its icon ![](../image/zendesk-app-menu-icon.png), then select **Admin Center**.
+3.  Open the app menu by selecting its icon \[Omitted image "zendesk-app-menu-icon.png"\] Alt text:, then select **Admin Center**.
 
-    ![Admin center link in Zendesk app menu.](../image/zendesk-admin-center.png)
+    \[Omitted image "zendesk-admin-center.png"\] Alt text: Admin center link in Zendesk app menu.
 
 4.  In the Admin Center menu, navigate to **Apps and integrations** &gt; **APIs** &gt; **OAuth clients**.
 
-    If the Admin Center menu labels aren't shown, select the **Apps and integrations** icon ![](../image/zendesk-ac-apps-integrations-icon.png) to expand the menu and navigate.
+    If the Admin Center menu labels aren't shown, select the **Apps and integrations** icon \[Omitted image "zendesk-ac-apps-integrations-icon.png"\] Alt text: to expand the menu and navigate.
 
 5.  On the Zendesk OAuth clients page, select **Add OAuth client**.
 
-    ![OAuth clients page in Zendesk with Add OAuth client button.](../image/zendesk-oauth-clients-before.png)
+    \[Omitted image "zendesk-oauth-clients-before.png"\] Alt text: OAuth clients page in Zendesk with Add OAuth client button.
 
     The Add OAuth client page appears.
 
@@ -88,7 +89,7 @@ Identifier\*
 
 </td><td>
 
-Enter the identifier string you want to use when referring to your new OAuth 2.0 client application in code. A default identifier is automatically generated from the application name you enter, but you can override it if you want to use a different value.**Important:** Your connector admin needs this client identifier when configuring the Zendesk external content connector.
+Enter the identifier string you want to use when referring to your new OAuth 2.0 client application in code. A default identifier is automatically generated from the application name you enter, but you can override it if you want to use a different value.**Important:** Your connector administrator needs this client identifier when configuring the Zendesk external content connector.
 
 </td></tr><tr><td>
 
@@ -107,7 +108,7 @@ Redirect URLs
 Enter `https://<instance-name>.service-now.com/oauth_redirect.do`, where `<instance-name>` is the hostname for your ServiceNow AI Platform® instance where you will create and run the external content connector. As an example, you might enter `https://example.service-now.com/oauth_redirect.do`.
 
 </td></tr></tbody>
-</table>    ![Add OAuth client page in Zendesk.](../image/zendesk-add-oauth-client.png)
+</table>    \[Omitted image "zendesk-add-oauth-client.png"\] Alt text: Add OAuth client page in Zendesk.
 
 7.  Select **Save**.
 
@@ -115,27 +116,27 @@ Enter `https://<instance-name>.service-now.com/oauth_redirect.do`, where `<insta
 
 8.  Copy your new OAuth 2.0 client application's **Secret** and save it in a secure location.
 
-    ![Add OAuth client page in Zendesk showing generated client secret.](../image/zendesk-save-oauth-client-secret.png)
+    \[Omitted image "zendesk-save-oauth-client-secret.png"\] Alt text: Add OAuth client page in Zendesk showing generated client secret.
 
-    **Important:** Your connector admin needs this client secret when configuring the Zendesk external content connector.
+    **Important:** Your connector administrator needs this client secret when configuring the Zendesk external content connector.
 
 9.  Select **Save**.
 
-    ![OAuth clients page in Zendesk showing new OAuth 2.0 client application.](../image/zendesk-oauth-clients-after.png)
+    \[Omitted image "zendesk-oauth-clients-after.png"\] Alt text: OAuth clients page in Zendesk showing new OAuth 2.0 client application.
 
     Zendesk updates your new OAuth 2.0 client application with the generated secret. Your new application appears on the Zendesk OAuth clients page.
 
 
 ## What to do next
 
-Provide the following items to your connector admin:
+Provide the following items to your connector administrator:
 
--   The OAuth 2.0 client identifier that you entered in step [6](configure-zendesk-guide-external-content-indexing.md#choose-client-identifier-step).
--   The client secret that you saved in step [8](configure-zendesk-guide-external-content-indexing.md#save-client-secret-step).
+-   The OAuth 2.0 client identifier that you entered in step [6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-zendesk-guide-external-content-indexing.md).
+-   The client secret that you saved in step [8](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-zendesk-guide-external-content-indexing.md).
 
-Your connector admin needs these settings to configure a Zendesk Guide external content connector to retrieve searchable content and security principals from your Zendesk source system.
+Your connector administrator needs these settings to configure a Zendesk Guide external content connector to retrieve searchable content and security principals from your Zendesk source system.
 
-For details on creating and configuring a Zendesk Guide external content connector, see [Create a Zendesk Guide external content connector](create-ext-cont-connector-zendesk-guide.md).
+For details on creating and configuring a Zendesk Guide external content connector, see [Create a Zendesk Guide external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-zendesk-guide.md).
 
-**Parent Topic:**[Zendesk Guide external content connector](../concept/zendesk-guide-external-content-connector.md)
+**Parent Topic:**[Zendesk Guide external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/zendesk-guide-external-content-connector.md)
 

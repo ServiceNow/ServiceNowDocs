@@ -2,6 +2,7 @@
 title: Create a Microsoft PowerPoint template
 description: Configure the Export to PowerPoint add-in in your Microsoft PowerPoint to interact with your instance and fetch the data required to generate and download your status reports. Create your own custom template with the required data to generate a report, based on the reporting needs of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/export-to-powerpoint-for-application-portfolio-management/create-ppt-template.html
 release: zurich
 product: Export to PowerPoint for Application Portfolio Management
 classification: export-to-powerpoint-for-application-portfolio-management
@@ -22,7 +23,7 @@ Configure the Export to PowerPoint add-in in your Microsoft PowerPoint to intera
 
 ## Procedure
 
-1.  Open your Microsoft PowerPoint application and select the ServiceNow add-in icon \(![ServiceNow Export to PowerPoint add-in.](../image/icon-servicenow-addin.png)\) on the **Home** tab.
+1.  Open your Microsoft PowerPoint application and select the ServiceNow add-in icon \(\[Omitted image "icon-servicenow-addin.png"\] Alt text: ServiceNow Export to PowerPoint add-in.\) on the **Home** tab.
 
     A side panel appears with a login option to access your ServiceNow instance.
 
@@ -36,16 +37,16 @@ Configure the Export to PowerPoint add-in in your Microsoft PowerPoint to intera
 
     The landing page of the add-in appears on the side panel.
 
-    ![Export to PowerPoint add-in landing page.](../image/icon-ppt-addin-landing-page.png)
+    \[Omitted image "icon-ppt-addin-landing-page.png"\] Alt text: Export to PowerPoint add-in landing page.
 
 5.  Select **Personal portfolio report** from the Type list.
 
     Select the data type you want to populate.
 
     -   Text – Text entries from the parent table. Example: Portfolio name, owner name, and so on.
-    -   Table – Table entries mapped using [related tables](manage-components-export-ppt.md).
+    -   Table – Table entries mapped using [related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/export-to-powerpoint-for-application-portfolio-management/manage-components-export-ppt.md).
     -   Repeater – To populate additional details for each of the selected records.
-    -   Line and Bar chart – Graph entries mapped using [scripted elements](manage-components-export-ppt.md).
+    -   Line and Bar chart – Graph entries mapped using [scripted elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/export-to-powerpoint-for-application-portfolio-management/manage-components-export-ppt.md).
     **Note:** While creating a template, you can:
 
     -   Change the font size and color for the token values to reflect the same in your status report.
@@ -60,7 +61,7 @@ Configure the Export to PowerPoint add-in in your Microsoft PowerPoint to intera
     |filterQuery|Applies an encoded query to filter the data populated in the template token.|`filterQuery=state=2^priority=1`|
     |maxRows|Limits the maximum number of rows returned for a table or repeater token.|`maxRows=10`|
 
-    Apply these attributes by appending them to the token URL in the template field properties. For details on configuring related tables and scripted elements, see [Manage components](manage-components-export-ppt.md).
+    Apply these attributes by appending them to the token URL in the template field properties. For details on configuring related tables and scripted elements, see [Manage components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/export-to-powerpoint-for-application-portfolio-management/manage-components-export-ppt.md).
 
 6.  To populate the Portfolio name on the first slide:
 
@@ -68,7 +69,7 @@ Configure the Export to PowerPoint add-in in your Microsoft PowerPoint to intera
     2.  Filter the Column list to locate Name and select it. A token value representing the portfolio name is generated in the subsequent empty text box.
     3.  Select the **Copy text** button to copy the token.
     4.  Paste the token on the slide.
-    ![Portfolio name selection.](../image/portfolio-name.gif)
+    \[Omitted image "portfolio-name.gif"\] Alt text: Portfolio name selection.
 
     Add a new slide to Microsoft PowerPoint, insert a table with three columns and two rows to generate the Epics with their numbers, status, and due date.
 
@@ -76,7 +77,7 @@ Configure the Export to PowerPoint add-in in your Microsoft PowerPoint to intera
 
     1.  From the add-in landing page, select **Table** from the Data list.
 
-        Use the **Back** \(![PPT add-in back button.](../image/ppt-addin-back-button.png)\) button to go back to the add-in landing page.
+        Use the **Back** \(\[Omitted image "ppt-addin-back-button.png"\] Alt text: PPT add-in back button.\) button to go back to the add-in landing page.
 
     2.  Select **Epic** from the Related table list.
     3.  From the Related table \(optional\) list, select a related table to the Epic.
@@ -93,7 +94,7 @@ Configure the Export to PowerPoint add-in in your Microsoft PowerPoint to intera
     8.  Copy the token value and paste it in the table.
     9.  Similarly, copy and paste the token values of **State** and **Assigned to** fields from the Column list.
 
-        ![Epics details selection.](../image/epics-selection.gif)
+        \[Omitted image "epics-selection.gif"\] Alt text: Epics details selection.
 
     Add slide to Microsoft PowerPoint.
 
@@ -101,7 +102,7 @@ Configure the Export to PowerPoint add-in in your Microsoft PowerPoint to intera
 
     1.  From the add-in landing page, select **Table** from the Data list.
 
-        Use the **Back** \(![PPT add-in back button.](../image/ppt-addin-back-button.png)\) button to go back to the add-in landing page.
+        Use the **Back** \(\[Omitted image "ppt-addin-back-button.png"\] Alt text: PPT add-in back button.\) button to go back to the add-in landing page.
 
     2.  Select **Repeater** from the Data list.
     3.  Select **Epic** from the Related table list.
@@ -111,7 +112,7 @@ Configure the Export to PowerPoint add-in in your Microsoft PowerPoint to intera
 
         **Note:** The repeater token doesn’t generate any values in the status report.
 
-    ![GIF showing repeater token selection while creating PowerPoint template.](../image/repeater-token-export-ppt.gif)
+    \[Omitted image "repeater-token-export-ppt.gif"\] Alt text: GIF showing repeater token selection while creating PowerPoint template.
 
     Add a new slide to Microsoft PowerPoint.
 
@@ -119,17 +120,17 @@ Configure the Export to PowerPoint add-in in your Microsoft PowerPoint to intera
 
     1.  From the add-in landing page, select **Line Chart** or **Bar Chart** from the Data list.
 
-        Use the **Back** \(![PPT add-in back button.](../image/ppt-addin-back-button.png)\) button to go back to the add-in landing page.
+        Use the **Back** \(\[Omitted image "ppt-addin-back-button.png"\] Alt text: PPT add-in back button.\) button to go back to the add-in landing page.
 
     2.  From the Select a chart \(defined using scripted elements\) list, select a chart you want to populate for your report and select **Next**.
     3.  Select the **Copy to clipboard** button to copy the chart token.
     4.  Paste the token on a slide.
-    ![Line chart selection for Export to PowerPoint.](../image/select-line-chart-export-ppt.gif)
+    \[Omitted image "select-line-chart-export-ppt.gif"\] Alt text: Line chart selection for Export to PowerPoint.
 
 10. Save the Microsoft PowerPoint file in the `.pptx` format with a maximum of 50 slides and file size not exceeding 15 MB.
 
     **Note:** The Export to PowerPoint for Strategic Portfolio Management application comes with default templates which you can use to generate reports and consider as a reference to create templates.
 
 
-**Parent Topic:**[Using Export to PowerPoint](../concept/using-export-to-ppt.md)
+**Parent Topic:**[Using Export to PowerPoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/export-to-powerpoint-for-application-portfolio-management/using-export-to-ppt.md)
 

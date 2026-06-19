@@ -2,6 +2,7 @@
 title: Connect an existing document in Microsoft OneDrive to policy
 description: Enable redlining in a policy document that is existing in your Microsoft OneDrive instead of creating a document in Microsoft OneDrive.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/connect-policy-redlining-existing-document.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -23,7 +24,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the List icon \(![Lists icon.](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the Compliance Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon.\).
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 

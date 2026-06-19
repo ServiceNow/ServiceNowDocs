@@ -2,6 +2,7 @@
 title: Set up an instance hierarchy
 description: Set up an instance hierarchy that best supports your development life cycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/t\_SetUpAnInstanceHierarchy.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -37,10 +38,10 @@ Don’t use Team Development with production or test instances. When you back ou
 
 5.  On each subdevelopment instance:
 
-    1.  Define [remote instance connections](t_DefineARemoteInstance.md) to other instances in the hierarchy that this instance must push and pull with.
-    2.  Select [the parent instance](t_SelectTheParentInstance.md).
+    1.  Define [remote instance connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_DefineARemoteInstance.md) to other instances in the hierarchy that this instance must push and pull with.
+    2.  Select [the parent instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_SelectTheParentInstance.md).
     3.  Pull all changes from the parent instance.
-    4.  [Grant access rights](../reference/r_GrantingAccessRightsToDevelopers.md) to appropriate developers.
+    4.  [Grant access rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/r_GrantingAccessRightsToDevelopers.md) to appropriate developers.
 
-**Parent Topic:**[Building an instance hierarchy](../concept/c_InstanceHierarchies.md)
+**Parent Topic:**[Building an instance hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_InstanceHierarchies.md)
 

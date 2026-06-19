@@ -2,6 +2,7 @@
 title: Standard Ticket Page view for HR Service Delivery
 description: Configure your HR services to use the Standard Ticket page to provide a consistent user experience for your employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/ur-hr-standard-ticket-page.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,20 +16,20 @@ breadcrumb: [HR Administration, Configure, Case and Knowledge Management, HR Ser
 
 Configure your HR services to use the Standard Ticket page to provide a consistent user experience for your employees.
 
-You can configure the appearance of your ticket page layout \(such as header and tabs\) from **Standard Ticket** &gt; **Standard Ticket Configuration**. For more information, see [Configure custom HR services](../task/configure-hr-ticket-ur.md).
+You can configure the appearance of your ticket page layout \(such as header and tabs\) from **Standard Ticket** &gt; **Standard Ticket Configuration**. For more information, see [Configure custom HR services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-ticket-ur.md).
 
-For new and restarted instances, the Standard Ticket page view is available by default. For upgraded instances, you must configure the page route map. For more information, see [Enable the page route map](../task/enable-page-route-hr.md).
+For new and restarted instances, the Standard Ticket page view is available by default. For upgraded instances, you must configure the page route map. For more information, see [Enable the page route map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/enable-page-route-hr.md).
 
 After you have configured the HR services and have completed the page route mappings, your HR requests appear in the Standard Ticket page view in the following format:
 
 
 
-When you enable expected resolution time \(ETTR\), you can see the estimated time for your request. For more information, see [Estimated time to resolve HR cases](train-model-ettr.md).
+When you enable expected resolution time \(ETTR\), you can see the estimated time for your request. For more information, see [Estimated time to resolve HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/train-model-ettr.md).
 
--   **[Configure custom HR services](../task/configure-hr-ticket-ur.md)**  
+-   **[Configure custom HR services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-ticket-ur.md)**  
 Configure your custom HR services in the Standard Ticket page to provide consistent employee experience in the Portal.
--   **[Enable the page route map](../task/enable-page-route-hr.md)**  
+-   **[Enable the page route map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/enable-page-route-hr.md)**  
 If you have upgraded your instance, redirect your HR ticket pages to the Standard Ticket page in Portal. View your HR requests in the Standard Ticket Page view.
 
-**Parent Topic:**[HR Administration](c_AdministerHRServiceManagement.md)
+**Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 

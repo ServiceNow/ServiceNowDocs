@@ -2,6 +2,7 @@
 title: View releases planned in a release readiness target
 description: View and track all product releases that are planned in a release readiness target and track their progress.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-product-release/dpr-view-rls-readiness-target.html
 release: zurich
 product: Digital Product Release
 classification: digital-product-release
@@ -23,11 +24,11 @@ Role required: sn\_dpr\_model.release\_admin
 
 1.  Navigate to **Workspaces** &gt; **Digital Product Release Workspace**.
 
-2.  Select the release calendar icon \(![Release calendar icon.](../image/dpr-icon-rls-target.png)\).
+2.  Select the release calendar icon \(\[Omitted image "dpr-icon-rls-target.png"\] Alt text: Release calendar icon.\).
 
     The release calendar appears.
 
-    ![Release calendar view showing release readiness targets, releases, and change requests.](../image/dpr-release-readiness-target2.png)
+    \[Omitted image "dpr-release-readiness-target2.png"\] Alt text: Release calendar view showing release readiness targets, releases, and change requests.
 
 3.  Select a release calendar on which you want to view the releases.
 
@@ -37,35 +38,35 @@ Role required: sn\_dpr\_model.release\_admin
 
 5.  Select a release readiness target from the calendar, list view, or agenda view pane, to open.
 
-<table id="choicetable_n1l_1nq_d1c"><thead><tr><th align="left" id="d108487e101">
+<table id="choicetable_n1l_1nq_d1c"><thead><tr><th align="left" id="d108877e101">
 
 Option
 
-</th><th align="left" id="d108487e104">
+</th><th align="left" id="d108877e104">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d108487e110">
+</th></tr></thead><tbody><tr><td id="d108877e110">
 
 **From the calendar view**
 
 </td><td>
 
-1.  Select the calendar view icon \(![Switch to calendar view icon.](../image/dpr-icon-cal-view.png)\).
+1.  Select the calendar view icon \(\[Omitted image "dpr-icon-cal-view.png"\] Alt text: Switch to calendar view icon.\).
 2.  On the calendar, select the release target item on a date.
 
 
-</td></tr><tr><td id="d108487e134">
+</td></tr><tr><td id="d108877e134">
 
 **From the List view**
 
 </td><td>
 
-1.  Select the list view icon \(![Switch to list view icon.](../image/dpr-icon-list-view.png)\).
+1.  Select the list view icon \(\[Omitted image "dpr-icon-list-view.png"\] Alt text: Switch to list view icon.\).
 2.  Select a release target from the list.
 
 
-</td></tr><tr><td id="d108487e158">
+</td></tr><tr><td id="d108877e158">
 
 **From the Agenda View pane**
 
@@ -86,5 +87,5 @@ The Agenda View pane appears with a list of all release targets scheduled for th
 7.  Select a release from the list to review its status and other details.
 
 
-**Parent Topic:**[Using Digital Product Release](../concept/dpr-using-digital-product-release.md)
+**Parent Topic:**[Using Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-using-digital-product-release.md)
 

@@ -2,6 +2,7 @@
 title: Provider form
 description: The Provider form includes calendar provider details and provider configuration field details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-calendar-synchronization/wsd-calendar-provider-form-fields.html
 release: zurich
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization

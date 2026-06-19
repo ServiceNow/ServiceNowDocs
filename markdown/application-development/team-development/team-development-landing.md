@@ -2,6 +2,7 @@
 title: Team Development
 description: Team Development supports parallel development on multiple, non-production instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/team-development-landing.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -19,27 +20,27 @@ Team Development supports parallel development on multiple, non-production insta
 
 <table id="table_jxv_thb_1dc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Team Development features and concepts.](../concept/exploring-team-development.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Team Development features and concepts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/exploring-team-development.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set up and configure Team Development.](../task/configuring-team-development.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up and configure Team Development.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/configuring-team-development.md)
 
 </td><td>
 
-[Working with changes![](../../../reuse/icons/brand-icons/bus-learn.svg)Learn about working with changes in Team Development.](../concept/c_LocalChanges.md)
+[Working with changes\[Omitted image "bus-learn.svg"\] Alt text:Learn about working with changes in Team Development.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_LocalChanges.md)
 
 </td></tr><tr><td>
 
-[Working with version records![](../../../reuse/icons/brand-icons/bus-learn.svg)Learn about working with version records in Team Development.](../concept/c_Versions.md)
+[Working with version records\[Omitted image "bus-learn.svg"\] Alt text:Learn about working with version records in Team Development.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_Versions.md)
 
 </td><td>
 
-[Resolve![](../../../reuse/icons/brand-icons/bus-compliance.svg)Resolve collisions in Team Development.](../concept/resolving-collisions.md)
+[Resolve\[Omitted image "bus-compliance.svg"\] Alt text:Resolve collisions in Team Development.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/resolving-collisions.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-rewind.svg)Get details about Team Development roles, system properties, and general guidelines.](team-development-reference.md)
+[Reference\[Omitted image "bus-rewind.svg"\] Alt text:Get details about Team Development roles, system properties, and general guidelines.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/team-development-reference.md)
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: Incident ticketing integrations
 description: An incident ticketing integration exchanges ticket data between your ServiceNow instance and a third-party system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/c\_IncidentTicketingIntegrations.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -28,10 +29,10 @@ For both integration types, a good practice is to implement a record-based log o
 
 Before implementing your project, develop an integration plan in which all the implementation aspects and requirements are defined. Developing the integration plan helps you to review the current data, plan for future requirements, and identify and sequence project tasks.
 
--   **[Uni-directional incident ticketing integrations](c_UniDirIncidentTicketIntegrations.md)**  
+-   **[Uni-directional incident ticketing integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/c_UniDirIncidentTicketIntegrations.md)**  
 Consider the requirements for an external, third-party system to create tickets. Define the data that must be sent to create a ticket, and what validation is required.
--   **[Bi-directional incident ticketing integrations](c_BiDiIncidentTicketingIntegrations.md)**  
+-   **[Bi-directional incident ticketing integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/c_BiDiIncidentTicketingIntegrations.md)**  
 A bi-directional integration exchanges data between your ServiceNow instance and a third-party system so that incident information is synchronized between the systems.
 
-**Parent Topic:**[Configuring Incident Management](incident-configuration.md)
+**Parent Topic:**[Configuring Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/incident-configuration.md)
 

@@ -2,6 +2,7 @@
 title: Aggregate a report on minimum or maximum
 description: When you create a report, you can aggregate the data on several calculations including the number of records, averages, and standard deviation. The maximum and minimum aggregations show the maximum or minimum value for each segment of the visualization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/aggregate-report-max-min.html
 release: zurich
 product: Reporting
 classification: reporting
@@ -27,7 +28,7 @@ These images illustrate maximum and minimum duration using grouped bars to show 
 
 |Maximum duration|Minimum duration|
 |----------------|----------------|
-|![Bar chart aggregated by Maximum duration with bars representing incident categories and priorities, one showing the maximum duration for critical software incidents of approximately 23 days, 21 hours.](../image/aggregation-max-dur-gr.png)|![Bar chart aggregated by Minimum duration with bars representing incident categories and priorities, one showing the minimum duration for critical software incidents of approximately 5 days.](../image/aggregation-min-dur-gr.png)|
+|\[Omitted image "aggregation-max-dur-gr.png"\] Alt text: Bar chart aggregated by Maximum duration with bars representing incident categories and priorities, one showing the maximum duration for critical software incidents of approximately 23 days, 21 hours.|\[Omitted image "aggregation-min-dur-gr.png"\] Alt text: Bar chart aggregated by Minimum duration with bars representing incident categories and priorities, one showing the minimum duration for critical software incidents of approximately 5 days.|
 
 ## Procedure
 

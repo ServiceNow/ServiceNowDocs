@@ -2,6 +2,7 @@
 title: Procurement Buyer Dashboard
 description: Visually analyze how you’re placed with your work and achievements over a given period of time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/procurement-buyer-dashboard.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -297,9 +298,9 @@ View the average purchase requisition cycle time from when a purchase requisitio
  The report pulls all the purchase requisitions that went into Closed Complete, Closed Rejected, or Closed Canceled status for the month, and takes the cycle time from when they were opened. This data is retrieved from the **Duration** field on the purchase requisition.
 
 </td></tr></tbody>
-</table>For information on how to work with dashboards in configurable workspaces, see [Dashboards in Platform Analytics](https://www.servicenow.com/docs/access?context=analytics-center-dashboards&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+</table>For information on how to work with dashboards in configurable workspaces, see .
 
-For information on how to work with widgets and data visualizations in configurable workspaces, see [Data visualizations in Platform Analytics](https://www.servicenow.com/docs/access?context=analytics-center-data-visualizations&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+For information on how to work with widgets and data visualizations in configurable workspaces, see .
 
-**Parent Topic:**[Performance Analytics for Sourcing and Procurement Operations](performance-analytics-for-spo.md)
+**Parent Topic:**[Performance Analytics for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/performance-analytics-for-spo.md)
 

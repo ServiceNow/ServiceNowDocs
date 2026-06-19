@@ -2,12 +2,13 @@
 title: Create rich content
 description: Use the Rich Content Editor to build long form content with an easy to use web styled tool.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ec-content-library-portal-rich-content.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-04-29"
+reading_time_minutes: 2
 breadcrumb: [Microsites, Creating employee communications, Manage, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
 
@@ -69,7 +70,7 @@ Version
 
 </td><td>
 
-Tracks content changes if content versioning is enabled. For more information, see [Content versioning](../concept/ec-content-versioning.md).
+Tracks content changes if content versioning is enabled. For more information, see [Content versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-versioning.md).
 
 </td></tr><tr><td>
 
@@ -84,11 +85,15 @@ Indicates whether the content is in draft or published.
 
     Selecting this button saves the information you entered above.
 
+    **Tip:**
+
+    With the Rich Content Editor, you can easily use your keyboard to select individual canvas components. You can add text and columns, create text sections within those columns, and update headings within each section to adjust the styling and fonts to your liking; It helps you customize your content in a simple and convenient way.
+
 
 ## What to do next
 
 Create the page layout using modules or columns.
 
--   Modules are predefined content layouts comprised of header, paragraph text, and images. See [Add predefined content layouts with the Rich Content Editor](add-modules-rich-content-editor.md)
--   Columns are containers that enable you to define a custom layout. See [Add columns with the Rich Content Editor](ec-rich-content-canvas.md)
+-   Modules are predefined content layouts comprised of header, paragraph text, and images. See [Add predefined content layouts with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/add-modules-rich-content-editor.md)
+-   Columns are containers that enable you to define a custom layout. See [Add columns with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-rich-content-canvas.md)
 

@@ -1,7 +1,8 @@
 ---
 title: Using Dynamic Guidance
-description: Get familiar with Dynamic Guidance.
+description: Learn how to invoke Dynamic Guidance and use it effectively to enhance your experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/using-dynamic-guidance.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
@@ -14,13 +15,15 @@ breadcrumb: [Dynamic Guidance, Adoption services, Configure user experiences]
 
 # Using Dynamic Guidance
 
-Get familiar with Dynamic Guidance.
+Learn how to invoke Dynamic Guidance and use it effectively to enhance your experience.
 
 ## Before you begin
 
 Role required: sn\_dyn\_guidance\_user
 
-How to use Dynamic Guidance
+Google must be turned on in AI control tower for Dynamic Guidance to work.
+
+## How to use Dynamic Guidance
 
 ## Procedure
 
@@ -32,7 +35,7 @@ How to use Dynamic Guidance
 
     1.  Launch Help Center from the instance to find Dynamic Guidance as your voice-enabled guide.
 
-        ![Dynamic guidance](../image/ads-dynamic-guide.png)
+        \[Omitted image "ads-dynamic-guide.png"\] Alt text: Dynamic guidance
 
     2.  Select **Start**.
 
@@ -42,7 +45,7 @@ How to use Dynamic Guidance
 
     2.  Select Dynamic Guidance.
 
-        ![Invoke Dynamic Guidance via Now assist panel](../image/launch-dg-nap.png)
+        \[Omitted image "launch-dg-nap.png"\] Alt text: Invoke Dynamic Guidance via Now assist panel
 
     3.  Invoke the help agent from Now Assist panel via skill named 'Ask Dynamic Guidance for help'.
 
@@ -56,13 +59,13 @@ How to use Dynamic Guidance
 
 7.  Select **Allow** to enable access to the browser tab.
 
-    ![Dynamic Guidance agreement modal](../image/ads-dynamic-guidance-agreement-new.png)
+    \[Omitted image "ads-dynamic-guidance-agreement-new.png"\] Alt text: Dynamic Guidance agreement modal
 
 8.  Allow and enable voice and screen sharing in browser tabs, when prompted.
 
 9.  Ask your question verbally to hear a conversational response real-time.
 
-    ![Dynamic guidance live](../image/ads-dynamic-guidance-hello.png)
+    \[Omitted image "ads-dynamic-guidance-hello.png"\] Alt text: Dynamic guidance live
 
     **Note:** The response will be relevant and according to the instance screen you use.
 

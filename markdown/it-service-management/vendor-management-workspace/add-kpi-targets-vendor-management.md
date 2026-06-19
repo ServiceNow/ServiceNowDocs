@@ -2,6 +2,7 @@
 title: Add targets for vendor score KPIs
 description: Set key performance indicator goals for an indicator that contributes to the vendor score so that you can monitor and improve baseline measurements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/vendor-management-workspace/add-kpi-targets-vendor-management.html
 release: zurich
 product: Vendor Management Workspace
 classification: vendor-management-workspace
@@ -27,23 +28,23 @@ To set a personal target, you need the sn\_vlm.vendor\_manager role.
 
 1.  Navigate to **All** &gt; **Vendor Management** &gt; **Workspace**.
 
-2.  Click the Performance icon \(![Vendor Performance icon](../../../help-center/vendor-management-workspace/image/vendor-performance-icon.png)\).
+2.  Click the Performance icon \(\[Omitted image "vendor-performance-icon.png"\] Alt text: Vendor Performance icon\).
 
 3.  Click on a performance score for an indicator for which you want to set a target.
 
-4.  Click the target icon \(![Target icon](../image/target-icon.png)\) to display the target pane.
+4.  Click the target icon \(\[Omitted image "target-icon.png"\] Alt text: Target icon\) to display the target pane.
 
 5.  Set the KPI target.
 
-<table id="choicetable_m2z_fzg_qrb"><thead><tr><th align="left" id="d281209e104">
+<table id="choicetable_m2z_fzg_qrb"><thead><tr><th align="left" id="d156456e104">
 
 To
 
-</th><th align="left" id="d281209e107">
+</th><th align="left" id="d156456e107">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d281209e113">
+</th></tr></thead><tbody><tr><td id="d156456e113">
 
 **To create a target**
 
@@ -62,7 +63,7 @@ Do this
 6.  Click **Save**.
 
 
-</td></tr><tr><td id="d281209e172">
+</td></tr><tr><td id="d156456e172">
 
 **To update an existing target**
 
@@ -80,10 +81,10 @@ Do this
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing vendors using Vendor Management Workspace](../concept/using-vendor-management-workspace.md)
+**Parent Topic:**[Managing vendors using Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/using-vendor-management-workspace.md)
 
 **Related topics**  
 
 
-[Performance Analytics targets](https://www.servicenow.com/docs/access?context=pa-targets&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US)
+[bundle-par.pa-targets]
 

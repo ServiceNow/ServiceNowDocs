@@ -2,6 +2,7 @@
 title: Tag Remediation Key form
 description: You use the Tag Remediation Key form to create a tag remediation key.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/tag-governance/tag-gov-tag-remediation-key-form.html
 release: zurich
 product: Tag Governance
 classification: tag-governance
@@ -72,5 +73,5 @@ Script
 Script code to generate values for the key. This field appears only when **Script** is selected in the **Value Type** field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Tag Governance reference](../concept/reference-tag-governance.md)
+</table>**Parent Topic:**[Tag Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/tag-governance/reference-tag-governance.md)
 

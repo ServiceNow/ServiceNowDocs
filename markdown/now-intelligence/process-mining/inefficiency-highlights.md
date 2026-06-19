@@ -2,6 +2,7 @@
 title: Process inefficiency highlights
 description: After identifying the areas that cause the inefficiency, you need to know what exactly the issue is and how to fix it. To do this manually is very time-consuming. The process inefficiency highlights provide the insight into the exact issues for the identified improvement opportunities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/inefficiency-highlights.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -126,5 +127,5 @@ Service-level agreement \(SLA\) breach rate
 Determines if there’s a high probability for SLA breach to occur in the inefficient process pattern compared to the records that don’t have this pattern.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Opportunity details page](opportunity-details.md)
+</table>**Parent Topic:**[Opportunity details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/opportunity-details.md)
 

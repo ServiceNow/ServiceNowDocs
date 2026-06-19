@@ -2,6 +2,7 @@
 title: Twinning: pulling Salesforce CPQ quote information into ServiceNow CPQ
 description: You can set up Salesforce.com and ServiceNow CPQ to bring quote data into a ServiceNow CPQ configuration at runtime.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/twinning\_how\_to\_pull\_salesforce\_cpq\_quote\_information\_into\_logik\_io.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -37,7 +38,7 @@ In the SFDC CPQ quote object \(SBQQ\_Quote\_c\), confirm that there is a field s
 
 2.  Add this custom field to the ReferencedFields field set on the quote object. In SFDC, navigate to Setup -&gt; Object Manager -&gt; quote \(SBQQ\_Quote\_c\) -&gt; Field Sets -&gt; ReferencedFields. From the list of quote fields, drag and drop your new custom field into the In the Field Set box.
 
-    ![SFDC CPQ quote object](../images/cpq-salesforce-field-sets.png)
+    \[Omitted image "cpq-salesforce-field-sets.png"\] Alt text: SFDC CPQ quote object
 
 3.  In ServiceNow CPQ, add a field with variable name &lt;someName&gt;.
 

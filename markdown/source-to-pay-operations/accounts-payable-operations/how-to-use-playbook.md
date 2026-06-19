@@ -2,6 +2,7 @@
 title: Using Playbook in Accounts Payable Operations
 description: Configure a playbook and visualize the step-by-step actions performed by an Accounts Payable specialist while processing an invoice.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/how-to-use-playbook.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -23,13 +24,13 @@ Role required: Accounts Payable specialist
 
 1.  Navigate to **Source-to-Pay Workspace** &gt; **All** &gt; **Accounts Payable Operations**.
 
-2.  Select the list icon \(![List icon](../../supplier-lifecycle-operations/image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon\).
 
     A list of options within the workspace is displayed.
 
 3.  Select **Invoices &gt;****All invoices.**
 
-    You can create an invoice manually. For more information on invoices, see [Work with invoices](../concept/work-with-invoices.md).
+    You can create an invoice manually. For more information on invoices, see [Work with invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md).
 
 4.  Select **View Invoice processing case**.
 
@@ -37,7 +38,7 @@ Role required: Accounts Payable specialist
 
 5.  Select **Validate invoice**.
 
-    The invoice opens and you must verify the invoice details. The **Classify documents** swim lane appears and prompts you to verify the invoice classification. The Classify documents swim lane appears if the document classification skill is activated. For more information on document classification, see [Configure Accounts payable document classification skill](config-doc-classification-skill-apo.md).
+    The invoice opens and you must verify the invoice details. The **Classify documents** swim lane appears and prompts you to verify the invoice classification. The Classify documents swim lane appears if the document classification skill is activated. For more information on document classification, see [Configure Accounts payable document classification skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/config-doc-classification-skill-apo.md).
 
     1.  Select the **Review header** details.
 
@@ -59,7 +60,7 @@ Role required: Accounts Payable specialist
 
     8.  Select **Add tax**.
 
-        The **Add tax lines to the invoice** pop-up box displays. You can choose to add tax lines associated with invoice line. For more information on the fields of tax lines, see [Invoice Tax lines fields](../reference/tax-lines.md).
+        The **Add tax lines to the invoice** pop-up box displays. You can choose to add tax lines associated with invoice line. For more information on the fields of tax lines, see [Invoice Tax lines fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/tax-lines.md).
 
     9.  Select an **Invoice line** in which you would like to add the tax lines.
 
@@ -97,7 +98,7 @@ Role required: Accounts Payable specialist
 
         A pop-up box displays prompting the user to enter the reason for the non-duplicate invoice.
 
-    5.  To reset the invoice to the received state after setting, it as confirmed duplicate follow the steps from [Reset an invoice to the Received status](reset-invoice-to-received.md).
+    5.  To reset the invoice to the received state after setting, it as confirmed duplicate follow the steps from [Reset an invoice to the Received status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/reset-invoice-to-received.md).
 
 7.  Select the **Map invoice lines** card.
 
@@ -117,11 +118,11 @@ Role required: Accounts Payable specialist
 
     6.  You can edit the invoice lines and match the invoice lines with the corresponding purchase order lines.
 
-    The swim lane moves to **Review compliance**. For more details on tax compliance, see [Tax integration in playbook](tax-integration-in-playbook.md).
+    The swim lane moves to **Review compliance**. For more details on tax compliance, see [Tax integration in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/tax-integration-in-playbook.md).
 
 8.  Select **Review exceptions**.
 
-    The list of exceptions raised for the invoice is listed. For more information on exceptions, see [Invoice exceptions](../concept/work-with-invoice-exceptions.md). This stage is set to auto-complete if the invoice doesn't run into exceptions.
+    The list of exceptions raised for the invoice is listed. For more information on exceptions, see [Invoice exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/work-with-invoice-exceptions.md). This stage is set to auto-complete if the invoice doesn't run into exceptions.
 
     1.  Review the exceptions generated for the invoice using the **Resolve exceptions** card, and resolve exceptions if any.
 
@@ -137,7 +138,7 @@ Role required: Accounts Payable specialist
 
     6.  Select **Create new task** to create an exception task.
 
-        For more information on exception tasks, [Work on an invoice exception](work-invoice-exception-case.md).
+        For more information on exception tasks, [Work on an invoice exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/work-invoice-exception-case.md).
 
 9.  Select the **Await approval** card.
 
@@ -149,14 +150,14 @@ Role required: Accounts Payable specialist
 
     1.  In the **Review Integration errors** activity, review the integration errors generated for the invoice.
 
-        For more information on integration errors, see [Integration errors](../concept/integration-errors-during-erp-posting.md).
+        For more information on integration errors, see [Integration errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/integration-errors-during-erp-posting.md).
 
     2.  The playbook auto-selects a **Review payments** activity.
 
-        You can view the payment details of the invoice. For more information on the payment form, see [Payment terms](../reference/payment-terms.md)
+        You can view the payment details of the invoice. For more information on the payment form, see [Payment terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/payment-terms.md)
 
     The invoice processing case is completed with status set to **Paid**.
 
 
-**Parent Topic:**[Playbook for updating the invoice primary data](../concept/playbooks.md)
+**Parent Topic:**[Playbook for updating the invoice primary data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/playbooks.md)
 

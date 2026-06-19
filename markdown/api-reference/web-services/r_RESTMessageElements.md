@@ -2,6 +2,7 @@
 title: REST message elements
 description: An outbound REST message is composed of several elements, such as the endpoint and HTTP methods.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/r\_RESTMessageElements.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -62,5 +63,5 @@ HTTP methods, such as GET, POST, or DELETE interact with the data at the endpoin
  A REST message may specify multiple HTTP methods. When sending a REST message, such as through a workflow activity or script, you must specify which HTTP method to use.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Outbound REST web service](../concept/c_OutboundRESTWebService.md)
+</table>**Parent Topic:**[Outbound REST web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_OutboundRESTWebService.md)
 

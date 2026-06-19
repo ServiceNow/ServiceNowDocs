@@ -2,6 +2,7 @@
 title: About policy exceptions
 description: By integrating Policy as Code Engine with Integrated Risk Management and Policy and Compliance Management workspace, the Compliance administrator can manage an organization's overall compliance posture and provide a business and regulatory context for codified policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/policy-as-code-engine-pace/pace-exception-about.html
 release: zurich
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

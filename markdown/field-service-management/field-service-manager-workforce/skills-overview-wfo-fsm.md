@@ -2,6 +2,7 @@
 title: Skills Overview in Workforce Optimization for Field Service
 description: Use Skills Overview to analyze skill data, such as how many skills are assigned to users and tasks. You can also see how many experts you have for a particular skill and the overall skill coverage by your teams.Access Skills Overview from Manager Workspace using either the Scheduling application or the Teams application to analyze skill data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-manager-workforce/skills-overview-wfo-fsm.html
 release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -15,7 +16,7 @@ breadcrumb: [Coaching, Workforce Optimization, Workforce, Use, Field Service Man
 
 Use Skills Overview to analyze skill data, such as how many skills are assigned to users and tasks. You can also see how many experts you have for a particular skill and the overall skill coverage by your teams.
 
-The following image illustrates the information displayed on the Skills Overview main page, which includes different types of data based on skill such as the overall skill coverage and a skills hierarchy.![Skills Overview with user and skill information organized in tiles. Additionally, there is a pie chart depicting skill coverage.](../image/Skills-overview-teams.png)
+The following image illustrates the information displayed on the Skills Overview main page, which includes different types of data based on skill such as the overall skill coverage and a skills hierarchy.\[Omitted image "Skills-overview-teams.png"\] Alt text: Skills Overview with user and skill information organized in tiles. Additionally, there is a pie chart depicting skill coverage.
 
 ## Use cases
 
@@ -50,7 +51,7 @@ The data displayed in the MTTR of incidents of skill indicator is calculated bas
 
 ## Reports
 
-**Important:** The Pending Users and Assigned Tasks reports display when you enable the Coaching with Learning application from the ServiceNow® Store. To enable this application, see [Activate Workforce Optimization for Field Service](../task/activate-wfo-fsm.md).
+**Important:** The Pending Users and Assigned Tasks reports display when you enable the Coaching with Learning application from the ServiceNow® Store. To enable this application, see [Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md).
 
 <table id="table_r1n_xnm_v4b"><thead><tr><th>
 
@@ -74,7 +75,7 @@ Assigned Users
 
 </td><td>
 
-![Assigned Users icon.](../../../reuse/reporting/image/single-score-sm.svg)
+\[Omitted image "single-score-sm.svg"\] Alt text: Assigned Users icon.
 
 </td><td>
 
@@ -90,7 +91,7 @@ Assigned Tasks
 
 </td><td>
 
-![Assigned Tasks icon.](../../../reuse/reporting/image/single-score-sm.svg)
+\[Omitted image "single-score-sm.svg"\] Alt text: Assigned Tasks icon.
 
 </td><td>
 
@@ -106,7 +107,7 @@ Pending Users
 
 </td><td>
 
-![Pending Users icon.](../../../reuse/reporting/image/single-score-sm.svg)
+\[Omitted image "single-score-sm.svg"\] Alt text: Pending Users icon.
 
 </td><td>
 
@@ -122,7 +123,7 @@ Course Items
 
 </td><td>
 
-![Course Items icon.](../../../reuse/reporting/image/single-score-sm.svg)
+\[Omitted image "single-score-sm.svg"\] Alt text: Course Items icon.
 
 </td><td>
 
@@ -213,7 +214,7 @@ Role required: skill\_admin
 
 You can access Skills Overview from Manager Workspace using the Teams or Shift Scheduling application.
 
-**Note:** You must enable the Coaching with Learning application to view the reports from the application. For information about enabling this application, see [Activate Workforce Optimization for Field Service](../task/activate-wfo-fsm.md).
+**Note:** You must enable the Coaching with Learning application to view the reports from the application. For information about enabling this application, see [Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md).
 
 ### Procedure
 
@@ -221,33 +222,33 @@ You can access Skills Overview from Manager Workspace using the Teams or Shift S
 
 2.  Access Skills Overview from either the Teams application or the Shift Scheduling application.
 
-<table id="choicetable_a5f_ty2_hwb"><thead><tr><th align="left" id="d132784e492">
+<table id="choicetable_a5f_ty2_hwb"><thead><tr><th align="left" id="d128283e492">
 
 Application
 
-</th><th align="left" id="d132784e495">
+</th><th align="left" id="d128283e495">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d132784e501">
+</th></tr></thead><tbody><tr><td id="d128283e501">
 
 **Teams**
 
 </td><td>
 
-1.  Click the Teams icon \(![Teams icon.](../../itsm-manager-workspace/image/teams-icon.png)\).
+1.  Click the Teams icon \(\[Omitted image "teams-icon.png"\] Alt text: Teams icon.\).
 2.  Select a team from the Field Service group list.
 3.  Click the **More** tab and then select **Skills**.
 4.  Select a skill from the Skill list.
 
 
-</td></tr><tr><td id="d132784e540">
+</td></tr><tr><td id="d128283e540">
 
 **Shift Scheduling**
 
 </td><td>
 
-1.  Click the Schedule icon \(![Schedule icon.](../../workforce-optimization-for-customer-service-configurable/image/schedule-new.png)\).
+1.  Click the Schedule icon \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon.\).
 2.  Click the **Team calendar** tab.
 3.  Select an agent from the list of users.
 4.  Click the **More** tab and then select **Skills**.

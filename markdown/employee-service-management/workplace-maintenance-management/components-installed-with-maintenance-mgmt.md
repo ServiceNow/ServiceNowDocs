@@ -2,6 +2,7 @@
 title: Components installed with Workplace Maintenance Management
 description: Different roles and components or tables are available with the installation of Workplace Maintenance Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-maintenance-management/components-installed-with-maintenance-mgmt.html
 release: zurich
 product: Workplace Maintenance Management
 classification: workplace-maintenance-management
@@ -87,7 +88,7 @@ Workplace Maintenance Service Configuration \(sn\_wsd\_maintenance\_service\_con
 
 </td><td>
 
-Associates workplace services and sets scheduling conditions for a plan record. The schedule job fetches plan records that have a maintenance schedule template for a workplace service to create maintenance cases. For more information, see [Create plan service configuration](../task/create-maint-service-config.md) and [Workplace planned maintenance scheduled job](../concept/sch-job-planned-nightly.md).
+Associates workplace services and sets scheduling conditions for a plan record. The schedule job fetches plan records that have a maintenance schedule template for a workplace service to create maintenance cases. For more information, see [Create plan service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/create-maint-service-config.md) and [Workplace planned maintenance scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/sch-job-planned-nightly.md).
 
 </td></tr></tbody>
 </table>## Workplace Maintenance Management Scheduled Jobs
@@ -108,7 +109,7 @@ Workplace Planned Maintenance Nightly Run
 
 </td><td>
 
-A scheduled job runs every 48 hours \(2 days\) to fetch plan records and create maintenance cases. For more information, see [Workplace planned maintenance scheduled job](../concept/sch-job-planned-nightly.md).
+A scheduled job runs every 48 hours \(2 days\) to fetch plan records and create maintenance cases. For more information, see [Workplace planned maintenance scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/sch-job-planned-nightly.md).
 
 </td></tr><tr><td>
 
@@ -145,7 +146,7 @@ sn\_wsd\_maintenance.optimise\_plans
 
 </td><td>
 
-Property to optimize plans by the Optimise Cleaning Activities Agentic AI workflow. For more information, see [Optimize cleaning activities agentic workflow](../../now-assist-wsd/concept/optimize-cleaning-activities-agent.md).**Note:** Workplace Maintenance managers should enter the sys ID of the maintenance plan record in the Value field. For multiple plans that you want to optimize, enter comma separate mainteance plan ID values. For example- "**a23321432, 3243245dsf**". Copy the Sys ID of a maintenance plan from your ServiceNow® instance URL link. https://&lt;instance\_name&gt;.service-now.com/now/workplace-management/maintenance-plan/3243245dsf. Here, the maintenance plan sys ID is 3243245dsf.
+Property to optimize plans by the Optimise Cleaning Activities Agentic AI workflow. For more information, see [Optimize cleaning activities agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/optimize-cleaning-activities-agent.md).**Note:** Workplace Maintenance managers should enter the sys ID of the maintenance plan record in the Value field. For multiple plans that you want to optimize, enter comma separate mainteance plan ID values. For example- "**a23321432, 3243245dsf**". Copy the Sys ID of a maintenance plan from your ServiceNow® instance URL link. https://&lt;instance\_name&gt;.service-now.com/now/workplace-management/maintenance-plan/3243245dsf. Here, the maintenance plan sys ID is 3243245dsf.
 
 </td></tr><tr><td>
 
@@ -153,7 +154,7 @@ sn\_wsd\_maintenance.optmise\_cleaning\_min\_utilisation\_threshold
 
 </td><td>
 
-Property to analyze the minimum space utilization threshold. Default value is **40**. If the utilization for a workplace maintenance plan is below this range, it is deactivated if it meets all the deactivation criteria set forth by the Optimise Cleaning Activities Agentic AI workflow. For more information, see [Optimize cleaning activities agentic workflow](../../now-assist-wsd/concept/optimize-cleaning-activities-agent.md).
+Property to analyze the minimum space utilization threshold. Default value is **40**. If the utilization for a workplace maintenance plan is below this range, it is deactivated if it meets all the deactivation criteria set forth by the Optimise Cleaning Activities Agentic AI workflow. For more information, see [Optimize cleaning activities agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/optimize-cleaning-activities-agent.md).
 
 </td></tr><tr><td>
 
@@ -161,7 +162,7 @@ sn\_wsd\_maintenance.optmise\_cleaning\_max\_utilisation\_threshold
 
 </td><td>
 
-Property to analyze the maximum utilization threshold. Default value is **80**. If the utilization for a workplace maintenance plan case goes beyond this range, a new maintenance case is added by the Optimize Cleaning Activities Agentic AI workflow. For more information, see [Optimize cleaning activities agentic workflow](../../now-assist-wsd/concept/optimize-cleaning-activities-agent.md).
+Property to analyze the maximum utilization threshold. Default value is **80**. If the utilization for a workplace maintenance plan case goes beyond this range, a new maintenance case is added by the Optimize Cleaning Activities Agentic AI workflow. For more information, see [Optimize cleaning activities agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/optimize-cleaning-activities-agent.md).
 
 </td></tr></tbody>
 </table>## Scheduled Job installed with Maintenance Management
@@ -182,7 +183,7 @@ Optimise cleaning activities
 
 </td><td>
 
-Optimise cleaning Activities Agentic Workflow is triggered when this scheduled job is run. This scheduled job runs in the UTC time zone. For more information, see [Optimize cleaning activities agentic workflow](../../now-assist-wsd/concept/optimize-cleaning-activities-agent.md)
+Optimise cleaning Activities Agentic Workflow is triggered when this scheduled job is run. This scheduled job runs in the UTC time zone. For more information, see [Optimize cleaning activities agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/optimize-cleaning-activities-agent.md)
 
 </td></tr><tr><td>
 
@@ -209,9 +210,9 @@ Workplace Maintenance Case Daily Data Collection
 Schedule job to automatically create planned maintenance cases based on existing planned maintenance records with associated templates and schedules. This job runs nightly to populate the Maintenance Management dashboard with data, enabling facilities teams to manage and execute routine maintenance tasks effectively. The job is scheduled to run daily, typically at night. It collects data from the Workplace Maintenance service configuration and Maintenance Schedule records. For planned maintenance records with an associated template and schedule, the job creates new, open maintenance cases. The collected data then populates the Maintenance Management dashboard, providing a clear overview of planned maintenance activities. It automates the process of creating maintenance cases, reducing manual effort and improving efficiency.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Maintenance Management references](../concept/workplace-maintenance-mgmt-references.md)
+</table>**Parent Topic:**[Workplace Maintenance Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/workplace-maintenance-mgmt-references.md)
 
-**Previous topic:**[Maintenance plan schedule examples](../concept/maintenance-plan-examples.md)
+**Previous topic:**[Maintenance plan schedule examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/maintenance-plan-examples.md)
 
-**Next topic:**[Workplace Lease Administration](../../workplace-lease-administration/concept/workplace-lease-admin-feat.md)
+**Next topic:**[Workplace Lease Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-lease-administration/workplace-lease-admin-feat.md)
 

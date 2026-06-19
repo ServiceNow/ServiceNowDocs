@@ -2,11 +2,12 @@
 title: CSDM terms for Digital Portfolio Management
 description: Because both ServiceNow products of Digital Portfolio Management \(DPM\) and Service Portfolio Management closely align with the Common Service Data Model \(CSDM\), it's helpful to know the common terms when working in these applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-portfolio-management/dpm-common-terms.html
 release: zurich
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-04-27"
 reading_time_minutes: 3
 breadcrumb: [CSDM guidelines, Configure, Digital Portfolio Management, IT Service Management]
 ---
@@ -206,5 +207,5 @@ An abstract and ideally visual representation \(model\) of how an organization d
 Typically represents the various elements of how an organization operates. It usually incorporates strategy positions such as the innovation model, degree of intelligent automation, industry alignment, provider delivery models, and the business expectations of IT.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Apply the CSDM guidelines to Digital Portfolio Management](dpm-csdm.md)
+</table>**Parent Topic:**[Apply the CSDM guidelines to Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-csdm.md)
 

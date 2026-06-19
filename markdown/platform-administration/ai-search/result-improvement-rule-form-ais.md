@@ -1,7 +1,8 @@
 ---
 title: AI Search Results Improvement Rule form
-description: The AI Search Results Improvement Rule form contains information about result improvement rules defined in your search profiles for AI Search. Use this form when creating or modifying a result improvement rule.
+description: The AI Search Results Improvement Rule form enables you to create a result improvement rule in an AI Search search profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/result-improvement-rule-form-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -13,9 +14,9 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 # AI Search Results Improvement Rule form
 
-The AI Search Results Improvement Rule form contains information about result improvement rules defined in your search profiles for AI Search. Use this form when creating or modifying a result improvement rule.
+The AI Search Results Improvement Rule form enables you to create a result improvement rule in an AI Search search profile.
 
-For details on creating or editing result improvement rules, see [Create a result improvement rule](../task/create-result-improve-rule-ais.md).
+For details on creating or editing result improvement rules, see [Create a result improvement rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-result-improve-rule-ais.md).
 
 <table id="table_y3f_rvd_qmb"><thead><tr><th>
 
@@ -117,5 +118,5 @@ List of conditions that must be met for the result improvement rule to activate.
 -   **User Context**: Operates on a user context element from the search user's ServiceNow AI Platform® session. The system displays the source table and field after the user context element name. As an example, a **\[User Context - Country \(sys\_user.country\)\] \[is\] \[Japan\]** condition is satisfied when the search user's User \[sys\_user\] record has **country** set to Japan.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Search reference](../concept/reference-ais.md)
+</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/reference-ais.md)
 

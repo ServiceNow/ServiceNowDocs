@@ -2,6 +2,7 @@
 title: Create a TCO report source in Enterprise Asset Workspace
 description: Create a TCO report source to add report sources to a TCO report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/create-tco-report-source-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -89,5 +90,5 @@ Description of the report source.
     The new report source is added to the TCO report sources tab.
 
 
-**Parent Topic:**[Configuring Total Cost of Ownership for enterprise assets](../concept/confifure-eam-asset-tco.md)
+**Parent Topic:**[Configuring Total Cost of Ownership for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/confifure-eam-asset-tco.md)
 

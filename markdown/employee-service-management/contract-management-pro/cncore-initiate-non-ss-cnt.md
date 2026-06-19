@@ -2,6 +2,7 @@
 title: Initiate a non-self-served contract request
 description: As a case owner or fulfiller, initiate the submission of contracts when you want third-party based contract documents to be sent for review.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-initiate-non-ss-cnt.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -21,7 +22,7 @@ The initiated contract is assigned according to an assignment rule or manually b
 
 ## Before you begin
 
-Ensure that the initiate contract button has been added to your workspace. For more information, see [Add a workspace action button for initiating a contract request](cncore-config-initiate-cont.md).
+Ensure that the initiate contract button has been added to your workspace. For more information, see [Add a workspace action button for initiating a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-config-initiate-cont.md).
 
 Role required: sn\_cm\_core.contract\_user, sn\_cm\_core.contract\_fulfiller
 
@@ -35,7 +36,7 @@ Role required: sn\_cm\_core.contract\_user, sn\_cm\_core.contract\_fulfiller
 
 4.  In the **Type of paper** drop-down list, select **Third-party paper**.
 
-    ![Initiate contract window to populate the contract request details.](../image/cmpro-initiate-tpc.png "Initiate own-paper contract")
+    \[Omitted image "cmpro-initiate-tpc.png"\] Alt text: Initiate contract window to populate the contract request details.
 
 5.  In the **Type** field, specify whether the contract request is for single contract or multiple contracts.
 
@@ -62,7 +63,7 @@ If there are validation errors, the contract request is created in the Draft sta
 
 ## What to do next
 
-Add contract documents and submit the contract request. For more information, see [Add contract documents to non-self-served contract request](cncore-nss-add-cont-doc.md).
+Add contract documents and submit the contract request. For more information, see [Add contract documents to non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-nss-add-cont-doc.md).
 
-**Parent Topic:**[Initiating a contract or amendment request](cncore-initiate-contract.md)
+**Parent Topic:**[Initiating a contract or amendment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-initiate-contract.md)
 

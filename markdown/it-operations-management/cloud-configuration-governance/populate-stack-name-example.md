@@ -2,6 +2,7 @@
 title: Populate stack name with a script
 description: This example illustrates how to populate the name of the stack that a user requests from the Cloud Provisioning and Governance catalog by utilizing the user's ID. The example uses a script include that you can call from a blueprint rule action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/populate-stack-name-example.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -21,11 +22,11 @@ Role required: sn\_cmp.cloud\_service\_designer
 
 Before you can follow this example, you should be familiar with creating blueprints and blueprint rules. See these resources:
 
--   [Cloud Provisioning Blueprints](../concept/blueprints.md)
--   [Build a Cloud Provisioning blueprint](create-blueprint-cmp.md)
--   [Configure a blueprint rule](configure-a-blueprint-rule.md#)
+-   [Cloud Provisioning Blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/blueprints.md)
+-   [Build a Cloud Provisioning blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-blueprint-cmp.md)
+-   [Configure a blueprint rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md)
 
-This example uses a script include. If you want to create similar script includes, familiarize yourself with the Glide System APIs that are part of your instance. See the [Developer site](https://developer.servicenow.com) for a comprehensive list of all APIs. See [Script Includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) for more information about how the system uses these scripts.
+This example uses a script include. If you want to create similar script includes, familiarize yourself with the Glide System APIs that are part of your instance. See the [Developer site](https://developer.servicenow.com) for a comprehensive list of all APIs. See Script Includes for more information about how the system uses these scripts.
 
 ## About this task
 
@@ -35,11 +36,11 @@ The goal of this example is to take the ID of the catalog requester and populate
 
 1.  Create a script include that returns the user ID of the person requesting the catalog item:
 
-    1.  In the standard interface for the instance \(not in the Cloud Admin Portal\), click the gear icon \(![System settings gear icon](../image/icon-gear-system-settings.png)\) in the upper left, and then click **Developer**.
+    1.  In the standard interface for the instance \(not in the Cloud Admin Portal\), click the gear icon \(\[Omitted image "icon-gear-system-settings.png"\] Alt text: System settings gear icon\) in the upper left, and then click **Developer**.
 
     2.  In the **Application** field, select **Cloud Provisioning and Governance**.
 
-        ![Changing the scope](../image/scope-cmp.png)
+        \[Omitted image "scope-cmp.png"\] Alt text: Changing the scope
 
         The application scope of your instance changes to**Cloud Provisioning and Governance**. This selection means that the Cloud Provisioning and Governance application can find the script include.
 
@@ -104,17 +105,17 @@ SetFields.prototype = {
 The function `setStackName()` returns the user name of the catalog item requester. You can call this function from a blueprint rule action.
 
 </td></tr></tbody>
-</table>        ![Set fields script include](../image/blueprint-setfields-scriptinclude.png)
+</table>        \[Omitted image "blueprint-setfields-scriptinclude.png"\] Alt text: Set fields script include
 
     7.  Click **Submit**.
 
-    8.  Click the gear icon \(![System settings gear icon](../image/icon-gear-system-settings.png)\) in the upper left again, and then change the **Application** back to **Global**.
+    8.  Click the gear icon \(\[Omitted image "icon-gear-system-settings.png"\] Alt text: System settings gear icon\) in the upper left again, and then change the **Application** back to **Global**.
 
 2.  In the Cloud Admin portal, navigate to **Design** &gt; **Blueprints** and open the relevant blueprint.
 
 3.  On the blueprint form, click the **Catalog** tab, and then click the tile that represents the **Provision** operation.
 
-    ![Catalog item](../image/request-operation-catalog-item.png)
+    \[Omitted image "request-operation-catalog-item.png"\] Alt text: Catalog item
 
 4.  Click the **Stack Name** variable set in the Variable Sets related list.
 
@@ -177,7 +178,7 @@ Call the method in the script include that returns the user ID. The call must be
  In this example, use `$(Script:SetFields.setStackName[])`
 
 </td></tr></tbody>
-</table>        ![A script action on StackName](../image/blueprint-action-pop-stackname.png)
+</table>        \[Omitted image "blueprint-action-pop-stackname.png"\] Alt text: A script action on StackName
 
     3.  Click **Submit**.
 
@@ -186,7 +187,7 @@ Call the method in the script include that returns the user ID. The call must be
 
 In the Cloud User Portal, the catalog order form for the Provision operation shows the user ID of the logged-in user. This example uses the user Able Tutor, which comes in the base system as demo data. The value in the **Stack Name** field is the same value as in the User ID field on the User \[sys\_user\] table. The profile icon for the same logged in user is also displayed in the upper right of the Cloud User Portal.
 
-![The Logged In User](../image/logged-in-user.png)
+\[Omitted image "logged-in-user.png"\] Alt text: The Logged In User
 
-**Parent Topic:**[Cloud catalog form configuration examples](../concept/example-blueprint-rules.md)
+**Parent Topic:**[Cloud catalog form configuration examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/example-blueprint-rules.md)
 

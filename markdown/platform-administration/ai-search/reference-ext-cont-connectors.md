@@ -2,6 +2,7 @@
 title: External Content Connectors reference
 description: Reference information for the External Content Connectors application and for individual external content connectors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/reference-ext-cont-connectors.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -16,18 +17,18 @@ breadcrumb: [External Content Connectors, ServiceNow Store applications and inte
 
 Reference information for the External Content Connectors application and for individual external content connectors.
 
--   **[Components installed with External Content Connectors](../reference/installed-with-ext-content-connectors.md)**  
-The External Content Connectors plugin installs a connector admin role and a scheduled job to remove unused OAuth 2.0 credentials for deleted external content connectors.
--   **[Binary file extensions supported in External Content Connectors](../reference/file-extensions-ext-cont-connector.md)**  
+-   **[Components installed with External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/installed-with-ext-content-connectors.md)**  
+The External Content Connectors plugin installs a connector administrator role and a scheduled job to remove unused OAuth 2.0 credentials for deleted external content connectors.
+-   **[Binary file extensions supported in External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/file-extensions-ext-cont-connector.md)**  
  Connector administrators can restrict the binary file types an external content connector retrieves by specifying file extensions in inclusion or exclusion filters.
--   **[Statistics for external content connector content crawls](../reference/document-statistics-external-content-connectors.md)**  
+-   **[Statistics for external content connector content crawls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/document-statistics-external-content-connectors.md)**  
 Each crawl history entry for an external content connector's content crawl includes statistics about the documents \(items or files with searchable content and metadata\) retrieved by the crawl.
--   **[Statistics for external content connector user permission crawls](../reference/permission-statistics-external-content-connectors.md)**  
+-   **[Statistics for external content connector user permission crawls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/permission-statistics-external-content-connectors.md)**  
 Each crawl history entry for an external content connector's user permission crawl crawl includes statistics about the permissions \(user and group-membership security principals\) retrieved by the crawl.
--   **[Analytics for external content connectors](../reference/analytics-external-content-connectors.md)**  
+-   **[Analytics for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/analytics-external-content-connectors.md)**  
 Metrics that show how your external content connector has run over time.
--   **[Reassign the External Content Connectors Service Account user to the global domain](../task/reassign-ext-cont-connectors-svc-acct-usr-global-domain.md)**  
+-   **[Reassign the External Content Connectors Service Account user to the global domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/reassign-ext-cont-connectors-svc-acct-usr-global-domain.md)**  
 Fix issues with missing user permissions for users on your instance by reassigning the External Content Connectors Service Account user to the global domain.
 
-**Parent Topic:**[External Content Connectors](../reference/ext-cont-connectors-landing-page.md)
+**Parent Topic:**[External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ext-cont-connectors-landing-page.md)
 

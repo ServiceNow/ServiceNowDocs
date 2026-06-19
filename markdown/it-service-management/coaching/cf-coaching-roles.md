@@ -2,6 +2,7 @@
 title: Coaching roles
 description: Assign Coaching roles to specify what different users can see and do.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/coaching/cf-coaching-roles.html
 release: zurich
 product: Coaching
 classification: coaching
@@ -90,5 +91,5 @@ Grants administrative rights to create, read, or update learning libraries based
 -   sn\_lc.content\_writer
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Coaching reference](cf-coaching-reference.md)
+</table>**Parent Topic:**[Coaching reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/coaching/cf-coaching-reference.md)
 

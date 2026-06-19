@@ -2,6 +2,7 @@
 title: Configure mutual authentication
 description: Mutual authentication establishes trust by exchanging secure sockets layer \(SSL\) certificates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/c\_MutualAuthentication.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -19,7 +20,7 @@ During the SSL handshake, the server presents its certificate to the client. Sub
 
 Following a successful validation, acknowledgments are exchanged before the initiating the HTTPS connection.
 
-**Note:** For information about using a custom HTTPS protocol profile to enable mutual authentication, see [Create a protocol profile](https://www.servicenow.com/docs/access?context=t_CreateAProtocolProfile&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+**Note:** For information about using a custom HTTPS protocol profile to enable mutual authentication, see .
 
 Administrators do the preliminary work of setting up the client Key Store and generating certificates before certification requests are fulfilled.
 
@@ -79,7 +80,7 @@ Now that the key store has been created, it can be uploaded to the Certificates 
 
 Click **Submit** to create the Java Key Store entry.
 
-![](../image/Keystore.png "Key Store")
+\[Omitted image "Keystore.png"\] Alt text:
 
 ## Specifying a Trusted Server Certificate
 
@@ -91,14 +92,14 @@ Create a new Certificate entry with the type of "Trust Store Cert" and attach a 
 
 ## Protocol Profile
 
-![](../image/CertExchange.png "Certificate Exchange")
+\[Omitted image "CertExchange.png"\] Alt text:
 
 -   When a client requests the server certificate for authentication, a certificate signing request \(CSR\) is generated.
 -   To respond to a CSR, the server generates two unique cryptographic keys: A public key, which is used to encrypt messages to the server and a private key, which is used to decrypt messages. Both keys are kept in the Key Store.
 -   Keys are used to decrypt the client secure messages so they can be read by the server. Any outgoing connection that is going to be HTTPS verifies the certification by checking the Key Store, offering its public certification, and uses the trust store certificates to verify mutual trust back.
 -   To complete the secure link between the client and the server, the server matches the certificate to the corresponding private key. Because only the server has access to the private key, the server can decrypt the data from the client.
 
-**Note:** For information about using a custom HTTPS protocol profile to enable mutual authentication, see [Create a protocol profile](https://www.servicenow.com/docs/access?context=t_CreateAProtocolProfile&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+**Note:** For information about using a custom HTTPS protocol profile to enable mutual authentication, see .
 
 The server responds by sending a certificate. Is this a certificate that the client accepts? If yes, a message is sent to the server accepting the certificate and a secure channel is initiated. If the certificate is not accepted, it may mean that the root authority is needed for certification.
 

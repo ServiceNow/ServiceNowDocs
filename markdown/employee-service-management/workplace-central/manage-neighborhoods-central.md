@@ -2,11 +2,12 @@
 title: Manage neighborhoods using Space Planning
 description: As a space planner, create and manage neighborhoods to assign groups of spaces for your organization's employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-central/manage-neighborhoods-central.html
 release: zurich
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2026-02-11"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Working with Space Planning, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -17,15 +18,17 @@ As a space planner, create and manage neighborhoods to assign groups of spaces f
 
 ## Before you begin
 
-Role required: sn\_wsd\_core.workplace\_manager
+Role required: sn\_wsd\_core.workplace\_manager or sn\_wsd\_spcmgmt.space\_planner
+
+**Note:** The sn\_wsd\_core.scenario\_reader role has access to view the neighborhoods, their details, and allocated spaces.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workplace Central**.
+1.  Navigate to **All** &gt; **Workplace Central** &gt; **Workplace Central**.
 
-2.  Select the **Space Planning** module.
+2.  On the side navigation, select the **Space Planning** module.
 
-    The floor plan tab opens by default.
+    The Space Planning workspace opens with the **Floor plan** tab selected by default.
 
 3.  Select the **Neighborhoods** tab.
 
@@ -33,23 +36,23 @@ Role required: sn\_wsd\_core.workplace\_manager
 
 4.  Manage the neighborhoods based on your requirement.
 
-<table id="choicetable_zfx_yfn_g3c"><thead><tr><th align="left" id="d687653e93">
+<table id="choicetable_zfx_yfn_g3c"><thead><tr><th align="left" id="d155690e101">
 
 Action
 
-</th><th align="left" id="d687653e96">
+</th><th align="left" id="d155690e104">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d687653e102">
+</th></tr></thead><tbody><tr><td id="d155690e110">
 
 **Filter neighborhoods**
 
 </td><td>
 
-You can filter, sort, and group the neighborhoods in the list using filters. For more information about filters, see [Filters and breadcrumbs](https://www.servicenow.com/docs/access?context=c_UsingFiltersAndBreadcrumbs&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+You can filter, sort, and group the neighborhoods in the list using filters. For more information about filters, see .
 
-</td></tr><tr><td id="d687653e115">
+</td></tr><tr><td id="d155690e122">
 
 **Create a neighborhood**
 
@@ -58,12 +61,12 @@ You can filter, sort, and group the neighborhoods in the list using filters. For
 1.  On the Neighborhoods list, select **New**.
 2.  On the Create New Neighborhood form, fill in the fields.
 
-For a description of the field values, see the Neighborhood Form table in [Create a neighborhood for workplace users](../../workplace-space-management/task/create-neighborhood.md).
+For a description of the field values, see the Neighborhood Form table in [Create a neighborhood for workplace users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/create-neighborhood.md).
 
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d687653e151">
+</td></tr><tr><td id="d155690e158">
 
 **Edit neighborhood details**
 
@@ -79,8 +82,8 @@ For a description of the field values, see the Neighborhood Form table in [Creat
 
 </td></tr></tbody>
 </table>
--   **[Manage a single neighborhood](manage-single-neighborhood.md)**  
+-   **[Manage a single neighborhood](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/manage-single-neighborhood.md)**  
 Edit the details of a neighborhood like the spaces, workplace profiles, space assignment tasks, and user assignment rules.
 
-**Parent Topic:**[Working with Space Planning](../concept/working-with-space-planning.md)
+**Parent Topic:**[Working with Space Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/working-with-space-planning.md)
 

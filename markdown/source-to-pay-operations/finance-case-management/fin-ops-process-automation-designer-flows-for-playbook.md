@@ -2,6 +2,7 @@
 title: Process Automation Designer flows for playbook
 description: Workflow Studio Playbooks enables you, as a business playbook owner, to organize Workflow Studio content into unified and digitized cross-enterprise processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/finance-case-management/fin-ops-process-automation-designer-flows-for-playbook.html
 release: zurich
 product: Finance Case Management
 classification: finance-case-management
@@ -17,7 +18,7 @@ Workflow Studio Playbooks enables you, as a business playbook owner, to organize
 
 You can customize the Playbook experience with your own configurations and activity overrides. The automated business processes that you design guide your end users and help them focus on the tasks and information that matter to them.
 
-For information on Playbooks, see [Playbooks](https://www.servicenow.com/docs/access?context=process-automation-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+For information on Playbooks, see Playbooks.
 
-**Parent Topic:**[Explore the Finance Operations Workspace](fin-ops-workpace.md)
+**Parent Topic:**[Explore the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/finance-case-management/fin-ops-workpace.md)
 

@@ -2,6 +2,7 @@
 title: Service contract life cycle
 description: A service contract goes through the various states in each phase of its life cycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/life-cycle-management.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -109,5 +110,5 @@ Exceptionally, when a contract line or entitlement in the Suspended state has re
 
 A service contract line associated with a service contract must be created within the service contract's start and end dates. Any modification to the dates of service contract lines must comply with the date range of the parent service contract.
 
-**Parent Topic:**[Customer Contracts and Entitlements reference](pss-reference.md)
+**Parent Topic:**[Customer Contracts and Entitlements reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/pss-reference.md)
 

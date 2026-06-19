@@ -2,6 +2,7 @@
 title: Set up advanced risk assessments for policy exception
 description: Customize the risk assessment methodology by creating your values for each question in risk assessment and calculate your risk rating scores.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/configure-risk-assess-method.html
 release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

@@ -2,13 +2,14 @@
 title: Create risk form
 description: The risk form information is used to create a risk for the demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/risk-form-dw.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
 last_updated: "2026-01-19"
 reading_time_minutes: 1
-breadcrumb: [Form field information, Reference, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Forms, Reference, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Create risk form
@@ -93,7 +94,7 @@ Risk rank
 
 </td><td>
 
-A value and color assigned to the risk. This value is calculated using risk probability and impact. You can configure the color and value using the Risk Value Lookup. For more information, see [Configure a custom risk rank and risk value](../task/configure-a-custom-risk-rank-dw.md).
+A value and color assigned to the risk. This value is calculated using risk probability and impact. You can configure the color and value using the Risk Value Lookup. For more information, see [Configure a custom risk rank and risk value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/configure-a-custom-risk-rank-dw.md).
 
 </td></tr><tr><td>
 
@@ -117,7 +118,7 @@ Risk value
 
 </td><td>
 
-A value calculated from the Risk Value Lookup. For more information, see [Configure a custom risk rank and risk value](../task/configure-a-custom-risk-rank-dw.md).
+A value calculated from the Risk Value Lookup. For more information, see [Configure a custom risk rank and risk value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/configure-a-custom-risk-rank-dw.md).
 
 </td></tr><tr><td>
 

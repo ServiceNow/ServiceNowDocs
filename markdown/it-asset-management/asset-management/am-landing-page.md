@@ -2,6 +2,7 @@
 title: Asset Management
 description: The Asset Management application integrates the physical, technological, contractual, and financial aspects of information technology assets. Asset Management focuses on the financial tracking of company property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/asset-management/am-landing-page.html
 release: zurich
 product: Asset Management
 classification: asset-management
@@ -19,15 +20,15 @@ The Asset Management application integrates the physical, technological, contrac
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn the key features and business value that the Asset Management offers.](../concept/exploring-asset-management.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn the key features and business value that the Asset Management offers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/exploring-asset-management.md)
 
 </td><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-manage.svg)Use the Asset Management to efficiently manage your assets.](../concept/using-asset-management.md)
+[Use \[Omitted image "bus-manage.svg"\] Alt text:Use the Asset Management to efficiently manage your assets.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/using-asset-management.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get additional information about the roles, domain separation, lists and forms in the Asset Management application.](../concept/references-asset-management.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get additional information about the roles, domain separation, lists and forms in the Asset Management application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/references-asset-management.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

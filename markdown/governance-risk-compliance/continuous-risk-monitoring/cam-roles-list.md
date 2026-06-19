@@ -1,7 +1,8 @@
 ---
 title: CAM user roles
-description: Assign users and groups with roles to prepare them to user the CAM application.
+description: Assign users and groups with roles to prepare them to use the CAM application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/continuous-risk-monitoring/cam-roles-list.html
 release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -13,7 +14,7 @@ breadcrumb: [Reference, Continuous Authorization and Monitoring, Governance, Ris
 
 # CAM user roles
 
-Assign users and groups with roles to prepare them to user the CAM application.
+Assign users and groups with roles to prepare them to use the CAM application.
 
 ## Role permissions and responsibilities
 
@@ -349,7 +350,7 @@ Responsible for running all scheduled jobs for the application. This role is for
 
 </td><td>
 
-sn\_irm\_cont\_auth..system\_owner
+sn\_irm\_cont\_auth.system\_owner
 
 </td></tr><tr><td>
 
@@ -458,5 +459,5 @@ Responsible for performing actual work in the system. They can update authorizat
 -   sn\_irm\_cont\_auth.reader
 
 </td></tr></tbody>
-</table>**Parent Topic:**[CAM reference](../concept/reference-grc-cam.md)
+</table>**Parent Topic:**[CAM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
 

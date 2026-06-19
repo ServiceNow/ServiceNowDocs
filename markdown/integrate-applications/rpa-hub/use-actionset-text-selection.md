@@ -2,6 +2,7 @@
 title: Use the ActionSet Text Selection action
 description: Select, copy, or delete text from the Desktop and Windows applications, and the Internet Explorer browser by using the Text Selection action in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/use-actionset-text-selection.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -17,7 +18,7 @@ Select, copy, or delete text from the Desktop and Windows applications, and the 
 
 ## Before you begin
 
-Capture an image of the target application window and create an anchor. For information about how to do this, see [Use the ActionSet component](use-actionsui-actionset.md).
+Capture an image of the target application window and create an anchor. For information about how to do this, see [Use the ActionSet component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/use-actionsui-actionset.md).
 
 Role required: none
 
@@ -25,19 +26,19 @@ Role required: none
 
 In addition to selecting text, the ActionSet Text Selection action can copy or delete text in a targeted application window. You can also set the action to trim leading or trailing white space from the captured text.
 
-You can configure the properties for the Text Selection component. For more information about these properties, see [ActionSet Text Selection- Properties](../reference/actionset-actions-properties.md#ActionSet-TextSelection).
+You can configure the properties for the Text Selection component. For more information about these properties, see [ActionSet Text Selection- Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/actionset-actions-properties.md).
 
 ## Procedure
 
 1.  Right-click the anchor.
 
-    To learn about the anchor, see how to use the [Anchor](../concept/anchor.md).
+    To learn about the anchor, see how to use the [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/anchor.md).
 
 2.  Click **Text Selection**.
 
-3.  Drag the green rectangle icon \(![Green rectangle icon.](../image/green-rectangle.png)\) over the area that contains the text that you want to select, copy, or delete.
+3.  Drag the green rectangle icon \(\[Omitted image "green-rectangle.png"\] Alt text: Green rectangle icon.\) over the area that contains the text that you want to select, copy, or delete.
 
-4.  To increase or decrease the area on the captured image covered by the green rectangle icon \(![Green rectangle icon.](../image/green-rectangle.png)\), drag its edges.
+4.  To increase or decrease the area on the captured image covered by the green rectangle icon \(\[Omitted image "green-rectangle.png"\] Alt text: Green rectangle icon.\), drag its edges.
 
 5.  In the Properties pane, select **Copy** or **Delete** from the Type list in the General section.
 
@@ -56,5 +57,5 @@ You can configure the properties for the Text Selection component. For more info
 8.  To test the component, right-click the component bar and then click **Run From Here**.
 
 
-**Parent Topic:**[Use the ActionSet component](use-actionsui-actionset.md)
+**Parent Topic:**[Use the ActionSet component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/use-actionsui-actionset.md)
 

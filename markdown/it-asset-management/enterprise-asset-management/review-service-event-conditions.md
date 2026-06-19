@@ -2,6 +2,7 @@
 title: Review the asset condition results
 description: After the enterprise technician has completed the condition evaluation, the enterprise asset manager reviews the condition evaluation and views the reports in the Work management dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/review-service-event-conditions.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management

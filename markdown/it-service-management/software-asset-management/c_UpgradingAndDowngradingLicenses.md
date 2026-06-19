@@ -2,6 +2,7 @@
 title: License upgrade and downgrade with the legacy Software Asset Management plugin
 description: The concept of upgrading and downgrading licenses is built in to the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/software-asset-management/c\_UpgradingAndDowngradingLicenses.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -29,10 +30,10 @@ You can set the start and end dates for a software upgrade parent and downgrade 
 
 **Note:** If an upgrade parent or downgrade child is set on the software model, it applies to all licenses of that model. If set on the software license, it applies specifically to that license.
 
--   **[Upgrade a license using the legacy Software Asset Management plugin](../task/t_UpgradingALicense.md)**  
+-   **[Upgrade a license using the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management/t_UpgradingALicense.md)**  
 Use the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin to upgrade a software license through one of two methods: through a software license record or through a software model record.
--   **[Downgrade a license using the legacy Software Asset Management plugin](../task/t_DowngradingALicense.md)**  
+-   **[Downgrade a license using the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management/t_DowngradingALicense.md)**  
 Use the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin to downgrade a software license through one of two methods: through a software model record or through a software license record.
 
-**Parent Topic:**[Software licenses in the legacy Software Asset Management plugin](c_SoftwareLicenses.md)
+**Parent Topic:**[Software licenses in the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management/c_SoftwareLicenses.md)
 

@@ -2,6 +2,7 @@
 title: Modify and download the manifest file for GCC-H or DoD
 description: Create and download the ServiceNow for Microsoft Teams manifest file from your instance to enable Microsoft Teams to use the ServiceNow for Teams app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/modify-download-manifest-file.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -39,7 +40,7 @@ Role required:external\_app\_install\_admin
 
     4.  **Unfurl Links**: Option to unfurl the links in Microsoft Teams.
 
-        Link unfurling generates a content-rich preview\(adaptive card\) when a supported link is shared in a conversation with a user in Microsoft Teams. For more details about link unfurling, refer [Unfurl the web links in Microsoft Teams chat](../concept/enable-link-unfurling.md).
+        Link unfurling generates a content-rich preview\(adaptive card\) when a supported link is shared in a conversation with a user in Microsoft Teams. For more details about link unfurling, refer [Unfurl the web links in Microsoft Teams chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/enable-link-unfurling.md).
 
     5.  **Short description**: Short description about the manifest file.
 
@@ -51,17 +52,17 @@ Role required:external\_app\_install\_admin
 
 4.  Click **Submit**.
 
-    ![Submit manifest file](../images/submit-manifest.png)
+    \[Omitted image "submit-manifest.png"\] Alt text: Submit manifest file
 
 5.  In the **Generic Info** section, click **Next** to navigate to **Configure Virtual Agent** tab.
 
-    ![Next option in Generic Info tab](../images/next-tab.png)
+    \[Omitted image "next-tab.png"\] Alt text: Next option in Generic Info tab
 
 6.  In the **Configure Virtual Agent** section, you can do one of the following.
 
-    To configure the Virtual Agent in your instance, click **Configure Virtual Agent**. For more information, see [Conversational Integration with Microsoft Teams](https://www.servicenow.com/docs/access?context=teams-conv-integration&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+    To configure the Virtual Agent in your instance, click **Configure Virtual Agent**. For more information, see Conversational Integration with Microsoft Teams.
 
-    ![Configure Virtual Agent tab](../images/configure-va-tab.png)
+    \[Omitted image "configure-va-tab.png"\] Alt text: Configure Virtual Agent tab
 
     Select **Connect multiple ServiceNow instances to your Microsoft Teams tenant**and select the Virtual agent installed in Step 5.
 
@@ -77,7 +78,7 @@ Role required:external\_app\_install\_admin
 
         For self-configured app, you must provide the Application \(client\) ID and Directory \(tenant\) ID in the **Configure Tab** section.
 
-        ![pre-published app configure tab](../images/multi-tenant-configure-tab.png)
+        \[Omitted image "multi-tenant-configure-tab.png"\] Alt text: pre-published app configure tab
 
 8.  In the **Ready** section, select **Enable Activity Feed** option to receive notifications for campaigns.
 
@@ -88,7 +89,7 @@ Role required:external\_app\_install\_admin
 
 ## What to do next
 
-You must upload the manifest file in Microsoft Teams. For more information, refer [Upload manifest file in Microsoft Teams](upload-manifest-ms-teams.md).
+You must upload the manifest file in Microsoft Teams. For more information, refer [Upload manifest file in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/upload-manifest-ms-teams.md).
 
-**Parent Topic:**[Integrating Employee Center and Virtual Agent with Microsoft Teams for GCC-H or DoD](../concept/ec-teams-va-integration-gcch.md)
+**Parent Topic:**[Integrating Employee Center and Virtual Agent with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-teams-va-integration-gcch.md)
 

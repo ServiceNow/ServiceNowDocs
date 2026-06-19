@@ -2,6 +2,7 @@
 title: Cascade an order guide variable
 description: Cascading enables values entered for variables in the initial order form to be passed to the equivalent variables in the ordered catalog items.You can use a variable set with an order guide.You can hide the duplicated variables on the Choose Options screens to keep your screen clean.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/c\_CascadeTheOrderGuideVariables.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -19,7 +20,7 @@ Cascading allows values entered for variables in the initial order form to be pa
 
 To enable cascading, select the **Cascade variables** check box when creating the order guide. Then, create variables on the catalog items that match the names of the corresponding variables in the order guide. When a customer places an order, the variables on the ordered items inherit the values of the identically named variables in the order guide.
 
-**Parent Topic:**[Create an order guide variable](c_CreateVariables.md)
+**Parent Topic:**[Create an order guide variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_CreateVariables.md)
 
 ## Use a variable set
 

@@ -2,11 +2,12 @@
 title: Primary data integration
 description: All primary data are synchronized based on the configurable scheduled job Fetch Spend Primary Data. For supplier primary data, if an update is made in the ERP, it is synchronized with Source-to-Pay \(S2P\) even if the scheduled job has not been triggered.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/source-to-pay-integration-framework/master-data-integration.html
 release: zurich
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Source-to-Pay integration framework, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---

@@ -2,6 +2,7 @@
 title: Data Loss Prevention Incident Response Incident Management
 description: Use the Data Loss Prevention Incident Response Incident Management to update and manage incidents by leveraging the DLP User Workspace, DLP Analyst Workspace, and DLP Dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/data-loss-prevention/data-loss-prevention-incident-management.html
 release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -15,10 +16,10 @@ breadcrumb: [Data Loss Prevention Incident Response, Security Operations]
 
 Use the Data Loss Prevention Incident Response Incident Management to update and manage incidents by leveraging the DLP User Workspace, DLP Analyst Workspace, and DLP Dashboard.
 
--   **[Data Loss Prevention Incident Response User Workspace](../concept/using-dlp-end-user-portal.md)**  
+-   **[Data Loss Prevention Incident Response User Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/using-dlp-end-user-portal.md)**  
 The Data Loss Prevention Incident Response \(DLP IR\) User Workspace is a workspace where end users, managers, and approvers can respond to the assigned DLP incidents. The end users, managers, and approvers can then respond to the incidents by specifying the correct actions.
--   **[Data Loss Prevention Incident Response Analyst Workspace](../concept/using-dlp-ops-portal.md#)**  
+-   **[Data Loss Prevention Incident Response Analyst Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/using-dlp-ops-portal.md)**  
 Use the Data Loss Prevention Incident Response \(DLP IR\) Analyst Workspace to view the DLP incidents. Assign the incidents to end users for resolution and more.
--   **[Data Loss Prevention Incident Response Dashboard](../concept/using-dlp-dashboard.md#)**  
+-   **[Data Loss Prevention Incident Response Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/using-dlp-dashboard.md)**  
 The Data Loss Prevention Incident Response \(DLP IR\) Dashboard provides a high-level overview of your DLP incidents and daily incidents trends in your instance in the form of graphical charts. These charts help you effectively view, manage, and remediate the DLP incidents.
 

@@ -2,6 +2,7 @@
 title: Install Agent Client Collector on Windows using Microsoft Intune
 description: Use Microsoft Intune to install Agent Client Collector \(ACC\) on multiple Windows devices at once, promoting consistent deployment across your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/bulk-deploy-acc-on-win.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -17,7 +18,7 @@ Use Microsoft Intune to install Agent Client Collector \(ACC\) on multiple Windo
 
 ## Before you begin
 
--   Create an agent registration key. For more information, see [Create an ACC registration key](../../product/digital-end-user-experience/task/setup-acc.md).
+-   Create an agent registration key. For more information, see [Create an ACC registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/setup-acc.md).
 
 Role required: agent\_client\_collector\_admin
 
@@ -31,7 +32,7 @@ The following procedure describes how to mass-deploy ACC using Microsoft Intune.
 
     1.  Navigate to **Self-Service** &gt; **Agent Client Collector** &gt; **Deployment** &gt; **Agent Client Downloads**.
 
-    2.  Download the MSI installer by selecting the Download icon \(![](../../product/digital-end-user-experience/image/icon-download-blue.png)\) under the Windows Downloads section.
+    2.  Download the MSI installer by selecting the Download icon \(\[Omitted image "icon-download-blue.png"\]\) under the Windows Downloads section.
 
     3.  Copy the command from the Single-line installer commands section of **Agent Client Downloads**.
 

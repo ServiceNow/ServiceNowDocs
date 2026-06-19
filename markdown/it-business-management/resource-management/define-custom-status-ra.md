@@ -2,6 +2,7 @@
 title: Define custom statuses for resource assignments
 description: Define and assign custom statuses for resource assignments to mark the assignments based on your organization requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/resource-management/define-custom-status-ra.html
 release: zurich
 product: Resource Management
 classification: resource-management
@@ -31,7 +32,7 @@ Role required: admin
 
 5.  Right-click on the Resource status label and select **Show Choice List**.
 
-    ![GIF showing the Show Choice List option to define custom resource assignment status.](../images/rmw-custom-ra-status-gif.gif)
+    \[Omitted image "rmw-custom-ra-status-gif.gif"\] Alt text: GIF showing the Show Choice List option to define custom resource assignment status.
 
 6.  Select a status field to open the record.
 
@@ -44,5 +45,5 @@ Role required: admin
     **Important:** Selecting **Save** or **Update** overwrites the selected resource status in Step 4.
 
 
-**Parent Topic:**[Configure Resource Management Workspace](../concept/configure-rmw.md)
+**Parent Topic:**[Configure Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/configure-rmw.md)
 

@@ -2,6 +2,7 @@
 title: View VIP status for a caller in incident
 description: View the callers with VIP status on the incident records list view as well as incident form. Organizations commonly designate VIP status in the user record for some of their VIP users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/t\_FlaggingVIPs.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -31,10 +32,10 @@ To set the status of the VIP caller manually, navigate to **All** &gt; **System 
 
 2.  View the record for the VIP caller in the list of incident records.
 
-    ![Incident list with flagged VIP caller](../image/VIPCallers.png)
+    \[Omitted image "VIPCallers.png"\] Alt text: Incident list with flagged VIP caller
 
 3.  Select the record to view the VIP status in the **Caller** field.
 
-    ![VIP caller](../image/VIPCallerIndication.png)
+    \[Omitted image "VIPCallerIndication.png"\] Alt text: VIP caller
 
 

@@ -2,6 +2,7 @@
 title: Exploring Now Assist for Configure, Price, Quote \(CPQ\)
 description: With the Now Assist for Configure, Price, Quote \(CPQ\) application, you can use generative AI to summarize quotes and provide immediate, comprehensive visibility into key quote information such as products, pricing, and terms. This functionality reduces errors, accelerates quote creation, and helps teams deliver accurate quotes faster.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/explore-now-assist-cpq.html
 release: zurich
 topic_type: concept
 last_updated: "2026-02-03"
@@ -28,8 +29,8 @@ The Now Assist for CPQ application includes the generative AI skill that enables
 
 Get started by performing the following tasks:
 
--   [Configuring Now Assist for Configure, Price, Quote \(CPQ\)](configure-now-assist-cpq.md)
--   [Summarize a quote using quote summarization](../task/summarize-quote.md)
+-   [Configuring Now Assist for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-now-assist-cpq.md)
+-   [Summarize a quote using quote summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/summarize-quote.md)
 
-**Parent Topic:**[Now Assist for Configure, Price, Quote \(CPQ\)](now-assist-for-cpq-landing.md)
+**Parent Topic:**[Now Assist for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-cpq-landing.md)
 

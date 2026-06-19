@@ -2,6 +2,7 @@
 title: Task attributes in Create physical connection form
 description: The Task attributes in Create physical connection form enables you to create a logical connection between network interfaces in the Telecommunications Network Inventory application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/task-attributes-create-physical-connection-form.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -26,5 +27,5 @@ The Task attributes in Create physical connection form enables you to create a l
 |Physical Connection Model|Physical connection model where this physical connection is configured.|
 |Bandwidth|Total bandwidth capacity between starting and ending sites for this network connection.|
 
-**Parent Topic:**[Telecommunications Network Inventory reference](../concept/telecommunications-network-inventory-reference.md)
+**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 

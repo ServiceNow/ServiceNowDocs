@@ -2,12 +2,13 @@
 title: Create IP addresses
 description: Created topic as per DOC1058818.Define the attributes for IP addresses so that you can track and manage them in the Telecommunications Network Inventory application. You can also review, update, or create IP addresses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/define-ip-addresses.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Create IP address allocation, Inventory number allocation, Defining inventory records, Use, Telecommunications Network Inventory]
 ---
 
@@ -27,7 +28,7 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent, sn\
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/ni-workspace-list-icon.png)\), and then go to **Inventory** &gt; **IP Addresses**.
+2.  Select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List icon.\), and then go to **Inventory** &gt; **IP Addresses**.
 
 3.  Select **New**
 
@@ -86,22 +87,22 @@ Type of network function, Virtual Network Function \(VNF\), or Cloud Native Func
     -   In the TNI CI attributes form, by default, the name is fetched from the **Name** field and the **Inventory Category** is set as **IP Address**.
 6.  Select **Add Packs** to add packs to this service.
 
-    To learn more about packs, see [Attribute packs](../concept/telecommunication-network-inventory-pack.md).
+    To learn more about packs, see [Attribute packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/telecommunication-network-inventory-pack.md).
 
-7.  To add the attachments, such as graphics or documents, select the attachment icon \(![Attachment icon.](../image/attachments-icon.png)\) in the right panel.
+7.  To add the attachments, such as graphics or documents, select the attachment icon \(\[Omitted image "attachments-icon.png"\] Alt text: Attachment icon.\) in the right panel.
 
 8.  Select **Save**.
 
-    The related tabs appear on the form. You can view or modify the related tab information. To learn more about the related tabs, see [Related tabs in the network inventory forms](../reference/inventory-related-tab.md).
+    The related tabs appear on the form. You can view or modify the related tab information. To learn more about the related tabs, see [Related tabs in the network inventory forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/inventory-related-tab.md).
 
-9.  To view the associated network inventories, select the brick icon \(![brick icon](../image/infrastructure-relashionship.png)\).
+9.  To view the associated network inventories, select the brick icon \(\[Omitted image "infrastructure-relashionship.png"\] Alt text: brick icon\).
 
     The Infrastructure Relationships section shows all the associated network inventories that are grouped by the individual network instances.
 
 
 ## What to do next
 
-You can review, or update the fields, create a related tab record, or can delete a record. To learn more, see [Update or delete a record of an inventory number allocation](update_and_delete_ip_address_space.md).
+You can review, or update the fields, create a related tab record, or can delete a record. To learn more, see [Update or delete a record of an inventory number allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/update_and_delete_ip_address_space.md).
 
-**Parent Topic:**[Create IP address allocation](../concept/ip_pool_ip_network_subnet_allocated_ip_address_and_ip_address.md)
+**Parent Topic:**[Create IP address allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/ip_pool_ip_network_subnet_allocated_ip_address_and_ip_address.md)
 

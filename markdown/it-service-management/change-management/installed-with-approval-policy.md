@@ -2,6 +2,7 @@
 title: Components installed with Change Management -Approval policy
 description: Several types of components are installed with activation of the Change Management -Approval policy plugin, that includes tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/installed-with-approval-policy.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -34,5 +35,5 @@ Change Approval Policy \[chg\_policy\_approval\]
 Extends the Change Policy table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate Change Management -Approval policy](../task/activate-change-approval-policy.md)
+</table>**Parent Topic:**[Activate Change Management -Approval policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/activate-change-approval-policy.md)
 

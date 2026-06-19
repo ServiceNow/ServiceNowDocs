@@ -2,6 +2,7 @@
 title: Set up Health Log Analytics alert notifications in channels
 description: Set up notifications for new Health Log Analytics anomaly alerts in either a Slack or Microsoft Teams channel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-notifications-in-channel.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -17,16 +18,16 @@ Set up notifications for new Health Log Analytics anomaly alerts in either a Sla
 
 ## Before you begin
 
-Starting with Version 33.0.27 - August 2024, Health Log Analytics uses the Microsoft Teams Graph spoke application to send notifications for new anomaly alerts. The new application replaces the Microsoft Teams spoke plugin, which will be deprecated. If you're using an HLA version earlier than 33.0.27, follow the setup procedure below. Otherwise, refer to [Set up Health Log Analytics alert notifications in a Microsoft Teams channel](hla-notifications-in-ms-teams.md).
+Starting with Version 33.0.27 - August 2024, Health Log Analytics uses the Microsoft Teams Graph spoke application to send notifications for new anomaly alerts. The new application replaces the Microsoft Teams spoke plugin, which will be deprecated. If you're using an HLA version earlier than 33.0.27, follow the setup procedure below. Otherwise, refer to [Set up Health Log Analytics alert notifications in a Microsoft Teams channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-notifications-in-ms-teams.md).
 
-**Note:** If you upgrade from an earlier version to Version 33.0.27 - August 2024 or later, redo the setup using the procedure in [Set up Health Log Analytics alert notifications in a Microsoft Teams channel](hla-notifications-in-ms-teams.md).
+**Note:** If you upgrade from an earlier version to Version 33.0.27 - August 2024 or later, redo the setup using the procedure in [Set up Health Log Analytics alert notifications in a Microsoft Teams channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-notifications-in-ms-teams.md).
 
 For alert notifications in Slack channels, verify that the plugin Slack Webhooks Spoke for ServiceNow Integration Hub \(com.sn.slack.ah\) is installed:
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 2.  Find the plugin using the filter criteria and search bar.
 
-    You can search for the plugin by its name or ID. If you cannot find a plugin, you might have to request it from ServiceNow personnel. For more information, see [Request a plugin](https://www.servicenow.com/docs/access?context=t_RequestAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    You can search for the plugin by its name or ID. If you cannot find a plugin, you might have to request it from ServiceNow personnel. For more information, see .
 
 
 Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
@@ -105,5 +106,5 @@ The service instance associated with the alert.If this field is empty, the syste
     4.  Select **Update**.
 
 
-**Parent Topic:**[Health Log Analytics alert notification in Slack or Microsoft Teams channels](../concept/hla-alert-notification-in-channel.md)
+**Parent Topic:**[Health Log Analytics alert notification in Slack or Microsoft Teams channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-alert-notification-in-channel.md)
 

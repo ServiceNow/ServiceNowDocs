@@ -2,6 +2,7 @@
 title: Set the Schedule optimization logging level
 description: Adjust the logging level settings to specify the detail included in the Schedule Optimization logs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/set-the-schedule-optimization-log-level.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -39,5 +40,5 @@ Each logging level option includes the information from the preceding levels. Fo
 3.  Select **Save**.
 
 
-**Parent Topic:**[Configuring log levels for detailed optimization analysis](configuring-log-levels-for-detailed-optimization-analysis.md)
+**Parent Topic:**[Configuring log levels for detailed optimization analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/configuring-log-levels-for-detailed-optimization-analysis.md)
 

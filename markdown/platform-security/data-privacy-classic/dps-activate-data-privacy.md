@@ -2,6 +2,7 @@
 title: Activate data privacy
 description: Data Privacy includes data classification and anonymization and is installed from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-privacy-classic/dps-activate-data-privacy.html
 release: zurich
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
@@ -17,7 +18,7 @@ Data Privacy includes data classification and anonymization and is installed fro
 
 ## Before you begin
 
-To use data anonymization, Data Privacy \(Classic\) must first be activated with the ServiceNow Vault entitlement. See [Activate data privacy \(Classic\)](../../search-administration/task/install-data-privacy.md) for additional information.
+To use data anonymization, Data Privacy \(Classic\) must first be activated with the ServiceNow Vault entitlement. See [Activate data privacy \(Classic\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/install-data-privacy.md) for additional information.
 
 **Note:** Installing the Data Privacy Store App will auto install the Data Discovery Store App, Data Privacy \(Classic\) plug-in, and the Data Classification plugin.
 
@@ -31,7 +32,7 @@ Role required: admin
 
     You can search for the application by its name or ID. If you cannot find an application, you may have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Select a version from the list and select **Install**.
 

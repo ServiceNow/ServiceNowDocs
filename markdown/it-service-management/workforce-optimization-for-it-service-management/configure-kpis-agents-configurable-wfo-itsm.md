@@ -2,6 +2,7 @@
 title: Configure KPIs for agents
 description: Configure key performance indicators \(KPIs\) in service channels for your agents so that you can track the agents' ongoing work and real-time performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/configure-kpis-agents-configurable-wfo-itsm.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -26,7 +27,7 @@ Add key performance indicators to channels to help managers perform the followin
 -   Review real-time performance of agents who are actively working on tasks across channels and queues.​
 -   Track progress against KPIs and drill down into agents and individual performance.​
 
-The KPI scores are automatically refreshed at an interval of 30 seconds. However, you can modify the refresh interval by adding the **sn\_channel\_mgmt.kpi\_auto\_refresh.interval.seconds** [system property](../reference/configurable-wfo-itsm-channel-management-reference.md). Also, the service channel card refreshes automatically in 2 minutes as configured in the **sn\_channel\_mgmt.channel\_card\_auto\_refresh.interval.seconds**. You can also manually refresh by clicking the Refresh icon.
+The KPI scores are automatically refreshed at an interval of 30 seconds. However, you can modify the refresh interval by adding the **sn\_channel\_mgmt.kpi\_auto\_refresh.interval.seconds** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-channel-management-reference.md). Also, the service channel card refreshes automatically in 2 minutes as configured in the **sn\_channel\_mgmt.channel\_card\_auto\_refresh.interval.seconds**. You can also manually refresh by clicking the Refresh icon.
 
 ​
 
@@ -38,7 +39,7 @@ The KPI scores are automatically refreshed at an interval of 30 seconds. However
 
 3.  Click the Agents Reports related list.
 
-4.  Add the [reports for agents in Channel Management](../reference/configurable-wfo-itsm-channel-management-reference.md) that are by default configured with Workforce Optimization for ITSM.
+4.  Add the [reports for agents in Channel Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-channel-management-reference.md) that are by default configured with Workforce Optimization for ITSM.
 
     **Note:** Review the report's definition and add the corresponding filters that are applicable to the service channel that matters the most to you.
 
@@ -50,7 +51,7 @@ The KPI scores are automatically refreshed at an interval of 30 seconds. However
 
     2.  Fill in the details.
 
-        For more information, see [Create a single score report](https://www.servicenow.com/docs/access?context=c_SingleScoreCharts&version=zurich&pubname=zurich-now-intelligence&section=t_CreateASingleScoreChart&ft:locale=en-US).
+        For more information, see .
 
     3.  Click **Save**.
 
@@ -66,7 +67,7 @@ The KPI scores are automatically refreshed at an interval of 30 seconds. However
 
     7.  Select the KPI report's table name and field name.
 
-        For more information, see [Create a reference field interactive filter](https://www.servicenow.com/docs/access?context=t_CreateAReferenceFieldPublisher&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+        For more information, see .
 
     8.  Click **Submit**.
 
@@ -77,7 +78,7 @@ The KPI scores are automatically refreshed at an interval of 30 seconds. However
 
 ## Result
 
-The KPIs that are configured in the service channel appear in the Current Work section of the agent's Overview page. For more information, see [Track and analyze agent's performance](view-agents-availability-itsm-configurable-workspace.md).
+The KPIs that are configured in the service channel appear in the Current Work section of the agent's Overview page. For more information, see [Track and analyze agent's performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/view-agents-availability-itsm-configurable-workspace.md).
 
-**Parent Topic:**[Setting up Channels in Workforce Optimization for ITSM](../concept/setup-channels-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Setting up Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/setup-channels-configurable-workforce-optimization-itsm.md)
 

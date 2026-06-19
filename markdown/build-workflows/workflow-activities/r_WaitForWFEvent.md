@@ -2,6 +2,7 @@
 title: Wait for WF Event workflow activity
 description: The Wait for WF Event activity causes the workflow to wait at this activity until the specified event is fired.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-activities/r\_WaitForWFEvent.html
 release: zurich
 product: Workflow Activities
 classification: workflow-activities
@@ -43,5 +44,5 @@ The activity state tells the workflow engine what to do with the activity.
 |Cancelled|This activity, or the workflow that contains this activity, was canceled.|
 |Error|A JavaScript error occurred. Review the logs for error details.|
 
-**Parent Topic:**[Condition Workflow activities](r_ConditionActivites.md)
+**Parent Topic:**[Condition Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-activities/r_ConditionActivites.md)
 

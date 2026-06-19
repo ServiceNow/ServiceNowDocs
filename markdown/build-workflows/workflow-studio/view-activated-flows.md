@@ -2,6 +2,7 @@
 title: View activated flows for a table
 description: View flows with record-based triggers that run on a specific table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/view-activated-flows.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -30,5 +31,5 @@ Role required: admin or flow\_designer and any roles required to view the data t
     The Flows table opens and displays all record-based flows that have been activated to run on the specified table.
 
 
-**Parent Topic:**[Create a flow in Workflow Studio](create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-flow.md)
 

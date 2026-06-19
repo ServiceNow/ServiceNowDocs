@@ -2,6 +2,7 @@
 title: Submit a legal request for sales contract review
 description: Submit a legal request to the legal team for review and legal support for a sales contract.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-simple-contracts/submit-legal-request-sales-contract-review.html
 release: zurich
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -27,15 +28,15 @@ You can submit a request for review of a sales contract to engage legal counsel,
 
 1.  Access the sales contract review intake form.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d461447e54">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d313136e54">
 
 Option
 
-</th><th align="left" id="d461447e57">
+</th><th align="left" id="d313136e57">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d461447e63">
+</th></tr></thead><tbody><tr><td id="d313136e63">
 
 **Using __Employee Center__**
 
@@ -46,7 +47,7 @@ Description
 3.  Search for and open the **Sales Contract Review** request item.
 
 
-</td></tr><tr><td id="d461447e106">
+</td></tr><tr><td id="d313136e106">
 
 **Using __Legal Service Portal__**
 
@@ -119,7 +120,7 @@ Additional information
 Additional information about the sales contract.
 
 </td></tr></tbody>
-</table>3.  Click the add attachments icon \(![Add attachments icon](../../legal-request-management/image/add-attachment-icon.png)\) to upload an attachment to the request.
+</table>3.  Click the add attachments icon \(\[Omitted image "add-attachment-icon.png"\] Alt text: Add attachments icon\) to upload an attachment to the request.
 
 4.  Click **Submit**.
 
@@ -134,5 +135,5 @@ Additional information about the sales contract.
 
 The legal request is created and assigned to the legal sales contract group.
 
-**Parent Topic:**[Sales contract review requests](../concept/legal-request-sales-contracts.md)
+**Parent Topic:**[Sales contract review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/legal-request-sales-contracts.md)
 

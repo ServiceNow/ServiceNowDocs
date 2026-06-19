@@ -2,6 +2,7 @@
 title: Continue to track delayed shipments
 description: Continue to track a stale hardware asset shipment that is delayed if the reason for the delay is known.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/track-delayed-shipments.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -37,5 +38,5 @@ Role required: inventory\_user \(read\) or inventory\_admin
 -   The **Stale shipment** check box on the Shipment details form is automatically cleared.
 -   The tracking number of this shipment is sent to the carrier for tracking and this shipment record won’t be marked as stale again.
 
-**Parent Topic:**[Stale shipments](../concept/stale-shipments.md)
+**Parent Topic:**[Stale shipments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/stale-shipments.md)
 

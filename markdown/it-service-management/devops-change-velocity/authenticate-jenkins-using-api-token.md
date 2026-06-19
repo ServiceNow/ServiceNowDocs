@@ -2,11 +2,12 @@
 title: Connect to Jenkins using API token authentication
 description: Connect to Jenkins using API token authentication instead of user name and password.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/authenticate-jenkins-using-api-token.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Additional information - Jenkins, Jenkins, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -29,7 +30,7 @@ You can have multiple active API tokens at the same time and track the usage of 
 
 1.  In the Jenkins banner frame, select your user name to open the user menu.
 
-2.  Select **Security**. ![Security page for a Jenkins user](../image/jenkins-add-api-token.png)
+2.  Select **Security**. \[Omitted image "jenkins-add-api-token.png"\] Alt text: Security page for a Jenkins user
 
 3.  In the Security page, select **Add new Token**.
 

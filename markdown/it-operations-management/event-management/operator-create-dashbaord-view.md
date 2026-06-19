@@ -2,6 +2,7 @@
 title: Customize your alert list view
 description: You can create one or more customized alert list views that show only the information pertinent to you. For example, you might want to focus only on the alerts for application services in a specific location, or only the alerts for application services of high criticality.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/operator-create-dashbaord-view.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -27,16 +28,16 @@ Role required: evt\_mgmt\_operator
 
 2.  On the **Lists** tab, click **My Lists**.
 
-    ![Dashboard view](../image/new-list-button.png)
+    \[Omitted image "new-list-button.png"\] Alt text: Dashboard view
 
 3.  Click **+ New list**, fill in the form with name and filter conditions, and then click **Save**.
 
-    ![New List popup](../image/new-list-popup.png)
+    \[Omitted image "new-list-popup.png"\] Alt text: New List popup
 
     The list appears on the **My Lists** tab.
 
     **Note:** The list applies only to application services, and not to application service groups. The groups appear whether or not they match the filter, and whether or not they contain any services that match the filter.
 
 
-**Parent Topic:**[Advanced tasks for the Event Management operator](../concept/operator-advanced-tasks.md)
+**Parent Topic:**[Advanced tasks for the Event Management operator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-advanced-tasks.md)
 

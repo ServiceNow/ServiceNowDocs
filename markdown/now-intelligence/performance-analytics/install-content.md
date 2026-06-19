@@ -2,6 +2,7 @@
 title: Install a dashboard
 description: Use the Solution Library to install a dashboard and all its associated visualizations such as widgets and reports, and to configure existing dashboards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/install-content.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -23,7 +24,7 @@ Role required: pa\_admin.
 
 When you install or upgrade a Performance Analytics solution, out of the box content in the instance is overwritten and new content is added to the dashboard. Any content that you have previously customized on the dashboard is not changed.
 
-To reinstall a solution metadata record from a dashboard, such as a widget, without impacting other records used by the same dashboard, see [Install a single solution metadata record](install-content-single-record.md).
+To reinstall a solution metadata record from a dashboard, such as a widget, without impacting other records used by the same dashboard, see [Install a single solution metadata record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/install-content-single-record.md).
 
 ## Procedure
 
@@ -46,17 +47,17 @@ To reinstall a solution metadata record from a dashboard, such as a widget, with
 
 Navigate to the dashboard to begin analyzing your data.
 
--   **[Upgrade a dashboard](upgrade-content.md)**  
+-   **[Upgrade a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/upgrade-content.md)**  
 When you upgrade a dashboard, solution metadata that have updates available, including any new records added to the dashboard, are installed. Solution metadata records that you have customized, even if those records are updated in the newer release​, are not affected.
--   **[Install a single solution metadata record](install-content-single-record.md)**  
+-   **[Install a single solution metadata record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/install-content-single-record.md)**  
 Install a single solution metadata record used by a dashboard, such as a widget, to match the latest version of the record without impacting other records used by the same dashboard.
--   **[Duplicate an Analytics and Reporting Solution dashboard](duplicate-dashboard.md)**  
+-   **[Duplicate an Analytics and Reporting Solution dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/duplicate-dashboard.md)**  
 Copy an Platform Analytics Solution dashboard, including the tabs, portal pages, and canvas records. Widgets on the dashboard are not duplicated.
 
-**Parent Topic:**[Platform Analytics solutions](../concept/content-packs-in-form-analytics-published.md)
+**Parent Topic:**[Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/content-packs-in-form-analytics-published.md)
 
 **Related topics**  
 
 
-[Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+[bundle-platadm.t_ActivateAPlugin]
 

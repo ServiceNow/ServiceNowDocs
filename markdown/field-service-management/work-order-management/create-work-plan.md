@@ -2,6 +2,7 @@
 title: Create a work plan
 description: Create a work plan to specify how and when the work should be performed for any activity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/create-work-plan.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -21,13 +22,13 @@ Role required: sn\_fsm\_planned\_wm.planned\_work\_admin and model\_manager
 
 ## About this task
 
-A work plan consists of the effective start and end date that determines the period for which the plan can be scheduled for execution. The plan won’t work beyond the specified end date.
+A work plan consists of the effective start and end date that determines the period for which the plan can be scheduled for execution. The plan won't work beyond the specified end date.
 
 Each work plan must have at least one or more records associated with it for which you want to apply the work plan. You can identify the records that require work by applying the filtering criteria to the selected table in the plan. For example, you can filter the matching records \(containing apple computers\) for a work plan by applying a filtering criteria to the table containing the records of computer that starts with "apple."
 
 **Note:** The filtered assets or activities that require work are called matching records in the work plan.
 
-You can also create a work plan through the Planned Work Management Workspace. Navigate to **All** &gt; **Planned Work Management** &gt; **Workspace**, and then select the **List** icon \(![List icon](../image/ListIcon.png)\).
+You can also create a work plan through the Planned Work Management Workspace. Navigate to **All** &gt; **Planned Work Management** &gt; **Workspace**, and then select the **List** icon \(\[Omitted image "ListIcon.png"\] Alt text: List icon\).
 
 ## Procedure
 
@@ -97,10 +98,10 @@ Specifies the template used for this work plan. The available options are:
 
 **Note:** The work orders created for the work plan are automatically linked to their corresponding schedule occurrence. Administrators can configure the form layout of the work order to add the **Schedule occurrence** field.
 
--   **Task plan template**– The work plan creates tasks like cases and incidents based on the linked task plan template. For more information on the creation and usage of task plans, see [Task Plan Templates](https://www.servicenow.com/docs/access?context=task-plan-templates&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+-   **Task plan template**– The work plan creates tasks like cases and incidents based on the linked task plan template. For more information on the creation and usage of task plans, see .
 **Note:**
 
--   Activate the Task Plan Templates \(com.sn\_task\_plan\_templates\) plugin from the ServiceNow Store and configure the extension point sn\_fsm\_planned\_wm.TaskPlanTemplateOutputTasks to attach task plan templates to the work plan. For more details about the extension point, see [Extension points in Field Service Management](../reference/extension-points-field-service.md).
+-   Activate the Task Plan Templates \(com.sn\_task\_plan\_templates\) plugin from the ServiceNow Store and configure the extension point sn\_fsm\_planned\_wm.TaskPlanTemplateOutputTasks to attach task plan templates to the work plan. For more details about the extension point, see [Extension points in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/extension-points-field-service.md).
 -   You must update the state of the schedule occurrence when the state of the task changes.
 -   You must link the output records \(cases or incidents\) with schedule occurrences because they are not linked automatically. You can link the output records by adding new field in the output record.
 -   The **Template type** field is not available by default. The administrator can configure the form layout to add the **Template type** field.
@@ -140,7 +141,7 @@ Type of trigger that determines when work should be performed.-   **Model based:
 **Note:**
 
 -   Model-based plans apply only to hardware models, specifically ones that have at least one model category defined.
--   Install base plan type is available only if the Customer Service Install Base Management \(com.snc.install\_base\) plugin is activated.
+-   Install base plan type is available only if the Customer Service Install Base Management \(sn\_install\_base\) plugin is activated.
 
 
 </td></tr><tr><td>
@@ -189,7 +190,7 @@ Task creation policy
 
 </td><td>
 
-Specify what to do when a work plan runs based on a schedule occurrence that is already in progress.-   **Leave alone:** Don’t allow the creation of new tasks or the deletion of existing ones.
+Specify what to do when a work plan runs based on a schedule occurrence that is already in progress.-   **Leave alone:** Don't allow the creation of new tasks or the deletion of existing ones.
 -   **Cancel existing:** Allow the deletion of existing tasks associated with the plan and the creation of new tasks to replace them.
 -   **Add to existing:** Allow new tasks to replace the existing active tasks for the specific schedule occurrence of a plan.
 
@@ -203,5 +204,5 @@ Specify what to do when a work plan runs based on a schedule occurrence that is 
 
 ## What to do next
 
-After creating a work plan, configure a schedule to the work plan. For more information, see [Configure a work schedule](configure-work-plan.md).
+After creating a work plan, configure a schedule to the work plan. For more information, see [Configure a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/configure-work-plan.md).
 

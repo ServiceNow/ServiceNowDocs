@@ -2,7 +2,10 @@
 title: Order case line item page
 description: The Order case line item page displays information about an order case line item associated with an order case in CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-order-ops-order-case-line-page.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -13,7 +16,7 @@ breadcrumb: [Order case pages, Order Operations Case Management, Case management
 
 The Order case line item page displays information about an order case line item associated with an order case in CSM Configurable Workspace.
 
-![Order case line item page includes case line item details, activity stream, and contextual side panel.](../image/csm-order-ops-order-case-line-page.png "Order case line item page")
+\[Omitted image "csm-order-ops-order-case-line-page.png"\] Alt text: Order case line item page includes case line item details, activity stream, and contextual side panel.
 
 The order case line item record shows the details of an order case line item, including customer and product information, the requested change to the ordered quantity, the shipping location, and estimated dates. This record also includes the following components:
 

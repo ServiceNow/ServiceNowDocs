@@ -2,6 +2,7 @@
 title: ITSM Software Asset Management
 description: The software asset management features of the ITSM suite can be activated using one of the plugins in the feature table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/asset-management/itsm-sam.html
 release: zurich
 product: Asset Management
 classification: asset-management
@@ -17,7 +18,7 @@ The software asset management features of the ITSM suite can be activated using 
 
 **Note:** These features support IT service management processes related to software assets.
 
-For the Software Asset Management product \(requires a separate subscription\), see [Software Asset Management](https://www.servicenow.com/docs/access?context=c_SAMOverview&version=zurich&pubname=zurich-it-asset-management&ft:locale=en-US).
+For the Software Asset Management product \(requires a separate subscription\), see Software Asset Management.
 
 **Note:** The Software Asset Management product is a standalone application supporting advanced use cases for software asset management.
 
@@ -40,7 +41,7 @@ Description
 
 </td><td>
 
-[Software Asset Management Foundation plugin](../../software-asset-management2/concept/c_SoftwareAssetMgmtSAMF.md)
+[Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/c_SoftwareAssetMgmtSAMF.md)
 
 </td><td>
 
@@ -55,17 +56,17 @@ Manage your software assets using manual normalization and reconciliation to det
 
 </td><td>
 
-[Legacy Software Asset Management plugin](c_SoftwareAssetManagement.md)
+[Legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management/c_SoftwareAssetManagement.md)
 
 </td><td>
 
 Manage your software licenses.
 
 </td></tr></tbody>
-</table>-   **[Legacy Software Asset Management plugin](c_SoftwareAssetManagement.md)**  
+</table>-   **[Legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management/c_SoftwareAssetManagement.md)**  
 The legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin activates the legacy ITSM Software Asset Management feature that is provided with the Asset Management application.
--   **[Software Asset Management Foundation plugin](../../software-asset-management2/concept/c_SoftwareAssetMgmtSAMF.md)**  
+-   **[Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/c_SoftwareAssetMgmtSAMF.md)**  
 The Software Asset Management Foundation plugin activates the ITSM Software Asset Management feature provided with the Asset Management application.
 
-**Parent Topic:**[Asset Management](c_AssetManagement.md)
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/asset-management/c_AssetManagement.md)
 

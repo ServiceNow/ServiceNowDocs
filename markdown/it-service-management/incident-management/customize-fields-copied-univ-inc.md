@@ -2,6 +2,7 @@
 title: Customize fields copied from Universal Request to incident
 description: Customize fields so that the values of some fields in the universal request automatically get copied to an incident record when an incident is associated with a universal request record. It saves your time from manually entering the information every time you create an incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/customize-fields-copied-univ-inc.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -30,5 +31,5 @@ Role required: incident\_manager or admin
     For example, `caller_id=opened_for` means that the value of the field called\_id from the universal request form is copied to the opened\_for field in the incident form.
 
 
-**Parent Topic:**[Universal Request integration - Incident Management](../concept/inci-mgmt-integ-with-univ-req.md)
+**Parent Topic:**[Universal Request integration - Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/inci-mgmt-integ-with-univ-req.md)
 

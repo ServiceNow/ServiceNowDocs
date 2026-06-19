@@ -2,7 +2,10 @@
 title: Scan Engine definitions
 description: The Scan Engine uses a large set of definitions to correct coding and workflow findings in real time and perform scans across your entire instance to detect existing findings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/scan-engine-definitions.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-10-29"
 reading_time_minutes: 2
@@ -25,13 +28,13 @@ There are various types of definitions available as a baseline in the Impact Sca
 |Upgradeability|Assesses the ease of enhancing a ServiceNow instance or application with new features, improvements, security patches, or compatibility adjustments|
 |User Experience|Evaluates the quality of user interactions with applications. Considers the ease of use, efficiency, design, responsiveness, accessibility, and its emotional and functional impact.|
 
-For more information, see [Configure Scan Engine properties](../task/configure-scan-engine-properties.md).
+For more information, see [Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md).
 
 ## Custom definitions
 
-Users can create their own custom definitions. For more information, see [Create custom Scan Engine definitions](../task/create-scan-engine-definitions.md#).
+Users can create their own custom definitions. For more information, see [Create custom Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/create-scan-engine-definitions.md).
 
-**Note:** The number of custom definitions that is permitted varies based on your Impact package. For more information, see [Impact packages](../reference/impact-packages.md).
+**Note:** The number of custom definitions that is permitted varies based on your Impact package. For more information, see [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-packages.md).
 
 ## Scan Engine definition suites
 
@@ -51,5 +54,5 @@ By default, the following suites are available:
 
 **Note:** Only users with the `sn_se.scan_engine_admin_role` role can modify existing suites and their relationship with their definitions.
 
-For more information, see [Create Scan Engine definition suites](../task/create-scan-engine-definition-suites.md#).
+For more information, see [Create Scan Engine definition suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/create-scan-engine-definition-suites.md).
 

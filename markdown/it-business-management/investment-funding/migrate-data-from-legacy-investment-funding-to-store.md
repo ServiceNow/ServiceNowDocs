@@ -2,6 +2,7 @@
 title: Migrate data from legacy Investment Funding to Store application
 description: With the admin role, you can migrate your existing data from the legacy Investment Funding tables to the new ServiceNow Store application tables by running the scheduled job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/investment-funding/migrate-data-from-legacy-investment-funding-to-store.html
 release: zurich
 product: Investment Funding
 classification: investment-funding
@@ -32,5 +33,5 @@ Role required: admin
 4.  Click **Execute Now**.
 
 
-**Parent Topic:**[Upgrading legacy Investment Funding to Store application](../concept/upgrading-legacy-investment-funding-to-store.md)
+**Parent Topic:**[Upgrading legacy Investment Funding to Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/upgrading-legacy-investment-funding-to-store.md)
 

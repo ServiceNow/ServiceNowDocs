@@ -2,6 +2,7 @@
 title: Test an LDAP connection
 description: The instance tests the connection automatically every time a user opens the LDAP Server form. Alternatively, you can manually test the connection to the LDAP server from the LDAP server form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/ldap-integration/t\_TestAnLDAPConnectionManually.html
 release: zurich
 product: LDAP integration
 classification: ldap-integration

@@ -2,6 +2,7 @@
 title: Add or modify a matching rule
 description: You can add or modify a matching rule to assign HR cases to specific users or groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/CreateModMatchingRule.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -79,7 +80,7 @@ Conditions
 
 </td><td>
 
-Conditions in which the matching rule applies.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+Conditions in which the matching rule applies.**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -107,5 +108,5 @@ Script to define advanced matching rule functionality. Current.variable\_pool se
 4.  Reopen the case and check that the correct matching information was added.
 
 
-**Parent Topic:**[Assignment and matching rules in HR](../concept/c_UseAssignmentRules-1.md)
+**Parent Topic:**[Assignment and matching rules in HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

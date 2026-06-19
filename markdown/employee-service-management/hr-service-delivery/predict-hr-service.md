@@ -2,6 +2,7 @@
 title: Auto determination of HR service
 description: Auto determine the HR service for a case. Enable an HR agent to transfer the case to the appropriate HR service rather than having to spend significant time manually triaging cases to appropriate HR services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/predict-hr-service.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -38,5 +39,5 @@ The HR Case Classification solution definition is configured and the predictive 
 -   There are 10000 records of HR case study matching the filters defined in the solution definition.
 -   The**glide.platform\_ml.auto\_training.enabled** system property is set to true.
 
-You can [manually train the predictive model](../task/hr-predictive-intelligence-train.md) if it is not auto trained by default. Later, navigate to the **HR AI configuration** module, open the HR Case Classification record, and map the configured solution definition.
+You can [manually train the predictive model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-predictive-intelligence-train.md) if it is not auto trained by default. Later, navigate to the **HR AI configuration** module, open the HR Case Classification record, and map the configured solution definition.
 

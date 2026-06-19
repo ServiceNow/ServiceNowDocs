@@ -2,6 +2,7 @@
 title: Approve or reject a release task
 description: Review a release task and approve or reject it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-product-release/dpr-approve-reject-release-task.html
 release: zurich
 product: Digital Product Release
 classification: digital-product-release
@@ -62,5 +63,5 @@ If the requested item was assigned to a user group for approval, then the state 
 -   The rejection comments posted by the approver is added to the release task's Activities section.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Manage releases for digital products and services](dpr-manage-releases.md)
+</table>**Parent Topic:**[Manage releases for digital products and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-manage-releases.md)
 

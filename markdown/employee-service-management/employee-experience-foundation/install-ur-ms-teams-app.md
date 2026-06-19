@@ -2,6 +2,7 @@
 title: Install Universal Request integration with Microsoft Teams application
 description: Install the Universal Request integration with Microsoft Teams application \(sn\_uni\_req\_msteams\). You can initiate Microsoft Teams conversations within your ServiceNow instance by using this application. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/install-ur-ms-teams-app.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -43,7 +44,7 @@ Role required: admin
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -56,8 +57,8 @@ Role required: admin
 5.  Select **Install**.
 
 
--   **[Approve application restricted caller access privileges](ur-mst-approve-rca.md)**  
+-   **[Approve application restricted caller access privileges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ur-mst-approve-rca.md)**  
 Approve restricted caller access \(RCA\) privileges in the target scope so that you can provide scope access privileges. Approving the RCA privileges enables the script includes in Universal Request scope to be accessed from the Universal Request integration with Microsoft Teams scope.
 
-**Parent Topic:**[Plan your installation](../concept/plan-installation-ms-teams.md)
+**Parent Topic:**[Plan your installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/plan-installation-ms-teams.md)
 

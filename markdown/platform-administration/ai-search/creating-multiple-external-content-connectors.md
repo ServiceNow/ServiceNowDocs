@@ -1,12 +1,13 @@
 ---
 title: Creating multiple external content connectors of the same type
-description: Admins can create multiple external content connectors of the same type. These connectors can crawl different source systems or the same source system. Connectors that crawl the same source system can include overlapping crawl locations.
+description: Admins can create multiple external content connectors of the same type on a single ServiceNow AI Platform instance. These connectors can crawl different source systems or the same source system. Connectors that crawl the same source system can include overlapping crawl locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/creating-multiple-external-content-connectors.html
 release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-10-07"
+last_updated: "2026-05-29"
 reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Creating external content connectors, Explore, External Content Connectors, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
@@ -14,11 +15,11 @@ breadcrumb: [Creating external content connectors, Explore, External Content Con
 
 # Creating multiple external content connectors of the same type
 
-Admins can create multiple external content connectors of the same type. These connectors can crawl different source systems or the same source system. Connectors that crawl the same source system can include overlapping crawl locations.
+Admins can create multiple external content connectors of the same type on a single ServiceNow AI Platform® instance. These connectors can crawl different source systems or the same source system. Connectors that crawl the same source system can include overlapping crawl locations.
 
 ## Supported configurations
 
-The system supports these configurations for multiple external content connectors of the same type.
+The system supports these configurations for multiple external content connectors of the same type running on the same ServiceNow AI Platform instance.
 
 -   **Multiple external content connectors of the same type that crawl different source systems**
 
@@ -35,7 +36,7 @@ The system supports these configurations for multiple external content connector
 
 ## Behavior notes
 
-When you create multiple external content connectors of the same type, they behave as described in the following list.
+When you create multiple external content connectors of the same type on the same ServiceNow AI Platform instance, they behave as described in the following list.
 
 -   **All external content connectors of the same type feed their retrieved content to the same indexed source**
 
@@ -53,14 +54,14 @@ When you create multiple external content connectors of the same type, they beha
 
     If sufficient resources for parallel execution aren't available, the system executes the crawl jobs sequentially instead.
 
--   **The crawl limit of ten million items applies separately to each external content connector of the same type**
+-   **The crawl limit of one million items applies separately to each external content connector of the same type**
 
-    In the preceding examples, each individual Microsoft SharePoint Online external content connector can crawl up to ten million items.
+    In the preceding examples, each individual Microsoft SharePoint Online external content connector can crawl up to one million items.
 
 
 ## Considerations for parallel execution
 
-When creating multiple external content connectors of the same type, bear the following considerations in mind.
+When creating multiple external content connectors of the same type on the same ServiceNow AI Platform instance, bear the following considerations in mind.
 
 -   **Increased request load on source system**
 
@@ -71,5 +72,5 @@ When creating multiple external content connectors of the same type, bear the fo
     Running crawl jobs for multiple external content connectors of the same type in parallel can cause contention when they send retrieved content to their shared indexed source. This contention may reduce the connectors' retrieval rate when their crawl jobs are run in parallel.
 
 
-**Parent Topic:**[Creating external content connectors](../task/creating-ext-cont-connectors.md)
+**Parent Topic:**[Creating external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/creating-ext-cont-connectors.md)
 

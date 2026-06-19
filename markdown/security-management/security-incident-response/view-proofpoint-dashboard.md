@@ -2,11 +2,12 @@
 title: View the Proofpoint Analytics Dashboard
 description: The Proofpoint Analytics Dashboard provides details about VAP users and top clickers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/view-proofpoint-dashboard.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure, Proofpoint Integration for Security Operations, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -30,8 +31,6 @@ Role required: sn\_si\_admin
 2.  Select **SIR Dashboards**.
 
 3.  Select **Proofpoint Analytics Dashboard** from the drop-down list.
-
-    ![Proofpoint Analytics Dashboard](../image/proofpoint-analyst-dashboard-sir.png)
 
 4.  View information about VAP users.
 

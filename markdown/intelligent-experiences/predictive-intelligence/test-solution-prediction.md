@@ -2,6 +2,7 @@
 title: Test a classification solution prediction
 description: Once your machine-learning \(ML\) solutions are trained, you can call on the Predictive Intelligence API to make a solution prediction. In this example procedure, we use the REST API Explorer to test a classification solution prediction for incident categorization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/predictive-intelligence/test-solution-prediction.html
 release: zurich
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -35,13 +36,13 @@ This scenario illustrates a classification solution prediction for a hypothetica
 
     In this case, use the **Name** field value in your ML Solution Definition Incident Categorization record, as illustrated in the following example.
 
-    ![This image hows you where to find the Name field value in your ML Solution Definition Incident Categorization record.](../images/predictive-intelligence-solution-name.png)
+    \[Omitted image "predictive-intelligence-solution-name.png"\] Alt text: This image hows you where to find the Name field value in your ML Solution Definition Incident Categorization record.
 
 3.  Write down and save the **Input Fields** used in your ML Solution Definition record that you want the REST API Explorer to use in its call to the Predictive Intelligence API.
 
     In this case, we use the **short \_description** field, as the prediction model has been trained to use this field to learn its category definition.
 
-    ![Where to find the Input Fields that you want the REST API Explorer to use in its call to the Predictive Intelligence API](../images/predictive-intelligence-solution-description.png)
+    \[Omitted image "predictive-intelligence-solution-description.png"\] Alt text: Where to find the Input Fields that you want the REST API Explorer to use in its call to the Predictive Intelligence API
 
 4.  Navigate to **System Web Services** &gt; **REST** &gt; **REST API Explorer**.
 
@@ -108,7 +109,7 @@ Result: When the form refreshes, an information message appears with the inciden
 **Related topics**  
 
 
-[Predictive Intelligence API](https://www.servicenow.com/docs/access?context=agent-intelligence-api&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.agent-intelligence-api]
 
-[MLPredictor - Global](https://www.servicenow.com/docs/access?context=c_MLPredictorAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.c_MLPredictorAPI]
 

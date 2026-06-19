@@ -2,6 +2,7 @@
 title: Add a milestone to a legal matter
 description: Add a milestone to a legal matter to track important calendar events related to the matter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-matter-management/add-milestone-to-legal-matter.html
 release: zurich
 product: Legal Matter Management
 classification: legal-matter-management
@@ -29,19 +30,19 @@ You can track the upcoming milestones in a matter in the **Home** tab of the Leg
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d615871e114">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d290873e114">
 
 Option
 
-</th><th align="left" id="d615871e117">
+</th><th align="left" id="d290873e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d615871e123">
+</th></tr></thead><tbody><tr><td id="d290873e123">
 
 **As an assignee**
 
@@ -53,7 +54,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d615871e152">
+</td></tr><tr><td id="d290873e152">
 
 **As a collaborator**
 
@@ -77,5 +78,5 @@ The state of the legal matter updates to Work in Progress.
 
 A milestone with the specified due date is created.
 
-**Parent Topic:**[Work on a legal matter](work-on-legal-matter-1.md)
+**Parent Topic:**[Work on a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

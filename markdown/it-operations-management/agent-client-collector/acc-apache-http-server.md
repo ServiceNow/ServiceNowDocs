@@ -2,6 +2,7 @@
 title: Configure Agent Client Collector Apache HTTP server monitoring
 description: To configure the Agent Client Collector to perform Apache HTTP server monitoring, set the following configurations in the Apache HTTP server application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-apache-http-server.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -48,7 +49,7 @@ Role required: agent\_client\_collector\_admin
     3.  Configure the check instance port to be identical to the port on which Apache is listening to secure connections \(default is **443**\).
 
 
-**Parent Topic:**[Operating system and application monitoring using Agent Client Collector](../concept/itom-monitoring-for-acc.md)
+**Parent Topic:**[Operating system and application monitoring using Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/itom-monitoring-for-acc.md)
 
 **Related topics**  
 

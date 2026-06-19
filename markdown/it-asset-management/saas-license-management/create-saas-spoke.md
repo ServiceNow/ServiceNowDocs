@@ -2,6 +2,7 @@
 title: Create a custom spoke
 description: To set up a custom integration in SaaS License Management, create a spoke to connect with a SaaS application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/saas-license-management/create-saas-spoke.html
 release: zurich
 product: SaaS License Management
 classification: saas-license-management
@@ -21,8 +22,8 @@ Role required: admin
 
 ## About this task
 
--   Use ServiceNow® Studio to create a spoke. For more information about Studio, see [ServiceNow Studio](https://www.servicenow.com/docs/access?context=c_ServiceNowStudio&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
--   If a spoke exists for the SaaS application that you're integrating with, you can use the existing spoke instead of creating one. For a list of applications that have ServiceNow® Integration Hub spokes, see [IntegrationHub available spokes](https://www.servicenow.com/docs/access?context=spokes-list&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+-   Use ServiceNow® Studio to create a spoke. For more information about Studio, see ServiceNow Studio.
+-   If a spoke exists for the SaaS application that you're integrating with, you can use the existing spoke instead of creating one. For a list of applications that have ServiceNow® Integration Hub spokes, see IntegrationHub available spokes.
 
 ## Procedure
 
@@ -60,5 +61,5 @@ As you continue building your custom integration, use the spoke to save the foll
 
 If you’re publishing your custom spoke application on the ServiceNow Store, also use the spoke to save your subflows.
 
-Create a custom integration profile to track software subscriptions and optimize stale licenses for any SaaS application. For more information, see [Create a custom integration profile](create-integration-custom.md).
+Create a custom integration profile to track software subscriptions and optimize stale licenses for any SaaS application. For more information, see [Create a custom integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/create-integration-custom.md).
 

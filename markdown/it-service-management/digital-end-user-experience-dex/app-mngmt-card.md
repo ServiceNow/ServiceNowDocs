@@ -2,11 +2,12 @@
 title: Application management card
 description: The Application management card shows the list of the used applications, application type, end-user OS, and whether an application is included in the metrics or compliance monitoring.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/app-mngmt-card.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Administration cards, DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Service Management]
 ---
@@ -72,7 +73,7 @@ Windows/macOS process
 Operating system associated with the application.
 
 </td></tr></tbody>
-</table>To learn more about adding an application, see [Add an application for monitoring](../task/add-new-application.md).
+</table>To learn more about adding an application, see [Add an application for monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/add-new-application.md).
 
-**Parent Topic:**[Administration cards](administration-cards.md)
+**Parent Topic:**[Administration cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/administration-cards.md)
 

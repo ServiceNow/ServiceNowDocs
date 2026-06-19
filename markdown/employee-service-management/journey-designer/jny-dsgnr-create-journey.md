@@ -2,6 +2,7 @@
 title: Create a journey
 description: Users that are managers and have Modifier \[sn\_jny.writer\] permission create journeys for employees and assign mentors to help with the journey.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/jny-dsgnr-create-journey.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -54,7 +55,7 @@ Journey owners and mentors with permission can edit existing journeys.
 -   Drag stages and tasks within a journey to change the order.
 -   Add a mentor.
 -   Publish the journey.
--   [Add recommended learning and quick links.](jny-dsgnr-config-reco-lrnng.md)
+-   [Add recommended learning and quick links.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-config-reco-lrnng.md)
 
-**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](../concept/jny-working-with-journeys.md)
+**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-working-with-journeys.md)
 

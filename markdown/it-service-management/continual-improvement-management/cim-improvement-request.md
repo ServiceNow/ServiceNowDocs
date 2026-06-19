@@ -2,6 +2,7 @@
 title: Requesting improvements
 description: Identify improvement opportunities within your environment and create an improvement request to begin implementation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/continual-improvement-management/cim-improvement-request.html
 release: zurich
 product: Continual Improvement Management
 classification: continual-improvement-management
@@ -17,7 +18,7 @@ Identify improvement opportunities within your environment and create an improve
 
 You can request improvements either manually from Continual Improvement Management, or from an application that is integrated with Continual Improvement Management.
 
-Continual Improvement Management [integration with other applications](../reference/cim-integration.md) lets you:
+Continual Improvement Management [integration with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/cim-integration.md) lets you:
 
 -   Create an improvement initiative from within other applications
 -   Create a record for another application as part of an improvement initiative or CIM task
@@ -49,8 +50,8 @@ You can also identify improvement opportunities from within many different appli
 |Risk and GRC Audits|Review Risk registers and GRC Audit test failures to discover improvement opportunities.|
 |IT Service Management|Review ITSM regularly to identify improvement opportunities for what is not working well.|
 
--   **[Create an improvement request](../task/create-cim-request.md)**  
+-   **[Create an improvement request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/create-cim-request.md)**  
 Create an improvement request for improvement opportunities you identify in your environment. Once submitted, the improvement request is analyzed and implemented by the Improvement Manager and Improvement Coordinator.
 
-**Parent Topic:**[Continual Improvement Management](cim-landing-page.md)
+**Parent Topic:**[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/cim-landing-page.md)
 

@@ -2,6 +2,7 @@
 title: Add asset to workplace contract in Workplace Central
 description: Add assets to the workplace contracts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-lease-administration/wpc-add-asset-lease-cont.html
 release: zurich
 product: Workplace Lease Administration
 classification: workplace-lease-administration
@@ -48,5 +49,5 @@ Linking a contract with assets clarifies what the contract legally covers. The A
 8.  Select **Add**.
 
 
-**Parent Topic:**[Create workplace contracts in Workplace Central](wpc-create-lease-contracts.md)
+**Parent Topic:**[Create workplace contracts in Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-lease-administration/wpc-create-lease-contracts.md)
 

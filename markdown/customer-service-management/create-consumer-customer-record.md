@@ -2,7 +2,10 @@
 title: Create a consumer or contact record
 description: Create a consumer or contact from the Lookup and Verify feature in the contextual side panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-consumer-customer-record.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -28,13 +31,13 @@ If you can't find a consumer or contact or if the customer is a guest, you can c
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon \(![List icon](../image/List_icon.jpg)\).
+2.  Select the List icon \(\[Omitted image "List\_icon.jpg"\] Alt text: List icon\).
 
 3.  In the Interactions section, select **My Interactions**.
 
 4.  Open an email interaction.
 
-5.  In the contextual side panel, select the Consumer Verify icon \(![Consumer Verify icon](../image/consumer_verify_icon_EaaI.jpg)\) or the Contact Verify icon \(![Contact Verify icon](../image/contact_verify_icon_EaaI.jpg)\).
+5.  In the contextual side panel, select the Consumer Verify icon \(\[Omitted image "consumer\_verify\_icon\_EaaI.jpg"\] Alt text: Consumer Verify icon\) or the Contact Verify icon \(\[Omitted image "contact\_verify\_icon\_EaaI.jpg"\] Alt text: Contact Verify icon\).
 
 6.  Enter name, phone number, email address, or record number to search for a consumer or contact.
 

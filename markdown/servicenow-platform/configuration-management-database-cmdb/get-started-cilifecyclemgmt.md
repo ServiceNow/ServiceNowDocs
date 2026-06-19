@@ -2,6 +2,7 @@
 title: Get started with CI Lifecycle Management
 description: Follow these high level steps to get started and to track activities of the CI Lifecycle Management module of the CMDB application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/get-started-cilifecyclemgmt.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -21,23 +22,23 @@ Role required: none
 
 ## Procedure
 
-1.  Activate the base system [CI Lifecycle Management - Restore Internal State Management Tables](enable-cilifecyclemgmt-job.md) scheduled job that continuously checks and maintains data integrity of all internal CI Lifecycle Management tables.
+1.  Activate the base system [CI Lifecycle Management - Restore Internal State Management Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/enable-cilifecyclemgmt-job.md) scheduled job that continuously checks and maintains data integrity of all internal CI Lifecycle Management tables.
 
-2.  [Define CI actions](define-cmdb-ci-action.md).
+2.  [Define CI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/define-cmdb-ci-action.md).
 
-3.  [Define compatible CI actions](dfn-cmptbl-cmdb-ci-action.md) rules.
+3.  [Define compatible CI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/dfn-cmptbl-cmdb-ci-action.md) rules.
 
     Navigate to **All** &gt; **Configuration** &gt; **CI Lifecycle Management** &gt; **CMDB CI Actions** to display currently active/inactive CI actions in the CMDB.
 
-4.  [Define not-allowed CI actions](non-allowed-cmdb-ci-action.md) rules.
+4.  [Define not-allowed CI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/non-allowed-cmdb-ci-action.md) rules.
 
-5.  [Define not-allowed operational state transitions](not-allowed-oprtionl-trnston.md) rules.
+5.  [Define not-allowed operational state transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/not-allowed-oprtionl-trnston.md) rules.
 
 6.  Define new operational states by modifying the **operational\_status** field in the \[cmdb\_ci\] table in the system dictionary.
 
     Navigate to **All** &gt; **Configuration** &gt; **CI Lifecycle Management** &gt; **View Internal Operational States** to display available operational states set by each requestor.
 
-7.  [Set priority for operational states](set-priority-operational-state.md).
+7.  [Set priority for operational states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/set-priority-operational-state.md).
 
 8.  Call APIs to apply CI actions.
 
@@ -52,5 +53,5 @@ Role required: none
 11. Navigate to **All** &gt; **Configuration** &gt; **CI Lifecycle Management** &gt; **State Management Logs** to display logs of CI Lifecycle Management operations.
 
 
-**Parent Topic:**[CMDB CI Lifecycle Management \(legacy\)](../concept/cmdb-ci-lifecycle-mgmt.md)
+**Parent Topic:**[CMDB CI Lifecycle Management \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-ci-lifecycle-mgmt.md)
 

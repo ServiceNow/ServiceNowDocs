@@ -2,6 +2,7 @@
 title: Create a quote PDF document
 description: In Quote Management, sales agents can create a PDF of a quote that can be sent to customers for review and signatures.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/quote-create-pdf-document.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,7 +26,7 @@ Create a quote PDF document
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![image.Lists] view.
+1.  In the CSM Configurable Workspace, select the **List** view.
 
 2.  Navigate to **Quotes** &gt; **All**.
 
@@ -33,23 +34,23 @@ Create a quote PDF document
 
 4.  On the **Details** tab, go to **Quote Document Details** and fill in the fields.
 
-<table id="choicetable_sbm_qvt_pdc"><tbody><tr><td id="d28823e106">
+<table id="choicetable_sbm_qvt_pdc"><tbody><tr><td id="d29666e105">
 
 **Document template**
 
 </td><td>
 
-A document template is required to create a quote document PDF. A standardized template is included with the base system. Select the template that you want. See [Set up PDF document templates](quote-mgt-setup-pdf-document-templates.md) for more information about how to create customized templates.
+A document template is required to create a quote document PDF. A standardized template is included with the base system. Select the template that you want. See [Set up PDF document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-mgt-setup-pdf-document-templates.md) for more information about how to create customized templates.
 
-</td></tr><tr><td id="d28823e125">
+</td></tr><tr><td id="d29666e124">
 
 **External signer**
 
 </td><td>
 
-Option that enables you to have the quote document signed by someone outside the organization. See [Set up PDF document signers](quote-mgt-configure-pdf-document-signers.md) for more details on how to set up external signers. When you select **Send for signature**, the external signer's email address is used to send an email through Docusign for review and electronic signature.
+Option that enables you to have the quote document signed by someone outside the organization. See [Set up PDF document signers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-mgt-configure-pdf-document-signers.md) for more details on how to set up external signers. When you select **Send for signature**, the external signer's email address is used to send an email through Docusign for review and electronic signature.
 
-</td></tr><tr><td id="d28823e152">
+</td></tr><tr><td id="d29666e151">
 
 **Internal signer**
 
@@ -57,7 +58,7 @@ Option that enables you to have the quote document signed by someone outside the
 
 Option that lets you select an internal signer for the quote. When you select **Send for signature**, the internal signer's email address is used to send an email using Docusign for review and signature.
 
-See [Set up PDF document signers](quote-mgt-configure-pdf-document-signers.md) for more details about how to set up an internal signer.
+See [Set up PDF document signers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-mgt-configure-pdf-document-signers.md) for more details about how to set up an internal signer.
 
 </td></tr></tbody>
 </table>5.  Select **Save**.
@@ -66,9 +67,9 @@ See [Set up PDF document signers](quote-mgt-configure-pdf-document-signers.md) f
 
     The PDF document is generated and appears in the **Attachment** side window.
 
-7.  Select the attachment icon to ![](../../../reuse/icons/product-icons/paperclip-outline-24.svg) open the attachments window.
+7.  Select the attachment icon to \[Omitted image "paperclip-outline-24.svg"\] Alt text: open the attachments window.
 
-8.  Select the actions icon ![](../image/icon-three-dots.png) and choose an action for your PDF document.
+8.  Select the actions icon \[Omitted image "icon-three-dots.png"\] Alt text: and choose an action for your PDF document.
 
     |Choice|Description|
     |------|-----------|
@@ -79,8 +80,8 @@ See [Set up PDF document signers](quote-mgt-configure-pdf-document-signers.md) f
 
     A message appears indicating that the PDF document was generated.
 
-9.  To view the generated PDF, select the PDF in the attachments window.![](../image/quote-attachment-window-pdf.png)
+9.  To view the generated PDF, select the PDF in the attachments window.\[Omitted image "quote-attachment-window-pdf.png"\] Alt text:
 
 
-**Parent Topic:**[Using Quote Management](../concept/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-mgmt-using.md)
 

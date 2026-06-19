@@ -2,6 +2,7 @@
 title: Set up GRC Virtual Agent to report risk events
 description: Use a Virtual Agent chatbot to report risk events from the Service Portal. A virtual agent chatbot helps customers to quickly report a risk event. The chatbot assists the customers by saving their time. The information exchanged during the conversation flow enables the chatbot to fulfill a user request or assist the user in completing a task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/grc-virtual-agent-risk-event.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -38,8 +39,8 @@ Role required: sn\_risk.admin.
 
 6.  In the Filter Widget search field, type `Virtual Agent Service Portal Widget`, drag the widget, and drop it anywhere on the screen.
 
-    You can see the chat icon at the bottom-right of the screen.![Virtual agent chat icon.](../../grc-policy-and-compliance/image/chat_icon.png)
+    You can see the chat icon at the bottom-right of the screen.\[Omitted image "chat\_icon.png"\] Alt text: Virtual agent chat icon.
 
 
-**Parent Topic:**[Use Risk Events](../concept/use-risk-events.md)
+**Parent Topic:**[Use Risk Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/use-risk-events.md)
 

@@ -2,6 +2,7 @@
 title: View the status of a request using the dispute tracker
 description: Track the progress of card disputes case requests using the dispute tracker.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/view-the-status-of-a-request.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -30,5 +31,5 @@ Role required: sn\_customerservice.consumer or sn\_customerservice.customer
 4.  Check the status of the disputed case, view the list of disputed transactions, and review the submitted documents in the dispute tracker.
 
 
-**Parent Topic:**[Create a dispute case with Dispute Intake in Portal](../concept/creating-an-onboarding-case-with-dispute-playbook-for-portal.md)
+**Parent Topic:**[Create a dispute case with Dispute Intake in Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/creating-an-onboarding-case-with-dispute-playbook-for-portal.md)
 

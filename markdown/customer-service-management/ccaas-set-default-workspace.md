@@ -2,7 +2,10 @@
 title: Set default workspace for CCaaS
 description: Configure and set a default workspace for contact center agents to let them navigate back to a workspace integrated with Interaction Controls Component \(ICC\), from any other unsupported workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ccaas-set-default-workspace.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

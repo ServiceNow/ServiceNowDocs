@@ -2,6 +2,7 @@
 title: Keyboard shortcuts for operating Service Mapping in accessibility mode
 description: You can access all service instance maps and service forms using a keyboard in the accessibility mode.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/shortcuts-service-mapping-accessibility.html
 release: zurich
 product: Service Mapping
 classification: service-mapping
@@ -27,5 +28,5 @@ When the whole map is selected, the information message at the top of the window
 |In the timeline, you can edit the time inside the current time selection.|Number \(1-9\)|
 |Move through UI elements in the service instance map window.|Tab|
 
-**Parent Topic:**[Service Mapping reference](service-mapping-reference.md)
+**Parent Topic:**[Service Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-reference.md)
 

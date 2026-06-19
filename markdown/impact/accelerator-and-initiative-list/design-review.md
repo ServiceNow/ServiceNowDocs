@@ -2,6 +2,7 @@
 title: Design Review
 description: These Accelerators provide an evaluation of current or proposed solution design.Design Review- Advanced provides Impact Advanced Customers with a review of either a solution to be implemented or an existing implemented solution, either as it pertains to the ServiceNow AI Platform.Design Review Total provides Impact Total Customers with a review of either \(1\) a solution to be implemented or \(2\) an existing implemented solution, either as it pertains to the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/design-review.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

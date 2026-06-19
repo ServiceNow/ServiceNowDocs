@@ -2,6 +2,7 @@
 title: Chief Risk Officer \(CRO\) Dashboard
 description: The Chief Risk Officer \(CRO\) uses this dashboard to get a single pane glass view of end-to-end Governance, Risk, and Compliance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/cro-dashboard.html
 release: zurich
 topic_type: concept
 last_updated: "2025-08-15"
@@ -17,5 +18,5 @@ The CRO dashboard is a critical tool for day-to-day risk governance as it provid
 
 This dashboard presents a collection of data visualizations for key risk indicators such as high-risk entities, net loss, open and aging issues, audit findings and failed controls, document and policy compliance rates, crisis and emergency events, and continuity plan status. These insights reflect trends over time, highlight areas of concern, and enable proactive risk mitigation and organizational resilience.
 
-![CRO dashboard overview screen featuring pillars for Enterprise Risks, Enterprise Issues, Internal Audits, Compliance, and BCM Governance, each with visualizations highlighting key metrics and trends.](../image/cro-db-tab.png)
+\[Omitted image "cro-db-tab.png"\] Alt text: CRO dashboard overview screen featuring pillars for Enterprise Risks, Enterprise Issues, Internal Audits, Compliance, and BCM Governance, each with visualizations highlighting key metrics and trends.
 

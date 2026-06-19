@@ -2,6 +2,7 @@
 title: Model Risk Workspace
 description: The Model Risk Workspace enables the model risk governance team and model validators to view the action items that require their immediate attention.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/model-risk-management/model-risk-workspace.html
 release: zurich
 product: Model Risk Management
 classification: model-risk-management
@@ -23,7 +24,7 @@ You can access the Model Risk Workspace by navigating to **All** &gt; **Model Ri
 
 The Homepage of the Model Risk Workspace contains the following information:
 
-![Model Risk Workspace Homepage.](../image/model-risk-workspace.png "Model Risk Workspace")
+\[Omitted image "model-risk-workspace.png"\] Alt text: Model Risk Workspace Homepage.
 
 |Tab|Description|
 |---|-----------|

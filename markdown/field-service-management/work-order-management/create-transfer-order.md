@@ -2,6 +2,7 @@
 title: Create a transfer order
 description: Create a transfer order that moves the necessary parts or assets to the correct stockroom or agent location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/create-transfer-order.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -17,7 +18,7 @@ Create a transfer order that moves the necessary parts or assets to the correct 
 
 ## Before you begin
 
-Role required: wm\_agent, wm\_qualifier, wm\_dispatcher, wm\_admin, or [qualifier combination role](../reference/r_UserRoleInstallWFieldSrvMgmnt.md)
+Role required: wm\_agent, wm\_qualifier, wm\_dispatcher, wm\_admin, or [qualifier combination role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md)
 
 ## Procedure
 
@@ -31,7 +32,7 @@ Role required: wm\_agent, wm\_qualifier, wm\_dispatcher, wm\_admin, or [qualifie
 
 5.  Click **Source Part**.
 
-    The system completes the **Model** field automatically with information from the part requirement. You can select a different model, but it must be a [substitute](https://www.servicenow.com/docs/access?context=t_AddingSubModelsToHrdwModel&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US) for the requested model. If you click the reference lookup icon \(![Lookup icon.](../image/SearchIcon.png)\) beside the **Model** field, only the selected model and any substitute models that are in stock are listed.
+    The system completes the **Model** field automatically with information from the part requirement. You can select a different model, but it must be a substitute for the requested model. If you click the reference lookup icon \(\[Omitted image "SearchIcon.png"\] Alt text: Lookup icon.\) beside the **Model** field, only the selected model and any substitute models that are in stock are listed.
 
 6.  Select a **From Stockroom**.
 

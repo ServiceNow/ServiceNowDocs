@@ -2,6 +2,7 @@
 title: Using the access map
 description: Learn how to use the Access map in AI Control Tower.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/using-the-access-map.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
@@ -27,11 +28,11 @@ Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
 
 2.  Select an AI agent/agentic workflow using the **Access map**.
 
-    You can also use the **Search by agent or workflow** field, and the **AI agents** and **Agentic workflows** to refine your search. Additionally, agents with access issues will have a![Warning](../image/sp-tab-access-map-issue-icon2.png) icon.
+    You can also use the **Search by agent or workflow** field, and the **AI agents** and **Agentic workflows** to refine your search. Additionally, agents with access issues will have a\[Omitted image "sp-tab-access-map-issue-icon2.png"\] Alt text: Warning icon.
 
 3.  In the node map, select a node to view the connections of your AI agent/agentic workflow.
 
-    Agents with access issues with be highlighted with a ![Red warning](../image/sp-tab-access-map-issue-icon.png) icon in the map.
+    Agents with access issues with be highlighted with a \[Omitted image "sp-tab-access-map-issue-icon.png"\] Alt text: Red warning icon in the map.
 
 4.  Select a node to get further details and configure settings.
 
@@ -49,7 +50,7 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
-![Agentic workflow node](../image/sp-tab-access-map-icon1.png)
+\[Omitted image "sp-tab-access-map-icon1.png"\] Alt text: Agentic workflow node
 
 </td><td>
 
@@ -75,7 +76,7 @@ The creator of the workflow
 
 </td></tr><tr><td>
 
-![AI Agent node](../image/sp-tab-access-map-icon2.png)
+\[Omitted image "sp-tab-access-map-icon2.png"\] Alt text: AI Agent node
 
 </td><td>
 
@@ -119,7 +120,7 @@ The number of times of the agent encounter the issue
 
 </td></tr><tr><td>
 
-![Tool node](../image/sp-tab-access-map-icon3.png)
+\[Omitted image "sp-tab-access-map-icon3.png"\] Alt text: Tool node
 
 </td><td>
 
@@ -155,5 +156,5 @@ The creator of the tool
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using AI Control Tower](../concept/using-ai-control-tower.md)
+**Parent Topic:**[Using AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
 

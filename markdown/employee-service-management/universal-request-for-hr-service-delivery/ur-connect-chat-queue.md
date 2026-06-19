@@ -2,6 +2,7 @@
 title: Configure Connect chat support queue
 description: Connect Support is a real-time messaging tool that enables support agents to easily track their support cases, find solutions, and resolve problems quickly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-connect-chat-queue.html
 release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -32,5 +33,5 @@ Role required: admin
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Configure Chat queues](../concept/config-chat-queues.md)
+**Parent Topic:**[Configure Chat queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/config-chat-queues.md)
 

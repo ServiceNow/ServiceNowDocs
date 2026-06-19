@@ -2,6 +2,7 @@
 title: Enable versioning for a scripted REST API
 description: Enable versioning for a scripted REST API to provide multiple versions of the API while maintaining compatibility with existing integrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-api-explorer/t\_EnableVersioning.html
 release: zurich
 product: REST API Explorer
 classification: rest-api-explorer
@@ -40,8 +41,8 @@ Role required: web\_service\_admin
     The **Versioning** embedded list is added to the Scripted REST Service form. You can add new versions or control which version is default from this list.
 
 
--   **[Add a version to a scripted REST API](t_AddAVersion.md)**  
+-   **[Add a version to a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/t_AddAVersion.md)**  
 Add a new version to a versioned scripted REST API to define new API behavior without impacting older versions.
 
-**Parent Topic:**[Create a scripted REST API](t_CreateAScriptedRESTService.md)
+**Parent Topic:**[Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/t_CreateAScriptedRESTService.md)
 

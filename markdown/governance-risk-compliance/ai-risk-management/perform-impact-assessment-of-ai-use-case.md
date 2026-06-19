@@ -2,6 +2,7 @@
 title: Perform impact assessment on an AI use case
 description: Perform an impact assessment of an AI use case to identify risks like copyright issues, bias, privacy breaches, misinformation, or surveillance, enabling improved oversight and risk management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/ai-risk-management/perform-impact-assessment-of-ai-use-case.html
 release: zurich
 product: AI Risk Management
 classification: ai-risk-management
@@ -40,7 +41,7 @@ Role required: AI Asset Owner or sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_bus
 
     2.  Select **Reassign**.
 
-6.  To initiate a sidebar discussion, select the more icon ![](../image/more-options.png), and select **Discuss**.
+6.  To initiate a sidebar discussion, select the more icon \[Omitted image "more-options.png"\] Alt text:, and select **Discuss**.
 
     1.  In the Start a Sidebar discussion dialog box, fill in the fields as appropriate.
 
@@ -98,7 +99,7 @@ Brief summary about the feedback to be discussed in the sidebar discussion.
 
 An AI Risk and Compliance Analyst evaluates the completed assessment along with the suggested list of risks and controls derived from the submitted information.
 
-Proceed to [Initiate risk assessment on AI asset](initiate-risk-assessment-on-ai-systems.md).
+Proceed to [Initiate risk assessment on AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/initiate-risk-assessment-on-ai-systems.md).
 
-**Parent Topic:**[Using AI Risk and Compliance](../concept/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

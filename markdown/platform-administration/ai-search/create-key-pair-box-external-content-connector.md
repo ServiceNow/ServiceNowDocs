@@ -2,6 +2,7 @@
 title: Create a public/private key pair for the Box external content connector
 description: Generate an encrypted private key and a public key for use by the Box external content connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/create-key-pair-box-external-content-connector.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -44,7 +45,7 @@ You need to create your own private and public RSA keys for use with the Box ext
 To configure public/private key authentication for the connector, you need to create the following items:
 
 1.  A 4,096-bit RSA private key in encrypted PKCS\#8 format.
-    -   Your connector admin needs this encrypted private key file and its password when configuring settings for the Box external content connector.
+    -   Your connector administrator needs this encrypted private key file and its password when configuring settings for the Box external content connector.
     -   When the Box external content connector runs a crawl, it presents the public key certificate from this encrypted private key file to authenticate itself as a valid client of the OAuth 2.0 app in the Box developer console.
 2.  A public key in PEM-encoded \(Base64 ASCII\) X.509 certificate format.
     -   Your Box administrator needs to upload this certificate file in the Box OAuth 2.0 app that grants API access to the Box external content connector.
@@ -70,7 +71,7 @@ To configure public/private key authentication for the connector, you need to cr
 
     2.  Copy the generated password and record it in a secure location.
 
-        **Important:** Your connector admin needs this password when configuring the Box external content connector.
+        **Important:** Your connector administrator needs this password when configuring the Box external content connector.
 
 3.  Convert your new private key to the encrypted PKCS\#8 format \(with AES-256-CBC and PBKDF2\):
 
@@ -80,11 +81,11 @@ To configure public/private key authentication for the connector, you need to cr
         openssl pkcs8 -topk8 -in private_key.pem -out encrypted_key.pem -v2 aes-256-cbc -v2prf hmacWithSHA256 -iter 10000 -saltlen 32
         ```
 
-    2.  When prompted, enter the secure password you generated in step [2](create-key-pair-box-external-content-connector.md#generate-secure-password-step).
+    2.  When prompted, enter the secure password you generated in step [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-key-pair-box-external-content-connector.md).
 
     3.  Store the generated `encrypted_key.pem` file in a secure location.
 
-        **Important:** Your connector admin needs this encrypted key file when configuring the Box external content connector.
+        **Important:** Your connector administrator needs this encrypted key file when configuring the Box external content connector.
 
 4.  Extract the public key for your new private key in PEM-encoded X.509 certificate format:
 
@@ -94,20 +95,20 @@ To configure public/private key authentication for the connector, you need to cr
         openssl pkey -in private_key.pem -pubout -out public_key.pem
         ```
 
-    2.  View or edit the content of the `public_key.pem` file that you generated in step [2](create-key-pair-box-external-content-connector.md#generate-secure-password-step).
+    2.  View or edit the content of the `public_key.pem` file that you generated in step [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-key-pair-box-external-content-connector.md).
 
     3.  Copy the PEM-encoded X.509 public key certificate text and store it in a secure location.
 
         The public key consists of all the text in the file, including the `-----BEGIN PUBLIC KEY-----` and `-----END PUBLIC KEY-----` markers.
 
-        ![PEM-encoded public key certificate text from public_key.pem file.](../image/public-key-pem-encoding.png)
+        \[Omitted image "public-key-pem-encoding.png"\] Alt text: PEM-encoded public key certificate text from public\_key.pem file.
 
         **Important:** Your Box admin needs this PEM-encoded X.509 public key certificate text when configuring the OAuth 2.0 application for Box external content connector in the Box developer console.
 
 
 ## What to do next
 
-Provide the following items to your Box admin and your connector admin:
+Provide the following items to your Box admin and your connector administrator:
 
 <table id="table_i22_yvt_rfc"><thead><tr><th>
 
@@ -123,7 +124,7 @@ PEM-encoded X.509 public key certificate text
 
 </td><td>
 
-Provide this text to your Box administrator. They will need to upload the PEM-encoded X.509 public key certificate text to the Box developer console when configuring an OAuth 2.0 application for the Box external content connector. For more information on configuring an OAuth 2.0 application in the Box developer console for the Box external content connector, see [Configure Box for external content indexing](configure-box-external-content-indexing.md).
+Provide this text to your Box administrator. They will need to upload the PEM-encoded X.509 public key certificate text to the Box developer console when configuring an OAuth 2.0 application for the Box external content connector. For more information on configuring an OAuth 2.0 application in the Box developer console for the Box external content connector, see [Configure Box for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-box-external-content-indexing.md).
 
 </td></tr><tr><td>
 
@@ -131,8 +132,8 @@ Encrypted private key file and password
 
 </td><td>
 
-Provide this encrypted private key file and its password to your connector admin. They will need the file and password when configuring the Box external content connector. For details on creating and configuring the Box external content connector, see [Create a Box external content connector](create-ext-cont-connector-box.md).
+Provide this encrypted private key file and its password to your connector administrator. They will need the file and password when configuring the Box external content connector. For details on creating and configuring the Box external content connector, see [Create a Box external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-box.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Box external content connector](../concept/box-external-content-connector.md)
+</table>**Parent Topic:**[Box external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/box-external-content-connector.md)
 

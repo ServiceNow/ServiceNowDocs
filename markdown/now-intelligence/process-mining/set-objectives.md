@@ -2,6 +2,7 @@
 title: Set objectives for Process Mining projects
 description: Define the kind of data or process that you want to view and analyze in your graph. You must select a specific table \(parent table\) that has the data that you want to analyze.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/set-objectives.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -25,15 +26,15 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 2.  Provide the following details.
 
-<table id="choicetable_j24_f5k_nzb"><thead><tr><th align="left" id="d89337e65">
+<table id="choicetable_j24_f5k_nzb"><thead><tr><th align="left" id="d88400e65">
 
 Field
 
-</th><th align="left" id="d89337e68">
+</th><th align="left" id="d88400e68">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d89337e74">
+</th></tr></thead><tbody><tr><td id="d88400e74">
 
 **Select type**
 
@@ -41,7 +42,7 @@ Description
 
 Choose whether you want to create a project or a template.
 
-</td></tr><tr><td id="d89337e83">
+</td></tr><tr><td id="d88400e83">
 
 **Template type**
 
@@ -55,7 +56,7 @@ This field is available only if you choose the type as **Template**.Four values 
 -   Digital Portfolio Management
 For a template that is not part of WFO, Vendor Management, or Digital Portfolio Management, choose **Default**. For example, to create a Performance Analytics template, select **Default**.
 
-</td></tr><tr><td id="d89337e122">
+</td></tr><tr><td id="d88400e122">
 
 **Name**
 
@@ -63,7 +64,7 @@ For a template that is not part of WFO, Vendor Management, or Digital Portfolio 
 
 An intuitive name for the project or template you’re creating.
 
-</td></tr><tr><td id="d89337e131">
+</td></tr><tr><td id="d88400e131">
 
 **Short description**
 
@@ -71,7 +72,7 @@ An intuitive name for the project or template you’re creating.
 
 A short description for the project or template you’re creating.
 
-</td></tr><tr><td id="d89337e141">
+</td></tr><tr><td id="d88400e141">
 
 **Source Type**
 
@@ -83,7 +84,7 @@ The source for the project or template you’re creating.-   Table: Any database
 -   Archived data: Select an archived table.
 
 
-</td></tr><tr><td id="d89337e164">
+</td></tr><tr><td id="d88400e164">
 
 **Table**
 
@@ -91,7 +92,7 @@ The source for the project or template you’re creating.-   Table: Any database
 
 Select a table that you want to base your project on. This list varies depending on the type of source that you’ve selected.
 
-</td></tr><tr><td id="d89337e176">
+</td></tr><tr><td id="d88400e176">
 
 **Mark as restricted**
 
@@ -101,7 +102,7 @@ Select the check box if you want to limit project access to the owner and the us
 
 When you’re dealing with sensitive data and must restrict access, you can use this option.
 
-</td></tr><tr><td id="d89337e189">
+</td></tr><tr><td id="d88400e189">
 
 **Auto retire**
 
@@ -115,9 +116,9 @@ This field is available only if you choose the type as **Project**.
 
  If you don’t change the retired status within the specified days, the mined versions are permanently deleted. However, the project definition isn’t deleted. You can opt out of auto retirement by clearing this check box.
 
- The default value of 90 days can be changed by the administrator in the System Properties. For more information see, [Data cleanup properties](../concept/data-cleanup.md#).
+ The default value of 90 days can be changed by the administrator in the System Properties. For more information see, [Data cleanup properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/data-cleanup.md).
 
-</td></tr><tr><td id="d89337e229">
+</td></tr><tr><td id="d88400e229">
 
 **Add a KPI dashboard**
 
@@ -137,5 +138,5 @@ Select the check box if you want to add a KPI dashboard. You must then select a 
     If you select an existing template, then after you select the template, you’re taken to the **Review and Mine** page.
 
 
-**Parent Topic:**[Create a project or template using Project Builder](define-workflow-model.md)
+**Parent Topic:**[Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/define-workflow-model.md)
 

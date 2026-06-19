@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP software info tab field descriptions
 description: The software info tab in Zero Copy Connector for ERP contains information about the selected ERP \(Enterprise Resource Planning\) system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erp-canvas-system-info-details.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -18,7 +19,7 @@ The software info tab in Zero Copy Connector for ERP contains information about 
 
 This feature is available starting with the Zurich Patch 4 release.
 
-For process details, see [View Zero Copy Connector for ERP software information](../task/view-erp-system-information.md).
+For process details, see [View Zero Copy Connector for ERP software information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/view-erp-system-information.md).
 
 |Field|Description|
 |-----|-----------|
@@ -28,5 +29,5 @@ For process details, see [View Zero Copy Connector for ERP software information]
 |CPU architecture|CPU design and instruction set, for example, x86\_64.|
 |Unicode|If this option is selected, the system supports the international standard character set.|
 
-**Parent Topic:**[Zero Copy Connector for ERP field descriptions](erp-canvas-field-descriptions.md)
+**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
 

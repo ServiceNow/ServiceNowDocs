@@ -1,37 +1,49 @@
 ---
-title: CI relationships and Knowledge Graph
-description: CI Relationships \(Rel CI\) enable the Knowledge Graph to answer natural language questions about service dependencies and infrastructure topology by storing typed parent-child relationships between CMDB configuration items.
+title: Configuration item relationships and Knowledge Graph
+description: Configuration item \(CI\) Relationships enable Knowledge Graph to answer natural language questions about service dependencies and infrastructure topology by storing typed parent-child relationships between CMDB configuration items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/knowledge-graph/ci-relationships-knowledge-graph.html
 release: zurich
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: concept
-last_updated: "2024-12-19"
+last_updated: "2026-05-27"
 reading_time_minutes: 3
-keywords: [CI relationships, Rel CI, Knowledge Graph, CMDB, configuration items]
+keywords: [CI relationships, Rel CI, Knowledge Graph, CMDB, configuration items, CI relationship]
 breadcrumb: [Exploring Knowledge Graph, Knowledge Graph, Enable AI experiences]
 ---
 
-# CI relationships and Knowledge Graph
+# Configuration item relationships and Knowledge Graph
 
-CI Relationships \(Rel CI\) enable the Knowledge Graph to answer natural language questions about service dependencies and infrastructure topology by storing typed parent-child relationships between CMDB configuration items.
+Configuration item \(CI\) Relationships enable Knowledge Graph to answer natural language questions about service dependencies and infrastructure topology by storing typed parent-child relationships between CMDB configuration items.
 
 The **CMDB\_REL\_CI** table stores relationships between configuration items \(CIs\) in the ServiceNow CMDB. Each relationship connects a parent CI to a child CI through a defined relationship type, enabling the Knowledge Graph to understand and traverse the topology of your IT environment.
 
-Rel CI support in the Knowledge Graph allows users to ask natural language questions about how services, servers, databases, and other CIs relate to one another without writing queries or navigating CMDB tables directly.
+CI relationship support in Knowledge Graph allows users to ask natural language questions about how services, servers, databases, and other CIs relate to one another without writing queries or navigating CMDB tables directly.
+
+## Enabling CI relationship for Knowledge Graph
+
+CI relationship support for the Knowledge Graph is inactive by default. Set both of the following system properties to true to enable it
+
+|System Property|Purpose|
+|---------------|-------|
+|**sn\_kg.description\_generation.enable\_cmdb\_rel\_ci**|Enables description generation for CI relationship data|
+|**sn\_kg.query.enable\_cmdb\_rel\_ci**|Enables Knowledge Graph querying against CI relationship data|
+
+**Note:** After enabling both properties, allow time for CI relationship data to be fully indexed before running queries. Results may be incomplete until indexing is complete.
 
 ## How CI relationship data is stored
 
-Each record in the Rel CI table represents a directional relationship between two CIs. Relationships are two-way and are described by a relationship type that consists of a parent descriptor and a child descriptor, separated by double colons:
+Each record in the CI relationship table represents a bi-directional relationship between two CIs. Relationships are described by a relationship type that consists of a parent to child relationship and child to parent relationship, separated by double colons:
 
 `<parent descriptor>::<child descriptor>`
 
 This means every relationship can be read in two directions:
 
--   Parent → child: read using the parent descriptor
--   Child → parent: read using the child descriptor
+-   Parent → child: read using the parent to child relationship \(parent descriptor\)
+-   Child → parent: read using the child to parent relationship \(child descriptor\)
 
-For example, a record in the Rel CI table has Bond Trading \(**cmdb\_ci\_service**\) as the parent, lnux100 \(**cmdb\_ci\_linux\_server**\) as the child, and a relationship type of `Depends on::Used by`. This relationship is read as:
+For example, a record in the CI relationship table has Bond Trading \(**cmdb\_ci\_service**\) as the parent, lnux100 \(**cmdb\_ci\_linux\_server**\) as the child, and a relationship type of `Depends on::Used by`. This relationship is read as:
 
 -   Bond Trading depends on lnux100
 -   lnux100 is used by Bond Trading
@@ -56,7 +68,7 @@ For example, a relationship defined between service and linux server also applie
 
 ## Supported query patterns
 
-The following table shows examples of queries the Knowledge Graph can answer using Rel CI data. Each query specifies a parent class, a relationship descriptor, and a child class.
+The following table shows examples of queries the Knowledge Graph can answer using CI relationship data. Each query specifies a parent class, a relationship descriptor, and a child class.
 
 |Scenario|Example Query|
 |--------|-------------|
@@ -75,15 +87,4 @@ The following query types are not currently supported. Use the recommended alter
 |Negation of a relationship|Which business capabilities have no related business applications?|Rephrase to ask for what does exist rather than what does not.|
 |Unspecified relationship type|Show me services related to Linux servers.|Show me services depending on Linux servers.|
 |Skipping steps in a multi-hop path|Show me servers in New York.|Show me servers in racks present in datacenters located in New York.|
-
-## Enabling Rel CI for Knowledge Graph
-
-Rel CI support for the Knowledge Graph is inactive by default. Set both of the following system properties to true to enable it:
-
-|System Property|Purpose|
-|---------------|-------|
-|**sn\_kg.description\_generation.enable\_cmdb\_rel\_ci**|Enables description generation for Rel CI data|
-|**sn\_kg.query.enable\_cmdb\_rel\_ci**|Enables Knowledge Graph querying against Rel CI data|
-
-**Note:** After enabling both properties, allow time for Rel CI data to be fully indexed before running queries. Results may be incomplete until indexing is complete.
 

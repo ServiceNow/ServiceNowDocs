@@ -2,6 +2,7 @@
 title: Breached Incidents
 description: View a list of all the breached incidents of your group and take appropriate action on these incidents. Breached incidents are the incident for which the Service Level Agreement \(SLA\) has exceeded the due date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/breached-incidents.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -15,8 +16,8 @@ breadcrumb: [My Work applet, ITSM Mobile Agent, IT Service Management]
 
 View a list of all the breached incidents of your group and take appropriate action on these incidents. Breached incidents are the incident for which the Service Level Agreement \(SLA\) has exceeded the due date.
 
--   **[Process a breached incident](../task/process-breached-incident.md)**  
+-   **[Process a breached incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-mobile-agent/process-breached-incident.md)**  
 View and manage the breached incident from the mobile.
 
-**Parent Topic:**[Managing incidents and tasks using My Work applet](my-work-application.md)
+**Parent Topic:**[Managing incidents and tasks using My Work applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-mobile-agent/my-work-application.md)
 

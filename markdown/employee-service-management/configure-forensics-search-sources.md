@@ -2,6 +2,7 @@
 title: Configure a data source for digital forensics
 description: Configure a data source a requester can select in a digital forensics request as the source of potentially evidential data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/configure-forensics-search-sources.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -57,7 +58,7 @@ Source detail fields
 
 </td><td>
 
-Fields that are applicable for the data source.The selected fields appear on the data source details form in a digital forensics request matter. Task owners provide details in these fields based on the fulfillment activities done by them. For more information, see [Create a task for a digital forensic legal matter](create-dft-matter-task.md).
+Fields that are applicable for the data source.The selected fields appear on the data source details form in a digital forensics request matter. Task owners provide details in these fields based on the fulfillment activities done by them. For more information, see [Create a task for a digital forensic legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/create-dft-matter-task.md).
 
  The field options in the list are populated from the Data Source Detail \[sn\_lg\_forensics\_search\_source\_detail\] table.
 
@@ -69,10 +70,10 @@ Fields that are applicable for the data source.The selected fields appear on the
 
 ## What to do next
 
-[Add fulfillment instructions and checklist for a data source](add-fulfillments-steps-dft.md). When a matter owner creates a task for the source in a legal matter, these instructions are pre-populated in the task. The users to whom the legal matter task is assigned can follow these instructions to resolve the task.
+[Add fulfillment instructions and checklist for a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/add-fulfillments-steps-dft.md). When a matter owner creates a task for the source in a legal matter, these instructions are pre-populated in the task. The users to whom the legal matter task is assigned can follow these instructions to resolve the task.
 
--   **[Add fulfillment instructions and checklist for a data source](add-fulfillments-steps-dft.md)**  
+-   **[Add fulfillment instructions and checklist for a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/add-fulfillments-steps-dft.md)**  
 Add instructions for a data source that a task owner in a legal matter can follow to resolve the task.
 
-**Parent Topic:**[Configure Legal Digital Forensics](../concept/setting-up-legal-dft.md)
+**Parent Topic:**[Configure Legal Digital Forensics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/setting-up-legal-dft.md)
 

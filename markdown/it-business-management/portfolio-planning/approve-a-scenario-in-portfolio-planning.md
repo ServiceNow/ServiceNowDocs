@@ -2,6 +2,7 @@
 title: Approve a scenario
 description: Approve a scenario that aligns with your organizational goals and offers the best business outcomes to make the scenario your current plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/approve-a-scenario-in-portfolio-planning.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -17,7 +18,7 @@ Approve a scenario that aligns with your organizational goals and offers the bes
 
 ## Before you begin
 
-Ensure that you have compared the scenarios and selected the one you want to approve. For more information, see [Compare scenarios](compare-scenarios-in-portfolio-planning.md).
+Ensure that you have compared the scenarios and selected the one you want to approve. For more information, see [Compare scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/compare-scenarios-in-portfolio-planning.md).
 
 Role required:
 
@@ -45,7 +46,7 @@ When you approve a scenario:
 
 4.  Select the **Approve scenario** button relevant to the scenario that you want to approve.
 
-    ![Approve scenario modal.](../../spw-scenario-planning/image/approve-scenario-modal-spw.png)
+    \[Omitted image "approve-scenario-modal-spw.png"\] Alt text: Approve scenario modal.
 
     While approving a scenario, you can:
 

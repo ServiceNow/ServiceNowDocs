@@ -2,6 +2,7 @@
 title: Enable your teams to sign up for work shifts
 description: Empower your teams to sign up for work shifts based on their availability and preference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/agent-shift-signup-wfo-itsm.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -29,15 +30,15 @@ When a schedule plan is enabled for sign-up, you can receive notifications. You 
 
 1.  Navigate to **All** &gt; **Workforce Optimization for ITSM** &gt; **Manager Workspace**
 
-2.  Select the Schedule icon \(![Schedule icon](../../itsm-manager-workspace/image/schedule-icon.png)\).
+2.  Select the Schedule icon \(\[Omitted image "schedule-icon.png"\] Alt text: Schedule icon\).
 
 3.  Add a schedule plan.
 
     1.  Select the **Team Calendar** tab.
 
-    2.  In the Contextual side panel, click the Show Schedules icon ![Show Schedules icon.](../image/show-schedules-icon.png) to display the schedules.
+    2.  In the Contextual side panel, click the Show Schedules icon \[Omitted image "show-schedules-icon.png"\] Alt text: Show Schedules icon. to display the schedules.
 
-        **Tip:** Select the filter icon \(![Filter schedule](../image/show-filter-icon.png)\) and then select the desired sign-up state and sign-up dates to narrow down the schedule plans enabled for sign-up.
+        **Tip:** Select the filter icon \(\[Omitted image "show-filter-icon.png"\] Alt text: Filter schedule\) and then select the desired sign-up state and sign-up dates to narrow down the schedule plans enabled for sign-up.
 
 <table id="table_fnk_m3l_bvb"><thead><tr><th>
 
@@ -78,7 +79,7 @@ Do this
 
         The image below shows an example of a filled-in Schedule form.
 
-        ![Create shift sign-up](../image/create-shift-signup.png)
+        \[Omitted image "create-shift-signup.png"\] Alt text: Create shift sign-up
 
     5.  To enable your agents to sign up for work shifts, do the following:
 
@@ -94,13 +95,13 @@ Do this
 
         The image below displays the schedule plan that was created.
 
-        ![Select schedule for shift sign-up](../image/select-schedule-shift-signup.png)
+        \[Omitted image "select-schedule-shift-signup.png"\] Alt text: Select schedule for shift sign-up
 
     2.  Select **Add Shift**.
 
         The image below provides an example of a form to enter the details for a shift.
 
-        ![Add shift sign-up](../image/add-shift-signup.png)
+        \[Omitted image "add-shift-signup.png"\] Alt text: Add shift sign-up
 
     3.  In the **Shift** field, select the work shift that you want to add to the schedule plan.
 
@@ -118,15 +119,15 @@ Do this
         -   The system will automatically close the sign ups after the sign-up due date.
 5.  Add agents to the work shifts.
 
-<table id="choicetable_ejp_3fs_dvb"><thead><tr><th align="left" id="d416115e373">
+<table id="choicetable_ejp_3fs_dvb"><thead><tr><th align="left" id="d219397e373">
 
 To
 
-</th><th align="left" id="d416115e376">
+</th><th align="left" id="d219397e376">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d416115e382">
+</th></tr></thead><tbody><tr><td id="d219397e382">
 
 **Auto-assign agents**
 
@@ -134,7 +135,7 @@ Do this
 
 Enable the **Enabled for auto-assignment for agents** check box. Your agents who have set the shift to be their top preference is auto-assigned. The number of shifts auto-assigned is based on the value set in the **sn\_shift\_planning.max\_shifts\_to\_autoassign** system property.
 
-</td></tr><tr><td id="d416115e397">
+</td></tr><tr><td id="d219397e397">
 
 **Assign agents manually**
 
@@ -212,5 +213,5 @@ Schedule plan is closed for agents to sign up.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Scheduling your teams' work in Workforce Optimization for ITSM](../concept/scheduling-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Scheduling your teams' work in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/scheduling-configurable-workforce-optimization-itsm.md)
 

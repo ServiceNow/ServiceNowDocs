@@ -2,13 +2,14 @@
 title: Ledger assignment rules
 description: When a purchase line is created for a purchase requisition on the ShoppingHub portal, the details of capex account, expense account, and pre-paid account are auto-populated based on applicable ledger assignment rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/ledger-assignment-rules.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Setting up primary data for Shopping Hub, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Setting up primary data Shopping, Configure Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Ledger assignment rules
@@ -30,8 +31,8 @@ For a purchase line, if rules are found for the supplier product, the related pr
 
 **Note:** If you have multiple ERP sources, you can create multiple rules but each rule can correspond to only one ERP source.
 
--   **[Create ledger assignment rules](../task/create-ledger-assignment-rules.md)**  
+-   **[Create ledger assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-ledger-assignment-rules.md)**  
 Automate ledger account assignment for a purchase line by relating ledger accounts to a supplier product, product model, product category, spend category, and cost center.
 
-**Parent Topic:**[Setting up primary data for Shopping Hub](../reference/set-up-master-data-shopping-hub.md)
+**Parent Topic:**[Setting up primary data for Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/set-up-master-data-shopping-hub.md)
 

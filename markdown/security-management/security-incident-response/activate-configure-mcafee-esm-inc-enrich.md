@@ -1,17 +1,18 @@
 ---
-title: Get started with the McAfee ESM - Incident Enrichment integration
+title: Get started with the McAfee ESM- incident Enrichment integration
 description: McAfee ESM protects endpoints against viruses, spyware, Trojan horses, and other malware threats and integrates easily with Security Operations. Before you can use the McAfee ESM - Incident Enrichment integration, you must download it from the ServiceNow Store and add the appropriate API Base URL and login credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/activate-configure-mcafee-esm-inc-enrich.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [McAfee ESM - Incident Enrichment Integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Get started with the McAfee ESM - Incident Enrichment integration
+# Get started with the McAfee ESM- incident Enrichment integration
 
 McAfee ESM protects endpoints against viruses, spyware, Trojan horses, and other malware threats and integrates easily with Security Operations. Before you can use the McAfee ESM - Incident Enrichment integration, you must download it from the ServiceNow Store and add the appropriate API Base URL and login credentials.
 
@@ -21,15 +22,13 @@ Role required: sn\_si\_admin
 
 ## Procedure
 
-1.  [Download the integration from the ServiceNow Store](../../../security-incident-response/reference/download-app-first-time.md).
+1.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/download-app-first-time.md).
 
 2.  When the installation is complete, navigate to **Security Operations** &gt; **Integrations** &gt; **Integration Configuration**.
 
     The available security integrations appear as a series of cards.
 
-3.  In the McAfee ESM - Incident Enrichment card, click **New**.
-
-    ![McAfee ESM configuration](../image/intel-config.png)
+3.  In the McAfee ESM - Incident Enrichment card, select **New**.
 
 4.  Fill in the fields, as needed.
 
@@ -103,7 +102,7 @@ Include raw data samples in search results
 
 </td><td>
 
-Select this to include samples of raw data in your sightings search results. The amount of data returned depends on your setting in the **number of rows of raw data** property in [Security Incident Response properties](../../../security-incident-response/reference/installed-with-sir.md).
+Select this to include samples of raw data in your sightings search results. The amount of data returned depends on your setting in the **number of rows of raw data** property in [Security Incident Response properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/installed-with-sir.md).
 
 </td></tr><tr><td>
 
@@ -116,11 +115,11 @@ Select **Any** to use any active MID Server, or select a specific MID Server nam
 </td></tr></tbody>
 </table>    **Note:** Configuring this integration activates workflows. To manage the workflows, navigate to the **Workflow Editor**.
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
     The integration configuration card displays.
 
-6.  When viewing the new configuration card, you can click **Configure** or **Delete** to change or delete the configuration, respectively.
+6.  When viewing the new configuration card, you can select **Configure** or **Delete** to change or delete the configuration, respectively.
 
 7.  To return to the original list of integration configuration cards, select **No** from the **Show Configurations** drop-down list.
 

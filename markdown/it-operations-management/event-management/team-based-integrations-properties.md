@@ -2,6 +2,7 @@
 title: Team-based integration properties
 description: Team-based integration system properties enable you to customize the assignment group functionality for existing and new customers for event rules and event field mapping.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/team-based-integrations-properties.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -52,5 +53,5 @@ Activates team-based functionality for executing event rules and event field-map
     -   True - for new customers
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Event Management reference](event-management-reference.md)
+</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/event-management-reference.md)
 

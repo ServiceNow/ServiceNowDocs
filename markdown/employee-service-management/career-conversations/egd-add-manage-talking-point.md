@@ -2,6 +2,7 @@
 title: Add and manage Talking Points
 description: As a Career Conversations admin, you can add or update talking points that are used by managers to help create a conversation with an employee.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/career-conversations/egd-add-manage-talking-point.html
 release: zurich
 product: Career Conversations
 classification: career-conversations
@@ -17,7 +18,7 @@ As a Career Conversations admin, you can add or update talking points that are u
 
 ## Before you begin
 
-Role required: sn\_egd\_act.admin or admin
+Role required: sn\_egd\_act.admin
 
 ## Procedure
 
@@ -30,5 +31,5 @@ Role required: sn\_egd\_act.admin or admin
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Install and configure Career Conversations](../concept/egd-activities-install-config.md)
+**Parent Topic:**[Install and configure Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/career-conversations/egd-activities-install-config.md)
 

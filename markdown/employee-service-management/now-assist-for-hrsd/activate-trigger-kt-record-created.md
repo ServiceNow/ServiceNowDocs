@@ -2,6 +2,7 @@
 title: Activate the Knowledge transfer record created trigger
 description: Enable the knowledge transfer record created trigger to ensure that the employee review workflow runs after a knowledge transfer record is generated. This trigger allows departing employees to review and approve auto-generated knowledge transfer content before sharing with their manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-hrsd/activate-trigger-kt-record-created.html
 release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd

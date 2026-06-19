@@ -2,6 +2,7 @@
 title: Chief Information Security Officer \(CISO\) Dashboard pillars
 description: Organizing insights across these pillars empowers CISOs to proactively reduce risk, improve compliance, strengthen incident responses, accelerate vulnerability remediation, and maintain audit readiness.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/ciso-dashboard-tab.html
 release: zurich
 topic_type: reference
 last_updated: "2025-09-01"
@@ -125,7 +126,7 @@ Oversight, readiness &amp; control validation
 Provides visibility into audit backlog, control testing readiness, and remediation timelines to maintain governance and reduce compliance failures.
 
 </td></tr></tbody>
-</table>![CISO Dashboard with Risk Exposure, Compliance, Security Incidents, Vulnerabilities, and Audits pillars, each containing security metrics and visualizations.](../image/ciso-db-tab.png)
+</table>\[Omitted image "ciso-db-tab.png"\] Alt text: CISO Dashboard with Risk Exposure, Compliance, Security Incidents, Vulnerabilities, and Audits pillars, each containing security metrics and visualizations.
 
 ## CISO Dashboard overview
 

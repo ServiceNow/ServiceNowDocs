@@ -2,6 +2,7 @@
 title: Tables provided with multiple service catalogs
 description: Administrators and catalog administrators must consider these points before they upgrade to multiple service catalogs.Catalog site records appear in the Sites related list on the Catalog form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/r\_UpgradToMultpleServiceCats.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -17,7 +18,7 @@ Administrators and catalog administrators must consider these points before they
 
 Before upgrading, be aware of changes made to the underlying Service Catalog data model. These changes are made to implement multiple catalogs and do not affect a standard upgrade. However, if you have made customizations, such as changes to the data model, the changes can impact the instance.
 
-The following tables are provided with [multiple service catalogs](../concept/c_MultipleServiceCatalogs.md#):
+The following tables are provided with [multiple service catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_MultipleServiceCatalogs.md):
 
 |Table \[name\]|Description|
 |--------------|-----------|
@@ -26,15 +27,15 @@ The following tables are provided with [multiple service catalogs](../concept/c_
 |Catalog Items Catalog \[sc\_cat\_item\_catalog\]|Stores the catalogs an item is available in.|
 |Catalog Item Category \[sc\_cat\_item\_category\]|Stores the categories an item is available in.|
 
-**Parent Topic:**[Service catalog setup](../topic/p_ServiceCatalogs.md)
+**Parent Topic:**[Service catalog setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/p_ServiceCatalogs.md)
 
 ## Catalog site records
 
 Catalog site records appear in the **Sites** related list on the Catalog form.
 
-The Catalog Site \[sc\_catalog\_site\] table associates catalogs with [CMS web sites](https://www.servicenow.com/docs/access?context=t_CreateANewSite&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+The Catalog Site \[sc\_catalog\_site\] table associates catalogs with CMS web sites.
 
-Several [service catalog system properties](r_ServiceCatalogProperties.md) are used to specify values for different sites used by different catalogs.
+Several [service catalog system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/r_ServiceCatalogProperties.md) are used to specify values for different sites used by different catalogs.
 
 |Property|Catalog site field \[name\]|
 |--------|---------------------------|

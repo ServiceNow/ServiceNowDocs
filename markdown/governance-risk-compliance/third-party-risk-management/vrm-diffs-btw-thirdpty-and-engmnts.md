@@ -2,6 +2,7 @@
 title: Why you might have several engagements with a single third party
 description: While onboarding a particular third party, you might conduct a separate engagement for each distinct type of relationship that you have with the third party. One engagement is to assess the risk involved in the third party's development of software for your organization and a separate engagement is for the facilities management service that they provide.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/vrm-diffs-btw-thirdpty-and-engmnts.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management

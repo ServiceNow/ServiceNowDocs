@@ -2,6 +2,7 @@
 title: Workday HR Spoke
 description: The Workday HR spoke is built by Bristlecone, Inc. Manage staffing, resources, payroll, benefits, and so on in the system from your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/workday-hr-spoke.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ The Workday HR spoke is built by Bristlecone, Inc. Manage staffing, resources, p
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store website](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store website](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -25,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Workday HR spoke v2.10.0 is the latest version.
+Workday HR spoke v2.12.2 is the latest version.
 
 ## Supported versions
 
@@ -2535,12 +2536,13 @@ The Workday HR spoke provides sample subflows to demonstrate automating Workday 
 |-------|-----------|
 |Verify User Subflow|Verifies if the user who raised request is a valid user in Workday system.|
 |Get WID For Worker|Retrieves WID details of the employee using the Look up Worker Profile action.|
-|Create User|Creates a user in the ServiceNow when the user is onboarded in the Workday system. To use this subflow, you should [Set up webhooks for your Workday HR spoke](../task/setup-webhook-wd-hr-spoke.md#).|
+|Create User|Creates a user in the ServiceNow when the user is onboarded in the Workday system. To use this subflow, you should [Set up webhooks for your Workday HR spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/setup-webhook-wd-hr-spoke.md).|
 |Leave of absence|Retrieves the leave of absence details of an employee from Workday using the LeaveofAbsence Webhook.|
 |Deactivate User|Deactivates an user in Workday using the Workday Deactivate User webhook.|
 |Look up job Requisition|Retrieves all the existing job requisition information from Workday application into Job Requisition table.|
 |Update Job Requisition|Retrieves the changes made to the existing job requisition in Workday using the UpdateJobRequisition webhook and stores the changes in the Job Requisition table.|
 |Look up Using WQL Stream|Retrieves Workday HR data using a WQL \(Workday Query Language\) stream query.|
+|Sample Sequences to Make a WQL Call|Constructs a Workday Query Language \(WQL\) query based on the specified inputs.|
 
 ## Spoke actions that use Workday SOAP APIs
 
@@ -2548,7 +2550,7 @@ Workday itself organizes its APIs into two major categories: SOAP Public API and
 
 The Workday HR spoke provides actions to automate Workday tasks when events occur in your ServiceNow instance. Available actions include:
 
-**Note:** The SOAP-based actions use the Workday SOAP web services and require you to perform the configurations mentioned in [Configurations to use Workday SOAP Basic Auth with WS-Security](../task/soap-wd-hr-spoke.md#).
+**Note:** The SOAP-based actions use the Workday SOAP web services and require you to perform the configurations mentioned in [Configurations to use Workday SOAP Basic Auth with WS-Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/soap-wd-hr-spoke.md).
 
 <table id="table_h3m_pnh_pmb"><thead><tr><th colspan="3">
 
@@ -3004,7 +3006,7 @@ Look up Worker Job History Report
 
 </td><td>
 
-Retrieves the job history of a worker.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Workday configuration for worker job history report](../task/wdhr-pk-worker-job-history.md).
+Retrieves the job history of a worker.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Workday configuration for worker job history report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-pk-worker-job-history.md).
 
 </td></tr><tr><td>
 
@@ -3297,7 +3299,7 @@ Workday itself organizes its APIs into two major categories: SOAP Public API and
 
 The Workday HR spoke provides actions to automate Workday tasks when events occur in your ServiceNow instance. Available actions include:
 
-**Note:** The REST-based actions use the Workday REST API and requires you to perform the configurations mentioned in [Configurations to use Workday REST API](../task/rest-wd-hr-spoke.md#).
+**Note:** The REST-based actions use the Workday REST API and requires you to perform the configurations mentioned in [Configurations to use Workday REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/rest-wd-hr-spoke.md).
 
 <table id="table_hxw_3rc_gxb"><thead><tr><th colspan="3">
 
@@ -3325,7 +3327,7 @@ Look up Worker Time Off and Leave Of Absence Request
 
 </td><td>
 
-Retrieves the time off and leave of absence details of the worker using RaaS report.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Workday configuration for worker time-off and leave of absence request report](../task/wdhr-timeoff-absence-req-rep.md).
+Retrieves the time off and leave of absence details of the worker using RaaS report.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Workday configuration for worker time-off and leave of absence request report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-timeoff-absence-req-rep.md).
 
 </td></tr><tr><td>
 
@@ -3339,15 +3341,15 @@ Look up In-Progress Approval Requests
 
 Retrieves the approval requests that are in progress from Workday for the specified date range.**Important:** Before executing this action, you must set up reports. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the required reports, see:
 
--   [Business process change for the approval use case](../task/wdhr-bp-approval-usecase.md)
--   [Workday configuration for change job event report](../task/wdhr-conf-change-job-rep.md)
--   [Workday configuration for compensation change event report](../task/wdhr-conf-comp-chng-event-rep.md)
--   [Workday configuration for job requisition event report](../task/wdhr-job-req-event-rep.md)
--   [Workday configuration for leave of absence event report](../task/wdhr-leave-of-absence-event-rep.md)
--   [Workday configuration for spend authorization report](../task/wdhr-spend-auth-rep.md)
--   [Workday configuration for termination event report](../task/wdhr-termination-event-rep.md)
--   [Workday configuration for time off correction event report](../task/wdhr-time-off-correction-event-rep.md)
--   [Workday configuration for time off event report](../task/wdhr-time-off-event-rep.md)
+-   [Business process change for the approval use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-bp-approval-usecase.md)
+-   [Workday configuration for change job event report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-conf-change-job-rep.md)
+-   [Workday configuration for compensation change event report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-conf-comp-chng-event-rep.md)
+-   [Workday configuration for job requisition event report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-job-req-event-rep.md)
+-   [Workday configuration for leave of absence event report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-leave-of-absence-event-rep.md)
+-   [Workday configuration for spend authorization report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-spend-auth-rep.md)
+-   [Workday configuration for termination event report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-termination-event-rep.md)
+-   [Workday configuration for time off correction event report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-time-off-correction-event-rep.md)
+-   [Workday configuration for time off event report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-time-off-event-rep.md)
 
 </td></tr><tr><td rowspan="3">
 
@@ -3393,7 +3395,7 @@ Look up Payslip
 
 </td><td>
 
-Retrieves payslip details of the specified employee.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Workday configuration for payslip report](../task/wdhr-pk-payslip.md).
+Retrieves payslip details of the specified employee.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Workday configuration for payslip report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-pk-payslip.md).
 
 </td></tr><tr><td>
 
@@ -3405,7 +3407,7 @@ Look up Employee Goals
 
 </td><td>
 
-Retrieves the employee goals from Workday.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Workday configuration for performance goals report](../task/wdhr-performance-goals-rep.md).
+Retrieves the employee goals from Workday.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Workday configuration for performance goals report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-performance-goals-rep.md).
 
 </td></tr><tr><td>
 
@@ -3417,7 +3419,7 @@ Look up Feedback Received
 
 </td><td>
 
-Retrieves the feedback requests from Workday.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Workday configuration for feedback received report](../task/wdhr-pk-feedback-received-report.md).
+Retrieves the feedback requests from Workday.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Workday configuration for feedback received report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-pk-feedback-received-report.md).
 
 </td></tr><tr><td rowspan="4">
 
@@ -3429,7 +3431,7 @@ Look up Employee Latest Performance Review
 
 </td><td>
 
-Pulls the latest performance review of the employee from Workday.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure the Employee Latest Performance Review report](../task/configure-employee-latest-performance-review-report.md).
+Pulls the latest performance review of the employee from Workday.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure the Employee Latest Performance Review report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/configure-employee-latest-performance-review-report.md).
 
 </td></tr><tr><td>
 
@@ -3437,7 +3439,7 @@ Look up Employee Performance Review Historical Data
 
 </td><td>
 
-Pulls the historical data on the employee performance review Workday.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Workday configuration for workers performance review historical data report](../task/wdhr-worker-perf-review-hist-rep.md).
+Pulls the historical data on the employee performance review Workday.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Workday configuration for workers performance review historical data report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-worker-perf-review-hist-rep.md).
 
 </td></tr><tr><td>
 
@@ -3445,7 +3447,7 @@ Look up Succession Planning
 
 </td><td>
 
-Pulls the succession planning from Workday.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure Succession Planning Report](../task/configure-succession-planning-report.md).
+Pulls the succession planning from Workday.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure Succession Planning Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/configure-succession-planning-report.md).
 
 </td></tr><tr><td>
 
@@ -3453,7 +3455,7 @@ Look up Succession Pool
 
 </td><td>
 
-Pulls the succession pool from Workday.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure Succession Pool report](../task/configure-succession-pool-report.md).
+Pulls the succession pool from Workday.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure Succession Pool report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/configure-succession-pool-report.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -3467,8 +3469,8 @@ Look up Employee Skills
 
 Retrieves employee skills from Workday for specified date range.**Important:** You must create report in Workday instance to use this action.
 
--   For more information about extracting workers skill with skill cloud, see [Extract workers skill \(with the skill cloud\)](../task/wd-worker-skill-with-cloud.md).
--   For more information about extracting workers skill without skill cloud, see [Extract workers skill \(without the skill cloud\)](../task/wd-worker-skill-without-cloud.md).
+-   For more information about extracting workers skill with skill cloud, see [Extract workers skill \(with the skill cloud\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wd-worker-skill-with-cloud.md).
+-   For more information about extracting workers skill without skill cloud, see [Extract workers skill \(without the skill cloud\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wd-worker-skill-without-cloud.md).
 
 </td></tr><tr><td>
 
@@ -3476,7 +3478,7 @@ Look up Skills
 
 </td><td>
 
-Retrieves skills from Workday.**Important:** You must create report in Workday instance to use this action. For more information, see [Create report to extract skills](../task/wd-hr-lookup-skills.md) and [Workday configuration for skill details report](../task/wdhr-pk-skill-details-report.md).
+Retrieves skills from Workday.**Important:** You must create report in Workday instance to use this action. For more information, see [Create report to extract skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wd-hr-lookup-skills.md) and [Workday configuration for skill details report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-pk-skill-details-report.md).
 
 </td></tr><tr><td rowspan="8">
 
@@ -3496,7 +3498,7 @@ Look up Holiday Calendars Of An Employee
 
 </td><td>
 
-Retrieves details of the holiday calendar for the specified employee.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure the holiday calendar report](../task/configure-the-holiday-calendar-report.md).
+Retrieves details of the holiday calendar for the specified employee.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure the holiday calendar report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/configure-the-holiday-calendar-report.md).
 
 </td></tr><tr><td>
 
@@ -3504,7 +3506,7 @@ Look up Holiday Calendars Reference WID Of An Employee
 
 </td><td>
 
-Retrieves details of the holiday calendar WID for the specified employee.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure the holiday calendar report](../task/configure-the-holiday-calendar-report.md).
+Retrieves details of the holiday calendar WID for the specified employee.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure the holiday calendar report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/configure-the-holiday-calendar-report.md).
 
 </td></tr><tr><td>
 
@@ -3512,7 +3514,7 @@ Look up Inbox Items
 
 </td><td>
 
-Retrieves inbox items from Workday for the specified date range.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure Look up inbox items report](../task/configure-look-up-inbox-item-report.md).
+Retrieves inbox items from Workday for the specified date range.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure Look up inbox items report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/configure-look-up-inbox-item-report.md).
 
 </td></tr><tr><td>
 
@@ -3528,7 +3530,7 @@ Look up Schedule Calendars Reference WID Of An Employee
 
 </td><td>
 
-Retrieves work schedule calendars for the required employees.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure work schedule calendar report](../task/configure-work-schedule-calendar-report.md).
+Retrieves work schedule calendars for the required employees.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure work schedule calendar report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/configure-work-schedule-calendar-report.md).
 
 </td></tr><tr><td>
 
@@ -3536,7 +3538,7 @@ Look up Total Rewards using Report
 
 </td><td>
 
-Retrieves the total rewards for the specified report owner and report.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure Total Rewards Report](../task/configure-total-rewards-report.md).
+Retrieves the total rewards for the specified report owner and report.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure Total Rewards Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/configure-total-rewards-report.md).
 
 </td></tr><tr><td>
 
@@ -3613,16 +3615,16 @@ Downloads a specified Workday RAAS report in CSV format and attaches it to the s
 </td></tr></tbody>
 </table>## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](../../integrationhub/concept/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
--   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See [Create an agentic workflow](https://www.servicenow.com/docs/access?context=configure-use-case-ai-agents&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
+-   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See  for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
 
-    You can also search for other available AI agents and add them to your agentic workflow. See [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) for more information.
+    You can also search for other available AI agents and add them to your agentic workflow. See  for more information.
 
--   You can create a clone of the required spoke AI agent and customize it as per your requirement. See [Duplicate an AI agent](https://www.servicenow.com/docs/access?context=clone-ai-agent&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) for more information about creating a clone.
--   See [Now Assist AI agents](https://www.servicenow.com/docs/access?context=na-ai-agents&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) for information about AI agents.
+-   You can create a clone of the required spoke AI agent and customize it as per your requirement. See  for more information about creating a clone.
+-   See  for information about AI agents.
 
 |AI Agent|Description|
 |--------|-----------|
@@ -3636,9 +3638,9 @@ This spoke provides standalone AI agents that mimic human-like intelligence to p
 
 ## Available sample agentic workflows
 
-Install Now Assist for Integration Hub and start using the available sample agentic workflows and AI agents. For more information, see [Now Assist for Integration Hub](../../integrationhub/concept/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available sample agentic workflows and AI agents. For more information, see [Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/now-assist-spokes.md).
 
-In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. Use the available sample agentic workflow in AI Agent Studio so that AI agents can coordinate to solve complex problems. To modify the available sample agentic workflow as per your requirement, see [Modify an agentic workflow](https://www.servicenow.com/docs/access?context=modify-aia-use-case&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. Use the available sample agentic workflow in AI Agent Studio so that AI agents can coordinate to solve complex problems. To modify the available sample agentic workflow as per your requirement, see .
 
 <table id="table_emr_pyw_c3c"><thead><tr><th>
 
@@ -3671,7 +3673,7 @@ Retrieves an employee’s profile information, rewards details, and latest perfo
 
 </td><td>
 
-No**Note:** To activate the workflow, see [Activate an agentic workflow template](https://www.servicenow.com/docs/access?context=activate-aia-use-case&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+No**Note:** To activate the workflow, see .
 
 </td></tr><tr><td>
 
@@ -3688,7 +3690,7 @@ Retrieves employee‑specific time‑off information along with the applicable h
 
 </td><td>
 
-No**Note:** To activate the workflow, see [Activate an agentic workflow template](https://www.servicenow.com/docs/access?context=activate-aia-use-case&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+No**Note:** To activate the workflow, see .
 
 </td></tr></tbody>
 </table>## Spoke modules
@@ -3793,10 +3795,10 @@ Webhook Registry
 
 </td><td>
 
-Contains records of webhooks registries. Admin should create record here to [Set up webhooks for your Workday HR spoke](../task/setup-webhook-wd-hr-spoke.md#) for the required Workday HR event.
+Contains records of webhooks registries. Admin should create record here to [Set up webhooks for your Workday HR spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/setup-webhook-wd-hr-spoke.md) for the required Workday HR event.
 
 </td></tr></tbody>
 </table>## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://www.servicenow.com/docs/access?context=r-credentials&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see .
 

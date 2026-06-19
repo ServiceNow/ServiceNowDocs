@@ -2,6 +2,7 @@
 title: Service contract line form
 description: You can create service contract lines in the Customer Contracts and Entitlements application by using the Service Contract Line form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/service-contract-line-form.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -56,7 +57,7 @@ Account
 The name of the account associated with this service contract.**Note:**
 
 -   A service contract can be associated with either an account or a consumer.
--   An account can be created if no account is found by selecting **New** on the Accounts form. For more information on the fields in the Account form, see [Account form](https://www.servicenow.com/docs/access?context=customer-service-account-form&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+-   An account can be created if no account is found by selecting **New** on the Accounts form. For more information on the fields in the Account form, see .
 
 </td></tr><tr><td>
 
@@ -88,7 +89,7 @@ Consumer
 
 </td><td>
 
-The name of the consumer associated with this contract.**Note:** If no consumer record is found, you can create a consumer and add it to the service contract. For more information, see [Create a consumer record](https://www.servicenow.com/docs/access?context=create-a-consumer-record&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+The name of the consumer associated with this contract.**Note:** If no consumer record is found, you can create a consumer and add it to the service contract. For more information, see .
 
 </td></tr><tr><td>
 
@@ -292,5 +293,5 @@ Represents the total price of the contract line by calculating the roll-up amoun
 </td></tr></tbody>
 </table>**Note:** When a service contract line item is created manually, the **Pricing method**, **Unit net price**, and **Periodicity** fields are invalid. They’re only applicable when the contract line is created by the Sales Customer Relationship Management workflow or by integration. In that case, these fields are auto-populated with the details from the related sold product. The start and end dates of a child service contract line must be in between the start and end date of the associated parent service contract line.
 
-**Parent Topic:**[Customer Contracts and Entitlements reference](../concept/pss-reference.md)
+**Parent Topic:**[Customer Contracts and Entitlements reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/pss-reference.md)
 

@@ -2,6 +2,7 @@
 title: Define a skill level type
 description: Define skill levels \(for example, beginner, intermediate, advanced\) for different skill level types \(for example, a language or an IT certification\) so you can associate skill levels to users and define skill levels and types required for tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/skills-management/define-skill-level-type.html
 release: zurich
 product: Skills Management
 classification: skills-management
@@ -46,5 +47,5 @@ Role required: skill\_admin or admin
 
 This example shows a system administrator creating the skill level type Language, adding the skill level Proficient to that type, and associating a value for the level.
 
-![Skill Level Type](../images/skill-level-type-new-york.gif)
+\[Omitted image "skill-level-type-new-york.gif"\] Alt text: Skill Level Type
 

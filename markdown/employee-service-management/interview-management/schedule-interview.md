@@ -2,6 +2,7 @@
 title: Schedule an interview
 description: Schedule interview with applicants on a job requisition to get started with the interview journey.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/interview-management/schedule-interview.html
 release: zurich
 product: Interview Management
 classification: interview-management
@@ -35,11 +36,11 @@ As a recruiter, you can schedule interviews with applicants throughout their app
 
 4.  On the application record page, select **Schedule interview**.
 
-    **Note:** If upgrading from an earlier version, make sure to edit and populate the **Hiring role**, **Visibility to applicant**, and **Type** fields of the hiring team members in the job requisition. For details, see [Edit hiring team members](../concept/manage-hiring-team.md#).
+    **Note:** If upgrading from an earlier version, make sure to edit and populate the **Hiring role**, **Visibility to applicant**, and **Type** fields of the hiring team members in the job requisition. For details, see [Edit hiring team members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/recruitment-workspace/manage-hiring-team.md).
 
 5.  On the Schedule interview form, fill in the fields.
 
-    For a description of the field values, see [Schedule interview form](../reference/schedule-interview-form.md).
+    For a description of the field values, see [Schedule interview form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/interview-management/schedule-interview-form.md).
 
 6.  Preview the draft invite and select **Send**.
 
@@ -56,7 +57,7 @@ As a recruiter, you can schedule interviews with applicants throughout their app
 
 ## What to do next
 
-You can also track your interviews from the List view. For more information, see [List view in Recruitment workspace](../concept/list-view-recruit-workspace.md).
+You can also track your interviews from the List view. For more information, see [List view in Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/recruitment-workspace/list-view-recruit-workspace.md).
 
-**Parent Topic:**[Using Interview Management](../concept/using-interview-mgmnt.md)
+**Parent Topic:**[Using Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/interview-management/using-interview-mgmnt.md)
 

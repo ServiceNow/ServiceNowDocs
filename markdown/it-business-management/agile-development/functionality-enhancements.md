@@ -2,6 +2,7 @@
 title: Functionality enhancements from Agile Development 1.0 to Agile Development 2.0
 description: Agile Development 2.0 offers a few functionality enhancements over Agile Development 1.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/functionality-enhancements.html
 release: zurich
 product: Agile Development
 classification: agile-development
@@ -15,7 +16,7 @@ breadcrumb: [Agile Development 2.0 enhancements over Agile Development 1.0, Migr
 
 Agile Development 2.0 offers a few functionality enhancements over Agile Development 1.0.
 
-**Important:** Agile Development 1.0 and its features such as Sprint burndown chart and release burndown chart are deprecated and no longer available. [Agile Development 2.0](agile-landing-page.md) provides the latest experience for supporting your Agile work methodology.
+**Important:** Agile Development 1.0 and its features such as Sprint burndown chart and release burndown chart are deprecated and no longer available. [Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/agile-landing-page.md) provides the latest experience for supporting your Agile work methodology.
 
 ## Integration with Test Management 2.0
 
@@ -29,5 +30,5 @@ Agile Development — Unified Backlog is integrated with Agile Development 2.0. 
 
 **Note:** This integration is available from the London release.
 
-**Parent Topic:**[Agile Development 2.0 enhancements over Agile Development 1.0](../concept/appendix.md)
+**Parent Topic:**[Agile Development 2.0 enhancements over Agile Development 1.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/appendix.md)
 

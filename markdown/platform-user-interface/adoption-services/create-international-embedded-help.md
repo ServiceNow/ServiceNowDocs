@@ -2,6 +2,7 @@
 title: Create internationalized embedded help
 description: Translate provided English Embedded Help content into other languages or create custom Embedded Help content in the language of your choice.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/create-international-embedded-help.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
@@ -23,7 +24,7 @@ Role required: embedded\_help\_admin or admin
 
 All embedded help content records are in English by default. To create a non-English Embedded Help content record, there must first be an English content record in the Embedded Help \[sys\_embedded\_help\_content\] table. The English Embedded Help content record is parent to all other language Embedded Help content records. Once you create a non-English Embedded Help content record, it resides in the Translated Texts \[sys\_translated\_text\] table.
 
-To translate provided English content into another language, create a copy of the English content record and save the edited, non-English, copy record. The new record is saved to the Translated Texts \[sys\_translated\_text\] table. Refer to [Add custom embedded help from a copy](add-custom-help-copy.md) to translate available embedded help content.
+To translate provided English content into another language, create a copy of the English content record and save the edited, non-English, copy record. The new record is saved to the Translated Texts \[sys\_translated\_text\] table. Refer to [Add custom embedded help from a copy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/add-custom-help-copy.md) to translate available embedded help content.
 
 To create a non-English custom embedded help content record, your working instance must be configured to the same language you intend to write in. You create custom non-English Embedded Help content when English embedded help content is not available to copy.
 
@@ -79,7 +80,7 @@ Role
 
 </td><td>
 
-The role that the topic is written to assist. Users assigned to the role see the content when they navigate to the associated UI page.All roles that contain the role also see the content, unless another topic targeted to their role exists for the same page. For more information, see [Embedded Help roles](../concept/embedded-help-roles.md)
+The role that the topic is written to assist. Users assigned to the role see the content when they navigate to the associated UI page.All roles that contain the role also see the content, unless another topic targeted to their role exists for the same page. For more information, see [Embedded Help roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/embedded-help-roles.md)
 
 </td></tr><tr><td>
 
@@ -127,7 +128,7 @@ Order
 
 </td><td>
 
-The order defaults based on the role, and determines what content to display when the user has an assigned role. For more information, see [Embedded Help roles](../concept/embedded-help-roles.md).
+The order defaults based on the role, and determines what content to display when the user has an assigned role. For more information, see [Embedded Help roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/embedded-help-roles.md).
 
 </td></tr><tr><td>
 
@@ -144,7 +145,7 @@ Specify the domain this content is used for, if applicable.This field appears in
 
     **Note:** Do not add images in an embedded help topic. Images are removed from the content section when the record is saved.
 
-    To add an embedded video, see [Embed video content in help topics](embed-video-help-content.md).
+    To add an embedded video, see [Embed video content in help topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/embed-video-help-content.md).
 
 5.  To add another line below tables, videos, or related links, click the newline icon \(**⏎**\).
 
@@ -153,5 +154,5 @@ Specify the domain this content is used for, if applicable.This field appears in
     The edited topic is saved and the list displays again. The **ServiceNow Help** check box is cleared in the saved topic.
 
 
-**Parent Topic:**[Embedded Help internationalization](../concept/embedded-help-internationalization.md)
+**Parent Topic:**[Embedded Help internationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/embedded-help-internationalization.md)
 

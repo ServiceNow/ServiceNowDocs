@@ -2,11 +2,12 @@
 title: Verify the SOX Content Pack in Risk Management
 description: After importing the SOX Content Pack, verify and edit the entity types, entities, risk statements, risks, and assessments within the Risk Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/verify-SOX-content-risk-management.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-05-04"
 reading_time_minutes: 1
 breadcrumb: [SOX content pack, GRC content packs, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -45,26 +46,20 @@ Role required: Risk Admin \(sn\_risk.admin\)
     -   Tax
     -   Travel and Expense
     -   Treasury
-    ![Profile type record is pictured with the Profiles related list](../image/SOX-profile-type.png)
-
-2.  Under the Profile filters related list, a filter is added to query the SOX processes table for the generation of SOX profiles.![Profile type record is pictured with the Profile Filters Related List](../image/SOX-profile-filter.png)
+2.  Under the Profile filters related list, a filter is added to query the SOX processes table for the generation of SOX profiles.
 
 3.  Navigate to **Risk** &gt; **Risk Library** &gt; **Risk Statements**.
 
     All SOX risk statements have been added in the Draft state and the Risk Assessment is assigned to them.
 
-    ![Risk statements](../image/SOX-risk-statements.png)
-
 4.  Navigate to **Risk** &gt; **Risk Register** &gt; **Risks**.
 
     All SOX risk statements have been added in the Draft state and the Risk Assessment is assigned to them.
 
-    ![Risks](../image/SOX-risks.png)
-
 
 ## Result
 
-For information about the SOX Risk Dashboard, see [SOX Content Pack dashboard and reports](../concept/grc-SOX-compliance-content-pack.md).
+For information about the SOX Risk Dashboard, see [SOX Content Pack dashboard and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-SOX-compliance-content-pack.md).
 
-**Parent Topic:**[Sarbanes-Oxley \(SOX\) Content Pack](../concept/sn-store-SOX-governance-risk-compliance.md)
+**Parent Topic:**[Sarbanes-Oxley \(SOX\) Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/sn-store-SOX-governance-risk-compliance.md)
 

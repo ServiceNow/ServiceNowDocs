@@ -2,11 +2,12 @@
 title: View collected metrics with Metrics analyzer
 description: Use the Metrics analyzer to view metrics collected for a given device or application during a specific time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/view-dex-metrics.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Monitor, Digital End-User Experience, IT Service Management]
 ---
@@ -27,7 +28,7 @@ Use DEX Metrics analyzer to view key performance metrics collected for specific 
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the Devices icon \(![](../image/icon-devices.png)\) or the Applications icon \(![](../image/icon-applications.png)\).
+2.  In the primary navigation pane, select the Devices icon \(\[Omitted image "icon-devices.png"\]\) or the Applications icon \(\[Omitted image "icon-applications.png"\]\).
 
 3.  Select a device or an application from the list.
 
@@ -35,7 +36,7 @@ Use DEX Metrics analyzer to view key performance metrics collected for specific 
 
 5.  In the Metrics analyzer window, search for or select up to five metrics to display as a graph.
 
-    To learn more, see [Metrics analyzer form](../reference/metrics-analyzer.md).
+    To learn more, see [Metrics analyzer form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/metrics-analyzer.md).
 
 6.  Filter your data by page name, location, OS, or date range.
 

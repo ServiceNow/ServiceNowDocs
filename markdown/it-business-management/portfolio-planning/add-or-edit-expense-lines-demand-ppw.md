@@ -2,6 +2,7 @@
 title: Add or edit expense lines
 description: Create an expense line to capture the cost associated with a specific source, such as a user or a fixed asset. Expense lines are part of demand cost plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/add-or-edit-expense-lines-demand-ppw.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -29,7 +30,7 @@ Expense lines on a demand record track the costs incurred during the demand eval
 
 1.  Open a demand from the home page of Next Experience for Demand Management.
 
-    For more information, see [Access demands](access-demands-ppw.md).
+    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/access-demands-ppw.md).
 
 2.  Select **Details** from the L-2 \(level 2\) navigation menu.
 
@@ -43,7 +44,7 @@ Expense lines on a demand record track the costs incurred during the demand eval
     -   To update the details of an existing expense line, select the record.
 5.  On the Create New Expense Line form, fill in the fields.
 
-    For a description of the field names, see [Create expense line form](../reference/create-expense-line-form-ppw.md).
+    For a description of the field names, see [Create expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/create-expense-line-form-ppw.md).
 
 6.  Select **Save**.
 

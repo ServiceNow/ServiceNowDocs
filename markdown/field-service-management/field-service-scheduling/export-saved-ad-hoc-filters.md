@@ -2,6 +2,7 @@
 title: Export saved ad-hoc filters
 description: Export ad-hoc filters saved in Dispatcher Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/export-saved-ad-hoc-filters.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling

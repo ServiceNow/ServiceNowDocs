@@ -2,6 +2,7 @@
 title: Email links with external authentication
 description: You can use email links when using the digestive token external authentication, however, you must establish how to handle links in email notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/c\_EmailLinksWithSSO.html
 release: zurich
 product: Authentication
 classification: authentication

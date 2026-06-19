@@ -2,6 +2,7 @@
 title: Capturing information from a user in a WhatsApp chat conversation
 description: Use the collection of input controls provided by the Virtual Agent Designer to prompt and capture information from a requester in a WhatsApp chat conversation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/messg-whatsapp-capture-info.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -15,7 +16,7 @@ breadcrumb: [Using, Conversational Integration with WhatsApp \(powered by Twilio
 
 Use the collection of input controls provided by the Virtual Agent Designer to prompt and capture information from a requester in a WhatsApp chat conversation.
 
-Virtual Agent Designer is a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user. For more information, see [Getting started with Virtual Agent Designer](../reference/conversation-designer-virtual-agent.md).
+Virtual Agent Designer is a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user. For more information, see [Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 
 ## User notification consent
 
@@ -24,7 +25,7 @@ Users must opt in to receive notifications. No notifications can be delivered un
 There are two ways for users to grant consent to receive notifications:
 
 -   The user can enter `Notification` into the WhatsApp chat with your business. The user gets a bot response with the option to subscribe or unsubscribe from receiving notifications for your business on WhatsApp.
--   As the administrator, you can set up the option for users to subscribe or unsubscribe from notifications from your portal. See [Subscription-based notifications](https://www.servicenow.com/docs/access?context=c_SubscriptionBasedNotifications&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) for more information.
+-   As the administrator, you can set up the option for users to subscribe or unsubscribe from notifications from your portal. See  for more information.
 
 ## User input controls
 
@@ -39,7 +40,7 @@ The Conversational Integration with WhatsApp \(powered by Twilio\) application s
 |Date Time|User selects a calendar date, time \(hours and minutes\), or both.|
 |Carousel|User selects a single item from the carousel.|
 
-For more information about configuring user input controls, see [Assistant Designer user input controls](../reference/va-user-inputs.md).
+For more information about configuring user input controls, see [Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-user-inputs.md).
 
 The Conversational Integration with WhatsApp \(powered by Twilio\) application supports the following bot responses in Virtual Agent Designer.
 
@@ -51,7 +52,7 @@ The Conversational Integration with WhatsApp \(powered by Twilio\) application s
 |Web UI image card output|Bot sends content from a record in a compact format, including an image with text.|
 |Table|Bot response is displayed as a table.|
 
-For more information about configuring bot responses, see [Virtual Agent Designer bot responses](../reference/va-bot-responses.md).
+For more information about configuring bot responses, see [Virtual Agent Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md).
 
-**Parent Topic:**[Using Conversational Integration with WhatsApp \(powered by Twilio\)](messg-whatsapp-using.md)
+**Parent Topic:**[Using Conversational Integration with WhatsApp \(powered by Twilio\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-whatsapp-using.md)
 

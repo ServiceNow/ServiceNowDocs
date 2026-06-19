@@ -2,6 +2,7 @@
 title: Enable Virtual Agent notifications for IT Service Management
 description: Configure system properties to enable Virtual Agent notifications in Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/enable-va-notifications-it.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -48,9 +49,9 @@ The following tables are supported for Virtual Agent notifications in the base s
 
 ## What to do next
 
-You can customize the fields displayed in approval notifications. For more information, see [Customizing approval notification fields](../concept/customizing-approval-notifications.md).
+You can customize the fields displayed in approval notifications. For more information, see [Customizing approval notification fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/customizing-approval-notifications.md).
 
-To configure LLM actionable provider notifications, refer to [Configure LLM based provider notifications for ITSM](configure-llm-based-actional-notifications-for-itsm.md).
+To configure LLM actionable provider notifications, refer to [Configure LLM based provider notifications for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/configure-llm-based-actional-notifications-for-itsm.md).
 
-**Parent Topic:**[Configure IT Service Management integration with Microsoft Teams](../concept/sn-ms-teams-config-it.md)
+**Parent Topic:**[Configure IT Service Management integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/sn-ms-teams-config-it.md)
 

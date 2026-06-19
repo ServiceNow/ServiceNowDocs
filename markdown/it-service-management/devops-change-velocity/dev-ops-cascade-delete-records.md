@@ -2,11 +2,12 @@
 title: Deleting a record in DevOps Change Velocity
 description: Cascade record deletion is implemented to delete all dependent lower level DevOps records whenever a parent or higher level DevOps entity is deleted. Confirmation popups ensure that you understand that data will be lost when you delete a record \(for example, the record of a tool connection\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/dev-ops-cascade-delete-records.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Manage, DevOps Change Velocity, IT Service Management]
 ---
@@ -518,7 +519,7 @@ Deletion of DevOps records occurs in the foreground \(synchronously\) by default
 
 **Note:** Artifact Version, Build Test Summary, and Package records are always deleted in the foreground.
 
-To set the DevOps [Cascade delete threshold](../concept/dev-ops-administration.md) property, navigate to **DevOps** &gt; **Administration** &gt; **Properties**. Define the total number of records that can be cascade deleted in the foreground, after which the remaining records are deleted in the background. Default is 1000.
+To set the DevOps [Cascade delete threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/dev-ops-administration.md) property, navigate to **DevOps** &gt; **Administration** &gt; **Properties**. Define the total number of records that can be cascade deleted in the foreground, after which the remaining records are deleted in the background. Default is 1000.
 
 **Note:** The records of tables in a hierarchy are deleted in a bottom-up manner. For example, it might be possible that even after triggering the delete action on a Repository record, it will still be available for read, write, and update in the system until deletion is complete.
 
@@ -528,5 +529,5 @@ DevOps record deletions do not trigger any business rules or workflows.
 
 Cascade delete of a DevOps record triggers multiple confirmation approvals.
 
-**Parent Topic:**[Managing DevOps Change Velocity](../concept/using-devops-change-velocity.md)
+**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
 

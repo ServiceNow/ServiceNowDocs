@@ -2,6 +2,7 @@
 title: Show subflow stages in a parent flow
 description: Show subflow stages as part of the execution details of a parent flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/show-subflow-stages-in-a-parent-flow.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -17,7 +18,7 @@ Show subflow stages as part of the execution details of a parent flow.
 
 ## Before you begin
 
-This task assumes that you are familiar with flow and subflow stages, stage fields, and stage sets. For more information about stages, see [Flow and subflow stages](../concept/flow-designer-stages.md).
+This task assumes that you are familiar with flow and subflow stages, stage fields, and stage sets. For more information about stages, see [Flow and subflow stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-designer-stages.md).
 
 Role required: flow\_designer or admin
 
@@ -25,7 +26,7 @@ Role required: flow\_designer or admin
 
 1.  Create a subflow that contains one or more stages.
 
-    For more information about creating a subflow, see [Create a subflow in Workflow Studio](create-subflow.md). For more information about adding stages to a subflow, see [Configure stages and add them to a flow](add-stages.md).
+    For more information about creating a subflow, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-subflow.md). For more information about adding stages to a subflow, see [Configure stages and add them to a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/add-stages.md).
 
 2.  Create or open the parent flow that will call the subflow.
 
@@ -37,7 +38,7 @@ Role required: flow\_designer or admin
 
 4.  Select the **Show Subflow Stages** option.
 
-    ![Example Fulfillment Subflow configured to show subflow stages.](../images/example-subflow-stages-01-parent-flow.png)
+    \[Omitted image "example-subflow-stages-01-parent-flow.png"\] Alt text: Example Fulfillment Subflow configured to show subflow stages.
 
 5.  Configure any required subflow inputs.
 
@@ -48,5 +49,5 @@ Role required: flow\_designer or admin
     For example, add the Manager Approval and Completed stages to the parent flow.
 
 
-**Parent Topic:**[Flow and subflow stages](../concept/flow-designer-stages.md)
+**Parent Topic:**[Flow and subflow stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-designer-stages.md)
 

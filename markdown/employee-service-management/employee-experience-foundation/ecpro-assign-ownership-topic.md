@@ -2,6 +2,7 @@
 title: Assign ownership to a topic
 description: Assign ownership of a taxonomy topic to give a user or group with the content manager \(sn\_cd.content\_manager\) role exclusive content publishing ability for the Content Publishing widgets in that topic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ecpro-assign-ownership-topic.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,11 +20,11 @@ Assign ownership of a taxonomy topic to give a user or group with the content ma
 
 Role required: sn\_cd.content\_admin
 
-Ensure **Yes** is checked under **Allow Ownership for Topics** under Content Publishing or Content Experiences properties. For more information, see [Properties installed with Content Experiences](../reference/properties-installed-with-content-auto.md) and [Properties installed with Content Publishing](../reference/properties-with-content-delivery.md).
+Ensure **Yes** is checked under **Allow Ownership for Topics** under Content Publishing or Content Experiences properties. For more information, see [Properties installed with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/properties-installed-with-content-auto.md) and [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md).
 
 ## About this task
 
-The Unified Taxonomy is a collection of hierarchical topics that brings together different content types, such as requests, articles, quick links, learning content, and employee communications. For more information, see [Unified Taxonomy for Employee Center](../concept/config-taxonomy.md).
+The Unified Taxonomy is a collection of hierarchical topics that brings together different content types, such as requests, articles, quick links, learning content, and employee communications. For more information, see [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/config-taxonomy.md).
 
 ## Procedure
 
@@ -35,7 +36,7 @@ The Unified Taxonomy is a collection of hierarchical topics that brings together
     -   To assign ownership to a group, select the **Content Publishing Owner by group** tab.
 3.  Click **New**.
 
-4.  From the **User** or **Group** field, click the **Lookup using list** \(![Lookup using list icon](../../human-resources/image/magnify-glass-outline-icon.png)\) icon and select a user or group.
+4.  From the **User** or **Group** field, click the **Lookup using list** \(\[Omitted image "magnify-glass-outline-icon.png"\] Alt text: Lookup using list icon\) icon and select a user or group.
 
     **Note:** Only groups that have the content admin \(sn\_cd.content\_admin\) or content manager \(sn\_cd.content\_manager\) roles appear. If the members of the group have these roles, but the group does not, the group does not appear.
 

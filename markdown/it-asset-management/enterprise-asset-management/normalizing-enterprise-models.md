@@ -2,6 +2,7 @@
 title: Normalizing enterprise models
 description: To standardize enterprise models, the data must be normalized. The normalization process enables you to normalize your manufacturer, model name, model number, and model type data of your enterprise models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/normalizing-enterprise-models.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management

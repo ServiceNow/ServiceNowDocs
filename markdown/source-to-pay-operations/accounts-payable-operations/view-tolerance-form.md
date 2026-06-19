@@ -2,6 +2,7 @@
 title: View tolerance form
 description: Invoice processing cases with exceptions displays the associated Tolerance details at header level and Variance details at line level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/view-tolerance-form.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -39,12 +40,12 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist
 
         You can view the variance details of each invoice line under **Invoice line affected** tab in list view and form view.
 
-        **Note:** If the variance value and variance percentage is exceeding the limit, the values are highlighted in yellow color with warning ![Warning icon](../image/warning-icon.png) icon suffixed with **Exceeds** and **Within** labels. Grey color indicates that the variance value and variance percentage is within the limits or closed with check![Check icon](../image/check-icon.png) icon.
+        **Note:** If the variance value and variance percentage is exceeding the limit, the values are highlighted in yellow color with warning \[Omitted image "warning-icon.png"\] Alt text: Warning icon icon suffixed with **Exceeds** and **Within** labels. Grey color indicates that the variance value and variance percentage is within the limits or closed with check\[Omitted image "check-icon.png"\] Alt text: Check icon icon.
 
 
 ## Result
 
 The Tolerance details at the header level and Variance details at the line level are displayed in the invoice processing case with exceptions.
 
-**Parent Topic:**[Tolerance Rules and Variances for invoices](../concept/tolerance-rules-and-variance.md)
+**Parent Topic:**[Tolerance Rules and Variances for invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/tolerance-rules-and-variance.md)
 

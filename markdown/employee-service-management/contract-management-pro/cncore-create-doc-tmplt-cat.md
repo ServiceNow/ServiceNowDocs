@@ -2,6 +2,7 @@
 title: Create document template categories
 description: As a contract configurator, create document template categories to easily identify similar documents and find the correct document template more easily. For example, a document template category of NDA-Japan could group non-disclosure agreements for Japan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-create-doc-tmplt-cat.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -27,7 +28,7 @@ Role required: sn\_cm\_core.contract\_config
 
 3.  Select **Active** to make the category active.
 
-    ![Activate Document template category.](../image/cmpro-temp-catg.png "Document Template Category")
+    \[Omitted image "cmpro-temp-catg.png"\] Alt text: Activate Document template category.
 
 4.  Select **Submit** to save the category.
 

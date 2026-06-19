@@ -2,6 +2,7 @@
 title: Components installed with Strategic Planning Workspace
 description: Several types of components are installed with installation of the Strategic Planning application, such as user roles, tables, scheduled jobs, system properties, and custom scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/components-installed-with-alignment-planner-workspace.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Portfolio Planning in Strategic Planning Workspace, Stra
 
 Several types of components are installed with installation of the Strategic Planning application, such as user roles, tables, scheduled jobs, system properties, and custom scripts.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles installed with Strategic Planning Workspace
 
@@ -780,8 +781,8 @@ Stores the information about the function or capability that adds value to a pro
 
 |Scheduled job|Description|
 |-------------|-----------|
-|Migrate Goal, Strategy, and Work item data to the Goal Framework and related Planning item tables|Migrates the existing goals data to the Goal Framework tables. For information on what data is migrated and how the data can be migrated, see [goal data migration](../../spw-goals/task/migrate-existing-goals-data-apw.md).|
-|Migrate goal relationships for assigned entities|Populates the fields, **Assigned entity type** and **Assigned entity** on the [Goal form](../../spw-goals/reference/goal-form-egm.md) based on the data in the Goal Relationship \[sn\_gf\_goal\_m2m\_relationship\] table if you have created m2m relationship with lens entities other than **Company**, **Business Unit**, **Department**, and **Portfolio**.|
+|Migrate Goal, Strategy, and Work item data to the Goal Framework and related Planning item tables|Migrates the existing goals data to the Goal Framework tables. For information on what data is migrated and how the data can be migrated, see [goal data migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/migrate-existing-goals-data-apw.md).|
+|Migrate goal relationships for assigned entities|Populates the fields, **Assigned entity type** and **Assigned entity** on the [Goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/goal-form-egm.md) based on the data in the Goal Relationship \[sn\_gf\_goal\_m2m\_relationship\] table if you have created m2m relationship with lens entities other than **Company**, **Business Unit**, **Department**, and **Portfolio**.|
 |Clear the Planning item value in the Goal Relationship for strategic items|Clears the planning item value in the existing Goal Relationship records for strategic items - Program and Initiative.|
 |Update Actual value of the targets using Goal Framework for SPM|Updates the actual value of the targets by collecting the data from the respective target sources, so that the progress of the targets is updated and then the targets' progress is rolled up to the goals.|
 |Create Goals Demo Data with Target Breakdowns|Creates a target breakdowns demo data for the targets.|
@@ -809,7 +810,7 @@ Benefit PlansA target source with predefined script.
 
 </td><td>
 
-Predefined script that updates the **Actual value** field on the target form by fetching the required value from the **Actual benefit** field or **Non-monetary actual benefit** field from the monetary or non-monetary benefit plan records. For script template, see [Predefined target automation script for benefit plans](../../spw-goals/reference/target-automation-script-benefit-plans-apw.md).**Note:** You can use the Benefit Plans custom script only when PPM Standard \(Project Portfolio Management\) is installed.
+Predefined script that updates the **Actual value** field on the target form by fetching the required value from the **Actual benefit** field or **Non-monetary actual benefit** field from the monetary or non-monetary benefit plan records. For script template, see [Predefined target automation script for benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/target-automation-script-benefit-plans-apw.md).**Note:** You can use the Benefit Plans custom script only when PPM Standard \(Project Portfolio Management\) is installed.
 
 </td></tr></tbody>
 </table>## System properties installed with Strategic Planning Workspace
@@ -964,8 +965,8 @@ com.sn\_align\_cmn\_int.bulk\_import
     -   INSERT
     -   &lt;Value 2 name&gt;:
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Configure bulk import](../../apw-internal-integrations/reference/configure-bulk-import.md)
+-   Learn more: [Configure bulk import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/configure-bulk-import.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Strategic Planning Workspace reference](alignment-planner-workspace-reference.md)
+</table>**Parent Topic:**[Strategic Planning Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/alignment-planner-workspace-reference.md)
 

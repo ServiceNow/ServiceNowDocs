@@ -2,6 +2,7 @@
 title: PreferenceDestination - Scoped, Global
 description: The PreferenceDestination API updates user notification preferences.Returns the channel that is used to send notifications to the destination.Returns the identifier for the destination.Returns the type of destination, such as personal email or work email.Checks if the destination has permission to receive a notification.Checks if a notification overrides a user's preferences for the destination.Sets the user preference for a destination to receive or not receive notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/PreferenceDestinationBothAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -19,11 +20,11 @@ A notification destination is somewhere that a notification can be delivered to,
 
 A user can update their own notification preferences, and an admin can update notification preferences for any user. User notification preferences control which destinations will receive which notifications.
 
-Use this API with the [Preferences](../../Preferences/concept/PreferencesBothAPI.md#) API. Before calling any methods in this class, you must call the Preferences.getDestinations\(\) or Preferences.getDestinationsByChannel\(\) methods to instantiate a PreferenceDestination object.
+Use this API with the [Preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/PreferencesBothAPI.md) API. Before calling any methods in this class, you must call the Preferences.getDestinations\(\) or Preferences.getDestinationsByChannel\(\) methods to instantiate a PreferenceDestination object.
 
 This class uses the `sn_notification` namespace identifier.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## PreferenceDestination - getChannel\(\)
 

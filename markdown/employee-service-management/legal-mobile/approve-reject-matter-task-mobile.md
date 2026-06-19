@@ -2,6 +2,7 @@
 title: Approve or reject a legal matter task through Mobile Agent
 description: As a legal matter owner, you can review and approve or reject matter tasks that are marked as complete by the task owners.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-mobile/approve-reject-matter-task-mobile.html
 release: zurich
 product: Legal Mobile
 classification: legal-mobile
@@ -29,7 +30,7 @@ Role required: sn\_lg\_matter.matter\_fulfiller
 
     1.  Tap the task number on the **Approval for** field.
 
-    2.  Tap the back icon \(![Back icon.](../image/back-arrow-icon.png)\) to return to the task Pending Legal Matter Task Approval screen.
+    2.  Tap the back icon \(\[Omitted image "back-arrow-icon.png"\] Alt text: Back icon.\) to return to the task Pending Legal Matter Task Approval screen.
 
 4.  Approve or reject the task by tapping **Approve** or **Reject**.
 

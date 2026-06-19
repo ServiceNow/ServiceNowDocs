@@ -2,6 +2,7 @@
 title: Set up domain-specific reconciliation properties for Oracle
 description: Use domain separation application properties for Software Asset Management to set up Oracle reconciliation properties for specific domains.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/define-application-properties-oracle.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -30,7 +31,7 @@ Domain separation is supported on the following Oracle reconciliation properties
 -   **Select the level of aggregation for reconciling licenses for Oracle databases and WebLogic servers on VMware** \(**com.snc.samp.oracle.reconlevel**\)
 -   **Use host affinity for reconciling licenses for Oracle databases and WebLogic servers on VMware at the vCenter\(s\) aggregation level** \(**com.snc.samp.oracle.hostaffinityenabled**\)
 
-For more information on the existing Software Asset Management properties, see [Software Asset Management properties](../reference/sam-properties.md). For more information on domain separation application properties, see [Domain separation application properties](https://www.servicenow.com/docs/access?context=ds-application-properties&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information on the existing Software Asset Management properties, see [Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-properties.md). For more information on domain separation application properties, see Domain separation application properties.
 
 ## Procedure
 
@@ -47,7 +48,7 @@ For more information on the existing Software Asset Management properties, see [
     |Field|Description|
     |-----|-----------|
     |Application Property|Name of the application property that the application property value applies to. This field populates automatically.|
-    |Value|Value of the application property. This value must be equivalent to one of the available values in the corresponding Software Asset Management property. For example, you can set the value of the **com.snc.samp.oracle.reconlevel** application property to `esx`, `cluster`, or `vcenter`. See [Software Asset Management properties](../reference/sam-properties.md) for more details on the available values in the Software Asset Management properties.|
+    |Value|Value of the application property. This value must be equivalent to one of the available values in the corresponding Software Asset Management property. For example, you can set the value of the **com.snc.samp.oracle.reconlevel** application property to `esx`, `cluster`, or `vcenter`. See [Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-properties.md) for more details on the available values in the Software Asset Management properties.|
     |Domain|Domain that you want the application property value to apply to.|
 
 5.  Depending on whether you are updating an existing application property value or adding a new application property value, select either **Update** or **Submit**.
@@ -55,5 +56,5 @@ For more information on the existing Software Asset Management properties, see [
     If you are updating an existing application property value, select **Update**. If you are adding a new application property value, select **Submit**.
 
 
-**Parent Topic:**[Oracle reconciliation](../concept/oracle-recon.md)
+**Parent Topic:**[Oracle reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/oracle-recon.md)
 

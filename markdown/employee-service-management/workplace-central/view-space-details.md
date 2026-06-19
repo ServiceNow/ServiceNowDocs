@@ -2,6 +2,7 @@
 title: View space details
 description: View the full details of a workspace that you selected in the schedule view. You can view details such as the floor, building, capacity, standard services, and reservation purpose on the space details panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-central/view-space-details.html
 release: zurich
 product: Workplace Central
 classification: workplace-central
@@ -43,7 +44,7 @@ On the Schedule view page, you can do the following:
 
     You can also open Workplace Central from Employee Center directly by navigating to **All** &gt; **Self-service** &gt; **Employee Center** &gt; **Workspaces** &gt; **Workplace Central**.
 
-2.  Select the event planner icon ![.](../images/event-planner-icon.png).
+2.  Select the event planner icon \[Omitted image "event-planner-icon.png"\] Alt text: ..
 
 3.  Select **Open Scheduled view**.
 
@@ -53,12 +54,12 @@ On the Schedule view page, you can do the following:
 
 5.  On the side panel of the screen, select **Show space details**.
 
-    The panel provides a quick overview of the space's properties, such as the capacity, available services, and reservable purposes.![Space details panel displays room and additional details.](../images/wsd-space-details-scheduleview.png)
+    The panel provides a quick overview of the space's properties, such as the capacity, available services, and reservable purposes.\[Omitted image "wsd-space-details-scheduleview.png"\] Alt text: Space details panel displays room and additional details.
 
 6.  View the space record page on a new tab by selecting **View space details**.
 
 7.  Edit the required field details on the space record page and select **Save**.
 
 
-**Parent Topic:**[Working with schedule view](working-with-schedule-view.md)
+**Parent Topic:**[Working with schedule view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/working-with-schedule-view.md)
 

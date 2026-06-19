@@ -2,6 +2,7 @@
 title: Configure a MID Server for IPv6
 description: A MID Server configured for IPv6 can connect to ServiceNow and use Discovery over IPv6 for specific addresses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/mid-server/config-mid-ipv6.html
 release: zurich
 product: MID Server
 classification: mid-server

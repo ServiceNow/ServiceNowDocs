@@ -1,19 +1,20 @@
 ---
-title: APIs used for LangGraph connector
-description: Explore the AWS APIs used in AI service Graph Connector for LangGraph.The table lists all the LangSmith API endpoints used by the connector.
+title: APIs used for LangGraph
+description: Explore the APIs used in AI Service Graph Connector for LangGraph.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/apis-used-for-langgraph-connector.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [LangGraph, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [LangGraph, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# APIs used for LangGraph connector
+# APIs used for LangGraph
 
-Explore the AWS APIs used in AI service Graph Connector for LangGraph.The table lists all the LangSmith API endpoints used by the connector.
+Explore the APIs used in AI Service Graph Connector for LangGraph.
 
 The following table lists all the LangSmith API endpoints used by the connector.
 
@@ -78,7 +79,7 @@ https://api.smith.langchain.com /api/v1/runs/stats
 Gets stats on a particular run, including LLM invocations
 
 </td></tr></tbody>
-</table>This table lists all the LangGraph Agent Deployment APIs used by the connector. The “endpoint\_url” below will be specific to each deployment and will be discovered at runtime by the app.
+</table>This table lists all the LangGraph Agent Deployment APIs used by the connector. The “endpoint\_url” following will be specific to each deployment and will be discovered at runtime by the app.
 
 <table id="table_gjp_zkq_m3c"><tbody><tr><td>
 

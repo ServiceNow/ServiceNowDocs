@@ -1,7 +1,8 @@
 ---
 title: Sort Option form
-description: The Sort Option form contains information about search result sort options defined in your AI Search application configurations. Use this form when creating or modifying a search result sort option for a search application configuration.
+description: The Sort Option form enables you to create a search result sort option in the search application configuration for an AI Search application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/sort-option-form-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -13,9 +14,9 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 # Sort Option form
 
-The Sort Option form contains information about search result sort options defined in your AI Search application configurations. Use this form when creating or modifying a search result sort option for a search application configuration.
+The Sort Option form enables you to create a search result sort option in the search application configuration for an AI Search application.
 
-For details on creating or editing search result sort options, see [Search result sort options in AI Search application configurations](../concept/sort-options-srch-app-cfg-ais.md#).
+For details on creating or editing search result sort options, see [Search result sort options in AI Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/sort-options-srch-app-cfg-ais.md).
 
 <table id="table_f2c_t4r_grb"><thead><tr><th>
 
@@ -104,5 +105,5 @@ Active
 Option to activate the search result sort option for use in the search application.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Search reference](../concept/reference-ais.md)
+</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/reference-ais.md)
 

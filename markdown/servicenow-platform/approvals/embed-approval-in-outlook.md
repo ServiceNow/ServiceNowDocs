@@ -2,6 +2,7 @@
 title: Embed an approval request within the Outlook email client
 description: Embed an interactive approval request for service catalog requests in the email notification sent to a user. The user can accept or reject the approval request from the email client.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/approvals/embed-approval-in-outlook.html
 release: zurich
 product: Approvals
 classification: approvals
@@ -45,5 +46,5 @@ The Outlook Actionable Messages plugin \(com.sn\_ms\_oam\) should be activated.
 3.  Click **Update**.
 
 
-**Parent Topic:**[Receive notifications](../concept/c_ReceiveNotifications.md)
+**Parent Topic:**[Receive notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/approvals/c_ReceiveNotifications.md)
 

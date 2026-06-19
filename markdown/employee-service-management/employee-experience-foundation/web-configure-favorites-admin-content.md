@@ -2,11 +2,12 @@
 title: Configure favorite content type
 description: Configure the favorites option to help employees personalize the content and easily access the content they frequently use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/web-configure-favorites-admin-content.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-04-15"
 reading_time_minutes: 1
 breadcrumb: [Cross-channel favorites, Setup Employee Center browse experience features, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
 ---

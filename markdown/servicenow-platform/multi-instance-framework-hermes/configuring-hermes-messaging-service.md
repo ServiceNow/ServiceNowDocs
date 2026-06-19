@@ -2,6 +2,7 @@
 title: Configuring Hermes Messaging Service
 description: Learn how the Hermes Messaging Service is activated. Set up a secure connection to the Hermes Messaging Service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/multi-instance-framework-hermes/configuring-hermes-messaging-service.html
 release: zurich
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -19,14 +20,14 @@ Learn how the Hermes Messaging Service is activated. Set up a secure connection 
 
 The Hermes Messaging Service is a ServiceNow AI Platform capability that is available as part of Stream Connect, Log Export Service \(LES\), and Instance Data Replication \(IDR\).
 
-To successfully set up and configure Stream Connect or Log Export Service, you must complete the steps in [Set up a secure connection to the Hermes Messaging Service](../task/set-up-secure-connection-to-hermes.md).
+To successfully set up and configure Stream Connect or Log Export Service, you must complete the steps in [Set up a secure connection to the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/multi-instance-framework-hermes/set-up-secure-connection-to-hermes.md).
 
--   **[Activating the Hermes Messaging Service](hermes-messaging-service-activation.md)**  
+-   **[Activating the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-activation.md)**  
 The Hermes Messaging Service is enabled when the Glide Hermes Message Queue plugin \(com.glide.hermes\) is activated.
--   **[Set up a secure connection to the Hermes Messaging Service](../task/set-up-secure-connection-to-hermes.md)**  
+-   **[Set up a secure connection to the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/multi-instance-framework-hermes/set-up-secure-connection-to-hermes.md)**  
 Secure your Kafka topics by generating a ServiceNow® instance-signed certificate.
--   **[Revoke a Hermes certificate](../task/revoke-certificate.md)**  
+-   **[Revoke a Hermes certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/multi-instance-framework-hermes/revoke-certificate.md)**  
 Revoke a ServiceNow® instance-signed certificate so that it can't be used in secure connections to the Hermes Messaging Service.
 
-**Parent Topic:**[Manage service capabilities](../../general/concept/manage-services.md)
+**Parent Topic:**[Manage service capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/manage-services.md)
 

@@ -2,6 +2,7 @@
 title: Change the recipients of notifications for intraday schedule automation
 description: You can change who receives notifications related to intraday schedule automation, so only the necessary recipients receive the notifications. For example, if an agent is late for a task, you can configure notifications to only be sent to the dispatcher.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/intraday-notice-recipient.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -29,7 +30,7 @@ Role required: admin
 
 4.  Select **Edit subflow**.
 
-5.  Select the Data Pill Picker icon ![data pill picker](../image/data-pill-pick.png) for the field you want to change the recipients of intraday schedule automation notifications.
+5.  Select the Data Pill Picker icon \[Omitted image "data-pill-pick.png"\] Alt text: data pill picker for the field you want to change the recipients of intraday schedule automation notifications.
 
     |Action input|Description|
     |------------|-----------|

@@ -2,7 +2,10 @@
 title: Edit a role for an Impact user
 description: Update a role for an Impact user role after the initial assignment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/edit-impact-user.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -31,7 +34,7 @@ Role required: Impact admin
 
 6.  Edit the user role and access accordingly.
 
-    **Note:** Refer to [Roles installed with Impact](../reference/impact-roles.md) for details on which role to assign to the user for the appropriate access level in Impact.
+    **Note:** Refer to [Roles installed with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-roles.md) for details on which role to assign to the user for the appropriate access level in Impact.
 
 7.  Select **Confirm**.
 

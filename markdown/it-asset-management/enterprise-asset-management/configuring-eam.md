@@ -2,6 +2,7 @@
 title: Configuring Enterprise Asset Management
 description: Configure the Enterprise Asset Management application to manage the life cycle of your enterprise connected and non connected assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/configuring-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -41,9 +42,9 @@ Required to use the Enterprise Asset Management application.
 
 </td><td>
 
-[Install Enterprise Asset Management](../task/request-enterprise-asset-management.md)
+[Install Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/request-enterprise-asset-management.md)
 
- [Enterprise Asset Workspace](using-eam-workspace.md)
+ [Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/using-eam-workspace.md)
 
 </td></tr><tr><td>
 
@@ -55,9 +56,9 @@ Optional. This task enables your organization to share unnormalized enterprise m
 
 </td><td>
 
-[Opt-in to Enterprise Asset Management Content Service](../task/optin-cs-eam.md)
+[Opt-in to Enterprise Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/optin-cs-eam.md)
 
- [Enterprise Asset Management normalization](normalization-eam.md)
+ [Enterprise Asset Management normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/normalization-eam.md)
 
 </td></tr><tr><td>
 
@@ -69,9 +70,9 @@ Optional. This application provides functionalities, features, and workflows of 
 
 </td><td>
 
-[Install Enterprise Asset Management for healthcare](../task/install-eam-for-healthcare.md)
+[Install Enterprise Asset Management for healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/install-eam-for-healthcare.md)
 
- [Enterprise Asset Management for Healthcare](eam-for-healthcare.md)
+ [Enterprise Asset Management for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/eam-for-healthcare.md)
 
 </td></tr><tr><td>
 
@@ -83,9 +84,9 @@ Optional. This application helps you to manage assets of the Industrial model ca
 
 </td><td>
 
-[Install OT Asset Management](../task/install-otam.md)
+[Install OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/install-otam.md)
 
- [Install OT Asset Management](../task/install-otam.md)
+ [Install OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/install-otam.md)
 
 </td></tr><tr><td>
 
@@ -97,7 +98,7 @@ Optional. This application provides the functionalities, features, and workflows
 
 </td><td>
 
-[Install Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)](../task/install-eam-dcnam.md)
+[Install Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/install-eam-dcnam.md)
 
 </td></tr><tr><td>
 
@@ -109,7 +110,7 @@ Optional. This application adds DaaS provider-based functionalities and workflow
 
 </td><td>
 
-[Install Enterprise Asset Management for Providers](../task/install-eam-providers.md)
+[Install Enterprise Asset Management for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/install-eam-providers.md)
 
 </td></tr><tr><td>
 
@@ -121,7 +122,7 @@ Optional. This application provides demo data for the Enterprise Asset Managemen
 
 </td><td>
 
-[Install EAM Demo Data](../task/install-eam-demo-data.md)
+[Install EAM Demo Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/install-eam-demo-data.md)
 
 </td></tr></tbody>
 </table>

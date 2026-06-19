@@ -2,6 +2,7 @@
 title: Add Talent Development Interests
 description: As a Talent Development Core admin, you can add Interests that help employees understand and create an aspiration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/egd-admin-add-interesta.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -17,7 +18,7 @@ As a Talent Development Core admin, you can add **Interests** that help employee
 
 ## Before you begin
 
-Role required: sn\_egd\_core.admin or admin
+Role required: sn\_egd\_core.admin, sn\_egd\_core.content\_manager
 
 ## Procedure
 
@@ -27,10 +28,10 @@ Role required: sn\_egd\_core.admin or admin
 
 3.  Complete the **Interests** form.
 
-    To see details about the different fields, see [Talent Interest form](../reference/egd-interests-form.md).
+    To see details about the different fields, see [Talent Interest form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-interests-form.md).
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Administer and maintain the Talent Development Core app](../concept/egd-administration.md)
+**Parent Topic:**[Administer and maintain the Talent Development Core app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-administration.md)
 

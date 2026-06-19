@@ -2,6 +2,7 @@
 title: Data migrated from a demand to a created project
 description: Data fields are migrated from a demand to a project when the project is created from the demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/data-migrated-from-demand-to-project-dw.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning

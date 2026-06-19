@@ -2,6 +2,7 @@
 title: Create new connections in Card Data Security
 description: Configure settings in our tokenizer service and your ServiceNow instance to set up new tokenized connections, routes, and methods in Card Data Security.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/creating-new-connections-in-card-data-security.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -31,7 +32,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Set up connections to the tokenizer service](../task/set-up-outbound-connections.md)
+[Set up connections to the tokenizer service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/set-up-outbound-connections.md)
 
 </td><td>
 
@@ -47,7 +48,7 @@ Use the Connections view in our tokenizer service website to set up a new connec
 
 </td></tr><tr><td>
 
-[Set up integration with the Third-Party System](../../fso-common/concept/fso-integrate-other-applications.md)
+[Set up integration with the Third-Party System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-integrate-other-applications.md)
 
 </td><td>
 
@@ -85,7 +86,7 @@ Create a Card Data Security subflow to handle payloads from the Third-Party Syst
 
 </td></tr><tr><td>
 
-[Add a decision table entry with API path and subflow mapping](https://www.servicenow.com/docs/access?context=using-decision-builder&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
+Add a decision table entry with API path and subflow mapping
 
 </td><td>
 
@@ -97,7 +98,7 @@ Add a decision table entry to map to the card data security subflow.
 
 </td></tr><tr><td>
 
-[Create a REST message function](../task/set-up-a-rest-message-function.md)
+[Create a REST message function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/set-up-a-rest-message-function.md)
 
 </td><td>
 
@@ -109,7 +110,7 @@ Create a new REST message function in **All** &gt; **System Web Services** &gt; 
 
 </td></tr><tr><td>
 
-[Define a REST message HTTP method](https://www.servicenow.com/docs/access?context=t_DefineAnHTTPMethod&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+
 
 </td><td>
 
@@ -121,7 +122,7 @@ Define an HTTP method for each route in the connection.
 
 </td></tr><tr><td>
 
-[Add a mapping configuration record for each REST message function](manage-tokenizer-resource-configurations.md)
+[Add a mapping configuration record for each REST message function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/manage-tokenizer-resource-configurations.md)
 
 </td><td>
 
@@ -132,5 +133,5 @@ ServiceNow
 In the Tokenizer Resource Configurations table, add an entry for each message function, and map the endpoint URL to the REST message function.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Managing Card data security](managing-card-data-security.md)
+</table>**Parent Topic:**[Managing Card data security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/managing-card-data-security.md)
 

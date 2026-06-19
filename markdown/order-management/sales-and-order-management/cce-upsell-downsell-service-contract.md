@@ -2,6 +2,7 @@
 title: Upsell or Downsell a service contract line
 description: Upsell or downsell a service contract line on the CSM Configurable Workspace. You can reduce or increase the quantities of the products specified in the service contract line.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cce-upsell-downsell-service-contract.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -34,7 +35,7 @@ Role required:
 
 5.  From the **Modify entire line** list, select **Modify quantity**.
 
-6.  In the Modify quantity dialog box, you can swap the values fully or partially in the **Quantity** field for both the contract lines.![Modify quantity dialog box](../images/modify-quantity.png)
+6.  In the Modify quantity dialog box, you can swap the values fully or partially in the **Quantity** field for both the contract lines.\[Omitted image "modify-quantity.png"\] Alt text: Modify quantity dialog box
 
     For example, if one product has a quantity of 100 and another has 30, you can perform either a full swap or a partial swap. In the screenshot above, a full swap is completed by updating the Quantity field of the first contract line to **130** \(adding the 30 units from the second line\) and setting the second contract line’s quantity to 0. The Change field reflects the change in quantity.
 
@@ -44,7 +45,7 @@ Role required:
 
 8.  Select **Modify**.
 
-    The target entity is created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](../concept/create-cont-ent-workflows-csm.md#section_qp4_rxv_tcc).
+    The target entity is created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-cont-ent-workflows-csm.md).
 
     -   In case of a partial swap, three quote lines are created. You can select the quote number from the confirmation message to view the quote line items. The quote is approved and the status changes to **Complete** to create an order with three order line items.
     -   In case of a full swap, two quote lines are created. You can select the quote number from the confirmation message to view the quote line items. The quote is approved and the status changes to **Complete** to create an order with two order line items.
@@ -55,5 +56,5 @@ Role required:
     **Note:** You can perform a partial or a full swap with a new product from the catalog by following the same procedure.
 
 
-**Parent Topic:**[Using Contracts and Entitlements Workflows](../concept/using-customer-cnt-ent-wf.md)
+**Parent Topic:**[Using Contracts and Entitlements Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/using-customer-cnt-ent-wf.md)
 

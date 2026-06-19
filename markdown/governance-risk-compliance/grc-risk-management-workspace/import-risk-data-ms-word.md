@@ -2,6 +2,7 @@
 title: Import risk data in to a Microsoft Word
 description: Import and insert data such as Risk data points and reports into a Microsoft Word report document from a ServiceNow instance. You can only import and insert the data that is configured in your reporting configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/import-risk-data-ms-word.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -83,7 +84,7 @@ Role required: sn\_risk\_advanced.ara\_reader
 
     1.  Select the check boxes for the links that you want to refresh.
 
-    2.  Select the refresh ![Refresh icon.](../image/refresh-icon.jpg) icon.
+    2.  Select the refresh \[Omitted image "refresh-icon.jpg"\] Alt text: Refresh icon. icon.
 
         The data is refreshed while displaying the time of refresh and retaining the formatting of the document.
 

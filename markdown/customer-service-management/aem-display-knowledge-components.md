@@ -2,7 +2,10 @@
 title: Display ServiceNow knowledge articles on an Adobe Experience Manager page
 description: Use knowledge components available within Adobe Experience Manager \(AEM\) to access knowledge bases from the ServiceNow instance and display associated knowledge articles on an AEM-based website.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/aem-display-knowledge-components.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 7
@@ -15,8 +18,8 @@ Use knowledge components available within Adobe Experience Manager \(AEM\) to ac
 
 ## Before you begin
 
--   Activate the Knowledge API plugin \(sn\_km\_api\) to use the Knowledge Management REST API endpoints for knowledge articles. For more information, see [Knowledge Management REST API](https://www.servicenow.com/docs/access?context=knowledge-api&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
--   Define the cross-origin resource sharing \(CORS\) rule to access the Knowledge API from your AEM instance. For more information, see [Define a cross-origin resource sharing rule \(CORS\) to access ServiceNow API endpoints from AEM](aem-set-cors-rules-1.md).
+-   Activate the Knowledge API plugin \(sn\_km\_api\) to use the Knowledge Management REST API endpoints for knowledge articles. For more information, see Knowledge Management REST API.
+-   Define the cross-origin resource sharing \(CORS\) rule to access the Knowledge API from your AEM instance. For more information, see [Define a cross-origin resource sharing rule \(CORS\) to access ServiceNow API endpoints from AEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
 Role required: AEM author
 
@@ -117,7 +120,7 @@ Custom CSS class
 
 </td><td>
 
-Custom CSS class for applying custom styles to this component. For more information, see [../concept/aem-style-components-1.md\#](../concept/aem-style-components-1.md#).
+Custom CSS class for applying custom styles to this component. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
 </td></tr></tbody>
 </table>8.  Set the Search Box component properties to display a search box for users to enter search text and find knowledge articles in the ServiceNow instance matching the search text.
@@ -217,7 +220,7 @@ Custom CSS class
 
 </td><td>
 
-Custom CSS class for applying custom styles to this component. For more information, see [../concept/aem-style-components-1.md\#](../concept/aem-style-components-1.md#).
+Custom CSS class for applying custom styles to this component. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
 </td></tr></tbody>
 </table>9.  Set the Article View component properties to display knowledge articles and their attachments, if available, from a ServiceNow instance.
@@ -268,7 +271,7 @@ Custom CSS class
 
 </td><td>
 
-Custom CSS class for applying custom styles to this component. For more information, see [../concept/aem-style-components-1.md\#](../concept/aem-style-components-1.md#).
+Custom CSS class for applying custom styles to this component. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
 </td></tr></tbody>
 </table>10. Set the Article List component properties to display a list of knowledge articles depending on the list criteria.
@@ -334,7 +337,7 @@ Criteria
 
 </td><td>
 
-List of criteria for the knowledge articles list. Select one of the following options:-   **Featured**: List of featured knowledge articles based on the keywords configured in the **glide.knowman.default\_keyword** property. For information about featured articles, see [Add a knowledge article to featured content](https://www.servicenow.com/docs/access?context=t_PinAnArticle&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) and [Knowledge properties](https://www.servicenow.com/docs/access?context=r_KnowledgeProperties&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+List of criteria for the knowledge articles list. Select one of the following options:-   **Featured**: List of featured knowledge articles based on the keywords configured in the **glide.knowman.default\_keyword** property. For information about featured articles, see Add a knowledge article to featured content and Knowledge properties.
 -   **Most Viewed**: List of knowledge articles with the most views.
 
 
@@ -368,7 +371,7 @@ Custom CSS class
 
 </td><td>
 
-Custom CSS class for applying custom styles to this component. For more information, see [../concept/aem-style-components-1.md\#](../concept/aem-style-components-1.md#).
+Custom CSS class for applying custom styles to this component. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
 </td></tr></tbody>
 </table>

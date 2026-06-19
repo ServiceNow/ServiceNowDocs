@@ -2,6 +2,7 @@
 title: Types of landing pages in Service Operations Workspace for ITSM
 description: Landing pages provide an agent with quick visibility into the work assigned, announcements, upcoming tasks, and so on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/landing-page-types-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -24,7 +25,7 @@ Other landing pages are available if you have the corresponding plugins installe
 
 **Important:**
 
--   A user's access to the landing page is based on the audience associated with that page. Configure the audiences with the required service desk groups and the users that are part of these service desk groups can then access the landing page. For information about audiences, see [Learn about audiences](https://www.servicenow.com/docs/access?context=add-audiences&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+-   A user's access to the landing page is based on the audience associated with that page. Configure the audiences with the required service desk groups and the users that are part of these service desk groups can then access the landing page. For information about audiences, see .
 -   When multiple audiences are available for the landing page, the audience with the least order is considered.
 
 ## Criteria to access the tier 1 landing page

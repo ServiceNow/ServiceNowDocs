@@ -2,7 +2,10 @@
 title: ITOM AIOps use case
 description: Modern organizations are turning to artificial intelligence \(AI\) technologies within IT operations \(AIOps\) to tackle the escalating volumes and diversity of data. AIOps platforms offer solutions for analyzing data, automating processes, and predicting issues preemptively, addressing the growing complexity of IT environments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-health-use-case-example.html
 release: zurich
+product: IT Operations Management
+classification: it-operations-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

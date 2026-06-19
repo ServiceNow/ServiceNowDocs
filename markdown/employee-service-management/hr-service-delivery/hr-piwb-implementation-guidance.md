@@ -2,6 +2,7 @@
 title: HR Predictive Intelligence Workbench implementation
 description: You can use machine learning to optimize your business processes. You can train and implement HR Predictive Intelligence Workbench use cases to augment your existing application workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-piwb-implementation-guidance.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -53,31 +54,31 @@ Creating a predictive machine learning model involves several phases. After you 
 
 You can manage prediction drift by retraining, modifying, or creating new solutions to reflect changes in your business conditions. Test and modify your business rule over time to ensure it works as desired across multiple consumption points and user persona.
 
--   **[HR PIWB template: Auto-categorize email cases](../task/hr-piwb-email-categorization.md)**  
+-   **[HR PIWB template: Auto-categorize email cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-piwb-email-categorization.md)**  
 Use a guided template that walks you through setting up a machine learning model to categorize the email cases automatically for improved productivity and cost savings.
--   **[HR PIWB template: Predict the HR service for incoming cases](../task/hr-piwb-predict-hrservice.md)**  
+-   **[HR PIWB template: Predict the HR service for incoming cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-piwb-predict-hrservice.md)**  
 Use a guided template that walks you through setting up a machine learning model to predict the correct HR service for cases.
--   **[HR PIWB template: Predict the assignment group for incoming cases](../task/hr-piwb-predict-ag.md)**  
+-   **[HR PIWB template: Predict the assignment group for incoming cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-piwb-predict-ag.md)**  
 Use a guided template that walks you through setting up a machine learning model to predict the correct assignment group for cases.
--   **[HR PIWB template: Predict knowledge gaps and insights](../task/hr-piwb-kb-gaps-insights.md)**  
+-   **[HR PIWB template: Predict knowledge gaps and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-piwb-kb-gaps-insights.md)**  
 Use the classic template that walks you through setting up a machine learning model to automate the discovery of knowledge gaps and recommend insights into improving knowledge by demand.
--   **[HR PIWB template: Predict knowledge for HR case resolution](../task/hr-piwb-similar-hrcases-agent.md)**  
+-   **[HR PIWB template: Predict knowledge for HR case resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-piwb-similar-hrcases-agent.md)**  
 Use the classic setup template to configure and train your Similarity solution template with machine learning model to recommend knowledge articles to assist an HR agent for faster case resolution.
--   **[HR PIWB template: Recommend similar cases by employee profile](../task/hr-piwb-similar-profile.md)**  
+-   **[HR PIWB template: Recommend similar cases by employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-piwb-similar-profile.md)**  
 Use the classic setup template to configure and train your Similarity solution template with machine learning model to recommend top relevant articles and catalog items based on a similar employee profile for content discovery and personalized experience.
--   **[HR PIWB template: Predict knowledge for HR task completion](../task/hr-piwb-similar-hrtasks-employee.md)**  
+-   **[HR PIWB template: Predict knowledge for HR task completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-piwb-similar-hrtasks-employee.md)**  
 Use the classic setup template to configure and train your Similarity solution template with machine learning model to recommend knowledge articles for employees to complete the HR tasks.
--   **[HR PIWB template: Recommend similar cases](../task/hr-piwb-similar-cases.md)**  
+-   **[HR PIWB template: Recommend similar cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-piwb-similar-cases.md)**  
 Use the classic setup template to configure and train your Similarity solution template with machine learning model to recommend similar closed HR cases.
--   **[HR PIWB template: Recommend estimated time to resolve](../task/hr-piwb-ettr.md)**  
+-   **[HR PIWB template: Recommend estimated time to resolve](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-piwb-ettr.md)**  
 Train your solution by using historical data to predict numeric outputs based on the historic data. Configure the solution definition to predict the estimated time to resolve a HR case.
 
-**Parent Topic:**[HR Predictive Intelligence Workbench](hr-predictive-intelligence-wb.md)
+**Parent Topic:**[HR Predictive Intelligence Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-predictive-intelligence-wb.md)
 
 **Related topics**  
 
 
-[Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.predictive-intelligence]
 
-[Get started with Predictive Intelligence](https://www.servicenow.com/docs/access?context=install-predictive-intelligence&version=zurich&pubname=zurich-intelligent-experiences&section=get-started-predictive-intelligence&ft:locale=en-US)
+[bundle-platai.get-started-predictive-intelligence]
 

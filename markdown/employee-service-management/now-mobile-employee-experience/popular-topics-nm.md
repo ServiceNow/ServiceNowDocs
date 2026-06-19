@@ -2,6 +2,7 @@
 title: Popular topics in Now Mobile
 description: Popular topics displays the most sought out information employees have searched for, in one place, providing quick access to important information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-mobile-employee-experience/popular-topics-nm.html
 release: zurich
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
@@ -15,13 +16,13 @@ breadcrumb: [Configuring Employee Center for mobile, Now Mobile experience for E
 
 Popular topics displays the most sought out information employees have searched for, in one place, providing quick access to important information.
 
-![Popular topic widget highlighted on the Help center tab in Now Mobile.](../images/popular-topics-nm.png "Popular topics widget")
+\[Omitted image "popular-topics-nm.png"\] Alt text: Popular topic widget highlighted on the Help center tab in Now Mobile.
 
 Employee Center uses an algorithm to determine which topics appear on the widget. Popular topics widget contains topics, Service Catalog items and Knowledge Base articles that have been viewed the most number of times, and have higher popularity. Now Mobile® uses the same algorithm used on the portal.
 
 The popularity is calculated based on a scheduled job that runs daily. The algorithm takes into account all the search history for different topics since the configuration of the Employee Center portal.
 
-For more information on the Popular topics configuration, see [Popular topics widget](../task/config-popular-topics.md).
+For more information on the Popular topics configuration, see [Popular topics widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/config-popular-topics.md).
 
-**Parent Topic:**[Configuring Employee Center for mobile](ec-mobile-configrations.md)
+**Parent Topic:**[Configuring Employee Center for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/ec-mobile-configrations.md)
 

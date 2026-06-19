@@ -2,6 +2,7 @@
 title: Hardware disposal order stages
 description: A hardware disposal order goes through various stages in the disposal process before it’s completed. With each stage, the task that's associated with that stage changes too.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/hardware-disposal-stages.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -27,5 +28,5 @@ Closing a task in the hardware disposal process completes that task and automati
 |Completed|None|Hardware disposal record request is completed.|
 |Cancelled|None|Disposal order can be canceled only until the transit stage.|
 
-**Parent Topic:**[Hardware Asset Management reference](../concept/reference-hardware-asset-management.md)
+**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
 

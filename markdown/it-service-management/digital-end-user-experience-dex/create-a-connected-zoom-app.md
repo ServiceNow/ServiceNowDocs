@@ -2,6 +2,7 @@
 title: Create a connected Zoom application
 description: Create a connected application in your Zoom account to establish an OAuth 2.0 level of authentication between the Zoom APIs and the DEX for Zoom on the ServiceNow AI Platform. After creating the connected app, you can add scopes that enable you to perform different actions from the DEX for Zoom.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/create-a-connected-zoom-app.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -36,7 +37,7 @@ Creating the connected app is a one-time activity.
 
 5.  Double-click the default name of the app and update the name.
 
-    ![Update general app name.](zoom-spk-app-name.png)
+    \[Omitted image "zoom-spk-app-name.png"\] Alt text: Update general app name.
 
 6.  Select **Admin-managed**.
 
@@ -44,7 +45,7 @@ Creating the connected app is a one-time activity.
 
 8.  Under the **App Credentials** section, copy the Client ID and Client secret and store them at a secure place.
 
-    ![Client ID and client secret.](zoom-spk-client-id-secret.png)
+    \[Omitted image "zoom-spk-client-id-secret.png"\] Alt text: Client ID and client secret.
 
 9.  Under the **OAuth Information** section, complete the following steps.
 
@@ -58,7 +59,7 @@ Creating the connected app is a one-time activity.
 
         The following example shows the screen that you use to generate credentials for the OAuth app.
 
-        ![OAuth credentials configuration for Zoom spokes.](zoom-app-conf.png)
+        \[Omitted image "zoom-app-conf.png"\] Alt text: OAuth credentials configuration for Zoom spokes.
 
         **Note:** To learn more about the difference between the Redirect URL for OAuth and the URL that is mentioned in the OAuth allow list, see [Zoom Developer Forum](https://devforum.zoom.us/t/difference-between-redirect-url-and-allow-list-in-app-settings/58709).
 
@@ -82,13 +83,13 @@ Creating the connected app is a one-time activity.
 
     The granular scope appears.
 
-    ![Scope search and find.](zoom-spk-find-scope.png)
+    \[Omitted image "zoom-spk-find-scope.png"\] Alt text: Scope search and find.
 
 15. Select the scope and then select **Done**.
 
     The granular scope is added.
 
-    ![Granular scope added](Zoom_scope_added.png)
+    \[Omitted image "Zoom\_scope\_added.png"\] Alt text: Granular scope added
 
 16. Repeat the steps to add more granular scopes.
 

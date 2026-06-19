@@ -2,6 +2,7 @@
 title: Move forum content
 description: Move community content posts from one forum to another.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/communities/move-forum-content.html
 release: zurich
 product: Communities
 classification: communities
@@ -40,5 +41,5 @@ Access to content is based on permissions to a specific forum. If content is mov
     An email notification is sent to the author of the content, subscribers to the content, and subscribers to the forum.
 
 
-**Parent Topic:**[Configure community forums](configure-forums-topics.md)
+**Parent Topic:**[Configure community forums](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/configure-forums-topics.md)
 

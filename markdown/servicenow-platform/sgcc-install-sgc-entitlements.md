@@ -2,6 +2,7 @@
 title: Install a Service Graph Connector with an available entitlement in SGC Central
 description: Install a Service Graph Connector that matches an entitlement available in Application Manager from within the SGC Central view of the Service Graph Workspace or CMDB Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/sgcc-install-sgc-entitlements.html
 release: zurich
 topic_type: task
 last_updated: "2026-02-27"
@@ -29,6 +30,6 @@ Role required: admin
 
 4.  In Application Manager, review the entitlements and install a connector.
 
-    For more information, see [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For more information, see .
 
 

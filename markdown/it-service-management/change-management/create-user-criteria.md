@@ -2,13 +2,14 @@
 title: Create a user criteria record for Change Management
 description: Create a user criteria record to control user access to widgets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/create-user-criteria.html
 release: zurich
 product: Change Management
 classification: change-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Change models, Explore, Change Management, IT Service Management]
+breadcrumb: [Change model management, Explore, Change Management, IT Service Management]
 ---
 
 # Create a user criteria record for Change Management
@@ -131,5 +132,5 @@ Defines any additional criteria, and returns true or false. This field is availa
 </table>6.  Select **Submit**.
 
 
-**Parent Topic:**[Change models](../concept/change-models.md)
+**Parent Topic:**[Change model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/manage-change-models.md)
 

@@ -2,6 +2,7 @@
 title: Exploring Now Assist for Field Service Management \(FSM\)
 description: With the Now Assist for Field Service Management \(FSM\) application, users can generate work order task summaries and knowledge articles from work order task information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/now-assist-for-field-service-management-fsm/exploring-now-assist-fsm.html
 release: zurich
 product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm

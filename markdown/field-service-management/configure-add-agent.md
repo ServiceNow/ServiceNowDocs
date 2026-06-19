@@ -2,7 +2,10 @@
 title: Configure additional settings for dispatchers to temporarily add agents
 description: There are additional settings you, the administrator, can configure for dispatchers to temporarily add agents. You can enable more fields for dispatchers to search on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/configure-add-agent.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -17,6 +20,6 @@ By default dispatchers can add any agent to Dispatcher Workspace who is part of 
 
 Dispatchers can search for agents by their name, email address, or employee number. Administrators can allow dispatchers to search for any filed that is available on the system user table.
 
-1.  Turn on the setting **Enable dispatcher to add agents outside of their assigned assignment groups / territories** on the Configure settings page to allow dispatchers to search for any agent. For more information see [Configure settings for Dispatcher Workspace](../task/configure-workspce-settings.md).
-2.  Add additional fields dispatchers can search for agents by. You can add any field that is on the system user table. For more information look for the **Add agents by searchable fields** in [Configure settings for Dispatcher Workspace](../task/configure-workspce-settings.md).
+1.  Turn on the setting **Enable dispatcher to add agents outside of their assigned assignment groups / territories** on the Configure settings page to allow dispatchers to search for any agent. For more information see [Configure settings for Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/configure-workspce-settings.md).
+2.  Add additional fields dispatchers can search for agents by. You can add any field that is on the system user table. For more information look for the **Add agents by searchable fields** in [Configure settings for Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/configure-workspce-settings.md).
 

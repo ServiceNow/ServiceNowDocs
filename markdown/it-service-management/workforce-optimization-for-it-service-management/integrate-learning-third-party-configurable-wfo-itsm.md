@@ -2,6 +2,7 @@
 title: Integrate Coaching with Learning with third-party learning management systems
 description: Connect your ServiceNow instance with third-party learning sites to pull learning content into your repository.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/integrate-learning-third-party-configurable-wfo-itsm.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -17,7 +18,7 @@ Connect your ServiceNow instance with third-party learning sites to pull learnin
 
 ## Before you begin
 
-**Important:** Coaching with Learning application is available from the ServiceNow® Store. To enable this application, see [Activate Workforce Optimization for ITSM](activate-configurable-workforce-optimization-itsm.md).
+**Important:** Coaching with Learning application is available from the ServiceNow® Store. To enable this application, see [Activate Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.md).
 
 Role required: learning\_admin
 
@@ -27,13 +28,13 @@ Role required: learning\_admin
 
 Activating the Coaching with Learning \(sn\_coach\_lrn\) plugin enables the following applications from the ServiceNow Store:
 
--   [Enterprise Service Management Integrations Framework](https://www.servicenow.com/docs/access?context=hr-integrations-framework&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US)
+-   Enterprise Service Management Integrations Framework
 -   Cornerstone spoke
 -   Pluralsight spoke
 -   Udemy spoke
--   ServiceNow University spoke. For more information on the ServiceNow University spoke, [ServiceNow University Spoke](https://www.servicenow.com/docs/access?context=now-learning-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+-   ServiceNow University spoke. For more information on the ServiceNow University spoke, .
 
-For information on integrating with third-party learning sources, see [Integrating Learning Core with third-party learning management systems](https://www.servicenow.com/docs/access?context=setup-learning-third-party-1&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+For information on integrating with third-party learning sources, see .
 
 ## Procedure
 
@@ -132,31 +133,31 @@ Configuration set to push a record if the previous push fails.**Note:** This fie
 </table>    7.  Click **Update**.
 2.  Integrate your ServiceNow instance with your third-party learning source accounts.
 
-<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d161936e320">
+<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d161042e318">
 
 To integrate with this third-party learning source
 
-</th><th align="left" id="d161936e323">
+</th><th align="left" id="d161042e321">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d161936e329">
+</th></tr></thead><tbody><tr><td id="d161042e327">
 
 **Pluralsight Skills account**
 
 </td><td>
 
-Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set up the Pluralsight spoke](https://www.servicenow.com/docs/access?context=setup-pluralsight-spk&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) to perform the integration.
+Use an API key to authenticate the ServiceNow requests. Follow the steps in Set up the Pluralsight spoke to perform the integration.
 
-</td></tr><tr><td id="d161936e345">
+</td></tr><tr><td id="d161042e343">
 
 **Cornerstone application**
 
 </td><td>
 
-Register an OAuth application in Cornerstone and authenticate requests from ServiceNow. Follow the steps in [Set up the Cornerstone spoke](https://www.servicenow.com/docs/access?context=setup-cornerstone&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) to perform the integration.
+Register an OAuth application in Cornerstone and authenticate requests from ServiceNow. Follow the steps in Set up the Cornerstone spoke to perform the integration.
 
-</td></tr><tr><td id="d161936e361">
+</td></tr><tr><td id="d161042e359">
 
 **Udemy application**
 
@@ -164,13 +165,13 @@ Register an OAuth application in Cornerstone and authenticate requests from Serv
 
 **Note:** You must manually configure fields such as logos and course reassignments in the learning system configuration table.
 
-</td></tr><tr><td id="d161936e373">
+</td></tr><tr><td id="d161042e371">
 
 **ServiceNow University application**
 
 </td><td>
 
-Register an OAuth application and authenticate requests from ServiceNow. Follow the steps in [Setting up the ServiceNow University spoke](https://www.servicenow.com/docs/access?context=create-now-learning-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) to perform the integration.
+Register an OAuth application and authenticate requests from ServiceNow. Follow the steps in  to perform the integration.
 
 </td></tr></tbody>
 </table>    The records from the third-party content are pulled into your ServiceNow instance using and API call. To successfully run this API call, you must do the following:
@@ -179,7 +180,7 @@ Register an OAuth application and authenticate requests from ServiceNow. Follow 
     2.  For each of the following properties, set the value to **1638400**:
         -   com.glide.transform.json.max-partial-length
         -   com.snc.process\_flow.reporting.serialized.val\_size\_limit
-    For more information on these system properties, see [Coaching With Learning System Properties](../reference/configurable-wfo-itsm-coaching-reference.md).
+    For more information on these system properties, see [Coaching With Learning System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-coaching-reference.md).
 
 3.  Activate schedule flows to integrate third-party learning content.
 
@@ -193,7 +194,7 @@ Register an OAuth application and authenticate requests from ServiceNow. Follow 
     4.  Select each of the third-party learning sources and set the **Active** field to **true**.
     Schedule flows automatically run on a scheduled basis to synchronize third-party learning content into your ServiceNow instance.
 
-4.  After you [configure the third-party integration sources](../reference/integration-source-coaching-with-learning-coaching-wfo-itsm.md) you can refresh the entire third-party content or synchronize new and updated services into your ServiceNow instance.
+4.  After you [configure the third-party integration sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/integration-source-coaching-with-learning-coaching-wfo-itsm.md) you can refresh the entire third-party content or synchronize new and updated services into your ServiceNow instance.
 
     -   To refresh the entire content, set the **full\_pull** property to **true**.
 
@@ -257,8 +258,8 @@ ServiceNow ServiceNow University
 
 </td></tr></tbody>
 </table>
--   **[External Content Integration Sources](../reference/integration-source-coaching-with-learning-coaching-wfo-itsm.md)**  
+-   **[External Content Integration Sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/integration-source-coaching-with-learning-coaching-wfo-itsm.md)**  
 When you integrate Coaching with Learning with third-party learning management systems, the source record for Cornerstone OnDemand, Pluralsight, Udemy, and ServiceNow University applications are automatically created in the Enterprise Service Management Integrations Framework. These source records contain a predefined set of properties and integration services.
 
-**Parent Topic:**[Setting up Coaching in Workforce Optimization for ITSM](../concept/setup-coaching-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Setting up Coaching in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/setup-coaching-configurable-workforce-optimization-itsm.md)
 

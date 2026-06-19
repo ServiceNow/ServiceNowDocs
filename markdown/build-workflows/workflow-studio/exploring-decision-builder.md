@@ -2,6 +2,7 @@
 title: Decision tables workflow
 description: Learn how to create and maintain decision tables in Workflow Studio for use in flows, subflows, playbooks, and anywhere on the ServiceNow AI Platform where you write code.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/exploring-decision-builder.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -21,7 +22,7 @@ Decision tables enable you to decouple decision logic from your code. This means
 
 The following illustration depicts the process for creating decision tables in Workflow Studio.
 
-![Infographic depicting the process of creating a decision table in Workflow Studio](../image/db-workflow.png "Process for creating decision tables")
+\[Omitted image "db-workflow.png"\] Alt text: Infographic depicting the process of creating a decision table in Workflow Studio
 
 The workflow for creating decision tables in Workflow Studio is as follows:
 
@@ -43,10 +44,10 @@ The workflow for creating decision tables in Workflow Studio is as follows:
     -   They can create a code snippet of the decision table and insert it into their code.
     -   They can add **Make a decision** logic in their flow or subflow and reference the decision table.
     -   They can add a decision table to a playbook using the **Make a Decision - First Match** activity.
-5.  If the decision table must be updated to reflect new logic, the developer or business SME can create a new draft of the table. They can test the table using the new logic and then publish the new version. To create a Decision Table, See [Create decision tables in Workflow Studio](../task/create-decision-table-in-decision-designer.md).
+5.  If the decision table must be updated to reflect new logic, the developer or business SME can create a new draft of the table. They can test the table using the new logic and then publish the new version. To create a Decision Table, See [Create decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-decision-table-in-decision-designer.md).
 
     **Note:** For any decision table that doesn't use draft authoring, any change the developer or business SME makes is automatically active.
 
 
-**Parent Topic:**[Exploring Decision Tables](decision-designer-overview.md)
+**Parent Topic:**[Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/decision-designer-overview.md)
 

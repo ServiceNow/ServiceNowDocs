@@ -2,6 +2,7 @@
 title: Configure a Data Discovery job
 description: Configure a Data Discovery job and review the status of ongoing jobs. A Data Discovery job defines when a pattern is executed on a target table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-discovery/configure-data-discovery-jobs.html
 release: zurich
 product: Data Discovery
 classification: data-discovery
@@ -68,7 +69,7 @@ Policy
 
 </td><td>
 
-The Data Discovery policy to be used in this job. See [Data Discovery policies](../concept/data-discovery-policies.md) for more information.
+The Data Discovery policy to be used in this job. See [Data Discovery policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-discovery/data-discovery-policies.md) for more information.
 
 </td></tr><tr><td>
 

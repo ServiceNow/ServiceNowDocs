@@ -2,6 +2,7 @@
 title: Components installed with Workplace Calendar Synchronization
 description: Several types of components are installed with the Workplace Calendar Synchronization application, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-calendar-synchronization/components-installed-with-workplace-calendar-syncn.html
 release: zurich
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Workplace Calendar Synchronization, Workplace Service De
 
 Several types of components are installed with the Workplace Calendar Synchronization application, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -96,7 +97,7 @@ Event\[sn\_wsd\_rsvsync\_event\]
 
 </td><td>
 
-Store information about all the events that are created in the application. Events are created for actions such as create, read, update or delete.**Note:** If **WSD: Archive old workplace tasks** archival rule is applied then Event \[sn\_wsd\_rsvsync\_event\] table is also archived. For more information, see [Apply the archive rule](../../workplace-service-delivery/task/wsd-tables-purge-policy.md).
+Store information about all the events that are created in the application. Events are created for actions such as create, read, update or delete.**Note:** If **WSD: Archive old workplace tasks** archival rule is applied then Event \[sn\_wsd\_rsvsync\_event\] table is also archived. For more information, see [Apply the archive rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/wsd-tables-purge-policy.md).
 
 </td></tr><tr><td>
 

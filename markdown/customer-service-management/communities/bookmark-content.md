@@ -2,6 +2,7 @@
 title: Bookmark community content
 description: You can bookmark your favorite questions, blogs, videos, documents, and events. You cannot bookmark content in draft state or replies or comments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/communities/bookmark-content.html
 release: zurich
 product: Communities
 classification: communities
@@ -34,5 +35,5 @@ Role required: sn\_communities.community\_user
 4.  You can search for bookmarks and, if required, select a bookmark and then click **Remove Bookmark**.
 
 
-**Parent Topic:**[Post and respond to content in the community](post-respond-content.md)
+**Parent Topic:**[Post and respond to content in the community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/post-respond-content.md)
 

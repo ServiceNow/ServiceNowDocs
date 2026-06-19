@@ -2,6 +2,7 @@
 title: Configure user permission settings for an external content connector
 description: Override the default field mappings for an external content connector's user permission crawls. Specify the fields that uniquely identify user security principals in your source system and users in your ServiceNow AI Platform instance. Optionally execute a custom script to transform security principal IDs before they're compared with the IDs of users in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-user-mapping-settings-external-content-connector.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -108,11 +109,11 @@ If you need to specify a different field as the identifier for source system pri
 
 The external content connector is updated with your modified user permission settings.
 
-If you configured a custom script, any script errors encountered during user permission crawls are recorded in the Alerts section of the connector's crawl details page. To learn about accessing the crawl details page from an external content connector's crawl history entry, see [Review crawl history for an external content connector](review-crawl-ext-cont-connector.md).
+If you configured a custom script, any script errors encountered during user permission crawls are recorded in the Alerts section of the connector's crawl details page. To learn about accessing the crawl details page from an external content connector's crawl history entry, see [Review crawl history for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/review-crawl-ext-cont-connector.md).
 
 ## What to do next
 
-To retrieve updated user permissions from your source system using your modified settings, create and run a user permission crawl for the external content connector that you edited. To learn about creating and running user permission crawls, see [Create a user permission crawl for an external content connector](create-user-mapping-crawl-external-content-connector.md).
+To retrieve updated user permissions from your source system using your modified settings, create and run a user permission crawl for the external content connector that you edited. To learn about creating and running user permission crawls, see [Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-user-mapping-crawl-external-content-connector.md).
 
-**Parent Topic:**[Configuring External Content Connectors](../concept/configuring-ext-cont-connectors.md)
+**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configuring-ext-cont-connectors.md)
 

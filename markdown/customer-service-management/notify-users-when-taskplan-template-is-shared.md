@@ -2,7 +2,10 @@
 title: Notify users when a task plan template is shared
 description: Notifications ensure that all relevant users, groups, service organizations, and members are promptly informed when a task plan template is shared. Notifications supports operational integrity and transparency in template governance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/notify-users-when-taskplan-template-is-shared.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-10-27"
 reading_time_minutes: 1
@@ -13,7 +16,7 @@ breadcrumb: [Sharing task plan templates, Task Plan Templates, Case management, 
 
 Notifications ensure that all relevant users, groups, service organizations, and members are promptly informed when a task plan template is shared. Notifications supports operational integrity and transparency in template governance.
 
-![Notify Users](../image/taskplan-notifications.png "Shared Task Plant Template Notifications")
+\[Omitted image "taskplan-notifications.png"\] Alt text: Notify Users
 
 Individual users, groups, service organizations, and members, receive in-app notifications when a task plan template is shared. Notifications are triggered to users, groups, and service organizations based on criteria or roles ensuring that only authorized recipients are informed about updates to template access.
 

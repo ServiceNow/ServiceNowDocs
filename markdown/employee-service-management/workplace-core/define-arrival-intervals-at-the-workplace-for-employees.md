@@ -2,6 +2,7 @@
 title: Define arrival schedules at the workplace for employees
 description: Define arrival slot times in Workplace Core for different locations at your workplace and indicate the capacity for each slot. Establishing arrival schedules enables safe staggered entry of employees to these locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-core/define-arrival-intervals-at-the-workplace-for-employees.html
 release: zurich
 product: Workplace Core
 classification: workplace-core
@@ -17,7 +18,7 @@ Define arrival slot times in Workplace Core for different locations at your work
 
 ## Before you begin
 
--   [Add your workplace data](../concept/providing-your-workplace-data-wsd.md).
+-   [Add your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/providing-your-workplace-data-wsd.md).
 -   Ensure you have the data for arrival schedules of the locations of your workplace.
 -   Ensure that your time zone is set to the time zone of the building that is used for the arrival.
 
@@ -32,7 +33,7 @@ Define arrival slot times in Workplace Core for different locations at your work
         3.  Select the building, floor, area, or the space for which you want to set the time zone.
         4.  Set the building time zone.
             -   If you selected a building, set the time zone in the **Time zone** field.
-            -   If you selected a floor, area, or the space, on the form, select the preview icon \(![workplace location info icon](../../wsd-reservation-management/image/info-icon.png)\) that is next to the **Building** field.
+            -   If you selected a floor, area, or the space, on the form, select the preview icon \(\[Omitted image "info-icon.png"\] Alt text: workplace location info icon\) that is next to the **Building** field.
                 -   In dialog box, select **Open record**.
                 -   On the Buildings form, set the time zone in the **Time zone** field.
         5.  Select **Update**.
@@ -44,7 +45,7 @@ Define arrival slot times in Workplace Core for different locations at your work
 
         **Note:** Ensure that the sn\_wsd\_core.workplace\_manager role is included in the **glide.timezone\_changer.roles** property. If it is not included, ask your system administrator to include the role so that you can change your time zone.
 
-        1.  Select the settings icon \(![Settings icon.](../../workplace-safety-mgmt/images/system-settings-icon.png)\) on your instance header.
+        1.  Select the settings icon \(\[Omitted image "system-settings-icon.png"\] Alt text: Settings icon.\) on your instance header.
         2.  Set the **Time zone** field to the time zone of the building where you are creating or updating the arrival schedule.
 
 Role required: sn\_wsd\_core.workplace\_manager
@@ -107,5 +108,5 @@ Maximum number of employees that can schedule their arrival to this location at 
 
 An arrival schedule is created for this workplace location for the indicated time and capacity. You can view arrival schedules by navigating to **Workplace Safety Management** &gt; **Workplace Arrival Scheduling** &gt; **Arrival Schedules**.
 
-**Parent Topic:**[Setting and tracking arrivals at the workplace](../concept/scheduling-employees-arrival-to-the-workplace-wsd.md)
+**Parent Topic:**[Setting and tracking arrivals at the workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/scheduling-employees-arrival-to-the-workplace-wsd.md)
 

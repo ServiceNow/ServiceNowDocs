@@ -2,6 +2,7 @@
 title: Migrating indicator scores
 description: The Performance Analytics Scores \[pa\_scores\] table was split into two tables. This structure helps with processing large numbers of scores. You can migrate your scores from the old table structure to the new, using the score migration tool.Schedule the automated migration process to move existing scores to the new table structure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/pa-scores-migration.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -25,7 +26,7 @@ Instances created prior to Istanbul still use the original Scores \[pa\_scores\]
 
 ## Migration Monitor
 
-After beginning the migration, you can track the migration status by navigating to **Performance Analytics** &gt; **Scores Migration Monitor.**
+After beginning the migration, you can track the migration status by navigating to **Platform Analytics Administration** &gt; **Indicator Settings** &gt; **Scores Migration Monitor.**
 
 If any errors occur during migration, contact Customer Service and Support to resolve the issue.
 
@@ -64,7 +65,7 @@ During migration you cannot collect, modify, or delete scores. Scheduled data co
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Scores Migration Monitor**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Indicator Settings** &gt; **Scores Migration Monitor**.
 
 2.  Click the **Schedule Scores Migration** button.
 

@@ -2,7 +2,10 @@
 title: Accessing associated cases and interaction emails
 description: Access the associated case from the email interaction and vice versa. From the email interaction, agents can view the linked case for additional context. While from the case, they can access all related email interactions. This smooth navigation helps agents manage customer issues more effectively.View the linked case to get additional context on the email interaction.View the linked email interaction to access all information related to the case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/accessing-associated-cases-interaction-emails.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -26,7 +29,7 @@ Role required: sn\_customerservice\_agent or sn\_customerservice\_manager
 
 1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon \(![List icon](../image/List_icon.jpg)\).
+2.  Select the List icon \(\[Omitted image "List\_icon.jpg"\] Alt text: List icon\).
 
 3.  In the Interactions section, select **My Interactions**.
 
@@ -53,7 +56,7 @@ Role required: sn\_customerservice\_agent or sn\_customerservice\_manager
 
 1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon \(![List icon](../image/List_icon.jpg)\).
+2.  Select the List icon \(\[Omitted image "List\_icon.jpg"\] Alt text: List icon\).
 
 3.  From the Cases section, select **My Cases**.
 

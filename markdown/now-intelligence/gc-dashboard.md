@@ -2,6 +2,7 @@
 title: General Counsel \(GC\) Dashboard
 description: The General Counsel \(GC\) Dashboard provides transparency into legal service delivery and operations. The insights include visibility into contracts, legal requests, compliance issues, and digital forensics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/gc-dashboard.html
 release: zurich
 topic_type: concept
 last_updated: "2025-08-15"
@@ -17,5 +18,5 @@ The GC Dashboard serves as a central command center for monitoring how effective
 
 This dashboard visualizes the end-to-end performance of legal operations, including open contracts by deal size, legal request MTTR, privacy request backlogs, invoice cycle times, and adoption of digital legal services. These indicators help legal leaders understand workload distribution, identify operational bottlenecks, improve compliance responsiveness, and ensure that legal processes are timely, effective, and scalable.
 
-![General Counsel Dashboard with Contracts, Service Delivery, Privacy and Compliance, Digital Forensics, and Self Service pillars, each containing legal metrics and visualizations.](../image/gc-db-tab.png)
+\[Omitted image "gc-db-tab.png"\] Alt text: General Counsel Dashboard with Contracts, Service Delivery, Privacy and Compliance, Digital Forensics, and Self Service pillars, each containing legal metrics and visualizations.
 

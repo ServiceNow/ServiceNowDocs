@@ -2,6 +2,7 @@
 title: Talent Aspiration types form
 description: Administrators create aspiration types that are use by employees and managers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/egd-aspiration-type-form.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -26,5 +27,5 @@ Administrators create aspiration types that are use by employees and managers.
 |**Tip**|Text that's display in the UI with each listed aspiration type.|
 |**Title**|The UI text that's visible for each listed aspiration type.|
 
-**Parent Topic:**[Talent Development Core application reference](../concept/egd-reference.md)
+**Parent Topic:**[Talent Development Core application reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-reference.md)
 

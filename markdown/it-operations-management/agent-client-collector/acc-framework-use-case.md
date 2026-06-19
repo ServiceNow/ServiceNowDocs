@@ -2,6 +2,7 @@
 title: Agent Client Collector Framework use case
 description: The Agent Client Collector Framework use case demonstrates how a financial organization can use Agent Client Collector Framework to assist in IT asset discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-framework-use-case.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -41,5 +42,5 @@ To address these challenges, the financial organization implemented an agent-bas
 
 This approach enabled the financial institution to maintain control over its IT environment, support its remote workforce effectively, and ensure compliance with industry regulations - critical factors in safeguarding sensitive financial operations and maintaining customer trust.
 
-**Parent Topic:**[Exploring Agent Client Collector Framework](exploring-agent-client-collector-framework.md)
+**Parent Topic:**[Exploring Agent Client Collector Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/exploring-agent-client-collector-framework.md)
 

@@ -2,6 +2,7 @@
 title: Migrate dashboards that you own
 description: Migrate dashboards that you own, including reports, interactive filters, and Performance Analytics widgets to Platform Analytics experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/data-migration-migrate-dbs-you-own.html
 release: zurich
 topic_type: task
 last_updated: "2025-05-14"
@@ -20,13 +21,13 @@ Role required: You can migrate any dashboard you own. Users with admin or dashbo
 
 ## About this task
 
-To learn about migration and its benefits, see [Platform Analytics Migration Center](../concept/data-migration.md).
+To learn about migration and its benefits, see [Platform Analytics Migration Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/data-migration.md).
 
-**Note:** If content on a dashboard is used in only one dashboard, it will be available only on that dashboard after migration. If it is used in more than one dashboard, that content is migrated to the Platform Analytics experience library.
+**Note:** You cannot use update sets to move the migrated material from a non-production instance to a production instance. Test the migration on the non-production instance and then use Migration Center functionality to migrate the production instance.If content on a dashboard is used in only one dashboard, it will be available only on that dashboard after migration. If it is used in more than one dashboard, that content is migrated to the Platform Analytics experience library.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Self-Service** &gt; **Dashboards**.![Personal dashboard showing the individual migration banner.](../image/data-migration-mig-indiv-db1.png)
+1.  Navigate to **All** &gt; **Self-Service** &gt; **Dashboards**.\[Omitted image "data-migration-mig-indiv-db1.png"\] Alt text: Personal dashboard showing the individual migration banner.
 
 2.  Select the dashboard that you want to migrate.
 
@@ -41,9 +42,9 @@ The migrated dashboard appears in the Platform Analytics library. Links to the o
 
 ## What to do next
 
-Verify that the migrated dashboard has all the features of the Core UI dashboard, either as fully migrated content or as iframed content. For more information, see [Content not migrated or migrated in compatibility mode](../reference/data-mig-unmigrated-content.md).
+Verify that the migrated dashboard has all the features of the Core UI dashboard, either as fully migrated content or as iframed content. For more information, see [Content not migrated or migrated in compatibility mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/data-mig-unmigrated-content.md).
 
-To roll back a migrated dashboard, select the More actions menu \(![More actions menu icon](../../../administer/integrationhub/images/more-actions-menu-icon.png)\) and choose **Switch to the Core UI**.
+To roll back a migrated dashboard, select the More actions menu \(\[Omitted image "more-actions-menu-icon.png"\] Alt text: More actions menu icon\) and choose **Switch to the Core UI**.
 
-![More actions menu with Switch to the Core UI option highlighted](../image/data-migration-roll-back-indiv-db.png)
+\[Omitted image "data-migration-roll-back-indiv-db.png"\] Alt text: More actions menu with Switch to the Core UI option highlighted
 

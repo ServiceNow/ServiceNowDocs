@@ -2,6 +2,7 @@
 title: Use the Wait For Images component
 description: Change the automation execution flow that is based on the image information on the screen by using the Wait For Images component in RPA Desktop Design Studio. You can also identify the state of a business application or an item that is based on an error or status icon.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/use-wait-waitforimgs.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the Wait For Images component. For more information about these properties, see [Properties of the Wait components](../reference/wait-properties.md).
+You can configure the properties for the Wait For Images component. For more information about these properties, see [Properties of the Wait components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/wait-properties.md).
 
 ## Procedure
 
@@ -29,9 +30,9 @@ You can configure the properties for the Wait For Images component. For more inf
 
 2.  Drag the Wait For Images component to the Design surface.
 
-3.  To add images, click the add image icon![add image icon.](../image/add-image-icon.png) on the Wait For Images component title bar.
+3.  To add images, click the add image icon\[Omitted image "add-image-icon.png"\] Alt text: add image icon. on the Wait For Images component title bar.
 
-4.  To capture the image that you want the component to find first, click the ![Camera icon](../image/camera-icon.png).
+4.  To capture the image that you want the component to find first, click the \[Omitted image "camera-icon.png"\] Alt text: Camera icon.
 
 5.  To select a region, press the **CTRL+SHIFT** keys.
 
@@ -50,5 +51,5 @@ You can configure the properties for the Wait For Images component. For more inf
 7.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Wait](../concept/wait.md)
+**Parent Topic:**[Wait](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/wait.md)
 

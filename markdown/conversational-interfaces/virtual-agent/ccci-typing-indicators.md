@@ -2,6 +2,7 @@
 title: Typing indicators
 description: Display a typing indicator when a bot or live agent is preparing a response to a requester.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/ccci-typing-indicators.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -39,5 +40,5 @@ Example: Typing indicator script
 })
 ```
 
-**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](../concept/va-features-custom-chat-integrations.md)
+**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-features-custom-chat-integrations.md)
 

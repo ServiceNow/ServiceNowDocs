@@ -2,6 +2,7 @@
 title: Create run level toggle mapping
 description: Create run level toggle mapping so that you can associate the system run level to the toggle level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-performance/create-run-level-toggle-mapping.html
 release: zurich
 product: Platform Performance
 classification: platform-performance
@@ -27,7 +28,7 @@ Role required: admin
 
 3.  On the Run Level Mapping form, fill in the fields.
 
-    For a description of the field values, see [Run level toggle mapping form](../reference/run-level-toggle-mapping-form.md).
+    For a description of the field values, see [Run level toggle mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/run-level-toggle-mapping-form.md).
 
 4.  Select **Submit**.
 

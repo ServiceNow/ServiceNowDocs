@@ -2,6 +2,7 @@
 title: Viewing and resolving healthcare cases submitted from EMR systems
 description: Use Workspace in a ServiceNow instance to work on healthcare cases created from an EMR system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/emr-help/viewing-and-resolving-healthcare-cases-submitted-from-emr-systems.html
 release: zurich
 product: EMR Help
 classification: emr-help
@@ -19,9 +20,9 @@ Use Workspace in a ServiceNow instance to work on healthcare cases created from 
 
 Use Workspace to fulfill healthcare cases generated from EMR Help.
 
-In order to fulfill healthcare cases, you must first create your own custom healthcare case type. For more information on this, see [Configure healthcare case types for EMR Help](../task/configure-hcls-case-types-for-emr-help.md).
+In order to fulfill healthcare cases, you must first create your own custom healthcare case type. For more information on this, see [Configure healthcare case types for EMR Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/emr-help/configure-hcls-case-types-for-emr-help.md).
 
-![A healthcare case generated from EMR help in Workspace for fulfillment.](../image/hcls-emr-health-case-workspace.png)
+\[Omitted image "hcls-emr-health-case-workspace.png"\] Alt text: A healthcare case generated from EMR help in Workspace for fulfillment.
 
 Information from the EMR request is captured in the EMR session overview contextual side panel.
 

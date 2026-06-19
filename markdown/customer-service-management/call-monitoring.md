@@ -2,7 +2,10 @@
 title: Monitoring calls
 description: Call monitoring is a feature in the Contact Center as a Service \(CCaaS\) solution that enables supervisors and managers to observe, monitor, and analyze customer interactions.Supervisors can monitor live customer calls enabling them to provide immediate guidance and support through listening, coaching, or intervening as needed. This helps promote high-quality customer interactions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/call-monitoring.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-10-06"
 reading_time_minutes: 2
@@ -70,5 +73,5 @@ The following steps define a typical workflow for a supervisor-initiated call mo
     **Note:** Silent monitoring isn't visible to the agent.
 
 
-![Supervisor call monitoring workflow](../image/int-supervisor-proactive-call-monitoring.png "Supervisor call monitoring workflow")
+\[Omitted image "int-supervisor-proactive-call-monitoring.png"\] Alt text: Supervisor call monitoring workflow
 

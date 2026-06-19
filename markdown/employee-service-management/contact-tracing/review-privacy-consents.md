@@ -2,6 +2,7 @@
 title: Review user privacy consents in Contact Tracing
 description: Review user privacy consent responses submitted by employees in answer to notifications seeking their consent to use their data for contact tracing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contact-tracing/review-privacy-consents.html
 release: zurich
 product: Contact Tracing
 classification: contact-tracing
@@ -33,8 +34,8 @@ Role required: sn\_imt\_tracing.admin
     -   If employees have not responded yet, the preference is **Awaiting Response**.
     **Note:** The consent history record with the latest preference submitted date is the last response from the employee.
 
-    You can [send the notification](send-outreach-notif-privacy.md) again to employees who have not yet responded.
+    You can [send the notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/send-outreach-notif-privacy.md) again to employees who have not yet responded.
 
 
-**Parent Topic:**[Maintaining user data privacy in Contact Tracing](../concept/contact-tracing-user-privacy-options.md)
+**Parent Topic:**[Maintaining user data privacy in Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/contact-tracing-user-privacy-options.md)
 

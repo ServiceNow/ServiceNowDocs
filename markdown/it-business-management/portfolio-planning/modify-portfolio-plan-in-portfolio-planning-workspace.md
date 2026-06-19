@@ -2,6 +2,7 @@
 title: Modify a portfolio plan
 description: Update the details of a portfolio plan in Portfolio Planning Workspace or delete it, to reflect the changes in your planning priorities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/modify-portfolio-plan-in-portfolio-planning-workspace.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -18,7 +19,7 @@ Update the details of a portfolio plan in Portfolio Planning Workspace or delete
 
 ## Before you begin
 
-[Create a portfolio plan](create-portfolio-plan-in-portfolio-planning-workspace.md).
+[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/create-portfolio-plan-in-portfolio-planning-workspace.md).
 
 Role required: sn\_align\_core.apw\_user or business\_stakeholder
 
@@ -32,21 +33,21 @@ Role required: sn\_align\_core.apw\_user or business\_stakeholder
 
 2.  From the list of portfolio plans, select one.
 
-3.  From the portfolio plan header, select the More actions icon \(![More actions icon in the portfolio plan header.](../../alignment-planner-workspace/images/more-actions.png)\).
+3.  From the portfolio plan header, select the More actions icon \(\[Omitted image "more-actions.png"\] Alt text: More actions icon in the portfolio plan header.\).
 
-    ![Portfolio plan actions menu.](../../alignment-planner-workspace/images/pp-actions-menu.png)
+    \[Omitted image "pp-actions-menu.png"\] Alt text: Portfolio plan actions menu.
 
 4.  Update the details of the portfolio plan or delete it using the Portfolio plan actions menu.
 
-<table id="choicetable_hjj_wbj_gvb"><thead><tr><th align="left" id="d117641e141">
+<table id="choicetable_hjj_wbj_gvb"><thead><tr><th align="left" id="d114023e141">
 
 Choice
 
-</th><th align="left" id="d117641e144">
+</th><th align="left" id="d114023e144">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d117641e150">
+</th></tr></thead><tbody><tr><td id="d114023e150">
 
 **Update portfolio plan**
 
@@ -55,12 +56,12 @@ Action
 1.  Select **Edit portfolio plan**.
 2.  Modify your selections using the portfolio plan wizard.
 
-For more information on using this wizard, see [Create a portfolio plan](create-portfolio-plan-in-portfolio-planning-workspace.md).
+For more information on using this wizard, see [Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/create-portfolio-plan-in-portfolio-planning-workspace.md).
 
 3.  Select **Update**.
 
 
-</td></tr><tr><td id="d117641e190">
+</td></tr><tr><td id="d114023e190">
 
 **Delete portfolio plan**
 
@@ -76,9 +77,9 @@ For more information on using this wizard, see [Create a portfolio plan](create-
 
 Share your updated portfolio plan or collaborate with other stakeholders.
 
--   Show or hide features for your portfolio plan according to your requirement while sharing a portfolio plan with your stakeholders. See, [Show or hide the features for a portfolio plan](show-or-hide-the-features-for-your-portfolio-plan-ppw.md).
--   [Share a portfolio plan with stakeholders](share-portfolio-plan-in-portfolio-planning-workspace.md).
--   [Collaborate on portfolio plans](collaborate-on-portfolio-plans-in-portfolio-planning-workspace.md).
+-   Show or hide features for your portfolio plan according to your requirement while sharing a portfolio plan with your stakeholders. See, [Show or hide the features for a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/show-or-hide-the-features-for-your-portfolio-plan-ppw.md).
+-   [Share a portfolio plan with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/share-portfolio-plan-in-portfolio-planning-workspace.md).
+-   [Collaborate on portfolio plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/collaborate-on-portfolio-plans-in-portfolio-planning-workspace.md).
 
-**Parent Topic:**[Managing portfolio plans in Portfolio Planning](../concept/managing-portfolio-plans-in-portfolio-planning.md)
+**Parent Topic:**[Managing portfolio plans in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/managing-portfolio-plans-in-portfolio-planning.md)
 

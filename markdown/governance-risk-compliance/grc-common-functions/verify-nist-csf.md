@@ -2,6 +2,7 @@
 title: Verify the NIST CSF Use Case Accelerator
 description: After installing the GRC: NIST Cybersecurity Framework \(CSF\) Use Case Accelerator, review the NIST CSF application structure, core content, and demo data, if selected during installation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/verify-nist-csf.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -218,5 +219,5 @@ Perform a search for all Remediation tasks where an issue identified on the reme
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[NIST CSF Use Case Accelerator](../concept/grc-csf-usecase-accelerator.md)
+**Parent Topic:**[NIST CSF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-csf-usecase-accelerator.md)
 

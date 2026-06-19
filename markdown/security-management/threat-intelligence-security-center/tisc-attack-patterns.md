@@ -2,6 +2,7 @@
 title: Attack Patterns
 description: Attack patterns are a type of Tactics, Techniques, and Procedures \(TTPs\) that describe the methods that adversaries attempt to compromise targets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-attack-patterns.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -19,8 +20,8 @@ Attack patterns are used to help categorize attacks. They generalize specific at
 
 For example, spear phishing is a common type of attack where an attacker sends a carefully crafted email message to a party with the intent of getting them to click a link or open an attachment to deliver malware. Attack Patterns are more specific, such as spear phishing by a particular threat actor \(example - that the target won a contest\) can also be an Attack pattern.
 
--   **[Define an attack pattern](../task/tisc-define-an-attack-pattern.md)**  
+-   **[Define an attack pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-define-an-attack-pattern.md)**  
 Define an attack pattern to help threat analysts categorize the attacks.
 
-**Parent Topic:**[Threat Entities](tisc-threat-entities.md)
+**Parent Topic:**[Threat Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-threat-entities.md)
 

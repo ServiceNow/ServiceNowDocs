@@ -2,6 +2,7 @@
 title: Transformer - Scoped, Global
 description: The Transformer API manipulates time-series data to prepare the data for evaluation and analysis.Create a Transformer object.Run the transform.Specifies the field to use to group the data.Specify the metric field to be used in the transform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/TransformerScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -40,7 +41,7 @@ The general use case is to determine the period to be evaluated, select the reco
 
 This class is part of the MetricBase application.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## Transformer - Transformer\( GlideRecord sourceRecords\)
 

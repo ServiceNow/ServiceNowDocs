@@ -2,6 +2,7 @@
 title: Map offense fields
 description: After you have selected the rules, the next step is to map offense, event, or flow fields to the fields in the security incident form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/qradar-ibm-create-profile-about-mapping.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -21,6 +22,6 @@ For the mapping step, you must first ingest sample offenses for one or more sele
 
 Mapping of the sample offense fields involves the following:
 
--   Fetching and populating of the sample data: See [Ingesting the sample IBM QRadar offenses](../task/qradar-ibm-create-profile-ingestion.md).
--   Mapping the offense fields to the security incident: See [Mapping IBM QRadar offense fields to security incident response fields](ibm-qradar-mapping-process.md).
+-   Fetching and populating of the sample data: See [Ingesting the sample IBM QRadar offenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/qradar-ibm-create-profile-ingestion.md).
+-   Mapping the offense fields to the security incident: See [Mapping IBM QRadar offense fields to security incident response fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/ibm-qradar-mapping-process.md).
 

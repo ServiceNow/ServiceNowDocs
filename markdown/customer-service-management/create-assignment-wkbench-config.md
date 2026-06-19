@@ -2,7 +2,10 @@
 title: Create an assignment workbench configuration
 description: Use a matching rule to create a configuration for the assignment workbench.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-assignment-wkbench-config.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -59,7 +62,7 @@ You can modify or create matching criteria and then modify the **Recommendation 
 
 12. Select how the criterion is to be used in the **Use for** field.
 
-<table id="choicetable_njl_kph_xx"><tbody><tr><td id="d213948e231">
+<table id="choicetable_njl_kph_xx"><tbody><tr><td id="d211555e231">
 
 **Ranking and Display**
 
@@ -67,7 +70,7 @@ You can modify or create matching criteria and then modify the **Recommendation 
 
 Uses the criterion to determine agent ranking and displays it in a column on the workbench.
 
-</td></tr><tr><td id="d213948e240">
+</td></tr><tr><td id="d211555e240">
 
 **Display Only**
 
@@ -75,7 +78,7 @@ Uses the criterion to determine agent ranking and displays it in a column on the
 
 Displays the criterion in a column on the workbench but does not use it to determine agent ranking.
 
-</td></tr><tr><td id="d213948e249">
+</td></tr><tr><td id="d211555e249">
 
 **Ranking and No Display**
 
@@ -86,7 +89,7 @@ Uses the criterion to determine agent ranking but does not display it on the wor
 </td></tr></tbody>
 </table>13. Select a **Ranking Method**.
 
-<table id="choicetable_mth_1qh_xx"><tbody><tr><td id="d213948e270">
+<table id="choicetable_mth_1qh_xx"><tbody><tr><td id="d211555e270">
 
 **More is better**
 
@@ -94,7 +97,7 @@ Uses the criterion to determine agent ranking but does not display it on the wor
 
 A higher value is better. For example, more availability is better when determining the agent ranking.
 
-</td></tr><tr><td id="d213948e279">
+</td></tr><tr><td id="d211555e279">
 
 **Less is better**
 

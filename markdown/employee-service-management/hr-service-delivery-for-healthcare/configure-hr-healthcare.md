@@ -2,6 +2,7 @@
 title: Configure HR Service Delivery for Healthcare
 description: Plan and configure your HR Service Delivery for Healthcare.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery-for-healthcare/configure-hr-healthcare.html
 release: zurich
 product: HR Service Delivery for Healthcare
 classification: hr-service-delivery-for-healthcare

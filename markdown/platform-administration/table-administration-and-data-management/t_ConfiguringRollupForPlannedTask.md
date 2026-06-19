@@ -2,6 +2,7 @@
 title: Configure rollup for planned task fields
 description: You can configure the planned task fields to roll up the field values in the parent entity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/t\_ConfiguringRollupForPlannedTask.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -97,5 +98,5 @@ Select the check box to allow roll up. Leave the field unchecked to exclude the 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Extending the Task table with Planned tasks](../concept/c_PlannedTask.md)
+**Parent Topic:**[Extending the Task table with Planned tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_PlannedTask.md)
 

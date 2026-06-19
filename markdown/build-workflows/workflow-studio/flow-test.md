@@ -2,6 +2,7 @@
 title: Test a flow
 description: Before activating a flow so other users can access it, test to make certain it works the way you expect.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/flow-test.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -21,7 +22,7 @@ Role required: flow\_designer or admin
 
 ## About this task
 
-Testing a flow bypasses the flow trigger conditions to run it with the test data you provide. For example, testing a flow with a record **Created** trigger causes the system to act as if the selected record was created. For a list of data pills available by trigger type, see [Workflow Studio flow trigger types](../reference/flow-triggers.md).
+Testing a flow bypasses the flow trigger conditions to run it with the test data you provide. For example, testing a flow with a record **Created** trigger causes the system to act as if the selected record was created. For a list of data pills available by trigger type, see [Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-triggers.md).
 
 **Note:** Because testing a flow creates or changes records on the instance, flow designers should always test flows on a non-production instance containing relevant demonstration data.
 
@@ -37,11 +38,11 @@ Testing a flow bypasses the flow trigger conditions to run it with the test data
 
 4.  If the flow has a record trigger, create or select a record to use for the test.
 
-    To create a record, select the **Create new record** button ![Create new record button](../images/add-record-button.png).
+    To create a record, select the **Create new record** button \[Omitted image "add-record-button.png"\] Alt text: Create new record button.
 
 5.  If the flow has a record **Updated** or **Created or Updated** trigger, specify which fields and values changed in the update.
 
-    To specify a field value change, select the **Create new changed field** button ![Create new changed field button](../images/add-changed-field-button.png) for each field whose value you want to change. Complete the changed field details for each changed field.
+    To specify a field value change, select the **Create new changed field** button \[Omitted image "add-changed-field-button.png"\] Alt text: Create new changed field button for each field whose value you want to change. Complete the changed field details for each changed field.
 
     |Field|Description|
     |-----|-----------|
@@ -66,7 +67,7 @@ Testing a flow bypasses the flow trigger conditions to run it with the test data
 
 ## What to do next
 
-Review the [Flow execution details](../concept/flow-execution-details.md).
+Review the [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-execution-details.md).
 
-**Parent Topic:**[Create a flow in Workflow Studio](create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-flow.md)
 

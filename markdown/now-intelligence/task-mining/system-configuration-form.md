@@ -2,6 +2,7 @@
 title: System configuration form in Task Mining
 description: Modify configuration records to set up Task Mining. Configuration records can be modified but cannot be added.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/task-mining/system-configuration-form.html
 release: zurich
 product: Task Mining
 classification: task-mining
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Task Mining, Platform Analytics]
 
 Modify configuration records to set up Task Mining. Configuration records can be modified but cannot be added.
 
-For information about configuring Task Mining, see [Configuring Task Mining](../concept/configuring-task-mining.md).
+For information about configuring Task Mining, see [Configuring Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/task-mining/configuring-task-mining.md).
 
 |Field|Description|
 |-----|-----------|
@@ -24,5 +25,5 @@ For information about configuring Task Mining, see [Configuring Task Mining](../
 |Description|Description for the configuration rule.|
 |Value|Configuration record value.|
 
-**Parent Topic:**[Task Mining Reference](../concept/reference-task-mining.md)
+**Parent Topic:**[Task Mining Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/task-mining/reference-task-mining.md)
 

@@ -2,6 +2,7 @@
 title: Exploring RPA Desktop Design Studio
 description: Learn about the RPA Desktop Design Studio features that enable you to design and create your business process automations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/rpa-studio-explore.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -30,9 +31,9 @@ Use the RPA Desktop Design Studio application to build and update automation wor
 
 To learn more about configuring and using RPA Desktop Design Studio, see:
 
--   [Configuring RPA Desktop Design Studio](rpa-studio-configure.md)
--   [Building automations](rpa-studio-build.md)
--   [Using automations](rpa-studio-use.md)
--   [Automation components](rpa-studio-automation-components.md)
--   [RPA Desktop Design Studio reference](../reference/rpa-studio-reference.md)
+-   [Configuring RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/rpa-studio-configure.md)
+-   [Building automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/rpa-studio-build.md)
+-   [Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/rpa-studio-use.md)
+-   [Automation components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/rpa-studio-automation-components.md)
+-   [RPA Desktop Design Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/rpa-studio-reference.md)
 

@@ -2,6 +2,7 @@
 title: Template Configuration for Intelligence Sharing
 description: Create and publish an outbound intelligence sharing template to define how threat intelligence is shared from the source TISC instance to the target instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-template-config-sharing.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

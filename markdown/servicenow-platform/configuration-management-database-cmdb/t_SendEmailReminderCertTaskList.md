@@ -2,6 +2,7 @@
 title: Send an email reminder from the certification task list
 description: How to manually send email reminders from the Certification Task list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/t\_SendEmailReminderCertTaskList.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

@@ -2,6 +2,7 @@
 title: Dynatrace advanced settings fields
 description: Populate the pull connector advanced settings fields to optimize event retrieval and synchronization based on specific requirements such as connection preferences, event frequency, and time zone settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/dynatrace-advanced-settings-fields.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -103,7 +104,7 @@ Debugging
 -   Log payload: Displays raw log data. Use only for debugging, as it can quickly fill the MID Server logs.
 
 </td></tr></tbody>
-</table>To return to the procedure, see [Configure Dynatrace metric pull connector](../task/configure-dynatrace-metric-pull-connector.md).
+</table>To return to the procedure, see [Configure Dynatrace metric pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/configure-dynatrace-metric-pull-connector.md).
 
-**Parent Topic:**[Service Operations Workspace for ITOM reference](../concept/sow-reference-itom.md)
+**Parent Topic:**[Service Operations Workspace for ITOM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/sow-reference-itom.md)
 

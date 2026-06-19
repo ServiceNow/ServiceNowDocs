@@ -2,6 +2,7 @@
 title: \(Optional\) Set keystore properties for signing logout requests for SAML
 description: Set the keystore properties to enable the integration to sign logout requests by using your signed server and signed CA certificates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/t\_OptSetKeystorePropsSignLogoutReqs.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -33,6 +34,6 @@ Role required: admin
 
 4.  Regenerate your SP metadata.
 
-    For more information, see [SP metadata](t_GenerateServiceNowSPMetadata.md).
+    For more information, see [SP metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/t_GenerateServiceNowSPMetadata.md).
 
 

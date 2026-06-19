@@ -2,6 +2,7 @@
 title: Resource Order form fields
 description: The Resource Order form enables you to review and modify domain resource orders associated with a selected customer order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/field-resource-order-form.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -82,7 +83,7 @@ State
 
 </td><td>
 
-Current state for the resource order. To view a listing of selections, select the down arrow icon ![](../image/field-selection-list.png):-   **Draft**
+Current state for the resource order. To view a listing of selections, select the down arrow icon \[Omitted image "field-selection-list.png"\] Alt text::-   **Draft**
 
 Product, service, or resource that has assigned new or waiting-to-start tasks.
 
@@ -203,9 +204,9 @@ Activity
 
 </td><td>
 
-Activity stream section for viewing all processing activities and changes in the field values that have taken place for the resource order. To expand, collapse, or filter by activity stream: -   Select the activity stream filter icon ![](../image/activity-stream-filter.png) to filter by post types, field changes, or flagged items.
--   Select the search icon ![](../image/field-search.png) to search the required information in the activity stream.
--   Select the sort descending icon ![](../../../reuse/icons/product-icons/sort-descending-outline-24.svg) to sort the activity from oldest to newest or select the sort ascending icon ![](../../../reuse/icons/product-icons/sort-ascending-fill-24.svg) for the opposite action.
+Activity stream section for viewing all processing activities and changes in the field values that have taken place for the resource order. To expand, collapse, or filter by activity stream: -   Select the activity stream filter icon \[Omitted image "activity-stream-filter.png"\] Alt text: to filter by post types, field changes, or flagged items.
+-   Select the search icon \[Omitted image "field-search.png"\] Alt text: to search the required information in the activity stream.
+-   Select the sort descending icon \[Omitted image "sort-descending-outline-24.svg"\] Alt text: to sort the activity from oldest to newest or select the sort ascending icon \[Omitted image "sort-ascending-fill-24.svg"\] Alt text: for the opposite action.
 
 </td></tr><tr><td>
 
@@ -216,5 +217,5 @@ Attachments
 File attachments for the resource order. Select **Select file** to add the file as an attachment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Domain order forms](field-descriptions-product-domain-orders.md)
+</table>**Parent Topic:**[Domain order forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/field-descriptions-product-domain-orders.md)
 

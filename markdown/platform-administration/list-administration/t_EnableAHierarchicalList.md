@@ -2,6 +2,7 @@
 title: Enable a hierarchical list
 description: You can enable hierarchical lists to make data from related lists directly accessible from within a list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/list-administration/t\_EnableAHierarchicalList.html
 release: zurich
 product: List Administration
 classification: list-administration

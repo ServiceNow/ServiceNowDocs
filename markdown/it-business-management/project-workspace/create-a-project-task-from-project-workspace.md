@@ -2,6 +2,7 @@
 title: Create and assign project tasks from Project Workspace
 description: Add new tasks for your projects and assign them to your team directly from the new Project Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/create-a-project-task-from-project-workspace.html
 release: zurich
 product: Project Workspace
 classification: project-workspace
@@ -23,13 +24,13 @@ Role required: it\_project\_manager
 
 1.  Open a project from the planning page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access the new Project Workspace](access-new-project-workspace.md).
+    For information on how to navigate to the planning page, see [Access the new Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Select **Add Task**.
 
     A new row is added to the bottom of the data grid of the planning page, with **New Task** as the default name for the task.
 
-    Alternatively, select a project task row and select the Add task below icon \(![Add task below icon.](../image/add-task-below-icon.png)\). This action adds a new task right after the task that you selected.
+    Alternatively, select a project task row and select the Add task below icon \(\[Omitted image "add-task-below-icon.png"\] Alt text: Add task below icon.\). This action adds a new task right after the task that you selected.
 
 3.  Edit the details of the task.
 
@@ -48,11 +49,11 @@ Role required: it\_project\_manager
 
 ## What to do next
 
--   Make the new task a subtask of an existing task or a sub project by using the indent task icon\(![Indent task icon.](../image/icon-indent-task.png)\).
--   [Update a project task from the Project Workspace](update-project-task-from-project-workspace.md).
+-   Make the new task a subtask of an existing task or a sub project by using the indent task icon\(\[Omitted image "icon-indent-task.png"\] Alt text: Indent task icon.\).
+-   [Update a project task from the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/update-project-task-from-project-workspace.md).
 
--   **[Update a project task from the Project Workspace](update-project-task-from-project-workspace.md)**  
+-   **[Update a project task from the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/update-project-task-from-project-workspace.md)**  
 Update the details of existing tasks from the planning page of the Project Workspace.
 
-**Parent Topic:**[Managing projects with Project Workspace](../concept/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/use-projects-pw.md)
 

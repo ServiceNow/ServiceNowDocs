@@ -2,6 +2,7 @@
 title: Create case records for the imported data
 description: Create case records for the imported data as it is important for creating a project and mining it. Without a record table, a project can’t be created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/create-case-record.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -17,9 +18,9 @@ Create case records for the imported data as it is important for creating a proj
 
 ## Before you begin
 
--   [Create an audit table](create-table.md)
--   [Import data into the audit table](import-data.md)
--   [Verify the imported data](verify-data.md)
+-   [Create an audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/create-table.md)
+-   [Import data into the audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/import-data.md)
+-   [Verify the imported data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/verify-data.md)
 
 Role required: sn\_process\_optimization\_admin
 
@@ -33,12 +34,12 @@ Role required: sn\_process\_optimization\_admin
 
 3.  Select **Create record table**.
 
-    ![Create case records for external dataset](../image/ext-dataset-recordtable.png)
+    \[Omitted image "ext-dataset-recordtable.png"\] Alt text: Create case records for external dataset
 
     After the record table is created, a tab opens displaying details of the audit and record tables.
 
-    ![External dataset created](../image/ext-data-edit.png)
+    \[Omitted image "ext-data-edit.png"\] Alt text: External dataset created
 
 
-**Parent Topic:**[Working with external datasets](../concept/external-dataset.md)
+**Parent Topic:**[Working with external datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/external-dataset.md)
 

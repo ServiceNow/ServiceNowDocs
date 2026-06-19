@@ -2,6 +2,7 @@
 title: FieldReadConfiguration structure - iOS
 description: The FieldReadConfiguration structure enables you to configure which fields to fetch from a ServiceNow instance table and in which format.Configures the fields within a record in a ServiceNow table to pass back in the return results of a REST endpoint call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/cllent-mobile-api-reference/FieldReadConfigurationiOSStruct.html
 release: zurich
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -53,7 +54,7 @@ List of the types of fields to return.Possible values:
 
 -   actualValues: Returns the values actually stored in each of the fields, including the sys\_ids for referenced records. Use this setting if dates need to be decoded in Codable models using Date.
 -   description: Returns the description of the parameter.
--   displayValues: Returns the [display values](https://www.servicenow.com/docs/access?context=c_DisplayValues&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US), if available, for the selected fields. For example, user names typically contain a reference link \(sys\_id\) to the user record. If you request the display value, the person's name is returned instead of the sys\_id that is stored in the associated field.
+-   displayValues: Returns the display values, if available, for the selected fields. For example, user names typically contain a reference link \(sys\_id\) to the user record. If you request the display value, the person's name is returned instead of the sys\_id that is stored in the associated field.
 
 **Note:** Display values returned by a ServiceNow instance are formatted and internationalized based on the user profile configuration of the authenticated user. This may differ from the device language and locale settings on the device.
 
@@ -61,7 +62,7 @@ List of the types of fields to return.Possible values:
 -   rawValue: Returns the raw value of the parameter.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK - iOS](../../concept/MobileSDKiOSAPI.md)
+</table>**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## FieldReadConfiguration - init\(includeFields: \[FieldName\] = \[\], options: Options = \[\]\)
 
@@ -105,7 +106,7 @@ List of the types of fields to return.Possible values:
 
 -   actualValues: Returns the values actually stored in each of the fields, including the sys\_ids for referenced records. Use this setting if dates need to be decoded in Codable models using Date.
 -   description: Returns the description of the parameter.
--   displayValues: Returns the [display values](https://www.servicenow.com/docs/access?context=c_DisplayValues&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US), if available, for the selected fields. For example, user names typically contain a reference link \(sys\_id\) to the user record. If you request the display value, the person's name is returned instead of the sys\_id that is stored in the associated field.
+-   displayValues: Returns the display values, if available, for the selected fields. For example, user names typically contain a reference link \(sys\_id\) to the user record. If you request the display value, the person's name is returned instead of the sys\_id that is stored in the associated field.
 
 **Note:** Display values returned by a ServiceNow instance are formatted and internationalized based on the user profile configuration of the authenticated user. This may differ from the device language and locale settings on the device.
 

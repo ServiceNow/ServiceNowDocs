@@ -2,6 +2,7 @@
 title: Add an intake form to a practice area
 description: Add an intake form to a practice area to associate it with a record producer and define assignment rules and service level agreements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-request-management/associate-categories-practice-area.html
 release: zurich
 product: Legal Request Management
 classification: legal-request-management
@@ -133,11 +134,11 @@ Options to change the default behavior or flow of legal requests, legal matter, 
 
 **Note:** On changing the assignment group, a member of the existing group member who is not in the updated assignment group might lose access to the matter. The **Matter owner** field is also cleared.
 
--   **Enable External Storage for attachment**: The documents attached to legal requests and legal mattersare uploaded to a [configured external storage system](integrate-legal-ext-storage.md).
+-   **Enable External Storage for attachment**: The documents attached to legal requests and legal mattersare uploaded to a [configured external storage system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/integrate-legal-ext-storage.md).
 
 **Important:** Only one external storage provider can be configured for an intake form.
 
--   **Enable Legal Request creation From Universal Request**: Legal requests can be created from a [universal request](../../universal-request/concept/ur-landing-limitedaccess.md) to get the support of the Legal department for the resolution of the universal request.
+-   **Enable Legal Request creation From Universal Request**: Legal requests can be created from a [universal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-landing-limitedaccess.md) to get the support of the Legal department for the resolution of the universal request.
 -   **Make Request Fulfiller as Matter Owner**: When a legal request is promoted to a legal matter, this legal matter is automatically assigned to the legal request fulfiller.
 -   **Generate Document from Template**: When a legal request for contract review is submitted, this option determines whether the document will be generated using a document template. If this option is not selected, the requester must submit the contract for review.
 
@@ -157,7 +158,7 @@ Options to change the default behavior or flow of legal requests, legal matter, 
 
     When an employee submits a new legal request through the intake form, this predefined checklist appears as the default to-do items in the corresponding request.
 
-    1.  Click the more actions icon \(![More actions icon](../image/lsd-down-arrow.png)\) next to the **Checklist**.
+    1.  Click the more actions icon \(\[Omitted image "lsd-down-arrow.png"\] Alt text: More actions icon\) next to the **Checklist**.
 
     2.  Click **Create new**.
 
@@ -166,12 +167,12 @@ Options to change the default behavior or flow of legal requests, legal matter, 
 
 ## What to do next
 
--   From the Subcategories related list, [add a new one subcategory](add-subcategories-intakeform.md) to associate it with the intake form.
--   From the SLA Definitions related list, [create a service level agreements \(SLA\) definition](https://www.servicenow.com/docs/access?context=t_CreateAnSLADefinition&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US), if required.
--   From the Assignments Rules related list, [create an assignment rule for an intake form](create-assignment-rules-intake-form.md).
--   Click the **Edit in Catalog Builder** related link to update the record producer for a legal request or matter or both based on the **Type** field value. For more information, see [Create or modify a record producer for legal services through Catalog Builder](create-record-producer-catalog-builder-legal.md).
+-   From the Subcategories related list, [add a new one subcategory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/add-subcategories-intakeform.md) to associate it with the intake form.
+-   From the SLA Definitions related list, create a service level agreements \(SLA\) definition, if required.
+-   From the Assignments Rules related list, [create an assignment rule for an intake form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/create-assignment-rules-intake-form.md).
+-   Click the **Edit in Catalog Builder** related link to update the record producer for a legal request or matter or both based on the **Type** field value. For more information, see [Create or modify a record producer for legal services through Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/create-record-producer-catalog-builder-legal.md).
 
-    The admin can also [create or modify record producers for legal services](create-record-producer-legal-request.md).
+    The admin can also [create or modify record producers for legal services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/create-record-producer-legal-request.md).
 
--   From the Matter Templates related list, [associate a matter template with the intake form](associate-matter-template-with-intake-form.md) if a matter record producer is selected.
+-   From the Matter Templates related list, [associate a matter template with the intake form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/associate-matter-template-with-intake-form.md) if a matter record producer is selected.
 

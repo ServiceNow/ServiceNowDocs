@@ -2,6 +2,7 @@
 title: Configure the Order Task Jeopardy Level Calculation Policy
 description: Configure the Order Task Jeopardy Level Calculation Policy using Workflow Studio to set the risk levels for the minimum and maximum Service Level Agreement \(SLA\) percentage completion for order tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configure-order-task-jeopardy-level-calculation-policy.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  Select **Order Task Jeopardy Level Calculation Policy**.
 
-    ![The image shows the Task Jeopardy Level Calculation Policy window in Workflow Studio.](../image/jm-order-task-jeopardy-lvl-calc-policy.png)
+    \[Omitted image "jm-order-task-jeopardy-lvl-calc-policy.png"\] Alt text: The image shows the Task Jeopardy Level Calculation Policy window in Workflow Studio.
 
 3.  On the Order Task Jeopardy Level Calculation Policy decision table, fill in the fields.
 
@@ -41,5 +42,5 @@ Role required: admin
 
 ## What to do next
 
-[Configure the Order Jeopardy Enablement Policy](enable-jeopardy-management.md)
+[Configure the Order Jeopardy Enablement Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/enable-jeopardy-management.md)
 

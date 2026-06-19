@@ -2,6 +2,7 @@
 title: Move from Connect Support to Advanced Work Assignment and Agent Chat
 description: Move from ServiceNow Connect Support to Agent Chat \(live chat\), which is the messaging system that agents use in Agent Workspace to interact with customers. Moving from Connect Support also involves using Advanced Work Assignment \(AWA\) to create the chat queues for routing chat work items to agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/migrate-from-connect-support.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -27,14 +28,14 @@ As of Utah, Connect Support is deprecated. For similar capabilities, please move
 
 Moving to modern applications such as Advanced Work Assignment and Agent Chat offers features and benefits that are not available in Connect Support. These new capabilities include:
 
--   [Automatic assignment of chats and work items to agents](../concept/awa-assignment.md) based on criteria that you define, such as agent availability, capacity, skills, [Agent Affinity](../concept/awa-agent-affinity-concept.md), and variable [work item sizing](awa-modify-work-item-size.md).
--   Automatic [queue overflow handling](awa-specify-assignment-eligibility.md)
--   [Chat timeout reassignment](../../workspace/task/reassign-rejected-timed-out-work-items.md)
--   Native [Chat surveys](../../conversational-interfaces/concept/ci-conversational-chat-surveys.md)
--   Supervisor features, such as [Agent Whisper](../../conversational-interfaces/concept/ci-agent-whisper.md), that enable managers to join ongoing public customer chats with agents or send private messages to agents.
--   Agent features, such as workspace [inbox controls](../concept/agent-experience.md) for viewing, accepting, or rejecting incoming chats.
+-   [Automatic assignment of chats and work items to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-assignment.md) based on criteria that you define, such as agent availability, capacity, skills, [Agent Affinity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-agent-affinity-concept.md), and variable [work item sizing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-modify-work-item-size.md).
+-   Automatic [queue overflow handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-specify-assignment-eligibility.md)
+-   [Chat timeout reassignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/reassign-rejected-timed-out-work-items.md)
+-   Native [Chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/agent-chat/ci-conversational-chat-surveys.md)
+-   Supervisor features, such as [Agent Whisper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/agent-chat/ci-agent-whisper.md), that enable managers to join ongoing public customer chats with agents or send private messages to agents.
+-   Agent features, such as workspace [inbox controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/agent-experience.md) for viewing, accepting, or rejecting incoming chats.
 
-If you are currently using Connect Support APIs, see [AWA Routing API](https://www.servicenow.com/docs/access?context=queue-api&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) for information on AWA APIs.
+If you are currently using Connect Support APIs, see AWA Routing API for information on AWA APIs.
 
 ## Procedure
 
@@ -46,11 +47,11 @@ If you are currently using Connect Support APIs, see [AWA Routing API](https://w
 
     **Note:** You cannot use your Connect Support chat queues in AWA. Chat queues for Connect Support are stored in the Chat Queue \[chat\_queue\] table. Chat queues for AWA are stored in the AWA Queue \[awa\_queue\] table.
 
-4.  In the AWA Home page, [configure the Chat service channel](awa-create-service-channel.md), [create the associated chat queues](awa-create-queue.md), and establish [agent work assignments](../concept/awa-assignment.md).
+4.  In the AWA Home page, [configure the Chat service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-create-service-channel.md), [create the associated chat queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-create-queue.md), and establish [agent work assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-assignment.md).
 
-5.  In [Agent Chat settings](../../conversational-interfaces/task/ac-configure-agent-chat.md), access the Chat Setup form to specify Agent Workspace as the fulfiller interface for live chat and enable other live chat features.
+5.  In [Agent Chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/agent-chat/ac-configure-agent-chat.md), access the Chat Setup form to specify Agent Workspace as the fulfiller interface for live chat and enable other live chat features.
 
-6.  Activate the [chat client on your end user Service Portal](../../conversational-interfaces/task/ac-configure-bot-portal.md).
+6.  Activate the [chat client on your end user Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/ac-configure-bot-portal.md).
 
 
 Troubleshooting suggestions include these common problems and solutions:
@@ -74,5 +75,5 @@ Here are a few questions to ask and places to look if agents are not receiving c
 -   In the Chat setup, are the fulfillers set appropriately for each application?
 -   In the interaction\_json\_blob referenced by the **interaction.context\_document** field, is the *Liveagent\_application* variable set to the expected value?
 
-**Parent Topic:**[Get started with Advanced Work Assignment](implement-awa.md)
+**Parent Topic:**[Get started with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/implement-awa.md)
 

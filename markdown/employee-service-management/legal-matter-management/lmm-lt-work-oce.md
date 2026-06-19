@@ -2,6 +2,7 @@
 title: Submit outside counsel engagement request for approval
 description: As a legal fulfiller, submit an outside counsel engagement request for approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-matter-management/lmm-lt-work-oce.html
 release: zurich
 product: Legal Matter Management
 classification: legal-matter-management
@@ -23,15 +24,15 @@ Role required: sn\_lg\_matter.matter\_fulfiller, sn\_lg\_ops.legal\_fulfiller
 
 1.  Open a legal matter.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d755168e51">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d241027e51">
 
 Method
 
-</th><th align="left" id="d755168e54">
+</th><th align="left" id="d241027e54">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d755168e60">
+</th></tr></thead><tbody><tr><td id="d241027e60">
 
 **Using Legal Counsel Center homepage**
 
@@ -42,19 +43,19 @@ Action
 3.  Select the **Outside Counsels** tab.
 
 
-</td></tr><tr><td id="d755168e101">
+</td></tr><tr><td id="d241027e101">
 
 **Using Legal Counsel Center lists**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**
-2.  Select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  In the Lists tab, navigate to **Matters** &gt; **All**.
 4.  Select the **Outside Counsels** tab.
 
 
-</td></tr><tr><td id="d755168e157">
+</td></tr><tr><td id="d241027e157">
 
 **Using platform view**
 
@@ -71,5 +72,5 @@ Action
 3.  Select **Submit for Approval**.
 
 
-**Parent Topic:**[Engage with outside counsel](../../legal-matter-management/task/lmm-eng-outcounsel.md)
+**Parent Topic:**[Engage with outside counsel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/lmm-eng-outcounsel.md)
 

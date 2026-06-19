@@ -2,6 +2,7 @@
 title: Notification workflow activity
 description: The Notification activity sends an email or SMS message to specified users or groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/workflow-activities/r\_NotificationActivity.html
 release: zurich
 product: Workflow Activities
 classification: workflow-activities

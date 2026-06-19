@@ -2,6 +2,7 @@
 title: View asset project requests for a project
 description: Analyze asset project requests associated with a project from Project Workspace, so you can track hardware requests and refresh activities linked to the project plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/view-asset-project-requests-pw.html
 release: zurich
 product: Project Workspace
 classification: project-workspace
@@ -27,7 +28,7 @@ This helps portfolio or project managers quickly understand which asset requests
 
 1.  Open a project from the home page of Project Workspace.
 
-    For information, see [Access the new Project Workspace](access-new-project-workspace.md).
+    For information, see [Access the new Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the details page of the project by selecting **Details** from the list.
 
@@ -40,5 +41,5 @@ This helps portfolio or project managers quickly understand which asset requests
 
 You can see all hardware asset requests and refresh requests associated with the project.
 
-**Parent Topic:**[Create an Asset Project Request from Project Workspace](create-asset-project-requests-pw.md)
+**Parent Topic:**[Create an Asset Project Request from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-asset-project-requests-pw.md)
 

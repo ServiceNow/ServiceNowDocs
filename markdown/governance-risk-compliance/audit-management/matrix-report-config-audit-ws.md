@@ -2,6 +2,7 @@
 title: Configure matrix report registry to set up base table for audit matrix report
 description: Configure the Matrix report registry to select the base table. You can create a relationship with the target table to configure the details of the report for an audit-related record or a landing page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/matrix-report-config-audit-ws.html
 release: zurich
 product: Audit Management
 classification: audit-management
@@ -39,12 +40,12 @@ Role required: sn\_matrix\_report.admin
 
 8.  On the form, fill in the fields.
 
-    For a description of the field values, see [Matrix relationship form](../reference/matrix-rel-audit-report-ws.md).
+    For a description of the field values, see [Matrix relationship form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/matrix-rel-audit-report-ws.md).
 
 9.  Select **Submit**.
 
     You have configured the base table, which is the level 0 of the matrix report configuration. You can add new configurations as well. For example, if you have selected the base table as Risk, then you can add configurations such as risk related to controls, which would be level 1. For level 2, you can configure a relationship between controls and issues. Parent record as source helps to identify the record from which the data is taken. The Source table and the Relationship cannot be the same in the Matrix report registry.
 
-    To configure column heads for the matrix report, see, [Configure target table fields as columns for matrix report](matrix-report-relationship-audit-ws.md).
+    To configure column heads for the matrix report, see, [Configure target table fields as columns for matrix report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/matrix-report-relationship-audit-ws.md).
 
 

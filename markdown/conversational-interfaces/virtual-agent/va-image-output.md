@@ -2,6 +2,7 @@
 title: Image bot response control
 description: Use the Image bot response control in a Virtual Agent topic to upload and display an image from a URL link. The image aspect ratio determines how the image is sized in the bot chat bubble.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-image-output.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -46,7 +47,7 @@ The URL link to an image file you want to include in the conversation. To set a 
 
  After the image is uploaded, the URL link is included in the**Response Properties** sheet:
 
- ![Uploaded link shown in the property sheet.](../images/va-upload-image-with-link-example.png)
+ \[Omitted image "va-upload-image-with-link-example.png"\] Alt text: Uploaded link shown in the property sheet.
 
  Click the link to view the image.
 
@@ -60,7 +61,7 @@ Image alt text
 
 </td><td>
 
-Alternative, screen-readable text included for accessibility. This text is used along with the image. Enter the text using the text field, data pill, or script. For more information about using data pills or scripts, see [Virtual Agent Designer controls](../concept/virtual-agent-controls.md).
+Alternative, screen-readable text included for accessibility. This text is used along with the image. Enter the text using the text field, data pill, or script. For more information about using data pills or scripts, see [Virtual Agent Designer controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/virtual-agent-controls.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -95,7 +96,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 |WhatsApp \(powered by Twilio\)|Supported|File size limits may vary. For details, see the WhatsApp documentation.|
 |WhatsApp|Supported|Only JPEG and PNG file types are supported with a maximum limit of 5 MB.|
 |Apple Messages for Business|Supported|None|
-|Alexa \(Voice\)|Partial support|Supported on devices with screens. For nonscreen devices, the user receives a message: `We found an image`. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](../concept/va-settings-for-alexa.md).|
+|Alexa \(Voice\)|Partial support|Supported on devices with screens. For nonscreen devices, the user receives a message: `We found an image`. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-settings-for-alexa.md).|
 
 ## Example Image bot response control
 
@@ -111,16 +112,16 @@ Image bot response output
 
 </th></tr></thead><tbody><tr><td rowspan="2">
 
-![Basic properties include node name, the URL link to the image, and image alt text.](../images/va-image-response-properties.png "Image bot response control basic properties")
+\[Omitted image "va-image-response-properties.png"\] Alt text: Basic properties include node name, the URL link to the image, and image alt text.
 
 </td><td>
 
-![A chat window shows a picture of a computer.](../images/va-image-response-web.png "Web UI Image bot response output")
+\[Omitted image "va-image-response-web.png"\] Alt text: A chat window shows a picture of a computer.
 
 </td></tr><tr><td>
 
-![A chat window shows a picture of a computer.](../images/va-image-response-mobile.png "ServiceNow mobile Image bot response output")
+\[Omitted image "va-image-response-mobile.png"\] Alt text: A chat window shows a picture of a computer.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Virtual Agent Designer bot responses](va-bot-responses.md)
+</table>**Parent Topic:**[Virtual Agent Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

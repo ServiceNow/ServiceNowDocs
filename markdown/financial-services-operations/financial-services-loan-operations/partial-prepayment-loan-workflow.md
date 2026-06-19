@@ -2,6 +2,7 @@
 title: Partial Prepayment loan workflow
 description: Learn how bank agents, using the Partial Prepayment loan workflow, resolve a service request for a partial prepayment of an outstanding loan with the bank before its maturity. The workflow applies to both business and personal loan service requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-loan-operations/partial-prepayment-loan-workflow.html
 release: zurich
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
@@ -23,7 +24,7 @@ A partial prepayment is directly applied to the outstanding principal component 
 
 The following diagram shows how the application helps bank agents resolve a Partial Prepayment service request.
 
-![Workflow that shows how a loan request for a partial prepayment is resolved using the Loan Operations application.](../image/partial-prepayment-workflow.png "Partial Prepayment loan workflow")
+\[Omitted image "partial-prepayment-workflow.png"\] Alt text: Workflow that shows how a loan request for a partial prepayment is resolved using the Loan Operations application.
 
 The following workflow routes the case and tasks for a Partial Prepayment service request to agents in different departments. The agents log in to the Workspace to work on the tasks in their queue.
 

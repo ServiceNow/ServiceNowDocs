@@ -2,6 +2,7 @@
 title: Submit an RMA request
 description: Submit a Return Merchandise Authorization \(RMA\) request to initiate an RMA process with your vendor. You can repair or replace a faulty asset.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/submit-rma-request.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -29,7 +30,7 @@ The asset, inventory\_user, or itil role can only access the reports of the RMA 
 
 3.  In the **Asset** field on the Add Row form, select the defective asset or consumable for which you want to initiate the RMA request.
 
-    You can select multiple rows of assets and consumables. You can't select an excluded asset. For more information about asset exclusion, see [Hardware Asset Management license exclusion](../concept/ham-license-exclusion.md).
+    You can select multiple rows of assets and consumables. You can't select an excluded asset. For more information about asset exclusion, see [Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/ham-license-exclusion.md).
 
     If you select a consumable, a **Quantity** field appears beside the **Asset** field. In the **Quantity** field, enter the number of defective consumables for which you want to initiate the RMA.
 
@@ -42,5 +43,5 @@ The asset, inventory\_user, or itil role can only access the reports of the RMA 
 
 The RMA request is created. A confirmation message appears with the RMA request number.
 
-**Parent Topic:**[Manage RMA requests](../concept/manage-rma-req.md)
+**Parent Topic:**[Manage RMA requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-rma-req.md)
 

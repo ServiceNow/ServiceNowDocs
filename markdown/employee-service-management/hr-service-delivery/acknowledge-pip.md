@@ -2,6 +2,7 @@
 title: Acknowledge a PIP request
 description: Acknowledge the PIP request that is initiated by your manager. Complete other tasks that have been assigned to you.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/acknowledge-pip.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

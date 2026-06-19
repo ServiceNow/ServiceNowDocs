@@ -2,6 +2,7 @@
 title: Library functions
 description: Library functions can speed implementation and reduce maintenance costs by enabling code reuse across rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/library\_functions.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -52,7 +53,7 @@ This setting can be toggled at any time.
 
 Library functions can be found in the function library \(in the Utilities section\).
 
-![Function library](../images/cpq-library-functions-function-library.png)
+\[Omitted image "cpq-library-functions-function-library.png"\] Alt text: Function library
 
 To add a function:
 
@@ -61,11 +62,11 @@ To add a function:
 
 Script content:
 
-![Sccript parameters](../images/cpq-library-functions-script-content.png)
+\[Omitted image "cpq-library-functions-script-content.png"\] Alt text: Sccript parameters
 
 Calling the function:
 
-![Code](../images/cpq-library-functions-calling-the-function.png)
+\[Omitted image "cpq-library-functions-calling-the-function.png"\] Alt text: Code
 
 ## Limitations and technical considerations
 

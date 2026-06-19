@@ -2,6 +2,7 @@
 title: Solving errors on dashboards moved with update sets
 description: When you move a dashboard with an update set, if errors are shown on the Update Set Preview Problems tab of the Retrieved Update Set page, follow the instructions for each error to solve these problems.When you move a dashboard with an update set, the following error may occur: 'Could not find a record in sys\_grid\_canvas for column canvas\_page referenced in this update'. To solve this error, move the canvas page from the source instance to the target instance.When you attempt to move a dashboard in a scoped app, the move fails when you try to retrieve the update set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/troubleshooting-dashboard-update-set.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -25,11 +26,11 @@ Role required: admin.
 
 ### Procedure
 
-1.  In the **Update Set Preview Problems** related list, click the information icon \(![](../../../common/image/Form_ReferenceLookupIcon.png)\) next to the error.![Update Set Preview Problems tab with two errors.](../image/update-set-preview-problems.png)
+1.  In the **Update Set Preview Problems** related list, click the information icon \(\[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text:\) next to the error.\[Omitted image "update-set-preview-problems.png"\] Alt text: Update Set Preview Problems tab with two errors.
 
 2.  In the pa\_tabs record payload, copy the sys\_id associated with the canvas\_page field.
 
-    ![Filter grid canvas on Sys ID](../image/filter-on-sys-id.png)
+    \[Omitted image "filter-on-sys-id.png"\] Alt text: Filter grid canvas on Sys ID
 
 3.  In the source instance, navigate to sys\_grid\_canvas.list.
 
@@ -39,7 +40,7 @@ Role required: admin.
 
 6.  Transfer the update set to the target instance using standard update set functionality.
 
-    For more information, see [Retrieve an update set](https://www.servicenow.com/docs/access?context=t_RetrieveAnUpdateSet&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+    For more information, see Retrieve an update set.
 
 7.  Repeat this task for all update set preview problems that have this error.
 

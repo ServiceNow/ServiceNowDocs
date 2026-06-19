@@ -2,6 +2,7 @@
 title: Create a Coupa integration profile
 description: Create a Coupa integration profile to verify the status of the procurement-scheduled jobs, entitlements, and entitlement import errors created through this profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/procurement/create-coupa-int-profile.html
 release: zurich
 product: Procurement
 classification: procurement
@@ -128,7 +129,7 @@ This field is visible and set to true only when the integration profile is publi
 </td></tr></tbody>
 </table>4.  Select **Save**.
 
-5.  Select the Preview icon ![Preview icon](../../software-asset-management2/image/preview-icon.png) next to the Connection &amp; Credentials field.
+5.  Select the Preview icon \[Omitted image "preview-icon.png"\] Alt text: Preview icon next to the Connection &amp; Credentials field.
 
     You get redirected to the Connection &amp; Credential Aliases form.
 
@@ -240,5 +241,5 @@ Verify if the scheduled job **ITAM - Sync Coupa purchase orders** has run succes
 
 Create software requisitions directly on Coupa through the ServiceNow Procurement application to purchase software.
 
-If you want to delete the Coupa integration profile, see [Deleting an external procurement application integration profile](../concept/delete-ext-profile.md).
+If you want to delete the Coupa integration profile, see [Deleting an external procurement application integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/procurement/delete-ext-profile.md).
 

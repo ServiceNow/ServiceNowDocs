@@ -2,6 +2,7 @@
 title: PMO dashboard
 description: The PMO dashboard provides comprehensive reports to the portfolio and program managers. The dashboard uses Platform Analytics to provide a trend of historical data as well as regular reports. It gives an overview of your investments, provides a pipeline view of upcoming intake and a calendar view of upcoming dates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/ppm-collaboration/pmo-dashboard.html
 release: zurich
 product: PPM Collaboration
 classification: ppm-collaboration
@@ -24,7 +25,7 @@ The PMO dashboard provides comprehensive reports to the portfolio and program ma
 
 This animation shows all of the data visualizations in the PMO dashboard tab by tab. They are described in the Data Visualizations section of this topic.
 
-![Animated tour of the PMO Dashboard in Next experience UI](../image/pmo-dashboard.gif)
+\[Omitted image "pmo-dashboard.gif"\] Alt text: Animated tour of the PMO Dashboard in Next experience UI
 
 ## End user and roles
 
@@ -210,45 +211,45 @@ The dashboard includes the following visualizations:
 
 |Title|Type|Description|
 |-----|----|-----------|
-|Benefit Plans by Category|Pie chart ![Pie chart](../../performance-analytics/image/donut-icon.png)|Breakdown of the number of benefit plans in each category for active projects.|
-|Projects Planned Benefits by Category \(Monetary\)|Horizontal bar chart ![Horizontal bar chart](../../performance-analytics/image/horizontal-bar.png)|Total planned financial benefits in each category for active projects.|
-|Projects by Business Unit|Pie chart ![Pie chart](../../performance-analytics/image/donut-icon.png)|Breakdown of the number of active projects in each business unit.|
-|Projects by Investment Type|Pie chart ![Pie chart](../../performance-analytics/image/donut-icon.png)|Breakdown of the number of active projects grouped by investment type.|
-|Projects by Investment Class|Pie chart ![Pie chart](../../performance-analytics/image/donut-icon.png)|Breakdown of the number of active projects grouped by investment class.|
-|Projects by Priority|Horizontal bar chart ![Horizontal bar chart](../../performance-analytics/image/horizontal-bar.png)|Breakdown of the number of active projects grouped by priority.|
-|Hours by Project Time Category|Line chart![Line chart](../../performance-analytics/image/line-icon.png)|Trend of total hours reported in time cards for each Project Time Category. The trend is displayed from the beginning of last quarter until the end of next quarter.|
-|Active Demands|Single score ![Single-score](../../performance-analytics/image/single-score.png)|Number of demands in Submitted, Screened, Qualified, and Approved state with no project associated.|
-|Demands – No Manager|Single score ![Single-score](../../performance-analytics/image/single-score.png)|Number of active demands with no associated demand manager.|
-|Demands – No Business Case|Single score ![Single-score](../../performance-analytics/image/single-score.png)|Number of active demands with no business case.|
-|Demands – No Planned Cost|Single score ![Single-score](../../performance-analytics/image/single-score.png)|Number of active demands with zero total planned cost.|
-|Demands – No Start Date|Single score ![Single-score](../../performance-analytics/image/single-score.png)|Number of active demands with no start date.|
-|Demands – No Investment Class|Single score ![Single-score](../../performance-analytics/image/single-score.png)|Number of active demands with no associated investment class.|
-|Demands – No Budget Cost|Single score ![Single-score](../../performance-analytics/image/single-score.png)|Number of active demands with zero capital and zero operating budget.|
-|Demands – No Due Date|Single score ![Single-score](../../performance-analytics/image/single-score.png)|Number of active demands with no due date.|
-|Demands – No Investment Type|Single score ![Single-score](../../performance-analytics/image/single-score.png)|Number of active demands with no associated investment type.|
-|Demands – No Financial Benefits|Single score ![Single-score](../../performance-analytics/image/single-score.png)|Number of active demands with no or zero financial benefit.|
-|Demands – No Portfolio|Single score ![Single-score](../../performance-analytics/image/single-score.png)|Number of active demands with no associated portfolio.|
-|Demands – No Program|Single score ![Single-score](../../performance-analytics/image/single-score.png)|Number of active demands with no associated program.|
-|Demands – No ROI|Single score ![Single-score](../../performance-analytics/image/single-score.png)|Number of active demands with no Return on Investment.|
-|Active Projects|Single score ![Single-score](../../performance-analytics/image/single-score.png)|Number of projects with actual end date &lt;after today&gt; or &lt;empty&gt;.|
-|Projects – No Manager|Single score ![Single-score](../../performance-analytics/image/single-score.png)|Number of active projects with no associated project manager.|
-|Projects – No Business Case|Single score ![Single-score](../../performance-analytics/image/single-score.png)|Number of active projects with no business case.|
-|Projects – No Planned Cost|Single score ![Single-score](../../performance-analytics/image/single-score.png)|Number of active projects with zero total planned cost.|
-|Projects – No Task|Single score ![Single-score](../../performance-analytics/image/single-score.png)|Number of active projects with no associated project tasks.|
-|Projects – No Investment Class|Single score ![Single-score](../../performance-analytics/image/single-score.png)|Number of active projects with no associated investment class.|
-|Projects – No Budget Cost|Single score ![Single-score](../../performance-analytics/image/single-score.png)|Number of active projects with zero budget cost.|
-|Projects – No Description|Single score ![Single-score](../../performance-analytics/image/single-score.png)|Number of active projects that have no description.|
-|Projects – No Investment Type|Single score ![Single-score](../../performance-analytics/image/single-score.png)|Number of active projects with no associated investment type.|
-|Projects – No Planned Benefit|Single score ![Single-score](../../performance-analytics/image/single-score.png)|Number of active projects with zero planned benefit.|
-|Projects – No Portfolio|Single score ![Single-score](../../performance-analytics/image/single-score.png)|Number of active projects with no associated portfolio.|
-|Projects – No Program|Single score ![Single-score](../../performance-analytics/image/single-score.png)|Number of active projects with no associated program.|
-|Projects – No ROI|Single score ![Single-score](../../performance-analytics/image/single-score.png)|Number of active projects with no planned Return on Investment.|
-|Planned vs Budget vs Actual Cost|Bar chart ![Bar chart](../../performance-analytics/image/column-icon.png)|Comparison of total planned, budget, and actual costs for active projects grouped by fiscal period.|
-|Allocated vs Actual Hours|Step line chart![Step Line chart](../../performance-analytics/image/SteplineReportIcon.png)|Monthly trends of total allocated and actual hours for resource plans associated with active projects.|
-|Monetary Planned vs Actual Benefits|Bar chart ![Bar chart](../../performance-analytics/image/column-icon.png)|Comparison of total planned and actual financial benefits for active projects grouped by fiscal period.|
-|Non-monetary Planned vs Actual Benefits|Bar chart ![Bar chart](../../performance-analytics/image/column-icon.png)|Comparison of total planned and actual non-financial benefits for active projects grouped by fiscal period.|
-|Monetary Planned vs Actual Benefits by Category|Bar chart ![Bar chart](../../performance-analytics/image/column-icon.png)|Comparison of total planned and actual financial benefits in each benefit plan category for active projects.|
-|Project Completion Calendar|Calendar![Calender](../../performance-analytics/image/CalenderReportIcon.png)|Calender view of planned end dates of projects, project tasks, and milestones.|
+|Benefit Plans by Category|Pie chart \[Omitted image "donut-icon.png"\] Alt text: Pie chart|Breakdown of the number of benefit plans in each category for active projects.|
+|Projects Planned Benefits by Category \(Monetary\)|Horizontal bar chart \[Omitted image "horizontal-bar.png"\] Alt text: Horizontal bar chart|Total planned financial benefits in each category for active projects.|
+|Projects by Business Unit|Pie chart \[Omitted image "donut-icon.png"\] Alt text: Pie chart|Breakdown of the number of active projects in each business unit.|
+|Projects by Investment Type|Pie chart \[Omitted image "donut-icon.png"\] Alt text: Pie chart|Breakdown of the number of active projects grouped by investment type.|
+|Projects by Investment Class|Pie chart \[Omitted image "donut-icon.png"\] Alt text: Pie chart|Breakdown of the number of active projects grouped by investment class.|
+|Projects by Priority|Horizontal bar chart \[Omitted image "horizontal-bar.png"\] Alt text: Horizontal bar chart|Breakdown of the number of active projects grouped by priority.|
+|Hours by Project Time Category|Line chart\[Omitted image "line-icon.png"\] Alt text: Line chart|Trend of total hours reported in time cards for each Project Time Category. The trend is displayed from the beginning of last quarter until the end of next quarter.|
+|Active Demands|Single score \[Omitted image "single-score.png"\] Alt text: Single-score|Number of demands in Submitted, Screened, Qualified, and Approved state with no project associated.|
+|Demands – No Manager|Single score \[Omitted image "single-score.png"\] Alt text: Single-score|Number of active demands with no associated demand manager.|
+|Demands – No Business Case|Single score \[Omitted image "single-score.png"\] Alt text: Single-score|Number of active demands with no business case.|
+|Demands – No Planned Cost|Single score \[Omitted image "single-score.png"\] Alt text: Single-score|Number of active demands with zero total planned cost.|
+|Demands – No Start Date|Single score \[Omitted image "single-score.png"\] Alt text: Single-score|Number of active demands with no start date.|
+|Demands – No Investment Class|Single score \[Omitted image "single-score.png"\] Alt text: Single-score|Number of active demands with no associated investment class.|
+|Demands – No Budget Cost|Single score \[Omitted image "single-score.png"\] Alt text: Single-score|Number of active demands with zero capital and zero operating budget.|
+|Demands – No Due Date|Single score \[Omitted image "single-score.png"\] Alt text: Single-score|Number of active demands with no due date.|
+|Demands – No Investment Type|Single score \[Omitted image "single-score.png"\] Alt text: Single-score|Number of active demands with no associated investment type.|
+|Demands – No Financial Benefits|Single score \[Omitted image "single-score.png"\] Alt text: Single-score|Number of active demands with no or zero financial benefit.|
+|Demands – No Portfolio|Single score \[Omitted image "single-score.png"\] Alt text: Single-score|Number of active demands with no associated portfolio.|
+|Demands – No Program|Single score \[Omitted image "single-score.png"\] Alt text: Single-score|Number of active demands with no associated program.|
+|Demands – No ROI|Single score \[Omitted image "single-score.png"\] Alt text: Single-score|Number of active demands with no Return on Investment.|
+|Active Projects|Single score \[Omitted image "single-score.png"\] Alt text: Single-score|Number of projects with actual end date &lt;after today&gt; or &lt;empty&gt;.|
+|Projects – No Manager|Single score \[Omitted image "single-score.png"\] Alt text: Single-score|Number of active projects with no associated project manager.|
+|Projects – No Business Case|Single score \[Omitted image "single-score.png"\] Alt text: Single-score|Number of active projects with no business case.|
+|Projects – No Planned Cost|Single score \[Omitted image "single-score.png"\] Alt text: Single-score|Number of active projects with zero total planned cost.|
+|Projects – No Task|Single score \[Omitted image "single-score.png"\] Alt text: Single-score|Number of active projects with no associated project tasks.|
+|Projects – No Investment Class|Single score \[Omitted image "single-score.png"\] Alt text: Single-score|Number of active projects with no associated investment class.|
+|Projects – No Budget Cost|Single score \[Omitted image "single-score.png"\] Alt text: Single-score|Number of active projects with zero budget cost.|
+|Projects – No Description|Single score \[Omitted image "single-score.png"\] Alt text: Single-score|Number of active projects that have no description.|
+|Projects – No Investment Type|Single score \[Omitted image "single-score.png"\] Alt text: Single-score|Number of active projects with no associated investment type.|
+|Projects – No Planned Benefit|Single score \[Omitted image "single-score.png"\] Alt text: Single-score|Number of active projects with zero planned benefit.|
+|Projects – No Portfolio|Single score \[Omitted image "single-score.png"\] Alt text: Single-score|Number of active projects with no associated portfolio.|
+|Projects – No Program|Single score \[Omitted image "single-score.png"\] Alt text: Single-score|Number of active projects with no associated program.|
+|Projects – No ROI|Single score \[Omitted image "single-score.png"\] Alt text: Single-score|Number of active projects with no planned Return on Investment.|
+|Planned vs Budget vs Actual Cost|Bar chart \[Omitted image "column-icon.png"\] Alt text: Bar chart|Comparison of total planned, budget, and actual costs for active projects grouped by fiscal period.|
+|Allocated vs Actual Hours|Step line chart\[Omitted image "SteplineReportIcon.png"\] Alt text: Step Line chart|Monthly trends of total allocated and actual hours for resource plans associated with active projects.|
+|Monetary Planned vs Actual Benefits|Bar chart \[Omitted image "column-icon.png"\] Alt text: Bar chart|Comparison of total planned and actual financial benefits for active projects grouped by fiscal period.|
+|Non-monetary Planned vs Actual Benefits|Bar chart \[Omitted image "column-icon.png"\] Alt text: Bar chart|Comparison of total planned and actual non-financial benefits for active projects grouped by fiscal period.|
+|Monetary Planned vs Actual Benefits by Category|Bar chart \[Omitted image "column-icon.png"\] Alt text: Bar chart|Comparison of total planned and actual financial benefits in each benefit plan category for active projects.|
+|Project Completion Calendar|Calendar\[Omitted image "CalenderReportIcon.png"\] Alt text: Calender|Calender view of planned end dates of projects, project tasks, and milestones.|
 
-**Parent Topic:**[Project Portfolio Management Platform Analytics Solutions](project-portfolio-content-pack.md)
+**Parent Topic:**[Project Portfolio Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/project-portfolio-content-pack.md)
 

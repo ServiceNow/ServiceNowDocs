@@ -2,6 +2,7 @@
 title: Install Indoor Mapping
 description: Install the Indoor Mapping application \(sn\_map\_core\) with dependent plugins.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/indoor-mapping/install-indoor-mapping.html
 release: zurich
 product: Indoor Mapping
 classification: indoor-mapping
@@ -32,7 +33,7 @@ The following items are installed with Indoor Mapping:
 -   Tables
 -   Scheduled jobs
 
-For more information, see [Map components installed with Indoor Mapping](../reference/components-installed-with-indoor-mapping.md).
+For more information, see [Map components installed with Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/components-installed-with-indoor-mapping.md).
 
 ## Procedure
 
@@ -47,9 +48,9 @@ For more information, see [Map components installed with Indoor Mapping](../refe
 3.  Select **Install**.
 
 
-**Parent Topic:**[Configure Indoor Mapping](../concept/configure-ind-mapping.md)
+**Parent Topic:**[Configure Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/configure-ind-mapping.md)
 
-**Previous topic:**[Configure Indoor Mapping](../concept/configure-ind-mapping.md)
+**Previous topic:**[Configure Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/configure-ind-mapping.md)
 
-**Next topic:**[Configure your map instance data](configure-map-data.md)
+**Next topic:**[Configure your map instance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/configure-map-data.md)
 

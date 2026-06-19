@@ -2,7 +2,10 @@
 title: Optimization
 description: Optimize your processes by using the Customer Service Management application. You can analyze which processes are relevant to your key performance indicators \(KPIs\), identify the bottlenecks for your customer service cases, learn how to optimize your workforce, and manage your teams more efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/optimization.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -26,7 +29,7 @@ Process mining enables you to do these tasks:
 
 The following diagram shows the benefits of Process Mining, including creating process maps, analyzing bottlenecks, and finding new areas of improvement and automation.
 
-![Create process maps for cases, analyze bottlenecks, find areas of improvement, and take necessary action to optimize.](../image/Process_optimization.png "Process mining steps")
+\[Omitted image "Process\_optimization.png"\] Alt text: Create process maps for cases, analyze bottlenecks, find areas of improvement, and take necessary action to optimize.
 
 Key Features of process mining include:
 
@@ -55,8 +58,8 @@ Key Features of process mining include:
 
 For more information about enabling the Process Mining content pack, see the following topics:
 
--   [Activate Process Mining Content Packs](https://www.servicenow.com/docs/access?context=po-content-pack&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
--   [Integrating with Process Mining](process-opt-csm.md).
+-   Activate Process Mining Content Packs.
+-   [Integrating with Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/process-opt-csm.md).
 
 ## Workforce Optimization
 
@@ -73,5 +76,5 @@ The advantages of Workforce Optimization for Customer Service include:
 -   Focus on all engagement channels and provide real-time help to your team members so that they can provide a better customer experience.
 -   Capture all the relevant data and apply these insights and guidance to your team.
 
-To learn more about the Workforce Optimization for Customer Service application, see [Workforce Optimization for Customer Service](../../workforce-optimization-for-customer-service-configurable/concept/configurable-wfo-cs.md).
+To learn more about the Workforce Optimization for Customer Service application, see [Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configurable-wfo-cs.md).
 

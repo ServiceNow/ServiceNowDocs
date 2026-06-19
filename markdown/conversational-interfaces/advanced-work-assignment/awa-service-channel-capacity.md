@@ -2,6 +2,7 @@
 title: Service channel capacity and utilization
 description: In Advanced Work Assignment, capacity is the number of work items automatically assigned to agents supporting a service channel. Utilization is the condition that identifies the work item states supported in the channel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/awa-service-channel-capacity.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -24,5 +25,5 @@ Managers can override the default capacity for:
 
 If an agent already has a capacity override, setting the override again updates the existing capacity for that agent. Override capacity is stored in the Agent Capacity \(awa\_agent\_capacity\) table.
 
-**Parent Topic:**[Exploring Advanced Work Assignment](awa-overview.md)
+**Parent Topic:**[Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-overview.md)
 

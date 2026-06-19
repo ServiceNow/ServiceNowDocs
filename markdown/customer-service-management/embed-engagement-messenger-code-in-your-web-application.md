@@ -2,7 +2,10 @@
 title: Embed Engagement Messenger in your web application
 description: Embed the source code of the messenger module that you configured in your website so that you can enable your customers to start using Engagement Messenger in your website.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/embed-engagement-messenger-code-in-your-web-application.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -15,7 +18,7 @@ Embed the source code of the messenger module that you configured in your websit
 
 ## Before you begin
 
--   [Activate an Engagement Messenger module](activate-engagement-messenger-module.md).
+-   [Activate an Engagement Messenger module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/activate-engagement-messenger-module.md).
 -   Role required: sn\_csm\_ec.ec\_admin
 
 ## About this task
@@ -44,15 +47,15 @@ Next, depending on the authentication type that you selected for your configured
 
 7.  For a messenger module with OIDC-based or SAMl-based authentication, complete the following configuration.
 
-<table id="choicetable_vhq_vtl_p4b"><thead><tr><th align="left" id="d92030e153">
+<table id="choicetable_vhq_vtl_p4b"><thead><tr><th align="left" id="d82072e153">
 
 Authentication type
 
-</th><th align="left" id="d92030e156">
+</th><th align="left" id="d82072e156">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d92030e162">
+</th></tr></thead><tbody><tr><td id="d82072e162">
 
 **OIDC-based**
 
@@ -67,7 +70,7 @@ This function enables authenticated users to log in to Engagement Messenger seam
 
 This function enables authenticated users to seamlessly log out from Engagement Messenger and your website.
 
-</td></tr><tr><td id="d92030e202">
+</td></tr><tr><td id="d82072e202">
 
 **SAML-based**
 
@@ -88,7 +91,7 @@ This function enables authenticated users to seamlessly log out from Engagement 
 
     For example, if your customer support portal is **https://www.example.com/support**, then update the code to **guestWalkupBaseUrl = https://www.example.com/support**
 
-    ![Configure Engagement Messenger module with the help of the highlighted steps. For the implementation, use the embed code to fix any unauthenticated user issues.](../image/em-embed-code-with-walk-up.png "Copy Engagement Messenger code")
+    \[Omitted image "em-embed-code-with-walk-up.png"\] Alt text: Configure Engagement Messenger module with the help of the highlighted steps. For the implementation, use the embed code to fix any unauthenticated user issues.
 
 9.  To modify the embed code to set the preferred language in which Engagement Messenger is displayed, do one of the following.
 
@@ -105,7 +108,7 @@ This function enables authenticated users to seamlessly log out from Engagement 
 
 11. Modify the embed code of Engagement Messenger to integrate Proactive Recommendations on a web page.
 
-    For more information on using Engagement Messenger to integrate Proactive Recommendations on a web page, see [Use Engagement Messenger embed Code to integrate proactive recommendations on a web page](em-contextual-help.md).
+    For more information on using Engagement Messenger to integrate Proactive Recommendations on a web page, see [Use Engagement Messenger embed Code to integrate proactive recommendations on a web page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/em-contextual-help.md).
 
 
 ## What to do next

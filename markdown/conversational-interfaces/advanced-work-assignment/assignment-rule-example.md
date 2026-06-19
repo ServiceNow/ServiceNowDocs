@@ -2,6 +2,7 @@
 title: Create an assignment rule for change requests
 description: Create an assignment rule in Advanced Work Assignment that assigns change requests to agents who are available to do the tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/assignment-rule-example.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -38,5 +39,5 @@ Role required: awa\_admin or admin
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Set up a custom service channel](setup-custom-channel.md)
+**Parent Topic:**[Set up a custom service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/setup-custom-channel.md)
 

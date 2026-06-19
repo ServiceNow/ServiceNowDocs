@@ -2,6 +2,7 @@
 title: Property settings for Now Assist for CMDB
 description: List of system properties for the agents used by Now Assist for CMDB agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-data-fdn-properties.html
 release: zurich
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
@@ -69,7 +70,7 @@ sn\_cmdb\_gen\_ai.ownership\_evaluation\_health\_score\_thresholds
 
 The CMDB data governance agentic workflow determines the percentage of CIs in the specified class that have values for the **Managed by group** attribute. The process returns health scores of `Poor`, `Average`, or `Healthy`.
 
- The default setting of `40,60,80` returns a score of `Poor` for less than 40%, `Average` for 60%-79%, and `Healthy` for 80% and above.
+ The default setting of `40,60,80` returns a score of `Poor` for less than 40%, `Average` for 60%-79%, and `Healthy` for 80% and higher.
 
  Default: 40,60,80
 
@@ -88,7 +89,7 @@ sn\_nowassist\_sgc.kb\_filtering\_strategy
 
 </td><td>
 
-Set the knowledge article filtering strategy for retrieving articles with Now Assist for SGC. -   Type: choice list
+Set the knowledge article filtering strategy for retrieving articles with Now Assist for SGC. -   Type: list
 -   Default value: `strict`
 
 Choices:
@@ -103,5 +104,5 @@ Retrieves knowledge articles from other connector categories, in addition to the
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Now Assist for CMDB reference](../../configuration-management/concept/now-assist-cmdb-reference.md)
+</table>**Parent Topic:**[Now Assist for CMDB reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-reference.md)
 

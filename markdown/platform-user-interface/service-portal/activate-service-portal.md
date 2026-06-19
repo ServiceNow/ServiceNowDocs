@@ -2,6 +2,7 @@
 title: Plugins installed with Service Portal
 description: The following plugins are installed with the Service Portal for Enterprise Service Management \[com.glide.service-portal.esm\] plugin, which is a ServiceNow AI Platform feature that is active by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/activate-service-portal.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -22,7 +23,7 @@ The following plugins are installed with the Service Portal for Enterprise Servi
 -   Service Portal Designer \[com.glide.service-portal.designer\]
 -   Service Portal Surveys \[com.glide.service-portal.survey\]
 
-If Service Portal \[com.glide.service-portal.esm\] is not active on your instance, you can activate by following the [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) instructions.
+If Service Portal \[com.glide.service-portal.esm\] is not active on your instance, you can activate by following the Activate a plugin instructions.
 
-**Parent Topic:**[Service Portal reference](reference-service-portal.md)
+**Parent Topic:**[Service Portal reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/reference-service-portal.md)
 

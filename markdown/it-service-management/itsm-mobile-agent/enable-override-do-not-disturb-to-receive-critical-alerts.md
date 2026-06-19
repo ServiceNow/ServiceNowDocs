@@ -2,6 +2,7 @@
 title: Enable Override do not disturb to receive critical alerts
 description: Enable the Override do not disturb to receive critical push notifications feature for ITSM Mobile Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/enable-override-do-not-disturb-to-receive-critical-alerts.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

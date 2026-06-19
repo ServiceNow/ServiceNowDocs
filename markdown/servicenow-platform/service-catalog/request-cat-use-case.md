@@ -2,6 +2,7 @@
 title: Service Catalog and CSDM tables
 description: Service Catalog manages and uses CSDM tables. Several ServiceNow products benefit from and add value to Service Catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/request-cat-use-case.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -27,7 +28,7 @@ The CIs can include:
 -   PC Software Item \(pc\_software\_cat\_item\): Submits software asset requests included in Asset Management workflows.
 -   Record Producer \(sc\_cat\_item\_producer\): Submits requests or generates records other than Request Management tables for services that aren't serviced by Request Management \(for example, HR Cases, Facilities Requests, or Legal Requests\).
 
-![CSDM tables managed by Request Catalog.](../image/csdm-v5-tables-managed-by-req-cat.png "CSDM tables managed by the Service Catalog")
+\[Omitted image "csdm-v5-tables-managed-by-req-cat.png"\] Alt text: CSDM tables managed by Request Catalog.
 
 ## CSDM tables used by the Service Catalog
 
@@ -47,7 +48,7 @@ The CIs can include:
     |Company \(core\_company\)|sc\_cat\_item\_company\_mtom, sc\_cat\_item\_company\_no\_mtom|User criteria|
 
 
-![CSDM tables used by Request Catalog.](../image/csdm-v5-tables-used-by-req-cat.png "CSDM tables used by the Service Catalog")
+\[Omitted image "csdm-v5-tables-used-by-req-cat.png"\] Alt text: CSDM tables used by Request Catalog.
 
 ## Products that benefit from the Service Catalog
 
@@ -68,5 +69,5 @@ The CIs can include:
     Exposes the creator \(Record Producer\) of customer service cases and displays the Record Producer in the relevant self-service catalogs \(for example, Self-service Portal, Mobile, and Virtual Agent\).
 
 
-**Parent Topic:**[Service Catalog and CSDM](../concept/request-cat-use-case-product-view.md)
+**Parent Topic:**[Service Catalog and CSDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/request-cat-use-case-product-view.md)
 

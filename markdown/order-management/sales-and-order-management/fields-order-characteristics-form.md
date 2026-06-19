@@ -2,6 +2,7 @@
 title: Order Characteristics form
 description: The Order Characteristics form enables you to review and modify order characteristics for a customer or service order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/fields-order-characteristics-form.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -56,5 +57,5 @@ Characteristic option
 Name of the characteristic option. For example, Unlimited, for the Data Pack Unlimited option. To view and update the characteristic option details, select the characteristic option. These values include the name of the characteristic option and the associated characteristics.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Order Management reference](order-mgt-reference.md)
+</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-mgt-reference.md)
 

@@ -2,6 +2,7 @@
 title: Generative AI Controller tables
 description: Generative AI Controller use dedicated tables to log AI activities and track Now Assist usage across Now Assist capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/generative-ai-controller/generative-ai-controller-tables.html
 release: zurich
 product: Generative AI Controller
 classification: generative-ai-controller

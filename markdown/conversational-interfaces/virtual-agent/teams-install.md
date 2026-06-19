@@ -2,6 +2,7 @@
 title: Install Conversational Integration with Microsoft Teams
 description: You can install the Microsoft Teams \(sn\_va\_teams\) application to integrate with Now Virtual Agent if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/teams-install.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -33,7 +34,7 @@ You can install the Microsoft Teams \(sn\_va\_teams\) application to integrate w
 
     **Important:** Installing the Conversational Integration with Microsoft Teams app from the ServiceNow Store activates the app for integration on your ServiceNow instance. If you have not installed the integration app, the Microsoft Teams app is listed in the Available Channels section.
 
-    ![The Channels and integrations page displays a card with a Get Teams plugin link. For details, select the Learn more with a step-by-step guide link.](../images/msteams-pre-install.png "Channels and integrations page before Conversational Integration with Microsoft Teams apps is installed")
+    \[Omitted image "msteams-pre-install.png"\] Alt text: The Channels and integrations page displays a card with a Get Teams plugin link. For details, select the Learn more with a step-by-step guide link.
 
     After you install the Conversational Integration with Microsoft Teams app, Microsoft Teams is seen in the Integrations section, and you can proceed with the configuration.
 
@@ -54,7 +55,7 @@ Review these guidelines for using Virtual Agent with Microsoft Teams.
 
 2.  On the Channels and integrations page, in the Microsoft Teams card, select **Get Teams plugin**.
 
-    ![Microsoft Teams tile on Channels and integrations, with Get Teams Plugin button highlighted.](../images/get-teams-plugin.png)
+    \[Omitted image "get-teams-plugin.png"\] Alt text: Microsoft Teams tile on Channels and integrations, with Get Teams Plugin button highlighted.
 
     You’re redirected to the Conversational Integration with Microsoft Teams ServiceNow Store page.
 
@@ -75,12 +76,12 @@ Review these guidelines for using Virtual Agent with Microsoft Teams.
 
 ## What to do next
 
-[Integrate ServiceNow Virtual Agent with Microsoft Teams](add-msteams-snow-va-bot.md).
+[Integrate ServiceNow Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/add-msteams-snow-va-bot.md).
 
--   **[Activate Now Assist in Virtual Agent for Microsoft Teams](activate-na-va-msteams.md)**  
+-   **[Activate Now Assist in Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/activate-na-va-msteams.md)**  
 Add Now Assist in Virtual Agent to your Microsoft Teams and Microsoft Copilot bot.
--   **[Remove Conversational Integration with Microsoft Teams](uninstall_va_msteams.md)**  
+-   **[Remove Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/uninstall_va_msteams.md)**  
 Remove the integrations between your ServiceNow Virtual Agent bot or the Self-configured bots and Microsoft Teams to disassociate the app with your ServiceNow instance.
 
-**Parent Topic:**[Conversational Integration with Microsoft Teams](../concept/teams-conv-integration.md)
+**Parent Topic:**[Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/teams-conv-integration.md)
 

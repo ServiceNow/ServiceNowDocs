@@ -2,6 +2,7 @@
 title: Transaction Manager: Integrations
 description: Use integrations to exchange data with third-party sources, including Salesforce.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/transaction-manager-integrations.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,9 +26,9 @@ Before an integration is defined, the admin must define a connection to the thir
 
 To create a new connection, in the Utilities area of the Admin UI, click **Connections**. Then click **+ New** to display the New Connection page.
 
-![Connections screen](../images/cpq-txn-mgr-connections.jpeg)
+\[Omitted image "cpq-txn-mgr-connections.jpeg"\] Alt text: Connections screen
 
-![New connection screen](../images/cpq-txn-mgr-connection-new.jpeg)
+\[Omitted image "cpq-txn-mgr-connection-new.jpeg"\] Alt text: New connection screen
 
 ionsion
 
@@ -47,9 +48,9 @@ Use the Additional Headers field to add any additional header information that i
 
 To create a new integration, click **+ Add Integration**. The New Integration window appears. Give the new Integration a name and a variable name, and click **Save**.
 
-![Transaction screen](../images/cpq-txn-mgr-integrations.jpeg)
+\[Omitted image "cpq-txn-mgr-integrations.jpeg"\] Alt text: Transaction screen
 
-![New Integration screen](../images/cpq-txn-mgr-integration-new.jpeg)
+\[Omitted image "cpq-txn-mgr-integration-new.jpeg"\] Alt text: New Integration screen
 
 The Integration Editor page opens. Continue defining the new integration by configuring the following settings:
 
@@ -60,11 +61,11 @@ The Integration Editor page opens. Continue defining the new integration by conf
 -   **Async**: This toggle allows you to run the query asynchronously in the background so that the user can continue working.
 -   **Headers**: Set header key-value pairs, utilize static text, header-level Transaction Manager fields using simple handlebar syntax, or a combination of both.`{{txn.fieldname}}`
 
-![Integration screen](../images/cpq-txn-mgr-get-oppty-id.png)
+\[Omitted image "cpq-txn-mgr-get-oppty-id.png"\] Alt text: Integration screen
 
 Next, you need to define the connection to the endpoint. Here you choose from a list of the connections that you previously created in the Utilities area to define which third-party site to connect to for this integration.
 
-![Integration screen](../images/cpq-txn-mgr-get-opportunity-id.jpeg)
+\[Omitted image "cpq-txn-mgr-get-opportunity-id.jpeg"\] Alt text: Integration screen
 
 Finally, you need to define the transformation template, which lets you map third-party data to ServiceNow CPQ fields or map ServiceNow CPQ data to third-party data source fields.
 

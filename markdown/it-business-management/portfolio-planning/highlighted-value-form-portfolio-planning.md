@@ -2,6 +2,7 @@
 title: Highlighted Value form
 description: Learn about the fields of the Highlighted Value form. Use this form to customize the fields to be highlighted on the Prioritization page of a portfolio plan in Portfolio Planning workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/highlighted-value-form-portfolio-planning.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -21,5 +22,5 @@ Learn about the fields of the Highlighted Value form. Use this form to customize
 |Application|Scope of yourServiceNow instance. By default, this field is set to **Portfolio Planning**.|
 |Field|Column of the table that is highlighted in the workspace.|
 
-**Parent Topic:**[Form field information for Portfolio Planning](form-field-information-for-portfolio-planning.md)
+**Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)
 

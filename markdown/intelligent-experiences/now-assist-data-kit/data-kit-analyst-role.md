@@ -2,6 +2,7 @@
 title: Now Assist Data Kit roles \(sn\_data\_kit.analyst\)
 description: This user can edit and save ground truth in Now Assist Data Kit. This role has read only access within Now Assist Data Kit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-data-kit/data-kit-analyst-role.html
 release: zurich
 product: Now Assist Data Kit
 classification: now-assist-data-kit
@@ -31,5 +32,5 @@ None.
 
 None.
 
-**Parent Topic:**[Now Assist Data Kit reference](../concept/na-data-kit-reference.md)
+**Parent Topic:**[Now Assist Data Kit reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-data-kit/na-data-kit-reference.md)
 

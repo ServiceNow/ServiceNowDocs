@@ -2,6 +2,7 @@
 title: Configure URL navigation for chat links
 description: Configure the portals in which links to ServiceNow records in Live Agent and Virtual Agent conversations are opened, including links in output cards and cards for Virtual Agent notifications and AI Search results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/ac-configure-url-navigation.html
 release: zurich
 product: Conversational Interfaces
 classification: conversational-interfaces
@@ -99,5 +100,5 @@ For new custom mappings, specify the combination of portal and table values to f
 </table>5.  Select **Save** to enter a new mapping or update an existing mapping.
 
 
-**Parent Topic:**[URL navigation in Conversational Interfaces](../concept/url-navigation-ci.md)
+**Parent Topic:**[URL navigation in Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/url-navigation-ci.md)
 

@@ -2,6 +2,7 @@
 title: Prisma Cloud REST Messages
 description: Prisma REST messages are used to make calls to the Prisma Application Programming Interface \(API\) to fetch the compliance data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/prisma-cloud-rest-messages.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance
@@ -139,7 +140,7 @@ POST
 [https://pan.dev/prisma-cloud/api/cspm/post-alerts/](https://pan.dev/prisma-cloud/api/cspm/post-alerts/)
 
 </td></tr></tbody>
-</table>For Prisma Comprehension Alert integration, the filters in the above POST body must be replaced as follows:
+</table>For Prisma Comprehensive Alert integration, the filters in the above POST body must be replaced as follows:
 
 ```
 "filters": [

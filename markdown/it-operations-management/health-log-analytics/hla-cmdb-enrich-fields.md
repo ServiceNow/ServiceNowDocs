@@ -2,6 +2,7 @@
 title: Log-based CI candidates fields in Health Log Analytics
 description: Field descriptions for the Log-based CI candidates table, the Log-based CI candidate form, and the Add CI candidate to CMDB form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-cmdb-enrich-fields.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -342,5 +343,5 @@ IsVirtual
 Option for indicating whether the device is running on a virtual machine instance.​
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health Log Analytics reference](../concept/hla-reference.md)
+</table>**Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-reference.md)
 

@@ -2,6 +2,7 @@
 title: Finding rule form
 description: Use the Finding Rule form to configure finding rules for your finding definition. Finding rules define what record criteria triggers your finding definitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/finding-rule-form.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -53,7 +54,7 @@ Start condition
 
 </td><td>
 
-Event that triggers a finding rule. You may select an existing rule, or create one using the plus \(+\) button to the right of the field.**Note:** For details on creating a condition, see [Configure advanced conditions: crop process](../task/po-advanced-conditions.md).
+Event that triggers a finding rule. You may select an existing rule, or create one using the plus \(+\) button to the right of the field.**Note:** For details on creating a condition, see [Configure advanced conditions: crop process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/po-advanced-conditions.md).
 
 </td></tr><tr><td>
 
@@ -75,7 +76,7 @@ End condition
 
 </td><td>
 
-Event that concludes a finding rule. You may select an existing rule, or create one using the plus \(+\) button to the right of the field. **Note:** For details on creating a condition, see [Configure advanced conditions: crop process](../task/po-advanced-conditions.md).
+Event that concludes a finding rule. You may select an existing rule, or create one using the plus \(+\) button to the right of the field. **Note:** For details on creating a condition, see [Configure advanced conditions: crop process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/po-advanced-conditions.md).
 
 </td></tr><tr><td>
 
@@ -86,5 +87,5 @@ Track duration
 Whether the duration between the start and end conditions are tracked.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Process Mining reference](../concept/process-mining-reference.md)
+</table>**Parent Topic:**[Process Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/process-mining-reference.md)
 

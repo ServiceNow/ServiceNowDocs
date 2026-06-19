@@ -2,6 +2,7 @@
 title: Remap tag-based application services to reflect tag changes
 description: Recreate tag-based services if the way your organization uses tags have changed or after modifying tag definitions for tag-based service families.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/remap-tag-based-services-tag-changes.html
 release: zurich
 product: Service Mapping
 classification: service-mapping
@@ -43,14 +44,14 @@ Remap existing tag-based services after you have manually modified tag definitio
 
 6.  Under **Mapped services**, review the newly created services to ensure that the result is as you expected.
 
-    If Service Mapping offers to view the CI list instead of a map for an application service, this service is too large. Fine-tune it as described in [modify the tag categories](modify-tag-category-family.md).
+    If Service Mapping offers to view the CI list instead of a map for an application service, this service is too large. Fine-tune it as described in [modify the tag categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/modify-tag-category-family.md).
 
 
 ## Result
 
 You have mapped the application service based on the latest tag definitions.
 
-![Remapped tab-based application service.](../image/remap-tag-based-map-example.png "Remapped tab-based application service")
+\[Omitted image "remap-tag-based-map-example.png"\] Alt text: Remapped tab-based application service.
 
 ## What to do next
 
@@ -61,8 +62,8 @@ Make sure that the service instances aren't too large:
 
 If the service is too large, perform the following actions:
 
--   [Modify tag definitions used for mapping](modify-tag-category-family.md) to make sure Service Mapping includes only relevant CIs in the service instance.
--   If necessary, [Tag-based discovery configuration](../concept/tag_discovery_configuration.md) to change which CIs Service Mapping includes in tag-based service instances.
+-   [Modify tag definitions used for mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/modify-tag-category-family.md) to make sure Service Mapping includes only relevant CIs in the service instance.
+-   If necessary, [Tag-based discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/tag_discovery_configuration.md) to change which CIs Service Mapping includes in tag-based service instances.
 
-**Parent Topic:**[Application service mapping using classic Service Mapping](../concept/c_DefineMapBusinessServices.md)
+**Parent Topic:**[Application service mapping using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/c_DefineMapBusinessServices.md)
 

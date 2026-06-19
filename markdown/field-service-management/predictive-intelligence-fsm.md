@@ -2,7 +2,10 @@
 title: Predictive Intelligence for defining work order solutions
 description: Use your instance records to build solutions to Field Service Management issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/predictive-intelligence-fsm.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ Use your instance records to build solutions to Field Service Management issues.
 
 ## Solution definitions
 
-Solution definitions are available as templates on instances where both Predictive Intelligence and Field Service Management are active. For more information about solution definitions and their types, see [Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US). You can also create your own solution definition records.
+Solution definitions are available as templates on instances where both Predictive Intelligence and Field Service Management are active. For more information about solution definitions and their types, see Predictive Intelligence. You can also create your own solution definition records.
 
 |Solution Definition|Solution Type|Description|
 |-------------------|-------------|-----------|

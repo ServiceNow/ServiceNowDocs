@@ -2,6 +2,7 @@
 title: Using conversational search in Now Assist panel
 description: Get common case-related information from the KBs within the case record by asking questions in the Now Assist panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/using-conversational-search-in-now-assist-panel.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -35,7 +36,7 @@ To use the feature, do the following:
 2.  From the header menu, select the Now Assist icon to open the Now Assist panel.
 3.  In the Now Assist panel, type in a question related to a case.
 
-To get started with configuring the Now Assist Q&amp;A Skill, see the [Configuring Now Assist Admin features](https://www.servicenow.com/docs/access?context=configuring-na-landing&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) instructions.
+To get started with configuring the Now Assist Q&amp;A Skill, see the  instructions.
 
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](now-assist-csm-using.md)
+**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

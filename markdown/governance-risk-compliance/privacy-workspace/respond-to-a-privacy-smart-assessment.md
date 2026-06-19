@@ -2,6 +2,7 @@
 title: Respond to a privacy smart assessment
 description: Respond to either a screening assessment or an impact assessment from the Assessment Workspace. The assessment results help to understand the potential privacy risks and their mitigation measures.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/respond-to-a-privacy-smart-assessment.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -64,5 +65,5 @@ Because the assessments use the Smart Assessment Engine, the responders can see 
 
 After an assessment is submitted, the privacy team receives a notification about the assessment submission. The team can then choose to either act on it or reject it based on their analysis. If the privacy team closes the assessment, then a processing activity gets created.
 
-**Parent Topic:**[Using Privacy Management](../concept/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

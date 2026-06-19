@@ -2,6 +2,7 @@
 title: Block Expired Anti-CSRF Tokens \[Updated in Security Center 1.5\]
 description: Block expired CSRF tokens to prevent cross-site request forgery attacks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-block-expired-csrf-tokens.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -29,12 +30,12 @@ Cross-site request forgeries are a type of malicious exploit whereby unauthorize
 |Data type|Boolean|
 |Recommended value|**false**|
 |Default value|**true**|
-|Category|[Access control](sc-access-control.md)|
+|Category|[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)|
 |Security risk|**Severity score**: 6.5|
 |**Severity rating per CVSS score**: Medium|
 |**Security risk details**: Enforces a strong anti-CSRF mechanism to protect authenticated functionality, and effective anti-automation or anti-CSRF protects unauthenticated functionality.|
 |Dependencies and prerequisites|None|
-|References|[Enable Anti-CSRF token \[New in Security Center 1.3, updated in 1.5, and removed in 2.0\]](sc-anti-csrf-token.md), [cross-site request forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery).|
+|References|[Enable Anti-CSRF token \[New in Security Center 1.3, updated in 1.5, and removed in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-anti-csrf-token.md), [cross-site request forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery).|
 
-**Parent Topic:**[Access control](sc-access-control.md)
+**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

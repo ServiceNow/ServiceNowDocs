@@ -2,6 +2,7 @@
 title: View forecasts and manage financial plans for a project in classic Project Workspace
 description: Use the Financials tab in Project Workspace to capture the costs and benefits of a project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/view-plan-financials-in-project-workspace.html
 release: zurich
 product: Project Workspace
 classification: project-workspace
@@ -33,7 +34,7 @@ The **Financials** tab provides a detailed breakdown of the cost components of a
 
 ## Procedure
 
-1.  [Open](access-the-project-workspace.md) the required project in [project workspace](../concept/project-workspace-classic.md).
+1.  [Open](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-the-project-workspace.md) the required project in [project workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/project-workspace-classic.md).
 
 2.  Click the **Financials** tab.
 
@@ -65,39 +66,39 @@ The **Financials** tab provides a detailed breakdown of the cost components of a
     -   The admin can configure the level at which the financials overview data is displayed for the fiscal year in the **Project related properties** page by navigating to **Project Administration** &gt; **Settings** &gt; **Preferences - Project**. If no value is specified, by default, the financials are displayed at the quarterly breakdown.
 6.  Review additional fields, view plan details, or reorganize the comparative data on the form.
 
-    -   To create a baseline or compare the available baselines, click the baseline information icon \(![Baseline information icon.](../../planning-and-policy/image/gannt_chart_icon.png)\) and then select **Create New Baseline** or **Compare Baselines** option, respectively.
+    -   To create a baseline or compare the available baselines, click the baseline information icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: Baseline information icon.\) and then select **Create New Baseline** or **Compare Baselines** option, respectively.
 
-        In the Financial Baseline comparison screen, the top two rows show all the values in either functional currency or project currency. To display the values in project currency, click the configuration icon \(![Configuration icon.](../image/configuration_investment.png)\) and toggle the Show Widgets in Project Currency view.
+        In the Financial Baseline comparison screen, the top two rows show all the values in either functional currency or project currency. To display the values in project currency, click the configuration icon \(\[Omitted image "configuration\_investment.png"\] Alt text: Configuration icon.\) and toggle the Show Widgets in Project Currency view.
 
         The Financial Baseline Details pane indicates the Functional Currency and the Project Currency that has been selected.
 
         The Financial Baseline grid shows the Functional cost, Cost in Project currency, Actuals, and Actuals in Project Currency. You can view the Project currency at the grid level. This view is helpful when there are cost plans of sub-projects that are in different project currency.
 
-    -   To view a cost plan or benefit plan details on a form, click the information icon \(![Information icon.](../../planning-and-policy/image/informationicon.png)\) available in the Name column of the grid.
+    -   To view a cost plan or benefit plan details on a form, click the information icon \(\[Omitted image "informationicon.png"\] Alt text: Information icon.\) available in the Name column of the grid.
     -   To view a cost plan or benefit plan details in yearly, quarterly, or monthly format, click the **Year**, **Quarter** or **Month** views respectively.
-    -   To toggle viewing the widgets in the Financial Summary section, click the widgets icon \(![Widgets icon.](../image/configuration_investment.png)\) and then select the **Show Widgets** option.
+    -   To toggle viewing the widgets in the Financial Summary section, click the widgets icon \(\[Omitted image "configuration\_investment.png"\] Alt text: Widgets icon.\) and then select the **Show Widgets** option.
 
         Select an individual widget name to display the widget. Clear the selection to hide the widget.
 
         The selected field preferences are saved and are available when you reopen the **Financial** tab.
 
-    -   To show or hide columns in the grid, click the configuration icon \(![Configuration icon.](../image/configuration_investment.png)\) and select the field names.
+    -   To show or hide columns in the grid, click the configuration icon \(\[Omitted image "configuration\_investment.png"\] Alt text: Configuration icon.\) and select the field names.
 
         You cannot hide the grouped columns. To reset to the default grid column layout, select the **Reset to defaults** option.
 
-    -   To view the project costs in project currency, click the configuration icon \(![Configuration icon.](../image/configuration_investment.png)\) and select the five widgets to show project currency amounts. The widgets are Total Planned Cost in Project Currency, Budget Cost in Project Currency, Actual Cost in Project Currency, Planned Return in Project Currency, and Benefit in Project Currency.
+    -   To view the project costs in project currency, click the configuration icon \(\[Omitted image "configuration\_investment.png"\] Alt text: Configuration icon.\) and select the five widgets to show project currency amounts. The widgets are Total Planned Cost in Project Currency, Budget Cost in Project Currency, Actual Cost in Project Currency, Planned Return in Project Currency, and Benefit in Project Currency.
 
         You can view both the functional and project currencies in the currency indicator.
 
         In the Financial Summary grid view of the **Cost Plans** and **Benefit Plans** tabs, all items related to project currencies are configured in the column heads such as **Cost in project currency**, **Project currency**, and **Total actual cost in project currency**.
 
-        By default, you can view only the functional currency columns. To view the project currency columns, click the configuration icon \(![Configuration icon.](../image/configuration_investment.png)\) and select the project currency column check boxes in the item columns.
+        By default, you can view only the functional currency columns. To view the project currency columns, click the configuration icon \(\[Omitted image "configuration\_investment.png"\] Alt text: Configuration icon.\) and select the project currency column check boxes in the item columns.
 
         The aggregated amount in the **Cost in project currency** field is clear if there are cost plans of sub-projects with different project currency.
 
 
--   **[Configure a widget for project financial metrics](configure-widget-project-financials.md)**  
+-   **[Configure a widget for project financial metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/configure-widget-project-financials.md)**  
 Configure a widget to view and track the financial metrics of a project on the **Financials** tab of the Project Workspace page.
 
-**Parent Topic:**[Project workspace classic - Legacy](../concept/project-workspace-classic.md)
+**Parent Topic:**[Project workspace classic - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/project-workspace-classic.md)
 

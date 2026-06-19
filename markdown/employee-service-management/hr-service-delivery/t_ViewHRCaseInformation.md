@@ -2,6 +2,7 @@
 title: View HR case information
 description: There are multiple ways to find a specific HR case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/t\_ViewHRCaseInformation.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -44,19 +45,19 @@ Role required: sn\_hr\_core.case\_reader
     Depending on the case, different options are visible at the top.
 
     -   **Discuss**: Opens a sidebar discussion where agents can discuss the case with users who have access to the record.
-    -   **Follow**: Track activity on the case or follow a record in Connect Chat to track activity as it happens. For more information, see [Follow a record in Connect](https://www.servicenow.com/docs/access?context=t_StartARecordConversation&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    -   **Follow**: Track activity on the case or follow a record in Connect Chat to track activity as it happens. For more information, see Follow a record in Connect.
     -   **Update**: Save and update the record. Takes you back to the list form.
     -   **Suspend**: Suspends an HR case that does not have a state of closed or canceled. You can suspend the timing specified in the service level agreement \(SLA\) to perform additional research.
     -   **Cancel**: Cancels the case.
     -   **Responses**: Appears for inquiry cases and enables agents to copy a response template.
-    -   **Associate Interaction**: Select to associate an interaction to the case. Interactions are requests for assistance through a given channel, for example, a call or a chat. For more information, see [Interaction Management](https://www.servicenow.com/docs/access?context=interaction-management&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    -   **Associate Interaction**: Select to associate an interaction to the case. Interactions are requests for assistance through a given channel, for example, a call or a chat. For more information, see Interaction Management.
     -   Ready for Work: Select to change the state of the case to Ready and assign an agent.
     -   **Close Complete**: Close the case and change the state to Complete.
     -   **Close Incomplete**: Close the case and change the state to Incomplete.
     -   **Preview Document**: Click to preview a document for accuracy before generating and sending it.
     -   **Sign Document**: For documents that require an HR signature, click to preview, sign, and save the document.
-    Buttons appear at the top.![Menu buttons for HR case form.](../image/HRCaseButtons.png)
+    Buttons appear at the top.\[Omitted image "HRCaseButtons.png"\] Alt text: Menu buttons for HR case form.
 
 
-**Parent Topic:**[Work an HR case](t_CreateAnHRCase.md)
+**Parent Topic:**[Work an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateAnHRCase.md)
 

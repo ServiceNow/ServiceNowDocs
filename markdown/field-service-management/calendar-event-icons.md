@@ -2,7 +2,10 @@
 title: Calendar event icons in Dispatcher Workspace
 description: Become familiar with the icons on calendar events to identify what they indicate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/calendar-event-icons.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -15,11 +18,11 @@ Become familiar with the icons on calendar events to identify what they indicate
 
 |Icon|Description|File name|
 |----|-----------|---------|
-|![new installation icon](../image/new-installation.png)|The work type for the task is set to new installation.|new-installation.png|
-|![maintenance icon](../image/maintenance.png)|The work type for the task is set to maintenance.|maintenance.png|
-|![break-fix icon](../image/break-fix.png)|The work type for the task is set to break/ fix.|break-fix.png|
-|![lock icon](../image/lock.png)|The task is schedule locked.|lock.png|
-|![crew icon](../image/crew.png)|The work order task requires a crew.|crew.png|
+|\[Omitted image "new-installation.png"\] Alt text: new installation icon|The work type for the task is set to new installation.|new-installation.png|
+|\[Omitted image "maintenance.png"\] Alt text: maintenance icon|The work type for the task is set to maintenance.|maintenance.png|
+|\[Omitted image "break-fix.png"\] Alt text: break-fix icon|The work type for the task is set to break/ fix.|break-fix.png|
+|\[Omitted image "lock.png"\] Alt text: lock icon|The task is schedule locked.|lock.png|
+|\[Omitted image "crew.png"\] Alt text: crew icon|The work order task requires a crew.|crew.png|
 
-**Parent Topic:**[Field Service Management reference](../../planning-and-policy/reference/fsm-reference.md)
+**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/fsm-reference.md)
 

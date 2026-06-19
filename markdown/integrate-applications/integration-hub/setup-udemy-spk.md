@@ -2,6 +2,7 @@
 title: Set up the Udemy spoke
 description: Enable your ServiceNow instance to connect to the Udemy instance by setting up a connection and credential record for the Udemy spoke. The Udemy instance uses the record to authenticate the requests from the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/setup-udemy-spk.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
@@ -28,19 +29,19 @@ Enable your ServiceNow instance to connect to the Udemy instance by setting up a
 
     1.  Log in to your Udemy instance.
 
-    2.  Navigate to **Manage** &gt; **Settings**.![Navigation to API key.](../image/udemy-spoke-config-log-in.png)
+    2.  Navigate to **Manage** &gt; **Settings**.\[Omitted image "udemy-spoke-config-log-in.png"\] Alt text: Navigation to API key.
 
-    3.  Under Settings, select LMX/LXP integrations.![LMS/LXP integration link.](../image/udemy-spoke-lms.png)
+    3.  Under Settings, select LMX/LXP integrations.\[Omitted image "udemy-spoke-lms.png"\] Alt text: LMS/LXP integration link.
 
     4.  Click **Copy** to copy the client ID.
 
-    5.  Click **Copy** to copy the client secret.![Client ID and Client secret.](../image/udemy-spoke-client-id-secret.png)
+    5.  Click **Copy** to copy the client secret.\[Omitted image "udemy-spoke-client-id-secret.png"\] Alt text: Client ID and Client secret.
 
     6.  Go to [GET /api-2.0/organizations/\{organization\_id\}/courses/list/](https://servicenow-integration.udemy.com/developers/organization/courses/methods/organizationcourseslist-list/get/).
 
     7.  In the Your Client Id field, paste the client ID you had copied.
 
-    8.  In the Your Client Secret field, paste the client secret you had copied.![Generate the API key.](../image/udemy-api-key.png)
+    8.  In the Your Client Secret field, paste the client secret you had copied.\[Omitted image "udemy-api-key.png"\] Alt text: Generate the API key.
 
         The API key is generated and displayed in the **Authorization** field. Copy and record the value for later use.
 
@@ -52,11 +53,11 @@ Enable your ServiceNow instance to connect to the Udemy instance by setting up a
 
     3.  Select Connections.
 
-    4.  In the Search all connections field, enter `Udemy`.![Enter Udemy in the search field.](../image/udemy-spokes-search-udemy-conn.png)
+    4.  In the Search all connections field, enter `Udemy`.\[Omitted image "udemy-spokes-search-udemy-conn.png"\] Alt text: Enter Udemy in the search field.
 
     5.  In the Udemy connection card, select **View Details**.
 
-    6.  Click **Configure**.![Configure button for connection and credentials.](../image/udemy-spoke-click-configure.png)
+    6.  Click **Configure**.\[Omitted image "udemy-spoke-click-configure.png"\] Alt text: Configure button for connection and credentials.
 
     7.  Fill the form with the details.
 

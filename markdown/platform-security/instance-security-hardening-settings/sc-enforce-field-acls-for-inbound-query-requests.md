@@ -2,11 +2,12 @@
 title: Enforce field ACLs for inbound query requests
 description: Manage how incoming queries are validated on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-enforce-field-acls-for-inbound-query-requests.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-05-26"
 reading_time_minutes: 1
 breadcrumb: [Architecture, design, and threat modeling, Hardening settings, Platform Security]
 ---
@@ -15,7 +16,11 @@ breadcrumb: [Architecture, design, and threat modeling, Hardening settings, Plat
 
 Manage how incoming queries are validated on your instance.
 
-Use the **glide.export.query.enforce\_field\_acl** property to check how incoming queries are validated on your instance. If the property is set to the recommended value of **true**, field ACLs are checked against incoming queries, and rejected if the user is unauthorized. If the property is set to **false**, ACLs are not checked against incoming queries and continue to execute which can lead to information disclosure to unauthorized parties.
+Use the **glide.export.query.enforce\_field\_acl** property to control whether field-level ACLs are enforced on the fields referenced in an inbound query requests. When set to **true**, field ACLs are checked against fields used in the incoming query, and the query is rejected if the user is unauthorized to access those fields. When set to **false**, field ACLs are not checked on query conditions, and the query executes regardless of field-level access restrictions.
+
+This property applies only to field ACL enforcement on query conditions. Setting this property to **false** does not affect whether users can read field values they are not otherwise authorized to view. Field-level read ACLs remain enforced regardless of this setting.
+
+Set the property **glide.export.query.enforce\_field\_acl** to **true**.
 
 ## More information
 
@@ -73,7 +78,7 @@ Category
 
 </td><td>
 
-[Architecture, design, and threat modeling](sc-architecture-design-threat-molding.md)
+[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
 
 </td></tr><tr><td>
 
@@ -94,5 +99,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Architecture, design, and threat modeling](sc-architecture-design-threat-molding.md)
+</table>**Parent Topic:**[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
 

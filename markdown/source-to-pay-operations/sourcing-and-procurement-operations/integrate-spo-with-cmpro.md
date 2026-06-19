@@ -2,13 +2,14 @@
 title: Integrate with Contract Management Pro
 description: Contract Management Pro provides an integration with the Sourcing and Procurement Operations application. With this integration, procurement specialists can initiate contract requests \(CRs\) manually throughout the sourcing and purchasing process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/integrate-spo-with-cmpro.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Sourcing and Procurement Operations integration with Contract Management Pro, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Source-to-Pay Operations integration Contract Management, Integrate Sourcing Procurement Operations other, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Integrate with Contract Management Pro
@@ -31,8 +32,8 @@ Role required: admin
 
 4.  Complete the initial configuration steps to set up CM Pro.
 
-    For more information on setting up Contract Management Pro, see [Add and configure contract request functionality into your workspace](https://www.servicenow.com/docs/access?context=cncore-uptake-steps&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+    For more information on setting up Contract Management Pro, see .
 
 
-**Parent Topic:**[Source-to-Pay Operations integration with Contract Management Pro](../concept/integration-spo-cmpro.md)
+**Parent Topic:**[Source-to-Pay Operations integration with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/integration-spo-cmpro.md)
 

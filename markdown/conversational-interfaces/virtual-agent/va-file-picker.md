@@ -2,11 +2,12 @@
 title: File Picker user input control
 description: Use the File Picker user input control in a Virtual Agent topic to prompt a user to upload an image or any file type. After the user uploads an image file, the image appears immediately in the Virtual Agent client.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-file-picker.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-04-29"
 reading_time_minutes: 5
 keywords: [Virtual Agent, file picker, user input]
 breadcrumb: [Assistant Designer user input controls, Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
@@ -30,7 +31,7 @@ The live agent picker scenario:
 
 When a file upload is in progress, you can't upload or enter text for the file picker control. The uploaded files go through a virus scan and validation.
 
-You can link an uploaded file to a case you create using the Record Action utility. For more information, see [Record Action utility](va-record-action-util.md).
+You can link an uploaded file to a case you create using the Record Action utility. For more information, see [Record Action utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-record-action-util.md).
 
 The following table lists the details about the properties of the File Picker.
 
@@ -178,7 +179,7 @@ Workplace
 
 </td><td>
 
-1.  Select the Workplace image icon ![Workplace image icon.](../images/FB-image-icon.png).
+1.  Select the Workplace image icon \[Omitted image "FB-image-icon.png"\] Alt text: Workplace image icon..
 2.  Select an image file from your local computer.
 
 All file types are supported.
@@ -210,15 +211,15 @@ File Picker prompt
 
 </th></tr></thead><tbody><tr><td rowspan="2">
 
-![Basic properties include the node name, prompt, and file type, either Image or All file types.](../images/va-file-picker-properties.png "File Picker user input control basic properties")
+\[Omitted image "va-file-picker-properties.png"\] Alt text: Basic properties include the node name, prompt, and file type, either Image or All file types.
 
 </td><td>
 
-![In a chat window, the prompt reads, "Please upload your image." The button reads, "Click here to upload an image."](../images/va-file-picker-image.png "Web UI file picker prompt (image)")
+\[Omitted image "va-file-picker-image.png"\] Alt text: In a chat window, the prompt reads, "Please upload your image." The button reads, "Click here to upload an image."
 
 </td></tr><tr><td>
 
-![Prompt that reads, "Please upload a file for the detailed description of the case." There are three options: Upload an Image, Take Photo, or Upload a File.](../../notification/image/va-image-picker-mobile.png "ServiceNow mobile file picker prompt")
+\[Omitted image "va-image-picker-mobile.png"\] Alt text: Prompt that reads, "Please upload a file for the detailed description of the case." There are three options: Upload an Image, Take Photo, or Upload a File.
 
 </td></tr></tbody>
 </table>## Channel support
@@ -261,7 +262,7 @@ Supported
 
 Prompt that users see asking for permission for the app to access a camera or file system if the user has not already given the permission.
 
- ![Prompt that reads, "Mobile" Would Like to Access the Camera. The choices are "Don't Allow" and "OK."](../../notification/image/camera-access-prompt.png)
+ \[Omitted image "camera-access-prompt.png"\] Alt text: Prompt that reads, "Mobile" Would Like to Access the Camera. The choices are "Don't Allow" and "OK."
 
 </td></tr><tr><td>
 
@@ -278,6 +279,18 @@ None
 </td></tr><tr><td>
 
 Microsoft Teams
+
+</td><td>
+
+Supported
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Google Chat
 
 </td><td>
 
@@ -402,5 +415,5 @@ Not supported
 Not applicable
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer user input controls](va-user-inputs.md)
+</table>**Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-user-inputs.md)
 

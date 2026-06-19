@@ -2,6 +2,7 @@
 title: Duplicate a component
 description: Duplicate a configured component to reuse on a page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/duplicate-components.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -29,7 +30,7 @@ Create an exact copy of a configured component on your page except for the name 
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Open the page variant with the component you want to duplicate.
 
@@ -46,5 +47,5 @@ Create an exact copy of a configured component on your page except for the name 
 7.  Select **Save**.
 
 
-**Parent Topic:**[Customize UI Builder pages using components](../concept/work-components.md)
+**Parent Topic:**[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-components.md)
 

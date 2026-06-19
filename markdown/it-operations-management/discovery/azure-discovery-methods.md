@@ -2,6 +2,7 @@
 title: Microsoft Azure discovery solutions comparison
 description: ITOM Visibility applications discover a variety of Microsoft Azure resources and populate the relevant configuration item \(CI\) classes in the Configuration Management Database \(CMDB\) with their attributes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/azure-discovery-methods.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -38,12 +39,12 @@ Discovery and Service Mapping Patterns and Visibility Content
 
 </td><td>
 
-[Discovery patterns used by ITOM Visibility](../../service-mapping/concept/c_MappingPatternsCustomization.md)
+[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)
 
 </td><td>
 
 -   You must update your store apps to the latest release version.
--   You must provide ITOM Visibility with access permissions. For more information, see [Set up Azure service accounts](../task/setup-azure-service-accounts.md)
+-   You must provide ITOM Visibility with access permissions. For more information, see [Set up Azure service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/setup-azure-service-accounts.md)
 
 </td></tr><tr><td>
 
@@ -51,11 +52,11 @@ Service Graph Connector for Microsoft Azure
 
 </td><td>
 
-[Service Graph Connector for Microsoft Azure](https://www.servicenow.com/docs/access?context=cmdb-integration-azure&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+
 
 </td><td>
 
-[Configure Service Graph Connector for Microsoft Azure using the guided setup](https://www.servicenow.com/docs/access?context=configure-azure-integration&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+
 
 </td></tr></tbody>
 </table>**Note:**
@@ -1283,5 +1284,5 @@ No
 cmdb\_azure\_service\_endpoint\_policy\_service\_endpoint\_policy
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud discovery solutions comparison](../concept/cloud-discovery-methods-comparison.md)
+</table>**Parent Topic:**[Cloud discovery solutions comparison](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cloud-discovery-methods-comparison.md)
 

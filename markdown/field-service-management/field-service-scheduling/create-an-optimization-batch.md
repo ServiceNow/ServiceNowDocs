@@ -2,6 +2,7 @@
 title: Create a batch for Schedule Optimization
 description: Create an optimization batch to determine the interval at which optimization should run. Set the start date, batch start time and end time, and run frequency for the related scope.Add scopes to optimization batches or remove a scope from a batch if the number of scopes in a batch becomes too large to manage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/create-an-optimization-batch.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -72,7 +73,7 @@ At each defined interval, the batch triggers the Schedule Optimization process. 
 
 **Note:** Schedule Optimization does not detect changes you make to agents or tasks during an optimization run. The system considers changes to agents and tasks during the next optimization run.
 
-You can [View Schedule Optimization logs](view-schedule-optimization-logs.md#) to gather insights from each optimization attempt.
+You can [View Schedule Optimization logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/view-schedule-optimization-logs.md) to gather insights from each optimization attempt.
 
 ## Add or remove scopes from an optimization batch
 

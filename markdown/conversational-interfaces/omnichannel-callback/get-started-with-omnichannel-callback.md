@@ -2,6 +2,7 @@
 title: Get started with Omnichannel Callback
 description: Review the following information before you start setting up Omnichannel Callback.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/omnichannel-callback/get-started-with-omnichannel-callback.html
 release: zurich
 product: Omnichannel Callback
 classification: omnichannel-callback
@@ -34,7 +35,7 @@ Verify that the following applications or plugins are installed and activated fr
 -   com.glide.cs.custom.adapter
 -   com.snc.appointment\_booking
 
-For more information, see [Install Omnichannel Callback](../task/install-omnichannel-callback.md).
+For more information, see [Install Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/omnichannel-callback/install-omnichannel-callback.md).
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: Exploring Performance Analytics
 description: Review the use cases, components, and architecture for indicator data sources and begin to implement indicators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/c\_GetStartedwithPA.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -21,7 +22,7 @@ Explanation of Performance Analytics with an example of a business scenario.
 
 **Note:** These days, Performance Analytics refers to the indicator data sources for Platform Analytics. Previously, Performance Analytics was its own independent product, with its own front end consisting of Performance Analytics widgets. That front end is deprecated, and instead indicators are shown in universal Platform Analytics data visualizations. The name Performance Analytics is retained for historical reasons.
 
-For a video about how different dashboards with indicator data sources can help different personas in the ITSM department of your organization, see [ITSM Success Dashboard indicators](https://www.servicenow.com/docs/access?context=success-dashboard-indicator-landing&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+For a video about how different dashboards with indicator data sources can help different personas in the ITSM department of your organization, see .
 
 Indicator data sources improve performance and accelerate continual service improvement by:
 
@@ -51,12 +52,12 @@ Benefits of using Performance Analytics indicators can include:
 
 **Tip:** For an introduction to using Performance Analytics, take the [Platform Analytics Overview](https://learning.servicenow.com/lxp/en/now-intelligence/platform-analytics-pa-overview?id=learning_course_prev&course_id=fb9decf8932f06905402393d6cba10f6) course.
 
--   **[Performance Analytics concepts](c_PerformanceAnalytics.md)**  
+-   **[Performance Analytics concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_PerformanceAnalytics.md)**  
 Performance Analytics uses terms and concepts that can differ from industry norms due to the unique nature of the ServiceNow platform.
--   **[Performance Analytics indicators compared to table data](pa-vs-reporting-pa.md)**  
+-   **[Performance Analytics indicators compared to table data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/pa-vs-reporting-pa.md)**  
 Indicator data sources address a different set of use cases than table data sources.
--   **[Implement Performance Analytics](implementing-pa.md)**  
+-   **[Implement Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/implementing-pa.md)**  
 Follow these steps to begin using Performance Analytics to improve your service levels.
 
-**Parent Topic:**[Performance Analytics \(Indicator data sources\)](r_PALandingPage.md)
+**Parent Topic:**[Performance Analytics \(Indicator data sources\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

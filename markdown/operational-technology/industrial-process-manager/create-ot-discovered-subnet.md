@@ -2,6 +2,7 @@
 title: Create an OT discovered subnet
 description: Create an Operational Technology \(OT\) discovered subnet to use during OT subnet mapping to help identify OT devices and assign them to the correct equipment model entity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-process-manager/create-ot-discovered-subnet.html
 release: zurich
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -40,5 +41,5 @@ Role required: cmdb\_ot\_admin
 5.  To edit the discovered subnet record, open the record, make the changes as needed, and select **Update**.
 
 
-**Parent Topic:**[Automated Mapping Across Zone-based IP Network Groups](../../operational-technology-management/task/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
+**Parent Topic:**[Automated Mapping Across Zone-based IP Network Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
 

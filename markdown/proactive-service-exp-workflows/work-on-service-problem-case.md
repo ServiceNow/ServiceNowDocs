@@ -2,6 +2,7 @@
 title: Diagnose and resolve a service problem case
 description: As a customer service agent, review, diagnose, resolve, and close a service problem case for the service-related issue experienced by the customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/work-on-service-problem-case.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -23,7 +24,7 @@ Role required: admin
 
 The service problem case progresses through several stages from start to closure. It begins with a customer service agent reviewing and verifying the problem. Next is the diagnosis stage, where system-specified tests are executed to identify the root cause. After the tests, the agent moves to the repair stage, creating a task to fix the identified issue. The agent follows the instructions in the repair task to address the problem areas. Once the repair is complete, the service is retested to confirm that the issue is resolved. Finally, the case is resolved and closed based on the customer's feedback on the provided solution.
 
-![Service problem case.](../image/service-problem-case.png)
+\[Omitted image "service-problem-case.png"\] Alt text: Service problem case.
 
 ## Procedure
 
@@ -49,7 +50,7 @@ The service problem case progresses through several stages from start to closure
 
 6.  Diagnose the service problem case to identify the root-cause of the problem.
 
-    The decision table can be configured to control the visibility of the Run Diagnostics contextual panel tab. For more information about decision tables, see [Decision Tables](https://www.servicenow.com/docs/access?context=decision-table&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+    The decision table can be configured to control the visibility of the Run Diagnostics contextual panel tab. For more information about decision tables, see .
 
     1.  To generate the test results, select **Run diagnostics** from the contextual panel.
 
@@ -59,9 +60,9 @@ The service problem case progresses through several stages from start to closure
 
     3.  Expand the cards in the **Available test suite**.
 
-        To set up the test definitions, see [Setting up test definitions](../concept/settingup-test-specifications.md).
+        To set up the test definitions, see [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/settingup-test-specifications.md).
 
-        To set up a test group, see [Setting up a test group](../concept/setting-test-group.md).
+        To set up a test group, see [Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/setting-test-group.md).
 
     4.  In the manual test, select single/multiple tests.
 
@@ -81,11 +82,11 @@ The service problem case progresses through several stages from start to closure
 
         The maximum number of rows according to group is limited to 20. To configure the maximum number of rows more than 20 according to group, see [Presentational List Usage](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/now-list/usage).
 
-    10. If the status of diagnose is new or closed, select the **View Details** ![](../../../reuse/icons/product-icons/open-link-right-fill-24.svg) icon for a specific test result to review its details.
+    10. If the status of diagnose is new or closed, select the **View Details** \[Omitted image "open-link-right-fill-24.svg"\] Alt text: icon for a specific test result to review its details.
 
-    11. If the status of diagnose is Pending for inputs, select the **View Details** ![](../../../reuse/icons/product-icons/open-link-right-fill-24.svg) icon and fill the form.
+    11. If the status of diagnose is Pending for inputs, select the **View Details** \[Omitted image "open-link-right-fill-24.svg"\] Alt text: icon and fill the form.
 
-    12. Select the **Rerun test** ![](../../../reuse/icons/product-icons/arrow-clockwise-outline-24.svg) icon for a specific test result to run it again.
+    12. Select the **Rerun test** \[Omitted image "arrow-clockwise-outline-24.svg"\] Alt text: icon for a specific test result to run it again.
 
         A repair task is created for each unique service and test definition.
 
@@ -134,7 +135,7 @@ The service problem case progresses through several stages from start to closure
 
     The Case playbook: The horizontal stages page incorporates related list functionality into the contextual side panel. These lists appear in an accordion format that agents can expand and collapse as needed.
 
-    For more information about the related items components, see [Playbook related items component](https://www.servicenow.com/docs/access?context=csm-playbook-related-items-component&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+    For more information about the related items components, see .
 
 10. Close the service problem case.
 
@@ -152,9 +153,9 @@ The service problem case progresses through several stages from start to closure
 
 11. To create an incident from the service problem case.
 
-    1.  Select ![](../../../common/image/icon-ellipses.png) icon.
+    1.  Select \[Omitted image "icon-ellipses.png"\] icon.
 
-        ![create incident.](../image/spc-create-incident.png)
+        \[Omitted image "spc-create-incident.png"\] Alt text: create incident.
 
     2.  Select **Create incident** from the drop-down list.
 

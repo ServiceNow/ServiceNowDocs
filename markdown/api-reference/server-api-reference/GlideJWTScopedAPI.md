@@ -2,6 +2,7 @@
 title: GlideJWTAPI - Scoped
 description: Use the GlideJWT API to create a JSON Web Token \(JWT\) for representing claims securely between two parties on the ServiceNow AI Platform.Generates a JSON Web Token \(JWT\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/GlideJWTScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ Use the GlideJWT API to create a JSON Web Token \(JWT\) for representing claims 
 
 This API is provided within the `sn_auth` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideJWTAPI - generateJWT\(String jwtProviderSysId, String jsonSerializedHeader, String jsonSerializedPayload\)
 

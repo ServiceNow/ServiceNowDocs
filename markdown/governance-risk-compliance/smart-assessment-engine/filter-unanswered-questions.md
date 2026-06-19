@@ -2,6 +2,7 @@
 title: Filter unanswered questions
 description: Filter your assessments to show only unanswered questions, making it faster to complete them. It enables you to identify unanswered questions efficiently at a glance, eliminating the need to review them individually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/smart-assessment-engine/filter-unanswered-questions.html
 release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -26,7 +27,7 @@ Role required: sn\_smart\_asmt.actor
     Here’s an example of how to navigate to this list in the Compliance Workspace.
 
     1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
-    2.  Select the tasks icon ![](../image/task-icon.png).
+    2.  Select the tasks icon \[Omitted image "task-icon.png"\] Alt text:.
     3.  Select the Control attestations on the left panel.
     4.  In the My pending tasks related list, the assessments are displayed.
 2.  Select the assessments in which you want to filter the questions.

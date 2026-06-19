@@ -2,6 +2,7 @@
 title: Now Assist for Code
 description: ServiceNow Now Assist for Code is a generative AI-powered tool that assists you by providing code suggestions. It accelerates the coding tasks and boosts productivity when scripting on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/now-assist-code-landing.html
 release: zurich
 product: Scripts
 classification: scripts
@@ -19,19 +20,19 @@ ServiceNow® Now Assist for Code is a generative AI-powered tool that assists yo
 
 <table id="table_izc_23p_vyb2" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about the generative AI capabilities available in Now Assist for Code.](exploring-now-assist-code.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the generative AI capabilities available in Now Assist for Code.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/exploring-now-assist-code.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Install Now Assist for Code to utilize its features.](configuring-now-assist-code.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install Now Assist for Code to utilize its features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/configuring-now-assist-code.md)
 
 </td></tr><tr><td>
 
-[Using Now Assist for Code](../task/using-now-assist-code.md)Use![](../../../reuse/icons/brand-icons/bus-documentation.svg)Take advantage of the generative AI capabilities provided by Now Assist for Code.
+[Using Now Assist for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/using-now-assist-code.md)Use\[Omitted image "bus-documentation.svg"\] Alt text:Take advantage of the generative AI capabilities provided by Now Assist for Code.
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get information about code generation properties and user roles.](now-assist-code-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get information about code generation properties and user roles.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/now-assist-code-reference.md)
 
 </td></tr></tbody>
 </table>**Important:** Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Please check for availability updates in future releases.
@@ -54,7 +55,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+For more information, see the Now Assist documentation.
 

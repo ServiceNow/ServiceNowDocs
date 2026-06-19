@@ -2,6 +2,7 @@
 title: Enforce scope security for public sector digital services \[New in Security Center 1.3\]
 description: Use the glide.enforce\_security\_scope.sn\_gsm property to control how the application data from the Public Sector Digital Services application is accessed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-enforce-scope-security-for-public-sector-digital-services.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -77,7 +78,7 @@ Category
 
 </td><td>
 
-[Access control](sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -103,8 +104,8 @@ References
 
 </td><td>
 
-[Configuring Public Sector Digital Services](https://www.servicenow.com/docs/access?context=configuring-public-sector-digital-services&version=zurich&pubname=zurich-government-industry&ft:locale=en-US)
+
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

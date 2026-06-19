@@ -2,6 +2,7 @@
 title: Microsoft Azure Sentinel integration
 description: Microsoft Azure Sentinel is a cloud-based Security Information Event Management \(SIEM\) and Security Orchestration Automated Response \(SOAR\) solution. You can use the Microsoft Azure Sentinel integration to ingest Azure Sentinel incidents and automatically create security incidents in Security Incident Response.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/microsoft-azure-sentinel-integration.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -23,13 +24,13 @@ If you are currently using the Azure Sentinel integration with Security Incident
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Overview of Microsoft Azure Sentinel integration
 
 See the following diagram to learn how Microsoft Azure Sentinel integrates with the ServiceNow AI Platform Security Operations applications.
 
-![How Azure Sentinel integrates with the ServiceNow AI Platform.](../image/sentinel-overview.png)
+\[Omitted image "sentinel-overview.png"\] Alt text: How Azure Sentinel integrates with the ServiceNow AI Platform.
 
 ## Key features
 
@@ -51,5 +52,5 @@ Use the key features of this integration to do the following actions:
 |Document identifier|Document title|
 |-------------------|--------------|
 |Microsoft product documentation website|[Microsoft Product Documentation website](https://docs.microsoft.com/en-us/azure/sentinel/)|
-|ServiceNow product documentation website|[ServiceNow Product Documentation website](https://servicenow.com/docs)|
+|ServiceNow product documentation website|[ServiceNow Product Documentation website](https://www.servicenow.com/docs)|
 

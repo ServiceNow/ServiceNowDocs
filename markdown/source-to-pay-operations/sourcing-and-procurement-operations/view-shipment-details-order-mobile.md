@@ -2,6 +2,7 @@
 title: View shipment details of your order from your mobile device
 description: View the current status of your ordered items, along with the tracking number and carrier name, in your receipt to-dos, from your mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/view-shipment-details-order-mobile.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -9,7 +10,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [view shipment details, ShoppingHub mobile app]
-breadcrumb: [Shopper to-dos on your mobile, Using Shopping Hub Mobile, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Shopper to-dos on your mobile, Using Shopping Hub Mobile, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # View shipment details of your order from your mobile device
@@ -39,5 +40,5 @@ You can view the status, tracking number, and carrier name for your ordered item
     Details of the dispatched items, including tracking number, carrier name, and status, are displayed.
 
 
-**Parent Topic:**[Shopper to-dos on your mobile](../reference/shopper-todos-mobile.md)
+**Parent Topic:**[Shopper to-dos on your mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos-mobile.md)
 

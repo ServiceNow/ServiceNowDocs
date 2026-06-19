@@ -2,6 +2,7 @@
 title: Evaluate an idea
 description: Review submitted ideas and then accept or reject them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/innovation-management/evaluate-an-idea.html
 release: zurich
 product: Innovation Management
 classification: innovation-management
@@ -31,16 +32,16 @@ Accept the ideas that are feasible for implementation and create a task such as 
 
 2.  Select the title of an idea to view its details.
 
-3.  Open the idea in form view by selecting the more options \(![More options icon](../image/more-options-icon.png)\) icon, and selecting the **Open in platform** option.
+3.  Open the idea in form view by selecting the more options \(\[Omitted image "more-options-icon.png"\] Alt text: More options icon\) icon, and selecting the **Open in platform** option.
 
 4.  Review the idea details and then choose which action to perform on the idea.
 
-    For more information, see [Evaluate ideas](../reference/evaluate-ideas-actions.md).
+    For more information, see [Evaluate ideas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/evaluate-ideas-actions.md).
 
 5.  Select **Update**.
 
     Convert the accepted ideas to a demand, epic, story, or feature based on how you would like to execute your idea. Use relevant options such as Epic, SAFe epic, or Improvement initiative based on the plugins installed such as PPM Standard, Agile Development 2.0 and Scaled Agile Framework \(SAFe\). After creating a demand or a project, change the state of the idea to track its status during different stages of development.
 
 
-**Parent Topic:**[Managing ideas using Innovation Management](../concept/using-innovation-management.md)
+**Parent Topic:**[Managing ideas using Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/using-innovation-management.md)
 

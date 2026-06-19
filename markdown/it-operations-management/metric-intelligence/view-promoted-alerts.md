@@ -2,6 +2,7 @@
 title: View the promoted anomaly alerts
 description: View the anomaly alerts that the Advanced Promotion Engine promoted to events, which are then processed as alerts in the All Alerts table. Viewing alerts in the All Alerts table enables you to track the source of the alert.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/metric-intelligence/view-promoted-alerts.html
 release: zurich
 product: Metric Intelligence
 classification: metric-intelligence
@@ -35,8 +36,8 @@ The Alerts table displays all of the relevant issues in the system.
 
 3.  Select an alert to receive more information about the alert.
 
-    For details on the displayed additional information, see [Alerts in Service Operations Workspace](../../service-operations-workspace-itom/concept/view-alert-workspace-itom.md).
+    For details on the displayed additional information, see [Alerts in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/view-alert-workspace-itom.md).
 
 
-**Parent Topic:**[Optimizing Metric Intelligence](../../metric-intelligence/concept/optimizing-metric-intelligence.md)
+**Parent Topic:**[Optimizing Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/metric-intelligence/optimizing-metric-intelligence.md)
 

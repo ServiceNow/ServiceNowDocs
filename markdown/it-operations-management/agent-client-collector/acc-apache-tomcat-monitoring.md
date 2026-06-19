@@ -2,6 +2,7 @@
 title: Configure Agent Client Collector Apache Tomcat monitoring
 description: To configure the Agent Client Collector to perform Apache Tomcat monitoring, set the following configurations in the Apache Tomcat application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-apache-tomcat-monitoring.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -76,5 +77,5 @@ Role required: agent\_client\_collector\_admin
     2.  In a Windows environment: Run the `shutdown.bat` script, followed by the `startup.bat` script.
 
 
-**Parent Topic:**[Operating system and application monitoring using Agent Client Collector](../concept/itom-monitoring-for-acc.md)
+**Parent Topic:**[Operating system and application monitoring using Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/itom-monitoring-for-acc.md)
 

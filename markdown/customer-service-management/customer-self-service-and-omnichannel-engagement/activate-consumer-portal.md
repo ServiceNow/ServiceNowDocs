@@ -2,6 +2,7 @@
 title: Activate the Consumer and Customer Service Portals
 description: Activate the portal plugins to use the Consumer and Customer Service Portals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-consumer-portal.html
 release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -25,15 +26,15 @@ Role required: admin
 
 2.  Install any one of the following plugins.
 
-<table id="choicetable_p4p_4dn_fwb"><thead><tr><th align="left" id="d231662e76">
+<table id="choicetable_p4p_4dn_fwb"><thead><tr><th align="left" id="d69431e76">
 
 Plugin name
 
-</th><th align="left" id="d231662e79">
+</th><th align="left" id="d69431e79">
 
 Plugin.
 
-</th></tr></thead><tbody><tr><td id="d231662e88">
+</th></tr></thead><tbody><tr><td id="d69431e88">
 
 **Customer Service Portal**
 
@@ -41,7 +42,7 @@ Plugin.
 
 com.snc.customer\_service\_portal
 
-</td></tr><tr><td id="d231662e97">
+</td></tr><tr><td id="d69431e97">
 
 **Consumer Service Portal**
 

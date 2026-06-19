@@ -2,11 +2,12 @@
 title: Configure the donuts in the tier 1 landing page
 description: Configure the data displayed in donuts in the Overview section of the tier 1 landing page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/customize-first-level-cards.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
 breadcrumb: [Landing page configurations in Service Operations Workspace for ITSM, Getting started with Service Operations Workspace for ITSM, Configure, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -17,7 +18,7 @@ Configure the data displayed in donuts in the **Overview** section of the tier 1
 
 ## Before you begin
 
-Role required: sn\_sow\_admin.sn\_sow\_admin, or admin
+Role required: admin
 
 ## About this task
 
@@ -31,9 +32,11 @@ You can customize header label, data source, metric, group by field, and viewAll
 
 3.  On the Landing Page form, under **Tier 1** section, select **Configure** next to **Donut configurations**.
 
+    **Tip:** As an alternative to custom metric cards, you can display Performance Analytics \(PA\) visualizations in the Tier 1 landing page. The following step enables the PA dashboard integration option. Do not configure both approaches in the same workspace instance.
+
 4.  If the PAR dashboard is active on the landing page, do the following:
 
-    1.  [Configure the tier 1 dashboard configuration](https://www.servicenow.com/docs/access?context=edit-db-in-ac&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+    1.  Configure the tier 1 dashboard configuration.
 
         **Note:** If you’re creating a dashboard, you can use the saved visualizations to create a card for the dashboard. The data visualization is visible only to the users based on the respective roles.
 
@@ -200,5 +203,5 @@ You can customize header label, data source, metric, group by field, and viewAll
 6.  Select **Update**.
 
 
-**Parent Topic:**[Landing page configurations in Service Operations Workspace for ITSM](../concept/landing-page-configurations-sow-itsm.md)
+**Parent Topic:**[Landing page configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/landing-page-configurations-sow-itsm.md)
 

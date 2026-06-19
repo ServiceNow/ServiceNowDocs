@@ -2,6 +2,7 @@
 title: Assign a contract request
 description: As a contract fulfiller or contract administrator, assign a contract request to yourself or to someone in your assignment group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-assign-con-req.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -35,8 +36,8 @@ When a contract user submits a request, it is automatically assigned to a group 
 
     -   To assign the request to yourself, click **Assign to me**.
     -   To assign the request to another member, on the **Details** tab, select a user in the **Assigned to** field and click **Save**.
-    ![Assign request in your workspace.](../image/cmpro-assign-lr.png "Assign request")
+    \[Omitted image "cmpro-assign-lr.png"\] Alt text: Assign request in your workspace.
 
 
-**Parent Topic:**[Using Contract Management Pro](../concept/cncore-use-cmpro.md)
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

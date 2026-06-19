@@ -2,6 +2,7 @@
 title: Create and manage a safety inspection in Mobile Agent app
 description: Create a safety inspection using the Mobile Agent app without scheduling an inspection to manage your workplace inspection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety/create-and-manage-safety-inspection-mobile-agent.html
 release: zurich
 product: Health and Safety
 classification: health-and-safety
@@ -37,12 +38,12 @@ Easily create new inspection records. Assign these inspection records to yoursel
 
 5.  On the form fill, in the details.
 
-    For more information for field description, see [Inspection schedule form](../../hs-risk-management/reference/hs-inspection-schedule-form.md).
+    For more information for field description, see [Inspection schedule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/hs-inspection-schedule-form.md).
 
 6.  Select **Submit**.
 
-    For more information on managing a safety inspection, see [Create and manage a safety inspection](../../hs-risk-management/task/hs-create-manage-safety-inspection.md)
+    For more information on managing a safety inspection, see [Create and manage a safety inspection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/hs-create-manage-safety-inspection.md)
 
 
-**Parent Topic:**[Manage safety inspections and audits through the mobile apps](../concept/hs-manage-safety-inspection-audits-mobile.md)
+**Parent Topic:**[Manage safety inspections and audits through the mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-manage-safety-inspection-audits-mobile.md)
 

@@ -2,11 +2,12 @@
 title: Using Partner Relationship Management
 description: Install the Partner Relationship Management plugin \(com.snc.partner\_relationship\_management\) to enable admins and channel partners to use the self-service Partner portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/using-partner-relationship-management.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 2
 breadcrumb: [Use, Sales Customer Relationship Management]
 ---
@@ -24,7 +25,7 @@ As an Enterprise Partner Relationship manager or a channel partner you can use t
 
 ## Partner Portal
 
-![ServiceNow Partner Portal user interface.](../image/partner-portal-ui.png)
+\[Omitted image "partner-portal-ui.png"\] Alt text: ServiceNow Partner Portal user interface.
 
 From the Partner portal, you can use and access the following features.
 
@@ -49,11 +50,11 @@ Channel partners can perform the following actions through the **Requests** head
 -   View all service related catalogs available to the logged-in persona.
 -   Register a deal.
 
-To learn more about registering a case, see [Raise an inquiry on Partner Portal](../task/raise-an-inquiry-on-partner-portal.md).
+To learn more about registering a case, see [Raise an inquiry on Partner Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/raise-an-inquiry-on-partner-portal.md).
 
-To learn more about registering staff members, see [Register a member on Partner portal](../task/register-a-member-on-partner-portal.md).
+To learn more about registering staff members, see [Register a member on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/register-a-member-on-partner-portal.md).
 
-To learn more about registering a deal, see [Register a deal on Partner portal](../task/register-a-deal-partner-portal.md).
+To learn more about registering a deal, see [Register a deal on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/register-a-deal-partner-portal.md).
 
 </td></tr><tr><td>
 
@@ -77,7 +78,7 @@ General Inquiry
 
 </td><td>
 
-Raise concerns or queries with the enterprise.To learn more about general inquiry, see [Raise an inquiry on Partner Portal](../task/raise-an-inquiry-on-partner-portal.md).
+Raise concerns or queries with the enterprise.To learn more about general inquiry, see [Raise an inquiry on Partner Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/raise-an-inquiry-on-partner-portal.md).
 
 </td></tr><tr><td>
 
@@ -137,12 +138,12 @@ Most Popular Articles
 View a list of the most viewed articles on the community.
 
 </td></tr></tbody>
-</table>-   **[Raise an inquiry on Partner Portal](../task/raise-an-inquiry-on-partner-portal.md)**  
+</table>-   **[Raise an inquiry on Partner Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/raise-an-inquiry-on-partner-portal.md)**  
 Raise a query or concern with the enterprise on the Partner Portal.
--   **[Register a member on Partner portal](../task/register-a-member-on-partner-portal.md)**  
+-   **[Register a member on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/register-a-member-on-partner-portal.md)**  
 Register a new partner member or transfer existing staff in a partner organization.
--   **[Register a deal on Partner portal](../task/register-a-deal-partner-portal.md)**  
+-   **[Register a deal on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/register-a-deal-partner-portal.md)**  
 Register a deal on the Partner portal to update its state and trigger the end-to-end life cycle of the deal.
 
-**Parent Topic:**[Using Sales Customer Relationship Management applications](som-using.md)
+**Parent Topic:**[Using Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-using.md)
 

@@ -2,6 +2,7 @@
 title: Define system colors for analytics
 description: Create color definitions for use in reports and Performance Analytics widgets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/t\_DefiningSystemColors.html
 release: zurich
 product: Reporting
 classification: reporting
@@ -71,7 +72,7 @@ Themeable color
 
 </td><td>
 
-Applies an alternate color from the UX Theme Properties \[sys\_ux\_theme\_property\] table to use when a theme is applied. Colors in the UX Theme Properties table may have different values depending on which theme variant in the UX Themes \[sys\_ux\_theme\] table is applied to your instance. To learn more about theming, see [Themes in Next Experience](https://www.servicenow.com/docs/access?context=next-experience-theming&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+Applies an alternate color from the UX Theme Properties \[sys\_ux\_theme\_property\] table to use when a theme is applied. Colors in the UX Theme Properties table may have different values depending on which theme variant in the UX Themes \[sys\_ux\_theme\] table is applied to your instance. To learn more about theming, see Themes in Next Experience.
 
  When a theme is turned on, the system applies this color to classic reports and visualizations created by the data visualization component. If no themeable color is defined, the system uses the color defined in the **Color** field.
 
@@ -81,5 +82,5 @@ Applies an alternate color from the UX Theme Properties \[sys\_ux\_theme\_proper
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Predefined colors in reports](../concept/colors-reports.md)
+**Parent Topic:**[Predefined colors in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/colors-reports.md)
 

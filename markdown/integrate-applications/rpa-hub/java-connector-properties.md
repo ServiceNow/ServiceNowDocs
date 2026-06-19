@@ -2,6 +2,7 @@
 title: Java connector properties
 description: View or update Java connector properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/java-connector-properties.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -22,5 +23,5 @@ View or update Java connector properties.
 |Enable Timeout|Option to set a timeout value.|
 |Timeout|Number of seconds that the operation ends after if not completed. To apply this value, you must set the **Enable Timeout** property.|
 
-**Parent Topic:**[Java](../concept/java-connector.md)
+**Parent Topic:**[Java](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/java-connector.md)
 

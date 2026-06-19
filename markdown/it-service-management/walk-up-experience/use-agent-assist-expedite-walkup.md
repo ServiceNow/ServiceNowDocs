@@ -2,6 +2,7 @@
 title: Use Agent Assist to expedite Walk-up Experience fulfillment
 description: Walk-up Experience agents can use the Agent Assist feature in Agent Workspace to expedite incidents and requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/walk-up-experience/use-agent-assist-expedite-walkup.html
 release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -33,10 +34,10 @@ Agent Assist is a contextual search option available in Agent Workspace when a w
 
     A new incident or case tab opens next to the details tab for the original associated walk-up interaction.
 
-4.  Click the agent assist icon ![agent assist icon](../../../common/image/Form_AgentAssistIcon.png) to use the feature.
+4.  Click the agent assist icon \[Omitted image "Form\_AgentAssistIcon.png"\] Alt text: agent assist icon to use the feature.
 
-    For more detailed information about Agent Assist and using it to expedite incidents and requests, refer to [Using Agent Assist in Agent Workspace](https://www.servicenow.com/docs/access?context=agent-assist&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) and [Order a catalog item using Agent Assist](https://www.servicenow.com/docs/access?context=order-catalog-item-agent-assist&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    For more detailed information about Agent Assist and using it to expedite incidents and requests, refer to Using Agent Assist in Agent Workspace and Order a catalog item using Agent Assist.
 
 
-**Parent Topic:**[Manage Walk-up Experience queue and interaction](../concept/use-walkup-to-manage-demand.md)
+**Parent Topic:**[Manage Walk-up Experience queue and interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
 

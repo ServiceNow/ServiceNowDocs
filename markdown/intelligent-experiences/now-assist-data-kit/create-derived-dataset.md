@@ -2,6 +2,7 @@
 title: Create a derived dataset
 description: Create a smaller dataset from an existing dataset through generative AI by using the Now Assist Data Kit application. A derived dataset enables you to choose a smaller dataset.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-data-kit/create-derived-dataset.html
 release: zurich
 product: Now Assist Data Kit
 classification: now-assist-data-kit
@@ -31,7 +32,7 @@ After you add a dataset to the data catalog, you can create a smaller dataset or
 
 3.  Add information for the new derived dataset.
 
-    ![Create derived dataset form](../image/nadk-derived-dataset.png)
+    \[Omitted image "nadk-derived-dataset.png"\] Alt text: Create derived dataset form
 
 4.  |Field|Description|
 |-----|-----------|

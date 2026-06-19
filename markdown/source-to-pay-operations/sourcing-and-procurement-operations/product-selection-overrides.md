@@ -2,13 +2,14 @@
 title: Product selection overrides
 description: Certain scenarios such as excluded suppliers and shopping control restrictions can override your product selection capability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/product-selection-overrides.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Shopping cart, Using Shopping Hub, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Shopping cart, Using Shopping Hub, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Product selection overrides
@@ -27,5 +28,5 @@ A ShoppingHub administrator can set shopping controls to restrict your access to
 
 In your shopping cart, if you have any such product that has restricted access, a message is displayed stating that the product has been removed and is no longer available for purchase. You can select the link in the message to view similar products from other suppliers, if they exist. The visibility status of such a product is updated to Product Access Denied on the cart line.
 
-**Parent Topic:**[Shopping cart](../concept/shopping-cart.md)
+**Parent Topic:**[Shopping cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/shopping-cart.md)
 

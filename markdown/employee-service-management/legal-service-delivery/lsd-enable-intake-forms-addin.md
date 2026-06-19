@@ -2,6 +2,7 @@
 title: Enable intake forms for Microsoft Outlook Add-In for Legal Service Delivery
 description: Enable intake forms to be available as categories while submitting legal requests or matters from Microsoft Outlook using Microsoft Outlook Add-In for Legal Service Delivery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/lsd-enable-intake-forms-addin.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -29,7 +30,7 @@ Role required: sn\_lg\_ops.legal\_config
 
 4.  If you are prompted in a message at the top of the form to switch applications to be able to edit the record, select the word **here**.
 
-5.  Select the Unlock Options icon ![Unlock Options icon.](../image/lock.png) in the **Options** field in the Record Producer section.
+5.  Select the Unlock Options icon \[Omitted image "lock.png"\] Alt text: Unlock Options icon. in the **Options** field in the Record Producer section.
 
 6.  Enter `Enable` in the **Select target record** field.
 
@@ -42,5 +43,5 @@ Role required: sn\_lg\_ops.legal\_config
 
 The request category will be available while submitting a legal request from Microsoft Outlook Add-in.
 
-**Parent Topic:**[Configure Microsoft Outlook Add-In for Legal Service Delivery](../concept/lsd-outlook-addin-configure.md)
+**Parent Topic:**[Configure Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/lsd-outlook-addin-configure.md)
 

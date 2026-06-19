@@ -2,6 +2,7 @@
 title: Submitting Legal Stock Preclearance requests
 description: Employees from different departments in your organization can submit stock preclearance requests complying with the company’s stock preclearance policy
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-stock-preclearance/submit-legal-stock-reqs.html
 release: zurich
 product: Legal Stock Preclearance
 classification: legal-stock-preclearance

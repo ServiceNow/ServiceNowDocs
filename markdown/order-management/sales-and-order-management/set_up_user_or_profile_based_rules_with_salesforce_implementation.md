@@ -2,6 +2,7 @@
 title: Set up user-based or profile-based rules with Salesforce implementation
 description: You can set up a message rule to control access to a field based on the user's role or ID.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/set\_up\_user\_or\_profile\_based\_rules\_with\_salesforce\_implementation.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,7 +26,7 @@ First, youʼll want to create a new field on your Quote object in SFDC. This fie
 
 When prompted to enter the formula, this is where you must make a design decision. If you want the rule to be dependent on profile type \(for example, System Administrator\), enter `$User.ProfileId` as the formula:
 
-![Set Up User or Profile Based Rules with Salesforce Implementation](../images/cpq-salesforce-new-custom-field.png)
+\[Omitted image "cpq-salesforce-new-custom-field.png"\] Alt text: Set Up User or Profile Based Rules with Salesforce Implementation
 
 If you want the rule to fire on a specific user ID, replace `$User.ProfileId` with `$User.Id`.
 
@@ -37,15 +38,15 @@ Add the formula field to the ReferencedFields field data set as you normally wou
 
 Write the rule in ServiceNow CPQ. For example, if you wanted a rule to fire on the System Admin profile, and the System Admin profileʼs ID is 00e8c000002qrLx, you might condition your rule like this:
 
-![Set Up User or Profile Based Rules with Salesforce Implementation](../images/cpq-salesforce-new-custom-field-formula.png)
+\[Omitted image "cpq-salesforce-new-custom-field-formula.png"\] Alt text: Set Up User or Profile Based Rules with Salesforce Implementation
 
 ## Result
 
 In the following screen shots, there are two system administrator users and two rules. One rule is a message rule that fires when a System Administrator accesses a quote, and the other rule fires when Jane Doe accesses the quote. This is the output when a System Admin who is not Jane accesses the configuration:
 
-![Set Up User or Profile Based Rules with Salesforce Implementation](../images/cpq-message-rule-result-1.png)
+\[Omitted image "cpq-message-rule-result-1.png"\] Alt text: Set Up User or Profile Based Rules with Salesforce Implementation
 
 This is the output when Jane Doe \(who is also a System Admin\) accesses the configuration:
 
-![Set Up User or Profile Based Rules with Salesforce Implementation](../images/cpq-message-rule-result-2.png)
+\[Omitted image "cpq-message-rule-result-2.png"\] Alt text: Set Up User or Profile Based Rules with Salesforce Implementation
 

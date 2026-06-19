@@ -2,6 +2,7 @@
 title: Installing Task Mining agent
 description: The Task Mining agent is a service installed on workstations that logs certain events from desktop applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/task-mining/install-agent.html
 release: zurich
 product: Task Mining
 classification: task-mining
@@ -17,7 +18,7 @@ The Task Mining agent is a service installed on workstations that logs certain e
 
 Role required: Task Mining Agent Install
 
-**Note:** You must be a part of the Task Mining Agent Install group with roles itil, sn\_tm\_core.service\_user, and agent\_client\_collector\_admin to install the Task Mining agent. If the group doesn't exist, create a group with that name and those roles manually. For more information, see [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** You must be a part of the Task Mining Agent Install group with roles itil, sn\_tm\_core.service\_user, and agent\_client\_collector\_admin to install the Task Mining agent. If the group doesn't exist, create a group with that name and those roles manually. For more information, see Assign a role to a group.
 
 The process to install a Task Mining agent is as follows:
 
@@ -33,5 +34,5 @@ The process to install a Task Mining agent is as follows:
 
 4.  Workstation users are notified about workstation monitoring.
 
-For more information about the data collected, see [Data collected by Task Mining](../reference/data-management.md).
+For more information about the data collected, see [Data collected by Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/task-mining/data-management.md).
 

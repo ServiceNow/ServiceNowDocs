@@ -2,6 +2,7 @@
 title: Refine the source type structure in Health Log Analytics
 description: Fine-tune how Health Log Analytics reads your inner log messages and detects anomalies by customizing the extracted properties in the source type structure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-source-type-structure-refine.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -302,7 +303,7 @@ Timestamp
 
 </td><td>
 
-The property that holds the timestamp of the event. **Note:** If automatic [header properties detection](../concept/hla-header-detection.md) is enabled and the source type lacks a timestamp, the system extracts the timestamp from the transport header. If header detection is turned off or doesn't work for the relevant log lines in the data input, all log lines must have proper timestamps.
+The property that holds the timestamp of the event. **Note:** If automatic [header properties detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-header-detection.md) is enabled and the source type lacks a timestamp, the system extracts the timestamp from the transport header. If header detection is turned off or doesn't work for the relevant log lines in the data input, all log lines must have proper timestamps.
 
 </td></tr><tr><td>
 
@@ -326,7 +327,7 @@ Host
 
 </td><td>
 
-The property that represents the host from which the event was sent. **Note:** If automatic [header properties detection](../concept/hla-header-detection.md) is enabled and the source type lacks a host, the system extracts the host from the transport header. If header detection is turned off or doesn't work for the relevant log lines in the data input, all log lines must have a host.
+The property that represents the host from which the event was sent. **Note:** If automatic [header properties detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-header-detection.md) is enabled and the source type lacks a host, the system extracts the host from the transport header. If header detection is turned off or doesn't work for the relevant log lines in the data input, all log lines must have a host.
 
 </td></tr><tr><td>
 
@@ -365,7 +366,7 @@ The new script is automatically added to the list of JS function templates from 
 
 ## What to do next
 
-Continue with the [remaining data input setup tasks](../concept/hla-data-input-setup-extra.md): Verify that all your log sources are present and active, and add timestamp formats if necessary.
+Continue with the [remaining data input setup tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-setup-extra.md): Verify that all your log sources are present and active, and add timestamp formats if necessary.
 
-**Parent Topic:**[Source type structure adjustment in Health Log Analytics](../concept/hla-source-type-structure-adjustment.md)
+**Parent Topic:**[Source type structure adjustment in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-source-type-structure-adjustment.md)
 

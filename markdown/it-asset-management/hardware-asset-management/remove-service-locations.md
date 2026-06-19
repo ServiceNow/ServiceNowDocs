@@ -2,6 +2,7 @@
 title: Remove service locations
 description: Remove service locations when the associated stockroom doesn't support those locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/remove-service-locations.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -34,5 +35,5 @@ Role required: inventory\_admin
 
 The removed locations are no longer shown in the Service locations list.
 
-**Parent Topic:**[Manage stockrooms](../concept/manage-your-stockrooms.md)
+**Parent Topic:**[Manage stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
 

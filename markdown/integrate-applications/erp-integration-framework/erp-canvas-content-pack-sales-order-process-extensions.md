@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP Quote to Cash data product process extensions
 description: The Zero Copy Connector for ERP Quote to Cash data product contains process extensions that you may need when interacting with an SAP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erp-canvas-content-pack-sales-order-process-extensions.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -36,5 +37,5 @@ Manage Delivery and Billing Block
 -   Subflow 2: Update the delivery and billing blocking status for a sales order.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP Quote to Cash data product](../concept/erp-canvas-sales-order-content-pack.md)
+</table>**Parent Topic:**[Zero Copy Connector for ERP Quote to Cash data product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-sales-order-content-pack.md)
 

@@ -2,7 +2,10 @@
 title: Configure special handling notes properties
 description: Configure the necessary properties to display special handling notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_EnableOnScreenAlertProperties.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -23,7 +26,7 @@ Role required: sn\_shn.admin
 
 2.  Configure the following properties.
 
-<table id="choicetable_oj1_stz_55"><tbody><tr><td id="d161764e94">
+<table id="choicetable_oj1_stz_55"><tbody><tr><td id="d160534e94">
 
 **Display special handling notes only once according to session**
 
@@ -31,7 +34,7 @@ Role required: sn\_shn.admin
 
 Special handling notes are displayed each time you access a record. Enable this property to display special handling notes only once as per the session.
 
-</td></tr><tr><td id="d161764e103">
+</td></tr><tr><td id="d160534e103">
 
 **Maximum number of notes displayed in the Special Handling Notes pop-up window**
 
@@ -39,7 +42,7 @@ Special handling notes are displayed each time you access a record. Enable this 
 
 Increase or decrease this number as desired. The default is 20 alerts.
 
-</td></tr><tr><td id="d161764e112">
+</td></tr><tr><td id="d160534e112">
 
 **Width of the Special Handling Notes pop-up window in pixels**
 

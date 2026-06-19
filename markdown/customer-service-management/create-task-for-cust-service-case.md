@@ -2,7 +2,10 @@
 title: Create a task for a customer service case
 description: Create a task for a customer service case for additional work that needs to be completed as part of resolving the case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-task-for-cust-service-case.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-08-04"
 reading_time_minutes: 2
@@ -59,7 +62,7 @@ Parent
 
 </td><td>
 
-The number of the parent record if the task is created from a type of record other than a case. This field is populated when a case task is created from a non-case record such as an incident, problem, change, or request. This field is a reference to the Task \[task\] table.**Note:** You may need to configure the case task record to display the **Parent** field. For more information about adding fields to a form, see [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+The number of the parent record if the task is created from a type of record other than a case. This field is populated when a case task is created from a non-case record such as an incident, problem, change, or request. This field is a reference to the Task \[task\] table.**Note:** You may need to configure the case task record to display the **Parent** field. For more information about adding fields to a form, see Configuring the form layout.
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: Preview predicted changes
 description: Use the previewed changes table to view the list of total records that are predicted to change when the upgrade occurs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/upgrade-center/uc-previewed-changes.html
 release: zurich
 product: Upgrade Center
 classification: upgrade-center

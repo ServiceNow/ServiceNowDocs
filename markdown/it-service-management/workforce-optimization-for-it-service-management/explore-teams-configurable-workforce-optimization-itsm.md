@@ -2,6 +2,7 @@
 title: Teams in Workforce Optimization for ITSM
 description: Learn how you can organize each of your teams into assignment groups. You can then define a set of Key Performance Indicators \(KPIs\) to analyze the performance of all groups within that team. Drill into the metrics for a group, an agent, or an incident within that team—all from a central location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/explore-teams-configurable-workforce-optimization-itsm.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -15,15 +16,15 @@ breadcrumb: [Workforce Optimization for ITSM, IT Service Management]
 
 Learn how you can organize each of your teams into assignment groups. You can then define a set of Key Performance Indicators \(KPIs\) to analyze the performance of all groups within that team. Drill into the metrics for a group, an agent, or an incident within that team—all from a central location.
 
-This video gives you an overview of how you set up your teams into assignment groups and add KPIs to measure performance.Organize your teams into assignment groups
+This video gives you an overview of how you set up your teams into assignment groups and add KPIs to measure performance.
 
 The image shows a visual representation of how you can organize your teams into groups.
 
-![Teams](../image/teams-drilldown-wfo-itsm.png)
+\[Omitted image "teams-drilldown-wfo-itsm.png"\] Alt text: Teams
 
 Drill down into your reports.
 
-![This graphic displays how you can drill down into the data for your teams](../image/teams-drill-down-wfo-itsm.gif)
+\[Omitted image "teams-drill-down-wfo-itsm.gif"\] Alt text: This graphic displays how you can drill down into the data for your teams
 
 As an administrator for **Teams**, you can:
 
@@ -48,8 +49,8 @@ Select a task that you would like to perform to navigate to the topic for detail
 
 |Benefit|Users|Finding tasks to complete in Teams|
 |-------|-----|----------------------------------|
-|Activate Teams in the Workforce Optimization for ITSM.|admin|[Activate Teams in Workforce Optimization for ITSM](../task/activate-configurable-workforce-optimization-itsm.md)|
-|Refer to the roles, tables, and other components used in Teams.|[Any Teams role](../reference/configurable-wfo-itsm-teams-reference.md)|[Teams components in Workforce Optimization for ITSM](../reference/configurable-wfo-itsm-teams-reference.md)|
-|Organize teams into assignment groups for managers so that they can analyze team performance.|admin|[Setting up Teams in Workforce Optimization for ITSM](setup-teams-configurable-workforce-optimization-itsm.md)|
-|Analyze your teams' performance|Team performance admin|[Analyzing team performance using Teams in Workforce Optimization for ITSM](teams-workforce-optimization-configurable-wfo-itsm.md)|
+|Activate Teams in the Workforce Optimization for ITSM.|admin|[Activate Teams in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.md)|
+|Refer to the roles, tables, and other components used in Teams.|[Any Teams role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-teams-reference.md)|[Teams components in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-teams-reference.md)|
+|Organize teams into assignment groups for managers so that they can analyze team performance.|admin|[Setting up Teams in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/setup-teams-configurable-workforce-optimization-itsm.md)|
+|Analyze your teams' performance|Team performance admin|[Analyzing team performance using Teams in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/teams-workforce-optimization-configurable-wfo-itsm.md)|
 

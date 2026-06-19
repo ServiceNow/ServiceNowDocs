@@ -2,6 +2,7 @@
 title: Security findings
 description: Provides Machine Identity security score and findings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/security-score.html
 release: zurich
 product: Identity
 classification: identity
@@ -30,5 +31,5 @@ The security score is displayed for following security findings. You can select 
 
 The security score is based on the usage and method of machine identities. A lower score indicates a higher risk. You can view the recommendations to take preventive actions for these identities.
 
-![Machine Identity security score and findings](../images/mic-security-findings-landing.png)
+\[Omitted image "mic-security-findings-landing.png"\] Alt text: Machine Identity security score and findings
 

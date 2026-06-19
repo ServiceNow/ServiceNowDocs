@@ -2,6 +2,7 @@
 title: Data retrieval limitations
 description: By default, there are no restrictions on how data is retrieved from Qualys. Many records can be related to low severity vulnerabilities that a customer is not willing to remediate using their vulnerability response process. Updating the corresponding REST message/method parameters can modify this behavior.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/cc-limit-data-retrieved.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance

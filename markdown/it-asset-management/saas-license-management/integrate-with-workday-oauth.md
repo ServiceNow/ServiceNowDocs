@@ -2,6 +2,7 @@
 title: Integrate with Workday using OAuth 2.0
 description: Integrate your Software Asset Management application with the Workday application using OAuth 2.0 authentication method to track your software subscriptions.To set up the Workday integration successfully, configure permissions in Workday for the OAuth 2.0 authentication method.Create Workday OAuth 2.0 credentials to get access to Workday APIs.Create a Workday integration profile to track software subscriptions and optimize licensing for your Workday applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/saas-license-management/integrate-with-workday-oauth.html
 release: zurich
 product: SaaS License Management
 classification: saas-license-management
@@ -27,7 +28,7 @@ Role required: Users having roles such as Security Admin, Integration Admin, Int
 
 1.  Register an Integration System User.
 
-    **Note:** While filling out account information details, you must select the **Do Not Allow UI Sessions** check box.
+    **Note:** While filling out account information details, the **Do Not Allow UI Sessions** check box should be kept cleared to allow login and authentication.
 
 2.  Create a security group and assign it to the Integration System User.
 
@@ -88,11 +89,11 @@ Create a Workday integration profile to track software subscriptions and optimiz
 
 ### Before you begin
 
-Role required: sam\_integrator
+Role required: admin, sam\_admin, sam\_integrator
 
-Install the latest Workday HR spoke. For more information about the latest version, see the **Spoke version** section in [Workday HR Spoke](https://www.servicenow.com/docs/access?context=workday-hr-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+Install the latest Workday HR spoke. For more information about the latest version, see the **Spoke version** section in .
 
-**Important:** You must select the **Software Asset Management integration with Workday** check box for this integration while installing optional features on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **Software Asset Management integration with Workday** check box for this integration while installing optional features on the  page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### About this task
 
@@ -102,15 +103,15 @@ If you’re using Software Asset Workspace, the option to create the Workday int
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d85115e608">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d86173e606">
 
 Interface
 
-</th><th align="left" id="d85115e611">
+</th><th align="left" id="d86173e609">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d85115e617">
+</th></tr></thead><tbody><tr><td id="d86173e615">
 
 **Core UI**
 
@@ -121,7 +122,7 @@ Action
 3.  Select **Workday Integration Profile**.
 
 
-</td></tr><tr><td id="d85115e659">
+</td></tr><tr><td id="d86173e657">
 
 **Software Asset Workspace**
 
@@ -195,7 +196,7 @@ Type of integration profile. This field is automatically set to **Workday Subscr
 
     The **Connection &amp; credential** field appears and is automatically set to **sn\_workday\_hr\_spke.WorkdayHR**.
 
-5.  Open the connection &amp; credential aliases record by selecting the preview icon \(![Preview icon.](../image/preview-icon.png)\) next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
+5.  Open the connection &amp; credential aliases record by selecting the preview icon \(\[Omitted image "preview-icon.png"\] Alt text: Preview icon.\) next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
 
 6.  On the Connection &amp; Credential Aliases form, select the **Create New Connection &amp; Credential** related link.
 
@@ -205,11 +206,11 @@ Type of integration profile. This field is automatically set to **Workday Subscr
     |-----|-----------|
     |Connection Information|
     |Name|Name of the connection. For example, `Workday HR Connection`.|
-    |Connection URL|URL for the connection. For example, `https://<*workday\_host*>/ccx/service/*tenant\_name*`, where &lt;*tenant\_name*&gt; is your Workday tenant name.|
+    |Connection URL|URL for the connection, `https://<workday_host>`. For example,`https://wd2-impl-services1.workday.com`.|
     |Tenant name|Name of the Workday tenant.|
     |API Version|Version of the Workday API to use for requests.|
     |Credential Information|
-    |Client ID|Client ID that you generated while creating a Workday OAuth credential. For more information, see [Create Workday OAuth 2.0 credentials](integrate-with-workday-oauth.md#).|
+    |Client ID|Client ID that you generated while creating a Workday OAuth credential. For more information, see [Create Workday OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-workday-oauth.md).|
     |Client Secret|Client Secret that you retrieved while creating a Workday OAuth credential.|
     |Authorization URL|URL used to authorize the OAuth connection. For example, `https://<*auth-domain-name*>.workday.com/<*tenant*>/authorize`|
     |Token URL|URL used to generate the OAuth token. For example, `https://<*domain-name*>.workday.com/ccx/oauth2/<*tenant*>/token`|
@@ -221,7 +222,7 @@ Type of integration profile. This field is automatically set to **Workday Subscr
 
 9.  Log in to the Workday portal using the Integration System User credentials that you registered while configuring permissions in Workday.
 
-    For more information, see [Configure permissions in Workday](integrate-with-workday-oauth.md#).
+    For more information, see [Configure permissions in Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-workday-oauth.md).
 
 10. In the Authorize Workday dialog box, select **Allow** to allow user permissions for Workday.
 
@@ -294,20 +295,20 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](subscription-exclusions.md#).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/subscription-exclusions.md).
 
-If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](../reuse/create-child-alias-saas.md).
+If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
-Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](../task/track-software-rights.md).
--   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](../task/create-entitlements-workspace.md).
--   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](../task/guidedwalk-workspace.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-entitlements-workspace.md).
+-   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 
-Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
+Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
 
--   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](../task/t_RunReconciliation.md).
--   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](../task/run-recon-workspace.md).
+-   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_RunReconciliation.md).
+-   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/run-recon-workspace.md).
 

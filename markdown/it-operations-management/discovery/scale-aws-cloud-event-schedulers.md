@@ -2,6 +2,7 @@
 title: Scale the AWS cloud event schedulers
 description: Scale the cloud event schedulers to improve the Amazon Web Services \(AWS\) event processing rate of the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/scale-aws-cloud-event-schedulers.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -21,7 +22,7 @@ Role required: cloud\_admin
 
 ## About this task
 
-If the instance receives a huge number of events and it doesn’t process them within a reasonable time, create additional Cloud Event Schedulers. Running multiple cloud event schedulers in parallel helps to improve the event processing rate of the instance. When the event inflow rate reduces, you can deactivate some of the Cloud Event Schedulers. For more information, see [AWS events-driven discovery](../concept/aws-events-driven-discovery.md).
+If the instance receives a huge number of events and it doesn’t process them within a reasonable time, create additional Cloud Event Schedulers. Running multiple cloud event schedulers in parallel helps to improve the event processing rate of the instance. When the event inflow rate reduces, you can deactivate some of the Cloud Event Schedulers. For more information, see [AWS events-driven discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/aws-events-driven-discovery.md).
 
 ## Procedure
 

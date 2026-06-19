@@ -2,6 +2,7 @@
 title: Security
 description: The Security components in the RPA Desktop Design Studio perform data security operations such as Microsoft Data Protection API and data encryption.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/security.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -15,10 +16,10 @@ breadcrumb: [Automation components, RPA Desktop Design Studio, Robotic Process A
 
 The Security components in the RPA Desktop Design Studio perform data security operations such as Microsoft Data Protection API and data encryption.
 
--   **[DPAPI](dpapi.md)**  
+-   **[DPAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/dpapi.md)**  
 The DPAPI components in the RPA Desktop Design Studio secure data by applying the Microsoft DPAPI.
--   **[Encryption components](encryption-components.md)**  
+-   **[Encryption components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/encryption-components.md)**  
 The RPA Desktop Design Studio secures data through encryption, file hashes, and encoding. This feature of RPA Desktop Design Studio can be the part of a workflow.
 
-**Parent Topic:**[Automation components](rpa-studio-automation-components.md)
+**Parent Topic:**[Automation components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/rpa-studio-automation-components.md)
 

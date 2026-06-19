@@ -2,6 +2,7 @@
 title: Object data type
 description: Store a JavaScript object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/object-data.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -62,7 +63,7 @@ Template
 Specifies the existing object structure to apply to this object.
 
 </td></tr></tbody>
-</table>**Note:** For more information on using complex object variables, see [Complex data](../concept/complex-data.md).
+</table>**Note:** For more information on using complex object variables, see [Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/complex-data.md).
 
-**Parent Topic:**[Workflow Studio input and output data variables](action-inputs-outputs.md)
+**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/action-inputs-outputs.md)
 

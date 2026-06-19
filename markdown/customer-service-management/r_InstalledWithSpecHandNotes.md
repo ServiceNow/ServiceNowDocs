@@ -2,7 +2,10 @@
 title: Components installed with Special Handling Notes
 description: Several types of components are installed with Special Handling Notes.The tables included with the Special Handling Notes plugin \(com.sn\_shn\).Some user roles are included with the Special Handling Notes \(com.sn\_shn\) plugin.Some properties are included with the Special Handling Notes \(com.sn\_shn\) plugin.The business rules included with the Special Handling Notes plugin \(com.sn\_shn\).The client scripts included with the Special Handling Notes plugin \(com.sn\_shn\).The script includes included with the Special Handling Notes plugin \(com.sn\_shn\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/r\_InstalledWithSpecHandNotes.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -130,7 +133,7 @@ The width of the Special Handling Notes pop-up window in pixels. The default wid
 -   **Location**: **Special Handling Notes** &gt; **Properties**
 
 </td></tr></tbody>
-</table>To learn more about the special handling notes properties, see [Configure special handling notes properties](../task/t_EnableOnScreenAlertProperties.md).
+</table>To learn more about the special handling notes properties, see [Configure special handling notes properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_EnableOnScreenAlertProperties.md).
 
 ## Business rules installed with Special Handling Notes
 

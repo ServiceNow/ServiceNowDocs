@@ -2,11 +2,12 @@
 title: Use the Endpoint Detection playbook
 description: Use this playbook to investigate malware alerts triggered on a host or endpoint. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Endpoint Detection playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/playbook-using-endpoint-detection.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Playbook for Endpoint Detection, Flow-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -34,19 +35,15 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
     1.  In Action 4, you need to identify the application or the process being detected as a threat and gather information about the detection reasoning to proceed further on to safe listing.
 
-        ![Response tasks to determine whether the file is not malicious.](../image/playbook-endpoint-detection-malicious.png "Endpoint Detection playbook")
-
     2.  In Action 5, you need to check whether the application is from a trusted source \(For example, Microsoft, Adobe, or other well-known software vendors\).
 
     3.  In Action 6, if the application is from a trusted source, then you need to take action on the CrowdStrike Falcon alerts.
 
-        ![Response tasks to take action on CrowdStrike Falcon alerts.](../image/playbook-endpoint-detection-crowd.png "CrowdStrike Falcon alerts")
-
     4.  In Action 7, perform the following actions:
 
         1.  Navigate to **CrowdStrike Falcon** &gt; **Detections** tab.
-        2.  Click on the CrowdStrike Falcon alert.
-        3.  Under the Execution Details tab, click **Edit Hash** action in Hash Prevention Action.
+        2.  Select the CrowdStrike Falcon alert.
+        3.  Under the Execution Details tab, select the **Edit Hash** action in Hash Prevention Action.
         4.  Perform the required steps.
 
             **Note:** Choose the **Never Block** option carefully, as only certain hosts may be allowed to use the application with a valid business justification. However, additional alertings may need to be set up for other hosts.
@@ -56,12 +53,12 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
         In Action 10, if you want to waive the file or application from the device locally, perform the following actions:
 
         1.  In Action 11, navigate to the **Quarantined Files** tab, and filter the endpoint by searching for the device name.
-        2.  Select the file that needs to be waived locally, and click **Release**.
+        2.  Select the file that needs to be waived locally, and select **Release**.
 
             **Note:**
 
             -   The file still runs on this specific endpoint. However, detection and quarantine continue to happen on all other hosts.
-            -   To bulk release the quarantine file on multiple hosts, select the appropriate file name and status. Click on **Select**, and select **Release**.
+            -   To bulk release the quarantine file on multiple hosts, select the appropriate file name and status. Select the **Select**, and select **Release**.
         In Action 12, if you don't want to waive the file or application from the device locally, you can redirect the user to the IT Support for requesting installation of the approved applications.
 
 4.  In Action 14, if the file or hash isn’t malicious, perform the following actions:
@@ -76,8 +73,6 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
         4.  In Action 20, based on the result of the Forensic Analysis, perform host isolation and remove the malicious file/hash.
         5.  In Action 21, if the user credentials are compromised or the threat can’t be removed easily, raise an IT ticket to reset the user credentials or reimage the machine as required.
         6.  In Action 22, perform host unisolation.
-        ![Response tasks to determine if it's a high-risk file.](../image/playbook-endpoint-detection-risk.png "High-risk file")
-
     3.  In Action 23, if the file isn’t a high-risk file, then perform the following actions:
 
         1.  Navigate to **CrowdStrike Falcon** &gt; **Configurations** tab.
@@ -86,5 +81,5 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 5.  In Action 24, a response task is created for the user to complete the post-incident review before closing the task.
 
 
-**Parent Topic:**[Playbook for Endpoint Detection](../concept/playbook-endpoint-detection.md)
+**Parent Topic:**[Playbook for Endpoint Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/playbook-endpoint-detection.md)
 

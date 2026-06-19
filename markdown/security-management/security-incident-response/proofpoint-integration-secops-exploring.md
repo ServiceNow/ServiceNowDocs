@@ -2,6 +2,7 @@
 title: Exploring the Proofpoint Integration for Security Operations
 description: You can configure event profiles in SIR to ingest events from Proofpoint. SIR creates an incident for each ingested event which analysts can review or work on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/proofpoint-integration-secops-exploring.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -67,7 +68,7 @@ Managers
 
 To learn more about configuring and using Proofpoint, see:
 
--   [Configuring the Proofpoint Integration for Security Operations](proofpoint-integration-secops-configuring.md)
--   [Review Proofpoint integration settings](../task/review-proofpoint-integration-setting-sir.md)
--   [View the Proofpoint Analytics Dashboard](../task/view-proofpoint-dashboard.md)
+-   [Configuring the Proofpoint Integration for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/proofpoint-integration-secops-configuring.md)
+-   [Review Proofpoint integration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/review-proofpoint-integration-setting-sir.md)
+-   [View the Proofpoint Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/view-proofpoint-dashboard.md)
 

@@ -2,6 +2,7 @@
 title: Use the Event Management overview dashboard
 description: The Event Management overview module uses Performance Analytics to present data from your instance for you to better visualize and understand your processes and drive continual improvement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/t\_EMUseOverviewDashboard.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -23,12 +24,12 @@ From the Xanadu release onward, the Event Management overview module has been de
 -   Event Management scorecards
 -   Event Management overview
 
-The AIOps dashboards offer comprehensive visualizations of critical operational data. You can monitor key performance indicators \(KPIs\), track service health, and gain valuable context on the overall IT environment. For more information, see [AIOps Dashboards in Service Operations Workspace for ITOM](../../service-operations-workspace-itom/concept/aiops-dashboards-sow-itom.md).
+The AIOps dashboards offer comprehensive visualizations of critical operational data. You can monitor key performance indicators \(KPIs\), track service health, and gain valuable context on the overall IT environment. For more information, see [AIOps Dashboards in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/aiops-dashboards-sow-itom.md).
 
-**Parent Topic:**[Using Event Management](../concept/user-guide.md)
+**Parent Topic:**[Using Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/user-guide.md)
 
 **Related topics**  
 
 
-[Performance Analytics and Reporting](https://www.servicenow.com/docs/access?context=c_performanceAnalyticsAndReporting&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US)
+[bundle-par.c_performanceAnalyticsAndReporting]
 

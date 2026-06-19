@@ -2,6 +2,7 @@
 title: Define schedule
 description: You can define the schedule for the offense ingestion. During this step, you can verify the default settings for the offense retrieval or modify the scheduling as needed. This step also permits you to retrieve historical offenses using a date range.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/qradar-ibm-create-profile-schedule.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -35,15 +36,15 @@ When the polling schedule is set, the scheduled job pulls both new and updated o
 
 2.  Choose one to schedule how and when offenses are pulled from the IBM QRadar console.
 
-<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d440169e87">
+<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d243107e87">
 
 Option
 
-</th><th align="left" id="d440169e90">
+</th><th align="left" id="d243107e90">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d440169e96">
+</th></tr></thead><tbody><tr><td id="d243107e96">
 
 **__Ongoing offense ingestion field selected__**
 
@@ -51,7 +52,7 @@ Description
 
 On-going OffenseBased on the default setting, the ServiceNow AI Platform instance pulls from the IBM QRadar server for new and updated offenses every five minutes. Security incidents are created if offenses are found and incident generation filtering criteria are matched. To balance ingestion polling overhead desire to get the most current data, five minutes is the default setting. However, this value can be modified to as low as one minute if needed.
 
-</td></tr><tr><td id="d440169e117">
+</td></tr><tr><td id="d243107e117">
 
 **-   Ongoing offense ingestion selected
 -   Set initial offense ingestion time
@@ -71,7 +72,7 @@ Initial ingestion timeIf you want to schedule the initial ingestion at a specifi
 
  The initial ingestion will take place at 4:05 am. The subsequent ingestions will be based on the polling interval. In this case, since the Polling increment is 24 hours, the next ingestion will take place on the next day at 4:05 am.
 
-</td></tr><tr><td id="d440169e170">
+</td></tr><tr><td id="d243107e170">
 
 **One Time Retrieval field selected**
 
@@ -84,7 +85,7 @@ One-Time RetrievalUse this configuration if you want a one-time pull to ingest h
 After the offenses are pulled, this setting will not retrieve more offenses for this profile going forward from the current date. This setting populates the security incident with all the offenses that are found for the range you enter.
 
 </td></tr></tbody>
-</table>    ![IBM QRadar: Create Profile: Schedule](../image/ibm-qradar-profile-schedule.png)
+</table>    \[Omitted image "ibm-qradar-profile-schedule.png"\] Alt text: IBM QRadar: Create Profile: Schedule
 
 3.  Click **Continue** to navigate to the Additional Options page.
 

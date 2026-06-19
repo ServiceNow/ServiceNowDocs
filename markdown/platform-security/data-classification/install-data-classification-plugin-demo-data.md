@@ -2,6 +2,7 @@
 title: Installing Data Classification plugin demo data
 description: When you upgrade to or install Zurich \(and above\), the Data Classification \(com.glide.data\_classification\) plugin is automatically activated. However, you should manually install the demo data that comes with the plugin. It includes several important pre-defined data classifications, and it also assigns one of them to specific User \[sys\_user\] table columns in your instance.When you install the demo data included in the Data Classification \(com.glide.data\_classification\) plugin, several types of components are installed in your instance. These components include pre-defined data classifications and code assignments for specific User \[sys\_user\} columns.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-classification/install-data-classification-plugin-demo-data.html
 release: zurich
 product: Data Classification
 classification: data-classification

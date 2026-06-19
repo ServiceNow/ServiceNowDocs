@@ -2,6 +2,7 @@
 title: Usage Limitations for SQL API
 description: The SQL API imposes rate limits to ensure system stability and performance when querying ServiceNow data through ODBC and JDBC drivers.
 locale: en-us
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/usage-limitations.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -21,5 +22,5 @@ The SQL API enforces a rate limit of 500 queries per hour per driver type \(ODBC
 
 When planning your BI tool integrations and report schedules, consider this rate limit to confirm your queries complete successfully without interruption. If your use case requires higher query volumes, consider optimizing your queries to retrieve more data per request or spreading queries across multiple Service Accounts with appropriate access controls.
 
-**Parent Topic:**[SQL API reference information](troubleshooting.md)
+**Parent Topic:**[SQL API reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/troubleshooting.md)
 

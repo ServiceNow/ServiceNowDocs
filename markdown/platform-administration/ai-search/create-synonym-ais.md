@@ -2,6 +2,7 @@
 title: Create synonyms
 description: Define terms to treat as equivalent in search queries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/create-synonym-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -21,7 +22,7 @@ Role required: ais\_admin
 
 ## About this task
 
-You must have already created a synonym dictionary. For information on creating synonym dictionaries, see [Create a synonym dictionary linked to a search profile](create-synonym-dict-ais.md).
+You must have already created a synonym dictionary. For information on creating synonym dictionaries, see [Create a synonym dictionary linked to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-synonym-dict-ais.md).
 
 ## Procedure
 
@@ -33,7 +34,7 @@ You must have already created a synonym dictionary. For information on creating 
 
 4.  On the Dictionary Term form, fill in the fields.
 
-    For a description of the field values, see [Dictionary Term form](../reference/dictionary-term-form-ais.md).
+    For a description of the field values, see [Dictionary Term form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/dictionary-term-form-ais.md).
 
 5.  Select **Submit**.
 
@@ -50,7 +51,7 @@ You must have already created a synonym dictionary. For information on creating 
 
 This example shows a synonym defining `vacation`, `holiday`, `PTO`, and the phrase `time off` as equivalent.
 
-![The AI Search Dictionary Term new record form in Synonym view shows Term set to vacation and Payload set to ["holiday","pto","time off"].](../image/synonym-example-vacation.png)
+\[Omitted image "synonym-example-vacation.png"\] Alt text: The AI Search Dictionary Term new record form in Synonym view shows Term set to vacation and Payload set to \["holiday","pto","time off"\].
 
-**Parent Topic:**[Synonyms](../concept/synonyms-ais.md)
+**Parent Topic:**[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/synonyms-ais.md)
 

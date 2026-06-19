@@ -2,6 +2,7 @@
 title: Custom content PDF export limitations
 description: When you create custom content to be placed as widgets on dashboards and home pages, you must perform extra tests before you export the content to PDF.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/custom-content-pdf-export-limitations.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics

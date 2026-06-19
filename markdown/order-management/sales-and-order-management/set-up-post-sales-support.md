@@ -2,6 +2,7 @@
 title: Setting up the Customer Contracts and Entitlements application
 description: Configure the features and components of Customer Contracts and Entitlements to enable a seamless, end-to-end service experience including after sales services for your customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/set-up-post-sales-support.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -27,7 +28,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Create a characteristic](../reference/create-entitlement-template-characteristic.md)
+[Create a characteristic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-entitlement-template-characteristic.md)
 
 </td><td>
 
@@ -35,7 +36,7 @@ Create a characteristic to add to an entitlement. A characteristic refers to the
 
 </td></tr><tr><td>
 
-[Create a user](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+
 
 </td><td>
 
@@ -43,7 +44,7 @@ Add a user to your instance to enable them to log in and use designated applicat
 
 </td></tr><tr><td>
 
-[Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+
 
 </td><td>
 
@@ -51,7 +52,7 @@ Assign roles to users. Use this feature to grant the sn\_customerservice\_manage
 
 </td></tr><tr><td>
 
-[Create customer accounts](https://www.servicenow.com/docs/access?context=import-create-csm-accounts&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)**Note:** On the Accounts form, to view the service contracts, remove the contract-related lists and configure the Service contracts related list.
+**Note:** On the Accounts form, to view the service contracts, remove the contract-related lists and configure the Service contracts related list.
 
 </td><td>
 
@@ -59,7 +60,7 @@ Create an account and associate it to a service contract.
 
 </td></tr><tr><td>
 
-[Create a consumer record](https://www.servicenow.com/docs/access?context=create-a-consumer-record&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -67,7 +68,7 @@ Create a consumer record in Customer Service Management. A consumer can be assoc
 
 </td></tr><tr><td>
 
-[Create a sold product](https://www.servicenow.com/docs/access?context=create-sold-item&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -75,7 +76,7 @@ Create a record for a product that is sold to an account or a consumer. A sold p
 
 </td></tr><tr><td>
 
-[Create an Install base item](https://www.servicenow.com/docs/access?context=create-install-base-item&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
+
 
 </td><td>
 

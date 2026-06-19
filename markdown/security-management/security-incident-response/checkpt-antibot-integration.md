@@ -2,6 +2,7 @@
 title: Check Point Anti-bot - Email Parser integration
 description: Check Point Anti-bot - Email Parser integration is supported using an email parser that consumes email notifications from Check Point Anti-bot to create security incidents and drive enrichment and response workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/checkpt-antibot-integration.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

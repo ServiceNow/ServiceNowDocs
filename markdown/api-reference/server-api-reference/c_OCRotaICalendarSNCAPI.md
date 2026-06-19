@@ -2,6 +2,7 @@
 title: OCRotaICalendarSNC - Global
 description: The OCRotaICalendarSNC script include provides iCal formatted events for the a specific user's rotation.Records in the cmn\_rota\_resp\_cache table that have a From date prior to today.Returns list of AJAXScheduleItems for the user's on-call.Creates a VEVENT based on the scheduleItemSpan provided.Creates a formatted iCalendar if the user has no upcoming on-call.Returns the formatted iCalendar for the user's rotation.Returns the formatted iCalendar for the user's rotation if found in the cmn\_rota\_resp\_cache table.Checks whether the provided timeSpan intersects with one of the rota span items.Creates the subscribable URL for the user's iCalendar.Returns a URL to the on-call calendar based on the rota record.Returns an array of the user's overrides \(extra coverage\).Returns an object containing the user's override \(extra coverage\) and excluded spans.Used by business rules on the cmn\_rota\_member, cmn\_schedule\_span, and roster\_schedule\_span tables to update the cmn\_rota\_resp\_cache table.Checks whether the provided timeSpan matches one of the rotaSpanItems.Used by fixed job to populate the calendar subscription fields on the cmn\_rota formReturns an object containing the user's rotations.Inserts the user's iCalendar into the cmn\_rota\_resp\_cache table.Queues events to send an email to all members of the rotation.Returns an object that contains all of the timeSpans that need to be excluded from the user's iCalendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_OCRotaICalendarSNCAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The OCRotaICalendarSNC script include provides iCal formatted events for the a specific user's rotation.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## OCRotaICalendarSNC - cleanExpiredCache \(\)
 

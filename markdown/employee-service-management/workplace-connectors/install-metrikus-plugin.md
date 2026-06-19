@@ -2,6 +2,7 @@
 title: Activate Metrikus Spoke
 description: Activate the Metrikus Spoke plugin from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-connectors/install-metrikus-plugin.html
 release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
@@ -27,7 +28,7 @@ Role required: admin
 
     You can search for the application by its name Metrikus Spoke or ID \[sn.wsd.metrikus.spoke\]. If you can’t find an application, request it from the ServiceNow store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Select **Install**.
 
@@ -44,9 +45,9 @@ Role required: admin
 6.  Select **Install**.
 
 
-**Parent Topic:**[Setup Workplace Connectors for occupancy data](../concept/setup-occupancy-connectors.md)
+**Parent Topic:**[Setup Workplace Connectors for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/setup-occupancy-connectors.md)
 
-**Previous topic:**[Setup Workplace Connectors for occupancy data](../concept/setup-occupancy-connectors.md)
+**Previous topic:**[Setup Workplace Connectors for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/setup-occupancy-connectors.md)
 
-**Next topic:**[Integrate Metrikus spoke](../concept/integrate-metrikus-flowdesigner.md)
+**Next topic:**[Integrate Metrikus spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/integrate-metrikus-flowdesigner.md)
 

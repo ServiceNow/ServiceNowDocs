@@ -2,6 +2,7 @@
 title: Add or remove teams from Favorites in EAP
 description: Add the EAP teams that you frequently work with to Favorites so that you can save time navigating to them in the workspace without searching for them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/enterprise-agile-planning/mark-teams-as-favorite-in-eap.html
 release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -17,7 +18,7 @@ Add the EAP teams that you frequently work with to Favorites so that you can sav
 
 ## Before you begin
 
-[Define agile structure in EAP](define-agile-structure-in-eap.md).
+[Define agile structure in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/define-agile-structure-in-eap.md).
 
 Role required: sn\_apw\_advanced.eap\_user
 
@@ -29,9 +30,9 @@ Role required: sn\_apw\_advanced.eap\_user
 
     1.  From the left navigation panel, locate the team that you want to favorite.
 
-    2.  Select the Add to favorites icon \(![Add to favorites icon.](../images/eap-add-favorite-star.png)\) next to the team name.
+    2.  Select the Add to favorites icon \(\[Omitted image "eap-add-favorite-star.png"\] Alt text: Add to favorites icon.\) next to the team name.
 
-        ![Add EAP team to favorites.](../images/eap-add-favorite.png)
+        \[Omitted image "eap-add-favorite.png"\] Alt text: Add EAP team to favorites.
 
     The team is added to the Favorites section of the navigation panel.
 
@@ -39,12 +40,12 @@ Role required: sn\_apw\_advanced.eap\_user
 
     1.  From the Favorites section, locate the team that you want to remove.
 
-    2.  Select the Remove from favorites icon \(![Remove from favorites icon.](../images/eap-remove-favorite-star.png)\) next to the team name.
+    2.  Select the Remove from favorites icon \(\[Omitted image "eap-remove-favorite-star.png"\] Alt text: Remove from favorites icon.\) next to the team name.
 
-        ![Remove EAP team from Favorites.](../images/eap-remove-favorite.png)
+        \[Omitted image "eap-remove-favorite.png"\] Alt text: Remove EAP team from Favorites.
 
     The team is removed from the Favorites section.
 
 
-**Parent Topic:**[Manage team backlog in EAP](../concept/using-eap.md)
+**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/using-eap.md)
 

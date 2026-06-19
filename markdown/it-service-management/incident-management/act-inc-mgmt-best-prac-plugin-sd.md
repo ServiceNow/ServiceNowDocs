@@ -2,6 +2,7 @@
 title: Activate Incident Management Best Practice – San Diego
 description: Activate the Incident Management Best Practice — San Diego plugin \(com.snc.best\_practice.incident.sandiego\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/act-inc-mgmt-best-prac-plugin-sd.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -35,8 +36,8 @@ The Incident Management Best Practice – San Diego plugin modifies the problem 
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
-**Parent Topic:**[Incident Management Best Practice – San Diego](../concept/inc-mgmt-best-prac-plugin-sd.md)
+**Parent Topic:**[Incident Management Best Practice – San Diego](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/inc-mgmt-best-prac-plugin-sd.md)
 

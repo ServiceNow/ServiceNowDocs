@@ -2,13 +2,14 @@
 title: Contextual variables for config data
 description: Contextual variables are out-of-the-box variables delivered by ServiceNow that enable you to use the context of a node to define a variable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-family/cdm-context-var.html
 release: zurich
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [CDM data model, Reference, DevOps Config, IT Service Management]
+breadcrumb: [CDM data model, DevOps Config reference, DevOps Config, IT Service Management]
 ---
 
 # Contextual variables for config data
@@ -37,5 +38,5 @@ The available out-of-the-box contextual variables are:
 |RELATIVE\_PATH|The file path of the collection, relative to the deployable.|
 |RELATIVE\_PARENT\_PATH|The file path of the parent to the node.|
 
-**Parent Topic:**[CDM data model](cdm-data-model.md)
+**Parent Topic:**[CDM data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/cdm-data-model.md)
 

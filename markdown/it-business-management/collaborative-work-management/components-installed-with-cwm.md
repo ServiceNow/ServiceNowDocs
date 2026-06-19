@@ -2,6 +2,7 @@
 title: Components installed with Collaborative Work Management
 description: Several types of components are installed with activation of the Collaborative Work Management application, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/collaborative-work-management/components-installed-with-cwm.html
 release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -99,6 +100,20 @@ Allows users to view and edit project tasks and demand tasks.
 </td><td>
 
 sn\_stm.team\_member\_read
+
+</td></tr><tr><td>
+
+CWM AI user
+
+ \[sn\_cwm\_ai.cwm\_ai\_user\]
+
+</td><td>
+
+Enables users to use the generative AI skills that are available with the Now Assist for CWM application.
+
+</td><td>
+
+sn\_cwm.cwm\_user
 
 </td></tr></tbody>
 </table>## Tables installed
@@ -402,5 +417,5 @@ MyWork Table Mapping
 Stores information of tasks shown in My Work such as dates, states, and assigned users.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Collaborative Work Management reference](../concept/reference-cwm.md)
+</table>**Parent Topic:**[Collaborative Work Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/reference-cwm.md)
 

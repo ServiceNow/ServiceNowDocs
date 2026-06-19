@@ -2,6 +2,7 @@
 title: Define a communication plan
 description: Define a communication plan for a task record to specify communication task and contact definitions. When specified conditions for the plan definition are met, the communication plan and its associated records are automatically attached to the task record, eliminating manual effort.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/task-communications-management/create-comm-plan-definition.html
 release: zurich
 product: Task Communications Management
 classification: task-communications-management
@@ -47,12 +48,12 @@ Role required: sn\_comm\_management.comm\_plan\_admin or admin
 
 Define a communication task for the plan.
 
--   **[Define a communication task](create-comm-task-definition.md)**  
+-   **[Define a communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/task-communications-management/create-comm-task-definition.md)**  
 Define a communication task for a communication plan. When a plan gets attached to a table, the tasks related to the plan need to be executed to resolve the issue. You can associate multiple tasks with a communication plan.
--   **[Define a communication channel](create-comm-channel-definition.md)**  
+-   **[Define a communication channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/task-communications-management/create-comm-channel-definition.md)**  
 Define a communication channel for each communication task to determine which mode of communication to use for the task when a plan is attached to a table.
--   **[Define a communication contact](create-comm-contact-definition.md)**  
+-   **[Define a communication contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/task-communications-management/create-comm-contact-definition.md)**  
 Define the recipients of a particular plan to determine the target audience involved in each communication task and the responsibilities the recipients are expected to handle. A notification for a task is sent to all individuals specified for that task.
 
-**Parent Topic:**[Working with Task Communications Management](../concept/working-with-tcm.md)
+**Parent Topic:**[Working with Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/task-communications-management/working-with-tcm.md)
 

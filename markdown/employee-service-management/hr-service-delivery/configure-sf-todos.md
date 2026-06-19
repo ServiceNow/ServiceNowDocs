@@ -2,6 +2,7 @@
 title: Configure pull todos
 description: Store one-time configuration parameters to pull tasks from HR Service Delivery Integration with SuccessFactors into the ServiceNow application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/configure-sf-todos.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

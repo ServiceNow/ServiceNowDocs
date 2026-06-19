@@ -2,6 +2,7 @@
 title: Refresh impacted services and CIs for incident
 description: The impacted services and CIs related list refreshes its records and also the records listed in the Service Offerings and Business Applications related lists based on the affected CIs. You can identify the impacted services and CIs and take necessary action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/refresh-impacted-cis.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -44,7 +45,7 @@ When you refresh impacted services, the Impacted Services/CIs, Business Applicat
 
 2.  Open the incident record for which you want to refresh the related lists those values are based on affected CIs.
 
-3.  Click the Additional actions icon ![The Additional actions icon](../image/context-menu.png) and then select **Refresh Impacted Services**.
+3.  Click the Additional actions icon \[Omitted image "context-menu.png"\] Alt text: The Additional actions icon and then select **Refresh Impacted Services**.
 
     The records in the Impacted Services/CIs, Business Applications, and Service Offerings related lists are updated.
 

@@ -2,6 +2,7 @@
 title: Influence anomaly detection in Health Log Analytics with lexical keywords
 description: Influence how Health Log Analytics finds anomalies by managing keywords it looks for in your log data. When text in log data for a source matches a lexical keyword that exceeds a specified count threshold, the system identifies an anomaly and generates an alert.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-log-anomaly-detection.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -21,23 +22,23 @@ When Health Log Analytics scans your logs, it identifies all occurrences of the 
 
 Health Log Analytics comes with many default global keywords. You can add, edit, and delete these global keywords or phrases, which apply to all source types.
 
-**Note:** To add a specified keyword associated with a specific source type, see [Configure source type capabilities in Health Log Analytics](../task/hla-source-types.md).
+**Note:** To add a specified keyword associated with a specific source type, see [Configure source type capabilities in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-source-types.md).
 
 You can manage lexical keywords as follows:
 
--   [Add, edit, or delete lexical keywords in Health Log Analytics](../task/hla-lexical-keywords-admin.md)
+-   [Add, edit, or delete lexical keywords in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-lexical-keywords-admin.md)
 
     Add, edit, and delete global keywords or phrases.
 
--   [View the lexical keywords that generate alerts in Health Log Analytics](../../health-log-analytics-operator/task/hla-op-lexical-keywords-manage.md)
+-   [View the lexical keywords that generate alerts in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-lexical-keywords-manage.md)
 
     View the list of lexical keywords that can indicate important issues in log entries. By default, the table lists only global keywords.
 
 
--   **[Add, edit, or delete lexical keywords in Health Log Analytics](../task/hla-lexical-keywords-admin.md)**  
+-   **[Add, edit, or delete lexical keywords in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-lexical-keywords-admin.md)**  
 Manage the keywords that Health Log Analytics looks for in your log data.
--   **[View the lexical keywords that generate alerts in Health Log Analytics](../../health-log-analytics-operator/task/hla-op-lexical-keywords-manage.md)**  
+-   **[View the lexical keywords that generate alerts in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-lexical-keywords-manage.md)**  
 View the list of lexical keywords that can indicate important issues in log entries.
 
-**Parent Topic:**[Controlling Health Log Analytics alert generation, prioritization, and anomaly detection](../../health-log-analytics-operator/concept/hla-controlling-alert-generation.md)
+**Parent Topic:**[Controlling Health Log Analytics alert generation, prioritization, and anomaly detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-controlling-alert-generation.md)
 

@@ -2,6 +2,7 @@
 title: Install Employee Readiness Surveys
 description: You can install Employee Readiness Surveys if you have the admin role. Installing Employee Readiness Surveys adds notification options and a default health readiness survey to the Emergency Outreach app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/emp-readiness-survey-install.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace
@@ -105,5 +106,5 @@ The Send Outreach form in Emergency Outreach has an option to send a survey inst
 
 Employee Readiness Surveys is installed on your instance. Use it by navigating to the Emergency Outreach app.
 
-**Parent Topic:**[Employee Readiness Surveys](../concept/employee-readiness-surveys.md)
+**Parent Topic:**[Employee Readiness Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/employee-readiness-surveys.md)
 

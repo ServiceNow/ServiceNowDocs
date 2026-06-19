@@ -2,6 +2,7 @@
 title: Exploring Legal Content Review
 description: The Legal Content Review \(sn\_lg\_cont\_review\) application enables authorized employees in your organization to submit Legal Content Review compliance requests and to track the progress of the request. Users in the legal department who have appropriate roles can work on and resolve these requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-content-review/explore-legal-content-review.html
 release: zurich
 product: Legal Content Review
 classification: legal-content-review
@@ -31,5 +32,5 @@ The benefits of this application include:
 -   A centralized Legal Counsel Center that enables you to track, prioritize, and work on multiple requests concurrently
 -   Real-time visibility on legal service demands that helps you make meaningful decisions
 
-**Parent Topic:**[Legal Content Review](../reference/legal-content-review.md)
+**Parent Topic:**[Legal Content Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-content-review/legal-content-review.md)
 

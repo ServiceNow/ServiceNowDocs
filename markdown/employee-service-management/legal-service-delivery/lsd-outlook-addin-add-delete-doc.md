@@ -2,6 +2,7 @@
 title: Manage attachments from Microsoft Outlook Add-In for Legal Service Delivery
 description: As a legal request fulfiller, add or delete documents in the legal request and matters from Microsoft Outlook Add-In for Legal Service Delivery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/lsd-outlook-addin-add-delete-doc.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -17,7 +18,7 @@ As a legal request fulfiller, add or delete documents in the legal request and m
 
 ## Before you begin
 
-Ensure you have installed and configured Microsoft Outlook Add-In for Legal Service Delivery. For more information, see [Configure Microsoft Outlook Add-In for Legal Service Delivery](lsd-outlook-addin-configure.md)
+Ensure you have installed and configured Microsoft Outlook Add-In for Legal Service Delivery. For more information, see [Configure Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/lsd-outlook-addin-configure.md)
 
 Role required: sn\_lg\_ops.request\_fulfiller or sn\_lg\_matter.matter\_fulfiller
 
@@ -25,7 +26,7 @@ Role required: sn\_lg\_ops.request\_fulfiller or sn\_lg\_matter.matter\_fulfille
 
 1.  Sign in to Microsoft Outlook Add-In for Legal Service Delivery.
 
-    For more information, see [Sign in to Microsoft Outlook Add-In for Legal Service Delivery](lsd-outlook-addin-login.md).
+    For more information, see [Sign in to Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/lsd-outlook-addin-login.md).
 
 2.  Add attachment to the legal request
 
@@ -35,19 +36,19 @@ Role required: sn\_lg\_ops.request\_fulfiller or sn\_lg\_matter.matter\_fulfille
 
         Legal request or matterdetails are displayed.
 
-    3.  Select Add attachments icon \(![Add attachments icon](../../ohs-incident-management/image/icon-add-attachment.png)\)
+    3.  Select Add attachments icon \(\[Omitted image "icon-add-attachment.png"\] Alt text: Add attachments icon\)
 
-        For legal matter, select the artifact from the Artifact section and then select Add attachments icon \(![Add attachments icon](../../ohs-incident-management/image/icon-add-attachment.png)\)
+        For legal matter, select the artifact from the Artifact section and then select Add attachments icon \(\[Omitted image "icon-add-attachment.png"\] Alt text: Add attachments icon\)
 
-<table id="choicetable_tly_21d_xbc"><thead><tr><th align="left" id="d659893e150">
+<table id="choicetable_tly_21d_xbc"><thead><tr><th align="left" id="d550868e150">
 
 Method
 
-</th><th align="left" id="d659893e153">
+</th><th align="left" id="d550868e153">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d659893e159">
+</th></tr></thead><tbody><tr><td id="d550868e159">
 
 **Add file from the system**
 
@@ -58,7 +59,7 @@ Steps
 3.  Select **Open**
 
 
-</td></tr><tr><td id="d659893e185">
+</td></tr><tr><td id="d550868e185">
 
 **Drag and drop file from the email**
 
@@ -77,14 +78,14 @@ Steps
 
         Legal request or matterdetails are displayed.
 
-    3.  Select Delete icon![Delete icon](../../legal-digital-forensics/image/delete-icon.png).
+    3.  Select Delete icon\[Omitted image "delete-icon.png"\] Alt text: Delete icon.
 
-        For legal matter, select the artifact from the Artifact section and then select Delete icon \(![Delete icon](../../legal-digital-forensics/image/delete-icon.png)\).
+        For legal matter, select the artifact from the Artifact section and then select Delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon\).
 
     4.  Select **Ok** on the confirmation screen.
 
         The document is deleted from the legal request.
 
 
-**Parent Topic:**[Use Microsoft Outlook Add-In for Legal Service Delivery](lsd-outlook-addin-use.md)
+**Parent Topic:**[Use Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/lsd-outlook-addin-use.md)
 

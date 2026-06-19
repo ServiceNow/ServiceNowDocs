@@ -2,6 +2,7 @@
 title: Activate HR Multi Instance Integration for Consumer
 description: You can install the HR Multi Instance Integration for Consumer application if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/activate-hr-multi-consumer.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

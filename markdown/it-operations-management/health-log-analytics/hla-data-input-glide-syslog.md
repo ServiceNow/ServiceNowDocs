@@ -2,6 +2,7 @@
 title: Configure a ServiceNow System Logs Retriever data input in Health Log Analytics manually
 description: Set up a data input for streaming log data from the ServiceNow System Log table to the HLA engine \(aka Occultus\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-data-input-glide-syslog.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -32,7 +33,7 @@ Role required: admin
 
 4.  On the form, fill in the fields.
 
-    For a description of the fields, see [ServiceNow System Logs Retriever data input configuration fields](../reference/hla-data-input-glide-syslog-ref.md).
+    For a description of the fields, see [ServiceNow System Logs Retriever data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-glide-syslog-ref.md).
 
 5.  Select **Save**.
 
@@ -45,13 +46,13 @@ The data input configuration process is complete. Health Log Analytics adds the 
 
 The data input starts streaming ServiceNow log data from the System Log table to the Health Log Analytics AI engine, based on the configured filters. Admin users can set filters to query the System Log table. Operators can monitor the logs and view the alerts that Health Log Analytics generates from them.
 
-For a description of how this data input can help you detect and resolve emerging issues in your organization's ServiceNow instance, see [Use Case: Proactive monitoring of your ServiceNow instance in Health Log Analytics](../../health-log-analytics-operator/concept/hla-use-case-syslogs.md).
+For a description of how this data input can help you detect and resolve emerging issues in your organization's ServiceNow instance, see [Use Case: Proactive monitoring of your ServiceNow instance in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-use-case-syslogs.md).
 
 **Note:** If the HLA engine is down and data has stopped streaming, a notification appears at the top of the data input configuration page. When this happens, contact ServiceNow support.
 
 ## What to do next
 
-[Make sure that the data input is streaming data.](hla-data-input-streaming.md)
+[Make sure that the data input is streaming data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-streaming.md)
 
-**Parent Topic:**[Configuring data inputs for Health Log Analytics manually](../concept/hla-data-inputs-configuring.md)
+**Parent Topic:**[Configuring data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-inputs-configuring.md)
 

@@ -2,6 +2,7 @@
 title: AI Risk and Compliance workspace
 description: The AI Risk and Compliance workspace enables the AI risk and compliance manager to view the complete risk posture of the AI assets for an enterprise.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-workspace.html
 release: zurich
 product: AI Risk Management
 classification: ai-risk-management
@@ -25,13 +26,13 @@ An AI risk and compliance manager must have a full view of the risks associated 
 
 The home page of the AI risk and compliance workspace meets these requirements and displays the relevant data across the following tabs.
 
--   [Risk and compliance dashboard](risk-and-compliance-tab-airc.md)
--   [Operations dashboard](operations-tab.md)
--   [AI cases dashboard](ai-cases-tab-airc.md)
+-   [Risk and compliance dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/risk-and-compliance-tab-airc.md)
+-   [Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/operations-tab.md)
+-   [AI cases dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/ai-cases-tab-airc.md)
 
 You can access the AI risk and compliance workspace by navigating to **All** &gt; **AI Risk and Compliance Workspace**.
 
 Select the hyperlinks to learn more about the data each of these tabs display.
 
-**Note:** Dashboards in the AI Risk and Compliance Workspace \(Risk and Compliance, Operations, and AI Cases\) display data for **Managed** AI assets only. AI assets that are marked as **Unmanaged** are excluded from dashboard widgets, metrics, and summary counts, but remain visible in inventory and list views. If you have the AI steward \[sn\_ai\_governance\_ai\_steward\] role you can mark assets as Managed or Unmanaged. For more information, see [Assets list- managed and unmanaged assets](https://www.servicenow.com/docs/access?context=assets-list-managing-and-unmanaging-assets&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Note:** Dashboards in the AI Risk and Compliance Workspace \(Risk and Compliance, Operations, and AI Cases\) display data for **Managed** AI assets only. AI assets that are marked as **Unmanaged** are excluded from dashboard widgets, metrics, and summary counts, but remain visible in inventory and list views. If you have the AI steward \[sn\_ai\_governance\_ai\_steward\] role you can mark assets as Managed or Unmanaged. For more information, see .
 

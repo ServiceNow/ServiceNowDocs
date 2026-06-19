@@ -2,6 +2,7 @@
 title: Configure an event handler for a Filter component
 description: On a technical dashboard, configure a special client script-based event handler for a Filter component so it can be followed by any Lists or Data Visualizations. It is not necessary to configure an event handler for filters on inline dashboards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/configure-event-handler-filter-lists-data-vis.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -32,9 +33,9 @@ Role required: ui\_builder\_admin, admin
 
 2.  Navigate to the UI Builder State section and add a state variable named *parFilters* of type JSON with a simple array initial value `[]`.
 
-    For more information, see [Create and bind a client state parameter to a component](https://www.servicenow.com/docs/access?context=state-parameters&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+    For more information, see Create and bind a client state parameter to a component.
 
-    ![Adding the parFilters client state parameter to a UIB page.](../../par-for-workspace/image/add-parFilters.png)
+    \[Omitted image "add-parFilters.png"\] Alt text: Adding the parFilters client state parameter to a UIB page.
 
 3.  Add a second JSON state variable named *encodedQueries* of type Object with initial value `{}`.
 
@@ -57,11 +58,11 @@ Role required: ui\_builder\_admin, admin
 
 5.  In the Client Scripts section, open the **Client Script Includes** tab.
 
-    ![The Client Script Includes tab of the Client Scripts pane on a UIB page.](../../par-for-workspace/image/client-script-includes.png)
+    \[Omitted image "client-script-includes.png"\] Alt text: The Client Script Includes tab of the Client Scripts pane on a UIB page.
 
 6.  In the **Add a script include** field, select `mergePARFilters` and click **Add**.
 
-    ![Adding the mergePARFilters script include.](../../par-for-workspace/image/add-mergePARFilters.png)
+    \[Omitted image "add-mergePARFilters.png"\] Alt text: Adding the mergePARFilters script include.
 
 7.  Close the window for configuring data, client state, and client scripts.
 
@@ -69,7 +70,7 @@ Role required: ui\_builder\_admin, admin
 
 9.  Select the **Events** tab in the configuration panel and add the page script you have created, which in our example is Apply PAR Filters, as an event handler.
 
-    ![Adding the Apply PAR Filters script as the Filter applied event handler.](../../par-for-workspace/image/add-apply-par-filters.png)
+    \[Omitted image "add-apply-par-filters.png"\] Alt text: Adding the Apply PAR Filters script as the Filter applied event handler.
 
 10. In the UI Builder, select a Record List component, if one exists.
 
@@ -79,12 +80,12 @@ Role required: ui\_builder\_admin, admin
 
     Replace &lt;list-datasource&gt; with the data source for the List component. For example, if your List shows records from the Incident \[incident\] table, enter `@state.encodedQueries.incident`.
 
-    ![In the fixed filter field on a List config panel, binding the fixedQuery property to the encodedQueries client state parameter.](../../par-for-workspace/image/configure-fixed-filter.png)
+    \[Omitted image "configure-fixed-filter.png"\] Alt text: In the fixed filter field on a List config panel, binding the fixedQuery property to the encodedQueries client state parameter.
 
 13. Repeat the previous two steps for any other List components.
 
 14. Save the page.
 
 
-**Parent Topic:**[Technical dashboards](../../performance-analytics/concept/technical-dashboards.md)
+**Parent Topic:**[Technical dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/technical-dashboards.md)
 

@@ -2,6 +2,7 @@
 title: Activate the display of product catalog visuals
 description: Turn on the display of product images shown in the product tiles of product catalogs by using the sn\_prd\_pm.show\_product\_visuals\_on\_catalog\_ui system property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/som-activate-catalog-visuals.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

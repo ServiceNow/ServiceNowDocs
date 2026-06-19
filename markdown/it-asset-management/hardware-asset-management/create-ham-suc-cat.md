@@ -2,6 +2,7 @@
 title: Create a success goal category for hardware assets
 description: Create a success goal category to associate it with the Hardware Asset Management success goal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/create-ham-suc-cat.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -32,7 +33,7 @@ Role required: ham\_admin
 
 ## Result
 
-The category that you add gets listed as an option in the **Category** field while creating a success goal for Hardware Asset Management. For more information, see [Create a success goal for Hardware Asset Management](create-suc-goal.md).
+The category that you add gets listed as an option in the **Category** field while creating a success goal for Hardware Asset Management. For more information, see [Create a success goal for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-suc-goal.md).
 
-**Parent Topic:**[Assess performance of Hardware Asset Management](../concept/suc-goal-act-hw.md)
+**Parent Topic:**[Assess performance of Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/suc-goal-act-hw.md)
 

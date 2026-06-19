@@ -2,6 +2,7 @@
 title: Override Slack integration
 description: Override Virtual Agent integration with Slack.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/override-slack-install.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -25,7 +26,7 @@ Before Utah release, an admin was able to override a Slack installation that is 
 
 Starting from Utah release, if your Slack workspace is already associated with another ServiceNow instance, but you intend to associate it with a new instance, then you must reach out to the administrator to first uninstall it from the previously associated instance.
 
-**Important:** The instructions in [Remove ServiceNow Virtual Agent integration with Slack](uninstall-virtual-agent-slack.md) are only applicable when both instances are compatible with Utah and the above releases. If one of your ServiceNow instances is on the Utah release and another on a release prior to Utah, follow the steps below.
+**Important:** The instructions in [Remove ServiceNow Virtual Agent integration with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/uninstall-virtual-agent-slack.md) are only applicable when both instances are compatible with Utah and the above releases. If one of your ServiceNow instances is on the Utah release and another on a release prior to Utah, follow the steps below.
 
 ## Procedure
 
@@ -42,5 +43,5 @@ Starting from Utah release, if your Slack workspace is already associated with a
 4.  Select **Override** to associate the instance with a new tenant.
 
 
-**Parent Topic:**[Integrating ServiceNow Virtual Agent with Slack](../concept/va-integ-slack.md)
+**Parent Topic:**[Integrating ServiceNow Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integ-slack.md)
 

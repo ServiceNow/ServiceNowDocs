@@ -2,6 +2,7 @@
 title: IBM WebSphere server discovery using probes
 description: The IBM WebSphere application server is a software framework with middleware that hosts Java-based web applications. Discovery creates or updates a CMDB record when it detects an instance of a WebSphere application server running on a Windows or Linux system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/c\_DataCollDiscoWebSphereServers.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -15,13 +16,13 @@ breadcrumb: [Software discovery, Data collected by ITOM Visibility, ITOM Visibil
 
 The IBM WebSphere application server is a software framework with middleware that hosts Java-based web applications. Discovery creates or updates a CMDB record when it detects an instance of a WebSphere application server running on a Windows or Linux system.
 
-**Note:** Starting with Visibility Content version 6.1.0, pattern-based discovery is the default method for discovering IBM WebSphere Application Servers. The WebSphere probes are disabled by default. For more information, see [IBM WebSphere Application Server discovery using patterns](../../service-mapping/reference/ibm-websphere-server-pattern.md).
+**Note:** Starting with Visibility Content version 6.1.0, pattern-based discovery is the default method for discovering IBM WebSphere Application Servers. The WebSphere probes are disabled by default. For more information, see [IBM WebSphere Application Server discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/ibm-websphere-server-pattern.md).
 
 ## Websphere discovery on Windows
 
 Requirements for discovery:
 
-For WebSphere application servers running on Windows systems, enable [PowerShell](../task/t_SetUpAMIDServerToUsePowerShell.md) on the MID Server.
+For WebSphere application servers running on Windows systems, enable [PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_SetUpAMIDServerToUsePowerShell.md) on the MID Server.
 
 ## Websphere discovery on Linux
 
@@ -33,7 +34,7 @@ Requirements for discovery:
     -   WebSphere - Get cell.xml: cat/read permissions on the `cell.xml` file
     -   WebSphere - Get server.xml: cat/read permissions on the `server.xml` file
 
-For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](../../service-mapping/reference/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
+For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
 
 ## Probes and sensors
 
@@ -104,5 +105,5 @@ These relationships are created in the CI Relationship \[cmdb\_rel\_ci\] table.
 |cmdb\_ci\_web\_service|Runs on::Runs|cmdb\_ci\_app\_server\_websphere|
 |cmdb\_ci\_websphere\_cell|Contains::Contained by|cmdb\_ci\_app\_server\_websphere|
 
-**Parent Topic:**[Software discovery](c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_Software.md)
 

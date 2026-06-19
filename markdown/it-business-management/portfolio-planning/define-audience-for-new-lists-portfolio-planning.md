@@ -2,6 +2,7 @@
 title: Define audience for new lists in Portfolio Planning
 description: Manage who can view the newly created categories and lists in the Lists page of Portfolio Planning Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/define-audience-for-new-lists-portfolio-planning.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -18,7 +19,7 @@ Manage who can view the newly created categories and lists in the Lists page of 
 
 ## Before you begin
 
-[Customize Lists in Portfolio Planning Workspace](customize-lists-in-portfolio-planning-workspace.md).
+[Customize Lists in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/customize-lists-in-portfolio-planning-workspace.md).
 
 Role required: admin
 
@@ -30,7 +31,7 @@ Role required: admin
 
 3.  On the form, fill in the fields.
 
-    For field information, see [List Applicability form](../reference/list-applicability-form-portfolio-planning.md).
+    For field information, see [List Applicability form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/list-applicability-form-portfolio-planning.md).
 
 4.  Select **Submit**.
 

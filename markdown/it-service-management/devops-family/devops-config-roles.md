@@ -2,20 +2,21 @@
 title: DevOps Config roles
 description: DevOps Config uses these roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-family/devops-config-roles.html
 release: zurich
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Reference, DevOps Config, IT Service Management]
+breadcrumb: [DevOps Config reference, DevOps Config, IT Service Management]
 ---
 
 # DevOps Config roles
 
 DevOps Config uses these roles.
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 <table id="table_j2c_z4g_wpb"><thead><tr><th>
 
@@ -103,8 +104,8 @@ DevOps Config admin
 -   sn\_cdm.cdm\_admin
 
 </td></tr></tbody>
-</table>-   **[Roles in CDM](../../configuration-data-management/reference/cdm-roles.md)**  
+</table>-   **[Roles in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/cdm-roles.md)**  
 List of roles and permissions in CDM.
 
-**Parent Topic:**[DevOps Config reference](devops-config-reference.md)
+**Parent Topic:**[DevOps Config reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/devops-config-reference.md)
 

@@ -2,6 +2,7 @@
 title: Request a safety data sheet \(SDS\)
 description: You can request a safety data sheet \(SDS\) from the chemical record to view the safety data for that chemical. The SDS can be downloaded in different languages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety/hs-request-safety-data-sheet-sds.html
 release: zurich
 product: Health and Safety
 classification: health-and-safety
@@ -27,7 +28,7 @@ To request SDS in different languages, the plugin 3E spoke \(com.sn\_hs\_spoke\_
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
-2.  In the primary navigation, select **Environmental Management** \(![environmental management](../image/icon-hs-envt-mgmt.png)\) icon.
+2.  In the primary navigation, select **Environmental Management** \(\[Omitted image "icon-hs-envt-mgmt.png"\] Alt text: environmental management\) icon.
 
 3.  Select the **Chemicals** list and then select **All**.
 
@@ -46,5 +47,5 @@ To request SDS in different languages, the plugin 3E spoke \(com.sn\_hs\_spoke\_
 
 The SDS is requested from the service provider. The SDS request is displayed in the **Service provider requests** related list of the chemical record. The document is added to the **Documents** related list when the response is received from the service provider.
 
-**Parent Topic:**[Chemical management](../concept/hs-using-chemical-management.md)
+**Parent Topic:**[Chemical management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-using-chemical-management.md)
 

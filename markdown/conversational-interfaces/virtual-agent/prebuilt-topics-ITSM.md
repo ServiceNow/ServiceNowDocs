@@ -2,6 +2,7 @@
 title: Prebuilt Virtual Agent topics, topic blocks, and ServiceNow NLU models
 description: Prebuilt Virtual Agent conversations \(topics\), reusable topic blocks, and ServiceNow NLU models are available for the Virtual Agent platform and various business applications, such as Customer Service Management, HR Service Delivery, IT Service Management, and more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/prebuilt-topics-ITSM.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -31,66 +32,66 @@ Activation
 
 </th></tr></thead><tbody><tr><td>
 
-[Customer Service Virtual Agent conversations](https://www.servicenow.com/docs/access?context=csm-virtual-agent-chatbot&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
+Customer Service Virtual Agent conversations
 
 </td><td>
 
 Plugin name: com.sn\_csm.virtualagent
 
- For more information about activating a plugin, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+ For more information about activating a plugin, see .
 
 </td></tr><tr><td>
 
-[Field Service Virtual Agent Conversations](https://www.servicenow.com/docs/access?context=fsm-va-conversation&version=zurich&pubname=zurich-field-service-management&ft:locale=en-US)
+Field Service Virtual Agent Conversations
 
 </td><td>
 
 Request the Field Service Virtual Agent Conversations and Field Service NLU Model for Virtual Agent Conversations apps from the ServiceNow Store.
 
- Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 </td></tr><tr><td>
 
-[Human Resources Virtual Agent conversations](https://www.servicenow.com/docs/access?context=hr-virtual-agent-conversations&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US)
+Human Resources Virtual Agent conversations
 
 </td><td>
 
 Request the HR Service Delivery Virtual Agent Conversations app from the ServiceNow Store.
 
- Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 </td></tr><tr><td>
 
-[ITSM Virtual Agent Conversations](https://www.servicenow.com/docs/access?context=itsm-virtual-agent&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+ITSM Virtual Agent Conversations
 
 </td><td>
 
 Request ITSM Virtual Agent and the ITSM NLU Model for Virtual Agent Conversations from the ServiceNow Store.
 
- Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 </td></tr><tr><td>
 
-[Legal Virtual Agent Conversations](https://www.servicenow.com/docs/access?context=legal-va-conversations&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US)
+
 
 </td><td>
 
 Request Legal Virtual Agent Conversations from the ServiceNow Store.
 
- Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 </td></tr><tr><td>
 
 Virtual Agent Platform topics and topic blocks
 
--   [Virtual Agent Designer setup topics](../concept/working-setup-topics.md)
--   [Virtual Agent pre-built topic blocks for NLU](va-platform-topicblocks.md) \(such as Agent Availability, AI Search, and FAQ Conversation Builder\)
+-   [Virtual Agent Designer setup topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/working-setup-topics.md)
+-   [Virtual Agent pre-built topic blocks for NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-platform-topicblocks.md) \(such as Agent Availability, AI Search, and FAQ Conversation Builder\)
 
 </td><td>
 
 Plugin name: com.glide.cs.chatbot
 
- For more information about activating a plugin, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+ For more information about activating a plugin, see .
 
 </td></tr></tbody>
 </table>**Note:** The plugins for the CSM, HR Service Delivery, and ITSM predefined conversations also install their prebuilt ServiceNow NLU models and topic blocks. The Glide Virtual Agent plugin installs the prebuilt NLU model for setup topics, as well as platform topic blocks.
@@ -100,14 +101,14 @@ After installing the plugins or apps, you can preview \(test\) the topics and to
 ## Working with prebuilt topics and topic blocks in Virtual Agent Designer
 
 -   Previewing topics and topic blocks – After you install the plugins for prebuilt topics, admins or Virtual Agent admins can access the prebuilt topics and topic blocks in the Virtual Agent Designer home page. Select the topic and in the **Flow** tab, select **Test**. Review the conversation as it runs in the test window to determine the topics and topic blocks that you want to use.
--   Using prebuilt topics and topic blocks – Although prebuilt topics and topic blocks are read only and can't be changed, you can reuse them by [duplicating](../task/duplicate-virtual-agent-topic.md) and modifying them as needed. After you test a duplicated topic and are ready to deploy it to your Virtual Agent clients, [publish](../task/publish-virtual-agent-topic.md) the topic. Similarly, after testing a duplicated topic block, publish it to make it available for use in conversation \(calling\) topics.
+-   Using prebuilt topics and topic blocks – Although prebuilt topics and topic blocks are read only and can't be changed, you can reuse them by [duplicating](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/duplicate-virtual-agent-topic.md) and modifying them as needed. After you test a duplicated topic and are ready to deploy it to your Virtual Agent clients, [publish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md) the topic. Similarly, after testing a duplicated topic block, publish it to make it available for use in conversation \(calling\) topics.
 
-For details on creating, testing \(previewing\), duplicating, and publishing a topic, see [Getting started with Virtual Agent Designer](conversation-designer-virtual-agent.md). For details on working with topic blocks, see [Maximizing code reuse with topic blocks](../concept/topic-blocks-overview.md).
+For details on creating, testing \(previewing\), duplicating, and publishing a topic, see [Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md). For details on working with topic blocks, see [Maximizing code reuse with topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/topic-blocks-overview.md).
 
 ## Working with prebuilt ServiceNow NLU models in ServiceNow NLU Workbench
 
 -   Reviewing a prebuilt NLU model – After you install the plugins for predefined topics, you can view the prebuilt models in NLU Workbench. The prebuilt NLU models for ServiceNow applications define the intents, entities, and utterances used for the predefined topics. These models are also trained and published. You can also review the utterances for a prebuilt model in Virtual Agent Designer. However to copy a prebuilt model, you use NLU Workbench.
--   Duplicating prebuilt NLU models – Although prebuilt NLU models are read only and can't be edited, you can [Duplicate an NLU model](https://www.servicenow.com/docs/access?context=clone-nlu-model&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) prebuilt NLU models to create your own NLU models and [Import an NLU intent](https://www.servicenow.com/docs/access?context=import-nlu-intent&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) from prebuilt models or other NLU models that you create in NLU Workbench.
+-   Duplicating prebuilt NLU models – Although prebuilt NLU models are read only and can't be edited, you can Duplicate an NLU model prebuilt NLU models to create your own NLU models and Import an NLU intent from prebuilt models or other NLU models that you create in NLU Workbench.
 
-For details on creating, training, and publishing ServiceNow NLU models, see [Natural Language Understanding](https://www.servicenow.com/docs/access?context=nlu-landing&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+For details on creating, training, and publishing ServiceNow NLU models, see .
 

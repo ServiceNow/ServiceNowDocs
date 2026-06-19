@@ -1,0 +1,45 @@
+---
+title: View and update an individual country’s consent policy
+description: View a list of all countries with their assigned consent policies and select a country to update its existing policy.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/usage-insights/uxa-view-policy-country.html
+release: zurich
+product: Usage Insights
+classification: usage-insights
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Types of tracking consent policies, User privacy, tracking, and consent, Configure, Usage Insights, Platform Analytics]
+---
+
+# View and update an individual country’s consent policy
+
+View a list of all countries with their assigned consent policies and select a country to update its existing policy.
+
+## Before you begin
+
+Role required: admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **User Administration** &gt; **Countries**.
+
+    The Countries page displays.
+
+2.  In the page header, right-click to display a menu and select **View** &gt; **User Experience Analytics**
+
+    \[Omitted image "uxa-countries-view.png"\] Alt text: How to view User Experience Analytics polices according to country.
+
+    The selected view displays all countries and their allocated consent tracking policies.
+
+3.  Select the country name, whose consent tracking policy you want to update.
+
+4.  In the Analytics Consent Policy field within the Country page, select the search icon \(\[Omitted image "search-icon.png"\] Alt text: Search icon.\).
+
+5.  Select the new **Analytics Consent Policy**.
+
+6.  Select **Update**.
+
+
+**Parent Topic:**[Types of tracking consent policies in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/uxa-tracking-types.md)
+

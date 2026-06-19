@@ -2,6 +2,7 @@
 title: Working with Application Insights graphs
 description: View key performance metrics for your instance using Application Insights graphs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-performance/working-with-application-insights-graphs.html
 release: zurich
 product: Platform Performance
 classification: platform-performance
@@ -15,7 +16,7 @@ breadcrumb: [Application Insights, Monitor, Platform performance, Maintain and m
 
 View key performance metrics for your instance using Application Insights graphs.
 
-Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the [Overview of Instance Observer](https://www.servicenow.com/docs/access?context=io-overview&version=zurich&pubname=zurich-impact&ft:locale=en-US) product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
+Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the  product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -77,10 +78,10 @@ The median, average, and 95th percentile values for each node are displayed in t
 -   To group records in the list by label, select the column options menu and then select **Group by**.
 -   To filter records in the list, select the column options menu and then select **Filter**. Enter a condition and value.
 
--   **[Application Insights overview graphs and metrics](overview-graphs-and-metrics.md)**  
+-   **[Application Insights overview graphs and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/overview-graphs-and-metrics.md)**  
 The Application Insights overview graphs provide consolidated views of key metrics.
--   **[Application Insights detail graphs and metrics](detail-graphs-and-metrics.md)**  
+-   **[Application Insights detail graphs and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/detail-graphs-and-metrics.md)**  
 The Application Insights detail graphs provide views of individual metrics at the node level.
 
-**Parent Topic:**[Application Insights](application-insights.md)
+**Parent Topic:**[Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/application-insights.md)
 

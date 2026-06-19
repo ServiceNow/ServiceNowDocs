@@ -2,6 +2,7 @@
 title: Manually create GRC issues using the Compliance Workspace
 description: Using the Compliance Workspace, GRC you can manually create issues to document policy, risk, or audit observations, or to accept any GRC problems. You can also identify the source of the issue to help analyze and classify the issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/manually-create-issues-ws.html
 release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -23,7 +24,7 @@ Role required: compliance\_admin, compliance\_manager, or sn\_compliance.user
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, click the List icon \(![List](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the Compliance Workspace, click the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List\).
 
 3.  Navigate to **Issues** &gt; **All issues**.
 
@@ -31,7 +32,7 @@ Role required: compliance\_admin, compliance\_manager, or sn\_compliance.user
 
 4.  Click **New**.
 
-    For field descriptions of the Create New Issue form, see [Compliance workspace issue form](../reference/new-issue-form-compliance-ws.md).
+    For field descriptions of the Create New Issue form, see [Compliance workspace issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/new-issue-form-compliance-ws.md).
 
     **Note:** Starting with Version 12.0.1 of the Policy and Compliance Management application, the minimum role for the **Assigned to** user on the Issues form is GRC Business User \[sn\_grc.business\_user\]. The minimum role for the **Issue manager** is GRC User \[sn\_grc.\_user\].
 
@@ -43,7 +44,7 @@ Role required: compliance\_admin, compliance\_manager, or sn\_compliance.user
 
     If the due date for the SLA changes, a new SLA is created. The SLA is completed when the issue transitions to **Closed Complete** or **Closed Incomplete**. Also, if the **Due date** or **Assigned to** fields are empty, or the state is New, the SLA is cancelled.
 
-    Also starting with Version 12.0.1, remediation tasks can be created by users with the **Assigned to** user and issue manager, as well as any user with the [GRC Business User role](../../grc-policy-compliance-implementation/task/assign-user-roles.md).
+    Also starting with Version 12.0.1, remediation tasks can be created by users with the **Assigned to** user and issue manager, as well as any user with the [GRC Business User role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/assign-user-roles.md).
 
     You can navigate to the issue record that you created and use the related lists to.
 
@@ -52,7 +53,7 @@ Role required: compliance\_admin, compliance\_manager, or sn\_compliance.user
     -   Relate the issue to different type of objects.
     **Note:** If the issue is closed, then you cannot create, add, or remove any of the objects from the issue form. You can view the Control, Control objective, Authority document, Policy, Engagement related lists in the Issue Overview page. However, the UI action buttons in each of these related lists such as New, Add, and Remove are inactive.
 
-    ![Related lists in Issue form.](../image/IssueFormRelatedLists.png "Related lists in the Issue form")
+    \[Omitted image "IssueFormRelatedLists.png"\] Alt text: Related lists in Issue form.
 
     The related lists in the issue form for each type of object where the issue can be linked helps to:
 

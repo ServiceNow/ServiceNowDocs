@@ -2,7 +2,10 @@
 title: Modify an entitlement
 description: Modify an entitlement associated to an account so that you can update its existing configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/cce-modify-entitlement.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -36,11 +39,11 @@ Role required:
 
 6.  On the Configurator UI, modify the existing configurations for the selected entitlement.
 
-    To learn more about the Configurator UI, see [Exploring Sales Customer Relationship Management](https://www.servicenow.com/docs/access?context=som-exploring&version=zurich&pubname=zurich-order-management&ft:locale=en-US).
+    To learn more about the Configurator UI, see .
 
 7.  Select **Update**.
 
-    An order or a quote will be created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](../concept/create-cont-ent-workflows-csm.md#section_qp4_rxv_tcc).
+    An order or a quote will be created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-cont-ent-workflows-csm.md).
 
     -   If the selected target entity is a quote, a quote to modify the entitlement is created. You can click the quote number from the confirmation message to view the modified quote line items. The quote is approved and the status changes to **Complete** to create an order.
     -   If the selected target entity is an order, an order to modify the entitlement is created. You can click the order number from the confirmation message to view the modified order line items.

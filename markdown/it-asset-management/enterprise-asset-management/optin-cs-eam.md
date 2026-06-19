@@ -2,6 +2,7 @@
 title: Opt-in to Enterprise Asset Management Content Service
 description: Opt in to the Enterprise Asset Management Content Service to share unnormalized enterprise model data from your organization with ServiceNow to improve the normalization process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/optin-cs-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -23,13 +24,13 @@ Role required: sn\_eam.enterprise\_admin
 
 1.  Navigate to **Enterprise Asset Workspace** &gt; **Admin center** &gt; **Normalization opt-in**.
 
-    ![Opt-in for Enterprise Asset Management Content Service](../image/opt-in-eam.png)
+    \[Omitted image "opt-in-eam.png"\] Alt text: Opt-in for Enterprise Asset Management Content Service
 
 2.  Select **Opt-In Agreement** to read the agreement and then select the check box, **Yes, I have read and accept the Opt-in Agreement**.
 
 3.  Select **Opt-In**.
 
-    ![Opt-in page showing the enterprise model data](../image/opt-in-modeldata.png)
+    \[Omitted image "opt-in-modeldata.png"\] Alt text: Opt-in page showing the enterprise model data
 
     After you opt in, the Enterprise Models, Enterprise Model Lifecycles, Firmware Discovery Models, Firmware Model Lifecycles, Custom Firmware Models KPIs, and Custom Firmware CPE mapping are automatically enabled. The Custom Enterprise Product Models KPI is automatically disabled.
 

@@ -2,6 +2,7 @@
 title: Configure repeating pattern finding definition
 description: Configure a repeating pattern finding definition to view a pattern with a series of repeating sequence of steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/repeating-pattern.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -21,13 +22,13 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 Repeating pattern finding definition displays the repetition of a specific order of steps. This brings the focus to the areas where you want to improve or automate certain parts or the process that are revisited.
 
-![Repeating patterns](../image/repeating-patterns.png)
+\[Omitted image "repeating-patterns.png"\] Alt text: Repeating patterns
 
 ## Procedure
 
 1.  Navigate to Improvement opportunity definition page.
 
-    For information about the Improvement opportunity definition page, see [Set improvement opportunities](improve-opportunities.md).
+    For information about the Improvement opportunity definition page, see [Set improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/improve-opportunities.md).
 
 2.  Select **Create** on the Repeating pattern card.
 
@@ -35,7 +36,7 @@ Repeating pattern finding definition displays the repetition of a specific order
 
 3.  Provide details in the **Define** section.
 
-    For details, see [Rule-based finding definition form from Finding Builder](../reference/finding-definition-form.md).
+    For details, see [Rule-based finding definition form from Finding Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/finding-definition-form.md).
 
 4.  Select **Configure**.
 
@@ -45,7 +46,7 @@ Repeating pattern finding definition displays the repetition of a specific order
 
     Default values are provided. You can edit them if needed.
 
-    ![Repeating patterns configuration](../image/repeating-patterns-config.png)
+    \[Omitted image "repeating-patterns-config.png"\] Alt text: Repeating patterns configuration
 
     According to the example, records that meet the following conditions will be available as improvement opportunities in the Summary and insights page:
 
@@ -55,5 +56,5 @@ Repeating pattern finding definition displays the repetition of a specific order
 6.  Select **Save and exit**.
 
 
-**Parent Topic:**[Automated improvement opportunities](../concept/automated-findings.md)
+**Parent Topic:**[Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/automated-findings.md)
 

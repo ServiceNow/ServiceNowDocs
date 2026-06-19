@@ -2,6 +2,7 @@
 title: Salesforce amendments and ServiceNow CPQ
 description: A brief look at the Logik amendments feature, which adds and updates fields in existing objects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/salesforce\_amendments\_and\_logik\_io.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

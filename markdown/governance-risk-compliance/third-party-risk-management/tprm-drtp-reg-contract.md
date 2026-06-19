@@ -2,6 +2,7 @@
 title: Create a contract and enhance digital resilience data
 description: Create a contract record in Digital resilience third-party registers using Third-party Risk Management where you add details of the contract such as vendor name, start and end dates, state, substate. You can then enhance its digital resilience information for compliance with DORA regulation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-contract.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -31,13 +32,13 @@ You can navigate to the contracts from the Contracts menu item in Digital resili
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Digital resilience third-party registers**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Digital resilience third-party registers**.
 
 2.  Select **Contracts** and then create a contract by selecting **New**.
 
 3.  On the form, fill in the fields.
 
-    For descriptions of all these fields, see [Create New Contract form](../reference/tprm-create-new-contract-form.md).
+    For descriptions of all these fields, see [Create New Contract form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-create-new-contract-form.md).
 
 4.  Select **Save**.
 
@@ -83,7 +84,7 @@ You can navigate to the contracts from the Contracts menu item in Digital resili
 
 24. Select **Save**.
 
-    For descriptions of all these fields, see [Create New Contractual arrangement form](../reference/tprm-create-new-cont-arrange-form.md).
+    For descriptions of all these fields, see [Create New Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-create-new-cont-arrange-form.md).
 
     **Note:** The annual expense may be converted during report generation if currency conversion is enabled. If aggregation is enabled and all criteria are met, contract expenses may also be combined into a provider‑level total.
 

@@ -2,6 +2,7 @@
 title: Improving search engine optimization for portals
 description: Search engine optimization \(SEO\) helps portal users find the information they need and be more engaged with your portal. Adding SEO information to your public portal pages improves how external search engines index and rank pages to make them more findable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/seo-sp.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -33,20 +34,20 @@ Using a Service Catalog page as an example, the following URL includes a sys\_id
 
 In this example, the sys\_id is for the iPad pro catalog item. The sc\_cat\_item page has been configured to generate a dynamic title and dynamic keywords in the URL based on the **Name** field of the catalog item record.
 
-![Dynamic page title and URL keywords based on the catalog item sys_id specified by the URL parameter](../image/dyn-page-ex.png)
+\[Omitted image "dyn-page-ex.png"\] Alt text: Dynamic page title and URL keywords based on the catalog item sys\_id specified by the URL parameter
 
--   **[Add human readable keywords to page URLs](../task/add-human-readable-keywords-page-urls.md)**  
+-   **[Add human readable keywords to page URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/add-human-readable-keywords-page-urls.md)**  
 Add human readable keywords to the URLs of portal pages to improve search engine optimization \(SEO\) and click-through rates and help users understand what to expect on the page.
--   **[Add meta tags to a public page](../task/seo-tags.md)**  
+-   **[Add meta tags to a public page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/seo-tags.md)**  
 Improve the searchability of Service Portal pages by adding meta tags. You can add the meta name and description attributes to a page, define the robots attribute, or create dynamic meta tags for pages that load record data based on a URL parameter.
--   **[Add dynamic titles to a page](../task/add-page-title.md)**  
+-   **[Add dynamic titles to a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/add-page-title.md)**  
 Create variables to generate descriptive titles depending on the content loaded into a page.
--   **[Configure the main tag on a page](../task/configure-main-tag-on-page.md)**  
+-   **[Configure the main tag on a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/configure-main-tag-on-page.md)**  
 Specify the main content of a page to include in the **&lt;main&gt;** tag to improve search engine optimization and accessibility.
--   **[Enable SEO for localized versions of a portal page](../task/seo-header-tags.md)**  
+-   **[Enable SEO for localized versions of a portal page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/seo-header-tags.md)**  
 Allow users to discover portal pages in their preferred language by adding **hreflang** tags.
--   **[Sitemap Generator](sitemap-generator.md)**  
+-   **[Sitemap Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/sitemap-generator/sitemap-generator.md)**  
 Use the ServiceNow® Sitemap Generator application to define and automatically generate XML sitemaps to improve search engine optimization of public portal pages.
 
-**Parent Topic:**[Service Portal](c_ServicePortal.md)
+**Parent Topic:**[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/c_ServicePortal.md)
 

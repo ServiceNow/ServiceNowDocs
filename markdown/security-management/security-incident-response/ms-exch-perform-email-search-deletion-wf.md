@@ -2,6 +2,7 @@
 title: Microsoft Exchange - Perform Email Search and Deletion flow
 description: When the Microsoft Exchange - Perform Email Search and Deletion flow is executed, it searches the Exchange server using the search query provided, and returns the details to the on-premises instance.The Create Compliance Search Preview Action creates a new compliance search action of type preview on the exchange server for the created compliance search.The Preview Action Status checks the status of compliance search action of type preview and returns the preview information of the emails found like recipient, sender, subject, email date received.The Create Compliance Search Delete Action creates a new compliance search action of type purge on the exchange server for the created compliance search.The Check Delete Action Status checks the status of compliance search action of type purge and performs soft delete operation on the exchange server for the emails found as a part of compliance search.The Remove Compliance Search action removes the created compliance search from exchange server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/ms-exch-perform-email-search-deletion-wf.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -23,12 +24,12 @@ Role required: sn\_si.analyst
 
 The **Microsoft Exchange - Perform Email Search and Deletion** flow is executed when email searches are set up and the **Delete from Email Server\(s\)** or **Search on Email Server\(s\)** button are pressed.
 
-Actions specific to this integration are described here. For more information on other actions, see [Common Security Operations integration flows and orchestration activities](../../../security-operations-common/concept/common-wf-activities.md).
+Actions specific to this integration are described here. For more information on other actions, see [Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/common-wf-activities.md).
 
 The flow actions include:
 
--   [Create Compliance Search Action](../reference/get-email-details-from-exch-server.md)
--   [Check Compliance Search Status Action](../reference/search-delete-email-threat-exchange.md)
+-   [Create Compliance Search Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/get-email-details-from-exch-server.md)
+-   [Check Compliance Search Status Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/search-delete-email-threat-exchange.md)
 
 ## Create Compliance Search Preview Action
 

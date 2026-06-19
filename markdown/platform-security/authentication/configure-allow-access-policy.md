@@ -2,6 +2,7 @@
 title: Configure an authentication policy
 description: Configure an authentication policy to define inputs and conditions to used to grant access to an instance or enforce multi-factor authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/configure-allow-access-policy.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -43,9 +44,9 @@ Role required: admin
 
 5.  Select one or more filter criteria from the **Collection** list and move them to **Policy Inputs List** of **Allow Access Policy** list.
 
-    ![sample filter criteria for allow access policy](../images/filter-criteria-allow-access-policy.png)
+    \[Omitted image "filter-criteria-allow-access-policy.png"\] Alt text: sample filter criteria for allow access policy
 
-    **Note:** For information on creating your own filter criteria to use in this section, see [Filter criteria](../concept/adaptive-auth-filter-criteria.md).
+    **Note:** For information on creating your own filter criteria to use in this section, see [Filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/adaptive-auth-filter-criteria.md).
 
 6.  From the **Policy Conditions** tab, click **New**.
 

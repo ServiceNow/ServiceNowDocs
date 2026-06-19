@@ -2,6 +2,7 @@
 title: Collecting risk scores in Contact Tracing
 description: Identify at-risk and potentially exposed users by importing and monitoring risk scores from their wearable devices and external systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contact-tracing/contact-tracing-collect-risk-scores.html
 release: zurich
 product: Contact Tracing
 classification: contact-tracing
@@ -23,8 +24,8 @@ The Devvio DevvTrace platform collects data from supported wearable devices and 
 -   Create cases and work notes automatically if a risk score is equal to or greater than a risk threshold value.
 -   Examine the Daily Risk Scores for Devvio users report to analyze daily trends. The indicator source for use in Performance Analytics is Devvio.Users.Risk.Report.
 
--   **[Configure Devvio integration](../task/configure-devvio-integration.md)**  
+-   **[Configure Devvio integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/configure-devvio-integration.md)**  
 Configure Contact Tracing properties to import risk scores from the DevvTrace platform using the Devvio API.
 
-**Parent Topic:**[Contact Tracing](contact-tracing.md)
+**Parent Topic:**[Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/contact-tracing.md)
 

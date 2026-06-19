@@ -2,6 +2,7 @@
 title: Generate a work order task summary
 description: Generate a summary directly from the work order task record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/now-assist-for-field-service-management-fsm/generate-wot-summ-fsm.html
 release: zurich
 product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm
@@ -34,11 +35,11 @@ A summary is generated for the work order task.
 
 Alex the agent is finishing a printer repair task. To wrap up the task, they generate a summary using the procedure.
 
-![Summary generated for the work order task.](../image/generate-summary-na.png)
+\[Omitted image "generate-summary-na.png"\] Alt text: Summary generated for the work order task.
 
 ## What to do next
 
 You can mark the summary as helpful or unhelpful, copy the summary, or refresh to generate the summary again.
 
-**Parent Topic:**[Using Now Assist for Field Service Management \(FSM\)](../concept/using-now-assist-fsm.md)
+**Parent Topic:**[Using Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/now-assist-for-field-service-management-fsm/using-now-assist-fsm.md)
 

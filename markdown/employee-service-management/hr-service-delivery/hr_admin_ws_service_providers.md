@@ -2,6 +2,7 @@
 title: Admin Workspace for Service Providers overview
 description: HR Admin Service Provider is a consolidated view of customers service usage and consumption, which gives service provider admins the opportunity to make data driven decisions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr\_admin\_ws\_service\_providers.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

@@ -2,6 +2,7 @@
 title: Run Update formula script for ITSM Success Dashboard indicators
 description: Run the UpdateFormulasSD script to recalculate all the formulas in ITSM Success Dashboard indicators if you see outdated data in the dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-success-dashboard-indicators/run-the-update-formula-script.html
 release: zurich
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -30,5 +31,5 @@ Role required: admin
     **Note:** `UpdateFormulasSD` is a scheduled job that executes once in 24 hours.
 
 
-**Parent Topic:**[Configuring ITSM Success Dashboard indicators](../concept/configure-success-dashboards.md)
+**Parent Topic:**[Configuring ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-success-dashboard-indicators/configure-success-dashboards.md)
 

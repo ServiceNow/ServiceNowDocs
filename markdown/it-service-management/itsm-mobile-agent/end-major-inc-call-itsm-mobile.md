@@ -2,6 +2,7 @@
 title: End a conference call from major incident
 description: A host or a user with the major incident manager role can end the conference call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/end-major-inc-call-itsm-mobile.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -27,14 +28,14 @@ Role required: major\_incident\_manager, itil, itil\_admin, or admin
 
 3.  Tap **Active collaborations**.
 
-    ![Active collaborations in major incident tab.](../image/major-inc-active-collab.png)
+    \[Omitted image "major-inc-active-collab.png"\] Alt text: Active collaborations in major incident tab.
 
-4.  Tap ![More options](../image/more-options-itsm-mobile-agent.png).
+4.  Tap \[Omitted image "more-options-itsm-mobile-agent.png"\] Alt text: More options.
 
 5.  To end the call tap **End call** button.
 
     Tap **Cancel** to resume the conference call.
 
-    ![More options.](../image/end-conf-call-maj-inc.png)
+    \[Omitted image "end-conf-call-maj-inc.png"\] Alt text: More options.
 
 

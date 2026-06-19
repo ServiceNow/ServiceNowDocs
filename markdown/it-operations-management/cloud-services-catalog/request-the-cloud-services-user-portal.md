@@ -2,6 +2,7 @@
 title: Requesting Cloud Services
 description: Submit a request for one of the available service catalog item in cloud services. You can find the catalogs under Browse Cloud Services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/request-the-cloud-services-user-portal.html
 release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -34,5 +35,5 @@ Role required: sn\_cmp.cloud\_service\_user
     When you submit a request for an item in the service catalog, the system typically provisions the stack immediately. Sometimes, your request must be approved first.
 
 
-**Parent Topic:**[Using Cloud Services Catalog](../concept/using-cloud-services-catalog.md)
+**Parent Topic:**[Using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/using-cloud-services-catalog.md)
 

@@ -2,6 +2,7 @@
 title: GlideMenu \(g\_menu and g\_item\) - Client
 description: The GlideMenu API provides methods that can be used in UI context menus and in onShow scripts to customize UI context menu items.Clears the image for an item.Clears any selection images from items in the menu.Returns a menu item by item ID.Disables a menu item so that it cannot be selected. The disabled menu item is displayed in a lighter color \(grayed out\) to indicate it is disabled.Enables the specified menu item.Hides the specified menu item.Sets an image for an item.Sets the display label for a menu item. The label may contain HTML.Displays the specified item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/c\_GlideMenuAPI.html
 release: zurich
 product: API Reference
 classification: api-reference
@@ -20,7 +21,7 @@ There is no constructor for the GlideMenu class. Access GlideMenu methods using 
 -   `g_menu` is the UI context menu that is about to be shown. The `onShow` script can make changes to the appearance of the menu before it is displayed using these methods.
 -   `g_item` is the current UI context menu item that is about to be shown. It is used in several of the g\_menu methods to specify an item.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/api-client.md)
 
 ## GlideMenu - clearImage\(GlideMenuItem item\)
 

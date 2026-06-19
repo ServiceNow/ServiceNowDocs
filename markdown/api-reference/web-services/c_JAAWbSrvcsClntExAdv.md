@@ -2,6 +2,7 @@
 title: Java Apache Axis2 web services client examples advanced
 description: Examples showing how to construct and use an Axis2 client to consume a ServiceNow Web Service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/c\_JAAWbSrvcsClntExAdv.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -27,9 +28,6 @@ This example uses Eclipse SDK Version: 3.4.2 for managing the source code and ex
     -   If using wsdl2java run "java -version" on the command line and this will be the version to specify for the project specific JRE.
     -   If using the Axis2 Codegen plugin use default JRE.
 
-        ![](../image/JavaProject.png "Java Project")
-
-
 ## Generate your Axis2 client code
 
 -   From a command line in the bin directory of the axis folder:
@@ -44,7 +42,7 @@ This example uses Eclipse SDK Version: 3.4.2 for managing the source code and ex
     -   The "-o" is the path where you want the files to be written out to. If not specified, the files will be written out to the current bin location.
 -   In Eclipse refresh the project and the generated Stub and CallbackHandler should now be displayed
 
-    ![](../image/AxisStub.png "Axis Stub")
+    \[Omitted image "AxisStub.png"\] Alt text:
 
 
 ## Basic Authentication
@@ -91,5 +89,5 @@ For example:
 <Axis path>\bin\wsdl2java.bat -u -p cr2 -ns2p http://www.service-now.com/change_request=my.change_request -uri change_request
 ```
 
-**Parent Topic:**[Java Apache Axis2 web services client examples](c_JAAWbSrvcsClntEx.md)
+**Parent Topic:**[Java Apache Axis2 web services client examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_JAAWbSrvcsClntEx.md)
 

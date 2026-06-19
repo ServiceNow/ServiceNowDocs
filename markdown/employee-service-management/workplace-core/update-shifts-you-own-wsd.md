@@ -2,6 +2,7 @@
 title: Update details of the shifts that you own
 description: Review and modify the details of the workplace shifts that you own in Workplace Core. You can modify the general shift details, and add or remove employees or workplaces associated with the shift.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-core/update-shifts-you-own-wsd.html
 release: zurich
 product: Workplace Core
 classification: workplace-core
@@ -140,5 +141,5 @@ Area that is active for operation and use during this shift.
     2.  Add or remove areas and spaces.
 
 
-**Parent Topic:**[Managing workplace shifts that you own](../concept/managing-shifts-you-own-wsd.md)
+**Parent Topic:**[Managing workplace shifts that you own](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/managing-shifts-you-own-wsd.md)
 

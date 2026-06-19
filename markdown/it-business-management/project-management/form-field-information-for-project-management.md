@@ -2,6 +2,7 @@
 title: Form field information for Project Management
 description: Field information for forms used in the Project Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-management/form-field-information-for-project-management.html
 release: zurich
 product: Project Management
 classification: project-management

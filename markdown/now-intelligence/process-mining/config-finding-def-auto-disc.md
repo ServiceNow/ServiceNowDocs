@@ -2,6 +2,7 @@
 title: Configure Automation Discovery
 description: Automation Discovery helps you analyze your records and identity opportunities for automation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/config-finding-def-auto-disc.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -17,7 +18,7 @@ Automation Discovery helps you analyze your records and identity opportunities f
 
 ## Before you begin
 
-You must install the Automation Discovery application \(sn\_auto\_discovery\) before configuring. For more information, see [Install Automation Discovery](../../automation-discovery/task/install-automation-discovery.md).
+You must install the Automation Discovery application \(sn\_auto\_discovery\) before configuring. For more information, see [Install Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics/install-automation-discovery.md).
 
 Role required: administrator
 
@@ -33,7 +34,7 @@ Role required: administrator
 
 5.  Select **Enable automation discovery** and **Auto-run with model generation**, and complete the required fields.
 
-    ![auto discovery fully enabled](../image/auto-disc-enabled.png)
+    \[Omitted image "auto-disc-enabled.png"\] Alt text: auto discovery fully enabled
 
     Your project runs automation discovery with model generation automatically when both options are selected.
 
@@ -45,7 +46,7 @@ Role required: administrator
 
 8.  Open the project, and select **Automation Opportunities**
 
-    Your project's results are broken up into two categories: **Automation Opportunities** and **Not Categorized**.![auto discovery process map](../image/auto-disc-process-map.png)
+    Your project's results are broken up into two categories: **Automation Opportunities** and **Not Categorized**.\[Omitted image "auto-disc-process-map.png"\] Alt text: auto discovery process map
 
 9.  Select a record for additional information.
 
@@ -53,10 +54,10 @@ Role required: administrator
 
     If you decide not to select **Enable automation discovery** or **Auto-run with model generation**, your Automation Opportunities don’t display. From **Analyst workbench**, select **Generate report** to create a report.
 
-    ![no auto discovery enabled](../image/no-auto-disc-enabled.png)
+    \[Omitted image "no-auto-disc-enabled.png"\] Alt text: no auto discovery enabled
 
     Fill out the required fields to create your report.
 
 
-**Parent Topic:**[Integration with Automation Discovery](../concept/auto-disc.md)
+**Parent Topic:**[Integration with Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/auto-disc.md)
 

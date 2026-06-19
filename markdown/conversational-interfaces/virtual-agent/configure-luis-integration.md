@@ -2,6 +2,7 @@
 title: Configure Microsoft LUIS as the NLU provider for Virtual Agent
 description: Use the intents, entities, and utterances defined in a Microsoft Language Understanding Intelligent Service \(LUIS\) application and apply them as an NLU model for your Virtual Agent conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/configure-luis-integration.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -47,13 +48,13 @@ You can set only one NLU service provider for your instance.
 
     2.  In the HTTP\(s\) Connections page, select **MSLuisNLUModels** in the Connection alias column to open the record.
 
-        ![HTTPS Connections table, with Connection alias key and MSLuisNLUModels value highlighted.](../images/va-luis-model-connalias.png)
+        \[Omitted image "va-luis-model-connalias.png"\] Alt text: HTTPS Connections table, with Connection alias key and MSLuisNLUModels value highlighted.
 
     3.  In the Connection &amp; Credential Aliases for MSLuisNLUModels page, go to the Connection Attributes related list.
 
     4.  Find the Credential Password attribute, and then double-select in the **Default value** column to edit the value.
 
-        ![Connection & Credential Credential Aliases form for MSLuisNLUModels. Credential Password attribute and the Default value field in which you enter the Microsoft Luis authoring key are highlighted.](../images/va-luis-model-attribute.png)
+        \[Omitted image "va-luis-model-attribute.png"\] Alt text: Connection &amp; Credential Credential Aliases form for MSLuisNLUModels. Credential Password attribute and the Default value field in which you enter the Microsoft Luis authoring key are highlighted.
 
     5.  Enter the MS LUIS authoring key in the **Default value** field, and then select the save icon.
 
@@ -63,7 +64,7 @@ You can set only one NLU service provider for your instance.
         -   MSLuisNLUPrebuiltEntities
         -   MSLuisNLUIntents
         -   MSLuisNLUPrediction
-        ![HTTPS connections table, with Connection alias values for Microsoft Luis NLU values highlighted.](../images/va-luis-connection-aliases.png)
+        \[Omitted image "va-luis-connection-aliases.png"\] Alt text: HTTPS connections table, with Connection alias values for Microsoft Luis NLU values highlighted.
 
         **Note:** Repeat these steps for each Microsoft LUIS application that you use as an NLU model. Each application has its own prediction endpoint runtime key that you must provide.
 
@@ -73,7 +74,7 @@ You can set only one NLU service provider for your instance.
 
     2.  In the Open NLU Drivers table, set the **Active** field value for the **MS Luis Script** record to **true**.
 
-        ![Open NLU Drivers table, with MS Luis-Script service Active field value set to true.](../images/open-nlu-drivers-luis.png)
+        \[Omitted image "open-nlu-drivers-luis.png"\] Alt text: Open NLU Drivers table, with MS Luis-Script service Active field value set to true.
 
         **Note:** Activating this setting adds **MS Luis - Script** to the list of available NLU services in Virtual Agent settings.
 
@@ -89,12 +90,12 @@ You can set only one NLU service provider for your instance.
 
     5.  If you plan to use language-specific NLU models, enable the languages in the Supported NLU Languages list.
 
-        A language is enabled if the Enabled column displays **true**. For more information, see [Enable NLU languages in Virtual Agent settings](enable-langs-va-gen-settings.md).
+        A language is enabled if the Enabled column displays **true**. For more information, see [Enable NLU languages in Virtual Agent settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-langs-va-gen-settings.md).
 
     6.  Select **Save**.
 
     Microsoft LUIS is now the NLU service provider for your instance.
 
 
-**Parent Topic:**[Configure Natural Language Understanding in Virtual Agent](configure-nlu-settings.md)
+**Parent Topic:**[Configure Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-nlu-settings.md)
 

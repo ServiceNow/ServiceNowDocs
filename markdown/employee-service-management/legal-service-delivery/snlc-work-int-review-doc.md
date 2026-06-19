@@ -2,6 +2,7 @@
 title: Work on internal review task
 description: As a contract reviewer, review and provide feedback on contract documents
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/snlc-work-int-review-doc.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -23,58 +24,58 @@ Role required: sn\_cm\_core.contract\_reviewer
 
 1.  Open the review task.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d673207e55">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d213585e55">
 
 Method
 
-</th><th align="left" id="d673207e58">
+</th><th align="left" id="d213585e58">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d673207e64">
+</th></tr></thead><tbody><tr><td id="d213585e64">
 
 **My Work listing**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Legal Counsel Center**.
-2.  Click the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **My Work** &gt; **Requested Tasks**
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d673207e111">
+</td></tr><tr><td id="d213585e111">
 
 **Delegated to me listing**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Legal Counsel Center**.
-2.  Click the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **Delegated to me** &gt; **Contract Review Tasks**
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d673207e158">
+</td></tr><tr><td id="d213585e158">
 
 **Contract Review Tasks listing**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Legal Counsel Center**.
-2.  Click the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Under **Contract Review tasks**, select **All** or **My tasks**
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d673207e205">
+</td></tr><tr><td id="d213585e205">
 
 **Contract Request Reviews tab**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Legal Counsel Center**.
-2.  Click the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **Contract Requests** &gt; **Assigned to me**
 4.  Open the contract request from the list
 5.  Select **Reviews** tab.
@@ -92,7 +93,7 @@ Steps
     -   External storage: Select the document link to open it.
 5.  If you need additional context to review the document, request more information.
 
-    1.  Select the More Actions icon \(![More Actions icon](../../human-resources/reference/images/more-icon.png)\).
+    1.  Select the More Actions icon \(\[Omitted image "more-icon.png"\] Alt text: More Actions icon\).
 
     2.  Select **Request information**.
 
@@ -106,15 +107,15 @@ Steps
 
     The reviewer can make edits to the document, suggest changes through comments, and approve or reject any redlines.
 
-<table id="choicetable_qqw_xjr_5bc"><thead><tr><th align="left" id="d673207e356">
+<table id="choicetable_qqw_xjr_5bc"><thead><tr><th align="left" id="d213585e356">
 
 Type of storage
 
-</th><th align="left" id="d673207e359">
+</th><th align="left" id="d213585e359">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d673207e365">
+</th></tr></thead><tbody><tr><td id="d213585e365">
 
 **Internal storage**
 
@@ -130,7 +131,7 @@ Steps
 5.  Select **Submit**.
 
 
-</td></tr><tr><td id="d673207e409">
+</td></tr><tr><td id="d213585e409">
 
 **External storage**
 
@@ -150,5 +151,5 @@ The attach file option is not available as the contract document is directly edi
 </table>    The review task will be closed, work notes are added to the Activity stream, and the State changes to Closed Complete.
 
 
-**Parent Topic:**[Internal review overview](snlc-expert-review.md)
+**Parent Topic:**[Internal review overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-expert-review.md)
 

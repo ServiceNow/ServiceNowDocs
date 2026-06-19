@@ -2,6 +2,7 @@
 title: Telecom Discovery
 description: ServiceNow AI Platform Telecom Discovery helps you gain comprehensive visibility into your telecom network infrastructure by extending the capabilities of ITOM Visibility to support telecom-specific use cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-service-ops/telecommunications-service-operations-management/exploring-telecom-discovery.html
 release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -30,8 +31,6 @@ With Telecom Discovery, you can:
 -   Enrich CMDB data using Service Graph Connectors and specialized discovery patterns.
 -   Identify discrepancies between discovered network data and inventory records.
 -   Support automation use cases through consistent and accurate infrastructure visibility.
-
-## Telecom Discovery architecture
 
 ## Integration with ITOM Visibility
 

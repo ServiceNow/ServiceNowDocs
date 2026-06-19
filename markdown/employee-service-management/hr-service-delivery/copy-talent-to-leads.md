@@ -2,6 +2,7 @@
 title: Copy talent profiles as job prospects
 description: Copy talent profiles from a Talent pool to a particular job requisition as prospects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/copy-talent-to-leads.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -34,5 +35,5 @@ Role required: sn\_ta\_hiring\_core.recruiter
 
 You have added the selected talent profiles as job prospect.
 
-**Parent Topic:**[Job prospects](../concept/job-leads.md)
+**Parent Topic:**[Job prospects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/job-leads.md)
 

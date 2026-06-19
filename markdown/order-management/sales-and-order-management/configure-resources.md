@@ -2,6 +2,7 @@
 title: Configuring resources for territories
 description: Territory managers and members to the territory are added with their appropriate responsibility. Managers of the territory get access to manage the members in their hierarchy. Members get access via the roles and the linked responsibility to the CRM entities that belong to the hierarchy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configure-resources.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

@@ -2,6 +2,7 @@
 title: Install Now Assist for Creator
 description: Install the Now Assist for Creator application to add generative AI functionality to your workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/now-assist-for-creator/install-now-assist-for-creator.html
 release: zurich
 product: Now Assist for Creator
 classification: now-assist-for-creator
@@ -19,8 +20,8 @@ Install the Now Assist for Creator application to add generative AI functionalit
 
 -   Role required: admin
 -   Review the [Now Assist for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
--   Upgrade to Washington DC Patch 1 or later. For more information about this release, see [Available patches and hotfixes](https://www.servicenow.com/docs/access?context=available-versions&version=zurich&pubname=zurich-release-notes&ft:locale=en-US).
--   Enable Next Experience. For information about activating Next Experience, see [Considerations for activating Next Experience](https://www.servicenow.com/docs/access?context=next-experience-adoption-paths&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+-   Upgrade to Washington DC Patch 1 or later. For more information about this release, see .
+-   Enable Next Experience. For information about activating Next Experience, see Considerations for activating Next Experience.
 
 ## Procedure
 

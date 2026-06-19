@@ -2,11 +2,12 @@
 title: Reference
 description: Reference information for user roles and best practices when implementing onboarding modals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/onboarding-modals-reference.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
 topic_type: reference
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Onboarding modals, Adoption services, Configure user experiences]
 ---
@@ -50,5 +51,5 @@ Follow these guidelines to create effective onboarding experiences:
 -   **Version content:** Use the **Order** field and **Status** field to manage content versions. Keep draft versions for testing before publishing changes.
 -   **Document customizations:** Maintain external documentation of custom client scripts and launch mechanisms. Update sets may not capture all dependencies.
 
-**Parent Topic:**[Onboarding modals](../concept/next-experience-onboarding.md)
+**Parent Topic:**[Onboarding modals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/next-experience-onboarding.md)
 

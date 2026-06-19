@@ -2,6 +2,7 @@
 title: Results post cloning for application customizations
 description: The results to expect post cloning for application customization display the expected behaviors based on the state of the application, and the actions to recover your application customizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/application-repository-self-hosted/what-to-expect-post-clone-for-app-customization.html
 release: zurich
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted

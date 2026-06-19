@@ -2,6 +2,7 @@
 title: Configure investigative features
 description: Configure investigative features to set advanced analytics features for a process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/investigative-features.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -23,13 +24,13 @@ Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimizati
 
 1.  Navigate to **Workspaces** &gt; **Process Mining Workspace**.
 
-2.  On the side of the page, select the Process configurations icon \(![Process configuration builder](../image/icon-process-config.png)\).
+2.  On the side of the page, select the Process configurations icon \(\[Omitted image "icon-process-config.png"\] Alt text: Process configuration builder\).
 
 3.  Open a table from the **Configurations** tab.
 
     The **Process details** page is displayed. Select **Investigative features** from the side panel.
 
-    If you’re proceeding from the **Recommendations setup** page, then you come to this page. For more information, see [Configure recommendations setup](reco-setup.md).
+    If you’re proceeding from the **Recommendations setup** page, then you come to this page. For more information, see [Configure recommendations setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/reco-setup.md).
 
     The **Investigative features** page has four sections:
 
@@ -37,7 +38,7 @@ Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimizati
     -   Cluster analysis
     -   Work notes analysis
     -   Automation Discovery
-    ![Investigative features in process configuration](../image/invest-features-config.png)
+    \[Omitted image "invest-features-config.png"\] Alt text: Investigative features in process configuration
 
 4.  Add fields that you want for automated root cause analysis in the **Automated root cause analysis** field.
 
@@ -45,7 +46,7 @@ Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimizati
 
     Based on your inputs on the **Process details** page, you get recommendations for automated root cause analysis.
 
-    When you set up the automated root cause analysis, you can initiate a root cause analysis in your project that is based on this table. For more information on running root case analysis, see [Run automated root cause analysis reports](run-view-arca.md).
+    When you set up the automated root cause analysis, you can initiate a root cause analysis in your project that is based on this table. For more information on running root case analysis, see [Run automated root cause analysis reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/run-view-arca.md).
 
     **Note:** If the automated root cause analysis isn’t set up in the process configuration, it isn’t available.
 
@@ -53,7 +54,7 @@ Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimizati
 
     Select the help icon \(?\) to view details about how and why these details must be set. You also get a list of resources.
 
-    For more information about running a cluster analysis, see [Perform a cluster analysis](request-cluster-analysis.md).
+    For more information about running a cluster analysis, see [Perform a cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/request-cluster-analysis.md).
 
     If there are no clustering analyses, select **New clustering definition**.
 
@@ -61,7 +62,7 @@ Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimizati
 
     **Note:** Cluster analysis isn’t available unless the clustering definition is selected in the process configuration.
 
-    For more information, see [Configure a process for a clustering solution](process-configuration-clustering.md).
+    For more information, see [Configure a process for a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/process-configuration-clustering.md).
 
 6.  Select **New clustering definition** if no clustering analysis is available.
 
@@ -79,7 +80,7 @@ Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimizati
 
     Select the help icon \(?\) to view details about how and why these details must be set. You also get a list of resources.
 
-    For information on running work notes analysis, see [Perform work notes analysis](perform-worknotes-analysis.md).
+    For information on running work notes analysis, see [Perform work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/perform-worknotes-analysis.md).
 
     **Note:** Work notes analysis isn’t available unless it’s set up in the process configuration.
 
@@ -166,7 +167,7 @@ Select the length greater than which the work notes are disregarded in the analy
 
     Automation Discovery helps to identify automation opportunities within your processes. You can use the automation discovery reports to implement or improve automation solutions like Virtual Agent \(VA\) or Agent assist. These reports are available on the **Automation Opportunities** tab in the Process Mining workspace.
 
-    For information on configuring Automation Discovery, see [Configure Automation Discovery](config-finding-def-auto-disc.md).
+    For information on configuring Automation Discovery, see [Configure Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/config-finding-def-auto-disc.md).
 
     |Field|Description|
     |-----|-----------|
@@ -178,5 +179,5 @@ Select the length greater than which the work notes are disregarded in the analy
 9.  Select **Continue to impact metrics**.
 
 
-**Parent Topic:**[Create process configuration using Process Configuration Builder](process-config-builder.md)
+**Parent Topic:**[Create process configuration using Process Configuration Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/process-config-builder.md)
 

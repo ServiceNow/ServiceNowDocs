@@ -2,6 +2,7 @@
 title: Create workplace reservations for multiple employees
 description: Automatically generate workplace reservations in bulk for all employees assigned to a shift for a single day or multiple days.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-core/reserve-spaces-bulk-assignment-multiple-employees-wsd.html
 release: zurich
 product: Workplace Core
 classification: workplace-core
@@ -17,9 +18,9 @@ Automatically generate workplace reservations in bulk for all employees assigned
 
 ## Before you begin
 
--   [Define shifts for your workplace](create-shifts-wsd.md).
--   [Assign employees to a shift](associate-employees-with-shifts-wsd.md).
--   [Associate areas and spaces with a shift](associate-workspaces-with-shifts-wsd.md).
+-   [Define shifts for your workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/create-shifts-wsd.md).
+-   [Assign employees to a shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/associate-employees-with-shifts-wsd.md).
+-   [Associate areas and spaces with a shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/associate-workspaces-with-shifts-wsd.md).
 -   Ensure that the number of locations associated with the shift is greater than the number of employees assigned to the shift.
 
 Role required: sn\_wsd\_core.workplace\_manager
@@ -43,5 +44,5 @@ Role required: sn\_wsd\_core.workplace\_manager
 
 Reservations for the employees in this shift are created for the locations associated with the shift for the provided dates. You can view these reservations by navigating to **Workplace Safety Management** &gt; **Space Reservations** &gt; **All Reservations**.
 
-**Parent Topic:**[Managing workplace reservations for employees](../concept/managing-workplace-reservations-wsd.md)
+**Parent Topic:**[Managing workplace reservations for employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/managing-workplace-reservations-wsd.md)
 

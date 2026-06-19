@@ -2,11 +2,12 @@
 title: Install Health and Safety Incident Management OSHA Content Pack
 description: You can install the Health and Safety Incident Management OSHA Content Pack application \(com.snc.sn\_hs\_im\_osha\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety/install-hs-osha-content-pack.html
 release: zurich
 product: Health and Safety
 classification: health-and-safety
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configure settings, Health and Safety Incident Management OSHA Content Pack, Health and Safety injury and illness reports, Health and Safety, Employee Service Management]
 ---
@@ -29,7 +30,7 @@ The following items are installed with Health and Safety Incident Management OSH
 -   Tables
 -   System Properties
 
-For more information, see [Components installed with Health and Safety Incident Management OSHA Content Pack](../reference/components-installed-with-osha-content-pack.md) and [Health and Safety Incident Management OSHA Content Pack properties](../reference/properties-installed-osha-content-pack.md).
+For more information, see [Components installed with Health and Safety Incident Management OSHA Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/components-installed-with-osha-content-pack.md) and [Health and Safety Incident Management OSHA Content Pack properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/properties-installed-osha-content-pack.md).
 
 ## Procedure
 
@@ -54,5 +55,5 @@ For more information, see [Components installed with Health and Safety Incident 
 6.  Select **Install**.
 
 
-**Parent Topic:**[Setting up the OSHA Content Pack](../concept/configuring-osha-forms.md)
+**Parent Topic:**[Setting up the OSHA Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/configuring-osha-forms.md)
 

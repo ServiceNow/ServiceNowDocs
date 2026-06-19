@@ -2,6 +2,7 @@
 title: Agile 2.0 Prior Sprint Dashboard
 description: Prior Sprint Dashboard provides data visualization on scope, actual burndown and burnup, and forecast trends of previous sprints. Analyze the data and plan the work for upcoming sprints.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/agile-development-prior-sprint-dashboard.html
 release: zurich
 product: Agile Development
 classification: agile-development
@@ -17,11 +18,11 @@ Prior Sprint Dashboard provides data visualization on scope, actual burndown and
 
 Navigate to **All** &gt; **Agile Development** &gt; **Dashboards** and select **Agile 2.0 Prior Sprint Dashboard**.
 
-![Agile 2.0 prior sprint dashboard widgets.](../image/agile-prior-sprint-widgets.png "Agile 2.0 prior sprint dashboard widgets")
+\[Omitted image "agile-prior-sprint-widgets.png"\] Alt text: Agile 2.0 prior sprint dashboard widgets.
 
-![Agile 2.0 prior sprint dashboard burndown report.](../image/agile-prior-sp-burndown.png "Agile 2.0 prior sprint dashboard burndown visualization")
+\[Omitted image "agile-prior-sp-burndown.png"\] Alt text: Agile 2.0 prior sprint dashboard burndown report.
 
-![Agile 2.0 prior sprint dashboard burnup report.](../image/agile-prior-sprint-burnup.png "Agile 2.0 prior sprint dashboard burnup visualization")
+\[Omitted image "agile-prior-sprint-burnup.png"\] Alt text: Agile 2.0 prior sprint dashboard burnup report.
 
 **Note:** Canceled stories are not included in any of this data.
 
@@ -94,7 +95,7 @@ The following are the breakdowns used by the indicators.
 
 ## Data visualizations
 
-If you are upgrading from version 1.0.2 or earlier of Performance Analytics Content Pack for Agile 2.0, then install this dashboard from Solution Library to upgrade its layout and access the Sprint Burnup visualization. For more information, see [Upgrading the layout of Agile 2.0 dashboards](../reference/using-solution-library-for-agile-2.0-dashboards.md).
+If you are upgrading from version 1.0.2 or earlier of Performance Analytics Content Pack for Agile 2.0, then install this dashboard from Solution Library to upgrade its layout and access the Sprint Burnup visualization. For more information, see [Upgrading the layout of Agile 2.0 dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/using-solution-library-for-agile-2.0-dashboards.md).
 
 <table id="table_mbk_ndk_k3b"><thead><tr><th>
 
@@ -114,7 +115,7 @@ Sprint Burndown
 
 </td><td>
 
-Line chart![](../../reporting/image/inline-data-vis-96px-line.png)
+Line chart\[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
 
 </td><td>
 
@@ -139,7 +140,7 @@ Sprint Burnup
 
 </td><td>
 
-Line chart![](../../reporting/image/inline-data-vis-96px-line.png)
+Line chart\[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
 
 </td><td>
 
@@ -151,7 +152,7 @@ Shows the previous sprint burnup trend indicating scope changes. Analyze future 
 -   **Completed**: Indicates the amount of work completed in the sprint.
 
 </td></tr></tbody>
-</table>You can customize the Burnup and Burndown reports. For more information, see [Customizing Agile 2.0 dashboard reports](../concept/customizing-dashboard-reports.md).
+</table>You can customize the Burnup and Burndown reports. For more information, see [Customizing Agile 2.0 dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/customizing-dashboard-reports.md).
 
-**Parent Topic:**[Performance Analytics Content Pack for Agile 2.0](pa-content-pack-for-agile-2.0.md)
+**Parent Topic:**[Performance Analytics Content Pack for Agile 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/pa-content-pack-for-agile-2.0.md)
 

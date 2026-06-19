@@ -2,6 +2,7 @@
 title: Activate the remote task definitions
 description: Activate the remote task definitions published by the provider on your instance so that your provider can fulfill your Zero Touch Refresh requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/activate-rtd-for-customers.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -17,9 +18,9 @@ Activate the remote task definitions published by the provider on your instance 
 
 ## Before you begin
 
-The Service Exchange application must be installed on your instance. For more information, see [Install Service Bridge for customers](https://www.servicenow.com/docs/access?context=install-service-bridge-v2-customer&version=zurich&pubname=zurich-service-bridge&ft:locale=en-US).
+The Service Exchange application must be installed on your instance. For more information, see Install Service Bridge for customers.
 
-Before you can activate a remote task definition on your ServiceNow instance, your provider must create and publish it. For more information, see [Trigger the assignment of a remote task](create-rtd-for-providers.md).
+Before you can activate a remote task definition on your ServiceNow instance, your provider must create and publish it. For more information, see [Trigger the assignment of a remote task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-rtd-for-providers.md).
 
 Role required: admin
 

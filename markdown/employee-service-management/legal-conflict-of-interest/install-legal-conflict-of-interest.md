@@ -2,6 +2,7 @@
 title: Install Legal Conflict of Interest
 description: You can install the Legal Conflict of Interest application \(sn\_lg\_coi\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-conflict-of-interest/install-legal-conflict-of-interest.html
 release: zurich
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
@@ -37,7 +38,7 @@ The following items are installed with Legal Conflict of Interest:
 -   Tables
 -   Business Rules
 
-For more information, see [Components installed with Legal Conflict of Interest](../reference/installed-with-legal-conflict-of-interest.md).
+For more information, see [Components installed with Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-conflict-of-interest/installed-with-legal-conflict-of-interest.md).
 
 ## Procedure
 
@@ -64,11 +65,11 @@ For more information, see [Components installed with Legal Conflict of Interest]
 
 ## What to do next
 
-To submit conflict of interest request using conversational intake from Now Assist in Virtual Agent, install and configure [Now Assist for Legal Service Delivery \(LSD\)](../../legal-request-management/concept/now-assist-lsd-landing.md) that is a paid application.
+To submit conflict of interest request using conversational intake from Now Assist in Virtual Agent, install and configure [Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md) that is a paid application.
 
 Use the Legal Service Delivery Guided Setup to configure the application on your instance.
 
-To access Legal Service Delivery guided setup, navigate to **Legal Administration** &gt; **Legal Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+To access Legal Service Delivery guided setup, navigate to **Legal Administration** &gt; **Legal Guided Setup**. For more information about using the guided setup interface, see Using guided setup.
 
-**Parent Topic:**[Configure Legal Conflict of Interest](../concept/legal-coi-administration.md)
+**Parent Topic:**[Configure Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-conflict-of-interest/legal-coi-administration.md)
 

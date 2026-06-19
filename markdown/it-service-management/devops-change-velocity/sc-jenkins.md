@@ -2,11 +2,12 @@
 title: Onboard Jenkins to DevOps Change Velocity — Service Catalog
 description: Connect your Jenkins instance using the ServiceNow Service Catalog to retrieve data like artifacts, test results, scan results, and so on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/sc-jenkins.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Jenkins, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -40,7 +41,7 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
     |Tool password/ Access token|Access credentials for your Jenkins instance.|
     |Use MidServer|Optional. Select MID Server for an on-premises tool that is attached to a MID Server. Application is automatically set to  DevOps and capability is set to REST.|
 
-    For a list of all the permissions required on the credentials for connecting to Jenkins, see Jenkins permissions in [Permissions required for DevOps tools](../reference/tool-req-permission.md).
+    For a list of all the permissions required on the credentials for connecting to Jenkins, see Jenkins permissions in [Permissions required for DevOps tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/tool-req-permission.md).
 
 5.  Select **Order Now**.
 
@@ -112,5 +113,5 @@ Leave empty.
     A request is created. When the request is approved, the pipeline objects are associated to the app record, which enables real-time tracking. Historical data is also imported for the selected pipelines. The **Track** field is automatically enabled for imported pipelines.
 
 
-**Parent Topic:**[Jenkins integration with DevOps Change Velocity](../concept/jenkins-integration-dev-ops.md)
+**Parent Topic:**[Jenkins integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/jenkins-integration-dev-ops.md)
 

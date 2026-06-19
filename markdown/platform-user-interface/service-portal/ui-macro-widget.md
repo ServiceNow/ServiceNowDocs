@@ -2,6 +2,7 @@
 title: Replace a Service Catalog form script with a widget
 description: You can use widgets in Service Portal to replace UI Macros. If your Service Catalog form includes a UI Macro that references other fields or variables on the form, you can create a widget to hold reusable code and embed it within the Service Catalog form. Use special syntax to access any variable fields on the form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/ui-macro-widget.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -66,12 +67,12 @@ Role required: admin or sp\_admin
 
     You can use the following to access variable or catalog item fields:
 
-    -   `$scope.page.g_form()`: The g\_form instance on the form. You can use all supported g\_form methods described in [Service Portal and client scripts](../concept/unsupported_client_scripts.md). For example, `g_form.setValue('variable_name', 'new value');`.
+    -   `$scope.page.g_form()`: The g\_form instance on the form. You can use all supported g\_form methods described in [Service Portal and client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/unsupported_client_scripts.md). For example, `g_form.setValue('variable_name', 'new value');`.
     -   `$scope.page.field()`: The object that represents the variable.
     When you open the catalog item in the Service Portal, the embedded widget accesses the variable fields associated with the catalog item.
 
-    ![The input to the variable displays in the embedded widget.](../image/macro-var.png)
+    \[Omitted image "macro-var.png"\] Alt text: The input to the variable displays in the embedded widget.
 
 
-**Parent Topic:**[Developing custom widgets](../concept/widget-dev-guide.md)
+**Parent Topic:**[Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/widget-dev-guide.md)
 

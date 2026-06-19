@@ -2,6 +2,7 @@
 title: Activate scheduled job to generate labor costs for your planning items
 description: Activate scheduled jobs to automatically generate labor costs for attribute-based resource assignments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/labor-cost-scheduler-job-spw.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -27,7 +28,7 @@ Role required: admin
 
 3.  Select **Active** and on the Scheduled Script Execution form, fill the fields.
 
-    For a description of the field names, see [Scheduled Script Execution form to generate labor costs for planning items](../../alignment-planner-workspace/reference/gen-labor-costs-scheduled-script-execution-form-spw.md).
+    For a description of the field names, see [Scheduled Script Execution form to generate labor costs for planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/gen-labor-costs-scheduled-script-execution-form-spw.md).
 
     **Note:** You can generate the labor costs for inactive planning items. Remove `true` in the following code line.
 

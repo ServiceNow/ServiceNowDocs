@@ -2,6 +2,7 @@
 title: Create a journey using Now Assist
 description: Create and modify journeys for employees using Now Assist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/create-journey-na.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -83,5 +84,5 @@ Sample prompts that you can use include:
     3.  Select **Regenerate draft**.
 
 
-**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](../concept/jny-working-with-journeys.md)
+**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-working-with-journeys.md)
 

@@ -2,7 +2,10 @@
 title: Importing skills, queues, and wrap-up codes
 description: Import the skills, queues, and wrap-up codes that you have configured in your contact center provider to your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/import-skills-queues-and-wrap-up.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -28,13 +31,13 @@ In a contact center, skills are the specific areas of knowledge or expertise tha
 
 By setting up and importing these skills, contact centers can route customer queries to the agents most capable of solving them.
 
-To import skills from your contact center to your ServiceNow® instance, refer to [Import skills](../task/import-skills.md).
+To import skills from your contact center to your ServiceNow® instance, refer to [Import skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/import-skills.md).
 
 ## Queues
 
 Queues are systems used to manage and organize incoming customer inquiries. They help calls, emails, or messages get routed to the appropriate agents based on the defined skills and availability. Queues help in distributing the workload evenly among agents and minimize wait times for customers. They can be set up to handle various service channels, such as phone, email, chat, and social media, so that customer interactions are managed efficiently.
 
-To import queues from your contact center to your ServiceNow® instance, refer to [Import queues](import-queues.md).
+To import queues from your contact center to your ServiceNow® instance, refer to [Import queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/import-queues.md).
 
 ## Wrap-up codes
 
@@ -42,5 +45,5 @@ Wrap-up codes are labels or categories that agents use to classify the outcome o
 
 For example, wrap-up codes can indicate whether a call was for technical support, billing inquiries, or a product return. Accurately assigning wrap-up codes helps data get correctly captured for future reference and analysis.
 
-To import wrap-up codes from your contact center to your ServiceNow® instance, refer to [Import wrap-up codes](../task/import-wrap-up.md).
+To import wrap-up codes from your contact center to your ServiceNow® instance, refer to [Import wrap-up codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/import-wrap-up.md).
 

@@ -2,6 +2,7 @@
 title: Configure my availability and contact preferences
 description: You specify your availability and the methods to use to contact you for On-Call escalations. The instance notifies you if an admin overrides your settings for some reason.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/on-call-scheduling/config-my-contact-prefs-oncall.html
 release: zurich
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -116,12 +117,12 @@ The time zone of your availability. **Note:** The time zone is not editable and 
     -   Email
     -   Slack
     -   Voice
-    -   Microsoft Teams. For information on setting up this channel, see [Set up Microsoft Teams as a contact method for an on-call escalation](set-up-msteams-oncall.md).
-    -   Mobile push. For information on setting up this channel, see [Set up mobile push as a contact method for an on-call escalation](set-up-mobile-push-oncall.md).
+    -   Microsoft Teams. For information on setting up this channel, see [Set up Microsoft Teams as a contact method for an on-call escalation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/set-up-msteams-oncall.md).
+    -   Mobile push. For information on setting up this channel, see [Set up mobile push as a contact method for an on-call escalation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/set-up-mobile-push-oncall.md).
 6.  Repeat the process for each contact attempt.
 
     **Note:** Admins can specify overrides of your contact methods for all members of your group. Override settings appear on the **Contact Overrides** tab.
 
 
-**Parent Topic:**[Viewing schedules and request time-off](../../user-administration/concept/viewing-schedules-and-escalation.md)
+**Parent Topic:**[Viewing schedules and request time-off](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/viewing-schedules-and-escalation.md)
 

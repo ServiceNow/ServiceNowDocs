@@ -2,9 +2,12 @@
 title: Set up AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)
 description: Set up AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\) so that you can contextualize external sources related to an Operational Technology \(OT\) incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/set-up-ai-enhanced-ra-otsm.html
 release: zurich
+product: Operational Technology
+classification: operational-technology
 topic_type: task
-last_updated: "2026-01-23"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure, AI Enhanced Recommended Actions for OTSM, Operational Technology]
 ---
@@ -15,15 +18,15 @@ Set up AI Enhanced Recommended Actions for Operational Technology Service Manage
 
 ## Before you begin
 
-Ensure you have Recommended Actions for OTSM installed and configured. For more information, see [Set up Recommended Actions for OTSM](../../operational-technology-recommended-actions/task/set-up-recommended-actions-for-otsm.md).
+Ensure you have Recommended Actions for OTSM installed and configured. For more information, see [Set up Recommended Actions for OTSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/recommended-actions-for-otsm/set-up-recommended-actions-for-otsm.md).
 
 Role required: admin
 
 ## Procedure
 
-1.  [Create a Microsoft SharePoint Online external content connector](https://www.servicenow.com/docs/access?context=create-ext-cont-connector-mspo&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+1.  .
 
-2.  [Configure crawl settings for a Microsoft SharePoint Online external content connector](https://www.servicenow.com/docs/access?context=configure-crawl-settings-spo-ext-cont-connector&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+2.  .
 
 3.  Set up the search source.
 
@@ -33,7 +36,7 @@ Role required: admin
     4.  Select **Create and link**.
     5.  In the **Indexed source** field, select **SharePoint Online**.
 
-        For more information about the additional form fields, see [Search Source form](https://www.servicenow.com/docs/access?context=search-source-form-ais&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+        For more information about the additional form fields, see .
 
     6.  Select **Submit**.
 4.  If needed, add or remove the OT incident record fields that are later used to produce search results.
@@ -44,13 +47,13 @@ Role required: admin
     2.  Select the **OT incident context** record.
     3.  In the context record, select the **Rules** tab.
     4.  Select the **OT incident being active** rule.
-    5.  In the rule record next to **Fields affecting this rule**, select the **Unlock fields affecting this rule** ![](../image/unlock-affecting-fields.png) icon.
+    5.  In the rule record next to **Fields affecting this rule**, select the **Unlock fields affecting this rule** \[Omitted image "unlock-affecting-fields.png"\] Alt text: icon.
     6.  Using the Add item and Remove item icons, add or remove fields as needed.
     7.  Select **Save**.
 
 ## What to do next
 
-After you set up AI Enhanced Recommended Actions for OTSM, you can use the feature in the Industrial Workspace. For more information see, [Contextualize an external document](use-ai-enhanced-ra-otsm.md).
+After you set up AI Enhanced Recommended Actions for OTSM, you can use the feature in the Industrial Workspace. For more information see, [Using AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/using-ai-enhanced-ra-otsm.md).
 
-**Parent Topic:**[Configure AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](../concept/configure-ai-enhanced-ra-otsm.md)
+**Parent Topic:**[Configure AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/configure-ai-enhanced-ra-otsm.md)
 

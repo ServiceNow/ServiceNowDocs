@@ -2,6 +2,7 @@
 title: Deactivate a control objective
 description: Deactivate control objectives that are no longer relevant to their citation or parent control objective.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/t\_DeactivateAPolStatement.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -30,5 +31,5 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
 4.  Click **Update**.
 
 
-**Parent Topic:**[Manage control objectives and policies](../reference/r_PoliciesAndProcedures.md)
+**Parent Topic:**[Manage control objectives and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/r_PoliciesAndProcedures.md)
 

@@ -2,7 +2,10 @@
 title: Configure the default behavior of Engagement Messenger
 description: Configure the default behavior of Engagement Messenger to set the default settings for Notification, Recommendations, and Proactive.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/em-customize-behavior.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -15,9 +18,9 @@ Configure the default behavior of Engagement Messenger to set the default settin
 
 ## Before you begin
 
-[Configure Engagement Messenger](create-engagement-messenger-module.md).
+[Configure Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-engagement-messenger-module.md).
 
-[Use Engagement Messenger embed Code to integrate proactive recommendations on a web page](em-contextual-help.md).
+[Use Engagement Messenger embed Code to integrate proactive recommendations on a web page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/em-contextual-help.md).
 
 Role required: sn\_csm\_ec.ec\_admin
 
@@ -33,9 +36,9 @@ Role required: sn\_csm\_ec.ec\_admin
 
 5.  In the **Behavior** tab, configure the **Recommendations** and **Proactive** settings to define the Engagement Messenger functions.
 
-    For more information, see [Proactive Recommendations configuration for Engagement Messenger](../reference/em-behav-recom.md).
+    For more information, see [Proactive Recommendations configuration for Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/em-behav-recom.md).
 
-    **Note:** For information about how to customize the Notification behavior, see [Configure Engagement Messenger](create-engagement-messenger-module.md).
+    **Note:** For information about how to customize the Notification behavior, see [Configure Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-engagement-messenger-module.md).
 
 6.  Select **Save**.
 

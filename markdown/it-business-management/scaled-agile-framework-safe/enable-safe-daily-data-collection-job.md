@@ -2,6 +2,7 @@
 title: Enable daily data collection for Essential SAFe dashboards
 description: Enable scheduled data collection to begin collecting scores on new data automatically for Essential SAFe dashboards. Data collection jobs automatically collect scores for automated indicators and breakdowns.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scaled-agile-framework-safe/enable-safe-daily-data-collection-job.html
 release: zurich
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -46,5 +47,5 @@ Role required: pa\_admin or admin
 4.  Click **Update**.
 
 
-**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](../application-content-packs/pa-content-pack-essential-safe.md)
+**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/pa-content-pack-essential-safe.md)
 

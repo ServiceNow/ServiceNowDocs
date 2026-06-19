@@ -2,6 +2,7 @@
 title: Key management operations
 description: The Key Management Operations submodule provides access to view and manage all encryption keys used with ServiceNow Cloud Encryption.Rotate the active Cloud Encryption ServiceNow managed key.Follow these steps to prepare your customer managed key for upload to your instance.Switch between customer-managed key or a ServiceNow managed keys for use in ServiceNow Cloud Encryption.Rotate your customer managed key to your instance after you’ve wrapped your customer managed key for Cloud Encryption.Use your customer managed key for ServiceNow Cloud Encryption.Switch from a customer managed key back to a managed key for ServiceNow Cloud Encryption.Set a schedule for automatic rotation of your ServiceNow managed keys. This process automatically retires an encryption key and replaces the old key with a newly generated cryptographic key. If you're using a customer managed key, this schedule can provide a reminder to rotate your custom keys manually.After the customer managed key withdrawal functionality is activated, a withdrawal operation becomes available in the Key Management Operations page. Withdraw key and quorum approval operations can also be managed.After a key withdrawal operation has completed, your customer managed key must be resupplied into your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/cloud-encryption/key-mgmt-operations-ce.html
 release: zurich
 product: Cloud Encryption
 classification: cloud-encryption
@@ -15,21 +16,19 @@ breadcrumb: [Cloud Encryption with Key Management, Encryption]
 
 The Key Management Operations submodule provides access to view and manage all encryption keys used with ServiceNow Cloud Encryption.
 
-Getting started with Cloud Encryption
-
 ## Key life cycle states
 
 There’s only one active key in the system at any given time. When selecting a key, you access the activity for the selected key, such as which keys were rotated or withdrawn and the corresponding timestamp.
 
 The key life-cycle state updates according to the key management operation performed.
 
-![Shows updated key lifecycle states.](../image/key-mgmt-operations-key-states.png)
+\[Omitted image "key-mgmt-operations-key-states.png"\] Alt text: Shows updated key lifecycle states.
 
-See [Rotate a ServiceNow managed key](key-mgmt-operations-ce.md#) or [Rotate a customer managed key](key-mgmt-operations-ce.md#) for details.
+See [Rotate a ServiceNow managed key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/cloud-encryption/key-mgmt-operations-ce.md) or [Rotate a customer managed key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/cloud-encryption/key-mgmt-operations-ce.md) for details.
 
 **Note:** The key rotation process may take up to 20 minutes to complete.
 
-**Parent Topic:**[Cloud Encryption with Key Management](../concept/dare-overview.md)
+**Parent Topic:**[Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/cloud-encryption/dare-overview.md)
 
 ## Rotate a ServiceNow managed key
 
@@ -39,7 +38,7 @@ Rotate the active Cloud Encryption ServiceNow managed key.
 
 Roles required: sn\_kmf.admin or sn\_kmf.cryptographic\_manager
 
-**Important:** If you’re using customer-managed keys, see [Rotate a customer managed key](key-mgmt-operations-ce.md#).
+**Important:** If you’re using customer-managed keys, see [Rotate a customer managed key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/cloud-encryption/key-mgmt-operations-ce.md).
 
 ### Procedure
 
@@ -63,13 +62,13 @@ Roles required: sn\_kmf.admin or sn\_kmf.cryptographic\_manager
 
 5.  Return to the Key Management Operations screen to refresh the Cloud Encryption Key Metadata table.
 
-    Entries are listed for the current active key and the key that is being generated to rotate in place of the current active key. See [Key Management Framework key life-cycle states](../../key-management-framework/reference/key-life-cycle-states.md) for the different available states.
+    Entries are listed for the current active key and the key that is being generated to rotate in place of the current active key. See [Key Management Framework key life-cycle states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/key-life-cycle-states.md) for the different available states.
 
     The active key is listed with a key version of 0 and the generated key has a version of 1.
 
 6.  Open the entry for the original key to view the Key Management Transactions.
 
-    For more information, see [Key management transactions](key-mgmt-transactions-ce.md) for more information.
+    For more information, see [Key management transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/cloud-encryption/key-mgmt-transactions-ce.md) for more information.
 
     The previously active key, version 0, updated to the key life cycle state of Rotated and the new key, version 1 is Active.
 
@@ -204,7 +203,7 @@ Roles required: sn\_kmf.admin or sn\_kmf.cryptographic\_manager
 
         If the key is in the proper format, a confirmation message appears, otherwise an error message displays. The key file is attached to the Key Definition record.
 
-        In the Key Management Transactions table, the certificate download and key upload steps are listed. See [Key management transactions](key-mgmt-transactions-ce.md) for details on the request steps.
+        In the Key Management Transactions table, the certificate download and key upload steps are listed. See [Key management transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/cloud-encryption/key-mgmt-transactions-ce.md) for details on the request steps.
 
 5.  Navigate to **All** &gt; **Cloud Encryption Key Management** &gt; **Key Management Operations** to see the list of keys.
 
@@ -219,7 +218,7 @@ Use your customer managed key for ServiceNow Cloud Encryption.
 
 Role required: sn\_kmf.admin or sn\_kmf.cryptographic\_manager
 
-To switch to a customer managed key, you must have a wrapped customer managed key ready to upload as part of these steps. For details on preparing this key for upload, see [Prepare your customer managed key](key-mgmt-operations-ce.md#). After uploading your key, this process will initiate a key rotation to your new key.
+To switch to a customer managed key, you must have a wrapped customer managed key ready to upload as part of these steps. For details on preparing this key for upload, see [Prepare your customer managed key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/cloud-encryption/key-mgmt-operations-ce.md). After uploading your key, this process will initiate a key rotation to your new key.
 
 ### Procedure
 
@@ -355,9 +354,9 @@ This section applies only if you've licensed Cloud Encryption Withdraw and Resup
 
 5.  Refresh the Key Definition page to view the pending withdrawal request.
 
-    ![Key management transaction](../image/process-key-withdrawal.png)
+    \[Omitted image "process-key-withdrawal.png"\] Alt text: Key management transaction
 
-    If the Quorum Control Policy has been activated, the approval workflow must be completed successfully to complete the key withdrawal. See [Manage Quorum Control](quorum-ctrl-mgmt.md) for details.
+    If the Quorum Control Policy has been activated, the approval workflow must be completed successfully to complete the key withdrawal. See [Manage Quorum Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/cloud-encryption/quorum-ctrl-mgmt.md) for details.
 
 
 ## Resupply a customer managed key
@@ -384,7 +383,7 @@ Role required: sn\_kmf.admin or sn\_kmf.cryptographic\_manager
 
 5.  Prepare your key for upload.
 
-    For details on this process, see [Prepare your customer managed key](key-mgmt-operations-ce.md#).
+    For details on this process, see [Prepare your customer managed key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/cloud-encryption/key-mgmt-operations-ce.md).
 
 6.  In the **Step 4** section, click **Browse and upload** to upload your wrapped key from your local device.
 

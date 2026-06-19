@@ -2,6 +2,7 @@
 title: Create Talent Development Activity Recommendations
 description: As an Talent admin you create Activity Template Recommendations that are used in growth plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/egd-admin-create-activity-recco.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -17,7 +18,7 @@ As an Talent admin you create **Activity Template Recommendations** that are use
 
 ## Before you begin
 
-Role required: sn\_egd\_core.admin or admin
+Role required: sn\_egd\_core.admin
 
 ## About this task
 
@@ -31,10 +32,10 @@ Controls whether the activity is **Required** or **Recommended** for the growth 
 
 3.  Complete the **Activity Template Recommendation** form.
 
-    Read details about the different fields in [Talent Activity Template Recommendation form](../reference/egd-activity-recommendation-form.md).
+    Read details about the different fields in [Talent Activity Template Recommendation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-activity-recommendation-form.md).
 
 4.  Select **Submit**
 
 
-**Parent Topic:**[Administer and maintain the Talent Development Core app](../concept/egd-administration.md)
+**Parent Topic:**[Administer and maintain the Talent Development Core app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-administration.md)
 

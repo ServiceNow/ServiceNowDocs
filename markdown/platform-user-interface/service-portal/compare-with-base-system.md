@@ -2,6 +2,7 @@
 title: Compare a cloned or customized widget against a base widget
 description: Identify customizations to a widget so that you can revert your cloned or customized widgets and resolve issues on a portal page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/compare-with-base-system.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -33,7 +34,7 @@ If a widget is cloned from another cloned widget, both clones are compared again
 
     Customized widgets are outlined in red. Cloned widgets are outlined in yellow.
 
-4.  On any customized or cloned widget, select the information icon \(![Information icon](../image/info-icon.png)\).
+4.  On any customized or cloned widget, select the information icon \(\[Omitted image "info-icon.png"\] Alt text: Information icon\).
 
 5.  From the Widget Diagnostics dialog box, select **Compare with base widget**.
 
@@ -41,14 +42,14 @@ If a widget is cloned from another cloned widget, both clones are compared again
 
     **Note:** The left-side record represents the base widget and the right-side record represents the cloned or customized widget.
 
-    ![Comparison between customized and base widgets](../image/compare-with-base.png)
+    \[Omitted image "compare-with-base.png"\] Alt text: Comparison between customized and base widgets
 
-6.  For each field in which it appears, select the window icon \(![Window icon](../image/pop-out-icon.png)\) to open the code comparator.
+6.  For each field in which it appears, select the window icon \(\[Omitted image "pop-out-icon.png"\] Alt text: Window icon\) to open the code comparator.
 
     Differences between the code of the customized or cloned widget and base widget versions are highlighted.
 
     **Note:** The left-side record represents the base widget and the right-side record represents the cloned or customized widget.
 
-    ![Code comparator](../image/code-comparator.png)
+    \[Omitted image "code-comparator.png"\] Alt text: Code comparator
 
 

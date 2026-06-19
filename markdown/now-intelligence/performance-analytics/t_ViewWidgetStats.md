@@ -2,6 +2,7 @@
 title: View widget statistics
 description: You can view statistics about Performance Analytics widgets to help identify and resolve problems, such as if a widget is loading slowly on dashboards.These properties control how widget statistics are tracked and maintained.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/t\_ViewWidgetStats.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -57,7 +58,7 @@ glide.report.recent\_executions\_number
 
 The number of widget executions that are considered recent for the purpose of recent average duration calculations. -   Type: integer
 -   Default value: 25
--   Location: [Add the property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US)
+-   Location: Add the property
 
 </td></tr></tbody>
 </table>

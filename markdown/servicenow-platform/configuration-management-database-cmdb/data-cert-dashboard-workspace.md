@@ -2,6 +2,7 @@
 title: Data Certification Dashboard
 description: Use the Data Certification Dashboard in CMDB Workspace or in Service Graph Workspace as a central location to manage Data Certification instances and tasks, and to see counts, progress, state, and analytical insights. You can drill down past due certification tasks to examine and to reassign them, for example, so that they can be completed by an appropriate user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/data-cert-dashboard-workspace.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -15,9 +16,9 @@ breadcrumb: [Data Certification experience in a workspace, Data Certification, C
 
 Use the Data Certification Dashboard in CMDB Workspaceor in Service Graph Workspace as a central location to manage Data Certification instances and tasks, and to see counts, progress, state, and analytical insights. You can drill down past due certification tasks to examine and to reassign them, for example, so that they can be completed by an appropriate user.
 
-![Data certification dashboard.](../image/cmdb-data-certif-dashboard.jpg)
+\[Omitted image "cmdb-data-certif-dashboard.jpg"\] Alt text: Data certification dashboard.
 
-The Data Certification Dashboard gets populated by Data Certification execution records. For information about the archive rules that control the retention of those records, see 'Retention of Data Certification records' in [Data Certification experience in CMDB Workspace and in Service Graph Workspace](data-cert-exp-cmdb-workspace.md).
+The Data Certification Dashboard gets populated by Data Certification execution records. For information about the archive rules that control the retention of those records, see 'Retention of Data Certification records' in [Data Certification experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-cert-exp-cmdb-workspace.md).
 
 ## Role requirements
 
@@ -35,7 +36,7 @@ Navigate to either workspace:
 
 ## Reviewing certification tasks
 
-The Data Certification Dashboard provides several ways for you to drill down to the certification tasks list, which can contain tasks requiring review. For information about reviewing \(and then certifying or failing\), reassigning, or canceling tasks, see [Review certification tasks](../task/data-certific-review-tasks.md).
+The Data Certification Dashboard provides several ways for you to drill down to the certification tasks list, which can contain tasks requiring review. For information about reviewing \(and then certifying or failing\), reassigning, or canceling tasks, see [Review certification tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-certific-review-tasks.md).
 
 ## Certification tasks
 
@@ -53,7 +54,7 @@ You can:
 -   Filter the list of certification instances that appear, by selecting the available filters such as State, Assignment group, or Assigned to filter and then selecting the specific items that you want to filter by.
 -   Filter the list of certification instances that appear by searching for specific strings in certification policy names.
 -   Sort the list of certification instances by various attributes such as instance state, percent complete, or policy execution number. Select ascending or descending sort order to apply along with any list filter.
--   Select the info icon next to a certification instance name, to show its respective policy execution number. For information about policy execution numbers, see table CMDB Data Management Policy Executions \[cmdb\_data\_management\_policy\_execution\] in [Components related to CMDB Data Manager](../reference/components-cmdb-data-manager.md).
+-   Select the info icon next to a certification instance name, to show its respective policy execution number. For information about policy execution numbers, see table CMDB Data Management Policy Executions \[cmdb\_data\_management\_policy\_execution\] in [Components related to CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/components-cmdb-data-manager.md).
 
 Select a card to see more details about the certification instance, and all the tasks in that instance based on your user role. In the Certification tasks tab you can drill down the certification tasks list to access the tasks themselves for processing.
 

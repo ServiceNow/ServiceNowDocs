@@ -2,6 +2,7 @@
 title: Cloud permissions required to collect the base system Cloud Configuration Governance configuration keys
 description: The Cloud Configuration Governance requires appropriate cloud permissions to collect the base system configuration keys from the cloud. Therefore, you must set the appropriate permissions in the cloud to suit the needs of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-cloud-accelerate/cloud-permissions-for-collecting-config-keys.html
 release: zurich
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -272,5 +273,5 @@ Azure profile with minimal permissions
 }
 ```
 
-**Parent Topic:**[Cloud Configuration Governance reference](ccg-reference.md)
+**Parent Topic:**[Cloud Configuration Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/ccg-reference.md)
 

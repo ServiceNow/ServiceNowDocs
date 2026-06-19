@@ -2,6 +2,7 @@
 title: Reporting reference
 description: Miscellaneous tables of roles, properties, and other information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/reporting-reference.html
 release: zurich
 product: Reporting
 classification: reporting
@@ -17,14 +18,14 @@ Miscellaneous tables of roles, properties, and other information.
 
 In this section, you will find tables describing data aggregation types for reports, reporting roles, properties, and Report Designer keyboard shortcuts.
 
--   **[Aggregation in reporting](../reference/aggregation-reporting.md)**  
+-   **[Aggregation in reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/aggregation-reporting.md)**  
 Aggregation enables you to apply calculations to data displayed in reports.
--   **[Reporting roles](../reference/reporting-roles.md#)**  
+-   **[Reporting roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/reporting-roles.md)**  
 Reporting is installed with roles that limit report creation. Access control lists \(ACLs\) can also limit report viewing and creation.
--   **[Reporting properties](../reference/reporting-properties.md)**  
+-   **[Reporting properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/reporting-properties.md)**  
 Use properties to fine-tune report behavior and appearance.
--   **[Report Designer keyboard shortcuts](../reference/keyboard-shortcuts.md)**  
+-   **[Report Designer keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/keyboard-shortcuts.md)**  
 Keyboard shortcuts enable you to perform certain functions in the Report Designer without using your mouse.
 
-**Parent Topic:**[Reporting](../reference/reporting-landing-page.md)
+**Parent Topic:**[Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/reporting-landing-page.md)
 

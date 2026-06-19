@@ -2,6 +2,7 @@
 title: ServiceNow CPQ Upgrade Schedule
 description: ServiceNow CPQ updates customer environments on a predictable bi-weekly schedule to deliver new features, enhancements, and fixes. Test environments are upgraded first, with production updates following after at least 14 days to ensure stability. You can identify your environment’s sector from its URL and refer to the Upgrade Calendar to see which version your instance is currently running.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/logik\_io\_upgrade\_schedule.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -26,5 +27,5 @@ Customer environments are upgraded according to the following table:
 
 To determine which version of ServiceNow CPQ your environment is on, first determine the sector of your environment by inspecting its URL. The sector precedes "logik.io" in the URL. For example, in the URL https://customName.prod.logik.io, the sector is prod. Then, find the current day in the [Upgrade Calendar](https://calendar.google.com/calendar/embed?src=c_ucaqgepi0m001s34faoai41n4g%40group.calendar.google.com&ctz=America%2FChicago). Review the corresponding test or prod entry for this day.
 
-**Parent Topic:**[ServiceNow CPQ reference](../reference/servicenow-cpq-reference.md)
+**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/servicenow-cpq-reference.md)
 

@@ -2,6 +2,7 @@
 title: View information on supplier cases
 description: The Supplier Information tab shows details about the supplier and the supplier contact, a summary of all the open and overdue cases, and a list of all the cases by their priority.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/supp-info-tab.html
 release: zurich
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -15,7 +16,7 @@ breadcrumb: [Manage supplier cases, Using Source-to-Pay Workspace, Use, Supplier
 
 The **Supplier Information** tab shows details about the supplier and the supplier contact, a summary of all the open and overdue cases, and a list of all the cases by their priority.
 
-![Supplier Information tab.](../image/supp-info-tab.png "Supplier Information tab")
+\[Omitted image "supp-info-tab.png"\] Alt text: Supplier Information tab.
 
 ## Sections
 
@@ -207,5 +208,5 @@ Displays a list of cases by their priority, including case details, such as case
  In the Number column, select the link to the case to view more details.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Manage supplier cases from the Source-to-Pay Workspace](managing-cases.md)
+</table>**Parent Topic:**[Manage supplier cases from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/managing-cases.md)
 

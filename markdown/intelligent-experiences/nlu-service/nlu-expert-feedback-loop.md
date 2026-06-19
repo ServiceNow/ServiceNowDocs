@@ -2,6 +2,7 @@
 title: NLU Expert Feedback Loop
 description: Provide feedback on Virtual Agent chat log utterances to help the system continuously learn and to better predict user input.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/nlu-service/nlu-expert-feedback-loop.html
 release: zurich
 product: NLU Service
 classification: nlu-service
@@ -15,8 +16,6 @@ breadcrumb: [NLU Workbench - Advanced Features, Natural Language Understanding, 
 
 Provide feedback on Virtual Agent chat log utterances to help the system continuously learn and to better predict user input.
 
-Embedded video: NLU Expert Feedback Loop, presented by the ServiceNow Virtual Agent Academy
-
 ## Summary usage
 
 The Expert Feedback Loop takes data from your instance and provides it to you for feedback. This data comes from your users' Virtual Agent \(VA\) chat logs and includes utterances from those logs. Using the nlu\_admin role, navigate to **All** &gt; **NLU Workbench** &gt; **Expert Feedback Loop** and mark each utterance in a model by confirming whether the utterance is correct \(match\) or incorrect \(mismatch\) to an intent. This feedback helps the model to continuously improve the model performance.
@@ -25,15 +24,15 @@ The Expert Feedback Loop takes data from your instance and provides it to you fo
 
 Expert Feedback Loop is part of the NLU Workbench - Advanced Features app available on the ServiceNow® Store.
 
-To use Expert Feedback Loop, ensure that the NLU Workbench - Advanced Features \(sn\_nlu\_workbench\) plugin is active on your instance. For more information, see [Install NLU Workbench - Advanced Features](../task/install-nlu-workbench-adv-features.md) and [Activate the NLU Workbench](../task/activate-nlu-workbench.md).
+To use Expert Feedback Loop, ensure that the NLU Workbench - Advanced Features \(sn\_nlu\_workbench\) plugin is active on your instance. For more information, see [Install NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/install-nlu-workbench-adv-features.md) and [Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/activate-nlu-workbench.md).
 
-Because Expert Feedback Loop relies on the data from VA chat logs, make sure that the Glide Virtual Agent \(com.glide.cs.chatbot\) plugin is also active. See [Activate Virtual Agent](https://www.servicenow.com/docs/access?context=activate-virtual-agent&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+Because Expert Feedback Loop relies on the data from VA chat logs, make sure that the Glide Virtual Agent \(com.glide.cs.chatbot\) plugin is also active. See Activate Virtual Agent.
 
 ## Importing expert feedback loop data between instances
 
 Before you start an import, make sure you have access to the data in your instance and have enough data to proceed with your feedback.
 
-If you're working in a sub-production instance, you must import the feedback data from the **open\_nlu\_predict\_intent\_feedback** table in your production instance to your sub-production instance. For guidance on how to import, see [Importing from another ServiceNow instance](https://www.servicenow.com/docs/access?context=c_ImportingFromAnotherSNInstance&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+If you're working in a sub-production instance, you must import the feedback data from the **open\_nlu\_predict\_intent\_feedback** table in your production instance to your sub-production instance. For guidance on how to import, see Importing from another ServiceNow instance.
 
 Here are a few data scenarios regarding the system behavior for the NLU models that house the feedback loop utterances.
 
@@ -74,7 +73,7 @@ Here's a scenario for the basic steps you use to complete your utterance reviews
 
 5.  Repeat steps 1 through 4 as you move through the remaining intents in the **Predicted intents** column.
 
-![Select a predicted intent so you can mark its utterances during review](../images/nlu-expert-feedback-loop1.png "Marking utterances as matched or mismatched to a VA intent")
+\[Omitted image "nlu-expert-feedback-loop1.png"\] Alt text: Select a predicted intent so you can mark its utterances during review
 
 The utterances in the **ad\_password\_change** intent are easy to mark as a match to its predicted intent because there's at least one utterance within the intent that has the word password in it.
 
@@ -86,11 +85,11 @@ If you want to see your utterances grouped by their value, click the **Showing**
 
 Your Expert Feedback Loop utterances appear on the **To do** section in a list view by default, as shown in many of the images you've seen so far above. However, you can also choose a different view that shows each utterance framed within a card. If you choose this option, each utterance appears on the page in groups of five. While still within the list view, click the **card** icon.
 
-![How to activate the card view](../images/nlu-expert-feedback-loop4.png)
+\[Omitted image "nlu-expert-feedback-loop4.png"\] Alt text: How to activate the card view
 
 Result: The card view replaces the list view. Note the left and right arrows on either side of the page of utterance cards. When you click the right arrow, it turns the page to the next set of five cards. When you click the left arrow, it turns the page to the previous set of five cards. If you want to switch back to the list view instead of the card view, click the **list** icon as shown in the upper right hand corner of the image below.
 
-![How to switch back to the list view](../images/nlu-expert-feedback-loop4a.png)
+\[Omitted image "nlu-expert-feedback-loop4a.png"\] Alt text: How to switch back to the list view
 
 ## Changing an utterance value
 
@@ -107,11 +106,11 @@ To get more data from the VA chat logs to use in the Expert Feedback Loop, take 
 1.  Use the nlu\_admin role and navigate to **All** &gt; **System Definition** &gt; **Scheduled Jobs** &gt; **Active Learning**.
 2.  Click **Active Learning**.
 
-    ![Opening the Active Learning job](../images/nlu-expert-feedback-loop5a.png)
+    \[Omitted image "nlu-expert-feedback-loop5a.png"\] Alt text: Opening the Active Learning job
 
 3.  Click **Execute Now**.
 
-    ![Click the 'Execute Now' button to start the Active Learning job](../images/nlu-expert-feedback-loop5b.png)
+    \[Omitted image "nlu-expert-feedback-loop5b.png"\] Alt text: Click the 'Execute Now' button to start the Active Learning job
 
 4.  Increase or set the values in the following four NLU system properties.
 
@@ -120,7 +119,7 @@ To get more data from the VA chat logs to use in the Expert Feedback Loop, take 
 -   **glide.mlpredictor.option.nlu.activeLearning.label\_table.max\_data\_size - 10000**
 -   **glide.mlpredictor.option.nlu.activeLearning.label\_candidate\_table.max\_response\_size-300**
 
-To see how these properties work within the context of other NLU properties, see [NLU Workbench properties](../reference/nlu-instance-properties.md).
+To see how these properties work within the context of other NLU properties, see [NLU Workbench properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/nlu-instance-properties.md).
 
 ## Reviewing uncategorized utterances
 
@@ -139,7 +138,7 @@ For example, a good pairing for this connection is the Can I trade my ESPP? utte
 
 **Note:** The **Corrected Intent** column enables you to search for and use all intents across all models in your instance.
 
-![The number of uncategorized utterances depends on the Virtual Agent chat logs that are pulled into the daily feed to the Expert Feedback Loop](../images/nlu-expert-feedbacl-loop6.png "Pairing an uncategorized utterance with an intent and its model")
+\[Omitted image "nlu-expert-feedbacl-loop6.png"\] Alt text: The number of uncategorized utterances depends on the Virtual Agent chat logs that are pulled into the daily feed to the Expert Feedback Loop
 
 Regarding the image above, let's cover a few items that help describe how the uncategorized utterances page works, as follows. The **To do** section collects utterances that must be connected to an intent. On this particular day we see there are 120 such utterances. Note that the **Done** section on the screen has no utterances because you've not taken any action yet.
 
@@ -151,23 +150,23 @@ Note also that when you do take action to make a connection, the **Save feedback
 
 The **Tune model** button in the Expert Feedback Loop is always enabled and supports the experience of moving utterances from the Expert Feedback Loop **Done** tab to the model and its test set. Use the nlu\_admin role to click this button any time you need to tune or retune your model.
 
-![Tuning your model optimizes it prior to publishing it](../images/nlu-expert-feedback-loop7.png)
+\[Omitted image "nlu-expert-feedback-loop7.png"\] Alt text: Tuning your model optimizes it prior to publishing it
 
 After reviewing utterances in the Expert Feedback Loop, you can push a portion of the feedback data to the default test set of your model. These utterances are then directly added to the **Test utterances** tab of your model. This helps you to continuously maintain and update your test set with real end user utterances. The system tracks the source of the test utterances for visibility into whether they came from the Expert Feedback Loop or from another source.
 
 If you click the **Tune model** button before you have marked and saved at least 100 utterances, the screen refreshes to remind you that your model performance increases in quality when you have passed the 100 utterance feedback goal, as referenced in the text in the image below.
 
-![Click the'Tune model anyway' button any time to improve your model but the tuning results are best if you first establish a goal that is at least 100 marked utterances](../images/nlu-expert-feedback-loop8.png)
+\[Omitted image "nlu-expert-feedback-loop8.png"\] Alt text: Click the'Tune model anyway' button any time to improve your model but the tuning results are best if you first establish a goal that is at least 100 marked utterances
 
 As you keep marking and saving your feedback data, you can see the ratio of reviewed utterances \(in green\), and those that are still available for review \(in white\) on the progress bar image below.
 
-![The progress bar shows you how many utterances have been reviewed, and those that are available for review.](../images/nlu-expert-feedback-loop8a.png)
+\[Omitted image "nlu-expert-feedback-loop8a.png"\] Alt text: The progress bar shows you how many utterances have been reviewed, and those that are available for review.
 
 On the **Tune your model** image below, you can see the default 60/40 percentage split for your model training set and your model test set. You can adjust these default values if needed by selecting your own chosen numbers in each of the two **\(%\)** boxes. Once you're satisfied with your percentage split, click the **Tune** button to tune your model based on the percentage values you chose.
 
 **Note:** If you click the **View feedback** caret, it takes you to an Expert Feedback Loop screen where you can continue reviewing, marking, and saving your feedback utterances.
 
-![Set your percentage split values before you click the Tune button](../images/nlu-expert-feedback-loop9.png)
+\[Omitted image "nlu-expert-feedback-loop9.png"\] Alt text: Set your percentage split values before you click the Tune button
 
 ## Using the Active Learning job
 
@@ -183,11 +182,11 @@ Here are some steps to use to get started.
 
 1.  Using the nlu\_admin role, navigate to the **All** field and type **sysauto\_script.list**, then press the **return** key on your keyboard. The screen refreshes to show the Schedule page, which lists all of the scheduled jobs.
 
-    ![Schedule page.](../images/nlu-expert-feedback-loop10.png)
+    \[Omitted image "nlu-expert-feedback-loop10.png"\] Alt text: Schedule page.
 
 2.  On the Schedule page, click **Active Learning**. A record for the Active Learning job appears, as shown in the image below.
 
-    ![Open the calendar](../images/nlu-expert-feedback-loop11.png)
+    \[Omitted image "nlu-expert-feedback-loop11.png"\] Alt text: Open the calendar
 
 3.  On the Active Learning record, configure the following fields.
     -   In the **Run** field, select one of the eight Repeat Interval options for the job. The options are: Daily, Weekly, Monthly, Periodically, One, On Demand, Business Calendar:Entry Start, and Business Calendar:Entry End.
@@ -196,10 +195,8 @@ Here are some steps to use to get started.
     -   Click the **Update** button to save your configurations or click the **Execute Now** button to start the Active Learning job run.
     -   To verify when the next Active Learning job runs, navigate to the **All** field and type **sys\_trigger.list**, then press the **return** key on your keyboard. The Schedule page appears. Click **Active Learning**. The Schedule Item/Active Learning record appears and populates the **Next action** field with the date and time for the next Active Learning job run.
 
-        ![The Active Learning record](../images/nlu-expert-feedback-loop12.png)
+        \[Omitted image "nlu-expert-feedback-loop12.png"\] Alt text: The Active Learning record
 
 
 Detailed information about NLU's Active Learning job can be found in this KB article on the Support portal: [KB1633901](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1633901).
-
-**Parent Topic:**[NLU Workbench - Advanced Features](nlu-workbench-advanced-features.md)
 

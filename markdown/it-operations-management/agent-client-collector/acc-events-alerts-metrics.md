@@ -2,6 +2,7 @@
 title: Agent-based data flow
 description: The Agent Client Collector gathers information on the health of the CI that the Agent is installed on, and the applications that run on the hosts. The Agent runs several checks and pushes the checks' results to the MID Server, where they are converted into events or metrics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-events-alerts-metrics.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -19,7 +20,7 @@ Events are stored in the instance's Events database, while metrics are stored in
 
 The following image displays the data flow from the Agent Client Collector to the instance.
 
-![Agent client collector data flow](../image/acc-dataflow.png)
+\[Omitted image "acc-dataflow.png"\] Alt text: Agent client collector data flow
 
 The numbered entries in the flow indicate the following:
 
@@ -27,5 +28,5 @@ The numbered entries in the flow indicate the following:
 2.  The MID Server analyzes the data and classifies the results as events or metrics. MID Server uses REST API to send the results to the instance.
 3.  The instance receives the data and stores it in the relevant database.
 
-**Parent Topic:**[Exploring Agent Client Collector Framework](exploring-agent-client-collector-framework.md)
+**Parent Topic:**[Exploring Agent Client Collector Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/exploring-agent-client-collector-framework.md)
 

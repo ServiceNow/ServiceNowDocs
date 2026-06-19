@@ -2,13 +2,14 @@
 title: Approve your purchase requisition from Shopping Hub Home
 description: Provide approvals for your purchase requisitions and invoice requests that are in pending approval state. Purchase requisition approvals are generated when an approval rule is triggered on meeting certain criteria. Invoice approvals are sent to the recipient of the line.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/work-approval-todos.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Shopper to-dos, Using Shopping Hub, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Shopper to-dos, Using Shopping Hub, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Approve your purchase requisition from Shopping Hub Home
@@ -37,13 +38,13 @@ You can approve or reject your purchase requisitions and invoice requests from t
 
 3.  Select the **Approvals** tab.
 
-    ![Approve or reject your purchase requisitions from the Approvals tab](../image/spo-approve-pr-approvalstab.png)
+    \[Omitted image "spo-approve-pr-approvalstab.png"\] Alt text: Approve or reject your purchase requisitions from the Approvals tab
 
 4.  On the **Pending approvals** tab, view details of the approval requests, such as requester name, total amount or budget requiring approval, and request ID at the header level.
 
     At the line level, you can view the details of the requested items, such as product, approval amount, approval status, unit, price, quantity, total line amount, line number, reason for purchase, product type, delivery location, expected delivery date, and so on. You can also filter the purchase requisition lines by their approval status, and view associated activities and attachments in separate tabs therein.
 
-    ![View details of pending approval requests.](../image/spo-approve-pending-pr.png)
+    \[Omitted image "spo-approve-pending-pr.png"\] Alt text: View details of pending approval requests.
 
 5.  Do any of these actions.
 
@@ -61,5 +62,5 @@ You can approve or reject your purchase requisitions and invoice requests from t
 6.  Select **Submit**.
 
 
-**Parent Topic:**[Shopper to-dos](../reference/shopper-todos.md)
+**Parent Topic:**[Shopper to-dos](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos.md)
 

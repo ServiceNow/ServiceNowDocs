@@ -2,6 +2,7 @@
 title: Scoring forms
 description: Learn about the fields of the scoring forms. Use this form while configuring scoring for an assessment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/smart-assessment-engine/scoring-forms.html
 release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine

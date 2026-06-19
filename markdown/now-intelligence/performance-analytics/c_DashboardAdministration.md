@@ -2,6 +2,7 @@
 title: Administering dashboards
 description: Learn about administering dashboards including how to group dashboards, how to move a dashboard with an update set, and troubleshooting permissions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/c\_DashboardAdministration.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -17,10 +18,10 @@ Learn about administering dashboards including how to group dashboards, how to m
 
 Users with the dashboard\_admin role have full access including view, edit, delete, and share permissions on all dashboards in an instance, including all inactive dashboards. To view a list of all dashboards in an instance, navigate to **Performance Analytics** &gt; **System** &gt; **Dashboard Administration**. Click on the name of a dashboard to view its form.
 
-The fields on the dashboard's form are described in [Create or configure a responsive dashboard](../../performance-analytics/task/t_CreateADashboard.md). Use the related links to:
+The fields on the dashboard's form are described in [Create or configure a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_CreateADashboard.md). Use the related links to:
 
 -   View the dashboard
--   [Launch Dependency Assessment](../task/launch-dependency-assessment.md)
+-   [Launch Dependency Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/launch-dependency-assessment.md)
 
-![Dashboard admin form with both Related Links outlined in red](../image/dashboard-admin.png)
+\[Omitted image "dashboard-admin.png"\] Alt text: Dashboard admin form with both Related Links outlined in red
 

@@ -2,6 +2,7 @@
 title: Perform preliminary risk assessment and impact analysis
 description: Perform a preliminary risk assessment and impact analysis of the target.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/perform-risk-assess-impact-analysis.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -17,7 +18,7 @@ Perform a preliminary risk assessment and impact analysis of the target.
 
 ## Before you begin
 
-**Note:** Starting with version 10.1.0, the NIST RMF Use Case Accelerator will be supported only for customers who currently use the product. New and existing customers should consider using the GRC: Continuous Authorization Monitoring application. For details, [Continuous Authorization and Monitoring](../../grc-cam/reference/grc-cam-landing-page.md).
+**Note:** Starting with version 10.1.0, the NIST RMF Use Case Accelerator will be supported only for customers who currently use the product. New and existing customers should consider using the GRC: Continuous Authorization Monitoring application. For details, [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/grc-cam-landing-page.md).
 
 Role required: sn\_irm\_nist\_rmf.risk\_executive or sn\_irm\_nist\_rmf.security\_officer
 
@@ -31,7 +32,7 @@ Role required: sn\_irm\_nist\_rmf.risk\_executive or sn\_irm\_nist\_rmf.security
 
 4.  Open the target record again and update the following fields in the NIST RMF section:
 
-    **Note:** Review [NIST RMF supporting concepts](../reference/grc-nist-rmf-key-concepts.md), for more detailed information about these fields.
+    **Note:** Review [NIST RMF supporting concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-nist-rmf-key-concepts.md), for more detailed information about these fields.
 
     |Field|Description|
     |-----|-----------|
@@ -56,5 +57,5 @@ Role required: sn\_irm\_nist\_rmf.risk\_executive or sn\_irm\_nist\_rmf.security
 7.  Implement security controls for the target following the standard approach outlined in the Policy and Compliance Management application.
 
 
-**Parent Topic:**[Categorize targets](../concept/rmf-categorize.md)
+**Parent Topic:**[Categorize targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/rmf-categorize.md)
 

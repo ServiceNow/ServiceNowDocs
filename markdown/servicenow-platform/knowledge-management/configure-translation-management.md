@@ -2,6 +2,7 @@
 title: Configure translation management
 description: Configure translation management to create translation tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/configure-translation-management.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -15,12 +16,12 @@ breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage cont
 
 Configure translation management to create translation tasks.
 
--   **[Activate translation management](../task/activate-translation-mgt.md)**  
+-   **[Activate translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/activate-translation-mgt.md)**  
 You can activate the Knowledge Management Advanced \(com.snc.knowledge\_advanced\) and I18N:Knowledge Management Internationalization Plugin v2 \(com.glideapp.knowledge.i18n2\) plugins for translation management if you have the admin role.
--   **[Add a custom Localization Framework setting to enable bulk translations](conf-lf-settings-manual-translations.md)**  
+-   **[Add a custom Localization Framework setting to enable bulk translations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/conf-lf-settings-manual-translations.md)**  
 Add a custom Localization Framework setting to translate multiple knowledge articles manually.
--   **[Add a custom Localization Framework setting to enable machine translation](con-lf-dynamic-translations.md)**  
+-   **[Add a custom Localization Framework setting to enable machine translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/con-lf-dynamic-translations.md)**  
 Add a custom Localization Framework setting to enable machine translation for bulk translations of knowledge articles.
 
-**Parent Topic:**[Configuring Knowledge Management](configuring-knowledge-management.md)
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 

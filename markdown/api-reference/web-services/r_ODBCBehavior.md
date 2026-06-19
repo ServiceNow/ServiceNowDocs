@@ -2,6 +2,7 @@
 title: ODBC behavior
 description: After testing the ODBC driver, you can use it to query your instance database from a variety of client applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/r\_ODBCBehavior.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -45,19 +46,19 @@ Some examples of how to use and work with ODBC display values are shown below.
 
     When querying a column of type **Choice**, **Reference**, **Duration**, or **Timer**, an additional column with the prefix `dv_` is available that contains the display value. For example, you can select **dv\_caller\_id** to return the **sys\_user.name** display value of the reference field from an incident record without making another request to the sys\_user table.
 
-    ![Return the display value](../image/ReturnTheDisplayValue.png "Return the display value")
+    \[Omitted image "ReturnTheDisplayValue.png"\] Alt text: Return the display value
 
 -   Display values in filter conditions:
 
     Display values can also be used in a filter condition. The ODBC driver optimizes the query condition and processes the filter on the server, for example, querying on the display value of **sys\_user** for the **caller\_id** field of an incident by using the **dv\_caller\_id** field name.
 
-    ![Display values in filter conditions](../image/DisplayValuesInFilterConditions.png "Display values in filter conditions")
+    \[Omitted image "DisplayValuesInFilterConditions.png"\] Alt text: Display values in filter conditions
 
 -   Display values in aggregate queries:
 
     Aggregate queries can also take advantage of display values if you specify them in the group by or where clause, for example, grouping on the **caller\_id** field of an incident, as well as specifying a filter for it. The query is optimized by passing through to the server.
 
-    ![Display values in aggregate queries](../image/DisplayValuesInAggregateQueries.png "Display values in aggregate queries")
+    \[Omitted image "DisplayValuesInAggregateQueries.png"\] Alt text: Display values in aggregate queries
 
 
 ## Querying table and column names
@@ -81,8 +82,8 @@ Query routing is done to take the load off the primary database for SELECT queri
 
 For routing ODBC calls to Read Replica, go to **All** &gt; **Secondary Database** &gt; **Secondary DB Categories** and set **odbc** to `true`.
 
--   **[Increase the field length in SQL queries](../task/t_IncreaseTheODBCOutputFieldSize.md)**  
+-   **[Increase the field length in SQL queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/t_IncreaseTheODBCOutputFieldSize.md)**  
 The ODBC driver limits the field length in SQL queries to the maximum length defined by the ServiceNow dictionary entry. You can increase the maximum field length to avoid truncating data.
 
-**Parent Topic:**[Create data sources from other apps using ODBC driver](../concept/c_ODBCDriver.md)
+**Parent Topic:**[Create data sources from other apps using ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_ODBCDriver.md)
 

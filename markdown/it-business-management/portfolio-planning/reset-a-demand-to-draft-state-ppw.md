@@ -2,6 +2,7 @@
 title: Reset a demand to draft state
 description: Move a demand back to the Draft state, if necessary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/reset-a-demand-to-draft-state-ppw.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -27,11 +28,11 @@ A demand can be reset to Draft from the Completed, Approved, Screening, or Submi
 
 1.  Open a demand from the home page of Next Experience for Demand Management.
 
-    For more information, see [Access demands](access-demands-ppw.md).
+    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/access-demands-ppw.md).
 
 2.  Select **Details** from the L-2 \(level 2\) navigation menu.
 
-3.  Select **Reset to Draft**.![Use the Reset to Draft button to reset a demand to the Draft state.](../../spw-demand/images/demands-reset-to-draft.png)
+3.  Select **Reset to Draft**.\[Omitted image "demands-reset-to-draft.png"\] Alt text: Use the Reset to Draft button to reset a demand to the Draft state.
 
     A confirmation message appears, if there are:
 

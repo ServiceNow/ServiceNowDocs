@@ -2,6 +2,7 @@
 title: ServiceNow for Microsoft Teams integration API permissions for Request-based chat and SSO
 description: Following are API permissions requested by the ServiceNow integration with Microsoft Teams for Request-based chat and SSO.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/request-based-chat-api-permissions.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -34,5 +35,5 @@ Following are API permissions requested by the ServiceNow® integration with Mic
 |TeamsActivity.Send \(delegated\)|This permission is required to send a team work activity to user.|
 |profile \(delegated\)|This permission is required for giving the basic user details.|
 
-**Parent Topic:**[ServiceNow for Microsoft Teams reference](reference-sn-teams.md)
+**Parent Topic:**[ServiceNow for Microsoft Teams reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/reference-sn-teams.md)
 

@@ -2,6 +2,7 @@
 title: Digital Portfolio Management homepage default solution cards
 description: Digital Portfolio Management uses certain fields to auto-generate a set of default solution cards to display on your DPM homepage. After you add or remove solutions from your homepage, DPM remembers your updates by displaying your personalized solutions cards instead of the auto-generated set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-portfolio-management/dpm-oob-solution-card-fields.html
 release: zurich
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -17,7 +18,7 @@ Digital Portfolio Management uses certain fields to auto-generate a set of defau
 
 ## DPM homepage overview
 
-Each time that you log in to the DPM Workspace, the system uses certain fields to display a set of default solution cards. You can use the personalize option to add or remove solutions to your homepage. For more information, see [Personalize the Digital Portfolio Management Workspace home page](../task/dpm-personalize-homepage.md).
+Each time that you log in to the DPM Workspace, the system uses certain fields to display a set of default solution cards. You can use the personalize option to add or remove solutions to your homepage. For more information, see [Personalize the Digital Portfolio Management Workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-personalize-homepage.md).
 
 After you add or remove solutions, the DPM system remembers your updates in the **dpm\_home\_page\_item** table so that next time you log in to the DPM Workspace, your personalized homepage displays. The system no longer generates a set of default solution cards for you.
 
@@ -165,5 +166,5 @@ cmdb\_ci\_service\_auto including dynamic configuration item \(CI\) groups
 -   Managed by 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Digital Portfolio Management reference](dpm-reference-cfw.md)
+</table>**Parent Topic:**[Digital Portfolio Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-reference-cfw.md)
 

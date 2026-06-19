@@ -2,6 +2,7 @@
 title: PADomainUtils - setOverrides\(Boolean overrides\)
 description: Use this method before copying records to set the sys\_override value of the new record to the original parent record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/r\_PADU-setOverrides\_boolean.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -31,5 +32,5 @@ pa.setOverrides(false);
 pa.copy('bb6b58b01f1310005a3637b8ec8b70dd');
 ```
 
-**Parent Topic:**[PADomainUtils - Global](../concept/c_PADomainUtils.md)
+**Parent Topic:**[PADomainUtils - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_PADomainUtils.md)
 

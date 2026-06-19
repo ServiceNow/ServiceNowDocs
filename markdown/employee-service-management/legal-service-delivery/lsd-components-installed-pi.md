@@ -2,6 +2,7 @@
 title: Components installed with Predictive Intelligence for Legal Service Delivery
 description: Several types of components are installed with activation of the Predictive Intelligence for Legal Service Delivery application, including user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/lsd-components-installed-pi.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Predictive intelligence for Legal Service Delivery, Inte
 
 Several types of components are installed with activation of the Predictive Intelligence for Legal Service Delivery application, including user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles
 
@@ -64,5 +65,5 @@ Legal AI Configuration\[sn\_lg\_ai\_configuration\]
 Stores information related to use cases for the solution definitions.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Predictive Intelligence for Legal Service Delivery reference](../concept/lsd-PI-reference-landing.md)
+</table>**Parent Topic:**[Predictive Intelligence for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/lsd-PI-reference-landing.md)
 

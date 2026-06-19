@@ -2,9 +2,12 @@
 title: Browser requirements for all Zurich features and products
 description: Cumulative release notes summary on browser requirements for Zurich features and products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/rn-summary-browser-reqs.html
 release: zurich
+product: Release Notes
+classification: release-notes
 topic_type: reference
-last_updated: "2026-04-08"
+last_updated: "2026-06-12"
 reading_time_minutes: 5
 breadcrumb: [Release notes summaries for Zurich features, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
@@ -24,6 +27,14 @@ Application or feature
 Details
 
 </th></tr></thead><tbody><tr><td>
+
+AI Desktop Actions
+
+</td><td>
+
+Now Assist AI agents support various browsers, including Google Chrome and Microsoft Edge. Now Assist AI agents aren't supported in Internet Explorer.
+
+</td></tr><tr><td>
 
 AI Search
 
@@ -45,15 +56,7 @@ Agent experience for CSM
 
 </td><td>
 
-ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://www.servicenow.com/docs/access?context=browser-support&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
-
-</td></tr><tr><td>
-
-Agentic Desktop
-
-</td><td>
-
-Now Assist AI agents support various browsers, including Google Chrome and Microsoft Edge. Now Assist AI agents aren't supported in Internet Explorer.
+ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in Browser support.
 
 </td></tr><tr><td>
 
@@ -61,7 +64,7 @@ Automated Test Framework
 
 </td><td>
 
-Automated Test Framework supports running tests only from desktop browsers. You can't run tests or test suites from tablets, mobile browsers, or the mobile UI. Some desktop browsers require additional configuration. For more information, see [Browser recommendations for Automated Test Framework](https://www.servicenow.com/docs/access?context=browser-recommendations-atf&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+Automated Test Framework supports running tests only from desktop browsers. You can't run tests or test suites from tablets, mobile browsers, or the mobile UI. Some desktop browsers require additional configuration. For more information, see .
 
 Automated Test Framework offers limited support for test design on tablets. You can't add new custom UI test steps from tablets because tablets can't retrieve components. Review any existing custom UI test steps that were added from a desktop browser instead.
 
@@ -84,7 +87,7 @@ Case management for CSM
 
 </td><td>
 
-ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://www.servicenow.com/docs/access?context=browser-support&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in Browser support.
 
 </td></tr><tr><td>
 
@@ -92,7 +95,7 @@ Configurable Workspace
 
 </td><td>
 
-Configurable Workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge, Chromium or one of the other supported browsers that are listed in [Browser support](../../administer/navigation-and-ui/reference/browser-support.md).
+Configurable Workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge, Chromium or one of the other supported browsers that are listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -100,7 +103,7 @@ Data Management for CSM
 
 </td><td>
 
-Starting with the Zurich release, data management for Customer Service Management doesn't support mobile devices and Internet Explorer. For more information, see [Browser support](../../administer/navigation-and-ui/reference/browser-support.md).
+Starting with the Zurich release, data management for Customer Service Management doesn't support mobile devices and Internet Explorer. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -108,7 +111,7 @@ Digital End-User Experience
 
 </td><td>
 
-Enable the DEX browser extension to monitor web applications for various operational or performance-based metrics on your system. For more information, see [Enable DEX browser extension](https://www.servicenow.com/docs/access?context=enable-dex-browser-extension&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+Enable the DEX browser extension to monitor web applications for various operational or performance-based metrics on your system. For more information, see .
 
 </td></tr><tr><td>
 
@@ -124,7 +127,7 @@ Intelligence for CSM
 
 </td><td>
 
-ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://www.servicenow.com/docs/access?context=browser-support&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in Browser support.
 
 </td></tr><tr><td>
 
@@ -132,7 +135,7 @@ Legal Hold Notification
 
 </td><td>
 
-The Legal Hold Notification application works with the latest stable versions of popular web browsers. To find the list of supported browsers, see [Browser support](../../administer/navigation-and-ui/reference/browser-support.md).
+The Legal Hold Notification application works with the latest stable versions of popular web browsers. To find the list of supported browsers, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -140,7 +143,7 @@ Manufacturing Commercial Operations
 
 </td><td>
 
-ServiceNow workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://www.servicenow.com/docs/access?context=browser-support&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+ServiceNow workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in Browser support.
 
 </td></tr><tr><td>
 
@@ -188,7 +191,7 @@ Now Assist for Legal Service Delivery \(LSD\)
 
 </td><td>
 
-The Now Assist for Legal Service Delivery \(LSD\) application works with the latest stable versions of popular web browsers. To find the list of supported browsers, see [Browser support](../../administer/navigation-and-ui/reference/browser-support.md).
+The Now Assist for Legal Service Delivery \(LSD\) application works with the latest stable versions of popular web browsers. To find the list of supported browsers, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -196,7 +199,7 @@ Now Assist for Order Management
 
 </td><td>
 
-Starting with the Zurich release, RMA Case Management for Sales Customer Relationship Management doesn't support mobile devices and Internet Explorer. For more information, see [Browser support](../../administer/navigation-and-ui/reference/browser-support.md).
+Starting with the Zurich release, RMA Case Management for Sales Customer Relationship Management doesn't support mobile devices and Internet Explorer. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -204,7 +207,7 @@ Now Assist in Contract Management
 
 </td><td>
 
-Now Assist supports various browsers, including Google Chrome and Microsoft Edge. Now Assist isn’t supported in Microsoft Internet Explorer.
+Now Assist supports various browsers, including Google Chrome and Microsoft Edge. Now Assist isn't supported in Microsoft Internet Explorer.
 
 </td></tr><tr><td>
 
@@ -212,7 +215,7 @@ Now Assist in Virtual Agent
 
 </td><td>
 
-Now Assist in Virtual Agent supports various browsers, including Google Chrome and Microsoft Edge. For more information, see [Browser support](../../administer/navigation-and-ui/reference/browser-support.md).
+Now Assist in Virtual Agent supports various browsers, including Google Chrome and Microsoft Edge. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -246,7 +249,7 @@ RPA Hub
 
 </td><td>
 
-ServiceNow workspaces don’t support mobile devices. For more information about the list of supported browsers, see [Browser support](../../administer/navigation-and-ui/reference/browser-support.md).
+ServiceNow workspaces don’t support mobile devices. For more information about the list of supported browsers, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -254,7 +257,7 @@ Return Merchandise Authorization
 
 </td><td>
 
-Starting with the Zurich release, RMA Case Management for Sales Customer Relationship Management doesn't support mobile devices and Internet Explorer. For more information, see [Browser support](../../administer/navigation-and-ui/reference/browser-support.md).
+Starting with the Zurich release, RMA Case Management for Sales Customer Relationship Management doesn't support mobile devices and Internet Explorer. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -262,7 +265,7 @@ Self-service and omnichannel engagement for CSM
 
 </td><td>
 
-Internet Explorer isn't supported. For more information, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+Internet Explorer isn't supported. For more information, see Browser support.
 
 </td></tr><tr><td>
 
@@ -281,5 +284,5 @@ UI Builder
 Internet Explorer isn't supported for UI Builder.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Zurich features](../release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Zurich features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/release-notes-summaries.md)
 

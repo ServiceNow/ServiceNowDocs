@@ -2,6 +2,7 @@
 title: Dashboards in Platform Analytics
 description: Dashboards are canvasses for organizing and sharing data visually. They contain data visualizations, filters, and other visual elements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/analytics-center-dashboards.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -19,27 +20,27 @@ Overview of creating and populating Platform Analytics experience dashboards inc
 
 <table id="table_o5y_trj_mcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Guide to the layouts and content of a dashboard and how to find a dashboard in the library](../../dashboards/reference/ac-elements.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Guide to the layouts and content of a dashboard and how to find a dashboard in the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/ac-elements.md)
 
 </td><td>
 
-[Create, edit, share![](../../../reuse/icons/brand-icons/bus-start-developing.svg)Procedures for performing the most common dashboard tasks](../../dashboards/concept/common-dashboard-tasks.md)
+[Create, edit, share\[Omitted image "bus-start-developing.svg"\] Alt text:Procedures for performing the most common dashboard tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/common-dashboard-tasks.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set refresh periods and other one-time settings as an owner or administrator](../../dashboards/concept/configuring-dashboards.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set refresh periods and other one-time settings as an owner or administrator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/configuring-dashboards.md)
 
 </td></tr><tr><td>
 
-[Proactive analytics Insights![](../../../reuse/icons/brand-icons/bus-light-bulb.svg)Automate the extraction of insights from your indicator data sources](proactive-analytics.md)
+[Proactive analytics Insights\[Omitted image "bus-light-bulb.svg"\] Alt text:Automate the extraction of insights from your indicator data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/proactive-analytics/proactive-analytics.md)
 
 </td><td>
 
-[Technical dashboards![](../../../reuse/icons/brand-icons/ind-nuclear-energy.svg)Create dashboards as UI Builder pages, with all of UI Builder's customizability and complexity. Developers only.](../../performance-analytics/concept/technical-dashboards.md)
+[Technical dashboards\[Omitted image "ind-nuclear-energy.svg"\] Alt text:Create dashboards as UI Builder pages, with all of UI Builder's customizability and complexity. Developers only.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/technical-dashboards.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Roles and translatable fields](dashboard-reference-page.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Roles and translatable fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboard-reference-page.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

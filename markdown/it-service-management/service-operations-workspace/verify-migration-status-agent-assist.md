@@ -2,6 +2,7 @@
 title: Perform post-migration tasks for Agent assist configuration
 description: Verify that the Agent assist configurations in Service Operations Workspace \(SOW\) are consistent with the Agent assist configurations in ITSM Agent Workspace \(ITSM AW\) and are ready for use in SOW. You can update the migrated Agent assist configuration settings in SOW based on your requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/verify-migration-status-agent-assist.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -17,7 +18,7 @@ Verify that the Agent assist configurations in Service Operations Workspace \(SO
 
 ## Before you begin
 
-When performing the migration, you must have selected the **Agent Assist Configuration** option for ITSM Agent Workspace features. For example, the **Agent Assist Configuration** option for Incident Management. For information about the migration process, see [Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM](migrate-itsm-agent-workspace-to-sow.md).
+When performing the migration, you must have selected the **Agent Assist Configuration** option for ITSM Agent Workspace features. For example, the **Agent Assist Configuration** option for Incident Management. For information about the migration process, see [Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/migrate-itsm-agent-workspace-to-sow.md).
 
 Role required: admin
 
@@ -37,7 +38,7 @@ At the end of the migration process, a confirmation message specifies if the mig
 
         For example: If you want to verify the Agent assist configuration migration status for an incident, navigate to **List** &gt; **Incident** &gt; **All** and then select any incident record.
 
-    3.  Select the **Agent Assist** \(![agent assist icon](../image/agent-assist-icon.png)\) icon from the Contextual side panel.
+    3.  Select the **Agent Assist** \(\[Omitted image "agent-assist-icon.png"\] Alt text: agent assist icon\) icon from the Contextual side panel.
 
     4.  Review the Agent assist side panel to verify that the Agent assist configurations for all selected tables are available in SOW same as in ITSM Agent Workspace.
 
@@ -49,12 +50,12 @@ At the end of the migration process, a confirmation message specifies if the mig
 
     1.  On the migration completion page in SOW Admin Center, select **View migration details**.
 
-    2.  Select the **Go to system logs** \(![Error](../../service-builder/image/sb-service-triangle.png)\) icon.
+    2.  Select the **Go to system logs** \(\[Omitted image "sb-service-triangle.png"\] Alt text: Error\) icon.
 
     3.  Review the logs to determine which items failed during migration.
 
-    4.  For each failed item, identify which step has failed and perform the steps mentioned in the [How the migration works](../reference/agent-assist-migration-itsm-aw-sow.md#section_knd_y5j_dcc).
+    4.  For each failed item, identify which step has failed and perform the steps mentioned in the [How the migration works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/agent-assist-migration-itsm-aw-sow.md).
 
 
-**Parent Topic:**[Migration of Agent assist from ITSM Agent Workspace to Service Operations Workspace for ITSM](../reference/agent-assist-migration-itsm-aw-sow.md)
+**Parent Topic:**[Migration of Agent assist from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/agent-assist-migration-itsm-aw-sow.md)
 

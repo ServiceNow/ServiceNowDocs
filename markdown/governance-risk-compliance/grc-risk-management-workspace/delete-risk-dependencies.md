@@ -2,6 +2,7 @@
 title: Delete risk dependencies using the GRC: Workbench
 description: When deleting risk dependencies, only the relationship between the risks is deleted. The risks themselves remain unmodified.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/delete-risk-dependencies.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -38,5 +39,5 @@ Role required: sn\_risk.manager
     **Note:** Only the relationship between the risks is deleted. The risks themselves remain unmodified.
 
 
-**Parent Topic:**[Use entity and risk dependencies using the GRC: Workbench](../concept/grc-workbench.md)
+**Parent Topic:**[Use entity and risk dependencies using the GRC: Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/grc-workbench.md)
 

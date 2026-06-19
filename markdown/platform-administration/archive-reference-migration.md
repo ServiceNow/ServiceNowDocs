@@ -2,6 +2,7 @@
 title: Migrating non-reference fields to reference fields
 description: Manually preserve sys\_ids in reference fields instead of storing the display name as a string.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/archive-reference-migration.html
 release: zurich
 topic_type: reference
 last_updated: "2025-07-31"
@@ -88,5 +89,5 @@ trigger.setValue('trigger_class', 'com.glide.db.auxiliary.job.ArchiveRefJob');
 trigger.insert();
 ```
 
-**Parent Topic:**[Archiving records](../../managing-data/concept/archiving-older-records.md)
+**Parent Topic:**[Archiving records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/archiving-older-records.md)
 

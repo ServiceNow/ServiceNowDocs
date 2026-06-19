@@ -2,6 +2,7 @@
 title: Resource assignment form
 description: Use this form to create resource assignments from Project Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/pw-resource-assignment-form.html
 release: zurich
 product: Project Workspace
 classification: project-workspace
@@ -172,5 +173,5 @@ Offset
 Difference between actual or planned start date of project or task and resource assignment start date.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Project Workspace](../../project-workspace/reference/form-field-information-for-project-workspace.md)
+</table>**Parent Topic:**[Form field information for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/form-field-information-for-project-workspace.md)
 

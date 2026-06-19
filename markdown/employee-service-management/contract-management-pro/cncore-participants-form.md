@@ -2,6 +2,7 @@
 title: Participant form for contract templates
 description: Use the Participant form to add participants in a contract template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-participants-form.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -161,5 +162,5 @@ Optional
 When enabled, a participant will be skipped if the participant user and participant email is not available. This check is done during runtime only and not while configuring the template.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create and configure participants](../task/cncore-add-participants.md)
+</table>**Parent Topic:**[Create and configure participants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-add-participants.md)
 

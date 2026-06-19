@@ -2,6 +2,7 @@
 title: Legacy: Open Changes State Monitor dashboard
 description: This workbench dashboard enables you to view and assess all open changes separated into status brackets: New, Assessed, Authorized, Scheduled, Implemented, and Reviewed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/change-state-monitor-dashboard.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -17,9 +18,9 @@ This workbench dashboard enables you to view and assess all open changes separat
 
 **Important:**
 
-Starting in Xanadu release, the Change dashboard is deprecated. Users can use [Change dashboard](performance-analytics/change.md) to view, and track the open changes.
+Starting in Xanadu release, the Change dashboard is deprecated. Users can use [Change dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change.md) to view, and track the open changes.
 
-![Open Changes State Monitor dashboard](../image/change-open-changes-state-monitor.png "Open Changes State Monitor tab")
+\[Omitted image "change-open-changes-state-monitor.png"\] Alt text: Open Changes State Monitor dashboard
 
 ## Indicators
 
@@ -47,5 +48,5 @@ Starting in Xanadu release, the Change dashboard is deprecated. Users can use [C
 -   Age
 -   Assignment Group
 
-**Parent Topic:**[Legacy: Change Management Platform Analytics Solutions](change-content-pack.md)
+**Parent Topic:**[Legacy: Change Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-content-pack.md)
 

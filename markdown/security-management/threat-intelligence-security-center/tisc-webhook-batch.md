@@ -2,6 +2,7 @@
 title: View webhook batches
 description: A webhook batch record is created for each webhook execution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-webhook-batch.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -167,7 +168,7 @@ Array of Objects
 
 </td><td>
 
-Contains an array of events which are triggered as part of that webhook. Each event will contain the snapshot of the field values at the time of event generation and also contains the trigger information.**Note:** For more information on viewing the parameters in the event object, see [Webhook Triggers](../concept/tisc-triggers.md).
+Contains an array of events which are triggered as part of that webhook. Each event will contain the snapshot of the field values at the time of event generation and also contains the trigger information.**Note:** For more information on viewing the parameters in the event object, see [Webhook Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-triggers.md).
 
 </td></tr></tbody>
 </table>    **Note:**
@@ -177,5 +178,5 @@ Contains an array of events which are triggered as part of that webhook. Each ev
     **Note:** You can also trigger the retry batch for the completed batches.
 
 
-**Parent Topic:**[Configure webhooks](../concept/setup-webhooks.md)
+**Parent Topic:**[Configure webhooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/setup-webhooks.md)
 

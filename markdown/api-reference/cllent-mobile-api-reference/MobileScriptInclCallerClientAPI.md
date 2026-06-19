@@ -2,6 +2,7 @@
 title: MobileScriptIncludeCaller - Client
 description: Provides methods to call script includes from Mobile UI Rule Actions.Creates an instance of the MobileScriptIncludeCaller class with the script include and function to call.Adds a parameter to pass when calling the script include.Calls the script include specified by the constructor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/cllent-mobile-api-reference/MobileScriptInclCallerClientAPI.html
 release: zurich
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -15,13 +16,13 @@ breadcrumb: [Client mobile API reference, API reference, API implementation and 
 
 Provides methods to call script includes from Mobile UI Rule Actions.
 
-This API can be used with the [m\_form - Client](../../m_form/concept/m_formClientAPI.md#) API to auto-fill inputs on input form screens. For more information about input form screens, see [Input form screen](https://www.servicenow.com/docs/access?context=parameter-input-screen&version=zurich&pubname=zurich-mobile&ft:locale=en-US).
+This API can be used with the [m\_form - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/m_formClientAPI.md) API to auto-fill inputs on input form screens. For more information about input form screens, see .
 
-Use this API in the **Client script** field of a Mobile UI Rule Action. For instructions on configuring a Mobile UI Rule Action with the correct settings for this API, see [Configure auto-fill inputs on input form screens](https://www.servicenow.com/docs/access?context=config-autofil-inputs-nptfrmscrn&version=zurich&pubname=zurich-mobile&ft:locale=en-US).
+Use this API in the **Client script** field of a Mobile UI Rule Action. For instructions on configuring a Mobile UI Rule Action with the correct settings for this API, see .
 
 The script include must have the **Mobile callable** field selected to be called by this API.
 
-**Parent Topic:**[Client mobile API reference](../../../../../build/applications/concept/api-client-mobile.md)
+**Parent Topic:**[Client mobile API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/api-client-mobile.md)
 
 ## MobileScriptIncludeCaller - MobileScriptIncludeCaller\(String scriptName, String functionName\)
 

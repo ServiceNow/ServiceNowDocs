@@ -2,6 +2,7 @@
 title: Configure Health and Safety Testing
 description: Complete all configuration tasks to ensure that Health and Safety Testing is set up correctly for your company.Set up Health and Safety Testing properties to define the data retention period for health testing data and enable or disable emails to potentially exposed individuals.Configure the data retention settings for Health and Safety Testing so that the data-retention policy is country-specific.Create a list of COVID-19 diagnostic test providers that your company uses to schedule testing for employees.Modify the notification email that is sent to potentially exposed individuals to customize the notification for your company.Set up privacy consents for users who are providing health and safety testing data to your company.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-testing/configure-health-safety-testing.html
 release: zurich
 product: Health and Safety Testing
 classification: health-and-safety-testing
@@ -15,7 +16,7 @@ breadcrumb: [Health and Safety Testing, Safe Workplace, Health and Safety, Emplo
 
 Complete all configuration tasks to ensure that Health and Safety Testing is set up correctly for your company.
 
-**Parent Topic:**[Health and Safety Testing](../concept/health-safety-testing.md)
+**Parent Topic:**[Health and Safety Testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-testing/health-safety-testing.md)
 
 ## Set up Health and Safety Testing properties
 
@@ -45,7 +46,7 @@ Health and Safety Testing data retention period \(in days\).\[sn\_imt\_health\_t
 
 </td><td>
 
-Sets the number of days that data for COVID-19 diagnostic test requests and results is available in the system before it is deleted automatically. The **Data Retention Job for Health and Safety Testing** scheduled job runs daily to delete records that have an updated date past the specified retention period.**Note:** When an employee's test results are deleted, their health and safety requirement status is reset to the default status for **Testing Requirement Satisfied**. If the employee is a potentially exposed individual in a contact tracing case, their health and safety requirement status is reset to **Not Cleared** until they submit a negative test result. For more information about health and safety requirements, see [Employee Health and Safety Status](../../employee-readiness-core/concept/employee-health-safety-status.md).
+Sets the number of days that data for COVID-19 diagnostic test requests and results is available in the system before it is deleted automatically. The **Data Retention Job for Health and Safety Testing** scheduled job runs daily to delete records that have an updated date past the specified retention period.**Note:** When an employee's test results are deleted, their health and safety requirement status is reset to the default status for **Testing Requirement Satisfied**. If the employee is a potentially exposed individual in a contact tracing case, their health and safety requirement status is reset to **Not Cleared** until they submit a negative test result. For more information about health and safety requirements, see [Employee Health and Safety Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-readiness-core/employee-health-safety-status.md).
 
 </td></tr><tr><td>
 
@@ -194,7 +195,7 @@ By default, the notification uses a ServiceNow® banner and a placeholder signat
 
     **Tip:** The image must be added before the mail script so that it appears at the top of the email.
 
-    If you don't already have an email banner image in your ServiceNow instance, you can upload an image to use. For instructions, see [Upload one or more images](https://www.servicenow.com/docs/access?context=upload-multiple-images&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    If you don't already have an email banner image in your ServiceNow instance, you can upload an image to use. For instructions, see Upload one or more images.
 
 6.  Click the **Show Notification Scripts** related link.
 
@@ -239,7 +240,7 @@ Users must agree to a privacy policy in order to be able to request or report di
 
     This role allows users to complete the privacy consent.
 
-3.  Generate the [location-based privacy configurations](../../employee-readiness-core/task/generate-location-common-privacy-configuration.md) for the locations in your instance.
+3.  Generate the [location-based privacy configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-readiness-core/generate-location-common-privacy-configuration.md) for the locations in your instance.
 
 4.  Configure an outreach to send the privacy consent to users.
 
@@ -249,7 +250,7 @@ Users must agree to a privacy policy in order to be able to request or report di
 
     2.  Make any modifications to the outreach if needed, such as scheduling a time to send.
 
-        For more information, see [Send notifications for an emergency](../../business-continuity/task/send-eo-notification-outreach.md).
+        For more information, see [Send notifications for an emergency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/emergency-outreach/send-eo-notification-outreach.md).
 
     3.  Enable the outreach to provide location-specific privacy consents by selecting the **Use Country** option on the **Content configuration** tab.
 

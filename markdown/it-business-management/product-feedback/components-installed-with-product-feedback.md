@@ -2,6 +2,7 @@
 title: Components installed with Feedback application
 description: Learn about several types of components installed with Feedback application in Strategic Planning such as user roles, tables, and, system properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/product-feedback/components-installed-with-product-feedback.html
 release: zurich
 product: Product Feedback
 classification: product-feedback
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Feedback, Strategic Planning, Strategic Portfolio Manage
 
 Learn about several types of components installed with Feedback application in Strategic Planning such as user roles, tables, and, system properties.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles installed
 
@@ -197,7 +198,7 @@ Specifies the maximum number of records displayed in the feedback or product ide
 -   Location: System Property \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>For more information on components installed with Strategic Planning, see [Components installed with Strategic Planning Workspace](../../alignment-planner-workspace/reference/components-installed-with-alignment-planner-workspace.md).
+</table>For more information on components installed with Strategic Planning, see [Components installed with Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/components-installed-with-alignment-planner-workspace.md).
 
-**Parent Topic:**[Feedback reference](product-feedback-reference.md)
+**Parent Topic:**[Feedback reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/product-feedback-reference.md)
 

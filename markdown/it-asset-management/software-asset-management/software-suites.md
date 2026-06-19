@@ -2,6 +2,7 @@
 title: Software Asset Management software suites
 description: Software Suites is a way for a software publisher to group related applications as a set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/software-suites.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -31,7 +32,7 @@ Software Suites \[cmdb\_m2m\_suite\_model\] table captures the relationship betw
 
 For any software model, you can specify whether the model is a suite \(parent\) or a component \(child\). A software model can be a component in multiple suites. For example, Microsoft Word is a component in two suites: Microsoft Office Standard and Microsoft Office Professional. Although you can set a single software model as both a suite and a component, software isn’t typically sold as nested suites.
 
-Suite information such as **Suite Components** and **Suite Parents** are found as tabs in the Software Model form. Whenever a software model is automatically created as part of a scheduled job, its child components are automatically created and appear in the [Suite Components](../reference/software-model-fields.md#section_bdp_kmc_xhb) tab in the software model form.
+Suite information such as **Suite Components** and **Suite Parents** are found as tabs in the Software Model form. Whenever a software model is automatically created as part of a scheduled job, its child components are automatically created and appear in the [Suite Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-model-fields.md) tab in the software model form.
 
 ## Predefined suites
 
@@ -57,12 +58,12 @@ Software Asset Management supports hybrid and subscription-based software suites
 -   If only the child component of a suite parent is subscription-based, then the instances of that child component aren’t inferred as part of the suite parent. You can determine your license compliance using the child component license.
 -   If both the suite parent and child components are subscription-based, then the instances of the child components are inferred as part of the suite parent. You can determine your license compliance using the suite parent license. For example, Microsoft 365 E5 is a subscription-based software suite that includes the Office 365 E5, EMS E5, and Windows 10 subscription software. Since both the suite parent and child components are subscription-based, they’re reconciled against the Microsoft 365 E5 parent license.
 
--   **[Software suites inference](software-suites-inference.md)**  
+-   **[Software suites inference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-suites-inference.md)**  
 Suite inference is used to determine whether the software is part of a suite and to infer the best or efficient suite to use when licensing.
--   **[Managing software suites](Manage-software-suites.md)**  
+-   **[Managing software suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/Manage-software-suites.md)**  
 Simplify licensing and lower the cost of licenses from vendors. Get visibility into your complex suite licenses, manage compliance, and optimize your spending on these licenses.
--   **[Suite inference rules for Adobe license metrics](suite-inference-adobe.md)**  
+-   **[Suite inference rules for Adobe license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/suite-inference-adobe.md)**  
 Based on the system property Use component licenses to optimize compliance when suite licenses run out, the Software Asset Management application uses suite or component licenses.
 
-**Parent Topic:**[Exploring Software Asset Management](explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

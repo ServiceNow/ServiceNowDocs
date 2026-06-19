@@ -2,11 +2,12 @@
 title: Execution sequence and waiting logic for rerun jobs
 description: Processing sequence and waiting logic for rerun jobs are different when you reuse or create a change request as part of a rerun job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/devops-rerun-waiting-logic.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Restarting failed build or release pipeline jobs and stages, Azure DevOps, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -43,5 +44,5 @@ For release pipelines, the stages are run in the specified sequence only during 
 -   When a new change request is created for a reattempt stage job, and the stage that you are reattempting includes a test and a software quality scan only the latest Test Summary and Software Quality scan results display on the change request related list.
 -   When a change request is reused for a rerun stage job, the Test Summary and Software Quality scan results for each attempt displays in the change request related list.
 
-**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](../concept/azure-devops-integration-dev-ops.md)
+**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
 

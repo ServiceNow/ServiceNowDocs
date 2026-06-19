@@ -2,6 +2,7 @@
 title: ERP source configuration for Oracle Financial Cloud
 description: Configure your Source-to-Pay \(S2P\) instance to support inbound and outbound integration with your ERP system. This integration configuration enables you to automatically post purchase order, receipt, invoice, and download primary data from the ERP.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/source-to-pay-integration-framework/erp-source-configuration-oracle-fin-cloud.html
 release: zurich
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -41,7 +42,7 @@ To perform the ERP Source configuration for Oracle Financial Cloud, follow these
 1.  Define the ERP source that you want to integrate with Oracle Financial Cloud integration.
 2.  Create a basic authentication profile that can be used for web service integration with Oracle Financial Cloud.
 3.  Register the Oracle Financial Cloud integration username and password to create the authentication profile and associate it to service maps.
-4.  Define source configuration for ERP source. The ERP source configuration determines the ERP source to which your ERP system connects. For more information, see [Define ERP source configuration for Oracle Financial Cloud](../task/define-erp-source-config-oracle-fin-cloud.md).
+4.  Define source configuration for ERP source. The ERP source configuration determines the ERP source to which your ERP system connects. For more information, see [Define ERP source configuration for Oracle Financial Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-integration-framework/define-erp-source-config-oracle-fin-cloud.md).
 5.  Configure service maps for the following entities:
 
     -   **Suppliers**
@@ -80,7 +81,7 @@ To perform the ERP Source configuration for Oracle Financial Cloud, follow these
 
         Set up subflows for the source configuration to lookup plant addresses from Oracle Financial Cloud.
 
-    ![ERP Source Configuration of Oracle Financial Cloud](../image/oracle-fin-erp-source-config.png "ERP Source Configuration of Oracle Financial Cloud")
+    \[Omitted image "oracle-fin-erp-source-config.png"\] Alt text: ERP Source Configuration of Oracle Financial Cloud
 
 6.  Configure a scheduled job to synchronize primary data updates from Oracle Financial Cloud.
 7.  Set up the interval in the lookup Cost Center scheduled job to periodically synchronize primary data updates from the ERP, for posting services to work.

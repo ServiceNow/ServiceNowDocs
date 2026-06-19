@@ -2,6 +2,7 @@
 title: Configure statistics processing period
 description: Set the time period, in seconds, for collecting event processing statistics. For example, you can set a time period twice as long as the default 60 seconds to collect more statistics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/add-property-statistics-processing-period.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -37,5 +38,5 @@ Use the **evt\_mgmt.event\_processing\_stats\_period** property to configure the
 **Related topics**  
 
 
-[Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US)
+[bundle-platadm.t_AddAPropertyUsingSysPropsList]
 

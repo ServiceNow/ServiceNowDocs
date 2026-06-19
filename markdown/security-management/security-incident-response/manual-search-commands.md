@@ -2,6 +2,7 @@
 title: Manual search commands
 description: Manual search commands are entered from any Search window. You can create a security incident or event. After the command, there are pairs of field names and values used to create the desired record.The security event command, snsecevent, creates an event in ServiceNow with the Security classification.The Security Incident command, snsecincident, creates a Security Incident in your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/manual-search-commands.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

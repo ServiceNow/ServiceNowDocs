@@ -2,6 +2,7 @@
 title: Customize business rules for actionable notifications
 description: Enables you to customize the business rules for actionable notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/customize-business-rules-sn-ms-teams-hr.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -105,5 +106,5 @@ Advanced
 </table>5.  Click **Submit**.
 
 
-**Parent Topic:**[Customize HR Service Delivery integration with Microsoft Teams](../concept/customize-sn-ms-teams-hr.md)
+**Parent Topic:**[Customize HR Service Delivery integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/customize-sn-ms-teams-hr.md)
 

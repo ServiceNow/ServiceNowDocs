@@ -2,6 +2,7 @@
 title: Create a Terraform Open Source config provider
 description: Create a Terraform Open Source config provider in Cloud Provisioning and Governance. The Terraform Open Source config provider enables Cloud Provisioning and Governance to discover the Terraform Open Source config installables \(Terraform templates\) and detect changes in them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/setup-cpg-terraform-connector-for-terraform-open-source.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -22,10 +23,10 @@ Starting this release, you can use OpenTofu with Cloud Provisioning and Governan
 ## Before you begin
 
 -   Ensure that a supported Terraform Open Source version is installed in the server. Cloud Services Catalog Terraform Connector supports Terraform Open Source versions 1.1.0 through 1.1.9 and 1.2.0 or higher.
--   If you want to use a minor or patch version of the Terraform Open Source CLI, ensure that the minor or patch version is added to the workload config provider. For more information, see [Add support for minor or patch versions of the Terraform](../../cloud-management-v2-setup/task/terraform-use-minor-patch-version-cli.md).
+-   If you want to use a minor or patch version of the Terraform Open Source CLI, ensure that the minor or patch version is added to the workload config provider. For more information, see [Add support for minor or patch versions of the Terraform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/terraform-use-minor-patch-version-cli.md).
 -   Ensure that the MID Server can access the Terraform server.
 -   Ensure that the MID Server has Terraform capability.
--   As a new user, add Terraform MID capability to provision resources using Terraform Open-source host \(VM\). Add cloud provider specific mid capability \(AWS,Azure,VMware, Google\) to discover resources from cloud after provisioning Terraform Open-source catalog items. For example: If you are provisioning VM using Terraform Open-Source in Google, you would need mid with Terraform and Google capability. Both capabilities can be set on the same or different mids. Mid with Terraform capability should be able to connect to Terraform Host \(VM\) and that with Google capability must be able to reach google cloud. For more information, see [Configure MID Server capabilities](https://www.servicenow.com/docs/access?context=t_ConfigureCapabilities&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+-   As a new user, add Terraform MID capability to provision resources using Terraform Open-source host \(VM\). Add cloud provider specific mid capability \(AWS,Azure,VMware, Google\) to discover resources from cloud after provisioning Terraform Open-source catalog items. For example: If you are provisioning VM using Terraform Open-Source in Google, you would need mid with Terraform and Google capability. Both capabilities can be set on the same or different mids. Mid with Terraform capability should be able to connect to Terraform Host \(VM\) and that with Google capability must be able to reach google cloud. For more information, see Configure MID Server capabilities.
 -   Ensure that all the templates are stored in separate directories and all the template directories are in the same base directory.
 -   Ensure that Terraform Connector has access to the Terraform registry \(registry.hashicorp.com\).
 
@@ -47,7 +48,7 @@ Role required: cloud\_admin
 
     5.  On the form, fill in the fields.
 
-        For a description of the form fields, see [Cloud Services Catalog Terraform Connector SSH Private Key Credentials form reference](../reference/ccg-terraform-connector-ssh-private-key-credential-form.md).
+        For a description of the form fields, see [Cloud Services Catalog Terraform Connector SSH Private Key Credentials form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/ccg-terraform-connector-ssh-private-key-credential-form.md).
 
     6.  Select the Test Credentials related link.
 
@@ -76,7 +77,7 @@ Role required: cloud\_admin
 
     5.  On the form, fill in the fields.
 
-        For a description of the form fields, see [Cloud Services Catalog Terraform Connector Windows Credentials form reference](../reference/ccg-terraform-connector-windows-credentials-form.md).
+        For a description of the form fields, see [Cloud Services Catalog Terraform Connector Windows Credentials form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/ccg-terraform-connector-windows-credentials-form.md).
 
     6.  Select the Test Credentials related link.
 
@@ -99,12 +100,12 @@ Role required: cloud\_admin
 
     3.  On the form, fill in the fields.
 
-        For a description of the form fields, see [Cloud Services Catalog Terraform Connector Create Config Provider form reference](../reference/cpg-terraform-connector-config-provider-form.md).
+        For a description of the form fields, see [Cloud Services Catalog Terraform Connector Create Config Provider form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-config-provider-form.md).
 
     4.  Select **Submit**.
 
 
 ## What to do next
 
-Discover the Terraform templates from the Terraform Open Source server. For more information, see [Run the IaC Discovery](discover-terraform-config-installables-vcs-workspaces.md).
+Discover the Terraform templates from the Terraform Open Source server. For more information, see [Run the IaC Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/discover-terraform-config-installables-vcs-workspaces.md).
 

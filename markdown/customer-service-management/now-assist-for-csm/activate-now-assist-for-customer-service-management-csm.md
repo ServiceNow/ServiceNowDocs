@@ -2,11 +2,12 @@
 title: Install Now Assist for Customer Service Management \(CSM\)
 description: Install required plugins and enable Now Assist for Customer Service Management \(CSM\) to configure and use generative AI skills in Configurable Workspace and Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/activate-now-assist-for-customer-service-management-csm.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Configure, Now Assist for CSM, Customer Service Management]
 ---
@@ -23,11 +24,11 @@ Role required: Admin
 
 To get started with Now Assist, you must install at least one Now Assist application on your instance. The Now Assist Admin console can guide your implementation, starting with installation.
 
-For information about the plugin dependencies and plugin activation order, see [Supporting information for Now Assist for Customer Service Management \(CSM\)](../concept/now-assist-csm-supporting-info.md).
+For information about the plugin dependencies and plugin activation order, see [Supporting information for Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-supporting-info.md).
 
-For information about CSM Configurable Workspace, see [Set up CSM Configurable Workspace](../concept/csm-config-workspace-set-up.md). For information about Now Assist AI agents, see [Install Now Assist AI Agents](https://www.servicenow.com/docs/access?context=install-ai-agents-plugins&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+For information about CSM Configurable Workspace, see [Set up CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-config-workspace-set-up.md). For information about Now Assist AI agents, see Install Now Assist AI Agents.
 
-To access AI agents in the Now Assist panel, you need to [turn on the Now Assist panel](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) and ensure that the case summarization is active on the instance.
+To access AI agents in the Now Assist panel, you need to turn on the Now Assist panel and ensure that the case summarization is active on the instance.
 
 To install the Now Assist for CSM plugin \(sn\_csm\_gen\_ai\), follow the procedure below.
 
@@ -49,6 +50,6 @@ To install the Now Assist for CSM plugin \(sn\_csm\_gen\_ai\), follow the proced
 
 8.  Either close the dialog box to review all of your plugins or select **View all &lt;Plugin&gt; Assists and Skills** to review the features of your new plugin.
 
-    For more detailed information about the installation process, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+    For more detailed information about the installation process, see .
 
 

@@ -1,0 +1,40 @@
+---
+title: Creating and reviewing the records
+description: The Operational Resilience administrators and managers can access the Digital Resilience Choices records in an instance. For best results, it is important to create or update the records such as legal entities, branches, functions, contracts, and so on in a specific order into the Digital resilience third-party registers application. Those specifics are outlined in this section.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/order-for-creating-records.html
+release: zurich
+topic_type: concept
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Configuring Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+---
+
+# Creating and reviewing the records
+
+The Operational Resilience administrators and managers can access the Digital Resilience Choices records in an instance. For best results, it is important to create or update the records such as legal entities, branches, functions, contracts, and so on in a specific order into the Digital resilience third-party registers application. Those specifics are outlined in this section.
+
+## Order for creating or updating the records
+
+For best results, it is important to create or update the records in the following order:
+
+1.  Legal entities
+2.  Branches
+3.  Functions
+4.  Third parties
+5.  Contracts
+6.  Supply chains
+7.  Assessments
+
+## Reviewing the choice records
+
+Operational Resilience administrators can locate and access Digital Resilience Choices records by navigating to the **All &gt; Digital Operational Resilience Management &gt; Digital Resilience Choices** menu within an instance, as demonstrated in the example.
+
+\[Omitted image "digi-resi-choices.png"\] Alt text: Digital Resilience Choices records.
+
+Similarly, Operational Resilience managers can locate and access the Digital Resilience Choices records as shown in the example.
+
+\[Omitted image "dig-res-cho-rec-mgrs.png"\] Alt text: Managers view.
+
+**Parent Topic:**[Configuring Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/conf-dg-resi-party-regi.md)
+

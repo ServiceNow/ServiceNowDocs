@@ -2,6 +2,7 @@
 title: Create an HR criteria record for an employee form
 description: Create an HR criteria record for an employee form based on the employee answers stored in the Metric Result \[asmt\_metric\_result\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/configure-hr-criteria-record-for-employee-form.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -92,7 +93,7 @@ Select the question and answer from the employee form you want to query.For the 
  -   **\[String value\] \[is\] \[&lt;Answer&gt;\]**
 -   **\[Reference value\] \[is\] \[&lt;Answer&gt;\]**
 -   **\[Actual value\] \[is\] \[&lt;Answer&gt;\]**
- **Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](../concept/hr-criteria.md#).
+ **Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-criteria.md).
 
 </td></tr><tr><td>
 
@@ -123,5 +124,5 @@ Depending on the case type, the HR criteria record will use the following survey
 -   If you are using the HR criteria record with a lifecycle event, it will use the survey instance that is associated with the lifecycle event case.
 -   If you are using the HR criteria record with any other HR case, it will use the latest survey instance.
 
-**Parent Topic:**[Collect employee input](../concept/employee-form-configuration.md)
+**Parent Topic:**[Collect employee input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/employee-form-configuration.md)
 

@@ -2,6 +2,7 @@
 title: Practice area tables for legal matters
 description: Tables specific to practice areas are installed with the Legal Matter Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-matter-management/legal-matter-pa-tables.html
 release: zurich
 product: Legal Matter Management
 classification: legal-matter-management
@@ -17,7 +18,7 @@ Tables specific to practice areas are installed with the Legal Matter Management
 
 These practice area tables extend the Legal Matter \[sn\_lg\_matter\_matter\] table.
 
-If you add columns in a practice area table, you can configure the table to add those columns in the Lists section of Legal Counsel Center. You can also use these tables in other configuration as needed. For more information, see [Configure a practice area table](../../legal-request-management/task/configure-pa-tables-for-reporting.md).
+If you add columns in a practice area table, you can configure the table to add those columns in the Lists section of Legal Counsel Center. You can also use these tables in other configuration as needed. For more information, see [Configure a practice area table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/configure-pa-tables-for-reporting.md).
 
 -   Compliance \[sn\_lg\_matter\_compliance\]
 -   Corporate Support \[sn\_lg\_matter\_corporate\_support\]
@@ -54,5 +55,5 @@ If you add columns in a practice area table, you can configure the table to add 
 |Privacy and Data Security \[sn\_lg\_matter\_privacy\_and\_data\_security\]|Legal Simple Privacy|
 |Legal hold \[sn\_lg\_matter\_legal\_hold\]|Legal Hold Notification|
 
-**Parent Topic:**[Legal Matter Management reference](legal-matter-management-reference.md)
+**Parent Topic:**[Legal Matter Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/legal-matter-management-reference.md)
 

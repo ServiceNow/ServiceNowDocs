@@ -2,6 +2,7 @@
 title: WS-Security properties
 description: These properties control the behavior of WS-Security X.509 tokens.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/ws-security-properties.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -74,5 +75,5 @@ Specifies the cannonicalization algorithm. Possible values are Canonical xml 1.0
 |Exclusive Canonical xml 1.0|http://www.w3.org/2001/10/xml-exc-c14n\#|
 |Exclusive Canonical xml 1.0 with comments|http://www.w3.org/2001/10/xml-exc-c14n\#WithComments|
 
-**Parent Topic:**[SOAP web service](../concept/c_SOAPWebService.md)
+**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_SOAPWebService.md)
 

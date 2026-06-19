@@ -2,6 +2,7 @@
 title: Enable optimized SG-AWS-SendCommand data source performance
 description: When the SG-AWS-Software-Inventory data source is being used, enable the sn\_aws\_integ.is\_software\_inventory\_enabled system property for optimizing the performance of the SG-AWS-SendCommand and SG-AWS-SSM-GetS3Object data sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-ssm-prop.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -19,7 +20,7 @@ When the SG-AWS-Software-Inventory data source is being used, enable the **sn\_a
 
 **Important:** The **sn\_aws\_integ.is\_software\_inventory\_enabled** system property is not supported in Service Graph Connector for AWS version 2.10.0 and later.
 
-Set the application scope to Service Graph Connector for AWS using the application picker. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+Set the application scope to Service Graph Connector for AWS using the application picker. For more information, see Application picker.
 
 Role required: admin
 

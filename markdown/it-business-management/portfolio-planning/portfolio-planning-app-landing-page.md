@@ -2,6 +2,7 @@
 title: Portfolio Planning
 description: Enhance your traditional product and portfolio management by prioritizing work and visualizing plans with ServiceNow Portfolio Planning. Effectively plan, track, and manage work for projects and demands using a centralized workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/portfolio-planning-app-landing-page.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -22,47 +23,47 @@ Portfolio Planning is available for users with a Strategic Portfolio Management 
 
 <table id="table_h4d_x5q_m3c" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn the key features and value that Portfolio Planning offers your business](exploring-portfolio-planning.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn the key features and value that Portfolio Planning offers your business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/exploring-portfolio-planning.md)
 
 </td><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Set up the core configuration](configuring-portfolio-planning.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Set up the core configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/configuring-portfolio-planning.md)
 
 </td><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-alignment.svg) Learn how to plan and align work across your portfolios](managing-portfolio-plans-in-portfolio-planning.md)
+[Use \[Omitted image "bus-alignment.svg"\] Alt text: Learn how to plan and align work across your portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/managing-portfolio-plans-in-portfolio-planning.md)
 
 </td><td>
 
-[Prioritize ![](../../../reuse/icons/brand-icons/bus-balance-value.svg) Rank and prioritize work for your portfolio plans](prioritizing-work-in-portfolio-planning-workspace.md)
+[Prioritize \[Omitted image "bus-balance-value.svg"\] Alt text: Rank and prioritize work for your portfolio plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/prioritizing-work-in-portfolio-planning-workspace.md)
 
 </td></tr><tr><td>
 
-[Roadmap ![](../../../reuse/icons/brand-icons/bus-customize.svg) Roadmap work for your portfolio plan](planning-roadmaps-in-portfolio-planning.md)
+[Roadmap \[Omitted image "bus-customize.svg"\] Alt text: Roadmap work for your portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)
 
 </td><td>
 
-[Report ![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg) Export portfolio plan and roadmap status report as a PPT](export-portfolio-plan-status-to-ppt-portfolio-planning-workspace.md)
+[Report \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Export portfolio plan and roadmap status report as a PPT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/export-portfolio-plan-status-to-ppt-portfolio-planning-workspace.md)
 
 </td><td>
 
-[Integrate ![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg) Integrate Portfolio Planning with Project Portfolio Management](portfolio-planning-integration-with-execution-applications.md)
+[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Integrate Portfolio Planning with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/portfolio-planning-integration-with-execution-applications.md)
 
 </td><td>
 
-[Compare ![](../../../reuse/icons/brand-icons/bus-community.svg) Compare capabilities of Portfolio Planning with Strategic Planning](exploring-portfolio-planning.md#comparing_with_strategic_planning)
+[Compare \[Omitted image "bus-community.svg"\] Alt text: Compare capabilities of Portfolio Planning with Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/exploring-portfolio-planning.md)
 
 </td></tr><tr><td>
 
-[Scenario planning ![](../../../reuse/icons/brand-icons/bus-learn.svg) Optimize planning with scenario planning](../../ppw-scenario-planning/concept/optimizing-scenarios-in-portfolio-planning.md)
+[Scenario planning \[Omitted image "bus-learn.svg"\] Alt text: Optimize planning with scenario planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/optimizing-scenarios-in-portfolio-planning.md)
 
 </td><td>
 
-[Demands![](../../../reuse/icons/brand-icons/bus-demand-management.svg)Create, evaluate, and prioritize demands throughout the demand life-cycle](../../ppw-demand/concept/demand-workspace-ppw.md)
+[Demands\[Omitted image "bus-demand-management.svg"\] Alt text:Create, evaluate, and prioritize demands throughout the demand life-cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/demand-workspace-ppw.md)
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about components and domain separation](portfolio-planning-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components and domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/portfolio-planning-reference.md)
 
 </td><td>
 

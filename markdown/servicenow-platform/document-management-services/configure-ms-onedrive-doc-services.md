@@ -2,6 +2,7 @@
 title: Setup Microsoft OneDrive for Document Services
 description: Integrate the ServiceNow instance and Microsoft OneDrive for Document Services by creating a custom OAuth application in Document Services to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/configure-ms-onedrive-doc-services.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -18,7 +19,7 @@ Integrate the ServiceNow instance and Microsoft OneDrive for Document Services b
 ## Before you begin
 
 -   Request an Integration Hub subscription.
--   Set up and connect Microsoft Entra ID Spoke, see [Set up Microsoft Entra ID spoke](https://www.servicenow.com/docs/access?context=set-up-azure&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) and [Microsoft OneDrive Spoke](https://www.servicenow.com/docs/access?context=onedrive-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+-   Set up and connect Microsoft Entra ID Spoke, see  and .
 
 Microsoft OneDrive requirements:
 
@@ -74,7 +75,7 @@ Complete these steps from your [Azure](https://docs.microsoft.com/en-us/azure/) 
 
         Application permissions enable the application to run as a background service or daemon without a signed-in user.
 
-        You must mention these API permissions in the **OAuth Entity scopes** tab while configuring the [application registry](https://www.servicenow.com/docs/access?context=setup-msonedrive&version=zurich&pubname=zurich-integrate-applications&section=register-onedrive-oauth&ft:locale=en-US).
+        You must mention these API permissions in the **OAuth Entity scopes** tab while configuring the application registry.
 
     4.  Ensure that required API permissions are provided for your custom app.
 
@@ -95,7 +96,7 @@ Complete these steps from your [Azure](https://docs.microsoft.com/en-us/azure/) 
 
 ## What to do next
 
-[Register Microsoft OneDrive as an OAuth provider for Document Services](register-ms-onedrive-oauth-provider.md)
+[Register Microsoft OneDrive as an OAuth provider for Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/register-ms-onedrive-oauth-provider.md)
 
-**Parent Topic:**[Microsoft OneDrive integration with Document Services](../concept/one-drive-integration.md)
+**Parent Topic:**[Microsoft OneDrive integration with Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/one-drive-integration.md)
 

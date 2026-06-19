@@ -2,6 +2,7 @@
 title: Step execution scripts
 description: In a step configuration record, the step execution script field determines what a step with this configuration does when it runs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/atf-config-script.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -95,5 +96,5 @@ The method `stepResult.setOutputMessage()` sets the message to write to the log 
 
 **Note:** The above example can also be used for Run Server Side script by replacing `stepResult.setSuccess()`” and `stepResult.setFailed()` with `return true` and `return false`.
 
-**Parent Topic:**[Step configurations](step-configurations-module.md)
+**Parent Topic:**[Step configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/step-configurations-module.md)
 

@@ -2,6 +2,7 @@
 title: Domain separation and Project Portfolio Management
 description: Domain separation is supported in Project Portfolio Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/ppm-collaboration/domain-separation-project-portfolio-financials.html
 release: zurich
 product: PPM Collaboration
 classification: ppm-collaboration
@@ -33,10 +34,10 @@ Project Portfolio Management is domain separation-compliant with the following l
 -   Only users belonging to the same domain, parent domain, or the top domain have the visibility into PPM entities of a domain.
 -   All system properties are in the global domain and are not specific to a domain. Planning console settings, however, are still domain-specific.
 
-**Parent Topic:**[Project Portfolio Management reference](../reference/project-portfolio-management-reference.md)
+**Parent Topic:**[Project Portfolio Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/project-portfolio-management-reference.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

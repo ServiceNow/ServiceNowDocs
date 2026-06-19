@@ -2,6 +2,7 @@
 title: Standardized JSON common data set to support all service graph connectors
 description: Use the TSOM architecture to support standardized Service Graph Connectors using a unified schema and reusable ETL logic. This reduces onboarding time for new connectors and simplifies integration with CMDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-service-ops/telecommunications-service-operations-management/overview-of-standardized-json-common-data-set.html
 release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management

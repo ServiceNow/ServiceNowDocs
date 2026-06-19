@@ -2,6 +2,7 @@
 title: Submitting a forecast
 description: Sales agents and managers can finalize and submit forecasts within defined periods to ensure accurate projections. Agents can adjust forecast values, lock them, and submit them within the specified time frame.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/submitting-a-forecast.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,7 +24,7 @@ Role required: sn\_sales\_forecast.submission\_writer
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **My lists** **&gt; Sales Forecast** **&gt; My Forecast Submissions**.
 
@@ -51,5 +52,5 @@ Role required: sn\_sales\_forecast.submission\_writer
     The forecast has been submitted. The forecast values have been locked and cannot be changed.
 
 
-**Parent Topic:**[Using Sales Forecasting](using-sales-forecasting.md)
+**Parent Topic:**[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/using-sales-forecasting.md)
 

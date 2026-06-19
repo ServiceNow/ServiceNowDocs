@@ -2,6 +2,7 @@
 title: Move an event
 description: Accelerate the execution process by moving high priority events from the default queue to an isolated queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/system-events/move\_event.html
 release: zurich
 product: System Events
 classification: system-events

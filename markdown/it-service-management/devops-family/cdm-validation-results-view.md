@@ -2,13 +2,14 @@
 title: View the results of snapshot validation
 description: View validation failures and warnings on the Validation results tab for the snapshot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-family/cdm-validation-results-view.html
 release: zurich
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Validating and correcting configuration data, Use, DevOps Config, IT Service Management]
+breadcrumb: [Validating and correcting configuration data, Using DevOps Config, DevOps Config, IT Service Management]
 ---
 
 # View the results of snapshot validation
@@ -29,7 +30,7 @@ Role required: cdm\_viewer or cdm\_editor or cdm\_exporter\_editor or cdm\_polic
 
     The **Policies** panel displays a card for each policy that is mapped to the associated deployable.
 
-    ![Policies panel on the Validation results tab of the Snapshot form lists execution results.](../image/cdm-snapshot-policies-panel.png)
+    \[Omitted image "cdm-snapshot-policies-panel.png"\] Alt text: Policies panel on the Validation results tab of the Snapshot form lists execution results.
 
 <table id="table_j2q_lj5_cqb"><thead><tr><th>
 
@@ -60,7 +61,7 @@ Each policy that has been executed for the deployable and its execution results 
 
 </td></tr></tbody>
 </table>    -   Select a card from the **Policies** panel to view the associated data in the **Failures and warnings** panel.
-    -   Select the more actions icon \(![More actions icon.](../../site-reliability-ops/image/icon-actions-menu.png)\) for a policy and select an action, as follows:
+    -   Select the more actions icon \(\[Omitted image "icon-actions-menu.png"\] Alt text: More actions icon.\) for a policy and select an action, as follows:
 
 <table id="table_nbn_hwk_gqb"><thead><tr><th>
 
@@ -76,7 +77,7 @@ Execution record
 
 </td><td>
 
-View execution information for this policy run. See [View the execution record for a policy run](cdm-execution-record-policy-view.md) for details.
+View execution information for this policy run. See [View the execution record for a policy run](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/cdm-execution-record-policy-view.md) for details.
 
 </td></tr><tr><td>
 
@@ -94,7 +95,7 @@ Open business condition
 
 Opens the condition set on the CDM Deployable \[sn\_cdm\_deployable\] table based on which the policy was dynamically mapped to the deployable and executed.**Note:** This menu option is available only for the dynamically mapped policy.
 
-For more information on conditions and dynamic mapping, see [Map PaCE policies using Dynamic Mapping](https://www.servicenow.com/docs/access?context=pace-validate-dynamic&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+For more information on conditions and dynamic mapping, see .
 
 </td></tr></tbody>
 </table>    The **Failures and warnings** panel displays the list of all failures and warnings for the policy that is mapped to the associated deployable.

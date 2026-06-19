@@ -2,6 +2,7 @@
 title: Create a custom embedding model
 description: Create a custom embedding model in the Generative AI Model Configuration \[sys\_generative\_ai\_model\_config\] table so that your AI Search Retrieval Augmented Generation \(RAG\) application can use it to generate embeddings for semantic indexing. This setup ensures that the model is recognized and properly connected to send and receive requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/create-byom.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -17,7 +18,7 @@ Create a custom embedding model in the Generative AI Model Configuration \[sys\_
 
 ## Before you begin
 
-You must create a connection and credential alias for your embedding model. For more information, see [Create a Connection &amp; Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+You must create a connection and credential alias for your embedding model. For more information, see 
 
 Role required: admin
 
@@ -29,7 +30,7 @@ Role required: admin
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Generative AI model configuration form](../reference/ais-rag-gen-ai-model-config-form.md).
+    For a description of the field values, see [Generative AI model configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-rag-gen-ai-model-config-form.md).
 
 4.  Select **Submit**.
 

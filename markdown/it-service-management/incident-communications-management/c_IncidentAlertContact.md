@@ -2,6 +2,7 @@
 title: Incident Communications Management and Contacts
 description: You can define contacts to associate users or groups to an incident communication plan. The users or groups are contacted to complete the tasks included in a communication plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-communications-management/c\_IncidentAlertContact.html
 release: zurich
 product: Incident Communications Management
 classification: incident-communications-management
@@ -24,16 +25,16 @@ Contact responsibilities and contact definitions allow you to define and modify 
 
 You can use group contacts. You can use the Group contacts functionality when you have on-call scheduling, Notify, and Incident Communications Management. Group contacts include the people that are on-call. The group contacts can be included when initiating a conference call that is a result of an incident communication plan. By default, the primary and secondary on-call persons are available. To modify this behavior, set the system property **com.snc.iam.on\_call\_escalation\_level**.
 
--   **[Responsibilities for Incident Communication Plan](../reference/r_ResponsibilitiesForIncidentAlerts.md)**  
+-   **[Responsibilities for Incident Communication Plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-communications-management/r_ResponsibilitiesForIncidentAlerts.md)**  
 Contact responsibilities helps you to identify contacts by their responsibilities and to understand what you can expect from the user throughout the life cycle of the communication plan.
--   **[Define contact responsibilities](../task/t_CreateAContactResponsibility.md)**  
+-   **[Define contact responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-communications-management/t_CreateAContactResponsibility.md)**  
 Define the different contacts or target audience involved in the communication process and their responsibility to understand the expectations from those contacts throughout the process.
--   **[Create a contact definition](../task/t_CreateAContactDefinition.md)**  
+-   **[Create a contact definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-communications-management/t_CreateAContactDefinition.md)**  
 Define the recipients of a particular incident communication plan to determine the target audience involved in each communication task and the responsibilities the recipients are expected to handle.
--   **[Create a default override](../task/t_CreateADefaultOverride.md)**  
+-   **[Create a default override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-communications-management/t_CreateADefaultOverride.md)**  
 Create a default override to specify user or group for a contact definition of an incident communication plan. It helps you to set multiple conditions based on which a user or a group is considered as a contact.
--   **[Add a user as a contact](../task/t_AddAContactManually.md)**  
+-   **[Add a user as a contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-communications-management/t_AddAContactManually.md)**  
 Add a user to a communication plan if you have not added the user earlier in the contact. You can assign a communication task to the user to resolve an issue.
 
-**Parent Topic:**[Managing Incident Communications](working-with-inci-comm-mgmt.md)
+**Parent Topic:**[Managing Incident Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
 

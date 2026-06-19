@@ -2,6 +2,7 @@
 title: Create a child alias for Jira Spoke alias for SPW Jira Integrations
 description: Create a child connection &amp; credential alias that will be used to connect to Jira later, to enable integration between Strategic Planning and Jira.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/create-child-alias-for-jira-spoke-alias.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning
@@ -41,7 +42,7 @@ Role required: admin
 ## What to do next
 
 -   For Jira Cloud: .
--   For For Jira Server/Data Center: [Create PAT for Jira Server](create-personal-access-token-pat-in-jira-server-data-center.md).
+-   For For Jira Server/Data Center: [Create PAT for Jira Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/create-personal-access-token-pat-in-jira-server-data-center.md).
 
-**Parent Topic:**[Setting up a Jira instance for SPW Jira Integrations](../concept/setting-up-jira-instance-spw.md)
+**Parent Topic:**[Setting up a Jira instance for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/setting-up-jira-instance-spw.md)
 

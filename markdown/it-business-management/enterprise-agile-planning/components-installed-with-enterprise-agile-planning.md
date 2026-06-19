@@ -2,11 +2,12 @@
 title: Components installed with Enterprise Agile Planning
 description: Several types of components are installed with Enterprise Agile Planning when you install the Strategic Planning applications, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/enterprise-agile-planning/components-installed-with-enterprise-agile-planning.html
 release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Reference, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -66,7 +67,7 @@ EAP read-only role \[sn\_apw\_advanced.eap\_read\_only\]
 
 </td><td>
 
-Can view the EAP team's Backlog and Planning Board
+Can view EAP planning items and stories across teams and iterations in the Backlog, planning board, hierarchy tabs, dashboard widgets on the Home tab, and team-level Docs.
 
 </td><td>
 
@@ -276,5 +277,5 @@ Stores information of all stories created.
 |Populate parent level data for work item and stories|Populates the details of the parent work item up to seven levels.|
 |Populate parent level data for work item and stories \(Bulk\)|Populates the details of the parent work item up to seven levels. Run this scheduled jobs when you have multiple stories that needs update to parent work item details at once.|
 
-**Parent Topic:**[Enterprise Agile Planning reference](eap-reference.md)
+**Parent Topic:**[Enterprise Agile Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/eap-reference.md)
 

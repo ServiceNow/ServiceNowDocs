@@ -2,6 +2,7 @@
 title: Configure advanced settings for Rsyslog, Splunk, or TCP data inputs in Health Log Analytics manually
 description: Configure advanced settings for data inputs that use Rsyslog, Splunk, or TCP agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-data-input-adv-rsyslog-splunk.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -23,7 +24,7 @@ Role required: evt\_mgmt\_admin
 
 You can set system parameters for reading log data that determine the actions that the system performs on log data arriving on the MID Server. For example, you can set the time zone to use if a log lacks a timestamp. If no advanced settings are configured, the system uses the default values.
 
-For information about how to change settings that were configured when the data input was created, such as adding a new path or changing the data input's MID Server destination or port, see [Modify a data input configuration in Health Log Analytics](hla-data-input-modify.md).
+For information about how to change settings that were configured when the data input was created, such as adding a new path or changing the data input's MID Server destination or port, see [Modify a data input configuration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-modify.md).
 
 ## Procedure
 
@@ -33,7 +34,7 @@ For information about how to change settings that were configured when the data 
 
     The data input configuration displays.
 
-    **Note:** The number of log sources that the data input has created is shown in the **Sources count** field. For more information about data input sources, see [Log data auto-mapping and mapping in Health Log Analytics](../concept/hla-data-input-automapping.md).
+    **Note:** The number of log sources that the data input has created is shown in the **Sources count** field. For more information about data input sources, see [Log data auto-mapping and mapping in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-automapping.md).
 
     **Note:** If the HLA engine is down and data has stopped streaming, a notification appears at the top of the data input configuration page. When this happens, contact ServiceNow support.
 
@@ -41,11 +42,11 @@ For information about how to change settings that were configured when the data 
 
 4.  On the form, fill in the fields.
 
-    For a description of the fields, see [Rsyslog, Filebeat, or Winlogbeat data input configuration fields](../reference/hla-data-input-syslog-beats-ref.md).
+    For a description of the fields, see [Rsyslog, Filebeat, or Winlogbeat data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-syslog-beats-ref.md).
 
 5.  In the Streaming Sources related list, verify that this data input is streaming log data from all relevant endpoint devices.
 
-    For more information about streaming sources, see [Identify and resolve a log streaming issue in Health Log Analytics](hla-data-input-streaming.md).
+    For more information about streaming sources, see [Identify and resolve a log streaming issue in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-streaming.md).
 
 6.  Select **Save**.
 
@@ -67,5 +68,5 @@ For information about how to change settings that were configured when the data 
 8.  Select **Publish** to publish the data input to the MID Server.
 
 
-**Parent Topic:**[Advanced data input configuration in Health Log Analytics](../concept/hla-data-input-adv-configuration.md)
+**Parent Topic:**[Advanced data input configuration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-adv-configuration.md)
 

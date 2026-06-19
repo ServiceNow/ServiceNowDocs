@@ -2,6 +2,7 @@
 title: Personal Data Rights reference
 description: Reference topics provide additional information such as tables, and roles that are installed with the Personal Data Rights application. These topics also provide supporting information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/pdr-reference.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -121,7 +122,5 @@ Personal data rights request sn\_grc\_pdr\_request
 Collects information with respect to personal data rights.
 
 </td></tr></tbody>
-</table>For information about feature roles, see .
-
-**Parent Topic:**[Privacy Management reference](privacy-mgmt-reference.md)
+</table>**Parent Topic:**[Privacy Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/privacy-mgmt-reference.md)
 

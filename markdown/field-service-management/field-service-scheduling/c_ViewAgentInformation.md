@@ -2,6 +2,7 @@
 title: View agent information
 description: View details about an agent at a particular location by selecting the agent icon on the Dispatcher Workspace map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/c\_ViewAgentInformation.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling

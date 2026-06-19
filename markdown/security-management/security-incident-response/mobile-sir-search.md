@@ -2,6 +2,7 @@
 title: Search for security incidents with the Security Incident Response Mobile app
 description: Search for Security Incident Response \(SIR\) security incidents on a ServiceNow AI Platform instance. Only incidents that match the specific search criteria that you enter are displayed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/mobile-sir-search.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -25,13 +26,13 @@ Time to complete this task: 5-10 minutes.
 
 ## Procedure
 
-1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the Security Incident Response Mobile app](mobile-sir-get-started.md).
+1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/mobile-sir-get-started.md).
 
 2.  With the Security Incidents landing screen displayed, tap **Search Incidents**.
 
     If you navigate away from the Security Incident Response Mobile app after you have logged in, tap the Now Agent at any time to return to the last screen you had displayed.
 
-    ![Search Incidents applet highlighted.](../image/mobile_SIR_search_si.jpg)
+    \[Omitted image "mobile\_SIR\_search\_si.jpg"\] Alt text: Search Incidents applet highlighted.
 
 3.  To limit the number of search results that are returned, you may prefer to fill out as many fields on the form as you can.
 
@@ -57,7 +58,7 @@ Number
 
 Enter an alpha-numeric value for a security incident, for example, `SIR0010004`. This number is displayed in the upper right of the security incident. The feature searches on numeric strings and partial numeric strings. For more refined searches, enter more digits. Wild cards \(\*\) are not accepted.
 
- Tap a new field to enter more criteria or ![Send icon in Android.](../../vulnerability-response/image/mobile_instances_send_droid.png) to submit a search.
+ Tap a new field to enter more criteria or \[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon in Android. to submit a search.
 
 </td><td>
 
@@ -71,7 +72,7 @@ Short Description
 
 Enter text in the field for example, `malware`. The feature searches on text strings and partial text strings from the Short Description field. For more refined searches, enter more text. Wild cards \(\*\) are not accepted.
 
- Tap a new field to enter more criteria or ![Send icon in Android.](../../vulnerability-response/image/mobile_instances_send_droid.png) to submit a search.
+ Tap a new field to enter more criteria or \[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon in Android. to submit a search.
 
 </td><td>
 
@@ -140,15 +141,15 @@ Select one from the list or tap the search icon and type an entry in the search 
 </td></tr></tbody>
 </table>    For Android devices, with the Search Incidents screen displayed and all your criteria entered, choose one to continue.
 
-<table id="choicetable_qrd_xjz_23b"><thead><tr><th align="left" id="d344844e318">
+<table id="choicetable_qrd_xjz_23b"><thead><tr><th align="left" id="d145385e318">
 
 Option
 
-</th><th align="left" id="d344844e321">
+</th><th align="left" id="d145385e321">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d344844e327">
+</th></tr></thead><tbody><tr><td id="d145385e327">
 
 **Clear or modify search criteria prior to executing a search**
 
@@ -159,26 +160,26 @@ To clear all entered criteria, with the Search Incidents screen displayed, tap t
 -   Tap the check mark icon to save the changes and return to the Search Incidents screen.
 
 
-</td></tr><tr><td id="d344844e357">
+</td></tr><tr><td id="d145385e357">
 
 **Submit a search**
 
 </td><td>
 
-With the Search Incidents screen displayed with your entered search criteria, tap the send icon \(![Send icon.](../../vulnerability-response/image/mobile_instances_send_droid.png)\).The security incidents that match your search criteria are displayed. After the search is completed, the search criteria are not saved.
+With the Search Incidents screen displayed with your entered search criteria, tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\).The security incidents that match your search criteria are displayed. After the search is completed, the search criteria are not saved.
 
 </td></tr></tbody>
 </table>4.  For iOS devices, with the Search Incidents screen displayed, choose one to continue.
 
-<table id="choicetable_cjx_wkz_23b"><thead><tr><th align="left" id="d344844e387">
+<table id="choicetable_cjx_wkz_23b"><thead><tr><th align="left" id="d145385e387">
 
 Option
 
-</th><th align="left" id="d344844e390">
+</th><th align="left" id="d145385e390">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d344844e396">
+</th></tr></thead><tbody><tr><td id="d145385e396">
 
 **Clear or modify search criteria prior to executing a search**
 
@@ -189,7 +190,7 @@ To clear all criteria and return to the landing screen, tap the close icon \(X\)
 -   Tap **Done** to save the changes and return to the Search Incidents screen.
 
 
-</td></tr><tr><td id="d344844e426">
+</td></tr><tr><td id="d145385e426">
 
 **Submit a search**
 
@@ -198,6 +199,6 @@ To clear all criteria and return to the landing screen, tap the close icon \(X\)
 With the Search Incidents screen displayed with your entered search criteria, tap **Search**.The security incidents that match your search criteria are displayed. After the search is completed, the search criteria are not saved.
 
 </td></tr></tbody>
-</table>5.  If your search returns multiple records, you can [Filter records with the Security Incident Response Mobile app](mobile-sire-filters.md) to refine the search results.
+</table>5.  If your search returns multiple records, you can [Filter records with the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/mobile-sire-filters.md) to refine the search results.
 
 

@@ -2,6 +2,7 @@
 title: Select active data patterns
 description: Select the active data patterns to be used for Data Discovery jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-discovery/dds-active-data-patterns.html
 release: zurich
 product: Data Discovery
 classification: data-discovery

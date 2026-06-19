@@ -2,6 +2,7 @@
 title: Configure AI Risk and Compliance Workspace
 description: Configure the AI Risk and Compliance Workspace using UI Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/ai-risk-management/configure-airc-workspace.html
 release: zurich
 product: AI Risk Management
 classification: ai-risk-management
@@ -21,7 +22,7 @@ Role required: admin, ui\_builder\_admin
 
 ## About this task
 
-ServiceNow offers prebuilt Configurable Workspace experiences to target specific users. These prebuilt workspaces can be updated and modified in UI Builder instead of creating an experience from scratch. For a list of prebuilt workspaces ServiceNow offers, see [List of workspaces](https://www.servicenow.com/docs/access?context=list-of-workspaces&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US). To update an existing Configurable Workspace experience, see [Open a Configurable Workspace experience](https://www.servicenow.com/docs/access?context=open-your-configurable-workspace-experience-in-ui-builder&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+ServiceNow offers prebuilt Configurable Workspace experiences to target specific users. These prebuilt workspaces can be updated and modified in UI Builder instead of creating an experience from scratch. For a list of prebuilt workspaces ServiceNow offers, see . To update an existing Configurable Workspace experience, see .
 
 ## Procedure
 
@@ -44,11 +45,11 @@ Your changes reflect in the AI Risk and Compliance Workspace under the correspon
 
 ## What to do next
 
-[Create a Configurable Workspace experience](https://www.servicenow.com/docs/access?context=create-configurable-workspace-experience-uib&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
 
-[Create a Configurable Workspace page](https://www.servicenow.com/docs/access?context=create-configurable-workspace-page-uib&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
 
-[UI Builder](https://www.servicenow.com/docs/bundle/zurich-application-development/page/administer/ui-builder/concept/ui-builder-overview.html)
+
+
+UI Builder
 
 Receive additional, detailed documentation on configuring and using UI Builder.
 

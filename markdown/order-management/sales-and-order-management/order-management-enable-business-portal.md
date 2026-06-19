@@ -2,6 +2,7 @@
 title: Enable the Business Portal
 description: Admins can enable the Business Portal \(sn\_b2b\_portal\) so customers can browse products and create orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/order-management-enable-business-portal.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -17,7 +18,7 @@ Admins can enable the Business Portal \(sn\_b2b\_portal\) so customers can brows
 
 ## Before you begin
 
-The application scope must be set to Business Portal. You can change the application scope using the application picker ![](../../../reuse/icons/product-icons/globe-outline-24.svg) in the Unified Navigation bar.
+The application scope must be set to Business Portal. You can change the application scope using the application picker \[Omitted image "globe-outline-24.svg"\] Alt text: in the Unified Navigation bar.
 
 Role required: admin
 
@@ -25,7 +26,7 @@ Role required: admin
 
 To set up the Business Portal and Sales Customer Relationship Management self-service enhancements, first install the Business Portal plugins, which are available in the app store.
 
-See [Configuring the Business Portal](../concept/order-management-configure-business-portal.md) for more information.
+See [Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-management-configure-business-portal.md) for more information.
 
 ## Procedure
 
@@ -42,5 +43,5 @@ See [Configuring the Business Portal](../concept/order-management-configure-busi
 
 ## What to do next
 
-Customize the Business Portal to match your organization's branding and user experience requirements. For more information, see [Setup the Business Portal](https://www.servicenow.com/docs/access?context=customize-business-portals&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+Customize the Business Portal to match your organization's branding and user experience requirements. For more information, see .
 

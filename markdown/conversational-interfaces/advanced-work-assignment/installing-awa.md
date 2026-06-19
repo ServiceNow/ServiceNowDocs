@@ -2,6 +2,7 @@
 title: Configuring Advanced Work Assignment
 description: Quickly install the required and popular plugins through the plugin page after selecting any Get \[plugin\] button on the Advanced Work Assignment home page. Plan and configure Advanced Work Assignment \(AWA\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -48,119 +49,119 @@ After installing the Advanced Work Assignment plugin and any relevant org-specif
 
 4.  Install popular plugins, such as Agent Chat, Walk-up Experience, and/or Performance Analytics, to boost your AWA experience.
 
-5.  In the Essential settings section, select **Set up service channels** to [configure the service channels](awa-create-service-channel.md) that you activated.
+5.  In the Essential settings section, select **Set up service channels** to [configure the service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-create-service-channel.md) that you activated.
 
-    1.  [Create or change an inbox layout](awa-modify-inbox-layout.md).
+    1.  [Create or change an inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-modify-inbox-layout.md).
 
-    2.  [Override agent capacity](awa-change-agent-capacity.md), as needed.
+    2.  [Override agent capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-change-agent-capacity.md), as needed.
 
-6.  In the Essential settings section, select **Set up queues** to [create work item queues](awa-create-queue.md) for your service channels.
+6.  In the Essential settings section, select **Set up queues** to [create work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-create-queue.md) for your service channels.
 
-    1.  [Set the sort order for work items](awa-set-work-sort-order.md) in the queue.
+    1.  [Set the sort order for work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-set-work-sort-order.md) in the queue.
 
-7.  In the Essential settings section, select **Set up assignment rules** to [configure the work assignment rules](awa-create-assignment-rule.md) used to push work to the appropriate agents.
+7.  In the Essential settings section, select **Set up assignment rules** to [configure the work assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md) used to push work to the appropriate agents.
 
 8.  In the Additional settings section, consider configuring the following parameters to improve your AWA functionality.
 
-    1.  Select **Set up presence states** to [configure availability states](awa-configure-agent-presence.md) states that agents use to indicate whether they can receive work or are offline or away.
+    1.  Select **Set up presence states** to [configure availability states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-configure-agent-presence.md) states that agents use to indicate whether they can receive work or are offline or away.
 
-    2.  Select **Set up reject reasons** to [define the reject reasons](awa-configure-reject-reasons.md) that agents can use to decline work assignments that they receive in their Agent Workspace inbox.
+    2.  Select **Set up reject reasons** to [define the reject reasons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-configure-reject-reasons.md) that agents can use to decline work assignments that they receive in their Agent Workspace inbox.
 
-    3.  Select **Set up universal capacity** to [configure your team's maximum universal capacity](awa-universal-capacity.md) to prevent an agent from being assigned too many work items.
+    3.  Select **Set up universal capacity** to [configure your team's maximum universal capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-universal-capacity.md) to prevent an agent from being assigned too many work items.
 
-    4.  Select **Set up groups** to [create groups of user sets](awa-groups.md) who share a common purpose.
+    4.  Select **Set up groups** to [create groups of user sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-groups.md) who share a common purpose.
 
 9.  In the Advanced settings section, consider configuring the following parameters to improve your AWA functionality.
 
     **Note:** Advanced settings cards appear conditionally after installing their respective plugin.
 
-    1.  Select **Set up Agent Affinity** to [create or change the Agent Affinity rules](awa-configure-agent-affinity.md) that route work items in Advanced Work Assignment.
+    1.  Select **Set up Agent Affinity** to [create or change the Agent Affinity rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-configure-agent-affinity.md) that route work items in Advanced Work Assignment.
 
-    2.  Select **Set up Shift-based Assignment** to [assign work items to agents based on shifts](awa-create-assignment-rule.md).
+    2.  Select **Set up Shift-based Assignment** to [assign work items to agents based on shifts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md).
 
 
--   **[Get started with Advanced Work Assignment](implement-awa.md)**  
+-   **[Get started with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/implement-awa.md)**  
 To implement Advanced Work Assignment, complete these initial configuration and setup steps.
--   **[Install Conversational SMS service channel](install-conversational-sms.md)**  
+-   **[Install Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/install-conversational-sms.md)**  
 You can install the Conversational SMS service channel application \(sn\_awa\_sms\_int\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they are not already installed.
--   **[Create or configure a service channel](awa-create-service-channel.md)**  
+-   **[Create or configure a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-create-service-channel.md)**  
 Create or configure a service channel that is used in Advanced Work Assignment \(AWA\).
--   **[Set up the Conversational SMS service channel](configure-conversational-sms.md)**  
+-   **[Set up the Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/configure-conversational-sms.md)**  
 Configure the Conversational SMS service channel store app.
--   **[Set up a custom service channel](setup-custom-channel.md)**  
+-   **[Set up a custom service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/setup-custom-channel.md)**  
 Set up a custom service channel to expand the type and scope of work that is routed automatically to your agents.
--   **[Create a queue to route new change requests](queue-example.md)**  
+-   **[Create a queue to route new change requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/queue-example.md)**  
 Create a work item queue in Advanced Work Assignment that routes new change requests through the service channel that handles change requests.
--   **[Create an assignment pool of agents](assignment-pool-example.md)**  
+-   **[Create an assignment pool of agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/assignment-pool-example.md)**  
 Create an eligible assignment pool in Advanced Work Assignment that receives overflow work items, just in case you need more help from other agents to handle change requests.
--   **[Make your service channel available in Agent Workspace](presence-state-example.md)**  
+-   **[Make your service channel available in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/presence-state-example.md)**  
 Make your service channel available in Agent Workspace so that agents can receive change requests in their inbox.
--   **[Customize how change requests appear in an agent inbox](inbox-card-example.md)**  
+-   **[Customize how change requests appear in an agent inbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/inbox-card-example.md)**  
 Customize how change requests appear in an agent inbox so that agents receive enough information to decide whether to accept or reject the work item.
--   **[Create or change a work item size override](awa-modify-work-item-size.md)**  
+-   **[Create or change a work item size override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-modify-work-item-size.md)**  
 Create a work item size override if you want Agent Affinity to calculate an agent's workload using a work item size other than the default.
--   **[Create a work item queue](awa-create-queue.md)**  
+-   **[Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-create-queue.md)**  
 Define or change a queue so that you can determine which work items are routed automatically to agents through a given service channel.
--   **[Configure agent assignment rules](awa-create-assignment-rule.md)**  
+-   **[Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md)**  
 Set the Advanced Work Assignment criteria for assigning work items to agents. Choose the assignment rule that considers the agent with the most capacity or the agent who has gone the longest without work. Establish the settings for the auto-assign handling, reject handling, and skill handling related lists.
--   **[Create or change an inbox layout](awa-modify-inbox-layout.md)**  
+-   **[Create or change an inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-modify-inbox-layout.md)**  
 Create or change the card layout for inbox items for a given service channel. Card layouts are displayed in the agent inbox view of Agent Workspace.
--   **[Override agent capacity for selected agents](awa-change-agent-capacity.md)**  
+-   **[Override agent capacity for selected agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-change-agent-capacity.md)**  
 Change the default number of work items that an agent can handle for a service channel.
--   **[Define agent pools eligible for assignment](awa-specify-assignment-eligibility.md)**  
+-   **[Define agent pools eligible for assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-specify-assignment-eligibility.md)**  
 Specify pools of agents eligible to receive overflow work assignments for a queue. An eligible assignment pool can consist of one or more groups of agents available to work on items in the queue. This feature enables Advanced Work Assignment to find a qualified agent from a wider pool of agents.
--   **[Set work item sort order](awa-set-work-sort-order.md)**  
+-   **[Set work item sort order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-set-work-sort-order.md)**  
 Specify the order in which work items in a queue are sorted.
--   **[Create and manage queue triggers](awa-create-queue-triggers.md)**  
+-   **[Create and manage queue triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-create-queue-triggers.md)**  
 Create and manage queue triggers to set off multiple actions during customer wait times for a particular queue.
--   **[Create a connection Alias for third-party provider](create-cnctn-alias.md)**  
+-   **[Create a connection Alias for third-party provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/create-cnctn-alias.md)**  
 Create a connection Alias for your third-party provider to enable external routing on your instance.
--   **[Create a custom flow action](create-custom-action.md)**  
+-   **[Create a custom flow action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/create-custom-action.md)**  
 Create a custom flow action in Workflow Studio for enabling external routing.
--   **[Create a subflow](create-subflow-extrnl-route.md)**  
+-   **[Create a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/create-subflow-extrnl-route.md)**  
 Create a subflow for the Workflow Studio for enabling external routing.
--   **[Create a payload for external third-party providers](create-payload-extrnl-provider.md)**  
+-   **[Create a payload for external third-party providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/create-payload-extrnl-provider.md)**  
 Create a payload for external third-party providers to send your work items to the external queue.
--   **[Link Subflow and Payload to External Queues](link-subflow-payload-extrnl.md)**  
+-   **[Link Subflow and Payload to External Queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/link-subflow-payload-extrnl.md)**  
 Link the subflow and the payload to your external queue to complete external routing.
--   **[Enable external routing for queues](enable-awa-external-routing.md)**  
+-   **[Enable external routing for queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/enable-awa-external-routing.md)**  
 Configure Advanced Work Assignment to route work items in the queue using external routing.
--   **[Configure External Routing events and payload](config-extrnlroute-event-payload.md)**  
+-   **[Configure External Routing events and payload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/config-extrnlroute-event-payload.md)**  
 Configure Advanced Work Assignment with external routing using AWA External Service API for CCaaS and third-party providers to enable them to submit events.
--   **[Define external routing test implementation](../concept/define-extrnl-routng-plugin.md)**  
+-   **[Define external routing test implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/define-extrnl-routng-plugin.md)**  
 Define the External Routing Test Tools plugin \[com.glide.awa.external.test\_tools\] with a simplified external-routing-provider sample Automated Test Framework \(ATF\) by using the demo data that is available with the plugin installation.
--   **[Configure Agent Affinity rules](awa-configure-agent-affinity.md)**  
+-   **[Configure Agent Affinity rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-configure-agent-affinity.md)**  
 Create or change the Agent Affinity rules that route work items in Advanced Work Assignment.
--   **[Set Agent Affinity rules](awa-set-agent-affinity-for-queue.md)**  
+-   **[Set Agent Affinity rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-set-agent-affinity-for-queue.md)**  
 Specify the Agent Affinity rules to determine the order in which work items in a queue are sorted.
--   **[Deactivate Agent Affinity](awa-deactivate-agent-affinity.md)**  
+-   **[Deactivate Agent Affinity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-deactivate-agent-affinity.md)**  
 Deactivate Agent Affinity if you do not want Agent Affinity to assign work assignments to agents.
--   **[Configure agent presence states](awa-configure-agent-presence.md)**  
+-   **[Configure agent presence states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-configure-agent-presence.md)**  
 Create or modify the availability states that agents use to indicate whether they can receive work or are offline or away. Agents set these states in their Workspace Inbox.
--   **[Configure reasons for rejecting work items](awa-configure-reject-reasons.md)**  
+-   **[Configure reasons for rejecting work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-configure-reject-reasons.md)**  
 Define the reasons that agents can use to decline work assignments that they receive in their Agent Workspace inbox. A reject reason can apply to all service channels or a single channel that you specify.
--   **[Configure reassignable settings](../../workspace/task/reassign-rejected-timed-out-work-items.md)**  
+-   **[Configure reassignable settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/reassign-rejected-timed-out-work-items.md)**  
 Configure whether an agent who rejected a work item is eligible to be offered the same work item.
--   **[Wrap up configuration](wrap-up-configuration.md)**  
+-   **[Wrap up configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/wrap-up-configuration.md)**  
 Set up the wrap up configuration.
--   **[Wrap up codes](wrap-up-codes.md)**  
+-   **[Wrap up codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/wrap-up-codes.md)**  
 Define the wrap up codes.
--   **[Wrap up segments](wrap-up-segments.md)**  
+-   **[Wrap up segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/wrap-up-segments.md)**  
 Define the wrap up segments.
--   **[Configure an agent's maximum universal capacity](awa-universal-capacity.md)**  
+-   **[Configure an agent's maximum universal capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-universal-capacity.md)**  
 Prevent an agent from being assigned too many work items by configuring the agent's maximum universal capacity. If the agent's maximum universal capacity has been reached, additional work items won’t be assigned to the agent.
--   **[Create or change groups for Advanced Work Assignment queues](awa-groups.md)**  
+-   **[Create or change groups for Advanced Work Assignment queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-groups.md)**  
 Create or manage groups that have associated Advanced Work Assignment queues.
--   **[AWA post work item subflow](awa-post-work-item-subflow.md)**  
+-   **[AWA post work item subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-post-work-item-subflow.md)**  
 Configure the base system AWA post work item subflow by defining the input in Workflow Studio.
--   **[Configure messaging actions](../../virtual-agent/task/configure-messaging-actions.md)**  
+-   **[Configure messaging actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/configure-messaging-actions.md)**  
 Create or modify messaging actions that are performed when an event occurs. These actions apply only to messaging.
--   **[Enable logging for Advanced Work Assignment](awa-activate-logging.md)**  
+-   **[Enable logging for Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-activate-logging.md)**  
 Enable logging to monitor AWA routing and assignment.
--   **[Activate Agent Affinity](awa-activate-agent-affinity.md)**  
+-   **[Activate Agent Affinity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-activate-agent-affinity.md)**  
 You can activate the Agent Affinity plugin \(com.glide.awa.agent\_affinity\) if you have the admin role.
--   **[Activate Conversational Messaging](../../virtual-agent/task/activate-messaging-actions.md)**  
+-   **[Activate Conversational Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/activate-messaging-actions.md)**  
 You can activate the Conversational Messaging plugin \(com.glide.messaging.awa\) if you have the admin role.
 
-**Parent Topic:**[Advanced Work Assignment](../concept/awa-application-landing-page.md)
+**Parent Topic:**[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-application-landing-page.md)
 

@@ -2,6 +2,7 @@
 title: Install Goal Framework and Goal Framework for SPM
 description: You can install the Goal Framework \(sn\_gf\) and Goal Framework for SPM \(sn\_gfa\) applications if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/goal-framework/install-goal-framework.html
 release: zurich
 product: Goal Framework
 classification: goal-framework
@@ -31,7 +32,7 @@ Role required: admin
 
 2.  Find the Goal Framework or Goal Framework for SPM application using the filter criteria and search bar.
 
-    You can search for the application by its name or ID \(sn\_gf or sn\_gfa\). If you can’t find an application, you may have to request it from ServiceNow store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release note information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    You can search for the application by its name or ID \(sn\_gf or sn\_gfa\). If you can’t find an application, you may have to request it from ServiceNow store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release note information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Click **Install**.
 
@@ -53,7 +54,7 @@ The following components are installed with installation of the Goal Framework o
 -   Scheduled jobs
 -   Target automation script for benefit plans \(installed with Goal Framework for SPM\)
 
-As part of Goal Framework for SPM installation, components of both Goal Framework and Goal Framework for SPM are installed. See [Components installed with Goal Framework and Goal Framework for SPM](../reference/components-installed-with-goal-framework.md) for more information.
+As part of Goal Framework for SPM installation, components of both Goal Framework and Goal Framework for SPM are installed. See [Components installed with Goal Framework and Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/components-installed-with-goal-framework.md) for more information.
 
-**Parent Topic:**[Configuring Goal Framework and Goal Framework for SPM](../concept/configuring-goal-framework.md)
+**Parent Topic:**[Configuring Goal Framework and Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/configuring-goal-framework.md)
 

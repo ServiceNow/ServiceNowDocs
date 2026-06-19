@@ -2,6 +2,7 @@
 title: Configure a tag policy for Tag Governance
 description: Configure tag policies that define the criteria for tag audits on discovered cloud resources or CIs. View audit results on tag quality and compliance on the Tag Health dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/tag-governance/configure-tag-governance-policy.html
 release: zurich
 product: Tag Governance
 classification: tag-governance
@@ -29,7 +30,7 @@ You can specify filters that narrow the scope of an audit, for example, to audit
 
 2.  Select **New** and then fill in the Tag Policies form.
 
-    The form fields are described in [Tag Policies form](../../itom-cloud-accelerate/reference/tag-gov-tag-policies-form.md).
+    The form fields are described in [Tag Policies form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/tag-governance/tag-gov-tag-policies-form.md).
 
 3.  Select **Submit**.
 
@@ -40,5 +41,5 @@ You can specify filters that narrow the scope of an audit, for example, to audit
 
 -   Select the **Show Audit Results** related link to view all audit results.
 -   Select the **Run Point Scan** related link to execute all applicable checks against the record.
--   For more information see, [Flows](https://www.servicenow.com/docs/access?context=flows&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US) and [Subflows](https://www.servicenow.com/docs/access?context=subflows&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+-   For more information see, Flows and Subflows.
 

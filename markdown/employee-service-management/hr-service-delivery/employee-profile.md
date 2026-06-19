@@ -2,6 +2,7 @@
 title: Employee Profile table
 description: The Employee Profile \(sn\_employee\) plugin provides an Employee Profile \(sn\_employee\_profile\) table that makes the employment start date and employment end date fields available outside of HR Service Delivery. For example, the table can be used with Strategic Portfolio Management to update the resource capacity of users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/employee-profile.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,7 +20,7 @@ The Employee Profile \(sn\_employee\) plugin provides an Employee Profile \(sn\_
 
 Use the Employee Profile \(sn\_employee\_profile\) table to make the **employment\_start\_date** and **employment\_end\_date** fields available outside of HR Service Delivery.
 
-Learn more about the [Employee profile](../../employee-center/concept/employee-profile-portal.md).
+Learn more about the [Employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-profile-portal.md).
 
 |Field|Description|
 |-----|-----------|
@@ -44,10 +45,10 @@ When you activate the Employee Profile plugin, the following fields are pulled f
 
 You must activate the Employee Profile \(sn\_employee\) plugin to use the Employee Profile table with your application.
 
-**Note:** If you are using the table with Strategic Portfolio Management, see [Update the resource capacity](https://www.servicenow.com/docs/access?context=update-resource-capacity&version=zurich&pubname=zurich-it-business-management&ft:locale=en-US) for more information.
+**Note:** If you are using the table with Strategic Portfolio Management, see Update the resource capacity for more information.
 
--   **[Activate Employee Profile](../task/activate-employee-profile.md)**  
+-   **[Activate Employee Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/activate-employee-profile.md)**  
 You can activate the Employee Profile plugin \[sn\_employee\] if you have the admin role.
 
-**Parent Topic:**[HR Administration](c_AdministerHRServiceManagement.md)
+**Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 

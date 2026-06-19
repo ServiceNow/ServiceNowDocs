@@ -2,6 +2,7 @@
 title: Activate a health and safety requirement
 description: Activate requirements to track when employees are ready to return to the workplace or to safely travel to another site. You can also activate requirements that visitors must complete before entering the workplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-readiness-core/activate-readiness-requirement.html
 release: zurich
 product: Employee Readiness Core
 classification: employee-readiness-core
@@ -21,7 +22,7 @@ Role required: sn\_imt\_core.admin
 
 ## About this task
 
-Use health and safety requirements to define the requirements that employees must fulfill before they can return to the workplace, safely travel to another site , or that visitors must fulfill before entering the workplace. Employee Readiness Core includes pre-built requirements. For more information, see [Included health and safety requirements](../reference/included-health-safety-requirements.md).
+Use health and safety requirements to define the requirements that employees must fulfill before they can return to the workplace, safely travel to another site , or that visitors must fulfill before entering the workplace. Employee Readiness Core includes pre-built requirements. For more information, see [Included health and safety requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-readiness-core/included-health-safety-requirements.md).
 
 Requirements are not active by default. A requirement must be activated before you can track whether employeesor visitors have fulfilled the requirement.
 
@@ -42,7 +43,7 @@ Requirements are not active by default. A requirement must be activated before y
 
 You can view all health and safety user records by navigating to **Employee Health and Safety Status** &gt; **Health and Safety Users**. The **Requirements status** column shows the employee'sor visitor's progress towards completing all active requirements. The value is **Cleared** if the employeeor visitor has fulfilled all active requirementsfor their current location. The value is **Not cleared** if the employeeor visitor is missing any requirements.
 
-You can also look up the requirements status for individual employeesor visitors by navigating to **Employee Health and Safety Status** &gt; **View Employee and Visitor Status**. The status page can be used during the employeeor visitor health screening process for entering the workplace. For more information, see [Conduct a health screen for entry](../../employee-health-screening/task/screen-returning-employee.md) and [Screen a visitor for entry to the workplace](../../employee-health-screening/task/screen-visitor.md).
+You can also look up the requirements status for individual employeesor visitors by navigating to **Employee Health and Safety Status** &gt; **View Employee and Visitor Status**. The status page can be used during the employeeor visitor health screening process for entering the workplace. For more information, see [Conduct a health screen for entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/screen-returning-employee.md) and [Screen a visitor for entry to the workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/screen-visitor.md).
 
-**Parent Topic:**[Employee Health and Safety Status](../concept/employee-health-safety-status.md)
+**Parent Topic:**[Employee Health and Safety Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-readiness-core/employee-health-safety-status.md)
 

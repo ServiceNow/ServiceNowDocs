@@ -2,11 +2,12 @@
 title: IPAM Discovery integration
 description: The IP Address Management \(IPAM\) to Discovery integration feature enables your organization to automatically create and manage Discovery schedules based on your IPv6 network infrastructure data stored in IPAM. This integration keeps your discovery processes synchronized with your IPv6 network changes, providing a complete and up-to-date view of your network environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/ipv6-ipam-disco-integration.html
 release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 3
 breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -42,7 +43,7 @@ This feature requires the following:
 -   Service Graph Connector for Infoblox v1.5.0 with sgc\_admin access.
 -   CMDB Workspace v9.0.0.
 -   Discovery Admin Workspace v1.13.0 with discovery\_admin access.
--   Zurich, ZP9 or later, or YP13 or later version of the ServiceNow AI Platform.
+-   Australia, ZP8 or later, or YP13 or later version of the ServiceNow AI Platform.
 
 Before using the integration, ensure that your IPAM tables contain the following data:
 

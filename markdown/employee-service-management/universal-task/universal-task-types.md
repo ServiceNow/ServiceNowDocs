@@ -2,6 +2,7 @@
 title: Universal Task types
 description: The task types in the Universal Task application enable your agent to assign pre-defined tasks to an employee. With these pre-defined tasks, your agent can task employees quicker and more efficiently. You decide which task types that you want to make available to the agents in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-task/universal-task-types.html
 release: zurich
 product: Universal Task
 classification: universal-task
@@ -24,5 +25,5 @@ You can choose to make the following task types available in your own organizati
 -   Mark When Complete: Enables agents to assign a task that contains fulfillment instructions as rich text descriptions. An employee can show that a task is complete by clicking the **Mark complete** button.
 -   URL: Enables you to specify a URL that will be displayed in the task assigned to the user.
 
-**Parent Topic:**[Exploring Universal Task](explore-universal-task.md)
+**Parent Topic:**[Exploring Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-task/explore-universal-task.md)
 

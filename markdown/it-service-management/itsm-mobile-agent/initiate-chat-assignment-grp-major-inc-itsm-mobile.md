@@ -2,6 +2,7 @@
 title: Initiate a chat with the assignment group from a major incident
 description: Initiate a chat with the assignment group members from a major incident record to discuss about the resolution of the issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/initiate-chat-assignment-grp-major-inc-itsm-mobile.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -25,13 +26,13 @@ Role required: major\_incident\_manager, itil, itil\_admin, or admin
 
 2.  Tap **Major incidents** tab, tap **See All**.
 
-    ![See All highlighted in major incidents tab.](../image/major-incident-itsm-mobile.png)
+    \[Omitted image "major-incident-itsm-mobile.png"\] Alt text: See All highlighted in major incidents tab.
 
 3.  Tap the major incident record you want to work on.
 
 4.  Tap **Assignment group**.
 
-    ![Assignment group in ITSM Mobile Agent](../image/active-major-incident-assignment-group-itsm-mobile.png)
+    \[Omitted image "active-major-incident-assignment-group-itsm-mobile.png"\] Alt text: Assignment group in ITSM Mobile Agent
 
 5.  Do one of the following:
 
@@ -40,7 +41,7 @@ Role required: major\_incident\_manager, itil, itil\_admin, or admin
     |Initiate chat in Slack|Tap on Slack assignment group.|
     |Initiate chat in Microsoft Teams|Tap on the Microsoft Teams assignment group.|
 
-    ![Assignment group in ITSM Mobile Agent](../image/assignment-group-major-inc-itsm-mobile.png)
+    \[Omitted image "assignment-group-major-inc-itsm-mobile.png"\] Alt text: Assignment group in ITSM Mobile Agent
 
     **Note:** The Slack and the Microsoft Teams assignment group contact will be displayed only if the assignment group has a valid Slack and Microsoft Teams accounts.
 

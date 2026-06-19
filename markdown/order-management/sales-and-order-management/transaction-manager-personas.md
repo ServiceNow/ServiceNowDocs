@@ -2,6 +2,7 @@
 title: Transaction Manager: Personas
 description: Personas let you customize user access according to the user's business role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/transaction-manager-personas.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -27,23 +28,23 @@ To create a persona, follow these steps:
 
 1.  In the Transaction Manager Admin UI click **Personas**.
 
-    ![Transaction Manager Admin UI](../images/cpq-txn-mgr-stages-persona-1.jpeg)
+    \[Omitted image "cpq-txn-mgr-stages-persona-1.jpeg"\] Alt text: Transaction Manager Admin UI
 
 2.  Click **+ New Persona**.
 
-    ![New persona](../images/cpq-txn-mgr-stages-persona-2.jpeg)
+    \[Omitted image "cpq-txn-mgr-stages-persona-2.jpeg"\] Alt text: New persona
 
     .
 
-    Now that the persona has been created, we need to assign Transaction Manager user accounts to the new persona. In order to assign user accounts to the persona, the user accounts must have previously been created in ServiceNow CPQ via the User Access function in the Utilities area of the Admin UI. If the user accounts are not listed in the User Access list in Utilities then the user accounts will not show up as available to be assigned to a persona. For more information on granting user access in ServiceNow CPQ, see [User access](please_share_your_feedback_on_admin_assist_responses.md).
+    Now that the persona has been created, we need to assign Transaction Manager user accounts to the new persona. In order to assign user accounts to the persona, the user accounts must have previously been created in ServiceNow CPQ via the User Access function in the Utilities area of the Admin UI. If the user accounts are not listed in the User Access list in Utilities then the user accounts will not show up as available to be assigned to a persona. For more information on granting user access in ServiceNow CPQ, see [User access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/please_share_your_feedback_on_admin_assist_responses.md).
 
 3.  The persona requires a name and a variable name. Click in the Name field and enter the name of the new persona. As the Name value is being entered in the Name field, the same value is being mirrored in the Variable Name field. By default, Transaction Manager makes the Variable Name the same as the Name value that the Admin enters. The Variable Name however in created using “camel case” and all spaces and special characters are removed from the name. For example, If you type “Eastern Sales Manager” for the Name field, the Variable Name field will contain “easternSalesManager”. If you want to create your own custom Variable Names, click the pencil icon at the right end of the Variable Name field and enter your own value for Variable Name. Once the The Name and Variable Name are set, click **Save**.
 
-    ![New persona](../images/cpq-txn-mgr-stages-persona-3.jpeg)
+    \[Omitted image "cpq-txn-mgr-stages-persona-3.jpeg"\] Alt text: New persona
 
 4.  To assign one or more user accounts to the new persona, click **+ Associate User**.
 
-    ![Sales Manager](../images/cpq-txn-mgr-stages-persona-4.jpeg)
+    \[Omitted image "cpq-txn-mgr-stages-persona-4.jpeg"\] Alt text: Sales Manager
 
     An Associate Users control slides out from the right of the UI page and lists the available user accounts that can be assigned to the new persona.
 
@@ -53,10 +54,10 @@ To create a persona, follow these steps:
 
 6.  When you are asked to confirm that you want to assign the selected user accounts to this persona, Click **Confirm**.
 
-    ![Associate confirmation](../images/cpq-txn-mgr-stages-persona-5.jpeg)
+    \[Omitted image "cpq-txn-mgr-stages-persona-5.jpeg"\] Alt text: Associate confirmation
 
 
 The assigned user accounts will now appear in the Username list for the new persona. To see your new persona listed on the Personas page, click **Personas** in the Admin menu.
 
-![Persona](../images/cpq-txn-mgr-stages-persona-6.jpeg)
+\[Omitted image "cpq-txn-mgr-stages-persona-6.jpeg"\] Alt text: Persona
 

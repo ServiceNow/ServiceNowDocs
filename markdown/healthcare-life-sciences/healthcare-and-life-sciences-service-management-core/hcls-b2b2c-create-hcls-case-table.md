@@ -2,6 +2,7 @@
 title: Create a table for B2B2C in Healthcare and Life Sciences Service Management Core
 description: Create a table that extends the Healthcare case table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-b2b2c-create-hcls-case-table.html
 release: zurich
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -17,7 +18,7 @@ Create a table that extends the Healthcare case table.
 
 ## Before you begin
 
-Assign the case viewer role for contacts. For more information, see [Assign the case viewer role for contacts in B2B2C in Healthcare and Life Sciences Service Management Core](hcls-b2b2c-grant-contact-case-creation.md).
+Assign the case viewer role for contacts. For more information, see [Assign the case viewer role for contacts in B2B2C in Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-b2b2c-grant-contact-case-creation.md).
 
 Role required: admin
 
@@ -44,5 +45,5 @@ A table is created that extends the Healthcare case table for use with B2B2C.
 
 ## What to do next
 
-Create a record producer for use with B2B2C. For more information, see [Create a record producer for B2B2C in Healthcare and Life Sciences Service Management Core](hcls-b2b2c-create-record-producer.md).
+Create a record producer for use with B2B2C. For more information, see [Create a record producer for B2B2C in Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-b2b2c-create-record-producer.md).
 

@@ -2,6 +2,7 @@
 title: Contracts
 description: A contract defines the terms and conditions along with pricing agreed for a product with the supplier​. An active contractual price determines if the pricing of a product or service is displayed on ShoppingHub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/contracts.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -27,7 +28,7 @@ In addition to purchase requisitions, systematic creation of a contract occurs d
 
 When a supplier is awarded, contracts that were created for the other suppliers are canceled, except NDAs. Contract metadata population remain as is.
 
-![Contract form.](../image/spo-contracts.png "Contract form")
+\[Omitted image "spo-contracts.png"\] Alt text: Contract form.
 
 In a contract, the following are the key fields:
 
@@ -368,5 +369,5 @@ Specific legal information in the contract.
 
 Contract exception rules specify conditions in which a contract record is not created even if there is a corresponding contract type mapped to a model category. A procurement administrator​ can configure these rules from decision tables which are in the administration section of the Sourcing and Purchasing Automation module.
 
-**Parent Topic:**[Sourcing and Purchasing Automation](purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

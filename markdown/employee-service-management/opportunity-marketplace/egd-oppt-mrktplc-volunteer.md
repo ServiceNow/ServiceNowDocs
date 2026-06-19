@@ -2,6 +2,7 @@
 title: Volunteer opportunities
 description: Opportunities to volunteer can include multiple roles and skills for multiple people volunteering for activities related to the opportunity. Scope and duration can be long-term or short-term. Volunteer opportunities and other opportunity types are configured by ServiceNow admins from the Opportunity Type Configuration form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-volunteer.html
 release: zurich
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -25,5 +26,5 @@ Volunteer opportunities are often found in non-profit organizations, community g
 
 Engaging in volunteer work enables individuals to contribute to their community, gain experience, and develop personal and professional skills. Volunteer opportunities can vary widely, from short-term events to long-term commitments, and they often provide a platform for networking, learning, and personal growth. For more information about opportunity types, see .
 
-**Parent Topic:**[Explore Opportunity Marketplace \(OPM\)](egd-oppt-mrktplc-explore.md)
+**Parent Topic:**[Explore Opportunity Marketplace \(OPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-explore.md)
 

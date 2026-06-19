@@ -2,6 +2,7 @@
 title: Set up connections to the tokenizer service
 description: Follow these steps to set up connectivity between your ServiceNow instance, the FSO tokenizer service, and the Third-Party System.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/set-up-outbound-connections.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -65,17 +66,17 @@ An endpoint is created for the Third-Party System.
 
 If you selected JWT authentication, a private key file is downloaded. Store this key file in a secure and accessible place.
 
-![Image showing the modal window in our tokenizer service informing the user that private key file(s) will be downloaded and to store these in a safe place.](../image/jwt-key-credentials.png)
+\[Omitted image "jwt-key-credentials.png"\] Alt text: Image showing the modal window in our tokenizer service informing the user that private key file\(s\) will be downloaded and to store these in a safe place.
 
 If you selected API key authentication, you will be presented with a prompt containing your API key. Save the API key in a secure and accessible place.
 
-![Image showing the modal window in our tokenizer service prompting the user to save the API key.](../image/tokenizer-service-save-api-key.png)
+\[Omitted image "tokenizer-service-save-api-key.png"\] Alt text: Image showing the modal window in our tokenizer service prompting the user to save the API key.
 
 ## What to do next
 
 Use this endpoint to complete connectivity setup for Card Data Security in your ServiceNow instance.
 
-Use the provided authentication key in your ServiceNow instance when creating a credential alias. See [Set up tokenized HTTP connection and credentials](create-a-new-tokenizer-route.md).
+Use the provided authentication key in your ServiceNow instance when creating a credential alias. See [Set up tokenized HTTP connection and credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/create-a-new-tokenizer-route.md).
 
 You may set up additional routes in the connection. For more information, refer to the [tokenizer service documentation](https://docs.skyflow.com/).
 

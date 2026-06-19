@@ -2,6 +2,7 @@
 title: Configure Now Assist in Virtual Agent for Workplace Service Delivery
 description: Enable your employees to submit a reservation request using a conversational experience based on generative AI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-wsd/config-now-assist-va-wsd.html
 release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -19,7 +20,7 @@ Enable your employees to submit a reservation request using a conversational exp
 
 Workplace users can leverage the Now Assist in Virtual Agent by configuring the Now Assist for WSD. Now Assist for Workplace Service Delivery \(WSD\) can be configurted to reserve workplace items, invite visitors, and add extra services. The Now Assist in Virtual Agent application provides conversational experiences for Workplace Service Delivery flows.
 
-For more information about Now Assist in Virtual Agent, see [Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-in-va-landing&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+For more information about Now Assist in Virtual Agent, see .
 
 ## Before you begin
 
@@ -54,17 +55,17 @@ Role required: admin
 
 3.  Publish the **Reserve Space** topic.
 
-    For more information about publishing a topic, see [Publish a Virtual Agent topic](https://www.servicenow.com/docs/access?context=publish-virtual-agent-topic&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+    For more information about publishing a topic, see .
 
     The Reserve Space topic is published and can be used from the Virtual Agent.
 
 
 ## What to do next
 
--   Create a reservable module to group similar workplace items into a category. For more information, see [Configure a reservable module](../../wsd-reservation-management/task/config-reservable-module.md).
-    -   Enable virtual meeting links for your reservation by configuring a virtual meeting provider. For more information, see [Configure virtual meeting providers](../../wsd-reservation-management/task/configure-virtual-meeting-providers.md).
-    -   Provide extra services, such as catering, for the reservations by creating workplace services and adding them to workplace locations. For more information, see [Create a workplace service to provide an extra service for a reservation](../../wsd-reservation-management/task/create-workplace-service-to-provide-extra-service.md).
--   Select the portals and channels that the Virtual Agent is displayed on. For more information, see [Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+-   Create a reservable module to group similar workplace items into a category. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+    -   Enable virtual meeting links for your reservation by configuring a virtual meeting provider. For more information, see [Configure virtual meeting providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/configure-virtual-meeting-providers.md).
+    -   Provide extra services, such as catering, for the reservations by creating workplace services and adding them to workplace locations. For more information, see [Create a workplace service to provide an extra service for a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/create-workplace-service-to-provide-extra-service.md).
+-   Select the portals and channels that the Virtual Agent is displayed on. For more information, see .
 
     **Note:** Selecting the Workplace Service Portal for Now Assist in Virtual Agent replaces the existing NLU experience.
 

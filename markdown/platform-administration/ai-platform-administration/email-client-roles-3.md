@@ -1,0 +1,32 @@
+---
+title: Read-only role for email client templates \[email\_client\_template\_read\]
+description: Reads email client templates.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-platform-administration/email-client-roles-3.html
+release: zurich
+product: AI Platform Administration
+classification: ai-platform-administration
+topic_type: reference
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Components installed with the email client, Email client, Notifications, Configure core features, Administer]
+---
+
+# Read-only role for email client templates \[email\_client\_template\_read\]
+
+Reads email client templates.
+
+## Contains Roles
+
+List of roles contained within the role: None.
+
+## Groups
+
+List of groups this role is assigned to by default.
+
+None.
+
+## Special considerations
+
+None.
+

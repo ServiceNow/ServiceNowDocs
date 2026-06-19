@@ -2,12 +2,13 @@
 title: Software Asset Analytics dashboard
 description: View true-up costs and license, compliance, and removal summaries trend charts on the Software Asset Analytics dashboard integrated with Performance Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/c\_SAMDashSAA.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Platform Analytics Solution for Software Asset Management classic, Software Asset Management, IT Asset Management]
 ---
 
@@ -28,9 +29,7 @@ The graphs show important statistics about the software that is being tracked. I
 
 **Note:** If you are not seeing data in the Overview dashboard, verify the **glide.cms.enable.responsive\_grid\_layout** system property is set to true.
 
-## Overview
-
-![Software Asset Analytics dashboard](../image/dashboard-analytic-overview.png "Software Asset Analytics dashboard")
+## Overview of analytics dashboard
 
 <table id="table_vgl_c3y_tz"><thead><tr><th>
 
@@ -66,7 +65,7 @@ Product Results
 
 </td><td>
 
-Number of publishers that have at least one software model out of compliance.Select the report to view the results in the [Software license usage](sam-license-workbench.md).
+Number of publishers that have at least one software model out of compliance.Select the report to view the results in the [Software license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-license-workbench.md).
 
 </td></tr><tr><td>
 
@@ -78,7 +77,7 @@ Product Results
 
 </td><td>
 
-Number of products that have at least one software model out of compliance.Select the report to view the results in the [Software license usage](sam-license-workbench.md).
+Number of products that have at least one software model out of compliance.Select the report to view the results in the [Software license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-license-workbench.md).
 
 </td></tr><tr><td>
 
@@ -130,8 +129,6 @@ Heat map of software product lifecycles that are reaching their end of life cycl
 
 </td></tr></tbody>
 </table>## License Summary
-
-![License Summary tab shows information pertaining to licenses](../image/SAMDashLicSumNew.png "License Summary tab")
 
 <table id="table_y3q_r3y_tz"><thead><tr><th>
 
@@ -288,8 +285,6 @@ Total software spend by publisher.
 
 Compliance summary consists of time-series data using Performance Analytics to show the compliance trends over time. The source for compliance analysis data is the Product Result \[samp\_product\_result\] table.
 
-![Compliance Summary tab](../image/dashboard-analytics-compliance-summary.png "Compliance Summary tab")
-
 |Report|Description|
 |------|-----------|
 |True-up Cost|Cost to be compliant based on the average prices for entitlements for the rights.|
@@ -310,8 +305,6 @@ Compliance summary consists of time-series data using Performance Analytics to s
 ## Removal Summary
 
 The source for removal summary data is the Reclamation Candidate \[samp\_sw\_reclamation\_candidate\] table.
-
-![Removal Summary tab](../image/removal-summary-tab.png)
 
 <table id="table_ixc_kkc_fbb"><thead><tr><th>
 
@@ -386,5 +379,5 @@ Removal Candidates Breakdown
 Active removal candidates in various breakdowns \(State, Publisher, Product, Justification, and Last Updated\).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Platform Analytics Solution for Software Asset Management classic](../../../use/dashboards/application-content-packs/software-asset-mgmt-content-pack.md)
+</table>**Parent Topic:**[Platform Analytics Solution for Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-asset-mgmt-content-pack.md)
 

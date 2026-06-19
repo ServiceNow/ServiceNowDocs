@@ -2,6 +2,7 @@
 title: Using DurationCalculator to calculate a due date
 description: Using the DurationCalculator script include, you can calculate a due date, using either a simple duration or a relative duration base on schedules.A simple duration is the number of seconds between two date times.Relative duration is very similar to simple duration except a piece of script is used to determine what parts of a day to remove from the difference calculation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/c\_DrtnClDueDate.html
 release: zurich
 product: Scripts
 classification: scripts
@@ -15,7 +16,7 @@ breadcrumb: [Server-side scripting, Scripting, API implementation, API implement
 
 Using the DurationCalculator script include, you can calculate a due date, using either a simple duration or a relative duration base on schedules.
 
-The following script demonstrates how to use the global API [DurationCalculator](../../../app-store/dev_portal/API_reference/DurationCalculator/concept/c_DurationCalculatorAPI.md#) to calculate a due date. The first part of the script illustrates how to set a start datetime using the [setStartDateTime\(\)](../../../app-store/dev_portal/API_reference/DurationCalculator/concept/c_DurationCalculatorAPI.md#) method and then use the [calcDuration\(\)](../../../app-store/dev_portal/API_reference/DurationCalculator/concept/c_DurationCalculatorAPI.md#) method to determine a due date that is "x" amount of continuous time \(seconds\) from the specified start datetime. The second half of the script illustrates how to use DurationCalculator to calculate a due date based on a schedule. Schedules enable you to apply a "filter" on future time, such as only including the days in a work week within the calculation. For example, if you apply a schedule "weekdays" \(which only includes Monday through Friday\) to your duration calculation, and the start datetime is Friday at 5:00 pm, when you add a duration of two days, your due date would be Tuesday at 5:00 pm. If you did not use a schedule, your due date would be Sunday at 5:00 pm. For additional information on schedules, see [Creating and using schedules](https://www.servicenow.com/docs/access?context=c_UseSchedules&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+The following script demonstrates how to use the global API [DurationCalculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_DurationCalculatorAPI.md) to calculate a due date. The first part of the script illustrates how to set a start datetime using the [setStartDateTime\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_DurationCalculatorAPI.md) method and then use the [calcDuration\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_DurationCalculatorAPI.md) method to determine a due date that is "x" amount of continuous time \(seconds\) from the specified start datetime. The second half of the script illustrates how to use DurationCalculator to calculate a due date based on a schedule. Schedules enable you to apply a "filter" on future time, such as only including the days in a work week within the calculation. For example, if you apply a schedule "weekdays" \(which only includes Monday through Friday\) to your duration calculation, and the start datetime is Friday at 5:00 pm, when you add a duration of two days, your due date would be Tuesday at 5:00 pm. If you did not use a schedule, your due date would be Sunday at 5:00 pm. For additional information on schedules, see Creating and using schedules.
 
 This script can be cut and pasted into the Scripts Background page and run as is. It can also serve as an example for authoring business rules, UI actions, or used any other place that server-side script can be authored.
 
@@ -132,13 +133,13 @@ function addSchedule(durationCalculator){
 }
 ```
 
-**Parent Topic:**[Server-side scripting](c_ServerScripting.md)
+**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_ServerScripting.md)
 
 ## Using DurationCalculator to compute a simple duration
 
 A simple duration is the number of seconds between two date times.
 
-If no schedule is used then this is a simple time date subtraction. If a schedule is used, then the schedule is consulted to remove non-work hours from the computation. Suppose schedule "8-5 weekdays excluding holidays" is used. In this case, the number of work hours from noon Monday to noon Tuesday is nine hours. To compute a simple duration, initialize the global API DurationCalculator and call the [calcScheduleDuration\(\)](../../../app-store/dev_portal/API_reference/DurationCalculator/concept/c_DurationCalculatorAPI.md#) method.
+If no schedule is used then this is a simple time date subtraction. If a schedule is used, then the schedule is consulted to remove non-work hours from the computation. Suppose schedule "8-5 weekdays excluding holidays" is used. In this case, the number of work hours from noon Monday to noon Tuesday is nine hours. To compute a simple duration, initialize the global API DurationCalculator and call the [calcScheduleDuration\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_DurationCalculatorAPI.md) method.
 
 This script demonstrates how to use DurationCalculator to compute a simple duration.
 
@@ -211,7 +212,7 @@ Relative duration is very similar to simple duration except a piece of script is
 
 This script is stored in table cmn\_relative\_duration and can be examined by navigating to **System Scheduler** &gt; **Schedules** &gt; **Relative Durations**. There are some example relative duration scripts in the out-of-the-box instance.
 
-A relative duration sys\_id is passed to the method calcRelativeDuration\(\) of the global API [DurationCalculator](../../../app-store/dev_portal/API_reference/DurationCalculator/concept/c_DurationCalculatorAPI.md#) class after initialization. When this method is called, the DurationCalculator object is passed to the relative duration script \(stored in table cmn\_relative\_duration\) as the variable *calculator*. So, the relative duration script you write and store in cmn\_relative\_duration has access to the executing DurationCalculator through the variable *calculator*.
+A relative duration sys\_id is passed to the method calcRelativeDuration\(\) of the global API [DurationCalculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_DurationCalculatorAPI.md) class after initialization. When this method is called, the DurationCalculator object is passed to the relative duration script \(stored in table cmn\_relative\_duration\) as the variable *calculator*. So, the relative duration script you write and store in cmn\_relative\_duration has access to the executing DurationCalculator through the variable *calculator*.
 
 The following script demonstrates how to use DurationCalculator to calculate a relative duration.
 

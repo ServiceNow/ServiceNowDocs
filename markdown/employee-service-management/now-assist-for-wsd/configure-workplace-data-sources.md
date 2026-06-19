@@ -2,6 +2,7 @@
 title: Configure workplace data sources
 description: Configure multiple data sources to generate insights.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-wsd/configure-workplace-data-sources.html
 release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -107,13 +108,13 @@ Indicator
 
 </td><td>
 
-The **Indicator** field appears when **Indicator** is selected from the Source list. Select the lookup icon![](../../workplace-lease-administration/images/look-up-icon.png) and select the indicator for the data source.Specify the details for the following fields that appear when you select **Indicator** in the **Source** field.
+The **Indicator** field appears when **Indicator** is selected from the Source list. Select the lookup icon\[Omitted image "look-up-icon.png"\] Alt text: and select the indicator for the data source.Specify the details for the following fields that appear when you select **Indicator** in the **Source** field.
 
 -   **Time Period**
 -   **Step**
 -   **Breakdown**
 -   **Aggregator**
-For more information about the fields, see [Performance Analytics indicators](https://www.servicenow.com/docs/access?context=c_Indicators&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+For more information about the fields, see .
 
 **Note:** The PA admin role \(pa\_admin\) must be explicitly assigned to users for them to run historic indicator jobs and edit indicators.
 

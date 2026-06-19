@@ -2,6 +2,7 @@
 title: Use case: Regulatory compliance in a financial services solution
 description: A financial institution needs to ensure that its data is accessible only to the departments that have authorization for the indicated data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-domain-sep-use-case-solution.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -30,5 +31,5 @@ The financial institution must comply with regulations that require strict data 
 
 Compliance with legal and regulatory requirements is ensured, and sensitive data is protected from unauthorized access.
 
-**Parent Topic:**[Domain separation and Agent Client Collector](domain-separation-agent-client-collector.md)
+**Parent Topic:**[Domain separation and Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/domain-separation-agent-client-collector.md)
 

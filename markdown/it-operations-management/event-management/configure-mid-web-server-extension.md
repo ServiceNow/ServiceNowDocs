@@ -2,6 +2,7 @@
 title: Configure the MID Web Server extension
 description: The MID Web Server is a MID Server extension that enables developing REST APIs to send events and metrics to the MID Server. The extension is leveraged by other MID Server extensions, such as Metric Intelligence, MID WebService Event Listener, and the Agent Client Collector websocket endpoint extension.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/configure-mid-web-server-extension.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -26,9 +27,9 @@ Role required: agent\_admin.
 
 Agent Client Collector supports the following authentication strategies:
 
--   **Keybased**: For backwards \(pre-Zurich release\) compatibility only. See [Configure key-based MID Web Server authentication](configure-mid-web-server-extension-metric-data.md).
--   **API key**: See [Configure MID Web Server API key authentication](mid-web-server-api-key-authentication.md).
--   **mTLS**: See [MID Web Server and agent mTLS Authentication](../concept/mid-web-server-mTLS-authentication.md).
+-   **Keybased**: For backwards \(pre-Zurich release\) compatibility only. See [Configure key-based MID Web Server authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-mid-web-server-extension-metric-data.md).
+-   **API key**: See [Configure MID Web Server API key authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/mid-web-server-api-key-authentication.md).
+-   **mTLS**: See [MID Web Server and agent mTLS Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/mid-web-server-mTLS-authentication.md).
 
 ## Procedure
 
@@ -36,7 +37,7 @@ Agent Client Collector supports the following authentication strategies:
 
 2.  In the MID Web Server Contexts list, click **New**.
 
-3.  Fill in the values on the [Event Management MID Web Server extension form](../reference/configure-midwebserver-extension-form.md).
+3.  Fill in the values on the [Event Management MID Web Server extension form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-midwebserver-extension-form.md).
 
 4.  Click **Save** to save the data.
 

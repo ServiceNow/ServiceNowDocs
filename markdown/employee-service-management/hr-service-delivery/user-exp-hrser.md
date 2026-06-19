@@ -2,6 +2,7 @@
 title: User Experience for HR Service Delivery
 description: User Experience Analytics dashboard provides dashboard views for monitoring the key performance indicators \(KPIs\) of web applications built on the Employee Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/user-exp-hrser.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -83,5 +84,5 @@ See how employees use the progress of knowledge articles. Navigate to **User Exp
 
 See the analytics about usage, technical, geographic, events, retention, and more. Navigate to **User Experience Analytics &gt; Analytics** for more information. You can see the reports for various timelines such as daily, weekly, monthly.
 
-**Parent Topic:**[Integration of HR Service Delivery with ServiceNow applications](integrate-hr-platform-apps.md)
+**Parent Topic:**[Integration of HR Service Delivery with ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/integrate-hr-platform-apps.md)
 

@@ -2,6 +2,7 @@
 title: Enable account recovery \[Updated in Security Center 1.3 and 1.5\]
 description: The glide.sso.acr.enabled property controls the account recovery feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-account-recovery.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -23,13 +24,13 @@ Set **glide.sso.acr.enabled** to the recommended value of **true** to allow acco
 |---------|-----------|
 |Property name|**glide.sso.acr.enabled**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Authentication](sc-authentication.md)|
+|Category|[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)|
 |Purpose|Controls the account recovery by userid feature.|
 |Recommended value|True \(default\)|
 |Configuration type|Boolean|
 |Security risk|Critical \(Without this property enabled, users will not be allowed to recover their account by userid.|
 |Security risk rating|9.1|
-|References|See [Account recovery \(ACR\)](../../../integrate/single-sign-on/concept/sso-acct-recovery.md) for additional information.|
+|References|See [Account recovery \(ACR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/sso-acct-recovery.md) for additional information.|
 
-**Parent Topic:**[Authentication](sc-authentication.md)
+**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

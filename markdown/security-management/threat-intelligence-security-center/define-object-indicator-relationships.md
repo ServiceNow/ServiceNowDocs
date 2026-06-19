@@ -2,6 +2,7 @@
 title: Define object-indicator relationships
 description: Define relationships between the indicator object and other SDOs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/define-object-indicator-relationships.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -31,15 +32,15 @@ Role required: sn\_sec\_tisc.analyst
 
 5.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_uvs_2cc_nzb"><thead><tr><th align="left" id="d369617e98">
+<table id="choicetable_uvs_2cc_nzb"><thead><tr><th align="left" id="d139728e98">
 
 Field
 
-</th><th align="left" id="d369617e101">
+</th><th align="left" id="d139728e101">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d369617e107">
+</th></tr></thead><tbody><tr><td id="d139728e107">
 
 **Indicator**
 
@@ -47,7 +48,7 @@ Description
 
 Select and define the indicator.
 
-</td></tr><tr><td id="d369617e116">
+</td></tr><tr><td id="d139728e116">
 
 **Object**
 
@@ -55,7 +56,7 @@ Select and define the indicator.
 
 Select and define the object.
 
-</td></tr><tr><td id="d369617e125">
+</td></tr><tr><td id="d139728e125">
 
 **Relationship Type**
 
@@ -67,7 +68,7 @@ A description that provides more details and context about the relationship type
 -   Direct - This is the type of relationship between the object and observable.
 
 
-</td></tr><tr><td id="d369617e144">
+</td></tr><tr><td id="d139728e144">
 
 **Start Time**
 
@@ -75,7 +76,7 @@ A description that provides more details and context about the relationship type
 
 Specifies the time when the relationship is created.
 
-</td></tr><tr><td id="d369617e154">
+</td></tr><tr><td id="d139728e154">
 
 **Stop Time**
 
@@ -83,7 +84,7 @@ Specifies the time when the relationship is created.
 
 Specifies the time when the relationship is stopped or removed.
 
-</td></tr><tr><td id="d369617e163">
+</td></tr><tr><td id="d139728e163">
 
 **Description**
 
@@ -95,5 +96,5 @@ A brief description about the object relationships.
 </table>6.  Click **Submit**.
 
 
-**Parent Topic:**[Relationships Objects](../concept/relationship-objects.md)
+**Parent Topic:**[Relationships Objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/relationship-objects.md)
 

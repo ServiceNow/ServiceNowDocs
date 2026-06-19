@@ -2,7 +2,10 @@
 title: Zurich security and notable fixes
 description: The Zurich release contains important problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/zurich-security-notables.html
 release: zurich
+product: Release Notes
+classification: release-notes
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 109
@@ -17,7 +20,7 @@ The Zurich release contains important problem fixes.
     -   07-23-2025\_1759
     -   glide-zurich-07-01-2025\_\_patch0-07-15-2025
 
-**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](../upgrades/reference/upgrade.md).
+**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/upgrade.md).
 
 For more information about the release cycle, see the [ServiceNow Release Cycle](https://support.servicenow.com/kb_view.do?sysparm_article=KB0547244).
 
@@ -6288,7 +6291,7 @@ A warning message appears because changes to the incident record aren't saved de
 </td></tr></tbody>
 </table>## All Other Fixes
 
-To view a list of all other PRBs fixed in Zurich, refer to [All other Zurich fixes](zurich-all-other-fixes.md).
+To view a list of all other PRBs fixed in Zurich, refer to [All other Zurich fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-all-other-fixes.md).
 
-**Parent Topic:**[Available patches and hotfixes](../available-versions.md)
+**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/available-versions.md)
 

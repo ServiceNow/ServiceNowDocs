@@ -2,6 +2,7 @@
 title: Configure E-signature for approvals
 description: Approval with e-Signature plugin \(com.glide.e\_signature\_approvals\) enables users to approve requests by authenticating their login credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/esignature-for-approvals.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -23,7 +24,7 @@ Role required: Admin
 
 ## About this task
 
-On activation, the **Approval with e-signature** plugin adds a prompt for credentials when an approver attempts to approve a request from the list context menu. Enable E-signature approvals on a table-by-table basis. For detailed information on the plugin, see [Approval with e-signature](https://servicenow.com/docs/bundle/vancouver-servicenow-platform/page/administer/service-administration/concept/approval-with-e-signature.html).
+On activation, the **Approval with e-signature** plugin adds a prompt for credentials when an approver attempts to approve a request from the list context menu. Enable E-signature approvals on a table-by-table basis. For detailed information on the plugin, see Approval with e-signature.
 
 For the OOTB approvals:​
 
@@ -49,9 +50,9 @@ E-signature approvals provide security, compliance, and accountability by introd
 
 When you select a table \(sc\_request\) and enable the e-signature, the approvers can perform the approve or reject actions only after a successful user credential authentication. The approver authentication window redirects to the identity provider login screen for an SSO enabled instance.​
 
-![User credential authentication for approval](../images/esignature-authentication.png "Approver authentication")
+\[Omitted image "esignature-authentication.png"\] Alt text: User credential authentication for approval
 
 **Note:** When you do not upgrade to the latest employee center, you do not see the authentication window.
 
-For more information on approvals, see [Use approval experience](ec-to-dos-use-approval-hub.md).
+For more information on approvals, see [Use approval experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-to-dos-use-approval-hub.md).
 

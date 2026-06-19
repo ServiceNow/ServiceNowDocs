@@ -2,6 +2,7 @@
 title: Controlling maximum request size
 description: You can specify the maximum file size allowed in a scripted REST API request payload.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-api-explorer/r\_ControllingMaxRequestSize.html
 release: zurich
 product: REST API Explorer
 classification: rest-api-explorer
@@ -83,5 +84,5 @@ The maximum size, in megabytes, for a scripted REST request body, whether or not
  As a result, even if **glide.rest.scripted.max\_inbound\_content\_length\_mb** or **glide.rest.scripted.max\_inbound\_gzip\_content\_length\_mb** are set, the request body is limited to the value of **glide.rest.max\_content\_length**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a scripted REST API](../task/t_CreateAScriptedRESTService.md)
+</table>**Parent Topic:**[Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/t_CreateAScriptedRESTService.md)
 

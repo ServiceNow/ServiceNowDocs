@@ -2,6 +2,7 @@
 title: Consume consumable assets
 description: To consume consumable assets, they must have a state of In Stock and a substate of Available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/asset-management/t\_ConsumingConsumableAssets.html
 release: zurich
 product: Asset Management
 classification: asset-management
@@ -40,5 +41,5 @@ Role required: asset
     On the **Consumable** form, the **Quantity** field shows the reduced number. The Consumables list contains two records for the consumable in the specific stockroom: one with a state and substate of **In Stock** and **Available** \(if you did not consume the entire quantity\), and one with a state of **Consumed**. If a consumable is not in the process of being transferred to a different stockroom and information in the data record is the same, similar records merge automatically. After a consumable is consumed, the record remains in the system for reporting purposes.
 
 
-**Parent Topic:**[Consumables life cycle](../concept/c_FollowLifeCycleConsumbl.md)
+**Parent Topic:**[Consumables life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/c_FollowLifeCycleConsumbl.md)
 

@@ -2,6 +2,7 @@
 title: Microsoft Exchange Online - Calendar synchronization
 description: Synchronize reservations between Microsoft Exchange Online and Workplace Reservation Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-calendar-synchronization/ms-exchange-reservation-synchronization.html
 release: zurich
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -24,13 +25,13 @@ The Microsoft Graph API provides access to data stored across Microsoft 365 serv
 -   **MS Graph 1**
 -   **MS Graph 2**
 
-To install the Microsoft Exchange Online Spoke, refer to [Create a connection with Microsoft Exchange Online spoke](../task/create-connection-with-msspoke.md).
+To install the Microsoft Exchange Online Spoke, refer to [Create a connection with Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-calendar-synchronization/create-connection-with-msspoke.md).
 
 ## Subscriptions
 
 When you activate a reservable sync configuration to synchronize reservations with Microsoft Exchange Online, a subscription is created automatically. The application notifies if a subscription renewal fails. The notification is sent to the users with the Workplace Calendar Synchronization admin \[sn\_wsd\_rsvsync.admin\] role. Subscriptions are created only for active reservable sync configurations. A subscription notifies you about the changes to events on the room mailbox. For more information about subscriptions, refer to [https://learn.microsoft.com/en-us/graph/api/subscription-post-subscriptions?view=graph-rest-1.0&amp;tabs=http](https://learn.microsoft.com/en-us/graph/api/subscription-post-subscriptions?view=graph-rest-1.0&tabs=http).
 
-A webhook registry contains the subscription-related details to perform a call-back. To configure a webhook registry, refer to [Configure the webhook registry of Microsoft Exchange Online spoke](../task/configure-webhook-registry-for-msex.md).
+A webhook registry contains the subscription-related details to perform a call-back. To configure a webhook registry, refer to [Configure the webhook registry of Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-calendar-synchronization/configure-webhook-registry-for-msex.md).
 
 ## Synchronization from Workplace Service Delivery to Microsoft Exchange Online
 
@@ -38,8 +39,8 @@ To synchronize reservations made using the Workplace Reservation Management appl
 
 **Note:** By default, Microsoft Exchange Online Spoke provides you with the MS Graph 1 and MS Graph two credentials. If you do not want to use the default connection and credential alias provided by the application, you can create your own alias.
 
--   To configure a normal mode connection with Microsoft Exchange Online, refer to [Create a normal mode connection with Microsoft Exchange Online](../concept/create-connection-with-msex-in-normal-mode.md).
--   To configure a strict mode connection with Microsoft Exchange Online, refer to [Create a strict mode connection with Microsoft Exchange Online](../concept/strict-mode-configurations-for-connection-with-msex.md).
+-   To configure a normal mode connection with Microsoft Exchange Online, refer to [Create a normal mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-calendar-synchronization/create-connection-with-msex-in-normal-mode.md).
+-   To configure a strict mode connection with Microsoft Exchange Online, refer to [Create a strict mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-calendar-synchronization/strict-mode-configurations-for-connection-with-msex.md).
 
 ## Synchronization from Microsoft Exchange Online to Workplace Reservation Management
 
@@ -63,7 +64,7 @@ The Workplace Calendar Synchronization application enables you to sync reservati
 
 ## Multi-provider setup
 
-The Workplace Calendar Synchronization enables you to configure a multi-provider setup with Microsoft Exchange Online. That is, configure multiple connections and credentials with Microsoft Exchange Online. For more information on how to set up a multiprovider, refer to [Create single or multiple calendar providers with Microsoft Exchange Online](../task/create-multiple-connection-same-provider.md).
+The Workplace Calendar Synchronization enables you to configure a multi-provider setup with Microsoft Exchange Online. That is, configure multiple connections and credentials with Microsoft Exchange Online. For more information on how to set up a multiprovider, refer to [Create single or multiple calendar providers with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-calendar-synchronization/create-multiple-connection-same-provider.md).
 
 **Important:** Multi-provider is not supported or is not the same as Exchange hybrid configurations.
 
@@ -75,5 +76,5 @@ No request is a mechanism to validate the generated syntax of a payload of an ev
 
 Execute an Instance scan on your Workplace Calendar Synchronization configurations with Microsoft Exchange Online. The Instance Scan application diagnoses the configurations with the calendar provider by running a series of checks using suites.
 
-Refer to [Run Instance scan to check Microsoft Exchange Online synchronization configuration](../task/run-instance-scan-on-your-workplace-cal-sync-configs.md).
+Refer to [Run Instance scan to check Microsoft Exchange Online synchronization configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-calendar-synchronization/run-instance-scan-on-your-workplace-cal-sync-configs.md).
 

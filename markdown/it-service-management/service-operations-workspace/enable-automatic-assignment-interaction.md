@@ -2,6 +2,7 @@
 title: Enable automatic assignment of interactions to an agent
 description: Automatically accept chat conversations for an agent without having to accept or reject them in the inbox.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/enable-automatic-assignment-interaction.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  Select the Chat - Most Capacity assignment rule.
 
-    For information about AWA assignment rules, see [Configure agent assignment rules](https://www.servicenow.com/docs/access?context=awa-create-assignment-rule&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+    For information about AWA assignment rules, see Configure agent assignment rules.
 
 3.  In the Auto-assign handling related list, perform the following tasks.
 
@@ -38,5 +39,5 @@ Role required: admin
 4.  Click **Update**.
 
 
-**Parent Topic:**[Configure the inbox in Service Operations Workspace](configure-inbox-in-sow.md)
+**Parent Topic:**[Configure the inbox in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/configure-inbox-in-sow.md)
 

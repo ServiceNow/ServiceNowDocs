@@ -2,6 +2,7 @@
 title: Configure smart assessment templates for impact assessments
 description: Create privacy assessment templates using the Smart Assessment Engine as a base for sending privacy impact assessments and using them to detect the privacy risks and mitigate those risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/configure-smart-assessment-template-for-impact-assessment.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -137,5 +138,5 @@ Domain of the configuration. When accessed from the Privacy Workspace, this fiel
     For example, for the Personal data section, you can add Data elements, Data subject types, Hierarchy, and Legal basis. The details in the **Guidance** field of the subsections appear during the assessment to help the responder understand the questions in the assessment.
 
 
-**Parent Topic:**[Configuring Privacy Management](../concept/configure-privacy-mgmt.md)
+**Parent Topic:**[Configuring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/configure-privacy-mgmt.md)
 

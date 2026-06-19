@@ -2,6 +2,7 @@
 title: Install Tag Governance
 description: Install the Tag Governance app to execute tag audits, view the Tag Data Governance dashboard, and perform tag remediation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/tag-governance/install-tag-governance.html
 release: zurich
 product: Tag Governance
 classification: tag-governance
@@ -31,5 +32,5 @@ Role required: sn\_itom\_tag.tag\_governance\_admin, admin
 
 ## What to do next
 
-Configure Tag Governance policies to run on discovered resources. See [Configure a tag policy for Tag Governance](configure-tag-governance-policy.md).
+Configure Tag Governance policies to run on discovered resources. See [Configure a tag policy for Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/tag-governance/configure-tag-governance-policy.md).
 

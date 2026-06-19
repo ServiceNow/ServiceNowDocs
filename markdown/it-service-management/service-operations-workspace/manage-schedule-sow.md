@@ -2,6 +2,7 @@
 title: Manage your schedule using the Service Operations Workspace
 description: Look up your schedule, create an event of custom event type, request time off for an on-call or work shift, or swap your shift with your peers using the calendar in Service Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/manage-schedule-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -35,7 +36,7 @@ You can:
 
 **Note:**
 
--   If the agent's calendar in Workforce Optimization for ITSM is integrated with their Microsoft Outlook calendar, they can view their shifts, schedules, and events such as meetings, trainings, and time-off in your Microsoft Outlook calendar. For more information, see [Synchronize agent calendar in Workforce Optimization for ITSM with the Microsoft Outlook calendar](../../configurable-workforce-optimization-itsm/concept/synchronize-microsoft-outlook-wfo-itsm.md).
+-   If the agent's calendar in Workforce Optimization for ITSM is integrated with their Microsoft Outlook calendar, they can view their shifts, schedules, and events such as meetings, trainings, and time-off in your Microsoft Outlook calendar. For more information, see [Synchronize agent calendar in Workforce Optimization for ITSM with the Microsoft Outlook calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/synchronize-microsoft-outlook-wfo-itsm.md).
 -   When you create an event of types meeting or training, the logged-in user will always be part of the attendees list and cannot be removed.
 
 ## Procedure
@@ -46,7 +47,7 @@ You can:
 
     Access the schedule:
 
-    -   View your schedule by clicking the **My Calendar** tab. Then, use the list ![List icon](../../itsm-manager-workspace/image/lists_icon.png) to select the schedule that you want to view by day, week, or month.
+    -   View your schedule by clicking the **My Calendar** tab. Then, use the list \[Omitted image "lists\_icon.png"\] Alt text: List icon to select the schedule that you want to view by day, week, or month.
     -   View another agent's schedule by clicking the **Team Calendar** tab. Then, click an agent's schedule to see that agent's work and break times.
     **Note:** You can view the schedule for the primary assignment group and the on-call group you’re part of.
 
@@ -57,7 +58,7 @@ You can:
     1.  Click **New** and select the name of the custom event type.
     2.  In the custom event type form, fill in the fields as required.
     3.  Click **Save**.
-    To edit the event, select the event, and then the edit icon \(![Edit icon](../../configurable-workforce-optimization-itsm/image/edit-icon.png)\) to make the necessary changes and save the event. To delete it, select the delete icon.
+    To edit the event, select the event, and then the edit icon \(\[Omitted image "edit-icon.png"\] Alt text: Edit icon\) to make the necessary changes and save the event. To delete it, select the delete icon.
 
 4.  Make a request.
 
@@ -114,7 +115,7 @@ Create a new time-off request or select a work shift for which you want to take 
 4.  Click **Save**.
 To create a request from a work shift:
 
-1.  Select the work shift in the calendar for which you want to take time off and click the Request Time-off icon \( ![Request time-off icon](../../itsm-workspace/image/time-off-calendar-icon.png)\).
+1.  Select the work shift in the calendar for which you want to take time off and click the Request Time-off icon \( \[Omitted image "time-off-calendar-icon.png"\] Alt text: Request time-off icon\).
 
 The start date and time and the end date and time are automatically populated.
 
@@ -123,7 +124,7 @@ The start date and time and the end date and time are automatically populated.
 4.  Click **Save**.
 **Note:**
 
--   To edit a work shift, select the shift span for which you want to edit the break time, select the edit icon \(![Edit icon](../../configurable-workforce-optimization-itsm/image/edit-icon.png)\) in the work shift, edit the desired break times and click **Save**.
+-   To edit a work shift, select the shift span for which you want to edit the break time, select the edit icon \(\[Omitted image "edit-icon.png"\] Alt text: Edit icon\) in the work shift, edit the desired break times and click **Save**.
 -   If you edit your time-off request after you submit it, the request changes to **Requested** state.
 
 
@@ -133,7 +134,7 @@ Request time off for an on-call shift
 
 </td><td>
 
-Create a new on-call time-off request or select an on-call shift for which you want to take time off.**Note:** The PTO approval preferences for each on-call group are set by your administrator. For more information, see [Configure preferences for a user group](../../../administer/on-call-scheduling/task/config-group-prefs-oncall.md).The **com.snc.on\_call\_rotation.pto.approval.required** property must be set `true`. For more information, see [System properties for On-Call Scheduling](../../../administer/on-call-scheduling/reference/on-call-properties.md).
+Create a new on-call time-off request or select an on-call shift for which you want to take time off.**Note:** The PTO approval preferences for each on-call group are set by your administrator. For more information, see [Configure preferences for a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/config-group-prefs-oncall.md).The **com.snc.on\_call\_rotation.pto.approval.required** property must be set `true`. For more information, see [System properties for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/on-call-properties.md).
 
  To create a new request:
 
@@ -146,7 +147,7 @@ Create a new on-call time-off request or select an on-call shift for which you w
  To create a request from an on-call shift:
 
  1.  Select an on-call work shift in the calendar for which you want to take time off.
-2.  Click the Request Time-off icon \( ![Request time-off icon](../../itsm-workspace/image/time-off-calendar-icon.png)\).
+2.  Click the Request Time-off icon \( \[Omitted image "time-off-calendar-icon.png"\] Alt text: Request time-off icon\).
 
 The start date and time, the end date and time, and the group are automatically populated.
 
@@ -156,10 +157,10 @@ The start date and time, the end date and time, and the group are automatically 
 
 
 </td></tr></tbody>
-</table>    The shift-swap request moves to the approval queue of the agent that you’ve requested to swap with. For more information, see [Approve or reject a shift swap](approve-reject-shift-swaps-sow.md)
+</table>    The shift-swap request moves to the approval queue of the agent that you’ve requested to swap with. For more information, see [Approve or reject a shift swap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/approve-reject-shift-swaps-sow.md)
 
-    The time-off request moves to your manager's approval queue. For more information about approvals, go to [Track and manage your teams' schedule](../../configurable-workforce-optimization-itsm/task/approve-time-off-shift-swaps-wfo-itsm.md)
+    The time-off request moves to your manager's approval queue. For more information about approvals, go to [Track and manage your teams' schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/approve-time-off-shift-swaps-wfo-itsm.md)
 
 
-**Parent Topic:**[Service Operations Workspace - Scheduling](../concept/itsm-sow-workspace-scheduling.md)
+**Parent Topic:**[Service Operations Workspace - Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/itsm-sow-workspace-scheduling.md)
 

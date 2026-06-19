@@ -2,11 +2,12 @@
 title: Sync quote and opportunity
 description: Sync quote information from the quote record to an opportunity record. This keeps the quote data consistent and accurate across both the records and enables sales agents to track revenue from opportunities accurately.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/synchronise\_quote\_and\_opportunity.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 3
 breadcrumb: [Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
@@ -19,15 +20,15 @@ Sync quote information from the quote record to an opportunity record. This keep
 
 As a sales agent, you can establish the sync between quote and opportunity records and ensure that a defined set of fields between opportunity-quote and opportunity line items-quote line items remain synchronized.
 
-When a quote is created through an opportunity, the **Source Opportunity** field on the quote record is automatically populated with the details of the opportunity through which the quote is created. To create a quote through an opportunity, see [Create a quote](../task/create-new-quote.md).
+When a quote is created through an opportunity, the **Source Opportunity** field on the quote record is automatically populated with the details of the opportunity through which the quote is created. To create a quote through an opportunity, see [Create a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-new-quote.md).
 
-When a quote is created with child line items, the revenue metrics and prices for the quote are automatically calculated. To learn more about the revenue metrics and how they’re calculated, see [Subscription revenue metrics](som-subscription-pricing.md).
+When a quote is created with child line items, the revenue metrics and prices for the quote are automatically calculated. To learn more about the revenue metrics and how they’re calculated, see [Subscription revenue metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-subscription-pricing.md).
 
 When the quote record is synchronized with the opportunity record, the prices and revenue metrics are also synced and are consistent across both forms.
 
 The **Synced** banner on the **Details** tab on the opportunity record displays whether the quote is in sync with its opportunity. To automatically sync the first quote with its source opportunity, set the autoEnableSyncFirstQuote system property to **true**.
 
-To learn more about establishing a sync between quote and opportunity and automatically enable sync, see [Sync a quote with an opportunity](../task/som-sync-quote-with-opportunity.md).
+To learn more about establishing a sync between quote and opportunity and automatically enable sync, see [Sync a quote with an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-sync-quote-with-opportunity.md).
 
 You can create a new version of a quote from a quote record to establish a sync between the new revised quote with the initial opportunity.
 
@@ -41,7 +42,7 @@ On the quote record, mark the **State** as **Accepted** or **Completed** to move
 
 As a sales agent, you can only edit and make changes on the fields on an opportunity record that aren’t in sync with a quote.
 
-The following is a list of default field mappings between opportunity line items with quote line items and opportunity header with quote header fields. To learn more about the fields and their descriptions, see [Subscription revenue metrics](som-subscription-pricing.md).
+The following is a list of default field mappings between opportunity line items with quote line items and opportunity header with quote header fields. To learn more about the fields and their descriptions, see [Subscription revenue metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-subscription-pricing.md).
 
 |Opportunity header|Quote header|
 |------------------|------------|
@@ -71,5 +72,5 @@ The following is a list of default field mappings between opportunity line items
 
 **Note:** When an opportunity and quote header, and an opportunity line item and quote line item are in sync with each other, the addition and deletion of line items on the opportunity record is disabled. All the synced fields on the opportunity and opportunity line item record becomes read only.
 
-**Parent Topic:**[Using Opportunity Management](opportunity-mgmt-using.md)
+**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-mgmt-using.md)
 

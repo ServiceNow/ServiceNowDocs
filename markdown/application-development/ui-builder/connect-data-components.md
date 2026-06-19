@@ -2,6 +2,7 @@
 title: Connect data components
 description: Use the data binding modal to associate data exposed by local data resources to components on your UI Builder page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/connect-data-components.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -17,7 +18,7 @@ Use the data binding modal to associate data exposed by local data resources to 
 
 ## Data binding modal
 
-![Data binding modal with options highlighted.](../image/bind-data-modal.png)
+\[Omitted image "bind-data-modal.png"\] Alt text: Data binding modal with options highlighted.
 
 |Option|Description|
 |------|-----------|
@@ -38,22 +39,22 @@ There are two methods you can use for binding data: drag and drop, and editing J
 
 Use this method if you want to use a visual process.
 
-![Data binding modal with black arrow pointing to pill view.](../image/bind-dot-walk.png)
+\[Omitted image "bind-dot-walk.png"\] Alt text: Data binding modal with black arrow pointing to pill view.
 
 Use the search bar to find the data you would like to bind to your component.
 
-![Data binding modal displaying search results for 'user'.](../image/bind-search.png)
+\[Omitted image "bind-search.png"\] Alt text: Data binding modal displaying search results for 'user'.
 
 ## Binding data by editing JSON
 
 Use this method if you are comfortable working in and editing JSON code.
 
-![Data binding modal with black arrow pointing to JSON option.](../image/bind-json.png)
+\[Omitted image "bind-json.png"\] Alt text: Data binding modal with black arrow pointing to JSON option.
 
--   **[Connect data to your components](../task/connect-data.md)**  
+-   **[Connect data to your components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/connect-data.md)**  
 Bind data exposed by local data resources to components on your UI Builder page.
--   **[Connect data to your components with formulas](../task/connect-data-formulas.md)**  
+-   **[Connect data to your components with formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/connect-data-formulas.md)**  
 Bind data exposed by local data resources to components with formulas on your UI Builder page.
 
-**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](data-resources.md)
+**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/data-resources.md)
 

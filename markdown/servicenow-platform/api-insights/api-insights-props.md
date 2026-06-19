@@ -2,6 +2,7 @@
 title: API Insights properties
 description: API Insights properties control the behavior of the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/api-insights/api-insights-props.html
 release: zurich
 product: API Insights
 classification: api-insights
@@ -160,5 +161,5 @@ Set the property to `true` to enable showing the Metric Base widgets on the API 
 -   Location: System Property \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[API Insights reference](../concept/api-insights-reference.md)
+</table>**Parent Topic:**[API Insights reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/api-insights/api-insights-reference.md)
 

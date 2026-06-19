@@ -2,6 +2,7 @@
 title: Log in to your ServiceNow instance for authoring knowledge articles in Microsoft Word
 description: Author and collaborate on knowledge articles in Microsoft Word by logging in to your ServiceNow instance from the Word Online application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/authenticate-article-word.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -19,7 +20,7 @@ Author and collaborate on knowledge articles in Microsoft Word by logging in to 
 
 You must have contribute access to the knowledge base within which you want to create the knowledge article.
 
-The system administrator and Office 365 administrator have configured the Knowledge Management - Add-in for Microsoft Word. \(For more information, see [Configure Knowledge Management - Add-in for Microsoft Word](configure-km-add-in-word.md).\)
+The system administrator and Office 365 administrator have configured the Knowledge Management - Add-in for Microsoft Word. \(For more information, see [Configure Knowledge Management - Add-in for Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/configure-km-add-in-word.md).\)
 
 ## About this task
 
@@ -35,7 +36,7 @@ You need to authenticate with your ServiceNow instance credentials for accessing
 
 3.  In the New section, click **New blank document**, or open any existing Microsoft Word document.
 
-4.  On the Home tab, click the Knowledge icon \(![Knowledge icon](../image/word-addin.png)\).
+4.  On the Home tab, click the Knowledge icon \(\[Omitted image "word-addin.png"\] Alt text: Knowledge icon\).
 
 5.  In the Knowledge Management pane of the Word document, click **Log in to ServiceNow**.
 

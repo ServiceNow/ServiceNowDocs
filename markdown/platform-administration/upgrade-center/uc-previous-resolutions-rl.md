@@ -2,6 +2,7 @@
 title: Previous Resolutions related list
 description: The Previous Resolutions related list shows the history of the selected skipped record. You can see what resolutions have been done with the selected skipped record in the previous upgrades.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/upgrade-center/uc-previous-resolutions-rl.html
 release: zurich
 product: Upgrade Center
 classification: upgrade-center

@@ -2,6 +2,7 @@
 title: Components installed with Legal Invention Disclosure
 description: Several types of components are installed with activation of the Legal Invention Disclosure plugin, including tables and user role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-invention-disclosure/components-installed-with-legal-idf.html
 release: zurich
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
@@ -64,5 +65,5 @@ Fulfiller access for working on assigned requests and matters.
 |Patent Reward Caps \[sn\_lg\_ip\_patent\_reward\_caps\]|Contains the details of the maximum amount to be rewarded to inventora for individual stages of the application process.|
 |Stage Rewards \[sn\_lg\_ip\_stage\_rewards\]|Contains the details of the amounts of rewards for individual stages of the application process for each country.|
 
-**Parent Topic:**[Legal Invention Disclosure reference](../concept/legal-invention-disclosure-reference.md)
+**Parent Topic:**[Legal Invention Disclosure reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-invention-disclosure/legal-invention-disclosure-reference.md)
 

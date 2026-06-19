@@ -2,7 +2,10 @@
 title: Engagement Messenger module theme requirements
 description: You can set a theme that you can apply to an Engagement Messenger module. A theme enables you to define additional styling of Engagement Messenger in your website.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/engagement-messenger-theme-requirements.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ You can set a theme that you can apply to an Engagement Messenger module. A them
 
 You can select the theme for your Engagement Messenger in the Appearance section of the guided configuration.
 
-![Appearance section of the Engagement Messenger guided configuration. Use the Theme field to set the style of Engagement Messenger.](../image/em-appearance-tab.png "Engagement Messenger theme")
+\[Omitted image "em-appearance-tab.png"\] Alt text: Appearance section of the Engagement Messenger guided configuration. Use the Theme field to set the style of Engagement Messenger.
 
 A theme that you want to use for your messenger module must meet the following criteria:
 

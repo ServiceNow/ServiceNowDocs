@@ -2,7 +2,10 @@
 title: View cases in Draft state on the portal
 description: Customers can view a list of cases in the Draft state from the Customer and Consumer Service Portals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/playbook-for-portals-my-draft-cases-list.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -28,7 +31,7 @@ The Draft state for the base case is shipped as inactive by default. Customers c
 4.  Clear the **Inactive** check box.
 5.  Select **Update**.
 
-For more information, see [Choice list field type](https://www.servicenow.com/docs/access?context=c_ChoiceLists&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For more information, see Choice list field type.
 
 ## Case draft state values system property
 

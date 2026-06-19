@@ -2,6 +2,7 @@
 title: Variables.\[Table\] data type
 description: Store a reference to a specific table of Glide variables such as a decision input variable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/variables-data-type.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -35,7 +36,7 @@ Store a reference to a specific table of Glide variables such as a decision inpu
 
 This example logs a decision input variable. Create an action with a single input of type variable. Select the Decision Input \[sys\_decision\_input\] table as the source of the variable.
 
-![input variable of type variable where the source table is Decision Input](../images/example-variable-sys_decision_input.png "Example action input with variable data type")
+\[Omitted image "example-variable-sys\_decision\_input.png"\] Alt text: input variable of type variable where the source table is Decision Input
 
 Add a log step to store the results of your variable selection. Test the action to see a choice list of available decision inputs. Select a decision input type to see its variables. For example, select the Callback Topic Policy to display three variables.
 
@@ -43,9 +44,9 @@ Add a log step to store the results of your variable selection. Test the action 
 -   channel\_id
 -   provider\_application\_id
 
-![Variables for the Callback Topic Policy decision input](../images/example-test-variable-sys_decision_input.png "Example variables for the Callback Topic Policy decision input")
+\[Omitted image "example-test-variable-sys\_decision\_input.png"\] Alt text: Variables for the Callback Topic Policy decision input
 
 Each decision input that you select displays a different set of variables.
 
-**Parent Topic:**[Workflow Studio input and output data variables](action-inputs-outputs.md)
+**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/action-inputs-outputs.md)
 

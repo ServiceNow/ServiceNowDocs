@@ -2,6 +2,7 @@
 title: Interview Management
 description: The Interview management application simplifies and optimizes the interview process through structured workflows, flexible scheduling options, automated reminders, and streamlined feedback collection, enabling faster and more collaborative hiring.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/interview-management/interview-management-landing.html
 release: zurich
 product: Interview Management
 classification: interview-management
@@ -19,24 +20,24 @@ The Interview management application simplifies and optimizes the interview proc
 
 <table id="table_mlp_lsc_1gc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Interview management](exploring-interview-management.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Interview management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/interview-management/exploring-interview-management.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Install and configure the Interview management application](configuring-interview-management.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and configure the Interview management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/interview-management/configuring-interview-management.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-1-1-meetings.svg)Learn how to use Interview management](using-interview-mgmnt.md)
+[Use\[Omitted image "bus-1-1-meetings.svg"\] Alt text:Learn how to use Interview management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/interview-management/using-interview-mgmnt.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Important reference information about Interview management](interview-management-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Important reference information about Interview management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/interview-management/interview-management-reference.md)
 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [Now Assist for HR Service Delivery \(HRSD\) release notes](https://www.servicenow.com/docs/access?context=hr-na-rn&version=zurich&pubname=zurich-release-notes&ft:locale=en-US).
+-   Learn more about what's new and changed, see the .
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

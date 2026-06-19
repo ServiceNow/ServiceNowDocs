@@ -2,11 +2,12 @@
 title: Aggregate API
 description: The Aggregate API provides endpoints that allow you to compute aggregate statistics about existing table and column data.Retrieves records for the specified table and performs aggregate functions on the returned values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-apis/c\_AggregateAPI.html
 release: zurich
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-04-21"
 reading_time_minutes: 5
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -15,9 +16,9 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Aggregate API provides endpoints that allow you to compute aggregate statistics about existing table and column data.
 
-For Aggregate API requests, you must have read access for all records in the table you query. If an ACL prevents the requesting user from accessing any record in the table, the request returns a 403 Forbidden error.
+This API uses [GlideAggregate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md) calls and only honors read-only queries if read access is defined for the table being called on based on role ownership.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/api-rest.md)
 
 ## Aggregate - GET /now/stats/\{tableName\}
 
@@ -36,7 +37,7 @@ Versioned URL: `/api/now/{api_version}/stats/{tableName}`
 
 Default URL: `/api/now/stats/{tableName}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -158,7 +159,7 @@ Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -183,12 +184,13 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
 |200|Successful. The request was successfully processed.|
 |401|Unauthorized. The user credentials are incorrect or have not been passed.|
+|403|Forbidden. The user doesn't have access rights to the specified record.|
 |500|Internal server error. An unexpected error occurred while processing the request. The response contains additional information about the error.|
 
 ### Response body parameters \(JSON or XML\)

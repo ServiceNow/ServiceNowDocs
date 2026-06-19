@@ -2,6 +2,7 @@
 title: Properties installed with Lead-to-Cash Process Management
 description: Properties for Lead-to-Cash Process Management node map visualization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/properties-installed-lead-cash-process-management.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -36,7 +37,7 @@ sn\_l2c\_cockpit.node\_default\_levels
 -   Type: integer
 -   Default value: 3
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Customize hierarchical node map levels for Lead-to-Cash Process Management](../task/customize-node-map-levels.md)
+-   Learn more: [Customize hierarchical node map levels for Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/customize-node-map-levels.md)
 
 </td></tr><tr><td>
 
@@ -49,5 +50,5 @@ glide.ui.sn\_l2c\_cockpit\_sales\_process\_record\_activity.fields
 -   Location: System Property \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Lead-to-Cash Process Management reference](lead-cash-process-management-reference.md)
+</table>**Parent Topic:**[Lead-to-Cash Process Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/lead-cash-process-management-reference.md)
 

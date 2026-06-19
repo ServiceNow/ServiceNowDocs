@@ -2,6 +2,7 @@
 title: Implement a scan timeout threshold
 description: Set the execution time of a single scan by implementing Transaction Quota Rules. Setting of a quota rule prevents your instance from running a long scan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/instance-scan/hs-full-scan-quota-rule.html
 release: zurich
 product: Instance Scan
 classification: instance-scan
@@ -29,6 +30,6 @@ Role required: admin
 
     **Note:** The minimum allowed timeout threshold is 5 seconds. If you set the timeout to anything less than 5 seconds, the system still considers it to be 5 seconds. By default, it has been set to 10,800 seconds.
 
-    The scan fails if the execution time exceeds the set timeout. For more information on the type of scan you want to run, see [Configuring Instance Scan](../concept/hs-intro-scans.md) .
+    The scan fails if the execution time exceeds the set timeout. For more information on the type of scan you want to run, see [Configuring Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/instance-scan/hs-intro-scans.md) .
 
 

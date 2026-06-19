@@ -2,6 +2,7 @@
 title: Create a role to access insurance policy tables
 description: Create a role to enable an authorized agent to access tables that extend the Insurance Policy \(sn\_bom\_ins\_policy\) table by using the Insurance claims application. By creating a role, you ensure that only authorized agents can view the policies that are relevant to their roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/create-roles-acls-and-grant-access.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims
@@ -17,7 +18,7 @@ Create a role to enable an authorized agent to access tables that extend the Ins
 
 ## Before you begin
 
-Create a table that extends the Insurance Policy \(sn\_bom\_ins\_policy\) table for a particular type of policy. For more information, see [Create an insurance policy table](create-an-insurance-policy-table.md).
+Create a table that extends the Insurance Policy \(sn\_bom\_ins\_policy\) table for a particular type of policy. For more information, see [Create an insurance policy table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/create-an-insurance-policy-table.md).
 
 Role required: admin
 
@@ -42,7 +43,7 @@ Role required: admin
 
 ## What to do next
 
-Create an access control list \(ACL\) to define which roles can access an insurance policy table. For more information, see [Create an access control list for an insurance policy table](create-an-access-control-list-for-the-insurance-policy-table.md).
+Create an access control list \(ACL\) to define which roles can access an insurance policy table. For more information, see [Create an access control list for an insurance policy table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/create-an-access-control-list-for-the-insurance-policy-table.md).
 
-**Parent Topic:**[Setting up an insurance policy for Insurance claims](../concept/set-up-an-insurance-policy.md)
+**Parent Topic:**[Setting up an insurance policy for Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/set-up-an-insurance-policy.md)
 

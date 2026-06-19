@@ -2,6 +2,7 @@
 title: Create a scripted web service using a static WSDL
 description: To use a static WSDL, create a scripted web service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/t\_CreateStaticWSDLScriptWebService.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -32,8 +33,8 @@ Role required: web\_service\_admin or admin
 5.  Click **Submit**.
 
 
--   **[Scripted web service example](../reference/r_StaticWSDLScriptedWebService.md)**  
+-   **[Scripted web service example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/r_StaticWSDLScriptedWebService.md)**  
 This example demonstrates the processing script for the FakeStockValue web service.
 
-**Parent Topic:**[Create a scripted SOAP web service using a static WSDL](../reference/createSOAPwebserviceStaticWSDL.md)
+**Parent Topic:**[Create a scripted SOAP web service using a static WSDL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/createSOAPwebserviceStaticWSDL.md)
 

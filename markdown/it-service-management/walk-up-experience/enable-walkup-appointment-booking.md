@@ -2,6 +2,7 @@
 title: Enable Walk-up Experience appointment booking
 description: Enable or disable the appointment booking feature for Walk-up Experience as well as for the individual walk-up service locations available to requesters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/walk-up-experience/enable-walkup-appointment-booking.html
 release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -46,5 +47,5 @@ When appointment booking is enabled, the **Schedule an appointment** tab appears
 6.  Select **Update**.
 
 
-**Parent Topic:**[Walk-up Experience appointment booking administration](../concept/walkup-appointment-administration.md)
+**Parent Topic:**[Walk-up Experience appointment booking administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walkup-appointment-administration.md)
 

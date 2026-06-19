@@ -2,6 +2,7 @@
 title: Decrease sensitivity to similar anomalies in Health Log Analytics
 description: Make anomaly detection less sensitive to anomalies like the one that triggered the current Log Analytics alert.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-alert-raise-feedback-sow.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -29,7 +30,7 @@ Selecting the Raise feedback option raises the threshold for generating alerts w
 
 1.  In the Service Operations Workspace, open a Log Analytics alert and then select **Apply ML feedback** &gt; **Raise**.
 
-    ![Raise feedback option.](../image/hla-raise-feedback.png)
+    \[Omitted image "hla-raise-feedback.png"\] Alt text: Raise feedback option.
 
 2.  Confirm the action in the dialog box.
 
@@ -42,5 +43,5 @@ Selecting the Raise feedback option raises the threshold for generating alerts w
     2.  Confirm the action in the dialog box.
 
 
-**Parent Topic:**[Assigning higher or lower significance to an alert in Health Log Analytics](../../service-operations-workspace-itom/concept/hla-op-alert-significance-sow-itom.md)
+**Parent Topic:**[Assigning higher or lower significance to an alert in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-alert-significance-sow-itom.md)
 

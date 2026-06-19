@@ -2,6 +2,7 @@
 title: Attribute Mapping references
 description: The attribute mappings enables you to use the attributes as a single source of resource to the ServiceNow table fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/attribute-mapping-references.html
 release: zurich
 product: Identity
 classification: identity
@@ -19,7 +20,7 @@ The attribute mappings enables you to use the attributes as a single source of r
 
 The attribute for which mapping needs to be defined. For example, **userName**.
 
-![Attribute - userName](../images/attribute-username.png)
+\[Omitted image "attribute-username.png"\] Alt text: Attribute - userName
 
 ## Sub-Attribute
 
@@ -29,7 +30,7 @@ For example, if there is a complex type attribute like **name.familyName**, then
 
 For simple attributes like user name, the **Sub-Attribute** value would be **None**.
 
-![Attribute Name and Sub-Attribute Family Name](../images/attribute-name.png)
+\[Omitted image "attribute-name.png"\] Alt text: Attribute Name and Sub-Attribute Family Name
 
 ## Filter Condition
 
@@ -39,11 +40,11 @@ For example, the **phoneNumbers** attribute has multiple types like work, mobile
 
 You can specify a Filter Condition from a set of possible values. For example, the **phoneNumber** attribute can have the Filter Condition as **type eq "mobile"**.
 
-![Attribute Phone Number with Filter Condition Mobile](../images/attribute-phonenumber-mobile.png)
+\[Omitted image "attribute-phonenumber-mobile.png"\] Alt text: Attribute Phone Number with Filter Condition Mobile
 
 The **phoneNumber** attribute can instead have a Filter Condition as **type eq "work"**.
 
-![Attribute Phone Number with Filter Condition Work](../images/attribute-phonenumber-work.png)
+\[Omitted image "attribute-phonenumber-work.png"\] Alt text: Attribute Phone Number with Filter Condition Work
 
 ## Database Field Name
 
@@ -51,15 +52,15 @@ If the direct attribute mapping option is chosen, then this attribute needs to b
 
 For example, the **username** SCIM Attribute can be mapped to a user as the **Database Table Name** field, and to the user ID field as the **Database Field Name** field.
 
-![Database Field Name](../images/attribute-databasename.png)
+\[Omitted image "attribute-databasename.png"\] Alt text: Database Field Name
 
 You can also dot-walk using the **Database Field Name**. For example, the **department** SCIM Attribute can be mapped to the **Department Name** field.
 
-![Attribute - Dot walk](../images/attribute-dot-mapping.png)
+\[Omitted image "attribute-dot-mapping.png"\] Alt text: Attribute - Dot walk
 
 Here the Database Table is **User** and the Database field Name is **Department Name**.
 
-![Attribute - Department Name](../images/attribute-departmentname.png)
+\[Omitted image "attribute-departmentname.png"\] Alt text: Attribute - Department Name
 
 ## Default Value
 
@@ -69,7 +70,7 @@ In the case of a hard-coded value, the database table name and field name should
 
 For example, the primary sub-attribute value of work email can be hard coded as **true**.
 
-![Attribute Default Value](../images/attribute-default-value.png)
+\[Omitted image "attribute-default-value.png"\] Alt text: Attribute Default Value
 
 ## Script
 
@@ -77,13 +78,13 @@ The script is used to fetch the attribute value. The return type of the script s
 
 The following is a sample script for a multi-valued attribute.
 
-![Attribute Script](../images/attribute-script.png)
+\[Omitted image "attribute-script.png"\] Alt text: Attribute Script
 
 The output of the script should have a stringified JSON Array.
 
 The following is a sample Script of a simple-valued Attribute.
 
-![Attribute Employee Number - Run script](../images/attribute-employeenumberscript.png)
+\[Omitted image "attribute-employeenumberscript.png"\] Alt text: Attribute Employee Number - Run script
 
 The output of the script should be a string.
 

@@ -2,6 +2,7 @@
 title: Generate synthetic data
 description: Create synthetic data with a sample dataset and a prompt through generative AI by using the Now Assist Data Kit application. You can use synthetic data to create training for a test model or an evaluation dataset.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-data-kit/na-data-kit-generate-data.html
 release: zurich
 product: Now Assist Data Kit
 classification: now-assist-data-kit
@@ -49,7 +50,7 @@ Role required: sn\_data\_kit.admin
     |Catalog item|Service Catalog is a user-friendly interface that allows end-users to browse, request, and manage services and products offered by the organization, streamlining self-service and improving operational efficiency.|
     |Incident data|Information Technology Service Management is a business function that involves managing IT services and processes to meet business needs effectively.|
 
-    ![Define data screen.](../image/nadk-data-template.png)
+    \[Omitted image "nadk-data-template.png"\] Alt text: Define data screen.
 
 8.  Select the language for the data generation.
 
@@ -62,11 +63,11 @@ Role required: sn\_data\_kit.admin
     |Category|Data that has been categorized with keywords.|
     |Count|Number of records to generate.|
 
-    **Note:** If you have sample data available, you can navigate to [Select the sample data](select-sample-data.md) to enhance the accuracy of the generated data. If you don't have sample data, refer to the in-product help for guidance.
+    **Note:** If you have sample data available, you can navigate to [Select the sample data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-data-kit/select-sample-data.md) to enhance the accuracy of the generated data. If you don't have sample data, refer to the in-product help for guidance.
 
 10. Select **Continue**.
 
-11. Add your sample data by navigating to [Define columns to generate data](na-data-kit-define-columns.md).
+11. Add your sample data by navigating to [Define columns to generate data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-data-kit/na-data-kit-define-columns.md).
 
     The columns are populated when you add the sample data. If no sample data is available, you must manually populate the columns with data.
 

@@ -2,6 +2,7 @@
 title: Perform bulk assessment in stacked view
 description: Perform assessments on multiple risks and controls simultaneously in a risk assessment project using AI Risk and Compliance Workspace. You can assess inherent risks, effectiveness of controls, residual risks, and target risks. You can define risk responses that enable you to manage and mitigate the risks identified during the risk assessment process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/ai-risk-management/perform-bulk-assessment-in-stacked-view-airc.html
 release: zurich
 product: AI Risk Management
 classification: ai-risk-management
@@ -47,15 +48,15 @@ You can perform the bulk risk assessment either from the Employee Center or AI C
 
     If more than one assessor is defined in the Stakeholder section, the assessor who opens the assessment first becomes the current assessor of the risk assessment project.
 
-5.  To reassign the project, select the more actions icon ![](../../grc-compliance-case-mgmt/image/more-actions-vertical-icon.png), and select **Reassign**.
+5.  To reassign the project, select the more actions icon \[Omitted image "more-actions-vertical-icon.png"\] Alt text:, and select **Reassign**.
 
 6.  To add risks to the project, you can do the following:
 
-    1.  To create risks from the risk statement, select the more actions icon ![](../../grc-compliance-case-mgmt/image/more-actions-vertical-icon.png), and select **Create from risk statements**.
+    1.  To create risks from the risk statement, select the more actions icon \[Omitted image "more-actions-vertical-icon.png"\] Alt text:, and select **Create from risk statements**.
 
-    2.  To add a risk that is not in the library, select the more actions icon ![](../../grc-compliance-case-mgmt/image/more-actions-vertical-icon.png), and select **Create ad hoc risk**.
+    2.  To add a risk that is not in the library, select the more actions icon \[Omitted image "more-actions-vertical-icon.png"\] Alt text:, and select **Create ad hoc risk**.
 
-    3.  To add any underlying risks that have been removed, select the more actions icon ![](../../grc-compliance-case-mgmt/image/more-actions-vertical-icon.png), and select **Add risk**.
+    3.  To add any underlying risks that have been removed, select the more actions icon \[Omitted image "more-actions-vertical-icon.png"\] Alt text:, and select **Add risk**.
 
     The risks with an in-progress assessment can't be added as part of the risk assessment project.
 
@@ -75,13 +76,13 @@ You can perform the bulk risk assessment either from the Employee Center or AI C
 
 8.  Respond to all the factors in Inherent, Control, and Residual assessments, and define a risk response strategy for each risk within the project.
 
-    ![Stacked view of risk assessment project.](../image/stacked-view-airc.png)
+    \[Omitted image "stacked-view-airc.png"\] Alt text: Stacked view of risk assessment project.
 
     **Note:** The application automatically saves your responses and calculates the overall risk score.
 
 9.  To view the complete summary of the assessment, select **View summary**.
 
-10. To check for any errors in the assessment before you submit the assessment, select the more actions icon ![](../../grc-compliance-case-mgmt/image/more-actions-vertical-icon.png), and select **Validate**.
+10. To check for any errors in the assessment before you submit the assessment, select the more actions icon \[Omitted image "more-actions-vertical-icon.png"\] Alt text:, and select **Validate**.
 
     You can see the list of errors, if any, that must be resolved in the side panel for the selected risk.
 
@@ -94,5 +95,5 @@ You can perform the bulk risk assessment either from the Employee Center or AI C
     Assessments are validated again in this stage. Review the assessment summary before you submit. You can’t make any changes after submission.
 
 
-**Parent Topic:**[Using AI Risk and Compliance](../concept/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

@@ -2,6 +2,7 @@
 title: Entity configuration and mapping
 description: Use the Entity Configuration tables and forms to configure and map an entity that defines a structure and transfers the data from the source entity to the target entity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/entity-configuration-and-mapping.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -566,5 +567,5 @@ Script to customize the mappings.
 |sn\_l2c\_core\_viewer|Read access to all Lead to Cash Core tables|
 |sn\_l2c\_core.entity\_mapping\_viewer|View access to Lead to Cash Core entity mapping|
 
-**Note:** Add a user with the sn\_l2c\_core.admin role, who is responsible for configuring metadata for all Lead-to-Cash tables, as a Delegated Developer for the application where the configuration is being created. Assign the permission “Manage Update Set” \(added under Manage Developers for the respective application\). This ensures that all changes are captured in the correct scope and update sets. For details, see [Exploring Delegated Development](https://www.servicenow.com/docs/access?context=c_DelegatedDevelopment&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+**Note:** Add a user with the sn\_l2c\_core.admin role, who is responsible for configuring metadata for all Lead-to-Cash tables, as a Delegated Developer for the application where the configuration is being created. Assign the permission “Manage Update Set” \(added under Manage Developers for the respective application\). This ensures that all changes are captured in the correct scope and update sets. For details, see .
 

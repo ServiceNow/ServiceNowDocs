@@ -2,6 +2,7 @@
 title: Co-owners for an investment
 description: Investment co-owners manage, request, and allocate funds on your behalf to the investments that you own. The co-owner has the same rights and permissions as the owner.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/investment-funding/co-owner-for-investments.html
 release: zurich
 product: Investment Funding
 classification: investment-funding
@@ -26,12 +27,12 @@ Investment co-owners manage, request, and allocate funds on your behalf to the i
 -   Co-owners are added to the **Viewable by** field for all the child investments.
 -   An investment can have multiple co-owners. There is no maximum limit for the number of co-owners for an investment.
 -   In the Active Investments page, you can see the access level for the investments.
-    -   Owned investments are marked with an owned icon \(![Owned icon.](../image/owner_tag.png)\).
-    -   Co-owned investments are marked with a co-owner icon \(![Co-owner icon.](../image/co_owner_tag.png)\).
-    -   Viewable investments are marked with a view only icon \(![View only icon.](../image/view_only_invstmnt.png)\).
+    -   Owned investments are marked with an owned icon \(\[Omitted image "owner\_tag.png"\] Alt text: Owned icon.\).
+    -   Co-owned investments are marked with a co-owner icon \(\[Omitted image "co\_owner\_tag.png"\] Alt text: Co-owner icon.\).
+    -   Viewable investments are marked with a view only icon \(\[Omitted image "view\_only\_invstmnt.png"\] Alt text: View only icon.\).
 
--   **[Manage co-owners for an investment](../task/manage-co-owners-for-invstmnts.md)**  
+-   **[Manage co-owners for an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/manage-co-owners-for-invstmnts.md)**  
 Add co-owners to your investments to request, approve, and manage the funds on your behalf. You can remove the existing co-owners when you no longer need them to manage your investments.
 
-**Parent Topic:**[Investment Funding](investment-funding-overview.md)
+**Parent Topic:**[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/investment-funding-overview.md)
 

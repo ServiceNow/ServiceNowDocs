@@ -2,6 +2,7 @@
 title: Create or modify a safety incident on the Mobile Agent app
 description: A safety agent can create or edit a safety incident through the Mobile Agent app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety/hs-create-modify-incident-mobile-agent.html
 release: zurich
 product: Health and Safety
 classification: health-and-safety
@@ -29,14 +30,14 @@ Easily create safety incident records. Assign the new incident records to yourse
 
 2.  In the navigation bar, tap **Home**.
 
-3.  Tap **Safety incidents** icon ![safety incident icon](../../workplace-central/images/casemgmt-templateicon.png) from the quick links section.
+3.  Tap **Safety incidents** icon \[Omitted image "casemgmt-templateicon.png"\] Alt text: safety incident icon from the quick links section.
 
     Opens the **All safety incidents list** page where you can view the list of safety incidents.
 
 4.  To modify an existing safety incident,
 
     -   Swipe left on the safety incident record to view the edit option.
-    -   Open the safety incident record and tap **More options** icon ![more options](../../workplace-service-delivery/images/wsd-more-options-icon-loc-directory.png).
+    -   Open the safety incident record and tap **More options** icon \[Omitted image "wsd-more-options-icon-loc-directory.png"\] Alt text: more options.
 5.  To add a new safety incident,
 
     1.  Tap **Create new incident** on the **All safety incidents list** page.
@@ -47,10 +48,10 @@ Easily create safety incident records. Assign the new incident records to yourse
 
     To update the related list, see,
 
-    -   [Create or modify root cause analysis of a safety incident on the Mobile Agent app](hs-create-modify-rca-incident-mobile-agent.md)
-    -   [Create or modify actions of a safety incident on the Mobile Agent app](hs-create-modify-actions-safety-incidents-mobile-agent.md)
-    -   [Create or modify the people involved for a safety incident on the Mobile Agent app](hs-create-modify-peope-involved-incident-mobile-agent.md)
-    -   [Create or modify injury and illness record of a safety incident on the Mobile Agent app](hs-create-modify-injury-illness-incidents-mobile-agent.md)
+    -   [Create or modify root cause analysis of a safety incident on the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-create-modify-rca-incident-mobile-agent.md)
+    -   [Create or modify actions of a safety incident on the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-create-modify-actions-safety-incidents-mobile-agent.md)
+    -   [Create or modify the people involved for a safety incident on the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-create-modify-peope-involved-incident-mobile-agent.md)
+    -   [Create or modify injury and illness record of a safety incident on the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-create-modify-injury-illness-incidents-mobile-agent.md)
 
-**Parent Topic:**[Manage Health and Safety incident using the Mobile Agent app](../concept/hs-manage-safety-incident-mobile-agent.md)
+**Parent Topic:**[Manage Health and Safety incident using the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-manage-safety-incident-mobile-agent.md)
 

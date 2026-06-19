@@ -2,6 +2,7 @@
 title: View the enterprise model hierarchy in the Enterprise Asset Workspace
 description: View the hierarchy details of pre-assembled and user-assembled enterprise models in a tree-like format in the Enterprise Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/view-model-hierarchy-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -29,7 +30,7 @@ The Model hierarchy option is shown only for a model that's associated with a pa
 
 2.  Select the pre-assembled or user-assembled model.
 
-3.  Select the Hierarchy icon \(![Hierarchy icon](../image/asset-hierarchy-icon-eam.png)\) on the contextual sidebar.
+3.  Select the Hierarchy icon \(\[Omitted image "asset-hierarchy-icon-eam.png"\] Alt text: Hierarchy icon\) on the contextual sidebar.
 
     The model hierarchy is shown in a tree-like format. All the model components of the model that you selected are displayed.
 
@@ -39,5 +40,5 @@ The Model hierarchy option is shown only for a model that's associated with a pa
     -   Quantity is displayed only for consumable models.
     -   The component number is added as a prefix to the model component.
 
-**Parent Topic:**[Create and manage enterprise models](../concept/create-manage-enterprise-models.md)
+**Parent Topic:**[Create and manage enterprise models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-manage-enterprise-models.md)
 

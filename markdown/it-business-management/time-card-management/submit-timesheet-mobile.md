@@ -2,6 +2,7 @@
 title: Submit a time sheet from your mobile device
 description: Once you have updated the time sheet with the time you worked, you can submit the time sheet for the week to submit all the time cards for the week together from your mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/time-card-management/submit-timesheet-mobile.html
 release: zurich
 product: Time Card Management
 classification: time-card-management
@@ -34,5 +35,5 @@ Role required: timecard\_user
     -   If the time sheet meets the time sheet policy requirements, the time sheet is submitted. All the time cards associated with the time sheet are also submitted automatically and move to the Submitted state.
     -   If the time sheet does not meet the time sheet policy requirements, a validation error is displayed. Resolve the issue indicated by the error message and resubmit the time sheet.
 
-**Parent Topic:**[Mobile Time Sheets](../concept/timesheet-mobile.md)
+**Parent Topic:**[Mobile Time Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/time-card-management/timesheet-mobile.md)
 

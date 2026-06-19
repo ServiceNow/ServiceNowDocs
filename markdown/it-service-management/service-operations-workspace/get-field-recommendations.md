@@ -2,6 +2,7 @@
 title: Get field recommendations
 description: Get incident field recommendations in Service Operations Workspace while creating or updating incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/get-field-recommendations.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -23,7 +24,7 @@ Role required: admin
 
 -   Field recommendations are only available in the Advanced Recommended actions for ITSM application, which requires the ITSM Pro package subscription.
 -   The recommendations associated with field recommendations must be active.
--   The field recommendations must be configured in the Recommended Actions. For more information, see [Create a field recommendation in Recommended Actions](https://www.servicenow.com/docs/access?context=ra-csm-field-recs-create&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+-   The field recommendations must be configured in the Recommended Actions. For more information, see .
 
 ## Procedure
 
@@ -31,26 +32,26 @@ Role required: admin
 
 2.  Perform one of the following actions to start creating an incident.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d236307e103">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d230815e102">
 
 Option
 
-</th><th align="left" id="d236307e106">
+</th><th align="left" id="d230815e105">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d236307e112">
+</th></tr></thead><tbody><tr><td id="d230815e111">
 
 **From the List menu**
 
 </td><td>
 
-1.  From the primary navigation, select the list icon \(![List icon](../../itsm-manager-workspace/image/lists_icon.png)\).
-2.  Select the add icon \(![add icon](../image/add-icon.png)\) next to the **List** tab.
+1.  From the primary navigation, select the list icon \(\[Omitted image "lists\_icon.png"\] Alt text: List icon\).
+2.  Select the add icon \(\[Omitted image "add-icon.png"\] Alt text: add icon\) next to the **List** tab.
 3.  Select **New Incident**.
 
 
-</td></tr><tr><td id="d236307e151">
+</td></tr><tr><td id="d230815e150">
 
 **From an incident list**
 
@@ -68,7 +69,7 @@ Description
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d236307e191">
+</td></tr><tr><td id="d230815e190">
 
 **From an interaction**
 
@@ -87,12 +88,12 @@ Description
 
         The fields are auto-filled or recommended based on the output defined in the recommendation.
 
-        ![UI of the field recommendations on a new incident form when using a version prior to 4.2.](../image/ra-field-recommendation.png)
+        \[Omitted image "ra-field-recommendation.png"\] Alt text: UI of the field recommendations on a new incident form when using a version prior to 4.2.
 
     -   If you're using a version after 4.2, select the required fields to see the field recommendations in the drop-down list.
 
-        ![UI of the field recommendations on a new incident form when using a version after 4.2.](../image/ra_get_field_recommendations_drop-down.png)
+        \[Omitted image "ra\_get\_field\_recommendations\_drop-down.png"\] Alt text: UI of the field recommendations on a new incident form when using a version after 4.2.
 
 
-**Parent Topic:**[Recommended Actions for ITSM in Service Operations Workspace](../concept/recommended-actions-for-itsm-in-service-operations-workspace.md)
+**Parent Topic:**[Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/recommended-actions-for-itsm-in-service-operations-workspace.md)
 

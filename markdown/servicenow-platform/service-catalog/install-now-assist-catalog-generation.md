@@ -2,6 +2,7 @@
 title: Install Now Assist in Catalog Builder
 description: Install the Now Assist for Creator application from the ServiceNow Store to get Now Assist in Catalog Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/install-now-assist-catalog-generation.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -43,16 +44,16 @@ Now Assist in Catalog Builder is a capability within the Now Assist for Creator 
 
     3.  On the Service Catalog card, verify that the Catalog item generation skill is active.
 
-        ![Catalog item generation skill](../image/catalog-item-gen-skill-page.png)
+        \[Omitted image "catalog-item-gen-skill-page.png"\] Alt text: Catalog item generation skill
 
         **Note:** If the skill isn’t active, select **View details**. Then on the Service Catalog page, turn on the Catalog item generation skill.
 
-        For more information about Now Assist Admin, see [Now Assist](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+        For more information about Now Assist Admin, see .
 
 
 ## What to do next
 
 Grant the catalog\_builder\_editor role to enable users to create catalog items using Now Assist.
 
-**Parent Topic:**[Now Assist in Catalog Builder](../concept/now-assist-for-catalog-generation.md)
+**Parent Topic:**[Now Assist in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/now-assist-for-catalog-generation.md)
 

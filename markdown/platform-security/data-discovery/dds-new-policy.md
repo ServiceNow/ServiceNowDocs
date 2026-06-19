@@ -2,6 +2,7 @@
 title: Create new policy
 description: Create a Data Discovery policy to begin scanning tables for data patterns.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-discovery/dds-new-policy.html
 release: zurich
 product: Data Discovery
 classification: data-discovery
@@ -25,7 +26,7 @@ Role required: discovery.admin
 
 2.  Select the **Create new policy** button.
 
-    Edit or delete an existing policy by selecting the three dots ![Three dots expandable](../image/dds-dot-icon.png) icon.
+    Edit or delete an existing policy by selecting the three dots \[Omitted image "dds-dot-icon.png"\] Alt text: Three dots expandable icon.
 
 3.  Fill in the fields of the pop-up window.
 
@@ -70,12 +71,12 @@ Selected tables and columns
 Displays a list of currently selected tables and columns for the policy
 
 </td></tr></tbody>
-</table>4.  Select the arrow ![A right facing arrow](../image/dds-arrow-icon.png) icon to view and select specific columns of the table.
+</table>4.  Select the arrow \[Omitted image "dds-arrow-icon.png"\] Alt text: A right facing arrow icon to view and select specific columns of the table.
 
 5.  Select **Save**.
 
 
 ## Result
 
-By default the new policy will be set to **Active**. Select the three dots ![Three dots expandable](../image/dds-dot-icon.png) icon and select **Deactivate policy**/**Activate policy** to switch its state.
+By default the new policy will be set to **Active**. Select the three dots \[Omitted image "dds-dot-icon.png"\] Alt text: Three dots expandable icon and select **Deactivate policy**/**Activate policy** to switch its state.
 

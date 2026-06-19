@@ -2,6 +2,7 @@
 title: Create a business rule for your service
 description: Create a business rule on the service table to attach the newly created department ticket with a universal request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-create-busrule-service.html
 release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -57,8 +58,8 @@ You can create a business rule for your service for any of the following reasons
 
 9.  Click **Update**.
 
-    For more information on other fields of this form, see [Create a business rule](https://www.servicenow.com/docs/access?context=c_BusinessRules&version=zurich&pubname=zurich-build-workflows&section=t_CreatingABusinessRule&ft:locale=en-US).
+    For more information on other fields of this form, see Create a business rule.
 
 
-**Parent Topic:**[Configure service to use Universal Request](../concept/config-service-for-ur.md)
+**Parent Topic:**[Configure service to use Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/config-service-for-ur.md)
 

@@ -2,6 +2,7 @@
 title: Configure finding constraints
 description: Configure finding constraints for your finding definition. In addition to finding rules, finding constraints further narrow down the scope of your finding definitions using metrics like duration and relation constraints.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/configure-finding-constraint.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -27,10 +28,10 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Finding constraint form](../reference/finding-constraint-form.md).
+    For a description of the field values, see [Finding constraint form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/finding-constraint-form.md).
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Set rule-based finding definitions using Classic view](configure-finding-definition.md)
+**Parent Topic:**[Set rule-based finding definitions using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/configure-finding-definition.md)
 

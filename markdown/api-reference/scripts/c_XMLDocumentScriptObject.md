@@ -2,6 +2,7 @@
 title: XMLDocument script object
 description: A JavaScript object wrapper for parsing and extracting XML data from an XML document \(String\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/c\_XMLDocumentScriptObject.html
 release: zurich
 product: Scripts
 classification: scripts
@@ -183,8 +184,8 @@ The resulting XML document looks like this
 </test>
 ```
 
--   **[XMLHelper](c_XMLHelper.md)**  
+-   **[XMLHelper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_XMLHelper.md)**  
 The XML helper script include makes it easy to parse XML in scripts.
 
-**Parent Topic:**[Server-side scripting](c_ServerScripting.md)
+**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_ServerScripting.md)
 

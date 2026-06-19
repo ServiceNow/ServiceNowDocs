@@ -2,6 +2,7 @@
 title: Add a decision to an app's playbook in Creator Studio
 description: Add decisions, which are if/then conditions, to define branches, or different paths of an automation's playbook in Creator Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/creator-studio/creator-studio-add-decision-automation.html
 release: zurich
 product: Creator Studio
 classification: creator-studio
@@ -23,7 +24,7 @@ To add decisions to a playbook, you must be given permission to work on the app.
 
 Each decision should have at least two branches, with each branch representing a possible outcome for the decision. The second branch can be the ELSE branch, which is required. The ELSE branch will be followed when all other conditions on other branches are false. Think of the else branch as the catch-all case for the decision.
 
-![A playbook in Creator Studio in Diagram view](../image/crs-playbook-diagram.png "Example decision with branches")
+\[Omitted image "crs-playbook-diagram.png"\] Alt text: A playbook in Creator Studio in Diagram view
 
 ## Procedure
 
@@ -35,9 +36,9 @@ Each decision should have at least two branches, with each branch representing a
 
 4.  Select the automation that contains the playbook that you want to add a decision to.
 
-    ![Select the automation in the navigation panel](../image/crs-auto-copy-nav.png "Select automation that has the playbook")
+    \[Omitted image "crs-auto-copy-nav.png"\] Alt text: Select the automation in the navigation panel
 
-5.  Select the add icon \(![](../image/cs-add-icon.png)\) on the connector here you want to add a decision and choose the diamond-shaped **Add a decision** icon \(![](../image/cs-add-decision-icon.png)\) in the menu that pops up.
+5.  Select the add icon \(\[Omitted image "cs-add-icon.png"\] Alt text:\) on the connector here you want to add a decision and choose the diamond-shaped **Add a decision** icon \(\[Omitted image "cs-add-decision-icon.png"\] Alt text:\) in the menu that pops up.
 
     **Note:** You must be in the Diagram view to add a decision.
 
@@ -48,7 +49,7 @@ Each decision should have at least two branches, with each branch representing a
     |Playbook name|Unique, user-facing name for the decisions, which appears to agents and fulfillers while the playbook is running.|
     |Description|Optional details about what the decision accomplishes.|
 
-    ![Basic details for a decision](../image/cs-decision-properties.png "Playbook decision properties")
+    \[Omitted image "cs-decision-properties.png"\] Alt text: Basic details for a decision
 
 7.  Define the decision's schedule.
 
@@ -103,7 +104,7 @@ Start with delay
 
 </td><td>
 
-Toggle to specify that the ServiceNow AI Platform waits for a duration of time before running the decision after the start rule is met. For more information on how to specify the delay duration, see [Start with delay input properties](https://www.servicenow.com/docs/access?context=start-with-delay-properties&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+Toggle to specify that the ServiceNow AI Platform waits for a duration of time before running the decision after the start rule is met. For more information on how to specify the delay duration, see .
 
 </td></tr><tr><td>
 
@@ -114,7 +115,7 @@ Restart rules
 What the decision does when a playbook is restarted. The options are:-   **Skip on restart**: Skip this decision when the playbook run is due to a restart.
 -   **Run always**: Always run this decision, including first runs.
 -   **Skip on first run**: Skip this decision during the first run.
-For more information, see [Restart a playbook](https://www.servicenow.com/docs/access?context=restart-a-playbook&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+For more information, see .
 
 </td></tr></tbody>
 </table>9.  Create the conditions for each branch, or possible outcome for the decision on the **Branches** tab of the Decision properties panel.
@@ -129,7 +130,7 @@ For more information, see [Restart a playbook](https://www.servicenow.com/docs/a
         2.  Select the form's question to use as the condition from the **Question** field.
         3.  Specify the condition **Operator** and the answer's **Value**.
         4.  Select **Apply** when you're done defining the condition.
-        For details on working with conditions, see [Create a condition statement using the condition builder](https://www.servicenow.com/docs/access?context=create-cond-state-using-cond-build&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+        For details on working with conditions, see .
 
     3.  Select the **Add new branch** button and add as many branches as needed.
 
@@ -165,5 +166,5 @@ The app processes only the first listed branch with conditions met.If you select
 10. Select **Save and close**.
 
 
-**Parent Topic:**[Working with automation in Creator Studio](../concept/creator-studio-working-with-automations.md)
+**Parent Topic:**[Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-working-with-automations.md)
 

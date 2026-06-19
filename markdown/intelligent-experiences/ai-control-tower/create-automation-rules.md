@@ -2,6 +2,7 @@
 title: Create an Automation rule
 description: Create an Automation rule to set AI assets as managed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/create-automation-rules.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
@@ -17,7 +18,7 @@ Create an Automation rule to set AI assets as managed.
 
 ## Before you begin
 
-Role required: AI steward
+Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 ## Procedure
 
@@ -38,5 +39,5 @@ Role required: AI steward
 
 An automation rule is created for AI assets.
 
-**Parent Topic:**[Using AI Control Tower](../concept/using-ai-control-tower.md)
+**Parent Topic:**[Using AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
 

@@ -2,6 +2,7 @@
 title: Use case: Displaying the ServiceNow CPQ native UI via direct URL
 description: Learn how to initialize a configuration UI using a URL instead of an external library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/use\_case\_display\_logik\_io\_native\_ui\_via\_direct\_url.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -321,7 +322,7 @@ The result of the saved Configuration can be accessed by using the GET API to re
 
 [Postman Collection with Config API URL](https://drive.google.com/file/d/1uHyPsUROr7JI84RZ0Ac2ogqcl7-kxL8J/view?usp=share_link)
 
-The result can be sent to a downstream system via Webhook. See [Webhooks](cpq-webhooks.md).
+The result can be sent to a downstream system via Webhook. See [Webhooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/cpq-webhooks.md).
 
-**Parent Topic:**[Use cases](use-cases.md)
+**Parent Topic:**[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/use-cases.md)
 

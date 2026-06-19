@@ -2,6 +2,7 @@
 title: Work order tasks on the Field Service Contractor Portal
 description: Organizations outsource their work order tasks to the contractor companies in the Field Service to perform required jobs at a customer location. Managers and agents of contractor companies use the Field Service Contractor Portal to view and manage the work order tasks assigned to them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/work-order-tasks.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

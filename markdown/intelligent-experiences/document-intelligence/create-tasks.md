@@ -2,6 +2,7 @@
 title: Create a document extraction use case
 description: Create a use case record to define a document you want to process in Document Intelligence. For example, invoices or driving licenses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/document-intelligence/create-tasks.html
 release: zurich
 product: Document Intelligence
 classification: document-intelligence
@@ -15,7 +16,7 @@ breadcrumb: [Set up document extraction use cases, Configure, Document Intellige
 
 Create a use case record to define a document you want to process in Document Intelligence. For example, invoices or driving licenses.
 
-**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](../concept/docintel-nowassist-landing.md).
+**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
 
 ## Before you begin
 
@@ -33,12 +34,12 @@ Role required: sn\_docintel.manager
 
 5.  Change the language model used to support document extraction.
 
-    For more information, see [Languages supported by Document Intelligence](../concept/languages-supported-by-document-intelligence.md).
+    For more information, see [Languages supported by Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/document-intelligence/languages-supported-by-document-intelligence.md).
 
 6.  Select **Save**.
 
 
 ## What to do next
 
-After creating a use case, finish setting it up by adding [fields](manage-keys.md) and configuring the [data extraction modes](configure-data-extraction-modes.md).
+After creating a use case, finish setting it up by adding [fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/document-intelligence/manage-keys.md) and configuring the [data extraction modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/document-intelligence/configure-data-extraction-modes.md).
 

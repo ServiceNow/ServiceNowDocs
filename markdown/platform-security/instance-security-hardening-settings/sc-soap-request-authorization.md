@@ -2,6 +2,7 @@
 title: Require authorization for SOAP requests \[Updated in Security Center 1.3, 1.5, and 2.0\]
 description: Use the glide.basicauth.required.soap property to designate if incoming SOAP requests should require basic authorization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-soap-request-authorization.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -49,7 +50,7 @@ Category
 
 </td><td>
 
-[API and web service](sc-api-web-service.md)
+[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 
 </td></tr><tr><td>
 
@@ -85,7 +86,7 @@ This remediation enforces a combination of authentication methods, in the form o
 -   It restricts any guest users who are currently accessing this data.
 -   Create an account for a user who needs access to this content, with the necessary access control permissions.
 
- To learn more, see [SOAP web service](https://www.servicenow.com/docs/access?context=c_SOAPWebService&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) and [MID Server authentication credentials and SOAP requests](https://www.servicenow.com/docs/access?context=mid-authentication-soap-requests&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+ To learn more, see SOAP web service and MID Server authentication credentials and SOAP requests.
 
 </td></tr><tr><td>
 
@@ -101,10 +102,10 @@ References
 
 </td><td>
 
-[Authentication](../../../integrate/single-sign-on/concept/c_Authentication.md)
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/c_Authentication.md)
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[API and web service](sc-api-web-service.md)
+**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 

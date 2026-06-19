@@ -2,6 +2,7 @@
 title: Create event types to display on the team calendar with Workforce Optimization for Field Service
 description: Create multiple events from the same category and add them to the team calendar with Workforce Optimization for Field Service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/create-evet-types-wfo-fsm.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

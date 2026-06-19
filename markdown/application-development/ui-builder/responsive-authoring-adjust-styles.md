@@ -2,6 +2,7 @@
 title: Adjust styles for responsive authoring
 description: When creating pages with responsive authoring for different form factors, learn how to change style options to increase the usability of the page at smaller sizes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/responsive-authoring-adjust-styles.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -29,15 +30,15 @@ A method of increasing page usability is to tailor components using different st
 
 2.  Open an experience to work in or create an experience by selecting **Create &gt; Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create a page from scratch with responsive authoring.
 
-    For more information about how to create a page, see [Create a page in UI Builder](create-page.md).
+    For more information about how to create a page, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/create-page.md).
 
 4.  At the top, check that the desktop responsive authoring icon is selected.
 
-    ![Black arrow pointing to desktop form factor icon at the top of a UI Builder page in editor view.](../image/responsive-author-icon-desktop.png)
+    \[Omitted image "responsive-author-icon-desktop.png"\] Alt text: Black arrow pointing to desktop form factor icon at the top of a UI Builder page in editor view.
 
 5.  On the stage, select **+ Add content**.
 
@@ -55,7 +56,7 @@ A method of increasing page usability is to tailor components using different st
 
     5.  Replace the default text by entering `Critical Operations Workspace Admin Center`.
 
-        ![Configuration panel for stylized text component with black arrow pointing to text field.](../image/responsive-author-styles1.png)
+        \[Omitted image "responsive-author-styles1.png"\] Alt text: Configuration panel for stylized text component with black arrow pointing to text field.
 
     6.  Select **Save**.
 
@@ -69,11 +70,11 @@ A method of increasing page usability is to tailor components using different st
 
     4.  Select **Large** in the list.
 
-        ![Configuration panel for stylized text component with black arrow pointing to margin option and large size option.](../image/responsive-author-styles2.png)
+        \[Omitted image "responsive-author-styles2.png"\] Alt text: Configuration panel for stylized text component with black arrow pointing to margin option and large size option.
 
     5.  In **Alignment**, select the center icon.
 
-        ![Configuration panel for stylized text component with black arrow pointing to center icon for alignment field.](../image/responsive-author-styles3.png)
+        \[Omitted image "responsive-author-styles3.png"\] Alt text: Configuration panel for stylized text component with black arrow pointing to center icon for alignment field.
 
     6.  Select **Save**.
 
@@ -81,13 +82,13 @@ A method of increasing page usability is to tailor components using different st
 
 9.  Select the tablet form factor icon.
 
-    ![Black arrow pointing to tablet form factor icon at the top of a UI Builder page in editor view.](../image/responsive-author-icon-tablet.png)
+    \[Omitted image "responsive-author-icon-tablet.png"\] Alt text: Black arrow pointing to tablet form factor icon at the top of a UI Builder page in editor view.
 
     The spacing and heading size of the stylized text component looks good at tablet size.
 
 10. Select the mobile form factor icon.
 
-    ![Black arrow pointing to mobile form factor icon at the top of a UI Builder page in editor view.](../image/responsive-author-icon-mobile.png)
+    \[Omitted image "responsive-author-icon-mobile.png"\] Alt text: Black arrow pointing to mobile form factor icon at the top of a UI Builder page in editor view.
 
     The stylized text component uses a great deal of vertical space at the smaller size.
 
@@ -112,5 +113,5 @@ A method of increasing page usability is to tailor components using different st
 12. Select the tablet and the desktop form factor icons at the top to confirm that no changes were made to the larger form factors.
 
 
-**Parent Topic:**[Responsive authoring](../concept/responsive-authoring.md)
+**Parent Topic:**[Responsive authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/responsive-authoring.md)
 

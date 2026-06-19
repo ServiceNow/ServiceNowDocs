@@ -2,12 +2,13 @@
 title: Create an NLU model from blank
 description: Create a Natural Language Understanding \(NLU\) model from scratch. Start with an empty model to have full control over the model's content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/nlu-service/create-nlu-modelx.html
 release: zurich
 product: NLU Service
 classification: nlu-service
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Creating models, Model management, Natural Language Understanding, Enable AI experiences]
 ---
 
@@ -41,7 +42,7 @@ In this example procedure, you're building an NLU model to help Virtual Agent un
 
 6.  In the define details page, enter a unique **Name** and **Short description**.
 
-    ![Window for creating an NLU model from blank. Fill in the model details such as the language and purpose.](../images/create-model-x.png)
+    \[Omitted image "create-model-x.png"\] Alt text: Window for creating an NLU model from blank. Fill in the model details such as the language and purpose.
 
     In this example scenario, you enter `HR Model for Virtual Agent` for the name and `Natural language for Human Resources user requests` for the description.
 
@@ -58,11 +59,9 @@ In this example procedure, you're building an NLU model to help Virtual Agent un
 
 ## What to do next
 
-![Model details page after creating a model from blank.](../images/create-nlu-model-blank03.png "Model details page")
+\[Omitted image "create-nlu-model-blank03.png"\] Alt text: Model details page after creating a model from blank.
 
-Your new model contains no content. Select **Add content** to begin adding intents, entities, and vocabulary. For more information, see [Build and train your model](../concept/managing-model-content.md).
+Your new model contains no content. Select **Add content** to begin adding intents, entities, and vocabulary. For more information, see [Build and train your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/managing-model-content.md).
 
-Add test utterances and intents to build the model's default test set. For more information, see [Test set creation and management](../concept/nlu-test-set-creation-management.md).
-
-**Parent Topic:**[Creating models](../concept/creating-models.md)
+Add test utterances and intents to build the model's default test set. For more information, see [Test set creation and management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/nlu-test-set-creation-management.md).
 

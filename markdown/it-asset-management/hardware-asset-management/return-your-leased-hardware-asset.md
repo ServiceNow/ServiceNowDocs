@@ -2,13 +2,14 @@
 title: Return your leased hardware asset
 description: Return your hardware asset before the contract expires and avoid paying a penalty.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/return-your-leased-hardware-asset.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Manage your expiring contracts for leased hardware assets, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage expiring lease contracts, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Return your leased hardware asset
@@ -27,15 +28,15 @@ After you choose to return your leased asset, various Contract Asset tasks are c
 
 1.  Open a lease record.
 
-<table id="choicetable_fkk_5d3_4xb"><thead><tr><th align="left" id="d221628e56">
+<table id="choicetable_fkk_5d3_4xb"><thead><tr><th align="left" id="d184873e56">
 
 UI
 
-</th><th align="left" id="d221628e59">
+</th><th align="left" id="d184873e59">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d221628e65">
+</th></tr></thead><tbody><tr><td id="d184873e65">
 
 **Core UI**
 
@@ -45,7 +46,7 @@ Action
 2.  Select a lease record.
 
 
-</td></tr><tr><td id="d221628e98">
+</td></tr><tr><td id="d184873e98">
 
 **Hardware Asset Workspace**
 
@@ -66,7 +67,7 @@ Action
 
 6.  Change the **State** to **Closed Complete**.
 
-    To take a lease action, you can follow any of the ways mentioned in [Manage your expiring contracts for leased hardware assets](manage-your-leased-hw-asts-expiring-contract.md).
+    To take a lease action, you can follow any of the ways mentioned in [Manage your expiring contracts for leased hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-your-leased-hw-asts-expiring-contract.md).
 
     A Collection task is generated under the **Contract Asset Tasks** related list.
 
@@ -90,11 +91,11 @@ Action
 
     2.  If you’re unable to collect the leased asset from your user and you want to buy out the leased asset, select **Buyout** from the Action change list.
 
-        Further buyout-related tasks are created to take care of the buyout process. See [Buy out your leased hardware asset](purchase-your-leased-hw-asset.md).
+        Further buyout-related tasks are created to take care of the buyout process. See [Buy out your leased hardware asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/purchase-your-leased-hw-asset.md).
 
     3.  If you’re unable to collect the leased asset from your user, and if you want to extend the lease contract, select **Extend** from the Action change list.
 
-        Further extension-related tasks are created to take care of the lease extension process. See [Extend your lease contract](extend-your-lease-contract.md).
+        Further extension-related tasks are created to take care of the lease extension process. See [Extend your lease contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/extend-your-lease-contract.md).
 
     4.  If you’re unable to collect the leased asset from your user and the leaser agrees that you return another similar asset, then do the following:
 
@@ -143,5 +144,5 @@ The Return Confirmation task is automatically assigned to the contract administr
 
 On the Hardware form of the leased asset, the asset is moved to the Retired state and to the Lease return substate.
 
-**Parent Topic:**[Manage your expiring contracts for leased hardware assets](manage-your-leased-hw-asts-expiring-contract.md)
+**Parent Topic:**[Manage your expiring contracts for leased hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-your-leased-hw-asts-expiring-contract.md)
 

@@ -2,6 +2,7 @@
 title: Request Edge Encryption
 description: The Edge Encryption plugin \(com.glide.edgeencryption\) is available as a separate subscription.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/t\_InstallCloudEdge.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -73,5 +74,5 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Installing Edge Encryption](../concept/c_InstallEdgeEncryptionProxy.md)
+**Parent Topic:**[Installing Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/c_InstallEdgeEncryptionProxy.md)
 

@@ -2,6 +2,7 @@
 title: Test your Virtual Agent API configuration
 description: Test your Virtual Agent API configuration using API testing tool.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-api-test.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -56,5 +57,5 @@ API tests are a way to verify that your API is behaving as you expect it to. To 
     -   If your instance is on asynchronous mode, you have to check enabling Virtual Agent API logging.
     -   If your instance is on synchronous mode, you have to check the Body of the response.
 
-**Parent Topic:**[Configuring Virtual Agent API](../concept/configure-virtual-agent-api.md)
+**Parent Topic:**[Configuring Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-virtual-agent-api.md)
 

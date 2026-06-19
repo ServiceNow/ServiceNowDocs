@@ -2,6 +2,7 @@
 title: Move reservations between Reservable modules using the Schedule view
 description: Reservation or space planners can move or update reservation between Reservable modules. Planners with sn\_wsd\_rsv.bypass\_module\_validation role can bypass the Reservable module configuration settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-central/evnt-planner-scheduled-view-move-rsv.html
 release: zurich
 product: Workplace Central
 classification: workplace-central
@@ -41,7 +42,7 @@ As a reservation or space planner, you can perform the following actions:
 
     You can also open Workplace Central from Employee Center directly. Navigate to **All** &gt; **Self-service** &gt; **Employee Center** &gt; **Workspaces** &gt; **Workplace Central**.
 
-2.  Select the Event Planner icon \(![Event planner icon to open the Event planner home page.](../images/event-planner-icon.png)\).
+2.  Select the Event Planner icon \(\[Omitted image "event-planner-icon.png"\] Alt text: Event planner icon to open the Event planner home page.\).
 
 3.  Select **Open Scheduled view**.
 
@@ -57,7 +58,7 @@ As a reservation or space planner, you can perform the following actions:
 
     2.  To view a reservation for a specific date, do the following:
 
-        ![Scheduled view page showing Date picker to select date to verify reservations.](../images/wsd-event-planner-scheduled-view-page.png)
+        \[Omitted image "wsd-event-planner-scheduled-view-page.png"\] Alt text: Scheduled view page showing Date picker to select date to verify reservations.
 
     1.  Select the date from the Date picker for which you want to view a reservation.
 
@@ -81,7 +82,7 @@ As a reservation or space planner, you can perform the following actions:
 
     **Note:** Adding multiple spaces to a reservation isn’t supported in Event Planner. Select only a single space while creating a reservation.
 
-    For more information, see [Create a reservation](../../wsd-reservation-management/task/create-reservation-request-1.md).
+    For more information, see [Create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
     While creating a reservation, space or reservation planners can bypass the start date or end date restrictions configured in the Reservable module:
 
@@ -136,9 +137,9 @@ As a reservation or space planner, you can perform the following actions:
 
         While moving a shift-based reservation, the shift-based Reservable module of which the space is part of is preselected.
 
-        **Note:** You can move a location within the same shift-based reservation and not to a different shift-based reservation. Two different shifts aren’t available for selection in the confirm reservation changes dialog box when you try to move a reservation. Space planners can move a shift-based reservation to a non-shift Reservable module \(Desks, meeting rooms, and so on\). For example: **Desks within a Shift** Reservable module can be moved to **Desks** Reservable Module. For more information, see [Allow Event planners to handle reservations with more flexibility](../concept/event-planner-bypass-validation-rule-overview.md).
+        **Note:** You can move a location within the same shift-based reservation and not to a different shift-based reservation. Two different shifts aren’t available for selection in the confirm reservation changes dialog box when you try to move a reservation. Space planners can move a shift-based reservation to a non-shift Reservable module \(Desks, meeting rooms, and so on\). For example: **Desks within a Shift** Reservable module can be moved to **Desks** Reservable Module. For more information, see [Allow Event planners to handle reservations with more flexibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/event-planner-bypass-validation-rule-overview.md).
 
-9.  Select the Show reservation details icon \(![Reservation details icon.](../images/wsd-show-reservation-details-icon.png)\) to open the Reservation details side-panel context window.
+9.  Select the Show reservation details icon \(\[Omitted image "wsd-show-reservation-details-icon.png"\] Alt text: Reservation details icon.\) to open the Reservation details side-panel context window.
 
     1.  Select and select a reservation to open the reservation details information window.
 
@@ -149,7 +150,7 @@ As a reservation or space planner, you can perform the following actions:
 
         Update the following field information:
 
-        ![Update reservation contextual side-panel window to modify location, date, and time for a reservation.](../images/wsd-scheduled-page-view.png)
+        \[Omitted image "wsd-scheduled-page-view.png"\] Alt text: Update reservation contextual side-panel window to modify location, date, and time for a reservation.
 
         -   Floor
         -   Building
@@ -159,7 +160,7 @@ As a reservation or space planner, you can perform the following actions:
         -   Requested for
         -   Reservation subject
         -   Additional message
-        For more information, see [Create a reservation](../../wsd-reservation-management/task/create-reservation-request-1.md).
+        For more information, see [Create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
     3.  After making the required changes, select **Update reservation**.
 
@@ -168,5 +169,5 @@ As a reservation or space planner, you can perform the following actions:
         Follow Step 7 to Step 8 as required.
 
 
-**Parent Topic:**[Working with schedule view](working-with-schedule-view.md)
+**Parent Topic:**[Working with schedule view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/working-with-schedule-view.md)
 

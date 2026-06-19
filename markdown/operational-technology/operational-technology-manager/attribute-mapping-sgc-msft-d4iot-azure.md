@@ -2,6 +2,7 @@
 title: Attribute mapping and classification for Service Graph Connector for Microsoft Defender for IoT \(Azure\)
 description: The following tables describe the attribute mapping and classification for sensors and devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-manager/attribute-mapping-sgc-msft-d4iot-azure.html
 release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -2827,5 +2828,5 @@ cmdb\_ci\_server
 Same as when the operating system isn't present.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Graph Connector for Microsoft Defender for IoT \(Azure\)](../concept/integration-sgc-microsoft-defender-iot-azure.md)
+</table>**Parent Topic:**[Service Graph Connector for Microsoft Defender for IoT \(Azure\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/integration-sgc-microsoft-defender-iot-azure.md)
 

@@ -2,6 +2,7 @@
 title: Train the Risk Intelligence solution
 description: Create Risk categorization or similarity solution definitions to use the predictive intelligence that helps in accessing change risk.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/train-risk-intelligence-solution.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -31,10 +32,10 @@ Role required: admin
     -   If the **Solution type** is `Classification`, you can see the default, **Change Risk** solution.
 3.  Customize the default solution.
 
-    For more information, see [Create and train a similarity solution](https://www.servicenow.com/docs/access?context=create-similarity-solution&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) and [Create and train a classification solution](https://www.servicenow.com/docs/access?context=create-solution-definition&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+    For more information, see Create and train a similarity solution and Create and train a classification solution.
 
 4.  Click **Update**.
 
 
-**Parent Topic:**[Predictive Intelligence for Change Management](../concept/change-mgmt-intelligent-solutions.md)
+**Parent Topic:**[Predictive Intelligence for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-mgmt-intelligent-solutions.md)
 

@@ -2,6 +2,7 @@
 title: Create a third party and enhance digital resilience data
 description: Create a third-party record in Digital resilience third-party registers using Third-party Risk Management. Add the details of the third-party company such as its name, address, phone number, vendor manager. You can then enhance its digital resilience information for compliance with DORA regulation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-third-party.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -27,13 +28,13 @@ After installing the Digital resilience third-party registers, the **Digital res
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Digital resilience third-party registers**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Digital resilience third-party registers**.
 
 2.  Select **Third parties** and then create a third party by selecting **New**.
 
 3.  On the form, fill in the fields.
 
-    For descriptions of all these fields, see [Create New Company form](../reference/tprm-create-third-party-company-form.md).
+    For descriptions of all these fields, see [Create New Company form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-create-third-party-company-form.md).
 
 4.  Select **Save**.
 
@@ -41,13 +42,13 @@ After installing the Digital resilience third-party registers, the **Digital res
 
 6.  On the form, fill in the fields.
 
-    For descriptions of all these fields, see [Create New ICT third-party service provider form](../reference/tprm-create-ICT-thirdparty-serv-prov-form.md).
+    For descriptions of all these fields, see [Create New ICT third-party service provider form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-create-ICT-thirdparty-serv-prov-form.md).
 
     **Note:**
 
     Provider‑level annual expense totals may be automatically aggregated during report generation when all contracts meet the required criteria. Aggregation applies only to exported reports and does not change third‑party or contract records.
 
-    For more information, see [Currency conversion and third-party total expense aggregation](../concept/tprm-dora-currency-aggregation.md).
+    For more information, see [Currency conversion and third-party total expense aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-dora-currency-aggregation.md).
 
 7.  To edit the third-party company record, select it from the list and select **Save** after making your edits.
 

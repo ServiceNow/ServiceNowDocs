@@ -2,6 +2,7 @@
 title: Install the application and configure a source for the integration
 description: Install and configure the application from ServiceNow Store on your ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/fireeye-install-configure-source.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -23,7 +24,7 @@ Role required: NowPlatform administrator \(admin\)
 
 Download the Security Incident Response integration with FireEye HX application from the ServiceNow Store and install.
 
-After you have successfully installed the application, follow the below steps to configure it:
+After you have successfully installed the application, follow the following steps to configure it:
 
 ## Procedure
 
@@ -31,9 +32,9 @@ After you have successfully installed the application, follow the below steps to
 
 2.  Select the **Integration Configurations** module to display the available integrations, and locate the **FireEye** tile.
 
-    ![FireEye HX Integration tile highlighted](../image/fireeye-tile.png)
+    \[Omitted image "fireeye-tile.png"\] Alt text: FireEye HX Integration tile highlighted
 
-3.  Click **Configure** on the FireEye tile.
+3.  Select **Configure** on the FireEye tile.
 
 4.  Provide the following details to set up the FireEye integration:
 
@@ -43,15 +44,11 @@ After you have successfully installed the application, follow the below steps to
     |API URL|Base URL hosting the FireEye API.|
     |User Name|Enter the username of the FireEye account.|
     |Password|Enter the password of the FireEye account.|
-    |Mid Application|MID Application that is set up in your environment. Mid server is required to process zip files for some of the enrichment capabilities. By default, it will be ALL. Users should provide valid application name manually.|
-    |On Premises Deployment|Default is disabled. If you are using the cloud-based version of FireEye, verify that the check box is cleared.|
+    |Mid Application|MID Application that is set up in your environment. Mid server is required to process ZIP files for some of the enrichment capabilities. By default, it will be ALL. Users should provide valid application name manually.|
+    |On Premises Deployment|Default is turned off. If you're using the cloud-based version of FireEye, verify that the check box is cleared.|
 
-    ![FireEye HX Integration Configuration](../image/fireeye-configuration.png)
+5.  Select **Submit**.
 
-5.  Click **Submit**.
-
-    The FireEye Configurations list is displayed with your new configuration record. You have completed the configuration for a FireEye server. If you cannot connect to the FireEye, or your credentials are incorrect, a validation error message is displayed as shown in the following figure. Verify that your credentials are correct and try again.
-
-    ![FireEye configuration validation resulted in an error](../image/fireeye-validation.png)
+    The FireEye Configurations list is displayed with your new configuration record. You have completed the configuration for a FireEye server. If you cannot connect to the FireEye, or your credentials are incorrect, a validation error message is displayed. Verify that your credentials are correct and try again.
 
 

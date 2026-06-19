@@ -2,6 +2,7 @@
 title: Update the OIDC entities table
 description: Update the OIDC entities table to replace dummy values created by the registry file with your Microsoft Teams tenant values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/oidc-entity-table.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,7 +28,7 @@ Role required: admin
 
 3.  In the **Client ID** field in the OAuth OIDC entities table, enter `api://INSERT_COMPLETE_INSTANCE_URL_without_http(s)/ APPLICATION (CLIENT) ID`.
 
-4.  Select the reference icon ![Reference icon](../../../common/image/Form_ReferenceLookupIcon.png) beside the **OAuth OIDC Provider Configuration** field.
+4.  Select the reference icon \[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text: Reference icon beside the **OAuth OIDC Provider Configuration** field.
 
 5.  Select **Open Record**.
 
@@ -36,5 +37,5 @@ Role required: admin
 7.  Select **Update**.
 
 
-**Parent Topic:**[Integrating Employee Center with Microsoft Teams for GCC-H or DoD](../concept/ec-teams-integration-gcch.md)
+**Parent Topic:**[Integrating Employee Center with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-teams-integration-gcch.md)
 

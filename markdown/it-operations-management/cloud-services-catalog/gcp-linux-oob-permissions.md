@@ -2,6 +2,7 @@
 title: Google Cloud Platform Linux Out Of Box permissions
 description: Google Cloud Platform Linux Out Of Box catalog items permissions
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/gcp-linux-oob-permissions.html
 release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -242,5 +243,5 @@ Stack Deprovision
  **Note:** Day 2 VM disk permissions are also required.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Google Cloud Platform Linux Out Of Box Catalog items](google-cloud-platform-linux-out-of-box-catalog-items.md)
+</table>**Parent Topic:**[Google Cloud Platform Linux Out Of Box Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/google-cloud-platform-linux-out-of-box-catalog-items.md)
 

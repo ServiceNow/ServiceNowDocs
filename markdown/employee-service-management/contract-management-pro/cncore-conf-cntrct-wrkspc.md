@@ -2,6 +2,7 @@
 title: Configuring Contract Workspace
 description: Configure and customize Contract Workspace by using the UI Builder web user interface builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-conf-cntrct-wrkspc.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -17,9 +18,9 @@ Configure and customize Contract Workspace by using the UI Builder web user inte
 
 ## Configuration overview
 
-For more information about this application, see [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+For more information about this application, see .
 
 Access UI Builder to customize the Contract Workspace by navigating to **All** &gt; **UI Builder**, and then selecting **Contract Workspace**.
 
-For more information, see [Working in UI Builder](https://www.servicenow.com/docs/access?context=using-ui-builder&version=zurich&pubname=zurich-application-development&ft:locale=en-US) and [Configuring Configurable Workspace](https://www.servicenow.com/docs/access?context=c_set-up-configurable-workspace&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US#section_xqc_p2z_cjb).
+For more information, see  and .
 

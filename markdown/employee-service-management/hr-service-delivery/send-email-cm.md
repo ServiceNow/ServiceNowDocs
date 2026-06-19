@@ -2,6 +2,7 @@
 title: Sending an email from a case
 description: Send any communication related to HR Workforce Administration cases using the Send email feature. Minimise typing errors by auto-populating the email address of the subject person \(of the case\) in the email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/send-email-cm.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -42,5 +43,5 @@ Role required: sn\_hr\_core.case\_writer
     An email along with the generated document is sent to the intended recipient.
 
 
-**Parent Topic:**[Work an HR case](t_CreateAnHRCase.md)
+**Parent Topic:**[Work an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateAnHRCase.md)
 

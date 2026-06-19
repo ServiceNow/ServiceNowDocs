@@ -2,6 +2,7 @@
 title: Configure Service Graph Connector for Jamf using the guided setup
 description: Set up authentication credentials and scheduled jobs to import Jamf data into your Configuration Management Database \(CMDB\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/configure-jamf-integration.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -19,13 +20,13 @@ Set up authentication credentials and scheduled jobs to import Jamf data into yo
 
 **Important:** Unless there are configuration issues, use the SGC Central view in the Service Graph Workspace or CMDB Workspace to configure the connection for the connector, as the guided setup method is planned for deprecated.
 
-To use this Service Graph Connector, you need a subscription to a Subscription Unit that is based in the IT Operations Management \(ITOM\) Visibility application or in the ITOM Discovery application. As defined in the section titled "Managed IT Resource Types" in [ServiceNow Subscription Unit Overview](https://www.servicenow.com/products/entitlements-packages.html) for your subscription, for managed IT resources that are created or modified in the CMDB by this Service Graph Connector, but that aren’t yet managed by [ITOM Visibility or ITOM Discovery](https://www.servicenow.com/docs/access?context=itom-license-module&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US), these resources will increase Subscription Unit consumption from that application. Review your current Subscription Unit consumption within ITOM Visibility or ITOM Discovery to ensure available capacity.
+To use this Service Graph Connector, you need a subscription to a Subscription Unit that is based in the IT Operations Management \(ITOM\) Visibility application or in the ITOM Discovery application. As defined in the section titled "Managed IT Resource Types" in [ServiceNow Subscription Unit Overview](https://www.servicenow.com/products/entitlements-packages.html) for your subscription, for managed IT resources that are created or modified in the CMDB by this Service Graph Connector, but that aren’t yet managed by ITOM Visibility or ITOM Discovery, these resources will increase Subscription Unit consumption from that application. Review your current Subscription Unit consumption within ITOM Visibility or ITOM Discovery to ensure available capacity.
 
 Dependencies and requirements:
 
--   The [Integration Commons for CMDB](../concept/integration-commons-for-cmdb.md) store app, which is automatically installed.
--   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models](../concept/cmdb-ci-class-models.md).
--   ITOM Licensing plugin \(com.snc.itom.license\). An unlicensed plugin that contains computation logic for SU consumption as necessary. For more information, see [Request Discovery](https://www.servicenow.com/docs/access?context=t_ActivateTheDiscoveryPlugin&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+-   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
+-   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
+-   ITOM Licensing plugin \(com.snc.itom.license\). An unlicensed plugin that contains computation logic for SU consumption as necessary. For more information, see Request Discovery.
 -   Jamf Classic API version 10.x.
 
 When using client credentials for authentication, obtain the OAuth credentials from your Jamf administrator. Make a note of the following details:
@@ -34,6 +35,8 @@ When using client credentials for authentication, obtain the OAuth credentials f
 -   Client Secret
 
 If using Client Credentials authentication in Jamf Pro, you need to utilize the API Roles and Clients functionality. For more details, refer to the [API Roles and Clients](https://learn.jamf.com/en-US/bundle/jamf-pro-documentation-current/page/API_Roles_and_Clients.html) section in the Jamf documentation. When creating a new API client in the Jamf environment, the **Access token lifetime** field on the form for creating a client enables setting how long the token remains valid. The default is `60` seconds, but due to ServiceNow AI Platform limitations, the value must be set to more than `60` seconds. Setting the token lifetime to `3600` seconds \(1 hour\) helps prevent potential issues.
+
+For more information on how to configure an OAuth token, see the [How to configure OAuth token fetching via Mid Server](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1645211) KB article.
 
 Role required: admin
 
@@ -61,7 +64,7 @@ Role required: admin
 
     1.  Enter Basic or Bearer token authentication details.
 
-        **Important:** Skip this step if using Client credentials for authentication, and instead go to step [4.c](configure-jamf-integration.md#client-credentials).
+        **Important:** Skip this step if using Client credentials for authentication, and instead go to step [4.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-jamf-integration.md).
 
         1.  For the Configure Jamf authentication: Basic or Bearer token authentication task, select **Configure**.
         2.  On the form, fill in the fields.
@@ -103,7 +106,7 @@ Password that is used to authenticate the HTTP or HTTPS request when this Basic 
         4.  Set the Configure Jamf authentication: Basic or Bearer token authentication task to complete by selecting **Mark as Complete**.
     2.  Configure the Jamf HTTP connection.
 
-        **Important:** Skip this step if using Client credentials for authentication, and instead go to step [4.c](configure-jamf-integration.md#client-credentials).
+        **Important:** Skip this step if using Client credentials for authentication, and instead go to step [4.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-jamf-integration.md).
 
         1.  For the Configure Jamf HTTP connection task, select **Configure**.
         2.  On the form, fill in the fields.
@@ -233,7 +236,7 @@ Base path for HTTPS connection. This field appears only when the **URL builder**
         4.  Set the Configure Jamf HTTP connection task to complete by selecting **Mark as Complete**.
     3.  Configure the client authentication credentials.
 
-        **Important:** Skip this step if using basic token for authentication, and instead go to step [4.a](configure-jamf-integration.md#basic-credentials).
+        **Important:** Skip this step if using basic token for authentication, and instead go to step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-jamf-integration.md).
 
         1.  For the Configure Jamf authentication: Client credentials task, select **Configure**.
         2.  Select **Edit** for the SG-Jamf OAuth Connection, the default connection.
@@ -281,7 +284,7 @@ OAuth Client ID
 
 </td><td>
 
-Application \(client\) ID of your Jamf client application as noted in the [Before you begin](configure-jamf-integration.md#prereq) section.**Note:** Verify that the Jamf client has read privileges for the **Computers** and **Mobile Devices** categories in Jamf.
+Application \(client\) ID of your Jamf client application as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-jamf-integration.md) section.**Note:** Verify that the Jamf client has read privileges for the **Computers** and **Mobile Devices** categories in Jamf.
 
 </td></tr><tr><td>
 
@@ -289,7 +292,7 @@ OAuth Client Secret
 
 </td><td>
 
-Client Secret of your Jamf client application as noted in the [Before you begin](configure-jamf-integration.md#prereq) section.
+Client Secret of your Jamf client application as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-jamf-integration.md) section.
 
 </td></tr></tbody>
 </table>    4.  Test the connection.
@@ -391,11 +394,11 @@ Client Secret of your Jamf client application as noted in the [Before you begin]
 
     3.  On the Scheduled Data Import form, verify the field values for the scheduled job and select the **Active** check box to activate the scheduled job.
 
-        For more information, see [Schedule a data import](https://www.servicenow.com/docs/access?context=t_ScheduleADataImport&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US#table_r53_5hm_xp).
+        For more information, see .
 
     4.  Select **Update**.
 
-    5.  Repeat the steps [6.b](configure-jamf-integration.md#select-job) to [6.d](configure-jamf-integration.md#exe-job) for each scheduled job for data import.
+    5.  Repeat the steps [6.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-jamf-integration.md) to [6.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-jamf-integration.md) for each scheduled job for data import.
 
     6.  Set the Configure scheduled jobs task to complete by selecting **Mark as Complete** in the guided setup.
 

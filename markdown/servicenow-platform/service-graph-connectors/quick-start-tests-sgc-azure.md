@@ -2,6 +2,7 @@
 title: Quick start tests for Service Graph Connector for Microsoft Azure
 description: Validate that Service Graph Connector for Microsoft Azure still works after you make any configuration change such as applying an upgrade or developing an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/quick-start-tests-sgc-azure.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -17,7 +18,7 @@ Validate that Service Graph Connector for Microsoft Azure still works after you 
 
 **Danger**
 
-By default, the system property that is used to run automated tests is disabled to prevent you from accidentally running these tests on a production system. To avoid data corruption or an outage, run tests only on development, test, and other non-production instances. See [Enable or disable executing Automated Test Framework tests](https://www.servicenow.com/docs/access?context=atf-enable-tests&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+By default, the system property that is used to run automated tests is disabled to prevent you from accidentally running these tests on a production system. To avoid data corruption or an outage, run tests only on development, test, and other non-production instances. See Enable or disable executing Automated Test Framework tests.
 
 ## Service Graph Connector for Microsoft Azure
 
@@ -44,10 +45,10 @@ By default, the system property that is used to run automated tests is disabled 
 |SG-Azure Subscription|Validate the successful ingestion of records in the Cloud Service Account table.|Utah|
 |SG-Azure VMs|Validate the successful ingestion of multiple records in the Virtual Machines, Virtual Machine Instance and Relations tables with prerequisite parent ingestion.|Utah|
 
-To learn more about Service Graph Connector for Microsoft Azure, see [Service Graph Connector for Microsoft Azure](../../../product/configuration-management/concept/cmdb-integration-azure.md).
+To learn more about Service Graph Connector for Microsoft Azure, see [Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-integration-azure.md).
 
 **Related topics**  
 
 
-[Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+[bundle-cadev.quick-start-tests]
 

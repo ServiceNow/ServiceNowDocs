@@ -2,6 +2,7 @@
 title: Create an active employee definition
 description: Create an active employee definition to generate the employee profiles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/generate-profile-definition.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation

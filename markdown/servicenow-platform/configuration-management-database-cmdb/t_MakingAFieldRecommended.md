@@ -2,12 +2,13 @@
 title: Set a CI field to be recommended
 description: Define a list of CI fields as recommended, noting that it is desirable that they are populated by a data source such as Discovery. You can then configure the CMDB completeness KPI to include recommended fields in its aggregated health reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/t\_MakingAFieldRecommended.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Configure, CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -28,7 +29,7 @@ Use this procedure for fields which should not be mandatory, but that might have
 
 The CI Class Manager doesn't support dot-walking for selecting fields from referenced tables, as recommended. See the steps at the end of this procedure to directly update tables with recommended fields, using one level dot-walking.
 
-For more information about child and parent classes, see [Table extension and classes](https://www.servicenow.com/docs/access?context=table-extension-and-classes&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For more information about child and parent classes, see .
 
 ## Procedure
 

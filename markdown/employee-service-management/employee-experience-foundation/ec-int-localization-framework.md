@@ -2,6 +2,7 @@
 title: Configure Localization Framework for Content Publishing
 description: Configure the translation workflow to enable Content managers to request translation via the Localization Framework. The basic workflow relies on manual translation; you can integrate with a third-party service to receive automatic translation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ec-int-localization-framework.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,14 +20,14 @@ Configure the translation workflow to enable Content managers to request transla
 
 Role required: Admin
 
--   [Activate Localization Framework](https://www.servicenow.com/docs/access?context=activate-lf-plugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
--   [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
--   \(Optional\) Configure a translation mode, such as machine translations, send to a translation management system, send via email, or export/import: [Translation modes](https://www.servicenow.com/docs/access?context=translation-modes&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+-   
+-   
+-   \(Optional\) Configure a translation mode, such as machine translations, send to a translation management system, send via email, or export/import: Translation modes.
 -   Create a user group to perform translation:
-    -   [Create a user group](https://www.servicenow.com/docs/access?context=t_CreateAGroup&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
-    -   Assign the `localization_fulfiller` role to the group: [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
-    -   Add users to perform translation: [Add a user to a group](https://www.servicenow.com/docs/access?context=t_AddAUserToAGroup&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
--   Activate the `sn_cd.enable_localization_framework_integration` system property: [Properties installed with Content Publishing](../reference/properties-with-content-delivery.md)
+    -   
+    -   Assign the `localization_fulfiller` role to the group: 
+    -   Add users to perform translation: 
+-   Activate the `sn_cd.enable_localization_framework_integration` system property: [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md)
 
 ## Procedure
 
@@ -53,5 +54,5 @@ Role required: Admin
 
 The Content Library displays the **Translate content** button, enabling Content managers to request translation in the languages you have enabled.
 
-To learn more about translation in the Content Library, see [Multilingual support in the Content Library](ec-switch-language.md)
+To learn more about translation in the Content Library, see [Multilingual support in the Content Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-switch-language.md)
 

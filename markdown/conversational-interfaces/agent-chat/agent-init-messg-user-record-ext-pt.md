@@ -2,6 +2,7 @@
 title: Associate user profiles with agent-initiated messages
 description: Use scripted extension points to call custom scripts for associating user profiles with agent-initiated messages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/agent-chat/agent-init-messg-user-record-ext-pt.html
 release: zurich
 product: Agent Chat
 classification: agent-chat
@@ -17,7 +18,7 @@ Use scripted extension points to call custom scripts for associating user profil
 
 ## Before you begin
 
-Install the Agent-Initiated Messaging Interface application. For more information, see [Install agent-initiated messaging interface](install-agent-init-messg.md).
+Install the Agent-Initiated Messaging Interface application. For more information, see [Install agent-initiated messaging interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/agent-chat/install-agent-init-messg.md).
 
 Role required: admin
 
@@ -25,7 +26,7 @@ Role required: admin
 
 An agent can compose messages from an interaction of type other than Message in the CSM Configurable Workspace. By default, the AgentMessagingInteractionUserDocument script include is available for retrieving user profiles associated with consumers and customer contacts in an interaction record.
 
-By using extension points, you can easily integrate customizations without having to alter the base code. You can extend standard base functionality using customized scripts. For more information, see [Using extension points to extend application functionality](https://www.servicenow.com/docs/access?context=extension-points&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+By using extension points, you can easily integrate customizations without having to alter the base code. You can extend standard base functionality using customized scripts. For more information, see Using extension points to extend application functionality.
 
 ## Procedure
 
@@ -54,5 +55,5 @@ By using extension points, you can easily integrate customizations without havin
 5.  On the Extension Point form, click **Update**.
 
 
-**Parent Topic:**[Configuring Agent-Initiated Messaging Interface](../concept/config-agent-init-messg-interface.md)
+**Parent Topic:**[Configuring Agent-Initiated Messaging Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/agent-chat/config-agent-init-messg-interface.md)
 

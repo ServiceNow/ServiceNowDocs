@@ -2,6 +2,7 @@
 title: Configure chat recommendation
 description: Configure chat recommendation by defining triggers, specifying inputs, setting the display location, and activating the feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/configure-chat-reply-recommendation-in-now-assist\_0.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm

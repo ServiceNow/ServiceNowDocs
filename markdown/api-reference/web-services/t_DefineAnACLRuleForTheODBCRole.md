@@ -2,6 +2,7 @@
 title: Define an ACL rule for the odbc role
 description: Define an ACL rule for the odbc role to provide read access to the incident table. You can create other ACL rules for the odbc role to provide read access to other tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/t\_DefineAnACLRuleForTheODBCRole.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -42,9 +43,9 @@ Role required: admin
 9.  Click **Submit**.
 
 
-**Parent Topic:**[Getting started with ODBC](../concept/c_GettingStartedWithODBC.md)
+**Parent Topic:**[Getting started with ODBC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_GettingStartedWithODBC.md)
 
-**Previous topic:**[Create an ODBC user account and assign the odbc role](t_CreateAnODBCUser.md)
+**Previous topic:**[Create an ODBC user account and assign the odbc role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/t_CreateAnODBCUser.md)
 
-**Next topic:**[Installing the ODBC driver](../concept/c_InstallingTheODBCDriver.md)
+**Next topic:**[Installing the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_InstallingTheODBCDriver.md)
 

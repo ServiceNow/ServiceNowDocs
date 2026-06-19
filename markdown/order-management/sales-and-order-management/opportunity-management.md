@@ -2,6 +2,7 @@
 title: Opportunity Management
 description: The  ServiceNow Opportunity Management application enables your sales agents and account executives to analyze customer needs and generate product recommendations for potential customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/opportunity-management.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -17,7 +18,7 @@ The  ServiceNow® Opportunity Management application enables your sales agents
 
 An opportunity in Sales Customer Relationship Management provides maximum information about a product or service based on the needs of a customer \(called a qualified lead\). A lead for a product is the minimal information that a sales agent uses to advance the conversation with a potential customer and create an opportunity.
 
-![Sales and Order Management workflow that shows the opportunity, quote, and order creation steps.](../image/l2c-quote-workflow.png "Opportunity workflow in Sales Customer Relationship Management")
+\[Omitted image "l2c-quote-workflow.png"\] Alt text: Sales CRM workflow that shows the opportunity, quote, and order creation steps.
 
 ## Opportunity Management interface
 
@@ -33,7 +34,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Details](opportunity-management-details-tab.md)
+[Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-management-details-tab.md)
 
 </td><td>
 
@@ -45,12 +46,12 @@ Catalog tab
 
 </td><td>
 
-Search for and add product offerings to your opportunity.-   For legacy product configurator, see [Using the legacy product configurator](using-som-product-configurator.md).
--   For CPQ Configurator, see [Using the CPQ Configurator](using-servicenowcpq.md).
+Search for and add product offerings to your opportunity.-   For legacy product configurator, see [Using the legacy product configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/using-som-product-configurator.md).
+-   For CPQ Configurator, see [Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/using-servicenowcpq.md).
 
 </td></tr><tr><td>
 
-[Needs](../task/opp-mgmt-use-needs-analysis.md)
+[Needs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opp-mgmt-use-needs-analysis.md)
 
 </td><td>
 
@@ -58,7 +59,7 @@ Lists the need templates that provide product recommendations for the opportunit
 
 </td></tr><tr><td>
 
-[Line Items](opportunity-management-line-items-tab.md)
+[Line Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-management-line-items-tab.md)
 
 </td><td>
 
@@ -66,7 +67,7 @@ Add different line items to an opportunity.
 
 </td></tr><tr><td>
 
-[Competitors](opportunity-management-competitors-tab.md)
+[Competitors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-management-competitors-tab.md)
 
 </td><td>
 
@@ -74,7 +75,7 @@ Record competitors information.
 
 </td></tr><tr><td>
 
-[Tasks](opportunity-management-tasks-tab.md)
+[Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-management-tasks-tab.md)
 
 </td><td>
 
@@ -82,7 +83,7 @@ Create opportunity tasks.
 
 </td></tr><tr><td>
 
-[Team](../task/create-new-opportunity-team-member.md)
+[Team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-new-opportunity-team-member.md)
 
 </td><td>
 
@@ -90,7 +91,7 @@ Create opportunity team members.
 
 </td></tr><tr><td>
 
-[Contacts](../task/add-opportunity-associated-contact.md)
+[Contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/add-opportunity-associated-contact.md)
 
 </td><td>
 
@@ -98,7 +99,7 @@ Create opportunity associated contacts.
 
 </td></tr><tr><td>
 
-[Emails](opportunity-management-emails-tab.md)
+[Emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-management-emails-tab.md)
 
 </td><td>
 
@@ -106,7 +107,7 @@ Create emails to send to the required stakeholders.
 
 </td></tr><tr><td>
 
-[Quotes](opportunity-management-create-quote.md)
+[Quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-management-create-quote.md)
 
 </td><td>
 
@@ -128,7 +129,7 @@ Add authorized service organizations or partner entities \(for example, referral
 
 Opportunity Management integrates with the pricing engine to consume the default price list and displays the total price and unit price of product offerings in your opportunity.
 
-Based on the prices of product offerings \(POs\) that are added to the opportunity, the total price values are auto-calculated. For more information, see [Add and view the details of an opportunity](opportunity-management-details-tab.md) and [Add line items to an opportunity](opportunity-management-line-items-tab.md).
+Based on the prices of product offerings \(POs\) that are added to the opportunity, the total price values are auto-calculated. For more information, see [Add and view the details of an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-management-details-tab.md) and [Add line items to an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-management-line-items-tab.md).
 
 Pricing in Opportunity Management provides the following benefits:
 
@@ -136,9 +137,9 @@ Pricing in Opportunity Management provides the following benefits:
 -   Deal prioritization: By analyzing the potential revenue of each opportunity, your sales team can focus on the deals based on their financial impact. For example, teams can focus on deals with higher potential revenue and higher margins.
 -   Negotiation enhancement: The pricing engine gives your sales team real-time pricing insights, which enhances the negotiation process by enabling your sales team to tailor offers that meet customer needs while maintaining profitability.
 
-To learn more about pricing, see [Pricing Management](pricing-management.md).
+To learn more about pricing, see [Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/pricing-management.md).
 
 ## What to do next
 
-To learn about setting up Opportunity Management, see [Install and configure Opportunity Management](configure-opportunity-mgmt.md).
+To learn about setting up Opportunity Management, see [Install and configure Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/configure-opportunity-mgmt.md).
 

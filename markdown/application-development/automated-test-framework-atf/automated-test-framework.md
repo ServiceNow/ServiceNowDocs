@@ -2,6 +2,7 @@
 title: Exploring Automated Test Framework
 description: The Automated Test Framework helps you ensure the integrity of your instance by enabling the creation and execution of automated tests following any changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/automated-test-framework.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -72,9 +73,9 @@ The **Assert type** field specifies the conditions that must be met for a test t
 
 Some test step categories that include steps with an **Assert type** field include:
 
--   [Server category](../reference/test-steps-server-category.md#): Assert which CRUD operations cause a test to pass or fail.
--   [Custom UI category](../reference/test-steps-custom-ui-category.md#): Assert which component states cause a test to pass or fail, and whether visible text causes a test to pass or fail.
--   [Forms in Service Portal category](../reference/test-steps-forms-portal-category.md#): Assert whether a form canceled in the browser due to validation errors, or a form successfully submitted to the server causes a test to pass.
+-   [Server category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/test-steps-server-category.md): Assert which CRUD operations cause a test to pass or fail.
+-   [Custom UI category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/test-steps-custom-ui-category.md): Assert which component states cause a test to pass or fail, and whether visible text causes a test to pass or fail.
+-   [Forms in Service Portal category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/test-steps-forms-portal-category.md): Assert whether a form canceled in the browser due to validation errors, or a form successfully submitted to the server causes a test to pass.
 
 ## Client test runners
 
@@ -135,7 +136,7 @@ atf\_ws\_designer
 
 </td><td>
 
-View or set basic authentication profiles needed for REST endpoints that require authentication. See [REST category](../reference/test-steps-rest-category.md#) for more information.
+View or set basic authentication profiles needed for REST endpoints that require authentication. See [REST category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/test-steps-rest-category.md) for more information.
 
 </td></tr></tbody>
 </table>ATF doesn't support these elements of Next Experience, but support for these features is planned for future releases:

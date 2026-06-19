@@ -2,6 +2,7 @@
 title: Installed with Service Creator
 description: Several types of components are installed with Service Creator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/service-creator/r\_InstalledWithServiceCreator.html
 release: zurich
 product: Service Creator
 classification: service-creator
@@ -17,15 +18,15 @@ Several types of components are installed with Service Creator.
 
 Demo data is available with Service Creator. The demo data provides the Departmental Services service catalog category.
 
-Creating a new service category also creates [components for that service category](r_CompsCreatedWithNewSvcCategs.md).
+Creating a new service category also creates [components for that service category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/service-creator/r_CompsCreatedWithNewSvcCategs.md).
 
-The following components are added with [Service Creator](../concept/c_ServiceCreator.md):
+The following components are added with [Service Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/service-creator/c_ServiceCreator.md):
 
 ## Tables
 
 |Table|Description|
 |-----|-----------|
-|Service Category \[catalog\_category\_request\]|Stores all [service categories](../task/t_ManagingServices.md).|
+|Service Category \[catalog\_category\_request\]|Stores all [service categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/service-creator/t_ManagingServices.md).|
 |Service Category Request User \[catalog\_category\_request\_user\]|Tracks fulfillers for a service category. Use these records to grant or remove roles as needed.|
 |Service \[sc\_cat\_item\_producer\_service\]|Stores all services.|
 |Service Category App Menu \[service\_category\_app\_menu\]|Stores the application menus for each service category.|

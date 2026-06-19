@@ -2,6 +2,7 @@
 title: Software Asset Management dashboard
 description: View true-up costs, optimization results, and compliance trend charts on the Software Asset Management dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/c\_SAMDashboard.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -29,8 +30,6 @@ The graphs show important statistics about the software being tracked. In the Ov
 ## Overview
 
 The source for overview data is the Product Result \[samp\_product\_result\] table.
-
-![Software Asset Management dashboard](../image/dashboard-sam-overview.png "Overview tab")
 
 <table id="table_vgl_c3y_tz"><thead><tr><th>
 
@@ -93,8 +92,6 @@ Top 10 products graphed in order of potential savings.
 
 The source for optimization data is the Reclamation Candidate \[samp\_sw\_reclamation\_candidate\] table.
 
-![Optimization tab in the Software Asset Management dashboard](../image/dashboard-sam-optimization.png "Optimization tab")
-
 <table id="table_y3q_r3y_tz"><thead><tr><th>
 
 Report
@@ -156,7 +153,7 @@ Actual Savings per Month
 State is Closed Complete AND Closed in Last 12 Months
 
 </td></tr></tbody>
-</table>[Removal candidate](../task/t_AddAReclCandidate.md) state color key:
+</table>[Removal candidate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_AddAReclCandidate.md) state color key:
 
 |Color|State|
 |-----|-----|
@@ -170,8 +167,6 @@ State is Closed Complete AND Closed in Last 12 Months
 ## Compliance Analysis
 
 Compliance analysis consists of time-series data using Performance Analytics to show the compliance trends over time. The for compliance analysis data is the Product Result \[samp\_product\_result\] table.
-
-![Compliance Analysis tab in the Software Asset Management dashboard](../image/SAMCompliance.png "Compliance Analysis tab")
 
 |Report|Description|
 |------|-----------|
@@ -190,5 +185,5 @@ Compliance analysis consists of time-series data using Performance Analytics to 
 |Breakdowns|Shows the detailed list of results based on the widget selected.|
 |Records|Shows the detailed list of product results based on the widget selected.|
 
-**Parent Topic:**[Platform Analytics Solution for Software Asset Management classic](../../../use/dashboards/application-content-packs/software-asset-mgmt-content-pack.md)
+**Parent Topic:**[Platform Analytics Solution for Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-asset-mgmt-content-pack.md)
 

@@ -2,6 +2,7 @@
 title: Elasticsearch integration configuration fields
 description: Description of the fields on the Elasticsearch integration configuration forms for Health Log Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/il-connector-hla-elastic-fields.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -16,7 +17,7 @@ breadcrumb: [Integration configuration field descriptions, Health Log Analytics 
 
 Description of the fields on the Elasticsearch integration configuration forms for Health Log Analytics.
 
-For the Elasticsearch integration setup procedure, see [Set up an Elasticsearch integration for Health Log Analytics](../task/il-connector-hla-elasticsearch.md).
+For the Elasticsearch integration setup procedure, see [Set up an Elasticsearch integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/il-connector-hla-elasticsearch.md).
 
 <table id="table_r45_gzv_mcc"><thead><tr><th>
 
@@ -78,7 +79,7 @@ Service instance
 
 </td><td>
 
-The service instance to which to bind the log data. This field is required.**Note:** If no relevant service instance exists, [Create an service instance](https://www.servicenow.com/docs/access?context=create-it-services&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) and add CIs to it. Set the status of the new service instance to Operational.
+The service instance to which to bind the log data. This field is required.**Note:** If no relevant service instance exists, Create an service instance and add CIs to it. Set the status of the new service instance to Operational.
 
 </td></tr><tr><td>
 
@@ -206,7 +207,7 @@ Use MID certificate policy check
 
 </td><td>
 
-Option to enable the MID certificate policy check.Select this option if you want to ship your logs encrypted using SSL TLS. Then navigate to **All** &gt; **MID Server** &gt; **MID Security Policy** and add the MID certificate policy check to the table. For more information, see [MID Server certificate check policies](https://www.servicenow.com/docs/access?context=mid-security-checks&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+Option to enable the MID certificate policy check.Select this option if you want to ship your logs encrypted using SSL TLS. Then navigate to **All** &gt; **MID Server** &gt; **MID Security Policy** and add the MID certificate policy check to the table. For more information, see MID Server certificate check policies.
 
 </td></tr><tr><td>
 
@@ -396,5 +397,5 @@ Polling interval
 How frequently the system polls for new log data.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integration configuration field descriptions](../concept/hla-connector-config-fields.md)
+</table>**Parent Topic:**[Integration configuration field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

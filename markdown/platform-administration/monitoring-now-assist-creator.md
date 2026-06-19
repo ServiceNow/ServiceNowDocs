@@ -2,6 +2,7 @@
 title: Monitoring Now Assist creators in Subscription Management
 description: View a summary of your Creator Plus entitlements and track allocations for distinct users across all of your instances in Subscription Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/monitoring-now-assist-creator.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -19,7 +20,7 @@ View a summary of your Creator Plus entitlements and track allocations for disti
 -   View the total number of Creator Plus entitlements allocated to unique users across all your instances.
 -   Track the availability of the remaining Creator Plus entitlements that you can allocate to users.
 
-![Now Assist creators.](../image/subscription-management-creator-account.png "Now Assist Creator Plus entitlements")
+\[Omitted image "subscription-management-creator-account.png"\] Alt text: Now Assist creators.
 
 ## Required ServiceNow AI Platform roles
 
@@ -41,6 +42,6 @@ Access details about Creator Plus entitlements by navigating to **Admin** &gt; *
     In some scenarios, data isn't displayed in the **Instances** list.
 
     -   Only instances on Washington DC Patch 2 and higher are listed in the **Instances** list.
-    -   If data sharing is restricted on an instance, usage data for that instance is hidden. You can disable the restriction by updating the trust configuration on that instance. See [Share subscription data from another instance](../task/share-subscription-data.md).
+    -   If data sharing is restricted on an instance, usage data for that instance is hidden. You can disable the restriction by updating the trust configuration on that instance. See [Share subscription data from another instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/share-subscription-data.md).
 -   View Creator Plus product subscription details by selecting a product in the **Subscriptions** list. On the details page, allocate available Creator Plus subscriptions by adding one or more groups with the Creator role.
 

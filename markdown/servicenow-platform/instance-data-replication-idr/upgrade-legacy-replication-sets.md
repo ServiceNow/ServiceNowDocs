@@ -2,6 +2,7 @@
 title: Upgrade legacy replication sets in Instance Data Replication
 description: Replicate high volumes of data faster and more reliably by upgrading your Instance Data Replication \(IDR\) legacy producer and consumer replication sets to V2.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/instance-data-replication-idr/upgrade-legacy-replication-sets.html
 release: zurich
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -32,7 +33,7 @@ Role required: admin
 3.  Verify that the producer replication set is eligible for upgrade by checking the **Upgrade Eligibility** column on the Consumer Subscriptions related list.
 
     -   If the value for each consumer is **Eligible**, you can upgrade the replication set.
-    -   If the value for any consumer **Not eligible**, this means that either the consumer instance isn't on Utah or higher, or the consumer replication set is on Utah, but isn't eligible for upgrade to V2 because of its configuration. See [Upgrade eligibility](../concept/upgrading-legacy-replication-sets-v2.md#section_r2w_4b5_lvb) for more information.
+    -   If the value for any consumer **Not eligible**, this means that either the consumer instance isn't on Utah or higher, or the consumer replication set is on Utah, but isn't eligible for upgrade to V2 because of its configuration. See [Upgrade eligibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/instance-data-replication-idr/upgrading-legacy-replication-sets-v2.md) for more information.
 4.  Create a V2 producer replication set.
 
     1.  On the Producer Replication Set form, select **Upgrade**.
@@ -102,5 +103,5 @@ Role required: admin
 
 The legacy producer and consumer replication sets are upgraded to V2 and the upgrade status changes to Up to date. Data replication continues based on the last message ID that was processed by the legacy replication set.
 
-**Parent Topic:**[Upgrading legacy replication sets to V2 in Instance Data Replication](../concept/upgrading-legacy-replication-sets-v2.md)
+**Parent Topic:**[Upgrading legacy replication sets to V2 in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/instance-data-replication-idr/upgrading-legacy-replication-sets-v2.md)
 

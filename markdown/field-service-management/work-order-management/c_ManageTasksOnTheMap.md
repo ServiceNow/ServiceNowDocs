@@ -2,6 +2,7 @@
 title: Manage tasks on the map
 description: The icons in the task map mark the location of tasks assigned to you and any unassigned tasks in your area.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/c\_ManageTasksOnTheMap.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

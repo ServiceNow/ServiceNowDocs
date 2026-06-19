@@ -2,12 +2,13 @@
 title: Altering tables and fields using dictionary attributes
 description: Dictionary attributes alter the behavior of the table or field that the dictionary record describes. Administrators can add or modify dictionary attributes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/c\_DictionaryAttributes.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 26
+last_updated: "2026-04-30"
+reading_time_minutes: 27
 breadcrumb: [Managing tables and indexes, Table admin, Tables and data, Configure core features, Administer]
 ---
 
@@ -17,7 +18,7 @@ Dictionary attributes alter the behavior of the table or field that the dictiona
 
 ## Adding an attribute
 
-To add or remove an attribute to a table or field, open a dictionary record, select the **Advanced** link, and modify the **Attributes** field. Alternatively, in a dictionary record, select **New** in the Attributes related list. For details on modifying dictionary entries, see [Modify dictionary entries](../../data-dictionary-tables/task/t_ModifyADictionaryEntryFromAForm.md).
+To add or remove an attribute to a table or field, open a dictionary record, select the **Advanced** link, and modify the **Attributes** field. Alternatively, in a dictionary record, select **New** in the Attributes related list. For details on modifying dictionary entries, see [Modify dictionary entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/t_ModifyADictionaryEntryFromAForm.md).
 
 Attributes are comma-separated. If attributes exist on a dictionary record, add a comma with no spaces before adding an attribute.
 
@@ -146,7 +147,7 @@ any table
 
 </td><td>
 
-If true, attachments on the table are indexed for search purposes. To learn more, see [Index attachments on a table](../../form-administration/task/t_DisablingAttachmentsOnATable.md).
+If true, attachments on the table are indexed for search purposes. To learn more, see [Index attachments on a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_DisablingAttachmentsOnATable.md).
 
 </td></tr><tr><td>
 
@@ -338,7 +339,7 @@ any table
 
 </td><td>
 
-Displays the value of the specified field as a [Lists](https://www.servicenow.com/docs/access?context=c_UseLists&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) for each record in the list view. UI15 is required to use this attribute.**Note:** If different **detail\_row** attributes are defined for a parent table and a child table, the system uses the child table attribute.
+Displays the value of the specified field as a Lists for each record in the list view. UI15 is required to use this attribute.**Note:** If different **detail\_row** attributes are defined for a parent table and a child table, the system uses the child table attribute.
 
 </td></tr><tr><td>
 
@@ -420,7 +421,7 @@ any table
 
 </td><td>
 
-Excludes this table \(and any of its descendant tables\) from being recorded for rollback. For example, use this attribute to preserve records that are created from an automated test. For tables excluded by default, see [Tables excluded from rollback after running an automated test](https://www.servicenow.com/docs/access?context=atf-excluded-from-rollback&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+Excludes this table \(and any of its descendant tables\) from being recorded for rollback. For example, use this attribute to preserve records that are created from an automated test. For tables excluded by default, see Tables excluded from rollback after running an automated test.
 
 </td></tr><tr><td>
 
@@ -603,6 +604,22 @@ If present, performs sanitization using the specified configuration file instead
 
 </td></tr><tr><td>
 
+i18n\_locale\_text\_match
+
+</td><td>
+
+true/false
+
+</td><td>
+
+any string field
+
+</td><td>
+
+If true, enables case and accent \(diacritic\) sensitivity for text search of the column. If false, text search of the column is case and accent insensitive. The default behavior is false. This attribute can't be set to true when i18n\_session\_language\_sortable is true on the same column. To learn more see [Set case and accent sensitivity on a per-column basis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/sl-locale-text-match.md).
+
+</td></tr><tr><td>
+
 i18n\_session\_language\_sortable
 
 </td><td>
@@ -615,7 +632,7 @@ any string field
 
 </td><td>
 
-If true, enables sorting the column by the user's session language. If false, sorting by the user's session language is disabled and the column is sorted according to the English alphabet.
+If true, enables sorting the column by the user's session language. If false, sorting by the user's session language is disabled and the column is sorted according to the English alphabet. This attribute can't be set to true when i18n\_locale\_text\_match is true on the same column. To learn more see [Sorting according to the session language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/sorting-session-language.md)
 
 </td></tr><tr><td>
 
@@ -829,7 +846,7 @@ any field
 
 </td><td>
 
-If present or true, creates a toggle option on the activity formatter header for incidents, tasks, and problems. The toggle provides a choice between the **Live Feed** for that record \(also known as a document feed\) or the activity formatter fields already in use. To learn more, see [Activity formatter](../../form-administration/concept/c_ActivityFormatter.md#) for more details.
+If present or true, creates a toggle option on the activity formatter header for incidents, tasks, and problems. The toggle provides a choice between the **Live Feed** for that record \(also known as a document feed\) or the activity formatter fields already in use. To learn more, see [Activity formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_ActivityFormatter.md) for more details.
 
 </td></tr><tr><td>
 
@@ -1105,7 +1122,7 @@ any table
 
 </td><td>
 
-If present or true, marks this table as not participating in domain separation. To learn more, see [Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+If present or true, marks this table as not participating in domain separation. To learn more, see Domain separation for service providers.
 
 </td></tr><tr><td>
 
@@ -1282,7 +1299,7 @@ any reference field with an auto completer \(see ref\_auto\_completer\)
 
 </td><td>
 
-Causes auto-complete to work with all fields that are specified in the **ref\_ac\_columns** attribute. This attribute overrides the default behavior, which searches only the display value column. To learn more, see [Configure auto-complete to match text from any reference field](../../field-administration/concept/c_AutoCompleteForReferenceFields.md#).
+Causes auto-complete to work with all fields that are specified in the **ref\_ac\_columns** attribute. This attribute overrides the default behavior, which searches only the display value column. To learn more, see [Configure auto-complete to match text from any reference field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_AutoCompleteForReferenceFields.md).
 
 </td></tr><tr><td>
 
@@ -1298,7 +1315,7 @@ any reference field with an auto completer \(see ref\_auto\_completer\)
 
 </td><td>
 
-Causes the reference field to hide the display value column so that the auto-complete function only matches the text from the columns that are listed in the **ref\_ac\_columns** attribute. This feature requires the use of the AJAXTableCompleter class and the **ref\_ac\_columns**, **ref\_ac\_columns\_search**, and **ref\_ac\_display\_value** attributes. To learn more, see [Remove the display value column](../../field-administration/concept/c_AutoCompleteForReferenceFields.md#).
+Causes the reference field to hide the display value column so that the auto-complete function only matches the text from the columns that are listed in the **ref\_ac\_columns** attribute. This feature requires the use of the AJAXTableCompleter class and the **ref\_ac\_columns**, **ref\_ac\_columns\_search**, and **ref\_ac\_display\_value** attributes. To learn more, see [Remove the display value column](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_AutoCompleteForReferenceFields.md).
 
 **Note:** The ref\_ac\_display\_value function does not work with Catalog Item variables.
 
@@ -1332,11 +1349,11 @@ any reference field \(can be applied to a table to affect all reference fields o
 
 </td><td>
 
-Specifies the name of a JavaScript class \(client side\) that creates the list auto completion choices. Valid class values include: -   AJAXReferenceCompleter: Matching auto-complete choices appear as a list. Only the [Display values](../../field-administration/concept/c_DisplayValues.md) column of the reference table appears. If there is no other auto-completion class specified, reference fields automatically use this class.
+Specifies the name of a JavaScript class \(client side\) that creates the list auto completion choices. Valid class values include: -   AJAXReferenceCompleter: Matching auto-complete choices appear as a list. Only the [Display values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_DisplayValues.md) column of the reference table appears. If there is no other auto-completion class specified, reference fields automatically use this class.
 -   AJAXTableCompleter: Matching auto-complete choices appear as rows in a table. The display value column of the reference table appears, with any columns listed in the **ref\_ac\_columns** attribute.
 -   AJAXReferenceChoice: Displays matching auto-complete choices as a list. Only the display value column of the reference table, and up to 25 matching choices, appear. If there are more than 25 auto-complete choices, the choices for the AJAXTableCompleter class appear for the reference field instead.
 
- For more information, see [Auto-complete for reference fields](../../field-administration/concept/c_AutoCompleteForReferenceFields.md#).
+ For more information, see [Auto-complete for reference fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_AutoCompleteForReferenceFields.md).
 
 </td></tr><tr><td>
 
@@ -1584,7 +1601,7 @@ condition fields
 
 </td><td>
 
-Enables or disables the condition count widget to preview how many records are a set of conditions. To learn more, see [Add the condition count to a condition field](../../field-administration/task/t_AddingTheConditionCountWidget.md).
+Enables or disables the condition count widget to preview how many records are a set of conditions. To learn more, see [Add the condition count to a condition field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_AddingTheConditionCountWidget.md).
 
 </td></tr><tr><td>
 
@@ -1728,7 +1745,7 @@ any table
 
 </td><td>
 
-Similar to **update\_synch** but writes the file attachments of the record to update sets. To learn more, see [Index attachments on a table](../../form-administration/task/t_DisablingAttachmentsOnATable.md).
+Similar to **update\_synch** but writes the file attachments of the record to update sets. To learn more, see [Index attachments on a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_DisablingAttachmentsOnATable.md).
 
 </td></tr><tr><td>
 
@@ -1790,7 +1807,7 @@ target_field=percent_complete_target,target_threshold_colors=0:tomato;50:khaki;9
 target_field=percent_complete_target,target_threshold_colors=0:tomato;50:khaki;90:lightgreen,target_field=u_expected_completion
 ```
 
- If you do not specify an additional target\_field, a target value of 100 is used, allowing you to use the color thresholds with a single field value. See [Target threshold colors attribute](../../field-administration/concept/c_TargetThresholdColorsAttribute.md#).
+ If you do not specify an additional target\_field, a target value of 100 is used, allowing you to use the color thresholds with a single field value. See [Target threshold colors attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_TargetThresholdColorsAttribute.md).
 
 </td></tr><tr><td>
 
@@ -1838,7 +1855,7 @@ any table
 
 </td><td>
 
-Sets the value to false to [Enable or disable the Zing junk filter](../../search-administration/task/t_DisableTheJunkFilter.md) for the table. -   By default, Zing does not index or search for two-digit numbers and single character words \(unless they are Chinese or Japanese characters\).
+Sets the value to false to [Enable or disable the Zing junk filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/search-administration/t_DisableTheJunkFilter.md) for the table. -   By default, Zing does not index or search for two-digit numbers and single character words \(unless they are Chinese or Japanese characters\).
 -   Regenerate the index after disabling the junk filter. This attribute results in a larger table index.
 -   For optimal performance, do not apply it unless it is required.
 
@@ -1936,7 +1953,7 @@ any field
 
 </td><td>
 
-Controls the relative importance of a match in the field for a text search. To learn more, see [Set the relative weight of a field](../../search-administration/task/t_ControlMatchRelevanceByField.md).
+Controls the relative importance of a match in the field for a text search. To learn more, see [Set the relative weight of a field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/search-administration/t_ControlMatchRelevanceByField.md).
 
 </td></tr><tr><td>
 
@@ -1984,7 +2001,7 @@ any table
 
 </td><td>
 
-Indicates that changes in the table are tracked in update sets. Administrators cannot modify this attribute. To migrate data, use an [Importing from another ServiceNow instance](https://www.servicenow.com/docs/access?context=c_ImportingFromAnotherSNInstance&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+Indicates that changes in the table are tracked in update sets. Administrators cannot modify this attribute. To migrate data, use an Importing from another ServiceNow instance.
 
 </td></tr><tr><td>
 
@@ -2051,8 +2068,8 @@ radio buttons
 If true, displays the radio buttons vertically.
 
 </td></tr></tbody>
-</table>-   **[Modify the Glide durations format](../../data-dictionary-tables/concept/c_ModifyTheGlideDurationsFormat.md)**  
+</table>-   **[Modify the Glide durations format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_ModifyTheGlideDurationsFormat.md)**  
 To convert fields that are displayed in milliseconds \(such as 'Resolution Time' on the Incident table\) to a duration format \(Months/Days/Hours/Seconds\), populate the attribute field on the dictionary with: `format=glide_duration`.
 
-**Parent Topic:**[Managing tables and indexes](../../table-administration/concept/using-table-administration.md)
+**Parent Topic:**[Managing tables and indexes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/using-table-administration.md)
 

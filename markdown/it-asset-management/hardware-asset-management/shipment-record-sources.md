@@ -2,6 +2,7 @@
 title: Task closures that create shipment records
 description: A shipment record is created automatically when any shipment task is closed. You can track a shipment easily by specifying a tracking number and shipping carrier on the shipment task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/shipment-record-sources.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -57,16 +58,16 @@ Purchase order
 
 </td><td>
 
--   [Create hardware assets prior to delivery](../../procurement/task/t_CreateAssetReserveForRequester.md): When the hardware asset records are automatically created.
--   [Advanced shipment notification](../task/advanced-shipment-notification.md): When the assets are imported for every unique tracking number specified in the import file.
+-   [Create hardware assets prior to delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/procurement/t_CreateAssetReserveForRequester.md): When the hardware asset records are automatically created.
+-   [Advanced shipment notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/advanced-shipment-notification.md): When the assets are imported for every unique tracking number specified in the import file.
 
 **Note:**
 
 If the shipping carrier specified for a row in the import file isn't available in the Shipping carrier \[sn\_itam\_shipping\_carrier\] table, then that row isn’t imported. Also, no shipment record is created. You must do one of the following and reimport the file:
 
-    -   The shipping carrier must be included in the Shipping Carriers list. For more details, see [Create a shipping carrier record](../task/create-shipping-carrier.md).
+    -   The shipping carrier must be included in the Shipping Carriers list. For more details, see [Create a shipping carrier record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-shipping-carrier.md).
     -   The value of the sn\_hamp.enable\_shipping\_carrier\_validation\_asn system property must be set to **false**.
--   [Receive an asset](../../procurement/task/t_ReceiveAnAsset.md): When the assets are received.
+-   [Receive an asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/procurement/t_ReceiveAnAsset.md): When the assets are received.
 
 **Note:** The shipment record is created in the Delivered stage.
 
@@ -138,5 +139,5 @@ The Request shipment task is closed.
 The User asset receive task is closed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Hardware Asset Management reference](../concept/reference-hardware-asset-management.md)
+</table>**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
 

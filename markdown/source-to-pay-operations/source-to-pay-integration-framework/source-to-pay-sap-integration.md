@@ -2,6 +2,7 @@
 title: Source-to-Pay integration with SAP
 description: The Source-to-Pay integration with SAP enables you to send purchase orders, receipts, and invoices created on the SAP from your ServiceNow instance. This integration helps in looking up or extracting primary data objects from SAP into ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-sap-integration.html
 release: zurich
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -25,15 +26,15 @@ With this application, you can perform the following:
 -   Create good receipts in SAP.
 -   Create invoices in SAP.
 
-![Overview of the Source-to-Pay integration with SAP ECC and SAP S4 HANA Public Cloud and OData](../image/source-to-pay-integration-sap-overview.png "Overview of the Source-to-Pay integration with SAP")
+\[Omitted image "source-to-pay-integration-sap-overview.png"\] Alt text: Overview of the Source-to-Pay integration with SAP ECC and SAP S4 HANA Public Cloud and OData
 
 ## Prerequisites
 
 First, you must activate the Source-to-Pay integration with the SAP application from the ServiceNow Store. This automatically activates the SAP ECC, SAP S4 Public, and SAP S4 HANA OData Spoke. Next you must set up the following SAP ECC or SAP S4 HANA based on your requirement:
 
--   [SAP ECC RFC Spoke](https://www.servicenow.com/docs/csh?topicname=sap-ecc-rfc-spoke&amp;amp;version=yokohama&amp;amp;pubname=yokohama-integrate-applications)
--   [SAP S4 HANA Public Cloud Spoke](https://www.servicenow.com/docs/csh?topicname=sap-s4-hana-cloud-spk&amp;amp;version=yokohama&amp;amp;pubname=yokohama-integrate-applications)
--   [SAP S4 HANA OData Spoke](https://www.servicenow.com/docs/csh?topicname=sap-s4-odata-spoke&amp;version=yokohama&amp;pubname=yokohama-integrate-applications)
+-   [SAP ECC RFC Spoke](https://www.servicenow.com/docs/access?context=sap-ecc-rfc-spoke&version=yokohama)
+-   [SAP S4 HANA Public Cloud Spoke](https://www.servicenow.com/docs/access?context=sap-s4-hana-cloud-spk&version=yokohama)
+-   [SAP S4 HANA OData Spoke](https://www.servicenow.com/docs/access?context=sap-s4-odata-spoke&version=yokohama)
 
 The following are the ServiceNow Store app plugins:
 
@@ -43,7 +44,7 @@ The following are the ServiceNow Store app plugins:
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## How it works
 

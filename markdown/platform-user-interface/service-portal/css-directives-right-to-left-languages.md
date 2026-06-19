@@ -2,6 +2,7 @@
 title: CSS for right-to-left languages in portals
 description: You can control the generation of CSS for right-to-left languages using a variety of methods.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/css-directives-right-to-left-languages.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -21,7 +22,7 @@ Custom widgets might need some manual conversion for right-to-left languages.
 
 -   For inline styles in a widget's HTML template, move these styles to the widget's CSS so they’ll be automatically converted.
 -   For internal styles in a widget's HTML template, you can use the `[dir=”rtl”]` attribute selector or `.rtl` class selector to provide CSS that is specific to right-to-left languages.
--   To include CSS that is specific to right-to-left languages, you can call the isRTLEnabled\(\) method in the [GlideSPScriptable - Scoped](https://www.servicenow.com/docs/access?context=c_GlideSPScriptableScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) class in a widget’s server script or use the g\_portal\_isrtl global flag in the widget’s client script.
+-   To include CSS that is specific to right-to-left languages, you can call the isRTLEnabled\(\) method in the  class in a widget’s server script or use the g\_portal\_isrtl global flag in the widget’s client script.
 
 Also, in the theme, page, widget, or widget instance CSS, you can add right-to-left directives to CSS properties only using a Sass interpolation string \(`#{""}`\).
 
@@ -41,5 +42,5 @@ transform: rotate(45deg) translateY(5px) #{"/*rtl:ignore*/"};
 }
 ```
 
-**Parent Topic:**[Styling for right-to-left languages in portals](styling-right-to-left-languages.md)
+**Parent Topic:**[Styling for right-to-left languages in portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/styling-right-to-left-languages.md)
 

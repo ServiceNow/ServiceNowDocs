@@ -2,6 +2,7 @@
 title: View assigned Walk-up Experience locations
 description: Walk-up Experience agents can view a list of the walk-up queues they are assigned to support. Locations queues reveal all the information an agent needs to know to operate the queue efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/walk-up-experience/view-walkup-location.html
 release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -43,5 +44,5 @@ The agents can view associated walk-up location stockrooms in following ways:
     If there are any pending interactions with no associated guests at the queue, select **Abandon All** to cancel these interactions.
 
 
-**Parent Topic:**[Manage Walk-up Experience queue and interaction](../concept/use-walkup-to-manage-demand.md)
+**Parent Topic:**[Manage Walk-up Experience queue and interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
 

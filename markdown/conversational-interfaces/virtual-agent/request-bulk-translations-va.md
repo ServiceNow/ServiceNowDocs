@@ -2,6 +2,7 @@
 title: Request bulk translations for multiple topics
 description: If you need to translate many Virtual Agent topics across multiple models at one time, you can use the \[sys\_cs\_topic\] table list view to request translations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/request-bulk-translations-va.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -29,10 +30,10 @@ Role required: virtual\_agent\_admin or admin
 
 4.  In the Request Translations dialog box, select the languages.
 
-    Only languages that are installed and activated in the Localization Framework are displayed. To learn how to activate localization plugins, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    Only languages that are installed and activated in the Localization Framework are displayed. To learn how to activate localization plugins, see Activate a language.
 
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Localizing Virtual Agent conversations](../concept/localize-va-topic.md)
+**Parent Topic:**[Localizing Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/localize-va-topic.md)
 

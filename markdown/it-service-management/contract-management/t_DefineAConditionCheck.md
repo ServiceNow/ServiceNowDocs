@@ -2,6 +2,7 @@
 title: Define a condition check
 description: You can define a condition check to change values in a contract when the Contract Compliance Checks scheduled job runs each night.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/contract-management/t\_DefineAConditionCheck.html
 release: zurich
 product: Contract Management
 classification: contract-management
@@ -118,5 +119,5 @@ The order in which the conditions are evaluated. The first condition that is fou
 8.  Continue adding conditions as needed, following the steps above.
 
 
-**Parent Topic:**[Condition check definitions](../concept/c_UseConditionCheckDefinitions.md)
+**Parent Topic:**[Condition check definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/contract-management/c_UseConditionCheckDefinitions.md)
 

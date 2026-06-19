@@ -2,6 +2,7 @@
 title: Monitoring Technology Dashboard for AWS
 description: With the AWS Monitoring Technology Dashboard, you can monitor the health and performance of your AWS infrastructure. By using the dashboard, you can identify the configuration items \(CIs\) and servers with the highest metric readouts, and view the most recent active alerts on those CIs and servers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/monitor-tech-dashboard-aws.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -25,8 +26,8 @@ To view the dashboard, navigate to **All** &gt; **AIOps Dashboards** &gt; **Moni
 
 Before using the Monitoring Technology Dashboard for AWS:
 
--   Create an AWS credential. For details on creating AWS credentials, see [Setting up AWS service accounts](../../it-operations-management/concept/setup-aws-service-accounts.md).
--   Create a Discovery schedule, using the credential created in the previous step. For details on creating a Discovery schedule, see [Access setup for AWS service accounts](../../it-operations-management/concept/access-aws-accounts.md).
+-   Create an AWS credential. For details on creating AWS credentials, see [Setting up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/setup-aws-service-accounts.md).
+-   Create a Discovery schedule, using the credential created in the previous step. For details on creating a Discovery schedule, see [Access setup for AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/access-aws-accounts.md).
 -   Ensure that you’re working in the Agent Client Collector Monitoring scope in your ServiceNow instance.
 -   Ensure that the agent\_client\_collector\_admin and dashboard\_admin roles are enabled.
 -   Enable Metric Intelligence on the MID Server.
@@ -51,7 +52,7 @@ The AWS Monitoring Technology Dashboard contains the tabs that are listed in the
 |ECS Cluster|Displays the metric data from the ECS cluster in the AWS environment.|
 |ECS Service|Displays the metric data from the ECS service in the AWS environment.|
 
-On the right side of widgets displaying a single metric, you can select the More options icon \(![More options icon](../image/three-vertical-icon.png)\) and select **Change group by**. Select the category you want to view the metric by: Host name, Class, Operating System, or OS Version.
+On the right side of widgets displaying a single metric, you can select the More options icon \(\[Omitted image "three-vertical-icon.png"\] Alt text: More options icon\) and select **Change group by**. Select the category you want to view the metric by: Host name, Class, Operating System, or OS Version.
 
 Point to the relevant widget to view a specific datapoint and all of its details in a pop-up window. Select the **Alerts** tab to view the 50 most recent active alerts in your environment. Alerts help you to remediate your system by providing the information on problematic behavior.
 
@@ -59,5 +60,5 @@ Use the **Time range filter** to filter the time range for which you want metric
 
 Use the **Metrics by selected CI filter** to select the CIs for which you want to view metrics.
 
-You can customize the appearance of the individual widgets on the AWS Monitoring Technology Dashboard. For example, you could change the time that the EC2 metrics appear. You can also include the customized widgets when you are creating a custom dashboard. For more information, see [Customize the Monitoring Technology Dashboard](../task/customize-dashboard-widgets.md).
+You can customize the appearance of the individual widgets on the AWS Monitoring Technology Dashboard. For example, you could change the time that the EC2 metrics appear. You can also include the customized widgets when you are creating a custom dashboard. For more information, see [Customize the Monitoring Technology Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/customize-dashboard-widgets.md).
 

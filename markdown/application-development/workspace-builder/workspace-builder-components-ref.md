@@ -2,6 +2,7 @@
 title: Workspace Builder components for home pages
 description: Several UI Builder components are available as elements to build home pages and contextual side panels in Workspace Builder. Workspace Builder helps you quickly create workspaces.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/workspace-builder/workspace-builder-components-ref.html
 release: zurich
 product: Workspace Builder
 classification: workspace-builder
@@ -23,11 +24,11 @@ The data visualization component is a container for available chart types for us
 
 For more information on data visualization components, see the following topics and sources:
 
--   [Data visualizations in Platform Analytics](https://www.servicenow.com/docs/access?context=analytics-center-data-visualizations&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US)
--   [Create a single score data visualization](https://www.servicenow.com/docs/access?context=create-dv-sing-sc-ac&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US)
+-   
+-   
 -   [Developer site data visualization component listing](https://developer.servicenow.com/dev.do#!/reference/now-experience/yokohama/now-components/sn-par-visualization-base/overview)
 
-![Data visualization element to be edited](../image/wb-data-viz-purple-new.png)
+\[Omitted image "wb-data-viz-purple-new.png"\] Alt text: Data visualization element to be edited
 
 ## Filter components
 
@@ -35,7 +36,7 @@ Filters enable you to filter data visualizations without modifying the visualiza
 
 For more information on using filters components to build a workspace, see the following topics and sources:
 
--   [Next Experience filters](https://www.servicenow.com/docs/access?context=interactive-filters-workspace&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US)
+-   Next Experience filters
 -   [Developer site filter component listing](https://developer.servicenow.com/dev.do#!/reference/now-experience/yokohama/now-components/sn-component-filter/overview)
 
 ## Heading components
@@ -44,7 +45,7 @@ Heading components are available in the home pages for workspaces. Add a title t
 
 The following image shows a "My Heading" heading.
 
-![Example heading component](../image/heading-component-purple.png)
+\[Omitted image "heading-component-purple.png"\] Alt text: Example heading component
 
 For more information on heading components, see the [Heading Overview on the Developer site](https://developer.servicenow.com/dev.do#!/reference/now-experience/yokohama/now-components/now-heading/overview).
 
@@ -52,9 +53,9 @@ For more information on heading components, see the [Heading Overview on the Dev
 
 Add images to your landing page with an image component.
 
-When you drag the image component icon \(![Image component](../../../administer/workspace/image/icon-image-component.jpg)\) into the preview pane, a stock image appears that you can change and resize. You can change the stock image by supplying your image's URL.
+When you drag the image component icon \(\[Omitted image "icon-image-component.jpg"\] Alt text: Image component\) into the preview pane, a stock image appears that you can change and resize. You can change the stock image by supplying your image's URL.
 
-![Sample image component](../image/component-image-purple.png)
+\[Omitted image "component-image-purple.png"\] Alt text: Sample image component
 
 For more information on image components, see the [Developer site image component listing](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/now-image/overview).
 
@@ -62,9 +63,9 @@ For more information on image components, see the [Developer site image componen
 
 Use a list component to add lists to your landing page.
 
-When you drag the list component icon \(![List component](../../../administer/workspace/image/icon-list-component.jpg)\) into the preview pane, a sample list appears.
+When you drag the list component icon \(\[Omitted image "icon-list-component.jpg"\] Alt text: List component\) into the preview pane, a sample list appears.
 
-![Sample list component](../image/wb-list-component-purple.png)
+\[Omitted image "wb-list-component-purple.png"\] Alt text: Sample list component
 
 For more information on list components, see the [Developer site List component reference](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/now-record-list-connected/overview).
 
@@ -72,9 +73,9 @@ For more information on list components, see the [Developer site List component 
 
 Add text to your landing page with a rich text component to explain parts of your landing page, for example, "Tackle these priority 1 incidents first."
 
-![Sample rich text component](../image/wb-rich-text-component-purple.png)
+\[Omitted image "wb-rich-text-component-purple.png"\] Alt text: Sample rich text component
 
 For more information on rich text components, see the [Developer site Rich text component reference](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/now-rich-text/overview).
 
-**Parent Topic:**[Workspace Builder reference](../../workspace-builder/concept/workspace-builder-reference.md)
+**Parent Topic:**[Workspace Builder reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/workspace-builder-reference.md)
 

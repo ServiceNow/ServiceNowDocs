@@ -2,6 +2,7 @@
 title: Add a category or a subcategory
 description: Add category or subcategory to assign incidents to the correct team and save time in troubleshooting and bringing the service to normalcy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/add-new-category.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -29,11 +30,11 @@ Role required: admin
 
     -   Right-click **Category** &gt; **Configure Choices**.
 
-        ![Category options](../image/category-options.png)
+        \[Omitted image "category-options.png"\] Alt text: Category options
 
     -   Right-click **Subcategory** &gt; **Configure Choices**.
 
-        ![Subcategory options](../image/category-subcategory-options.png)
+        \[Omitted image "category-subcategory-options.png"\] Alt text: Subcategory options
 
 4.  In the **Enter new item** field, enter the new category or the subcategory name.
 
@@ -42,5 +43,5 @@ Role required: admin
     The new category or subcategory is added under the **Selected** list.
 
 
-**Parent Topic:**[Incident categories and subcategories](../reference/r_CategorizingIncidents.md)
+**Parent Topic:**[Incident categories and subcategories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/r_CategorizingIncidents.md)
 

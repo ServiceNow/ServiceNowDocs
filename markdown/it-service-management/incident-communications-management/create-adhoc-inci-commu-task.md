@@ -2,6 +2,7 @@
 title: Create adhoc incident communication task from Incident Communications Management
 description: Create an adhoc incident communication task while you are working on the communication plan. The communication task helps you to specify the mode of communication \(channel\) and the frequency at which the communication must be carried out.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-communications-management/create-adhoc-inci-commu-task.html
 release: zurich
 product: Incident Communications Management
 classification: incident-communications-management
@@ -33,8 +34,8 @@ Role required: major\_incident\_manager, ia\_admin, or admin
     |---|---|
     |Number|Unique incident communication task ID, in the ICTxxxxxxxx format.|
     |Incident Communication Plan|\[Read-only field\] Incident communication plan for which you create the task.|
-    |Source incident|\[Read-only field\] Lookup icon ![Look up icon](../../itsm-workspace/image/look-up-icon.png) to select the incident on which you want the plan to be attached.|
-    |Type|Lookup icon ![Look up icon](../../itsm-workspace/image/look-up-icon.png) to select the type of task such as internal communication.|
+    |Source incident|\[Read-only field\] Lookup icon \[Omitted image "look-up-icon.png"\] Alt text: Look up icon to select the incident on which you want the plan to be attached.|
+    |Type|Lookup icon \[Omitted image "look-up-icon.png"\] Alt text: Look up icon to select the type of task such as internal communication.|
     |Communication task definition|\[Read-only field\] Unique name of the communication task definition for which you are creating the task.|
     |State|The state of the communication plan. The available values are **Pending**, **Open**, **In Progress**, **Complete**, and **Skipped**.|
     |Assignment group|The assignment group, if any, for that incident communication task.|
@@ -51,7 +52,7 @@ Role required: major\_incident\_manager, ia\_admin, or admin
 
 ## What to do next
 
-Create adhoc incident communication channel. For more information on how to define a communication channel, refer [Define a communication channel](https://www.servicenow.com/docs/access?context=create-comm-channel-definition&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+Create adhoc incident communication channel. For more information on how to define a communication channel, refer Define a communication channel.
 
-**Parent Topic:**[Managing Incident Communications](../concept/working-with-inci-comm-mgmt.md)
+**Parent Topic:**[Managing Incident Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
 

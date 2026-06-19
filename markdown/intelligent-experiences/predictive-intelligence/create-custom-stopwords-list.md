@@ -2,6 +2,7 @@
 title: Create a custom stopwords list
 description: Exclude common words you want the system to ignore during training and prediction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/predictive-intelligence/create-custom-stopwords-list.html
 release: zurich
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -35,7 +36,7 @@ In this example scenario, you create a custom stopwords list for the Brazilian P
 
 2.  On the Stopwords list, click **New**.
 
-    ![This image shows the list of default stopword lists for the various processing languages supported in this release.](../images/stopword-list-default.png)
+    \[Omitted image "stopword-list-default.png"\] Alt text: This image shows the list of default stopword lists for the various processing languages supported in this release.
 
 3.  In the Stopwords form, configure these fields.
 
@@ -45,17 +46,17 @@ In this example scenario, you create a custom stopwords list for the Brazilian P
     |Stopwords Language|Select **Brazilian Portuguese**|
     |Stopwords List|Manually enter the stopwords using a comma-separated format. For more examples of stopwords, see the image in Step 2 of this procedure.|
 
-    ![This image shows an example list of Brazilian Portuguese stopwords for your custom stopwords list.](../images/stopword-list-custom1.png)
+    \[Omitted image "stopword-list-custom1.png"\] Alt text: This image shows an example list of Brazilian Portuguese stopwords for your custom stopwords list.
 
 4.  Click **Submit**.
 
     Your custom stopwords list appears in the Stopwords list view.
 
-    ![When you submit your stopwords list, it appears in the Stopwords list view.](../images/stopword-list-custom2.png)
+    \[Omitted image "stopword-list-custom2.png"\] Alt text: When you submit your stopwords list, it appears in the Stopwords list view.
 
 5.  If you need to update your stopwords list, just click its Name, add or remove words from the list, and click **Update**.
 
-    ![This image shows you how to update your stopwords list, if needed.](../images/stopword-list-custom3.png)
+    \[Omitted image "stopword-list-custom3.png"\] Alt text: This image shows you how to update your stopwords list, if needed.
 
 
 ## What to do next

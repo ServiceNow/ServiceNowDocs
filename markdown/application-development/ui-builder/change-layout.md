@@ -2,6 +2,7 @@
 title: Change the layout of a page created in Quebec or Rome
 description: Add and modify your layout design to change the way your page looks. Choose how components are displayed on a page through Cascading Style Sheets \(CSS\) web layout technologies, such as Flexbox and CSS Grid.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/change-layout.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -29,23 +30,23 @@ Layouts control what containers and components are available on a page, and wher
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
-3.  [Create](create-page.md) or open a page.
+3.  [Create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/create-page.md) or open a page.
 
 4.  Select the **Layout** tab.
 
 5.  Depending on the type of page, do one of the following to select a container to update.
 
-<table id="choicetable_cc5_jsb_dqb"><thead><tr><th align="left" id="d234727e139">
+<table id="choicetable_cc5_jsb_dqb"><thead><tr><th align="left" id="d219026e139">
 
 Type of page
 
-</th><th align="left" id="d234727e142">
+</th><th align="left" id="d219026e142">
 
 Instruction
 
-</th></tr></thead><tbody><tr><td id="d234727e148">
+</th></tr></thead><tbody><tr><td id="d219026e148">
 
 **Existing page**
 
@@ -53,7 +54,7 @@ Instruction
 
 Select the container on your page for which you want to change the layout.**Note:** Alternately, you can select the container in the content tree to the left of the main page area. When the page structure is in the structured tree, you can more easily find the container you want to change. If you have many components and containers in the content tree, use the search bar to find a specific container.
 
-</td></tr><tr><td id="d234727e160">
+</td></tr><tr><td id="d219026e160">
 
 **New page**
 
@@ -61,7 +62,7 @@ Select the container on your page for which you want to change the layout.**Note
 
 In the content tree to the left of the main page area, select the **Body** of your page. **Body** is the root element of the page.
 
- ![Arrow pointing to body element in the content tree structure.](../image/UIB-content-tree-body.png)
+ \[Omitted image "UIB-content-tree-body.png"\] Alt text: Arrow pointing to body element in the content tree structure.
 
 </td></tr></tbody>
 </table>    If you are starting a new page, you can select the layout at the page level, and later at the container level. If you are not the owner of an existing page, be aware of the impact of changing the layout at the page level.
@@ -74,37 +75,37 @@ In the content tree to the left of the main page area, select the **Body** of yo
 
         You can also set the layout for a container. The following image shows the layout options for the UI Builder.
 
-        ![Layout options for UI Builder.](../image/UIB-layouts.png)
+        \[Omitted image "UIB-layouts.png"\] Alt text: Layout options for UI Builder.
 
     2.  If you are creating a page, add components to the new areas in your layout.
 
     3.  Click **Save**.
 
-    4.  View and test your page by selecting ![Preview button that opens your page in runtime, which is a preview of how the page looks on a web page.](../image/preview-button.png).
+    4.  View and test your page by selecting \[Omitted image "preview-button.png"\] Alt text: Preview button that opens your page in runtime, which is a preview of how the page looks on a web page..
 
     For changing an existing page, the following video shows how you can change the container layout from three to four columns, and then add a new component to the fourth column.
 
-    ![Changing the layout of an existing page.](../image/UIB-change-layout-video.gif)
+    \[Omitted image "UIB-change-layout-video.gif"\] Alt text: Changing the layout of an existing page.
 
     For setting the layout of a new page, the following video shows you how to set the layout that you want for the page. For example, you can set your page to have two slots or columns. Then, you can add containers to each slot and change the layout for each container. You can also set the layout at the container level after you add containers to your page.
 
-    ![Changing the layout of a page](../image/UIB-change-layout-page.gif "Change the layout of a page")
+    \[Omitted image "UIB-change-layout-page.gif"\] Alt text: Changing the layout of a page
 
 7.  Add components to slots.
 
-    You build your page with containers components. See [Customize UI Builder pages using components](../concept/work-components.md) for more information.
+    You build your page with containers components. See [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-components.md) for more information.
 
     You can add components by using any of the following ways.
 
-<table id="choicetable_dzv_llh_wnb"><thead><tr><th align="left" id="d234727e310">
+<table id="choicetable_dzv_llh_wnb"><thead><tr><th align="left" id="d219026e310">
 
 To add a component
 
-</th><th align="left" id="d234727e313">
+</th><th align="left" id="d219026e313">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d234727e319">
+</th></tr></thead><tbody><tr><td id="d219026e319">
 
 **Directly from your page \(option 1\)**
 
@@ -112,7 +113,7 @@ Do the following
 
 Select the add content \(plus\) icon, select the **Components** tab, and then select a component.
 
-</td></tr><tr><td id="d234727e336">
+</td></tr><tr><td id="d219026e336">
 
 **Directly from your page \(option 2\)**
 
@@ -120,7 +121,7 @@ Select the add content \(plus\) icon, select the **Components** tab, and then se
 
 On a column layout or component, select the add before \(plus\) or add after \(plus\) icon, and then select a component.
 
-</td></tr><tr><td id="d234727e348">
+</td></tr><tr><td id="d219026e348">
 
 **From the content tree**
 
@@ -128,9 +129,9 @@ On a column layout or component, select the add before \(plus\) or add after \(p
 
 In the content tree, select **+ Add content** and then select a component.
 
- ![Black arrow pointing to + add content option in content tree next to the toolbox window with Components tab selected.](../image/component-add-from-content-tree.png)
+ \[Omitted image "component-add-from-content-tree.png"\] Alt text: Black arrow pointing to + add content option in content tree next to the toolbox window with Components tab selected.
 
-</td></tr><tr><td id="d234727e370">
+</td></tr><tr><td id="d219026e370">
 
 **From the floating menu above the page**
 
@@ -141,15 +142,15 @@ On a column layout or component, select the Menu icon, select **Add before** or 
 </td></tr></tbody>
 </table>8.  Modify the layout styling options in any of the following ways.
 
-<table id="choicetable_n3q_gmd_jjb"><thead><tr><th align="left" id="d234727e397">
+<table id="choicetable_n3q_gmd_jjb"><thead><tr><th align="left" id="d219026e397">
 
 Option
 
-</th><th align="left" id="d234727e400">
+</th><th align="left" id="d219026e400">
 
 Instruction
 
-</th></tr></thead><tbody><tr><td id="d234727e406">
+</th></tr></thead><tbody><tr><td id="d219026e406">
 
 **Change the layout styling**
 
@@ -161,12 +162,12 @@ You can click the container in the content tree, or you can click the container 
 
 2.  From the floating menu above the page, click **Layout**.
 
-![Location of change layout icon on the floating menu.](../image/UIB-layout-change.png)
+\[Omitted image "UIB-layout-change.png"\] Alt text: Location of change layout icon on the floating menu.
 
-3.  Choose to display your content as either Flex or Grid. For more information about flex or grid options, see [Using Flexbox layouts in UI Builder](../concept/flexbox-uib.md#) or [Using CSS Grid layouts to build a page](../concept/css-grid-uib.md#).
+3.  Choose to display your content as either Flex or Grid. For more information about flex or grid options, see [Using Flexbox layouts in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/flexbox-uib.md) or [Using CSS Grid layouts to build a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/css-grid-uib.md).
 
 
-</td></tr><tr><td id="d234727e460">
+</td></tr><tr><td id="d219026e460">
 
 **Choose Flex**
 
@@ -174,7 +175,7 @@ You can click the container in the content tree, or you can click the container 
 
 1.  From the Display list, select **Flex**.
 
-![Flex or grid option in a drop-down.](../image/UIB-flex-or-grid-option.png)
+\[Omitted image "UIB-flex-or-grid-option.png"\] Alt text: Flex or grid option in a drop-down.
 
 2.  Select the following options based on how you want to display your container content on the page. The options can also be entered in the CSS styles box:
 
@@ -195,9 +196,9 @@ You can click the container in the content tree, or you can click the container 
     -   Width: Set the height of your flexbox items automatically or manually.
     -   Margin: Set your minimal distance between flexbox items.
     -   Padding: Set the padding for each side of your flexbox items.
-![Flex style options.](../image/UIB-flexbox-styling.png)
+\[Omitted image "UIB-flexbox-styling.png"\] Alt text: Flex style options.
 
-</td></tr><tr><td id="d234727e592">
+</td></tr><tr><td id="d219026e592">
 
 **Select Grid**
 
@@ -205,7 +206,7 @@ You can click the container in the content tree, or you can click the container 
 
 1.  From the Display list, select **Grid**.
 
-![Grid selected from the Display list.](../image/UIB-grid-select.png)
+\[Omitted image "UIB-grid-select.png"\] Alt text: Grid selected from the Display list.
 
 2.  Fill in the following information:
     -   Height: Set the height automatically, or manually.
@@ -216,5 +217,5 @@ You can click the container in the content tree, or you can click the container 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Organize components in UI Builder pages](../concept/work-layouts.md)
+**Parent Topic:**[Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-layouts.md)
 

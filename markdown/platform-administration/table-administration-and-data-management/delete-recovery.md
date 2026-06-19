@@ -2,6 +2,7 @@
 title: Use the Delete Recovery module to restore a deleted record
 description: You can recover a deleted record and all related changes. The recovery must be done within seven days of the record being deleted.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/delete-recovery.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -40,5 +41,5 @@ Role required: admin
 
 When the process completes, a **Restore Summary** itemizes the changes and provides links for viewing the restored record or returning to the **Delete Recoveries** list.
 
-**Parent Topic:**[Roll back and delete recovery](../concept/rollback-delete-recovery.md)
+**Parent Topic:**[Roll back and delete recovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/rollback-delete-recovery.md)
 

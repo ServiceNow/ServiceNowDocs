@@ -2,6 +2,7 @@
 title: Add Live Feed to a homepage
 description: Add Live Feed to a homepage so it is the first thing you see when you log in.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/live-feed/t\_AddingLiveFeedToAHomepage.html
 release: zurich
 product: Live Feed
 classification: live-feed

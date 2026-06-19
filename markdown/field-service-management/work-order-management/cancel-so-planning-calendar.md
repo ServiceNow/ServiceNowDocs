@@ -2,6 +2,7 @@
 title: Cancel events using the planning calendar
 description: Cancel a schedule occurrence and the work order events of its associated work plans through the planning calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/cancel-so-planning-calendar.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -23,9 +24,9 @@ Role required: sn\_fsm\_planned\_wm.planned\_work\_admin
 
 1.  Navigate to **All** &gt; **Field Service Management** &gt; **Planned Work Management** &gt; **Workspace**
 
-2.  Select the **Planning calendar** icon \(![Planning calendar icon](../image/show-schedule-new.png)\).
+2.  Select the **Planning calendar** icon \(\[Omitted image "show-schedule-new.png"\] Alt text: Planning calendar icon\).
 
-3.  On the calendar, select the Show settings icon \(![gear icon](../image/IconPersonalizeList.png)\).
+3.  On the calendar, select the Show settings icon \(\[Omitted image "IconPersonalizeList.png"\] Alt text: gear icon\).
 
 4.  In the **Settings** pane, fill in the fields.
 
@@ -39,15 +40,15 @@ Role required: sn\_fsm\_planned\_wm.planned\_work\_admin
 
 7.  Cancel the event.
 
-<table id="choicetable_wgl_swd_byb"><thead><tr><th align="left" id="d118510e179">
+<table id="choicetable_wgl_swd_byb"><thead><tr><th align="left" id="d114733e179">
 
 Action
 
-</th><th align="left" id="d118510e182">
+</th><th align="left" id="d114733e182">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d118510e188">
+</th></tr></thead><tbody><tr><td id="d114733e188">
 
 **Cancel the schedule occurrence**
 
@@ -55,7 +56,7 @@ Steps
 
 On the calendar, right-click the schedule occurrence event that you want to cancel, and then select **Cancel schedule occurrence**.
 
-</td></tr><tr><td id="d118510e200">
+</td></tr><tr><td id="d114733e200">
 
 **Cancel work order for the schedule occurrence**
 
@@ -63,7 +64,7 @@ On the calendar, right-click the schedule occurrence event that you want to canc
 
 On the calendar, right-click the schedule occurrence event, and then select **Cancel work orders**.
 
-</td></tr><tr><td id="d118510e212">
+</td></tr><tr><td id="d114733e212">
 
 **Cancel work order**
 

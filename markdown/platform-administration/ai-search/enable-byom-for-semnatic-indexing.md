@@ -2,6 +2,7 @@
 title: Enable the custom embedding model for semantic indexing
 description: Add a new embedding model in the semantic indexing table so that the AI Search Retrieval Augmented Generation \(RAG\) application can use this model for semantic indexing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/enable-byom-for-semnatic-indexing.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -51,12 +52,12 @@ Role required: admin
 
 9.  In the **Error Handler Extension Instance** field, select an error handler instance.
 
-    You create a scripted extension point to handle embedding generation errors that occur when custom embedding models generate semantic vectors. For more information, see [Create an error handler extension point](create-error-handler-extention-point.md).
+    You create a scripted extension point to handle embedding generation errors that occur when custom embedding models generate semantic vectors. For more information, see [Create an error handler extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-error-handler-extention-point.md).
 
 10. Select **Submit**.
 
 
 ## What to do next
 
-Add your embedding model to the semantic index configuration to enable content ingestion with that model. For more information, see [Configure semantic indexing settings for an indexed source](configure-semantic-indexing-ais.md).
+Add your embedding model to the semantic index configuration to enable content ingestion with that model. For more information, see [Configure semantic indexing settings for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-semantic-indexing-ais.md).
 

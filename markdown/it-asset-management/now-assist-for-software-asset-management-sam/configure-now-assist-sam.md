@@ -2,6 +2,7 @@
 title: Configuring Now Assist for Software Asset Management \(SAM\)
 description: If you have the admin role, you can configure the Now Assist for Software Asset Management \(SAM\) application to use generative AI skills in the Software Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/now-assist-for-software-asset-management-sam/configure-now-assist-sam.html
 release: zurich
 product: Now Assist for Software Asset Management \(SAM\)
 classification: now-assist-for-software-asset-management-sam
@@ -41,7 +42,7 @@ Starting with the Zurich Patch 4 release, generative AI skills for Now Assist fo
 
 6.  In the Select display section, select **Display**.
 
-    ![Display mode option.](../image/now-assist-sam-display.png)
+    \[Omitted image "now-assist-sam-display.png"\] Alt text: Display mode option.
 
     When selected, the skill is displayed on forms and workspaces.
 
@@ -53,11 +54,13 @@ Starting with the Zurich Patch 4 release, generative AI skills for Now Assist fo
 
 8.  In the Review and activate section, review your choices and select **Activate**.
 
-    The Successfully activated message box opens and the skill is activated. You're ready to use the skill in the Software Asset Workspace. For details on using the skills, see [Using generative AI skills in Now Assist for SAM](../concept/using-now-assist-sam.md).
+    The Successfully activated message box opens and the skill is activated. You're ready to use the skill in the Software Asset Workspace. For details on using the skills, see [Using generative AI skills in Now Assist for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md).
 
 
--   **[Skill inputs and triggers for Now Assist for Software Asset Management \(SAM\)](../reference/now-assist-sam-skills-inputs.md)**  
+-   **[Install Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/install-now-assist-sam.md)**  
+If you have the admin role, you can install the Now Assist for Software Asset Management \(SAM\) application. The Now Assist for Software Asset Management \(SAM\) application integrates generative AI capabilities into your daily workflow tasks.
+-   **[Skill inputs and triggers for Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-skills-inputs.md)**  
 Get a quick overview of the skill inputs and triggers for Now Assist for Software Asset Management \(SAM\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
 
-**Parent Topic:**[Now Assist for Software Asset Management \(SAM\)](../concept/now-assist-sam.md)
+**Parent Topic:**[Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)
 

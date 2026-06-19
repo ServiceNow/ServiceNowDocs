@@ -2,6 +2,7 @@
 title: HR Triaging Dashboard
 description: The HR Triaging Dashboard enables you to review your teams' case assignments in a layout where cases are displayed as cards. This layout enables easy movement of case cards between lanes, enabling you to review and reassign cases by auto-updating HR service, or user, or priority.Configure the settings in the Triaging Dashboard so that you can view your team's case assignments categorized by HR service, or priority, or assignment group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/hr-triaging-dashboard.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -21,7 +22,7 @@ The HR Triaging Dashboard enables you to review your teams' case assignments in 
 -   Ability to configure case fields and the order by which you want case fields to appear on the case card.
 -   Auto-update priority, assignment, or HR service of an HR case by moving a case card from one lane to another.
 
-![Triaging cases by users or assignment groups](../image/triage-by-user.png "HR Triaging Dashboard")
+\[Omitted image "triage-by-user.png"\] Alt text: Triaging cases by users or assignment groups
 
 ## Configure the HR Triaging Dashboard
 
@@ -37,9 +38,9 @@ Role required: sn\_hr\_core.case\_writer
 
 1.  Open HR Agent Workspace.
 
-2.  Select the Triaging Dashboard icon ![Triaging dashboard](../image/triaging-dashboard-icon.png).
+2.  Select the Triaging Dashboard icon \[Omitted image "triaging-dashboard-icon.png"\] Alt text: Triaging dashboard.
 
-3.  Select the Settings icon ![Settings](../image/triage-settings.png).
+3.  Select the Settings icon \[Omitted image "triage-settings.png"\] Alt text: Settings.
 
 4.  In the Settings section, perform the following steps:
 

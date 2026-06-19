@@ -2,6 +2,7 @@
 title: Create a task for a digital forensic legal matter
 description: Create a task for a digital forensic legal matter and add instructions and to-do items in a checklist for the task owner to work on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/create-dft-matter-task.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -25,19 +26,19 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d326902e105">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d290808e105">
 
 Option
 
-</th><th align="left" id="d326902e108">
+</th><th align="left" id="d290808e108">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d326902e114">
+</th></tr></thead><tbody><tr><td id="d290808e114">
 
 **As an assignee**
 
@@ -49,7 +50,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d326902e143">
+</td></tr><tr><td id="d290808e143">
 
 **As a collaborator**
 
@@ -60,7 +61,7 @@ The state of the legal matter updates to Work in Progress.
 
 
 </td></tr></tbody>
-</table>4.  To add a matter task, in the **Tasks** tab, click **New** to [add a task](../../legal-matter-management/task/add-tasks-to-legal-matter.md).
+</table>4.  To add a matter task, in the **Tasks** tab, click **New** to [add a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.md).
 
     The matter task is created and **Artifacts**, **Approvers**, and **Data Source Details** tabs are displayed.
 
@@ -84,7 +85,7 @@ Search source
 
 </td><td>
 
-Source in which the digital evidence is to be investigated.One or more fields appear on the form based on the data source configuration. For more information, see [Configure a data source for digital forensics](configure-forensics-search-sources.md).
+Source in which the digital evidence is to be investigated.One or more fields appear on the form based on the data source configuration. For more information, see [Configure a data source for digital forensics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/configure-forensics-search-sources.md).
 
 </td></tr><tr><td>
 
@@ -133,14 +134,14 @@ Option for indicating that the custodian has been notified of the legal hold on 
 
     -   In the **Instructions** section, click **Add** to add instructions for the assigned user to do for completing the task.
     -   In the **Checklist** section, click **Create** to add to-do items to track the progress of activities in the matter task.
-7.  [Add an artifact \(folder\)](../../legal-matter-management/task/add-artifact-to-legal-matter.md) in which you or the assigned person can upload files related to the task or its investigation.
+7.  [Add an artifact \(folder\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/add-artifact-to-legal-matter.md) in which you or the assigned person can upload files related to the task or its investigation.
 
 8.  In the **Details** tab of the Task form, select a user in the **Assigned to** field to assign the task to work on.
 
 
 ## What to do next
 
-The assigned user can [work on the matter task](work-on-dft-matter-task.md) by following the instructions and completing the checklist items.
+The assigned user can [work on the matter task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/work-on-dft-matter-task.md) by following the instructions and completing the checklist items.
 
-**Parent Topic:**[Work on a digital forensic legal matter](work-on-dft-legal-matter.md)
+**Parent Topic:**[Work on a digital forensic legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/work-on-dft-legal-matter.md)
 

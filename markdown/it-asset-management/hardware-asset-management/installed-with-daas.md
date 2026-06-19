@@ -2,6 +2,7 @@
 title: Components installed with Hardware Asset Management for DaaS
 description: Several types of components are installed with activation of the Hardware Asset Management for DaaS \(com.sn\_daas\_ham\) plugin, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/installed-with-daas.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management

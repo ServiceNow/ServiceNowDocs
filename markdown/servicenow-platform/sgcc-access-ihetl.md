@@ -2,6 +2,7 @@
 title: Accessing the IntegrationHub ETL dashboard in SGC Central
 description: You can access the IntegrationHub ETL dashboard within the SGC Central view of the Service Graph Workspace or CMDB Workspace to manage ETL transform maps.The IntegrationHub ETL dashboard provides a centralized platform for monitoring ETL processes within the SGC Central view of the Service Graph Workspace or CMDB Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/sgcc-access-ihetl.html
 release: zurich
 topic_type: concept
 last_updated: "2026-02-27"
@@ -15,7 +16,7 @@ You can access the IntegrationHub ETL dashboard within the SGC Central view of t
 
 IntegrationHub ETL is a tool for creating and managing ETL transform maps to integrate third-party data into the CMDB or non-CMDB tables. Select **Go to IntegrationHub ETL Home** to view the IntegrationHub ETL home page.
 
-To learn about the IntegrationHub ETL store app, see [IntegrationHub ETL](../../configuration-management/concept/integrationhub-etl.md).
+To learn about the IntegrationHub ETL store app, see [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/integration-hub-etl/integrationhub-etl.md).
 
 ## Access IntegrationHub ETL in SGC Central
 

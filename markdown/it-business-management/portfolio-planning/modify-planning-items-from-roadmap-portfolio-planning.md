@@ -2,6 +2,7 @@
 title: Modify planning items from roadmap
 description: Update the details of planning items or delete them from a portfolio plan or free-form roadmap so that your roadmap reflects the latest plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/modify-planning-items-from-roadmap-portfolio-planning.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -28,15 +29,15 @@ Edit the details of planning items from a side panel view, or the full details v
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d212539e99">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d203197e99">
 
 Roadmap type
 
-</th><th align="left" id="d212539e102">
+</th><th align="left" id="d203197e102">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d212539e108">
+</th></tr></thead><tbody><tr><td id="d203197e108">
 
 **Portfolio plan roadmap**
 
@@ -46,7 +47,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d212539e129">
+</td></tr><tr><td id="d203197e129">
 
 **Free-form roadmap**
 
@@ -59,7 +60,7 @@ From the Free-form Roadmaps tab, select a roadmap.
 
     The side panel opens with the Details tab.
 
-    Further, you can select **Full details** and open the item's record page. On the full details page, you can also view related lists such as Milestones, Dependencies, and others. For field information, see [Demand planning item form](../reference/demand-form-portfolio-planning.md) or [Project planning item form](../reference/project-form-portfolio-planning.md).
+    Further, you can select **Full details** and open the item's record page. On the full details page, you can also view related lists such as Milestones, Dependencies, and others. For field information, see [Demand planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/demand-form-portfolio-planning.md) or [Project planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/project-form-portfolio-planning.md).
 
     **Note:** If your free-form roadmap was built on one of the PPM tables, such as project \[pm\_project\] or demand \[dmn\_demand\], you can only make updates from the full details page.
 
@@ -70,8 +71,8 @@ From the Free-form Roadmaps tab, select a roadmap.
         If you're on the full details page, select **Save**.
 
     -   To delete, do the following:
-        1.  On the full details page, select the More Actions icon \(![More actions icon.](../../alignment-planner-workspace/images/more-actions-icon.png)\) and select **Delete**.
+        1.  On the full details page, select the More Actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon.\) and select **Delete**.
         2.  Select **OK** to confirm.
 
-**Parent Topic:**[Create planning items from roadmap view](create-planning-items-from-roadmap-view-portfolio-planning-workspace.md)
+**Parent Topic:**[Create planning items from roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/create-planning-items-from-roadmap-view-portfolio-planning-workspace.md)
 

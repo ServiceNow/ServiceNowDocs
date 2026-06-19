@@ -2,6 +2,7 @@
 title: Set flow priority
 description: Determine the order in which worker threads run background flows. Use a mix of flow priorities to distinguish between flows to defer and flows to run first.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/set-flow-priority.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -18,7 +19,7 @@ Determine the order in which worker threads run background flows. Use a mix of f
 ## Before you begin
 
 -   Role required: flow\_designer or admin
--   [Show flow priority field](show-flow-priority-field.md)
+-   [Show flow priority field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/show-flow-priority-field.md)
 
 ## Procedure
 
@@ -56,5 +57,5 @@ The flow runs at the priority you specify as long as it does not pause or get de
 
 Use the FDIH dashboard to review the flow executions and verify that your flows are running as expected.
 
-**Parent Topic:**[Flow priority](../concept/flow-priority.md)
+**Parent Topic:**[Flow priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-priority.md)
 

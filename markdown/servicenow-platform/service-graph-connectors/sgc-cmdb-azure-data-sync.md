@@ -2,6 +2,7 @@
 title: Configuring data synchronization in Service Graph Connector for Microsoft Azure
 description: You can configure the system property for synchronizing only delta data from an Azure instance.Disable delta synchronization to import all Microsoft Azure data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-azure-data-sync.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -21,9 +22,9 @@ For data sources discovered by a software connection, the **Last Run Datetime** 
 
 For data sources discovered by a hardware connection, the **Last Success Import Time** field displays the timestamp of the most recent delta pull run. The **Last Success Import Time** field is updated only when the last delta pull run was a success. An empty **Last Success Import Time** field indicates no previous delta pull run for the data source, but either a full pull run or no run at all. The delta pull period is calculated by subtracting the last successful import date and time from the current date and time; that is, Delta period = Current date timestamp - Last success import date timestamp.
 
-The application includes the **sn\_sg\_azure\_integ.is\_delta\_sync\_enabled** system property to enable delta synchronization. By default, the property is set to `true`. To import full data from your Azure instance, disable the **sn\_sg\_azure\_integ.is\_delta\_sync\_enabled** property. See [Disable delta synchronization](sgc-cmdb-azure-data-sync.md#).
+The application includes the **sn\_sg\_azure\_integ.is\_delta\_sync\_enabled** system property to enable delta synchronization. By default, the property is set to `true`. To import full data from your Azure instance, disable the **sn\_sg\_azure\_integ.is\_delta\_sync\_enabled** property. See [Disable delta synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-azure-data-sync.md).
 
-For a delta pull, you can also configure the grace time, page size, preceding time period, and API call duration using system properties. For more information, see [Service Graph Connector for Microsoft Azure properties](../reference/cmdb-sgc-azure-props.md).
+For a delta pull, you can also configure the grace time, page size, preceding time period, and API call duration using system properties. For more information, see [Service Graph Connector for Microsoft Azure properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-sgc-azure-props.md).
 
 ## Disable delta synchronization
 
@@ -31,7 +32,7 @@ Disable delta synchronization to import all Microsoft Azure data.
 
 ### Before you begin
 
-Set the application scope to Service Graph Connector for Microsoft Azure using the application picker. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+Set the application scope to Service Graph Connector for Microsoft Azure using the application picker. For more information, see Application picker.
 
 Role required: admin
 

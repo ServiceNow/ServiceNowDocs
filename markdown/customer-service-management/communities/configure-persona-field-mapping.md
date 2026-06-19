@@ -2,6 +2,7 @@
 title: Configure persona field mapping for the community profile
 description: Configure which fields appear in the community profile and manage the settings associated with those fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/communities/configure-persona-field-mapping.html
 release: zurich
 product: Communities
 classification: communities
@@ -107,5 +108,5 @@ Privacy default setting for the field. It shows the field for the selected group
 </table>3.  Click **Submit**.
 
 
-**Parent Topic:**[Configure the community profile](configure-community-profile.md)
+**Parent Topic:**[Configure the community profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/configure-community-profile.md)
 

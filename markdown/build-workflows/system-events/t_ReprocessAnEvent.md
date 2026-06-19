@@ -2,6 +2,7 @@
 title: Reprocess an event
 description: You can fire the event again for testing or diagnostic purposes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/system-events/t\_ReprocessAnEvent.html
 release: zurich
 product: System Events
 classification: system-events

@@ -2,6 +2,7 @@
 title: View Intelligence Reports
 description: View intelligence reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-view-intel-reports.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -38,5 +39,5 @@ Role required: sn\_sec\_tisc\_analyst
     **Note:** You can also preview the report before sharing.
 
 
-**Parent Topic:**[Working with Reports in TISC](../concept/tisc-reports-lib-view.md)
+**Parent Topic:**[Working with Reports in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-reports-lib-view.md)
 

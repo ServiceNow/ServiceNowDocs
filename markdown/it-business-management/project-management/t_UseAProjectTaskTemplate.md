@@ -2,6 +2,7 @@
 title: Create a task from a project task template
 description: You can save a project task as a template and reuse it when creating a task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-management/t\_UseAProjectTaskTemplate.html
 release: zurich
 product: Project Management
 classification: project-management
@@ -19,7 +20,7 @@ You can save a project task as a template and reuse it when creating a task.
 
 Role required: it\_project\_manager
 
-You must have a template from an existing project task that has the required field values. See [Templates](https://www.servicenow.com/docs/access?context=c_Templates&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) for more information on this platform feature.
+You must have a template from an existing project task that has the required field values. See Templates for more information on this platform feature.
 
 ## Procedure
 
@@ -27,14 +28,14 @@ You must have a template from an existing project task that has the required fie
 
 2.  Select **New**.
 
-3.  If the templates do not appear at the bottom, select the ellipsis \(![Ellipsis icon](../../planning-and-policy/image/gannt_chart_icon.png)\) icon at the top of the form, and select **Toggle Template Bar**.
+3.  If the templates do not appear at the bottom, select the ellipsis \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: Ellipsis icon\) icon at the top of the form, and select **Toggle Template Bar**.
 
 4.  Select the template link in the template bar at the bottom of the form.
 
-    ![Template link](../image/template_link.png)
+    \[Omitted image "template\_link.png"\] Alt text: Template link
 
     The template is applied to the project.
 
 
-**Parent Topic:**[Create a project task from a project](t_CreateATaskFromAProject.md)
+**Parent Topic:**[Create a project task from a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/t_CreateATaskFromAProject.md)
 

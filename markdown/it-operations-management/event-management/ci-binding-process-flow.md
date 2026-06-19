@@ -2,11 +2,12 @@
 title: Binding process flow
 description: Learn the process of binding Configuration Items \(CIs\) to alerts. This includes handling event arrival, binding alerts using available fields when no node is present, and searching the CMDB for matching hosts. It also explains linking alerts to CIs based on host and CI type detection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/ci-binding-process-flow.html
 release: zurich
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-06-02"
 reading_time_minutes: 1
 breadcrumb: [Binding alerts to CIs, Event rules, Processing Events, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -17,17 +18,20 @@ Learn the process of binding Configuration Items \(CIs\) to alerts. This include
 
 ## CI binding to alerts: Flow diagram
 
-![How alerts bind to CIs](../image/EMEventBinding.png)
+\[Omitted image "EMEventBinding.png"\] Alt text: How alerts bind to CIs
 
 ## Process of linking CIs to alerts
 
 1.  Event Arrival: When an event is received, Event Management checks for node or CI identifiers.
 2.  Is Node Value Present?
+
     -   Yes: If a node value is provided, Event Management searches the CMDB for a matching host.
     -   No: If no node is found, the system attempts to bind the alert using other available details, such as:
         -   Alert Type
         -   Additional Information
         -   CI Identifier
+    **Note:** For Kubernetes CIs and other non-host CIs, use an event rule with CI field matching instead of relying only on the Node value. Kubernetes CIs follow the same binding approach as other non-host CIs.
+
 3.  Host and CI Type Detection:
     -   Both Found: If both a host and CI type are identified, the alert is linked to the corresponding device CI.
     -   Host Only Found: If only a host is identified, the system links the alert to an application CI.

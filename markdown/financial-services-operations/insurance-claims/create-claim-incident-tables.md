@@ -2,6 +2,7 @@
 title: Create a Claim Incident table
 description: Create a Claim Incident \[sn\_ins\_claim\_property\] table for your business needs and the type of claims that you’re processing by using the Insurance claims application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/create-claim-incident-tables.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims
@@ -40,7 +41,7 @@ Role required: admin
 
 ## What to do next
 
-Create roles for the new Claim Incident \[sn\_ins\_claim\_property\] table. For more information, see [Create roles for a claim incident table](create-roles-for-a-claim-incident-table.md).
+Create roles for the new Claim Incident \[sn\_ins\_claim\_property\] table. For more information, see [Create roles for a claim incident table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/create-roles-for-a-claim-incident-table.md).
 
 You can add script includes for the new incident table, including the code for getting the reference qualifier strings.
 

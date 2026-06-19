@@ -2,6 +2,7 @@
 title: Activate Multi Provider Document Services Framework
 description: You can activate the Multi Provider Document Services Framework plugin \(com.snc.multiprovider\_documents\) for Document Services if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/activate-multi-provider-doc-framework.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -39,6 +40,6 @@ The following items are installed with the Multi Provider Document Services Fram
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 

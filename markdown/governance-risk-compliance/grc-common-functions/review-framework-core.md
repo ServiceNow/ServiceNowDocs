@@ -2,6 +2,7 @@
 title: Review the framework core
 description: Review the Framework Core that's activated with the NIST CSF application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/review-framework-core.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -40,5 +41,5 @@ NIST CSF role required: sn\_irm\_nist\_csf.risk\_executive or sn\_irm\_nist\_csf
 4.  Click **Update**.
 
 
-**Parent Topic:**[Identify the framework core](../concept/identify-framework-core.md)
+**Parent Topic:**[Identify the framework core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/identify-framework-core.md)
 

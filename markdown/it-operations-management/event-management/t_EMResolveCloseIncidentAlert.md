@@ -2,6 +2,7 @@
 title: Resolve an incident related to an alert
 description: When you resolve an incident that is associated with an alert, the alert can also close according to the evt\_mgmt.incident\_closes\_alert property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/t\_EMResolveCloseIncidentAlert.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -27,8 +28,8 @@ Role required: evt\_mgmt\_admin, evt\_mgmt\_operator, or evt\_mgmt\_user
 
     The corresponding alert is closed, resolved, or left alone as specified by the **evt\_mgmt.incident\_closes\_alert** system property.
 
-    The alert may not close immediately when the incident is closed. Depending on the value of the **evt\_mgmt.alert\_rule\_close\_delay** parameter, the alert may close 5 seconds after the last alert update. This value \(in seconds\) is defined in the parameter. To use the property, you need to create the property with the same name and assign the required value to it. For more information on how to create a property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+    The alert may not close immediately when the incident is closed. Depending on the value of the **evt\_mgmt.alert\_rule\_close\_delay** parameter, the alert may close 5 seconds after the last alert update. This value \(in seconds\) is defined in the parameter. To use the property, you need to create the property with the same name and assign the required value to it. For more information on how to create a property, see .
 
 
-**Parent Topic:**[Manage and monitor alerts](../concept/c_EMAlert.md)
+**Parent Topic:**[Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/c_EMAlert.md)
 

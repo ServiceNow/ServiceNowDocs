@@ -2,7 +2,10 @@
 title: Create the Install base characteristics for an Install base item
 description: Create a set of configurable characteristics for an Install base item on the Customer Service Management \(CSM\) application. You can then view the details about the Install base item and the services that are associated with it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-install-base-characteristics.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ Role required: sn\_customerservice\_manager
 
 ## About this task
 
-Each product has its own set of attributes, some of which are configurable and some that are non-configurable. Configurable characteristics are a set of characteristics related to an Install base item that you can choose or customize at the time of purchase. These characteristics differ from user to user and product to product. However, non-configurable characteristics are a set of fixed characteristics that are related to an Install base item. They can't be chosen or customized by you at the time of purchase. To learn more about characteristics, see [Install base characteristics](../concept/attributes-and-configuration-of-install-base-management.md).
+Each product has its own set of attributes, some of which are configurable and some that are non-configurable. Configurable characteristics are a set of characteristics related to an Install base item that you can choose or customize at the time of purchase. These characteristics differ from user to user and product to product. However, non-configurable characteristics are a set of fixed characteristics that are related to an Install base item. They can't be chosen or customized by you at the time of purchase. To learn more about characteristics, see [Install base characteristics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/attributes-and-configuration-of-install-base-management.md).
 
 ## Procedure
 

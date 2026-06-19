@@ -2,6 +2,7 @@
 title: Critical event portal
 description: On-site responders use the critical event portal in Critical Event Management to conduct roll calls, coordinate individuals to the assembly point, and gain a complete view of the emergency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/critical-event-management/critical-event-portal.html
 release: zurich
 product: Critical Event Management
 classification: critical-event-management
@@ -21,7 +22,7 @@ In the portal, you can view the active critical events where you're a member of 
 
 -   Conducting roll call
 
-    You can view the list of impacted people in your location, manually add more people to the list, such as a visitor from another location, and set each person as **Needs Help** or **Accounted** using the three dot menu. For more details, see [Conduct a roll call as an on-site responder](../task/conduct-roll-call.md).
+    You can view the list of impacted people in your location, manually add more people to the list, such as a visitor from another location, and set each person as **Needs Help** or **Accounted** using the three dot menu. For more details, see [Conduct a roll call as an on-site responder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/critical-event-management/conduct-roll-call.md).
 
 -   Emergency info panel
 

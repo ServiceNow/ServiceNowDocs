@@ -2,6 +2,7 @@
 title: Decision tables for Hardware Asset Management flows
 description: These readily available decision tables help you customize the flows in some of the Hardware Asset Management features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/ham-decision-table.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -136,5 +137,5 @@ Contract renewal tasks
 Contract Renewal Tasks Flow
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Hardware Asset Management reference](../concept/reference-hardware-asset-management.md)
+</table>**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
 

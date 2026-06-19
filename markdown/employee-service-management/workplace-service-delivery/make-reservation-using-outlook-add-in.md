@@ -2,6 +2,7 @@
 title: Make a reservation using Workplace Reservations for Microsoft Outlook Add-in
 description: Schedule an event or appointment in the Microsoft Outlook using the additional features provided by the Workplace Reservations for Microsoft Outlook Add-in application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-service-delivery/make-reservation-using-outlook-add-in.html
 release: zurich
 product: Workplace Service Delivery
 classification: workplace-service-delivery
@@ -17,10 +18,10 @@ Schedule an event or appointment in the Microsoft Outlook using the additional f
 
 ## Before you begin
 
--   [Create a manifest file for Microsoft Outlook Add-in](add-manifest-file-for-outlook-addin.md).
+-   [Create a manifest file for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery/add-manifest-file-for-outlook-addin.md).
 -   Upload the manifest file. Perform any one of the following actions depending on the usage:
-    -   [Upload the manifest file for a single user](upload-manifest-for-single-user.md).
-    -   [Upload the manifest file in Microsoft Office 365](upload-the-manifest-file-office365.md).
+    -   [Upload the manifest file for a single user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery/upload-manifest-for-single-user.md).
+    -   [Upload the manifest file in Microsoft Office 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery/upload-the-manifest-file-office365.md).
 
 Role required: admin
 
@@ -42,9 +43,9 @@ Role required: admin
 
     If **Max days in future** is enabled, and if the start date and end date exceeds the **Max days in future** value, a warning message is displayed to show that reservation can only be made up to the number of days specified in **Max days in future**. The **Max days in future** value is configured on the Reservable module and specifies the maximum number of the days in the future up to which the Reservable module can be reserved.
 
-    **Note:** If the **Max days in future** value is not enabled, users can select a date as per the **Max number of occurrences** on the Reservable module. For more information, see [Configure a reservable module](../../wsd-reservation-management/task/config-reservable-module.md).
+    **Note:** If the **Max days in future** value is not enabled, users can select a date as per the **Max number of occurrences** on the Reservable module. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
-    -   If an employee clicks open the calendar icon ![date picker icon](../../workplace-visitor-mgmt/image/date-time-icon.png) and tries to select a date greater than the **Max days in future** value, the dates are disabled in the calendar date picker.
+    -   If an employee clicks open the calendar icon \[Omitted image "date-time-icon.png"\] Alt text: date picker icon and tries to select a date greater than the **Max days in future** value, the dates are disabled in the calendar date picker.
     -   For example, if the **Max days in future** value is 90 days, and if you try to select a date beyond 90 days, then the number of days beyond 90 days is disabled in the calendar date picker.
     -   A warning message is shown that you can reserve a space within the next 90 days only. The date defaults to the current date.
     -   If an employee manually enters a date that is greater than what is specified in the **Max days in future** value, then the application resets the date to the current date.
@@ -60,7 +61,7 @@ Role required: admin
 
         The spaces will be displayed depending on the capacity specified.
 
-        ![Workplace reservations in the Microsoft Outlook Add-in](../images/reservation-outlook-building.png "Workspace Reservations for Microsoft Outlook Add-in")
+        \[Omitted image "reservation-outlook-building.png"\] Alt text: Workplace reservations in the Microsoft Outlook Add-in
 
 6.  Click **Search**.
 
@@ -100,7 +101,7 @@ Role required: admin
 
     The reservation is created and logged in the Workplace Reservation Management application.
 
-    ![Save reservation in the Microsoft Outlook Add-in](../images/reservation-outlook.png "Reservation window in Microsoft Outlook")
+    \[Omitted image "reservation-outlook.png"\] Alt text: Save reservation in the Microsoft Outlook Add-in
 
 19. In the Outlook appointment window, click **Send** to send the meeting request.
 

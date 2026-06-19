@@ -2,6 +2,7 @@
 title: Leaderboard page
 description: The leaderboard page displays the top contributors in the community, in a forum, or in a topic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/communities/gamification-ui-leaderboard.html
 release: zurich
 product: Communities
 classification: communities
@@ -19,7 +20,7 @@ Users appear on the leaderboard based on the number of earned points and are ran
 
 To display the leaderboard, navigate to **Community** &gt; **Leaderboard**. You can also click **Show Leaderboard** on the leaderboard widget. When navigating to the leaderboard from a leaderboard widget on a forum/topic landing page, the leaderboard shows the top point earners for that forum/topic.
 
-![Leaderboard ranking users by points and level.](../images/CommunitiesLeaderboard.png "Community leaderboard")
+\[Omitted image "CommunitiesLeaderboard.png"\] Alt text: Leaderboard ranking users by points and level.
 
 For each user, the leaderboard displays:
 
@@ -30,5 +31,5 @@ For each user, the leaderboard displays:
 
 By default, the leaderboard displays 10 users per page. Users can use the pagination controls to view additional pages. Pointing to a user name in the leaderboard displays a pop-up window with more information about the user.
 
-**Parent Topic:**[Gamification user interface components](../concept/communities-gamification-UI.md)
+**Parent Topic:**[Gamification user interface components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/communities-gamification-UI.md)
 

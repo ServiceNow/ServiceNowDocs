@@ -2,13 +2,14 @@
 title: Set up Azure connection
 description: Add and configure an Azure connection with your Azure portal. Using the connection credentials, the Cloud Account Management application creates Azure subscriptions. This is a one-time configuration step.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/set-up-azure-connector.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Configuring Cloud Account Management, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Set up Azure connection

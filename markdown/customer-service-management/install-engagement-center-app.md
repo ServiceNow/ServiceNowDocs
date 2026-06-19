@@ -2,7 +2,10 @@
 title: Install the Engagement Messenger application
 description: Install the Engagement Messenger application from the ServiceNow Store if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/install-engagement-center-app.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -27,7 +30,7 @@ Role required: admin
 
     You can search for the application by its name or ID. If you can't find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -48,13 +51,13 @@ The following items are installed with Engagement Messenger:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Engagement Messenger](../reference/installed-with-engagement-messenger.md).
+For more information, see [Components installed with Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/installed-with-engagement-messenger.md).
 
 ## What to do next
 
 -   If you want to enable Virtual Agent chat support in the Engagement Messenger, activate the Glide Virtual Agent plugin \(com.glide.cs.chatbot\).
 
-    For more information, see [Activate Virtual Agent](https://www.servicenow.com/docs/access?context=activate-virtual-agent&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+    For more information, see Activate Virtual Agent.
 
--   Get started with Engagement Messenger. For more information on how to get started, see [Set up Engagement Messenger](../concept/setting-up-engagement-messenger.md).
+-   Get started with Engagement Messenger. For more information on how to get started, see [Set up Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/setting-up-engagement-messenger.md).
 

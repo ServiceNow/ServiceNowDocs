@@ -2,6 +2,7 @@
 title: Create a theme in Agile Development 2.0
 description: Create a theme in Agile Development 2.0 to group stories of different products together for an abstract goal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/create-a-theme.html
 release: zurich
 product: Agile Development
 classification: agile-development
@@ -85,7 +86,7 @@ Detailed description about the theme.
 
 ## What to do next
 
-Add epics and stories to the theme using the related lists available in the Theme record. For more information, see [Related lists for a Theme in Agile Development 2.0](../reference/related-links-lists-for-theme-in-agile-development-2.md)
+Add epics and stories to the theme using the related lists available in the Theme record. For more information, see [Related lists for a Theme in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/related-links-lists-for-theme-in-agile-development-2.md)
 
-**Parent Topic:**[Using Agile Development 2.0](../concept/using-agile-development-2-0.md)
+**Parent Topic:**[Using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/using-agile-development-2-0.md)
 

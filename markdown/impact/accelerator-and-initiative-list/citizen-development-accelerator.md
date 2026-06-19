@@ -2,6 +2,7 @@
 title: Citizen Development Program Design
 description: Provides prescriptive guidance on enabling Citizen Development for your ServiceNow platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/citizen-development-accelerator.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -21,7 +22,7 @@ The Citizen Development Program Design Accelerator provides Impact customers wit
 
 This Accelerator includes workshops to assess and create a prioritized list of candidates for Citizen Development, determine the required screening and training for them, and assess operational and technical governance to identify any necessary adjustments.
 
-For more information on the Citizen Development and low code development, see [Exploring App Engine Studio](https://www.servicenow.com/docs/access?context=exploring-aes&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+For more information on the Citizen Development and low code development, see .
 
 **Note:** This Accelerator is available for Impact Advanced and Total packages.
 

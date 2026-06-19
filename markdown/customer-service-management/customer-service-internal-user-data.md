@@ -2,7 +2,10 @@
 title: Internal user data
 description: Internal user data includes information about the users who are internal to your organization, such as managers, agents, and other employees. Internal users can also belong to user groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-service-internal-user-data.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -21,7 +24,7 @@ User roles provide access to customer service features, capabilities, and data. 
 -   Consumer service agent \[sn\_customerservice.consumer\_agent\]
 -   Customer service manager \[sn\_customerservice\_manager\]
 
-For detailed descriptions about user roles, see [Roles installed with Customer Service Management](../reference/r_RolesInstalledWithCustomerService.md).
+For detailed descriptions about user roles, see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/r_RolesInstalledWithCustomerService.md).
 
-**Parent Topic:**[Roles installed with Customer Service Management](../reference/r_RolesInstalledWithCustomerService.md)
+**Parent Topic:**[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/r_RolesInstalledWithCustomerService.md)
 

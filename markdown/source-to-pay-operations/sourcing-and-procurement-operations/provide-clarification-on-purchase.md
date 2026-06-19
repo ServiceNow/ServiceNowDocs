@@ -2,13 +2,14 @@
 title: Provide clarification on your purchase from Shopping Hub Home
 description: Provide clarification on your purchase by answering the question that the approver has posted regarding your order. Your response to this clarification ensures that the approver understands your exact requirements and has all the necessary information before proceeding with approving or rejecting your purchase request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/provide-clarification-on-purchase.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Shopper to-dos, Using Shopping Hub, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Shopper to-dos, Using Shopping Hub, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Provide clarification on your purchase from Shopping Hub Home
@@ -35,8 +36,8 @@ Role required: sn\_shop.shopper
 
     This correspondence is tracked through the activity stream of the corresponding purchase requisition or sourcing request here in Shopping Hub. The same is also tracked through the activity stream of the approval plan in Employee Center.
 
-    An email notification is sent to the approver that clarification is provided for the purchase. You can configure this email notification based on your requirements. For details, see [Approval email notification templates](../reference/approval-email-notifications-template.md).
+    An email notification is sent to the approver that clarification is provided for the purchase. You can configure this email notification based on your requirements. For details, see [Approval email notification templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/approval-email-notifications-template.md).
 
 
-**Parent Topic:**[Shopper to-dos](../reference/shopper-todos.md)
+**Parent Topic:**[Shopper to-dos](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos.md)
 

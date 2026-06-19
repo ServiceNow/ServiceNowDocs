@@ -2,6 +2,7 @@
 title: Components installed with Finance Common Architecture
 description: Several types of components are installed with the installation of the Finance Common Architecture application, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/common-service-delivery/installed-with-finance-common.html
 release: zurich
 product: Common Service Delivery
 classification: common-service-delivery

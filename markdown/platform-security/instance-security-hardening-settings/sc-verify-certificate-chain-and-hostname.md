@@ -2,6 +2,7 @@
 title: Verify certificate chain and hostname \[New in Security Center 1.3 and updated in 2.0\]
 description: Configure the com.glide.communications.httpclient.verify\_hostname property to prevent man-in-the-middle-attacks by ensuring that the certification verification process is executed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-verify-certificate-chain-and-hostname.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -73,7 +74,7 @@ Category
 
 </td><td>
 
-[Communications](sc-communications.md)
+[Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-communications.md)
 
 </td></tr><tr><td>
 
@@ -102,5 +103,5 @@ Functional impact
 Verifies hostname and certificate chain presented by remote secure socket layer \(SSL\) hosts. Set this property to true to secure against Man-in-the-middle \(MITM\) attacks.**Note:** This property overrides the **com.glide.communications.trustmanager\_trust\_all**, property.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Communications](sc-communications.md)
+</table>**Parent Topic:**[Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-communications.md)
 

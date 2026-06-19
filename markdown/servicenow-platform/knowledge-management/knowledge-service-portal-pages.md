@@ -2,6 +2,7 @@
 title: Knowledge Management Service Portal homepage features
 description: The Knowledge Management Service Portal homepage displays knowledge articles organized by knowledge base and category, as well as featured content and popular articles. Learn how to navigate the homepage to search for and find useful and relevant information quickly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/knowledge-service-portal-pages.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -65,7 +66,7 @@ This action is available to logged-in users with the knowledge role. Click **Ask
 
 </td></tr><tr><td>
 
-Overflow icon \(![Overflow icon](../image/KnowledgeServicePortalOverflowIcon.png)\)
+Overflow icon \(\[Omitted image "KnowledgeServicePortalOverflowIcon.png"\] Alt text: Overflow icon\)
 
 </td><td>
 
@@ -95,7 +96,7 @@ Featured
 
 </td><td>
 
-Lists any knowledge articles that were pinned. For more information, see [Add a knowledge article to featured content](../task/t_PinAnArticle.md).
+Lists any knowledge articles that were pinned. For more information, see [Add a knowledge article to featured content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/t_PinAnArticle.md).
 
 </td></tr><tr><td>
 
@@ -116,5 +117,5 @@ Lists the top five articles with the most views.
 </td></tr></tbody>
 </table>**Note:** The Knowledge Management Service Portal homepage is mobile responsive.
 
-**Parent Topic:**[Using Knowledge Management](using-knowledge-management.md)
+**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/using-knowledge-management.md)
 

@@ -2,6 +2,7 @@
 title: Account recovery properties
 description: Use system properties to configure Account Recovery \(ACR\) on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/acr-properties.html
 release: zurich
 product: Authentication
 classification: authentication

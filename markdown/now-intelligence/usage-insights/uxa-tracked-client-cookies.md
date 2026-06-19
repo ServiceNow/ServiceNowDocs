@@ -1,0 +1,73 @@
+---
+title: Usage Insights client-side storage cookies
+description: To track client-side user activity, Usage Insights uses the SNAnalytics JavaScript SDK that is embedded in Platform Analytics, Core UI, and the Service Portal.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/usage-insights/uxa-tracked-client-cookies.html
+release: zurich
+product: Usage Insights
+classification: usage-insights
+topic_type: reference
+last_updated: "2025-07-31"
+reading_time_minutes: 2
+breadcrumb: [Tracked analytics fields and cookies, User privacy, tracking, and consent, Configure, Usage Insights, Platform Analytics]
+---
+
+# Usage Insights client-side storage cookies
+
+To track client-side user activity, Usage Insights uses the SNAnalytics JavaScript SDK that is embedded in Platform Analytics, Core UI, and the Service Portal.
+
+The SNAnalytics SDK uses a combination of session storage and local storage variables to track the information required to facilitate the analytics tracking.
+
+For more information on session storage and local storage, refer to the [JavaScript.Info](https://javascript.info/localstorage) documentation.
+
+For more information on SNAnalytics SDK, see   and [SNAnalytics ](https://developer.servicenow.com/dev.do#!/reference/api/xanadu/client/SNAnalyticsClientAPI)– in the Developer community.
+
+## Key structure
+
+All locally stored keys are stored using the following structure: `sn:{API_KEY}:{KEY NAME}`
+
+Each tracked portal has a unique API\_KEY that is stored on the instance. For example, for the portal with an API key `abcd` and a key name `tab`, the local key value would be: `sn:abc:tab`
+
+## Session storage
+
+Session storage is used to maintain the flow of information between web page refreshes and user navigations. Information in session storage is transient and kept available only during the lifespan of the current tab. When a tab is closed, the session storage information is removed.
+
+The table lists the keys and values stored on session storage.
+
+|Key|Description|
+|---|-----------|
+|srt|Server Response Time. The last time SNAnalytics successfully communicated with the Usage Insights server.|
+|data|Queue of temporary stored analytics data points, which is periodically flushed to the backend.|
+|page|The name of the current page, automatically captured by the Usage Insights server.|
+|tab|Randomly generated unique identifier for the current tab.|
+
+## Local storage
+
+Local storage is used to maintain tracking consent information, hashed identification of the user \(which is cleared when consent is revoked\), and randomly generated identifiers for the browser. Local storage variables are persistent locally and are deleted when you clear your browsing data.
+
+The table lists the keys and values stored on local storage.
+
+|Key|Description|
+|---|-----------|
+|browser|Randomly generated unique identifier for the current browser.|
+|client|The server assigned ID mapped to the browser key value.|
+|user|Hashed user id, supplied by the customer.|
+|consent|A Boolean \(yes/no\) value that indicates whether the user consents to be tracked.|
+|config|A persistent key that remains in local storage after you log out of on an instance. Stores non-sensitive application-level configuration settings used to support consistent app behavior across sessions.|
+
+## Deleting local storage
+
+To delete local storage variables, you must clear the browsing data from your browser. For example, in the Chrome browser, select **History** &gt; **Show Full History** &gt; **Clear browsing data**. In the Clear browsing data window, select **Cookies and other site data** and then select **Clear data**.
+
+\[Omitted image "clear-local-storage-cookies.png"\] Alt text: Settings to clear local storage cookies.
+
+## Data storage
+
+Data is encrypted at rest. It’s stored in a central ServiceNow® multitenant repository closest to you, in either AMS \(Canada\), EMEA \(Germany\), or APAC \(Japan\).
+
+Data is anonymized before it’s sent to storage, and deleted at the database level after a retention period of two years.
+
+For the Zurich release and onwards, backups are stored regionally on the new architecture only and don’t use the additional backup copy stored in a central repository in Canada.
+
+**Parent Topic:**[Tracked analytics fields and cookies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/uxa-tracked-fields-and-cookies.md)
+

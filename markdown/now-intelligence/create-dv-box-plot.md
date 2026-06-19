@@ -2,6 +2,7 @@
 title: Create a box plot data visualization
 description: Use a box plot to show the median and lower and upper quartiles of numeric data along with outliers. You can also compare the distribution of different groups of this data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/create-dv-box-plot.html
 release: zurich
 topic_type: task
 last_updated: "2025-09-04"
@@ -18,11 +19,11 @@ Use a box plot to show the median and lower and upper quartiles of numeric data 
 
 **Important:** The box plot visualization is included in the latest data visualizations application from the ServiceNow® Store.
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../concept/report-view-access-control.md) and [Platform Analytics roles](../../par-for-workspace/reference/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
-The Box Plot visualization only supports table data. Indicator, MetricBase, and User Experience Analytics data is not supported.
+The Box Plot visualization only supports table data. Indicator, MetricBase, and Usage Insights data is not supported.
 
 For information about the use of a Box plot visualization in a dashboard, see [the Developer Site.](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/shared-components/now-vis-boxplot/usage) This site gives information about Box plot components in the UI Builder, and some configuration options may differ from the Visualization Designer.
 
@@ -32,7 +33,7 @@ For information about the use of a Box plot visualization in a dashboard, see [t
 
 2.  Select **Create data visualization**.
 
-3.  Select the Box Plot \(![vertical box icon](../image/inline-data-vis-box.png)\) visualization type.
+3.  Select the Box Plot \(\[Omitted image "inline-data-vis-box.png"\] Alt text: vertical box icon\) visualization type.
 
 4.  Configure the **Header and border**. Header and border options are the same for all data sources.
 
@@ -159,7 +160,7 @@ Specify the text color of the title. The default title color is black, but you c
 </td></tr></tbody>
 </table>5.  Open the Data Source selector and select a table.
 
-6.  Configure the data settings as described in [Table data options for box plot visualizations](../reference/config-dv-box-table-data.md).
+6.  Configure the data settings as described in [Table data options for box plot visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/config-dv-box-table-data.md).
 
 7.  Under **Presentation**, provide display and color information..
 
@@ -282,7 +283,7 @@ Set color type
 
 </td><td>
 
--   Default: A color or set of colors that come from the UX Theme that is applied to the instance. For more information, see [Working with themes in Next Experience](https://www.servicenow.com/docs/access?context=next-experience-theming&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+-   Default: A color or set of colors that come from the UX Theme that is applied to the instance. For more information, see .
 -   Single color/Colors per metric: Select a single color in the **Set value color** field. Interacting with that field opens a selector where you can choose the color from either a set of icons or from a list. You can also search for a color. Entering a search value has the selector show you a list of colors filtered by that search value.
 
 
@@ -311,9 +312,9 @@ Action
 
 </td><td>
 
-Choose the event that occurs when a user clicks in a visualization or one of its segments. Choices depend on the visualization type and data source. Applies only when **Allow chart interaction** is on. For more information, see [Chart interactions in a data visualization](../../par-for-workspace/concept/dv-chart-interactions.md).
+Choose the event that occurs when a user clicks in a visualization or one of its segments. Choices depend on the visualization type and data source. Applies only when **Allow chart interaction** is on. For more information, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dv-chart-interactions.md).
 
--   **Go to data view** opens a list view, KPI Details page, or User Experience Analytics overview page relevant to the associated segment or visualization. For table data, a system property determines whether a Core UI list or a Platform Analytics list opens. For more information, see [Data views for different data sources](../../dashboards/reference/visualization-drilldown-in-config-ws.md).
+-   **Go to data view** opens a list view, KPI Details page, or Usage Insights overview page relevant to the associated segment or visualization. For table data, a system property determines whether a Core UI list or a Platform Analytics list opens. For more information, see [Data views for different data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/visualization-drilldown-in-config-ws.md).
 -   **Go to URL** opens the specified URL, which can be on the instance or external. You have the option of specifying a page name to appear in the tooltip, for those visualizations with tooltips.
 -   **Drill down to chart** \(Visualization Designer only\) Opens a different data visualization that is filtered by the selected data. You can add a drill-down visualization for each metric on the parent visualization.
 
@@ -327,12 +328,12 @@ Choose the event that occurs when a user clicks in a visualization or one of its
 
 ## What to do next
 
--   [Add a visualization to a dashboard from the Visualization Designer](add-dv-new-db.md)
--   [Share a data visualization in the Visualization Designer](share-dv-ac.md#)
--   [Bookmark a visualization in the Visualization Designer](../../dashboards/task/bookmark-dv-ac.md)
+-   [Add a visualization to a dashboard from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/add-dv-new-db.md)
+-   [Share a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/share-dv-ac.md)
+-   [Bookmark a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/bookmark-dv-ac.md)
 
--   **[Table data options for box plot visualizations](../reference/config-dv-box-table-data.md)**  
+-   **[Table data options for box plot visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/config-dv-box-table-data.md)**  
 When you select a table data source for a box plot visualization, the following Data configuration options are available.
 
-**Parent Topic:**[Creating data visualizations](../concept/creating-data-visualizations.md)
+**Parent Topic:**[Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/creating-data-visualizations.md)
 

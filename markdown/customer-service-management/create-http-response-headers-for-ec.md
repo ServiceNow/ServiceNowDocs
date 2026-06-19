@@ -2,7 +2,10 @@
 title: Create HTTP response headers for Engagement Messenger
 description: Configure a name-value pair for HTTP response headers for the Engagement Messenger module. The ability to configure and pass response headers enables special handling of the page content by a client, which is most typically a browser.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-http-response-headers-for-ec.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -15,9 +18,9 @@ Configure a name-value pair for HTTP response headers for the Engagement Messeng
 
 ## Before you begin
 
--   [Configure Engagement Messenger](create-engagement-messenger-module.md).
--   [Create an identity provider \(IdP\) for Engagement Messenger](../concept/create-identity-providers-for-engagement-messenger.md).
--   [Configure a CORS rule for Engagement Messenger](create-cors-for-rest-api-ec.md).
+-   [Configure Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-engagement-messenger-module.md).
+-   [Create an identity provider \(IdP\) for Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-identity-providers-for-engagement-messenger.md).
+-   [Configure a CORS rule for Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-cors-for-rest-api-ec.md).
 -   Role required: admin
 
 ## About this task
@@ -86,9 +89,9 @@ Engagement Messenger module record that the HTTP response header configuration a
 
  Select a record:
 
-1.  Select the Search \(![Search icon.](../../../common/image/List_SearchIcon.png)\) icon to access the Select the document pop-up form.
+1.  Select the Search \(\[Omitted image "List\_SearchIcon.png"\] Alt text: Search icon.\) icon to access the Select the document pop-up form.
 2.  In the **Table name** field, ensure that the value is set to **Service Portal**.
-3.  In the **Document** field, select the Search \(![Search icon.](../../../common/image/List_SearchIcon.png)\) icon.
+3.  In the **Document** field, select the Search \(\[Omitted image "List\_SearchIcon.png"\] Alt text: Search icon.\) icon.
 4.  From the list of Service Portal records, select the messenger module that you configured.
 5.  Select **OK**.
 
@@ -127,10 +130,10 @@ Detailed description for the HTTP response header.
 </table>
 ## What to do next
 
-[Activate an Engagement Messenger module](activate-engagement-messenger-module.md).
+[Activate an Engagement Messenger module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/activate-engagement-messenger-module.md).
 
 **Related topics**  
 
 
-[HTTP Response Headers](https://www.servicenow.com/docs/access?context=http-response-header&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.http-response-header]
 

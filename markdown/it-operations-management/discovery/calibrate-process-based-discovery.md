@@ -2,6 +2,7 @@
 title: Calibrate fingerprint-based discovery
 description: Fine-tune discovering applications based on processes, if the discovery results are not satisfactory.Fingerprint-based discovery relies on Predictive Intelligence for generating suggestions for discovery. If the Application Fingerprints dashboard does not display any suggestions, ensure that the Predictive Intelligence is configured correctly.Adjust definitions of process-based suggestions before starting discovery. Typically, you need to fine-tune automatically generated suggestions if the accuracy is less than 100%. Predictive Intelligence creates suggestions and provides the accuracy estimate for each suggestion. The lack of accuracy may result in the failure to discover required applications or the discovery of wrong applications in addition to the correctly discovered applications.Fine-tune the regular expression in the classifier rule to make discovery results more precise. Predictive Intelligence extracts regular expressions from processes and assigns them to classifier rules as part of creating suggestions. If you are not satisfied with the discovery results or the suggestion accuracy is lower than 100%, modify the regular expression.By default, the fingerprint-based discovery is enabled. Disable application discovery based on processes, if Predictive Intelligence does not generate enough processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/calibrate-process-based-discovery.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -41,7 +42,7 @@ If the **Application Fingerprints** dashboard does not display any suggestions, 
 
     3.  Verify that the Predictive Intelligence plugin is installed.
 
-        ![Checking the Predictive Intelligence plugin status](../image/pi-installed.png)
+        \[Omitted image "pi-installed.png"\] Alt text: Checking the Predictive Intelligence plugin status
 
         If Predictive Intelligence is not installed, click the **Install** button.
 
@@ -61,7 +62,7 @@ If the **Application Fingerprints** dashboard does not display any suggestions, 
 
     4.  Check that the discovery frequency is set to one hour as shown in the following example:
 
-        ![Ensuring that the scheduled job for the fingerprint-based discovery is active](../image/fingerprint-based-scheduled-job-active.png)
+        \[Omitted image "fingerprint-based-scheduled-job-active.png"\] Alt text: Ensuring that the scheduled job for the fingerprint-based discovery is active
 
 3.  Check that the clustering solution responsible for grouping processes into suggestions is active.
 
@@ -75,13 +76,13 @@ If the **Application Fingerprints** dashboard does not display any suggestions, 
 
     3.  If there are several clustering solutions, identify the latest solution by the timestamp in the **Update** column.
 
-        Alternatively, you can use the number that the system appends to the solution name to identify the latest solution.![Identifying the latest clustering solution by appended number in the name.](../image/pi-clustering-solution-identification.png)
+        Alternatively, you can use the number that the system appends to the solution name to identify the latest solution.\[Omitted image "pi-clustering-solution-identification.png"\] Alt text: Identifying the latest clustering solution by appended number in the name.
 
     4.  Verify that the **State** value is **Solution Complete** and **Progress** is at **100%**.
 
-        ![Verify that the clustering solution is active.](../image/pi-clustering-solution.png)
+        \[Omitted image "pi-clustering-solution.png"\] Alt text: Verify that the clustering solution is active.
 
-    5.  If the State value is not Solution Complete, configure Predictive Intelligence as described in [Configuration tips for Predictive Intelligence](https://www.servicenow.com/docs/access?context=troubleshooting-predictive-intelligence&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+    5.  If the State value is not Solution Complete, configure Predictive Intelligence as described in Configuration tips for Predictive Intelligence.
 
 4.  Check that the clustering solution created enough process groups, which become suggestions.
 
@@ -91,9 +92,9 @@ If the **Application Fingerprints** dashboard does not display any suggestions, 
 
     3.  If there are less than 1000 processes, discover more processes by running horizontal discovery on additional IP ranges or subnets.
 
-    4.  If there are still less than 1000 processes after discovering additional IP ranges or subnets, [disable the fingerprint-based discovery](calibrate-process-based-discovery.md#).
+    4.  If there are still less than 1000 processes after discovering additional IP ranges or subnets, [disable the fingerprint-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/calibrate-process-based-discovery.md).
 
-5.  Check that the **Application suggestion - ITOM Autodisco** transaction is not slow-loading, as described in [View and kill active transaction](https://www.servicenow.com/docs/access?context=t_ViewAndKillAnActiveTransaction&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+5.  Check that the **Application suggestion - ITOM Autodisco** transaction is not slow-loading, as described in View and kill active transaction.
 
     If this transaction is running for a long time, kill it.
 
@@ -123,7 +124,7 @@ Role required: discovery\_admin
 
     The Application Suggestion form opens.
 
-    ![The Application Suggestion form](../image/fingerprint-application-suggestion-fine-tune.png)
+    \[Omitted image "fingerprint-application-suggestion-fine-tune.png"\] Alt text: The Application Suggestion form
 
 5.  To change the name used for the fingerprint-based application, enter the preferred name in the **Name** field.
 
@@ -137,7 +138,7 @@ Role required: discovery\_admin
 
 8.  Click **Update**.
 
-9.  If you are not sure how to change the classifier rule, fine-tune it after performing the initial discovery as described in [Adjust regular expression used for fingerprint-based discovery](calibrate-process-based-discovery.md#).
+9.  If you are not sure how to change the classifier rule, fine-tune it after performing the initial discovery as described in [Adjust regular expression used for fingerprint-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/calibrate-process-based-discovery.md).
 
 
 ## Adjust regular expression used for fingerprint-based discovery
@@ -160,15 +161,15 @@ Role required: discovery\_admin
 
     The Process Classification form opens.
 
-    ![Adjusting the regular expression.](../image/process-classification-fine-tune-example1.png)
+    \[Omitted image "process-classification-fine-tune-example1.png"\] Alt text: Adjusting the regular expression.
 
 4.  In the **Parameters** value field under **Condition**, notice the regular expression automatically selected by Predictive Intelligence.
 
     In this example, it is **."-DweblogicName=."**
 
-5.  Click **Padlock** icon ![Padlock icon](../../event-management/image/lock-icon.png) next to **Test with**.
+5.  Click **Padlock** icon \[Omitted image "lock-icon.png"\] Alt text: Padlock icon next to **Test with**.
 
-6.  Click the **Look up** icon ![Search icon](../../../administer/field-administration/image/SearchIconHeisenberg.png) to select the server on which you want to test additional regular expressions.
+6.  Click the **Look up** icon \[Omitted image "SearchIconHeisenberg.png"\] Alt text: Search icon to select the server on which you want to test additional regular expressions.
 
     The list of all discovered servers opens.
 
@@ -180,7 +181,7 @@ Role required: discovery\_admin
 
     The system runs a test and displays the results on the **Test results** tab at the bottom of the page.
 
-    ![Adjusting the regular expression and choosing the server for testing it.](../image/process-classification-fine-tune-example2.png)
+    \[Omitted image "process-classification-fine-tune-example2.png"\] Alt text: Adjusting the regular expression and choosing the server for testing it.
 
 9.  On the Test results tab, check the processes that were discovered using the regular expressions configured for this classifier.
 
@@ -205,7 +206,7 @@ Role required: discovery\_admin
 
 ### Procedure
 
-1.  Add the system property **sys\_property process.clustering.appfingerprint.enabled** as described in [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+1.  Add the system property **sys\_property process.clustering.appfingerprint.enabled** as described in Add a system property.
 
 2.  To disable, enter `false` in the **Value** field.
 

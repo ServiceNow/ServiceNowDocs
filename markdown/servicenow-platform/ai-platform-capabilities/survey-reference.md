@@ -1,0 +1,45 @@
+---
+title: Surveys reference
+description: Reference topics provide additional information about the forms, fields, and properties you use while working with surveys.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/ai-platform-capabilities/survey-reference.html
+release: zurich
+product: AI Platform Capabilities
+classification: ai-platform-capabilities
+topic_type: reference
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+---
+
+# Surveys reference
+
+Reference topics provide additional information about the forms, fields, and properties you use while working with surveys.
+
+-   **[Survey roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/r_SurveyManagementRoles.md)**  
+The Survey application uses the following roles.
+-   **[Key survey terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/c_survey-key-terms.md)**  
+These survey terms are used throughout the documentation to describe survey management functions and capabilities.
+-   **[Survey Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/survey-overview-module.md)**  
+The Survey Overview dashboard displays various survey reports, such as Surveys by Metric Type and State.
+-   **[Metric Result form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/r_MetricResultFieldNames.md)**  
+Description of the field values for the Metric Result form.
+-   **[Domain separation and Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/domain-separation-surveys.md)**  
+Domain separation is supported in Surveys. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+-   **[Survey Designer Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/survey-design-config-form.md)**  
+Description of the field values for the Survey Designer Configuration form.
+-   **[Properties form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/properties-form-survey-designer.md)**  
+Description of the field values for the Properties form of survey designer.
+-   **[Custom Metric form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/custom-metric-form-fields.md)**  
+Description of the field values for the Custom Metric form.
+-   **[Survey Instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/survey-instance-form.md)**  
+Description of the field values for the on the Survey Instance form.
+-   **[Survey Question form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/survey-question-form.md)**  
+Description of the field values for the Survey Question form.
+-   **[Trigger Condition form for surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/trigger-condition-form.md)**  
+Description of the field values for the Trigger Condition form for surveys.
+-   **[Recipients List form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/recipients-list-form.md)**  
+Description of the field values for the Recipients List form.
+
+**Parent Topic:**[Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/r_SurveyManagementLandingPage.md)
+

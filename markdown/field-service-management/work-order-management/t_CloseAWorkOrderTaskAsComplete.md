@@ -2,6 +2,7 @@
 title: Close a work order task as complete
 description: Only agents can close work order tasks assigned to them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/t\_CloseAWorkOrderTaskAsComplete.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -41,7 +42,7 @@ If the caller's problem was fixed or resolved, use the **Close Complete** option
 
 5.  Click **Close Complete**.
 
-    ![close complete button](../../field-service-management/image/close-complete.png)
+    \[Omitted image "close-complete.png"\] Alt text: close complete button
 
     -   The status of all unused parts automatically changes to **In-Stock**.
     -   The state of the parent work order automatically changes to **Closed - Complete** if all work order tasks on the work order have a state of **Closed - Complete** or **Canceled**.

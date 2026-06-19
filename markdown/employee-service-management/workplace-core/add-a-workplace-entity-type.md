@@ -2,6 +2,7 @@
 title: Add a workplace entity type
 description: Create an entity type according to your organizational requirement. You can group your workplace entities under this entity type and perform various actions on all entities that belong to this type at a time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-core/add-a-workplace-entity-type.html
 release: zurich
 product: Workplace Core
 classification: workplace-core
@@ -43,7 +44,7 @@ The entity type is created.
 
 ## What to do next
 
-[Add workplace entities to an entity type](add-workplace-entities-to-an-entity-type.md)
+[Add workplace entities to an entity type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/add-workplace-entities-to-an-entity-type.md)
 
-**Parent Topic:**[Configure Workplace entity and entity types](../concept/workplace-entity.md)
+**Parent Topic:**[Configure Workplace entity and entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/workplace-entity.md)
 

@@ -2,6 +2,7 @@
 title: Test updates to a PaCE policy version
 description: Use the Test Playground to test updates to a PaCE policy script. You can evaluate changes to the policy script in real time, enabling you to determine if the changes that are applied render the policy compliant or non-compliant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/policy-as-code-engine-pace/pace-test-policy-version.html
 release: zurich
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
@@ -25,7 +26,7 @@ The Test Playground enables you to apply changes to the policy script, and see t
 
 ## Procedure
 
-1.  In the **Policy builder** tab, select the Test playground icon ![Test playground icon.](../image/pace-test-playground-icon.jpg) in the right-hand menu.
+1.  In the **Policy builder** tab, select the Test playground icon \[Omitted image "pace-test-playground-icon.jpg"\] Alt text: Test playground icon. in the right-hand menu.
 
 2.  In the Test parameters tab, fill in the forms as needed.
 
@@ -78,7 +79,7 @@ Verbose
 Option to make the test display in a verbose format.
 
 </td></tr></tbody>
-</table>    ![Test parameters tab.](../image/pace-test-paras-section-2.jpg)
+</table>    \[Omitted image "pace-test-paras-section-2.jpg"\] Alt text: Test parameters tab.
 
 3.  Under the **API parameters** and **Config parameters** tabs, select the variables you want to test with the policy version.
 
@@ -88,6 +89,6 @@ Option to make the test display in a verbose format.
 
     **Note:** A decision with Compliant with exception will not work with a custom decision.
 
-    ![Output tab.](../image/pace-output-tab-2.jpg)
+    \[Omitted image "pace-output-tab-2.jpg"\] Alt text: Output tab.
 
 

@@ -2,6 +2,7 @@
 title: Insights view in Service Graph Workspace
 description: View insightful dashboards that show aggregated counts, state, and health for key features such as CMDB Health, Service Instances, and CMDB 360.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-view.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -23,11 +24,12 @@ Role required: Any role containing sn\_cmdb\_user \(sn\_cmdb\_user, sn\_cmdb\_ed
 
 ## Insights dashboards
 
--   [CMDB Health](sg-workspace-insights-cmdbhealth.md)
--   [CMDB Get Well](sg-workspace-insights-cmdbgetwell.md)
--   [CSDM Get Well](sg-workspace-insights-csdmgetwell.md)
--   [Feature adoption](sg-workspace-insights-featadoption.md)
--   [Performance](sg-workspace-insights-perfinsight.md)
--   [Service instance](sg-workspace-insights-serviceinstances.md)
--   [CMDB 360](sg-workspace-insights-cmdb360.md)
+-   [CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-cmdbhealth.md)
+-   [CMDB Get Well](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-cmdbgetwell.md)
+-   [CSDM Get Well](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-csdmgetwell.md)
+-   [CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-sa.md)
+-   [Feature adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-featadoption.md)
+-   [Performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-perfinsight.md)
+-   [Service instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-serviceinstances.md)
+-   [CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-cmdb360.md)
 

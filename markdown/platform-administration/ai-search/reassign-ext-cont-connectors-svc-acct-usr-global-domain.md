@@ -2,6 +2,7 @@
 title: Reassign the External Content Connectors Service Account user to the global domain
 description: Fix issues with missing user permissions for users on your instance by reassigning the External Content Connectors Service Account user to the global domain.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/reassign-ext-cont-connectors-svc-acct-usr-global-domain.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -37,7 +38,7 @@ As an example, suppose you have an instance with domain separation configured wh
 
 3.  On the User form, configure the layout to show the **Managed domain**, **Domain**, and **Domain Path** fields.
 
-    To learn how to show or hide fields on a form, see [Configuring the form layout](../../form-administration/concept/configure-form-layout.md#).
+    To learn how to show or hide fields on a form, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/configure-form-layout.md).
 
 4.  Select the **Managed domain** option.
 
@@ -56,5 +57,5 @@ As an example, suppose you have an instance with domain separation configured wh
 8.  Update your user permission mappings by rerunning user permission crawls for your affected external content connectors.
 
 
-**Parent Topic:**[External Content Connectors reference](../concept/reference-ext-cont-connectors.md)
+**Parent Topic:**[External Content Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/reference-ext-cont-connectors.md)
 

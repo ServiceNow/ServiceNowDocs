@@ -2,6 +2,7 @@
 title: Health Log Analytics system health notifications
 description: Health Log Analytics system health notifications help to ensure that you're aware of potentially dangerous conditions. You can manually adjust the status of a notification as the issue is being addressed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-sys-health-notifications-ref.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -71,5 +72,5 @@ Healthy
 Field that indicates the status of the issue mentioned in the notification.The table shows only notifications with a Healthy value of **False**. When the issue is detected as fixed, the value is automatically changed to **True** and the notification is filtered out of the table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health Log Analytics reference](../concept/hla-reference.md)
+</table>**Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-reference.md)
 

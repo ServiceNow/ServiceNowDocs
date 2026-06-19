@@ -2,6 +2,7 @@
 title: Use the ODBC driver in Crystal Reports
 description: After installing the ODBC driver and its associated DSN, use it in Crystal Reports as a data source provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/t\_UseODBCDriverCrysRpts.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -23,24 +24,24 @@ After installing the ODBC driver and its associated DSN, use it in Crystal Repor
 
 1.  Create a new Standard Report.
 
-    ![Crystal Reports Standard Report](../image/CrystalStandard.png)
+    \[Omitted image "CrystalStandard.png"\] Alt text: Crystal Reports Standard Report
 
 2.  Create a new connection using the ServiceNow DSN.
 
-    ![Creating a New Connection Using the ServiceNow DSN](../image/ServiceNowDSN.png)
+    \[Omitted image "ServiceNowDSN.png"\] Alt text: Creating a New Connection Using the ServiceNow DSN
 
 3.  Select a table from the list of available tables.
 
-    ![Selecting a Table from List of Available Tables](../image/AvailableTables.png)
+    \[Omitted image "AvailableTables.png"\] Alt text: Selecting a Table from List of Available Tables
 
 4.  Select the available fields from the selected table.
 
-    ![Selecting the Available Fields from the Selected Table](../image/AvailableFields.png)
+    \[Omitted image "AvailableFields.png"\] Alt text: Selecting the Available Fields from the Selected Table
 
 5.  Click **Finish** to render the report.
 
-    ![Rendered Crystal Report](../image/RenderedCrystalReport.png)
+    \[Omitted image "RenderedCrystalReport.png"\] Alt text: Rendered Crystal Report
 
 
-**Parent Topic:**[ODBC and client applications](../reference/r_ODBCAndClientApplications.md)
+**Parent Topic:**[ODBC and client applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/r_ODBCAndClientApplications.md)
 

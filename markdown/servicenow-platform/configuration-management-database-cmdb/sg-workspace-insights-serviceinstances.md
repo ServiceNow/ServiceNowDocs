@@ -2,6 +2,7 @@
 title: Service instances insights dashboard in Service Graph Workspace
 description: Use the Service instances page in Service Graph Workspace to see counts, trends, and health of Service instances \(application services\) in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-serviceinstances.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -25,7 +26,7 @@ Role required: Any role containing sn\_cmdb\_user \(sn\_cmdb\_user, sn\_cmdb\_ed
 
 ## Service instance
 
-Shows a count of [Service instances](application-services.md) in your organization, based on records in the Service Instance \[cmdb\_ci\_service\_auto\] table. The chart shows the trend of total number of Service instances per day, for the past seven days.
+Shows a count of [Service instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/application-services.md) in your organization, based on records in the Service Instance \[cmdb\_ci\_service\_auto\] table. The chart shows the trend of total number of Service instances per day, for the past seven days.
 
-Select the tile to access the Service instance dashboard where you can monitor the adoption level and health of Service instances. For more details, see [Use Application Services dashboard to monitor health](../task/app-service-dashboard.md).
+Select the tile to access the Service instance dashboard where you can monitor the adoption level and health of Service instances. For more details, see [Use Application Services dashboard to monitor health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
 

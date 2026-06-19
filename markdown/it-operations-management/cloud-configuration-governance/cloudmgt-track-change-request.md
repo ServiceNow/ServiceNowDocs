@@ -2,6 +2,7 @@
 title: Track a change request
 description: The system generates a change request when you perform a life cycle operation on a stack or resource.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/cloudmgt-track-change-request.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

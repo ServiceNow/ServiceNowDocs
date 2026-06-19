@@ -2,6 +2,7 @@
 title: Archive and purge summary data tables
 description: Use the archive rules and destroy rules to archive and purge the summary data. Archive and purge the Space Occupancy Daily Summary Data \(sn\_wsd\_wc\_space\_occupancy\_daily\_summary\_data\), Environmental Daily Summary Data \(sn\_wsd\_wc\_environmental\_daily\_summary\_data\), Environmental Hourly Summary Data \(sn\_wsd\_wc\_environmental\_hourly\_summary\_data\), and Wi-Fi Daily Summary Data \(sn\_wsd\_wc\_wifi\_daily\_summary\_data\) table records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-connectors/archive-and-purge-summary-data-tables.html
 release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
@@ -56,5 +57,5 @@ Role required: admin
 9.  Run the job by selecting the **Run Archive Destroy Now** related link.
 
 
-**Parent Topic:**[Data summarization](../reference/data-summarization-workplace-connectors.md)
+**Parent Topic:**[Data summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/data-summarization-workplace-connectors.md)
 

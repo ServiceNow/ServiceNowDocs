@@ -2,11 +2,12 @@
 title: Use your own currency-conversion rates
 description: All currency conversions are based on the rates stored in the Exchange Rate table. You can turn off the regularly scheduled update from the European Central Bank \(ECB\), and maintain the table manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/currency-administration/t\_UseYourOwnConversionTable.html
 release: zurich
 product: Currency Administration
 classification: currency-administration
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Default currency conversions, Defaults required for standard currency use, Configure, Currency administration, Configure core features, Administer]
 ---
@@ -21,22 +22,24 @@ Role required: admin
 
 ## About this task
 
-ECB Exchange Rate Load loads exchange rates from the ECB for the following currencies:
+Daily exchange rates are loaded in the Exchange Rate \[fx\_rate\] table automatically using the [Euro foreign exchange reference rates](http://www.ecb.int/stats/eurofxref/eurofxref-daily.xml) from the ECB and the Update Currency Conversion Rates scheduled job.
 
-[http://www.ecb.int/stats/eurofxref/eurofxref-daily.xml](http://www.ecb.int/stats/eurofxref/eurofxref-daily.xml).
+If ECB does not supply the daily rates for a specific currency, you can manually enter rates into the Exchange Rate table. Use an import set or another service \(for example, JSON or SOAP\) that supports uploading additional currency rates. You can then add a scheduled job similar to the Update Currency Conversion Rates scheduled job to update these currencies.
 
-If ECB does not supply the daily rates for a specific currency, you can manually enter rates into the Exchange Rate table. Use an import set, or another service \(for example, JSON or SOAP\) that offers upload of more currency rates. You can then add a similar scheduled job to update these currencies.
+**Note:** The Update Currency Conversion Rates job replaced the ECB Exchange Rate Load and Retrieve System Rates jobs, which are turned off by default. They must remain turned off to use custom conversion rates.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Scheduler** &gt; **Scheduled Jobs**.
+1.  Navigate to **All** &gt; **System Definition** &gt; **Scheduled Jobs**.
 
-2.  Open the job named **ECB Exchange Rate Load**.
+2.  Open the job named **Update Currency Conversion Rates**.
 
-3.  In the Trigger type field, select **-- None --**.
+3.  Clear the **Active** option.
 
-4.  Enter new exchange rates either manually or with an Import Set.
+4.  Select **Update**.
+
+5.  Enter new exchange rates either manually or with an import set.
 
 
-**Parent Topic:**[Default currency conversions](../../currency/concept/currency-conversions.md)
+**Parent Topic:**[Default currency conversions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/currency-conversions.md)
 

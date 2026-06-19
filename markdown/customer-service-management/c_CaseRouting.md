@@ -2,7 +2,10 @@
 title: Routing and assigning customer service cases
 description: The case routing feature uses matching rules and assignment rules to identify customer service cases that meet certain conditions and then route those cases to customer service agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/c\_CaseRouting.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -12,8 +15,6 @@ breadcrumb: [Administer, Customer Service Management]
 # Routing and assigning customer service cases
 
 The case routing feature uses matching rules and assignment rules to identify customer service cases that meet certain conditions and then route those cases to customer service agents.
-
-This video covers various aspects of configuration for routing and assignment including creating assignment rules, the assignment workbench and advanced work assignment.
 
 ## Overview
 
@@ -46,15 +47,15 @@ When you create an assignment rule, you select the following:
 
 Alternately, you can create a script to further customize the assignment rule.
 
--   **[Invoke the MatchingRuleProcessor API](../task/t_InvokeMatchingRuleAPI.md)**  
+-   **[Invoke the MatchingRuleProcessor API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_InvokeMatchingRuleAPI.md)**  
 After you create one or more matching rules, you can invoke the MatchingRuleProcessor API and run the rules.
--   **[Reverse matching](../task/t_ReverseMatching.md)**  
+-   **[Reverse matching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_ReverseMatching.md)**  
 Reverse matching uses the same matching rules to match tasks to a resource rather than resources to a task.
 
-**Parent Topic:**[Customer Service Management](c_CustomerServiceManagement.md)
+**Parent Topic:**[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/c_CustomerServiceManagement.md)
 
 **Related topics**  
 
 
-[Assignment rules module](https://www.servicenow.com/docs/access?context=c_AssignmentRulesModule&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_AssignmentRulesModule]
 

@@ -2,11 +2,12 @@
 title: Create actions for safety incidents agentic workflow
 description: Use the Create actions for safety incidents agentic workflow to suggest actions automatically for a specific incident and create actions in the Health and Safety workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-health-and-safety/create-actions-safety-incidents.html
 release: zurich
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use agentic workflows, Now Assist for Health and Safety, Health and Safety, Employee Service Management]
 ---
@@ -22,7 +23,7 @@ To access the agentic workflow:
 
 Safety agents and managers with the \[now\_assist\_panel\_user\] role can view the Now Assist panel. This panel can automatically trigger responses and create actions once an incident is opened. Once the actions are suggested by agentic AI, the safety agents and managers can enter the preferred action number or description. Entering the action number automatically creates that specific action record in the health and safety action-related item in an open incident record.
 
-For more information on the Now Assist panel, see [Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+For more information on the Now Assist panel, see .
 
 The AI agents and tools used for the **Create actions for safety incidents** agentic workflow are as follows:
 

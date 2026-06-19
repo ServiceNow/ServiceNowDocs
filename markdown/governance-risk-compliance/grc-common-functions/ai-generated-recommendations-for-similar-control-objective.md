@@ -2,6 +2,7 @@
 title: AI-generated recommendations for similar control objectives
 description: The recommendations framework is designed to deliver actionable, AI-driven recommendations for similar control objectives directly within the user interface. It provides rich contextual information about similar control objectives, empowering users to make well-informed decisions and take follow-up actions seamlessly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/ai-generated-recommendations-for-similar-control-objective.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -43,7 +44,7 @@ The Control objective deduplication and rationalization feature is designed to h
 
 **Note:** Only users with sn\_reco\_template.rationalization\_process\_writer and sn\_grc\_shared\_genai.compliance\_gen\_ai\_user can see the option to generate recommendations for similar control objective. This role must be manually assigned to a compliance user.
 
-To generate recommendations for a control objective, configure Now Assist for Integrated Risk Management \(IRM\). See [Configure Now Assist for Integrated Risk Management \(IRM\)](../../grc-common/concept/configure-now-assist-for-irm.md).
+To generate recommendations for a control objective, configure Now Assist for Integrated Risk Management \(IRM\). See [Configure Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/configure-now-assist-for-irm.md).
 
 ## Viewing recommendations
 
@@ -79,10 +80,10 @@ Last refreshed
 
 </td><td>
 
-Date and time the recommendations were last generated or refreshed. You can select the refresh icon ![Refresh icon.](../../grc-risk/image/refresh-icon.jpg) to view the latest recommendations.
+Date and time the recommendations were last generated or refreshed.
 
 </td></tr></tbody>
-</table>**Note:** For more information about control objectives, see [Structural overview of Policy and Compliance Management](pc-structural-overview-policy-comp.md).
+</table>**Note:** For more information about control objectives, see [Structural overview of Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/pc-structural-overview-policy-comp.md).
 
 |Field|Description|
 |-----|-----------|
@@ -103,5 +104,5 @@ Date and time the recommendations were last generated or refreshed. You can sele
 
 Feedback trail side-panel: The feedback side-panel displays the history of user interactions with recommended items. This can include what the user accepted, what they skipped or ignored, and what they dismissed.
 
-For more information on generating recommendations, see [Use Recommendation of similar control objectives skill to generate suggestions](generate-recommendation-for-a-new-control-objective.md).
+For more information on generating recommendations, see [Use Recommendation of similar control objectives skill to generate suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/generate-recommendation-for-a-new-control-objective.md).
 

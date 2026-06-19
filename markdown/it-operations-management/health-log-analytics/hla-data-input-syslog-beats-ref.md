@@ -2,6 +2,7 @@
 title: Rsyslog, Filebeat, or Winlogbeat data input configuration fields
 description: Description of the fields on the Rsyslog, Filebeat, and Winlogbeat data input configuration forms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-data-input-syslog-beats-ref.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -72,7 +73,7 @@ Content pack
 
 </td><td>
 
-\(Linux using Filebeat only\) The content pack to use.Content packs contain default source types and mapping script templates. Health Log Analytics activates the selected pack automatically and uses its mapping script for mapping the data input sources. For more information, see [Health Log Analytics content packs for quicker time to value](../concept/hla-content-packs.md).
+\(Linux using Filebeat only\) The content pack to use.Content packs contain default source types and mapping script templates. Health Log Analytics activates the selected pack automatically and uses its mapping script for mapping the data input sources. For more information, see [Health Log Analytics content packs for quicker time to value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-content-packs.md).
 
 </td></tr></tbody>
 </table><table id="table_eqc_zjq_j4b"><thead><tr><th>
@@ -97,7 +98,7 @@ Service instance
 
 </td><td>
 
-The service instance to which to bind the log data. This field is required.**Note:** If no relevant service instance exists, [Create an service instance](https://www.servicenow.com/docs/access?context=create-it-services&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) and add CIs to it. Set the status of the new service instance to Operational.
+The service instance to which to bind the log data. This field is required.**Note:** If no relevant service instance exists, Create an service instance and add CIs to it. Set the status of the new service instance to Operational.
 
 </td></tr><tr><td>
 
@@ -147,5 +148,5 @@ For data inputs that use Beats agents:
 |Character encoding|The character encoding for this data input.|UTF-8|
 |Drop if queue is full|Option for selecting to discard logs if there is a load on the MID Server.|false|
 
-**Parent Topic:**[Data input configuration field descriptions](../concept/hla-data-input-config-fields.md)
+**Parent Topic:**[Data input configuration field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

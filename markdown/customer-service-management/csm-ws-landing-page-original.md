@@ -2,7 +2,10 @@
 title: CSM Landing Page
 description: The CSM Landing Page provides users with lists of assigned cases and case tasks as well as agent, group, and organization metrics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-ws-landing-page-original.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-24"
 reading_time_minutes: 3
@@ -13,7 +16,7 @@ breadcrumb: [Landing pages, CSM Configurable Workspace features, CSM Configurabl
 
 The CSM Landing Page provides users with lists of assigned cases and case tasks as well as agent, group, and organization metrics.
 
-Customer service agents and managers can use the CSM Landing Page to quickly scan and prioritize work, access records, and track performance. Administrators can customize landing pages in [UI Builder](https://www.servicenow.com/docs/access?context=using-ui-builder&version=zurich&pubname=zurich-application-development&ft:locale=en-US) to meet their unique business needs.
+Customer service agents and managers can use the CSM Landing Page to quickly scan and prioritize work, access records, and track performance. Administrators can customize landing pages in UI Builder to meet their unique business needs.
 
 The CSM Landing Page includes components that display case information, plus visualizations that further break down the component data. Each of the visualizations is connected to a data source. For example, the **High priority cases** component includes visualizations for P1 and escalated cases, plus cases that need attention.
 
@@ -23,7 +26,7 @@ The CSM Landing Page is available with the CSM Configurable Workspace \(sn\_csm\
 
 **Note:** Upgrade customers who haven’t customized the existing CSM Configurable Workspace landing page are automatically upgraded to the landing page available with the Zurich release. Upgrade customers who have customized the existing CSM Configurable Workspace landing page must manually accept the Zurich landing page.
 
-![Landing page to track your active cases and important items. For the text description, refer to the CSM Landing Page and CSM Landing Page - Premium sections and components table.](../image/csm-config-ws-polaris-case-section.png "CSM Landing Page")
+\[Omitted image "csm-config-ws-polaris-case-section.png"\] Alt text: Landing page to track your active cases and important items. For the text description, refer to the CSM Landing Page and CSM Landing Page - Premium sections and components table.
 
 ## CSM Landing Page sections and components
 
@@ -84,7 +87,7 @@ Select an indicator to display either a filtered list of records or a KPI detail
 </td></tr></tbody>
 </table>## Create a landing page for CSM Configurable Workspace
 
-Use UI Builder to create landing pages for your agents. For more information, see [Create a CSM Configurable Workspace landing page](../task/config-csm-config-ws-landing-page.md).
+Use UI Builder to create landing pages for your agents. For more information, see [Create a CSM Configurable Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-csm-config-ws-landing-page.md).
 
 ## Create multiple landing pages
 

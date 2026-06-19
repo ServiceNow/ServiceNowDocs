@@ -2,6 +2,7 @@
 title: Approval rules data type
 description: Store the conditions for approving or rejecting an approval requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/approval-rules-data.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -38,5 +39,5 @@ Store the conditions for approving or rejecting an approval requests.
     Create or select an approval rule as a default value.
 
 
-**Parent Topic:**[Workflow Studio input and output data variables](action-inputs-outputs.md)
+**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/action-inputs-outputs.md)
 

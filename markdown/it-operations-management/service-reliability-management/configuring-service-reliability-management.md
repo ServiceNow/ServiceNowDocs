@@ -2,6 +2,7 @@
 title: Configuring Service Reliability Management
 description: Configuring Service Reliability Management \(SRM\) involves installing it from the ServiceNow Store or Service Operations Workspace Admin Center. You can also assign administrators and import services and teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-reliability-management/configuring-service-reliability-management.html
 release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
@@ -23,26 +24,26 @@ The guided setup provides a sequence of tasks to help you configure SRM on your 
 
 Visit the following pages to set up and configure SRM. The content is primarily for srm\_admin or admin users.
 
--   **[Install Service Reliability Management from Admin Center or ServiceNow Store](../task/sr-install-sr-store-app.md)**  
+-   **[Install Service Reliability Management from Admin Center or ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-install-sr-store-app.md)**  
 Install the Service Reliability Management \(SRM\) application from the Admin Center or ServiceNow Store.
--   **[Assign an administrator to Service Reliability Management](../task/sr-assign-admins.md)**  
+-   **[Assign an administrator to Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-assign-admins.md)**  
 Add people from your ServiceNow instance to administer Service Reliability Management \(SRM\) and your service operations.
--   **[Activate teams and services in SRM](../task/sr-activate-teams-and-services-in-srm.md)**  
+-   **[Activate teams and services in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-activate-teams-and-services-in-srm.md)**  
 Activate teams and services to be managed in the Service Reliability Management \(SRM\) application.
--   **[Customize service approval settings in SRM](../task/sr-add-approval-services.md)**  
+-   **[Customize service approval settings in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-add-approval-services.md)**  
 Add an approval process to your services for governance.
--   **[Customize team approval settings in SRM](../task/sr-add-approval-teams.md)**  
+-   **[Customize team approval settings in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-add-approval-teams.md)**  
 Customize how team approvals work when non-admin users create or add a team in Service Reliability Management \(SRM\). This feature, also known as team governance, helps you control access and align with internal policies.
--   **[Configure error budget actions for breached SRM SLOs](../task/sr-configure-error-budget.md)**  
+-   **[Configure error budget actions for breached SRM SLOs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-configure-error-budget.md)**  
 Configure the actions that the team can select when the error budget of a service level objective \(SLO\) is breached.
--   **[Approve a change request for SRM](../task/sr-approve-change-req.md)**  
+-   **[Approve a change request for SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-approve-change-req.md)**  
 Approve a service change request in Service Reliability Management \(SRM\) to allow the requested action to proceed.
--   **[Configure fields for escalation triggers](../task/srm-configure-trigger-fields.md)**  
+-   **[Configure fields for escalation triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/srm-configure-trigger-fields.md)**  
 Configure additional fields for on-call escalation triggers in Service Reliability Management \(SRM\).
--   **[Configure Twilio to send notifications in SRM](../task/sr-add-twilio-key.md)**  
+-   **[Configure Twilio to send notifications in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-add-twilio-key.md)**  
 Connect your Service Reliability Management \(SRM\) instance and Twilio account to send notifications to teams.
--   **[Install the Alert Automation application](../task/sr-install-aa-store-app.md)**  
+-   **[Install the Alert Automation application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-install-aa-store-app.md)**  
 Install the **Alert Automation** application and any supporting applications.
 
-**Parent Topic:**[Service Reliability Management](../reference/sr-landing-page.md)
+**Parent Topic:**[Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-landing-page.md)
 

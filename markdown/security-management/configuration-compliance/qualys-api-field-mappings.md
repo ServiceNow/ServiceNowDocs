@@ -2,6 +2,7 @@
 title: Qualys API field mappings
 description: Lists the additional fields introduced in newer Qualys API versions and their corresponding mappings in ServiceNow tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/qualys-api-field-mappings.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance

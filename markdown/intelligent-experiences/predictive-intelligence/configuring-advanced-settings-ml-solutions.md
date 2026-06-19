@@ -2,6 +2,7 @@
 title: Configuring advanced settings for your ML solutions
 description: Learn about advanced settings for your Predictive Intelligence machine learning \(ML\) solutions. Apply optional technology and algorithms for classification, clustering, similarity, and regression capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/predictive-intelligence/configuring-advanced-settings-ml-solutions.html
 release: zurich
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -25,22 +26,22 @@ Using the admin or ml\_admin role, you apply these technologies by configuring a
 
 To update or remove an existing setting: on the solution definition form, select the **Advanced Solution Settings** tab, then select the name of the solution parameter. For details, see the following procedures.
 
--   [Configure class recall for a classification solution](../task/configure-class-recall-for-classification-solution.md)
--   [Configure TF-IDF for solutions](../task/configure-tf-idf-classification-similarity.md)
--   [Configure DBSCAN for a clustering solution](../task/configure-dbscan-for-clustering-solution.md)
--   [Configure HDBSCAN for a clustering solution](../task/configure-hdbscan-clustering-solution.md)
--   [Configure XGBoost for classification or regression solutions](../task/configure-xgboost-classification-regression-solutions.md)
--   [Configure Connect Component algorithm and Levenshtein Distance method for a clustering solution](../task/configure-connect-component-levenshtein-distance-for-clustering.md)
--   [Apply purity on a clustering solution](../task/configure-auto-purity-cluster.md)
--   [Analyze a cluster with Cluster Insight](../task/analyze-cluster-data-source.md)
+-   [Configure class recall for a classification solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/configure-class-recall-for-classification-solution.md)
+-   [Configure TF-IDF for solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/configure-tf-idf-classification-similarity.md)
+-   [Configure DBSCAN for a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/configure-dbscan-for-clustering-solution.md)
+-   [Configure HDBSCAN for a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/configure-hdbscan-clustering-solution.md)
+-   [Configure XGBoost for classification or regression solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/configure-xgboost-classification-regression-solutions.md)
+-   [Configure Connect Component algorithm and Levenshtein Distance method for a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/configure-connect-component-levenshtein-distance-for-clustering.md)
+-   [Apply purity on a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/configure-auto-purity-cluster.md)
+-   [Analyze a cluster with Cluster Insight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/analyze-cluster-data-source.md)
 
 ## Advanced Solution Settings for Classification
 
 From the Zurich release, classification solutions offer the following advanced solution settings.
 
--   [Config parameters for model config in classification](../task/predictive-intel-config-parameters-classification.md)
--   [Configure include only top N labels](../task/predictive-intel-only-top-n-labels.md)
--   [Minimum records needed for label to include it](../task/predictive-intel-minimum-records-needed-label.md)
--   [Remove others label](../task/predictive-intel-remove-others-label.md)
--   [Use LightGBM algo for classification model training](../task/predictive-intel-lightgbm-algo.md)
+-   [Config parameters for model config in classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/predictive-intel-config-parameters-classification.md)
+-   [Configure include only top N labels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/predictive-intel-only-top-n-labels.md)
+-   [Minimum records needed for label to include it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/predictive-intel-minimum-records-needed-label.md)
+-   [Remove others label](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/predictive-intel-remove-others-label.md)
+-   [Use LightGBM algo for classification model training](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/predictive-intel-lightgbm-algo.md)
 

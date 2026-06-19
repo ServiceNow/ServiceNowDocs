@@ -2,6 +2,7 @@
 title: Update a non-monetary benefit plan breakdown for an epic
 description: Update a non-monetary benefit plan breakdown record that specifies the estimated and actual benefits, at a granular level, for specific fiscal periods.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scaled-agile-framework-safe/update-non-monetary-benefit-plan-breakdown-safe-epic.html
 release: zurich
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -25,7 +26,7 @@ Role required: safe\_product\_owner, safe\_scrum\_master, or safe\_admin
 
 2.  Open the required epic.
 
-3.  Click the hamburger icon \(![Hamburger icon](../../agile-development/image/hamburger-icon.png)\) and navigate to **View** &gt; **Benefit**.
+3.  Click the hamburger icon \(\[Omitted image "hamburger-icon.png"\] Alt text: Hamburger icon\) and navigate to **View** &gt; **Benefit**.
 
 4.  Click the Non-monetary Benefit Plans related list.
 
@@ -44,12 +45,12 @@ Role required: safe\_product\_owner, safe\_scrum\_master, or safe\_admin
     |**Measure**|Measure type specified in the benefit plan.|
     |**Actual benefit**|Actual benefit that is incurred from the project or demand.|
     |**Benefit plan**|Benefit plan to which the benefit plan breakdown belongs.|
-    |**Fiscal period**|Fiscals generated at the period level. For information on periods, see [fiscal calendars](https://www.servicenow.com/docs/access?context=c_FiscalCalendar&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).|
+    |**Fiscal period**|Fiscals generated at the period level. For information on periods, see fiscal calendars.|
     |**Entered benefit**|Benefit in entered value.|
     |**Variance**|The difference between the estimated and actual benefit.|
 
 9.  Click **Update**.
 
 
-**Parent Topic:**[Create a non-monetary benefit plan for an epic](create-non-monetary-benefit-plan-safe-epic.md)
+**Parent Topic:**[Create a non-monetary benefit plan for an epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/create-non-monetary-benefit-plan-safe-epic.md)
 

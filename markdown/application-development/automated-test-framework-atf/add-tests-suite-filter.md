@@ -2,6 +2,7 @@
 title: Add tests to a suite with a filter
 description: Automate the creation of test suites by using a filter to dynamically add tests to a test suite when they match the filter conditions. Reduce the time that your test designers spend manually creating and maintaining test suites.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/add-tests-suite-filter.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -27,7 +28,7 @@ Role required: atf\_test\_admin or atf\_test\_designer
 
 2.  Click **New**.
 
-    The system displays the [Test Suite New Record](../reference/atf-test-suite-record.md) form.
+    The system displays the [Test Suite New Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-test-suite-record.md) form.
 
 3.  In the **Name** field, enter a name for this suite.
 
@@ -42,5 +43,5 @@ Role required: atf\_test\_admin or atf\_test\_designer
 
 All tests that match the filter conditions appear in the **Test Suite Tests** related list. Because the suite is dynamic, any new test that matches the conditions is automatically added to the suite.
 
-**Parent Topic:**[Building and running automated test suites](../concept/atf-suites-overview.md)
+**Parent Topic:**[Building and running automated test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-suites-overview.md)
 

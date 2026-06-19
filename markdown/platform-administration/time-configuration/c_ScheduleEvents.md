@@ -2,6 +2,7 @@
 title: Event scheduling
 description: You can use various tools for scheduling actions or tasks to happen in the future.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/time-configuration/c\_ScheduleEvents.html
 release: zurich
 product: Time Configuration
 classification: time-configuration
@@ -36,10 +37,10 @@ You can use various tools for scheduling actions or tasks to happen in the futur
     Scheduled jobs are scripts you can specify should automatically generate at a specific date and time, or on a repeating basis.
 
 
--   **[Event registry](../../platform-events/reference/r_EventRegistry.md)**  
+-   **[Event registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/r_EventRegistry.md)**  
 You can use events to schedule actions or tasks to occur when conditions are fulfilled.
--   **[Set an inactivity monitor](../task/t_SetAnInactivityMonitor.md)**  
+-   **[Set an inactivity monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/t_SetAnInactivityMonitor.md)**  
 You can set an inactivity monitor that triggers an event for a task record when the task has been inactive for a certain amount of time.
 
-**Parent Topic:**[System scheduler](c_SystemScheduler.md)
+**Parent Topic:**[System scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/c_SystemScheduler.md)
 

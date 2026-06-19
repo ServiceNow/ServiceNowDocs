@@ -2,7 +2,10 @@
 title: Change the default chat mode for the Chat feature
 description: Set either asynchronous chatting through a chat window or synchronous mode through messaging as the default chat mode of the Chat feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/em-set-default-mode-of-chatting.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -36,7 +39,7 @@ Role required: sn\_csm\_ec.ec\_admin
     -   To enable synchronous chat to engage in real-time conversation through a chat window, select **Chat**.
     -   To enable asynchronous chat to engage in long-running conversations through messaging without being online concurrently, select **Messaging**.
 
-        For more information, see [Configure asynchronous chat for the web channel](https://www.servicenow.com/docs/access?context=configure-async-web&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+        For more information, see .
 
 7.  Select **Update**.
 

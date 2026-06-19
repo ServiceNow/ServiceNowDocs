@@ -2,6 +2,7 @@
 title: Adjust impact rules for a CI
 description: Configure impact rules to customize the impact calculation for discovery services and manual services. The impact rules update the overall alert and show the impact on related CIs. When you change impact rules, the updates apply to alert severity in places such as the Event Management dashboard and Operator Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/t\_EMConfigureImpactRule.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -29,7 +30,7 @@ You can view and adjust the impact rules of CIs from the application service map
 
 1.  Open the application service map from either the Event Management dashboard or the Application service list.
 
-<table id="choicetable_mbd_wfk_35"><tbody><tr><td id="d516539e129">
+<table id="choicetable_mbd_wfk_35"><tbody><tr><td id="d482055e129">
 
 **From the Event Management dashboard**
 
@@ -39,7 +40,7 @@ You can view and adjust the impact rules of CIs from the application service map
 2.  Double-click the tile of the application services.
 
 
-</td></tr><tr><td id="d516539e159">
+</td></tr><tr><td id="d482055e159">
 
 **From the Application Service list**
 
@@ -70,7 +71,7 @@ Name
 
 The name of the impact rule.-   **Application Cluster Member**: Determines how application cluster members affect the overall impact of the cluster. For example, if a three-member cluster requires **90% Influence** to set the severity for the entire cluster to **Major**, each member has **30% Influence** \(90% divided by 3\). The severity of the entire cluster can only change to **Major** when all three members have a severity of **Major**.
 
-**Note:** To configure a manual cluster, see [Configure a manual cluster](configure-manual-cluster.md)
+**Note:** To configure a manual cluster, see [Configure a manual cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-manual-cluster.md)
 
 -   **Application Impact**: Determines how impact is applied to a specific CI, the overall application service, or parent/child entities within an application service. For the Application Impact rule, you can choose from the following Impact options: **Application Service** or **Parent**.
     -   If no CI is selected, the alert rule applies to the entire application service.

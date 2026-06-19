@@ -2,6 +2,7 @@
 title: Create and manage custom work item types in CWM
 description: Create custom item types for Boards in Collaborative Work Management, so that you can organize and manage multiple types of tasks from a single location, regardless of the workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/collaborative-work-management/create-custom-work-item-types-in-cwm.html
 release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -17,7 +18,7 @@ Create custom item types for Boards in Collaborative Work Management, so that yo
 
 ## Before you begin
 
-[Create a Board in CWM](create-boards-in-cwm.md).
+[Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/create-boards-in-cwm.md).
 
 Role required: sn\_cwm.cwm\_user
 
@@ -25,15 +26,13 @@ Role required: sn\_cwm.cwm\_user
 
 Watch this video for information about creating a work item type.
 
-Create custom work item type in CWM video. Approximately forty nine seconds long.
-
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Collaborative Work Management**.
 
 2.  Navigate to the Board that you want to add custom tasks to.
 
-3.  From the Board header, select the More actions icon \(![More actions icon.](../images/cwm-icon-more-actions.png)\) and select **Manage item types**.
+3.  From the Board header, select the More actions icon \(\[Omitted image "cwm-icon-more-actions.png"\] Alt text: More actions icon.\) and select **Manage item types**.
 
 4.  From the Default item types section, enable or disable Task or Defect to be available for your Boards.
 
@@ -54,7 +53,7 @@ Create custom work item type in CWM video. Approximately forty nine seconds long
 
 ## What to do next
 
-Add tasks of the new item type to your Board using the More actions menu \(![More actions icon.](../images/cwm-icon-more-actions.png)\) on the Board header.
+Add tasks of the new item type to your Board using the More actions menu \(\[Omitted image "cwm-icon-more-actions.png"\] Alt text: More actions icon.\) on the Board header.
 
-**Parent Topic:**[Managing work using Boards in CWM](../concept/cwm-boards.md)
+**Parent Topic:**[Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/cwm-boards.md)
 

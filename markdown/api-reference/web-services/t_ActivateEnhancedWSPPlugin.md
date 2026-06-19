@@ -2,6 +2,7 @@
 title: Activate the Enhanced Web Service Provider - Common plugin
 description: Administrators can activate the Enhanced Web Service Provider - Common plugin to enable unsigned WS-Security requests and specify what authentication requirements SOAP requests have.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/t\_ActivateEnhancedWSPPlugin.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -31,11 +32,11 @@ Role required: admin.
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
--   **[Installed with the Enhanced Web Service Provider - Common plugin](../reference/r_InstallWEnhancedWSPCommPlugin.md)**  
+-   **[Installed with the Enhanced Web Service Provider - Common plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/r_InstallWEnhancedWSPCommPlugin.md)**  
 The following components installed with the Enhanced Web Service Provider - Common plugin.
 
-**Parent Topic:**[SOAP web service](../concept/c_SOAPWebService.md)
+**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_SOAPWebService.md)
 

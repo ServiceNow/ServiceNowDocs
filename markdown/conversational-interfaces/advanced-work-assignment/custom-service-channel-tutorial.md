@@ -2,6 +2,7 @@
 title: Create a service channel to route requests
 description: Create a service channel in Advanced Work Assignment so that you can route change requests to agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/custom-service-channel-tutorial.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -40,5 +41,5 @@ Role required: awa\_admin or admin
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Set up a custom service channel](setup-custom-channel.md)
+**Parent Topic:**[Set up a custom service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/setup-custom-channel.md)
 

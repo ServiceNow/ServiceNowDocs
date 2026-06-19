@@ -2,6 +2,7 @@
 title: Walk-up Experience for Customer Service Management
 description: The ServiceNow Walk-up Experience for Customer Service Management application enables you to set up a contact channel to support both online check-in and onsite check-in to a pre-established walk-up service center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-experience.html
 release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -69,10 +70,10 @@ User personas and roles are defined as follows:
 
 ## Configuring Walk-up Experience for Customer Service Management
 
-To get started with Walk-up Experience for Customer Service Management, see [Configure Walk-up Experience for Customer Service Management](../task/configure-walk-up-csm.md).
+To get started with Walk-up Experience for Customer Service Management, see [Configure Walk-up Experience for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-walk-up-csm.md).
 
--   **[Walk-up Experience for guest users](csm-walkup-guest-store-app.md)**  
+-   **[Walk-up Experience for guest users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-guest-store-app.md)**  
 The Walk-up Experience application can enable guest users to manage walk-up appointments online from the Consumer Service Portal or Customer Service Portal home page.
 
-**Parent Topic:**[Customer Service Management](c_CustomerServiceManagement.md)
+**Parent Topic:**[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/c_CustomerServiceManagement.md)
 

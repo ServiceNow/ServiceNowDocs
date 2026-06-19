@@ -2,6 +2,7 @@
 title: Import product catalog entities
 description: Import product catalog entities by using the ServiceNow Platform import function.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/import-product-catalog-entities.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -17,7 +18,7 @@ Import product catalog entities by using the ServiceNow Platform import function
 
 ## Before you begin
 
-The application scope must be set to Product Catalog Management core. You can change the application scope using the application picker ![](../../../reuse/icons/product-icons/globe-outline-24.svg) in the Unified Navigation bar.
+The application scope must be set to Product Catalog Management core. You can change the application scope using the application picker \[Omitted image "globe-outline-24.svg"\] Alt text: in the Unified Navigation bar.
 
 Role required: product\_catalog\_admin
 
@@ -37,7 +38,7 @@ You import certain product catalog entities to your target instance in the follo
 
     The Catalog Import Data Source window opens.
 
-3.  Attach the JSON file by selecting the **Attachments** ![](../../../reuse/icons/product-icons/paperclip-fill-24.svg) icon.
+3.  Attach the JSON file by selecting the **Attachments** \[Omitted image "paperclip-fill-24.svg"\] Alt text: icon.
 
 4.  Select **Choose file** and select the file you want to import.
 
@@ -65,6 +66,6 @@ You import certain product catalog entities to your target instance in the follo
 
 ## What to do next
 
--   [View export job status](view-export-job-status.md)
--   [View import job status](view-import-job-status.md)
+-   [View export job status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/view-export-job-status.md)
+-   [View import job status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/view-import-job-status.md)
 

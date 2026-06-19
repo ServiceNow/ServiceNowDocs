@@ -2,6 +2,7 @@
 title: Define the agent criteria for Universal Task
 description: Define the criteria for an agent so that the agent can access the parent table for Universal Task. The default criteria is that agents must have write access to the parent table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-task/ut-config-extn-point-agent.html
 release: zurich
 product: Universal Task
 classification: universal-task
@@ -38,9 +39,9 @@ By using an extension point, you can add more conditions for agents to qualify a
     For example, you might want to ensure that the agent belongs to a specific assignment group in addition to having write access for the parent table.
 
 
-**Parent Topic:**[Configuring your service for Universal Task](../concept/config-service-for-ut.md)
+**Parent Topic:**[Configuring your service for Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-task/config-service-for-ut.md)
 
-**Previous topic:**[Add a Task tab on the Standard Ticket page](config-stdtktpage-for-ut.md)
+**Previous topic:**[Add a Task tab on the Standard Ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-task/config-stdtktpage-for-ut.md)
 
-**Next topic:**[Configure Universal Task for your service](config-ut-for-service.md)
+**Next topic:**[Configure Universal Task for your service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-task/config-ut-for-service.md)
 

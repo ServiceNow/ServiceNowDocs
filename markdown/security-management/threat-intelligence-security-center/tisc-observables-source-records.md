@@ -2,6 +2,7 @@
 title: Observables source records
 description: The source records contribute to an aggregated record as displayed in the form view. These source records are auto created from feeds or manually created by the user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-observables-source-records.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -33,10 +34,10 @@ Role required: sn\_sec\_tisc.analyst
 
     The source records to an aggregated record are displayed.
 
-    ![Source records](../image/tisc-observable-source-records.png)
+    \[Omitted image "tisc-observable-source-records.png"\] Alt text: Source records
 
 6.  View the records.
 
 
-**Parent Topic:**[Observables](../concept/observables.md)
+**Parent Topic:**[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/observables.md)
 

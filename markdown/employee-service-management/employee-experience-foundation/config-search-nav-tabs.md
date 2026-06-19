@@ -2,6 +2,7 @@
 title: Configure search navigation tabs
 description: In Employee Center, the AI search navigation tabs are enabled by default. You can configure a search navigation tab on the search results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/config-search-nav-tabs.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,7 +20,7 @@ In Employee Center, the AI search navigation tabs are enabled by default. You ca
 
 Role required: admin
 
-Ensure you understand the AI search and indexed sources. For more information, see [Create an indexed source](https://www.servicenow.com/docs/access?context=create-indexed-source-ais&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) and [Configuring navigation tabs in AI Search](https://www.servicenow.com/docs/access?context=config-nav-tabs-ais&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Ensure you understand the AI search and indexed sources. For more information, see  and Configuring navigation tabs in AI Search.
 
 ## About this task
 
@@ -46,5 +47,5 @@ The search navigation tabs help you to refine their search query results by sear
 
 ## Result
 
-The configured sources appear on AI search results in a tab. For more info on how tabs appear in AI search, see [Configure application visibility and access](applauncher-enable-availability.md).
+The configured sources appear on AI search results in a tab. For more info on how tabs appear in AI search, see [Configure application visibility and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/applauncher-enable-availability.md).
 

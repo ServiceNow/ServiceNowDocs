@@ -2,6 +2,7 @@
 title: Workflow - Scoped
 description: The scoped Workflow API provides methods that can be used in an activity definition script.Adds a debug message to the log.Adds an error message to the log.Returns the specified variable's value.Adds an informational message to the log.Object that contains the workflow variables.Returns the workflow name.Removes the specified variable from the workflow.Element of the workflow object that contains the workflow results.Returns the workflow's scratchpad object.Sets the workflow's result.Sets the specified variable to the specified value.Adds a warning message to the log.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_WorkflowScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The scoped Workflow API provides methods that can be used in an activity definit
 
 There are no constructors for creating an instance of a scoped workflow object. Instead, use the global workflow object available in activity scripts. This workflow object is available in any script location inside a workflow.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## Scoped Workflow - debug\(String message, Object args\)
 

@@ -2,6 +2,7 @@
 title: Set up and maintain a question bank
 description: After you add a question to a question bank, you can reuse it in any assessment by dropping it into the assessment. You can create custom questions, add existing questions, or add and customize the sample questions that are included with the base system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-question-bank-create.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -29,23 +30,23 @@ Role required: admin or sn\_vdr\_risk\_asmt.vendor\_risk\_admin
 
 4.  Add an assessment metric \(a question\) to the category using one of the following methods.
 
-<table id="choicetable_rkc_13z_hcc"><thead><tr><th align="left" id="d73843e102">
+<table id="choicetable_rkc_13z_hcc"><thead><tr><th align="left" id="d76012e102">
 
 Option
 
-</th><th align="left" id="d73843e105">
+</th><th align="left" id="d76012e105">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d73843e111">
+</th></tr></thead><tbody><tr><td id="d76012e111">
 
 **Create a question**
 
 </td><td>
 
-Select **New** and fill out the form. For more information, see [Define a question](tprm-questions-create.md).
+Select **New** and fill out the form. For more information, see [Define a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-questions-create.md).
 
-</td></tr><tr><td id="d73843e134">
+</td></tr><tr><td id="d76012e134">
 
 **Add a question**
 

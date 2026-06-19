@@ -2,6 +2,7 @@
 title: Customize the Now Assist for IT Service Management \(ITSM\) change request summarization skill
 description: Enhance the efficiency of the change request summarization skill by customizing it with different inputs and prompts using the skill configuration guided setup.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-change-request-summarization-skill.html
 release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -37,7 +38,7 @@ You need the sn\_skill\_builder.admin role to customize the prompt in the Now As
 
         You can choose to make a copy of the skill before activating it.
 
-    2.  Select the More actions icon ![More actions icon.](../../itsm-workspace/image/more-actions-icon.png) for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
+    2.  Select the More actions icon \[Omitted image "more-actions-icon.png"\] Alt text: More actions icon. for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
 
         A confirmation message is displayed.
 
@@ -47,7 +48,7 @@ You need the sn\_skill\_builder.admin role to customize the prompt in the Now As
 
 4.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](../reference/now-assist-itsm-skills.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
 
     1.  Enter a name and description for the skill.
 
@@ -86,7 +87,7 @@ You need the sn\_skill\_builder.admin role to customize the prompt in the Now As
 
         **Important:** If you add a new field with the same name as an existing field, the name and description of the new field will override the description of the existing field.
 
-        ![Customizing the change request summarization skill with input data](../image/now-assist-cust-change-summarization-1.png)
+        \[Omitted image "now-assist-cust-change-summarization-1.png"\] Alt text: Customizing the change request summarization skill with input data
 
     2.  Add rule conditions to determine when the input template is used.
 
@@ -96,7 +97,7 @@ You need the sn\_skill\_builder.admin role to customize the prompt in the Now As
 
         The data sources could include related tables, activity streams, and relationships. The Change Risk Details, Conflict, Applied Change Policy, Impacted CIs, and Affected CIs related input tables are available by default. You can edit these tables or add new related tables, activity streams, or relationships by selecting **+New data source** and then selecting the desired option.
 
-        ![Add new data source](../image/now-assist-cust-change-summarization-2.png)
+        \[Omitted image "now-assist-cust-change-summarization-2.png"\] Alt text: Add new data source
 
 <table id="table_pcg_3zw_pdc"><thead><tr><th>
 
@@ -152,15 +153,15 @@ Attachment added to the change request.
 
     Review and test the prompt for each input template configuration.
 
-<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d345961e436">
+<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d336353e436">
 
 To
 
-</th><th align="left" id="d345961e439">
+</th><th align="left" id="d336353e439">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d345961e445">
+</th></tr></thead><tbody><tr><td id="d336353e445">
 
 **Evaluate a prompt for each input template**
 
@@ -171,19 +172,19 @@ Do this
     -   Authorize &amp; Scheduled
     -   Implement &amp; Review
     -   Closed
-2.  Select **Run Test**. ![Evaluate prompt output for the change request summarization skill](../image/now-assist-cust-prompt-change-summ-1.png)
+2.  Select **Run Test**. \[Omitted image "now-assist-cust-prompt-change-summ-1.png"\] Alt text: Evaluate prompt output for the change request summarization skill
 Review and test the prompt for each input template configuration and make sure it meets your expectations.The prompt response is shown. You can make changes to the change state selections and retest as needed.
 
-</td></tr><tr><td id="d345961e484">
+</td></tr><tr><td id="d336353e484">
 
 **Edit the prompt in the Now Assist Skill Kit and then test the prompt**
 
 </td><td>
 
 1.  Select **Edit prompt in Now Assist Skill Kit**.
-2.  Select **Go to Now Assist Skill Kit**. ![Edit prompt in Now Assist Skill Kit](../image/now-assist-cust-promt-change-summarization-2.png)
-3.  In the **Skill contents** pane, select the **Edit Skill Input** icon and add any inputs that you'd like to add to the prompt. ![Edit skill input in Now Assist Skill Kit](../image/now-assist-cust-prompt-change-summ-3.png)
-4.  In the **Prompt** screen, clone the required prompt and save it. ![Clone and edit prompt in Now Assist Skill Kit](../image/now-assist-cust-prompt-change-summ-4.png)
+2.  Select **Go to Now Assist Skill Kit**. \[Omitted image "now-assist-cust-promt-change-summarization-2.png"\] Alt text: Edit prompt in Now Assist Skill Kit
+3.  In the **Skill contents** pane, select the **Edit Skill Input** icon and add any inputs that you'd like to add to the prompt. \[Omitted image "now-assist-cust-prompt-change-summ-3.png"\] Alt text: Edit skill input in Now Assist Skill Kit
+4.  In the **Prompt** screen, clone the required prompt and save it. \[Omitted image "now-assist-cust-prompt-change-summ-4.png"\] Alt text: Clone and edit prompt in Now Assist Skill Kit
 5.  Select **Run test**.
 
 The prompt displays in the Test prompt screen.
@@ -219,7 +220,7 @@ The prompt displays in the Test prompt screen.
 
         -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+            If you don't see this option, you must activate the Now Assist panel. For more information, see .
 
             For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 

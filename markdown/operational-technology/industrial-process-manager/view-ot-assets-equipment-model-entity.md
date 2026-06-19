@@ -2,6 +2,7 @@
 title: Add OT devices that are associated with the selected equipment model entity
 description: Use OT devices to review the OT devices that are associated with the selected equipment model entity and its child entities. You can also select and associate other OT devices to the selected equipment model entity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-process-manager/view-ot-assets-equipment-model-entity.html
 release: zurich
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -24,11 +25,11 @@ Role required: To add OT devices, the logged in user has to have a combination o
 -   cmdb\_ot\_viewer, cmdb\_ot\_editor or cmdb\_ot\_admin role
 -   cmdb\_ot\_isa\_editor or cmdb\_ot\_isa\_admin role
 
-**Note:** To learn more about assigning user roles, see [Assign Industrial Process Manager user roles](../task/assign-manufacturing-process-manager-roles.md).
+**Note:** To learn more about assigning user roles, see [Assign Industrial Process Manager user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/assign-manufacturing-process-manager-roles.md).
 
 ## About this task
 
-Users with an assigned cmdb\_ot\_isa\_admin role can view equipment model entities for any site. However, users with assigned cmdb\_ot\_isa\_editor or cmdb\_ot\_isa\_viewer roles can only access those sites that an administrator has granted access to for specific users. To learn more about granting site access, see [Assign or remove equipment model site access for non-administrators](../task/create-user-criteria-for-equipment-model-entity-site-users.md).
+Users with an assigned cmdb\_ot\_isa\_admin role can view equipment model entities for any site. However, users with assigned cmdb\_ot\_isa\_editor or cmdb\_ot\_isa\_viewer roles can only access those sites that an administrator has granted access to for specific users. To learn more about granting site access, see [Assign or remove equipment model site access for non-administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/create-user-criteria-for-equipment-model-entity-site-users.md).
 
 ## Procedure
 
@@ -44,15 +45,15 @@ Users with an assigned cmdb\_ot\_isa\_admin role can view equipment model entiti
 
 5.  Review the associated OT devices or the associate additional OT devices to the selected equipment model entity.
 
-<table id="choicetable_nnq_bxc_3qb"><thead><tr><th align="left" id="d79143e149">
+<table id="choicetable_nnq_bxc_3qb"><thead><tr><th align="left" id="d30715e149">
 
 Task
 
-</th><th align="left" id="d79143e152">
+</th><th align="left" id="d30715e152">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d79143e158">
+</th></tr></thead><tbody><tr><td id="d30715e158">
 
 **Review the associated OT devices for the selected equipment model entity**
 
@@ -60,7 +61,7 @@ Description
 
 Proceed to the next step and review the OT devices form.
 
-</td></tr><tr><td id="d79143e167">
+</td></tr><tr><td id="d30715e167">
 
 **Associate the additional OT devices to the selected equipment model entity**
 
@@ -69,10 +70,10 @@ Proceed to the next step and review the OT devices form.
 1.  Click **Add**.
 2.  In the OT devices form, select the additional OT devices that you want to associate with the equipment model entity.
 3.  Click **Add** to add them to the OT devices form.
-4.  To edit the columns on the table, select the List Actions \(![List Actions icon](../../../common/image/List_PersonalizeListIcon.png)\) icon. Select **Edit columns** to choose the columns you want to display. For example, if you want to display the IP address column for the OT devices, select **IP Address** from the Available columns and click **OK**.
+4.  To edit the columns on the table, select the List Actions \(\[Omitted image "List\_PersonalizeListIcon.png"\] Alt text: List Actions icon\) icon. Select **Edit columns** to choose the columns you want to display. For example, if you want to display the IP address column for the OT devices, select **IP Address** from the Available columns and click **OK**.
 
 
-</td></tr><tr><td id="d79143e212">
+</td></tr><tr><td id="d30715e212">
 
 **Remove the OT devices from the selected equipment model entity**
 
@@ -86,5 +87,5 @@ Proceed to the next step and review the OT devices form.
 </table>6.  Click **Save**.
 
 
-**Parent Topic:**[Review and update the equipment model details](../task/equipment-model-workspace.md)
+**Parent Topic:**[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/equipment-model-workspace.md)
 

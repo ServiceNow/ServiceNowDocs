@@ -2,6 +2,7 @@
 title: Enabling ServiceNow AI Lens in Virtual Agent
 description: You can enable ServiceNow AI Lens in Virtual Agent so that ServiceNow AI Lens can be triggered from Virtual Agent conversation.Enable the AI Search application on your instance so that you can use ServiceNow AI Lens skill to gather insights from an image using generative AI.Enable the default Now Assist in Virtual Agent assistant so that you can use ServiceNow AI Lens in Virtual Agent.Enable an assistant other than the default Now Assist in Virtual Agent assistant in ServiceNow AI Lens topic.Enable the chat function in Virtual Agent for a mobile device for ServiceNow AI Lens.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/servicenow-lens/enabling-lens-for-virtual-agent.html
 release: zurich
 product: ServiceNow Lens
 classification: servicenow-lens
@@ -29,13 +30,13 @@ Role required: ais\_admin or admin
 
 1.  Navigate to **All** &gt; **AI Search** &gt; **AI Search Status**.
 
-    ![AI Search Status module under AI Search application.](../image/nav-ai-search-status-lens.png)
+    \[Omitted image "nav-ai-search-status-lens.png"\] Alt text: AI Search Status module under AI Search application.
 
 2.  If AI search is not enabled, select **Request AI Search**.
 
     After AI Search is activated in your instance, you will see the following success message.
 
-    ![AI search activation confirmation.](../image/ai-search-ready.png)
+    \[Omitted image "ai-search-ready.png"\] Alt text: AI search activation confirmation.
 
 
 ## Enable the default Now Assist assistant for ServiceNow AI Lens
@@ -44,7 +45,7 @@ Enable the default Now Assist in Virtual Agent assistant so that you can use Ser
 
 ### Before you begin
 
-If you have another assistant configured for your specific use case or industry, you can skip this procedure and follow [Enable other assistants in ServiceNow AI Lens topic](enabling-lens-for-virtual-agent.md#).
+If you have another assistant configured for your specific use case or industry, you can skip this procedure and follow [Enable other assistants in ServiceNow AI Lens topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/enabling-lens-for-virtual-agent.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -52,17 +53,17 @@ Role required: virtual\_agent\_admin or admin
 
 1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistants**.
 
-    ![Assistants module under Conversational Interfaces application.](../image/nav-assistants-lens.png)
+    \[Omitted image "nav-assistants-lens.png"\] Alt text: Assistants module under Conversational Interfaces application.
 
 2.  Select the **Now Assist in Virtual Agent \(default\)** assistant.
 
-    ![Now Assist in Virtual Agent assistant is enabled.](../image/now-assist-va-topic-lens.png)
+    \[Omitted image "now-assist-va-topic-lens.png"\] Alt text: Now Assist in Virtual Agent assistant is enabled.
 
 3.  On the Overview tab, select **Save and continue**.
 
 4.  On the Now Assist Skills tab, ensure that **Now Assist Topics** is selected.
 
-    ![Selected Now Assist Topics from the Now Assist Skills tab.](../image/now-assist-topics-lens.png)
+    \[Omitted image "now-assist-topics-lens.png"\] Alt text: Selected Now Assist Topics from the Now Assist Skills tab.
 
 5.  Select **Save and continue**.
 
@@ -72,11 +73,11 @@ Role required: virtual\_agent\_admin or admin
 
     2.  Select the portal for which you want to enable the Now Assist assistant from the **Add portal** drop-down.
 
-        ![Configuring display experience for a portal.](../image/display-exp-portal-lens.png)
+        \[Omitted image "display-exp-portal-lens.png"\] Alt text: Configuring display experience for a portal.
 
     3.  On the Add chat experience dialog box, select **Enhanced chat** option.
 
-        ![Selecting Enhanced chat option while configuring display experience for a portal.](../image/display-exp-portal-enhanced-chat-lens.png)
+        \[Omitted image "display-exp-portal-enhanced-chat-lens.png"\] Alt text: Selecting Enhanced chat option while configuring display experience for a portal.
 
     4.  Select **Add**.
 
@@ -86,11 +87,11 @@ Role required: virtual\_agent\_admin or admin
 
     2.  Under the Chat launcher functions section, select Agent Chat from the **Add function** drop-down.
 
-        ![Configuring display experience for a mobile device by adding function.](../image/display-exp-mobile-lens.png)
+        \[Omitted image "display-exp-mobile-lens.png"\] Alt text: Configuring display experience for a mobile device by adding function.
 
     3.  On the Add chat experience dialog box, select **Enhanced chat** option.
 
-        ![Selecting Enhanced chat option while configuring display experience for a mobile device.](../image/display-exp-mobile-enhanced-chat-lens.png)
+        \[Omitted image "display-exp-mobile-enhanced-chat-lens.png"\] Alt text: Selecting Enhanced chat option while configuring display experience for a mobile device.
 
     4.  Select **Add**.
 
@@ -119,15 +120,15 @@ Role required: virtual\_agent\_admin or admin
 
     Virtual Agent Designer opens in a new tab.
 
-    ![Designer module for Virtual Agent under Conversational Interfaces.](../image/nav-va-designer.png)
+    \[Omitted image "nav-va-designer.png"\] Alt text: Designer module for Virtual Agent under Conversational Interfaces.
 
 2.  In the Topic tab, select **ServiceNow Lens** topic.
 
-    ![ServiceNow AI Lens topic in Virtual Agent Designer.](../image/va-designer-lens-topic.png)
+    \[Omitted image "va-designer-lens-topic.png"\] Alt text: ServiceNow AI Lens topic in Virtual Agent Designer.
 
 3.  In the Select LLM assistants section, select your assistant.
 
-    ![Selecting other assistant in ServiceNow AI Lens topic for Virtual Agent.](../image/enable-other-assistant.png)
+    \[Omitted image "enable-other-assistant.png"\] Alt text: Selecting other assistant in ServiceNow AI Lens topic for Virtual Agent.
 
 4.  Publish the **ServiceNow Lens** topic.
 
@@ -142,28 +143,28 @@ Role required: admin or delegated developer
 
 ### About this task
 
-Do this procedure when you do not see the Now Assist ![](../../../common/image/icon-ai-sparkle.png) icon in the Now Mobile app.
+Do this procedure when you do not see the Now Assist \[Omitted image "icon-ai-sparkle.png"\] Alt text: icon in the Now Mobile app.
 
 ### Procedure
 
 1.  Navigate to **All** &gt; **System Mobile** &gt; **Mobile App Builder**.
 
-    ![Mobile App Builder designer app.](../image/nav-mobile-app-builder-lens.png)
+    \[Omitted image "nav-mobile-app-builder-lens.png"\] Alt text: Mobile App Builder designer app.
 
     The Mobile App Builder opens in a new tab.
 
 2.  From the search option, search and select **Now Mobile**.
 
-    ![Selecting the Now Mobile app in Mobile App Builder.](../image/now-mobile-lens.png)
+    \[Omitted image "now-mobile-lens.png"\] Alt text: Selecting the Now Mobile app in Mobile App Builder.
 
 3.  From the list of screens, select **Homepage**.
 
-    ![Selecting the Homepage screen for the Now Mobile app in Mobile App Builder.](../image/now-mobile-homepage-lens.png)
+    \[Omitted image "now-mobile-homepage-lens.png"\] Alt text: Selecting the Homepage screen for the Now Mobile app in Mobile App Builder.
 
 4.  From the Now Platform configuration list, select the **Chat** function.
 
 5.  Enable the **Chat with Virtual Agent** setting.
 
-    ![Activating Chat with Virtual Agent setting for Homepage of Now Mobile in Mobile App Builder.](../image/mobile-agent-chat-active-lens.png)
+    \[Omitted image "mobile-agent-chat-active-lens.png"\] Alt text: Activating Chat with Virtual Agent setting for Homepage of Now Mobile in Mobile App Builder.
 
 

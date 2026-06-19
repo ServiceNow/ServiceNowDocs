@@ -2,6 +2,7 @@
 title: Create a catalog item for your Operational Technology Service Catalog
 description: Create a catalog item for the Operational Technology \(OT\) Service Catalog using the catalog builder so that other users can submit OT requests categorized by catalog item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-request-management/create-catalog-item.html
 release: zurich
 product: Operational Technology Request Management
 classification: operational-technology-request-management
@@ -28,7 +29,7 @@ You can create catalog items for the OT Service Catalog in the catalog builder. 
 
 1.  Navigate to **All** &gt; **Service Catalog** &gt; **Catalog Builder**.
 
-2.  In the **Dashboard** tab under **Start creating your new catalog item**, select **Create a new catalog item**.![Create a new catalog item button in the catalog builder on your instance.](../image/create-catalog-item-buttom-otrm.png)
+2.  In the **Dashboard** tab under **Start creating your new catalog item**, select **Create a new catalog item**.\[Omitted image "create-catalog-item-buttom-otrm.png"\] Alt text: Create a new catalog item button in the catalog builder on your instance.
 
     Alternatively, select the **Catalog Items** tab and click **New**.
 
@@ -40,9 +41,9 @@ You can create catalog items for the OT Service Catalog in the catalog builder. 
 
 6.  On the **Create catalog item** form, fill in the fields.
 
-    For more information about the Catalog Item form fields, see [Operational Technology Catalog Item form](../reference/catalog-item-form-ot-request.md).
+    For more information about the Catalog Item form fields, see [Operational Technology Catalog Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-request-management/catalog-item-form-ot-request.md).
 
-    **Note:** You can’t remove the OT Catalog Item Variable Set from the Questions section. The OT Catalog Item Variable Set is what distinguishes OT requests from other requests. You can instead create new questions for your item form by selecting **Insert New Question**. For more information about inserting a new question, see [Create a question for a catalog item in Catalog Builder](https://www.servicenow.com/docs/access?context=create-question-cat-builder&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    **Note:** You can’t remove the OT Catalog Item Variable Set from the Questions section. The OT Catalog Item Variable Set is what distinguishes OT requests from other requests. You can instead create new questions for your item form by selecting **Insert New Question**. For more information about inserting a new question, see .
 
 7.  To preview your catalog item, select **Preview**.
 
@@ -57,5 +58,5 @@ You can create catalog items for the OT Service Catalog in the catalog builder. 
 
 The catalog item is created and available for other users to select when they create an OT request in the OT Service Catalog.
 
-**Parent Topic:**[Configuring Operational Technology Request Management](../concept/configuring-operational-technology-request-management.md)
+**Parent Topic:**[Configuring Operational Technology Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-request-management/configuring-operational-technology-request-management.md)
 

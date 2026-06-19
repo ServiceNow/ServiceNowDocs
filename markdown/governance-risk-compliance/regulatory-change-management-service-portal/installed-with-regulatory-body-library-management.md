@@ -2,6 +2,7 @@
 title: Roles and tables installed with Regulatory Agency Library
 description: Several types of components are installed with activation of the Regulatory Agency Library application, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/regulatory-change-management-service-portal/installed-with-regulatory-body-library-management.html
 release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -119,5 +120,5 @@ Agency Profile \[sn\_reg\_body\_mgmt\_agency\_profile\]
 Stores regulatory agency profiles in Regulatory Agency Library.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Regulatory Change Management reference](rcm-reference.md)
+</table>**Parent Topic:**[Regulatory Change Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/rcm-reference.md)
 

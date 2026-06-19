@@ -2,6 +2,7 @@
 title: Define a service fulfillment step
 description: Define how a catalog item request should be fulfilled by creating simple service fulfillment steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/create-sf-step.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -26,8 +27,6 @@ To configure fulfillment steps while creating a catalog item, associate it with 
 Fulfillment process can contain multiple steps. These steps can run sequentially or can be grouped to run in parallel.
 
 The following video demonstrates how business owners can define the fulfillment process of catalog items using service fulfillment steps.
-
-Demonstrates how business owners can define the fulfillment process of catalog items using service fulfillment steps.
 
 ## Procedure
 
@@ -113,7 +112,7 @@ Condition
 
 </td><td>
 
-Condition that defines whether the step must run. The options on which a condition can be applied are the questions that are available on the catalog item for which you’re creating the service fulfillment steps. For information on questions, see the [Create a catalog item using a template](create-item-cat-builder.md) topic.
+Condition that defines whether the step must run. The options on which a condition can be applied are the questions that are available on the catalog item for which you’re creating the service fulfillment steps. For information on questions, see the [Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/create-item-cat-builder.md) topic.
 
 </td></tr></tbody>
 </table>        2.  Click **Add**.
@@ -182,7 +181,7 @@ Condition
 
 </td><td>
 
-Condition that defines whether the step must run. The options on which a condition can be applied are the questions that are available on the catalog item for which you’re creating the service fulfillment steps. For information on questions, see the [Create a catalog item using a template](create-item-cat-builder.md) topic.
+Condition that defines whether the step must run. The options on which a condition can be applied are the questions that are available on the catalog item for which you’re creating the service fulfillment steps. For information on questions, see the [Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/create-item-cat-builder.md) topic.
 
 </td></tr></tbody>
 </table>        3.  Click **Add**.
@@ -221,32 +220,32 @@ Condition
 
 </td><td>
 
-Condition that defines whether the step must run. The options on which a condition can be applied are the questions that are available on the catalog item for which you’re creating the service fulfillment steps. For information on questions, see the [Create a catalog item using a template](create-item-cat-builder.md) topic.
+Condition that defines whether the step must run. The options on which a condition can be applied are the questions that are available on the catalog item for which you’re creating the service fulfillment steps. For information on questions, see the [Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/create-item-cat-builder.md) topic.
 
 </td></tr></tbody>
 </table>        3.  Click **Add**.
-    ![Service fulfillment steps.](../image/sfs-steps.png "Service fulfillment steps")
+    \[Omitted image "sfs-steps.png"\] Alt text: Service fulfillment steps.
 
 3.  In the **Estimated time to deliver** region, for the **Days** field, specify the time by which the RITM should be fulfilled.
 
     The due date is calculated based on when the service fulfillment flow is triggered.
 
-4.  To edit a step, click the edit icon \(![Edit icon.](../image/edit-quest-builder.png)\).
+4.  To edit a step, click the edit icon \(\[Omitted image "edit-quest-builder.png"\] Alt text: Edit icon.\).
 
-5.  To delete a step, click the delete icon \(![Delete icon.](../image/deactivate-quest.png)\).
+5.  To delete a step, click the delete icon \(\[Omitted image "deactivate-quest.png"\] Alt text: Delete icon.\).
 
 6.  To rearrange steps, drag the steps.
 
 7.  To group steps together, perform one of the following tasks.
 
     -   Drag a step and drop it on another step or group of steps.
-    -   To group this step with the previous step or group, click the merge icon \(![Merge icon.](../image/merge.png)\).
-    ![Merged service fulfillment steps.](../image/merge-steps.png "Merged service fulfillment steps")
+    -   To group this step with the previous step or group, click the merge icon \(\[Omitted image "merge.png"\] Alt text: Merge icon.\).
+    \[Omitted image "merge-steps.png"\] Alt text: Merged service fulfillment steps.
 
 8.  To separate a step from a group of steps, perform one of the following tasks.
 
-    -   Click the separate icon \(![Separate icon.](../image/separate.png)\). The step is placed after the group.
+    -   Click the separate icon \(\[Omitted image "separate.png"\] Alt text: Separate icon.\). The step is placed after the group.
     -   Drag a step out of the group and drop it at a location of your choice.
 
-**Parent Topic:**[Create a catalog item using a template](create-item-cat-builder.md)
+**Parent Topic:**[Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/create-item-cat-builder.md)
 

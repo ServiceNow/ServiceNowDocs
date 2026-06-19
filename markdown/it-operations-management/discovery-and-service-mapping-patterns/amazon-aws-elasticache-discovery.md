@@ -2,6 +2,7 @@
 title: Amazon ElastiCache discovery with Patterns
 description: The ServiceNow Discovery application uses the Amazon ElastiCache discovery pattern to find Redis clusters deployed as part of the ElastiCache service. ElastiCache is compatible with both Redis and Memcached, but the pattern collects information only for Redis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/amazon-aws-elasticache-discovery.html
 release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -40,5 +41,5 @@ Replication groups are stored in the Cloud Database Clusters \[cmdb\_ci\_cloud\_
 |FQDN|Fully qualified domain name for each node group member.|
 |Port|Port used by each node group member.|
 
-**Parent Topic:**[AWS discovery using patterns](../../discovery/reference/data-discovered-aws-patterns.md)
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

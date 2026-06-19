@@ -2,6 +2,7 @@
 title: Using HR Service Delivery Employee Relations
 description: Creating an HR Service Delivery Employee Relations \(ER\) case is similar to creating any HR case with some differences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-er-using.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -38,7 +39,7 @@ When creating HR cases, you must identify an Opened for person. For ER cases, yo
 
 If you are an HR agent and using the HR case form or Agent Workspace, select **Skip verification** from the Case Creation Search for Employee form
 
-![HR ER Case Creation - Skip Verification](../image/hr-er-case-creation-skip2.png)
+\[Omitted image "hr-er-case-creation-skip2.png"\] Alt text: HR ER Case Creation - Skip Verification
 
 ## Related information
 

@@ -2,6 +2,7 @@
 title: Explore
 description: Threat Intelligence Security Center \(TISC\) enables you to collaborate with the threat intelligence teams and has multiple capabilities to collect and process various threat intelligence feeds and a workspace to analyze, collaborate, action, and share the necessary information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/threat-intelligence-security-center-overview.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -59,8 +60,8 @@ The following are the Threat Intelligence Security Center \(TISC\) key features 
 |Administrator|Administers and configures the initial setup and ongoing maintenance of the Threat Intelligence Security Center, including configuring data sources and managing intelligence settings.|
 |Analyst|Threat Intelligence Analysts are responsible for conducting analysis and research tasks requested by the team. They can import ad hoc intelligence to support their work and use the system’s tools for analysis, collaboration, and managing the intelligence library.|
 
--   **[TISC Key terminology](../concept/tisc-key-terminology.md)**  
+-   **[TISC Key terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-key-terminology.md)**  
 The terms defined below are used throughout the Threat Intelligence Security Center \(TISC\).
--   **[Home page in TISC Workspace](../task/view-threat-intelligence-security-center-homepage.md)**  
+-   **[Home page in TISC Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/view-threat-intelligence-security-center-homepage.md)**  
 The TISC home page serves the landing page and provides a summary of **Feeds Overview**, **Trending Threats**, and **Intelligence Sharing** enabling visualization of threat intelligence data.
 

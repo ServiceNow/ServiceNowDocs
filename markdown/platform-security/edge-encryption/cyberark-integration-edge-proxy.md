@@ -2,6 +2,7 @@
 title: CyberArk integration with the Edge proxy server
 description: Use CyberArk to store passwords in a centralized and secure digital vault to secure passwords that were previously stored in clear text and secured by file access, or that were previously encrypted via a second file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/cyberark-integration-edge-proxy.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -39,5 +40,5 @@ The proxy installer also includes a new page for CyberArk protected credentials.
 
 Any password field in the Edge proxy installer that has a CyberArk credential configured in the CyberArk vault and specified on the CyberArk Protected Credentials page of the installer is grayed out and contains the message `Protected by CyberArk`.
 
-**Parent Topic:**[Installing Edge Encryption](c_InstallEdgeEncryptionProxy.md)
+**Parent Topic:**[Installing Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/c_InstallEdgeEncryptionProxy.md)
 

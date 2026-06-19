@@ -2,6 +2,7 @@
 title: Unified Experience examples
 description: This example demonstrates the unified experience framework capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/unified-expereince-example.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -15,12 +16,12 @@ breadcrumb: [Unified experience framework, SIR Workspace Orchestration, Working 
 
 This example demonstrates the unified experience framework capabilities.
 
--   **[Example 1: Select implementations: Threat Lookup](../task/example-1-select-implementations-threat-lookup.md)**  
+-   **[Example 1: Select implementations: Threat Lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/example-1-select-implementations-threat-lookup.md)**  
 The example below demonstrates the implementation\(s\).
--   **[Example 2: Common Inputs: Sighting Search](../task/common-inputs.md#)**  
+-   **[Example 2: Common Inputs: Sighting Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/common-inputs.md)**  
 The example below demonstrates the common inputs capability action.
--   **[Example 3: Add specific runtime details inputs to an implementation: Run Additional Actions](../task/example-3-add-specific-runtime-details-inputs.md#)**  
+-   **[Example 3: Add specific runtime details inputs to an implementation: Run Additional Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/example-3-add-specific-runtime-details-inputs.md)**  
 Add specific runtime details inputs to an implementation, Run Additional Actions.
 
-**Parent Topic:**[Unified experience framework for integrations powered by Capability Framework](security-incident-response-workspace-capability-framework.md)
+**Parent Topic:**[Unified experience framework for integrations powered by Capability Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/security-incident-response-workspace-capability-framework.md)
 

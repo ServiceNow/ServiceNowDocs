@@ -2,6 +2,7 @@
 title: Collect analytics for an API
 description: Select which APIs to collect analytics for and select if requestor information should be collected for each API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/api-analytics-whitelist-domain.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -65,5 +66,5 @@ Select this check box to track which users make requests to this API. This optio
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Analyze REST and SOAP API usage](../concept/c_APIAnalytics.md)
+**Parent Topic:**[Analyze REST and SOAP API usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_APIAnalytics.md)
 

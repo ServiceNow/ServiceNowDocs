@@ -2,6 +2,7 @@
 title: Create a custom email for security event notifications
 description: Learn how for creating a custom email for security event notifications by configuring new notifications, setting triggers, defining recipients, and crafting email content with dynamic event fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/security-center/create-custom-email-for-security-event-notifications.html
 release: zurich
 product: Security Center
 classification: security-center
@@ -65,7 +66,7 @@ Select the field next to **Send when** label and select **Triggered**.
 
 </td><td>
 
-Create an email template.See [Create an email template](https://www.servicenow.com/docs/access?context=t_CreateAnEmailTemplate&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) for more information.
+Create an email template.See  for more information.
 
 Enter fields of the event into **Message HTML**. This can be done by using the `${event_id.FIELD_NAME}`. Here's an example:
 
@@ -90,5 +91,5 @@ Security Center Notification: ${execution.policy.name}
     3.  Enter the name of the custom notification you created in the **Notification** field.
 
 
-**Parent Topic:**[Configure preferences for security event notification policies](configure-preferences-for-security-event-notifications.md)
+**Parent Topic:**[Configure preferences for security event notification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/configure-preferences-for-security-event-notifications.md)
 

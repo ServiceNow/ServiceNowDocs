@@ -2,6 +2,7 @@
 title: Cancel the wet signature process from the Employee Center
 description: Cancel a wet signature process for a Non-disclosure agreement legal requests from the Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/snlc-tpc-cancel-wet-signature.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -44,5 +45,5 @@ You can cancel the signature process from the Employee Center under following co
 
 The contract status updates to Signature cancelled, and a notification email is sent to all signatories.
 
-**Parent Topic:**[Work on a third-party contract review request](snlc-work-tpc-review-request.md)
+**Parent Topic:**[Work on a third-party contract review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-work-tpc-review-request.md)
 

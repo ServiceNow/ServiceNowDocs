@@ -2,13 +2,14 @@
 title: Create shopping controls
 description: Set conditions to control the visibility of supplier products for an employee or a department who visits the Shopping Hub portal. Shopping Hub administrators can manage access to products based on categories, suppliers, or any attribute related to a supplier product.​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-shopping-controls.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Setting up primary data for Shopping Hub, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Setting up primary data Shopping, Configure Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Create shopping controls
@@ -27,7 +28,7 @@ For example, you define a shopping control for an employee, Jane Doe, to exclude
 
 Also, these supplier products are not visible on the Shopping Hub portal when another employee shops as a delegate on behalf of Jane Doe.
 
-Shopping controls can be overridden with employee credits. For details, see [Shopping controls overridden by credits](../reference/shopping-controls-overridden.md).
+Shopping controls can be overridden with employee credits. For details, see [Shopping controls overridden by credits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/shopping-controls-overridden.md).
 
 ## Procedure
 
@@ -122,5 +123,5 @@ Define conditions to identify products that must not be visible to the employees
     Any user which references to this shopping control is then updated so that this control is no longer applied to that user. On reloading the form, you can see that the User Control and Supplier Products related lists are empty.
 
 
-**Parent Topic:**[Setting up primary data for Shopping Hub](../reference/set-up-master-data-shopping-hub.md)
+**Parent Topic:**[Setting up primary data for Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/set-up-master-data-shopping-hub.md)
 

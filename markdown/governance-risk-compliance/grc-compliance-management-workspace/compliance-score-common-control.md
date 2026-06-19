@@ -2,6 +2,7 @@
 title: Impact of common control on compliance score calculation
 description: Whenever an entity is associated to a common control and termed as a reliant entity, there is an impact on the compliance score of the entity on account of the common control test results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/compliance-score-common-control.html
 release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

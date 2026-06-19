@@ -2,7 +2,10 @@
 title: CSM integration with IT Service Management overview
 description: Customer Service Management provides an integration with the Incident, Problem, Change, and Request Management applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-integration-service-management.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 4
@@ -20,11 +23,11 @@ Customer Service Management integration with Service Management requires the fol
 -   Customer Service with Service Management plugin \(com.sn\_cs\_sm\)
 -   Customer Service with Request Management plugin \(com.sn\_cs\_sm\_request\)
 
-For additional information, see [Integrate with Service Management](../task/configure-csm-sm-integration.md).
+For additional information, see [Integrate with Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-csm-sm-integration.md).
 
 ## Roles
 
-The Service Management integration plugins do not add any roles to the customer service agent \(sn\_customerservice\_agent\) role. To enable the Service Management integration features, you must assign the CSM/ITSM integration roles included with the Incident Management application to the agents who need this capability. For more information, see [Assign CSM/ITSM integration roles](../task/assign-csm-itsm-integration-roles.md#).
+The Service Management integration plugins do not add any roles to the customer service agent \(sn\_customerservice\_agent\) role. To enable the Service Management integration features, you must assign the CSM/ITSM integration roles included with the Incident Management application to the agents who need this capability. For more information, see [Assign CSM/ITSM integration roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/assign-csm-itsm-integration-roles.md).
 
 ## Creating records for a case
 
@@ -38,7 +41,7 @@ The Service Management integration plugins add the following menu items to the A
 
 **Note:** Agents can create or associate one incident, problem, or change record with a case. After a record is created or associated with a case, the corresponding menu items are no longer available on the Additional Actions menu.
 
-For more information, see [Create incident, problem, change, and request records from cases](csm-item-agent-tasks.md#).
+For more information, see [Create incident, problem, change, and request records from cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-item-agent-tasks.md).
 
 ## Viewing incident, problem, and change records related to a case
 
@@ -68,7 +71,7 @@ From the Customer and Consumer Service Portals, users can view lists of cases an
 -   Clicking **My Lists** in the portal menu header.
 -   Clicking **Requests** &gt; **All Requests** in the portal menu header.
 
-For more information, see [View case records from the Customer and Consumer Service Portals](../task/view-related-records-from-portal.md).
+For more information, see [View case records from the Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/view-related-records-from-portal.md).
 
 ## Using case resolution codes
 

@@ -2,6 +2,7 @@
 title: Create maintenance entitlements in Software Asset Management classic
 description: Define license details, for all publishers other than Microsoft, to manage all your software license maintenance needs such as start and end dates of your contracts and software upgrades.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/Record-software-rights-non-microsoft.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -27,7 +28,7 @@ Role required: admin
 
 3.  On the Software Entitlement form, fill in the mandatory fields and select **Maintenance** in the **License type** field.
 
-    For a detailed description of all the fields, refer to [Software entitlement fields](../reference/software-entitlement-fields.md).
+    For a detailed description of all the fields, refer to [Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-entitlement-fields.md).
 
     If the **Next Version** field is populated in the software model that the maintenance entitlement is associated with and the metric group selected in the maintenance entitlement is **Common**, then the maintenance entitlement is updated with the next version of the software model. Next version is applicable only for the **Common** metric group.
 
@@ -37,7 +38,7 @@ Role required: admin
 
 5.  Perform additional configurations on your new maintenance entitlement record.
 
-    For a detailed description, see [Software entitlement fields](../reference/software-entitlement-fields.md).
+    For a detailed description, see [Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-entitlement-fields.md).
 
     You can't add user or device allocations for maintenance entitlements.
 
@@ -49,9 +50,9 @@ Role required: admin
 
         1.  Select the **Related Entitlements** tab.
         2.  In the **Related Entitlement** field of the Related Entitlements list, double-click **Insert a new row...**.
-        3.  When prompted, search for and select the related perpetual entitlement that you want to link and then click the Save \(![Save icon.](../image/save-icon.png)\) icon.
+        3.  When prompted, search for and select the related perpetual entitlement that you want to link and then click the Save \(\[Omitted image "save-icon.png"\] Alt text: Save icon.\) icon.
         4.  Double-click the corresponding **Active rights** field.
-        5.  When prompted, enter the number of rights that you want to grant to the related perpetual entitlement and then click the Save \(![Save icon.](../image/save-icon.png)\) icon.
+        5.  When prompted, enter the number of rights that you want to grant to the related perpetual entitlement and then click the Save \(\[Omitted image "save-icon.png"\] Alt text: Save icon.\) icon.
         6.  Click **Save** on the Software Entitlement form header.
         To remove the relationship between the perpetual and maintenance entitlement, remove the entitlement from the Related Entitlements list.
 
@@ -72,5 +73,5 @@ Role required: admin
 6.  Click **Update**.
 
 
-**Parent Topic:**[Create entitlements in Software Asset Management classic](track-software-rights.md)
+**Parent Topic:**[Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/track-software-rights.md)
 

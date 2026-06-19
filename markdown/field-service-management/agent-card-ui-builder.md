@@ -2,7 +2,10 @@
 title: Customizing the agent card in Dispatcher Workspace with UI Builder
 description: Change or add fields and icons to the agent card that display more information that dispatchers can use to resolve tasks faster.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/agent-card-ui-builder.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -26,5 +29,5 @@ Depending on your configuration, you might have the same, more, or fewer compone
 
 The following image shows an example of the container component used to build part of the agent card. The fields can be configured in UI Builder.
 
-![Tabs used to configure the agent card in UI Builder.](../image/container-uib.png "Container component in UI Builder")
+\[Omitted image "container-uib.png"\] Alt text: Tabs used to configure the agent card in UI Builder.
 

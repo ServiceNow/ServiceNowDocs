@@ -2,7 +2,10 @@
 title: Create customer projects
 description: Create customer projects at internal or external business locations to manage location openings, renovations, closings, or other location-specific initiatives.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-customer-projects.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -33,7 +36,7 @@ A customer project can be initiated by applying templates, or by importing and e
 
 3.  On the form, fill in the fields.
 
-    The following table outlines the unique fields of the form. To learn more about other fields, refer [Starting a project](https://www.servicenow.com/docs/access?context=t_CreateAProject&version=zurich&pubname=zurich-it-business-management&ft:locale=en-US).
+    The following table outlines the unique fields of the form. To learn more about other fields, refer .
 
     |Field|Description|
     |-----|-----------|
@@ -45,7 +48,7 @@ A customer project can be initiated by applying templates, or by importing and e
 
 5.  Select a project to see all the related tabs.
 
-    ![Project workspace displaying related tabs of a project.](../image/project-workspace.png)
+    \[Omitted image "project-workspace.png"\] Alt text: Project workspace displaying related tabs of a project.
 
 <table id="table_jzx_dmn_tdc"><thead><tr><th>
 
@@ -123,7 +126,7 @@ Reports of the project
 </td></tr></tbody>
 </table>6.  Under the **Details** tab, fill in the other fields.
 
-    The following table outlines the unique fields of the customer project. To learn more about other fields, see [Starting a project](https://www.servicenow.com/docs/access?context=t_CreateAProject&version=zurich&pubname=zurich-it-business-management&ft:locale=en-US).
+    The following table outlines the unique fields of the customer project. To learn more about other fields, see .
 
 <table id="table_h33_rpn_tdc"><thead><tr><th>
 
@@ -161,5 +164,5 @@ Service organization for the project. Select an IBL or EBL from the displayed li
 </table>
 ## What to do next
 
-[Create a project task from a project](https://www.servicenow.com/docs/access?context=t_CreateATaskFromAProject&version=zurich&pubname=zurich-it-business-management&ft:locale=en-US)
+
 

@@ -2,6 +2,7 @@
 title: NowSDK framework - iOS
 description: The NowSDK framework contains methods that enable the instantiation of various feature services.Configures NowSDK for use. You must call this function before calling any of the feature services within the Mobile SDK.Returns a reference to the SDK core service.Convenience function that feature services can use to construct n NowServiceConfiguration object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/cllent-mobile-api-reference/NowSDKAPIiOS.html
 release: zurich
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Mobile SDK - iOS, Mobile SDK API reference, API reference, API impl
 
 The NowSDK framework contains methods that enable the instantiation of various feature services.
 
-**Parent Topic:**[Mobile SDK - iOS](../../concept/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowSDK - configure\(with configuration: NowSDKConfiguration\) throws
 
@@ -25,7 +26,7 @@ Configures NowSDK for use. You must call this function before calling any of the
 
 |Name|Type|Description|
 |----|----|-----------|
-|with configuration|[NowSDKConfiguration](../../NowSDKConfiguration/concept/NowSDKConfigurationiOSAPI.md#)|NowSDKConfiguration that contains the information necessary to initialize the service.|
+|with configuration|[NowSDKConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowSDKConfigurationiOSAPI.md)|NowSDKConfiguration that contains the information necessary to initialize the service.|
 
 |Type|Description|
 |----|-----------|
@@ -67,7 +68,7 @@ Returns a reference to the SDK core service.
 
 |Type|Description|
 |----|-----------|
-|Object|Object conforming to the NowCoreServiceProviding protocol is returned if the SDK has been initialized by calling the [NowSDK - configure\(with configuration: NowSDKConfiguration\) throws](NowSDKAPIiOS.md#) method; otherwise `nil`.|
+|Object|Object conforming to the NowCoreServiceProviding protocol is returned if the SDK has been initialized by calling the [NowSDK - configure\(with configuration: NowSDKConfiguration\) throws](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowSDKAPIiOS.md) method; otherwise `nil`.|
 
 The following code example shows how to call this function.
 
@@ -88,7 +89,7 @@ Convenience function that feature services can use to construct n NowServiceConf
 
 |Type|Description|
 |----|-----------|
-|[NowServiceConfiguration](../../NowServiceConfiguration/concept/NowServiceConfigurationiOSStruct.md#)|If the specified URL passes basic validity checks, and the service configuration can be properly constructed, returns the NowServiceConfiguration object; otherwise `nil`.|
+|[NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowServiceConfigurationiOSStruct.md)|If the specified URL passes basic validity checks, and the service configuration can be properly constructed, returns the NowServiceConfiguration object; otherwise `nil`.|
 
 The following code example shows how to call this function.
 

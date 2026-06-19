@@ -2,11 +2,12 @@
 title: Assigning a territory on opportunity
 description: You can update the primary territory on opportunity in which Sales Territory Management​ has been implemented.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/modify-territory.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2025-10-29"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Sales Territory Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
@@ -23,7 +24,7 @@ Role required: sales territory admin \(or a user with sales territory override r
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![image.Lists] view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Opportunity** &gt; **All** and select the opportunity you want to update the territory.
 
@@ -32,5 +33,5 @@ Role required: sales territory admin \(or a user with sales territory override r
 4.  Select **Save**.
 
 
-**Parent Topic:**[Using Sales Territory Management​](use-sales-territory-management.md)
+**Parent Topic:**[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/use-sales-territory-management.md)
 

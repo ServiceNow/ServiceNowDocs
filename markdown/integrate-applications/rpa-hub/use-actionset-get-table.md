@@ -2,6 +2,7 @@
 title: Use the ActionSet Get Table action
 description: Capture a table from the Windows applications, and web pages on the Internet Explorer browser by using the Get Table component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/use-actionset-get-table.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -17,7 +18,7 @@ Capture a table from the Windows applications, and web pages on the Internet Exp
 
 ## Before you begin
 
-Capture an image of the target application window and create an anchor. For information about how to do this, see [Use the ActionSet component](use-actionsui-actionset.md).
+Capture an image of the target application window and create an anchor. For information about how to do this, see [Use the ActionSet component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/use-actionsui-actionset.md).
 
 Role required: none
 
@@ -29,17 +30,17 @@ The ActionSet Get Table action captures an entire table from a location that you
 
 For the action to successfully capture table data, the target data must already be in table form. The action cannot convert ordinary text to table data.
 
-You can configure the properties for the Get Table action. For more information about these properties, see [ActionSet- Get Table properties](../reference/actionset-actions-properties.md#ActionSet-GetTable).
+You can configure the properties for the Get Table action. For more information about these properties, see [ActionSet- Get Table properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/actionset-actions-properties.md).
 
 ## Procedure
 
 1.  Right-click the anchor.
 
-    To learn about the anchor, see how to use the [Anchor](../concept/anchor.md).
+    To learn about the anchor, see how to use the [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/anchor.md).
 
 2.  Click **Get Table**.
 
-3.  Drag the green plus icon \(![Green plus icon.](../image/green-plus-icon.png)\) to the area in the target window that contains a table that you want to capture.
+3.  Drag the green plus icon \(\[Omitted image "green-plus-icon.png"\] Alt text: Green plus icon.\) to the area in the target window that contains a table that you want to capture.
 
 4.  In the Properties pane of the ActionSet Settings window, configure the properties of the Get Table action.
 
@@ -56,5 +57,5 @@ You can configure the properties for the Get Table action. For more information 
 7.  To test the component, right-click the component bar and then click **Run From Here**.
 
 
-**Parent Topic:**[Use the ActionSet component](use-actionsui-actionset.md)
+**Parent Topic:**[Use the ActionSet component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/use-actionsui-actionset.md)
 

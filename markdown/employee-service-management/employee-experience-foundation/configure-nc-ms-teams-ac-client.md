@@ -2,6 +2,7 @@
 title: Configuring Notify connector for Microsoft Teams app in Microsoft Teams
 description: Configure the manifest file in Microsoft Teams client or admin center to use Notify connector for Microsoft Teams app.Configure the manifest file in Microsoft Teams client to use Notify connector for Microsoft Teams app.Configure the manifest file in Microsoft Teams admin center to use Notify connector for Microsoft Teams app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/configure-nc-ms-teams-ac-client.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,10 +18,10 @@ Configure the manifest file in Microsoft Teams client or admin center to use Not
 
 You can upload the manifest file in Microsoft Teams using one of the following procedures.
 
--   [Configure Notify connector for Microsoft Teams app in Microsoft Teams](configure-nc-ms-teams-ac-client.md#)
--   [Configure Notify connector for Microsoft Teams app in Microsoft Teams](configure-nc-ms-teams-ac-client.md#)
+-   [Configure Notify connector for Microsoft Teams app in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/configure-nc-ms-teams-ac-client.md)
+-   [Configure Notify connector for Microsoft Teams app in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/configure-nc-ms-teams-ac-client.md)
 
-**Parent Topic:**[Integrate Meeting Extensions pre-published app with Microsoft Teams](setup-meeting-extensibility-multi-tenant.md)
+**Parent Topic:**[Integrate Meeting Extensions pre-published app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/setup-meeting-extensibility-multi-tenant.md)
 
 ## Configure Notify connector for Microsoft Teams app in Microsoft Teams
 

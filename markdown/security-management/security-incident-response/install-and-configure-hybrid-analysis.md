@@ -2,6 +2,7 @@
 title: Install and configure
 description: Before you run the integration on your instance, complete the installation and configuration steps so the Hybrid Analysis application properly integrates with ServiceNow AI Platform Security Operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/install-and-configure-hybrid-analysis.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -59,7 +60,7 @@ For the Madrid release and later family releases, the com.snc.si\_dep plugin is 
 3.  Security Support Orchestration
 4.  Security Incident Response
 
- For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product or application](../../security-incident-response/task/entitle-secops-product.md) and [Activate a ServiceNow Store application](../../security-incident-response/task/activate-entitled-store-app.md).
+ For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/activate-entitled-store-app.md).
 
 </td></tr></tbody>
 </table>Role required: admin
@@ -86,19 +87,19 @@ Perform the following steps to update system properties and install and configur
     |**Type**|Select **true l false**|
     |**Value**|`true`|
 
-    ![Attributes for the system property required for this integration.](../image/hybrid-analysis-system-property.png)
+    \[Omitted image "hybrid-analysis-system-property.png"\] Alt text: Attributes for the system property required for this integration.
 
-4.  If you have not installed the application for the integration, see [Install a Security Operations integration](../../security-incident-response/task/install-non-core-apps.md) and follow the steps to install it.
+4.  If you have not installed the application for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/install-non-core-apps.md) and follow the steps to install it.
 
 5.  After the installation completes, navigate to **Integrations** &gt; **Integrations Configurations** and locate the Hybrid Analysis tile.
 
 6.  Click **Configure**.
 
-    ![A description of the app and the button used to initiate the configuration.](../image/hybrid-analysis-configure-tile.png)
+    \[Omitted image "hybrid-analysis-configure-tile.png"\] Alt text: A description of the app and the button used to initiate the configuration.
 
 7.  In the **Hybrid Analysis Configuration** dialog box, enter the API key you obtained from the Hybrid Analysis website and click **Submit**.
 
-    ![The configuration fields populated with encrypted account information.](../image/hybrid-analysis-api-key-new.png)
+    \[Omitted image "hybrid-analysis-api-key-new.png"\] Alt text: The configuration fields populated with encrypted account information.
 
 8.  Verify successful configuration.
 
@@ -107,9 +108,9 @@ Perform the following steps to update system properties and install and configur
     If an error message is displayed during the configuration, the Hybrid Analysis API key may be invalid.
 
 
-**Parent Topic:**[Hybrid Analysis integration](../concept/hybrid-analysis-lookups.md)
+**Parent Topic:**[Hybrid Analysis integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/hybrid-analysis-lookups.md)
 
-**Previous topic:**[Hybrid Analysis integration](../concept/hybrid-analysis-lookups.md)
+**Previous topic:**[Hybrid Analysis integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/hybrid-analysis-lookups.md)
 
-**Next topic:**[Verify expected results](verify-expected-results-hybrid-analysis-.md)
+**Next topic:**[Verify expected results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/verify-expected-results-hybrid-analysis-.md)
 

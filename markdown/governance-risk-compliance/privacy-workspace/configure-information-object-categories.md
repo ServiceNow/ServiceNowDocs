@@ -2,6 +2,7 @@
 title: Configure information object categories
 description: Configure information object categories to classify information objects effectively. For example, attributes like iris scans and fingerprints are often referred to as biometric data, or email addresses and phone numbers can be grouped as contact information. Information object categories enable you to categorize these information objects under these broader classifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/configure-information-object-categories.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -46,5 +47,5 @@ Role required: sn\_privacy.admin
 7.  Select **Save**.
 
 
-**Parent Topic:**[Manage the Privacy Management library](../concept/privacy-library-setup.md)
+**Parent Topic:**[Manage the Privacy Management library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/privacy-library-setup.md)
 

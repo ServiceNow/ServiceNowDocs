@@ -2,6 +2,7 @@
 title: Review execution output and decision
 description: After evaluating any changes made to the PaCE policy script, you can review the execution output and compliance decision reached. You can review this output immediately after evaluating any policy script changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/policy-as-code-engine-pace/pace-review-output-decision.html
 release: zurich
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
@@ -23,13 +24,13 @@ Role required: sn\_pace.execution\_reader
 
 1.  In the **Policy builder** tab, click the policy version you want to evaluate.
 
-2.  Select the Test playground icon ![Test playground icon.](../image/pace-test-playground-icon.jpg).
+2.  Select the Test playground icon \[Omitted image "pace-test-playground-icon.jpg"\] Alt text: Test playground icon..
 
 3.  After modifying the policy script according to your requirements, click **Run Test**
 
     The **Output** tab is displayed automatically, and shows the output and the decision reached.
 
-    ![Output tab.](../image/pace-output-tab-2.jpg)
+    \[Omitted image "pace-output-tab-2.jpg"\] Alt text: Output tab.
 
 4.  Review the execution output in the **Output** tab:
 

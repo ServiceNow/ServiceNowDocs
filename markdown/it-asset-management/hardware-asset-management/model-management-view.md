@@ -2,6 +2,7 @@
 title: Model management view
 description: Use the Model management view in the Hardware Asset Workspace to create or edit models, view the asset model-related functions such as hardware and consumable models nearing the end of life, and take appropriate actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/model-management-view.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -17,7 +18,7 @@ Use the Model management view in the Hardware Asset Workspace to create or edit 
 
 All reports except **Days until next hardware content refresh** under the Model Management view get filtered based on the model category you choose.
 
-![Model management view in the Hardware Asset Workspace.](../image/model-management-view.png "Model management view")
+\[Omitted image "model-management-view.png"\] Alt text: Model management view in the Hardware Asset Workspace.
 
 **Note:** Software model tab is hidden when Software Asset Management \(com.snc.software\_asset\_management\) or Software Asset Management Professional \(com.snc.pa.samp\) is active. You can view this Software model tab in Software Asset Workspace.
 

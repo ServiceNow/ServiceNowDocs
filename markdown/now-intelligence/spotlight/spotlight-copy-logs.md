@@ -2,6 +2,7 @@
 title: Spotlight group copy logs
 description: When a Spotlight group is copied, the steps of the copying process are recorded in logs. Use these logs to debug any issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/spotlight/spotlight-copy-logs.html
 release: zurich
 product: Spotlight
 classification: spotlight
@@ -28,9 +29,9 @@ To debug a Spotlight group copying job, open the group copy log from the list an
 
 ## Group copy log with errors
 
-In this example, the Incident Spotlight group was copied for the Assignment Group breakdown elements Database, Field Services, Hardware, and US Presidents Group 1. However, after the copying job has completed, a notification shows that copying failed for three of those elements.![Notifications after a Spotlight group copying job, showing three failures and one success](../image/spotlight-copy-fail-note.png)
+In this example, the Incident Spotlight group was copied for the Assignment Group breakdown elements Database, Field Services, Hardware, and US Presidents Group 1. However, after the copying job has completed, a notification shows that copying failed for three of those elements.\[Omitted image "spotlight-copy-fail-note.png"\] Alt text: Notifications after a Spotlight group copying job, showing three failures and one success
 
-Clicking **Check the logs for details** opens the Spotlight group copy log for this copying job. In this log, you can find the errors that caused each failure. In the following example, a business rule violation prevented the copy from being created. The error message instructs you to contact the System Administrator.![Spotlight group copy log showing one of three errors](../image/spotlight-group-copy-log.png)
+Clicking **Check the logs for details** opens the Spotlight group copy log for this copying job. In this log, you can find the errors that caused each failure. In the following example, a business rule violation prevented the copy from being created. The error message instructs you to contact the System Administrator.\[Omitted image "spotlight-group-copy-log.png"\] Alt text: Spotlight group copy log showing one of three errors
 
-**Parent Topic:**[Ranking records with Spotlight](spotlight.md)
+**Parent Topic:**[Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/spotlight/spotlight.md)
 

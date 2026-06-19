@@ -2,6 +2,7 @@
 title: Working with tasks in Supplier Collaboration Portal header
 description: Use the portal header located at the top-right corner of the Supplier Collaboration Portal home page to open exception tasks, invoice inquiry requests assigned to the logged-in supplier.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/work-supplier-collaboration-portal-header.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -23,21 +24,21 @@ Role required: Supplier
 
 1.  Navigate to the header on the Supplier Collaboration Portal home page &gt;**Tasks** &gt; **My Tasks**.
 
-    Lists the **Open** and **Completed** exception tasks and invoice case tasks assigned for the logged in supplier. For more information on creating an exception task, see [Work on an invoice exception](work-invoice-exception-case.md).
+    Lists the **Open** and **Completed** exception tasks and invoice case tasks assigned for the logged in supplier. For more information on creating an exception task, see [Work on an invoice exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/work-invoice-exception-case.md).
 
     **Note:** You can also view **My Tasks** by navigating to **My active items** widget&gt;**Tasks** tile.
 
 2.  On the **Exception task** form, you can view the following details.
 
-<table id="choicetable_evl_lvy_zxb"><thead><tr><th align="left" id="d131256e95">
+<table id="choicetable_evl_lvy_zxb"><thead><tr><th align="left" id="d69159e95">
 
 Option
 
-</th><th align="left" id="d131256e98">
+</th><th align="left" id="d69159e98">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d131256e104">
+</th></tr></thead><tbody><tr><td id="d69159e104">
 
 **Number**
 
@@ -45,7 +46,7 @@ Description
 
 An auto-generated number that uniquely identifies the task.
 
-</td></tr><tr><td id="d131256e113">
+</td></tr><tr><td id="d69159e113">
 
 **Due Date**
 
@@ -53,7 +54,7 @@ An auto-generated number that uniquely identifies the task.
 
 The assigned date by which the task must be completed.
 
-</td></tr><tr><td id="d131256e122">
+</td></tr><tr><td id="d69159e122">
 
 **State**
 
@@ -66,7 +67,7 @@ The current state of the task. The states are: -   New
 -   Closed incomplete
 
 
-</td></tr><tr><td id="d131256e148">
+</td></tr><tr><td id="d69159e148">
 
 **Supplier**
 
@@ -74,7 +75,7 @@ The current state of the task. The states are: -   New
 
 Name of the supplier
 
-</td></tr><tr><td id="d131256e158">
+</td></tr><tr><td id="d69159e158">
 
 **Supplier invoice number**
 
@@ -82,7 +83,7 @@ Name of the supplier
 
 The invoice number of the supplier invoice.
 
-</td></tr><tr><td id="d131256e167">
+</td></tr><tr><td id="d69159e167">
 
 **Purchase order**
 
@@ -90,7 +91,7 @@ The invoice number of the supplier invoice.
 
 Purchase order number related to the invoice.
 
-</td></tr><tr><td id="d131256e176">
+</td></tr><tr><td id="d69159e176">
 
 **Amount invoiced \(Transaction currency\)**
 
@@ -98,7 +99,7 @@ Purchase order number related to the invoice.
 
 Charges applied on the invoice.
 
-</td></tr><tr><td id="d131256e185">
+</td></tr><tr><td id="d69159e185">
 
 **Description**
 
@@ -106,7 +107,7 @@ Charges applied on the invoice.
 
 Detailed description about the task.
 
-</td></tr><tr><td id="d131256e194">
+</td></tr><tr><td id="d69159e194">
 
 **Activity**
 
@@ -114,7 +115,7 @@ Detailed description about the task.
 
 Lists the activity postings between Accounts Payable Specialist and supplier.
 
-</td></tr><tr><td id="d131256e203">
+</td></tr><tr><td id="d69159e203">
 
 **Attachments**
 
@@ -125,15 +126,15 @@ Supplier uses attachments in the form of PDF, JPEG, PNG formats.
 </td></tr></tbody>
 </table>3.  On the **Invoice case** task form, you can view the following.
 
-<table id="choicetable_fcx_cxy_zxb"><thead><tr><th align="left" id="d131256e224">
+<table id="choicetable_fcx_cxy_zxb"><thead><tr><th align="left" id="d69159e224">
 
 Option
 
-</th><th align="left" id="d131256e227">
+</th><th align="left" id="d69159e227">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d131256e233">
+</th></tr></thead><tbody><tr><td id="d69159e233">
 
 **Number**
 
@@ -141,7 +142,7 @@ Description
 
 Auto-generated number that uniquely identifies the invoice case.
 
-</td></tr><tr><td id="d131256e242">
+</td></tr><tr><td id="d69159e242">
 
 **Due Date**
 
@@ -149,7 +150,7 @@ Auto-generated number that uniquely identifies the invoice case.
 
 The assigned date by which the task must to be completed.
 
-</td></tr><tr><td id="d131256e251">
+</td></tr><tr><td id="d69159e251">
 
 **State**
 
@@ -162,7 +163,7 @@ The current state of the task. The states are:-   New
 -   Closed incomplete
 
 
-</td></tr><tr><td id="d131256e277">
+</td></tr><tr><td id="d69159e277">
 
 **Supplier invoice number**
 
@@ -170,7 +171,7 @@ The current state of the task. The states are:-   New
 
 The invoice number of the supplier invoice.
 
-</td></tr><tr><td id="d131256e287">
+</td></tr><tr><td id="d69159e287">
 
 **Purchase order**
 
@@ -178,7 +179,7 @@ The invoice number of the supplier invoice.
 
 Purchase order number related to the invoice.
 
-</td></tr><tr><td id="d131256e296">
+</td></tr><tr><td id="d69159e296">
 
 **Parent case**
 
@@ -186,7 +187,7 @@ Purchase order number related to the invoice.
 
 Name of the parent case assigned to.
 
-</td></tr><tr><td id="d131256e305">
+</td></tr><tr><td id="d69159e305">
 
 **Description**
 
@@ -194,7 +195,7 @@ Name of the parent case assigned to.
 
 Detailed description about the task.
 
-</td></tr><tr><td id="d131256e314">
+</td></tr><tr><td id="d69159e314">
 
 **Activity**
 
@@ -202,7 +203,7 @@ Detailed description about the task.
 
 Lists the activity postings between Accounts Payable Specialist and supplier.
 
-</td></tr><tr><td id="d131256e323">
+</td></tr><tr><td id="d69159e323">
 
 **Attachments**
 
@@ -211,12 +212,12 @@ Lists the activity postings between Accounts Payable Specialist and supplier.
 Supplier uses attachments in the form of PDF, JPEG, PNG formats.
 
 </td></tr></tbody>
-</table>    Supplier selects **Mark complete**. The status of the task changes to **Closed complete**. For more information on invoice case, see [Using Invoice Case Management](../concept/use-invoice-case-mgmt.md).
+</table>    Supplier selects **Mark complete**. The status of the task changes to **Closed complete**. For more information on invoice case, see [Using Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/use-invoice-case-mgmt.md).
 
 
 ## Result
 
 Exception tasks and invoice inquiry requests assigned to the logged-in supplier are displayed, and the supplier can mark them as complete.
 
-**Parent Topic:**[Using Supplier Collaboration Portal in APO](../concept/using-supplier-collaboration-portal.md)
+**Parent Topic:**[Using Supplier Collaboration Portal in APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/using-supplier-collaboration-portal.md)
 

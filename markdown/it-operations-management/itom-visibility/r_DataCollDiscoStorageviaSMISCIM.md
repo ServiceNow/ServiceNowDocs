@@ -2,6 +2,7 @@
 title: Storage Discovery via SMI-S and CIM
 description: Discovery can explore storage devices that contain a Storage Management Initiative Specification \(SMI-S\) provider that is a specialized Common Information Model \(CIM\) server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/r\_DataCollDiscoStorageviaSMISCIM.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -35,7 +36,7 @@ Discovery collects information about storage area networks \(SAN\) and network-a
 -   One or more CIM server per storage vendor.
 -   NAS and SAN systems from major vendors such as EMC, Hitachi, HP, and NetApp. SAN storage devices must use FC.
 -   FC switches from major vendors such as Brocade and Cisco.
--   The [CIM credentials](https://www.servicenow.com/docs/access?context=r_CIMCredentialsForm&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) must be available for SMI-S configuration. The CIM credentials can be different than the credentials for the system hosting the CIM server.
+-   The CIM credentials must be available for SMI-S configuration. The CIM credentials can be different than the credentials for the system hosting the CIM server.
 -   Ensure that SMI-S is enabled for your storage product.
 -   Ensure the connectivity between the MID Server and CIM server.
 -   New CIM credentials need to be configured in the instance. CIM server credentials could be different from the system hosting the prerequisite CIM server.
@@ -109,14 +110,14 @@ These probes are available but not currently used:
 -   SMI - Array - Ports
 -   SMI - Array - Volumes
 
--   **[Discovery of storage area networks \(SAN\)](storage-area-networks.md)**  
+-   **[Discovery of storage area networks \(SAN\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/storage-area-networks.md)**  
 Discovery collects information about storage area networks from specialized devices, such as storage arrays and Fibre Channel \(FC\) switches, and creates specific references between the tables in the SAN schema.
--   **[How CIM Discovery works](r_HowCIMDiscoveryWorks.md)**  
+-   **[How CIM Discovery works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/r_HowCIMDiscoveryWorks.md)**  
 This is the processing flow for classifying Common Information Model \(CIM\) storage systems.
--   **[Configure SMI-S Provider for storage Discovery](../task/t_ConfigDiscoForStandaloneStorage.md)**  
+-   **[Configure SMI-S Provider for storage Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/t_ConfigDiscoForStandaloneStorage.md)**  
 Use this procedure for configuring a standalone storage device with the required SMI-S Provider for Discovery.
--   **[Data collected by Discovery on storage devices](r_DataCollDiscoStorageDevices.md)**  
+-   **[Data collected by Discovery on storage devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/r_DataCollDiscoStorageDevices.md)**  
 Discovery identifies and classifies information about storage devices.
 
-**Parent Topic:**[Storage discovery](../concept/c_Storage.md)
+**Parent Topic:**[Storage discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_Storage.md)
 

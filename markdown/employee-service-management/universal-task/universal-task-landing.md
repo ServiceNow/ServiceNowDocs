@@ -2,6 +2,7 @@
 title: Universal Task
 description: The ServiceNow Universal Task application is a tasking framework that enables your agents to request extra information from employees who submit tickets or to task employees to accomplish an activity in order to resolve a ticket.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-task/universal-task-landing.html
 release: zurich
 product: Universal Task
 classification: universal-task
@@ -33,19 +34,19 @@ Predefined task types enable agents to quickly task employees to get the informa
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![Explore](../../../common/image/icon-explore.png) Learn about how employees, agents, and managers use Universal Task.](explore-universal-task.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Explore Learn about how employees, agents, and managers use Universal Task.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-task/explore-universal-task.md)
 
 </td><td>
 
-[Configure ![Configure](../../../common/image/icon-set-up.png) Plan and configure your implementation.](set-up-universal-task.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-task/set-up-universal-task.md)
 
 </td></tr><tr><td>
 
-[Use ![Use](../../../common/image/icon-workspace.png) Work on universal tasks.](use-universal-task.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use Work on universal tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-task/use-universal-task.md)
 
 </td><td>
 
-[Reference ![Reference](../../../common/image/icon-reference.png) Get details about components like fields, tables, and properties.](universal-task-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Reference Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-task/universal-task-reference.md)
 
 </td></tr></tbody>
 </table>

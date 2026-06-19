@@ -2,6 +2,7 @@
 title: Install the SOX Content Pack
 description: Install the SOX Content Pack for use with the core GRC applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/install-grc-sox-content-pack.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -63,5 +64,5 @@ Activate one of the following GRC plugins:
         When uninstalling the app, select the check box to retain the profile types profiles and indicators.
 
 
-**Parent Topic:**[Sarbanes-Oxley \(SOX\) Content Pack](../concept/sn-store-SOX-governance-risk-compliance.md)
+**Parent Topic:**[Sarbanes-Oxley \(SOX\) Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/sn-store-SOX-governance-risk-compliance.md)
 

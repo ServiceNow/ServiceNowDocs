@@ -2,6 +2,7 @@
 title: Add a header discount to an order
 description: Apply a percentage-based discount to an order. You can apply it to the entire order or specific line item types. The order line items automatically inherit the designated discount percentage as a manual adjustment on the order line level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/add-header-discount-to-an-order.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -27,13 +28,13 @@ You can only add discounts to a quote while the quote is being crafted. Once the
 
 1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Customer Orders** &gt; **All**.
 
 4.  Select your order.
 
-5.  Select the **More Actions** icon ![](../../tmt-telecom-network-inventory/image/options-icon.png) and select **Apply header discount**.
+5.  Select the **More Actions** icon \[Omitted image "options-icon.png"\] Alt text: and select **Apply header discount**.
 
 6.  In the Order header discount window, select how to apply the discount:
 
@@ -48,5 +49,5 @@ You can only add discounts to a quote while the quote is being crafted. Once the
 
 ## What to do next
 
-[Review and submit a product or service order in Order Management](som-om-review-and-submit-product-order.md)
+[Review and submit a product or service order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-om-review-and-submit-product-order.md)
 

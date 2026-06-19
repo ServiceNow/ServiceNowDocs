@@ -2,6 +2,7 @@
 title: Transformation script variables
 description: Multiple variables can be used to define explicit mapping relationships in a transform map script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/system-import-sets/r\_TransformationScriptVariables.html
 release: zurich
 product: System Import Sets
 classification: system-import-sets

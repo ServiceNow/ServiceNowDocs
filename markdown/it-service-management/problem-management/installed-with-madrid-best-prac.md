@@ -2,6 +2,7 @@
 title: Components installed with Problem Management
 description: Several types of components are installed with activation of the Problem Management Best Practice — Madrid plugin, including user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/problem-management/installed-with-madrid-best-prac.html
 release: zurich
 product: Problem Management
 classification: problem-management
@@ -80,5 +81,5 @@ Responsible for the overall problem management process as well as delete problem
 problem\_ manager
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate Problem Management Best Practice — Madrid](../task/activate-pm-best-practice-madrid.md)
+</table>**Parent Topic:**[Activate Problem Management Best Practice — Madrid](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/activate-pm-best-practice-madrid.md)
 

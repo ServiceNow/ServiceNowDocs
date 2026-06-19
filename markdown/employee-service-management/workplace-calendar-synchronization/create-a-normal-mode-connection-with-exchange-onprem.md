@@ -2,6 +2,7 @@
 title: Create a normal mode connection for Microsoft Exchange On-Premises
 description: Configure a normal mode connection between the Microsoft Exchange On-Premises and ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-calendar-synchronization/create-a-normal-mode-connection-with-exchange-onprem.html
 release: zurich
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization

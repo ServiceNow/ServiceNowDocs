@@ -2,6 +2,7 @@
 title: E-signature for Multi-Provider SSO
 description: E-signature with Multi-Provider SSO enables you to use the e-signature properties instead the SAML or OIDC properties for authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/e-signature-for-multi-provider-sso.html
 release: zurich
 product: Authentication
 classification: authentication

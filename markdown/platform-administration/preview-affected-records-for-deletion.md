@@ -2,6 +2,7 @@
 title: Preview affected records for deletion
 description: Before you run a delete job, preview the count of affected records to see the impact of executing the delete job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/preview-affected-records-for-deletion.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -38,7 +39,7 @@ Up to three levels of cascaded records are deleted when the job is executed. For
 
 ## What to do next
 
-[Schedule or execute a job to delete records](schedule-execute-job-delete-records.md)
+[Schedule or execute a job to delete records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/schedule-execute-job-delete-records.md)
 
-**Parent Topic:**[Deleting records safely](../concept/deleting-records-safely.md)
+**Parent Topic:**[Deleting records safely](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/deleting-records-safely.md)
 

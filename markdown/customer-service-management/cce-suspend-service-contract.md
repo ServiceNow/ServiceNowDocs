@@ -2,7 +2,10 @@
 title: Suspend a service contract
 description: Suspend a service contract and its child service contract lines by creating an order on the CSM Configurable Workspace. Suspending a service contract suspends or disables the services specified in that service contract.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/cce-suspend-service-contract.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -33,7 +36,7 @@ Role required: sn\_customerservice\_manager and sn\_ind\_tmt\_orm.order\_agent
 
 5.  In the Suspend service contract window, enter the period of suspension for the service contract in the **Start date and time** and **End date and time** fields.
 
-    **Note:** If you do not enter a value in the **End date and time** field, the service contract is suspended indefinitely. You can resume the service contract manually. For more info, see [Resume a service contract](cce-resume-service-contract.md).
+    **Note:** If you do not enter a value in the **End date and time** field, the service contract is suspended indefinitely. You can resume the service contract manually. For more info, see [Resume a service contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/cce-resume-service-contract.md).
 
 6.  Add a reason for a suspension in the **Reason for suspension** field.
 

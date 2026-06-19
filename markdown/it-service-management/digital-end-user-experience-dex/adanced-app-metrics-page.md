@@ -2,11 +2,12 @@
 title: Advanced app metrics page
 description: Access the advanced app metrics for the Microsoft Configuration Manager \(MCM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/adanced-app-metrics-page.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Device details pages, DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Service Management]
 ---
@@ -238,5 +239,5 @@ Configuration Manager Health Evaluation
 Validates client health and auto-fixes known issues.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Device details pages](user-device-details-pages.md)
+</table>**Parent Topic:**[Device details pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/user-device-details-pages.md)
 

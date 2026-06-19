@@ -2,6 +2,7 @@
 title: Risk register in the Risk Workspace
 description: The risk register contains the information about identified risks, results of risk analysis such as risk scores, and risk response plans. The risk register enables you to monitor and control the risks of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/risk-register-workspace.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -36,5 +37,5 @@ The components of the Risk Register are the following:
     -   Residual risk
 -   The risk responses for each risk.
 
-**Parent Topic:**[Operational Risk Management dashboard](../../../use/dashboards/application-content-packs/operational-risk-dashboard.md)
+**Parent Topic:**[Operational Risk Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/operational-risk-dashboard.md)
 

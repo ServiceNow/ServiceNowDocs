@@ -2,6 +2,7 @@
 title: Create a plan in the Audit Workspace
 description: Create a plan to manage different types of audits in a periodic manner and group engagements in a logical manner.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/create-audit-plan-ws.html
 release: zurich
 product: Audit Management
 classification: audit-management

@@ -2,6 +2,7 @@
 title: Create an entity class rule filter
 description: You can create an entity class rule filter to assign classes at the filter level on the same table that is defined on the class rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/create-new-entity-class-rule-filter.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -31,7 +32,7 @@ Role required: sn\_grc.manager, sn\_risk\_workspace.IT\_risk\_manager, and sn\_r
 
 4.  Fill in all the fields in the table.
 
-    For more information about the fields, see [Entity class rule filter fields](../Reference/entity-class-rule-filter-fields.md).
+    For more information about the fields, see [Entity class rule filter fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/entity-class-rule-filter-fields.md).
 
 5.  Click **Submit**.
 
@@ -40,8 +41,8 @@ Role required: sn\_grc.manager, sn\_risk\_workspace.IT\_risk\_manager, and sn\_r
 
 A new record is created under the Entity class rule filters tab on the Entity Class Rule form.
 
--   **[Entity class rule filter fields](../Reference/entity-class-rule-filter-fields.md)**  
+-   **[Entity class rule filter fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/entity-class-rule-filter-fields.md)**  
 You can create an entity class rule filter by filling out the fields that display after you click the **New** option in the entity class rule filters related list.
 
-**Parent Topic:**[Entity class rules](../concept/entity-class-rules-in-risk-ws.md)
+**Parent Topic:**[Entity class rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/entity-class-rules-in-risk-ws.md)
 

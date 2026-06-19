@@ -2,6 +2,7 @@
 title: Administering workflow contexts
 description: The workflow context performs the activities and transitions defined in the workflow with the new record as current.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/legacy-workflow/r\_AdministeringWorkflowContexts.html
 release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
@@ -30,20 +31,20 @@ Workflow contexts can be found in two places:
 
 Two related links on the Workflow Context form allow you to view the progress of a workflow in different formats.
 
--   **Show Timeline** displays the workflow context as a [timeline](../concept/c_WorkflowTimelines.md#).
+-   **Show Timeline** displays the workflow context as a [timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/c_WorkflowTimelines.md).
 -   **Show Workflow** displays the workflow context in the graphical Workflow Editor.
 
 ## Graphical interface
 
 To view the workflow context in the graphical Workflow Editor interface, click the **Show Workflow** link from either the workflow context record or the current record.
 
-![](../image/ShowWorkflow.png "Show workflow")
+\[Omitted image "ShowWorkflow.png"\] Alt text:
 
 In the top right hand corner are two controls:
 
 <table id="simpletable_rqj_gls_s4"><tbody><tr><td>
 
-![Refresh icon](../image/WorkflowRefreshIcon.png)
+\[Omitted image "WorkflowRefreshIcon.png"\] Alt text: Refresh icon
 
 </td><td>
 
@@ -51,11 +52,11 @@ Refreshes the workflow context.
 
 </td></tr><tr><td>
 
-![Color key icon](../image/WorkflowKeyIcon.png)
+\[Omitted image "WorkflowKeyIcon.png"\] Alt text: Color key icon
 
 </td><td>
 
-Displays a key of the colors used in the workflow to denote the state of activities and transitions:![Workflow state](../image/WorkflowState.png)
+Displays a key of the colors used in the workflow to denote the state of activities and transitions:\[Omitted image "WorkflowState.png"\] Alt text: Workflow state
 
 </td></tr></tbody>
 </table>## Execution order
@@ -64,10 +65,10 @@ View tooltip text in the workflow context graphical view to see the execution or
 
 In **Workflow** &gt; **Live Workflows** &gt; **Active Contexts** or **All Contexts**, Open the context you want to examine. Click **Show Workflow**, and point to a finished or executing activity. The tooltip shows error data, execution time, and the order in which the activity executed in the workflow. Use this data to help troubleshoot activities in an error state.
 
-![View the order in which a context executed](../image/ExecutionOrderWorkflow.png "Execution order workflow")
+\[Omitted image "ExecutionOrderWorkflow.png"\] Alt text: View the order in which a context executed
 
--   **[Cancel a workflow](../task/t_CancelingAWorkflow.md#)**  
+-   **[Cancel a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/t_CancelingAWorkflow.md)**  
 Canceling a workflow stops the workflow from executing and sets the workflow context **State** to **Canceled**. To cancel an executing workflow, you can use the cancelContext\(context\) script. You can define an onCancel script to clean up unresolved workflow activities.
 
-**Parent Topic:**[Workflow administration](../../workflow/concept/c_WorkflowAdministration.md)
+**Parent Topic:**[Workflow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/c_WorkflowAdministration.md)
 

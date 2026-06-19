@@ -2,6 +2,7 @@
 title: Capacity
 description: View, monitor, and manage the total available resources, such as time and workforce, that are used and allocated to tasks and projects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-manager-workforce/capacity.html
 release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce

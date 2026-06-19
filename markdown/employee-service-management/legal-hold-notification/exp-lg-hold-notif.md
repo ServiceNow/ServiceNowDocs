@@ -2,6 +2,7 @@
 title: Exploring Legal Hold Notification
 description: Explore the Legal Hold Notification application to understand its workflow, user roles, and the key benefits it offers across your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-hold-notification/exp-lg-hold-notif.html
 release: zurich
 product: Legal Hold Notification
 classification: legal-hold-notification
@@ -52,9 +53,9 @@ Legal Hold Notification provides the following benefits:
 
 To find out more about configuring and using Legal Hold Notification, see:
 
--   [Configure Legal Hold Notification](config-lg-hold-notif.md)
--   [Using Legal Hold Notification](use-lg-hold-notif.md)
--   [Legal Hold Notification reference](lg-hold-notif-ref.md)
+-   [Configure Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-hold-notification/config-lg-hold-notif.md)
+-   [Using Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-hold-notification/use-lg-hold-notif.md)
+-   [Legal Hold Notification reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-hold-notification/lg-hold-notif-ref.md)
 
-**Parent Topic:**[Legal Hold Notification](lg-hold-notif-landing-page.md)
+**Parent Topic:**[Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-hold-notification/lg-hold-notif-landing-page.md)
 

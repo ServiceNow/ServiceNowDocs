@@ -2,6 +2,7 @@
 title: Configure the questionnaire text for the user and clinician portals
 description: Configure the questionnaire text that is displayed in the user and clinician portals for Vaccine Administration Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/vaccine-administration-management/configure-vam-portal-questionnaire-text.html
 release: zurich
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -98,15 +99,15 @@ Your demographic info
 age\_group
 
 </td></tr></tbody>
-</table>    For details on how to configure a variable, see [Service Catalog variables](https://www.servicenow.com/docs/access?context=c_ServiceCatalogVariables&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+</table>    For details on how to configure a variable, see Service Catalog variables.
 
     **Important:**
 
     -   Updating the questionnaire text updates that text in both the user and clinician portals.
     -   If you deactivate a variable, then the question will be hidden in both the user and clinician portals.
-    -   If you're creating a question, the new question isn’t displayed in the clinician portal by default. You must also update the pre-vaccine\_questionnaire widget by navigating to **All** &gt; **Service Portal** &gt; **Widgets**. For details on how to configure a widget, see [Service Portal widgets](https://www.servicenow.com/docs/access?context=service-portal-widgets&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    -   If you're creating a question, the new question isn’t displayed in the clinician portal by default. You must also update the pre-vaccine\_questionnaire widget by navigating to **All** &gt; **Service Portal** &gt; **Widgets**. For details on how to configure a widget, see Service Portal widgets.
 4.  Click **Update**.
 
 
-**Parent Topic:**[Configuring Vaccine Administration Management](../concept/vaccine-mgmt-config.md)
+**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 

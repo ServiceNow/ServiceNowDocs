@@ -2,6 +2,7 @@
 title: E-signature in Agent Workspace for HR Case Management
 description: When working on an HR case or HR task, you can use e-signature to sign documents that require signatures.Electronically sign a document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-esign.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -24,7 +25,7 @@ When an employee creates a case requesting an employment verification letter, yo
 
 -   Generate the document - Combine the document template with your signature and create an attachment to the case. If you use Employee Document Management, you can move the attachment to your document repository for storage.
 
-    **Note:** For more information, see [Configure an e-signature template](https://www.servicenow.com/docs/access?context=configure-e-signature-configuration&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    **Note:** For more information, see Configure an e-signature template.
 
 
 ## Sign and generate a document in Agent Workspace for HR Case Management

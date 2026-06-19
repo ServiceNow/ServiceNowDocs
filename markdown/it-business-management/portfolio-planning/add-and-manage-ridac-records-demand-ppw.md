@@ -2,6 +2,7 @@
 title: Add and manage RIDAC records
 description: Add a Risk, Issue, Decision, Action, or Request Change \(RIDAC\) record to your demand in the Next Experience for Demand Management. Adding RIDAC records enables you to keep a track of risks or issues during the demand life cycle and help in analyzing the outcome of a demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/add-and-manage-ridac-records-demand-ppw.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -23,13 +24,13 @@ Role required: it\_demand\_user, it\_demand\_manager
 
 You can select the type of record you want to create, fill in the required details, and associate it to your demand. You can use the RIDAC page in Next Experience for Demand Management to view, add, manage, and evaluate all the RIDAC records.
 
-For information about RIDAC records for demand management, see [RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records for a demand](../../planning-and-policy/concept/ridac-entries-for-demand.md).
+For information about RIDAC records for demand management, see [RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/ridac-entries-for-demand.md).
 
 ## Procedure
 
 1.  Open a demand from the home page of Next Experience for Demand Management.
 
-    For more information, see [Access demands](access-demands-ppw.md).
+    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/access-demands-ppw.md).
 
 2.  Select **Details** from the L-2 \(level 2\) navigation menu.
 
@@ -53,11 +54,11 @@ For information about RIDAC records for demand management, see [RIDAC \(Risk, Is
 
     For field information, see:
 
-    -   [Create risk form](../reference/create-risk-form-ppw.md)
-    -   [Create issue form](../reference/create-issue-form-ppw.md)
-    -   [Create action form](../reference/create-action-form-ppw.md)
-    -   [Create decision form](../reference/create-decision-form-ppw.md)
-    -   [Create request change form](../reference/create-request-change-form-ppw.md)
+    -   [Create risk form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/create-risk-form-ppw.md)
+    -   [Create issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/create-issue-form-ppw.md)
+    -   [Create action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/create-action-form-ppw.md)
+    -   [Create decision form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/create-decision-form-ppw.md)
+    -   [Create request change form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/create-request-change-form-ppw.md)
 6.  Select **Save**.
 
     **Note:** To delete a RIDAC record, select **Delete** from the More Actions option in the RIDAC record form.

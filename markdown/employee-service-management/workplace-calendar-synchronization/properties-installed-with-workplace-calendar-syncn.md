@@ -2,6 +2,7 @@
 title: Properties installed with Workplace Calendar Synchronization
 description: Customize the properties available with Workplace Calendar Synchronization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-calendar-synchronization/properties-installed-with-workplace-calendar-syncn.html
 release: zurich
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -71,8 +72,8 @@ sn\_wsd\_rsvsync.use\_default\_tz
 
 </td><td>
 
-This property enables you to use the default time zones during the reservation synchronization.-   Type: true/false
--   Default type: **true**
+This property enables you to use the default time zones during the reservation synchronization.-   Type: String
+-   Default type: **building**
 
 </td></tr><tr><td>
 

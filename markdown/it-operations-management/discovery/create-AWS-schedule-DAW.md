@@ -2,6 +2,7 @@
 title: Create an AWS Discovery schedule in Discovery Admin Workspace
 description: Use the Discovery Admin Workspace dashboard to create an Amazon Web Services \(AWS\) Discovery schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/create-AWS-schedule-DAW.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -20,10 +21,10 @@ Use the Discovery Admin Workspace dashboard to create an Amazon Web Services \(A
 
 Verify the following:
 
--   You have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://www.servicenow.com/docs/access?context=use-mid-server-guidedsetup&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://www.servicenow.com/docs/access?context=t_InstallAMIDServerOnLinux&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) and [Windows](https://www.servicenow.com/docs/access?context=mid-server-install-prereqs&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+-   You have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using Use MID Server guided setup or by manually downloading and running the installer. For details, see the MID Server installation instructions for Linux and Windows.
 -   The MID Server used for Cloud Discovery is configured with the Cloud Management capability.
 -   You have created suitable credentials in the ServiceNow AI Platform to connect with the service accounts on which you want to perform the discovery.
--   Cloud Discovery has adequate permission to discover the resources of the target cloud. For more information on AWS cloud permissions, see [Control AWS access and permissions using policies](../../it-operations-management/task/aws-create-user-policy-cloud-mgt.md).
+-   Cloud Discovery has adequate permission to discover the resources of the target cloud. For more information on AWS cloud permissions, see [Control AWS access and permissions using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aws-create-user-policy-cloud-mgt.md).
 -   You're using Discovery Admin Workspace v1.11.0 or later.
 
 Role required: discovery\_admin
@@ -42,31 +43,31 @@ Role required: discovery\_admin
 
 6.  Choose a MID Server.
 
-<table id="choicetable_bcg_4pg_z2c"><thead><tr><th align="left" id="d230206e222">
+<table id="choicetable_bcg_4pg_z2c"><thead><tr><th align="left" id="d221894e222">
 
 Option
 
-</th><th align="left" id="d230206e225">
+</th><th align="left" id="d221894e225">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d230206e231">
+</th></tr></thead><tbody><tr><td id="d221894e231">
 
 **Use a cluster of MID servers**
 
 </td><td>
 
-Select an existing MID Server. Clusters provide failover protection and load balancing between MID Servers. See [Configure a MID Server cluster](https://www.servicenow.com/docs/access?context=t_ConfigureAMIDServerCluster&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) for more information.
+Select an existing MID Server. Clusters provide failover protection and load balancing between MID Servers. See  for more information.
 
-</td></tr><tr><td id="d230206e250">
+</td></tr><tr><td id="d221894e249">
 
 **Automatically select a MID server**
 
 </td><td>
 
-An available MID Server with an Identity and Access Management \(IAM\) role is automatically selected when the Discovery schedule runs. See [Automatic MID Server selection](../../agent-client-collector/concept/acc-auto-mid-selection.md) for more information.
+An available MID Server with an Identity and Access Management \(IAM\) role is automatically selected when the Discovery schedule runs. See [Automatic MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-auto-mid-selection.md) for more information.
 
-</td></tr><tr><td id="d230206e278">
+</td></tr><tr><td id="d221894e277">
 
 **Search for a MID server**
 
@@ -86,15 +87,15 @@ Choose a MID Server to run the Discovery schedule. Only MID Servers that are val
 
 9.  Choose whether you want to **Assume an IAM role** or **Use permanent credentials**.
 
-<table id="choicetable_lvl_1hq_jhc"><thead><tr><th align="left" id="d230206e370">
+<table id="choicetable_lvl_1hq_jhc"><thead><tr><th align="left" id="d221894e369">
 
 Option
 
-</th><th align="left" id="d230206e373">
+</th><th align="left" id="d221894e372">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d230206e379">
+</th></tr></thead><tbody><tr><td id="d221894e378">
 
 **Assume an IAM role**
 
@@ -106,7 +107,7 @@ The MID Server temporarily assumes an IAM role using a trust relationship. After
 -   The IAM role must trust the MID Server's account so it can assume the role.
 If these prerequisites aren't met, verification fails. It's best to confirm with your cloud admin that the role and trust relationship are properly configured before proceeding.
 
-</td></tr><tr><td id="d230206e405">
+</td></tr><tr><td id="d221894e404">
 
 **Use permanent credentials**
 
@@ -143,7 +144,7 @@ The MID Server uses static access keys tied to an IAM user.
 
     1.  Select a method from the **Discovery method** drop-down list.
 
-        **Discover servers with credentials** uses operating system \(OS\)-level credentials to perform deep discovery on EC2 instances. **Discover servers with AWS Systems Manager \(SSM\)** uses AWS SSM Agent to perform deep discovery on EC2 instances. The system property **glide.discovery.enable\_ssm** must be enabled to use SSM discovery. For more information, see [Enable AWS SSM-based discovery](../concept/enable-aws-ssm-based-discovery.md).
+        **Discover servers with credentials** uses operating system \(OS\)-level credentials to perform deep discovery on EC2 instances. **Discover servers with AWS Systems Manager \(SSM\)** uses AWS SSM Agent to perform deep discovery on EC2 instances. The system property **glide.discovery.enable\_ssm** must be enabled to use SSM discovery. For more information, see [Enable AWS SSM-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/enable-aws-ssm-based-discovery.md).
 
     2.  Select a MID Server or cluster that can discover the Virtual Machines \(VM\) and their attributes.
 

@@ -2,6 +2,7 @@
 title: Event type extension point in Workforce Optimization for Field Service
 description: Use extension points to call scripts for event categories such as meeting, time off, or work time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/event-type-extention-point-wfo-fsm.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

@@ -2,12 +2,13 @@
 title: Understanding Security Incident Response
 description: With Security Incident Response \(SIR\), manage the life cycle of your security incidents from initial analysis to containment, eradication, and recovery. Security Incident Response enables you to get a comprehensive understanding of incident response procedures performed by your analysts, and understand trends and bottlenecks in those procedures with analytic-driven dashboards and reporting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/what-is-sir.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 7
+reading_time_minutes: 5
 breadcrumb: [Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -24,14 +25,6 @@ Built in integrations with third-party cyber security solutions and partner-deve
 To protect your investigations and keep security incidents private, Security Incident Response provides the means to restrict access to the system to specific security-related roles and ACLs. Non-security administrators can be restricted from access, unless you expressly allow them entry.
 
 **Note:** IT System Administrators \[admin\] can impersonate ServiceNow users. However, when impersonating a user with an application admin role for Security Incident Response, an admin cannot access features granted by that role, including security incidents and profile information. Access to modules and applications in the navigation bar is also restricted. Also, admin cannot change the password of any user with an application admin role for Security Incident Response.
-
-## Security Incident Response information flow
-
-Security Incident Response employs the following flow of information, from integration through investigation, and then on to resolution and review.
-
-**Note:** This is an interactive infographic, so you can try clicking on any of the icons or steps in the image to learn about that process or task.
-
-![Security Incident Response flow of information](../../security-operations/image/flow-diagram.png)
 
 ## Discovery
 
@@ -72,7 +65,7 @@ In addition, an automated security incident resolution review survey system is a
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Security Incident Response Terminology
 
@@ -81,12 +74,12 @@ The following terms are used in Security Incident Response.
 |Term|Definition|
 |----|----------|
 |Active|Any security incident not in the closed or cancelled state.|
-|[Administrator lockdown](../task/t_ConfigureSIM.md#)|The ability to restrict Security Incident Response access to personnel with security-related roles and ACLs.|
-|[Inbound security requests](manage-si-details.md)|Requests submitted for low-impact security demands, such as requesting a new electronic badge.|
-|[Manage post incident activities](c_PostIncidentReview.md)|A review of the origins and handling of a security incident. The final product is a post incident report, which documents all actions performed and the reasons for doing them.|
-|[Response tasks](../task/t_CreateResponseTask.md)|Tasks assigned to a security incident for tracking actions in response to the threat.|
-|[Understanding security incident calculators](../reference/setup-assistant-reference.md#)|Calculators used to update record values when pre-configured conditions are met.|
-|[Security incident treemaps](../task/t_AddTreemapsToSIRHomepage.md)|Chart type that hierarchically shows security incident data in the form of nested rectangles.|
-|[Threat lookup](../../threat-intelligence/task/t_SubmitThrtScnReqFromCat.md)|A request submitted from the security incident catalog for scanning files, URLs, and IP addresses for malware.|
-|[Vulnerability scan](../task/t_SubmitVScanReqFromSecInc.md)|A request initiated from the Security Incident form for scanning affected resources \(servers, computers, and other configuration items\) for vulnerabilities.|
+|[Administrator lockdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/t_ConfigureSIM.md)|The ability to restrict Security Incident Response access to personnel with security-related roles and ACLs.|
+|[Inbound security requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/manage-si-details.md)|Requests submitted for low-impact security demands, such as requesting a new electronic badge.|
+|[Manage post incident activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/c_PostIncidentReview.md)|A review of the origins and handling of a security incident. The final product is a post incident report, which documents all actions performed and the reasons for doing them.|
+|[Response tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/t_CreateResponseTask.md)|Tasks assigned to a security incident for tracking actions in response to the threat.|
+|[Understanding security incident calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/setup-assistant-reference.md)|Calculators used to update record values when pre-configured conditions are met.|
+|[Security incident treemaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/t_AddTreemapsToSIRHomepage.md)|Chart type that hierarchically shows security incident data in the form of nested rectangles.|
+|[Threat lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/t_SubmitThrtScnReqFromCat.md)|A request submitted from the security incident catalog for scanning files, URLs, and IP addresses for malware.|
+|[Vulnerability scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/t_SubmitVScanReqFromSecInc.md)|A request initiated from the Security Incident form for scanning affected resources \(servers, computers, and other configuration items\) for vulnerabilities.|
 

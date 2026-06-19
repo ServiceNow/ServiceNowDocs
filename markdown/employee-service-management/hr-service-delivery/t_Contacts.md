@@ -2,6 +2,7 @@
 title: Add or modify contacts for HR
 description: You can add or modify contact information to an HR profile and specify who to contact in an emergency through the Contacts module or related list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/t\_Contacts.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,7 +20,7 @@ You can add or modify contact information to an HR profile and specify who to co
 
 Role required: admin
 
-For information on creating or editing an HR profile, see [Add or modify an HR profile](t_CreateOrModifyAUserProfile.md).
+For information on creating or editing an HR profile, see [Add or modify an HR profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateOrModifyAUserProfile.md).
 
 ## Procedure
 
@@ -40,5 +41,5 @@ For information on creating or editing an HR profile, see [Add or modify an HR p
 7.  Click **Submit** and return to the **HR Contacts** list or **Save** and remain on the **HR Contact** form.
 
 
-**Parent Topic:**[Use HR Profile](../concept/c_HRProfileRecords.md)
+**Parent Topic:**[Use HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
 

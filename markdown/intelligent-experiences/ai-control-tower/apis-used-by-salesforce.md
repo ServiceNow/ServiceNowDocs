@@ -1,19 +1,20 @@
 ---
-title: APIs used by Salesforce
-description: Explore the Salesforce APIs used in AI service Graph Connector for Salesforce. The table lists all the Salesforce API endpoints used by the connector.
+title: APIs used for Salesforce
+description: Explore the APIs used in AI Service Graph Connector for Salesforce.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/apis-used-by-salesforce.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-03-11"
 reading_time_minutes: 1
-breadcrumb: [Salesforce, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Salesforce, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# APIs used by Salesforce
+# APIs used for Salesforce
 
-Explore the Salesforce APIs used in AI service Graph Connector for Salesforce. The table lists all the Salesforce API endpoints used by the connector.
+Explore the APIs used in AI Service Graph Connector for Salesforce.
 
 The following table lists all the Salesforce API endpoints used by the connector.
 

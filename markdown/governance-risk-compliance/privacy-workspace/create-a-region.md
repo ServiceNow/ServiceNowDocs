@@ -2,6 +2,7 @@
 title: Create a region
 description: Create geographic regions based on the data of the residents that is collected as a part of your business operations. Examples of regions are America, Europe, Asia Pacific, and so on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/create-a-region.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -34,8 +35,8 @@ When you create a region, it is necessary to set the **Parent** field as empty.
 4.  Select **Submit**.
 
 
--   **[Create a jurisdiction for a region](create-a-jurisdiction.md)**  
+-   **[Create a jurisdiction for a region](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/create-a-jurisdiction.md)**  
 Create jurisdictions for regions for data breach notification obligations as each obligation is broken down by jurisdiction. Jurisdiction can be created two levels below a region.
 
-**Parent Topic:**[Configuring privacy breach assessment](../concept/configure-privacy-breach-assessment.md)
+**Parent Topic:**[Configuring privacy breach assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/configure-privacy-breach-assessment.md)
 

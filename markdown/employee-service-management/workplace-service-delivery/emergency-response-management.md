@@ -2,6 +2,7 @@
 title: Emergency Response Management
 description: ServiceNow Emergency Response Management applications help your organization mobilize its business continuity efforts during natural disasters and pandemics like COVID-19. Streamline and automate activities on multiple fronts to keep everyone informed and connected as you anticipate or experience emergencies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-service-delivery/emergency-response-management.html
 release: zurich
 product: Workplace Service Delivery
 classification: workplace-service-delivery
@@ -14,8 +15,6 @@ breadcrumb: [Workplace Service Delivery, Employee Service Management]
 # Emergency Response Management
 
 ServiceNow® Emergency Response Management applications help your organization mobilize its business continuity efforts during natural disasters and pandemics like COVID-19. Streamline and automate activities on multiple fronts to keep everyone informed and connected as you anticipate or experience emergencies.
-
-Video describing the Emergency Response Management apps and how they work together
 
 Emergency Response Management applications include:
 
@@ -42,7 +41,7 @@ Use the Emergency Response Management applications together to automate workflow
 
 -   **Use guided setup to implement Safe Workplace suite apps**
 
-    The Safe Workplace guided setup provides a sequence of tasks that help you configure the Safe Workplace and Emergency Response Management applications on your ServiceNow instance. To open the Safe Workplace guided setup, navigate to **Guided Setup** &gt; **Safe Workplace Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    The Safe Workplace guided setup provides a sequence of tasks that help you configure the Safe Workplace and Emergency Response Management applications on your ServiceNow instance. To open the Safe Workplace guided setup, navigate to **Guided Setup** &gt; **Safe Workplace Guided Setup**. For more information about using the guided setup interface, see Using guided setup.
 
 
 ## Emergency Response Management for federal customers
@@ -108,14 +107,14 @@ ServiceNow is offering this application to government agencies and their authori
 
 All decisions in connection with the implementation of this application are at the sole decision of the government agency utilizing this application. Agencies remain solely responsible for complying with their legal obligations under applicable laws and regulations, including \(but not limited to\) data protection and employment laws and regulations, and should modify any language within the templates provided to meet the agency’s specific requirements.
 
--   **[Emergency Outreach](emergency-outreach.md)**  
+-   **[Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/emergency-outreach/emergency-outreach.md)**  
 Notify users of important information about anticipated or occurring emergency situations. Send an outreach notification via email, mobile push message, or SMS message to request a user response. You can also configure other preferred communication channels.
--   **[Emergency Self Report](emergency-self-report.md)**  
+-   **[Emergency Self Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/emergency-self-report/emergency-self-report.md)**  
 During a crisis, the ServiceNow® Emergency Self Report application gives users a way to notify their organization of their health status. It also provides a workflow for qualified users to safely return to work. Managers and response teams can track user reporting.
--   **[Emergency Exposure Management](emergency-exposure-management.md)**  
+-   **[Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/emergency-exposure-management/emergency-exposure-management.md)**  
 The ServiceNow® Emergency Exposure Management application helps identify users who might have been exposed to infectious diseases by analyzing multiple data sources such as meetings, location, shifts, Wi-Fi access logs, and badge scans of affected users.
--   **[Safe Workplace for mobile](mobile-emergency-response.md)**  
+-   **[Safe Workplace for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace-for-mobile/mobile-emergency-response.md)**  
 Manage the essential steps for return to workplace from anywhere using the Safe Workplace for mobile app.
 
-**Parent Topic:**[Workplace Service Delivery](../../workplace-service-delivery-suite/concept/workplace-service-delivery-suite-landing-page.md)
+**Parent Topic:**[Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery/workplace-service-delivery-suite-landing-page.md)
 

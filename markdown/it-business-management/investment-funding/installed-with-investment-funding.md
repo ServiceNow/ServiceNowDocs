@@ -2,6 +2,7 @@
 title: Components installed with Investment Funding
 description: Several types of components are installed with activation of the Investment Funding \(sn\_invst\_pln\) plugin, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/investment-funding/installed-with-investment-funding.html
 release: zurich
 product: Investment Funding
 classification: investment-funding
@@ -15,7 +16,7 @@ breadcrumb: [Install Investment Funding, Investment Funding, Strategic Portfolio
 
 Several types of components are installed with activation of the Investment Funding \(sn\_invst\_pln\) plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -153,5 +154,5 @@ Investment\[sn\_invst\_pln\_invst\_investment\]
 Stores investment details.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Investment Funding](../task/activate-investment-funding.md)
+</table>**Parent Topic:**[Install Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/activate-investment-funding.md)
 

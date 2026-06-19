@@ -2,6 +2,7 @@
 title: Monetary Benefit Breakdown form
 description: Use the Monetary Benefit Breakdown form to update the estimated and actual financial benefits for a specific fiscal year.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/demand-management/monetary-benefit-breakdown-form.html
 release: zurich
 product: Demand Management
 classification: demand-management
@@ -77,7 +78,7 @@ Fiscal period
 
 </td><td>
 
-Fiscals generated at the period level. For information on periods, see [fiscal calendars](https://www.servicenow.com/docs/access?context=c_FiscalCalendar&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Fiscals generated at the period level. For information on periods, see fiscal calendars.
 
 </td></tr><tr><td>
 
@@ -104,5 +105,5 @@ Exchange rate date
 First date of the fiscal period corresponding to the benefit plan breakdown.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Demand Management forms](../concept/demand-management-forms.md)
+</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/demand-management-forms.md)
 

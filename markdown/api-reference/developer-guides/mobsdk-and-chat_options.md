@@ -2,6 +2,7 @@
 title: Pass NowChatConfiguration to modify the behavior of NowChat
 description: You can pass an optional NowChatConfiguration parameter when starting a chat session to modify some of the behavior of NowChat.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/developer-guides/mobsdk-and-chat\_options.html
 release: zurich
 product: Developer Guides
 classification: developer-guides
@@ -65,5 +66,5 @@ class MainActivity : AppCompatActivity() {
 } 
 ```
 
-For additional information, see [NowChatConfiguration class - Android](../../../../../app-store/dev_portal/API_reference/MobileSDKAndroid/NowChatOptions/concept/NowChatOptionsAndroid.md#) and [NowChatService - start\(activity: Activity, themeColors: NowChatTheme = object: NowChatTheme\{\}, contextData: Map&lt;String, Any&gt; = mapOf\(\), chatConfiguration: NowChatConfiguration? = null\)](../../../../../app-store/dev_portal/API_reference/MobileSDKAndroid/NowChatService/concept/NowChatServiceAndroidAPI.md#).
+For additional information, see [NowChatConfiguration class - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowChatOptionsAndroid.md) and [NowChatService - start\(activity: Activity, themeColors: NowChatTheme = object: NowChatTheme\{\}, contextData: Map&lt;String, Any&gt; = mapOf\(\), chatConfiguration: NowChatConfiguration? = null\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowChatServiceAndroidAPI.md).
 

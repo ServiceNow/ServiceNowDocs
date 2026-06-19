@@ -2,6 +2,7 @@
 title: Password Reset extension scripts
 description: Extension scripts allow you to extend Password Reset functionality in credential store, verification, or identification types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/password-reset/pw-reset-ext-script-includes.html
 release: zurich
 product: Password Reset
 classification: password-reset
@@ -445,5 +446,5 @@ SampleVerificationFormProcessor.prototype = {
 **Related topics**  
 
 
-[Extension points](https://www.servicenow.com/docs/access?context=extension-points&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+[bundle-crapiref.extension-points]
 

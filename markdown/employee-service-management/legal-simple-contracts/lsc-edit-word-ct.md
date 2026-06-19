@@ -2,6 +2,7 @@
 title: Edit a contract template of type Microsoft word
 description: Edit a contract template to reflect any modifications that must be included in the template to generate a standard contract when an employee submits a contract request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-simple-contracts/lsc-edit-word-ct.html
 release: zurich
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -65,7 +66,7 @@ Document
 
 </td><td>
 
-The document from which you want to import template field mapping. The selected document should be a Microsoft Word \(.docx\) document and should have valid content controllers. For more information, see [Add content controls in a Microsoft Word document](lsc-cont-contr-word-tmplt.md).
+The document from which you want to import template field mapping. The selected document should be a Microsoft Word \(.docx\) document and should have valid content controllers. For more information, see [Add content controls in a Microsoft Word document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/lsc-cont-contr-word-tmplt.md).
 
 </td></tr><tr><td>
 
@@ -126,7 +127,7 @@ Option to make the template active and available for use.
 
 6.  Map any new meta data found during parsing.
 
-    For more information, see [Update contract template mappings for legal contract template](lsc-template-map-msword.md).
+    For more information, see [Update contract template mappings for legal contract template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/lsc-template-map-msword.md).
 
 7.  Select **Update** to save the modifications.
 

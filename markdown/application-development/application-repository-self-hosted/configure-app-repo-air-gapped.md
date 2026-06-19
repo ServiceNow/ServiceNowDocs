@@ -2,6 +2,7 @@
 title: Configure the application repository on an air-gapped instance
 description: After installing the application repository, you must configure it using the following procedure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/application-repository-self-hosted/configure-app-repo-air-gapped.html
 release: zurich
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
@@ -79,5 +80,5 @@ Role required: You’ll need the maint role to install and configure, and then o
 
 ## What to do next
 
-After an instance is paired, it’s fully set up to use the application repository. You can test your configuration by publishing a scoped application as described in [Publish an application to the application repository](t_PublishAppsToTheAppRepository.md). After publishing, you can verify that the app was successfully published by locating it in **All** &gt; **Application Repository** &gt; **Artifacts** &gt; **Internal Apps**.
+After an instance is paired, it’s fully set up to use the application repository. You can test your configuration by publishing a scoped application as described in [Publish an application to the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/application-repository-self-hosted/t_PublishAppsToTheAppRepository.md). After publishing, you can verify that the app was successfully published by locating it in **All** &gt; **Application Repository** &gt; **Artifacts** &gt; **Internal Apps**.
 

@@ -2,6 +2,7 @@
 title: Connect an existing document from Google Drive to policy
 description: Connect a document that exists in your Google Drive folder to a policy that you created. Use this existing document and enable redlining in the policy text instead of creating a document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/connect-google-drive-doc.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -25,7 +26,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the List icon \(![Lists icon.](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the Compliance Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon.\).
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 
@@ -41,7 +42,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
     2.  Select the document that you want to connect to the policy.
 
-    3.  Select the More actions icon \(![More actions icon.](../../../reuse/icons/product-icons/ellipsis-vertical-fill-24.svg)\) in the document that you want to connect.
+    3.  Select the More actions icon \(\[Omitted image "ellipsis-vertical-fill-24.svg"\] Alt text: More actions icon.\) in the document that you want to connect.
 
     4.  Select the **Copy link** option from the **Share** list.
 

@@ -2,6 +2,7 @@
 title: Encrypted fields in AI Search
 description: AI Search excludes source record fields encrypted with Encryption Support or Edge Encryption.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/encrypted-fields-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -21,7 +22,7 @@ When dealing with an encrypted source record field, AI Search has the following 
 -   You can't create a facet using the encrypted field.
 -   If a search query attempts to filter on the encrypted field, such as when applying an access control list \(ACL\) filter, the search query fails. An `Encrypted Field is not supported` error message is logged.
 
-For detailed descriptions of the encryption options available for source records, see [Encryption](https://www.servicenow.com/docs/access?context=encryption&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For detailed descriptions of the encryption options available for source records, see Encryption.
 
-**Parent Topic:**[Administering AI Search](administer-ais.md)
+**Parent Topic:**[Administering AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/administer-ais.md)
 

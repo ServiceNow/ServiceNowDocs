@@ -2,6 +2,7 @@
 title: Monitor the status of a lifecycle event case
 description: Monitor the status of a lifecycle event case with activity set execution contexts. You can monitor the state of each activity set in a lifecycle event case. You can further monitor the state of the individual activities. You can also report on the activity set contexts table in conjunction with the HR case table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/lifecycle-events/t\_BundleExContexts.html
 release: zurich
 product: Lifecycle Events
 classification: lifecycle-events

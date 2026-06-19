@@ -2,6 +2,7 @@
 title: Compose an SMS conversation
 description: An agent can compose an SMS to interact with a customer for resolving various issues. If the interaction is not messaging type, you see the Compose SMS option.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/compose-sms-store-app.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -42,7 +43,7 @@ As an agent, you can compose and send an SMS to an ongoing interaction which is 
     -   If there is already a channel user profile associated with a consumer or contact, the phone number is pre-populated.
     1.  Choose **Other** and select a phone number in the drop-down list.
 
-    **Note:** All phone numbers must be in the E.164 format. For more information, about phone number and channel user profile validation, see [Phone number validation](../concept/agent-initiated-sms-store-app.md#phone_number_profile_validation).
+    **Note:** All phone numbers must be in the E.164 format. For more information, about phone number and channel user profile validation, see [Phone number validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/agent-initiated-sms-store-app.md).
 
     If there is already an ongoing SMS type of interaction with the same or different consumer, you can view the interaction card in the same screen. The interaction card for the consumer number you have selected contains interaction number, message type, last updated time, consumer, and assigned to information.
 
@@ -50,12 +51,12 @@ As an agent, you can compose and send an SMS to an ongoing interaction which is 
 
 5.  Click **Attach file**, browse, select the file and attach.
 
-    **Note:** You can attach only image files to the message. For more information about the REST API for uploading attachments, see [Attachment - POST /now/attachment/upload](https://www.servicenow.com/docs/access?context=c_AttachmentAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+    **Note:** You can attach only image files to the message. For more information about the REST API for uploading attachments, see Attachment - POST /now/attachment/upload.
 
 6.  Click **Send**.
 
-    For more information, see [Agent initiated SMS conversations](../concept/agent-initiated-sms-store-app.md#section_ung_ccm_3mb).
+    For more information, see [Agent initiated SMS conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/agent-initiated-sms-store-app.md).
 
 
-**Parent Topic:**[Using Advanced Work Assignment](../concept/using-awa.md)
+**Parent Topic:**[Using Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/using-awa.md)
 

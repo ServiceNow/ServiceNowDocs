@@ -2,6 +2,7 @@
 title: Install and configure the Servicenow application for Microsoft Graph Security API alert ingestion integration
 description: Before you run the integration on your ServiceNow AI Platform instance, complete these installation and configuration steps so the application properly integrates with the Security Incident Response and Security Operations products on your ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/ms-graph-install.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -21,25 +22,25 @@ Role required: sn\_si.admin
 
 ## Procedure
 
-1.  If you have not installed the Microsoft Graph Security API application from the ServiceNow Store for the integration, see [Install a Security Operations integration](../../../security-incident-response/task/install-non-core-apps.md) and follow the steps to install it.
+1.  If you have not installed the Microsoft Graph Security API application from the ServiceNow Store for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/install-non-core-apps.md) and follow the steps to install it.
 
 2.  After you have successfully installed the application, navigate to **Integrations** &gt; **Integrations Configurations** and locate the Microsoft Graph Security API - Alert Ingestion tile.
 
-    ![Microsoft Graph Security API: configure](../image/ms-graph-config-tile.png)
+    \[Omitted image "ms-graph-config-tile.png"\] Alt text: Microsoft Graph Security API: configure
 
-3.  To configure the application, click **Configure**.
+3.  To configure the application, select **Configure**.
 
 4.  In the Alert Ingestions Configuration dialog that is displayed, fill in the fields.
 
-<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d63699e134">
+<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d65964e134">
 
 Field
 
-</th><th align="left" id="d63699e137">
+</th><th align="left" id="d65964e137">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d63699e143">
+</th></tr></thead><tbody><tr><td id="d65964e143">
 
 **Name**
 
@@ -47,7 +48,7 @@ Description
 
 Name of the Microsoft Azure Cloud instance. You can enter only alphanumeric values and hyphens \(-\) in this field.
 
-</td></tr><tr><td id="d63699e158">
+</td></tr><tr><td id="d65964e158">
 
 **Tenant ID**
 
@@ -55,15 +56,15 @@ Name of the Microsoft Azure Cloud instance. You can enter only alphanumeric valu
 
 The Microsoft Azure Tenant ID. This is the instance from which all the alerts in the Microsoft Azure portal are retrieved.
 
-</td></tr><tr><td id="d63699e173">
+</td></tr><tr><td id="d65964e173">
 
 **Client ID**
 
 </td><td>
 
-The Client ID for the application that you have registered in the Microsoft Azure portal. See [Configure the Microsoft Azure portal](ms-graph-configure-azure.md) for details.
+The Client ID for the application that you have registered in the Microsoft Azure portal. See [Configure the Microsoft Azure portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/ms-graph-configure-azure.md) for details.
 
-</td></tr><tr><td id="d63699e198">
+</td></tr><tr><td id="d65964e198">
 
 **Client Secret**
 
@@ -72,9 +73,9 @@ The Client ID for the application that you have registered in the Microsoft Azur
 The password for your registered application.
 
 </td></tr></tbody>
-</table>5.  Click **Submit**.
+</table>5.  Select **Submit**.
 
-    After it is successfully validated and submitted, each alert ingestions server configuration is saved on the Security Integrations page as a tile. If your saved configuration tiles are not displayed on the Security Integrations page, on the top right corner of the page, from the Show Configurations choice list, click **Yes**.
+    After it is successfully validated and submitted, each alert ingestions server configuration is saved on the Security Integrations page as a tile. If your saved configuration tiles are not displayed on the Security Integrations page, on the top right corner of the page, from the Show Configurations list, select **Yes**.
 
 
 ## What to do next

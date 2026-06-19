@@ -2,6 +2,7 @@
 title: Submitting privacy consents
 description: When you receive an email or mobile notification for a privacy consent, read the privacy policy statement and submit a response indicating whether you agree to the use of your data.When you receive an email notification for privacy consent, read the privacy policy statement and submit a response indicating whether you agree to the use of your data.If you receive a mobile push notification request for a data privacy consent, read the privacy policy statement and indicate whether you agree to the use of your data in accordance with the policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-readiness-core/submitting-privacy-consent.html
 release: zurich
 product: Employee Readiness Core
 classification: employee-readiness-core
@@ -15,7 +16,7 @@ breadcrumb: [Maintaining privacy consent in Employee Readiness Core, Employee Re
 
 When you receive an email or mobile notification for a privacy consent, read the privacy policy statement and submit a response indicating whether you agree to the use of your data.
 
-**Parent Topic:**[Maintaining privacy consent in Employee Readiness Core](employee-readiness-core-privacy-consent.md)
+**Parent Topic:**[Maintaining privacy consent in Employee Readiness Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-readiness-core/employee-readiness-core-privacy-consent.md)
 
 ## Respond to an email notification request for privacy consent
 
@@ -55,7 +56,7 @@ If you receive a mobile push notification request for a data privacy consent, re
 
 ### Before you begin
 
-To receive mobile push notifications, you must have the [Now® Mobile](../../../administer/mobile-employee/concept/mobile-employee-experience.md) app.
+To receive mobile push notifications, you must have the [Now® Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app.
 
 Role required: sn\_imt\_core.privacy\_consent\_user
 
@@ -73,7 +74,7 @@ Role required: sn\_imt\_core.privacy\_consent\_user
     -   If you do not want the organization to use your data, select **I Disagree**.
     **Note:** If you previously agreed to the privacy consent, the **Withdraw Consent** option is available. You can change your response to withdraw your consent by selecting **Withdraw Consent** and clicking **Submit**.
 
-    ![Screens displayed on the mobile app to submit a privacy consent.](../../contact-tracing/image/mobile-checkin-privacy-consent.png)
+    \[Omitted image "mobile-checkin-privacy-consent.png"\] Alt text: Screens displayed on the mobile app to submit a privacy consent.
 
 
 ### Result

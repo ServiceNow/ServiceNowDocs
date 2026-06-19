@@ -2,6 +2,7 @@
 title: AI Search in mobile
 description: The AI Search search engine in the Now Mobile platform enables users to find answers to issues and then proceed quickly with their tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-mobile-employee-experience/text-search-advanced-now.html
 release: zurich
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
@@ -19,10 +20,10 @@ The mobile platform supports two search engines within applet launchers: AI Sear
 
 AI Search uses user data sources \(people\), catalog items \(services\), and knowledge articles. The Zing search engine uses additional data sources not associated with AI Search, for example, user tasks and requests.
 
--   For more information on AI Search configuration, see [AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
--   For more information about Zing configuration, see [Global search for mobile](https://www.servicenow.com/docs/access?context=mobile-search-config&version=zurich&pubname=zurich-mobile&ft:locale=en-US).
+-   For more information on AI Search configuration, see AI Search.
+-   For more information about Zing configuration, see Global search for mobile.
 
-**Note:** You cannot simultaneously use both AI Search and Zing search engines within the same search field. However, you can configure individual applet launchers to host a different search engine per applet. For more information, see [Add AI Search to a launcher screen](../task/aisearch-add-applet-launcher.md).
+**Note:** You cannot simultaneously use both AI Search and Zing search engines within the same search field. However, you can configure individual applet launchers to host a different search engine per applet. For more information, see [Add AI Search to a launcher screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/aisearch-add-applet-launcher.md).
 
 AI Search offers the following features:
 
@@ -47,15 +48,15 @@ Knowledge category AI search
 
 </th></tr></thead><tbody><tr><td>
 
-![AI Search results from the services category.](../image/aisearch-catalog-callout-results.png "AI Search results from services category")
+\[Omitted image "aisearch-catalog-callout-results.png"\] Alt text: AI Search results from the services category.
 
 </td><td>
 
-![AI Search results from the people category.](../image/aisearch-people-results.png "AI Search results from people category")
+\[Omitted image "aisearch-people-results.png"\] Alt text: AI Search results from the people category.
 
 </td><td>
 
-![AI Search results from the knowledge category.](../image/aisearch-knowledge-results.png "AI Search results from knowledge category")
+\[Omitted image "aisearch-knowledge-results.png"\] Alt text: AI Search results from the knowledge category.
 
 </td></tr></tbody>
 </table>

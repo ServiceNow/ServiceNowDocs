@@ -2,6 +2,7 @@
 title: Metrics monitored by DEX
 description: Find out what endpoint performance and compliance metrics are monitored by DEX, as well as the frequency of data collection and the related check definitions and policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/metrics-monitored-by-dex.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -3427,5 +3428,5 @@ os.win.check-system-metrics-latest
 Provides a numerical rating that represents the overall stability of the system. \(Value: 1–10\).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DEX Application and Device Health reference](dex-console-reference.md)
+</table>**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
 

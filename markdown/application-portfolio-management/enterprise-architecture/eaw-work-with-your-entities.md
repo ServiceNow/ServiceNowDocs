@@ -1,0 +1,57 @@
+---
+title: Working with your entities
+description: Manage all your Enterprise Architecture Workspace entities from a single place.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/enterprise-architecture/eaw-work-with-your-entities.html
+release: zurich
+product: Enterprise Architecture
+classification: enterprise-architecture
+topic_type: concept
+last_updated: "2025-07-31"
+reading_time_minutes: 2
+breadcrumb: [Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+---
+
+# Working with your entities
+
+Manage all your Enterprise Architecture Workspace entities from a single place.
+
+-   **[View your business capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/enterprise-architecture/eaw-my-business-cap.md)**  
+View the list of all your business capabilities that are created by you in the Enterprise Architecture Workspace.
+-   **[Add or edit your business capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/enterprise-architecture/eaw-add-edit-my-business-cap.md)**  
+Add or edit a business capability to align your organization’s business goals.
+-   **[View your business processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/enterprise-architecture/eaw-my-business-processes.md)**  
+View the list of all business processes that are created by you in the Enterprise Architecture Workspace.
+-   **[Add or edit your business processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/enterprise-architecture/eaw-add-edit-my-bus-processes.md)**  
+Add or edit a business process to group applications that help accomplish a specific application service. A business process is a collection of related structured tasks performed to accomplish a specific application service.
+-   **[View your business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/enterprise-architecture/eaw-my-business-apps.md)**  
+View the list of all your business applications that are created by you in the Enterprise Architecture Workspace.
+-   **[Add or edit your business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/enterprise-architecture/eaw-add-edit-my-business-apps.md)**  
+Add the applications that your organization wants to introduce based on their functions and the business process they fulfill. In Enterprise Architecture, add or edit your business applications that are used to assess and track costs, usage, business value, functional fitment, and risks.
+-   **[View your application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/enterprise-architecture/eaw-my-app-services.md)**  
+View the list of application services created by you in the Enterprise Architecture Workspace.
+-   **[Add or edit your application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/enterprise-architecture/eaw-add-edit-my-app-services.md)**  
+Add or edit an application service created by you in the Enterprise Architecture Workspace.
+-   **[View your information objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/enterprise-architecture/eaw-my-info-objects.md)**  
+View the list of information objects created by you in the Enterprise Architecture Workspace.
+-   **[Add or edit your information objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/enterprise-architecture/eaw-add-edit-my-info-objects.md)**  
+Add or edit an information object to capture the logical data for a business application.
+-   **[View your architectural artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/enterprise-architecture/eaw-my-arch-artifacts.md)**  
+View the list of all your architectural artifacts created by you in the Enterprise Architecture Workspace.
+-   **[Add or edit your architectural artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/enterprise-architecture/eaw-add-edit-my-artifacts.md)**  
+Add or edit an architectural artifact to align it with your business requirements.
+-   **[View your TRM products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/enterprise-architecture/eaw-my-trm-products.md)**  
+View all your Technology Reference Model \(TRM\) products in the Enterprise Architecture Workspace. TRM allows you to define the standards for your software and hardware products and manage unapproved products in your organization.
+-   **[Add or edit your TRM products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/enterprise-architecture/eaw-add-edit-my-trm-prod.md)**  
+Add a software product to the Technology Reference Model \(TRM\) library or edit an existing product details and maintain the TRM library for your organization.
+-   **[View your digital integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/enterprise-architecture/eaw-my-digital-integrations.md)**  
+View the list of all digital integrations created by you in the Enterprise Architecture Workspace.
+-   **[Add or edit your digital integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/enterprise-architecture/eaw-add-edit-my-dig-integ.md)**  
+Add a digital integration or edit an existing digital integration created by you in the EA Workspace.
+-   **[View your digital interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/enterprise-architecture/eaw-my-digital-interfaces.md)**  
+View the list of all digital interfaces that are created by you in the Enterprise Architecture Workspace.
+-   **[Add or edit your digital interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/enterprise-architecture/eaw-add-edit-my-digi-interfaces.md)**  
+Add or edit a digital interface for an integration to describe how business applications can interact.
+
+**Parent Topic:**[Working with Portfolio list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/enterprise-architecture/eaw-work-with-portfolio-list-view.md)
+

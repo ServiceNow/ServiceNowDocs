@@ -2,6 +2,7 @@
 title: Set up Zoom spoke
 description: Integrate your Zoom account with your  ServiceNow instance. Create a custom OAuth application in Zoom and authenticate requests from  ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/setup-zoom-spoke-cs.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -15,7 +16,7 @@ breadcrumb: [Configure, ServiceNow for Zoom, Unified Employee Experience, Employ
 
 Integrate your Zoom account with your  ServiceNow® instance. Create a custom OAuth application in Zoom and authenticate requests from  ServiceNow.
 
-For complete information about setting up a Zoom spoke, see [Zoom spoke](https://www.servicenow.com/docs/access?context=zoom-spoke&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+For complete information about setting up a Zoom spoke, see Zoom spoke.
 
-**Parent Topic:**[Configuring Collaboration services for Zoom](configure-sn-zoom.md)
+**Parent Topic:**[Configuring Collaboration services for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/configure-sn-zoom.md)
 

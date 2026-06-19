@@ -2,6 +2,7 @@
 title: Project Management reference
 description: Reference information to provide additional details about Project Management such as the fields, user roles, tables, and properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-management/project-management-reference.html
 release: zurich
 product: Project Management
 classification: project-management

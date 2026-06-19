@@ -2,6 +2,7 @@
 title: Track progress
 description: Track the progress of an agile phase from the Project Workbench timeline.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/ppm-collaboration/t\_SDLCPPSTrackProgress.html
 release: zurich
 product: PPM Collaboration
 classification: ppm-collaboration
@@ -30,5 +31,5 @@ Stories are assigned to a project and are tied to an agile development phase in 
 2.  The color in the phase bar increases to show progress and the **Percentage complete** field is updated.
 
 
-**Parent Topic:**[Agile Development 2.0 integration with Project Portfolio Management](../concept/c_SDLCIntegrationWithProjectPortfolioSuite.md)
+**Parent Topic:**[Agile Development 2.0 integration with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/c_SDLCIntegrationWithProjectPortfolioSuite.md)
 

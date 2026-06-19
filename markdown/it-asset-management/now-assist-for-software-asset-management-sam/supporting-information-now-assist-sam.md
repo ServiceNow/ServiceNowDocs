@@ -2,6 +2,7 @@
 title: Supporting information for Now Assist for Software Asset Management \(SAM\)
 description: Get a quick overview of the important information that is related to the Now Assist for Software Asset Management \(SAM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/now-assist-for-software-asset-management-sam/supporting-information-now-assist-sam.html
 release: zurich
 product: Now Assist for Software Asset Management \(SAM\)
 classification: now-assist-for-software-asset-management-sam
@@ -42,11 +43,7 @@ Software Asset Workspace
 -   Recommended actions
 
 </td></tr></tbody>
-</table>## Licensing requirements
-
-The Now Assist for SAM application requires a Software Asset Management Professional Plus or Software Asset Management Enterprise Plus license.
-
-## Languages supported
+</table>## Languages supported
 
 The Now Assist for SAM application supports the following languages:
 
@@ -93,5 +90,5 @@ Activate the applications in the following order:
 -   Now Assist for Platform
 -   Now Assist for Software Asset Management \(SAM\)
 
-**Parent Topic:**[Exploring Now Assist for Software Asset Management \(SAM\)](exploring-now-assist-sam.md)
+**Parent Topic:**[Exploring Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/exploring-now-assist-sam.md)
 

@@ -2,6 +2,7 @@
 title: Update an existing conflict of interest disclosure request
 description: Update an existing conflict of interest disclosure request to obtain the legal clearance again before it expires. You might want to get fresh approvals for an extension of the period or for the revised conditions that might pose a risk of potential conflict with the primary employer duties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-conflict-of-interest/update-existing-coi-disclosure-request.html
 release: zurich
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
@@ -23,42 +24,40 @@ Role required: sn\_lg\_ops.legal\_user
 
 1.  Navigate to **All** &gt; **Employee Center**.
 
-    **Note:** If you’re using Legal Service Portal, open a request by navigating to the Legal Service Portal portal and selecting **My Requests** from the header.
+    **Note:** If you’re using Legal Service Portal, open the request by navigating to it and selecting **My Requests** &gt; **View all requests** from the header.
 
-2.  Select **Legal services** from the header.
+2.  Select **My Requests** from the header.
 
-3.  Select **My Requests** from the header.
+3.  Open the conflict of interest disclosure request.
 
-4.  Open the conflict of interest disclosure request.
+4.  From the Actions menu, select **Edit Request**.
 
-5.  From the Actions menu, select **Edit Request**.
-
-6.  On the form, update the fields and click **Submit**.
+5.  On the form, update the fields and click **Submit**.
 
     **Note:** You cannot update a few fields on the form, and so they show up as inactive.
 
-7.  Manage documents supporting your request.
+6.  Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d353516e130">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d256266e124">
 
 Option
 
-</th><th align="left" id="d353516e133">
+</th><th align="left" id="d256266e127">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d353516e139">
+</th></tr></thead><tbody><tr><td id="d256266e133">
 
 **If the Attachments tab is visible**
 
 </td><td>
 
--   To upload a new document, select the add attachment icon \(![Add attachment icon.](../../legal-request-management/image/add-attachment-icon.png)\) and select a file.
--   To rename an attached file, select the edit file name icon \(![Edit file name icon.](../../legal-digital-forensics/image/rename-icon.png)\) and update the file name.
--   To remove an attached file, select the delete icon \(![Delete icon.](../../legal-digital-forensics/image/delete-icon.png)\).
+-   To upload a new document, select the add attachment icon \(\[Omitted image "add-attachment-icon.png"\] Alt text: Add attachment icon.\) and select a file.
+-   To rename an attached file, select the edit file name icon \(\[Omitted image "rename-icon.png"\] Alt text: Edit file name icon.\) and update the file name.
+-   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d353516e178">
+</td></tr><tr><td id="d256266e172">
 
 **If the Documents tab is visible**
 
@@ -79,5 +78,5 @@ The conflict of interest disclosure request is updated and the state is set as N
 
 The approval details appear under the **Approvals** tab on the Standard Ticket page.
 
-**Parent Topic:**[Using Legal Conflict of Interest](../concept/lsd-coi-use-landing.md)
+**Parent Topic:**[Using Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-conflict-of-interest/lsd-coi-use-landing.md)
 

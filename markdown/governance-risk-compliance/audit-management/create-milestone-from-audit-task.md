@@ -2,6 +2,7 @@
 title: Create a milestone from an audit task
 description: Create and track an audit task as a milestone.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/create-milestone-from-audit-task.html
 release: zurich
 product: Audit Management
 classification: audit-management

@@ -2,6 +2,7 @@
 title: Asset life-cycle automation
 description: Automate the update of your asset records throughout its life cycle and remove the effort of manually maintaining asset accuracy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/asset-lifecycle-automation.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -19,11 +20,11 @@ Assets must be updated and tracked from the time theyâ€™re purchased until theyâ
 
 **Note:** The automated workflow isn't triggered for excluded assets. You must manually update your asset records or CIs for the excluded assets.
 
-You can [create bulk stock orders](../task/create-inventory-stock-order.md) for hardware assets for your stockrooms. You can specify the model and the exact quantity you need. After the item is procured or transferred, the workflow is complete.
+You can [create bulk stock orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-inventory-stock-order.md) for hardware assets for your stockrooms. You can specify the model and the exact quantity you need. After the item is procured or transferred, the workflow is complete.
 
-You can also [create disposal orders](../task/create-disposal-order.md) for hardware and consumable assets. This workflow guides you through five asset disposal tasks. These tasks involve the planning, scheduling, verification, departure, and the final confirmation of the disposed assets. Closing a task completes the task and creates the next task in the workflow.
+You can also [create disposal orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-disposal-order.md) for hardware and consumable assets. This workflow guides you through five asset disposal tasks. These tasks involve the planning, scheduling, verification, departure, and the final confirmation of the disposed assets. Closing a task completes the task and creates the next task in the workflow.
 
-For example, Verify is the first task in the asset disposal workflow. After you complete and close the Verify task, the Schedule pickup task is automatically created. This process continues until you close all the tasks required for disposing the asset. For information, see [Hardware disposal order stages](../reference/hardware-disposal-stages.md).
+For example, Verify is the first task in the asset disposal workflow. After you complete and close the Verify task, the Schedule pickup task is automatically created. This process continues until you close all the tasks required for disposing the asset. For information, see [Hardware disposal order stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/hardware-disposal-stages.md).
 
 ## Asset tasks
 
@@ -38,7 +39,7 @@ If an asset is being deployed, replaced, or retired via an incident, change requ
 
 The data accuracy is improved by reducing the need for manual intervention to update records.
 
-When an asset is retired or swapped via an incident, the Stockroom field is populated based on the location of the asset. If there isn't any stockroom in the location of the asset, then the Stockroom field isn't populated. However, if the asset location is supported by multiple stockrooms as part of service locations, then the Stockroom field is automatically populated with details of the supporting stockroom based on the priority. For more details on service locations, see [Associate a stockroom with service locations](../task/associate-stockroom-with-service-locations.md).
+When an asset is retired or swapped via an incident, the Stockroom field is populated based on the location of the asset. If there isn't any stockroom in the location of the asset, then the Stockroom field isn't populated. However, if the asset location is supported by multiple stockrooms as part of service locations, then the Stockroom field is automatically populated with details of the supporting stockroom based on the priority. For more details on service locations, see [Associate a stockroom with service locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/associate-stockroom-with-service-locations.md).
 
 This table lists the asset tasks available in each application.
 

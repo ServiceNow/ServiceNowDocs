@@ -2,6 +2,7 @@
 title: Customize a Now Assist for IT Service Management \(ITSM\) Incident Summarization skill
 description: If you have the admin role, you can customize a Now Assist for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI. Use the Now Assist Skill Kit \(NASK\) to customize your prompts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-record-summ-skill.html
 release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -40,7 +41,7 @@ You need the sn\_skill\_builder.admin role to customize the prompt in the Now As
 
         You can choose to make a copy of the skill before activating it.
 
-    3.  Select the more actions icon ![More actions icon.](../../itsm-workspace/image/more-actions-icon.png) for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
+    3.  Select the more actions icon \[Omitted image "more-actions-icon.png"\] Alt text: More actions icon. for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
 
         The copy that you make is listed in the Active skills section.
 
@@ -50,7 +51,7 @@ You need the sn\_skill\_builder.admin role to customize the prompt in the Now As
 
 5.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](../reference/now-assist-itsm-skills.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
 
     1.  Enter a name and description for the skill.
 
@@ -60,7 +61,7 @@ You need the sn\_skill\_builder.admin role to customize the prompt in the Now As
 
     The input data is read-only.
 
-    ![Choose input data screen that contains the input tables and fields to define the prompt.](../image/now-assist-itsm-inc-summ-choose-input.png)
+    \[Omitted image "now-assist-itsm-inc-summ-choose-input.png"\] Alt text: Choose input data screen that contains the input tables and fields to define the prompt.
 
     The following table lists the base input table fields and descriptions, including a relevant example.
 
@@ -159,7 +160,7 @@ In the Activity stream:-   You can summarize new attachments of type PNG, JPEG o
     -   German
     -   Portuguese
     -   Spanish
-When you use [translate with Dynamic Translation](https://www.servicenow.com/docs/access?context=using-dynamic-translation&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US), you can also translate user-generated content live on your instance in additional languages. For more information, see [Dynamic Translation](https://www.servicenow.com/docs/access?context=using-dynamic-translation&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).**Note:**
+When you use translate with Dynamic Translation, you can also translate user-generated content live on your instance in additional languages. For more information, see Dynamic Translation.**Note:**
 
 -   Attachment summaries aren't available in child incident records and are only supported in the English language.
 -   If you have one or more existing attachments, you must add new attachments to the incident for the existing attachments to be summarized.
@@ -172,15 +173,15 @@ When you use [translate with Dynamic Translation](https://www.servicenow.com/doc
 
     **Important:** You need the sn\_skill\_builder.admin role to activate and customize the prompt in the Now Assist Skill Kit \(NASK\).
 
-<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d437692e568">
+<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d390814e568">
 
 To
 
-</th><th align="left" id="d437692e571">
+</th><th align="left" id="d390814e571">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d437692e577">
+</th></tr></thead><tbody><tr><td id="d390814e577">
 
 **Evaluate a prompt for each input template**
 
@@ -191,24 +192,24 @@ Do this
     -   Work in progress
     -   Resolved
     -   Closed
-2.  Select **Run Test**.![Run test for the selected incident record](../image/now-assist-itsm-evaluate-prompt.png)
+2.  Select **Run Test**.\[Omitted image "now-assist-itsm-evaluate-prompt.png"\] Alt text: Run test for the selected incident record
 Review and test the prompt for each input template configuration and make sure it meets your expectations.The prompt response is shown. You can make changes to the incident state selections and retest as needed.
 
-</td></tr><tr><td id="d437692e616">
+</td></tr><tr><td id="d390814e616">
 
 **Edit the prompt in the Now Assist Skill Kit and test the prompt**
 
 </td><td>
 
 1.  Select **Edit prompt in Now Assist Skill Kit**.
-2.  Select **Go to Now Assist Skill Kit**.![Edit prompts in the Now Assist Skill Kit](../image/now-assist-itsm-edit-prompt-nask.png)
+2.  Select **Go to Now Assist Skill Kit**.\[Omitted image "now-assist-itsm-edit-prompt-nask.png"\] Alt text: Edit prompts in the Now Assist Skill Kit
 
 **Note:**
 
-In the Now Assist Skill Kit, you can select the more actions icon ![More actions icon.](../../itsm-workspace/image/more-actions-icon.png)and select **Clone** to make a copy of the prompt configuration and edit as needed.
+In the Now Assist Skill Kit, you can select the more actions icon \[Omitted image "more-actions-icon.png"\] Alt text: More actions icon.and select **Clone** to make a copy of the prompt configuration and edit as needed.
 
-3.  In the **Skill contents** pane, select the**Inputs** edit icon and add any inputs that you'd like to add to the prompt.![Edit prompt input screen in the Now Assist Skill Kit](../image/now-assist-itsm-edit-skill-input.png)
-4.  In the **Prompt** screen, select the edit icon and add the desired inputs to the prompt.![Add inputs for the skill](../image/now-assist-itsm-edit-prompt-window.png)
+3.  In the **Skill contents** pane, select the**Inputs** edit icon and add any inputs that you'd like to add to the prompt.\[Omitted image "now-assist-itsm-edit-skill-input.png"\] Alt text: Edit prompt input screen in the Now Assist Skill Kit
+4.  In the **Prompt** screen, select the edit icon and add the desired inputs to the prompt.\[Omitted image "now-assist-itsm-edit-prompt-window.png"\] Alt text: Add inputs for the skill
 5.  Select **Run test**.
 
 The prompt displays in the Test prompt screen where you can run the test.
@@ -238,7 +239,7 @@ The prompt displays in the Test prompt screen where you can run the test.
 
         -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+            If you don't see this option, you must activate the Now Assist panel. For more information, see .
 
             For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 

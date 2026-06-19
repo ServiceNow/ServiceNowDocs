@@ -2,7 +2,10 @@
 title: Configure Auto-Responder for tasks other than cases
 description: Configure the Auto-Responder feature to send helpful resources for tasks other than customer service cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/config-auto-responder-other-tasks.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -19,10 +22,10 @@ Role required: admin
 
 Perform the following tasks.
 
--   Activate the Email Notification Script for Contextual Search Results plugin \(com.snc.adv\_cxs\_results\_email\_script\). For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
--   Set the application scope to the scope of your task table using the application picker. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
--   Verify that you have defined a search context for your task to include recommended resources in the Auto-Responder email notifications. For more information, see [Define a search context](https://www.servicenow.com/docs/access?context=t_DefineSearchContext&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
--   Verify that you have configured a table for the search context associated with your task. For more information, see [Configure table for a contextual search](https://www.servicenow.com/docs/access?context=t_DefineContextualSearchForForm&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+-   Activate the Email Notification Script for Contextual Search Results plugin \(com.snc.adv\_cxs\_results\_email\_script\). For more information, see Activate a plugin.
+-   Set the application scope to the scope of your task table using the application picker. For more information, see Application picker.
+-   Verify that you have defined a search context for your task to include recommended resources in the Auto-Responder email notifications. For more information, see Define a search context.
+-   Verify that you have configured a table for the search context associated with your task. For more information, see Configure table for a contextual search.
 
 ## Procedure
 
@@ -36,7 +39,7 @@ Perform the following tasks.
 
     4.  Verify that notifications aren’t sent if there are no search results by entering the `hasResults()` function in the **Advanced condition** field of the When to send related list.
 
-        The `hasResults()` function checks whether search results exist. You can use the return value of the function to avoid the system from sending an email notification if there are no search results. For more information, see [Advanced conditions for email notifications](https://www.servicenow.com/docs/access?context=c_OptSpecifyingAdvancedCond&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+        The `hasResults()` function checks whether search results exist. You can use the return value of the function to avoid the system from sending an email notification if there are no search results. For more information, see Advanced conditions for email notifications.
 
         **Tip:** Refer to the Case auto-responder recommendations notification that uses the `hasResults()` function for returning the search results value. To view a notification, navigate to **System Notification** &gt; **Notifications**.
 
@@ -50,12 +53,12 @@ Perform the following tasks.
 
         For the table that you’re configuring, be sure to do the following:
 
-        -   Train the similarity solution for the table. For more information, see [Train the similarity solution for finding Auto-Responder notification content](train-sol-defn-auto-responder.md).
+        -   Train the similarity solution for the table. For more information, see [Train the similarity solution for finding Auto-Responder notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/train-sol-defn-auto-responder.md).
         -   Add the similarity solution in the Additional Resource Configurations tab on the Search Context form.
     3.  In the Email Conﬁgurations related list, link your task table configuration with the Notification \[sysevent\_email\_action\] table.
 
         -   To create another email configuration for a user field, select **New**.
-        -   To edit an existing email configuration, select the preview email configuration for email notification icon \(![Preview Email Configuration for email notification icon.](../image/preview.png)\), and then in the Email Configuration window, select **Open Record**.
+        -   To edit an existing email configuration, select the preview email configuration for email notification icon \(\[Omitted image "preview.png"\] Alt text: Preview Email Configuration for email notification icon.\), and then in the Email Configuration window, select **Open Record**.
     4.  On the Email Configuration form, verify the default field values for your task, or fill in the values for a custom configuration.
 
 <table id="table_i5s_5fq_xlb"><thead><tr><th>
@@ -101,10 +104,10 @@ Maximum number of resources you want to include in the Auto-Responder email noti
         -   For an existing configuration, select **Update**.
 3.  Enable contextual search results based on text searches in addition to search results based on Predictive Intelligence to be included in Auto-Responder notifications.
 
-    For more information, see [Enable text search recommendations in Auto-Responder notifications](enable-text-based-auto-responder.md).
+    For more information, see [Enable text search recommendations in Auto-Responder notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/enable-text-based-auto-responder.md).
 
 4.  Configure a custom portal and include advanced contextual search results in email notifications.
 
-    For more information, see [Include advanced contextual search results in Auto-Responder notifications](use-extension-point-auto-responder.md).
+    For more information, see [Include advanced contextual search results in Auto-Responder notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/use-extension-point-auto-responder.md).
 
 

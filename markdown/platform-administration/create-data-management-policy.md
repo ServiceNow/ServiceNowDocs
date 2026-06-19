@@ -2,6 +2,7 @@
 title: Create a data management policy
 description: Define a set of rules for managing table data on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/create-data-management-policy.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -85,8 +86,8 @@ A data management policy is established for the designated table. You can now cr
 
 Define archive and cleanup rules for the table by creating rules in the data management policy.
 
--   [Create an archive rule](../../database-rotation/task/t_CreateAnArchiveRule.md#)
--   [Create a table cleanup rule](activate-table-cleanup.md)
+-   [Create an archive rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_CreateAnArchiveRule.md)
+-   [Create a table cleanup rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/activate-table-cleanup.md)
 
-**Parent Topic:**[Managing the growth of data on your instance](../concept/data-management-policies.md)
+**Parent Topic:**[Managing the growth of data on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/data-management-policies.md)
 

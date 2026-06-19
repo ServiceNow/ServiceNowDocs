@@ -2,6 +2,7 @@
 title: GeniusResultContext - Scoped
 description: The GeniusResultContext API provides methods for retrieving search query information from the context of a Genius Result configuration.Retrieves search result documents from the search query that triggers your Genius Result configuration.Retrieves the original search terms from the search query that triggers your Genius Result configuration.Retrieves NLU model prediction results for the search query that triggers your Genius Result configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/GeniusResultContextScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,11 +16,11 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GeniusResultContext API provides methods for retrieving search query information from the context of a Genius Result configuration.
 
-You can use search query details retrieved with this API to populate Genius Result answer objects created with the [GeniusResultAnswer](../../GeniusResultAnswerScoped/concept/GeniusResultAnswerScopedAPI.md#) API.
+You can use search query details retrieved with this API to populate Genius Result answer objects created with the [GeniusResultAnswer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/GeniusResultAnswerScopedAPI.md) API.
 
-Use this API in Genius Result server-side scripts with the `sn_ais` namespace identifier. For more information on scripting logic for Genius Results, see [Create a new Genius Result configuration](https://www.servicenow.com/docs/access?context=create-genius-results-config-ais&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Use this API in Genius Result server-side scripts with the `sn_ais` namespace identifier. For more information on scripting logic for Genius Results, see Create a new Genius Result configuration.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GeniusResultContext - getMatchingDocuments\(\)
 
@@ -134,7 +135,7 @@ URL for the search result document.
 
 </td><td>
 
-The child class that the search result document belongs to. For more information on table child classes, see [Table extension and classes](https://www.servicenow.com/docs/access?context=table-extension-and-classes&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+The child class that the search result document belongs to. For more information on table child classes, see .
 
  Data type: String
 

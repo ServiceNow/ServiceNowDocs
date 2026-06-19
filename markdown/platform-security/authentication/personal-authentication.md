@@ -2,6 +2,7 @@
 title: Personal authentication
 description: Personal authentication enables you to securely connect and manage your OAuth-based integrations like Microsoft OneDrive or Google Drive.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/personal-authentication.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -19,7 +20,7 @@ Personal authentication enables you to securely connect and manage your OAuth-ba
 
 The OAuth 2.0 Credentials module in ServiceNow `(oauth_2_0_credentials)`enables you to configure and manage access tokens used to connect with external OAuth 2.0-compliant systems. Use the Personal integration type when each user must authenticate with their own identity to an external system.
 
-Use the Credential form to configure OAuth 2.0 credentials with `integration_type = Personal`. For more information, see [OAuth 2.0 credentials](../../../product/credentials/reference/oauth-2-credentials.md).
+Use the Credential form to configure OAuth 2.0 credentials with `integration_type = Personal`. For more information, see [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/oauth-2-credentials.md).
 
 Personal authentication is supported only for the following OAuth 2.0 grant types:
 
@@ -32,7 +33,7 @@ Grant types such as Client Credentials, and JWT Bearer Grant aren’t supported 
 
 ## Personal authentication dashboard
 
-Use your personal credentials to connect to third-party integrations. View, authenticate, revoke, and renew your personal authentications through a simplified, consolidated interface. For more information, see [Using the Personal Authentication dashboard](https://www.servicenow.com/docs/access?context=personal-auth-dashboard&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+Use your personal credentials to connect to third-party integrations. View, authenticate, revoke, and renew your personal authentications through a simplified, consolidated interface. For more information, see .
 
 **Note:** The personal authentication dashboard can only be accessed by users who are assigned to the role: `sn_personal_auth.personal_auth_user`
 

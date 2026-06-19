@@ -2,6 +2,7 @@
 title: Working with Workplace Lease Administration from the Workplace Central
 description: Create and manage workplace contracts from the Workplace Central.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-lease-administration/working-with-lease-administration.html
 release: zurich
 product: Workplace Lease Administration
 classification: workplace-lease-administration
@@ -23,14 +24,14 @@ Create and manage workplace contracts from the Workplace Central.
     -   Navigate to **All** &gt; **Workplace Central** &gt; **Workplace Central** &gt; **Lease Administration**
     -   Navigate to **Workspaces** &gt; **Workplace Central** &gt; **Lease Administration**
 
-For information about installing Workplace Lease Administration, see [Activate Workplace Lease Administration](../task/install-lease-administration.md).
+For information about installing Workplace Lease Administration, see [Activate Workplace Lease Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-lease-administration/install-lease-administration.md).
 
--   **[Create workplace contracts in Workplace Central](../task/wpc-create-lease-contracts.md)**  
+-   **[Create workplace contracts in Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-lease-administration/wpc-create-lease-contracts.md)**  
 As a lease administrator or manager, you can create workplace contracts and also add assets, terms and conditions, contract locations, and documents to a contract.
--   **[Submit a workplace contract for review in Workplace Central](../task/wpc-submit-lease-contract-review.md)**  
+-   **[Submit a workplace contract for review in Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-lease-administration/wpc-submit-lease-contract-review.md)**  
 You can send a contract that is in Draft state for approval.
--   **[Approve or reject workplace contract in Workplace Central](../task/wpc-approve-lease-contract.md)**  
+-   **[Approve or reject workplace contract in Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-lease-administration/wpc-approve-lease-contract.md)**  
 Approve or reject a workplace contract after it is submitted for review.
 
-**Parent Topic:**[Using Workplace Lease Administration](use-lease-administration.md)
+**Parent Topic:**[Using Workplace Lease Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-lease-administration/use-lease-administration.md)
 

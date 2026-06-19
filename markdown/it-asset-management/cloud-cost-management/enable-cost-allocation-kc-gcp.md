@@ -2,6 +2,7 @@
 title: Enable cost allocation in Google Cloud for Kubernetes cluster
 description: Enable cost allocation for each Kubernetes cluster before you run a Google Cloud Billing download job to view the Kubernetes spend.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/enable-cost-allocation-kc-gcp.html
 release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -20,9 +21,9 @@ Enable cost allocation for each Kubernetes cluster before you run a Google Cloud
 Role required: Google Cloud administrator
 
 -   You should be familiar with Google Cloud policies.
--   Install Discovery and Service Mapping Patterns application \(sn\_itom\_pattern\) 1.10.2 or higher. For more information, see [Install Discovery and Service Mapping Patterns](https://www.servicenow.com/docs/access?context=install-discovery-service-mapping-patterns&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
--   Install CMDB CI Class Models \(sn\_cmdb\_ci\_class\) version 1.53.1 or higher. For more information, see [CMDB CI Class Models](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
--   To set up Kubernetes discovery, see [Kubernetes discovery using patterns](https://www.servicenow.com/docs/access?context=kubernetes-discovery&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+-   Install Discovery and Service Mapping Patterns application \(sn\_itom\_pattern\) 1.10.2 or higher. For more information, see .
+-   Install CMDB CI Class Models \(sn\_cmdb\_ci\_class\) version 1.53.1 or higher. For more information, see .
+-   To set up Kubernetes discovery, see .
 
 ## About this task
 
@@ -33,7 +34,7 @@ Role required: Google Cloud administrator
 
 1.  Log in to the [Google Cloud Console](https://cloud.google.com/cloud-console).
 
-2.  Select the menu icon ![Menu icon.](../image/menu-icon.png).
+2.  Select the menu icon \[Omitted image "menu-icon.png"\] Alt text: Menu icon..
 
 3.  Select **Kubernetes Engine**.
 

@@ -2,6 +2,7 @@
 title: View attached knowledge articles
 description: View relevant knowledge articles for reference that are attached to the work order tasks in the Field Service Contractor Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/view-attached-knowledge-articles.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

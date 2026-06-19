@@ -2,6 +2,7 @@
 title: Employee Center
 description: ServiceNow Employee Center portal is a standard multi-department, dynamic portal for service delivery, and employee engagement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/employee-center-landing-page.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -26,19 +27,19 @@ Employee Center overview
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about Employee Center concepts and features.](explore-emp-center.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about Employee Center concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/explore-emp-center.md)
 
 </td><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Set-up the portal and Employee Center features.](setup-emp-center.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Set-up the portal and Employee Center features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/setup-emp-center.md)
 
 </td></tr><tr><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-task-list.svg) View your profile, applications, to-dos, and articles.](using-emp-center.md)
+[Use \[Omitted image "bus-task-list.svg"\] Alt text: View your profile, applications, to-dos, and articles.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/using-emp-center.md)
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about components such as fields, tables, and properties.](../reference/emp-center-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: Integrate Honeycomb events
 description: Integrate Honeycomb with Event Management by creating a webhook and configuring it as a trigger in the Honeycomb platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/honeycomb-event-integration.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -51,7 +52,7 @@ Configure the Event Management environment for the collection of events from Hon
 
     3.  In the **Alerts** section, configure the threshold and frequency in the relevant fields.
 
-    4.  In the **Recipients** section, select **Add Recipient** and select the webhook created in step [1](honeycomb-event-integration.md#webhook-creation).
+    4.  In the **Recipients** section, select **Add Recipient** and select the webhook created in step [1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/honeycomb-event-integration.md).
 
     5.  Select **Save Trigger**.
 
@@ -64,5 +65,5 @@ Alerts flow from the Honeycomb connector into the Event Management plugin. The p
 
 Honeycomb does not send severity information in the trigger message. The default severity for the Honeycomb alert is **3 - Minor**, which can be changed in the Push Connector Configuration section of **Push Connectors** &gt; **Honeycomb Push Connector** . The valid severities are: **1- Critical**, **2- Major**, **3- Minor**, **4- Warning**, and **5- Info**.
 
-**Parent Topic:**[Integrate with push connectors](configure-listener-transform-script.md)
+**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-listener-transform-script.md)
 

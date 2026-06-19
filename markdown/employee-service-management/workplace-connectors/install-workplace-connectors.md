@@ -2,6 +2,7 @@
 title: Install Workplace Connectors
 description: Install the Workplace Connectors application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-connectors/install-workplace-connectors.html
 release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
@@ -17,7 +18,7 @@ Install the Workplace Connectors application from the ServiceNow Store.
 
 ## Before you begin
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 Ensure you have the following plugins:
 
@@ -62,9 +63,9 @@ Role required: admin
 6.  Select **Install**.
 
 
-**Parent Topic:**[Configure Workplace Connectors](configure-workplace-connectors.md)
+**Parent Topic:**[Configure Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/configure-workplace-connectors.md)
 
-**Previous topic:**[Configure Workplace Connectors](configure-workplace-connectors.md)
+**Previous topic:**[Configure Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/configure-workplace-connectors.md)
 
-**Next topic:**[Configure sensor data providers](../task/providers-occupancy.md)
+**Next topic:**[Configure sensor data providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/providers-occupancy.md)
 

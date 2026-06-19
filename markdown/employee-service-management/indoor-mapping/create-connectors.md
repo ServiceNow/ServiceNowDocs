@@ -2,6 +2,7 @@
 title: Create a connector type
 description: Create connectors \(stairs, elevators, escalators, ramps\) and activate the connector type in the View editor. Connector Type contains the style \(icon\) and properties for each connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/indoor-mapping/create-connectors.html
 release: zurich
 product: Indoor Mapping
 classification: indoor-mapping
@@ -25,7 +26,7 @@ Role required: map admin, map editor, map editor limited
 
 1.  To create an icon for your connector type, navigate to **All** &gt; **Indoor Mapping** &gt; **Icons**.
 
-    Indoor Mapping provides a pre-existing icon library. To edit an existing icon, select an icon record and apply your edits. For more information, see [Create Indoor Mapping icons and place types](place-icons-place-type.md).
+    Indoor Mapping provides a pre-existing icon library. To edit an existing icon, select an icon record and apply your edits. For more information, see [Create Indoor Mapping icons and place types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/place-icons-place-type.md).
 
 2.  After creating your icon, navigate to **All** &gt; **Indoor Mapping** &gt; **Connector types**.
 
@@ -33,7 +34,7 @@ Role required: map admin, map editor, map editor limited
 
 3.  Select **New** to create a new connector type.
 
-    ![Create connectors](../images/manage-directions-2.png)
+    \[Omitted image "manage-directions-2.png"\] Alt text: Create connectors
 
     On the form, fill in the fields.
 
@@ -146,5 +147,5 @@ Select any of the following from the drop-down list:-   Up
 10. Select **Save this view** to save your changes.
 
 
-**Parent Topic:**[Manage Directions](enable-interactive-locations.md)
+**Parent Topic:**[Manage Directions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/enable-interactive-locations.md)
 

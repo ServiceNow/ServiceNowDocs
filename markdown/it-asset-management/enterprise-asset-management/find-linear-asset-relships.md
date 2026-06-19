@@ -2,6 +2,7 @@
 title: Find linear asset relationships
 description: You can find relationships between linear assets such as overlapping, continuing, or intersecting assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/find-linear-asset-relships.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -42,5 +43,5 @@ Role required: sn\_eam.enterprise\_asset\_manager
     For each record, the kind of relationship it has with the linear asset is mentioned such as continuing, overlapping, or intersecting.
 
 
-**Parent Topic:**[Create and manage enterprise assets](../concept/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

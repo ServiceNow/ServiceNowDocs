@@ -2,6 +2,7 @@
 title: Roles installed with Privacy Management
 description: The GRC: Privacy Management application installs the roles for the privacy analyst, the privacy manager, and the privacy administrator to perform their respective tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/roles-installed-prm.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -114,7 +115,7 @@ Privacy business user \[sn\_privacy.business\_user\]
 
 </td><td>
 
-Privacy business users can edit the assigned processing activities in the [Discover state](../concept/stages-pa.md), and also respond to the assessments.
+Privacy business users can edit the assigned processing activities in the [Discover state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/stages-pa.md), and also respond to the assessments.
 
 </td><td>
 
@@ -189,5 +190,5 @@ Users with the lite operator role can do the following:
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Privacy Management reference](privacy-mgmt-reference.md)
+</table>**Parent Topic:**[Privacy Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/privacy-mgmt-reference.md)
 

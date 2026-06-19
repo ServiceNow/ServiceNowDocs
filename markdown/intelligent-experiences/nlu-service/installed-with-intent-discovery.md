@@ -2,6 +2,7 @@
 title: Components installed with Intent Discovery
 description: Several types of components are installed with activation of the sn\_nlu\_discovery plugin, including tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/nlu-service/installed-with-intent-discovery.html
 release: zurich
 product: NLU Service
 classification: nlu-service
@@ -15,7 +16,7 @@ breadcrumb: [Install Intent Discovery, Intent Discovery, NLU Workbench - Advance
 
 Several types of components are installed with activation of the sn\_nlu\_discovery plugin, including tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Tables installed
 
@@ -76,5 +77,4 @@ Discovery Report Definition\[sn\_nlu\_discovery\_report\_definition\]
 Includes the necessary information for generating reports.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Intent Discovery](../task/install-intent-discovery.md)
-
+</table>

@@ -2,6 +2,7 @@
 title: Configure a restricted caller access privilege
 description: Configure a restricted caller access privilege for the document templates application with a global scope to allow the legal matter application to perform read operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-hold-notification/config-rca-privilege.html
 release: zurich
 product: Legal Hold Notification
 classification: legal-hold-notification
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  Set the application scope.
 
-    1.  Select the Application scope icon \(![Application scope icon](../../workplace-calendar-synchronization/image/application-scope-globe-icon.png)\).
+    1.  Select the Application scope icon \(\[Omitted image "application-scope-globe-icon.png"\] Alt text: Application scope icon\).
 
     2.  In the filter navigator, search for and select **Document Templates**.
 
@@ -46,5 +47,5 @@ Role required: admin
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Configure Legal Hold Notification](../concept/config-lg-hold-notif.md)
+**Parent Topic:**[Configure Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-hold-notification/config-lg-hold-notif.md)
 

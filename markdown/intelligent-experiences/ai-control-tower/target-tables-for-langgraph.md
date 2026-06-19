@@ -1,19 +1,20 @@
 ---
 title: Target tables for LangGraph
-description: Target tables for storing Service Graph Connector for LangGraph data.
+description: Target tables for storing AI Service Graph Connector for LangGraph data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/target-tables-for-langgraph.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-03-05"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [LangGraph, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [LangGraph, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
 ---
 
 # Target tables for LangGraph
 
-Target tables for storing Service Graph Connector for LangGraph data.
+Target tables for storing AI Service Graph Connector for LangGraph data.
 
 The LangGraph connector uses following main target tables:
 

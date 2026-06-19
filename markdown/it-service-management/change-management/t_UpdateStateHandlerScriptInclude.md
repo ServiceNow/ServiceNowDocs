@@ -2,6 +2,7 @@
 title: Update the state handler script include
 description: Update the ChangeRequestStateHandler script include with the new Complete state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/t\_UpdateStateHandlerScriptInclude.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -41,14 +42,14 @@ The ChangeRequestStateHandler script include defines the states available for th
         this.STATE_NAMES["-6"] = ChangeRequestStateHandler.COMPLETE;
         ```
 
-    ![Modified script](../image/NewStateTutUpdScrptIncl1.png)
+    \[Omitted image "NewStateTutUpdScrptIncl1.png"\] Alt text: Modified script
 
 3.  Click **Update**.
 
 
-**Parent Topic:**[Tutorial: add a new change management state](t_AddNewStateTutorial.md)
+**Parent Topic:**[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/t_AddNewStateTutorial.md)
 
-**Previous topic:**[Create an ACL](t_CreateNewACL.md)
+**Previous topic:**[Create an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/t_CreateNewACL.md)
 
-**Next topic:**[Update the state model script include](t_UpdateStateModelScriptInclude.md)
+**Next topic:**[Update the state model script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/t_UpdateStateModelScriptInclude.md)
 

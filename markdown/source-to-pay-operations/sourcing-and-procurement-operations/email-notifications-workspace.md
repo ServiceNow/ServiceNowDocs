@@ -2,6 +2,7 @@
 title: Email notifications from Playbook
 description: Several email notifications are triggered from Playbook. This may be a result of your action, an assignment for you, or to keep you updated on the status of your purchases, including purchase revisions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/email-notifications-workspace.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -27,7 +28,7 @@ Playbook sends out emails in a predefined template and uses flow designer to tri
 -   Your request to return a product has been confirmed.
 -   Your request to return a product has been rejected.
 
-**Note:** You can adjust the email trigger conditions and content in flow designer or email scripts, if necessary. You can also choose to fetch and use other details that aren’t displayed in the email by default, such as order type for purchase requisitions, product type or request type for sourcing requests, and so on. For detailed information on email templates and how to work with them, see [Email templates](https://www.servicenow.com/docs/access?context=c_EmailTemplates&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US). You can also configure the email layout, and change the background color or font color, for example. The html field in the email layout record must be modified to achieve this. For detailed information on email layouts and how to work with them, see [Email layouts](https://www.servicenow.com/docs/access?context=email-layouts&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** You can adjust the email trigger conditions and content in flow designer or email scripts, if necessary. You can also choose to fetch and use other details that aren’t displayed in the email by default, such as order type for purchase requisitions, product type or request type for sourcing requests, and so on. For detailed information on email templates and how to work with them, see . You can also configure the email layout, and change the background color or font color, for example. The html field in the email layout record must be modified to achieve this. For detailed information on email layouts and how to work with them, see .
 
-**Parent Topic:**[Procurement Case Management](../concept/psd-overview.md)
+**Parent Topic:**[Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/psd-overview.md)
 

@@ -2,6 +2,7 @@
 title: Privacy classic assessments
 description: Privacy assessments are used to collect information from business owners. This information helps the privacy teams to understand how personal information \(PI\) is being used or stored in a processing activity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/privacy-impact-assessments.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -28,8 +29,8 @@ The privacy assessment capability provides multiple configurations options such 
 -   Configuring various types of questions using a simple user interface.
 -   Configuring the creation of processing activities using the responses of the assessments.
 -   Mapping controls to question responses to determine the responses that will automatically map controls to the processing activities.
--   Configuring \[PI\] Information objects for responses to automatically map the information objects to a processing activity. For more information, refer to [Information objects in Privacy Management](information-object-in-privacy.md).
+-   Configuring \[PI\] Information objects for responses to automatically map the information objects to a processing activity. For more information, refer to [Information objects in Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/information-object-in-privacy.md).
 -   Mapping question responses to processing activity fields to automatically fill the required data in the processing activity.
 
-**Parent Topic:**[Exploring Privacy Management](explore-privacy-management.md)
+**Parent Topic:**[Exploring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/explore-privacy-management.md)
 

@@ -2,6 +2,7 @@
 title: Create an investment
 description: Create an investment to fund a target.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/investment-funding/create-investment.html
 release: zurich
 product: Investment Funding
 classification: investment-funding
@@ -59,12 +60,12 @@ Unique name of the investment.
 
 ## What to do next
 
--   [Add a business case](add-business-case.md) to define the business needs of the investment.
--   [Request funds](request-funds-for-investment.md) from a funding source.
--   [Allocate funds](allocate-funds-to-investment.md) from your available funds.
+-   [Add a business case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/add-business-case.md) to define the business needs of the investment.
+-   [Request funds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/request-funds-for-investment.md) from a funding source.
+-   [Allocate funds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/allocate-funds-to-investment.md) from your available funds.
 
--   **[Add a business case for an investment](add-business-case.md)**  
+-   **[Add a business case for an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/add-business-case.md)**  
 Add a business case for an investment to define its business needs and goals.
 
-**Parent Topic:**[Investment Funding](../concept/investment-funding-overview.md)
+**Parent Topic:**[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/investment-funding-overview.md)
 

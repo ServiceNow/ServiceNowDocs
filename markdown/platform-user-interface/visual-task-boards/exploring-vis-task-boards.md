@@ -2,6 +2,7 @@
 title: Exploring Visual Task Boards
 description: Visual Task Boards provide a visual representation of the work that needs to be done, allowing team members to easily collaborate, track and prioritize tasks. You can use Visual Task Boards in a variety of contexts, including project management, personal or team task management, and employee onboarding.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/visual-task-boards/exploring-vis-task-boards.html
 release: zurich
 product: Visual Task Boards
 classification: visual-task-boards
@@ -43,7 +44,7 @@ Teams can easily manage their workloads by assigning and reassigning tasks, upda
 
 </td><td>
 
-[Creating Visual Task Boards](c_VisualTaskBoardUse.md)
+[Creating Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/c_VisualTaskBoardUse.md)
 
 </td></tr><tr><td>
 
@@ -51,7 +52,7 @@ View and share board details or in a list. Add as favourite, share or create a c
 
 </td><td>
 
-[Viewing and sharing Visual Task Boards](viewing-sharing-vis-task-brds.md)
+[Viewing and sharing Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/viewing-sharing-vis-task-brds.md)
 
 </td></tr><tr><td>
 
@@ -59,7 +60,7 @@ Customize and configure Visual Task Boards.
 
 </td><td>
 
-[Customizing and configuring Visual Task Boards](configuring-vis-task-boards.md)
+[Customizing and configuring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/configuring-vis-task-boards.md)
 
 </td></tr><tr><td>
 
@@ -67,7 +68,7 @@ You can edit card details, add attachments, configure card view and card limit, 
 
 </td><td>
 
-[Working with Visual Task Board cards](../reference/r_TaskCards.md)
+[Working with Visual Task Board cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/r_TaskCards.md)
 
 </td></tr><tr><td>
 
@@ -75,19 +76,19 @@ Create checklist and checklist template. Configure task types that can be create
 
 </td><td>
 
-[Visual Task Board checklists](c_VisualTaskBoardChecklists.md)
+[Visual Task Board checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/c_VisualTaskBoardChecklists.md)
 
 </td></tr></tbody>
-</table>-   **[Types of Visual Task Boards](vtb-types.md)**  
+</table>-   **[Types of Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/vtb-types.md)**  
 You can create guided Visual Task Boards, which are driven by data in your ServiceNow® instance. You can also create freeform boards that display a variety of information, or flexible boards, which combine both types.
--   **[Elements of Visual Task Boards](vtb-elements.md)**  
+-   **[Elements of Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/vtb-elements.md)**  
 Visual Task Boards contain cards that represent a task. These cards are arranged in lanes based on the criteria you choose to sort them.
--   **[Visual Task Board tools](../reference/task-board-tools.md)**  
+-   **[Visual Task Board tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/task-board-tools.md)**  
 The task board tools area in a Visual Task Board contains several tabs, each represented by an icon.
--   **[Visual Task Board SLA indicators](c_VTBSLAIndicators.md)**  
+-   **[Visual Task Board SLA indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/c_VTBSLAIndicators.md)**  
 SLA \(service-level agreement\) indicators alert board members if any cards on the board have breached SLAs.
--   **[Visual Task Board accessibility](accessibility-vtb.md)**  
+-   **[Visual Task Board accessibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/accessibility-vtb.md)**  
 Accessibility improvements in Visual Task Boards include skip links and the ability to view card details.
 
-**Parent Topic:**[Personalize your experience](../../../administer/general/concept/personalize-your-experience.md)
+**Parent Topic:**[Personalize your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configure-user-experiences/personalize-your-experience.md)
 

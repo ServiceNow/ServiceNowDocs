@@ -2,6 +2,7 @@
 title: Register a hardware security key
 description: Register a hardware key to use as part of your MFA login.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/mfa-setup-hardware-key-auth.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -29,11 +30,11 @@ Role required: none
 
 3.  Click **Register hardware security Key**.
 
-    ![MFA Authenticators](../images/mfa-authenticator.png)
+    \[Omitted image "mfa-authenticator.png"\] Alt text: MFA Authenticators
 
 4.  Enter a nickname for your hardware key and click **Register**.
 
-    ![MFA - Hardware key setup](../images/mfa-hardware-key.png)
+    \[Omitted image "mfa-hardware-key.png"\] Alt text: MFA - Hardware key setup
 
 5.  When prompted, insert your hardware security key and activate it.
 

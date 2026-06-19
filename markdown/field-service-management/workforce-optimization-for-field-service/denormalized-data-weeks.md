@@ -2,6 +2,7 @@
 title: Update the data stored in denormalized tables
 description: You can change the number of weeks' worth of data stored in denormalized tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/denormalized-data-weeks.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

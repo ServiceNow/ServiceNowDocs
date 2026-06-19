@@ -2,6 +2,7 @@
 title: Index suggestions for slow queries
 description: The Index Suggestion Engine \(ISE\) can generate an index suggestion for a selected slow query. When you request an index suggestion for a slow query, the ISE analyzes the query and recommends an index that can improve the query execution time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-performance/index-suggestions.html
 release: zurich
 product: Platform Performance
 classification: platform-performance
@@ -52,7 +53,7 @@ After an index suggestion is generated, you review the suggestion and determine 
     In the last processing stage, the ISE describes the final state of the index and related processing activity. If the index improved the slow query time, the ISE changes the index state to Created and the database continues to use the index. If the index did not improve the query time and you chose to drop the index, the ISE drops the index from the database and changes the index state to Dropped.
 
 
-![Flowchart that shows the processing stages in the index suggestion life cycle](../image/IndexSuggFlow.png "Index suggestion life cycle")
+\[Omitted image "IndexSuggFlow.png"\] Alt text: Flowchart that shows the processing stages in the index suggestion life cycle
 
 ## Processing states for index suggestions
 
@@ -233,5 +234,5 @@ Superseded
 A recent index suggestion replaced the index for the same table and slow query.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Resolving slow queries](resolving-slow-queries.md)
+</table>**Parent Topic:**[Resolving slow queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/resolving-slow-queries.md)
 

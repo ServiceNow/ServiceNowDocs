@@ -2,7 +2,10 @@
 title: Finalize OAuth configuration
 description: To finalize the OAuth configuration, perform the following steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/finalize-oauth-config.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-11-18"
 reading_time_minutes: 1
@@ -23,7 +26,7 @@ Role required: admin
 
     **Note:** You should export the My SN record rather than individually create it as the system IDs must match for a proper configuration.
 
-2.  Repeat steps 6 and 7 in [Configure the OAuth authentication method](configure-oauth-auth-method.md) for all additional instances that you want to configure with bidirectional communication, but designate a sub-production instance as the Provider, and the Production instance as the Consumer.
+2.  Repeat steps 6 and 7 in [Configure the OAuth authentication method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-oauth-auth-method.md) for all additional instances that you want to configure with bidirectional communication, but designate a sub-production instance as the Provider, and the Production instance as the Consumer.
 
     Information such as name and URL will be taken from the sub-production instance.
 

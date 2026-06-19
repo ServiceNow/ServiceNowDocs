@@ -2,6 +2,7 @@
 title: Multi-language translation
 description: Implement multi-language translation for end-user interfaces. Enable languages and compile translation files.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cpq-multi-language-translation.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -45,10 +46,10 @@ Enabled languages: in addition to the base language, these are the languages you
 2.  To understand how multi-language translation works in ServiceNow CPQ, we recommend that you try a small-scale proof-of-concept before embarking on a wholesale translation effort.
 
     -   Select a picklist field displayed on the end-user layout. Example: In Blueprint1, we will translate Paint Color \[paintColor\]. paintColor has label "Paint Color" and options "Blue", "Yellow", "Green".
-    -   For the purposes of this experiment, assume we enabled Spanish \[es\] in step \#1. You can customize this experiment for one of the languages you enabled in step \#1. In a CSV file, define Spanish \[es\] translations for the field label and the picklist field options:![CSVfile](../images/cpq-spanish-translation-csv.png)
+    -   For the purposes of this experiment, assume we enabled Spanish \[es\] in step \#1. You can customize this experiment for one of the languages you enabled in step \#1. In a CSV file, define Spanish \[es\] translations for the field label and the picklist field options:\[Omitted image "cpq-spanish-translation-csv.png"\] Alt text: CSVfile
     The graphic above is a sample translation upload file. You can find another example on the Matrix Loader page.
 
-    ![Matrix loader](../images/cpq-matrix-loader-translations.png)
+    \[Omitted image "cpq-matrix-loader-translations.png"\] Alt text: Matrix loader
 
 3.  Save the CSV file and upload via Matrix Loader.
 
@@ -60,11 +61,11 @@ To test the buyside user interface, we recommend using the Chrome browser with t
 
 The following graphic shows the English version of the picklist on the buyside UI:
 
-![Paint color](../images/cpq-picklist-buyside-ui-english.png)
+\[Omitted image "cpq-picklist-buyside-ui-english.png"\] Alt text: Paint color
 
 The following graphic shows the Spanish version of the picklist on the buyside UI:
 
-![Select color](../images/cpq-picklist-buyside-ui-spanish.png)
+\[Omitted image "cpq-picklist-buyside-ui-spanish.png"\] Alt text: Select color
 
 The following experiment demonstrates how various custom strings, including those defined in field options and layouts, are translated, uploaded, and deployed to accomplish an English-to-Spanish translation.
 

@@ -2,6 +2,7 @@
 title: Supported Alexa intents
 description: Use the Alexa intents supported by Conversational Integration with Alexa to receive an appropriate response during custom chat integrations with Alexa.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/alexa-intents.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -26,5 +27,5 @@ Use the Alexa intents supported by Conversational Integration with Alexa to rece
 |AMAZON.StopIntent|stop, off, and shut up|End conversation; End Alexa Session|
 |AMAZON.CancelIntent|cancel, never mind, and forget it|End conversation; End Alexa Session|
 
-**Parent Topic:**[Set up Conversational Integration with Alexa](../task/setup-alexa.md)
+**Parent Topic:**[Set up Conversational Integration with Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/setup-alexa.md)
 

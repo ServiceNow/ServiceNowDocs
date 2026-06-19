@@ -2,6 +2,7 @@
 title: Remote request data table
 description: The Remote Request Data \[sn\_ind\_rmt\_help\_request\_data\] table stores the captured parameter data associated with a task record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/emr-help/emr-remote-request-data.html
 release: zurich
 product: EMR Help
 classification: emr-help
@@ -209,5 +210,5 @@ Integer
 Number of updates that have occurred.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[EMR Help data model tables](tables-installed-with-emr-help.md)
+</table>**Parent Topic:**[EMR Help data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/emr-help/tables-installed-with-emr-help.md)
 

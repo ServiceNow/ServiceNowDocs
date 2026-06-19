@@ -2,6 +2,7 @@
 title: Workflows in the Localization Framework
 description: Workflows define actions for completing a localization task. Each localization task undergoes the workflow configured for its target language to complete the task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/localization-framework/workflow-localization-framework.html
 release: zurich
 product: Localization Framework
 classification: localization-framework
@@ -104,5 +105,5 @@ Business Approval → Auto Translation → Auto Publish
 The localization task needs business approval for localization. The content gets auto-translated and auto-published.**Note:** Ensure that you assign the **Business Approver Group**, **Localization Fulfiller Group**, and **Auto Translation Mode** for the workflow to localize the content.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Explore Localization Framework](../concept/exploring-localization-framework.md)
+</table>**Parent Topic:**[Explore Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/exploring-localization-framework.md)
 

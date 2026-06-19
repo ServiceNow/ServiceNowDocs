@@ -2,6 +2,7 @@
 title: Configure Docker for Headless Browser setup in Linux
 description: Complete Step 2 in the Linux setup for the ServiceNow Headless Browser for ATF: Configure Docker Server to authenticate all requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/headless-browser-configure-docker.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -17,7 +18,7 @@ Complete Step 2 in the Linux setup for the ServiceNow® Headless Browser for ATF
 
 ## Before you begin
 
-Complete Step 1: [Generate certificates for Headless Browser setup for Linux](headless-browser-certificates.md)
+Complete Step 1: [Generate certificates for Headless Browser setup for Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/headless-browser-certificates.md)
 
 This task: After creating your client and server keys as directed in Step 1, now you configure the Docker Server to authenticate all requests using those keys, and expose the Docker API on Port 2376.
 
@@ -80,9 +81,9 @@ Role required: admin on your ServiceNow instance and local administrator on the 
     To learn more, see [Manage Docker as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user).
 
 
-**Parent Topic:**[Headless Browser setup for Linux](../concept/headless-browser-procedure-linux.md)
+**Parent Topic:**[Headless Browser setup for Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/headless-browser-procedure-linux.md)
 
-**Previous topic:**[Generate certificates for Headless Browser setup for Linux](headless-browser-certificates.md)
+**Previous topic:**[Generate certificates for Headless Browser setup for Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/headless-browser-certificates.md)
 
-**Next topic:**[Create the Docker image and containers for Headless Browser setup in Linux](headless-browser-create-docker-image-containers.md)
+**Next topic:**[Create the Docker image and containers for Headless Browser setup in Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/headless-browser-create-docker-image-containers.md)
 

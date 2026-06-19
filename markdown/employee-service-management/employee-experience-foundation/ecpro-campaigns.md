@@ -2,6 +2,7 @@
 title: Creating campaigns
 description: Campaigns offer a powerful content publishing tool that provides organizations with the ability to efficiently deliver targeted information to their employees. As a content manager, you can configure multiple channels to ensure content reaches the intended audience at the optimal time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ecpro-campaigns.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -63,45 +64,45 @@ Here's an example of how to structure a company benefits open enrollment campaig
 2.  Open enrollment is here: This stage delivers content during the open enrollment period to provide the necessary information on employee benefits.
 3.  Open enrollment ends soon: In this stage, reminders are sent during the final week of the open enrollment period.
 
-Each campaign stage includes content that will be visible on the employee portal and distributed via email. ![Chart showing campaign structure.](../images/campaign.jpg)
+Each campaign stage includes content that will be visible on the employee portal and distributed via email. \[Omitted image "campaign.jpg"\] Alt text: Chart showing campaign structure.
 
 ## Setting up a campaign
 
 Set up a campaign using one of the following methods:
 
--   [Content Experience Builder](ecpro-campaigns.md#section-campaign-builder)
--   [Legacy \(records and forms\)](ecpro-campaigns.md#section-lists-forms)
+-   [Content Experience Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)
+-   [Legacy \(records and forms\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)
 
 ## Content Experience Builder
 
 With the Content Experience Builder, you can complete the entire workflow of configuring a campaign within a single interface.
 
-1.  [Create content in the Content library](ec-streamline-content.md)
+1.  [Create content in the Content library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-streamline-content.md)
 
     You can create a variety of content types that can be delivered via the employee portal, email, SMS, or push notification.
 
     **Note:** News articles are not yet supported.
 
-2.  [Create a campaign](../task/ecpro-create-campaign.md)
+2.  [Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-create-campaign.md)
 
     Create a campaign to define the audience, content approvers, and start and end dates.
 
-3.  [Create campaign stages with Content Experience Builder](../task/ecpro-campaign-builder.md)
+3.  [Create campaign stages with Content Experience Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-campaign-builder.md)
 
     Add stages to your campaign to define what content users will see and when they will see it. You can also use stages to further refine the audience. For example, you can create one stage to hold content for managers and another stage to hold content for direct reports.
 
-4.  [Add content to a campaign using Content Experience Builder](../task/ecpro-campaigns-manage-content-builder.md)
+4.  [Add content to a campaign using Content Experience Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-campaigns-manage-content-builder.md)
 
     You can add content from the Content library and create a variety of content types in the Content Experience Builder.
 
-    **Note:** If you are creating a campaign that contains rich content, you must create the rich content in the Content Library Rich Content Editor, since the Content Experience Builder does not currently support rich content creation. See [Microsites](ec-rich-content.md)
+    **Note:** If you are creating a campaign that contains rich content, you must create the rich content in the Content Library Rich Content Editor, since the Content Experience Builder does not currently support rich content creation. See [Microsites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-rich-content.md)
 
-5.  [Preview the campaign](ecpro-campaign-preview.md)
+5.  [Preview the campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-campaign-preview.md)
 
     See how your campaign will appear to your audience before publishing.
 
 6.  Publish the campaign from the Content Experience Builder.
-7.  [Analyze the effectiveness of the campaign](ecpro-content-automation-reevaluate-audience.md)
+7.  [Analyze the effectiveness of the campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-content-automation-reevaluate-audience.md)
 
     Verify that your campaign is targeting the correct audience. Create goals to see if your campaign is driving action from your employees, or reducing activity such as the number of inquiry cases coming in. Continually evaluate your campaign as it progresses.
 
@@ -110,24 +111,24 @@ With the Content Experience Builder, you can complete the entire workflow of con
 
 If you prefer to create campaigns using records and forms, or if you are publishing to a custom widget, follow these steps:
 
-1.  [Create content in the Content library](ec-streamline-content.md)
+1.  [Create content in the Content library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-streamline-content.md)
 
     You can create a variety of content types that can be delivered via the employee portal, email, SMS, or push notification.
 
-2.  [Create a campaign](../task/ecpro-manage-campaigns.md)
+2.  [Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-manage-campaigns.md)
 
     Create a campaign to define the audience, content approvers, and start and end dates.
 
-3.  [Create a campaign stage](../task/ecpro-manage-campaign-bundles.md)
+3.  [Create a campaign stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-manage-campaign-bundles.md)
 
     Add stages to your campaign to define what content users will see and when they will see it. You can also use stages to further refine the audience. For example, you can create one stage to hold content for managers and another stage to hold content for direct reports.
 
-4.  [Preview the campaign](ecpro-campaign-preview.md)
+4.  [Preview the campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-campaign-preview.md)
 
     See how your campaign will appear to your audience before publishing.
 
 5.  Publish the campaign
-6.  [Analyze the effectiveness of the campaign](ecpro-content-automation-reevaluate-audience.md)
+6.  [Analyze the effectiveness of the campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-content-automation-reevaluate-audience.md)
 
     Verify that your campaign is targeting the correct audience. Create goals to see if your campaign is driving action from your employees, or reducing activity such as the number of inquiry cases coming in. Continually evaluate your campaign as it progresses.
 

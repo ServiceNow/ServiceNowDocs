@@ -2,6 +2,7 @@
 title: Disable event collection
 description: For performance reasons, you might want to disable the collection of events from a data source from which metric data is also collected. You can disable event collection for data sources such as Nagios XI server, SolarWinds monitoring system, and Zabbix server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/metric-intelligence/disable-event-collection.html
 release: zurich
 product: Metric Intelligence
 classification: metric-intelligence
@@ -76,5 +77,5 @@ var ZabbixJSCustom = Class.create();
 ZabbixJSCustom.prototype = Object.extendsObject(ZabbixJS, {
 ```
 
-**Parent Topic:**[Optimizing Metric Intelligence](../../metric-intelligence/concept/optimizing-metric-intelligence.md)
+**Parent Topic:**[Optimizing Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/metric-intelligence/optimizing-metric-intelligence.md)
 

@@ -2,6 +2,7 @@
 title: Create a Content template
 description: A content template is pre-defined publishing plan for news articles. Create a content template to enable content authors to create and publish higher volumes of news article content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ec-create-content-template.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -26,12 +27,12 @@ Role required: sn\_cd.content\_admin or sn\_cd.content\_template\_owner
     -   Featured News Mobile: the news section on the mobile app
     -   Latest News Home Page: the news widget on the portal Home page
     -   Other News: the news feed widget on the article detail page
-    To publish to a different page and widget, create a custom content destination. See [Add content destination](ec-add-content-destination.md).
+    To publish to a different page and widget, create a custom content destination. See [Add content destination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-add-content-destination.md).
 
--   Define the audience. See [Create an audience](ec-audiences.md).
--   Define content categories to tag the news articles, such as company news, pay and benefits, or industry news. See [Create a content category](../concept/ec-content-cat.md).
--   Define the article layout with a reusable article template. See [Create a news article template](ec-create-news-template.md).
--   Enable and configure Content engagement features. See [Content engagement](../concept/ec-content-engagement.md).
+-   Define the audience. See [Create an audience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-audiences.md).
+-   Define content categories to tag the news articles, such as company news, pay and benefits, or industry news. See [Create a content category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-cat.md).
+-   Define the article layout with a reusable article template. See [Create a news article template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-create-news-template.md).
+-   Enable and configure Content engagement features. See [Content engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-engagement.md).
 
 ## About this task
 

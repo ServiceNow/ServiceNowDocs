@@ -2,6 +2,7 @@
 title: Review related evidence using the Compliance Workspace
 description: The Evidence Request feature includes a related list called Related Evidence that is not visible by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/review-related-evidence-ws.html
 release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

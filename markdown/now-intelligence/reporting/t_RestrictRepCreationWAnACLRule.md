@@ -2,6 +2,7 @@
 title: Restrict report creation with an ACL rule
 description: Create an access control list rule to restrict who can create a report on a table, data source, or database view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/t\_RestrictRepCreationWAnACLRule.html
 release: zurich
 product: Reporting
 classification: reporting
@@ -19,7 +20,7 @@ Create an access control list rule to restrict who can create a report on a tabl
 
 Role required: security\_admin.
 
-**Note:** In addition to [report\_on ACLs](https://www.servicenow.com/docs/access?context=acl-rule-types&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) for specific tables, a write ACL on the \[sys\_report\] table controls write access for all reports. If this ACL prevents you from saving the current report, the **Save** button in the Report Designer is disabled. For example, when you view a report that another user shared with you. If you have the correct security settings, click **Save** &gt; **Insert** to save an editable copy of the report.
+**Note:** In addition to report\_on ACLs for specific tables, a write ACL on the \[sys\_report\] table controls write access for all reports. If this ACL prevents you from saving the current report, the **Save** button in the Report Designer is disabled. For example, when you view a report that another user shared with you. If you have the correct security settings, click **Save** &gt; **Insert** to save an editable copy of the report.
 
 ## Procedure
 
@@ -27,7 +28,7 @@ Role required: security\_admin.
 
 2.  Add an access control record with the following information.
 
-<table id="choicetable_ojc_l32_s4"><tbody><tr><td id="d166197e106">
+<table id="choicetable_ojc_l32_s4"><tbody><tr><td id="d159768e106">
 
 **_Type_**
 
@@ -35,7 +36,7 @@ Role required: security\_admin.
 
 `record`
 
-</td></tr><tr><td id="d166197e121">
+</td></tr><tr><td id="d159768e121">
 
 **_Operation_**
 
@@ -43,7 +44,7 @@ Role required: security\_admin.
 
 ``report_on``
 
-</td></tr><tr><td id="d166197e139">
+</td></tr><tr><td id="d159768e139">
 
 **_Name_ \(table\)**
 
@@ -59,16 +60,16 @@ Role required: security\_admin.
     **Note:**
 
     -   Users can view and run reports on tables even if they cannot create reports due to report\_on ACL restrictions.
-    -   System tables are not reportable by default. To allow reporting against system tables, administrators can configure the **glide.ui.permitted\_tables** property. To learn more, see [Reporting on system tables](../concept/c_ReportOnSystemTables.md).
+    -   System tables are not reportable by default. To allow reporting against system tables, administrators can configure the **glide.ui.permitted\_tables** property. To learn more, see [Reporting on system tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_ReportOnSystemTables.md).
     -   The ACL `report_on` operation grants the right to report on the target table.
-    -   [Database views](../../performance-analytics/concept/performance-analytics-glossary.md#) have their own ACLs. If a user has `report_on` rights to all the tables in a database view, they still require report\_on rights on the database view to create reports on it. See [Database views](https://www.servicenow.com/docs/access?context=c_DatabaseViews&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    -   [Database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md) have their own ACLs. If a user has `report_on` rights to all the tables in a database view, they still require report\_on rights on the database view to create reports on it. See Database views.
 
-**Parent Topic:**[Administering reports](../concept/c_AdminsteringReports.md)
+**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_AdminsteringReports.md)
 
 **Related topics**  
 
 
-[Create an ACL rule](https://www.servicenow.com/docs/access?context=t_CreateAnACLRule&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.t_CreateAnACLRule]
 
-[Access control rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.access-control-rules]
 

@@ -2,6 +2,7 @@
 title: Add a goal to CWM Board
 description: Associate a goal to your Board so that you can plan and track all the tasks and activities that contribute to this goal directly from the Collaborative Work Management workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/collaborative-work-management/add-goal-to-cwm-board.html
 release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -17,7 +18,7 @@ Associate a goal to your Board so that you can plan and track all the tasks and 
 
 ## Before you begin
 
-[Create a Board in CWM](create-boards-in-cwm.md).
+[Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/create-boards-in-cwm.md).
 
 Role required: sn\_cwm.cwm\_user
 
@@ -27,7 +28,7 @@ Role required: sn\_cwm.cwm\_user
 
 2.  From a Space, select a Board that you want to add a goal to.
 
-3.  Edit the Board by selecting the Edit icon \(![Edit icon.](../images/cwm-icon-edit-pencil.png)\) from the Board header.
+3.  Edit the Board by selecting the Edit icon \(\[Omitted image "cwm-icon-edit-pencil.png"\] Alt text: Edit icon.\) from the Board header.
 
 4.  In the Board form on the side panel, select a goal from the **Primary goal** field.
 
@@ -39,10 +40,10 @@ Role required: sn\_cwm.cwm\_user
 -   Within CWM workspace: The current Board is associated with the selected goal, and is shown in the Board details page.
 -   Within Strategic Planning workspace: If the goal that you selected is part of a portfolio plan within Strategic Planning Workspace, you can see that this CWM Board is added to the goal as a planning item.
 
-    ![CWM Board as a planning item for a goal in Strategic Planning Workspace.](../images/cwm-goal-board-relation.png)
+    \[Omitted image "cwm-goal-board-relation.png"\] Alt text: CWM Board as a planning item for a goal in Strategic Planning Workspace.
 
-    **Note:** CWM Board must be configured as a planning item for the lens that is used to create the portfolio plan. For more information, see [Connecting CWM with Strategic Planning or Portfolio Planning](../concept/connect-cwm-spw.md#).
+    **Note:** CWM Board must be configured as a planning item for the lens that is used to create the portfolio plan. For more information, see [Connecting CWM with Strategic Planning or Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/connect-cwm-spw.md).
 
 
-**Parent Topic:**[Managing work using Boards in CWM](../concept/cwm-boards.md)
+**Parent Topic:**[Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/cwm-boards.md)
 

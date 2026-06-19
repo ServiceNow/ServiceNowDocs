@@ -2,6 +2,7 @@
 title: Auto-generate the manifest file for uploading on Microsoft Teams
 description: Auto-generate the manifest file and customize the branding of your Microsoft Teams app so that you can make Virtual Agent available in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/generate-manifest-file-msteams.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -37,7 +38,7 @@ An automated manifest file generator on the new Microsoft Teams UI automatically
     You can edit the manifest form and redownload it as many times as you want.​
 
 
-**Note:** This feature is only applicable when you’re setting up the Virtual Agent integration with Microsoft Teams. If you intend to use ServiceNow for Microsoft Teams with ITSM or HR capabilities, select the **Learn more** link next to **Planning to enable additional ITSM and HR integrations** on the Bot Configuration page. That way, you can configure the manifest in a separate module instead of continuing to configure the manifest here. For more information, see [Create and download the manifest file](https://www.servicenow.com/docs/access?context=download-manifest-file-mt&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+**Note:** This feature is only applicable when you’re setting up the Virtual Agent integration with Microsoft Teams. If you intend to use ServiceNow for Microsoft Teams with ITSM or HR capabilities, select the **Learn more** link next to **Planning to enable additional ITSM and HR integrations** on the Bot Configuration page. That way, you can configure the manifest in a separate module instead of continuing to configure the manifest here. For more information, see Create and download the manifest file.
 
 ## Procedure
 
@@ -47,7 +48,7 @@ An automated manifest file generator on the new Microsoft Teams UI automatically
 
 3.  On the Channels and integrations page, in the Microsoft Teams tile, select **Manage**.
 
-4.  In the Self-configured bot section, select the **Manage Bot** icon ![Manage Bot icon.](../images/manage-bot-icon.png).
+4.  In the Self-configured bot section, select the **Manage Bot** icon \[Omitted image "manage-bot-icon.png"\] Alt text: Manage Bot icon..
 
     If you haven't enabled Message Extension and you are accessing it for the first time, you see a Turn on new feature alert message that informs you that the Message Extension feature for your Microsoft Teams integration is now available to be turned on.
 
@@ -157,7 +158,7 @@ Message Extension
 
 </td><td>
 
-Message extension that lets users search and share the results through the compose message area of the Microsoft Teams client.If you are going to use this bot for Microsoft Copilot, then ensure that you enable **Message Extension**. ![Now Assist Conversation with Microsoft Copilot displaying the Message Extension enabled for your app.](../images/message-extension-teams.png)
+Message extension that lets users search and share the results through the compose message area of the Microsoft Teams client.If you are going to use this bot for Microsoft Copilot, then ensure that you enable **Message Extension**. \[Omitted image "message-extension-teams.png"\] Alt text: Now Assist Conversation with Microsoft Copilot displaying the Message Extension enabled for your app.
 
 By enabling Message Extension for an app or bot, you will see the same app or bot in the message extension area while your conversation with the Now Assist using Microsoft Copilot.
 
@@ -181,7 +182,7 @@ By enabling Message Extension for an app or bot, you will see the same app or bo
 
 ## What to do next
 
-[Upload the manifest package file to publish your bot](upload-package-file-msteams.md).
+[Upload the manifest package file to publish your bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/upload-package-file-msteams.md).
 
-**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams using the self-configured bot](../concept/va-integ-teams-self-configured-bot.md)
+**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams using the self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integ-teams-self-configured-bot.md)
 

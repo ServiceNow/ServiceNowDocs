@@ -2,6 +2,7 @@
 title: Components installed with Workplace Connectors
 description: Several types of components are installed with the installation of the Workplace Connectors application, including user roles and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-connectors/component-workplace-connectors.html
 release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
@@ -75,7 +76,7 @@ Connector Events\[sn\_wsd\_wc\_connector\_events\]
 
 </td><td>
 
-The Connector Events table \(sn\_wsd\_wc\_connector\_events\) loads the badging data shared by badging vendors.The Scheduled Job **Process webhook provider data records** runs every minute to load the badging data from the Connector Events table \(data with State **New**\) to the Employee Attendance Data table. For more information, see [Configure a webhook event](../task/configure-webhook-restapi.md).
+The Connector Events table \(sn\_wsd\_wc\_connector\_events\) loads the badging data shared by badging vendors.The Scheduled Job **Process webhook provider data records** runs every minute to load the badging data from the Connector Events table \(data with State **New**\) to the Employee Attendance Data table. For more information, see [Configure a webhook event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/configure-webhook-restapi.md).
 
 </td></tr><tr><td>
 
@@ -139,7 +140,7 @@ Unit of Measure \[sn\_wsd\_wc\_unit\_of\_measure\]
 
 </td><td>
 
-Unit of measure for air, temperature, VOC, and so on. For more information, see [Set up the Units of measure data table for environmental sensors](../task/wsd-enviromental-unit-measure.md).
+Unit of measure for air, temperature, VOC, and so on. For more information, see [Set up the Units of measure data table for environmental sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/wsd-enviromental-unit-measure.md).
 
 </td></tr><tr><td>
 
@@ -178,13 +179,13 @@ Stores environmental hourly summary data.
 
 Navigate to **All** &gt; **System Definition** &gt; **Scheduled jobs**. Search for Workplace Connectors in the Application column.
 
--   **Process webhook provider data records**: Runs every minute to process webhook event provider data records. For more information, see [Configure a webhook event](../task/configure-webhook-restapi.md).
+-   **Process webhook provider data records**: Runs every minute to process webhook event provider data records. For more information, see [Configure a webhook event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/configure-webhook-restapi.md).
 -   **Process provider data records**; Runs every 5 minutes to process provider data records in Workplace Connectors.
--   **Refresh Provider Space Mapping records**: Runs daily runs daily and executes the space filter condition on the Provider Connector configuration table for the active records where the Auto-refresh field is set to True. For more information, see [Provider Connector Configuration](../task/provider-connector-config-occupancy.md).
+-   **Refresh Provider Space Mapping records**: Runs daily runs daily and executes the space filter condition on the Provider Connector configuration table for the active records where the Auto-refresh field is set to True. For more information, see [Provider Connector Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/provider-connector-config-occupancy.md).
 
-**Parent Topic:**[Workplace Connectors references](../concept/workplace-connectors-references.md)
+**Parent Topic:**[Workplace Connectors references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/workplace-connectors-references.md)
 
-**Previous topic:**[Workplace Connectors references](../concept/workplace-connectors-references.md)
+**Previous topic:**[Workplace Connectors references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/workplace-connectors-references.md)
 
-**Next topic:**[Environmental data form for Workplace Connectors](wsd-environmental-data-form-fields.md)
+**Next topic:**[Environmental data form for Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/wsd-environmental-data-form-fields.md)
 

@@ -2,6 +2,7 @@
 title: Properties of the shared parameters
 description: Learn about the properties of the shared parameters in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/properties-rpahub-shared-parameters.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -22,5 +23,5 @@ Learn about the properties of the shared parameters in RPA Desktop Design Studio
 |Enable Timeout|Option to set a timeout value.|
 |Timeout|Number of seconds that the operation ends after if not completed. To apply this value, you must set the **Enable Timeout** property.|
 
-**Parent Topic:**[Shared Parameters](../concept/shared-parameters.md)
+**Parent Topic:**[Shared Parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/shared-parameters.md)
 

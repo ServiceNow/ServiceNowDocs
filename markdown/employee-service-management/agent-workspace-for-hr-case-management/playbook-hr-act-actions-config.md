@@ -2,6 +2,7 @@
 title: Configure HR Playbook activity actions
 description: Use playbook actions to enable users to complete \(add buttons and lists\) and skip activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/playbook-hr-act-actions-config.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -24,8 +25,6 @@ Role required: sn\_hr\_ws.admin
 1.  Navigate to **All** &gt; **Playbook Experience** &gt; **Activity Actions**.
 
 2.  Enter or edit the form fields.
-
-    For information on the form fields, see Customize Playbook actions.
 
 3.  After editing or creating, click **Update** or **Submit**.
 

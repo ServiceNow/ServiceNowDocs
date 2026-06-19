@@ -2,6 +2,7 @@
 title: Create a custom theme for roadmap
 description: Customize roadmap bar colors to align with your organization’s branding guidelines and maintain visual consistency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/create-custom-roadmap-theme-spw.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -58,7 +59,7 @@ First, let’s name your theme
 1.  Enter a name for your theme in the **Theme name** field.
 2.  \(Optional\) Enter a brief description for your theme in the **Description** field.
 3.  Select **Next** to continue.
- ![Create custom roadmap theme step1.](../images/create-roadmap-theme-step1.png)
+ \[Omitted image "create-roadmap-theme-step1.png"\] Alt text: Create custom roadmap theme step1.
 
 </td></tr><tr><td>
 
@@ -77,7 +78,7 @@ Step 2–8 of 9
 
 1.  \(Optional\) Choose the primary color, secondary color, neutral color, add any extra colors, company logo, font style, user interface corner shapes for your organization on the respective screens.
 2.  Select **Next** to continue until you reach step 9.
- ![Create custom roadmap theme step2.](../images/create-roadmap-theme-step2.png)
+ \[Omitted image "create-roadmap-theme-step2.png"\] Alt text: Create custom roadmap theme step2.
 
 </td></tr><tr><td>
 
@@ -87,16 +88,16 @@ Finally, review your selections.
 
 1.  Review all configured items \(colors, logo, font, and shape\).
 2.  Select **Create theme** to finalize.
- ![Create custom roadmap theme step9.](../images/create-roadmap-theme-step9.png)
+ \[Omitted image "create-roadmap-theme-step9.png"\] Alt text: Create custom roadmap theme step9.
 
 </td></tr></tbody>
-</table>4.  On the Theme Builder page under **Global styles**, select Color icon \(![Theme builder color icon.](../images/theme-builder-color-icon.png)\) to configure colors for your roadmap bars.
+</table>4.  On the Theme Builder page under **Global styles**, select Color icon \(\[Omitted image "theme-builder-color-icon.png"\] Alt text: Theme builder color icon.\) to configure colors for your roadmap bars.
 
-    ![Color option in creating a theme.](../images/custom-theme-color-icon-option.png)
+    \[Omitted image "custom-theme-color-icon-option.png"\] Alt text: Color option in creating a theme.
 
 5.  Under UI colors, in the **Show** option, select **All colors**
 
-    ![All colors option in creating a theme.](../images/custom-theme-ui-colors-all-colors-option.png)
+    \[Omitted image "custom-theme-ui-colors-all-colors-option.png"\] Alt text: All colors option in creating a theme.
 
 6.  Configure Alert colors.
 
@@ -111,7 +112,7 @@ Finally, review your selections.
         -   **Alert Info**
         -   **Alert Positive**
         -   **Alert Low**
-    ![Customizing alert colors for roadmap.](../images/updating-roadmap-alert-colors.gif)
+    \[Omitted image "updating-roadmap-alert-colors.gif"\] Alt text: Customizing alert colors for roadmap.
 
 7.  Configure Grouped colors.
 
@@ -131,10 +132,10 @@ Finally, review your selections.
         -   **Pink Grouped Purple**
         -   **Grouped Teal**
         -   **Grouped Yellow**
-    ![Customizing grouped colors for roadmap.](../images/updating-roadmap-grouped-colors.gif)
+    \[Omitted image "updating-roadmap-grouped-colors.gif"\] Alt text: Customizing grouped colors for roadmap.
 
 
 ## What to do next
 
-Publish your custom theme so that you can apply it to your roadmap. For details, see [Publish a custom roadmap theme](publish-custom-roadmap-theme-spw.md).
+Publish your custom theme so that you can apply it to your roadmap. For details, see [Publish a custom roadmap theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/publish-custom-roadmap-theme-spw.md).
 

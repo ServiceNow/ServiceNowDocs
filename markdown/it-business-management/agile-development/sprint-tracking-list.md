@@ -2,6 +2,7 @@
 title: Track sprint progress in Agile Development 2.0
 description: Track the progress of stories, scrum tasks, and tests for the current sprint from a single consolidated view on the Agile board in Agile Development 2.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/sprint-tracking-list.html
 release: zurich
 product: Agile Development
 classification: agile-development
@@ -44,7 +45,7 @@ Steps 3 through 8 provide different actions to perform on the Sprint Tracking bo
     -   Tests
 4.  Expand each story section to see the details of the tasks or tests added to it.
 
-    You can customize the information shown for these items using the personalize option \(![Update Personalized list icon](../../application-portfolio-management/image/personalisecolumns.png)\).
+    You can customize the information shown for these items using the personalize option \(\[Omitted image "personalisecolumns.png"\] Alt text: Update Personalized list icon\).
 
 5.  Add a new scrum task to a story.
 
@@ -54,7 +55,7 @@ Steps 3 through 8 provide different actions to perform on the Sprint Tracking bo
 
     3.  On the form, fill in the fields.
 
-        For field information, see [Create a scrum task for Agile Development 2.0 stories](../../agile-development/task/create-a-scrum-task.md).
+        For field information, see [Create a scrum task for Agile Development 2.0 stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/create-a-scrum-task.md).
 
     4.  Select **Submit**.
 
@@ -66,14 +67,14 @@ Steps 3 through 8 provide different actions to perform on the Sprint Tracking bo
 
     3.  Enter the short description and select **Submit**.
 
-    A test is created and listed in the story section. You can open the test form, add test steps, verify them and mark the test as ready to run. For information on the test form, see [Test version form in Agile Development 2.0](../../agile-development/reference/test-version-form.md).
+    A test is created and listed in the story section. You can open the test form, add test steps, verify them and mark the test as ready to run. For information on the test form, see [Test version form in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/test-version-form.md).
 
-    **Note:** Adding tests to a Story requires activating the Test Management 2.0 plugin. See [Activate Test Management 2.0](../../test-management2/task/activate-test-management2.md).
+    **Note:** Adding tests to a Story requires activating the Test Management 2.0 plugin. See [Activate Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/activate-test-management2.md).
 
 7.  If there are tests in Ready state for a story, you can run those tests.
 
-    For more information, see [Run tests for a story in Agile Development 2.0](run-test-plan-within-agile.md).
+    For more information, see [Run tests for a story in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/run-test-plan-within-agile.md).
 
 
-**Parent Topic:**[Using Agile Development 2.0](../../agile-development/concept/using-agile-development-2-0.md)
+**Parent Topic:**[Using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/using-agile-development-2-0.md)
 

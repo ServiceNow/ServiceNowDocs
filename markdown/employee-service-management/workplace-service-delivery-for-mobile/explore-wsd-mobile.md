@@ -2,6 +2,7 @@
 title: Exploring Workplace Service Delivery for Mobile
 description: Manage your workplace reservations using the ServiceNow Now Mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-service-delivery-for-mobile/explore-wsd-mobile.html
 release: zurich
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
@@ -33,5 +34,5 @@ Use the workplace services provided by your organization on your mobile directly
 
 **Note:** Using the application, you can create, edit, cancel, check in, and check out a reservation. But you cannot create a recurring reservation or group reservation using the application.
 
-**Parent Topic:**[Workplace Service Delivery for Mobile](wsd-mobile-overview.md)
+**Parent Topic:**[Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery-for-mobile/wsd-mobile-overview.md)
 

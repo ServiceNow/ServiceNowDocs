@@ -2,6 +2,7 @@
 title: RESTAPIResponseStream - Scoped, Global
 description: The RESTAPIResponseStream API provides methods that allow you to write directly to the scripted REST API response stream.Write an input stream to the response stream.Write string data to the response stream.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_ScriptableServiceRespStreamWriter.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,13 +16,13 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The RESTAPIResponseStream API provides methods that allow you to write directly to the scripted REST API response stream.
 
-Use RESTAPIResponseStream methods to build web service APIs in the [Scripted REST API](../../../../../integrate/custom-web-services/concept/c_CustomWebServices.md) feature.
+Use RESTAPIResponseStream methods to build web service APIs in the [Scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_CustomWebServices.md) feature.
 
 This API runs in the `sn_ws` namespace.
 
 **Note:** You cannot instantiate objects of this type. Objects of this type are created automatically and are accessible only in scripted REST API resource scripts.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## RESTAPIResponseStream - writeStream\(Object stream\)
 

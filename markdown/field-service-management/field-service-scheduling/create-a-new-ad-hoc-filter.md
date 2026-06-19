@@ -2,6 +2,7 @@
 title: Create an ad-hoc filter
 description: Create ad-hoc filters directly from Dispatcher Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/create-a-new-ad-hoc-filter.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling

@@ -2,6 +2,7 @@
 title: Banners in Now Assist for Customer Service Management \(CSM\)
 description: Banners display information about generative AI skills and the form fields that are generated or predicted by the those skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-record-banner.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -26,7 +27,7 @@ The generative AI banner displays information about the fields on a form that ar
 
 Messages also include links to the fields that are generated or predicted by Now Assist for CSM.
 
-![Banner with links to predicted fields in CSM Configurable Workspace](../image/now-assist-csm-case-banner.png "Generative AI banner in CSM Configurable Workspace")
+\[Omitted image "now-assist-csm-case-banner.png"\] Alt text: Banner with links to predicted fields in CSM Configurable Workspace
 
 ## Links to generated or predicted fields
 
@@ -43,5 +44,5 @@ Set the following pages as the default record pages in UI Builder:
 -   **CSM default record page**: Includes specific features for case management.
 -   **CSM Interaction record page**: Includes CSM-specific features for interaction management.
 
-These pages support the Now Assist for Customer Service Management \(CSM\) functionality in CSM Configurable Workspace, including the display of the generative AI icon and banner. For more information, see [Set record page order](../task/config-csm-ws-set-record-page-order.md).
+These pages support the Now Assist for Customer Service Management \(CSM\) functionality in CSM Configurable Workspace, including the display of the generative AI icon and banner. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-csm-ws-set-record-page-order.md).
 

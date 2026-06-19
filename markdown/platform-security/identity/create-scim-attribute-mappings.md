@@ -2,6 +2,7 @@
 title: Create a SCIM attribute mapping
 description: Create a SCIM attribute mapping and use it as a single source of resource to the ServiceNow table fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/create-scim-attribute-mappings.html
 release: zurich
 product: Identity
 classification: identity
@@ -42,7 +43,7 @@ The following are the attribute mapping types and their descriptions.
 
 3.  In the  SCIM Attribute Mappings  related list, click  **New**.
 
-    ![SCIM Provider Resource Mapping](../images/new-attribute-mappings.png)
+    \[Omitted image "new-attribute-mappings.png"\] Alt text: SCIM Provider Resource Mapping
 
 4.  On the form, fill in the fields.
 
@@ -80,7 +81,7 @@ Attribute
 
 </td><td>
 
-[Attribute](../reference/attribute-mapping-references.md#section_sbw_3jm_htb) for which the mapping must be defined. For example, **userName**.
+[Attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/attribute-mapping-references.md) for which the mapping must be defined. For example, **userName**.
 
 </td></tr><tr><td>
 
@@ -88,7 +89,7 @@ Sub-Attribute
 
 </td><td>
 
-[Sub-Attribute](../reference/attribute-mapping-references.md#section_o4h_cmm_htb) \(if any\) for which the mapping must be defined.
+[Sub-Attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/attribute-mapping-references.md) \(if any\) for which the mapping must be defined.
 
  For example, if there is a complex type attribute like **name.familyName**, then the attribute is **name** and the sub-attribute is **familyName**.
 
@@ -120,7 +121,7 @@ Filter Condition
 
 </td><td>
 
-Some multi-valued attributes can have additional information that can be specified by using a [Filter Condition](../reference/attribute-mapping-references.md#section_gfm_ymm_htb). The choices of filter condition are populated using the schemas defined by the SCIM Provider.
+Some multi-valued attributes can have additional information that can be specified by using a [Filter Condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/attribute-mapping-references.md). The choices of filter condition are populated using the schemas defined by the SCIM Provider.
 
  For example, the **phoneNumbers** attribute has multiple types like work, mobile, home, and so on
 
@@ -148,7 +149,7 @@ Database Field Name
 
 </td><td>
 
-The[Database Field Name](../reference/attribute-mapping-references.md#section_a1t_4sm_htb) field maps the SCIM attribute to the ServiceNow field name to be mapped with the SCIM Attribute. If you choose direct attribute mapping, you must define this field.
+The[Database Field Name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/attribute-mapping-references.md) field maps the SCIM attribute to the ServiceNow field name to be mapped with the SCIM Attribute. If you choose direct attribute mapping, you must define this field.
 
  For example, the **username** SCIM Attribute can be mapped to the **User ID** field in the **Database Field Name** field.
 
@@ -158,7 +159,7 @@ Default Value
 
 </td><td>
 
-Details about the [default value](../reference/attribute-mapping-references.md#section_e2t_zvm_htb) that is passed to the SCIM Provider.
+Details about the [default value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/attribute-mapping-references.md) that is passed to the SCIM Provider.
 
  Can be used if the direct attribute mapping of the field returns null, or if the default can be used to return a hard-coded value.
 
@@ -180,7 +181,7 @@ Option to fetch the value of the attribute via script.
 
 </td></tr><tr><td>
 
-[Script](../reference/attribute-mapping-references.md#section_hpd_1wm_htb)
+[Script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/attribute-mapping-references.md)
 
 </td><td>
 

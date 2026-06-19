@@ -2,11 +2,12 @@
 title: Configure Azure DevOps for JFrog
 description: Configure your Azure DevOps instance to enable upload and download of JFrog artifacts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/jfrog-configure-azure.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [JFrog, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -22,7 +23,7 @@ The following settings are required in your Azure DevOps instance:
 3.  Select **New service connection**, search and select the installed **JFrog Artifactory** plugin, and select **Next**.
 4.  Enter your JFrog instance details and create a service connection for JFrog.
 
-    ![New JFrog Artifactory service connection.](../image/jfrog-config-azure-01.png)
+    \[Omitted image "jfrog-config-azure-01.png"\] Alt text: New JFrog Artifactory service connection.
 
     **Note:** The **Username** and **Password** fields must contain the credentials to your JFrog instance entered in the **Server URL** field.
 
@@ -40,7 +41,7 @@ To upload artifacts:
     3.  Select the **Collect build info** check box.
     4.  The **Build number** field should contain the **BuildId** parameter.
     5.  Select **Add**.
-    ![Artifactory Generic Upload task.](../image/jfrog-config-azure-02.png)
+    \[Omitted image "jfrog-config-azure-02.png"\] Alt text: Artifactory Generic Upload task.
 
 4.  Add the task **Artifactory Publish Build Info** for publishing build info.
 5.  For the **Artifactory Publish Build Info** task:
@@ -48,7 +49,7 @@ To upload artifacts:
     1.  Select the service connection you created for JFrog.
     2.  The **Build number** field should contain the **BuildId** parameter.
     3.  Select **Add**.
-    ![Artifactory Publish Build Info task.](../image/jfrog-config-azure-03.png)
+    \[Omitted image "jfrog-config-azure-03.png"\] Alt text: Artifactory Publish Build Info task.
 
 
 **Sample pipeline to upload artifacts from Azure DevOps to JFrog**
@@ -155,5 +156,5 @@ stages:
             buildNumber: '$(Build.BuildId)'
 ```
 
-**Parent Topic:**[JFrog integration with DevOps Change Velocity](../concept/devops-jfrog-integration.md)
+**Parent Topic:**[JFrog integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/devops-jfrog-integration.md)
 

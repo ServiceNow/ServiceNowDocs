@@ -2,6 +2,7 @@
 title: PADomainUtils - copy\(String runAs\)
 description: Copies Performance Analytics records to a different domain.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/r\_PADU-copy\_String.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -15,7 +16,7 @@ breadcrumb: [PADomainUtils - Global, Domain separation, Configure advanced featu
 
 Copies Performance Analytics records to a different domain.
 
-To copy dashboards or scheduled jobs, see [copyDashboard](PADU-copyDashboard_S_S.md) and [copyJob](r_PADU-copyJob_String_String.md).
+To copy dashboards or scheduled jobs, see [copyDashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/PADU-copyDashboard_S_S.md) and [copyJob](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/r_PADU-copyJob_String_String.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -31,5 +32,5 @@ var pa = new SNC.PADomainUtils();
 pa.copy('09ff3d105f231000b12e3572f2b4775d');
 ```
 
-**Parent Topic:**[PADomainUtils - Global](../concept/c_PADomainUtils.md)
+**Parent Topic:**[PADomainUtils - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_PADomainUtils.md)
 

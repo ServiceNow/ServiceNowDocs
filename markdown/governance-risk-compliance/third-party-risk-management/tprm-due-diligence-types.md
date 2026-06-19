@@ -2,6 +2,7 @@
 title: Types of due diligence
 description: In the due diligence process, you typically conduct several types of due diligence to gather relevant information and assess various aspects of the third party. The particular types of due diligence that you conduct vary depending on the nature and criticality of the engagement and the risks involved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-due-diligence-types.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -46,26 +47,26 @@ Financial due diligence evaluates a third party or engagement's financial health
 
 -   Questionnaire templates with financial questions and document requests that you can send to the third party or engagement using an assessment through the third‑party portal.
 
-    For more information see, [Sample questionnaires](../../grc-workspace-vrm/reference/tprm-questionnaire-types.md) and [Create an external assessment](../task/tprm-create-assessment.md).
+    For more information see, [Sample questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-questionnaire-types.md) and [Create an external assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-create-assessment.md).
 
 -   Due Diligence Request \(DDR\) workflows that orchestrate internal review, external assessment, approvals, and contract risk checks.
 
-    For more information see, [Due diligence workflow](../../grc-workspace-vrm/concept/tprm-workflow-in-workspace.md).
+    For more information see, [Due diligence workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-workflow-in-workspace.md).
 
 -   Reports and dashboards to track active requests, aging items, and completion timelines.
 
-    For more information see, [Monitoring the due diligence request process](../../grc-workspace-vrm/concept/tprm-ws-dd-mgt-pg-overview.md).
+    For more information see, [Monitoring the due diligence request process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-overview.md).
 
 
 Access these features by navigating to the **Vendor Management Workspace**:
 
-1.  Go to **Workspaces** &gt; **Vendor Management Workspace**. On the **Risk** tab, select the due diligence management icon ![](../../grc-workspace-vrm/image/icon-tprm-ws-dd-mgt.png).
+1.  Go to **Workspaces** &gt; **Vendor Management Workspace**. On the **Risk** tab, select the due diligence management icon \[Omitted image "icon-tprm-ws-dd-mgt.png"\] Alt text:.
 2.  On the Due diligence management page, select a stage \(IRQ, Due diligence, Approvals, Contract risk, Final review, Closed\) to view actionable lists.
 3.  Open a Due diligence request record to manage the workflow.
 4.  To send financial questionnaires or document requests from a DDR or an Assessment record, create an assessment.
 5.  Use the Due Diligence Management page to monitor status and aging.
 
-For more information see, [Monitoring the due diligence request process](../../grc-workspace-vrm/concept/tprm-ws-dd-mgt-pg-overview.md) and [Create an external assessment](../task/tprm-create-assessment.md).
+For more information see, [Monitoring the due diligence request process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-overview.md) and [Create an external assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-create-assessment.md).
 
-**Note:** Activate the Third‑party Risk Due Diligence plugin \(com.sn\_tprm\_dd\) to enable preconfigured workflows and the Risk Concentration Map. For more information, see [Configuring Third-party Risk Management](tprm-configuring.md) and [Enable the TPRM Risk concentration map](../../grc-vendor-risk-implementation/task/tprm-risk-map-configure.md).
+**Note:** Activate the Third‑party Risk Due Diligence plugin \(com.sn\_tprm\_dd\) to enable preconfigured workflows and the Risk Concentration Map. For more information, see [Configuring Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-configuring.md) and [Enable the TPRM Risk concentration map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-risk-map-configure.md).
 

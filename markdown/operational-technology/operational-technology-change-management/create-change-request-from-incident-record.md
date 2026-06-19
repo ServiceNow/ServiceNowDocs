@@ -2,6 +2,7 @@
 title: Create a change request from an incident record
 description: Create an Operational Technology \(OT\) change request from an OT incident record. By creating a change request directly from an incident record, the data is automatically mapped to the new change request from the incident record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-change-management/create-change-request-from-incident-record.html
 release: zurich
 product: Operational Technology Change Management
 classification: operational-technology-change-management
@@ -33,13 +34,13 @@ Role required: sn\_ot\_incident\_write, sn\_ot\_incident\_admin, or sn\_ot\_chan
 
 5.  Select the change model that is applicable to your organization.
 
-    For more information, see [Select a change model to fulfill change requests](select-change-model.md).
+    For more information, see [Select a change model to fulfill change requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-change-management/select-change-model.md).
 
 6.  Select **Create OT Change record**.
 
 7.  Fill in the playbook and related forms as needed.
 
-    For more information about the playbook and related forms, see [Basic OT Change Model playbook](../concept/basic-ot-change-model.md) and [Advanced OT Change Model playbook](../concept/advanced-ot-change-model.md) depending on which OT change model you chose.
+    For more information about the playbook and related forms, see [Basic OT Change Model playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-change-management/basic-ot-change-model.md) and [Advanced OT Change Model playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-change-management/advanced-ot-change-model.md) depending on which OT change model you chose.
 
     **Note:** In the Details related list of the new change request, the following fields and related lists are automatically filled in with the values from the related OT incident record:
 
@@ -53,5 +54,5 @@ Role required: sn\_ot\_incident\_write, sn\_ot\_incident\_admin, or sn\_ot\_chan
         **Note:** A **Priority** field value from 1 through 4 is the same in the new change record. But a value of 5 in the incident record's **Priority** field is changed to 4 in the new change record.
 
 
-**Parent Topic:**[Using Operational Technology Change Management](../concept/using-operational-technology-change-management.md)
+**Parent Topic:**[Using Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-change-management/using-operational-technology-change-management.md)
 

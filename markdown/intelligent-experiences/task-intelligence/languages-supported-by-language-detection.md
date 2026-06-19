@@ -2,6 +2,7 @@
 title: Languages supported by Task Intelligence
 description: The Task Intelligence application provides support for predictions in different languages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/task-intelligence/languages-supported-by-language-detection.html
 release: zurich
 product: Task Intelligence
 classification: task-intelligence

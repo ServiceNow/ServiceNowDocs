@@ -2,6 +2,7 @@
 title: IdentificationEngine - Scoped
 description: The IdentificationEngine API uses the Identification and Reconciliation framework to minimize the creation of duplicate configuration items \(CIs\) and to reconcile CI attributes by only accepting information from authorized data sources when updating the Configuration Management Database \(CMDB\).Inserts or updates configuration items \(CI\) and non-Configuration Management Database \(CMDB\) CIs \(classes not extending from cmdb\_ci\) in the CMDB based on identification and reconciliation rules. Use this API instead of updating the CMDB directly.Inserts or updates configuration items \(CI\) and non-Configuration Management Database \(CMDB\) CIs \(classes not extending from cmdb\_ci\) in the CMDB based on identification and reconciliation rules. Use this API instead of updating the CMDB directly.Determines the operation \(insert/update\) to perform with the specified payload without committing the operation in the database.Determines the Configuration Management Database \(CMDB\) operation \(insert/update\) to perform with the specified payload \(request body\), without committing the operations in the database.Runs an identification audit against the specified configuration item \(CI\) to detect duplicates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/IdentificationEngineScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,13 +18,13 @@ The IdentificationEngine API uses the Identification and Reconciliation framewor
 
 When using this class in a scoped application, use the `sn_cmdb` namespace identifier.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## IdentificationEngine - createOrUpdateCI\(String source, String input\)
 
 Inserts or updates configuration items \(CI\) and non-Configuration Management Database \(CMDB\) CIs \(classes not extending from cmdb\_ci\) in the CMDB based on identification and reconciliation rules. Use this API instead of updating the CMDB directly.
 
-For additional information on non-CMDB table ingestion, see [IRE support for non-CMDB tables](https://www.servicenow.com/docs/access?context=ire-support-non-cmdb-tables&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+For additional information on non-CMDB table ingestion, see .
 
 <table class="parameters"><thead><tr><th>
 
@@ -1130,7 +1131,7 @@ Index values for CIs from the request body **items** array that correspond to th
 
 </td><td id="entry_return_item_maskedAttributes">
 
-List of attributes whose update by a non-authoritative data source was skipped as defined by the [Reconciliation Rules](https://www.servicenow.com/docs/access?context=create-reconciliation-rule&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).Data type: Array
+List of attributes whose update by a non-authoritative data source was skipped as defined by the Reconciliation Rules.Data type: Array
 
 </td></tr><tr><td>
 
@@ -1974,9 +1975,9 @@ In addition to providing the functionality of the createOrUpdateCI\(\) method, t
 -   Removing duplicate items within a payload
 -   Generating output summaries
 
-For additional information on IRE and more detailed explanations of the data used by this method, see [Identification and Reconciliation \(IRE\)](https://www.servicenow.com/docs/access?context=ire&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+For additional information on IRE and more detailed explanations of the data used by this method, see Identification and Reconciliation \(IRE\).
 
-For additional information on non-CMDB table ingestion, see [IRE support for non-CMDB tables](https://www.servicenow.com/docs/access?context=ire-support-non-cmdb-tables&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+For additional information on non-CMDB table ingestion, see .
 
 <table id="table_vyh_fvh_sjb" class="parameters"><thead><tr><th>
 
@@ -2789,7 +2790,7 @@ Boolean
 
 </td><td id="entry_options_partial_commits">
 
-Flag that indicates whether partial commit support is enabled. For additional information on partial commits, see [Enhanced IRE features](https://www.servicenow.com/docs/access?context=ire&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).Valid values:
+Flag that indicates whether partial commit support is enabled. For additional information on partial commits, see Enhanced IRE features.Valid values:
 
 -   true: Partial commit enabled.
 -   false: Partial commit disabled.
@@ -2806,7 +2807,7 @@ Boolean
 
 </td><td id="entry_options_partial_payloads">
 
-Flag that indicates whether partial payload support is enabled. For additional information on partial payloads, see [Enhanced IRE features](https://www.servicenow.com/docs/access?context=ire&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) and [Create an IRE data source rule](https://www.servicenow.com/docs/access?context=create-ire-data-source-rule&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).Valid values:
+Flag that indicates whether partial payload support is enabled. For additional information on partial payloads, see Enhanced IRE features and Create an IRE data source rule.Valid values:
 
 -   true: Partial payload enabled.
 -   false: Partial payload disabled.
@@ -3620,7 +3621,7 @@ Indexes of the corresponding input CI. For top-level items, it is a list of inte
 
 </td><td id="entry_return_item_maskedAttributes">
 
-List of attributes whose update by a non-authoritative data source was skipped as defined by the [Reconciliation Rules](https://www.servicenow.com/docs/access?context=create-reconciliation-rule&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).Data type: Array
+List of attributes whose update by a non-authoritative data source was skipped as defined by the Reconciliation Rules.Data type: Array
 
 </td></tr><tr id="row_return_item_operation"><td>
 
@@ -4500,7 +4501,7 @@ Determines the Configuration Management Database \(CMDB\) operation \(insert/upd
 
 Use this method to simulate submission of a payload.
 
-This method is similar to the [IdentificationEngine - identifyCI\(String jsonString\)](IdentificationEngineScopedAPI.md#) method, however it also supports the following functionality:
+This method is similar to the [IdentificationEngine - identifyCI\(String jsonString\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/IdentificationEngineScopedAPI.md) method, however it also supports the following functionality:
 
 -   Partial payloads
     -   In case of an item having a warning or error, indicates if an item operation is INSERT\_AS\_PARTIAL or INSERT\_INCOMPLETE.
@@ -5319,7 +5320,7 @@ Boolean
 
 </td><td id="entry_options_partial_commits">
 
-Flag that indicates whether partial commit support is enabled. For additional information on partial commits, see [Enhanced IRE features](https://www.servicenow.com/docs/access?context=ire&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).Valid values:
+Flag that indicates whether partial commit support is enabled. For additional information on partial commits, see Enhanced IRE features.Valid values:
 
 -   true: Partial commit enabled.
 -   false: Partial commit disabled.
@@ -5336,7 +5337,7 @@ Boolean
 
 </td><td id="entry_options_partial_payloads">
 
-Flag that indicates whether partial payload support is enabled. For additional information on partial payloads, see [Enhanced IRE features](https://www.servicenow.com/docs/access?context=ire&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) and [Create an IRE data source rule](https://www.servicenow.com/docs/access?context=create-ire-data-source-rule&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).Valid values:
+Flag that indicates whether partial payload support is enabled. For additional information on partial payloads, see Enhanced IRE features and Create an IRE data source rule.Valid values:
 
 -   true: Partial payload enabled.
 -   false: Partial payload disabled.
@@ -5770,7 +5771,7 @@ Indexes of the corresponding input CI. For top-level items, it is a list of inte
 
 </td><td id="entry_return_item_maskedAttributes">
 
-List of attributes whose update by a non-authoritative data source was skipped as defined by the [Reconciliation Rules](https://www.servicenow.com/docs/access?context=create-reconciliation-rule&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).Data type: Array
+List of attributes whose update by a non-authoritative data source was skipped as defined by the Reconciliation Rules.Data type: Array
 
 </td></tr><tr><td>
 

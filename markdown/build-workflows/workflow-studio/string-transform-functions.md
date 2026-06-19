@@ -2,6 +2,7 @@
 title: String transform functions
 description: Use string transform functions to reformat or perform calculations on String data pills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/string-transform-functions.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -15,7 +16,7 @@ breadcrumb: [Transform functions, Flows, subflows, and actions reference, Refere
 
 Use string transform functions to reformat or perform calculations on String data pills.
 
-String transform functions require a String input data pill. Make sure to use the correct input [data pill type](action-inputs-outputs.md) when applying string transform functions. If a string transform function is applied to an improper data type, the data is not transformed at runtime and the input value is returned instead. For more information on confirming your flow runtime values, see [Test a flow](../task/flow-test.md).
+String transform functions require a String input data pill. Make sure to use the correct input [data pill type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/action-inputs-outputs.md) when applying string transform functions. If a string transform function is applied to an improper data type, the data is not transformed at runtime and the input value is returned instead. For more information on confirming your flow runtime values, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-test.md).
 
 ## Convert String to Number
 
@@ -77,7 +78,7 @@ Returns the first character of the input String.
 
 In this example, the flow triggers when a User \[sys\_user\] record is created. The flow then updates the **City** field for the User \[sys\_user\] record with a code that is represented as the first character of the city's name.
 
-![Update the city code for a user.](../images/first-character-transform-function-example.png)
+\[Omitted image "first-character-transform-function-example.png"\] Alt text: Update the city code for a user.
 
 ## Last Character
 
@@ -249,7 +250,7 @@ Removes white space from the beginning and end of the input String. Does not rem
 
 In this example, the action makes a REST call to a third-party system and GETs a response body containing data about a server. Then, the Trim transform function removes any unwanted white space before adding the server's name to a new record in the Server \[cmdb\_ci\_server\] table.
 
-![Trim white space from a server name before adding it to the CMDB.](../images/trim-transform-function-example.png)
+\[Omitted image "trim-transform-function-example.png"\] Alt text: Trim white space from a server name before adding it to the CMDB.
 
-**Parent Topic:**[Transform functions](../concept/transform-functions.md)
+**Parent Topic:**[Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/transform-functions.md)
 

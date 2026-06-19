@@ -1,24 +1,25 @@
 ---
 title: View assistants
-description: View and mange all existing chat and voice assistants on your instance.
+description: View and manage all existing chat and voice assistants on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/now-assist-in-virtual-agent/view-assistants.html
 release: zurich
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: task
 last_updated: "2025-09-10"
-reading_time_minutes: 6
+reading_time_minutes: 7
 keywords: [Now Assist, Virtual Agent, LLM, Large language model]
 breadcrumb: [Configuring assistants overview, Now Assist in Virtual Agent, Conversational Interfaces]
 ---
 
 # View assistants
 
-View and mange all existing chat and voice assistants on your instance.
+View and manage all existing chat and voice assistants on your instance.
 
 ## Before you begin
 
-See [Configuring assistants overview](configure-now-assist-va.md).
+See [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
 To view the **Assistants** tab in Assistant Designer, verify that the Now Assist for Platform plugin is installed. The plugin comes with Now Assist products such as Now Assist for ITSM, Now Assist for CSM, and others.
 
@@ -26,12 +27,14 @@ To view the **Assistants** tab in Assistant Designer, verify that the Now Assist
 
 -   With the Now Assist for Platform plugin, you can see all Now Assist in Virtual Agent and Now Assist panel assistants.
 -   If you only have the Now Assist for Creator plugin installed, only the Now Assist panel - Developer assistant is shown.
+-   When the **com.snc.ex\_ai\_portal** \(Employee Slate\) app is installed, the default Employee Slate assistant is available, and it is automatically displayed with Employee Slate, a portal-based employee experience. For more information, see Employee Slate.
 
 |Default assistants|Activate|Deactivate|Edit|Test|Delete|
 |------------------|--------|----------|----|----|------|
 |Now Assist in Virtual Agent \(default\)|Yes|Yes|Yes|Yes|No|
 |Now Assist panel - Platform \(default\)|Yes|Yes|Yes|Yes|No|
 |Now Assist - Developer|Yes|Yes|Yes|Yes|No|
+|Employee Slate assistant \(default\)|Yes|Yes|Yes|Yes|No|
 |Now Assist Voice Deployment|Yes|Yes|Yes|No|No|
 
 Role required: virtual\_agent\_admin or admin
@@ -40,7 +43,7 @@ Role required: virtual\_agent\_admin or admin
 
 By default, chat assistants and voice assistants are shown as cards. Voice assistants show a voice label and icon on the card. Voice assistants can only be edited. They can’t be tested in Assistant Designer at the moment.
 
-![View chat and voice assistants in card view.](../image/NAinVA-card-view-122025.png "Assistant card view") ![]( "Assistant card view")
+\[Omitted image "NAinVA-employee-slate-052026.png"\] Alt text: View chat and voice assistants in card view.
 
 Assistants are shown in card view and in map view.
 
@@ -56,22 +59,22 @@ Assistants are shown in card view and in map view.
         -   Activate/deactivate is inactive.
         -   Delete is inactive.
         -   Edit triggers the assistant edit flow, but all fields are read-only.
-    -   Assistants from the global domain can be edited, activated, deactivated, or deleted as long as you're in the global domain. To switch domains, open a new browser tab and navigate to anywhere that has Unified Navigation and select the globe icon to switch domains. For more information, see [Exploring Next Experience pickers](https://www.servicenow.com/docs/access?context=next-experience-pickers&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US). If the domain plugin is installed, these options are available:
+    -   Assistants from the global domain can be edited, activated, deactivated, or deleted as long as you're in the global domain. To switch domains, open a new browser tab and navigate to anywhere that has Unified Navigation and select the globe icon to switch domains. For more information, see . If the domain plugin is installed, these options are available:
         -   **Domain scope: Default** determines the domain that you are in.
-        -   **Application scope: Global** determines the store app pr plugin scope that you are in.
+        -   **Application scope: Global** determines the store app or plugin scope that you are in.
         -   **Update set: Default \[Global\]** determines where updates are made on the instance are saved.
-    -   For more information on domain separation, see [Exploring domain separation](https://www.servicenow.com/docs/access?context=c_DomainSeparation&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) and [Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+    -   For more information on domain separation, see  and .
 
-Select the **View as cards** drop-down menu to toggle to the map view. The linkage between primary and secondary assistants is shown. For general information about primary and secondary assistants, see [LLM assistants](../concept/llm-assistants.md).
+Select the **View as cards** drop-down menu to toggle to the map view. The linkage between primary and secondary assistants is shown. For general information about primary and secondary assistants, see [LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/llm-assistants.md).
 
 -   In the map view, primary assistants on the top row show secondary assistants that are linked to them.
 -   Green indicates that the assistant is turned on. Gray indicates that the assistant is turned off.
 
-The side panel shows where you left off, recent activity, and resources. The links that appear within the **Resources** section are hard-coded and can't be changed. If you select the **Manage model provider \(Now LLM\)** link, you will be redirected to Now Assist Admin console. For more information, see [Manage model providers](https://www.servicenow.com/docs/access?context=edit-model-providers&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+The side panel shows where you left off, recent activity, and resources. The links that appear within the **Resources** section are hard-coded and can't be changed. If you select the **Manage model provider \(Now LLM\)** link, you will be redirected to Now Assist Admin console. For more information, see .
 
 To change the LLM provider for all assistants on the instance, select **Customize** &gt; **Edit provider for a skill group** &gt; **AI agents**.
 
-![Select LLM provider from a drop-down list.](../image/NAinVA-LLM-provider.png "Change LLM provider for an assistant")
+\[Omitted image "NAinVA-LLM-provider.png"\] Alt text: Select LLM provider from a drop-down list.
 
 ## Procedure
 
@@ -79,37 +82,40 @@ To change the LLM provider for all assistants on the instance, select **Customiz
 
     The new assistant is a Now Assist in Virtual Agent assistant.
 
-    ![Create a chat or voice assistant.](../image/NAinVA-create-assistant-122025.png "Create an assistant")
+    \[Omitted image "NAinVA-create-assistant-122025.png"\] Alt text: Create a chat or voice assistant.
 
     The assistant creation flow launches where you can choose between a chat-based assistant or a voice-based assistant.
 
-    ![Select a chat or voice assistant.](../image/NAinVA-select-assistant-122025.png "Select a chat or voice assistant")
+    \[Omitted image "NAinVA-select-assistant-122025.png"\] Alt text: Select a chat or voice assistant.
 
     Follow the procedures to set up your chat assistant or voice assistant.
 
 2.  To set up your chat assistant, see:
 
-3.  1.  [Create a chat assistant](create-assistant.md).
-2.  [Use agentic support for a chat assistant](use-agentic-support.md).
-3.  [Assign search sources to a chat assistant](add-info-sources-assistant.md).
-4.  [Add a Knowledge Graph schema to a chat assistant](add-kg-schema-assistant.md).
-5.  [Add assets to a chat assistant](add-assets.md).
-6.  [Display your chat assistant on a portal, channel, or mobile app](display-assistant-portal-channel.md).
-7.  For Now Assist panel assistants, see [Display your assistant on Platform or ServiceNow Studio](display-nap-assistant.md).
-8.  [Brand an assistant](brand-assistant.md).
-9.  [Enable additional chat features](additional-chat-features.md).
-10. [Manage an assistant chat experience](manage-assistant-chat-experience.md).
-11. [Review chat assistant settings](review-assistant-settings.md).
-12. [Test a chat assistant](test-assistant.md).
-13. [Edit a chat assistant](edit-assistant.md).
-4.  To set up your voice assistant, see [Create a voice assistant](configure-voice-assistants.md).
+3.  1.  [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md).
+2.  [Use agentic support for a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/use-agentic-support.md).
+3.  [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/add-info-sources-assistant.md).
+4.  [Add a Knowledge Graph schema to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/add-kg-schema-assistant.md).
+5.  [Add assets to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/add-assets.md).
+6.  [Display your chat assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
+7.  For Now Assist panel assistants, see [Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/display-nap-assistant.md).
+8.  [Brand and personalize an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/brand-assistant.md).
+9.  [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md).
+10. [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/manage-assistant-chat-experience.md).
+11. [Review chat assistant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/review-assistant-settings.md).
+12. [Test a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/test-assistant.md).
+13. [Edit a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/edit-assistant.md).
+14. [Manage response feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/manage-sentiment-survey.md).
+4.  To set up your voice assistant, see [Create a voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-voice-assistants.md).
+
+    To test your voice assistant, see [Test a voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/test-a-voice-assistant.md).
 
 5.  Select the ellipsis to activate, deactivate, or delete an assistant.
 
 
 ## What to do next
 
-For chat assistants, see [Create a chat assistant](create-assistant.md).
+For chat assistants, see [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md).
 
-For voice assistants, see [Create a voice assistant](configure-voice-assistants.md).
+For voice assistants, see [Create a voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-voice-assistants.md).
 

@@ -2,6 +2,7 @@
 title: Enforce ACL on HR Core Data \[New in Security Center 2.0\]
 description: Learn how to configure the glide.enforce\_security\_scope.sn\_hr\_core property so that the Human Resources Scoped App: Core \(com.sn\_hr\_core\) plugin does not expose sensitive data to access control lists \(ACLs\) from all other scopes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-enforce-acl-on-hr-core-data.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -75,7 +76,7 @@ Category
 
 </td><td>
 
-[Access control](sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -101,8 +102,8 @@ References
 
 </td><td>
 
-[Activate Case and Knowledge Management](https://www.servicenow.com/docs/access?context=activate-case-and-knowledge-management-scoped&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US)
+
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

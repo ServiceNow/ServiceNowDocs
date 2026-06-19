@@ -2,6 +2,7 @@
 title: Defining Name Formats
 description: The name format automatically generates a name for a document revision by arranging name components in a standard code to match naming conventions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/r\_DefiningNameFormats.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -43,5 +44,5 @@ The following name formats are defined in the base system.
 |Development Sources|\(no separator\)|The format for the development and code sources type.|
 |Intranet Improvement|\(no separator\)|The format for documents that describe intranet use.|
 
-**Parent Topic:**[Defining Document Parameters](r_DefiningDocumentParameters.md)
+**Parent Topic:**[Defining Document Parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/r_DefiningDocumentParameters.md)
 

@@ -2,6 +2,7 @@
 title: Publisher overview for Red Hat in the Software Asset Workspace
 description: View license usage information related to Red Hat Enterprise Linux \(RHEL\) in the publisher overview for Red Hat in the Software Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/publisher-overview-red-hat.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -19,7 +20,7 @@ From the Software Asset Workspace, access the Red Hat publisher overview by navi
 
 Results are updated whenever a new reconciliation result is available.
 
-![Red Hat publisher overview.](../image/publisher-overview-rhel.png)
+\[Omitted image "publisher-overview-rhel.png"\] Alt text: Red Hat publisher overview.
 
 You can view a summary of your license usage information in the Summary section of the Red Hat publisher overview.
 
@@ -79,7 +80,7 @@ Summary of your license compliance progress.This summary includes the following 
 -   **Removal candidates**: Total number of RHEL removal candidates. Select the number to view the list of all software removal candidates.
 
 </td></tr></tbody>
-</table>For more details on the license usage information that is provided in the publisher overview, see [License usage publisher fields in workspace](workbench-publisherfields-workspace.md).
+</table>For more details on the license usage information that is provided in the publisher overview, see [License usage publisher fields in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/workbench-publisherfields-workspace.md).
 
-**Parent Topic:**[Software Asset Management for Red Hat Enterprise Linux](../concept/rhel-publisher-pack.md)
+**Parent Topic:**[Software Asset Management for Red Hat Enterprise Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/rhel-publisher-pack.md)
 

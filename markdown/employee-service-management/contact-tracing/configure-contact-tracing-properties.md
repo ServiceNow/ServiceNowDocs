@@ -2,6 +2,7 @@
 title: Set up Contact Tracing properties
 description: Configure system properties to adjust how contact tracing data is used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contact-tracing/configure-contact-tracing-properties.html
 release: zurich
 product: Contact Tracing
 classification: contact-tracing
@@ -23,7 +24,7 @@ Role required: admin
 
 Employers remain solely responsible for complying with their legal obligations under applicable law, including data protection laws on collection, use, disclosure, and retention of personal data, and should enable, choose not to enable, or customize any functionality available within the application to meet the Employers’ specific requirements.
 
-**Note:** For system properties associated with tracing systems, see [System properties for tracing systems in Emergency Exposure Management](../../business-continuity/reference/list-of-tracing-system-sys-properties.md).
+**Note:** For system properties associated with tracing systems, see [System properties for tracing systems in Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/emergency-exposure-management/list-of-tracing-system-sys-properties.md).
 
 ## Procedure
 
@@ -49,7 +50,7 @@ Number of days after which the data collected for contact tracing is automatical
 -   User daily contact logs, daily log notes, and daily log acknowledgment data.
 -   All closed and canceled cases and associated potentially exposed contacts, case tasks, diagnostic requests and the underlying source data, and diagnostic events.
 
-**Note:** A survey associated with cases eligible for deletion after the retention period is not deleted because surveys have their own retention period. For more information, see [Clean up assessment data](https://www.servicenow.com/docs/access?context=t_CleanUpAssessmentData&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+**Note:** A survey associated with cases eligible for deletion after the retention period is not deleted because surveys have their own retention period. For more information, see Clean up assessment data.
 
 -   Wi-Fi access register data
  The default value is 90.
@@ -68,5 +69,5 @@ Enables or disables automatic creation of a case task when a case manager adds a
 </table>3.  Click **Save**.
 
 
-**Parent Topic:**[Setting up Contact Tracing](../concept/set-up-contact-tracing.md)
+**Parent Topic:**[Setting up Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/set-up-contact-tracing.md)
 

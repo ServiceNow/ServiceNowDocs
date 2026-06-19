@@ -2,6 +2,7 @@
 title: Cancel a contract request
 description: Cancel a contract request if it is no longer necessary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-cancel-request-tpc.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -31,7 +32,7 @@ You can cancel a contract request when the contract request state is in Draft, N
 
 2.  Open the contract request.
 
-3.  Select the More Actions ![More actions icon](../../workplace-central/images/more-actions-move-schedule.png) icon.
+3.  Select the More Actions \[Omitted image "more-actions-move-schedule.png"\] Alt text: More actions icon icon.
 
 4.  Select **Cancel Request**.
 
@@ -44,5 +45,5 @@ You can cancel a contract request when the contract request state is in Draft, N
 -   The contract request State updates to Canceled and the contract status updates to Contract Canceled.
 -   The document signature sent to signatories is canceled to block further signing. The signatories get an email notification that the contract request has been canceled.
 
-**Parent Topic:**[Using Contract Management Pro](../concept/cncore-use-cmpro.md)
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

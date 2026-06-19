@@ -2,6 +2,7 @@
 title: Configure an HR service for the DocuSign integration
 description: Create or modify an HR service to request electronic signatures through the DocuSign service. Preconfigured flows to collect signatures for either an ad hoc document \(HR PDF document template\) or a DocuSign template are available to use. You must also configure an associated HR case template to set a default ad hoc document or DocuSign template for signing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/configure-hr-service-for-docusign-integration.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -21,7 +22,7 @@ Role required: sn\_hr\_core.admin
 
 ## About this task
 
-Depending on whether the user is signing an ad hoc document \(HR PDF document template\) or a DocuSign template, the following preconfigured HR services, flows, and HR case templates are available for your use and example. See [HR services](../concept/hr-service-administration.md) to learn more about HR service configuration, generally.
+Depending on whether the user is signing an ad hoc document \(HR PDF document template\) or a DocuSign template, the following preconfigured HR services, flows, and HR case templates are available for your use and example. See [HR services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-service-administration.md) to learn more about HR service configuration, generally.
 
 |Flow|Component|Name|
 |----|---------|----|
@@ -53,9 +54,9 @@ Depending on whether the user is signing an ad hoc document \(HR PDF document te
 
     4.  Fill in the other fields on the form, as appropriate.
 
-        For further details on creating an HR service, see [Configure an HR service](configure-hr-service.md).
+        For further details on creating an HR service, see [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-service.md).
 
-        **Note:** In the HR Service Additional Information related list, make sure that the **PDF Template** field is included so that it appears on the HR case form when a request for this service is made. See [Configure the HR case form for an HR service](configure-case-form-for-hr-service.md#) for more information.
+        **Note:** In the HR Service Additional Information related list, make sure that the **PDF Template** field is included so that it appears on the HR case form when a request for this service is made. See [Configure the HR case form for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-case-form-for-hr-service.md) for more information.
 
     5.  Right-click the form header and click **Save**.
 
@@ -75,12 +76,12 @@ Depending on whether the user is signing an ad hoc document \(HR PDF document te
         -   For the DocuSign template flow, make sure to select an HR PDF document template with the **Template type** field set to `DocuSign Templates`.
     5.  Fill in the other fields on the form, as appropriate.
 
-        For further details on creating an HR case template, see [Configure an HR case template](configure-hr-case-template.md).
+        For further details on creating an HR case template, see [Configure an HR case template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-case-template.md).
 
     6.  Click **Submit**.
 
     7.  On the HR service form, click **Update**.
 
 
-**Parent Topic:**[Integrating with the DocuSign service](../concept/docusign-integration-for-hr.md)
+**Parent Topic:**[Integrating with the DocuSign service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/docusign-integration-for-hr.md)
 

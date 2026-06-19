@@ -2,6 +2,7 @@
 title: Configure a third party ID token
 description: Configure a third-party ID token to enable secure authentication by verifying user identities through an external IdP. The third-party ID token improves security by reducing stored credentials, confirms seamless authentication, and supports interoperability with industry standards like OpenID Connect \(OIDC\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/configure-a-third-party-id-token.html
 release: zurich
 product: Authentication
 classification: authentication

@@ -2,6 +2,7 @@
 title: Add special handling notes for an HR Service Delivery case
 description: Create special handling notes that appear for a specific HR case or set of conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-add-special-handling-notes.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -151,11 +152,11 @@ Appears when you select Conditional from the **Type** field.Select conditions wh
 -   Aileen Mottern
 This condition shows the special handling note for a General Inquiry case for Aileen Mottern.
 
-**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 </td></tr></tbody>
 </table>4.  Select **Submit** or **Update**.
 
 
-**Parent Topic:**[Use HR Case Management](../concept/c_HRCaseManagement.md)
+**Parent Topic:**[Use HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
 

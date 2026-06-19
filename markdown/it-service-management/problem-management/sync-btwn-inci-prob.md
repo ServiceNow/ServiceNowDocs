@@ -2,6 +2,7 @@
 title: Synchronization between incident and problem records
 description: Change in a Problem record impacts related Incident records. Notification is sent to the user for each such update.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/problem-management/sync-btwn-inci-prob.html
 release: zurich
 product: Problem Management
 classification: problem-management
@@ -132,5 +133,5 @@ NA
 -   An email notification is sent to the user who is assigned to the Incident.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference section for Problem Management](reference-section-for-problem-management.md)
+</table>**Parent Topic:**[Reference section for Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/reference-section-for-problem-management.md)
 

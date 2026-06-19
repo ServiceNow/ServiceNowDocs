@@ -2,6 +2,7 @@
 title: View CISO dashboard
 description: This dashboard provides the Chief Information Security Officers \(CISOs\) with a high-level overview of security incidents and weekly incidents trends on the instance in the form of graphical charts. These charts help you effectively view and analyze how the Security operations center \(SOC\) performs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/view-ciso-dashboard-overview.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -47,7 +48,7 @@ You can visualize the weekly trends using the widgets in the CISO dashboard. The
 
 3.  Select **CISO Dashboard** from the drop-down list.
 
-    ![CISO Overview dashboard](../image/ciso-dashboard-sir.png)
+    \[Omitted image "ciso-dashboard-sir.png"\] Alt text: CISO Overview dashboard
 
 4.  View the CISO dashboard for further action.
 

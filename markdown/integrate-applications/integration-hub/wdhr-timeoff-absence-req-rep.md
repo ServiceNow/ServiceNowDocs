@@ -2,6 +2,7 @@
 title: Workday configuration for worker time-off and leave of absence request report
 description: Create report in Workday to extract worker’s time off and leave of absence request based on Employee ID.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/wdhr-timeoff-absence-req-rep.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
@@ -34,11 +35,11 @@ Calculated field 1:
 
 -   Create **True/False Condition** type cal field named **CF\_time\_off\_is\_approved**.
 
-    ![](../image/wdhr-timeoff-absence-req-rep-1.jpg)
+    \[Omitted image "wdhr-timeoff-absence-req-rep-1.jpg"\] Alt text:
 
 -   Create **Extract Multi-Instance** type cal field named **CF\_approved\_time\_off**.
 
-    ![](../image/wdhr-timeoff-absence-req-rep-2.jpg)
+    \[Omitted image "wdhr-timeoff-absence-req-rep-2.jpg"\] Alt text:
 
 
 ## Procedure
@@ -55,49 +56,49 @@ Calculated field 1:
 
 6.  Do not select the **Temporary report** option and click **OK**.
 
-    ![](../image/wdhr-timeoff-absence-req-rep-3.jpg)
+    \[Omitted image "wdhr-timeoff-absence-req-rep-3.jpg"\] Alt text:
 
 7.  Select the report business object and report fields.
 
-    ![](../image/wdhr-timeoff-absence-req-rep-4.jpg)
+    \[Omitted image "wdhr-timeoff-absence-req-rep-4.jpg"\] Alt text:
 
 8.  In **Group Column Headings**, select the value.
 
-    ![](../image/wdhr-timeoff-absence-req-rep-5.jpg)
+    \[Omitted image "wdhr-timeoff-absence-req-rep-5.jpg"\] Alt text:
 
 9.  In the **Filter** section, select the values.
 
-    ![](../image/wdhr-timeoff-absence-req-rep-6.jpg)
+    \[Omitted image "wdhr-timeoff-absence-req-rep-6.jpg"\] Alt text:
 
 10. In **Prompts** section, select the **Populate Undefined Prompt Defaults** option.
 
-    ![](../image/wdhr-timeoff-absence-req-rep-7.jpg)
+    \[Omitted image "wdhr-timeoff-absence-req-rep-7.jpg"\] Alt text:
 
 11. Select the value of prompts as given below under Prompt default section.
 
     Make sure the **Label For Prompt XML Alias** of all prompt fields must be same.
 
-    ![](../image/wdhr-timeoff-absence-req-rep-8.jpg)
+    \[Omitted image "wdhr-timeoff-absence-req-rep-8.jpg"\] Alt text:
 
 12. In **Advanced** section, select **Enable as webservice** option and click **OK**.
 
 13. Click on three dots icon and navigate to **Web Services** &gt; **View URLs** option once report configuration is done.
 
-    ![](../image/wdhr-timeoff-absence-req-rep-9.jpg)
+    \[Omitted image "wdhr-timeoff-absence-req-rep-9.jpg"\] Alt text:
 
 14. Provide the **Employee ID** for which you want to extract the data.
 
-    ![](../image/wdhr-timeoff-absence-req-rep-10.jpg)
+    \[Omitted image "wdhr-timeoff-absence-req-rep-10.jpg"\] Alt text:
 
 15. In View URLs Web Service page, click the marked icon under the **CSV** section.
 
     A new browser tab is opened.
 
-    ![](../image/wdhr-timeoff-absence-req-rep-11.jpg)
+    \[Omitted image "wdhr-timeoff-absence-req-rep-11.jpg"\] Alt text:
 
     The RaaS URL of the report is displayed in new browser tab and you can obtain these details from the link.
 
-    ![](../image/wdhr-timeoff-absence-req-rep-12.jpg)
+    \[Omitted image "wdhr-timeoff-absence-req-rep-12.jpg"\] Alt text:
 
     -   `https://wd2-impl-services1.workday.com` is the base URL of customer’s workday tenant.
     -   **Tenant\_Name** is the customer’s workday tenant.

@@ -2,6 +2,7 @@
 title: Enable instance options for the Activity tab
 description: Format the work notes and add @mentions in the Activity tab on a standard ticket page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/enable-instanceop-activity.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -19,7 +20,7 @@ Format the work notes and add @mentions in the Activity tab on a standard ticket
 
 Role required: sp\_admin or admin
 
-You should add the **Activity** tab in the standard ticket configuration of a request type. For information on configuring tabs, see [Configure the standard ticket page](configure-st-page.md).
+You should add the **Activity** tab in the standard ticket configuration of a request type. For information on configuring tabs, see [Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/configure-st-page.md).
 
 ## Procedure
 
@@ -67,5 +68,5 @@ Option to enable mentioning the relevant people in work notes.**Note:** This opt
 </table>5.  Click **Save**.
 
 
-**Parent Topic:**[Configure the standard ticket page](configure-st-page.md)
+**Parent Topic:**[Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/configure-st-page.md)
 

@@ -2,6 +2,7 @@
 title: Configure the Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\)
 description: Use the Guided Setup for the Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\) to lead you through the integration steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-manager/configuring-sgc-microsoft-d4iot-on-prem.html
 release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -19,10 +20,10 @@ Use the Guided Setup for the Service Graph Connector for Microsoft Defender for 
 
 Dependencies and requirements:
 
--   The [Integration Commons for CMDB](https://www.servicenow.com/docs/access?context=integration-commons-for-cmdb&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) store app, which is automatically installed.
--   The [CMDB CI Class Models](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US), which is automatically installed.
+-   The  store app, which is automatically installed.
+-   The , which is automatically installed.
 -   The ITOM Discovery License plugin \(com.snc.itom.discovery.license\). You must activate this plugin.
--   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://www.servicenow.com/docs/access?context=t_ActivateTheDiscoveryPlugin&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+-   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see Request Discovery.
 -   The Datastream Action plugin \(com.glide.hub.action\_type.datastream\), which is automatically installed.
 
 Role required: admin
@@ -33,7 +34,7 @@ Role required: admin
 
 1.  Ensure that the application scope is set to the Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\) application by using the application picker.
 
-    For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+    For more information, see .
 
 2.  Navigate to **All** &gt; **Service Graph Connector Microsoft D4IoT** &gt; **Guided Setup**.
 
@@ -112,7 +113,7 @@ com.glide.communications.httpclient.verify\_revoked\_certificate
 
 </td><td>
 
-Set to **false**.If you need to add this system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+Set to **false**.If you need to add this system property, see Add a system property.
 
 </td></tr><tr><td>
 
@@ -133,7 +134,7 @@ Set to **true**.
         |Hostname check|**false**|
         |Revocation check|**false**|
 
-        For more information, see [MID Server certificate check policies](https://www.servicenow.com/docs/access?context=mid-security-checks&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+        For more information, see MID Server certificate check policies.
 
         The connection shows that it is set correctly when the progress window shows the Completion code **Success**, and the number of records processed shows as the same number of sensors in the connection manager.
 
@@ -253,7 +254,7 @@ If you are using the Operational Technology Vulnerability Response application w
     4.  Select **SG-OT Microsoft D4IoT Devices Scheduled Import** to review or change the devices import schedule as needed.
 
         -   By default, the devices import schedule is configured to run daily at midnight.
-        -   Devices are queried by sensor. The Service Graph Connector queries for devices detected by validated sensors. For information about configuring Network Intrusion Detection System \(NIDS\) appliances, see [Validate the NIDS](validate-nids.md).
+        -   Devices are queried by sensor. The Service Graph Connector queries for devices detected by validated sensors. For information about configuring Network Intrusion Detection System \(NIDS\) appliances, see [Validate the NIDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/validate-nids.md).
     5.  Select **Active** to activate the devices import schedule.
 
     6.  Select **SG-OT Microsoft D4IoT Connections Scheduled Import** to review or change the connections import schedule as needed.
@@ -262,5 +263,5 @@ If you are using the Operational Technology Vulnerability Response application w
         -   Connections are only imported if both devices \(Source &amp; Destination in Microsoft API, or Parent &amp; Child in the CMDB\) are already in the CMDB.
         -   Import devices before importing connections.
 
-**Parent Topic:**[Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\)](../concept/integration-sgc-microsoft-defender-iot-on-prem.md)
+**Parent Topic:**[Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/integration-sgc-microsoft-defender-iot-on-prem.md)
 

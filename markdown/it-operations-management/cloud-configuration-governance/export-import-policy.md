@@ -2,6 +2,7 @@
 title: Export or import a cloud policy
 description: To back up, move, or restore a policy, you can export and import the policy as an update set. The update set includes rules, conditions, actions, scripts, and script categories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/export-import-policy.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -27,7 +28,7 @@ Role required: sn\_cmp.cloud\_admin or admin.
 
     1.  Click the export icon for the policy.
 
-        ![Export icon for a policy](../image/export-cloud-policy.png)
+        \[Omitted image "export-cloud-policy.png"\] Alt text: Export icon for a policy
 
         The instance generates an update set.
 
@@ -44,10 +45,10 @@ Role required: sn\_cmp.cloud\_admin or admin.
     **Note:** If the policy that you exported from the source environment exists in the target environment, and the policies have different sys\_ids, then an error occurs during the import process. You must export a different policy from the source environment or delete the policy with the same name in the target environment.
 
 
-**Parent Topic:**[Policies for Cloud Provisioning](../concept/cloud-policy.md)
+**Parent Topic:**[Policies for Cloud Provisioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloud-policy.md)
 
 **Related topics**  
 
 
-[System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+[bundle-cadev.system-update-sets]
 

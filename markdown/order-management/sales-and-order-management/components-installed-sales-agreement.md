@@ -2,6 +2,7 @@
 title: Components installed with Sales Agreement Management
 description: Several types of components are installed with activation of the Sales Agreement Management plugins, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/components-installed-sales-agreement.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -95,5 +96,5 @@ Sales agreement admin
 |sn\_sales\_agmt\_core\_line\_characteristic|Stores the attributes of products and services to be sold.|
 |sn\_sales\_agmt\_core\_line\_adjustment|Stores the adjustments applied during negotiation.|
 
-**Parent Topic:**[Configure, price, quote reference](../concept/reference-cpq.md)
+**Parent Topic:**[Configure, price, quote reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/reference-cpq.md)
 

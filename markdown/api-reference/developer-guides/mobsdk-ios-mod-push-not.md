@@ -2,6 +2,7 @@
 title: Modify the push notification
 description: Modify the Virtual Agent Message Push Notification record to include your application. This record is used to trigger notifications to the Virtual Agent. All applications that will push notifications to the Virtual Agent must be configured in this record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/developer-guides/mobsdk-ios-mod-push-not.html
 release: zurich
 product: Developer Guides
 classification: developer-guides
@@ -31,7 +32,7 @@ Role required: admin
 
 4.  In **Push Messages**, add the name of the push message record created in "Add a push notification message".
 
-    ![Push Notification screen shot](../../image/mob_sdk-push-notification-screen.png)
+    \[Omitted image "mob\_sdk-push-notification-screen.png"\] Alt text: Push Notification screen shot
 
 5.  Select **Update**.
 

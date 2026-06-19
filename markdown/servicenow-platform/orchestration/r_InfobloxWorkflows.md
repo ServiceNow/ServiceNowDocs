@@ -2,6 +2,7 @@
 title: Infoblox workflows
 description: The Infobox DDI activity pack includes two default workflows, one that reserves and registers IP addresses and another that releases IP addresses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/orchestration/r\_InfobloxWorkflows.html
 release: zurich
 product: Orchestration
 classification: orchestration
@@ -21,10 +22,10 @@ To access these workflows, navigate to **Workflow** &gt; **Workflow Editor** and
 
 Use this workflow to register IPv4 addresses or request the next available IP address on IPAM. Optionally, you can use it to register IP addresses on DNS. The custom Infoblox activities used in this workflow are:
 
--   [IPAM Register IP Address](../concept/c_InfobloxIPAMActivities.md#)
--   [IPAM Reserve IP Address](../concept/c_InfobloxIPAMActivities.md#)
--   [Register DNS A-Record](../concept/c_InfobloxDNSActivities.md#)
--   [Get Network Details](../concept/c_InfobloxNetworkActivities.md#)
+-   [IPAM Register IP Address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_InfobloxIPAMActivities.md)
+-   [IPAM Reserve IP Address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_InfobloxIPAMActivities.md)
+-   [Register DNS A-Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_InfobloxDNSActivities.md)
+-   [Get Network Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_InfobloxNetworkActivities.md)
 
 |Field|Description|
 |-----|-----------|
@@ -39,10 +40,10 @@ Use this workflow to register IPv4 addresses or request the next available IP ad
 
 Use this workflow to release \(delete\) all the IPAM reservations associated with an IPv4 address. The custom Infoblox activities used in this workflow are:
 
--   [IPAM List IP Reservations](../concept/c_InfobloxIPAMActivities.md#)
--   [List DNS Record](../concept/c_InfobloxDNSActivities.md#)
--   [DNS Delete](../concept/c_InfobloxDNSActivities.md#)
--   [IPAM Delete](../concept/c_InfobloxIPAMActivities.md#)
+-   [IPAM List IP Reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_InfobloxIPAMActivities.md)
+-   [List DNS Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_InfobloxDNSActivities.md)
+-   [DNS Delete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_InfobloxDNSActivities.md)
+-   [IPAM Delete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_InfobloxIPAMActivities.md)
 
 |Field|Description|
 |-----|-----------|
@@ -50,5 +51,5 @@ Use this workflow to release \(delete\) all the IPAM reservations associated wit
 |IP to Delete|IP address to release.|
 |Infoblox Server|IP address of the Infoblox DDI server.|
 
-**Parent Topic:**[Infoblox DDI activity pack](../concept/c_InfobloxDDIActivityPack.md)
+**Parent Topic:**[Infoblox DDI activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_InfobloxDDIActivityPack.md)
 

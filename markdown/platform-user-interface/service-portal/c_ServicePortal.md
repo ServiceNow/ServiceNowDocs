@@ -2,6 +2,7 @@
 title: Service Portal
 description: Service Portal allows you to build a mobile-friendly self-service portal experience for your employees or customers. Service Portal is a ServiceNow AI Platform feature that is active by default and interacts with parts of the platform so users can access platform features through portals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/c\_ServicePortal.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -23,32 +24,32 @@ Both beginner and expert developers and can configure portals using Service Port
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about how administrators, developers, and end users use portals built with Service Portal.](exploring-service-portal.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about how administrators, developers, and end users use portals built with Service Portal.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/exploring-service-portal.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Plan and configure your portal.](configuring-service-portal.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your portal.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/configuring-service-portal.md)
 
 </td><td>
 
-[Develop widgets ![](../../../reuse/icons/brand-icons/bus-application-developer.svg)Develop custom widgets using AngularJS, Bootstrap, and the ServiceNow API.](widget-dev-guide.md)
+[Develop widgets \[Omitted image "bus-application-developer.svg"\] Alt text:Develop custom widgets using AngularJS, Bootstrap, and the ServiceNow API.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/widget-dev-guide.md)
 
 </td></tr><tr><td>
 
-[Improve SEO![](../../../reuse/icons/brand-icons/bus-discover.svg)Make public portal pages more findable by improving how external search engines index and rank pages.](seo-sp.md)
+[Improve SEO\[Omitted image "bus-discover.svg"\] Alt text:Make public portal pages more findable by improving how external search engines index and rank pages.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/seo-sp.md)
 
 </td><td>
 
-[Analyze![](../../../reuse/icons/brand-icons/bus-performance-forecasting-2.svg)Get insights to optimize your portal.](using-portal-analytics.md)
+[Analyze\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Get insights to optimize your portal.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/using-portal-analytics.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about properties, SCSS variables, and more.](reference-service-portal.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about properties, SCSS variables, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/reference-service-portal.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help
 
--   To learn more about what's new and what's changed in Zurich, see the [Service Portal release notes](https://www.servicenow.com/docs/access?context=service-portal-rn&version=zurich&pubname=zurich-release-notes&ft:locale=en-US).
+-   To learn more about what's new and what's changed in Zurich, see the .
 -   [Ask or answer questions in the ServiceNow AI Platform community forum](https://www.servicenow.com/community/now-platform/ct-p/now-platform)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)

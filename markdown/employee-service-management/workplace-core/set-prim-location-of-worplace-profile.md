@@ -2,6 +2,7 @@
 title: Set the primary location of a workplace profile
 description: Assign a primary location for the workplace profile if there are multiple locations assigned.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-core/set-prim-location-of-worplace-profile.html
 release: zurich
 product: Workplace Core
 classification: workplace-core
@@ -17,7 +18,7 @@ Assign a primary location for the workplace profile if there are multiple locati
 
 ## Before you begin
 
-**Note:** From Workplace Core version 2.16.1, the workplace user profiles are created in the Workplace Profile Location Assignment \[sn\_wsd\_core\_workplace\_profile\_location\] table. A new field **Is Primary** is added in the table so that you can specify if a location is the primary location when there are multiple locations. In the case of existing user profiles created in the User Workplace Profiles \[sn\_wsd\_core\_workplace\_profile\] table, a fix script runs and automatically considers the latest workplace location added to the profile as the primary workplace location. To set the primary location of a workplace profile, refer to [Set the primary location of a workplace profile](set-prim-location-of-worplace-profile.md).
+**Note:** From Workplace Core version 2.16.1, the workplace user profiles are created in the Workplace Profile Location Assignment \[sn\_wsd\_core\_workplace\_profile\_location\] table. A new field **Is Primary** is added in the table so that you can specify if a location is the primary location when there are multiple locations. In the case of existing user profiles created in the User Workplace Profiles \[sn\_wsd\_core\_workplace\_profile\] table, a fix script runs and automatically considers the latest workplace location added to the profile as the primary workplace location. To set the primary location of a workplace profile, refer to [Set the primary location of a workplace profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/set-prim-location-of-worplace-profile.md).
 
 Role required: admin
 
@@ -42,7 +43,7 @@ When there are multiple locations to which as user workplace profile is assigned
 
     -   To add a new location and then set it as primary, do the following:
         1.  Select **New**.
-        2.  Add the location. Refer to [Map designated workspaces to user profiles](map-employees-to-existing-workplace-locations-wsd.md).
+        2.  Add the location. Refer to [Map designated workspaces to user profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/map-employees-to-existing-workplace-locations-wsd.md).
         3.  Ensure that the **Is primary** field is selected.
     -   To set an existing location as primary, do the following:
         1.  Go to the **Is primary** field of the workplace location.
@@ -54,5 +55,5 @@ When there are multiple locations to which as user workplace profile is assigned
 
 The primary workplace location is set. The **Primary Workplace location** field is updated with the location.
 
-**Parent Topic:**[Mapping employees to their designated workspaces](../concept/mapping-employees-to-existing-work-locations-wsd.md)
+**Parent Topic:**[Mapping employees to their designated workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/mapping-employees-to-existing-work-locations-wsd.md)
 

@@ -2,12 +2,13 @@
 title: Request delete approval for emails on Microsoft Exchange online service
 description: After an email search is successfully completed and matching messages are identified, you can permanently delete all the suspicious emails from the Microsoft exchange online service that are related to the security incident and phishing campaign.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/ms-delete-email.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 7
+last_updated: "2026-03-12"
+reading_time_minutes: 6
 breadcrumb: [Microsoft Exchange Online integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -35,15 +36,11 @@ As a user with the sn\_si.analyst role, if you determine that emails require rem
 
 1.  Navigate to **All** &gt; **Security Incident &gt; Show All Incidents**.
 
-2.  Click the **Email Search** related list.
+2.  Select the **Email Search** related list.
 
-3.  With the Email Search related list selected, in the Email search column, click the name of your search.
+3.  With the Email Search related list selected, in the Email search column, select the name of your search.
 
     The search results are displayed in the Email Search Results related list.
-
-    For this example, this search has found emails that match your search criteria. There are two search actions listed on the record. One search has no matches \(0\), and the other search has one matching email \(1\).
-
-    ![Email search record with Result set size highlighted.](../image/ms-email-search-results.png "Email Search Result set size")
 
 4.  To delete email items associated with a search, to the left of the Search Date column, select the check box of a search result set.
 
@@ -51,41 +48,31 @@ As a user with the sn\_si.analyst role, if you determine that emails require rem
 
 5.  Select the result sets that you want to delete.
 
-    ![Actions on selected rows choise list expanded and Delete Emails from Exchange Online highlighted.](../image/ms-email-delete-search.png "Delete Emails from Exchange Online")
-
 6.  At the bottom of the Email Search Results related list, from the Actions on selected rows list, select **Delete Emails from Exchange Online** to delete all the email items associated with one or more result sets from the Exchange Online server.
 
-    If a result set contains more than one email, you are not required to open the Email Search Result record and select individual emails to delete them. All emails items with a status of `false` in the Was deleted column in the Email Search Result record are deleted after you select **Delete Emails from Exchange Online**.
+    If a result set contains more than one email, you're not required to open the Email Search Result record and select individual emails to delete them. All emails items with a status of `false` in the Was deleted column in the Email Search Result record are deleted after you select **Delete Emails from Exchange Online**.
 
-    If an email item in a result set has already been deleted, the status in the Was deleted column in the Email Search Result record is `true`. These items are not deleted again.
+    If an email item in a result set has already been deleted, the status in the Was deleted column in the Email Search Result record is `true`. These items aren't deleted again.
 
-    If the approval option is disabled during the configuration step, after you select **Delete Emails from Exchange Online**, the emails associated with the result set are deleted. The result set itself is not deleted. However, the status of all the deleted email items of the result set is updated to `true` in the Was deleted column of the Email Search Result record. For more information on the approval feature, see [Configure the Microsoft Exchange Online integration](msx_configure.md).
-
-    ![Was deleted column on Email Search Result record highlighted.](../image/ms-email-search-false.png "Email deletion details")
+    If the approval option is disabled during the configuration step, after you select **Delete Emails from Exchange Online**, the emails associated with the result set are deleted. The result set itself is not deleted. However, the status of all the deleted email items of the result set is updated to `true` in the Was deleted column of the Email Search Result record. For more information on the approval feature, see [Configure the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/msx_configure.md).
 
     These emails are deleted from the Microsoft Exchange Online tenant that you performed the searches on. A work note is displayed if the emails are successfully deleted.
 
     On the security incident record, the `Email Delete - Completed` security tag is displayed.
 
-    ![Security incident with Email Delete Completed security tag highlighted.](../image/ms-email-search-completed.png "Email Delete - Completed security tag")
-
     If approvals are disabled for delete requests, you have successfully deleted emails from the Microsoft Exchange Online tenant.
 
     If approvals are enabled for delete requests during the configuration step, after you select **Delete Emails from Exchange Online**, an email notification is sent to each member of the approval group that you selected during the configuration step.
 
-    If tagging is enabled during the configuration step, the `Email Delete - Initiated` security tag is displayed on the related security incident record. For more information on tagging, see [Configure the Microsoft Exchange Online integration](msx_configure.md).
+    If tagging is enabled during the configuration step, the `Email Delete - Initiated` security tag is displayed on the related security incident record. For more information on tagging, see [Configure the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/msx_configure.md).
 
     Work notes are displayed that a request to delete emails is submitted by the user with the sn\_si.analyst role \(`Hans SecAnalyst`\).
 
-    ![Work notes with request submitted and audit trail.](../image/ms-36-notes-delete-request.png)
-
     If approvals are enabled, the next step is to process the delete request.
 
-7.  Alternatively, if you want to view the details and individual email items of a search record prior to deleting it or submitting a delete request, follow these steps.
+7.  Alternatively, if you want to view the details and individual email items of a search record before deleting it or submitting a delete request, follow these steps.
 
-    1.  With the Email Search Results related list selected, in the Search date column, click the date of a search that you want to review.
-
-        ![Search date highlighted on Email Search Results related list.](../image/ms-email-search-details.png "Email search details")
+    1.  With the Email Search Results related list selected, in the Search date column, select the date of a search that you want to review.
 
         The following information about the emails is displayed:
 
@@ -102,18 +89,14 @@ As a user with the sn\_si.analyst role, if you determine that emails require rem
 
             The work notes is updated with the total number of deleted records which includes the records deleted by integration and user.
 
-    2.  After you have reviewed the data, to delete all the emails, or send a request to delete all the emails, click **Delete from Email Server\(s\)**.
-
-        As described in the previous example, if there is more than one email listed on the search result record, you do not need to select the individual emails to remove them. The delete request removes any emails associated with the search when `false` is displayed in the Was deleted column from the latest search results.
-
-        ![Delete from Email Servers button highlighted and callout arrow for check box on Email Search Result record.](../image/failure-notification-delete.png)
+    2.  After you have reviewed the data, to delete all the emails, or send a request to delete all the emails, select **Delete from Email Server\(s\)**.
 
     If approvals are enabled, you have successfully submitted a request to delete emails. The security tags and work notes are displayed on the related security incident record as described in the previous example. As an approver, the next step is to process the delete request.
 
 
-**Parent Topic:**[Microsoft Exchange Online integration](../concept/ms-exchange-online-lookups.md)
+**Parent Topic:**[Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/ms-exchange-online-lookups.md)
 
-**Previous topic:**[Define email search criteria and request a search on the Microsoft Exchange Online service](verify-expected-results-ms-exchange-online.md)
+**Previous topic:**[Define email search criteria and request a search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/verify-expected-results-ms-exchange-online.md)
 
-**Next topic:**[Approve delete email requests for the Microsoft Exchange Online integration](ms-approve-delete.md)
+**Next topic:**[Approve delete email requests for the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/ms-approve-delete.md)
 

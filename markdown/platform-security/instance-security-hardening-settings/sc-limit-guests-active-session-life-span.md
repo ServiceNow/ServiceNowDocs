@@ -1,25 +1,24 @@
 ---
 title: Limit guest's active session life span \[New in Security Center 1.3\]
-description: Use the glide.guest.active.session.life\_span property to control the duration of an active guest’s HTTP sessions.
+description: Use the glide.guest.active.session.life\_span property to control the duration of an active guest's HTTP sessions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-limit-guests-active-session-life-span.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-05-29"
 reading_time_minutes: 1
 breadcrumb: [Session management, Hardening settings, Platform Security]
 ---
 
 # Limit guest's active session life span \[New in Security Center 1.3\]
 
-Use the **glide.guest.active.session.life\_span** property to control the duration of an active guest’s HTTP sessions.
+Use the **glide.guest.active.session.life\_span** property to control the duration of an active guest's HTTP sessions.
 
-The **glide.guest.active.session.life\_span** property enforces a maximum lifespan on active guest HTTP sessions, irrespective of their session inactivity or the amount of time a user is inactive before their session times out and closes.
+The **glide.guest.active.session.life\_span** system property enforces a maximum lifespan on active guest HTTP sessions, regardless of session inactivity. The configured value is in minutes. A value of `0` disables the lifespan limit entirely, allowing sessions to persist until the inactive timeout fires. Guest users are unauthenticated users who access the instance without logging in.
 
-The configured value is in minutes. A value of zero will disable timing out the active sessions. A larger value could allow an attacker to remain in a stolen session for longer, increasing the possibility of a security incident. This property is limited to guest users, which have low privilege access to an instance.
-
-To remediate this security vulnerability, set **glide.guest.active.session.life\_span** to a value greater than 0 and less than or equal to 720.
+Set the **glide.guest.active.session.life\_span** system property to `720`.
 
 ## More information
 
@@ -53,7 +52,7 @@ Data type
 
 </td><td>
 
-integer
+Integer
 
 </td></tr><tr><td>
 
@@ -61,7 +60,7 @@ Recommended value
 
 </td><td>
 
-1-720 \(minutes\)
+720
 
 </td></tr><tr><td>
 
@@ -77,7 +76,7 @@ Category
 
 </td><td>
 
-[Session management](sc-session-management.md)
+[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-session-management.md)
 
 </td></tr><tr><td>
 
@@ -87,7 +86,15 @@ Security risk
 
 -   Severity score: 4.2
 -   CVSS score: Medium
--   Security risk details: Setting the maximum lifespan to a large value gives a bad actor more time within an instance in the event that they steal a session.
+-   Security risk details: A larger maximum lifespan could allow an attacker to persist a stolen session for longer, increasing the scope of a security incident.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+This configuration enforces max life-span on active guest HTTP sessions irrespective of inactive timeout. The configured value is in minutes. A value of zero disables the lifespan limit entirely. The max life-span should be more than the inactive timeout **glide.ui.session\_timeout** \(default 30 minutes\).
 
 </td></tr><tr><td>
 
@@ -97,14 +104,6 @@ Dependencies and prerequisites
 
 None
 
-</td></tr><tr><td>
-
-Functional impact
-
-</td><td>
-
-This configuration enforces max life-span on active guest HTTP sessions irrespective of inactive timeout. The configured value is in minutes. A value of zero will disable timing out the active sessions. The max life-span should be more than the inactive timeout **glide.ui.session\_timeout** \(default 30 minutes\).
-
 </td></tr></tbody>
-</table>**Parent Topic:**[Session management](sc-session-management.md)
+</table>**Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-session-management.md)
 

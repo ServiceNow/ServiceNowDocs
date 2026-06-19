@@ -2,6 +2,7 @@
 title: Change the default LLM for playbook generation
 description: Choose either the NowLLM/Mixtral model or OpenAI's GPT-4o as the default LLM to generate your playbooks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/now-assist-for-creator/change-default-llm-playbook-generation.html
 release: zurich
 product: Now Assist for Creator
 classification: now-assist-for-creator

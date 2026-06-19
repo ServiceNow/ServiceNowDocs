@@ -2,13 +2,14 @@
 title: Create AI systems
 description: Create AI systems from directly within the demand workflow and associate them with your demands.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/assocate-ai-systems-with-demands-dw.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
 last_updated: "2026-02-02"
 reading_time_minutes: 1
-breadcrumb: [Manage demands, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Create AI systems
@@ -17,7 +18,7 @@ Create AI systems from directly within the demand workflow and associate them wi
 
 ## Before you begin
 
--   The AI Control Tower plugin must be installed. For more information, see [Activation and installation of AI Control Tower](https://www.servicenow.com/docs/access?context=activation-and-installation-of-ai-control-tower&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+-   The AI Control Tower plugin must be installed. For more information, see .
 -   The investment type of the demand is set to artificial intelligence.
 -   Role required: sn\_ai\_steward
 
@@ -25,7 +26,7 @@ Create AI systems from directly within the demand workflow and associate them wi
 
 1.  Open a demand from the home page of Next Experience for Demand Management.
 
-    For more information, see [Access demands](access-demand-workspace.md).
+    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/access-demand-workspace.md).
 
 2.  Select a demand record from the **All Demands** list.
 
@@ -33,13 +34,13 @@ Create AI systems from directly within the demand workflow and associate them wi
 
 4.  Select the **Create AI System** button to create an AI system in the AI Control Tower workspace.
 
-    For more information on creating AI systems, see [Create AI system assets](https://www.servicenow.com/docs/access?context=create-ai-system-assets&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).![Create AI System option is available on the Details page.](../images/create-ai-system-button.png)
+    For more information on creating AI systems, see .\[Omitted image "create-ai-system-button.png"\] Alt text: Create AI System option is available on the Details page.
 
 
 ## What to do next
 
 Associate your demands with the created AI systems:
 
--   Using the AI checkpoint stage in your demand playbook. For more information, see [Use Playbooks](use-playbooks-in-dw.md).
+-   Using the AI checkpoint stage in your demand playbook. For more information, see [Use Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/use-playbooks-in-dw.md).
 -   Using the **AI Associations** section in the **Details** tab.
 

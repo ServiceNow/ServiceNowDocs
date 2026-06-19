@@ -2,6 +2,7 @@
 title: Copy a subflow
 description: Copy a subflow to give it a new name and move it to another application scope.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/copy-subflow.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -33,13 +34,13 @@ You can't copy subflows that have a protection policy. You must have write acces
 
 3.  Select the subflow that you want to copy.
 
-4.  Click the more actions icon \(![More actions menu](../images/more-actions-menu-icon.png)\) and select **Copy subflow**.
+4.  Click the more actions icon \(\[Omitted image "more-actions-menu-icon.png"\] Alt text: More actions menu\) and select **Copy subflow**.
 
     **Note:** If the **Copy subflow** option is not visible, then you don't have permission to copy the subflow. This could be because the subflow has a protection policy or because you lack the necessary user role or developer permissions.
 
 5.  In **New subflow name**, enter a unique name you want the copied subflow to have.
 
-    ![Copying an item review subflow.](../images/example-copy-subflow-modal.png)
+    \[Omitted image "example-copy-subflow-modal.png"\] Alt text: Copying an item review subflow.
 
 6.  From **Application**, select the application scope where you want to copy the subflow.
 
@@ -48,9 +49,9 @@ You can't copy subflows that have a protection policy. You must have write acces
 
 ## Result
 
-![New copied subflow.](../images/example-copy-subflow-result.png)
+\[Omitted image "example-copy-subflow-result.png"\] Alt text: New copied subflow.
 
 Workflow Studio opens the new subflow.
 
-**Parent Topic:**[Building subflows](../concept/subflows.md)
+**Parent Topic:**[Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/subflows.md)
 

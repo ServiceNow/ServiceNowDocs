@@ -2,6 +2,7 @@
 title: Components installed with Now Assist for Telecommunications, Media and Technology \(TMT\)
 description: Several types of components are installed with activation of the Now Assist for Telecommunications, Media and Technology \(TMT\) application, including tables, user roles, and business rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-components.html
 release: zurich
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology

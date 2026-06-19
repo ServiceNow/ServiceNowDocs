@@ -2,6 +2,7 @@
 title: Manage capabilities maps in Impact Delivery Instance
 description: Manage the usage status for capabilities and how they’re being used in your instance. The information in the capabilities status fields feeds the capabilities maps summary bar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/impact-product-adoption-roadmap/manage-capabilities.html
 release: zurich
 product: Impact Product Adoption Roadmap
 classification: impact-product-adoption-roadmap
@@ -29,7 +30,7 @@ Role required: Platform Owner, Impact Admin
 
     All capabilities for the selected workflow and product are displayed in a table with color-coded status indicators.
 
-    ![Shows all of the available capabilities for your instance.](../image/cap-map2.png)
+    \[Omitted image "cap-map2.png"\] Alt text: Shows all of the available capabilities for your instance.
 
 4.  Update the status for one or more capabilities.
 
@@ -44,11 +45,11 @@ Role required: Platform Owner, Impact Admin
 
     1.  Update a single status: Select a status from the color-coded status indicator on the application tile and select a status from the drop-down.
 
-        ![Shows changing the capability status for a single application.](../image/single-status-update-capmap.png)
+        \[Omitted image "single-status-update-capmap.png"\] Alt text: Shows changing the capability status for a single application.
 
     2.  Bulk update: Select the check box for multiple capabilities, then select a status from the **Change Status** button.
 
-        ![The available statuses to assign to a capability.](../image/bulk-update-caps.png)
+        \[Omitted image "bulk-update-caps.png"\] Alt text: The available statuses to assign to a capability.
 
         The status automatically refreshes for the selected capabilities.
 
@@ -57,17 +58,17 @@ Role required: Platform Owner, Impact Admin
 5.  **Hide and Unhide capabilities.**
 6.  Hide a capability from the capabilities map in an instance.
 
-    When you set the capabilities map **Show hidden** filter to **No**, hidden applications are not visible in the list of applications.![Shows the Show hidden drop-down set to No, to not display hidden capabilities.](../image/show-hidden-no-capmap.png)
+    When you set the capabilities map **Show hidden** filter to **No**, hidden applications are not visible in the list of applications.\[Omitted image "show-hidden-no-capmap.png"\] Alt text: Shows the Show hidden drop-down set to No, to not display hidden capabilities.
 
     1.  Hide a single capability: Select the check box next to the capability, then select the **Hide** button.
 
-        ![Shows the capabilities matrix and the Hide button.](../image/caps-select-hide.png)
+        \[Omitted image "caps-select-hide.png"\] Alt text: Shows the capabilities matrix and the Hide button.
 
     2.  Bulk hide: Select the check box for multiple capabilities, then select the **Hide** button.
 
 7.  Select the **Hide** button in the confirmation message.
 
-    ![Shows the hide confirmation dialogue box.](../image/hide-caps.png)
+    \[Omitted image "hide-caps.png"\] Alt text: Shows the hide confirmation dialogue box.
 
     Selected applications will not display when the capabilities map **Show hidden** filter is set to **No**.
 
@@ -75,7 +76,7 @@ Role required: Platform Owner, Impact Admin
 
     1.  Set the **Show hidden** capabilities filter to **Yes**.
 
-        ![Shows the capabilities filter with the Show Hidden value set to Yes.](../image/cap-show-hidden.png)
+        \[Omitted image "cap-show-hidden.png"\] Alt text: Shows the capabilities filter with the Show Hidden value set to Yes.
 
         The hidden capabilities tiles are displayed in the list of applications.
 

@@ -2,7 +2,10 @@
 title: Resolve cases with knowledge and community content
 description: Enable agents to resolve a case more quickly by searching for information from the knowledge base and community and, if helpful, associating it to the case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_ProposeAKBArticleAsACaseSolution.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -25,7 +28,7 @@ Customer service agents can search for information that is related to a case whe
 
 By default, search results include knowledge articles, pinned articles, and solved community questions and blogs. Depending on the configuration, search results can also include other types of information, such as open and resolved cases and problems. With the Predictive Intelligence for Customer Service Management plugin \(com.snc.csm\_ml\), you can also view similar cases and similar knowledge articles.
 
-Customer service case managers can use the Demand Insights for Cases dashboard to identify which cases have no or insufficient knowledge coverage. For more information, see [Demand Insights for Cases dashboard](https://www.servicenow.com/docs/access?context=demand-insights-cases-dashboard&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+Customer service case managers can use the Demand Insights for Cases dashboard to identify which cases have no or insufficient knowledge coverage. For more information, see Demand Insights for Cases dashboard.
 
 ## Procedure
 
@@ -41,15 +44,15 @@ Customer service case managers can use the Demand Insights for Cases dashboard t
 
 4.  Perform any of the following steps.
 
-<table id="choicetable_i5f_ckh_ndb"><thead><tr><th align="left" id="d175790e123">
+<table id="choicetable_i5f_ckh_ndb"><thead><tr><th align="left" id="d74773e123">
 
 To
 
-</th><th align="left" id="d175790e126">
+</th><th align="left" id="d74773e126">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d175790e132">
+</th></tr></thead><tbody><tr><td id="d74773e132">
 
 **Attach a knowledge article to the case**
 
@@ -63,7 +66,7 @@ The knowledge article is displayed in **Activities** as a work note and is visib
 3.  To make the article visible to customers, click **Post**.
  **Note:** You cannot attach Communities content to the Case form.
 
-</td></tr><tr><td id="d175790e173">
+</td></tr><tr><td id="d74773e173">
 
 **Mark the content as helpful for resolving the associated case**
 
@@ -71,7 +74,7 @@ The knowledge article is displayed in **Activities** as a work note and is visib
 
 Click **This helped** in the pop-up window.
 
-</td></tr><tr><td id="d175790e185">
+</td></tr><tr><td id="d74773e185">
 
 **Scroll to previous or next result**
 

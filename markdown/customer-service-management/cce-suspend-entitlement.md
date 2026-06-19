@@ -2,7 +2,10 @@
 title: Suspend an entitlement
 description: Suspend an entitlement by creating an order on the CSM Configurable Workspace. By suspending an entitlement, you are suspending or disabling the services and characteristics associated with that entitlement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/cce-suspend-entitlement.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -35,7 +38,7 @@ Role required: sn\_customerservice\_manager and sn\_ind\_tmt\_orm.order\_agent
 
 6.  In the Suspend entitlement window, enter the period of suspension for the entitlement in the **Start date and time** and the **End date and time** field.
 
-    **Note:** If you do not enter a value in the **End date and time**, the entitlement will be suspended You can resume the entitlement manually by using the resume option. For more info, see [Resume an entitlement](cce-resume-entitlement.md).
+    **Note:** If you do not enter a value in the **End date and time**, the entitlement will be suspended You can resume the entitlement manually by using the resume option. For more info, see [Resume an entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/cce-resume-entitlement.md).
 
 7.  Add a reason for a suspension in the **Reason for suspension** field.
 

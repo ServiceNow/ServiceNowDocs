@@ -2,6 +2,7 @@
 title: Install the Safe Workplace Dashboard
 description: Install the Safe Workplace Dashboard application. You can install this application If you have the admin role.Components are installed with the Safe Workplace Dashboard, including user roles, scheduled jobs, and tables.Set up Safe Workplace Dashboard properties to add your Mapbox API token and configure how indicators are displayed across timezones.The Safe Workplace Dashboard comprises ServiceNow Service Portal widgets that are populated by Performance Analytics widgets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace-dashboard/install-safe-workplace-dashboard.html
 release: zurich
 product: Safe Workplace Dashboard
 classification: safe-workplace-dashboard
@@ -27,7 +28,7 @@ Use the default setting **active=false** to avoid incorrect mappings in the Camp
 
 Run this script after activating the Safe Workplace Dashboard \(sn\_imt\_dashboard\) plugin and ensuring that your existing campuses have sites and regions populated.
 
-After running the Map existing campus with locations fix script, validate that all campuses and locations are accurate. For inaccurate data, remove entries and see [Manually map a location and campus](man-create-campus.md) for more information.
+After running the Map existing campus with locations fix script, validate that all campuses and locations are accurate. For inaccurate data, remove entries and see [Manually map a location and campus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace-dashboard/man-create-campus.md) for more information.
 
 Role required: admin
 
@@ -98,7 +99,7 @@ If you've subscribed to the Safe Workplace suite and you already have some of th
 
 2.  Find the application using the filter criteria and search field.
 
-    You can search for the application by its name or ID. If you cannot find an application, you may have to request it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release note information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    You can search for the application by its name or ID. If you cannot find an application, you may have to request it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release note information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Click **Install**.
 
@@ -119,13 +120,13 @@ If you've subscribed to the Safe Workplace suite and you already have some of th
 7.  When the installation is complete, click **Close**.
 
 
-**Parent Topic:**[Safe Workplace Dashboard](../concept/safe-workplace-dashboard.md)
+**Parent Topic:**[Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace-dashboard/safe-workplace-dashboard.md)
 
 ## Components installed with the Safe Workplace Dashboard
 
 Components are installed with the Safe Workplace Dashboard, including user roles, scheduled jobs, and tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ### Roles installed
 
@@ -311,7 +312,7 @@ The Safe Workplace Dashboard comprises ServiceNow® Service Portal widgets that 
 -   Safe Workplace Dashboard Menu
 -   Safe Workplace Dashboard Vaccination Widget
 
-For information about customizing Service Portal widgets, see [Service Portal widgets](https://www.servicenow.com/docs/access?context=service-portal-widgets&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) and the [Widget developer guide](https://www.servicenow.com/docs/access?context=widget-dev-guide&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+For information about customizing Service Portal widgets, see Service Portal widgets and the Widget developer guide.
 
 ### Performance Analytics widgets
 
@@ -336,5 +337,5 @@ For information about customizing Service Portal widgets, see [Service Portal wi
 -   Number of Workplace Reserved Spaces
 -   PPE Inventory % Change from Prior Day
 
-For information about using Performance Analytics, see [Performance Analytics](https://www.servicenow.com/docs/access?context=pa-overview&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+For information about using Performance Analytics, see Performance Analytics.
 

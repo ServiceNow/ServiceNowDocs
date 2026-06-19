@@ -2,6 +2,7 @@
 title: PdfMergeSignRequestor - Scoped, Global
 description: The PdfMergeSignRequestor API provides methods to add an image representing a signature to a PDF document.Instantiates a new PdfMergeSignRequestor object.Assigns signature size and position requirements in the PDF.Creates a signature request with source and target inputs.Processes requests and adds the signatures.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/PdfMergeSignRequestorBothAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,9 +18,9 @@ The PdfMergeSignRequestor API provides methods to add an image representing a si
 
 This API is part of the ServiceNow PDF Generation Utilities plugin \(com.snc.apppdfgenerator\) and is provided within the `sn_pdfgeneratorutils` namespace. The plugin is activated by default.
 
-This API creates a signature object that can be implemented in a PDF using [PDFGenerationAPI](../../PDFGenerationAPIBoth/concept/PDFGenerationAPIBothAPI.md#).
+This API creates a signature object that can be implemented in a PDF using [PDFGenerationAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md).
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## PdfMergeSignRequestor - PdfMergeSignRequestor\(\)
 

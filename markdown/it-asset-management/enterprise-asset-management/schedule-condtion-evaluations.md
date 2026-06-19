@@ -2,6 +2,7 @@
 title: Schedule condition evaluations for enterprise models or assets
 description: Schedule a condition evaluation by creating a work order for it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/schedule-condtion-evaluations.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -27,7 +28,7 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
 3.  Select **Asset condition work order** in the **Template** field.
 
-    For more details on creating a work order, see [Create a work order for an enterprise asset](create-eam-work-order.md).
+    For more details on creating a work order, see [Create a work order for an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-eam-work-order.md).
 
 4.  After you have entered the details in the work order, select **Save**.
 

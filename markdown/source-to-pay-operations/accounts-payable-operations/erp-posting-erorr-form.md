@@ -2,6 +2,7 @@
 title: ERP Posting error form
 description: The ERP posting error form includes mandatory fields that must be updated by the Accounts Payable admin to close the ERP integration error task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/erp-posting-erorr-form.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -62,5 +63,5 @@ Emails
 Invoice related emails are created
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Invoice processing case form](invoice-processing-case-form.md)
+</table>**Parent Topic:**[Invoice processing case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/invoice-processing-case-form.md)
 

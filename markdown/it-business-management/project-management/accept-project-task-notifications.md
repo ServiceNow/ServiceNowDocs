@@ -2,6 +2,7 @@
 title: Accept or reject project task notifications
 description: Approve or reject the changes in a notification for an external soft dependency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-management/accept-project-task-notifications.html
 release: zurich
 product: Project Management
 classification: project-management
@@ -21,7 +22,7 @@ Role required: it\_project\_manager
 
 ## About this task
 
-The **Notifications** related list on the project record lists the [external dependency](../concept/external-dependencies.md) related notifications raised in the successor project. The [notifications](../concept/external-dependency-types.md) are triggered as a result of changes made in the predecessor project that can impact successor project or task.
+The **Notifications** related list on the project record lists the [external dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/external-dependencies.md) related notifications raised in the successor project. The [notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/external-dependency-types.md) are triggered as a result of changes made in the predecessor project that can impact successor project or task.
 
 -   The notifications for the hard dependency have the**State** set to Processed by default.
 -   The notifications for the soft dependency have the **State** set to New by default. As the project manager of the successor project, you can choose to accept or reject the changes in the notification.
@@ -32,7 +33,7 @@ The **Notifications** related list on the project record lists the [external dep
 
 2.  Select the **Notifications** related list.
 
-3.  Select the reference icon ![Reference icon.](../image/ProjectWorkbenchProjectDetailIcon.png)to open the project task notification record for an external soft dependency.
+3.  Select the reference icon \[Omitted image "ProjectWorkbenchProjectDetailIcon.png"\] Alt text: Reference icon.to open the project task notification record for an external soft dependency.
 
 4.  Select **Approve** or **Reject**.
 
@@ -42,5 +43,5 @@ The **Notifications** related list on the project record lists the [external dep
 -   The **Status** of the notification record changes to Accept or Reject.
 -   The **State** of the notification record changes to Processed.
 
-**Parent Topic:**[Create a project task from a project](t_CreateATaskFromAProject.md)
+**Parent Topic:**[Create a project task from a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/t_CreateATaskFromAProject.md)
 

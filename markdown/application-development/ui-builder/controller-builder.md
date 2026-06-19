@@ -2,6 +2,7 @@
 title: Create custom controllers \(Advanced feature\)
 description: Build custom controllers to use across experiences. Easily connect reusable data, scripts, and events to your page and set up inputs, outputs, and events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/controller-builder.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -38,7 +39,7 @@ Role required: ui\_builder\_admin
 
     The controller building window opens.
 
-    ![Controller building window with no data added.](../image/controller-builder-window.png)
+    \[Omitted image "controller-builder-window.png"\] Alt text: Controller building window with no data added.
 
 6.  Add data resources.
 
@@ -80,7 +81,7 @@ Role required: ui\_builder\_admin
 
     6.  Select **Save**.
 
-    For more information about client state parameters, see [Client state parameters](../concept/client-state-parameters.md).
+    For more information about client state parameters, see [Client state parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/client-state-parameters.md).
 
 9.  Add client scripts.
 
@@ -97,7 +98,7 @@ Role required: ui\_builder\_admin
 
 ## What to do next
 
-Use the custom controller you just created by [adding the controller to a page.](../concept/controllers.md#)
+Use the custom controller you just created by [adding the controller to a page.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/controllers.md)
 
-**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](../concept/data-resources.md)
+**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/data-resources.md)
 

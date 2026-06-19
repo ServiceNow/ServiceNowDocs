@@ -2,6 +2,7 @@
 title: Configure workspace page
 description: You can configure and customize your workspaces so that all the GRC applications have a similar appearance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/configure-workspace-page.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -27,9 +28,9 @@ Role required: sn\_grc\_workspace.admin.
 
 3.  Open the record and on the form, click **here** to edit the record.
 
-    On the form, fill in the fields. For more information, see [Workspace page configuration form](../reference/workspace-page-configuration-form.md).
+    On the form, fill in the fields. For more information, see [Workspace page configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/workspace-page-configuration-form.md).
 
-    ![Workspace page configuration](../image/workspace-page-configuration-form.png "Workspace page configuration form")
+    \[Omitted image "workspace-page-configuration-form.png"\] Alt text: Workspace page configuration
 
 4.  Click **Update**.
 
@@ -38,12 +39,12 @@ Role required: sn\_grc\_workspace.admin.
 
 Workspace is customized as per the configuration and looks similar in all the GRC applications.
 
--   **[Workspace page configuration form](../reference/workspace-page-configuration-form.md)**  
+-   **[Workspace page configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/workspace-page-configuration-form.md)**  
 Description of field values for the workspace configuration form.
--   **[Revert record page templates to the pre-17.x version](revert-to-previous-record-page.md)**  
+-   **[Revert record page templates to the pre-17.x version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/revert-to-previous-record-page.md)**  
 If you’re an existing customer and have a customized record page, you can revert to that old page.
--   **[Record type icons configured for forms in GRC Common Workspace Elements](../reference/record-type-icons-rec-pg-mig.md)**  
+-   **[Record type icons configured for forms in GRC Common Workspace Elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/record-type-icons-rec-pg-mig.md)**  
 The table gives you a list of icons configured for the forms in the Audit Workspace and Compliance Workspace.
 
-**Parent Topic:**[Workspace page configuration](../concept/workspace-page-configuration.md)
+**Parent Topic:**[Workspace page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/workspace-page-configuration.md)
 

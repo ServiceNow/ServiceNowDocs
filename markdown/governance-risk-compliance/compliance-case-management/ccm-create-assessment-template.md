@@ -2,6 +2,7 @@
 title: Create an assessment template
 description: Create an assessment template to request responses from the assessor or reviewer. You can create this template by using the assessment metric type form in the GRC: Compliance Case Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/compliance-case-management/ccm-create-assessment-template.html
 release: zurich
 product: Compliance Case Management
 classification: compliance-case-management
@@ -31,13 +32,13 @@ You can create a questionnaire template instead of using the default template to
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values on the Assessment Metric Type form, see [Assessment Metric Type form](../reference/assessment-metric-type-form.md).
+    For a description of the field values on the Assessment Metric Type form, see [Assessment Metric Type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/assessment-metric-type-form.md).
 
 4.  Select **Submit**.
 
 
--   **[Assessment Metric Type form](../reference/assessment-metric-type-form.md)**  
+-   **[Assessment Metric Type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/assessment-metric-type-form.md)**  
 Use the Assessment Metric Type form to create an assessment questionnaire template by using the GRC: Compliance Case Management application.
 
-**Parent Topic:**[Configuring Compliance Case Management](../concept/configure-compliance-case-management.md)
+**Parent Topic:**[Configuring Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/configure-compliance-case-management.md)
 

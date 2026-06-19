@@ -2,6 +2,7 @@
 title: Access to Experts
 description: The Access to Experts Accelerator connects Impact customers to ServiceNow subject matter experts via personalized virtual coaching sessions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/access-experts-acc.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -21,7 +22,7 @@ Access to Experts targets precise and actionable guidance on the ServiceNow Plat
 
 Sessions offer specialized guidance on various ServiceNow product topics, aimed at accelerating value realization and outcomes on the ServiceNow Platform.
 
-**Note:** Impact squad members may determine that an Access to Experts Accelerator is to be requested based on the information submitted in the [Access to Expertise](../concept/access-expertise-initiative.md) initiative. The Accelerator is not available to be requested by customers outside of the Initiative.
+**Note:** Impact squad members may determine that an Access to Experts Accelerator is to be requested based on the information submitted in the [Access to Expertise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/access-expertise-initiative.md) initiative. The Accelerator is not available to be requested by customers outside of the Initiative.
 
 ## Requestable topics
 
@@ -35,7 +36,7 @@ The Access to Experts Accelerator applies to a selected set of requestable topic
     -   Address specific technical inquiries and receive prescriptive guidance.
 -   Product Capability Overview: Designed for customers who have already licensed the product \(post-sales\), this session offers a high-level overview of specific product capabilities. It features an out-of-the-box walkthrough using demonstration data to showcase key features and foundational concepts.
 
-For examples of requests or additional information on the request process, see [Request Access to Expertise](../task/access-expertise.md).
+For examples of requests or additional information on the request process, see [Request Access to Expertise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/access-expertise.md).
 
 This feature is available for packages such as Impact Advanced and Impact Total along with the Impact Guided package and Strategic Value or Platform Governance, as add-on.
 

@@ -2,6 +2,7 @@
 title: Exam form
 description: Use the Exam form to create an exam.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/exam-form.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core

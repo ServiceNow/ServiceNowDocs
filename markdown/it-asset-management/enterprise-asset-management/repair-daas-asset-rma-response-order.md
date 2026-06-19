@@ -2,6 +2,7 @@
 title: Complete the Repair asset task for a defective Device as a Service DaaS asset
 description: Complete the Repair asset task for a defective DaaS asset by repairing the asset either on-site or off-site.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/repair-daas-asset-rma-response-order.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -17,7 +18,7 @@ Complete the Repair asset task for a defective DaaS asset by repairing the asset
 
 ## Before you begin
 
-Before you can begin the Repair asset task, you must complete the preceding Evaluate RMA asset task by evaluating the asset and indicating that it is repairable. For detailed instructions, see [Complete the Evaluate RMA asset task for a defective Device as a Service DaaS asset](evaluate-daas-asset-rma-response-order.md).
+Before you can begin the Repair asset task, you must complete the preceding Evaluate RMA asset task by evaluating the asset and indicating that it is repairable. For detailed instructions, see [Complete the Evaluate RMA asset task for a defective Device as a Service DaaS asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/evaluate-daas-asset-rma-response-order.md).
 
 Role required: sn\_eam\_provider.provider\_asset\_technician
 
@@ -27,15 +28,15 @@ Role required: sn\_eam\_provider.provider\_asset\_technician
 
 2.  Open the Asset tasks list.
 
-<table id="choicetable_lxc_pcp_bhc"><thead><tr><th align="left" id="d117989e91">
+<table id="choicetable_lxc_pcp_bhc"><thead><tr><th align="left" id="d32481e91">
 
 Navigation option
 
-</th><th align="left" id="d117989e94">
+</th><th align="left" id="d32481e94">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d117989e100">
+</th></tr></thead><tbody><tr><td id="d32481e100">
 
 **Provider RMA response order**
 
@@ -51,7 +52,7 @@ Procedure
 5.  On the RMA response order line record, select the **Asset tasks** tab.
 
 
-</td></tr><tr><td id="d117989e144">
+</td></tr><tr><td id="d32481e144">
 
 **Provider RMA response order line**
 
@@ -65,7 +66,7 @@ Procedure
 3.  On the RMA response order line record, select the **Asset tasks** tab.
 
 
-</td></tr><tr><td id="d117989e179">
+</td></tr><tr><td id="d32481e179">
 
 **Provider asset tasks**
 
@@ -134,8 +135,8 @@ Notes about the task that are visible to all users within your organization.
 
 ## What to do next
 
--   If you set the **Repair result** field to **Repaired**, complete the corresponding Evaluate asset task by evaluating the repaired asset and determining if it can be redeployed. For detailed instructions, see [Complete the Evaluate asset task for a defective Device as a Service DaaS asset](evaluate-repaired-daas-asset-rma-response-order.md).
--   If you set the **Repair result** field to **Unrepairable**, complete the corresponding Ship task by having the customer ship the asset to you for replacement. For detailed instructions, see [Complete the Ship task for a defective Device as a Service DaaS asset](ship-daas-asset-rma-response-order.md).
+-   If you set the **Repair result** field to **Repaired**, complete the corresponding Evaluate asset task by evaluating the repaired asset and determining if it can be redeployed. For detailed instructions, see [Complete the Evaluate asset task for a defective Device as a Service DaaS asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/evaluate-repaired-daas-asset-rma-response-order.md).
+-   If you set the **Repair result** field to **Unrepairable**, complete the corresponding Ship task by having the customer ship the asset to you for replacement. For detailed instructions, see [Complete the Ship task for a defective Device as a Service DaaS asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/ship-daas-asset-rma-response-order.md).
 
-**Parent Topic:**[Completing a Return Merchandise Authorization \(RMA\) response order for defective Device as a Service \(DaaS\) assets](../concept/completing-rma-response-order-daas-assets.md)
+**Parent Topic:**[Completing a Return Merchandise Authorization \(RMA\) response order for defective Device as a Service \(DaaS\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/completing-rma-response-order-daas-assets.md)
 

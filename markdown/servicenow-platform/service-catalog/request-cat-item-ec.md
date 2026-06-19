@@ -2,6 +2,7 @@
 title: Request a catalog item from Employee Center
 description: Use the SC Catalog Item widget in Employee Center to request a catalog item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/request-cat-item-ec.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -31,7 +32,7 @@ Role required: requester
 
 5.  If required, perform any of these actions.
 
-<table id="choicetable_sly_jsd_5bb"><tbody><tr><td id="d293221e96">
+<table id="choicetable_sly_jsd_5bb"><tbody><tr><td id="d212932e96">
 
 **Add attachments**
 
@@ -39,7 +40,7 @@ Role required: requester
 
 To add one or more attachments to the catalog item, select the choose a file link to browse and choose the files or directly drag the files in the **Add attachments** window.
 
-</td></tr><tr><td id="d293221e108">
+</td></tr><tr><td id="d212932e108">
 
 **Add to Cart**
 
@@ -47,13 +48,13 @@ To add one or more attachments to the catalog item, select the choose a file lin
 
 To add the catalog item to the shopping cart, click **Add to Cart**.
 
-</td></tr><tr><td id="d293221e120">
+</td></tr><tr><td id="d212932e120">
 
 **Add to Wish List**
 
 </td><td>
 
-To add the catalog item to the wish list, click the Add to Wish List icon \(![Icon to add to the wish list](../image/SPWishList.png)\).
+To add the catalog item to the wish list, click the Add to Wish List icon \(\[Omitted image "SPWishList.png"\] Alt text: Icon to add to the wish list\).
 
 </td></tr></tbody>
 </table>6.  Click **Order Now**.
@@ -71,5 +72,5 @@ To add the catalog item to the wish list, click the Add to Wish List icon \(![Ic
     The corresponding request is displayed in the My Requests page with the request number, estimated delivery date for the order, price, and the order status.
 
 
-**Parent Topic:**[Service Catalog in Employee Center portal](../concept/service-catalog-in-ec.md)
+**Parent Topic:**[Service Catalog in Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/service-catalog-in-ec.md)
 

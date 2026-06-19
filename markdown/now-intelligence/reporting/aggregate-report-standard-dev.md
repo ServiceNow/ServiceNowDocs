@@ -2,6 +2,7 @@
 title: Aggregate a report on standard deviation
 description: When you create a report, you can aggregate the data on several calculations including the number of records, averages, and standard deviation. The standard deviation aggregation shows variation from average values for a duration or numeric field in a visualization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/aggregate-report-standard-dev.html
 release: zurich
 product: Reporting
 classification: reporting
@@ -25,7 +26,7 @@ Select **Standard deviation** \(SD\) to see variation from average values for a 
 
 Standard deviation is always expressed in the same unit as the data. In the following example, the data is in time units and so is the aggregation.
 
-![Bar chart aggregated by Standard deviation with bars representing incident categories and priorities, one showing the standard deviation for critical software incidents of approximately 10 days, 9 hours.](../image/aggregation-standard-deviation.png)
+\[Omitted image "aggregation-standard-deviation.png"\] Alt text: Bar chart aggregated by Standard deviation with bars representing incident categories and priorities, one showing the standard deviation for critical software incidents of approximately 10 days, 9 hours.
 
 ## Procedure
 

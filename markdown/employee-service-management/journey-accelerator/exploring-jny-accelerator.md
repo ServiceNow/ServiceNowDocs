@@ -2,6 +2,7 @@
 title: Exploring Journey Accelerator
 description: Learning about how to use Journey Accelerator application to create templates for plans and to-do tasks. How Managers can use the templates to create and publish customized plans for key employee transitions. Managers, employees, and mentors can access the plans from the Employee Center
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-accelerator/exploring-jny-accelerator.html
 release: zurich
 product: Journey Accelerator
 classification: journey-accelerator
@@ -87,16 +88,16 @@ Employees
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Monitor journey accelerator plans|[Working with Journey Accelerator plans](working-with-journey-accelerator-plans.md)|Journey Accelerator reader.|
-|Create plans and track them for your employees|[Create and track plans for your employees](../task/create-employee-plan.md)|Managers|
-|View and complete action plans|[Employees view and complete action plans](../task/ja-employee-plan.md)|Employees|
-|Mentoring benefits|[Mentor employees by using a Journey Accelerator plan](../task/ja-mentor-plan.md)|Assigned mentor|
+|Monitor journey accelerator plans|[Working with Journey Accelerator plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/working-with-journey-accelerator-plans.md)|Journey Accelerator reader.|
+|Create plans and track them for your employees|[Create and track plans for your employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/create-employee-plan.md)|Managers|
+|View and complete action plans|[Employees view and complete action plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/ja-employee-plan.md)|Employees|
+|Mentoring benefits|[Mentor employees by using a Journey Accelerator plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/ja-mentor-plan.md)|Assigned mentor|
 
 ## What to explore next
 
 To learn more about configuring and using Journey Accelerator, see:
 
--   [Install and configure Journey Accelerator](../task/install-journey-accelerator.md)
--   [Working with Journey Accelerator plans](working-with-journey-accelerator-plans.md)
--   [Journey Accelerator reference](../reference/ja-reference.md)
+-   [Install and configure Journey Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/install-journey-accelerator.md)
+-   [Working with Journey Accelerator plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/working-with-journey-accelerator-plans.md)
+-   [Journey Accelerator reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/ja-reference.md)
 

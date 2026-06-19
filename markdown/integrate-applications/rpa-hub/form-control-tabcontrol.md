@@ -2,6 +2,7 @@
 title: Methods and events of the TabControl element
 description: The TabControl element in the RPA Desktop Design Studio enables you to add one or more tabs in your form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/form-control-tabcontrol.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -91,5 +92,5 @@ The methods and events of the TabControl element are displayed in the Object Exp
     Occurs when the focus moves out of the current element.
 
 
-**Parent Topic:**[Methods and events of elements](form-control-methods-events.md)
+**Parent Topic:**[Methods and events of elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/form-control-methods-events.md)
 

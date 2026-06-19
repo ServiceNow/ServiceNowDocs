@@ -2,6 +2,7 @@
 title: Add a new custodian to an existing legal hold matter
 description: Add a new custodian to issue the legal hold notice if a user is later identified as responsible for preserving data relevant to the existing legal hold.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-hold-notification/add-new-custodian-lg-hold-notif.html
 release: zurich
 product: Legal Hold Notification
 classification: legal-hold-notification
@@ -23,7 +24,7 @@ Role required: sn\_lg\_hold.legal\_hold\_fulfiller
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Select the List icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Default list** tab, navigate to **Matters** &gt; **All**
 
@@ -31,9 +32,9 @@ Role required: sn\_lg\_hold.legal\_hold\_fulfiller
 
 5.  In the **Custodians** tab, select **New**.
 
-6.  On the Create New Custodians form, in the **Custodian name** field, select the Search for Record icon \(![](../../legal-request-management/image/lookup-using-list.png)\) and search for and select the custodian name.
+6.  On the Create New Custodians form, in the **Custodian name** field, select the Search for Record icon \(\[Omitted image "lookup-using-list.png"\] Alt text:\) and search for and select the custodian name.
 
-    Only users with the custodian role are available in the list. For more information, see [Assign the legal user role to a custodian](assign-user-lg-hold-cust.md).
+    Only users with the custodian role are available in the list. For more information, see [Assign the legal user role to a custodian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-hold-notification/assign-user-lg-hold-cust.md).
 
 7.  On the form, fill in the remaining fields.
 
@@ -82,7 +83,7 @@ Data source type related to the legal hold matter such as documents, spreadsheet
 
         A legal hold notice opens in an editable format.
 
-        ![Legal hold notice template](../image/Customize-legal-hold-notice-template.png)
+        \[Omitted image "Customize-legal-hold-notice-template.png"\] Alt text: Legal hold notice template
 
     3.  Customize the template by substituting your company's name for the placeholder text and adding any additional information you want to include.
 
@@ -105,5 +106,5 @@ In the **Tasks** tab, the state of the task changes from Draft to Assigned.
 
 In the **Artifacts** tab, the legal hold notice sent to the custodian is automatically attached.
 
-**Parent Topic:**[Using Legal Hold Notification](../concept/use-lg-hold-notif.md)
+**Parent Topic:**[Using Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-hold-notification/use-lg-hold-notif.md)
 

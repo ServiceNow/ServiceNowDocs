@@ -2,6 +2,7 @@
 title: Creating content through Content Governance
 description: When a content request item is assigned to you, create and schedule the content, then send it for approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/creating-content-governance.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -35,7 +36,7 @@ Role required: sn\_cd.content\_manager
 
 6.  Click **Create Content**.
 
-    Create and schedule the content in the [Portal content](../concept/ec-streamline-content.md).
+    Create and schedule the content in the [Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-streamline-content.md).
 
     **Note:** When you are creating the publish plan, the **Inactive** option is selected by default. When the content is approved, the system activates the publish plan. Alternatively, you can set a publishing duration. However, if you select **Always active**, the content will publish without approval.
 

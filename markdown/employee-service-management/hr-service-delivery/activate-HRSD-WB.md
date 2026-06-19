@@ -2,6 +2,7 @@
 title: Activate HR Predictive Intelligence Workbench
 description: You can activate the Predictive Intelligence Workbench HRSD content plugin \[com.sn\_piwb\_hrsd\_content\] if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/activate-HRSD-WB.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -31,16 +32,16 @@ Role required: admin
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
--   **[Components installed with HR Predictive Intelligence Workbench](../reference/installed-with-HRSD-WB.md)**  
+-   **[Components installed with HR Predictive Intelligence Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/installed-with-HRSD-WB.md)**  
 Several types of components are installed with activation of the HR Predictive Intelligence Workbench HRSD content plugin \[com.sn\_piwb\_hrsd\_content\] plugin, including user roles.
 
-**Parent Topic:**[HR Predictive Intelligence Workbench administration](../concept/hr-piwb-administration.md)
+**Parent Topic:**[HR Predictive Intelligence Workbench administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-piwb-administration.md)
 
 **Related topics**  
 
 
-[List of plugins \(Tokyo\)](https://www.servicenow.com/docs/access?context=list-of-plugins&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+[bundle-platadm.list-of-plugins]
 

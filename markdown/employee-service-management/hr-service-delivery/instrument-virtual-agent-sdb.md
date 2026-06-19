@@ -2,13 +2,14 @@
 title: Configure the Virtual Agent topics
 description: Configure the Virtual Agent \(VA\) topics for HR Success Dashboard indicators to display data correctly in case you have topics other than the base system topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/instrument-virtual-agent-sdb.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure, HR Success Dashboard indicators, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure HR Success Dashboard indicators, HR Success Dashboard indicators, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure the Virtual Agent topics
@@ -17,7 +18,7 @@ Configure the Virtual Agent \(VA\) topics for HR Success Dashboard indicators to
 
 ## Before you begin
 
-Role required: admin
+Role required: virtual\_agent\_admin
 
 ## About this task
 
@@ -39,7 +40,7 @@ Map the topics with deflection patterns of the **HR VA Default** deflection trac
     |-----|-----|
     |Deflection Configuration|HR VA Default|
     |Deflection Pattern|**HR VA-Self-Resolving:** When the node in the topic indicates that Virtual Agent is able to resolve the user problem completely without creating an IT ticket \(incident or request\) and consequently contributing to the Self-solved KPIs.|
-    |Activity Table|Table where the deflection activity occurs. This table is associated with the primary activity table. For more information, see [Create deflection configurations and patterns](https://www.servicenow.com/docs/access?context=set-up-deflection-settings-va&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).|
+    |Activity Table|Table where the deflection activity occurs. This table is associated with the primary activity table. For more information, see Create deflection configurations and patterns.|
     |Activity Ids|List of comma-separated activity system IDs.|
 
 6.  Select **Save**.
@@ -47,18 +48,18 @@ Map the topics with deflection patterns of the **HR VA Default** deflection trac
 
 ## What to do next
 
-Set up the fulfillment automation level of the HR catalog items, see [Set fulfillment automation level of catalog item](https://www.servicenow.com/docs/access?context=set-fulfillment-automation-level-sdb&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+Set up the fulfillment automation level of the HR catalog items, see Set fulfillment automation level of catalog item.
 
 You may also configure the dashboard indicators KPIs, add contributing indicators, or update the More information card, as required.
 
-1.  For more information on configuring the Success Dashboard indicators KPIs, see [Configure Success Dashboard indicators KPIs](https://www.servicenow.com/docs/access?context=config-kpis-sdb&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
-2.  For more information on adding contributing indicators, see [Add contributing indicators](https://www.servicenow.com/docs/access?context=add-contributing-indicators&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
-3.  For more information on updating the More information card, see [Update more information cards](https://www.servicenow.com/docs/access?context=update-sidepanel-more&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+1.  For more information on configuring the Success Dashboard indicators KPIs, see Configure Success Dashboard indicators KPIs.
+2.  For more information on adding contributing indicators, see Add contributing indicators.
+3.  For more information on updating the More information card, see Update more information cards.
 
 **Related topics**  
 
 
-[Tracking deflections using deflection topic blocks](https://www.servicenow.com/docs/access?context=deflections-virtual-agent&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US)
+[bundle-convint.deflections-virtual-agent]
 
-[Create deflection configurations and patterns](https://www.servicenow.com/docs/access?context=set-up-deflection-settings-va&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US)
+[bundle-convint.set-up-deflection-settings-va]
 

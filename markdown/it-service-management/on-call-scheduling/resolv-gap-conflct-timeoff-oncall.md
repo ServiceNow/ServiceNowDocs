@@ -2,6 +2,7 @@
 title: Resolve gaps, conflicts, and time-off requests in a shift
 description: Review and resolve gaps and conflicts. Find a replacement on-call member for time-off requests to ensure proper support coverage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/on-call-scheduling/resolv-gap-conflct-timeoff-oncall.html
 release: zurich
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -35,9 +36,9 @@ A conflict is possible if a user is assigned as both the primary and secondary p
 
 2.  Click a shift card.
 
-    **Note:** If you are a shift manager or roster member, the schedule view opens. In all other cases, you are redirected to the calendar view. For more information on on-call scheduling calendars, see [Manage shifts from the Calendar view](customize-calendar-view-oncall.md).
+    **Note:** If you are a shift manager or roster member, the schedule view opens. In all other cases, you are redirected to the calendar view. For more information on on-call scheduling calendars, see [Manage shifts from the Calendar view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/customize-calendar-view-oncall.md).
 
-    -   The On-Call Schedules page open. For more information, see [Updating an On-Call schedule](update-schedule-oncall.md)
+    -   The On-Call Schedules page open. For more information, see [Updating an On-Call schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/update-schedule-oncall.md)
     -   The pending actions for the current shift appear in the **Pending Actions** section.
     .
 
@@ -47,7 +48,7 @@ A conflict is possible if a user is assigned as both the primary and secondary p
 
         The calendar view appears, and gaps or conflicts are highlighted.
 
-    2.  Click the Information icon \(![Information icon](../image/icon-information.png)\) to view gaps.
+    2.  Click the Information icon \(\[Omitted image "icon-information.png"\] Alt text: Information icon\) to view gaps.
 
     3.  Right-click the shift and select **Edit shift** from the **Actions** list.
 
@@ -70,5 +71,5 @@ A conflict is possible if a user is assigned as both the primary and secondary p
     3.  Approve the time-off requests.
 
 
-**Parent Topic:**[Configure or update an On-Call shift](config-update-shift-oncall.md)
+**Parent Topic:**[Configure or update an On-Call shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/config-update-shift-oncall.md)
 

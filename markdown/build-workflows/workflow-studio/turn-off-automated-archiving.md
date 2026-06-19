@@ -2,6 +2,7 @@
 title: Turn off automated archiving
 description: Turn off the automatic archiving of context records for your complete and cancelled playbooks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/turn-off-automated-archiving.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -19,7 +20,7 @@ Turn off the automatic archiving of context records for your complete and cancel
 
 Role required: playbook.admin
 
-If you want to change the number of days to before a playbook is archived instead, see [Configure archive settings for process contexts](config-archive-settings-process-contexts.md).
+If you want to change the number of days to before a playbook is archived instead, see [Configure archive settings for process contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/config-archive-settings-process-contexts.md).
 
 ## Procedure
 
@@ -38,5 +39,5 @@ If you want to change the number of days to before a playbook is archived instea
     Automated archiving is turned off.
 
 
-**Parent Topic:**[Archive process contexts](archive-process-executions.md)
+**Parent Topic:**[Archive process contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/archive-process-executions.md)
 

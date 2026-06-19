@@ -2,6 +2,7 @@
 title: Risk, issues, decisions, actions, and request change \(RIDAC\) form
 description: Learn about the fields of the RIDAC form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-management/ridac-forms.html
 release: zurich
 product: Project Management
 classification: project-management
@@ -77,7 +78,7 @@ Risk rank
 
 </td><td>
 
-A value and color assigned to the risk. This value is calculated using risk probability and impact. You can configure the color and value using Risk Value Lookup. For more information, see [Configure custom Risk rank and Risk value for a project](../task/risk-value-lookup-project.md).
+A value and color assigned to the risk. This value is calculated using risk probability and impact. You can configure the color and value using Risk Value Lookup. For more information, see [Configure custom Risk rank and Risk value for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/risk-value-lookup-project.md).
 
 </td></tr><tr><td>
 
@@ -101,7 +102,7 @@ Risk value
 
 </td><td>
 
-A value calculated from Risk Value Lookup. For more information, see [Configure custom Risk rank and Risk value for a project](../task/risk-value-lookup-project.md).
+A value calculated from Risk Value Lookup. For more information, see [Configure custom Risk rank and Risk value for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/risk-value-lookup-project.md).
 
 </td></tr><tr><td>
 
@@ -258,7 +259,7 @@ Brief description of the issue and its potential impact on the success of the pr
 
  As you start typing the title for your issue, related issues that potentially match your issue are displayed.
 
- Select the suggestion icon \(![Suggestion icon](../../planning-and-policy/image/suggestions-icon.png)\) to select from the list of predefined issue descriptions.
+ Select the suggestion icon \(\[Omitted image "suggestions-icon.png"\] Alt text: Suggestion icon\) to select from the list of predefined issue descriptions.
 
 </td></tr><tr><td>
 
@@ -381,7 +382,7 @@ Short description
 
 Brief description of the decision such as what the decision is about, who made it, what it affects, and the decision outcome.As you start typing the title for your decision, related decisions that potentially match your decision are displayed.
 
- Select the Suggestion icon \(![Suggestion icon](../../planning-and-policy/image/suggestions-icon.png)\) to select a description from the list of predefined decision descriptions.
+ Select the Suggestion icon \(\[Omitted image "suggestions-icon.png"\] Alt text: Suggestion icon\) to select a description from the list of predefined decision descriptions.
 
 </td></tr><tr><td>
 
@@ -496,7 +497,7 @@ Short description
 
 Brief description of the action such as what the action entails, how to implement the action, who it affects, and the action outcome.As you start typing the title for your action, the related actions that potentially match your action title appear.
 
- Select the Suggestion icon \(![suggestion icon](../../planning-and-policy/image/suggestions-icon.png)\) to select a description from the list of predefined actions.
+ Select the Suggestion icon \(\[Omitted image "suggestions-icon.png"\] Alt text: suggestion icon\) to select a description from the list of predefined actions.
 
 </td></tr><tr><td>
 

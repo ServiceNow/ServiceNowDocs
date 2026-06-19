@@ -2,6 +2,7 @@
 title: Finding form for safety audits
 description: When an audit's item for review is complete, the safety auditor can use the Findings form to log findings gathered from the review or survey responses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-risk-management/hs-audit-finding-form.html
 release: zurich
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Health and Safety Risk Management, Health and Safety, Em
 
 When an audit's item for review is complete, the safety auditor can use the Findings form to log findings gathered from the review or survey responses.
 
-For information on recording an audit finding, see [Add a finding for a review item in a safety audit](../task/hs-add-finding-rca-safety-audit.md).
+For information on recording an audit finding, see [Add a finding for a review item in a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/hs-add-finding-rca-safety-audit.md).
 
 <table id="table_qbc_q3p_2dc"><thead><tr><th>
 
@@ -104,7 +105,7 @@ Item for review
 
 </td><td>
 
-Item for review from this audit that this finding is relates to.Only the review items associated with objectives in this audit appear in this field. For more information, see [Define an objective for a safety audit](../task/hs-define-safety-audit-objectives.md).
+Item for review from this audit that this finding is relates to.Only the review items associated with objectives in this audit appear in this field. For more information, see [Define an objective for a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/hs-define-safety-audit-objectives.md).
 
 </td></tr><tr><td>
 
@@ -152,7 +153,7 @@ Criteria
 
 </td><td>
 
-Standards that the audit measures compliance against.The items in this list appear based on the selected **Criteria type** and the selected record of that type in audit's objectives. For more information, see [Define an objective and criteria for an audit](../task/hs-define-safety-audit-objectives.md).
+Standards that the audit measures compliance against.The items in this list appear based on the selected **Criteria type** and the selected record of that type in audit's objectives. For more information, see [Define an objective and criteria for an audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/hs-define-safety-audit-objectives.md).
 
 </td></tr><tr><td>
 
@@ -187,5 +188,5 @@ Work notes
 Additional details about the finding.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Risk Management reference](../concept/hs-risk-mgmt-reference.md)
+</table>**Parent Topic:**[Health and Safety Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-reference.md)
 

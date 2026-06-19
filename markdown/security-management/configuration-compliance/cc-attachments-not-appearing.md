@@ -2,6 +2,7 @@
 title: Attachments not appearing after import
 description: If attachments are not appearing as expected for data sources or on a security incident after third-party integration imports, check your IP restrictions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/cc-attachments-not-appearing.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance

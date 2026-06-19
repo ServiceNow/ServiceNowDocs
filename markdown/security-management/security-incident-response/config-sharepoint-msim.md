@@ -2,6 +2,7 @@
 title: Configure Microsoft SharePoint with Major Security Incident Management
 description: Set up Major Security Incident Management with Microsoft SharePoint connection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/config-sharepoint-msim.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -40,7 +41,7 @@ Role required: admin
 
     -   Certificate \(Applications Permissions\)
 
-        ![SharePoint setup for certificate](../image/sharepoint-setup-msim.png)
+        \[Omitted image "sharepoint-setup-msim.png"\] Alt text: SharePoint setup for certificate
 
         |Field|Description|
         |-----|-----------|
@@ -54,7 +55,7 @@ Role required: admin
 
     -   Client Secret \(Applications Permissions\)
 
-        ![SharePoint setup for client secret](../image/sharepoint-setup-clientsecret.png)
+        \[Omitted image "sharepoint-setup-clientsecret.png"\] Alt text: SharePoint setup for client secret
 
         |Field|Description|
         |-----|-----------|
@@ -73,5 +74,5 @@ Role required: admin
     A successful message appears and the connection is established.
 
 
-**Parent Topic:**[Integrate Major Security Incident Management with Microsoft SharePoint](../concept/integrate-msim-sharepoint.md)
+**Parent Topic:**[Integrate Major Security Incident Management with Microsoft SharePoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/integrate-msim-sharepoint.md)
 

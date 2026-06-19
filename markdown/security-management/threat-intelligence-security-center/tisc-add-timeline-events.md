@@ -2,6 +2,7 @@
 title: Adding Timeline Events to the Canvas
 description: Add timeline events to the investigation canvas by adding the related entities to the canvas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-add-timeline-events.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -35,7 +36,7 @@ Role required: sn\_sec\_tisc.analyst
 
     The Edit Timeline Event\(s\) dialog box displays.
 
-    ![Edit timeline event](../image/tisc-add-timeline-event01.png)![Add events to the timeline](../image/tisc-add-timeline-event.png)
+    \[Omitted image "tisc-add-timeline-event01.png"\] Alt text: Edit timeline event\[Omitted image "tisc-add-timeline-event.png"\] Alt text: Add events to the timeline
 
 7.  Select **Add Event** to add the custom timeline event.
 
@@ -45,8 +46,8 @@ Role required: sn\_sec\_tisc.analyst
 
     The event will be linked to the selected object and also include its timestamp. The visual presentation of the event including the icon and its color reflects the configuration defined during the setup.
 
-    For information on how the timeline events are configured, see [Configure Custom Event Types for Timeline](tisc-config-timeline.md).
+    For information on how the timeline events are configured, see [Configure Custom Event Types for Timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-config-timeline.md).
 
 
-**Parent Topic:**[Using Timeline in Investigation Canvas](tisc-timeline-events.md)
+**Parent Topic:**[Using Timeline in Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-timeline-events.md)
 

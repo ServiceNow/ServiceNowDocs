@@ -2,6 +2,7 @@
 title: Lifecycle event properties
 description: Lifecycle event properties control the behavior of lifecycle events. You can set the duration of the activity set closure time in hours.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/lifecycle-events/lifecycle-event-properties-page.html
 release: zurich
 product: Lifecycle Events
 classification: lifecycle-events
@@ -41,11 +42,11 @@ sn\_hr\_le.All activity set closure timer
 
 Duration of the activity set closure time in hours and determine when an activity set triggers for a lifecycle event. By default, the time is set to four hours.Use caution if you decide to change the default value. Frequent updates trigger more events and can cause your lifecycle event activity sets to cancel before it can complete.
 
- **Note:** To trigger an activity set proactively rather than wait for the value entered in this property, see [Lifecycle Events evaluation interval](../concept/le-evaluation-interval1.md).
+ **Note:** To trigger an activity set proactively rather than wait for the value entered in this property, see [Lifecycle Events evaluation interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/le-evaluation-interval1.md).
 
 </td></tr></tbody>
 </table>3.  Click **Save**.
 
 
-**Parent Topic:**[Lifecycle Events reference](../concept/lifecycle-events-reference.md)
+**Parent Topic:**[Lifecycle Events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/lifecycle-events-reference.md)
 

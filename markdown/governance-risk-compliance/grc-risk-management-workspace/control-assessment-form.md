@@ -2,6 +2,7 @@
 title: Control Assessment form
 description: Use the Control Assessment form in the Advanced Risk application to assess the effectiveness of controls in mitigating risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/control-assessment-form.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -136,5 +137,5 @@ Score label
 Option to rename the qualitative score label in the Scoring section of the assessment form. For example, if you rename Control risk as Preventive risk, the new score label will be displayed in the scoring section where Control risk was previously referred.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure a control effectiveness assessment](../task/configure-control-assess.md)
+</table>**Parent Topic:**[Configure a control effectiveness assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/configure-control-assess.md)
 

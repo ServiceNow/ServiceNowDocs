@@ -2,6 +2,7 @@
 title: Certificate Inventory and Management terms
 description: The Certificate Inventory Management glossary comprises a set of concise definitions and explanations for terms related to the tracking, storage, and management of digital certificates within an IT environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/cert-invt-mgmt-terms.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -66,5 +67,5 @@ The Certificate Inventory Management glossary comprises a set of concise definit
     Installed: Shows where each discovered certificate is installed.
 
 
-**Parent Topic:**[Certificate Inventory and Management reference](cert-invt-mgmt-references.md)
+**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cert-invt-mgmt-references.md)
 

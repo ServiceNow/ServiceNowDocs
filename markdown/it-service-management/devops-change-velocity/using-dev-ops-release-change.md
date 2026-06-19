@@ -2,11 +2,12 @@
 title: Artifacts and packages
 description: Artifacts and packages enable DevOps Change Velocity to track development and testing activities across a wide range of deployment and release models. This feature ensures that pipeline activity stored in the DevOps data model can be retrieved and applied when artifacts are created and released at different times or in different pipelines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/using-dev-ops-release-change.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 12
 breadcrumb: [Accelerate your DevOps change process, DevOps Change Velocity, IT Service Management]
 ---
@@ -23,7 +24,7 @@ When you associate commits with an artifact version \(CI pipeline\), and define 
 
 DevOps change request attributes:
 
--   **Category** DevOps or the **Categorize DevOps change requests on "DevOps Change" field** check box is selected in DevOps properties. For more information, see [DevOps change request without mandating category as DevOps](../task/create-devops-change-any-category.md).
+-   **Category** DevOps or the **Categorize DevOps change requests on "DevOps Change" field** check box is selected in DevOps properties. For more information, see [DevOps change request without mandating category as DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/create-devops-change-any-category.md).
 -   Commits and Work Items related lists
 
 **Packages**
@@ -35,7 +36,7 @@ A package tracks when one or more artifact versions are being used in a deployme
 
 ## Artifact setup
 
-1.  [Create an artifact tool record in DevOps](integrating-devops-change-with-third-party-tools.md).
+1.  [Create an artifact tool record in DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/integrating-devops-change-with-third-party-tools.md).
 
     **Note:** An artifact tool isn’t necessary unless a webhook or user-created integration subflow configuration is required to look up artifact versions.
 
@@ -47,7 +48,7 @@ A package tracks when one or more artifact versions are being used in a deployme
 
 ## Artifact registration
 
-Configure artifact registration in a scripted pipeline or freestyle job using the [DevOps API](https://www.servicenow.com/docs/access?context=devops-api&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) `/artifact/registration` endpoint. Multiple artifact versions are supported.
+Configure artifact registration in a scripted pipeline or freestyle job using the DevOps API `/artifact/registration` endpoint. Multiple artifact versions are supported.
 
 For Jenkins pipeline:
 
@@ -72,7 +73,7 @@ For Jenkins pipeline:
 
 **Important:** You must add the package creation step before the change step in your pipeline, and package creation must be added in a stage which is previous to the change step, so that packages are linked to the pipeline execution for a change request.
 
-Configure artifact package creation in a scripted pipeline or freestyle job using the [DevOps API](https://www.servicenow.com/docs/access?context=devops-api&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) `/package/registration` endpoint.
+Configure artifact package creation in a scripted pipeline or freestyle job using the DevOps API `/package/registration` endpoint.
 
 **Note:** Package name must be specified.
 
@@ -94,7 +95,7 @@ For Jenkins pipeline:
     snDevOpsPackage(name: "sentimentpackage", artifactsPayload: """{"artifacts":[{"name": "sa-web.jar", "version": "1.9", "repositoryName": "services-1031"}, "{"name": "sa-db.jar", "version": "1.3.2", "repositoryName": "services-1032"}], "branchName": "master"}""")
     ```
 
-    ![DevOps change acceleration for releases package](../image/dev-ops-change-releases.png)
+    \[Omitted image "dev-ops-change-releases.png"\] Alt text: DevOps change acceleration for releases package
 
 
 **Note:** When an artifact version isn’t available during the build, build details \(pipelineName or projectName, taskExecutionNumber, stageName, branchName\) are used to look up the artifact version in the task execution.
@@ -140,17 +141,17 @@ These objects are part of the artifact structure.
 
 DevOps change acceleration for releases:
 
-![DevOps change request.](../image/dev-ops-category-change-request.png "DevOps change request – category DevOps")
+\[Omitted image "dev-ops-category-change-request.png"\] Alt text: DevOps change request.
 
-![DevOps change request commits.](../image/dev-ops-change-request-artifacts.png "DevOps change request – commits and work items")
+\[Omitted image "dev-ops-change-request-artifacts.png"\] Alt text: DevOps change request commits.
 
-![DevOps artifact version list.](../image/dev-ops-artifact-version-list.png "DevOps artifact version list")
+\[Omitted image "dev-ops-artifact-version-list.png"\] Alt text: DevOps artifact version list.
 
-![DevOps artifact commits.](../image/dev-ops-artifact-commits.png "DevOps artifact version – commits")
+\[Omitted image "dev-ops-artifact-commits.png"\] Alt text: DevOps artifact commits.
 
-![DevOps artifact packages.](../image/dev-ops-artifacts-packages.png "DevOps artifact version – packages")
+\[Omitted image "dev-ops-artifacts-packages.png"\] Alt text: DevOps artifact packages.
 
-![DevOps package.](../image/dev-ops-package.png "DevOps package")
+\[Omitted image "dev-ops-package.png"\] Alt text: DevOps package.
 
 You can also see all existing pipeline change requests directly from the **Changes** module in the application navigator.
 
@@ -160,13 +161,13 @@ Navigate to **DevOps Change Workspace** &gt; **Changes** &gt; **Pipeline change 
 
 **Pipeline change requests**
 
-![Pipeline change requests.](../image/dev-ops-pipeline-req.png "Changes module")
+\[Omitted image "dev-ops-pipeline-req.png"\] Alt text: Pipeline change requests.
 
 You can see all the existing artifacts and packages directly using the **List** module in the application navigator.
 
 Navigate to **DevOps Change Workspace** &gt; **Lists** &gt; **Artifact** for all artifact-related information.
 
-![List of artifacts and packages.](../image/dev-ops-artifacts-list.png "List module")
+\[Omitted image "dev-ops-artifacts-list.png"\] Alt text: List of artifacts and packages.
 
 ## Artifacts and packages monitoring
 
@@ -631,8 +632,8 @@ Your artifact registration request was ignored for the following reason:
  Artifact not found.
 
 </td></tr></tbody>
-</table>-   **[Commits included in DevOps change request](dev-ops-commits-release.md)**  
+</table>-   **[Commits included in DevOps change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/dev-ops-commits-release.md)**  
 The DevOps artifact package and its associated artifact versions are used to determine which commits are included in a DevOps change.
 
-**Parent Topic:**[Accelerating your DevOps change process](dev-ops-change-acceleration.md)
+**Parent Topic:**[Accelerating your DevOps change process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md)
 

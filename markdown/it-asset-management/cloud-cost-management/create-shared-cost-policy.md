@@ -2,6 +2,7 @@
 title: Create or update a shared cost allocation policy
 description: Create a shared cost allocation policy with  different allocation types to split the cost of shared cloud resources among various business lines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/create-shared-cost-policy.html
 release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -40,7 +41,7 @@ Role required: insights\_admin \[sn\_clin\_core.insights\_admin\] or insights\_o
 
 4.  On the Shared Cost Allocation Policy Creation form, fill in the fields.
 
-    For a description of the field values, see [List of Shared cost allocation policy fields](../reference/shared-cost-allocation-policy-fields.md).
+    For a description of the field values, see [List of Shared cost allocation policy fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/shared-cost-allocation-policy-fields.md).
 
 5.  Select **Submit**.
 
@@ -55,5 +56,5 @@ When the Discovery and Billing Download job executions finish, the system applie
 
 After you create or update a shared cost allocation policy, select **Reapply policies** to apply the created policy to a resource.
 
-**Parent Topic:**[Using Cloud Cost Management](../concept/using-cloud-insights.md)
+**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/using-cloud-insights.md)
 

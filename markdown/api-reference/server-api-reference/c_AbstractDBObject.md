@@ -2,6 +2,7 @@
 title: AbstractDBObject - Global
 description: The AbstractDBObject script include provides common methods for classes based on records in the database.Determines if the current database record is valid.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_AbstractDBObject.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,13 +18,13 @@ The AbstractDBObject script include provides common methods for classes based on
 
 Use this script include as a base class to create your own database object class.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## AbstractDBObject - isValid\(\)
 
 Determines if the current database record is valid.
 
-See also [IPService - Global](../../IPService/concept/c_IPServiceAPI.md#).
+See also [IPService - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_IPServiceAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|

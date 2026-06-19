@@ -2,6 +2,7 @@
 title: Get help with ServiceNow CLI
 description: See available commands, command options, and examples, or generate debug logging output.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-cli/get-help.html
 release: zurich
 product: ServiceNow CLI
 classification: servicenow-cli
@@ -17,8 +18,8 @@ See available commands, command options, and examples, or generate debug logging
 
 ## Before you begin
 
--   [Install the ServiceNow CLI](download-cli.md)
--   [Configuring and managing your ServiceNow CLI connection profiles](configure-profile.md)
+-   [Install the ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-cli/download-cli.md)
+-   [Configuring and managing your ServiceNow CLI connection profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-cli/configure-profile.md)
 -   Role required: none
 
 ## About this task
@@ -141,5 +142,5 @@ In addition to the debug logging output option, the CLI logs all command executi
     The CLI generates debug logging output when executing the command.
 
 
-**Parent Topic:**[ServiceNow CLI](../concept/servicenow-cli.md)
+**Parent Topic:**[ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-cli/servicenow-cli.md)
 

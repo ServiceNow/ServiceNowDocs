@@ -2,6 +2,7 @@
 title: IPAddressFixup - Global
 description: The IPAddressFixup script include provides methods that ensure that no other device has the same IP address, after a device has been successfully discovered. If any duplicates are found, the IP address field is cleared.Removes duplicates of the specified IP address in the specified table.Removes all duplicate IP addresses from the tables.Removes all duplicate IP addresses and ensures that the parent ip\_address record is set to one of the network interface card's \(NIC\) IP addresses.Returns the parent IP address for the current device.Sets the parent IP address field for the current CI.Ensures that the parent ip\_address record is set to one of the NIC's IP addresses, or leaves it alone if there were no NICs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_IPAddressFixupAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The IPAddressFixup script include provides methods that ensure that no other dev
 
 Use with any server-side Discovery script to validate IP addresses.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## IPAddressFixup - dedupe\(String tableName, String ip\)
 

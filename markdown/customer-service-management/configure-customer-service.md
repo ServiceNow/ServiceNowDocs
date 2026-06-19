@@ -2,7 +2,10 @@
 title: Configuring Customer Service Management
 description: Set up the features, components, and integrations that you must provide service and support to your customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-customer-service.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 4
@@ -15,27 +18,27 @@ Set up the features, components, and integrations that you must provide service 
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Set up your environment ![](../../../reuse/icons/brand-icons/bus-optimize-manage.svg) Plan and configure your CSM environment, import foundational data, and set up access management.](set-up-your-environment.md)
+[Set up your environment \[Omitted image "bus-optimize-manage.svg"\] Alt text: Plan and configure your CSM environment, import foundational data, and set up access management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/set-up-your-environment.md)
 
 </td><td>
 
-[Organize agent workspaces ![](../../../reuse/icons/brand-icons/bus-customer-service-agent.svg) Configure intuitive workspaces with advanced routing and management features and case management capabilities.](organize-agent-workspaces.md)
+[Organize agent workspaces \[Omitted image "bus-customer-service-agent.svg"\] Alt text: Configure intuitive workspaces with advanced routing and management features and case management capabilities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/organize-agent-workspaces.md)
 
 </td><td>
 
-[Enable communication channels ![](../../../reuse/icons/brand-icons/bus-customer-service.svg) Set up customer communication channels, including voice, email, web, and messaging.](enable-comm-channels.md)
+[Enable communication channels \[Omitted image "bus-customer-service.svg"\] Alt text: Set up customer communication channels, including voice, email, web, and messaging.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/enable-comm-channels.md)
 
 </td></tr><tr><td>
 
-[Implement intelligence ![](../../../reuse/icons/brand-icons/bus-actionable-analytics.svg) Set up Intelligence features to automate routine tasks and provide recommended content to agents.](imp-intel.md)
+[Implement intelligence \[Omitted image "bus-actionable-analytics.svg"\] Alt text: Set up Intelligence features to automate routine tasks and provide recommended content to agents.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/imp-intel.md)
 
 </td><td>
 
-[Set up self-service ![](../../../reuse/icons/brand-icons/bus-personalized-self-service-portal.svg) Create self-service portals for customers that are integrated with knowledge, communities, service catalogs, and chatbots.](set-up-self-service.md)
+[Set up self-service \[Omitted image "bus-personalized-self-service-portal.svg"\] Alt text: Create self-service portals for customers that are integrated with knowledge, communities, service catalogs, and chatbots.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/set-up-self-service.md)
 
 </td><td>
 
-[Extend capabilities ![](../../../reuse/icons/brand-icons/bus-extend-visability.svg) Add additional features to further extend the capabilities of your Customer Service Management environment.](advanced-cap.md)
+[Extend capabilities \[Omitted image "bus-extend-visability.svg"\] Alt text: Add additional features to further extend the capabilities of your Customer Service Management environment.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/advanced-cap.md)
 
 </td></tr></tbody>
 </table><table id="table_rjj_mn5_w2c"><thead><tr><th>
@@ -52,7 +55,7 @@ Example
 
 </th></tr></thead><tbody><tr><td>
 
-[Set up your environment](set-up-your-environment.md)
+[Set up your environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/set-up-your-environment.md)
 
 </td><td>
 
@@ -64,7 +67,7 @@ Sarah, an administrator at Company A, has successfully activated Customer Servic
 
 </td></tr><tr><td>
 
-[Organize agent workspaces](organize-agent-workspaces.md)
+[Organize agent workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/organize-agent-workspaces.md)
 
 </td><td>
 
@@ -76,7 +79,7 @@ Sarah is prepared to organize the agent workspaces. Sarah uses guided setup to i
 
 </td></tr><tr><td>
 
-[Enable communication channels](enable-comm-channels.md)
+[Enable communication channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/enable-comm-channels.md)
 
 </td><td>
 
@@ -88,7 +91,7 @@ With the agent workspaces organized, Sarah is prepared to set up communication c
 
 </td></tr><tr><td>
 
-[Implement Intelligence](imp-intel.md)
+[Implement Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/imp-intel.md)
 
 </td><td>
 
@@ -100,7 +103,7 @@ Sarah implements Recommended Actions to guide agents in assisting customers quic
 
 </td></tr><tr><td>
 
-[Set Up Self-Service](set-up-self-service.md)
+[Set Up Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/set-up-self-service.md)
 
 </td><td>
 
@@ -112,7 +115,7 @@ Now it’s time to add support for B2C consumers with Customer Service Portals. 
 
 </td></tr><tr><td>
 
-[Extend Capabilities](advanced-cap.md)
+[Extend Capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/advanced-cap.md)
 
 </td><td>
 

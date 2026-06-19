@@ -2,6 +2,7 @@
 title: Retrieve the Firebase push server key
 description: You must retrieve your unique Google Firebase push server key from your Firebase account so that you can associate it to your Mobile SDK applications that leverage push notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/developer-guides/mobsdk-and-retrieve-firebase-key.html
 release: zurich
 product: Developer Guides
 classification: developer-guides
@@ -25,11 +26,11 @@ You must already have a Firebase account set up. For information on how to creat
 
 1.  From your Firebase account, select the configuration gear next to the **Project Overview** link on the left navigation bar, and then select **Project settings.**
 
-    ![Google Firebase configuration screen](../../image/mobsdk-firebase-config-screen.png)
+    \[Omitted image "mobsdk-firebase-config-screen.png"\] Alt text: Google Firebase configuration screen
 
 2.  From the Project settings page, select the **Cloud Messaging** tab.
 
-    ![Firebase Project setting - server key copy](../image/mobsdk-and-firebase_project_settings.png)
+    \[Omitted image "mobsdk-and-firebase\_project\_settings.png"\] Alt text: Firebase Project setting - server key copy
 
 3.  Select and copy the Server key token.
 

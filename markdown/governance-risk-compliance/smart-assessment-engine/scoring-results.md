@@ -2,6 +2,7 @@
 title: Scoring results
 description: After an assessment is completed, scores are calculated and stored based on the scoring configuration defined in the template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/smart-assessment-engine/scoring-results.html
 release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine

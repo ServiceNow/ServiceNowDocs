@@ -2,6 +2,7 @@
 title: Landing page cards
 description: The landing page cards provide a visual summary of active and impacted devices, and alerts for monitored applications, facilitating efficient data analysis across various categories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/dashboard-cards.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -58,7 +59,7 @@ Devices
 The devices world map shows device counts by location, enables you to drill down into specific regions, and redirects to the Devices page for detailed insights.
 
 </td></tr></tbody>
-</table>To return to the main page, see [Landing page](../concept/dex-workspace-dashboard-tab.md).
+</table>To return to the main page, see [Landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dex-workspace-dashboard-tab.md).
 
-**Parent Topic:**[DEX Application and Device Health reference](dex-console-reference.md)
+**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
 

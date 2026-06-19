@@ -2,6 +2,7 @@
 title: Installed with Change Management - Standard Change Catalog
 description: Several types of components are installed with Change Management - Standard Change Catalog.Change Management - Standard Change Catalog adds or modifies the following tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/r\_InstlldWthStdChgCat.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -15,7 +16,7 @@ breadcrumb: [Activate Change Management - Standard Change Catalog, Plugins, Conf
 
 Several types of components are installed with Change Management - Standard Change Catalog.
 
-**Parent Topic:**[Activate Change Management - Standard Change Catalog](../task/t_ActivateStandardChangeCatalog.md)
+**Parent Topic:**[Activate Change Management - Standard Change Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/t_ActivateStandardChangeCatalog.md)
 
 ## Tables installed with Change Management - Standard Change Catalog
 

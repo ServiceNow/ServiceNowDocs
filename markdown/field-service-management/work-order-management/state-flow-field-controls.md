@@ -2,6 +2,7 @@
 title: Field controls in state flows
 description: You can define controls for individual fields that are enforced when a record transitions between states.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/state-flow-field-controls.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

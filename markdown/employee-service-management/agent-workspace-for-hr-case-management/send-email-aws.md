@@ -2,6 +2,7 @@
 title: Sending an email in Agent Workspace for HR Case Management
 description: Send any communication related to HR cases with attached documents using the Send email feature. Minimise typing errors by auto-populating the email address of the subject person \(of the case\) in the email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/send-email-aws.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -27,7 +28,7 @@ Role required: sn\_hr\_core.case\_writer
 
     **Note:** If you want to directly send the document in a case as an email, click the **Send Email** button on the case tab.
 
-3.  Click the ![More Actions icon](../reference/images/more-icon.png) icon at the top right hand corner of the tab.
+3.  Click the \[Omitted image "more-icon.png"\] Alt text: More Actions icon icon at the top right hand corner of the tab.
 
     -   For the **Verification of Employment service** HR service, fill in the **Document template category**, **Document template**, **Subject person** fields.
     -   For the **Employee Verification Letter** HR service, fill in the **Document type**, **PDF template**, **Subject person** fields.

@@ -2,6 +2,7 @@
 title: Set up Logik.ai instance
 description: Request a Logik.ai instance by contacting Logik DevOps, then add the public certificate from the publickkey.cer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/set-up-logik-instance.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,15 +22,26 @@ Role required: admin
 
 ## Procedure
 
-1.  Open a ticket with Logik DevOps to request a Sales and Order Management \(SOM\) Integrated Environment Request.
+1.  Navigate to [Now Support](https://support.servicenow.com/now?id=ns_get_help).
 
-    -   For first-time users, select this [new user link](https://outlook.office.com/mail/deeplink/compose?to=logik_prov@logikio.atlassian.net&subject=New%20Logik%20SOM%20instance%20request) to send an email that initiates a ticket and creates an account.
+2.  Select **Create a case**.
 
-        An email response will be sent. Follow the **view request** link in the message to access the support portal and set a password. After this step, the request can be viewed.
+3.  In the Now Assist chat, select **click here** to open the case form.
 
-    -   For users who made previous requests to create a Logik environment, select this [existing user link](https://outlook.office.com/mail/deeplink/compose?to=logik_prov@logikio.atlassian.net&subject=New%20Logik%20SOM%20instance%20request) to submit a new request.
-2.  Complete the **Summary** and other required fields on the form, using information from earlier configuration steps such as the public certificate from publickey.cer.
+4.  Select **Service request**.
 
-3.  Select **Send**.
+5.  Enter `Request a new CPQ instance` and select **Next**.
+
+6.  Select your instance and select **Next**.
+
+    **Note:** Contact Primary Customer Administrator \(PCA\) if your instance is not listed in the instances list.
+
+7.  Select **Continue**.
+
+8.  Enter the Client ID and Client secret fetched from Step 2 and the public certificate details.
+
+9.  Select **Continue**.
+
+10. Review the summary and select **Confirm and Submit**.
 
 

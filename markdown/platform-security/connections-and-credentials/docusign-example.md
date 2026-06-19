@@ -2,6 +2,7 @@
 title: Configure a template for OAuth JWT Bearer grant type
 description: This example configuration template sets up Credential and Connection records using the JWT Bearer grant type to authenticate requests to Docusign.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/connections-and-credentials/docusign-example.html
 release: zurich
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -209,7 +210,7 @@ The following post processing script maps user input to fields in the sn\_docusi
 
 When the user navigates to the associated Docusign Connection &amp; Credential Alias and selects **Create New Connection &amp; Credential**, the following dialog appears.
 
-![Docusign form requiring user input.](../image/docusign-template.png)
+\[Omitted image "docusign-template.png"\] Alt text: Docusign form requiring user input.
 
-**Parent Topic:**[Connection &amp; Credential configuration templates](../concept/spoke-configuration-template.md)
+**Parent Topic:**[Connection &amp; Credential configuration templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/spoke-configuration-template.md)
 

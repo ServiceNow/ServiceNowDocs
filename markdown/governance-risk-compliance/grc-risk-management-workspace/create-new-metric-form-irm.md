@@ -2,6 +2,7 @@
 title: Create New Metric form
 description: Use the Create New Metric form to create a metric.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/create-new-metric-form-irm.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -114,7 +115,7 @@ Direction that you want to see the metric in. The choices are as follows:-   **N
 -   **Maximize**: If the desired metric direction is upward or ascending, select this option. For example, you want to maximize the number of critical controls.
 -   **Milestone**: Option to select when the metric direction is not applicable, but the metric is tracked against a milestone. For example, if your organization has a goal to complete all the risk assessments for an entity by the end of the month, the upcoming date for the goal is considered as a milestone.
 
-**Note:** Thresholds can be set for all directions excluding **Milestone**. For more information on creating thresholds, see [Create a threshold for a metric](../task/t_create-threshold-for-metrics.md).
+**Note:** Thresholds can be set for all directions excluding **Milestone**. For more information on creating thresholds, see [Create a threshold for a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/t_create-threshold-for-metrics.md).
 
 </td></tr><tr><td>
 
@@ -373,5 +374,5 @@ Allowed groups
 Groups that can view the record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a metric](../task/create-a-metric-risk.md)
+</table>**Parent Topic:**[Create a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/create-a-metric-risk.md)
 

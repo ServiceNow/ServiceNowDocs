@@ -2,6 +2,7 @@
 title: Task Communications Management plugins
 description: The Task Communications Management plugins is activated in the base system. The plugin includes demo data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/task-communications-management/tcm-plugins.html
 release: zurich
 product: Task Communications Management
 classification: task-communications-management

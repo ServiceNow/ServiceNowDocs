@@ -2,6 +2,7 @@
 title: Configure the Start onboarding widget
 description: Journey designer administrators can configure the Start onboarding widget to create a banner that's used for welcoming an onboarding employee to your organization. Administrators can configure the content and design associated with the banner to meet the needs of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/jny-configure-start-onboarding.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -41,7 +42,7 @@ Role required: admin \[sn\_jny.admin\]
 
 6.  Fill in the fields in the Start Onboarding form.
 
-    For more information about the fields associated with this form, see [Create customized media with styled content](../../employee-center/task/ec-content-library-portal-styled.md).
+    For more information about the fields associated with this form, see [Create customized media with styled content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-library-portal-styled.md).
 
 7.  Specify whether you want to save your design or save and publish your design.
 
@@ -51,5 +52,5 @@ Role required: admin \[sn\_jny.admin\]
     |**Save and continue**|To save the record and move to the **Publish** tab.|
 
 
-**Parent Topic:**[Enable and configure the Pre-hire Experience](../concept/jny-pre-hire-enable-configure.md)
+**Parent Topic:**[Enable and configure the Pre-hire Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-pre-hire-enable-configure.md)
 

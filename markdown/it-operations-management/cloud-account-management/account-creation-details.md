@@ -1,19 +1,20 @@
 ---
-title: New cloud account request form
-description: New cloud account request form and field descriptions.
+title: New cloud account request fields
+description: New cloud account request form and related list field descriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/account-creation-details.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-06-09"
+reading_time_minutes: 2
 breadcrumb: [Reference, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
-# New cloud account request form
+# New cloud account request fields
 
-New cloud account request form and field descriptions.
+New cloud account request form and related list field descriptions.
 
 <table id="simpletable_rbp_cr5_vzb"><thead><tr><th>
 
@@ -37,7 +38,7 @@ This is a GovCloud account \(applicable only for AWS\)
 
 </td><td>
 
-Option to request an AWS GovCloud account.
+Check-box to request an AWS GovCloud account.
 
 </td></tr><tr><td>
 
@@ -61,7 +62,7 @@ Cloud account name
 
 </td><td>
 
-Auto-populated cloud account name.
+Auto-generated name derived from the cost center, business unit, business application, and suffix values. Special characters are automatically removed.
 
 </td></tr><tr><td>
 
@@ -156,7 +157,9 @@ Secondary teams
 The secondary team that will support the account.
 
 </td></tr></tbody>
-</table>To return to the procedure, see [Request a cloud account](../task/request-account.md).
+</table>**Note:** For AWS and AWS GovCloud accounts, the values entered in the **Cost center**, **Business Unit**, **Department**, **Project/Application service**, **Business application**, and **Environment** fields are synced to AWS as tags. AWS restricts tag values to letters, numbers, spaces, and the following special characters: `+ - = . _ : / @`. Any other characters are automatically replaced with spaces. If all characters in a field value are unsupported, the tag is skipped. A tooltip on the form indicates this behavior. These actions are recorded in the execution log.
 
-**Parent Topic:**[Cloud Account Management reference](cam-reference.md)
+To return to the procedure, see [Request a cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/request-account.md).
+
+**Parent Topic:**[Cloud Account Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/cam-reference.md)
 

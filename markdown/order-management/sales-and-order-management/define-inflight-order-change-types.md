@@ -2,6 +2,7 @@
 title: Create additional inflight order change types
 description: Define your own enterprise-specific inflight order change types that are used to categorize revisions or requests for cancellations, product orders, service orders, and their related line items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/define-inflight-order-change-types.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -32,5 +33,5 @@ Role required: admin
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring inflight changes](../concept/configure-inflight-order-change-mgt.md)
+**Parent Topic:**[Configuring inflight changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/configure-inflight-order-change-mgt.md)
 

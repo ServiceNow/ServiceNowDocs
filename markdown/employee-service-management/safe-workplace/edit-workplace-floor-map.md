@@ -2,6 +2,7 @@
 title: Update a workplace floor plan
 description: Update a workplace floor plan by uploading a new plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/edit-workplace-floor-map.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace
@@ -96,8 +97,8 @@ The following changes occur:
 
 A original floor record is updated with the floor plan attached to it. The Spaces related list is also updated. To view your changes, go to **Floor Plan Update Logs**.
 
--   **[View your workplace floor plan update logs](view-workplace-floor-map-logs.md)**  
+-   **[View your workplace floor plan update logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/view-workplace-floor-map-logs.md)**  
 After updating your workplace floor plan, you can view all changes made.
 
-**Parent Topic:**[Providing your workplace data](../concept/providing-your-workplace-data.md)
+**Parent Topic:**[Providing your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/providing-your-workplace-data.md)
 

@@ -2,11 +2,12 @@
 title: Configure service maps for Source-to-Pay
 description: For configuring service maps, provide the connection end point and the ERP credentials that you set up for your authentication profile. Also, create a separate web service record for each service request that you want to customize.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/source-to-pay-integration-framework/configure-service-maps-psm-erp.html
 release: zurich
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Integration settings on Source-to-Pay side, Source-to-Pay integration framework, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -18,7 +19,7 @@ For configuring service maps, provide the connection end point and the ERP crede
 ## Before you begin
 
 -   Verify that the application scope is set to Finance – ERP Integration.
--   Ensure that the MID Server is installed and configured in your ServiceNow instance to connect to the ERP server. See [Installing the MID Server](https://www.servicenow.com/docs/access?context=mid-server-installation&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) for details.
+-   Ensure that the MID Server is installed and configured in your ServiceNow instance to connect to the ERP server. See Installing the MID Server for details.
 
     **Note:** The MID Server integration is required only for an ERP integration using SOAP services.
 

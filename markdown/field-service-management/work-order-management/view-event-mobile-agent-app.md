@@ -2,6 +2,7 @@
 title: View events in the ServiceNow Agent
 description: View events in the ServiceNow Agent mobile app to stay updated on your schedule, and any events planned for the day.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/view-event-mobile-agent-app.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

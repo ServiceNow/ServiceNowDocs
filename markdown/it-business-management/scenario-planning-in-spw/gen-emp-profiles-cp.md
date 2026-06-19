@@ -2,6 +2,7 @@
 title: Generate employee profiles for resources to work with Capacity
 description: Generate employee profiles for the resources to map against primary attributes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/gen-emp-profiles-cp.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -27,9 +28,9 @@ Role required: admin
 
 3.  In the Employee Definition page, select **User** from the Table list.
 
-4.  Use the condition builder to filter the required resources and then select the update count icon \(![Update count icon.](../images/cp-refresh-button.png)\).
+4.  Use the condition builder to filter the required resources and then select the update count icon \(\[Omitted image "cp-refresh-button.png"\] Alt text: Update count icon.\).
 
-5.  Select **Generate Employee Profiles** \(![Option to generate employee profiles.](../images/cp-gen-emp-profiles-button.png)\).
+5.  Select **Generate Employee Profiles** \(\[Omitted image "cp-gen-emp-profiles-button.png"\] Alt text: Option to generate employee profiles.\).
 
 6.  In the Generate Employee Profiles window, select **Proceed**.
 
@@ -40,5 +41,5 @@ Employee profiles for the selected resources are generated.
 
 ## What to do next
 
-Populate a primary group, primary role, and primary skill for the resources with employee profiles. For more information, see [Map primary attributes to resources](map-primary-attributes-cp.md).
+Populate a primary group, primary role, and primary skill for the resources with employee profiles. For more information, see [Map primary attributes to resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/map-primary-attributes-cp.md).
 

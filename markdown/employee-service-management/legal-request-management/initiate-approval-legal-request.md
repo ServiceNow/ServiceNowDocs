@@ -2,6 +2,7 @@
 title: Initiate an ad hoc approval for a legal request or its attachment
 description: Initiate an ad hoc approval for a legal request or its attachments from a user or a user group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-request-management/initiate-approval-legal-request.html
 release: zurich
 product: Legal Request Management
 classification: legal-request-management
@@ -36,19 +37,19 @@ You can assign these approvals to any user or user group in your organization wh
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Click the list icon \(![List icon](../image/lsd-lcc-list-icon.png)\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d698060e133">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d197176e133">
 
 Option
 
-</th><th align="left" id="d698060e136">
+</th><th align="left" id="d197176e136">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d698060e142">
+</th></tr></thead><tbody><tr><td id="d197176e142">
 
 **As an assignee**
 
@@ -60,7 +61,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d698060e171">
+</td></tr><tr><td id="d197176e171">
 
 **As a collaborator**
 
@@ -73,7 +74,7 @@ The state of the legal request is Work in progress and the document is Legal rev
 </td></tr></tbody>
 </table>4.  In the **Approvers** tab, click **Initiate Approval**.
 
-    You can also initiate an approval by clicking the more actions button \(![More actions button icon.](../image/more-button-icon.png)\) and selecting **Initiate Approval**.
+    You can also initiate an approval by clicking the more actions button \(\[Omitted image "more-button-icon.png"\] Alt text: More actions button icon.\) and selecting **Initiate Approval**.
 
 5.  On the Initiate Approval dialog box, fill in the fields.
 
@@ -111,7 +112,7 @@ Select document
 
 Documents attached to the legal request for which approval is required.This field appears only when **Document** is selected from **Approval for**.
 
-**Note:** The Document option in the list appears only when the [external storage option is enabled](associate-categories-practice-area.md) on the intake form of the request type.
+**Note:** The Document option in the list appears only when the [external storage option is enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/associate-categories-practice-area.md) on the intake form of the request type.
 
 </td></tr><tr><td>
 
@@ -165,10 +166,10 @@ The approval details appear under the **Approvals** tab on the Standard Ticket p
 
 ## What to do next
 
-Approvers can review and [approve or reject the requested item](approve-reject-legal-request-attach.md).
+Approvers can review and [approve or reject the requested item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/approve-reject-legal-request-attach.md).
 
--   **[Cancel an ad hoc approval for a legal request](cancel-approval-legal-request.md)**  
+-   **[Cancel an ad hoc approval for a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/cancel-approval-legal-request.md)**  
 Cancel an ad hoc approval for a legal request if it no longer requires any action.
 
-**Parent Topic:**[Work on a legal request](work-on-legal-request.md)
+**Parent Topic:**[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/work-on-legal-request.md)
 

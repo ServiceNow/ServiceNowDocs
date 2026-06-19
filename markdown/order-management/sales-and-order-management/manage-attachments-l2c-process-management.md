@@ -2,6 +2,7 @@
 title: Manage attachments for a sales process record
 description: Rename, download, or delete files, documents, or images such as implementation plans, customer-provided specifications, or finalized quotes related to a customer account you're monitoring with a sales process record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/manage-attachments-l2c-process-management.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,7 +24,7 @@ Role required: sales process manager \[sn\_l2c\_cockpit.sales\_process\_manager\
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Under **Lead to Cash Process Management**, select **Sales Process Records**.
 
@@ -33,7 +34,7 @@ Role required: sales process manager \[sn\_l2c\_cockpit.sales\_process\_manager\
 
 6.  Select the attachment.
 
-7.  Select the More actions icon ![](../../../reuse/icons/product-icons/ellipsis-vertical-fill-24.svg) for the attachment entry.
+7.  Select the More actions icon \[Omitted image "ellipsis-vertical-fill-24.svg"\] Alt text: for the attachment entry.
 
 8.  Select the desired action.
 
@@ -45,5 +46,5 @@ Role required: sales process manager \[sn\_l2c\_cockpit.sales\_process\_manager\
 9.  Select an attachment to preview it.
 
 
-**Parent Topic:**[Using Lead-to-Cash Process Management](../concept/using-lead-cash-process-management.md)
+**Parent Topic:**[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/using-lead-cash-process-management.md)
 

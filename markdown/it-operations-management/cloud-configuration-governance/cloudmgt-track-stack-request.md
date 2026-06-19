@@ -2,6 +2,7 @@
 title: Track a stack request
 description: The system generates a request when you submit the form to launch a stack.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/cloudmgt-track-stack-request.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -23,7 +24,7 @@ Role required: sn\_cmp.cloud\_service\_user
 
 If no approval policy is defined, requests are auto-approved. If a policy is defined, then a user on the approver list must approve the request.
 
-If the quota limit exceeds for you or your user group, then an error message appears or the system triggers a policy-based approval. For more information about the quota limits, see [Viewing resource quota limits](../concept/resource-quota.md).
+If the quota limit exceeds for you or your user group, then an error message appears or the system triggers a policy-based approval. For more information about the quota limits, see [Viewing resource quota limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/resource-quota.md).
 
 ## Procedure
 
@@ -46,7 +47,7 @@ Request Status
 
 </td><td>
 
-Actions taken on the request. Click the down-arrow \(![down-arrow icon](../image/blue-down-arrow.png)\) to toggle between:-   Verbose mode that describes each action and the status of the action
+Actions taken on the request. Click the down-arrow \(\[Omitted image "blue-down-arrow.png"\] Alt text: down-arrow icon\) to toggle between:-   Verbose mode that describes each action and the status of the action
 -   Icon-only mode that indicates only the status \(pass/fail\) of an action.
 
 
@@ -89,7 +90,7 @@ Values that the requester submitted on the stack request form.
 
 </td><td>
 
-Lists all the catalog tasks created for stacks that failed to provision. Click a catalog task to view more details about that task. See [Resubmit a failed stack request](../../cloud-management-v2/task/resubmit-failed-request.md).
+Lists all the catalog tasks created for stacks that failed to provision. Click a catalog task to view more details about that task. See [Resubmit a failed stack request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/resubmit-failed-request.md).
 
 </td></tr></tbody>
 </table>

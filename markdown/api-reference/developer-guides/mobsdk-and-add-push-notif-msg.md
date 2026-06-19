@@ -2,6 +2,7 @@
 title: Add a push notification message
 description: Configure the message displayed to users when they receive their push notification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/developer-guides/mobsdk-and-add-push-notif-msg.html
 release: zurich
 product: Developer Guides
 classification: developer-guides

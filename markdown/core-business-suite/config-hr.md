@@ -2,7 +2,10 @@
 title: Configure the Core Business Suite Human Resources
 description: If your instance is running on Zurich patch 5 or older versions, configure the Human Resources \(HR\) application by running scheduled jobs that initialize all required workflows and apply settings to manage payroll inquiries, benefits questions, and general HR requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/core-business-suite/config-hr.html
 release: zurich
+product: Core Business Suite
+classification: core-business-suite
 topic_type: task
 last_updated: "2025-12-29"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ If your instance is running on Zurich patch 5 or older versions, configure the H
 
 ## Before you begin
 
-Configure the Core Business Suite with scheduled jobs that initialize the required workflows and apply settings for all Core Business Suite applications, including Human Resources \(HR\). For more information, see [Configure Core Business Suite applications](cbs-run-scheduled-jobs.md).
+Configure the Core Business Suite with scheduled jobs that initialize the required workflows and apply settings for all Core Business Suite applications, including Human Resources \(HR\). For more information, see [Configure Core Business Suite applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/core-business-suite/cbs-run-scheduled-jobs.md).
 
 Role required: admin
 
@@ -23,7 +26,7 @@ Role required: admin
 
 1.  In your ServiceNow instance, set the application scope to Human Resources \(HR\).
 
-    1.  Select the Application scope icon \(![](../image/application-scope-globe-icon.png)\).
+    1.  Select the Application scope icon \(\[Omitted image "application-scope-globe-icon.png"\]\).
 
     2.  In the filter navigator, search for and select **Human Resources \(HR\)**.
 

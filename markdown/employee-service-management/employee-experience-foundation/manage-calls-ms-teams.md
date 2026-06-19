@@ -2,6 +2,7 @@
 title: Manage calls in Microsoft Teams
 description: Manage conference calls in Microsoft Teams by muting or unmuting participants, or ending the call.As a manager or a conference call host, you can mute conference participants to avoid distraction.As the host or a user with the manager role, you can end a conference call after the discussion ends.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/manage-calls-ms-teams.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -15,7 +16,7 @@ breadcrumb: [Use Notify connector for Microsoft Teams, Use Microsoft Teams integ
 
 Manage conference calls in Microsoft Teams by muting or unmuting participants, or ending the call.
 
-**Parent Topic:**[Use Notify connector for Microsoft Teams](c-agent-ex-use-nc.md)
+**Parent Topic:**[Use Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/c-agent-ex-use-nc.md)
 
 ## Mute participants from Microsoft Teams
 
@@ -31,19 +32,19 @@ Role required: notify\_admin, major\_incident\_manager, communications\_manager,
 
 1.  Open the active conference call in Microsoft Teams.
 
-2.  Click the participants icon \(![Participants icon.](../../sn-teams/images/participants-icon-ms-teams.png)\) in the toolbar.
+2.  Click the participants icon \(\[Omitted image "participants-icon-ms-teams.png"\] Alt text: Participants icon.\) in the toolbar.
 
 3.  Mute an individual participant or mute all participants.
 
-<table id="choicetable_ixy_kbr_tnb"><thead><tr><th align="left" id="d239791e129">
+<table id="choicetable_ixy_kbr_tnb"><thead><tr><th align="left" id="d234378e129">
 
 Option
 
-</th><th align="left" id="d239791e132">
+</th><th align="left" id="d234378e132">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d239791e138">
+</th></tr></thead><tbody><tr><td id="d234378e138">
 
 **Mute an individual participant**
 
@@ -53,7 +54,7 @@ Action
 2.  Click **Mute**.
 
 
-</td></tr><tr><td id="d239791e159">
+</td></tr><tr><td id="d234378e159">
 
 **Mute all participants**
 
@@ -75,7 +76,7 @@ Role required: notify\_admin, major\_incident\_manager, communications\_manager,
 
 1.  Open the active conference call in Microsoft Teams.
 
-2.  Click more options icon \(![More options icon.](../image/more-options-ms-teams.png)\) in the toolbar.
+2.  Click more options icon \(\[Omitted image "more-options-ms-teams.png"\] Alt text: More options icon.\) in the toolbar.
 
 3.  Click **End meeting**.
 

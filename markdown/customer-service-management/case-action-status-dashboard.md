@@ -2,7 +2,10 @@
 title: Case action status analytics
 description: The Customer Service Manager dashboard displays the percentage of the case backlog that is waiting for an agent response, customer input, or a response for other users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/case-action-status-dashboard.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -25,5 +28,5 @@ As blocking tasks for a case get created and resolved, this dashboard widget tra
 -   Blocked by customer
 -   Blocked internally and by customer
 
-**Parent Topic:**[Administering case action status](../concept/customer-service-case-action-status.md)
+**Parent Topic:**[Administering case action status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-case-action-status.md)
 

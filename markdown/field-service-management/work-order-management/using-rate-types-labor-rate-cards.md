@@ -2,6 +2,7 @@
 title: Using rate types and labor rate cards
 description: Use rate types and labor rate cards to define different cost rates for different activities recorded by field service agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/using-rate-types-labor-rate-cards.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

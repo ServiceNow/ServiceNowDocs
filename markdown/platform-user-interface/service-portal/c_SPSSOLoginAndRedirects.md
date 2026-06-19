@@ -2,6 +2,7 @@
 title: Single sign-on, logins, and URL redirects
 description: Service Portal uses a combination of system properties and script includes to determine how the system handles URL redirects for users logging in to the portal.Direct all unauthenticated users to a portal login page to log in. The portal login page becomes the primary login page for your instance.Conditionally redirect users to a Service Portal page after logging in.Debug the URL redirects for logging in to Service Portal and redirecting to the first page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/c\_SPSSOLoginAndRedirects.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -21,22 +22,22 @@ Only users who understand SSO, URL redirects, and the ServiceNow platform should
 
 To use single sign-on with Service Portal, you must enable the Integration - Multiple Provider Single Sign-On Installer plugin \(com.snc.integration.sso.multi.installer\).
 
-If you are using the system property to automatically redirect to your primary IdP, then Service Portal automatically redirects to that IdP. If you have multiple identity providers, Service Portal shows a link on the login page to **Use external login**. For more information on SSO and authentication in the platform, see [Multiple-Provider single sign-on \(SSO\)](https://www.servicenow.com/docs/access?context=c_MultipleProviderSingleSignOn&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+If you are using the system property to automatically redirect to your primary IdP, then Service Portal automatically redirects to that IdP. If you have multiple identity providers, Service Portal shows a link on the login page to **Use external login**. For more information on SSO and authentication in the platform, see Multiple-Provider single sign-on \(SSO\).
 
-To redirect users to the SSO Identify Provider \(IdP\) login page without first redirecting them to the portal login page, you can configure the **glide.service\_portal.sso.early\_redirect.portals** system property. For more information, see [Service Portal properties](properties-service-portal.md). If your portal uses a customized version of the Login widget, you must update the `sp_sso_early_redirection` UI macro as needed to redirect users to the SSO Identify Provider \(IdP\) login page without trying to load the portal page first.
+To redirect users to the SSO Identify Provider \(IdP\) login page without first redirecting them to the portal login page, you can configure the **glide.service\_portal.sso.early\_redirect.portals** system property. For more information, see [Service Portal properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/properties-service-portal.md). If your portal uses a customized version of the Login widget, you must update the `sp_sso_early_redirection` UI macro as needed to redirect users to the SSO Identify Provider \(IdP\) login page without trying to load the portal page first.
 
 **Note:** Service Portal has a known issue related to using Multi-Provider SSO and Okta. For more information about this issue and a workaround, see the [Service Portal: After enabling Multi SSO, end users are able to access navpage.do through OKTA if they are already logged in \[KB0687717\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0687717) article in the Now Support Knowledge Base.
 
 ## Require authentication for a Service Portal page
 
-If you want to require authentication for a Service Portal page, ensure that the **Public** flag on the page record is not selected. For more information, see [Create and edit a page using the Service Portal Designer](../task/t_ConfigureAPage.md#). If a user navigates to a non-public page, they are redirected to the login page for the requested portal.
+If you want to require authentication for a Service Portal page, ensure that the **Public** flag on the page record is not selected. For more information, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/t_ConfigureAPage.md). If a user navigates to a non-public page, they are redirected to the login page for the requested portal.
 
 Because every page request is routed through the **$sp** page, this page must be public. The following values in the Public Pages `sys_public` table define the page as public:
 
 -   **Page**: `$sp`
 -   **Active**: `true`
 
-**Parent Topic:**[Managing portal access](portal-security.md)
+**Parent Topic:**[Managing portal access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/portal-security.md)
 
 ## Configure a portal as the instance login page
 
@@ -48,7 +49,7 @@ Role required: admin
 
 ### Procedure
 
-1.  [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) with the following settings:
+1.  Add a system property with the following settings:
 
     -   Name: glide.entry.page.script
     -   Type: string
@@ -165,7 +166,7 @@ Contains the call to the server script include method that determines where to l
 
 3.  Customize the after-login behavior in the **SPEntryPage** script include.
 
-    For more information about modifying script includes, see [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+    For more information about modifying script includes, see Script includes.
 
     For example, if you want users with certain roles to be redirected to Service Portal, you could modify `user.hasRoles()` in the following code.
 
@@ -181,7 +182,7 @@ Contains the call to the server script include method that determines where to l
 
 ### What to do next
 
-To debug redirection, see [Debug Service Portal URL redirects](c_SPSSOLoginAndRedirects.md#). For additional redirection troubleshooting information, see the [Frequently Asked Questions on redirection with service portal \[KB0747432\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0747432) article in the Now Support Knowledge Base.
+To debug redirection, see [Debug Service Portal URL redirects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/c_SPSSOLoginAndRedirects.md). For additional redirection troubleshooting information, see the [Frequently Asked Questions on redirection with service portal \[KB0747432\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0747432) article in the Now Support Knowledge Base.
 
 ## Debug Service Portal URL redirects
 

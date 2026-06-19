@@ -2,6 +2,7 @@
 title: Related links and lists for a SAFe story
 description: Use the related links and related lists in your SAFe story form based on the actions that you need to perform on your story.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scaled-agile-framework-safe/related-links-and-lists-of-a-safe-story.html
 release: zurich
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -64,5 +65,5 @@ Copies the details of an existing active story to a new story. The tests and tas
 |Dependent Stories|Lists the stories that depend on the current story. Click **Edit** to add dependent stories.|
 |Tests|Lists the tests that are used for the story. Add existing tests to the story.|
 
-**Parent Topic:**[Define a story in SAFe](../task/create-SAFestory.md)
+**Parent Topic:**[Define a story in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/create-SAFestory.md)
 

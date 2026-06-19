@@ -2,6 +2,7 @@
 title: SLA Percentage Timer action
 description: Identify when a task SLA record reaches a specific percentage value and perform other actions or flow logic that is based on the SLA percentage. For example, send a notification when an SLA percentage timer completes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/sla-percentage-timer-action.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -44,7 +45,7 @@ The **Status** data pill contains the result of the SLA percentage timer.
 |Skipped|The timer did not run because the scheduled end date/time is in the past. Flow designers can build specific flow logic for this action status.|
 |Waiting|The timer is running and has yet to reach the scheduled end date/time.|
 
-Workflow Studio sets the action status when the SLA state matches an [SLA condition](https://www.servicenow.com/docs/access?context=c_SLAConditions&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US) or when certain UI actions are selected.
+Workflow Studio sets the action status when the SLA state matches an SLA condition or when certain UI actions are selected.
 
 <table id="table_gqk_nvt_1jb"><thead><tr><th>
 
@@ -166,8 +167,8 @@ Follow these general guidelines when creating flows that contain Service Level A
 
 -   **Copy existing flows to make customizations**
 
-    Reduce development time by copying the default SLA flows and customizing the copies with your own logic. Select a customized flow to run from the SLA definition. See [Create an SLA definition](https://www.servicenow.com/docs/access?context=t_CreateAnSLADefinition&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US) .
+    Reduce development time by copying the default SLA flows and customizing the copies with your own logic. Select a customized flow to run from the SLA definition. See Create an SLA definition .
 
 
-**Parent Topic:**[Workflow Studio actions](../concept/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-actions.md)
 

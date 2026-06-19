@@ -2,6 +2,7 @@
 title: Monitor HTTP points
 description: Use the Monitoring HTTP Entry Points and Monitoring HTTP Entry Points Metrics policies that come with the ITOM Monitoring scoped app to monitor http and https entry points and entry points metrics. You can customize these policies as needed, or you can configure a new policy to monitor service entry points.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-entrypoints.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -55,5 +56,5 @@ An entry point is the access point for a service. In an Agent Client Collector p
     The policy monitors the entry points specified by the policy's configurations.
 
 
-**Parent Topic:**[Operating system and application monitoring using Agent Client Collector](../concept/itom-monitoring-for-acc.md)
+**Parent Topic:**[Operating system and application monitoring using Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/itom-monitoring-for-acc.md)
 

@@ -2,6 +2,7 @@
 title: Methods and events of the PasswordBox element
 description: The PasswordBox element in RPA Desktop Design Studio is a text box that displays placeholder characters while you type a string.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/form-control-passwordbox.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -87,5 +88,5 @@ The methods and events of the PasswordBox element are displayed in the Object Ex
     Occurs when the focus moves out of the current element.
 
 
-**Parent Topic:**[Methods and events of elements](form-control-methods-events.md)
+**Parent Topic:**[Methods and events of elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/form-control-methods-events.md)
 

@@ -2,11 +2,12 @@
 title: Configure webhooks in Bitbucket manually
 description: Configure webhooks in Bitbucket to send sync notifications to the DevOps Change Velocity application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/config-webhooks-bitbucket-manually.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Bitbucket, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -29,13 +30,13 @@ You can also access manual configuration from the Bitbucket tool record in DevOp
 
 2.  In DevOps Change Velocity, choose **Configure manually** when configuring the tool instance to send data.
 
-    ![Bitbucket configure manually](../image/bitbucket-workspace-connect-4.png)
+    \[Omitted image "bitbucket-workspace-connect-4.png"\] Alt text: Bitbucket configure manually
 
 3.  In DevOps Change Velocity, copy the **Webhook URL** field from the ServiceNow instance connection details for Bitbucket.
 
     **Note:** Select **Copy** in the appropriate field to copy the value to your clipboard. The field label changes to **Copied**, but you can copy multiple times.
 
-    ![Bitbucket configure webhooks manually](../image/bitbucket-manual-webhooks-2.png)
+    \[Omitted image "bitbucket-manual-webhooks-2.png"\] Alt text: Bitbucket configure webhooks manually
 
 4.  In Bitbucket, navigate to **Repository settings &gt; Webhooks &gt; Edit webhook**, and paste the copied Webhook URL in the **URL** field.
 
@@ -43,10 +44,10 @@ You can also access manual configuration from the Bitbucket tool record in DevOp
 
     -   Repository: Push
     -   Pull request: Created, Updated, Approved, Approval removed, Changes Request created, Changes Request removed,Merged, Declined, Comment created, Comment updated, Comment deleted, Comment resolved, Comment reopened.
-    ![Configure webhooks manually in Bitbucket Cloud](../image/bitbucket-manual-webhook-4.png)
+    \[Omitted image "bitbucket-manual-webhook-4.png"\] Alt text: Configure webhooks manually in Bitbucket Cloud
 
 6.  Select **Save**.
 
 
-**Parent Topic:**[Bitbucket integration with DevOps Change Velocity](../concept/bitbucket-integration-dev-ops.md)
+**Parent Topic:**[Bitbucket integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/bitbucket-integration-dev-ops.md)
 

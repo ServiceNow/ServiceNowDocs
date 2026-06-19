@@ -2,6 +2,7 @@
 title: Add a user or asset to a contract
 description: You can add a user or asset to a contract to generate expense lines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/contract-management/t\_Step1AddAUserOrAssetToAContract.html
 release: zurich
 product: Contract Management
 classification: contract-management
@@ -44,9 +45,9 @@ Role required: asset, financial\_mgmt\_user\(core UI and Hardware Asset Workspac
         2.  In the dialog box, select the check box for each asset or user that you want to add to the contract.
         3.  Click **Add**.
 
-**Parent Topic:**[Generating expense lines based on assets or users](t_GenExpnsLinOnAssetsUsers.md)
+**Parent Topic:**[Generating expense lines based on assets or users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/contract-management/t_GenExpnsLinOnAssetsUsers.md)
 
-**Previous topic:**[Generating expense lines based on assets or users](t_GenExpnsLinOnAssetsUsers.md)
+**Previous topic:**[Generating expense lines based on assets or users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/contract-management/t_GenExpnsLinOnAssetsUsers.md)
 
-**Next topic:**[Create a rate card and assign a user or asset](t_Step2CreatRCAsgnUseAsset.md)
+**Next topic:**[Create a rate card and assign a user or asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/contract-management/t_Step2CreatRCAsgnUseAsset.md)
 

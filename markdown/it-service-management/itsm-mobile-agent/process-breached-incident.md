@@ -2,6 +2,7 @@
 title: Process a breached incident
 description: View and manage the breached incident from the mobile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/process-breached-incident.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -25,7 +26,7 @@ Role required: admin
 
     The **Breached incidents** screen opens with a list of incidents.
 
-2.  If you want to reduce the number of records on the screen, see [Filter records](filter-records-agent-mobile.md) to search for records that match specific search criteria.
+2.  If you want to reduce the number of records on the screen, see [Filter records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-mobile-agent/filter-records-agent-mobile.md) to search for records that match specific search criteria.
 
 3.  On the **Breached incidents** screen with the list of incidents, swipe left on an incident to open the menu.
 
@@ -56,7 +57,7 @@ DETAILS tab
 </td><td>
 
 Choose one to continue. -   View the fields for details about the incident. The fields with an arrow have additional information.
--   At the top right of the screen, tap the menu icon ![mobile top menu](../image/mobile-top-menu.png) to reassign, edit, or propose the incident as a major incident.
+-   At the top right of the screen, tap the menu icon \[Omitted image "mobile-top-menu.png"\] Alt text: mobile top menu to reassign, edit, or propose the incident as a major incident.
 -   Add any additional comments using the **Add comments** button.
 -   Resolve the incident after adding a resolution code and notes using the **Resolve** button.
 
@@ -67,7 +68,7 @@ ACTIVITY tab
 
 </td><td>
 
-View the activity on the incident like field changes or assignment changes. Tap ![Add icon](../image/add_icon.png)to perform any of the following activities on the incident. 1.  **Record Video**: Record a video to be attached to the incident.
+View the activity on the incident like field changes or assignment changes. Tap \[Omitted image "add\_icon.png"\] Alt text: Add iconto perform any of the following activities on the incident. 1.  **Record Video**: Record a video to be attached to the incident.
 2.  **Open Gallery**: Open your photo gallery to attach an existing image or a video to the incident.
 3.  **Take Photo**: Take a picture and attach it to the incident
 4.  **Attach File**: Attach a file from another application to the incident.
@@ -96,5 +97,5 @@ View the list of all the calls related to an incident. Tap on any of the calls t
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Breached Incidents](../concept/breached-incidents.md)
+**Parent Topic:**[Breached Incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-mobile-agent/breached-incidents.md)
 

@@ -2,6 +2,7 @@
 title: Run an Escalations report to view who is on call
 description: The Escalations report displays the escalation sequence and the rules that apply for a selected date. For each group that you are authorized to see, you can choose to show either the active roster members or the on-call person.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/on-call-scheduling/run-escalations-report-oncall.html
 release: zurich
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -36,5 +37,5 @@ Role required: itil
 5.  Click **Run Report**.
 
 
-**Parent Topic:**[Viewing On-Call Scheduling reports](../../user-administration/concept/viewing-reports.md)
+**Parent Topic:**[Viewing On-Call Scheduling reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/viewing-reports.md)
 

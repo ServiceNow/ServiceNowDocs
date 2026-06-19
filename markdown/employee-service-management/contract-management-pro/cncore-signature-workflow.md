@@ -1,30 +1,32 @@
 ---
 title: Signature workflow for a contract request
-description: Contract Management Pro supports electronic signature or wet \(manual\) signature for a contract request.
+description: Contract Management Pro supports electronic signature, wet \(manual\) signature, and offline signature for a contract request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-signature-workflow.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Signature workflow for a contract request
 
-Contract Management Pro supports electronic signature or wet \(manual\) signature for a contract request.
+Contract Management Pro supports electronic signature, wet \(manual\) signature, and offline signature for a contract request.
 
--   Electronic Signature: Enables signatories to sign the contract document electronically. For more information, see [Configure an e-signature provider](../task/cncore-integrate-esign.md).
+-   Electronic Signature: Enables signatories to sign the contract document electronically. For more information, see [Configure an e-signature provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-integrate-esign.md).
 
-    If you want to generate a certificate of completion, you must select the **Electronic Signature** as signature type in the contract request. For more information, see [Activate a system property to generate a certificate of completion](../task/cncore-config-system-prop-COC.md).
+    If you want to generate a certificate of completion, you must select the **Electronic Signature** as signature type in the contract request. For more information, see [Activate a system property to generate a certificate of completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-config-system-prop-COC.md).
 
--   Wet Signature: Enables signatories to sign the contract document manually. You can then upload the signed document to a contract request. For more information, see [Upload a manually signed contract document](../task/cncore-upload-doc-wsignature.md).
+-   Wet Signature: Enables signatories to sign the contract document manually. You can then upload the signed document to a contract request. For more information, see [Upload a signed contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-upload-doc-wsignature.md).
+-   Offline signature: Records a contract that has been signed outside Contract Management Pro. Signature request emails are not sent to the signatories. The fulfiller or contract user uploads the signed document directly.
 
 ## Electronic signature workflow
 
 -   Send the finalized document to the signatories for signing.
-    -   The state and contract status updates to Awaiting Signature and the electronic signature flow is triggered as configured in [Configure an e-signature provider](../task/cncore-integrate-esign.md).
+    -   The state and contract status updates to Awaiting Signature and the electronic signature flow is triggered as configured in [Configure an e-signature provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-integrate-esign.md).
     -   An email notification that the contract document is available for signature is sent to the first signatory. The email contains a link to the contract document that the signatory can open and sign the document through the Docusign or Adobe Acrobat Sign electronic signature provider.
 
         The signatories will receive signature request email according to the order set in the signatories tab.
@@ -166,13 +168,26 @@ All the signatories have signed the document
 
  For non-self-served contracts, the state of the request and the contract status updates to Contract signed. To close the contract request, select Close complete.
 
- For more information, see [Upload a manually signed contract document](../task/cncore-upload-doc-wsignature.md).
+ For more information, see [Upload a signed contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-upload-doc-wsignature.md).
 
 </td></tr></tbody>
 </table>
+## Offline signature workflow
+
+Use the offline signature workflow when the contract is signed outside Contract Management Pro — for example, the parties physically sign the contract document or through a third-party application, and to record the signed document against the contract request.
+
+-   Set up a contract request for offline signature.
+    -   Create a contract request with **Offline signature** selected as the signature type.
+    -   On an existing contract request, change the signature type from **Electronic signature** or **Wet signature** to **Offline signature**.
+-   The fulfiller or contract user selects **Initiate offline signature**.
+-   The state and contract status update to Awaiting signature. Signature request emails are not sent to the signatories.
+-   The signatories sign the contract document outside Contract Management Pro.
+-   The contract fulfiller uploads the signed document.
+-   The state and contract status update to Contract signed. The status of all signatories updates from Pending to Completed.
+
 ## Modify signatories when the signature workflow is in progress
 
-Modify Signatories options enables you to add, remove, edit, or reorder pending signatories  while a signature workflow is in progress. Initiating this action pauses the signature workflow  for a duration defined by the system property  **maximum\_signature\_pause\_duration**. To continue the signature workflow after making changes, use the  **Resume Signature ** option to resume the workflow.
+Modify Signatories options enables you to add, remove, edit, or reorder pending signatories while a signature workflow is in progress. Initiating this action pauses the signature workflow for a duration defined by the system property **maximum\_signature\_pause\_duration**. To continue the signature workflow after making changes, use the **Resume Signature** option to resume the workflow.
 
 The workflow might progress as follows:
 
@@ -190,7 +205,7 @@ The workflow might progress as follows:
 -   Signature request email notifications are sent to the signatories.
 -   After the last signatory has signed the document, the contract repository record is created and the signed document is attached to it.
 
-For more information, see [Modify signatories](../task/cncore-pause-signature.md) and [Resend signature request](../task/cncore-resend-sign-req.md).
+For more information, see [Modify signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-pause-signature.md) and [Resend signature request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-resend-sign-req.md).
 
 ## Contract document access
 
@@ -201,16 +216,20 @@ Access to a contract document is based on the following user roles and condition
 -   Requesters can view only the contract documents for which they submitted the contract request.
 -   Users added to the watch list can view only contract documents for contract requests they have added.
 
-While generating the contract repository record, mapped fields and their values are validated for data type and correctness. If validation errors are found, an email notification is sent to the contract fulfiller. The email also displays the list of fields that haven’t been copied into the final contract document and the link to the contract repository record. The fulfiller then opens the record using the link and corrects the values to resolve the validation errors.
+While generating the contract repository record, mapped fields and their values are validated for data type and correctness. If validation errors are found, an email notification is sent to the contract fulfiller. The email also displays the list of fields that haven't been copied into the final contract document and the link to the contract repository record. The fulfiller then opens the record using the link and corrects the values to resolve the validation errors.
 
--   **[Upload a manually signed contract document](../task/cncore-upload-doc-wsignature.md)**  
-Upload the wet signed contract document that you have received from the signatories. You need to upload a contract document for a wet signature workflow or if one of the signatories in the electronic workflow decides to do a wet signature.
--   **[Modify signatories](../task/cncore-pause-signature.md)**  
+-   **[Send a contract document for signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-send-doc-signature.md)**  
+After a contract document has been reviewed and finalized, send the document for signature.
+-   **[Initiate an offline signature for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-initiate-offline-signature-workspace.md)**  
+Initiate an offline signature when a contract has been signed outside Contract Management Pro and record the signed document in Contract Management Pro.
+-   **[Upload a signed contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-upload-doc-wsignature.md)**  
+Upload a signed contract document that you have received from the signatories. You must upload a contract document for a wet signature workflow, an offline signature workflow when the contract was signed outside the system or if one of the signatories in the electronic signature workflow decides to do a wet signature.
+-   **[Modify signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-pause-signature.md)**  
 Modify signatories while a signature workflow is in progress.
--   **[Resend signature request](../task/cncore-resend-sign-req.md)**  
+-   **[Resend signature request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-resend-sign-req.md)**  
 Resend signature request functionality enables contract fulfillers to manually trigger signature request when needed.
--   **[Cancel the signature process](../task/cncore-cancel-a-manual-signature.md)**  
-Cancel a wet signature process for contract documents that have been sent to signatories.
+-   **[Cancel the signature process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-cancel-a-manual-signature.md)**  
+Cancel a signature process for contract documents that have been sent to signatories.
 
-**Parent Topic:**[Using Contract Management Pro](cncore-use-cmpro.md)
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

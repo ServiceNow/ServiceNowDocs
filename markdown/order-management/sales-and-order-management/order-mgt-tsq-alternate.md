@@ -2,6 +2,7 @@
 title: Alternate proposal for service orders
 description: Learn how you can provide alternate proposals if a service qualification isn't met.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/order-mgt-tsq-alternate.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,7 +24,7 @@ When you receive an alternate qualification request and click **Qualify Order** 
 
 Navigate to the **CSM/FSM Configurable Workspace**, click a service order with Fulfilment type as **Qualify** and select the **Alternate proposal\(s\)** tab.
 
-![Infographic displaying the Alternate proposals tab view with its list and details. For the text description, refer to the steps that follow.](../image/order-mgt-tsq-process-alternate.png)
+\[Omitted image "order-mgt-tsq-process-alternate.png"\] Alt text: Infographic displaying the Alternate proposals tab view with its list and details. For the text description, refer to the steps that follow.
 
 Select the Number link to view the alternate proposal. It contains the following information:
 
@@ -35,5 +36,5 @@ Select the Number link to view the alternate proposal. It contains the following
 |Available date|The date on which the alternate proposal will be available.|
 |Order characteristics|The specification characteristics \(in JSON format\) provided as part of the alternate proposal in the response from the inventory system.|
 
-**Parent Topic:**[Service qualification requests](order-mgt-tsq-about.md)
+**Parent Topic:**[Service qualification requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-mgt-tsq-about.md)
 

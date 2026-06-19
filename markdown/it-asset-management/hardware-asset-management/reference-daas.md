@@ -2,6 +2,7 @@
 title: DaaS reference
 description: Reference topics provide additional information about the lists and forms that you use to configure and administer Asset as a Service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/reference-daas.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management

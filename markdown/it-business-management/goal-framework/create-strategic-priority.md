@@ -2,6 +2,7 @@
 title: Create a strategic priority for a strategic plan
 description: As a strategy planner, you can create and manage the strategic priorities for the strategic plans for your organization. Create a strategic priority to orient your organization strategic plan toward your goal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/goal-framework/create-strategic-priority.html
 release: zurich
 product: Goal Framework
 classification: goal-framework
@@ -27,15 +28,15 @@ The strategic priorities are also known as focus areas or long-term strategies.
 
 1.  Create a strategic priority for a strategic plan using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d84912e64">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d85770e64">
 
 Option
 
-</th><th align="left" id="d84912e67">
+</th><th align="left" id="d85770e67">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d84912e73">
+</th></tr></thead><tbody><tr><td id="d85770e73">
 
 **From the Strategic Priorities related list**
 
@@ -46,7 +47,7 @@ Steps
 3.  In the Strategic Priorities related list, click **New**.
 
 
-</td></tr><tr><td id="d84912e106">
+</td></tr><tr><td id="d85770e106">
 
 **From the Strategic Priorities module**
 
@@ -59,7 +60,7 @@ Steps
 </td></tr></tbody>
 </table>2.  On the form, fill in the fields.
 
-    For field information, see [Strategic Priority form](../reference/strategic-priority-form.md).
+    For field information, see [Strategic Priority form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/strategic-priority-form.md).
 
 3.  Click **Submit**.
 

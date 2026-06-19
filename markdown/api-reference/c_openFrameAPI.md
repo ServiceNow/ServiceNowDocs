@@ -2,6 +2,7 @@
 title: openFrameAPI - Client
 description: The openFrameAPI provides methods that interact with OpenFrame. OpenFrame is an omni-present frame that communication partners can use to integrate their systems into the ServiceNow platform.Returns the logged in agent’s current presence state.Hides the OpenFrame in the TopFrame.Initializes OpenFrame. This must be the first method that you call.Checks to see if the OpenFrame is visible in the TopFrame.Opens a custom URL in the UI16 interface.Opens a form URL.Opens a ServiceNow form with a child tab if invoked in a workspace or opens an entity if invoked in the UI16 interface.Opens a list URL in the UI16 interface.Sets the OpenFrame mode.Sets the OpenFrame height.Sets the context data related to the interaction controls on the client. Use this context data to determine the client UI to display in OpenFrame.Defines icons in the OpenFrame header that are placed next to the close icon.Sets the presence indicator to display agent availability in a workspace.Sets the OpenFrame size.Sets the OpenFrame subtitle.Sets the OpenFrame title.Sets the OpenFrame's title icon.Sets the OpenFrame width.Makes the OpenFrame visible in the TopFrame.Subscribes to a specified event.Displays an alert message.Returns the OpenFrame API version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/c\_openFrameAPI.html
 release: zurich
 product: API Reference
 classification: api-reference
@@ -17,11 +18,11 @@ The openFrameAPI provides methods that interact with OpenFrame. OpenFrame is an 
 
 One of the core requirements is the ability to connect and serve code from different domains that can connect seamlessly with partner subsystems. This cross domain connection is required to keep connections and callbacks registered into communication systems without any cross domain issues.
 
-OpenFrame has two significant parts. One lives in the ServiceNow application \(referred to as TopFrame\) and this API that is sourced from the partner application. This API has the necessary methods to communicate with TopFrame and control the visual features of the [OpenFrame](https://www.servicenow.com/docs/access?context=c_OpenFrameOverview&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+OpenFrame has two significant parts. One lives in the ServiceNow application \(referred to as TopFrame\) and this API that is sourced from the partner application. This API has the necessary methods to communicate with TopFrame and control the visual features of the OpenFrame.
 
 **Note:** To stay current with reference to the OpenFrame library, use the following resource URI: `https://[servicenow instance]/scripts/openframe/latest/openFrameAPI.min.js`.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/api-client.md)
 
 ## openFrameAPI - getAWAAgentPresence\(String success, String failure\)
 
@@ -262,7 +263,7 @@ function
 
 </td><td>
 
-Name of the callback function to use if the init method succeeds. The [OpenFrame configuration](https://www.servicenow.com/docs/access?context=t_CreateAnOpenFrameConfiguration&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US) stored in the system is passed as a parameter to the callback function.
+Name of the callback function to use if the init method succeeds. The OpenFrame configuration stored in the system is passed as a parameter to the callback function.
 
 </td></tr><tr><td>
 
@@ -580,7 +581,7 @@ Object
 Key value pairs that describe the content to use when opening the list URL.Valid values:
 
 -   entity: Table name
--   query: [Encoded query string](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
+-   query: Encoded query string
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -657,9 +658,9 @@ openFrameAPI.setHeight(100);
 
 Sets the context data related to the interaction controls on the client. Use this context data to determine the client UI to display in OpenFrame.
 
-For additional information on interactive controls, see [Interaction Controls Component](https://www.servicenow.com/docs/access?context=interaction-controls-component&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+For additional information on interactive controls, see .
 
-For additional information on interaction records, see [CSM voice interaction record page](https://www.servicenow.com/docs/access?context=csm-native-voice-record-page&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+For additional information on interaction records, see .
 
 <table id="table_xlq_rhg_zdc" class="parameters"><thead><tr><th>
 
@@ -887,7 +888,7 @@ Object
 
 </td><td>
 
-Details about the capabilities that the current \(agent\) participant can perform during a call. The associated icons appear in the Active call component for the capabilities that are enabled.![Screen shot of Active call component with capabilities icons](../image/OF-active_call-capabilities.png)
+Details about the capabilities that the current \(agent\) participant can perform during a call. The associated icons appear in the Active call component for the capabilities that are enabled.\[Omitted image "OF-active\_call-capabilities.png"\] Alt text: Screen shot of Active call component with capabilities icons
 
 ```
 "capabilities": {
@@ -1677,7 +1678,7 @@ Boolean
 
 For agent use case only - only valid when the **activeCall.currentParticipant.actor** is "agent".Flag that indicates whether to display the **Wrap up** component once the call is complete.
 
-![Screen shot of Wrap up component](../image/OF-active_call-wrapup.png)
+\[Omitted image "OF-active\_call-wrapup.png"\] Alt text: Screen shot of Wrap up component
 
 Valid values:
 
@@ -1696,7 +1697,7 @@ String
 
 </td><td>
 
-State of the participant's call leg. Appears beneath the phone number in the **Active call** component.![Active call window showing state](../image/OF-active_call-state.png)
+State of the participant's call leg. Appears beneath the phone number in the **Active call** component.\[Omitted image "OF-active\_call-state.png"\] Alt text: Active call window showing state
 
 This can be any meaningful text, such as:
 
@@ -1844,7 +1845,7 @@ Details about the information message to display on the user's dial pad, such as
 
 In the following example, the **label** is **Selected queue:** and the **value** is **Customer Inquiries**. You can also just use either the **label** or the **value** parameter with **Selected queue: Customer Inquiries**.
 
-![Screen shot of dial pad with information message](../image/OF-dialpadInfoMessage.png)
+\[Omitted image "OF-dialpadInfoMessage.png"\] Alt text: Screen shot of dial pad with information message
 
 </td></tr><tr><td>
 
@@ -2356,7 +2357,7 @@ Object
 
 Details about the information to display in the transfer call control.The following is an example of a **Transfer call** control that contains a list of agents that the call can be transferred to. The screen shot shows what elements of the UI that each parameter in the **list.payload** controls.
 
-![Screen shot of Transfer call window showing parameter association](../image/OF-search_payload_parms.png)
+\[Omitted image "OF-search\_payload\_parms.png"\] Alt text: Screen shot of Transfer call window showing parameter association
 
 ```
 "payload": {
@@ -2555,7 +2556,7 @@ Array of Objects
 
 Details about the type of transfer supported for the specified **searchTargetList.targets.type**. This information appears when the user clicks the ellipse next to the target's name in the UI.
 
-![Transfer call component showing transfer types](../image/OF-transferSuptypes.png)
+\[Omitted image "OF-transferSuptypes.png"\] Alt text: Transfer call component showing transfer types
 
 For example, if only a consult type is supported for the current target type, say queue, this array will contain one object to denote the consult type of transfer.
 
@@ -2641,7 +2642,7 @@ Error \(offerContext\)
 
 </td><td>
 
-Error messages associated with the **offerContext** object used for resiliency. To view these messages, use the [subscribe\(\)](c_openFrameAPI.md#) method to subscribe to **openframe\_awa\_client\_offer** event.Context values are represented as follows:
+Error messages associated with the **offerContext** object used for resiliency. To view these messages, use the [subscribe\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/c_openFrameAPI.md) method to subscribe to **openframe\_awa\_client\_offer** event.Context values are represented as follows:
 
 1.  success
 2.  error
@@ -3067,7 +3068,7 @@ imageTitle:'hold', id:102}]);
 
 Sets the presence indicator to display agent availability in a workspace.
 
-For more information on configuring OpenFrame, refer to [Create an OpenFrame configuration](https://www.servicenow.com/docs/access?context=t_CreateAnOpenFrameConfiguration&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
+For more information on configuring OpenFrame, refer to Create an OpenFrame configuration
 
 <table id="table_o4l_p1c_jhb" class="parameters"><thead><tr><th>
 
@@ -3292,7 +3293,7 @@ The event to subscribe to:-   interaction\_control\_action: Receives the interac
 -   openframe\_icon\_clicked: Occurs when any icon other than the close icon is selected on the OpenFrame footer. The callback receives the icon object as a parameter.
 -   openframe\_shown: Occurs when the OpenFrame is shown.
 -   openframe\_title\_icon\_clicked: Occurs when the title icon is selected on the OpenFrame. The callback receives the titleIcon object as a parameter.
--   openframe\_wrap\_up\_submitted: Occurs when the wrap up periods ends on the [wrap-up modeless dialog](https://www.servicenow.com/docs/access?context=interaction-wrapup-modeless-dialog&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US). The event is triggered only when the wrap up is external.
+-   openframe\_wrap\_up\_submitted: Occurs when the wrap up periods ends on the wrap-up modeless dialog. The event is triggered only when the wrap up is external.
 
 </td></tr><tr><td>
 
@@ -3386,7 +3387,7 @@ In AWA, the **openframe\_awa\_workitem\_accepted** and **openframe\_awa\_workite
     -   **workItem.document.sys\_id**: Sys\_id of the document assigned to the work item task.
     -   **workItem.document.table**: Name of the document table assigned to the task.
 -   **workItem.isAutoAccepted**: Flag that indicates whether the work item was automatically accepted by the system. Set to true if the work item was auto-accepted.
--   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see [Transfer a chat to another queue](https://www.servicenow.com/docs/access?context=transfer-chat-queue&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+-   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see .
 -   **workItem.previousWorkItem**: Sys\_id of the previous work item for the same document ID. For the non-transfer work items this value is empty.
 -   **workItem.serviceChannel**: List of service channels associated with the work item task.
     -   **workItem.serviceChannel.name**: Name of the service channel, such as Chat or Phone.
@@ -3426,7 +3427,7 @@ In AWA, the **openframe\_awa\_workitem\_rejected** event returns the `workItem` 
 -   **workItem.document**: List of documents associated with the work item task.
     -   **workItem.document.sys\_id**: Sys\_id of the document assigned to the work item task.
     -   **workItem.document.table**: Name of the document table assigned to the task.
--   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see [Transfer a chat to another queue](https://www.servicenow.com/docs/access?context=transfer-chat-queue&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+-   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see .
 -   **workItem.previousWorkItem**: Sys\_id of the previous work item for the same document ID. For the non-transfer work items this value is empty.
 -   **workItem.rejection**: List of reasons for the rejection of the work item.
     -   **workItem.rejection.reason**: Name of the reason for rejecting the work items.

@@ -2,6 +2,7 @@
 title: Configure data collection for Demand Forecast
 description: Define the data you want to collect for cases, interactions, or any table to forecast the number of agents that you require for your staffing needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workforce-optimization-for-hr/configure-data-collection-df-wfo-hr.html
 release: zurich
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -17,7 +18,7 @@ Define the data you want to collect for cases, interactions, or any table to for
 
 ## Before you begin
 
-You must have the MetricBase plugin \[com.snc.clotho\] enabled to use Demand Forecast in Workforce Optimization for HR. For more information, see [Requesting the MetricBase product](https://www.servicenow.com/docs/access?context=request-metricbase&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+You must have the MetricBase plugin \[com.snc.clotho\] enabled to use Demand Forecast in Workforce Optimization for HR. For more information, see Requesting the MetricBase product.
 
 Role required: sn\_hr\_wfo.admin
 
@@ -29,7 +30,7 @@ Role required: sn\_hr\_wfo.admin
 
     1.  Click **Data Collection Definitions**.
 
-        See the [Components installed with Workforce Optimization for HR](../reference/wfo-hr-reference.md#) for the list of configurations that are available by default.
+        See the [Components installed with Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workforce-optimization-for-hr/wfo-hr-reference.md) for the list of configurations that are available by default.
 
     2.  Click **New**.
     3.  On the form, fill in the fields:
@@ -43,14 +44,14 @@ Role required: sn\_hr\_wfo.admin
         |Conditions|Conditions that you can set so that you can capture the data that you need.|
 
     4.  Click **Submit**.
-    5.  Create an index for the table you have created using the date field and the conditions you have added to the table. For information on creating a table index, see [Create a table index](https://www.servicenow.com/docs/access?context=t_CreateCustomIndex&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    5.  Create an index for the table you have created using the date field and the conditions you have added to the table. For information on creating a table index, see Create a table index.
 
--   **[Add parameters to be defined in the formula](add-formula-parameters-wfo-hr.md)**  
+-   **[Add parameters to be defined in the formula](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workforce-optimization-for-hr/add-formula-parameters-wfo-hr.md)**  
 Add parameters to be defined in the formula to calculate agent count per hour in a day.
--   **[Configure resource conversion formula](configure-reverse-conversion-wfo-hr.md)**  
+-   **[Configure resource conversion formula](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workforce-optimization-for-hr/configure-reverse-conversion-wfo-hr.md)**  
 Configure the resource conversion formula.
--   **[Group forecast configuration](group-forecase-configuration-wfo-hr.md)**  
+-   **[Group forecast configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workforce-optimization-for-hr/group-forecase-configuration-wfo-hr.md)**  
 Associate an assignment group with a Resource Conversion Formula. You can assign a forecast configuration to multiple assignment groups, but an assignment group can have only one forecast configuration.
 
-**Parent Topic:**[Setting up Demand Forecast in Workforce Optimization for HR](../concept/setup-demand-forecast-wfo-hr.md)
+**Parent Topic:**[Setting up Demand Forecast in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workforce-optimization-for-hr/setup-demand-forecast-wfo-hr.md)
 

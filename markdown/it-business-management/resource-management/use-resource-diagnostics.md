@@ -2,6 +2,7 @@
 title: Use Resource Diagnostics to detect corrupt resource data
 description: The Resource Diagnostics feature uses the Application Diagnostics Tool to detect corrupt data for a resource, such as duplicate aggregates for users, or dailies without a top task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/resource-management/use-resource-diagnostics.html
 release: zurich
 product: Resource Management
 classification: resource-management
@@ -36,14 +37,14 @@ Role required: pps\_admin
 
 ## What to do next
 
-Add your own [diagnostic scans](create-diagnostic-scan-map-scripts-rm.md) and [fix scripts](add-diagnostic-and-fix-script-rm.md).
+Add your own [diagnostic scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/create-diagnostic-scan-map-scripts-rm.md) and [fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/add-diagnostic-and-fix-script-rm.md).
 
--   **[Add diagnostic features for resource](add-diagnostic-feature-rm.md)**  
+-   **[Add diagnostic features for resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/add-diagnostic-feature-rm.md)**  
 Create diagnostic features to evaluate an application feature and organize various diagnostic scans for an application. The diagnostic features appear in the target application and list all the diagnostic scans associated with the diagnostic feature for that application.
--   **[Add diagnostics and fix scripts for resource](add-diagnostic-and-fix-script-rm.md)**  
+-   **[Add diagnostics and fix scripts for resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/add-diagnostic-and-fix-script-rm.md)**  
 Add existing or new diagnostic scripts to scan the data in your application for any corruption. You can also attach fix scripts to rectify the corrupt or invalid data identified by the diagnostic script.
--   **[Create diagnostic scan and map scripts for resource](create-diagnostic-scan-map-scripts-rm.md)**  
+-   **[Create diagnostic scan and map scripts for resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/create-diagnostic-scan-map-scripts-rm.md)**  
 Create a diagnostics scan and map diagnostic feature with diagnostic and fix scripts. You can create a diagnostic scan to execute diagnostic scripts to check the health of data in your application. Use the fix scripts to rectify any corrupt or invalid data that the diagnostic scan identifies.
 
-**Parent Topic:**[Resource Management classic](../concept/c_ResourceManagement.md)
+**Parent Topic:**[Resource Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/c_ResourceManagement.md)
 

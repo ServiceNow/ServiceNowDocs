@@ -2,6 +2,7 @@
 title: Configure subscription allocation status in Subscription Management
 description: Identify when you're close to allocating all of your subscriptions by configuring an allocation status threshold if you prefer a threshold other than the default value of 90 percent in Subscription Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/configure-subscription-allocation-status-v2.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -34,5 +35,5 @@ Role required: usage\_admin, sn\_sub\_man.admin, or admin
 
 When the number of allocated subscriptions exceeds the percentage you configured, the value Near capacity appears in the **Status** column throughout Subscription Management.
 
-**Parent Topic:**[Configuring Subscription Management](../concept/configuring-subscription-management-v2.md)
+**Parent Topic:**[Configuring Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/configuring-subscription-management-v2.md)
 

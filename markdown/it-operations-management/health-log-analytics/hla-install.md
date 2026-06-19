@@ -2,6 +2,7 @@
 title: Activate the Platform Analytics Solution for Health Log Analytics
 description: Activate the content pack ServiceNow Store application for the Platform Analytics Solution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-install.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -17,7 +18,7 @@ Activate the content pack ServiceNow Store application for the Platform Analytic
 
 ## Before you begin
 
-Activate the full, subscription version of Performance Analytics on the instance where you are activating this Platform Analytics Solution. You can activate Performance Analytics on a non-production instance without purchasing a subscription. For more information, see [Activate your Performance Analytics subscription](https://www.servicenow.com/docs/access?context=c_PremiumPerformanceAnalytics&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+Activate the full, subscription version of Performance Analytics on the instance where you are activating this Platform Analytics Solution. You can activate Performance Analytics on a non-production instance without purchasing a subscription. For more information, see Activate your Performance Analytics subscription.
 
 Role required: admin
 
@@ -38,5 +39,5 @@ Role required: admin
     **Note:** This plugin requires an additional fee.
 
 
-**Parent Topic:**[Platform Analytics Solutions for Health Log Analytics](hla-content-pack.md)
+**Parent Topic:**[Platform Analytics Solutions for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-content-pack.md)
 

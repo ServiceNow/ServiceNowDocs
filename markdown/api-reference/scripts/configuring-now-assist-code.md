@@ -2,6 +2,7 @@
 title: Configuring Now Assist for Code
 description: Install and configure Now Assist for Code on an instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/configuring-now-assist-code.html
 release: zurich
 product: Scripts
 classification: scripts
@@ -15,12 +16,12 @@ breadcrumb: [Now Assist for Code, Scripting, API implementation, API implementat
 
 Install and configure Now Assist for Code on an instance.
 
--   **[Install Now Assist for Code](../task/install-now-assist-code-app.md)**  
+-   **[Install Now Assist for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/install-now-assist-code-app.md)**  
 Install the ServiceNow® Now Assist for Creator application from the ServiceNow® Store to get Now Assist for code generation.
--   **[Configure AI model providers for Now Assist for Code skills](../task/configure-model-providers-for-now-assist-skills.md#)**  
+-   **[Configure AI model providers for Now Assist for Code skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/configure-model-providers-for-now-assist-skills.md)**  
 Select a large language model \(LLM\) as the AI service provider for Now Assist for Code skills.
--   **[Enable or disable Now Assist skills](../task/enable-or-disable-now-assist-for-code-skills.md)**  
+-   **[Enable or disable Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/enable-or-disable-now-assist-for-code-skills.md)**  
 Learn to enable and disable Now Assist for Code skills.
 
-**Parent Topic:**[Scripting](../../topic/c_Script.md)
+**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_Script.md)
 

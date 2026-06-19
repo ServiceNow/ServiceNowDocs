@@ -2,6 +2,7 @@
 title: Use the Manual method to populate application services
 description: The Manual method for populating an application service, is based on selecting an entry point CI, which lets users access the application service. To populate the application service, you then manually add CIs to the new application service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/populate-app-service-manual.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -21,9 +22,9 @@ Role required: app\_service\_admin
 
 ## About this task
 
-Manual is one of several methods for populating an application service with CIs. Choosing a method for populating an application service, is only one step of the generic procedure for creating an application service. Ensure that you have completed the initial steps as described in [Create an application service](../../service-mapping/task/create-it-services.md). The procedure described here is incomplete by itself as it complements that generic procedure.
+Manual is one of several methods for populating an application service with CIs. Choosing a method for populating an application service, is only one step of the generic procedure for creating an application service. Ensure that you have completed the initial steps as described in [Create an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/create-it-services.md). The procedure described here is incomplete by itself as it complements that generic procedure.
 
-For information about the different types of application services and the different methods you can use to populate application services, including Manual, see [Application services](../concept/application-services.md).
+For information about the different types of application services and the different methods you can use to populate application services, including Manual, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/application-services.md).
 
 ## Procedure
 
@@ -77,6 +78,6 @@ The CI from the specified **Class**, to be the entry point for the application s
 
 ## What to do next
 
-1.  Complete the generic procedure [Create an application service](../../service-mapping/task/create-it-services.md).
-2.  [Manually add CIs](https://www.servicenow.com/docs/access?context=manually-add-ci-to-business-service&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US) to populate the application service.
+1.  Complete the generic procedure [Create an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).
+2.  Manually add CIs to populate the application service.
 

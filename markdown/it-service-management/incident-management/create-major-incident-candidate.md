@@ -2,6 +2,7 @@
 title: Create a major incident candidate
 description: You can create a major incident candidate in multiple ways. After a major incident candidate is created, the major incident manager evaluates the candidate and decides whether the candidate should be promoted to a major incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/create-major-incident-candidate.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -27,23 +28,23 @@ A major incident manager can accept or reject a major incident candidate.
 
 1.  Perform any of the following actions.
 
-<table id="choicetable_fk2_2xn_gdb"><thead><tr><th align="left" id="d327757e56">
+<table id="choicetable_fk2_2xn_gdb"><thead><tr><th align="left" id="d318888e56">
 
 Option
 
-</th><th align="left" id="d327757e59">
+</th><th align="left" id="d318888e59">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d327757e65">
+</th></tr></thead><tbody><tr><td id="d318888e65">
 
 **Create major incident trigger rules**
 
 </td><td>
 
-An incident can be marked as a major incident candidate based on the major incident trigger rules. A major incident manager or an incident manager can [Create trigger rules for major incidents](major-incident-trigger-rules.md) to identify major incident candidates automatically.**Note:** The base system major incident trigger rules are disabled by default. A major incident manager or an incident manager needs to activate the trigger rules that define conditions under which an incident is automatically considered as a major incident candidate.
+An incident can be marked as a major incident candidate based on the major incident trigger rules. A major incident manager or an incident manager can [Create trigger rules for major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/major-incident-trigger-rules.md) to identify major incident candidates automatically.**Note:** The base system major incident trigger rules are disabled by default. A major incident manager or an incident manager needs to activate the trigger rules that define conditions under which an incident is automatically considered as a major incident candidate.
 
-</td></tr><tr><td id="d327757e85">
+</td></tr><tr><td id="d318888e85">
 
 **Propose an incident as a major incident candidate manually**
 
@@ -51,7 +52,7 @@ An incident can be marked as a major incident candidate based on the major incid
 
 Manually propose an existing incident to be a major incident candidate by clicking **Propose Major Incident** from the context menu. You are prompted to enter the reason for proposing the incident as a candidate, and specifying the business impact of the incident. **Note:** If an incident is in the resolved, closed, or canceled state, the **Propose Major Incident** option does not appear on the context menu.
 
-</td></tr><tr><td id="d327757e106">
+</td></tr><tr><td id="d318888e106">
 
 **Create a candidate from application navigation**
 
@@ -68,5 +69,5 @@ Manually propose an existing incident to be a major incident candidate by clicki
     -   When you create a new major incident from a candidate, a new incident is created and becomes the major incident. The candidate is added as the child of the major incident. To get this behavior, the incident manager needs to set the major incident management property **Create major incident from candidate** \(**sn\_major\_inc\_mgmt.com.snc.incident.mim.major\_incident\_creation**\). A new incident is created from a candidate as a major incident. The candidate is associated with the new incident as a child.
     -   System automatically assigns the newly created parent major incident to a user when the On-Call Scheduling plugin \(com.snc.on\_call\_rotation\) is activated, a shift is defined for the major incident management group, and a user is available for the on-call shift. If no on-call shift exists, the major incident manager decides the user for the **Assigned to** field.
 
-**Parent Topic:**[Working on major incident management](../concept/work-on-mim.md)
+**Parent Topic:**[Working on major incident management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/work-on-mim.md)
 

@@ -2,6 +2,7 @@
 title: NameValuePairs - Global
 description: The NameValuePairs script include provides methods to convert between maps and strings representing the name/value pairs in the map.Creates an instance of the class initialized with the specified string.Creates an instance of the class initialized with the specified hash map.Produces this.string from this.map.If the specified value contains double quotes, equals, commas, or spaces, this method surrounds the value with double quotes and doubles up any enclosed double quotes.Produces this.map from this.string.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_NameValuePairsAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -33,7 +34,7 @@ Instances have the following properties initialized:
 
 Use with any server-side script where you need convert name/value pairs between maps and strings.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## NameValuePairs - NameValuePairs\(String stringForm\)
 

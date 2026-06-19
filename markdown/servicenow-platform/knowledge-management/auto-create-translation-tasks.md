@@ -2,6 +2,7 @@
 title: Auto-create translation tasks
 description: Auto-create translation tasks in specified languages to avoid having to manually create translation tasks after an article is published. The available languages are determined by the language plugins that have been installed on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/auto-create-translation-tasks.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -38,5 +39,5 @@ Role required: knowledge\_admin or admin
 
 Open a knowledge article and access the Knowledge Translation Tasks related list to view the associated translation tasks.
 
-**Parent Topic:**[Use translation management](../concept/use-translation-management.md)
+**Parent Topic:**[Use translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/use-translation-management.md)
 

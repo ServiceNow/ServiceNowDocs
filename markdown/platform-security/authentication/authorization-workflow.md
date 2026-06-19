@@ -2,11 +2,12 @@
 title: Authorization code grant workflow
 description: The OAuth authorization code grant is a secure and widely used flow for web, mobile, or desktop apps that access user data with user consent. It supports both private clients \(using a client secret\), and public clients \(using PKCE\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/authorization-workflow.html
 release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 5
 breadcrumb: [Authorization Code Grant, Inbound integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
@@ -23,7 +24,7 @@ Role required: `oauth_admin, mi_admin, admin`
 
 This topic collection provides information on how a client application can use the Authorization code grant flow to obtain a token from ServiceNow and make API calls with that token. Private clients use client secret, while public clients use PKCE code challenge.
 
-![Authorization Workflow](../../machine-identity/images/mic-authorization-flow.png "Authorization workflow")
+\[Omitted image "mic-authorization-flow.png"\] Alt text: Authorization Workflow
 
 ## Procedure
 

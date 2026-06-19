@@ -2,6 +2,7 @@
 title: Create a work group for external field agents
 description: Create groups to assign work to external field agents based on your requirements such as skills, location, and product models so you can route work order tasks to the most qualified field agents
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/create-work-group.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -23,7 +24,7 @@ Role required: wm\_admin, wm\_contractor\_manager\_int
 
 External work groups are managed by internal and external managers.
 
-You can also do the initial configuration of onboarding an external manager through **Field Service** &gt; **Administration** &gt; **Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+You can also do the initial configuration of onboarding an external manager through **Field Service** &gt; **Administration** &gt; **Guided Setup**. For more information about using the guided setup interface, see Using guided setup.
 
 ## Procedure
 

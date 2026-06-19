@@ -2,6 +2,7 @@
 title: Cloud Runner TestGenerationApi – Scoped, Global
 description: Manages test job generation to be executed in a cloud runner for Automated Test Framework \(ATF\). This API is part of the CloudRunnerApi script include.Sets the test generation job and its associated update set record to complete status. Cancels the root trackers of any generated tests that are running. If any test jobs are in progress on cancellation, this method sets any of the in-progress test records generated to skipped.Provides the status of each generated test for a provided Browser Orchestration Queue \(BOQ\) record.Inserts a record into the Browser Orchestration Queue \(BOQ\) \[sn\_atf\_tg\_sn\_boq\] table to start a test job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/cloudrnr-TestGenerationAPI-scoped.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -21,15 +22,15 @@ You can use this API for the following tasks:
 -   Check the progress of the test generation job.
 -   Cancel the test generation job.
 
-In global scope, this API is executed within the sn\_atf\_tg namespace. You must have the [ATF Test Generator and Cloud Runner](https://www.servicenow.com/docs/access?context=atf-tg-cr-intro&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) \(sn\_atf\_tg\) plugin activated to use this API.
+In global scope, this API is executed within the sn\_atf\_tg namespace. You must have the  \(sn\_atf\_tg\) plugin activated to use this API.
 
 See also:
 
--   [Cloud Runner TestRunnerApi – Scoped, Global](../../CloudRunnerAPI-TestRunnerAPIScoped/concept/cloudrnr-TestRunnerAPI-scoped.md#)
--   [Cloud Runner TestUserApi – Scoped, Global](../../CloudRunnerAPI-TestUserAPIScoped/concept/cloudrnr-TestUserAPI-scoped.md#)
--   [Cloud Runner Test Generation REST API](../../../../../integrate/inbound-rest/concept/cloudrunner-testgeneration-api.md#)
+-   [Cloud Runner TestRunnerApi – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/cloudrnr-TestRunnerAPI-scoped.md)
+-   [Cloud Runner TestUserApi – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/cloudrnr-TestUserAPI-scoped.md)
+-   [Cloud Runner Test Generation REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/cloudrunner-testgeneration-api.md)
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## TestGenerationApi – cancelJob\(String snboqId\)
 
@@ -289,7 +290,7 @@ String
 
 </td><td>
 
-Optional. Encoded query specifying the tables on which to generate tests. See [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).Default: All tables \(empty string\)
+Optional. Encoded query specifying the tables on which to generate tests. See .Default: All tables \(empty string\)
 
 </td></tr><tr><td>
 

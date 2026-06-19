@@ -2,6 +2,7 @@
 title: Configuring work order questionnaires
 description: As part of completing some work orders and tasks, Field Service agents fill out questionnaires or complete check lists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/configuring-questionnaire-or-smart-assessment-for-work-order.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -29,13 +30,13 @@ Questionnaire for a work order task can be either a survey-based questionnaire o
 
 A survey-based questionnaire uses the **Survey Designer** tool to create a questionnaire with a list of questions.
 
-For more information, see [Configuring survey-based work order questionnaires](work-order-questionnaire.md).
+For more information, see [Configuring survey-based work order questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/work-order-questionnaire.md).
 
 ## Smart Assessment questionnaire
 
 A Smart Assessment questionnaire for Now Mobile uses **Template designer** in the Smart Assessment Engine application.
 
-For more information, see [Configuring Smart Assessment questionnaires for Now Mobile Agent](configuring-smart-assessment-questionnaire.md).
+For more information, see [Configuring Smart Assessment questionnaires for Now Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/mobile-experience-for-field-service-management-glide-family/configuring-smart-assessment-questionnaire.md).
 
 **Note:**
 

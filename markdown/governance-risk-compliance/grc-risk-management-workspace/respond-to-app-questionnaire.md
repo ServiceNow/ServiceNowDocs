@@ -2,6 +2,7 @@
 title: Respond to an application questionnaire
 description: Respond to a questionnaire about an application for risk assessment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/respond-to-app-questionnaire.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -44,5 +45,5 @@ The state of the risk identification record moves from the Information Gathering
 
 The IT Risk Manager can review the responses and can either send the questionnaire back or accept the responses.
 
-**Parent Topic:**[Application risk assessment using Advanced Risk Assessment](../concept/risk-and-apm-better-together.md)
+**Parent Topic:**[Application risk assessment using Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/risk-and-apm-better-together.md)
 

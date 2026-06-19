@@ -2,6 +2,7 @@
 title: Install Contractor Service Center
 description: You can install the Health and safety Contractor safety center \[sn\_hs\_csc\] application if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contractor-service-center/hs-install-contractor-service-center.html
 release: zurich
 product: Contractor Service Center
 classification: contractor-service-center
@@ -31,7 +32,7 @@ The following items are installed with Contractor Service Center application:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Contractor Service Center](../reference/hs-components-installed-contractor-service-center.md).
+For more information, see [Components installed with Contractor Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contractor-service-center/hs-components-installed-contractor-service-center.md).
 
 ## Procedure
 
@@ -56,5 +57,5 @@ For more information, see [Components installed with Contractor Service Center](
 6.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Contractor Service Center](../concept/hs-configure-contractor-service-center.md)
+**Parent Topic:**[Configuring Contractor Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contractor-service-center/hs-configure-contractor-service-center.md)
 

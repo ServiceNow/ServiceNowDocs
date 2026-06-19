@@ -2,6 +2,7 @@
 title: NIST CSF supporting concepts
 description: Familiarize yourself with these concepts, developed from the NIST CSF guidance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/grc-nist-csf-key-concepts.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -130,5 +131,5 @@ Action plans
 Action plans for issues for the target's entity, which are identified in the cybersecurity activity.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[NIST CSF Use Case Accelerator](../concept/grc-csf-usecase-accelerator.md)
+</table>**Parent Topic:**[NIST CSF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-csf-usecase-accelerator.md)
 

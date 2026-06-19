@@ -2,6 +2,7 @@
 title: Configure an HR PDF document template
 description: Create or modify custom HR PDF document templates with your unique criteria. PDF document templates originate from Managed Documents and are either a fillable PDF with mapped fields or a standard PDF with an inline signature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/PDFTemplate.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,7 +26,7 @@ Role required: sn\_hr\_core.manager
 
 Starting with the Zurich release, HR Document Templates is deprecated and no longer supported or available for new activation.
 
-Use [Document Templates](../concept/document-templates-overview.md) that provides the latest experience for this functionality. For migration guidelines, see [Migrating from HR Document Templates to Document Templates](../concept/migration-hrdt-dt.md#).
+Use [Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/document-templates-overview.md) that provides the latest experience for this functionality. For migration guidelines, see [Migrating from HR Document Templates to Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/migration-hrdt-dt.md).
 
 For deprecation details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
@@ -39,7 +40,7 @@ Documents are uploaded and accessed from the Managed Documents application in th
 
 The base system provides the Non-Disclosure Agreement document template as an example of a PDF document template.
 
-**Note:** See . [Managed Document features](https://www.servicenow.com/docs/access?context=r_ManagedDocumentFeatures&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+**Note:** See . Managed Document features
 
 ## Procedure
 
@@ -51,7 +52,7 @@ The base system provides the Non-Disclosure Agreement document template as an ex
 
 3.  Select **PDF Document Template**.
 
-    **Note:** To know the differences between the types of document template, see [HR document templates](../concept/c_HRDocumentTemplates.md).
+    **Note:** To know the differences between the types of document template, see [HR document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRDocumentTemplates.md).
 
 4.  Fill in the fields on the form.
 
@@ -89,7 +90,7 @@ Select the document type the template applies to. Click **New** from **HR Docume
 
  A document type is required when you want a list of documents to appear in the HR case form. HR criteria works with this field to narrow the list of documents you want available for an HR case.
 
- See [Using document types with HR document templates](../concept/DocumentTypes.md).
+ See [Using document types with HR document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/DocumentTypes.md).
 
  **Note:** When creating a document type, the **Value** auto-populates from the name you enter \(all lower case and underscores\).
 
@@ -119,7 +120,7 @@ HR criteria
 
 Select the audience criteria for this document. For example, you can create a letter intended for only Canadian employees. The HR criteria narrows the number of users for the template.
 
-**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 </td></tr><tr><td>
 
@@ -140,9 +141,9 @@ Appears after saving or selecting an existing PDF template.Click to view a previ
 
 6.  Click **Parse PDF** if it appears under **Related Links** to view the fields that can be mapped.
 
-    The AcroForm PDF determines which fields can be mapped and the table selected determines what information you can have populated in those fields. ![Click the Parse PDF related link.](../image/hr-pdf-doc-template-parse-pdf.png)
+    The AcroForm PDF determines which fields can be mapped and the table selected determines what information you can have populated in those fields. \[Omitted image "hr-pdf-doc-template-parse-pdf.png"\] Alt text: Click the Parse PDF related link.
 
-    The **PDF Template Mappings** list appears. Click the fields of the PDF to map them to fields on the table selected. You can customize your document with pre-filled information from the table. See [Add or modify a PDF template mapping](PDFTemplateMapping.md). After creating or editing the field mappings, the PDF Preview button appears.
+    The **PDF Template Mappings** list appears. Click the fields of the PDF to map them to fields on the table selected. You can customize your document with pre-filled information from the table. See [Add or modify a PDF template mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/PDFTemplateMapping.md). After creating or editing the field mappings, the PDF Preview button appears.
 
 7.  Click **Update**.
 

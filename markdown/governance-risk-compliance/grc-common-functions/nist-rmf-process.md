@@ -2,6 +2,7 @@
 title: NIST RMF process overview
 description: The NIST RMF navigation structure facilitates the management of the NIST security controls through activities of categorization, selection, implementation, assessment, authorization, and monitoring. These security controls are described in the NIST 800-37.r1 special publication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/nist-rmf-process.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -15,7 +16,7 @@ breadcrumb: [\(Deprecated\) NIST RMF Use Case Accelerator, GRC use case accelera
 
 The NIST RMF navigation structure facilitates the management of the NIST security controls through activities of categorization, selection, implementation, assessment, authorization, and monitoring. These security controls are described in the NIST 800-37.r1 special publication.
 
-**Note:** Starting with version 10.1.0, the NIST RMF Use Case Accelerator will be supported only for customers who currently use the product. New and existing customers should consider using the GRC: Continuous Authorization Monitoring application. For details, [Continuous Authorization and Monitoring](../../grc-cam/reference/grc-cam-landing-page.md).
+**Note:** Starting with version 10.1.0, the NIST RMF Use Case Accelerator will be supported only for customers who currently use the product. New and existing customers should consider using the GRC: Continuous Authorization Monitoring application. For details, [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/grc-cam-landing-page.md).
 
 ## NIST RMF process overview
 
@@ -30,18 +31,18 @@ The NIST RMF navigation structure facilitates the management of the NIST securit
     1.  Review and manage indicators
     2.  Monitor the NIST RMF Overview dashboard
 
--   **[Categorize targets](rmf-categorize.md)**  
+-   **[Categorize targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/rmf-categorize.md)**  
 Within the NIST RMF application, the **Categorize** section facilitates the categorization of targets through a preliminary risk assessment and an impact analysis.
--   **[Select baseline control definitions](rmf-select.md)**  
+-   **[Select baseline control definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/rmf-select.md)**  
 Within the NIST RMF application, the **Select** section focuses on the review of the initial set of baseline control definitions. You can also tailor the control definitions, by tagging them based on organizational requirements.
--   **[Implement security controls](rmf-implement.md)**  
+-   **[Implement security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/rmf-implement.md)**  
 Within the NIST RMF application, the **Implement** section focuses on the physical implementation of the baseline security controls. The NIST RMF application may also include other standard security controls, already used by the targets or its environment of operation.
--   **[Assess controls, risks, issues, and remediation tasks](rmf-assess.md)**  
+-   **[Assess controls, risks, issues, and remediation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/rmf-assess.md)**  
 Within the NIST RMF application, the **Assess** section involves performing security control attestations, evaluating the control effectiveness, managing associated risks and issues, and performing remediation tasks.
--   **[Authorize targets](rmf-authorize.md)**  
+-   **[Authorize targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/rmf-authorize.md)**  
 Within the NIST RMF application, the **Authorize** section involves the authorization of targets based on their compliance and risk posture.
--   **[Monitor security controls](rmf-monitor.md)**  
+-   **[Monitor security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/rmf-monitor.md)**  
 Within the NIST RMF application, the **Monitor** section involves the on-going monitoring of the security controls for targets documenting changes to them or their environments of operation, conducting security impact analyses of the associated changes, and reporting their security state to designated officials.
 
-**Parent Topic:**[\(Deprecated\) NIST RMF Use Case Accelerator](grc-and-nistrmf-usecase-accelerator.md)
+**Parent Topic:**[\(Deprecated\) NIST RMF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-and-nistrmf-usecase-accelerator.md)
 

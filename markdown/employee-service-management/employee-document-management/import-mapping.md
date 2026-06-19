@@ -2,6 +2,7 @@
 title: Use import mapping to locate and transform source employee documents
 description: Import mapping locates your source employee documents from your source document repository and transforms them to import them to Employee Document Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-document-management/import-mapping.html
 release: zurich
 product: Employee Document Management
 classification: employee-document-management
@@ -60,9 +61,9 @@ For example, your employee documents have a consistent naming convention: Abel\_
 
 ## Scripting
 
-You can also use scripts to map source elements to the required map elements for Employee Document Management. See [Scripts](https://www.servicenow.com/docs/access?context=c_Script&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+You can also use scripts to map source elements to the required map elements for Employee Document Management. See Scripts.
 
 **Note:** The base system provides import map examples you can use as models.
 
-**Parent Topic:**[Bulk imports in Employee Document Management](edm-bulk-uploads.md)
+**Parent Topic:**[Bulk imports in Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-document-management/edm-bulk-uploads.md)
 

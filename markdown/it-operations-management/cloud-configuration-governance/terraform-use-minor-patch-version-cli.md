@@ -2,6 +2,7 @@
 title: Add support for minor or patch versions of the Terraform
 description: Add minor or patch versions of the Terraform \(Terraform Open Source, Terraform Enterprise, or Terraform Cloud\) to the workload provider type record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/terraform-use-minor-patch-version-cli.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

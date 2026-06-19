@@ -2,7 +2,10 @@
 title: Create a resource generator in Recommended Actions
 description: Create resource generators that you can use to provide resources for recommendations from Recommended Actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ra-csm-resource-generators-create.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -35,7 +38,7 @@ Role required: sn\_nb\_action.next\_best\_action\_author, sn\_nb\_action.resourc
 
     For example, if you choose flow as the generator type, you must also select the specific flow to use. Selecting the lookup icon opens a pop-up window that you can use to select the required flow.
 
-    For more information, see [Resource generator types](../concept/ra-csm-resource-generators.md#section_xh5_4tw_15b).
+    For more information, see [Resource generator types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ra-csm-resource-generators.md).
 
 6.  If applicable, in the **Generator** field, select a generator.
 
@@ -43,7 +46,7 @@ Role required: sn\_nb\_action.next\_best\_action\_author, sn\_nb\_action.resourc
 
 8.  On the Generator input form, fill in the fields.
 
-    For a description of the field values, see [Resource generator inputs form](../reference/ra-csm-resource-generator-form.md).
+    For a description of the field values, see [Resource generator inputs form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ra-csm-resource-generator-form.md).
 
     The fields that appear in this form section are determined by the selections in the **Generator type** and **Generator** fields.
 

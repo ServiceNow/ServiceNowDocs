@@ -2,6 +2,7 @@
 title: Set system properties for Microsoft Outlook integration
 description: Use system properties to enable integration between Career Conversations and Microsoft Outlook so you can simultaneously create and schedule conversations with the Career Conversations app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/career-conversations/egd-admin-sys-properties-outlook.html
 release: zurich
 product: Career Conversations
 classification: career-conversations
@@ -45,5 +46,5 @@ Role required: admin \[sn\_egd\_act.admin\]
     -   Set the `Calendars.Read.Shared`and `Calendars.ReadWrite` permissions for the calendars to work with this integration.
     -   Add the `sn_ex_online_spke.Microsoft Exchange Online User` to use this integration.
 
-**Parent Topic:**[Set up Microsoft Outlook integration in Career Conversations](../concept/outlook-integration-cc.md)
+**Parent Topic:**[Set up Microsoft Outlook integration in Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/career-conversations/outlook-integration-cc.md)
 

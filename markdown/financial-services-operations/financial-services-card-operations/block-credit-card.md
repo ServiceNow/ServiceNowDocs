@@ -2,6 +2,7 @@
 title: Block a credit card for a customer
 description: Block a credit card for a customer as per the credit card service request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-card-operations/block-credit-card.html
 release: zurich
 product: Financial Services Card Operations
 classification: financial-services-card-operations
@@ -19,7 +20,7 @@ Block a credit card for a customer as per the credit card service request.
 
 Role required: sn\_bom\_credit\_card.agent or sn\_bom\_credit\_card.agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -29,19 +30,19 @@ This credit card task is automatically created with a credit card service case f
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Open the task from a credit card service case or from the Credit Card Task list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d39471e117">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d41944e117">
 
 Option
 
-</th><th align="left" id="d39471e120">
+</th><th align="left" id="d41944e120">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d39471e126">
+</th></tr></thead><tbody><tr><td id="d41944e126">
 
 **From a credit card service case**
 
@@ -52,7 +53,7 @@ Steps
 3.  In the case, click the **Tasks** tab and select the credit card task.
 
 
-</td></tr><tr><td id="d39471e159">
+</td></tr><tr><td id="d41944e159">
 
 **From the Credit Card Task list**
 
@@ -84,5 +85,5 @@ Steps
 
 ## What to do next
 
-If the associated case is for temporarily blocking the credit card, work on the new credit service case to [unblock the card](unblock-credit-card.md) on the end date.
+If the associated case is for temporarily blocking the credit card, work on the new credit service case to [unblock the card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-card-operations/unblock-credit-card.md) on the end date.
 

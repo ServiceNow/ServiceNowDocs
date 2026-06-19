@@ -2,6 +2,7 @@
 title: Portfolio plans in Portfolio Planning
 description: Personalized portfolio plans help you align work with your company's objectives and roadmap the right work for the right time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/portfolio-plans-in-portfolio-planning-ppw.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -35,11 +36,11 @@ Using the Hierarchy view, review the work pipeline and drill down to the low-lev
 
 For example, as an EPMO, you can view the epics associated with each program.
 
-You can use Programs \(pm\_program\) from the Project Program lens to create high-level portfolio plans. See [Create a high-level portfolio plan](../task/create-high-level-portfolio-plan-ppw.md).
+You can use Programs \(pm\_program\) from the Project Program lens to create high-level portfolio plans. See [Create a high-level portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/create-high-level-portfolio-plan-ppw.md).
 
-Here's a sample portfolio plan that shows a few programs of the company and the low-level work \(projects and demands\) that are aligned with them.![High-level portfolio plan hierarchy view.](../images/high-level-planning-programs-view.png)
+Here's a sample portfolio plan that shows a few programs of the company and the low-level work \(projects and demands\) that are aligned with them.\[Omitted image "high-level-planning-programs-view.png"\] Alt text: High-level portfolio plan hierarchy view.
 
-Start creating portfolio plans to align work with your company's objectives. See [Managing portfolio plans in Portfolio Planning](managing-portfolio-plans-in-portfolio-planning.md).
+Start creating portfolio plans to align work with your company's objectives. See [Managing portfolio plans in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/managing-portfolio-plans-in-portfolio-planning.md).
 
-**Parent Topic:**[Exploring Portfolio Planning](exploring-portfolio-planning.md)
+**Parent Topic:**[Exploring Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/exploring-portfolio-planning.md)
 

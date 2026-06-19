@@ -2,6 +2,7 @@
 title: Manually normalize a software model in workspace
 description: You can manually normalize a software discovery model that has not been fully normalized \(partially normalized, publisher normalized, or match not found\) in order to reconcile it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/manual-normalize-swmodel-workspace.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -32,5 +33,5 @@ Role required: sam\_admin or sam\_user
     The normalization status changes to **Manually Normalized**.
 
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/using-sam-workspace.md)
 

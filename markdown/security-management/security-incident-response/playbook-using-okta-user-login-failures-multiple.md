@@ -2,6 +2,7 @@
 title: Use the Okta User Login Failures from Multiple IPs playbook
 description: Use this playbook to investigate security incidents for user login failures on Okta. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Okta User Login Failures from Multiple IPs playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/playbook-using-okta-user-login-failures-multiple.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -34,8 +35,6 @@ Role required:
 
     If the devices are authenticated by known user agents, then the flow ends.
 
-    ![Response tasks if there were no successful logins before or after the activity from the different IPs/ASNs.](../image/playbook-okta-login-failures-ips-overview.png "Okta User Login Failures from Multiple IPs playbook")
-
 4.  In Action 5, based on the investigation, reach out to the user through out-of-band communication \(For example, phone call or email\) to check if the activity is due to account lockout or a wrong password provided by the user.
 
 5.  In Action 6, check whether the user provided a valid business justification.
@@ -54,8 +53,6 @@ Role required:
 
     You can use the provided email template to inform the affected user.
 
-    ![Response tasks if there were successful logins before or after the activity from the different IPs/ASNs.](../image/playbook-okta-login-failures-ips-investigate.png "Using the Okta User Login Failures from Multiple IPs playbook")
-
 9.  In Action 13, work with the IT Support team to lock the account out and start investigating the scope of the compromise.
 
 10. In Action 14, reset the user password and send an email to the user with the default password.
@@ -69,5 +66,5 @@ Role required:
 14. In Action 18, complete the post-incident review before closing the task.
 
 
-**Parent Topic:**[Playbook for Okta User Login Failures from Multiple IPs](../concept/playbook-okta-user-login-failures-ips.md)
+**Parent Topic:**[Playbook for Okta User Login Failures from Multiple IPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/playbook-okta-user-login-failures-ips.md)
 

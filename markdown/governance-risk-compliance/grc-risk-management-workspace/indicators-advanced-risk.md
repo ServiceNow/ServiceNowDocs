@@ -2,6 +2,7 @@
 title: GRC Advanced Risk plugin indicators
 description: The GRC Advanced Risk plugin contains various indicators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/indicators-advanced-risk.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -190,5 +191,5 @@ The Advanced Risk plugin includes the following indicators:
     Key Controls with Failed indicators is measured quarterly
 
 
-**Parent Topic:**[Operational Risk Management dashboard](operational-risk-dashboard.md)
+**Parent Topic:**[Operational Risk Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/operational-risk-dashboard.md)
 

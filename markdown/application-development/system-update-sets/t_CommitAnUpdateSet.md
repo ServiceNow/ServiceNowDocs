@@ -2,6 +2,7 @@
 title: Commit an update set
 description: When you have previewed an update set and have resolved any issues, commit the update set. Committing an update set applies all changes to the instance and creates a local copy of the update set that contains an update record for every change.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/system-update-sets/t\_CommitAnUpdateSet.html
 release: zurich
 product: System Update Sets
 classification: system-update-sets

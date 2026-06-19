@@ -2,7 +2,10 @@
 title: Analytics Dashboards
 description: Analytics Dashboards provide a graphical way to view detailed information relating to findings, both pending and resolved, with the Scan Engine. The dashboards are role-based, allowing for persona-based views of information. They display  key metrics,  charts, and  trend analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/scan-engine-diagnostic-dashboards.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-08-28"
 reading_time_minutes: 3

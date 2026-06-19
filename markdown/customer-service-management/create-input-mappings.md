@@ -2,7 +2,10 @@
 title: Reuse answers at decision points
 description: Create input mapping to reuse answers from prior nodes. For example, in a decision tree that deals with loan application, you can reuse the input related to the customer’s salary at multiple decision points to determine the loan eligibility.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-input-mappings.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -19,11 +22,11 @@ Role required: admin, sn\_gd\_core.decision\_tree\_author
 
 ## About this task
 
-For more information about input mapping in a decision node or a guidance node, see [Linking inputs in decision tree nodes](../reference/guided-decision-tree-input-mapping.md).
+For more information about input mapping in a decision node or a guidance node, see [Linking inputs in decision tree nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/guided-decision-tree-input-mapping.md).
 
 Mapped inputs can be used to create path conditions.
 
-You can edit or extend existing decision trees in the Core UI but you can no longer create them. Use Decision Tree Builder to create new decision trees. For more information, see [Configuring decision trees in Decision Tree Builder](../concept/decision-trees-in-gdb.md).
+You can edit or extend existing decision trees in the Core UI but you can no longer create them. Use Decision Tree Builder to create new decision trees. For more information, see [Configuring decision trees in Decision Tree Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/decision-trees-in-gdb.md).
 
 ## Procedure
 

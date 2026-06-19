@@ -2,6 +2,7 @@
 title: Auto populate information from email to legal request or matter
 description: Map the sender's email address, email content, and subject field from an email to legal request fields to automatically fill in information from the email to the submitted legal request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/lsd-outlook-adddin-map-fields.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -43,19 +44,19 @@ The script include **OutlookMappingConfig** available in the base system support
 
     4.  Replace the object key with the copied sys\_id.
 
-        ![Defining the email mapping with the intake forms in the script include.](../image/defining-email-mapping-with-intake-forms.jpg)
+        \[Omitted image "defining-email-mapping-with-intake-forms.jpg"\] Alt text: Defining the email mapping with the intake forms in the script include.
 
 4.  In the copied mapping object, specify the key-value pairs using the variables from the intake form.
 
-<table id="choicetable_mdk_wvs_xcc"><thead><tr><th align="left" id="d220447e172">
+<table id="choicetable_mdk_wvs_xcc"><thead><tr><th align="left" id="d216470e172">
 
 Variables from email
 
-</th><th align="left" id="d220447e175">
+</th><th align="left" id="d216470e175">
 
 Variables from legal request
 
-</th></tr></thead><tbody><tr><td id="d220447e181">
+</th></tr></thead><tbody><tr><td id="d216470e181">
 
 **subject**
 
@@ -67,7 +68,7 @@ Example: If you want to copy the subject of email into the short description of 
 short_description: "subject"
 ```
 
-</td></tr><tr><td id="d220447e201">
+</td></tr><tr><td id="d216470e201">
 
 **fromEmail**
 
@@ -79,7 +80,7 @@ Example: If you want to copy the sender's email address into the requested for o
 requested_for: "fromEmail"
 ```
 
-</td></tr><tr><td id="d220447e221">
+</td></tr><tr><td id="d216470e221">
 
 **body**
 
@@ -95,5 +96,5 @@ description: "body"
 </table>5.  After defining the object, select **Update**.
 
 
-**Parent Topic:**[Configure Microsoft Outlook Add-In for Legal Service Delivery](../concept/lsd-outlook-addin-configure.md)
+**Parent Topic:**[Configure Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/lsd-outlook-addin-configure.md)
 

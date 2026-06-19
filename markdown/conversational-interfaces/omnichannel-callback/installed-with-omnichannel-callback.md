@@ -2,6 +2,7 @@
 title: Components installed with Omnichannel Callback
 description: Several types of components are installed with activation of the Omnichannel Callback plugin, including user roles, scheduled jobs, and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/omnichannel-callback/installed-with-omnichannel-callback.html
 release: zurich
 product: Omnichannel Callback
 classification: omnichannel-callback
@@ -115,7 +116,7 @@ Callback Writer
 With this role, users can view and update the Callback Task records.
 
 </td></tr></tbody>
-</table>To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) and contact your account representative.
+</table>To learn more about managing subscriptions, see  and contact your account representative.
 
-**Parent Topic:**[Omnichannel Callback reference](../concept/omnichannel-callback-reference.md)
+**Parent Topic:**[Omnichannel Callback reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/omnichannel-callback/omnichannel-callback-reference.md)
 

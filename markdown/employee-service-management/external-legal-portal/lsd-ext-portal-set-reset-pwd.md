@@ -2,6 +2,7 @@
 title: Configure the password reset process for External Legal Service Center
 description: The Password Reset application enables an end user to reset or change a password using a self-service process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/external-legal-portal/lsd-ext-portal-set-reset-pwd.html
 release: zurich
 product: External Legal Portal
 classification: external-legal-portal
@@ -15,5 +16,5 @@ breadcrumb: [Configuring up External Legal Service Center, External Legal Servic
 
 The Password Reset application enables an end user to reset or change a password using a self-service process.
 
-External users can reset their password on forgetting it. For more information on the password reset process configuration, see [Configuring Password Reset](https://www.servicenow.com/docs/access?context=password-reset-admin-guide&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+External users can reset their password on forgetting it. For more information on the password reset process configuration, see .
 

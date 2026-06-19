@@ -2,6 +2,7 @@
 title: Create Kafka SSL credentials
 description: Configure SSL credentials for your Apache Kafka connection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/create-kafka-ssl-credentials.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
@@ -26,7 +27,7 @@ Configure connection and credential records for connecting to your local Apache 
 -   The connection record contains the information required for making the connection to your local Kafka. Connection records are stored in the Kafka Connections \[kafka\_connection\] table.
 -   The credential record stores the authentication data required for the connection. Credential records are stored in the Kafka SSL credentials \[kafka\_ssl\_credentials\] table.
 
-After you've created both the connection record and the credential record, you can [Create a Connection &amp; Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=zurich&pubname=zurich-platform-security&ft:locale=en-US), which links your connection information and the credential data under a single name.
+After you've created both the connection record and the credential record, you can , which links your connection information and the credential data under a single name.
 
 ## Procedure
 
@@ -38,14 +39,14 @@ After you've created both the connection record and the credential record, you c
 
 4.  On the Kafka SSL credentials form, fill in the fields.
 
-    For a description of the fields, see [Kafka SSL credentials fields](https://www.servicenow.com/docs/access?context=hla-data-input-kafka-credentials&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+    For a description of the fields, see .
 
 5.  Select **Submit**.
 
 
 ## What to do next
 
-[Configure a Kafka connection](configure-kafka-connection.md).
+[Configure a Kafka connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/configure-kafka-connection.md).
 
-**Parent Topic:**[Stream Connect Message Replication](../concept/stream-connect-message-replication.md)
+**Parent Topic:**[Stream Connect Message Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/stream-connect-message-replication.md)
 

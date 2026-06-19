@@ -2,6 +2,7 @@
 title: Set up a sales team for forecast hierarchy
 description: The system administrator can create groups, sales teams, associating them with specific managers. The sales hierarchy determines how the forecast rolls up in your company and how it can be viewed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/setup-sales-group.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -29,7 +30,7 @@ Once the users, teams, and opportunity data are added, along with selection of c
 
 2.  Select **New**.
 
-    ![New sales team](../image/New-group-salesforecasting.png)
+    \[Omitted image "New-group-salesforecasting.png"\] Alt text: New sales team
 
 3.  On the form, fill in the fields.
 

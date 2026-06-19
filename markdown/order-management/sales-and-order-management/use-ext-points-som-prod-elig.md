@@ -1,7 +1,8 @@
 ---
 title: Use extension points in product eligibility
-description: Use extension points to call custom scripts from external sources that control product eligibility logic used in the Sales Customer Relationship Management \(SOM\) applications.
+description: Use extension points to call custom scripts from external sources that control product eligibility logic used in the Sales Customer Relationship Management \(Sales CRM\) applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/use-ext-points-som-prod-elig.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -13,7 +14,7 @@ breadcrumb: [Product offer eligibility, Product offerings and catalogs, Lead-to-
 
 # Use extension points in product eligibility
 
-Use extension points to call custom scripts from external sources that control product eligibility logic used in the Sales Customer Relationship Management \(SOM\) applications.
+Use extension points to call custom scripts from external sources that control product eligibility logic used in the Sales Customer Relationship Management \(Sales CRM\) applications.
 
 To access the available extension points, navigate to **All** &gt; **Scripted Extension Points** and in the Extension Points list, select the desired extension point to view it.
 

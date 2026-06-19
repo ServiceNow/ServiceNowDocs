@@ -2,11 +2,12 @@
 title: Update validation settings in a matrix
 description: Change the rule validation checks for a matrix. These checks run automatically when you save changes made to the matrix decision table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/update-validation-matrix.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure matrix validation rules, Pricing Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -17,11 +18,11 @@ Change the rule validation checks for a matrix. These checks run automatically w
 
 ## Before you begin
 
-Role required: sn\_prd\_pm\_product\_catalog\_admin and sn\_prd\_pm\_product\_catalog\_manager
+Role required: sn\_prd\_pm.product\_catalog\_admin or sn\_prd\_pm.product\_catalog\_manager
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![image.Lists] view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Context Rule Management** &gt; **Rule Matrices**.
 

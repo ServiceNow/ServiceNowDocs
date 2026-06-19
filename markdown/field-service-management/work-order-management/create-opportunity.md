@@ -2,6 +2,7 @@
 title: Create a sales opportunity
 description: Create sales opportunities for services, products, or assets identified during field service visits using the ServiceNow Agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/create-opportunity.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -31,15 +32,15 @@ Role required: wm\_technician\_sales\_write
 
 2.  Create a sales opportunity.
 
-<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d79662e108">
+<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d78320e108">
 
 From
 
-</th><th align="left" id="d79662e111">
+</th><th align="left" id="d78320e111">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d79662e117">
+</th></tr></thead><tbody><tr><td id="d78320e117">
 
 **My Work**
 
@@ -47,11 +48,11 @@ Do this
 
 1.  Tap **My Work**.
 2.  In the **My Tasks** section, select the relevant work order task.
-3.  Tap Overflow action ![overflow action icon](../image/more_actions1.png) icon.
+3.  Tap Overflow action \[Omitted image "more\_actions1.png"\] Alt text: overflow action icon icon.
 4.  Tap **Create opportunity**.
 
 
-</td></tr><tr><td id="d79662e156">
+</td></tr><tr><td id="d78320e156">
 
 **My Work**
 
@@ -62,7 +63,7 @@ Do this
 3.  In the **Related** tab, tap **Create opportunity**.
 
 
-</td></tr><tr><td id="d79662e189">
+</td></tr><tr><td id="d78320e189">
 
 **Sales**
 

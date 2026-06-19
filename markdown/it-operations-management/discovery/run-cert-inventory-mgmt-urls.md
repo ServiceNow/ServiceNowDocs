@@ -2,6 +2,7 @@
 title: Run Certificate Discovery via individual URL scans
 description: To initiate certificate discovery through URL scans, you must manually include individual URLs and configure a new certificate Discovery schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/run-cert-inventory-mgmt-urls.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -35,7 +36,7 @@ Only the certificates that are available on the server during URL scans can be d
 
 3.  Create a Discovery schedule with the following fields.
 
-    For more information on setting up your Discovery schedules, see [Schedule a horizontal discovery](t_CreateADiscoverySchedule.md#).
+    For more information on setting up your Discovery schedules, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
     1.  Select **Discovery**: **Certificates**.
 

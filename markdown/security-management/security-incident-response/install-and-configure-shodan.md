@@ -1,17 +1,18 @@
 ---
-title: Install and configure
+title: Install and configure Shodan
 description: Before you run the integration on your instance, complete the installation and configuration steps so the Shodan application properly integrates with ServiceNow AI Platform Security Operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/install-and-configure-shodan.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Shodan integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Install and configure
+# Install and configure Shodan
 
 Before you run the integration on your instance, complete the installation and configuration steps so the Shodan application properly integrates with ServiceNow AI Platform Security Operations.
 
@@ -59,24 +60,22 @@ For the Madrid release and later family releases, the Security Incident Response
 3.  Security Support Common
 4.  Security Support Orchestration
 
- For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product or application](../../security-incident-response/task/entitle-secops-product.md) and [Activate a ServiceNow Store application](../../security-incident-response/task/activate-entitled-store-app.md).
+ For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/activate-entitled-store-app.md).
 
 </td></tr></tbody>
 </table>Role required: admin
 
 ## Procedure
 
-1.  If you have not installed the application for the integration, see [Install a Security Operations integration](../../security-incident-response/task/install-non-core-apps.md) and follow the steps to install it.
+1.  If you have not installed the application for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/install-non-core-apps.md) and follow the steps to install it.
 
 2.  After the installation completes, navigate to **Integrations** &gt; **Integrations Configurations** and locate the Shodan tile.
 
-    ![The tile with a description of the app and the button used to initiate the configuration.](../image/shodan-configure.png)
+3.  Select **Configure**.
 
-3.  Click **Configure**.
+4.  In the **Shodan Configuration** dialog box, enter the API key you obtained from the Shodan website and select **Submit**.
 
-4.  In the **Shodan Configuration** dialog box, enter the API key you obtained from the Shodan website and click **Submit**.
-
-    ![This field is populated with encrypted account information.](../image/shodan-api.png)
+    \[Omitted image "shodan-api.png"\] Alt text: This field is populated with encrypted account information.
 
 5.  Verify successful configuration.
 
@@ -85,9 +84,9 @@ For the Madrid release and later family releases, the Security Incident Response
     If an error message is displayed during the configuration, the Shodan API key may be invalid.
 
 
-**Parent Topic:**[Shodan integration](../concept/shodan-lookups.md)
+**Parent Topic:**[Shodan integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/shodan-lookups.md)
 
-**Previous topic:**[Shodan integration](../concept/shodan-lookups.md)
+**Previous topic:**[Shodan integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/shodan-lookups.md)
 
-**Next topic:**[Verify expected results](shodan-verify-expected-results.md)
+**Next topic:**[Verify expected results for Shodan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/shodan-verify-expected-results.md)
 

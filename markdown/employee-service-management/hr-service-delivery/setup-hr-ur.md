@@ -2,6 +2,7 @@
 title: Custom configurations in Universal Request
 description: Transferring and state mappings are preconfigured for all the base system HR states. Do these configurations only when you have a custom state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/setup-hr-ur.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -21,7 +22,7 @@ Role required: sn\_hr\_core.admin
 
 ## About this task
 
-If you have created COEs \(Center of Excellence\), then create service configurations, state mappings, and transfer configurations as well. In case you have activated the Predictive Intelligence plugin, configure the service assignment groups by referring to [Train the classification solution to predict the assignment group](../../universal-request/task/train-ur-classification-soln.md).
+If you have created COEs \(Center of Excellence\), then create service configurations, state mappings, and transfer configurations as well. In case you have activated the Predictive Intelligence plugin, configure the service assignment groups by referring to [Train the classification solution to predict the assignment group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/train-ur-classification-soln.md).
 
 ## Procedure
 
@@ -37,7 +38,7 @@ If you have created COEs \(Center of Excellence\), then create service configura
 
     The following image is an example of a default state mapping. The **Suspended**, **Work in Progress**, and **Awaiting Approval** states of an HR case are mapped to **In Progress** state of a Universal Request.
 
-    ![State mapping](../image/ur-hr-mapping.png)
+    \[Omitted image "ur-hr-mapping.png"\] Alt text: State mapping
 
 6.  Set the transfer configuration for any custom state of an HR case.
 
@@ -51,8 +52,8 @@ If you have created COEs \(Center of Excellence\), then create service configura
 
     Following is an example of a record producer for General Inquiry HR service. When a user selects the catalog item as General Inquiry and creates a ticket, automatically a universal request is created and associated to that HR case.
 
-    ![Create record producers specific to HR.](../image/setup-hr-ur7.png)
+    \[Omitted image "setup-hr-ur7.png"\] Alt text: Create record producers specific to HR.
 
 
-**Parent Topic:**[Universal Request for HR Service Delivery](../concept/universal-request-hr.md)
+**Parent Topic:**[Universal Request for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/universal-request-hr.md)
 

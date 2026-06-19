@@ -2,6 +2,7 @@
 title: Now Assist Skill Kit
 description: Use ServiceNow Now Assist Skill Kit to create and publish custom prompts and skills for Now Assist. Creating custom skills and prompts enables you to have greater flexibility with Now Assist's generative AI capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.html
 release: zurich
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -21,15 +22,15 @@ Now Assist Skill Kit video that shows how to build a custom skill.
 
 <table id="table_k4y_wm5_sbc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about Now Assist Skill Kit and creating effective prompts.](exploring-now-assist-skill-kit.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist Skill Kit and creating effective prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/exploring-now-assist-skill-kit.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure Now Assist Skill Kit prompt and deployment settings.](configuring-now-assist-skill-kit.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Now Assist Skill Kit prompt and deployment settings.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.md)
 
 </td></tr><tr><td colspan="2">
 
-[Use![](../../../reuse/icons/brand-icons/bus-artificial-intelligence.svg)Use Now Assist Skill Kit to create custom skills.](using-now-assist-skill-kit.md)
+[Use\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use Now Assist Skill Kit to create custom skills.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -55,5 +56,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](../../now-assist-admin/task/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/opt-out-of-data-sharing-for-now-assist.md).
 

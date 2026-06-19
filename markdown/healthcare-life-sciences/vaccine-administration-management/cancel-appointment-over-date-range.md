@@ -2,6 +2,7 @@
 title: Cancel appointments in a given date range
 description: Cancel multiple appointment bookings at a location in a given date range.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/vaccine-administration-management/cancel-appointment-over-date-range.html
 release: zurich
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -32,5 +33,5 @@ Role required: sn\_vaccine\_sm​.admin or sn\_vaccine\_sm​.manager
     If the end date is empty, all appointments after the start date get canceled.
 
 
-**Parent Topic:**[Configuring Vaccine Administration Management](../concept/vaccine-mgmt-config.md)
+**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 

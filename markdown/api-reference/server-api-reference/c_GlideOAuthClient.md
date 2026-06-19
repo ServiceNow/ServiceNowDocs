@@ -2,6 +2,7 @@
 title: GlideOAuthClient - Scoped, Global
 description: The GlideOAuthClient API provides methods for requesting and revoking OAuth refresh and access tokens.Retrieves the access and refresh tokens for the client.Retrieves the token for the client, with the request parameters encoded in JSON format.Retrieves the token for the client, with the client name and the request set into a GlideOAuthClientResponse object.Revokes the access or refresh token for the client, with the request and optional header parameters set into a GlideOAuthClientRequest object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_GlideOAuthClient.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The GlideOAuthClient API provides methods for requesting and revoking OAuth refr
 
 You can use this API in global and scoped scripts. In scoped scripts use the `sn_auth` namespace identifier.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideOAuthClient - getToken\(String requestID, String oauthProfileID\)
 

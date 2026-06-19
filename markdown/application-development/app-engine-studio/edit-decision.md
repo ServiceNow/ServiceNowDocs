@@ -2,6 +2,7 @@
 title: Edit a decision
 description: To update or change an existing decision for an app built in App Engine Studio \(AES\), edit it in Workflow Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/edit-decision.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -17,9 +18,9 @@ To update or change an existing decision for an app built in App Engine Studio \
 
 ## Before you begin
 
-Add logic and automation to your application. If you created an application using a template, logic and automation may already be added to your application. For more information on adding custom logic and automation, see [Add logic and automation](../concept/add-automation.md).
+Add logic and automation to your application. If you created an application using a template, logic and automation may already be added to your application. For more information on adding custom logic and automation, see [Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-automation.md).
 
-Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](../concept/aes-app-dev-workflow.md).
+Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Procedure
 
@@ -27,16 +28,16 @@ Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more infor
 
 2.  From the My Apps page, open your application.
 
-3.  Next to a decision, select the menu icon \(![Menu icon](../image/menu-icon-purple.png)\) and then select **Edit**.
+3.  Next to a decision, select the menu icon \(\[Omitted image "menu-icon-purple.png"\] Alt text: Menu icon\) and then select **Edit**.
 
-    ![Decision table with menu actions 'Edit' and 'Delete' displayed.](../image/modify-decision.png)
+    \[Omitted image "modify-decision.png"\] Alt text: Decision table with menu actions 'Edit' and 'Delete' displayed.
 
 4.  Take the appropriate actions to edit the decision.
 
-    For more information on editing decision tables, see [Modify decision table structure in Workflow Studio](https://www.servicenow.com/docs/access?context=format-decision-table-in-decision-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+    For more information on editing decision tables, see .
 
 5.  To save your changes, select **Save**.
 
 
-**Parent Topic:**[Add a decision](add-decision.md)
+**Parent Topic:**[Add a decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-decision.md)
 

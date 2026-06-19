@@ -2,6 +2,7 @@
 title: Role Applicants for Opportunity Marketplace
 description: Admins can view and update some of the opportunity applicant information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/opportunity-marketplace/opm-oppty-role-applicants.html
 release: zurich
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -22,5 +23,5 @@ Admins can view and update some of the opportunity applicant information.
 |**State**|The **State** value helps to track where in the process that the applicant is for the listed opportunity.|
 |**Submission message**|A message provided by the applicant for the opportunity.|
 
-**Parent Topic:**[Reference Opportunity Marketplace roles and tables](../concept/egd-oppt-mrktplc-references.md)
+**Parent Topic:**[Reference Opportunity Marketplace roles and tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-references.md)
 

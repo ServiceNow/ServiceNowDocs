@@ -2,6 +2,7 @@
 title: Migrate NLU topics to LLM topics
 description: Migrate one or more of your existing Natural Language Understanding \(NLU\) or keyword topics into new large language model \(LLM\) topics while maintaining your original NLU/keyword topics. After migration is complete, choose whether to publish your new LLM topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/migrate-nlu-llm.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -25,15 +26,15 @@ Role required: virtual\_agent\_admin or sn\_vad\_genai.topic\_migration\_admin
 
 2.  Select **Migrate Topics to LLM**.
 
-    ![Migrate Topics to LLM is an option in the Assistant Designer Asset library side panel.](../images/llm-topic-migration-vad-2.png)
+    \[Omitted image "llm-topic-migration-vad-2.png"\] Alt text: Migrate Topics to LLM is an option in the Assistant Designer Asset library side panel.
 
-    **Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](../reference/vad-prev-topics-page.md).
+    **Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
     The Topic Migration workflow opens in a new browser tab.
 
 3.  Review and determine which NLU and keyword topics you want to migrate into LLM topics on the Select topics step.
 
-    ![Select topics step of the topic migration workflow enables you to select topics that you want to migrate from NLU and keyword topics to become new LLM topics.](../images/llm-topic-migration-select-topics-2.png "Select topics step")
+    \[Omitted image "llm-topic-migration-select-topics-2.png"\] Alt text: Select topics step of the topic migration workflow enables you to select topics that you want to migrate from NLU and keyword topics to become new LLM topics.
 
     **Tip:** Select the link in the Name column to review the topic in the Virtual Agent Designer canvas in a new browser tab. Migrate fewer than 50 topics at one time to give yourself enough time to review the topics.
 
@@ -47,7 +48,7 @@ Role required: virtual\_agent\_admin or sn\_vad\_genai.topic\_migration\_admin
 
     **Note:** The Proactive Triggers tab is only applicable if you've installed the Proactive Triggers \[sn\_pt\] app version 3.0.1 or later and have turned on this feature. If you'd prefer to manually migrate your actions for Virtual Agent notifications and Proactive Triggers rather than them automatically migrating after the Publish step, set the **com.glide.cs.notification.create\_llm\_actions\_after\_topic\_migration** and **com.glide.cs.proactive\_trigger.create\_llm\_actions\_after\_topic\_migration** system properties to `false` in **All** &gt; **System Properties** &gt; **All Properties**.
 
-    ![Review topic blocks or notifications to see where they are used prior to continuing on in the topic migration workflow.](../images/llm-topic-migration-review-topic-blocks-2.png "Example of the Review connections step with the Topic blocks and Notifications tabs")
+    \[Omitted image "llm-topic-migration-review-topic-blocks-2.png"\] Alt text: Review topic blocks or notifications to see where they are used prior to continuing on in the topic migration workflow.
 
     **Note:** If no topic blocks, notifications, or Proactive Triggers were selected or connected to the selected topics, their respective tabs don’t appear.
 
@@ -86,17 +87,17 @@ Keep current topic descriptions?
 Current topic descriptions are used as the LLM topic descriptions rather than using generative AI to create topic descriptions for migrated LLM topics. This field is turned off by default. If this field is turned on, and there was no topic description in the original NLU topic, a topic description must be manually added to the new LLM topic before publication.
 
 </td></tr></tbody>
-</table>    ![Settings includes three main fields that you need to review including the Select assistants for migrated topics, Choose how migrated topics are named, and Keep current topic descriptions fields.](../images/llm-topic-migration-settings-2.png "Settings step")
+</table>    \[Omitted image "llm-topic-migration-settings-2.png"\] Alt text: Settings includes three main fields that you need to review including the Select assistants for migrated topics, Choose how migrated topics are named, and Keep current topic descriptions fields.
 
 7.  Review the topics for migration on the Migrate topics step, and then select **Next** to begin migration.
 
     **Note:** Leave the browser window open until the migration process is complete.
 
-    ![When migrating topics is in progress, a progression bar appears and the screen dynamically updates with which topics are completing or failing migration.](../images/llm-topic-migration-migrate-topics-process-bar-2.png "Example of an in-progress topic migration")
+    \[Omitted image "llm-topic-migration-migrate-topics-process-bar-2.png"\] Alt text: When migrating topics is in progress, a progression bar appears and the screen dynamically updates with which topics are completing or failing migration.
 
-    ![When topic migration is complete, the Review migration log option appears and you can select this option to view additional data on the success or failure of your topic migration.](../images/llm-topic-migration-migration-complete-2.png "Example of a completed topic migration")
+    \[Omitted image "llm-topic-migration-migration-complete-2.png"\] Alt text: When topic migration is complete, the Review migration log option appears and you can select this option to view additional data on the success or failure of your topic migration.
 
-    The migration complete progression bar appears and displays a dynamic percentage of completeness. During migration, the Migration status column updates dynamically with the values changing from `Not started` to either `Failed` or `Complete`. After migration is complete, any topic blocks selected, or those associated with the selected topics, are automatically published. You can choose to select **Review migration log** or **Next**. Selecting **Review migration log** downloads a .CSV file of the Topic Migration Execution Items \[topic\_migration\_execution\_item.list\] table data. For more information on this table data, see [NLU to LLM migration log](../reference/llm-topic-migration-error-log.md). Selecting **Next** continues the workflow to the Review descriptions step.
+    The migration complete progression bar appears and displays a dynamic percentage of completeness. During migration, the Migration status column updates dynamically with the values changing from `Not started` to either `Failed` or `Complete`. After migration is complete, any topic blocks selected, or those associated with the selected topics, are automatically published. You can choose to select **Review migration log** or **Next**. Selecting **Review migration log** downloads a .CSV file of the Topic Migration Execution Items \[topic\_migration\_execution\_item.list\] table data. For more information on this table data, see [NLU to LLM migration log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/llm-topic-migration-error-log.md). Selecting **Next** continues the workflow to the Review descriptions step.
 
 8.  Continue to the Review descriptions step by selecting **Next**.
 
@@ -104,17 +105,17 @@ Current topic descriptions are used as the LLM topic descriptions rather than us
 
 9.  Choose one of the following scenarios.
 
-    **Note:** The display name, not the internal name, of the new LLM topics appears. The display name of the new LLM topics matches the existing NLU topic's display name. If you select the LLM topic link, you are redirected to that topic in Virtual Agent Designer through a new browser tab or window. For additional information about strong LLM topic descriptions, see [LLM description and instruction guidelines for Virtual Agent topics](../concept/va-llm-instruction-guidelines.md).
+    **Note:** The display name, not the internal name, of the new LLM topics appears. The display name of the new LLM topics matches the existing NLU topic's display name. If you select the LLM topic link, you are redirected to that topic in Virtual Agent Designer through a new browser tab or window. For additional information about strong LLM topic descriptions, see .
 
-<table id="choicetable_vjq_sfm_wbc"><thead><tr><th align="left" id="d123374e500">
+<table id="choicetable_vjq_sfm_wbc"><thead><tr><th align="left" id="d55146e496">
 
 Option
 
-</th><th align="left" id="d123374e503">
+</th><th align="left" id="d55146e499">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d123374e509">
+</th></tr></thead><tbody><tr><td id="d55146e505">
 
 **Edit topic description**
 
@@ -129,7 +130,7 @@ All topic descriptions, either migrated from the existing NLU topic description 
 4.  Repeat this process until all topic descriptions are reviewed and edited.
 
 
-</td></tr><tr><td id="d123374e541">
+</td></tr><tr><td id="d55146e537">
 
 **Edit topic description and test utterances**
 
@@ -150,15 +151,15 @@ The original NLU topic's utterances are compared against the new LLM topic descr
 
 
 </td></tr></tbody>
-</table>    ![No NLU utterances to test and only the edit description feature.](../images/llm-topic-migration-review-desc-no-utterance-2.png "Example of reviewing a topic description without NLU utterances")
+</table>    \[Omitted image "llm-topic-migration-review-desc-no-utterance-2.png"\] Alt text: No NLU utterances to test and only the edit description feature.
 
-    ![NLU utterances that match and do not match.](../images/llm-topic-migration-review-desc-utterances-2.png "Example of reviewing a topic description with NLU utterances")
+    \[Omitted image "llm-topic-migration-review-desc-utterances-2.png"\] Alt text: NLU utterances that match and do not match.
 
 10. Continue to the Publish step by selecting **Next**.
 
 11. Select each LLM Topic check box that you want to publish, and then select **Publish topics**.
 
-    ![Publish topics option that becomes available after you select LLM topics for publication.](../images/llm-topic-migration-publish-topics-2.png)
+    \[Omitted image "llm-topic-migration-publish-topics-2.png"\] Alt text: Publish topics option that becomes available after you select LLM topics for publication.
 
     **Tip:** If you select the LLM topic link, you’re redirected to that topic in Virtual Agent Designer through a new browser tab or window. Any edits that you make in Virtual Agent Designer are reflected in the topic migration's Publish step. You must publish LLM topics through this step for any connected notifications or Proactive Triggers to work.
 
@@ -173,5 +174,5 @@ The original NLU topic's utterances are compared against the new LLM topic descr
 
 After you navigate away from the topic migration workflow, the topics that you migrated, but didn’t publish, can be managed and published from the Virtual Agent Designer canvas. If you choose to migrate other topics in the future, the topic migration workflow restarts from the beginning.
 
-**Parent Topic:**[Migrating NLU/keyword Virtual Agent topics to LLM topics](../concept/llm-topic-migration.md)
+**Parent Topic:**[Migrating NLU/keyword Virtual Agent topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/llm-topic-migration.md)
 

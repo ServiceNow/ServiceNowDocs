@@ -2,6 +2,7 @@
 title: Risk assessments in Privacy Management
 description: You can perform risk assessments on your processing activities to determine their risk scores and find out the privacy risk posture of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/risk-assessments-in-privacy-management.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -32,24 +33,24 @@ Criticality assessments can be performed using one of the following two methods.
     Using the automated method, the privacy manager uses the **Automated criticality factors** risk assessment methodology \(RAM\) that is provided by default to calculate the criticality score of a processing activity. The privacy managers must publish this RAM before it can be used. By default, the RAM is provided in the **Draft** state. When a user performs a screening assessment, they are prompted to respond to several questions, including those related to criticality and risk assessment. If the user provides answers to these criticality-related questions during the screening assessment, the system automatically calculates the criticality risk score. The calculated score is then displayed on the Overview page when the user proceeds to the processing activity. Because only two RAMs are supported at a time, they must deactivate any other existing criticality factors RAM. It is crucial to note that when an existing criticality factors RAM is deactivated, all the in-progress risk assessments associated with that RAM get canceled.
 
 
-![Manually initiate criticality assessment.](../image/criticality-asmt.png)
+\[Omitted image "criticality-asmt.png"\] Alt text: Manually initiate criticality assessment.
 
 ## Privacy risk assessments
 
-Privacy risk assessments are detailed assessments that are conducted if the criticality score is high. Assess each risk that is associated with the processing activity and know the aggregated risk score on the processing activity. After you assess the privacy risks, you can view the privacy risk posture on the risk heatmap in the overview section. The heatmaps provide detailed information about your inherent and residual risks. See the following image to understand how you can initiate the detailed risk assessment.![Perform advanced risk assessments.](../image/perform-ara-pa.png)
+Privacy risk assessments are detailed assessments that are conducted if the criticality score is high. Assess each risk that is associated with the processing activity and know the aggregated risk score on the processing activity. After you assess the privacy risks, you can view the privacy risk posture on the risk heatmap in the overview section. The heatmaps provide detailed information about your inherent and residual risks. See the following image to understand how you can initiate the detailed risk assessment.\[Omitted image "perform-ara-pa.png"\] Alt text: Perform advanced risk assessments.
 
 ## Risk heatmap scores
 
 The risk assessments results and the risk heatmaps appear on the processing activity home page as shown in the following image.
 
-![Risk criticality score and risk heatmap view.](../image/risk-score-and-risk-heatmap.png "Risk scores on a processing activity")
+\[Omitted image "risk-score-and-risk-heatmap.png"\] Alt text: Risk criticality score and risk heatmap view.
 
-To understand the details about how to perform the risk assessments, see [Privacy assessment configurations](privacy-assessment-configurations.md).
+To understand the details about how to perform the risk assessments, see [Privacy assessment configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/privacy-assessment-configurations.md).
 
--   **[Risk Assessment Methodology \(RAM\)](risk-assessment-methodology-prm.md)**  
+-   **[Risk Assessment Methodology \(RAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/risk-assessment-methodology-prm.md)**  
 Risk Assessment Methodology \(RAM\) provides a systematic and repeatable approach to identifying, evaluating, and mitigating privacy risks associated with data processing activities.
--   **[Privacy assessment configurations](privacy-assessment-configurations.md)**  
+-   **[Privacy assessment configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/privacy-assessment-configurations.md)**  
 To perform a processing activity criticality and privacy risk assessment, two risk assessment methodologies \(RAMs\) are provided by default.
 
-**Parent Topic:**[Exploring Privacy Management](explore-privacy-management.md)
+**Parent Topic:**[Exploring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/explore-privacy-management.md)
 

@@ -2,6 +2,7 @@
 title: Deployment Request form
 description: Create a deployment request for the update sets to be deployed to target instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/releaseops/deployment-request-form-fields.html
 release: zurich
 product: ReleaseOps
 classification: releaseops
@@ -37,7 +38,7 @@ State
 
 </td><td>
 
-The state of the deployment request, which is changed throughout the release process. See [Deployment request states](deployment-request-states.md).
+The state of the deployment request, which is changed throughout the release process. See [Deployment request states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/deployment-request-states.md).
 
 </td></tr><tr><td>
 
@@ -88,5 +89,5 @@ Deferred
 Checked if the deployment request was deferred due to not being in the Ready for Deployment state by its associated release's freeze date.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ReleaseOps reference](releaseops-reference.md)
+</table>**Parent Topic:**[ReleaseOps reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/releaseops-reference.md)
 

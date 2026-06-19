@@ -2,6 +2,7 @@
 title: Create a publish plan for your content
 description: After you create content in the Content Library, add one or more publish plans to control where the content is delivered, the audience, and the period of time it is available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ec-content-library-publish2.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,9 +20,9 @@ After you create content in the Content Library, add one or more publish plans t
 
 Role required: sn\_cd.content\_manager
 
-**Note:** When the Enable Content Management Ownership sys properties are activated, you can only schedule and publish content assigned to you. For more information, see [Content Ownership](../concept/ecpro-content-restriction.md)
+**Note:** When the Enable Content Management Ownership sys properties are activated, you can only schedule and publish content assigned to you. For more information, see [Content Ownership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-content-restriction.md)
 
-To publish Rich content to the UIB Workspace, you must create a [schedule content record](ecpro-schedule-content.md), as publish plans do not support publishing to the UIB Workspace.
+To publish Rich content to the UIB Workspace, you must create a [schedule content record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-schedule-content.md), as publish plans do not support publishing to the UIB Workspace.
 
 ## Procedure
 
@@ -84,7 +85,7 @@ Section
 
 </td><td>
 
-This option appears if you select **Mobile**.The section in the mobile app where you want the news content to appear. This is a read-only field. An Admin can update this field from the **Content Publishing** &gt; **Advanced** &gt; **Properties**. For more information, see [Properties installed with Content Publishing](../reference/properties-with-content-delivery.md).
+This option appears if you select **Mobile**.The section in the mobile app where you want the news content to appear. This is a read-only field. An Admin can update this field from the **Content Publishing** &gt; **Advanced** &gt; **Properties**. For more information, see [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md).
 
 </td></tr><tr><td>
 
@@ -96,13 +97,13 @@ This option appears when you select **Service portal** or **Workspace**.The page
 
 A page is a pre-existing record that contains code and structure that define how to display content you want to schedule and make available to your employees.
 
-**Note:** Templates are contained in a topic and references a page. Templates have a direct relationship with a page, but multiple topics can be associated with a template/page. For example, the base system provides the emp\_employee-taxonomy page and most of the topics are associated with that page. For more information, see [Create topic page template](customise-topic-pages-with-templates.md#).
+**Note:** Templates are contained in a topic and references a page. Templates have a direct relationship with a page, but multiple topics can be associated with a template/page. For example, the base system provides the emp\_employee-taxonomy page and most of the topics are associated with that page. For more information, see [Create topic page template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/customise-topic-pages-with-templates.md).
 
  When a page has topics associated with it, the **Taxonomy** field appears and you can filter by it and you can select topics associated with the taxonomy.
 
  Select a page and only the widget instances that appear on the page are available in the Widget instance choice list.
 
- Select the Preview this record icon ![Preview this record icon](../../human-resources/image/view-content-details-icon.png) to view the page record.
+ Select the Preview this record icon \[Omitted image "view-content-details-icon.png"\] Alt text: Preview this record icon to view the page record.
 
 **Note:** Using Page to help filter the available widgets across the portal can be useful, but is optional.
 
@@ -114,7 +115,7 @@ Widget
 
 The widget you want your content to appear in. Widgets contain properties and CSS specific to that instance.A list of filtered widget instances appear when you select a page from the **Page** choice list.
 
- Select the Preview this record icon ![Preview this record icon](../../human-resources/image/view-content-details-icon.png) to view the widget record.
+ Select the Preview this record icon \[Omitted image "view-content-details-icon.png"\] Alt text: Preview this record icon to view the widget record.
 
  **Note:** If you schedule Styled or Banner content to the Content Experiences widget on the emp\_taxonomy\_topic page, the original topic banner image does not display for the topics on the schedule.
 
@@ -144,7 +145,7 @@ The topic you want your content to appear under.Also, allows you to preview cont
 
  Topics are organized under a taxonomy.
 
- When the Allow Ownership for Topics \(sn\_cd.activate\_topic\_ownership\) sys property is set to **Yes** and the topic is assigned to you or a group you belong to, you only see topics assigned to you or topics that do not have restrictions. For more information, see [Properties installed with Content Experiences](../reference/properties-installed-with-content-auto.md) and [Assign ownership of content](ecpro-ca-cd-content-restriction.md).
+ When the Allow Ownership for Topics \(sn\_cd.activate\_topic\_ownership\) sys property is set to **Yes** and the topic is assigned to you or a group you belong to, you only see topics assigned to you or topics that do not have restrictions. For more information, see [Properties installed with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/properties-installed-with-content-auto.md) and [Assign ownership of content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-ca-cd-content-restriction.md).
 
  Ownership of a topic includes:
 
@@ -153,7 +154,7 @@ The topic you want your content to appear under.Also, allows you to preview cont
 -   Ability to preview content for the topic.
 **Note:** Other users that have access to the content can view the content scheduled to the restricted topic, but cannot remove the topic from the schedule.
 
- For more information, see [Content Ownership](../concept/ecpro-content-restriction.md).
+ For more information, see [Content Ownership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-content-restriction.md).
 
 </td></tr><tr><td colspan="2">
 
@@ -165,7 +166,7 @@ Add audience \(at least one\)
 
 </td><td>
 
-Who you want to see the content. For more information, see [Audiences](../concept/ecpro-audience.md).**Note:** You do not have the option of scheduling content for individual users. You can only schedule content for an audience. To schedule content for individual users, see [Scheduling the delivery of content](ecpro-schedule-content.md).
+Who you want to see the content. For more information, see [Audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-audience.md).**Note:** You do not have the option of scheduling content for individual users. You can only schedule content for an audience. To schedule content for individual users, see [Scheduling the delivery of content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-schedule-content.md).
 
 </td></tr><tr><td colspan="2">
 
@@ -200,6 +201,6 @@ Content is available for use, but does not appear on the Employee Center.
 
     After you create a publish plan, the **Preview on portal** button appears in the **Publish** tab, which redirects you to view how the content will appear on the employee portal once published.
 
-    Once rich or portal content is published, you must checkout the content to edit it. See [Checkout published content](ec-checkout-published-content.md).
+    Once rich or portal content is published, you must checkout the content to edit it. See [Checkout published content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-checkout-published-content.md).
 
 

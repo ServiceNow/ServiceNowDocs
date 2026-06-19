@@ -2,6 +2,7 @@
 title: Work on a complaint case
 description: Work on a complaint case to provide additional information, ensure that any outstanding tasks are completed, and resolve the customer complaint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-complaint-management/work-complaint-service-case.html
 release: zurich
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management
@@ -19,7 +20,7 @@ Work on a complaint case to provide additional information, ensure that any outs
 
 Role required: sn\_bom\_compl.agent or sn\_bom\_compl.agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -31,7 +32,7 @@ Use the case playbook that provides the activities and tasks to research and res
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Complaint service cases**, open the case list.
 
@@ -47,7 +48,7 @@ Use the case playbook that provides the activities and tasks to research and res
 
     Any tasks generated during playbook activities appear in the **Tasks** tab of the case.
 
-    **Note:** For information on complaint case field descriptions, see [Field descriptions for a complaint case](../reference/fso-complaint-form-fields.md).
+    **Note:** For information on complaint case field descriptions, see [Field descriptions for a complaint case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-complaint-management/fso-complaint-form-fields.md).
 
 
 ## What to do next

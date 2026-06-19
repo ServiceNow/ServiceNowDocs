@@ -2,6 +2,7 @@
 title: Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)
 description: Detect similar demand records using the identify similar records Now Assist skill. The skill detects similar demand records based on contextual similarity in the name, description, and business case content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/identify-similar-demand-records.html
 release: zurich
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
@@ -18,9 +19,9 @@ Detect similar demand records using the identify similar records Now Assist skil
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
-If you have custom roles that require access to this skill, update the ACLs \(access control lists\) for those roles that require access. For more information, see [Implement access control in Now Assist AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+If you have custom roles that require access to this skill, update the ACLs \(access control lists\) for those roles that require access. For more information, see .
 
 Role required: it\_demand\_user
 
@@ -32,7 +33,7 @@ Role required: it\_demand\_user
 
 2.  On the Demand form, fill in the **Name**, **Description**, and **Business case** fields.
 
-    For a description of the field names, see [Demand form](../../planning-and-policy/reference/demand-form.md).
+    For a description of the field names, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/demand-form.md).
 
 3.  Save **Save**.
 
@@ -43,7 +44,7 @@ Role required: it\_demand\_user
 
 The similar demands identified by Now Assist are displayed in the top banner and the Similar Demands related list.
 
-![List of similar records identified by Now Assist.](../images/similar-demand-new-color.png)
+\[Omitted image "similar-demand-new-color.png"\] Alt text: List of similar records identified by Now Assist.
 
 **Note:**
 
@@ -54,5 +55,5 @@ The similar demands identified by Now Assist are displayed in the top banner and
 
 View the full details of the identified similar demand records by selecting the demand number link from the Similar Demands related list.
 
-**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](../concept/using-now-assist-for-spm.md)
+**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 

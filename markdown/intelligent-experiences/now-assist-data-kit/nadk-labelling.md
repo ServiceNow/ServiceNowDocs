@@ -2,6 +2,7 @@
 title: Labelling
 description: Data labeling is the process of reviewing and annotating data records to prepare them for AI training or quality validation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-data-kit/nadk-labelling.html
 release: zurich
 product: Now Assist Data Kit
 classification: now-assist-data-kit

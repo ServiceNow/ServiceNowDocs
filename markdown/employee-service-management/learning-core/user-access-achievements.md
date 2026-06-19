@@ -2,6 +2,7 @@
 title: Define user access for achievements
 description: Define user access to the collection to configure who has can and can’t read access to the achievements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/user-access-achievements.html
 release: zurich
 product: Learning Core
 classification: learning-core
@@ -19,7 +20,7 @@ Define user access to the collection to configure who has can and can’t read a
 
 Role required: sn\_lc.learning\_admin, sn\_lep.achievement\_manager
 
-Create an achievement. For more information, see [Create an achievement definition](create-achievement.md).
+Create an achievement. For more information, see [Create an achievement definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/create-achievement.md).
 
 ## Procedure
 
@@ -38,5 +39,5 @@ Create an achievement. For more information, see [Create an achievement definiti
     **Note:** When a user is present in both Can Read and Cannot Read then Cannot Read takes precedence, and the user is restricted access to that achievement.
 
 
-**Parent Topic:**[Create an achievement definition](create-achievement.md)
+**Parent Topic:**[Create an achievement definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/create-achievement.md)
 

@@ -2,6 +2,7 @@
 title: Demand Budget form
 description: Use the Demand Budget form to allocate a budget to your demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/demand-management/demand-budget-form.html
 release: zurich
 product: Demand Management
 classification: demand-management
@@ -64,5 +65,5 @@ Total Budget in Demand Currency
 Sum of Capex and Opex amounts.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Demand Management forms](../concept/demand-management-forms.md)
+</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/demand-management-forms.md)
 

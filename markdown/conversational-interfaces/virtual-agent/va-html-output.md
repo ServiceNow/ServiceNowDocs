@@ -2,6 +2,7 @@
 title: HTML bot response control
 description: Use the HTML bot response control to display static HTML text in the Virtual Agent bot response.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-html-output.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -16,13 +17,13 @@ breadcrumb: [Virtual Agent Designer bot responses, Virtual Agent Designer interf
 
 Use the HTML bot response control to display static HTML text in the Virtual Agent bot response.
 
-**Note:** If you created conversations in earlier releases that use this bot response control to generate card layouts, consider updating your conversations to use the [Card bot response control](va-card-output.md). The Card displays information from a record in your instance and contains a link to that related record.
+**Note:** If you created conversations in earlier releases that use this bot response control to generate card layouts, consider updating your conversations to use the [Card bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-card-output.md). The Card displays information from a record in your instance and contains a link to that related record.
 
 ## Security considerations for HTML markup
 
-For security reasons, an HTML sanitizer script runs automatically and checks all HTML markup used in the instance, including Virtual Agent conversations. The sanitizer script removes elements or attributes that might enable cross-site scripting attacks. You can edit the HTML sanitizer script to change the list of markup items to be preserved or removed. For details, see [HTML sanitizer](https://www.servicenow.com/docs/access?context=c_HTMLSanitizer&version=zurich&pubname=zurich-platform-security&ft:locale=en-US). For examples of adding markup items to the exclusion or inclusion lists, see [Configure HTML sanitizer](https://www.servicenow.com/docs/access?context=t_ConfigureHTMLSanitizer&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For security reasons, an HTML sanitizer script runs automatically and checks all HTML markup used in the instance, including Virtual Agent conversations. The sanitizer script removes elements or attributes that might enable cross-site scripting attacks. You can edit the HTML sanitizer script to change the list of markup items to be preserved or removed. For details, see HTML sanitizer. For examples of adding markup items to the exclusion or inclusion lists, see Configure HTML sanitizer.
 
-To disable the HTML sanitizer script only for Virtual Agent conversations, add the **com.glide.cs.html.sanitizer.enabled** system property and set the value to false. For details about creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+To disable the HTML sanitizer script only for Virtual Agent conversations, add the **com.glide.cs.html.sanitizer.enabled** system property and set the value to false. For details about creating a system property, see Add a system property.
 
 ## HTML bot response control properties
 
@@ -48,7 +49,7 @@ HTML message
 
 </td><td>
 
-HTML output to be displayed. Select the Script icon ![Script icon.](../images/icon-script.png) to open the HTML editor and enter the HTML text.
+HTML output to be displayed. Select the Script icon \[Omitted image "icon-script.png"\] Alt text: Script icon. to open the HTML editor and enter the HTML text.
 
 </td></tr><tr><td>
 
@@ -101,7 +102,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 |WhatsApp \(powered by Twilio\)|Not supported|Not applicable|
 |WhatsApp|Not supported|Not applicable|
 |Apple Messages for Business|Not supported|Not applicable|
-|Alexa \(Voice\)|Partial support|Supported on devices with screens. For nonscreen devices, the user receives a message: `We found a link`. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](../concept/va-settings-for-alexa.md).|
+|Alexa \(Voice\)|Partial support|Supported on devices with screens. For nonscreen devices, the user receives a message: `We found a link`. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-settings-for-alexa.md).|
 
 ## Example HTML bot response output
 
@@ -119,12 +120,12 @@ HTML bot response output
 
 </th></tr></thead><tbody><tr><td>
 
-![Basic properties include the node name, HTML message, height, and width.](../images/va-html-properties.png "HTML bot response control basic properties")
+\[Omitted image "va-html-properties.png"\] Alt text: Basic properties include the node name, HTML message, height, and width.
 
 </td><td>
 
-![A chat window shows the company logo with a header, subheader, and body text.](../../notification/image/va-html-native.png "Web UI HTML output")
+\[Omitted image "va-html-native.png"\] Alt text: A chat window shows the company logo with a header, subheader, and body text.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Virtual Agent Designer bot responses](va-bot-responses.md)
+</table>**Parent Topic:**[Virtual Agent Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

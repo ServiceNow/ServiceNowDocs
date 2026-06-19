@@ -2,6 +2,7 @@
 title: Configure Dropbox for external content indexing
 description: Create and authorize an OAuth 2.0 application in the Dropbox App Console to allow the Dropbox external content connector to access your Dropbox source system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-dropbox-external-content-indexing.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -26,7 +27,7 @@ Role required: none
 
 The Dropbox external content connector retrieves files from user folders and team folders in your Dropbox source system using the Dropbox APIs.
 
-To allow the connector to access your Dropbox source system via the Dropbox APIs, you must configure and authorize an OAuth 2.0 application in the Dropbox App Console. Your connector admin can use settings copied from the OAuth 2.0 application to configure the Dropbox external connector for proper connection to your source system.
+To allow the connector to access your Dropbox source system via the Dropbox APIs, you must configure and authorize an OAuth 2.0 application in the Dropbox App Console. Your connector administrator can use settings copied from the OAuth 2.0 application to configure the Dropbox external connector for proper connection to your source system.
 
 ## Procedure
 
@@ -52,13 +53,13 @@ To allow the connector to access your Dropbox source system via the Dropbox APIs
 
     1.  On the Settings screen, copy the app key value and record it in a secure location.
 
-        **Important:** Your external content connector admin needs this app key when configuring the Dropbox external content connector.
+        **Important:** Your external content connector administrator needs this app key when configuring the Dropbox external content connector.
 
     2.  To view the app secret, select **Show**.
 
     3.  Copy the app secret value and record it in a secure location.
 
-        **Important:** Your external content connector admin needs this app secret when configuring the Dropbox external content connector.
+        **Important:** Your external content connector administrator needs this app secret when configuring the Dropbox external content connector.
 
 3.  Configure the OAuth 2 redirect URI for your new OAuth 2.0 application.
 
@@ -96,14 +97,14 @@ To allow the connector to access your Dropbox source system via the Dropbox APIs
 
 ## What to do next
 
-Provide the following items to your connector admin:
+Provide the following items to your connector administrator:
 
--   The app key that you copied in step [2.a](configure-dropbox-external-content-indexing.md#copy-app-key-step).
--   The app secret that you copied in step [2.c](configure-dropbox-external-content-indexing.md#copy-app-secret-step).
+-   The app key that you copied in step [2.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-dropbox-external-content-indexing.md).
+-   The app secret that you copied in step [2.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-dropbox-external-content-indexing.md).
 
-Your connector admin needs these items to configure a Dropbox external content connector to retrieve files in user folders, files in team folders, and security principals from your Dropbox source system.
+Your connector administrator needs these items to configure a Dropbox external content connector to retrieve files in user folders, files in team folders, and security principals from your Dropbox source system.
 
-For details on creating and configuring a Dropbox external content connector, see [Create a Dropbox external content connector](create-ext-cont-connector-dropbox.md).
+For details on creating and configuring a Dropbox external content connector, see [Create a Dropbox external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-dropbox.md).
 
-**Parent Topic:**[Dropbox external content connector](../concept/dropbox-external-content-connector.md)
+**Parent Topic:**[Dropbox external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/dropbox-external-content-connector.md)
 

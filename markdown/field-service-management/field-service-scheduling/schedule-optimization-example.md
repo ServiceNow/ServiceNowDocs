@@ -2,6 +2,7 @@
 title: Example- Schedule Optimization
 description: This example shows three different ways admins can configure the optimization engine to schedule tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/schedule-optimization-example.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling

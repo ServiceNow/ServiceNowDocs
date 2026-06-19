@@ -2,6 +2,7 @@
 title: Add User to Group AD activity
 description: The Add User to Group activity adds a user to a group in Windows Active Directory.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/orchestration/r\_AddUserToGroupADActivity.html
 release: zurich
 product: Orchestration
 classification: orchestration
@@ -30,7 +31,7 @@ To access this activity in the Workflow Editor, select the **Custom** tab, and t
 |Variable|Description|
 |--------|-----------|
 |result|Either **success** or **failure**.|
-|errorMessage|The **executionResult.errorMessages** from the [Activity designer parsing sources](../../orchestration-activity-designer/task/t_CreateAParsingRule.md#).|
+|errorMessage|The **executionResult.errorMessages** from the [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateAParsingRule.md).|
 
 ## Conditions
 
@@ -39,5 +40,5 @@ To access this activity in the Workflow Editor, select the **Custom** tab, and t
 |Success|User was successfully added to group.|
 |Failure|An error occurred while attempting to add the user to the group. Additional details may be available in the workflow log.|
 
-**Parent Topic:**[Active Directory activity pack](../concept/c_OrchActiveDirectoryActivities.md)
+**Parent Topic:**[Active Directory activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_OrchActiveDirectoryActivities.md)
 

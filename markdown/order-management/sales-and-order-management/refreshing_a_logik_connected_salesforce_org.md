@@ -2,6 +2,7 @@
 title: Refreshing a ServiceNow CPQ connected Salesforce org
 description: Refreshing a Salesforce org severs the database sync between ServiceNow CPQ and Salesforce. To get things working again, take these steps after the refresh.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/refreshing\_a\_logik\_connected\_salesforce\_org.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

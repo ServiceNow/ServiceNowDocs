@@ -2,6 +2,7 @@
 title: Components installed with EMR Help
 description: Several types of components are installed with activation of the EMR Help application including tables, user roles, and plugins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/emr-help/components-installed-emr-help.html
 release: zurich
 product: EMR Help
 classification: emr-help
@@ -15,7 +16,7 @@ breadcrumb: [Reference, EMR Help, Healthcare and Life Sciences Service Managemen
 
 Several types of components are installed with activation of the EMR Help application including tables, user roles, and plugins.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -173,5 +174,5 @@ Industry Core \(com.sn\_ind\)
 Includes common objects, code artifacts, and request definitions for industry vertical applications.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[EMR Help reference](emr-reference.md)
+</table>**Parent Topic:**[EMR Help reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/emr-help/emr-reference.md)
 

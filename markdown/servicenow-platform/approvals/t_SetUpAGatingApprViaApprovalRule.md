@@ -2,6 +2,7 @@
 title: Set up a gating approval via an approval rule
 description: You can set up a gating approval via an approval rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/approvals/t\_SetUpAGatingApprViaApprovalRule.html
 release: zurich
 product: Approvals
 classification: approvals
@@ -15,7 +16,7 @@ breadcrumb: [Gating approvals, Approval rules, Classic approvals, Exploring Serv
 
 You can set up a gating approval via an approval rule.
 
-**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://www.servicenow.com/docs/access?context=ask-approval-flow-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
+**Important:** Classic approval rules have been replaced by the Workflow Studio . Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
 
 ## Before you begin
 
@@ -27,7 +28,7 @@ Role required: admin
 
 2.  Click **New**.
 
-    ![Approval rule](../image/ApprovalRule.png)
+    \[Omitted image "ApprovalRule.png"\] Alt text: Approval rule
 
 <table id="table_n5t_lpl_sr"><thead><tr><th>
 
@@ -53,7 +54,7 @@ Table
 
 Task table to which this rule applies. For most service catalog approvals, select **Request**.
 
-**Note:** The list shows only tables and database views that are [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=zurich&pubname=zurich-application-development&ft:locale=en-US) as the approval rule.
+**Note:** The list shows only tables and database views that are Application scope as the approval rule.
 
 </td></tr><tr><td>
 
@@ -118,5 +119,5 @@ An optional server script to programmatically specify who the approver should be
     2.  You can't get duplicate approvers, for example, if two rules both want Fred Luddy to approve a particular request, the system will only create one approval entry for him.
     3.  By default all requests start out in a **Not yet requested** approval state. Approval notifications will not go out until the request's approval state is set to **Requested**. You can do that manually, or you can do it in script, but the easiest way to do it is to use the **Set State** field to automatically set the request to **Requested**.
 
-**Parent Topic:**[Gating approvals](../concept/c_GatingApprovals.md)
+**Parent Topic:**[Gating approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/approvals/c_GatingApprovals.md)
 

@@ -2,6 +2,7 @@
 title: Metric definition form
 description: Update the scoring details of a metric definition, enable or disable it, or specify whether it contributes to the overall DEX score.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-experience-score/dexscr-dex-metric-def-form.html
 release: zurich
 product: Digital Experience Score
 classification: digital-experience-score
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Digital Experience Score, Digital End-User Experience, I
 
 Update the scoring details of a metric definition, enable or disable it, or specify whether it contributes to the overall DEX score.
 
-For more information, see [Customize metric definitions](../task/dexscr-customize-dex-score-metric-defs.md).
+For more information, see [Customize metric definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-experience-score/dexscr-customize-dex-score-metric-defs.md).
 
 <table id="table_fr4_1dn_jhc"><thead><tr><th>
 
@@ -91,5 +92,5 @@ Weight
 Weighted average for the metric that contributes to the overall DEX score.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Digital Experience Score​ reference](../concept/dexscr-dex-score-reference.md)
+</table>**Parent Topic:**[Digital Experience Score​ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-experience-score/dexscr-dex-score-reference.md)
 

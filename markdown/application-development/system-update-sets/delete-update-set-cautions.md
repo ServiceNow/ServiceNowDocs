@@ -2,6 +2,7 @@
 title: Cautions about deleting update sets
 description: Deleting an update set is a bad practice. To revert a customization, back out the update set rather than deleting it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/system-update-sets/delete-update-set-cautions.html
 release: zurich
 product: System Update Sets
 classification: system-update-sets

@@ -2,7 +2,10 @@
 title: Manage Developer Support user access
 description: Add designated users to enter a support case for Developer Support. The named contacts are responsible for entering details about a specific issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/manage-developer-support-user-access.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -23,7 +26,7 @@ Role required: Impact admin
 
 2.  From the **Actions** menu, select **Update role/access**.
 
-    If the user is not listed in the table, create a new user. See [Manage Impact users](ide-user-management.md) for details.
+    If the user is not listed in the table, create a new user. See [Manage Impact users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/ide-user-management.md) for details.
 
 3.  Select the **Action** icon on the right of the user.
 

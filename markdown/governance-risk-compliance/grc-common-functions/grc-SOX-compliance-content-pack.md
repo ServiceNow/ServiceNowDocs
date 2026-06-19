@@ -2,6 +2,7 @@
 title: SOX Content Pack dashboard and reports
 description: The SOX Content Pack dashboards display multiple SOX reports on a single screen. Various GRC roles have read or edit access to these dashboards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/grc-SOX-compliance-content-pack.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -67,11 +68,11 @@ The SOX Compliance Dashboard displays an overview of all controls, attestations,
     -   Issues Closure Rate
     -   Control Issues by Policy
 
-![Compliance overview](../image/SOX-compliance-overview.png "Compliance Overview")
 
-![Attestation Overview](../image/SOX-control-attestation-overview.png "Attestation Overview")
 
-![Control Issue Overview](../image/SOX-control-issue-overview.png "Control Issue Overview")
+
+
+
 
 ## SOX Risk Dashboard
 
@@ -113,11 +114,11 @@ The SOX Risk Dashboard displays an overview of all risks, assessments, and risk 
     -   Issues Closure Rate
     -   Risks Issues by Policy
 
-![Risk Overview](../image/SOX-risk-overview.png "Risk Overview")
 
-![Assessment Overview](../image/SOX-risk-assessment-overview.png "Assessment Overview")
 
-![Risk Issue Overview](../image/SOX-risk-issue-overview.png "Risk Issue Overview")
+
+
+
 
 ## SOX Audit Dashboard
 
@@ -144,9 +145,9 @@ The SOX Audit Dashboard displays an overview of all audits and audit issues. Nav
     -   Issues by Owner
     -   Pending Issues by Entity
 
-![Audit Overview](../image/SOX-audit-overview.png "Audit Overview")
 
-![Issue Overview](../image/SOX-issue-overview.png "Issue Overview")
 
-**Parent Topic:**[Sarbanes-Oxley \(SOX\) Content Pack](sn-store-SOX-governance-risk-compliance.md)
+\[Omitted image "SOX-issue-overview.png"\] Alt text: Issue Overview
+
+**Parent Topic:**[Sarbanes-Oxley \(SOX\) Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/sn-store-SOX-governance-risk-compliance.md)
 

@@ -2,6 +2,7 @@
 title: Summarize Request Management records by using Now Assist for IT Service Management \(ITSM\)
 description: Summarize all information related to the context of requests to get a consolidated real-time status by using the Request Management summarization skills in the Now Assist for IT Service Management \(ITSM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/summarize-request-related-skill.html
 release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -28,7 +29,7 @@ Summarization for Request Management involves individual skills used to summariz
 -   Requested items
 -   Catalog tasks
 
-These Request Management summarization skills provide you with concise summaries generated from the information entered in the corresponding record fields. For more information about which fields are referenced, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](../reference/now-assist-itsm-skills.md).
+These Request Management summarization skills provide you with concise summaries generated from the information entered in the corresponding record fields. For more information about which fields are referenced, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
 
 ## Procedure
 
@@ -36,27 +37,27 @@ These Request Management summarization skills provide you with concise summaries
 
 2.  Select **Summarize**.
 
-    ![Summarize action in the Details tab.](../image/itsm-request-summarize.png)
+    \[Omitted image "itsm-request-summarize.png"\] Alt text: Summarize action in the Details tab.
 
     -   In the Core UI, the summary appears in a banner of the Request Management record.
 
-        ![Request summary in the Core UI that provides the context and next steps.](../image/itsm-request-summary-core-ui.png)
+        \[Omitted image "itsm-request-summary-core-ui.png"\] Alt text: Request summary in the Core UI that provides the context and next steps.
 
     -   In Service Operations Workspace for ITSM, the summary is generated in the **Details** tab.
 
-        ![Request summary in Service Operations Workspace for ITSM that provides the context and next steps.](../image/itsm-request-summary.png)
+        \[Omitted image "itsm-request-summary.png"\] Alt text: Request summary in Service Operations Workspace for ITSM that provides the context and next steps.
 
 3.  When you're finished summarizing a record, you can add the summary to your work notes, copy it, or provide feedback.
 
-<table id="choicetable_h4z_krw_53c"><thead><tr><th align="left" id="d387910e195">
+<table id="choicetable_h4z_krw_53c"><thead><tr><th align="left" id="d375818e195">
 
 Option
 
-</th><th align="left" id="d387910e198">
+</th><th align="left" id="d375818e198">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d387910e204">
+</th></tr></thead><tbody><tr><td id="d375818e204">
 
 **Add summary to work notes**
 
@@ -67,37 +68,37 @@ Procedure
 3.  Select **Save to work notes**.
 
 
-</td></tr><tr><td id="d387910e231">
+</td></tr><tr><td id="d375818e231">
 
 **Expand or collapse**
 
 </td><td>
 
-Select the expand card icon \(![expand card icon.](../image/icon-expand.png)\) to view the complete summary. Select the collapse card icon \(![collapse card icon.](../image/icon-collapse.png)\) to view a collapsed summary.
+Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expand card icon.\) to view the complete summary. Select the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: collapse card icon.\) to view a collapsed summary.
 
-</td></tr><tr><td id="d387910e254">
+</td></tr><tr><td id="d375818e254">
 
 **Provide feedback**
 
 </td><td>
 
-If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../image/icon-helpful.png)\). If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../image/icon-not-helpful.png)\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
+If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d387910e277">
+</td></tr><tr><td id="d375818e277">
 
 **Copy summary**
 
 </td><td>
 
-If you want to reuse the summary, select the copy to clipboard icon \(![Copy to clipboard icon.](../image/icon-copy.png)\).
+If you want to reuse the summary, select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\).
 
-</td></tr><tr><td id="d387910e293">
+</td></tr><tr><td id="d375818e293">
 
 **View more information about the summary**
 
 </td><td>
 
-If you want to check more details about the summary, select the more info icon \(![More info icon.](../image/icon-more-info.png)\).
+If you want to check more details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text: More info icon.\).
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: Install SQL API plugin on your ServiceNow instance
 description: Installing the SQL API on your instance enables secure, read-only access to your instance data from external applications. You can integrate your data with external tools and analytics platforms to enhance your reporting and data analysis capabilities.
 locale: en-us
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/install-sql-api-plugin.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -33,7 +34,7 @@ Install the SQL API plugin to enable the ODBC and JDBC drivers to connect to you
 
 3.  Select **Install**.
 
-    ![UI screen for installing SQL API on your ServiceNow instance](../image/install-sql-api-on-instance-welcome.png)
+    \[Omitted image "install-sql-api-on-instance-welcome.png"\] Alt text: UI screen for installing SQL API on your ServiceNow instance
 
 4.  Review the installation details and do one of the following:
 
@@ -42,14 +43,14 @@ Install the SQL API plugin to enable the ODBC and JDBC drivers to connect to you
         1.  Select **Install later**.
         2.  Set the **Start date** and **Start time**.
         3.  Select **Schedule**.
-    ![UI screen to install immediately or schedule for later](../image/sql-api-instance-schedule.png)
+    \[Omitted image "sql-api-instance-schedule.png"\] Alt text: UI screen to install immediately or schedule for later
 
 5.  Verify the plugin installation by selecting **View details**.
 
 
 ## Result
 
-The SQL API plugin is installed on your ServiceNow instance. You can proceed to [Configure SQL API plugin on your ServiceNow instance](../task/configure-sql-api-overview.md) and create service accounts, set up access control lists, and define IP filter criteria.
+The SQL API plugin is installed on your ServiceNow instance. You can proceed to [Configure SQL API plugin on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configure-sql-api-overview.md) and create service accounts, set up access control lists, and define IP filter criteria.
 
-**Parent Topic:**[Configuring SQL API](configuring-sql-api.md)
+**Parent Topic:**[Configuring SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configuring-sql-api.md)
 

@@ -2,6 +2,7 @@
 title: Custom output properties sheet
 description: Use this sheet to define a custom response control in Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/custom-response-properties-form.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent

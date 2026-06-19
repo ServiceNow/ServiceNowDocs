@@ -2,6 +2,7 @@
 title: Permit-to-work request form
 description: Description of the form to request a permit to work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-risk-management/hs-permit-to-work-form.html
 release: zurich
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -38,5 +39,5 @@ Description of the form to request a permit to work.
 |Comments|Optional comments.|
 |Attachment|Option to add attachments related to this permit.|
 
-**Parent Topic:**[Health and Safety Risk Management reference](../concept/hs-risk-mgmt-reference.md)
+**Parent Topic:**[Health and Safety Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-reference.md)
 

@@ -2,6 +2,7 @@
 title: MID Server IMidServerEncrypter interface
 description: Use the methods in this interface to create a custom external encrypter for the MID Server config.xml file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/mid-server/mid-encrypter-interface.html
 release: zurich
 product: MID Server
 classification: mid-server
@@ -90,5 +91,5 @@ Decrypted data.
 `java.lang.Exception`
 
 </td></tr></tbody>
-</table>**Parent Topic:**[MID Server configuration file security](mid-server-encrypter-api.md)
+</table>**Parent Topic:**[MID Server configuration file security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-server-encrypter-api.md)
 

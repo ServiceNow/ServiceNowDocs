@@ -2,6 +2,7 @@
 title: Configure messaging actions
 description: Create or modify messaging actions that are performed when an event occurs. These actions apply only to messaging.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/configure-messaging-actions.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -17,7 +18,7 @@ Create or modify messaging actions that are performed when an event occurs. Thes
 
 ## Before you begin
 
-Activate the Conversational Messaging plugin \(com.glide.messaging.awa\). For information on activating this plugin, see [Activate Messaging Actions](activate-messaging-actions.md).
+Activate the Conversational Messaging plugin \(com.glide.messaging.awa\). For information on activating this plugin, see [Activate Messaging Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/activate-messaging-actions.md).
 
 Role required: admin
 
@@ -26,7 +27,7 @@ Role required: admin
 -   For the Requester Message without Agent Response event, the default length of time that elapses before an agent is sent a reminder is 30 minutes.
 -   For the Agent Message without Requester Response event, the default length of time that elapses before the conversation is set to the Closed Abandoned state is 2 days.
 
-    If you're using both Virtual Agent and Live Agent, the system closes an abandoned live conversation based on the lowest timeout value for closing conversations. Be aware that other conversation timeout behavior can affect idle live chat timeouts, regardless of the **Duration** and **Action** that you specify. For details, see [Closing Virtual Agent and Agent Chat conversations](../concept/va-open-conversations.md).
+    If you're using both Virtual Agent and Live Agent, the system closes an abandoned live conversation based on the lowest timeout value for closing conversations. Be aware that other conversation timeout behavior can affect idle live chat timeouts, regardless of the **Duration** and **Action** that you specify. For details, see [Closing Virtual Agent and Agent Chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-open-conversations.md).
 
 
 ## Procedure
@@ -119,5 +120,5 @@ State of the interaction. This field appears when you select **State** in the **
 </table>3.  Click **Submit** for a new messaging action or **Update** to modify an existing messaging action.
 
 
-**Parent Topic:**[Configuring Advanced Work Assignment](../../advanced-work-assignment/task/installing-awa.md)
+**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

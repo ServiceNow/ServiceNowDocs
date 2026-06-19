@@ -2,6 +2,7 @@
 title: Assignment Rule form
 description: When creating or changing an Advanced Work Assignment assignment rule, the Assignment Rule form contains the following fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/awa-assignment-rules.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -112,11 +113,11 @@ Available options:
 -   Time required: Time required to complete a work item.
 -   Available continuously for the required time: Assign work items to agents who are continuously available for the required time period without any breaks in a shift. Agents who don’t have the minimum time required in their shifts aren’t considered for work item assignments.
 
-**Note:** The **Shift handling** field is available only if the Advanced Work Assignment plugin \(com.glide.awa\) is activated and the Workforce Optimization for Customer Service plugin \(com.snc.wfo.csm\) or the Workforce Optimization for ITSM plugin \(com.snc.wfo\_itsm\) plugin, or both, is activated. As a manager, you must have planned schedules for agents to assign them shifts. For more information, see[Scheduling in Workforce Optimization for Customer Service](https://www.servicenow.com/docs/access?context=explore-scheduling-configurable-wfo-cs&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US) and[Scheduling in Workforce Optimization for ITSM](https://www.servicenow.com/docs/access?context=explore-schedule-configurable-wfo-itsm&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+**Note:** The **Shift handling** field is available only if the Advanced Work Assignment plugin \(com.glide.awa\) is activated and the Workforce Optimization for Customer Service plugin \(com.snc.wfo.csm\) or the Workforce Optimization for ITSM plugin \(com.snc.wfo\_itsm\) plugin, or both, is activated. As a manager, you must have planned schedules for agents to assign them shifts. For more information, see  and .
 
 
 This field appears only when the **Add time constraints** option is selected.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Advanced Work Assignment reference](reference-awa.md)
+</table>**Parent Topic:**[Advanced Work Assignment reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/reference-awa.md)
 

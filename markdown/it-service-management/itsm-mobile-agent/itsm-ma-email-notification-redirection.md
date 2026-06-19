@@ -2,6 +2,7 @@
 title: ITSM Mobile email notification redirection via web
 description: Redirect the users to the ITSM Mobile application from the mobile web browser to open and view the task records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/itsm-ma-email-notification-redirection.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -19,7 +20,7 @@ When you select the record link from the email notifications on the mobile, the 
 
 To enable this feature, set the **Enable universal links** \(**glide.sg.universal\_links.enabled**\) system property to `true`.
 
-The feature is based on the universal linking of mobile. For more information, see [Universal linking for mobile](https://www.servicenow.com/docs/access?context=universal-links-mobile&version=zurich&pubname=zurich-mobile&ft:locale=en-US).
+The feature is based on the universal linking of mobile. For more information, see .
 
 The email notification redirection is applicable to the following type of records:
 

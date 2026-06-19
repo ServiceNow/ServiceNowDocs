@@ -2,6 +2,7 @@
 title: Set up Virtual Agent for Universal Request
 description: Use Virtual Agent \(VA\) capabilities to provide a better user experience for your chat channel using the ServiceNow Natural Language Understanding \(NLU\) model. Publish and use the default Virtual Agent topics for Universal Request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-virtual-agent-setup.html
 release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -28,7 +29,7 @@ Role required: admin
 
 Activate the Virtual Agent topics for Universal Request.
 
-You can also copy and modify the default topics or create your own topics to use during the chatbot conversations. For more information on creating a topic, see [Create a Virtual Agent topic](https://www.servicenow.com/docs/access?context=create-virtual-agent-topic&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+You can also copy and modify the default topics or create your own topics to use during the chatbot conversations. For more information on creating a topic, see Create a Virtual Agent topic.
 
 ## Procedure
 
@@ -50,8 +51,8 @@ You can also copy and modify the default topics or create your own topics to use
 5.  Repeat this procedure to open and publish the Track Universal Request Status \(Template\) and Update UR \(Template\) topics.
 
 
--   **[Enable Natural Language Understanding model for Universal Request topic](nlu-model-setup-ur.md)**  
+-   **[Enable Natural Language Understanding model for Universal Request topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/nlu-model-setup-ur.md)**  
 Apply the Natural Language Understanding vocabulary in the Universal Request application to help the system to understand human-expressed language.
 
-**Parent Topic:**[Configuring Universal Request](../concept/configure-ur.md)
+**Parent Topic:**[Configuring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/configure-ur.md)
 

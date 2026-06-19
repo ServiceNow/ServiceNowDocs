@@ -2,7 +2,10 @@
 title: Configure Jira user story integration
 description: Perform the following procedure to configure your Jira integration options.The following best practices are guidelines for creating Jira integration scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/configure-jira-integration-options.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-11-04"
 reading_time_minutes: 2

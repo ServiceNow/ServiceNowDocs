@@ -2,6 +2,7 @@
 title: Create or modify a record producer for legal services through Classic environment
 description: Create or modify a record producer to define an intake form for a legal request. Employees can use these intake forms on the Legal Service Portal to submit legal requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-request-management/create-record-producer-legal-request.html
 release: zurich
 product: Legal Request Management
 classification: legal-request-management
@@ -23,7 +24,7 @@ Role required: sn\_lg\_ops.legal\_catalog\_admin
 
 ## About this task
 
-To manage record producers using Catalog Builder, see [create or modify a record producer for legal services through Catalog Builder](create-record-producer-catalog-builder-legal.md).
+To manage record producers using Catalog Builder, see [create or modify a record producer for legal services through Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/create-record-producer-catalog-builder-legal.md).
 
 ## Procedure
 
@@ -62,7 +63,7 @@ Name of the table that stores the data collected through the record producer.-  
 
 **Note:** You must have installed the Legal Matter Management app to use this option.
 
--   Select a table specific to a practice area if you want to use the data collected from the record producer for reporting. For more information, see [Configure a practice area table](configure-pa-tables-for-reporting.md).
+-   Select a table specific to a practice area if you want to use the data collected from the record producer for reporting. For more information, see [Configure a practice area table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/configure-pa-tables-for-reporting.md).
 
 
 </td></tr><tr><td>
@@ -127,7 +128,7 @@ Category
 
 </td><td>
 
-Name of the [service catalog category](add-catalog-categories.md) in which the intake form should appear in the Legal Service Portal.
+Name of the [service catalog category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/add-catalog-categories.md) in which the intake form should appear in the Legal Service Portal.
 
 </td></tr></tbody>
 </table>4.  Save the record producer.
@@ -140,23 +141,23 @@ Name of the [service catalog category](add-catalog-categories.md) in which the i
 
     **Important:** If you are configuring the record producer for a practice area table, you must map the variable with a column name of the selected table. On the Variable form, select the **Map to field** check box and the column name of the selected practice area table in the **Field**. Only the mapped variables are copied to the columns of the selected table.
 
-    For more information on creating variables, see [Create a service catalog variable](https://www.servicenow.com/docs/access?context=t_CreateAVariableForACatalogItem&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    For more information on creating variables, see Create a service catalog variable.
 
 6.  In the Assigned topics related list, assign the catalog item to a topic in a taxonomy so that the catalog item is added to the Employee Center portal.
 
-    For more information on assigned topics and taxonomy, see [Unified Taxonomy for Employee Center](../../employee-center/concept/config-taxonomy.md).
+    For more information on assigned topics and taxonomy, see [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/config-taxonomy.md).
 
 7.  In the Applicable For and Not Applicable For related lists, apply the user criteria to control access of the record producer.
 
-    User criteria define conditions for user records that enable you to grant or deny access to the record producer for users matching those conditions. For more information on creating a user criteria, see [Set up the user criteria](https://www.servicenow.com/docs/access?context=t_CreateAUserCriteriaRecord&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    User criteria define conditions for user records that enable you to grant or deny access to the record producer for users matching those conditions. For more information on creating a user criteria, see Set up the user criteria.
 
-8.  If you have enabled the option to [save attached documents for a legal request in an external storage](associate-categories-practice-area.md), you can add the script to validate the documents attached to a legal request while submitting.
+8.  If you have enabled the option to [save attached documents for a legal request in an external storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/associate-categories-practice-area.md), you can add the script to validate the documents attached to a legal request while submitting.
 
     1.  In the Catalog Client Scripts related list, click **New**.
 
     2.  On the Catalog Client Scripts form, fill in the fields.
 
-        For more information, see [Create a Service Catalog client script](https://www.servicenow.com/docs/access?context=t_CreateACatalogClientScript&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+        For more information, see Create a Service Catalog client script.
 
     3.  In the **Script** field, copy the following client script which runs on the catalog item to determine if:
 
@@ -214,5 +215,5 @@ Name of the [service catalog category](add-catalog-categories.md) in which the i
         ```
 
 
-**Parent Topic:**[Managing record producers for legal services](../concept/record-producers-legal-services.md)
+**Parent Topic:**[Managing record producers for legal services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/record-producers-legal-services.md)
 

@@ -2,6 +2,7 @@
 title: Work on Walk-up interaction
 description: Manage your Walk-up appointments in Agent Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/walk-up-experience/work-on-walk-up-interaction.html
 release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -53,5 +54,5 @@ Role required: sn\_walkup.walkup\_technician or admin
 11. After you have fulfilled or resolved the request, set the state of the Walk-up interaction to **Closed Complete**.
 
 
-**Parent Topic:**[View and manage Walk-up Experience appointments in Agent Workspace](view-manage-walkup-appointments.md)
+**Parent Topic:**[View and manage Walk-up Experience appointments in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/view-manage-walkup-appointments.md)
 

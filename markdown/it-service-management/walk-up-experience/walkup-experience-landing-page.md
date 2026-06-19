@@ -2,6 +2,7 @@
 title: Walk-up Experience
 description: Walk-up Experience aims to enhance the user experience by providing in-person as well as remote assistance to the users for their IT-related issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/walk-up-experience/walkup-experience-landing-page.html
 release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -23,31 +24,31 @@ Walk-up Experience offers a convenient and efficient way for users to seek immed
 
 <table id="table_mfv_1ql_s1c" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Understand Walk-up Experience features and benefits.](../concept/use-walkup-to-manage-demand.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Understand Walk-up Experience features and benefits.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Plan and customize Walk-up Experience to meet your specific needs.](../concept/walkup-experience-configuration.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and customize Walk-up Experience to meet your specific needs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walkup-experience-configuration.md)
 
 </td></tr><tr><td>
 
-[Plan![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Plan your Walk-up Experience visit.](../task/plan-your-visit.md)
+[Plan\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Plan your Walk-up Experience visit.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/plan-your-visit.md)
 
 </td><td>
 
-[Manage![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Manage Walk-up Experience queue and interaction.](../concept/use-walkup-to-manage-demand.md)
+[Manage\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Manage Walk-up Experience queue and interaction.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
 
 </td></tr><tr><td>
 
-[Monitor![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Monitor Walk-up Experience performance.](../concept/walkup-dashboard-overview.md)
+[Monitor\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Monitor Walk-up Experience performance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walkup-dashboard-overview.md)
 
 </td><td>
 
-[Walk-up on Now Mobile®.![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Explore Walk-up Experience on Now Mobile®.](../concept/walk-up-experience-now-mobile.md)
+[Walk-up on Now Mobile®.\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Explore Walk-up Experience on Now Mobile®.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walk-up-experience-now-mobile.md)
 
 </td></tr><tr><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg) Get additional information about the Walk-up Experience service.](walk-up-experience-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text: Get additional information about the Walk-up Experience service.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walk-up-experience-reference.md)
 
 </td><td>
 

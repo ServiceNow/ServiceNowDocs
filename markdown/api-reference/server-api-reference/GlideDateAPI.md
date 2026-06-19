@@ -2,6 +2,7 @@
 title: GlideDate - Global
 description: The GlideDate class provides methods for performing operations on GlideDate objects, such as instantiating GlideDate objects or working with GlideDate fields.Creates a GlideDate object with the current date time.Gets the date in the specified date format.Gets the day of the month stored by the GlideDate object, expressed in the UTC time zone.Gets the date and time field value in the UTC time zone.Gets the date in the internal format \(yyyy-MM-dd\) and current user's timezone.Returns the date value in the user's locale according to a specified date style.Returns the date value in the user's locale and language according to a specified date style.Gets the month stored by the GlideDate object, expressed in the UTC time zone.Gets the year stored by the GlideDate object, expressed in the UTC time zone.Parses a date to the locale associated with the passed language and country codes.Sets a date value using the current user's display format and time zone.Sets a date using a specified style and format according to the current user's locale.Sets a date using a specified style, language, and format according to the current user's locale.Sets the date of the current GlideDate object in internal format \(yyyy-MM-dd\) and the system time zone \(UTC by default\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/GlideDateAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,11 +16,11 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideDate class provides methods for performing operations on GlideDate objects, such as instantiating GlideDate objects or working with GlideDate fields.
 
-For guidance on date time input strings with a list of common format conflicts, refer to [Date and time format guidelines](../../../../../script/glide-server-apis/topic/p_GlideServerAPIs.md#).
+For guidance on date time input strings with a list of common format conflicts, refer to [Date and time format guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/p_GlideServerAPIs.md).
 
-See also [GlideDateTime - Global](../../GlideDateTime/concept/c_GlideDateTimeAPI.md#).
+See also [GlideDateTime - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideDateTimeAPI.md).
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideDate - GlideDate\(\)
 
@@ -67,7 +68,7 @@ Output:
 
 ### Scoped equivalent
 
-To use this method in a scoped application, use the corresponding scoped method: [Scoped GlideDate - getByFormat\(String format\)](../../glideDateScoped/concept/c_GlideDateScopedAPI.md#).
+To use this method in a scoped application, use the corresponding scoped method: [Scoped GlideDate - getByFormat\(String format\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideDateScopedAPI.md).
 
 ## GlideDate - getDayOfMonthNoTZ\(\)
 
@@ -95,13 +96,13 @@ Output:
 
 ### Scoped equivalent
 
-To use this method in a scoped application, use the corresponding scoped method: [Scoped GlideDate - getMonthNoTZ\(\)](../../glideDateScoped/concept/c_GlideDateScopedAPI.md#).
+To use this method in a scoped application, use the corresponding scoped method: [Scoped GlideDate - getMonthNoTZ\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideDateScopedAPI.md).
 
 ## GlideDate - getDisplayValue\(\)
 
 Gets the date and time field value in the UTC time zone.
 
-See also: [getDisplayValueInternal\(\)](../../glideDateScoped/concept/c_GlideDateScopedAPI.md#)
+See also: [getDisplayValueInternal\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideDateScopedAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -125,13 +126,13 @@ Output:
 
 ### Scoped equivalent
 
-To use this method in a scoped application, use the corresponding scoped method: [Scoped GlideDate - getDisplayValue\(\)](../../glideDateScoped/concept/c_GlideDateScopedAPI.md#).
+To use this method in a scoped application, use the corresponding scoped method: [Scoped GlideDate - getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideDateScopedAPI.md).
 
 ## GlideDate - getDisplayValueInternal\(\)
 
 Gets the date in the internal format \(yyyy-MM-dd\) and current user's timezone.
 
-See also [getDisplayValue\(\)](../../glideDateScoped/concept/c_GlideDateScopedAPI.md#)
+See also [getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideDateScopedAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -167,7 +168,7 @@ Output:
 
 ### Scoped equivalent
 
-To use this method in a scoped application, use the corresponding scoped method: [Scoped GlideDate - getDisplayValueInternal\(\)](../../glideDateScoped/concept/c_GlideDateScopedAPI.md#).
+To use this method in a scoped application, use the corresponding scoped method: [Scoped GlideDate - getDisplayValueInternal\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideDateScopedAPI.md).
 
 ## GlideDate - getDisplayValueLang\(String style\)
 
@@ -336,7 +337,7 @@ Output:
 
 ### Scoped equivalent
 
-To use this method in a scoped application, use the corresponding scoped method: [Scoped GlideDate - getMonthNoTZ\(\)](../../glideDateScoped/concept/c_GlideDateScopedAPI.md#).
+To use this method in a scoped application, use the corresponding scoped method: [Scoped GlideDate - getMonthNoTZ\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideDateScopedAPI.md).
 
 ## GlideDate - getYearNoTZ\(\)
 
@@ -364,7 +365,7 @@ Output:
 
 ### Scoped equivalent
 
-To use this method in a scoped application, use the corresponding scoped method: [Scoped GlideDate - getYearNoTZ\(\)](../../glideDateScoped/concept/c_GlideDateScopedAPI.md#).
+To use this method in a scoped application, use the corresponding scoped method: [Scoped GlideDate - getYearNoTZ\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideDateScopedAPI.md).
 
 ## GlideDate - parseDate\(String date, String language, String country\)
 
@@ -502,7 +503,7 @@ Output:
 
 ### Scoped equivalent
 
-To use this method in a scoped application, use the corresponding scoped method: [Scoped GlideDate - setDisplayValue\(String asDisplayed\)](../../glideDateScoped/concept/c_GlideDateScopedAPI.md#).
+To use this method in a scoped application, use the corresponding scoped method: [Scoped GlideDate - setDisplayValue\(String asDisplayed\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideDateScopedAPI.md).
 
 ## GlideDate - setDisplayValueLang\(String date, String style\)
 
@@ -710,5 +711,5 @@ Output:
 
 ### Scoped equivalent
 
-To use this method in a scoped application, use the corresponding scoped method: [Scoped GlideDate - setValue\(String o\)](../../glideDateScoped/concept/c_GlideDateScopedAPI.md#).
+To use this method in a scoped application, use the corresponding scoped method: [Scoped GlideDate - setValue\(String o\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideDateScopedAPI.md).
 

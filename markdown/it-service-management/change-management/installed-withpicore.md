@@ -2,6 +2,7 @@
 title: Components installed with Change Management - Predictive Intelligence Core
 description: Several types of components are installed with activation of the Change Management - Predictive Intelligence Core plugin that includes tables. These tables can be utilized only after the other Change Management Predictive Intelligence plugins are activated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/installed-withpicore.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -15,7 +16,7 @@ breadcrumb: [Change Management - Predictive Intelligence Core, Plugins, Configur
 
 Several types of components are installed with activation of the Change Management - Predictive Intelligence Core plugin that includes tables. These tables can be utilized only after the other Change Management Predictive Intelligence plugins are activated.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Tables installed
 
@@ -52,5 +53,5 @@ Change Similarity Boosters\[chg\_ml\_similarity\_boosters\]
 Provides boosting capabilities for similarity based solutions.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Change Management - Predictive Intelligence Core](../task/request-cm-picore.md)
+</table>**Parent Topic:**[Change Management - Predictive Intelligence Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/request-cm-picore.md)
 

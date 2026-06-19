@@ -2,6 +2,7 @@
 title: Configure event management assignment group admin roles \[New in Security Center 1.5\]
 description: Use the evt\_mgmt.connector\_assignment\_group\_admin\_roles property to set which roles are authorized for admin access over the assignment group field in connector instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-configure-event-management-assignment-group-admin-roles.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -73,7 +74,7 @@ Category
 
 </td><td>
 
-[Access control](sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -99,8 +100,8 @@ References
 
 </td><td>
 
-[Creating groups](https://www.servicenow.com/docs/access?context=ua-creating-groups&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

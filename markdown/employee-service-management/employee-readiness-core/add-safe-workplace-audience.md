@@ -2,6 +2,7 @@
 title: Add a Safe Workplace audience
 description: Add a collection of users for Emergency Outreach notifications. Target individual users or specific users based on criteria such as location, department, or group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-readiness-core/add-safe-workplace-audience.html
 release: zurich
 product: Employee Readiness Core
 classification: employee-readiness-core
@@ -29,15 +30,15 @@ Role required: sn\_imt\_core.admin, sn\_imt\_checkin.checkin\_admin, or admin
 
 3.  Indicate the users who should receive notifications.
 
-<table id="choicetable_dwh_wnh_j4b"><thead><tr><th align="left" id="d739748e96">
+<table id="choicetable_dwh_wnh_j4b"><thead><tr><th align="left" id="d104701e96">
 
 Method
 
-</th><th align="left" id="d739748e99">
+</th><th align="left" id="d104701e99">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d739748e105">
+</th></tr></thead><tbody><tr><td id="d104701e105">
 
 **Add users manually**
 
@@ -45,7 +46,7 @@ Action
 
 Select the users that you want to add to the audience in the **Users** field.
 
-</td></tr><tr><td id="d739748e120">
+</td></tr><tr><td id="d104701e120">
 
 **Upload a spreadsheet of users**
 
@@ -57,7 +58,7 @@ Select the link to add a file in the **Upload file** field.
 
  **Note:** If you have more than 500 entries, split the spreadsheet into multiple files.
 
-</td></tr><tr><td id="d739748e147">
+</td></tr><tr><td id="d104701e147">
 
 **Use additional criteria based on common User \[sys\_user\] table fields**
 
@@ -69,7 +70,7 @@ Select the link to add a file in the **Upload file** field.
     -   Include only users who fulfill all selected criteria by selecting **All the criteria \(AND\)**. Any users listed in the **Users** field are included in the audience only if they also fulfill all the additional criteria.
 
 
-</td></tr><tr><td id="d739748e200">
+</td></tr><tr><td id="d104701e200">
 
 **Enter conditions in the condition builder**
 
@@ -89,5 +90,5 @@ For example, you could specify one floor of a particular building or users who r
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Employee Health and Safety Status](../concept/employee-health-safety-status.md)
+**Parent Topic:**[Employee Health and Safety Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-readiness-core/employee-health-safety-status.md)
 

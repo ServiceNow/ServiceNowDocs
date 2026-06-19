@@ -2,6 +2,7 @@
 title: Personalize and filter data in EAP Backlog
 description: View the information that is most relevant to you and your team on the Backlog tab by choosing the columns to be displayed and applying filters to narrow down the data on the page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/enterprise-agile-planning/personalize-and-filter-data-in-eap-backlog.html
 release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -27,7 +28,7 @@ Role required: sn\_apw\_advanced.eap\_user
 
 3.  Add or remove columns and change their order of display on the Backlog page.
 
-    1.  Select **Edit columns** \(![Edit columns icon.](../images/eap-backlog-edit-columns.png)\).
+    1.  Select **Edit columns** \(\[Omitted image "eap-backlog-edit-columns.png"\] Alt text: Edit columns icon.\).
 
     2.  From the Available columns section, select the columns that you want to be displayed on the Backlog.
 
@@ -37,11 +38,11 @@ Role required: sn\_apw\_advanced.eap\_user
 
     5.  Select **Apply**.
 
-        ![Personalize column display for Backlog.](../images/eap-edit-columns.png)
+        \[Omitted image "eap-edit-columns.png"\] Alt text: Personalize column display for Backlog.
 
 4.  Apply filters to work items to narrow down the data that's displayed on the Backlog.
 
-    1.  Select **Filter** \(![Filter icon.](../images/eap-filter.png)\).
+    1.  Select **Filter** \(\[Omitted image "eap-filter.png"\] Alt text: Filter icon.\).
 
     2.  Add conditions to filter the work items.
 
@@ -53,8 +54,8 @@ Role required: sn\_apw\_advanced.eap\_user
 
 5.  For an ART, you can personalize the grouping of the work items by Planning Interval or Team.
 
-    ![Group items on ART Backlog by team or planning interval.](../images/eap-backlog-art-personalize.png)
+    \[Omitted image "eap-backlog-art-personalize.png"\] Alt text: Group items on ART Backlog by team or planning interval.
 
 
-**Parent Topic:**[Manage team backlog in EAP](../concept/using-eap.md)
+**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/using-eap.md)
 

@@ -2,6 +2,7 @@
 title: Configure dashboard deletion actions in the Workflow Studio
 description: Using the Workflow Studio, you can add actions to the dashboard deletion process. Actions may include sending an email to the dashboard's users or generating an approval request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/delete-db-in-ac-wf.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -17,7 +18,7 @@ Using the Workflow Studio, you can add actions to the dashboard deletion process
 
 Prior to invoking the flow, the instance checks that the dashboard exists and that the initiating user has the correct role.
 
-Role required: You can delete any dashboard that you created. Users with the admin role can delete all dashboards. Administrators can grant and deny access to the Workflow Studio based on user roles. For more information, see [User access to Flow Designer](https://www.servicenow.com/docs/access?context=user-access-flow-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+Role required: You can delete any dashboard that you created. Users with the admin role can delete all dashboards. Administrators can grant and deny access to the Workflow Studio based on user roles. For more information, see User access to Flow Designer.
 
 ## Procedure
 
@@ -29,15 +30,15 @@ Role required: You can delete any dashboard that you created. Users with the adm
 
 4.  Select **Add an Action, Flow Logic, or Subflow**.
 
-    For more information about the available possibilities, see [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+    For more information about the available possibilities, see .
 
 5.  Use the handle next to the action number to reorder the action.
 
-    ![Flow designer action with the reorder handle highlighted](../image/flow-designer-handle.png)
+    \[Omitted image "flow-designer-handle.png"\] Alt text: Flow designer action with the reorder handle highlighted
 
 6.  Test the flow with the actions that you added.
 
-    For more information, see [Test a flow](https://www.servicenow.com/docs/access?context=flow-test&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+    For more information, see Test a flow.
 
 7.  Save the flow.
 
@@ -59,7 +60,7 @@ There are three possible outputs:
     Output code 3. Indicates that the deletion process has started, but that intermediate steps such as an approval are not complete.
 
 
-For more information, see [Action error evaluation](https://www.servicenow.com/docs/access?context=action-error-evaluation&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+For more information, see Action error evaluation.
 
-**Parent Topic:**[Delete a Platform Analytics dashboard](delete-db-in-ac.md)
+**Parent Topic:**[Delete a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/delete-db-in-ac.md)
 

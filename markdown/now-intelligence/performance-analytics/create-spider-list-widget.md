@@ -2,6 +2,7 @@
 title: Create a spider visualization in a list widget
 description: To plot the scores of several indicators, use a spider visualization in a list widget.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/create-spider-list-widget.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -21,7 +22,7 @@ Role required: pa\_power\_user or admin
 
 ## About this task
 
-**Note:** This feature is part of the Core UI front end. It is not supported on Platform Analytics dashboards or UI Builder pages, except to a limited extent when migrated in compatibility mode. To build Platform Analytics components, see [Data visualizations in Platform Analytics](../concept/analytics-center-data-visualizations.md) or [Filters in Platform Analytics](../../par-for-workspace/concept/interactive-filters-workspace.md).
+**Note:** This feature is part of the Core UI front end. It is not supported on Platform Analytics dashboards or UI Builder pages, except to a limited extent when migrated in compatibility mode. To build Platform Analytics components, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-data-visualizations.md) or [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters-workspace.md).
 
 This feature is in maintenance mode and is no longer being augmented or changed. Only security fixes to this feature will be addressed.
 
@@ -29,7 +30,7 @@ Use this visualization to help compare the scores of several similar indicators.
 
 **Note:** You can compare a maximum of ten indicators in a spider visualization.
 
-![Spider web visualization of several incident indicators](../image/spider-list-widget.png "Spider visualization - list widget")
+\[Omitted image "spider-list-widget.png"\] Alt text: Spider web visualization of several incident indicators
 
 ## Procedure
 
@@ -48,7 +49,7 @@ Use this visualization to help compare the scores of several similar indicators.
 6.  Select indicators in one of the following ways:
 
     -   Select a group in the **Indicator Group** field.
-    -   Click **Save**, then add widget indicators as described in [Add widget indicators](add-indicators-to-widget.md).
+    -   Click **Save**, then add widget indicators as described in [Add widget indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/add-indicators-to-widget.md).
 7.  To aggregate the widget data for a specific time period, such as applying a 7-day sum or average, select a function in the **Time series** field.
 
     **Note:** Business and fiscal calendars do not support time series aggregations. You cannot set a time series aggregation on a widget for an indicator that uses such a calendar.
@@ -65,7 +66,7 @@ Use this visualization to help compare the scores of several similar indicators.
 
     3.  In **Show multiple elements as**, select whether to show each element separately or to show an aggregate of elements based on the indicator aggregation.
 
-        Neither all widget visualizations nor all indicators support both aggregate and separate views. For automated and external indicators, only COUNT, SUM, MAX, and MIN data aggregations support aggregate views. COUNT DISTINCT and AVG do not. For more information, see [Showing multiple elements separately or aggregated](../../dashboards/concept/multi-element-select-indicator-views.md).
+        Neither all widget visualizations nor all indicators support both aggregate and separate views. For automated and external indicators, only COUNT, SUM, MAX, and MIN data aggregations support aggregate views. COUNT DISTINCT and AVG do not. For more information, see [Showing multiple elements separately or aggregated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/multi-element-select-indicator-views.md).
 
 9.  Select the attribute on which to sort the data in the **Sort on** field.
 

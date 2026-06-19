@@ -2,6 +2,7 @@
 title: Employee Relations Performance Analytics Executive Overview
 description: The HR Service Delivery Employee Relations \(ER\) Performance Analytics \(PA\) dashboard provides you with historical trends, data comparisons.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-er-par.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -23,7 +24,7 @@ The HR ER PA dashboard provides timely information for the following:
 
 Provides data on trends or areas of concern that are emerging and require a deeper analysis in order to create proactive strategies.
 
-![Executive Overview](../image/hr-er-ov1.png)
+\[Omitted image "hr-er-ov1.png"\] Alt text: Executive Overview
 
 ## Case analysis
 

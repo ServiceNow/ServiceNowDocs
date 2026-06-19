@@ -2,6 +2,7 @@
 title: Learn about FSC common applications
 description: Learn about the FSC common application plugins and their dependencies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/common-service-delivery/learn-common-apps.html
 release: zurich
 product: Common Service Delivery
 classification: common-service-delivery
@@ -39,7 +40,7 @@ Finance Common Architecture \[sn\_fin\]
 
 Maintains primary data such as Enterprise Resource Planning \(ERP\) sources, legal entities, accounting periods, and so on.
 
- For more information about the components installed with this plugin, see [Components installed with Finance Common Architecture](../../sourcing-procurement-operations/reference/installed-with-finance-common.md).
+ For more information about the components installed with this plugin, see [Components installed with Finance Common Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/common-service-delivery/installed-with-finance-common.md).
 
 </td><td>
 
@@ -58,7 +59,7 @@ ERP Integration Framework \[sn\_fcms\_integrations\]**Important:** Check your en
 
 </td><td>
 
-Provides integration support between the Platform and common ERP systems.For more information about the components installed with this plugin, see [Components installed with ERP Integration Framework](../../sourcing-procurement-operations/reference/installed-with-FSC-ERP.md).
+Provides integration support between the Platform and common ERP systems.For more information about the components installed with this plugin, see [Components installed with ERP Integration Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/common-service-delivery/installed-with-FSC-ERP.md).
 
 </td><td>
 
@@ -110,7 +111,7 @@ Source-to-Pay Integration Framework \[sn\_spend\_intg\]
 
 </td><td>
 
-Provides a set of staging tables, transform maps, and workflows to integrate Source-to-Pay Operations with third-party ERP system. For more information, see [Source-to-Pay integration framework](source-to-pay-integration-framework.md).
+Provides a set of staging tables, transform maps, and workflows to integrate Source-to-Pay Operations with third-party ERP system. For more information, see [Source-to-Pay integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integration-framework.md).
 
 </td><td>
 

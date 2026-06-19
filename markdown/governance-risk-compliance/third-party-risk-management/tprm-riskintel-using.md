@@ -2,6 +2,7 @@
 title: Using risk intelligence reports and scores
 description: Request risk intelligence reports or scores directly from your external risk intelligence content providers by using the Third-party Risk Management application. This information can be requested and managed based on the importance or risk level of the individual third party.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-riskintel-using.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -27,7 +28,7 @@ The Risk Intelligence Report framework provides a common way to request reports,
 
 ## Setting up risk intelligence providers and request types
 
-If you have the TPR assessment reviewer \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] role, you must register the providers and set up both the providers and request types in the Third-party Risk Management application before you can request a report. For more information, see [Register a risk intelligence provider](../task/tprm-riskintelprvdr-register.md), [Set up a risk intelligence provider service](../task/tprm-riskintelprvdr-set-up.md), and [Set up a request type for a provider](../task/tprm-riskintelprvdr-request-type.md).
+If you have the TPR assessment reviewer \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] role, you must register the providers and set up both the providers and request types in the Third-party Risk Management application before you can request a report. For more information, see [Register a risk intelligence provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-register.md), [Set up a risk intelligence provider service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-set-up.md), and [Set up a request type for a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-request-type.md).
 
 **Note:** You can request risk reports for third parties but not for engagements.
 
@@ -35,7 +36,7 @@ If you have the TPR assessment reviewer \[sn\_vdr\_risk\_asmt.vendor\_assessment
 
 As a TPR manager \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\], TPR assessor \[sn\_vdr\_risk\_asmt.vendor\_risk\_assessor\] that is the due diligence request owner, or contract negotiator \[sn\_vdr\_risk\_asmt.contract\_negotiator\] that is assigned to the due diligence request, you can request a Risk Intelligence Report \(RIR\) or score to gain insight on how trustworthy a particular third party can be. You would follow this process to request risk intelligence reports or scores:
 
-1.  Fill out the RIR request form. An RIR request can be associated with a third party or due diligence request. When you associate a RIR request with a due diligence request, reviewers and approvers can more easily access all the related activity, scores, reports, and details through the **Risk Intelligence report request** tab in the Vendor Management Workspace\[var.vendor-management-ws\]. For more information, see [Request a risk intelligence report](../task/tprm-riskintel-request-tp.md) and [Request a risk intelligence report associated with a due diligence request](../task/tprm-riskintel-request-dd.md).
+1.  Fill out the RIR request form. An RIR request can be associated with a third party or due diligence request. When you associate a RIR request with a due diligence request, reviewers and approvers can more easily access all the related activity, scores, reports, and details through the **Risk Intelligence report request** tab in the Vendor Management Workspace\[var.vendor-management-ws\]. For more information, see [Request a risk intelligence report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-riskintel-request-tp.md) and [Request a risk intelligence report associated with a due diligence request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-riskintel-request-dd.md).
 
     **Note:** If you want to associate an RIR request with a due diligence request, it must be after the inherent risk questionnaire \(IRQ\) has been completed \(that is, when the due diligence request has entered the IRQ in progress state\).
 
@@ -48,13 +49,13 @@ As a TPR manager \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\], TPR assessor \[s
 
 After a request is submitted, the risk intelligence provider determines whether the request can be fulfilled based on its own requirements. The platform submits the request and records the outcome, but does not validate provider-specific prerequisites.
 
-For more information on RIR requests and their process states, see [Risk intelligence report requests management](../../grc-workspace-vrm/reference/tprm-ws-dd-mgt-pg-rir-tab.md).
+For more information on RIR requests and their process states, see [Risk intelligence report requests management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-rir-tab.md).
 
 **Note:** You can’t have multiple RIR requests with the same provider, request type, or third party. For example, if you have already associated an RIR request with a third party, you can’t request the same report from the same provider as part of a due diligence request for an engagement. This process helps with preventing duplicate orders from being submitted to the provider.
 
-You can manually add scores to third parties and use the Risk intelligence scores related list to review the background information on the existing scores for a third party. For more information, see [Add a risk intelligence score to risk data for a third party](../task/tprm-riskintelprvdr-add-score.md).
+You can manually add scores to third parties and use the Risk intelligence scores related list to review the background information on the existing scores for a third party. For more information, see [Add a risk intelligence score to risk data for a third party](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-add-score.md).
 
 ## Tracking sanctions-related information
 
-By tracking sanction-related information about your third parties, you can check if that third party is involved in any activities that are prohibited or restricted by government sanctions or regulations. Logging and updating sanctions-related information for third parties keeps your team informed as you review and approve a due diligence request as part of your third-party risk program. For more information about tracking sanctions-related information, see [Track sanctions-related information](../task/tprm-riskintel-track-sanctions.md).
+By tracking sanction-related information about your third parties, you can check if that third party is involved in any activities that are prohibited or restricted by government sanctions or regulations. Logging and updating sanctions-related information for third parties keeps your team informed as you review and approve a due diligence request as part of your third-party risk program. For more information about tracking sanctions-related information, see [Track sanctions-related information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-riskintel-track-sanctions.md).
 

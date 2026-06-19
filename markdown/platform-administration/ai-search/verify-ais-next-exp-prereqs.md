@@ -2,6 +2,7 @@
 title: Verify that your instance meets the prerequisites for AI Search for Next Experience
 description: Walk through Guided Setup tasks to confirm that your instance meets the requirements for AI Search for Next Experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/verify-ais-next-exp-prereqs.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -17,7 +18,7 @@ Walk through Guided Setup tasks to confirm that your instance meets the requirem
 
 ## Before you begin
 
-The AI Search for Next Experience ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install AI Search for Next Experience](install-ais-next-experience-app.md).
+The AI Search for Next Experience ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/install-ais-next-experience-app.md).
 
 Role required: ais\_admin
 
@@ -53,7 +54,7 @@ The **Prerequisites** Guided Setup tasks walk you through verifying that your in
 
     3.  If the system reports any other enablement status, ask your administrator to enable Next Experience on your instance, then repeat this task after it's enabled.
 
-        For details on enabling Next Experience, see [Enable Next Experience](https://www.servicenow.com/docs/access?context=next-experience-adoption-paths&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+        For details on enabling Next Experience, see Enable Next Experience.
 
 6.  Index content and metadata for AI Search indexed sources used in global search.
 
@@ -61,20 +62,20 @@ The **Prerequisites** Guided Setup tasks walk you through verifying that your in
 
         The AI Search Indexed Sources list opens in a new browser tab.
 
-    2.  Select all indexed sources marked with the alert triangle icon ![](../image/icon-alert-triangle.png), then index their content by selecting **Actions on selected rows…** &gt; **Index All Tables**.
+    2.  Select all indexed sources marked with the alert triangle icon \[Omitted image "icon-alert-triangle.png"\] Alt text:, then index their content by selecting **Actions on selected rows…** &gt; **Index All Tables**.
 
-        For more information on indexing tables from multiple indexed sources, see [Perform a full table index or reindex for multiple AI Search indexed sources](index-multiple-sources-ais.md).
+        For more information on indexing tables from multiple indexed sources, see [Perform a full table index or reindex for multiple AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/index-multiple-sources-ais.md).
 
     3.  When indexing is complete, close the browser tab and return to the **Prerequisites** Guided Setup category tab.
 
     4.  Select **Mark as Complete** for the **Index searchable content and metadata for global search sources** task.
 
-7.  When all three **Prerequisites** tasks are marked as complete, select the Back icon ![](../image/icon-back.png) to return to the top-level **Guided Setup for Zing to AI Search Migration** page.
+7.  When all three **Prerequisites** tasks are marked as complete, select the Back icon \[Omitted image "icon-back.png"\] Alt text: to return to the top-level **Guided Setup for Zing to AI Search Migration** page.
 
 
 ## What to do next
 
-Now that you've satisfied the prerequisites, it's time to migrate your existing Zing search application configurations for use with AI Search. For details on this procedure, see [Migrate Zing search application configurations to AI Search](migrate-srch-apps-ais-next-exp.md).
+Now that you've satisfied the prerequisites, it's time to migrate your existing Zing search application configurations for use with AI Search. For details on this procedure, see [Migrate Zing search application configurations to AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/migrate-srch-apps-ais-next-exp.md).
 
-**Parent Topic:**[Configuring AI Search for Next Experience](../concept/configuring-ais-next-experience.md)
+**Parent Topic:**[Configuring AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configuring-ais-next-experience.md)
 

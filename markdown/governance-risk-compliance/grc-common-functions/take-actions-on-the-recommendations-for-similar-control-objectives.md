@@ -2,6 +2,7 @@
 title: Act on the recommendations for similar control objectives
 description: Act on the recommendations by identifying, deduplicating, and rationalizing similar control objectives within the compliance library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/take-actions-on-the-recommendations-for-similar-control-objectives.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -19,7 +20,7 @@ Act on the recommendations by identifying, deduplicating, and rationalizing simi
 
 Role required: sn\_reco\_template.rationalization\_process\_writer and sn\_grc\_shared\_genai.compliance\_gen\_ai\_user
 
-For more information on related roles, see [Roles installed with GRC: Policy and Compliance Management](../reference/r_InstallWPolAndCompl.md#).
+For more information on related roles, see [Roles installed with GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md).
 
 ## About this task
 
@@ -31,7 +32,7 @@ Now Assist for Integrated Risk Management \(IRM\) introduces an AI-powered ratio
 
 1.  Navigate to **Workspaces** &gt; **Compliance Workspace**.
 
-2.  Select ![](../../grc-compliance-case-mgmt/image/list-icon.png)\).
+2.  Select \[Omitted image "list-icon.png"\]\).
 
 3.  Navigate to **Rationalization process** &gt; **Control objectives**.
 
@@ -106,7 +107,7 @@ Provides a view of activities related to the recommendation card. In the Analyze
     |Impacted items|Related lists that contain the items that are directly affected by the consolidation of the control objectives.|
     |Associated items|Related lists that contain all the associations from accepted control objectives in a consolidated view.|
 
-7.  View the full record for a control objective by selecting the details icon \(![Details icon.](../../grc-privacy-management/image/details-icon.jpg)\).
+7.  View the full record for a control objective by selecting the details icon \(\[Omitted image "details-icon.jpg"\] Alt text: Details icon.\).
 
 8.  In the Analyze state, act on recommendations through a two-step process: Identify duplicates and Finalize.
 
@@ -138,7 +139,7 @@ Provides a view of activities related to the recommendation card. In the Analyze
     -   When an accepted control objective is deactivated, all impacted items are automatically moved to inactive state.
 9.  Select **Request review**.
 
-    -   For more information on review request, see [Review actions taken on rationalization process](review-actions-taken-on-rationalization-process.md).
+    -   For more information on review request, see [Review actions taken on rationalization process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/review-actions-taken-on-rationalization-process.md).
     -   The actions you take on the recommendations are sent for review to the configured reviewers. The reviewer can accept or reject your actions and provide their justifications.
 10. Select **Summary**.
 
@@ -159,7 +160,7 @@ Provides a view of activities related to the recommendation card. In the Analyze
     -   Impacted and associated items display pre-calculated data, updated daily. Since recommendations can change this data, select **Sync Related Items** to sync in real-time and view the latest data on impacted items and associations.
 13. To approve the Consolidated step, initiate the review process by selecting **Request review**.
 
-    The reviewer can review the action taken by the owner on all the impacted items. The reviewer can accept or reject your actions and provide their justifications. They can also act on the associations that are captured in the summary. For more information, see [Review actions taken on rationalization process](review-actions-taken-on-rationalization-process.md).
+    The reviewer can review the action taken by the owner on all the impacted items. The reviewer can accept or reject your actions and provide their justifications. They can also act on the associations that are captured in the summary. For more information, see [Review actions taken on rationalization process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/review-actions-taken-on-rationalization-process.md).
 
 14. Select the bulb icon on the right to access the Feedback trail section.
 

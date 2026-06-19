@@ -2,7 +2,10 @@
 title: Train the similarity solution definition to find similar existing major cases
 description: To enable finding related major cases in a cluster, you must first update and train the similarity solution definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/solution-definition-trending-case.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -33,7 +36,7 @@ You can modify the fields, filters, update frequency, and training frequency.
 
 3.  On the Similarity Definition form, verify the default field values.
 
-    For more information about the Similarity Definition form fields, see [Create and train a similarity solution](https://www.servicenow.com/docs/access?context=create-similarity-solution&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+    For more information about the Similarity Definition form fields, see Create and train a similarity solution.
 
 4.  Change the fields and filters, as required.
 

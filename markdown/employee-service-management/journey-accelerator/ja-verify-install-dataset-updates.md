@@ -2,6 +2,7 @@
 title: Verify the Journey Accelerator installation
 description: Verify the installation and updates are correctly applied for the Journey Accelerator application by using demo data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-accelerator/ja-verify-install-dataset-updates.html
 release: zurich
 product: Journey Accelerator
 classification: journey-accelerator

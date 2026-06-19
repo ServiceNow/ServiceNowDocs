@@ -2,7 +2,10 @@
 title: Creating a responsibility access configuration
 description: Create responsibility access configurations to add or modify access for various user relationships using different association types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/creating-responsibility-access-configuration.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 4
@@ -29,7 +32,7 @@ As an administrator, you can use this flexible framework to either create a resp
 
 You can use this association when there’s a direct relationship between the user and the target record. This association type uses direct field matching and doesn’t require intermediate tables or custom logic.
 
-![A screenshot displaying how access to case records is granted using a simple relationship association.](../image/simple-association.png "Simple association workflow")
+\[Omitted image "simple-association.png"\] Alt text: A screenshot displaying how access to case records is granted using a simple relationship association.
 
 **Simple association workflow**
 
@@ -51,7 +54,7 @@ This approach confirms that access is granted efficiently when there’s a clear
 
 You can use this association when access must be determined through an intermediate relationship, often involving a many-to-many \(M2M\) table. This setup is common when a requester’s connection to a record is established indirectly through related items.
 
-![A screenshot displaying how access to case records is granted using a dependent relationship association.](../image/dependent-association.png "Dependent association workflow")
+\[Omitted image "dependent-association.png"\] Alt text: A screenshot displaying how access to case records is granted using a dependent relationship association.
 
 **Dependent association workflow**
 
@@ -71,7 +74,7 @@ This approach confirms that access is granted only when a valid relationship exi
 
 You can use this association in complex scenarios where simple relationship-based access is insufficient. This association type relies on custom script logic to validate requester's access across multiple related records.
 
-![A screenshot displaying how access to case records is granted using an advanced relationship association.](../image/advanced-association.png "Advanced association workflow")
+\[Omitted image "advanced-association.png"\] Alt text: A screenshot displaying how access to case records is granted using an advanced relationship association.
 
 **Advanced association workflow**
 

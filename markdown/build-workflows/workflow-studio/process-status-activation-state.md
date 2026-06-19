@@ -2,6 +2,7 @@
 title: Playbook statuses and activation states
 description: View your playbook's status in the main header of the Playbooks builder. This status indicates whether the playbook is active or inactive.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/process-status-activation-state.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -30,5 +31,5 @@ Playbook statuses include:
 
 Creating a new playbook sets its status to Draft. Once you activate your playbook, its status changes to Published. If you make changes after activating, your new changes won't be published until you activate your playbook again.
 
-**Parent Topic:**[Playbooks reference](process-automation-designer-reference.md)
+**Parent Topic:**[Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer-reference.md)
 

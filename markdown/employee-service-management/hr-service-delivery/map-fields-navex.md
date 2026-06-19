@@ -2,6 +2,7 @@
 title: Map fields
 description: Map ServiceNow fields with the fields that are pulled from NAVEX EthicsPoint. Enable an HR Agent to work on employee relation cases from a ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/map-fields-navex.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

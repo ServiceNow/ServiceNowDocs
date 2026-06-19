@@ -2,6 +2,7 @@
 title: Translation support for Microsoft Teams notification campaigns
 description: ServiceNow for Microsoft Teams supports localization to ServiceNow supported languages in campaigns.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/campaign-translation-support-st.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,15 +18,15 @@ ServiceNow for Microsoft Teams supports localization to ServiceNow supported lan
 
 ServiceNow translates campaign content into the user-specific language set in your ServiceNow instance. If you have not set a user-specific language, the Microsoft Teams application delivers campaign content in the default global language set on your system.
 
-You must activate the localized plugins in your instance to use this feature. For more information about plugins and installing the language plugin for ServiceNow supported languages, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+You must activate the localized plugins in your instance to use this feature. For more information about plugins and installing the language plugin for ServiceNow supported languages, see Activate a language.
 
-For more information about language settings for an instance, see [Set default language for an instance](https://www.servicenow.com/docs/access?context=r_GlobalLanguage&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) and [User specific language](https://www.servicenow.com/docs/access?context=r_UserSpecificLanguage&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For more information about language settings for an instance, see Set default language for an instance and User specific language.
 
-For more information about creating campaigns, see [Create a Microsoft Teams campaign using direct content publishing](create-campaign-content-publishing.md) and [Create Microsoft Teams campaigns using the Content Experience Builder](create-campaign-content-experience-builder.md).
+For more information about creating campaigns, see [Create a Microsoft Teams campaign using direct content publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/create-campaign-content-publishing.md) and [Create Microsoft Teams campaigns using the Content Experience Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/create-campaign-content-experience-builder.md).
 
-For more information about scheduling and executing a job, see [Scheduled jobs](https://www.servicenow.com/docs/access?context=c_ScheduledJobs&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For more information about scheduling and executing a job, see Scheduled jobs.
 
-**Note:** The **Title**, **Subject**, and **Description** field labels in the Notification content form are translated. For more information, see [Create notification content for Microsoft Teams](../task/create-campaign-content-publish-ms-teams.md).
+**Note:** The **Title**, **Subject**, and **Description** field labels in the Notification content form are translated. For more information, see [Create notification content for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/create-campaign-content-publish-ms-teams.md).
 
-**Parent Topic:**[Working on campaigns in Microsoft Teams](using-campaigns-ms-teams.md)
+**Parent Topic:**[Working on campaigns in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/using-campaigns-ms-teams.md)
 

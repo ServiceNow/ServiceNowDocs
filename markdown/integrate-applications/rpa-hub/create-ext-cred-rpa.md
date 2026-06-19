@@ -2,6 +2,7 @@
 title: Create an external credential vault record in RPA Hub
 description: Create an external credential vault record in RPA Hub to register your external credential vault for further usage by the robot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/create-ext-cred-rpa.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -17,9 +18,9 @@ Create an external credential vault record in RPA Hub to register your external 
 
 ## Before you begin
 
-Familiarize yourself with the external credentials concepts. For more information, see [External credential vault in RPA Hub](../concept/external-credentials-rpa.md).
+Familiarize yourself with the external credentials concepts. For more information, see [External credential vault in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/external-credentials-rpa.md).
 
-Verify that you’ve completed the tasks that are related to configuring the external credentials in RPA Hub. For more information, see [Steps to configure an external credential vault in RPA Hub](../reference/config-ext-cred-rpa.md).
+Verify that you’ve completed the tasks that are related to configuring the external credentials in RPA Hub. For more information, see [Steps to configure an external credential vault in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/config-ext-cred-rpa.md).
 
 Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn.rpa\_admin
 
@@ -35,7 +36,7 @@ You can’t deactivate an external credential vault record, if it’s associated
 
 1.  Navigate to **All** &gt; **Robotic Process Automation** &gt; **RPA Hub Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/rpahublist-icon.png)\).
+2.  Select the list icon \(\[Omitted image "rpahublist-icon.png"\] Alt text: List icon.\).
 
 3.  On the **Lists** tab, under **Credential Management**, select **External Credential Vaults**.
 

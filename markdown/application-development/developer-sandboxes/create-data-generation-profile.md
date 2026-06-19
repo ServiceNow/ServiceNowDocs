@@ -2,6 +2,7 @@
 title: Create a Data Generation Profile
 description: Create a Data Generation Profile to generate data such as incidents or users for your sandbox. Data Generation Profiles are associated with Developer Sandboxes Templates, so they can run and generate synthetic development data when a sandbox is allocated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/developer-sandboxes/create-data-generation-profile.html
 release: zurich
 product: Developer Sandboxes
 classification: developer-sandboxes
@@ -19,7 +20,7 @@ Create a Data Generation Profile to generate data such as incidents or users for
 
 Developer Sandboxes can't copy all instance data. Data Generation Profiles enable you to generate fake data, but not your sensitive data, for building and testing an application.
 
-For more information on Data Generation Profiles, see [Data Generation Profiles in Developer Sandboxes](../concept/dev-sbx-data-gen-profiles.md).
+For more information on Data Generation Profiles, see [Data Generation Profiles in Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/dev-sbx-data-gen-profiles.md).
 
 ## Before you begin
 
@@ -35,19 +36,19 @@ Configure the `glide.data.generation.excluded.tables` property to create a comma
 
 2.  Select **New**.
 
-    ![Select New to add a profile](../image/dev-sbx-data-gen-new.png "Data Generation Profiles home")
+    \[Omitted image "dev-sbx-data-gen-new.png"\] Alt text: Select New to add a profile
 
 3.  Enter a name and select **Submit**.
 
-    ![Give the profile a name](../image/dev-sbx-data-gen-new2.png "Submit the profile")
+    \[Omitted image "dev-sbx-data-gen-new2.png"\] Alt text: Give the profile a name
 
 4.  Navigate back to **Data Generation Profiles** and select your newly created profile from the list.
 
-    ![Select your new profile](../image/dev-sbx-data-gen-new3.png "New profile in list")
+    \[Omitted image "dev-sbx-data-gen-new3.png"\] Alt text: Select your new profile
 
 5.  Select **New** in the Data Generation Definitions related list of the Data Generation Profile record.
 
-    ![Select the New button](../image/dev-sbx-data-gen-new4.png "New related list")
+    \[Omitted image "dev-sbx-data-gen-new4.png"\] Alt text: Select the New button
 
 6.  On the form, fill in the fields.
 
@@ -62,17 +63,17 @@ Configure the `glide.data.generation.excluded.tables` property to create a comma
 
 7.  Select **Submit**.
 
-    ![Fill in the fields and select Submit](../image/dev-sbx-data-gen-new5.png "Submit new Data Generation record")
+    \[Omitted image "dev-sbx-data-gen-new5.png"\] Alt text: Fill in the fields and select Submit
 
 8.  Configure field mappings for your definition by selecting the definition from the related list.
 
     You don't need to map every field, but you can create mappings to curate data for specific types of development.
 
-    ![Select your new profile](../image/dev-sbx-data-gen-new6.png "Select definition from list")
+    \[Omitted image "dev-sbx-data-gen-new6.png"\] Alt text: Select your new profile
 
     1.  Select **New** in the Data Generation Field Mappings related list.
 
-        ![Select the New button](../image/dev-sbx-data-gen-new7.png "Add new mappings")
+        \[Omitted image "dev-sbx-data-gen-new7.png"\] Alt text: Select the New button
 
     2.  On the form, fill in the fields.
 
@@ -156,7 +157,7 @@ How the records will be generated:-   **Random**
 </td></tr></tbody>
 </table>    3.  Select **Submit**.
 
-        ![Complete the form and select Submit](../image/dev-sbx-data-gen-new8.png "Map the field")
+        \[Omitted image "dev-sbx-data-gen-new8.png"\] Alt text: Complete the form and select Submit
 
 
 ## Result

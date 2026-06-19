@@ -2,6 +2,7 @@
 title: Configure Aha! Roadmaps for external content indexing
 description: Generate an API key in Aha! Roadmaps to allow the Aha! Roadmaps external content connector to access content from your workspaces.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-aha-roadmaps-external-content-indexing.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -28,7 +29,7 @@ Role required: none
 
 The Aha! Roadmaps external content connector retrieves Features, Goals, Ideas, Notes, and Releases from workspaces in your Aha! Roadmaps source system using the Aha! REST API.
 
-To allow the connector to access your Aha! Roadmaps content via the REST API, you must generate an API key in Aha! Roadmaps. Your connector admin can use this API key to configure the Aha! Roadmaps external connector for proper connection to your source system.
+To allow the connector to access your Aha! Roadmaps content via the REST API, you must generate an API key in Aha! Roadmaps. Your connector administrator can use this API key to configure the Aha! Roadmaps external connector for proper connection to your source system.
 
 ## Procedure
 
@@ -42,19 +43,19 @@ To allow the connector to access your Aha! Roadmaps content via the REST API, yo
 
     4.  Copy your new API key and store it in a secure location.
 
-        **Important:** Your external content connector admin needs this API key when configuring the Aha! Roadmaps external content connector.
+        **Important:** Your external content connector administrator needs this API key when configuring the Aha! Roadmaps external content connector.
 
 
 ## What to do next
 
-Provide the following items to your connector admin:
+Provide the following items to your connector administrator:
 
 -   The host URL for your Aha! Roadmaps instance. This is typically `https://<organization>.aha.io/`, where `<organization>` is the name of your organization.
--   The API key value that you copied in step [1.d](configure-aha-roadmaps-external-content-indexing.md#copy-api-key-step).
+-   The API key value that you copied in step [1.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-aha-roadmaps-external-content-indexing.md).
 
-Your connector admin needs these items to configure a Aha! Roadmaps external content connector to retrieve Features, Goals, Ideas, Notes, and Releases and security principals from your Aha! Roadmaps source system.
+Your connector administrator needs these items to configure a Aha! Roadmaps external content connector to retrieve Features, Goals, Ideas, Notes, and Releases and security principals from your Aha! Roadmaps source system.
 
-For details on creating and configuring a Aha! Roadmaps external content connector, see [Create an Aha! Roadmaps external content connector](create-ext-cont-connector-aha-roadmaps.md).
+For details on creating and configuring a Aha! Roadmaps external content connector, see [Create an Aha! Roadmaps external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-aha-roadmaps.md).
 
-**Parent Topic:**[Aha! Roadmaps external content connector](../concept/aha-roadmaps-external-content-connector.md)
+**Parent Topic:**[Aha! Roadmaps external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/aha-roadmaps-external-content-connector.md)
 

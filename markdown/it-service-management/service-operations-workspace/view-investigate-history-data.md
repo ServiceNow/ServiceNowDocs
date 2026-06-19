@@ -2,6 +2,7 @@
 title: Viewing the historical data of CI metrics
 description: View the historical data of the CI metrics for the selected time range.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/view-investigate-history-data.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -36,5 +37,5 @@ You can do the following on the history tab:
 
 -   Click a data point \(represents specific date or time\) on the scatter plot to display the data of all the CI metrics on the Metrics snapshot section along with the date and time.
 
-**Parent Topic:**[Features of the Investigation tab](features-of-investigation-tab.md)
+**Parent Topic:**[Features of the Investigation tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/features-of-investigation-tab.md)
 

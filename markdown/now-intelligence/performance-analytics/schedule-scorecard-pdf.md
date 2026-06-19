@@ -2,6 +2,7 @@
 title: Schedule the export and distribution of an indicator
 description: Schedule an indicator to automate its distribution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/schedule-scorecard-pdf.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -17,13 +18,19 @@ Schedule an indicator to automate its distribution.
 
 ## Before you begin
 
-This feature requires the licensed version of [Performance Analytics](../concept/c_PremiumPerformanceAnalytics.md#).
+This feature requires the licensed version of [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
+
+**Note:** This feature currently does not support Data snapshots indicators.
 
 Role required: pa\_power\_user, pa\_admin, or admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Scheduled Indicators** and create a new record.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Schedules** &gt; **Scheduled Indicators**.
+
+2.  Select **New**.
+
+3.  Complete the form as follows:
 
 <table id="table_nys_fdc_p1b"><thead><tr><th>
 

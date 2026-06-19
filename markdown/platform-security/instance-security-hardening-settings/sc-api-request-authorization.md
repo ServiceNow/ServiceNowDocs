@@ -2,6 +2,7 @@
 title: Require authorization for API requests \[Updated in Security Center 1.3\]
 description: Use the glide.basicauth.required.api property to enhance security for basic authorization for incoming REST requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-api-request-authorization.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -25,12 +26,12 @@ Set the **glide.basicauth.required.api** property to **true** to require authori
 |---------|-----------|
 |Property name|**glide.basicauth.required.api**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[API and web service](sc-api-web-service.md)|
+|Category|[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)|
 |Purpose|Basic authorization for incoming REST requests.|
 |Recommended value|True \(default\)|
 |Configuration type|String|
 |Security risk|\(High\) If "glide.basicauth.required.api" is not set to the recommended value of "true", then this will disable Basic Authentication on API request and will lead to unauthenticated access to instance data.|
 |Security risk rating|8.6|
 
-**Parent Topic:**[API and web service](sc-api-web-service.md)
+**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 

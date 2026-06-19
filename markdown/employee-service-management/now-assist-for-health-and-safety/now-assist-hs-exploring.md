@@ -2,11 +2,12 @@
 title: Exploring Now Assist for Health and Safety
 description: With the Now Assist for Health and Safety application, safety agents and managers can use generative AI to summarize the safety incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-exploring.html
 release: zurich
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Now Assist for Health and Safety, Health and Safety, Employee Service Management]
 ---
@@ -34,8 +35,8 @@ Use the following skill provided by the Now Assist for Health and Safety applica
     -   Action
     The following example shows an AI-generated incident summary.
 
-    ![AI-generated summary for a Health and Safety incident.](../image/na-hs-incident-summarization.png "Health and Safety incident summarization example")
+    \[Omitted image "na-hs-incident-summarization.png"\] Alt text: AI-generated summary for a Health and Safety incident.
 
 
-For information on activating the Health and Safety incident summarization skill, see [Configuring Now Assist for Health and Safety](now-assist-hs-configuring.md). For information on how to use this skill on Health and Safety Workspace, see [Summarize a safety incident by using Now Assist for Health and Safety](../task/now-assist-hs-summarize-safety-incident.md).
+For information on activating the Health and Safety incident summarization skill, see [Configuring Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md). For information on how to use this skill on Health and Safety Workspace, see [Summarize a safety incident by using Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-summarize-safety-incident.md).
 

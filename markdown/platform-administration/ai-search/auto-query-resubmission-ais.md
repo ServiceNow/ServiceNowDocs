@@ -2,6 +2,7 @@
 title: Automatic search query resubmission
 description: When a search query returns too few results, AI Search automatically modifies and resubmits it with the goal of returning at least the desired number of results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/auto-query-resubmission-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -15,7 +16,7 @@ breadcrumb: [Search, AI Search, Search administration, Configure core features, 
 
 When a search query returns too few results, AI Search automatically modifies and resubmits it with the goal of returning at least the desired number of results.
 
-Search administrators configure the minimum number of desired results per search query using the **Search Results Limit** field in search application configurations. For more details, see [Create a search application configuration for AI Search](../task/create-search-app-config-ais.md).
+Search administrators configure the minimum number of desired results per search query using the **Search Results Limit** field in search application configurations. For more details, see [Create a search application configuration for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-search-app-config-ais.md).
 
 ## AND-to-OR search query resubmission
 
@@ -36,5 +37,5 @@ Automatic search query resubmission ignores search queries that meet any of the 
 -   The original search query only includes a single term.
 -   The original search query includes 8 or more terms and returns at least one search result.
 
-**Parent Topic:**[Searching in AI Search](use-ais.md)
+**Parent Topic:**[Searching in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/use-ais.md)
 

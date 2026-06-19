@@ -2,6 +2,7 @@
 title: Key Management Framework Key Exchange
 description: KMF Key Exchange is a subset function of KMF Resource Exchange. Key Exchange securely transfers encrypted data across multiple instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/platform-encryption/kmf-key-exchange-overview.html
 release: zurich
 product: Platform Encryption
 classification: platform-encryption
@@ -21,7 +22,7 @@ Key Exchange securely transfers keys across instances.
 
 KMF Key Exchange provides a secure way for customers to exchange KMF keys between instances. One application use case is the data cloning process. With Key Exchange, crypto module keys are copied over during the data cloning of KMF components. Cryptographic modules, module key specifications, and module access policies are included in the cloning process. Transfer of keys isn’t included.
 
-This functionality is included with the Key Management Framework, which is included in the ServiceNow AI Platform Encryption subscription bundle. For details on this product, see [Key Management Framework](../../encryption/concept/encryption.md).
+This functionality is included with the Key Management Framework, which is included in the ServiceNow AI Platform Encryption subscription bundle. For details on this product, see [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/encryption.md).
 
 ## Using Key Exchange
 
@@ -46,5 +47,5 @@ Key Exchange supports several modes on the encryption module crypto specificatio
 |Manual \(person in the loop\)|The administrator sends an on-demand request on the target instance to the source. The request must be approved by an administrator on the key source instance.|
 |Rekey \(automated request\)|The administrator selects the option of rekey during the cloning setup process.|
 
-**Parent Topic:**[Key Management Framework Resource Exchange](resource-exchange.md)
+**Parent Topic:**[Key Management Framework Resource Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/resource-exchange.md)
 

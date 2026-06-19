@@ -2,6 +2,7 @@
 title: Edit a purchase for an Insufficient Funds invoice exception
 description: Edit a purchase to resolve invoice exceptions of type Insufficient Funds \(Amount variance\) and Insufficient Funds \(Quantity variance\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/edit-purchase-insufficient-funds.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -21,7 +22,7 @@ Role required: sn\_shop.shopper
 
 ## About this task
 
-For more information about editing a purchase order line, see [Edit a purchase order line](../../sourcing-procurement-operations/task/edit-purchase-order.md).
+For more information about editing a purchase order line, see [Edit a purchase order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/edit-purchase-order.md).
 
 ## Procedure
 
@@ -46,7 +47,7 @@ The purchase is edited to resolve invoice exceptions of type Insufficient Funds 
 
 ## What to do next
 
-Mark the Insufficient Funds exception task as complete. For more information, see [Mark an exception task as complete from Employee Center](complete-exception-task-ec.md).
+Mark the Insufficient Funds exception task as complete. For more information, see [Mark an exception task as complete from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/complete-exception-task-ec.md).
 
-**Parent Topic:**[Work on an invoice exception](work-invoice-exception-case.md)
+**Parent Topic:**[Work on an invoice exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/work-invoice-exception-case.md)
 

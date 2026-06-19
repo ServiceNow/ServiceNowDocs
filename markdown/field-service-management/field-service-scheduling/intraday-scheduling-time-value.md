@@ -2,6 +2,7 @@
 title: Change the value for agents being considered early or late
 description: Change the value that determines whether an agent is early or late.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/intraday-scheduling-time-value.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling

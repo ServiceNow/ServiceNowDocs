@@ -2,7 +2,10 @@
 title: Create a product model
 description: Create a record for a type of product that your company sells and supports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/c\_CreateAProductModel.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -42,7 +45,7 @@ Product models provide customer service agents and customers with a common under
     -   **Software**
 4.  Fill in the fields for the selected product model as appropriate.
 
-    See [Model form fields](https://www.servicenow.com/docs/access?context=r_ModelFormFields&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US) for field descriptions.
+    See Model form fields for field descriptions.
 
 5.  Select **Submit**.
 

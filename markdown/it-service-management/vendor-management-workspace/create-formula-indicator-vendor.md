@@ -2,6 +2,7 @@
 title: Add a formula indicator to track vendor score
 description: Create a custom formula indicator to add to your calculation for the vendor score. Add the indicator to your KPI group to analyze the score.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/vendor-management-workspace/create-formula-indicator-vendor.html
 release: zurich
 product: Vendor Management Workspace
 classification: vendor-management-workspace
@@ -99,5 +100,5 @@ Rounding of the fractional results.
 
 The formula indicator is added to the KPI group and is used for calculating the vendor score in Vendor Management Workspace.
 
-For detailed information on creating a formula indicator, see [Create a formula indicator](https://www.servicenow.com/docs/access?context=t_CreateAFormulaIndicator&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+For detailed information on creating a formula indicator, see .
 

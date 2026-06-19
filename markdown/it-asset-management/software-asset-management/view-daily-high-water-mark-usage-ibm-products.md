@@ -2,6 +2,7 @@
 title: View devices with the highest daily usage of your IBM software products
 description: View the breakdown for the highest daily usage of your IBM software products by physical host based on both the edition and license metric of each product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/view-daily-high-water-mark-usage-ibm-products.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -36,5 +37,5 @@ Role required: sam\_admin or sam\_user
 4.  View the list of physical hosts with the highest daily usage of your IBM software products.
 
 
-**Parent Topic:**[Authorized SAM Provider \(ASP\) integrations for IBM](../concept/ibm-asp-integration.md)
+**Parent Topic:**[Authorized SAM Provider \(ASP\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/ibm-asp-integration.md)
 

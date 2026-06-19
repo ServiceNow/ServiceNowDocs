@@ -2,6 +2,7 @@
 title: Security Incident Response Integration with Cortex XSIAM by Palo Alto Networks
 description: Security Incident Response Integration with Cortex XSIAM by Palo Alto Networks ingests Alerts and Incidents from Cortex XSIAM into ServiceNow's Security Incident Response platform, enabling seamless post-incident management while maintaining bi-directional status and work note synchronization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/cortex-xsiam-siem.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -17,7 +18,7 @@ Security Incident Response Integration with Cortex XSIAM by Palo Alto Networks i
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Overview of Cortex XSIAM integration
 
@@ -25,7 +26,7 @@ Security teams can leverage XSIAM's detection capabilities alongside ServiceNowÂ
 
 See the following graphic to learn how Cortex XSIAM integrates with the ServiceNow AI Platform Security Operations applications.
 
-![Pan XSIAM process overview](../image/pan-xsiam.png)
+\[Omitted image "pan-xsiam.png"\] Alt text: Pan XSIAM process overview
 
 ## Key Features
 

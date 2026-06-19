@@ -2,6 +2,7 @@
 title: Assignment rule form
 description: Learn about the fields on the assignment rule form. Use this form to define case assignment rules in the Privacy Case Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/prm-assignment-rule-form.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -33,5 +34,5 @@ For a description of the field values, see the following table:
 |Script|
 |Script|Script to define advanced assignment rule.|
 
-**Parent Topic:**[Create an assignment rule](../task/prm-create-assignment-rule.md)
+**Parent Topic:**[Create an assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/prm-create-assignment-rule.md)
 

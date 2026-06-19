@@ -2,6 +2,7 @@
 title: Employees view and complete action plans
 description: View, manage, and track your action plan progress from the Employee Center portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-accelerator/ja-employee-plan.html
 release: zurich
 product: Journey Accelerator
 classification: journey-accelerator
@@ -42,5 +43,5 @@ Your manager creates plans for different employee transition events. When you ca
     -   **Comments**: Sends messages to the plan manager.
     -   **Attachments**: Adds files, such as certificates of completion, for training or other documents.
 
-**Parent Topic:**[Working with Journey Accelerator plans](../concept/working-with-journey-accelerator-plans.md)
+**Parent Topic:**[Working with Journey Accelerator plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/working-with-journey-accelerator-plans.md)
 

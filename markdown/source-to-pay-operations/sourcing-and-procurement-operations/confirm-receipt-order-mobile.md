@@ -2,6 +2,7 @@
 title: Confirm receipt of your order from your mobile device
 description: Provide confirmation of receipt of the items you ordered that are in pending receipt state, from your mobile application, so that payment is processed to the supplier accordingly. If you have not received the complete order, you can confirm receipt of a part of your order as well with the date when you received them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/confirm-receipt-order-mobile.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -9,7 +10,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [confirm receipt of an order, order confirmation from mobile]
-breadcrumb: [Shopper to-dos on your mobile, Using Shopping Hub Mobile, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Shopper to-dos on your mobile, Using Shopping Hub Mobile, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Confirm receipt of your order from your mobile device
@@ -34,15 +35,15 @@ Role required: sn\_shop.shopper
 
 5.  Do one of these actions.
 
-<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d32161e90">
+<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d34899e99">
 
 Action
 
-</th><th align="left" id="d32161e93">
+</th><th align="left" id="d34899e102">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d32161e99">
+</th></tr></thead><tbody><tr><td id="d34899e108">
 
 **Received**
 
@@ -54,7 +55,7 @@ Swipe left on the line item, and select **Received** to confirm receipt of the s
 -   **Date received**: Date when you received the items.
 
 
-</td></tr><tr><td id="d32161e130">
+</td></tr><tr><td id="d34899e139">
 
 **Received \(Details screen\)**
 
@@ -72,5 +73,5 @@ Tap on the line item to view the Details screen with the list of all the items p
 6.  Tap the Next icon.
 
 
-**Parent Topic:**[Shopper to-dos on your mobile](../reference/shopper-todos-mobile.md)
+**Parent Topic:**[Shopper to-dos on your mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos-mobile.md)
 

@@ -2,6 +2,7 @@
 title: Install Lead-to-Cash Process Management
 description: You can install the Lead-to-Cash Process Management application \(app-l2c-cockpit\) if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/install-lead-cash-process-management.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -30,7 +31,7 @@ The following items are installed with Lead-to-Cash Process Management:
 -   Tables
 -   Properties
 
-For more information, see [Components installed with Lead-to-Cash Process Management](../reference/components-installed-lead-cash-process-management.md) and [Properties installed with Lead-to-Cash Process Management](../reference/properties-installed-lead-cash-process-management.md).
+For more information, see [Components installed with Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/components-installed-lead-cash-process-management.md) and [Properties installed with Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/properties-installed-lead-cash-process-management.md).
 
 ## Procedure
 
@@ -57,11 +58,11 @@ For more information, see [Components installed with Lead-to-Cash Process Manage
 
 ## Result
 
-The Lead-to-Cash Process Management application is installed on your instance. The Business Object Core application is auto-installed as a dependency. For more information, see [Components installed with Business Object Core](../reference/components-installed-business-object-core.md).
+The Lead-to-Cash Process Management application is installed on your instance. The Business Object Core application is auto-installed as a dependency. For more information, see [Components installed with Business Object Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/components-installed-business-object-core.md).
 
 The O2C Objects business object group also becomes available. It contains entities involved in the opportunity-to-cash process, such as opportunity, quote, and order. You can use this group provided you have Opportunity Management, Quote Management, and Order Management apps installed on your ServiceNow instance.
 
 ## What to do next
 
-Assign roles to Lead-to-Cash Process Management users so that they can access features and perform tasks using this app. For more information, see [Assign roles to Lead-to-Cash Process Management users](assign-roles-lead-cash-process-management.md).
+Assign roles to Lead-to-Cash Process Management users so that they can access features and perform tasks using this app. For more information, see [Assign roles to Lead-to-Cash Process Management users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/assign-roles-lead-cash-process-management.md).
 

@@ -2,6 +2,7 @@
 title: Privacy assessment configurations
 description: To perform a processing activity criticality and privacy risk assessment, two risk assessment methodologies \(RAMs\) are provided by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/privacy-assessment-configurations.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -15,9 +16,9 @@ breadcrumb: [Risk assessments, Explore, Privacy Management, Governance, Risk, an
 
 To perform a processing activity criticality and privacy risk assessment, two risk assessment methodologies \(RAMs\) are provided by default.
 
-The RAM is a configuration or a record in the risk assessment engine. It is a part of the Advanced Risk application. The RAM is used for assessing either the risks or objects in your organization. A configured RAM is an object with associated assessment types that have associated factors. This allows an organization to have different methodologies for assessing risk. To understand more about the factors or questions used in the assessments, refer to [Factors in Advanced Risk Assessment](../../grc-risk/concept/factors.md).
+The RAM is a configuration or a record in the risk assessment engine. It is a part of the Advanced Risk application. The RAM is used for assessing either the risks or objects in your organization. A configured RAM is an object with associated assessment types that have associated factors. This allows an organization to have different methodologies for assessing risk. To understand more about the factors or questions used in the assessments, refer to [Factors in Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/factors.md).
 
-The privacy-specific RAM records have the **Domain** field set to **Privacy**. As a privacy administrator, you can make a copy of the default RAMs and modify them. To understand more about RAM configurations, refer to [Configure a risk assessment methodology](../../grc-risk/task/configure-ram.md). To understand how you can make a copy of a RAM, refer to and [Copy a risk assessment methodology](../../grc-risk/task/copy-ram.md).
+The privacy-specific RAM records have the **Domain** field set to **Privacy**. As a privacy administrator, you can make a copy of the default RAMs and modify them. To understand more about RAM configurations, refer to [Configure a risk assessment methodology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/configure-ram.md). To understand how you can make a copy of a RAM, refer to and [Copy a risk assessment methodology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/copy-ram.md).
 
 **Note:** Because only two RAMs are permitted for use at a time, you must retire the old criticality RAM and publish the new RAM to utilize the criticality automation.
 
@@ -32,5 +33,5 @@ It is important to consider the following points when performing risk assessment
     -   Privacy assessment responder \(sn\_privacy.assessment\_responder\)
     -   Privacy manager \(sn\_privacy.manager\)
 
-**Parent Topic:**[Risk assessments in Privacy Management](risk-assessments-in-privacy-management.md)
+**Parent Topic:**[Risk assessments in Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/risk-assessments-in-privacy-management.md)
 

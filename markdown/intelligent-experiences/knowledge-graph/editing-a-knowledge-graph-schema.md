@@ -2,6 +2,7 @@
 title: Edit a Knowledge Graph schema
 description: Edit a Knowledge Graph schema to customize or update the existing schema details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/knowledge-graph/editing-a-knowledge-graph-schema.html
 release: zurich
 product: Knowledge Graph
 classification: knowledge-graph
@@ -29,7 +30,7 @@ Role required: kg\_admin
 
     The Knowledge Graph schema​ opens in the Knowledge Graph canvas.
 
-3.  Select the edit icon \(![Edit icon.](../../now-assist-skill-kit/image/icon-edit-pencil.png)\).
+3.  Select the edit icon \(\[Omitted image "icon-edit-pencil.png"\] Alt text: Edit icon.\).
 
 4.  On the form, fill in the fields.
 
@@ -44,6 +45,6 @@ Role required: kg\_admin
 
 6.  Delete all the changes made to the Knowledge Graph schema by selecting **Discard**.
 
-    ![Discard changes.](../Images/discard-changes-in-kg-schema.png)
+    \[Omitted image "discard-changes-in-kg-schema.png"\] Alt text: Discard changes.
 
 

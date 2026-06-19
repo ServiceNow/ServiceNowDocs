@@ -2,7 +2,10 @@
 title: IT Agent dashboard for Service Operations Workspace
 description: View the closed incidents that belong to you and your assignment groups through personalized metric visualization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/it-agent-dashboard-sow.html
 release: zurich
+product: IT Service Management
+classification: it-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -15,11 +18,11 @@ View the closed incidents that belong to you and your assignment groups through 
 
 Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-Select the Dashboard icon ![Dashboard icon](../image/dashboard-icon-sow.png) to view the dashboard.
+Select the Dashboard icon \[Omitted image "dashboard-icon-sow.png"\] Alt text: Dashboard icon to view the dashboard.
 
 Procure the ITSM Pro package subscription to get additional performance analytics features.
 
-For more information on performance analytics subscription, see [Activating your Performance Analytics subscription](https://www.servicenow.com/docs/access?context=c_PremiumPerformanceAnalytics&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+For more information on performance analytics subscription, see .
 
 You can monitor data by any of the following time aggregations.
 

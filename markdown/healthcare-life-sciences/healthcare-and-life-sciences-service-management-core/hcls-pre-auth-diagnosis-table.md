@@ -2,6 +2,7 @@
 title: Pre-authorization diagnosis table
 description: The Pre-authorization diagnosis \[sn\_hcls\_pre\_auth\_diagnosis\] table stores diagnosis information pertaining to a pre-authorization for healthcare services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-pre-auth-diagnosis-table.html
 release: zurich
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -22,7 +23,7 @@ The Pre-authorization diagnosis \[sn\_hcls\_pre\_auth\_diagnosis\] table stores 
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](../concept/hcls-serv-mgmt-core-1.md).
+For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
 <table id="table_ykg_4qj_rvb"><thead><tr><th>
 
@@ -73,5 +74,5 @@ Reference
 Code used to indicate the diagnosis given by a healthcare practitioner.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](hcls-healthcare-data-tables.md)
+</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)
 

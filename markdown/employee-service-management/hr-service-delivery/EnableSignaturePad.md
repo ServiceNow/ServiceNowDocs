@@ -2,6 +2,7 @@
 title: Activate the Signature Pad plugin
 description: To activate signature pad in your application, activate the Signature Pad plugin \[com.snc.signaturepad\]. The Signature Image \[signature\_image\] table installs with this plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/EnableSignaturePad.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -37,6 +38,6 @@ You can evaluate the feature on a sub-production instance without charge by requ
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 

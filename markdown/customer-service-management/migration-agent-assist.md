@@ -2,7 +2,10 @@
 title: Agent assist
 description: Learn about how the Workspace Agent assist functions with Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/migration-agent-assist.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-11-18"
 reading_time_minutes: 1
@@ -17,5 +20,5 @@ Agent assist provides agents with automatic search results that show possible so
 
 **Note:** You may need to log in to the Developer Site to see the content.
 
-For more information about using contextual search for Agent Assist, see [Contextual search](https://www.servicenow.com/docs/access?context=c_ContextualSearch&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For more information about using contextual search for Agent Assist, see .
 

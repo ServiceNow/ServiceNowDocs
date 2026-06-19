@@ -2,6 +2,7 @@
 title: Create a MetricBase band trigger
 description: Create a MetricBase band trigger that detects when a metric value falls within a range of values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/metricbase/create-metricbase-band-trigger.html
 release: zurich
 product: MetricBase
 classification: metricbase
@@ -23,7 +24,7 @@ Role required: admin
 
 Band triggers execute when metrics fall outside of or within a range of values.
 
-![Band trigger solutions](../image/band-trigger-values.png "Band trigger values")
+\[Omitted image "band-trigger-values.png"\] Alt text: Band trigger solutions
 
 ## Procedure
 
@@ -114,14 +115,14 @@ Length of time used to calculate the aggregation function. For example, assume t
 
     |Field|Description|
     |-----|-----------|
-    |Level|Numbers that indicate increasing severity. For example, you might define the altitude for level 1 to be less than 50 meters, but above 25 meters, and the altitude for level 2 to be less than or equal to 25. Each level should trigger a different flow. **Level** is often used in Condition Scripts. See [Execute triggers conditionally](create-action-condition.md).|
+    |Level|Numbers that indicate increasing severity. For example, you might define the altitude for level 1 to be less than 50 meters, but above 25 meters, and the altitude for level 2 to be less than or equal to 25. Each level should trigger a different flow. **Level** is often used in Condition Scripts. See [Execute triggers conditionally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/metricbase/create-action-condition.md).|
     |Function|Function that makes the **Value** the maximum or minimum of the lower end of the band. Therefore, the function defines whether trigger values are inside or outside of the band. For example, if the **Function** is **Less than**, the trigger executes when the metric goes below the band value.|
     |Value|Lower end of the band. See the following image.|
     |Band Function|Function that makes the **Band Value** the maximum or minimum value of the upper end of the band. Therefore, the band function defines whether trigger values are inside or outside of the band. For example, if the **Band Function** is **Greater than**, the trigger executes when the metric goes above the band value. See the following image.|
     |Band Value|Upper end of the band. See the following image.|
     |Tolerance|Sets tolerance margins around the **Value** and **Band Value** to prevent repeatedly executing a trigger for small fluctuations in the data. After a trigger executes, the data must exceed the tolerance to execute the trigger again. See the following image.|
 
-    ![Band trigger overview](../image/band-trigger-overview.png)
+    \[Omitted image "band-trigger-overview.png"\] Alt text: Band trigger overview
 
     For example, assume the **Function** is **Greater than**, the **Value** is 25, and the **Band Value** is 50.
 
@@ -139,14 +140,14 @@ Length of time used to calculate the aggregation function. For example, assume t
 
 9.  Add a triggering condition that determines whether a trigger executes a Workflow Studio flow.
 
-    See [Execute triggers conditionally](create-action-condition.md).
+    See [Execute triggers conditionally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/metricbase/create-action-condition.md).
 
 
 ## Band Trigger form
 
-![Band trigger form](../image/band-trigger-form.png)
+\[Omitted image "band-trigger-form.png"\] Alt text: Band trigger form
 
 ## What to do next
 
-Associate this trigger with a Workflow Studio flow. For more information, see [Assign a trigger to a flow](assign-trigger-to-workflow.md).
+Associate this trigger with a Workflow Studio flow. For more information, see [Assign a trigger to a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/metricbase/assign-trigger-to-workflow.md).
 

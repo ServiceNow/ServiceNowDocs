@@ -2,6 +2,7 @@
 title: Configure properties for Learning Core
 description: Configure properties for various settings used in Learning Core.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/config-ln-prop.html
 release: zurich
 product: Learning Core
 classification: learning-core
@@ -65,5 +66,5 @@ Specify the number of bytes allowed for runtime values in each step in the flow 
 </table>    **Note:** These properties set a word limit for records that are fetched through an API call. API call fails when the word limit goes beyond the **1638400** limit.
 
 
-**Parent Topic:**[Administration tasks in Learning Core](ln-administration.md)
+**Parent Topic:**[Administration tasks in Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/ln-administration.md)
 

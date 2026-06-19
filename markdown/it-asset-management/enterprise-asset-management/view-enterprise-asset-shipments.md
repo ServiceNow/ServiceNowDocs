@@ -2,6 +2,7 @@
 title: View and add enterprise asset shipments
 description: Use the Shipments list to view all active enterprise asset shipments from a central location. If an existing shipment doesn’t appear on the list, you can add it manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/view-enterprise-asset-shipments.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -27,7 +28,7 @@ You can view and add shipments for your transfer orders, purchase orders, move o
 
 **Important:** When using the Sourcing and Procurement Operations application with the Asset Management Integration for Sourcing and Procurement Operations \(com.snc.sn\_spend\_asset\) installed, the IT Asset Management application shares shipment details with the Sourcing and Procurement Operations application. To enable the Sourcing and Procurement Operations application to view shipment and tracking numbers associated with Purchase Orders, read-only access has been provided to the Shipment \[sn\_itam\_common\_shipment\] and Shipment line \[sn\_itam\_common\_m2m\_shipment\_asset\] table.
 
-For more information about the Asset Management Integration for Sourcing and Procurement Operations \(com.snc.sn\_spend\_asset\) plugin, see [Sourcing and Procurement Operations integration with IT Asset Management](https://www.servicenow.com/docs/access?context=spo-itam-better-together&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US).
+For more information about the Asset Management Integration for Sourcing and Procurement Operations \(com.snc.sn\_spend\_asset\) plugin, see .
 
 ## Procedure
 
@@ -141,5 +142,5 @@ Option to ignore stale checks for the shipment.
 </table>    3.  Select **Save**.
 
 
-**Parent Topic:**[Managing enterprise asset shipments](../concept/manage-shipments-eam.md)
+**Parent Topic:**[Managing enterprise asset shipments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/manage-shipments-eam.md)
 

@@ -2,6 +2,7 @@
 title: Configure metrics for employee engagement
 description: Use the Leader Hub Metric Configurations table to configure metrics for employee engagement with certain applications in the Talent Development suite. The configurable options are applicable to the metrics that appear in the Growth engagement widget and the employee cards on the Org talent page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/td-lh-configure-metrics.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -76,5 +77,5 @@ Role required: admin \[sn\_egd\_lh.admin\]
 
 The employee engagement metric that you configured appears in the Growth engagement widget. The Growth engagement widget appears on the At a glance page.
 
-**Parent Topic:**[Installing and configuring Leader Hub](../concept/td-lh-install-config.md)
+**Parent Topic:**[Installing and configuring Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/td-lh-install-config.md)
 

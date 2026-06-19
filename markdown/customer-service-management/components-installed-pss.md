@@ -2,7 +2,10 @@
 title: Components installed with Customer Contracts and Entitlements
 description: Several types of components are installed with the Customer Contracts and Entitlements application, including tables and roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/components-installed-pss.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -170,8 +173,8 @@ Stores the runtime contract lines like a service plan.
 </td></tr></tbody>
 </table>You can assign roles to users and groups using the ServiceNow AI Platform user administration features. For more information, see:
 
--   [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
--   [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+-   
+-   
 
 The default view on service contracts and entitlements in Customer Service Management workspace is Service Contract Workspace view. It can be changed by an administrator.
 

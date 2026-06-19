@@ -2,6 +2,7 @@
 title: Threat Note
 description: A Threat Note conveys informative text to provide additional analysis not contained in the STIX Objects, Marking Definition objects, or Language Content objects which the Note relates to. Threat notes applies for STIX 2.x.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/threat-note.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -19,8 +20,8 @@ For example, an analyst may add a Note to a Campaign object created by another o
 
 Notes are usually created by human analysts and are composed of human-oriented text, they contain an extra property to capture the author that created the Note.
 
--   **[Define Threat Note](../task/define-threat-note.md)**  
+-   **[Define Threat Note](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/define-threat-note.md)**  
 Define threat notes that convey information to provide further context or analysis that is not available in existing objects.
 
-**Parent Topic:**[Threat Entities](tisc-threat-entities.md)
+**Parent Topic:**[Threat Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-threat-entities.md)
 

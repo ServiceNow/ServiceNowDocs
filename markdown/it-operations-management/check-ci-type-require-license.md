@@ -2,10 +2,13 @@
 title: Check which CI types require an ITOM subscription
 description: View the list of configuration item \(CI\) types that require IT Operations Management subscription units.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/check-ci-type-require-license.html
 release: zurich
+product: IT Operations Management
+classification: it-operations-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Using ITOM/OT SU Licensing, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
 
@@ -15,7 +18,7 @@ View the list of configuration item \(CI\) types that require IT Operations Mana
 
 ## Before you begin
 
-Ensure that your organization has purchased ITOM subscriptions. You cannot view the information in the **ITOM License** module without subscriptions.
+Ensure that your organization has purchased ITOM subscriptions. You can't view the information in the **ITOM License** module without subscriptions.
 
 Role required: sn\_itom\_license.reader
 
@@ -35,6 +38,8 @@ For licensing purposes, licensable resources are assigned to CI categories. Lice
 
 The system stores information about CI categories and CI types that belong to them in the ITOM Licensing MetaData \[itom\_lu\_metadata\] table. This table includes information only about parent CI types. All CI types that are created by extending these parent CI types are included by default. For example, the Apache Web Server CI type is included in the CI count, because it is an extension of the Web Server CI type.
 
+Containers are only counted toward SU consumption if they don't have a relationship to a container image CI.
+
 ## Procedure
 
 1.  Check which CI category is licensable:
@@ -53,11 +58,15 @@ The system stores information about CI categories and CI types that belong to th
 
     5.  Return to the **License Summary** list and check CI categories generated for other ITOM subscriptions.
 
+    The customer contract for your organization determines the ratios of CI allocation for subscription units in each CI category, and this information is synchronized with the ServiceNow platform.
+
 2.  Navigate to **All** &gt; **ITOM License** &gt; **Licenses by CI Type**.
 
     **Important:** The ITOM Licensing MetaData \[itom\_lu\_metadata\] table contains all CI categories, including categories of CIs that do not require ITOM subscription units.
 
 3.  Review the list to identify licensable CI categories that appear on the **ITOM CI subscription unit ratio** tab of the **License Summary** list.
+
+    The customer contract for your organization determines the ratios of CI allocation for subscription units in each CI category, and this information is synchronized with the ServiceNow platform.
 
 4.  Select the arrow adjacent to the licensable CI category to expand it and access the associated CI types.
 

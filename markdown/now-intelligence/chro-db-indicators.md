@@ -2,6 +2,7 @@
 title: Chief Human Resources Officer Dashboard indicators
 description: Indicators provide the data used in most of the dashboard’s visualizations. The indicators are used across the dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/chro-db-indicators.html
 release: zurich
 topic_type: reference
 last_updated: "2025-09-01"
@@ -15,9 +16,9 @@ Indicators provide the data used in most of the dashboard’s visualizations. Th
 
 This dashboard employs all three kinds of indicators, Automated, Formula, and Manual. For more information about configuring indicators, see
 
--   [Automated indicators](../../performance-analytics/concept/automated-indicators.md)
--   [Formula indicators](../../performance-analytics/concept/formula-indicators.md)
--   [Manual indicators](../../performance-analytics/task/t_CreateAManualIndicator.md)
+-   [Automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/automated-indicators.md)
+-   [Formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/formula-indicators.md)
+-   [Manual indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_CreateAManualIndicator.md)
 
 ## Operations tab
 
@@ -204,7 +205,7 @@ ERCases.OpenCalculation: SLA due &lt; Today
 </td></tr></tbody>
 </table>## People tab
 
-All of the indicators on this tab are manual, meaning that they are based on data that you enter manually on the associated score sheet. For more information on populating manual indicators, see [Add or edit indicator scores manually](../../performance-analytics/task/t_ManuallyAddingScoresForIndicators.md).
+All of the indicators on this tab are manual, meaning that they are based on data that you enter manually on the associated score sheet. For more information on populating manual indicators, see [Add or edit indicator scores manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_ManuallyAddingScoresForIndicators.md).
 
 |Column|Indicator|Source plugin|Indicator Type|Formula calculation|
 |------|---------|-------------|--------------|-------------------|

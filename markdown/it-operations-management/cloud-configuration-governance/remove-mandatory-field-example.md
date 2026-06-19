@@ -2,6 +2,7 @@
 title: Remove a field from a cloud catalog form
 description: Remove a field from the Cloud Provisioning and Governance catalog form when the user belongs to a specific group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/remove-mandatory-field-example.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -21,9 +22,9 @@ Role required: sn\_cmp.cloud\_service\_designer
 
 Before you can follow this example, you should be familiar with creating blueprints and blueprint rules. See these resources:
 
--   [Cloud Provisioning Blueprints](../concept/blueprints.md)
--   [Build a Cloud Provisioning blueprint](create-blueprint-cmp.md)
--   [Configure a blueprint rule](configure-a-blueprint-rule.md#)
+-   [Cloud Provisioning Blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/blueprints.md)
+-   [Build a Cloud Provisioning blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-blueprint-cmp.md)
+-   [Configure a blueprint rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md)
 
 ## About this task
 
@@ -35,11 +36,11 @@ The goal of this example is to hide the Cost Center field on the catalog form wh
 
     For this example, a blueprint with a virtual server on an AWS datacenter is used.
 
-    ![Virtual server on AWS](../image/blueprint-virtual-server-aws.png)
+    \[Omitted image "blueprint-virtual-server-aws.png"\] Alt text: Virtual server on AWS
 
 2.  On the blueprint form, click the **Catalog** tab, and then click the tile that represents the **Provision** operation.
 
-    ![Catalog item](../image/request-operation-catalog-item.png)
+    \[Omitted image "request-operation-catalog-item.png"\] Alt text: Catalog item
 
 3.  Click the **General Info** variable set in the Variable Sets related list.
 
@@ -63,7 +64,7 @@ The goal of this example is to hide the Cost Center field on the catalog form wh
         |-----|------------------------|-----------|
         |Operand|UserGroup|This value is the User Group field that the user selects.|
         |Operator|--None--|Keep this value **--None--** because this condition is the only condition you need to configure. If you add more conditions, you can select another operator to determine how the system evaluates this condition in relation to the others.|
-        |Value|287ee6fea9fe198100ada7950d0b1b73|This value is the Sys ID of the Database user group, which is provided as part of the demo data in your instance. See [Sys ID](https://www.servicenow.com/docs/access?context=c_UniqueRecordIdentifier&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) for more information.|
+        |Value|287ee6fea9fe198100ada7950d0b1b73|This value is the Sys ID of the Database user group, which is provided as part of the demo data in your instance. See Sys ID for more information.|
 
     3.  Click **Submit**.
 
@@ -77,7 +78,7 @@ The goal of this example is to hide the Cost Center field on the catalog form wh
 
         Notice that on the **Type Specifications** tab, the system populates user groups from **UserGroupPool**. The system runs the scripted pool filter named **GroupsUserBelongsTo**.
 
-        ![User Group property](../image/blueprint-user-group-property.png)
+        \[Omitted image "blueprint-user-group-property.png"\] Alt text: User Group property
 
     4.  In the Cloud Admin Portal, navigate to **Manage** &gt; **Resource Pools**.
 
@@ -93,8 +94,8 @@ The goal of this example is to hide the Cost Center field on the catalog form wh
 
         Both the generic query and the scripted query return the Sys ID of the record in the lookup table. But what is actually happening here is that the system ignores the **All** query and the value specified in the **Lookup Field**, and it uses the **GroupsUserBelongsTo** script.
 
-        ![User group pool](../image/blueprints-usergroup-pool.png "A scripted query")
+        \[Omitted image "blueprints-usergroup-pool.png"\] Alt text: User group pool
 
 
-**Parent Topic:**[Cloud catalog form configuration examples](../concept/example-blueprint-rules.md)
+**Parent Topic:**[Cloud catalog form configuration examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/example-blueprint-rules.md)
 

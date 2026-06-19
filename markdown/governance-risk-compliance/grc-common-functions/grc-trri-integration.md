@@ -2,6 +2,7 @@
 title: GRC integration with Thomson Reuters Regulatory Intelligence
 description: The ServiceNow Regulatory Change Management application helps you to gather, monitor, and analyze regulatory data and track developments in a complex regulatory environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/grc-trri-integration.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -48,7 +49,7 @@ When setting up the integration, you go through the following stages:
 
     The MID Server ingests the feed file data from the SFTP server into the ServiceNow instance. The MID Server runs as a Windows service or as a UNIX daemon to facilitate communication between an instance and the external applications.
 
-3.  Set up SFTP connection: The Thomson Reuters platform deposits the regulatory feed files at an SFTP location that is configured in the Thomson Reuters platform portal. Create an SFTP connection and import the feed files into your ServiceNow instance. To learn more, see [Establish an SFTP or REST API connection](../task/create-conn-record-tr-int.md).
+3.  Set up SFTP connection: The Thomson Reuters platform deposits the regulatory feed files at an SFTP location that is configured in the Thomson Reuters platform portal. Create an SFTP connection and import the feed files into your ServiceNow instance. To learn more, see [Establish an SFTP or REST API connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/create-conn-record-tr-int.md).
 
 Import sets enable administrators to import data from various data sources, and then map that data into ServiceNow tables.
 
@@ -84,12 +85,12 @@ The GRC integration with Thomson Reuters Regulatory Intelligence application pro
 
 The instructions for automation are covered in detail in the guided setup files that are sent with the software.
 
--   **[Install the GRC integration with Thomson Reuters Regulatory Intelligence application](../task/install-trri-integration.md)**  
+-   **[Install the GRC integration with Thomson Reuters Regulatory Intelligence application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/install-trri-integration.md)**  
 Install the GRC integration with Thomson Reuters Regulatory Intelligence application \(com.sn\_grc\_int\_tr\). The application includes demo data. It installs related ServiceNow Store applications and plugins if they are not already installed.
--   **[Establish an SFTP or REST API connection](../task/create-conn-record-tr-int.md)**  
+-   **[Establish an SFTP or REST API connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/create-conn-record-tr-int.md)**  
 Establish an SFTP or REST API connection for the GRC integration with Thomson Reuters Regulatory Intelligence application. You can create an SFTP or REST API connection with the SFTP server by using the Connection &amp; Credential aliases that are shipped with the Thomson Reuters platform.
--   **[Modules in the GRC integration with Thomson Reuters Regulatory Intelligence application](../reference/modules-in-the-application.md)**  
+-   **[Modules in the GRC integration with Thomson Reuters Regulatory Intelligence application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/modules-in-the-application.md)**  
 The GRC integration with Thomson Reuters Regulatory Intelligence application includes various modules.
 
-**Parent Topic:**[Governance, Risk, and Compliance integrations](../../grc-common/reference/grc-integrations.md)
+**Parent Topic:**[Governance, Risk, and Compliance integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-integrations.md)
 

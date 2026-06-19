@@ -2,6 +2,7 @@
 title: Using expressions in Cloud Provisioning and Governance
 description: Expressions in policy actions can set or override values. Expressions in blueprints can access attributes of resources and can map values to request form fields. Expressions are available in resource blocks, blueprints, policies, and anywhere that Cloud Provisioning and Governance allows scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/expressions-cloud-mgt.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -25,7 +26,7 @@ Expressions can hold the values for information that is dynamically generated in
 
     For example, the parameter **Location**, which holds the datacenter that a resource belongs to, uses the expression `${parameter.Location}`
 
-    ![Location parameter for a resource block](../image/parameters-for-resource-blocks.png "Expressions in a resource block")
+    \[Omitted image "parameters-for-resource-blocks.png"\] Alt text: Location parameter for a resource block
 
 -   **Using expressions in blueprints**
 
@@ -33,13 +34,13 @@ Expressions can hold the values for information that is dynamically generated in
 
     You can access blueprint attributes with expressions. The expression in the **Mapping** column defines blueprint attributes for each operation in a step. For example, the **Location** attribute, which appears on the stack request form, is accessible through the `{$parameter.Location}` expression. The Location parameter with the `${parameter.Location}` value appears on the **Inputs** tab when you select a blueprint operation.
 
-    ![The Location parameter and expression](../image/rb-operation-parameter.png "Expressions in a blueprint")
+    \[Omitted image "rb-operation-parameter.png"\] Alt text: The Location parameter and expression
 
 -   **Using expressions in policy actions**
 
     Policy actions can use expressions to override parameter values that users submit in a request form on the Cloud User Portal. You can also access and override user data in stack operations. For example, use the following expression to rename a stack: `formData.Stackname = "your-naming-convention";`.
 
-    ![Policy example script](../image/policy-script-example.png "Expressions in a policy script")
+    \[Omitted image "policy-script-example.png"\] Alt text: Policy example script
 
 
 You can access blueprint attributes with expressions. The expression in the **Mapping** column defines blueprint attributes for each operation in a step. For example, the **Location** attribute, which appears on the request form for a virtual machine, is accessed in the following expression: `{$parameter.Location}`.
@@ -163,7 +164,7 @@ In scripts, you can assign values as follows:
 
 `this.parameter.userData.userId == 'servicenowuserId';`
 
--   See also [Create a policy action script](../task/create-policy-script-1.md).
+-   See also [Create a policy action script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
 </td></tr><tr><td>
 

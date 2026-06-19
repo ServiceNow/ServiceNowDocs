@@ -2,6 +2,7 @@
 title: Configure a communications template for SMS in Major Incident Management
 description: Configure a communication template for SMS in Major Incident Management to help reduce the efforts and time spent in creating and composing communication SMS.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/configure-comm-template-sms-mim-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -17,11 +18,11 @@ Configure a communication template for SMS in Major Incident Management to help 
 
 ## Before you begin
 
-Major Incident Management must be installed and activated in Service Operations Workspace. For more information, see [Activate Major Incident Management in Service Operations Workspace](install-mim-sow.md).
+Major Incident Management must be installed and activated in Service Operations Workspace. For more information, see [Activate Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/install-mim-sow.md).
 
 Role required: sn\_mim\_sow\_admin and notify\_admin or notify\_view, admin
 
-**Note:** If you have sn\_mim\_sow\_admin role, you can access the MIM page in Admin Center page but to configure communication templates for sms you must also have notify\_admin or notify\_view role to access the specific table. For more information, see [Roles in Service Operations Workspace for ITSM](../reference/roles-in-sow.md).
+**Note:** If you have sn\_mim\_sow\_admin role, you can access the MIM page in Admin Center page but to configure communication templates for sms you must also have notify\_admin or notify\_view role to access the specific table. For more information, see [Roles in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/roles-in-sow.md).
 
 ## Procedure
 
@@ -35,7 +36,7 @@ Role required: sn\_mim\_sow\_admin and notify\_admin or notify\_view, admin
 
 3.  In the **Communications Template** section, select **Configure SMS**.
 
-    The Notify SMS template page displays a list of available communication SMS templates. For more information on Notify, see [Notify](https://www.servicenow.com/docs/access?context=notify-landing-page&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    The Notify SMS template page displays a list of available communication SMS templates. For more information on Notify, see .
 
 4.  Select **New**.
 

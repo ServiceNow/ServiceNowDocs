@@ -2,6 +2,7 @@
 title: Manage pages and subpages within a Doc in EAP
 description: Flexibly organize information for your teams and work items by creating, duplicating, and deleting pages and subpages within a Doc in Enterprise Agile Planning workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/enterprise-agile-planning/create-pages-within-a-doc-in-eap.html
 release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -25,15 +26,15 @@ Role required: sn\_apw\_advanced.eap\_user
 
 2.  Navigate to your Doc.
 
-<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d140897e79">
+<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d101805e79">
 
 Type
 
-</th><th align="left" id="d140897e82">
+</th><th align="left" id="d101805e82">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d140897e88">
+</th></tr></thead><tbody><tr><td id="d101805e88">
 
 **Team Doc**
 
@@ -43,7 +44,7 @@ Actions
 2.  Select the Docs tab and open your Doc.
 
 
-</td></tr><tr><td id="d140897e106">
+</td></tr><tr><td id="d101805e106">
 
 **Planning item Doc**
 
@@ -61,18 +62,18 @@ Actions
     -   To create from templates:
         1.  Select **Create Page from template**.
 
-            ![Create Page from template](../images/eap-doc-create-from-template.png)
+            \[Omitted image "eap-doc-create-from-template.png"\] Alt text: Create Page from template
 
         2.  Select a template from the Template Center and select **Create page**.
 
-            ![Doc templates list.](../images/eap-doc-templates-list.png)
+            \[Omitted image "eap-doc-templates-list.png"\] Alt text: Doc templates list.
 
     The new page is created and added to your Doc with the name **Untitled**, which you can rename.
 
-4.  To create a subpage, select the **Page Actions** menu \(![Page Actions icon.](../images/eap-doc-page-actions-icon.png)\) and select **Create Subpage**.
+4.  To create a subpage, select the **Page Actions** menu \(\[Omitted image "eap-doc-page-actions-icon.png"\] Alt text: Page Actions icon.\) and select **Create Subpage**.
 
-    ![Create subpage for a Doc in EAP.](../images/eap-doc-create-subpage.png)
+    \[Omitted image "eap-doc-create-subpage.png"\] Alt text: Create subpage for a Doc in EAP.
 
-5.  To delete a page or a subpage, select the **Page Actions** menu \(![Page Actions icon.](../images/eap-doc-page-actions-icon.png)\) and select **Delete**.
+5.  To delete a page or a subpage, select the **Page Actions** menu \(\[Omitted image "eap-doc-page-actions-icon.png"\] Alt text: Page Actions icon.\) and select **Delete**.
 
 

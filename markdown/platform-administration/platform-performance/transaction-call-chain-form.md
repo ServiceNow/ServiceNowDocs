@@ -2,6 +2,7 @@
 title: Transaction call chain form
 description: A description of the fields in the Transaction Call Chain form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-performance/transaction-call-chain-form.html
 release: zurich
 product: Platform Performance
 classification: platform-performance
@@ -80,5 +81,5 @@ Transaction Log
 Transaction log ID created for the recorded call chain.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Platform performance reference](../concept/platform-performance-references.md)
+</table>**Parent Topic:**[Platform performance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/platform-performance-references.md)
 

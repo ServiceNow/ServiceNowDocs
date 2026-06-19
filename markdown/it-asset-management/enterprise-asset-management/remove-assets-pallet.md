@@ -2,6 +2,7 @@
 title: Remove assets from a pallet in the Enterprise Asset Workspace
 description: Remove any enterprise, hardware, base, bundle, or consumable assets that you no longer want to track and manage as part of a pallet.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/remove-assets-pallet.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -40,5 +41,5 @@ Role required: sn\_eam.enterprise\_asset\_manager or sn\_eam.enterprise\_asset\_
 
 The assets no longer appear on the **Assets** tab.
 
-**Parent Topic:**[Create pallet assets in the Enterprise Asset Workspace](create-pallet-asset-eam.md)
+**Parent Topic:**[Create pallet assets in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-pallet-asset-eam.md)
 

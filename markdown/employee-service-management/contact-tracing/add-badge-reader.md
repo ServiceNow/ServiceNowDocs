@@ -2,6 +2,7 @@
 title: Add badge reader details
 description: Create entries for all badge reading devices that are installed at your workplace to control employee access to building, floors, and workspaces.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contact-tracing/add-badge-reader.html
 release: zurich
 product: Contact Tracing
 classification: contact-tracing
@@ -21,7 +22,7 @@ Role required: sn\_imt\_tracing.badge\_manager
 
 ## About this task
 
-You can also import your badge reader data from an Excel spreadsheet. For more information, see [Easy import data from a list](https://www.servicenow.com/docs/access?context=c_EasyImport&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+You can also import your badge reader data from an Excel spreadsheet. For more information, see Easy import data from a list.
 
 ## Procedure
 
@@ -44,5 +45,5 @@ You can also import your badge reader data from an Excel spreadsheet. For more i
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Collecting user badge data](../concept/badge-management.md)
+**Parent Topic:**[Collecting user badge data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/badge-management.md)
 

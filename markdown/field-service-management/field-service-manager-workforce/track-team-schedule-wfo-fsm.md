@@ -2,6 +2,7 @@
 title: Track and manage your team's schedule
 description: Create, update, or monitor your team's schedule from one location. You can approve or reject requests for swapping shifts or time off for agents within your assignment group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-manager-workforce/track-team-schedule-wfo-fsm.html
 release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -35,7 +36,7 @@ Using the calendar, you can do the following:
 
 1.  Navigate to **All** &gt; **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule icon \(![Schedule icon.](../../workforce-optimization-for-customer-service-configurable/image/schedule-new.png)\).
+2.  Click the Schedule icon \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon.\).
 
 3.  Modify an agent's shift times.
 
@@ -43,21 +44,21 @@ Using the calendar, you can do the following:
 
     1.  In the **Team Calendar** tab, navigate and point to the shift for the agent that you want to modify the schedule for.
 
-        **Note:** Note: To avoid delays in loading events, as well as other processes that utilize a caching mechanism through an event queue, see [Custom queues to process events](https://www.servicenow.com/docs/access?context=useful-server-side-scripts&version=zurich&pubname=zurich-api-reference&section=queues-create&ft:locale=en-US).
+        **Note:** Note: To avoid delays in loading events, as well as other processes that utilize a caching mechanism through an event queue, see Custom queues to process events.
 
-    2.  In the shift pop-up window, click the Edit icon \(![Edit icon.](../image/EditWidgetButton.png)\).
+    2.  In the shift pop-up window, click the Edit icon \(\[Omitted image "EditWidgetButton.png"\] Alt text: Edit icon.\).
     3.  Modify the agent's shift time.
 
         **Note:** If the existing shift has a break, you can add more breaks to the shift.
 
     4.  Click **Save**.
-    The following snapshot displays the time worked summary for a selected agent.![Manager Workspace Team Calendar showing several agent schedules organized by hours in the day.](../../workforce-optimization-for-customer-service-configurable/image/team_calendar_new.png)
+    The following snapshot displays the time worked summary for a selected agent.\[Omitted image "team\_calendar\_new.png"\] Alt text: Manager Workspace Team Calendar showing several agent schedules organized by hours in the day.
 
 4.  Approve or reject an agent's time off or shift-swap with another agent.
 
     **Note:**
 
-    You must approve a request two days before the time-off or shift-swap start date. Outside that time period, the approval will be auto-rejected. For more information, see the descriptions of **Setting the due date for time-off and shift-swap request approvals** in [Components installed with Workforce Optimization for Customer Service](https://www.servicenow.com/docs/access?context=components-installed-configurable-wfo-cs&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+    You must approve a request two days before the time-off or shift-swap start date. Outside that time period, the approval will be auto-rejected. For more information, see the descriptions of **Setting the due date for time-off and shift-swap request approvals** in Components installed with Workforce Optimization for Customer Service.
 
     Overlapping time-off requests by an agent will be rejected.
 

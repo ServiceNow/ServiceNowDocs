@@ -2,6 +2,7 @@
 title: Customize Import Messages from Microsoft Teams UI action
 description: Enables you to extend the Import Messages from Microsoft Teams UI action to the tables you require.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/import-messages-ui-action.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -105,5 +106,5 @@ Check this box.Copy and paste the **Workspace Client Script**of the existing Imp
 </table>5.  Click **Submit**.
 
 
-**Parent Topic:**[Customize UI actions for IT Service Management with Microsoft Teams](../concept/ui-actions-ms-teams.md)
+**Parent Topic:**[Customize UI actions for IT Service Management with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ui-actions-ms-teams.md)
 

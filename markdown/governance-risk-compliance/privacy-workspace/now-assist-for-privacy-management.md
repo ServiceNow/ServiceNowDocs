@@ -2,6 +2,7 @@
 title: Now Assist for Privacy Management
 description: Now Assist for Privacy Management is a GenAI‑powered capability that streamlines privacy workflows by summarizing risk assessments, condensing issue details, and identifying redundant control objectives for rationalization into a common control objective.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/now-assist-for-privacy-management.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace

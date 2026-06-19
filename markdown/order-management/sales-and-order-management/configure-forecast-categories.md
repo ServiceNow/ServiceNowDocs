@@ -2,6 +2,7 @@
 title: Configure Forecast Categories
 description: Configure the forecast categories in CSM configurable workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configure-forecast-categories.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

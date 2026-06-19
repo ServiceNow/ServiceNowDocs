@@ -2,6 +2,7 @@
 title: AccAgentsAPI - Scoped
 description: The AccAgentsAPI script include enables you to perform management actions on available agents.Creates an AccAgentsAPI instance.Checks the status of a grab log request.Gets the information of a specified agent.Gets a list of agents with related information.Restarts a specified agent with alive/up status.Runs a discovery check to locate CIs related to an agent. The specified agent must be in alive/up status.Set the given data collection status \(true/false if enabled or not\) for a specified agent.Requests the log of a specified agent with alive/up status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/AccAgentsAPIAPIScoped.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,9 +16,9 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The AccAgentsAPI script include enables you to perform management actions on available agents.
 
-This script include requires the Agent Client Collector Framework \(sn\_agent\) store application and is provided within the `sn_agent` namespace. For more information, refer to [Agent Client Collector](https://www.servicenow.com/docs/access?context=acc-landing-page&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+This script include requires the Agent Client Collector Framework \(sn\_agent\) store application and is provided within the `sn_agent` namespace. For more information, refer to Agent Client Collector.
 
-For the REST API solution, refer to [Agent Client Collector API](../../../../../integrate/inbound-rest/concept/agnt_clnt_cll-api.md#).
+For the REST API solution, refer to [Agent Client Collector API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/agnt_clnt_cll-api.md).
 
 This script include provides methods that enable the following:
 
@@ -27,7 +28,7 @@ This script include provides methods that enable the following:
 -   Restarting an agent.
 -   Running discovery on an agent.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## AccAgentsAPI - AccAgentsAPI\(\)
 
@@ -47,7 +48,7 @@ var agentsApi = new sn_agent.AccAgentsAPI();
 
 Checks the status of a grab log request.
 
-Run the [submitGrabLogRequest\(\)](AccAgentsAPIAPIScoped.md#) method to get a request ID.
+Run the [submitGrabLogRequest\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/AccAgentsAPIAPIScoped.md) method to get a request ID.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -123,7 +124,7 @@ To get a list of agent IDs:
 
 -   Run the getAgentsList\(\) method.
 -   Check the Agent ID column of the Agent Client Collectors \[sn\_agent\_cmdb\_ci\_agent\] table.
--   Run the [Agent Client Collector GET list](../../../../../integrate/inbound-rest/concept/agnt_clnt_cll-api.md#) REST API.
+-   Run the [Agent Client Collector GET list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/agnt_clnt_cll-api.md) REST API.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -276,7 +277,7 @@ agent.up\_since
 
 </td><td>
 
-UTC time since the agent's status became alive/up. The value is in [GlideDateTime](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#) format.Data type: String
+UTC time since the agent's status became alive/up. The value is in [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideDateTimeScoped.md) format.Data type: String
 
 </td></tr><tr><td>
 
@@ -361,7 +362,7 @@ String
 
 </td><td>
 
-Encoded query string in standard Glide format. See [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+Encoded query string in the standard platform format.
 
 </td></tr><tr><td>
 
@@ -504,7 +505,7 @@ up\_since
 
 </td><td id="accAgents-parm-agent-obj-up-entry">
 
-UTC time since the agent's status became alive/up. The value is in [GlideDateTime](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#) format.Data type: String
+UTC time since the agent's status became alive/up. The value is in [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideDateTimeScoped.md) format.Data type: String
 
 </td></tr><tr><td>
 
@@ -595,7 +596,7 @@ To get a list of agent IDs:
 
 -   Run the getAgentsList\(\) method.
 -   Check the Agent ID column of the Agent Client Collectors \[sn\_agent\_cmdb\_ci\_agent\] table.
--   Run the [Agent Client Collector GET list](../../../../../integrate/inbound-rest/concept/agnt_clnt_cll-api.md#) REST API.
+-   Run the [Agent Client Collector GET list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/agnt_clnt_cll-api.md) REST API.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -623,7 +624,7 @@ To get a list of agent IDs:
 
 -   Run the getAgentsList\(\) method.
 -   Check the Agent ID column of the Agent Client Collectors \[sn\_agent\_cmdb\_ci\_agent\] table.
--   Run the [Agent Client Collector GET list](../../../../../integrate/inbound-rest/concept/agnt_clnt_cll-api.md#) REST API.
+-   Run the [Agent Client Collector GET list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/agnt_clnt_cll-api.md) REST API.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -652,7 +653,7 @@ To get a list of agent IDs:
 
 -   Run the getAgentsList\(\) method.
 -   Check the Agent ID column of the Agent Client Collectors \[sn\_agent\_cmdb\_ci\_agent\] table.
--   Run the [Agent Client Collector GET list](../../../../../integrate/inbound-rest/concept/agnt_clnt_cll-api.md#) REST API.
+-   Run the [Agent Client Collector GET list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/agnt_clnt_cll-api.md) REST API.
 
 <table id="table_zk2_2g2_z4b" class="parameters"><thead><tr><th>
 

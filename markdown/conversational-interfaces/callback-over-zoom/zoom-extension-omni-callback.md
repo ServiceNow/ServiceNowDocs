@@ -2,6 +2,7 @@
 title: Zoom extension for Omnichannel Callback
 description: The ServiceNow Zoom extension for Omnichannel Callback application enables other ServiceNow applications to display a Zoom callback option to users. The Zoom extension for Omnichannel Callback application is available through the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/callback-over-zoom/zoom-extension-omni-callback.html
 release: zurich
 product: Callback over Zoom
 classification: callback-over-zoom

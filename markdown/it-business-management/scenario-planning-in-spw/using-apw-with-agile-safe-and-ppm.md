@@ -2,6 +2,7 @@
 title: Executing Strategic Planning work in PPM, Agile 2.0, and SAFe
 description: Facilitate execution of the work planned in Strategic Planning in ServiceNow applications such as Project Portfolio Management \(PPM\), Agile Development 2.0, or Scaled Agile Framework \(SAFe\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/using-apw-with-agile-safe-and-ppm.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -17,5 +18,5 @@ Facilitate execution of the work planned in Strategic Planning in ServiceNow app
 
 Import, export, and manage your planning items between Strategic Planning and PPM, Agile 2.0, and SAFe.
 
-![Real-time sync of planning items between the planning and execution systems.](../images/planning-items.png "Integrating planning and execution systems")
+\[Omitted image "planning-items.png"\] Alt text: Real-time sync of planning items between the planning and execution systems.
 

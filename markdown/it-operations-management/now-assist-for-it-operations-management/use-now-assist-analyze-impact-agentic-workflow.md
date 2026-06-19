@@ -2,6 +2,7 @@
 title: Use the Analyze potential impact agentic workflow to assess a change request
 description: Use the Analyze potential impact agentic workflow to assess the effects of a change request. This workflow highlights the potential impacted servers and suggested services to help you identify risks, benefits, and make any necessary adjustments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/now-assist-for-it-operations-management/use-now-assist-analyze-impact-agentic-workflow.html
 release: zurich
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
@@ -30,46 +31,46 @@ Role required: sn\_change\_write
 
 Required role:
 
-[Role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://www.servicenow.com/docs/access?context=define-sec-controls-aw&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+Role masking enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
 
 ## About this task
 
-The agent verifies the prerequisites at the beginning of the agentic workflow. If any prerequisites aren’t met, the workflow stops, and you’re informed so that you can acquire the prerequisites. For more information about the agentic workflow, see [Analyze potential impact agentic workflow](../concept/now-assist-itom-analyze-potential-impact-workflow.md).
+The agent verifies the prerequisites at the beginning of the agentic workflow. If any prerequisites aren’t met, the workflow stops, and you’re informed so that you can acquire the prerequisites. For more information about the agentic workflow, see [Analyze potential impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-analyze-potential-impact-workflow.md).
 
 ## Procedure
 
 1.  Either initiate the Analyze potential impact agentic workflow using a change request number or from an open change request.
 
-<table id="choicetable_rkr_bbt_3gc"><thead><tr><th align="left" id="d273291e151">
+<table id="choicetable_rkr_bbt_3gc"><thead><tr><th align="left" id="d259280e151">
 
 Situation
 
-</th><th align="left" id="d273291e154">
+</th><th align="left" id="d259280e154">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d273291e160">
+</th></tr></thead><tbody><tr><td id="d259280e160">
 
 **Change request number is known**
 
 </td><td>
 
-1.  From the header menu, select the Now Assist icon ![](../../../common/image/icon-ai-sparkle.png) to open the Now Assist panel.
+1.  From the header menu, select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] to open the Now Assist panel.
 2.  Select **Analyze Potential Impact**.
 3.  When prompted, enter the change request number.
 
 
-</td></tr><tr><td id="d273291e192">
+</td></tr><tr><td id="d259280e192">
 
 **Open change request**
 
 </td><td>
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace** &gt; **.**
-2.  Select the list icon ![](../../event-management/image/list-icon-op-ws.png).
+2.  Select the list icon \[Omitted image "list-icon-op-ws.png"\].
 3.  Navigate to **Changes** &gt; **All**.
 4.  Select the applicable change request from the list.
-5.  From the header menu, select the Now Assist icon ![](../../../common/image/icon-ai-sparkle.png) to open the Now Assist panel.
+5.  From the header menu, select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] to open the Now Assist panel.
 6.  Select **Analyze Potential Impact**.
 
 
@@ -81,5 +82,5 @@ Steps
 
 In the Now Assist panel, the Analyze potential impact agentic workflow generates an analysis of the potentially impacted relevant servers and suggested services.
 
-**Parent Topic:**[Analyze potential impact agentic workflow](../concept/now-assist-itom-analyze-potential-impact-workflow.md)
+**Parent Topic:**[Analyze potential impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-analyze-potential-impact-workflow.md)
 

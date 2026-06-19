@@ -2,6 +2,7 @@
 title: Multi-Provider SSO properties, tables, and scripts
 description: The Integration - Multiple Provider Single Sign-On Installer plugin includes the following system properties, tables, and scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/r\_InstalledWithMultiProviderSSO.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -45,7 +46,7 @@ Enables \(true\) or disables \(false\) debug logging for the multi-provider SSO 
 Enables \(true\) or disables \(false\) multi-provider SSO.-   Type: true \| false
 -   Default value: false
 
- **Note:** Setting this property to false will not disable multi-provider SSO if Account Recovery \(ACR\) is also enabled on the instance. To log in with a username and password ACR must also be disabled using the **glide.sso.acr.enabled** property. For details on this property see [Account recovery properties](acr-properties.md).
+ **Note:** Setting this property to false will not disable multi-provider SSO if Account Recovery \(ACR\) is also enabled on the instance. To log in with a username and password ACR must also be disabled using the **glide.sso.acr.enabled** property. For details on this property see [Account recovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/acr-properties.md).
 
 </td></tr><tr><td>
 

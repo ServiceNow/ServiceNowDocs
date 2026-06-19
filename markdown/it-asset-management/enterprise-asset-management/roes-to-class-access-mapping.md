@@ -2,6 +2,7 @@
 title: Roles to class mapping for configurable workspaces
 description: In configurable workspaces, roles can access classes in addition to the default seeded classes for each specific role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/roes-to-class-access-mapping.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -142,7 +143,7 @@ sn\_ent\_industrial\_asset
 
 Based on the mapping, roles get access to the respective asset and model classes. The roles further get access to the workflow tasks and work orders related to those classes. Additionally, you can view information only pertaining to your classes on all dashboards in the workspace. For example, a medical asset manager role can initiate disposal orders only for medical assets because of access configuration. Similarly, a facilities technician role can only work on disposal tasks created for facility assets.
 
-The Enterprise admin \(sn\_eam.enterprise\_admin\) role can modify the default configuration to add more classes to a role. So, the roles for the Medical Asset Workspace, the Facilities Asset Workspace, and the OT Workspace can be configured to access additional classes from different model categories. For example, the Medical technician role can get access to the Facilities classes. Similarly, the Facilities technician role can get access to the Transportation classes. For more details on adding additional classes to a role, see [Map enterprise roles to enterprise classes](../task/map-ent-roles-ent-classes.md).
+The Enterprise admin \(sn\_eam.enterprise\_admin\) role can modify the default configuration to add more classes to a role. So, the roles for the Medical Asset Workspace, the Facilities Asset Workspace, and the OT Workspace can be configured to access additional classes from different model categories. For example, the Medical technician role can get access to the Facilities classes. Similarly, the Facilities technician role can get access to the Transportation classes. For more details on adding additional classes to a role, see [Map enterprise roles to enterprise classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/map-ent-roles-ent-classes.md).
 
 **Note:** A soft filter exists in configurable workspaces that shows information relevant to a particular workspace. You can remove that filter to display assets and models for all classes but only read access is available for the other classes.
 

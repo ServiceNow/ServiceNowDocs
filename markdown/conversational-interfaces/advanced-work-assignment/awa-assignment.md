@@ -2,6 +2,7 @@
 title: Work assignments
 description: After routing work items to the appropriate queues and corresponding agent groups, Advanced Work Assignment \(AWA\) pushes work to the most qualified agent using the assignment criteria that you specify. Assignment criteria revolve around the type of assignment rule \(most capacity or last assigned\) and whether skills are defined.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/awa-assignment.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -56,5 +57,5 @@ In AWA, you can enable skill-based assignment and if needed, evaluate skill leve
 
 During work assignment, AWA routes and assigns work items to the Agent Workspace inbox of the most qualified agent based on the agents skills and if applicable, skill level and mandatory skill settings.
 
-**Parent Topic:**[Exploring Advanced Work Assignment](awa-overview.md)
+**Parent Topic:**[Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-overview.md)
 

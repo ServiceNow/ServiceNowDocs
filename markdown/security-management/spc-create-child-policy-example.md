@@ -2,6 +2,7 @@
 title: Create a child policy from a base policy for Security Posture Control \(example\)
 description: An example of how to create a child policy using the conditions of a base policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/spc-create-child-policy-example.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"

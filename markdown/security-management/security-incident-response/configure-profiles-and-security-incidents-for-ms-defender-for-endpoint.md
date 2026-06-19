@@ -2,6 +2,7 @@
 title: Configure profiles and security incidents for the Microsoft Defender for Endpoint integration
 description: Create a profile and select the Microsoft Defender for Endpoint capabilities that you want the profile to run. You need to configure the settings so that the profile can be triggered only under the defined conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/configure-profiles-and-security-incidents-for-ms-defender-for-endpoint.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -53,7 +54,7 @@ Configure the profile so that it runs only when the conditions you specify are f
 
     Additional Configuration: When the Configuration item \(CI\) field is not populated on the security incident with a host name, or an IP address that matches the database, you can select an alternate field on the security incident to query the Microsoft Defender for Endpoint APIs.
 
-    **Note:** For more information, see [Trigger conditions in a configuration item](../reference/trigger-conditions-configuration-item.md).
+    **Note:** For more information, see [Trigger conditions in a configuration item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/trigger-conditions-configuration-item.md).
 
     1.  Select the **Define Alternative Field** option.
 

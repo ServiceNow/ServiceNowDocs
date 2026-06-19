@@ -2,12 +2,13 @@
 title: DEX policies for macOS
 description: Policies for macOS are guidelines and rules to promote that the application is used in a consistent, secure, and conforming manner. DEX policies your organization to reduce the risk of data breaches, improve data quality and accuracy, and optimize application performance and availability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/dex-policies-mac.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 3
 breadcrumb: [DEX Content Playbook reference, Reference, Digital End-User Experience, IT Service Management]
 ---
 
@@ -16,6 +17,42 @@ breadcrumb: [DEX Content Playbook reference, Reference, Digital End-User Experie
 Policies for macOS are guidelines and rules to promote that the application is used in a consistent, secure, and conforming manner. DEX policies your organization to reduce the risk of data breaches, improve data quality and accuracy, and optimize application performance and availability.
 
 For macOS systems, to retrieve the entire data, include the subsequent content to /private/etc/sudoers.d/\_servicenow.
+
+```
+# ServiceNow Agent Collector - Sudoers Configuration for macOS
+
+# Command alias for ServiceNow allowed commands
+# These commands can be executed by the _servicenow user with sudo privileges
+Cmnd_Alias SN_ALLOWED = /usr/bin/powermetrics, \
+                        /usr/bin/mdls, \
+                        /usr/bin/log, \
+                        /usr/bin/log show *, \
+                        /bin/kill, \
+                        /usr/bin/defaults, \
+                        /usr/local/bin/jamf, \
+                        /bin/rm, \
+                        /bin/ls, \
+                        /usr/bin/pgrep, \
+                        /usr/bin/find, \
+                        /usr/bin/pmset, \
+                        /usr/bin/open, \
+                        /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/app_freeze.sh, \
+                        /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/zscaler_zpa_reconnect.sh, \
+                        /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/clear_google_chrome_browsing_data.sh, \
+                        /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/services.sh, \
+                        /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/restart_service.sh *, \
+                        /Applications/Zscaler/Zscaler.app/Contents/PlugIns/zscli, \
+                        /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/elevate_temporary_admin.sh
+
+# ServiceNow user permissions
+# _servicenow user can run osqueryi and all SN_ALLOWED commands without password
+# SETENV allows environment variables to be preserved
+_servicenow ALL=NOPASSWD: SETENV: /Library/Application\ Support/servicenow/agent-client-collector/cache/osquery/bin/osqueryi *, SN_ALLOWED
+
+# Defaults for _servicenow user
+# !requiretty: Allow sudo without a TTY (required for automated scripts)
+Defaults:_servicenow !requiretty
+```
 
 ```
 Cmnd_Alias SN_ALLOWED = /usr/bin/powermetrics, /usr/bin/mdls, /usr/bin/log, /bin/kill, /usr/bin/defaults, /usr/local/bin/jamf, /bin/rm, /bin/ls, /usr/bin/pgrep, /usr/bin/find, /usr/bin/pmset, /usr/bin/open, /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/app_freeze.sh, /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/zscaler_zpa_reconnect.sh, /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/clear_google_chrome_browsing_data.sh, /bin/sh /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/services.sh, /bin/sh /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/restart_service.sh *, /Applications/Zscaler/Zscaler.app/Contents/PlugIns/zscli, /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/elevate_temporary_admin.sh
@@ -285,5 +322,5 @@ N/A
 </td></tr></tbody>
 </table>**Note:** If you upgrade the Content Playbook plugin on an instance and encounter unexpected policy update issues, see the [Troubleshooting: Policy update issues post DEX plugin upgrade \[KB1586917\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB1586917) article in the Now Support knowledge base.
 
-**Parent Topic:**[DEX Content Playbook reference](dex-content-playbook-reference.md)
+**Parent Topic:**[DEX Content Playbook reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dex-content-playbook-reference.md)
 

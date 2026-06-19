@@ -2,6 +2,7 @@
 title: SOAP Message legacy workflow activity
 description: The legacy SOAP Message activity uses SOAP messages defined in the System Web Services plugin and can call the messages using a MID Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-activities/r\_SOAPMessageActivity\_1.html
 release: zurich
 product: Workflow Activities
 classification: workflow-activities
@@ -15,9 +16,9 @@ breadcrumb: [Utility workflow activities, Workflow activities reference, Workflo
 
 The legacy **SOAP Message** activity uses SOAP messages defined in the System Web Services plugin and can call the messages using a MID Server.
 
-This activity is deprecated in the Zurich release and no longer shows up in the Workflow canvas for new workflow development. New workflows should use the [Orchestration](https://www.servicenow.com/docs/access?context=r-orchestration&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) SOAP Activity templates instead.
+This activity is deprecated in the Zurich release and no longer shows up in the Workflow canvas for new workflow development. New workflows should use the Orchestration SOAP Activity templates instead.
 
-Existing workflows using it will continue to work as designed. To edit this activity in an existing workflow, you must [re-activate the activity](https://www.servicenow.com/docs/access?context=t_ReactivateDeprecatedActivity&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+Existing workflows using it will continue to work as designed. To edit this activity in an existing workflow, you must re-activate the activity.
 
 ## Input variables
 
@@ -122,5 +123,5 @@ sensor\_script
 The script to execute after the request has been made and a response has been received. You can access the full XML response body from the activity.output object.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Utility workflow activities](../concept/c_UtilityActivities.md)
+</table>**Parent Topic:**[Utility workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-activities/c_UtilityActivities.md)
 

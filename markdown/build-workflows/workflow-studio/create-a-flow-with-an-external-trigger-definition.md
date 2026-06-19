@@ -2,6 +2,7 @@
 title: Create a flow with an external trigger
 description: Set up a flow with a base system external trigger definition. The flow responds to an event-driven external trigger from a third-party system. For example, run a flow when an issue is created in a third-party issue-tracking system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/create-a-flow-with-an-external-trigger-definition.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -21,7 +22,7 @@ Role required: flow\_designer or admin
 
 Subscription required: This feature requires an Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
 
-Ensure that you've configured the external trigger endpoints for the third-party application spoke. For more information about configuring the third-party spoke, see [Set up external trigger endpoints](https://www.servicenow.com/docs/access?context=set-up-external-webhook-endpoints&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+Ensure that you've configured the external trigger endpoints for the third-party application spoke. For more information about configuring the third-party spoke, see .
 
 ## Procedure
 
@@ -81,7 +82,7 @@ Option to specify the user that runs the flow. You can select the system user or
 
  **Note:** By default, flows run as the user who initiates the session.
 
- To create a flow that can run with a personal OAuth token, select the user who initiates the session option. If the user who is running the flow has a personal OAuth token, the flow runs with that token. For more information about creating a personal OAuth token, see [OAuth 2.0 credentials](https://www.servicenow.com/docs/access?context=oauth-2-credentials&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+ To create a flow that can run with a personal OAuth token, select the user who initiates the session option. If the user who is running the flow has a personal OAuth token, the flow runs with that token. For more information about creating a personal OAuth token, see OAuth 2.0 credentials.
 
  When flows run as the user who initiates the session, the system limits flow actions by user Access Control Rule \(ACL\) restrictions. Ensure that security restrictions don't prevent users who trigger the flow from performing flow actions. Flows run by the initiating user also respect user-specific settings such as date/time formats.
 
@@ -102,15 +103,15 @@ Roles that the flow runs with. This option is only available when **Run as** is 
 
 5.  Add a trigger to your flow.
 
-    If you have a saved external trigger, the trigger is displayed under the installed third-party spoke for you to use. You can add additional conditions as required. See [Create a saved external trigger](../../flow-designer/task/create-saved-external-trigger.md).
+    If you have a saved external trigger, the trigger is displayed under the installed third-party spoke for you to use. You can add additional conditions as required. See [Create a saved external trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-saved-external-trigger.md).
 
     1.  Under the TRIGGER section, select **Add a trigger**.
 
-    2.  Under the INSTALLED SPOKES heading, select a spoke from the Trigger list.![Select spoke.](../images/select-spoke.png)
+    2.  Under the INSTALLED SPOKES heading, select a spoke from the Trigger list.\[Omitted image "select-spoke.png"\] Alt text: Select spoke.
 
-    3.  Select the predefined external trigger definition.![External trigger definition.](../images/select-external-trigger-definition.png)
+    3.  Select the predefined external trigger definition.\[Omitted image "select-external-trigger-definition.png"\] Alt text: External trigger definition.
 
-        To learn more about external trigger definitions, see [Conditional and event-driven inbound integration](https://www.servicenow.com/docs/access?context=conditional-and-event-driven-inbound-integration&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+        To learn more about external trigger definitions, see .
 
     4.  To define the conditions for the flow to execute, in the Condition 1 field, drag the appropriate data pill and enter the value.
 
@@ -124,8 +125,8 @@ Roles that the flow runs with. This option is only available when **Run as** is 
 
 8.  Activate the flow.
 
-    Activate the flow if the test returns the desired outcome. For more information on testing and activating your flow, see [Test a flow](../../flow-designer/task/flow-test.md) and [Activate a flow](../../flow-designer/task/flow-activate.md).
+    Activate the flow if the test returns the desired outcome. For more information on testing and activating your flow, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-test.md) and [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-activate.md).
 
 
-**Parent Topic:**[Create a flow in Workflow Studio](../../flow-designer/task/create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-flow.md)
 

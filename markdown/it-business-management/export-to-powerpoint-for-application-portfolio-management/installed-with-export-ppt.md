@@ -2,6 +2,7 @@
 title: Components installed with Export to PowerPoint for Strategic Portfolio Management
 description: Several types of components are installed with activation of the Export to PowerPoint for Strategic Portfolio Management \(sn\_ppt\) add-in, including user roles and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/export-to-powerpoint-for-application-portfolio-management/installed-with-export-ppt.html
 release: zurich
 product: Export to PowerPoint for Application Portfolio Management
 classification: export-to-powerpoint-for-application-portfolio-management
@@ -148,5 +149,5 @@ Stores the supported chart types, such as line chart and bar chart.
 
 To view and manage all available templates, navigate to **All** &gt; **PowerPoint Management** &gt; **PowerPoint Templates**.
 
-**Parent Topic:**[Export to PowerPoint Reference](export-ppt-reference.md)
+**Parent Topic:**[Export to PowerPoint Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/export-to-powerpoint-for-application-portfolio-management/export-ppt-reference.md)
 

@@ -2,7 +2,10 @@
 title: Cloud Request Retry Configuration
 description: If a request is throttled by a cloud provider during Discovery, Cloud Request Retry Configuration provides a customizable method to retry requests. Discovery and Service Mapping Patterns includes a retry configuration for AWS and Azure. You can customize the included configuration or create your own.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-request-retry-configuration.html
 release: zurich
+product: IT Operations Management
+classification: it-operations-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -75,7 +78,7 @@ If the initial delay is 2000, the final delay \(with jitter\) can be a value bet
 
 ## Custom backoff
 
-With a custom backoff retry strategy, you define the **Max retries** and **Response codes** and create your own **Mid script include** that defines how requests are retried using the **getDelay\(\)** function. For more information, see [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+With a custom backoff retry strategy, you define the **Max retries** and **Response codes** and create your own **Mid script include** that defines how requests are retried using the **getDelay\(\)** function. For more information, see Script includes.
 
-**Parent Topic:**[Install and configure MID Servers to access cloud environments](../task/mid-server-configuration-cloud.md)
+**Parent Topic:**[Install and configure MID Servers to access cloud environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/mid-server-configuration-cloud.md)
 

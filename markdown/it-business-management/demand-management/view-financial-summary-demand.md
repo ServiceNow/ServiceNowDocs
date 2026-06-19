@@ -2,6 +2,7 @@
 title: View financial summary of cost and monetary benefit plans
 description: View a breakdown of the cost and benefit components of a demand to track the financials of your demands. The financial summary enables you to assess the progress of the demand and track financial changes and their impact on the demand over a period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/demand-management/view-financial-summary-demand.html
 release: zurich
 product: Demand Management
 classification: demand-management
@@ -35,23 +36,23 @@ View a detailed breakdown of the cost components of a demand using the **Financi
 
 5.  Add additional fields, view plan details, or reorganize the financial data.
 
-<table id="choicetable_eky_wfv_2nb"><thead><tr><th align="left" id="d246027e109">
+<table id="choicetable_eky_wfv_2nb"><thead><tr><th align="left" id="d48186e109">
 
 Action
 
-</th><th align="left" id="d246027e112">
+</th><th align="left" id="d48186e112">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d246027e118">
+</th></tr></thead><tbody><tr><td id="d48186e118">
 
 **Create a baseline or compare available baselines**
 
 </td><td>
 
-Select the baseline information icon ![](../image/new-baseline-info-icon.png) and then select **Create New Baseline** or **Compare Baselines** option respectively. For more information, see [Create a baseline of a demand](create-demand-baseline.md).
+Select the baseline information icon \[Omitted image "new-baseline-info-icon.png"\] Alt text: and then select **Create New Baseline** or **Compare Baselines** option respectively. For more information, see [Create a baseline of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/create-demand-baseline.md).
 
-</td></tr><tr><td id="d246027e145">
+</td></tr><tr><td id="d48186e145">
 
 **Create a cost plan or benefit plan for the demand**
 
@@ -59,15 +60,15 @@ Select the baseline information icon ![](../image/new-baseline-info-icon.png) an
 
 In the **Cost Plans** or **Benefits Plans** tab, select **New**.
 
-</td></tr><tr><td id="d246027e163">
+</td></tr><tr><td id="d48186e163">
 
 **View a cost plan or benefit plan details in a form**
 
 </td><td>
 
-Select the information icon ![](../image/new-info-icon-coral.png) available in the **Name** column of the grid.
+Select the information icon \[Omitted image "new-info-icon-coral.png"\] Alt text: available in the **Name** column of the grid.
 
-</td></tr><tr><td id="d246027e180">
+</td></tr><tr><td id="d48186e180">
 
 **View a cost plan or benefit plan details in yearly, quarterly, or monthly format**
 
@@ -75,13 +76,13 @@ Select the information icon ![](../image/new-info-icon-coral.png) available in t
 
 Select the **Year**, **Quarter**, or **Month** views respectively.You can also edit the breakdown values of a cost plan or benefit plan without opening the plan in a form. Inline edit is available only in the **Monthly** view.
 
-</td></tr><tr><td id="d246027e205">
+</td></tr><tr><td id="d48186e205">
 
 **Toggle the widgets on the __Financial Summary__ section or add more fields**
 
 </td><td>
 
-1.  Select the widgets icon ![](../image/new-widget-configuration-icon.png) and then select the **Show Widgets** option.
+1.  Select the widgets icon \[Omitted image "new-widget-configuration-icon.png"\] Alt text: and then select the **Show Widgets** option.
 2.  Select additional fields to show, clear them to hide.
 
 **Note:**
@@ -91,15 +92,15 @@ Select the **Year**, **Quarter**, or **Month** views respectively.You can also e
     -   If the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated, you can add additional fields such as Benefit in demand currency, Actual Cost in demand currency, and Financial return in demand currency.
 
 
-</td></tr><tr><td id="d246027e250">
+</td></tr><tr><td id="d48186e250">
 
 **Show or hide columns in the grid**
 
 </td><td>
 
-Select the configuration icon ![](../image/new-widget-configuration-icon.png) and select the field names.**Note:** You can’t hide the grouped columns.
+Select the configuration icon \[Omitted image "new-widget-configuration-icon.png"\] Alt text: and select the field names.**Note:** You can’t hide the grouped columns.
 
-</td></tr><tr><td id="d246027e267">
+</td></tr><tr><td id="d48186e267">
 
 **Reset to the default grid column layout**
 
@@ -107,7 +108,7 @@ Select the configuration icon ![](../image/new-widget-configuration-icon.png) an
 
 Select **Reset to defaults**.
 
-</td></tr><tr><td id="d246027e279">
+</td></tr><tr><td id="d48186e279">
 
 **Export financial information**
 
@@ -115,13 +116,13 @@ Select **Reset to defaults**.
 
 Select **Export to csv**.
 
-</td></tr><tr><td id="d246027e291">
+</td></tr><tr><td id="d48186e291">
 
 **View the demand costs and benefits in demand currency**
 
 </td><td>
 
-1.  Select the configuration icon ![](../image/new-widget-configuration-icon.png).
+1.  Select the configuration icon \[Omitted image "new-widget-configuration-icon.png"\] Alt text:.
 2.  Select additional fields to show demand currency amounts.
 
 **Note:** If the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated, you can add additional fields.
@@ -130,15 +131,15 @@ Select **Export to csv**.
 
  In the Financial Summary grid view of the cost plan and benefit plan tabs, all items related to demand currency are configured in the column heads such as **Cost in demand currency** and **Demand currency**.
 
-</td></tr><tr><td id="d246027e328">
+</td></tr><tr><td id="d48186e328">
 
 **View details of an item in the grid**
 
 </td><td>
 
-Select the expand icon ![](../image/new-expand-icon.png)or collapse icon ![](../image/new-collapse-icon.png).
+Select the expand icon \[Omitted image "new-expand-icon.png"\] Alt text:or collapse icon \[Omitted image "new-collapse-icon.png"\] Alt text:.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create a demand](t_CreatingDemands.md)
+**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/t_CreatingDemands.md)
 

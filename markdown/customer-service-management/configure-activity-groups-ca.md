@@ -2,7 +2,10 @@
 title: Configure activity groups for the Customer History view
 description: Create an activity group and then add activity types to the activity group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-activity-groups-ca.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -23,9 +26,9 @@ An activity group is a logical grouping of activity types. An activity group is 
 
 Activity groups are displayed in the Customer History view in Agent Workspace.
 
-![Activity groups view in Agent Workspace displaying Chat and Phone as the activity group types.](../image/static-facet.png)
+\[Omitted image "static-facet.png"\] Alt text: Activity groups view in Agent Workspace displaying Chat and Phone as the activity group types.
 
-Learn more about configuring activity groups from the following video tutorial.Configure activity groups
+Learn more about configuring activity groups from the following video tutorial.
 
 ## Procedure
 

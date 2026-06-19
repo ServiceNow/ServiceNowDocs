@@ -2,6 +2,7 @@
 title: Administer and maintain the Talent Development Core app
 description: Administering and maintaining the Talent Development Core app requires the role of a ServiceNow administrator or an Talent admin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/egd-administration.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -30,36 +31,36 @@ Anyone that is assigned the Talent Development Core admin role \[sn\_egd\_core.a
     -   Administrators define **Aspiration Types** that are displayed in the user interface. Employees select different **Aspiration Types** that help them to meet goals.
     -   Create **Interests** that are available for employees to select when creating an aspiration.
 
--   **[Create Talent Development Outcome Types](../task/egd-admin-create-outocome-type.md)**  
+-   **[Create Talent Development Outcome Types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-admin-create-outocome-type.md)**  
 As an Talent admin you create outcome types that can be used in growth plans.
--   **[Create Talent Development Activity Types](../task/egd-admin-create-activity-type.md)**  
+-   **[Create Talent Development Activity Types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-admin-create-activity-type.md)**  
 As a Talent Development Core admin you create **Activity Types** that are used in growth plans.
--   **[Create Talent Development Core Activity Categories](../task/egd-admin-create-activity-cat.md)**  
+-   **[Create Talent Development Core Activity Categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-admin-create-activity-cat.md)**  
 As an Talent Development Core admin you create **Activity Categories** that are used in growth plans.
--   **[Create Talent Development Activity Templates](../task/egd-admin-create-activity-temp.md)**  
+-   **[Create Talent Development Activity Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-admin-create-activity-temp.md)**  
 As a Talent Development Core admin you create **Activity Templates** that are used in growth plans.
--   **[Create Talent Development Activity Recommendations](../task/egd-admin-create-activity-recco.md)**  
+-   **[Create Talent Development Activity Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-admin-create-activity-recco.md)**  
 As an Talent admin you create **Activity Template Recommendations** that are used in growth plans.
--   **[Set Talent Development Properties](../task/egd-admin-set-props.md)**  
+-   **[Set Talent Development Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-admin-set-props.md)**  
 Set properties to control manager skill approvals and activity completion flows.
--   **[Create a Talent Development Core featured growth item](../task/egd-admin-create-featured-growth-item.md)**  
+-   **[Create a Talent Development Core featured growth item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-admin-create-featured-growth-item.md)**  
 Use the Featured Growth Items table to define the roles, skills, and opportunities that appear in the Featured by your company widget. This widget can be used to promote desirable career opportunities and skills that foster growth and development for employees within your organization.
--   **[Add sample texts to Talent Development related content](../task/egd-admin-add-sample-text.md)**  
+-   **[Add sample texts to Talent Development related content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-admin-add-sample-text.md)**  
 As an Talent admin you can add **Sample Text**.
--   **[Add Talent Development Aspirations](../task/egd-admin-create-aspiration.md)**  
+-   **[Add Talent Development Aspirations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-admin-create-aspiration.md)**  
 An Talent admin can manage **Aspirations** that employees create and share.
--   **[Add Talent Development Aspirations Types](../task/egd-admin-create-aspiration-type.md)**  
+-   **[Add Talent Development Aspirations Types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-admin-create-aspiration-type.md)**  
 As an Talent admin you can add or manage **Aspiration Types**, which are used to identify employee aspirations.
--   **[Add Talent Development Interests](../task/egd-admin-add-interesta.md)**  
+-   **[Add Talent Development Interests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-admin-add-interesta.md)**  
 As a Talent Development Core admin, you can add **Interests** that help employees understand and create an aspiration.
--   **[License Talent Development Core users](../task/egd-employee-profile-licensing.md)**  
+-   **[License Talent Development Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-employee-profile-licensing.md)**  
 Talent Development Core uses the Employee Profile licensing feature to license user.
--   **[View Talent Development Core licensed profiles](../task/egd-view-licensed-profiles.md)**  
+-   **[View Talent Development Core licensed profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-view-licensed-profiles.md)**  
 You can view a list of profiles that are licensed for Talent Development.
--   **[View Growth plans related information in the Now Assist Admin console](../task/gp-now-assist-view-graphs.md)**  
+-   **[View Growth plans related information in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/gp-now-assist-view-graphs.md)**  
 From the Now Assist Admin console, view related information for Growth plans created with the help of Now Assist.
--   **[Achievements and Credentials in Talent Development Core](achievements-and-credentials-in-td.md)**  
+-   **[Achievements and Credentials in Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/achievements-and-credentials-in-td.md)**  
 View all types of user credentials acquired outside the current organization \(currently populated from Credly\) in Achievements and Credentials.
 
-**Parent Topic:**[HR Service Delivery](../../human-resources/concept/hr-service-delivery.md)
+**Parent Topic:**[HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-service-delivery.md)
 

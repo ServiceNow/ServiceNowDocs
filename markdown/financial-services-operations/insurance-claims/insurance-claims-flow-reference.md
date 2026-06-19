@@ -2,6 +2,7 @@
 title: Insurance claims reference
 description: Learn about the components and properties that are installed with the Insurance claims application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/insurance-claims-flow-reference.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims
@@ -15,10 +16,10 @@ breadcrumb: [Insurance claims, Claims applications, Insurance applications, Fina
 
 Learn about the components and properties that are installed with the Insurance claims application.
 
--   **[Components installed with Insurance claims](../reference/components-installed-with-insurance-claims-flow.md)**  
+-   **[Components installed with Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/components-installed-with-insurance-claims-flow.md)**  
 Several types of components are installed with the activation of the Insurance claims application.
--   **[Domain separation and Insurance claims](domain-separation-and-insurance-claims-flow.md)**  
+-   **[Domain separation and Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/domain-separation-and-insurance-claims-flow.md)**  
 Domain separation is supported for Insurance claims. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[Insurance claims](insurance-claims-flow.md)
+**Parent Topic:**[Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/insurance-claims-flow.md)
 

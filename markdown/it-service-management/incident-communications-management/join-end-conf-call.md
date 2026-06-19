@@ -2,6 +2,7 @@
 title: Join or end conference call on incident communication task
 description: After a conference call is initiated, join the call to participate in the discussion or end the call when the conference is no longer required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-communications-management/join-end-conf-call.html
 release: zurich
 product: Incident Communications Management
 classification: incident-communications-management
@@ -34,15 +35,15 @@ Role required:
 
 5.  In the related links, perform any of the following actions.
 
-<table id="choicetable_qdq_fjq_thb"><thead><tr><th align="left" id="d194124e89">
+<table id="choicetable_qdq_fjq_thb"><thead><tr><th align="left" id="d190074e89">
 
 Option
 
-</th><th align="left" id="d194124e92">
+</th><th align="left" id="d190074e92">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d194124e98">
+</th></tr></thead><tbody><tr><td id="d190074e98">
 
 **Join Conference Call**
 
@@ -50,7 +51,7 @@ Description
 
 If the logged in user is not already a part of the conference call, the user can join the conference.
 
-</td></tr><tr><td id="d194124e107">
+</td></tr><tr><td id="d190074e107">
 
 **End Conference Call**
 
@@ -60,5 +61,5 @@ End the conference when the discussion is over.**Note:** The work notes get upda
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing Incident Communications](../concept/working-with-inci-comm-mgmt.md)
+**Parent Topic:**[Managing Incident Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
 

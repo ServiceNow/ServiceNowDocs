@@ -2,6 +2,7 @@
 title: Enable running of Varnish checks
 description: Use application fingerprints to discover the Varnish CI, to enable running Varnish checks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/discover-varnish-ci.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -37,7 +38,7 @@ Role required: discovery\_admin
 
     Discovery locates an application CI for the varnishstat entry. The CI appears on the Application Fingerprints dashboard in the **Created Applications** section.
 
-    ![Created Applications section of Application Fingerprints Dashboard](../image/app-fingerprints-dash.png "Created applications section of Application Fingerprints dashboard")
+    \[Omitted image "app-fingerprints-dash.png"\] Alt text: Created Applications section of Application Fingerprints Dashboard
 
 6.  Run basic Discovery on the host machine.
 
@@ -48,5 +49,5 @@ The varnishstat CI is discovered and a record is created in the u\_cmdb\_ci\_var
 
 The Varnish policies and checks are available to run.
 
-**Parent Topic:**[Agent Client Collector deployment - shared between servers and endpoints](../concept/acc-shared-deployment.md)
+**Parent Topic:**[Agent Client Collector deployment - shared between servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-shared-deployment.md)
 

@@ -2,6 +2,7 @@
 title: Test the integration profile for a third-party shipping carrier in the Enterprise Asset Workspace
 description: Test the integration profile for a third-party shipping carrier so that you can mitigate any connection issues that arise.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/test-shipping-carrier-integration-profile-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -34,5 +35,5 @@ Role required: sn\_eam.enterprise\_admin
     **Note:** If the integration profile fails to connect three or more consecutive times, you can view and take action on the corresponding connection issues by using the Carrier integration failures important action in the Inventory view of the Enterprise Asset Workspace.
 
 
-**Parent Topic:**[Managing enterprise asset shipments](../concept/manage-shipments-eam.md)
+**Parent Topic:**[Managing enterprise asset shipments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/manage-shipments-eam.md)
 

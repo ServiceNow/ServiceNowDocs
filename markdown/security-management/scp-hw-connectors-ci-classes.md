@@ -2,6 +2,7 @@
 title: Supported hardware service graph connectors for Security Posture Control
 description: Supported Hardware service graph connectors with CI class, source \(product\), and tool categories. This list is not complete and is subject to change with the addition of more products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/scp-hw-connectors-ci-classes.html
 release: zurich
 topic_type: reference
 last_updated: "2025-07-31"

@@ -2,6 +2,7 @@
 title: Back out an update set
 description: You can back out changes to existing records for any committed update set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/system-update-sets/t\_BackOutUpdateSet.html
 release: zurich
 product: System Update Sets
 classification: system-update-sets
@@ -39,7 +40,7 @@ The back out process reverses both record-level updates and changes to the dicti
 |A record is inserted|The record is deleted. \(See **Note** below\)|
 |A record is deleted|The record is restored with its original data.|
 
-**Warning:** Backing out an update set that belongs to an update set batch may affect other update sets in the batch. For more information, see [Back out batched update set](../reference/us-batch-backout.md).
+**Warning:** Backing out an update set that belongs to an update set batch may affect other update sets in the batch. For more information, see [Back out batched update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/us-batch-backout.md).
 
 -   If the sys\_package is global, it is deleted.
 -   If the sys\_package is not global, and it has a value, a warning displays that there is no deletion. Rather, the sys\_update\_xml is put into the default update set and the record is left in place.

@@ -2,6 +2,7 @@
 title: ShazzamScanner - Global
 description: The ShazzamScanner script include provides methods to encapsulate a Shazzam scanner.A hash map of any nodes contained within the scanner, by name.The Windows domain name, if one was resolved by the scanner.The IP hostname, if one was resolved by the scanner.The scanner name.The port being scanned.The port probe name.The scanner protocol.The scanner result.The scanner service name.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_ShazzamScannerAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The ShazzamScanner script include provides methods to encapsulate a Shazzam scan
 
 Use this script include during the discovery scanning phase.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## ShazzamScanner - contents
 

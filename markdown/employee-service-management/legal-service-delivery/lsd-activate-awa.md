@@ -2,6 +2,7 @@
 title: Activate Advanced Work Assignment for Legal Service Delivery
 description: You can activate the Advanced Work Assignment for Legal Service Delivery plugin \(sn\_lg\_awa\) for Legal Service Delivery if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/lsd-activate-awa.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -31,7 +32,7 @@ Role required: admin
 
 Roles are installed with Advanced Work Assignment for Legal Service Delivery:
 
-For more information, see [Components installed for Advanced Work Assignment for Legal Service Delivery reference](../reference/lsd-components-installed-awa.md).
+For more information, see [Components installed for Advanced Work Assignment for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/lsd-components-installed-awa.md).
 
 ## Procedure
 
@@ -45,7 +46,7 @@ For more information, see [Components installed for Advanced Work Assignment for
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
 ## What to do next
@@ -54,5 +55,5 @@ For more information, see [Components installed for Advanced Work Assignment for
 
     **Note:** If you're using skill management, ensure you have the right subscription.
 
--   Configure live agent support for legal services. For more information, see [Configure Virtual Agent conversation topics for legal services](../../legal-request-management/task/configure-legal-va.md).
+-   Configure live agent support for legal services. For more information, see [Configure Virtual Agent conversation topics for legal services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/configure-legal-va.md).
 

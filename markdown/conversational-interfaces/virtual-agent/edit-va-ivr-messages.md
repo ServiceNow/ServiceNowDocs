@@ -2,6 +2,7 @@
 title: Manage bot messages for Conversational IVR
 description: Edit your custom messages to ensure that your conversations are optimized for Conversational IVR.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/edit-va-ivr-messages.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -33,12 +34,12 @@ Role required: admin
 
     Additionally, you can also select the **Manage** button in the VA Messages column against the identity provider.
 
-    ![Select Manage to edit your custom messages for the provider Channel identity.](../images/manage-ivr-mesgs.png "Manage custom messages for Conversational IVR")
+    \[Omitted image "manage-ivr-mesgs.png"\] Alt text: Select Manage to edit your custom messages for the provider Channel identity.
 
 6.  On the Custom virtual agent messages page, select the custom message that you want to update.
 
 7.  Edit the **Value** for the message and click **Update**.
 
 
-**Parent Topic:**[Configure Conversational IVR with Amazon Connect](configure-va-ivr.md)
+**Parent Topic:**[Configure Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-va-ivr.md)
 

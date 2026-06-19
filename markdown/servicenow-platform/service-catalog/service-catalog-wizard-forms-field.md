@@ -2,6 +2,7 @@
 title: Catalog Wizard form
 description: Description of the fields for the Catalog Wizard Step, Catalog Wizard Section, Variable, and Catalog Wizard Question forms in Service Catalog wizards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/service-catalog-wizard-forms-field.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -249,7 +250,7 @@ Question
 
 Option to associate a question to the section.**Note:** You can create a new variable to associate to a question or select an existing one.
 
-For information on creating a new variable, see [Add a step, section, or question to a catalog item wizard](../task/catalog-wizard.md).
+For information on creating a new variable, see [Add a step, section, or question to a catalog item wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/catalog-wizard.md).
 
 </td></tr><tr><td>
 
@@ -260,7 +261,7 @@ Set
 Option to associate a question set to the section if you have selected the **Map to set** option.
 
 </td></tr></tbody>
-</table>For information about adding a step, section, or question to a catalog item wizard, see [Add a step, section, or question to a catalog item wizard](../task/configure-the-catalog-builder-experience.md).
+</table>For information about adding a step, section, or question to a catalog item wizard, see [Add step, section, or question to catalog item wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/configure-the-catalog-builder-experience.md).
 
-**Parent Topic:**[Service Catalog Reference](../concept/service-catalog-reference.md)
+**Parent Topic:**[Service Catalog Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/service-catalog-reference.md)
 

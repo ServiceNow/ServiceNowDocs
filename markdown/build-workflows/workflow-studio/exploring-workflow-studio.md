@@ -2,6 +2,7 @@
 title: Exploring Workflow Studio
 description: Work with playbooks, flows, subflows, actions, data streams, and decision tables from a single consolidated interface. See operational details of your workflow applications and configure integration connections and credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/exploring-workflow-studio.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -19,7 +20,7 @@ Work with playbooks, flows, subflows, actions, data streams, and decision tables
 
 The Workflow Studio homepage displays all the workflow applications available for authoring and editing.
 
-![Parts of the Workflow Studio homepage.](../images/workflow-studio-homepage.png "Sample Workflow Studio homepage")
+\[Omitted image "workflow-studio-homepage.png"\] Alt text: Parts of the Workflow Studio homepage.
 
 The Workflow Studio homepage consists of these elements.
 
@@ -56,7 +57,7 @@ The Workflow Studio homepage consists of these elements.
 
 The Workflow Studio operations page displays a usage dashboard and execution details for the workflow components that are currently running and have completed running.
 
-![Parts of the Workflow Studio operations page.](../images/workflow-studio-operations.png "Sample Workflow Studio operations page")
+\[Omitted image "workflow-studio-operations.png"\] Alt text: Parts of the Workflow Studio operations page.
 
 The Workflow Studio operations page consists of these elements.
 
@@ -77,7 +78,7 @@ The Workflow Studio operations page consists of these elements.
 
 The Workflow Studio integrations page displays connection details for Integration Hub spokes. You can use this page to configure inbound and outbound spoke connections.
 
-![Parts of the Workflow Studio integrations page.](../images/workflow-studio-integrations.png "Sample Workflow Studio integrations page")
+\[Omitted image "workflow-studio-integrations.png"\] Alt text: Parts of the Workflow Studio integrations page.
 
 The Workflow Studio integrations page consists of these elements.
 
@@ -92,7 +93,7 @@ The Workflow Studio integrations page consists of these elements.
 
 ## Create button
 
-![Create button and its available options](../images/workflow-studio-create-button-and-menu-options.png "Create button and options menu")
+\[Omitted image "workflow-studio-create-button-and-menu-options.png"\] Alt text: Create button and its available options
 
 Beginning with the Xanadu release, you can create new workflow items from any Workflow Studio page rather than just the Homepage. Use the Create button on the tab header to display a list of available workflow components.
 
@@ -129,7 +130,7 @@ If you're trying to determine if a playbook should be a flow instead, start by d
     -   If no, use a flow. Flows use less data storage in your instance.
 -   If your playbook is not triggered very often, keep it as a playbook. Playbooks offer visibility into where you're at in a process, particularly business processes with manual user steps.
 
-You can reference decision tables in flows, subflows, actions, and playbooks. Data streams are not used in flows, subflows, actions, playbooks, or decision tables. To learn more about data streams, see [Data Stream actions and pagination](https://www.servicenow.com/docs/access?context=data-stream-actions&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+You can reference decision tables in flows, subflows, actions, and playbooks. Data streams are not used in flows, subflows, actions, playbooks, or decision tables. To learn more about data streams, see .
 
 ## Differences from previous releases
 
@@ -164,16 +165,16 @@ Workflow Studio combines playbooks, flows, subflows, actions, decision tables, a
     Workflow Studio contains execution details for all workflow object types. You no longer have to switch between applications to see execution details for a particular object type.
 
 
--   **[Exploring playbooks](../../process-automation-designer/concept/process-automation-designer.md)**  
+-   **[Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer.md)**  
 Workflow Studio playbooks enable process owners to author cross-enterprise workflows and create a single, unified process. Build the underlying processes for playbooks that Playbook Experience agents and fulfillers use.
--   **[Exploring flows](exploring-flows.md)**  
+-   **[Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-flows.md)**  
 Flows automate a repeatable multi-step process. When the flow trigger conditions are met, the flow runs a sequence of reusable actions and flow logic to complete the process.
--   **[Exploring subflows](../reference/exploring-subflows.md)**  
+-   **[Exploring subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-subflows.md)**  
 Subflows automate a repeatable multi-step process that also produces an output needed by another process. When a playbook, flow, or script calls a subflow, the subflow runs a sequence of reusable actions and flow logic to complete the process and produce output values.
--   **[Exploring actions](exploring-actions.md)**  
+-   **[Exploring actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-actions.md)**  
 Actions automate a repeatable task or operation within a flow. Flows run actions by passing them data as inputs. Actions run a sequence of steps to complete the task, and pass data to the flow as outputs.
--   **[Exploring Decision Tables](../../decision-table/concept/decision-designer-overview.md)**  
+-   **[Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/decision-designer-overview.md)**  
 Decision tables in Workflow Studio enable developers to decouple decision logic from their code by creating and maintaining decision rules.
 
-**Parent Topic:**[Workflow Studio](../reference/workflow-studio.md)
+**Parent Topic:**[Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/workflow-studio.md)
 

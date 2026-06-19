@@ -2,11 +2,12 @@
 title: Convert quotes into orders
 description: Use the Customer Order tab to convert a quote into a customer order in Quote Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/quote-management-customer-orders-tab.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -27,7 +28,7 @@ The quote must be in an Active state and the quote state must be set to Complete
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** view ![image.Lists].
+1.  In the CSM Configurable Workspace, select the **List** view \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 2.  Navigate to **Quotes** &gt; **All**.
 
@@ -44,5 +45,5 @@ The quote must be in an Active state and the quote state must be set to Complete
     The **Order Line Item** view displays the order line items, pricing adjustments, and order tasks.
 
 
-**Parent Topic:**[Using Quote Management](../concept/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-mgmt-using.md)
 

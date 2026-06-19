@@ -2,6 +2,7 @@
 title: Manage customer communication
 description: Provide a response and feedback to the customer for a decision made on a dispute, such as friendly fraud.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/resolve-fraud-customer-communication.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -27,7 +28,7 @@ When you select the **Decline dispute transaction** option in the **Detect frien
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -49,15 +50,15 @@ When you select the **Decline dispute transaction** option in the **Detect frien
 
     -   When the customer decision is accepted, provide **Customer feedback** and select **Mark complete**. The dispute is marked as **Closed Complete**.
     -   When the customer decision is denied, provide the **Customer feedback**. In the **Action** section, select one of the following.
-<table id="choicetable_mzh_qdg_w2c"><thead><tr><th align="left" id="d56119e221">
+<table id="choicetable_mzh_qdg_w2c"><thead><tr><th align="left" id="d56831e221">
 
 Final action
 
-</th><th align="left" id="d56119e224">
+</th><th align="left" id="d56831e224">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d56119e230">
+</th></tr></thead><tbody><tr><td id="d56831e230">
 
 **Decline dispute transaction**
 
@@ -68,7 +69,7 @@ Steps
 
 The transaction is marked as**Closed Rejected**.
 
-</td></tr><tr><td id="d56119e259">
+</td></tr><tr><td id="d56831e259">
 
 **Issue credit and write-off**
 
@@ -82,7 +83,7 @@ The **Issue credit** activity is displayed.
 3.  Provide the final credit and select **Close task**. The task is marked as **Closed Complete.**
 
 
-</td></tr><tr><td id="d56119e296">
+</td></tr><tr><td id="d56831e296">
 
 **Proceed with dispute**
 
@@ -93,10 +94,10 @@ The **Issue credit** activity is displayed.
 
 The next activity **Report fraud** is displayed.
 
-3.  Proceed with activities in the playbook as required. For more information about resolving fraud, see [Report fraud to a card network](report-fraud-to-card-network.md).
+3.  Proceed with activities in the playbook as required. For more information about resolving fraud, see [Report fraud to a card network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/report-fraud-to-card-network.md).
 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Investigating a dispute](investigate-a-dispute.md)
+**Parent Topic:**[Investigating a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/investigate-a-dispute.md)
 

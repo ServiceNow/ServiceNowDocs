@@ -2,6 +2,7 @@
 title: Respond to a request for clarification for a Legal Invention Disclosure request
 description: Provide information requested by the patent reviewer or fulfiller to complete a Legal Invention Disclosure request for review.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-invention-disclosure/submit-request-for-review.html
 release: zurich
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
@@ -44,5 +45,5 @@ If you have submitted a Legal Invention Disclosure with missing or incomplete in
 
 The request is submitted back to the fulfiller for review.
 
-**Parent Topic:**[Using the Legal Invention Disclosure](../concept/use-legal-invention-disclosure.md)
+**Parent Topic:**[Using the Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-invention-disclosure/use-legal-invention-disclosure.md)
 

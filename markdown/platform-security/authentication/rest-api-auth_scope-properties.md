@@ -2,6 +2,7 @@
 title: REST API Auth Scope properties and tables
 description: The REST API Auth Scope plugin \(com.glide.rest.auth.scope\) includes the following system properties, tables, and scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/rest-api-auth\_scope-properties.html
 release: zurich
 product: Authentication
 classification: authentication

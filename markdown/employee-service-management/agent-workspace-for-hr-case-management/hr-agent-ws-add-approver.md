@@ -2,6 +2,7 @@
 title: Add or substitute an approver in a case
 description: Using Agent Workspace for HR Case Management you can add an approver or substitute missing approvers for cases that require approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-add-approver.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

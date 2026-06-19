@@ -2,6 +2,7 @@
 title: Input Collector user input control
 description: Use the Input Collector control to gather data for use by Now Assist in conversations that use large language model \(LLM\) topic discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-ai-data-collector.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -19,8 +20,6 @@ Use the Input Collector control to gather data for use by Now Assist in conversa
 ## Input Collector Overview
 
 For an overview of the Input Collector from a user perspective, watch this video.
-
-Virtual Agent Designer Input Collector user input control video
 
 ## Input Collector properties
 
@@ -66,7 +65,7 @@ Confirmation message
 
 </td><td>
 
-Toggle switch to display a summary of collected inputs to the user at the end of a conversation. If Summary message is activated, the Virtual Agent, when activated, presents the information that you have entered and asks if everything is correct. Select **Yes** to continue the chat or **No** to restart collecting user input. You can also reply by typing a response in the chat window, to confirm or deny the summary or to change your answer. This option is active by default, and shows an enabled icon ![](../images/bluecheck.png) when activated.
+Toggle switch to display a summary of collected inputs to the user at the end of a conversation. If Summary message is activated, the Virtual Agent, when activated, presents the information that you have entered and asks if everything is correct. Select **Yes** to continue the chat or **No** to restart collecting user input. You can also reply by typing a response in the chat window, to confirm or deny the summary or to change your answer. This option is active by default, and shows an enabled icon \[Omitted image "bluecheck.png"\] Alt text: when activated.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -91,15 +90,15 @@ No-code condition statement or low-code script that specifies a condition for le
 </td></tr></tbody>
 </table>## Example Input Collector capability
 
-![Basic properties include the node name. Advanced options include Additional instructions to LLM, Confirmation messages, and Hide this node.](../images/ai-data-collector-properties.png)
+\[Omitted image "ai-data-collector-properties.png"\] Alt text: Basic properties include the node name. Advanced options include Additional instructions to LLM, Confirmation messages, and Hide this node.
 
 ## Input Collector canvas view
 
-![Input collector canvas view, holding text and static choice input nodes. You can move nodes by selecting and dragging them inside, out of, or within the Input collector.](../images/input-collector-canvas-view.png)
+\[Omitted image "input-collector-canvas-view.png"\] Alt text: Input collector canvas view, holding text and static choice input nodes. You can move nodes by selecting and dragging them inside, out of, or within the Input collector.
 
 ## Input Collector table view
 
-![Input collector table view, showing text and static choice nodes, with up and down arrows to reorder nodes inside the collector.](../images/input-collector-table-view.png)
+\[Omitted image "input-collector-table-view.png"\] Alt text: Input collector table view, showing text and static choice nodes, with up and down arrows to reorder nodes inside the collector.
 
 ## Channel support
 
@@ -119,5 +118,5 @@ No-code condition statement or low-code script that specifies a condition for le
 |Apple Messages for Business|Not supported|Not supported|Not applicable|
 |Alexa \(Voice\)|Not supported|Not supported|Not applicable|
 
-**Parent Topic:**[Assistant Designer user input controls](va-user-inputs.md)
+**Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-user-inputs.md)
 

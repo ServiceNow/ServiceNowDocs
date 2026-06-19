@@ -2,6 +2,7 @@
 title: Connectivity details
 description: For SOAP requests initiated from your ServiceNow instance to be able to successfully communicate with the web service provider inside a remote network, the ServiceNow instance must have HTTP or HTTPS access to the SOAP endpoint at the provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/c\_ConnectivityDetails.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -19,5 +20,5 @@ Like any integration, such as LDAP, web services, or JDBC, the SOAP endpoint may
 
 **Note:** A common misconception is that because asynchronous SOAP requests are routed through the ECC queue, they are always sent through a MID Server. However, asynchronous SOAP requests use a MID Server only when configured to do so.
 
-**Parent Topic:**[Outbound SOAP web service](c_OutboundSOAPWebService.md)
+**Parent Topic:**[Outbound SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_OutboundSOAPWebService.md)
 

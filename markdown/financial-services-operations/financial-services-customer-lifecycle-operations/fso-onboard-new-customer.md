@@ -2,6 +2,7 @@
 title: Onboard new accounts, contacts, or consumer workflows
 description: Learn how agents, using the onboarding workflows, handle the onboarding process for new accounts, contacts, and consumers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-customer-lifecycle-operations/fso-onboard-new-customer.html
 release: zurich
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations

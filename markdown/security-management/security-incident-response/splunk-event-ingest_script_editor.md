@@ -2,11 +2,12 @@
 title: Use the script editor to format alert values for the Splunk Enterprise Event Ingestion integration
 description: Use the script editor to format field values on the security incident during the mapping step.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/splunk-event-ingest\_script\_editor.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Integration architecture and external systems connection, Splunk Enterprise Event Ingestion integration for Security Operations by ServiceNow, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -29,13 +30,13 @@ In certain cases, Splunk Enterprise alert values are mapped to the Category, Con
 
 ## Procedure
 
-1.  With the mapping form displayed, click the link to open the script editor.
+1.  With the mapping form displayed, select the link to open the script editor.
 
-    ![Click here link for script editor highlighted.](../image/214_SplunkFieldTranslationExampleCMDB_1.png)
+    \[Omitted image "214\_SplunkFieldTranslationExampleCMDB\_1.png"\] Alt text: Format a field value
 
 2.  From the choice list, select a destination field for the value that you want to edit.
 
-3.  Alternatively, in the SIR Incident Field Mapping section, click the bracket icon `[{}]` next to a field to open the script editor for that field.
+3.  Alternatively, in the SIR incident Field Mapping section, select the bracket icon `[{}]` next to a field to open the script editor for that field.
 
     In certain instances, a script include may be appropriate for the Configuration item field. For an alert, for example, a value for the Configuration item may not be matched.
 
@@ -43,14 +44,14 @@ In certain cases, Splunk Enterprise alert values are mapped to the Category, Con
 
     The editor opens with the field displayed in Destination Field. The following image shows the editor with the `Configuration item` field as the Destination Field.
 
-    ![Script editor.](../image/214_SplunkFieldTranslationExampleCMDB.png)
+    \[Omitted image "214\_SplunkFieldTranslationExampleCMDB.png"\] Alt text: Script editor.
 
-4.  Enter any changes to then script, and click **Update** to save your changes.
+4.  Enter any changes to then script, and select **Update** to save your changes.
 
     The Splunk Field Translations table is displayed.
 
 5.  Close the table to return to the Mapping form.
 
 
-**Parent Topic:**[Integration architecture and external systems connection for the Splunk Enterprise Event Ingestion integration](../concept/splunk-event-ingest-integration-architecture.md)
+**Parent Topic:**[Integration architecture and external systems connection for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md)
 

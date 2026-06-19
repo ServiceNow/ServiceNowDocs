@@ -2,6 +2,7 @@
 title: Create work types for a work order task
 description: You have the option to categorize the type of work to be performed in Field Service to complete the task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/create-work-type-fsm.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -98,7 +99,7 @@ Option to indicate if resource, such as agent or equipment, is required for the 
 </td></tr></tbody>
 </table>4.  Select and hold \(or right-click\) the form header and select **Submit**.
 
-    ![new work type form](../image/new-work-type.png)
+    \[Omitted image "new-work-type.png"\] Alt text: new work type form
 
 
 ## Result
@@ -108,5 +109,5 @@ The work type is created successfully.
 -   If you have selected the Needs crew option, the work type is created with the Crew Requirements related list record.
 -   If you have selected the Resource requirements option, the work type is created with the Resource Requirements related list record.
 
-For more information about adding the resource requirement, see [Add resource requirements for a work order task](add-resource-requirement-wot.md).
+For more information about adding the resource requirement, see [Add resource requirements for a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-manager-workforce/add-resource-requirement-wot.md).
 

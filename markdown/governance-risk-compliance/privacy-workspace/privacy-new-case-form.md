@@ -2,6 +2,7 @@
 title: Privacy new case form
 description: On the new privacy case form, fill in the fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/privacy-new-case-form.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -462,5 +463,5 @@ Additional comments \(Customer visible\)
 Additional information regarding the case for the customers.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a privacy case in the Privacy Workspace](../task/create-a-privacy-case.md)
+</table>**Parent Topic:**[Create a privacy case in the Privacy Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/create-a-privacy-case.md)
 

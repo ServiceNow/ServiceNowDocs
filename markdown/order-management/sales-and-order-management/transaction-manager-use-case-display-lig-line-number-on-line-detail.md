@@ -2,6 +2,7 @@
 title: Transaction Manager use case: Display LIG line number on line detail
 description: How to display the Line Item Group line number in the Line Detail.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/transaction-manager-use-case-display-lig-line-number-on-line-detail.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,7 +24,7 @@ To display the line number in the Line Detail view, follow the steps below. This
 
     -   Variable Name: `txn.line.custom.rowNumber`
     -   Default Value: `{{txn#rowNumber}}`
-    ![Row number](../images/cpq-txn-mgr-use-case-display-line-number-1.png)
+    \[Omitted image "cpq-txn-mgr-use-case-display-line-number-1.png"\] Alt text: Row number
 
 2.  Add the new field to your Line Detail layout to make it visible when viewing line items.
 
@@ -34,8 +35,8 @@ To display the line number in the Line Detail view, follow the steps below. This
 
     The line number appears in the Line Detail view, as in the following example:
 
-    ![Line detail screen](../images/cpq-txn-mgr-use-case-display-line-number-2.png)
+    \[Omitted image "cpq-txn-mgr-use-case-display-line-number-2.png"\] Alt text: Line detail screen
 
 
-**Parent Topic:**[Transaction Manager: Use cases](transaction-manager-use-cases.md)
+**Parent Topic:**[Transaction Manager: Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/transaction-manager-use-cases.md)
 

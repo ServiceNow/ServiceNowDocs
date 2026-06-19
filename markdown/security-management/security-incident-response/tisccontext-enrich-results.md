@@ -2,6 +2,7 @@
 title: View Enrichment Results
 description: Use this section to view the observables enrichment results such as Threat Lookup Results, Sightings, and Observable Enrichment Results from TISC in SIR workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/tisccontext-enrich-results.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -46,5 +47,5 @@ Role required: sn\_si.analyst
         |Observable Enrichment Results|Lists all the associated observable enrichment results for selected TISC observables.|
 
 
-**Parent Topic:**[Working with TISC Context](../../secops-analyst-workspace/concept/working-with-tisc-context.md)
+**Parent Topic:**[Working with TISC Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/working-with-tisc-context.md)
 

@@ -2,6 +2,7 @@
 title: Control objective impact analyzer skill
 description: Explore the control objective impact analyzer skill that evaluates citation updates and determines which associated control objectives require attention.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/control-objective-impact-analyzer-skill.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions

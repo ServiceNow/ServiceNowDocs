@@ -2,7 +2,10 @@
 title: Set up predefined Playbooks for Portals
 description: Set up predefined Playbooks for Portals to provide end users with the playbook experience on your service portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/setup-onb-playbks-for-portals.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2
@@ -26,15 +29,15 @@ Plugins required:
 -   Case Playbook for Onboarding: sn\_onboarding \(required if you need the predefined playbook experience\)
 -   Case Playbook for Product Support: sn\_product \(required if you want to use the product case playbook and record generator\)
 
-Plugins are available from the ServiceNow® Store. For more information, see [Playbook plugins](customer-service-case-playbooks.md).
+Plugins are available from the ServiceNow® Store. For more information, see [Playbook plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-case-playbooks.md).
 
 ## Summary of steps for setting up predefined Playbooks for Portals
 
 You can set up Playbooks for Portals using the following high level steps.
 
-1.  Activate the draft state in the onboarding case type state. For more information, see [Activate the draft state for the onboarding case type](activate-the-draft-state-in-the-onboarding-case-type-state.md).
-2.  [Activate the record generator](activate-the-record-generator.md)
-3.  [Activate a new onboarding playbook with self-service](activate-a-new-onboarding-playbook-with-self-service-in-pad.md)
-4.  Activate guided onboarding in the playbook content items. For more information, see [Activate guided onboarding in Playbook content items](activate-guided-onboarding-in-playbook-content-items.md).
-5.  Add a **Process** tab to the Portal so that users can see where they are in the Playbook process. See [Add the Process tab to the portal](../task/add-process-tab-portal.md) for more information.
+1.  Activate the draft state in the onboarding case type state. For more information, see [Activate the draft state for the onboarding case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/activate-the-draft-state-in-the-onboarding-case-type-state.md).
+2.  [Activate the record generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/activate-the-record-generator.md)
+3.  [Activate a new onboarding playbook with self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/activate-a-new-onboarding-playbook-with-self-service-in-pad.md)
+4.  Activate guided onboarding in the playbook content items. For more information, see [Activate guided onboarding in Playbook content items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/activate-guided-onboarding-in-playbook-content-items.md).
+5.  Add a **Process** tab to the Portal so that users can see where they are in the Playbook process. See [Add the Process tab to the portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/add-process-tab-portal.md) for more information.
 

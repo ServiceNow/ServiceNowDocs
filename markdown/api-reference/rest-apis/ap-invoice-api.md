@@ -2,6 +2,7 @@
 title: AP Invoice API
 description: Allows external systems, such as those used by vendors, to securely submit invoices directly into an accounts payable system in a structured and automated manner.Processes an automated invoice in commerce XML \(cXML\) format.Processes an automated invoice in JSON format.Processes an automated invoice in XML format.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-apis/ap-invoice-api.html
 release: zurich
 product: REST APIs
 classification: rest-apis
@@ -15,16 +16,16 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 Allows external systems, such as those used by vendors, to securely submit invoices directly into an accounts payable system in a structured and automated manner.
 
-This API requires the Accounts Payable Invoice Processing \(com.sn\_ap\_apm\) store application, which is provided within the `sn_spend_intg` namespace. For information, see [Accounts Payable Invoice Processing](https://www.servicenow.com/docs/access?context=acc-pay-invoice-processing&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US).
+This API requires the Accounts Payable Invoice Processing \(com.sn\_ap\_apm\) store application, which is provided within the `sn_spend_intg` namespace. For information, see .
 
-Refer to [AP Invoice API Developer Guide](../../guides/APInvoiceAPI/concept/apInvoice-dev-guide.md#) for help with the following tasks:
+Refer to [AP Invoice API Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/developer-guides/apInvoice-dev-guide.md) for help with the following tasks:
 
 -   Define a custom field for invoices, invoice lines, and invoice tax lines.
 -   Map the custom field between source and target tables.
 -   Map the custom field to a payload entry in a specific format, such as JSON, cXML, or XML.
 -   Setting credentials for authentication when using cXML as the payload.
 
-You can apply a filter condition for invoice lines containing multiple ERPs. For information, see [Integration errors](https://www.servicenow.com/docs/access?context=integration-errors-during-erp-posting&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US).
+You can apply a filter condition for invoice lines containing multiple ERPs. For information, see .
 
 **Note:** The maximum default payload size is 100 records. This value is configurable in the **sn\_spend\_intg.ap.invoice.create.api.record\_limit** system property.
 
@@ -37,7 +38,7 @@ You can apply a filter condition for invoice lines containing multiple ERPs. For
     -   Do not use the reserved "SD\_" prefix for attachment file names.
     -   All attachments must be encoded as Base64 format.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/api-rest.md)
 
 ## AP Invoice – POST sn\_spend\_intg/ap\_invoice/cxml
 
@@ -47,13 +48,13 @@ Use the Invoice integration field mappings \[sn\_spend\_intg\_invoice\_intg\_fie
 
 For additional cXML resources, refer to the **cXML Reference Guide** at [https://xml.cxml.org](https://xml.cxml.org/current/cXMLReferenceGuide.pdf).
 
-Credentials for this API are included in the payload. You can set up credentials in the Source system credential \[sn\_spend\_intg\_source\_system\_credential\] table. For instructions, see [Setting credentials for authentication in the cXML payload](../../guides/APInvoiceAPI/concept/apInvoice-dev-guide.md#).
+Credentials for this API are included in the payload. You can set up credentials in the Source system credential \[sn\_spend\_intg\_source\_system\_credential\] table. For instructions, see [Setting credentials for authentication in the cXML payload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/developer-guides/apInvoice-dev-guide.md).
 
 You can define custom invoice fields for the request body. Use the following flow to add custom fields, map them to target tables, and format them for availability in the payload:
 
-1.  [Add custom fields for invoice import](../../guides/APInvoiceAPI/concept/apInvoice-dev-guide.md#)
-2.  [Map custom fields between source and target tables](../../guides/APInvoiceAPI/concept/apInvoice-dev-guide.md#)
-3.  [Map custom fields to a payload source format](../../guides/APInvoiceAPI/concept/apInvoice-dev-guide.md#)
+1.  [Add custom fields for invoice import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/developer-guides/apInvoice-dev-guide.md)
+2.  [Map custom fields between source and target tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/developer-guides/apInvoice-dev-guide.md)
+3.  [Map custom fields to a payload source format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/developer-guides/apInvoice-dev-guide.md)
 
 ### URL format
 
@@ -382,8 +383,8 @@ Account number of the general ledger \(GL\) used to generate the invoice.Target 
 
 See also:
 
--   [ERP source](https://www.servicenow.com/docs/access?context=erp-source&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US)
--   [Ledger account](https://www.servicenow.com/docs/access?context=ledger-account&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US)
+-   
+-   
 
 </td></tr><tr><td>
 
@@ -590,7 +591,7 @@ Related table: Invoice Import \[sn\_spend\_intg\_imp\_invoice\]
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -627,7 +628,7 @@ This setting is also used to fetch credentials from the Source system credential
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -822,9 +823,9 @@ Use the Invoice integration field mappings \[sn\_spend\_intg\_invoice\_intg\_fie
 
 You can define custom invoice fields for the request body. Use the following flow to add custom fields, map them to target tables, and format them for availability in the payload:
 
-1.  [Add custom fields for invoice import](../../guides/APInvoiceAPI/concept/apInvoice-dev-guide.md#)
-2.  [Map custom fields between source and target tables](../../guides/APInvoiceAPI/concept/apInvoice-dev-guide.md#)
-3.  [Map custom fields to a payload source format](../../guides/APInvoiceAPI/concept/apInvoice-dev-guide.md#)
+1.  [Add custom fields for invoice import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/developer-guides/apInvoice-dev-guide.md)
+2.  [Map custom fields between source and target tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/developer-guides/apInvoice-dev-guide.md)
+3.  [Map custom fields to a payload source format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/developer-guides/apInvoice-dev-guide.md)
 
 ### URL format
 
@@ -1030,7 +1031,7 @@ invoices.erp\_number
 
 </td><td>
 
-Unique number generated within the ERP \(Enterprise Resource Planning\) system for the purchase order. For information, see [Purchase order integration](https://www.servicenow.com/docs/access?context=purchase-order-integration-2&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US).Target field: u\_erp\_number
+Unique number generated within the ERP \(Enterprise Resource Planning\) system for the purchase order. For information, see .Target field: u\_erp\_number
 
 Related table: Invoice Import \[sn\_spend\_intg\_imp\_invoice\]
 
@@ -1058,7 +1059,7 @@ invoices. invoice\_copy\_attachment
 
 </td><td>
 
-List of attachments defined at the invoice level. See [Accounts Payable Invoice Processing](https://www.servicenow.com/docs/access?context=acc-pay-invoice-processing&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US).Once created, the system will generate the invoice record along with the associated invoice case and invoice lines. Attachments will be linked to their respective records accordingly.
+List of attachments defined at the invoice level. See .Once created, the system will generate the invoice record along with the associated invoice case and invoice lines. Attachments will be linked to their respective records accordingly.
 
 Data type: Array of Objects
 
@@ -1179,7 +1180,7 @@ invoices.invoice\_lines. attachments
 
 </td><td>
 
-List of attachments defined at the invoice line level. See [Create New Invoice Line form](https://www.servicenow.com/docs/access?context=create-invoice-line-form&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US).Once created, the system will generate the invoice record along with the associated invoice case and invoice lines. Attachments will be linked to their respective records accordingly.
+List of attachments defined at the invoice line level. See .Once created, the system will generate the invoice record along with the associated invoice case and invoice lines. Attachments will be linked to their respective records accordingly.
 
 Data type: Array of Objects
 
@@ -1286,8 +1287,8 @@ Maximum length: 40
 
 See also:
 
--   [ERP source](https://www.servicenow.com/docs/access?context=erp-source&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US)
--   [Ledger account](https://www.servicenow.com/docs/access?context=ledger-account&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US)
+-   
+-   
 
 </td></tr><tr><td>
 
@@ -1915,7 +1916,7 @@ invoices.target\_erp
 
 </td><td>
 
-ERP record in which the invoice is posted. Located in the ERP Source \[sn\_fin\_erp\_source\] table. See [ERP source](https://www.servicenow.com/docs/access?context=erp-source&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US).Data type: String
+ERP record in which the invoice is posted. Located in the ERP Source \[sn\_fin\_erp\_source\] table. See .Data type: String
 
 </td></tr><tr><td>
 
@@ -1923,7 +1924,7 @@ invoices. supporting\_attachments
 
 </td><td>
 
-List of attachments defined at the invoice processing case level for cases assigned to Accounts Payable Specialists. See [Invoice processing case form](https://www.servicenow.com/docs/access?context=invoice-processing-case-form&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US).Once created, the system will generate the invoice record along with the associated invoice case and invoice lines. Attachments will be linked to their respective records accordingly.
+List of attachments defined at the invoice processing case level for cases assigned to Accounts Payable Specialists. See .Once created, the system will generate the invoice record along with the associated invoice case and invoice lines. Attachments will be linked to their respective records accordingly.
 
 Data type: Array of Objects
 
@@ -1975,7 +1976,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -2008,7 +2009,7 @@ Specifies the source system from which the request is coming from.This setting h
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -2920,9 +2921,9 @@ Use the Invoice integration field mappings \[sn\_spend\_intg\_invoice\_intg\_fie
 
 You can define custom invoice fields for the request body. Use the following flow to add custom fields, map them to target tables, and format them for availability in the payload:
 
-1.  [Add custom fields for invoice import](../../guides/APInvoiceAPI/concept/apInvoice-dev-guide.md#)
-2.  [Map custom fields between source and target tables](../../guides/APInvoiceAPI/concept/apInvoice-dev-guide.md#)
-3.  [Map custom fields to a payload source format](../../guides/APInvoiceAPI/concept/apInvoice-dev-guide.md#)
+1.  [Add custom fields for invoice import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/developer-guides/apInvoice-dev-guide.md)
+2.  [Map custom fields between source and target tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/developer-guides/apInvoice-dev-guide.md)
+3.  [Map custom fields to a payload source format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/developer-guides/apInvoice-dev-guide.md)
 
 ### URL format
 
@@ -3267,7 +3268,7 @@ Related table: Invoice Import \[sn\_spend\_intg\_imp\_invoice\]
 
 </td><td>
 
-List of attachments defined at the invoice processing case level for cases assigned to Accounts Payable Specialists. See [Invoice processing case form](https://www.servicenow.com/docs/access?context=invoice-processing-case-form&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US).Once created, the system will generate the invoice record along with the associated invoice case and invoice lines. Attachments will be linked to their respective records accordingly.
+List of attachments defined at the invoice processing case level for cases assigned to Accounts Payable Specialists. See .Once created, the system will generate the invoice record along with the associated invoice case and invoice lines. Attachments will be linked to their respective records accordingly.
 
 </td></tr><tr><td>
 
@@ -3315,7 +3316,7 @@ This value is always `base64`.
 
 </td><td>
 
-List of attachments defined at the invoice level. See [Accounts Payable Invoice Processing](https://www.servicenow.com/docs/access?context=acc-pay-invoice-processing&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US).Once created, the system will generate the invoice record along with the associated invoice case and invoice lines. Attachments will be linked to their respective records accordingly.
+List of attachments defined at the invoice level. See .Once created, the system will generate the invoice record along with the associated invoice case and invoice lines. Attachments will be linked to their respective records accordingly.
 
 </td></tr><tr><td>
 
@@ -3441,8 +3442,8 @@ Account number of the general ledger \(GL\) used to generate the invoice.Target 
 
 See also:
 
--   [ERP source](https://www.servicenow.com/docs/access?context=erp-source&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US)
--   [Ledger account](https://www.servicenow.com/docs/access?context=ledger-account&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US)
+-   
+-   
 
 </td></tr><tr><td>
 
@@ -3613,7 +3614,7 @@ Related table: Invoice Tax Line Import \[sn\_spend\_intg\_imp\_invoice\_tax\_lin
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -3650,7 +3651,7 @@ This setting is also used to fetch credentials from the Source system credential
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

@@ -2,6 +2,7 @@
 title: Flow Designer and Integration Hub usage with IBM QRadar offense ingestion integration
 description: Using the Flow Designer and Integration Hub functionality, several subflows and actions have been built as part of the IBM QRadar offense ingestion integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/ibm-qradar-flow-designer.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

@@ -2,6 +2,7 @@
 title: Customize the playbook in Service Portal
 description: Use the Service Portal Designer to customize the playbook runtime experience for Service Portal users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/customize-playbook-service-portal.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -175,5 +176,5 @@ Prevents the URL of a running playbook in Service Portal from updating whenever 
 </table>
 Verify that you are using the official Playbook Widget for the Portal Page.
 
-**Parent Topic:**[Playbooks in Service Portal](../concept/playbooks-service-portal.md)
+**Parent Topic:**[Playbooks in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbooks-service-portal.md)
 

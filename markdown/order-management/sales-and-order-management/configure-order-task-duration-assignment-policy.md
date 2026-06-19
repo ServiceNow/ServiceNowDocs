@@ -2,6 +2,7 @@
 title: Configure the Order Task Duration Assignment Policy
 description: Configure the Order Task Duration Assignment Policy using Workflow Studio. This policy determines how long each task should take to complete, when it should start, and when it's expected to finish, enabling accurate scheduling, resource planning, and timeline visibility across the order life cycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configure-order-task-duration-assignment-policy.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  Select **Order Task Duration Assignment Policy**.
 
-    ![The image shows the Order Task Duration Assignment policy window in Workflow Studio.](../image/jm-order-task-duration-assignment.png)
+    \[Omitted image "jm-order-task-duration-assignment.png"\] Alt text: The image shows the Order Task Duration Assignment policy window in Workflow Studio.
 
 3.  On the Order Task Duration Assignment Policy decision table, fill in the fields.
 
@@ -67,5 +68,5 @@ Allotted time for this task. For example, 2 Days 6 Hours.**Note:** The allotted 
 
 ## What to do next
 
-The next step is to configure SLA definitions for Jeopardy Management. For more information, see [Create Service Level Agreement definitions in Jeopardy Management](create-sla-definitions.md).
+The next step is to configure SLA definitions for Jeopardy Management. For more information, see [Create Service Level Agreement definitions in Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-sla-definitions.md).
 

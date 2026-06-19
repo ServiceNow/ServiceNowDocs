@@ -2,6 +2,7 @@
 title: Import your workspaces data from an Excel spreadsheet
 description: Import your workspaces data from an Excel spreadsheet into the Workplace Core application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/import-excel-spreadsheet-workspace-data-hr.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace
@@ -17,7 +18,7 @@ Import your workspaces data from an Excel spreadsheet into the Workplace Core ap
 
 ## Before you begin
 
-Complete [Configuring spreadsheets to import workplace data](../concept/importing-workspace-data.md#).
+Complete [Configuring spreadsheets to import workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/importing-workspace-data.md).
 
 Role required: sn\_wsd\_core.admin
 
@@ -48,12 +49,12 @@ Role required: sn\_wsd\_core.admin
 10. Verify that the data records were imported into the Spaces table by navigating to **Workplace Safety Management** &gt; **Space Administration** &gt; **Spaces**
 
 
-**Parent Topic:**[Providing your workplace data](../concept/providing-your-workplace-data.md)
+**Parent Topic:**[Providing your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/providing-your-workplace-data.md)
 
 **Related topics**  
 
 
-[Run an import](https://www.servicenow.com/docs/access?context=t_RunImport&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)
+[bundle-crint.t_RunImport]
 
-[Create a transform map](https://www.servicenow.com/docs/access?context=t_CreateATransformMap&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)
+[bundle-crint.t_CreateATransformMap]
 

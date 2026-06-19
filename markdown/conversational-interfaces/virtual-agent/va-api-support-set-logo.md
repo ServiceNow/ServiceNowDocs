@@ -2,6 +2,7 @@
 title: Setting logo for the primary bot in Virtual Agent API
 description: You can customize your agent chat interface by setting a logo for the primary bot that appears in the chat history.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-api-support-set-logo.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -57,7 +58,7 @@ Document
 
 </td><td>
 
-Table associated with the live profile.1.  Select the Search icon ![Search icon.](../images/icon-search.png).
+Table associated with the live profile.1.  Select the Search icon \[Omitted image "icon-search.png"\] Alt text: Search icon..
 2.  In the Select the document dialog box, specify the following information:
     -   **Table name**: Select **Provider Channel Identity \[sys\_cs\_provider\_application\]**.
     -   **Document**: Select the provider application for your bot. Select `VA Bot to Bot Provider Application`.
@@ -84,5 +85,5 @@ Text that describes the live profile.
 </table>4.  Select **Update**.
 
 
-**Parent Topic:**[Configure to support chat history in Virtual Agent API](va-api-support-chat-history.md)
+**Parent Topic:**[Configure to support chat history in Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-api-support-chat-history.md)
 

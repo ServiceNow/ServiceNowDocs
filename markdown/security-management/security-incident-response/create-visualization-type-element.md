@@ -2,6 +2,7 @@
 title: Create a Visualization Type Element
 description: Create a visualization element type to define the visualization elements more declaratively with filter options such as assignment groups and labels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/create-visualization-type-element.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -35,7 +36,7 @@ Role required: sn\_msi.workspace\_manager
 
 6.  Navigate to **Report subsection elements** &gt; **New**.
 
-7.  Fill in the report subsection elements form with the required details as explained in [Create Report Subsection Element template](create-report-subsection-element-template.md).
+7.  Fill in the report subsection elements form with the required details as explained in [Create Report Subsection Element template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/create-report-subsection-element-template.md).
 
 8.  Navigate to the Report Subsection element Type field, and select the **Visualization** option.
 
@@ -52,9 +53,5 @@ Role required: sn\_msi.workspace\_manager
 10. Select **Submit**.
 
 
-## Report template subsection element type for a Technical Status Report
-
-![Report subsection element - Duration counters](../image/visualization-type.png "Report subsection element type")
-
-**Parent Topic:**[Create Report Subsection Element template](create-report-subsection-element-template.md)
+**Parent Topic:**[Create Report Subsection Element template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/create-report-subsection-element-template.md)
 

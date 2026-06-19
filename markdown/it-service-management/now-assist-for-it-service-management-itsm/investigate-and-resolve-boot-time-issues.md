@@ -2,6 +2,7 @@
 title: Investigate boot time issues
 description: Identify the root cause of boot time issues and get resolutions such as remedial actions, self-help instructions, and relevant knowledge articles to resolve the boot time issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/investigate-and-resolve-boot-time-issues.html
 release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -33,7 +34,7 @@ You can view boot time metrics in two locations: the **Insights** page and the *
 
 **Tip:** To view boot time on the **Insights** page, go to **Digital Employee Experience** &gt; **Insights** and select **System Time**. Review the **Boot time** and **Last boot timestamp** columns.
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 ## Procedure
 

@@ -2,11 +2,12 @@
 title: People Involved form
 description: Safety managers and agents can use the People involved form to add or modify an involved person in a safety incident or observation assigned to them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-incident-management/hs-people-involved-form.html
 release: zurich
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Reference, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
@@ -50,7 +51,7 @@ Visitor
 
 Email id of the visitor involved.This field appears only when **Visitor** is selected from **Person type**.
 
-**Note:** This field only lists visitors who have Health and Safety profile assigned to them. For more information, see [Add a Health and Safety visitor](../task/hs-add-health-safety-visitor.md).
+**Note:** This field only lists visitors who have Health and Safety profile assigned to them. For more information, see [Add a Health and Safety visitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-core/hs-add-health-safety-visitor.md).
 
 </td></tr><tr><td>
 
@@ -60,7 +61,7 @@ Contractor
 
 Name of the contract worker involved.This field appears only when **Contractor** is selected from **Person type**.
 
-**Note:** This field only lists users who have the \[snc\_external\] role assigned to them and have their Health and Safety profile created. For more information, see [Assign Health and Safety profile to a user](../task/assign-hs-profile-user.md).
+**Note:** This field only lists users who have the \[snc\_external\] role assigned to them and have their Health and Safety profile created. For more information, see [Assign Health and Safety profile to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-core/assign-hs-profile-user.md).
 
 </td></tr><tr><td>
 
@@ -113,5 +114,5 @@ Preferred contact method
 Method to contact the involved person such as email or phone number.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Incident Management reference](../concept/hs-incident-mgmt-reference.md)
+</table>**Parent Topic:**[Health and Safety Incident Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-incident-management/hs-incident-mgmt-reference.md)
 

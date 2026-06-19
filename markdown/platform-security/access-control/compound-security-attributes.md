@@ -2,6 +2,7 @@
 title: Compound Security Attributes
 description: Compound Security Attributes enable you to create consistent and reusable Security Attribute profiles suit your business needsCreate a compound Security Attribute for easy reuse.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/compound-security-attributes.html
 release: zurich
 product: Access Control
 classification: access-control
@@ -18,6 +19,8 @@ Compound Security Attributes enable you to create consistent and reusable Securi
 ## Overview
 
 Compound Security attributes are defined from one or more pre-existing Security Attributes to create a single reference combination of Security Attributes for permissions evaluation.
+
+## Compound Security Attribute Behavior
 
 ## Create compound Security Attributes
 

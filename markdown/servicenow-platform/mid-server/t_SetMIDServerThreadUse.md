@@ -2,6 +2,7 @@
 title: Set MID Server thread use
 description: Change the number of threads used by the MID Server according to performance requirements. MID Servers which compete with other programs for CPU time can use fewer threads than the default. MID Servers which need more speed, and have a host computer powerful enough, can use more threads.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/mid-server/t\_SetMIDServerThreadUse.html
 release: zurich
 product: MID Server
 classification: mid-server
@@ -38,10 +39,10 @@ The threads setting depends on the limitation of the CPU speed, memory, and oper
 -   Most MID Server tasks require file handles to do their job.
     -   Windows: On the Windows operating system, file handles are available in a fixed quantity. If you configure too many MID Server threads on a Windows host, the MID Server can consume all the file handles before approaching maximum CPU usage. This situation appears as an Out of file handles error in the MID Server log and indicates that the MID Server is trying to use too many threads.
     -   UNIX and Linux: UNIX and Linux hosts have a much different scheme for allocating file handles. Generally, you can increase MID Server thread use on these operating systems until the CPU of the host is overloaded. See your OS documentation for monitoring CPU usage.
--   Each thread on the MID Server requires some memory. Exactly how much memory varies considerably from task to task and depends on the equipment being discovered. To increase the number of threads, you might have to [increase the amount of memory](t_MIDServerOptionalConfiguration.md) that Java uses. If you configure insufficient memory, an Out of memory error appears in the MID Server log.
+-   Each thread on the MID Server requires some memory. Exactly how much memory varies considerably from task to task and depends on the equipment being discovered. To increase the number of threads, you might have to [increase the amount of memory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/t_MIDServerOptionalConfiguration.md) that Java uses. If you configure insufficient memory, an Out of memory error appears in the MID Server log.
 -   You can set threads.max as high as 200, however, this setting may need to be changed depending on the OS. For example, Windows-based MID Servers running Discovery uses Powershell which is resource intensive. In this case, you may exhaust the CPU power of the host machine with just 50 threads count.
 
-Follow the steps below to change the `config.XML` file. Alternatively, use the `threads.max` connection parameter. See [MID Server Connection parameters](../reference/mid-server-parameters.md#) for more details.
+Follow the steps below to change the `config.XML` file. Alternatively, use the `threads.max` connection parameter. See [MID Server Connection parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-server-parameters.md) for more details.
 
 ## Procedure
 
@@ -62,5 +63,5 @@ Follow the steps below to change the `config.XML` file. Alternatively, use the `
 5.  Restart the MID Server service.
 
 
-**Parent Topic:**[Configuring MID Servers](../concept/c_MIDServerConfiguration.md)
+**Parent Topic:**[Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/c_MIDServerConfiguration.md)
 

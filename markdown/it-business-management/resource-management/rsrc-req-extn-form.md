@@ -2,6 +2,7 @@
 title: Request Extension form
 description: Use the Request Extension form to request extension of an allocated resource plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/resource-management/rsrc-req-extn-form.html
 release: zurich
 product: Resource Management
 classification: resource-management
@@ -47,7 +48,7 @@ FTE or Person days or Hours
 
 Number of units to request resources.The field appears when you select one of the options in the **Request type** field. Based on the selected request type, specify the unit.
 
- For more information, see [Request type](../concept/c_ResourcePlans.md#ul_lcz_1ms_lt).
+ For more information, see [Request type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/c_ResourcePlans.md).
 
 </td></tr><tr><td>
 
@@ -58,5 +59,5 @@ Notes
 Other correspondence and information about the resource plan that the project manager wants to communicate with the resource manager.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Resource Management reference](../task/rsrc-mgmt-reference.md)
+</table>**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rsrc-mgmt-reference.md)
 

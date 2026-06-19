@@ -2,6 +2,7 @@
 title: Configure the chunk size of Microsoft Azure billing blob
 description: Reduce the time required to download Azure billing files by defining the chunk size of a blob.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/config-aws-blob-ccminfra.html
 release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management

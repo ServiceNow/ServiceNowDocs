@@ -2,6 +2,7 @@
 title: Performance Analytics dashboards for risk events and risk hierarchy
 description: Use the Performance Analytics \(PA\) dashboards to view the comprehensive data for risk events and risk hierarchy. Use the Analytics Hub to view data for any time period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/pa-dashboard-risk-events-risk-hierarchy.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -41,7 +42,7 @@ The Risk Events dashboards present the following data:
 
     To open the dashboard, navigate to **All** &gt; **Risk Events** &gt; **Analytics Overview**.
 
-    ![Risk Event Overview dashboard in the Next Experience.](../../../use/dashboards/image/risk-event-overview-dashboard-nextgen.gif "Risk Event Overview dashboard in the Next Experience")
+    \[Omitted image "risk-event-overview-dashboard-nextgen.gif"\] Alt text: Risk Event Overview dashboard in the Next Experience.
 
 -   Risk Event Overview by Entity dashboard: Entity owners with the sn.risk\_user role can view the aggregated information for gross loss, net loss, and the number of events on a monthly basis. The dashboard also shows the average gross loss per event, average net loss per event, average recovery made per event, and average additional cost per event. Entity owners with the sn.risk\_user role can also view the following risk events trends for a particular entity. Administrators with the sn.risk\_admin role can edit this dashboard.
 
@@ -60,7 +61,7 @@ The Risk Events dashboards present the following data:
 
     To open the dashboard, navigate to **All** &gt; **Risk Events** &gt; **Analytics Overview by Entity**.
 
-    ![Risk Event Overview by Entity dashboard in the Next Experience.](../../../use/dashboards/image/risk-event-overview-by-entity-nextgen.jpg "Risk Event Overview by Entity dashboard in the Next Experience")
+    \[Omitted image "risk-event-overview-by-entity-nextgen.jpg"\] Alt text: Risk Event Overview by Entity dashboard in the Next Experience.
 
 -   Risk Event Overview by Risk Class dashboard: Users with the sn\_risk.manager role can view level 1 risk event trends. Users can understand the aggregated gross losses, net loss, number of events created, number of active events, and the total number of near-miss events. This dashboard also shows the following trends:
     -   Gross Loss
@@ -77,7 +78,7 @@ If you are on Vancouver or Washington DC, you can view the dashboard in the Next
 
 To open the dashboard, navigate to **All** &gt; **Risk Events** &gt; **Analytics Overview by Risk Class**.
 
-![Risk Event Overview by Risk Class dashboard in the Next Experience.](../../../use/dashboards/image/risk-event-overview-by-risk-class-nextgen.jpg "Risk Event Overview by Risk Class dashboard in the Next Experience")
+\[Omitted image "risk-event-overview-by-risk-class-nextgen.jpg"\] Alt text: Risk Event Overview by Risk Class dashboard in the Next Experience.
 
 ## Exposure by Risk Statements dashboard
 
@@ -101,5 +102,5 @@ To view the Exposure by Risk Statements dashboard, navigate to **Risk** &gt; **E
 
 **Important:** Starting with version 18.1.0 of the Advanced Risk and Risk Management applications, the Exposure by Entity dashboard is deprecated. If you're on a legacy release or already using the dashboard, you can continue to use it.
 
-**Parent Topic:**[Analytics and reporting solutions for Risk Management](../../../use/dashboards/application-content-packs/grc-risk-mgmt-content-pack.md)
+**Parent Topic:**[Analytics and reporting solutions for Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/grc-risk-mgmt-content-pack.md)
 

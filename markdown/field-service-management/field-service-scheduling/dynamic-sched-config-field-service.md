@@ -2,6 +2,7 @@
 title: Set up Dynamic Scheduling as scheduling mechanism
 description: Select dynamic scheduling to automatically schedule and dispatch work order tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/dynamic-sched-config-field-service.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -36,5 +37,5 @@ Tasks are assigned automatically based on the dynamic scheduling configuration.
 
 ## What to do next
 
-Review system properties and components installed with Dynamic Scheduling. For more information, see [Dynamic scheduling system properties](../reference/dynamic-sched-system-properties.md).
+Review system properties and components installed with Dynamic Scheduling. For more information, see [Dynamic scheduling system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/dynamic-sched-system-properties.md).
 

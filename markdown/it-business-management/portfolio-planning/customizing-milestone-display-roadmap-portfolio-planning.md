@@ -2,6 +2,7 @@
 title: Customizing milestone display on roadmap
 description: Easily track the milestones of your roadmap timeline or its planning items by choosing how the milestones are displayed on the roadmap view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/customizing-milestone-display-roadmap-portfolio-planning.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -16,12 +17,12 @@ breadcrumb: [Personalize roadmap view, Plan roadmaps, Portfolio Planning, Strate
 
 Easily track the milestones of your roadmap timeline or its planning items by choosing how the milestones are displayed on the roadmap view.
 
-The Personalize \(![Personalize icon.](../../alignment-planner-workspace/images/personalize-icon.png)\) side panel on the roadmap provides different toggles to personalize the display of milestones on your roadmap.
+The Personalize \(\[Omitted image "personalize-icon.png"\] Alt text: Personalize icon.\) side panel on the roadmap provides different toggles to personalize the display of milestones on your roadmap.
 
 -   For portfolio plan roadmaps, these toggles are always available.
 -   For free-form roadmaps, these toggles are available only if the roadmap's source table is the Planning Item table \[sn\_align\_core\_planning\_item\] or one of its extensions.
 
-![Milestone display toggles.](../../alignment-planner-workspace/images/milestone-toggles.png)
+\[Omitted image "milestone-toggles.png"\] Alt text: Milestone display toggles.
 
 <table id="table_zr1_5lg_prb"><thead><tr><th>
 
@@ -39,7 +40,7 @@ Roadmap view
 
 </td><td>
 
-![Roadmap-level-milestones](../../alignment-planner-workspace/images/milestones-on-roadmap.png)
+\[Omitted image "milestones-on-roadmap.png"\] Alt text: Roadmap-level-milestones
 
 </td></tr><tr><td>
 
@@ -49,7 +50,7 @@ Roadmap view
 
 </td><td>
 
-![Milestones on roadmap item bars.](../../alignment-planner-workspace/images/item-milestones.png)
+\[Omitted image "item-milestones.png"\] Alt text: Milestones on roadmap item bars.
 
 </td></tr><tr><td>
 
@@ -65,11 +66,11 @@ Roadmap view
 -   Green: Achieved
 -   Black/Dark gray: Upcoming
 
- **Note:** If the total number of item-level milestones, including the milestones for unscheduled items, exceeds 100, the item milestone indicators aren’t visible on the roadmap. You can work with your admin to change this number to a value of your preference. For more information, see [Update the display limit of items for Prioritization and Roadmap in Portfolio Planning](../task/update-items-display-limit-backlog-prioritization-roadmap.md).
+ **Note:** If the total number of item-level milestones, including the milestones for unscheduled items, exceeds 100, the item milestone indicators aren’t visible on the roadmap. You can work with your admin to change this number to a value of your preference. For more information, see [Update the display limit of items for Prioritization and Roadmap in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/update-items-display-limit-backlog-prioritization-roadmap.md).
 
 </td><td>
 
-![Display only milestones toggle.](../../alignment-planner-workspace/images/display-only-milestones.png)
+\[Omitted image "display-only-milestones.png"\] Alt text: Display only milestones toggle.
 
 </td></tr><tr><td>
 
@@ -79,10 +80,10 @@ Roadmap view
 
 </td><td>
 
-![Milestone indicator with label.](../../spw-roadmap/images/milestone-with-label.png "Milestone indicator with label")
+\[Omitted image "milestone-with-label.png"\] Alt text: Milestone indicator with label.
 
- ![Milestone indicator.](../../spw-roadmap/images/milestone-icon.png "Milestone indicator without label")
+ \[Omitted image "milestone-icon.png"\] Alt text: Milestone indicator.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Personalize roadmap view](../task/personalize-roadmap-view-portfolio-planning.md)
+</table>**Parent Topic:**[Personalize roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/personalize-roadmap-view-portfolio-planning.md)
 

@@ -2,12 +2,13 @@
 title: AI voice agent in CSM
 description: Use the AI voice agent to create cases and check case status through natural, conversational voice calls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/voice-ai-agent.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
 last_updated: "2026-02-02"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Use agentic AI in CSM, Now Assist for CSM, Customer Service Management]
 ---
@@ -18,7 +19,7 @@ Use the AI voice agent to create cases and check case status through natural, co
 
 ## AI voice agent overview
 
-The AI voice agent streamlines customer interactions by integrating with contact center platforms including Genesys and Twilio.
+The AI voice agent streamlines customer interactions by integrating with contact center platforms including Genesys, Twilio, NICE, Five9, 3CLogic, and Amazon Connect.
 
 The AI voice agent enables customers to get case status and create cases entirely through voice commands. This solution reduces manual intervention, improves service resolution times, and delivers consistent functionality across all supported contact center partners.
 
@@ -49,6 +50,7 @@ There are two AI voice agents for CSM. Each agent is associated with a voice ser
 |--------------|-----------|
 |Case status|Provides users with comprehensive status updates for cases based on the case number. Designed for users who need quick and reliable access to case details, including state, creation date, assigned agent, latest update, and a summary of the case.|
 |Create case|Lets customers log cases using voice input by guiding them through a clear, step‑by‑step conversation that captures and validates required details. It creates the case, and confirms successful submission.|
+|Update case|Updates existing cases using voice input. A structured voice conversation guides agents through identifying the case, collecting fields, validating changes, and confirming updates. This reduces manual effort and keeps agents focused on the customer.|
 
 AI voice agents are managed through AI Agent Studio. To configure a new agent:
 
@@ -56,12 +58,12 @@ AI voice agents are managed through AI Agent Studio. To configure a new agent:
 2.  Open the **Add** drop-down list.
 3.  Select an AI voice agent to create a voice-enabled agent for case management.
 
-This interface enables admins to [create a AI voice agents](https://www.servicenow.com/docs/access?context=create-a-voice-enabled-ai-agent&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US), connect to [supported contact center providers](https://www.servicenow.com/docs/access?context=integrating-voice-service-with-ccaas-providers&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US), and deploy fully functional AI voice agents for case management. For deployment and configuration info, see [Deploy AI voice agents](https://www.servicenow.com/docs/access?context=deploy-ai-agents-for-voice&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+This interface enables admins to create a AI voice agents, connect to supported contact center providers, and deploy fully functional AI voice agents for case management. For deployment and configuration info, see .
 
 **Note:**
 
 -   To enable customer access and use of AI voice agents, an admin must install the plugin Customer Service Management AI agent collection
--   To modify the AI voice agents, duplicate it, and adjust the settings according to your requirements.
+-   To modify the AI voice agents, duplicate it, and adjust the settings according to your requirements. For more info see, [Configure and customize the AI Voice Agent for Now Assist for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/configure-and-customize-the-ai-voice-agent-for-csm.md).
 
 **Important:**
 

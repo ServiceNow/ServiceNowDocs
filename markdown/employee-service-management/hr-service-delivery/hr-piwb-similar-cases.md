@@ -2,6 +2,7 @@
 title: HR PIWB template: Recommend similar cases
 description: Use the classic setup template to configure and train your Similarity solution template with machine learning model to recommend similar closed HR cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-piwb-similar-cases.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -38,7 +39,7 @@ When the Similar Closed HR Cases is configured and the predictive model is train
     2.  Click **Take me there** to get started with the solution definition.
     Machine Learning Solutions landing page appears.
 
-    ![List of ML usecases for HR PIWB](../image/piwb-hr-ml-list.png "HR ML use cases")
+    \[Omitted image "piwb-hr-ml-list.png"\] Alt text: List of ML usecases for HR PIWB
 
 3.  Go to **Similarity** and click **Configure**.
 
@@ -51,18 +52,18 @@ When the Similar Closed HR Cases is configured and the predictive model is train
 
 When the configuration is complete, the solution displays the most relevant HR closed cases to an HR agent to help resolve the current HR case.
 
-Review the corresponding use case information from [Machine learning solutions for HR Service Delivery](../concept/predictive-intelligence-for-hr-service-delivery-1.md).
+Review the corresponding use case information from [Machine learning solutions for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
 ## What to do next
 
 You can verify the integration status from **HR Administration** &gt; **HR AI Configurations** &gt; **Solution definition**. The use case is now mapped to the selected solution definition.
 
-**Parent Topic:**[HR Predictive Intelligence Workbench implementation](../concept/hr-piwb-implementation-guidance.md)
+**Parent Topic:**[HR Predictive Intelligence Workbench implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-piwb-implementation-guidance.md)
 
 **Related topics**  
 
 
-[Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.predictive-intelligence]
 
-[Get started with Predictive Intelligence](https://www.servicenow.com/docs/access?context=install-predictive-intelligence&version=zurich&pubname=zurich-intelligent-experiences&section=get-started-predictive-intelligence&ft:locale=en-US)
+[bundle-platai.get-started-predictive-intelligence]
 

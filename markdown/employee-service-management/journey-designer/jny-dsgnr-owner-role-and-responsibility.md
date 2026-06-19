@@ -2,6 +2,7 @@
 title: Journey designer plan configuration owners
 description: Plan configuration owners create and update plan configurations and publish changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/jny-dsgnr-owner-role-and-responsibility.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -15,7 +16,7 @@ breadcrumb: [Plan configuration components, Use, Journey designer, Employee Jour
 
 Plan configuration owners create and update plan configurations and publish changes.
 
-ServiceNow administrators [assign plan configuration owners](../task/jny-assign-pconfig-owner-approver.md). The owners of a plan configuration publish updates for review and approval. The decentralized approach to plan configuration ownership and approval supports a workflow for area experts to customize and maintain plan configurations. These plan configurations are called journey templates in the Employee Center .
+ServiceNow administrators [assign plan configuration owners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-assign-pconfig-owner-approver.md). The owners of a plan configuration publish updates for review and approval. The decentralized approach to plan configuration ownership and approval supports a workflow for area experts to customize and maintain plan configurations. These plan configurations are called journey templates in the Employee Center .
 
 -   **Owner**
 
@@ -26,12 +27,12 @@ ServiceNow administrators [assign plan configuration owners](../task/jny-assign-
     Co-owners are assigned by ServiceNow administrators and have all the responsibilities of an owner.
 
 
--   **[Update and publish changes to plan configurations](../task/jny-dsgnr-update-and-publish-plncnfg.md)**  
+-   **[Update and publish changes to plan configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-update-and-publish-plncnfg.md)**  
 Plan owners update plan configurations and publish the changes for review and approval.
--   **[Create and update task templates for plan configurations](../task/jny-dsgnr-create-and-update-task-templates.md)**  
+-   **[Create and update task templates for plan configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-create-and-update-task-templates.md)**  
 Plan owners create and update task templates that are used in plan configurations.
--   **[Add or update stages in a journey plan configurations](../task/jny-dsgnr-create-and-modify-plncnfgrtn-stages.md)**  
+-   **[Add or update stages in a journey plan configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-create-and-modify-plncnfgrtn-stages.md)**  
 Owners add or update the stages in journey plan configurations.
 
-**Parent Topic:**[Journey designer plan configuration template process, owners, and maintenance](jny-process-owners-maint.md)
+**Parent Topic:**[Journey designer plan configuration template process, owners, and maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-process-owners-maint.md)
 

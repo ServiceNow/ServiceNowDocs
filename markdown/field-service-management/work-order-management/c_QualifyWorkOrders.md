@@ -2,6 +2,7 @@
 title: Qualify a work order
 description: Work orders must be qualified to ensure that work order tasks are created and assigned. The qualifying process can be automatic or manual.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/c\_QualifyWorkOrders.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -15,7 +16,7 @@ breadcrumb: [Manage work orders, Prepare work orders, Use, Field Service Managem
 
 Work orders must be qualified to ensure that work order tasks are created and assigned. The qualifying process can be automatic or manual.
 
-Depending on how the [Qualification is required for new requests](../task/t_ConfigureFieldService.md#LifecycleOptions) option is set in the Field Service Management configuration, the qualifying process is manual or automatic.
+Depending on how the [Qualification is required for new requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/t_ConfigureFieldService.md) option is set in the Field Service Management configuration, the qualifying process is manual or automatic.
 
 -   **Manual qualification**
 
@@ -40,5 +41,13 @@ Depending on how the [Qualification is required for new requests](../task/t_Conf
 
 ## Filtering available dispatch groups
 
-The **work.management.limit.location** property controls whether the choice list of available dispatch groups is filtered by proximity to the task location.
+The following table describes the properties that control whether the choice-list of available dispatch groups is filtered by proximity to the task location.
+
+|Mechanism|Name|Purpose|
+|---------|----|-------|
+|SM Config setting|**use\_location**|Master toggle in the local Service Management configuration that controls whether location/proximity is used in agent recommendations|
+|Property|**autodispatch.geolocation**|Enables geolocation-based distance calculations for auto-dispatch|
+|Property|**travel.calculation.auto\_assignment**|Controls map provider for manual/auto assignment \(defaults to Google Maps API\)|
+|Property|**travel.calculation.dynamic\_scheduling**|Controls map provider for dynamic scheduling \(defaults to straight-line estimate\)|
+|Property|**work.spacing**|Task spacing in hours, affects travel time calculations between tasks|
 

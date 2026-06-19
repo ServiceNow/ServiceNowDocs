@@ -2,6 +2,7 @@
 title: Assess a problem task
 description: Assess a problem task to determine the feasibility of working on the task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/problem-management/assess-a-problem-task.html
 release: zurich
 product: Problem Management
 classification: problem-management
@@ -27,43 +28,43 @@ Assessing a problem task involves analyzing the scale and extent of the task, as
 
 1.  Select **Assess**.
 
-    ![new state](../image/pm-task-assess.png)
+    \[Omitted image "pm-task-assess.png"\] Alt text: new state
 
     The problem task enters the **Assess** state. You can confirm whether there’s enough information to work on the task or if the task should be canceled.
 
 2.  After assessing the task, perform the action based on your option.
 
-<table id="choicetable_yjt_n3k_wfb"><thead><tr><th align="left" id="d117397e86">
+<table id="choicetable_yjt_n3k_wfb"><thead><tr><th align="left" id="d117270e86">
 
 Option
 
-</th><th align="left" id="d117397e89">
+</th><th align="left" id="d117270e89">
 
 Action to be taken
 
-</th></tr></thead><tbody><tr><td id="d117397e95">
+</th></tr></thead><tbody><tr><td id="d117270e95">
 
 **When you’re ready to work on the task**
 
 </td><td>
 
-Select **Start Work**. ![start state](../image/pm-task-start-work.png)The problem task enters the **Work in Progress** state.
+Select **Start Work**. \[Omitted image "pm-task-start-work.png"\] Alt text: start stateThe problem task enters the **Work in Progress** state.
 
-</td></tr><tr><td id="d117397e118">
+</td></tr><tr><td id="d117270e118">
 
 **When you’re working on the task**
 
 </td><td>
 
-Select **Re-asses**.![re-assess state](../image/pm-task-reassess.png)The state of the problem task changes from **Work in Progress** back to **Assess**.
+Select **Re-asses**.\[Omitted image "pm-task-reassess.png"\] Alt text: re-assess stateThe state of the problem task changes from **Work in Progress** back to **Assess**.
 
-</td></tr><tr><td id="d117397e143">
+</td></tr><tr><td id="d117270e143">
 
 **When you don’t want to work on the task, for example, the problem task is a duplicate or no longer needed**
 
 </td><td>
 
-Select **Cancel**. ![cancel state](../image/pm-task-cancel.png)The problem task prompts you to complete the **Canceled reason** field, and the record moves to the **Closed** state with the **Close code** as **Canceled**.
+Select **Cancel**. \[Omitted image "pm-task-cancel.png"\] Alt text: cancel stateThe problem task prompts you to complete the **Canceled reason** field, and the record moves to the **Closed** state with the **Close code** as **Canceled**.
 
 </td></tr></tbody>
 </table>
@@ -71,5 +72,5 @@ Select **Cancel**. ![cancel state](../image/pm-task-cancel.png)The problem task 
 
 Complete the problem task as resolved.
 
-**Parent Topic:**[Managing Problems](../concept/problem-mgmt-lifecycle.md)
+**Parent Topic:**[Managing Problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/problem-mgmt-lifecycle.md)
 

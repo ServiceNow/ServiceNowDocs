@@ -2,6 +2,7 @@
 title: Integrating with Roadmunk
 description: Integrating your Software Asset Management application with the Roadmunk application enables you to track your software subscriptions and to reclaim unused licenses.Generate an API access token that authorizes access to the Roadmunk GraphQL API.Create a Roadmunk integration profile to track software subscriptions and optimize licensing for your Roadmunk applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/saas-license-management/integrate-with-roadmunk.html
 release: zurich
 product: SaaS License Management
 classification: saas-license-management
@@ -66,7 +67,7 @@ To create a Roadmunk integration profile, request the Software Asset Management 
 
 ServiceNow Role required: sam\_integrator or admin
 
-**Important:** You must select the **Roadmunk Spoke** check box for this integration while installing optional features on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **Roadmunk Spoke** check box for this integration while installing optional features on the  page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### About this task
 
@@ -76,15 +77,15 @@ If you’re using Software Asset Workspace, the option to create the Roadmunk in
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d305371e378">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d45389e377">
 
 Interface
 
-</th><th align="left" id="d305371e381">
+</th><th align="left" id="d45389e380">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d305371e387">
+</th></tr></thead><tbody><tr><td id="d45389e386">
 
 **Core UI**
 
@@ -95,7 +96,7 @@ Action
 3.  Select **Roadmunk Integration Profile**.
 
 
-</td></tr><tr><td id="d305371e429">
+</td></tr><tr><td id="d45389e428">
 
 **Software Asset Workspace**
 
@@ -147,7 +148,7 @@ Type of integration profile. This field is automatically set to **Roadmunk Subsc
 </td></tr></tbody>
 </table>3.  Review the required user roles or API permissions specified in the **Vendor configuration** field for each process to minimize security risks and optimize SaaS licenses.
 
-    **Note:** For more information, see [Minimal user permissions](integrate-with-roadmunk.md#) table.
+    **Note:** For more information, see [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-roadmunk.md) table.
 
     1.  In the Download Subscription Subflow section, verify that the **Subflow** field is set to **Roadmunk Download Subscriptions**.
 
@@ -161,7 +162,7 @@ Type of integration profile. This field is automatically set to **Roadmunk Subsc
 
         **Note:** Software Asset Management pulls the events from the time that you start analyzing user activity irrespective of the profile creation date.
 
-        You can modify this value in the Last activity threshold field of your software reclamation rules. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+        You can modify this value in the Last activity threshold field of your software reclamation rules. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
     3.  In the Reclaim Subscription Subflow section, verify that the **Subflow** field is set to **Roadmunk Reclaim Subscription**.
 
@@ -195,15 +196,15 @@ Type of integration profile. This field is automatically set to **Roadmunk Subsc
 
     6.  Return to the Integration Profile form.
 
-    7.  On the form header, select the **Manage Attachments** icon ![Manage attachments icon.](../image/manage-attachments-icon.png).
+    7.  On the form header, select the **Manage Attachments** icon \[Omitted image "manage-attachments-icon.png"\] Alt text: Manage attachments icon..
 
-    8.  In the Attachments dialog box, select **Choose file** to locate and select the Roadmunk User Report that you downloaded in [step e](integrate-with-roadmunk.md#download-user-report).
+    8.  In the Attachments dialog box, select **Choose file** to locate and select the Roadmunk User Report that you downloaded in [step e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-roadmunk.md).
 
     9.  After the report uploads successfully, close the dialog box to return to the Integration Profile form.
 
     **Tip:** For continuously removing inactive users from your list of Roadmunk subscriptions, download and attach the latest version of the Roadmunk User Report periodically.
 
-6.  Open the connection &amp; credential aliases record by selecting the preview icon ![](../image/preview-icon.png) next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
+6.  Open the connection &amp; credential aliases record by selecting the preview icon \[Omitted image "preview-icon.png"\] next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
 
 7.  On the Connection &amp; Credential Aliases form, select the **Create New Connection &amp; Credential** related link.
 
@@ -247,7 +248,7 @@ API Token
 
 </td><td>
 
-API access token that authorizes access to the Roadmunk GraphQL API. Enter the same API access token that you generated in [Generate a Roadmunk API access token](integrate-with-roadmunk.md#).
+API access token that authorizes access to the Roadmunk GraphQL API. Enter the same API access token that you generated in [Generate a Roadmunk API access token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-roadmunk.md).
 
 </td></tr></tbody>
 </table>9.  Select **Create**.
@@ -282,20 +283,20 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](subscription-exclusions.md#).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/subscription-exclusions.md).
 
-If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](../reuse/create-child-alias-saas.md).
+If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
-Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](../task/track-software-rights.md).
--   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](../task/create-entitlements-workspace.md).
--   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](../task/guidedwalk-workspace.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-entitlements-workspace.md).
+-   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 
-Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
+Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
 
--   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](../task/t_RunReconciliation.md).
--   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](../task/run-recon-workspace.md).
+-   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_RunReconciliation.md).
+-   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/run-recon-workspace.md).
 

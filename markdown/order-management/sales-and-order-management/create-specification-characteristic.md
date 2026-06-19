@@ -2,11 +2,12 @@
 title: Create specification characteristics
 description: Define characteristics for a product, service, or resource specification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/create-specification-characteristic.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Specifications and product offerings, Product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -17,13 +18,13 @@ Define characteristics for a product, service, or resource specification.
 
 ## Before you begin
 
-[Create product characteristics and characteristic options](som-product-config-add-characteristics.md) that can be selected for a specification.
+[Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-product-config-add-characteristics.md) that can be selected for a specification.
 
 Role required: sn\_prd\_pm\_product\_catalog\_admin
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![image.Lists] view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Specifications** and select the specification for which characteristics are to be defined.
 
@@ -43,5 +44,5 @@ Role required: sn\_prd\_pm\_product\_catalog\_admin
 5.  Select **Save**.
 
 
-**Parent Topic:**[Setting up specifications and product offerings](../concept/order-mgt-product-catalog.md)
+**Parent Topic:**[Setting up specifications and product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-mgt-product-catalog.md)
 

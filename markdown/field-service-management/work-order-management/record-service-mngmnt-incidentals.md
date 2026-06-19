@@ -2,6 +2,7 @@
 title: Record incidental expenses on the Contractor Portal
 description: Agents of contractor companies can use the Field Service Contractor Portal to track incidental expenses that arise during the execution of a work order task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/record-service-mngmnt-incidentals.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

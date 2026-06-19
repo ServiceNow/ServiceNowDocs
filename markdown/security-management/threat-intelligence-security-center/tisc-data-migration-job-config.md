@@ -2,6 +2,7 @@
 title: Data migration from SIR TI to TISC
 description: Data Migration Job Configuration in TISC enables you to move the existing Threat intelligence plugin data to TISC plugin data directly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-data-migration-job-config.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

@@ -2,6 +2,7 @@
 title: Add view rules to workflow
 description: Configure custom view rules to display specific fields, sections, or layouts for authorization packages using a particular workflow configuration. View rules enable workflow-specific user interfaces without modifying the base package form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/continuous-risk-monitoring/add-view-rules-to-workflow.html
 release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -27,7 +28,7 @@ Role required: sn\_irm\_cont\_auth.admin
 
 3.  To add a view rule, select **New** in the **View Rules** tab.
 
-    ![New view rule.](../image/WF-view-rule1.png)
+    \[Omitted image "WF-view-rule1.png"\] Alt text: New view rule.
 
 4.  In the **View Rule New record** form, fill in the following fields:
 
@@ -137,7 +138,7 @@ Form Tabs
 To configure which form tabs display.
 
 </td></tr></tbody>
-</table>    ![View rule fields.](../image/WF-view-rule2.png)
+</table>    \[Omitted image "WF-view-rule2.png"\] Alt text: View rule fields.
 
 5.  Select **Submit** to add the new view rule.
 

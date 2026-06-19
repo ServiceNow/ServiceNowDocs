@@ -2,6 +2,7 @@
 title: Pick up parts using the Field Service Contractor for mobile application
 description: Pick up the part by transferring it from an available stockroom when you are at a task site and need a missing part to complete your job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/pick-up-parts-fsm-contrator-mobile.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

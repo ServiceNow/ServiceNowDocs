@@ -2,6 +2,7 @@
 title: Index contracts table for conversational search
 description: Index the data for conversational search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cmpro-converse-search-indexing.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -17,7 +18,7 @@ Index the data for conversational search.
 
 ## Before you begin
 
-For existing contracts, verify you have run the scheduled job to copy signed contract documents into the contract repository. For more information, see [Copy contract documents to contract repository](cmpro-na-conv-copy-docs-to-cntr.md).
+For existing contracts, verify you have run the scheduled job to copy signed contract documents into the contract repository. For more information, see [Copy contract documents to contract repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-na-conv-copy-docs-to-cntr.md).
 
 Role required: admin
 

@@ -2,11 +2,12 @@
 title: Create a recommendation template
 description: Create a recommendation template to train the AI models with a data set for identifying your key business operations. Key business operations include managing regulatory changes, assessing risks, and adhering to compliance guidelines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/create-a-recommendation-template.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Recommendation contexts and templates, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -17,7 +18,7 @@ Create a recommendation template to train the AI models with a data set for iden
 
 ## Before you begin
 
-Create a recommendation context before you create a recommendation template. For more information, see [Recommendation contexts and templates](../concept/recommendation-contexts.md).
+Create a recommendation context before you create a recommendation template. For more information, see [Recommendation contexts and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/recommendation-contexts.md).
 
 Role required: sn\_reco\_template.recommendation\_config\_writer or sn\_reco\_template.recommendation\_writer
 
@@ -35,7 +36,7 @@ Role required: sn\_reco\_template.recommendation\_config\_writer or sn\_reco\_te
 
         For example, let's say that you want to create a template for suggesting the remediation tasks for an issue. In this case, select **remediation task** as the recommended item.
 
-        ![Recommendation templates related list.](../image/reco-templates.png)
+        \[Omitted image "reco-templates.png"\] Alt text: Recommendation templates related list.
 
     3.  In the **Extension point** field, enter an extension point.
 
@@ -57,7 +58,7 @@ Role required: sn\_reco\_template.recommendation\_config\_writer or sn\_reco\_te
 
     The Heading and Sub heading appear on the Relationships section in the Workspace view of a record.
 
-    For example, you can [fetch recommendations](../../now-assist-irm/task/create-recommendation-reg-alert.md) for remediation tasks for an issue by using the Now Assist for IRM application.
+    For example, you can [fetch recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/create-recommendation-reg-alert.md) for remediation tasks for an issue by using the Now Assist for IRM application.
 
 5.  On the form header, select **Save**.
 
@@ -128,5 +129,5 @@ Role required: sn\_reco\_template.recommendation\_config\_writer or sn\_reco\_te
 
 A recommendation template is configured for the selected recommendation context.
 
-**Parent Topic:**[Recommendation contexts and templates](../concept/recommendation-contexts.md)
+**Parent Topic:**[Recommendation contexts and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/recommendation-contexts.md)
 

@@ -2,6 +2,7 @@
 title: Issue Auto Resolution for HR
 description: The Issue Auto Resolution for HR application uses artificial intelligence \(AI\) to provide near real-time responses to your employee's routine inquiries. When your employees use the request and response channels, you can collect their feedback to improve the quality of the recommendations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/issue-auto-resolution-for-hr/issue-auto-resolution-hr.html
 release: zurich
 product: Issue Auto Resolution for HR
 classification: issue-auto-resolution-for-hr
@@ -49,24 +50,24 @@ The Issue Auto Resolution dashboard lets your administrators monitor your dashbo
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn how employees use the request channels and get help through their preferred response channels with Issue Auto Resolution.](exploring-issue-auto-resolution-hr.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn how employees use the request channels and get help through their preferred response channels with Issue Auto Resolution.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/issue-auto-resolution-for-hr/exploring-issue-auto-resolution-hr.md)
 
 </td><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg) Process how HR cases and feedback are handled by Issue Auto Resolution.](using-iar-for-hr.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Process how HR cases and feedback are handled by Issue Auto Resolution.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/issue-auto-resolution-for-hr/using-iar-for-hr.md)
 
 </td></tr><tr><td>
 
-[Platform Analytics Solution![](../../../reuse/icons/brand-icons/bus-performance-forecasting-2.svg) Monitor the success metrics of Issue Auto Resolution based on the application's case resolution performance.](iar-for-hr-dashboard.md)
+[Platform Analytics Solution\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: Monitor the success metrics of Issue Auto Resolution based on the application's case resolution performance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/issue-auto-resolution-for-hr/iar-for-hr-dashboard.md)
 
 </td><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Learn about Issue Auto Resolution implementation.](configuring-issue-auto-resolution.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Learn about Issue Auto Resolution implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/issue-auto-resolution-for-hr/configuring-issue-auto-resolution.md)
 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://www.servicenow.com/docs/access?context=hr-service-delivery-landing&version=zurich&pubname=zurich-release-notes&ft:locale=en-US).
+-   Learn more about what's new and changed, see the .
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

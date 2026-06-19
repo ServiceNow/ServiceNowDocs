@@ -2,6 +2,7 @@
 title: Resolve conflicts
 description: App developers can select the app file version to use when applying remote or stashed changes in App Engine Studio \(AES\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/source-control-resolve-conflicts.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -37,7 +38,7 @@ Conflicts occur when there are multiple change versions of the same application 
 
 4.  Select how to resolve the conflict.
 
-<table id="choicetable_pqx_jdv_lv"><tbody><tr><td id="d200228e106">
+<table id="choicetable_pqx_jdv_lv"><tbody><tr><td id="d115446e106">
 
 **Select an action**
 
@@ -45,7 +46,7 @@ Conflicts occur when there are multiple change versions of the same application 
 
 Apply or discard all stashed changes. Go to step 3.
 
-</td></tr><tr><td id="d200228e115">
+</td></tr><tr><td id="d115446e115">
 
 **Manually merge changes**
 
@@ -56,7 +57,7 @@ Individually select which changes to apply. Go to step 6.
 </td></tr></tbody>
 </table>5.  If you want to apply or discard all stashed changes, select an **Action**.
 
-<table id="choicetable_wln_1bv_lv"><tbody><tr><td id="d200228e136">
+<table id="choicetable_wln_1bv_lv"><tbody><tr><td id="d115446e136">
 
 **Take Stashed Changes**
 
@@ -64,7 +65,7 @@ Individually select which changes to apply. Go to step 6.
 
 Applies the application file version from the stashed changes.
 
-</td></tr><tr><td id="d200228e145">
+</td></tr><tr><td id="d115446e145">
 
 **Discard Stashed Changes**
 
@@ -90,5 +91,5 @@ Applies the application file version from the most recent pull from the reposito
     The system applies the selected changes.
 
 
-**Parent Topic:**[Use AES with a Git source control repository](../concept/aes-source-control-use.md)
+**Parent Topic:**[Use AES with a Git source control repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-source-control-use.md)
 

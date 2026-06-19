@@ -2,6 +2,7 @@
 title: Add an application experience
 description: Use App Engine Studio \(AES\) to add an experience to your app. Experiences are the interface, or wrapper, for how users interact with your app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/add-experience.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -47,8 +48,8 @@ Create a catalog item form, such as a form to request time-off. After submitting
 
 </td><td>
 
--   [Add a standard catalog item](../task/add-standard-catalog-item.md)
--   [Sample standard catalog item](standard-catalog-item-examples.md)
+-   [Add a standard catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-standard-catalog-item.md)
+-   [Sample standard catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/standard-catalog-item-examples.md)
 
 </td></tr><tr><td>
 
@@ -64,8 +65,8 @@ Create a service catalog form that generates a task record, such as an incident,
 
 </td><td>
 
--   [Add a record producer](../task/add-a-record-producer.md)
--   [Sample record producer](record-producers-example.md)
+-   [Add a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-a-record-producer.md)
+-   [Sample record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/record-producers-example.md)
 
 </td></tr><tr><td>
 
@@ -81,15 +82,15 @@ Create an equipment fulfillment dashboard where employees can request laptops an
 
 </td><td>
 
--   [Add a workspace](../task/add-workspace.md)
--   [Using Workspace Builder](../../workspace-builder/concept/using-workspace-builder.md)
--   [Edit a workspace in Workspace Builder](../task/configure-workspace-builder.md)
--   [Configure workspace settings in Workspace Builder](../task/configure-workspace-settings.md)
--   [Customize a workspace home page in Workspace Builder](../task/edit-workspace-home-page.md)
--   [Add a record page for a workspace in Workspace Builder](../task/configure-record-page-workspace.md)
--   [Create lists for a workspace in Workspace Builder](../task/add-workspace-list.md)
--   [Enable analytics for a workspace in Workspace Builder](../task/configure-analytics-workspace.md)
--   [Sample workspaces you can build](../reference/types-of-workspaces.md)
+-   [Add a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-workspace.md)
+-   [Using Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/using-workspace-builder.md)
+-   [Edit a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/configure-workspace-builder.md)
+-   [Configure workspace settings in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/configure-workspace-settings.md)
+-   [Customize a workspace home page in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/edit-workspace-home-page.md)
+-   [Add a record page for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/configure-record-page-workspace.md)
+-   [Create lists for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/add-workspace-list.md)
+-   [Enable analytics for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/configure-analytics-workspace.md)
+-   [Sample workspaces you can build](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/types-of-workspaces.md)
 
 </td></tr><tr><td>
 
@@ -105,8 +106,8 @@ Create a self-service portal, or entry point for employees to make requests and 
 
 </td><td>
 
--   [Add a portal](../task/add-portal.md)
--   [Sample portals you can build](portal-example.md)
+-   [Add a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-portal.md)
+-   [Sample portals you can build](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/portal-example.md)
 
 </td></tr><tr><td>
 
@@ -122,24 +123,24 @@ Create a time-off request application for mobile for managers to approve or reje
 
 </td><td>
 
--   [Add a mobile experience](../task/add-mobile.md)
--   [Sample mobile experience](mobile-experiences-examples.md)
+-   [Add a mobile experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-mobile.md)
+-   [Sample mobile experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/mobile-experiences-examples.md)
 
 </td></tr></tbody>
-</table>-   **[Choosing between record producers and catalog items](record-producer-vs-catalog-item.md)**  
+</table>-   **[Choosing between record producers and catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/record-producer-vs-catalog-item.md)**  
 Both the record producer and standard catalog item in App Engine Studio \(AES\) create experiences where users can submit requests through a service portal. However, record producers are more extensible, and enable users to create a record in any table.
--   **[Add a record producer](../task/add-a-record-producer.md)**  
+-   **[Add a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-a-record-producer.md)**  
 A record producer enables users to create task-based records, such as an incident record, in apps you create in App Engine Studio \(AES\) without creating a request. It enables a better end-user experience by standardizing requests using a simplified form.
--   **[Add a standard catalog item](../task/add-standard-catalog-item.md)**  
+-   **[Add a standard catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-standard-catalog-item.md)**  
 Add a standard catalog item to your application in App Engine Studio \(AES\) so users can submit requests for services and offerings.
--   **[Add a workspace](../task/add-workspace.md)**  
+-   **[Add a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-workspace.md)**  
 Create a workspace using Workspace Builder in App Engine Studio \(AES\). Workspaces provide agents, case managers, help desk professionals, and managers with tools to help answer customer questions and resolve customer problems.
--   **[Add a portal](../task/add-portal.md)**  
+-   **[Add a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-portal.md)**  
 Create a portal in App Engine Studio \(AES\) to give your users a site where they can find information, create requests, and complete business tasks.
--   **[Add a mobile experience](../task/add-mobile.md)**  
+-   **[Add a mobile experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-mobile.md)**  
 Add a mobile experience, or interface, to enable users to access your application from a ServiceNow native mobile app.
--   **[Editing an experience in App Engine Studio](edit-experience.md)**  
+-   **[Editing an experience in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/edit-experience.md)**  
  Tailor your app's experience to suit your business needs by building interfaces in App Engine Studio \(AES\), such as for mobile apps or catalog items.
 
-**Parent Topic:**[Enhance your app](customize-application.md)
+**Parent Topic:**[Enhance your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/customize-application.md)
 

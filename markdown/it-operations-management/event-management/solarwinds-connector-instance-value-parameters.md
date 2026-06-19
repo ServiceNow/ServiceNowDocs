@@ -2,6 +2,7 @@
 title: Solarwinds connector instance value parameters
 description: The following table displays the Solarwinds connector instance value parameters that you can fill in, as needed, when creating a Solarwinds connector instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/solarwinds-connector-instance-value-parameters.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -76,5 +77,5 @@ protocol
 Protocol to use when connecting to the Solarwinds server.Default value: https
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Event Management reference](event-management-reference.md)
+</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/event-management-reference.md)
 

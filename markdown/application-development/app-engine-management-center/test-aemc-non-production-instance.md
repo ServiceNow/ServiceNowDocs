@@ -2,6 +2,7 @@
 title: Test App Engine Management Center functionality on a non-production instance
 description: Test App Engine Management Center \(AEMC\) on a non-production instance to confirm that everything is working as expected before moving to production.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-management-center/test-aemc-non-production-instance.html
 release: zurich
 product: App Engine Management Center
 classification: app-engine-management-center
@@ -25,11 +26,11 @@ To test AEMC and pipelines before you proceed to a production environment, pick 
 
 ## Procedure
 
-1.  Begin the Pipelines and Deployments Guided setup tasks as detailed in [Pipelines and Deployments configuration tasks](../../pipelines-and-deployments/reference/p-and-d-config-tasks.md).
+1.  Begin the Pipelines and Deployments Guided setup tasks as detailed in [Pipelines and Deployments configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/p-and-d-config-tasks.md).
 
 2.  When you begin the tasks to configure your pipeline environments, select one of your non-production instances and designate it as a production instance in the pipeline environment record.
 
-    For more information on the usual process, see [Configure your pipeline environments](../../pipelines-and-deployments/task/config-pipeline-environments.md).
+    For more information on the usual process, see [Configure your pipeline environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/config-pipeline-environments.md).
 
 3.  Test AEMC and your pipeline functionality.
 

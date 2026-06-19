@@ -2,6 +2,7 @@
 title: Configure a Zoom webhook for Zoom extension for Omnichannel Callback
 description: Configure a Zoom webhook in ServiceNow to notify the Zoom extension for Omnichannel Callback app when certain events occur in Zoom.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/callback-over-zoom/configure-zoom-webhook-omni.html
 release: zurich
 product: Callback over Zoom
 classification: callback-over-zoom

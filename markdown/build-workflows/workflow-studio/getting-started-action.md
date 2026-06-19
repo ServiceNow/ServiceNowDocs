@@ -2,6 +2,7 @@
 title: Getting started with actions
 description: Transform the Ask for Approval action into a reusable action that always requires manager approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/getting-started-action.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -15,15 +16,13 @@ breadcrumb: [Building actions, Use, Workflow Studio, Build workflows]
 
 Transform the Ask for Approval action into a reusable action that always requires manager approval.
 
-Demonstrates creating actions within a flow in the Flow Designer, and testing a flow.
-
 ## Before you begin
 
 Role required: admin
 
 **Note:** While Workflow Studio is designed to use the action\_designer and delegated\_developer roles in most scenarios, this tutorial uses the admin role to illustrate functionality without requiring additional roles to set up records and approve requests.
 
-Complete the steps in [Getting started with flows](getting-started-flow.md). This tutorial replaces the Ask for Approval action in the Expense Approval flow.
+Complete the steps in [Getting started with flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/getting-started-flow.md). This tutorial replaces the Ask for Approval action in the Expense Approval flow.
 
 ## About this task
 
@@ -62,7 +61,7 @@ Unlike the core Ask for Approval action where flow designers must manually confi
         -   Name: **Request**
         -   Type: **Reference**
         -   Reference Table: **Expenses \[x\_expenses\_getting\_expenses\]**
-        ![Add a Request input to the action.](../images/action-input.png)
+        \[Omitted image "action-input.png"\] Alt text: Add a Request input to the action.
 
     This input enables you to reference any field or record from the Expenses table. Use the data pills on the right-hand side to add the record or its fields to action steps.
 
@@ -78,7 +77,7 @@ Unlike the core Ask for Approval action where flow designers must manually confi
         -   Table: Set to **Expenses \[x\_expenses\_getting\_expenses\]**.
         -   Approval Field: Set to **Approval**.
         -   Journal Field: Set to **Approval history**.
-        ![Add Ask for Approval step.](../images/ask-for-approve-getting-started-actions.png)
+        \[Omitted image "ask-for-approve-getting-started-actions.png"\] Alt text: Add Ask for Approval step.
 
     4.  Define rules in the Ask for Approval step.
 
@@ -90,7 +89,7 @@ Unlike the core Ask for Approval action where flow designers must manually confi
 
         -   **\[Reject\]** when **\[Anyone rejects\]** from the field **\[action-&gt;Request-&gt;Requested for-&gt;Manager\]**, **\[OR\]**
         -   **\[Anyone rejects\]** from the field **\[Manual User\(s\)\]**.
-        ![Add rules to the Ask for Approval step.](../images/action-rules.png)
+        \[Omitted image "action-rules.png"\] Alt text: Add rules to the Ask for Approval step.
 
     5.  Define a due date in the Ask for Approval step.
 
@@ -98,7 +97,7 @@ Unlike the core Ask for Approval action where flow designers must manually confi
         -   Days schedule **\[8-5 weekdays excluding holidays\]**.
         This due date automatically approves all requests that haven’t been approved or denied within one day from when the request was created.
 
-        ![Add a Due Date to the Ask for Approval step.](../images/action-due-date.png)
+        \[Omitted image "action-due-date.png"\] Alt text: Add a Due Date to the Ask for Approval step.
 
 5.  Define the outputs in the Ask for Manager Approval action.
 
@@ -108,7 +107,7 @@ Unlike the core Ask for Approval action where flow designers must manually confi
 
         -   Name: **Approval state**
         -   Value: In the right-hand pane, expand the **Ask for Approval step** category and drag the **\[Approval State\]** data pill.
-        ![Create outputs to the action.](../images/action-outputs.png)
+        \[Omitted image "action-outputs.png"\] Alt text: Create outputs to the action.
 
     2.  Select **Save**.
 
@@ -138,7 +137,7 @@ Unlike the core Ask for Approval action where flow designers must manually confi
 
     5.  In the right-hand pane, expand the **Trigger - Record Created** category and drag the **\[Expenses Record\]** data pill into the **Request \[Expenses\]** field.
 
-    ![Add the action to the flow and enter an input.](../images/action-added-to-flow.png)
+    \[Omitted image "action-added-to-flow.png"\] Alt text: Add the action to the flow and enter an input.
 
 8.  Select **Save**.
 
@@ -158,13 +157,13 @@ Unlike the core Ask for Approval action where flow designers must manually confi
 
     Because the amount is less than 100.00, the first condition is met and the request is approved. The Else condition isn’t evaluated.
 
-    ![Test result for first condition evaluated.](../images/action-test-1.png)
+    \[Omitted image "action-test-1.png"\] Alt text: Test result for first condition evaluated.
 
 10. Test a record with an amount over the designated limit and verify that you have not already run a test on the test record.
 
     Because the amount is over the designated limit, the second condition is evaluated.
 
-    ![Test result for second condition evaluated.](../images/test-action-waiting.png)
+    \[Omitted image "test-action-waiting.png"\] Alt text: Test result for second condition evaluated.
 
 11. Approve the request.
 
@@ -174,7 +173,7 @@ Unlike the core Ask for Approval action where flow designers must manually confi
 
         Because the request is approved, the flow completes.
 
-        ![Execution details showing a completed approval.](../images/action-test-completed.png)
+        \[Omitted image "action-test-completed.png"\] Alt text: Execution details showing a completed approval.
 
 12. Navigate to the Ask for Manager Approval action and select **Publish**.
 
@@ -191,5 +190,5 @@ Unlike the core Ask for Approval action where flow designers must manually confi
 
 The Expense Approval flow runs every time a record is created in the Expenses table. Now that the flow is activated and working as expected, you can publish it to the application repository and deploy it to other instances.
 
-**Parent Topic:**[Building actions](../concept/actions.md)
+**Parent Topic:**[Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/actions.md)
 

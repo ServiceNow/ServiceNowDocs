@@ -2,6 +2,7 @@
 title: Configure the graph questionnaire Now Assist for Telecommunications, Media and Technology \(TMT\)
 description: Configure the graph questionnaire to add or modify the new queries to retrieve the knowledge graph data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-configure-graph-questionnaire.html
 release: zurich
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -35,6 +36,6 @@ Role required: Admin
 
 6.  Clear the **Read only** field.
 
-    ![now assist skill variable.](../image/now-assist-configure-questionnaire.png)
+    \[Omitted image "now-assist-configure-questionnaire.png"\] Alt text: now assist skill variable.
 
 

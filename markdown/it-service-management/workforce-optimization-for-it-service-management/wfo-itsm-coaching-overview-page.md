@@ -2,6 +2,7 @@
 title: Coaching Overview page
 description: Monitor the progress of assessments and track learning tasks that are overdue. You can also add a coaching quality indicator to monitor trends. Analyze which skills have been assigned the most to your team recently and which top skills are in demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/wfo-itsm-coaching-overview-page.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -15,14 +16,14 @@ breadcrumb: [Training your teams, Coaching, Workforce Optimization for ITSM, IT 
 
 Monitor the progress of assessments and track learning tasks that are overdue. You can also add a coaching quality indicator to monitor trends. Analyze which skills have been assigned the most to your team recently and which top skills are in demand.
 
-![Coaching Overview](../../../product/configurable-workforce-optimization-itsm/image/coaching-overview.png)
+\[Omitted image "coaching-overview.png"\] Alt text: Coaching Overview
 
 ## Access the Coaching Overview page
 
 To open the dashboard:
 
 -   Navigate to, **Workspaces** &gt; **Manager Workspace**.
--   Select the Coaching icon ![Coaching icon](../../../product/configurable-workforce-optimization-itsm/image/coaching-icon-uib.png).
+-   Select the Coaching icon \[Omitted image "coaching-icon-uib.png"\] Alt text: Coaching icon.
 -   Select the **Overview** tab.
 
 ## End user and roles
@@ -79,7 +80,7 @@ Assessments
 
 </td><td>
 
-Donut chart ![Donut chart](../../../product/configurable-workforce-optimization-itsm/image/donut-chart-icon.png)
+Donut chart \[Omitted image "donut-chart-icon.png"\] Alt text: Donut chart
 
 </td><td>
 
@@ -91,7 +92,7 @@ Average quality
 
 </td><td>
 
-Line chart ![Line chart](../../../reuse/reporting/image/line-trend.svg)
+Line chart \[Omitted image "line-trend.svg"\] Alt text: Line chart
 
 </td><td>
 
@@ -103,12 +104,12 @@ Skill demand trend
 
 </td><td>
 
-Bar chart ![Bar chart](../../../reuse/reporting/image/bar-trend-sm.svg)
+Bar chart \[Omitted image "bar-trend-sm.svg"\] Alt text: Bar chart
 
 </td><td>
 
 Trend for the top five skills that are in demand.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Training your teams using Coaching in Workforce Optimization for ITSM](../../../product/configurable-workforce-optimization-itsm/concept/coaching-configurable-wfo-itsm.md)
+</table>**Parent Topic:**[Training your teams using Coaching in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/coaching-configurable-wfo-itsm.md)
 

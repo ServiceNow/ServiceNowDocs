@@ -2,6 +2,7 @@
 title: Record the assets used during a work task on the Contractor Portal
 description: Record any assets that you use during the execution of a task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/use-asset-cp.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

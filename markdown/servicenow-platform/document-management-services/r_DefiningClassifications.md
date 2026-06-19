@@ -2,6 +2,7 @@
 title: Defining Classifications
 description: Define a new classification on the Classification form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/r\_DefiningClassifications.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -32,5 +33,5 @@ The following classifications are available in the base system.
 |restricted|R|Restricted|2|
 |confidential|C|Confidential|3|
 
-**Parent Topic:**[Defining Document Parameters](r_DefiningDocumentParameters.md)
+**Parent Topic:**[Defining Document Parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/r_DefiningDocumentParameters.md)
 

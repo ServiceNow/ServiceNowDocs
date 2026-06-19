@@ -1,7 +1,8 @@
 ---
 title: Install Customer Engagement Sequences
-description: You can install the Customer Engagement Sequences application \(com.sn\_crm\_sequence\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
+description: You can install the Customer Engagement Sequences application \(com.sn\_crm\_sequence\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/install-customer-engagement-sequences.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -13,12 +14,12 @@ breadcrumb: [Customer Engagement Sequences, Lead and opportunity management apps
 
 # Install Customer Engagement Sequences
 
-You can install the Customer Engagement Sequences application \(com.sn\_crm\_sequence\) if you have the admin role.The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
+You can install the Customer Engagement Sequences application \(com.sn\_crm\_sequence\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
 
 ## Before you begin
 
 -   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
--   Review the [Customer Engagement Sequences](https://store.servicenow.com/store/app/d268fc54c31131107d575b79c840dd79) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
+-   Review the [Customer Engagement Sequences](https://store.servicenow.com/store/app/9979524e1b47261061c4eb18624bcb83) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin
 
@@ -29,7 +30,7 @@ The following items are installed with Customer Engagement Sequences:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Customer Engagement Sequences](../reference/components-installed-customer-engagement-sequences.md).
+For more information, see [Components installed with Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/components-installed-customer-engagement-sequences.md).
 
 ## Procedure
 

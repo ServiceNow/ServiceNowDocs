@@ -2,11 +2,12 @@
 title: Onboard Agile Development 2.0 to DevOps Change Velocity — Classic
 description: Connect to Agile Development 2.0 and discover plans from it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/create-agile-tool-dev-ops.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Agile Development 2.0, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -74,5 +75,5 @@ Select **Agile Development 2.0**
     -   Plan Versions related list shows releases.
     -   Features related list shows epics.
 
-**Parent Topic:**[Agile Development 2.0 integration with DevOps Change Velocity](../concept/agile-integration-dev-ops.md)
+**Parent Topic:**[Agile Development 2.0 integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/agile-integration-dev-ops.md)
 

@@ -2,6 +2,7 @@
 title: Associate a sales cycle with the opportunity stage
 description: Link one or multiple opportunity stages with a sales cycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/opportunity-management-sales-cycle-stages.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

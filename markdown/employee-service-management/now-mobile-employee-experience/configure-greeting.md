@@ -2,6 +2,7 @@
 title: Configure a personalized greeting
 description: Configure the greeting that your users see when they log in to the Now Mobile app. For example, you can add a hello message that includes the user's first and last name.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-mobile-employee-experience/configure-greeting.html
 release: zurich
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience

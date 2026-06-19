@@ -2,6 +2,7 @@
 title: Populate global rank for high-level planning items
 description: To enable high-level planning on a table that is not a planning item in Strategic Planning Workspace, populate global rank for existing records of this table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/populate-global-rank-for-high-level-planning-items.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -17,7 +18,7 @@ To enable high-level planning on a table that is not a planning item in Strategi
 
 ## Before you begin
 
-[Enable high-level planning for a lens entity](enable-high-level-planning-for-lens-entity.md).
+[Enable high-level planning for a lens entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/enable-high-level-planning-for-lens-entity.md).
 
 Role required: admin
 
@@ -42,5 +43,5 @@ For this task, consider the example of generating a rank value for all existing 
 
 ## What to do next
 
-Create a business rule to populate global rank on any future records create on your high-level planning table. See [Create a business rule for high-level planning](create-a-business-rule-for-high-level-planning.md).
+Create a business rule to populate global rank on any future records create on your high-level planning table. See [Create a business rule for high-level planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/create-a-business-rule-for-high-level-planning.md).
 

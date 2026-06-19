@@ -2,6 +2,7 @@
 title: Customize details displayed on node map tiles using a decision table
 description: Customize the details displayed on the node map tiles in the Lead-to-Cash Process Management using Decision Tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/customize-node-map-tiles.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -46,5 +47,5 @@ You can add more columns to display additional lines. However, this would requir
 7.  Select **Save**.
 
 
-**Parent Topic:**[Customizing the sales process dashboard](../concept/customizing-sales-process-dashboard.md)
+**Parent Topic:**[Customizing the sales process dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/customizing-sales-process-dashboard.md)
 

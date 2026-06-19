@@ -2,6 +2,7 @@
 title: Pass a variable from a workflow to a subflow
 description: Use this process to pass variables from a parent workflow to a subflow.Define the input variables for a workflow to request from parent workflows when it is launched as a subflow.Use this procedure to add a subflow to a workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/legacy-workflow/t\_VariableWorkflowSubflow.html
 release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
@@ -32,7 +33,7 @@ Role required: workflow\_admin, workflow\_creator, or admin
     **Note:** You cannot pass variables to a subflow that runs on the Requested Item \[sc\_req\_item\] table.
 
 
-**Parent Topic:**[Workflows used as subflows](../reference/workflows-as-subflows.md)
+**Parent Topic:**[Workflows used as subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/workflows-as-subflows.md)
 
 ## Define inputs for a subflow
 

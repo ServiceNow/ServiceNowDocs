@@ -2,6 +2,7 @@
 title: Agent work and schedule status
 description: View an agent's work status and schedule status as they complete their tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/c\_AgentStatus.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling

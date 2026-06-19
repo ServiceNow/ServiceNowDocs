@@ -2,6 +2,7 @@
 title: Growth plans overview
 description: Build your growth plan to organize and track your career goals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/egd-growth-plans-ovrvw.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -108,5 +109,5 @@ Shows you plan details such as plan status \(all, completed, canceled\), name, s
     **Note:** connect with your manager or HR representative to find out what development opportunities are available to you, to help create a development plan that aligns with your career goals and the priorities of the organization.
 
 
-**Parent Topic:**[Exploring Talent Development Core](egd-explore.md)
+**Parent Topic:**[Exploring Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-explore.md)
 

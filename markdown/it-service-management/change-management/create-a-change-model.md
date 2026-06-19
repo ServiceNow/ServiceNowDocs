@@ -2,6 +2,7 @@
 title: Create a Change model
 description: Depending on your requirements, you can create a Change model and configure the states and transitions for a specific use case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/create-a-change-model.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -89,7 +90,7 @@ Implementation states
 
 </td><td>
 
-Implementation state for the Change model. For more information on states, see [State model and transitions](../concept/c_ChangeStateModel.md).If you are using Mass CI Update with Change Models ensure the Implementation states field in the model is set to the state in which you want the changes to take effect.
+Implementation state for the Change model. For more information on states, see [State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/c_ChangeStateModel.md).If you are using Mass CI Update with Change Models ensure the Implementation states field in the model is set to the state in which you want the changes to take effect.
 
 </td></tr><tr><td>
 
@@ -124,7 +125,7 @@ Write Roles
 Option to define the roles to edit the Change model.
 
 </td></tr></tbody>
-</table>4.  Click the form context menu icon \(![Form context menu icon.](../image/form-context-menu.png)\) and select **Save**.
+</table>4.  Click the form context menu icon \(\[Omitted image "form-context-menu.png"\] Alt text: Form context menu icon.\) and select **Save**.
 
     The Model States context menu appears. You can select the states for your Change model.
 
@@ -139,7 +140,7 @@ Option to define the roles to edit the Change model.
 
 7.  To save the state and return to the Change Model form, click **Submit**.
 
-8.  To add a transition between the states, click the display/hide hierarchical lists icon \(![Display/hide hierarchical lists icon.](../image/display-hide-hierarchial-lists.png)\) for the model state that you want to apply the transition to.
+8.  To add a transition between the states, click the display/hide hierarchical lists icon \(\[Omitted image "display-hide-hierarchial-lists.png"\] Alt text: Display/hide hierarchical lists icon.\) for the model state that you want to apply the transition to.
 
     The Model State Transitions context menu appears.
 
@@ -153,7 +154,7 @@ Option to define the roles to edit the Change model.
     |To|State that the Change request is moving to.|
     |Automatic Transition|Option for enabling automatic transition to the Change request when the defined conditions are met. Selecting this option also prevents you from manually selecting the **State** field on the Change request form.|
 
-11. Click the form context menu icon \(![Form context menu icon.](../image/form-context-menu.png)\) and click **Save**.
+11. Click the form context menu icon \(\[Omitted image "form-context-menu.png"\] Alt text: Form context menu icon.\) and click **Save**.
 
     The Model State Transition Condition context menu appears.
 
@@ -201,7 +202,7 @@ Requires
 
 Condition for your transition. You can select a pre-defined condition, such as **Mandatory Fields** to require that specified fields are populated before the model state transitions, or select **Transition Condition** to define a more granular condition.
 
-To create pre-defined conditions, see [Create predefined conditions](create-predefined-transition-condition-type.md).
+To create pre-defined conditions, see [Create predefined conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/create-predefined-transition-condition-type.md).
 
 </td></tr><tr><td>
 
@@ -256,15 +257,15 @@ Option to make the condition active.
     -   **Available For** – Provides the access for the change model
     -   **Not Available For** – Doesn’t provide the access for the change model
     -   **Can Write** – Provides the editable access to the change model
-    For more information on user access, refer [Create a user criteria record for Change Management](create-user-criteria.md).
+    For more information on user access, refer [Create a user criteria record for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/create-user-criteria.md).
 
 20. Select **Submit**.
 
 
--   **[Create predefined transition condition types](create-predefined-transition-condition-type.md)**  
+-   **[Create predefined transition condition types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/create-predefined-transition-condition-type.md)**  
 Create predefined transition conditions to reuse the conditions for your Change models.
--   **[Attach a process for Change model states](../concept/attach-process-change-model.md)**  
+-   **[Attach a process for Change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/attach-process-change-model.md)**  
 You can attach a process with defined conditions to the Change model states to enable state transitions.
 
-**Parent Topic:**[Configuring Change Management](../concept/configure-change-management.md)
+**Parent Topic:**[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/configure-change-management.md)
 

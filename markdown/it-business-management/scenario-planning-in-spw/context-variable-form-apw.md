@@ -2,6 +2,7 @@
 title: Context Variable form
 description: Use the Context Variable form to create a context variable for a target source for calculating the actual value of the target based on the configured input values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/context-variable-form-apw.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -29,7 +30,7 @@ Type
 
 </td><td>
 
-Context variable type.For information about the different field types, see [Field types](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Context variable type.For information about the different field types, see Field types.
 
 </td></tr><tr><td>
 
@@ -72,5 +73,5 @@ Option to display the context variables on the Target form in the Actual Value S
 Default value to consider for updating the actual value of the target.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Strategic Planning](../../alignment-planner-workspace/reference/form-field-information-for-strategic-planning.md)
+</table>**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
 

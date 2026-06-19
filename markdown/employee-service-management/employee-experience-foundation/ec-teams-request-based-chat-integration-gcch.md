@@ -2,6 +2,7 @@
 title: Integrating Request-based chat with Microsoft Teams for GCC-H or DoD
 description: You can integrate request-based chat with Microsoft Teams for Government Community Cloud - High \(GCC-H\) or US Department of Defense \(DoD\) customers to auto import the chat conversations between the agents and the employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ec-teams-request-based-chat-integration-gcch.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,21 +28,21 @@ Before integrating Employee Center with your Microsoft Teams tenant, ensure that
 
 1.  Activate the IT Service Management integration with Microsoft Teams plugin \(sn\_now\_teams\_it\).
 
-    **Note:** For more information on activating plugins, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    **Note:** For more information on activating plugins, see .
 
-2.  [Register and configure the Request-based chat application on the Microsoft Azure portal](../task/register-app-req-based-chats.md).
-3.  [Add permissions to the Microsoft Azure application](../task/authenticate-users-req-based-chat.md).
-4.  [Configure Application Registry on the ServiceNow instance](../task/app-registry-chat-single-tenant.md#).
+2.  [Register and configure the Request-based chat application on the Microsoft Azure portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/register-app-req-based-chats.md).
+3.  [Add permissions to the Microsoft Azure application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/authenticate-users-req-based-chat.md).
+4.  [Configure Application Registry on the ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/app-registry-chat-single-tenant.md).
 
     **Note:** For GCC-H and DoD, use the `https://login.microsoftonline.us/` domain for token and authorization URLs on the application registry page.
 
-5.  [Update chat credentials with Azure GCC URL](../task/update-chat-credentials-azure-gcch.md).
-6.  [Create record with Azure GCC details](../task/create-record-azure-gcch.md).
+5.  [Update chat credentials with Azure GCC URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/update-chat-credentials-azure-gcch.md).
+6.  [Create record with Azure GCC details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/create-record-azure-gcch.md).
 
--   **[Update chat credentials with Azure GCC URL](../task/update-chat-credentials-azure-gcch.md)**  
+-   **[Update chat credentials with Azure GCC URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/update-chat-credentials-azure-gcch.md)**  
 Update the Azure URL in the chat credentials of GCC customers. Enable GCC customers to start chat and import chat conversations from Microsoft Teams to the ServiceNow instance.
--   **[Create record with Azure GCC details](../task/create-record-azure-gcch.md)**  
+-   **[Create record with Azure GCC details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/create-record-azure-gcch.md)**  
 Create and update a new record in the sys\_properties.list table with the details of the Azure account of GCC customers.
 
-**Parent Topic:**[Integrating ServiceNow with Microsoft Teams for GCC-H or DoD](setup-sn-ms-teams-gcch.md)
+**Parent Topic:**[Integrating ServiceNow with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/setup-sn-ms-teams-gcch.md)
 

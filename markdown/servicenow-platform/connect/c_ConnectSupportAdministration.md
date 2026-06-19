@@ -2,6 +2,7 @@
 title: Connect Support administration
 description: Administrators can configure various performance settings and features of Connect Support.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/connect/c\_ConnectSupportAdministration.html
 release: zurich
 product: Connect
 classification: connect
@@ -15,5 +16,5 @@ breadcrumb: [Connect Support, Connect, ServiceNow AI Platform Additional Capabil
 
 Administrators can configure various performance settings and features of Connect Support.
 
-**Note:** There are also settings that apply to both Connect Chat and Connect Support. For more information, see [Connect administration](c_ConnectAdministration.md).
+**Note:** There are also settings that apply to both Connect Chat and Connect Support. For more information, see [Connect administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/connect/c_ConnectAdministration.md).
 

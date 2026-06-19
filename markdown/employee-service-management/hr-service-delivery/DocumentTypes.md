@@ -2,6 +2,7 @@
 title: Using document types with HR document templates
 description: Document types limit the choices for allowable documents based on HR service. For organizations with large amounts of documents, document types help categorize and make finding the correct document easier.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/DocumentTypes.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -20,7 +21,7 @@ Document types limit the choices for allowable documents based on HR service. Fo
 
 Starting with the Zurich release, HR Document Templates is deprecated and no longer supported or available for new activation.
 
-Use [Document Templates](document-templates-overview.md) that provides the latest experience for this functionality. For migration guidelines, see [Migrating from HR Document Templates to Document Templates](migration-hrdt-dt.md#).
+Use [Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/document-templates-overview.md) that provides the latest experience for this functionality. For migration guidelines, see [Migrating from HR Document Templates to Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/migration-hrdt-dt.md).
 
 For deprecation details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
@@ -43,10 +44,10 @@ Verifying this information allows the case to narrow the search for the correct 
     -   Add the HR case template to an HR service.
     -   Add HR criteria to the HR service.
         -   Using HR criteria provides flexibility in choosing or auto-populating a document for an HR service.
-        -   When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+        -   When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 -   **How it works**
 
-    When an HR case is created from an HR service:![Flow chart of how HR case is created from HR service.](../image/doctype_flow.png)
+    When an HR case is created from an HR service:\[Omitted image "doctype\_flow.png"\] Alt text: Flow chart of how HR case is created from HR service.
 
     The HR case template looks for a document type to determine what **Document template** or **PDF document template** to a case. It tries to automatically place a document template on an HR case by:
 

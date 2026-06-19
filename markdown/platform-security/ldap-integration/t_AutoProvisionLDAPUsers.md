@@ -2,6 +2,7 @@
 title: Auto provision LDAP users
 description: You automatically provision users who are in the LDAP server but not yet in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/ldap-integration/t\_AutoProvisionLDAPUsers.html
 release: zurich
 product: LDAP integration
 classification: ldap-integration

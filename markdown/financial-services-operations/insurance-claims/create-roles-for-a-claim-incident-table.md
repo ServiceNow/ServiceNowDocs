@@ -2,6 +2,7 @@
 title: Create roles for a claim incident table
 description: Create roles to access claim incident tables by using the Insurance claims application. This way, you can ensure that only authorized users can access the claim incidents that are relevant to their roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/create-roles-for-a-claim-incident-table.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims
@@ -39,5 +40,5 @@ Role required: admin
 
 ## What to do next
 
-Create access control lists for the claim incident table so that specific roles can interact with the claim incident table. For more information, see [Create an access control list for a claim incident table](create-acls-for-a-claim-incident-table.md).
+Create access control lists for the claim incident table so that specific roles can interact with the claim incident table. For more information, see [Create an access control list for a claim incident table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/create-acls-for-a-claim-incident-table.md).
 

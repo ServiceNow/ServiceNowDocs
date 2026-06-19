@@ -2,6 +2,7 @@
 title: Link ServiceNow user account to Microsoft Teams application for Virtual Agent
 description: Link your ServiceNow account to an Microsoft Teams application to access the non-public Virtual Agent topics that use ServiceNow records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/link-user-teams-va.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -37,10 +38,10 @@ The authentication step occurs in your instance or in a Service Portal set by yo
 
     **Note:**
 
-    The administrator can auto-link the ServiceNow user accounts to Microsoft Teams. For more information, see [Account linking in pre-built messaging integrations](https://www.servicenow.com/docs/access?context=va-adapter-autolinking&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+    The administrator can auto-link the ServiceNow user accounts to Microsoft Teams. For more information, see Account linking in pre-built messaging integrations.
 
 5.  On the confirmation dialog, select Confirm to link your account.
 
 
-**Parent Topic:**[Employee actions](../concept/employee-sn-ms-teams.md)
+**Parent Topic:**[Employee actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-sn-ms-teams.md)
 

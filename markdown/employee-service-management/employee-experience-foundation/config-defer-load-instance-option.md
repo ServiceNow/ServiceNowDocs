@@ -2,6 +2,7 @@
 title: Modify defer load instance option
 description: Deferred loading helps delay the loading of a resource or widget to improve the overall usability of the page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/config-defer-load-instance-option.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,7 +18,7 @@ Deferred loading helps delay the loading of a resource or widget to improve the 
 
 ## Before you begin
 
-Ensure you understand the deferred load behavior. For more information, see [Create and edit a page using the Service Portal Designer](https://www.servicenow.com/docs/access?context=t_ConfigureAPage&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) and [Configure widget loading order in Service Portal](https://www.servicenow.com/docs/access?context=configure-widget-loading-order&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+Ensure you understand the deferred load behavior. For more information, see  and .
 
 Role required: admin.
 
@@ -43,13 +44,13 @@ The deferred load is available for the following widgets.
 
     The following page appears.
 
-    ![Defer load page on widgets](../images/defer-load-widgets.png "Defer load in Portal Designer")
+    \[Omitted image "defer-load-widgets.png"\] Alt text: Defer load page on widgets
 
 2.  Click the **Defer load** icon.
 
-3.  Fill in the following fields as explained in [Configure widget loading order in Service Portal](https://www.servicenow.com/docs/access?context=configure-widget-loading-order&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+3.  Fill in the following fields as explained in .
 
-    ![instance option defer widget](../images/defer-load-ec.png "Defer widget loading instance option")
+    \[Omitted image "defer-load-ec.png"\] Alt text: instance option defer widget
 
 4.  Click **Save**.
 

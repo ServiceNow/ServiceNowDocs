@@ -2,6 +2,7 @@
 title: Analytics and reporting for Configuration Compliance
 description: The following reports are provided for monitoring.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/cc-pa-cc.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance

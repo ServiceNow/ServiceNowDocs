@@ -2,6 +2,7 @@
 title: Designing dashboards
 description: In the Dashboard Visualization tab, you can create mock-ups of multiple dashboards with visualizations corresponding to artifacts in the Analysis tab. You can link widgets in this mock-up to Performance Analytics widgets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/create-a-dashboard-mock-up.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -21,14 +22,14 @@ The final outputs of your project are Performance Analytics dashboards, with per
 
 The KPI Composer Dashboard Visualization tab lets you start dashboard design much earlier in the workflow. You can start work on the visualization when you have only a conceptual tree of your success factors and measurements on the Analysis tab. Furthermore, you can involve other stakeholders earlier in the process. Use KPI Composer in presentations early on to get timely feedback, so when your project is complete, the dashboard viewers get the visualizations they expect.
 
-1.  [Add a dashboard](../task/add-dashboard-kpi-comp.md#)  
+1.  [Add a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/add-dashboard-kpi-comp.md)  
 As the first step in designing your dashboards, add an empty dashboard to the KPI Composer Dashboard Visualization tab.
-2.  [Add tabs and rows to a dashboard](../task/add-tabs-kpi-dashboard.md)  
+2.  [Add tabs and rows to a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/add-tabs-kpi-dashboard.md)  
 A dashboard mock-up in KPI Composer requires you to lay out the tabs and rows before adding visual components.
-3.  [Add canvases to a dashboard tab](../task/add-canvases-kpi-dashboard.md)  
+3.  [Add canvases to a dashboard tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/add-canvases-kpi-dashboard.md)  
 Combine analytics artifacts and widgets to create visual components, called canvases, on a KPI Composer dashboard mock-up. "Widgets" include reports, interactive filters, Spotlight, and content blocks.
-4.  [Create a dashboard tab template](../task/kpi-comp-create-dashboard-template.md)  
+4.  [Create a dashboard tab template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/kpi-comp-create-dashboard-template.md)  
 To reuse a dashboard tab design, create a template from that tab.
 
-**Parent Topic:**[Design your Performance Analytics solution with KPI Composer](designing-pa-solution.md)
+**Parent Topic:**[Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/designing-pa-solution.md)
 

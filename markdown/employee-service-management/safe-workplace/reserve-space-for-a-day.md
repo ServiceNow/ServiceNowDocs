@@ -2,6 +2,7 @@
 title: Reserve a workplace for a day
 description: Reserve workplaces for a day on which you want to return to the office by using Workplace Core.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/reserve-space-for-a-day.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace
@@ -37,7 +38,7 @@ You can also access the reservation form from the Now Mobile app. Navigate to **
     -   To reserve a space for custom timings, select **Reserve a space for a day**.
 3.  On the Reserve a space form, fill in the fields.
 
-    For a description of the field values, see [Reserve a space form](../../workplace-service-delivery/reference/reserve-space-form.md).
+    For a description of the field values, see [Reserve a space form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/reserve-space-form.md).
 
     **Note:** The visibility of some of the following fields depends on the application settings made by your administrator.
 
@@ -66,5 +67,5 @@ You will receive an email notification 15 minutes before the reservation to chec
     **Note:** You must check out within an hour after the reservation end time. Otherwise, the reservation is automatically checked out.
 
 
-**Parent Topic:**[Making workplace reservations](../concept/requesting-workspace-reservations.md)
+**Parent Topic:**[Making workplace reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/requesting-workspace-reservations.md)
 

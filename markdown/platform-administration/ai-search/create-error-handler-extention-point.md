@@ -2,6 +2,7 @@
 title: Create an error handler extension point
 description: Create a scripted extension point to handle the embedding generation errors that occur when custom embedding models in the AI Search Retrieval Augmented Generation \(RAG\) application generate semantic vectors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/create-error-handler-extention-point.html
 release: zurich
 product: AI Search
 classification: ai-search

@@ -2,11 +2,12 @@
 title: Components Installed with Quote Management
 description: Several types of components are installed with activation of the Quote Management plugin, including user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/components-installed-quote-management.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: reference
-last_updated: "2025-12-05"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
@@ -110,5 +111,7 @@ A granular role created to give read access to quote tables.
 -   sn\_customerservice.customer\_data\_viewer
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure, price, quote reference](../concept/reference-cpq.md)
+</table>**Parent Topic:**[Configure, price, quote reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/reference-cpq.md)
+
+**Parent Topic:**[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-management-reference.md)
 

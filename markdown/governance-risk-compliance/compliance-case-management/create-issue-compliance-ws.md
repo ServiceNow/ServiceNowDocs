@@ -2,6 +2,7 @@
 title: Create an Issue form
 description: Use the Create an Issue form in GRC: Compliance Case Management to add an issue to a compliance case, report findings or observations or compliance deficiencies, or matters that require immediate attention from the respective owners.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/compliance-case-management/create-issue-compliance-ws.html
 release: zurich
 product: Compliance Case Management
 classification: compliance-case-management
@@ -366,5 +367,5 @@ Apart from the from fields, there are a few actions that you can perform on a Co
 -   Export PDF- export the compliance case as a PDF.
 -   Delete- delete the compliance case.
 
-**Parent Topic:**[Add an issue for a compliance case](../task/add-issues-for-compliance-case.md)
+**Parent Topic:**[Add an issue for a compliance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/add-issues-for-compliance-case.md)
 

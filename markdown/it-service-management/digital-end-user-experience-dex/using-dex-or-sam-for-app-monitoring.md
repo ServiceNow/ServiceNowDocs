@@ -2,6 +2,7 @@
 title: Using DEX or SAM for application monitoring
 description: Monitor your application usage and performance with Software Asset Management \(SAM\) or Digital End-User Experience \(DEX\), depending on your organization's needs. SAM and DEX both use the Agent Client Collector \(ACC\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/using-dex-or-sam-for-app-monitoring.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -58,10 +59,10 @@ Large-scale software metering
 SAMScalable beyond 200 apps
 
 </td></tr></tbody>
-</table>For more information for application monitoring with DEX, see [Add an application for monitoring](../task/add-new-application.md).
+</table>For more information for application monitoring with DEX, see [Add an application for monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/add-new-application.md).
 
 For more information on application monitoring with SAM, see the following:
 
--   [Using push-based Discovery and SAM together](https://www.servicenow.com/docs/access?context=using-enhanced-discovery-and-sam-together&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)
--   [SaaS detection report](https://www.servicenow.com/docs/access?context=shadow-saas-analytics&version=zurich&pubname=zurich-it-asset-management&ft:locale=en-US)
+-   
+-   
 

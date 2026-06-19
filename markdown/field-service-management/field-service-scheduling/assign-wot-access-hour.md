@@ -2,6 +2,7 @@
 title: Assigning work order task with defined access hours
 description: Assign work order tasks either automatically within defined access hours through dynamic scheduling or manually outside those hours.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/assign-wot-access-hour.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling

@@ -2,13 +2,14 @@
 title: Agentic Playbooks
 description: Agentic Playbooks use AI agents to help you work more efficiently. AI agents complete tasks and generate outputs for your playbook activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/agentic-playbooks-landing.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
 last_updated: "2025-10-09"
 reading_time_minutes: 2
-breadcrumb: [Playbooks, Explore, Workflow Studio, Build workflows]
+breadcrumb: [Playbook, Explore, Workflow Studio, Build workflows]
 ---
 
 # Agentic Playbooks
@@ -19,19 +20,19 @@ Agentic Playbooks use AI agents to help you work more efficiently. AI agents com
 
 <table id="table_hgk_ldl_1gc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Agentic Playbooks](agentic-playbooks.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text:Learn about Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/agentic-playbooks.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure AI agents for your playbook](../task/configure-agentic-playbooks.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure AI agents for your playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/configure-agentic-playbooks.md)
 
 </td></tr><tr><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Learn how to use Agentic Playbooks](../task/running-agentic-activities.md)
+[Use \[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn how to use Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/running-agentic-activities.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Review roles and guidelines](../reference/agentic-playbook-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Review roles and guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/agentic-playbook-reference.md)
 
 </td></tr></tbody>
 </table>## AI limitations
@@ -42,14 +43,14 @@ This application uses artificial intelligence \(AI\) and machine learning, which
 
 This application requires data to be transferred from ServiceNow customers' individual instances to a centralized ServiceNow environment, which may be located in a different data center region from the one where your instance is, and potentially to a third-party cloud provider, such as Microsoft Azure. This data is handled per ServiceNow's internal policies and procedures, including our policies available through our [CORE Compliance Portal](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0564067).
 
--   **[Exploring Agentic Playbooks](agentic-playbooks.md)**  
+-   **[Exploring Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/agentic-playbooks.md)**  
 Integrate AI agents into your workflows, and enable automation, adaptability, and transparency across your business processes.
--   **[Configuring Agentic Playbooks](../task/configure-agentic-playbooks.md)**  
-As a playbook author in Workflow Studio, configure AI agents to perform a playbook activity.
--   **[Using Agentic Playbooks](../task/running-agentic-activities.md)**  
+-   **[Configuring Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/configure-agentic-playbooks.md)**  
+As a playbook author in Workflow Studio, configure AI Agents to perform a playbook activity.
+-   **[Using Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/running-agentic-activities.md)**  
 Monitor and complete agentic activities as needed.
--   **[Agentic Playbooks reference](../reference/agentic-playbook-reference.md)**  
+-   **[Agentic Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/agentic-playbook-reference.md)**  
 Reference topics provide associated roles and guidelines for configuring Agentic Playbooks.
 
-**Parent Topic:**[Exploring playbooks](process-automation-designer.md)
+**Parent Topic:**[Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer.md)
 

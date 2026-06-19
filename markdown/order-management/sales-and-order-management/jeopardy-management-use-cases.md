@@ -2,6 +2,7 @@
 title: Jeopardy Management use cases
 description: Jeopardy Management use cases help you explore and understand how Jeopardy Management works in different scenarios in Order Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/jeopardy-management-use-cases.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

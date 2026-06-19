@@ -2,6 +2,7 @@
 title: Table form
 description: The Table form enables you to define a table for extraction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/document-intelligence/table-form.html
 release: zurich
 product: Document Intelligence
 classification: document-intelligence
@@ -15,7 +16,7 @@ breadcrumb: [DocIntel forms, Reference, Document Intelligence, Enable AI experie
 
 The Table form enables you to define a table for extraction.
 
-**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](../concept/docintel-nowassist-landing.md).
+**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
 
 The Table form includes the following fields.
 
@@ -71,7 +72,7 @@ Option to make the table fields required.
 
  Required table fields can't be left empty or unreviewed. They also can’t contain ambiguous values. An ambiguous value is a field entry that can be interpreted in more than one way.
 
- Required fields affect how document tasks are processed in the Fully automated extraction mode. For more information, see [Configure data extraction modes](../task/configure-data-extraction-modes.md).
+ Required fields affect how document tasks are processed in the Fully automated extraction mode. For more information, see [Configure data extraction modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/document-intelligence/configure-data-extraction-modes.md).
 
 </td></tr><tr class="sub-head"><td>
 
@@ -97,7 +98,7 @@ Type
 
 The type of the field in the table column. For example, a text or date field.
 
- Some field types convert the extracted value into a standard format. For more information, see [Data normalization](../concept/data-normalization.md).
+ Some field types convert the extracted value into a standard format. For more information, see [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/document-intelligence/data-normalization.md).
 
 </td></tr><tr><td>
 
@@ -107,7 +108,7 @@ Select target field
 
 Field on the target table that you want to align this field with.
 
- This field is used for integration with other applications. For more information, see [Integrate with a custom application or workflow](../task/configure-integration-setup.md).
+ This field is used for integration with other applications. For more information, see [Integrate with a custom application or workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/document-intelligence/configure-integration-setup.md).
 
 </td></tr><tr><td>
 
@@ -151,7 +152,7 @@ Reference column
 
 The column in the reference table that contains the referenced data.
 
- DocIntel uses the reference column to find data that matches the extracted field value when processing a document task. The field value is then converted to the format of the reference. For more information on converted values, see [Data normalization](../concept/data-normalization.md).
+ DocIntel uses the reference column to find data that matches the extracted field value when processing a document task. The field value is then converted to the format of the reference. For more information on converted values, see [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/document-intelligence/data-normalization.md).
 
  This field is available when the **Type** field is set to `Reference field`.
 
@@ -177,7 +178,7 @@ Indicates whether a column required. It’s automatically selected or cleared ba
 
  If it’s a reference field type, the required field must have a valid, exact match. By default, DocIntel uses the first matched record.
 
- Required fields affect how document tasks are processed in the Fully automated extraction mode. For more information, see [Configure data extraction modes](../task/configure-data-extraction-modes.md).
+ Required fields affect how document tasks are processed in the Fully automated extraction mode. For more information, see [Configure data extraction modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/document-intelligence/configure-data-extraction-modes.md).
 
 </td></tr><tr><td>
 
@@ -200,7 +201,7 @@ New column
 
 Option to add a column to the table.
 
- Use the reorder icon \(![Reorder icon.](../image/icon-docintel-drag.png)\) to reorder a column in the table.
+ Use the reorder icon \(\[Omitted image "icon-docintel-drag.png"\] Alt text: Reorder icon.\) to reorder a column in the table.
 
 </td></tr><tr><td>
 
@@ -211,5 +212,5 @@ Create multiple tables
 Option to keep the pop-up window displayed on the screen. Enable this option If you're adding more than one table to the use case.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Document Intelligence forms](document-intelligence-forms.md)
+</table>**Parent Topic:**[Document Intelligence forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/document-intelligence/document-intelligence-forms.md)
 

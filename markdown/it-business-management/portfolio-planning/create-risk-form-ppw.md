@@ -2,6 +2,7 @@
 title: Create risk form
 description: The risk form information is used to create a risk for the demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/create-risk-form-ppw.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -93,7 +94,7 @@ Risk rank
 
 </td><td>
 
-A value and color assigned to the risk. This value is calculated using risk probability and impact. You can configure the color and value using the Risk Value Lookup. For more information, see [Configure a custom risk rank and risk value](../task/configure-custom-risk-rank-risk-value-ppw.md).
+A value and color assigned to the risk. This value is calculated using risk probability and impact. You can configure the color and value using the Risk Value Lookup. For more information, see [Configure a custom risk rank and risk value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/configure-custom-risk-rank-risk-value-ppw.md).
 
 </td></tr><tr><td>
 
@@ -117,7 +118,7 @@ Risk value
 
 </td><td>
 
-A value calculated from the Risk Value Lookup. For more information, see [Configure a custom risk rank and risk value](../task/configure-custom-risk-rank-risk-value-ppw.md).
+A value calculated from the Risk Value Lookup. For more information, see [Configure a custom risk rank and risk value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/configure-custom-risk-rank-risk-value-ppw.md).
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: Variables to collect data for record producer fields
 description: Use variables to collect data for record producer fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/r\_CreatingVariablesForFieldTypes.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -59,5 +60,5 @@ Example 2: For a **Date** or **Date/Time** value, return a date which GlideDate 
 var glideDateTime  = new GlideDateTime(producer.date_field);
 ```
 
-**Parent Topic:**[Service Catalog Reference](../concept/service-catalog-reference.md)
+**Parent Topic:**[Service Catalog Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/service-catalog-reference.md)
 

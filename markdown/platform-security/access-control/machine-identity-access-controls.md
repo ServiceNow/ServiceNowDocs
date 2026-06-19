@@ -2,6 +2,7 @@
 title: Machine identity access controls
 description: Define and enforce granular access control policies on specific resources for integration users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/machine-identity-access-controls.html
 release: zurich
 product: Access Control
 classification: access-control
@@ -19,5 +20,5 @@ Machine identity access controls enable administrators to create granular access
 
 **Note:** Applicable to users flagged with Web Service Access Only.
 
-See [Create a machine identity access control](../task/create-a-machine-identity-access-control.md) to learn how to create a machine identity access control
+See [Create a machine identity access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/create-a-machine-identity-access-control.md) to learn how to create a machine identity access control
 

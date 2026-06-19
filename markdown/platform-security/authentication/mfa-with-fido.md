@@ -2,6 +2,7 @@
 title: FIDO2 as an MFA factor
 description: You can configure FIDO2 as an MFA factor policy to enforce MFA for yours.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/mfa-with-fido.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -19,13 +20,13 @@ FIDO2 is a password-less authentication standard that enables users to authentic
 
 The FIDO2 factor policy enhancement provides a secure authentication method to your multi-factor authentication \(MFA\) policies. You can configure FIDO2 as an MFA factor policy option, providing a higher level of security compared to traditional methods like Email and SMS.
 
-![MFA- Biometric or Hardware keys](../images/biometirc-mfa.png)
+\[Omitted image "biometirc-mfa.png"\] Alt text: MFA- Biometric or Hardware keys
 
 You can configure FIDO2 factor policy and when the users satisfies the factor policy condition, the during log in to ServiceNow, FIDO2 setup is displayed for the users who haven't already added registered Hardware key or Biometric on their profile.
 
 If the registration is completed, then second factor validation screen is displayed to log in.
 
-**Note:** FIDO2 can also be self-enrolled by the users. To know more about how to self-enroll, see [Set up Multi-factor authentication on your user profile](../task/mfa-setup-profile.md).
+**Note:** FIDO2 can also be self-enrolled by the users. To know more about how to self-enroll, see [Set up Multi-factor authentication on your user profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/mfa-setup-profile.md).
 
 ## Key Benefits
 

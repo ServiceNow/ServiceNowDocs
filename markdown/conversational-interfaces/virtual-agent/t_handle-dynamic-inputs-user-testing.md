@@ -2,6 +2,7 @@
 title: Handle failures caused by dynamic inputs in user testing of Virtual Agent topics
 description: Avoid failures when performing automated tests for topics in Assistant Designer by controlling which inputs that you want to run as part of a test case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/t\_handle-dynamic-inputs-user-testing.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Avoid failures when performing automated tests for topics in Assistant Designer 
 
 ## Before you begin
 
-Set up a test case for a topic that includes dynamic inputs. See [Create an automated test in Virtual Agent Designer](create-automated-test-vad.md) for more information.
+Set up a test case for a topic that includes dynamic inputs. See [Create an automated test in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-automated-test-vad.md) for more information.
 
 Role required: virtual\_agent\_admin or admin
 
@@ -40,5 +41,5 @@ When running a test in Assistant Designer, some tests may fail even when a topic
 6.  Run or debug your test case.
 
 
-**Parent Topic:**[Automated testing for Virtual Agent topics that use NLU topic discovery](../concept/automated-testing-va-topics.md)
+**Parent Topic:**[Automated testing for Virtual Agent topics that use NLU topic discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/automated-testing-va-topics.md)
 

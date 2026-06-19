@@ -2,6 +2,7 @@
 title: Collaborate with other developers
 description: In App Engine Studio \(AES\), you can add or remove users and groups to be collaborators on an application.Give users or groups permission to collaborate with other developers in App Engine Studio \(AES\) using the Collaboration feature.Change the permissions that are assigned to a collaborator or create a custom collaboration permission to enable what people can do in App Engine Studio \(AES\).Collaboration permissions define what users can do in App Engine Studio \(AES\).Remove users and groups from collaboration to restrict them from owning or editing an app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/aes-collaboration-feature-overview.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -84,7 +85,7 @@ Administrators
 
 </td><td>
 
-Admins must elevate to a security\_admin role to work with collaboration features. For more information, see [Elevated privilege roles](https://www.servicenow.com/docs/access?context=c_ElevatedPrivilege&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+Admins must elevate to a security\_admin role to work with collaboration features. For more information, see .
 
 Administrators can:
 
@@ -110,7 +111,7 @@ If you're an admin, you can modify the collaboration descriptors that developers
 
 **Note:** If you’re using source control to collaborate with other developers, only changes that have been checked in are available to other developers. For example, if an admin creates a new flow for an app that’s linked to Git, the new flow won’t be available in the app for other AES users until the admin checks the flow into Git.
 
-**Parent Topic:**[Building apps in App Engine Studio](aes-app-creation.md)
+**Parent Topic:**[Building apps in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-creation.md)
 
 ## Add a user or group to collaboration
 
@@ -126,9 +127,9 @@ Role required: admin, manage collaborator delegated development role, or invite 
 
 2.  From the My Apps page, open your application.
 
-3.  Select the Manage collaborators ![Manage Collaborators button](../image/aes-manage-collaborators-purple.png) button.
+3.  Select the Manage collaborators \[Omitted image "aes-manage-collaborators-purple.png"\] Alt text: Manage Collaborators button button.
 
-    ![Add collaborators in App Engine Studio](../image/aes-add-collaborator-purple.png "Collaborate with others")
+    \[Omitted image "aes-add-collaborator-purple.png"\] Alt text: Add collaborators in App Engine Studio
 
 4.  To add another user or group as a collaborator, enter the user name or group name in the **Invite people by name or group** field.
 
@@ -138,7 +139,7 @@ Role required: admin, manage collaborator delegated development role, or invite 
 
 6.  Select the collaboration descriptor for the user or group that you're adding.
 
-    For a list of collaboration permissions, see [Delegated development and collaboration permissions](aes-collaboration-feature-overview.md#).
+    For a list of collaboration permissions, see [Delegated development and collaboration permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-collaboration-feature-overview.md).
 
     **Note:** Users with Invite Collaborators permissions can't do this, and will default to the Editor option.
 
@@ -146,9 +147,9 @@ Role required: admin, manage collaborator delegated development role, or invite 
 
 7.  Select **Send**.
 
-    -   If the user has AES or delegated developer permissions and is new to the platform, the user is listed under the pending requests section and approval is required. After the request is approved, both the requester and the user receive an email indicating that the user has been added to the application. ![Collaboration approval email example](../image/aes-approval-email-purple.png)
+    -   If the user has AES or delegated developer permissions and is new to the platform, the user is listed under the pending requests section and approval is required. After the request is approved, both the requester and the user receive an email indicating that the user has been added to the application. \[Omitted image "aes-approval-email-purple.png"\] Alt text: Collaboration approval email example
     -   If the user has AES or delegated developer permissions and is not new to the platform, the collaboration request is auto-approved. Both the requester and the user receive an email indicating that the user has been added to the application.
-    **Note:** If a valid controller has been configured on the instance from which the collaboration request originated, a collaboration request task is created on the controller instance. If the originating instance isn't configured on the controller, work notes are automatically added to the request record indicating that the instance must be configured before approval is granted. If the originating instance is the controller or a valid controller has not been configured, the collaboration request task is created on the requesting instance. For more information, see [Configure your controller instance](../../pipelines-and-deployments/task/config-controller-instance.md).
+    **Note:** If a valid controller has been configured on the instance from which the collaboration request originated, a collaboration request task is created on the controller instance. If the originating instance isn't configured on the controller, work notes are automatically added to the request record indicating that the instance must be configured before approval is granted. If the originating instance is the controller or a valid controller has not been configured, the collaboration request task is created on the requesting instance. For more information, see [Configure your controller instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/config-controller-instance.md).
 
 
 ## Change collaborator permissions
@@ -165,9 +166,9 @@ Role required: admin or manage collaborator delegated development role
 
 2.  From the My Apps page, open your application.
 
-3.  Select the Manage collaborators ![Manage Collaborators button](../image/aes-manage-collaborators-purple.png) button.
+3.  Select the Manage collaborators \[Omitted image "aes-manage-collaborators-purple.png"\] Alt text: Manage Collaborators button button.
 
-4.  For the user or group you want to change, select a different collaborator descriptor from the drop-down list.![Select a new collaboration descriptor for this user](../image/aes-collaborator-set-permissions-purple.png)
+4.  For the user or group you want to change, select a different collaborator descriptor from the drop-down list.\[Omitted image "aes-collaborator-set-permissions-purple.png"\] Alt text: Select a new collaboration descriptor for this user
 
     Customized users and groups are not editable by non-admins.
 
@@ -177,9 +178,9 @@ Role required: admin or manage collaborator delegated development role
 
     2.  Select or clear delegated development permissions for the user or group.
 
-        For a list of collaboration permissions, see [Delegated development and collaboration permissions](aes-collaboration-feature-overview.md#).
+        For a list of collaboration permissions, see [Delegated development and collaboration permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-collaboration-feature-overview.md).
 
-    If the selection matches that of another standard Collaboration descriptor, the system will provide a prompt before proceeding. For details on each delegated development permission, see [Delegate development and deployment permissions to personnel](../../applications/task/t_AddADeveloper.md).
+    If the selection matches that of another standard Collaboration descriptor, the system will provide a prompt before proceeding. For details on each delegated development permission, see [Delegate development and deployment permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/t_AddADeveloper.md).
 
 6.  Select **Save**.
 
@@ -353,10 +354,10 @@ You can remove the final owner and editor for an app. If an app doesn't have any
 
 2.  From the My Apps page, open your application.
 
-3.  Select the Manage collaborators ![Manage Collaborators button](../image/aes-manage-collaborators-purple.png) button.
+3.  Select the Manage collaborators \[Omitted image "aes-manage-collaborators-purple.png"\] Alt text: Manage Collaborators button button.
 
     The Collaborate with others modal appears with a list of the current collaborators.
 
-4.  To remove a user or group as a collaborator, select **Remove** from the drop-down list. ![Remove a collaborator](../image/remove-collaborator-purple.png)
+4.  To remove a user or group as a collaborator, select **Remove** from the drop-down list. \[Omitted image "remove-collaborator-purple.png"\] Alt text: Remove a collaborator
 
 

@@ -2,6 +2,7 @@
 title: Extracting and composing alert fields
 description: Extracting and composing are ways to manage what you see in the alert output, making it simpler to filter, group, and read. Alert automation enables you to extract values from event payload's alert field and place it in an alert output field. Composing allows you to merge multiple alert fields into a single output field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/extract-compose-fields.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -23,11 +24,11 @@ When extracting alert fields, use regular expressions \(regex\) to build value f
 
 **Note:** You can compose text using regular expression \(regex\) format conventions. Use one or more capture groups with parentheses to extract parts of the input. Capture groups in the regular expression are assigned to alert outputs based on the order in which they appear. The regex must match the entire input, so consider surrounding your regex with `.*` on each end. For example, `(\w+).acme.com.*` captures the host name in a fully qualified domain name. The parser for the regex engine is Perl Compatible Regular Expressions \(PCRE\) compatible.
 
-![Extract alert fields](../image/sow-extract-alert-fields-1.png "Extract alert fields")
+\[Omitted image "sow-extract-alert-fields-1.png"\] Alt text: Extract alert fields
 
 If you use multiple capture groups with parentheses, each extracted value appears in a separate output field.
 
-![Extract field for multiple alert outputs](../image/sow-extract-alert-fields-2.png "Extract field for multiple alert outputs")
+\[Omitted image "sow-extract-alert-fields-2.png"\] Alt text: Extract field for multiple alert outputs
 
 Preview the alert output across example events to verify that the values are extracted as expected by selecting **Preview multiple events**.
 
@@ -51,7 +52,7 @@ Suppose you need to extract only six letters from a specific field of an event a
 
 When creating an alert output, you can select or manually enter fields, tags, or free text to include. This data can be easily read, filtered, and grouped for better management and understanding of the alerts.
 
-![Compose alert fields](../image/sow-extract-alert-fields-3.png "Compose alert fields")
+\[Omitted image "sow-extract-alert-fields-3.png"\] Alt text: Compose alert fields
 
 ## Example: Composing alert fields
 

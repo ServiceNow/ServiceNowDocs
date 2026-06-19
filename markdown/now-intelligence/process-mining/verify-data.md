@@ -2,6 +2,7 @@
 title: Verify the imported data
 description: Verify the data that was imported and validate that the data is accurate. The success of your data mining depends on the accuracy of your imported data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/verify-data.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -17,19 +18,19 @@ Verify the data that was imported and validate that the data is accurate. The su
 
 ## Before you begin
 
--   [Create an audit table](create-table.md).
+-   [Create an audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/create-table.md).
 
--   [Import data into the audit table](import-data.md).
+-   [Import data into the audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/import-data.md).
 
 Role required: sn\_process\_optimization\_admin
 
 ## Procedure
 
-1.  Navigate to the step where you selected **Import using Integration Hub** in the [Import data into the audit table](import-data.md) section.
+1.  Navigate to the step where you selected **Import using Integration Hub** in the [Import data into the audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/import-data.md) section.
 
 2.  Select **Yes, my data import is complete**, and select **Next**.
 
-    ![Validate dataset](../image/ext-dataset-import2.png)
+    \[Omitted image "ext-dataset-import2.png"\] Alt text: Validate dataset
 
 3.  On the next page, select **Preview** to verify the data you’ve imported.
 
@@ -40,5 +41,5 @@ Role required: sn\_process\_optimization\_admin
 5.  Select **Confirm and continue** after validating your data.
 
 
-**Parent Topic:**[Working with external datasets](../concept/external-dataset.md)
+**Parent Topic:**[Working with external datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/external-dataset.md)
 

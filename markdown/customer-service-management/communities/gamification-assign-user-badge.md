@@ -2,6 +2,7 @@
 title: Award a badge to a user
 description: Award gamification badges to community users to recognize their community activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/communities/gamification-assign-user-badge.html
 release: zurich
 product: Communities
 classification: communities
@@ -38,5 +39,5 @@ A badge can be awarded to a user only once. If a badge is removed from a user, i
     The badge is assigned to the user and it appears on the community portal.
 
 
-**Parent Topic:**[Moderate gamification](../concept/communities-gamification-moderate.md)
+**Parent Topic:**[Moderate gamification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/communities-gamification-moderate.md)
 

@@ -2,6 +2,7 @@
 title: Impersonate a user
 description: You can select a user or enter a different user name to perform an impersonation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/user-administration/t\_ImpersonateAUserInUI16.html
 release: zurich
 product: User Administration
 classification: user-administration
@@ -27,11 +28,11 @@ Role required: impersonator
 
     -   In Next Experience:
 
-        ![Impersonate user dialog box in Next Experience.](../image/impersonation-3.png)
+        \[Omitted image "impersonation-3.png"\] Alt text: Impersonate user dialog box in Next Experience.
 
     -   In Core UI:
 
-        ![Impersonate User in Core UI](../image/imperson-CoreUI.png)
+        \[Omitted image "imperson-CoreUI.png"\] Alt text: Impersonate User in Core UI
 
     The Impersonate user dialog box displays.
 
@@ -39,11 +40,11 @@ Role required: impersonator
 
     -   In Next Experience:
 
-        ![Impersonate user dialog box in Next Experience.](../image/impersonation-4.png)
+        \[Omitted image "impersonation-4.png"\] Alt text: Impersonate user dialog box in Next Experience.
 
     -   In Core UI:
 
-        ![Impersonate User dialog box in Core UI](../image/impersonate-user-CoreUI.png)
+        \[Omitted image "impersonate-user-CoreUI.png"\] Alt text: Impersonate User dialog box in Core UI
 
 4.  Select **Impersonate User**.
 
@@ -54,5 +55,5 @@ Role required: impersonator
     **Note:** In some cases, impersonating a user might cause an issue that makes it difficult to switch back. If you’re presented with a broken page while impersonating a user in a test environment, you may need to force a logout. To do so, navigate to http://&lt;instance name&gt;.service-now.com/logout.do and log back in.
 
 
-**Parent Topic:**[Impersonating users](../concept/c_ImpersonateAUser.md)
+**Parent Topic:**[Impersonating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/c_ImpersonateAUser.md)
 

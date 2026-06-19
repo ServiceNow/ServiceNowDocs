@@ -2,6 +2,7 @@
 title: Order an Ansible job template
 description: Use Cloud Services Catalog to order an Ansible job template called from the catalog item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/ordering-ansible.html
 release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -27,7 +28,7 @@ You can use the Ansible Job template deployment form to call an Ansible job temp
 
 1.  Navigate to **Employee Center** &gt; **Cloud Services** &gt; **Integrations** &gt; **CSC Ansible Automation**.
 
-    ![Ansible Job template deployment form.](../image/ansible-template-form.png "Ansible Job template deployment form")
+    \[Omitted image "ansible-template-form.png"\] Alt text: Ansible Job template deployment form.
 
 <table id="table_qmb_hgt_41c"><thead><tr><th>
 
@@ -97,5 +98,5 @@ Extra variables that you can modify even if the values are automatically filled 
 
 Verify that a blueprint approval policy \(CSC Content Approval Policy Ansible\) is applied. This policy mandates that approval must be obtained from the Change management group before any provisioning can take place.
 
-**Parent Topic:**[Integrating Ansible with Cloud Services Catalog](../concept/integrating-ansible-with-cloud-services-catalog.md)
+**Parent Topic:**[Integrating Ansible with Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/integrating-ansible-with-cloud-services-catalog.md)
 

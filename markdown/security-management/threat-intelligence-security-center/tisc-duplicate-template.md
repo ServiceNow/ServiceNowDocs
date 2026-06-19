@@ -2,6 +2,7 @@
 title: Duplicate a Report Template
 description: Duplicate a report template if you want to add any incremental updates, then you can create a copy of the report template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-duplicate-template.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

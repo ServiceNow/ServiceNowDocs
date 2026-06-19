@@ -2,6 +2,7 @@
 title: Delete a role
 description: Delete a role that you no longer need in App Engine Studio \(AES\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/delete-role.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -25,12 +26,12 @@ Role required: admin, sn\_app\_eng\_studio.user, or delegated\_developer
 
 2.  From the My Apps page, open your application.
 
-3.  Next to a role, select the menu icon \(![Menu icon](../image/menu-icon.png)\) and then select **Delete**.
+3.  Next to a role, select the menu icon \(\[Omitted image "menu-icon.png"\] Alt text: Menu icon\) and then select **Delete**.
 
-    ![Deleting a role](../image/delete-role.png "Deleting a role")
+    \[Omitted image "delete-role.png"\] Alt text: Deleting a role
 
 4.  On the dialog box that appears, enter `delete` and then select **Delete**.
 
 
-**Parent Topic:**[Add application security](../concept/add-security.md)
+**Parent Topic:**[Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-security.md)
 

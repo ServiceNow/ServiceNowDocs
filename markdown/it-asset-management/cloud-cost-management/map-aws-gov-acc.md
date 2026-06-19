@@ -2,6 +2,7 @@
 title: Create AWS Gov accounts mapping
 description: Create an AWS GovCloud account mapping with an associated standard AWS account for billing and support.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/map-aws-gov-acc.html
 release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management

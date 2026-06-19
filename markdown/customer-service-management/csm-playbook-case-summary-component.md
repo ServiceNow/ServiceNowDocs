@@ -2,7 +2,10 @@
 title: Playbook case summarization component
 description: The playbook case summary component provides agents with a summary of a customer service case, including the issue and the actions taken. Agents can generate summaries to understand case context and post summaries to the case work notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-playbook-case-summary-component.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -27,6 +30,6 @@ Using this component, agents can:
 
 To use the case summarization component with the playbook page templates, activate the Now Assist for Customer Service Management \(CSM\) application and configure the case summarization skill in the Now Assist Admin console. For more information, see:
 
--   [Activate Now Assist for Customer Service Management \(CSM\)](now-assist-csm-supporting-info.md)
--   [Configure the case summarization skill in the Now Assist Admin console](now-assist-csm-configuring.md).
+-   [Activate Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-supporting-info.md)
+-   [Configure the case summarization skill in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.md).
 

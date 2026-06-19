@@ -2,6 +2,7 @@
 title: Configure interaction record to store clientSessionId in Virtual Agent API
 description: You can configure to store clientSessionId to support third-party chat applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-api-interaction-record-third-party-chat.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -38,5 +39,5 @@ Role required: admin
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Using Virtual Agent API](../concept/use-virtual-agent-api.md)
+**Parent Topic:**[Using Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/use-virtual-agent-api.md)
 

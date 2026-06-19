@@ -2,6 +2,7 @@
 title: Approve or reject a push
 description: Code reviewers must approve or reject a push from the Team Development application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/t\_ApproveOrRejectAPush.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -42,5 +43,5 @@ Although reviewers can see the individual versions within a push, they must appr
 7.  Select either **Approve** or **Reject**.
 
 
-**Parent Topic:**[Pushing changes](../concept/pushing-changes.md)
+**Parent Topic:**[Pushing changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/pushing-changes.md)
 

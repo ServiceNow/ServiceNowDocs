@@ -2,6 +2,7 @@
 title: Add metadata to a clause using add-in
 description: As a contract configurator, add metadata to pre-fill information that will be placed in the contract document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-add-meta-cls-addin.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -17,7 +18,7 @@ As a contract configurator, add metadata to pre-fill information that will be pl
 
 ## Before you begin
 
-Ensure you have configured the Word add-in. For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](../task/cncore-config-word-addin.md).
+Ensure you have configured the Word add-in. For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-config-word-addin.md).
 
 Role required: sn\_cm\_core.contract\_config and canvas\_user
 
@@ -43,13 +44,13 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
 7.  Select **Create metadata mapping**.
 
-    ![Create metadata for clause variation](../image/cmpro-waddin-cls-metadatanew.png "Create metadata for clause variation")
+    \[Omitted image "cmpro-waddin-cls-metadatanew.png"\] Alt text: Create metadata for clause variation
 
 8.  In the **Field name** field, enter unique name for the metadata.
 
 9.  Select **Create**.
 
-    -   The metadata is added and displayed as a tile with field name as the title. ![Metadata added using Word Add-in](../image/ccore-metadata-tile.png)
+    -   The metadata is added and displayed as a tile with field name as the title. \[Omitted image "ccore-metadata-tile.png"\] Alt text: Metadata added using Word Add-in
     -   The metadata is synced to the ServiceNow instance. You can view the meta data by logging to the ServiceNow instance and navigating to the **Field mapping** related list of a clause variation.
 10. Add the created metadata to other locations in the document by clicking on the tag.
 
@@ -58,5 +59,5 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
     The file will be uploaded. If the clause variation is mapped to multiple templates and the variation has metadata, the unmapped metadata is displayed and you must map them for each of the templates.
 
 
-**Parent Topic:**[Configure dynamic clauses for contract templates](cncore-clause-and-cv.md)
+**Parent Topic:**[Configure dynamic clauses for contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-clause-and-cv.md)
 

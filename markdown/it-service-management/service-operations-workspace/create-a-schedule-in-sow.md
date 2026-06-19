@@ -2,6 +2,7 @@
 title: Create and edit shift in Service Operations Workspace
 description: Shift manager can create a new shift using the Schedule menu or Teams menu in Service Operations Workspace
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/create-a-schedule-in-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -19,10 +20,10 @@ Shift manager can create a new shift using the **Schedule** menu or **Teams** me
 
 There are two ways to create and edit a shift:
 
--   Navigate to **Workspaces** &gt; **Service Operation Workspace** and select ![Teams menu](../../service-reliability/image/icon-sr-teams.png). Select a team to view details and click **schedules** tab.
--   Navigate to **Workspaces** &gt; **Service Operation Workspace** and select ![Schedules menu](../../configurable-workforce-optimization-itsm/image/show-schedules-icon.png).
+-   Navigate to **Workspaces** &gt; **Service Operation Workspace** and select \[Omitted image "icon-sr-teams.png"\] Alt text: Teams menu. Select a team to view details and click **schedules** tab.
+-   Navigate to **Workspaces** &gt; **Service Operation Workspace** and select \[Omitted image "show-schedules-icon.png"\] Alt text: Schedules menu.
 
-Get an overview of how to create and edit a shift in this video.Create and edit a shift
+Get an overview of how to create and edit a shift in this video.
 
 ## Before you begin
 
@@ -32,7 +33,7 @@ Role required: rota\_manager, rota\_admin
 
 1.  On **Schedules** page, select **Create shift** and provide values for the following fields on the **Create new** shift form:
 
-    If you select **Create New**, provide the following details and select **Create shift**: ![Create shift form](../image/create_shift_schedule_sow.png)
+    If you select **Create New**, provide the following details and select **Create shift**: \[Omitted image "create\_shift\_schedule\_sow.png"\] Alt text: Create shift form
 
 <table id="table_d1x_z3z_21c"><thead><tr><th>
 
@@ -160,7 +161,7 @@ Existing templates for shifts.Choices are:
 </td></tr></tbody>
 </table>    You have successfully created a new shift.
 
-2.  To edit a shift, right-click the shift card and select the icon![Edit shift](../../configurable-workforce-optimization-itsm/image/edit-icon.png)
+2.  To edit a shift, right-click the shift card and select the icon\[Omitted image "edit-icon.png"\] Alt text: Edit shift
 
     Shift details open up in the side panel.
 
@@ -180,7 +181,7 @@ Description
 
 </td><td>
 
-Update the shift details:![Shift details form](../image/edit_shift_details_tab_sow.png)
+Update the shift details:\[Omitted image "edit\_shift\_details\_tab\_sow.png"\] Alt text: Shift details form
 
 -   All day shift
 -   Shift starts
@@ -197,7 +198,7 @@ Update the shift details:![Shift details form](../image/edit_shift_details_tab_s
 
 </td><td>
 
-Update the shift details:![Members form](../image/edit_shift_members_tab_sow.png)
+Update the shift details:\[Omitted image "edit\_shift\_members\_tab\_sow.png"\] Alt text: Members form
 
 -   Type of rotation interval. Possible options are:
     -   Daily
@@ -214,17 +215,17 @@ Update the shift details:![Members form](../image/edit_shift_members_tab_sow.png
 
 </td><td>
 
-View escalation policy and click **Open Team Record** go to the team record. ![Escalation policies form](../image/edit_shift_escalation_policies_tab_sow.png)
+View escalation policy and click **Open Team Record** go to the team record. \[Omitted image "edit\_shift\_escalation\_policies\_tab\_sow.png"\] Alt text: Escalation policies form
 
 </td></tr></tbody>
 </table>4.  After updating the shift details, click **Save &amp; publish** to save the changes.
 
-5.  Select the ![More icon](../../service-reliability/image/icon-sr-more-actions-vertical.png) icon to change shift to draft mode, delete, or deactivate/activate the selected shift.
+5.  Select the \[Omitted image "icon-sr-more-actions-vertical.png"\] Alt text: More icon icon to change shift to draft mode, delete, or deactivate/activate the selected shift.
 
 6.  Select **Back to all shifts** to view all the shifts for a selected team.
 
-    You can also select ![More icon](../../service-reliability/image/icon-sr-more-actions-vertical.png) to change shift color.
+    You can also select \[Omitted image "icon-sr-more-actions-vertical.png"\] Alt text: More icon to change shift color.
 
 
-**Parent Topic:**[Configuring On-Call Scheduling in Service Operations Workspace](configuring-oncall-scheduling-sow.md)
+**Parent Topic:**[Configuring On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/configuring-oncall-scheduling-sow.md)
 

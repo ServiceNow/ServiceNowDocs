@@ -2,6 +2,7 @@
 title: Configure the main tag on a page
 description: Specify the main content of a page to include in the &lt;main&gt; tag to improve search engine optimization and accessibility.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/configure-main-tag-on-page.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -33,13 +34,13 @@ The **&lt;main&gt;** tag is a semantic HTML element that contains the main conte
 
 4.  Switch to the portal you want to design pages for by selecting the portal name in the header.
 
-    ![Service Portal Designer header with the portal name SP highlighted](../image/DesignerSwitchPortal.png)
+    \[Omitted image "DesignerSwitchPortal.png"\] Alt text: Service Portal Designer header with the portal name SP highlighted
 
 5.  Select a container, row, or column on the page that contains the main content of the page.
 
     See the breadcrumbs in the header to confirm you have the correct element selected. You can’t add the **&lt;main&gt;** tag to a widget.
 
-6.  Select the edit icon \[![Edit icon](../image/IconEditOption.png)\].
+6.  Select the edit icon \[\[Omitted image "IconEditOption.png"\] Alt text: Edit icon\].
 
 7.  In the **Semantic tag** field, select **Main**.
 
@@ -50,7 +51,7 @@ The **&lt;main&gt;** tag is a semantic HTML element that contains the main conte
 
 In the HTML of the page, the **&lt;main&gt;** tag contains the container, row, or column. In Service Portal Designer, a **&lt;main&gt;** tag displays in the bottom-right corner of the element.
 
-![Main tag](../image/main-tag.png)
+\[Omitted image "main-tag.png"\] Alt text: Main tag
 
-**Parent Topic:**[Improving search engine optimization for portals](../concept/seo-sp.md)
+**Parent Topic:**[Improving search engine optimization for portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/seo-sp.md)
 

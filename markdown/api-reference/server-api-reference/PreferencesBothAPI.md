@@ -2,6 +2,7 @@
 title: Preferences - Scoped, Global
 description: The Preferences API gets notification destinations for a user.Instantiates a Preferences object for a specified user.Returns a user's notification destinations.Returns a user's notification destinations that use a specified channel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/PreferencesBothAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,11 +18,11 @@ The Preferences API gets notification destinations for a user.
 
 A notification destination is somewhere that a notification can be delivered to, such as a specific email address or phone number. This API is based on notifications from the Notification \[sys\_notification\] table. Notifications are sent through channels such as email or Workspace. A channel can be used to send notifications to multiple types of destinations. For example, an email channel could send notifications to both personal email and work email destinations. Destination types are listed in the Notification Destination Type \[sys\_notif\_destination\_type\] table.
 
-Use this API with the [PreferenceDestination](../../PreferenceDestination/concept/PreferenceDestinationBothAPI.md#) API to update user notification preferences.
+Use this API with the [PreferenceDestination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/PreferenceDestinationBothAPI.md) API to update user notification preferences.
 
 This class uses the `sn_notification` namespace identifier.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## Preferences - Preferences\(GlideRecord recipient\)
 
@@ -49,7 +50,7 @@ Returns a user's notification destinations.
 
 |Type|Description|
 |----|-----------|
-|Array|Array of [PreferenceDestination](../../PreferenceDestination/concept/PreferenceDestinationBothAPI.md#) objects. If the user doesn't have any destinations, the array is empty.|
+|Array|Array of [PreferenceDestination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/PreferenceDestinationBothAPI.md) objects. If the user doesn't have any destinations, the array is empty.|
 
 This example gets all of Abel Tuter's notification destinations. The output shows that Abel has one destination.
 
@@ -77,7 +78,7 @@ Returns a user's notification destinations that use a specified channel.
 
 |Type|Description|
 |----|-----------|
-|Array|Array of [PreferenceDestination](../../PreferenceDestination/concept/PreferenceDestinationBothAPI.md#) objects. If the user doesn't have any notification destinations that use the channel or if the channel doesn't exist, the array is empty.|
+|Array|Array of [PreferenceDestination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/PreferenceDestinationBothAPI.md) objects. If the user doesn't have any notification destinations that use the channel or if the channel doesn't exist, the array is empty.|
 
 This example gets all of Abel Tuter's destinations that use the Workspace channel. The output shows that Abel has one destination that uses the Workspace channel.
 

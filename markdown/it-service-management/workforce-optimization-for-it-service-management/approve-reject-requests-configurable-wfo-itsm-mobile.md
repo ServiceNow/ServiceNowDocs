@@ -2,6 +2,7 @@
 title: Track and manage your agent's schedule using the ITSM Mobile Agent application
 description: Monitor the shifts and schedule of teams within your assignment group using the ITSM Mobile Agent application. You can approve or reject requests for swapping shifts or time off for your agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/approve-reject-requests-configurable-wfo-itsm-mobile.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -41,5 +42,5 @@ Role required: sn\_shift\_planning.admin
     The agent receives a notification when you approve or reject the request.
 
 
-**Parent Topic:**[Requesting time-off using the ITSM Mobile Agent for Workforce Optimization for ITSM](../concept/configurable-agent-schedule-mobile-wfo-itsm.md)
+**Parent Topic:**[Requesting time-off using the ITSM Mobile Agent for Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/configurable-agent-schedule-mobile-wfo-itsm.md)
 

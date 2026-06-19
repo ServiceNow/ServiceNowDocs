@@ -2,6 +2,7 @@
 title: Property installed with External Legal Service Center
 description: Property that you can use to enable the Save as Draft option for a record producer in External Legal Service Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/external-legal-portal/lsd-ext-portal-properties.html
 release: zurich
 product: External Legal Portal
 classification: external-legal-portal

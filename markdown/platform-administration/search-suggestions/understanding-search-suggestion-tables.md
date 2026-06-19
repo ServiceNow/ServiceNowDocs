@@ -2,6 +2,7 @@
 title: Search Suggestions tables
 description: Search Suggestions uses tables to generate and track relevant search suggestions. You can review data from these tables to gain insight into search suggestions offered in your system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/search-suggestions/understanding-search-suggestion-tables.html
 release: zurich
 product: Search Suggestions
 classification: search-suggestions
@@ -15,7 +16,7 @@ breadcrumb: [Installed with Search Suggestions, Search Suggestions reference, Se
 
 Search Suggestions uses tables to generate and track relevant search suggestions. You can review data from these tables to gain insight into search suggestions offered in your system.
 
-**Note:** Because the Search Suggestions tables are system tables, they are excluded from the Reporting module by default. To learn about enabling reporting on system tables, see [Reporting on system tables](https://www.servicenow.com/docs/access?context=c_ReportOnSystemTables&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+**Note:** Because the Search Suggestions tables are system tables, they are excluded from the Reporting module by default. To learn about enabling reporting on system tables, see Reporting on system tables.
 
 ## Search Event table
 

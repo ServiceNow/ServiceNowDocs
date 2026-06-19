@@ -2,6 +2,7 @@
 title: All ServiceNow roles
 description: Use this filterable table to review a complete list of roles used in ServiceNow instances. The table includes important details for all base system roles as well as any roles added by installed plugins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/user-administration/roles-summary.html
 release: zurich
 product: User Administration
 classification: user-administration
@@ -25,7 +26,7 @@ Roles
 
 </th></tr></thead><tbody><tr><td>
 
-[AWA](https://www.servicenow.com/docs/awa)
+[AWA](https://www.servicenow.com/docs/access?context=roles_awa&version=zurich&pubname=zurich-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
@@ -39,7 +40,7 @@ AWA manager \[awa\_manager\]
 
 </td></tr><tr><td>
 
-[Customer Service Management](https://www.servicenow.com/docs/customerservicemanagement)
+[Customer Service Management](https://www.servicenow.com/docs/access?context=roles_customerservicemanagement&version=zurich&pubname=zurich-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
@@ -77,7 +78,7 @@ Consumer \[sn\_customerservice.consumersn\_customerservice.consumer\]
 
 </td></tr><tr><td>
 
-[Document Intelligence](https://www.servicenow.com/docs/documentintelligence)
+[Document Intelligence](https://www.servicenow.com/docs/access?context=roles_documentintelligence&version=zurich&pubname=zurich-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
@@ -93,7 +94,7 @@ DocIntel Manager \[sn\_docintel.manager\]
 
 </td></tr><tr><td>
 
-[Document Services](https://www.servicenow.com/docs/documentservices)
+[Document Services](https://www.servicenow.com/docs/access?context=roles_documentservices&version=zurich&pubname=zurich-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
@@ -101,7 +102,7 @@ Administrator \[platform\_document\_management\_admin\]
 
 </td></tr><tr><td>
 
-[Hermes Messaging Service](https://www.servicenow.com/docs/hermesmessagingservice)
+[Hermes Messaging Service](https://www.servicenow.com/docs/access?context=roles_hermesmessagingservice&version=zurich&pubname=zurich-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
@@ -113,7 +114,7 @@ Kafka namespace administrator \[kafka\_namespace\_admin\]
 
 </td></tr><tr><td>
 
-[IDR](https://www.servicenow.com/docs/idr)
+[IDR](https://www.servicenow.com/docs/access?context=roles_idr&version=zurich&pubname=zurich-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
@@ -125,7 +126,7 @@ IDR rest \[idr\_rest\]
 
 </td></tr><tr><td>
 
-[Knowledge Management](https://www.servicenow.com/docs/knowledgemanagement)
+[Knowledge Management](https://www.servicenow.com/docs/access?context=roles_knowledgemanagement&version=zurich&pubname=zurich-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
@@ -151,7 +152,7 @@ KCS publisher \[kcs\_publisher\]
 
 </td></tr><tr><td>
 
-[MetricBase](https://www.servicenow.com/docs/metricbase)
+[MetricBase](https://www.servicenow.com/docs/access?context=roles_metricbase&version=zurich&pubname=zurich-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
@@ -167,7 +168,7 @@ MetricBase REST put \[clotho\_rest\_put\]
 
 </td></tr><tr><td>
 
-[Predictive Intelligence](https://www.servicenow.com/docs/predictiveintelligence)
+[Predictive Intelligence](https://www.servicenow.com/docs/access?context=roles_predictiveintelligence&version=zurich&pubname=zurich-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
@@ -179,7 +180,7 @@ ML Report User \[ml\_report\_user\]
 
 </td></tr><tr><td>
 
-[Reporting](https://www.servicenow.com/docs/reporting)
+[Reporting](https://www.servicenow.com/docs/access?context=roles_reporting&version=zurich&pubname=zurich-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
@@ -197,7 +198,7 @@ Report description administrator \[report\_description\_admin\]
 
 </td></tr><tr><td>
 
-[Service Catalog](https://www.servicenow.com/docs/servicecatalog)
+[Service Catalog](https://www.servicenow.com/docs/access?context=roles_servicecatalog&version=zurich&pubname=zurich-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
@@ -213,7 +214,7 @@ Catalog builder editor \[catalog\_builder\_editor\]
 
 </td></tr><tr><td>
 
-[Service Portal](https://www.servicenow.com/docs/serviceportal)
+[Service Portal](https://www.servicenow.com/docs/access?context=roles_serviceportal&version=zurich&pubname=zurich-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
@@ -227,7 +228,7 @@ Portal analytics viewer \[portal\_analytics\_viewer\]
 
 </td></tr><tr><td>
 
-[Task Intelligence](https://www.servicenow.com/docs/taskintelligence)
+[Task Intelligence](https://www.servicenow.com/docs/access?context=roles_taskintelligence&version=zurich&pubname=zurich-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
@@ -239,7 +240,7 @@ Task Intelligence Analyst \[tia\_analyst\]
 
 </td></tr><tr><td>
 
-[Virtual Agent](https://www.servicenow.com/docs/virtualagent)
+[Virtual Agent](https://www.servicenow.com/docs/access?context=roles_virtualagent&version=zurich&pubname=zurich-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
@@ -296,5 +297,5 @@ Chat analytics administrator \[chat\_analytics\_admin\]
 Now Assist for Creator \[now.assist.creator\]
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Managing roles](../concept/ua-creating-roles.md)
+</table>**Parent Topic:**[Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/ua-creating-roles.md)
 

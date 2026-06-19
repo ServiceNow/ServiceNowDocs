@@ -2,6 +2,7 @@
 title: HR Service Delivery case assignment
 description: HR cases can be automatically assigned to your agents via an HR case template, assignment and matching rules, or advanced work assignment \(AWA\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-case-assignment.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -20,10 +21,10 @@ Assignment and matching rules and AWA use the platform Skill Management applicat
 -   Assignment and matching rules associate skills using HR case templates.
 -   AWA uses skill determination rules.
 
--   **[Advanced Work Assignment \(AWA\) for HR Service Delivery](hr-awa.md)**  
+-   **[Advanced Work Assignment \(AWA\) for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-awa.md)**  
 Use the ServiceNow Advanced Work Assignment for HR Service Delivery feature to automatically assign HR cases to agents based on availability, capacity, and skills.
--   **[Assignment and matching rules in HR](c_UseAssignmentRules-1.md)**  
+-   **[Assignment and matching rules in HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)**  
 The base system uses the automatic case assignment feature to assign an HR case to an agent. It attempts to assign an agent with the least number of cases assigned, has the skills required by the case, and matches the location of the subject person.
 
-**Parent Topic:**[HR Administration](c_AdministerHRServiceManagement.md)
+**Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 

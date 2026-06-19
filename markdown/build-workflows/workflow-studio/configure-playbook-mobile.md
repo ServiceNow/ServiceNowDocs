@@ -2,6 +2,7 @@
 title: Configure a playbook for ServiceNow mobile
 description: Configuring a playbook for ServiceNow mobile is exactly the same as in a configurable workspace, but with an additional step for embedding the playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/configure-playbook-mobile.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -233,8 +234,8 @@ The playbook is configured for ServiceNow® mobile.
 
 Embed your playbook in ServiceNow® mobile. To learn more, see
 
--   **[Embed a playbook in ServiceNow mobile](embed-playbook-mobile.md)**  
+-   **[Embed a playbook in ServiceNow mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/embed-playbook-mobile.md)**  
 Embed a playbook in ServiceNow® mobile by creating a screen in Mobile App Builder.
 
-**Parent Topic:**[Designing playbooks](../concept/playbook-experience-admins.md)
+**Parent Topic:**[Designing playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-experience-admins.md)
 

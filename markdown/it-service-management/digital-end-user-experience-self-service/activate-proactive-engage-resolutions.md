@@ -2,6 +2,7 @@
 title: Activate Proactive Engagement resolutions for DEX Self-service
 description: Review and activate base system Proactive Engagement resolutions to enable end users to self-solve device and application issues by using DEX Self-service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-self-service/activate-proactive-engage-resolutions.html
 release: zurich
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service
@@ -29,6 +30,6 @@ Role required: sn\_dex.admin
 
 4.  Select **Update**.
 
-    For more information about Proactive Engagement, see the [Proactive Engagement documentation](../../proactive-engagement/proactive-engagement-landing-page.md).
+    For more information about Proactive Engagement, see the [Proactive Engagement documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/proactive-engagement/proactive-engagement-landing-page.md).
 
 

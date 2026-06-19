@@ -2,6 +2,7 @@
 title: Integrate Sentry events
 description: Integrate Sentry with Event Management by adding a standard webhook in the Sentry platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/sentry-events-collection.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -155,5 +156,5 @@ Metric alert
 </table>    4.  Click **Save Rule**.
 
 
-**Parent Topic:**[Integrate with push connectors](configure-listener-transform-script.md)
+**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-listener-transform-script.md)
 

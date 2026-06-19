@@ -2,6 +2,7 @@
 title: Receiving enterprise and consumable assets at stockrooms
 description: As an enterprise asset manager or enterprise asset technician, you can receive assets at a stockroom from any workflow using the unified and standardized receiving mechanism.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/stockroom-receiving-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -28,8 +29,8 @@ With the standardized receiving process, you don't need to be familiar with the 
 
 You can receive a single asset or multiple assets in bulk using any of the following options on the enhanced stockroom form:
 
--   **Receive assets**: You can either search for an asset using its Asset Tag, Serial Number, or MAC address and receive it, or select one or more assets from the list of inbound shipment assets and receive them. For more details, see [Receive an enterprise asset at a stockroom in the Enterprise Asset Workspace](../task/receive-assets-stockroom-eam.md) and [Receive assets from inbound shipments at your stockroom in the Enterprise Asset Workspace](../task/receive-shipment-assets-eam.md).
--   **Import assets**: You can download the Excel template, add the asset details that you want to receive, and import the Excel template. During the import process, the system performs validations, and you can view the imported asset records, validation status, and comments in the Import asset row \[sn\_itam\_cmn\_import\_asset\_row\] table. Based on the validation status, you can select and receive the assets. If there are any issues with the asset records, you must address those issues before you can receive the assets. For more details, see [Import and receive assets in bulk at your stockroom in the Enterprise Asset Workspace](../task/import-assets-for-receive-eam.md).
+-   **Receive assets**: You can either search for an asset using its Asset Tag, Serial Number, or MAC address and receive it, or select one or more assets from the list of inbound shipment assets and receive them. For more details, see [Receive an enterprise asset at a stockroom in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/receive-assets-stockroom-eam.md) and [Receive assets from inbound shipments at your stockroom in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/receive-shipment-assets-eam.md).
+-   **Import assets**: You can download the Excel template, add the asset details that you want to receive, and import the Excel template. During the import process, the system performs validations, and you can view the imported asset records, validation status, and comments in the Import asset row \[sn\_itam\_cmn\_import\_asset\_row\] table. Based on the validation status, you can select and receive the assets. If there are any issues with the asset records, you must address those issues before you can receive the assets. For more details, see [Import and receive assets in bulk at your stockroom in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/import-assets-for-receive-eam.md).
 
 When any asset is received at the stockroom, the following changes happen:
 

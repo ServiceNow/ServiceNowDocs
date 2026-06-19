@@ -2,6 +2,7 @@
 title: Add tabbed content to UI Builder pages
 description: Use the Tabs component to add tabbed content to pages in UI Builder.Use an empty container tab to manually create a static set of tabs on your page.Use the Tabs component to create a set of repeater tabs by linking tabs to a data array.Create a set of tabs on a page by linking to a related list.Use page collection tabs to recreate the same tabs across multiple pages in UI Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/tabs-components.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -22,13 +23,13 @@ Tabs can be organized in the configuration panel to reorder how they are display
 You can add one of the following types of tabs to your UI Builder page:
 
 -   Empty container tab
--   [Repeater](ui-builder-glossary.md#) tab
+-   [Repeater](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/ui-builder-glossary.md) tab
 -   Related list tab
 -   Page collection tabs
 
 The tabs component supports any combination of static tabs, repeated tabs, related list tabs, and page collection tabs. Alternatively, you can still use the Viewport tab mode to add a series of viewports.
 
-**Parent Topic:**[Customize UI Builder pages using components](work-components.md)
+**Parent Topic:**[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-components.md)
 
 ## Add empty container tabs
 
@@ -44,15 +45,15 @@ Role required: admin
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create or open a page or page variant.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](../task/create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/create-page.md).
 
 4.  Select the **+ Add content** button on the stage to open the toolbox.
 
-    ![Arrow pointing to the + icon that opens the toolbox.](../image/open-toolbox-on-stage.png)
+    \[Omitted image "open-toolbox-on-stage.png"\] Alt text: Arrow pointing to the + icon that opens the toolbox.
 
 5.  Select a **Single column** layout.
 
@@ -60,17 +61,17 @@ Role required: admin
 
 7.  Add a **Tabs** component to your page.
 
-    ![Arrow pointing to tabs component in the toolbox.](../image/tabs-toolbox-options.png)
+    \[Omitted image "tabs-toolbox-options.png"\] Alt text: Arrow pointing to tabs component in the toolbox.
 
-    For more information on how to add a component to a page, see [Add and configure components](../task/add-components.md#).
+    For more information on how to add a component to a page, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/add-components.md).
 
 8.  Select **+ Add tab** on the stage.
 
-    ![Arrow pointing to the tabs + add option in the configuration panel.](../image/tabs-add-tab.png)
+    \[Omitted image "tabs-add-tab.png"\] Alt text: Arrow pointing to the tabs + add option in the configuration panel.
 
 9.  Select **Start from an empty container**.
 
-    ![Start from an empty container option selected.](../image/tabs-select-empty.png)
+    \[Omitted image "tabs-select-empty.png"\] Alt text: Start from an empty container option selected.
 
 10. Select **Next**.
 
@@ -90,16 +91,16 @@ Role required: admin
 
 14. Select **+** icon.
 
-    ![Arrow pointing to the + icon to add a component to the demo tab.](../image/tabs-add-component-in-tab.png)
+    \[Omitted image "tabs-add-component-in-tab.png"\] Alt text: Arrow pointing to the + icon to add a component to the demo tab.
 
 15. Select the component that you want to add to the tab.
 
-    Components display under the tab in which they’re nested in the content tree. For more information, see [Add and configure components](../task/add-components.md#).
+    Components display under the tab in which they’re nested in the content tree. For more information, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/add-components.md).
 
 
 ### Result
 
-Your page shows the two tabs that you created. Select each tab to further configure them, add styling, or add an event handler. For more information on styling, see [Change the default appearance of components](../task/add-styling-to-component.md#). For more information on adding an event handler, see [Manage actions in UI Builder pages](work-events.md).
+Your page shows the two tabs that you created. Select each tab to further configure them, add styling, or add an event handler. For more information on styling, see [Change the default appearance of components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/add-styling-to-component.md). For more information on adding an event handler, see [Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-events.md).
 
 ## Add repeater tabs
 
@@ -111,7 +112,7 @@ Role required: admin
 
 ### About this task
 
-You can use [repeater](ui-builder-glossary.md#) tabs to create multiple tabs based on the data array you provide. You can pass the icon, label, count, and fields as a key in the object. Use the label key to add names to tabs. Use the field key to pass information to repeater tabs. You can bind a data broker, client state, or a client script to the data array provider to return the array of objects with the correct schema.
+You can use [repeater](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/ui-builder-glossary.md) tabs to create multiple tabs based on the data array you provide. You can pass the icon, label, count, and fields as a key in the object. Use the label key to add names to tabs. Use the field key to pass information to repeater tabs. You can bind a data broker, client state, or a client script to the data array provider to return the array of objects with the correct schema.
 
 ### Procedure
 
@@ -119,15 +120,15 @@ You can use [repeater](ui-builder-glossary.md#) tabs to create multiple tabs bas
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create or open a page or page variant.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](../task/create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/create-page.md).
 
 4.  Select the **+ Add content** button on the stage to open the toolbox.
 
-    ![Arrow pointing to the + on the stage that opens the toolbox.](../image/open-toolbox-on-stage.png)
+    \[Omitted image "open-toolbox-on-stage.png"\] Alt text: Arrow pointing to the + on the stage that opens the toolbox.
 
 5.  Select a **Single column** layout.
 
@@ -135,17 +136,17 @@ You can use [repeater](ui-builder-glossary.md#) tabs to create multiple tabs bas
 
 7.  Add a **Tabs** component to your page.
 
-    ![Arrow pointing to the tabs component in the toolbox.](../image/tabs-toolbox-options.png)
+    \[Omitted image "tabs-toolbox-options.png"\] Alt text: Arrow pointing to the tabs component in the toolbox.
 
-    For more information on how to add a component to a page, see [Add and configure components](../task/add-components.md#).
+    For more information on how to add a component to a page, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/add-components.md).
 
 8.  Select **+ Add tab** on the stage.
 
-    ![Arrow pointing to + Add option in the configuration panel.](../image/tabs-add-tab.png)
+    \[Omitted image "tabs-add-tab.png"\] Alt text: Arrow pointing to + Add option in the configuration panel.
 
 9.  Select **Use a repeater**.
 
-    ![Use a repeater selected in the tab selection modal.](../image/tabs-select-repeater.png)
+    \[Omitted image "tabs-select-repeater.png"\] Alt text: Use a repeater selected in the tab selection modal.
 
 10. Select **Next**.
 
@@ -155,7 +156,7 @@ You can use [repeater](ui-builder-glossary.md#) tabs to create multiple tabs bas
 
 12. Select **Edit** in the **Data array** field.
 
-    ![Open the data array editing modal.](../image/tabs-edit-repeater.gif)
+    \[Omitted image "tabs-edit-repeater.gif"\] Alt text: Open the data array editing modal.
 
 13. Configure the data array in the JSON editor.
 
@@ -170,19 +171,19 @@ You can use [repeater](ui-builder-glossary.md#) tabs to create multiple tabs bas
 
     The data array field displays the data array configuration.
 
-    ![Repeater settings with a custom data array.](../image/tabs-repeater-settings.png)
+    \[Omitted image "tabs-repeater-settings.png"\] Alt text: Repeater settings with a custom data array.
 
 15. Select **Create**.
 
     The new repeater tab appears on the page and in the content tree.
 
-    ![Placeholder repeater tab highlighted on the page.](../image/tabs-repeater-placeholder.png)
+    \[Omitted image "tabs-repeater-placeholder.png"\] Alt text: Placeholder repeater tab highlighted on the page.
 
 16. Select **Save**.
 
 17. Add components to the repeater tab.
 
-18. Select ![Preview button that opens your page in runtime, which is a preview of how the page looks on a web page.](../image/preview-button.png) to verify that the repeater tabs display correctly on your page.
+18. Select \[Omitted image "preview-button.png"\] Alt text: Preview button that opens your page in runtime, which is a preview of how the page looks on a web page. to verify that the repeater tabs display correctly on your page.
 
 
 ## Add related list tabs
@@ -195,7 +196,7 @@ Role required: admin
 
 ### About this task
 
-The related list tab automatically populates tabs based on the record that your page is displaying. For example, by default the related lists for the user table are Roles, Groups, Delegates, and Visibility domains. If your page is displaying a user record, then creating a related list tab adds all four of these related lists as tabs on your page. You can preview the page to see the related lists that were added. A record controller is required to create related list tabs. To add a controller to your page, see [Bind data to UI Builder pages using controllers \(advanced feature\)](controllers.md#) for more information.
+The related list tab automatically populates tabs based on the record that your page is displaying. For example, by default the related lists for the user table are Roles, Groups, Delegates, and Visibility domains. If your page is displaying a user record, then creating a related list tab adds all four of these related lists as tabs on your page. You can preview the page to see the related lists that were added. A record controller is required to create related list tabs. To add a controller to your page, see [Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/controllers.md) for more information.
 
 ### Procedure
 
@@ -203,15 +204,15 @@ The related list tab automatically populates tabs based on the record that your 
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create or open a page or page variant.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](../task/create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/create-page.md).
 
 4.  Select the **+ Add content** button on the stage to open the toolbox.
 
-    ![Arrow pointing to the + Add content button that opens the toolbox.](../image/open-toolbox-on-stage.png)
+    \[Omitted image "open-toolbox-on-stage.png"\] Alt text: Arrow pointing to the + Add content button that opens the toolbox.
 
 5.  Select a **Single column** layout.
 
@@ -219,17 +220,17 @@ The related list tab automatically populates tabs based on the record that your 
 
 7.  Add a **Tabs** component to your page.
 
-    ![Arrow pointing to tabs component in the toolbox.](../image/tabs-toolbox-options.png)
+    \[Omitted image "tabs-toolbox-options.png"\] Alt text: Arrow pointing to tabs component in the toolbox.
 
-    For more information on how to add a component to a page, see [Add and configure components](../task/add-components.md#).
+    For more information on how to add a component to a page, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/add-components.md).
 
 8.  Select **+ Add tab** on the stage.
 
-    ![Add tabs to the tab component.](../image/tabs-add-tab.png)
+    \[Omitted image "tabs-add-tab.png"\] Alt text: Add tabs to the tab component.
 
 9.  Select **Display related lists for a record**.
 
-    ![Display related list for a record selected.](../image/tabs-select-related-list.png)
+    \[Omitted image "tabs-select-related-list.png"\] Alt text: Display related list for a record selected.
 
 10. Select **Next**.
 
@@ -245,11 +246,11 @@ The related list tab automatically populates tabs based on the record that your 
 
     The new related list tab displays in the **Tabs** section of the configuration panel. Only one placeholder tab appears in the page preview. The green icon next to the related list tab in the content tree shows how many tabs appear on your page.
 
-    ![Icon showing how many related list tabs display on your page.](../image/uib-tabs-related-icon.png)
+    \[Omitted image "uib-tabs-related-icon.png"\] Alt text: Icon showing how many related list tabs display on your page.
 
 13. Select **Save**.
 
-14. View and test your page by selecting ![Preview button that opens your page in runtime, which is a preview of how the page looks on a web page.](../image/preview-button.png).
+14. View and test your page by selecting \[Omitted image "preview-button.png"\] Alt text: Preview button that opens your page in runtime, which is a preview of how the page looks on a web page..
 
 
 ## Add page collection tabs
@@ -262,7 +263,7 @@ Role required: admin
 
 ### About this task
 
-A page collection is a group of prebuilt globally available pages. Use page collection tabs to render each page in a page collection as a tab. You can select an existing page collection or can create your own. A controller is required to add a page collection. For more information about page collections, see [Page collections](page-collections.md).
+A page collection is a group of prebuilt globally available pages. Use page collection tabs to render each page in a page collection as a tab. You can select an existing page collection or can create your own. A controller is required to add a page collection. For more information about page collections, see [Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/page-collections.md).
 
 ### Procedure
 
@@ -270,15 +271,15 @@ A page collection is a group of prebuilt globally available pages. Use page coll
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create or open a page or page variant.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](../task/create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/create-page.md).
 
 4.  Select the **+ Add content** button on the stage to open the toolbox.
 
-    ![Arrow pointing to the + on the stage that opens the toolbox.](../image/open-toolbox-on-stage.png)
+    \[Omitted image "open-toolbox-on-stage.png"\] Alt text: Arrow pointing to the + on the stage that opens the toolbox.
 
 5.  Select a **Single column** layout.
 
@@ -286,34 +287,34 @@ A page collection is a group of prebuilt globally available pages. Use page coll
 
 7.  Add a **Tabs** component to your page.
 
-    ![Arrow pointing to the tabs component in the toolbox.](../image/tabs-toolbox-options.png)
+    \[Omitted image "tabs-toolbox-options.png"\] Alt text: Arrow pointing to the tabs component in the toolbox.
 
-    For more information on how to add a component to a page, see [Add and configure components](../task/add-components.md#).
+    For more information on how to add a component to a page, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/add-components.md).
 
 8.  Select **+ Add tab** on the stage.
 
-    ![Arrow pointing to + Add option in the configuration panel.](../image/tabs-add-tab.png)
+    \[Omitted image "tabs-add-tab.png"\] Alt text: Arrow pointing to + Add option in the configuration panel.
 
 9.  Select **Add a page collection**.
 
-    ![Tab selection modal with add a page collection option highlighted.](../image/tabs-select-page-collection.png)
+    \[Omitted image "tabs-select-page-collection.png"\] Alt text: Tab selection modal with add a page collection option highlighted.
 
 10. Select **Next**.
 
 11. Select a page collection from the list or create a collection by selecting **+ Create collection**.
 
-    To create your own page collection, see [Create a page collection across multiple UI pages](../task/create-page-collection.md).
+    To create your own page collection, see [Create a page collection across multiple UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/create-page-collection.md).
 
-    ![Page collection selection screen with option to create a collection.](../image/page-collection-list.png)
+    \[Omitted image "page-collection-list.png"\] Alt text: Page collection selection screen with option to create a collection.
 
 12. Select **Add**.
 
     The new page collection tab displays in the **Tabs** section of the configuration panel. Only one placeholder tab displays in the page preview.
 
-    ![Page collection tab highlighted on the page.](../image/tabs-page-collection-placeholder-tab.png)
+    \[Omitted image "tabs-page-collection-placeholder-tab.png"\] Alt text: Page collection tab highlighted on the page.
 
 13. Select **Save**.
 
-14. View and test your page by selecting ![Preview button that opens the page variant.](../image/preview-button.png).
+14. View and test your page by selecting \[Omitted image "preview-button.png"\] Alt text: Preview button that opens the page variant..
 
 

@@ -2,6 +2,7 @@
 title: cabrillo.message - Client
 description: Cabrillo JS functions to display messages in the native UI.Displays a message in the native UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/cllent-mobile-api-reference/cabrillo-messgage-namespace.html
 release: zurich
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Client mobile API reference, API reference, API implementation and 
 
 Cabrillo JS functions to display messages in the native UI.
 
-**Parent Topic:**[Client mobile API reference](../../../../../build/applications/concept/api-client-mobile.md)
+**Parent Topic:**[Client mobile API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/api-client-mobile.md)
 
 ## cabrillo.message - showMessage\(String style, String title\)
 
@@ -50,7 +51,7 @@ Style of the banner.Possible values:
 -   cabrillo.message.SUCCESS\_MESSAGE\_STYLE
 -   cabrillo.message.WARNING\_MESSAGE\_STYLE
 
-For more information, see [Cabrillo JS constants - message styles](../../namespace-topics/concept/cabrillo-constants.md#).
+For more information, see [Cabrillo JS constants - message styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/cabrillo-constants.md).
 
 </td></tr><tr><td>
 

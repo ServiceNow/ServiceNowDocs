@@ -2,6 +2,7 @@
 title: Create a cmdb\_ci\_linux\_server CI for each Kubernetes node
 description: Configure if you want the Kubernetes Visibility Agent Informer to create a cmdb\_ci\_linux\_server CI for each Kubernetes node.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/cnov-config-linux-server-ci.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -34,5 +35,5 @@ By default, the Informer creates a cmdb\_ci\_linux\_server CI for every Kubernet
 
     -   When using the k8s\_informer.yaml file, set the environment variable CREATE\_SERVER\_CI to false.
 
-**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\)](cnov-deploy-install.md)
+**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cnov-deploy-install.md)
 

@@ -2,7 +2,10 @@
 title: Add staff members to an internal business location
 description: Add users as staff members to an internal business location to support accounts, contacts, consumers, and households.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/add-user-internal-bus-location.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -66,7 +69,7 @@ Member Type
 
 </td><td>
 
-Field used to assign responsibility for the member selected at the business location.To learn more about responsibilities, see [Assign responsibilities](csm-assign-responsibilities.md).
+Field used to assign responsibility for the member selected at the business location.To learn more about responsibilities, see [Assign responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-assign-responsibilities.md).
 
 </td></tr></tbody>
 </table>5.  Select **Submit**.

@@ -2,6 +2,7 @@
 title: Define business calendar filtering options
 description: Define date and time filtering options for a business calendar. These filtering options are in addition to the standard date and time filtering in the ServiceNow AI Platform. You can provide your users with additional filtering options when they use the business calendar with ServiceNow AI Platform packages and functional areas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/time-configuration/define-business-calendar-filtering-options.html
 release: zurich
 product: Time Configuration
 classification: time-configuration
@@ -21,9 +22,9 @@ Role required: admin
 
 ## About this task
 
-To learn more about standard filtering options, see [Values for date/time fields](https://www.servicenow.com/docs/access?context=c_ValuesForDateTimeFields&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+To learn more about standard filtering options, see Values for date/time fields.
 
-**Note:** The easiest way to create business calendar filtering options and associate them with a business calendar is to use the Business Calendar Filter Options related list in the Business Calendar form. To learn more about creating a business calendar, see [Create a business calendar](create-business-calendar.md).
+**Note:** The easiest way to create business calendar filtering options and associate them with a business calendar is to use the Business Calendar Filter Options related list in the Business Calendar form. To learn more about creating a business calendar, see [Create a business calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/create-business-calendar.md).
 
 ## Procedure
 
@@ -75,7 +76,7 @@ Calendar
 
 Name of the business calendar that you want the filter options to belong to. To select a business calendar, or create a new one:
 
-1.  Search for an existing business calendar by clicking ![Search button](../../search-administration/image/SearchIcon.png).
+1.  Search for an existing business calendar by clicking \[Omitted image "SearchIcon.png"\] Alt text: Search button.
 2.  If no business calendar exists, or if you want to create a new business calendar, click **New**.
 
 
@@ -85,7 +86,7 @@ Application
 
 </td><td>
 
-Application that is associated with this business calendar. If you are working on an application or are creating a business calendar from an application record, the field defaults to that application. Otherwise, the field defaults to **Global**. Any records that are created from the table record, such as modules and security rules, are assigned to this application by default. To learn more about application scoping, see [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+Application that is associated with this business calendar. If you are working on an application or are creating a business calendar from an application record, the field defaults to that application. Otherwise, the field defaults to **Global**. Any records that are created from the table record, such as modules and security rules, are assigned to this application by default. To learn more about application scoping, see 
 
 </td></tr></tbody>
 </table>    **Note:** Within a calendar filtering option record, you can only associate a business calendar with a single filter option. To create multiple filtering options, you have to create multiple filtering option records, each with its own period entry.
@@ -97,5 +98,5 @@ Application that is associated with this business calendar. If you are working o
 
 Records are created in the Business Calendar Filter Option \(business\_calendar\_filter\_option\) table. If you create business calendar filtering options in the Business Calendar Filter Options related list in the Business Calendar form, these records are also associated with the specific business calendar.
 
-**Parent Topic:**[Creating business calendars](../concept/business-calendars.md)
+**Parent Topic:**[Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/business-calendars.md)
 

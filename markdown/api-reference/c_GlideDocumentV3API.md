@@ -2,6 +2,7 @@
 title: GlideDocument - Client
 description: The GlideDocument API provides methods to search a Document Object Model \(DOM\) element, a document, or a JQuery element.Returns a node found in the specified DOM based context or created from the HTML context.Returns a node list found in the specified DOM based context or created if an HTML context is specified.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/c\_GlideDocumentV3API.html
 release: zurich
 product: API Reference
 classification: api-reference
@@ -17,7 +18,7 @@ The GlideDocument API provides methods to search a Document Object Model \(DOM\)
 
 You can use this API in client-side scripts using ListV2 and ListV3 APIs. The GlideDocument APIs are accessed using the `g_document` global object.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/api-client.md)
 
 ## GlideDocument - getElement\(String selector, Element context\)
 

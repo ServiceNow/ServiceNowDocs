@@ -2,6 +2,7 @@
 title: Access the new Project Workspace
 description: Learn how to navigate to the new Project Workspace and open a project in the planning page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/access-new-project-workspace.html
 release: zurich
 product: Project Workspace
 classification: project-workspace
@@ -17,7 +18,7 @@ Learn how to navigate to the new Project Workspace and open a project in the pla
 
 ## Before you begin
 
-[Install Project Workspace](install-project-workspace.md).
+[Install Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/install-project-workspace.md).
 
 Role required: it\_project\_manager
 
@@ -34,7 +35,7 @@ Role required: it\_project\_manager
 
 ## What to do next
 
-[Create a project from Project Workspace](create-project-from-project-workspace.md)
+[Create a project from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-project-from-project-workspace.md)
 
-**Parent Topic:**[Managing projects with Project Workspace](../concept/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/use-projects-pw.md)
 

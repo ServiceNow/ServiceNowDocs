@@ -2,6 +2,7 @@
 title: Reopen a legal hold matter
 description: Reopen a closed legal hold matter when a legal hold is either revoked or newly issued in relation to the same closed legal matter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-hold-notification/reopen-lg-hold-notifi-matter.html
 release: zurich
 product: Legal Hold Notification
 classification: legal-hold-notification
@@ -23,7 +24,7 @@ Role required: sn\_lg\_hold.legal\_hold\_fulfiller
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Select the List icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Default lists** tab, navigate to **Matters** &gt; **All**
 
@@ -40,5 +41,5 @@ Role required: sn\_lg\_hold.legal\_hold\_fulfiller
 
 The closed legal hold notification matter is reopened, and its state changes from Closed complete to Work in Progress.
 
-**Parent Topic:**[Using Legal Hold Notification](../concept/use-lg-hold-notif.md)
+**Parent Topic:**[Using Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-hold-notification/use-lg-hold-notif.md)
 

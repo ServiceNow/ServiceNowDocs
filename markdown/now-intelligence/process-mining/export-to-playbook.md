@@ -2,6 +2,7 @@
 title: Export a process to Playbook
 description: Export a process to Playbooks to use the advanced features available from Workflow Studio to improve your processes. This feature works with Now Assist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/export-to-playbook.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -25,7 +26,7 @@ This task enables you to export any variant from within your process to playbook
 
 **Note:** You can export a maximum of 10 variants for a process graph.
 
-The property for the playbook generation is set in the Process Mining system properties. For more information, see [Playbook generation properties](../concept/data-cleanup.md#).
+The property for the playbook generation is set in the Process Mining system properties. For more information, see [Playbook generation properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/data-cleanup.md).
 
 ## Procedure
 
@@ -39,9 +40,9 @@ The property for the playbook generation is set in the Process Mining system pro
 
 5.  Select **Apply**.
 
-6.  Select **Playbooks** icon \(![Playbooks icon](../image/playbook-icon.png)\).
+6.  Select **Playbooks** icon \(\[Omitted image "playbook-icon.png"\] Alt text: Playbooks icon\).
 
-    ![Selecting variants to generate playbook](../image/playbook-1.png)
+    \[Omitted image "playbook-1.png"\] Alt text: Selecting variants to generate playbook
 
     The Playbooks panel is displayed.
 
@@ -49,7 +50,7 @@ The property for the playbook generation is set in the Process Mining system pro
 
     The Playbooks form is displayed.
 
-    ![Playbooks panel](../image/playbook-2.png)
+    \[Omitted image "playbook-2.png"\] Alt text: Playbooks panel
 
 8.  Fill the Playbooks form.
 
@@ -69,8 +70,8 @@ The property for the playbook generation is set in the Process Mining system pro
 
     In Workflow Studio, the name, and Now Assist prompt is displayed. You can choose to edit them and regenerate the preview.
 
-    For information on Playbooks on Workflow Studio, see [Exploring Playbook](https://www.servicenow.com/docs/access?context=process-automation-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+    For information on Playbooks on Workflow Studio, see .
 
 
-**Parent Topic:**[Analyzing and getting process insights](../concept/analyze-get-process-insights.md)
+**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/analyze-get-process-insights.md)
 

@@ -2,6 +2,7 @@
 title: Email notifications installed with Live Feed
 description: The Live Feed plugin includes the following email notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/live-feed/r\_EmailNotificationsUsedByLiveFeed.html
 release: zurich
 product: Live Feed
 classification: live-feed
@@ -41,5 +42,5 @@ The Live Feed plugin includes the following email notifications.
 |Live Message New Posts Subscription|Sends an email to subscribed users when a new \(not reply\) message is posted.|
 |Live Message Reply|Sends an email to all users in a feed thread when a user posts a reply \(live\_message.replied event\).|
 
-**Parent Topic:**[Components installed with Live Feed](r_InstalledWithLiveFeed.md)
+**Parent Topic:**[Components installed with Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/live-feed/r_InstalledWithLiveFeed.md)
 

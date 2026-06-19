@@ -2,6 +2,7 @@
 title: Restrict or unrestrict universal request access in Service Operations Workspace
 description: Mark a universal request as restricted or unrestricted when you identify that the request contains sensitive information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/restrict-ur-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -32,5 +33,5 @@ Role required: routing agents, sn\_uni\_req.sensitiveinfo\_agent or service-spec
 5.  On the form, select the **Restrict** button.
 
 
-**Parent Topic:**[Universal Request in Service Operations Workspace](../concept/using-ur-sow.md)
+**Parent Topic:**[Universal Request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/using-ur-sow.md)
 

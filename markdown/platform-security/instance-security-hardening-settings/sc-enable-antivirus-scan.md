@@ -2,6 +2,7 @@
 title: Enable antivirus scan
 description: The com.glide.snap.enable\_scan property activates the antivirus scan functionality.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-enable-antivirus-scan.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -25,7 +26,7 @@ Set **com.glide.snap.enable\_scan** to the recommended value of **true** to enab
 |---------|-----------|
 |Property name|**com.glide.snap.enable\_scan**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[File and resources](sc-file-resources.md)|
+|Category|[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-file-resources.md)|
 |Purpose|To enable or disable antivirus scanning on the specific instance.|
 |Recommended value|true|
 |Default value|true|
@@ -33,5 +34,5 @@ Set **com.glide.snap.enable\_scan** to the recommended value of **true** to enab
 |Security risk|\(High\) Antivirus scanning helps protect your instance against virus infections that can be introduced by file attachments to your system records, such as incidents, problems, and stories.|
 |Security risk rating|7.7|
 
-**Parent Topic:**[File and resources](sc-file-resources.md)
+**Parent Topic:**[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 

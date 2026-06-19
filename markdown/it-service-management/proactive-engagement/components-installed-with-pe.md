@@ -2,6 +2,7 @@
 title: Components installed with Proactive Engagement
 description: Several types of components are installed with activation of the Proactive Engagement application \(com.snc.self\_remediation\_framework\), including user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/proactive-engagement/components-installed-with-pe.html
 release: zurich
 product: Proactive Engagement
 classification: proactive-engagement
@@ -17,7 +18,7 @@ Several types of components are installed with activation of the Proactive Engag
 
 ## Roles installed with ServiceNow Proactive Engagement
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see .
 
 <table id="table_zbn_zhs_xbc"><thead><tr><th>
 
@@ -206,5 +207,5 @@ sn\_pren\_experience\_issue\_m2m\_alert
 Record used to create a log of the alert that caused experience issue. This is a mapping table between alert and experience issues, with details on count of throttled users and throttling reason.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Proactive Engagement reference](../proactive-engagement-reference.md)
+</table>**Parent Topic:**[Proactive Engagement reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/proactive-engagement/proactive-engagement-reference.md)
 

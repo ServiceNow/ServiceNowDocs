@@ -2,6 +2,7 @@
 title: Batch API
 description: The Batch API provides endpoints to send a single request containing multiple REST API calls, and returns a stream of response payloads.Sends multiple REST API requests in a single call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-apis/batch-api.html
 release: zurich
 product: REST APIs
 classification: rest-apis
@@ -38,7 +39,7 @@ Payloads adhere to these size limits:
 
 When a batch request reaches a size or processing limit, the system cancels the transaction and returns unprocessed requests in the **unserviced** JSON array in the response.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/api-rest.md)
 
 ## Batch - POST /now/batch
 
@@ -193,7 +194,7 @@ Required. Relative path of the endpoint to send the request to. Includes the que
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -209,7 +210,7 @@ Accept
 
 </td><td>
 
-Data format of the response body. Supported types: **application/json** or **multipart/mixed**.To stream multipart responses, set the **glide.rest.serialize.disable\_response\_stream\_buffering** system property to true. For more information, see [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Data format of the response body. Supported types: **application/json** or **multipart/mixed**.To stream multipart responses, set the **glide.rest.serialize.disable\_response\_stream\_buffering** system property to true. For more information, see .
 
 </td></tr><tr><td>
 
@@ -234,7 +235,7 @@ Size limit for each item in the batch response. Add this header to provide a low
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

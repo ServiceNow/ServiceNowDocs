@@ -2,6 +2,7 @@
 title: Create Orchestration ROI labor rate cards
 description: Before calculating your Orchestration ROI, you must create labor rate cards for the manual work that would be required to complete the tasks correlated to the ROI calculations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/orchestration/t\_CreateOrchROILaborRateCard.html
 release: zurich
 product: Orchestration
 classification: orchestration
@@ -27,12 +28,12 @@ The hourly rates defined in the rate cards are used to determine the savings fro
 
 1.  Navigate to **All** &gt; **Orchestration** &gt; **ROI** &gt; **Labor Rate Cards**.
 
-2.  Complete the fields in the form using the descriptions in [Manage a labor rate card](https://www.servicenow.com/docs/access?context=t_ManageALaborRateCard&version=zurich&pubname=zurich-it-business-management&ft:locale=en-US).
+2.  Complete the fields in the form using the descriptions in Manage a labor rate card.
 
 3.  Click **Submit**.
 
 4.  Create additional rate cards as needed.
 
 
-**Parent Topic:**[Orchestration ROI](../concept/c_OrchestrationROI.md)
+**Parent Topic:**[Orchestration ROI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_OrchestrationROI.md)
 

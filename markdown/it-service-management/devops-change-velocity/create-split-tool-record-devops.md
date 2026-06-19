@@ -2,11 +2,12 @@
 title: Onboard Split to DevOps Change Velocity — Classic
 description: Create a Split tool record to connect and discover workspaces, environments, segments, and feature flags from the connected Split tool.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/create-split-tool-record-devops.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Split, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -61,7 +62,7 @@ Tool Password / Access Token
 
 </td><td>
 
-Split password or access token. For information on creating a Split token, see [Enable integration with ServiceNow DevOps in Split tool](enable-integration-servicenow-devops-split.md).
+Split password or access token. For information on creating a Split token, see [Enable integration with ServiceNow DevOps in Split tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/enable-integration-servicenow-devops-split.md).
 
 </td></tr></tbody>
 </table>        **MID Server** is optional. Select MID Server for an on-premises tool that is attached to a MID Server. Application is automatically set to DevOps and capability is set to REST.
@@ -85,20 +86,20 @@ Split password or access token. For information on creating a Split token, see [
 
     The **All App Owners can view and associate tool objects to applications** option becomes available for selection if you choose to restrict access to the tool. This option enables all users having the DevOps App Owner role to access the tool. If selected, they’ll be able to view, associate, discover, import historical data, and modify pipeline steps \(if applicable\) of the tool's objects.
 
-4.  Discover workspaces, environments, segments, and feature flags from the connected Split tool by selecting **Discover**.![Discover workspaces, environments, segments, feature flags from Split](../image/split-discover.png)
+4.  Discover workspaces, environments, segments, and feature flags from the connected Split tool by selecting **Discover**.\[Omitted image "split-discover.png"\] Alt text: Discover workspaces, environments, segments, feature flags from Split
 
 5.  Automatically configure the webhook URL in Split tool by selecting **Configure**.
 
-    ServiceNow Integration will be activated on Split. Webhooks are auto-configured and notifications are sent from Split tool to DevOps.![Split connection configured in ServiceNow DevOps](../image/split-configure.png)
+    ServiceNow Integration will be activated on Split. Webhooks are auto-configured and notifications are sent from Split tool to DevOps.\[Omitted image "split-configure.png"\] Alt text: Split connection configured in ServiceNow DevOps
 
 
 ## Example
 
 The following example specifies how changes made in the Split tool are notified to ServiceNow DevOps through the webhook.
 
--   Inbound events are created in ServiceNow for status \(Requested, Approved, Rejected or Withdrawn\) of the event.![Inbound events for Split created in ServiceNow](../image/split-inbound-event.png)
--   Feature Flag requests \(**DevOps &gt; Feature Flag &gt; Feature Flag Requests**\) are created or updated based on the status.![Feature flag requests for Split created in ServiceNow](../image/split-feature-flag-requests.png)
--   A change request is created for every Feature Flag request, and work notes on the change request is updated with basic change details on the feature flag.![Change request created for feature flag request](../image/split-change-request.png)
+-   Inbound events are created in ServiceNow for status \(Requested, Approved, Rejected or Withdrawn\) of the event.\[Omitted image "split-inbound-event.png"\] Alt text: Inbound events for Split created in ServiceNow
+-   Feature Flag requests \(**DevOps &gt; Feature Flag &gt; Feature Flag Requests**\) are created or updated based on the status.\[Omitted image "split-feature-flag-requests.png"\] Alt text: Feature flag requests for Split created in ServiceNow
+-   A change request is created for every Feature Flag request, and work notes on the change request is updated with basic change details on the feature flag.\[Omitted image "split-change-request.png"\] Alt text: Change request created for feature flag request
 
-**Parent Topic:**[Split.io integration with DevOps Change Velocity](../concept/split-integration-devops-classic.md)
+**Parent Topic:**[Split.io integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/split-integration-devops-classic.md)
 

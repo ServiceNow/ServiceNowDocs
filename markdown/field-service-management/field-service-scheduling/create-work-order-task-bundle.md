@@ -2,6 +2,7 @@
 title: Create a work order task bundle
 description: Bundle tasks to enable agents to track multiple tasks in one work order task rather than individually. Minimize drive time by combining unplanned site visits with scheduled maintenance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/create-work-order-task-bundle.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling

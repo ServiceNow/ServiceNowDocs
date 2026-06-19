@@ -2,6 +2,7 @@
 title: Talent Activity Category reference
 description: Administrators create activity categories that are used by managers and employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/egd-activity-category-form.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -24,5 +25,5 @@ Administrators create activity categories that are used by managers and employee
 |**Order**|A numeric value used to determine the display order of activity categories.|
 |**Value**|The value used to track the activity category.|
 
-**Parent Topic:**[Talent Development Core application reference](../concept/egd-reference.md)
+**Parent Topic:**[Talent Development Core application reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-reference.md)
 

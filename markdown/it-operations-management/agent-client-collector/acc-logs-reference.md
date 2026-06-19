@@ -2,6 +2,7 @@
 title: Agent Client Collector log levels
 description: The following table displays the available log levels which indicate the severity of Agent Client Collector events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-logs-reference.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -24,5 +25,5 @@ The following table displays the available log levels which indicate the severit
 |Info|Information messages representing service actions.|
 |Debug|Detailed service operation messages which help troubleshoot issues.|
 
-**Parent Topic:**[Agent Client Collector Framework reference](agent-client-collector-reference.md)
+**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

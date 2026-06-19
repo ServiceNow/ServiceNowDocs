@@ -2,6 +2,7 @@
 title: Create a serverless schedule for F5 BIG-IP REST OAuth 2.0 authentication-based discovery
 description: Create a serverless discovery schedule to discover F5 BIG-IP load balancers through REST OAuth 2.0 authentication \(tokens\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/create-serverless-sched-f5-rest-oauth.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -18,8 +19,8 @@ Create a serverless discovery schedule to discover F5 BIG-IP load balancers thro
 ## Before you begin
 
 -   Verify you have the IP address for the F5 BIG-IP load balancer.
--   Create a basic authentication credential. For more information, see [Basic authentication credentials](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
--   Create a alias for the basic authentication credential. For more information, see [Credential aliases for Discovery](https://www.servicenow.com/docs/access?context=discovery-credential-alias&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+-   Create a basic authentication credential. For more information, see .
+-   Create a alias for the basic authentication credential. For more information, see .
 
 Role required: discovery\_admin
 
@@ -77,5 +78,5 @@ Role required: discovery\_admin
 
 Either execute discovery immediately by selecting **Discover now** or wait until the predefined schedule triggers the discovery.
 
-**Parent Topic:**[F5 BIG-IP load balancer discovery](../../discovery/concept/c_LoadBalancerF5BIGIP.md)
+**Parent Topic:**[F5 BIG-IP load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_LoadBalancerF5BIGIP.md)
 

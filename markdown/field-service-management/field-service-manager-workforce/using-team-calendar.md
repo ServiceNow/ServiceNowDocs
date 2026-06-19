@@ -2,6 +2,7 @@
 title: Using the team calendar
 description: The team calendar in Workforce provides a centralized view of agent schedules and assigned tasks. It lists agents in the selected group and displays work order tasks, case tasks, appointments, and personal time-off events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-manager-workforce/using-team-calendar.html
 release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -48,7 +49,7 @@ Users can personalize the calendar by:
 
 ## Visibility
 
-Based on group visibility permissions, agents can view their group members and their schedules. Administrators can [Configure Workforce](configuring-workforce.md) to:
+Based on group visibility permissions, agents can view their group members and their schedules. Administrators can [Configure Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/configuring-workforce.md) to:
 
 -   Customize the team calendar.
 -   Set system properties for group and territory views.
@@ -57,23 +58,23 @@ Based on group visibility permissions, agents can view their group members and t
 
 ## Related topics
 
--   [Manage technicians and groups](manage-agents-agent-groups.md)
+-   [Manage technicians and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-manager-workforce/manage-agents-agent-groups.md)
 
     View and organize schedules for individual agents and groups.
 
--   [Change views in Workforce](../task/switch-views-in-workforce.md)
+-   [Change views in Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-manager-workforce/switch-views-in-workforce.md)
 
     Switch between assignment group view and territory view for better visibility.
 
--   [Create a personal event](creating-an-event.md)
+-   [Create a personal event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-manager-workforce/creating-an-event.md)
 
     Add events to your calendar for better planning.
 
--   [View personal events on the Team calendar in Workforce](view-personal-events-on-the-team-calendar.md)
+-   [View personal events on the Team calendar in Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-manager-workforce/view-personal-events-on-the-team-calendar.md)
 
     Access events you’ve created directly on the team calendar.
 
--   [View events on the Team calendar in Workforce when Workforce Optimization for Field Service is installed](view-work-order-tasks-on-the-team-calendar-when-wfo-is-installed.md)
+-   [View events on the Team calendar in Workforce when Workforce Optimization for Field Service is installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-manager-workforce/view-work-order-tasks-on-the-team-calendar-when-wfo-is-installed.md)
 
     See additional scheduling options and events enabled by WFO.
 

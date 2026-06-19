@@ -2,6 +2,7 @@
 title: Initiate a breach assessment from a case
 description: Initiate a breach assessment from a privacy case to capture the details of breach, the type of data that is impacted, and so on. These details help the privacy analyst to identify if the breach must be notified to a regulator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/initiate-a-breach-assessment-from-a-case.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -23,7 +24,7 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace**.
 
-2.  Select the list ![List](../../grc-workspace-vrm/image/ws-list-icon.png) icon.
+2.  Select the list \[Omitted image "ws-list-icon.png"\] icon.
 
 3.  Select **All Cases**.
 
@@ -49,5 +50,5 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 7.  Select **Save**.
 
 
-**Parent Topic:**[Using Privacy Case Management](../concept/using-pcm.md)
+**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/using-pcm.md)
 

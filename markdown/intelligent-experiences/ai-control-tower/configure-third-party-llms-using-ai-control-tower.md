@@ -2,11 +2,12 @@
 title: Configure third-party LLMs using AI Control Tower
 description: Use the AI Control Tower to configure third-party LLMs based on the data routing configuration for the APJC region..
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/configure-third-party-llms-using-ai-control-tower.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
 breadcrumb: [Configure, AI Control Tower, Enable AI experiences]
@@ -18,7 +19,7 @@ Use the AI Control Tower to configure third-party LLMs based on the data routing
 
 ## Before you begin
 
-Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
+Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 ## Procedure
 
@@ -77,7 +78,7 @@ Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
 
 The third-party LLMs are configured with the Global data routing configuration for the APJC region.
 
-For information about Data routing, Fallback, and Spillover, see [Explore AI model providers](../concept/ai-model-providers.md)
+For information about Data routing, Fallback, and Spillover, see [Explore AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-model-providers.md)
 
-For information about scenarios for configuring third-party LLMs for regulated markets and AMS &amp; EMEA regions, see [Explore Third-party LLMs and regions](../concept/exploring-third-party-llms-and-data-routing-configuration.md)
+For information about scenarios for configuring third-party LLMs for regulated markets and AMS &amp; EMEA regions, see [Explore the third-party LLMs and regions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/exploring-third-party-llms-and-data-routing-configuration.md)
 

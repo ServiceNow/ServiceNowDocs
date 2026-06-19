@@ -2,6 +2,7 @@
 title: Create an alert clustering definition
 description: Define alert clustering conditions to trigger one or more alert clustering tags, which help create alert groups from fewer alerts. Creating alert groups from fewer alerts reduces noise, making it easier to identify critical incidents, prioritize responses, and manage issues effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/alert-clustering-definitions.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -29,7 +30,7 @@ To create a tag def users need to use filter to define on which alerts the defin
 
 2.  Select **New**.
 
-3.  Configure the fields on the [Event Management tag based alert grouping definition form](../reference/tag-based-alert-clustering-definition-form.md).
+3.  Configure the fields on the [Event Management tag based alert grouping definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/tag-based-alert-clustering-definition-form.md).
 
 4.  Select **Save**.
 

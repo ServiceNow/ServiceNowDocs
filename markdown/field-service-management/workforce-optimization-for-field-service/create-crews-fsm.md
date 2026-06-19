@@ -2,6 +2,7 @@
 title: Create crews in Field Service Management
 description: Create crews to assign work order tasks to a predefined group of agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/create-crews-fsm.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

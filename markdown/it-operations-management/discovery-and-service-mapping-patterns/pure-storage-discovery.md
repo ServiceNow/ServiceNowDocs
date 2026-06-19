@@ -2,6 +2,7 @@
 title: Pure Storage FlashBlade discovery
 description: The ServiceNow Discovery application uses the FlashBlade Pure Storage pattern to find FlashBlade components. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/pure-storage-discovery.html
 release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -23,7 +24,7 @@ Only Linux MID Servers are supported for Pure Storage FlashBlade discovery. Wind
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -49,11 +50,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
         -   `/api/1.4/network-interfaces` – Retrieves information about network interfaces.
 -   **Configure SSH credentials**
 
-    On the ServiceNow AI Platform, configure SSH credentials for the OS user. For more information, see [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+    On the ServiceNow AI Platform, configure SSH credentials for the OS user. For more information, see .
 
 -   **Configure applicative credentials**
 
-    On the ServiceNow AI Platform, configure applicative credentials for the OS user. The password field is not relevant; you can enter any value for the password or leave it empty. For more information, see [Applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+    On the ServiceNow AI Platform, configure applicative credentials for the OS user. The password field is not relevant; you can enter any value for the password or leave it empty. For more information, see .
 
 -   **Access to the port used for REST calls**
 
@@ -99,7 +100,7 @@ Discovery populates the data in the CMDB when running the FlashBlade Pure Storag
 
 The graphic illustrates CIs that are part of FlashBlade discovery.
 
-![The FlashBlade components](../image/PureBlade-dependency-views.png)
+\[Omitted image "PureBlade-dependency-views.png"\] Alt text: The FlashBlade components
 
 ## CI relationships
 
@@ -111,5 +112,5 @@ Discovery creates these relationships to support the Pure Storage FlashBlade dis
 |Storage Device \[cmdb\_ci\_storage\_device\]|Contains::Contained by|Storage Server \[cmdb\_ci\_storage\_server\]|
 |Storage Server \[cmdb\_ci\_storage\_server\]|Contains::Contained by|Pure Storage Processor \[cmdb\_ci\_storage\_processor\_pure\]|
 
-**Parent Topic:**[Available on-premise discovery patterns](available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

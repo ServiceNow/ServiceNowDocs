@@ -1,7 +1,8 @@
 ---
 title: Exploring the CSDM model
-description: The CSDM is the data model that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB ensure that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform applications.
+description: The CSDM is the data model that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB helps to promote that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-exploring.html
 release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -13,11 +14,11 @@ breadcrumb: [CSDM, Configuration Management, Extend ServiceNow AI Platform capab
 
 # Exploring the CSDM model
 
-The CSDM is the data model that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB ensure that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform applications.
+The CSDM is the data model that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB helps to promote that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform applications.
 
 ## Definitions of CSDM terms
 
-See [CSDM terms](../reference/csdm-term-definitions.md).
+See [CSDM terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-term-definitions.md).
 
 ## Goal of CSDM
 
@@ -27,7 +28,7 @@ CSDM provides guidance on where to put data in the platform. Because there are m
 
 ## How tables in CSDM data domains support the service life cycle
 
-![CSDM domains support service life cycles.](../image/csdm-service-life-cycle-flow.png)
+\[Omitted image "csdm-service-life-cycle-flow.png"\] Alt text: CSDM domains support service life cycles.
 
 1.  When you first start working on an instance, your admins install and populate the CMDB data structures. The data is required to enable your platform features and capabilities. This kind of data is kept in tables that are considered foundational to all products on your instance. We therefore refer to this set of tables as forming the Foundation domain — it supports all of the other data domains.
 2.  You start with an idea — an idea that implements your business model. The idea or concept is saved in data that you work on in the tables of the **Ideation &amp; Strategy** domain.
@@ -243,8 +244,8 @@ IRM \(GRC\)
 
 [Playlist of all CSDM videos](https://www.youtube.com/playlist?list=PLkGSnjw5y2U7QNr9jL6TAgwQvYBI_LEtK)
 
--   **[CSDM data domains](csdm-conceptual-model.md)**  
-The CSDM is the data model that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB ensure that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform applications.
+-   **[CSDM data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-conceptual-model.md)**  
+The CSDM is the data model that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB helps to promote that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform applications.
 
-**Parent Topic:**[Common Service Data Model](csdm-landing-page.md)
+**Parent Topic:**[Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md)
 

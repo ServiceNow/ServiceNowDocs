@@ -2,6 +2,7 @@
 title: Filter resources in Dispatcher Workspace
 description: You can create your own advanced resource filters in Dispatcher Workspace to make complex filtering easy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/advanced-filtering-dw.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -41,8 +42,8 @@ Role required: wm\_dispatcher.
 
     -   Select **Save Filter** to name the filter and save it.
     -   Select **Apply** to run the filter. Select the filter again to clear the filter from Dispatcher Workspace.
-    -   Select the more actions icon ![more actions](../image/more_action_triangle.png), then **Update** to overwrite the filter if you were making changes to an existing filter. You can't update administrator created filters.
-    -   Select the more actions icon ![more actions](../image/more_action_triangle.png), then **Save as new** to save a new filter if you were making changes to an existing filter.
+    -   Select the more actions icon \[Omitted image "more\_action\_triangle.png"\] Alt text: more actions, then **Update** to overwrite the filter if you were making changes to an existing filter. You can't update administrator created filters.
+    -   Select the more actions icon \[Omitted image "more\_action\_triangle.png"\] Alt text: more actions, then **Save as new** to save a new filter if you were making changes to an existing filter.
     If you saved the filter, you can now select the filter from the **Advanced filters** drop-down menu. **Filter resources** changes to **Temporary filter** when a filter is applied.
 
 

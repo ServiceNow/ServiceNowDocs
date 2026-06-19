@@ -2,6 +2,7 @@
 title: Review a contract document in your workspace
 description: As a contract user, review a contract document and submit a change request to the contract fulfiller if changes are required in the contract document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-request-changes-ss-cntr.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -29,27 +30,27 @@ Role required: sn\_cm\_core.contract\_user
 
 1.  Open the contract request from the workspace that you’re using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d456912e69">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d294119e69">
 
 Method
 
-</th><th align="left" id="d456912e72">
+</th><th align="left" id="d294119e72">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d456912e78">
+</th></tr></thead><tbody><tr><td id="d294119e78">
 
 **Contract Workspace listing**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Contract Workspace**.
-2.  Select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **Contract requests** &gt; **All**
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d456912e125">
+</td></tr><tr><td id="d294119e125">
 
 **Workspace used by your application**
 
@@ -65,15 +66,15 @@ Steps
 
 3.  Access the contract document.
 
-<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d456912e164">
+<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d294119e164">
 
 Location
 
-</th><th align="left" id="d456912e167">
+</th><th align="left" id="d294119e167">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d456912e173">
+</th></tr></thead><tbody><tr><td id="d294119e173">
 
 **From internal storage**
 
@@ -84,7 +85,7 @@ Action
 3.  Select **Preview** to view the document.
 
 
-</td></tr><tr><td id="d456912e200">
+</td></tr><tr><td id="d294119e200">
 
 **From external storage**
 
@@ -95,23 +96,23 @@ Select the link in the **URL** column. The document opens from the external stor
 </td></tr></tbody>
 </table>4.  Review the contract document.
 
-<table id="choicetable_h24_1ps_2bc"><thead><tr><th align="left" id="d456912e223">
+<table id="choicetable_h24_1ps_2bc"><thead><tr><th align="left" id="d294119e223">
 
 Review result
 
-</th><th align="left" id="d456912e226">
+</th><th align="left" id="d294119e226">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d456912e232">
+</th></tr></thead><tbody><tr><td id="d294119e232">
 
 **No change is required**
 
 </td><td>
 
-Send the document for signature. For more information, see [Send a contract document for signature](cncore-send-doc-signature.md).
+Send the document for signature. For more information, see [Send a contract document for signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-send-doc-signature.md).
 
-</td></tr><tr><td id="d456912e250">
+</td></tr><tr><td id="d294119e250">
 
 **Changes are required**
 
@@ -132,5 +133,5 @@ The change request is submitted for the contract document. The change request de
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Reviewing and finalizing a self-serve contract document](cncore-review-finalize-contract.md)
+**Parent Topic:**[Reviewing and finalizing a self-serve contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-review-finalize-contract.md)
 

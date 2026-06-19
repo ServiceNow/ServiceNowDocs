@@ -2,6 +2,7 @@
 title: Predictive Intelligence for Change Management
 description: The Predictive Intelligence for Change Management capability uses machine-learning algorithms to suggest standard templates, identify similar incidents, and enhance risk assessment for the change.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/change-mgmt-intelligent-solutions.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -29,7 +30,7 @@ The Solutions definitions for Predictive Intelligence for Change Management capa
 
 **Note:** Predictive intelligent for Change Management plugins can be requested through the Now Support Customer Service system.
 
-For more information, see [Change Management plugins](change-plugins.md).
+For more information, see [Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-plugins.md).
 
 <table id="table_xt3_n4g_nlb"><thead><tr><th>
 
@@ -68,12 +69,12 @@ Clustering
 Analyzes and suggests opportunities for Standard Change proposal templates that can be used for automatically creating a change. This solution uses similarity and clustering solution type to identify the common fields in the records and make it a template.
 
 </td></tr></tbody>
-</table>-   **[Intelligent solutions system properties](../reference/change-mgmt-intelligentsoln-properties.md)**  
+</table>-   **[Intelligent solutions system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-mgmt-intelligentsoln-properties.md)**  
 Administrators can configure the Change Management Intelligent solutions system properties to use predictive intelligence \(PI\) capabilities.
--   **[Train the Risk Intelligence solution](../task/train-risk-intelligence-solution.md)**  
+-   **[Train the Risk Intelligence solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/train-risk-intelligence-solution.md)**  
 Create Risk categorization or similarity solution definitions to use the predictive intelligence that helps in accessing change risk.
--   **[Train the clustering solution for standard change proposal](../task/train-std-chg-proposal-soln.md)**  
+-   **[Train the clustering solution for standard change proposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/train-std-chg-proposal-soln.md)**  
 Train the Standard change proposal solution definition to use clustering capabilities to identify and suggest Standard Change templates to create a change.
 
-**Parent Topic:**[Configuring Change Management](configure-change-management.md)
+**Parent Topic:**[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/configure-change-management.md)
 

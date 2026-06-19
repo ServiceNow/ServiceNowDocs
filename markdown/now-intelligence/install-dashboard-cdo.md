@@ -2,6 +2,7 @@
 title: Install the Chief Digital Officer \(CDO\) Dashboard
 description: The Chief Digital Officer \(CDO\) Dashboard provides a comprehensive, real-time view of digital experience, platform usage, operational performance, and transformation outcomes across the enterprise.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/install-dashboard-cdo.html
 release: zurich
 topic_type: task
 last_updated: "2025-08-18"
@@ -33,7 +34,7 @@ In addition, the com.snc.pa.premium.all\_content application plugin is required 
 
     Select **Request** to request the CDO Dashboard application plugin for the specified instance and provide the instance details with your reason for request and validate the instance.
 
-    ![](../image/cxo-request-install.png)
+    \[Omitted image "cxo-request-install.png"\] Alt text:
 
 4.  Navigate to **System applications** &gt; **All available applications**.
 
@@ -51,6 +52,6 @@ In addition, the com.snc.pa.premium.all\_content application plugin is required 
 
         Assign the user role sn\_cdo\_dashboard.cdo\_dashboard\_user to users or groups who must view the dashboard.
 
-    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://www.servicenow.com/docs/access?context=exploring-user-administration&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see .
 
 

@@ -2,6 +2,7 @@
 title: Choice map form
 description: Understand the fields of the choice map form. This form is used to create choice maps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/choice-map-form-ppw.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -22,5 +23,5 @@ Understand the fields of the choice map form. This form is used to create choice
 |Alignment table column|Field column of the selected alignment table that needs to be mapped. The value in this field is automatically added based on the selection made in the field map configuration.|
 |Alignment choice|Select the choice field value of the selected alignment table column field.|
 
-**Parent Topic:**[Form field information for Portfolio Planning](../../portfolio-planning/reference/form-field-information-for-portfolio-planning.md)
+**Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)
 

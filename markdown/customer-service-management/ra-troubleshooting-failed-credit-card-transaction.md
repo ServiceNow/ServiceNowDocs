@@ -2,7 +2,10 @@
 title: Example: Troubleshoot a failed credit card transaction
 description: Learn how process analysts or business owners configure a recommended action that uses a decision tree to troubleshoot a failed credit card transaction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ra-troubleshooting-failed-credit-card-transaction.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -25,7 +28,7 @@ Help process analysts configure a recommended action of type decision tree that 
 
 |Task|Description|
 |----|-----------|
-|Creating a decision tree|Create a decision tree that enables agents to ask a series of questions to customers. Based on the answers provided, agents can troubleshoot and provide resolution to customer issues. For more information about how to configure a decision tree in Decision Tree Builder, see [Troubleshoot a failed credit card transaction decision tree](example-decision-tree.md).|
-|[Create a rule from the Case context record](../task/ex-create-rule.md)|Create a rule to show recommendations for active cases that meet the condition specified in this rule.|
-|[Create a recommendation with the decision tree as an action type](../task/ex-create-recommendation.md)|Create a recommendation that uses decision tree to troubleshoot a failed credit card transaction.|
+|Creating a decision tree|Create a decision tree that enables agents to ask a series of questions to customers. Based on the answers provided, agents can troubleshoot and provide resolution to customer issues. For more information about how to configure a decision tree in Decision Tree Builder, see [Troubleshoot a failed credit card transaction decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/example-decision-tree.md).|
+|[Create a rule from the Case context record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ex-create-rule.md)|Create a rule to show recommendations for active cases that meet the condition specified in this rule.|
+|[Create a recommendation with the decision tree as an action type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ex-create-recommendation.md)|Create a recommendation that uses decision tree to troubleshoot a failed credit card transaction.|
 

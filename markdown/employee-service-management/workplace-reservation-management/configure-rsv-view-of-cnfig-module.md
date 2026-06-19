@@ -2,6 +2,7 @@
 title: Configure a reservable view on a reservable module
 description: Assign different views on a reservable mobile. The workplace items of the module can be viewed in the configured views while making a reservation on the Reservation portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-reservation-management/configure-rsv-view-of-cnfig-module.html
 release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -42,7 +43,7 @@ Role required: admin
 
     2.  Move the selection to the **Reservable Views List** column on the right.
 
-        To move the time slot, use the add/remove icon \(![Add remove reservable views icon](../image/add-remove-icon.png)\).
+        To move the time slot, use the add/remove icon \(\[Omitted image "add-remove-icon.png"\] Alt text: Add remove reservable views icon\).
 
     3.  Click **Save**.
 
@@ -52,7 +53,7 @@ Role required: admin
 
 8.  To specify an order in which the reservable views must be displayed on the portal, do the following:
 
-    1.  Select the Preview icon \(![preview icon](../image/info-icon.png)\).
+    1.  Select the Preview icon \(\[Omitted image "info-icon.png"\] Alt text: preview icon\).
 
     2.  Click **Open Record**.
 
@@ -67,5 +68,5 @@ Role required: admin
 
 The reservable view is added to the module. The workplace items of the module can be viewed in the selected view.
 
-**Parent Topic:**[Create a reservable view](create-a-reservable-view.md)
+**Parent Topic:**[Create a reservable view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/create-a-reservable-view.md)
 

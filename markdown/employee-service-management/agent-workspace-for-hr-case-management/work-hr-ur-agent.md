@@ -2,6 +2,7 @@
 title: Work on an HR case of Universal Request in HR Service Delivery Agent Workspace
 description: Provide resolution to an HR case that is initiated from a Universal Request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/work-hr-ur-agent.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -21,7 +22,7 @@ Role required: routing\_agent and sn\_hr\_core.case\_writer
 
 ## About this task
 
-The state changes described in the procedure can be configured to suit your requirements. For more information, see [Universal Request state mapping](../../universal-request/task/ur-state-mapping.md)
+The state changes described in the procedure can be configured to suit your requirements. For more information, see [Universal Request state mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-state-mapping.md)
 
 ## Procedure
 

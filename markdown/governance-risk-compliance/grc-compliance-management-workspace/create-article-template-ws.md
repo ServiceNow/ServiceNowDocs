@@ -2,6 +2,7 @@
 title: Create a GRC article template
 description: Policy and Compliance managers can use the Compliance Workspace to create templates for policy article publishing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/create-article-template-ws.html
 release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

@@ -2,6 +2,7 @@
 title: Risk Management Framework \(RMF\) step 1 - Categorize the authorization package
 description: In the Categorize step, you define the criticality or sensitivity of your information system according to potential worst-case scenarios. This involves selecting NIST information types for the package and using the information types to define the impact levels for the package.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/continuous-risk-monitoring/categorize.html
 release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -35,7 +36,7 @@ When you clicked **Categorize** on the Authorization Package form, an **Impact**
 
     **Note:** As you select the information types, guidance about the selected information type appears, including name, categories, and the Confidentiality, Integrity, and Availability \(CIA\) ratings for the information type.
 
-    ![Information Types selection form](../image/slush.png)
+    \[Omitted image "slush.png"\] Alt text: Information Types selection form
 
 2.  Multi-select the information types you want to select for this authorization package and move them to the Information Type List box.
 
@@ -43,7 +44,7 @@ When you clicked **Categorize** on the Authorization Package form, an **Impact**
 
     The Information Types related list now contains the guidance information for the information types you selected.
 
-    ![Information Types list](../image/info-type-list.png)
+    \[Omitted image "info-type-list.png"\] Alt text: Information Types list
 
 4.  Select the **Impact** tab and review the recommended impacts for the information types you selected.
 
@@ -53,7 +54,7 @@ When you clicked **Categorize** on the Authorization Package form, an **Impact**
 
     As you provide overrides, the **Impact** field is updated accordingly based on the update CIA levels.
 
-    ![Impact override fields](../image/impact-overrides.png)
+    \[Omitted image "impact-overrides.png"\] Alt text: Impact override fields
 
     **Important:** It is vital that the **Impact** field accurately reflects the impact of the data you are authorizing. All processes downstream from this point relies on that impact level. According to NIST guidelines, the number of controls you must implement depends on the Impact, as follows:
 
@@ -62,7 +63,7 @@ When you clicked **Categorize** on the Authorization Package form, an **Impact**
     -   Low risk = 125 controls
 6.  After you have defined the impact, select **Request Approval**.
 
-    ![Authorization Package categorize to request for approval.](../image/cam-auth-packages-request-approval.png)
+    \[Omitted image "cam-auth-packages-request-approval.png"\] Alt text: Authorization Package categorize to request for approval.
 
     An approval request is sent to the Authorizing Official, who will access My Approvals from the navigation pane and review the information in the package. When approval is received, the package transitions to the **Select** state.
 

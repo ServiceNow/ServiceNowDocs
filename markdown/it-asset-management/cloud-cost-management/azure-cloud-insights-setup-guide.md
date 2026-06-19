@@ -2,12 +2,13 @@
 title: Configure Cloud Cost Management for Microsoft Azure
 description: The Cloud Cost Management application is available on the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/azure-cloud-insights-setup-guide.html
 release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Configure, Cloud Cost Management, IT Asset Management]
 ---
 
@@ -42,7 +43,7 @@ Do this
 
 </th></tr></thead><tbody><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-cloud-download.svg) Get the app.
+\[Omitted image "bus-cloud-download.svg"\] Alt text: Get the app.
 
 </td><td>
 
@@ -54,7 +55,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Activate all supporting plugins and applications.
+\[Omitted image "bus-sdlc.svg"\] Alt text: Activate all supporting plugins and applications.
 
 </td><td>
 
@@ -62,31 +63,19 @@ Activate the plugins listed on the ServiceNow Store page for Cloud Cost Manageme
 
 </td><td>
 
-For instructions, see:-   [Request as plugin](https://www.servicenow.com/docs/access?context=t_RequestAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
--   [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+For instructions, see:-   Request as plugin
+-   Activate a plugin
 
 </td></tr></tbody>
 </table>## Overview: Setting up Cloud Cost Management
 
 Here's an overview of your set up process. Detailed instructions appear in the table that follows.
 
-![Setup process for the Cloud Cost Management app](../image/setup-procedure-cloudin.png)
+\[Omitted image "setup-procedure-cloudin.png"\] Alt text: Setup process for the Cloud Cost Management app
 
-When you first open the app, the home page enables you set up a provider and to assign the insights\_owner role.
+Navigate to **Workspaces** &gt; **Cloud Cost Management Workspace** &gt; **Admin**. The Admin page enables you to set up a provider and preferences.
 
-![Initial home page of the Cloud Cost Management app](../image/cloud_insights_home.png)
-
-After you set up a provider and assign the insights\_owner role, the page displays additional setup activities.
-
-**Note:** The Configure and Run Discovery card appears only if you use the Discovery application to discover cloud resources.
-
-![Home page after you set up a provider and assign insights_owner](../image/homepage-second-config.png)
-
--   When you select the **Set up and Run Discovery** button in the Configure and Run Discovery section, the Discover Schedules form opens.
--   When you select the **Set up Billing Download** button in the Download Billing and Usage Data section, the Billing Download Jobs form opens.
--   When you select the **Set up Price Sheet Download** button in the Download Price Sheets section, the Price Sheets Download Jobs form opens.
-
-After you finish all configuration, the page will show overview data and give quick access to reports.
+\[Omitted image "cloud\_insights\_home.png"\] Alt text: Initial home page of the Cloud Cost Management app
 
 ## Setting up Cloud Cost Management
 
@@ -104,7 +93,7 @@ Action
 
 </th></tr></thead><tbody><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-3-person.svg) Assign roles to Cloud Cost Management users and groups.
+\[Omitted image "bus-3-person.svg"\] Alt text: Assign roles to Cloud Cost Management users and groups.
 
 </td><td>
 
@@ -112,11 +101,11 @@ You assign Cloud Cost Management roles to user groups and to individual users ba
 
 </td><td>
 
-[Cloud Cost Management roles](../reference/cloud-insights-roles.md)
+[Cloud Cost Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/cloud-insights-roles.md)
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-server.svg) Configuring MID Servers to access CI data on provider accounts for Cloud Cost Management.
+\[Omitted image "bus-server.svg"\] Alt text: Configuring MID Servers to access CI data on provider accounts for Cloud Cost Management.
 
 </td><td>
 
@@ -124,51 +113,49 @@ To enable Discovery to communicate with your Microsoft Azure account, you specif
 
 </td><td>
 
-[Configuring access to CI data on your Microsoft Azure account](../reference/azure-midserver-config-cloudin.md)
+[Configuring access to CI data on your Microsoft Azure account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/azure-midserver-config-cloudin.md)
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-discover.svg) Discover your cloud resources.
+\[Omitted image "bus-discover.svg"\] Alt text: Discover your cloud resources.
 
 </td><td>
 
-**Note:** The Configure and Run Discovery card appears only if you use the Discovery application to discover cloud resources.
-
-When you select the **Set up and Run Discovery** button on the Configure and Run Discovery card, the Discover Schedules form opens. You schedule the Discovery process to ensure that the CMDB data on resources remains current.
+You schedule the Discovery process to ensure that the CMDB data on resources remains current.
 
 </td><td>
 
-[Discovering your cloud resources for use](aws-discovery-cloudin.md)
+[Discovering your cloud resources for use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/aws-discovery-cloudin.md)
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-automated-testing-framework.svg) Schedule and manage the jobs that download billing data for Cloud Cost Management.
+\[Omitted image "bus-automated-testing-framework.svg"\] Alt text: Schedule and manage the jobs that download billing data for Cloud Cost Management.
 
 </td><td>
 
-When you select the **Set up Billing Download** button in the Download Billing and Usage Data section, the Billing Download Jobs form opens. Billing Download jobs download, organize, and store billing data for your payer account on the schedule that you specify. The system analyzes the data to generate reports and to make recommendations for changes in your cloud operations that can lead to cost savings.
+Billing Download jobs download, organize, and store billing data for your payer account on the schedule that you specify. The system analyzes the data to generate reports and to make recommendations for changes in your cloud operations that can lead to cost savings.
 
 </td><td>
 
-[Set up access to Microsoft Azure billing and usage data](azure-billing-usage-data.md)
+[Set up access to Microsoft Azure billing and usage data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/azure-billing-usage-data.md)
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-automated-testing-framework.svg) Schedule and manage the Cloud Cost Management jobs that download price sheets.
+\[Omitted image "bus-automated-testing-framework.svg"\] Alt text: Schedule and manage the Cloud Cost Management jobs that download price sheets.
 
 </td><td>
 
-When you select the **Set up Price Sheets Download** button in the Download Price Sheets section, the Price Sheets Download Jobs form opens. A Price Sheet Download job downloads and stores price sheet data. The Rightsizing and Unused resources processes use price sheet data when generating recommendations.
+A Price Sheet Download job downloads and stores price sheet data. The Rightsizing and Unused resources processes use price sheet data when generating recommendations.
 
 </td><td>
 
-[Schedule and manage the Cloud Cost Management jobs that download Microsoft Azure price sheets](../task/azure-pricesht-sched-dwnld-cloudin.md)
+[Schedule and manage the Cloud Cost Management jobs that download Microsoft Azure price sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/azure-pricesht-sched-dwnld-cloudin.md)
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Configure the Cloud Cost Management features:
+\[Omitted image "bus-sdlc.svg"\] Alt text: Configure the Cloud Cost Management features:
 
- -   Rightsizing
+-   Rightsizing
 -   Unused Machines
 -   Business Hours
 -   Unassigned Resources
@@ -182,10 +169,10 @@ When you select the **Set up Price Sheets Download** button in the Download Pric
 
 </td><td>
 
--   [Rightsizing resources](rs-cloudin.md)
--   [Unused resources](um-cloudin.md)
--   [Business hours](bh-cloudin.md)
--   [Unassigned resources](ur-cloudin.md#)
+-   [Rightsizing resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/rs-cloudin.md)
+-   [Unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/um-cloudin.md)
+-   [Business hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/bh-cloudin.md)
+-   [Unassigned resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/ur-cloudin.md)
 
 </td></tr></tbody>
 </table>

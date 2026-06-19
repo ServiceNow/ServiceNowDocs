@@ -2,6 +2,7 @@
 title: Log in to the Field Service Contractor Portal for the first time
 description: Select the link in the email that you’re sent after you’re onboarded to change your password so you can log in for the first time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/reset-password-first-login.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

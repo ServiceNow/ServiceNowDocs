@@ -2,6 +2,7 @@
 title: Define an epic in SAFe
 description: Create an epic within SAFe. An epic is the largest unit of work that has one common objective such customer request, or business requirement. An epic is further decomposed into features for implementation and delivery by SAFe agile release trains \(ARTs\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scaled-agile-framework-safe/create-SAFeepic.html
 release: zurich
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -23,15 +24,15 @@ Role required: safe\_art\_user or safe\_admin
 
 1.  Create an epic using either of the following options.
 
-<table id="choicetable_djp_xvn_mcb"><thead><tr><th align="left" id="d164255e71">
+<table id="choicetable_djp_xvn_mcb"><thead><tr><th align="left" id="d99860e71">
 
 Option
 
-</th><th align="left" id="d164255e74">
+</th><th align="left" id="d99860e74">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d164255e80">
+</th></tr></thead><tbody><tr><td id="d99860e80">
 
 **From the Backlog tab**
 
@@ -44,7 +45,7 @@ Steps
 5.  From the **Create** list, select **Create Epic**. The epic is displayed in the **Backlog** tab with the state as **Backlog**.
 
 
-</td></tr><tr><td id="d164255e131">
+</td></tr><tr><td id="d99860e131">
 
 **From the Epics module**
 
@@ -54,7 +55,7 @@ Steps
 2.  Click **New**. The epic is displayed in the **Epics** list and **Backlog** tab with the state as **Funnel**.
 
 
-</td></tr><tr><td id="d164255e170">
+</td></tr><tr><td id="d99860e170">
 
 **From the Portfolios module**
 
@@ -262,14 +263,14 @@ Program mapped to the SAFe work enabling top-down hybrid planning. All the activ
 4.  Click **Submit**.
 
 
--   **[Create a monetary benefit plan for an epic](create-monetary-benefit-plan-safe-epic.md)**  
+-   **[Create a monetary benefit plan for an epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/create-monetary-benefit-plan-safe-epic.md)**  
 Epic benefit plans capture the potential benefits accrued by the epic when the epic is executed. Create a monetary benefit plan to specify the estimated benefit in a category spanning one or more fiscal periods.
--   **[Create a non-monetary benefit plan for an epic](create-non-monetary-benefit-plan-safe-epic.md)**  
+-   **[Create a non-monetary benefit plan for an epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/create-non-monetary-benefit-plan-safe-epic.md)**  
 Epic benefit plans capture the potential non-financial benefits accrued by the epic when the epic is executed. Create a non-monetary benefit plan to specify the estimated benefit in a category spanning one or more fiscal periods.
--   **[Associate monetary and non-monetary benefit plans](associate-benefit-plans-safe-epic.md)**  
+-   **[Associate monetary and non-monetary benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/associate-benefit-plans-safe-epic.md)**  
 Associate monetary and non-monetary benefit plans, so that you can capture the potential benefits \(financial and non-financial\) accrued by the epic for the hybrid benefit plans.
--   **[Generate labor costs for epics](gen-labor-costs-safe-epic.md)**  
+-   **[Generate labor costs for epics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/gen-labor-costs-safe-epic.md)**  
 View the labor cost expenses based on the resource assignments for your epics.
 
-**Parent Topic:**[SAFe entities](../concept/key-entities-SAFe.md)
+**Parent Topic:**[SAFe entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/key-entities-SAFe.md)
 

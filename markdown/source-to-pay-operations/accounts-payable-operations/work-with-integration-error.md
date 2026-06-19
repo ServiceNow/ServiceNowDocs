@@ -2,6 +2,7 @@
 title: Working with Integration error tasks
 description: Integration admin works on system-related integration error tasks and reposts invoices to ERP. Integration admin can run schedule job, on-demand, or auto-schedule bulk invoices after closing the error tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/work-with-integration-error.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -31,7 +32,7 @@ Role required: Integration admin
 
 3.  You can manually select the error tasks to be closed or create a schedule job, on-demand, or auto-schedule to close the error tasks.
 
-    For more information on scheduled jobs, see [Scheduled jobs](https://www.servicenow.com/docs/access?context=c_ScheduledJobs&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For more information on scheduled jobs, see .
 
     System-related integration error tasks are closed and invoices are auto-synchronized to outbound tables.
 

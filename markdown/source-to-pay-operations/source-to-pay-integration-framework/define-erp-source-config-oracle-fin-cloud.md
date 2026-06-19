@@ -2,6 +2,7 @@
 title: Define ERP source configuration for Oracle Financial Cloud
 description: ERP source configuration determines the ERP source to which your ERP system connects. Map the integration payload with the Oracle Financial Cloud tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/source-to-pay-integration-framework/define-erp-source-config-oracle-fin-cloud.html
 release: zurich
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -50,7 +51,7 @@ Each ERP instance requires a unique ERP source configuration. Therefore, 10 ERP 
         |Active|Option to activate the ERP source.|
         |Amount Precisions|Amount precision of the ERP source. For example, 2.|
 
-        ![Define a new ERP source configuration](../image/oracle-fin-new-erp-source.png "Define a new ERP source configuration")
+        \[Omitted image "oracle-fin-new-erp-source.png"\] Alt text: Define a new ERP source configuration
 
     3.  Select **Submit**.
 

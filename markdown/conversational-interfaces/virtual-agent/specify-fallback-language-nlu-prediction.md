@@ -2,6 +2,7 @@
 title: Specify a fallback language for locale-specific languages and NLU prediction
 description: Provide language locale support by specifying a fallback language for Virtual Agent to use for topics, keywords, and NLU prediction. For example, the ServiceNow platform doesn't support Mexican Spanish \(mx-es\), but it does support Spanish \(es\), which you can designate as the fallback language for a better user experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/specify-fallback-language-nlu-prediction.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -36,9 +37,9 @@ Role required: virtual\_agent\_admin or admin
 
 6.  Select **Edit Record** at the top of the page.
 
-7.  In the **Fallback** field, select the Search icon \(![Search icon.](../images/icon-search.png)\) and select an available language.
+7.  In the **Fallback** field, select the Search icon \(\[Omitted image "icon-search.png"\] Alt text: Search icon.\) and select an available language.
 
-    ![Languages table entry for Mexican Spanish. The Fallback line is highlighted, with Spanish entered as the fallback language.](../images/add-fallback-lang-existing.png)
+    \[Omitted image "add-fallback-lang-existing.png"\] Alt text: Languages table entry for Mexican Spanish. The Fallback line is highlighted, with Spanish entered as the fallback language.
 
 8.  Select **Update**.
 
@@ -47,7 +48,7 @@ Role required: virtual\_agent\_admin or admin
 
 Custom locales appear in the Languages \[sys\_language\] table, along with their fallback language. The language code \(ID\) indicates a language that Virtual Agent can detect. In the following example, three French locales use French as the fallback language. Only French Canadian remains unconfigured.
 
-![The Languages table with custom locales configured. Highlighted entries for Belgium, Luxembourg, and Switzerland have standard French as a fallback, while Canadian French has no Fallback.](../images/fallback-lang-new-locales.png)
+\[Omitted image "fallback-lang-new-locales.png"\] Alt text: The Languages table with custom locales configured. Highlighted entries for Belgium, Luxembourg, and Switzerland have standard French as a fallback, while Canadian French has no Fallback.
 
-**Parent Topic:**[Localization options for Virtual Agent](../concept/multi-language-options-va.md)
+**Parent Topic:**[Localization options for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/multi-language-options-va.md)
 

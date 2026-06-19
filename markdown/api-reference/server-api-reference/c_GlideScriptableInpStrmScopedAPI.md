@@ -2,6 +2,7 @@
 title: GlideScriptableInputStream - Scoped, Global
 description: A GlideScriptableInputStream object cannot be instantiated directly, but is used as an opaque object which is used to connect an input stream from GlideSysAttachment.getContentStream\(\) with other streaming APIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_GlideScriptableInpStrmScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,10 +18,10 @@ A GlideScriptableInputStream object cannot be instantiated directly, but is used
 
 The public APIs that can consume this input stream include:
 
--   [GlideDigest](../../GlideDigestScoped/concept/c_GlideDigestScopedAPI.md#)
--   [GlideExcelParser](../../GlideExcelParserScoped/concept/GlideExcelParserScopedAPI.md#)
--   [GlideTextReader](../../GlideTextReaderScoped/concept/c_GlideTextReaderScopedAPI.md#)
--   [XMLDocument2](../../XMLDocument2ScopedAPI/concept/c_XMLDocument2ScopedAPI.md#)
+-   [GlideDigest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideDigestScopedAPI.md)
+-   [GlideExcelParser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/GlideExcelParserScopedAPI.md)
+-   [GlideTextReader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideTextReaderScopedAPI.md)
+-   [XMLDocument2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_XMLDocument2ScopedAPI.md)
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 

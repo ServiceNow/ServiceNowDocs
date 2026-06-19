@@ -2,6 +2,7 @@
 title: Atlassian Jira Integration for Agile Development
 description: Enable bidirectional synchronization of records between Atlassian Jira and ServiceNow Agile Development by integrating the two applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/atlassian-jira-integrations-common/agile-jira-integration-overview.html
 release: zurich
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
@@ -48,14 +49,14 @@ Before importing Jira projects that are of the Kanban type, consider the followi
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
--   **[Setting up the integration between Jira and Agile Development 2.0](../task/setting-up-the-integration-between-jira-and-agile-development.md)**  
+-   **[Setting up the integration between Jira and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/setting-up-the-integration-between-jira-and-agile-development.md)**  
 Understand the setup process of Atlassian Jira Integration for Agile Development 2.0.
--   **[Importing and exporting issues between Agile Development 2.0 and Jira](../reference/import-export-issues-sn-jira-workflow.md)**  
+-   **[Importing and exporting issues between Agile Development 2.0 and Jira](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/import-export-issues-sn-jira-workflow.md)**  
 Understand the workflow for the import and export of issues between Agile Development 2.0 and Jira.
--   **[Troubleshooting issues of Jira integration with Agile Development 2.0](../reference/agile-jira-integration-troubleshooting.md)**  
+-   **[Troubleshooting issues of Jira integration with Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/agile-jira-integration-troubleshooting.md)**  
 Resolve common issues that you might face while working with the integration of Jira and Agile Development 2.0.
 
-**Parent Topic:**[Integrating Agile Development 2.0 with third-party applications](../../agile-development/concept/integrating-agile-dev-with-third-party-apps.md)
+**Parent Topic:**[Integrating Agile Development 2.0 with third-party applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/integrating-agile-dev-with-third-party-apps.md)
 

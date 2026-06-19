@@ -2,6 +2,7 @@
 title: Risk Management implementation
 description: Use the steps in the Risk Management application checklist to download the Risk Management from the ServiceNow Store, and get it ready for operation. Mandatory and optional setup steps, as well as an implementation checklist are provided to simplify the setup.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/risk-impl-overview.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -17,18 +18,18 @@ Use the steps in the Risk Management application checklist to download the Risk 
 
 The flow of mandatory steps in the checklist is illustrated here.
 
-![Steps followed during implementing the risk management application](../image/risk-management-implementation-workflow.png "Risk management implementation checklist")
+\[Omitted image "risk-management-implementation-workflow.png"\] Alt text: Steps followed during implementing the risk management application
 
--   **[Download Risk Management](../../grc-common/task/t_ActivateGRCRisk.md)**  
+-   **[Download Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/t_ActivateGRCRisk.md)**  
 Before you run GRC: Risk Management \(sn\_risk\) in your instance, you must download it from the ServiceNow Store.
--   **[Install Risk Management](../task/install-risk-store-app.md)**  
+-   **[Install Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/install-risk-store-app.md)**  
 You can install the Risk Management application \(com.sn\_risk\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
--   **[Setup checklist for the Risk Management application](../task/setup-checklist-risk-impl.md)**  
+-   **[Setup checklist for the Risk Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/setup-checklist-risk-impl.md)**  
 This checklist includes the set up tasks that you are required to complete in your ServiceNow AI Platform® instance. When you have completed these tasks, the base system is ready for operation.
--   **[Setup checklist for GRC Advanced Risk](../task/setup-checklist-advanced-risk.md)**  
+-   **[Setup checklist for GRC Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/setup-checklist-advanced-risk.md)**  
 Use the following checklist to get a high-level overview of the basic configurations available with the Advanced Risk application.
--   **[Download Advanced Risk](../task/download-risk-advanced.md)**  
+-   **[Download Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/download-risk-advanced.md)**  
 Before you run Advanced Risk in your instance, you must download it from the ServiceNow Store.
 
-**Parent Topic:**[Configuring Risk Management](configure-risk-mgmt.md)
+**Parent Topic:**[Configuring Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/configure-risk-mgmt.md)
 

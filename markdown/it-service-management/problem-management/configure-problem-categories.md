@@ -2,6 +2,7 @@
 title: Configure problem categories
 description: Configure problem categories to provide a refined way of monitoring and reporting problems. Add to or remove category and subcategory choices from the list of problem categories or subcategories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/problem-management/configure-problem-categories.html
 release: zurich
 product: Problem Management
 classification: problem-management
@@ -21,8 +22,8 @@ Role required: admin
 
 ## Procedure
 
-1.  Follow the steps in [Define an option for a choice list](https://www.servicenow.com/docs/access?context=t_ViewChoiceListDefinitions&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) to enter your problem categories.
+1.  Follow the steps in Define an option for a choice list to enter your problem categories.
 
 
-**Parent Topic:**[Configure the problem form](problem-configure-forms.md)
+**Parent Topic:**[Configure the problem form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/problem-configure-forms.md)
 

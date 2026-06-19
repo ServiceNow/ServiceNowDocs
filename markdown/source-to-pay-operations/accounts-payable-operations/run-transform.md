@@ -2,6 +2,7 @@
 title: Run transform to update invoice data
 description: Use transform map and run transform to map the invoice fields from the import set into target tables in Accounts Payable Operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/run-transform.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -23,7 +24,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Load Data** &gt; **Run Transform**.
 
-    The **Specify Import set and Transform map** screen appears. In the **Import set**, the staging table you selected from [Load invoice data](load-data.md) is auto populated. In **Selected maps, run in order** area, the target invoice table to be mapped in Accounts Payable Operations is auto-populated and selected by default.
+    The **Specify Import set and Transform map** screen appears. In the **Import set**, the staging table you selected from [Load invoice data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/load-data.md) is auto populated. In **Selected maps, run in order** area, the target invoice table to be mapped in Accounts Payable Operations is auto-populated and selected by default.
 
 2.  Click **Transform**.
 

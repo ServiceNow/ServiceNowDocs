@@ -2,6 +2,7 @@
 title: Display web pages hosted on your ServiceNow instance
 description: You can display web pages hosted within your ServiceNow instance in your native Android application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/developer-guides/mobsdk-and-display-web-pages.html
 release: zurich
 product: Developer Guides
 classification: developer-guides
@@ -15,9 +16,9 @@ breadcrumb: [Mobile SDK Developer Guide - Android, Developer guides, API impleme
 
 You can display web pages hosted within your ServiceNow instance in your native Android application.
 
-The Mobile SDK provides seamless handling of the required authentication and session management, while the [NowWebSDK](../../../../../app-store/dev_portal/API_reference/MobileSDKAndroid/NowWebSDK/concept/NowWebSDKAndroidAPI.md#) API provides the functionality required to handle pages residing on your ServiceNow instance. These web pages have all the dynamic interactions that are possible on the ServiceNow platform.
+The Mobile SDK provides seamless handling of the required authentication and session management, while the [NowWebSDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowWebSDKAndroidAPI.md) API provides the functionality required to handle pages residing on your ServiceNow instance. These web pages have all the dynamic interactions that are possible on the ServiceNow platform.
 
-To use these features, you must first create an instance of the NowWebService. To do this, you must call the [makeWebService\(\)](../../../../../app-store/dev_portal/API_reference/MobileSDKAndroid/NowWebSDK/concept/NowWebSDKAndroidAPI.md#) method and provide the URL to your ServiceNow instance and an already initialized `NowSDK`. In addition, you must have imported `NowWeb` within your application. You should hold a reference to the NowWebService for as long as you're using the `NowWeb` service.
+To use these features, you must first create an instance of the NowWebService. To do this, you must call the [makeWebService\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowWebSDKAndroidAPI.md) method and provide the URL to your ServiceNow instance and an already initialized `NowSDK`. In addition, you must have imported `NowWeb` within your application. You should hold a reference to the NowWebService for as long as you're using the `NowWeb` service.
 
 The following shows an example of how to create a NowWebService object:
 
@@ -102,5 +103,5 @@ suspend fun launchNowWeb() {
 }
 ```
 
-For additional information on applying color themes within a web view, see [Use NowUIColoring to theme NowWebTheme and NowChatTheme](mobsdk-and-color-theming.md).
+For additional information on applying color themes within a web view, see [Use NowUIColoring to theme NowWebTheme and NowChatTheme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/developer-guides/mobsdk-and-color-theming.md).
 

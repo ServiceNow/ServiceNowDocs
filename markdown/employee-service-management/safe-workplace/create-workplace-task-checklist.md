@@ -2,6 +2,7 @@
 title: Create a workplace task checklist
 description: You can create a unique checklist for each workplace task template in Workplace Core. You can also quickly create a checklist from an existing checklist template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/create-workplace-task-checklist.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace
@@ -32,15 +33,15 @@ You can also create checklists for individual workplace task records.
 
 1.  Create a checklist to be included in all tasks using the same template or add a checklist to a specific task.
 
-<table id="choicetable_ggh_smr_rlb"><thead><tr><th align="left" id="d495577e68">
+<table id="choicetable_ggh_smr_rlb"><thead><tr><th align="left" id="d263000e68">
 
 Option
 
-</th><th align="left" id="d495577e71">
+</th><th align="left" id="d263000e71">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d495577e77">
+</th></tr></thead><tbody><tr><td id="d263000e77">
 
 **Checklist for workplace task template**
 
@@ -50,7 +51,7 @@ Steps
 2.  In the list, select to open the template to which you want to add the checklist.
 
 
-</td></tr><tr><td id="d495577e107">
+</td></tr><tr><td id="d263000e107">
 
 **Checklist in a specific workplace task**
 
@@ -61,7 +62,7 @@ Steps
 
 
 </td></tr></tbody>
-</table>2.  In the **Checklist** section, select the down arrow \(![Checklist icon](../../human-resources/reference/images/checklist-icon.png)\) beside the **Checklist** formatter.
+</table>2.  In the **Checklist** section, select the down arrow \(\[Omitted image "checklist-icon.png"\] Alt text: Checklist icon\) beside the **Checklist** formatter.
 
 3.  Add a checklist.
 
@@ -69,15 +70,15 @@ Steps
     -   If you are using an existing checklist template, select **Create from template** and select a template.
 4.  Add a checklist item.
 
-    1.  Select the Add item icon \(![Add item icon](../../../reuse/workplace-safety-mgmt/images/add-checklist-icon.png)\) and enter text for the checklist item.
+    1.  Select the Add item icon \(\[Omitted image "add-checklist-icon.png"\] Alt text: Add item icon\) and enter text for the checklist item.
 
     2.  Press Enter to add the checklist item.
 
     Add as many additional checklist items as desired.
 
-5.  Delete unwanted checklist items by selecting the delete item icon \(![delete item icon](../../../reuse/workplace-safety-mgmt/images/delete-checklist-icon.png)\).
+5.  Delete unwanted checklist items by selecting the delete item icon \(\[Omitted image "delete-checklist-icon.png"\] Alt text: delete item icon\).
 
-6.  Change the order of checklist items by selecting the drag icon \(![drag icon](../../../reuse/workplace-safety-mgmt/images/drag-checklist-icon.png)\) and dragging the item to a different position in the list.
+6.  Change the order of checklist items by selecting the drag icon \(\[Omitted image "drag-checklist-icon.png"\] Alt text: drag icon\) and dragging the item to a different position in the list.
 
 7.  Select **Update**.
 
@@ -89,10 +90,10 @@ Steps
 
 ## What to do next
 
-You can [save the checklist as a template](../../workplace-service-delivery/task/save-workplace-task-checklist-template-wsd.md) for easy reuse, if required.
+You can [save the checklist as a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/save-workplace-task-checklist-template-wsd.md) for easy reuse, if required.
 
--   **[Save a workplace task checklist as a template](save-workplace-task-checklist-template.md)**  
+-   **[Save a workplace task checklist as a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/save-workplace-task-checklist-template.md)**  
 You can save a Workplace Core workplace task checklist as a template for easy reuse. A template saves time by adding checklist items automatically in a record where you use it.
 
-**Parent Topic:**[Managing workplace tasks](workplace-maintenance-tasks.md)
+**Parent Topic:**[Managing workplace tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/workplace-maintenance-tasks.md)
 

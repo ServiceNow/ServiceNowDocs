@@ -2,6 +2,7 @@
 title: Opportunity publishing approval
 description: The Opportunity Marketplace's publishing approval framework streamlines the approval process, allowing Opportunity Owners to submit drafts for approval and receive notifications upon approval or rejection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/opportunity-marketplace/egd-oppt-pubs-approval.html
 release: zurich
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -31,7 +32,7 @@ Each out-of-the-box opportunity type \(gig, volunteer, and project\) has a respe
 
 **Note:** By default, only one approval is necessary for the system to publish an opportunity, and only one rejection is necessary to prevent an opportunity from being published, however the admin can configure alternative approval scenarios, such as requiring a greater number of required approvals or at minimum two rejections. For more information, see the **Approvers** section below.
 
-The following diagram provides a visual of the approval workflow:![Visual overview of the approval steps described above](../image/oppt-approval-wkflw.png)
+The following diagram provides a visual of the approval workflow:\[Omitted image "oppt-approval-wkflw.png"\] Alt text: Visual overview of the approval steps described above
 
 The following describes the default configurations for the subflows, which can be modified in the Workflow studio.
 
@@ -49,7 +50,7 @@ For custom opportunity types, the admin can reuse either the `Project opportunit
 
 If your instance has demo data loaded, the group `OPM Opportunity Approvers` is assigned to the gig, volunteer, and project opportunity types. An admin can add users to the `OPM Opportunity Approvers` group to review all opportunity drafts. Alternatively, the admin can define approvers for a specific opportunity type. For the steps on assigning approvers to an opportunity type, see step 4 of .
 
-While the default subflow requires only one approval or rejection, the admin can configure alternative approval scenarios, such as requiring a greater number of required approvals to publish an opportunity or at minimum two rejections to prevent the opportunity from being published.![Under the Ask for Approval action, users can modify the rule regarding how many users must approve or reject an opportunity](../image/modify-approvers.png)
+While the default subflow requires only one approval or rejection, the admin can configure alternative approval scenarios, such as requiring a greater number of required approvals to publish an opportunity or at minimum two rejections to prevent the opportunity from being published.\[Omitted image "modify-approvers.png"\] Alt text: Under the Ask for Approval action, users can modify the rule regarding how many users must approve or reject an opportunity
 
-**Parent Topic:**[Explore Opportunity Marketplace \(OPM\)](egd-oppt-mrktplc-explore.md)
+**Parent Topic:**[Explore Opportunity Marketplace \(OPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-explore.md)
 

@@ -2,11 +2,12 @@
 title: Onboard Checkmarx to DevOps Change Velocity - Service Catalog
 description: Connect your Checkmarx instance using the ServiceNow Service Catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/onboard-checkmarx-to-devops-change-velocity-service-catalog.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Checkmarx, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -59,7 +60,7 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 ## What to do next
 
-[Configure Checkmarx scans on your pipeline](../concept/configure-checkmarx-scans-on-your-pipeline.md)
+[Configure Checkmarx scans on your pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/configure-checkmarx-scans-on-your-pipeline.md)
 
-**Parent Topic:**[Checkmarx integration with DevOps Change Velocity](../concept/checkmarx-integration-with-devops-change-velocity.md)
+**Parent Topic:**[Checkmarx integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/checkmarx-integration-with-devops-change-velocity.md)
 

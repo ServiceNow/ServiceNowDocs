@@ -2,6 +2,7 @@
 title: Implementing Policy and Compliance Management
 description: Use the steps in the GRC: Policy and Compliance Management application checklist to download the Policy and Compliance Management from the ServiceNow Store, and get it ready for operation. Mandatory and optional setup steps, as well as an implementation checklist are provided to simplify the setup.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-overview.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -17,7 +18,7 @@ Use the steps in the GRC: Policy and Compliance Management application checklist
 
 The flow of mandatory steps in the checklist are illustrated here.
 
-![Graphic representation of the mandatory setup checklist.](../image/grc-p-and-c_management-setup.png)
+\[Omitted image "grc-p-and-c\_management-setup.png"\] Alt text: Graphic representation of the mandatory setup checklist.
 
-When you have completed the [mandatory steps](policy-compliance-mandatory-setup.md) outlined above, other [optional setup procedures](policy-compliance-optional-steps.md) are available.
+When you have completed the [mandatory steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/policy-compliance-mandatory-setup.md) outlined above, other [optional setup procedures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/policy-compliance-optional-steps.md) are available.
 

@@ -2,6 +2,7 @@
 title: Get started with AWS Security Hub integration
 description: Activate and set up the AWS Security Hub findings integration for Security Operation plug-in to interface with your ServiceNow instance and Security Incident Response product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/get-started-with-aws-security-hub-integration.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

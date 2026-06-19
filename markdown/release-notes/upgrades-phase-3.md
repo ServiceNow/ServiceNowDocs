@@ -2,7 +2,10 @@
 title: Phase 3 - Verify your upgrade configurations and schedule the development instance upgrade in Now Support
 description: Check the configuration of the Check distribution for possible upgrade scheduled job to view how often and when it runs. Review information about timing your upgrade in coordination with the Check distribution for possible upgrade scheduled job. Then, schedule your upgrade in Now Support.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/upgrades-phase-3.html
 release: zurich
+product: Release Notes
+classification: release-notes
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 4
@@ -50,7 +53,7 @@ Check database for possible upgrade
 </td></tr></tbody>
 </table>## About this task
 
-![Upgrade progress bar](../image/progress-bar-phase-3.png)
+\[Omitted image "progress-bar-phase-3.png"\] Alt text: Upgrade progress bar
 
 **Important:** Your upgrades are orchestrated out of your instance, not Now Support.
 
@@ -63,11 +66,7 @@ Now Support keeps records of what version you should be running, and your instan
 |After the scheduled time on June 10, Now Support receives a ping from your instance.|Now Support tells your instance that it should be on Zurich Patch 8.|
 |Your instance receives a Now Support notification that it should be running a different version.|Your instance starts the upgrade.|
 
-How to schedule and manage instance upgrades on Now Support
-
 You can browse the Now Support service catalog to request and self-service tasks such as scheduling an upgrade.
-
-Request plugins and self-service tasks using service catalog on Now Support
 
 ## Procedure
 
@@ -111,7 +110,7 @@ Request plugins and self-service tasks using service catalog on Now Support
 
     6.  In the **Actions** menu, click **Upgrade Instance**.
 
-        The **Upgrade an Instance** Service Catalog item opens up. It is prepopulated with the instance name and available versions to which you can upgrade or patch the instance.![Upgrade an instance dialog](../image/upgrades-dashboard.png)
+        The **Upgrade an Instance** Service Catalog item opens up. It is prepopulated with the instance name and available versions to which you can upgrade or patch the instance.\[Omitted image "upgrades-dashboard.png"\] Alt text: Upgrade an instance dialog
 
     7.  To specify a date and time for the upgrade or patch, click the calendar icon next to the **Start Date and Time** field.
 
@@ -129,7 +128,7 @@ Request plugins and self-service tasks using service catalog on Now Support
 
         If the version does require an entitlement, this screen appears:
 
-        ![Requires entitlement approval message](../image/upgrades-schedule-with-ent.png)
+        \[Omitted image "upgrades-schedule-with-ent.png"\] Alt text: Requires entitlement approval message
 
     2.  Click the calendar icon and specify a date and time at least three days in the future.
 

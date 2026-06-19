@@ -2,6 +2,7 @@
 title: Asset groups in Enterprise Asset Management
 description: Asset groups in Enterprise Asset Management provide organizations with a systematic approach to asset structuring for complex asset ecosystems thereby improving data integrity and providing actionable insights.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/asset-groups-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -23,13 +24,13 @@ Asset groups can be used in the Enterprise Asset Workspace, Facility Asset Works
 
 An asset group can have multiple subgroups; however a subgroup can be a part of only one asset group. Asset groups and subgroups can have assets and an asset can belong to multiple groups.
 
-Asset groups are listed in the Asset groups subtab, located within the Asset groups tab in the Enterprise asset estate view. The asset groups and the descendant asset groups are displayed in a content tree. For details on creating asset groups and subgroups, see [Create an asset group in Enterprise Asset Management](../task/create-asset-groups-eam.md) and [Create an asset subgroup in Enterprise Asset Management](../task/create-asset-subgroup-eam.md).
+Asset groups are listed in the Asset groups subtab, located within the Asset groups tab in the Enterprise asset estate view. The asset groups and the descendant asset groups are displayed in a content tree. For details on creating asset groups and subgroups, see [Create an asset group in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-asset-groups-eam.md) and [Create an asset subgroup in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-asset-subgroup-eam.md).
 
-Enterprise Asset Management administrators can configure the **Asset groups** tab to show or hide in the Enterprise Asset Workspace, Facility Asset Workspace, Medical Asset Workspace, and the OT Asset Workspace. For more details, see [Configure tabs in the Enterprise Asset Workspace](../task/configure-model-asset-class-tabs.md).
+Enterprise Asset Management administrators can configure the **Asset groups** tab to show or hide in the Enterprise Asset Workspace, Facility Asset Workspace, Medical Asset Workspace, and the OT Asset Workspace. For more details, see [Configure tabs in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/configure-model-asset-class-tabs.md).
 
-An asset group or subgroup can optionally refer to a service instance that helps in pulling in all related assets from a chosen node in that hierarchy. Alternatively, a subgroup can be defined without referencing the subgroup to a service instance, allowing users to manually select assets. For details on adding assets to asset groups, see [Add assets to an asset group or subgroup](../task/add-assets-assetgroups.md).
+An asset group or subgroup can optionally refer to a service instance that helps in pulling in all related assets from a chosen node in that hierarchy. Alternatively, a subgroup can be defined without referencing the subgroup to a service instance, allowing users to manually select assets. For details on adding assets to asset groups, see [Add assets to an asset group or subgroup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/add-assets-assetgroups.md).
 
-A subgroup inherits some fields from its parent group. For details on the fields that get inherited, see [Fields inherited from a parent asset group to a sub group](../reference/subgroups-parent-fields-eam.md).
+A subgroup inherits some fields from its parent group. For details on the fields that get inherited, see [Fields inherited from a parent asset group to a sub group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/subgroups-parent-fields-eam.md).
 
 ## Sites in asset groups
 
@@ -43,7 +44,7 @@ If an asset group references a service instance, and that service instance is an
 
 If an asset group doesn't refer to a service instance, or it's referring to a service instance that doesn't have entity records in the cmdb\_ci\_ot\_isa\_entity​ table, then a site for that asset group doesn't exist and that asset group gets listed under the Unassigned site group in the Asset groups subtab.
 
-All sites for asset groups are listed in the Sites subtab, located within the Asset groups tab in the Enterprise asset estate view. For details on creating sites, see [Create sites in the Enterprise Asset Management](../task/create-sites-eam.md).
+All sites for asset groups are listed in the Sites subtab, located within the Asset groups tab in the Enterprise asset estate view. For details on creating sites, see [Create sites in the Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-sites-eam.md).
 
 ## Considerations for asset groups
 

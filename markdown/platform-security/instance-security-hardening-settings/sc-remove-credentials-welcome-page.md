@@ -2,6 +2,7 @@
 title: Remove credentials from Welcome page
 description: Modify the default content on the Welcome page to remove the default credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-remove-credentials-welcome-page.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -51,7 +52,7 @@ Category
 
 </td><td>
 
-[Authentication](sc-authentication.md)
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)
 
 </td></tr><tr><td>
 
@@ -101,10 +102,10 @@ References
 
 [https://support.servicenow.com/kb\_view.do?sysparm\_article=KB0550107](https://support.servicenow.com/kb_view.do?sysparm_article=KB0550107)
 
- [Welcome pages](https://www.servicenow.com/docs/access?context=c_WelcomePageContent&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
+ 
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Authentication](sc-authentication.md)
+**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

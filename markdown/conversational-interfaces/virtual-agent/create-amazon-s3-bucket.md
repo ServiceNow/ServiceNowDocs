@@ -2,6 +2,7 @@
 title: Create an Amazon S3 bucket
 description: Create an Amazon S3 bucket to store the files required for configuring Conversational IVR within your AWS account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/create-amazon-s3-bucket.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -67,5 +68,5 @@ For additional information about Amazon S3 Buckets, refer to the [Amazon S3 docu
     message.
 
 
-**Parent Topic:**[Configuring your AWS account for use with Conversational IVR](../concept/configure-aws-account.md)
+**Parent Topic:**[Configuring your AWS account for use with Conversational IVR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-aws-account.md)
 

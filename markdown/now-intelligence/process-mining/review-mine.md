@@ -2,12 +2,13 @@
 title: Review and mine your project
 description: After you’ve created the project by setting the objectives, scoping the analysis, and adding improvement opportunities, it’s time to mine the project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/review-mine.html
 release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Create a project or template using Project Builder, Using Process Mining, Process Mining, Platform Analytics]
 ---
 
@@ -18,6 +19,32 @@ After you’ve created the project by setting the objectives, scoping the analys
 ## Before you begin
 
 Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
+
+## About this task
+
+**Record limits for Process Mining projects**
+
+Process Mining enforces a maximum of 500,000 records from the primary table. This limit scales down proportionally as child tables are added to the project.
+
+|Table configuration|Record limit|
+|-------------------|------------|
+|1 table|500,000|
+|1 table + 1 child|~250,000|
+|1 table + 2 children|~125,000|
+|1 table + 3 children|~100,000|
+
+Nested child tables reduce the record limit significantly more than flat structures, because deeper relationships multiply the processing cost per record.
+
+|Table configuration|Record limit|
+|-------------------|------------|
+|1 table → child → grandchild → great-grandchild|~71,000|
+
+**What happens when the limit is exceeded**
+
+If your record count exceeds the adjusted limit, mining is blocked. To resolve this:
+
+-   Narrow your project filter to reduce the number of records.
+-   Simplify your table structure by removing unnecessary child or nested tables.
 
 ## Procedure
 
@@ -33,7 +60,7 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
     You can do some additional steps on this page.
 
-    ![Additional tasks](../image/mine-extra-steps.png)
+    \[Omitted image "mine-extra-steps.png"\] Alt text: Additional tasks
 
     -   Select **Manage watchlist** to add users who receive notifications regarding the status of the mined project.
     -   Select **Copy project definition** to copy the project.
@@ -51,7 +78,7 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 The **Mining Progress** page is displayed. After the mining is completed, a **Mining Summary** page is displayed. This page provides additional details about the mining. It also lists any finding definition that wasn’t included in the mining and provides a link to understand the actual cause. You can also view the logs or go to the Process Mining Workspace and view the graph.
 
-![Mining summary](../image/mining-summary.png)
+\[Omitted image "mining-summary.png"\] Alt text: Mining summary
 
-**Parent Topic:**[Create a project or template using Project Builder](define-workflow-model.md)
+**Parent Topic:**[Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/define-workflow-model.md)
 

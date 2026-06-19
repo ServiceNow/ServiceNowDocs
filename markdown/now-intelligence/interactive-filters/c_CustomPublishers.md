@@ -2,6 +2,7 @@
 title: Custom interactive filters
 description: As an administrator, you can create scripted interactive filter widgets to provide advanced filtering options on dashboard reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/interactive-filters/c\_CustomPublishers.html
 release: zurich
 product: Interactive Filters
 classification: interactive-filters
@@ -21,26 +22,26 @@ Custom filters are scripted **System UI** **Widgets** that use the DashboardMess
 
 Role required: hp\_publisher\_admin and report\_admin. The hp\_publisher\_admin role exists only for managing interactive filters in Core UI. By default, it contains the role analytics\_filter\_admin for managing Core UI filters that are migrated to Platform Analytics experience.
 
-**Note:** The exposed API for custom interactive filters is limited and does not provide parity with standard interactive filters. Before implementing any custom interactive filters, review the [Custom interactive filter limitations](../reference/custom-if-limitations.md).
+**Note:** The exposed API for custom interactive filters is limited and does not provide parity with standard interactive filters. Before implementing any custom interactive filters, review the [Custom interactive filter limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters/custom-if-limitations.md).
 
-Access control lists on the Table API may restrict the records shown when a dashboard is filtered. To alleviate this problem, add users or roles to the Table API access control list. For more information, see [Access control list rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+Access control lists on the Table API may restrict the records shown when a dashboard is filtered. To alleviate this problem, add users or roles to the Table API access control list. For more information, see Access control list rules.
 
 The code that publishes the filter must call the SNC.canvas.interactiveFilters.setDefaultValue\(\) method and it must call the dashboardMessageHandler.publishFilter\(\) method to publish the filter.
 
 Define the appearance of the widget, such as available buttons, using Jelly.
 
-You can add multiple custom interactive filters to the same dashboard. The filters must have unique IDs in the filter object and unique IDs for the [DashboardMessageHandler](../../../app-store/dev_portal/API_reference/DashboardMessageHandler/concept/c_DashboardMessageHandler.md#).
+You can add multiple custom interactive filters to the same dashboard. The filters must have unique IDs in the filter object and unique IDs for the [DashboardMessageHandler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters/c_DashboardMessageHandler.md).
 
--   **[Custom interactive filter examples](../reference/r_CustomPublisherExample.md#)**  
+-   **[Custom interactive filter examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters/r_CustomPublisherExample.md)**  
 As an administrator, you can create custom interactive filter widgets to provide advanced filtering options on dashboards.
--   **[Use the Debug filter](c_DebugPublisher.md)**  
+-   **[Use the Debug filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters/c_DebugPublisher.md)**  
 The debug interactive filter helps you create custom filters. This filter displays a JSON array representation of all active filters on a dashboard.
--   **[Custom interactive filter limitations](../reference/custom-if-limitations.md)**  
+-   **[Custom interactive filter limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters/custom-if-limitations.md)**  
 Custom interactive filters are a fallback for use when standard interactive filters do not provide certain functionality.
--   **[DashboardMessageHandler](../../../app-store/dev_portal/API_reference/DashboardMessageHandler/concept/c_DashboardMessageHandler.md#)**  
+-   **[DashboardMessageHandler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters/c_DashboardMessageHandler.md)**  
 Provides methods to define custom filtering logic for interactive filters.
--   **[Dynamic JavaScript filters](dynamic-js-filters.md#)**  
+-   **[Dynamic JavaScript filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters/dynamic-js-filters.md)**  
 Create dynamic conditions in JavaScript that you can configure as part of a report visualization's criteria instead of specified values.
 
-**Parent Topic:**[Interactive Filters](c_HomepagePublishers.md)
+**Parent Topic:**[Interactive Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters/c_HomepagePublishers.md)
 

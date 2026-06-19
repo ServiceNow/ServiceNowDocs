@@ -2,6 +2,7 @@
 title: Domain separation for Emergency Self Report
 description: The following table lists the domain separation use cases for service providers \(SPs\) using this application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/emergency-self-report/emergency-self-report-domain-separation.html
 release: zurich
 product: Emergency Self Report
 classification: emergency-self-report
@@ -32,5 +33,5 @@ Some modules in the Emergency Self Report application are affected by domain sep
     -   Related list, Approvers \(Table: Approval\) is an established domain-separated table.
     -   Related list, Tasks \(Table: Task\) is an established domain-separated table.
 
-**Parent Topic:**[Emergency Self Report](../concept/emergency-self-report.md)
+**Parent Topic:**[Emergency Self Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/emergency-self-report/emergency-self-report.md)
 

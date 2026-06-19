@@ -2,6 +2,7 @@
 title: Supported CI class types for Amazon AWS Cloud services
 description: Supported CI class types for AWS enable assigning cost and usage data correctly using the CI placement process. The CI placement process places a subset of CIs into corresponding CI tables that are used in the recommendation generation process for Cloud Cost Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/aws-supported-ci-class-types.html
 release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -30,5 +31,5 @@ Supported CI class types for AWS enable assigning cost and usage data correctly 
 |cmdb\_ci\_vm\_instance| |
 |cmdb\_ci\_kubernetes\_cluster| |
 
-**Parent Topic:**[Cloud Cost Management reference](../concept/reference-cloudinsights.md)
+**Parent Topic:**[Cloud Cost Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/reference-cloudinsights.md)
 

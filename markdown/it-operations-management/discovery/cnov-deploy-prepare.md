@@ -2,12 +2,13 @@
 title: Prepare for Kubernetes Visibility Agent deployment
 description: Prepare your ServiceNow instance and the Kubernetes cluster for Kubernetes Visibility Agent deployment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/cnov-deploy-prepare.html
 release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 keywords: [OKE, Agent Client Collector, Kubernetes, Visibility, deployment, installation, prerequisites, Cloud Native Operations for Visibility, CNO for Visibility]
 breadcrumb: [Configuring Kubernetes Visibility Agent, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -33,7 +34,7 @@ Role required: admin for steps performed on the ServiceNow instance.
 
 2.  Choose or create a user with at least the mid\_server role.
 
-    For information about adding a new user to your instance, see [Create a user](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US). For information about granting a role to a user, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For information about adding a new user to your instance, see . For information about granting a role to a user, see .
 
 3.  In the Kubernetes cluster, choose or create a namespace in which you want to deploy KVA.
 
@@ -107,7 +108,7 @@ Your ServiceNow instance and the Kubernetes cluster are ready for KVA deployment
 
 ## What to do next
 
-[Install Kubernetes Visibility Agent \(KVA\)](cnov-deploy-install.md).
+[Install Kubernetes Visibility Agent \(KVA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cnov-deploy-install.md).
 
-**Parent Topic:**[Configuring Kubernetes Visibility Agent](../concept/cnov-configuring.md)
+**Parent Topic:**[Configuring Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cnov-configuring.md)
 

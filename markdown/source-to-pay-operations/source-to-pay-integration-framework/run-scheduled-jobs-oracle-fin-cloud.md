@@ -2,11 +2,12 @@
 title: Run scheduled jobs in Oracle Financial Cloud
 description: Run adhoc scheduled jobs to look up entity primary data from the target Oracle Financial Cloud ERP source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/source-to-pay-integration-framework/run-scheduled-jobs-oracle-fin-cloud.html
 release: zurich
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: task
-last_updated: "2025-11-14"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Scheduled jobs to look up primary data in Oracle Financial Cloud, Configure, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---

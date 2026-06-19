@@ -2,6 +2,7 @@
 title: Duplicate threat intelligence feeds
 description: Duplicating a threat feed allows you to create an exact copy of an existing feed, including all associated observables, indicators, actors, and so on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-duplicate-feeds.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -23,18 +24,18 @@ Role required: sn\_sec\_tisc.admin
 
 1.  Navigate to **Workspaces** &gt; **Threat Intelligence Security Center**.
 
-2.  Click on **Integrations** icon.
+2.  Select the **Integrations** icon.
 
 3.  Select the desired integration from the **Catalog** view.
 
     For example, select CrowdStrike
 
-4.  Click **Edit** button for CrowdStrike feed card to open the configuration form.
+4.  Select the **Edit** button for CrowdStrike feed card to open the configuration form.
 
-5.  Click the **More Actions** menu and select **Duplicate**.
+5.  Select the **More Actions** menu and select **Duplicate**.
 
-    A confirmation is displayed indicating that the duplicated the current feed configuration and created a new feed with name \[integrationname Feed-copy\] with a link to the new duplicated feed. For example, CrowdStrike Feed-copy.
+    A confirmation appears indicating that the current feed configuration was duplicated. A new feed is created with the name \[integrationname Feed-copy\] and includes a link to the new duplicated feed. For example, CrowdStrike Feed-copy.
 
 
-**Parent Topic:**[Threat Intelligence Feeds](../concept/threat-intelligence-feeds.md)
+**Parent Topic:**[Threat Intelligence Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/threat-intelligence-feeds.md)
 

@@ -2,6 +2,7 @@
 title: Generate onboarding ramp-up plan agentic workflow
 description: The Generate onboarding ramp-up plan agentic workflow is an AI-powered solution that helps managers at your organization onboard new employees more efficiently. This workflow uses AI agents to generate personalized plans that are designed to elevate the knowledge and skills of new employees beginning to embark on their onboarding journey.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-hrsd/onboarding-ramp-up-plan-agentic-wf.html
 release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd

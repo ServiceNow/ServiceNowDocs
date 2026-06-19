@@ -2,6 +2,7 @@
 title: Compare a pushed version to a local version
 description: Code reviewers can compare the pushed versions to the local versions to see the potential effect of incoming changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/t\_ComparePushedVerLocalVer.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -34,5 +35,5 @@ Role required: teamdev\_code\_reviewer
     A comparison of the differences between the pushed and local versions appears.
 
 
-**Parent Topic:**[Pushing changes](../concept/pushing-changes.md)
+**Parent Topic:**[Pushing changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/pushing-changes.md)
 

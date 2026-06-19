@@ -2,6 +2,7 @@
 title: Install Now Assist for Creator
 description: Install the Now Assist for Creator application to use the spoke generation skill.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/install-now-assist-spk.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -19,7 +20,7 @@ Install the Now Assist for Creator application to use the spoke generation skill
 
 -   Role required: admin
 -   Review the [Now Assist for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
--   Upgrade to Xanadu Patch 3 or later. For more information about this release, see [Available patches and hotfixes](https://www.servicenow.com/docs/access?context=available-versions&version=zurich&pubname=zurich-release-notes&ft:locale=en-US).
+-   Upgrade to Xanadu Patch 3 or later. For more information about this release, see .
 
 Role required: admin
 
@@ -42,5 +43,5 @@ Role required: admin
 
 Configure Now Assist for Creator to turn on the spoke generation skill.
 
-**Parent Topic:**[Use Now Assist to create spokes and build actions](../concept/now-assist-in-spk-gen.md)
+**Parent Topic:**[Use Now Assist to create spokes and build actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/now-assist-in-spk-gen.md)
 

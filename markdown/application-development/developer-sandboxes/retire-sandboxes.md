@@ -2,6 +2,7 @@
 title: Retire Developer Sandboxes
 description: Retire sandboxes that are outdated or no longer needed to make room for new sandboxes in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/developer-sandboxes/retire-sandboxes.html
 release: zurich
 product: Developer Sandboxes
 classification: developer-sandboxes
@@ -19,7 +20,13 @@ Retire sandboxes that are outdated or no longer needed to make room for new sand
 
 You should manually retire sandboxes when your work is complete to maintain a healthy lifecycle.
 
-**Note:** Because sandboxes are retired automatically after an upgrade or clone, you should ensure any work that you want to keep is preserved before upgrading. However, if you are on Zurich Patch 5 or later, update sets on the instance may be automatically backed up.For more information, see [Cloning and upgrading considerations for Developer Sandboxes](../concept/dev-sbx-clone-upgrade-info.md).
+**Warning:** Because sandboxes are retired automatically after an upgrade or clone, ensure any work that you want to keep is preserved before upgrading. You must manually recreate sandboxes after an upgrade or clone.
+
+-   For Zurich Patch 5 or later, uncommitted work in existing sandboxes is automatically exported as remote update sets on the base instance, which you must commit to sandboxes created after the upgrade.
+-   For clones, you must manually save and restore all work in sandboxes.
+-   Any custom table configuration changes or fixes must be reapplied after an upgrade. Contact Now Support to open a case.
+
+For more information, see [Cloning and upgrading considerations for Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/dev-sbx-clone-upgrade-info.md).
 
 ## Before you begin
 
@@ -33,12 +40,12 @@ Role required: admin or delegated developer
 
 2.  Select the More options icon in the Developer Sandboxes dashboard, and then select **Retire sandbox**.
 
-    ![Select to Retire sandbox](../image/dev-sbx-retire-home-2.png "Retire a sandbox")
+    \[Omitted image "dev-sbx-retire-home-2.png"\] Alt text: Select to Retire sandbox
 
 3.  Confirm the retirement by selecting **Retire**.
 
 
 ## Result
 
-After it's retired, the sandbox is no longer available for use. However, you can allocate new sandboxes as needed. For more information, see [Allocate a sandbox](allocating-sandboxes.md).
+After it's retired, the sandbox is no longer available for use. However, you can allocate new sandboxes as needed. For more information, see [Allocate a sandbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/allocating-sandboxes.md).
 

@@ -2,6 +2,7 @@
 title: Now Assist in Conversational Catalog Request
 description: Speed up and provide a conversational and streamlined experience based on generative AI while submitting a catalog item request in Virtual Agent. Your organization can increase self-service and reduce operating costs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/now-assist-in-conversational-catalog-request.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -19,11 +20,11 @@ Speed up and provide a conversational and streamlined experience based on genera
 
 <table id="table_pwh_zfm_xfc" class="nav-card presentation"><tbody><tr><td>
 
-[Catalog Conversational Coverage![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about conversational catalog request.](using-catalog-conversational-experience.md#)
+[Catalog Conversational Coverage\[Omitted image "bus-explore.svg"\] Alt text:Learn about conversational catalog request.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 
 </td><td>
 
-[Conversational catalog overview dashboard![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Learn about conversational catalog dashboard and how to view the dashboard.](using-catalog-conversational-experience.md#)
+[Conversational catalog overview dashboard\[Omitted image "bus-sdlc.svg"\] Alt text:Learn about conversational catalog dashboard and how to view the dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 
 </td></tr></tbody>
 </table>**Important:** Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Please check for availability updates in future releases.
@@ -40,16 +41,20 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
--   **[Configure Now Assist in Conversational Catalog Request](../task/configure-gen-ai-catalog-item.md#)**  
+-   **[Configure Now Assist in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/configure-gen-ai-catalog-item.md)**  
 Speed up and provide a conversational and streamlined experience based on generative AI while submitting a catalog item request in Virtual Agent. Your organization can increase self-service and reduce operating costs.
--   **[Fulfillers can request catalog items for others](fulfillers-request-catalog-items-for-others.md)**  
-The experience for fulfillers streamlines the process of making catalog requests on behalf of others. This tailored workflow leverages parent context, such as incidents or cases, to improve efficiency, accuracy, and traceability of requests.
--   **[Virtual Agent render type](virtual-agent-render-type.md)**  
+-   **[Request for catalog items: conversation or form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/catalog-request-ai.md)**  
+Catalog items can be requested in two different ways: through a conversation using Now Assist or by filling out a traditional web form. The method depends on each catalog item is configured.
+-   **[Prefill in conversational catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/prefill-in-conversational-catalog-request.md)**  
+The generalized prefill capability for conversational catalog request automatically populates catalog item form fields using data sourced from the requesting user's profile and from the active chat conversation history. This reduces manual data entry for requesters, improves form completion accuracy, and accelerates time-to-submission for service requests raised through the conversational interface.
+-   **[Virtual Agent render type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/virtual-agent-render-type.md)**  
 A catalog item can be rendered in Virtual Agent as a conversation, window, or pop-up.
--   **[Conversational catalog request reference](../reference/conversational-catalog-request-reference.md)**  
+-   **[Fulfillers can request catalog items for others](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/fulfillers-request-catalog-items-for-others.md)**  
+The experience for fulfillers streamlines the process of making catalog requests on behalf of others. This tailored workflow leverages parent context, such as incidents or cases, to improve efficiency, accuracy, and traceability of requests.
+-   **[Conversational catalog request reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/conversational-catalog-request-reference.md)**  
 Reference topics provide additional information about configuration properties, roles, and more.
 
-**Parent Topic:**[Service Catalog](service-catalog.md)
+**Parent Topic:**[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/service-catalog.md)
 

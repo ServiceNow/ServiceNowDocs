@@ -2,6 +2,7 @@
 title: Map Microsoft Azure email to ServiceNow instance
 description: Create a custom email field to use Microsoft Teams app to initiate call for the agents to resolve the tickets raised by users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/map-azure-email-to-sn-instance.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -74,7 +75,7 @@ Select a field length. This field is visible only for certain field types.
 </td></tr></tbody>
 </table>    6.  Select **Add**.
 
-        ![Create new field](../../sn-teams/images/create-new-field.png)
+        \[Omitted image "create-new-field.png"\] Alt text: Create new field
 
     7.  In the Selected slush bucket column, move the field in the desired location on the form.
 
@@ -82,7 +83,7 @@ Select a field length. This field is visible only for certain field types.
 
         The field now appears on the form in the designated location.
 
-        ![New field added to form](../../sn-teams/images/upn-field.png)
+        \[Omitted image "upn-field.png"\] Alt text: New field added to form
 
         The admin must enter the email used for Microsoft Teams in this field.
 
@@ -90,11 +91,11 @@ Select a field length. This field is visible only for certain field types.
 
     9.  Right-click on the field and select **Show &lt;value of the field name&gt;**.
 
-        ![Show field name](../../sn-teams/images/show-field-name.png)
+        \[Omitted image "show-field-name.png"\] Alt text: Show field name
 
         The dictionary info of the field name can be viewed.
 
-        ![Field name](../../sn-teams/images/field-name2.png)
+        \[Omitted image "field-name2.png"\] Alt text: Field name
 
     10. Right-click on the **Field** and copy the value.
 
@@ -111,5 +112,5 @@ Select a field length. This field is visible only for certain field types.
         **Note:** Ensure that the email address for all the users for the newly created field is updated with the email associated with Microsoft Teams app.
 
 
-**Parent Topic:**[Configure Notify connector for Microsoft Teams](../concept/config-notify-ms-teams.md)
+**Parent Topic:**[Configure Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/config-notify-ms-teams.md)
 

@@ -2,6 +2,7 @@
 title: Categorize a problem as a major problem
 description: You can prioritize a problem and highlight that it needs a review.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/problem-management/categorize-major-problem.html
 release: zurich
 product: Problem Management
 classification: problem-management
@@ -39,9 +40,9 @@ Role required: admin
 4.  Click **Update**.
 
 
-**Parent Topic:**[Configuring Problem Management](../concept/configuring-problem-mgmt.md)
+**Parent Topic:**[Configuring Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/configuring-problem-mgmt.md)
 
-**Previous topic:**[Define an assignment rule for problems](t_DefineAnAssignRuleForPRBs.md)
+**Previous topic:**[Define an assignment rule for problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/t_DefineAnAssignRuleForPRBs.md)
 
-**Next topic:**[Enable Problem Management models](enable-problem-mgmt-models.md)
+**Next topic:**[Enable Problem Management models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/enable-problem-mgmt-models.md)
 

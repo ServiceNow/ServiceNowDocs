@@ -2,6 +2,7 @@
 title: Managing agent skills, schedules and tasks in Field Service Agent Management
 description: Field Service managers can view and manage the skills, schedules, and work order tasks of agents in their assignment group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-manager-workforce/field-service-agent-management.html
 release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce

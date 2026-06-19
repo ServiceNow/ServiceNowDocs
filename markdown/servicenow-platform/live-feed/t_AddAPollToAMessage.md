@@ -2,6 +2,7 @@
 title: Add a poll to a message
 description: When you are posting a message, you have the option of creating a poll in order to record your viewers' opinions. As users take the poll, their feedback statistics are displayed within the feed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/live-feed/t\_AddAPollToAMessage.html
 release: zurich
 product: Live Feed
 classification: live-feed
@@ -40,5 +41,5 @@ Role required: admin
     An email notification with the poll result is sent to all participants of the poll informing them that the poll is closed.
 
 
-**Parent Topic:**[Post content in Live Feed](../concept/c_PostContentInLiveFeed.md)
+**Parent Topic:**[Post content in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/live-feed/c_PostContentInLiveFeed.md)
 

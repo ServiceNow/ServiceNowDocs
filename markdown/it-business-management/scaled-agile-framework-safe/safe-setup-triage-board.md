@@ -2,6 +2,7 @@
 title: Set up a triage board in SAFe
 description: Set up your own triage board by defining filter criteria, and view records that are important to your team, such as problems, incident tasks, defects, or change requests. For example, you can create one triage board for defects and another for incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scaled-agile-framework-safe/safe-setup-triage-board.html
 release: zurich
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -52,5 +53,5 @@ Role required: safe\_scrum\_master
 2.  To add a record to the triage definition, click **New**.
 3.  To move a record from the triage board to the **Backlog** tab, click **Add to Backlog**.
 
-**Parent Topic:**[SAFe — Unified Backlog](../concept/safeunified-backlog.md)
+**Parent Topic:**[SAFe — Unified Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/safeunified-backlog.md)
 

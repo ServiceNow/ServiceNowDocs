@@ -2,6 +2,7 @@
 title: Enable guided tours in Employee Relations
 description: Enable guided tours in Employee Relations to get an overview of Employee Relations cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/activate-guided-tours.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

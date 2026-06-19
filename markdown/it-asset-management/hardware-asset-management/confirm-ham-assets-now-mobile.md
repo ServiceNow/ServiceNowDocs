@@ -2,13 +2,14 @@
 title: Confirm the assigned assets using the Now Mobile app
 description: As an employee, acknowledge or deny the ownership of the serialized hardware assets assigned to you using the Now Mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/confirm-ham-assets-now-mobile.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Confirming the assigned serialized hardware assets, Audit your hardware assets by using Asset Attestation, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Confirming the assigned serialized hardware assets, Audit assets using Asset Attestation, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Confirm the assigned assets using the Now Mobile app
@@ -57,5 +58,5 @@ Role required: Log in as an employee.
     -   If you selected **Yes**, the **Status** field changes from **Open** to **Yes**.
     -   If you selected **No**, the **Status** field changes from **Open** to **No**. Also, a remediation task is created for that attestation. The administrator can work on that task and initiate an investigation to find the asset status.
 
-**Parent Topic:**[Confirming the assigned serialized hardware assets](../concept/confirming-assets-emp-portal-mobile.md)
+**Parent Topic:**[Confirming the assigned serialized hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/confirming-assets-emp-portal-mobile.md)
 

@@ -2,6 +2,7 @@
 title: View alert metric trends in Service Operations Workspace
 description: View the metrics for an alert and adjust the time range to see the trends for either the alert or its associated Configuration Item \(CI\), enabling more accurate analysis and timely decision-making.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/customize-alert-metrics-itom.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -20,7 +21,7 @@ View the metrics for an alert and adjust the time range to see the trends for ei
 
 Ensure you have the Metric Intelligence \(sn\_metrics\_ng\) plugin installed.
 
-Configure the metrics to be displayed for the alert, as described in [Configure alert metrics](configure-alert-metrics-itom.md).
+Configure the metrics to be displayed for the alert, as described in [Configure alert metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/configure-alert-metrics-itom.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -28,7 +29,7 @@ Role required: evt\_mgmt\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the navigation bar, select the List icon: ![List icon](../image/list-icon-sow-itom.png).
+2.  From the navigation bar, select the List icon: \[Omitted image "list-icon-sow-itom.png"\] Alt text: List icon.
 
 3.  Select **Lists** &gt; **Alerts** &gt; **All Alerts**.
 
@@ -40,11 +41,11 @@ Role required: evt\_mgmt\_admin
 
 5.  Select the **Metrics** tab.
 
-    ![Metrics tab](../image/metrics-tab.png "Metrics tab")
+    \[Omitted image "metrics-tab.png"\] Alt text: Metrics tab
 
 6.  In the fields above the metric charts, configure the time range for the alert's metrics.
 
-    ![Metrics time range](../image/sow-time-range.png)
+    \[Omitted image "sow-time-range.png"\] Alt text: Metrics time range
 
     To customize the metrics display, configure the following properties on the **System Properties** &gt; **All Properties** page:
 
@@ -68,7 +69,7 @@ Role required: evt\_mgmt\_admin
 
     2.  Under the Impact section, on the **Configuration item** card, select the link to the CI that appears under the **Name** field.
 
-        ![Link to CI.](../image/sow-impact-section-metrics.png)
+        \[Omitted image "sow-impact-section-metrics.png"\] Alt text: Link to CI.
 
     3.  Select the **Metrics** tab.
 

@@ -2,6 +2,7 @@
 title: Channels in Workforce Optimization for ITSM
 description: Learn how you can use channels to route work to specific groups and with skill-based routing make sure that the right work goes to the right agent. Monitor the health of your queues reviewing real-time performance and jumping in to help with escalations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/exploring-channels-configurable-workforce-optimization-itsm.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -17,7 +18,7 @@ Learn how you can use channels to route work to specific groups and with skill-b
 
 Manage queues and monitor real-time team performance from a central location using Channel Management.
 
-![Channel Management Drill Down Metrics](../image/channels-drilldown-wfo-itsm.gif)
+\[Omitted image "channels-drilldown-wfo-itsm.gif"\] Alt text: Channel Management Drill Down Metrics
 
 As a channel manager, you can:
 
@@ -32,8 +33,8 @@ Easily find the tasks that you must complete in the Channels module.
 
 |Benefit|Role|Find tasks to complete in Channels|
 |-------|----|----------------------------------|
-|Activate Channels in Workforce Optimization for ITSM.|admin|[Activate Channels](../task/activate-configurable-workforce-optimization-itsm.md)|
-|Refer to the components such as roles, system properties, and reports used in Channels.|[Any Channels role](../reference/configurable-wfo-itsm-channel-management-reference.md)|[Understand components used in Channels in Workforce Optimization for ITSM](../reference/configurable-wfo-itsm-channel-management-reference.md)|
-|Set up service channels, queues, and key performance indicators to route work items automatically to agents.|[Channel Management Admin](../reference/configurable-wfo-itsm-channel-management-reference.md)|[Set up Channels in Workforce Optimization for ITSM](setup-channels-configurable-workforce-optimization-itsm.md)|
-|Route work items to assigned groups.|[Channel Management User](../reference/configurable-wfo-itsm-channel-management-reference.md)|[Automatically route work items to agents](configurable-channels-workforce-optimization-itsm.md)|
+|Activate Channels in Workforce Optimization for ITSM.|admin|[Activate Channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.md)|
+|Refer to the components such as roles, system properties, and reports used in Channels.|[Any Channels role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-channel-management-reference.md)|[Understand components used in Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-channel-management-reference.md)|
+|Set up service channels, queues, and key performance indicators to route work items automatically to agents.|[Channel Management Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-channel-management-reference.md)|[Set up Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/setup-channels-configurable-workforce-optimization-itsm.md)|
+|Route work items to assigned groups.|[Channel Management User](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-channel-management-reference.md)|[Automatically route work items to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/configurable-channels-workforce-optimization-itsm.md)|
 

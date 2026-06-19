@@ -2,6 +2,7 @@
 title: Unified content management
 description: The Unified content management application is a centralized repository of frameworks, and citations. Using this application accelerates the adoption of Audit frameworks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/unified-content-management\_0.html
 release: zurich
 product: Audit Management
 classification: audit-management
@@ -15,7 +16,7 @@ breadcrumb: [Audit Workspace, Audit Management, Governance, Risk, and Compliance
 
 The Unified content management application is a centralized repository of frameworks, and citations. Using this application accelerates the adoption of Audit frameworks.
 
-You can install Unified content management from the ServiceNow Store. After installation, you can launch the application by selecting the Unified content management icon \(![Unified content management icon](../image/unified-content-management-audit.png)\).
+You can install Unified content management from the ServiceNow Store. After installation, you can launch the application by selecting the Unified content management icon \(\[Omitted image "unified-content-management-audit.png"\] Alt text: Unified content management icon\).
 
 ## Frameworks and regulations
 

@@ -2,6 +2,7 @@
 title: Set up Vaccination Status properties
 description: Set up Vaccination Status properties to define the data retention period for user-reported vaccination status data, manage reminder emails, and enable exemptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/config-vaccination-properties.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -167,7 +168,7 @@ Allow vaccine exemptions.\[sn\_imt\_vaccine.allow\_vaccine\_exemptions\]
 
 </td><td>
 
-Enable this property to give users the ability to submit vaccine exemption requests. Exemptions do not affect the vaccine profile's **Covid 19 Vaccine Complete** status. This property is inactive by default.**Note:** If you do not want users to access the **Request vaccine exemption** module because it is not active, you can inactivate the module. For more information, see [Enable or disable an application menu or module](https://www.servicenow.com/docs/access?context=t_EnDisableAppMenuOrMod&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+Enable this property to give users the ability to submit vaccine exemption requests. Exemptions do not affect the vaccine profile's **Covid 19 Vaccine Complete** status. This property is inactive by default.**Note:** If you do not want users to access the **Request vaccine exemption** module because it is not active, you can inactivate the module. For more information, see Enable or disable an application menu or module.
 
 </td></tr><tr><td>
 
@@ -212,7 +213,7 @@ Enable this property to automatically update vaccine review outcomes when a vali
  -   First and last name
 -   Date received
 -   Vaccine code, such as a CVX code, to verify the vaccine's manufacturer
- This property is inactive by default. For more information on enabling automated vaccine response reviews, see [Automating vaccine response reviews](../concept/vaccination-status-vaccine-validation.md).
+ This property is inactive by default. For more information on enabling automated vaccine response reviews, see [Automating vaccine response reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/vaccination-status-vaccine-validation.md).
 
 </td></tr><tr><td>
 
@@ -224,11 +225,11 @@ If your organization is using the Azure Form Recognizer service to automatically
 
  Your organization must also enable the \[**sn\_imt\_vaccine.allow\_automated\_response\_approval**\] property to enable automated vaccine review outcomes based on the Azure Form Recognizer service and confidence threshold.
 
- For more information, see [Automating vaccine response reviews with the Azure Form Recognizer service](../concept/automate-vaccine-validation-with-azure-form-recognizer.md).
+ For more information, see [Automating vaccine response reviews with the Azure Form Recognizer service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/automate-vaccine-validation-with-azure-form-recognizer.md).
 
 </td></tr></tbody>
 </table>3.  Click **Save**.
 
 
-**Parent Topic:**[Vaccination Status](../concept/vaccination-status.md)
+**Parent Topic:**[Vaccination Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/vaccination-status.md)
 

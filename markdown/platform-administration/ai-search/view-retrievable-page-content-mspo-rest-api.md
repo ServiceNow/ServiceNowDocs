@@ -2,6 +2,7 @@
 title: View retrievable page content using the Microsoft SharePoint Online REST API
 description: Review the elements of of a Microsoft SharePoint Online page's content that can be retrieved by the Microsoft SharePoint Online external content connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/view-retrievable-page-content-mspo-rest-api.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -56,7 +57,7 @@ The upshot of this limitation is that pages built primarily with static text con
 
 2.  View static content for your selected page.
 
-    1.  In your web browser, navigate to `<site-url>/_api/web/lists('<list-id>')/items?$filter=FileLeafRef%20eq%20%27<filename>.aspx%27`, replacing `<site-url>` with your site URL, `<list-id>` with the GUID that you copied in step [1.c](view-retrievable-page-content-mspo-rest-api.md#copy-list-guid-step), and `<filename>` with the filename of the page you want to view searchable content for.
+    1.  In your web browser, navigate to `<site-url>/_api/web/lists('<list-id>')/items?$filter=FileLeafRef%20eq%20%27<filename>.aspx%27`, replacing `<site-url>` with your site URL, `<list-id>` with the GUID that you copied in step [1.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/view-retrievable-page-content-mspo-rest-api.md), and `<filename>` with the filename of the page you want to view searchable content for.
 
     2.  In the XML response, locate the CanvasContent1 and WikiField metadata fields and examine their values.
 
@@ -65,5 +66,5 @@ The upshot of this limitation is that pages built primarily with static text con
         **Note:** If the CanvasContent1 and WikiField metadata fields are missing or empty, the page is likely rendered entirely via dynamic web parts and does not contain static content that can be retrieved by the Microsoft SharePoint Online external content connector.
 
 
-**Parent Topic:**[Microsoft SharePoint Online external content connector](../concept/microsoft-sharepoint-online-external-content-connector.md)
+**Parent Topic:**[Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/microsoft-sharepoint-online-external-content-connector.md)
 

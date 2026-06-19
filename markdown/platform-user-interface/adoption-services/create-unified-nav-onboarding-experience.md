@@ -2,6 +2,7 @@
 title: Create Onboarding modals
 description: Create your own Onboarding modals to introduce your users to a new experience or application in your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/create-unified-nav-onboarding-experience.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
@@ -358,5 +359,5 @@ Your onboarding modal is created and published. The modal contains all configure
 
 Configure a launch trigger for your modal. See Launch an onboarding modal.
 
-**Parent Topic:**[Configure](../concept/configure-onboarding-modals.md)
+**Parent Topic:**[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/configure-onboarding-modals.md)
 

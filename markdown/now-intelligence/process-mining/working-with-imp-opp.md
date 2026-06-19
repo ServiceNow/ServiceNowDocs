@@ -2,6 +2,7 @@
 title: Working with improvement opportunities
 description: Set improvement opportunities to find areas of improvement by which you could optimize a process. You can either select from a list of rules available to you or set your own rules. Based on the rules set by you, you can view your areas of improvement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/working-with-imp-opp.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -32,10 +33,10 @@ There are two UI locations from where you can create the improvement opportuniti
 -   Classic view
 -   Finding Builder
 
--   **[Set improvement opportunities for process tables](impr-opp-table.md)**  
+-   **[Set improvement opportunities for process tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/impr-opp-table.md)**  
 Set rule-based or automated improvement opportunities for a process table from the Classic view or Finding Builder.
--   **[Setting improvement opportunity for projects](project-imp-opp.md)**  
+-   **[Setting improvement opportunity for projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/project-imp-opp.md)**  
 Set improvement opportunities for projects to find areas of improvement by which teams could optimize a process. You can either select from a list of rules available to you or set your own rules. Based on the rules set by you, you can view your areas of improvement.
 
-**Parent Topic:**[Using Process Mining](use-process-mining.md)
+**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/use-process-mining.md)
 

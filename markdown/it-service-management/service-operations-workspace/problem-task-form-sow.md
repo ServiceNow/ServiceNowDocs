@@ -2,6 +2,7 @@
 title: Problem task form
 description: Description of the field values for the problem task form in Service Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/problem-task-form-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -81,7 +82,7 @@ State
 
 </td><td>
 
-Value that changes as the problem proceeds from one state to another state.For information about state transitions of a problem task, see [Life cycle of a problem task](../../problem-management/concept/understanding-state-trans-prob-task.md).
+Value that changes as the problem proceeds from one state to another state.For information about state transitions of a problem task, see [Life cycle of a problem task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/understanding-state-trans-prob-task.md).
 
 </td></tr><tr><td>
 
@@ -144,5 +145,5 @@ Work notes \(Private\)
 Information about the work performed on the problem task.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Problem Management in Service Operations Workspace reference](../concept/reference-problem-management-sow.md)
+</table>**Parent Topic:**[Problem Management in Service Operations Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/reference-problem-management-sow.md)
 

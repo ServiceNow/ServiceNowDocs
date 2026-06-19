@@ -2,6 +2,7 @@
 title: Synthetic data generation skills
 description: You can use ServiceNow skills in Now Assist Skill Kit to generate data in Now Assist Data Kit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-data-kit/synthetic-data-generation-skills.html
 release: zurich
 product: Now Assist Data Kit
 classification: now-assist-data-kit
@@ -27,5 +28,5 @@ You should configure these skills with one model and one provider.
 
 **Note:** If you deactivate one of these skills, the synthetic data generation feature may not function correctly.
 
-For more information on using ServiceNow skills, see [Clone and edit a ServiceNow skill](../../now-assist-skill-kit/task/clone-and-edit-servicenow-skill.md).
+For more information on using ServiceNow skills, see [Clone and edit a ServiceNow skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/clone-and-edit-servicenow-skill.md).
 

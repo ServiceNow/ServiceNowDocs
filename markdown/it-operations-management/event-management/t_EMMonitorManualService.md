@@ -2,6 +2,7 @@
 title: Monitor alerts for an application services
 description: To view information for application services only, navigate to the application services list. From this list, you can open service maps to view and manage alerts for the CIs in each service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/t\_EMMonitorManualService.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -23,21 +24,21 @@ Role required: evt\_mgmt\_admin, evt\_mgmt\_operator, or evt\_mgmt\_user
 
 1.  Navigate to **All** &gt; **Event Management** &gt; **Services** &gt; **Application Services**.
 
-    ![Application service list](../image/application-service-list.png)
+    \[Omitted image "application-service-list.png"\] Alt text: Application service list
 
 2.  In the row of the required application services, click **View Map**.
 
 3.  Do one or more of the following.
 
-<table id="choicetable_manualservices"><thead><tr><th align="left" id="d400462e108">
+<table id="choicetable_manualservices"><thead><tr><th align="left" id="d379155e108">
 
 Option
 
-</th><th align="left" id="d400462e111">
+</th><th align="left" id="d379155e111">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d400462e117">
+</th></tr></thead><tbody><tr><td id="d379155e117">
 
 **View alert details for a CI**
 
@@ -47,7 +48,7 @@ In the service map:1.  Click a CI tile.
 2.  Below the map, click the **Alerts** tab and review the listed alerts.
 
 
-</td></tr><tr><td id="d400462e138">
+</td></tr><tr><td id="d379155e138">
 
 **View impact on the CI parent**
 
@@ -58,7 +59,7 @@ In the service map:1.  Click a CI tile.
 3.  Adjust the impact rules as necessary.
 
 
-</td></tr><tr><td id="d400462e162">
+</td></tr><tr><td id="d379155e162">
 
 **Change the map display, map layout, or map indicators**
 
@@ -68,14 +69,14 @@ In the service map header:1.  Click the menu icon.
 2.  Configure the appropriate settings.
 
 
-</td></tr><tr><td id="d400462e180">
+</td></tr><tr><td id="d379155e180">
 
 **Navigate to another application services**
 
 </td><td>
 
 In the service map header:1.  Click the down arrow next to the service name or the folder icon for all services.
-2.  Search for and select another application services \(![Manual application service icon](../image/EventManagementManualBSIcon.png)\).
+2.  Search for and select another application services \(\[Omitted image "EventManagementManualBSIcon.png"\] Alt text: Manual application service icon\).
  The icon color represents the highest impact or severity for active alerts on the application services.
 
 -   **Critical**: Red \(highest severity\).
@@ -84,7 +85,7 @@ In the service map header:1.  Click the down arrow next to the service name or t
 -   **Warning**: Blue \(lowest severity\).
 
 
-</td></tr><tr><td id="d400462e230">
+</td></tr><tr><td id="d379155e230">
 
 **View properties for a CI**
 
@@ -97,5 +98,5 @@ In the service map:1.  Click a CI tile.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Monitor service health](t_EMViewDashboard.md)
+**Parent Topic:**[Monitor service health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMViewDashboard.md)
 

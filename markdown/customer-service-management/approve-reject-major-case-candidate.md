@@ -2,7 +2,10 @@
 title: Approve or reject a major case candidate
 description: Users with the major issue manager role can approve or reject a major case candidate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/approve-reject-major-case-candidate.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -29,15 +32,15 @@ You can also approve or reject a major case candidate from Agent Workspace.
 
 3.  Select one of the following from the Case form context menu.
 
-<table id="choicetable_oz5_snv_ndb"><thead><tr><th align="left" id="d109751e93">
+<table id="choicetable_oz5_snv_ndb"><thead><tr><th align="left" id="d110912e93">
 
 Option
 
-</th><th align="left" id="d109751e96">
+</th><th align="left" id="d110912e96">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d109751e102">
+</th></tr></thead><tbody><tr><td id="d110912e102">
 
 **Approve Major Case Candidate**
 
@@ -49,7 +52,7 @@ Approves the current major case candidate as a major case. Upon approval:
 -   If the candidate case was created directly, the candidate case becomes the major case.
 
 
-</td></tr><tr><td id="d109751e122">
+</td></tr><tr><td id="d110912e122">
 
 **Reject Major Case Candidate**
 

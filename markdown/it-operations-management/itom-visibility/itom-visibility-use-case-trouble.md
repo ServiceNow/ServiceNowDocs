@@ -2,6 +2,7 @@
 title: ITOM Visibility considerations for CSDM framework
 description: Consider these points while implementing the CSDM framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/itom-visibility-use-case-trouble.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -23,7 +24,7 @@ Here are alternative methods for defining application services:
 -   Use a Dynamic CI group, based on a query.
 -   Use a tag-based approach \(commonly used for Cloud integrations\).
 
-For more information about creating application services, see [Create an application service](https://www.servicenow.com/docs/access?context=create-it-services&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+For more information about creating application services, see Create an application service.
 
-**Parent Topic:**[ITOM Visibility and CSDM reference](itom-visibility-use-case-product-view.md)
+**Parent Topic:**[ITOM Visibility and CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/itom-visibility-use-case-product-view.md)
 

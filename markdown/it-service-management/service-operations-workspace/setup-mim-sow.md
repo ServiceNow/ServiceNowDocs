@@ -2,6 +2,7 @@
 title: Setting up Major Incident Management in Service Operations Workspace
 description: Set up Major Incident Management \(MIM\) to manage major incidents from the incident record page in Service Operations Workspace. A major incident \(MI\) is an incident that results in significant disruption to the business and has a high business impact.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/setup-mim-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -21,5 +22,5 @@ A major incident demands a response beyond the routine incident management proce
 
 Setting up Major Incident Management in Service Operations Workspace involves installing Major Incident Management using Admin Center in Service Operations Workspace.
 
-Admin Center in Service Operations Workspace gives admins centralized control of the instance. It provides quick access to manage all customizations in Service Operations Workspace for IT Service Management \(ITSM\) and additional plugins that extend the Service Operations Workspace for ITSM capabilities. For more information on Admin Center, see [Admin Center in Service Operations Workspace for ITSM](admin-center-sow.md).
+Admin Center in Service Operations Workspace gives admins centralized control of the instance. It provides quick access to manage all customizations in Service Operations Workspace for IT Service Management \(ITSM\) and additional plugins that extend the Service Operations Workspace for ITSM capabilities. For more information on Admin Center, see [Admin Center in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/admin-center-sow.md).
 

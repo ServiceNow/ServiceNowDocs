@@ -2,6 +2,7 @@
 title: Setting up ITSM Virtual Agent
 description: Set up the ITSM Virtual Agent features and components that you need to provide support to your employees, IT teams, and customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-virtual-agent/setting-up-itsm-va.html
 release: zurich
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -15,18 +16,18 @@ breadcrumb: [ITSM Virtual Agent, IT Service Management]
 
 Set up the ITSM Virtual Agent features and components that you need to provide support to your employees, IT teams, and customers.
 
-ITSM Virtual Agent topics must be activated and published before your employees can use them. By default, the base system provides topics as inactive and unpublished. To view, duplicate, preview, or publish ITSM topics in the Virtual Agent Designer, see [Getting started with Virtual Agent Designer](https://www.servicenow.com/docs/access?context=conversation-designer-virtual-agent&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+ITSM Virtual Agent topics must be activated and published before your employees can use them. By default, the base system provides topics as inactive and unpublished. To view, duplicate, preview, or publish ITSM topics in the Virtual Agent Designer, see Getting started with Virtual Agent Designer.
 
--   **[Set up ITSM Virtual Agent](../task/setup-itsm-virtual-agent.md)**  
+-   **[Set up ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-virtual-agent/setup-itsm-virtual-agent.md)**  
 You can create and publish conversation topics in Virtual Agent Designer if you have administrator roles.
--   **[Set up the Local Admin Access topic](../task/setup-admin-access.md)**  
+-   **[Set up the Local Admin Access topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-virtual-agent/setup-admin-access.md)**  
 Administrators and users with the Virtual\_agent\_admin role can install and activate the Agent Client Collector Spoke plugin. Developers can update scripts and configure commands as needed for their organization.
--   **[Set up actionable notifications for ITSM Virtual Agent](../task/setup-actionable-notifications.md)**  
+-   **[Set up actionable notifications for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-virtual-agent/setup-actionable-notifications.md)**  
 Administrators and users with the virtual\_agent\_admin role can enable system notifications, trigger Workflow Studio flows for actionable notifications topics, and activate notifications in Virtual Agent.
--   **[Set up Issue Auto Resolution for ITSM Virtual Agent](../task/setup-itsm-ar.md)**  
+-   **[Set up Issue Auto Resolution for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-virtual-agent/setup-itsm-ar.md)**  
 Users with the virtual\_agent\_admin or admin role can configure Virtual Agent settings to indicate discoverable topics, set business rules, and more.
--   **[Enabling dialog intelligence](dialog-acts-itsm-va.md)**  
+-   **[Enabling dialog intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-virtual-agent/dialog-acts-itsm-va.md)**  
 Enable support for dialog intelligence in ITSM Virtual Agent to let the Virtual Agent dynamically react to user utterances and modifications during your conversation.
 
-**Parent Topic:**[ITSM Virtual Agent](itsm-virtual-agent.md)
+**Parent Topic:**[ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-virtual-agent/itsm-virtual-agent.md)
 

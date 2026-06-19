@@ -2,6 +2,7 @@
 title: Configure the Webhook on the Proofpoint DLP tenant for alert notifications to ServiceNow
 description: Configure a webhook on Proofpoint using the REST API endpoint to start getting the alerts from the Proofpoint DLP tenant. Your ServiceNow instance creates DLP incidents from these alerts. The Proofpoint DLP integration provides a REST API endpoint for end users to configure the webhook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/data-loss-prevention/configure-webhook-proofpoint-tenant-alert-notifications.html
 release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -62,5 +63,5 @@ Value: application/json
 15. Click **Save**.
 
 
-**Parent Topic:**[Install and configure the Proofpoint integration for Data Loss Prevention](install-configure-proofpoint-integration-dlp.md)
+**Parent Topic:**[Install and configure the Proofpoint integration for Data Loss Prevention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/install-configure-proofpoint-integration-dlp.md)
 

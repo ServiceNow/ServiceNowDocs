@@ -2,6 +2,7 @@
 title: Connect your custom embedding model with the Generative AI application
 description: Integrate your custom embedding model with a capability definition to help the Generative AI application understand your data better and deliver more relevant, tailored responses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/connect-em-with-genai.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -25,9 +26,9 @@ Role required: admin
 
 2.  Select **New**.
 
-3.  Ensure that **Definition Table** field is prepopulated with sys\_one\_extend\_capability\_definition.
+3.  Verify that **Definition Table** field is prepopulated with sys\_one\_extend\_capability\_definition.
 
-4.  In the **Definition** field, select the search icon \(![Lookup documents using list.](../../../common/image/Banner_GlobalTextSearchIcon.png)\)to select the definition document.
+4.  In the **Definition** field, select the search icon \(\[Omitted image "Banner\_GlobalTextSearchIcon.png"\] Alt text: Lookup documents using list.\)to select the definition document.
 
     1.  In the **Table name** field, select One API System Executor \[one\_api\_system\_executor\].
 
@@ -46,7 +47,7 @@ Role required: admin
 
         For example, `/text-embedding-3-large/embeddings?api-version=2023-05-15`.
 
-        It ensures that the base URL remains generic and reusable, while the specific resource path can be adjusted as needed for different models. For more information, see [Configuring resource path for your custom embedding model](../reference/configuring-resource-path-for-byom.md).
+        It ensures that the base URL remains generic and reusable, while the specific resource path can be adjusted as needed for different models. For more information, see [Configuring resource path for your custom embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configuring-resource-path-for-byom.md).
 
 8.  Select **Submit**.
 

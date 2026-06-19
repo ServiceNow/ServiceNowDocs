@@ -2,6 +2,7 @@
 title: Defining On-Call Scheduling escalation process
 description: Create shift and group templates, escalation policies and trigger rules. Design escalation process and track progress of an escalation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/on-call-scheduling/defining-escalation-process-and-template.html
 release: zurich
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -17,19 +18,19 @@ Create shift and group templates, escalation policies and trigger rules. Design 
 
 As rota\_admin you can perform these tasks for your user groups.
 
--   [Designing an escalation process](../../on-call-scheduling/concept/designing-escalation-process-oncall.md)
--   [Track the progress of an escalation](../../on-call-scheduling/task/track-escalation-progress-oncall.md)
--   [Create a shift template to simplify configuring shifts](../../on-call-scheduling/task/create-shift-template.md)
--   [Create a group template to simplify configuring schedules](../../on-call-scheduling/task/create-group-template.md)
+-   [Designing an escalation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/designing-escalation-process-oncall.md)
+-   [Track the progress of an escalation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/track-escalation-progress-oncall.md)
+-   [Create a shift template to simplify configuring shifts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/create-shift-template.md)
+-   [Create a group template to simplify configuring schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/create-group-template.md)
 
--   **[Escalations in On-Call Scheduling](../../on-call-scheduling/concept/escalations-oncall.md)**  
+-   **[Escalations in On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/escalations-oncall.md)**  
 An escalation is a mechanism that ensures that important issues are addressed in a timely manner.
--   **[Assigning On-Call Scheduling roles](../../on-call-scheduling/concept/roles-assigning-oncall.md)**  
+-   **[Assigning On-Call Scheduling roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/roles-assigning-oncall.md)**  
 Admins can assign On-Call Scheduling roles to user groups and to individual users based on user activities and responsibilities.
--   **[Create a shift template to simplify configuring shifts](../../on-call-scheduling/task/create-shift-template.md)**  
+-   **[Create a shift template to simplify configuring shifts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/create-shift-template.md)**  
 You can predefine sets of shift settings using shift templates. Shift templates are a subset of group templates.
--   **[Create a group template to simplify configuring schedules](../../on-call-scheduling/task/create-group-template.md)**  
+-   **[Create a group template to simplify configuring schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/create-group-template.md)**  
 Create templates to help your group create on-call schedules. For example, use the 24/7 template, which is available in the on-call demo data, to create on-call schedules for continuous service.
 
-**Parent Topic:**[On-Call Scheduling](../../on-call-scheduling/concept/c_OnCallScheduling.md)
+**Parent Topic:**[On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/c_OnCallScheduling.md)
 

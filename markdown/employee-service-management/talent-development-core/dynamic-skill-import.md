@@ -2,6 +2,7 @@
 title: Dynamic skill import for harmonization
 description: Import, review, and harmonize the new skills brought in from third-party sources \(currently only through Credly\) into the skills library \(cmn\_skills table\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/dynamic-skill-import.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -40,13 +41,13 @@ Important behavior - When a skill is mapped, a new entry is not created for the 
 
 1.  Navigate to **All** &gt; **Skills Workspace**.
 
-2.  Select the Lists icon \(![Lists icon](../../ohs-incident-management/image/list-icon-hs.png)\).
+2.  Select the Lists icon \(\[Omitted image "list-icon-hs.png"\] Alt text: Lists icon\).
 
 3.  Select **Import history** &gt; **Queue**.
 
 4.  Select one or more records for the import.
 
-    **Note:** Use **Select all** option to bulk import the skills. Alternatively, use the Custom import option in the Skill import playbook to import all the skills in the dynamic queue. For more information, see [Bring in skills through Skills import](import-and-validate-custom-skills-onboarding.md).
+    **Note:** Use **Select all** option to bulk import the skills. Alternatively, use the Custom import option in the Skill import playbook to import all the skills in the dynamic queue. For more information, see [Bring in skills through Skills import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/import-and-validate-custom-skills-onboarding.md).
 
 5.  Select the **Edit** option to update missing data in the Description, Skill import tracker, Level type, and Source fields.
 
@@ -58,10 +59,10 @@ Important behavior - When a skill is mapped, a new entry is not created for the 
 
 8.  Select **Next**.
 
-    Follow the next steps to complete the import. For more information, see [Bring in skills through Skills import](import-and-validate-custom-skills-onboarding.md).
+    Follow the next steps to complete the import. For more information, see [Bring in skills through Skills import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/import-and-validate-custom-skills-onboarding.md).
 
 
 ## Result
 
-The harmonized new skills are added to the skills library \(cmn\_skills table\) and updated in the credentials badge skills metadata. For more information, see [Achievements and Credentials in Talent Development Core](../../employee-service-management/concept/achievements-and-credentials-in-td.md).
+The harmonized new skills are added to the skills library \(cmn\_skills table\) and updated in the credentials badge skills metadata. For more information, see [Achievements and Credentials in Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/achievements-and-credentials-in-td.md).
 

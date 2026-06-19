@@ -2,6 +2,7 @@
 title: The Tenable Vulnerability Integration with Configuration Compliance
 description: The Tenable.io product of the Tenable Vulnerability Integration imports policies, controls \(test results\), and configuration tests for processing in the Configuration Compliance application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/cc-tenable-integration-overview.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance
@@ -40,7 +41,7 @@ Assets data, policies, controls \(test results\), and configuration tests are im
 
 The following image illustrates how the integrations work together to import asset and configuration assessment data and reconcile any ignored CIs overlooked during an import.
 
-![Sequence for the three tenable integrations, Assets, Configuration Compliance Results, and Compliance Results Backfill to update test, policy, and test result records](../../secops-integration-vr/tenable/image/vr-tenable-cc-data.png "Import flow for secure configuration assessment results")
+\[Omitted image "vr-tenable-cc-data.png"\] Alt text: Sequence for the three tenable integrations, Assets, Configuration Compliance Results, and Compliance Results Backfill to update test, policy, and test result records
 
 Data is imported, updated, and displayed on the test result, policy, and configuration test records in the Configuration Compliance application.
 
@@ -54,7 +55,7 @@ By comparing values in the **Ignored CIs** fields on each integration run record
 
 **Note:** It may take multiple runs of these integrations to import all the ignored assets.
 
-For more information about how to enable and configure the Tenable.io Asset Integration, see [Configure the Tenable Vulnerability Integration using Setup Assistant](../../secops-integration-vr/tenable/task/vr-tenable-config-in-SA.md). See [Understanding the Tenable Vulnerability Integration](../../secops-integration-vr/tenable/concept/tenableIntegration.md) for more information about the integration.
+For more information about how to enable and configure the Tenable.io Asset Integration, see [Configure the Tenable Vulnerability Integration using Setup Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/vr-tenable-config-in-SA.md). See [Understanding the Tenable Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/tenableIntegration.md) for more information about the integration.
 
 The Tenable.io Compliance Results Integration and the Tenable.io Compliance Results Backfill Integration are inactive by default.
 

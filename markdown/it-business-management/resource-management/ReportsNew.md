@@ -2,11 +2,12 @@
 title: Edit a resource management report
 description: Resource management reports show resource allocation details in different formats for different time periods. Configure and use these reports according to your business requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/resource-management/ReportsNew.html
 release: zurich
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 2
 breadcrumb: [Resource Management reports, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -21,7 +22,7 @@ Role required: resource\_user or admin
 
 **Important:** Resource Management reports is deprecated starting Zurich release. It will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-Alternatively, resource managers are encouraged to use the interactive Overview Dashboard in the Resource Management Workspace. For more information about dashboards, see [Overview dashboard in Resource Management Workspace](../../resource-management-workspace/concept/using-rmw.md#section_v4k_rtg_1fc).
+Alternatively, resource managers are encouraged to use the interactive Overview Dashboard in the Resource Management Workspace. For more information about dashboards, see [Overview dashboard in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/using-rmw.md).
 
 ## About this task
 
@@ -33,15 +34,15 @@ You can update the report settings like the aggregation type, request type, and 
 
     The following reports are displayed.
 
-<table id="choicetable_x5n_c1w_mbb"><thead><tr><th align="left" id="d68821e110">
+<table id="choicetable_x5n_c1w_mbb"><thead><tr><th align="left" id="d70944e110">
 
 Report
 
-</th><th align="left" id="d68821e113">
+</th><th align="left" id="d70944e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d68821e119">
+</th></tr></thead><tbody><tr><td id="d70944e119">
 
 **Resource — Group Allocation Details — Monthly \(Hrs\)**
 
@@ -49,7 +50,7 @@ Description
 
 Stack bar chart shows the breakdown of allocated time and available time of a group.
 
-</td></tr><tr><td id="d68821e128">
+</td></tr><tr><td id="d70944e128">
 
 **Resource — Group Member Allocation Details — Monthly \(Hrs\)**
 
@@ -59,7 +60,7 @@ Pivot report shows capacity, availability, and allocated hours of all group memb
 
  Select a group and run the report.
 
-</td></tr><tr><td id="d68821e143">
+</td></tr><tr><td id="d70944e143">
 
 **Resource — Group Member Allocation Details — Weekly \(Hrs\)**
 
@@ -69,7 +70,7 @@ Pivot report shows capacity, availability, and allocated hours of all group memb
 
  Select a group and run the report.
 
-</td></tr><tr><td id="d68821e158">
+</td></tr><tr><td id="d70944e158">
 
 **Resource — Project Member Allocation Details — Monthly \(Hrs\)**
 
@@ -77,7 +78,7 @@ Pivot report shows capacity, availability, and allocated hours of all group memb
 
 Pivot report shows the list of users allocated to a project on a monthly scale. The report shows allocated and actual hours of every user. Select a project and run the report.
 
-</td></tr><tr><td id="d68821e171">
+</td></tr><tr><td id="d70944e171">
 
 **Resource — Task wise — Group Member Allocation Details — Monthly \(Hrs\)**
 
@@ -89,7 +90,7 @@ Pivot report shows the following information for every member of the group:
 -   Allocated time and actual time spent by the member on the allocated tasks, on monthly basis, for the next two quarters.
 
 
-</td></tr><tr><td id="d68821e191">
+</td></tr><tr><td id="d70944e191">
 
 **Resource — Task wise — Group Member Allocation Details — Weekly \(Hrs\)**
 
@@ -108,5 +109,5 @@ Pivot report shows the following information for every member of the group:
 3.  Select **Create a report** to create report.
 
 
-**Parent Topic:**[Resource Management reports](../concept/c_UsingResourceManagementReports.md)
+**Parent Topic:**[Resource Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/c_UsingResourceManagementReports.md)
 

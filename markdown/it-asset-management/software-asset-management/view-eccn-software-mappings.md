@@ -2,6 +2,7 @@
 title: View Export Classification Control Number \(ECCN\) mappings for your software products
 description: View the list of ECCNs that are mapped to your software products. Use this information to identify the products that are subject to U.S. export control regulations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/view-eccn-software-mappings.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -36,5 +37,5 @@ An ECCN is a five character alphanumeric key that helps you identify products th
     **Note:** ECCN mappings are curated and stored in the Software Asset Management Content Library. However, the Content Service team does not dictate any mappings between the ECCNs and software products. Each ECCN is mapped to an appropriate software product based only on either the official ECCN information that has been published by the given software publisher or the official classifications that have been provided by the Bureau of Industry and Security \(BIS\).
 
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/using-sam-workspace.md)
 

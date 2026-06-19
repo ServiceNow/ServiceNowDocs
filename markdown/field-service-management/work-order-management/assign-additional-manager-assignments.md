@@ -2,6 +2,7 @@
 title: Assign additional manager assignments to an agent
 description: As a manager of a contractor company, you can assign additional manager role to the agents in your teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/assign-additional-manager-assignments.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

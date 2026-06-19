@@ -2,6 +2,7 @@
 title: Updating dashboards for planning calendar changes in EAP
 description: Update the EAP dashboard configuration whenever there are changes to the planning calendar for any currently active configurations in Enterprise Agile Planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/enterprise-agile-planning/updating-dashboards-for-planning-calendar-changes-in-eap.html
 release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -19,17 +20,17 @@ When your product managers update the planning calendars for an EAP configuratio
 
 For example, the Agile Team's Planning Calendar value is updated from **Sprint** to **None** for a Full Configuration. Then, the Home tab should no longer display sprint-related reports such as Burnup or Burndown charts, Sprint velocity, and others.
 
-![Planning calendar changes for a Full configuration in EAP workspace.](../images/eap-planning-calendar-update.png)
+\[Omitted image "eap-planning-calendar-update.png"\] Alt text: Planning calendar changes for a Full configuration in EAP workspace.
 
 To ensure this change, you must configure new dashboards according to the latest planning calendar and replace the existing Agile Team dashboards of the Full Configuration with the new ones.
 
-![Updating Home dashboards for an EAP configuration.](../images/eap-dashboard-update-config-detail.png)
+\[Omitted image "eap-dashboard-update-config-detail.png"\] Alt text: Updating Home dashboards for an EAP configuration.
 
 This procedure involves a series of tasks as listed here:
 
-1.  For the latest planning calendar, create a dashboard or duplicate the existing dashboard and add the reports that your teams want to have. See [Create a dashboard in EAP](../task/create-a-dashboard-in-eap.md).
-2.  [Add a tag to the EAP dashboard](../task/add-tag-to-the-eap-dashboard.md).
-3.  [Associate the EAP read-only role to the dashboard](../task/add-the-eap-read-only-role-to-the-dashboard.md).
-4.  Add the newly created dashboard to the EAP configuration that has the planning calendar change. See [Add EAP dashboards to an Agile configuration](../task/associate-the-eap-dashboard-with-agile-configuration.md).
-5.  \(Optional\) [Create implementation of a Scripted Extension Point in EAP](../task/create-or-update-scripted-extension-point-in-eap.md).
+1.  For the latest planning calendar, create a dashboard or duplicate the existing dashboard and add the reports that your teams want to have. See [Create a dashboard in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/create-a-dashboard-in-eap.md).
+2.  [Add a tag to the EAP dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/add-tag-to-the-eap-dashboard.md).
+3.  [Associate the EAP read-only role to the dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/add-the-eap-read-only-role-to-the-dashboard.md).
+4.  Add the newly created dashboard to the EAP configuration that has the planning calendar change. See [Add EAP dashboards to an Agile configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/associate-the-eap-dashboard-with-agile-configuration.md).
+5.  \(Optional\) [Create implementation of a Scripted Extension Point in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/create-or-update-scripted-extension-point-in-eap.md).
 

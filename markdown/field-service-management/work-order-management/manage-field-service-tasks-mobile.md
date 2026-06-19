@@ -2,6 +2,7 @@
 title: Prioritizing on ServiceNow Agent
 description: Accept or reject tasks, assign tasks to yourself and plan your schedule for the day, view task details, schedule, and task location, or close a work order task using your mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/manage-field-service-tasks-mobile.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

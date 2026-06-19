@@ -2,6 +2,7 @@
 title: Configure reports HR Service Delivery Advanced Integration with Workday
 description: Configure the necessary reports to pull data, such as time offs plans, time off reasons, holiday calendar WID, and work schedule calendar WID, from Workday into the ServiceNow tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/awd-config-re.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -31,7 +32,7 @@ To use the Time off request functionality, create the following reports:
 -   Time off types
 -   Time offs
 
-**Note:** For information about the Time off request functionality, see [Time off request to Workday](w-timeoff.md).
+**Note:** For information about the Time off request functionality, see [Time off request to Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/w-timeoff.md).
 
 ## Payroll use case
 
@@ -39,7 +40,7 @@ To use the Payslip discrepancy functionality, create the Look up payslip report.
 
 **Note:**
 
--   For information about the Payslip discrepancy functionality, see [Report an issue with your payslip](../task/payslips-awd.md).
+-   For information about the Payslip discrepancy functionality, see [Report an issue with your payslip](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/payslips-awd.md).
 -   For information about the Look up payslip report creation, see this [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0994511).
 
 ## Total rewards use case
@@ -48,7 +49,7 @@ To use the Total rewards functionality, create the Total Rewards report.
 
 **Note:**
 
--   For more information about the Total rewards functionality, see [Set up Total Rewards using Workday](../task/total-rewards-awd.md).
+-   For more information about the Total rewards functionality, see [Set up Total Rewards using Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/total-rewards-awd.md).
 -   For information about the Total Rewards report creation, see this [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0994518).
 
 ## Holiday calendar use case
@@ -58,6 +59,6 @@ To use the Holiday calendar functionality, create the Get holiday calendar WID r
 **Note:**
 
 -   If you have already created Get holiday calendar WID report for the Time off request functionality, creating another report of Get holiday calendar WID is not required.
--   For more information about the Holiday Calendars functionality, see [Holiday calendars](../task/holiday-calendar-awd.md).
+-   For more information about the Holiday Calendars functionality, see [Holiday calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/holiday-calendar-awd.md).
 -   For information about the Holiday Calendar report creation, see this [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0994509) .
 

@@ -2,6 +2,7 @@
 title: Generate work orders
 description: Generate work orders for the schedule occurrence either manually or by configuring an automated job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/create-work-orders.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -28,7 +29,7 @@ When the work order is generated, the dates are set as follows:
 -   The **Window start** and **Window end** dates for the associated work order tasks are auto populated with the schedule occurrence's **Earliest Start Date** \(with lead time adjustment\) and **Requested Due By** dates.
 -   If the **Scheduled Start** and **Requested Due By** of a work order are identical, by default, the **Window start** duration of the associated work order task is set to one hour prior to the **Requested Due By** duration.
 
-To run a scheduled job to generate work orders, see [Run a scheduled job to execute a planned work schedule](../task/run-schedule-job-planned-work.md).
+To run a scheduled job to generate work orders, see [Run a scheduled job to execute a planned work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/run-schedule-job-planned-work.md).
 
-To generate work orders manually, see [Generate work orders for schedule occurrences](../task/create_wo_schedule_occurrence.md).
+To generate work orders manually, see [Generate work orders for schedule occurrences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/create_wo_schedule_occurrence.md).
 

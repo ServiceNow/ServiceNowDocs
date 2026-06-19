@@ -2,6 +2,7 @@
 title: Add an unmanaged cloud account
 description: Managing a cloud account involves tracking budgets, checking for configuration violations, and validating certificates. The procedure helps you to onboard an unmanaged cloud account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/add-unmanaged-account-cam.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
@@ -31,7 +32,7 @@ Role required: sn\_itom\_cam.cw\_admin
 
 4.  On the Request form, fill in Cost center, Department, Account owner, and Business Unit fields.
 
-    For a description of the field values, see [New cloud account request form](../reference/account-creation-details.md).
+    For a description of the field values, see [New cloud account request fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/account-creation-details.md).
 
 5.  Select **Update Account Details &amp; Manage**.
 

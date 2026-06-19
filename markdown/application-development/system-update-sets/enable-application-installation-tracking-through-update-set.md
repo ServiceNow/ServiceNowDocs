@@ -2,6 +2,7 @@
 title: Enable application installation tracking through an update set
 description: You can add specific applications or versions as an app installation and configure to track them in an update set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/system-update-sets/enable-application-installation-tracking-through-update-set.html
 release: zurich
 product: System Update Sets
 classification: system-update-sets

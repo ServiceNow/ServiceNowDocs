@@ -2,6 +2,7 @@
 title: Create a signal in Proactive Prompts
 description: Configure signals to determine what prompts to send, whom to send them to, where and when to send them, and to generate them to send to your user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/proactive-prompts/proactive-prompts-signal-create.html
 release: zurich
 product: Proactive Prompts
 classification: proactive-prompts
@@ -35,7 +36,7 @@ Role required: sn\_pp.admin
 
 6.  In the **Schedule** field, select a schedule that determines the frequency of sending the prompt to the user.
 
-    For more information on schedules, see [Configure signal schedules in Proactive Prompts](proactive-prompts-signal-schedules.md).
+    For more information on schedules, see [Configure signal schedules in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/proactive-prompts/proactive-prompts-signal-schedules.md).
 
 7.  In the **Priority** field, select the priority to determine the display order of the prompts on the prompt widget.
 
@@ -45,11 +46,11 @@ Role required: sn\_pp.admin
 
 9.  In the **Category tags** field, select the category for the signal, which is used to pull the specific prompts on the prompt widget.
 
-    For more information, see [Configure signal categories in Proactive Prompts](proactive-prompts-signal-catergories.md).
+    For more information, see [Configure signal categories in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/proactive-prompts/proactive-prompts-signal-catergories.md).
 
 10. In the **Channels and actions** field, select the channel where you want the prompts to be displayed and the actions that you want to associate with the channel.
 
-    For more information, see [Configure delivery channels in Proactive Prompts](proactive-prompts-config-channels.md).
+    For more information, see [Configure delivery channels in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/proactive-prompts/proactive-prompts-config-channels.md).
 
 11. In the **Receiving user** field, select the user that you want to receive the prompt, either the manager or an employee.
 
@@ -59,7 +60,7 @@ Role required: sn\_pp.admin
     -   The manager of an employee is derived from the **Manager** field in the User \[sys\_user\] table.
 12. On the **Signal Source** tab, select the data source method to retrieve the data in the **Datasource** field.
 
-    For more information, see [Types of data sources in Proactive Prompts](../reference/proactive-prompts-data-source.md).
+    For more information, see [Types of data sources in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/proactive-prompts/proactive-prompts-data-source.md).
 
 13. On the **Prompt template** tab, fill in the fields.
 
@@ -79,7 +80,7 @@ Prompt header
 
 </td><td>
 
-Header for the prompt or create a header. For information on adding a new header, see [Add a new prompt header to identify the prompt](proactive-prompts-add-header.md).The header is an icon and a label that is displayed on the prompt to identify the type of prompt on the Employee Portal. For example, you could have headers for Skills, Learning, Roles, and so on.
+Header for the prompt or create a header. For information on adding a new header, see [Add a new prompt header to identify the prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/proactive-prompts/proactive-prompts-add-header.md).The header is an icon and a label that is displayed on the prompt to identify the type of prompt on the Employee Portal. For example, you could have headers for Skills, Learning, Roles, and so on.
 
 **Note:** If no header is selected, then the header that's marked as default is added to the prompt and displayed.
 
@@ -105,7 +106,7 @@ Multiple record display
 
 </td><td>
 
-Template for the message to display to users when the prompt is generated for multiple records.For more information, see [Tokens in Proactive Prompts](../reference/proactive-prompts-tokens.md).
+Template for the message to display to users when the prompt is generated for multiple records.For more information, see [Tokens in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/proactive-prompts/proactive-prompts-tokens.md).
 
 </td></tr><tr><td>
 
@@ -113,7 +114,7 @@ URL
 
 </td><td>
 
-URL that the user can access in the **View details** option on the Employee Portal or **Take action** option for Virtual Agent.For more information, see [Actions and action groups in Proactive Prompts](../reference/proactive-prompts-actions.md).
+URL that the user can access in the **View details** option on the Employee Portal or **Take action** option for Virtual Agent.For more information, see [Actions and action groups in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/proactive-prompts/proactive-prompts-actions.md).
 
 </td></tr></tbody>
 </table>    You've created a template that is delivered as a message in the prompt to the user.

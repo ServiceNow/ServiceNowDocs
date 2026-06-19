@@ -2,6 +2,7 @@
 title: Dispute Rules Content Pack for Nacha reference
 description: Learn about the components and properties that are installed with the Dispute Rules Content Pack for Nacha application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/dispute-rules-content-pack-nacha-reference.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -16,10 +17,10 @@ breadcrumb: [Dispute Rules Content Pack for Nacha, Dispute Management, Banking a
 
 Learn about the components and properties that are installed with the Dispute Rules Content Pack for Nacha application.
 
--   **[Components installed with Dispute Rules Content Pack for Nacha](components-installed-with-dispute-rules-content-pack-for-nacha.md)**  
+-   **[Components installed with Dispute Rules Content Pack for Nacha](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/components-installed-with-dispute-rules-content-pack-for-nacha.md)**  
 Several types of components are installed with Dispute Rules Content Pack for Nacha.
--   **[Domain separation and Dispute Rules Content Pack for Nacha](domain-separation-dispute-rules-content-pack-nacha.md)**  
+-   **[Domain separation and Dispute Rules Content Pack for Nacha](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/domain-separation-dispute-rules-content-pack-nacha.md)**  
 Domain separation is unsupported for Dispute Rules Content Pack for Nacha. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[Dispute Rules Content Pack for Nacha](../concept/dispute-rules-content-pack-for-nacha.md)
+**Parent Topic:**[Dispute Rules Content Pack for Nacha](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/dispute-rules-content-pack-for-nacha.md)
 

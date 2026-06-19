@@ -2,6 +2,7 @@
 title: Modify data retention policy for ATF test results
 description: Modify the Auto Flush data retention policy, which designates how long the system retains data, and referencing data, for test and test suite results. You can change the frequency of flushing for the sys\_atf\_test\_result or sys\_atf\_test\_suite\_result base tables. This setting controls how far back in time test result data is available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/atf-edit-table-cleanup.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -49,10 +50,10 @@ The system regularly flushes data in the sys\_atf\_test\_result and sys\_atf\_te
 
 5.  In the **Conditions** field, specify the filter conditions to use for selection of data \(and optionally, referencing data\) for this Auto Flush retention policy.
 
-    The default is **Retain indefinitely is false**, because the [Test results record](../reference/atf-test-results-record.md) also contains a **Retain indefinitely** check box that allows opting out of the auto flushes for specific test results.
+    The default is **Retain indefinitely is false**, because the [Test results record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-test-results-record.md) also contains a **Retain indefinitely** check box that allows opting out of the auto flushes for specific test results.
 
 6.  Click **Update**.
 
 
-**Parent Topic:**[Administering the Automated Test Framework \(ATF\)](../concept/atf-admin-overview.md)
+**Parent Topic:**[Administering the Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-admin-overview.md)
 

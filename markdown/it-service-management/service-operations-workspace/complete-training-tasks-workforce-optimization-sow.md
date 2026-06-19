@@ -2,6 +2,7 @@
 title: Complete learning tasks using the Service Operations Workspace
 description: Enhance your skills set by completing learning tasks from internal or external learning content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/complete-training-tasks-workforce-optimization-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -23,7 +24,7 @@ Role required: sn\_wfo\_cfg\_itsm.employee
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the Learning icon ![Learning icon](../../configurable-workforce-optimization-itsm/image/coaching-icon-uib.png).
+2.  Select the Learning icon \[Omitted image "coaching-icon-uib.png"\] Alt text: Learning icon.
 
 3.  Select the **My learning** tab.
 
@@ -37,15 +38,15 @@ Role required: sn\_wfo\_cfg\_itsm.employee
     -   Select the **Completed** tab to view the list of tasks sorted by the date they were completed.
 4.  Complete a learning task.
 
-<table id="choicetable_pjd_rgc_d5b"><thead><tr><th align="left" id="d290774e126">
+<table id="choicetable_pjd_rgc_d5b"><thead><tr><th align="left" id="d151282e126">
 
 If
 
-</th><th align="left" id="d290774e129">
+</th><th align="left" id="d151282e129">
 
 Then
 
-</th></tr></thead><tbody><tr><td id="d290774e135">
+</th></tr></thead><tbody><tr><td id="d151282e135">
 
 **The task is associated with a learning path**
 
@@ -55,7 +56,7 @@ You can do any of the following:-   Select the task and view details of the task
 -   Select a task that's in progress and complete it.
 **Note:** You must complete the courses in the path in the given order to complete the learning task. After you complete all learning tasks in a path, the course items associated with the path display the status as **Complete** in the **Discover** tab.
 
-</td></tr><tr><td id="d290774e163">
+</td></tr><tr><td id="d151282e163">
 
 **The task is associated with a course item**
 
@@ -67,7 +68,7 @@ You can view the course description and the skills associated with the course it
 
 **Note:** After you complete an external course item, it is automatically marked as complete.
 
-</td></tr><tr><td id="d290774e183">
+</td></tr><tr><td id="d151282e183">
 
 **The task is a quiz associated with a learning path**
 
@@ -86,5 +87,5 @@ If you have a quiz associated with the learning path:1.  Select the path.
 </table>    The skills associated with the tasks are added to your skill set.
 
 
-**Parent Topic:**[Learning path and course item discovery in Service Operations Workspace](../concept/discovering-learning-sow-wfo-itsm.md)
+**Parent Topic:**[Learning path and course item discovery in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/discovering-learning-sow-wfo-itsm.md)
 

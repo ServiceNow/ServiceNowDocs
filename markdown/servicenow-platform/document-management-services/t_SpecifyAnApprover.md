@@ -2,6 +2,7 @@
 title: Specify an approver
 description: You can specify approvers for a document record after you save it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/t\_SpecifyAnApprover.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -31,7 +32,7 @@ You can have one approver or multiple approvers. For example, set multiple appro
 
 1.  Navigate to the document record.
 
-2.  Select the additional actions icon ![Additional Actions icon](../../document-services/image/additional-actions-icon.png) and select **Add Approver**.
+2.  Select the additional actions icon \[Omitted image "additional-actions-icon.png"\] Alt text: Additional Actions icon and select **Add Approver**.
 
 3.  Add a user name.
 
@@ -44,5 +45,5 @@ You can have one approver or multiple approvers. For example, set multiple appro
 6.  Repeat steps 2-5 to add more approvers.
 
 
-**Parent Topic:**[Create or request a new document](t_CreateOrRequestANewDocument.md)
+**Parent Topic:**[Create or request a new document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/t_CreateOrRequestANewDocument.md)
 

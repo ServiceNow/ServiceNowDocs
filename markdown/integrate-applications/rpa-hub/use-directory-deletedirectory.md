@@ -2,6 +2,7 @@
 title: Use the DeleteDirectory component
 description: Delete a directory by using the DeleteDirectory component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/use-directory-deletedirectory.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the DeleteDirectory component. For more information about these properties, see [Properties of the Directory components](../reference/util-directory-prop.md).
+You can configure the properties for the DeleteDirectory component. For more information about these properties, see [Properties of the Directory components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/util-directory-prop.md).
 
 ## Procedure
 
@@ -40,5 +41,5 @@ You can configure the properties for the DeleteDirectory component. For more inf
 4.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Directory](../concept/directory.md)
+**Parent Topic:**[Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/directory.md)
 

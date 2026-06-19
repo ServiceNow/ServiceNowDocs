@@ -2,6 +2,7 @@
 title: Implement a check timeout threshold
 description: Set the execution time of an individual check by implementing timeout system property. Setting of a timeout threshold prevents your instance from running a long check.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/instance-scan/hs-health-check-quota-rule.html
 release: zurich
 product: Instance Scan
 classification: instance-scan
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  From the System Properties list, select **glide.scan.process\_check.time\_out**.
 
-    **Note:** If **glide.scan.process\_check.time\_out** is not present in the list, see [Create a new check timeout system property](hs-create-new-heath-check-timeout.md) for more information.
+    **Note:** If **glide.scan.process\_check.time\_out** is not present in the list, see [Create a new check timeout system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/instance-scan/hs-create-new-heath-check-timeout.md) for more information.
 
 3.  In the **Value** field, set the execution time for the check in seconds.
 

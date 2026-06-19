@@ -2,6 +2,7 @@
 title: Splunk event actions
 description: When reviewing Splunk logs, you can rapidly create security events and security incidents from any item in the log using the Event Actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/event-actions.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

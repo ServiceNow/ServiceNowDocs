@@ -2,6 +2,7 @@
 title: Resolve Conflicts form
 description: The Resolve Conflicts form you compare to the base system version with the customized version of a record and reconcile the differences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/upgrade-management/um-resolve-conflicts-form.html
 release: zurich
 product: Upgrade Management
 classification: upgrade-management
@@ -15,11 +16,11 @@ breadcrumb: [Resolve conflicts for an individual record, Upgrade Monitor tool in
 
 The Resolve Conflicts form you compare to the base system version with the customized version of a record and reconcile the differences.
 
-![Image showing Resolve Conflicts form](../../upgrade-center/image/uc-resolve-conflict-form.png)
+\[Omitted image "uc-resolve-conflict-form.png"\] Alt text: Image showing Resolve Conflicts form
 
 ## Fields
 
 The fields this form displays depend on the type of record you are reconciling. The left column shows the records fields in the base system, including the proposed changes that are part of the upgrade. The right column shows the fields for your customized record.
 
-**Parent Topic:**[Resolve conflicts for an individual record](../task/um-resolve-conflict.md)
+**Parent Topic:**[Resolve conflicts for an individual record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-resolve-conflict.md)
 

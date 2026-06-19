@@ -2,6 +2,7 @@
 title: Workflows in Legal Service Delivery
 description: The Legal Request Management application installs automated workflows for electronic signature and external storage. These workflows enable support for multiple integrations and accounts at the same time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/legal-integration-app-workflows.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -15,7 +16,7 @@ breadcrumb: [Legal Service Delivery, Legal and Contract Operations, Employee Ser
 
 The Legal Request Management application installs automated workflows for electronic signature and external storage. These workflows enable support for multiple integrations and accounts at the same time.
 
-These workflows available in Legal Service Delivery are built using [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+These workflows available in Legal Service Delivery are built using .
 
 **Note:** All workflows for Legal Service Delivery applications are read-only by default.
 

@@ -2,6 +2,7 @@
 title: Licensing rules for BYOL and BYOS
 description: View the bring your own license \(BYOL\) licensing rules for Microsoft and Oracle products in public cloud environments. In addition, view bring your own subscription \(BYOS\) licensing rules for Red Hat Enterprise Linux \(RHEL\) products in public cloud environments. Licensing rules can differ for virtual machines that reside on shared hosts or dedicated hosts across different cloud providers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/byol-license-rules.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -410,5 +411,5 @@ One on-premise subscription license is required for every two cloud-based virtua
 
 **Note:** This rule is only one of the licensing rules for Red Hat Enterprise Linux Server BYOS. Refer to the official Red Hat Enterprise Linux website for the complete list of licensing rules.
 
-**Parent Topic:**[Software Asset Management references](references.md)
+**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/references.md)
 

@@ -2,6 +2,7 @@
 title: Sales Forecasting
 description: Project your future sales and revenue based on data from opportunities, historical performance, and pipeline analysis using Sales Forecasting. With this application, sales managers can allocate resources effectively, receive constructive feedback, and forecast sales with precision to make informed decisions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/sales-forecasting.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

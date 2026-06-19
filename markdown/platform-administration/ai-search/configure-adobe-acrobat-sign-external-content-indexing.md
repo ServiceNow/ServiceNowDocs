@@ -2,6 +2,7 @@
 title: Configure Adobe Acrobat Sign for external content indexing
 description: Create and authorize an OAuth 2.0 application in Adobe Acrobat Sign to allow the Adobe Acrobat Sign external content connector to access your Adobe Acrobat Sign source system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-adobe-acrobat-sign-external-content-indexing.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -26,7 +27,7 @@ Role required: none
 
 The Adobe Acrobat Sign external content connector retrieves documents from agreements in your Adobe Acrobat Sign source system using the Adobe Acrobat Sign REST API.
 
-To allow the connector to access your Adobe Acrobat Sign content via the REST API, you must configure and authorize an API application with OAuth 2.0 in Adobe Acrobat Sign. Your connector admin can use settings copied from this application to configure the Adobe Acrobat Sign external connector for proper connection to your source system.
+To allow the connector to access your Adobe Acrobat Sign content via the REST API, you must configure and authorize an API application with OAuth 2.0 in Adobe Acrobat Sign. Your connector administrator can use settings copied from this application to configure the Adobe Acrobat Sign external connector for proper connection to your source system.
 
 ## Procedure
 
@@ -40,7 +41,7 @@ To allow the connector to access your Adobe Acrobat Sign content via the REST AP
 
     3.  In the account menu, navigate to **Adobe Sign API** &gt; **API Applications**.
 
-    4.  Select the Create icon ![](../image/adobe-acrobat-sign-api-apps-plus-icon.png).
+    4.  Select the Create icon \[Omitted image "adobe-acrobat-sign-api-apps-plus-icon.png"\] Alt text:.
 
     5.  On the Create form, fill in the fields.
 
@@ -58,7 +59,7 @@ To allow the connector to access your Adobe Acrobat Sign content via the REST AP
 
     1.  On the API Applications page, copy the application ID for your new API application and store it in a secure location.
 
-        **Important:** Your external content connector admin needs this application ID when configuring the Adobe Acrobat Sign external content connector.
+        **Important:** Your external content connector administrator needs this application ID when configuring the Adobe Acrobat Sign external content connector.
 
     2.  Select the API Applications entry for your new API application.
 
@@ -68,7 +69,7 @@ To allow the connector to access your Adobe Acrobat Sign content via the REST AP
 
     4.  Copy the application secret for your new API application and store it in a secure location.
 
-        **Important:** Your external content connector admin needs this application secret when configuring the Adobe Acrobat Sign external content connector.
+        **Important:** Your external content connector administrator needs this application secret when configuring the Adobe Acrobat Sign external content connector.
 
 3.  Configure OAuth 2.0 settings for your new API application.
 
@@ -110,15 +111,15 @@ For each of the following scopes, select the **Enabled?** option and set the **M
 </table>
 ## What to do next
 
-Provide the following items to your connector admin:
+Provide the following items to your connector administrator:
 
 -   The base URL for your Adobe Acrobat Sign instance. This URL is typically `https://<host>.<data-center>.adobesign.com/`, where `<host>` is `secure` or your organization name and `<data-center>` is the shard ID for your Adobe Acrobat Sign data center. For a list of Adobe Acrobat Sign data centers, see [https://helpx.adobe.com/sign/using/adobesign-data-centers.html](https://helpx.adobe.com/sign/using/adobesign-data-centers.html).
--   The API application ID that you copied in step [2.a](configure-adobe-acrobat-sign-external-content-indexing.md#copy-app-id-step).
--   The API application secret that you copied in step [2.d](configure-adobe-acrobat-sign-external-content-indexing.md#copy-app-secret-step).
+-   The API application ID that you copied in step [2.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-adobe-acrobat-sign-external-content-indexing.md).
+-   The API application secret that you copied in step [2.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-adobe-acrobat-sign-external-content-indexing.md).
 
-Your connector admin needs these items to configure an Adobe Acrobat Sign external content connector to retrieve documents and security principals from your Adobe Acrobat Sign source system.
+Your connector administrator needs these items to configure an Adobe Acrobat Sign external content connector to retrieve documents and security principals from your Adobe Acrobat Sign source system.
 
-For details on creating and configuring a Adobe Acrobat Sign external content connector, see [Create an Adobe Acrobat Sign external content connector](create-ext-cont-connector-adobe-acrobat-sign.md).
+For details on creating and configuring a Adobe Acrobat Sign external content connector, see [Create an Adobe Acrobat Sign external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-adobe-acrobat-sign.md).
 
-**Parent Topic:**[Adobe Acrobat Sign external content connector](../concept/adobe-acrobat-sign-external-content-connector.md)
+**Parent Topic:**[Adobe Acrobat Sign external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/adobe-acrobat-sign-external-content-connector.md)
 

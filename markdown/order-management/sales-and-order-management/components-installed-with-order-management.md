@@ -2,6 +2,7 @@
 title: Components installed with Order Management
 description: Several types of components are installed with activation of the Order Management plugin, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/components-installed-with-order-management.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -503,5 +504,5 @@ Order Line Item
 Represents the individual items in a customer order, including product, pricing, quantity, and shipping details.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Order Management reference](order-mgt-reference.md)
+</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-mgt-reference.md)
 

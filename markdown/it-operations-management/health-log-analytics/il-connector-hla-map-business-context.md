@@ -2,6 +2,7 @@
 title: Map logs to service instances, components, and source types for contextual alerts in Health Log Analytics
 description: Map your logs to service instances, components, and source types so that Health Log Analytics \(HLA\) can generate contextual alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/il-connector-hla-map-business-context.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
@@ -18,7 +19,7 @@ Map your logs to service instances, components, and source types so that Health 
 
 ## Before you begin
 
-Configure and activate an integration before you perform this procedure. For more information, see [Set up integrations for Health Log Analytics from the Integrations Launchpad](../concept/hla-data-input-setup-integrations.md).
+Configure and activate an integration before you perform this procedure. For more information, see [Set up integrations for Health Log Analytics from the Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-setup-integrations.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -26,7 +27,7 @@ Role required: evt\_mgmt\_admin
 
 HLA uses the settings that you define in this procedure to identify service instances, components, and source types in log examples and map log data to them automatically. HLA links logs to the corresponding service instances, components, and source types for contextualized analysis. By default, automatic log context mapping is enabled.
 
-AI suggests the optimal log field for mapping to service instances and components. When you use the AI-suggested field or if it’s the default field, an AI sparkle icon \(![](../../../common/image/icon-ai-sparkle.png)\) appears. You can select a different field if needed. If AI can't find an optimal match or if your selected field is missing from the sample log, HLA uses the system default.
+AI suggests the optimal log field for mapping to service instances and components. When you use the AI-suggested field or if it’s the default field, an AI sparkle icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text:\) appears. You can select a different field if needed. If AI can't find an optimal match or if your selected field is missing from the sample log, HLA uses the system default.
 
 **Important:** If a manually defined mapping script exists in the **Data Input Mapping** page, automatic mapping overwrites it.
 
@@ -34,7 +35,7 @@ AI suggests the optimal log field for mapping to service instances and component
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the bottom of the navigation pane, select the AIOps configuration center icon ![ITOM AIOps configuration center icon](../image/icon-itom-aiops-config.png).
+2.  From the bottom of the navigation pane, select the AIOps configuration center icon \[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon.
 
     The ITOM AIOps configuration center page appears. The configuration center is a centralized workspace. Use it to configure and manage AIOps features from a single place.
 
@@ -54,11 +55,11 @@ AI suggests the optimal log field for mapping to service instances and component
 
     The integration's **Log context mapping** page displays.
 
-    **Note:** If the selected integration has features that are unsupported in Service Operations Workspace, you’re referred to the **Data Input Mapping** page. For more information, see [Map raw log data in Health Log Analytics](hla-data-input-mapping.md).
+    **Note:** If the selected integration has features that are unsupported in Service Operations Workspace, you’re referred to the **Data Input Mapping** page. For more information, see [Map raw log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
 
 7.  Turn off automatic service instance and component mapping by using the toggle.
 
-    If you turn off automatic mapping, you must define a mapping script manually in the **Data Input Mapping** page. For more information, see [Map raw log data in Health Log Analytics](hla-data-input-mapping.md).
+    If you turn off automatic mapping, you must define a mapping script manually in the **Data Input Mapping** page. For more information, see [Map raw log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
 
     The remaining steps in this procedure are only relevant when automatic mapping is enabled.
 
@@ -97,5 +98,5 @@ AI suggests the optimal log field for mapping to service instances and component
 13. Select **Save mapping** to save your settings.
 
 
-**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](../concept/hla-implement.md)
+**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-implement.md)
 

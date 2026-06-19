@@ -2,6 +2,7 @@
 title: Configure Emergency Outreach response options
 description: Configure the response options that employees choose from to respond to an Emergency Outreach health status request. You can modify the base system responses, add new responses, and deactivate responses you no longer use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/emergency-outreach/config-emergency-outreach-responses.html
 release: zurich
 product: Emergency Outreach
 classification: emergency-outreach
@@ -23,7 +24,7 @@ Role required: sn\_imt\_checkin.checkin\_admin or admin
 
 Response options appear in the Emergency Outreach email notification that employees receive.
 
-![Email notification message](../image/voluntary_health_checkin_email.png "Email message with responses")
+
 
 ## Procedure
 
@@ -42,8 +43,6 @@ Response options appear in the Emergency Outreach email notification that employ
     The easiest way to change the order is to use the list edit feature in the list of response options. You can also open each option to update the order number. Responses appear in numerical order.
 
     1.  In the **Order** list, double-click the order value to update.
-
-        ![List edit open to change the number value](../image/list-edit-change-order-number.png)
 
     2.  Enter the number and click the green check mark icon.
 

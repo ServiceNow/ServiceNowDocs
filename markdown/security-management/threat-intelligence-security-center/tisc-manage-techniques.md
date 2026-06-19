@@ -2,6 +2,7 @@
 title: Manage Techniques
 description: Manage the techniques that are imported from the MITRE TAXII collections. The techniques contain various ways attackers have developed to employ a given tactic. You can review and deactivate techniques that are not relevant to your organization. In STIX, techniques are known as attack patterns.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-manage-techniques.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -171,5 +172,5 @@ Select tags to annotate or earmark records ingested into the system from this so
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[MITRE-ATT&amp;CK Repository](tisc-mitre-att-ck-framework-overview.md)
+**Parent Topic:**[MITRE-ATT&amp;CK Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-mitre-att-ck-framework-overview.md)
 

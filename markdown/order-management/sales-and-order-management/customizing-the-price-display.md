@@ -2,6 +2,7 @@
 title: Set up pricing display
 description: You can configure how currency values appear, choose to display rollup pricing in the Shopping Cart, and display a custom message for items that have a zero price or a null price. ServiceNow CPQ shows only the price of the products in each bill of materials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/customizing-the-price-display.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

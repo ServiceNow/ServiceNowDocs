@@ -2,6 +2,7 @@
 title: Close a work order task as incomplete
 description: Close a work order task as incomplete if there is work pending on the task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/t\_CloseAWorkOrderTaskAsIncomplete.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

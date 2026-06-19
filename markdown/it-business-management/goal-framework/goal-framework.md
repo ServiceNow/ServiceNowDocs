@@ -2,6 +2,7 @@
 title: Goal Framework and Goal Framework for SPM
 description: Create goals, set targets for them, and evaluate the progress of the goals and targets to accomplish your organizational plans and drive business outcomes using ServiceNow Goal Framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/goal-framework/goal-framework.html
 release: zurich
 product: Goal Framework
 classification: goal-framework
@@ -19,7 +20,7 @@ The ServiceNow® Goal Framework for Strategic Portfolio Management \(SPM\) appli
 
 Using Goal Framework, you can define strategic priorities and associated goals for your organization as part of strategic plans. After goals are created, you can then associate work, planning items, and strategic items such as demand, project, epic, program, and initiative.
 
-The ServiceNow® Strategic Planning users can define personalized portfolio plans using lenses for your organization and use them to align your goals according to your organization's portfolio plans. For information on how a portfolio plan is defined using a lens, see [Lens and portfolio plans](../../alignment-planner-workspace/concept/lens-alignment-planner-workspace.md). You can also create strategic plans, capturing the vision, mission, and values for your organization.
+The ServiceNow® Strategic Planning users can define personalized portfolio plans using lenses for your organization and use them to align your goals according to your organization's portfolio plans. For information on how a portfolio plan is defined using a lens, see [Lens and portfolio plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/lens-alignment-planner-workspace.md). You can also create strategic plans, capturing the vision, mission, and values for your organization.
 
 Key benefits of Goal Framework:
 
@@ -38,23 +39,23 @@ Key benefits of Goal Framework for SPM:
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about Goal Framework and Goal Framework for SPM features](goal-framework-overview.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about Goal Framework and Goal Framework for SPM features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/goal-framework-overview.md)
 
 </td><td>
 
-[Compare ![](../../../reuse/icons/brand-icons/bus-community.svg) Compare capabilities of Goal Framework with Goal Framework for SPM](goal-framework-overview.md)
+[Compare \[Omitted image "bus-community.svg"\] Alt text: Compare capabilities of Goal Framework with Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/goal-framework-overview.md)
 
 </td><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Learn how to configure Goal Framework and Goal Framework for SPM](configuring-goal-framework.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Learn how to configure Goal Framework and Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/configuring-goal-framework.md)
 
 </td></tr><tr><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-alignment.svg) Learn how to define goals to accomplish your organizational plans and drive business outcomes](defining-goals-using-goal-framework.md)
+[Use \[Omitted image "bus-alignment.svg"\] Alt text: Learn how to define goals to accomplish your organizational plans and drive business outcomes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/defining-goals-using-goal-framework.md)
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about components like fields, tables, roles, and properties.](../reference/goal-framework-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components like fields, tables, roles, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/goal-framework-reference.md)
 
 </td><td>
 

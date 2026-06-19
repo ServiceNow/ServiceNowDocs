@@ -2,7 +2,10 @@
 title: Fix roles for external users with intentional internal role assignments
 description: Review and fix roles for external users that have intentional internal role assignments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/fix-csm-external-user-roles-task3.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

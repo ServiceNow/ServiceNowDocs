@@ -2,11 +2,12 @@
 title: Digital End-User Experience properties and settings
 description: You can update the following Digital End-User Experience properties and settings to fit your needs. You must have the admin role to update these settings and properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/dex-properties-settings.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Reference, Digital End-User Experience, IT Service Management]
 ---
@@ -380,5 +381,5 @@ Desktop Assistant
 Minimum compatible version for desktop application on Windows
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Digital End-User Experience reference](../concept/dex-reference.md)
+</table>**Parent Topic:**[Digital End-User Experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dex-reference.md)
 

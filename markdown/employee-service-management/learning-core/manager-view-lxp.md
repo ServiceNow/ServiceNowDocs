@@ -2,6 +2,7 @@
 title: Assigned to your team
 description: Track your team learning tasks to streamline their career growth.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/manager-view-lxp.html
 release: zurich
 product: Learning Core
 classification: learning-core
@@ -19,7 +20,7 @@ Manage your team's learning tasks.
 
 The Assigned to your team tab has the following information that helps you understand the learning progress of your team.
 
-![Assigned to your team tab](../image/assigned-to-your-team-lxp.png)
+\[Omitted image "assigned-to-your-team-lxp.png"\] Alt text: Assigned to your team tab
 
 -   Learning you've assigned to your team: View the status of the learnings assigned to your team.
     -   Not started

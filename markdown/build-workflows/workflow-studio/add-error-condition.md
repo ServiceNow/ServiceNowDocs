@@ -2,6 +2,7 @@
 title: Add error condition
 description: Enable an action to return custom status information when specific conditions are met. Specify whether a flow considers your custom action status as an error or a successful run.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/add-error-condition.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -18,7 +19,7 @@ Enable an action to return custom status information when specific conditions ar
 ## Before you begin
 
 -   Role required: flow\_designer, action\_designer, or admin
--   [Create an action in Workflow Studio](create-action.md)
+-   [Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-action.md)
 
 ## About this task
 
@@ -78,7 +79,7 @@ Action Status Code
 
 </td><td>
 
-Integer value you want the action to return as part of the Action Status object. You can use this integer value as part of a [Flow error handler](../concept/flow-error-handler.md).
+Integer value you want the action to return as part of the Action Status object. You can use this integer value as part of a [Flow error handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-error-handler.md).
 
 </td></tr><tr><td>
 
@@ -86,7 +87,7 @@ Action Status Message
 
 </td><td>
 
-String value you want the action to return as part of the Action Status object. You can use this string value as part of a [Flow error handler](../concept/flow-error-handler.md).
+String value you want the action to return as part of the Action Status object. You can use this string value as part of a [Flow error handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-error-handler.md).
 
 </td></tr></tbody>
 </table>6.  Order error conditions from top to bottom in the order you want the action to evaluate them.
@@ -98,5 +99,5 @@ String value you want the action to return as part of the Action Status object. 
 
 Your custom action evaluates each error condition for matching conditions. The action returns the Action Status Code and Action Status Message for the first matching error condition. If there is no matching error condition, the Action status is set to the Step Status of the last step run.
 
-**Parent Topic:**[Action error evaluation](../concept/action-error-evaluation.md)
+**Parent Topic:**[Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/action-error-evaluation.md)
 

@@ -2,6 +2,7 @@
 title: Add an action for a safety risk
 description: Add an action to address an identified risk or implement control measures necessary to improve workplace safety. You can add multiple actions for a hazard or control measure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-risk-management/hs-add-action-risk-assessment.html
 release: zurich
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -23,19 +24,19 @@ Role required: sn\_hs\_rm.risk\_assessment\_manager or sn\_hs\_rm.risk\_assessme
 
 1.  Navigate to **Workspaces** &gt; **Health and Safety Workspace**.
 
-2.  Select the risk management icon \(![Risk assessment icon](../image/icon-risk-assessment.png)\) to open the **Risk assessment** list.
+2.  Select the risk management icon \(\[Omitted image "icon-risk-assessment.png"\] Alt text: Risk assessment icon\) to open the **Risk assessment** list.
 
 3.  Create an action from a risk assessment record or the Risk actions list.
 
-<table id="choicetable_nd5_sdp_c1c"><thead><tr><th align="left" id="d728686e81">
+<table id="choicetable_nd5_sdp_c1c"><thead><tr><th align="left" id="d420503e81">
 
 Option
 
-</th><th align="left" id="d728686e84">
+</th><th align="left" id="d420503e84">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d728686e90">
+</th></tr></thead><tbody><tr><td id="d420503e90">
 
 **From a Risk assessment record \(Scheduled actions\)**
 
@@ -45,11 +46,11 @@ Steps
 2.  In the list, open a risk assessment.
 3.  In the **Action schedules** tab, set up actions for the risk assessment.
 
-For more information, see [Create a Health and Safety action schedule](../../ohs-incident-management/task/create-health-safety-action-schedule.md).
+For more information, see [Create a Health and Safety action schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-core/create-health-safety-action-schedule.md).
 
  The action schedule creates actions in the **Risk actions** tab and auto-assigns them to individuals using the condition builder.
 
-</td></tr><tr><td id="d728686e135">
+</td></tr><tr><td id="d420503e135">
 
 **From the Risk actions list**
 
@@ -59,7 +60,7 @@ For more information, see [Create a Health and Safety action schedule](../../ohs
 2.  Select **New**.
 3.  On the form, fill in the fields.
 
-For information on field descriptions, see [Health and Safety action form](../../ohs-incident-management/reference/hs-action-form.md).
+For information on field descriptions, see [Health and Safety action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-core/hs-action-form.md).
 
 4.  Select **Save**.
 
@@ -78,5 +79,5 @@ If needed, you can share the action, independent of the risk, with other groups 
 -   The action is duplicated and appears in the **My Tasks** list of the assigned user on the Employee Center.
 -   The action is also listed in the **Actions** list on the Health and Safety Workspace.
 
-**Parent Topic:**[Safety risk assessment](../concept/hs-risk-assessment.md)
+**Parent Topic:**[Safety risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/hs-risk-assessment.md)
 

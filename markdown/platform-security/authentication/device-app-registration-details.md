@@ -2,6 +2,7 @@
 title: Registration details of registered devices
 description: View the details of devices that are registered with your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/device-app-registration-details.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -19,7 +20,7 @@ To view all the details of the registered device with the instance, navigate to 
 
 Use the filter to identify the device. Click the **AppID** field to know more about the registered device.
 
-![Device App Registration Details](../images/device-app-registration-details.png)
+\[Omitted image "device-app-registration-details.png"\] Alt text: Device App Registration Details
 
 The following details are displayed for the device:
 
@@ -34,5 +35,5 @@ The following details are displayed for the device:
     -   OS Version
     -   Device Model
 
-![Device App Registration Detail](../images/device-app-registration-details-device.png)
+\[Omitted image "device-app-registration-details-device.png"\] Alt text: Device App Registration Detail
 

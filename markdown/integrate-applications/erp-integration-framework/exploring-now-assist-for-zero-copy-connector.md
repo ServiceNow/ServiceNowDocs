@@ -2,6 +2,7 @@
 title: Exploring Now Assist for Zero Copy Connector
 description: With the Now Assist for Zero Copy Connector application, you can obtain information about ERP systems, software, models, and data products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/exploring-now-assist-for-zero-copy-connector.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -32,12 +33,12 @@ The Now Assist for Zero Copy Connector application includes the generative AI sk
 
     Gives you the ability to query SAP standard database tables for data and transactional records based upon natural language queries.
 
-    ![Now Assist panel with entered question highlighted.](../image/erp-data-discovery-skill1.png)
+    \[Omitted image "erp-data-discovery-skill1.png"\] Alt text: Now Assist panel with entered question highlighted.
 
 -   **ERP data query**
 
     Helps you identify SAP objects that can then be used to query the required data. For example, use ERP data query to fetch routing operations for a specific material in work center.
 
-    ![Now Assist panel with entered question highlighted.](../image/erp-data-query-skill1.png)
+    \[Omitted image "erp-data-query-skill1.png"\] Alt text: Now Assist panel with entered question highlighted.
 
 

@@ -2,6 +2,7 @@
 title: Mention a user in a Connect conversation
 description: You can get someone's attention in a group conversation by mentioning them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/connect/t\_MentionUserInConnectConversation.html
 release: zurich
 product: Connect
 classification: connect
@@ -23,7 +24,7 @@ Role required: none
 
 Users can set their notification preferences so they receive notifications only when they are mentioned. Mentioning a user creates a shortcut to view their basic information and send them a direct message.
 
-![Shortcut to viewing someone's basic information](../image/ConnectMentionMoreInfo.png)
+\[Omitted image "ConnectMentionMoreInfo.png"\] Alt text: Shortcut to viewing someone's basic information
 
 ## Procedure
 

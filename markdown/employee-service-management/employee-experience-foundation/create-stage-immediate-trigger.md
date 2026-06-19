@@ -2,6 +2,7 @@
 title: Create a campaign stage with immediate trigger
 description: The content in a stage with an immediate trigger is visible to the audience immediately after campaign publication, for the duration of the campaign.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/create-stage-immediate-trigger.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,7 +20,7 @@ The content in a stage with an immediate trigger is visible to the audience imme
 
 Role required: sn\_ca.campaign\_manager
 
-Complete the steps to [Create a campaign](ecpro-create-campaign.md)
+Complete the steps to [Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-create-campaign.md)
 
 ## About this task
 
@@ -33,13 +34,13 @@ Stages organize and manage the delivery of campaign content. When configuring a 
 
 2.  Select the campaign and click the **Schedule of content** tab or click **Next**.
 
-    ![Schedule of content tab](../images/campaign-content-builder-1.png)
+    \[Omitted image "campaign-content-builder-1.png"\] Alt text: Schedule of content tab
 
 3.  Click **Create stage**.
 
     A stage is a visible area to add content.
 
-    ![Campaign - Create stage](../images/campaign-create-stage.png)
+    \[Omitted image "campaign-create-stage.png"\] Alt text: Campaign - Create stage
 
 4.  On the form, fill in the fields.
 
@@ -117,5 +118,5 @@ Appears when you select **Dynamic field** duration type. Select to indicate you 
 ## What to do next
 
 -   Click **Add stage** to configure additional stages
--   Add content to the stage, specify an audience, and set the location where the content will be delivered. For more information on creating content in the Content Experience Builder, see [Add content to a campaign using Content Experience Builder](ecpro-campaigns-manage-content-builder.md)
+-   Add content to the stage, specify an audience, and set the location where the content will be delivered. For more information on creating content in the Content Experience Builder, see [Add content to a campaign using Content Experience Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-campaigns-manage-content-builder.md)
 

@@ -2,6 +2,7 @@
 title: Configure and Enable VirusTotal Integration
 description: Before you can use the VirusTotal integration, you must download it from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-virustotal-integration.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -25,7 +26,7 @@ The Threat Intelligence Security Center plugin is required in order to activate 
 
 1.  Using your instance, access **Threat Intelligence Security Center**.
 
-2.  [Download the integration from the ServiceNow Store](../../security-incident-response/reference/download-app-first-time.md).
+2.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/download-app-first-time.md).
 
 3.  When the installation is complete, access VirusTotal and obtain the API Key under your VirusTotal profile.
 
@@ -61,5 +62,5 @@ The Threat Intelligence Security Center plugin is required in order to activate 
 
 After it is configured, VirusTotal can be selected for performing lookups on observables in Threat Intelligence Security Center.
 
-**Parent Topic:**[TISC VirusTotal integration](../concept/tisc-virustotal-integration_0.md)
+**Parent Topic:**[TISC VirusTotal integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-virustotal-integration_0.md)
 

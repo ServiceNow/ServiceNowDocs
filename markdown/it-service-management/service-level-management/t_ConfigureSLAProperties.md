@@ -2,6 +2,7 @@
 title: Configure Service Level Agreement \(SLA\) properties
 description: You can configure the SLA engine, logging, and repair properties based on the requirements within your organization.Administrators can manage the SLA engine using SLA engine properties.Administrators can configure SLA logging using SLA properties.Administrators can manage the SLA repair function using system properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-level-management/t\_ConfigureSLAProperties.html
 release: zurich
 product: Service Level Management
 classification: service-level-management
@@ -38,7 +39,7 @@ Role required: admin
         configure properties for the SLA Repair process.
 
 
-**Parent Topic:**[Service Level Management reference](../concept/service-level-management-reference.md)
+**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-level-management/service-level-management-reference.md)
 
 ## SLA engine properties
 
@@ -244,7 +245,7 @@ com.snc.sla.repair.log
 
 </td><td>
 
-Logging level for SLARepair \([SLA repair](../concept/c_RepairSLAs.md) must be enabled to use this\)
+Logging level for SLARepair \([SLA repair](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-level-management/c_RepairSLAs.md) must be enabled to use this\)
 
 </td></tr><tr><td>
 
@@ -278,7 +279,7 @@ The following logging levels are available for the **Logging level for...** prop
 
 Administrators can manage the SLA repair function using system properties.
 
-Navigate to **Service Level Management** &gt; **Properties** &gt; **SLA Repair** to view [SLA repair](../concept/c_RepairSLAs.md) properties.
+Navigate to **Service Level Management** &gt; **Properties** &gt; **SLA Repair** to view [SLA repair](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-level-management/c_RepairSLAs.md) properties.
 
 <table id="table_dfk_jkh_gr"><thead><tr><th>
 

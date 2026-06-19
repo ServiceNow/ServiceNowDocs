@@ -2,6 +2,7 @@
 title: Viewing an agent's calendar
 description: You can view an agent's schedule, availability, personal events, and tasks that are either assigned or work in progress.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/viewing-agents-calendar.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -22,9 +23,9 @@ The calendar displays agent information for a selected day, work day, or week. R
 -   Scheduled work start time
 -   Actual work start time
 
-**Note:** No visual indicator appears for the tasks that don't have a specified travel start time. Additionally, **Estimated onsite arrival buffer duration** is considered only when `Enable/Disable Onsite Arrival Check-in for Agents` property is enabled and have been added to the task card. For more information, see [Global domain configurations](../../planning-and-policy/task/t_ConfigureFieldService.md).
+**Note:** No visual indicator appears for the tasks that don't have a specified travel start time. Additionally, **Estimated onsite arrival buffer duration** is considered only when `Enable/Disable Onsite Arrival Check-in for Agents` property is enabled and have been added to the task card. For more information, see [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/t_ConfigureFieldService.md).
 
-![Calendar showing tasks assigned to agents, available agents, and agent schedules for a selected day or week.](../image/agent-calendar-schedule.png)
+\[Omitted image "agent-calendar-schedule.png"\] Alt text: Calendar showing tasks assigned to agents, available agents, and agent schedules for a selected day or week.
 
 As a dispatcher, you can do the following:
 

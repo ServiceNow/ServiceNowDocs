@@ -2,6 +2,7 @@
 title: Escalation intervals and pause conditions
 description: Escalation Intervals and Pause Conditions are not relevant to an inactivity monitor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/time-configuration/c\_EscalationIntervsAndPauseConds.html
 release: zurich
 product: Time Configuration
 classification: time-configuration
@@ -17,5 +18,5 @@ Escalation Intervals and Pause Conditions are not relevant to an inactivity moni
 
 The related list and field are available because the inactivity monitor table extends the table used for SLAs, but these elements are not used in any way when an inactivity monitor attaches or is triggered.
 
-**Parent Topic:**[Set an inactivity monitor](../task/t_SetAnInactivityMonitor.md)
+**Parent Topic:**[Set an inactivity monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/t_SetAnInactivityMonitor.md)
 

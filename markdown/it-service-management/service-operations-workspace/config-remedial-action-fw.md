@@ -2,6 +2,7 @@
 title: Configure the Remedial Actions Framework
 description: Configure the Remedial Actions Framework to add a new remedial action or modify an existing one.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/config-remedial-action-fw.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -289,7 +290,7 @@ Option to allow duplicate concurrent execution of remedial actions.**Note:** If 
 
 ## What to do next
 
-When a Remedial Action Type is created, you must create an implementation or do the necessary changes in the existing implementation of the **RemedialActionProvider** scripted extension point. To view and use the new or modified remedial actions, you must configure the Investigate UI to display the remedial actions. For more information, see [Customize the Investigate tab](../concept/customize-the-incident-record-page.md#).
+When a Remedial Action Type is created, you must create an implementation or do the necessary changes in the existing implementation of the **RemedialActionProvider** scripted extension point. To view and use the new or modified remedial actions, you must configure the Investigate UI to display the remedial actions. For more information, see [Customize the Investigate tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/customize-the-incident-record-page.md).
 
-**Parent Topic:**[Setting up Investigation Framework in Service Operations Workspace](../concept/set-up-investigate.md)
+**Parent Topic:**[Setting up Investigation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/set-up-investigate.md)
 

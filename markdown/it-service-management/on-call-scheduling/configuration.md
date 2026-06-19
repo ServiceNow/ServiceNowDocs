@@ -2,6 +2,7 @@
 title: Configuring On-Call Scheduling
 description: Plan and configure On-Call Scheduling properties, templates, trigger rules, escalation policies, rosters, and schedules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/on-call-scheduling/configuration.html
 release: zurich
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -30,18 +31,18 @@ You can configure the following contact methods and enable users to receive noti
 -   Microsoft Teams: Ensure that your ServiceNow instance is configured to integrate with Virtual Agent and IT Service Management integration with Microsoft Teams plugin \(sn\_now\_teams\_it\) is active.
 -   Mobile push notifications: Configure ServiceNow Agent and enable mobile push notifications
 
--   **[Activate On-Call Scheduling](../task/t_ActivateOnCallScheduling.md)**  
+-   **[Activate On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/t_ActivateOnCallScheduling.md)**  
 You can activate the On-Call Scheduling \(com.snc.on\_call\_rotation\) plugin if you have the admin role.
--   **[Setting up Slack as a contact method](../../on-call-scheduling/reference/slack-setup-oncall.md)**  
+-   **[Setting up Slack as a contact method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/slack-setup-oncall.md)**  
 You configure Slack to enable users to receive Slack notifications for escalations. To offer Slack as a contact method for shift members, you install the IntegrationHub spoke for Slack.
--   **[Setting up SMS and voice messaging as contact methods](c_UseNotifyWithOnCallScheduling.md)**  
+-   **[Setting up SMS and voice messaging as contact methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/c_UseNotifyWithOnCallScheduling.md)**  
 To send On-call escalation notifications as SMS or voice messages, you must configure Notify.
--   **[Set up Microsoft Teams as a contact method for an on-call escalation](../../on-call-scheduling/task/set-up-msteams-oncall.md)**  
+-   **[Set up Microsoft Teams as a contact method for an on-call escalation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/set-up-msteams-oncall.md)**  
 Enable users to receive Microsoft Teams notifications for an on-call escalation.
--   **[Set up mobile push as a contact method for an on-call escalation](../../on-call-scheduling/task/set-up-mobile-push-oncall.md)**  
+-   **[Set up mobile push as a contact method for an on-call escalation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/set-up-mobile-push-oncall.md)**  
 Enable users to receive mobile push notifications for on-call escalations.
--   **[Setting up custom providers as communication channel](../../on-call-scheduling/concept/custom-on-call-channel-integration.md)**  
+-   **[Setting up custom providers as communication channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/custom-on-call-channel-integration.md)**  
 You can define and integrate a custom channel to send on-call escalation notifications.
 
-**Parent Topic:**[On-Call Scheduling](../../on-call-scheduling/concept/c_OnCallScheduling.md)
+**Parent Topic:**[On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/c_OnCallScheduling.md)
 

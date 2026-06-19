@@ -2,7 +2,10 @@
 title: Front-line case page
 description: The Front-line case page provides a simplified case view that enables front-line agents to quickly gather context, categorize cases, and provide prompt responses to customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-front-line-case-page.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 20
@@ -22,7 +25,7 @@ The Front-line case page focuses on the essential functionality that front-line 
 
 The Front-line case page is included with the CSM Configurable Workspace application.
 
-![The Front-line case page enables agents to focus on four main areas, including contact information, case details, the activity stream, and the contextual side panel.](../image/front-line-case-page-template.png "Front-line case page")
+\[Omitted image "front-line-case-page-template.png"\] Alt text: The Front-line case page enables agents to focus on four main areas, including contact information, case details, the activity stream, and the contextual side panel.
 
 ## Front-line case page variant
 
@@ -42,7 +45,7 @@ Active
 
 </td><td>
 
-Enabling the **Active** check box makes the page variant available to the selected audience. The Front-line case page variant is active for new and upgrade customers.The active setting combined with the page order determines the page that CSM Configurable Workspace uses to display record information. For more information, see [Set record page order](../task/config-csm-ws-set-record-page-order.md).
+Enabling the **Active** check box makes the page variant available to the selected audience. The Front-line case page variant is active for new and upgrade customers.The active setting combined with the page order determines the page that CSM Configurable Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-csm-ws-set-record-page-order.md).
 
 </td></tr><tr><td>
 
@@ -68,7 +71,7 @@ Audience
 
 The audience determines who can see the page variant. The Front-line case page has the following audience: **CSM - Front-line Agent**This audience includes the sn\_cwf\_wrkspc.frontline\_agent role.
 
-For more information, see [Learn about audiences](https://www.servicenow.com/docs/access?context=add-audiences&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+For more information, see Learn about audiences.
 
 </td></tr></tbody>
 </table>To access the settings for this page variant:
@@ -112,7 +115,7 @@ Record tags
 
 </td><td>
 
-Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Group and find records using tags in workspace](https://www.servicenow.com/docs/access?context=setting-record-tags-agent-workspace&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see Group and find records using tags in workspace.
 
 </td></tr><tr><td>
 
@@ -120,7 +123,7 @@ Action bar
 
 </td><td>
 
-The action bar contains the actions available to users while working on case records. The specific actions are determined by factors such as the user role, case state, and other attributes.-   **In-progress Actions**: Provides a list of minimized [modeless dialogs](csm-front-line-case-page-modeless-dialogs.md) and includes a badge that displays the number of items in the list. From this list, an agent can select an item to open the minimized comment, work note, or email.
+The action bar contains the actions available to users while working on case records. The specific actions are determined by factors such as the user role, case state, and other attributes.-   **In-progress Actions**: Provides a list of minimized [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-front-line-case-page-modeless-dialogs.md) and includes a badge that displays the number of items in the list. From this list, an agent can select an item to open the minimized comment, work note, or email.
 -   **Create**: Create records such as work orders, incidents, and requests.
 -   **Manage case**: Perform case management actions such as accepting a case or requesting information.
 -   **Save**: Save changes to the case record.
@@ -141,7 +144,7 @@ Agents can use the contact lookup component to do the following:-   Search for a
 
 The contact lookup component displays information in record cards. These cards display contact information and provide quick access to details such name, email, and phone.
 
-For more information, see the [Contact and consumer lookup components](csm-front-line-case-page.md#section_dnl_3f4_s1c) section below.
+For more information, see the [Contact and consumer lookup components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-front-line-case-page.md) section below.
 
 </td></tr><tr><td>
 
@@ -158,7 +161,7 @@ Agents can use the consumer lookup component to do the following:-   Search for 
 
 The consumer lookup component displays information in record cards. These cards display consumer information and provide quick access to details such name, email, and phone.
 
-For more information, see the [Contact and consumer lookup components](csm-front-line-case-page.md#section_dnl_3f4_s1c) section below.
+For more information, see the [Contact and consumer lookup components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-front-line-case-page.md) section below.
 
 </td></tr><tr><td>
 
@@ -185,7 +188,7 @@ The case summarization component appears above the activity stream. When an agen
 -   Post the summary to the activity stream.
 -   Refresh the summary.
 
-The case summarization component requires the Now Assist for Customer Service Management \(CSM\) application to be activated and configured. For more information, see the [Case summarization component](csm-front-line-case-page.md#section_ots_wnh_s1c) section below.
+The case summarization component requires the Now Assist for Customer Service Management \(CSM\) application to be activated and configured. For more information, see the [Case summarization component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-front-line-case-page.md) section below.
 
 </td></tr><tr><td>
 
@@ -193,9 +196,9 @@ Activity stream
 
 </td><td>
 
-The activity stream component displays a list of activities occurring on a case record. This list can be collapsed to provide a quick view of case activities or expanded to provide more detail about individual activities.For more information, see the [Activity stream component](csm-front-line-case-page.md#section_ntx_lnh_s1c) section below.
+The activity stream component displays a list of activities occurring on a case record. This list can be collapsed to provide a quick view of case activities or expanded to provide more detail about individual activities.For more information, see the [Activity stream component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-front-line-case-page.md) section below.
 
-**Note:** The Front-line case page uses [modeless dialogs](csm-front-line-case-page-modeless-dialogs.md) for composing comments, work notes, and emails.
+**Note:** The Front-line case page uses [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-front-line-case-page-modeless-dialogs.md) for composing comments, work notes, and emails.
 
 </td></tr><tr><td>
 
@@ -213,8 +216,8 @@ The contextual side panel component includes different tools that agents can use
 
 For more information, see the following sections:
 
--   [Contextual side panel component](csm-front-line-case-page.md#section_trg_ypr_m1c)
--   [Related lists component](csm-front-line-case-page.md#section_urr_nrh_s1c)
+-   [Contextual side panel component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-front-line-case-page.md)
+-   [Related lists component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-front-line-case-page.md)
 
 </td></tr></tbody>
 </table>## Action bar component
@@ -231,14 +234,14 @@ The Front-line case page supports actions from the following Customer Service Ma
 -   Time Recording for Customer Service \(com.snc.csm\_time\_recording\)
 -   Omni-Experience Standard Feature Set
 
-If you are using any additional plugins, you must add the actions from those plugins to the Front-line case page action bar. For more information, see [Configure the Front-line case page action bar](../task/config-front-line-case-page-action-bar.md).
+If you are using any additional plugins, you must add the actions from those plugins to the Front-line case page action bar. For more information, see [Configure the Front-line case page action bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-front-line-case-page-action-bar.md).
 
 The Front-line case page action bar includes the **Follow** action in the More Actions menu. Selecting this action enables you to receive notifications when comments or work notes are added to the record.
 
 You receive notifications in the Notifications menu at the top of the page according to your notification preferences. You can select the notification to open the record that was updated. For more information, see the following topics:
 
--   [Configure Next Experience notification preferences](https://www.servicenow.com/docs/access?context=next-experience-notifications-preferences&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
--   [Follow records in Next Experience](https://www.servicenow.com/docs/access?context=follow-records-in-next-experience&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
+-   Configure Next Experience notification preferences
+-   Follow records in Next Experience
 
 When the **Follow** action is selected, the button toggles to **Unfollow**. To stop receiving notifications, select **Unfollow**.
 
@@ -291,14 +294,14 @@ Using this component, agents can:
 
 To use the case summarization component with the Front-line case page, activate the Now Assist for Customer Service Management \(CSM\) application and configure the case summarization skill in the Now Assist Admin console. For more information, see:
 
--   [Activate Now Assist for Customer Service Management \(CSM\)](now-assist-csm-supporting-info.md)
--   [Configure the case summarization skill in the Now Assist Admin console](now-assist-csm-configuring.md).
+-   [Activate Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-supporting-info.md)
+-   [Configure the case summarization skill in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.md).
 
 ## Activity stream component
 
 The activity stream component displays a list of the activities occurring on a case record. The activities in the list can be collapsed or expanded. When collapsed, the agent can quickly scan the list to get an overview of case activities. When expanded, the agent can see detailed information on individual activities.
 
-![The front-line case page activity stream component lists record activities in a collapsed or expanded format and uses tiles to represent the activity types.](../image/front-line-case-page-activity-stream.png "Front-line case page activity stream component")
+\[Omitted image "front-line-case-page-activity-stream.png"\] Alt text: The front-line case page activity stream component lists record activities in a collapsed or expanded format and uses tiles to represent the activity types.
 
 The activities in the activity stream are represented by tiles that use icons and colors to indicate the activity type.
 
@@ -329,7 +332,7 @@ When expanded, each activity also includes:
 -   For attachments, a small preview of the attached file.
 -   For chats, a sidebar chat card.
 
-The activity stream uses [Modeless dialogs](csm-front-line-case-page-modeless-dialogs.md) for composing comments, work notes, and emails.
+The activity stream uses [Modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-front-line-case-page-modeless-dialogs.md) for composing comments, work notes, and emails.
 
 ## Contextual side panel component
 
@@ -351,7 +354,7 @@ Recommended Actions
 
 The Recommended Actions tab is now available as the first tab in the contextual side panel and is enabled for Pro customers. It includes a set of base system recommendations, such as similar incidents and similar open incidents.
 
-The Recommended Actions tab includes [AI search](ra-csm-ai-search.md) functionality. Agents can use AI search to find relevant resources or resolutions for customer issues.The search feature displays an initial set of search results based on the text in the case short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search.
+The Recommended Actions tab includes [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ra-csm-ai-search.md) functionality. Agents can use AI search to find relevant resources or resolutions for customer issues.The search feature displays an initial set of search results based on the text in the case short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search.
 
 From the list of search results, agents can do the following:
 
@@ -360,11 +363,11 @@ From the list of search results, agents can do the following:
 -   Sort the list of search results.
 -   Open the search results in full view in a record sub-tab.
 -   Take the following actions:
-    -   [Attach and share article](csm-front-line-case-page.md#section_j54_wlv_sdc)
+    -   [Attach and share article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-front-line-case-page.md)
     -   Perform other actions such as reading articles in full view, flagging articles, or marking articles as helpful or unhelpful.
 -   View successful actions by selecting the Actions history icon.
 
-Suggested Actions tab: This tab displays relevant actions to agents based on the context of a record or recommends a value for a field. For more information on how to configure contexts to display relevant actions for the agent, see [Recommended Actions](configure-nba.md). The Suggested Actions tab is available in the base system for Pro customers and doesn’t require additional configuration. The Suggested Actions tab is displayed if either the Task Intelligence for CSM or the Now Assist for CSM plugin is installed. Non-Pro customers can enable the tab manually.
+Suggested Actions tab: This tab displays relevant actions to agents based on the context of a record or recommends a value for a field. For more information on how to configure contexts to display relevant actions for the agent, see [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-nba.md). The Suggested Actions tab is available in the base system for Pro customers and doesn’t require additional configuration. The Suggested Actions tab is displayed if either the Task Intelligence for CSM or the Now Assist for CSM plugin is installed. Non-Pro customers can enable the tab manually.
 
 -   Without the plugin, only the Search tab is visible on the Front-line case page.
 
@@ -373,9 +376,9 @@ Suggested Actions tab: This tab displays relevant actions to agents based on the
 -   If the plugin is uninstalled, the Suggested Actions tab is no longer available.
 
 
-For more information, see [Use AI search in Recommended Actions to resolve cases](../task/nba-use-ai-search.md).
+For more information, see [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/nba-use-ai-search.md).
 
-**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
+**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
 
 **Note:** To ensure Recommended Actions loads automatically and performs optimally, enable the **Enable prefetch** check box and verify that the **Get recommendations** data broker exists under Data Resources. This enhancement applies only to the Front-line Case page and CSM default record page and requires Recommended Actions to be enabled on the page. If you have any custom variants created before this enhancement, you must manually enable these settings.
 
@@ -388,7 +391,7 @@ Record Information
 The Record Information tab includes the following cards:-   **Overview**: Displays relevant information about the case including the account and contact, the case priority, and the state.
 -   **Active SLA**: Displays active SLAs for the case, including time remaining, the SLA state, and any breaches.
 
-The cards that appear in the Record Information tab can be configured in the **Front-line Case Page Ribbon Config** ribbon configuration. For more information, see [Set up a ribbon configuration in CSM Configurable Workspace](../task/config-csm-config-ws-ribbon.md).
+The cards that appear in the Record Information tab can be configured in the **Front-line Case Page Ribbon Config** ribbon configuration. For more information, see [Set up a ribbon configuration in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-csm-config-ws-ribbon.md).
 
 </td></tr><tr><td>
 
@@ -432,14 +435,14 @@ The Related Lists tab provides access the case-related lists.The Front-line case
 
 An indicator displays the number of records available in a related list. When expanded, the records in a related list are displayed in card format.
 
-For more information, see the [Related lists component](csm-front-line-case-page.md#section_urr_nrh_s1c) section below.
+For more information, see the [Related lists component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-front-line-case-page.md) section below.
 
 </td></tr></tbody>
 </table>## Related lists component
 
 The related lists component provides access to the case related lists. This component uses an expandable accordion format. Agents can expand the desired lists to see the related items. This component also displays an icon with the number of items in a list.
 
-![The Front-line case page related lists component in the contextual side panel uses an accordion format to expand and display related list items](../image/front-line-case-page-related-lists.png "Front-line case page related lists component")
+\[Omitted image "front-line-case-page-related-lists.png"\] Alt text: The Front-line case page related lists component in the contextual side panel uses an accordion format to expand and display related list items
 
 Related lists include the following actions:
 
@@ -454,7 +457,7 @@ The items in an expanded list are displayed as cards. An expanded list shows one
 
 ## Customer History component
 
-The Customer History component displays customer, consumer, or account history information, depending on the field selections on the interaction record. This component displays the information previously displayed in the Customer Activity tab. For more information, see [Customer History component](customer-central.md#section_i2b_kpt_ydc) in the Customer Central documentation.
+The Customer History component displays customer, consumer, or account history information, depending on the field selections on the interaction record. This component displays the information previously displayed in the Customer Activity tab. For more information, see [Customer History component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-central.md) in the Customer Central documentation.
 
 ## Record presence feature
 
@@ -465,7 +468,7 @@ The user presence component displays an icon in the form header that shows the u
 -   Hover over an icon to see more information about a user.
 -   Select the number icon to see more information about the additional users.
 
-For more information about this feature, see [User presence](https://www.servicenow.com/docs/access?context=c_UserPresence&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+For more information about this feature, see .
 
 ## Requesting information from customers
 
@@ -489,7 +492,7 @@ The system sets the case **State** field to Awaiting Info and displays the follo
 
 Agents can share articles with customers by using the **Attach and share article** knowledge guidance. This guidance recommends relevant knowledge articles to customer service agents and enables them to share the selected articles with customers in comments, work notes, or emails.
 
-From the Recommendations tab in the contextual side panel, agents can use [modeless dialogs](csm-front-line-case-page-modeless-dialogs.md) to do the following:
+From the Recommendations tab in the contextual side panel, agents can use [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-front-line-case-page-modeless-dialogs.md) to do the following:
 
 -   Attach and add a link to a comment.
 -   Attach and add a link to an email.
@@ -507,5 +510,5 @@ When the **glide.ui.journal.use\_html** is set to true, the Rich Text Editor is 
 
 The editor provides options such as bold, italics, lists, hyperlinks, and text alignment to help create structured, readable content. This setting does not affect email composition, which is managed separately via **sys\_email\_client\_confguration**. The rich text editor and formatting options are available by default in email messages, but the toggle does not appear.
 
-For more information about the knowledge guidance, see [Attach and share article guidance](ra-csm-guidances-attach-share-article.md).
+For more information about the knowledge guidance, see [Attach and share article guidance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ra-csm-guidances-attach-share-article.md).
 

@@ -2,6 +2,7 @@
 title: Configure a catalog in Service Portal
 description: Associate a portal with multiple catalogs. By default, Service Portal is associated with Service Catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/associate-portal-catalog.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -36,7 +37,7 @@ Role required: admin or sp\_admin
         **Note:**
 
         -   If no catalogs are selected, all active catalogs accessible to the requester are available in Service Portal.
-        -   Irrespective of the catalogs associated with the portal, items are searched for only in the catalogs configured in the search source in AI Search. For information on configuring AI-based catalog search experience, see [Configure AI-based catalog search experience](https://www.servicenow.com/docs/access?context=config-ai-search-cat&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+        -   Irrespective of the catalogs associated with the portal, items are searched for only in the catalogs configured in the search source in AI Search. For information on configuring AI-based catalog search experience, see Configure AI-based catalog search experience.
 4.  To edit the label for a catalog, perform the following steps.
 
     1.  For the **Main menu** field, click **Open Record**.
@@ -50,15 +51,15 @@ Role required: admin or sp\_admin
 5.  Click **Update**.
 
 
--   **[Access Management Automation](../concept/access-management.md)**  
+-   **[Access Management Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/access-management.md)**  
 Automate access management request fulfillment using the Service Catalog or Service Portal. The catalog items and flows support requests in Okta, Microsoft Entra ID \(formerly Microsoft Entra ID\), and Microsoft Active Directory.
--   **[Cloud Deployment Automation](../../../administer/integrationhub-store-spokes/concept/cloud-dep-auto.md)**  
+-   **[Cloud Deployment Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/cloud-dep-auto.md)**  
 Automates the deployment and provisioning of the AWS CloudFormation services using Service Catalog or Service Portal.
 
-**Parent Topic:**[Create a portal](create-a-portal.md)
+**Parent Topic:**[Create a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/create-a-portal.md)
 
 **Related topics**  
 
 
-[Service Catalog in Service Portal](https://www.servicenow.com/docs/access?context=catalog-on-portal&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.catalog-on-portal]
 

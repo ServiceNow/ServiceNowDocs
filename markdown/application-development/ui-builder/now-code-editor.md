@@ -2,6 +2,7 @@
 title: Edit code with the Now Code Editor \(advanced feature\)
 description: Now Code Editor is a rich-text editor like interface that supports Cascading Style Sheets \(CSS\), Hypertext Markup Language \(HTML\), JavaScript, Extensible Markup Language \(XML\), and JavaScript Object Notation \(JSON\). Use Now Code Editor to modify UI configuration, data resource configuration, styles, events, client-side and server-side scripts in Next Experience UI Builder components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/now-code-editor.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -37,7 +38,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Format code ![](../image/nce_format_code.png)
+Format code \[Omitted image "nce\_format\_code.png"\] Alt text:
 
 </td><td>
 
@@ -56,7 +57,7 @@ Highlights the syntax of the code.
 
 </td></tr><tr><td>
 
-Check syntax ![syntax check icon](../image/nce_syntax_check.png)
+Check syntax \[Omitted image "nce\_syntax\_check.png"\] Alt text: syntax check icon
 
 </td><td>
 
@@ -83,7 +84,7 @@ You can also enable or turn off **Syntax highlighting** from the **Settings** me
 
 </td></tr><tr><td>
 
-Toggle comments ![toggle comments icon](../image/nce_toggle_comments.png)
+Toggle comments \[Omitted image "nce\_toggle\_comments.png"\] Alt text: toggle comments icon
 
 </td><td>
 
@@ -121,7 +122,7 @@ Displays a list of available commands for the common operations. You can execute
 
 </td></tr><tr><td>
 
-Expand editor ![expand editor icon](../image/nce_exp_editor.png) or collapse editor ![collapse editor icon](../image/nce_coll_editor.png)
+Expand editor \[Omitted image "nce\_exp\_editor.png"\] Alt text: expand editor icon or collapse editor \[Omitted image "nce\_coll\_editor.png"\] Alt text: collapse editor icon
 
 </td><td>
 
@@ -133,7 +134,7 @@ Expands or collapses the editor.Keyboard shortcut
 </td></tr></tbody>
 </table>## Debugging
 
-To launch Script Debugger, click the Script Debugger icon ![Script Debugger icon](../image/nce_script_debugger.png) in the toolbar.
+To launch Script Debugger, click the Script Debugger icon \[Omitted image "nce\_script\_debugger.png"\] Alt text: Script Debugger icon in the toolbar.
 
 **Note:** You can add a breakpoint, conditional breakpoint, or logpoint, only when debugging is enabled and selected language is JavaScript.
 
@@ -176,7 +177,7 @@ Compare text in Diff mode
 
 </td><td>
 
-Use the side-by-side view icon ![now code editor side by side view](../image/nce_side_by_side_view.png) and inline view icon ![Now code editor inline view](../image/nce_inline_view.png) to toggle between views.
+Use the side-by-side view icon \[Omitted image "nce\_side\_by\_side\_view.png"\] Alt text: now code editor side by side view and inline view icon \[Omitted image "nce\_inline\_view.png"\] Alt text: Now code editor inline view to toggle between views.
 
 </td></tr></tbody>
 </table>## Code editor macros
@@ -264,5 +265,5 @@ Use the side-by-side view icon ![now code editor side by side view](../image/nce
         ```
 
 
-**Parent Topic:**[Advanced UI Builder](../../ui-builder/concept/advanced-uib.md)
+**Parent Topic:**[Advanced UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/advanced-uib.md)
 

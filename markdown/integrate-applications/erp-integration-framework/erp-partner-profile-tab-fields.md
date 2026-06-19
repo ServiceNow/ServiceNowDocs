@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP partner profile tab column descriptions
 description: The partner profile tab on a system record in Zero Copy Connector for ERP contains information that defines inbound and outbound communications with a partner.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erp-partner-profile-tab-fields.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -16,7 +17,7 @@ breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Cop
 
 The partner profile tab on a system record in Zero Copy Connector for ERP contains information that defines inbound and outbound communications with a partner.
 
-For process details, see [View Zero Copy Connector for ERP partner profile information](../task/view-erp-system-partner-profile-information.md).
+For process details, see [View Zero Copy Connector for ERP partner profile information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/view-erp-system-partner-profile-information.md).
 
 This feature is available starting with the Zurich Patch 4 release.
 
@@ -55,5 +56,5 @@ Updated
 Date and time the partner profile was most recently saved.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](erp-canvas-field-descriptions.md)
+</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
 

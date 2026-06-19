@@ -2,6 +2,7 @@
 title: Create a Field Service territory
 description: Create territories for optimizing agent and group scheduling. By mapping these territories to the territory model, you can maintain a record of your territory setup, ensuring efficient management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/create-territories-territory-planning-console.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -17,7 +18,7 @@ Create territories for optimizing agent and group scheduling. By mapping these t
 
 ## Before you begin
 
-You must set up a territory geography before you start creating a territory. For more information, see [Create a GeoJSON geography in Territory Planning console](../concept/creating-a-gojson-geography.md#).
+You must set up a territory geography before you start creating a territory. For more information, see [Create a GeoJSON geography in Territory Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/creating-a-gojson-geography.md).
 
 Role required: sn\_fsm\_tp.fsm\_territory\_planner, sn\_fsm\_tp.fsm\_territory\_manager
 
@@ -153,5 +154,5 @@ When accessing a territory record, the displayed related lists depend on whether
 
 ## What to do next
 
-[Configuring resources for territories](../concept/configuring-resources-for-territories.md)
+[Configuring resources for territories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/configuring-resources-for-territories.md)
 

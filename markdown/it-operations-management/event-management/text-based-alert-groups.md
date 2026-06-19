@@ -2,6 +2,7 @@
 title: Text-based alert grouping
 description: In text-based alert grouping, alerts are organized and correlated based on specific text patterns or keywords within the alert content. This approach dynamically groups alerts that share similar textual characteristics, such as error messages or event descriptions, allowing for more flexible and adaptive management of alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/text-based-alert-groups.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -26,11 +27,11 @@ There are specific settings or limits used to control the behavior of text-based
 -   Cluster quality threshold: The Cluster quality threshold \(**sa\_analytics.alert\_grouping\_tb\_cluster\_quality\_threshold**\) determines the minimum quality required for an alert cluster to be considered valid. This threshold ensures that only clusters with a minimum level of similarity and reliability are used. Clusters that meet this threshold are considered valid, improving the precision of the groupings and reducing noise from irrelevant or low-quality clusters. The range of the threshold is from 1 to 100 and the default value is 70.
 -   Alert rank threshold: The Alert rank threshold \(**sa\_analytics.alert\_grouping\_tb\_alert\_rank\_threshold**\) defines the minimum rank required for an alert to be included in a group. This threshold ensures that only alerts with a certain level of similarity are grouped together, filtering out lower-ranked alerts to maintain the quality of the alert group. The default value is 0.3, where smaller values indicate better similarity.
 
-**Note:** To use these properties, you need to create properties with the same names and assign the required values to them. For more information on how to create a property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+**Note:** To use these properties, you need to create properties with the same names and assign the required values to them. For more information on how to create a property, see .
 
 The EM Alert Clustering Solution definition is located in the \[ml\_capability\_definition\_clustering\] table. To access it, navigate to **Predictive Intelligence** &gt; **Clustering** &gt; **Solution Definitions**.
 
-To verify if the solution definition is active, see [Verify text-based clustering solution](../task/NLP-alerts.md). To disable the EM Alert Clustering Solution definition, disable text-based alert grouping by setting the property **sa\_analytics.text\_based\_group\_enabled** to `false` and clearing the **Active** check box in the EM Alert Clustering Solution definition.
+To verify if the solution definition is active, see [Verify text-based clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/NLP-alerts.md). To disable the EM Alert Clustering Solution definition, disable text-based alert grouping by setting the property **sa\_analytics.text\_based\_group\_enabled** to `false` and clearing the **Active** check box in the EM Alert Clustering Solution definition.
 
 ## Example of text-based alert grouping
 

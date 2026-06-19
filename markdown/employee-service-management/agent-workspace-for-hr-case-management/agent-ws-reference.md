@@ -2,6 +2,7 @@
 title: Agent Workspace for HR Case Management reference
 description: Reference topics provide additional information about Agent Workspace for HR Case Management components and forms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-reference.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -15,14 +16,14 @@ breadcrumb: [Agent Workspace, HR Service Delivery, Employee Service Management]
 
 Reference topics provide additional information about Agent Workspace for HR Case Management components and forms.
 
--   **[Create a new case form](case-creation-form-aws.md)**  
+-   **[Create a new case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/case-creation-form-aws.md)**  
 The Create a new case form allows you to create a new case in Agent Workspace for HR Case Management.
--   **[Page Configurations reference](configuration-settings.md)**  
+-   **[Page Configurations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/configuration-settings.md)**  
 A description of the page configuration settings in Agent Workspace for HR Case Management.
--   **[Highlighted value condition form](highlighted-value-form.md)**  
+-   **[Highlighted value condition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/highlighted-value-form.md)**  
 Use the Highlighted value condition form to create conditions to highlight a field.
--   **[Bulk case request form](bulk-case-request-form.md)**  
+-   **[Bulk case request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/bulk-case-request-form.md)**  
 The bulk case request form provides information to create a bulk case request to enable the creation of the same type of HR cases.
 
-**Parent Topic:**[Agent Workspace for HR Case Management](../concept/agent-ws-hr-case-mgmt-landing-page.md)
+**Parent Topic:**[Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-landing-page.md)
 

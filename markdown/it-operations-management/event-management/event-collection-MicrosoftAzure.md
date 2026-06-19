@@ -2,6 +2,7 @@
 title: Event collection from Microsoft Azure Monitor
 description: The MID WebServer Event Collector enables you to collect JSON formatted event messages sent from the Microsoft Azure portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/event-collection-MicrosoftAzure.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -21,9 +22,9 @@ Ensure that the Event Management Connectors \(sn\_em\_connector\) plugin is inst
 
 Ensure that you:
 
--   Deploy and start the MID Server. See [MID Server configuration](https://www.servicenow.com/docs/access?context=c_MIDServerConfiguration&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) .
--   Configure and start the MID Web Server. See [Configure the MID Web Server extension](configure-mid-web-server-extension.md).
--   Configure and start the MID WebService Event Collector. See [Configure the MID WebService Event Collector Context](configure-em-context-extension.md).
+-   Deploy and start the MID Server. See MID Server configuration .
+-   Configure and start the MID Web Server. See [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-mid-web-server-extension.md).
+-   Configure and start the MID WebService Event Collector. See [Configure the MID WebService Event Collector Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-em-context-extension.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -61,7 +62,7 @@ The following procedure describes the collection of JSON formatted event message
 
 ## What to do next
 
-If you want to send alert state changes on the ServiceNow instance from the ServiceNow alerts to the Azure Portal, you need to enable the Azure Monitor Bi-directional connector. For more information, see [Configure Azure Monitor Bi-directional connector](configure-azure-bi-directional-connector.md).
+If you want to send alert state changes on the ServiceNow instance from the ServiceNow alerts to the Azure Portal, you need to enable the Azure Monitor Bi-directional connector. For more information, see [Configure Azure Monitor Bi-directional connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-azure-bi-directional-connector.md).
 
-**Parent Topic:**[Integrate with push connectors](configure-listener-transform-script.md)
+**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-listener-transform-script.md)
 

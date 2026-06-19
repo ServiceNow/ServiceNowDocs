@@ -2,6 +2,7 @@
 title: Use the Start method for Universal App Connector
 description: Use the Start method to launch a browser or an application for the Universal App Connector \(UAC\) object. You can use this method if you want a browser or application to start before interacting with any application screens or elements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/use-start-method.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -51,7 +52,7 @@ AppType
 
 </td><td>
 
-Opens the Port Properties dialog. The options available are **Chrome**, **Edge**, and **Application**.If you select **Chrome** or **Edge** from the **Static Value** list, the selected browser opens in a new tab. For more information on how to configure port properties, see [Configure port properties](configure-input-port-properties.md).
+Opens the Port Properties dialog. The options available are **Chrome**, **Edge**, and **Application**.If you select **Chrome** or **Edge** from the **Static Value** list, the selected browser opens in a new tab. For more information on how to configure port properties, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
  If you select **Application** from the **Static Value** list, you must provide the full path of the application in the **Path** parameter of the Start method.
 
@@ -88,10 +89,10 @@ No
 
     For example, if you select a Java application screen or element, the Java connector methods are displayed in Object Explorer.
 
-    -   For more information on Java connector methods, see [Java connector methods](../reference/java-connector-methods.md).
-    -   For more information on Google Chrome and Microsoft Edge connector methods, see [Chromium connector methods](../reference/connectors-chrome-methods.md).
+    -   For more information on Java connector methods, see [Java connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/java-connector-methods.md).
+    -   For more information on Google Chrome and Microsoft Edge connector methods, see [Chromium connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/connectors-chrome-methods.md).
 
-    -   For more information on Windows connector methods, see [Windows Connector methods](../reference/connectors-windows-methods.md).
+    -   For more information on Windows connector methods, see [Windows Connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/connectors-windows-methods.md).
     -   If you have captured a web application screen and you want to execute a custom JavaScript on it, you can use the ExecuteJavascript method.
 
 
@@ -114,5 +115,5 @@ You have a list of employee salary records in an Excel sheet, and you want your 
     -   Trigger the calculation.
     -   Capture the calculated tax amount.
 
-**Parent Topic:**[Universal app connector](../concept/universal-app-connector.md)
+**Parent Topic:**[Universal app connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/universal-app-connector.md)
 

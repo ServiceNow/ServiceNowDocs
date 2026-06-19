@@ -2,6 +2,7 @@
 title: Remove HR Administrator role from IT System Administrators
 description: After system configuration, remove the HR Administrator role \(sn\_hr\_core.admin\) from IT System Administrator role \(admin\) to help prevent IT System Administrators from viewing sensitive HR information via forms, lists and UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/t\_HRRemoveAdminRole.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,7 +18,7 @@ After system configuration, remove the HR Administrator role \(sn\_hr\_core.admi
 
 ## Before you begin
 
-Role required: admin with sn\_hr\_core.admin
+Role required: sn\_hr\_core.admin
 
 Make sure that you have at least two users with the HR Administrator role. If you assign only one person with the role and that person is deactivated, you will not have a user to perform the HR admin duties.
 
@@ -44,11 +45,11 @@ Make sure that you have at least two users with the HR Administrator role. If yo
 
 After removing the HR administrator role from IT System Administrator role, log out and log back for the changes to take effect.
 
-**Note:** Ensure that you have completed the setup before you [Remove HR Administrator role from IT System Administrators](t_HRRemoveAdminRole.md).
+**Note:** Ensure that you have completed the setup before you [Remove HR Administrator role from IT System Administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_HRRemoveAdminRole.md).
 
 All the default HR scheduled jobs will run as usual even after the HR Administrator role is removed from the IT System Administrator role.
 
 **Note:** System user inherits the IT System Administrator role \(admin\). When you remove HR administrator role from the IT System Administrator role, System user will no longer have the HR administrator role. Validate all your customizations that are running in the context of System user.
 
-**Parent Topic:**[Manage HR roles](../concept/c_ManageRoles.md)
+**Parent Topic:**[Manage HR roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_ManageRoles.md)
 

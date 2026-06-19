@@ -2,6 +2,7 @@
 title: Deflection utility
 description: Use the Deflection utility in Virtual Agent to track issues that Virtual Agent helped to resolve or actually resolved for a user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-deflection.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -45,7 +46,7 @@ Deflection configuration
 
 </td><td>
 
-Select from a list of pre-defined deflection configurations. For more information, see [Create deflection configurations and patterns](../task/set-up-deflection-settings-va.md).
+Select from a list of pre-defined deflection configurations. For more information, see [Create deflection configurations and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/set-up-deflection-settings-va.md).
 
 </td></tr><tr><td>
 
@@ -53,7 +54,7 @@ Deflection pattern
 
 </td><td>
 
-Select from a list of pre-defined deflection patterns. Ensure that your selection is tied to a pre-defined deflection. See [Create deflection configurations and patterns](../task/set-up-deflection-settings-va.md) for more.
+Select from a list of pre-defined deflection patterns. Ensure that your selection is tied to a pre-defined deflection. See [Create deflection configurations and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/set-up-deflection-settings-va.md) for more.
 
 </td></tr><tr><td>
 
@@ -90,7 +91,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 </td></tr></tbody>
 </table>## Example Deflection utility
 
-![Action utility properties.](../images/flow-designer-deflection-properties.png)
+\[Omitted image "flow-designer-deflection-properties.png"\] Alt text: Action utility properties.
 
-**Parent Topic:**[Virtual Agent Designer utilities](va-utilities.md)
+**Parent Topic:**[Virtual Agent Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-utilities.md)
 

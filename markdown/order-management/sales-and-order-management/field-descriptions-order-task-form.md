@@ -2,6 +2,7 @@
 title: Order Tasks form
 description: The Order Task form enables you to review and update the fulfillment tasks that are associated with the selected order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/field-descriptions-order-task-form.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -77,7 +78,7 @@ State
 
 </td><td>
 
-Current state for the order task. To view a listing of selections, select the down arrow ![](../image/field-selection-list.png) icon:
+Current state for the order task. To view a listing of selections, select the down arrow \[Omitted image "field-selection-list.png"\] Alt text: icon:
 
 -   **Open**
 
@@ -177,9 +178,9 @@ Activity
 
 </td><td>
 
-Activity stream section for viewing all processing activities that have taken place for the selected order task. It includes a message that indicates that the order has been approved for processing and fulfillment.To expand, collapse, or filter by activity stream: -   Select the activity stream filter icon ![](../image/activity-stream-filter.png) to filter by post types, field changes, or flagged items.
--   Select the search icon ![](../image/field-search.png) to search the required information in the activity stream.
--   Select the sort descending icon ![](../../../reuse/icons/product-icons/sort-descending-outline-24.svg) to sort the activity from oldest to newest or select the sort ascending icon ![](../../../reuse/icons/product-icons/sort-ascending-fill-24.svg) for the opposite action.
+Activity stream section for viewing all processing activities that have taken place for the selected order task. It includes a message that indicates that the order has been approved for processing and fulfillment.To expand, collapse, or filter by activity stream: -   Select the activity stream filter icon \[Omitted image "activity-stream-filter.png"\] Alt text: to filter by post types, field changes, or flagged items.
+-   Select the search icon \[Omitted image "field-search.png"\] Alt text: to search the required information in the activity stream.
+-   Select the sort descending icon \[Omitted image "sort-descending-outline-24.svg"\] Alt text: to sort the activity from oldest to newest or select the sort ascending icon \[Omitted image "sort-ascending-fill-24.svg"\] Alt text: for the opposite action.
 
 </td></tr><tr><td>
 
@@ -190,5 +191,5 @@ Attachments
 File attachments for the order task. Select **Select file** to add the file as an attachment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Order Management reference](order-mgt-reference.md)
+</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-mgt-reference.md)
 

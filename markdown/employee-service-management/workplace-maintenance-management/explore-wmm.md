@@ -2,6 +2,7 @@
 title: Exploring Workplace Maintenance Management
 description: Workplace administrators and managers can create maintenance plans for preventive maintenance. Create duration or meter-based schedules for locations or assets. Associate different templates to your plan records to create maintenance cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-maintenance-management/explore-wmm.html
 release: zurich
 product: Workplace Maintenance Management
 classification: workplace-maintenance-management
@@ -34,5 +35,5 @@ Administrators and workplace managers can perform the following:
 
 -   Schedule job checks for an associated template and creates maintenance cases. It also pre-creates maintenance cases for plan records whose schedule is less than a day.
 -   Track and monitor maintenance plan records and maintenance cases on Workplace Central.
--   Analyze metrics and trends to show preventive maintenance cases versus corrective maintenance cases. Administrators and workplace managers can take appropriate measures to reduce corrective maintenance issues. For example, sudden outages and printer breakdown. Create maintenance plans for your models and assets to reduce the volume of corrective cases. For more information, see [Workplace Maintenance Management dashboard and analytics](workplace-maintenance-management-dashboard-overview.md).
+-   Analyze metrics and trends to show preventive maintenance cases versus corrective maintenance cases. Administrators and workplace managers can take appropriate measures to reduce corrective maintenance issues. For example, sudden outages and printer breakdown. Create maintenance plans for your models and assets to reduce the volume of corrective cases. For more information, see [Workplace Maintenance Management dashboard and analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/workplace-maintenance-management-dashboard-overview.md).
 

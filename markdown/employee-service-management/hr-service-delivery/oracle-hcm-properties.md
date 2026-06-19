@@ -2,6 +2,7 @@
 title: Configure properties
 description: Once you set up HR Service Delivery integration with Oracle Cloud HCM, the source record for the Oracle HCM Cloud application is automatically created in the Enterprise Service Management Integrations Framework, Source module. The integrations source properties can be used to configure the HR Service Delivery integration with Oracle Cloud HCM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/oracle-hcm-properties.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

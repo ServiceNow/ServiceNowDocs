@@ -2,6 +2,7 @@
 title: Create a library element
 description: Convert an artifact and its children in a KPI tree into a KPI Composer cross-project library element.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/create-library-element.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -35,13 +36,13 @@ Role required: sn\_kpi\_composer.user \(own project\), sn\_kpi\_composer.admin \
 
     In this example, you want to reuse the "Improve Customer Service Quality" critical success factor. You want to use it with its two child measurements "% of incidents resolved on time" and "% of major incident first call resolution."
 
-    ![Artifacts in a KPI tree that you want to reuse in multiple projects.](../image/kpi-comp-block-reuse.png)
+    \[Omitted image "kpi-comp-block-reuse.png"\] Alt text: Artifacts in a KPI tree that you want to reuse in multiple projects.
 
 3.  In the properties window of the artifact, select **Add this element to the library**.
 
     In this example, you have opened the properties of the "Improve Customer Service Quality" artifact and are about to click **Add this element to the library**.
 
-    ![Properties window for an artifact showing the Add this element to the library link.](../image/kpi-comp-add-element-library.png)
+    \[Omitted image "kpi-comp-add-element-library.png"\] Alt text: Properties window for an artifact showing the Add this element to the library link.
 
 
 ## Result
@@ -52,7 +53,7 @@ The selected artifact and its descendants are converted to a library element. A 
 
 This example shows the library element that results from the procedure steps. The root artifact is "Improve Customer Service Quality." The library element consists of it and the two measurements "% of incidents resolved on time" and "% of major incident first call resolution".
 
-![The library element from the example steps in the procedure.](../image/kpi-comp-library-element.png)
+\[Omitted image "kpi-comp-library-element.png"\] Alt text: The library element from the example steps in the procedure.
 
 ## What to do next
 
@@ -60,5 +61,5 @@ A library element starts out as Personal in scope. Only the user who created it 
 
 You cannot edit a library element from inside a project.
 
-**Parent Topic:**[Cross-project library elements](../concept/cross-project-artifact-libraries.md)
+**Parent Topic:**[Cross-project library elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/cross-project-artifact-libraries.md)
 

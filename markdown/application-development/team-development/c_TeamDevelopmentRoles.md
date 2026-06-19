@@ -2,6 +2,7 @@
 title: Team Development roles
 description: Team Development is installed with these roles.Configures a managed instance for use in Team Development.Performs operations, such as pushing, pulling, comparing, and reconciling changes.Review, approve, and reject a pushed code change.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/c\_TeamDevelopmentRoles.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -16,7 +17,7 @@ breadcrumb: [Team Development Reference, Team Development, Planning your applica
 
 Team Development is installed with these roles.
 
-**Parent Topic:**[Team Development Reference](../reference/team-development-reference.md)
+**Parent Topic:**[Team Development Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/team-development-reference.md)
 
 ## Configure instance \[teamdev\_configure\_instance\]
 

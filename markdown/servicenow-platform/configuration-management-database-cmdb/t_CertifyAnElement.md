@@ -2,6 +2,7 @@
 title: Certify an element
 description: The Certification Task form contains a list of all elements to be certified.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/t\_CertifyAnElement.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -31,13 +32,13 @@ Role required: admin
 
 3.  In the upper right corner of the list, select records that require certification for this task or all records that are part of this certification task.
 
-    ![Certification list 3](../image/CertificationList3.png "Certification list 3")
+    \[Omitted image "CertificationList3.png"\] Alt text: Certification list 3
 
 4.  Select the check box beside a certification element.
 
 5.  In Optional comment for checked elements, above the list, enter information that would be useful to others.
 
-    ![Certification list](../image/CertificationList.png "Certification list")
+    \[Omitted image "CertificationList.png"\] Alt text: Certification list
 
 6.  Do:
 
@@ -51,6 +52,6 @@ Role required: admin
 
 9.  Ensure that all elements have the correct certification, either accepted or rejected.
 
-    After you certify all elements, no elements can be [reverted](../concept/c_ResetCertifications.md). When all elements of a certification task are certified or rejected, the task State changes to Closed Complete.
+    After you certify all elements, no elements can be [reverted](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_ResetCertifications.md). When all elements of a certification task are certified or rejected, the task State changes to Closed Complete.
 
 

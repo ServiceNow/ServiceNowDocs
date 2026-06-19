@@ -2,6 +2,7 @@
 title: Offboard agents on the Field Service Contractor Portal
 description: Offboard agents of the contractor company to terminate their services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/offboard-agents-fsmcp.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

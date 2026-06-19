@@ -2,6 +2,7 @@
 title: Triage legal requests agentic workflow
 description: Use the Triage legal requests agentic workflow to predict the appropriate legal category and to initiate a transfer after a confirmation from the legal fulfiller or group manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-legal-service-delivery/trans-legal-request-agent.html
 release: zurich
 product: Now Assist for Legal Service Delivery
 classification: now-assist-for-legal-service-delivery
@@ -20,8 +21,8 @@ Use the Triage legal requests agentic workflow to predict the appropriate legal 
 
 **Important:**
 
--   To run the Triage legal requests agentic workflow, ensure that you have completed all the configurations. For more information, see [Configure Triage legal requests agentic workflow](conf-transfer-legal-request-agent.md).
--   If your generative AI service provider is not Now LLM Service, ensure that the API connections and credentials are configured. For more information, see [Configuring API credentials for generative AI capabilities](https://www.servicenow.com/docs/access?context=configuring-api-credentials-for-generative-ai-capabilities&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+-   To run the Triage legal requests agentic workflow, ensure that you have completed all the configurations. For more information, see [Configure Triage legal requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-legal-service-delivery/conf-transfer-legal-request-agent.md).
+-   If your generative AI service provider is not Now LLM Service, ensure that the API connections and credentials are configured. For more information, see .
 -   
 The agentic workflow is triggered under the following conditions:
 
@@ -49,11 +50,11 @@ You can access the agentic workflow from AI Agent Studio when you have the sn\_a
 
 The agentic workflow conversation can be seen in the Now Assist panel by the legal fulfiller or group manager with the now\_assist\_panel\_user role.
 
-1.  Open the Now Assist panel by selecting the Now Assist icon ![Now assist icon](../../../common/image/icon-ai-sparkle.png)
+1.  Open the Now Assist panel by selecting the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Now assist icon
 2.  In the Now Assist chat panel, select the legal request under the active chat.
 3.  See the agentic workflow conversation and the predicted legal category:
-    -   If you choose to transfer the general legal request, enter `Yes` and select the send icon \(![Send icon.](../image/send-chat-icon.png)\) in the panel. When it's transferred, the original request is canceled and a new request is created with the predicted legal category. The agentic conversation is closed after the transfer of the legal request.
-    -   If you choose not to transfer the general legal request, enter `No` and select the send icon \(![Send icon.](../image/send-chat-icon.png)\) in the panel. The general legal request isn’t transferred and the agentic conversation is closed.
+    -   If you choose to transfer the general legal request, enter `Yes` and select the send icon \(\[Omitted image "send-chat-icon.png"\] Alt text: Send icon.\) in the panel. When it's transferred, the original request is canceled and a new request is created with the predicted legal category. The agentic conversation is closed after the transfer of the legal request.
+    -   If you choose not to transfer the general legal request, enter `No` and select the send icon \(\[Omitted image "send-chat-icon.png"\] Alt text: Send icon.\) in the panel. The general legal request isn’t transferred and the agentic conversation is closed.
 
-**Parent Topic:**[Using agentic workflow in Now Assist for Legal Service Delivery \(LSD\)](../concept/agentic-ai-now-assist-lsd.md)
+**Parent Topic:**[Using agentic workflow in Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-legal-service-delivery/agentic-ai-now-assist-lsd.md)
 

@@ -2,6 +2,7 @@
 title: Assign a view to Guided Tours
 description: You can assign a list or form view to a step in a guided tour.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/use-view-guided-tour.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
@@ -23,7 +24,7 @@ Role required: guided\_tour\_admin or admin
 
 To assign a view to a tour step, you must know the view name. The name you see in the context menu **View** option is the title of the view. Look up the view name before you assign it to a tour step.
 
-![Context menu view options](../image/context-menu-view-titles.png "Context menu view options")
+\[Omitted image "context-menu-view-titles.png"\] Alt text: Context menu view options
 
 **Note:** You can add a view to only one step in a guided tour, and this is only possible if the step begins in the default view. When the tour is played and that step is executed, the user interface refreshes to display the new view.
 
@@ -43,11 +44,11 @@ To assign a view to a tour step, you must know the view name. The name you see i
 
 4.  Under Related Links, from the Guided Tour Steps, select the step you want to add a view.
 
-    ![Guided Tour Steps related list](../image/guided-tour-steps-related-list.png "Guided Tour Steps related list")
+    \[Omitted image "guided-tour-steps-related-list.png"\] Alt text: Guided Tour Steps related list
 
 5.  In the Tour Step tab, enter the view name in the **View** field.
 
-    ![In the Tour Step tab enter a view name.](../image/gtd-tour-step-form.png "Tour Step form")
+    \[Omitted image "gtd-tour-step-form.png"\] Alt text: In the Tour Step tab enter a view name.
 
 6.  Select **Update**.
 
@@ -60,5 +61,5 @@ To assign a view to a tour step, you must know the view name. The name you see i
     3.  Verify that the step you modified displays the correct view.
 
 
-**Parent Topic:**[Configuring Guided Tours](configure-guided-tours.md)
+**Parent Topic:**[Configuring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/configure-guided-tours.md)
 

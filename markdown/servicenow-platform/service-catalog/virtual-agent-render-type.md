@@ -2,6 +2,7 @@
 title: Virtual Agent render type
 description: A catalog item can be rendered in Virtual Agent as a conversation, window, or pop-up.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/virtual-agent-render-type.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -15,11 +16,19 @@ breadcrumb: [Now Assist in Conversational Catalog Request, Service Catalog, Mana
 
 A catalog item can be rendered in Virtual Agent as a conversation, window, or pop-up.
 
+## Catalog item request using Conversational-agentic render type
+
+The Conversational-agentic render type uses agentic AI to let users submit catalog item requests using a guided and natural language chat that means through conversations. Rather than showing all ﬁelds at once, a Now Assist collects user information step by step.
+
+## Catalog item request using Web render type
+
+TheWeb render type is the default and most widely used rendering mode for catalog items. When a catalog item is set to this render type, its request form is rendered as a standard web page inside a portal or the Now Platform UI.
+
 ## Catalog item request using a conversation render type
 
-A user can submit a request in the conversation mode \(by answering the questions in line\).
+A user can submit a request in the conversation mode \(by answering the questions in line\) in Virtual Agent.
 
-![Virtual Agent rendered as a conversation](../image/va-conversation-catalog.png)
+\[Omitted image "va-conversation-catalog.png"\] Alt text: Virtual Agent rendered as a conversation
 
 ## Catalog item request using a pop-up render type
 
@@ -27,7 +36,7 @@ A user can submit a catalog item request as a pop-up for items, which are not co
 
 **Note:** If you do not want to render your Virtual Agent conversation as a pop-up, set the **glide.sc.va.render\_type.legacy** property to true, which renders all non-conversational catalog items in the configured portal in a new tab.
 
-![Virtual Agent rendered as a popup](../image/va-popup-catalog.png)
+\[Omitted image "va-popup-catalog.png"\] Alt text: Virtual Agent rendered as a popup
 
 ## Catalog item request using a window render type
 
@@ -40,7 +49,7 @@ A catalog item is rendered as a window if it is of the following types:
 -   Wizard Launcher
 -   Standard Change Template
 
-![Virtual Agent rendered as a window](../image/va-window-catalog.png)
+\[Omitted image "va-window-catalog.png"\] Alt text: Virtual Agent rendered as a window
 
-**Parent Topic:**[Now Assist in Conversational Catalog Request](now-assist-in-conversational-catalog-request.md)
+**Parent Topic:**[Now Assist in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/now-assist-in-conversational-catalog-request.md)
 

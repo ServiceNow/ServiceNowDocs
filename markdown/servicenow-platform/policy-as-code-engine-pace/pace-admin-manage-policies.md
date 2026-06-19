@@ -2,6 +2,7 @@
 title: Manage PaCE policies
 description: You can define and manage your PaCE policies in a single management console.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/policy-as-code-engine-pace/pace-admin-manage-policies.html
 release: zurich
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

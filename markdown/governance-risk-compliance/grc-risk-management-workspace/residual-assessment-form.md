@@ -2,6 +2,7 @@
 title: Residual Assessment form
 description: Use the Residual Assessment form in the Advanced Risk application to assess the residual risks in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/residual-assessment-form.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -169,7 +170,7 @@ Factor for X-axis
 
 </td><td>
 
-Factor that appears on the X-axis of the heatmap. **Note:** Only the qualitative factors of type **Choice** or factors with the transformation criteria can be selected. For more information, see [Transformation criteria](../concept/transformation-criteria.md).
+Factor that appears on the X-axis of the heatmap. **Note:** Only the qualitative factors of type **Choice** or factors with the transformation criteria can be selected. For more information, see [Transformation criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/transformation-criteria.md).
 
 </td></tr><tr><td>
 
@@ -177,8 +178,8 @@ Factor for Y-axis
 
 </td><td>
 
-Factor that appears on the Y-axis of the heatmap. **Note:** Only the qualitative factors of type **Choice** or with the transformation criteria can be selected. For more information, see [Transformation criteria](../concept/transformation-criteria.md).
+Factor that appears on the Y-axis of the heatmap. **Note:** Only the qualitative factors of type **Choice** or with the transformation criteria can be selected. For more information, see [Transformation criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/transformation-criteria.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure a residual assessment](../task/configure-residual-assessment.md)
+</table>**Parent Topic:**[Configure a residual assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/configure-residual-assessment.md)
 

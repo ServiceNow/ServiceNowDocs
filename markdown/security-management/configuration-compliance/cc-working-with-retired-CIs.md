@@ -2,6 +2,7 @@
 title: Working with retired configuration items in Configuration Compliance
 description: Decommissioned configuration items \(CIs\) are moved to retired, archived, or deleted state in the Configuration Management Database \(CMDB\). Configuration Compliance contains test results \(TRs\) that are made up of CIs. When the state of a CI is updated to retired, the associated TRs are closed with the substate 'CI decommissioned'.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/cc-working-with-retired-CIs.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance
@@ -23,7 +24,7 @@ Decommissioned configuration items \(CIs\) are moved to retired, archived, or de
 |Group Rules|Remediation Task Rules|
 |Policy|Test group|
 
-If the CMDB changes the life cycle stage status of a CI to retired, you can choose to automatically close the associated TRs. For more information on automatically closing the associated TRs, see [Automatically close test results related to retired CIs](../task/cc-auto-close-vis.md).
+If the CMDB changes the life cycle stage status of a CI to retired, you can choose to automatically close the associated TRs. For more information on automatically closing the associated TRs, see [Automatically close test results related to retired CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/configuration-compliance/cc-auto-close-vis.md).
 
 The retired CI is eventually archived or permanently deleted from the CMDB.
 
@@ -32,7 +33,7 @@ Impact of retiring the CIs:
 -   **Impact on discovered items:** When the CI is retired, the related DI is marked as 'CI decommissioned'.
 -   **Impact on test results:** When the state of a DI is updated to 'CI decommissioned', the associated TR is closed and the Notes section is automatically updated.
 
-    **Note:** The state of a DI is automatically updated to 'CI decommissioned' whenever the life cycle state of a CI is updated. On the other hand, the state of a TR is updated to Closed only when the **sn\_vulc.auto\_close\_test\_results\_linked\_to\_retired\_CIs** property is set to true. For more information on automatically closing the associated TRs, see [Automatically close test results related to retired CIs](../task/cc-auto-close-vis.md).
+    **Note:** The state of a DI is automatically updated to 'CI decommissioned' whenever the life cycle state of a CI is updated. On the other hand, the state of a TR is updated to Closed only when the **sn\_vulc.auto\_close\_test\_results\_linked\_to\_retired\_CIs** property is set to true. For more information on automatically closing the associated TRs, see [Automatically close test results related to retired CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/configuration-compliance/cc-auto-close-vis.md).
 
 
 The scheduled job **Close Test Results for decommissioned CIs** is run daily for the updated DIs. If the auto-close configuration option is enabled for retired CIs, it identifies the DI containing a decommissioned CI, and closes the related TR with the substate 'CI decommissioned'. If all the TRs in a remediation task are closed and their substate is CI decommissioned, the remediation task is also closed with the substate 'Canceled'.

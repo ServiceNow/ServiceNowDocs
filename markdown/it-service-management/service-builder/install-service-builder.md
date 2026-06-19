@@ -2,6 +2,7 @@
 title: Install Service Builder
 description: You can install the Service Builder application \(sn\_service\_builder\) using the admin role. The application installs related plugins that aren’t already installed. It also installs the Service Builder components plugin to enable UI components for the product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-builder/install-service-builder.html
 release: zurich
 product: Service Builder
 classification: service-builder

@@ -2,7 +2,10 @@
 title: Configure scanning properties per persona
 description: You can view and configure a variety of information, formatted into lists, that the Scan Engine uses to permit users, team leads, and admins to access content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/teamdev-scanning-properties.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-11-19"
 reading_time_minutes: 2
@@ -19,7 +22,7 @@ You can specify whether to scan TeamDev code pushes that are pending a review. Y
 
 If you use TeamDev as a method for pushing code, the Scan Engine can be used to scan code pushes that are pending a code review. You scan these pushes for findings, as well as define the conditions to automatically approve or reject code reviews.
 
-**Note:** Code reviews must be enabled for TeamDev scanning to work properly. Additionally, admins must perform a one-time API configuration to enable TeamDev scanning. For more information, refer to [Register your instance](../task/register-your-instance.md).
+**Note:** Code reviews must be enabled for TeamDev scanning to work properly. Additionally, admins must perform a one-time API configuration to enable TeamDev scanning. For more information, refer to [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/register-your-instance.md).
 
 Properties include:
 

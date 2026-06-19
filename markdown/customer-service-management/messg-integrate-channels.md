@@ -2,7 +2,10 @@
 title: Integrating with consumer messaging apps
 description: Integrate Customer Service Management with each consumer messaging app to deliver a conversational mobile messaging experience for consumers and customer contacts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/messg-integrate-channels.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

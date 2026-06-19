@@ -2,6 +2,7 @@
 title: Create Microsoft Azure application and authenticate users to access Employee Center in Microsoft Teams
 description: Create a Microsoft Azure application in the Microsoft Azure portal to enable agents to start and import the chat conversations, and assign permissions to users to view the Employee Center dashboard in the Microsoft Teams application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/authenticate-users-your-hub-ms-teams.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -29,7 +30,7 @@ Role required: Microsoft Azure admin
 
     The **Register an application** form appears.
 
-    ![Register an application](../images/reg-an-app.png)
+    \[Omitted image "reg-an-app.png"\] Alt text: Register an application
 
 4.  Enter the name for your application, for example: `ServiceNow Auth app`, on the Register an application page.
 
@@ -76,7 +77,7 @@ Implicit grant
 Select **Access tokens** and **ID tokens**.
 
 </td></tr></tbody>
-</table>    ![Configure web form](../images/configure-web-meeting-extensibility02.png)
+</table>    \[Omitted image "configure-web-meeting-extensibility02.png"\] Alt text: Configure web form
 
 10. Select **Configure**.
 
@@ -86,7 +87,7 @@ Select **Access tokens** and **ID tokens**.
 
 13. Select **Openid permissions** accordion, and select **email**, **offline\_access**, **openid**, and **profile** check boxes.
 
-    ![Request API permissions](../images/request-api-permissions.png)
+    \[Omitted image "request-api-permissions.png"\] Alt text: Request API permissions
 
 14. Select **Add permissions**.
 
@@ -116,7 +117,7 @@ Select **Access tokens** and **ID tokens**.
     |User consent description|Enable Teams to call this app’s APIs with the same rights as the user.|
     |State|Enabled|
 
-    ![Add scope](../images/add_scope02.png)
+    \[Omitted image "add\_scope02.png"\] Alt text: Add scope
 
 21. Select the **Add scope** button.
 
@@ -208,14 +209,14 @@ Client ID for Outlook mobile application
 </td></tr></tbody>
 </table>    For more information on the client IDs, see [Configure your tab app in Microsoft Entra ID](https://learn.microsoft.com/en-us/microsoftteams/platform/tabs/how-to/authentication/tab-sso-register-aad#to-configure-authorized-client-application) in the Microsoft Teams documentation.
 
-    ![Add client ID](../images/add-client-id.png)
+    \[Omitted image "add-client-id.png"\] Alt text: Add client ID
 
 24. Select the **Add application** button.
 
     Copy the Application \(client\) ID, and Directory \(tenant\) ID from the application overview page in the Microsoft Azure portal to update the details in the ServiceNow instance.
 
-    ![Application ID and the tenant ID from the app overview page](../images/app-overview-azure-portal.png)
+    \[Omitted image "app-overview-azure-portal.png"\] Alt text: Application ID and the tenant ID from the app overview page
 
 
-**Parent Topic:**[Setup for integrating self-configured apps with Microsoft Teams for Employee Experience](../concept/c_employee_ex_s_tnt.md)
+**Parent Topic:**[Setup for integrating self-configured apps with Microsoft Teams for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/c_employee_ex_s_tnt.md)
 

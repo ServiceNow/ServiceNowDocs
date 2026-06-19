@@ -2,7 +2,10 @@
 title: Interaction Controls Component \(ICC\) call features
 description: Streamline call handling and enhance the agent experience in the Agent Workspace. Integrate voice call capabilities and the core contact center features with Interaction Controls Component \(ICC\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/interaction-controls-component-icc-call-interaction-features.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 6
@@ -21,13 +24,13 @@ The core features and capabilities of the contact center include:
 
 **Note:**
 
-To use voice call capabilities available with Interaction Controls Component \(ICC\) integration, see [Interaction Controls Component \(ICC\) for voice calls](contact-center-integration-with-icc.md).
+To use voice call capabilities available with Interaction Controls Component \(ICC\) integration, see [Interaction Controls Component \(ICC\) for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/contact-center-integration-with-icc.md).
 
 Use the ICC call control features with the existing contact center core features to promote streamlined operations and an enhanced agent experience. The following features are available within call interactions, and are numbered alongside the image as follows.
 
 ## Overview of ICC call interaction features within CSM Configurable Workspace
 
-![Interaction Controls Component call interaction features within the CSM Configurable Workspace](../image/ccaas-icc-features.png "ICC call features")
+\[Omitted image "ccaas-icc-features.png"\] Alt text: Interaction Controls Component call interaction features within the CSM Configurable Workspace
 
 The following table outlines the key call control features available when integrated with ICC within CSM Configurable Workspace.
 
@@ -57,11 +60,11 @@ View an interaction record within the global call component in the supported wor
 
  An interaction record is automatically created for each call. Opening the interaction record expands any voice interaction to show additional call details, including call transcript, wrap-up options, and customer context. The agent can view and update this record during the call and in the wrap-up interaction.
 
-**Note:** You can use an identity property and extension point to hide the conversation panel when real-time transcription is turned on or off. See: [Show or hide the conversation panel](show-hide-conversation-panel.md)
+**Note:** You can use an identity property and extension point to hide the conversation panel when real-time transcription is turned on or off. See: [Show or hide the conversation panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/show-hide-conversation-panel.md)
 
  The Interaction record page contains several other features that can be used to assist agents resolve customer issues while on call. Description of these features, such as record information, customer history, and KB search are available in the next table.
 
- Agents can also view interaction record details in unsupported workspaces with the call resiliency capability. See: [Call resiliency](ccaas-call-resiliency.md).
+ Agents can also view interaction record details in unsupported workspaces with the call resiliency capability. See: [Call resiliency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ccaas-call-resiliency.md).
 
 </td></tr><tr><td>
 
@@ -104,16 +107,16 @@ Global call component
 
 </td><td>
 
-Enable agent movement between screens in the ServiceNow instance by displaying real-time call data in the component panel. The global call component provides an experience that enables agents to access call controls and embedded functionality within any workspace that supports the ICC enabled features. The global call components are available via OpenFrame integration. See: [Global call list](ccaas-global-call-list.md).
+Enable agent movement between screens in the ServiceNow instance by displaying real-time call data in the component panel. The global call component provides an experience that enables agents to access call controls and embedded functionality within any workspace that supports the ICC enabled features. The global call components are available via OpenFrame integration. See: [Global call list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ccaas-global-call-list.md).
 
  This component is used to make and manage outbound and incoming calls. Agents can switch between workspaces anywhere within the application while taking ongoing calls. If an agent switches to a non-interaction tab during an ongoing call, the call continues to be active. All other active call controls can be accessed from this component.
 
 -   Outbound call: Initiates outbound calls to contact customers, using the phone keypad to dial manually, or by selecting the call icon on the record phone field for direct calls. Avail the phone directory for ease of making outbound calls.
 -   -   Callbacks: Outbound calls also support customer callback requests. When enabled and integrated within CSM, the agent can follow up on a callback request by manually completing an outbound call.
 
-**Note:** For more information on callbacks, view [Callback interaction features](contact-center-intergration-with-icc-callback.md)
+**Note:** For more information on callbacks, view [Callback interaction features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/contact-center-intergration-with-icc-callback.md)
 
--   Phone directory: Agents can use the integrated address book to make outbound calls to queues, other agents, and external numbers. They can also enter a phone number directly in the global call list window to make calls. See: [Phone directory](ccaas-phone-directory.md).
+-   Phone directory: Agents can use the integrated address book to make outbound calls to queues, other agents, and external numbers. They can also enter a phone number directly in the global call list window to make calls. See: [Phone directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ccaas-phone-directory.md).
 
 </td></tr></tbody>
 </table>## Interaction record page features within the CSM Configurable Workspace

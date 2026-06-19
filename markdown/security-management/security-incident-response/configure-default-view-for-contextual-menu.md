@@ -2,6 +2,7 @@
 title: Configure default view for contextual menu
 description: Configure whether the contextual menu panel for a security incident is expanded or collapsed by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/configure-default-view-for-contextual-menu.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -34,5 +35,5 @@ Role required: sn\_si.admin
 5.  Select **Save**.
 
 
-**Parent Topic:**[View and update Security Incident Response system properties](../concept/view-update-sirw-system-properties.md)
+**Parent Topic:**[View and update Security Incident Response system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/view-update-sirw-system-properties.md)
 

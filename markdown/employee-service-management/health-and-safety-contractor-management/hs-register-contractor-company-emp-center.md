@@ -2,11 +2,12 @@
 title: Register a contractor company through Employee Center
 description: Register a contractor company to initiate its health and safety pre-qualification process with safety contractor coordinators in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-contractor-management/hs-register-contractor-company-emp-center.html
 release: zurich
 product: Health and Safety Contractor Management
 classification: health-and-safety-contractor-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Manage contractors, Health and Safety Contractor Management, Health and Safety, Employee Service Management]
 ---
@@ -18,6 +19,10 @@ Register a contractor company to initiate its health and safety pre-qualificatio
 ## Before you begin
 
 Role required: sn\_hs\_crm.reporter
+
+## About this task
+
+A safety contractor coordinator can also directly add a contractor company from the Health and Safety Workspace. For more information, see [Add a contractor company from Health and Safety Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-contractor-management/hs-add-contractor-company-from-workspace.md).
 
 ## Procedure
 
@@ -33,7 +38,7 @@ Role required: sn\_hs\_crm.reporter
 
         This field displays only users who have been assigned the \[snc\_external\] role and have a Health and Safety profile created for them.
 
-        For more information, see [Assign Health and Safety profile to a contractor worker](hs-assign-hs-user-profile-contract-worker.md).
+        For more information, see [Assign Health and Safety profile to a contractor worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-contractor-management/hs-assign-hs-user-profile-contract-worker.md).
 
 4.  Select **Submit**.
 
@@ -41,9 +46,9 @@ Role required: sn\_hs\_crm.reporter
 ## Result
 
 -   The contractor company is registered for health and safety.
--   The contractor company is listed in the Contractor companies list on Health and Safety Workspace. A safety contractor coordinator \[sn\_hs\_crm.contractor\_coordinator\] can view all the registered companies by navigating to the Health and Safety Workspace and selecting the contractor management icon \(![Contractor management icon](../image/icon-contractor-mgmt.png)\).
+-   The contractor company is listed in the Contractor companies list on Health and Safety Workspace. A safety contractor coordinator \[sn\_hs\_crm.contractor\_coordinator\] can view all the registered companies by navigating to the Health and Safety Workspace and selecting the contractor management icon \(\[Omitted image "icon-contractor-mgmt.png"\] Alt text: Contractor management icon\).
 
 ## What to do next
 
-A safety contractor coordinator can complete the pre-qualification information for this company from Health and Safety Workspace. For more information, see [Add a contractor company from Health and Safety Workspace](hs-add-contractor-company-from-workspace.md).
+A safety contractor coordinator can complete the pre-qualification information for this company from Health and Safety Workspace. For more information, see [Add a contractor company from Health and Safety Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-contractor-management/hs-add-contractor-company-from-workspace.md).
 

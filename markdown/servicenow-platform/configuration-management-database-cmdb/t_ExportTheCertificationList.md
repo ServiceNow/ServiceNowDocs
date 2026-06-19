@@ -2,6 +2,7 @@
 title: Export the certification list
 description: Users with the certification\_admin role can export the certifications list and save the list in Excel, CSV, XML, or PDF format. This list is useful when you have a long list of certification elements or if many different users are assigned to certify elements on a single certification schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/t\_ExportTheCertificationList.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

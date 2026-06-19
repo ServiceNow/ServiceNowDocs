@@ -2,6 +2,7 @@
 title: Create success activities for HAM success goals
 description: Create success activities to track the success of your created goals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/create-suc-act-hw.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -29,7 +30,7 @@ Role required: ham\_admin, asset \(owner of the goal\)
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [HAM Success Activity](../reference/success-act-fields.md).
+    For a description of the field values, see [HAM Success Activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/success-act-fields.md).
 
 4.  Select **Save**.
 
@@ -38,5 +39,5 @@ Role required: ham\_admin, asset \(owner of the goal\)
 
 The success activity that you created gets displayed on the Success activities page in the Asset operations view.
 
-**Parent Topic:**[Assess performance of Hardware Asset Management](../concept/suc-goal-act-hw.md)
+**Parent Topic:**[Assess performance of Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/suc-goal-act-hw.md)
 

@@ -2,7 +2,10 @@
 title: Configuring the Customer History component
 description: Users with the admin role can configure several properties for the Customer History component.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-central-configuration.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 5
@@ -60,7 +63,7 @@ The **Show bordered icons** check box enables admins to customize icon borders i
 -   Set to true: Enables bordered icons
 -   Set to false: Disables bordered icons
 
-![Show bordered option](../image/cust-central-show-bordered-icon.png "Show bordered icons check box")
+\[Omitted image "cust-central-show-bordered-icon.png"\] Alt text: Show bordered option
 
 Admins can adjust this setting based on their preferences.
 
@@ -96,7 +99,7 @@ Default values are set for all fields to help prevent errors by ensuring that fi
 
 ## New empty state for context fields
 
-![New empty state for context fields](../image/cust-central-empty-state-field-feature.png "New empty state for context fields")
+\[Omitted image "cust-central-empty-state-field-feature.png"\] Alt text: New empty state for context fields
 
 On the agent side, when viewing a case, customer history or activity data loads automatically if available. If there’s no activity, the system shows `No activities found`. If no account, contact, or consumer is selected, it displays `No customer identified yet`. This behavior is part of the empty state feature, guiding users to select or add context \(account, contact, or consumer\) to proceed.
 

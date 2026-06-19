@@ -2,6 +2,7 @@
 title: Complete the test plan sign-off
 description: Review and sign off the test plan so that you can record the approval of the test plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/test-management/t\_CompleteTheTestPlanSignOffForm.html
 release: zurich
 product: Test Management
 classification: test-management

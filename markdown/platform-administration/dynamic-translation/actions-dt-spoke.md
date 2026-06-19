@@ -2,6 +2,7 @@
 title: Actions in Dynamic Translation spoke
 description: Actions in the Dynamic Translation spoke are built to access the Dynamic Translation APIs from Workflow Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/dynamic-translation/actions-dt-spoke.html
 release: zurich
 product: Dynamic Translation
 classification: dynamic-translation
@@ -69,6 +70,8 @@ Translate texts to multiple languages using the configured translation service p
 
 When an error occurs, error codes populate with the reason for the error. Refer to the following information for the standard error codes that appear while you work on the Dynamic Translation spoke actions corresponding to the Dynamic Translation APIs.
 
--   [Dynamic Translation - Scoped](https://www.servicenow.com/docs/access?context=DynamicTranslation&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
--   [Dynamic Translation - Client](https://www.servicenow.com/docs/access?context=DynamicTranslationClientAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+-   Dynamic Translation - Scoped
+-   Dynamic Translation - Client
+
+**Parent Topic:**[Reference for Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/reference-for-dynamic-translation.md)
 

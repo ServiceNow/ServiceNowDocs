@@ -2,6 +2,7 @@
 title: Cloud Discovery home page in Cloud Discovery Workspace
 description: The Cloud Discovery home page displays a summary of the discoveries triggered through a discovery schedule. You can view the count of CIs discovered and errors encountered over time. You can also select any dashboard report to view additional information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/cloud-operations-discovery-home.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -17,7 +18,7 @@ The Cloud Discovery home page displays a summary of the discoveries triggered th
 
 **Important:** Starting with the Zurich release, Cloud Discovery Workspace is being prepared for future deprecation. It will be hidden and no longer activated on new instances, but will continue to be supported. Discovery Admin Workspace provides the latest experience for this functionality. For details, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
-![Cloud Discovery dashboard.](../image/cow-cloud-disco-dashboard.gif)
+\[Omitted image "cow-cloud-disco-dashboard.gif"\] Alt text: Cloud Discovery dashboard.
 
 ## Required ServiceNow AI Platform roles
 
@@ -94,7 +95,7 @@ Description
 
 </td><td>
 
-Donut chart![Line and area chart.](../../../use/reporting/image/icon-area-report-p.png)
+Donut chart\[Omitted image "icon-area-report-p.png"\] Alt text: Line and area chart.
 
 </td><td>
 
@@ -130,7 +131,7 @@ Total configuration items
 
 </td><td>
 
-Line and area chart![Line and area chart.](../../../use/reporting/image/icon-area-report-p.png)
+Line and area chart\[Omitted image "icon-area-report-p.png"\] Alt text: Line and area chart.
 
 </td><td>
 
@@ -146,7 +147,7 @@ Cloud discovery errors
 
 </td><td>
 
-Line and area chart![Line and area chart.](../../../use/reporting/image/icon-area-report-p.png)
+Line and area chart\[Omitted image "icon-area-report-p.png"\] Alt text: Line and area chart.
 
 </td><td>
 
@@ -178,7 +179,7 @@ MID servers
 
 </td><td>
 
-Donut chart![Donut chart.](../../../use/reporting/image/icon-donut-report-p.png)
+Donut chart\[Omitted image "icon-donut-report-p.png"\] Alt text: Donut chart.
 
 </td><td>
 
@@ -210,7 +211,7 @@ Cloud VMs by datacenter
 
 </td><td>
 
-Horizontal bar chart![Horizontal bar chart.](../../../use/reporting/image/icon-horizontal-bar-report-p.png)
+Horizontal bar chart\[Omitted image "icon-horizontal-bar-report-p.png"\] Alt text: Horizontal bar chart.
 
 </td><td>
 

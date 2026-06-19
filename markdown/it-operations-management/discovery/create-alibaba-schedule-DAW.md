@@ -2,6 +2,7 @@
 title: Create an Alibaba Cloud Discovery schedule in Discovery Admin Workspace
 description: Use the Discovery Admin Workspace dashboard to create an Alibaba Cloud Discovery schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/create-alibaba-schedule-DAW.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -20,10 +21,10 @@ Use the Discovery Admin Workspace dashboard to create an Alibaba Cloud Discovery
 
 Verify the following:
 
--   You have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://www.servicenow.com/docs/access?context=use-mid-server-guidedsetup&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://www.servicenow.com/docs/access?context=t_InstallAMIDServerOnLinux&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) and [Windows](https://www.servicenow.com/docs/access?context=mid-server-install-prereqs&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+-   You have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using Use MID Server guided setup or by manually downloading and running the installer. For details, see the MID Server installation instructions for Linux and Windows.
 -   The MID Server used for Cloud Discovery is configured with the Cloud Management capability.
 -   You have configured an Alibaba Cloud Random Access Memory \(RAM\) user or RAM role in the Alibaba Cloud console that has the necessary permissions so that the MID Server can access the cloud resources you plan to discover.
--   You have created suitable Alibaba Cloud API credentials in the ServiceNow AI Platform. For more information, see [Create Alibaba Cloud API Credentials](create-alibaba-cloud-api-credentials.md).
+-   You have created suitable Alibaba Cloud API credentials in the ServiceNow AI Platform. For more information, see [Create Alibaba Cloud API Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/create-alibaba-cloud-api-credentials.md).
 -   You're using Discovery Admin Workspace v1.13.0.
 
 Role required: discovery\_admin
@@ -44,8 +45,8 @@ Role required: discovery\_admin
 
     |Option|Description|
     |------|-----------|
-    |**Use a cluster of MID servers**|Select an existing MID Server. Clusters provide failover protection and load balancing between MID Servers. See [Configure a MID Server cluster](https://www.servicenow.com/docs/access?context=t_ConfigureAMIDServerCluster&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) for more information.|
-    |**Automatically select a MID server**|An available MID Server is automatically selected when the Discovery schedule runs. See [Automatic MID Server selection](../../agent-client-collector/concept/acc-auto-mid-selection.md) for more information.|
+    |**Use a cluster of MID servers**|Select an existing MID Server. Clusters provide failover protection and load balancing between MID Servers. See  for more information.|
+    |**Automatically select a MID server**|An available MID Server is automatically selected when the Discovery schedule runs. See [Automatic MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-auto-mid-selection.md) for more information.|
     |**Search for a MID server**|Choose a MID Server to run the Discovery schedule. Only MID Servers that are validated, up, and have the Cloud Management capability are displayed.|
 
 7.  Select **Next**.

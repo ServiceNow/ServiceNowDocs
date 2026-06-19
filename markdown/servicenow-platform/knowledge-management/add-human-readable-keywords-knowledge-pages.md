@@ -2,6 +2,7 @@
 title: Enable Human Readable URLs for the Knowledge Article View page
 description: Update a human readable URL structure in the Knowledge Article View page to improve search ranking and click-through rates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/add-human-readable-keywords-knowledge-pages.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -35,7 +36,7 @@ If you are upgrading from a release earlier than the Zurich release, you must en
 
 4.  On the Knowledge Article View form, in the **Human readable url structure** field enter the `%short_descr` variable.
 
-    **Note:** You can also create a variable to add information from various data sources. For more information, see [Add human readable keywords to page URLs](https://www.servicenow.com/docs/access?context=add-human-readable-keywords-page-urls&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+    **Note:** You can also create a variable to add information from various data sources. For more information, see Add human readable keywords to page URLs.
 
 5.  Select **Update**.
 
@@ -59,5 +60,5 @@ This article URL contains the field variables, and keywords in the following tab
 |Category|%category|`faq`|
 |Short description|%short\_descr|`What is a cookie?`|
 
-**Parent Topic:**[Using human readable URLs for the Knowledge article page](../concept/human-readable-urls-km.md)
+**Parent Topic:**[Using human readable URLs for the Knowledge article page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/human-readable-urls-km.md)
 

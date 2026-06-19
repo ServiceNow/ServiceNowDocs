@@ -2,6 +2,7 @@
 title: Viewing data usage by table
 description: View a summary of data usage for an individual table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/data-management-table-data.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -21,7 +22,7 @@ View a summary of data usage for an individual table.
 
 Details on this page are refreshed once daily.
 
-![Data usage by table.](../image/dmc-data-usage.png "View data usage by table in the Data Management Console")
+\[Omitted image "dmc-data-usage.png"\] Alt text: Data usage by table.
 
 ## Required ServiceNow AI Platform roles
 

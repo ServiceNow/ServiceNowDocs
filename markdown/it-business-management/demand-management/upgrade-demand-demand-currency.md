@@ -2,6 +2,7 @@
 title: Upgrade existing demands
 description: Execute scheduled jobs to upgrade your existing active and inactive demands, respectively, after activating the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/demand-management/upgrade-demand-demand-currency.html
 release: zurich
 product: Demand Management
 classification: demand-management
@@ -33,15 +34,15 @@ Run these scheduled jobs on demand to upgrade your existing active and inactive 
 
 2.  Execute a scheduled job to upgrade your existing active and inactive demands.
 
-<table id="choicetable_ndl_hwg_2nb"><thead><tr><th align="left" id="d326873e82">
+<table id="choicetable_ndl_hwg_2nb"><thead><tr><th align="left" id="d305041e82">
 
 Demand type
 
-</th><th align="left" id="d326873e85">
+</th><th align="left" id="d305041e85">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d326873e91">
+</th></tr></thead><tbody><tr><td id="d305041e91">
 
 **Active demands**
 
@@ -51,7 +52,7 @@ Steps
 2.  Select **Execute Now**
  Executing the job copies all amounts in the cost-related fields of the demands in demand currency. The Baseline, Cost Plan, Cost Plan Breakdown, Benefit Plan, Benefit Plan Breakdown fields are also changed to the demand currency. You can’t edit the demand currency after the values in the functional currency fields are copied to the demand currency fields since the financial costs exist.
 
-</td></tr><tr><td id="d326873e117">
+</td></tr><tr><td id="d305041e117">
 
 **Inactive demands**
 
@@ -63,5 +64,5 @@ Steps
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Multicurrency in Demand Management](../concept/multicurrency-demand.md)
+**Parent Topic:**[Multicurrency in Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/multicurrency-demand.md)
 

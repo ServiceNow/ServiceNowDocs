@@ -2,6 +2,7 @@
 title: Customize the work order state transition map
 description: Users with the system administrator role can customize the work order state transition map, which maps work order states to project task states.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-integrations/customize-state-transition-map.html
 release: zurich
 product: Field Service Integrations
 classification: field-service-integrations
@@ -47,5 +48,5 @@ if\(taskJSON.change\_map &amp;&amp; taskJSON.change\_map.state\)\{
     
 ```
 
-**Parent Topic:**[Integration with Project Portfolio Management](project-management-integration.md)
+**Parent Topic:**[Integration with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-integrations/project-management-integration.md)
 

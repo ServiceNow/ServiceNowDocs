@@ -2,6 +2,7 @@
 title: Oracle Database licensing for Standard Editions
 description: Oracle Database Standard Editions are licensed on servers having a value less than the maximum capacity of sockets to help ensure risk-free license compliance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/oracle-db-licensing-std-edition.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -56,5 +57,5 @@ The following example shows the message that would appear for a reclamation or r
 
 `Oracle DB Server Standard Edition 2 installed on <Server Name> has been flagged as an unlicensed install. As per Oracle Licensing Policy, Oracle Database Standard Edition 2 may only be licensed on servers that have a maximum capacity of 2 sockets. This Server is found to have <no. of socket> number of sockets available. You are advised to uninstall the Oracle DB Server Standard Edition 2 from this server or upgrade to Oracle DB Enterprise Edition. We suggest working with your Oracle Database Administrator to assess the impact before proceeding with this action. Please note that the maximum number of sockets or slots available on a server are part of the hardware specification. Hence it is advised to update this information on the hardware product model <hw model name>. If this information is not present on the hardware model, it is assumed that all sockets are occupied and discovered.`
 
-**Parent Topic:**[Software Asset Management publisher pack for Oracle](oracle-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for Oracle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/oracle-publisher-pack.md)
 

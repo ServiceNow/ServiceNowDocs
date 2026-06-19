@@ -2,6 +2,7 @@
 title: Filters the security best practices table
 description: Apply filters to return more relevant results for your security best practices.Discover the steps for saving filters in your security best practices for later reuse.Discover the steps for using the filters that you saved for your security best practices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/security-center/apply-filters-to-the-security-best-practices-table.html
 release: zurich
 product: Security Center
 classification: security-center
@@ -23,17 +24,17 @@ Role required: admin
 
 1.  Access Security Best Practices Manager by selecting **All** on your ServiceNow instance and entering best practice.
 
-2.  Navigate to the **Best Practices** table and select a field you want to apply a filter to by selecting its kebab menu, or the one with three vertical dots \(![vertical dots](../../../reuse/icons/product-icons/ellipsis-vertical-fill-24.svg)\).
+2.  Navigate to the **Best Practices** table and select a field you want to apply a filter to by selecting its kebab menu, or the one with three vertical dots \(\[Omitted image "ellipsis-vertical-fill-24.svg"\] Alt text: vertical dots\).
 
-<table id="choicetable_k12_2fy_cbc"><thead><tr><th align="left" id="d150931e74">
+<table id="choicetable_k12_2fy_cbc"><thead><tr><th align="left" id="d150277e74">
 
 Fields
 
-</th><th align="left" id="d150931e77">
+</th><th align="left" id="d150277e77">
 
 Filter
 
-</th></tr></thead><tbody><tr><td id="d150931e83">
+</th></tr></thead><tbody><tr><td id="d150277e83">
 
 **Name**
 
@@ -41,7 +42,7 @@ Filter
 
 Combine a conditional operator with a string of text to return security best practices that match the name you entered.
 
-</td></tr><tr><td id="d150931e92">
+</td></tr><tr><td id="d150277e92">
 
 **Maturity level**
 
@@ -55,7 +56,7 @@ Apply a filter to return security best practices that match one or more of the f
 -   Add advanced features
 
 
-</td></tr><tr><td id="d150931e119">
+</td></tr><tr><td id="d150277e119">
 
 **Status**
 
@@ -69,7 +70,7 @@ Apply a filter to return security best practices that match one or more of the f
 -   Completed
 
 
-</td></tr><tr><td id="d150931e146">
+</td></tr><tr><td id="d150277e146">
 
 **Priority**
 
@@ -83,7 +84,7 @@ Apply a filter to return security best practices that match the following priori
 -   Not applicable
 
 
-</td></tr><tr><td id="d150931e174">
+</td></tr><tr><td id="d150277e174">
 
 **Goals**
 
@@ -99,7 +100,7 @@ Apply a filter to return security best practices that match one or more of the f
 -   Secure emails
  **Note**: Advanced filters are applied for goals by default. To modify them, select **Make changes** &gt; **Advanced view** &gt; **Select field goals** and then build the rest of the conditions and select **Update**.
 
-</td></tr><tr><td id="d150931e228">
+</td></tr><tr><td id="d150277e228">
 
 **First introduced**
 
@@ -107,7 +108,7 @@ Apply a filter to return security best practices that match one or more of the f
 
 Combine a conditional operator with a string of text to return best practices that were first introduced with the version you entered.
 
-</td></tr><tr><td id="d150931e237">
+</td></tr><tr><td id="d150277e237">
 
 **Changed**
 
@@ -115,7 +116,7 @@ Combine a conditional operator with a string of text to return best practices th
 
 Combine a conditional operator with a string of text to return security best practices that changed in the version you entered.
 
-</td></tr><tr><td id="d150931e246">
+</td></tr><tr><td id="d150277e246">
 
 **Removed**
 
@@ -125,7 +126,7 @@ Combine a conditional operator with a string of text to return security best pra
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Security Best Practices](../concept/security-best-practices-manager.md)
+**Parent Topic:**[Security Best Practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/security-best-practices-manager.md)
 
 ## Save a filter for future use
 
@@ -141,7 +142,7 @@ After you create filters in the security best practices table, you can save them
 
 ### Procedure
 
-1.  Select the Show filter \(![filter icon](../../../reuse/icons/product-icons/filter-outline-24.svg)\) panel icon.
+1.  Select the Show filter \(\[Omitted image "filter-outline-24.svg"\] Alt text: filter icon\) panel icon.
 
 2.  In the **Filter** dialog panel, scroll down and select **Advanced view**.
 
@@ -172,7 +173,7 @@ After you log out of your instance your filters are reset to the default setting
 
 ### Procedure
 
-1.  Select the Show filter panel \(![filter icon](../../../reuse/icons/product-icons/filter-outline-24.svg)\) icon.
+1.  Select the Show filter panel \(\[Omitted image "filter-outline-24.svg"\] Alt text: filter icon\) icon.
 
 2.  In the Filter dialog box, scroll down and select **Advanced view**.
 

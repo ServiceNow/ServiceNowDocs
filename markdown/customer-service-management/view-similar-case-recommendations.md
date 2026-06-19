@@ -2,7 +2,10 @@
 title: View similar case recommendations
 description: The similar case recommendation feature allows customer service agents to quickly find similar cases that can provide helpful information about a current case. This feature can also provide recommendations about cases that may be related to major issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/view-similar-case-recommendations.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -46,5 +49,5 @@ Any changes made to the current case and saved will trigger a refresh of the rec
 
 Plugins: The configuration for the similar case recommendation feature is included with the Customer Service plugin \(com.sn\_customerservice\). The similar case recommendation feature has a dependency on Major Issue Management – activate the Major Issue Management plugin \(com.sn\_majorissue\_mgt\).
 
-For more info, see [Similar case user actions](../reference/similar-cases-user-actions.md)
+For more info, see [Similar case user actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/similar-cases-user-actions.md)
 

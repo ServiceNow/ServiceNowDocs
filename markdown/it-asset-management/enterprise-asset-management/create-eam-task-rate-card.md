@@ -2,6 +2,7 @@
 title: Create a task rate card in Enterprise Asset Workspace
 description: Create a task rate card to capture costs per task type in the Enterprise Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/create-eam-task-rate-card.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -145,5 +146,5 @@ Detailed description of the task rate card.
     After a task rate card is created, expense lines are created based on the value in the **Use time worked** field.
 
 
-**Parent Topic:**[Configuring Total Cost of Ownership for enterprise assets](../concept/confifure-eam-asset-tco.md)
+**Parent Topic:**[Configuring Total Cost of Ownership for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/confifure-eam-asset-tco.md)
 

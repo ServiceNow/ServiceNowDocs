@@ -2,6 +2,7 @@
 title: Configure subflow conversational settings
 description: Configure conversation settings to make a subflow available to conversational interfaces.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/configure-subflow-conversation-settings.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -30,13 +31,13 @@ Role required:
 
 3.  From the list of all subflows, select the subflow that you want to configure.
 
-4.  From the side panel, open **Conversational settings** \(![Option on the side panel to open conversational settings.](../images/conversational-settings-icon-z.png)\).
+4.  From the side panel, open **Conversational settings** \(\[Omitted image "conversational-settings-icon-z.png"\] Alt text: Option on the side panel to open conversational settings.\).
 
 5.  Select the skill that you want to edit, or create a new skill.
 
 6.  Configure the general settings.
 
-    ![Example general settings for the Send SMS subflow.](../images/general-settings-conv-sublow-z.png)
+    \[Omitted image "general-settings-conv-sublow-z.png"\] Alt text: Example general settings for the Send SMS subflow.
 
 <table id="table_rfk_qjx_c2c"><thead><tr><th>
 
@@ -54,7 +55,7 @@ Generate skill metadata
 
 Option to generate descriptions for the conversational skill, inputs, and outputs of the subflow by using generative AI. Workflow Studio generates a description for all the inputs and outputs where the description is empty. Regenerating the descriptions does not overwrite existing descriptions of any of the fields. **Tip:** This field is disabled if none of the description is field is empty.
 
-The AI-generated fields are marked with the AI icon ![](../images/icon-ai-generated.png).
+The AI-generated fields are marked with the AI icon \[Omitted image "icon-ai-generated.png"\].
 
 </td></tr><tr><td>
 
@@ -78,7 +79,7 @@ Subflow skill description
 
 </td><td>
 
-The search terms and keywords that someone might use in a conversation to call this subflow. The more descriptive the skill, the better AI Search can be in matching it to an utterance. **Tip:** You can enter the description manually or use generative AI. To generate the description with generative AI, make sure that the field is empty and select **Generate skill metadata** ![Generate skill metadata icon.](../images/generate-skill-metadata-icon.png).
+The search terms and keywords that someone might use in a conversation to call this subflow. The more descriptive the skill, the better AI Search can be in matching it to an utterance. **Tip:** You can enter the description manually or use generative AI. To generate the description with generative AI, make sure that the field is empty and select **Generate skill metadata** \[Omitted image "generate-skill-metadata-icon.png"\] Alt text: Generate skill metadata icon..
 
 </td></tr><tr><td>
 
@@ -94,12 +95,12 @@ Roles which can access this
 
 </td><td>
 
-The roles you must have to access this subflow from a conversation. During a conversation, the subflow displays the skill only to users who have the specified roles. You must specify the role in the subflow settings and in the Conversational settings. By default, users must have the sn\_conv\_fa.csa\_email\_write role to create records in the sys\_email table.
+The roles you must have to access this subflow from a conversation. Use the condition builder to specify the roles who can access the subflow.During a conversation, the subflow displays the skill only to users who have the specified roles. You must specify the role in the subflow settings and in the Conversational settings. By default, users must have the sn\_conv\_fa.csa\_email\_write role to create records in the sys\_email table.
 
 </td></tr></tbody>
 </table>7.  Configure the subflow inputs and outputs.
 
-    ![Example inputs and outputs of the Send SMS subflow.](../images/conversational-subflow-input-output-z.png)
+    \[Omitted image "conversational-subflow-input-output-z.png"\] Alt text: Example inputs and outputs of the Send SMS subflow.
 
 <table id="table_lnb_4lx_c2c"><thead><tr><th>
 
@@ -115,7 +116,7 @@ Show/hide checkbox
 
 </td><td>
 
-Controls the visibility of an input or output in a conversation. Select the checkbox if you want to make the field visible in the conversation.![Option to select the visibility of inputs in a conversation.](../images/conversational-input-checkbox-z.png)
+Controls the visibility of an input or output in a conversation. Select the checkbox if you want to make the field visible in the conversation.\[Omitted image "conversational-input-checkbox-z.png"\] Alt text: Option to select the visibility of inputs in a conversation.
 
 For example, you can take the message text as an input from the user during the conversation or you can have a default text and hide the input field during the conversation.
 
@@ -135,7 +136,7 @@ Describe this input
 
 </td><td>
 
-The search terms and keywords that someone might use in a conversation to set this input. The more descriptive the input, the better AI Search can be in matching it to an utterance. You must provide a description for mandatory inputs. **Tip:** You can enter the description manually or use generative AI. To generate the description with generative AI, make sure that the field is empty and select **Generate skill metadata** ![Generate skill metadata icon.](../images/generate-skill-metadata-icon.png).
+The search terms and keywords that someone might use in a conversation to set this input. The more descriptive the input, the better AI Search can be in matching it to an utterance. You must provide a description for mandatory inputs. **Tip:** You can enter the description manually or use generative AI. To generate the description with generative AI, make sure that the field is empty and select **Generate skill metadata** \[Omitted image "generate-skill-metadata-icon.png"\] Alt text: Generate skill metadata icon..
 
 </td></tr><tr><td>
 
@@ -159,7 +160,7 @@ The option to look up and insert an existing value from a selected table and ref
 
  This option is available for inputs with the Email, GUID, Integer, Long, Long Integer String, String, and String \(Full UTF8\) data types.
 
-**Note:** The Document ID and Reference data types are not valid options, because the system automatically overrides these input types with a list of display values as defined by the table's reference field. For more information about display values and reference fields, see [Display values](https://www.servicenow.com/docs/access?context=c_DisplayValues&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Document ID and Reference data types are not valid options, because the system automatically overrides these input types with a list of display values as defined by the table's reference field. For more information about display values and reference fields, see .
 
  Turning on this option displays the **Table** and **Reference field** options.
 
@@ -181,13 +182,13 @@ The field whose existing record values you want to display as a list of options.
 
 **Note:** This option is not available for inputs with the GUID data type, because each table already has a unique field that stores its Sys ID value.
 
- ![Example conversation where a string input shows a list of user names to choose from.](../images/example-input-string-user-name-01.png)
+ \[Omitted image "example-input-string-user-name-01.png"\] Alt text: Example conversation where a string input shows a list of user names to choose from.
 
- For more information about display values and reference fields, see [Display values](https://www.servicenow.com/docs/access?context=c_DisplayValues&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+ For more information about display values and reference fields, see .
 
  You can use condition in the filter to limit the records that are referenced in this field. The filter helps you reduce the number of records from the referenced table and provide the most relevant options in the conversation.
 
- ![Option to apply filter for records in the Reference field.](../images/reference-field-filter-z.png)
+ \[Omitted image "reference-field-filter-z.png"\] Alt text: Option to apply filter for records in the Reference field.
 
 </td></tr><tr><td>
 
@@ -203,12 +204,12 @@ Describe this output
 
 </td><td>
 
-The search terms and keywords that someone might use in a conversation to set this output. The more descriptive the output, the better AI Search can be in matching it to an utterance. You must provide a description for mandatory outputs. **Tip:** You can enter the description manually or use generative AI. To generate the description with generative AI, make sure that the field is empty and select **Generate skill metadata** ![Generate skill metadata icon.](../images/generate-skill-metadata-icon.png).
+The search terms and keywords that someone might use in a conversation to set this output. The more descriptive the output, the better AI Search can be in matching it to an utterance. You must provide a description for mandatory outputs. **Tip:** You can enter the description manually or use generative AI. To generate the description with generative AI, make sure that the field is empty and select **Generate skill metadata** \[Omitted image "generate-skill-metadata-icon.png"\] Alt text: Generate skill metadata icon..
 
 </td></tr></tbody>
 </table>8.  Configure conversational advanced settings.
 
-    ![Example advanced settings for the Send SMS subflow.](../images/conversational-subflow-advanced-setting-z.png)
+    \[Omitted image "conversational-subflow-advanced-setting-z.png"\] Alt text: Example advanced settings for the Send SMS subflow.
 
 <table id="table_erk_nmx_c2c"><thead><tr><th>
 
@@ -272,7 +273,7 @@ Channels
 
 </td><td>
 
-The list of default channels in which this subflow is available.To learn more about channels, see [Channels in conversational interfacesChannels in conversational interfaces](https://www.servicenow.com/docs/access?context=ci-channels-overview&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+The list of default channels in which this subflow is available.To learn more about channels, see Channels in conversational interfacesChannels in conversational interfaces.
 
 </td></tr></tbody>
 </table>9.  Save the skill.
@@ -280,5 +281,5 @@ The list of default channels in which this subflow is available.To learn more ab
     You can also test the skill by selecting **Save and test**.
 
 
-**Parent Topic:**[Building subflows](../concept/subflows.md)
+**Parent Topic:**[Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/subflows.md)
 

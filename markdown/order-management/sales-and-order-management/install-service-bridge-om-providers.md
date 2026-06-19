@@ -2,6 +2,7 @@
 title: Install Service Exchange Order Management for Providers
 description: You can install the Service Exchange Order Management for Providers application \(sn\_sb\_pro\) if you have the admin role.The application includes demo data and installs related ServiceNow Store applications and plugins if they're not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/install-service-bridge-om-providers.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -32,7 +33,7 @@ The following items are installed with Service Exchange Order Management for Pro
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US). .
+For more information, see Find components installed with an application. .
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: Create a context variable for a target source
 description: Create a context variable manually if you want to configure more context variables for a target source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/create-context-variable-for-a-target-source-apw.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -27,7 +28,7 @@ The Context variable provides information that can be used to fetch the required
 
 Creating a context variable is similar to creating a column on a table.
 
-To create a context variable for the target source type PA Indicator and the breakdown is of Choice list type, see [Create a context variable for the target source type PA Indicator](create-context-variable-for-a-target-source-type-pa-indicator-apw.md).
+To create a context variable for the target source type PA Indicator and the breakdown is of Choice list type, see [Create a context variable for the target source type PA Indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/create-context-variable-for-a-target-source-type-pa-indicator-apw.md).
 
 ## Procedure
 
@@ -39,10 +40,10 @@ To create a context variable for the target source type PA Indicator and the bre
 
 4.  On the form, fill in the fields.
 
-    For a description of the field values, see [Context Variable form](../reference/context-variable-form-apw.md).
+    For a description of the field values, see [Context Variable form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/context-variable-form-apw.md).
 
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Configuring target source for target automation](../concept/setting-targets-for-a-goal-and-automating-the-actual-value-using-agf-apw.md)
+**Parent Topic:**[Configuring target source for target automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/setting-targets-for-a-goal-and-automating-the-actual-value-using-agf-apw.md)
 

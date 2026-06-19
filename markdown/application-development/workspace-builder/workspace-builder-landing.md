@@ -2,6 +2,7 @@
 title: Workspace Builder
 description: Workspace Builder enables you to quickly create and tailor custom workspaces where agents work on open records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/workspace-builder/workspace-builder-landing.html
 release: zurich
 product: Workspace Builder
 classification: workspace-builder
@@ -17,27 +18,25 @@ Workspace Builder enables you to quickly create and tailor custom workspaces whe
 
 This video shows you how to create a workspace in Workspace Builder.
 
-This video shows you how to add a workspace.
-
 You can use Workspace Builder to quickly create workspaces for workspaces built starting with Zurich. Workspace Builder enables you to edit the workspace home page, list pages, and record page contextual side panel directly in the Workspace Builder preview canvas. For workspaces created before Zurich, or if you need more robust functionalities and configurations, edit the workspace in UI Builder from a tab within AES.
 
 ## Get started
 
 <table id="table_ehs_rff_bgc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Explor using Workspace Builder to create workspaces.](exploring-workspace-builder.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explor using Workspace Builder to create workspaces.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/exploring-workspace-builder.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure Workspace Builder.](configuring-workspace-builder.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Workspace Builder.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/configuring-workspace-builder.md)
 
 </td></tr><tr><td>
 
-[Build![](../../../reuse/icons/brand-icons/bus-learn.svg)Build and customize a workspace.](using-workspace-builder.md)
+[Build\[Omitted image "bus-learn.svg"\] Alt text:Build and customize a workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/using-workspace-builder.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about Workspace Builder components.](workspace-builder-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about Workspace Builder components.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/workspace-builder-reference.md)
 
 </td></tr></tbody>
 </table>

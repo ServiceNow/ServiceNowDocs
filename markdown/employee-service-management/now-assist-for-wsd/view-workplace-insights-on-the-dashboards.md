@@ -2,6 +2,7 @@
 title: View workplace insights on the dashboards
 description: Access workplace insights directly from the Workplace Central Dashboard using Insight Cards. These cards deliver real-time data from various workplace sources, enabling managers and users to track important metrics like space utilization, occupancy rates, reservation trends, and environment summaries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-wsd/view-workplace-insights-on-the-dashboards.html
 release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd

@@ -2,6 +2,7 @@
 title: Operational Technology Vulnerability Response \(PA\) dashboard collection jobs
 description: The Operational Technology Vulnerability Response \(PA\) dashboard uses collection jobs to collect the data that is shown on the dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-workspace/collection-jobs-otvr-pa-dashboard.html
 release: zurich
 product: Industrial Workspace
 classification: industrial-workspace
@@ -21,7 +22,7 @@ The following collection jobs collect the data that is shown on the Operational 
 
     Collection job for the historical data of existing records.
 
-    **Note:** The Historical Vulnerability Data Collection is an on-demand job that you only need to execute once. After the historical data is collected, the daily data collection jobs run on a scheduled time every day. For more information, see [Collect historical data](https://www.servicenow.com/docs/access?context=t_RunHistoricalDataCollection&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+    **Note:** The Historical Vulnerability Data Collection is an on-demand job that you only need to execute once. After the historical data is collected, the daily data collection jobs run on a scheduled time every day. For more information, see .
 
 -   **\[PA OT VR\] Daily Collection for Remediation Tasks**
 
@@ -36,5 +37,5 @@ The following collection jobs collect the data that is shown on the Operational 
     Collection job that occurs daily for unassigned vulnerable items, closed vulnerable items, summed duration of closed vulnerable items, and critical deferred vulnerable items.
 
 
-**Parent Topic:**[Using the Industrial Workspace](../../operational-technology-management/concept/using-industrial-workspace.md)
+**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/using-industrial-workspace.md)
 

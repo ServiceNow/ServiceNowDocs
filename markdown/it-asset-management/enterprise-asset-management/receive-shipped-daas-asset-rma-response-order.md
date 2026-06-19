@@ -2,6 +2,7 @@
 title: Complete the Receive asset task for a defective Device as a Service DaaS asset
 description: After a customer ships a defective DaaS asset to you for repair or replacement, or after you ship a repaired DaaS asset back to a customer, complete the Receive asset task by verifying that the asset was received successfully.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/receive-shipped-daas-asset-rma-response-order.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -17,7 +18,7 @@ After a customer ships a defective DaaS asset to you for repair or replacement, 
 
 ## Before you begin
 
-Before you can begin the Receive asset task, you must complete the preceding Ship task by having the customer ship the asset to you or by shipping the asset back to the customer. For detailed instructions, see [Complete the Ship task for a defective Device as a Service DaaS asset](ship-daas-asset-rma-response-order.md).
+Before you can begin the Receive asset task, you must complete the preceding Ship task by having the customer ship the asset to you or by shipping the asset back to the customer. For detailed instructions, see [Complete the Ship task for a defective Device as a Service DaaS asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/ship-daas-asset-rma-response-order.md).
 
 Role required: sn\_eam\_provider.provider\_asset\_technician
 
@@ -27,15 +28,15 @@ Role required: sn\_eam\_provider.provider\_asset\_technician
 
 2.  Open the Asset tasks list.
 
-<table id="choicetable_lxc_pcp_bhc"><thead><tr><th align="left" id="d126183e94">
+<table id="choicetable_lxc_pcp_bhc"><thead><tr><th align="left" id="d32530e94">
 
 Navigation option
 
-</th><th align="left" id="d126183e97">
+</th><th align="left" id="d32530e97">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d126183e103">
+</th></tr></thead><tbody><tr><td id="d32530e103">
 
 **Provider RMA response order**
 
@@ -51,7 +52,7 @@ Procedure
 5.  On the RMA response order line record, select the **Asset tasks** tab.
 
 
-</td></tr><tr><td id="d126183e147">
+</td></tr><tr><td id="d32530e147">
 
 **Provider RMA response order line**
 
@@ -65,7 +66,7 @@ Procedure
 3.  On the RMA response order line record, select the **Asset tasks** tab.
 
 
-</td></tr><tr><td id="d126183e182">
+</td></tr><tr><td id="d32530e182">
 
 **Provider asset tasks**
 
@@ -181,8 +182,8 @@ Notes about the task that are visible to all users within your organization.
 
 ## What to do next
 
--   If you successfully received a defective DaaS asset from a customer for an on-site replacement, complete the corresponding inbound asset order to provide the customer with a new asset. For detailed instructions, see [Completing an inbound asset order for requested Device as a Service \(DaaS\) assets](../concept/completing-inbound-asset-order-daas-assets.md).
--   If you successfully received a defective DaaS asset from a customer for an off-site repair or replacement, complete the corresponding Evaluate RMA asset task by evaluating the asset and determining whether you want to repair or replace it. For detailed instructions, see [Complete the Evaluate RMA asset task for a defective Device as a Service DaaS asset](evaluate-daas-asset-rma-response-order.md).
+-   If you successfully received a defective DaaS asset from a customer for an on-site replacement, complete the corresponding inbound asset order to provide the customer with a new asset. For detailed instructions, see [Completing an inbound asset order for requested Device as a Service \(DaaS\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/completing-inbound-asset-order-daas-assets.md).
+-   If you successfully received a defective DaaS asset from a customer for an off-site repair or replacement, complete the corresponding Evaluate RMA asset task by evaluating the asset and determining whether you want to repair or replace it. For detailed instructions, see [Complete the Evaluate RMA asset task for a defective Device as a Service DaaS asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/evaluate-daas-asset-rma-response-order.md).
 
-**Parent Topic:**[Completing a Return Merchandise Authorization \(RMA\) response order for defective Device as a Service \(DaaS\) assets](../concept/completing-rma-response-order-daas-assets.md)
+**Parent Topic:**[Completing a Return Merchandise Authorization \(RMA\) response order for defective Device as a Service \(DaaS\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/completing-rma-response-order-daas-assets.md)
 

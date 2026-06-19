@@ -2,6 +2,7 @@
 title: Set up a configurable product in a headless environment
 description: A configurable product links a blueprint to the configuration experience for the product. Learn how to set up a configurable product in a headless environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cpq-set-up-a-configurable-product-in-a-headless-environment.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,7 +24,7 @@ Role required: Admin
 
 In headless use cases, the configurable product is the link between the blueprint that you have created in ServiceNow CPQ and the configuration that launches for end users when they select the product. A Products tab appears in the Utilities section of the ServiceNow CPQ navigation pane.
 
-![menu](../images/cpq-products-tab.png)
+\[Omitted image "cpq-products-tab.png"\] Alt text: menu
 
 ## Procedure
 
@@ -31,7 +32,7 @@ In headless use cases, the configurable product is the link between the blueprin
 
 2.  Upload a CSV file with the following headers and the appropriate information for your product.
 
-    ![CSV file for configurable products](../images/cpq-configurable-product-csv.png)
+    \[Omitted image "cpq-configurable-product-csv.png"\] Alt text: CSV file for configurable products
 
     If "configurable" is set to TRUE, the configurable product is automatically created in the ServiceNow CPQ environment.
 

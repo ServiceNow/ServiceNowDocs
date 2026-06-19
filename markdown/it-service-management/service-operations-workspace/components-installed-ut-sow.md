@@ -2,6 +2,7 @@
 title: Universal Task in Service Operations Workspace reference
 description: Several types of components are installed with activation of the Universal Task application, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/components-installed-ut-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -100,5 +101,5 @@ Universal Task Dynamic Template Mapping \[sn\_uni\_task\_dynamic\_template\_mapp
 Stores the dynamic template mappings between Universal Task fields and parent table fields.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Universal Task in Service Operations Workspace](../concept/using-ut-sow.md)
+</table>**Parent Topic:**[Universal Task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/using-ut-sow.md)
 

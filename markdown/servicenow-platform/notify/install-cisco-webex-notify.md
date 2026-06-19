@@ -2,6 +2,7 @@
 title: Install Notify Cisco Webex Connector
 description: You can install the Notify Cisco Webex Connector application \(sn\_notify\_webex\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/notify/install-cisco-webex-notify.html
 release: zurich
 product: Notify
 classification: notify
@@ -44,5 +45,5 @@ Role required: notify\_setup\_admin
 6.  Select **Install**.
 
 
-**Parent Topic:**[Configure Notify Cisco Webex Connector](../concept/setup-cisco-webex-notify.md)
+**Parent Topic:**[Configure Notify Cisco Webex Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/setup-cisco-webex-notify.md)
 

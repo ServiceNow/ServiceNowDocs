@@ -2,6 +2,7 @@
 title: Managing change requests across sites
 description: You can view, create, or edit the change requests that belong to your site or other sites by using the Operational Technology Change Management application. By viewing the change requests from other sites, you can implement similar changes at your site.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-change-management/visibility-of-changes-across-sites.html
 release: zurich
 product: Operational Technology Change Management
 classification: operational-technology-change-management
@@ -57,5 +58,5 @@ The following OT change request lists are available in the Lists module on the I
 -   Belong to my sites: View and edit the change records that belong to your sites by navigating to **OT Change Requests** &gt; **Belong to my sites**.
 -   View the existing change records at different sites by navigating to **OT Change Requests** &gt; **All**.
 
-**Parent Topic:**[Using Operational Technology Change Management](using-operational-technology-change-management.md)
+**Parent Topic:**[Using Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-change-management/using-operational-technology-change-management.md)
 

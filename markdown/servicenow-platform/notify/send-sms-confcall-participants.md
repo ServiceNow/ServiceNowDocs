@@ -2,6 +2,7 @@
 title: Send a message to conference call participants
 description: Send a brief message as a text or voice message to the participants of a conference call to set a context to the call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/notify/send-sms-confcall-participants.html
 release: zurich
 product: Notify
 classification: notify
@@ -31,10 +32,10 @@ You must configure a telephony provider like Twilio so that you can use one of t
 
 3.  In the **Include a brief message for participants** field, type the message that you want to send to the conference call participants and click **Start Call**.
 
-    ![Initiating a conference call.](../image/StartCall.png "Initiate a conference call")
+    \[Omitted image "StartCall.png"\] Alt text: Initiating a conference call.
 
     **Note:** Upon clicking **Start Call** the message text entered will be stored as description on the conference call record. If the OOB workflow is not modified, then the workflow takes care of sending this message text as SMS to the user. This is applicable if you have configured a telephony provider.
 
 
-**Parent Topic:**[Using Notify for making conference calls](../concept/c_NotifyConferenceCalls.md)
+**Parent Topic:**[Using Notify for making conference calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/c_NotifyConferenceCalls.md)
 

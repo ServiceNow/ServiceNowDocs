@@ -2,6 +2,7 @@
 title: Configure a table for an assigned entity
 description: Configure a table for an assigned entity type, so that the goal user can associate goals with the required assigned entity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/configure-assigned-entity-egm.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -36,10 +37,10 @@ An assigned entity is an organizational unit or structure that a goal can be ass
 
 3.  On the form, fill in the fields.
 
-    For field information, see [Goal Assigned Entity Configuration form](../reference/goal-assigned-entity-configuration-form-egm.md).
+    For field information, see [Goal Assigned Entity Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/goal-assigned-entity-configuration-form-egm.md).
 
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Configuring goals in Strategic Planning](../concept/configuring-goal-framework-apw.md)
+**Parent Topic:**[Configuring goals in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/configuring-goal-framework-apw.md)
 

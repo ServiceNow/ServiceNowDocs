@@ -2,13 +2,14 @@
 title: Order parts you need using the Agent mobile application
 description: Place an order for a part that you require to complete a particular work order task, from the Sourcing and Procurement Operations flow, using the Agent mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/order-parts-using-agent-mobile.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Sourcing and Procurement Operations integration with Field Service Management, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Sourcing Procurement Operations integration Field, Integrate Sourcing Procurement Operations other, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Order parts you need using the Agent mobile application
@@ -58,5 +59,5 @@ Role required: wm\_agent, wm\_dispatcher, fsm\_agent, or sn\_shop.shopper
 
 On the order confirmation screen, tap **Return to work order task** if you want to go back to the work order task details screen.
 
-**Parent Topic:**[Sourcing and Procurement Operations integration with Field Service Management](../concept/integration-psm-fsm.md)
+**Parent Topic:**[Sourcing and Procurement Operations integration with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/integration-psm-fsm.md)
 

@@ -2,6 +2,7 @@
 title: Retire a risk assessment methodology
 description: Retire a risk assessment methodology \(RAM\) that is no longer used. Retiring unused RAMs makes it easier to manage the active RAMs for the risk administrator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/retire-ram.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -38,5 +39,5 @@ When you retire a risk assessment methodology, it is important to note that you 
     The state changes to **Retired**.
 
 
-**Parent Topic:**[Perform Advanced Risk Assessment](../concept/use-advanced-risk-assessment.md)
+**Parent Topic:**[Perform Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/use-advanced-risk-assessment.md)
 

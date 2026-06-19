@@ -2,7 +2,10 @@
 title: Activate the Self-Service Platform Analytics Solution
 description: Activate the content pack plugins or ServiceNow Store application for the Platform Analytics Solution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ssa-solution-install-init.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ Activate the content pack plugins or ServiceNow Store application for the Platfo
 
 ## Before you begin
 
-Activate the full, subscription version of Performance Analytics on the instance where you are activating this Platform Analytics Solution. You can activate Performance Analytics on a sub-production instance without purchasing a subscription. For more information, see [Activate your Performance Analytics subscription](https://www.servicenow.com/docs/access?context=c_PremiumPerformanceAnalytics&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+Activate the full, subscription version of Performance Analytics on the instance where you are activating this Platform Analytics Solution. You can activate Performance Analytics on a sub-production instance without purchasing a subscription. For more information, see Activate your Performance Analytics subscription.
 
 **Note:** The data for the Communities and Virtual Agent tabs on the Self-Service Analytics dashboard are generated when the Communities plugin \(com.sn\_communities\) and Glide Virtual Agent plugin \(com.glide.cs.chatbot\) are activated respectively.
 
@@ -38,5 +41,5 @@ Role required: admin
 **Related topics**  
 
 
-[List of plugins \(Paris\)](https://www.servicenow.com/docs/access?context=list-of-plugins&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+[bundle-platadm.list-of-plugins]
 

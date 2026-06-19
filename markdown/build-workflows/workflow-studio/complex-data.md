@@ -2,6 +2,7 @@
 title: Complex data
 description: Use a graphical interface to work with collections of complex structured data. Help design users understand the organization of structured data, and add, remove, or configure its individual elements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/complex-data.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -33,7 +34,7 @@ Action inputs and outputs
 
 </td><td>
 
-Create an action that generates an object from record data. Populate the object using record data the action looks up. See [Create a custom action to generate an object from a record](../task/create-custom-action-object.md)
+Create an action that generates an object from record data. Populate the object using record data the action looks up. See [Create a custom action to generate an object from a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-custom-action-object.md)
 
 </td></tr><tr><td>
 
@@ -41,7 +42,7 @@ Script step input and output variables
 
 </td><td>
 
-Write a script to create an array of objects from a list of records. See [Create a custom action to generate an array of objects from a list of records](../task/create-custom-action-array-objects.md).
+Write a script to create an array of objects from a list of records. See [Create a custom action to generate an array of objects from a list of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-custom-action-array-objects.md).
 
  Write a script to parse a JSON document into an output of type Object.
 
@@ -67,7 +68,7 @@ REST API Trigger Body field
 
 </td><td>
 
-Parse an inbound REST API request into a complex data object and use the values in a flow. See [REST API trigger](https://www.servicenow.com/docs/access?context=rest-trigger&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+Parse an inbound REST API request into a complex data object and use the values in a flow. See REST API trigger.
 
 </td></tr></tbody>
 </table>## Benefits
@@ -90,7 +91,7 @@ The Editor pane displays data structure hierarchy with indentation. The indentat
 
 For example, this data structure consists of an Employee parent element with four child elements for ID Number, Name, Start Date, and Contact Email. The Contact Email element is also a parent element with one child.
 
-![Sample inputs for an Employee object. The Employee object is the parent item. There are child inputs for ID Number, Name, Start Date, and Contact Email.](../images/complex-data-employee-object.png "Sample inputs for an Employee object")
+\[Omitted image "complex-data-employee-object.png"\] Alt text: Sample inputs for an Employee object. The Employee object is the parent item. There are child inputs for ID Number, Name, Start Date, and Contact Email.
 
 The data panel displays data structure hierarchy as a tree of collapsible and expandable data pills just like it does with record variables. Parent elements have an arrow icon to collapse or expand the hierarchy.
 
@@ -98,7 +99,7 @@ For example, here is the Employee data structure as seen from the data panel.
 
 
 
-![Sample data pill for the Employee object. The Employee object is the parent item. There are child inputs for ID Number, Name, Start Date, and Contact Email.](../images/complex-data-employee-object-data-pill.png)
+\[Omitted image "complex-data-employee-object-data-pill.png"\] Alt text: Sample data pill for the Employee object. The Employee object is the parent item. There are child inputs for ID Number, Name, Start Date, and Contact Email.
 
 You can use the data panel or Data picker to select specific values from a data structure. Data structures are similar to data pills for records in that you can dot-walk or navigate to specific elements within the structure. When you select a data element, Workflow Studio displays the path to it as a data pill just like any other data element selection. For example, if you select the Start Date data element, the path is **\[Input-&gt;Employee-&gt;Start Date\]**.
 
@@ -156,7 +157,7 @@ Array and Object variables only support these child data types.
 
 ## Advanced options
 
-Object variables have advanced options to save and load data structures. These options allow you to reuse a data structure defined in one location in another. For details on advanced options see [action variable data types](../reference/action-inputs-outputs.md).
+Object variables have advanced options to save and load data structures. These options allow you to reuse a data structure defined in one location in another. For details on advanced options see [action variable data types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/action-inputs-outputs.md).
 
 ## Data structure templates
 
@@ -172,17 +173,17 @@ Objects that contain array data may require **For Each** flow logic to process. 
 
 You can design actions that accept object data pills as input values. For example, you might create a notification action that accepts a user object as an input. If the user object consists of values for first name, last name, and addresses, then the notification action has access to all these values. To configure an action input with an object data pill, you must create an object earlier in the flow.
 
-![A sample action in a flow. There are inputs for User, First name, Last name, Addresses, and Address 1.](../images/action-inputs-accepts-object.png "Sample action that accepts an object data pill")
+\[Omitted image "action-inputs-accepts-object.png"\] Alt text: A sample action in a flow. There are inputs for User, First name, Last name, Addresses, and Address 1.
 
 You can use an object data pill or any of its child elements to configure an input. When you configure an input value with an object data pill, Workflow Studio makes any child elements of the object read-only, and the action uses the values provided by the object. For example, you can create a flow where one action generates a user object and another action sends a notification to the user specified in the object.
 
-![A sample action in a flow. There are inputs for User, First name, Last name, Addresses, and Address 1. The User input contains the data pill [2->User Object].](../images/action-inputs-configured-with-object.png "Sample action configured to use an object data pill")
+\[Omitted image "action-inputs-configured-with-object.png"\] Alt text: A sample action in a flow. There are inputs for User, First name, Last name, Addresses, and Address 1. The User input contains the data pill \[2-&gt;User Object\].
 
 When you configure the child elements of an object, you must manually provide data pills for each child element of the object. For example, you can manually configure the user object with record values from an earlier action.
 
 ## Script support
 
-Create and reference complex data from a script. Use a script when your source data comes from a data stream, a REST step response, or a Look Up Records step. See [Script support for complex data](script-support-complex-data.md) for more information about scripting with complex data.
+Create and reference complex data from a script. Use a script when your source data comes from a data stream, a REST step response, or a Look Up Records step. See [Script support for complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/script-support-complex-data.md) for more information about scripting with complex data.
 
 ## Update set support
 
@@ -209,18 +210,18 @@ Follow these general guidelines to create reusable and maintainable data structu
     If you need information from multiple types of records, create an object that contains all the information you need. You can then use the object to format or parse data in Workflow Studio.
 
 
--   **[Create data structure](../task/create-data-structure.md)**  
+-   **[Create data structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-data-structure.md)**  
 Organize multiple data variables into a structure to process them as a unit and identify the individual items within it.
--   **[Save data structure](../task/save-data-structure.md)**  
+-   **[Save data structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/save-data-structure.md)**  
 Save the data structure of child variables within an Object variable for later reuse.
--   **[Load data structure](../task/load-data-structure.md)**  
+-   **[Load data structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/load-data-structure.md)**  
 Load a data structure of child variables within an Object variable.
--   **[Create a custom action to generate an object from a record](../task/create-custom-action-object.md)**  
+-   **[Create a custom action to generate an object from a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-custom-action-object.md)**  
 Generate an object from a User record. Learn how to use an Action output to create an object from record values.
--   **[Create a custom flow to generate an object for each record in a list](../task/create-custom-flow-object.md)**  
+-   **[Create a custom flow to generate an object for each record in a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-custom-flow-object.md)**  
 Generate an object for each User record in a list. Learn how to use flow logic to iterate through a list of records.
--   **[Script support for complex data](script-support-complex-data.md)**  
+-   **[Script support for complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/script-support-complex-data.md)**  
 Create and reference complex data from a script. Use a script when your source data comes from a data stream, a REST step response, or a Look Up Records step.
 
-**Parent Topic:**[Building actions](actions.md)
+**Parent Topic:**[Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/actions.md)
 

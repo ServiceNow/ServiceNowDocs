@@ -2,6 +2,7 @@
 title: Activate MS Teams chat connector for MS Teams Graph Spoke user
 description: If you are an existing user, then follow the procedure in this section to activate Microsoft Teams chat connector for MS Teams Graph Spoke user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/activate-microsoft-teams-chat-connector-for-existing-users.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -38,5 +39,5 @@ Role required: admin
     As an existing user, you have now completed integrating Microsoft Teams chat connector application with Microsoft Teams Graph API.
 
 
-**Parent Topic:**[Using Client Secret value](../../security-incident-response/task/using-client-secret-value.md)
+**Parent Topic:**[Using Client Secret value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/using-client-secret-value.md)
 

@@ -2,6 +2,7 @@
 title: Add a policy participant to an insurance policy
 description: Add a customer to an insurance policy as the insured entity by using the Insurance claims application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/add-a-policy-participant-to-an-insurance-policy.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims
@@ -17,7 +18,7 @@ Add a customer to an insurance policy as the insured entity by using the Insuran
 
 ## Before you begin
 
-Create an insurance policy. For more information, see [Create an insurance policy](create-an-insurance-policy-for-a-consumer.md).
+Create an insurance policy. For more information, see [Create an insurance policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/create-an-insurance-policy-for-a-consumer.md).
 
 Role required: admin
 
@@ -54,7 +55,7 @@ Role required: admin
 
 ## What to do next
 
-Add a related list to the insurance model's financial model view to see all the policies for that insurance product. For more information, see [Add a related list to an insurance product model](add-related-list-to-insurance-product-model.md).
+Add a related list to the insurance model's financial model view to see all the policies for that insurance product. For more information, see [Add a related list to an insurance product model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/add-related-list-to-insurance-product-model.md).
 
-**Parent Topic:**[Setting up an insurance policy for Insurance claims](../concept/set-up-an-insurance-policy.md)
+**Parent Topic:**[Setting up an insurance policy for Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/set-up-an-insurance-policy.md)
 

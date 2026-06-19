@@ -2,7 +2,10 @@
 title: Assign a case to an OSP agent
 description: As an Outsourced Customer Service external manager, you can assign a case to an agent under your group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/osp-assign-case-manager.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -27,7 +30,7 @@ Role required: sn\_csm\_ocs.ext\_manager
 
 3.  Enter the name of the agent in the **Assigned to** field and select the agent from the list displayed.
 
-    You can also click the Lookup using list icon \(![Lookup using list.](../image/lookup-list.jpg)\) and select the agent.
+    You can also click the Lookup using list icon \(\[Omitted image "lookup-list.jpg"\] Alt text: Lookup using list.\) and select the agent.
 
     **Note:** The **Assignment group** field is pre-populated with the group name. The list of agents belonging to that group is displayed when you lookup.
 

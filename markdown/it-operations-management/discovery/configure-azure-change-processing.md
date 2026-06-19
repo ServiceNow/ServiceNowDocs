@@ -2,6 +2,7 @@
 title: Enable Azure change processing
 description: Configure the Azure change processing to collect resource change information from the Microsoft Azure cloud and use it to update the Configuration Management Database \(CMDB\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/configure-azure-change-processing.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -24,7 +25,7 @@ Role required: discovery\_admin or sn\_cmp.cloud\_admin
 
 ## About this task
 
-For information about the resources which are supported by Azure change processing, see [Azure change processing](../concept/azure-change-processing.md).
+For information about the resources which are supported by Azure change processing, see [Azure change processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/azure-change-processing.md).
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: Schedule a de-duplication template
 description: Create a schedule, such as a monthly schedule, for a published de-duplication template so it will automatically run on a recurring interval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-dedup-schedule-template.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -17,12 +18,12 @@ Create a schedule, such as a monthly schedule, for a published de-duplication te
 
 ## Before you begin
 
-The de-duplication template that you want to create a schedule for, must be in a published state. For information about publishing a template, see [Publish or unpublish a de-duplication template](workspc-dedup-unpublish-template.md).
+The de-duplication template that you want to create a schedule for, must be in a published state. For information about publishing a template, see [Publish or unpublish a de-duplication template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-dedup-unpublish-template.md).
 
 Role required:
 
--   To access the [Management view in CMDB Workspace](../concept/cmdb-workspace-mangmnt-view.md) to perform de-duplication tasks, sn\_cmdb\_admin
--   To access the [Governance view in Service Graph Workspace](../concept/sg-workspace-governance-view.md) to perform de-duplication tasks: sn\_cmdb\_editor and sn\_cmdb\_admin
+-   To access the [Management view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-mangmnt-view.md) to perform de-duplication tasks, sn\_cmdb\_admin
+-   To access the [Governance view in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md) to perform de-duplication tasks: sn\_cmdb\_editor and sn\_cmdb\_admin
 -   To perform this task, cmdb\_dedup\_admin or any role containing cmdb\_dedup\_admin \(such as sn\_cmdb\_admin\)
 
 ## Procedure
@@ -65,5 +66,5 @@ On the De-duplication templates pane, select the More options icon for a templat
 -   Select **Deactivate schedule** to halt temporarily the automatic runs of the template, while preserving the schedule settings.
 -   Select **Activate schedule** to resume automatic runs of the template according to the schedule settings.
 
-**Parent Topic:**[CI de-duplication experience in CMDB Workspace and in Service Graph Workspace](../concept/dedup-ci-exp-cmdb-workspace.md)
+**Parent Topic:**[CI de-duplication experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md)
 

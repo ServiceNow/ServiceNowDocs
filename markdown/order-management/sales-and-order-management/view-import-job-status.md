@@ -2,6 +2,7 @@
 title: View import job status
 description: Check the status of an import job for product catalog or pricing entities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/view-import-job-status.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

@@ -2,6 +2,7 @@
 title: Configure the PCRS parameters
 description: Starting with v12.6.3 of Qualys Integration for Security Operations, you can use the Qualys PCRS Policy Host Integration and Qualys PCRS Test Results Integration for importing test results with new sets of Qualys APIs. These integrations need a gateway URL to fetch information from Qualys.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/cc-config-qualys.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance

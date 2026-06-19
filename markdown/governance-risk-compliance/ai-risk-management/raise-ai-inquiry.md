@@ -2,6 +2,7 @@
 title: Raise an AI inquiry
 description: Submit your questions about AI systems, models, or datasets and their business applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/ai-risk-management/raise-ai-inquiry.html
 release: zurich
 product: AI Risk Management
 classification: ai-risk-management
@@ -29,7 +30,7 @@ Role required: sn\_ai\_case\_mgmt.ai\_case\_business\_user
 
 4.  On the form, fill in the fields.
 
-    For a description of the field values on the Raise an AI inquiry form, see [Raise an AI inquiry form](../reference/raise-ai-inquiry-form.md).
+    For a description of the field values on the Raise an AI inquiry form, see [Raise an AI inquiry form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/raise-ai-inquiry-form.md).
 
 5.  To add attachments, select **Add attachments**.
 
@@ -48,10 +49,10 @@ An AI inquiry passes through: New, Triage, In progress, Awaiting approval, and C
 
 ## What to do next
 
-[Report an AI case from the Employee Center](report-ai-case.md)
+[Report an AI case from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/report-ai-case.md)
 
--   **[Raise an AI inquiry form](../reference/raise-ai-inquiry-form.md)**  
+-   **[Raise an AI inquiry form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/raise-ai-inquiry-form.md)**  
 Use the Raise an AI inquiry form in the Employee Center to submit your questions about AI systems, models, or datasets and their business applications.
 
-**Parent Topic:**[Using AI Risk and Compliance](../concept/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

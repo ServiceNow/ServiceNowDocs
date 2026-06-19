@@ -2,6 +2,7 @@
 title: Learning internal content form
 description: Use the Learning internal content form to add exams as content items within a learning path from Career Assessment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/learning-internal-content-form-ca.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core

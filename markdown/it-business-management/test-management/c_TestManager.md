@@ -2,6 +2,7 @@
 title: Setting up the manual testing process
 description: Set up and monitor the test suites, test cases, and test plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/test-management/c\_TestManager.html
 release: zurich
 product: Test Management
 classification: test-management

@@ -2,6 +2,7 @@
 title: Create a call API to send an osquery request
 description: Create a background script to send an osquery request. The osquery request enables data collection from your host's operating system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-api-send-os-query-reqs.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -57,5 +58,5 @@ Role required: administrator
     ```
 
 
-**Parent Topic:**[Enabling Agent Client Collector data collection](../concept/data-collection-enabling.md)
+**Parent Topic:**[Enabling Agent Client Collector data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/data-collection-enabling.md)
 

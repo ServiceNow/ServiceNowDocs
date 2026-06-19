@@ -2,6 +2,7 @@
 title: Manage product adoption roadmaps for Impact Delivery Instance
 description: Create a product Adoption Roadmap \(PAR\) with a single click by selecting the template that best supports your specific business outcome.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/impact-product-adoption-roadmap/create-and-publish-a-product-adoption-roadmap.html
 release: zurich
 product: Impact Product Adoption Roadmap
 classification: impact-product-adoption-roadmap
@@ -31,15 +32,15 @@ Role required: Impact admin, Platform Owner, Impact Portfolio Owner, and Impact 
 
 5.  In **How do you want to start?**, complete any of the following actions.
 
-<table id="choicetable_vlt_5mw_42c"><thead><tr><th align="left" id="d51752e107">
+<table id="choicetable_vlt_5mw_42c"><thead><tr><th align="left" id="d54262e107">
 
 How do you want to start?
 
-</th><th align="left" id="d51752e110">
+</th><th align="left" id="d54262e110">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d51752e116">
+</th></tr></thead><tbody><tr><td id="d54262e116">
 
 **Create from a Template**
 
@@ -49,7 +50,7 @@ Actions
 2.  Select a template in **Choose a template**.
 
 
-</td></tr><tr><td id="d51752e143">
+</td></tr><tr><td id="d54262e143">
 
 **Create a roadmap manually**
 
@@ -64,13 +65,13 @@ Enter the **Name** and **Description**.
 
         You can view static and phase-specific note sections under **Notes**. Static notes display for the selected capability regardless of the phase in which they are added.
 
-        ![Select Notes to view the static and phase specific notes for a capability.](../image/capability-notes-pars.png)
+        \[Omitted image "capability-notes-pars.png"\] Alt text: Select Notes to view the static and phase specific notes for a capability.
 
     2.  Select **Notes specific to this phase** to display additional information tailored for the capability and phase including prerequisites, features, training, and planned activities.
 
         You can find resources related to adopting the capability under **Related Resources**.
 
-        ![View notes specific to this phase.](../image/Pars-notes-specific-to-phase.png)
+        \[Omitted image "Pars-notes-specific-to-phase.png"\] Alt text: View notes specific to this phase.
 
     3.  Select **Start an initiative** to create an initiative specific to this capability.
 
@@ -84,7 +85,7 @@ Enter the **Name** and **Description**.
 
     2.  To edit phase titles and descriptions, select **Edit titles/descriptions**.
 
-    ![Modify a phase using the ellipsis icon next to a capability.](../image/Pars-roadmap-Phase-options.png)
+    \[Omitted image "Pars-roadmap-Phase-options.png"\] Alt text: Modify a phase using the ellipsis icon next to a capability.
 
 10. Select **Publish**.
 

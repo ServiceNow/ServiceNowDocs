@@ -2,6 +2,7 @@
 title: Datasets
 description: A dataset is a curated collection of structured data used to develop, deploy, and monitor AI systems in line with organizational policies, regulations, and ethical standards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/ai-risk-management/dataset-airc.html
 release: zurich
 product: AI Risk Management
 classification: ai-risk-management
@@ -23,9 +24,9 @@ Datasets must comply with data protection regulations, including privacy laws an
 
 The following image shows the overview page of datasets.
 
-![Datasets overview page](../image/datasets-overview-page.png "Datasets overview page")
+\[Omitted image "datasets-overview-page.png"\] Alt text: Datasets overview page
 
-An AI dataset record provides an aggregated risk score. The individual risk scores for entities, that have Risk assessment for AI inventory as the Risk Assessment Methodology \(RAM\) roll-up and form an aggregated risk score. You can see the aggregated risk score under the Details tab of the AI system record in the **Aggregated risk score** section. For more information about how risk score is rolled up, see [Risk score rollup in Advanced Risk Assessment](../../grc-risk/concept/risk-rollup-ara-concept.md).
+An AI dataset record provides an aggregated risk score. The individual risk scores for entities, that have Risk assessment for AI inventory as the Risk Assessment Methodology \(RAM\) roll-up and form an aggregated risk score. You can see the aggregated risk score under the Details tab of the AI system record in the **Aggregated risk score** section. For more information about how risk score is rolled up, see [Risk score rollup in Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/risk-rollup-ara-concept.md).
 
 **Important:** To see the aggregated risk score, you must enable the **Migrate to Advanced Risk Assessments** \(`sn_risk_advanced.migrate_to_advanced_risk`\) under **All** &gt; **Advanced Risk** &gt; **Properties**.
 

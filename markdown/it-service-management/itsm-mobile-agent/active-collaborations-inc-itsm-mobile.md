@@ -2,6 +2,7 @@
 title: View active collaborations
 description: As an incident manager, you can view all the active collaborations for the incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/active-collaborations-inc-itsm-mobile.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -25,13 +26,13 @@ Role required: itil, itil\_admin, or admin
 
 2.  In **My work** tab, tap **See All**.
 
-    ![My work.](../image/my-work-itsm-mobile.png)
+    \[Omitted image "my-work-itsm-mobile.png"\] Alt text: My work.
 
 3.  Tap on an incident.
 
 4.  Tap **Collaborate**.
 
-    ![View active collaborations](../image/incident-collaborate-itsm-mobile.png)
+    \[Omitted image "incident-collaborate-itsm-mobile.png"\] Alt text: View active collaborations
 
     Each collaboration displays:
 
@@ -41,8 +42,8 @@ Role required: itil, itil\_admin, or admin
     -   Channel name: Channel marked with “\#” is a public channel. Any user can view the conversation. Channel that doesn’t contain a “\#” is a private channel, this channel isn’t accessible to public users. Only the collaborators can view the chat conversation.
 5.  Swipe and tap **View** to view the conversation in the respective application.
 
-    ![View active collaborations](../image/view-active-collab-inc-itsm-mobile.png)
+    \[Omitted image "view-active-collab-inc-itsm-mobile.png"\] Alt text: View active collaborations
 
 
-**Parent Topic:**[Collaboration with incidents](../concept/collaboration-incident-itsm-mobile.md)
+**Parent Topic:**[Collaboration with incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-mobile-agent/collaboration-incident-itsm-mobile.md)
 

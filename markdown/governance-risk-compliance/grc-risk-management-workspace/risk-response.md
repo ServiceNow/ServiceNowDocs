@@ -2,6 +2,7 @@
 title: Managing risk responses
 description: A risk response is the strategy used to deal with risks after the risks are assessed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/risk-response.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -66,5 +67,5 @@ Each strategy is explained as follows:
 
 **Note:** The risk response workflow is not available for an object assessment.
 
-**Parent Topic:**[Advanced Risk Assessment](../../grc-risk/concept/advanced-risk-assessment.md)
+**Parent Topic:**[Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/advanced-risk-assessment.md)
 

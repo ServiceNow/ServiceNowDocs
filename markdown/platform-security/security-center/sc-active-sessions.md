@@ -2,6 +2,7 @@
 title: Active Sessions
 description: View the trend line of the active users on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/security-center/sc-active-sessions.html
 release: zurich
 product: Security Center
 classification: security-center
@@ -22,7 +23,7 @@ This page displays cards with information on metrics related to active sessions.
 
 Select the cards to view the individual metrics page with additional details.
 
-Select the **+Create task** button to create a Security Task related to a metric. For details on Security Tasks, see [Security Tasks](security-task-manager.md).
+Select the **+Create task** button to create a Security Task related to a metric. For details on Security Tasks, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/security-task-manager.md).
 
-**Parent Topic:**[Security metrics](sc-metrics.md)
+**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/sc-metrics.md)
 

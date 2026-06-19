@@ -2,6 +2,7 @@
 title: PowerShell probe
 description: The PowerShell Probe executes PowerShell V2 scripts on the MID Server host.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/c\_PowershellProbe.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -128,8 +129,8 @@ if(test-path env:\SNC_user) {
 }
 ```
 
--   **[Create a custom PowerShell probe](../../orchestration/task/t_CreateACustomPowershellProbe.md)**  
+-   **[Create a custom PowerShell probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_CreateACustomPowershellProbe.md)**  
 You can create your own PowerShell probe and configure probe parameters.
 
-**Parent Topic:**[List of Discovery probes](../reference/r_ListOfDiscoveryProbes.md)
+**Parent Topic:**[List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_ListOfDiscoveryProbes.md)
 

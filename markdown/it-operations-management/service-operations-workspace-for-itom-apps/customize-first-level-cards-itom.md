@@ -2,6 +2,7 @@
 title: Modify the first-level cards in the Service Operations Workspace for ITOM Overview section
 description: Customize the data displayed in the first-level cards in the Overview section by configuring various parameters such as the header label, data source, metric, group by field, and viewAllQuery. This allows for a more tailored and relevant display of information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/customize-first-level-cards-itom.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -60,5 +61,5 @@ Role required: evt\_mgmt\_admin
 4.  Click **Update**.
 
 
-**Parent Topic:**[Customize the Service Operations Workspace for ITOM home page](customize-sow-landing-page-itom.md)
+**Parent Topic:**[Customize the Service Operations Workspace for ITOM home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/customize-sow-landing-page-itom.md)
 

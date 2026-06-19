@@ -2,6 +2,7 @@
 title: Create the user criteria for an OT knowledge base
 description: Create a user criteria record to determine the users who can read or contribute to an Operational Technology \(OT\) knowledge base.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-knowledge-management/create-user-criteria-otkm.html
 release: zurich
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
@@ -19,7 +20,7 @@ Create a user criteria record to determine the users who can read or contribute 
 
 Role required: user\_criteria\_admin
 
-**Note:** To create a user criteria record from the Knowledge module, you must have the user\_criteria\_admin role in addition to the knowledge role. For more information about access, see [Managing access to knowledge bases and knowledge articles](https://www.servicenow.com/docs/access?context=user-access-knowledge&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+**Note:** To create a user criteria record from the Knowledge module, you must have the user\_criteria\_admin role in addition to the knowledge role. For more information about access, see .
 
 ## About this task
 
@@ -155,7 +156,7 @@ With **Match All** selected, only the users who meet all of these conditions are
 
 ## What to do next
 
-Now you can assign the user criteria to an OT knowledge base. For more information, see [Assign the user criteria to an OT knowledge base](assign-ot-user-criteria-otkm.md).
+Now you can assign the user criteria to an OT knowledge base. For more information, see [Assign the user criteria to an OT knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-knowledge-management/assign-ot-user-criteria-otkm.md).
 
-**Parent Topic:**[Configuring Operational Technology Knowledge Management](../concept/configuring-operational-technology-knowledge-management.md)
+**Parent Topic:**[Configuring Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-knowledge-management/configuring-operational-technology-knowledge-management.md)
 

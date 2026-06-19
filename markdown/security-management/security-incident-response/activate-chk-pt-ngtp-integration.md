@@ -2,6 +2,7 @@
 title: Activate the Check Point NGTP integration
 description: If you have not installed the application, follow the instructions to install it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/activate-chk-pt-ngtp-integration.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response

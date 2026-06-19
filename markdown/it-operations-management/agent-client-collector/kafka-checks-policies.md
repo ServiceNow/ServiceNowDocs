@@ -2,6 +2,7 @@
 title: Apache Kafka default checks and policies
 description: Agent Client Collector provides the following policies for Apache Kafka health monitoring. Policies come with the checks specified in the indicated table. Policies and checks are available for both Windows and Linux.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/kafka-checks-policies.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -293,5 +294,5 @@ hostname.Kafka.Zookeeper.outstanding\_requests 2.000 1648183249
  hostname.Kafka.Zookeeper.open\_file\_descriptor\_count 124.000 1648183249
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](agent-policies-checks.md)
+</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-policies-checks.md)
 

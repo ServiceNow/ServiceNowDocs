@@ -2,6 +2,7 @@
 title: Create custom labor costs and map them to sys\_id
 description: Create and map custom labor costs to sys\_id to generate labor costs based on the relevant expenses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/laborcosts-sysid-mapping-spw.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw

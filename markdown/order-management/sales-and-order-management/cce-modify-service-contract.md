@@ -2,6 +2,7 @@
 title: Modify a service contract
 description: Modify a service contract so that you can update its existing configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cce-modify-service-contract.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -34,13 +35,13 @@ Role required:
 
 5.  On the Configurator UI, modify the existing configurations for the service contract line.
 
-    To learn more about the Configurator UI, see [Exploring Sales Customer Relationship Management](../../tmt-order-mgt/concept/som-exploring.md).
+    To learn more about the Configurator UI, see [Exploring Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-exploring.md).
 
     **Note:** The Configurator UI is displayed only if the service contract has a single service contract line. For multiple service contract lines, a quote or an order will be created with contract lines in Draft or Active state.
 
 6.  Select **Update**.
 
-    An order or a quote will be created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](../concept/create-cont-ent-workflows-csm.md#section_qp4_rxv_tcc).
+    An order or a quote will be created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-cont-ent-workflows-csm.md).
 
     -   If the selected target entity is a quote, a quote to modify the service contract is created. You can select the quote number from the confirmation message to view the modified quote line items. The quote is approved and the status changes to **Complete** to create an order.
     -   If the selected target entity is an order, an order to modify the service contract is created. You can click the order number from the confirmation message to view the modified order line items.
@@ -49,5 +50,5 @@ Role required:
     The modifications are visible on the service contract.
 
 
-**Parent Topic:**[Using Contracts and Entitlements Workflows](../concept/using-customer-cnt-ent-wf.md)
+**Parent Topic:**[Using Contracts and Entitlements Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/using-customer-cnt-ent-wf.md)
 

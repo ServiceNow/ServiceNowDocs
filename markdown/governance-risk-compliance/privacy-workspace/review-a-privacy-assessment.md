@@ -2,6 +2,7 @@
 title: Review a privacy assessment
 description: As a privacy analyst, review a privacy assessment after the responders submit the assessment. You can either close the assessment after a review or you can also request for revision if you determine that the assessment requires more information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/review-a-privacy-assessment.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -44,5 +45,5 @@ As a reviewer, you can also preview the assessment with the applicable risk stat
     3.  Select **Submit**.
 
 
-**Parent Topic:**[Using Privacy Management](../concept/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

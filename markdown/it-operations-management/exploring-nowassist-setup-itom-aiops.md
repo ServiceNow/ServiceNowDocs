@@ -1,54 +1,47 @@
 ---
-title: Exploring Now Assist for Setup \(ITOM AIOps\)
-description: Now Assist Setup for ITOM AIOps provides a guided setup experience to install and configure ITOM AIOps capabilities. It helps administrators quickly deploy required applications, access setup tasks, and explore learning resources to begin using AI-driven operations management features.
+title: Install ITOM using Setup Hub
+description: Setup Hub provides a guided setup experience to install and configure IT Operations Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/exploring-nowassist-setup-itom-aiops.html
 release: zurich
+product: IT Operations Management
+classification: it-operations-management
 topic_type: concept
 last_updated: "2026-03-16"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [explore]
-breadcrumb: [Now Assist for Setup \(ITOM AIOps\), Now Assist for Setup \(ITOM\), IT Operations Management]
+breadcrumb: [IT Operations Management]
 ---
 
-# Exploring Now Assist for Setup \(ITOM AIOps\)
+# Install ITOM using Setup Hub
 
-Now Assist Setup for ITOM AIOps provides a guided setup experience to install and configure ITOM AIOps capabilities. It helps administrators quickly deploy required applications, access setup tasks, and explore learning resources to begin using AI-driven operations management features.
+Setup Hub provides a guided setup experience to install and configure IT Operations Management.
 
-## Now Assist for Setup \(ITOM AIOps\) overview
+## Setup Hub for ITOM overview
 
-![IT Operations Management product overview page showing a first-time setup prompt with a Start setup button.](../image/nowassist-setup-start-setup.png)
+You access Setup Hub from the Admin Home page. The Manage your products section organizes your licensed ServiceNow products into dedicated spaces for focused setup and configuration. Select **IT Operations Management** to access tailored administrative tools and overviews.
 
-The Welcome! Let's get started section walks first-time administrators through the initial ITOM setup process. Select Start setup to install all required applications and plug-ins needed to begin managing your IT infrastructure.
+\[Omitted image "nowassist-setup-admin-home-page.png"\] Alt text: Admin Home page showing the Manage your products section with cards for Core Business Suite, IT Operations Management, Customer Service Management, and Now Assist.
 
-![Resources section of the IT Operations Management page with links to an intro video, best practices, documentation, and community.](../image/nowassist-setup-resources.png)
+The Welcome! Let's get started section walks first-time administrators through the initial ITOM setup process. Select **Start setup** to install all required applications and plug-ins needed to begin managing your IT infrastructure.
 
-The Resources section helps you build foundational knowledge of IT Operations Management. Watch an introductory video to get a quick overview of ITOM capabilities before diving into configuration.
+\[Omitted image "nowassist-setup-start-setup.png"\] Alt text: ITOM Product Hub overview page showing a first-time setup prompt with a Start setup button.
 
-**Best practices**: Access strategies and guidelines for deploying, configuring, and optimizing IT Operations Management to get the most out of your implementation.
+Instance information provides visibility into your ITOM setup progress, including installed applications, available entitlements, and Now Assist skill deployment status. This helps administrators track implementation milestones and verify that all required components are properly configured.
 
-**Documentation**: Find comprehensive guides, technical references, and best practices to support your ITOM setup and ongoing administration.
+\[Omitted image "nowassist-setup-instance-info.png"\] Alt text: Instance information section showing upgrade status, entitled apps count, adoption blueprints, and Now Assist skill summary.
 
-**Community**: Connect with other ServiceNow users and experts to share insights, ask questions, and get advice on IT Operations Management.
+The Resources section helps you build foundational knowledge of ITOM. Watch an introductory video to get a quick overview of ITOM capabilities before diving into configuration.
 
-## Now Assist for Setup \(ITOM AIOps\) users
+**General guidelines**: Access strategies and guidelines for deploying, configuring, and optimizing ITOM to get the most out of your implementation.
 
-|User|Description|
-|----|-----------|
-|admin|Installs and configures Now Assist Setup for ITOM AIOps and assigns business unit–specific roles to users.|
+**Documentation**: Find comprehensive guides, technical references, and general guidelines to support your ITOM setup and ongoing administration.
 
-## Now Assist for Setup \(ITOM AIOps\) benefits
+**Community**: Connect with other ServiceNow users and experts to share insights, ask questions, and get advice on ITOM.
 
-|Benefit|Feature|Users|
-|-------|-------|-----|
-|Automatically install ITOM products with recommended configurations|Automatically installs required ITOM products and applies recommended configurations.|Admin|
-|Access a modular dashboard for focused setup tasks|Modular setup dashboard|Admin|
-|Quickly use essential tools to implement ITOM AIOps|Centralized setup tools|Admin|
-|Reduce navigation steps and complete tasks faster|Centralized access to setup tasks|Admin|
-|Customize setup options based on entitlements|Entitlement-aware configuration|Admin|
+\[Omitted image "nowassist-setup-resources.png"\] Alt text: Resources section of the ITOM Product Hub page with links to an intro video, best practices, documentation, and community.
 
-## What to explore next
+## Install and configure ITOM applications
 
-To learn more about configuring and using Now Assist for Setup \(ITOM AIOps\), see:
+Once you use Setup Hub to install ITOM, you can also use it to install [ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/itom-visibility-landing-page.md) and [AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-health-landing-page.md). Then, use the ITOM Configuration Console to configure [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/itom-conf-console.md) and [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/aiops-conf-console.md), two essential ITOM applications.\[Omitted image "aiops-admin-conf-itom-page.png"\] Alt text: The Configure IT Operations Management page where you can access the Discovery and Event Management modules.
 
--   
--   -   

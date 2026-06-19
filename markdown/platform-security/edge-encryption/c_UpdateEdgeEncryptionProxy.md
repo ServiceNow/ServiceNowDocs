@@ -2,6 +2,7 @@
 title: Upgrading Edge Encryption
 description: Both instance upgrades and proxy server upgrades require special consideration in an Edge Encryption environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/c\_UpdateEdgeEncryptionProxy.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -63,7 +64,7 @@ Schedule an upgrade to allow the instance to upgrade the proxy server at the sch
 
 1.  The proxy server checks with the instance to see if there is a new version available for upgrade. New versions generally become available when the instance is upgraded.
 2.  The administrator receives a notification upon logging in when a new version of the proxy server is available.
-3.  The administrator can [Schedule an Edge Encryption proxy server upgrade](../task/schedule-proxy-upgrade.md) for each proxy server.
+3.  The administrator can [Schedule an Edge Encryption proxy server upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/schedule-proxy-upgrade.md) for each proxy server.
 
     **Note:** Only users with the security\_admin role can create an upgrade schedule through the proxy server.
 
@@ -92,7 +93,7 @@ Before scheduling an upgrade for an Edge Encryption proxy, ensure the following:
 
 ## Manual upgrades
 
-Instead of creating an upgrade schedule, you can manually upgrade each proxy server through the command line. See [Manually upgrade an Edge Encryption proxy server running on Linux](../task/t_UpdateEEProxyOnLinux.md) or [Manually upgrade an Edge Encryption proxy server running on Windows](../task/t_UpdateEEProxyOnWindows.md).
+Instead of creating an upgrade schedule, you can manually upgrade each proxy server through the command line. See [Manually upgrade an Edge Encryption proxy server running on Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_UpdateEEProxyOnLinux.md) or [Manually upgrade an Edge Encryption proxy server running on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_UpdateEEProxyOnWindows.md).
 
 ## Proxy build status
 
@@ -111,7 +112,7 @@ You can easily identify whether a proxy server is out of date by navigating to *
     Upgrade failed. Your proxy server reverts to the old version to ensure that there is no downtime.
 
 
-![](../images/proxy-build-status-green.png)
+\[Omitted image "proxy-build-status-green.png"\] Alt text:
 
 ## Troubleshoot a failed scheduled proxy upgrade
 
@@ -121,7 +122,7 @@ To determine the reason for the failure, you can check the **Failure Reason** in
 
 **Note:** Before deleting any extra proxy directories, always confirm which directory is current by reviewing the log files. If the log files have recent activity, the proxy might be connected to your instance.
 
-If a scheduled proxy upgrade fails repeatedly, you can manually upgrade your proxy server. See [Manually upgrade an Edge Encryption proxy server running on Linux](../task/t_UpdateEEProxyOnLinux.md) and [Manually upgrade an Edge Encryption proxy server running on Windows](../task/t_UpdateEEProxyOnWindows.md).
+If a scheduled proxy upgrade fails repeatedly, you can manually upgrade your proxy server. See [Manually upgrade an Edge Encryption proxy server running on Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_UpdateEEProxyOnLinux.md) and [Manually upgrade an Edge Encryption proxy server running on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_UpdateEEProxyOnWindows.md).
 
 ## Java minimum requirements
 
@@ -129,7 +130,7 @@ The host machine installing or running the Edge Encryption proxy server must mai
 
 **Note:** Java 11 is no longer be supported as of the Yokohama release. Upgrade your environment with the Edge Encryption proxy to Java 17 before you attempt to install Yokohama or later versions of the Edge Encryption proxy.
 
-If using AES 256-bit encryption with Java 8 update 141 \(8u141\) or lower, you must install the Java Cryptography Extension \(JCE\) jurisdiction policy files by copying them into the system Java home directory of each Edge Encryption proxy server host. Add these files to the `<Java-home-directory>/jre/lib/security` folder before performing a scheduled or manual upgrade. To install the AES 256-bit encryption policy files, see [Configure the AES 256-bit encryption key](../task/configure-256-key.md).
+If using AES 256-bit encryption with Java 8 update 141 \(8u141\) or lower, you must install the Java Cryptography Extension \(JCE\) jurisdiction policy files by copying them into the system Java home directory of each Edge Encryption proxy server host. Add these files to the `<Java-home-directory>/jre/lib/security` folder before performing a scheduled or manual upgrade. To install the AES 256-bit encryption policy files, see [Configure the AES 256-bit encryption key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/configure-256-key.md).
 
 ## Mixed proxy-version environments
 
@@ -140,14 +141,14 @@ Although an environment running old versions of the proxy server with up-to-date
 
 If a proxy server from a previous release is registered with a newer release of the instance, you will receive regular notifications that the proxy server is out-of-date. To ensure an optimal and secure environment, ServiceNow recommends always upgrading your proxy server to the most recent version of the software supported by your instance.
 
--   **[Schedule an Edge Encryption proxy server upgrade](../task/schedule-proxy-upgrade.md)**  
+-   **[Schedule an Edge Encryption proxy server upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/schedule-proxy-upgrade.md)**  
 Create an upgrade schedule to enable the instance to upgrade an out-of-date proxy server.
--   **[Manually upgrade an Edge Encryption proxy server running on Linux](../task/t_UpdateEEProxyOnLinux.md)**  
+-   **[Manually upgrade an Edge Encryption proxy server running on Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_UpdateEEProxyOnLinux.md)**  
 Update a proxy running on Linux.
--   **[Manually upgrade an Edge Encryption proxy server running on Windows](../task/t_UpdateEEProxyOnWindows.md)**  
+-   **[Manually upgrade an Edge Encryption proxy server running on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_UpdateEEProxyOnWindows.md)**  
 Update a proxy running on Windows.
--   **[Roll back an Edge Encryption proxy server upgrade](../task/t_RollBackAProxyUpdate.md)**  
+-   **[Roll back an Edge Encryption proxy server upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_RollBackAProxyUpdate.md)**  
 If a proxy upgrade is unsuccessful, you can go back to the earlier version.
 
-**Parent Topic:**[Edge Encryption](../reference/edge-encryption.md)
+**Parent Topic:**[Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/edge-encryption.md)
 

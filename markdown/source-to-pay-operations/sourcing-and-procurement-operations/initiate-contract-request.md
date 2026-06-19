@@ -2,13 +2,14 @@
 title: Initiate a contract request
 description: Initiate a contract request from the Source-to-Pay workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/initiate-contract-request.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Sourcing and Procurement Operations integration with Contract Management Pro, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Source-to-Pay Operations integration Contract Management, Integrate Sourcing Procurement Operations other, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Initiate a contract request
@@ -17,9 +18,9 @@ Initiate a contract request from the Source-to-Pay workspace.
 
 ## Before you begin
 
-Role required: admin or fulfiller
+Role required: sn\_cm\_core.contract\_user
 
-To initiate a contract request, you must have already added a contract template and created template rules. For more information on how to add a contract template, see [Configure templates for a contract and amendment request in Contract Management Pro](https://www.servicenow.com/docs/access?context=cncore-document-templates&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US). For more information on how to create template rules, see [Configure contract template rules](https://www.servicenow.com/docs/access?context=cncore-config-template-rules&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+To initiate a contract request, you must have already added a contract template and created template rules. For more information on how to add a contract template, see . For more information on how to create template rules, see .
 
 You can initiate contract requests from the related work section, the Dynamic Related Records \(DRR\) contextual side panel, and the playbook.
 
@@ -33,18 +34,18 @@ You can initiate contract requests from the related work section, the Dynamic Re
 
 3.  Initiate a contract request from the related work section, the DRR, or the playbook.
 
-    -   From Related work: Contract requests can be initiated for all types of entities. For more information on how to initiate a contract request from the related work section, see [Initiate a contract request from the related work section](initiate-contract-from-related-work.md).
-    -   From DRR: Contract requests can be initiated for all types of entities, except purchase lines. For more information on how to initiate a contract request from the DRR, see [Initiate a contract request from Dynamic Related Records \(DRR\)](initiate-contract-from-drr.md).
-    -   From Playbook: Contract requests can be initiated only for sourcing events and sourcing requests. For more information on how to initiate a contract request from the playbook, see [Initiate a contract request from the playbook](initiate-contract-from-playbook.md).
+    -   From Related work: Contract requests can be initiated for all types of entities. For more information on how to initiate a contract request from the related work section, see [Initiate a contract request from the related work section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/initiate-contract-from-related-work.md).
+    -   From DRR: Contract requests can be initiated for all types of entities, except purchase lines. For more information on how to initiate a contract request from the DRR, see [Initiate a contract request from Dynamic Related Records \(DRR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/initiate-contract-from-drr.md).
+    -   From Playbook: Contract requests can be initiated only for sourcing events and sourcing requests. For more information on how to initiate a contract request from the playbook, see [Initiate a contract request from the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/initiate-contract-from-playbook.md).
     **Note:** You can manually create a contract request for a given supplier throughout the S2P workflow, so that a signed contract can be created with that supplier.
 
 
--   **[Initiate a contract request from the related work section](initiate-contract-from-related-work.md)**  
+-   **[Initiate a contract request from the related work section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/initiate-contract-from-related-work.md)**  
 Initiate a contract request for purchase lines, purchase requisitions, sourcing requests, negotiations, or sourcing events from the related work section.
--   **[Initiate a contract request from Dynamic Related Records \(DRR\)](initiate-contract-from-drr.md)**  
+-   **[Initiate a contract request from Dynamic Related Records \(DRR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/initiate-contract-from-drr.md)**  
 Initiate a contract request for purchase requisitions, sourcing requests, negotiations, or sourcing events from the Dynamic Related Records \(DRR\) section.
--   **[Initiate a contract request from the playbook](initiate-contract-from-playbook.md)**  
+-   **[Initiate a contract request from the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/initiate-contract-from-playbook.md)**  
 Initiate a contract request for sourcing requests or sourcing event from the playbook.
 
-**Parent Topic:**[Source-to-Pay Operations integration with Contract Management Pro](../concept/integration-spo-cmpro.md)
+**Parent Topic:**[Source-to-Pay Operations integration with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/integration-spo-cmpro.md)
 

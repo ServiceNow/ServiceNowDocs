@@ -2,6 +2,7 @@
 title: Unlink a synonym dictionary from a search profile
 description: Remove a synonym dictionary from a search profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/unlink-synonym-dict-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -21,7 +22,7 @@ Role required: ais\_admin
 
 ## About this task
 
-Unlinking a synonym dictionary from a search profile doesn't delete the dictionary. To delete a synonym dictionary, you must first unlink it from all search profiles. For steps to delete a synonym dictionary, see [Delete a synonym dictionary](delete-synonym-dict-ais.md).
+Unlinking a synonym dictionary from a search profile doesn't delete the dictionary. To delete a synonym dictionary, you must first unlink it from all search profiles. For steps to delete a synonym dictionary, see [Delete a synonym dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/delete-synonym-dict-ais.md).
 
 ## Procedure
 
@@ -40,7 +41,7 @@ The selected synonym dictionary disappears from the search profile's Synonyms re
 
 ## What to do next
 
-To make the change in synonym dictionary linking take effect, publish the search profile. For more information on publishing a search profile, see [Publish an AI Search search profile](publish-search-profile-ais.md).
+To make the change in synonym dictionary linking take effect, publish the search profile. For more information on publishing a search profile, see [Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/publish-search-profile-ais.md).
 
-**Parent Topic:**[Synonyms](../concept/synonyms-ais.md)
+**Parent Topic:**[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/synonyms-ais.md)
 

@@ -2,6 +2,7 @@
 title: Administering Spotlight
 description: Users with the admin role can access lower-level components of Spotlight.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/spotlight/administering-spotlight.html
 release: zurich
 product: Spotlight
 classification: spotlight
@@ -15,10 +16,10 @@ breadcrumb: [Ranking records with Spotlight, Configure advanced features, Perfor
 
 Users with the admin role can access lower-level components of Spotlight.
 
--   **[Spotlight database views](spotlight-analyzing-data.md)**  
+-   **[Spotlight database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/spotlight/spotlight-analyzing-data.md)**  
 Spotlight ensures that a database view joins the Spotlight \[spotlight\] table and the facts table whose records the Spotlight group evaluates. You need this database view to use Spotlight interactive analysis. Administrators can access this database view to create reports or to diagnose problems.
--   **[Schedule Item \[sys\_trigger\] records for Spotlight](activating-spotlight-group.md)**  
+-   **[Schedule Item \[sys\_trigger\] records for Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/spotlight/activating-spotlight-group.md)**  
 Setting a Spotlight group to Active creates a Schedule Item \[sys\_trigger\] record. As an administrator, access this record to troubleshoot scheduling. This record contains the scheduling information that is set on the Spotlight group.
 
-**Parent Topic:**[Ranking records with Spotlight](spotlight.md)
+**Parent Topic:**[Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/spotlight/spotlight.md)
 

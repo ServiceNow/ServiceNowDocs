@@ -2,6 +2,7 @@
 title: Add products to a quote
 description: Use the Catalog tab in Quote Management to add products to your quote.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/quote-management-catalog-tab.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -27,7 +28,7 @@ You can use the Catalog tab to search for and select product offerings from cata
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** view ![image.Lists].
+1.  In the CSM Configurable Workspace, select the **List** view.
 
 2.  Navigate to **Quotes** &gt; **All** and select the quote that you want to work with.
 
@@ -42,10 +43,10 @@ You can use the Catalog tab to search for and select product offerings from cata
     -   For a simple product that doesn't have any selectable options, select **Add**.
     -   For a configurable product that has options that you can choose, select **Customize** to open the product configurator for selecting product options.
 
-        As you configure the product, you can reprice, validate, and then save your selections. For details on using the product configurator, see [Using Sales Customer Relationship Management applications](../concept/som-using.md).
+        As you configure the product, you can reprice, validate, and then save your selections. For details on using the product configurator, see [Using Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-using.md).
 
     The product offering is added to the quote as a line item.
 
 
-**Parent Topic:**[Using Quote Management](../concept/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-mgmt-using.md)
 

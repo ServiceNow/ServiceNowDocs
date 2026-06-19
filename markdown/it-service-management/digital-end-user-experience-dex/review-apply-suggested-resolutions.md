@@ -2,6 +2,7 @@
 title: Execute suggested resolutions from incident investigation with DEX
 description: Review and execute suggested resolutions from the Investigation tab of incident records to resolve detected issues on DEX monitored devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/review-apply-suggested-resolutions.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -21,13 +22,13 @@ Role required: sn\_dex.service\_desk\_user, sn\_dex.engineer
 
 ## About this task
 
-In addition to the suggested resolutions, you can run remedial actions from the Action library in incident investigation with DEX. For more information, see [Run remedial actions from the Action library](remedial-actions-action-library.md).
+In addition to the suggested resolutions, you can run remedial actions from the Action library in incident investigation with DEX. For more information, see [Run remedial actions from the Action library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/remedial-actions-action-library.md).
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the List icon ![](../../../common/image/icon-list.png) from the navigation pane and open the incidents list from the Incidents section.
+2.  Select the List icon \[Omitted image "icon-list.png"\] Alt text: from the navigation pane and open the incidents list from the Incidents section.
 
 3.  Open the incident record for a DEX monitored device and select the **Investigation** tab.
 
@@ -44,7 +45,7 @@ In addition to the suggested resolutions, you can run remedial actions from the 
 
     2.  If end-user approval is required, contact the end user of the device to obtain approval.
 
-    3.  Once the approval is received, select the Playbook icon ![](../image/icon-playbook.png) from the contextual side panel.
+    3.  Once the approval is received, select the Playbook icon \[Omitted image "icon-playbook.png"\] Alt text: from the contextual side panel.
 
     4.  Expand the device name accordion.
 
@@ -60,7 +61,7 @@ In addition to the suggested resolutions, you can run remedial actions from the 
 
 8.  Cancel an ongoing remedial action.
 
-    1.  Select the Playbook icon ![](../image/icon-playbook.png) from the contextual side panel.
+    1.  Select the Playbook icon \[Omitted image "icon-playbook.png"\] Alt text: from the contextual side panel.
 
     2.  Expand the device name accordion.
 

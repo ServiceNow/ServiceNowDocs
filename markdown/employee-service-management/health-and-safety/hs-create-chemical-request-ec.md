@@ -2,6 +2,7 @@
 title: Create a chemical request from the Employee Center
 description: Employees can request a chemical available in the chemical library or initiate a request for a new chemical from the Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety/hs-create-chemical-request-ec.html
 release: zurich
 product: Health and Safety
 classification: health-and-safety
@@ -33,7 +34,7 @@ Role required: sn\_hs\_chm.requestor
 2.  Select the **Request Chemical** button.
 4.  On the **Request Chemical** form, fill in the details.
 
-    For field descriptions, see the [Chemical request form](../reference/hs-chemical-request-form.md).
+    For field descriptions, see the [Chemical request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-chemical-request-form.md).
 
 5.  Select **Save as draft** to complete the form later.
 
@@ -56,5 +57,5 @@ The chemical request can be viewed under My Requests. You can open the chemical 
 
 The approved or rejected chemical request can be viewed from the Employee Center under the **My Request** option. Select the **Submitted requests** related list and sort by **Closed requests**.
 
-**Parent Topic:**[Chemical management](../concept/hs-using-chemical-management.md)
+**Parent Topic:**[Chemical management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-using-chemical-management.md)
 

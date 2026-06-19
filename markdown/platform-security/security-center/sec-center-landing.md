@@ -2,6 +2,7 @@
 title: Security Center landing page
 description: Use the Security Center landing page to find the information and tools you need to secure your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/security-center/sec-center-landing.html
 release: zurich
 product: Security Center
 classification: security-center
@@ -17,23 +18,23 @@ Use the Security Center landing page to find the information and tools you need 
 
 ## My Security Tasks
 
-The my Security Tasks section displays a list of Security Tasks assigned to you. Open a task by selecting the number to review a tasks details, or select **View all** access the Security Tasks Manager, where all tasks are visible. For more information on Security Tasks, see [Security Tasks](security-task-manager.md).
+The my Security Tasks section displays a list of Security Tasks assigned to you. Open a task by selecting the number to review a tasks details, or select **View all** access the Security Tasks Manager, where all tasks are visible. For more information on Security Tasks, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/security-task-manager.md).
 
 ## Instance summary
 
-The instance summary displays a high-level overview of the state of your instance's security. Select the info \(![info icon](../images/info-icon.png)\) icon on any card for details on what each represents. You can also select any card to navigate to the relevant area of Security Center.
+The instance summary displays a high-level overview of the state of your instance's security. Select the info \(\[Omitted image "info-icon.png"\] Alt text: info icon\) icon on any card for details on what each represents. You can also select any card to navigate to the relevant area of Security Center.
 
 ## Identity and Access Management
 
-Use the tools in the Identity and Access Management \(IAM\) section verify that your data is only accessible to the users and processes that need it. For details on these tools, see [Identity and Access Management](identity-and-access-management.md).
+Use the tools in the Identity and Access Management \(IAM\) section verify that your data is only accessible to the users and processes that need it. For details on these tools, see [Identity and Access Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/identity-and-access-management.md).
 
 ## Security consoles
 
 Select a card within the security consoles section to navigate to any of the three security consoles.
 
--   [Security configuration console](homepage.md)
--   [Security monitoring console](sc-monitor-console.md)
--   [Security posture console](sc-posture-console.md)
+-   [Security configuration console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/homepage.md)
+-   [Security monitoring console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/sc-monitor-console.md)
+-   [Security posture console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/sc-posture-console.md)
 
 ## Tools
 
@@ -45,7 +46,7 @@ Use the additional resources section on the edge of screen to navigate to docume
 
 Security center has been updated in Zurich to provide guidance to understand what the tool can do how to use it. This redesign is tailored to assist both new and infrequent users of Security Center. New modal windows appear within security center to demonstrate how these tools can help you achieve your security goals.
 
-![New modal help windows in security center](../images/new-modals.png)
+\[Omitted image "new-modals.png"\] Alt text: New modal help windows in security center
 
-**Parent Topic:**[Security Center](sec-center-v2.md)
+**Parent Topic:**[Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/sec-center-v2.md)
 

@@ -2,6 +2,7 @@
 title: Reopen an assessment
 description: Reopen an assessment to send out more questionnaires and document requests to collect required additional information from the third party or engagement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/trpm-reopen-assessment.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -25,7 +26,7 @@ As the TPR manager, TPR assessor, or owner of the due diligence request, you may
 
 ## Procedure
 
-1.  In the Vendor Management Workspace, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Due diligence requests** &gt; **All requests**.
+1.  In the Vendor Management Workspace, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Due diligence requests** &gt; **All requests**.
 
 2.  Select the relevant **DDR** number.
 

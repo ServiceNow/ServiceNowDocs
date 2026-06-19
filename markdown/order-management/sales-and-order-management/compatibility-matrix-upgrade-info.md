@@ -2,6 +2,7 @@
 title: Compatibility information for Customer Engagement Sequences
 description: The features that are supported in Customer Engagement Sequences are determined by combinations of ServiceNow AI Platform, Playbooks in Workflow Studio, and the Customer Engagement Sequences app version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/compatibility-matrix-upgrade-info.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -38,7 +39,7 @@ Customer Engagement Sequences 2.0.1
 
 Roles
 
- For more information, see [Components installed with Customer Engagement Sequences](components-installed-customer-engagement-sequences.md).
+ For more information, see [Components installed with Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/components-installed-customer-engagement-sequences.md).
 
 </td><td>
 

@@ -2,6 +2,7 @@
 title: Manage Value Reports
 description: You can create and manage a value report in Impact Delivery Instance. The created reports are also available in Impact store application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/value-library/manage-value-reports.html
 release: zurich
 product: Value Library
 classification: value-library

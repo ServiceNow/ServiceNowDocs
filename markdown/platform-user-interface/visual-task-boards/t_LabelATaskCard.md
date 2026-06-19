@@ -2,6 +2,7 @@
 title: Label a Visual Task Board card
 description: Labels help categorize tasks and visually distinguish them on the task board.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/visual-task-boards/t\_LabelATaskCard.html
 release: zurich
 product: Visual Task Boards
 classification: visual-task-boards
@@ -19,13 +20,13 @@ Labels help categorize tasks and visually distinguish them on the task board.
 
 Role required: none
 
-[Enable](t_ConfigureLabels.md) labels for the board.
+[Enable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/t_ConfigureLabels.md) labels for the board.
 
 ## About this task
 
 You can filter the visible tasks to show only those with certain labels. Labels appear on cards as colored dots.
 
-![Task card labels](../image/TaskCardLabels.png "Task card labels")
+\[Omitted image "TaskCardLabels.png"\] Alt text: Task card labels
 
 You can add one or more labels to a task card.
 
@@ -33,7 +34,7 @@ You can add one or more labels to a task card.
 
 1.  Do one of the following actions.
 
-<table id="choicetable_t2r_5jd_pt"><tbody><tr><td id="d115387e97">
+<table id="choicetable_t2r_5jd_pt"><tbody><tr><td id="d44294e97">
 
 **Add a label to a card from the quick panel**
 
@@ -43,14 +44,14 @@ You can add one or more labels to a task card.
 2.  Drop the label in the drop zone.
 
 
-</td></tr><tr><td id="d115387e115">
+</td></tr><tr><td id="d44294e115">
 
 **Add a label to a card from the card details**
 
 </td><td>
 
 1.  Open the card details for a task.
-2.  Click the details tab \(![Details tab](../image/DetailsTab.png)\).
+2.  Click the details tab \(\[Omitted image "DetailsTab.png"\] Alt text: Details tab\).
 3.  Under **Labels**, select one or more labels. Point to a label to display its name.
 4.  Close the card detail pop-up window.
 
@@ -59,7 +60,7 @@ You can add one or more labels to a task card.
 </table>
 ## What to do next
 
-You can use configuration options to [rename or disable](t_ConfigureLabels.md) labels or to [hide](t_ConfigureTheTaskBoard.md#table_i5s_xfv_1r) labels altogether.
+You can use configuration options to [rename or disable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/t_ConfigureLabels.md) labels or to [hide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/t_ConfigureTheTaskBoard.md) labels altogether.
 
-**Parent Topic:**[Working with Visual Task Board cards](../reference/r_TaskCards.md)
+**Parent Topic:**[Working with Visual Task Board cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/r_TaskCards.md)
 

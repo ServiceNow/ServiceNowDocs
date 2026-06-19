@@ -2,6 +2,7 @@
 title: GlideSession - Global
 description: The GlideSession API provides methods to find information about the current session.Clears a session client value previously set with putClientData\(\).Returns a session client value previously set with putClientData\(\).Gets the session's language code.Gets a list of roles for the current user.Gets the name of the session's time zone.Determines if the current session is interactive.Determines if the current user is currently logged in.Sets a session client value that can be retrieved with getClientData\(\). This method is used in a server side script that runs when a form is created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_GlideSessionAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideSession API provides methods to find information about the current session.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideSession - clearClientData\(String paramName\)
 
@@ -79,7 +80,7 @@ Harry
 
 ### Scoped equivalent
 
-To use the getClientData\(\) method in a scoped application, use the corresponding scoped method: [getClientData\(\)](../../GlideSessionScoped/concept/c_GlideSessionScopedAPI.md#).
+To use the getClientData\(\) method in a scoped application, use the corresponding scoped method: [getClientData\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSessionScopedAPI.md).
 
 ## GlideSession - getLanguage\(\)
 
@@ -107,7 +108,7 @@ en
 
 ### Scoped equivalent
 
-To use the getLanguage\(\) method in a scoped application, use the corresponding scoped method: [getLanguage\(\)](../../GlideSessionScoped/concept/c_GlideSessionScopedAPI.md#).
+To use the getLanguage\(\) method in a scoped application, use the corresponding scoped method: [getLanguage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSessionScopedAPI.md).
 
 ## GlideSession - getRoles\(\)
 
@@ -159,7 +160,7 @@ US/Pacific
 
 ### Scoped equivalent
 
-To use the getTimeZoneName\(\) method in a scoped application, use the corresponding scoped method: [getTimeZoneName\(\)](../../GlideSessionScoped/concept/c_GlideSessionScopedAPI.md#).
+To use the getTimeZoneName\(\) method in a scoped application, use the corresponding scoped method: [getTimeZoneName\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSessionScopedAPI.md).
 
 ## GlideSession - isInteractive\(\)
 
@@ -190,7 +191,7 @@ false
 
 ### Scoped equivalent
 
-To use the isInteractive\(\) method in a scoped application, use the corresponding scoped method: [isInteractive\(\)](../../GlideSessionScoped/concept/c_GlideSessionScopedAPI.md#).
+To use the isInteractive\(\) method in a scoped application, use the corresponding scoped method: [isInteractive\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSessionScopedAPI.md).
 
 ## GlideSession - isLoggedIn\(\)
 
@@ -218,7 +219,7 @@ true
 
 ### Scoped equivalent
 
-To use the isLoggedIn\(\) method in a scoped application, use the corresponding scoped method: [isLoggedIn\(\)](../../GlideSessionScoped/concept/c_GlideSessionScopedAPI.md#).
+To use the isLoggedIn\(\) method in a scoped application, use the corresponding scoped method: [isLoggedIn\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSessionScopedAPI.md).
 
 ## GlideSession - putClientData\(String paramName, String paramValue\)
 
@@ -248,5 +249,5 @@ Harry
 
 ### Scoped equivalent
 
-To use the putClientData\(\) method in a scoped application, use the corresponding scoped method: [putClientData\(\)](../../GlideSessionScoped/concept/c_GlideSessionScopedAPI.md#).
+To use the putClientData\(\) method in a scoped application, use the corresponding scoped method: [putClientData\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideSessionScopedAPI.md).
 

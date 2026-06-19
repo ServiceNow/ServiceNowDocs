@@ -2,6 +2,7 @@
 title: Submit a direct deposit query in HR Service Delivery Advanced Integration with Oracle HCM
 description: Submit a query related to your direct deposits in the Oracle HCM system from a ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/submit-qc-ador.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

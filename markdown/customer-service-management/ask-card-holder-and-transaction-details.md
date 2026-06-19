@@ -2,7 +2,10 @@
 title: Configure the start node for cardholder and transaction details
 description: Add questions to ask for credit cardholder details and transaction details and configure answer types in a start node in Decision Tree Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ask-card-holder-and-transaction-details.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -33,7 +36,7 @@ In the question node, you can add the questions that you want to ask customers o
 
 4.  In the Input section, in the **Reference table** field, select the Case table.
 
-    ![Input section contains the Input name, type of input, and reference table fields.](../image/ex-case-ref-table.png)
+    \[Omitted image "ex-case-ref-table.png"\] Alt text: Input section contains the Input name, type of input, and reference table fields.
 
     The reference table doesn’t necessarily have to be a task table. For example, you can select a case, incident, or interaction table for the record context to recommend this decision tree in a workspace.
 
@@ -47,7 +50,7 @@ In the question node, you can add the questions that you want to ask customers o
 
     3.  In the **Type of answer** field, select String.
 
-    ![Question 1 for asking the card holder's name and the answer type selected as string.](../image/ex-start-node-ques-1.png)
+    \[Omitted image "ex-start-node-ques-1.png"\] Alt text: Question 1 for asking the card holder's name and the answer type selected as string.
 
 6.  Configure question 2.
 
@@ -59,7 +62,7 @@ In the question node, you can add the questions that you want to ask customers o
 
     4.  In the **Type of answer** field, select Integer.
 
-    ![Question 2 for asking the credit card number and the answer type selected as integer.](../image/ex-start-node-ques-2.png)
+    \[Omitted image "ex-start-node-ques-2.png"\] Alt text: Question 2 for asking the credit card number and the answer type selected as integer.
 
 7.  Configure question 3.
 
@@ -71,7 +74,7 @@ In the question node, you can add the questions that you want to ask customers o
 
     4.  In the **Type of answer** field, select Integer.
 
-    ![Question 3 for asking the transaction ID and the answer type selected as integer.](../image/ex-start-node-ques-3.png)
+    \[Omitted image "ex-start-node-ques-3.png"\] Alt text: Question 3 for asking the transaction ID and the answer type selected as integer.
 
 8.  Configure question 4.
 
@@ -93,7 +96,7 @@ In the question node, you can add the questions that you want to ask customers o
 
     9.  In the **Label** field, enter `Meestro` for the third option in the list.
 
-    ![Question 4 for asking the card type and the answer type selected as choice. The choice list includes options such as Visa, MasterCard, and Meestro.](../image/ex-start-node-ques-4.png)
+    \[Omitted image "ex-start-node-ques-4.png"\] Alt text: Question 4 for asking the card type and the answer type selected as choice. The choice list includes options such as Visa, MasterCard, and Meestro.
 
 9.  Configure question 5.
 
@@ -105,7 +108,7 @@ In the question node, you can add the questions that you want to ask customers o
 
     4.  In the **Type of answer** field, select Date/time.
 
-    ![Question 5 for asking the date and time of the transaction and the answer type selected as date/time.](../image/ex-start-node-ques-5.png)
+    \[Omitted image "ex-start-node-ques-5.png"\] Alt text: Question 5 for asking the date and time of the transaction and the answer type selected as date/time.
 
 10. Configure question 6.
 
@@ -117,12 +120,12 @@ In the question node, you can add the questions that you want to ask customers o
 
     4.  In the **Type of answer** field, select True/False.
 
-    ![Question 6 for asking whether any amount is debited and the answer type selected as true/false.](../image/ex-start-node-ques-6.png)
+    \[Omitted image "ex-start-node-ques-6.png"\] Alt text: Question 6 for asking whether any amount is debited and the answer type selected as true/false.
 
 11. Select **Save and close**.
 
 
 ## What to do next
 
-[Add paths and configure conditions for transactions](../concept/configuring-paths-for-next-nodes.md#) when the next question or guidance node is displayed in a decision tree.
+[Add paths and configure conditions for transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configuring-paths-for-next-nodes.md) when the next question or guidance node is displayed in a decision tree.
 

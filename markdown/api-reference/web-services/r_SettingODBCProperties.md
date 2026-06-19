@@ -2,6 +2,7 @@
 title: Setting ODBC properties
 description: The following properties customize connectivity and optimize the query behavior of the ODBC driver.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/r\_SettingODBCProperties.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -263,5 +264,5 @@ An administrator can configure these properties by adding a property or modifyin
 |glide.db.max.aggregates|The maximum number of rows returned by aggregate functions.|100000|
 |glide.db.max\_view\_records|The maximum number of rows returned by a database view.|10001|
 
-**Parent Topic:**[Configuring the ODBC driver](../concept/configuring-odbc.md)
+**Parent Topic:**[Configuring the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configuring-odbc.md)
 

@@ -2,6 +2,7 @@
 title: Configure travel time estimates with Beans.ai
 description: Use the Beans.ai, the map provider that Schedule Optimization supports for more accurate travel time estimates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/configure-travel-time-estimates-with-beans-ai.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -17,7 +18,7 @@ Use the Beans.ai, the map provider that Schedule Optimization supports for more 
 
 ## Before you begin
 
-A connection and credential for Beans.ai must have been established. For more information, see [Set up a connection and credential for Beans.ai travel estimate provider](create-a-connection-and-credential-for-beans-ai.md).
+A connection and credential for Beans.ai must have been established. For more information, see [Set up a connection and credential for Beans.ai travel estimate provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/create-a-connection-and-credential-for-beans-ai.md).
 
 Role required: wm\_admin
 

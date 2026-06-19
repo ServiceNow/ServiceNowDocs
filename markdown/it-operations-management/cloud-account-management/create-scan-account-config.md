@@ -2,13 +2,14 @@
 title: Create a scan account configuration
 description: Configure the Cloud Account Management app before scanning a service account to confirm it’s ready for effective account management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/create-scan-account-config.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Creating configurations, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Creating configurations, Configuring Cloud Account Management, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Create a scan account configuration
@@ -81,5 +82,5 @@ Information that can be recorded in work notes.
 
 ## What to do next
 
-[Review default Cloud Account Management certification policy](policy-setup.md)
+[Review default Cloud Account Management certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/policy-setup.md)
 

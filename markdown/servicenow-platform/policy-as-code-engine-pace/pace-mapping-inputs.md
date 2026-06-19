@@ -2,6 +2,7 @@
 title: Map PaCE policies
 description: For a policy to be invoked correctly, it must be mapped to an object \(table or document ID\). The defined mapping settings are automatically verified when the policy is invoked.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/policy-as-code-engine-pace/pace-mapping-inputs.html
 release: zurich
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

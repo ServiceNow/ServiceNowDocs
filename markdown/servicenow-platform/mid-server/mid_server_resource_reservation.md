@@ -2,6 +2,7 @@
 title: MID Server Resource Reservation
 description: This feature allows resources to be reserved before a task is assigned to a thread. If the resources the task needs aren’t available, then that task waits in the MID Server work queue while other tasks are assigned to the thread.A resource is just a name and a count. Define the name of the resource, which probes use it, and how many of the resources those probes should use.In addition to the work queue, the MID Server contains a waiting queue. When picking a task for execution, the waiting queue is always checked first. If no task in the waiting queue can execute, then the work queue is tried. Probes and patterns in the waiting queue reserve all necessary resources until they’re able to execute.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/mid-server/mid\_server\_resource\_reservation.html
 release: zurich
 product: MID Server
 classification: mid-server

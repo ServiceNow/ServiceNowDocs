@@ -2,6 +2,7 @@
 title: Associate a matter template with an intake form
 description: Associate a matter template with an intake form that can be used when promoting a legal request to a legal matter to include predefined data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-request-management/associate-matter-template-with-intake-form.html
 release: zurich
 product: Legal Request Management
 classification: legal-request-management
@@ -17,13 +18,13 @@ Associate a matter template with an intake form that can be used when promoting 
 
 ## Before you begin
 
-**Note:** The Matter Template related list is available on the [Intake Form](associate-categories-practice-area.md) form only when you have selected **Matter** or **Request and Matter** as the **Type** value.
+**Note:** The Matter Template related list is available on the [Intake Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/associate-categories-practice-area.md) form only when you have selected **Matter** or **Request and Matter** as the **Type** value.
 
 Role required: sn\_lg\_ops.legal\_config or sn\_lg\_matter.matter\_config
 
 ## About this task
 
-When [an existing matter template is updated and published](../../legal-matter-management/task/create-legal-matter-template.md), the intake form reflects the latest version of the associated matter template.
+When [an existing matter template is updated and published](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/create-legal-matter-template.md), the intake form reflects the latest version of the associated matter template.
 
 ## Procedure
 
@@ -35,15 +36,15 @@ When [an existing matter template is updated and published](../../legal-matter-m
 
 4.  In the Matter Template related list, associate an existing matter template or create and associate a new matter template.
 
-<table id="choicetable_tbn_1k5_t4b"><thead><tr><th align="left" id="d287956e111">
+<table id="choicetable_tbn_1k5_t4b"><thead><tr><th align="left" id="d277805e111">
 
 Option
 
-</th><th align="left" id="d287956e114">
+</th><th align="left" id="d277805e114">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d287956e120">
+</th></tr></thead><tbody><tr><td id="d277805e120">
 
 **Associate an existing matter template**
 
@@ -54,14 +55,14 @@ Steps
 3.  Click **Save**.
 
 
-</td></tr><tr><td id="d287956e153">
+</td></tr><tr><td id="d277805e153">
 
 **Create a template and associate it with the intake form**
 
 </td><td>
 
 1.  Click **New**.
-2.  [Create a legal matter template](../../legal-matter-management/task/create-legal-matter-template.md).
+2.  [Create a legal matter template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/create-legal-matter-template.md).
 
 In the **Intake form mapping** field of the Matter Template form, ensure that the current intake form is selected.
 

@@ -2,6 +2,7 @@
 title: Ask questions about an incident by using the Now Assist panel
 description: Quickly obtain common incident related information conversationally within the incident record by asking questions in the Now Assist panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-incident-assist.html
 release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -22,15 +23,21 @@ Role required: itil
 
 ## About this task
 
-**Important:** The features in the \[DEPRECATED\] Incident assist skill are available in the Incident assist workflow. You can turn off this skill and use the [Incident assist agentic workflow](../concept/now-assist-itsm-incident-assist-workflow.md) that has enhanced capabilities.
+**Important:**
 
-To turn off the skill:
+-   Starting with Zurich Patch 9, the Incident assist skill has been deprecated, moved to the **Archive** section, and is no longer available for use. For more information, see [Incident assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-incident-assist.md)
 
-1.  Navigate to **Admin** &gt; **Now Assist Admin**.
-2.  Select the **Now Assist Skills** tab.
-3.  Go to **Technology** &gt; **ITSM**.
-4.  Select the Ask questions about an incident by using the Now Assist panel skill.
-5.  Select **Deactivate skill**.
+-   In Zurich Patch 8, the Incident assist agentic workflow is active by default and includes all the capabilities of the \[DEPRECATED\] Incident assist skill, with enhancements. If you have the \[DEPRECATED\] Incident assist skill activated, consider deactivating it to avoid redundancy.
+
+    To deactivate the skill:
+
+    1.  Navigate to **Admin** &gt; **Now Assist Admin**.
+    2.  Select the **Now Assist Skills** tab.
+    3.  Go to **Technology** &gt; **ITSM**.
+    4.  Select the Ask questions about an incident by using the Now Assist panel skill.
+    5.  Select **Deactivate skill**.
+    For more information, see [Incident assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-incident-assist.md)
+
 
 \[DEPRECATED\] Incident assist topics in the Now Assist panel include:
 
@@ -53,18 +60,18 @@ You can ask questions about an incident by using the Now Assist panel in Core UI
 
 1.  In Core UI or Service Operations Workspace for ITSM, open an incident that is assigned to you.
 
-2.  From the header menu, select the Now Assist icon ![Now assist icon.](../../../common/image/icon-ai-sparkle.png) to open the Now Assist panel.
+2.  From the header menu, select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Now assist icon. to open the Now Assist panel.
 
-    ![Incident assist panel in Service Operations Workspace.](../image/now-assist-itsm-inc-assist-pnl.png)
+    \[Omitted image "now-assist-itsm-inc-assist-pnl.png"\] Alt text: Incident assist panel in Service Operations Workspace.
 
 3.  In the Now Assist panel, either type in a question related to an incident assist topic, or select **Answer questions about an incident** and select an \[DEPRECATED\] Incident assist topic to ask about.
 
-    **Note:** Incident assist uses index sources for which incidents, problems, and change requests are indexed. Similar resolved incidents are retrieved by comparing an incoming incident with past resolved incidents for smarter resolution. Similar past active incidents are displayed in the Now Assist panel and also in the Incident form via related search. For information on indexed sources, see [Managing indexed sources from the AI Search Admin console](https://www.servicenow.com/docs/access?context=ais-managing-indexed-source&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    **Note:** Incident assist uses index sources for which incidents, problems, and change requests are indexed. Similar resolved incidents are retrieved by comparing an incoming incident with past resolved incidents for smarter resolution. Similar past active incidents are displayed in the Now Assist panel and also in the Incident form via related search. For information on indexed sources, see .
 
-    ![Incident assist panel in Service Operations Workspace in an incident.](../image/now-assist-itsm-inc-assist-pan.png)
+    \[Omitted image "now-assist-itsm-inc-assist-pan.png"\] Alt text: Incident assist panel in Service Operations Workspace in an incident.
 
     Information requested about the incident is shown.
 
-    ![Incident assist panel topic in Service Operations Workspace.](../image/now-assist-itsm-inc-assist-tpc.png)
+    \[Omitted image "now-assist-itsm-inc-assist-tpc.png"\] Alt text: Incident assist panel topic in Service Operations Workspace.
 
 

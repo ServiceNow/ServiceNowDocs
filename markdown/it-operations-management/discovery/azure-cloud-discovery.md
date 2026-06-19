@@ -2,6 +2,7 @@
 title: Discovery for Microsoft Azure Cloud
 description: If your cloud resources are in an Azure cloud, you must create a user identity called a service principal that grants permissions to the MID Server to access selected resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/azure-cloud-discovery.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -33,7 +34,7 @@ A service principal for Azure cloud services is similar to a Microsoft Windows s
 
 To create the Azure service principal in your ServiceNow instance, copy the service principal credential values from the Azure portal into a text editor, and then transfer those values into the instance.
 
-![Text file that temporarily holds Azure service principal credential values](../image/azure-text-file.png "The text file that you generate during this procedure")
+\[Omitted image "azure-text-file.png"\] Alt text: Text file that temporarily holds Azure service principal credential values
 
 This table shows you the Azure Service Principal value and the location in Azure where you can find the values you need for the credentials.
 
@@ -50,7 +51,7 @@ Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servi
 
 ## Data collected by Service Mapping during top-down discovery
 
-To include discovered components into service instances, enable CI relationships used in tag-based discovery by Service Mapping. These CI relationships are available from the 1.0.68 release on the ServiceNow Store. For operational steps, see [Tag-based discovery configuration](../../service-mapping/concept/tag_discovery_configuration.md).
+To include discovered components into service instances, enable CI relationships used in tag-based discovery by Service Mapping. These CI relationships are available from the 1.0.68 release on the ServiceNow Store. For operational steps, see [Tag-based discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/tag_discovery_configuration.md).
 
 Service Mapping uses tag-based discovery to create service instance maps including the Cloud components. The Service Mapping application comes with the following preconfigured CI relationships used for tag-based discovery. These CI relationships are available from the 1.0.68 release on the ServiceNow Store.
 

@@ -2,6 +2,7 @@
 title: AccCheckDefsAPI - Scoped
 description: The AccCheckDefsAPI script include enables managing check definitions and associated parameters.Gets a specified check definition with details.Gets a list of check definitions with details.Enables changing one or more field values of a specified check definition.Enables changing one or more field values of a specified check parameter.Enables changing one or more field values of a specified check secure parameter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/AccCheckDefsAPIAPIScoped.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,13 +16,13 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The AccCheckDefsAPI script include enables managing check definitions and associated parameters.
 
-This script include requires the Agent Client Collector Framework \(sn\_agent\) store application and is provided within the `sn_agent` namespace. This script include requires the agent\_client\_collector\_admin role. For more information, refer to [Agent Client Collector](https://www.servicenow.com/docs/access?context=acc-landing-page&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+This script include requires the Agent Client Collector Framework \(sn\_agent\) store application and is provided within the `sn_agent` namespace. This script include requires the agent\_client\_collector\_admin role. For more information, refer to Agent Client Collector.
 
 This script include does not have a constructor for creating an instance. Call each method using the AccCheckDefsAPI static class in the following format:
 
 `sn_agent.AccCheckDefsAPI.<method>`
 
-For the REST API solution, refer to [Agent Client Collector API](../../../../../integrate/inbound-rest/concept/agnt_clnt_cll-api.md#).
+For the REST API solution, refer to [Agent Client Collector API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/agnt_clnt_cll-api.md).
 
 This script include provides methods that enable the following:
 
@@ -29,7 +30,7 @@ This script include provides methods that enable the following:
 -   Get a list of check definitions
 -   Update checks and check parameters
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## AccCheckDefsAPI - getCheck\(String checkDefId, Boolean withParams\)
 
@@ -242,7 +243,7 @@ check.plugins
 
 </td><td>
 
-List of [Agent Client Collector plugins](https://www.servicenow.com/docs/access?context=acc-assets&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US) associated with this check. Data type: Array
+List of Agent Client Collector plugins associated with this check. Data type: Array
 
 </td></tr><tr><td>
 
@@ -417,7 +418,7 @@ Output:
 
 Gets a list of check definitions with details.
 
-See also [Checks and policies](https://www.servicenow.com/docs/access?context=checks-policies&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+See also Checks and policies.
 
 <table id="table_zk2_2g2_z4b" class="parameters"><thead><tr><th>
 
@@ -441,7 +442,7 @@ String
 
 </td><td>
 
-An [encoded query string](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) to filter the check definition result list. Use null for an unfiltered list of check definitions in the system.
+An encoded query string to filter the check definition result list. Use null for an unfiltered list of check definitions in the system.
 
 </td></tr><tr><td>
 
@@ -633,7 +634,7 @@ plugins
 
 </td><td id="accCkDf-plugins-desc">
 
-List of [Agent Client Collector plugins](https://www.servicenow.com/docs/access?context=acc-assets&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US) associated with this check. Data type: Array
+List of Agent Client Collector plugins associated with this check. Data type: Array
 
 </td></tr><tr><td>
 
@@ -791,7 +792,7 @@ Output:
 
 Enables changing one or more field values of a specified check definition.
 
-See also [Checks and policies](https://www.servicenow.com/docs/access?context=checks-policies&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+See also Checks and policies.
 
 <table id="table_zk2_2g2_z4b" class="parameters"><thead><tr><th>
 
@@ -931,7 +932,7 @@ Array
 
 </td><td>
 
-List of [Agent Client Collector plugins](https://www.servicenow.com/docs/access?context=acc-assets&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US) associated with this check.
+List of Agent Client Collector plugins associated with this check.
 
 </td></tr><tr><td>
 

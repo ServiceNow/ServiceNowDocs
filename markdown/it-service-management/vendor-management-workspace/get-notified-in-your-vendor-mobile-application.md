@@ -2,6 +2,7 @@
 title: Get notified about the vendors you manage using the Vendor Management Mobile application
 description: Receive notifications when a P1 incident is created or resolved. You can also get notified if another incident gets upgraded to P1 or when a vendor outage occurs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/vendor-management-workspace/get-notified-in-your-vendor-mobile-application.html
 release: zurich
 product: Vendor Management Workspace
 classification: vendor-management-workspace
@@ -45,5 +46,5 @@ You must set your notification preferences in your desktop application to receiv
     -   Another incident gets upgraded to a P1 incident
     -   A vendor outage record is created
 
-**Parent Topic:**[ITSM Vendor Management Mobile for Vendor Management Workspace](../concept/vendor-mobile-vendor-management-workspace.md)
+**Parent Topic:**[ITSM Vendor Management Mobile for Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/vendor-mobile-vendor-management-workspace.md)
 

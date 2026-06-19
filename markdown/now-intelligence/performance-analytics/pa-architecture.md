@@ -2,6 +2,7 @@
 title: Performance Analytics architecture
 description: Before using Performance Analytics, familiarize yourself with how the layers of architecture take you from raw database entries to insightful visuals on dashboards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/pa-architecture.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -117,5 +118,5 @@ Performance Analytics Technical Expert, with at least the pa\_data\_collector ro
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Implement Performance Analytics](implementing-pa.md)
+</table>**Parent Topic:**[Implement Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/implementing-pa.md)
 

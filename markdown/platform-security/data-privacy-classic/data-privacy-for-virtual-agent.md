@@ -2,6 +2,7 @@
 title: Data Privacy for Virtual Agent
 description: You can use Data Privacy to detect and mask the sensitive data and PII during a Virtual Agent conversation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-privacy-classic/data-privacy-for-virtual-agent.html
 release: zurich
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
@@ -23,7 +24,7 @@ Role required: virtual\_agent\_data\_privacy\_admin
 
 Use Data Privacy to detect and mask the sensitive data and PII during a Virtual Agent conversation. Data Privacy is replacing the depreciated Sensitive Data Handler, see [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) for more information. The setup process may vary depending on if Sensitive Data Handler was previously installed and configured.
 
-**Note:** If you have previously configured Sensitive Data Handler your settings will be migrated to Data Privacy as a policy. See [Create anonymization policies](dps-create-anonymization-policies.md) for more information.
+**Note:** If you have previously configured Sensitive Data Handler your settings will be migrated to Data Privacy as a policy. See [Create anonymization policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-create-anonymization-policies.md) for more information.
 
 ## Procedure
 
@@ -31,11 +32,11 @@ Use Data Privacy to detect and mask the sensitive data and PII during a Virtual 
 
 2.  Under **Sensitive data detection**, select **View all**.
 
-    If the button reads **Get data privacy**, you will need to install the Data Privacy plugin to continue. See [Activate data privacy \(Classic\)](../../search-administration/task/install-data-privacy.md) for more information
+    If the button reads **Get data privacy**, you will need to install the Data Privacy plugin to continue. See [Activate data privacy \(Classic\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/install-data-privacy.md) for more information
 
 3.  Set the slider to **Active**.
 
-4.  If Data Privacy is not yet installed you will be prompted to install the Data Privacy plugin to continue, see [Activate data privacy \(Classic\)](../../search-administration/task/install-data-privacy.md) for more information.
+4.  If Data Privacy is not yet installed you will be prompted to install the Data Privacy plugin to continue, see [Activate data privacy \(Classic\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/install-data-privacy.md) for more information.
 
 5.  Select the appropriate conversation flow:
 
@@ -48,6 +49,6 @@ Use Data Privacy to detect and mask the sensitive data and PII during a Virtual 
 
     If you have configured Sensitive Data Handler before, your settings will be migrated as a policy to Data Privacy
 
-7.  Create a new Data Privacy policy for Virtual Agent, see [Create anonymization policies](dps-create-anonymization-policies.md) for more information on Data Privacy policies.
+7.  Create a new Data Privacy policy for Virtual Agent, see [Create anonymization policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-create-anonymization-policies.md) for more information on Data Privacy policies.
 
 

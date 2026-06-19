@@ -2,6 +2,7 @@
 title: Update the dependency details for tasks from Project Workspace
 description: Update the details of the dependency including its type and lag time from Project Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/update-the-dependency-details-for-tasks-from-project-workspace.html
 release: zurich
 product: Project Workspace
 classification: project-workspace
@@ -23,7 +24,7 @@ Role required: it\_project\_manager
 
 1.  Open a project from the planning page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access the new Project Workspace](access-new-project-workspace.md).
+    For information on how to navigate to the planning page, see [Access the new Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the dependency side panel in one of the two ways.
 
@@ -37,5 +38,5 @@ Role required: it\_project\_manager
 4.  Select **Update**.
 
 
-**Parent Topic:**[Add internal project task dependencies from Project Workspace](create-dependencies-for-project-tasks-from-project-workspace.md)
+**Parent Topic:**[Add internal project task dependencies from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-dependencies-for-project-tasks-from-project-workspace.md)
 

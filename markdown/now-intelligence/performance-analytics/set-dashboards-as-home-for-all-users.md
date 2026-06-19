@@ -2,11 +2,12 @@
 title: Set dashboards as home for all users
 description: You can set dashboards as home for all users. By default, the most recent dashboard a user has visited is the dashboard they see when they log in to ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/set-dashboards-as-home-for-all-users.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-04-16"
 reading_time_minutes: 1
 breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -35,11 +36,11 @@ Role required: admin
 
 6.  Set the **Type** to `string`.
 
-7.  Set the value to `$pa_dashboard.do`.
+7.  Set the value to `/now/platform-analytics-workspace/dashboards`.
 
 8.  Select **Submit**.
 
-    ![User preference form with description, name, type, and value filled in. User field is blank.](../image/user-pref-all-homepages-db.png)
+    \[Omitted image "user-pref-all-homepages-db.png"\] Alt text: User preference form with description, name, type, and value filled in. User field is blank.
 
 
 ## Result
@@ -48,5 +49,5 @@ All users see the last dashboard that they visited when they log in to ServiceNo
 
 ## What to do next
 
-[Set a specific dashboard as home for all users](set-specific-db-as-home-for-all-users.md)
+[Set a specific dashboard as home for all users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/set-specific-db-as-home-for-all-users.md)
 

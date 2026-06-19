@@ -2,6 +2,7 @@
 title: Configure Now Assist in Contract Management
 description: As an AI administrator for contracts, you can configure Now Assist in Contract Management so that contract fulfillers can use the Now Assist capabilities while working on contract documents or search the contracts for information from the Now Assist panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/confg-na-in-cmpro.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -26,7 +27,7 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist in Contract Management. The console contains everything that you need to configure the Now Assist skills. For more information, see [Overview tab in Now Assist Admin](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+Use the Now Assist Admin console to configure Now Assist in Contract Management. The console contains everything that you need to configure the Now Assist skills. For more information, see .
 
 The following skills are available for Contract Management Pro in the Now Assist Admin console:
 
@@ -34,13 +35,13 @@ The following skills are available for Contract Management Pro in the Now Assist
 -   Contract obligation extraction
 -   Contract analysis
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://www.servicenow.com/docs/access?context=ai-model-providers&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://www.servicenow.com/docs/access?context=manage-large-language-models&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US). For more information, see [Large language models on the ServiceNow AI Platform®](https://www.servicenow.com/docs/access?context=exploring-large-language-models&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the Now Assist Admin console. For more information, see .
 
 ## Procedure
 
 1.  Install the Now Assist in Contract Management plugin \(sn\_cm\_gen\_ai\).
 
-    For information about the plugin installation process, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+    For information about the plugin installation process, see .
 
 2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
 
@@ -48,15 +49,15 @@ You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure Open
 
 4.  Select **Activate skill** on the skill that you want to activate.
 
-    ![Now Assist skills available for Contract Management Pro.](../image/cmpro-NA-skills.png "Now Assist skills for Contract Management Pro")
+    \[Omitted image "cmpro-NA-skills.png"\] Alt text: Now Assist skills available for Contract Management Pro.
 
 5.  In the skill guided setup, configure the use cases and other mappings for the skill.
 
-    For more information on configuring contract metadata extraction, see [Configuring contract metadata extraction](cncore-conf-metadata-extraction.md).
+    For more information on configuring contract metadata extraction, see [Configuring contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-conf-metadata-extraction.md).
 
-    For more information on configuring contract obligation extraction, see [Configuring contract obligation extraction](cncore-conf-obligation-extraction.md).
+    For more information on configuring contract obligation extraction, see [Configuring contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-conf-obligation-extraction.md).
 
-    For more information on configuring contract analysis, see [Configuring contract analysis](../concept/cmpro-conf-contract-analysis.md).
+    For more information on configuring contract analysis, see [Configuring contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-conf-contract-analysis.md).
 
 6.  In the Define access page, select the roles to specify who can access the skills.
 
@@ -70,26 +71,26 @@ You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure Open
 
 The Now Assist skill is activated for Contract Management Pro.
 
-You can update or deactivate the skill by selecting **Edit** and **Deactivate** the options menu icon \(![Options menu icon.](../image/cmpro-na-three-dot-icon.png)\) of the active skill. For more information, see [Deactivate skills for Now Assist in Contract Management](cmpro-deactivate-na-skills.md).
+You can update or deactivate the skill by selecting **Edit** and **Deactivate** the options menu icon \(\[Omitted image "cmpro-na-three-dot-icon.png"\] Alt text: Options menu icon.\) of the active skill. For more information, see [Deactivate skills for Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-deactivate-na-skills.md).
 
 ## What to do next
 
-[Configure data permissions for Now Assist skills](cmpro-conf-roles-skills.md)
+[Configure data permissions for Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.md)
 
--   **[Configure data permissions for Now Assist skills](cmpro-conf-roles-skills.md)**  
+-   **[Configure data permissions for Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.md)**  
 Add the user roles for a Now Assist skill to specify the roles that Now Assist uses to access data while performing a task. The user roles control the information that Now Assist can read, update, or share, based on the permissions of the selected roles.
--   **[Select large language models for use cases in Now Assist in Contract Management](cmpro-na-manage-llm.md)**  
+-   **[Select large language models for use cases in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-na-manage-llm.md)**  
 Select a large language model \(LLM\) provider for a contract analysis or metadata extraction use case.
--   **[Configuring contract metadata extraction](cncore-conf-metadata-extraction.md)**  
+-   **[Configuring contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-conf-metadata-extraction.md)**  
 Configure system properties and use cases for metadata extraction so that a contract manager can use Now Assist to extract metadata from a contract and add the extracted information to the contract repository.
--   **[Configuring contract analysis](../concept/cmpro-conf-contract-analysis.md)**  
+-   **[Configuring contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-conf-contract-analysis.md)**  
 Configure use cases with associated field groups and fields, and map them to clauses and expected responses. Now Assist uses the applicable use case to analyze a contract document and identify non-standard and missing clauses.
--   **[Configuring contract obligation extraction](cncore-conf-obligation-extraction.md)**  
+-   **[Configuring contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-conf-obligation-extraction.md)**  
 Configure and map use cases for the contract obligation extraction skill in the Now Assist Admin console to automatically extract key contractual obligations from signed contracts.
--   **[Configuring agentic workflows in Now Assist in Contract Management](../concept/cmpro-conf-agentic-workflow.md)**  
+-   **[Configuring agentic workflows in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-conf-agentic-workflow.md)**  
 Configure agentic workflows in Now Assist in Contract Management so that contract fulfillers can use the AI agents to perform specific tasks autonomously.
--   **[Post-upgrade steps for Now Assist in Contract Management](cmpro-na-upgrade-steps.md)**  
+-   **[Post-upgrade steps for Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-na-upgrade-steps.md)**  
 If you are upgrading to Now Assist in Contract Management from Yokohama \(Patch 2 and lower\) or Xanadu \(Patch 8 and lower\), and you have customized use cases, run a fix script to migrate the existing data to the Now Assist Admin console.
 
-**Parent Topic:**[Now Assist in Contract Management](../concept/cncore-now-assit-landing.md)
+**Parent Topic:**[Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)
 

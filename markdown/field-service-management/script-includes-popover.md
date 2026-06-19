@@ -2,7 +2,10 @@
 title: Customize pop over fields on the calendar in Dispatcher Workspace
 description: Add or remove the fields that show in Dispatcher Workspace pop overs so more relevant information is easier for dispatchers to find.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/script-includes-popover.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -31,7 +34,7 @@ Using JavaScript along with a script includes, you can show different values tha
 
 The following image shows that the **Assigned to** field has been added to the pop over window to indicate who the work order task is assigned to.
 
-![Modified pop over with the Assigned to field added](../image/modified_popover.png)
+\[Omitted image "modified\_popover.png"\] Alt text: Modified pop over with the Assigned to field added
 
 ## Procedure
 

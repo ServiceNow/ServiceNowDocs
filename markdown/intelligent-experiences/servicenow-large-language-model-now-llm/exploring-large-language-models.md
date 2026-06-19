@@ -2,6 +2,7 @@
 title: Large language models on the ServiceNow AI Platform
 description: ServiceNow AI Platform utilizes large language models \(LLM\) for generative AI and agentic AI functionality. You can choose the ServiceNow LLM or supported third-party models. LLMs bring about the Generative AI application capabilities by understanding and generating human language, and processing vast amount of data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.html
 release: zurich
 product: ServiceNow Large Language Model \(Now LLM\)
 classification: servicenow-large-language-model-now-llm
@@ -114,24 +115,24 @@ This selection is supported at various levels such as, skill, skill group and in
 The **Manage large language models** feature enables the admin persona to perform additional actions like:
 
 -   Edit the model provider at the instance, skill group and skill levels
--   Deactivate active skills which are non-compliant with fallback as **No**. See [Explore AI model providers](../../ai-governance-workspace/concept/ai-model-providers.md) to learn more.
+-   Deactivate active skills which are non-compliant with fallback as **No**. See [Explore AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-model-providers.md) to learn more.
 -   View audit history on policy updates by AI steward in AI Control Tower
 -   Select allowed model providers across domain separated instances.
 
-See [Manage AI models](../../now-assist-admin/task/manage-large-language-models.md) to learn about managing.
+See [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/manage-large-language-models.md) to learn about managing.
 
-For more information on selecting and updating model providers, see [Manage model providers](../../now-assist-admin/task/edit-model-providers.md).
+For more information on selecting and updating model providers, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/edit-model-providers.md).
 
--   **[Now LLM Service updates](../../now-assist-platform/reference/now-llm-model-updates.md)**  
+-   **[Now LLM Service updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-large-language-model-now-llm/now-llm-model-updates.md)**  
 The Now LLM Service provides access to specialized large language models \(LLMs\) that are developed by ServiceNow. It also provides access to open-source LLMs that are selected, configured, or enhanced by ServiceNow, from the ServiceNow community and partners. Review these reference materials and model cards for additional information about the Now LLM Service and about the models used.
--   **[General guidelines for writing instructions for generative AI large language models \(LLMs\)](../../now-assist-platform/concept/llm-instruction-guidelines.md)**  
+-   **[General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)**  
 When using Now Assist products and skills, you may have the option to give specific instructions or other guidance to the LLM. Writing generative AI instructions is different from conducting a keyword search. Use the following general guidelines when crafting your instructions.
--   **[Long term stable models](long-term-stable-models.md)**  
+-   **[Long term stable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-large-language-model-now-llm/long-term-stable-models.md)**  
 Long term stable \(LTS\) models support regulated industries, such as financial institutions, with stronger AI lifecycle management, governance, transparency, and compliance tools.
--   **[Discrepancies when using different AI search tools](aisearch-differences.md)**  
+-   **[Discrepancies when using different AI search tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-large-language-model-now-llm/aisearch-differences.md)**  
 Different AI search tools may return different answers for the same or similar searches. This difference in results is expected. It occurs because each large language model \(LLM\) uses a different approach to find results and generate answers that match your search.
--   **[Providers and Models](providers-and-models.md)**  
+-   **[Providers and Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-large-language-model-now-llm/providers-and-models.md)**  
 You can bring your own large language model \(LLM\) provider and API to use with Now Assist.
 
-**Parent Topic:**[Enable AI experiences](../reference/ai-products.md)
+**Parent Topic:**[Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/ai-products.md)
 

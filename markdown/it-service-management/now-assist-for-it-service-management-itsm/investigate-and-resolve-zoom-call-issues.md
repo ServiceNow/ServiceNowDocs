@@ -2,6 +2,7 @@
 title: Investigate Zoom call issues
 description: Investigate Zoom call performance with Now Assist to identify root cause of issues, review supporting evidence, and get the resolutions such as remedial actions, self-help instructions, and relevant knowledge articles to resolve the Zoom call issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/investigate-and-resolve-zoom-call-issues.html
 release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -19,8 +20,8 @@ Investigate Zoom call performance with Now Assist to identify root cause of issu
 
 Role required: sn\_dex.user
 
--   Ensure DEX for Zoom is configured. For more information, see [Configuring DEX for Zoom](../Zoom-calls-monitoring/configuring-DEX-for-Zoom.md).
--   Ensure that advanced monitoring is enabled to capture Zoom call telemetry. For more information, see [Enable application monitoring](enable-app-monitor.md).
+-   Ensure DEX for Zoom is configured. For more information, see [Configuring DEX for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/configuring-DEX-for-Zoom.md).
+-   Ensure that advanced monitoring is enabled to capture Zoom call telemetry. For more information, see [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/enable-app-monitor.md).
 -   Enable Now Assist for DEX to access AI-generated Zoom call diagnostics.
 
 **Note:** The Now Assist AI capability for investigating Zoom call quality issues requires a minimum platform version of Zurich patch 7.
@@ -29,13 +30,13 @@ Role required: sn\_dex.user
 
 The Now Assist for Zoom Call Issues analyzes Zoom telemetry, including audio, video, jitter, latency, and packet loss, or other issues along with device and application data to determine the root cause.
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the Devices icon ![](../image/icon-devices.png).
+2.  In the primary navigation pane, select the Devices icon \[Omitted image "icon-devices.png"\].
 
 3.  Select a device.
 
@@ -70,7 +71,7 @@ The Now Assist for Zoom Call Issues analyzes Zoom telemetry, including audio, vi
 
     Remedial actions, self-help instructions, and related knowledge articles are displayed to help resolve Zoom call issues.
 
-10. To view the detailed metrics for the Zoom calls made by users assigned to this device or logged in within the past 15 days, see [Monitor Zoom call quality using DEX](../Zoom-calls-monitoring/monitor-zoom-call-quality-using-dex.md).
+10. To view the detailed metrics for the Zoom calls made by users assigned to this device or logged in within the past 15 days, see [Monitor Zoom call quality using DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/monitor-zoom-call-quality-using-dex.md).
 
 
 ## Result

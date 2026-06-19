@@ -2,6 +2,7 @@
 title: Transaction Manager: Stages
 description: Each stage represents a phase in the selling process of an organization. This article illustrates a process with five stages that you can modify to suit your needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/transaction-manager-stages.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -17,11 +18,11 @@ Each stage represents a phase in the selling process of an organization. This ar
 
 Stages represent each phase in an organization's selling process. The stage list shows all stages defined, and their order of evaluation. In this example, we demonstrate a process with five stages. Your implementation will add or delete stages to accommodate your selling process.
 
-![Transaction Manager: stages](../images/cpq-txn-mgr-stages-1.jpeg)
+\[Omitted image "cpq-txn-mgr-stages-1.jpeg"\] Alt text: Transaction Manager: stages
 
 The administrator may change the order of evaluation in any stage. Hover over the chevron graphic to alter the order of evaluation. '&lt;' and '&gt;' buttons change the order of stages. The '+' button will create a new stage at that place in the sequence of stages.
 
-![Transaction Manager: stages](../images/cpq-txn-mgr-stages-2.jpeg)
+\[Omitted image "cpq-txn-mgr-stages-2.jpeg"\] Alt text: Transaction Manager: stages
 
 ## Transitions between stages
 
@@ -47,53 +48,53 @@ Rule groupings are associated to stages and are run on when the stage is transit
 
 Stages allow the Admin to define how personas observe field data with distinct permissions \(views\).
 
-Transaction Manager enables admins to configure distinct field data views for personas, each with specific permissions. For more information on defining views for stages, see [Transaction Manager: Views](transaction-manager-views.md).
+Transaction Manager enables admins to configure distinct field data views for personas, each with specific permissions. For more information on defining views for stages, see [Transaction Manager: Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/transaction-manager-views.md).
 
 ## Create a new stage, associate rule groups, and set entry criteria
 
 Navigate to the Transaction Manager Admin UI. By default you are placed in the Stages option of the Admin menu. You should see the defined stages displayed on the page. To create a new stage, click **+ New Stage**.
 
-![Transaction Manager: stages](../images/cpq-txn-mgr-stages-create-1.jpeg)
+\[Omitted image "cpq-txn-mgr-stages-create-1.jpeg"\] Alt text: Transaction Manager: stages
 
 Enter a name in the Name field. As the name is being entered in the Name field, the same value is being mirrored in the Variable Name field. By default, Transaction Manager makes the variable name the same as the name that the Admin enters. However, the Variable name is created using camel case, and all spaces and special characters are removed from the name. For example, If you type “Ordered” in the Name field, the Variable Name field will contain “ordered”. If you want to create your own custom variable names, click the pencil icon to the right of the Variable Name field and you can enter your own value.
 
 Once the Name and Variable Name are set, click **Save**.
 
-![Transaction Manager: stages](../images/cpq-txn-mgr-stages-create-2.jpeg)
+\[Omitted image "cpq-txn-mgr-stages-create-2.jpeg"\] Alt text: Transaction Manager: stages
 
 Once you click **Save**, you will be brought to the Stage Editor page. In the Stage Editor, you can assign rule groupings to the stage being created. Use the Rule Groupings menu to choose the rule groupings you would like to assign to the new stage.
 
-![Transaction Manager: stages](../images/cpq-txn-mgr-stages-create-3.jpeg)
+\[Omitted image "cpq-txn-mgr-stages-create-3.jpeg"\] Alt text: Transaction Manager: stages
 
 On the Stage Editor page, under Entry Criteria, you can create the conditions that will be tested before the transaction is allowed to transition into this new stage. The creation of the conditions follows the same procedure as creating conditions in rules. Choose the type of condition logic you want to implement by clicking **Entry Criteria**.
 
-![Transaction Manager: stages](../images/cpq-txn-mgr-stages-create-4.jpeg)
+\[Omitted image "cpq-txn-mgr-stages-create-4.jpeg"\] Alt text: Transaction Manager: stages
 
 Click **Take Action When** to select the condition logic.
 
-![Transaction Manager: stages](../images/cpq-txn-mgr-stages-create-5.jpeg)
+\[Omitted image "cpq-txn-mgr-stages-create-5.jpeg"\] Alt text: Transaction Manager: stages
 
 Once the condition logic method is chosen, click **+ Add Condition** to add the specific condition statement that is to be tested. You can add multiple conditions to the stage entry criteria. For each conditional statement, choose the field you want to test, the operator to use, and the value to test for in order to create a complete conditional statement.
 
-![Transaction Manager: stages](../images/cpq-txn-mgr-stages-create-6.jpeg)
+\[Omitted image "cpq-txn-mgr-stages-create-6.jpeg"\] Alt text: Transaction Manager: stages
 
 Once all conditions are added, and all other changes to the new stage are complete, click **Save** to save the new stage and all its settings.
 
-![Transaction Manager: stages](../images/cpq-txn-mgr-stages-create-7.jpeg)
+\[Omitted image "cpq-txn-mgr-stages-create-7.jpeg"\] Alt text: Transaction Manager: stages
 
 ## Settings: Behavior on Open Transaction
 
 The Behavior on Open Transaction area allows the Administrator to determine what rule groupings and integrations will run when the user opens the transaction and the transaction happens to be in this stage. Click **Edit Settings** to choose the Rule groupings or Integrations you would like to fire when the transaction is opened in this stage.
 
-![Transaction Manager: stages](../images/cpq-txn-mgr-stages-create-behavior-on-open-1.jpeg)
+\[Omitted image "cpq-txn-mgr-stages-create-behavior-on-open-1.jpeg"\] Alt text: Transaction Manager: stages
 
 On the Settings page for the Behavior on Open Transaction, use the Refresh Product Data toggle to refresh the product data for the transaction upon opening the transaction.
 
 Click **Add New Action** to add a Rule grouping or Integration to the Action list for the Behavior on Open Transaction for the new stage.
 
-![Transaction Manager: stages](../images/cpq-txn-mgr-stages-create-behavior-on-open-2.jpeg)
+\[Omitted image "cpq-txn-mgr-stages-create-behavior-on-open-2.jpeg"\] Alt text: Transaction Manager: stages
 
-![Transaction Manager: stages](../images/cpq-txn-mgr-stages-create-behavior-on-open-3.jpeg)
+\[Omitted image "cpq-txn-mgr-stages-create-behavior-on-open-3.jpeg"\] Alt text: Transaction Manager: stages
 
 ## Settings: Behavior on Idle Timeout
 
@@ -111,12 +112,12 @@ Idle timeout is configured in a stage’s settings, under the section titled:``
 1.  To activate the setting, navigate to the relevant stage.
 2.  Locate “Behavior on Idle Timeout.”
 
-    ![Transaction Manager: stages](../images/cpq-txn-mgr-stages-create-behavior-on-idle-1.png)
+    \[Omitted image "cpq-txn-mgr-stages-create-behavior-on-idle-1.png"\] Alt text: Transaction Manager: stages
 
 3.  Toggle the setting to Active.
 4.  Click **Edit Settings** beside it to add the actions.
 
-    ![Transaction Manager: stages](../images/cpq-txn-mgr-stages-create-behavior-on-idle-2.png)
+    \[Omitted image "cpq-txn-mgr-stages-create-behavior-on-idle-2.png"\] Alt text: Transaction Manager: stages
 
 5.  Set the idle time.
 
@@ -139,7 +140,7 @@ You can define one or more actions that run once the idle timeout is reached. Su
     -   Notifying external systems
     -   Updating external records
 
-        ![Transaction Manager: stages](../images/cpq-txn-mgr-stages-create-behavior-on-idle-3.png)
+        \[Omitted image "cpq-txn-mgr-stages-create-behavior-on-idle-3.png"\] Alt text: Transaction Manager: stages
 
 
 Best practices:

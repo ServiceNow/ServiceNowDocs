@@ -2,11 +2,12 @@
 title: Request translations in Localization Workspace: Languages
 description: Add target languages to a translation request in Localization Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/localization-workspace/lw-request-translations-langs.html
 release: zurich
 product: Localization Workspace
 classification: localization-workspace
 topic_type: task
-last_updated: "2025-12-05"
+last_updated: "2026-06-08"
 reading_time_minutes: 2
 breadcrumb: [Requesting translations in Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer]
 ---
@@ -18,8 +19,8 @@ Add target languages to a translation request in Localization Workspace.
 ## Before you begin
 
 -   Ensure that the languages you intend to add to your translation request have been installed on your instance.
--   Ensure that the language providers that you intend to use have been configured. See [Configure a language provider](lw-configure-translation-provider.md).
--   Role required: localization\_requestor.
+-   Ensure that the language providers that you intend to use have been configured. See [Configure a language provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/lw-configure-translation-provider.md).
+-   Role required: sn\_lw.user
 
 ## About this task
 
@@ -33,17 +34,17 @@ The following procedure covers step one of four steps in the Translation Request
 
 1.  Navigate to **All** &gt; **Localization Workspace** &gt; **Home**.
 
-2.  Select **Request Translation** to open the wizard.![The Translation request wizard window, open to step one for language selection. In this example, selecting a language group has auto-populated three language rows.](../image/lw-request-translations-langs1.png)
+2.  Select **Request Translation** to open the wizard.\[Omitted image "lw-request-translations-langs1.png"\] Alt text: The Translation request wizard window, open to step one for language selection. In this example, selecting a language group has auto-populated three language rows.
 
     The **Translation request** wizard opens at the first step, **Languages**.
 
 3.  In the **Short Description** field, enter a name for the translation request.
 
-    The Short Description is displayed in the **My Requests** list on the Home screen, so you can find and monitor your request later. For information see [Localization Workspace Home and translation job status](../concept/lw-status-synchronization.md).
+    The Short Description is displayed in the **My Requests** list on the Home screen, so you can find and monitor your request later. For information see [Localization Workspace Home and translation job status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/lw-status-synchronization.md).
 
 4.  Select target languages or language groups according to the following guidance.
 
-<table id="choicetable_ff5_wjv_khc"><tbody><tr><td id="d286274e157">
+<table id="choicetable_ff5_wjv_khc"><tbody><tr><td id="d69511e157">
 
 **Language**
 
@@ -53,7 +54,7 @@ To select an individual language:1.  In the **Target language** field, select an
 2.  In the **Translation provider** field, select a name from the list of providers available for the language you chose.
  You can add more than one language to a request.
 
-</td></tr><tr><td id="d286274e181">
+</td></tr><tr><td id="d69511e181">
 
 **Groups**
 
@@ -66,7 +67,7 @@ When you select a check box for a language group, the Target language and Transl
 
 
 </td></tr></tbody>
-</table>5.  Add another language by selecting the plus icon ![](../../../reuse/icons/product-icons/plus-outline-24.svg), or add another language group by selecting its check box.
+</table>5.  Add another language by selecting the plus icon \[Omitted image "plus-outline-24.svg"\], or add another language group by selecting its check box.
 
 6.  Select **Save**.
 

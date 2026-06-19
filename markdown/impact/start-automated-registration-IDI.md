@@ -2,7 +2,10 @@
 title: Use automated registration to connect to the Impact Delivery Instance
 description: The automated registration process simplifies the configuration process and connects your Impact Store Application with data from the Impact Delivery Instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/start-automated-registration-IDI.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-12-03"
 reading_time_minutes: 2
@@ -15,17 +18,18 @@ The automated registration process simplifies the configuration process and conn
 
 ## Before you begin
 
-[Run the Service Exchange pre-configuration scan](perform_pre_configuration_health_checks_impact_store_app.md) before this procedure.
+[Run your first scan with the Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/run-scan-engine.md) before this procedure.
 
-Role required: impact admin and IDI admin
+**Important:** Impact Store Application features that require a connection to the Impact Delivery Instance:
 
-## About this task
+-   Communication with your Impact Squad, including visibility into changes you make in your own Impact Workspace
+-   Capabilities Maps
+-   Accelerators
+-   Recommendations
+-   Product Adoption Roadmaps
+-   Value Management
 
-The automated registration initiates and establishes the connection to the Impact Delivery Instance, the provider instance, into one combined step. The first task, Learn about registering your instance, is an overview of these steps. See [Configure the Impact Store Application](../concept/configuring-impact-platform.md) for a summary of the configuration steps.
-
-For details on the data connection, see [Secure data transfer using Service Bridge](../concept/service-bridge-overview.md).
-
-Role required: admin, an impact role
+Role required: impact app admin and impact admin \(IDI\)
 
 ## Procedure
 
@@ -35,11 +39,11 @@ Role required: admin, an impact role
 
 3.  Select **Create provider connection**.
 
-    ![Selection for Create provider connection.](../image/create-provider-connection-automated.png)
+    \[Omitted image "create-provider-connection-automated.png"\] Alt text: Selection for Create provider connection.
 
     The Provider connection record is launched and the fields will be populated.
 
-    ![The Impact Store App provider connection record with the ServiceNow Company, URL, and pre-connection statuses populated.](../image/provider-connection.png)
+    \[Omitted image "provider-connection.png"\] Alt text: The Impact Store App provider connection record with the ServiceNow Company, URL, and pre-connection statuses populated.
 
     |Field|Description|
     |-----|-----------|
@@ -56,7 +60,7 @@ Role required: admin, an impact role
 
     The on-board consumer confirmation message displays.
 
-    ![Confirmation message to onboard the selected instance.](../image/onboard-confirmation.png)
+    \[Omitted image "onboard-confirmation.png"\] Alt text: Confirmation message to onboard the selected instance.
 
 6.  Select **OK** to continue.
 
@@ -64,22 +68,22 @@ Role required: admin, an impact role
 
 7.  Return to the open tab, Start automated registration a provider instance in Guided Setup, and select **Mark Complete** to continue to verify the connection.
 
-    ![The required step to mark the new provider connection creation as successful with the Mark as complete button on the Automated Registration page in Guided Setup.](../image/create-provider-connection-automated-mark-complete.png)
+    \[Omitted image "create-provider-connection-automated-mark-complete.png"\] Alt text: The required step to mark the new provider connection creation as successful with the Mark as complete button on the Automated Registration page in Guided Setup.
 
     The **Verify the connection** activity becomes available in Guided Setup.
 
-    **Important:** Automated registration does not require manually completing additional connection and registration steps. See [Configure the Impact Store Application](../concept/configuring-impact-platform.md) for an overview of the two registration processes.
+    **Important:** Automated registration does not require manually completing additional connection and registration steps. See [Configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-impact-platform.md) for an overview of the two registration processes.
 
-    ![Connect you instance menu with the manual registration steps outlined.](../image/manual-registration-steps.png)
+    \[Omitted image "manual-registration-steps.png"\] Alt text: Connect you instance menu with the manual registration steps outlined.
 
 
 ## What to do next
 
-[Verify Impact data connection](verify-impact-data-connection.md)
+[Verify Impact data connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/verify-impact-data-connection.md)
 
-**Parent Topic:**[Configure the Impact Store Application](../concept/configuring-impact-platform.md)
+**Parent Topic:**[Configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-impact-platform.md)
 
-**Previous topic:**[Run the Service Exchange pre-configuration scan](perform_pre_configuration_health_checks_impact_store_app.md)
+**Previous topic:**[Run the Service Exchange pre-configuration scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/perform_pre_configuration_health_checks_impact_store_app.md)
 
-**Next topic:**[Verify Impact data connection](verify-impact-data-connection.md)
+**Next topic:**[Verify Impact data connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/verify-impact-data-connection.md)
 

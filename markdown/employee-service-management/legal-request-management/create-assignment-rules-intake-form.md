@@ -2,6 +2,7 @@
 title: Assignment rule to automatically assign legal requests or matters
 description: Create an assignment rule for an intake form to assign the associated legal request or matter to a user or group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-request-management/create-assignment-rules-intake-form.html
 release: zurich
 product: Legal Request Management
 classification: legal-request-management

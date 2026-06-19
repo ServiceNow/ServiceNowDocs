@@ -2,6 +2,7 @@
 title: Components installed with Change Management - Risk Intelligence
 description: Several types of components are installed with activation of the Change Management - Risk Intelligence plugin, that includes tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/installed-with-risk-intelligence.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -15,7 +16,7 @@ breadcrumb: [Request Change Management - Risk Assessment, Plugins, Configure, Ch
 
 Several types of components are installed with activation of the Change Management - Risk Intelligence plugin, that includes tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Tables installed
 
@@ -52,5 +53,5 @@ Risk Intelligence Properties\[chg\_ml\_prop\_risk\]
 Properties used to configure the Risk Intelligence feature.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Request Change Management - Risk Assessment](../task/request-cm-risk-assessment.md)
+</table>**Parent Topic:**[Request Change Management - Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/request-cm-risk-assessment.md)
 

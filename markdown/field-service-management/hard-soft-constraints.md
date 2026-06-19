@@ -2,7 +2,10 @@
 title: Objectives and constraints used with Schedule Optimization
 description: Objectives and constraints are optimization features that determine how tasks are assigned to agents in Schedule Optimization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/hard-soft-constraints.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 4
@@ -293,7 +296,7 @@ Enable flexible breaks
 
 </td><td>
 
-Agents can be assigned flexible breaks.**Note:** The Shift Scheduling for Field Service \(com.snc.sn\_fsm\_shift\_schdl\) plugin must be installed and Workforce Optimization for Field Service must be activated to use the flexible breaks feature. For more information, see [Activate Workforce Optimization for Field Service](../task/activate-wfo-fsm.md).
+Agents can be assigned flexible breaks.**Note:** The Shift Scheduling for Field Service \(com.snc.sn\_fsm\_shift\_schdl\) plugin must be installed and Workforce Optimization for Field Service must be activated to use the flexible breaks feature. For more information, see [Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md).
 
 </td></tr><tr><td>
 
@@ -352,5 +355,5 @@ Enable agent dependent task durations
 The estimated duration for completing a task is determined by considering the primary skills required for the task and agent efficiency.**Note:** The Field Service Agent Efficiency \(com.snc.fsm\_agent\_efficiency\) plugin must be installed to use this feature.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Schedule Optimization components](schedule-optimization-components.md)
+</table>**Parent Topic:**[Schedule Optimization components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/schedule-optimization-components.md)
 

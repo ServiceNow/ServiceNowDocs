@@ -2,6 +2,7 @@
 title: Components installed with Retail Task Management
 description: Several types of components such as tables, user roles, and business rule are installed when you activate the Retail Task Management plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/retail-industry/legacy-retail-task-management/rahi-retail-task-management-components.html
 release: zurich
 product: \[Legacy\] Retail Task Management
 classification: legacy-retail-task-management
@@ -50,5 +51,5 @@ Provides the framework for multi-store case creation.
 
 If Retail Core is already installed, then only the **com.sn\_multi\_case\_creation** plugin installs with Retail Task Management Core.
 
-**Parent Topic:**[Retail Task Management reference](../concept/rahi-retail-task-management-reference.md)
+**Parent Topic:**[Retail Task Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/legacy-retail-task-management/rahi-retail-task-management-reference.md)
 

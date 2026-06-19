@@ -2,6 +2,7 @@
 title: Azure DevOps permissions
 description: Azure DevOps discovery and provision permissions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/ado-permissions.html
 release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -64,5 +65,5 @@ Discover AWS resources provisioned through Azure DevOps pipeline.
 Not applicable
 
 </td></tr></tbody>
-</table>**Parent Topic:**[CSC references](csc-reference.md)
+</table>**Parent Topic:**[CSC references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/csc-reference.md)
 

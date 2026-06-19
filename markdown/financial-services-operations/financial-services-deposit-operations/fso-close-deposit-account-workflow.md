@@ -2,6 +2,7 @@
 title: Close deposit account workflow
 description: Learn how agents, using the Close deposit account workflow, resolve service requests for closing a checking or saving deposit account. The workflows apply to both business and personal deposit service requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-deposit-operations/fso-close-deposit-account-workflow.html
 release: zurich
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
@@ -17,7 +18,7 @@ Learn how agents, using the Close deposit account workflow, resolve service requ
 
 The following diagram shows how the application helps bank agents resolve a deposit request for an account closure.
 
-![Workflow showing how the closure of a deposit account is completed using the deposit operations application. For the image description, see the text that follows.](../image/close-deposit-account-workflow.png "Close deposit account workflow example")
+\[Omitted image "close-deposit-account-workflow.png"\] Alt text: Workflow showing how the closure of a deposit account is completed using the deposit operations application. For the image description, see the text that follows.
 
 The deposit admin can review and customize this predefined flow based on the business needs of your organization.
 
@@ -49,5 +50,5 @@ The following workflow routes the case and tasks for closing a deposit account t
 
 The case is complete and the state and stage of the case are set to Closed Complete.
 
-**Parent Topic:**[Financial Services Deposit Operations workflows](deposit-operations-workflows.md)
+**Parent Topic:**[Financial Services Deposit Operations workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-deposit-operations/deposit-operations-workflows.md)
 

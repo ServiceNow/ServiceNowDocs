@@ -2,6 +2,7 @@
 title: The LocationLookup field
 description: Any text type can be defined as a LocationLookup component display type, which lets you use Google's API to pull address data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/the-location-lookup-field.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -17,7 +18,7 @@ Any text type can be defined as a LocationLookup component display type, which l
 
 The LocationLookup field component display type leverages Googleʼs Places API to pull address data that can be used for unique location configuration and pricing. Any text field type can be defined as a LocationLookup component display type by using the layout editor or by directly editing a layout CSV file.
 
-![CSV file](../images/cpq-location-lookup-csv.png)
+\[Omitted image "cpq-location-lookup-csv.png"\] Alt text: CSV file
 
 To see it in action, view the following video:
 

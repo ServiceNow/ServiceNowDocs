@@ -2,6 +2,7 @@
 title: Add and manage requirements
 description: Define and manage requirements for a demand to capture the functional and technical specifications needed for its fulfillment. Keeping requirements up to date within the demand record ensures clarity for stakeholders and reduces ambiguity during the demand evaluation and approval process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/add-and-manage-requirements-for-a-demand-ppw.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -29,11 +30,11 @@ Demand managers use the Requirement form to describe the requirement and assign 
 
 1.  Open a demand from the home page of Next Experience for Demand Management.
 
-    For more information, see [Access demands](access-demands-ppw.md).
+    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/access-demands-ppw.md).
 
 2.  Select **Details** from the L-2 \(level 2\) navigation menu.
 
-3.  Select **Requirements**.![Use the Requirements tab to add or edit demand requirements.](../../spw-demand/images/demand-requirements.png)
+3.  Select **Requirements**.\[Omitted image "demand-requirements.png"\] Alt text: Use the Requirements tab to add or edit demand requirements.
 
     **Note:** If the **Requirements** tab isn’t visible, select **More** and then select **Requirements**.
 
@@ -43,7 +44,7 @@ Demand managers use the Requirement form to describe the requirement and assign 
     -   To update the details of an existing requirement record, select the record.
 5.  On the Create New Requirement form, fill in the fields.
 
-    For a description of the field names, see [Create requirement form](../reference/create-requirement-form-ppw.md).
+    For a description of the field names, see [Create requirement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/create-requirement-form-ppw.md).
 
 6.  Select **Save**.
 

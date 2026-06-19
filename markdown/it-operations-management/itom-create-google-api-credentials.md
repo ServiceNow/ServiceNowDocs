@@ -2,7 +2,10 @@
 title: Configure the Google API credentials for Cloud Discovery
 description: Create Google API credentials to allow Cloud Discovery to access the data on your Google account securely.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-create-google-api-credentials.html
 release: zurich
+product: IT Operations Management
+classification: it-operations-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -27,15 +30,15 @@ Role required: discovery\_admin
 
 1.  Configure the GCP credentials either by importing a JSON file or by filing in the record manually.
 
-<table id="choicetable_fch_mpt_c1c"><thead><tr><th align="left" id="d336626e91">
+<table id="choicetable_fch_mpt_c1c"><thead><tr><th align="left" id="d198725e91">
 
 Option
 
-</th><th align="left" id="d336626e94">
+</th><th align="left" id="d198725e94">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d336626e100">
+</th></tr></thead><tbody><tr><td id="d198725e100">
 
 **Import the JSON file**
 
@@ -49,7 +52,7 @@ Actions
 6.  Select **Upload Credential Data**.
 
 
-</td></tr><tr><td id="d336626e163">
+</td></tr><tr><td id="d198725e163">
 
 **Configure the credentials manually**
 
@@ -60,12 +63,12 @@ Actions
 3.  Select **New**.
 4.  In the form, fill in the fields according to the form description.
 
-For description of the form fields, see [Google API Credentials Form](../reference/google-api-credentials-form.md).
+For description of the form fields, see [Google API Credentials Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/google-api-credentials-form.md).
 
 5.  Select **Submit**.
 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Set up Google Cloud Platform service accounts](../../it-operations-management/concept/set-up-gcp-service-accounts.md)
+**Parent Topic:**[Set up Google Cloud Platform service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/set-up-gcp-service-accounts.md)
 

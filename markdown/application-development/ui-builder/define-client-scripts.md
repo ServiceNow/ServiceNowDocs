@@ -2,6 +2,7 @@
 title: Define and bind client scripts to components
 description: Add and edit client scripts in UI Builder so that you can update the client state through events. You can bind these scripts to any component by using an event handler.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/define-client-scripts.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -21,7 +22,7 @@ Role required: ui\_builder\_admin
 
 ## About this task
 
-You can create JavaScript client scripts in UI Builder by using the Now Code editor. Then, you can add the client script as an [event handler](../concept/ui-builder-glossary.md#) to update the client state, emit a handled event of your page, or execute a [data resource](../concept/ui-builder-glossary.md#) operation. For example, you could write a script to increment a date or counter, and bind the script to a component event, like a button click. For more information about the Now Code Editor, see [Edit code with the Now Code Editor \(advanced feature\)](../../now-code-editor/concept/now-code-editor.md).
+You can create JavaScript client scripts in UI Builder by using the Now Code editor. Then, you can add the client script as an [event handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/ui-builder-glossary.md) to update the client state, emit a handled event of your page, or execute a [data resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/ui-builder-glossary.md) operation. For example, you could write a script to increment a date or counter, and bind the script to a component event, like a button click. For more information about the Now Code Editor, see [Edit code with the Now Code Editor \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/now-code-editor.md).
 
 With these scripts, you can do the following actions:
 
@@ -36,19 +37,19 @@ With these scripts, you can do the following actions:
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    For more information, see [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md).
+    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md).
 
 3.  Open or create a page.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/create-page.md).
 
 4.  If you do not have any components on your page, add a component to your page.
 
-    For example, you can add a Heading component. For more information, see [Add and configure components](add-components.md#).
+    For example, you can add a Heading component. For more information, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/add-components.md).
 
 5.  Select **+** next to **Client scripts**.
 
-    ![Arrow pointing to the client scripts button in the side bar.](../image/client-scripts-open-shelf.png)
+    \[Omitted image "client-scripts-open-shelf.png"\] Alt text: Arrow pointing to the client scripts button in the side bar.
 
 6.  Name your script.
 
@@ -56,7 +57,7 @@ With these scripts, you can do the following actions:
 
 7.  Write your script to perform an action.
 
-    For example, you could write a simple date script that you bind to a component. ![Example script of a client script.](../image/client-scripts-date-example.png)
+    For example, you could write a simple date script that you bind to a component. \[Omitted image "client-scripts-date-example.png"\] Alt text: Example script of a client script.
 
 8.  Add a **Script include** or **Associated components**, which shows up in the `imports` parameter of your client script function.
 
@@ -66,12 +67,12 @@ With these scripts, you can do the following actions:
 
     The following example shows a date client script.
 
-    ![Scripts listed in add event handler screen.](../image/client-scripts-date-event.png)
+    \[Omitted image "client-scripts-date-event.png"\] Alt text: Scripts listed in add event handler screen.
 
 11. Select **Save**.
 
-12. To preview your scripted component, select ![Preview button that opens the page variant.](../image/preview-button.png).
+12. To preview your scripted component, select \[Omitted image "preview-button.png"\] Alt text: Preview button that opens the page variant..
 
 
-**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](../concept/data-resources.md)
+**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/data-resources.md)
 

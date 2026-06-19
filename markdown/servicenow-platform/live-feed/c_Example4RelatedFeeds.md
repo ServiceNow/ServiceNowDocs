@@ -2,6 +2,7 @@
 title: Related feeds table notification
 description: This example demonstrates table notifications to be sent out to related feeds.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/live-feed/c\_Example4RelatedFeeds.html
 release: zurich
 product: Live Feed
 classification: live-feed
@@ -31,5 +32,5 @@ For this example, whenever the status of a story changes to **Complete**, a tabl
     ```
 
 
-**Parent Topic:**[Live Feed table notification examples](c_LFTableNotifiExamples.md)
+**Parent Topic:**[Live Feed table notification examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/live-feed/c_LFTableNotifiExamples.md)
 

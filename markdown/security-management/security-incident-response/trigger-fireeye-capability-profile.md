@@ -2,6 +2,7 @@
 title: Trigger a FireEye capability profile from Related Links
 description: Trigger a capability profile manually after reviewing a security incident from related links.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/trigger-fireeye-capability-profile.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -27,13 +28,13 @@ Role required: sn\_si.admin or sn\_si.analyst
 
 3.  Click **Run EDR Profile\(s\)**in the related links section.
 
-    ![Run EDR Profile](../image/run-edr-profile.png)
+    \[Omitted image "run-edr-profile.png"\] Alt text: Run EDR Profile
 
 4.  Browse and select a profile from the list of available profiles and click **Submit**.
 
-    ![EDR Profiles](../image/run-edr-browse.png)
+    \[Omitted image "run-edr-browse.png"\] Alt text: EDR Profiles
 
-    ![Run EDR Profile](../image/run-edr-submit.png)
+    \[Omitted image "run-edr-submit.png"\] Alt text: Run EDR Profile
 
 5.  The selected profile is triggered manually.
 

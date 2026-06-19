@@ -2,6 +2,7 @@
 title: Track the progress of roadmap items
 description: Visually track the completion of a work item on your portfolio plan roadmap or free-form roadmap using the tracking mode.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/track-roadmap-item-progress-portfolio-planning.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
@@ -29,15 +30,15 @@ Use a toggle to switch your roadmap view from planning mode to tracking mode. Th
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d82585e80">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d60243e80">
 
 Roadmap type
 
-</th><th align="left" id="d82585e83">
+</th><th align="left" id="d60243e83">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d82585e89">
+</th></tr></thead><tbody><tr><td id="d60243e89">
 
 **Portfolio plan roadmap**
 
@@ -47,7 +48,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d82585e110">
+</td></tr><tr><td id="d60243e110">
 
 **Free-form roadmap**
 
@@ -58,7 +59,7 @@ From the Free-form Roadmaps tab, select a roadmap.
 </td></tr></tbody>
 </table>2.  Use the Tracking mode toggle to turn on the tracking view of the roadmap.
 
-    ![Roadmap tracking mode view.](../../spw-roadmap/images/tracking-mode-on.gif)
+    \[Omitted image "tracking-mode-on.gif"\] Alt text: Roadmap tracking mode view.
 
 3.  Personalize the roadmap view in tracking mode.
 
@@ -76,14 +77,14 @@ From the Free-form Roadmaps tab, select a roadmap.
 
         |Milestone indicator with label|Milestone indicator|
         |------------------------------|-------------------|
-        |![Milestone indicator with label.](../../spw-roadmap/images/milestone-with-label.png)|![Milestone indicator.](../../spw-roadmap/images/milestone-icon.png)|
+        |\[Omitted image "milestone-with-label.png"\] Alt text: Milestone indicator with label.|\[Omitted image "milestone-icon.png"\] Alt text: Milestone indicator.|
 
 
 ## Result
 
 The tracking view of your roadmap is displayed according to your personalization settings. A sample view of roadmap tracking is shown in the following image.
 
-![Roadmap tracking mode.](../../spw-roadmap/images/roadmap-tracking-mode.png)
+\[Omitted image "roadmap-tracking-mode.png"\] Alt text: Roadmap tracking mode.
 
-**Parent Topic:**[Planning roadmaps in Portfolio Planning](../concept/planning-roadmaps-in-portfolio-planning.md)
+**Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)
 

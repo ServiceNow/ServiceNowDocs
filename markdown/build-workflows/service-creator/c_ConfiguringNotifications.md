@@ -2,6 +2,7 @@
 title: Notification configurations
 description: All service categories start with a set of associated notifications, such as the notification when a task to fulfill a service request is assigned.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/service-creator/c\_ConfiguringNotifications.html
 release: zurich
 product: Service Creator
 classification: service-creator

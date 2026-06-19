@@ -2,6 +2,7 @@
 title: View publisher part number \(PPN\) suggestions in Software Asset Management classic
 description: View content service suggestions for your custom PPNs and DMAPS in the Software Asset Management classic application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/View-customppn-classic.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -34,5 +35,5 @@ Role required: sam\_admin
     -   **Accept**: The Content Service PPN and DMAP replace the custom PPN and DMAP. In the impacted entitlement, the content service PPN is replaced. Similarly, the content service DMAP is replaced on the software model.
     -   **Reject**: The status of this record changes to rejected and you continue to use the custom PPN.
 
-**Parent Topic:**[Using Software Asset Management classic](../concept/using-sam-classic.md)
+**Parent Topic:**[Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/using-sam-classic.md)
 

@@ -2,6 +2,7 @@
 title: Amazon DB cluster discovery with Patterns
 description: ServiceNow Discovery uses the AWS DB cluster discovery pattern to find and map Aurora DB clusters, Aurora Serverless resources, Amazon Neptune DB instances, and Amazon DocumentDB instances. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-db-cluster-discovery.html
 release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -15,24 +16,24 @@ breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patter
 
 ServiceNow Discovery uses the AWS DB cluster discovery pattern to find and map Aurora DB clusters, Aurora Serverless resources, Amazon Neptune DB instances, and Amazon DocumentDB instances. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
-The discovered DB clusters form new relationships with the DB Instances discovered by the AWS Relational Database Service pattern. Therefore, the AWS DB cluster pattern is triggered after the AWS Relational Database Service pattern during discovery. For further information, see [Amazon Relational Database Service \(Amazon RDS\) discovery with Patterns](aws-rds-discovery.md).
+The discovered DB clusters form new relationships with the DB Instances discovered by the AWS Relational Database Service pattern. Therefore, the AWS DB cluster pattern is triggered after the AWS Relational Database Service pattern during discovery. For further information, see [Amazon Relational Database Service \(Amazon RDS\) discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-rds-discovery.md).
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
 -   Install the Discovery and Service Mapping Patterns application \(version 1.0.75\) from the ServiceNow Store.
 -   On the ServiceNow AI Platform, configure AWS credentials, using a secret key and an access key.
--   [Create a service account](../../cloud-management-v2-setup/task/aws-first-cld-and-srvc-accts.md). Set the **Account ID** to the Amazon account ID to which RDS belongs. Use the Account ID as it appears in the AWS Management Console.
+-   [Create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/aws-first-cld-and-srvc-accts.md). Set the **Account ID** to the Amazon account ID to which RDS belongs. Use the Account ID as it appears in the AWS Management Console.
 -   Set read-only permissions for these REST APIs:
     -   https://rds.&lt;REGION&gt;.amazonaws.com/?Action=DescribeDBInstances
     -   https://rds.&lt;REGION&gt;.amazonaws.com/?Action=DescribeDBClusters
     -   https://rds.&lt;REGION&gt;.amazonaws.com/?Action=DescribeDBInstances&amp;DBInstanceIdentifier=&lt;input\_object\_id&gt; for events discovery
     -   https://tagging.&lt;REGION&gt;.amazonaws.com/ for tags discovery
 -   For Cloud Discovery, download the Discovery and Service Mapping Patterns from the ServiceNow Store.
--   When installing the MID Server, ensure that the host machine meets or exceeds the [MID Server system requirements](https://www.servicenow.com/docs/access?context=r_MIDServerSystemRequirements&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) published on the ServiceNow documentation site.
+-   When installing the MID Server, ensure that the host machine meets or exceeds the MID Server system requirements published on the ServiceNow documentation site.
 
 ## Verify the REST API Permissions
 
@@ -212,5 +213,5 @@ IP netmask \[0.0.0.0\].​
 |cmdb\_key\_value|Reference only​|cmdb\_ci\_cloud\_db\_cluster​|
 |cmdb\_key\_value|Reference only​|cmdb\_ci\_cloud\_database|
 
-**Parent Topic:**[AWS discovery using patterns](../../discovery/reference/data-discovered-aws-patterns.md)
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

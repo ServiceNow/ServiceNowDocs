@@ -2,6 +2,7 @@
 title: Non-monetary Benefit Plan Breakdown form
 description: Use the Non-monetary Benefit Breakdown form to update the estimated and actual non-financial benefits for a specific fiscal year.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/demand-management/non-monetary-benefit-plan-breakdown-form.html
 release: zurich
 product: Demand Management
 classification: demand-management
@@ -22,9 +23,9 @@ Use the Non-monetary Benefit Breakdown form to update the estimated and actual n
 |Measure|Measure type specified in the benefit plan.|
 |Actual benefit|Actual benefit that is incurred from the project or demand.|
 |Benefit plan|Benefit plan to which the benefit plan breakdown belongs.|
-|Fiscal period|Fiscals generated at the period level. For information on periods, see [fiscal calendars](https://www.servicenow.com/docs/access?context=c_FiscalCalendar&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).|
+|Fiscal period|Fiscals generated at the period level. For information on periods, see fiscal calendars.|
 |Entered benefit|Benefit in entered value.|
 |Variance|The difference between the estimated and actual benefit.|
 
-**Parent Topic:**[Demand Management forms](../concept/demand-management-forms.md)
+**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/demand-management-forms.md)
 

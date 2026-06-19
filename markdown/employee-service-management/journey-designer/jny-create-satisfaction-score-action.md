@@ -2,6 +2,7 @@
 title: Create a satisfaction score action
 description: A satisfaction score action triggers a widget to appear to the employee, containing either a URL or request to schedule a meeting, when the specific condition is met.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/jny-create-satisfaction-score-action.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -44,5 +45,5 @@ Install and configure Listening Posts:
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Configure Journey designer features](../concept/jny-dsgnr-configuration.md)
+**Parent Topic:**[Configure Journey designer features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-configuration.md)
 

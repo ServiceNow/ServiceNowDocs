@@ -2,7 +2,10 @@
 title: Customer contact self-registration on Business Portal
 description: The self-registration feature enables new customer contacts to submit registration requests through the business portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/c\_Business-PortalSelfRegistration.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -19,12 +22,12 @@ After the request is submitted, it goes through an approval process and is eithe
 
 **Note:** If a request is submitted with an incorrect registration code, a notification message appears `Invalid Registration Code`.
 
-![A self-registration form with various fields for customer contact information.](../image/customer-self-registration.png "Customer contact self-registration form")
+\[Omitted image "customer-self-registration.png"\] Alt text: A self-registration form with various fields for customer contact information.
 
 The administrator creates a unique registration code for each account and stores it in the **Registration Code** field on the Account form. After the code is created, customer administrators can distribute the code to customers as needed.
 
 **Related topics**  
 
 
-[Example: The default self-service Password Reset process](https://www.servicenow.com/docs/access?context=c_SelfServicePasswordReset&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.c_SelfServicePasswordReset]
 

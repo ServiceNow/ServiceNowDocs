@@ -2,6 +2,7 @@
 title: View stockroom details in the Enterprise Asset Workspace
 description: Use stockroom records to view detailed information about the stockrooms that your enterprise, hardware, consumable, bundle, loaner, and other assets reside in.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/view-stockroom-details.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -179,7 +180,7 @@ Distribution Channel
 
 </td><td>
 
-Create and view the list and ranking of all linked stockrooms that you can source and transfer enterprise assets between. For more information on distribution channels, see [Add a distribution channel to a stockroom in the Enterprise Asset Workspace](add-distribution-channel-eam-stockroom.md).
+Create and view the list and ranking of all linked stockrooms that you can source and transfer enterprise assets between. For more information on distribution channels, see [Add a distribution channel to a stockroom in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/add-distribution-channel-eam-stockroom.md).
 
 </td></tr><tr><td>
 
@@ -202,12 +203,12 @@ Create and view audits for your enterprise asset inventory.
 </td></tr></tbody>
 </table>5.  View all active stock rules that are configured for the stockroom.
 
-    1.  From the sidebar of the stockroom record, select the Stock rules icon ![](../image/stock-rules-icon.png).
+    1.  From the sidebar of the stockroom record, select the Stock rules icon \[Omitted image "stock-rules-icon.png"\] Alt text:.
 
     2.  View each stock rule to determine if your available stock is within the specified threshold.
 
         You can also determine if the corresponding model has reached the end of sale.
 
 
-**Parent Topic:**[Create and manage enterprise asset inventory](../concept/managing-enterprise-asset-inventory.md)
+**Parent Topic:**[Create and manage enterprise asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/managing-enterprise-asset-inventory.md)
 

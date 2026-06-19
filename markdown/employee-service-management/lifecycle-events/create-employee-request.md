@@ -2,6 +2,7 @@
 title: Create a Lifecycle Events Employee Request from the Employee Center
 description: Enable your users to create common requests from Lifecycle Events so that they don't have to create a new HR case or request. When your users open a request, any related cases and tasks are automatically associated with the parent event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/lifecycle-events/create-employee-request.html
 release: zurich
 product: Lifecycle Events
 classification: lifecycle-events
@@ -42,5 +43,5 @@ Click **Requests** to view your request.
 
 **Note:** The HR case or catalog request that was initiated from the employee request is associated with the parent Lifecycle Events case. Agents can see the status of the employee request from the Lifecycle event.
 
-**Parent Topic:**[Lifecycle Events employee requests](../concept/employee-requests.md)
+**Parent Topic:**[Lifecycle Events employee requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/employee-requests.md)
 

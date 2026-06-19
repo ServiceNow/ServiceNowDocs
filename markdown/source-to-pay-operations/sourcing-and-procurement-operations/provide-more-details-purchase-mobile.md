@@ -2,6 +2,7 @@
 title: Provide more details on your purchase from your mobile device
 description: Provide additional information on your purchase by answering the follow-up questions that the procurement specialist has posted regarding your order from your mobile application. Your response to these to-dos ensures that the procurement specialist understands your exact requirements and has all the necessary information before proceeding with the sourcing request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/provide-more-details-purchase-mobile.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -9,7 +10,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [follow-up questions, to-do, provide more information]
-breadcrumb: [Shopper to-dos on your mobile, Using Shopping Hub Mobile, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Shopper to-dos on your mobile, Using Shopping Hub Mobile, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Provide more details on your purchase from your mobile device
@@ -47,5 +48,5 @@ You can provide more information on the queries that the procurement buyer has p
 
 You have provided additional information about your purchase to the procurement specialist.
 
-**Parent Topic:**[Shopper to-dos on your mobile](../reference/shopper-todos-mobile.md)
+**Parent Topic:**[Shopper to-dos on your mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos-mobile.md)
 

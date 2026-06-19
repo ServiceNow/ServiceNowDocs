@@ -2,6 +2,7 @@
 title: Update a non-monetary benefit plan breakdown for a demand
 description: Update a non-monetary benefit plan breakdown record that specifies the estimated and actual benefits, at a granular level, for specific fiscal periods.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/demand-management/update-a-non-monetary-benefit-plan-breakdown-for-a-demand.html
 release: zurich
 product: Demand Management
 classification: demand-management
@@ -29,16 +30,16 @@ Role required: it\_demand\_manager
 
 4.  Open the required non-monetary benefit plan.
 
-5.  In the Non-monetary Benefit Plan Breakdowns related list, select the information icon \(![](../image/benefit-plan-icon.png)\) against a non-monetary benefit plan breakdown.
+5.  In the Non-monetary Benefit Plan Breakdowns related list, select the information icon \(\[Omitted image "benefit-plan-icon.png"\] Alt text:\) against a non-monetary benefit plan breakdown.
 
 6.  Select **Open Record**.
 
 7.  On the Non-monetary Benefit Plan Breakdown form, view and update the enabled fields.
 
-    For a detailed description of the field names, see [Non-monetary Benefit Plan Breakdown form](../reference/non-monetary-benefit-plan-breakdown-form.md).
+    For a detailed description of the field names, see [Non-monetary Benefit Plan Breakdown form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/non-monetary-benefit-plan-breakdown-form.md).
 
 8.  Select **Update**.
 
 
-**Parent Topic:**[Create a non-monetary benefit plan for a demand](create-a-non-monetary-benefit-plan-for-a-demand.md)
+**Parent Topic:**[Create a non-monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/create-a-non-monetary-benefit-plan-for-a-demand.md)
 

@@ -2,6 +2,7 @@
 title: Paginator API - iOS
 description: The Paginator class provides methods for iterating through a record set returned by a call to the ServiceNow Table API through the NowTableService. It is the object that is returned by the NowTableService paginator\(\) methods. Do not call this method outside of that environment.Fetches the first page of the return results.Fetches the last page of the return results.Fetches the next page of the return results.Fetches the previous page of the return results.Resets the Paginator back to the first page but doesn't return the first page of the return results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/cllent-mobile-api-reference/PaginatorIOSAPI.html
 release: zurich
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -153,7 +154,7 @@ Flag that indicates whether to stop the Paginator object's publisher when the la
 Default: false
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK - iOS](../../concept/MobileSDKiOSAPI.md)
+</table>**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## Paginator - first\(\) throws
 

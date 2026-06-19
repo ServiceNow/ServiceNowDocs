@@ -2,6 +2,7 @@
 title: Agent Client Collector deployment - servers
 description: When deploying the Agent Client Collector, perform deployment and management tasks on your environment's servers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-server-deployment.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector

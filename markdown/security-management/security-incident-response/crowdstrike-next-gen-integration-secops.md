@@ -2,6 +2,7 @@
 title: CrowdStrike Next-Gen SIEM integration
 description: The CrowdStrike Next-Gen SIEM integration automatically ingests detection data that may indicate potential security incidents and streamlines the creation of security incidents in the ServiceNow Security Incident Response \(SIR\), ensuring timely and effective response.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/crowdstrike-next-gen-integration-secops.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -17,13 +18,13 @@ The CrowdStrike Next-Gen SIEM integration automatically ingests detection data t
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Overview of CrowdStrike Next-Gen SIEM integration
 
 See the following graphic to learn how CrowdStrike Next-Gen SIEM integrates with the ServiceNow AI Platform Security Operations applications.
 
-![How CrowdStrike Next-Gen SIEM integrates with the ServiceNow AI Platform.](../image/crowdstrike-next-gen-siem.png)
+\[Omitted image "crowdstrike-next-gen-siem.png"\] Alt text: How CrowdStrike Next-Gen SIEM integrates with the ServiceNow AI Platform.
 
 ## Key features
 

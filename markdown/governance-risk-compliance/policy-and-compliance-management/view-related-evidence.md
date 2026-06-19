@@ -2,6 +2,7 @@
 title: Enable Related Evidence related list
 description: The Evidence Request feature includes a related list called Related Evidence, which it not visible by default. This related list provides a list of evidence that is not directly requested for the current record, but is associated to a related record. For example, the Related Evidence list on the Control Objective form shows evidence requested for associated controls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/view-related-evidence.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

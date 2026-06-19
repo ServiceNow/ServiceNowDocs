@@ -2,6 +2,7 @@
 title: Notifications in ITSM Mobile Agent for Workforce Optimization for ITSM
 description: Receive notifications when you manage shift-swap and time-off requests. Enable notifications for the actions that are most relevant to you. For example, get notified when you receive a request for approval from an agent who wants to swap shifts with a peer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-mobile-notifications.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -21,7 +22,7 @@ You must set your notification preferences in your desktop application to receiv
 
 To enable the notifications:
 
-1.  On your desktop application instance, click the gear icon ![Gear icon](../image/gear-icon.png) in the top-right corner. The **System Settings** screen appears.
+1.  On your desktop application instance, click the gear icon \[Omitted image "gear-icon.png"\] Alt text: Gear icon in the top-right corner. The **System Settings** screen appears.
 2.  Click **Notifications**.
 3.  Enable **Allow Notifications**.
 4.  In the **Notifications Category** section, click **Mobile - Shift Planning**.
@@ -101,10 +102,10 @@ Time off rejected
 Manager rejects your time-off request.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Requesting time-off using the ITSM Mobile Agent for Workforce Optimization for ITSM](../concept/configurable-agent-schedule-mobile-wfo-itsm.md)
+</table>**Parent Topic:**[Requesting time-off using the ITSM Mobile Agent for Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/configurable-agent-schedule-mobile-wfo-itsm.md)
 
 **Related topics**  
 
 
-[Setting notification preferences in Core UI](https://www.servicenow.com/docs/access?context=user-notification-preferences&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+[bundle-platadm.user-notification-preferences]
 

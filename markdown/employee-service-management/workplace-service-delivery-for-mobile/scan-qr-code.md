@@ -2,6 +2,7 @@
 title: Scan the QR code to reserve a space
 description: Scan the QR code of a workplace and quickly reserve a space using the Now Mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-service-delivery-for-mobile/scan-qr-code.html
 release: zurich
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
@@ -31,7 +32,7 @@ Role required: sn\_wsd\_core.workplace\_user
 
 4.  Tap **See my reservations** to see your existing reservations for a selected space.
 
-    Select a space from the list of spaces to view the Reservation Information screen. For more information about the Reservation Information screen, see [Make a reservation using the Now Mobile app](make-a-reservation-on-mobile.md).
+    Select a space from the list of spaces to view the Reservation Information screen. For more information about the Reservation Information screen, see [Make a reservation using the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery-for-mobile/make-a-reservation-on-mobile.md).
 
 5.  Tap **Reserve** to reserve a location for a selected space.
 
@@ -44,7 +45,7 @@ Role required: sn\_wsd\_core.workplace\_user
         -   Suggestion for available reservation time slots is displayed in horizontal blocks with a scroll bar.
         -   To view the time slots in a vertical list, select **View all**.
 
-            The time slot duration is dependent on the **Max duration**and **Min duration** values configured by your administrator in the Reservable Module configuration. For more information, see [Configure a reservable module](../../wsd-reservation-management/task/config-reservable-module.md).
+            The time slot duration is dependent on the **Max duration**and **Min duration** values configured by your administrator in the Reservable Module configuration. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
             The time displayed in the time slot considers the Start time of the working day \(sn\_wsd\_rsv.day\_start\) and End time of the working day \(sn\_wsd\_rsv.day\_end\) properties set by your administrator. If office hours are from 9 AM to 5 PM, then all the available reservation slots between 9 to 5 are divided into 2-hour intervals \(based on the values that you’ve provided for Max and Min duration\). However, if there are any existing reservations, then these aren’t displayed. Only available time slots for a reservation are displayed. If the available slot for a reservation is from 9 AM to 12 PM, and the maximum duration for a meeting is two hours, then 9–11 is the first time slot and 11–12 is the next time slot.
 
@@ -53,7 +54,7 @@ Role required: sn\_wsd\_core.workplace\_user
         **Note:** QR code reservation is not supported for **All day** reservation. Multi-day and recurring reservation is also not supported for QR code reservations.
 
     2.  Check availability: Manually select a Start date and time and End date and time for your reservation. If you try to select a past date or select any future dates, tThe time is reset to the current date. Time durations can be changed.
-    3.  The Schedule view shows the time slot in vertical bars. Select the chevron icon \( ![chevron icon to move forward in the scheduled view calendar](../../../reuse/icons/product-icons/chevron-right-outline-24.svg)\) to move forward or select the icon \(![Chevron icon to move backward in the scheduled view calendar](../../../reuse/icons/product-icons/chevron-left-outline-24.svg)\) to go back and check the reservation time slot availability for a day.
+    3.  The Schedule view shows the time slot in vertical bars. Select the chevron icon \( \[Omitted image "chevron-right-outline-24.svg"\] Alt text: chevron icon to move forward in the scheduled view calendar\) to move forward or select the icon \(\[Omitted image "chevron-left-outline-24.svg"\] Alt text: Chevron icon to move backward in the scheduled view calendar\) to go back and check the reservation time slot availability for a day.
 
         The selected time slot \(Step 9a\) is highlighted in green on the scheduled view. Existing reservations and unavailable time slots show shaded blocks. Vertical lines indicate a 1-hour duration while the dotted lines indicate a 30-minute duration.
 
@@ -67,7 +68,7 @@ Role required: sn\_wsd\_core.workplace\_user
 
 10. Tap **Check in** to check in your reservation.
 
-    For more information, see [Check in or check out a reservation](check-in-out-rsv-on-mobile.md).
+    For more information, see [Check in or check out a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery-for-mobile/check-in-out-rsv-on-mobile.md).
 
 11. Select the **Actions** drop-down options to:
 
@@ -99,9 +100,9 @@ Role required: sn\_wsd\_core.workplace\_user
     2.  To edit the reservation, tap **Edit reservation**.
 
 
-**Parent Topic:**[Using Workplace Service Delivery for Mobile](../concept/using-wsd-mobile.md)
+**Parent Topic:**[Using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery-for-mobile/using-wsd-mobile.md)
 
-**Previous topic:**[Share your reservation details with other users](share-rsv-details.md)
+**Previous topic:**[Share your reservation details with other users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery-for-mobile/share-rsv-details.md)
 
-**Next topic:**[Work with Location Directory for Now Mobile app](view-location-directory-mobile.md)
+**Next topic:**[Work with Location Directory for Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery-for-mobile/view-location-directory-mobile.md)
 

@@ -2,6 +2,7 @@
 title: Request an extension to policy exception
 description: Request an extension for the policy exception that you created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/request-policy-extension-platform.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -47,8 +48,8 @@ Role required: sn\_grc.business\_user, sn\_grc.business\_user\_lite
 
 5.  Click **Request**.
 
-    You can see the policy extension details in the [Schedule tab of the Policy exception form](request-policy-exception.md#policy-ext-det) after the requester has requested for an extension and the extension has been approved by the approver.
+    You can see the policy extension details in the [Schedule tab of the Policy exception form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/request-policy-exception.md) after the requester has requested for an extension and the extension has been approved by the approver.
 
 
-**Parent Topic:**[Manage policy exceptions and extensions](../concept/manage-policy-exceptions.md)
+**Parent Topic:**[Manage policy exceptions and extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/manage-policy-exceptions.md)
 

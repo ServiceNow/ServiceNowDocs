@@ -2,6 +2,7 @@
 title: Set notification properties
 description: After an acknowledgement request has been sent to an audience, different reminder notifications are sent based on the timeliness and state of the response. Properties allow you to configure the notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/policy-compliance-properties.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -100,5 +101,5 @@ Specify how many days before due date to send Policy Acknowledge summary notific
 The number of days prior to the due date to send the Policy Acknowledge summary notification.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Policy and Compliance Management enhancement steps](../../grc-policy-compliance-implementation/concept/policy-compliance-optional-steps.md)
+</table>**Parent Topic:**[Policy and Compliance Management enhancement steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/policy-compliance-optional-steps.md)
 

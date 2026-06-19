@@ -2,6 +2,7 @@
 title: Create a business rule to automatically create universal request
 description: Create a before insert business rule on the service table to automatically create a universal request when a ticket is raised from any of the available channels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-create-brule-omnichannel.html
 release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -74,8 +75,8 @@ You can automatically create a universal request in the following scenarios.
 
 10. Click **Submit**.
 
-    For more information on other fields of this form, see [Create a business rule](https://www.servicenow.com/docs/access?context=c_BusinessRules&version=zurich&pubname=zurich-build-workflows&section=t_CreatingABusinessRule&ft:locale=en-US).
+    For more information on other fields of this form, see Create a business rule.
 
 
-**Parent Topic:**[Configure service to use Universal Request](../concept/config-service-for-ur.md)
+**Parent Topic:**[Configure service to use Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/config-service-for-ur.md)
 

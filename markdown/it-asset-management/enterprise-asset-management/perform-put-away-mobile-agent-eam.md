@@ -2,6 +2,7 @@
 title: Put away enterprise assets using the ServiceNow Agent application
 description: Scan available assets in the inventory and perform asset put away in the designated scanned drop-off location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/perform-put-away-mobile-agent-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -33,19 +34,19 @@ The inventory user can scan the available assets in the inventory and put them a
 
 2.  On the navigation bar, tap the **Asset put away** menu.
 
-    ![Asset put away menu](../../hardware-asset-management/image/asset-put-away-task-ma.png)
+    \[Omitted image "asset-put-away-task-ma.png"\] Alt text: Asset put away menu
 
     The Asset put away page is displayed.
 
 3.  Enter or scan the asset serial number and tap **Next**.
 
-    ![Scan asset serial number](../../hardware-asset-management/image/asset-putaway-scan.png)
+    \[Omitted image "asset-putaway-scan.png"\] Alt text: Scan asset serial number
 
-    You can scan multiple assets at a time. All the scanned asset serial numbers are listed in the **Review** tab. ![Review scanned assets](../../hardware-asset-management/image/asset-putaway-review-tab.png)
+    You can scan multiple assets at a time. All the scanned asset serial numbers are listed in the **Review** tab. \[Omitted image "asset-putaway-review-tab.png"\] Alt text: Review scanned assets
 
 4.  Enter or scan the drop-off location and tap **Submit**.
 
-    ![Asset put away Drop-off location](../../hardware-asset-management/image/asset-putaway-dropoff-location.png)
+    \[Omitted image "asset-putaway-dropoff-location.png"\] Alt text: Asset put away Drop-off location
 
 
 ## Result

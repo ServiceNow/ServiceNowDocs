@@ -2,6 +2,7 @@
 title: Duplicate software installations in the Software Asset Management application
 description: Duplicate software installation are created when you discover software installations with the same publisher, product, version, and edition through multiple discovery sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/deduplicating-software-installations-sam.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -21,5 +22,5 @@ By default, the Software Asset Management application prioritizes IBM software i
 
 The **SAM - Deduplicate Install Table** scheduled job ensures that only one software installation record is marked as active and included in reconciliation.
 
-**Parent Topic:**[Software discovery and normalization](c_SAMDiscovery.md)
+**Parent Topic:**[Software discovery and normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_SAMDiscovery.md)
 

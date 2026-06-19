@@ -2,6 +2,7 @@
 title: Link consumption rules to entitlements
 description: After you've created a consumption rule, you must link the rule to one or more entitlements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/link-consumption-rules.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -53,5 +54,5 @@ Role required: sam\_user
     The consumption rule appears in the Entitlement Consumption Rules related list.
 
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/using-sam-workspace.md)
 

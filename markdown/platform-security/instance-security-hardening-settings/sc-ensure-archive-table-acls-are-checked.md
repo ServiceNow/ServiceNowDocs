@@ -2,6 +2,7 @@
 title: Ensure archive table ACLs are checked \[New in Security Center 1.3 and updated in 1.5\]
 description: The glide.security.enable\_archive\_table\_acls property controls whether access control lists \(ACLs\) of the original table, the table the archive table was created from, are evaluated to false.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-ensure-archive-table-acls-are-checked.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -73,7 +74,7 @@ Category
 
 </td><td>
 
-[Access control](sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -102,5 +103,5 @@ Functional impact
 When this property is set to true, any active read ACLs on archive tables will be honored. If no active read ACLs exist or the property is set to false, the original table's \(table from which data was archived\) will apply to the archive table.**Note:** Only read ACLs are supported on archive tables. Other operations on archive tables are governed internally through an Access Handler.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

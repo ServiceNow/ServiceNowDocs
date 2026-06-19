@@ -2,6 +2,7 @@
 title: Collaborate on ideas
 description: Use the comment option to discuss ideas and exchange information about ideas. Up-vote or down-vote an idea to register your level of interest and support for an idea. Subscribe to an idea to track its progress.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/innovation-management/collaborate-on-an-idea.html
 release: zurich
 product: Innovation Management
 classification: innovation-management
@@ -31,8 +32,8 @@ You cannot comment and vote for ideas that are in the **Completed**, **Unlikely 
 
 3.  Review the idea details and then choose which action to perform on the idea.
 
-    For more information on actions and steps, see [Collaborate on idea](../reference/collaborate-on-idea-actions.md).
+    For more information on actions and steps, see [Collaborate on idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/collaborate-on-idea-actions.md).
 
 
-**Parent Topic:**[Managing ideas using Innovation Management](../concept/using-innovation-management.md)
+**Parent Topic:**[Managing ideas using Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/using-innovation-management.md)
 

@@ -2,6 +2,7 @@
 title: Virtual server response processor example
 description: The Create\_Virtual\_Server\_Response\_Processor script, which is available by default in Cloud Provisioning and Governance, is the response processor that handles the creation of AWS virtual machine CIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/response-processor-example.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -169,5 +170,5 @@ return global.JSON.stringify(cloudModelString);
 
 ```
 
-**Parent Topic:**[Configure a response processor](../task/configure-response-processor.md)
+**Parent Topic:**[Configure a response processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/configure-response-processor.md)
 

@@ -2,6 +2,7 @@
 title: Virtual Agent notifications supported in Microsoft Teams
 description: Microsoft Teams app supports Virtual Agent notifications during conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-notif-msteams.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -24,11 +25,11 @@ Microsoft Teams app supports Virtual Agent notifications during conversations.
     -   Actionable notifications are delivered only when the user is not in an active conversation with a virtual or live agent. Users can do the following:
         -   Review the notifications later by using the **show notification** command.
 
-            ![The user enters "show notification" in the chat window, and the bot responds with, "Thanks, select the notification you'd like to view," followed by three choices.](../images/shw-notifications-teams.png "Show notifications in Microsoft Teams")
+            \[Omitted image "shw-notifications-teams.png"\] Alt text: The user enters "show notification" in the chat window, and the bot responds with, "Thanks, select the notification you'd like to view," followed by three choices.
 
         -   Perform or skip the actions for the notification. If users decide to skip the actions, users can return later to the notification by using the **show notification** command.
 
-For detailed information on Virtual Agent notifications, see [Configuring Virtual Agent notifications](configuring-va-notifications.md).
+For detailed information on Virtual Agent notifications, see [Configuring Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configuring-va-notifications.md).
 
-**Parent Topic:**[Virtual Agent feature support in Microsoft Teams conversations](va-teams-other-features.md)
+**Parent Topic:**[Virtual Agent feature support in Microsoft Teams conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-teams-other-features.md)
 

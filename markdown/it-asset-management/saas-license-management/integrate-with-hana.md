@@ -2,6 +2,7 @@
 title: Integrating with SAP S/4HANA Cloud Public Edition
 description: Integrating your Software Asset Management application with the SAP S/4HANA Public Cloud application enables you to track your software subscriptions and optimize licenses.Create a communication system and an inbound user to enable access to the SAP S/4HANA Public Cloud API and receive a user name and password for basic authentication.Create a communication arrangement to enable access to the SAP S/4HANA Public Cloud API.Create an SAP S/4HANA integration profile to track software subscriptions and optimize licensing for your SAP S/4HANA applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/saas-license-management/integrate-with-hana.html
 release: zurich
 product: SaaS License Management
 classification: saas-license-management
@@ -36,7 +37,7 @@ Create a communication system and an inbound user to enable access to the SAP S/
 
 ### Before you begin
 
-The SAP S/4HANA Public Cloud Integration Hub spoke must be active. For more information, see [SAP S4 HANA Public Cloud Spoke](https://www.servicenow.com/docs/access?context=sap-s4-hana-cloud-spk&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+The SAP S/4HANA Public Cloud Integration Hub spoke must be active. For more information, see .
 
 SAP S/4HANA Role required: Business user
 
@@ -132,7 +133,7 @@ For publishing the integration profile, change the application scope to **Global
 
 ServiceNow Role required: sam\_integrator
 
-**Important:** You must select the **Software Asset Management integration with SAP S4Hana Cloud** check box for this integration while installing optional features on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **Software Asset Management integration with SAP S4Hana Cloud** check box for this integration while installing optional features on the  page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### About this task
 
@@ -142,15 +143,15 @@ If you’re using Software Asset Workspace, the option to create the SAP S/4HANA
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d50274e658">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d52094e656">
 
 Interface
 
-</th><th align="left" id="d50274e661">
+</th><th align="left" id="d52094e659">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d50274e667">
+</th></tr></thead><tbody><tr><td id="d52094e665">
 
 **Core UI**
 
@@ -161,7 +162,7 @@ Action
 3.  Select **SAP S4Hana Cloud Integration Profile**.
 
 
-</td></tr><tr><td id="d50274e709">
+</td></tr><tr><td id="d52094e707">
 
 **Software Asset Workspace**
 
@@ -213,7 +214,7 @@ Type of integration profile. This field is automatically set to **SAP S4Hana Clo
 </td></tr></tbody>
 </table>3.  Review the required user roles or API permissions specified in the **Vendor configuration** field for each process to minimize security risks and optimize SaaS licenses.
 
-    For more information about the required roles and scopes, see [Minimal user permissions table](integrate-with-hana.md#).
+    For more information about the required roles and scopes, see [Minimal user permissions table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-hana.md).
 
 4.  In the Download Subscription Subflow section, verify that the **Subflow** field is set to **SAP S4Hana Public Cloud Download Subscriptions**.
 
@@ -225,7 +226,7 @@ Type of integration profile. This field is automatically set to **SAP S4Hana Clo
 
     The **Connection &amp; Credential** field appears and is automatically set to **sn\_s4\_hana\_cld\_spk.SAP\_S4\_HANA\_Cloud**.
 
-6.  Open the connection &amp; credential aliases record by selecting the preview icon ![](../image/preview-icon.png) beside the **Connection &amp; Credential** field.
+6.  Open the connection &amp; credential aliases record by selecting the preview icon \[Omitted image "preview-icon.png"\] beside the **Connection &amp; Credential** field.
 
 7.  Select **Open Record** in the record preview.
 
@@ -265,11 +266,11 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](../reuse/create-child-alias-saas.md).
+If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](../task/track-software-rights.md).
--   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](../task/create-entitlements-workspace.md).
--   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](../task/guidedwalk-workspace.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-entitlements-workspace.md).
+-   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 

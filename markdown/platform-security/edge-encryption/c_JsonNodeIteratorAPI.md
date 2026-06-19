@@ -2,6 +2,7 @@
 title: JsonNodeIterator
 description: You get a JsonNodeIterator object by calling the getIterator\(\) or iterator\(\) methods of the JsonNode class.Determines if there is another property available.Returns the next property in the iterator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/c\_JsonNodeIteratorAPI.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -15,7 +16,7 @@ breadcrumb: [JSON APIs, Encryption rule objects and APIs, Define a custom encryp
 
 You get a JsonNodeIterator object by calling the getIterator\(\) or iterator\(\) methods of the JsonNode class.
 
-**Parent Topic:**[JSON APIs](json-overview.md)
+**Parent Topic:**[JSON APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/json-overview.md)
 
 ## JsonNodeIterator - hasNext\(\)
 

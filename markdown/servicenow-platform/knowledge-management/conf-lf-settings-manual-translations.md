@@ -2,6 +2,7 @@
 title: Add a custom Localization Framework setting to enable bulk translations
 description: Add a custom Localization Framework setting to translate multiple knowledge articles manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/conf-lf-settings-manual-translations.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -17,9 +18,9 @@ Add a custom Localization Framework setting to translate multiple knowledge arti
 
 ## Before you begin
 
--   [Activate the Knowledge Management Advanced plugin](../task/activate-knowledge-advanced-plugin.md).
--   [Activate Localization Framework](https://www.servicenow.com/docs/access?context=activate-lf-plugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
--   [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+-   [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md).
+-   Activate Localization Framework.
+-   Activate a language.
 -   Bulk Translation is available with the base Zurich release. If you are upgrading from a previous release, you must configure the following settings:
     -   Enable the Localization Framework by setting the **glide.knowman.translation.enable\_lf\_article\_translation** system property to true.
     -   Set the **glide.knowman.translation.enable\_translation\_task** system property to false.
@@ -47,7 +48,7 @@ Role required: admin
 
 9.  Enable the creation of bulk translation localization projects.
 
-    -   To enable manual creation, select **Enable projects**. For more information, see [Create translation projects](https://www.servicenow.com/docs/access?context=projects-localization-framework&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    -   To enable manual creation, select **Enable projects**. For more information, see .
     -   To enable the auto-creation of the localization projects, select **Enable projects** and **Enable auto creation**.
 
         If auto creation is enabled, selected localization requested items \(LRITMs\) are automatically bundled into a single localization project.
@@ -57,7 +58,7 @@ Role required: admin
 
 ## What to do next
 
-[Request bulk translations for multiple knowledge articles](bulk-translations-step.md).
+[Request bulk translations for multiple knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/bulk-translations-step.md).
 
-**Parent Topic:**[Configure translation management](configure-translation-management.md)
+**Parent Topic:**[Configure translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/configure-translation-management.md)
 

@@ -2,6 +2,7 @@
 title: Expiration rules for source records
 description: Expiration rules are basically helpful to set the expiration time for the source records. The aggregate record inherits the highest expiration time from its corresponding sources records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-expiration-source.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -38,12 +39,12 @@ Expiration rules are basically helpful to set the expiration time for the source
     3.  Finally, if none of the above rules exist, it defaults to a rule where both data source type and record type are **All**.
 5.  If none of these rules exist in the system, then no expiration rule will be applied to the source records. In that case, navigate to the below table \(shown in the screenshot\) to check the combination of rules that were applied to the objects.
 
-    ![Expiration Rules for Source Records.](../image/tisc-config-expiration-rule.png)
+    \[Omitted image "tisc-config-expiration-rule.png"\] Alt text: Expiration Rules for Source Records.
 
 6.  **Deletion of data sources:**
 
     Suppose, if a data source that has the expiration rules associated with it is deleted, then the deletion may be restricted or not allowed until these rules are addressed. This ensures that there are no inconsistencies in the application of expiration policies.
 
 
-**Parent Topic:**[Defining Expiration Rules](../task/tisc-expiration-rules.md)
+**Parent Topic:**[Defining Expiration Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-expiration-rules.md)
 

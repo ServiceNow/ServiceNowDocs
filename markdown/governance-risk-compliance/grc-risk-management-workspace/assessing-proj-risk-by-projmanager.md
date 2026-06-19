@@ -2,6 +2,7 @@
 title: Assess project risks using Advanced Risk Assessment
 description: Assess the project risks by responding to predefined factors or questions. Arrive at a risk score for the project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/assessing-proj-risk-by-projmanager.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -28,7 +29,7 @@ A risk assessor can do the following:
 -   Assess the risks that were added for a project.
 -   Decide if the risks must be elevated to enterprise risks.
 
-To understand how to assess risks on a risk assessment instance and how to respond to the questions, refer to [Understanding the risk assessment instance](../concept/understanding-risk-assessment-instance.md).
+To understand how to assess risks on a risk assessment instance and how to respond to the questions, refer to [Understanding the risk assessment instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/understanding-risk-assessment-instance.md).
 
 ## Procedure
 
@@ -65,7 +66,7 @@ To understand how to assess risks on a risk assessment instance and how to respo
 
 ## What to do next
 
-[Elevate a project risk to enterprise risk](Elevating-a-risk.md).
+[Elevate a project risk to enterprise risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/Elevating-a-risk.md).
 
-**Parent Topic:**[Project Risk Assessment using Advanced Risk Assessment](../concept/risk-and-ppm-better-together.md)
+**Parent Topic:**[Project Risk Assessment using Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/risk-and-ppm-better-together.md)
 

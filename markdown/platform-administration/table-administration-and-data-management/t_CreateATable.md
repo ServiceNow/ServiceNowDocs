@@ -2,6 +2,7 @@
 title: Create a table
 description: Administrators and application developers can create custom tables to store application data. After you create a table, you can also modify field types and field labels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/t\_CreateATable.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -19,13 +20,13 @@ Administrators and application developers can create custom tables to store appl
 
 Role required: admin
 
-Check your custom table entitlements before creating custom tables. See [Managing custom tables and applications in Subscription Management](../../subscription-management/concept/allocating-custom-tables-subscr-apps-v2.md).
+Check your custom table entitlements before creating custom tables. See [Managing custom tables and applications in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/allocating-custom-tables-subscr-apps-v2.md).
 
 ## About this task
 
-ServiceNow AI Platform application subscriptions include custom table entitlements. You can create custom tables for any purpose, up to the entitlement limit in the subscription. To learn more about how your usage administrator maps the custom tables that you create to subscriptions, see [Map custom tables to a product subscription in Subscription Management](../../subscription-management/task/allocate-custom-table-subsc-app-v2.md).
+ServiceNow AI Platform application subscriptions include custom table entitlements. You can create custom tables for any purpose, up to the entitlement limit in the subscription. To learn more about how your usage administrator maps the custom tables that you create to subscriptions, see [Map custom tables to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/allocate-custom-table-subsc-app-v2.md).
 
-**Note:** It is best to create tables when building applications with tools. To learn more, see [Building applications](https://www.servicenow.com/docs/access?context=build-applications&version=zurich&pubname=zurich-application-development&ft:locale=en-US). To minimize the existence of unneeded and extraneous tables in an instance, don't overdo table creation. Create only those tables you need to minimize administration tasks and shorten upgrade times. Do not extend the \[sys\_choice\] table. Extending the \[sys\_choice\] table is not supported.
+**Note:** It is best to create tables when building applications with tools. To learn more, see . To minimize the existence of unneeded and extraneous tables in an instance, don't overdo table creation. Create only those tables you need to minimize administration tasks and shorten upgrade times. Do not extend the \[sys\_choice\] table. Extending the \[sys\_choice\] table is not supported.
 
 ## Procedure
 
@@ -49,7 +50,7 @@ Label
 
 </td><td>
 
-Enter a unique label for the table \(such as **Laptops** or **Thin Clients**\). The label appears on list and form views for the table. Updating the **Label** field also updates the label record in the language file for the current language. See Field Labels in [Data dictionary tables](../../managing-data/concept/c_DataDictionaryTables.md).
+Enter a unique label for the table \(such as **Laptops** or **Thin Clients**\). The label appears on list and form views for the table. Updating the **Label** field also updates the label record in the language file for the current language. See Field Labels in [Data dictionary tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_DataDictionaryTables.md).
 
 </td></tr><tr><td>
 
@@ -93,9 +94,9 @@ Option to designate this table as a remote table. A remote table is a table to w
 
  **Note:** To learn more about scriptable tables, see:
 
--   [Retrieving and caching external data using remote tables](https://www.servicenow.com/docs/access?context=remote-tables&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
--   [Create a remote table](https://www.servicenow.com/docs/access?context=create-remote-table&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
--   [Create a script definition for a remote table](https://www.servicenow.com/docs/access?context=create-remote-table-script&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+-   Retrieving and caching external data using remote tables
+-   Create a remote table
+-   Create a script definition for a remote table
 
 
 </td></tr><tr><td>
@@ -141,7 +142,7 @@ Type
 
 </td><td>
 
-\[Mandatory\] Define the field type for the column. See [Field administration](../../reference-pages/concept/c_IntroductionToFields.md) and [Field types](../../reference-pages/reference/r_FieldTypes.md). To preserve existing data, only change fields between the same basic type \(for example, **Choice** and **String**\). A warning appears if a change to a custom field results in data loss. You cannot change a base system field, that results in data loss.
+\[Mandatory\] Define the field type for the column. See [Field administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_IntroductionToFields.md) and [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/r_FieldTypes.md). To preserve existing data, only change fields between the same basic type \(for example, **Choice** and **String**\). A warning appears if a change to a custom field results in data loss. You cannot change a base system field, that results in data loss.
 
 </td></tr><tr><td>
 
@@ -149,7 +150,7 @@ Reference
 
 </td><td>
 
-Make the field into a [Reference field type](../../field-administration/concept/c_ReferenceField.md) by entering the referenced table name.
+Make the field into a [Reference field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_ReferenceField.md) by entering the referenced table name.
 
  **Note:** Dynamic reference creation is enabled for this field. So, if you enter a table name that does not match an existing table, a new table is created when you save changes to the current table record. If the current table has a module in the application navigator, then a module for the newly created table is automatically created in the same application menu.
 
@@ -174,7 +175,7 @@ Default value
 
 </td><td>
 
-Specify the default value of the field for any new record. Ensure that this value uses the correct field type. For example, an integer field can use a default value of 2 but cannot use a default value of two. These values can be overridden with [dictionary overrides](../../data-dictionary-tables/concept/c_DictionaryOverrides.md).
+Specify the default value of the field for any new record. Ensure that this value uses the correct field type. For example, an integer field can use a default value of 2 but cannot use a default value of two. These values can be overridden with [dictionary overrides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_DictionaryOverrides.md).
 
 </td></tr><tr><td>
 
@@ -182,7 +183,7 @@ Display
 
 </td><td>
 
-Indicate whether this field is the [Display values](../../field-administration/concept/c_DisplayValues.md) \(appears on records that reference this table\).
+Indicate whether this field is the [Display values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_DisplayValues.md) \(appears on records that reference this table\).
 
  **Note:** This option does not control whether this field is displayed on lists or forms.
 
@@ -192,14 +193,14 @@ Indicate whether this field is the [Display values](../../field-administration/c
     |Control|Description|
     |-------|-----------|
     |Extensible|Select the check box to enable other tables to extend this table. Clear the check box to prevent the creation of additional child tables; existing child tables remain unchanged.|
-    |Live feed|Select the check box to enable record feeds for the table. This option adds the **Show Live Feed** icon \(![Show Live Feed icon](../image/LiveCompanyFeed.png)\) in the form header.|
+    |Live feed|Select the check box to enable record feeds for the table. This option adds the **Show Live Feed** icon \(\[Omitted image "LiveCompanyFeed.png"\] Alt text: Show Live Feed icon\) in the form header.|
     |Auto-number|Select the check box, and then define the number format to add an auto-numbered field to the table. The check box is available only when a number format does not exist for the table. Otherwise, you can edit the existing number format.|
     |Create access controls|Select the check box and then complete the **User role** field to create basic security rules for the table.|
     |User role|Enter a new name or select an existing user role that is required to access this table. This option is available only when the **Create access controls** check box is selected.|
 
 6.  In the **Application Access** section, define the scope protection for the table.
 
-    For more information, see [Application access settings](https://www.servicenow.com/docs/access?context=c_ApplicationAccessSettings&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+    For more information, see Application access settings.
 
 <table id="table_xwp_pny_wt"><thead><tr><th>
 
@@ -269,7 +270,7 @@ Allow access to this table via web services
 
 </td><td>
 
-Select the check box to enable users to make inbound [Web services](https://www.servicenow.com/docs/access?context=r_AvailableWebServices&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) web service queries to this table. This option offers both design-time and runtime protection. The user performing the query must have the correct permissions to access this table, even when this check box is selected.
+Select the check box to enable users to make inbound Web services web service queries to this table. This option offers both design-time and runtime protection. The user performing the query must have the correct permissions to access this table, even when this check box is selected.
 
  Clear the check box to prevent users from making web service queries to this table.
 
@@ -292,10 +293,10 @@ Select the check box to enable applications from other application scopes to cre
 To change the field labels in your table or the label of the table itself, perform the following task:
 
 1.  Navigate to the Field Label \[sys\_documentation\] table, and filter the table to show the table that has the fields you want to change. To find the label that represents the table itself, filter the records where **Element** is empty.
-2.  Open the field record that you want to change, and make your updates. For a description of each field, see [Field Label table](../../localization/reference/r_FieldLabelTable.md).
+2.  Open the field record that you want to change, and make your updates. For a description of each field, see [Field Label table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/r_FieldLabelTable.md).
 
--   **[Global default fields](../../../build/applications/reference/r_GlobalDefaultFields.md)**  
+-   **[Global default fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/r_GlobalDefaultFields.md)**  
 When you create a new custom table, several fields appear in the **Table Columns** embedded list. For all tables, required system fields are added automatically. You cannot delete or modify these fields.
 
-**Parent Topic:**[Managing tables and indexes](../concept/using-table-administration.md)
+**Parent Topic:**[Managing tables and indexes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/using-table-administration.md)
 

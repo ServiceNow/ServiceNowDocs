@@ -2,6 +2,7 @@
 title: View and manage Walk-up Experience appointments in Agent Workspace
 description: Viewing upcoming scheduled Walk-up Experience appointments provides technicians with an estimate of future queue demand and workload. Managers can view future appointments and adjust staffing at walk-up queue locations to best support demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/walk-up-experience/view-manage-walkup-appointments.html
 release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -45,21 +46,21 @@ Upcoming appointments also display with a small calendar icon next to the user n
 
 4.  Click an appointment number to view details, such as the requester name, the interaction number and description, and the appointment time.
 
-    1.  To open the associated interaction to view details, click the open record icon ![open record icon](../../../common/image/Form_ReferenceLookupIcon.png) next to the interaction number.
+    1.  To open the associated interaction to view details, click the open record icon \[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text: open record icon next to the interaction number.
 
     2.  Click **Accept appointment** to begin working on the interaction.
 
         If necessary, you can assign the appointment to another agent and add work notes.
 
-        If a significant time has passed and the requester does not show up for the appointment, you can delete the appointment by clicking the more UI actions icon ![more UI actions icon](../../../common/image/Form_MoreOptions.png) in the interaction header and selecting **Delete**.
+        If a significant time has passed and the requester does not show up for the appointment, you can delete the appointment by clicking the more UI actions icon \[Omitted image "Form\_MoreOptions.png"\] Alt text: more UI actions icon in the interaction header and selecting **Delete**.
 
     3.  Select **Save**.
 
 
--   **[Work on Walk-up interaction](work-on-walk-up-interaction.md)**  
+-   **[Work on Walk-up interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/work-on-walk-up-interaction.md)**  
 Manage your Walk-up appointments in Agent Workspace.
--   **[Create an appointment through incident](walkup-create-appointment-through-incident.md)**  
+-   **[Create an appointment through incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walkup-create-appointment-through-incident.md)**  
 Schedule an appointment on behalf of a requester through an incident record.
 
-**Parent Topic:**[Manage Walk-up Experience queue and interaction](../concept/use-walkup-to-manage-demand.md)
+**Parent Topic:**[Manage Walk-up Experience queue and interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
 

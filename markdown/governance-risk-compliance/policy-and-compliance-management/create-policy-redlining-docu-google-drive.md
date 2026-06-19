@@ -2,6 +2,7 @@
 title: Create and associate a policy text document in Google Drive
 description: Create a policy text document in Google Drive and enable document editing with the approvers, reviewers, and contributors. You can share the document with your stakeholders and collaborate on the document editing in real-time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/create-policy-redlining-docu-google-drive.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -23,13 +24,13 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
+1.  Navigate to **Workspace** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the List icon \(![Lists icon.](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the Compliance Workspace, select the \[Omitted image "lists-icon.png"\] Alt text: List Icon icon.
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 
-    You can [create a new policy](../../grc-workspace-compliance/task/create-policy-ws.md) or open a record to enable the redlining feature.
+    You can [create a new policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/create-policy-ws.md) or open a record to enable the redlining feature.
 
 4.  Select a policy to open.
 
@@ -43,7 +44,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
     3.  Copy the shareable folder link from Google Drive and paste it in the **Folder link** field in the Create a document pop-up.
 
-        To get the folder link, right-click the folder in Google Drive, select the ![More actions icon](../../../reuse/icons/product-icons/ellipsis-vertical-outline-24.svg) icon. Select **Share** and **Copy link**.
+        To get the folder link, right-click the folder in Google Drive, select the More icon. Select **Share** and **Copy link**.
 
     4.  Enter the name of the document in the **Document name** field.
 
@@ -87,10 +88,10 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
 14. Select the **Complete publishing checklist** button.
 
-    If all reviews are complete, then as a policy owner you can complete the publishing process. This action creates a playbook. The policy owner must go through the publishing checklist before requesting approval. See, [Complete publishing checklist for the policy and request approval](complete-publishing-checklist-redlining.md).
+    If all reviews are complete, then as a policy owner you can complete the publishing process. This action creates a playbook. The policy owner must go through the publishing checklist before requesting approval. See, [Complete publishing checklist for the policy and request approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/complete-publishing-checklist-redlining.md).
 
 15. To view the history of the policy, select the Policy history related list.
 
-    For more information, see [View the history of a redlining-enabled policy](view-history-policy-redlining.md).
+    For more information, see [View the history of a redlining-enabled policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/view-history-policy-redlining.md).
 
 

@@ -2,6 +2,7 @@
 title: Link the insurance product model and claim case service definition
 description: Link the insurance product model and claim case service definition by using the Insurance claims application. Without this link, the system doesn’t know which policies are relevant to the case service definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/link-the-insurance-product-model-and-service-definition.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims
@@ -44,5 +45,5 @@ After creating an insurance product model and a claim case service definition, y
 
 Associate another product model by repeating steps 3–5.
 
-**Parent Topic:**[Creating a service definition for Insurance claims](../concept/create-service-definitions-for-insurance-claims.md)
+**Parent Topic:**[Creating a service definition for Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/create-service-definitions-for-insurance-claims.md)
 

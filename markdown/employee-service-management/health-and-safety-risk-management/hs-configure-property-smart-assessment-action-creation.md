@@ -2,6 +2,7 @@
 title: Configure creating actions from smart assessment questionnaire
 description: You can configure the property that enables you to create actions for the smart assessment questionnaire. This action creation can be enabled for one or more questions as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-risk-management/hs-configure-property-smart-assessment-action-creation.html
 release: zurich
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -25,18 +26,18 @@ Role required: sn\_hs\_rm.safety\_inspection\_manager or admin
 
 2.  In the property **Smart assessment fields enables for action creation. Please mention the sys\_id of the questions for which we need to have the in-line action enabled**, enter the sys\_id for each question that needs action creation enabled.
 
-    For information on how to access the sys\_id, see [Unique record identifier \(sys\_id\)](https://www.servicenow.com/docs/access?context=c_UniqueRecordIdentifier&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    For information on how to access the sys\_id, see .
 
 3.  Select **Save**.
 
 
 ## Result
 
--   The **More actions** icon \(![More icon](../../human-resources/image/agent-workspace-more-ui-actions-icon.jpg)\) appears for configured questions in a smart assessment questionnaire and when selected, shows the **Actions list** button.
+-   The **More actions** icon \(\[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: More icon\) appears for configured questions in a smart assessment questionnaire and when selected, shows the **Actions list** button.
 -   In the **Assessment action list** page within a smart assessment, selecting **More actions** again shows the **Create action** button, which enables users to add actions or findings for that question.
 
-    For more information on creating action or findings, see [Create actions or findings for the smart assessment questionnaire](../../hs-health-safety-mobile/task/hs-create-actions-findings-smart-assessments.md).
+    For more information on creating action or findings, see [Create actions or findings for the smart assessment questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-create-actions-findings-smart-assessments.md).
 
 
-**Parent Topic:**[Setting up Health and Safety Risk Management](../concept/hs-setting-up-risk-mgmt.md)
+**Parent Topic:**[Setting up Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)
 

@@ -2,11 +2,12 @@
 title: Onboard Harness to DevOps Change Velocity - Workspace
 description: Connect to your Harness instance using the DevOps Change Workspace playbook to discover pipelines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/onboard-harness-to-devops-change-velocity.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Harness, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -17,7 +18,7 @@ Connect to your Harness instance using the DevOps Change Workspace playbook to d
 
 ## Before you begin
 
-Complete the tasks specified in the [Getting started with DevOps Change Velocity](../concept/setting-up-devops-change-velocity.md) topic.
+Complete the tasks specified in the [Getting started with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md) topic.
 
 Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
@@ -25,15 +26,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Harness.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d194211e86">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d128835e86">
 
 Option
 
-</th><th align="left" id="d194211e89">
+</th><th align="left" id="d128835e89">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d194211e95">
+</th></tr></thead><tbody><tr><td id="d128835e95">
 
 **Homepage**
 
@@ -43,25 +44,25 @@ Steps
 2.  From the Connect to a tool modal, select the tool from the appropriate category. For example, if you want to connect to Harness as orchestration tool, you'd select Harness under the **Orchestration** category.
 
 
-</td></tr><tr><td id="d194211e119">
+</td></tr><tr><td id="d128835e119">
 
 **Applications module**
 
 </td><td>
 
-1.  Select **Applications** \(![Applications icon.](../image/applications-icon.png)\) from the primary navigation.
-2.  Select an existing application, or create one. To create an application, see [Create an application - Workspace](app-create-workspace.md).
+1.  Select **Applications** \(\[Omitted image "applications-icon.png"\] Alt text: Applications icon.\) from the primary navigation.
+2.  Select an existing application, or create one. To create an application, see [Create an application - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/app-create-workspace.md).
 3.  From the  Recommended actions  pane, select the  **Connect a tool ** card.
 4.  From the Connect to a tool modal, select the tool from the appropriate category. For example, if you want to connect to Harness as orchestration tool, you'd select Harness under the **Orchestration** category.
 
 
-</td></tr><tr><td id="d194211e168">
+</td></tr><tr><td id="d128835e168">
 
 **Tools module**
 
 </td><td>
 
-1.  Select **Tools** \(![Tools icon.](../image/tools-icon-wkspc.png)\) from the primary navigation.
+1.  Select **Tools** \(\[Omitted image "tools-icon-wkspc.png"\] Alt text: Tools icon.\) from the primary navigation.
 2.  From the Capability list, select the appropriate category. For example, if you want to connect to Harness as orchestration tool, you'd select the **Orchestration** category.
 3.  Select **Connect a tool**.
 4.  On the  Connect to a tool  modal, select **Harness**.
@@ -72,7 +73,7 @@ Steps
 
 2.  In the **Tool name** field, enter a name for the tool.
 
-    ![Connect to Harness tool screen](../image/harness-workspace-01.png)
+    \[Omitted image "harness-workspace-01.png"\] Alt text: Connect to Harness tool screen
 
 3.  Select **Next**.
 
@@ -88,11 +89,11 @@ Steps
 
     3.  If your Harness instance is attached to a MID Server, select the **MID Server** option and enter its details.
 
-        For more information about MID server, see [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+        For more information about MID server, see MID Server selection
 
     4.  Select **Connect**.
 
-        ![Connect to a tool - Enter instance details page](../image/harness-workspace-2.png)
+        \[Omitted image "harness-workspace-2.png"\] Alt text: Connect to a tool - Enter instance details page
 
 5.  Specify the access for the tool.
 
@@ -113,7 +114,7 @@ Steps
     3.  Select **Assign**.
 6.  In the Configure webhooks manually screen, copy the ServiceNow instance connection details for Harness.
 
-    ![Configure webhooks manually screen](../image/harness-workspace-3.png)See [Configure webhooks in Harness manually](configure-webhooks-in-harness-manually.md) for more information.
+    \[Omitted image "harness-workspace-3.png"\] Alt text: Configure webhooks manually screenSee [Configure webhooks in Harness manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/configure-webhooks-in-harness-manually.md) for more information.
 
 7.  Select the pipelines that you want to track and associate to the application, and select **Associate pipelines**.
 
@@ -138,7 +139,7 @@ Steps
 
 You’ve successfully onboarded your Harness tool to DevOps Change Velocity.
 
-**Note:** If your tool credential changes, you must also update the credentials in DevOps Change. For more information, see [Update third-party tool credentials in DevOps Change Velocity](update-third-party-tool-credentials-in-devops-change-velocity.md).
+**Note:** If your tool credential changes, you must also update the credentials in DevOps Change. For more information, see [Update third-party tool credentials in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/update-third-party-tool-credentials-in-devops-change-velocity.md).
 
-**Parent Topic:**[Harness integration with DevOps Change Velocity](../concept/harness-integration-with-devops-change-velocity.md)
+**Parent Topic:**[Harness integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/harness-integration-with-devops-change-velocity.md)
 

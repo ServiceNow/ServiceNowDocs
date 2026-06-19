@@ -2,6 +2,7 @@
 title: Flow and subflow stages
 description: Communicate the current stage of a request, flow, or subflow with an end user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/flow-designer-stages.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -20,7 +21,7 @@ When configuring stages in Workflow Studio, you can:
 -   Add stages to a flow or subflow
 -   Change stage labels and names.
 -   Configure the estimated duration for a stage.
--   Import a copy of a pre-defined stage set from the Stage Sets table. To learn more about stage sets, see [Workflow stage sets](../../using-workflows/concept/c_WorkflowStageSets.md#). Any changes made to the copy do not affect the original stage set record.
+-   Import a copy of a pre-defined stage set from the Stage Sets table. To learn more about stage sets, see [Workflow stage sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/c_WorkflowStageSets.md). Any changes made to the copy do not affect the original stage set record.
 
 You can view the stages of a flow or subflow from its execution details.
 
@@ -66,7 +67,7 @@ Service Catalog
 
 </td><td>
 
-If using the [Service Catalog trigger](../task/create-sc-flow.md), the flow must be associated with the Service Catalog item through the **Flow** field. Remove any workflows associated with the item by clearing the **Workflow** and **Execution Plan** fields. The **Stage** field displays the current stage state on any list view of the Requested Items \[sc\_req\_item\] table.
+If using the [Service Catalog trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-sc-flow.md), the flow must be associated with the Service Catalog item through the **Flow** field. Remove any workflows associated with the item by clearing the **Workflow** and **Execution Plan** fields. The **Stage** field displays the current stage state on any list view of the Requested Items \[sc\_req\_item\] table.
 
 </td></tr></tbody>
 </table>**Note:** While you can add stages to a flow that has a scheduled trigger, the stages are never displayed to an end user because there is no associated trigger record for the stage field. Only add stages to flows and subflows that have a trigger or input record.
@@ -142,7 +143,7 @@ This stage has reached an error condition.
 
 ## Seeing subflow stages in a parent flow
 
-![List of parent flow stages including the Manager Approval, Fulfillment Subflow stages, and Completed stages.](../images/example-subflow-stages-05-parent-flow-stages.png "Sample flow and subflow stages")
+\[Omitted image "example-subflow-stages-05-parent-flow-stages.png"\] Alt text: List of parent flow stages including the Manager Approval, Fulfillment Subflow stages, and Completed stages.
 
 The Flow Stages dialog box can display subflow stages from a parent flow. Use the **Show Subflow Stages** option when configuring a subflow to include subflow stages in the parent flow.
 
@@ -194,10 +195,10 @@ Follow these general guidelines when creating flows or subflows with stages.
     Use a conditional flow logic block to identify when a flow enters the error stage. Use the flow logic to stop processing the flow or take some kind of remediation action. For example, you may want to change the record state or assignment when a flow reaches an error state.
 
 
--   **[Configure stages and add them to a flow](../task/add-stages.md)**  
+-   **[Configure stages and add them to a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/add-stages.md)**  
 Configure when stages display to a user, define stage state labels, and add stages to a flow or subflows within Workflow Studio.
--   **[Show subflow stages in a parent flow](../task/show-subflow-stages-in-a-parent-flow.md)**  
+-   **[Show subflow stages in a parent flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/show-subflow-stages-in-a-parent-flow.md)**  
 Show subflow stages as part of the execution details of a parent flow.
 
-**Parent Topic:**[Building flows](flows.md)
+**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flows.md)
 

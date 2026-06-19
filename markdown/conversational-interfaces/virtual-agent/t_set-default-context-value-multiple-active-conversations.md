@@ -2,6 +2,7 @@
 title: Set a default NLU context value for multiple active conversations
 description: Use consumer account context values to define where Virtual Agent messages are directed by default when using the multiple active conversations feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/t\_set-default-context-value-multiple-active-conversations.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -18,15 +19,15 @@ Use consumer account context values to define where Virtual Agent messages are d
 
 ## Before you begin
 
-Define values for portal consumer contexts. For more information, see [Set NLU portal consumer context values for multiple active conversations](t_set-portal-consumer-context-values-multiple-active-conversations.md).
+Define values for portal consumer contexts. For more information, see [Set NLU portal consumer context values for multiple active conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/t_set-portal-consumer-context-values-multiple-active-conversations.md).
 
-Configure context values that align Virtual Agent and your portals. See [Configure Agent Chat in a portal](https://www.servicenow.com/docs/access?context=configure-va-in-sp&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) for more information.
+Configure context values that align Virtual Agent and your portals. See  for more information.
 
 Role required: virtual\_agent\_admin or admin.
 
 ## About this task
 
-You can create as many context values as you need. One consumer account context must always be set to `Yes` to provide a default content area. The default acts as a fallback for the chat widget when the portal setup doesn’t include context. The default is also used as the context for mobile conversations, which only support one conversation at a time. Context values are stored in the Conversation Consumer Account Context \[sys\_cs\_consumer\_account\_context\] table. \(The CS Consumer Account \[sys\_cs\_consumer\_account\] table [Installed with Virtual Agent](../reference/installed-wth-virtual-agent.md) shows whether third-party users in your instance have a context assigned to them.\)
+You can create as many context values as you need. One consumer account context must always be set to `Yes` to provide a default content area. The default acts as a fallback for the chat widget when the portal setup doesn’t include context. The default is also used as the context for mobile conversations, which only support one conversation at a time. Context values are stored in the Conversation Consumer Account Context \[sys\_cs\_consumer\_account\_context\] table. \(The CS Consumer Account \[sys\_cs\_consumer\_account\] table [Installed with Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/installed-wth-virtual-agent.md) shows whether third-party users in your instance have a context assigned to them.\)
 
 **Note:** These instructions are for configuring Natural Language Understanding \(NLU\) conversations. Large Language Model \(LLM\) conversations are configured for multiple active conversations based on portals, with no configuration necessary.
 
@@ -80,7 +81,7 @@ Option to make this context value the default for your Virtual Agent conversatio
 
 ## What to do next
 
-Activate the multiple active conversations system. For more information, see [Activate multiple active conversations in Virtual Agent](t_activate-multiple-active-conversations-va.md).
+Activate the multiple active conversations system. For more information, see [Activate multiple active conversations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/t_activate-multiple-active-conversations-va.md).
 
-**Parent Topic:**[Using multiple active conversations in Virtual Agent](../concept/c_multiple-active-conversations-va.md)
+**Parent Topic:**[Using multiple active conversations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/c_multiple-active-conversations-va.md)
 

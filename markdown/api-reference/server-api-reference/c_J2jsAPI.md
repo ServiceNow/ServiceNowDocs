@@ -2,6 +2,7 @@
 title: j2js - Global
 description: The j2js script include enables you to convert Java objects to JavaScript objects.Converts a Java object from system code to a JavaScript object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_J2jsAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -37,7 +38,7 @@ The specific conversion performed in the order they are checked.
 
 Conversions are performed recursively on the elements of arrays, lists, or collections. For example, given a Java ArrayList of ArrayLists of strings, this will return a JavaScript Array of Arrays of strings.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## j2js - j2js\(Object javaObject\)
 

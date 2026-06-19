@@ -2,6 +2,7 @@
 title: Manage CI details using CI Form in Service Graph Workspace
 description: Use CI Form in Service Graph Workspace or in another workspace, to view, edit, and manage details of a CI such as its attributes, related lists, and CMDB 360 records. When updating CIs, IRE rules are applied to avoid potential issues such as duplicate CIs. CI Form supports derivation of form configurations throughout the CMDB hierarchy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/ci-form-sg-workspace.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -19,8 +20,8 @@ The CI Form feature is a centralized location with a comprehensive set of CI det
 
 General operations you can perform in CI Form:
 
--   Select the Now Assist for CMDB CI Summarization skill: Requires that Now Assist for CMDB is set up. For more information, see [Configure the CI summarization skill](../task/now-assist-cmdb-config-ci-summary.md).
--   Select **Open map** to open the CI map in [Unified Map](cmdb-workspace-unified-map.md). This function isn't available for a non-operational CI. For information about using the **Life cycle stage** attribute to define a CI's operational state, see [Configure CIs to appear based on life cycle stage value](../task/unified-map-confg-operational-state.md).
+-   Select the Now Assist for CMDB CI Summarization skill: Requires that Now Assist for CMDB is set up. For more information, see [Configure the CI summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-config-ci-summary.md).
+-   Select **Open map** to open the CI map in [Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/unified-map/cmdb-workspace-unified-map.md). This function isn't available for a non-operational CI. For information about using the **Life cycle stage** attribute to define a CI's operational state, see [Configure CIs to appear based on life cycle stage value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/unified-map/unified-map-confg-operational-state.md).
 
 In general, a CMDB Admin and a CMDB Editor can view and edit CI records, and a CMDB User can view CI details on the form.
 
@@ -36,7 +37,7 @@ You can control the use and content of CI Form as follows:
 
 -   Set system property **sn\_cmdb\_ws.explore\_ci.record.enabled**:
 
-    This property toggles the use of CI Form when viewing CI records in Service Graph Workspace, or in another workspace, if applicable. This property is set to **true** by default, enabling the experience of CI Form. For more information about this property, see [Components installed with Service Graph Workspace](../reference/installed-with-sg-workspace.md).
+    This property toggles the use of CI Form when viewing CI records in Service Graph Workspace, or in another workspace, if applicable. This property is set to **true** by default, enabling the experience of CI Form. For more information about this property, see [Components installed with Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/installed-with-sg-workspace.md).
 
 -   Configure the Explore CI view:
 
@@ -44,7 +45,7 @@ You can control the use and content of CI Form as follows:
 
     -   Select **Configure attributes** to modify the Summary and Attributes sections on the form, in Form Builder. For example, to add sections, modify section titles or the attributes included in sections: Requires the personalize\_form user role.
 
-        For more information about Form Builder and Table Builder, see [Forms in Table Builder](https://www.servicenow.com/docs/access?context=form-view-configuration&version=zurich&pubname=zurich-application-development&ft:locale=en-US) and [Add fields to a form layout in Table Builder](https://www.servicenow.com/docs/access?context=add-form-fields&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+        For more information about Form Builder and Table Builder, see  and .
 
     -   Select **Configure resources** to modify the Resources section on the form. For example, to add or remove subsections or items within subsections: Requires the personalize\_list user role.
 
@@ -57,7 +58,7 @@ Several key attributes are preconfigured to be highlighted on a CI form when spe
 
 To see those preconfigured highlight records that are used in CI Form and in various other Service Graph Workspace features, navigate to **All** &gt; **Workspace Experience** &gt; **Administration** &gt; **Highlighted Values**.
 
-For more information about configuring attribute highlights in the ServiceNow AI Platform, see [Highlight list fields](https://www.servicenow.com/docs/access?context=highlight-list-fields-platform&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For more information about configuring attribute highlights in the ServiceNow AI Platform, see .
 
 ## Summary
 
@@ -87,10 +88,10 @@ A CI that is updated in CI Form, has its **discovery\_source** attribute set to 
 
 More information:
 
--   [Identification and Reconciliation engine \(IRE\)](ire.md)
--   [Reconciliation rules](../reference/r_ReconciliationRulesPrinciples.md)
--   [Identification rules](c_IdentificationRules.md)
--   [Mandatory attributes](../task/t_SetCIFieldMandatory.md)
+-   [Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ire.md)
+-   [Reconciliation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/r_ReconciliationRulesPrinciples.md)
+-   [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_IdentificationRules.md)
+-   [Mandatory attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/t_SetCIFieldMandatory.md)
 
 Role requirements for operations in this section:
 
@@ -114,9 +115,9 @@ Managing tags requires the sn\_cmdb\_editor user role.
 
 More information:
 
--   [Tag-based discovery in Service Mapping](https://www.servicenow.com/docs/access?context=tag-based-mapping&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)
--   [Data collected for Amazon AWS Cloud Discovery](https://www.servicenow.com/docs/access?context=cloud-disco-aws-data-collected&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)
--   [Data collected for Microsoft Azure Cloud Discovery](https://www.servicenow.com/docs/access?context=data-collected-azure-discovery&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)
+-   
+-   
+-   
 
 ## Resources
 
@@ -133,7 +134,7 @@ In this section, you can:
 
     -   If the related list table is within the cmdb\_ci hierarchy, has an IRE identification rule, and isn't an excluded table, then you're navigated to the Create CI experience in Service Graph Workspace or another workspace if applicable. In the Create CI experience, some CI attributes are pre-populated with the proper values for the class. For example, in the Required attributes section for dependent CIs, the **Dependent-upon CI** attribute is pre-populated with the parent of the current CI. Relationships and resources are also pre-populated according to the CI class definitions.
 
-        For information about the Create CI experience, see [Create a CI manually in Service Graph Workspace](../task/create-ci-manual-sg-workspace.md).
+        For information about the Create CI experience, see [Create a CI manually in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/create-ci-manual-sg-workspace.md).
 
     -   If the related list table doesn't have an IRE identification rule, then you're navigated to a basic list view page instead of CI Form.
     -   The system automatically creates the matching reference back to the current class. For example, for a dependent CI the system creates the file system and the necessary relationship to connect the file system to the computer CI.
@@ -166,9 +167,9 @@ This section shows related items such as open incidents and the activity stream 
 
 More information:
 
--   [Problem Management](https://www.servicenow.com/docs/access?context=c_ProblemManagement&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
--   [Incident Management](https://www.servicenow.com/docs/access?context=c_IncidentManagement&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
--   [Change Management](https://www.servicenow.com/docs/access?context=c_ITILChangeManagement&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+-   
+-   
+-   
 
 Role requirements for operations in this section:
 
@@ -194,7 +195,7 @@ In this section, you can:
     -   Relationship levels set to 1 level.
     -   Layers set to show Business, Service Instances, Applications, and infrastructure.
     -   Layout is set to Vertical.
-    This function isn't available for a non-operational CI. For information about using the **Life cycle stage** attribute to define a CI's operational state, see [Configure CIs to appear based on life cycle stage value](../task/unified-map-confg-operational-state.md).
+    This function isn't available for a non-operational CI. For information about using the **Life cycle stage** attribute to define a CI's operational state, see [Configure CIs to appear based on life cycle stage value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/unified-map/unified-map-confg-operational-state.md).
 
     If the CI class is a Service Instance \[cmdb\_ci\_service\_auto\] or a derived class, then you must either use Service Mapping \(if installed\) to edit a map for a Service Instance, or edit dependency relationships in Unified Map.
 
@@ -202,11 +203,11 @@ In this section, you can:
 
 More information about relationships and about editing relationships in Unified Map:
 
--   [CI relationships in the CMDB](c_CIRelationships.md)
--   [Edit relationships in Unified Map](../task/unified-map-edit-connection.md)
--   [CI relationship editor](c_RelationshipEditor.md)
--   [Service Mapping](https://www.servicenow.com/docs/access?context=c_ServiceMappingOverview&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)
--   [Unified Map](cmdb-workspace-unified-map.md)
+-   [CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md)
+-   [Edit relationships in Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/unified-map/unified-map-edit-connection.md)
+-   [CI relationship editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_RelationshipEditor.md)
+-   
+-   [Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/unified-map/cmdb-workspace-unified-map.md)
 
 Role requirements for operations in this section: **Edit relationships** requires sn\_cmdb\_editor
 
@@ -223,11 +224,11 @@ Select a tile to drill down to the specific records associated with the tile.
 
 More information:
 
--   [CSDM terms](../../csdm-implementation/reference/csdm-term-definitions.md)
--   [Service Delivery domain in the CSDM model](../../csdm-implementation/concept/manage-tech-servs-domain.md)
--   [Access CSDM features](../../csdm-implementation/concept/csdm-content-frame-using.md)
--   [CSDM implementation stage — Walk](../../csdm-implementation/concept/csdm-implement-walk-stage.md)
--   [Application services](application-services.md)
+-   [CSDM terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-term-definitions.md)
+-   [Service Delivery domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/manage-tech-servs-domain.md)
+-   [Access CSDM features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-using.md)
+-   [CSDM implementation stage — Walk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-implement-walk-stage.md)
+-   [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/application-services.md)
 
 ## Health
 
@@ -237,10 +238,10 @@ This section shows meaningful details only if CMDB Health is set up and the asso
 
 More information:
 
--   [CMDB Health](c_CMDBHealth.md)
--   [CMDB Health KPIs and metrics](../reference/r_CMDBHealthMetrics.md)
--   [CIs attestation](attesting-cis.md)
--   [Configuring CMDB Health](c_CMDBHealthSetupandConfig.md)
+-   [CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md)
+-   [CMDB Health KPIs and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/r_CMDBHealthMetrics.md)
+-   [CIs attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/attesting-cis.md)
+-   [Configuring CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealthSetupandConfig.md)
 
 ## CMDB 360
 
@@ -250,7 +251,7 @@ This section appears only if CMDB 360 is enabled and configured.
 
 More information:
 
--   [CMDB 360/Multisource CMDB](multisource-cmdb.md)
--   [CMDB 360 experience in CMDB Workspace and in Service Graph Workspace](cmdb360-exp-cmdb-workspace.md)
--   [Configure the CMDB 360 dashboard in CMDB Workspace or in Service Graph Workspace](../task/workspc-mltsrc-configure.md)
+-   [CMDB 360/Multisource CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md)
+-   [CMDB 360 experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md)
+-   [Configure the CMDB 360 dashboard in CMDB Workspace or in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md)
 

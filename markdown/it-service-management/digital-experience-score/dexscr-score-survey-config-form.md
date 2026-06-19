@@ -2,6 +2,7 @@
 title: DEX Score survey configuration form
 description: Update the configuration for sending the surveys to collect feedback from employees on the usage of applications and devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-experience-score/dexscr-score-survey-config-form.html
 release: zurich
 product: Digital Experience Score
 classification: digital-experience-score
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Digital Experience Score, Digital End-User Experience, I
 
 Update the configuration for sending the surveys to collect feedback from employees on the usage of applications and devices.
 
-For more information, see [Update DEX Score survey configuration](../task/dexscr-set-survey-config.md).
+For more information, see [Update DEX Score survey configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-experience-score/dexscr-set-survey-config.md).
 
 <table id="table_wdl_bcc_lyb"><thead><tr><th>
 
@@ -84,5 +85,5 @@ Minimum threshold value for the trigger criteria so that the survey is triggered
 This field appears only when **Application** is selected from**Survey feedback type**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Digital Experience Score​ reference](../concept/dexscr-dex-score-reference.md)
+</table>**Parent Topic:**[Digital Experience Score​ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-experience-score/dexscr-dex-score-reference.md)
 

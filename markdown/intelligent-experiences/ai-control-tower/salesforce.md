@@ -1,40 +1,90 @@
 ---
-title: AI Service Graph connector for Salesforce
-description: Use the  AI Service Graph Connector for Salesforce to discover AI assets such as AI systems, agents, models, tools, and prompts and well as usage data for these AI agents. This usage information is consumed by the AI Control Tower value dashboard.
+title: AI Service Graph Connector for Salesforce
+description: The AI Service Graph Connector for Salesforce enables you to discover and import AI assets from your Salesforce environment into ServiceNow AI Control Tower.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/salesforce.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-03-03"
-reading_time_minutes: 1
-breadcrumb: [Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Explore, AI Control Tower, Enable AI experiences]
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# AI Service Graph connector for Salesforce
+# AI Service Graph Connector for Salesforce
 
-Use the  AI Service Graph Connector for Salesforce to discover AI assets such as AI systems, agents, models, tools, and prompts and well as usage data for these AI agents. This usage information is consumed by the AI Control Tower value dashboard.
+The AI Service Graph Connector for Salesforce enables you to discover and import AI assets from your Salesforce environment into ServiceNow AI Control Tower.
+
+The connector integrates with your Salesforce account to catalog AI systems, agents, models, and prompts. Usage data is automatically collected and populated into the AI Control Tower value dashboard, providing comprehensive visibility and governance of your AI operations.
 
 ## Download apps from the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to download the AI Service Graph Connector for Salesforce app.
+Visit the ServiceNow store website to download the [AI Service Graph Connector for Salesforce](https://store.servicenow.com/store/app/2f89f78a47e73a50cbbce551336d43a3) application.
 
 ## Supported ServiceNow versions
 
--   Australia
--   Zurich patch 7
--   Yokohama patch 11
+This connector is supported on the following ServiceNow releases:
 
-## User role
+|Release|Status|
+|-------|------|
+|Australia|Supported|
+|Zurich|Supported|
+|Yokohama patch 11|Supported|
 
--   sn\_ai\_disc.discovery\_admin
--   sn\_cmdb\_int\_util.sgc\_admin
+## User Roles
 
-## Salesforce AI Metadata mapping in ServiceNow tables
+You must have one of the following roles assigned.
 
-**AI Agents**
+|Required Roles|
+|--------------|
+|sn\_ai\_disc.discovery\_admin|
+|sn\_cmdb\_int\_util.sgc\_admin|
 
-alm\_ai\_system\_digital\_asset -&gt; Model table \(cmdb\_ai\_system\_component\_product\_model\)
+## ServiceNow Prerequisites
+
+Complete the following setup steps once when configuring the connector for the first time.
+
+**Note:** Updating data source access and clear cache is a prerequisite that needs to be completed only once, when setting up a new instance for the first time.
+
+Update Data Source Access
+
+The connector requires write permissions to the Data Source table to create data sources.
+
+To enable data source creation:
+
+1.  Select Global from the application picker
+2.  Navigate to Application Access
+3.  Select the Can create, Can update, and Can delete checkboxes.
+4.  Select Update
+5.  Switch to the connector application scope
+
+Clear cache
+
+Clear the cached data for the Data Source and Tables.
+
+To clear the cache:
+
+1.  Navigate to System Definition &gt; Background Scripts
+2.  Paste the following script into the Run Script text box:
+
+    ```
+    GlideTableManager.invalidateTable('sys_data_source');
+    GlideCacheManager.flushTable('sys_data_source');
+    GlideTableManager.invalidateTable('sys_db_object');
+    GlideCacheManager.flushTable('sys_db_object');
+    
+    ```
+
+3.  Select Run Script.
+
+    **Note:** The script may take several minutes to complete.
+
+4.  After completion, switch to the connector application scope
+
+## Data Mapping
+
+AI Agents: alm\_ai\_system\_digital\_asset -&gt; Model table \(cmdb\_ai\_system\_component\_product\_model\)
 
 <table id="table_xn2_xps_m3c"><tbody><tr><td>
 
@@ -157,9 +207,7 @@ Model Category
 asset\_type
 
 </td></tr></tbody>
-</table>**AI Models**
-
-alm\_ai\_model\_digital\_asset -&gt; Model table \(cmdb\_ai\_model\_product\_model\)
+</table>AI Models: alm\_ai\_model\_digital\_asset -&gt; Model table \(cmdb\_ai\_model\_product\_model\)
 
 <table id="table_yn2_xps_m3c"><tbody><tr><td>
 
@@ -258,9 +306,7 @@ Quantity
 quantity
 
 </td></tr></tbody>
-</table>**AI Tools**
-
-AI subcomponent reference table \(sn\_ent\_ai\_tool\) -&gt; sn\_ent\_ai\_system\_subcomponent\_m2m -&gt; AI system/Model table \(alm\_ai\_system\_digital\_asset\)
+</table>AI Tools: AI subcomponent reference table \(sn\_ent\_ai\_tool\) -&gt; sn\_ent\_ai\_system\_subcomponent\_m2m-&gt; AI system/Model table \(alm\_ai\_system\_digital\_asset\)
 
 <table id="table_zn2_xps_m3c"><tbody><tr><td>
 
@@ -335,9 +381,7 @@ Target document table
 tablename
 
 </td></tr></tbody>
-</table>**AI Prompts**
-
-alm\_ai\_prompt\_digital\_asset -&gt; Model table \(cmdb\_ai\_prompt\_product\_model\)
+</table>AI Prompts: alm\_ai\_prompt\_digital\_asset -&gt; Model table \(cmdb\_ai\_prompt\_product\_model\)
 
 <table id="table_a42_xps_m3c"><tbody><tr><td>
 
@@ -381,7 +425,7 @@ Table Name
 
 </td><td>
 
-Servicenow table
+ServiceNow table
 
 </td><td>
 
@@ -400,9 +444,7 @@ External record reference
 id
 
 </td></tr></tbody>
-</table>**AI Agents Usage**
-
-sn\_ai\_disc\_ai\_usage -&gt; AI system/Model table \(alm\_ai\_system\_digital\_asset\)
+</table>AI Agents Usage: sn\_ai\_disc\_ai\_usage -&gt; AI system/Model table \(alm\_ai\_system\_digital\_asset\)
 
 <table id="table_b42_xps_m3c"><tbody><tr><td>
 

@@ -2,6 +2,7 @@
 title: Security Posture Control use case: Detecting internet exposure of cloud assets  and high-risk combinations
 description: It is critical to monitor potential internet exposure of Cloud assets \(virtual machines\) on various ports to ensure that vulnerabilities on these assets are not exploited remotely. This use case helps you identify these assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/spc-use-case-6.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"

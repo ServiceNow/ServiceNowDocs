@@ -2,6 +2,7 @@
 title: Pre-payments
 description: A prepayment is the amount paid for services before their receipt or invoiced due date. When an invoice is issued for a pre-payment, it is against the pre-paid account. During the defined pre-paid period, the amount is amortized accordingly against the capex or expense account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/pre-payments.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -162,5 +163,5 @@ The end date of the pre-payment period, after which no pre-payments are made.
 </td></tr></tbody>
 </table>Multiple pre-payments related to one line can be made. For example, you can pre-pay 50% of the total line amount on X date and another 50% on Y date. The total of the pre-payment amounts must not exceed the line amount.
 
-**Parent Topic:**[Purchase lines](purchase-lines.md)
+**Parent Topic:**[Purchase lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/purchase-lines.md)
 

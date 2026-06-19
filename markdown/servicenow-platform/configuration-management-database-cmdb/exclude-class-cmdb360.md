@@ -2,6 +2,7 @@
 title: Exclude classes from CMDB 360
 description: Prevent CMDB 360 from collecting, storing, and analyzing data for classes for which it isn't needed. CMDB 360 processes large amounts of data. Therefore, excluding classes can help improve the performance of the Multisource Dashboard Analytics Population scheduled job and of CMDB 360 queries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/exclude-class-cmdb360.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

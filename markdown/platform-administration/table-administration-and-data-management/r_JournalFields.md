@@ -2,6 +2,7 @@
 title: Journal fields
 description: Journal fields work together to create a log of changes and comments as tasks are worked on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/r\_JournalFields.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -26,7 +27,7 @@ Fields of the journal\_input type are multi-line text boxes which, upon save, ad
 
 These comments, as well as any changes to the record or email notifications sent out because of the record, are displayed in the activity formatter, which can be added to the form like a field.
 
-![](../image/ActivityFormatterForJournalFields.png "Activity formatter for journal fields")
+\[Omitted image "ActivityFormatterForJournalFields.png"\] Alt text:
 
-**Parent Topic:**[Task table structure](../../table-administration/concept/task-table-structure.md)
+**Parent Topic:**[Task table structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/task-table-structure.md)
 

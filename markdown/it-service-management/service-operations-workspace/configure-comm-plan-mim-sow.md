@@ -2,6 +2,7 @@
 title: Configure a communication plan in Major Incident Management
 description: Configure a communication plan and tasks for effective communication with various stakeholders about the progress, milestones, and issues related to the different stages of a major incident record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/configure-comm-plan-mim-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -17,11 +18,11 @@ Configure a communication plan and tasks for effective communication with variou
 
 ## Before you begin
 
-The Major Incident Management plugin must be activated in Service Operations Workspace. For more information, see [Activate Major Incident Management in Service Operations Workspace](install-mim-sow.md).
+The Major Incident Management plugin must be activated in Service Operations Workspace. For more information, see [Activate Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/install-mim-sow.md).
 
 Role required: sn\_mim\_sow\_admin and sn\_comm\_management.comm\_plan\_viewer, or admin
 
-**Note:** If you have sn\_mim\_sow\_admin role, you can access the MIM page in Admin Center page but to configure communication plans you must also have sn\_comm\_management.comm\_plan\_viewer role to access the specific communication plan table. For more information, see [Roles in Service Operations Workspace for ITSM](../reference/roles-in-sow.md).
+**Note:** If you have sn\_mim\_sow\_admin role, you can access the MIM page in Admin Center page but to configure communication plans you must also have sn\_comm\_management.comm\_plan\_viewer role to access the specific communication plan table. For more information, see [Roles in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/roles-in-sow.md).
 
 ## Procedure
 
@@ -45,7 +46,7 @@ Role required: sn\_mim\_sow\_admin and sn\_comm\_management.comm\_plan\_viewer, 
 
 4.  Select **New** to create a communication plan definition.
 
-    For more information on creating a communication plan, see [Define a communication plan](https://www.servicenow.com/docs/access?context=create-comm-plan-definition&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    For more information on creating a communication plan, see .
 
     After a communication plan definition is created, the following related lists appear in the communication plan definition record:
 
@@ -53,16 +54,16 @@ Role required: sn\_mim\_sow\_admin and sn\_comm\_management.comm\_plan\_viewer, 
     -   Communication Contact Definitions
 5.  Select the Communication Task Definitions related list and then select **New** to create a communication task.
 
-    For more information on creating a communication task, see [Define a communication task](https://www.servicenow.com/docs/access?context=create-comm-task-definition&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    For more information on creating a communication task, see .
 
 6.  On the Communication task definition record, select the required communication channel related link to define the communication channel.
 
-    The communication channel related list contains the communication channel related links such as Add channel - Email, Add channel - Sidebar discussion and Add channel - DEX Desktop Assistant. For more information on creating a communication channel, see [Define a communication channel](https://www.servicenow.com/docs/access?context=create-comm-channel-definition&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    The communication channel related list contains the communication channel related links such as Add channel - Email, Add channel - Sidebar discussion and Add channel - DEX Desktop Assistant. For more information on creating a communication channel, see .
 
 7.  On the Communication plan definition record, select the Communication contact definition related list.
 
 8.  Select **New** to create a communication contact definition.
 
-    For more information on creating a communication contact definition, see [Define a communication contact](https://www.servicenow.com/docs/access?context=create-comm-contact-definition&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    For more information on creating a communication contact definition, see .
 
 

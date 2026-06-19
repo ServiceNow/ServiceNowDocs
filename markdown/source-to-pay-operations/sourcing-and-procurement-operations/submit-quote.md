@@ -2,13 +2,14 @@
 title: Submit a quote
 description: As a shopper or requester, when an existing quotation for a product or service that you're looking for doesn’t meet your expectation, you can get your own quote and submit it so that a requisition can be processed by the procurement team accordingly. You can submit a quote from Shopping Hub Home or directly from Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/submit-quote.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Using Shopping Hub, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Using Shopping Hub, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Submit a quote
@@ -65,9 +66,9 @@ Have you contacted this supplier about the products you're requesting?
 
 If you’ve contacted the supplier already, select the appropriate option, and enter details of the supplier contact such as first and last names, job title, and registered email ID.For more information on adding suppliers, see:
 
--   From Platform: [Add a supplier](create-supplier.md).
--   From the supplier catalog: [Add a supplier contact using the supplier catalog](../../supplier-lifecycle-operations/task/enroll-contact-catalog.md).
--   From Source-to-Pay Workspace: [Add a supplier contact from the Source-to-Pay Workspace](../../supplier-lifecycle-operations/task/add-supplier-contact.md).
+-   From Platform: [Add a supplier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-supplier.md).
+-   From the supplier catalog: [Add a supplier contact using the supplier catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/enroll-contact-catalog.md).
+-   From Source-to-Pay Workspace: [Add a supplier contact from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-contact.md).
 
 
 </td></tr></tbody>
@@ -192,13 +193,13 @@ Any additional information that you may want to add.
 
 7.  In the **What project is this request for?** field, select the project for which this request is being raised.
 
-    **Note:** This field is available only when you have the Procurement with Project Management \(sn\_spend\_ppm\) application installed, and also have the IT Project User role. For more information, see [Sourcing and Procurement Operations integration with Project Management](../concept/integration-psm-ppm.md).
+    **Note:** This field is available only when you have the Procurement with Project Management \(sn\_spend\_ppm\) application installed, and also have the IT Project User role. For more information, see [Sourcing and Procurement Operations integration with Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/integration-psm-ppm.md).
 
 8.  Provide the reason behind making the purchase.
 
 9.  In the **Watchlist** field, select one or more users to be added to the watchlist of the purchase request.
 
-    The users on the Watchlist receive email notifications when specific conditions are fulfilled and the purchase request status is updated. By default, you can add up to 20 users in the watchlist. You can modify this value by configuring the system properties. For more information, see [Add users to the watchlist of the purchase](add-users-watchlist-purchase.md).
+    The users on the Watchlist receive email notifications when specific conditions are fulfilled and the purchase request status is updated. By default, you can add up to 20 users in the watchlist. You can modify this value by configuring the system properties. For more information, see [Add users to the watchlist of the purchase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/add-users-watchlist-purchase.md).
 
 10. Add attachments of your quote for verification.
 
@@ -209,7 +210,7 @@ Any additional information that you may want to add.
 
 ## What to do next
 
-You can view the newly created purchase requisition details on the My Purchases page in ShoppingHub. Purchase lines are grouped based on whether the order type is standard or blanket. For more information on purchase line grouping, see [Purchase requisition merging](../concept/purchase-requisition-merging.md).
+You can view the newly created purchase requisition details on the My Purchases page in ShoppingHub. Purchase lines are grouped based on whether the order type is standard or blanket. For more information on purchase line grouping, see [Purchase requisition merging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/purchase-requisition-merging.md).
 
-**Parent Topic:**[Using Shopping Hub](../reference/use-shoppinghub-portal.md)
+**Parent Topic:**[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)
 

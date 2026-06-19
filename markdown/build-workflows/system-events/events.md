@@ -2,6 +2,7 @@
 title: System Events
 description: Events are special records that the system uses to log when certain conditions occur and to take some kind of action in response to the conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/system-events/events.html
 release: zurich
 product: System Events
 classification: system-events
@@ -48,7 +49,7 @@ By default, the system provides events covering a broad view of application acti
 
 For developer training, see [Scheduled Script Executions and Events Objectives](https://developer.servicenow.com/dev.do#!/learn/courses/xanadu/app_store_learnv2_automatingapps_xanadu_automating_application_logic/app_store_learnv2_automatingapps_xanadu_scheduled_script_executions_and_events/app_store_learnv2_automatingapps_xanadu_scheduled_script_executions_and_events_objectives) on the ServiceNow® Developer Site.
 
-Use the [System Events and Jobs Dashboard](https://www.servicenow.com/docs/access?context=track-events&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) to monitor the system event processing system and the scheduled jobs processing system.
+Use the System Events and Jobs Dashboard to monitor the system event processing system and the scheduled jobs processing system.
 
 ## Event processing during platform upgrade
 

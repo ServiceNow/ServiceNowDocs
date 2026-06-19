@@ -2,6 +2,7 @@
 title: Processing activity tab
 description: The Processing activity tab on the Privacy management dashboard provides a comprehensive and real-time overview of all data processing activities across the organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/processing-activity-tab.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -58,7 +59,7 @@ This dashboard displays the following widgets.
 
 The following image shows the Processing activity dashboard.
 
-![Processing activity tab on the privacy management home page.](../image/processing-activity-tab.png "Processing activity tab")
+\[Omitted image "processing-activity-tab.png"\] Alt text: Processing activity tab on the privacy management home page.
 
-**Parent Topic:**[Privacy Workspace for the privacy manager](privacy-mgmt-ws-privacy-compliance-manager.md)
+**Parent Topic:**[Privacy Workspace for the privacy manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/privacy-mgmt-ws-privacy-compliance-manager.md)
 

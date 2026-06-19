@@ -2,6 +2,7 @@
 title: Intrusion Set
 description: An Intrusion Set is a grouped set of adversarial behaviors and resources with common properties. An Intrusion Set usually involves a single organization. Intrusion set applies for STIX 2.x.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/intrusion-set.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -21,8 +22,8 @@ New activity can be attributed to an Intrusion Set even if the Threat Actors beh
 
 An Intrusion Set is the entire attack package and may be used over a long period in multiple Campaigns to achieve potentially multiple purposes.
 
--   **[Define Intrusion Set](../task/tisc-define-intrusion-set.md)**  
+-   **[Define Intrusion Set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-define-intrusion-set.md)**  
 Define an intrusion set that is a grouped set of adversarial behaviors and resources with common properties.
 
-**Parent Topic:**[Threat Entities](tisc-threat-entities.md)
+**Parent Topic:**[Threat Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-threat-entities.md)
 

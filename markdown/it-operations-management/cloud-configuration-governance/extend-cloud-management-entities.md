@@ -2,6 +2,7 @@
 title: Extend Cloud Provisioning and Governance resource blocks with an override operation
 description: You can extend your existing guest interface to create a new operation. You can also create a new guest interface with its own operations, parameters, and inputs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/extend-cloud-management-entities.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -17,7 +18,7 @@ You can extend your existing guest interface to create a new operation. You can 
 
 ## Before you begin
 
-Become familiar with resource block input parameters, operations, and steps. See [Configure resource block input parameters](manage-resource-block-operations.md) and [Add operation steps to a resource block](add-operation-steps.md) for instructions.
+Become familiar with resource block input parameters, operations, and steps. See [Configure resource block input parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/manage-resource-block-operations.md) and [Add operation steps to a resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/add-operation-steps.md) for instructions.
 
 Role required: sn\_cmp.cloud\_admin
 
@@ -37,7 +38,7 @@ The Cloud Provisioning and Governance application is bundled with several useful
 
 4.  Click the **Override Operation** icon.
 
-    ![Override operation icon on the upper right](../image/override-operation-override.png)
+    \[Omitted image "override-operation-override.png"\] Alt text: Override operation icon on the upper right
 
 5.  Select an existing guest interface or select the **Create new** check box to create a new guest interface.
 
@@ -53,7 +54,7 @@ The Cloud Provisioning and Governance application is bundled with several useful
 
     1.  Click the **Edit Operation Signature** icon.
 
-        ![Editing an operation signature](../image/rb-edit-operation-signature.png)
+        \[Omitted image "rb-edit-operation-signature.png"\] Alt text: Editing an operation signature
 
     2.  Change the **Operation Type** if necessary, and add, edit, or remove input parameters at the bottom.
 
@@ -65,7 +66,7 @@ The Cloud Provisioning and Governance application is bundled with several useful
 
 11. Navigate to **Cloud Admin Portal** &gt; **Design** &gt; **Blueprints**.
 
-12. Follow the steps in [Build a Cloud Provisioning blueprint](create-blueprint-cmp.md) to add a blueprint.
+12. Follow the steps in [Build a Cloud Provisioning blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-blueprint-cmp.md) to add a blueprint.
 
 13. Click **Operations** and click the operation to modify in the resource block.
 
@@ -82,5 +83,5 @@ The Cloud Provisioning and Governance application is bundled with several useful
 
 After you add this resource block to a blueprint, the parameters you added are available for you to customize.
 
-**Parent Topic:**[Resource blocks in Cloud Provisioning and Governance](../concept/resource-blocks.md)
+**Parent Topic:**[Resource blocks in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/resource-blocks.md)
 

@@ -2,6 +2,7 @@
 title: Activate Microsoft Outlook Add-In for Legal Service Delivery
 description: You can activate the Microsoft Outlook Add-In for Legal Service Delivery plugin \(sn\_lg\_outlook\) for Legal Service Delivery if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/lsd-install-outlook-addin.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -31,7 +32,7 @@ Role required: sn\_lg\_outlook.admin
 
 Roles are installed with Microsoft Outlook Add-In for Legal Service Delivery:
 
-For more information, see [Microsoft Outlook Add-In for Legal Service Delivery reference](../concept/lsd-outlook-addin-refrence.md).
+For more information, see [Microsoft Outlook Add-In for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/lsd-outlook-addin-refrence.md).
 
 ## Procedure
 
@@ -45,8 +46,8 @@ For more information, see [Microsoft Outlook Add-In for Legal Service Delivery r
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
-**Parent Topic:**[Configure Microsoft Outlook Add-In for Legal Service Delivery](../concept/lsd-outlook-addin-configure.md)
+**Parent Topic:**[Configure Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/lsd-outlook-addin-configure.md)
 

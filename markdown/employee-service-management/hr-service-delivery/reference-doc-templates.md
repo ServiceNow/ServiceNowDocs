@@ -2,6 +2,7 @@
 title: Reference for Document Templates
 description: Reference topics provide additional information about Document Templates.Several types of components are installed with activation of the Document Templates plugin, including tables and user roles
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/reference-doc-templates.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

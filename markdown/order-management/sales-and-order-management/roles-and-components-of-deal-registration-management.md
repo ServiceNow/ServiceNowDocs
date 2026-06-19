@@ -2,11 +2,12 @@
 title: Roles and components of Deal Registration Management
 description: The Deal Registration Management application \(com.snc.deal\_registration\_management\) uses roles to provide access to information, identify internal and external users, and maintain data security.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/roles-and-components-of-deal-registration-management.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 3
 breadcrumb: [Deal Registration, Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -133,7 +134,7 @@ B2B deal registration agent \(sn\_prm\_dr.enterprise\_b2b\_deal\_reg\_agent\)
 
 This user can create, qualify, approve, and convert B2B deals into opportunities.A B2B deal registration agent can manage the full life cycle for B2B deal registrations.
 
-To learn more about converting deals to opportunities, see [Update deal registration record](../task/update-deal-registration-record.md)
+To learn more about converting deals to opportunities, see [Update deal registration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/update-deal-registration-record.md)
 
 </td><td>
 
@@ -147,7 +148,7 @@ B2C deal registration agent \(sn\_prm\_dr.enterprise\_b2c\_deal\_reg\_agent\)
 
 This user can create, qualify, approve, and convert B2C deals into opportunities.A B2C deal registration agent can manage the full life cycle for B2C deal registrations.
 
-To learn more about converting deals to opportunities, see [Update deal registration record](../task/update-deal-registration-record.md)
+To learn more about converting deals to opportunities, see [Update deal registration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/update-deal-registration-record.md)
 
 </td><td>
 
@@ -161,7 +162,7 @@ Deal registration agent \(sn\_prm\_dr.enterprise\_deal\_reg\_agent\)
 
 This user can create, qualify, approve, and convert any deal registration into an opportunity. A deal registration agent can manage the full life cycle of submitted deal registrations, both B2B and B2C.
 
-To learn more about converting deals to opportunities, see [Update deal registration record](../task/update-deal-registration-record.md)
+To learn more about converting deals to opportunities, see [Update deal registration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/update-deal-registration-record.md)
 
 </td><td>
 
@@ -244,5 +245,5 @@ This granular role provides read access to users for the deal registration to wh
 Partner data viewer \(sn\_prm.partner\_data\_viewer\)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Deal Registration](deal-registration-management.md)
+</table>**Parent Topic:**[Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/deal-registration-management.md)
 

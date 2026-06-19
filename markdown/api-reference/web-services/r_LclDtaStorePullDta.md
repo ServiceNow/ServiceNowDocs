@@ -2,6 +2,7 @@
 title: Use a local data store to pull data from
 description: If a large amount of data needs to be queried often, and the data does not need to be real-time, perform a sync of the ServiceNow table that you're interested in with your integrating application's data store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/r\_LclDtaStorePullDta.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -29,5 +30,5 @@ Using a cron job, a machine internal to your network can make a wget call to pul
 -   wget --user=itil --password=itil --no-check-certificate https://&lt;instance name&gt;.service-now.com/incident\_list.do?CSV
 -   wget --user=itil --password=itil --no-check-certificate https://&lt;instance name&gt;.service-now.com/incident\_list.do?XML
 
-**Parent Topic:**[SOAP strategies](../concept/c_SOAPStrategies.md)
+**Parent Topic:**[SOAP strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_SOAPStrategies.md)
 

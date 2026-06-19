@@ -2,6 +2,7 @@
 title: Benchmarks admin console
 description: The ServiceNow Benchmarks application gives you instant visibility into your key performance indicators \(KPIs\) and trends, as well as comparative insight relative to industry averages of your peers and to the industry top performers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-success-dashboard-indicators/admin-console-bm.html
 release: zurich
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -18,7 +19,7 @@ The ServiceNow® Benchmarks application gives you instant visibility into your k
 -   User Roles: You can assign different roles based on specific access requirements.
 -   Opt in to Benchmarks: You can opt in to Benchmarks by accepting the opt-in agreement. Once you opt in, you have visibility into your service management key performance indicators and trends. It also provides a comparative insight relative to the industry averages of your peers.
 
-For more information, see [Getting started with the ITSM Success Dashboard admin console](../../benchmarks/concept/c_gettingstartedadminconsole.md).
+For more information, see [Getting started with the ITSM Success Dashboard admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/benchmarks/c_gettingstartedadminconsole.md).
 
-**Parent Topic:**[Configuring ITSM Success Dashboard indicators](configure-success-dashboards.md)
+**Parent Topic:**[Configuring ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-success-dashboard-indicators/configure-success-dashboards.md)
 

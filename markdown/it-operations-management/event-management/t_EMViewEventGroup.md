@@ -2,6 +2,7 @@
 title: View patterns for event group creation
 description: Event groups are sets of events that do not have a matching event rule. You can view the patterns in a group of events to learn the impact of creating a rule based on the event source and description patterns.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/t\_EMViewEventGroup.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -35,8 +36,8 @@ Events are grouped according to their source and description.
 
 4.  To change the pattern of an event, double-click the pattern, make your changes, and then click **Update**.
 
-    ![Event Groups](../image/EventManagementGroups.png)
+    \[Omitted image "EventManagementGroups.png"\] Alt text: Event Groups
 
 
-**Parent Topic:**[Event rules](../concept/create-event-rules.md)
+**Parent Topic:**[Event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-event-rules.md)
 

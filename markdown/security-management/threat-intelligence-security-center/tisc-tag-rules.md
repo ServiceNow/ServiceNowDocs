@@ -2,6 +2,7 @@
 title: Configure Tagging Rules in TISC
 description: Use tagging rules to automatically assign tags and taxonomies to RSS feeds. Tagging rules evaluate incoming feed data based on defined criteria and apply the appropriate tags and taxonomies when a match is found.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-tag-rules.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -23,7 +24,7 @@ Role required: sn\_sec\_tisc.admin
 
 Tagging rules are available from the **Administration** module and these tagging rules are supported for RSS feeds only.
 
-Each tagging rule consists of matching criteria that TISC evaluates against incoming feed items, and a set of tags and taxonomies that TISC applies when all criteria are satisfied. When multiple tagging rules apply, all tags and taxonomies will be aggregated accordingly.
+Each tagging rule consists of matching criteria that TISC evaluates against incoming feed items, and a set of tags and taxonomies that TISC applies when all criteria are satisfied. When multiple tagging rules apply, all tags and taxonomies are aggregated accordingly.
 
 ## Procedure
 
@@ -47,7 +48,7 @@ Name
 
 </td><td>
 
-The display name of the tagging rule.
+Display name of the tagging rule.
 
 </td></tr><tr><td>
 
@@ -55,7 +56,7 @@ Table
 
 </td><td>
 
-The table name for the tagging rule is **RSS Feed** by default, and it is read-only.
+Table name for the tagging rule is **RSS Feed** by default, and it is read-only.
 
 </td></tr><tr><td>
 
@@ -71,7 +72,7 @@ Active
 
 </td><td>
 
-Indicates whether the rule is enabled or disabled. Only active rules are evaluated during feed processing.**Note:** This appears in the list view and is tagged to the tagging rule name in the form view, indicating whether it is enabled or disabled.
+Indicates whether the rule is enabled or turned off. Only active rules are evaluated during feed processing.**Note:** This appears in the list view and is tagged to the tagging rule name in the form view, indicating whether it is enabled or turned off.
 
 </td></tr><tr><td>
 
@@ -79,17 +80,17 @@ Method to Match
 
 </td><td>
 
-The keywords to match against the selected fields. Matching is case-insensitive by default.When defining a tagging rule, you must specify the keywords that the application will use to match against the fields you have selected. The matching process is case-insensitive by default, ensuring that matches are found regardless of letter casing.
+Keywords to match against the selected fields. Matching is case-insensitive by default.When defining a tagging rule, you must specify the keywords that the application uses to match against the fields you have selected. The matching process is case-insensitive by default, ensuring that matches are found regardless of letter casing.
 
 There are two available matching options for evaluating feed items:
 
--   **Keywords**: Allows you to specify one or more keywords that the system will search for within the selected fields. By default, the option is Keywords.
+-   **Keywords**: Allows you to specify one or more keywords that the system searches for within the selected fields. By default, the option is Keywords.
 -   **Regex**: Enables you to define regular expressions for more complex matching criteria within the feed data.
 
 Choose the most appropriate matching method based on the complexity of your tagging requirements.
 
 </td></tr></tbody>
-</table>    **Note:** The following are the two base system tagging rules provisioned in the application for the RSS feeds. By default these two tagging rules are disabled, select **Enable** to enable the rules and proceed to next step.
+</table>    **Note:** The following are two base system tagging rules provisioned in the application for the RSS feeds. By default these two tagging rules are turned off, select **Enable** to enable the rules and proceed to next step.
 
     |Field|Description|Table|Method to Match|
     |-----|-----------|-----|---------------|
@@ -98,9 +99,9 @@ Choose the most appropriate matching method based on the complexity of your tagg
 
 3.  Select **New** to create a tagging rule, or select an existing rule name to edit it.
 
-    The Create New Tagging Rule form view opens. The form is divided into the following sections.
+    The Create Tagging Rule form view opens. The form is divided into the following sections.
 
-4.  In the **Details** section, fill in the basic configuration fields.
+4.  In the **Details** section, complete the basic configuration fields.
 
 <table id="table_pvc_lcd_j3c"><thead><tr><th>
 
@@ -132,7 +133,7 @@ Table
 
 </td><td>
 
-The table name for the tagging rule is RSS Feed by default.**Note:** As tagging rules are supported only for RSS feeds, the table name is read-only.
+Table name for the tagging rule is RSS Feed by default.**Note:** As tagging rules are supported only for RSS feeds, the table name is read-only.
 
 </td></tr><tr><td>
 
@@ -140,7 +141,7 @@ Fields
 
 </td><td>
 
-Select the fields that the tagging rule will match on. For example, you can choose fields such as **Description**, **Notes**, or **Title** of an RSS record.The available fields are displayed in a multi-select list that includes columns from the RSS table. Select one or more fields based on your requirements.
+Select the fields that the tagging rule matches on. For example, you can choose fields such as **Description**, **Notes**, or **Title** of an RSS record.The available fields are displayed in a multi select list that includes columns from the RSS table. Select one or more fields based on your requirements.
 
 This matching is evaluated using the defined condition across the selected fields. The rule is considered a match when a keyword is found in any of the selected field. For example, if **Notes** and **Description** are selected, then the rule triggers when a match is detected in either of the selected field.
 
@@ -226,15 +227,15 @@ If this check box is not selected, spaces are preserved and treated as part of t
 
 8.  Select **Save** to save the tagging rule.
 
-9.  Select **Enable** enable the tagging rule.
+9.  Select **Enable** to enable the tagging rule.
 
-    **Note:** Once you enable the rule, the tagging rules form view will be in the read-only mode. You need to disable the tagging rule to edit the form view. The tagging rule execution is asynchronous.
+    **Note:** After you enable the rule, the tagging rules form view is in the read-only mode. You must disable the tagging rule to edit the form view. The tagging rule execution is asynchronous.
 
 10. Select **Duplicate** to copy an existing rule.
 
     A confirmation message is displayed indicating that the current tagging rule has been duplicated and a new rule has been created with a unique name.
 
-    **Note:** When you copy an existing rule, the application creates a duplicate entry that retains all the field values from the original rule. The copied rule is created in a **disabled** state by default, allowing you to review or modify it before enabling the rule.
+    **Note:** When you copy an existing rule, the application creates a duplicate entry that retains all the field values from the original rule. The copied rule is created in an **inactive** state by default, allowing you to review or modify it before enabling the rule.
 
 
 **To view the result of the execution**:
@@ -247,8 +248,8 @@ If this check box is not selected, spaces are preserved and treated as part of t
         -   Applied tags
         -   Applied taxonomy values
 
-            ![TISC Tagging Rules - Activity Stream](../image/tisc-tag-rule-activity-stream.png)
+            \[Omitted image "tisc-tag-rule-activity-stream.png"\] Alt text: Activity stream showing applied TISC tagging rules with rule names, tags, and taxonomies in a table format.
 
 
-If multiple rules are triggered, each rule appears as a separate row. When multiple tags and taxonomies values are applied by a single rule, they are listed as comma-separated values with tags and taxonomies separately applied by each tagging rule. When multiple tagging rules utilize the same tags or taxonomies values, the application ensures that duplicate tags and taxonomies are automatically managed. This prevents the same tag or taxonomy from being applied more than once to an RSS Feed record.
+If multiple rules are triggered, each rule appears as a separate row. When multiple tags and taxonomies values are applied by a single rule, they are listed as comma-separated values with tags and taxonomies separately applied by each tagging rule. When multiple tagging rules use the same tags or taxonomies values, the application manages that duplicate tags and taxonomies are automatically handled. This helps avoid the same tag or taxonomy from being applied more than once to an RSS Feed record.
 

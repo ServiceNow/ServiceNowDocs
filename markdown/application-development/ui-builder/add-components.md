@@ -2,6 +2,7 @@
 title: Add and configure components
 description: Learn how to add components to your page in UI Builder. A page is built by adding components.Learn about the various functions supported in the UI Builder component formula editor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/add-components.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -29,37 +30,37 @@ Components are the building blocks used to create custom pages in UI Builder. Le
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Open or create a page.
 
-    If you open an existing page, make sure you are in the same scope as the original page. If not, change the scope before you start editing the page. Application scoping protects applications by identifying and restricting access to application files and data. Administrators set the scope to specify what parts of an application are accessible to other applications. Application scope protects data and application files. See [Learn about security and roles](security-roles.md) for more information about application scope.
+    If you open an existing page, make sure you are in the same scope as the original page. If not, change the scope before you start editing the page. Application scoping protects applications by identifying and restricting access to application files and data. Administrators set the scope to specify what parts of an application are accessible to other applications. Application scope protects data and application files. See [Learn about security and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/security-roles.md) for more information about application scope.
 
 4.  Select an existing container or create a column layout.
 
-    See [Organize components in UI Builder pages](../concept/work-layouts.md) for more information.
+    See [Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-layouts.md) for more information.
 
 5.  Add components to your page.
 
     UI Builder comes with a library of components to choose from. You add components as the building blocks of your page. For example, you can add a heading, data visualizations, and so on. The following table shows you the different ways you can add a component to a page.
 
-<table id="choicetable_dzv_llh_wnb"><thead><tr><th align="left" id="d254309e196">
+<table id="choicetable_dzv_llh_wnb"><thead><tr><th align="left" id="d45915e196">
 
 To add a component
 
-</th><th align="left" id="d254309e199">
+</th><th align="left" id="d45915e199">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d254309e205">
+</th></tr></thead><tbody><tr><td id="d45915e205">
 
 **Directly from your page**
 
 </td><td>
 
-From your page, select **+** and choose a component from the toolbox. You can search for a component or scroll through the list.![Add content icon selected on the stage showing the toolbox window with Components tab selected.](../image/component-add-from-stage.png)
+From your page, select **+** and choose a component from the toolbox. You can search for a component or scroll through the list.\[Omitted image "component-add-from-stage.png"\] Alt text: Add content icon selected on the stage showing the toolbox window with Components tab selected.
 
-</td></tr><tr><td id="d254309e225">
+</td></tr><tr><td id="d45915e225">
 
 **Floating menu above page**
 
@@ -69,7 +70,7 @@ Select the floating menu above your component. -   Select **Add before** or **Ad
 -   Choose a component from the toolbox.
 
 
-</td></tr><tr><td id="d254309e251">
+</td></tr><tr><td id="d45915e251">
 
 **Content tree**
 
@@ -77,7 +78,7 @@ Select the floating menu above your component. -   Select **Add before** or **Ad
 
 You can add a component from the content tree in the following two ways.-   Select **+Add content** beneath a container in the content tree. Then choose a component from the toolbox.
 -   Move your mouse device over a container in the content tree, select the **Menu** icon, and select **Add component**. Then choose a component from the toolbox.
- ![Black arrow pointing to + add content option in content tree next to the toolbox window with Components tab selected.](../image/component-add-from-content-tree.png)
+ \[Omitted image "component-add-from-content-tree.png"\] Alt text: Black arrow pointing to + add content option in content tree next to the toolbox window with Components tab selected.
 
 </td></tr></tbody>
 </table>6.  Now configure the properties of the components that you just added.
@@ -88,41 +89,41 @@ You can add a component from the content tree in the following two ways.-   Sele
 
     2.  Select the **Configure** tab from the configuration panel in UI Builder.
 
-    3.  Customize the [component properties](../concept/ui-builder-glossary.md#) for the component.
+    3.  Customize the [component properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/ui-builder-glossary.md) for the component.
 
         For example, you could add a name for a button component. Some components, like data visualizations, require a data source before you can configure the properties. Each component has different configuration properties based on the requirements and options for each component. For example, the **Button** component configuration is simple, while a **List** component requires more configuration.
 
     4.  For components with configurable JSON properties, you can use UI Builder's low-code JSON editor to edit component properties without needing to edit JSON code.
 
-        The JSON editor UI displays all available properties, even properties not defined in the dummy data or defined values. You can update properties or add your own custom properties within the JSON editor. For more information about configuring components, see [Edit code with the Now Code Editor \(advanced feature\)](../../now-code-editor/concept/now-code-editor.md).
+        The JSON editor UI displays all available properties, even properties not defined in the dummy data or defined values. You can update properties or add your own custom properties within the JSON editor. For more information about configuring components, see [Edit code with the Now Code Editor \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/now-code-editor.md).
 
         **Note:** The low-code JSON editor is only available to properties that have a schema and whose JSON input matches said schema.
 
         The low-code JSON editor supports simple objects, simple array properties, complex arrays, arrays of objects, and partially supports complex objects. For complex arrays, you can add, delete, or move the position of array items. You can also select **Hide unset items** to hide objects with empty or null values for a simplified editing experience.
 
-        ![UI Builder low-code JSON editor.](../image/json-editor.png)
+        \[Omitted image "json-editor.png"\] Alt text: UI Builder low-code JSON editor.
 
     5.  When working with a container component, you can edit some styles by using the floating panels.
 
         Select the **Menu** icon to view a menu.
 
-        ![Arrow pointing to the menu icon with the floating menu expanded.](../image/container-more-button.png)
+        \[Omitted image "container-more-button.png"\] Alt text: Arrow pointing to the menu icon with the floating menu expanded.
 
         Select the **Layout**, **Sizing**, or **Spacing** option to open a floating panel with the most common options displayed. Drag the floating panel to another location as needed. Only one floating panel can be open at a time.
 
-        ![Layout options displayed in a floating panel.](../image/container-style-floating-panel.png)
+        \[Omitted image "container-style-floating-panel.png"\] Alt text: Layout options displayed in a floating panel.
 
     For more information about configuring components, see [Next Experience Components](https://developer.servicenow.com/dev.do#!/reference/now-experience/rome/components).
 
 7.  Select the **Events** tab to add an event handler to your component.
 
-    Add an event handler to add actions to the components on your page. For example, a button component is static and doesn’t do anything until you bind an event action to it, such as saving a record. Some components don’t have an event action applied to them, such as a heading component. But many components require you to map an event to your component to actually make it perform an action. See [Bind an event to a component](bind-event-component.md) for more information on how to add event handlers to your component.
+    Add an event handler to add actions to the components on your page. For example, a button component is static and doesn’t do anything until you bind an event action to it, such as saving a record. Some components don’t have an event action applied to them, such as a heading component. But many components require you to map an event to your component to actually make it perform an action. See [Bind an event to a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/bind-event-component.md) for more information on how to add event handlers to your component.
 
 8.  You can override any styles for a component by adding CSS styling under the **Styles** tab.
 
-    For more information, see [Change the default appearance of components](add-styling-to-component.md#).
+    For more information, see [Change the default appearance of components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/add-styling-to-component.md).
 
-    **Note:** Style changes only affect a single component at a time. To change the visual style of all the components in your experience, you must apply a theme to your experience. For more information, see [Manage the visual style of UI Builder experiences](../concept/manage-the-visual-style-of-ui-builder-experiences.md).
+    **Note:** Style changes only affect a single component at a time. To change the visual style of all the components in your experience, you must apply a theme to your experience. For more information, see [Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/manage-the-visual-style-of-ui-builder-experiences.md).
 
 9.  Add additional containers to your page to display your components in an organized way.
 
@@ -134,7 +135,7 @@ You can add a component from the content tree in the following two ways.-   Sele
 
 10. Add more components to your page by selecting the **+** on the top or bottom of the components on the page \(the **+** changes to **+ Add**\).
 
-    ![Plus signs at the top and bottom of a component to add additional components.](../image/add-another-component.png)
+    \[Omitted image "add-another-component.png"\] Alt text: Plus signs at the top and bottom of a component to add additional components.
 
     1.  Select the **+** at the top of your component to add a component before the existing component or select the **+** at the bottom of a component to insert a component after it.
 
@@ -142,7 +143,7 @@ You can add a component from the content tree in the following two ways.-   Sele
 
 11. To make a modal appear when you select a component such as a button, you must add the modal to the component first.
 
-    A modal is a confirmation pop-up that appears when you select the component. For example, if you add a button component that deletes a record, you add a modal to ask the user to confirm they want to delete the record. See [Create modals in UI Builder](../concept/Modals-overview.md) for more information.
+    A modal is a confirmation pop-up that appears when you select the component. For example, if you add a button component that deletes a record, you add a modal to ask the user to confirm they want to delete the record. See [Create modals in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/Modals-overview.md) for more information.
 
 12. Select **Save** often on your page as you work.
 
@@ -151,15 +152,15 @@ You can add a component from the content tree in the following two ways.-   Sele
 
 ## What to do next
 
-You have added and configured components on your page. See [Dynamically expose data in UI Builder pages \(advanced feature\)](../concept/data-resources.md) for more information. A data resource in UI Builder is the data that a page fetches to display content in components. Components use data resources as a way to reuse data and configurations across different experiences, and make the components dynamic on a page.
+You have added and configured components on your page. See [Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/data-resources.md) for more information. A data resource in UI Builder is the data that a page fetches to display content in components. Components use data resources as a way to reuse data and configurations across different experiences, and make the components dynamic on a page.
 
-**Parent Topic:**[Configure components and repeaters \(advanced feature\)](../concept/configure-comp-and-repeaters.md)
+**Parent Topic:**[Configure components and repeaters \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/configure-comp-and-repeaters.md)
 
 ## Supported functions in the UI Builder component formula editor
 
 Learn about the various functions supported in the UI Builder component formula editor.
 
-The following table lists the functions you can use in the UI Builder component formula editor. For more information about the component formula editor, see [Customize UI Builder pages using components](../concept/work-components.md).
+The following table lists the functions you can use in the UI Builder component formula editor. For more information about the component formula editor, see [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-components.md).
 
 <table id="table_jb1_r21_ft"><thead><tr><th>
 

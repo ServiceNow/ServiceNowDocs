@@ -2,6 +2,7 @@
 title: Configure reassignable settings
 description: Configure whether an agent who rejected a work item is eligible to be offered the same work item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/reassign-rejected-timed-out-work-items.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -35,5 +36,5 @@ Role required: admin
     -   If you want to have an agent who rejected a work item be eligible to be offered the same work item, select the **Reassignable** field.
     -   If you don’t want to have an agent who rejected a work item be eligible to be offered the same work item, unselect the **Reassignable** field.
 
-**Parent Topic:**[Configuring Advanced Work Assignment](../../advanced-work-assignment/task/installing-awa.md)
+**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

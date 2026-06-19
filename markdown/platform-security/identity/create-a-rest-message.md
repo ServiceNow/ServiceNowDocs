@@ -2,6 +2,7 @@
 title: Create a REST message
 description: Configure a REST message for all outbound calls for a particular SCIM Provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/create-a-rest-message.html
 release: zurich
 product: Identity
 classification: identity
@@ -57,7 +58,7 @@ Authentication Type
 
 </td><td>
 
-Type of authentication to be used to connect to the external SCIM Provider. For more information see, [Outbound REST authentication](https://www.servicenow.com/docs/access?context=c_OutboundRESTAuth&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+Type of authentication to be used to connect to the external SCIM Provider. For more information see, Outbound REST authentication.
 
 </td></tr><tr><td>
 
@@ -129,7 +130,7 @@ POST
 
     -   You must create all the HTTP methods for the operation of the SCIM Client.
     -   A sample REST message is shipped from the base system.
-    ![REST message](../images/rest-message.png)
+    \[Omitted image "rest-message.png"\] Alt text: REST message
 
 6.  Click **Submit**.
 
@@ -140,7 +141,7 @@ The REST message record is created.
 
 ## What to do next
 
-Use the REST message to create a SCIM Provider. For more information, see [Create a SCIM Provider](create-scim-provider.md).
+Use the REST message to create a SCIM Provider. For more information, see [Create a SCIM Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/create-scim-provider.md).
 
-To learn more about how to create a REST message, see [Create a REST message](https://www.servicenow.com/docs/access?context=t_ConfiguringARESTMessage&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+To learn more about how to create a REST message, see Create a REST message.
 

@@ -2,6 +2,7 @@
 title: Software Asset Management Foundation plugin
 description: The Software Asset Management Foundation plugin activates the ITSM Software Asset Management feature provided with the Asset Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/software-asset-management-foundation-plugin/c\_SoftwareAssetMgmtSAMF.html
 release: zurich
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
@@ -15,7 +16,7 @@ breadcrumb: [ITSM Software Asset Management, Asset Management, IT Service Manage
 
 The Software Asset Management Foundation plugin activates the ITSM Software Asset Management feature provided with the Asset Management application.
 
-For documentation on the full fledged Software Asset Management product \(also known as Software Asset Management professional\), see [Software Asset Management](https://www.servicenow.com/docs/access?context=c_SoftwareAssetMgmt&version=zurich&pubname=zurich-it-asset-management&ft:locale=en-US).
+For documentation on the full fledged Software Asset Management product \(also known as Software Asset Management professional\), see Software Asset Management.
 
 Software Asset Management Foundation plugin systematically tracks, evaluates, and manages software licenses and compliance. Functionality consists of these main features.
 
@@ -60,20 +61,20 @@ Reconciliation
 The reconciliation process calculates the compliance status of software products with respect to discovery and entitlements. Remediation options are created to resolve compliance issues.
 
 </td></tr></tbody>
-</table>-   **[Exploring Software Asset Management Foundation plugin](exploring-sam-foundation.md)**  
-Starting with the Zurich release, we have enhanced the Software Asset Management Foundation plugin application's user interface to make it more user-friendly and intuitive, allowing you to better manage your software installations.
--   **[Setting up Software Asset Management Foundation plugin](../task/t_SAMSetupSAMF.md)**  
+</table>-   **[Exploring Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/exploring-sam-foundation.md)**  
+The Software Asset Management Foundation plugin \(com.snc.sams\) supports tracking, evaluating, and managing software licenses and compliance. You can access this functionality through the Software Asset Workspace or the Software Asset Management Core UI.
+-   **[Setting up Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/t_SAMSetupSAMF.md)**  
 Set up Software Asset Management Foundation plugin before configuration.
--   **[Configuring Software Asset Management Foundation plugin workspace](configuring-samf-plugin-workspace.md)**  
+-   **[Configuring Software Asset Management Foundation plugin workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/configuring-samf-plugin-workspace.md)**  
 Once you have finished setting up the Software Asset Management Foundation plugin and the Software Asset Workspace plugin applications, you need to configure the Software Asset Workspace.
--   **[Configuring the classic Software Asset Management Foundation plugin](samf-plugin-configuration.md)**  
+-   **[Configuring the classic Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.md)**  
 Configure Software Asset Management Foundation plugin if you prefer to continue using the classic version.
--   **[Using Software Asset Management Foundation plugin workspace](using-samf-workspace.md)**  
+-   **[Using Software Asset Management Foundation plugin workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/using-samf-workspace.md)**  
 Use the Software Asset Workspace, the intuitive and streamlined user interface of the Software Asset Management Foundation plugin application.
--   **[Using Software Asset Management Foundation plugin classic](using-samf-classic.md)**  
+-   **[Using Software Asset Management Foundation plugin classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/using-samf-classic.md)**  
 Using Software Asset Management Foundation plugin classic.
--   **[Software Asset Management Foundation plugin Administration](c_SAMAdministrationSAMF.md)**  
+-   **[Software Asset Management Foundation plugin Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/c_SAMAdministrationSAMF.md)**  
 Software Asset Management Foundation plugin administration tasks include adding custom product records, creating custom license metrics, and setting properties. You can also refresh processor definitions, and migrate software installations.
 
-**Parent Topic:**[ITSM Software Asset Management](../../asset-management/concept/itsm-sam.md)
+**Parent Topic:**[ITSM Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/asset-management/itsm-sam.md)
 

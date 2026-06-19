@@ -2,6 +2,7 @@
 title: Map a card to a section
 description: Map cards to sections to specify which cards appear under each section in the Desktop Assistant home page, and the order in which they are displayed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/map-card-section.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -17,7 +18,7 @@ Map cards to sections to specify which cards appear under each section in the De
 
 ## Before you begin
 
-Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](install-app-device-health.md) and [Download and install Desktop Assistant](download-desktop-experience.md).
+Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/download-desktop-experience.md).
 
 Role required: sn\_dex\_desktop.admin
 
@@ -33,7 +34,7 @@ By default, Desktop Assistant provides: My resources and Quick links.
 
 3.  Select the application scope.
 
-    1.  Select the globe icon ![](../image/icon-globe.png) on the top navigation bar.
+    1.  Select the globe icon \[Omitted image "icon-globe.png"\] on the top navigation bar.
 
     2.  Select **Application scope** and then select **DEX Desktop Assistant** from the drop-down list.
 
@@ -43,7 +44,7 @@ By default, Desktop Assistant provides: My resources and Quick links.
 
 6.  On the Section to Card Mapping form, add the card name.
 
-    1.  In the **Desktop Assistant Card** field, select the Lookup using list icon ![](../image/icon-magnifying-glass-blue.png).
+    1.  In the **Desktop Assistant Card** field, select the Lookup using list icon \[Omitted image "icon-magnifying-glass-blue.png"\] Alt text:.
 
     2.  Select the card.
 

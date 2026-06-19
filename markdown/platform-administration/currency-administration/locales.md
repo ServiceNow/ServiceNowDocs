@@ -2,6 +2,7 @@
 title: Locale settings
 description: There are two locale settings, system and user. The system locale determines the reference currency, and the user locale determines the session currency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/currency-administration/locales.html
 release: zurich
 product: Currency Administration
 classification: currency-administration
@@ -22,7 +23,7 @@ You set the system locale using the **glide.system.locale** property. The value 
 -   `Language` is an ISO 639 language code.
 -   `Country` is an ISO 3166 language code.
 
-Internally, this value is used as specified by Java. The system locale setting should be in the [Java supported locales](http://www.oracle.com/technetwork/java/javase/javase7locales-334809.html) list. Set the system locale once after a fresh zBoot, because reference currency values that appear in currency fields are in the currency implied by the system locale. To set this property, see [Control default currency field configuration and use in an instance](../reference/currency-properties.md).
+Internally, this value is used as specified by Java. The system locale setting should be in the [Java supported locales](http://www.oracle.com/technetwork/java/javase/javase7locales-334809.html) list. Set the system locale once after a fresh zBoot, because reference currency values that appear in currency fields are in the currency implied by the system locale. To set this property, see [Control default currency field configuration and use in an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/currency-properties.md).
 
 **Note:** Do not change the system locale after currency values have been entered into the instance. When you change the system locale, the reference currency values are not adjusted. There is no rate conversion. This persistence results in invalid aggregations and filtering.
 
@@ -36,5 +37,5 @@ The ServiceNow AI Platform® determines the user locale in the following sequenc
 
 Amounts in currency fields are composed of a currency code and amount. Amounts always appear in the session currency, and are formatted in the Java-specified format for the user locale.
 
-**Parent Topic:**[Standard currency fields](configure-and-use-default-currency-fields.md)
+**Parent Topic:**[Standard currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/configure-and-use-default-currency-fields.md)
 

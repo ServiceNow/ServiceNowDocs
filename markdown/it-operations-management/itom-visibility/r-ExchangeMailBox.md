@@ -2,6 +2,7 @@
 title: Exchange MailBox discovery
 description: Discovery creates or updates a CMDB record when it detects a running instance of Exchange Mailbox.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/r-ExchangeMailBox.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -41,7 +42,7 @@ Additional notes
 
 </th></tr></thead><tbody><tr><td>
 
-[Applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+Applicative credentials
 
 </td><td>
 
@@ -51,7 +52,7 @@ The user must be able to run Powershell commands against the Exchange hosts. Use
 
 </td></tr><tr><td>
 
-[Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+Windows credentials
 
 </td><td>
 
@@ -72,5 +73,5 @@ The following data is collected on the Exchange Mailboxes \[cmdb\_ci\_exchange\_
 |Installation directory|install\_directory|
 |Type|type|
 
-**Parent Topic:**[Software discovery](../concept/c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_Software.md)
 

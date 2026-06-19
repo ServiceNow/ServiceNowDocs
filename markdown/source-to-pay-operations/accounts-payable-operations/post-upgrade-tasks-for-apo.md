@@ -2,6 +2,7 @@
 title: Post upgrade tasks for APO
 description: After you upgrade to Washington DC, you must review all the post-upgrade tasks and complete them as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/post-upgrade-tasks-for-apo.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations

@@ -2,7 +2,10 @@
 title: System properties for configuring WhatsApp \(WhatsApp Cloud API\)
 description: You can configure the system properties for your Conversational Integration with WhatsApp \(WhatsApp Cloud API\) application so that you can enable secure and authenticated communication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/direct-cloud-api-system-property-configuration.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-01-13"
 reading_time_minutes: 1

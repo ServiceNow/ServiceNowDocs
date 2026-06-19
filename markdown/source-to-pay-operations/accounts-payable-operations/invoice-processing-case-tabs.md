@@ -2,6 +2,7 @@
 title: Invoice processing case form tabs
 description: The Invoice form includes tabs that store invoice information that an Accounts Payable Specialist can use to perform related tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/invoice-processing-case-tabs.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -104,5 +105,5 @@ Task SLAs
 The service level agreements that are associated with this case.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Invoice processing case form](invoice-processing-case-form.md)
+</table>**Parent Topic:**[Invoice processing case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/invoice-processing-case-form.md)
 

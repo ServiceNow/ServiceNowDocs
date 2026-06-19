@@ -2,6 +2,7 @@
 title: GlideDynamicNamespace - Global
 description: The GlideDynamicNamespace API provides access to dynamic namespace metadata.Gets name of the dynamic namespace.Returns whether an object is an active dynamic namespace.Returns whether an object is a transient dynamic namespace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/GlideDynamicNamespaceAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,18 +16,18 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideDynamicNamespace API provides access to dynamic namespace metadata.
 
-This API provides methods that enable you to get dynamic schema values defined in the Dynamic Namespace \[dynamic\_namespace\] table. For more details on dynamic namespaces, see [Dynamic Schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+This API provides methods that enable you to get dynamic schema values defined in the Dynamic Namespace \[dynamic\_namespace\] table. For more details on dynamic namespaces, see .
 
 See also:
 
--   [GlideDynamicAttribute - Global](../../GlideDynamicAttribute/concept/GlideDynamicAttributeAPI.md#) — getNamespaceName\(\)
--   [GlideDynamicAttributeStore - Global](../../GlideDynamicAttributeStore/concept/GlideDynamicAttStoreAPI.md#)
+-   [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/GlideDynamicAttributeAPI.md) — getNamespaceName\(\)
+-   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
     -   getDynamicNamespace\(\)
     -   setDynamicNamespace\(\)
--   [GlideElement - Global](../../GlideElement_global/concept/c_GlideElementAPI.md#) — getDynamicNamespace\(\)
--   [GlideElementDynamicAttributeStore - Global](../../GlideElementDynamicAttributeStore/concept/GlideElementDynamicAttStoreAPI.md#) — getDynamicNamespace\(\)
+-   [GlideElement - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideElementAPI.md) — getDynamicNamespace\(\)
+-   [GlideElementDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/GlideElementDynamicAttStoreAPI.md) — getDynamicNamespace\(\)
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideDynamicNamespace - getName\(\)
 

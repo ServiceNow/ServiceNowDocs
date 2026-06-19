@@ -2,6 +2,7 @@
 title: Configure Walk-up Experience notifications
 description: As an administrator, you can create and use notifications to notify requesters about events that impact them while they’re getting their issue addressed through a walk-up experience. Requesters are notified of online appointments that they’ve taken or when their issue is assigned to a store representative by email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-notifications.html
 release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -42,8 +43,8 @@ Walk-up Experience includes several base system notifications that you can use o
 
     For more information, refer to the following topics:
 
-    -   [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
-    -   [Create a push message](https://www.servicenow.com/docs/access?context=t_CreateAPushMessage&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
-    For complete information regarding using the System Notification application, refer to [Notifications](https://www.servicenow.com/docs/access?context=notifications&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    -   Create an email notification
+    -   Create a push message
+    For complete information regarding using the System Notification application, refer to Notifications.
 
 

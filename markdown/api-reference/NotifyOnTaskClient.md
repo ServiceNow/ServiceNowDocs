@@ -2,6 +2,7 @@
 title: NotifyOnTaskClient - Client
 description: The NotifyOnTaskClient API provides methods for sending SMS messages or starting/managing a conference call for various telephony service providers, such as Zoom and Webex.Adds the specified participants to a specified conference call.Performs the specified conference call action, such as starting/ending a conference call or joining, removing, muting, or unmuting participants from a conference call.Terminates the specified conference call.Returns a JSON data template to use with the doConferenceAction\(\) method. Using this template automatically structures the data object so that you don't have to manually create it.Starts a new conference call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/NotifyOnTaskClient.html
 release: zurich
 product: API Reference
 classification: api-reference
@@ -29,9 +30,9 @@ Using the NotifyOnTaskClient API you can:
     -   start a conference call
     -   end a conference call
 
-The Notify \(com.snc.notify\) plugin requires a separate subscription. For additional information on activating the Notify plugin, see [Activate Notify](https://www.servicenow.com/docs/access?context=t_ActivateNotify&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+The Notify \(com.snc.notify\) plugin requires a separate subscription. For additional information on activating the Notify plugin, see Activate Notify.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/api-client.md)
 
 ## NotifyOnTaskClient - addParticipants\(Object data\)
 
@@ -690,7 +691,7 @@ function endConferenceCall() {
 
 Returns a JSON data template to use with the doConferenceAction\(\) method. Using this template automatically structures the data object so that you don't have to manually create it.
 
-Call this method prior to calling the doConferenceAction\(\) method. For the desired conference call action, set the desired parameters within the template, and then pass the template in the doConferenceAction\(\) call. For additional information on the valid parameters for each action, see [doConferenceAction\(\)](NotifyOnTaskClient.md#).
+Call this method prior to calling the doConferenceAction\(\) method. For the desired conference call action, set the desired parameters within the template, and then pass the template in the doConferenceAction\(\) call. For additional information on the valid parameters for each action, see [doConferenceAction\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/NotifyOnTaskClient.md).
 
 **Note:** This is a helper method. You can also manually construct this object and pass it into the doConferenceAction\(\) method and have the same outcome.
 

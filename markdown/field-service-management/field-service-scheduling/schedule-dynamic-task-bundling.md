@@ -2,6 +2,7 @@
 title: Schedule dynamic task bundling
 description: Schedule dynamic bundling to run at a specified time with Field Service Task Bundling.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/schedule-dynamic-task-bundling.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -37,7 +38,7 @@ Schedule and define the conditions used to bundle work order tasks dynamically. 
 
 5.  Select a Run type.
 
-    **Note:** For more information on Run types, see [Automatically run a script of your choosing](https://www.servicenow.com/docs/access?context=t_ScheduleAScriptExecution&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    **Note:** For more information on Run types, see Automatically run a script of your choosing.
 
 6.  Select **Update**.
 

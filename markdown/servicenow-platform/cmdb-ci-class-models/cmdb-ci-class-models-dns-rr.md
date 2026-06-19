@@ -2,6 +2,7 @@
 title: DNS resource record classes
 description: The CMDB CI Class Models ServiceNow Store app adds or updates classes for DNS records, also known as a DNS resource records \(RR\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-dns-rr.html
 release: zurich
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
@@ -17,13 +18,13 @@ The CMDB CI Class Models ServiceNow Store app adds or updates classes for DNS re
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## DNS zone resource records
 
 A DNS record is an entry in the domain name system \(DNS\) database that provides information about a specific aspect of a domain name. Each DNS record contains data associated with a domain name, such as IP addresses, mail server addresses, or other resources. Each type of record serves a specific purpose, such as mapping domain names to IP addresses \(A records\), identifying mail servers for a domain \(MX records\), and providing aliases for domain names \(CNAME records\), among others. DNS resource records are essential for the proper functioning of the DNS infrastructure on the internet.
 
-See the [full release notes for all CMDB CI Class Models](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/it-operations-management/store-rn-itom-cmdb-class-models.html?emcs_t=S2h8ZW1haWx8Ym9hcmRfc3Vic2NyaXB0aW9ufE1FMlVTSFREVDc3S0hTfDMzNDcxMjV8U1VCU0NSSVBUSU9OU3xoSw).
+See the CMDB CI Class Models release notes.
 
 **Note:** In CMDB CI Class Models release 1.57, existing classes in the CMDB schema that represent DNS resource records like A, AAAA, CName, and so on are deprecated. The following classes are defined with an ideal base, child class, and identification rule.
 
@@ -42,11 +43,11 @@ The supported record types enable actions like the following:
 -   Connect the data to the certificate on the DNS.
 -   Connect the data to the CDN provider.
 
-![DNS resource record class model.](../image/cmdb-ci-class-models-dns.png "DNS resource record classes integrated with the CMDB class hierarchy")
+\[Omitted image "cmdb-ci-class-models-dns.png"\] Alt text: DNS resource record class model.
 
 ## Table: cmdb\_ci\_dns\_resource\_record
 
-This section lists the classes that the CMDB CI Class Models store app adds or updates. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](../reference/cmdb-tables-details.md).
+This section lists the classes that the CMDB CI Class Models store app adds or updates. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 DNS record detail from Domain Name Server \(DNS\) for a WWW domain.
 

@@ -2,6 +2,7 @@
 title: Analytics and Reporting Solutions for Audit Management
 description: Platform Analytics contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/grc-audit-mgmt-content-pack.html
 release: zurich
 product: Audit Management
 classification: audit-management
@@ -19,9 +20,9 @@ The GRC: Audit Management Analytics and Reporting Solution is available on the S
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
-Platform Analytics data visualizations use Performance Analytics [indicator](https://www.servicenow.com/docs/access?context=now-platform-glossary&version=zurich&pubname=zurich-glossary&section=gloss-indicator&ft:locale=en-US) data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
+Platform Analytics data visualizations use Performance Analytics indicator data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
 
 To enable the Analytics and Reporting solution for GRC: Audit Management, perform these steps.
 
@@ -33,5 +34,5 @@ To enable the Analytics and Reporting solution for GRC: Audit Management, perfor
 
 Starting with version 18.1.5 of the Audit Management application, the Analytics and Reporting solutions for Audit Management such as the Audit Engagement Overview dashboard and Audit Manager dashboard are available in the Next Experience UI Framework.
 
-For more information, see [Audit Engagement Overview Performance Analytics dashboard](grc-audit-mgmt-dashboard.md) and [Audit Manager Performance Analytics dashboard](audit-manager-dashboard.md).
+For more information, see [Audit Engagement Overview Performance Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/grc-audit-mgmt-dashboard.md) and [Audit Manager Performance Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/audit-manager-dashboard.md).
 

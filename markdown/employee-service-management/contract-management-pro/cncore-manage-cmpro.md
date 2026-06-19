@@ -2,6 +2,7 @@
 title: Managing Contract Management Pro
 description: As administrator work on managing the word document templates, contracts and view analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-manage-cmpro.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -16,14 +17,14 @@ breadcrumb: [Contract Management Pro, Legal and Contract Operations, Employee Se
 
 As administrator work on managing the word document templates, contracts and view analytics.
 
--   **[Manage clauses, tables, and contract templates](cncore-manage-clauses-ctemplates.md)**  
+-   **[Manage clauses, tables, and contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-manage-clauses-ctemplates.md)**  
 As administrator manage clauses and contract templates.
--   **[Manage contract records](../task/cncore-manage-cont-records.md)**  
+-   **[Manage contract records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-manage-cont-records.md)**  
 As administrator manage contract records.
--   **[Platform Analytics Solutions for Contract Management Pro](../../../use/application-content-packs/concept/cncore-analytics-pa.md)**  
+-   **[Platform Analytics Solutions for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-analytics-pa.md)**  
 The Contracts Dashboard in Contract Management Pro is an analytics and reporting solution that enables you to make data-driven decisions through insights and trends derived from contract request data.
--   **[Modify assignment rule for contract requests](../task/cncore-create-assign-rule.md)**  
+-   **[Modify assignment rule for contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-create-assign-rule.md)**  
 As a contracts configurator modify the assignment rule available in the base system for any changes required in the user or group to whom the contract request should be assigned.
 
-**Parent Topic:**[Contract Management Pro](cncore-cmpro-landing-page.md)
+**Parent Topic:**[Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-cmpro-landing-page.md)
 

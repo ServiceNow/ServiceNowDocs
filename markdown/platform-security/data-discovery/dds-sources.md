@@ -2,6 +2,7 @@
 title: Data Discovery sources
 description: Create, and select the data patterns to be used in Data Discovery, and what tables to scan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-discovery/dds-sources.html
 release: zurich
 product: Data Discovery
 classification: data-discovery
@@ -19,7 +20,7 @@ The **Sources** tab of Data Discovery helps you review your all your data patter
 
 ## All Patterns
 
-The **All Patterns** table lists all current patterns. Note that inactive patterns will show up in this list.See [Create new data pattern](../task/dds-create-new-data-pattern.md) to create a new data pattern.
+The **All Patterns** table lists all current patterns. Note that inactive patterns will show up in this list.See [Create new data pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-discovery/dds-create-new-data-pattern.md) to create a new data pattern.
 
 **Note:** Patterns musts be active to be used in discovery jobs.
 
@@ -33,7 +34,7 @@ The **All Patterns** table lists all current patterns. Note that inactive patter
 
 ## Active Patterns
 
-The **Active Patterns** table lists all of the current active data patterns. See [Select active data patterns](../task/dds-active-data-patterns.md) to learn how set a pattern to active and used by discovery jobs.
+The **Active Patterns** table lists all of the current active data patterns. See [Select active data patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-discovery/dds-active-data-patterns.md) to learn how set a pattern to active and used by discovery jobs.
 
 |Label|Description|
 |-----|-----------|
@@ -45,7 +46,7 @@ The **Active Patterns** table lists all of the current active data patterns. See
 
 ## Target Tables
 
-The **Target Tables** table lists all tables currently selected for discovery jobs. See [Select target tables](../task/dds-select-target-tables.md) to select tables for use in discovery jobs.
+The **Target Tables** table lists all tables currently selected for discovery jobs. See [Select target tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-discovery/dds-select-target-tables.md) to select tables for use in discovery jobs.
 
 |Label|Description|
 |-----|-----------|

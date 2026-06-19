@@ -2,6 +2,7 @@
 title: Create an asset profile in Security Posture Control
 description: Create an asset profile with conditions to group assets. You can use these asset profiles in your policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/asset-profile.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -36,7 +37,7 @@ Roles required: SPC Admin Group or SPC Analyst Group
     -   **With CMDB metadata** - Collection of CMDB CI properties such as Host name, OS, OS version, First and Last seen, for example, or connections that have network adaptors or installed software.
     -   **With aggregated data** - Collection of properties with aggregated values reported by different sources for a given asset. An example is the various ways sources might report an OS version: `windows11`,`Win11`, `Windows 11`, and so on.
     -   **From CI class** - Collection of CI classes that includes Computer, Server, Virtual Machine Instance and others.
-    The operators and logic for this asset profile policy builder is similar to the one described in [Creating your own policies in the Security Posture Control application](spc-creating-policies.md).
+    The operators and logic for this asset profile policy builder is similar to the one described in [Creating your own policies in the Security Posture Control application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-creating-policies.md).
 
 6.  Select **Create**.
 
@@ -52,11 +53,11 @@ Roles required: SPC Admin Group or SPC Analyst Group
 
 10. Select **Save changes**.
 
-    The policy audits your assets based on data imported from your service graph connectors and includes the conditions of the asset profiles that you added. You can [Create and activate a configured insight for Security Posture Control](spc-create-custom-insight.md) and add asset profiles as a filter.
+    The policy audits your assets based on data imported from your service graph connectors and includes the conditions of the asset profiles that you added. You can [Create and activate a configured insight for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-create-custom-insight.md) and add asset profiles as a filter.
 
 11. Navigate to **All** &gt; **Security Posture Control Workspace** &gt; **Configured insights**.
 
-    You must [Create and activate a configured insight for Security Posture Control](spc-create-custom-insight.md) before data is displayed on this page.
+    You must [Create and activate a configured insight for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-create-custom-insight.md) before data is displayed on this page.
 
     Since the visualizations on this page are configured by policies, you can filter them with asset profiles. Filter the data for the visualizations by following these steps:
 

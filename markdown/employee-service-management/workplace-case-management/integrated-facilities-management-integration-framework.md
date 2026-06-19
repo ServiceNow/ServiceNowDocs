@@ -2,6 +2,7 @@
 title: Setup Integrated Facilities Management Integration Framework
 description: Set up the Integrated Facilities Management \(IFM\) Integration Framework to connect Workplace Cases and Tasks in ServiceNow with external facilities management provider systems, enabling automated work order synchronization and end‑to‑end visibility across platforms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-case-management/integrated-facilities-management-integration-framework.html
 release: zurich
 product: Workplace Case Management
 classification: workplace-case-management

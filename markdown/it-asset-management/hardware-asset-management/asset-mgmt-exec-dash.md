@@ -2,6 +2,7 @@
 title: Asset Management Executive Dashboard
 description: Use the Asset Management Executive Dashboard to gain visibility into critical KPIs for Hardware Asset Management, Software Asset Management, and Cloud Cost Management applications via a single dashboard.The Sustainable IT dashboard helps you track the environmental impact of your IT assets and displays a variety of information to gauge the sustainability impact of the hardware assets of an organization easily.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/asset-mgmt-exec-dash.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -19,7 +20,7 @@ To access the Asset Management Executive dashboard, you must either have Softwar
 
 To view the Asset Management Executive dashboard, navigate to **Asset Executive Workspace** &gt; **Asset Management Executive Dashboard**. A user with the role of sn\_itam\_common.asset\_exec can access the dashboard.
 
-![Asset Management Executive Dashboard](../image/itam-exec-dashboard.png "Asset Management Executive Dashboard")
+\[Omitted image "itam-exec-dashboard.png"\] Alt text: Asset Management Executive Dashboard
 
 You can filter the results in the dashboard by product, domain, or by both product and domain. If you filter by domain, the filter gets applied to all the widgets. If you filter by product, since some widgets are applicable for certain products, the filter isn’t applied to all the widgets.
 
@@ -343,7 +344,7 @@ Not applicable
 
 The Sustainable IT dashboard helps you track the environmental impact of your IT assets and displays a variety of information to gauge the sustainability impact of the hardware assets of an organization easily.
 
-You must install the Sustainable IT plugin \(sn\_esg\_sustain\) to view the Sustainable IT dashboard. For more information about the activating the Sustainable IT plugin, see [Activate the Sustainable IT plugin](https://www.servicenow.com/docs/access?context=activate-the-sustainable-it-plugin&version=zurich&pubname=zurich-environmental-social-governance&ft:locale=en-US).
+You must install the Sustainable IT plugin \(sn\_esg\_sustain\) to view the Sustainable IT dashboard. For more information about the activating the Sustainable IT plugin, see .
 
-To know more about the Sustainable IT dashboard data for your hardware assets, see [Sustainable IT dashboard](https://www.servicenow.com/docs/access?context=sustainable-it-dashboard&version=zurich&pubname=zurich-environmental-social-governance&ft:locale=en-US).
+To know more about the Sustainable IT dashboard data for your hardware assets, see .
 

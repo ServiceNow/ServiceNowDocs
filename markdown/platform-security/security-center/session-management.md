@@ -2,6 +2,7 @@
 title: Session management
 description: View metrics related to user sessions and the frequency of lockouts of the sessions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/security-center/session-management.html
 release: zurich
 product: Security Center
 classification: security-center
@@ -17,15 +18,15 @@ View metrics related to user sessions and the frequency of lockouts of the sessi
 
 The page displays a card displays a trend line for active sessions, representing the number of active sessions on your instance.
 
-![Session management](../images/session-man-1.png)
+\[Omitted image "session-man-1.png"\] Alt text: Session management
 
 Select the card to view additional details.
 
-![Session management details](../images/session-man-2.png)
+\[Omitted image "session-man-2.png"\] Alt text: Session management details
 
 From the details page, you can use the buttons on the edge of the screen to configure filters, KPI signals, targets, and thresholds.
 
-Select the **+Create task** button to create a Security Task related to a metric. For details on Security Tasks, see [Security Tasks](security-task-manager.md).
+Select the **+Create task** button to create a Security Task related to a metric. For details on Security Tasks, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/security-task-manager.md).
 
-**Parent Topic:**[Security metrics](sc-metrics.md)
+**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/sc-metrics.md)
 

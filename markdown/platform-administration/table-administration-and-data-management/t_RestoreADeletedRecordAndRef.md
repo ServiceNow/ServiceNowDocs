@@ -2,6 +2,7 @@
 title: Use the Deleted Records module to restore a deleted record
 description: You can recover deleted records that are in audited tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/t\_RestoreADeletedRecordAndRef.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -23,8 +24,8 @@ Role required: admin
 
 The instance can track deletions on any table, and references on audited tables, with a few exceptions. Record deletions are not tracked in these circumstances:
 
--   Record deletions are not tracked on tables with the `no_audit_delete=true` [dictionary attribute](../../reference-pages/concept/c_DictionaryAttributes.md).
--   Not all tables with a sys prefix track deletions by default. You can [Enable auditing for a system table](https://www.servicenow.com/docs/access?context=t_ConSysTablDelAud&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+-   Record deletions are not tracked on tables with the `no_audit_delete=true` [dictionary attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md).
+-   Not all tables with a sys prefix track deletions by default. You can Enable auditing for a system table.
 -   References are restored only if the reference field is on an audited table and the Restore Deleted Record plugin is activated.
 -   References that use an **Image** field type are not restored.
 
@@ -38,7 +39,7 @@ The instance can track deletions on any table, and references on audited tables,
 
 3.  Do one of the following to restore the record.
 
-<table id="choicetable_rxr_mx3_jdb"><tbody><tr><td id="d242428e126">
+<table id="choicetable_rxr_mx3_jdb"><tbody><tr><td id="d219612e126">
 
 **Undelete With Related**
 
@@ -46,7 +47,7 @@ The instance can track deletions on any table, and references on audited tables,
 
 Recovers the record and all cascaded deletes and other database actions that resulted from the delete.This option appears when a rollback context is available for the delete.
 
-</td></tr><tr><td id="d242428e138">
+</td></tr><tr><td id="d219612e138">
 
 **Recover entire operation**
 
@@ -54,7 +55,7 @@ Recovers the record and all cascaded deletes and other database actions that res
 
 If this record was deleted as part of another delete, all records from the parent delete are recovered including all cascaded deletes and other database actions that resulted from the parent delete. If this is the top level delete, then this is the same as **Undelete with Related**.This option appears when a rollback context is available for the delete.
 
-</td></tr><tr><td id="d242428e153">
+</td></tr><tr><td id="d219612e153">
 
 **Undelete Record**
 
@@ -76,5 +77,5 @@ The undelete operation performs an insert, which can trigger business rules. Thi
 
 When the process completes, a Restore Summary itemizes the changes and provides links for viewing the restored record or returning to the deleted records list.
 
-**Parent Topic:**[Roll back and delete recovery](../concept/rollback-delete-recovery.md)
+**Parent Topic:**[Roll back and delete recovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/rollback-delete-recovery.md)
 

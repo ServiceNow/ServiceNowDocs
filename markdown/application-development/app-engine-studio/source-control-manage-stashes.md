@@ -2,6 +2,7 @@
 title: Manage stashes
 description: App developers can apply or delete stashed changes from App Engine Studio \(AES\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/source-control-manage-stashes.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -33,7 +34,7 @@ App developers can apply or delete stashed changes from App Engine Studio \(AES\
 
 4.  Select the action next to the stash you want to manage.
 
-<table id="choicetable_vkd_kx5_lv"><tbody><tr><td id="d183503e109">
+<table id="choicetable_vkd_kx5_lv"><tbody><tr><td id="d41095e109">
 
 **Apply**
 
@@ -41,7 +42,7 @@ App developers can apply or delete stashed changes from App Engine Studio \(AES\
 
 Commits the stashed changes to the application and checks for conflicts.
 
-</td></tr><tr><td id="d183503e118">
+</td></tr><tr><td id="d41095e118">
 
 **Delete**
 
@@ -51,5 +52,5 @@ Removes the stashed changes.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Stash changes](../concept/stash-changes.md)
+**Parent Topic:**[Stash changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/stash-changes.md)
 

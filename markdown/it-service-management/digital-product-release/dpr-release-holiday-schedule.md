@@ -2,6 +2,7 @@
 title: Holiday schedules in a release
 description: You can associate a holiday schedule with a release so that the phase and release durations are calculated considering non-working days.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-product-release/dpr-release-holiday-schedule.html
 release: zurich
 product: Digital Product Release
 classification: digital-product-release
@@ -415,7 +416,7 @@ Original calendar span
 
 </td><td>
 
-Jul 8 to Sep 5![Calendar view of a release timeline without considering any holidays and weekends.](../image/dpr-schedule-in-release-without.png)
+Jul 8 to Sep 5\[Omitted image "dpr-schedule-in-release-without.png"\] Alt text: Calendar view of a release timeline without considering any holidays and weekends.
 
 </td></tr><tr><td>
 
@@ -423,7 +424,7 @@ Adjusted span, excluding non-working days
 
 </td><td>
 
-Jun 11 to Sep 5 ![Calendar view of a release timeline considering associated holiday schedule and weekends.](../image/dpr-schedule-in-release-with.png)
+Jun 11 to Sep 5 \[Omitted image "dpr-schedule-in-release-with.png"\] Alt text: Calendar view of a release timeline considering associated holiday schedule and weekends.
 
 </td></tr><tr><td>
 
@@ -451,5 +452,5 @@ Non-Working Days
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Exploring Digital Product Release](dpr-exploring-digital-product-release.md)
+**Parent Topic:**[Exploring Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-exploring-digital-product-release.md)
 

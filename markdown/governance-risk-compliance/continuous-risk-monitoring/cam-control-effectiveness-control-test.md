@@ -2,6 +2,7 @@
 title: Determine control effectiveness of a control test
 description: Apply the objective effectiveness of the assessment procedures and the operating effectiveness of the control test to determine the control effectiveness of the control test. An assessment procedure is applied to check the control test at a granular level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/continuous-risk-monitoring/cam-control-effectiveness-control-test.html
 release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -31,13 +32,13 @@ Role required: sn\_irm\_cont\_auth.system\_owner, sn\_irm\_cont\_auth.info\_syst
 
 5.  Select the **Operational test** tab to view the operating effectiveness of the control test.
 
-    **Note:** The **Examine**, **Interview**, and **Test** fields are pre-populated from the NIST control objectives, and aren’t editable at the control test level. If you must edit any of these descriptions, you can do so in the test plan form. See [Generate assessment procedure plans for a test plan](cam-assess-controls-assess-obj.md).
+    **Note:** The **Examine**, **Interview**, and **Test** fields are pre-populated from the NIST control objectives, and aren’t editable at the control test level. If you must edit any of these descriptions, you can do so in the test plan form. See [Generate assessment procedure plans for a test plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/cam-assess-controls-assess-obj.md).
 
 6.  Select the Assessment procedures related list to view the objective effectiveness of all the assessment procedures.
 
     The number of assessment procedures generated is exactly equal to the number of assessment procedure plans that were generated from the test plan.
 
-    ![Control effectiveness of a control test taking the operating effectiveness, and the objective effectiveness of all assessment objectives into effect.](../image/cam-control-effectiveness.png "Control effectiveness of a control test")
+    \[Omitted image "cam-control-effectiveness.png"\] Alt text: Control effectiveness of a control test taking the operating effectiveness, and the objective effectiveness of all assessment objectives into effect.
 
 
 

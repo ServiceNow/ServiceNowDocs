@@ -2,6 +2,7 @@
 title: Mapping DLP incident status with Netskope
 description: The incident status mapping section enables the users to provide the mappings between the DLP Incident status in ServiceNow and Netskope Object status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/data-loss-prevention/map-incident-status.html
 release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -49,7 +50,7 @@ You need to create a one-to-one incident status mapping of Netskope and ServiceN
     -   Provide the internal name of the default status \(For example: new, in\_progress, closed\) or exact name of status in case of custom state for the Netskope Object Status fields.
     **Warning:** Do not modify the status on the Netskope platform after completing the status mapping configuration from here.
 
-    ![Netskope DLP incident status mapping.](../image/dlp-netskope-incident-mapping.png)
+    \[Omitted image "dlp-netskope-incident-mapping.png"\] Alt text: Netskope DLP incident status mapping.
 
     |Field|Description|
     |-----|-----------|
@@ -67,5 +68,5 @@ After successfully creating the record for status mapping, whenever there is an 
 
 **Note:** If you change the status of any DLP incident on Netskope tenant directly, then the status sync from SN to Netskope will not work considering the API limitations. Ensure you map all the DLP incident status with Netskope object status carefully.
 
-**Parent Topic:**[Data Loss Prevention Incident Response Integration with Netskope](../concept/dlp-incident-response-integration-netskope.md)
+**Parent Topic:**[Data Loss Prevention Incident Response Integration with Netskope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/dlp-incident-response-integration-netskope.md)
 

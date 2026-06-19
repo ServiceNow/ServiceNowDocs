@@ -2,6 +2,7 @@
 title: Metric Definition Threshold form
 description: Use the Metric Definition Threshold form to define performance limits for a metric and control how the system responds when those limits are reached.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/metric-definition-threshold-form-irm.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -48,7 +49,7 @@ Threshold type
 Type of threshold. The available options are:-   **Static**: A fixed value used as a limit for tracking a metric.
 -   **Dynamic**: Percentage-based thresholds where variance is calculated based on metric direction and previous period data.
 
-For more information, see [Thresholds in Integrated Risk Management](../concept/thresholds-in-irm.md).
+For more information, see [Thresholds in Integrated Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/thresholds-in-irm.md).
 
 </td></tr><tr><td>
 
@@ -107,5 +108,5 @@ Actions
 Actions to execute when the threshold is exceeded. Available actions include Send email and create issue.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a threshold for a metric](../task/t_create-threshold-for-metrics.md)
+</table>**Parent Topic:**[Create a threshold for a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/t_create-threshold-for-metrics.md)
 

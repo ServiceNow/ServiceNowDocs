@@ -2,6 +2,7 @@
 title: Set up similar records prediction model
 description: Use Task Intelligence for ITSM to set up similar records prediction model, define the purpose of the model, and train it with your data to make predictions. Access your model's performance results, set the prediction preferences and behavior, and deploy your model. 
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/task-intelligence-for-itsm/set-up-similar-records-prediction-model.html
 release: zurich
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
@@ -34,19 +35,19 @@ You can configure any of the following similarity-based models:
 
 2.  On the **Surface similar records to reduce resolution time** card, select **Set up model**.
 
-    ![Similarity_model_Template](../image/TI_Similarity_model_template.png)
+    \[Omitted image "TI\_Similarity\_model\_template.png"\] Alt text: Similarity\_model\_Template
 
     This action opens the model and displays the introductory pages. Each page in the model asks you questions and helps you select the information needed to build an effective model.
 
 
--   **[Define the purpose](define-the-purpose.md)**  
+-   **[Define the purpose](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/task-intelligence-for-itsm/define-the-purpose.md)**  
 Specify the purpose of the similar records model. You can select the prediction table for which predictions will be generated. Then, select the training table \(Incidents, Problems, or Change Requests\) which will appear as predictions based on similarities between their selected fields.
--   **[Train the similarity model](train-the-similarity-model.md)**  
+-   **[Train the similarity model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/task-intelligence-for-itsm/train-the-similarity-model.md)**  
 Train your similar record models with training data to predict the similar records by recognizing similarities between fields of Incident table and training tables.
--   **[Assess the similarity model](assess-the-similarity-model.md)**  
+-   **[Assess the similarity model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/task-intelligence-for-itsm/assess-the-similarity-model.md)**  
 Assess the results from the model training and view sample results to see the similar records predicted for incidents. Reviewing the results gives you a preview of how your model will perform after being deployed. Based on the sample results, select the prediction preference.
--   **[Deploy the similarity model](deploy-the-similarity-model.md)**  
+-   **[Deploy the similarity model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/task-intelligence-for-itsm/deploy-the-similarity-model.md)**  
 Deploy the Similar incidents model to predict the similar records for the incidents. 
 
-**Parent Topic:**[Create a similar records prediction model in Task Intelligence for ITSM](create-a-similar-records-model-in-task-intelligence-for-itsm.md)
+**Parent Topic:**[Create a similar records prediction model in Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/task-intelligence-for-itsm/create-a-similar-records-model-in-task-intelligence-for-itsm.md)
 

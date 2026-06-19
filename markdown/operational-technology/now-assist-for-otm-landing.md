@@ -2,7 +2,10 @@
 title: Now Assist for Operational Technology Manager \(OTM\)
 description: Use the Now Assist for Operational Technology Manager \(OTM\) application to help streamline processes in the Industrial Workspace related to your Operational Technology \(OT\) device data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/now-assist-for-otm-landing.html
 release: zurich
+product: Operational Technology
+classification: operational-technology
 topic_type: concept
 last_updated: "2025-11-07"
 reading_time_minutes: 3
@@ -17,17 +20,17 @@ Use the Now Assist for Operational Technology Manager \(OTM\) application to hel
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about Now Assist for OTM](exploring-now-assist-for-otm.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for OTM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/exploring-now-assist-for-otm.md)
 
 </td><td>
 
-[Configure](configuring-na-otm.md)
+[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/configuring-na-otm.md)
 
- [![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure the Now Assist for OTM application to get started](configuring-na-otm.md)
+ [\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for OTM application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/configuring-na-otm.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-supervised-machine-learning.svg)Use generative AI capabilities offered by Now Assist for OTM](using-now-assist-for-otm.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for OTM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/using-now-assist-for-otm.md)
 
 </td></tr><tr><td>
 
@@ -35,9 +38,9 @@ Use the Now Assist for Operational Technology Manager \(OTM\) application to hel
 
 </td><td>
 
-[Use the OTM AI agent collection](now-assist-for-otm-use-cases.md)
+[Use the OTM AI agent collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/now-assist-for-otm-use-cases.md)
 
- [![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Use agentic workflows for Now Assist for OTM](now-assist-for-otm-use-cases.md)
+ [\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows for Now Assist for OTM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/now-assist-for-otm-use-cases.md)
 
 </td><td>
 
@@ -67,7 +70,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect incident data \(for Incident Assist and Knowledge Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect incident data \(for Incident Assist and Knowledge Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+For more information, see the Now Assist documentation.
 

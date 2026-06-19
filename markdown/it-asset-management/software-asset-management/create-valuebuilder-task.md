@@ -2,6 +2,7 @@
 title: Create a Value builder task
 description: Manually create a Value builder task for publisher packs not being fully utilized in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/create-valuebuilder-task.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management

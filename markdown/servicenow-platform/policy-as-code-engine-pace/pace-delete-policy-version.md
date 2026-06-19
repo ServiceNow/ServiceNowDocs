@@ -2,6 +2,7 @@
 title: Delete a PaCE policy version
 description: You can delete a policy version at any time. However, only versions that have never been published can be deleted. Published versions are stored for auditing purposes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/policy-as-code-engine-pace/pace-delete-policy-version.html
 release: zurich
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

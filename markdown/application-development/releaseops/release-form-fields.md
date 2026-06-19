@@ -2,6 +2,7 @@
 title: Release form
 description: Create a release for the deployment requests to be deployed to target instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/releaseops/release-form-fields.html
 release: zurich
 product: ReleaseOps
 classification: releaseops
@@ -45,7 +46,7 @@ State
 
 </td><td>
 
-The state of the release, which will be moved automatically after the release admin selects Activate Release and the release process begins. See [Release states](release-states.md).
+The state of the release, which will be moved automatically after the release admin selects Activate Release and the release process begins. See [Release states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/release-states.md).
 
 </td></tr><tr><td>
 
@@ -114,5 +115,5 @@ Release date
 The date on which the release will be pushed to the destination environment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ReleaseOps reference](releaseops-reference.md)
+</table>**Parent Topic:**[ReleaseOps reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/releaseops-reference.md)
 

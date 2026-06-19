@@ -2,6 +2,7 @@
 title: Filters in Platform Analytics
 description: Filter lists and data visualizations on an inline or technical dashboard. Filter by possible data value, by whether the value is true or false, or by date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/interactive-filters-workspace.html
 release: zurich
 topic_type: concept
 last_updated: "2025-08-25"
@@ -17,13 +18,13 @@ Add an interactive filter to a Platform Analytics dashboard
 
 The preceding video illustrates how to create a filter, in this case a multi-select filter for table data.
 
-You can create a filter for either an inline dashboard or a technical dashboard. Inline dashboards are those dashboards created and populated in the inline dashboard editor. Technical dashboards are populated in the UI Builder and are more flexible but require considerably more expertise. For example, on a technical dashboard, you have to create custom event handlers for filters to apply to lists or data visualizations.
+You can create a filter for either an inline dashboard or a technical dashboard. Inline dashboards are those dashboards created and populated in the [inline dashboard editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboards-glossary.md). Technical dashboards are populated in the UI Builder and are more flexible but require considerably more expertise. For example, on a technical dashboard, you have to create custom event handlers for filters to apply to lists or data visualizations.
 
-**Note:** When you enable User Experience Analytics filters within Platform Analytics dashboards, they operate as global filters. This means their effect is comprehensive, impacting all visualizations across the entire dashboard, not just a single visualization.
+**Note:** When you enable Usage Insights filters within Platform Analytics dashboards, they operate as global filters. This means their effect is comprehensive, impacting all visualizations across the entire dashboard, not just a single visualization.
 
 **Note:** The default maximum number of custom filters you can save for user experience analytics application is 500. You can modify the number of custom filters in theuxa.query\_builder.max\_num\_of\_user\_filter property.
 
-When you edit Core UI filters dashboards migrated in compatibility mode, you do so in the Core UI tools. For more information, see [Reporting, dashboards, and Performance Analytics in the Core UI](../../reporting/concept/classic-vis-overview.md).
+When you edit Core UI filters dashboards migrated in compatibility mode, you do so in the Core UI tools. For more information, see [Reporting, dashboards, and Performance Analytics in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/classic-vis-overview.md).
 
 ## Filters on inline dashboards
 
@@ -41,11 +42,11 @@ When you create a filter, you first specify the filter type. All further configu
 
 ## Retaining filter values
 
-On inline dashboards, filters retain their values across logins or page refreshes. However, these values are no longer retained when someone edits the filter configuration. Afterward, the filter reverts to its default values for all users on their next login or page refresh. On technical dashboards and pages created in UI Builder, filters do not retain values across logins or refreshes. For an exception, see [Add a dashboard to a Dashboards page](../../performance-analytics/task/add-dashboard-to-workspace.md).
+On inline dashboards, filters retain their values across logins or page refreshes. However, these values are no longer retained when someone edits the filter configuration. Afterward, the filter reverts to its default values for all users on their next login or page refresh. On technical dashboards and pages created in UI Builder, filters do not retain values across logins or refreshes. For an exception, see [Add a dashboard to a Dashboards page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/add-dashboard-to-workspace.md).
 
-Filter values can also be retained when you export an inline dashboard. When you export a dashboard to Microsoft PowerPoint, filter values are applied automatically. When you export a dashboard to PDF, you have the option whether or not to retain filter values. Filter values are not retained when you export a technical dashboard. For more information, see [Export a Platform Analytics dashboard](../../dashboards/task/export-pae-dashboard-ppt.md).
+Filter values can also be retained when you export an inline dashboard. When you export a dashboard to Microsoft PowerPoint, filter values are applied automatically. When you export a dashboard to PDF, you have the option whether or not to retain filter values. Filter values are not retained when you export a technical dashboard. For more information, see [Export a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/export-pae-dashboard-ppt.md).
 
 ## Domain filters
 
-You can filter visualizations by domain on domain-separated instances. Domain filtering uses a different component. For more information, see [Create a domain filter](../task/create-domain-filter.md#).
+You can filter visualizations by domain on domain-separated instances. Domain filtering uses a different component. For more information, see [Create a domain filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-domain-filter.md).
 

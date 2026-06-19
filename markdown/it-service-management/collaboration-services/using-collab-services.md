@@ -2,6 +2,7 @@
 title: Using Collaboration services
 description: Use Slack as a communication channel to communicate with the users to resolve their incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/collaboration-services/using-collab-services.html
 release: zurich
 product: Collaboration Services
 classification: collaboration-services
@@ -16,8 +17,8 @@ breadcrumb: [Collaboration services, IT Service Management]
 
 Use Slack as a communication channel to communicate with the users to resolve their incidents.
 
--   **[Import messages from an incident](../task/import-messages-from-incident.md)**  
+-   **[Import messages from an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/import-messages-from-incident.md)**  
 You can import messages from a slack channel for an incident and append them in the **Comments** to store all important messages in the ServiceNow® instance.
 
-**Parent Topic:**[Collaboration services](collab-services-tcm.md)
+**Parent Topic:**[Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/collab-services-tcm.md)
 

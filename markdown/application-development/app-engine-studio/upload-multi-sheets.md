@@ -2,6 +2,7 @@
 title: Use a spreadsheet to add data
 description: Add data tables and records to your application by uploading a Microsoft Excel spreadsheet.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/upload-multi-sheets.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -15,16 +16,16 @@ breadcrumb: [Create a data model, Enhance your app, Build, App Engine Studio, Bu
 
 Add data tables and records to your application by uploading a Microsoft Excel spreadsheet.
 
-Use the following procedures to upload a spreadsheet and use it to create data tables and import data records. Use the [Import a spreadsheet](spreadsheet-importing-spreadsheet.md) procedure first to upload your spreadsheet, and then create data tables from your spreadsheet import as needed.
+Use the following procedures to upload a spreadsheet and use it to create data tables and import data records. Use the [Import a spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/spreadsheet-importing-spreadsheet.md) procedure first to upload your spreadsheet, and then create data tables from your spreadsheet import as needed.
 
--   **[Import a spreadsheet](spreadsheet-importing-spreadsheet.md)**  
+-   **[Import a spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/spreadsheet-importing-spreadsheet.md)**  
 Upload a Microsoft Excel spreadsheet and use it to create your application data model.
--   **[Create new table from spreadsheet import](spreadsheet-create-new-table.md)**  
+-   **[Create new table from spreadsheet import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/spreadsheet-create-new-table.md)**  
 Create new tables directly from a Microsoft Excel spreadsheet import.
--   **[Create new table from extensible table and spreadsheet import](spreadsheet-create-new-ext-table.md)**  
+-   **[Create new table from extensible table and spreadsheet import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/spreadsheet-create-new-ext-table.md)**  
 Create a new table by extending an existing table, and then using a Microsoft Excel spreadsheet import to update or customize it.
--   **[Modify existing table using spreadsheet import](spreadsheet-import-existing-table.md)**  
+-   **[Modify existing table using spreadsheet import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/spreadsheet-import-existing-table.md)**  
 Use a Microsoft Excel spreadsheet import to update an existing application table.
 
-**Parent Topic:**[Create a data model for your application](../concept/add-data.md)
+**Parent Topic:**[Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-data.md)
 

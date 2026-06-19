@@ -2,7 +2,10 @@
 title: Search the knowledge base
 description: Use the customer portal to search the knowledge base or view a list of popular knowledge base articles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_SearchTheKnowledgeBase.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -34,7 +37,7 @@ The customer service portal includes a link to the knowledge base that you can u
     -   Most viewed
 3.  Do one of the following,
 
-<table id="choicetable_fs5_krt_vr"><tbody><tr><td id="d250488e109">
+<table id="choicetable_fs5_krt_vr"><tbody><tr><td id="d247921e109">
 
 **Click a product to display more specific information**
 
@@ -42,7 +45,7 @@ The customer service portal includes a link to the knowledge base that you can u
 
 Displays a list of categories on the left and articles on the right. Click a category to drill down even further.
 
-</td></tr><tr><td id="d250488e118">
+</td></tr><tr><td id="d247921e118">
 
 **Click a link from one of the lists**
 
@@ -50,7 +53,7 @@ Displays a list of categories on the left and articles on the right. Click a cat
 
 Displays the article.
 
-</td></tr><tr><td id="d250488e127">
+</td></tr><tr><td id="d247921e127">
 
 **Type a topic in the __Search__ field and press the Enter key**
 

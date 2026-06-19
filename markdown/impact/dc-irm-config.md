@@ -2,7 +2,10 @@
 title: Configure Data Collection for IRM
 description: Configure Data Collection for IRM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/dc-irm-config.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -27,6 +30,6 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
 
 2.  Enter the data point in the relevant month cell.
 
-    ![Example with empty Oct 2024 cell selected.](../image/dct_config_irm.png)
+    \[Omitted image "dct\_config\_irm.png"\] Alt text: Example with empty Oct 2024 cell selected.
 
 

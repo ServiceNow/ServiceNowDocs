@@ -2,6 +2,7 @@
 title: StopWatch - Client
 description: The StopWatch API provides methods to measure the duration of operations.Creates an instance of the StopWatch class.Creates an instance of the StopWatch class using the specified date as the initial value.Returns the number of milliseconds since the timer started.Resets the timer start to the current time.Returns the elapsed time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/c\_StopWatchAPI.html
 release: zurich
 product: API Reference
 classification: api-reference
@@ -17,7 +18,7 @@ The StopWatch API provides methods to measure the duration of operations.
 
 You can use this API in client-side scripts using ListV2 and ListV3 APIs.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/api-client.md)
 
 ## StopWatch - StopWatch\(\)
 

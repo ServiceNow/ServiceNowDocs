@@ -2,11 +2,12 @@
 title: Onboard Jira to DevOps Change Velocity — Service Catalog
 description: Create, connect, discover, and configure your Jira Server or Jira Cloud instance using the ServiceNow Service Catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/sc-jira.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Jira, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -65,7 +66,7 @@ Jira Cloud
 1.  In the **Tool name** field, enter a name for the tool.
 2.  In the **Tool integration** field, search for and select Jira Cloud.
 3.  in the **Tool URL** field, enter your Jira Cloud instance URL.
-4.  In the **Credential type** field, select **Basic Auth** or **OAuth 2.0**.
+4.  In the **Credential type** field, select **Basic Auth** or **OAuth 2.0 with 3LO**.
 
 **Basic Auth**
 
@@ -74,17 +75,9 @@ Jira Cloud
 **Note:** The Jira user that you use here must have the Jira Administrators permissions.
 
     2.  Enter the password or access token to access this instance.
-**OAuth 2.0**
+**OAuth 2.0 with 3LO**
 
-Pre-requisites:
-
-    -   
-    -   [Obtain the value of Cloud ID](https://www.servicenow.com/docs/access?context=setup-jira-serv-mgmt&version=zurich&pubname=zurich-integrate-applications&section=jira-cloud-id&ft:locale=en-US)
-    -   
-    -   Create credential record for Jira Cloud
-In the **Tool credential** field, select an existing OAuth 2.0 tool credential record.
-
-**Note:** Only records that are not in use and configured for Jira Cloud can be selected as an existing credential record.
+Select the OAuth credential record. For more information, see [Connect a Jira tool using OAuth 2.0 with 3LO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/connect-a-jira-tool-using-oauth-2-0-with-3lo.md).
 
 5.  If you want to configure webhooks for all the projects discovered in your Jira instance, then select the option **Do you wish to configure webhook for the tool?**
 
@@ -94,7 +87,7 @@ In the **Tool credential** field, select an existing OAuth 2.0 tool credential r
 
 
 </td></tr></tbody>
-</table>    For a list of all the permissions required on the credentials for connecting to Jira, see Jira permissions in [Permissions required for DevOps tools](../reference/tool-req-permission.md).
+</table>    For a list of all the permissions required on the credentials for connecting to Jira, see Jira permissions in [Permissions required for DevOps tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/tool-req-permission.md).
 
 5.  Select **Order Now**.
 
@@ -166,5 +159,5 @@ Select the dates for which you want to import the data. By default, the last 30 
     A request is created. When the request is approved, the plan objects are associated to the app record, which enables real-time tracking. Historical data is also imported for the selected plans. The **Track** field is automatically enabled for imported plans.
 
 
-**Parent Topic:**[Jira integration with DevOps Change Velocity](../concept/jira-integration-dev-ops.md)
+**Parent Topic:**[Jira integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/jira-integration-dev-ops.md)
 

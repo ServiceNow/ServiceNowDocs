@@ -2,6 +2,7 @@
 title: Verify Lifecycle Events Employee requests configuration
 description: Use the Preview and Test capabilities to verify that the employee request activity has been configured correctly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/lifecycle-events/test-verify-employee-request.html
 release: zurich
 product: Lifecycle Events
 classification: lifecycle-events
@@ -54,5 +55,5 @@ This task requires that you download the demo data that is provided with the Hum
     **Note:** Menu items are visible to different users depending on the audience configuration for the request. In this example that uses demo data, all users see the menu item.
 
 
-**Parent Topic:**[Lifecycle Events employee requests](../concept/employee-requests.md)
+**Parent Topic:**[Lifecycle Events employee requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/employee-requests.md)
 

@@ -2,6 +2,7 @@
 title: Recommend invoice owner AI agent
 description: For Non-purchase order \(PO\) invoices and Non-PO credit memos, the Recommend invoice owner AI agent is triggered when a Missing or invalid business owner exception occurs. The AI agent identifies the missing business owner through semantic matching or by creating tasks. The AI agent supports Amazon Claude, Google Gemini, Now LLM, and GPT models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/recommend-invoice-owner-ai-agent.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -16,12 +17,12 @@ breadcrumb: [Using AI agents in Now Assist for Accounts Payable Operations, Now 
 
 For Non-purchase order \(PO\) invoices and Non-PO credit memos, the Recommend invoice owner AI agent is triggered when a Missing or invalid business owner exception occurs. The AI agent identifies the missing business owner through semantic matching or by creating tasks. The AI agent supports Amazon Claude, Google Gemini, Now LLM, and GPT models.
 
--   **[Configuring invoice owner prediction settings](configuring-bo-prediction-settings.md)**  
+-   **[Configuring invoice owner prediction settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/configuring-bo-prediction-settings.md)**  
 The Recommend invoice owner AI agent uses a set of configurable system properties. These properties define the logic to identify and assign business owners for Non-PO invoices and Non-PO credit memos.
--   **[Use Recommend invoice owner AI agent](../task/use-recommend-invoice-owner-ai-agent.md)**  
+-   **[Use Recommend invoice owner AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/use-recommend-invoice-owner-ai-agent.md)**  
 Use the Recommend invoice owner AI agent to detect business owners for Non-PO invoices and Non-PO credit memos that lack an owner. The AI agent analyzes historically processed invoices to recommend the most likely business owner, which an accounts payable specialist can review, approve, or override.
--   **[Resolution plan scenarios](../reference/resolution-plan-scenarios.md)**  
+-   **[Resolution plan scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/resolution-plan-scenarios.md)**  
 The Recommend invoice owner AI agent handles different scenarios when resolving Missing or invalid business owner exceptions. For each scenario, the AI agent recommends a resolution plan based on historically processed invoices and supplier information.
 
-**Parent Topic:**[Using AI agents in Now Assist for Accounts Payable Operations](using-apo-ai-agents.md)
+**Parent Topic:**[Using AI agents in Now Assist for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/using-apo-ai-agents.md)
 

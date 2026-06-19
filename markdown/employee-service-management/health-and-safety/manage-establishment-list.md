@@ -2,11 +2,12 @@
 title: Manage the list of establishments
 description: Manage the establishment list for your organization​. The recordable injury and illness records are grouped using this establishment information for auto-filing and exporting the reports such as OSHA 300 and 300A forms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety/manage-establishment-list.html
 release: zurich
 product: Health and Safety
 classification: health-and-safety
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Health and Safety injury and illness reports, Health and Safety, Employee Service Management]
 ---
@@ -21,13 +22,13 @@ Role required: sn\_ohs\_im.compliance\_manager
 
 ## About this task
 
-You can view the exported reports, such as OSHA 300 and 300A forms, for an establishment by navigating to the establishment record in the list. For more information, see [View a saved OSHA 300 and 300A form](view-osha-annual-forms.md).
+You can view the exported reports, such as OSHA 300 and 300A forms, for an establishment by navigating to the establishment record in the list. For more information, see [View a saved OSHA 300 and 300A form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/view-osha-annual-forms.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
-2.  Select the incident management icon \(![Incident Management icon.](../image/list-icon-hs.png)\).
+2.  Select the incident management icon \(\[Omitted image "list-icon-hs.png"\] Alt text: Incident Management icon.\).
 
 3.  In the **Lists** tab, under the **Establishments** list, select **All**.
 
@@ -75,7 +76,7 @@ This establishment is available in the **Establishment** field's list on an inju
 
 ## What to do next
 
-In the **Annual information** tab, add the annual total hours worked for this establishment. For more information, see [Add total hours worked for an establishment](add-hs-total-hours-worked-establishment.md).
+In the **Annual information** tab, add the annual total hours worked for this establishment. For more information, see [Add total hours worked for an establishment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/add-hs-total-hours-worked-establishment.md).
 
-**Parent Topic:**[Health and Safety injury and illness reports](../concept/injury-illness-reports.md)
+**Parent Topic:**[Health and Safety injury and illness reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/injury-illness-reports.md)
 

@@ -2,6 +2,7 @@
 title: View an audit result in the Compliance view
 description: After an audit has run, you can view the results and follow-on tasks from the Compliance view in the records of every CI audited.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/t\_ViewAuditResultCompliView.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

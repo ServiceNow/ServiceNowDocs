@@ -2,6 +2,7 @@
 title: Jeopardy Management roles and personas
 description: Learn more about how the roles and personas in Order Management may change by adopting Jeopardy Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/jeopardy-management-roles.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -106,5 +107,5 @@ Service order agent
 sn\_ind\_tmt\_orm.service\_order\_agent
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Order Management reference](../reference/order-mgt-reference.md)
+</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-mgt-reference.md)
 

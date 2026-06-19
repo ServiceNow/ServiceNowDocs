@@ -2,6 +2,7 @@
 title: Orchestration activity designer
 description: The Orchestration activity designer enables a user with either the workflow\_admin or activity\_creator and workflow\_creator roles to construct reusable activities that suit an organization's business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/orchestration/c\_WorkflowActivityDesigner.html
 release: zurich
 product: Orchestration
 classification: orchestration
@@ -17,7 +18,7 @@ The Orchestration activity designer enables a user with either the workflow\_adm
 
 Activities created by the activity designer offer the following advantages over core activities offered in previous releases:
 
--   Reuse [custom activities](../task/create-custom-activities.md) in multiple workflows.
+-   Reuse [custom activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/create-custom-activities.md) in multiple workflows.
 -   Upload and download custom activities from the ServiceNow Store.
 -   Parse data from standard input formats.
 -   Test input variables against a target host or endpoint and inspect the payload.
@@ -25,11 +26,11 @@ Activities created by the activity designer offer the following advantages over 
 -   Share data between activities.
 -   View previous versions of an activity.
 
-Access to the activity designer requires activation of ServiceNow Orchestration. For instructions about managing transitions and conditions for all activities, see [Workflow activities](https://www.servicenow.com/docs/access?context=c_WorkflowActivities&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+Access to the activity designer requires activation of ServiceNow Orchestration. For instructions about managing transitions and conditions for all activities, see .
 
 Orchestration provides numerous pre-defined activities, which are reusable components that can be used in numerous workflows without having to understand the complexities of the underlying system. These activities are grouped into activity packs, which address specific business needs, such as: Active Directory, Azure AD, Exchange, Infoblox DDI, and PowerShell. There are other ServiceNow applications which provide and maintain their own separate activity packs, such as Security Incident Response, Cloud Management, or Release Automation.
 
-Customers can also build their own activities and activity packs. You can construct custom activities with a specified template through the [Orchestration Activity Designer](c_WorkflowActivityDesigner.md). Custom-built activities built with the Activity Designer are referred to as activity elements. Activity elements provide optimal operations, enable code reuse, and minimize the need to write code. They also enable you to follow the flow of data within a given workflow across orchestration activities. Incorporating activity elements limits the dependency on the scratchpad which reduces problems in complex workflows. Limit the use of core activities, like ‘Run Script’, unless you need direct access the scratchpad, for example, for a counter. Activity elements do not have direct access to the scratchpad. You can, however, pass scratchpad variables as inputs into your activities.
+Customers can also build their own activities and activity packs. You can construct custom activities with a specified template through the [Orchestration Activity Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_WorkflowActivityDesigner.md). Custom-built activities built with the Activity Designer are referred to as activity elements. Activity elements provide optimal operations, enable code reuse, and minimize the need to write code. They also enable you to follow the flow of data within a given workflow across orchestration activities. Incorporating activity elements limits the dependency on the scratchpad which reduces problems in complex workflows. Limit the use of core activities, like ‘Run Script’, unless you need direct access the scratchpad, for example, for a counter. Activity elements do not have direct access to the scratchpad. You can, however, pass scratchpad variables as inputs into your activities.
 
 Orchestration activities created by the activity designer:
 
@@ -39,22 +40,22 @@ Orchestration activities created by the activity designer:
 -   Use versioning
 -   Provide a consistent approach for activity development regardless protocol
 
-**Note:** Prior to the Fujirelease, activities were built with [Activity Definitions](https://www.servicenow.com/docs/access?context=t_ViewActivityDescriptions&version=zurich&pubname=zurich-build-workflows&section=r_ElmtsWkflwActDef&ft:locale=en-US). In Fuji, a new architecture was introduced using the Activity Designer. Orchestration Core activities, built originally as Activity Definitions, have been converted to use the new template format \(Activity Elements\) and the databus offered with the activity designer. Workflows in upgraded instances that use legacy activities continue to work normally.
+**Note:** Prior to the Fujirelease, activities were built with Activity Definitions. In Fuji, a new architecture was introduced using the Activity Designer. Orchestration Core activities, built originally as Activity Definitions, have been converted to use the new template format \(Activity Elements\) and the databus offered with the activity designer. Workflows in upgraded instances that use legacy activities continue to work normally.
 
-For instructions on using activities to construct a workflow, see [Add an activity to a workflow](https://www.servicenow.com/docs/access?context=t_AddAnActivityToAWorkflow&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+For instructions on using activities to construct a workflow, see Add an activity to a workflow.
 
--   **[Introduction to credentials, connections, and aliases for Orchestration](credentials-conn-alias-orch.md#)**  
+-   **[Introduction to credentials, connections, and aliases for Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/credentials-conn-alias-orch.md)**  
 All application integrations in Orchestration require connection information, credentials, and connection and credential aliases to their respective applications to access resources.
--   **[Create custom activities using custom activity designer templates](../task/create-custom-activities.md)**  
+-   **[Create custom activities using custom activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/create-custom-activities.md)**  
 You can create and update different types of custom activities in the Workflow Editor using a custom template.
--   **[Orchestration custom activity templates](c_ActivityDesignerComponents.md)**  
+-   **[Orchestration custom activity templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_ActivityDesignerComponents.md)**  
 Orchestration provides customizable activity templates to create and manage custom activities in the Workflow Editor.
--   **[Activity scoping](c_ActivityScoping.md)**  
+-   **[Activity scoping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_ActivityScoping.md)**  
 Custom activities run in their own scope, even if it is different from that of the workflow.
--   **[Publish a custom activity](../task/t_PublishACustomActivity.md#)**  
+-   **[Publish a custom activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_PublishACustomActivity.md)**  
 When a user creates a custom activity and saves or submits it, that activity appears in the **Custom** and **Packs** tabs of the designer palette, but is visible only to the user who created it.
--   **[Copy a custom activity](../task/t_CopyACustomActivity.md)**  
+-   **[Copy a custom activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CopyACustomActivity.md)**  
 You can copy activities for reuse from the **Custom** tab in the global scope.
 
-**Parent Topic:**[Classic Orchestration](../../../product/orchestration/reference/r-orchestration.md)
+**Parent Topic:**[Classic Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/r-orchestration.md)
 

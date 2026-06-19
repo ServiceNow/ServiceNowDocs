@@ -2,6 +2,7 @@
 title: Start a Sidebar chat in Security Incident Response
 description: Using Sidebar, security analysts can collaborate with others in real-time based on a Workspace task-based or interaction-based record. These Sidebar discussions facilitate the exchange of information and knowledge to help resolve issues faster and with higher-quality outcomes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/initiate-chat-sidebar-sir.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -19,13 +20,13 @@ Using Sidebar, security analysts can collaborate with others in real-time based 
 
 Role required: sn\_si.read
 
-Verify that you have activated the Omni-Experience Standard Feature Set plugin. For more information, see [Installing Sidebar](https://www.servicenow.com/docs/access?context=install-sidebar&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+Verify that you have activated the Omni-Experience Standard Feature Set plugin. For more information, see .
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Security Incident Response Workspace**.
 
-2.  Select the List view ![list view icon](../image/listview-icon.png) icon.
+2.  Select the List view \[Omitted image "listview-icon.png"\] Alt text: list view icon icon.
 
 3.  Open a security incident for which you want to initiate a sidebar discussion.
 
@@ -33,19 +34,19 @@ Verify that you have activated the Omni-Experience Standard Feature Set plugin. 
 
     The Start a Sidebar discussion dialog box appears.
 
-    **Note:** Sidebar's integration with Microsoft Teams enables Sidebar users and Microsoft Teams users to communicate with each other from their respective platforms. For more information, see [Sidebar and Microsoft Teams](https://www.servicenow.com/docs/access?context=sidebar-teams-overview&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+    **Note:** Sidebar's integration with Microsoft Teams enables Sidebar users and Microsoft Teams users to communicate with each other from their respective platforms. For more information, see .
 
 5.  On the Start a Sidebar discussion dialog box, fill in the fields.
 
-<table id="choicetable_ps5_3w2_2cc"><thead><tr><th align="left" id="d299154e118">
+<table id="choicetable_ps5_3w2_2cc"><thead><tr><th align="left" id="d194530e116">
 
 Field
 
-</th><th align="left" id="d299154e121">
+</th><th align="left" id="d194530e119">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d299154e127">
+</th></tr></thead><tbody><tr><td id="d194530e125">
 
 **Record number**
 
@@ -53,7 +54,7 @@ Description
 
 The task or incident number associated with the Sidebar discussion.
 
-</td></tr><tr><td id="d299154e136">
+</td></tr><tr><td id="d194530e134">
 
 **Subject**
 
@@ -61,7 +62,7 @@ The task or incident number associated with the Sidebar discussion.
 
 Provide a title for the sidebar discussion.
 
-</td></tr><tr><td id="d299154e145">
+</td></tr><tr><td id="d194530e143">
 
 **Add participants**
 
@@ -71,10 +72,10 @@ Option to add participants for the sidebar discussion. If you have integrated si
 
 -   You need to add at least one participant to create a new discussion.
 -   If Sidebar and Microsoft Teams are integrated, Microsoft Teams users are differentiated from Sidebar users with a Microsoft Teams icon.
--   By default, all users who have read access to the SIR records will also have access to sidebar chats, but this can be controlled using member query. For more information, see [Configuring Sidebar member query](https://www.servicenow.com/docs/access?context=configure-sidebar-member-query&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+-   By default, all users who have read access to the SIR records will also have access to sidebar chats, but this can be controlled using member query. For more information, see .
 
 
-</td></tr><tr><td id="d299154e175">
+</td></tr><tr><td id="d194530e172">
 
 **Include a brief message**
 
@@ -83,14 +84,14 @@ Option to add participants for the sidebar discussion. If you have integrated si
 Provide a brief summary about the issue to be discussed in the sidebar discussion.
 
 </td></tr></tbody>
-</table>    ![Initiate a Sidebar chat in Security Incident Response](../image/native-sidebar-chat.png "Initiate a Sidebar chat in Security Incident Response")
+</table>    \[Omitted image "native-sidebar-chat.png"\] Alt text: Initiate a Sidebar chat in Security Incident Response
 
 6.  Select **Start discussion**.
 
 7.  You can perform additional configuration like quick actions.
 
-    To limit the action usage, you can use the **Apply to group** field on the quick action page. For more information, see [Creating a quick action](https://www.servicenow.com/docs/access?context=ci-quick-actions-overview&version=zurich&pubname=zurich-conversational-interfaces&section=create-quick-actions-chat&ft:locale=en-US).
+    To limit the action usage, you can use the **Apply to group** field on the quick action page. For more information, see .
 
 
-**Parent Topic:**[Collaborate using conference call or chat in Security Incident Response](../concept/collab-sir-call-chat.md)
+**Parent Topic:**[Collaborate using conference call or chat in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/collab-sir-call-chat.md)
 

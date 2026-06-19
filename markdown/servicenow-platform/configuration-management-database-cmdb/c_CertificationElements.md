@@ -2,6 +2,7 @@
 title: Certification elements
 description: Each element of each record being certified is tracked in its own certification element record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/c\_CertificationElements.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -17,5 +18,5 @@ Each element of each record being certified is tracked in its own certification 
 
 Also tracked are the date and time when the element was certified, comments, and the original and certified values of the field. You can view elements on individual certification tasks. Or, you can directly access the Certification Elements \[cert\_element\] table by navigating to **All** and then in the Filter box, entering `cert_element.list`.
 
-![Certification elements.](../image/CertificationElements.png "Certification elements")
+\[Omitted image "CertificationElements.png"\] Alt text: Certification elements.
 

@@ -2,6 +2,7 @@
 title: View a SOAP session log
 description: You can view a user's log from a SOAP session.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/t\_ViewingASOAPSessionReport.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -23,12 +24,10 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **User Administration** &gt; **Logged in users**.
 
-    ![Logged In Users](../image/LoggedInUsers.png)
-
 2.  Open an active SOAP session to see the transactions log.
 
     The SOAP session is marked as inactive within 60 seconds of the last transaction.
 
 
-**Parent Topic:**[SOAP web service](../concept/c_SOAPWebService.md)
+**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_SOAPWebService.md)
 

@@ -2,6 +2,7 @@
 title: Change the source name of Discovery results
 description: You have the option of changing the source name of discovery results. This might be desirable if Discovery is running on your network together with another discovery product, and you want to use customized identifiers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/t\_ChangeTheDiscoverySourceName.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -25,7 +26,7 @@ The Source \[sys\_object\_source\] table stores information identifying the sour
 
 To view this information, configure a CI form and add the **Sources** related list. This table is populated automatically when the Discovery plugin is enabled.
 
-![Sources List](../image/DiscoveryCISources.png "Sources List")
+\[Omitted image "DiscoveryCISources.png"\] Alt text: Sources List
 
 To migrate your Discovery Source to ServiceNow:
 
@@ -46,5 +47,5 @@ To migrate your Discovery Source to ServiceNow:
 7.  Use the Update All option to change the value to ServiceNow.
 
 
-**Parent Topic:**[Advanced Discovery configuration](../concept/c_DiscoveryExtendedCapabilities.md)
+**Parent Topic:**[Advanced Discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_DiscoveryExtendedCapabilities.md)
 

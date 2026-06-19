@@ -2,6 +2,7 @@
 title: Analytics and Reporting Solutions for Workplace Visitor Management
 description: Monitor the status of visitor registrations made in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-visitor-management/analytics-reporting-for-visitor-mgmt.html
 release: zurich
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -15,10 +16,10 @@ breadcrumb: [Workplace Visitor Management, Workplace Service Delivery, Employee 
 
 Monitor the status of visitor registrations made in your organization.
 
--   **[View visit logs](../task/view-visit-logs.md)**  
+-   **[View visit logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-visitor-management/view-visit-logs.md)**  
 View the visit logs which display all the state changes of a visitor registration.
--   **[Visitor Reception Dashboard](../../../use/dashboards/application-content-packs/visitor-reception-dashboard.md)**  
+-   **[Visitor Reception Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-visitor-management/visitor-reception-dashboard.md)**  
 With the Visitor Reception Dashboard, you can track visitor registrations created in the application on any day. Track the statuses of visitors who are on the premises. View the number of visitors who are expected, have checked in, have checked out, are on break, or have not showed up.
 
-**Parent Topic:**[Workplace Visitor Management](workplace-visitor-mgmt-feat.md)
+**Parent Topic:**[Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-feat.md)
 

@@ -2,6 +2,7 @@
 title: Change the order of subtasks in a bundle
 description: Change the order of subtasks in a bundle if you want the subtasks to be completed in a different order than the one originally assigned.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/change-bundle-subtask-order.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling

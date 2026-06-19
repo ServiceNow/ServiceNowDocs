@@ -2,6 +2,7 @@
 title: Configure task count for your next tasks widget
 description: You can configure how many tasks you want to see in your next tasks widget.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/configure-next-tasks-widget.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -35,5 +36,5 @@ Role required: admin
     **Note:** Here the number of tasks limit is set to 10, you can update it to any number you'd like.
 
 
-**Parent Topic:**[Employees view and complete journeys](jny-dsgnr-employee-journey-tasks.md)
+**Parent Topic:**[Employees view and complete journeys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-employee-journey-tasks.md)
 

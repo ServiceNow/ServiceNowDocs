@@ -2,6 +2,7 @@
 title: Using user search metrics with Virtual Agent
 description: By using user search metrics with the Virtual Agent application, you can see your users' queries and the results from their searches. With these metrics, you can identify the areas where you can improve Virtual Agent to offer more meaningful search results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/user-search-metrics-tab-pae.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -24,17 +25,17 @@ Use the **User Search Metrics** tab in the Conversational Analytics dashboard to
 
 To access the **User Search Metrics** tab, you must have the chat analytics admin role or the chat analytics viewer role. The following example shows the data included in the **User Search Metrics** tab.
 
-![Conversational Analytics dashboard user search metrics tab.](../images/dashboard-user-search-metrics-pae.png "User Search Metrics tab")
+\[Omitted image "dashboard-user-search-metrics-pae.png"\] Alt text: Conversational Analytics dashboard user search metrics tab.
 
 **Note:** Load times may vary based on the selected date range. Date ranges over 7 days may take longer to load.
 
 ## AI Search
 
-Virtual Agent topics may use AI search to suggest helpful resources to the user. When a user enters a query, AI search provides the most relevant results by using intelligent query features. To know more about AI search, see [AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) . To integrate Virtual Agent with AI Search, see [Improving the user experience with AI Search](va-ai-search.md).
+Virtual Agent topics may use AI search to suggest helpful resources to the user. When a user enters a query, AI search provides the most relevant results by using intelligent query features. To know more about AI search, see AI Search . To integrate Virtual Agent with AI Search, see [Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-ai-search.md).
 
 ## Contextual Search
 
-Contextual search matches keywords to an existing database search to find potential matches to a query. Virtual Agent topics may use contextual search to resolve queries. For more information, see [Maximizing code reuse with topic blocks](topic-blocks-overview.md).
+Contextual search matches keywords to an existing database search to find potential matches to a query. Virtual Agent topics may use contextual search to resolve queries. For more information, see [Maximizing code reuse with topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/topic-blocks-overview.md).
 
 ## Topic Links
 
@@ -55,5 +56,5 @@ The following table describes user search indicators visualized on the **User Se
 |Total number of search results clicked|Number of search results that users clicked on.|
 |Top 10 search results clicked|Search results that users clicked on the most.|
 
-**Parent Topic:**[Using the Conversational Analytics Dashboard](use-the-dashboard-overview-pae.md)
+**Parent Topic:**[Using the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/use-the-dashboard-overview-pae.md)
 

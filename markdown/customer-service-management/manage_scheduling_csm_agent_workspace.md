@@ -2,11 +2,14 @@
 title: Manage your schedule from CSM Agent Workspace
 description: Look up your schedule, request time off, or swap your shift with your peers using the calendar in CSM Agent Workspace. If you can work during the requested shift, you can also approve your peer's request for shift swap.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/manage\_scheduling\_csm\_agent\_workspace.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Workforce Optimization for CSM Agent Workspace, Agent management, Use, Customer Service Management]
+breadcrumb: [Workforce Optimization for CSM Agent Workspace, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
 
 # Manage your schedule from CSM Agent Workspace
@@ -15,7 +18,7 @@ Look up your schedule, request time off, or swap your shift with your peers usin
 
 ## Before you begin
 
-**Important:** To access the next generation of the Workforce Optimization for Customer Service application, transition to the Workforce Optimization for Customer Service application that is available from the ServiceNow Store. You can now configure Workforce Optimization for Customer Service using the [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=zurich&pubname=zurich-application-development&ft:locale=en-US). For more information see, [Workforce Optimization for Customer Service](../concept/configurable-wfo-cs.md).
+**Important:** To access the next generation of the Workforce Optimization for Customer Service application, transition to the Workforce Optimization for Customer Service application that is available from the ServiceNow Store. You can now configure Workforce Optimization for Customer Service using the UI Builder. For more information see, [Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configurable-wfo-cs.md).
 
 Role required: sn\_shift\_planning.agent
 

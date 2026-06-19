@@ -2,6 +2,7 @@
 title: Register with External Legal Service Center
 description: To submit a request for legal services, register yourself with the External Legal Service Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/external-legal-portal/lsd-external-portal-register.html
 release: zurich
 product: External Legal Portal
 classification: external-legal-portal

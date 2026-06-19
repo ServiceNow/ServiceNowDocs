@@ -2,6 +2,7 @@
 title: Define an Agile group
 description: Create an agile assignment group to later assign the work of an agile project.Add members to the group who are later assigned tasks of an agile project.Decide the capacity of a group based on the historical velocity of the group for each sprint.Convert a release team to an agile group to later assign the work of an agile project.Create a sprint to plan the work for an agile phase of a project.Create multiple sprints to plan the work for an assignment group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/ppm-collaboration/t\_SDLCPPSCreateATeam.html
 release: zurich
 product: PPM Collaboration
 classification: ppm-collaboration
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-[Assignment groups in Agile Development 2.0](../../agile-development/concept/manage-groups-agile-dev.md)
+[Assignment groups in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/manage-groups-agile-dev.md)
 
 ## Procedure
 
@@ -48,7 +49,7 @@ Role required: admin
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Agile Development 2.0 integration with Project Portfolio Management](../concept/c_SDLCIntegrationWithProjectPortfolioSuite.md)
+**Parent Topic:**[Agile Development 2.0 integration with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/c_SDLCIntegrationWithProjectPortfolioSuite.md)
 
 ## Add group members
 

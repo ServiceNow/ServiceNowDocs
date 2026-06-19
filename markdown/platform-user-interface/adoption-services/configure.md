@@ -2,6 +2,7 @@
 title: Configure
 description: Configure Dynamic Guidance to be available in the Help Center and Now Assist panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/configure.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
@@ -17,9 +18,11 @@ Configure Dynamic Guidance to be available in the Help Center and Now Assist pan
 
 ## Before you begin
 
-Role required: sn\_dyn\_guidance\_admin
+Role required: sn\_dyn\_guidance\_admin and sn\_nowassist\_admin.nsa\_admin
 
-You can enable Dynamic Guidance on Help Center and Now Assist panel. To enable Dynamic Guidance on Help Center:
+**Note:** By default, Dynamic Guidance as a skill is active for applicable users but not accessible. The admin \(with role sn\_dyn\_guidance\_admin\) must assign sn\_dyn\_guidance\_user role to users who can access Dynamic Guidance.
+
+Follow these steps to enable Dynamic Guidance on Help Center and Now Assist panel:
 
 ## Procedure
 
@@ -36,7 +39,6 @@ You can enable Dynamic Guidance on Help Center and Now Assist panel. To enable D
 
 ## What to do next
 
--   To enable Dynamic Guidance on Now Assist panel, do this.
--   Configure external content connectors to integrate with Dynamic Guidance. See [External content connector in Dynamic Guidance](external-content-connector-in-dynamic-guidance.md).
--   Link Dynamic Guidance to additional documentation sources. See [Adding custom sources](../task/adding-custom-sources.md).
+-   Configure external content connectors to integrate with Dynamic Guidance. See [External content connector in Dynamic Guidance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/external-content-connector-in-dynamic-guidance.md).
+-   Link Dynamic Guidance to additional documentation sources. See [Adding custom sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/adding-custom-sources.md).
 

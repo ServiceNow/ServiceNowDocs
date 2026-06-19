@@ -2,6 +2,7 @@
 title: Create an action for an 'on Resource Limit exceeded' policy
 description: Set the on Resource limits exceeded policy to automatically run approval subflows or send notifications when an order form is submitted for a template-based catalog item that exceeds the defined resource limit or quota values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/create-action-on-resource-limits-exceeded.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -23,7 +24,7 @@ You must have configured the following items:
 -   Cloud policy
 -   Approval policy
 -   Email notification
--   [Create a subflow in Workflow Studio](https://www.servicenow.com/docs/access?context=create-subflow&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
+-   
 
 Role required: sn\_cmp.cloud\_governor or cloud\_admin
 
@@ -44,14 +45,14 @@ The **On resource limit exceeded** base system policy action has a default Servi
 3.  Modify the policy rules conditions.
     -   Click **New** to create a new policy record.
 
-        For more information, see [Create a cloud policy](create-cloud-policy.md).
+        For more information, see [Create a cloud policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-cloud-policy.md).
 
 2.  In the Rules related list, modify the base system rule or create a new rule.
 
     -   Open the base system **approveresourcelimit** rule that should perform the action and customize it.
     -   Create a policy rule.
 
-        For more information, see [Configure a cloud policy rule](configure-cloud-policy-rule.md).
+        For more information, see [Configure a cloud policy rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/configure-cloud-policy-rule.md).
 
 3.  Specify a policy action.
 
@@ -59,15 +60,15 @@ The **On resource limit exceeded** base system policy action has a default Servi
 
     2.  Click **Create** next to the action you want to occur when the quota is exceeded.
 
-<table id="choicetable_xpc_mhp_znb"><thead><tr><th align="left" id="d195917e261">
+<table id="choicetable_xpc_mhp_znb"><thead><tr><th align="left" id="d185697e260">
 
 Option
 
-</th><th align="left" id="d195917e264">
+</th><th align="left" id="d185697e263">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d195917e270">
+</th></tr></thead><tbody><tr><td id="d185697e269">
 
 **ServiceNow Approval**
 
@@ -78,7 +79,7 @@ Steps
 3.  Select the **Assignment group** to which this action applies.
 
 
-</td></tr><tr><td id="d195917e310">
+</td></tr><tr><td id="d185697e309">
 
 **Custom Approval**
 
@@ -88,7 +89,7 @@ Steps
 2.  Select an existing custom workflow in the **Subflow** field.
 
 
-</td></tr><tr><td id="d195917e341">
+</td></tr><tr><td id="d185697e340">
 
 **Send aNotification**
 
@@ -103,5 +104,5 @@ The base system notification email for the 'on Resource Limit exceeded' policy a
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Create a cloud policy](create-cloud-policy.md)
+**Parent Topic:**[Create a cloud policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-cloud-policy.md)
 

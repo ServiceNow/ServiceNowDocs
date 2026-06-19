@@ -2,6 +2,7 @@
 title: Export questionnaire responses to a spreadsheet
 description: Export received or returned questionnaires to Microsoft Excel spreadsheets. This option enables you to use the spreadsheet environment to review questions and answers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/export-q-and-a-to-excel.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management

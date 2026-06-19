@@ -2,7 +2,10 @@
 title: Add a case type to the Case interceptor
 description: In the Core UI, the Case interceptor lists the types of customer service cases that an agent can create. If you create a case type and you want that case type to appear in the Case interceptor, you need to add it to the Case interceptor configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/service-def-config-case-interceptor.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

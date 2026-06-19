@@ -2,6 +2,7 @@
 title: Migrate the existing charts to PAR dashboard in Service Operations Workspace for ITSM
 description: You can migrate the common customizations and configurations of the existing dashboard to the Performance Analytics dashboard\(PAR dashboard\) using the on-screen migration utility. With this migration, you won't have to re-do the customizations for the PAR dashboard in Service Operations Workspace for ITSM to view the data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/migrate-charts-par-dashboard.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -35,7 +36,7 @@ Role required: admin
 
 4.  Select **Preview migration** to preview the chart that will be migrated.
 
-    ![Preview migration button on the Configurable chart migration](../image/sow-ac-charts-migration.png)
+    \[Omitted image "sow-ac-charts-migration.png"\] Alt text: Preview migration button on the Configurable chart migration
 
     The preview of the dashboard containing the customized charts opens in a new tab. Once you preview the dashboard, the label is updated from **Not previewed** to **Previewed**.
 
@@ -48,5 +49,5 @@ Role required: admin
     **Note:** You can perform the migration only once.
 
 
-**Parent Topic:**[Admin Center in Service Operations Workspace for ITSM](../concept/admin-center-sow.md)
+**Parent Topic:**[Admin Center in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/admin-center-sow.md)
 

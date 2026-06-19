@@ -2,6 +2,7 @@
 title: Solution configuration terms and considerations
 description: Understand terminology, design considerations, and limits associated with solution configuration, which lets ServiceNow CPQ admins manage multiple blueprints in a single configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/solution\_configuration\_overview.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

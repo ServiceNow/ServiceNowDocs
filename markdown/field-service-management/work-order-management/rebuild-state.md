@@ -2,6 +2,7 @@
 title: Rebuild state flows
 description: Administrators can rebuild state flows when a mismatch between existing and new sys\_ids occurs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/rebuild-state.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

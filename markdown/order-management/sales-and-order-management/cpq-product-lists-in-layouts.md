@@ -2,6 +2,7 @@
 title: Product lists in layouts
 description: Define and customize product lists in ServiceNow CPQ layouts to display data from bills of materials \(BOMs\) and product details. Configure list placement, columns, and display settings in the layout CSV file or the layout editor to present clear, structured product and pricing information to end users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cpq-product-lists-in-layouts.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -65,11 +66,11 @@ In the layout CSV file, define your product list column rows with the following 
 
 The product list and its properties can be edited by using the layout editor in the ServiceNow CPQ UI. The product list layout element is at the bottom of the page:
 
-![Product lists in layouts](../images/cpq-layout-editor-product-list.png)
+\[Omitted image "cpq-layout-editor-product-list.png"\] Alt text: Product lists in layouts
 
 You can edit this part of the layout by clicking the gear that appears in the top right of the product list layout element when you move your mouse into it. The product list has a settings screen that contains all the properties referenced earlier.
 
-![Product lists in layouts](../images/cpq-layout-editor-product-list-settings.png)
+\[Omitted image "cpq-layout-editor-product-list-settings.png"\] Alt text: Product lists in layouts
 
-For more information, see [Displaying multiple product lists in layouts](displaying_multiple_productlists_in_layouts.md).
+For more information, see [Displaying multiple product lists in layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/displaying_multiple_productlists_in_layouts.md).
 

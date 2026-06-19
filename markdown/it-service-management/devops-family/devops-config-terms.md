@@ -2,20 +2,21 @@
 title: DevOps Config terms
 description: These are some of the common DevOps Config terms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-family/devops-config-terms.html
 release: zurich
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Explore, DevOps Config, IT Service Management]
+breadcrumb: [Exploring DevOps Config, DevOps Config, IT Service Management]
 ---
 
 # DevOps Config terms
 
 These are some of the common DevOps Config terms.
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 -   **Application**
 
@@ -27,7 +28,7 @@ These are some of the common DevOps Config terms.
 
     This example shows release-1.0 of an application that is currently deployed to the Production environment.
 
-    ![DevOps Config collections](../image/devops-config-collections.png)
+    \[Omitted image "devops-config-collections.png"\] Alt text: DevOps Config collections
 
     The microservice team that owns the payment service makes a hotfix and decides to add that into a release-1.1 collection that they are now testing in their Test environment.
 
@@ -58,5 +59,5 @@ These are some of the common DevOps Config terms.
     Vars created at the component level can be reused anywhere further down, like in a collection and/or deployable. However, vars defined in a particular deployable are intended to be used only in that context \(for example, environment-specific creds, memory settings, etc.\).
 
 
-**Parent Topic:**[Exploring DevOps Config](../concept/devops-config-getting-started.md)
+**Parent Topic:**[Exploring DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/devops-config-getting-started.md)
 

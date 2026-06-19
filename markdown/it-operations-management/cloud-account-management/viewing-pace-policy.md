@@ -2,13 +2,14 @@
 title: Review request policies
 description: Review and update request policies to confirm they align with your cloud account request process. These policies enforce data checks and conditions, promoting consistency in creating cloud subscription accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/viewing-pace-policy.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Configuring Cloud Account Management, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Review request policies
@@ -41,16 +42,16 @@ For each step, an entry is created in the **sn\_itom\_cam\_automation\_activity*
 
 5.  To add a condition, select **New condition set**.
 
-6.  To remove a condition, select the delete icon ![Delete](../../event-management/image/delete-input-icon.png).
+6.  To remove a condition, select the delete icon \[Omitted image "delete-input-icon.png"\] Alt text: Delete.
 
-    **Note:** For more information on managing policies, see [Manage PaCE policies](https://www.servicenow.com/docs/access?context=pace-admin-manage-policies&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    **Note:** For more information on managing policies, see .
 
 
 ## What to do next
 
 These sections explain how to modify, test, and publish the automation policy.
 
--   [Automate General Approval policy process](../task/automate-account-creation-approval.md)
--   [Automate Budget Approval policy process](../task/automate-account-budget-approval.md)
--   [Automate Configuration Assignment policy process](../task/automate-account-creation-config-assign.md)
+-   [Automate General Approval policy process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/automate-account-creation-approval.md)
+-   [Automate Budget Approval policy process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/automate-account-budget-approval.md)
+-   [Automate Configuration Assignment policy process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/automate-account-creation-config-assign.md)
 

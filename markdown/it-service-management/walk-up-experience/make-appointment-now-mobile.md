@@ -2,6 +2,7 @@
 title: Book an appointment at a Walk-up Experience Tech Lounge
 description: Book an appointment at a ServiceNow Walk-up Experience Tech Lounge by using the Now Mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/walk-up-experience/make-appointment-now-mobile.html
 release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -21,15 +22,15 @@ Role required: user
 
 ## Procedure
 
-1.  On your mobile device, tap the Now® Mobile app icon \(![NOW mobile app icon](../../asset-management/image/now-mobile.png)\).
+1.  On your mobile device, tap the Now® Mobile app icon \(\[Omitted image "now-mobile.png"\] Alt text: NOW mobile app icon\).
 
 2.  Navigate to the list of available Tech Lounges using any of these options.
 
     |Tab|Navigation|
     |---|----------|
-    |**My Items**|Tap the headphones icon \(![Headphones icon.](../image/quickaction.png)\).|
-    |**Services**|Tap the more options icon **\(![More options icon.](../image/quickaction2.png)\)** &gt; **Visit a Tech Lounge**.|
-    |**Information**|Tap the headphones icon \(![Headphones icon.](../image/quickaction.png)\).|
+    |**My Items**|Tap the headphones icon \(\[Omitted image "quickaction.png"\] Alt text: Headphones icon.\).|
+    |**Services**|Tap the more options icon **\(\[Omitted image "quickaction2.png"\] Alt text: More options icon.\)** &gt; **Visit a Tech Lounge**.|
+    |**Information**|Tap the headphones icon \(\[Omitted image "quickaction.png"\] Alt text: Headphones icon.\).|
 
 3.  From the list of active Tech Lounges, tap your preferred Tech Lounge.
 
@@ -56,5 +57,5 @@ Role required: user
     Another way to view your appointment confirmation is to return to the Tech Lounge list view and tap the **Visits** tab, or return to the Now® Mobile app home page and tap **My Tech Visits**.
 
 
-**Parent Topic:**[Walk-up Experience on Now Mobile](../concept/walk-up-experience-now-mobile.md)
+**Parent Topic:**[Walk-up Experience on Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walk-up-experience-now-mobile.md)
 

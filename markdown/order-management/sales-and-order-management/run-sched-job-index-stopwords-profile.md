@@ -2,6 +2,7 @@
 title: Run scheduled job to publish stop words dictionary, search profiles, and index tables
 description: After upgrading to the Zurich release and the Now Assist for Sales and Order Management plugin has been installed, run a scheduled job that publishes the stop word dictionary, search profiles, and index tables for using AI Search in the product catalog. AI Search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/run-sched-job-index-stopwords-profile.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -37,11 +38,11 @@ Role required: admin
 
     -   Product Offering Indexed Source - In the Indexing History related list \(tab\), check that the Semantic Ingestion State displays **indexed**.
 
-        ![Indexing History that shows the indexing of the Product Offering Indexed Source was completed](../image/ai-search-indexed-source-offering.png "Example of Product Offering Indexed Source with Semantic Ingestion State")
+        \[Omitted image "ai-search-indexed-source-offering.png"\] Alt text: Indexing History that shows the indexing of the Product Offering Indexed Source was completed
 
     -   Service Specification Indexed Source - In the Indexing History related list \(tab\), check that the Semantic Ingestion State displays **indexed**.
 
 ## What to do next
 
-[Enable AI Search in product catalog](enable-ai-search-catalog.md).
+[Enable AI Search in product catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/enable-ai-search-catalog.md).
 

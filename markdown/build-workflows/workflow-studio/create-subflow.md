@@ -2,6 +2,7 @@
 title: Create a subflow in Workflow Studio
 description: Reuse an entire flow's content as a subflow. Define the input data the subflow uses and the output data it generates. Call subflows from other flows or script.​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/create-subflow.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -25,7 +26,7 @@ Role required: flow\_designer or admin
 
 Users with the flow\_designer or admin role should know the application table structure and be aware of any existing business logic associated with the target tables of a flow or subflow. Be sure to disable any conflicting business rules or workflows before creating a flow or subflow.
 
-Creating a custom application to contain your Workflow Studio content allows you to [deploy](https://www.servicenow.com/docs/access?context=c_SharingApplications&version=zurich&pubname=zurich-application-development&ft:locale=en-US) it using the application repository or the ServiceNow Store.
+Creating a custom application to contain your Workflow Studio content allows you to deploy it using the application repository or the ServiceNow Store.
 
 ## Procedure
 
@@ -37,7 +38,7 @@ Creating a custom application to contain your Workflow Studio content allows you
 
 3.  Select whether to build the subflow by using Now Assist or to build manually.
 
-    To build the subflow with Now Assist, see [Create a subflow with Now Assist](create-subflow-now-asist.md).
+    To build the subflow with Now Assist, see [Create a subflow with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-subflow-now-asist.md).
 
     To build the subflow manually, continue to the next step.
 
@@ -81,7 +82,7 @@ Domain
 
 </td><td>
 
-Domain scope of the subflow. For more information about domain separation, see [Domain separation explained](https://www.servicenow.com/docs/access?context=bp-what-is-domain-separation&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+Domain scope of the subflow. For more information about domain separation, see .
 
 </td></tr><tr><td colspan="2">
 
@@ -146,7 +147,7 @@ Priority level at which you want the system to run this subflow by default. Opti
 -   Low
 -   Medium \(Default\)
 -   High
- To learn about flow priority levels, see [Flow priority](../concept/flow-priority.md).
+ To learn about flow priority levels, see [Flow priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-priority.md).
 
 </td></tr></tbody>
 </table>5.  Create subflow inputs to specify the data available to the subflow when it starts running.
@@ -169,9 +170,9 @@ Priority level at which you want the system to run this subflow by default. Opti
         -   sys\_mod\_count
     4.  To make the input a mandatory configuration option, select the **Mandatory** flag.
 
-    5.  Click ![Open icon](../images/icon-advanced-input.png) to view the advanced options and define values.
+    5.  Click \[Omitted image "icon-advanced-input.png"\] Alt text: Open icon to view the advanced options and define values.
 
-        Inputs provide advanced options based on their data type. All inputs have advanced options to add a hint or provide a default value. Use advanced options to guide flow designers through adding and configuring a subflow to a flow. For example, create a choice input to provide flow designers with a pre-defined list of configuration options to choose from. For more information about the configuration options available to particular data types, see [field types](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+        Inputs provide advanced options based on their data type. All inputs have advanced options to add a hint or provide a default value. Use advanced options to guide flow designers through adding and configuring a subflow to a flow. For example, create a choice input to provide flow designers with a pre-defined list of configuration options to choose from. For more information about the configuration options available to particular data types, see field types.
 
 6.  Create subflow outputs by defining the names and data types.
 
@@ -191,7 +192,7 @@ Priority level at which you want the system to run this subflow by default. Opti
         -   sys\_updated\_on
         -   sys\_updated\_by
         -   sys\_mod\_count
-    ![Inputs and outputs in a subflow.](../images/subflow-inputs-outputs.png)
+    \[Omitted image "subflow-inputs-outputs.png"\] Alt text: Inputs and outputs in a subflow.
 
 7.  To add actions, flows, subflows, or flow logic, select **Add an Action, Flow Logic, or Subflow**.
 
@@ -211,7 +212,7 @@ Action
 
 </td><td>
 
-Select the desired action. Workflow Studio includes [Workflow Studio actions](../concept/flow-actions.md) that are available to flows and subflows. Alternatively, a user with the action\_designer role can create additional actions to add to flows. The [Integration Hub](https://www.servicenow.com/docs/access?context=integrationhub&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US) and [Spokes](../concept/spokes.md) plugins install additional actions.
+Select the desired action. Workflow Studio includes [Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-actions.md) that are available to flows and subflows. Alternatively, a user with the action\_designer role can create additional actions to add to flows. The  and [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/spokes.md) plugins install additional actions.
 
  To add draft actions from the More Actions menu, set **Show draft actions** to **true**.
 
@@ -269,5 +270,5 @@ Test the subflow, and publish it when it is ready to be added to a flow or calle
 
 **Note:** You can only test or publish subflows that contain at least one action.
 
-**Parent Topic:**[Building subflows](../concept/subflows.md)
+**Parent Topic:**[Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/subflows.md)
 

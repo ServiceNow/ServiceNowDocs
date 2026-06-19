@@ -2,6 +2,7 @@
 title: Entity class rule filter fields
 description: You can create an entity class rule filter by filling out the fields that display after you click the New option in the entity class rule filters related list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/entity-class-rule-filter-fields.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -58,5 +59,5 @@ Filter priority. If a source record of an entity satisfies a multiple class rule
  For example, if you have two subclass applications and departments that have priority 0 and 1, respectively, the application subclass that has the lower priority is auto-filled in the rule and control form.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create an entity class rule filter](../task/create-new-entity-class-rule-filter.md)
+</table>**Parent Topic:**[Create an entity class rule filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/create-new-entity-class-rule-filter.md)
 

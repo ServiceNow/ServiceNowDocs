@@ -2,6 +2,7 @@
 title: Perform a single-line Agent Client Collector installation on macOS
 description: Use an efficient single-line command script to install Agent Client Collector on a machine that uses macOS operating system. Use the manual installation procedure if the agent is not connected to the instance or you want enhanced customization options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-install-macOS-single-line.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -18,8 +19,9 @@ Use an efficient single-line command script to install Agent Client Collector on
 ## Before you begin
 
 -   Ensure that you have configured the Agent Client Collector web server.
--   Verify that your server's OS and version matches the list of supported OS versions as described in [Agent Client Collector installation](../concept/acc-installation.md).
+-   Verify that your server's OS and version matches the list of supported OS versions as described in [Agent Client Collector installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-installation.md).
 -   Ensure that you have the **pkgutil** packages available, to be used by the install script.
+-   Enable golden image mode for cloning additional agents by setting the golden image marker located at `/Library/Preferences/acc.rc.plist`.
 -   Ensure that the target agents have connectivity to the following:
     -   ServiceNow install server \[install.service-now.com\]
     -   ServiceNow instance
@@ -95,5 +97,5 @@ ACC\_VALIDATE\_SIG
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Agent Client Collector installation on a macOS system](../concept/acc-install-mac-os.md)
+**Parent Topic:**[Agent Client Collector installation on a macOS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-install-mac-os.md)
 

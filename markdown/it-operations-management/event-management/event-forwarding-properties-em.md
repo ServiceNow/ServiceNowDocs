@@ -2,6 +2,7 @@
 title: Event forwarding properties
 description: Several system properties enable you to customize an event forwarding job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/event-forwarding-properties-em.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -82,5 +83,5 @@ Enables or disables debug logging for event forwarding. Set this property to tru
 -   **Default value**: False
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Event Management reference](event-management-reference.md)
+</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/event-management-reference.md)
 

@@ -2,6 +2,7 @@
 title: Providers and Models
 description: You can bring your own large language model \(LLM\) provider and API to use with Now Assist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/servicenow-large-language-model-now-llm/providers-and-models.html
 release: zurich
 product: ServiceNow Large Language Model \(Now LLM\)
 classification: servicenow-large-language-model-now-llm
@@ -23,8 +24,8 @@ Bringing your own large language model enables:
 -   Cost Control: Use existing contracts and optimize resource usage to avoid extra charges.
 -   Strategic Autonomy: Maintain vendor neutrality and avoid lock-in for future-proofing.
 
--   **[Create a model](../task/create-model.md)**  
+-   **[Create a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-large-language-model-now-llm/create-model.md)**  
 You can create a custom large language model \(LLM\) using ServiceNow models or models from different providers.
 
-**Parent Topic:**[Large language models on the ServiceNow AI Platform](exploring-large-language-models.md)
+**Parent Topic:**[Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md)
 

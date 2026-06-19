@@ -2,6 +2,7 @@
 title: Ansible permissions
 description: Ansible Config Provider, Ansible Catalog and operations permissions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/ansible-permissions.html
 release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -67,5 +68,5 @@ Ansible Day 2 operations
 Uses Ansible tower user credentials, service account credentials of Amazon Web Services/ Azure and private ssh key pair or windows user name/password, to connect to the particular cloud resource provisioned.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[CSC references](csc-reference.md)
+</table>**Parent Topic:**[CSC references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/csc-reference.md)
 

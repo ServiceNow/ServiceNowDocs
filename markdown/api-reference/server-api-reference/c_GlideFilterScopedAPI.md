@@ -2,6 +2,7 @@
 title: GlideFilter - Scoped, Global
 description: The GlideFilter API enables filtering queries to determine if one or more records meet a specified set of requirements.Instantiates a GlideFilter object.Compares a specified filter to the contents of a specified GlideRecord.Evaluates a filter against a specified GlideRecord.Enables or disables case-sensitive filter results.Enables or disables sandboxed evaluation of the filter string.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_GlideFilterScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -19,7 +20,7 @@ Methods for this API are accessible using the GlideFilter global object.
 
 ## Case sensitivity
 
-The GlideFilter API is case-sensitive by default. Use the [setCaseSensitive\(\)](c_GlideFilterScopedAPI.md#) method to enable or disable case sensitivity. [GlideRecord](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#) queries are case-insensitive.
+The GlideFilter API is case-sensitive by default. Use the [setCaseSensitive\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideFilterScopedAPI.md) method to enable or disable case sensitivity. [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) queries are case-insensitive.
 
 The following example shows how a GlideRecord query is case-insensitive and results in the same user record with upper or lower case.
 
@@ -161,7 +162,7 @@ Output shows that the GlideFilter encoded query skips the null date value and co
 Record RowCount: 3 - Filter Count: 3
 ```
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideFilter – GlideFilter\(String filter, String title\)
 
@@ -189,7 +190,7 @@ String
 
 </td><td>
 
-Encoded query string in standard Glide format. See [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US). Results are case-sensitive, unless disabled using the [setCaseSensitive\(\)](c_GlideFilterScopedAPI.md#) method.To exclude null values from GlideFilter query results, add ISNOTEMPTY to the query condition.
+Encoded query string in the standard platform format. Results are case-sensitive, unless disabled using the [setCaseSensitive\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideFilterScopedAPI.md) method.To exclude null values from GlideFilter query results, add ISNOTEMPTY to the query condition.
 
 </td></tr><tr><td>
 
@@ -254,7 +255,7 @@ now\_GR
 
 </td><td>
 
-[GlideRecord](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)
+[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
 
 </td><td>
 
@@ -270,9 +271,9 @@ String
 
 </td><td>
 
-Encoded query string in standard Glide format. See [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US). To exclude null values from GlideFilter query results, add ISNOTEMPTY to the query condition.
+Encoded query string in the standard platform format. To exclude null values from GlideFilter query results, add ISNOTEMPTY to the query condition.
 
- **Note:** The **filter** values are case-sensitive. In addition, you cannot use [setCaseSensitive\(false\)](c_GlideFilterScopedAPI.md#) to change the change the case-sensitive value.
+ **Note:** The **filter** values are case-sensitive. In addition, you cannot use [setCaseSensitive\(false\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideFilterScopedAPI.md) to change the change the case-sensitive value.
 
 </td></tr><tr><td>
 
@@ -360,7 +361,7 @@ now\_GR
 
 </td><td>
 
-[GlideRecord](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)
+[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
 
 </td><td>
 

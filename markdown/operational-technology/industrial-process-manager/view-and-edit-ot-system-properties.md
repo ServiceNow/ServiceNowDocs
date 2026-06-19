@@ -2,6 +2,7 @@
 title: View and edit OT system properties
 description: View and edit all of the Operational Technology \(OT\) related system properties for different applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-process-manager/view-and-edit-ot-system-properties.html
 release: zurich
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -43,5 +44,5 @@ You can modify the system properties for the following OT applications from **Al
 4.  Select **Update**.
 
 
-**Parent Topic:**[Configuring the Industrial Process Manager](../concept/configuring-manufacturing-process-mgr.md)
+**Parent Topic:**[Configuring the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
 

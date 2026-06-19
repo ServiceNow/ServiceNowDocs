@@ -2,6 +2,7 @@
 title: Create password reset process in Service Operations Workspace
 description: Create configure credentials, verification methods and settings, and enrollment settings to create a password reset process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/create-password-reset-process-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -181,8 +182,8 @@ Option to send an email or SMS the new password to the user.
 
 14. Right-click on the form header, and select **Save**.
 
-    For more information on password reset process, see [Configure your Password Reset process](https://www.servicenow.com/docs/access?context=t_CreateAPasswordResetProcess&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    For more information on password reset process, see .
 
 
-**Parent Topic:**[Setting up Service Desk assisted Password Reset in Service Operations Workspace](../concept/setup-password-reset-sow.md)
+**Parent Topic:**[Setting up Service Desk assisted Password Reset in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/setup-password-reset-sow.md)
 

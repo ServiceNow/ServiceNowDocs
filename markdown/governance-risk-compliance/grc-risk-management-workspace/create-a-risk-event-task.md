@@ -2,6 +2,7 @@
 title: Create a risk event task
 description: A risk event might require associated tasks. Unless these tasks are created and eventually closed, the risk event cannot be closed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/create-a-risk-event-task.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -43,7 +44,7 @@ Role required: sn\_risk.manager
 
 ## What to do next
 
-Review the associated issues of a risk event or create a new issue during approval. For more information, see [Manually create GRC issues](../../grc-common/task/t_CreateAnIssue.md).
+Review the associated issues of a risk event or create a new issue during approval. For more information, see [Manually create GRC issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/t_CreateAnIssue.md).
 
-**Parent Topic:**[Use Risk Events](../concept/use-risk-events.md)
+**Parent Topic:**[Use Risk Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/use-risk-events.md)
 

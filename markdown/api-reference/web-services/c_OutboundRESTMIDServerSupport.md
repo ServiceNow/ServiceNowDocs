@@ -2,6 +2,7 @@
 title: Sending outbound REST messages through a MID Server
 description: You can configure a REST message HTTP method to be sent through a MID Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/c\_OutboundRESTMIDServerSupport.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -19,5 +20,5 @@ By using a MID Server, the request can reach an endpoint that is behind a firewa
 
 To configure an HTTP method to use a MID Server, select a MID Server in the **Use MID Server** field on the HTTP Method form. The instance must have an active MID Server to use this functionality.
 
-**Parent Topic:**[Create a REST message](../task/t_ConfiguringARESTMessage.md)
+**Parent Topic:**[Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/t_ConfiguringARESTMessage.md)
 

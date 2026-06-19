@@ -2,6 +2,7 @@
 title: Remove remember me
 description: Use the glide.ui.forgetme property to remove the Remember Me check box from the login page to prevent login information from being cached.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-remove-remember-me.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -47,7 +48,7 @@ Category
 
 </td><td>
 
-[Data protection](sc-data-protection.md)
+[Data protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-data-protection.md)
 
 </td></tr><tr><td>
 
@@ -87,7 +88,7 @@ Functional impact
 
 </td><td>
 
-This remediation would change the user experience by automatically logging them out of the instance when their session expires. The session expiration would solely depend on the value set in the system property as detailed in [Managing user sessions](https://www.servicenow.com/docs/access?context=c_ManageUserSessions&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+This remediation would change the user experience by automatically logging them out of the instance when their session expires. The session expiration would solely depend on the value set in the system property as detailed in .
 
 </td></tr><tr><td>
 
@@ -104,10 +105,10 @@ References
 
 </td><td>
 
-[Remove the Remember me check box](../../login/concept/c_ChSetRemMeChkbxCookie.md#)
+[Remove the Remember me check box](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/c_ChSetRemMeChkbxCookie.md)
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US)
+</table>To learn more about adding or creating a system property, see 
 
-**Parent Topic:**[Data protection](sc-data-protection.md)
+**Parent Topic:**[Data protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-data-protection.md)
 

@@ -2,6 +2,7 @@
 title: Configuring Service Graph Connector settings in SGC Central
 description: You can view and configure settings for your Service Graph Connectors within the SGC Central view of the Service Graph Workspace or CMDB Workspace.Configure system properties for a Service Graph Connector within the SGC Central view of the Service Graph Workspace or CMDB Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/sgcc-settings.html
 release: zurich
 topic_type: concept
 last_updated: "2026-02-27"
@@ -13,7 +14,7 @@ breadcrumb: [Configuring SGC Central, SGC Central, Integrating third-party data 
 
 You can view and configure settings for your Service Graph Connectors within the SGC Central view of the Service Graph Workspace or CMDB Workspace.
 
-In SGC Central, you can configure Service Graph Connector settings related to system properties. See [Configure system properties for a Service Graph Connector in SGC Central](sgcc-settings.md#).
+In SGC Central, you can configure Service Graph Connector settings related to system properties. See [Configure system properties for a Service Graph Connector in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/sgcc-settings.md).
 
 ## Configure system properties for a Service Graph Connector in SGC Central
 
@@ -41,6 +42,6 @@ Role required: admin
 
 6.  Select **Save**.
 
-7.  Repeat steps from [4](sgcc-settings.md#sys-prop-select) to [6](sgcc-settings.md#sys-prop-save) for any other property.
+7.  Repeat steps from [4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/sgcc-settings.md) to [6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/sgcc-settings.md) for any other property.
 
 

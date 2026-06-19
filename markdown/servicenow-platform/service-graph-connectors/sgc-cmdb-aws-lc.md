@@ -2,6 +2,7 @@
 title: Life cycle management of records in Service Graph Connector for AWS
 description: Life cycle management in the Service Graph Connector for AWS monitors and updates the statuses of AWS resources throughout their entire life cycle, from creation to deletion.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-lc.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -17,7 +18,7 @@ Life cycle management in the Service Graph Connector for AWS monitors and update
 
 The life cycle management process helps maintain the accuracy and integrity of data in the Configuration Management Database \(CMDB\).
 
-In life cycle management, the record removal process involves systematically deleting obsolete or unnecessary resources. This step ensures that outdated entries are cleared, keeping the CMDB accurate and up-to-date. See [Record removal process in Service Graph Connector for AWS](sgc-cmdb-aws-removal.md).
+In life cycle management, the record removal process involves systematically deleting obsolete or unnecessary resources. This step ensures that outdated entries are cleared, keeping the CMDB accurate and up-to-date. See [Record removal process in Service Graph Connector for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-removal.md).
 
 ## Life cycle management for CIs in Service Graph Connector for AWS
 
@@ -80,5 +81,5 @@ The following table lists the configuration items \(CIs\) in CMDB and other non-
 |SG-AWS-Generic-Tags|Key Value \[cmdb\_key\_value\]|No|
 |SG-AWS-Get-Inventory|Server \[cmdb\_ci\_server\]|Yes|
 
-**Parent Topic:**[Service Graph Connector for AWS reference](sgc-cmdb-aws-reference.md)
+**Parent Topic:**[Service Graph Connector for AWS reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-reference.md)
 

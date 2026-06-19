@@ -2,6 +2,7 @@
 title: Additional configuration APIs
 description: These ServiceNow CPQ configuration APIs let you retrieve or delete an existing configuration. They complement the runtime APIs and are useful for viewing full configuration details and for removing configurations no longer needed. Use them alongside the standard create, update, reconfigure, and BOM APIs to support end-to-end configuration workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/logik\_io\_additional\_configuration\_apis.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -15,7 +16,7 @@ breadcrumb: [API overview and resources, ServiceNow CPQ app, Configure, price, q
 
 These ServiceNow CPQ configuration APIs let you retrieve or delete an existing configuration. They complement the runtime APIs and are useful for viewing full configuration details and for removing configurations no longer needed. Use them alongside the standard create, update, reconfigure, and BOM APIs to support end-to-end configuration workflows.
 
-This article is a followup to [Runtime APIs](logik_io_runtime_apis.md). For more information on authentication and setup,see that article.
+This article is a followup to [Runtime APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/logik_io_runtime_apis.md). For more information on authentication and setup,see that article.
 
 These API endpoints to get a configuration and delete a configuration from ServiceNow CPQ are included for completeness.
 

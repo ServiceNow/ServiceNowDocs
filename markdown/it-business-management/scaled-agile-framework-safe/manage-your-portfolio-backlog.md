@@ -2,6 +2,7 @@
 title: Manage your portfolio backlog
 description: Manage, evaluate, prioritize, and sequence epics in your portfolio backlog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scaled-agile-framework-safe/manage-your-portfolio-backlog.html
 release: zurich
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -47,15 +48,15 @@ Role required: sn\_portfolio\_safe.safe\_portfolio\_user
 
 7.  To arrange epics within the backlog, use either of the following options.
 
-<table id="choicetable_pgt_smy_p1b"><thead><tr><th align="left" id="d179169e161">
+<table id="choicetable_pgt_smy_p1b"><thead><tr><th align="left" id="d172053e161">
 
 Action
 
-</th><th align="left" id="d179169e164">
+</th><th align="left" id="d172053e164">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d179169e170">
+</th></tr></thead><tbody><tr><td id="d172053e170">
 
 **Using the drag feature**
 
@@ -63,7 +64,7 @@ Description
 
 Point to an epic and drag it to the required position.
 
-</td></tr><tr><td id="d179169e179">
+</td></tr><tr><td id="d172053e179">
 
 **Using the keyboard**
 
@@ -71,8 +72,8 @@ Point to an epic and drag it to the required position.
 
 1.  Press the **Tab** key.
 2.  After the desired epic is highlighted, press the **Tab** key.
-3.  After the ![Icon used to move the record](../../sdlc-scrum/image/draganddropicon.png) icon is highlighted, press the **Enter** key.
-4.  After the ![Icon used to move the record](../images/plansprintactivity.png) icon appears, use the up and down arrow keys.
+3.  After the \[Omitted image "draganddropicon.png"\] Alt text: Icon used to move the record icon is highlighted, press the **Enter** key.
+4.  After the \[Omitted image "plansprintactivity.png"\] Alt text: Icon used to move the record icon appears, use the up and down arrow keys.
 5.  To fix the position of the epic, press the **Enter** key.
 
 
@@ -84,12 +85,12 @@ Point to an epic and drag it to the required position.
 9.  To perform any action on a set of epics.
 
     -   Select the required epics.
-    -   Click ![Icon used to perform a single action on multiple features](../../sdlc-scrum/image/ellipsis.png) and select any of the following options:
+    -   Click \[Omitted image "ellipsis.png"\] Alt text: Icon used to perform a single action on multiple features and select any of the following options:
     |Option|Description|
     |------|-----------|
     |**Move to top**|Epics are placed at the top of the backlog section.|
     |**Move to bottom**|Epics are placed at the bottom of the backlog section.|
 
 
-**Parent Topic:**[SAFe Board—Portfolio level](../concept/portfolio-tabs.md)
+**Parent Topic:**[SAFe Board—Portfolio level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/portfolio-tabs.md)
 

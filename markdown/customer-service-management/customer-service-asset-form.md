@@ -2,7 +2,10 @@
 title: Asset form
 description: The Asset Management application uses the Asset form to store asset information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-service-asset-form.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 9
@@ -136,7 +139,7 @@ Parent
 
 </td><td>
 
-Parent asset of the asset. For example, a monitor or peripheral can have a workstation as their parent asset. When a parent link is defined, the fields related to assignment and state of the child assets is set to read-only and are populated based on the parent assignment and state fields. For more information, see [Bundled models](https://www.servicenow.com/docs/access?context=c_CreatingBundledModels&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+Parent asset of the asset. For example, a monitor or peripheral can have a workstation as their parent asset. When a parent link is defined, the fields related to assignment and state of the child assets is set to read-only and are populated based on the parent assignment and state fields. For more information, see .
 
 </td></tr><tr><td>
 
@@ -178,11 +181,11 @@ Location
 
 Current physical location of the asset.**Note:** You can set the location to a place, floor, building, or campus. When you set the location to any of the options except the campus, the Location hierarchy section is shown on the asset form. The location hierarchy shows the hierarchical relationship between the specified location and its parent locations.
 
-Also, when you set the Location field to a place and then set the **sn\_itam\_common.sn\_enable\_indoormap\_for\_assets** system parameter to **true** on your ServiceNow instance, a real-time location map of the asset is shown on the asset form. The Location map doesn’t appear by default. To view the map, select the Location map \(![asset indoor location con](../image/asset-indoor-location-icon.png)\) icon on the contextual sidebar of the asset record.
+Also, when you set the Location field to a place and then set the **sn\_itam\_common.sn\_enable\_indoormap\_for\_assets** system parameter to **true** on your ServiceNow instance, a real-time location map of the asset is shown on the asset form. The Location map doesn’t appear by default. To view the map, select the Location map \(\[Omitted image "asset-indoor-location-icon.png"\] Alt text: asset indoor location con\) icon on the contextual sidebar of the asset record.
 
 Location map doesn’t appear for excluded assets.
 
-You can also track your asset location using the Asset Indoor map in the Asset estate view of the Hardware Asset Workspace. For more information, see [Track asset location using indoor maps](https://www.servicenow.com/docs/access?context=track-asset-location-using-indoor-maps&version=zurich&pubname=zurich-it-asset-management&ft:locale=en-US).
+You can also track your asset location using the Asset Indoor map in the Asset estate view of the Hardware Asset Workspace. For more information, see .
 
 </td></tr><tr><td>
 

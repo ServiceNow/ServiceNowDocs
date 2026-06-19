@@ -2,6 +2,7 @@
 title: Configure non-planning items for feedback or product ideas records
 description: Configure non-planning items to link your feedback or product idea records to navigate quickly between related items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/product-feedback/config-items-sp.html
 release: zurich
 product: Product Feedback
 classification: product-feedback
@@ -52,7 +53,7 @@ Role required: admin
 
 ## What to do next
 
-[Associate a feedback or a product idea record with a non-planning item](associate-feedback-with-non-planning-item.md)
+[Associate a feedback or a product idea record with a non-planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/associate-feedback-with-non-planning-item.md)
 
-**Parent Topic:**[Configuring Feedback application in Strategic Planning](../concept/configuring-product-feedback-in-sp.md)
+**Parent Topic:**[Configuring Feedback application in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/configuring-product-feedback-in-sp.md)
 

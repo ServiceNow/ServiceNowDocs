@@ -2,6 +2,7 @@
 title: Update the Employee Profile banner and profile images
 description: Upload or update the banner and profile images for your Employee Profile page with the upgraded edit features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/update-employee-profile-banner-and-profile-images.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation

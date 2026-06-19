@@ -2,6 +2,7 @@
 title: Create prompt assets
 description: Create AI assets to track and manage the life cycles of your prompts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/create-prompt-assets.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
@@ -132,7 +133,7 @@ Input that you want to provide to AI models.
 
         1.  Select the Add from inventory drop-down menu on the header of the AI models list.
         2.  Select **Create**.
-        3.  Create the AI model by following the proceeding steps in [Create AI model assets](create-ai-model-assets.md).
+        3.  Create the AI model by following the proceeding steps in [Create AI model assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-ai-model-assets.md).
         The new AI model appears in the AI models list.
 
 8.  Select **Submit for review**.
@@ -146,7 +147,7 @@ The prompt is added to your AI asset inventory. It automatically enters the onbo
 
 ## What to do next
 
-Users who are assigned the AI steward \(sn\_ai\_governance.ai\_steward\) role can start the review process to begin tracking and managing the life cycle of the prompt. For detailed instructions, see [Complete AI asset lifecycle](complete-ai-asset-lifecycle.md).
+Users who are assigned the AI steward \(sn\_ai\_governance.ai\_steward\) role can start the review process to begin tracking and managing the life cycle of the prompt. For detailed instructions, see [Complete AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/complete-ai-asset-lifecycle.md).
 
-**Parent Topic:**[Creating AI assets](../concept/creating-ai-assets.md)
+**Parent Topic:**[Creating AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/creating-ai-assets.md)
 

@@ -2,6 +2,7 @@
 title: Associate a PA indicator with a risk statement or control objective
 description: You can associate Performance Analytics indicators with risk statements and policy statements to analyze trends related to the risk or policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/associate-pa-indicator-grc-content-2.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -40,5 +41,5 @@ Role required: sn\_risk.manager or sn\_compliance.manager
     On the risk statement or control objective form, in the **PA Indicators** related list, you see the associated indicator. You can optionally click **View Indicator** on the desired indicator to see the Performance Analytics scorecard of the indicator. The PA Indicator associations are carried over to all risks or controls associated to the original risk statement or control objective. Also, if the indicator has a breakdown that matches the risk or entity of the control \(for example a Business Service breakdown\), the **Breakdown** and **Element** fields for the relationship are automatically filled in.
 
 
-**Parent Topic:**[Monitor risks using GRC Performance Analytics Indicators](../../grc-risk/concept/pa-indicators-risk.md)
+**Parent Topic:**[Monitor risks using GRC Performance Analytics Indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/pa-indicators-risk.md)
 

@@ -2,6 +2,7 @@
 title: Activate the endpoint of the Telecommunications Alarm Management Open API connection
 description: Activate the endpoint of the Telecommunications Alarm Management Open API connection. By activating the endpoint, you receive the incoming notifications from the external system for the topic that you registered.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-service-ops/telecommunications-service-operations-management/activate-endpoint-in-the-telecommunications-alarm-management-open-api.html
 release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management

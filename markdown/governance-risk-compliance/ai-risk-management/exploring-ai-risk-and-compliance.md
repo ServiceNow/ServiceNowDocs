@@ -2,6 +2,7 @@
 title: Exploring AI Risk and Compliance
 description: Learn how you can use the AI Risk and Compliance application to manage your artificial intelligence \(AI\) capabilities ethically, mitigate AI risks, and ensure compliance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/ai-risk-management/exploring-ai-risk-and-compliance.html
 release: zurich
 product: AI Risk Management
 classification: ai-risk-management
@@ -21,7 +22,7 @@ The AI risk and compliance team is responsible for identifying and assessing ris
 
 ## AI Risk and Compliance users
 
-The users listed in the following table represent generic roles. Each of these roles may be identified by different titles and names in various organizations. For specific roles within the AI Risk and Compliance application, refer to [Roles installed with AI Risk and Compliance](../reference/roles-installed-with-ai-risk-and-compliance.md).
+The users listed in the following table represent generic roles. Each of these roles may be identified by different titles and names in various organizations. For specific roles within the AI Risk and Compliance application, refer to [Roles installed with AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.md).
 
 <table id="table_pyh_bxl_p2c"><thead><tr><th>
 
@@ -137,7 +138,7 @@ Manage AI systems, models, and datasets across their entire life-cycle with cons
 
 </td><td>
 
-[AI asset lifecycle](https://www.servicenow.com/docs/access?context=ai-asset-lifecycle&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)
+
 
 </td><td>
 
@@ -149,7 +150,7 @@ Perform impact assessments for AI systems, models, and datasets to identify high
 
 </td><td>
 
-[Perform impact assessment on an AI use case](../task/perform-impact-assessment-of-ai-use-case.md)
+[Perform impact assessment on an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/perform-impact-assessment-of-ai-use-case.md)
 
 </td><td>
 
@@ -162,7 +163,7 @@ Perform risk assessments on AI system and individual risks associated with an AI
 
 </td><td>
 
-[Perform risk assessments on AI systems](../task/perform-risk-assessments-on-ai-systems.md)[Initiate risk assessment on AI asset's risks](../task/request-risk-assessments-for-ai-systems.md)
+[Perform risk assessments on AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/perform-risk-assessments-on-ai-systems.md)[Initiate risk assessment on AI asset's risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/request-risk-assessments-for-ai-systems.md)
 
 </td><td>
 
@@ -174,9 +175,9 @@ Manage and oversee AI-related cases and issues through a structured case managem
 
 </td><td>
 
-[Create an AI case in the AI Risk and Compliance workspace](../task/create-ai-case-in-the-ai-risk-and-compliance-workspace.md)
+[Create an AI case in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/create-ai-case-in-the-ai-risk-and-compliance-workspace.md)
 
- [Create an AI issue in the AI Risk and Compliance workspace](../task/create-ai-issue-in-the-ai-risk-and-compliance-workspace.md)
+ [Create an AI issue in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/create-ai-issue-in-the-ai-risk-and-compliance-workspace.md)
 
 </td><td>
 
@@ -189,8 +190,8 @@ Build a compliance-ready AI asset inventory aligned with regulatory requirements
 
 </td><td>
 
--   [AI assets](https://www.servicenow.com/docs/access?context=ai-assets&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US)
--   [Create control attestations for AI asset](../task/attest-controls-for-ai-systems.md)
+-   
+-   [Create control attestations for AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/attest-controls-for-ai-systems.md)
 
 </td><td>
 
@@ -201,7 +202,7 @@ AI Risk and Compliance Analyst
 
 To learn more about configuring and using AI Risk and Compliance, see:
 
--   [Configuring AI Risk and Compliance](configuring-ai-risk-and-compliance.md)
--   [Using AI Risk and Compliance](using-ai-risk-and-compliance.md)
--   [AI Risk and Compliance reference](../reference/ai-risk-and-compliance-reference.md)
+-   [Configuring AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/configuring-ai-risk-and-compliance.md)
+-   [Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
+-   [AI Risk and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-reference.md)
 

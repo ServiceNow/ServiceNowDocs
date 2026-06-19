@@ -2,6 +2,7 @@
 title: Using enhanced synchronization
 description: Synchronize your workplace locations with your Indoor Mapping data by using the enhanced sync feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/indoor-mapping/using-enhanced-sync.html
 release: zurich
 product: Indoor Mapping
 classification: indoor-mapping
@@ -23,7 +24,7 @@ To use the enhanced sync feature, see the following steps.
 
 1.  Configure the Enhanced Sync properties to define the behavior of the sync operations between Indoor Mapping and Workplace Service Delivery.
 
-    For more information about the Enhanced Sync properties, see [Enhanced Sync Properties](../reference/enhanced-sync-properties.md).
+    For more information about the Enhanced Sync properties, see [Enhanced Sync Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/enhanced-sync-properties.md).
 
 2.  Update data in Workplace Core.
 
@@ -41,7 +42,7 @@ To use the enhanced sync feature, see the following steps.
 
 4.  Review pending sync operations to process or ignore the operations.
 
-    For more information about Enhanced Sync operations, see [Manage enhanced sync operations](../task/manage-sync-operations.md).
+    For more information about Enhanced Sync operations, see [Manage enhanced sync operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/manage-sync-operations.md).
 
 5.  Review the sync activities for information about the updates made to Indoor Mapping and Workplace Core as part of enhanced sync.
 
@@ -54,12 +55,12 @@ To use the enhanced sync feature, see the following steps.
     You can view the sync error logs by navigating to **All** &gt; **Workplace Core** &gt; **Enhanced Sync** &gt; **Enhanced Sync Error Logs**.
 
 
--   **[Manage enhanced sync operations](../task/manage-sync-operations.md)**  
+-   **[Manage enhanced sync operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/manage-sync-operations.md)**  
 Review pending sync operations and decide whether to process or ignore the operation.
 
-**Parent Topic:**[Manage map objects and data](using-indoor-mapping.md)
+**Parent Topic:**[Manage map objects and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/using-indoor-mapping.md)
 
-**Previous topic:**[Synchronize Indoor Mapping map data with CMN location](../task/sync-ind-mapping-cmn-location.md)
+**Previous topic:**[Synchronize Indoor Mapping map data with CMN location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/sync-ind-mapping-cmn-location.md)
 
-**Next topic:**[Manage enhanced sync operations](../task/manage-sync-operations.md)
+**Next topic:**[Manage enhanced sync operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/manage-sync-operations.md)
 

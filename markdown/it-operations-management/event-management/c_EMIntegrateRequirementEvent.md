@@ -2,6 +2,7 @@
 title: Event field format for event collection
 description: Event Management requires all events to use a standard form, regardless of how they arrive at the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/c\_EMIntegrateRequirementEvent.html
 release: zurich
 product: Event Management
 classification: event-management

@@ -2,6 +2,7 @@
 title: Create a filter
 description: You can create as many versions of a filter as necessary. You can then designate which versions are active and available for selection in Compliance template records, Governance Risk and Compliance control test definitions, or Data Certification schedule definitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/t\_CreatingFilters.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -111,7 +112,7 @@ Filter condition
 
 </td><td>
 
-Specifies the fields, operators, and values that create the filter. The available fields are based on the selected table. The condition builder shows the number of records that match the conditions. Click the refresh icon ![Refresh conditions icon.](../image/RefreshConditions.png "Refresh Conditions")
+Specifies the fields, operators, and values that create the filter. The available fields are based on the selected table. The condition builder shows the number of records that match the conditions. Click the refresh icon \[Omitted image "RefreshConditions.png"\] Alt text: Refresh conditions icon.
 
  to recalculate the number of matching records when you edit the conditions.
 

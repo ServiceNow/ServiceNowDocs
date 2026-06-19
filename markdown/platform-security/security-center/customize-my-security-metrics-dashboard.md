@@ -2,6 +2,7 @@
 title: Customize the My security metrics dashboard
 description: Discover the flexibility of the My security metrics dashboard, which can be customized with metrics from various sources like graphs and charts. Tailor the dashboard to suit your organization's specific requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/security-center/customize-my-security-metrics-dashboard.html
 release: zurich
 product: Security Center
 classification: security-center
@@ -17,7 +18,7 @@ Discover the flexibility of the My security metrics dashboard, which can be cust
 
 ## Before you begin
 
-![User interface for dashboard customization](../images/sc-custom-metrics.png)
+\[Omitted image "sc-custom-metrics.png"\] Alt text: User interface for dashboard customization
 
 To customize the Security Metrics dashboard, confirm you are within the Security Center application scope. To switch to this scope, select **application picker** &gt; **Application scope**, and type security center.
 
@@ -50,5 +51,5 @@ Implement and customize My security metrics dashboard. Add metrics and content t
     2.  Select **Confirm**.
 
 
-**Parent Topic:**[Security metrics](../concept/sc-metrics.md)
+**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/sc-metrics.md)
 

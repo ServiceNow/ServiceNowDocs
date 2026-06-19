@@ -2,6 +2,7 @@
 title: Configure the theme for Service Operations Workspace for ITSM
 description: Configure the visual experience in Service Operations Workspace for ITSM for your users, helping to update the look and feel to be more like your brand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/configure-theme-sow-itsm.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -27,7 +28,7 @@ Role required: sn\_sow\_admin.sn\_sow\_admin or admin
 
     2.  Search for the Theme Builder \(sn\_theme\_builder\) application and install it.
 
-2.  Create a theme using Theme Builder by referring to [Create a theme with Theme Builder](https://www.servicenow.com/docs/access?context=tb-create-theme&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+2.  Create a theme using Theme Builder by referring to .
 
     Polaris is the default theme for Next Experience, and this theme cannot be copied. So, we must create a theme and publish it for use.
 

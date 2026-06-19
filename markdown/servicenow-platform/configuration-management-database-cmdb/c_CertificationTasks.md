@@ -2,6 +2,7 @@
 title: Certification tasks
 description: A certification task represents the work of verifying the data associated with a particular record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/c\_CertificationTasks.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -17,7 +18,7 @@ A certification task represents the work of verifying the data associated with a
 
 Task owners are responsible for performing the certification tasks. Tasks have an associated workflow that sends reminders to the task owner and, if necessary, the manager of the owner at regular intervals.
 
-![Viewing a certification task to verify data](../image/CertificationTask.png "Certification task")
+\[Omitted image "CertificationTask.png"\] Alt text: Viewing a certification task to verify data
 
 **Note:** If the message
 

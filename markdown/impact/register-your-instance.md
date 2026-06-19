@@ -2,7 +2,10 @@
 title: Register your instance
 description: Populate and configure ServiceNow instances to take advantage of exception processing in production, definitions sync, and user story creation and tracking.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/register-your-instance.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-01-08"
 reading_time_minutes: 1
@@ -23,6 +26,6 @@ Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\).
 
     Each record in the table indicates a ServiceNow instance connected to the current instance through API integrations. There should also be a record for the current instance as well.
 
-2.  Refer to [Configure the basic authentication method](configure-basic-auth-method.md) or [Configure the OAuth authentication method](configure-oauth-auth-method.md) to complete the registration process.
+2.  Refer to [Configure the basic authentication method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-basic-auth-method.md) or [Configure the OAuth authentication method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-oauth-auth-method.md) to complete the registration process.
 
 

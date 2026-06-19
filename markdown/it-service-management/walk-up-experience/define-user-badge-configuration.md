@@ -2,6 +2,7 @@
 title: Define a user badge configuration
 description: Define the table from where the user ID and Badge ID mapping information is retrieved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/walk-up-experience/define-user-badge-configuration.html
 release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -47,5 +48,5 @@ The user ID and badge ID mapping configuration is used to retrieve the user ID o
 
 The mapping configuration is created. You can select this mapping configuration in the Badge Reader form to retrieve the user ID from the badge ID based on this mapping configuration.
 
-**Parent Topic:**[Walk-up Experience Badge Reader Integration setup and configuration](../concept/walkup-badge-read-integ-config.md)
+**Parent Topic:**[Walk-up Experience Badge Reader Integration setup and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walkup-badge-read-integ-config.md)
 

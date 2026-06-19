@@ -2,6 +2,7 @@
 title: Google Cloud Platform Load Balancer Out Of Box permissions
 description: Google Cloud Platform HTTP Load Balancer Out Of Box permissions
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/gcp-load-balancer-oob-permissions.html
 release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -108,5 +109,5 @@ Stack - Deprovision
 -   compute.urlMaps.delete
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Google Cloud Platform Load Balancer](google-cloud-platform-load-balancer.md)
+</table>**Parent Topic:**[Google Cloud Platform Load Balancer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/google-cloud-platform-load-balancer.md)
 

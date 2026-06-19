@@ -2,6 +2,7 @@
 title: Export a Task Intelligence model
 description: Export a Task Intelligence model to another instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/task-intelligence/export-ti-model.html
 release: zurich
 product: Task Intelligence
 classification: task-intelligence
@@ -25,7 +26,7 @@ Role required: admin or tia\_admin
 
 2.  In the **Models** list, select the more options menu of the model you want to export.
 
-    ![Export model button in the Models list.](../images/export-ti-modelT1-brand2.0.png)
+    \[Omitted image "export-ti-modelT1-brand2.0.png"\] Alt text: Export model button in the Models list.
 
 3.  Select **Export model**.
 
@@ -40,5 +41,5 @@ The XML file downloads to your browser.
 
 ## What to do next
 
-You can use the XML file to easily transfer the model to another instance using update sets. To learn more, see [System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+You can use the XML file to easily transfer the model to another instance using update sets. To learn more, see System update sets.
 

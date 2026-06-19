@@ -2,6 +2,7 @@
 title: Configuring derived pricing
 description: Automatically set the pricing for a product by deriving its pricing from other products or pricing sources such as transactional values in quotes or orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configuring-related-product-pricing.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -89,6 +90,6 @@ To implement related pricing, follow these tasks:
 
 |Task|Description|Role|
 |----|-----------|----|
-|[Enable related \(derived\) pricing for a price list line](../task/som-create-price-list-line.md)|When creating a price list line, select the Derive price option.|Pricing admin or manager|
-|[Create rules for derived product pricing](../task/create-derived-pricing-source.md)|Use the Derived Pricing Matrix to define the product relationships and calculations used when deriving product pricing.|Pricing admin or manager|
+|[Enable related \(derived\) pricing for a price list line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-create-price-list-line.md)|When creating a price list line, select the Derive price option.|Pricing admin or manager|
+|[Create rules for derived product pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-derived-pricing-source.md)|Use the Derived Pricing Matrix to define the product relationships and calculations used when deriving product pricing.|Pricing admin or manager|
 

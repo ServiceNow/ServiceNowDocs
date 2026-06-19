@@ -2,6 +2,7 @@
 title: Risk appetite fields on the Risk form
 description: Learn about the risk appetite fields on the Risk form. Use these fields to define the risk appetite, evaluate all the possible risks, and set the boundaries for acceptable and unacceptable risks in the Risk Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/risk-appetite-fields-on-risk.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -55,7 +56,7 @@ Risk appetite in numerical scale and rating terms. The qualitative appetite is c
 -   4 - Open
 -   5 - Hungry
 
- A risk administrator can change or create the risk appetite scales based on the organization's requirement. For more information, see [Set up a risk appetite scale](../../grc-risk/task/set-up-risk-appetite-scale.md).
+ A risk administrator can change or create the risk appetite scales based on the organization's requirement. For more information, see [Set up a risk appetite scale](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/set-up-risk-appetite-scale.md).
 
  **Note:** A risk user and risk reader with the sn\_risk\_advanced.qualitative\_risk\_appetite\_reader role can only view the qualitative appetite and qualitative tolerance values on the form and in other places.
 
@@ -81,7 +82,7 @@ Risk tolerance in numerical scale and rating terms. The risk tolerance is the st
 -   4 - Open
 -   5 - Hungry
 
- A risk administrator can change or create the risk appetite scales based on the organization's requirement. For more information, see [Set up a risk appetite scale](../../grc-risk/task/set-up-risk-appetite-scale.md).
+ A risk administrator can change or create the risk appetite scales based on the organization's requirement. For more information, see [Set up a risk appetite scale](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/set-up-risk-appetite-scale.md).
 
 </td></tr><tr><td>
 
@@ -142,5 +143,5 @@ Appetite status
 Overall appetite status. The overall appetite status considers the worst-case scenario between the qualitative and quantitative status. For example, if the qualitative appetite status is within the appetite and the quantitative appetite status is outside the appetite, then the overall appetite status is outside the appetite.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Define the risk appetite for a risk](../task/define-risk-appetite-on-risk.md)
+</table>**Parent Topic:**[Define the risk appetite for a risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/define-risk-appetite-on-risk.md)
 

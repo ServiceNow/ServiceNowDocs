@@ -2,6 +2,7 @@
 title: Restrict access to certain major security incidents
 description: Manage who can view or modify major security incidents that contain sensitive information. You can enforce major security incident restrictions to determine who has access to view or modify certain major security incident records and related lists and limit the read or write access only to certain users or groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/restrict-access-major-security-incidents.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -39,7 +40,7 @@ After you enforce the restriction on major security incidents or related lists t
 
 6.  Select the **Enforce restriction** check box to enable the restriction of the major security incident.
 
-    ![Limit access to major security incidents only to certain groups or users.](../image/msim-restrict-access.png "Restrict access to major security incidents")
+    \[Omitted image "msim-restrict-access.png"\] Alt text: Limit access to major security incidents only to certain groups or users.
 
 7.  In the Allowed members field, select the users who can view or modify the major security incident using the Search option.
 
@@ -50,5 +51,5 @@ After you enforce the restriction on major security incidents or related lists t
 9.  Select **Save**.
 
 
-**Parent Topic:**[Update Major Security Incident details](../concept/msim-details-tab.md)
+**Parent Topic:**[Update Major Security Incident details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/msim-details-tab.md)
 

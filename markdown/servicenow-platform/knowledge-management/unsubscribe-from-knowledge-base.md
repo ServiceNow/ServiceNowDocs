@@ -2,6 +2,7 @@
 title: Unsubscribe from a knowledge base
 description: Unsubscribe from a knowledge base.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/unsubscribe-from-knowledge-base.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -25,7 +26,7 @@ Users can unsubscribe from a knowledge base from either the Knowledge Management
 
 **Note:** If you subscribe to an article and then subscribe to the knowledge base, unsubscribing from the knowledge base also unsubscribes you from the article.
 
-Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](../concept/knowledge-service-portal-pages.md).
+Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md).
 
 ## Procedure
 
@@ -36,5 +37,5 @@ Starting with the Washington DC release, the Knowledge Management v3 homepage \(
     After unsubscribing you from the knowledge base, the link toggles to **Subscribe**.
 
 
-**Parent Topic:**[Use knowledge subscriptions](../concept/use-knowledge-subscriptions.md)
+**Parent Topic:**[Use knowledge subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/use-knowledge-subscriptions.md)
 

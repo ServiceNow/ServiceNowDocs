@@ -2,6 +2,7 @@
 title: Link Alexa events using the macOS Terminal
 description: Link Alexa events using your macOS Terminal to complete the Alexa account linking process with your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/link-alexa-mac-terminal.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -75,5 +76,5 @@ Your Alexa account is linked with your ServiceNow instance.
 
 Your Alexa account is linked with your ServiceNow instance.
 
-**Parent Topic:**[Account linking with Alexa](../concept/account-linking-alexa.md)
+**Parent Topic:**[Account linking with Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/account-linking-alexa.md)
 

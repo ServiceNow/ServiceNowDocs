@@ -2,6 +2,7 @@
 title: Service Mapping Recomputation
 description: Keep application services up to date and track changes to services through the recomputation capability of the Application Service feature of Service Mapping. Recomputation jobs recalculate mapped application services when changes occur to an associated configuration item \(CI\) within the Configuration Management Database \(CMDB\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/recomputation.html
 release: zurich
 product: Service Mapping
 classification: service-mapping
@@ -28,5 +29,5 @@ Recomputation jobs are configured to run every five seconds. After the jobs are 
 
 You can configure the recomputation type, frequency, and other factors as needed. For more information about Service Mapping, see the [Service Mapping Recomputation Jobs: Configuration and Best Practices \[KB1001151\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1001151) article in the Now Support Knowledge Base.
 
-**Parent Topic:**[Service Mapping reference](../reference/service-mapping-reference.md)
+**Parent Topic:**[Service Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-reference.md)
 

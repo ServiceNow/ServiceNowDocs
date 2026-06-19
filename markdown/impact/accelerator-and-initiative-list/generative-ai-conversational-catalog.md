@@ -2,6 +2,7 @@
 title: Generative AI - Virtual Agent Conversational Catalog
 description: The Generative AI -Virtual Agent Conversational Catalog Accelerator provides guidance on conversational compatibility of a select set of your catalog request items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/generative-ai-conversational-catalog.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,7 +20,7 @@ The Generative AI -Virtual Agent Conversational Catalog Accelerator provides gui
 
 Generative AI – Virtual Agent Conversational Catalog assists Impact customers in identifying request catalog items that are compatible with the conversational catalog experience in their Virtual Agent. Includes interactions with ServiceNow Impact Platform Architect and personalized content.
 
-Refer to [Catalog Conversational Coverage](https://www.servicenow.com/docs/access?context=configure-gen-ai-catalog-item&version=zurich&pubname=zurich-servicenow-platform&section=using-catalog-conversational-experience&ft:locale=en-US) for additional information.
+Refer to  for additional information.
 
 **Note:** This Accelerator is available for Impact Advanced and Total packages.
 
@@ -143,9 +144,9 @@ Include if customer is using a 3rd party development partner, and that partner i
 
 Install the following in advance:
 
--   [AI Search](https://servicenow.com/docs/csh?version=latest&topicname=administer/ai-search/concept/overview-ais.html), and ideally, [Now Assist in AI Search](https://servicenow.com/docs/csh?version=latest&topicname=administer/ai-search/concept/overview-ais.html)
--   [Virtual Agent \(NLU\)](https://servicenow.com/docs/csh?version=latest&topicname=administer/virtual-agent/concept/virtual-agent-landing-page.html) or [Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-in-va-landing&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US)
--   [Conversational catalog overview dashboard](https://servicenow.com/docs/csh?version=latest&topicname=product/service-catalog-management/concept/using-catalog-conversational-experience.html)
+-   [AI Search](https://www.servicenow.com/docs/access?version=latest&topicname=administer/ai-search/concept/overview-ais.html), and ideally, [Now Assist in AI Search](https://www.servicenow.com/docs/access?version=latest&topicname=administer/ai-search/concept/overview-ais.html)
+-   [Virtual Agent \(NLU\)](https://www.servicenow.com/docs/access?version=latest&topicname=administer/virtual-agent/concept/virtual-agent-landing-page.html) or 
+-   [Conversational catalog overview dashboard](https://www.servicenow.com/docs/access?version=latest&topicname=product/service-catalog-management/concept/using-catalog-conversational-experience.html)
 
     **Note:** If you've installed Now Assist for conversation request submission plugin, you get the Catalog Conversational Experience plugin \(sn\_catalog\_con\_cov\) by default.
 

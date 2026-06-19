@@ -2,6 +2,7 @@
 title: Prerequisites for using Dynamic Translation in Virtual Agent
 description: To enable dynamic machine translation, install ServiceNow language plugins and Dynamic Translation plugins. Then configure Dynamic Translation for your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/prereq-using-dt-va.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -15,22 +16,22 @@ breadcrumb: [Localization options for Virtual Agent, Build and deploy, Virtual A
 
 To enable dynamic machine translation, install ServiceNow® language plugins and Dynamic Translation plugins. Then configure Dynamic Translation for your instance.
 
-Before you can [enable dynamic machine translation](../task/enable-dynamic-lang-detection.md) for a language, you must install and configure Dynamic Translation on your instance.
+Before you can [enable dynamic machine translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-dynamic-lang-detection.md) for a language, you must install and configure Dynamic Translation on your instance.
 
 1.  As an admin, install the following plugins:
 
     -   Glide Virtual Agent \(com.glide.cs.chatbot\)
     -   Dynamic Translation for Virtual Agent \(com.glide.cs.dynamic.translation.virtual\_agent\)
-2.  [Activate language plugins](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) for each language that you want to deploy with dynamic translation.
+2.  Activate language plugins for each language that you want to deploy with dynamic translation.
 
     **Note:** Languages for Dynamic Translation are stored in the sys\_cs\_dynamic\_translation\_virtual\_agent table.
 
-3.  \(Optional\) [Enable NLU languages in Virtual Agent settings](../task/enable-langs-va-gen-settings.md), if you are using NLU topic discovery.
+3.  \(Optional\) [Enable NLU languages in Virtual Agent settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-langs-va-gen-settings.md), if you are using NLU topic discovery.
 
     **Note:** NLU detection and discovery values are stored in the sys\_cs\_general\_settings table. As of Vancouver, ServiceNow NLU is the available NLU driver.
 
-4.  \(Optional\) [Enable LLM languages in Now Assist Admin](../../now-assist-admin/task/enable-dynamic-translation-for-now-assist-applications.md) if you are using Now Assist in Virtual Agent.
-5.  \(Optional\) Create exclusion rules for specific terms and content patterns within the [Exclusion Framework](https://www.servicenow.com/docs/access?context=dyn-translation-exclusion-framework&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+4.  \(Optional\) [Enable LLM languages in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.md) if you are using Now Assist in Virtual Agent.
+5.  \(Optional\) Create exclusion rules for specific terms and content patterns within the Exclusion Framework.
 
 The following translation service providers are pre-configured once the plugins are installed:
 
@@ -44,16 +45,16 @@ The following translation service providers are pre-configured once the plugins 
 
 You can configure any other translation service provider in the Dynamic Translation application as follows:
 
-1.  [Integrate with a translation service provider](https://www.servicenow.com/docs/access?context=integrate-translation-service-provider&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+1.  Integrate with a translation service provider.
 
-2.  [Create a translator configuration in Dynamic Translation](https://www.servicenow.com/docs/access?context=create-custom-translator&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+2.  Create a translator configuration in Dynamic Translation.
 
-3.  [Create a language code mapping](https://www.servicenow.com/docs/access?context=create-language-code-mapping&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) to map translator language codes to the ServiceNow® language codes.
+3.  Create a language code mapping to map translator language codes to the ServiceNow® language codes.
 
 
 ## Next step
 
-[Configure Dynamic Translation service integration credentials](../task/configure-translation-srvc-integration-credentials.md)
+[Configure Dynamic Translation service integration credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-translation-srvc-integration-credentials.md)
 
-**Parent Topic:**[Localization options for Virtual Agent](multi-language-options-va.md)
+**Parent Topic:**[Localization options for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/multi-language-options-va.md)
 

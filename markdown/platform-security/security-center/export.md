@@ -2,6 +2,7 @@
 title: Export
 description: Discover the data that is commonly exported, and which users do the exporting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/security-center/export.html
 release: zurich
 product: Security Center
 classification: security-center
@@ -22,7 +23,7 @@ This page displays cards with information on metrics related to export. Each car
 
 Select the cards to view the individual metrics page with additional details.
 
-Select the **+Create task** button to create a Security Task related to a metric. For details on Security Tasks, see [Security Tasks](security-task-manager.md).
+Select the **+Create task** button to create a Security Task related to a metric. For details on Security Tasks, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/security-task-manager.md).
 
-**Parent Topic:**[Security metrics](sc-metrics.md)
+**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/sc-metrics.md)
 

@@ -2,6 +2,7 @@
 title: Overwrite customizations during an upgrade
 description: Specify which customized objects you want to replace during the next upgrade. By default, the upgrade process skips changes to customized objects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/system-update-sets/t\_OverwriteCustomizsDuringUpgrades.html
 release: zurich
 product: System Update Sets
 classification: system-update-sets
@@ -36,5 +37,5 @@ The systems tracks the configuration changes you make such as modifying the dict
     The customized object will be replaced on the next upgrade.
 
 
-**Parent Topic:**[Administer system update sets](../concept/administer-system-update-sets.md)
+**Parent Topic:**[Administer system update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/administer-system-update-sets.md)
 

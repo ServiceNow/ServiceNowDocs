@@ -2,6 +2,7 @@
 title: Components installed with Universal Request
 description: Several types of components are installed with activation of the Universal Request plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-request-for-hr-service-delivery/installed-with-ur.html
 release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -213,5 +214,5 @@ Universal Request Activity Log\[universal\_request\_activity\_log\]
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate Universal Request](../task/activate-ur-plugin.md)
+</table>**Parent Topic:**[Activate Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/activate-ur-plugin.md)
 

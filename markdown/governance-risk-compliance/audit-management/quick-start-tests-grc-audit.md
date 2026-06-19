@@ -2,6 +2,7 @@
 title: Quick start tests for Audit Management
 description: Validate that GRC: Audit Management still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/quick-start-tests-grc-audit.html
 release: zurich
 product: Audit Management
 classification: audit-management
@@ -92,10 +93,10 @@ Create an Auditable unit with method as "Detailed Risk Assessment" and request f
 Paris
 
 </td></tr></tbody>
-</table>To learn more about Audit Management, see [Audit Management](../../../product/grc-audit/concept/c_GRCAudits.md).
+</table>To learn more about Audit Management, see [Audit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/c_GRCAudits.md).
 
 **Related topics**  
 
 
-[Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+[bundle-cadev.quick-start-tests]
 

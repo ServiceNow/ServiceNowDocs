@@ -2,6 +2,7 @@
 title: Exploring Digital Product Release
 description: The ServiceNow Digital Product Release application enables you to streamline the process of delivering digital products and services by managing the process from planning to delivery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-product-release/dpr-exploring-digital-product-release.html
 release: zurich
 product: Digital Product Release
 classification: digital-product-release
@@ -21,13 +22,13 @@ Digital Product Release \(DPR\) is a release management solution that helps rele
 
 This solution automates processes that enable collaboration between stakeholders, so everyone can track release status, from start to finish.
 
-DPR provides AI-driven capability to automate the creation of release notes for product and service releases. The release notes are automatically generated from canonical release artifacts—such as stories, problems, incidents, and change records. You can edit and publish the release notes, and then download them in PDF or share a link. For more information, see [AI-powered release notes generation](dpr-ai-release-notes-generation.md).
+DPR provides AI-driven capability to automate the creation of release notes for product and service releases. The release notes are automatically generated from canonical release artifacts—such as stories, problems, incidents, and change records. You can edit and publish the release notes, and then download them in PDF or share a link. For more information, see [AI-powered release notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-ai-release-notes-generation.md).
 
 ## Digital Product Release Workflow
 
 A digital product or service has a release life cycle that starts with planning, goes through development, and ends with delivery. There are many different phases to the release life cycle of a product or service, and each phase can have its own set of activities. The following infographic illustrates the life cycle of digital products and services.
 
-![Infographic showing the release life-cycle for digital products and services. For details, refer to the following description.](../image/dpr-release-workflow.png "Release life cycle for digital products and services")
+\[Omitted image "dpr-release-workflow.png"\] Alt text: Infographic showing the release life-cycle for digital products and services. For details, refer to the following description.
 
 1.  Create a product or service and add features, product enhancements,and releases.
 2.  Plan the scope of a release by moving product enhancements into releases.
@@ -86,12 +87,12 @@ Engineering lead
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Define release readiness targets for single or recurring release schedules.|[Release readiness target](../task/dpr-create-rls-readiness-target.md)|Release manager|
-|Define release templates that include phases, tasks, policies, and approval tasks.|[Release templates](../task/dpr-create-release-template.md#)|Release manageror Release template admin|
-|Create policies to automate the release process.|[Policy administration](../reference/dpr-policies.md)|Release manager|
-|Manage products, services,features, product enhancements,versions, and initiate a release.|[Release planning](../task/dpr-plan-feature-version.md)|Product manager|
-|Generate AI-powered release notes that streamline release documentation, reduces manual effort, and improves clarity for stakeholders.|[Generate AI-powered release notes for a release](../task/dpr-generate-release-notes.md)|Product manager|
-|Plan and manage the release process from start to finish.|[Release execution](../task/dpr-work-release.md#)|Release manager|
+|Define release readiness targets for single or recurring release schedules.|[Release readiness target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-create-rls-readiness-target.md)|Release manager|
+|Define release templates that include phases, tasks, policies, and approval tasks.|[Release templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-create-release-template.md)|Release manageror Release template admin|
+|Create policies to automate the release process.|[Policy administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-policies.md)|Release manager|
+|Manage products, services,features, product enhancements,versions, and initiate a release.|[Release planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-plan-feature-version.md)|Product manager|
+|Generate AI-powered release notes that streamline release documentation, reduces manual effort, and improves clarity for stakeholders.|[Generate AI-powered release notes for a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-generate-release-notes.md)|Product manager|
+|Plan and manage the release process from start to finish.|[Release execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-work-release.md)|Release manager|
 
 ## Digital Product Release key terms
 
@@ -144,24 +145,24 @@ Engineering lead
     The release must be associated with a release readiness target date, which determines the start and end dates for phases and tasks based on the target date.
 
 
--   **[Digital Product Release Workspace](dpr-workspace.md)**  
+-   **[Digital Product Release Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-workspace.md)**  
 The Digital Product Release Workspace provides a single location for release admins to define release processes and release readiness targets. Product managers can use it to create and manage products and features, define the scope in versions, and plan and execute releases.
--   **[Release for a product or service](dpr-product-release.md)**  
+-   **[Release for a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-product-release.md)**  
 A release groups all the tasks \(projects, epics, stories, enhancements, defects, problems, incidents, and so on\) planned for a specific version of a product or service. Digital Product Release provides two different processes: timeline-oriented and stage-oriented, to help you in executing your releases.
--   **[AI-powered release notes generation](dpr-ai-release-notes-generation.md)**  
+-   **[AI-powered release notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-ai-release-notes-generation.md)**  
 Digital Product Release provides an AI-driven summarization feature that automatically generates release notes for your product and service releases. This capability streamlines the release note creation process, reducing manual effort and improving consistency.
--   **[Digital Product Release dashboards](dpr-dashboard-release.md)**  
+-   **[Digital Product Release dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-dashboard-release.md)**  
 Release dashboards provide insights into your releases. You can see their progress, identify any potential risks, and track their software quality. This information can help you to make informed decisions about your releases and ensure their success.
--   **[Holiday schedules in a release](dpr-release-holiday-schedule.md)**  
+-   **[Holiday schedules in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-release-holiday-schedule.md)**  
 You can associate a holiday schedule with a release so that the phase and release durations are calculated considering non-working days.
--   **[Digital Product Release flow actions](dpr-flow-action.md)**  
+-   **[Digital Product Release flow actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-flow-action.md)**  
 Digital Product Release provides flow actions that you can use to build custom release workflows in Workflow Studio.
--   **[DPR and GRC integration for release compliance](dpr-policy-compliance-grc-integ.md)**  
+-   **[DPR and GRC integration for release compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-policy-compliance-grc-integ.md)**  
 The integration between Digital Product Release \(DPR\) and ServiceNow® GRC: Policy and Compliance Management connects your release management processes with the enterprise risk and compliance controls. This integration helps you deliver faster, safer, and reliable releases.
--   **[Managing releases in Service Operations Workspace](dpr-sow-integration.md)**  
+-   **[Managing releases in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-sow-integration.md)**  
 Service Operations Workspace \(SOW\) and Digital Product Release \(DPR\) workspaces provide a unified release and change management experience. You can manage releases, view release details, and associate change requests with releases — all from SOW.
--   **[Associating change requests with releases in Service Operations Workspace](dpr-sow-integration-cr.md)**  
+-   **[Associating change requests with releases in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-sow-integration-cr.md)**  
 The integration between Service Operations Workspace \(SOW\) and Digital Product Release \(DPR\) workspaces provide a unified release and change management experience. You can associate releases with change requests across both workspaces.
 
-**Parent Topic:**[Digital Product Release](../reference/dpr-landing-page.md)
+**Parent Topic:**[Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-landing-page.md)
 

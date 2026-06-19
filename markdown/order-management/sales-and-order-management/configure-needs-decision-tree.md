@@ -2,6 +2,7 @@
 title: Create a decision tree for a needs template
 description: Create a decision tree that defines the questions that agents answer to determine customer needs and get product recommendations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configure-needs-decision-tree.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -19,15 +20,15 @@ Create a decision tree that defines the questions that agents answer to determin
 
 Before creating decision trees, review the following information:
 
--   [Decision trees in Guided decision](https://www.servicenow.com/docs/access?context=decision-trees-in-guided-decisions&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US) - Become familiar with the basic elements of a decision tree and how they work, such as node types, linking inputs in nodes, and decision tree paths.
--   [Example configuration of a decision tree](https://www.servicenow.com/docs/access?context=example-decision-tree&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US) - Walk through an example decision tree, including preparations for creating a decision tree, to understand the end-to-end configuration of a decision tree.
--   [Answer types for questions](https://www.servicenow.com/docs/access?context=type-of-answer&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US) - Learn about the various types of answers, such as Choice, Date, or Integers.
+-    - Become familiar with the basic elements of a decision tree and how they work, such as node types, linking inputs in nodes, and decision tree paths.
+-    - Walk through an example decision tree, including preparations for creating a decision tree, to understand the end-to-end configuration of a decision tree.
+-    - Learn about the various types of answers, such as Choice, Date, or Integers.
 
 Role required: sn\_prd\_pm.product\_catalog\_manager, sn\_prd\_pm.product\_catalog\_admin
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Needs** &gt; **Decision Tree** and select **New**.
 
@@ -50,5 +51,5 @@ Role required: sn\_prd\_pm.product\_catalog\_manager, sn\_prd\_pm.product\_catal
 
 ## What to do next
 
-[Build a needs decision tree](build-needs-decision-tree.md) using Decision Tree Builder.
+[Build a needs decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/build-needs-decision-tree.md) using Decision Tree Builder.
 

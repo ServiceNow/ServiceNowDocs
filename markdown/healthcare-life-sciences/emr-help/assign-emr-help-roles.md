@@ -2,6 +2,7 @@
 title: Assign roles for EMR Help users
 description: Assign roles to control access to features, capabilities, and data in the EMR Help application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/emr-help/assign-emr-help-roles.html
 release: zurich
 product: EMR Help
 classification: emr-help
@@ -62,6 +63,6 @@ View details of the EMR data associated with a ServiceNow service request.
 
 -   Assign roles to users and groups using the ServiceNow AI Platform user administration feature.
 
-    -   To assign a role to a user, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
-    -   To assign a role to a group, see [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    -   To assign a role to a user, see Assign a role to a user.
+    -   To assign a role to a group, see Assign a role to a group.
 

@@ -2,6 +2,7 @@
 title: Disable SQL Error Messages \[Updated in Security Center 1.3 and 1.5\]
 description: Use the glide.db.loguser property to disable SQL error messages from rendering in a browser.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-disabling-sql-error-messages.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -23,7 +24,7 @@ If **glide.db.loguser** is not set to the recommended value of false, then sensi
 |---------|-----------|
 |Property name|**glide.db.loguser**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Error handling and logging](sc-error-handling-logging.md)|
+|Category|[Error handling and logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-error-handling-logging.md)|
 |Purpose|To disable SQL error messages from displaying within the browser.|
 |Type|Boolean|
 |Recommended value|false|
@@ -32,7 +33,7 @@ If **glide.db.loguser** is not set to the recommended value of false, then sensi
 |Functional impact|This remediation disables rendering of SQL error messages. There is no impact to any functionality.|
 |Security risk|\(Medium\) No sensitive SQL information that could help an attacker should appear as a part of error message on a web page.|
 
-To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Error handling and logging](sc-error-handling-logging.md)
+**Parent Topic:**[Error handling and logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-error-handling-logging.md)
 

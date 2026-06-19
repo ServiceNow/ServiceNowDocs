@@ -2,6 +2,7 @@
 title: Roles installed with Product Catalog
 description: Product Catalog plugin adds the following roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/product-catalog/r\_RolesProductCatalog.html
 release: zurich
 product: Product Catalog
 classification: product-catalog
@@ -52,5 +53,5 @@ Can do everything that model managers can do and can administer model categories
 model\_manager
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Product Catalog](r_InstalledWithProductCatalog.md)
+</table>**Parent Topic:**[Components installed with Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/product-catalog/r_InstalledWithProductCatalog.md)
 

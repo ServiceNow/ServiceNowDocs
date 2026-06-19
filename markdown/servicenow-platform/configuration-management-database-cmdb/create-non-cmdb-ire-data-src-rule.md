@@ -2,6 +2,7 @@
 title: Create an IRE data source rule for non-CMDB tables
 description: When using Identification and Reconciliation Engine \(IRE\), you can prevent a specific data source from inserting new records for a specific non-CMDB table. Create IRE data source rules for data sources that you don't trust in creating records but continue to trust in updating those records that exist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/create-non-cmdb-ire-data-src-rule.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -26,9 +27,9 @@ IRE data source rules have no impact when dynamic reconciliation rules are in ef
 -   Child classes derive IRE data source rules from parent classes like identification rules do.
 -   IRE data source rules that are specified for a child class, override any IRE data source rules derived from a parent class.
 
-When IRE processes an insert operation that is prohibited by an IRE data source rule, the insert operation fails. This failure happens when the data source and record class in the insert operation and in an IRE data source rule, match. When [CreateOrUpdateCIEnhanced\(\)](https://www.servicenow.com/docs/access?context=IdentificationEngineScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) is used, IRE stores the failed payload in the CMDB IRE Partial Payloads \[cmdb\_ire\_partial\_payloads\] table for future potential use.
+When IRE processes an insert operation that is prohibited by an IRE data source rule, the insert operation fails. This failure happens when the data source and record class in the insert operation and in an IRE data source rule, match. When CreateOrUpdateCIEnhanced\(\) is used, IRE stores the failed payload in the CMDB IRE Partial Payloads \[cmdb\_ire\_partial\_payloads\] table for future potential use.
 
-**Note:** When an insert operation is not allowed by the IRE data source rule, then when using [createOrUpdateCI\(\)](https://www.servicenow.com/docs/access?context=c_IdentEngineScriptAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US), the entire IRE payload fails since [createOrUpdateCI\(\)](https://www.servicenow.com/docs/access?context=c_IdentEngineScriptAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) doesn't allow partial commits.
+**Note:** When an insert operation is not allowed by the IRE data source rule, then when using createOrUpdateCI\(\), the entire IRE payload fails since createOrUpdateCI\(\) doesn't allow partial commits.
 
 If later, a permitted data source attempts to insert that same record, then IRE inserts the record after merging it with the matching record from the partial payloads. IRE then deletes the partial payload from the CMDB IRE Partial Payloads \[cmdb\_ire\_partial\_payloads\] table, and allows future updates by the data source specified in the rule.
 
@@ -58,7 +59,7 @@ If a payload item with an insert request, and in which the data source and the r
 
     INSERT\_NOT\_ALLOWED\_FOR\_SOURCE Insert into \[xyz\] is blocked for data source \[xyz\] by IRE data source rule.
 
-2.  If using [CreateOrUpdateCIEnhanced\(\)](https://www.servicenow.com/docs/access?context=IdentificationEngineScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US), then IRE stores the payload item as a partial payload in the CMDB IRE Partial Payloads \[cmdb\_ire\_partial\_payloads\] table.
+2.  If using CreateOrUpdateCIEnhanced\(\), then IRE stores the payload item as a partial payload in the CMDB IRE Partial Payloads \[cmdb\_ire\_partial\_payloads\] table.
 
 If later, a permitted data source successfully inserts a record that matches the record from a partial payload item:
 
@@ -67,5 +68,5 @@ If later, a permitted data source successfully inserts a record that matches the
 3.  Later payloads in which the non-permitted data source updates the respective record, run successfully.
 4.  IRE allows the data source, that was previously prohibited from inserting the record, to update that same record which now exists in the non-CMDB table.
 
-**Parent Topic:**[IRE support for non-CMDB tables](../concept/ire-support-non-cmdb-tables.md)
+**Parent Topic:**[IRE support for non-CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ire-support-non-cmdb-tables.md)
 

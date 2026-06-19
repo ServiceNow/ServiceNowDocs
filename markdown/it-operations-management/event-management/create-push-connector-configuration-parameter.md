@@ -2,6 +2,7 @@
 title: Create a push connector configuration parameter
 description: Some connectors have no parameters that are shipped out of the box. Therefore, it’s necessary to create and add the parameter to the push connector configurations list in the form layout before adding the new parameter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/create-push-connector-configuration-parameter.html
 release: zurich
 product: Event Management
 classification: event-management

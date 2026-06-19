@@ -2,6 +2,7 @@
 title: Example use case: a-b-a transitions
 description: Use finding rules to identify when records return to a previous state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/aba-example.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -29,7 +30,7 @@ This example creates a finding definition that uses two finding rules and a find
 
 3.  Fill in the details in the **Finding Definition** record.
 
-    For information, see [Set rule-based finding definitions using Classic view](configure-finding-definition.md). ![Finding definition record](../image/aba-example-1.png)
+    For information, see [Set rule-based finding definitions using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/configure-finding-definition.md). \[Omitted image "aba-example-1.png"\] Alt text: Finding definition record
 
 4.  Right-click the form header, and select **Save** from the context menu.
 
@@ -55,7 +56,7 @@ This example creates a finding definition that uses two finding rules and a find
     |Occurrence\(s\) to match|All|
     |Condition subtype|Single|
 
-    ![Finding definition record](../image/aba-example-2.png)
+    \[Omitted image "aba-example-2.png"\] Alt text: Finding definition record
 
 8.  Select **Submit** to save your condition.
 
@@ -78,15 +79,15 @@ This example creates a finding definition that uses two finding rules and a find
     |Occurrence\(s\) to match|All|
     |Condition subtype|Single|
 
-    ![Finding definition record](../image/aba-example-3.png)
+    \[Omitted image "aba-example-3.png"\] Alt text: Finding definition record
 
 12. Select **Submit** to save your condition.
 
-    You now have your first finding rule, which identifies when an incident is assigned to the Database group. Now you must create a second finding rule in the same chain.![Finding definition record](../image/aba-example-4.png)
+    You now have your first finding rule, which identifies when an incident is assigned to the Database group. Now you must create a second finding rule in the same chain.\[Omitted image "aba-example-4.png"\] Alt text: Finding definition record
 
 13. Select **Create new rule \(Same chain\)**
 
-    This is a new rule in the same chain. You can see that the **Sequence** field is `2` and the **Start condition** field is automatically filled with the **End condition** of the previous rule.![Finding definition record](../image/aba-example-5.png)
+    This is a new rule in the same chain. You can see that the **Sequence** field is `2` and the **Start condition** field is automatically filled with the **End condition** of the previous rule.\[Omitted image "aba-example-5.png"\] Alt text: Finding definition record
 
 14. In the **Relation** field, select **eventually followed by**.
 
@@ -106,7 +107,7 @@ This example creates a finding definition that uses two finding rules and a find
     |Occurrence\(s\) to match|All|
     |Condition subtype|Single|
 
-    ![Finding definition record](../image/aba-example-6.png)
+    \[Omitted image "aba-example-6.png"\] Alt text: Finding definition record
 
 17. Select **Submit** to save your condition.
 
@@ -131,12 +132,12 @@ This example creates a finding definition that uses two finding rules and a find
     |End condition|AG is Anything\(2\)|
     |Relation constraint|is the same event|
 
-    ![Finding definition record](../image/aba-example-7.png)
+    \[Omitted image "aba-example-7.png"\] Alt text: Finding definition record
 
     This finding constraint refines your finding rules. Now, for example when an incident is assigned to **Network**, then **Database**, and then back to **Network**, it will be discovered by this finding rule.
 
 23. Select **Submit**.
 
 
-**Parent Topic:**[Set rule-based finding definitions using Classic view](configure-finding-definition.md)
+**Parent Topic:**[Set rule-based finding definitions using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/configure-finding-definition.md)
 

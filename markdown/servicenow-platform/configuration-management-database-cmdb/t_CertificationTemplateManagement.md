@@ -2,6 +2,7 @@
 title: Manage Certification template versions
 description: You can view and manage all versions of a template from the Template form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/t\_CertificationTemplateManagement.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

@@ -2,6 +2,7 @@
 title: Viewing Kafka subscriptions and statistics
 description: View detailed information about a Kafka consumer and its performance, including the number of records added to the topic, the number of records processed, and the number of records remaining to be processed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/kafka-subscriptions-statistics.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
@@ -25,9 +26,9 @@ Each subscription page includes the following sections.
 -   Stream Connect logs
 -   Kafka consumer statistics
 
-To view a subscription record, navigate to **IntegrationHub** &gt; **Stream Connect** &gt; **Subscriptions**. Select the info icon \(![info icon](../images/info-icon.png)\) for the subscription you want to view, then select **Open Record**.
+To view a subscription record, navigate to **IntegrationHub** &gt; **Stream Connect** &gt; **Subscriptions**. Select the info icon \(\[Omitted image "info-icon.png"\] Alt text: info icon\) for the subscription you want to view, then select **Open Record**.
 
-![The Kafka subscription page with subscription details, metrics, and information on partition groups, consumer logs, and consumer statistics.](../images/kafka-subscription-statistics.png "Sample subscription page for a Kafka consumer")
+\[Omitted image "kafka-subscription-statistics.png"\] Alt text: The Kafka subscription page with subscription details, metrics, and information on partition groups, consumer logs, and consumer statistics.
 
 ## Kafka subscription
 
@@ -246,7 +247,7 @@ Average number of records remaining to be processed in the partition group.
 
 The Stream Connect Logs tab displays the log entries for the associated consumer. Each log entry shows when it was created; its level, message, and source; and links to any related Alert or Subscription records. Stream Connect logs are stored in the Stream Connect Logs \[sys\_consumer\_log\] table.
 
-You can enable more detailed logging in the Stream Connect logs by [adding the system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) **glide.ih.kafka.stream\_connect.debug** and setting it to **true**. To avoid filling up the logs, this property is automatically disabled after 24 hours. If you need detailed logging for longer than 24 hours, you can re-enable the property manually.
+You can enable more detailed logging in the Stream Connect logs by adding the system property **glide.ih.kafka.stream\_connect.debug** and setting it to **true**. To avoid filling up the logs, this property is automatically disabled after 24 hours. If you need detailed logging for longer than 24 hours, you can re-enable the property manually.
 
 ## Kafka consumer statistics
 
@@ -335,5 +336,5 @@ Partition group
 Record for the partition group.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Stream Connect for Apache Kafka](stream-connect-apache-kafka.md)
+</table>**Parent Topic:**[Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/stream-connect-apache-kafka.md)
 

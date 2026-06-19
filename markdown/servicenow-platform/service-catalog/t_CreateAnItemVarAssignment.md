@@ -2,6 +2,7 @@
 title: Create an item variable assignment
 description: Create an item variable assignment that enables the catalog admin set up a default value mechanism in the order guide context so that the user can focus only on required values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/t\_CreateAnItemVarAssignment.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -55,5 +56,5 @@ The value for an item variable is determined in the following order:
 
 Set an item variable value to match an order guide variable value, or an order guide default value, using an item variable assignment.
 
-**Parent Topic:**[Create an order guide variable](../concept/c_CreateVariables.md)
+**Parent Topic:**[Create an order guide variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_CreateVariables.md)
 

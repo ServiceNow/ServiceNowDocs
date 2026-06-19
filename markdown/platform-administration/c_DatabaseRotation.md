@@ -2,6 +2,7 @@
 title: Applying database rotation techniques
 description: Manage table size growth, archive data, and boost query performance by configuring database rotation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/c\_DatabaseRotation.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -52,12 +53,12 @@ Table Extension
 `sys_email`
 
 </td></tr></tbody>
-</table>-   **[Activate database rotation](../task/t_ActivateDatabaseRotation.md)**  
+</table>-   **[Activate database rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_ActivateDatabaseRotation.md)**  
 Learn how to activate database rotation.
--   **[Table rotation](../../platform-performance/concept/c_TableRotation.md)**  
+-   **[Table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_TableRotation.md)**  
 Optimize performance and manage data lifecycle by rotating tables, allowing older data to be systematically archived while maintaining system efficiency.
--   **[Table extension](../../managing-data/concept/table-extension.md)**  
+-   **[Table extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-extension.md)**  
 Partition and preserve data sets for extended periods without overwriting.
 
-**Parent Topic:**[Managing the growth of data on your instance](../../managing-data/concept/data-management-policies.md)
+**Parent Topic:**[Managing the growth of data on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/data-management-policies.md)
 

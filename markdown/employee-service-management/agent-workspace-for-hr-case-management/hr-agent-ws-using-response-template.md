@@ -2,6 +2,7 @@
 title: Using a Response template in an HR case or HR task record
 description: Use response templates as reusable messages that you can copy and paste into the comments or work notes for an HR case or task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-using-response-template.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -23,19 +24,19 @@ Role required: sn\_hr\_core.case\_writer
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
 
-2.  Select the **Lists** icon \(![Lists icon](../image/agent-ws-hr-list-icon.png)\).
+2.  Select the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: Lists icon\).
 
 3.  Select an HR case or task.
 
-<table id="choicetable_a5l_fjh_1cc"><thead><tr><th align="left" id="d293198e85">
+<table id="choicetable_a5l_fjh_1cc"><thead><tr><th align="left" id="d282956e85">
 
 Item
 
-</th><th align="left" id="d293198e88">
+</th><th align="left" id="d282956e88">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d293198e94">
+</th></tr></thead><tbody><tr><td id="d282956e94">
 
 **HR case**
 
@@ -45,7 +46,7 @@ Steps
 2.  Select the HR case.
 
 
-</td></tr><tr><td id="d293198e121">
+</td></tr><tr><td id="d282956e121">
 
 **HR task**
 
@@ -56,9 +57,9 @@ Steps
 
 
 </td></tr></tbody>
-</table>4.  From the contextual side panel, select the Response templates icon \(![Response template icon](../reference/images/response-template-icon.png)\).
+</table>4.  From the contextual side panel, select the Response templates icon \(\[Omitted image "response-template-icon.png"\] Alt text: Response template icon\).
 
-5.  Select the View response templates icon \(![View response templates icon](../image/view-response-templates.png)\) to display templates based on the language preference of the selected user.
+5.  Select the View response templates icon \(\[Omitted image "view-response-templates.png"\] Alt text: View response templates icon\) to display templates based on the language preference of the selected user.
 
     For example, only response templates in the French language are displayed to the **assigned to** user because French has been selected in the **Language** field in the user profile of **assigned to**.
 

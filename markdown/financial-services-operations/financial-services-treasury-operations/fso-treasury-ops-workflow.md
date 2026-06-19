@@ -2,6 +2,7 @@
 title: Financial Services Treasury Operations workflows
 description: The Financial Services Treasury Operations application installs automated workflows that can be configured for any treasury service. These workflows create cases and route tasks to the treasury and document agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-treasury-operations/fso-treasury-ops-workflow.html
 release: zurich
 product: Financial Services Treasury Operations
 classification: financial-services-treasury-operations
@@ -22,11 +23,11 @@ The following predefined workflows for treasury services are available with the 
 -   Remote Deposit Capture \(RDC\) Service
 -   Wire Transfer Service
 
-These workflows are built using [Process Automation Designer](https://www.servicenow.com/docs/access?context=process-automation-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US) and [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer-home-landing-page&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US). The treasury admin can review and customize these workflows according to the needs of their organization.
+These workflows are built using Process Automation Designer and Flow Designer. The treasury admin can review and customize these workflows according to the needs of their organization.
 
 The following diagram shows how the application helps bank agents resolve a treasury request for onboarding RDC service.
 
-![Workflow that shows how onboarding of RDC treasury service is completed using the treasury operations application. For the text description, refer to the workflow steps that follow.](../image/treasury-ops-rdc-workflow.png "Treasury operations workflow example for onboarding RDC service")
+\[Omitted image "treasury-ops-rdc-workflow.png"\] Alt text: Workflow that shows how onboarding of RDC treasury service is completed using the treasury operations application. For the text description, refer to the workflow steps that follow.
 
 ## General workflow for Treasury Operations
 
@@ -61,5 +62,5 @@ The following is a typical treasury workflow in the Financial Services Treasury 
 
 The state and stage of the case is set to Closed Complete.
 
-**Parent Topic:**[Using Financial Services Treasury Operations](using-treasury-ops.md)
+**Parent Topic:**[Using Financial Services Treasury Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-treasury-operations/using-treasury-ops.md)
 

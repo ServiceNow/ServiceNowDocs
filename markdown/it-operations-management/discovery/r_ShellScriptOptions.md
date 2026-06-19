@@ -2,6 +2,7 @@
 title: Shell script options
 description: The SSHCommand probe supports the following scripting options in the ECC queue name field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/r\_ShellScriptOptions.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -20,5 +21,5 @@ The SSHCommand probe supports the following scripting options in the ECC queue n
 |Variable|$\{variable\}|Replaces the token with the value of the variable. For example, $\{catalina\_home\} specifies the installation location of a Tomcat server.|
 |Include File|$\{File:file\_name.sh\}|Treats the contents of the specified file as a shell script. For example, $\{File:findcat.sh\} runs the findcat shell script.|
 
-**Parent Topic:**[SSHCommand probe](../concept/c_SSHCommandProbe.md)
+**Parent Topic:**[SSHCommand probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_SSHCommandProbe.md)
 

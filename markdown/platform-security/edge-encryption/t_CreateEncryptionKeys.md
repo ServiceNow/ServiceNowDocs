@@ -2,6 +2,7 @@
 title: Create encryption keys using the Java KeyStore keytool
 description: You can use the keytool shipped with the encryption proxy distribution to create AES 128-bit and AES 256-bit encryption keys.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/t\_CreateEncryptionKeys.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -35,7 +36,7 @@ To find out more about the keytool utility, see the [Java SE Documentation](http
 
     **Note:** If you choose to run these commands from a directory other than the keystore directory, that is you skipped the previous step, you must change the -keystore option to include the path from your current directory to the keystore directory. For example, if you were in the `<installation directory>\bin` directory, the option would be `-keystore ../keystore/keystore.jceks`.
 
-<table id="choicetable_ozy_1tw_rt"><tbody><tr><td id="d149432e106">
+<table id="choicetable_ozy_1tw_rt"><tbody><tr><td id="d148788e106">
 
 **AES 128**
 
@@ -43,7 +44,7 @@ To find out more about the keytool utility, see the [Java SE Documentation](http
 
 `keytool -genseckey -alias 128bitkey -keyalg aes -keysize 128 -keystore keystore.jceks -storetype jceks`
 
-</td></tr><tr><td id="d149432e118">
+</td></tr><tr><td id="d148788e118">
 
 **AES 256**
 
@@ -57,5 +58,5 @@ To find out more about the keytool utility, see the [Java SE Documentation](http
     **Note:** The key password must be the same as the keystore password.
 
 
-**Parent Topic:**[Set up a Java KeyStore keystore](t_JavaKeyStoreSetUp.md)
+**Parent Topic:**[Set up a Java KeyStore keystore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_JavaKeyStoreSetUp.md)
 

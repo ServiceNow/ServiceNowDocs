@@ -2,6 +2,7 @@
 title: Installing Edge Encryption
 description: You can install an Edge Encryption proxy manually or using the Edge Encryption interactive installer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/c\_InstallEdgeEncryptionProxy.html
 release: zurich
 product: Edge Encryption
 classification: edge-encryption
@@ -36,7 +37,7 @@ Installing Edge Encryption includes these steps.
 
 ## Accessing the proxy server
 
-Once installation is complete, point each user's browser to an Edge Encryption proxy using the URL format: `<host>:<port>`. Values are determined by the [host and port properties](../reference/edge-encryption-proxy-server-properties.md) in the `edgeencryption.properties` file.
+Once installation is complete, point each user's browser to an Edge Encryption proxy using the URL format: `<host>:<port>`. Values are determined by the [host and port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/edge-encryption-proxy-server-properties.md) in the `edgeencryption.properties` file.
 
 As an example with the following values:
 
@@ -49,32 +50,32 @@ A client will access the proxy server using the following address: `http://hostn
 
 **Note:** DNS settings and routing rules may be used. Host and port values are determined by your network administrator.
 
--   **[Request Edge Encryption](../task/t_InstallCloudEdge.md)**  
+-   **[Request Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_InstallCloudEdge.md)**  
 The Edge Encryption plugin \(com.glide.edgeencryption\) is available as a separate subscription.
--   **[Set up an Edge Encryption user account](../task/t_SetupEdgeEncryptionUser.md)**  
+-   **[Set up an Edge Encryption user account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_SetupEdgeEncryptionUser.md)**  
 The Edge Encryption proxies connect to the instance as a user to obtain and update encryption configuration information. Create a user account for this purpose and give the edge\_encryption role to the user.
--   **[Download the Edge Encryption proxy server](../task/t_DownloadtheProxy.md)**  
+-   **[Download the Edge Encryption proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_DownloadtheProxy.md)**  
 Download the Edge Encryption proxy server application from your instance, and then copy the file to each computer that is to run the Edge Encryption proxy server.
--   **[Install the Edge Encryption proxy server using the interactive installer](../task/proxy-installer.md)**  
+-   **[Install the Edge Encryption proxy server using the interactive installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/proxy-installer.md)**  
 Install the Edge Encryption proxy server on a Windows or Linux computer using the interactive installer.
--   **[Install the Edge Encryption proxy server using the command line installer](../task/manual-proxy-install.md)**  
+-   **[Install the Edge Encryption proxy server using the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/manual-proxy-install.md)**  
 Manually install multiple Edge Encryption proxy servers in your network.
--   **[Authenticate an Edge Encryption proxy server](../task/authenticate-edge-proxy.md)**  
+-   **[Authenticate an Edge Encryption proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/authenticate-edge-proxy.md)**  
 Specify that a proxy server is a trusted source so that Edge Encryption can process requests coming from that proxy server.
--   **[Stop the Edge Encryption proxy](../task/t_StoptheProxy.md)**  
+-   **[Stop the Edge Encryption proxy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_StoptheProxy.md)**  
 You can stop an Edge Encryption proxy from the command line.
--   **[Uninstall the Edge Encryption proxy on Linux](../task/t_UninstalltheProxy.md)**  
+-   **[Uninstall the Edge Encryption proxy on Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_UninstalltheProxy.md)**  
 You can uninstall the Edge Encryption proxy. If you are upgrading the proxy, it is not necessary to shut down and uninstall the current version.
--   **[Uninstall the Edge Encryption proxy on Windows](../task/t_UninstalltheProxyonWindows.md)**  
+-   **[Uninstall the Edge Encryption proxy on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/t_UninstalltheProxyonWindows.md)**  
 You can uninstall the Edge Encryption proxy. If you are upgrading the proxy, it is not necessary to shut down and uninstall the current version.
--   **[Set up multiple provider SSO with Edge Encryption](../task/SSO-edge.md)**  
+-   **[Set up multiple provider SSO with Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/SSO-edge.md)**  
 Set up multiple provider SSO to enable logging in through the Edge Encryption proxy server URL or the instance URL. If you are implementing multiple provider single sign-on \(SSO\) with Edge Encryption enabled, some users might need to log in to your instance through the Edge Encryption proxy server, while other users might not.
--   **[Edge Encryption proxy server properties](../reference/edge-encryption-proxy-server-properties.md)**  
+-   **[Edge Encryption proxy server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/edge-encryption-proxy-server-properties.md)**  
 The `edgeencryption.properties` configuration file located in the `<installation directory>/conf/` folder contains properties used to configure your environment.
--   **[CyberArk integration with the Edge proxy server](cyberark-integration-edge-proxy.md)**  
+-   **[CyberArk integration with the Edge proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/cyberark-integration-edge-proxy.md)**  
 Use CyberArk to store passwords in a centralized and secure digital vault to secure passwords that were previously stored in clear text and secured by file access, or that were previously encrypted via a second file.
--   **[Using a load balancer with the Edge proxy server](../reference/load-balancer-edge-proxy.md#)**  
+-   **[Using a load balancer with the Edge proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/load-balancer-edge-proxy.md)**  
 You can use a load balancer to balance the load across the proxy servers in your Edge Encryption proxy setup. If the load balancer and proxy servers are using different ports, specify the host name and HTTPS port of the load balancer to enable users to view responses on their browser.
 
-**Parent Topic:**[Edge Encryption](../reference/edge-encryption.md)
+**Parent Topic:**[Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/edge-encryption.md)
 

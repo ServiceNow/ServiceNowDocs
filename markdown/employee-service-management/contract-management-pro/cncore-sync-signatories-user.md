@@ -2,6 +2,7 @@
 title: Resolve an error during send for signature
 description: As a contract user or fulfiller, update and synchronize signatory details when send for signature fails due to a mismatch between signatory information in the contract request and contract document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-sync-signatories-user.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -52,5 +53,5 @@ Role required: sn\_cm\_core.contract\_user, sn\_cm\_core.contract\_fulfiller
 
 A new contract document revision is created with the latest signatory details and sent for signature. The Activity stream displays details of the contract document that is sent for signature.
 
-**Parent Topic:**[Updating and synchronizing signatories](cncore-update-sync-signatories.md)
+**Parent Topic:**[Updating and synchronizing signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-update-sync-signatories.md)
 

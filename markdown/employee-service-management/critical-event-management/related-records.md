@@ -2,6 +2,7 @@
 title: CEM Related records tab
 description: In Critical Event Management \(CEM\), the Related records tab enables agents to view and manage critical event tasks, Health and Safety incidents, child critical events, and any sent notifications linked to the current critical event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/critical-event-management/related-records.html
 release: zurich
 product: Critical Event Management
 classification: critical-event-management
@@ -23,14 +24,14 @@ You can find the **Related records** tab in any critical event record. The tab c
 
 -   Health and Safety incidents
 
-    The agent groups with required roles can [Create a Health and Safety incident in Critical Event Management](../task/create-hs-incident.md).
+    The agent groups with required roles can [Create a Health and Safety incident in Critical Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/critical-event-management/create-hs-incident.md).
 
 -   Child critical events
 
-    When multiple people report the same critical event, you can mark the duplicate entries as child events to the main parent event. For details on how to create a child critical event, see [Relate a child critical event](../task/create-child-crtical-event.md).
+    When multiple people report the same critical event, you can mark the duplicate entries as child events to the main parent event. For details on how to create a child critical event, see [Relate a child critical event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/critical-event-management/create-child-crtical-event.md).
 
 -   Sent notifications
 
-    Review any notification that you have sent for a critical event to track and verify communication related to the critical event, including who received the notification, what the notification said, and when the notification was sent. To learn how to view the sent notifications, see [View sent notifications for a critical event](../task/view-sent-notifications.md).
+    Review any notification that you have sent for a critical event to track and verify communication related to the critical event, including who received the notification, what the notification said, and when the notification was sent. To learn how to view the sent notifications, see [View sent notifications for a critical event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/critical-event-management/view-sent-notifications.md).
 
 

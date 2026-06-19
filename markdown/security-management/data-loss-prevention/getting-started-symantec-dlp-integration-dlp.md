@@ -2,6 +2,7 @@
 title: Getting started with Symantec DLP integration for Data Loss Prevention
 description: Before you can use the integration, you must download it from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/data-loss-prevention/getting-started-symantec-dlp-integration-dlp.html
 release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -47,11 +48,11 @@ Review the Symantec DLP integration roles and permissions.
 
 </td></tr><tr><td>
 
-Verify you are using Symantec DLP 15.8
+Verify the Symantec DLP version
 
 </td><td>
 
-The Symantec DLP integration for Data Loss Prevention is tested with 15.8 version of Symantec Data Loss Prevention.**Note:** Ensure that you are using Symantec DLP 15.8
+Ensure that you're using Symantec DLP version 15.8 or higher.
 
 </td></tr><tr><td>
 
@@ -63,5 +64,5 @@ Verify that the following DLP applications and security support common applicati
 -   Data Loss Prevention Incident Response
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Symantec Integration for Data Loss Prevention Incident Response](symantec-dlp-integration.md)
+</table>**Parent Topic:**[Symantec Integration for Data Loss Prevention Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/symantec-dlp-integration.md)
 

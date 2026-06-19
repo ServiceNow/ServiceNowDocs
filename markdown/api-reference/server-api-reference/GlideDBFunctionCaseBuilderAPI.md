@@ -2,6 +2,7 @@
 title: GlideDBFunctionCaseBuilder - Global
 description: The GlideDBCaseStatementBuilder API allows you to build SQL CASE statements and return values based on a series of conditions.Instantiates a GlideDBFunctionCaseBuilder object.Concludes the list of conditions and builds the final CASE statement.Optional. Following at least one pair of calls to when and then, the otherwise\(\) call allows you to specify a value to output if none of the when expressions are satisfied.Following any when\(\) method, then\(\) allows you to specify a value to output if the when\(\) expression is satisfied.The most versatile of the supported 'when' expressions, the when\(\) method allows you to supply any boolean-valued Glide function as the condition to satisfy.Begins a comparison case condition.Similar to whenCompare\(\), whenEqual\(\) is a convenient method for checking equality. It is equivalent to whenCompare\(leftExpression, ‘=’, rightExpression\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/GlideDBFunctionCaseBuilderAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,11 +16,11 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideDBCaseStatementBuilder API allows you to build SQL CASE statements and return values based on a series of conditions.
 
-You can use this API as part of the definition of the [GlideElement - Global](../../GlideElement_global/concept/c_GlideElementAPI.md#) API or when querying a table. To build a `CASE` statement, start by instantiating the GlideDBFunctionCaseBuilder object using its constructor, GlideDBFunctionCaseBuilder\(\). Then, define one or more cases using a series of when\(\) and then\(\) calls followed by a single, optional otherwise\(\) call. Lastly, call the build\(\) method to finalize the builder and produce the completed database function case statement. This statement can then be used directly or as part of other Glide function definitions.
+You can use this API as part of the definition of the [GlideElement - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideElementAPI.md) API or when querying a table. To build a `CASE` statement, start by instantiating the GlideDBFunctionCaseBuilder object using its constructor, GlideDBFunctionCaseBuilder\(\). Then, define one or more cases using a series of when\(\) and then\(\) calls followed by a single, optional otherwise\(\) call. Lastly, call the build\(\) method to finalize the builder and produce the completed database function case statement. This statement can then be used directly or as part of other Glide function definitions.
 
 Required roles: Admin, function\_field\_admin.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideDBFunctionCaseBuilder - GlideDBFunctionCaseBuilder\(\)
 

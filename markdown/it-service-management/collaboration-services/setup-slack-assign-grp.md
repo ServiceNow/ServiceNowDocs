@@ -2,6 +2,7 @@
 title: Associate existing slack channel with a group
 description: Associate an existing slack channel to reach out to an assignment group from an incident. Assignment groups are a great way to contact all your stakeholders at once.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/collaboration-services/setup-slack-assign-grp.html
 release: zurich
 product: Collaboration Services
 classification: collaboration-services
@@ -103,5 +104,5 @@ User who creates the slack channel cache record.
 </table>3.  Click **Submit**.
 
 
-**Parent Topic:**[Set up slack for a user or group](add-field-slack-icon.md)
+**Parent Topic:**[Set up slack for a user or group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/add-field-slack-icon.md)
 

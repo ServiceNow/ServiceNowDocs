@@ -2,6 +2,7 @@
 title: Convert IT hardware to OT devices in a bulk edit
 description: Choose multiple IT hardware devices and convert them to OT devices in a bulk edit so that you can edit your records more quickly and efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-manager/bulk-edit-to-convert-it-records-into-ot-records.html
 release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -27,7 +28,7 @@ Role required: cmdb\_ot\_admin or admin
 
 3.  If you want to filter the All IT Hardware list, do the following actions:
 
-    -   Select the filter ![Filter icon.](../../mftg-manufacturing-process-mgr/image/filter-list-icon.png) icon in the top-right corner of the list.
+    -   Select the filter \[Omitted image "filter-list-icon.png"\] Alt text: Filter icon. icon in the top-right corner of the list.
     -   Add the filter that you want applied to the list.
     -   Select **Update**.
 4.  Select the check box next to each of the IT hardware devices that you want to convert.
@@ -99,14 +100,14 @@ Top-level parent entity, or industrial site, where the device is located or assi
 
     The following banner appears to let you know the process has started. To check the All OT Devices list for updates, you can select the link in the banner.
 
-    ![Banner that lets the user know the selected IT hardware devices are being converted to OT devices.](../image/ot-attributes-populated.png)
+    \[Omitted image "ot-attributes-populated.png"\] Alt text: Banner that lets the user know the selected IT hardware devices are being converted to OT devices.
 
 
 ## Result
 
 The selected IT hardware devices have been converted into OT devices.
 
-You can also use the Bulk Update Ruleset for Reassigning IT to OT feature to create a scheduled job that automatically converts IT hardware to OT devices. For more information, see [Automatically convert your IT records to OT devices](automatically-convert-it-records-to-ot-devices.md).
+You can also use the Bulk Update Ruleset for Reassigning IT to OT feature to create a scheduled job that automatically converts IT hardware to OT devices. For more information, see [Automatically convert your IT records to OT devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/automatically-convert-it-records-to-ot-devices.md).
 
-**Parent Topic:**[OT device related items and related lists](../reference/ot-assets-related-links-and-lists.md)
+**Parent Topic:**[OT device related items and related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/ot-assets-related-links-and-lists.md)
 

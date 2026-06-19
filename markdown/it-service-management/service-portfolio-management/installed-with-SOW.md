@@ -2,6 +2,7 @@
 title: Installed with Service Portfolio Management Premium
 description: Service Portfolio Management Premium installs the following components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-portfolio-management/installed-with-SOW.html
 release: zurich
 product: Service Portfolio Management
 classification: service-portfolio-management
@@ -15,7 +16,7 @@ breadcrumb: [Install the Service Portfolio Management Sample Content Pack, Confi
 
 Service Portfolio Management Premium installs the following components.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Service Portfolio Management Premium
 
@@ -69,5 +70,5 @@ SPM Node Weight\[spm\_node\_weight\]
 Used to assign a weight value to a node in relation to the value of its sibling nodes.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install the Service Portfolio Management Sample Content Pack](../../service-portfolio-management2/task/activate-SPM2-content-pack-plugin.md)
+</table>**Parent Topic:**[Install the Service Portfolio Management Sample Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/activate-SPM2-content-pack-plugin.md)
 

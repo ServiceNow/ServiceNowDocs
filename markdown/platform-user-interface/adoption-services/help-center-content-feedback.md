@@ -2,6 +2,7 @@
 title: Help Center content thumbs up and down feedback
 description: Help Center content includes a thumb up or thumbs down feedback option for each Help center article in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/help-center-content-feedback.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
@@ -17,7 +18,7 @@ Help Center content includes a thumb up or thumbs down feedback option for each 
 
 ## Help Center content feedback
 
-![Help center content feedback.](../image/help-center-content-feedback.png)
+\[Omitted image "help-center-content-feedback.png"\] Alt text: Help center content feedback.
 
 When viewing Help Center content, after an article is selected, a thumb up or thumbs down feedback option is included for each Help center article in your instance. A feedback helps to notify whether the article is helpful or if improvements can be made.
 
@@ -25,11 +26,11 @@ When viewing Help Center content, after an article is selected, a thumb up or th
 
 To view the feedback analytics, navigate to **All** &gt; **User Experience Analytics** &gt; **Dashboard**.
 
-![analytics events dashboard.](../image/analytics-events.png)
+\[Omitted image "analytics-events.png"\] Alt text: analytics events dashboard.
 
 In the example provided, Service Operations Workspace is selected, and in the left-hand navigation **Analytics** &gt; **Events** are selected. The events page displays a list of events within the workspace, and the number of occurrences for each event.
 
-![thumbs up occurrences page.](../image/thumbs-up-events.png)
+\[Omitted image "thumbs-up-events.png"\] Alt text: thumbs up occurrences page.
 
 In this example, after selecting the **Thumbs up** event, the thumbs up dashboard displays to show.
 

@@ -2,6 +2,7 @@
 title: Cancel an appointment for a customer
 description: Dispatchers and agents can cancel appointments for customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/appointment-booking/appointment-booking-cancel-appt.html
 release: zurich
 product: Appointment Booking
 classification: appointment-booking

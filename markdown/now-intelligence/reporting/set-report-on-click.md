@@ -2,6 +2,7 @@
 title: Set the on-click behavior of a Core UI report
 description: You can configure a URL to open when you select a section of a report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/set-report-on-click.html
 release: zurich
 product: Reporting
 classification: reporting
@@ -26,7 +27,7 @@ Role required:
 
 Redirect the user to a URL rather than to the configured drilldown or the list that underlies the selected section of a report.
 
-See [Define a report drilldown](../concept/c_DrillingDownWithinReports.md#) for the report types that don't support the drilldown feature.
+See [Define a report drilldown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_DrillingDownWithinReports.md) for the report types that don't support the drilldown feature.
 
 ## Procedure
 
@@ -34,9 +35,9 @@ See [Define a report drilldown](../concept/c_DrillingDownWithinReports.md#) for 
 
 2.  Select the report that you want to configure.
 
-3.  Select the **Show report structure** icon \(![Show report structure](../image/Form_ShowReportStructureIcon.png)\).
+3.  Select the **Show report structure** icon \(\[Omitted image "Form\_ShowReportStructureIcon.png"\] Alt text: Show report structure\).
 
-4.  Select the link icon \(![](../image/link-icon.png)\).
+4.  Select the link icon \(\[Omitted image "link-icon.png"\] Alt text:\).
 
 5.  In the **Set redirect URL** dialog box, enter relative link within the instance, for example, `/$knowledge.do?sys_id=123`.
 
@@ -48,12 +49,12 @@ See [Define a report drilldown](../concept/c_DrillingDownWithinReports.md#) for 
 
 7.  Select **Save**.
 
-    ![Animation illustrating the steps to configure a report redirect to a URL](../image/report-config-redirect.gif)
+    \[Omitted image "report-config-redirect.gif"\] Alt text: Animation illustrating the steps to configure a report redirect to a URL
 
 
 ## Result
 
 When you select the report, the redirect URL replaces any drilldown functionality.
 
-**Parent Topic:**[Advanced Core UI reporting topics](../concept/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_AdvancedReporting.md)
 

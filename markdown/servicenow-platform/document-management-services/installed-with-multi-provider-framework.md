@@ -2,6 +2,7 @@
 title: Installed with Multi Provider Document Services Framework
 description: Several types of components are installed with activation of the Multi Provider Document Services Framework plugin, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/installed-with-multi-provider-framework.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -137,5 +138,5 @@ Multi Provider Permission Configuration
 Role/group mapping to permissions provided from the mp\_permission table for each provider.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference Multi Provider Document Services framework](reference-mp-doc-framework.md)
+</table>**Parent Topic:**[Reference Multi Provider Document Services framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/reference-mp-doc-framework.md)
 

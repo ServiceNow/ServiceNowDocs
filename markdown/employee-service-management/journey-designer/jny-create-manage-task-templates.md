@@ -2,6 +2,7 @@
 title: Create and manage action plan task templates
 description: Create and manage the task templates that managers, mentors, and employees can use for their Journey designer plans. Use task templates to provide a consistent and streamlined experience for creating Journey designer plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/jny-create-manage-task-templates.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -31,10 +32,10 @@ Task templates appear as to-do lists in the Employee Center for managers, mentor
 
 3.  Fill in the fields in the template form.
 
-    For more information see [Task template fields](../reference/jny-task-template.md).
+    For more information see [Task template fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-task-template.md).
 
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Creating and managing audience-specific templates](../concept/jny-creating-audience-specific-plans.md)
+**Parent Topic:**[Creating and managing audience-specific templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-creating-audience-specific-plans.md)
 

@@ -2,6 +2,7 @@
 title: Exploring AI Control Tower
 description: Explore and learn about the AI Control Tower and its role in managing the AI asset inventory, overseeing configurations, integrating with other applications, and handling the asset approval workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/exploring-ai-control-tower.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
@@ -42,12 +43,12 @@ The AI asset data model catalogs different AI assets such as AI systems, AI mode
 
 To learn more about AI Control Tower and other applications integrating with its workspace, see the following topics:
 
--   [AI Control Tower dashboard](ai-governance.md)
--   [Configure AI Control Tower](configuring-ai-governance.md)
--   [AI Risk and Compliance](https://www.servicenow.com/docs/access?context=ai-risk-and-compliance&version=zurich&pubname=zurich-governance-risk-compliance&ft:locale=en-US)
--   [Explore Now Assist AI asset discovery](now-assist-asset-discovery.md)
--   [Enterprise AI discovery: Unlock Visibility, Governance &amp; Value](enterprise-ai-discovery.md)
--   [AI Gateway](ai-gateway-overview.md)
--   [Using AI Control Tower](using-ai-control-tower.md)
--   [AI Control Tower reference](../reference/aict-references.md)
+-   [AI Control Tower dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-governance.md)
+-   [Configure AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/configuring-ai-governance.md)
+-   
+-   [Explore Now Assist AI asset discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/now-assist-asset-discovery.md)
+-   [AI connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/enterprise-ai-discovery.md)
+-   [AI Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-gateway-overview.md)
+-   [Using AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
+-   [AI Control Tower reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/aict-references.md)
 

@@ -2,6 +2,7 @@
 title: Configure the chemical request approval flow
 description: Modify the chemical request approval flow using Flow designer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety/hs-modify-approval-flow-environmental-mgmt.html
 release: zurich
 product: Health and Safety
 classification: health-and-safety
@@ -17,7 +18,7 @@ Modify the chemical request approval flow using Flow designer.
 
 ## Before you begin
 
-The approval flows are built on [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=zurich&pubname=zurich-application-development&ft:locale=en-US). Before modifying, make sure that you're familiar with the basics of ServiceNow® Workflow Studio.
+The approval flows are built on Flow Designer. Before modifying, make sure that you're familiar with the basics of ServiceNow® Workflow Studio.
 
 Role required: Flow designer
 
@@ -31,7 +32,7 @@ If you decide to modify the flow, deactivate the original flow and make a copy. 
 
 1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow designer**.
 
-2.  Select More actions ![more actions icon](../../human-resources/image/agent-workspace-more-ui-actions-icon.jpg)icon, then select **Copy flow**.
+2.  Select More actions \[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: more actions iconicon, then select **Copy flow**.
 
 3.  Enter a name for the new flow.
 
@@ -44,8 +45,8 @@ If you decide to modify the flow, deactivate the original flow and make a copy. 
 7.  Select **Save** and then select **Activate**.
 
 
--   **[Configure the chemical request approver based on location](hs-configure-approver-by-location.md)**  
+-   **[Configure the chemical request approver based on location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-configure-approver-by-location.md)**  
 Configure approvers according to the location name entered on the request form. Multiple approvers can be associated with a single location.
 
-**Parent Topic:**[Setting up Health and Safety Environmental Management](../concept/hs-setting-up-environmental-management.md)
+**Parent Topic:**[Setting up Health and Safety Environmental Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-setting-up-environmental-management.md)
 

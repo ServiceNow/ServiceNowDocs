@@ -2,6 +2,7 @@
 title: License metrics for Microsoft products
 description: A detailed description of the license metrics that can be used with Microsoft products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/mapping-ms-license-metrics.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -622,5 +623,5 @@ Per Core
 Same as described earlier.**Note:** If you’re already using SQL Server Enterprise edition with \(Server/CAL\) server licenses with software assurance, continue to use the Server+CAL licensing model. Use license metric as Server \(per Server\) for Server Licensing and User/Device CAL for CAL licensing. The new purchases for SQL Server Enterprise are based only on the Per Core licensing model.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/references.md)
 

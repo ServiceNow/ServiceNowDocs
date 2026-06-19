@@ -2,6 +2,7 @@
 title: Configure multicurrency for planning items
 description: Select investment currency as an additional currency, which can be different from your functional currency, to manage financial records of your planning items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/config-investment-currency-spw-fin.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -18,7 +19,7 @@ Select investment currency as an additional currency, which can be different fro
 ## Before you begin
 
 -   You can define investment currency for planning items which do not have any financials records, such as cost plans, expense lines, benefit plans, and actual benefits. To define a investment currency for existing work, you should delete all the financial records and configure the investment currency.
--   [Enable monetary benefit plans for planning items](enable-benefitplans-spw-fin.md)
+-   [Enable monetary benefit plans for planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/enable-benefitplans-spw-fin.md)
 -   Role required: admin
 
 ## About this task
@@ -38,15 +39,15 @@ Following are the current limitations for multicurrency.
 
     In the **Currency** field, the current system currency is displayed. For example, if your Functional currency is in USD, the field is displayed as **USD \(Functional\)**.
 
-<table id="choicetable_d3h_yqx_jhc"><thead><tr><th align="left" id="d228445e127">
+<table id="choicetable_d3h_yqx_jhc"><thead><tr><th align="left" id="d203722e127">
 
 Planning item type
 
-</th><th align="left" id="d228445e130">
+</th><th align="left" id="d203722e130">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d228445e136">
+</th></tr></thead><tbody><tr><td id="d203722e136">
 
 **Demands**
 
@@ -63,7 +64,7 @@ Edit investment currency modal is displayed with options to select investment cu
 3.  Define investment currency for the future artifacts using the **Investment currency for converted artefact** list.
 
 
-</td></tr><tr><td id="d228445e185">
+</td></tr><tr><td id="d203722e185">
 
 **Project, Epic, Feature, and Capability**
 

@@ -2,6 +2,7 @@
 title: Create an exclusion policy
 description: Application developers can create an exclusion policy to avoid pushes or pulls to specific instances in the team development hierarchy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/t\_CreateAnExclusionPolicy.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -82,5 +83,5 @@ Select any additional criteria to be ignored, other than the table name. This fi
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Exclusion policies](../concept/c_ExclusionPolicies.md)
+**Parent Topic:**[Exclusion policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_ExclusionPolicies.md)
 

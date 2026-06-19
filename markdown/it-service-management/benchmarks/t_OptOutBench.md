@@ -2,6 +2,7 @@
 title: Opt out of Benchmarks
 description: You can opt out of Benchmarks at any time. If you opt out, your company usage data is no longer included in the Benchmarks data set, and you no longer see aggregate metrics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/benchmarks/t\_OptOutBench.html
 release: zurich
 product: Benchmarks
 classification: benchmarks
@@ -37,7 +38,7 @@ When you opt out of the Benchmarks forum, it means that you no longer have acces
 
     Otherwise, click **Cancel** to skip the survey.
 
-    ![Survey options](../image/BenchSurvey.png)
+    \[Omitted image "BenchSurvey.png"\] Alt text: Survey options
 
     The opt-out confirmation is shown. You can opt back in at any time.
 

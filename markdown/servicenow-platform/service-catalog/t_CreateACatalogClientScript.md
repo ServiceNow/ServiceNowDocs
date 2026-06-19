@@ -2,6 +2,7 @@
 title: Create a Service Catalog client script
 description: You can create client scripts to customize the catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/t\_CreateACatalogClientScript.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -122,7 +123,7 @@ Applies on Requested Items
 
 </td><td>
 
-Check box to apply the catalog client script on a Requested Item form, after the item is requested. Available in the fulfiller view. See [VEditor](../concept/service-catalog-variable-editor.md#cat-VEditor).
+Check box to apply the catalog client script on a Requested Item form, after the item is requested. Available in the fulfiller view. See [VEditor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/service-catalog-variable-editor.md).
 
 </td></tr><tr><td>
 
@@ -130,7 +131,7 @@ Applies on Catalog Tasks
 
 </td><td>
 
-Check box to apply the catalog client script when a Catalog Task form for the item is being displayed. Available in the fulfiller view. See [VEditor](../concept/service-catalog-variable-editor.md#cat-VEditor).
+Check box to apply the catalog client script when a Catalog Task form for the item is being displayed. Available in the fulfiller view. See [VEditor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/service-catalog-variable-editor.md).
 
 </td></tr><tr><td>
 
@@ -138,11 +139,11 @@ Applies on the Target Record
 
 </td><td>
 
-Check box to support the catalog client script on a record created for task-extended tables via record producers. See [Default variable editor](../concept/service-catalog-variable-editor.md#cat-default-variable-editor).
+Check box to support the catalog client script on a record created for task-extended tables via record producers. See [Default variable editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/service-catalog-variable-editor.md).
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Service Catalog items](../concept/c_IntroductionToCatalogItems.md)
+**Parent Topic:**[Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_IntroductionToCatalogItems.md)
 

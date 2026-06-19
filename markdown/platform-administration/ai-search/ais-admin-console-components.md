@@ -2,6 +2,7 @@
 title: Components installed with AI Search Admin Console
 description: The AI Search Admin Console application installs new system components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/ais-admin-console-components.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -17,5 +18,5 @@ The AI Search Admin Console application installs new system components.
 
 ## List of all components installed with AI Search Admin Console
 
-To view the complete list of system components installed with AI Search Admin Console, follow the steps described in [Find components installed with an application](../../plugins/task/find-components.md). The application's package name is **AI Search Admin Console**.
+To view the complete list of system components installed with AI Search Admin Console, follow the steps described in [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/find-components.md). The application's package name is **AI Search Admin Console**.
 

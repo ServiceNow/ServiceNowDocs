@@ -2,6 +2,7 @@
 title: Create an enterprise asset from the inventory audit screen
 description: Create an enterprise asset record for the scanned asset that doesn't exist in your ServiceNow instance and that is detected when auditing inventory.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/inventory-audit-create-asset-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -54,11 +55,11 @@ When scanning an asset in the inventory, if a new asset is detected that doesnâ€
 
     The List of assets and models screen is displayed.
 
-10. Tap the three dots icon ![](../../hardware-asset-management/image/list-of-assets-and-models-three-dot-icon.png).
+10. Tap the three dots icon \[Omitted image "list-of-assets-and-models-three-dot-icon.png"\] Alt text:.
 
 11. Tap **Create new asset**.
 
-    ![Create new asset](../../hardware-asset-management/image/list-of-assets-and-models-screen.png)
+    \[Omitted image "list-of-assets-and-models-screen.png"\] Alt text: Create new asset
 
     The Create asset from audit screen is displayed.
 
@@ -76,7 +77,7 @@ When scanning an asset in the inventory, if a new asset is detected that doesnâ€
 
     **Note:** Depending on the IRE rule configured for the selected **Model** field value, either **Asset Tag**, **Serial Number**, or **MAC address** field value is required to save the audit record.
 
-    For more details on these field descriptions, see [Asset fields for enterprise assets](../reference/asset-fields-eam.md).
+    For more details on these field descriptions, see [Asset fields for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/asset-fields-eam.md).
 
 13. Tap **Submit**.
 

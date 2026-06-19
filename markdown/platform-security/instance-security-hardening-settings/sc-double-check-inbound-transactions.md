@@ -2,6 +2,7 @@
 title: Double check inbound transactions \[Updated in Security Center 1.3\]
 description: Use the glide.security.strict.updates property to enable double-checking of security on inbound transactions during form submission. When you set this property to true, it adds an extra layer of table validation before a form renders in the browser.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-double-check-inbound-transactions.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -25,7 +26,7 @@ Ensure the property **glide.security.strict.updates** exists in the sys\_propert
 |---------|-----------|
 |Property name|**glide.security.strict.updates**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Access control](sc-access-control.md)|
+|Category|[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)|
 |Purpose|To ensure an added layer of verification of user permissions before presenting the form in the browser.|
 |Data type|Boolean|
 |Recommended value|true|
@@ -35,7 +36,7 @@ Ensure the property **glide.security.strict.updates** exists in the sys\_propert
 |Security risk|\(High\) You should always check access request when transactions happen between two zones. This operation checks for permissions when the form is requested and before form rendering happens.|
 |References||
 
-To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Access control](sc-access-control.md)
+**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

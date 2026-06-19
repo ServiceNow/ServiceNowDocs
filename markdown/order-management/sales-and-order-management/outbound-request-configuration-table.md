@@ -2,11 +2,12 @@
 title: Outbound Request
 description: Initiate outbound requests to manage service orders by interacting with external Service Order Management \(SOM\) to facilitate end-to-end order fulfillment. This process requires specific roles and is enabled via bi-directional REST API integration with Order Management for Sales and Service API Core.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/outbound-request-configuration-table.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Sales and Service API Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---

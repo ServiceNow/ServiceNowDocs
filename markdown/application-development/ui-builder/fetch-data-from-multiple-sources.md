@@ -2,6 +2,7 @@
 title: Fetch data from multiple sources
 description: Learn how to obtain data from different sources to use in a single component.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/fetch-data-from-multiple-sources.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -29,23 +30,23 @@ Place the card base container component in a repeater and use multi-table data c
 
 2.  Open an experience to work in or create an experience by selecting **Create &gt; Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create a page from scratch.
 
-    For more information about how to create a page, see [Create a page in UI Builder](create-page.md).
+    For more information about how to create a page, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/create-page.md).
 
 4.  Add a multi-table data resource.
 
     1.  In the data shelf, select **+ Add data resource**.
 
-        ![Data shelf with black arrow pointing to add data resource option.](../image/multi-table-data-source1.png)
+        \[Omitted image "multi-table-data-source1.png"\] Alt text: Data shelf with black arrow pointing to add data resource option.
 
     2.  In **Search**, enter `multi-table`.
 
     3.  Select **Multi-table data**.
 
-        ![Data resource pop-up with black arrow pointing to search field and black arrow pointing to multi-table data resource.](../image/multi-table-data-source2.png)
+        \[Omitted image "multi-table-data-source2.png"\] Alt text: Data resource pop-up with black arrow pointing to search field and black arrow pointing to multi-table data resource.
 
     4.  Select **Add**.
 
@@ -53,7 +54,7 @@ Place the card base container component in a repeater and use multi-table data c
 
     1.  In **Data sources**, select **+ Add**.
 
-        ![Multi-table data resource options with black arrow pointing to add option next to the data sources field.](../image/multi-table-data-source3.png)
+        \[Omitted image "multi-table-data-source3.png"\] Alt text: Multi-table data resource options with black arrow pointing to add option next to the data sources field.
 
     2.  In **Table**, enter `incident` and select the **Incident** table.
 
@@ -63,7 +64,7 @@ Place the card base container component in a repeater and use multi-table data c
 
     5.  In **Return fields**, add **Number**, **State**, **Description**, and **Active**.
 
-        ![Add data sources pop-up with all fields completed.](../image/multi-table-data-source4.png)
+        \[Omitted image "multi-table-data-source4.png"\] Alt text: Add data sources pop-up with all fields completed.
 
     6.  Select **Edit conditions**.
 
@@ -73,7 +74,7 @@ Place the card base container component in a repeater and use multi-table data c
 
     9.  Build the condition **Created on Last 2 years**.
 
-        ![Conditions popup with two conditions displayed.](../image/multi-table-data-source5.png)
+        \[Omitted image "multi-table-data-source5.png"\] Alt text: Conditions popup with two conditions displayed.
 
     10. Select **Apply**.
 
@@ -93,7 +94,7 @@ Place the card base container component in a repeater and use multi-table data c
 
         When creating a multi-table data resource, each data source should have the same return fields specified and in the same order. This helps ensure that the data displayed on the page is consistent and accurate.
 
-        ![Add data sources pop-up with all fields completed.](../image/multi-table-data-source6.png)
+        \[Omitted image "multi-table-data-source6.png"\] Alt text: Add data sources pop-up with all fields completed.
 
     6.  Select **Edit conditions**.
 
@@ -123,7 +124,7 @@ Place the card base container component in a repeater and use multi-table data c
 
     5.  In **Label**, delete the default text and enter `Active incidents and problems created in last two years`.
 
-        ![Configure tab for heading component with black arrow pointing to completed label field.](../image/multi-table-data-source7.png)
+        \[Omitted image "multi-table-data-source7.png"\] Alt text: Configure tab for heading component with black arrow pointing to completed label field.
 
     6.  Select **Save**.
 
@@ -133,13 +134,13 @@ Place the card base container component in a repeater and use multi-table data c
 
     2.  On the **Layouts** tab, in the **Advanced** section, select **Flexbox**.
 
-        ![Toolbox with layout tab displayed and black arrow pointing to flexbox option.](../image/multi-table-data-source8.png)
+        \[Omitted image "multi-table-data-source8.png"\] Alt text: Toolbox with layout tab displayed and black arrow pointing to flexbox option.
 
     3.  In the configuration panel, on the **Configure** tab, select **None - Configure the component manually**.
 
     4.  In **Sizing**, set the **Width** by entering `300`.
 
-        ![Styles tab for container component with black arrow pointing to completed width field.](../image/multi-table-data-source9.png)
+        \[Omitted image "multi-table-data-source9.png"\] Alt text: Styles tab for container component with black arrow pointing to completed width field.
 
     5.  Select **Save**.
 
@@ -157,7 +158,7 @@ Place the card base container component in a repeater and use multi-table data c
 
     6.  In the configuration panel, on the **Configure** tab, hover over the **Data array** field and select the bind data icon.
 
-        ![Configure panel for repeater component with black arrow pointing to data array field bind data icon.](../image/multi-table-data-source10.png)
+        \[Omitted image "multi-table-data-source10.png"\] Alt text: Configure panel for repeater component with black arrow pointing to data array field bind data icon.
 
     7.  Under **Data types** select **Data resource**.
 
@@ -167,11 +168,11 @@ Place the card base container component in a repeater and use multi-table data c
 
     10. Double-click \(or use the keyboard shortcut\) on the **items** pill.
 
-        ![Data binding modal with black arrow pointing to items pill.](../image/multi-table-data-source11.png)
+        \[Omitted image "multi-table-data-source11.png"\] Alt text: Data binding modal with black arrow pointing to items pill.
 
         Check that the top section is accurate.
 
-        ![Data binding modal with black arrow pointing to top section.](../image/multi-table-data-source12.png)
+        \[Omitted image "multi-table-data-source12.png"\] Alt text: Data binding modal with black arrow pointing to top section.
 
     11. Select **Apply**.
 
@@ -189,7 +190,7 @@ Place the card base container component in a repeater and use multi-table data c
 
     5.  To add a little space around the cards, go to **Spacing**, select **Margin**, and then select **M** \(for medium\).
 
-        ![Styles panel for card base container component with black arrow pointing to margin option and the medium margin setting.](../image/multi-table-data-source13.png)
+        \[Omitted image "multi-table-data-source13.png"\] Alt text: Styles panel for card base container component with black arrow pointing to margin option and the medium margin setting.
 
     6.  Select **Save**.
 
@@ -213,17 +214,17 @@ Place the card base container component in a repeater and use multi-table data c
 
     9.  Double-click \(or use the keyboard shortcut\) on the **displayValue** pill with an incident or problem number.
 
-        ![Data binding modal with black arrow pointing to display value pill.](../image/multi-table-data-source14.png)
+        \[Omitted image "multi-table-data-source14.png"\] Alt text: Data binding modal with black arrow pointing to display value pill.
 
         Check that the top section is accurate.
 
-        ![Data binding modal with black arrow pointing to top section.](../image/multi-table-data-source15.png)
+        \[Omitted image "multi-table-data-source15.png"\] Alt text: Data binding modal with black arrow pointing to top section.
 
     10. Select **Apply**.
 
     11. On the **Configure** tab, select the **Hide bottom margin** option.
 
-        ![Configure panel for heading component with black arrow pointing to hide bottom margin option.](../image/multi-table-data-source16.png)
+        \[Omitted image "multi-table-data-source16.png"\] Alt text: Configure panel for heading component with black arrow pointing to hide bottom margin option.
 
     12. Select **Save**.
 
@@ -231,7 +232,7 @@ Place the card base container component in a repeater and use multi-table data c
 
     1.  In the content tree, point to **Heading 2**, select the menu \(three vertical dots\) icon, and select **Add after**.
 
-        ![Content tree with black arrow pointing to menu icon and black arrow pointing to add after option in floating menu.](../image/multi-table-data-source17.png)
+        \[Omitted image "multi-table-data-source17.png"\] Alt text: Content tree with black arrow pointing to menu icon and black arrow pointing to add after option in floating menu.
 
     2.  Locate and select the **Stylized text** component.
 
@@ -249,11 +250,11 @@ Place the card base container component in a repeater and use multi-table data c
 
     9.  Double-click \(or use the keyboard shortcut\) on the **displayValue** pill with no value.
 
-        ![Data binding modal with black arrow pointing to display value pill.](../image/multi-table-data-source18.png)
+        \[Omitted image "multi-table-data-source18.png"\] Alt text: Data binding modal with black arrow pointing to display value pill.
 
         Check that the top section is accurate.
 
-        ![Data binding modal with black arrow pointing to top section.](../image/multi-table-data-source19.png)
+        \[Omitted image "multi-table-data-source19.png"\] Alt text: Data binding modal with black arrow pointing to top section.
 
     10. Select **Apply**.
 
@@ -281,11 +282,11 @@ Place the card base container component in a repeater and use multi-table data c
 
     9.  Double-click \(or use the keyboard shortcut\) on the **displayValue** pill with a state value.
 
-        ![Data binding modal with black arrow pointing to display value pill.](../image/multi-table-data-source20.png)
+        \[Omitted image "multi-table-data-source20.png"\] Alt text: Data binding modal with black arrow pointing to display value pill.
 
         Check that the top section is accurate.
 
-        ![Data binding modal with black arrow pointing to top section.](../image/multi-table-data-source21.png)
+        \[Omitted image "multi-table-data-source21.png"\] Alt text: Data binding modal with black arrow pointing to top section.
 
     10. Select **Apply**.
 
@@ -300,5 +301,5 @@ Place the card base container component in a repeater and use multi-table data c
 16. Select the **X** to close the preview overlay.
 
 
-**Parent Topic:**[Multi-table data configuration](../concept/multi-source-data-configuration.md)
+**Parent Topic:**[Multi-table data configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/multi-source-data-configuration.md)
 

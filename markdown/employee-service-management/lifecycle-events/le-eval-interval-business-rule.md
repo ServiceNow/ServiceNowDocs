@@ -2,6 +2,7 @@
 title: View and use the Condition with Event BR \(Demo\) business rule
 description: You can view and use the Condition with Event BR \(Demo\) business rule to trigger an evaluation of your activity set faster.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/lifecycle-events/le-eval-interval-business-rule.html
 release: zurich
 product: Lifecycle Events
 classification: lifecycle-events
@@ -27,7 +28,7 @@ Role required: admin
 
 2.  Select a case that was created from the New Hire Onboarding \(Demo\) lifecycle event.
 
-3.  Select the Additional actions \(![Additional actions icon](../image/additional-actions-icon.png) icon.
+3.  Select the Additional actions \(\[Omitted image "additional-actions-icon.png"\] Alt text: Additional actions icon icon.
 
 4.  Select **Configure** and then **Business Rules**.
 
@@ -48,5 +49,5 @@ Role required: admin
     The Timer was cancelled when the LE/HR case state was changed to **Work in Progress** and the **check\_activity\_set\_trigger** event was fired.
 
 
-**Parent Topic:**[Lifecycle Events evaluation interval](../concept/le-evaluation-interval1.md)
+**Parent Topic:**[Lifecycle Events evaluation interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/le-evaluation-interval1.md)
 

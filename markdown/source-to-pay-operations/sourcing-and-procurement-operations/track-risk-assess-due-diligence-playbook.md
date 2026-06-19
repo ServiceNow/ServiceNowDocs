@@ -2,13 +2,14 @@
 title: Track risk assessments from the due diligence playbook
 description: As procurement specialists, use the due diligence playbook to track supplier risk assessments and complete the associated tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/track-risk-assess-due-diligence-playbook.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 5
-breadcrumb: [Streamlining the supplier risk assessment workflow, Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Streamlining supplier risk assessment workflow, Working Sourcing Procurement Operations playbooks, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Track risk assessments from the due diligence playbook
@@ -27,7 +28,7 @@ When a sourcing request is added to a sourcing event, in the Qualification neede
 
 1.  Navigate to **All** &gt; **Procurement Case Management** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the List icon \(![List icon.](../../supplier-lifecycle-operations/image/cases-list-icon.png)\) and select **All work** &gt; **Cases**.
+2.  Select the List icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and select **All work** &gt; **Cases**.
 
 3.  Select the Due Diligence procurement case from the list for further processing.
 
@@ -262,5 +263,5 @@ Updates the case to Closed Completed.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Streamlining the supplier risk assessment workflow](../concept/simplify-risk-assessment-wf.md)
+**Parent Topic:**[Streamlining the supplier risk assessment workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/simplify-risk-assessment-wf.md)
 

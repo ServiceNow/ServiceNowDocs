@@ -2,6 +2,7 @@
 title: Approve or reject outside counsel engagement request
 description: As a practice area lead, approve the outside counsel engagement request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-matter-management/lmm-approve-oce.html
 release: zurich
 product: Legal Matter Management
 classification: legal-matter-management
@@ -23,15 +24,15 @@ Role required: sn\_lg\_matter.matter\_fulfiller, sn\_lg\_ops.legal\_fulfiller
 
 1.  Open the outside counsel engagement approval request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d599161e51">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d93003e51">
 
 Method
 
-</th><th align="left" id="d599161e54">
+</th><th align="left" id="d93003e54">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d599161e60">
+</th></tr></thead><tbody><tr><td id="d93003e60">
 
 **Using Legal Counsel Center homepage**
 
@@ -42,19 +43,19 @@ Action
 3.  From the list, open the record for approval.
 
 
-</td></tr><tr><td id="d599161e98">
+</td></tr><tr><td id="d93003e98">
 
 **Using Legal Counsel Center lists**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**
-2.  Select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  In the Lists tab, navigate to **My Work** &gt; **Items Pending Approval**.
 4.  From the list, open the record for approval.
 
 
-</td></tr><tr><td id="d599161e151">
+</td></tr><tr><td id="d93003e151">
 
 **Using platform view**
 
@@ -108,12 +109,12 @@ On approval of the outside counsel engagement request, a task is created for fil
 </td></tr></tbody>
 </table>## What to do next
 
-If a task was created to fill in the Legal Tracker details, you need to fill in the details and submit the outside counsel engagement request for integration with Legal Tracker. For more information, see [Assign task created for filling Legal Tracker details](lmm-lt-assign-task-ocer.md) and [Enter Legal Tracker details and submit for integration](lmm-enter-lt-details.md).
+If a task was created to fill in the Legal Tracker details, you need to fill in the details and submit the outside counsel engagement request for integration with Legal Tracker. For more information, see [Assign task created for filling Legal Tracker details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/lmm-lt-assign-task-ocer.md) and [Enter Legal Tracker details and submit for integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/lmm-enter-lt-details.md).
 
--   **[Assign task created for filling Legal Tracker details](lmm-lt-assign-task-ocer.md)**  
+-   **[Assign task created for filling Legal Tracker details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/lmm-lt-assign-task-ocer.md)**  
 As a legal fulfiller, assign the task created for filling Legal Tracker details to the task fulfiller.
--   **[Enter Legal Tracker details and submit for integration](lmm-enter-lt-details.md)**  
+-   **[Enter Legal Tracker details and submit for integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/lmm-enter-lt-details.md)**  
 As a task fulfiller, enter the details in the Legal Tracker section of the outside counsel engagement request.
 
-**Parent Topic:**[Engage with outside counsel](../../legal-matter-management/task/lmm-eng-outcounsel.md)
+**Parent Topic:**[Engage with outside counsel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/lmm-eng-outcounsel.md)
 

@@ -2,6 +2,7 @@
 title: Move an HR case from one HR service to another
 description: You can reclassify an HR case that you originally create under one HR service but want to move it under a different HR service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/TransferHRCase.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -41,8 +42,8 @@ You can also retain the details of the original case. For example, you can take 
 
     **Note:** If the sn\_hr\_core.restrict\_guest\_email system property is False \(default\), text from an email appears in the Work notes field when the employee is responding from a personal email account.
 
-    See [Email setup](https://www.servicenow.com/docs/access?context=c_EmailConfiguration&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    See Email setup.
 
 
-**Parent Topic:**[Transfer an HR case](../concept/reclassify-hr-case.md)
+**Parent Topic:**[Transfer an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/reclassify-hr-case.md)
 

@@ -2,6 +2,7 @@
 title: Resolve conflicts for an individual record
 description: Reconcile differences between your customized record and the changes associated with the upgrade.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/upgrade-center/uc-resolve-conflict.html
 release: zurich
 product: Upgrade Center
 classification: upgrade-center
@@ -21,9 +22,9 @@ Role required: admin
 
 ## Procedure
 
-1.  From the [Upgrade Details form](../reference/uc-upgrade-details-form.md) for the record you are reconciling, click **Resolve Conflicts**.
+1.  From the [Upgrade Details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-center/uc-upgrade-details-form.md) for the record you are reconciling, click **Resolve Conflicts**.
 
-    The system displays the [Resolve Conflicts form](../reference/uc-resolve-conflicts-form.md), which highlights differences between the two versions of the record. The form displays information about the base system record on the left and the customized record on the right.
+    The system displays the [Resolve Conflicts form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-center/uc-resolve-conflicts-form.md), which highlights differences between the two versions of the record. The form displays information about the base system record on the left and the customized record on the right.
 
     **Note:** The system creates a new customer update record when you click **Resolve Conflicts**.
 

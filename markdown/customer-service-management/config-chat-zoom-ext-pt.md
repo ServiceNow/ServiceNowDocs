@@ -2,7 +2,10 @@
 title: Configure application-specific field values for Zoom interactions
 description: Use scripted extension points to enable the copying of application-specific field values to interaction records for Zoom meetings initiated from chats.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/config-chat-zoom-ext-pt.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2023-08-03"
 reading_time_minutes: 2
@@ -17,13 +20,13 @@ Use scripted extension points to enable the copying of application-specific fiel
 
 Role required: admin
 
-Install the Chat Zoom Connector application. For more information, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallApplications&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Install the Chat Zoom Connector application. For more information, see Install a ServiceNow Store application.
 
 ## About this task
 
 You can enable the copying of any application-specific fields from a parent chat interaction record to its Zoom interaction record by using the sn\_chat\_zoom.ZoomInteractionExtPoint extension point. The parent chat is the chat from which the Zoom meeting was initiated.
 
-By using extension points, you can easily integrate customizations without having to alter the base code. You can extend standard base functionality using customized scripts. For more information, see [Using extension points to extend application functionality](https://www.servicenow.com/docs/access?context=extension-points&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+By using extension points, you can easily integrate customizations without having to alter the base code. You can extend standard base functionality using customized scripts. For more information, see Using extension points to extend application functionality.
 
 An implementation is available in the base system for scripted extension points. You can modify the data and add additional fields.
 
@@ -37,7 +40,7 @@ An implementation is available in the base system for scripted extension points.
 
     -   Create and register a custom script include.
 
-        For more information, see [Registering custom script includes against the scripted extension points](../../../build/applications/concept/impl-scripted-ext-pts-custom-code.md).
+        For more information, see [Registering custom script includes against the scripted extension points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/impl-scripted-ext-pts-custom-code.md).
 
     -   Modify the existing script include by going to the Implementations related list and selecting a script include in the **Class** column. The script includes are displayed in the **Class** column.
 

@@ -2,6 +2,7 @@
 title: Add actions for safety inspections survey in Mobile Agent app
 description: Learn how to use the Mobile Agent app to create actions for an inspection survey in online or offline mode.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety/add-actions-for-safety-inspections-survey-in-mobile-agent-app.html
 release: zurich
 product: Health and Safety
 classification: health-and-safety
@@ -19,8 +20,8 @@ Learn how to use the Mobile Agent app to create actions for an inspection survey
 
 Verify the following conditions:
 
--   The system properties for the offline mode behavior of the mobile application are configured. For more information, see [Configure offline mode behavior](https://www.servicenow.com/docs/access?context=sg-configure-offline-mode&version=zurich&pubname=zurich-mobile&ft:locale=en-US).
--   The offline mode for the Mobile Agent app on your mobile device is turned on. For more information, see [Offline mode for Mobile Agent](../concept/hs-health-safety-mobile.md#section_hs_mobile_offline_mode).
+-   The system properties for the offline mode behavior of the mobile application are configured. For more information, see .
+-   The offline mode for the Mobile Agent app on your mobile device is turned on. For more information, see [Offline mode for Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-health-safety-mobile.md).
 -   The **glide.sg.offline.scheduled\_download.enabled** system property for scheduled offline caching is set. If the property is not set, manually update cache before you go offline. To update cache, navigate to **Settings** and tap **Update Cache**. This ensures that the survey is downloaded and it's ready for you to complete.
 
 Role required: sn\_hs\_rm.safety\_inspection\_agent
@@ -29,9 +30,9 @@ Role required: sn\_hs\_rm.safety\_inspection\_agent
 
 Surveys completed offline are synchronized once an internet connection is established.
 
-For more information on how offline mode works in the mobile app, see [Offline mode for mobile](https://www.servicenow.com/docs/access?context=offline-end-user&version=zurich&pubname=zurich-mobile&ft:locale=en-US).
+For more information on how offline mode works in the mobile app, see .
 
-For more information on how an admin configures which survey field type should display the **Create action** check box, see [Configure the create action check box for safety inspection survey in the Mobile Agent app](hs-configure-create-action-checkbox-mobile-survey.md).
+For more information on how an admin configures which survey field type should display the **Create action** check box, see [Configure the create action check box for safety inspection survey in the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-configure-create-action-checkbox-mobile-survey.md).
 
 ## Procedure
 
@@ -41,15 +42,15 @@ For more information on how an admin configures which survey field type should d
 
 3.  To open surveys,
 
-<table id="choicetable_adf_tqn_lfc"><thead><tr><th align="left" id="d762387e147">
+<table id="choicetable_adf_tqn_lfc"><thead><tr><th align="left" id="d101884e145">
 
 Section
 
-</th><th align="left" id="d762387e150">
+</th><th align="left" id="d101884e148">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d762387e156">
+</th></tr></thead><tbody><tr><td id="d101884e154">
 
 **My Surveys**
 
@@ -57,7 +58,7 @@ Steps
 
 Tap **My Assessments and Surveys**.All surveys that were downloaded before you went offline are listed.
 
-</td></tr><tr><td id="d762387e170">
+</td></tr><tr><td id="d101884e168">
 
 **Inspections**
 
@@ -83,7 +84,7 @@ Tap **My Assessments and Surveys**.All surveys that were downloaded before you w
 
 ## Result
 
-The action created appears in the **Actions** tab of the inspection record and can be edited or deleted by using the More actions ![more actions icon](../../legal-request-management/image/more-button-icon.png) Icon.
+The action created appears in the **Actions** tab of the inspection record and can be edited or deleted by using the More actions \[Omitted image "more-button-icon.png"\] Alt text: more actions icon Icon.
 
-**Parent Topic:**[Manage the safety inspection and audit surveys through mobile app](../concept/hs-configure-manage-safety-inspections-audits-mobile.md)
+**Parent Topic:**[Manage the safety inspection and audit surveys through mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-configure-manage-safety-inspections-audits-mobile.md)
 

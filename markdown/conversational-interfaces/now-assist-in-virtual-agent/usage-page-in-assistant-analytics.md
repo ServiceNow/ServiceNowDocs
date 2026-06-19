@@ -2,6 +2,7 @@
 title: Usage page in Assistant analytics
 description: View assistant activity, highlighting conversation volumes, channel distribution, and conversation outcomes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/now-assist-in-virtual-agent/usage-page-in-assistant-analytics.html
 release: zurich
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -17,7 +18,7 @@ View assistant activity, highlighting conversation volumes, channel distribution
 
 The Usage dashboard page aggregates key metrics related to assistant usage, including the total number of conversations by assistant, conversations by channel, citations associated with the results, and the flow of conversation states.
 
-![Usage dashboard page in Assistant analytics.](../image/NAinVA-assistant-designer-analytics-usage.png "Usage dashboard page in Assistant analytics")
+\[Omitted image "NAinVA-assistant-designer-analytics-usage.png"\] Alt text: Usage dashboard page in Assistant analytics.
 
 The visualizations on the Usage page help you with the following.
 
@@ -29,13 +30,13 @@ The visualizations on the Usage page help you with the following.
 
     This area of the dashboard shows the number of conversations handled by each assistant over the selected date range. This metric enables comparison of activity and identification of high- and low-performing assistants in the selected period. Use this data to focus optimization efforts on assistants with lower engagement or to replicate best practices from high-performing assistants.
 
-    ![Total Conversations by Assistant](../image/NAinVA-assistant-designer-analytics-usage-total-conv-asst.png "Total Conversations by Assistant")
+    \[Omitted image "NAinVA-assistant-designer-analytics-usage-total-conv-asst.png"\] Alt text: Total Conversations by Assistant
 
 -   **Total Conversations by Channel**
 
     This area of the dashboard shows the distribution of conversations across different channels, for example, Teams, Slack, and so on. This metric shows which channels are most popular for assistant interactions, helping you adjust channel support, and maximize reach and effectiveness.
 
-    ![Total Conversations by Channel](../image/NAinVA-assistant-designer-analytics-usage-total-conv-channel.png "Total Conversations by Channel")
+    \[Omitted image "NAinVA-assistant-designer-analytics-usage-total-conv-channel.png"\] Alt text: Total Conversations by Channel
 
 -   **Result Types Offered**
 
@@ -43,12 +44,12 @@ The visualizations on the Usage page help you with the following.
 
     The chart displays a horizontal bar for each result type. The color intensity within each bar indicates frequency—darker shades represent higher counts, while lighter shades represent lower counts. Hover over a bar segment to view the exact count, percentage, and associated assistant. Use this visualization to identify which result types are most frequently delivered by assistants.
 
-    ![Result Types Offered](../image/NAinVA-assistant-designer-analytics-usage-results-offered.png "Result Types Offered")
+    \[Omitted image "NAinVA-assistant-designer-analytics-usage-results-offered.png"\] Alt text: Result Types Offered
 
 -   **Conversation State Flow**
 
     This area of the dashboard shows the trend of conversations by the states they are in, for example, Open, Completed, Faulted, and Canceled. This visualization provides insight into how conversations are progressing and where they encounter issues, helping you target improvements to the conversation flow.
 
-    ![Conversations State Flow](../image/NAinVA-assistant-designer-analytics-usage-conv-state-flow.png "Conversations State Flow")
+    \[Omitted image "NAinVA-assistant-designer-analytics-usage-conv-state-flow.png"\] Alt text: Conversations State Flow
 
 

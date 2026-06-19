@@ -2,6 +2,7 @@
 title: Cloud discovery solutions comparison
 description: Comparing cloud discovery solutions provides insights on the relative strengths of each solution. The comparison showcases the number of resource types supported by the solutions across AWS, Azure, and GCP. The comparison can help you understand the capabilities of each solution and better manage your CMDB when using one or multiple methods.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/cloud-discovery-methods-comparison-platcap.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -34,5 +35,5 @@ By reviewing the coverage tables for AWS, Azure, and GCP, you can
 -   Understand how the same resource type may be handled differently \(for example, patterns may bring in all zone data, while connectors may only bring in zones tied to an instance\).
 -   Decide on a solution per provider, considering its CI coverage or data model. For example: Use connectors to discover your GCP resources, but use patterns for AWS and Azure.
 
-![Bar chart that compares Patterns and Service Graph Connectors resource types: AWS (83 patterns, 70 SGC), Azure (60 patterns, 22 SGC), and GCP (120 patterns, 107 SGC).](../image/patterns-vs-sgc.jpg "Discovery and Service Mapping Patterns and Service Graph Connectors comparison")
+\[Omitted image "patterns-vs-sgc.jpg"\] Alt text: Bar chart that compares Patterns and Service Graph Connectors resource types: AWS \(83 patterns, 70 SGC\), Azure \(60 patterns, 22 SGC\), and GCP \(120 patterns, 107 SGC\).
 

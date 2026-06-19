@@ -1,12 +1,13 @@
 ---
 title: Semantic Index Configuration form
-description: The Semantic Index Configuration form contains information about semantic indexing settings for an AI Search indexed source. Use this form when defining or modifying semantic indexing settings for an indexed source.
+description: The Semantic Index Configuration form enables you to define semantic indexing settings for an AI Search indexed source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/semantic-index-configuration-form.html
 release: zurich
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2025-10-03"
+last_updated: "2026-06-08"
 reading_time_minutes: 4
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer]
@@ -14,11 +15,11 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 # Semantic Index Configuration form
 
-The Semantic Index Configuration form contains information about semantic indexing settings for an AI Search indexed source. Use this form when defining or modifying semantic indexing settings for an indexed source.
+The Semantic Index Configuration form enables you to define semantic indexing settings for an AI Search indexed source.
 
-For details on defining and modifying semantic indexing settings for an indexed source, see [Configure semantic indexing settings for an indexed source](../task/configure-semantic-indexing-ais.md).
+For details on defining and modifying semantic indexing settings for an indexed source, see [Configure semantic indexing settings for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-semantic-indexing-ais.md).
 
-**Note:** This form is only available when the AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\) is active on your instance. To activate this plugin, your instance must have at least one [Now Assist application](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) installed.
+**Note:** This form is only available when the AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\) is active on your instance. To activate this plugin, your instance must have at least one Now Assist application installed.
 
 <table id="table_t1b_wjh_xcc"><thead><tr><th>
 
@@ -45,9 +46,9 @@ Embedding Models
 List of embedding models to use for the semantic index configuration.-   Default value: **ServiceNow Embedding \(E5\)**
 -   Supported values:
     -   **ServiceNow Embedding \(E5\)**: Use the E5 fine-tuned embedding model for content in the semantic index. The embedding model's encoder limit is 512 terms.
-    -   Azure OpenAI Embedding: Use the Azure OpenAI fine-tuned embedding model for content in the semantic index. For more information, see [Configuring an external or custom embedding model](../concept/setting-up-3p-embedding-models.md).
-    -   Google Gemini Embedding: Use the Google Gemini fine-tuned embedding model for content in the semantic index. For more information, see [Configuring an external or custom embedding model](../concept/setting-up-3p-embedding-models.md).
-    -   Custom Embedding: Use the custom fine-tuned embedding model for content in the semantic index. For more information, see [Configuring bring your own model \(BYOM\)](../concept/creating-byom.md).
+    -   Azure OpenAI Embedding: Use the Azure OpenAI fine-tuned embedding model for content in the semantic index. For more information, see [Configuring an external or custom embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/setting-up-3p-embedding-models.md).
+    -   Google Gemini Embedding: Use the Google Gemini fine-tuned embedding model for content in the semantic index. For more information, see [Configuring an external or custom embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/setting-up-3p-embedding-models.md).
+    -   Custom Embedding: Use the custom fine-tuned embedding model for content in the semantic index. For more information, see [Configuring bring your own model \(BYOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/creating-byom.md).
 
 </td></tr><tr><td>
 
@@ -63,7 +64,7 @@ Indexed Source
 
 </td><td>
 
-Reference to the AI Search indexed source that you want to apply this semantic index configuration to. This field is automatically set. For more details on indexed sources, see [Indexed sources in AI Search](../concept/indexed-sources-ais.md).
+Reference to the AI Search indexed source that you want to apply this semantic index configuration to. This field is automatically set. For more details on indexed sources, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/indexed-sources-ais.md).
 
 </td></tr><tr><td>
 
@@ -83,7 +84,7 @@ Chunking Strategy
 
 </td><td>
 
-Strategy to use when chunking semantically-indexed text for the embedding model.-   Default value: **Passage**
+Strategy to use when chunking semantically indexed text for the embedding model.-   Default value: **Passage**
 -   Supported values:
     -   **Passage**: Chunking strategy for longer text field values. Index text from semantic field values in chunks. Each chunk contains a maximum number of words or sentences determined by your **Chunk Unit** and **Chunk Size** selections.
     -   **Truncate**: Chunking strategy for short text field values. Concatenate all semantic index field values, then perform semantic indexing for terms up to the **Maximum Total Words** limit.
@@ -141,5 +142,5 @@ Maximum number of words to index for semantic vector search from the concatenate
 -   Type: integer
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Search reference](../concept/reference-ais.md)
+</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/reference-ais.md)
 

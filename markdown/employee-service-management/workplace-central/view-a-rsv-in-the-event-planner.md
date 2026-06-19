@@ -2,6 +2,7 @@
 title: View reservation details in the event planner
 description: Check details of a reservation created in your workplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-central/view-a-rsv-in-the-event-planner.html
 release: zurich
 product: Workplace Central
 classification: workplace-central
@@ -29,7 +30,7 @@ Role required: sn\_wsd\_rsv.reservation\_planner or sn\_wsd\_rsv.reservation\_vi
 
     The Workplace Analytics dashboard opens.
 
-2.  On the left pane, select the **Event planner** icon \(![Event planner icon.](../images/event-planner-icon.png)\).
+2.  On the left pane, select the **Event planner** icon \(\[Omitted image "event-planner-icon.png"\] Alt text: Event planner icon.\).
 
     The Event Planner dashboard opens.
 
@@ -69,7 +70,7 @@ Role required: sn\_wsd\_rsv.reservation\_planner or sn\_wsd\_rsv.reservation\_vi
 
 ## What to do next
 
-If you want to edit the reservation, refer to [Edit a reservation using the event planner](edit-a-reservation-using-the-event-planner.md).
+If you want to edit the reservation, refer to [Edit a reservation using the event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/edit-a-reservation-using-the-event-planner.md).
 
-**Parent Topic:**[Working with Event planner](../concept/working-with-event-planner.md)
+**Parent Topic:**[Working with Event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/working-with-event-planner.md)
 

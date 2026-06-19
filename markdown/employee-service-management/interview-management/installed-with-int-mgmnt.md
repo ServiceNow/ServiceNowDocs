@@ -2,6 +2,7 @@
 title: Components installed with Interview Management
 description: With activation of the Interview Management plugin, the associated tables and scheduled jobs are installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/interview-management/installed-with-int-mgmnt.html
 release: zurich
 product: Interview Management
 classification: interview-management
@@ -33,5 +34,5 @@ With activation of the Interview Management plugin, the associated tables and sc
 |Preferred slot \[sn\_ta\_int\_mgmt\_preferred\_slot\]|Preferred slots of the user.|
 |Slot repeat config \[sn\_ta\_int\_mgmt\_slot\_repeat\_config\]|Slot repeat configuration for recurring slots.|
 
-**Parent Topic:**[Interview Management reference](../concept/interview-management-reference.md)
+**Parent Topic:**[Interview Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/interview-management/interview-management-reference.md)
 

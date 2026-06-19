@@ -2,6 +2,7 @@
 title: Universal Request form
 description: Use the Universal Request form to create a universal request task record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-request-for-hr-service-delivery/new-ur-record-form.html
 release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -216,5 +217,5 @@ Close notes
 How or why the universal request was closed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Universal Request reference](ur-reference-topic.md)
+</table>**Parent Topic:**[Universal Request reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-reference-topic.md)
 

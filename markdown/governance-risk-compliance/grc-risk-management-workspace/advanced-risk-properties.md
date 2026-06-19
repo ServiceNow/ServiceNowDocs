@@ -2,6 +2,7 @@
 title: Properties installed with Advanced Risk
 description: Properties are added with activation of GRC: Advanced Risk. There are also properties that are available for the various capabilities such as risk events and advanced risk assessments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/advanced-risk-properties.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -185,7 +186,7 @@ Enable Advanced Risk PPM Integration \[sn\_risk\_advanced.enable\_advanced\_risk
 Perform project risk assessments. Only users with the it\_pps\_admin or sn\_ risk.admin roles can enable this property. -   Type: yes or no
 -   Default value: no
 
- For more information, see [Configure Project Portfolio Management and Advanced Risk integration](../../grc-risk/task/specify-approvers-for-proj-risks.md) **Note:** This property is only available when Project Portfolio Management is installed.
+ For more information, see [Configure Project Portfolio Management and Advanced Risk integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/specify-approvers-for-proj-risks.md) **Note:** This property is only available when Project Portfolio Management is installed.
 
 </td></tr><tr><td>
 
@@ -196,8 +197,8 @@ sn\_risk\_advanced.metric\_approval
 Enables Risk administrators to define either the simple approval flow or the advanced approval flow for all the metrics and metric definitions. **Note:** This property is available only when the sn\_grc\_appr plugin is activated and must be set while configuring the ESG Management application.
 
  The choices are as follows:-   **Simple**: By choosing this option, the Approval section will be enabled both on the manual metric definition form and within the metrics. Using this section, you can designate approvers directly on the metric definition form.
--   **Advanced**: When you choose this option, the Approval section will be unavailable on the manual metric definition form and the metric form. Instead, approval can be configured by setting the approval conditions, tables, and approvers in the GRC: Approver Configurator application. This application also allows you to define multiple levels of approvals. For more information see, [Using Approver Configurator for setting up approvals](../concept/approval-configuration.md).
+-   **Advanced**: When you choose this option, the Approval section will be unavailable on the manual metric definition form and the metric form. Instead, approval can be configured by setting the approval conditions, tables, and approvers in the GRC: Approver Configurator application. This application also allows you to define multiple levels of approvals. For more information see, [Using Approver Configurator for setting up approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/approval-configuration.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Advanced Risk](../../grc-risk/reference/components-risk-advanced.md)
+</table>**Parent Topic:**[Components installed with Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/components-risk-advanced.md)
 

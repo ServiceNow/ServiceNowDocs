@@ -2,6 +2,7 @@
 title: Review the indicator sources for a large number of records
 description: Review the indicator sources if you need a large number of records. You can override the records collection so that the Operational Technology \(OT\) Visibility dashboard shows more records than the default value of 1 million.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-workspace/change-indicator-sources-for-larger-number-of-records-otm.html
 release: zurich
 product: Industrial Workspace
 classification: industrial-workspace
@@ -25,7 +26,7 @@ Due to the migration with Performance Analytics, each indicator of the OT Visibi
 
 **Note:** If you don't have the admin or pa\_admin role and the records exceed 1 million after running the OT Devices Daily Data Collection job, an error message directs you to contact an administrator for help.
 
-If you have the admin or pa\_admin role, you can check the job logs related list from a link in the error message and filter out the information to see which indicator source has the error. After you find the indicator source with the error, you can change the indicator sources for a larger number of records and override the indicator source data. Then, an error message no longer appears for the other users and the data is shown for the indicator source. For more information about the indicator sources, see [Indicator sources](https://www.servicenow.com/docs/access?context=c_IndicatorSources&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+If you have the admin or pa\_admin role, you can check the job logs related list from a link in the error message and filter out the information to see which indicator source has the error. After you find the indicator source with the error, you can change the indicator sources for a larger number of records and override the indicator source data. Then, an error message no longer appears for the other users and the data is shown for the indicator source. For more information about the indicator sources, see .
 
 **Note:** If you need to create new indicators, you must use the site breakdown included in the Industrial Workspace Common. The site breakdown part of the Operational Technology Manager application is deprecated.
 
@@ -35,11 +36,11 @@ The job logs may include errors that aren't about the indicator sources. You mus
 
 1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Sources** &gt; **Indicator Sources**.
 
-2.  Apply a filter by selecting the Show/hide filter \(![Show/hide filter icon in the table header.](../image/show-hide-filter-icon.png)\) icon and add the following filters.
+2.  Apply a filter by selecting the Show/hide filter \(\[Omitted image "show-hide-filter-icon.png"\] Alt text: Show/hide filter icon in the table header.\) icon and add the following filters.
 
     -   `[Application] [is] [Operational Technology Manager]`
     -   `[Facts table] [is] [cmdb_ci]`
-    After applying the filters, the table shows seven device indicator records.![Device indicator records after applying the filters.](../image/device-indicator-records.png)
+    After applying the filters, the table shows seven device indicator records.\[Omitted image "device-indicator-records.png"\] Alt text: Device indicator records after applying the filters.
 
 3.  Select the indicator source record that you need to change.
 
@@ -52,5 +53,5 @@ The job logs may include errors that aren't about the indicator sources. You mus
 6.  Select **Update**.
 
 
-**Parent Topic:**[Setting up the Operational Technology Visibility dashboard](../concept/setting-up-the-ot-devices-dashboard.md)
+**Parent Topic:**[Setting up the Operational Technology Visibility dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/setting-up-the-ot-devices-dashboard.md)
 

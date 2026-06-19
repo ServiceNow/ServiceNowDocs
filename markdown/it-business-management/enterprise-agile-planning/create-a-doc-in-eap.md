@@ -2,6 +2,7 @@
 title: Create a Doc in EAP
 description: Store information related to your work, iterations, and teams, and collaborate in real-time using Docs in Enterprise Agile Planning workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/enterprise-agile-planning/create-a-doc-in-eap.html
 release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -29,15 +30,15 @@ Create a Doc at the team-level or planning item level.
 
 2.  Navigate to a team or planning item that you would like to create a Doc for.
 
-<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d102462e85">
+<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d101689e85">
 
 Type
 
-</th><th align="left" id="d102462e88">
+</th><th align="left" id="d101689e88">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d102462e94">
+</th></tr></thead><tbody><tr><td id="d101689e94">
 
 **Agile Structure/Team Doc**
 
@@ -48,7 +49,7 @@ Actions
 3.  Select a Doc to view the pages within.
 
 
-</td></tr><tr><td id="d102462e115">
+</td></tr><tr><td id="d101689e115">
 
 **Planning item Doc**
 
@@ -69,5 +70,5 @@ Actions
 
 ## What to do next
 
-[Manage pages and subpages within a Doc in EAP](create-pages-within-a-doc-in-eap.md).
+[Manage pages and subpages within a Doc in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/create-pages-within-a-doc-in-eap.md).
 

@@ -2,6 +2,7 @@
 title: Configure Intermediate filters
 description: Set up filters for intermediate data relationship nodes based on the selected data relationship in the content configuration. This ensures only relevant information is displayed, making reports clear and actionable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/configure-intermediate-filters.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions

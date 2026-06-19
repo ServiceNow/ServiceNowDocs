@@ -2,6 +2,7 @@
 title: Delete an advanced filter
 description: You can delete an advanced filter in Dispatcher Workspace if you want to remove it after you create it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/delete-advanced-filter.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -29,7 +30,7 @@ Role required: wm\_dispatcher
 
 4.  Select the filter you want to delete.
 
-5.  Select the ellipses icon ![three dot ellipses](../image/three_dot_square.png).
+5.  Select the ellipses icon \[Omitted image "three\_dot\_square.png"\] Alt text: three dot ellipses.
 
 6.  Select **Delete**.
 

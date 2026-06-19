@@ -2,7 +2,10 @@
 title: Request Predictive Intelligence for Major Incident Management
 description: Activate Predictive Intelligence for Major Incident Management by requesting the Predictive Intelligence for Major Incident Management plugin \(com.snc.incident.mim.ml\_solution\) through the Now Support Service Catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/request-pred-intelli-mim.html
 release: zurich
+product: IT Service Management
+classification: it-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -74,5 +77,5 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Machine learning solutions for IT Service Management](../../it-service-management/concept/machine-learning-itsm.md)
+**Parent Topic:**[Machine learning solutions for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/machine-learning-itsm.md)
 

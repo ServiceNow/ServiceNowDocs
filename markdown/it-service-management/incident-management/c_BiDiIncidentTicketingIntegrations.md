@@ -2,6 +2,7 @@
 title: Bi-directional incident ticketing integrations
 description: A bi-directional integration exchanges data between your ServiceNow instance and a third-party system so that incident information is synchronized between the systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/c\_BiDiIncidentTicketingIntegrations.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -47,5 +48,5 @@ An implementation variation for the inbound path would be to use an import set t
 
 Implementing this type of integration involves a web-service component for third-party applications for inbound data. The ECC queue is recommended for outbound data.
 
-**Parent Topic:**[Incident ticketing integrations](c_IncidentTicketingIntegrations.md)
+**Parent Topic:**[Incident ticketing integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/c_IncidentTicketingIntegrations.md)
 

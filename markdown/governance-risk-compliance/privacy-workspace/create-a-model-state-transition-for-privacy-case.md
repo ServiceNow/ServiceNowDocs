@@ -2,6 +2,7 @@
 title: Define the model state transitions for a privacy case
 description: Define the transition conditions to control how a compliance case traverses through the different workflow states by using the Privacy Case Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/create-a-model-state-transition-for-privacy-case.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -45,13 +46,13 @@ The state transitions are a list of conditions for entering or exiting each stat
 
 9.  On the form, fill in the fields.
 
-    For a description of the field values on the GRC model state transition form, see [GRC model state transition condition form](../reference/pcm-state-model-transition-condition-form.md).
+    For a description of the field values on the GRC model state transition form, see [GRC model state transition condition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/pcm-state-model-transition-condition-form.md).
 
 10. Select **Submit**.
 
 
--   **[GRC model state transition condition form](../reference/pcm-state-model-transition-condition-form.md)**  
+-   **[GRC model state transition condition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/pcm-state-model-transition-condition-form.md)**  
 Use the GRC Model State Transition Condition form to define the transition conditions to control how a compliance case traverses through the different workflow states by using the Privacy Case Management application.
 
-**Parent Topic:**[Configuring Privacy Case Management](../concept/configuring-privacy-case-management.md)
+**Parent Topic:**[Configuring Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/configuring-privacy-case-management.md)
 

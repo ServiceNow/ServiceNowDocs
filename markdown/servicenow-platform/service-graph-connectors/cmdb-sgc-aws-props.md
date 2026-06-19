@@ -2,11 +2,12 @@
 title: Service Graph Connector for AWS properties
 description: Service Graph Connector for AWS properties control the behavior of the connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/cmdb-sgc-aws-props.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2026-03-01"
+last_updated: "2026-03-12"
 reading_time_minutes: 11
 breadcrumb: [Reference, AWS, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -276,6 +277,15 @@ s3\_region
 Enter the region where the Amazon S3 bucket is set up.-   Type: string
 -   Default value: empty
 
+</td></tr><tr><td>
+
+aws\_generic\_resource\_partition\_size
+
+</td><td>
+
+Set the partition size for AWS Generic Resources if parallel loading is enabled.-   Type: integer
+-   Default value: empty
+
 </td></tr></tbody>
 </table>## Default system properties
 
@@ -462,7 +472,7 @@ sn\_aws\_integ.windows\_TCP\_Listener\_Status
 </td></tr></tbody>
 </table>## Custom system properties
 
-You can create these custom system properties for the Service Graph Connector for AWS. These properties must be created in the Service Graph Connector for AWS application scope. The custom properties that you create are listed in the System Properties \[sys\_properties\] table. For more information about creating custom system properties, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+You can create these custom system properties for the Service Graph Connector for AWS. These properties must be created in the Service Graph Connector for AWS application scope. The custom properties that you create are listed in the System Properties \[sys\_properties\] table. For more information about creating custom system properties, see .
 
 <table id="table_r43_g5k_c3c"><thead><tr><th>
 
@@ -796,12 +806,21 @@ sn\_aws\_integ.config\_db\_load\_enabled
 Enter the list of import set table names for which the DB Load is to be enabled to improve performance.-   Type: string
 -   Default value: empty
 
+</td></tr><tr><td>
+
+sn\_itom\_pattern.bring\_discovery\_container
+
+</td><td>
+
+Set this property to `false` to set all EKS container classes to false during a full load.-   Type: true \| false
+-   Default value: `false`
+
 </td></tr></tbody>
 </table>## Related content
 
-[Data mapping for Service Graph Connector for AWS](cmdb-data-mapping-aws.md)
+[Data mapping for Service Graph Connector for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-data-mapping-aws.md)
 
-[CMDB classes targeted in Service Graph Connector for AWS](cmdb-aws-classes.md)
+[CMDB classes targeted in Service Graph Connector for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
-**Parent Topic:**[Service Graph Connector for AWS reference](../concept/sgc-cmdb-aws-reference.md)
+**Parent Topic:**[Service Graph Connector for AWS reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-reference.md)
 

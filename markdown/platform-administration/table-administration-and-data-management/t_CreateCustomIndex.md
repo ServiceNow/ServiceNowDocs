@@ -2,6 +2,7 @@
 title: Create a table index
 description: Build indexes to access the data held in your tables more easily.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/t\_CreateCustomIndex.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -29,15 +30,15 @@ Creating an index on a large table can significantly affect system performance. 
 
 1.  Access the Index creator in one of the following ways.
 
-<table id="choicetable_vmm_bj2_kyb"><thead><tr><th align="left" id="d274422e69">
+<table id="choicetable_vmm_bj2_kyb"><thead><tr><th align="left" id="d184922e69">
 
 Option
 
-</th><th align="left" id="d274422e72">
+</th><th align="left" id="d184922e72">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d274422e78">
+</th></tr></thead><tbody><tr><td id="d184922e78">
 
 **Tables &amp; Columns module**
 
@@ -48,7 +49,7 @@ Steps
 3.  Navigate to the Index creator.
 
 
-</td></tr><tr><td id="d274422e111">
+</td></tr><tr><td id="d184922e111">
 
 **Database Indexes related list**
 
@@ -82,5 +83,5 @@ Steps
     Optimize data storage and retrieval by creating a columnstore index. Columnstore indexes store data in a compressed, column-oriented format that can improve query performance, especially when querying large datasets. Available with RaptorDB Professional.
 
 
-**Parent Topic:**[Managing tables and indexes](../concept/using-table-administration.md)
+**Parent Topic:**[Managing tables and indexes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/using-table-administration.md)
 

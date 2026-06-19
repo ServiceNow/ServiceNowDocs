@@ -2,6 +2,7 @@
 title: Review your health test results
 description: If you would like to review your recently reported COVID-19 diagnostic test result or add an attachment to a health test, access your previous test results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-testing/review-your-health-test-results.html
 release: zurich
 product: Health and Safety Testing
 classification: health-and-safety-testing
@@ -29,9 +30,9 @@ Role required: sn\_imt\_core.privacy\_consent\_user
 
     -   If you are adding an attachment, such as test results, add the attachment and then click **Update**.
 
-        **Note:** For information on managing attachments, see [Manage attachments](https://www.servicenow.com/docs/access?context=t_ManagingAttachments&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+        **Note:** For information on managing attachments, see Manage attachments.
 
     -   If you are reviewing the record, review the record and click **Back** to return to the list of test results.
 
-**Parent Topic:**[Health and Safety Testing](../concept/health-safety-testing.md)
+**Parent Topic:**[Health and Safety Testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-testing/health-safety-testing.md)
 

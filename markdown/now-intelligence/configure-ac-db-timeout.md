@@ -2,6 +2,7 @@
 title: Configure Platform Analytics dashboard tab cache timeout
 description: Dashboard content isn’t refreshed every time a user navigates between tabs. You can configure the number of minutes that dashboard tab content is cached before it's refreshed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/configure-ac-db-timeout.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"

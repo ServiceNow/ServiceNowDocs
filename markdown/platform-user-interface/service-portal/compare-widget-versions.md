@@ -2,6 +2,7 @@
 title: Compare versions of a customized widget
 description: Compare your most recent update of a customized widget against the previous version to check if your recent changes are causing issues on a portal page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/compare-widget-versions.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -35,20 +36,20 @@ There's no option to compare versions for new, cloned, or base system widgets.
 
     Customized widgets are outlined in red.
 
-4.  On a customized widget, click the information icon \(![Information icon](../image/info-icon.png)\).
+4.  On a customized widget, click the information icon \(\[Omitted image "info-icon.png"\] Alt text: Information icon\).
 
 5.  On the window, click **Compare with previous version**.
 
     The system displays the widget records of the current and previous widget versions side by side.
 
-    ![Comparison between current and previous versions of widget](../image/compare-versions.png)
+    \[Omitted image "compare-versions.png"\] Alt text: Comparison between current and previous versions of widget
 
     Although both widget records are labeled **Version**, the left-side record represents the previous version and the right-side record represents the current version.
 
-6.  For each field in which it appears, click the window icon \(![Window icon](../image/pop-out-icon.png)\) to open the code comparator.
+6.  For each field in which it appears, click the window icon \(\[Omitted image "pop-out-icon.png"\] Alt text: Window icon\) to open the code comparator.
 
     Your most recent changes to the widget code are highlighted in the code comparator.
 
-    ![Code comparator](../image/code-comparator.png)
+    \[Omitted image "code-comparator.png"\] Alt text: Code comparator
 
 

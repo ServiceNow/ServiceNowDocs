@@ -2,6 +2,7 @@
 title: View product classifications for your IBM components
 description: View the product classifications for all IBM components that are installed in your environment. These product classifications enable you to track and manage licensing for your IBM components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/view-product-classifications-ibm-components.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -34,5 +35,5 @@ Role required: sam\_admin or sam\_user
     Each product classification includes the classified product, product edition, product version, and assigned license metric.
 
 
-**Parent Topic:**[Authorized SAM Provider \(ASP\) integrations for IBM](../concept/ibm-asp-integration.md)
+**Parent Topic:**[Authorized SAM Provider \(ASP\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/ibm-asp-integration.md)
 

@@ -2,7 +2,10 @@
 title: Configure Playbooks for Customer Service Management
 description: Configure different playbook settings, such as selecting the activity view and determining activity visibility.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-playbooks-configuring.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 4
@@ -29,10 +32,10 @@ Create or customize a playbook record page
 
 </td><td>
 
-A record page provides the base structure for how a record is displayed in CSM Configurable Workspace. The following playbook record pages are available with the Playbooks for Customer Service Management application \[com.sn\_csm\_playbook\]:-   [Case playbook: horizontal stages page](csm-playbook-horizontal-stages.md)
--   [Case playbook: vertical stages page](csm-playbook-vertical-stages.md)
+A record page provides the base structure for how a record is displayed in CSM Configurable Workspace. The following playbook record pages are available with the Playbooks for Customer Service Management application \[com.sn\_csm\_playbook\]:-   [Case playbook: horizontal stages page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-playbook-horizontal-stages.md)
+-   [Case playbook: vertical stages page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-playbook-vertical-stages.md)
 
-For more information, see [Manage UI Builder pages and page variants](https://www.servicenow.com/docs/access?context=work-pages&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+For more information, see Manage UI Builder pages and page variants.
 
 </td></tr><tr><td>
 
@@ -47,12 +50,12 @@ Each UI Builder record page includes the following settings:-   **Active**: Enab
 
 For more information, see the following topics:
 
--   [Case playbook: horizontal stages page variant settings](csm-playbook-horizontal-stages.md#table_f5m_bhx_qbc)
--   [Case playbook: vertical stages page variant settings](csm-playbook-vertical-stages.md#table_f5m_bhx_qbc)
+-   [Case playbook: horizontal stages page variant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-playbook-horizontal-stages.md)
+-   [Case playbook: vertical stages page variant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-playbook-vertical-stages.md)
 
 </td></tr><tr><td>
 
-[Select a playbook activity view](../task/playbook-select-activity-view.md)
+[Select a playbook activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/playbook-select-activity-view.md)
 
 </td><td>
 
@@ -63,7 +66,7 @@ Users with the system administrator role can select a playbook activity view in 
 
 </td></tr><tr><td>
 
-[Configure playbook stage and activity visibility](../task/playbook-config-activity-visibility.md)
+[Configure playbook stage and activity visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/playbook-config-activity-visibility.md)
 
 </td><td>
 
@@ -109,7 +112,7 @@ Different playbooks for the same record type can use different playbook experien
 
 </td></tr><tr><td>
 
-[Set up a record generator for a case type](../task/setup-record-generator-for-case-type.md)
+[Set up a record generator for a case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/setup-record-generator-for-case-type.md)
 
 </td><td>
 
@@ -117,7 +120,7 @@ Create a record for a case type by using a playbook record generator. With a rec
 
 </td></tr><tr><td>
 
-[Configure an optional activity for a playbook](../task/configure-optional-activity-for-a-case-type-playbook.md)
+[Configure an optional activity for a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-optional-activity-for-a-case-type-playbook.md)
 
 </td><td>
 
@@ -126,7 +129,7 @@ Configure optional playbook activities so that agents and fulfillers can insert 
 </td></tr></tbody>
 </table>## Playbook experiences
 
-Playbook experiences are used to customize the look and feel of a playbook. Settings in a playbook experience control how [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=zurich&pubname=zurich-application-development&ft:locale=en-US) renders a playbook in the CSM workspaces. System administrators can configure settings in the playbook experience record that determine the playbook stage and activity visibility.
+Playbook experiences are used to customize the look and feel of a playbook. Settings in a playbook experience control how UI Builder renders a playbook in the CSM workspaces. System administrators can configure settings in the playbook experience record that determine the playbook stage and activity visibility.
 
 Within UI Builder, system administrators can configure playbook component settings such as:
 
@@ -134,5 +137,5 @@ Within UI Builder, system administrators can configure playbook component settin
 -   Selecting an activity view
 -   Enabling compact mode
 
-For more information, see [Configuring playbooks for Customer Service Management](csm-playbooks-configuring.md).
+For more information, see [Configuring playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-playbooks-configuring.md).
 

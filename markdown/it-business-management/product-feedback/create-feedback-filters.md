@@ -2,6 +2,7 @@
 title: Create feedback filters in Strategic Planning
 description: Create and organize feedback using feedback filters and reduce the need to manually apply filters each time to find specific feedback.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/product-feedback/create-feedback-filters.html
 release: zurich
 product: Product Feedback
 classification: product-feedback
@@ -29,8 +30,6 @@ Project managers can retain the feedback filters, share them with team members o
 
 2.  Select **Feedback** and then select **New filter** to create a new filter.
 
-    ![Animated tour of the feedback filters in Feedback application.](../image/product-feedback-filters.gif)
-
 3.  On the form, fill in the **Feedback filter name**.
 
     You can choose the filters or set up new filter condition if needed.
@@ -44,8 +43,8 @@ Project managers can retain the feedback filters, share them with team members o
 
 ## What to do next
 
--   [Update feedback filters in Strategic Planning](update-feedback-filters-sp.md)
--   [Create Feedback in Strategic Planning](create-feedback-in-sp.md)
--   [Associate feedback with a product idea](associate-feedback-with-product-idea.md)
--   [Associate a feedback or product idea with a planning item](associate-feedback-with-planning-item.md)
+-   [Update feedback filters in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/update-feedback-filters-sp.md)
+-   [Create Feedback in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/create-feedback-in-sp.md)
+-   [Associate feedback with a product idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/associate-feedback-with-product-idea.md)
+-   [Associate a feedback or product idea with a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/associate-feedback-with-planning-item.md)
 

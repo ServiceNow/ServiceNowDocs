@@ -2,6 +2,7 @@
 title: Translations for HR cases and tasks
 description: Enable translations on HR case and task templates so that employees can view the short descriptions and descriptions of their HR cases and tasks in their preferred language.Configure an HR case or task template to enable translations. You can provide the global descriptions for translations in multiple languages so that users can view the short descriptions and descriptions of their HR cases and tasks in their preferred language.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/translation-of-hr-cases-and-tasks.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,7 +16,7 @@ breadcrumb: [HR Administration, Configure, Case and Knowledge Management, HR Ser
 
 Enable translations on HR case and task templates so that employees can view the short descriptions and descriptions of their HR cases and tasks in their preferred language.
 
-**Parent Topic:**[HR Administration](c_AdministerHRServiceManagement.md)
+**Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 
 ## Configure the global descriptions for translations for an HR template
 
@@ -37,8 +38,8 @@ Role required: admin
 
     For details on how to how to configure an HR case or task template, see:
 
-    -   [Configure an HR case template](../task/configure-hr-case-template.md)
-    -   [Configure an HR task template](../task/configure-hr-task-template.md)
+    -   [Configure an HR case template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-case-template.md)
+    -   [Configure an HR task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-task-template.md)
 4.  To enable translations, make sure that the **Use global descriptions for translations** field is selected.
 
     When selected, the **Global short description** and **Global description** fields display.

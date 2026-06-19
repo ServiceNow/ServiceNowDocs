@@ -2,6 +2,7 @@
 title: Using Employee feedback collection AI agent
 description: As a manager, use the Employee feedback collection AI agent to collect feedback and track feedback requests. This agent recommends collaborators from Employee Profile, Growth Experiences apps, journeys from Employee Journey Management, and also suggests frequent collaborators from Microsoft Graph.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-feedback/employee-feedback-agent.html
 release: zurich
 product: Talent Feedback
 classification: talent-feedback
@@ -50,6 +51,6 @@ Employee feedback collection AI agent
 </td></tr></tbody>
 </table>Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 

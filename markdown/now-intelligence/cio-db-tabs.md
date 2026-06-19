@@ -2,6 +2,7 @@
 title: Chief Information Officer Dashboard tabs
 description: Organizing insights into these five pillars promotes CIO focus on both operational stability and long-term innovation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/cio-db-tabs.html
 release: zurich
 topic_type: reference
 last_updated: "2025-09-01"
@@ -44,7 +45,7 @@ Organizing insights into these five pillars promotes CIO focus on both operation
 
 ## Value tab
 
-![The visualizations on this tab address the question 'Are we hitting our value creation targets?'](../image/cio-db-value-tab.png)
+\[Omitted image "cio-db-value-tab.png"\] Alt text: The visualizations on this tab address the question 'Are we hitting our value creation targets?'
 
 -   **Purpose**
 
@@ -65,7 +66,7 @@ Organizing insights into these five pillars promotes CIO focus on both operation
 
 ## Operations tab
 
-![The visualizations on this tab address the question 'How is the infrastructure's and operation's health?'](../image/cio-db-ops-tab.png)
+\[Omitted image "cio-db-ops-tab.png"\] Alt text: The visualizations on this tab address the question 'How is the infrastructure's and operation's health?'
 
 -   **Purpose**
 
@@ -89,7 +90,7 @@ Organizing insights into these five pillars promotes CIO focus on both operation
 
 ## Security tab
 
-![The visualizations on this tab address the question 'Are we better protected today vs yesterday?'](../image/cio-db-security-tab.png)
+\[Omitted image "cio-db-security-tab.png"\] Alt text: The visualizations on this tab address the question 'Are we better protected today vs yesterday?'
 
 -   **Purpose**
 
@@ -108,7 +109,7 @@ Organizing insights into these five pillars promotes CIO focus on both operation
 
 ## Execution tab
 
-![The visualizations on this tab address the question 'Which projects/programs are at risk and why?'](../image/cio-db-execution-tab.png)
+\[Omitted image "cio-db-execution-tab.png"\] Alt text: The visualizations on this tab address the question 'Which projects/programs are at risk and why?'
 
 -   **Purpose**
 
@@ -130,7 +131,7 @@ Organizing insights into these five pillars promotes CIO focus on both operation
 
 ## Experience tab
 
-![The CIO dashboard's Experience tab addresses the question 'Are employees getting self-served and satisfied?'](../image/cio-db-experience-tab.png)
+\[Omitted image "cio-db-experience-tab.png"\] Alt text: The CIO dashboard's Experience tab addresses the question 'Are employees getting self-served and satisfied?'
 
 -   **Purpose**
 

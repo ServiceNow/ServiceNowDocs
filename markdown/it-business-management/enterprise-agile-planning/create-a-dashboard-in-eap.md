@@ -2,6 +2,7 @@
 title: Create a dashboard in EAP
 description: Create a dashboard to track key metrics for your custom Agile configuration by creating a dashboard or duplicating and editing a default EAP dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/enterprise-agile-planning/create-a-dashboard-in-eap.html
 release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -17,7 +18,7 @@ Create a dashboard to track key metrics for your custom Agile configuration by c
 
 ## Before you begin
 
-[Create or update a configuration in EAP](create-eap-configuration.md)
+[Create or update a configuration in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/create-eap-configuration.md)
 
 Role required: sn\_apw\_advanced.eap\_admin
 
@@ -27,21 +28,21 @@ Role required: sn\_apw\_advanced.eap\_admin
 
 2.  Create a dashboard or modify one of the default dashboards for your Agile configuration.
 
-    -   To create a dashboard, select **Create new dashboard**. For more information, see [Create a dashboard with the in-line editor](https://www.servicenow.com/docs/access?context=create-db-in-ac&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
-    -   To modify an existing dashboard, create a copy of it so that you can the widgets that you need. For more information, see [Duplicate a Platform Analytics dashboard](https://www.servicenow.com/docs/access?context=duplicate-db&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+    -   To create a dashboard, select **Create new dashboard**. For more information, see .
+    -   To modify an existing dashboard, create a copy of it so that you can the widgets that you need. For more information, see .
 
         **Note:** The **Duplicate** option is available only for an Inline dashboard.
 
 3.  Add visualizations and widgets.
 
-    For more information, see step 6 through 10 in [Create a dashboard with the in-line editor](https://www.servicenow.com/docs/access?context=create-db-in-ac&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+    For more information, see step 6 through 10 in .
 
-    For information about the default indicators, see [Enterprise Agile Planning Indicators](../reference/eap-indicators.md).
+    For information about the default indicators, see [Enterprise Agile Planning Indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/eap-indicators.md).
 
 4.  Select **Save**.
 
 
 ## What to do next
 
-[Add a tag to the EAP dashboard](add-tag-to-the-eap-dashboard.md).
+[Add a tag to the EAP dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/add-tag-to-the-eap-dashboard.md).
 

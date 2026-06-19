@@ -2,6 +2,7 @@
 title: Configure a widget for the financial metrics of a demand
 description: Configure a widget to view and track the financial metrics of a demand on the Demand Financials page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/demand-management/configure-widget-demand-financials.html
 release: zurich
 product: Demand Management
 classification: demand-management
@@ -27,19 +28,19 @@ Role required: pps\_admin
 
 3.  On the Widget form, fill in the fields.
 
-    For a description of the field names, see [Widget form](../reference/widget-form.md).
+    For a description of the field names, see [Widget form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/widget-form.md).
 
 
 ## What to do next
 
-[Associate the widget to the Demand table.](associate-widget-to-demand.md)
+[Associate the widget to the Demand table.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/associate-widget-to-demand.md)
 
--   **[Associate a widget to the Demand table](associate-widget-to-demand.md)**  
+-   **[Associate a widget to the Demand table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/associate-widget-to-demand.md)**  
 After you configure a widget, associate it with the Demand table to show the financial data of a demand.
 
-**Parent Topic:**[Set up Demand Management](../concept/c_SettingUpDemandManagement.md)
+**Parent Topic:**[Set up Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/c_SettingUpDemandManagement.md)
 
-**Previous topic:**[View an assessment metric category](../../../administer/assessments/task/t_CreateAnAssessmentCategory.md)
+**Previous topic:**[View an assessment metric category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/t_CreateAnAssessmentCategory.md)
 
-**Next topic:**[Associate a widget to the Demand table](associate-widget-to-demand.md)
+**Next topic:**[Associate a widget to the Demand table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/associate-widget-to-demand.md)
 

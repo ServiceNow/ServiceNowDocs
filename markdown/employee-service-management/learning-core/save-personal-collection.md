@@ -2,6 +2,7 @@
 title: Save courses to your personal collection
 description: Save courses of interest to your personal collection for easy access and to plan your learning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/save-personal-collection.html
 release: zurich
 product: Learning Core
 classification: learning-core
@@ -17,7 +18,7 @@ Save courses of interest to your personal collection for easy access and to plan
 
 ## Before you begin
 
-Create a personal course collection. For more information, see [Create a personal course collection](create-personal-collection.md).
+Create a personal course collection. For more information, see [Create a personal course collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/create-personal-collection.md).
 
 Role required: user
 
@@ -25,12 +26,12 @@ Role required: user
 
 1.  Navigate to **All** &gt; **Employee Center** &gt; **My Learning**.
 
-2.  Select the context menu icon ![Icon with three parallel lines stacked one over the other.](../../../administer/tablet-mobile-ui/image/context-menu-icon.png) on any course displayed on the screen.
+2.  Select the context menu icon \[Omitted image "context-menu-icon.png"\] Alt text: Icon with three parallel lines stacked one over the other. on any course displayed on the screen.
 
 3.  Select the collection that you want to save the course to.
 
 4.  Select **Apply**.
 
-    **Note:** If you haven’t yet created a personal collection, see [Create a personal course collection](create-personal-collection.md).
+    **Note:** If you haven’t yet created a personal collection, see [Create a personal course collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/create-personal-collection.md).
 
 

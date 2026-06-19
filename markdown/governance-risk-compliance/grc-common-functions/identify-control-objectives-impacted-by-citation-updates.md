@@ -2,6 +2,7 @@
 title: Use the control objective impact analyzer skill to identify control objectives
 description: Identify and manage control objectives impacted by the latest citation updates by using the control objective impact analyzer generative AI skill.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/identify-control-objectives-impacted-by-citation-updates.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -22,13 +23,13 @@ Role required: sn\_grc\_sharegenai.compliance\_library\_gen\_ai\_user
 
 Verify that the control objective impact analyzer skill is activated.
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Compliance Workspace**.
 
-2.  Select the List icon ![](../../grc-compliance-case-mgmt/image/list-icon.png).
+2.  Select the \[Omitted image "list-icon.png"\] Alt text: List icon icon.
 
 3.  Select **Compliance library** &gt; **Citations**.
 

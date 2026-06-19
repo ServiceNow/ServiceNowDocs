@@ -2,6 +2,7 @@
 title: Enable the GRC Approval Configurator
 description: Enable the GRC Approval Configurator so that you can manage policy exceptions and extensions with granular, multi-level approval flows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/enable-grc-approval-configurator.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -28,5 +29,5 @@ Role required: sn\_compliance.manager
 3.  Select **Save**.
 
 
-**Parent Topic:**[Define policy exceptions and extensions with the GRC Approval Configurator](../concept/define-policy-exceptions-and-extensions-with-the-grc-approval-configurator.md)
+**Parent Topic:**[Define policy exceptions and extensions with the GRC Approval Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

@@ -2,6 +2,7 @@
 title: Service Graph Connector for Microsoft Defender Endpoint properties
 description: Service Graph Connector for Microsoft Defender Endpoint properties control the behavior of the connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-msdefender-props.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors

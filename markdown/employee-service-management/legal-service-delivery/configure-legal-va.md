@@ -2,6 +2,7 @@
 title: Configure Virtual Agent conversation topics for legal services
 description: Create or modify Virtual Agent conversation topics for legal services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/configure-legal-va.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -21,9 +22,9 @@ Role required: admin or virtual\_agent\_admin
 
 ## About this task
 
-The Legal Virtual Agent Conversations application installs various [virtual agent conversation topics](../concept/legal-va-conversations.md#section_legal_va_convo) for seeking legal services.
+The Legal Virtual Agent Conversations application installs various [virtual agent conversation topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/legal-va-conversations.md) for seeking legal services.
 
-These virtual agent conversation topics are built using ServiceNow Virtual Agent Designer, so make sure you’re familiar with the [Virtual Agent Designer](https://www.servicenow.com/docs/access?context=conversation-designer-virtual-agent&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US) basics.
+These virtual agent conversation topics are built using ServiceNow Virtual Agent Designer, so make sure you’re familiar with the Virtual Agent Designer basics.
 
 ## Procedure
 
@@ -33,15 +34,15 @@ These virtual agent conversation topics are built using ServiceNow Virtual Agent
 
     **Note:** All conversation topics for legal services are grouped under the Legal Service Delivery category.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d736386e114">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d279052e114">
 
 Options
 
-</th><th align="left" id="d736386e117">
+</th><th align="left" id="d279052e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d736386e123">
+</th></tr></thead><tbody><tr><td id="d279052e123">
 
 **Create a new virtual agent conversation topic**
 
@@ -49,9 +50,9 @@ Steps
 
 1.  In the Virtual Agent Designer page, click **+ Create.**.
 2.  On the form, fill in the fields.
-For more information on creating a conversation topic and description of fields on the form, see [Create a Virtual Agent topic](https://www.servicenow.com/docs/access?context=create-virtual-agent-topic&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+For more information on creating a conversation topic and description of fields on the form, see Create a Virtual Agent topic.
 
-</td></tr><tr><td id="d736386e148">
+</td></tr><tr><td id="d279052e148">
 
 **Customize a predefined conversation topic**
 
@@ -62,7 +63,7 @@ For more information on creating a conversation topic and description of fields 
 
 **Tip:** You can also duplicate the topic and then make the required changes in the newly created topic. To duplicate the topic, click **Duplicate**.
 
-For more information, see [duplicate the topic](https://www.servicenow.com/docs/access?context=duplicate-virtual-agent-topic&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+For more information, see duplicate the topic.
 
 3.  \(Optional\) Preview and test the topic in a chat test window by clicking **Test**.
 
@@ -70,8 +71,8 @@ For more information, see [duplicate the topic](https://www.servicenow.com/docs/
 </td></tr></tbody>
 </table>3.  Click **Publish** to make the conversation topic available to employees on the Virtual Agent client.
 
-    For more information, see [Publish a Virtual Agent topic](https://www.servicenow.com/docs/access?context=publish-virtual-agent-topic&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+    For more information, see Publish a Virtual Agent topic.
 
 
-**Parent Topic:**[Legal Virtual Agent Conversations](../concept/legal-va-conversations.md)
+**Parent Topic:**[Legal Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/legal-va-conversations.md)
 

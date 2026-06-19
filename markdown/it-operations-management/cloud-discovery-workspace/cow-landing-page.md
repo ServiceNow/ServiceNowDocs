@@ -2,6 +2,7 @@
 title: Cloud Discovery Workspace
 description: Cloud Discovery Workspace offers a comprehensive solution to manage the cloud operations of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-discovery-workspace/cow-landing-page.html
 release: zurich
 product: Cloud Discovery Workspace
 classification: cloud-discovery-workspace
@@ -23,13 +24,13 @@ Choose one of these tiles to get started.
 
 <table id="table_kqk_ttx_r5b" class="nav-card"><tbody><tr><td>
 
-[Install![](../../../reuse/icons/brand-icons/bus-database.svg)](../task/install-cloud-ops-wrksp.md)
+[Install\[Omitted image "bus-database.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-discovery-workspace/install-cloud-ops-wrksp.md)
 
  Install Cloud Discovery Workspace
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-gender-neutral-leader-c-suite.svg)](cloud-ops-wrksp-dashboard.md)
+[Use\[Omitted image "bus-gender-neutral-leader-c-suite.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-discovery-workspace/cloud-ops-wrksp-dashboard.md)
 
  Use Cloud Discovery Workspace
 

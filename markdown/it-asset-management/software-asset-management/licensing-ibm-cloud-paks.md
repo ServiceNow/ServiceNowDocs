@@ -2,6 +2,7 @@
 title: Licensing for IBM Cloud Paks
 description: When you integrate the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Authorized SAM Provider \(IASP\) Program, the Software Asset Management application supports licensing rules for IBM Cloud Paks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/licensing-ibm-cloud-paks.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -30,7 +31,7 @@ In the following example, a user wants to deploy various Bundled Programs as par
 
 Based on the conversion ratios and the number of rights that are required for each Bundled Program, you must license the Cloud Pak using a total of 100 rights.
 
-See [IBM virtual processor core \(VPC\) licenses](ibm-virtual-processor-core-licensing.md) for more information on VPC licensing.
+See [IBM virtual processor core \(VPC\) licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/ibm-virtual-processor-core-licensing.md) for more information on VPC licensing.
 
-**Parent Topic:**[Authorized SAM Provider \(ASP\) integrations for IBM](ibm-asp-integration.md)
+**Parent Topic:**[Authorized SAM Provider \(ASP\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/ibm-asp-integration.md)
 

@@ -2,6 +2,7 @@
 title: Create a catalog request in Agent Workspace
 description: You can create a catalog request in Agent Workspace to join the Service Catalog flow from a different flow. For example, from an incident flow, you can create a request, and associate the request with the incident. It helps you in tracking the requests associated with an incident and vice versa.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/request-management/create-request-workspace.html
 release: zurich
 product: Request Management
 classification: request-management
@@ -62,15 +63,15 @@ You can create a catalog request in Agent Workspace to join the Service Catalog 
 
 1.  Initiate a catalog request using any of the following options.
 
-<table id="choicetable_khj_fll_zdb"><thead><tr><th align="left" id="d202538e121">
+<table id="choicetable_khj_fll_zdb"><thead><tr><th align="left" id="d198203e121">
 
 Option
 
-</th><th align="left" id="d202538e124">
+</th><th align="left" id="d198203e124">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d202538e130">
+</th></tr></thead><tbody><tr><td id="d198203e130">
 
 **From an incident using the Create Request UI action**
 
@@ -82,7 +83,7 @@ Steps
 
 **Note:** You can only order items from the catalogs that are accessible.
 
-</td></tr><tr><td id="d202538e162">
+</td></tr><tr><td id="d198203e162">
 
 **From an incident using Agent Assist**
 
@@ -94,7 +95,7 @@ Steps
 4.  Click **Order**.
 
 
-</td></tr><tr><td id="d202538e198">
+</td></tr><tr><td id="d198203e198">
 
 **From an interaction record**
 
@@ -126,5 +127,5 @@ Steps
 6.  To view the created request, click **View Details**.
 
 
-**Parent Topic:**[Using Request Management](../../request-management/concept/using-request-management.md)
+**Parent Topic:**[Using Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/request-management/using-request-management.md)
 

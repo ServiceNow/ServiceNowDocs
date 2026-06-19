@@ -2,6 +2,7 @@
 title: Cisco Meraki installed integrations
 description: Use these predefined system integrations to monitor your Cisco Meraki devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-service-ops/telecommunications-service-operations-management/meraki-installed-integrations.html
 release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management

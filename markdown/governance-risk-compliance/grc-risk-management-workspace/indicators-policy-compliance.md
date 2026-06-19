@@ -2,6 +2,7 @@
 title: GRC Policy and Compliance Management plugin indicators
 description: The GRC Policy and Compliance Management plugin contains various indicators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/indicators-policy-compliance.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -58,5 +59,5 @@ The Policy and Compliance Management plugin includes the following indicators:
     Number of active controls.
 
 
-**Parent Topic:**[Operational Risk Management dashboard](operational-risk-dashboard.md)
+**Parent Topic:**[Operational Risk Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/operational-risk-dashboard.md)
 

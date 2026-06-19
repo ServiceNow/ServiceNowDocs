@@ -2,6 +2,7 @@
 title: RTETransformer - Scoped
 description: The RTETransformer API provides a method to transform and store an array of messages into a record in the associated ServiceNow instance based on a provided extract, transform, and load \(ETL\) definition.Instantiates an RTETransformer object.Transforms and stores an array of messages into a record in the associated ServiceNow instance based on a provided extract, transform, and load \(ETL\) definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/RTETransScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -19,9 +20,9 @@ For example, you can use this API when you have JSON payload\(s\) that contain u
 
 Use the `sn_impex` namespace when accessing this API.
 
-For additional information, see [Define Robust Transform Engine operations](https://www.servicenow.com/docs/access?context=define-rte-operations&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+For additional information, see Define Robust Transform Engine operations.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## RTETransformer - rteTransform\(String transformDefinitionId, Boolean verboseLogging, String source, Number batchSize\)
 
@@ -49,7 +50,7 @@ String
 
 </td><td>
 
-Sys\_id of the extract, transform, and load \(ETL\) definition to use for the transform.For information on creating an ETL, see [Create Extract Transform Load \(ETL\) definitions](https://www.servicenow.com/docs/access?context=create-etl-definitions&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+Sys\_id of the extract, transform, and load \(ETL\) definition to use for the transform.For information on creating an ETL, see Create Extract Transform Load \(ETL\) definitions.
 
 Table: ETL Definitions \[sys\_rte\_eb\_etl\_definition\]
 

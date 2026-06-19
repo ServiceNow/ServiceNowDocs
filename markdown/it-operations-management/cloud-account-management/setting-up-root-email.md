@@ -2,13 +2,14 @@
 title: Setting up a root email
 description: The app creates accounts with a unique request ID and root email, promoting distinct emails for each account and simplifying management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/setting-up-root-email.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Setting up AWS cloud, Configuring cloud providers, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Setting up AWS cloud, Configuring cloud providers, Configuring Cloud Account Management, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Setting up a root email

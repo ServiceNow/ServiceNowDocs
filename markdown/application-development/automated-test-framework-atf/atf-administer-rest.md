@@ -2,6 +2,7 @@
 title: Administering REST test step configurations
 description: Set request and response payload sizes, filter request and response headers, and create basic auth profiles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/atf-administer-rest.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -15,12 +16,12 @@ breadcrumb: [Administer, Automated Test Framework \(ATF\), Testing and debugging
 
 Set request and response payload sizes, filter request and response headers, and create basic auth profiles.
 
--   **[Create a basic auth profile using the Automated Test Framework](../task/atf-create-basic-auth-profile.md)**  
+-   **[Create a basic auth profile using the Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-create-basic-auth-profile.md)**  
 Create basic auth profiles to specify basic authentication credentials for Send Request - Inbound test steps.
--   **[Filter REST request and response headers](atf-filter-rest-headers.md)**  
+-   **[Filter REST request and response headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-filter-rest-headers.md)**  
 You can add a list of REST request and response headers that are not to be saved in step-result records. You can filter headers that might contain authentication credentials or other sensitive information. The phrase "Header redacted for security" is saved instead.
--   **[Automated Test Framework REST properties](../reference/atf-rest-properties.md)**  
+-   **[Automated Test Framework REST properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-rest-properties.md)**  
 These properties are installed with ATF REST.
 
-**Parent Topic:**[Administering the Automated Test Framework \(ATF\)](atf-admin-overview.md)
+**Parent Topic:**[Administering the Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-admin-overview.md)
 

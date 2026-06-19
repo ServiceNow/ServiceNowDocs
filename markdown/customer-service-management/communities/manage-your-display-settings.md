@@ -2,6 +2,7 @@
 title: Edit your community profile display settings
 description: Edit your display settings to determine who can view each profile section.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/communities/manage-your-display-settings.html
 release: zurich
 product: Communities
 classification: communities
@@ -81,5 +82,5 @@ Visible to users who are following your profile.
 </table>5.  Click **Save Settings**.
 
 
-**Parent Topic:**[Use a community profile](community-profile.md)
+**Parent Topic:**[Use a community profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/community-profile.md)
 

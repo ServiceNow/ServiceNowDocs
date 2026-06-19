@@ -2,13 +2,14 @@
 title: Configure Agent Chat for Source-to-Pay Workspace
 description: Use Agent Chat Settings to configure Agent Chat for Source-to-Pay Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/configure-agent-chat-spo.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Setting up Advanced Work Assignment for Source-to-Pay Operations, Advanced Work Assignment for Source-to-Pay Operations, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Setting up Advanced Work Assignment, Advanced Work Assignment Source-to-Pay Operations, Configure Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Configure Agent Chat for Source-to-Pay Workspace
@@ -29,10 +30,10 @@ Role required: admin
 
     The Quick Action Toolbar Controls is displayed.
 
-    Add or update the quick action shortcuts for live agents in Agent Chat. For more information about configuring the toolbar controls, see [Setting up quick action toolbar controls](https://www.servicenow.com/docs/access?context=ci-quick-actions-overview&version=zurich&pubname=zurich-conversational-interfaces&section=ac-configure-qa-toolbar-controls&ft:locale=en-US).
+    Add or update the quick action shortcuts for live agents in Agent Chat. For more information about configuring the toolbar controls, see .
 
 4.  Select **Save**.
 
 
-**Parent Topic:**[Setting up Advanced Work Assignment for Source-to-Pay Operations](../concept/awa-spo-setup.md)
+**Parent Topic:**[Setting up Advanced Work Assignment for Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/awa-spo-setup.md)
 

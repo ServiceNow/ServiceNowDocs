@@ -2,7 +2,10 @@
 title: Proactive Code Check scan suite matrix for the Impact Store Application
 description: Refer to the Proactive Code Check \(PCC\) scan suite matrix for details on the checks performed during a PCC scan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/proactive-code-check-scan-suite.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 15

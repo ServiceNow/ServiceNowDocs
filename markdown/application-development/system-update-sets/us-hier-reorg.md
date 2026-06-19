@@ -2,6 +2,7 @@
 title: Reorganize a batch of update sets
 description: You can remove an individual update set from the batch or change its parent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/system-update-sets/us-hier-reorg.html
 release: zurich
 product: System Update Sets
 classification: system-update-sets
@@ -36,7 +37,7 @@ Role required: admin
 
 ## What to do next
 
-If the system property **glide.update\_set.auto\_preview** is set to **true**, the system automatically starts the preview process after the record is updated with a new parent. If this property is **false**, you must start the process manually. For more information on the preview process, see [Preview a batch of update sets](us-hier-preview.md) .
+If the system property **glide.update\_set.auto\_preview** is set to **true**, the system automatically starts the preview process after the record is updated with a new parent. If this property is **false**, you must start the process manually. For more information on the preview process, see [Preview a batch of update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/us-hier-preview.md) .
 
-**Parent Topic:**[Working with batched update sets](../concept/us-hier-overview.md)
+**Parent Topic:**[Working with batched update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/us-hier-overview.md)
 

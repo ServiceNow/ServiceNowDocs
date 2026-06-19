@@ -2,6 +2,7 @@
 title: Activate Learning Core flows
 description: Activate the flows that run on a schedule basis to pull learning course items from the Cornerstone OnDemand, Udemy, Pluralsight, Sumtotal , and Saba applications into the ServiceNow application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/flows-lp.html
 release: zurich
 product: Learning Core
 classification: learning-core
@@ -41,7 +42,7 @@ Trigger Cornerstone Learning Sync
 
 </td><td>
 
-By default, runs on a scheduled basis to pull course items from Cornerstone Ondemand into a ServiceNow application. **Important:** The flow does not run if you do not activate the Cornerstone Ondemand record in [Learning System Configuration](create-source-ln.md).
+By default, runs on a scheduled basis to pull course items from Cornerstone Ondemand into a ServiceNow application. **Important:** The flow does not run if you do not activate the Cornerstone Ondemand record in [Learning System Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/create-source-ln.md).
 
 </td></tr><tr><td>
 
@@ -49,7 +50,7 @@ Trigger Pluralsight Learning Sync
 
 </td><td>
 
-By default, runs on a scheduled basis to pull course items from Pluralsight into a ServiceNow application.**Important:** The flow does not run if you do not activate the Pluralsight record in [Learning System Configuration](create-source-ln.md).
+By default, runs on a scheduled basis to pull course items from Pluralsight into a ServiceNow application.**Important:** The flow does not run if you do not activate the Pluralsight record in [Learning System Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/create-source-ln.md).
 
 </td></tr><tr><td>
 
@@ -57,7 +58,7 @@ Trigger Udemy Learning Sync
 
 </td><td>
 
-By default, runs on a scheduled basis to pull course items from Udemy into a ServiceNow application. **Important:** The flow does not run if you do not activate the Udemy record in [Learning System Configuration](create-source-ln.md).
+By default, runs on a scheduled basis to pull course items from Udemy into a ServiceNow application. **Important:** The flow does not run if you do not activate the Udemy record in [Learning System Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/create-source-ln.md).
 
 </td></tr><tr><td>
 
@@ -65,7 +66,7 @@ Trigger Sumtotal Learning Sync
 
 </td><td>
 
-By default, runs on a scheduled basis to pull course items from Sumtotal into a ServiceNow application. **Important:** The flow does not run if you do not activate the Sumtotal record in [Learning System Configuration](create-source-ln.md).
+By default, runs on a scheduled basis to pull course items from Sumtotal into a ServiceNow application. **Important:** The flow does not run if you do not activate the Sumtotal record in [Learning System Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/create-source-ln.md).
 
 </td></tr><tr><td>
 
@@ -73,9 +74,9 @@ Trigger Saba Learning Sync
 
 </td><td>
 
-By default, runs on a scheduled basis to pull course items from the Saba system into a ServiceNow application. **Important:** The flow does not run if you do not activate the Saba record in [Learning System Configuration](create-source-ln.md).
+By default, runs on a scheduled basis to pull course items from the Saba system into a ServiceNow application. **Important:** The flow does not run if you do not activate the Saba record in [Learning System Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/create-source-ln.md).
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Integrating Learning Core with third-party learning management systems](setup-learning-third-party-1.md)
+**Parent Topic:**[Integrating Learning Core with third-party learning management systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/setup-learning-third-party-1.md)
 

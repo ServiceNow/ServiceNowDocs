@@ -2,6 +2,7 @@
 title: CSM Walk-up Experience portal security and access
 description: Security is built into the application to help prevent end-user facing devices at the Walk-up Experience onsite portal from offering elevated role privileges to users. The Walk-up Experience onsite portal is accessed by an account containing only the sn\_walkup.walkup\_login role. The sn\_walkup.walkup\_login role contains the snc\_external role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-security-portal.html
 release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

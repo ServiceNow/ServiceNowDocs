@@ -2,6 +2,7 @@
 title: Managing spans
 description: You can view span details, focus and zoom spans, and edit spans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/time-configuration/manage-spans.html
 release: zurich
 product: Time Configuration
 classification: time-configuration
@@ -23,7 +24,7 @@ If the left navigation pane is visible, the span label is visible in the left pa
 
 If the left pane is hidden, point the cursor over a span to view the tooltip.
 
-![Timeline showing list of high priority incidents](../image/TimelineTooltip.png "Timeline Tooltip")
+\[Omitted image "TimelineTooltip.png"\] Alt text: Timeline showing list of high priority incidents
 
 ## Span focus and zoom
 
@@ -40,11 +41,11 @@ If the timeline has been configured for editing \(horizontal moving, start and e
 
 Move the start or end dates to change the duration of the task.
 
-![Timeline showing the edited span to adjust the start date](../image/TimelineDragStart.png "Timeline Drag Start")
+\[Omitted image "TimelineDragStart.png"\] Alt text: Timeline showing the edited span to adjust the start date
 
 Move the entire span horizontally to adjust the start and end dates but not the duration.
 
-![Timeline showing a span that has been dragged horizontally to adjust the start and end dates](../image/TimelineDragSpan.png "Timeline Drag Span")
+\[Omitted image "TimelineDragSpan.png"\] Alt text: Timeline showing a span that has been dragged horizontally to adjust the start and end dates
 
-**Parent Topic:**[Timelines](c_UsingTimelines.md)
+**Parent Topic:**[Timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/c_UsingTimelines.md)
 

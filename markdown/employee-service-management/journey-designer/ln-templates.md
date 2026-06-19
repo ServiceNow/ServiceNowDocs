@@ -2,6 +2,7 @@
 title: Create a learning template
 description: Create a learning template to simplify the process of creating learning tasks by populating fields automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/ln-templates.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -93,5 +94,5 @@ In the **Assign to** field, specify the user to whom the learning task is applic
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Initiate a learning task from a lifecycle event](ln-task-pst.md)
+**Parent Topic:**[Initiate a learning task from a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/ln-task-pst.md)
 

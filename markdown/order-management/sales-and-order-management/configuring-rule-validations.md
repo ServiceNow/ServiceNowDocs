@@ -2,6 +2,7 @@
 title: Configuring matrix validation rules
 description: As a product catalog admin or pricing admin, you can manage the system-defined matrix validation rules that automatically check the mandatory rule inputs or outputs in matrix decision tables. You can also define your own custom validations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configuring-rule-validations.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -27,7 +28,7 @@ Some system-defined validation rules are applicable to all decision tables, whil
 -   MandatoryPriceListForTypeExistingPriceList: Checks the price list type.
 -   ProductOfferCharsWithoutProdOffer: Checks for product offer characteristics without product offering.
 
-![System-defined rule validations provided with the Product Catalog Eligibility Matrix](../image/matrix-rule-validation.png "Rule validations in Product Offering Category Eligibility Matrix")
+\[Omitted image "matrix-rule-validation.png"\] Alt text: System-defined rule validations provided with the Product Catalog Eligibility Matrix
 
 From the Details tab for a matrix, you can also run rule validations for the entire matrix by selecting the **More actions** icon and selecting **Validate rule**.
 

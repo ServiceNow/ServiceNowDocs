@@ -2,6 +2,7 @@
 title: Assign an HR skill to a group
 description: When you assign skills to HR groups, all members of the group inherit the skills and any child skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/t\_AssignHRSkillsToGroups.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -35,8 +36,8 @@ Role required: sn\_hr\_core.admin
 
     Messages are displayed to notify you of the skills that were assigned to each group member.
 
-    ![Group skill assignment messages](../image/MessagesForGroupSkillAssignment.png "Messages displayed for group skill assignment")
+    \[Omitted image "MessagesForGroupSkillAssignment.png"\] Alt text: Group skill assignment messages
 
 
-**Parent Topic:**[HR skills management](../concept/c_HRSkillsManagement.md)
+**Parent Topic:**[HR skills management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRSkillsManagement.md)
 

@@ -2,6 +2,7 @@
 title: Assign testers from the Visual Task Board
 description: Assign the test case to a tester from the Visual Task Board \(VTB\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/test-management/t\_AssignTestersFromTheVTB.html
 release: zurich
 product: Test Management
 classification: test-management
@@ -29,7 +30,7 @@ Role required: tm\_test\_manager or tm\_tester
 
     The VTB displays lanes for test case statuses. A card for each test case appears in the appropriate lane based on its status. Test cases that are not assigned to any user display Unassigned on their cards.
 
-    ![Unassigned test case card on the Test Plan Visual task Board.](../image/unassigned-test-case.png "Unassigned test case card on the Test Plan Visual task Board")
+    \[Omitted image "unassigned-test-case.png"\] Alt text: Unassigned test case card on the Test Plan Visual task Board.
 
 4.  Click the Unassigned card to open the test case form.
 
@@ -37,8 +38,8 @@ Role required: tm\_test\_manager or tm\_tester
 
 6.  Click **Add Primary Assignee** and select a user.
 
-7.  Close the card by clicking the close icon \(![Close icon.](../image/close-icon.png)\).
+7.  Close the card by clicking the close icon \(\[Omitted image "close-icon.png"\] Alt text: Close icon.\).
 
 
-**Parent Topic:**[Assigning testers to test cases](../concept/assigning-testers-to-test-cases.md)
+**Parent Topic:**[Assigning testers to test cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/assigning-testers-to-test-cases.md)
 

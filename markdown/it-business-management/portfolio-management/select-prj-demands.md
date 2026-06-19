@@ -2,6 +2,7 @@
 title: Select demands and projects for portfolio planning
 description: After you create a planning scenario, select the demands and projects to include in budget planning. You can view all the demands and projects for the selected fiscal year or planning window with their planned cost and priorities to finalize them for execution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-management/select-prj-demands.html
 release: zurich
 product: Portfolio Management
 classification: portfolio-management
@@ -17,7 +18,7 @@ After you create a planning scenario, select the demands and projects to include
 
 ## Before you begin
 
-You should have at least one planning scenario. For more information, see [Create planning scenarios](create-scenarios.md).
+You should have at least one planning scenario. For more information, see [Create planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-management/create-scenarios.md).
 
 Role required: it\_portfolio\_manager
 
@@ -31,15 +32,15 @@ You can perform a what-if analysis by including or excluding demands or projects
 
 1.  Navigate to Portfolio Planning Workbench from either of two starting points.
 
-<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d147412e84">
+<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d142659e84">
 
 Location
 
-</th><th align="left" id="d147412e87">
+</th><th align="left" id="d142659e87">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d147412e93">
+</th></tr></thead><tbody><tr><td id="d142659e93">
 
 **From application navigator**
 
@@ -49,7 +50,7 @@ Steps
 2.  From the **Portfolio** choice list, select the portfolio that you want to perform the planning for.
 
 
-</td></tr><tr><td id="d147412e129">
+</td></tr><tr><td id="d142659e129">
 
 **From the portfolio list**
 
@@ -67,25 +68,25 @@ Steps
 
 3.  Compare and evaluate the relative standing of demands using the **Bubble Chart** tab.
 
-    Right-click a demand and select **Select for execution** from the context menu to include a demand in portfolio planning. For more information, see [Demand workbench bubble chart](../../planning-and-policy/concept/c_DemandWorkbenchBubbleChart.md). You can search for specific demands by applying filters using the Filter\( ![Filter icon to filter for demands](../image/filter-timeline-bubble.png)\) icon.
+    Right-click a demand and select **Select for execution** from the context menu to include a demand in portfolio planning. For more information, see [Demand workbench bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/c_DemandWorkbenchBubbleChart.md). You can search for specific demands by applying filters using the Filter\( \[Omitted image "filter-timeline-bubble.png"\] Alt text: Filter icon to filter for demands\) icon.
 
     **Note:** The **Bubble Chart** tab is not available for Multi-year Resource Capacity Based Planning configuration.
 
 4.  Include or exclude demands and projects from planning in the **Timeline View** tab by selecting or clearing the check boxes next to each project or demand.
 
-    You can search for specific demands and projects in the timeline by applying filters using the Filter\(![Filter icon to filter for projects or demands](../image/filter-timeline-bubble.png)\) icon.
+    You can search for specific demands and projects in the timeline by applying filters using the Filter\(\[Omitted image "filter-timeline-bubble.png"\] Alt text: Filter icon to filter for projects or demands\) icon.
 
     The number of selected project and demands is updated in the **Selected Items** section of the **Overview** tab.
 
 5.  Review the external dependencies between the selected projects in your portfolio.
 
-    For more information, see [Review external dependencies between projects](sp-review-ext-dependencies-between-prj.md).
+    For more information, see [Review external dependencies between projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-management/sp-review-ext-dependencies-between-prj.md).
 
 6.  Review the information in the Overview section on the right, and the **Resources** tab to evaluate and adjust your selection of the demands and projects to be included in the plan.
 
     Review the following sections in the **Overview** tab:
 
-    -   Total budget versus the targets that you entered in the **Set Target** stage in the **Budget vs. Target** section for annual type planning. If the total budget is more than the target cost, an exception icon \(![exception icon](../image/exception_icon_1.png)\) is shown with the total planned cost.
+    -   Total budget versus the targets that you entered in the **Set Target** stage in the **Budget vs. Target** section for annual type planning. If the total budget is more than the target cost, an exception icon \(\[Omitted image "exception\_icon\_1.png"\] Alt text: exception icon\) is shown with the total planned cost.
     -   Total planned cost for all the projects and demands for multi-year type planning in the **Total Planned Cost** section.
     -   Potential benefit amount that would accrue on execution of the selected demands and projects in the **Benefit Amount** section.
 
@@ -99,11 +100,11 @@ Steps
 
     The following image shows an example of how the portfolio information is displayed in the Overview section for annual type planning.
 
-    ![Overview tab in annual type planning](../image/overview-annual.png)
+    \[Omitted image "overview-annual.png"\] Alt text: Overview tab in annual type planning
 
     The following image shows an example of how the portfolio information is displayed in the Overview section for multi-year type planning.
 
-    ![Overview tab for multi-year type planning](../image/overview-multi.png)
+    \[Omitted image "overview-multi.png"\] Alt text: Overview tab for multi-year type planning
 
     Review the following sections of the **Resources** tab:
 
@@ -113,28 +114,28 @@ Steps
 
     The following image shows an example of how the resource information is displayed in the heat map.
 
-    ![Heat map of % Utilization](../image/percent_utilization.png)
+    \[Omitted image "percent\_utilization.png"\] Alt text: Heat map of % Utilization
 
     **Tip:** To bring the planned cost within the target budget and the resource utilization within 100%, consider deselecting a few low-priority demands or projects. Deselected demands and projects could then be moved over to a different fiscal period
 
 7.  Review the capex and opex budget for individual projects and demands directly using **Capex Budget** and **Opex Budget** columns and revise it if necessary.
 
-    **Note:** Click the Show or hide columns \(![Show or hide columns in Gantt icon](../image/show_hide_columns.png)\) in the **Timeline View** tab and add the **Capex Budget** and **Opex Budget** columns if these columns are not visible.
+    **Note:** Click the Show or hide columns \(\[Omitted image "show\_hide\_columns.png"\] Alt text: Show or hide columns in Gantt icon\) in the **Timeline View** tab and add the **Capex Budget** and **Opex Budget** columns if these columns are not visible.
 
-8.  Update the name and short description by clicking the edit icon \(![Edit scenario icon](../image/edit_scenario-details.png)\) and making the modifications.
+8.  Update the name and short description by clicking the edit icon \(\[Omitted image "edit\_scenario-details.png"\] Alt text: Edit scenario icon\) and making the modifications.
 
-9.  Delete the scenario by clicking the delete icon \(![Delete scenario icon](../image/delete_scenario.png)\).
+9.  Delete the scenario by clicking the delete icon \(\[Omitted image "delete\_scenario.png"\] Alt text: Delete scenario icon\).
 
 10. Convert the selected scenario to become the current plan by clicking **Confirm**.
 
 11. Create more planning scenarios to compare them.
 
-12. Manually refresh the cost and resource widgets after a demand or a project is selected or cleared for execution by clicking the Refresh icon![Refresh button](../image/refresh_icon.png)\).
+12. Manually refresh the cost and resource widgets after a demand or a project is selected or cleared for execution by clicking the Refresh icon\[Omitted image "refresh\_icon.png"\] Alt text: Refresh button\).
 
 
 ## What to do next
 
-Compare planning scenarios to analyze different combinations of projects and demands and select a scenario that best aligns with your organizational goals. For more information, see [Compare planning scenarios](compare-scenarios.md).
+Compare planning scenarios to analyze different combinations of projects and demands and select a scenario that best aligns with your organizational goals. For more information, see [Compare planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-management/compare-scenarios.md).
 
-**Parent Topic:**[Create planning scenarios](create-scenarios.md)
+**Parent Topic:**[Create planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-management/create-scenarios.md)
 

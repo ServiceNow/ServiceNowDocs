@@ -2,6 +2,7 @@
 title: Requesting and approving an exception for a remediation task
 description: You can request to defer the remediation of a remediation task for a specified period. Users who are a part of the approver group can approve exception requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/cc-ex-mgmt-request-approve.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance
@@ -25,12 +26,12 @@ You can request to defer the remediation of a remediation task for a specified p
 
 To request or approve exception requests, see:
 
--   [Request an exception for a remediation task in Configuration Compliance](../task/cc-ex-request-test-result-group.md)
--   [Approve an exception request in Configuration Compliance](../task/cc-ex-request-approve.md)
+-   [Request an exception for a remediation task in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/configuration-compliance/cc-ex-request-test-result-group.md)
+-   [Approve an exception request in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/configuration-compliance/cc-ex-request-approve.md)
 
 **Note:**
 
 Email notifications are sent at every stage of exception management, providing the status and other details of a request. For example, when an exception is requested, the requester receives an email confirming that the request is raised. The approver also receives an email stating that an exception has been requested.
 
-Starting from v14.11 of Configuration Compliance, you can configure the time frames for approving exceptions, along with email notifications for both the approver and requester after a set number of days. When a request is raised, the test result changes to In-Review status and a state change record is created. If the approver doesn't respond within the configured time frame, the test result reverts to Open status. The previous state is stored in the **backup\_state** field. For more information, see [Configure approval rules for Exception Management](../../vulnerability-response/task/exception-mgt-approval-rules.md).
+Starting from v14.11 of Configuration Compliance, you can configure the time frames for approving exceptions, along with email notifications for both the approver and requester after a set number of days. When a request is raised, the test result changes to In-Review status and a state change record is created. If the approver doesn't respond within the configured time frame, the test result reverts to Open status. The previous state is stored in the **backup\_state** field. For more information, see [Configure approval rules for Exception Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/exception-mgt-approval-rules.md).
 

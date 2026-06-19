@@ -2,6 +2,7 @@
 title: Key Management Framework Health
 description: Access on-demand health status information for the Key Management Framework. Warning and malfunction errors contain a detailed message.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/platform-encryption/kmf\_diagnostics.html
 release: zurich
 product: Platform Encryption
 classification: platform-encryption
@@ -34,7 +35,7 @@ Components can include subcomponents with individual reports and their own healt
 -   If one or more subcomponents is degraded or malfunctioned, the parent health shows as degraded.
 -   If all subcomponents report as malfunctioned, then the parent also reports as malfunctioned.
 
-For additional information on subcomponents, see [Instance level keys in the Key Management Framework](../reference/instance-level-keys.md).
+For additional information on subcomponents, see [Instance level keys in the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/instance-level-keys.md).
 
 **Note:** Health checks run every 15 seconds. Refresh the health page to rerun the report.
 
@@ -120,5 +121,5 @@ Checks the File Key Store and KeySecure for a key and whether the certificate is
 </table>    For assistance in troubleshooting, contact Customer Service and Support.
 
 
-**Parent Topic:**[Key Management Framework](../../encryption/concept/encryption.md)
+**Parent Topic:**[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/encryption.md)
 

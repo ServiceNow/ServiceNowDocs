@@ -2,6 +2,7 @@
 title: Now Assist for Zero Copy Connector
 description: Use the Now Assist for Zero Copy Connector AI skills and agentic workflows to obtain information about ERP systems, software, models, and data products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/now-assist-for-zero-copy-connector-for-erp.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -30,15 +31,15 @@ Use the Now Assist for Zero Copy Connector AI skills and agentic workflows to ob
 
 </th></tr></thead><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-learn.svg) Learn more about Now Assist for Zero Copy Connector](exploring-now-assist-for-zero-copy-connector.md)
+[Explore \[Omitted image "bus-learn.svg"\] Alt text: Learn more about Now Assist for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/exploring-now-assist-for-zero-copy-connector.md)
 
 </td><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-optimize-manage.svg) Configure the Now Assist for Zero Copy Connector application to get started](../task/configure-now-assist-for-zero-copy-connectors.md)
+[Configure \[Omitted image "bus-optimize-manage.svg"\] Alt text: Configure the Now Assist for Zero Copy Connector application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/configure-now-assist-for-zero-copy-connectors.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-application-development.svg)Use generative AI capabilities offered by Now Assist for Zero Copy Connector](now-assist-for-zero-copy-connectors-skills.md)
+[Use\[Omitted image "bus-application-development.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/now-assist-for-zero-copy-connectors-skills.md)
 
 </td></tr><tr><td>
 
@@ -46,7 +47,7 @@ Use the Now Assist for Zero Copy Connector AI skills and agentic workflows to ob
 
 </td><td>
 
-[Use Zero Copy Connector AI agent collection![](../../../reuse/icons/brand-icons/bus-artificial-intelligence.svg)Use agentic workflows in Now Assist for Zero Copy Connector](zero-copy-connector-for-erp-ai-agents-use-cases.md)
+[Use Zero Copy Connector AI agent collection\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use agentic workflows in Now Assist for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/zero-copy-connector-for-erp-ai-agents-use-cases.md)
 
 </td><td>
 
@@ -78,5 +79,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about applications \(and associated application files\) in which app generation was utilized. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about applications \(and associated application files\) in which app generation was utilized. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 

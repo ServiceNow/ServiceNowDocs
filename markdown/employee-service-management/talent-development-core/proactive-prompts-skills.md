@@ -2,6 +2,7 @@
 title: Proactive Prompts for Skills Foundation
 description: Recommend roles, skills, and missing proficiencies to the employees and get approval from managers in their flow of work using Proactive Prompts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/proactive-prompts-skills.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
@@ -27,5 +28,5 @@ Make sure that the signals are configured and scheduled to deliver the prompts. 
 |Skills Update Reminder Prompt to Employees|Signal configuration to trigger prompt for employees to either add new skills or update proficiencies for the existing skills.|
 |Review Skills Profile Prompt to Employees|Signal configuration to trigger prompt for employee to update their profile based on the recent activities.|
 
-**Parent Topic:**[Solve the challenge of adoption with Proactive Prompts](drive-adoption-proactive-prompts.md)
+**Parent Topic:**[Solve the challenge of adoption with Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/drive-adoption-proactive-prompts.md)
 

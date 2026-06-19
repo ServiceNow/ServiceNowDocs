@@ -2,6 +2,7 @@
 title: Associate dispute transaction
 description: List associated transactions identified by Visa after the chargeback creation. Review these transactions and associate them with the disputed transaction to help deflect and resolve the dispute in the next activity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/associate-dispute-transaction.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -18,5 +19,5 @@ List associated transactions identified by Visa after the chargeback creation. R
 1.  View the associated transaction\(s\) and select them.
 2.  Select **Continue**.
 
-**Parent Topic:**[Collaboration dispute workflow](collaboration-dispute-workflow.md)
+**Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
 

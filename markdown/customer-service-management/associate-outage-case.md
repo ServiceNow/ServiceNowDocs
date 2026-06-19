@@ -2,7 +2,10 @@
 title: Associate an outage to a major case
 description: Associate an outage with a major case to keep customers informed about any issues affecting their install base items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/associate-outage-case.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

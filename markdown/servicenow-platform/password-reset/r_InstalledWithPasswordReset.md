@@ -2,6 +2,7 @@
 title: Installed with Password Reset
 description: Tables, roles, business rules, scripts, and workflows are installed with the Password Reset application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/password-reset/r\_InstalledWithPasswordReset.html
 release: zurich
 product: Password Reset
 classification: password-reset
@@ -274,7 +275,7 @@ Password Reset verification types that are available.
 
 **Note:** Only the user with the following roles can have access to Password Reset tables. The deny unless authenticated ACLs restrict access to the Password Reset tables for any unauthenticated role such as public role user.
 
-For more information, see [Deny-Unless ACL](https://www.servicenow.com/docs/access?context=acl-denial-behavior&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information, see .
 
 <table id="table_vqc_jvj_sr"><thead><tr><th>
 

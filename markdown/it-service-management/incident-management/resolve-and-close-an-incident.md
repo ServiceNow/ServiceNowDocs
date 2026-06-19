@@ -2,6 +2,7 @@
 title: Resolve and close an incident
 description: When the service is restored by rectifying the issue that resulted for an incident, you can set the incident state as resolved. If the user is satisfied with the resolution, the user can close the incident or the incident is auto-closed after a certain time based on the incident auto-close properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/resolve-and-close-an-incident.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -48,5 +49,5 @@ Role required:
     **Note:** Even when an incident is closed or canceled, you can edit the following fields on the Incident form, if you have an admin role: **Subcategory**, **Service**, **Service Offerings**, **Description**, **Contact type**, **Watch list**, **Work notes list,** **Parent Incident**, **Problem**, **Change Request**, **Caused by Change**, **Resolved by**, **Resolved**, **Reassignment count**.
 
 
-**Parent Topic:**[Incident resolution and closure](../concept/c_IncidentResolutionAndRecovery.md)
+**Parent Topic:**[Incident resolution and closure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/c_IncidentResolutionAndRecovery.md)
 

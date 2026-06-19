@@ -2,6 +2,7 @@
 title: Enforced Restrictions for case\(s\)
 description: Use this feature to restrict a case and provide list of groups and users who can access it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-enforced-restrictions.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -36,10 +37,10 @@ Role required:
     **Note:** A worknote is posted if a case is marked as restricted.
 
 
--   **[Access controls for a case](tisc-access-controls.md)**  
+-   **[Access controls for a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-access-controls.md)**  
 Allow access controls specific to a case.
--   **[External user access for case tasks](tisc-external-users-access.md)**  
+-   **[External user access for case tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-external-users-access.md)**  
 This section describes the external user access for case tasks.
 
-**Parent Topic:**[Creating cases using Threat Analyst Workbench](../concept/create-cases-using-threat-analyst-workbench.md)
+**Parent Topic:**[Creating cases using Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/create-cases-using-threat-analyst-workbench.md)
 

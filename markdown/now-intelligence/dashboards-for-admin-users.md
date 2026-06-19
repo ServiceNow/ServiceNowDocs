@@ -2,6 +2,7 @@
 title: Dashboards for users with admin roles
 description: Use Platform Analytics dashboards to access, organize, and share data in a visual format. Dashboards contain data visualizations, filters, and other visual elements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/dashboards-for-admin-users.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -19,9 +20,9 @@ To find dashboards in Platform Analytics, navigate to **All** &gt; **Platform An
 
 ## Dashboards for users with admin roles
 
-The following example shows the Dashboards library that includes all the common and additional elements that are visible to the users with admin and dashboard\_admin roles only. See [Additional dashboard elements for users with admin roles](dashboards-for-admin-users.md#table_h44_pqg_5fc) table for descriptions.
+The following example shows the Dashboards library that includes all the common and additional elements that are visible to the users with admin and dashboard\_admin roles only. See [Additional dashboard elements for users with admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboards-for-admin-users.md) table for descriptions.
 
-![Platform Analytics Dashboards library for users with the admin roles.](../../par-for-workspace/image/analytics-center-db-tab.png "Platform Analytics Dashboards library for users with an admin role")
+\[Omitted image "analytics-center-db-tab.png"\] Alt text: Platform Analytics Dashboards library for users with the admin roles.
 
 The following table shows the features that the Platform Analytics Dashboards page offers to users with the admin roles. Refer to the numbered call-outs in the image and their descriptions in the table.
 
@@ -59,7 +60,7 @@ Option to create dashboards. As a user with the admin role, you can create Core 
 
 </td><td>
 
-Available and applied categories for dashboards. As a user with an admin role, you can create and customize the categories for the dashboards. For more information on creating dashboard categories, see [Create dashboard categories](../task/db-categories.md#).
+Available and applied categories for dashboards. As a user with an admin role, you can create and customize the categories for the dashboards. For more information on creating dashboard categories, see [Create dashboard categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/db-categories.md).
 
 </td></tr><tr><td>
 
@@ -135,8 +136,8 @@ Additional columns that you can see if you're a user with the admin role:
 -   UI version: The UI version of the dashboard:
     -   Next Experience
     -   Core UI
--   Visibility: The workspaces to which the dashboard can be added. For more information about adding a dashboard to a workspace, see [Add a dashboard to a Dashboards page](../../performance-analytics/task/add-dashboard-to-workspace.md).
+-   Visibility: The workspaces to which the dashboard can be added. For more information about adding a dashboard to a workspace, see [Add a dashboard to a Dashboards page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/add-dashboard-to-workspace.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Platform Analytics dashboards](../reference/ac-elements.md)
+</table>**Parent Topic:**[Exploring Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/ac-elements.md)
 

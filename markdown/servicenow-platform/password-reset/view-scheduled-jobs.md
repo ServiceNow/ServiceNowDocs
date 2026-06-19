@@ -2,6 +2,7 @@
 title: View scheduled jobs
 description: You can view scheduled jobs for the process that you configured password expiration for. When you configure password expiration for a process, two scheduled jobs are created automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/password-reset/view-scheduled-jobs.html
 release: zurich
 product: Password Reset
 classification: password-reset
@@ -43,5 +44,5 @@ The second scheduled job runs periodically based on configuration. The scheduled
     These prefixes are followed by the sys\_id of the password reset process.
 
 
-**Parent Topic:**[Configure password expiration reminder](password-reset-expiration-setup.md)
+**Parent Topic:**[Configure password expiration reminder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/password-reset-expiration-setup.md)
 

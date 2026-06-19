@@ -2,6 +2,7 @@
 title: Share documents with groups
 description: As a Writer or Owner, assign access to user groups based on your access permissions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/document-management-services/share-docs-groups.html
 release: zurich
 product: Document Management Services
 classification: document-management-services
@@ -36,5 +37,5 @@ Role required: dm\_user\_group\_read
 7.  Click **Submit**.
 
 
-**Parent Topic:**[Document security and access](../concept/document-access-settings.md)
+**Parent Topic:**[Document security and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/document-access-settings.md)
 

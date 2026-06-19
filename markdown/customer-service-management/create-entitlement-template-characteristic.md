@@ -2,7 +2,10 @@
 title: Create a characteristic
 description: Create a characteristic that can be associated with an entitlement or service contract line.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-entitlement-template-characteristic.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

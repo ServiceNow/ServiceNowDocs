@@ -2,6 +2,7 @@
 title: Schedule interviews agentic workflow
 description: Use the schedule interviews agentic workflow to collect necessary inputs from recruiters or recruitment coordinators and schedule interviews seamlessly from the Now Assist panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-hrsd/use-ai-agents-to-schedule-interviews.html
 release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd

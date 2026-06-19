@@ -2,6 +2,7 @@
 title: Add documents to a workplace contract in Workplace Central
 description: Add documents to the workplace contract to maintain all the relevant documents in a single place and maintain different versions of the document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-lease-administration/wpc-add-doc-to-lease-cont.html
 release: zurich
 product: Workplace Lease Administration
 classification: workplace-lease-administration
@@ -39,7 +40,7 @@ Role required: sn\_wsd\_la.workplace\_central\_user, sn\_wsd\_la.manager or sn\_
 
     2.  On the Create New Documents form, fill in the fields.
 
-        For a description of the field values, see [Create New Documents form](https://www.servicenow.com/docs/access?context=create-new-doc-form&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US)
+        For a description of the field values, see 
 
     3.  Select **Submit**.
 
@@ -56,5 +57,5 @@ Role required: sn\_wsd\_la.workplace\_central\_user, sn\_wsd\_la.manager or sn\_
     5.  Select **Submit.**
 
 
-**Parent Topic:**[Create workplace contracts in Workplace Central](wpc-create-lease-contracts.md)
+**Parent Topic:**[Create workplace contracts in Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-lease-administration/wpc-create-lease-contracts.md)
 

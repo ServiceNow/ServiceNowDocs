@@ -2,6 +2,7 @@
 title: Workflow event-specific functions
 description: There are several functions that relate specifically to workflow events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/legacy-workflow/r\_WorkflowEventSpecificFunctions.html
 release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
@@ -26,5 +27,5 @@ There are several functions that relate specifically to workflow events.
 |broadcastEvent \(contextId, eventName\)|Function in the workflow environment that sends an event to all currently running Workflow Executing Activity \[wf\_executing\] records in a specified context, regardless of their state.|This is the same as the fireEvent above, except that it accepts an ID and returns the Workflow Executing Activity \[wf\_executing\] record.|The Workflow script include contains the call for this. For example, from inside a **Run Script** activity, a designer can write: `var w = new Workflow(); w.broadcastEvent(contextId, eventName);`|Current thread, current mutex|Workflow script include|
 |broadcastEvent \(eventName\)|Function in the workflow environment that sends an event to all currently running Workflow Executing Activity \[wf\_executing\] records in the current context, regardless of their state.|This should not be confused with broadcastEvent above. This event is only available to current Workflow Executing Activity \[wf\_executing\] records.|This is available only through the global workflow variable of the current context. The following is an example of its use from within an activity definition's script: `workflow.broadcastEvent(eventName)`|Current thread, current mutex|Global variable workflow|
 
-**Parent Topic:**[Workflow events in the base system](r_WorkflowEventsInTheBaseSystem.md)
+**Parent Topic:**[Workflow events in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/r_WorkflowEventsInTheBaseSystem.md)
 

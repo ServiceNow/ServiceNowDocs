@@ -2,6 +2,7 @@
 title: Enforce strict security of session cookies \[Updated in Security Center 1.3\]
 description: Use the glide.ui.secure\_cookies property to require properly formatted cookies
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-secure-session-cookies.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -25,14 +26,14 @@ When you set the property is to true, your instance will reject a session if the
 |---------|-----------|
 |Property name|**glide.ui.secure\_cookies**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Validation, sanitization, and encoding](validation-sanitization-encoding.md)|
+|Category|[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)|
 |Purpose|To achieve more secure session authentication.|
 |Recommended value|true|
 |Default value|true|
 |Security risk rating|8.8|
 |Functional impact|When the property is set to true, improperly formatted cookies are rejected. When such a cookie is rejected, the user must login again.|
 
-To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

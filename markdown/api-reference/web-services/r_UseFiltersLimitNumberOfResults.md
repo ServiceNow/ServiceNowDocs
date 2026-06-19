@@ -2,6 +2,7 @@
 title: Use filters to limit the number of results
 description: One way to make your web service calls fit within the 250 record limit is to think about the design of your integrating application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/r\_UseFiltersLimitNumberOfResults.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -29,5 +30,5 @@ The C\# application makes a soap call to retrieve all of the incidents within Se
 
 The C\# application makes no SOAP call initially. When a logged-in user decides to view the incidents that are assigned to him, the application presents him with the choice of viewing active, closed, etc. It gives him the ability to filter the results that he wants to see before the SOAP call is even made. Then, the user is only presented with the results that he wished to view.
 
-**Parent Topic:**[SOAP strategies](../concept/c_SOAPStrategies.md)
+**Parent Topic:**[SOAP strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_SOAPStrategies.md)
 

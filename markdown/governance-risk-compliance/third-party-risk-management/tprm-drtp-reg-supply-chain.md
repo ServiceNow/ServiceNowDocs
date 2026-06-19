@@ -2,6 +2,7 @@
 title: Create a supply chain and enhance digital resilience data
 description: Create an Information and Communication Technology \(ICT\) service supply chain record in Digital resilience third-party registers using Third-party Risk Management. You can then configure details of the supply chain such as the type of the ICT services, Legal Entity Identifier \(LEI\) of the entity that provides the ICT services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-supply-chain.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -21,7 +22,7 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessor
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Digital resilience third-party registers**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Digital resilience third-party registers**.
 
 2.  Select **Contracts** and then select the contract record you want to associate a supply chain record with.
 
@@ -29,7 +30,7 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessor
 
 4.  On the form, fill in the fields.
 
-    For descriptions of all these fields, see [Create New Contractual arrangement form](../reference/tprm-create-new-cont-arrange-form.md).
+    For descriptions of all these fields, see [Create New Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-create-new-cont-arrange-form.md).
 
 5.  Select **Save**.
 

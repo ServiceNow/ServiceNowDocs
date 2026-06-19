@@ -2,6 +2,7 @@
 title: Create ad hoc task-specific crews
 description: Create an ad hoc task-specific crew for a task if existing crews are not available to work on the task or the task requires specific skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/create-adhoc-crew.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

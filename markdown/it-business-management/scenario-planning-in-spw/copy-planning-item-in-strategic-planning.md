@@ -2,6 +2,7 @@
 title: Duplicate a planning item
 description: Create a copy of an existing planning item to add it to your portfolio plan's work backlog in Strategic Planning Workspace and ensure that the work pipeline is current. If the planning item you want to create is similar to an existing planning item, duplicating the existing planning item saves your time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/copy-planning-item-in-strategic-planning.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -17,7 +18,7 @@ Create a copy of an existing planning item to add it to your portfolio plan's wo
 
 ## Before you begin
 
-[Create a portfolio plan](../../alignment-planner-workspace/task/create-portfolio-plans-in-alignment-planner-workspace.md)
+[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md)
 
 Role required: sn\_align\_core.apw\_user
 
@@ -33,7 +34,7 @@ Use the Prioritization tab of your portfolio plan to add new planning items or i
 
 3.  From the Planning page, select **Prioritization** tab.
 
-4.  Select the More actions icon \(![More actions icon.](../../alignment-planner-workspace/images/more-actions.png)\) of the planning item that you want to copy and then select **Duplicate**.
+4.  Select the More actions icon \(\[Omitted image "more-actions.png"\] Alt text: More actions icon.\) of the planning item that you want to copy and then select **Duplicate**.
 
     The new planning item is created and the item appears right below the planning item you copied from. Also, the rank is updated for the new planning item automatically based on the rank of the planning item you copied from.
 
@@ -41,12 +42,12 @@ Use the Prioritization tab of your portfolio plan to add new planning items or i
 
 5.  If you're using PPM, Agile Development 2.0, or SAFe to execute the planned work, you can also import your work items from these applications.
 
-    For more information, see [Executing Strategic Planning work in PPM, Agile 2.0, and SAFe](../../apw-internal-integrations/concept/using-apw-with-agile-safe-and-ppm.md).
+    For more information, see [Executing Strategic Planning work in PPM, Agile 2.0, and SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/using-apw-with-agile-safe-and-ppm.md).
 
 
 ## What to do next
 
--   [Rank planning items](rank-and-prioritize-backlog-alignment-planner-workspace.md).
--   [Update planning item details from Prioritization tab](update-planning-item-details-from-backlog-in-alignment-planner-workspace.md).
--   Learn about [Personalizing views for prioritization](../concept/personalize-prioritization-page-in-strategic-planinng-workspace.md)
+-   [Rank planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/rank-and-prioritize-backlog-alignment-planner-workspace.md).
+-   [Update planning item details from Prioritization tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/update-planning-item-details-from-backlog-in-alignment-planner-workspace.md).
+-   Learn about [Personalizing views for prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/personalize-prioritization-page-in-strategic-planinng-workspace.md)
 

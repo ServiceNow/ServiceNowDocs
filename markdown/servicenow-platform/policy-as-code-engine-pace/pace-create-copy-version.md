@@ -2,6 +2,7 @@
 title: Create a copy of a PaCE policy version
 description: You can create a copy of an existing policy version. All the settings and mappings from the existing version are copied over to the new one.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/policy-as-code-engine-pace/pace-create-copy-version.html
 release: zurich
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
@@ -23,7 +24,7 @@ Role required: sn\_pace.code\_editor
 
 When you create a new policy version from an existing one, the input definitions and the policy script from the original version are copied to the new version. The version is assigned a number according to policy numbering.
 
-**Note:** The new policy version is initially created as a draft, with a revision number based on the original policy version. For further details about version states and numbering, see [PaCE policy version states](../reference/pace-policy-version-states.md).
+**Note:** The new policy version is initially created as a draft, with a revision number based on the original policy version. For further details about version states and numbering, see [PaCE policy version states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/policy-as-code-engine-pace/pace-policy-version-states.md).
 
 ## Procedure
 

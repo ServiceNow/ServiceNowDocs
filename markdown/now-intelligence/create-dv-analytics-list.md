@@ -1,30 +1,33 @@
 ---
 title: Create a list visualization in the Visualization Designer
-description: Create a expandable list of table records that can be drilled down to from chart interactions. List reports display data in the form of an expandable list. For example, an incident report grouped by priority displays only the priority names and a number of records that display if the user selects the priority.
+description: Create a list of table records that can be drilled down to from chart interactions. List visualizations display table data in columns. By default, the columns match the default list view of the table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/create-dv-analytics-list.html
 release: zurich
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
 # Create a list visualization in the Visualization Designer
 
-Create a expandable list of table records that can be drilled down to from chart interactions. List reports display data in the form of an expandable list. For example, an incident report grouped by priority displays only the priority names and a number of records that display if the user selects the priority.
+Create a list of table records that can be drilled down to from chart interactions. List visualizations display table data in columns. By default, the columns match the default list view of the table.
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../concept/report-view-access-control.md) and [Platform Analytics roles](../../par-for-workspace/reference/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
+
+**Warning:** If you want to modify the selection of columns, first save the List visualization. Otherwise, the default columns are removed from the List. Ignore this warning if you do not want to keep any of the default columns. If you do not have the latest Platform Analytics bundle installed, you must add the default columns manually instead of just saving the visualization.
 
 In the Zurich release, this List replaces the simple list visualization. Upon migration, all simple lists are migrated to the new List.
 
 **Note:**
 
--   You can include Spotlight information in a list visualization. Configure the list to display information from the Spotlight \[spotlight\] table. For more information, see [Spotlights on Platform Analytics dashboards](../../performance-analytics/concept/spotlights-configurable-workspaces.md). For general information about the Spotlight feature, see [Ranking records with Spotlight](../../performance-analytics/concept/spotlight.md).
--   It is not possible to configure auto refresh on the List visualization. To refresh a List visualization on a dashboard, select the More Options icon ![Context menu icon](../../dashboards/image/icon-vert-3dot-p.png) and choose **Refresh**.
+-   You can include Spotlight information in a list visualization. Configure the list to display information from the Spotlight \[spotlight\] table. For more information, see [Spotlights on Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/spotlight/spotlights-configurable-workspaces.md). For general information about the Spotlight feature, see [Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/spotlight/spotlight.md).
+-   It is not possible to configure auto refresh on the List visualization. To refresh a List visualization on a dashboard, select the More Options icon \[Omitted image "icon-vert-3dot-p.png"\] Alt text: Context menu icon and choose **Refresh**.
 -   The option to show the total number of records is not available in the new List visualization.
 
 ## Procedure
@@ -33,95 +36,39 @@ In the Zurich release, this List replaces the simple list visualization. Upon mi
 
 2.  Select **Create data visualization**.
 
-3.  Select the List \(![List visualization icon](../../../reuse/icons/product-icons/list-outline-24.svg)\) visualization type from the category labeled **Other**.
+3.  Select the List \(\[Omitted image "list-outline-24.svg"\] Alt text: List visualization icon\) visualization type from the category labeled **Other**.
 
 4.  Select **Add data source**.
 
     You can only select Table data sources, such as the Incident \[incident\] table.
 
+    The list appears, populated with a default selection of columns depending on the default view of the selected table. You can change the columns in the Columns and rows section. Save the List before changing the column selection.
+
 5.  Configure the **Header and border**. Header and border options are the same for all data sources.
 
-<table id="table_ly5_djk_c5b"><thead><tr><th>
+    |Header and border fields|Description|
+    |------------------------|-----------|
+    |Show header|The visualization header, including title and icons.|
+    |Show header separator|Option to display a line separating the header from the rest of the component.|
+    |Chart title|Title of the visualization.|
+    |Description|A short overview about the visualization that the end user sees. Descriptions help users find the visualization.|
+    |Wrap title|Option to wrap long titles onto a second line. If false, displays an ellipsis to truncate long titles.|
+    |Show border|Option to display a line around the component.|
+    |Bare|Option to remove padding around data visualization to provide more compact positioning on the page. Only available when **Show border** is turned off.|
+    |Header background color|Specify the color behind the title of the visualization.|
+    |Title color|Specify the text color. The default title color is black, but you can choose a color that contrasts better with the header background.|
 
-Header and border fields
+6.  Configure the data fields.
+
+<table id="table_list-data"><thead><tr><th>
+
+Data fields
 
 </th><th>
 
 Description
 
-</th></tr></thead><tbody><tr id="ac-dv-showheader"><td>
-
-Show header
-
-</td><td>
-
-The visualization header, including title and icons.
-
-</td></tr><tr id="ac-dv-showheadersep"><td>
-
-Show header separator
-
-</td><td>
-
-Option to display a line separating the header from the rest of the component.
-
-</td></tr><tr id="ac-dv-charttitle"><td>
-
-Chart title
-
-</td><td>
-
-Title of the visualization.
-
-</td></tr><tr id="ac-dv-chartdesc"><td>
-
-Description
-
-</td><td>
-
-A short overview about the visualization that the end user sees. Descriptions help users find the visualization.
-
-</td></tr><tr id="ac-dv-wraptitle"><td>
-
-Wrap title
-
-</td><td>
-
-Option to wrap long titles onto a second line. If false, displays an ellipsis to truncate long titles.
-
-</td></tr><tr id="ac-dv-showborder"><td>
-
-Show border
-
-</td><td>
-
-Option to display a line around the component.
-
-</td></tr><tr id="ac-dv-bare"><td>
-
-Bare
-
-</td><td>
-
-Option to remove padding around data visualization to provide more compact positioning on the page. Only available when **Show border** is turned off.
-
-</td></tr><tr><td>
-
-Header background color
-
-</td><td>
-
-Specify the color behind the title of the visualization.
-
-</td></tr><tr><td>
-
-Title color
-
-</td><td>
-
-Specify the text color. The default title color is black, but you can choose a color that contrasts better with the header background.
-
-</td></tr><tr id="group-by-heading"><td class="sub-head" colspan="2">
+</th></tr></thead><tbody><tr id="group-by-heading"><td class="sub-head" colspan="2">
 
 Group by
 
@@ -131,10 +78,10 @@ Group by \(optional\)
 
 </td><td>
 
-The field to group by. For example, in an incident report grouped by **Assignment group**, all incidents that belong to Software, Service Desk, and Network are placed in separate groups. If the table contains variables or question fields, you have the option to group by one of them at the end of the list of fields.**Note:**
+The field to group by. For example, in a visualization of incident data grouped by **Assignment group**, all incidents that belong to Software, Service Desk, and Network are placed in separate groups. If the table contains variables or question fields, you have the option to group by one of them at the end of the list of fields.**Note:**
 
 -   It is not possible to group or stack data by the **Tags** field, or by certain field types, such as MEDIUMTEXT.
--   If you want to group by a field with continuous values, such as date or integer, the values are automatically grouped according to any report ranges that are defined for the data. For more information, see [Report ranges](../concept/c_ReportRanges.md#).
+-   If you want to group by a field with continuous values, such as date or integer, the values are automatically grouped according to any report ranges that are defined for the data. For more information, see [Report ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_ReportRanges.md).
 
 
 </td></tr><tr id="alternative-group-by"><td>
@@ -145,7 +92,7 @@ Add alternative group by
 
 This selection opens a dialog in which you select additional items that the data in the visualization may be grouped by. The viewer of the visualization can then select which of these items to group the data by. The viewer toggles the visibility of the selector in the visualization's More actions menu. In the additional items dialog, you can set whether this selector is visible by default by toggling **Selector visible by default**.If you select a value in **Group by**, that is the default group-by value. You do not have to select a **Group by** value to specify alternative group-by values. In this case, no default group-by value is used.
 
-For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](../../performance-analytics/concept/select-group-runtime.md).
+For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/select-group-runtime.md).
 
 **Important:**
 
@@ -225,11 +172,18 @@ Alignment
 
 The alignment of the illustration and text in the message.
 
-</td></tr><tr id="presentation"><td class="sub-head" colspan="2">
+</td></tr></tbody>
+</table>7.  Configure the presentation fields.
 
-Presentation
+<table id="table_presentation"><thead><tr><th>
 
-</td></tr><tr id="columns-and-rows"><td class="sub-head" colspan="2">
+Presentation fields
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr id="columns-and-rows"><td class="sub-head" colspan="2">
 
 Columns and rows
 
@@ -239,9 +193,7 @@ Columns
 
 </td><td>
 
-Select the columns from the table that you want to display in the visualization.**Note:** The List shows some columns by default. These columns are not included as selected columns in the configuration panel until you save the data visualization for the first time.
-
-This feature to show default columns as selected cannot be used with List visualizations that were created before Platform Analytics experience bundle 7.2.1 was installed.
+Select the columns from the table that you want to display in the visualization.**Note:** The List shows some columns by default after you select the data source. These columns are not included as selected columns in the configuration panel. If you're working on a new List visualization and have the latest Platform Analytics bundle installed, save the visualization to mark these columns as selected. Otherwise, manually select any default columns that you want to keep. Any columns that are not marked as selected are removed when you apply your changes to the columns.
 
 </td></tr><tr><td>
 
@@ -285,7 +237,7 @@ Disable the dotwalk capability in personalized lists. Available only if Show opt
 
 </td></tr><tr><td>
 
-Show option to drag-and-drop columns
+Show option to drag and drop columns
 
 </td><td>
 
@@ -376,8 +328,8 @@ Enables the list to be divided across multiple pages. When cleared, list paginat
 
 </td></tr></tbody>
 </table>
--   **[Create a list visualization with variable columns](create-list-dv-with-var-col.md)**  
+-   **[Create a list visualization with variable columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-list-dv-with-var-col.md)**  
 You can create a list visualization with variables columns based on a data source or table that has variables associated with it. For example, if an item has a variable called **Storage**, you can create a list report that has a column for the values in this variable.
 
-**Parent Topic:**[Creating data visualizations](../concept/creating-data-visualizations.md)
+**Parent Topic:**[Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/creating-data-visualizations.md)
 

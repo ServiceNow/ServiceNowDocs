@@ -2,6 +2,7 @@
 title: Configure the ODBC driver for large data sets
 description: You can set two ODBC driver properties to deal with errors you receive when using queries that return large amounts of data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/configure-odbc-large-data-sets.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -21,7 +22,7 @@ You must have administrator-level access for the Windows computer on which you w
 
 ## About this task
 
-These properties are set using the ODBC Management Console available on Windows operating systems. For more information, see [ODBC management console properties](../reference/r_SettingODBCProperties.md#ODBC_mgmt_console_properties).
+These properties are set using the ODBC Management Console available on Windows operating systems. For more information, see [ODBC management console properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/r_SettingODBCProperties.md).
 
 ## Procedure
 
@@ -40,5 +41,5 @@ These properties are set using the ODBC Management Console available on Windows 
     Typically, when running a query that returns 50,000 rows, the default value of 200 MB must be increased.
 
 
-**Parent Topic:**[Configuring the ODBC driver](../concept/configuring-odbc.md)
+**Parent Topic:**[Configuring the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configuring-odbc.md)
 

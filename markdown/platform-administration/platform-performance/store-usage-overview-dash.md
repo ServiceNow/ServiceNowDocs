@@ -2,6 +2,7 @@
 title: ServiceNow Store usage overview dashboard
 description: The ServiceNow Store Usage Overview dashboard displays reports on the use of ServiceNow Store applications on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-performance/store-usage-overview-dash.html
 release: zurich
 product: Platform Performance
 classification: platform-performance
@@ -40,5 +41,5 @@ Users of ServiceNow Store Applications
 Shows the number of active users who have used the instance, grouped by month. An active user is any user who could have accessed the applications, not only users who actually did access the applications.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Monitoring instance usage](../../subscription-management/concept/usage-analytics-module-subscription.md)
+</table>**Parent Topic:**[Monitoring instance usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/usage-analytics-module-subscription.md)
 

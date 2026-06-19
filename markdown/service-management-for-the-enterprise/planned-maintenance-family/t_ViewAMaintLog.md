@@ -2,6 +2,7 @@
 title: View a maintenance log
 description: You can view all maintenance performed on a particular CI, the next scheduled maintenance, and the last time maintenance was performed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/service-management-for-the-enterprise/planned-maintenance-family/t\_ViewAMaintLog.html
 release: zurich
 product: Planned Maintenance \(Family\)
 classification: planned-maintenance-family
@@ -32,5 +33,5 @@ Role required: SM admin
     Related lists display maintenance plans, maintenance plan records for the CI, and service orders.
 
 
-**Parent Topic:**[Managing maintenance plans](../concept/c_MaintPlanMgmt.md)
+**Parent Topic:**[Managing maintenance plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-management-for-the-enterprise/planned-maintenance-family/c_MaintPlanMgmt.md)
 

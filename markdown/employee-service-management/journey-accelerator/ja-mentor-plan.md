@@ -2,6 +2,7 @@
 title: Mentor employees by using a Journey Accelerator plan
 description: Mentor employees that are assigned to you and view or edit employee plans depending on your permission type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-accelerator/ja-mentor-plan.html
 release: zurich
 product: Journey Accelerator
 classification: journey-accelerator
@@ -55,5 +56,5 @@ There are two types of mentor permissions:
     -   **Comments**: Sends messages to the plan manager.
     -   **Attachments**: Adds files, such as certificates of completion, for training or other documents.
 
-**Parent Topic:**[Working with Journey Accelerator plans](../concept/working-with-journey-accelerator-plans.md)
+**Parent Topic:**[Working with Journey Accelerator plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/working-with-journey-accelerator-plans.md)
 

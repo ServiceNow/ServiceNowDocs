@@ -2,6 +2,7 @@
 title: Configuring HR Multi Instance Integration
 description: Plan and configure your implementation of HR Multi Instance Integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/config-hr-mii-bs.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,12 +18,12 @@ Plan and configure your implementation of HR Multi Instance Integration.
 
 ## Configuration overview
 
-1.  [Import users](../task/import-users-hr-mii.md).
-2.  [Configure HR Multi Instance Integration for Provider](../task/config-hr-multi-instance-1.md)
+1.  [Import users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/import-users-hr-mii.md).
+2.  [Configure HR Multi Instance Integration for Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/config-hr-multi-instance-1.md)
 
     If you are a provider, plan and implement the configuration of HR Multi Instance Integration for Provider.
 
-3.  [Configure HR Multi Instance Integration for Consumer](../task/config-hr-multi-instance.md)
+3.  [Configure HR Multi Instance Integration for Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/config-hr-multi-instance.md)
 
     If you are a consumer, plan and implement the configuration of HR Multi Instance Integration for Consumer.
 

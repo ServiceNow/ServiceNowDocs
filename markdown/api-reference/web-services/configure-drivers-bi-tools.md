@@ -2,6 +2,7 @@
 title: Integrate SQL API Drivers with third-party BI tools
 description: Configure ServiceNow SQL API drivers to connect with third-party business intelligence and database tools for direct data access and analysis.
 locale: en-us
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/configure-drivers-bi-tools.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -17,7 +18,7 @@ Configure ServiceNow SQL API drivers to connect with third-party business intell
 
 After installing and configuring the SQL API drivers on your client machine, you can connect them to third-party business intelligence and database tools. This integration enables you to query ServiceNow data directly from your preferred analytics platforms without requiring data export or replication.
 
-The SQL API supports integration with a wide range of ODBC and JDBC-compatible tools, including Tableau, Power BI, Looker, DB Visualizer, and other standard BI platforms. By connecting these tools to your ServiceNow instance through the SQL API drivers, you can create dashboards, run ad-hoc queries, and perform comprehensive data analysis using live ServiceNow data.
+The SQL API supports integration with a wide range of ODBC and JDBC-compatible tools, including Tableau, Power BI, DB Visualizer, and other standard BI platforms. By connecting these tools to your ServiceNow instance through the SQL API drivers, you can create dashboards, run ad-hoc queries, and perform comprehensive data analysis using live ServiceNow data.
 
 **Important:**
 
@@ -51,7 +52,6 @@ When connecting third-party BI tools to ServiceNow SQL API drivers, keep the fol
 While Power BI Desktop and DB Visualizer are specifically documented examples in this guide, the SQL API drivers support any ODBC or JDBC-compatible application. Other commonly used tools include:
 
 -   Tableau Desktop and Tableau Server
--   Looker and Looker Studio
 -   Microsoft Excel \(via ODBC connection\)
 -   SQL Server Management Studio
 -   DBeaver and other universal database tools
@@ -59,10 +59,10 @@ While Power BI Desktop and DB Visualizer are specifically documented examples in
 
 Each tool has its own connection configuration interface, but the underlying connection parameters \(instance URL, Service Account credentials, driver selection\) remain consistent across all platforms.
 
--   **[Connect Power BI Desktop to ODBC driver](../task/connect-power-bi-odbc.md)**  
+-   **[Connect Power BI Desktop to ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/connect-power-bi-odbc.md)**  
 Connect Power BI Desktop to your ServiceNow instance using the ODBC driver to access and analyze ServiceNow data. Create dashboards and reports that visualize your ServiceNow data.
--   **[Connect DB Visualizer to JDBC driver](../task/connect-dbvisualizer-jdbc.md)**  
+-   **[Connect DB Visualizer to JDBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/connect-dbvisualizer-jdbc.md)**  
 Connect the DB Visualizer database tool to your ServiceNow instance using the JDBC driver to query ServiceNow data. Access authorized tables and perform read-only queries on your ServiceNow data to create visualizations, and perform ad-hoc analysis using industry-standard SQL commands.
 
-**Parent Topic:**[Access your ServiceNow data using SQL API](../concept/accessing-your-servicenow-data-using-sql-api.md)
+**Parent Topic:**[Access your ServiceNow data using SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/accessing-your-servicenow-data-using-sql-api.md)
 

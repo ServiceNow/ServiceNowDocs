@@ -2,6 +2,7 @@
 title: Workflow of risk assessment project in AI Risk and Compliance
 description: The risk assessment project workflow is a structured process to assess multiple risks and controls of an AI asset simultaneously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/ai-risk-management/workflow-of-risk-assessment-project-airc.html
 release: zurich
 product: AI Risk Management
 classification: ai-risk-management

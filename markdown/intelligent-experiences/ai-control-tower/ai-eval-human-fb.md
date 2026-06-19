@@ -2,6 +2,7 @@
 title: Human feedback for evaluations
 description: Expand the Human feedback section to see details on evaluations and their satisfaction scores.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/ai-eval-human-fb.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
@@ -19,7 +20,7 @@ Role required: interaction\_admin
 
 **Note:** To label a record or label a conversation, you must have access to the transcript, and only users with the interaction\_admin role have access to the transcript.
 
-![Human feedback section.](../image/ai-eval-user.png)
+\[Omitted image "ai-eval-user.png"\] Alt text: Human feedback section.
 
 The Evaluations section shows all the chats that were auto-evaluated by the large language model \(LLM\). You have the option to manually evaluate conversations to compare the AI evaluations against your own interpretation of how the agent conversation was.
 
@@ -39,7 +40,7 @@ You can manually evaluate each chat to compare it with the AI evaluation.
 2.  Toggle the **View Auto Eval Scores** switch on to see the AI evaluation for each category.
 3.  For each category, select your answer for how accurately you feel that the agent responded.
 
-    ![Evaluation details.](../image/ai-eval-chat.png)
+    \[Omitted image "ai-eval-chat.png"\] Alt text: Evaluation details.
 
 4.  Toggle the **Other Metrics** switch on for a more detailed evaluation.
 5.  After completing, select **Submit**.

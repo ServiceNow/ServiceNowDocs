@@ -2,9 +2,12 @@
 title: Case management
 description: Set up case management features to enable agents and customers to create cases as needed and work to resolve those cases. Create the necessary case types to handle specific types of customer issues. Configure service definitions to create connections between products, services, and case types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/case-management.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -23,20 +26,20 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Configure case management](../task/configure-csm-case-management.md)
+[Configure case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-csm-case-management.md)
 
 </td><td>
 
 Configure the case management features that enable agents and customers to create cases for issues and questions, track the activities related to resolving issues, and provide communication between the agent and customer.Some of the case management features include the following:
 
--   [Configure a Case form view](../task/configure-case-form.md) to display the desired fields and related lists.
--   [Configure SLA definitions for customer service cases](../task/t_DefineSLAForCustServiceCase.md) to specify the time within which service must be provided.
--   [Configure major issue management](../task/configure-major-issue-management.md) to manage the communication and resolution process for issues that impact multiple customers.
--   [Configure special handling notes](../task/configure-special-handling-notes.md) to bring important case information to an agent’s attention.
+-   [Configure a Case form view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-case-form.md) to display the desired fields and related lists.
+-   [Configure SLA definitions for customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_DefineSLAForCustServiceCase.md) to specify the time within which service must be provided.
+-   [Configure major issue management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-major-issue-management.md) to manage the communication and resolution process for issues that impact multiple customers.
+-   [Configure special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-special-handling-notes.md) to bring important case information to an agent’s attention.
 
 </td></tr><tr><td>
 
-[Customer service case types](customer-service-case-types.md)
+[Customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-case-types.md)
 
 </td><td>
 
@@ -44,39 +47,39 @@ Configure case types to handle different types of customer issues. When creating
 
 </td></tr><tr><td>
 
-[Task Plan Templates](task-plan-templates.md)
+[Task Plan Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/task-plan-templates.md)
 
 </td><td>
 
-A task plan template is a collection of tasks and records, known as template items, that are automatically generated when the template is applied. It also includes conditions that specify when the template is applicable.
+A task plan template defines the tasks, records, and conditions used to automatically create work when the template is applied.
 
 </td></tr><tr><td>
 
-[Order Operations Case Management](csm-case-mgmt-order-ops.md)
+[Order Operations Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-case-mgmt-order-ops.md)
 
 </td><td>
 
-Order operations case management enables to refer multiple orders or case line items. Case line items further helps to track and resolve multiple issues.
+Order Operations Case Management enables agents to manage issues across multiple orders or order lines within a single case. It uses order‑based case line items so agents can track, resolve, and close each issue independently before closing the overall order case.
 
 </td></tr><tr><td>
 
-[Case Lines and Workflows](csm-case-mgmt-case-lines.md)
+[Case Lines and Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-case-mgmt-case-lines.md)
 
 </td><td>
 
-The Case lines and workflows application provides the framework for a case type to handle multiple related issues. Agents can use these line items to capture, track, and resolve multiple related issues in a single case.
+Case Lines and Workflows enables agents and customers to manage multiple related issues within a single case. It uses case line items to track, act on, and resolve each issue independently before closing the overall case.
 
 </td></tr><tr><td>
 
-[Case Management for Invoice Operations](csm-invoice-operations.md)
+[Case Management for Invoice Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-invoice-operations.md)
 
 </td><td>
 
-Case Management for Invoice Operations enables customer service agents to create cases for specific lines within a single invoice or for multiple invoices.
+Case Management for Invoice Operations enables agents to manage invoice‑related issues within a single case. It uses invoice‑based case lines to track, resolve, and close multiple invoice or invoice‑line issues independently before closing the overall invoice case.
 
 </td></tr><tr><td>
 
-[Service definitions](csm-service-definitions.md)
+[Service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-service-definitions.md)
 
 </td><td>
 

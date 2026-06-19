@@ -2,12 +2,13 @@
 title: Create New Issue form
 description: Use the Create New Issue form in Compliance Workspace to create an issue or add an existing issue to a regulatory task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/regulatory-change-management-service-portal/create-new-issue-reg-change-comp-ws.html
 release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Create or add an issue related to a regulatory task, Manage regulatory tasks, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
@@ -45,7 +46,7 @@ Name
 
 </td><td>
 
-Name of the issue.
+Name of the issue. For example, `Non-compliant control`.
 
 </td></tr><tr><td>
 
@@ -53,7 +54,7 @@ Issue source
 
 </td><td>
 
-Source of the issue, such as Business service or Scenario analysis. This field is auto-filled.
+Source from where the issue was created, such as risk event or risk assessment. This field is auto-filled.
 
 </td></tr><tr><td>
 
@@ -61,21 +62,23 @@ Issue type
 
 </td><td>
 
-Source from where the issue was created. This field is auto-populated with one of the following options based on how the issue is created:-   Control design effectiveness failure
--   Control operative effectiveness failure
--   Control does not meet requirement
--   Control does not exist
--   Non-compliance to a regulation
--   Non-compliance to a policy
--   Improvement or suggestion to an existing policy
--   Recommendation for a new policy
--   process optimization or improvement
--   Observation
--   Data breach
--   Fraud
--   Misstatement
--   Training
--   Documentation
+Type of the issue. The options are as follows:-   **Control design effectiveness failure**: The control was poorly designed and cannot effectively prevent or detect the intended risk.
+-   **Control operative effectiveness failure**: The control was well-designed but failed during execution or wasn't followed correctly.
+-   **Control doesn’t meet requirement**: The control is in place but doesn't satisfy regulatory, policy, or business requirements.
+-   **Control doesn’t exist**: There is no control present to address a known risk or requirement.
+-   **Non-compliance to a regulation**: A law or regulation was not followed, potentially exposing the organization to penalties.
+-   **Non-compliance to a policy**: An internal policy was not adhered to, which could lead to risks or inefficiencies.
+-   **Improvement or suggestion to an existing policy**: A recommendation to enhance an existing policy for better clarity, coverage, or effectiveness.
+-   **Recommendation for a new policy**: A proposal to create a policy to address a gap that currently isn’t covered.
+-   **Process optimization or improvement**: Opportunities identified to improve efficiency, accuracy, or effectiveness of a business process.
+-   **Observation**: A general note or finding that may not be an issue now but could warrant attention.
+-   **Data breach**: Unauthorized access, disclosure, or loss of sensitive or personal data.
+-   **Fraud**: Intentional deception for personal or organizational gain, such as misappropriation of assets.
+-   **Misstatement**: Errors or omissions in financial or operational reporting that misrepresent facts.
+-   **Training**: Gaps or needs identified in knowledge or skills that require attention.
+-   **Documentation**: Issues related to missing, outdated, or inaccurate documentation.
+-   **Risk issue**: A broad risk-related concern that may not fall under other specific categories.
+-   **Other**: Any issue that doesn't fit into the above types but is still worth tracking and resolving.
 
 </td></tr><tr><td>
 
@@ -83,11 +86,10 @@ Classification
 
 </td><td>
 
-Classification of the issue. This field is auto-populated with one of the following options:-   Audit
--   Compliance
--   Operational Resilience
--   Risk
--   Vendor
+Classification of the issue. The options are as follows:-   **Audit**
+-   **Compliance**
+-   **Risk**
+-   **Vendor risk**
 
 </td></tr><tr><td>
 
@@ -95,7 +97,7 @@ Location
 
 </td><td>
 
-Location of the issue.
+Location where the issue occurred. For example, United States.
 
 </td></tr><tr><td>
 
@@ -103,12 +105,12 @@ State
 
 </td><td>
 
-State of the issue. Available options are:-   New
--   Analyze
--   Respond
--   Review
--   Closed Complete
--   Closed Incomplete
+Lifecycle stage of the issue. The options are as follows:-   **New**
+-   **Analyze**
+-   **Respond**
+-   **Review**
+-   **Closed Complete**
+-   **Closed Incomplete**
 
 </td></tr><tr><td>
 
@@ -124,11 +126,11 @@ Priority
 
 </td><td>
 
-Priority of the issue. Available options are:-   Critical
--   High
--   Moderate
--   Low
--   Planning
+Urgency of the issue. The options are as follows:-   **1-Critical**
+-   **2-High**
+-   **3-Moderate**
+-   **4-Low**
+-   **5-Planning**
 
 </td></tr><tr><td>
 
@@ -136,11 +138,11 @@ Issue rating
 
 </td><td>
 
-Rating of the issue. Available options are:-   Very High
--   High
--   Moderate
--   Low
--   Very Low
+Severity or risk level of the issue. The options are as follows:-   **1-Very High**
+-   **2-High**
+-   **3-Moderate**
+-   **4-Low**
+-   **5-Very Low**
 
 </td></tr><tr><td>
 
@@ -148,7 +150,7 @@ Description
 
 </td><td>
 
-Approver of the scenario analysis plan.
+Detailed explanation of the issue. For example, `The "Manage change requests" control does not meet compliance requirements.`
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -160,7 +162,7 @@ Assignment group
 
 </td><td>
 
-Assignment group for the issue. For example, Application Development group.
+Group to whom the issue is assigned. For example, GRC Business Users.
 
 </td></tr><tr><td>
 
@@ -168,7 +170,7 @@ Assigned to
 
 </td><td>
 
-User that the issue is assigned to.
+User to whom the issue is assigned.
 
 </td></tr><tr><td>
 
@@ -176,9 +178,9 @@ Issue manager group
 
 </td><td>
 
-Manager group that the issue is assigned to. Available options are:-   Compliance Managers
--   IT Risk Managers
--   Risk Managers
+Manager group responsible for overseeing the issue. Available options are:-   **Compliance Managers**
+-   **IT Risk Managers**
+-   **Risk Managers**
 
 </td></tr><tr><td>
 
@@ -186,7 +188,7 @@ Issue manager
 
 </td><td>
 
-Manager that the issue is assigned to.
+Manager responsible for overseeing the issue.
 
 </td></tr><tr><td>
 
@@ -194,7 +196,7 @@ Watchlist
 
 </td><td>
 
-Users who are on the watchlist for the issue.
+Users who must receive notifications about updates to the issue.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -310,7 +312,7 @@ Recommendation
 
 </td><td>
 
-Recommendation for the issue.
+Recommendation for the issue. For example, `Ensure that changes to the entity's controls follow an approved change process.`
 
 </td></tr><tr><td>
 
@@ -318,7 +320,7 @@ Action plan
 
 </td><td>
 
-Action plan for the issue.
+Action plan for the issue. For example, `Leverage the approved change management procedures in the RCM.`
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -330,7 +332,7 @@ Work notes
 
 </td><td>
 
-Work notes for the issue.
+Internal notes about the issue. These are private and visible only to users with access to the issue record.
 
 </td></tr><tr><td>
 
@@ -338,7 +340,7 @@ Additional comments
 
 </td><td>
 
-Additional comments for the issue.
+Additional information about the issue that you want to share with your customers. These are visible to external stakeholders and customers.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -350,7 +352,7 @@ Functional domain
 
 </td><td>
 
-Functional domain for the issue.
+Functional domain that the issue belongs to. For example, IT risk and compliance.
 
 </td></tr></tbody>
 </table>

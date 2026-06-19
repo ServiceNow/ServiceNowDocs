@@ -2,6 +2,7 @@
 title: Recall a processed time sheet
 description: You can recall an incorrect time sheet in the Approved or Processed state to return it to the submitter. The submitter can then make the necessary changes and resubmit the time sheet.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/time-card-management/recall-approved-time-sheet.html
 release: zurich
 product: Time Card Management
 classification: time-card-management
@@ -21,21 +22,21 @@ Role required: timecard\_approver or timecard\_admin
 
 ## About this task
 
-The recall option is available only if the **Allow recall** option is selected on the associated [time sheet policy](create-time-sheet-policy.md).
+The recall option is available only if the **Allow recall** option is selected on the associated [time sheet policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/time-card-management/create-time-sheet-policy.md).
 
 ## Procedure
 
 1.  Navigate to the approved or processed time sheet you want to recall using one of the following options.
 
-<table id="choicetable_s4y_wb4_xgb"><thead><tr><th align="left" id="d255834e78">
+<table id="choicetable_s4y_wb4_xgb"><thead><tr><th align="left" id="d156717e78">
 
 Option
 
-</th><th align="left" id="d255834e81">
+</th><th align="left" id="d156717e81">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d255834e87">
+</th></tr></thead><tbody><tr><td id="d156717e87">
 
 **From the Time Sheet Portal**
 
@@ -49,7 +50,7 @@ Description
 
 The time sheet must be within the recall period specified in the time sheet policy.
 
-</td></tr><tr><td id="d255834e132">
+</td></tr><tr><td id="d156717e132">
 
 **From the Time Sheet form**
 
@@ -72,5 +73,5 @@ The time sheet must be within the recall period.
 -   Creates negative expense lines to zero out the corresponding expense lines created when the time sheet was approved.
 -   Returns the time sheet to its submitter for modifications.
 
-**Parent Topic:**[Time Sheets](../concept/time-sheets.md)
+**Parent Topic:**[Time Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/time-card-management/time-sheets.md)
 

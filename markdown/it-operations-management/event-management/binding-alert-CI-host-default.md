@@ -2,11 +2,12 @@
 title: Binding alerts to a specific host CI \(default binding\)
 description: Binding alerts to Configuration Items \(CIs\) using the Node field or the CI Identifier field ensures accurate event association. By comparing an event record’s Node or CI Identifier value, alerts are linked to the right system. This improves response, root cause analysis, and impact assessment by providing clear visibility into affected assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/binding-alert-CI-host-default.html
 release: zurich
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 3
 breadcrumb: [Binding alerts to CIs, Event rules, Processing Events, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---

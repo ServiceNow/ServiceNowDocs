@@ -2,7 +2,10 @@
 title: Import queues
 description: Import queues from your contact center provider to ensure that customer interactions are routed to the appropriate agents based on their skills and availability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/import-queues.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-11-07"
 reading_time_minutes: 3
@@ -41,7 +44,7 @@ Follow these steps in the workflow to import queues from your selected contact c
 
 3.  Select the **Import Queues** tab from the navigation pane.
 
-    ![ISelect queues from your selected contact center provider for importing](../image/int-import-queues-select-queues.png "Select queues for importing")
+    \[Omitted image "int-import-queues-select-queues.png"\] Alt text: ISelect queues from your selected contact center provider for importing
 
 4.  Search for specific queues by using the search bar or select **Fetch all queues** to fetch the entire list of available queues.
 5.  Once you’ve fetched a set of queues, select the queues you plan to import by selecting the check box next to each queue.
@@ -53,7 +56,7 @@ Follow these steps in the workflow to import queues from your selected contact c
 
 ## Assign channels
 
-![Select queues and assign service channels](../image/int-select-queues-to-assign-service-channels.png "Select queues to assign service channels")
+\[Omitted image "int-select-queues-to-assign-service-channels.png"\] Alt text: Select queues and assign service channels
 
 1.  Select one or more queues from the displayed queues list by selecting the check box next to them.
 
@@ -61,7 +64,7 @@ Follow these steps in the workflow to import queues from your selected contact c
 
 2.  Select **Assign service channels** to display the service channel modal.
 
-    ![Assign service channels for selected queues](../image/int-assign-service-channels.png "Assign service channels")
+    \[Omitted image "int-assign-service-channels.png"\] Alt text: Assign service channels for selected queues
 
 3.  Select one or multiple service channels and assign them to the selected queues.
 4.  Repeat steps \(1\) through \(3\) and confirm that all queues have at least one service channel assigned to them.
@@ -69,12 +72,12 @@ Follow these steps in the workflow to import queues from your selected contact c
 
     **Note:** Each pairing of a new queue and service channel creates a unique queue record in ServiceNow.
 
-    ![Import queues with assigned service channels](../image/int-import-queues.png "Import queues")
+    \[Omitted image "int-import-queues.png"\] Alt text: Import queues with assigned service channels
 
 
 ## View summary
 
-![View summary of new and existing imported queues from the contact center provider](../image/int-view-summary.png "Summary of import")
+\[Omitted image "int-view-summary.png"\] Alt text: View summary of new and existing imported queues from the contact center provider
 
 1.  In the **View summary** step, review a summary of your recent actions.
 2.  Additionally, you can also choose to import more queues or view all queues in the table.

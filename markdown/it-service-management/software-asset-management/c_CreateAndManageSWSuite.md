@@ -2,6 +2,7 @@
 title: Create and manage software suites using the legacy Software Asset Management plugin
 description: Software uses the concept of suites instead of bundles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/software-asset-management/c\_CreateAndManageSWSuite.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -26,14 +27,14 @@ Use the **Inference percent** and **Inference mandatory** options for even great
 
 For example, specify the **Inference percent** as 80% and set the **Inference mandatory** option to **true** on Microsoft Access. These settings specify that Microsoft Access must be installed, along with 3 out of 4 other products \(Microsoft Word, Microsoft Excel, Microsoft PowerPoint, and Microsoft Outlook\) to infer that Microsoft Office Professional is installed.
 
-![The interference percent and Interference mandatory fields](../image/InferenceOptionsCalgary.png "The interference percent and interference mandatory fields")
+\[Omitted image "InferenceOptionsCalgary.png"\] Alt text: The interference percent and Interference mandatory fields
 
 To make the new software model record a parent record in a suite:
 
 1.  Open a software model record.
 2.  In the Suite Components section, double-click an empty row under **Suite child**.
 
-    ![The suite child](../image/SoftwareParentSuiteCalgary.png "Suite child")
+    \[Omitted image "SoftwareParentSuiteCalgary.png"\] Alt text: The suite child
 
 3.  Add the software to include in the suite.
 4.  \[Optional\] Set the **Inference mandatory** option to **true** if the software must be installed to count the model as a suite.
@@ -44,7 +45,7 @@ To make the new software record a child item:
 1.  Open a software model record.
 2.  In the Suite Parents section, double-click an empty row under **Suite parent**.
 
-    ![The Suite parent](../image/SoftwareChildSuiteCalgary.png "Suite parent")
+    \[Omitted image "SoftwareChildSuiteCalgary.png"\] Alt text: The Suite parent
 
 3.  Add the suite to which this software model should belong.
 4.  Repeat as necessary.
@@ -52,5 +53,5 @@ To make the new software record a child item:
     **Note:** When a change is made to a suite, a scheduled job called **Calculate suites \[Software Suite Model\]** is created. The job runs instantly, calculates any suites, and then deletes itself. The calculations are stored in the cmdb\_sam\_sw\_install table under inferred suite.
 
 
-**Parent Topic:**[Manage software models using the legacy Software Asset Management plugin](../task/t_ManagingSoftwareModels.md)
+**Parent Topic:**[Manage software models using the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management/t_ManagingSoftwareModels.md)
 

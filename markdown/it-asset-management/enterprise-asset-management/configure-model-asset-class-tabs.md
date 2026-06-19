@@ -2,6 +2,7 @@
 title: Configure tabs in the Enterprise Asset Workspace
 description: Configure the options to hide or display various tabs, including tabs that are associated with specific model categories, in the Enterprise model management view and Enterprise asset estate view of the Enterprise Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/configure-model-asset-class-tabs.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -44,9 +45,9 @@ Role required: sn\_eam.enterprise\_admin
     -   Wearables class tab configuration
     **Important:**
 
-    You can also select **New** to create an additional tab configuration for any custom top tier model category that you have added under the enterprise model category. However, ServiceNow strongly recommends that you use only existing top tier model categories, such as Medical or Construction, with custom sub-categories instead. For more information on creating custom model categories, see [Create model categories](create-custom-model-category.md).
+    You can also select **New** to create an additional tab configuration for any custom top tier model category that you have added under the enterprise model category. However, ServiceNow strongly recommends that you use only existing top tier model categories, such as Medical or Construction, with custom sub-categories instead. For more information on creating custom model categories, see [Create model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-custom-model-category.md).
 
-    If you choose to create an additional tab configuration, you must also use UI Builder to manually add the corresponding model and asset tabs to the Enterprise model management view and Enterprise asset estate view. For detailed instructions, see [Add tabbed content to UI Builder pages](https://www.servicenow.com/docs/access?context=tabs-components&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+    If you choose to create an additional tab configuration, you must also use UI Builder to manually add the corresponding model and asset tabs to the Enterprise model management view and Enterprise asset estate view. For detailed instructions, see .
 
 4.  On the tab configuration record, modify the fields as needed.
 

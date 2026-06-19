@@ -2,6 +2,7 @@
 title: Wi-Fi data table
 description: Retrieve the device name, access point, and connection date and time for a workplace location. The Workplace Connectors Wi-Fi data checks the occupancy of a workplace location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-connectors/wsd-wi-fi-data-table.html
 release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
@@ -33,8 +34,8 @@ Role required: admin
     |Device Name|The name of the device that is connected to Wi-Fi.|
     |Location|Workplace locations that are assigned to the Wi-Fi data provider. The location data shows the complete location hierarchy \(Region, site, campus, buildings, floors, and spaces\).|
     |Wap Client Name|The name of the client device connecting to a wireless access point.|
-    |Event data|Time series data. Select this value to visualize the time-series data in different transforms. For more information, see [MetricBase transforms](https://www.servicenow.com/docs/access?context=metricbase-transforms&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).|
+    |Event data|Time series data. Select this value to visualize the time-series data in different transforms. For more information, see .|
 
 
-**Parent Topic:**[Setup Workplace Connectors for Wi-Fi data](setup-workplace-connectors-for-wi-fi-data.md)
+**Parent Topic:**[Setup Workplace Connectors for Wi-Fi data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/setup-workplace-connectors-for-wi-fi-data.md)
 

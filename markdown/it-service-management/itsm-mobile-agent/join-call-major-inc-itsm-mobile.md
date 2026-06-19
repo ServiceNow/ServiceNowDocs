@@ -2,6 +2,7 @@
 title: Join an active conference call from a major incident
 description: You can join an active conference call from a major incident record to discuss about the resolution of the issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/join-call-major-inc-itsm-mobile.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -27,10 +28,10 @@ Role required: major\_incident\_manager, itil, itil\_admin, or admin
 
 3.  Tap **Active collaborations**.
 
-    ![Active collaborations in major incident tab.](../image/major-inc-active-collab.png)
+    \[Omitted image "major-inc-active-collab.png"\] Alt text: Active collaborations in major incident tab.
 
 4.  Tap **Join call**.
 
-    ![Join Active conf call from major incident](../image/join-conf-call-maj-inc.png)
+    \[Omitted image "join-conf-call-maj-inc.png"\] Alt text: Join Active conf call from major incident
 
 

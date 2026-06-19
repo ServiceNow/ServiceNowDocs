@@ -2,6 +2,7 @@
 title: Set up the Confluent Kafka REST Proxy spoke
 description: Integrate Confluent Kafka REST proxy with your ServiceNow instance using basic authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/setup-kafka-spoke.html
 release: zurich
 product: Integration Hub
 classification: integration-hub

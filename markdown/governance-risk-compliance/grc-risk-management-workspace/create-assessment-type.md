@@ -2,6 +2,7 @@
 title: Create an assessment type
 description: The risk manager can create a set of questions for each risk assessment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/create-assessment-type.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -113,5 +114,5 @@ Additional user roles that can view the results and access records associated wi
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Assess risks](../concept/assess-risk-old-way.md)
+**Parent Topic:**[Assess risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/assess-risk-old-way.md)
 

@@ -2,6 +2,7 @@
 title: Update set transfers
 description: When an update set is completed, you can transfer it between instances to move customizations from development, through testing, and into production.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/system-update-sets/update-set-transfers.html
 release: zurich
 product: System Update Sets
 classification: system-update-sets
@@ -28,5 +29,5 @@ If the source instance has basic authentication turned on for SOAP requests, you
 
 ## Transferring with an XML file
 
-You can unload an update set as an XML file and then transfer it to another instance. See [Save an update set as a local XML file](../task/t_SaveAnUpdateSetAsAnXMLFile.md#) for details.
+You can unload an update set as an XML file and then transfer it to another instance. See [Save an update set as a local XML file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/t_SaveAnUpdateSetAsAnXMLFile.md) for details.
 

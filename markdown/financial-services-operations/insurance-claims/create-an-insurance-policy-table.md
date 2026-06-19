@@ -2,6 +2,7 @@
 title: Create an insurance policy table
 description: Create a table that extends the Insurance Policy \(sn\_bom\_ins\_policy\) table in the Insurance claims application. You use this table to hold all the information about insurance policies of a particular type that you sold to your customers. Creating tables helps to ensure that each type of policy is properly organized and maintained within the system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/create-an-insurance-policy-table.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims
@@ -42,7 +43,7 @@ Each type of insurance policy requires a table that extends the Insurance Policy
 
 ## What to do next
 
-Set up the roles, establish read-and-write access control lists \(ACLs\), and then grant access to the table. For more information, see [Create a role to access insurance policy tables](create-roles-acls-and-grant-access.md).
+Set up the roles, establish read-and-write access control lists \(ACLs\), and then grant access to the table. For more information, see [Create a role to access insurance policy tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/create-roles-acls-and-grant-access.md).
 
-**Parent Topic:**[Setting up an insurance policy for Insurance claims](../concept/set-up-an-insurance-policy.md)
+**Parent Topic:**[Setting up an insurance policy for Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/set-up-an-insurance-policy.md)
 

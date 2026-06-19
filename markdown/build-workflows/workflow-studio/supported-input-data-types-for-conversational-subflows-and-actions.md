@@ -2,6 +2,7 @@
 title: Supported input data types for conversational subflows and actions
 description: Conversational subflows and actions support a limited number of input data types. To be compatible with conversational interfaces, an action or a subflow must only include inputs that use supported data types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/supported-input-data-types-for-conversational-subflows-and-actions.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -41,5 +42,5 @@ Conversational subflows and actions support a limited number of input data types
 |string\_full\_utf8|String \(Full UTF-8\)|
 |table\_name|Table Name|
 
-**Parent Topic:**[Flows, subflows, and actions reference](flow-designer-reference.md)
+**Parent Topic:**[Flows, subflows, and actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-designer-reference.md)
 

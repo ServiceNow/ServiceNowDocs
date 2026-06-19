@@ -2,6 +2,7 @@
 title: Delete a host record in Infoblox
 description: When a virtual machine is de-provisioned, delete the host record from Infoblox. Deleting the host record enables that IP address to be available and be reused for other virtual machines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/delete-hostrecord-infoblox.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

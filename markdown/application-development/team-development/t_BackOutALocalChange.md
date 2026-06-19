@@ -2,6 +2,7 @@
 title: Back out a local change
 description: Back out all local changes and restore the last version reconciled with the parent instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/t\_BackOutALocalChange.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -21,9 +22,9 @@ Role required: admin
 
 ## Procedure
 
-1.  [Define a parent instance](t_SelectTheParentInstance.md).
+1.  [Define a parent instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_SelectTheParentInstance.md).
 
-2.  [Pull changes from the parent instance](t_PullAVersion.md).
+2.  [Pull changes from the parent instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_PullAVersion.md).
 
 3.  Navigate to **Team Development** &gt; **Team Dashboard**.
 
@@ -32,5 +33,5 @@ Role required: admin
 5.  Select the local change and select **Back Out** or **Back Out All**.
 
 
-**Parent Topic:**[Local changes](../concept/c_LocalChanges.md)
+**Parent Topic:**[Local changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_LocalChanges.md)
 

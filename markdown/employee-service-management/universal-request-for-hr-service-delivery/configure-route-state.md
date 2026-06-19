@@ -2,6 +2,7 @@
 title: Transfer configuration
 description: You can enable agents to transfer department-specific tickets, such as an incident ticket or an HR case back to the Universal Request \(UR\), to another department, or service. This transfer configuration allows you to determine what happens to the departmental ticket when the request is transferred to another department or back to UR.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-request-for-hr-service-delivery/configure-route-state.html
 release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -47,7 +48,7 @@ For example, if an incident ticket is transferred without resolution, in the **T
 
 To perform this transfer action, you must configure the transfer configuration details in the Universal Request application.
 
-![Transfer configuration form](../images/ur-route-config.png)
+\[Omitted image "ur-route-config.png"\] Alt text: Transfer configuration form
 
 ## Procedure
 
@@ -57,8 +58,8 @@ To perform this transfer action, you must configure the transfer configuration d
 
 3.  On the form, fill in the fields.
 
-    For more information on the field descriptions, see [Transfer configuration form](../reference/ur-route-config-form.md).
+    For more information on the field descriptions, see [Transfer configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-route-config-form.md).
 
 
-**Parent Topic:**[Configuring Universal Request](../concept/configure-ur.md)
+**Parent Topic:**[Configuring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/configure-ur.md)
 

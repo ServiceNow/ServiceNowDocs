@@ -1,7 +1,8 @@
 ---
 title: Service Portal roles
-description: Service Portal installs these roles.Manages the configuration of portals created by Service Portal.Manages posting announcements to portals.Can create User Experience Analytics settings for Service Portal.Users with this role can view the Analytics Dashboard link and settings within in the application navigator, and have viewer role permissions for portal metrics in the Service Portal Analytics Dashboard.
+description: Service Portal installs these roles.Manages the configuration of portals created by Service Portal.Manages posting announcements to portals.Can create Usage Insights settings for Service Portal.Users with this role can view the Analytics Dashboard link and settings within in the application navigator, and have viewer role permissions for portal metrics in the Service Portal Analytics Dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/service-portal-roles.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -15,9 +16,9 @@ breadcrumb: [Service Portal reference, Service Portal, Configure UIs and portals
 
 Service Portal installs these roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing subscriptions, see  and contact your account representative.
 
-**Parent Topic:**[Service Portal reference](../concept/reference-service-portal.md)
+**Parent Topic:**[Service Portal reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/reference-service-portal.md)
 
 ## Service Portal administrator \[sp\_admin\]
 
@@ -64,7 +65,7 @@ None.
 
 ## Portal analytics administrator \[portal\_analytics\_admin\]
 
-Can create User Experience Analytics settings for Service Portal.
+Can create Usage Insights settings for Service Portal.
 
 ### Contains Roles
 

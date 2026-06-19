@@ -2,6 +2,7 @@
 title: Enable logging for Advanced Work Assignment
 description: Enable logging to monitor AWA routing and assignment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/awa-activate-logging.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -114,5 +115,5 @@ Layout format that should be applied to the logs.
 5.  To view the system log, navigate to **System Logs** &gt; **System Log** &gt; **All**.
 
 
-**Parent Topic:**[Configuring Advanced Work Assignment](installing-awa.md)
+**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

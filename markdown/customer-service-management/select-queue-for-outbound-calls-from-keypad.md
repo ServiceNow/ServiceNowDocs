@@ -2,7 +2,10 @@
 title: Select queues for outbound calls from keypad, phone directory, and Interaction record
 description: This procedure describes how to select a queue and place outbound calls using the Global Call keypad and phone directory in the CCaaS platform. It covers both standard and mandatory queue selection scenarios.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/select-queue-for-outbound-calls-from-keypad.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-01-02"
 reading_time_minutes: 1
@@ -32,7 +35,7 @@ Follow these steps to select a queue and place an outbound call using the keypad
 
     You can also click-to-dial from an Interaction record. In the keypad, select and set a queue as default for outbound calls. Once you set a queue for outbound calls and click-to-dial from a different Interaction record, the Active Call window displays. This window is integrated with the ICC, instead of the Global Call window.
 
-    ![Click-to-call from an Interaction record](../image/int-click-to-call-with-queue-selection.png)
+    \[Omitted image "int-click-to-call-with-queue-selection.png"\] Alt text: Click-to-call from an Interaction record
 
 2.  In the **Search** field, begin entering the name of the queue to search for it or select the queue directly from the list displaying available queues.
 
@@ -40,7 +43,7 @@ Follow these steps to select a queue and place an outbound call using the keypad
 
 4.  If you set a queue as default, it applies to all your outbound calls.
 
-    ![Enable the toggle to set a queue to default for all outbound calls](../image/int-set-queue-to-default.png)
+    \[Omitted image "int-set-queue-to-default.png"\] Alt text: Enable the toggle to set a queue to default for all outbound calls
 
 5.  Use the keypad or the phone directory to enter or select the phone number.
 

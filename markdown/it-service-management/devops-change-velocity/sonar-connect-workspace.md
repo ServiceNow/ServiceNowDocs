@@ -2,11 +2,12 @@
 title: Onboard SonarQube to DevOps Change Velocity — Workspace
 description: Connect to your Sonar instance using the DevOps Change Workspace playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/sonar-connect-workspace.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [SonarQube, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -17,7 +18,7 @@ Connect to your Sonar instance using the DevOps Change Workspace playbook.
 
 ## Before you begin
 
-Complete the tasks specified in the [Getting started with DevOps Change Velocity](../concept/setting-up-devops-change-velocity.md) topic.
+Complete the tasks specified in the [Getting started with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md) topic.
 
 Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
@@ -25,15 +26,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard SonarQube.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d219037e90">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d108472e90">
 
 Option
 
-</th><th align="left" id="d219037e93">
+</th><th align="left" id="d108472e93">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d219037e99">
+</th></tr></thead><tbody><tr><td id="d108472e99">
 
 **Homepage**
 
@@ -43,25 +44,25 @@ Steps
 2.  On the  Connect to a tool  modal, select SonarQube from the **Software quality** category.
 
 
-</td></tr><tr><td id="d219037e126">
+</td></tr><tr><td id="d108472e126">
 
 **Applications module**
 
 </td><td>
 
-1.  Select **Applications** \(![Applications icon.](../image/applications-icon.png)\).
-2.  Select an existing application, or create one. To create an application, see [Create an application - Classic](app-create-all.md).
+1.  Select **Applications** \(\[Omitted image "applications-icon.png"\] Alt text: Applications icon.\).
+2.  Select an existing application, or create one. To create an application, see [Create an application - Classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/app-create-all.md).
 3.  From the  Recommended actions  pane, select the  **Connect a tool ** card.
 4.  On the  Connect to a tool  modal, select SonarQube from the **Software quality** category.
 
 
-</td></tr><tr><td id="d219037e175">
+</td></tr><tr><td id="d108472e175">
 
 **Tools module**
 
 </td><td>
 
-1.  Select **Tools** \(![Tools icon.](../image/tools-icon-wkspc.png)\).
+1.  Select **Tools** \(\[Omitted image "tools-icon-wkspc.png"\] Alt text: Tools icon.\).
 2.  From the Capability list, select **Software quality**.
 3.  Select **Connect a tool**.
 4.  On the  **Connect to a tool ** modal, select **SonarQube**.
@@ -80,11 +81,11 @@ Steps
     3.  In the **Password or access token** field, enter the token generated in Sonar.
     4.  If your Sonar instance is attached to a MID Server, select the **Use MID Server** option and enter its details.
 
-        A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+        A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see MID Server selection.
 
 4.  Click **Connect** and review the details of the successfully connected Sonar instance.
 
-    ![Connect to SonarQube instance in DevOps Change workspace.](../image/sonar-plybk-01.png)
+    \[Omitted image "sonar-plybk-01.png"\] Alt text: Connect to SonarQube instance in DevOps Change workspace.
 
 5.  Specify the access for the tool.
 
@@ -103,16 +104,16 @@ Steps
         This option enables all users having the DevOps App Owner role to access the tool. If selected, they’ll be able to view, associate, discover, import historical data, and modify pipeline steps \(if applicable\) of the tool's objects.
 
     3.  Select **Assign**.
-    ![Specify tool access](../image/sonar-plybk-03.png)
+    \[Omitted image "sonar-plybk-03.png"\] Alt text: Specify tool access
 
 6.  From the **Summary** page, select **View tool record** to review the details of the connected instance.
 
-    ![Connection summary](../image/sonar-plybk-04.png)
+    \[Omitted image "sonar-plybk-04.png"\] Alt text: Connection summary
 
 
 ## Result
 
 You’ve successfully onboarded your SonarQube tool to DevOps Change Velocity.
 
-**Parent Topic:**[SonarQube integration with DevOps Change Velocity](../concept/sonarqube-devops-integration-devops.md)
+**Parent Topic:**[SonarQube integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/sonarqube-devops-integration-devops.md)
 

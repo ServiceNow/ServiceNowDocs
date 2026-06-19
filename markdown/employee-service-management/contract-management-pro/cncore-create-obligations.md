@@ -2,6 +2,7 @@
 title: Create obligation records
 description: Create obligation records for signed contracts in Obligation Management to fulfill the responsibilities specified in the contract through obligation tasks. Recurring obligation tasks are automatically created from the record. You can also add ad hoc obligation tasks that are performed only once or at irregular intervals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-create-obligations.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -18,7 +19,7 @@ Create obligation records for signed contracts in Obligation Management to fulfi
 
 ## About this task
 
-**Note:** For more information about adding obligation tasks that are performed only once or at irregular intervals, see [Create an ad hoc obligation task](cncore-adhoc-ob-task.md).
+**Note:** For more information about adding obligation tasks that are performed only once or at irregular intervals, see [Create an ad hoc obligation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-adhoc-ob-task.md).
 
 ## Before you begin
 
@@ -32,28 +33,28 @@ Role required: sn\_cm\_obligation.obligation\_fulfiller
 
 1.  Open an executed contract from the your workspace.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d681153e83">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d80982e83">
 
 Method
 
-</th><th align="left" id="d681153e86">
+</th><th align="left" id="d80982e86">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d681153e92">
+</th></tr></thead><tbody><tr><td id="d80982e92">
 
 **Contract Workspace**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Contract Workspace**.
-2.  Select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **Executed Contracts**.
 4.  Select **All**.
 5.  Select an active contract repository record.
 
 
-</td></tr><tr><td id="d681153e140">
+</td></tr><tr><td id="d80982e140">
 
 **Workspace used by your application**
 
@@ -74,13 +75,13 @@ Steps
 
 4.  On the form, fill in the fields.
 
-    For more information, see [Obligation form](../reference/cncore-obligation-form.md).
+    For more information, see [Obligation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-obligation-form.md).
 
 5.  Select **Save**.
 
 
--   **[Create an ad hoc obligation task](cncore-adhoc-ob-task.md)**  
+-   **[Create an ad hoc obligation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-adhoc-ob-task.md)**  
 Create an obligation task required only once or at irregular intervals to track and fulfill an obligation specified in a contract.
 
-**Parent Topic:**[Obligation Management](../concept/cncore-obligation-management.md)
+**Parent Topic:**[Obligation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-obligation-management.md)
 

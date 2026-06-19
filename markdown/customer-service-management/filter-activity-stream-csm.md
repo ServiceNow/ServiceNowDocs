@@ -2,7 +2,10 @@
 title: Use the Activity Stream
 description: Enhancements to Activity stream help reduce cluttering the Activity Stream and the agent effort to understand the case context.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/filter-activity-stream-csm.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -31,7 +34,7 @@ Enhancements in the Activity Stream include the following:
 
     You would see the Activity Stream with the filter options.
 
-2.  Click the Filter icon \(![Filter icon.](../image/filter-activity-stream.png)\).
+2.  Click the Filter icon \(\[Omitted image "filter-activity-stream.png"\] Alt text: Filter icon.\).
 
     The Filter sets are displayed. The conversation filter sets items such as emails, comments, and work notes.
 
@@ -49,9 +52,9 @@ Enhancements in the Activity Stream include the following:
 
     Flagged messages are visible to everyone who has access to the case.
 
-6.  Click the Sort icon \(![Sort icon.](../image/sort-filter-activity-stream.png)\) to sort the events and messages based on the timeline.
+6.  Click the Sort icon \(\[Omitted image "sort-filter-activity-stream.png"\] Alt text: Sort icon.\) to sort the events and messages based on the timeline.
 
-7.  Click the More Options icon \(![More options icon.](../image/expand-posts.png)\) and select **Expand all posts** to view the post details or select **Collapse all posts** to go back to the previous state.
+7.  Click the More Options icon \(\[Omitted image "expand-posts.png"\] Alt text: More options icon.\) and select **Expand all posts** to view the post details or select **Collapse all posts** to go back to the previous state.
 
 8.  Click **Show more** in an email to view the latest email response in an expanded form.
 
@@ -61,5 +64,5 @@ Enhancements in the Activity Stream include the following:
 **Related topics**  
 
 
-[Configure Activity stream](https://www.servicenow.com/docs/access?context=configure-activity-stream-general&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US)
+[bundle-platux.configure-activity-stream-general]
 

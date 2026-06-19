@@ -2,6 +2,7 @@
 title: Define ADAM user accounts
 description: Define user accounts in ADAM. One user account is used for the instance to connect with and the other user account is for ADAMSync.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/ldap-integration/t\_DefineUserAccounts.html
 release: zurich
 product: LDAP integration
 classification: ldap-integration
@@ -33,7 +34,7 @@ New ADAM User accounts are disabled by default. You will need to enable the new 
 
 2.  Right-click the user object and reset the password.
 
-3.  Test the new accounts by using LDP as defined in [Active Directory Application Mode \(ADAM\)](../concept/c_ActiveDirectoryApplicationMode.md) to make sure they can connect.
+3.  Test the new accounts by using LDP as defined in [Active Directory Application Mode \(ADAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/ldap-integration/c_ActiveDirectoryApplicationMode.md) to make sure they can connect.
 
     Use the **LDAP** &gt; **View/Tree** option, leaving the Base DN blank to make sure that you can view the objects in the directory by using the new accounts. The Configuration, Schema, and the domain partition should be visible in the left pane. Traverse the domain partition. If you are using a new local ADAM account, it will show ‘No Children’ which means that you don’t have read access to the objects. Verify the Setup group memberships and re-test.
 

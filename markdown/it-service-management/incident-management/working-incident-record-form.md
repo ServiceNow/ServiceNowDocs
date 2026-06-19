@@ -2,6 +2,7 @@
 title: Working with incident record form
 description: Once an incident is created, you can use the incident record form to perform various actions to track, process and resolve the incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/working-incident-record-form.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -17,7 +18,7 @@ Once an incident is created, you can use the incident record form to perform var
 
 You can do the following features in the incident record form:
 
--   If you want to mail the incident record, click the more options icon \(![More options icon](../../change-management/image/more-options.png)\) in the title bar and select **Email**.
+-   If you want to mail the incident record, click the more options icon \(\[Omitted image "more-options.png"\] Alt text: More options icon\) in the title bar and select **Email**.
 
     The user who requested the incident and the user who is assigned to the incident are automatically populated in the list of recipients.
 
@@ -33,6 +34,6 @@ You can do the following features in the incident record form:
     -   DEX requires a separate entitlement.
     -   This link is available to the agent only if the following conditions are met:
         -   The selected CI is of type Device, which is also known as Endpoint.
-        -   The DEX plugin is installed on the instance. For more information on DEX, see [Digital End-User Experience](../../digital-end-user-experience/concept/dex-landing.md).
+        -   The DEX plugin is installed on the instance. For more information on DEX, see [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dex-landing.md).
         -   The DEX agent is installed on the selected CI.
 

@@ -2,6 +2,7 @@
 title: Virtual Agent conversations for Vaccine Administration Management
 description: Virtual Agent conversations enable users to get help with the vaccination process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/vaccine-administration-management/va-vaccine-admin-mgmt.html
 release: zurich
 product: Vaccine Administration Management
 classification: vaccine-administration-management

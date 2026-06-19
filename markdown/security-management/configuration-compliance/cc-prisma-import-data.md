@@ -2,6 +2,7 @@
 title: Data mapping
 description: The data from Prisma Cloud is imported in the Configuration Compliance module of the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/cc-prisma-import-data.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance
@@ -78,5 +79,5 @@ The Prisma Alerts integration imports additional types of information, such as r
 
 ## CI lookup rules
 
-The base system CI lookup rules are available for Resource ID, Name, and S3 Bucket. For more information on the CI lookup rules, see [CI lookup rules for Microsoft Defender for Cloud Integration for Security Operations and Palo Alto Prisma Cloud](../../../vulnerability-config-compliance/reference/cloud-ci-look-up-for-ms-paloalto.md).
+The base system CI lookup rules are available for Resource ID, Name, and S3 Bucket. For more information on the CI lookup rules, see [CI lookup rules for Microsoft Defender for Cloud Integration for Security Operations and Palo Alto Prisma Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/configuration-compliance/cloud-ci-look-up-for-ms-paloalto.md).
 

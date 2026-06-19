@@ -2,6 +2,7 @@
 title: Request time off with On-Call Scheduling
 description: Use the Time-off requests tab to view a list of time-off requests that are divided into pending and completed requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/request-time-off.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -27,9 +28,9 @@ Role required: Itil, sn\_incident\_write
 
     A list of time-off requests is displayed. The list is divided into pending and completed requests.
 
-3.  Tap the filter icon \(![Filter icon.](../../../product/knowledge-management/image/filter-settings.png)\) to view specific time-off requests.
+3.  Tap the filter icon \(\[Omitted image "filter-settings.png"\] Alt text: Filter icon.\) to view specific time-off requests.
 
-4.  Tap the menu icon \(![Menu icon.](../image/inveted-menu-ocs.png)\) and select **Request time-off**.
+4.  Tap the menu icon \(\[Omitted image "inveted-menu-ocs.png"\] Alt text: Menu icon.\) and select **Request time-off**.
 
 5.  Complete the following fields on the Request time-off form:
 

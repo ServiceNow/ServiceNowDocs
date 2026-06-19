@@ -2,6 +2,7 @@
 title: Configure the ADFS relying party claim rules
 description: Edit the claim rules to enable proper communication with the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/t\_ConfigureADFSClaimRules.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -35,7 +36,7 @@ Role required: admin
 
 7.  Set the **Attribute store** to `Active Directory`, the **LDAP Attribute** to `E-Mail-Addresses`, and the **Outgoing Claim Type** to `E-mail Address`.
 
-    ![Get attribute.](../image/Adfs-editReplyingPartyClaimRules-01.png)
+    \[Omitted image "Adfs-editReplyingPartyClaimRules-01.png"\] Alt text: Get attribute.
 
     ```
     c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname", Issuer == "AD AUTHORITY"]  
@@ -59,11 +60,11 @@ Role required: admin
 
 13. Set the **Outgoing claim type** to `Name ID` and the **Outgoing name ID format** to `Email`.
 
-    **Note:** These values must match the [Name ID policy](t_SetUpNameIDPolicy.md) you define during SAML 2.0 configuration.
+    **Note:** These values must match the [Name ID policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/t_SetUpNameIDPolicy.md) you define during SAML 2.0 configuration.
 
 14. Select **Pass through all claim values**.
 
-    ![Email to Name ID.](../image/Adfs-editReplyingPartyClaimRules-02.png)
+    \[Omitted image "Adfs-editReplyingPartyClaimRules-02.png"\] Alt text: Email to Name ID.
 
     This claim rule should look similar to the following rule language.
 

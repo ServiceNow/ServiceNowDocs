@@ -2,6 +2,7 @@
 title: NowPushService class - Android
 description: The NowPushService class provides functions that enable interaction with the Push Notification service.Processes a push notification request.Registers a unique Firebase token with the ServiceNow instance used to identify the push notifications for the current Android device and specified application.Unregisters the specified Firebase push token with the associated ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/cllent-mobile-api-reference/NowPushServiceAndroidAPI.html
 release: zurich
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -29,28 +30,28 @@ configuration
 
 </td><td>
 
-Service configuration to associate with the service.Data type: [NowServiceConfiguration](../../NowServiceConfiguration/concept/NowServiceConfigurationAndroidAPI.md)
+Service configuration to associate with the service.Data type: [NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowServiceConfigurationAndroidAPI.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK - Android](../../concept/MobileSDKAndroidAPI.md)
+</table>**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## NowPushService - handlePush\(remoteMessage: RemoteMessage, successCallback: Consumer&lt;NowPushPayload&gt;, errorCallback: Consumer&lt;Throwable&gt;\)
 
 Processes a push notification request.
 
-**Note:** Currently the only implemented push notification type is `NowPushVirtualAgent`. Any other passed push notification type returns a [NotSupportedPushError](../../NotSupportedPushError/concept/NotSupportedPushErrorAndroidAPI.md#) object.
+**Note:** Currently the only implemented push notification type is `NowPushVirtualAgent`. Any other passed push notification type returns a [NotSupportedPushError](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NotSupportedPushErrorAndroidAPI.md) object.
 
 |Name|Type|Description|
 |----|----|-----------|
 |remote Message|[Remote Message](https://firebase.google.com/docs/reference/android/com/google/firebase/messaging/RemoteMessage)|Notification as received by `com.google.firebase.messaging.FirebaseMessagingService.onMessageReceived`. For additional information, see [Receive messages in an Android app](https://firebase.google.com/docs/cloud-messaging/android/receive).|
-|success Callback|[Consumer](https://developer.android.com/reference/kotlin/java/util/function/Consumer) &lt;[NowPushPayload](../../NowPushPayload/concept/NowPushPayloadAndroidInterface.md#)&gt;|Callback to return the processed **NowPushPayload** to.|
-|error Callback|[Consumer](https://developer.android.com/reference/kotlin/java/util/function/Consumer) &lt;[Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/)&gt;|Callback to return the thrown error to. If the error [NotSupportedPushError](../../NotSupportedPushError/concept/NotSupportedPushErrorAndroidAPI.md#) is thrown, the notification type is not supported by the mobile SDK, and must be processed outside of the mobile SDK framework.|
+|success Callback|[Consumer](https://developer.android.com/reference/kotlin/java/util/function/Consumer) &lt;[NowPushPayload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowPushPayloadAndroidInterface.md)&gt;|Callback to return the processed **NowPushPayload** to.|
+|error Callback|[Consumer](https://developer.android.com/reference/kotlin/java/util/function/Consumer) &lt;[Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/)&gt;|Callback to return the thrown error to. If the error [NotSupportedPushError](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NotSupportedPushErrorAndroidAPI.md) is thrown, the notification type is not supported by the mobile SDK, and must be processed outside of the mobile SDK framework.|
 
 |Type|Description|
 |----|-----------|
 |None| |
 
-This example shows how to override onMessageReceived\(\) and pass the **RemoteMessage** through to the `NowPushService`. If the `NowPushService` recognizes the notification type, it processes the request and returns the notification object for the application to handle. Otherwise it throws the [NotSupportedPushError](../../NotSupportedPushError/concept/NotSupportedPushErrorAndroidAPI.md#).
+This example shows how to override onMessageReceived\(\) and pass the **RemoteMessage** through to the `NowPushService`. If the `NowPushService` recognizes the notification type, it processes the request and returns the notification object for the application to handle. Otherwise it throws the [NotSupportedPushError](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NotSupportedPushErrorAndroidAPI.md).
 
 ```
 override fun onMessageReceived(remodeeMessage: RemoteMessage){

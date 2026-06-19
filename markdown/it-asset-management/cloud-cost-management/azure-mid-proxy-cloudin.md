@@ -2,6 +2,7 @@
 title: Proxy server configuration for your Cloud Cost Management MID Server
 description: You can configure any MID Server to use a proxy server for Cloud Cost Management operations. Proxy servers support all cloud-based activities such as running Discovery, Billing Download jobs, and Price Sheet Download jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/azure-mid-proxy-cloudin.html
 release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -19,7 +20,7 @@ You can configure any MID Server to use a proxy server for Cloud Cost Management
 
 ## Detailed instructions
 
-See [Proxy server configuration for MID Servers used for Cloud Discovery and Cloud Provisioning and Governance](https://www.servicenow.com/docs/access?context=mid-server-proxy&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US).
+See Proxy server configuration for MID Servers used for Cloud Discovery and Cloud Provisioning and Governance.
 
 ## Proxy server limitations
 
@@ -51,9 +52,9 @@ See [Proxy server configuration for MID Servers used for Cloud Discovery and Clo
 **Related topics**  
 
 
-[MID Servers](https://www.servicenow.com/docs/access?context=c_MIDServerConfiguration&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.c_MIDServerConfiguration]
 
-[Install a MID Server on Windows](https://www.servicenow.com/docs/access?context=mid-server-install-prereqs&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.mid-server-install-prereqs]
 
-[Install a MID Server on Linux](https://www.servicenow.com/docs/access?context=t_InstallAMIDServerOnLinux&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.t_InstallAMIDServerOnLinux]
 

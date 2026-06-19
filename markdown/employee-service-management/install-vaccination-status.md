@@ -2,6 +2,7 @@
 title: Install Vaccination Status
 description: You can install Vaccination Status if you have the admin role.Several types of components are installed with Vaccination Status, including user roles and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/install-vaccination-status.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
@@ -91,13 +92,13 @@ See the [Commercial downloads for the Emergency Response Management and Safe Wor
 4.  Click **Activate**.
 
 
-**Parent Topic:**[Vaccination Status](../concept/vaccination-status.md)
+**Parent Topic:**[Vaccination Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/vaccination-status.md)
 
 ## Components installed with Vaccination Status
 
 Several types of components are installed with Vaccination Status, including user roles and tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ### Roles installed
 
@@ -198,7 +199,7 @@ Lists of vaccine exemption requests, their status, the exemption type, expiratio
 
  Managers may view the exemption requests for their direct reports in **My Employee's exemptions** if this ability is enabled by their organization.
 
- For more information, see [Set up Vaccination Status properties](config-vaccination-properties.md).
+ For more information, see [Set up Vaccination Status properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/config-vaccination-properties.md).
 
 </td></tr><tr><td>
 

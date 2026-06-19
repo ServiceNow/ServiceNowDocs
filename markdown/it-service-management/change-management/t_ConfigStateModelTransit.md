@@ -2,6 +2,7 @@
 title: Configure state model transitions
 description: You can use script includes or UI policies to configure state models and the criteria for moving change requests from one state to another.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/t\_ConfigStateModelTransit.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -58,5 +59,5 @@ Role required: script\_include\_admin, ui\_policy\_admin, or admin
     3.  Complete and save the UI policy.
 
 
-**Parent Topic:**[State model and transitions](../concept/c_ChangeStateModel.md)
+**Parent Topic:**[State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/c_ChangeStateModel.md)
 

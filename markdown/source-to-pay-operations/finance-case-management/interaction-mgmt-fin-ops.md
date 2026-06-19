@@ -2,6 +2,7 @@
 title: Interaction management in Finance Operations Workspace
 description: Any finance request made through chat is logged in an auto-generated interaction record. Specialists can choose to create a case from the interaction record, create a request, and associate an interaction record with an existing finance case record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/finance-case-management/interaction-mgmt-fin-ops.html
 release: zurich
 product: Finance Case Management
 classification: finance-case-management
@@ -17,16 +18,16 @@ Any finance request made through chat is logged in an auto-generated interaction
 
 The **Details** tab of an interaction record contains details of the interaction.
 
-For more details on the fields, see [Interaction form](../reference/details-tab-fin-ops-interaction.md).
+For more details on the fields, see [Interaction form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/finance-case-management/details-tab-fin-ops-interaction.md).
 
--   **[Finance Operations Workspace inbox](fin-ops-ws-inbox.md)**  
+-   **[Finance Operations Workspace inbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/finance-case-management/fin-ops-ws-inbox.md)**  
 Use the inbox to manage your incoming work items, such as chats and cases.
--   **[Create a new interaction](../task/view-create-new-interaction-fin-ops-ws.md)**  
+-   **[Create a new interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/finance-case-management/view-create-new-interaction-fin-ops-ws.md)**  
 An interaction record is automatically created when you accept a chat through the chat queue in the Finance Operations Workspace. You can also manually create an interaction from the list page of the Finance Operations Workspace.
--   **[Create a finance case from an interaction](../task/create-fin-case-from-interaction-record.md)**  
+-   **[Create a finance case from an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/finance-case-management/create-fin-case-from-interaction-record.md)**  
 An interaction record is automatically created when you accept a chat through the chat queue in the Finance Operations Workspace. You can create a finance case from an interaction record for further investigation.
--   **[Associate an interaction with a finance case](../task/associate-interaction-with-finance-case.md)**  
+-   **[Associate an interaction with a finance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/finance-case-management/associate-interaction-with-finance-case.md)**  
 Associate an interaction record to a finance case, if the interaction is related to an existing finance case.
 
-**Parent Topic:**[Explore the Finance Operations Workspace](fin-ops-workpace.md)
+**Parent Topic:**[Explore the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/finance-case-management/fin-ops-workpace.md)
 

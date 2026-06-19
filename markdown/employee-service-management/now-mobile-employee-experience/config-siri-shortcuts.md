@@ -2,6 +2,7 @@
 title: Configure Siri shortcuts for Now Mobile
 description: Configure Siri shortcuts for quick access to common features on your iOS mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-mobile-employee-experience/config-siri-shortcuts.html
 release: zurich
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
@@ -27,15 +28,15 @@ Role required: admin
 
 3.  On the settings page, tap **Siri shortcuts**.
 
-4.  In the Siri shortcuts section,**** tap the plus button \(![Plus button](../image/icon-plus-white.png)\) to configure a Siri shortcut.
+4.  In the Siri shortcuts section,**** tap the plus button \(\[Omitted image "icon-plus-white.png"\] Alt text: Plus button\) to configure a Siri shortcut.
 
     **Note:** The currently available shortcuts are limited to **Open My Tasks**, **Browse Services**, and **Open My Requests**.
 
-    ![Siri shortcuts screen with plus buttons.](../image/siri-shortcuts-1.png)
+    \[Omitted image "siri-shortcuts-1.png"\] Alt text: Siri shortcuts screen with plus buttons.
 
 5.  In the **When I say** field, add the phrase you want to say to Siri to open your app and use the selected shortcut.
 
-    ![Add to Siri screen](../image/siri-shortcuts-2.png)
+    \[Omitted image "siri-shortcuts-2.png"\] Alt text: Add to Siri screen
 
 6.  Tap **Add to Siri**.
 

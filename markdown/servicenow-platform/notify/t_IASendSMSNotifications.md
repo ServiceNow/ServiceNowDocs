@@ -2,6 +2,7 @@
 title: Send communication updates for an incident communications plan
 description: Update users on the latest communication on an incident through selected communication channels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/notify/t\_IASendSMSNotifications.html
 release: zurich
 product: Notify
 classification: notify
@@ -38,10 +39,10 @@ Update users on the latest communication on an incident through selected communi
 6.  Click **Send**.
 
 
-**Parent Topic:**[Using Notify with Incident Communications Management](../concept/c_NotifyWithIncidentAlert.md)
+**Parent Topic:**[Using Notify with Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/c_NotifyWithIncidentAlert.md)
 
 **Related topics**  
 
 
-[Incident Communications Management](https://www.servicenow.com/docs/access?context=c_IncidentAlertManagement&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+[bundle-itsm.c_IncidentAlertManagement]
 

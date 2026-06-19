@@ -2,6 +2,7 @@
 title: Out Of Box Actions
 description: The Out of the Box Actions comprise OOB deployment, tagging, retrieving and post-provisioning operations. All these actions are based on Flow Designer and implemented as Integration Hub Sub-flows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/out-of-box-actions.html
 release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -117,5 +118,5 @@ CSC Content- Post Provisioning- Retrieve Microsoft Azure Function App Host name
 This action is added as a post provision operation in 'CSC Microsoft Azure Function App catalog item which retrieves the deployed function app's host name to the requester.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](../concept/out-of-the-box-catalog-items.md)
+</table>**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md)
 

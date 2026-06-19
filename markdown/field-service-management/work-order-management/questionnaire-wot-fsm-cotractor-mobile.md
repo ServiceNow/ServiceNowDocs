@@ -2,6 +2,7 @@
 title: Complete questionnaire for a work order task using the Field Service Contractor for mobile application
 description: Answer to the preset questions associated with a work order task to gather and store the responses for future reference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/questionnaire-wot-fsm-cotractor-mobile.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -29,7 +30,7 @@ Role required: wm\_ext\_agent, wm\_ext\_manager
 
 4.  Select the work order task for which you want to fill out the questionnaire.
 
-5.  Tap the Overflow ![Overflow icon](../image/OverflowIcon.png) icon and then select **Take questionnaire**.
+5.  Tap the Overflow \[Omitted image "OverflowIcon.png"\] Alt text: Overflow icon icon and then select **Take questionnaire**.
 
 6.  On the Pending tab, tap the questionnaire that you are ready to take.
 

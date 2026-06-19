@@ -2,6 +2,7 @@
 title: Fault Management: Events and alerts
 description: Fault Management supports the monitoring, detection, and resolution of configuration and performance issues across SD-WAN-managed network devices. It integrates with ServiceNow AI Platform Event Management to generate alerts and track events automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-service-ops/telecommunications-service-operations-management/fault-management-events-and-alerts.html
 release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -36,8 +37,8 @@ Event rules and alert suppression give you control over how alerts are generated
 
 For instructions on how to configure ServiceNow AI Platform Event Management solutions, see the following documentation:
 
--   [Configure a webhook](../task/configure-fault-management.md)
--   [Configure an event pull connector](../task/configure-an-event-pull-connector.md)
--   [Cisco Meraki installed integrations](meraki-installed-integrations.md)
--   [Fortinet installed integrations](fortinet-installed-integrations.md)
+-   [Configure a webhook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/configure-fault-management.md)
+-   [Configure an event pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/configure-an-event-pull-connector.md)
+-   [Cisco Meraki installed integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/meraki-installed-integrations.md)
+-   [Fortinet installed integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/fortinet-installed-integrations.md)
 

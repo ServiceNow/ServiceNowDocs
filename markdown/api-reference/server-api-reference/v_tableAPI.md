@@ -2,6 +2,7 @@
 title: v\_table – Scoped, Global
 description: The v\_table API provides methods to add rows to a remote table through a scriptable object.Adds rows to the remote table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/v\_tableAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -15,11 +16,11 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The v\_table API provides methods to add rows to a remote table through a scriptable object.
 
-This API requires the Remote Tables plugin \(com.glide.script.vtable\) to be activated. For additional information, see [Retrieving external data using remote tables and scripts](https://www.servicenow.com/docs/access?context=remote-tables&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+This API requires the Remote Tables plugin \(com.glide.script.vtable\) to be activated. For additional information, see Retrieving external data using remote tables and scripts.
 
-Use the [v\_query](../../v_query/concept/v_queryAPI.md#) scriptable object to query remote tables.
+Use the [v\_query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/v_queryAPI.md) scriptable object to query remote tables.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## v\_table - addRow\(Object row\)
 
@@ -27,10 +28,10 @@ Adds rows to the remote table.
 
 See also:
 
--   [Create a script definition for a remote table](https://www.servicenow.com/docs/access?context=create-remote-table-script&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
--   [Lookup remote information in the system of record](https://www.servicenow.com/docs/access?context=fso-int_guide-agt_table_lookup&version=zurich&pubname=zurich-financial-services-operations&ft:locale=en-US)
--   [Retrieving specific records from a third-party source](https://www.servicenow.com/docs/access?context=remote-table-script-def-example2&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US)
--   [v\_query API](../../v_query/concept/v_queryAPI.md#)
+-   Create a script definition for a remote table
+-   Lookup remote information in the system of record
+-   Retrieving specific records from a third-party source
+-   [v\_query API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/v_queryAPI.md)
 
 <table id="table_udd_bdj_nlb" class="parameters"><thead><tr><th>
 
@@ -97,7 +98,7 @@ Flag that indicates whether the row was added to the remote table.Valid values:
 -   false: Row was not added.
 
 </td></tr></tbody>
-</table>The following example shows how to use the [RESTMessageV2](../../RESTMessageV2/concept/c_RESTMessageV2API.md#) API to create and execute the REST call to an external bank application. The script shows how to use the addRow\(\) method to store return results in a remote table.
+</table>The following example shows how to use the [RESTMessageV2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_RESTMessageV2API.md) API to create and execute the REST call to an external bank application. The script shows how to use the addRow\(\) method to store return results in a remote table.
 
 ```
 (function executeQuery (v_table, v_query) {

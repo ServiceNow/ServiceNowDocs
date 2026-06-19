@@ -2,6 +2,7 @@
 title: Create and manage conversations
 description: Create new Impact conversations or manage existing conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/impact-activity-center/create-manage-conversations.html
 release: zurich
 product: Impact Activity Center
 classification: impact-activity-center

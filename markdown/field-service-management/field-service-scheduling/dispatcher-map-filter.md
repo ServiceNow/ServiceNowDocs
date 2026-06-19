@@ -2,6 +2,7 @@
 title: Limit the Dispatcher Workspace map display to tasks or agents
 description: Reduce the number of pins displayed on the map in dispatcher workspace by displaying either tasks or agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/dispatcher-map-filter.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -34,6 +35,6 @@ Role required: wm\_dispatcher
 
     -   To display only agents, select **Agents**.
     -   To display only tasks, select **Tasks**.
-5.  Display both agents and tasks on the map again by selecting the Refresh icon \(![Refresh icon](../../field-service-management/image/refresh-icon.png)\).
+5.  Display both agents and tasks on the map again by selecting the Refresh icon \(\[Omitted image "refresh-icon.png"\] Alt text: Refresh icon\).
 
 

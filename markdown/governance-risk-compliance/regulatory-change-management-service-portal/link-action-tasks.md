@@ -2,6 +2,7 @@
 title: Link Action tasks
 description: Link Action tasks for existing impacted areas from within a regulatory change task or directly through the regulatory alert.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/regulatory-change-management-service-portal/link-action-tasks.html
 release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -37,7 +38,7 @@ Role required: sn\_grc\_reg\_change.user
 
 8.  Select **Add**.
 
-    ![Create action tasks.](../../grc-rcm/image/link-action-tasks.png)
+    \[Omitted image "link-action-tasks.png"\] Alt text: Create action tasks.
 
 
 ## Result

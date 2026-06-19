@@ -2,6 +2,7 @@
 title: Review daily health verification acknowledgements
 description: Review the list of acknowledgements from the daily health verification notification to see each user's status. Resend the outreach notification to users who did not respond.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/emergency-outreach/daily-health-verif-review-outreach-acks.html
 release: zurich
 product: Emergency Outreach
 classification: emergency-outreach
@@ -34,5 +35,5 @@ Role required: sn\_imt\_checkin.checkin\_admin or admin
     New records are created in the Health Verification Acknowledgements related list for each user included in the target audience. If a user submits a response through a previous day's notification, the response is updated for the latest date the user was sent the notification.
 
 
-**Parent Topic:**[Emergency Outreach](../concept/emergency-outreach.md)
+**Parent Topic:**[Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/emergency-outreach/emergency-outreach.md)
 

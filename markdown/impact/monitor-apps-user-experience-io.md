@@ -2,7 +2,10 @@
 title: Track the response time of applications to monitor their performance
 description: Track the response time of applications to gauge their performance. You can drill down to the transaction ID of each application to learn the slowest and fastest interactions in each instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/monitor-apps-user-experience-io.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -31,7 +34,7 @@ With application monitoring, you can view the number of applications in each ins
 
 4.  Scroll down the page to view the applications in the form of a bubble chart.
 
-    ![Bubble chart illustrating the application's average response time.](../image/io-bubble-chart-user-exp.png)
+    \[Omitted image "io-bubble-chart-user-exp.png"\] Alt text: Bubble chart illustrating the application's average response time.
 
     The default view of the bubble chart is by Average Response Time. The application's performance is indicated by the color of the bubbles and they’re color coded:
 
@@ -42,7 +45,7 @@ With application monitoring, you can view the number of applications in each ins
 
 6.  To view the data by **Interaction Count**, select the option in the **View by** list.
 
-    ![Interaction counts within the bubbles.](../image/io-bubble-chart-interact-count.png)
+    \[Omitted image "io-bubble-chart-interact-count.png"\] Alt text: Interaction counts within the bubbles.
 
 7.  To view the user experience in the **Node** and **Transaction** charts, scroll down and select either **Transaction Count** or **Response Time** option in the **View by** list.
 
@@ -50,10 +53,10 @@ With application monitoring, you can view the number of applications in each ins
 
     The data that you view here is in a tabular format, listed by application names with their average response time, interaction count, maximum response time, and network latency.
 
-    ![Application monitoring in Instance Observer.](../image/io-app-monitoring-user-exp.png)
+    \[Omitted image "io-app-monitoring-user-exp.png"\] Alt text: Application monitoring in Instance Observer.
 
     By default, the list of applications appear in descending order of the Average Response Time in seconds.
 
-    For more information on application monitoring, see [Analyze user experience and monitor application performance in Instance Observer](io-app-mon-perf-analy.md).
+    For more information on application monitoring, see [Analyze user experience and monitor application performance in Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-app-mon-perf-analy.md).
 
 

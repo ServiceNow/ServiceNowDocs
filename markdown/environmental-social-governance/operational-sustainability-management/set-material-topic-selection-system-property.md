@@ -1,0 +1,45 @@
+---
+title: Set Material topic selection system property
+description: Set the Material topic selection system property to enable the Socialsuite integration features.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/operational-sustainability-management/set-material-topic-selection-system-property.html
+release: zurich
+product: Operational Sustainability Management
+classification: operational-sustainability-management
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Integrating Operational Sustainability Management with Socialsuite, Integrating ESG Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+---
+
+# Set Material topic selection system property
+
+Set the Material topic selection system property to enable the Socialsuite integration features.
+
+## Before you begin
+
+Role required: admin
+
+## About this task
+
+The Material topic selection system property determines how material topics are visualized on the Operational Sustainability Workspace. When set to Social Suite, the heatmap displays material topics imported from Socialsuite and shows their impact materiality score and financial materiality score instead of the default importance rankings. The **Sync Topics**button becomes available for importing material topics.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Operational Sustainability Management** &gt; **Administration** &gt; **Properties**.
+
+2.  In the **Material topic selection** field, select **Social Suite**.
+
+3.  Select **Save**.
+
+
+## Result
+
+The **Sync Topics** button becomes available and the material topics heatmap displays material topics based on their impact materiality score and financial materiality score.
+
+## What to do next
+
+[Create a Socialsuite connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/operational-sustainability-management/create-a-socialsuite-connection.md)
+
+**Parent Topic:**[Integrating Operational Sustainability Management with Socialsuite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/operational-sustainability-management/integrate-operational-sustainability-with-SocialSuite.md)
+

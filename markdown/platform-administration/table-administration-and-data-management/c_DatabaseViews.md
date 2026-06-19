@@ -2,6 +2,7 @@
 title: Working with database views for reporting
 description: A database view defines table joins for reporting purposes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-administration-and-data-management/c\_DatabaseViews.html
 release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -54,14 +55,14 @@ You can still create additional ACLs on the database views. These ACLs are evalu
 
 Using the terms may cause unintended or undesirable performance. For more information, see the [MySQL reserved words document](https://dev.mysql.com/doc/refman/5.5/en/keywords.html).
 
--   **[Joining tables using database views](../task/c_CreatingDatabaseViews.md)**  
+-   **[Joining tables using database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_CreatingDatabaseViews.md)**  
 Join tables into a single view and then create a report based on that view.
--   **[Displaying function results in a database view](../task/displaying-function-results-in-a-database-view.md)**  
+-   **[Displaying function results in a database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/displaying-function-results-in-a-database-view.md)**  
 Enhance the display of a database view by adding a function field to the output to display function results.
--   **[Using disjunctions in complex queries](c_UseDisjunctionsInComplexQueries.md)**  
+-   **[Using disjunctions in complex queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_UseDisjunctionsInComplexQueries.md)**  
 ServiceNow performs conjunction \(AND\) statements before disjunction \(OR\) statements in a query.
--   **[Database views in the base system](../reference/r_DatabaseViewsInTheBaseSystem.md)**  
+-   **[Database views in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/r_DatabaseViewsInTheBaseSystem.md)**  
 Certain views are included in the base system with the Database Views and Database Views for Service Management plugins.
 
-**Parent Topic:**[ServiceNow AI Platform tables and data](../../../administer/general/concept/tables-fields-and-forms.md)
+**Parent Topic:**[ServiceNow AI Platform tables and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/tables-fields-and-forms.md)
 

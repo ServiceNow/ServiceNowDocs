@@ -2,6 +2,7 @@
 title: Specify resource values for your custom license metrics
 description: If you create a custom license metric based on resource values, specify the resource value for each software product that you want to calculate licensing requirements for.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/specify-resource-values-custom-license-metrics.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -48,5 +49,5 @@ Role required: sam\_user
 
 When subsequent reconciliations run, the Software Asset Management application determines the license compliance position of the associated software product by comparing the value of the **Units consumed** field against the value of the corresponding **Licenses required** field in the License Metric Results \[samp\_license\_metric\_result\] table.
 
-**Parent Topic:**[Add a custom license metric](add-custom-license-metric.md)
+**Parent Topic:**[Add a custom license metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/add-custom-license-metric.md)
 

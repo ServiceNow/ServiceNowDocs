@@ -2,6 +2,7 @@
 title: Use case: Optimizing data isolation and monitoring with domain separation
 description: Optimizing data isolation and monitoring with domain separation ensures financial institutions protect sensitive information, improve operational efficiency, and maintain compliance by securely segregating departmental data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-domain-separation-use-case.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -40,5 +41,5 @@ In a large financial institution, departments like IT, Finance, Compliance, and 
 -   Regulatory compliance: Easier adherence to data privacy regulations \(GDPR, SOX\) due to secure data segregation.
 -   Reduced data corruption: Isolated environments prevent unintended cross-departmental impacts, enhancing system stability.
 
-**Parent Topic:**[Domain separation and Agent Client Collector](domain-separation-agent-client-collector.md)
+**Parent Topic:**[Domain separation and Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/domain-separation-agent-client-collector.md)
 

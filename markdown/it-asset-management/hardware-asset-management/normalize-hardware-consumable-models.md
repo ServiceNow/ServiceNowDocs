@@ -2,6 +2,7 @@
 title: Normalize hardware and consumable models
 description: After you have created your hardware and consumable models, normalize the information of the model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/normalize-hardware-consumable-models.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -31,15 +32,15 @@ Role required: admin, asset, or model\_manager
 
 1.  Create a hardware or consumable model.
 
-<table id="choicetable_k4b_k1j_pdc"><thead><tr><th align="left" id="d205060e74">
+<table id="choicetable_k4b_k1j_pdc"><thead><tr><th align="left" id="d63343e74">
 
 Interface
 
-</th><th align="left" id="d205060e77">
+</th><th align="left" id="d63343e77">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d205060e83">
+</th></tr></thead><tbody><tr><td id="d63343e83">
 
 **Core UI**
 
@@ -49,11 +50,11 @@ Action
     -   **Product Catalog** &gt; **Product Models** &gt; **Hardware Models**.
     -   **Product Catalog** &gt; **Product Models** &gt; **Consumable Models**.
 2.  Select **New**.
-3.  On the Hardware Model or Consumable Model form [fill in the details](create-hardware-consumable-model.md).
+3.  On the Hardware Model or Consumable Model form [fill in the details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-hardware-consumable-model.md).
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d205060e150">
+</td></tr><tr><td id="d63343e150">
 
 **Hardware Asset Workspace**
 
@@ -64,7 +65,7 @@ Action
     -   For hardware models, select the **Hardware models** tab.
     -   For consumable models, select the **Consumable models** tab.
 3.  Select **New**.
-4.  On the Hardware model or Consumable model form, [fill in the details](create-hardware-consumable-model.md).
+4.  On the Hardware model or Consumable model form, [fill in the details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-hardware-consumable-model.md).
 5.  Select **Save**.
 
 
@@ -75,15 +76,15 @@ Action
 
 2.  Normalize your model manually if the normalization status of your model is Partially Normalized or Publisher Normalized.
 
-<table id="choicetable_yqq_h2j_pdc"><thead><tr><th align="left" id="d205060e230">
+<table id="choicetable_yqq_h2j_pdc"><thead><tr><th align="left" id="d63343e230">
 
 Interface
 
-</th><th align="left" id="d205060e233">
+</th><th align="left" id="d63343e233">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d205060e239">
+</th></tr></thead><tbody><tr><td id="d63343e239">
 
 **Core UI**
 
@@ -91,7 +92,7 @@ Action
 
 Select the **Normalized** section and **Consumable Model Fields** section to normalize the model manually.
 
-</td></tr><tr><td id="d205060e254">
+</td></tr><tr><td id="d63343e254">
 
 **Hardware Asset Workspace**
 
@@ -125,5 +126,5 @@ Select **Save**.
 
 The **Normalization Status** field displays **Manually Normalized**.
 
-**Parent Topic:**[Work with hardware normalization](../concept/Work-with-hardware-normalization.md)
+**Parent Topic:**[Work with hardware normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
 

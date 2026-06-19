@@ -2,6 +2,7 @@
 title: System properties for Proactive analytics
 description: Several system properties that affect the generation of insights cards are available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/proactive-analytics/system-props-proactive-analytics.html
 release: zurich
 product: Proactive Analytics
 classification: proactive-analytics
@@ -50,7 +51,7 @@ By default, retrieve insights created within the number of days in the past that
 -   Type: Integer
 -   Default value: 14
 -   Location: To change the value, create this property in the System Properties table.
--   More information: [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US)
+-   More information: 
 
 </td></tr><tr><td>
 
@@ -63,7 +64,7 @@ Enables the generation of key contributor insight cards.
 -   Type: true/false \(Boolean\)
 -   Default value: true
 -   Location: To change the value, create this property in the System Properties table.
--   More information: [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US)
+-   More information: 
 
 </td></tr><tr><td>
 
@@ -76,7 +77,7 @@ Enables the Proactive Analytics feature.
 -   Type: true/false \(Boolean\)
 -   Default value: true
 -   Location: To change the value, create this property in the System Properties table.
--   More information: [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US)
+-   More information: 
 
 </td></tr><tr><td>
 

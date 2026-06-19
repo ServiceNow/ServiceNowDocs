@@ -2,6 +2,7 @@
 title: Manage workflow activity conditions
 description: Activities contain default conditions that determine which transitions are followed.The result value specified by an activity controls the condition through which the activity transitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-activities/t\_ManageActivityConditions.html
 release: zurich
 product: Workflow Activities
 classification: workflow-activities
@@ -23,7 +24,7 @@ Role required: admin
 
 For example, the **Approval - User** activity has two conditions, **Approved** and **Rejected**.
 
-![](../../workflow-activities/image/WFActivityConditions.png "Example of activity conditions")
+\[Omitted image "WFActivityConditions.png"\] Alt text:
 
 You can use a JavaScript condition check to create custom conditions on Core workflow activities. Custom activities do not support this feature.
 
@@ -83,7 +84,7 @@ Skip during generate
 
 </td><td>
 
-If selected, the [**Generate** activity](https://www.servicenow.com/docs/access?context=r_Generate&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) does not follow this transition to generate approvals or tasks.
+If selected, the **Generate** activity does not follow this transition to generate approvals or tasks.
 
 </td></tr></tbody>
 </table>3.  Click **Submit**.
@@ -92,7 +93,7 @@ If selected, the [**Generate** activity](https://www.servicenow.com/docs/access?
 
     A dialog box appears, with a list of the available conditions.
 
-    ![](../image/WorkflowReorderConditions.png "List of conditions in the current activity")
+    \[Omitted image "WorkflowReorderConditions.png"\] Alt text:
 
 5.  Drag the conditions to a new position in the list.
 

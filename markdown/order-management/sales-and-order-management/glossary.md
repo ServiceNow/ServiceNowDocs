@@ -2,6 +2,7 @@
 title: Glossary
 description: A list of terms used in ServiceNow CPQ
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/glossary.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -184,5 +185,5 @@ A list of terms used in ServiceNow CPQ
     Also known as end-user testing, this is a phase near the end of implementation and before going live. A small group of the end-users will run through various scenarios to validate the desired end-user experience and address any issues or bugs before the full launch.
 
 
-**Parent Topic:**[ServiceNow CPQ reference](../reference/servicenow-cpq-reference.md)
+**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/servicenow-cpq-reference.md)
 

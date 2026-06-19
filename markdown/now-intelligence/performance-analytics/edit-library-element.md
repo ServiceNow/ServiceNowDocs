@@ -2,6 +2,7 @@
 title: Edit or delete a library element
 description: You can add artifacts to a library element, or convert a library element back to project-based artifacts. You can also edit the data definitions of artifacts in a library element.Each KPI Composer library element has the following properties. You need the sn\_kpi\_composer.admin or admin role to edit them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/edit-library-element.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -25,13 +26,13 @@ Role required: sn\_kpi\_composer.admin or admin for full editing functions
 
 2.  Select the root artifact of one of the library elements in the KPI tree to open its properties.
 
-    Bookmark icons \(![](../image/kpi-comp-bookmark-icon-sm.png)\) identify the artifacts that are in a library element. The root artifacts, or parent artifacts, are the most top-level artifacts in each library element.
+    Bookmark icons \(\[Omitted image "kpi-comp-bookmark-icon-sm.png"\] Alt text:\) identify the artifacts that are in a library element. The root artifacts, or parent artifacts, are the most top-level artifacts in each library element.
 
-    ![A KPI tree with two root artifacts, for each of two library elements.](../image/kpi-comp-root-artifacts.png)
+    \[Omitted image "kpi-comp-root-artifacts.png"\] Alt text: A KPI tree with two root artifacts, for each of two library elements.
 
 3.  To delete a library element, select **Unlink element from library**.
 
-    ![Artifact properties for an artifact in a library element, showing Unlink element from library link.](../image/kpi-comp-unlink-element.png)
+    \[Omitted image "kpi-comp-unlink-element.png"\] Alt text: Artifact properties for an artifact in a library element, showing Unlink element from library link.
 
     The artifacts are no longer members of that library element. However, every KPI tree that contained that library element still contains those artifacts, only now they are a separate set of ordinary artifacts in each tree.
 
@@ -41,20 +42,20 @@ Role required: sn\_kpi\_composer.admin or admin for full editing functions
 
     -   You can open a library element from any artifact in that element, not only the root artifact.
     -   If you have the sn\_kpi\_composer.admin or admin role, you can instead navigate to **KPI Composer** &gt; **Library** and open a library element from a set of library element tiles.
-5.  To add an artifact to the library element, follow the instructions in [Add artifacts to a KPI tree](../concept/design-kpi-tree.md#).
+5.  To add an artifact to the library element, follow the instructions in [Add artifacts to a KPI tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/design-kpi-tree.md).
 
     **Note:**
 
     -   You do not need to click **Add this element to the library** in the properties of the new artifact. If you click this link, you add the new artifact to a new library element that is nested inside this library element.
-    -   Instead of adding a new artifact, you can add another library element, which is then nested inside this library element. For more information, see [Use a library element](use-library-element.md).
-6.  To add indicator and report definitions to the artifacts in a library element, open the Data Definition tab and follow the instructions in [Defining indicators and reports](../concept/designing-indicators.md).
+    -   Instead of adding a new artifact, you can add another library element, which is then nested inside this library element. For more information, see [Use a library element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/use-library-element.md).
+6.  To add indicator and report definitions to the artifacts in a library element, open the Data Definition tab and follow the instructions in [Defining indicators and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/designing-indicators.md).
 
-7.  Select the information icon \(![](../image/kpi-comp-info-icon-sm.png)\) to view or edit the library element properties, such as whether the library element is global or personal in scope.
+7.  Select the information icon \(\[Omitted image "kpi-comp-info-icon-sm.png"\] Alt text:\) to view or edit the library element properties, such as whether the library element is global or personal in scope.
 
     You need the sn\_kpi\_composer.admin or admin role to edit properties. Otherwise, they are read-only.
 
 
-**Parent Topic:**[Cross-project library elements](../concept/cross-project-artifact-libraries.md)
+**Parent Topic:**[Cross-project library elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/cross-project-artifact-libraries.md)
 
 ## Library element properties
 
@@ -140,7 +141,7 @@ Responsible
 
 </td><td>
 
-A responsible user has full editing privileges but also is expected to be responsible for maintaining the library element. For more information, see [Access to KPI Composer](../concept/access-to-kpi-composer.md).
+A responsible user has full editing privileges but also is expected to be responsible for maintaining the library element. For more information, see [Access to KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/access-to-kpi-composer.md).
 
 </td><td>
 

@@ -2,6 +2,7 @@
 title: Get started with the Carbon Black integration
 description: Carbon Black is an advanced security system easily integrating with Security Operations. Before you can use the Carbon Black integration, you must download the integration from the ServiceNow Store and add the appropriate Endpoint Base and API Token.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/activate-configure-carbonblack.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -21,7 +22,7 @@ Role required: sn\_si\_admin
 
 ## Procedure
 
-1.  [Download the integration from the ServiceNow Store](../../../security-incident-response/reference/download-app-first-time.md).
+1.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/download-app-first-time.md).
 
 2.  When the installation is complete, access the Carbon Black website and obtain the Endpoint Base URL and API Token under your profile.
 
@@ -31,7 +32,7 @@ Role required: sn\_si\_admin
 
 4.  In the Carbon Black card, click **New**.
 
-    ![Carbon Black Configuration](../../secops-integration-carbonblack-inc-enrichment/image/carbonblack-config.png)
+    \[Omitted image "carbonblack-config.png"\] Alt text: Configure Carbon Black integration
 
 5.  Fill in the fields, as needed.
 
@@ -46,7 +47,7 @@ Role required: sn\_si\_admin
 
     **Note:** Configuring this integration activates workflows. To manage the workflows, navigate to the **Workflow Editor**.
 
-6.  Click **Submit**.
+6.  Select **Submit**.
 
     The integration configuration card displays.
 

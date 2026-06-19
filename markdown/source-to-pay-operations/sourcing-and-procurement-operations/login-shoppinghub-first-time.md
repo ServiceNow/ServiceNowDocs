@@ -2,13 +2,14 @@
 title: Log in to Shopping Hub for the first time
 description: Shoppers who log in to Shopping Hub for the very first time must set up a default delivery location before they can browse products and access the other pages.Set your work address as the default location when you log in to Shopping Hub for the first time.Set your default location to an address other than your work address when you log in to Shopping Hub for the first time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/login-shoppinghub-first-time.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Using Shopping Hub, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+reading_time_minutes: 2
+breadcrumb: [Using Shopping Hub, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Log in to Shopping Hub for the first time
@@ -17,7 +18,7 @@ Shoppers who log in to Shopping Hub for the very first time must set up a defaul
 
 If the shopper navigates to a different page other than the Shopping Hub home page without setting up default delivery address, they are redirected to the home page to set the default delivery location.
 
-**Parent Topic:**[Using Shopping Hub](../reference/use-shoppinghub-portal.md)
+**Parent Topic:**[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)
 
 ## Set work address as your delivery location
 
@@ -77,7 +78,7 @@ Role required: sn\_shop.shopper
     |State / Province|The state of the delivery location.|
     |Zip / Postal code|The zip code of the delivery location.|
 
-    ![Select a delivery location.](../image/select_delivery_location.png)
+    \[Omitted image "select\_delivery\_location.png"\] Alt text: Select a delivery location.
 
 6.  Select **Submit for approval**.
 

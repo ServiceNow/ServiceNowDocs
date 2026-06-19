@@ -2,6 +2,7 @@
 title: Wrap Up API
 description: Provides endpoints for managing wrap-up functionality for external Contact Center as a Service \(CCaaS\) systems or ServiceNow AI Platform workspaces.Retrieves details for a specified wrap-up code.Retrieves details for a specified wrap-up segment.Retrieves details for a wrap-up segment based on a specified agent and interaction.Creates or updates wrap-up codes.Opens a wrap-up segment for an interaction.Updates and closes a wrap-up segment for an interaction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/rest-apis/wrap-up-api.html
 release: zurich
 product: REST APIs
 classification: rest-apis
@@ -17,11 +18,11 @@ Provides endpoints for managing wrap-up functionality for external Contact Cente
 
 This API requires the Interactions Management \(com.glide.interaction.awa\) plugin. To call this API, you must have the interaction\_integration\_user role.
 
-When agents close an interaction, the wrap-up feature enables them to enter closing details and wrap-up codes for future reference. For more information about wrap-up functionality, see [Wrap up overview](https://www.servicenow.com/docs/access?context=wrap-up-overview&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+When agents close an interaction, the wrap-up feature enables them to enter closing details and wrap-up codes for future reference. For more information about wrap-up functionality, see .
 
-To use this API for segmented wrap-up of interactions from external systems, you must implement the InteractionSegment scripted extension point to create and retrieve segment records in your chosen table. If you're using [OpenFrame](https://www.servicenow.com/docs/access?context=c_OpenFrameOverview&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US), the extension point has an existing implementation to create and retrieve segment records in the Phone Log \[sn\_openframe\_phone\_log\] table.
+To use this API for segmented wrap-up of interactions from external systems, you must implement the InteractionSegment scripted extension point to create and retrieve segment records in your chosen table. If you're using OpenFrame, the extension point has an existing implementation to create and retrieve segment records in the Phone Log \[sn\_openframe\_phone\_log\] table.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/api-rest.md)
 
 ## Wrap Up - GET /now/wrapup/code/\{code\_id\}
 
@@ -72,7 +73,7 @@ Table: Interaction Wrap Up Code \[interaction\_wrap\_up\_code\]
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -97,7 +98,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -338,7 +339,7 @@ Sys\_id of the wrap-up segment in the Interaction Wrap Up Segment \[interaction\
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -363,7 +364,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -900,7 +901,7 @@ Table: Interaction \[interaction\]
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -925,7 +926,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1541,7 +1542,7 @@ Two-letter code for the language used in the translation. Required if using the 
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1574,7 +1575,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -2032,7 +2033,7 @@ segment\_id
 
 </td><td>
 
-Sys\_id of the interaction segment. Required if **external** and **segmented** are both `true`.**Note:** You must implement the InteractionSegment scripted extension point to create and retrieve segment records in your chosen table or use the [OpenFrame](https://www.servicenow.com/docs/access?context=c_OpenFrameOverview&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US) implementation to create and retrieve segment records in the Phone Log \[sn\_openframe\_phone\_log\] table.
+Sys\_id of the interaction segment. Required if **external** and **segmented** are both `true`.**Note:** You must implement the InteractionSegment scripted extension point to create and retrieve segment records in your chosen table or use the OpenFrame implementation to create and retrieve segment records in the Phone Log \[sn\_openframe\_phone\_log\] table.
 
 Data type: String
 
@@ -2057,7 +2058,7 @@ Table: Interaction Wrap Up Configuration \[interaction\_wrap\_up\_configuration\
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_r5j_h1f_42c" class="rest_api_request_headers"><thead><tr><th>
 
@@ -2090,7 +2091,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -2681,7 +2682,7 @@ Field: Code
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_ubl_j1f_42c" class="rest_api_request_headers"><thead><tr><th>
 
@@ -2714,7 +2715,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

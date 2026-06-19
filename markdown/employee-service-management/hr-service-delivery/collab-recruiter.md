@@ -2,6 +2,7 @@
 title: Collaborate with the recruiter
 description: Collaborate with the recruiter for the job requisition on the activity stream.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/collab-recruiter.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -34,5 +35,5 @@ Role required: sn\_ta\_hiring\_core.hiring\_manager
 
 The recruiter receives an email notification with the details of the comment.
 
-**Parent Topic:**[Using Hiring](../concept/use-hiring.md)
+**Parent Topic:**[Using Hiring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/use-hiring.md)
 

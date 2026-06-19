@@ -2,6 +2,7 @@
 title: Service catalog categories
 description: Categories organize service catalog items into logical groups. Administrators and catalog administrators can create and configure categories, defining their characteristics and adding content such as catalog items to them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/c\_ServiceCatalogCategories.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -31,10 +32,10 @@ Catalog managers and catalog editors can also configure categories, but only cat
 -   Users with the admin or catalog\_admin roles can view categories only if there is an active item in the category and **Availability** is set to either **Desktop** or **Both**.
 -   Configure the **glide.sc.category.canview.override** property to change the roles for this behaviour.
 
--   **[Create a category](../task/t_CreateACategory.md)**  
+-   **[Create a category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/t_CreateACategory.md)**  
 Administrators and catalog administrators can create or edit a category.
--   **[Configure dynamic categories](../task/t_ConfigureDynamicCategories.md)**  
+-   **[Configure dynamic categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/t_ConfigureDynamicCategories.md)**  
 Dynamic categories let you organize and display commonly requested items and knowledge articles. Dynamic categories appear on the right side of the service catalog homepage by default.
 
-**Parent Topic:**[Configuring Service Catalog](configuring-service-catalog.md)
+**Parent Topic:**[Configuring Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/configuring-service-catalog.md)
 

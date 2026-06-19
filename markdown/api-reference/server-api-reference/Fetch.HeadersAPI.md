@@ -2,6 +2,7 @@
 title: Fetch Headers - Scoped, Global
 description: The Fetch Headers API allows you to retrieve, set, add to, and remove headers from a list of request or response headers.The Headers\(\) constructor creates a new, empty Headers object. You can also create and pre-populate a new Headers object with list of HTTP headers using the init parameter.Adds a new value to an existing header inside a Headers object, or adds the header if it does not already exist.Deletes a header from the current Headers object.Returns an iterator allowing you to cycle through all key-value pairs \(represented with strings\) contained in the Headers object.Executes a callback function once per each key/value pair in the Headers object.Returns a string of all header values of a specified Headers object, or returns null if the header does not exist.Returns all Set-Cookie headers associated with a response.Returns a Boolean indicating whether a Headers object contains the given header.Returns an iterator allowing you to cycle through all keys contained in a Headers object.Updates a value of an existing header inside the Headers object, or creates a new header with the given value if the header does not already exist.Returns an iterator allowing you to cycle through all header values contained in the Headers object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/Fetch.HeadersAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,21 +18,21 @@ The Fetch Headers API allows you to retrieve, set, add to, and remove headers fr
 
 This API is part of a set of Fetch APIs, which provide various actions for fetching resources from external websites. The full Fetch API collection includes:
 
--   [Fetch - fetch\(String resource, Object options\)](FetchAPI.md#): Starts the process of fetching a resource from the network.
--   [Fetch Headers - Scoped, Global](Fetch.HeadersAPI.md#): Retrieve and modify request and response headers.
--   [Fetch Request - Scoped, Global](Fetch.RequestAPI.md#): Create a new request object.
--   [Fetch RequestInit - Scoped, Global](Fetch.RequestInitAPI.md#): Set options to configure a fetch request.
--   [Fetch Response - Scoped,Global](Fetch.ResponseAPI.md#): Create a new response object.
+-   [Fetch - fetch\(String resource, Object options\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/FetchAPI.md): Starts the process of fetching a resource from the network.
+-   [Fetch Headers - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/Fetch.HeadersAPI.md): Retrieve and modify request and response headers.
+-   [Fetch Request - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/Fetch.RequestAPI.md): Create a new request object.
+-   [Fetch RequestInit - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/Fetch.RequestInitAPI.md): Set options to configure a fetch request.
+-   [Fetch Response - Scoped,Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/Fetch.ResponseAPI.md): Create a new response object.
 
-To support fetch actions, the system property, `glide.hosts.allowlist`, allows controls over what hosts a fetch method can access. It applies to HTTP APIs like RestMessageV2 and those mentioned above. For more information about `glide.hosts.allowlist`, see [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+To support fetch actions, the system property, `glide.hosts.allowlist`, allows controls over what hosts a fetch method can access. It applies to HTTP APIs like RestMessageV2 and those mentioned above. For more information about `glide.hosts.allowlist`, see .
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## Fetch Headers - Headers\(init\)
 
 The Headers\(\) constructor creates a new, empty Headers object. You can also create and pre-populate a new Headers object with list of HTTP headers using the **init** parameter.
 
-**Note:** To add headers to an existing Headers object, use [Fetch Headers - append\(String name, String value\)](Fetch.HeadersAPI.md#).
+**Note:** To add headers to an existing Headers object, use [Fetch Headers - append\(String name, String value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/Fetch.HeadersAPI.md).
 
 <table id="table_nzn_3rv_gdc" class="parameters"><thead><tr><th>
 
@@ -83,7 +84,7 @@ var myHeaders = new Headers(httpHeaders);
 
 Adds a new value to an existing header inside a Headers object, or adds the header if it does not already exist.
 
-If the specified header already exists, `append()` changes its existing value to the specified value. If the specified header already exists and accepts multiple values, `append()` appends the new value to the end of the value set. To overwrite the old value with a new one, use [Fetch Headers - set\(String name, String value\)](Fetch.HeadersAPI.md#).
+If the specified header already exists, `append()` changes its existing value to the specified value. If the specified header already exists and accepts multiple values, `append()` appends the new value to the end of the value set. To overwrite the old value with a new one, use [Fetch Headers - set\(String name, String value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/Fetch.HeadersAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -418,7 +419,7 @@ false
 
 Returns an iterator allowing you to cycle through all keys contained in a Headers object.
 
-Use the [Fetch Headers - values\(\)](Fetch.HeadersAPI.md#) method to return all header keys.
+Use the [Fetch Headers - values\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/Fetch.HeadersAPI.md) method to return all header keys.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -453,7 +454,7 @@ vary
 
 Updates a value of an existing header inside the Headers object, or creates a new header with the given value if the header does not already exist.
 
-To simply append a new value to an existing header without overwriting any data, use the [Fetch Headers - append\(String name, String value\)](Fetch.HeadersAPI.md#) method.
+To simply append a new value to an existing header without overwriting any data, use the [Fetch Headers - append\(String name, String value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/Fetch.HeadersAPI.md) method.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -496,7 +497,7 @@ gzip
 
 Returns an iterator allowing you to cycle through all header values contained in the Headers object.
 
-Use the [Fetch Headers - keys\(\)](Fetch.HeadersAPI.md#) method to return all header values.
+Use the [Fetch Headers - keys\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/Fetch.HeadersAPI.md) method to return all header values.
 
 |Name|Type|Description|
 |----|----|-----------|

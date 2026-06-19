@@ -2,6 +2,7 @@
 title: Submit an acknowledgement request
 description: After you have created an acknowledgement campaign, you can submit the acknowledgement request to the defined audience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/submit-ack-request.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -105,18 +106,18 @@ This tab shows details and requirements from the policy, as well as the **Refere
     -   The state of the acknowledgement campaign changes to **Pending Acknowledgement**.
     -   Acknowledgement \(ACK\) records for each member of the audience appear at the bottom of the screen.
     -   The **Acknowledgement Results** tab shows the progress of the acknowledgement process. That is, it reports the total number of acknowledgements sent, and keeps a running tally of the number and types of responses received \(for example, number of accepted, declined, exempted, and so forth\).
-    ![Acknowledgement Results](../image/ack-results.png)
+    \[Omitted image "ack-results.png"\] Alt text: Acknowledgement Results
 
     **Note:** The **Activity** tab shows acknowledgement activities as they happen. The compliance user can click the Work notes check box and post work notes to track changes. The Additional comments box can be used to communicate with the audience.
 
     Also, each member of the audience receives an email notification similar to the following example.
 
-    ![Preview email](../../grc-operational-res/image/preview-email.png)
+    \[Omitted image "preview-email.png"\] Alt text: Preview email
 
 10. As the acknowledgement period elapses, you can monitor the progress of the responses by navigating to **Policy and Compliance** &gt; **Policy Acknowledgement** &gt; **Pending Acknowledgements**.
 
 11. You can also identify any audience members who have exceeded the acknowledgement time line by navigating to **Policy and Compliance** &gt; **Policy Acknowledgement** &gt; **Overdue Acknowledgements**.
 
 
-**Parent Topic:**[Acknowledge a policy](../concept/ack-policy.md)
+**Parent Topic:**[Acknowledge a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/ack-policy.md)
 

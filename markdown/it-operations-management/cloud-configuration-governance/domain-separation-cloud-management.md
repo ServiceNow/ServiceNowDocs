@@ -2,6 +2,7 @@
 title: Domain separation and Cloud Provisioning and Governance
 description: Domain separation is supported in Cloud Provisioning and Governance. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/domain-separation-cloud-management.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -25,7 +26,7 @@ Domain separation is supported in Cloud Provisioning and Governance. Domain sepa
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## Cloud Provisioning and Governance domain separation overview
 
@@ -71,10 +72,10 @@ Manually assign users with the Cloud User Portal \(sn\_cmp.cloud\_service\_user\
 
 ## Next Steps
 
-For more information on creating, implementing, and maintaining domain separation for Cloud Provisioning and Governance services in the instance you are setting up for your customers, see [Domain separation in Cloud Provisioning and Governance - considerations for service providers](../reference/cloud-mgmt-dom-sep-recommend.md).
+For more information on creating, implementing, and maintaining domain separation for Cloud Provisioning and Governance services in the instance you are setting up for your customers, see [Domain separation in Cloud Provisioning and Governance - considerations for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloud-mgmt-dom-sep-recommend.md).
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

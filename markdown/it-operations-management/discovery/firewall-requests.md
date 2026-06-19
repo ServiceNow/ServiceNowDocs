@@ -2,6 +2,7 @@
 title: Firewall rule requests
 description: Use Service Catalog to request new firewall policies and rules.Request a new firewall rule using the Service Catalog to manage various IP addresses, enhance network security, and accommodate evolving business requirements.Approval of firewall requests gives you controlled access and compliance. Members of the approver group can review and approve firewall audits and new firewall requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/firewall-requests.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -15,9 +16,9 @@ breadcrumb: [Using Firewall Audits and Reporting, Firewall Audits and Reporting,
 
 Use Service Catalog to request new firewall policies and rules.
 
-![Request new firewall rule](../image/request_new_firewall.png "Firewall rule request workflow")
+\[Omitted image "request\_new\_firewall.png"\] Alt text: Request new firewall rule
 
-**Parent Topic:**[Using Firewall Audits and Reporting](firewall-audit-report-use.md)
+**Parent Topic:**[Using Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/firewall-audit-report-use.md)
 
 ## Request new firewall rule
 
@@ -39,7 +40,7 @@ Administrators initiate tasks, which are automatically directed to the risk team
 
 2.  Select **Request Firewall Rule**.
 
-    ![Request firewall form.](../image/request_firewall_form.png "Request Firewall Rule")
+    \[Omitted image "request\_firewall\_form.png"\] Alt text: Request firewall form.
 
 3.  Enter the appropriate information for the following mandatory fields:
 

@@ -2,6 +2,7 @@
 title: Edit rack
 description: Added topic as per STRY56040533 - DOC1080161.Edit a rack to remove, add, or move the equipment from the selected rack. Organize and upgrade the components within the rack using the Telecommunications Network Inventory application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/edit-rack.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -27,7 +28,7 @@ By editing a rack, you can see all the equipment added to the rack along with it
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/ni-workspace-list-icon.png)\), and then go to **Inventory** &gt; **Rack**.
+2.  Select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List icon.\), and then go to **Inventory** &gt; **Rack**.
 
 3.  Select a rack from the displayed list.
 
@@ -46,7 +47,7 @@ By editing a rack, you can see all the equipment added to the rack along with it
     -   The existing filters automatically clear on entering a search. And, applying a filter clears your search terms.
     -   The equipment list can also be sorted based on latest creation date, highest number of Rack Units and weight.
     -   The list shows all the equipment records included in the sn\_ni\_core.equipment system property, and the equipment that aren't in the rack. However, the equipment installed within the rack is visible in the list, but remains inactive.
-    -   The info \(![info icon](../image/icon-info.png)\) expands and displays the equipment details on selecting an equipment or the info button.
+    -   The info \(\[Omitted image "icon-info.png"\] Alt text: info icon\) expands and displays the equipment details on selecting an equipment or the info button.
 6.  Perform any of the following while editing a rack.
 
 <table id="table_tqd_2yr_lbc"><thead><tr><th>
@@ -63,10 +64,10 @@ Add
 
 </td><td>
 
-1.  Select **\(![Options icon](../../../common/image/icon-menu.png)\)** &gt; **Add to Rack**.
+1.  Select **\(\[Omitted image "icon-menu.png"\] Alt text: Options icon\)** &gt; **Add to Rack**.
 2.  Fill in the fields and select **Add**.
 
-To learn more about the fields, see add equipment to rack table of [Change request and change task forms](../concept/change_request_forms.md).
+To learn more about the fields, see add equipment to rack table of [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
 
  **Note:** You can drag the equipment from the corner to the desired rack unit. For non-TNI, a TNI entity with category as equipment is created. Changes can be undone or redone.
 
@@ -76,8 +77,8 @@ Move
 
 </td><td>
 
-1.  Select **\(![Options icon](../../../common/image/icon-menu.png)\)** &gt; **Move**.
-2.  Fill in the fields and select **Move**. To learn more about the fields, see add equipment to rack table of [Change request and change task forms](../concept/change_request_forms.md).
+1.  Select **\(\[Omitted image "icon-menu.png"\] Alt text: Options icon\)** &gt; **Move**.
+2.  Fill in the fields and select **Move**. To learn more about the fields, see add equipment to rack table of [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
  **Note:**
 
 -   You can also drag the equipment from the corner to the desired rack unit.
@@ -90,7 +91,7 @@ Remove
 
 </td><td>
 
-Select **\(![Options icon](../../../common/image/icon-menu.png)\)** &gt; **Remove**.**Note:**
+Select **\(\[Omitted image "icon-menu.png"\] Alt text: Options icon\)** &gt; **Remove**.**Note:**
 
 -   You can undo or redo the changes
 -   Multiple change tasks are created on multiple removals of equipment. Additionally, both removed equipment and racks are added under **Affected CIs**.
@@ -102,7 +103,7 @@ Reserve a rack unit
 
 </td><td>
 
-Select Options \(![Options icon](../../../common/image/icon-menu.png)\) of the rack unit that you want to reserve and select **Reserve**.**Note:**
+Select Options \(\[Omitted image "icon-menu.png"\] Alt text: Options icon\) of the rack unit that you want to reserve and select **Reserve**.**Note:**
 
 -   You can undo or redo the changes
 -   On reserving a rack unit, its life-cycle stage is set to Deployed and its life-cycle stage status is set to Reserved.
@@ -125,5 +126,5 @@ Select Options \(![Options icon](../../../common/image/icon-menu.png)\) of the r
         -   if any technical error occurs. However, work notes are updated with the error details.
     -   A change request can contain different change tasks.
 
-**Parent Topic:**[Create a rack](edit-a-rack.md)
+**Parent Topic:**[Create a rack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/edit-a-rack.md)
 

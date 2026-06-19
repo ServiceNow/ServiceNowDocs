@@ -2,6 +2,7 @@
 title: Context menu in the syntax editor
 description: View the context menu for script includes, Glide APIs, and tables in the JavaScript syntax editor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/context-menu-syntax-editor.html
 release: zurich
 product: Scripts
 classification: scripts
@@ -21,7 +22,7 @@ In the syntax editor, bold font is used for tokens that have a context menu. Rig
 -   Glide API documentation
 -   System and custom table definitions and data
 
-![The context menu options for a script include in the syntax editor.](../image/js-editor-context-menu.png "Context menu in the syntax editor")
+\[Omitted image "js-editor-context-menu.png"\] Alt text: The context menu options for a script include in the syntax editor.
 
 |Token type|Context menu option|Description|
 |----------|-------------------|-----------|
@@ -35,5 +36,5 @@ You can configure whether to show the context menu in the syntax editor with the
 
 **Note:** Context menu options can be accessed only if the browser supports SharedWorker, such as Google Chrome and Mozilla Firefox.
 
-**Parent Topic:**[Using the JavaScript syntax editor](../reference/r_EdtJvaScptWSyntxEdtr.md)
+**Parent Topic:**[Using the JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/r_EdtJvaScptWSyntxEdtr.md)
 

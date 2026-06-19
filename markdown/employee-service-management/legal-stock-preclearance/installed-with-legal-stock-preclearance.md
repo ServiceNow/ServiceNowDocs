@@ -2,6 +2,7 @@
 title: Components installed with Legal Stock Preclearance
 description: Several types of components are installed with activation of the Legal Stock Preclearance application, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-stock-preclearance/installed-with-legal-stock-preclearance.html
 release: zurich
 product: Legal Stock Preclearance
 classification: legal-stock-preclearance
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Legal Stock Preclearance, Legal Service Delivery Practic
 
 Several types of components are installed with activation of the Legal Stock Preclearance application, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -97,5 +98,5 @@ Trading Window Requests\[sn\_lg\_stock\_cp\_trading\_window\_request\]
 Stores the trading window requests for stock preclearance requests.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legal Stock Preclearance reference](legal-stock-pre-reference.md)
+</table>**Parent Topic:**[Legal Stock Preclearance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-stock-preclearance/legal-stock-pre-reference.md)
 

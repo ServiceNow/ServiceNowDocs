@@ -2,12 +2,13 @@
 title: CMDB tables descriptions
 description: List of tables in the CMDB in a base system with its name, label, and a description of the type of information that is stored in the table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 32
+reading_time_minutes: 31
 breadcrumb: [Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -15,9 +16,9 @@ breadcrumb: [Explore, Configuration Management Database \(CMDB\), Configuration 
 
 List of tables in the CMDB in a base system with its name, label, and a description of the type of information that is stored in the table.
 
-You can extend tables in a base system by installing a CMDB CI Class Models store app which adds class models that support specific technologies. These extensions include class definitions, identification rules, identifier entries, and dependent relationships if applicable. A CMDB CI Class Models store app can also modify the label of a base class. For more information, see [CMDB CI Class Models](../concept/cmdb-ci-class-models.md).
+You can extend tables in a base system by installing a CMDB CI Class Models store app which adds class models that support specific technologies. These extensions include class definitions, identification rules, identifier entries, and dependent relationships if applicable. A CMDB CI Class Models store app can also modify the label of a base class. For more information, see [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
 
-Class descriptions are integrated into the CI Class Manager and appear in the **Description** field on the Basic Info page for a class. For more information about viewing class descriptions, see [View and edit class definitions and metadata](../task/t_ViewTableDefinitions.md).
+Class descriptions are integrated into the CI Class Manager and appear in the **Description** field on the Basic Info page for a class. For more information about viewing class descriptions, see [View and edit class definitions and metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/t_ViewTableDefinitions.md).
 
 <table id="table_jjn_xvp_33b"><thead><tr><th>
 
@@ -3013,7 +3014,7 @@ Types of information that a business application or any other entity handles.
 
  For example: 'Employee Salary Data', Employee Personal Data', and 'Sales Data'.
 
- For more information, see [CSDM implementation stage — Fly](../../csdm-implementation/concept/csdm-implement-fly-stage.md) and [Enterprise Architecture \(formerly Application Portfolio Management\) and CSDM tables - Legacy](https://www.servicenow.com/docs/access?context=apm-use-case&version=zurich&pubname=zurich-application-portfolio-management&ft:locale=en-US).
+ For more information, see [CSDM implementation stage — Fly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-implement-fly-stage.md) and .
 
 </td></tr><tr><td>
 
@@ -5655,9 +5656,9 @@ Service classification
 
 </td><td>
 
-Designates the type of the service. -   Application Service \(For more information, see [Application services](../concept/application-services.md)\)
--   Technical Service \(For more information, see [Application services](../concept/application-services.md) and [Use the Dynamic CI Group method to populate application services](../task/populate-app-service-dynamic-group.md)\)
--   Service Offering \(For more information, see [Service Portfolio Management service offerings](https://www.servicenow.com/docs/access?context=SPM2-service-offerings&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)\)
+Designates the type of the service. -   Application Service \(For more information, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/application-services.md)\)
+-   Technical Service \(For more information, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/application-services.md) and [Use the Dynamic CI Group method to populate application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-group.md)\)
+-   Service Offering \(For more information, see Service Portfolio Management service offerings\)
 -   Shared Service \(For more information, see IT shared services\)
 -   Billable Service \(To represents a service that is billed, or that is cost managed\)
 

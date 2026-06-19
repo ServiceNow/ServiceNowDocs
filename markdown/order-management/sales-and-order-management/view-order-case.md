@@ -2,6 +2,7 @@
 title: View order case details
 description: View the list of order cases and their state from the Business Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/view-order-case.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

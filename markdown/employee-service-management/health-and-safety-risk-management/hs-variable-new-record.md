@@ -2,6 +2,7 @@
 title: Variable new record form
 description: Field description to create a new variable record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/health-and-safety-risk-management/hs-variable-new-record.html
 release: zurich
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -37,7 +38,7 @@ Type
 
 </td><td>
 
-The variable type that you want to create. For more information, see [Types of service catalog variables](https://www.servicenow.com/docs/access?context=r_VariableTypes&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+The variable type that you want to create. For more information, see Types of service catalog variables.
 
 </td></tr><tr><td>
 
@@ -133,5 +134,5 @@ Hint that is displayed in the question field before a user enters a value.Applic
 -   Date/Time
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Risk Management reference](../concept/hs-risk-mgmt-reference.md)
+</table>**Parent Topic:**[Health and Safety Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-reference.md)
 

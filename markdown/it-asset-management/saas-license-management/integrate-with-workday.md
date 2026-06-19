@@ -2,6 +2,7 @@
 title: Integrating with Workday
 description: Integrating your Software Asset Management application with the Workday applications enables you to track your software subscriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/saas-license-management/integrate-with-workday.html
 release: zurich
 product: SaaS License Management
 classification: saas-license-management
@@ -22,8 +23,8 @@ With this integration, you can track software subscriptions for the following Wo
 
 Use either of the following authentication methods to integrate your ServiceNow instance with Workday.
 
--   [Basic Authentication](integrate-with-workday-basicauth.md#)
--   [OAuth 2.0](integrate-with-workday-oauth.md#)
+-   [Basic Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-workday-basicauth.md)
+-   [OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-workday-oauth.md)
 
 **Important:** Minimize security risks and protect information by granting access only to the necessary user or API permissions.
 

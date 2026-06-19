@@ -2,6 +2,7 @@
 title: Configure digest token authentication for EMR Help
 description: Configure ServiceNow single sign-on with Epic utilizing digest token authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/emr-help/configure-digest-token-authentication-for-emr-help.html
 release: zurich
 product: EMR Help
 classification: emr-help

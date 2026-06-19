@@ -2,6 +2,7 @@
 title: Properties installed with ServiceNow for Microsoft Outlook
 description: The following properties are installed with the Outlook Actionable Messages plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/properties-sn-ms-outlook.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -44,5 +45,5 @@ Use this property to set the portal in which the survey opens if the questions e
 -   Default value: esc
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow for Microsoft Outlook reference](sn-ms-outlook-reference.md)
+</table>**Parent Topic:**[ServiceNow for Microsoft Outlook reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/sn-ms-outlook-reference.md)
 

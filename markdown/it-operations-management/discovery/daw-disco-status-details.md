@@ -2,11 +2,12 @@
 title: Discovery Admin Workspace status details
 description: The Discovery Status Details page offers a summary of a discovery initiated from a schedule, detailing the devices identified, any errors encountered, and any anomalies found.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/daw-disco-status-details.html
 release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 3
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery Admin Workspace Schedules, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -22,15 +23,15 @@ To access Discovery status details in Discovery Admin Workspace, navigate to **W
 
 After selecting a discovery status from the table, the schedule header displays key information such as Discovery details, MID Server details, and anomaly severity.
 
-![Discovery schedule and status details display in the headers](../image/daw-status-details-schedule-header.png "Discovery schedule and status headers")
+\[Omitted image "daw-status-details-schedule-header.png"\] Alt text: Discovery schedule and status details display in the headers
 
 **Note:** Starting with v1.10.0, the schedule header displays 'Quick Discovery' when the schedule is created using the Quick Discovery feature. Additionally, if the schedule associated with a run is deleted, the header no longer displays the schedule name.
 
 The status header shows run-related details, including start and end times, the number of probes triggered and completed, and any anomalies detected.
 
-**Important:** Anomaly information only displays when anomaly detection is enabled. For more information, see [Discovery Admin Workspace Settings](discovery-admin-workspace-setup.md).
+**Important:** Anomaly information only displays when anomaly detection is enabled. For more information, see [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-admin-workspace-setup.md).
 
-If the status is Active or Starting, selecting the **Refresh** icon \(![](../image/daw-refresh-icon.png)\) updates the Started and Completed values in the header in real time.
+If the status is Active or Starting, selecting the **Refresh** icon \(\[Omitted image "daw-refresh-icon.png"\]\) updates the Started and Completed values in the header in real time.
 
 ## Key features
 
@@ -38,7 +39,7 @@ If the status is Active or Starting, selecting the **Refresh** icon \(![](../ima
 
     The **Details** tab includes visualizations that provide detailed information about the Discovery status. Depending on whether the status pertains to a discovery that is IP-based or cloud-based, the visualizations provide a detailed overview of the schedule’s performance and current status. They highlight key metrics such as the number of devices and IPs discovered, cloud resources identified, and any errors encountered during the run.
 
-    Select the **More options** icon \(![More options icon](../../health-log-analytics-operator/image/icon-menu-sow.png)\), then select **Refresh** to refresh the data for each visualization in this section.
+    Select the **More options** icon \(\[Omitted image "icon-menu-sow.png"\] Alt text: More options icon\), then select **Refresh** to refresh the data for each visualization in this section.
 
     |Report title|Discovery Type|Description|
     |------------|--------------|-----------|
@@ -53,13 +54,13 @@ If the status is Active or Starting, selecting the **Refresh** icon \(![](../ima
 
     For IP-based schedules, the **Total Devices**, **New Devices**, and **Duplicate IPs** tables provide additional details such as the Source, Classification probe, and Scan status. Selecting the **Source** hyperlink opens a page where you can view more information about the device, apply tags, and access the Discovery Log and ECC Queue details. Selecting the **Total IPs** indicator opens the Shazzam Summary table, where you can access details such as IP addresses, IP Range, and Network Range. To learn more about a specific item, simply select its hyperlink in the table.
 
-    For cloud-based schedules, selecting the **Total Cloud Resources** indicator reveals a bar chart that categorizes each discovered cloud resource by its CI type. Select the **More options** icon \(![More options icon](../../health-log-analytics-operator/image/icon-menu-sow.png)\), to refresh or save the chart.
+    For cloud-based schedules, selecting the **Total Cloud Resources** indicator reveals a bar chart that categorizes each discovered cloud resource by its CI type. Select the **More options** icon \(\[Omitted image "icon-menu-sow.png"\] Alt text: More options icon\), to refresh or save the chart.
 
 -   **Debugging**
 
     The **Debugging** tab provides information about the Discovery Log and ECC Queue.
 
-    Select the **More options** icon \(![More options icon](../../health-log-analytics-operator/image/icon-menu-sow.png)\), to refresh the data for each visualization in this section.
+    Select the **More options** icon \(\[Omitted image "icon-menu-sow.png"\] Alt text: More options icon\), to refresh the data for each visualization in this section.
 
     By default, the **Discovery Log** table displays information such as classification failures, CMDB updates, and authentication failures. A Discovery Log record is created for each action associated with a discovery status.
 

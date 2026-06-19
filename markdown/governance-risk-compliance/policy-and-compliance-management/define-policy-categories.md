@@ -2,6 +2,7 @@
 title: Define policy categories
 description: You can filter policies by specific criteria to limit the number of policies displayed when you are creating policy exceptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/define-policy-categories.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -21,9 +22,9 @@ Role required: sn\_compliance.manager
 
 ## Procedure
 
-1.  When defining the [Policy Exception Integration Registry](enable-other-apps-to-request-policy-exceptions.md), click the lock icon on the **Policy categories** field.
+1.  When defining the [Policy Exception Integration Registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/enable-other-apps-to-request-policy-exceptions.md), click the lock icon on the **Policy categories** field.
 
-    ![Policy category](../image/policy-cat.png)
+    \[Omitted image "policy-cat.png"\] Alt text: Policy category
 
 2.  In the Policy categories form, click **New**.
 
@@ -54,5 +55,5 @@ When you click the search icon in the **Policy** field, only Policy 1, Policy 2,
 
 If none of your policies are tagged, all 5 appear. If you have only one policy tagged, that policy appears in the **Policy** field by default.
 
-**Parent Topic:**[Allow policy exception requests from other applications](../concept/allow-other-app-policy-except.md)
+**Parent Topic:**[Allow policy exception requests from other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/allow-other-app-policy-except.md)
 

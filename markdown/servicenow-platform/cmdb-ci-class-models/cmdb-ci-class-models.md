@@ -2,6 +2,7 @@
 title: CMDB CI Class Models
 description: The CMDB contains base-system classes that store data about configuration items \(CIs\). The CMDB CI Class Models ServiceNow Store app adds class models that extend the CMDB class hierarchy, including class descriptions, identification rules, identifier entries, and dependent relationships if applicable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.html
 release: zurich
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
@@ -17,15 +18,15 @@ The CMDB contains base-system classes that store data about configuration items 
 
 You can use the added classes like any other class. Applications such as Discovery and Service Mapping can use class extensions to populate CIs and to discover technologies and software.
 
-See the [full release notes for all CMDB CI Class Models](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/it-operations-management/store-rn-itom-cmdb-class-models.html?emcs_t=S2h8ZW1haWx8Ym9hcmRfc3Vic2NyaXB0aW9ufE1FMlVTSFREVDc3S0hTfDMzNDcxMjV8U1VCU0NSSVBUSU9OU3xoSw).
+See the CMDB CI Class Models release notes.
 
 Related ServiceNow® Store apps and reference information:
 
--   [Configuration Management database](c_ConfigurationManagementDatabase.md): A collection of class diagrams and class attributes for key CMDB classes.
--   [CMDB tables descriptions](../reference/cmdb-tables-details.md): Descriptions of key CMDB tables in the base system.
--   [Populating the CMDB](c_OptionsToPopulateCMDB.md): Information about the various options for populating the CMDB.
--   [Discovery patterns](https://www.servicenow.com/docs/access?context=c_MappingPatternsCustomization&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US): A ServiceNow Store app that provides a library of Discovery patterns for discovering specific devices and applications in the industry.
--   [Service Graph Connectors](cmdb-third-party-integrations.md): ServiceNow Store apps that provide predefined integrations for importing and integrating common third-party data into CMDB classes. Also includes the [IntegrationHub ETL](integrationhub-etl.md) wizard for creating new ETL transform maps.
+-   [Configuration Management database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md): A collection of class diagrams and class attributes for key CMDB classes.
+-   [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md): Descriptions of key CMDB tables in the base system.
+-   [Populating the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_OptionsToPopulateCMDB.md): Information about the various options for populating the CMDB.
+-   Discovery patterns: A ServiceNow Store app that provides a library of Discovery patterns for discovering specific devices and applications in the industry.
+-   [Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-third-party-integrations.md): ServiceNow Store apps that provide predefined integrations for importing and integrating common third-party data into CMDB classes. Also includes the [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/integration-hub-etl/integrationhub-etl.md) wizard for creating new ETL transform maps.
 
 ## Add class models
 
@@ -42,27 +43,27 @@ The following table lists the software and technologies that applications can di
 
 |Software/Technology|CMDB CI Class Models Store app|Discovery patterns|
 |-------------------|------------------------------|------------------|
-|Avi load balancer|[Avi load balancer extension classes](cmdb-ci-class-models-avi-lb.md)|[Avi Vantage load balancer discovery](https://www.servicenow.com/docs/access?context=avi-load-balancer-discovery&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)|
-|BYOL Model of RDS for Oracle|[BYOL model of RDS for Oracle extension classes](cmdb-ci-class-models-byol-aws-rds.md)| |
-|Firewall|[Firewall extension classes](cmdb-ci-class-models-fw.md)| |
-|IBM Hardware Management Console \(HMC\)|[IBM Hardware Management Console \(HMC\) extension classes](cmdb-ci-class-models-ibm-hmc.md)|[IBM Virtualization and Hardware Management Console discovery](https://www.servicenow.com/docs/access?context=ibm-hmc-discovery&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)|
-|Internet of Things \(IoT\)|[Internet of Things \(IoT\) extension classes](cmdb-ci-class-models-iot.md)|N/A|
-|Nutanix|[Nutanix extension classes](cmdb-ci-class-models-nutanix.md)|[Nutanix Acropolis discovery](https://www.servicenow.com/docs/access?context=nutanix-pattern&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)|
-|OpenStack|[OpenStack extension classes](cmdb-ci-class-models-openstack.md)|[OpenStack resource discovery](https://www.servicenow.com/docs/access?context=openstack-discovery&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)|
-|Red Hat Virtualization \(RHV\)|[Red Hat Virtualization \(RHV\) extension classes](cmdb-ci-class-models-redhat-rhv.md)|[Red Hat Virtualization discovery](https://www.servicenow.com/docs/access?context=red-hat-virtualization-discovery&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)|
-|Transport Layer Security \(TLS\)|[Transport Layer Security \(TLS\) extension classes](cmdb-ci-class-models-tls.md)|Discovery procedures provided by Certificate Inventory and Management ServiceNow Store app|
-|VMware NSX load balancer|[VMware NSX load balancer extension classes](cmdb-ci-class-models-vmware-nsx.md)|[VMware NSX Advanced load balancer discovery](https://www.servicenow.com/docs/access?context=vmware-nsx-lb-discovery&version=zurich&pubname=zurich-it-operations-management&ft:locale=en-US)|
+|Avi load balancer|[Avi load balancer extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-avi-lb.md)|Avi Vantage load balancer discovery|
+|BYOL Model of RDS for Oracle|[BYOL model of RDS for Oracle extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-byol-aws-rds.md)| |
+|Firewall|[Firewall extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-fw.md)| |
+|IBM Hardware Management Console \(HMC\)|[IBM Hardware Management Console \(HMC\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-ibm-hmc.md)|IBM Virtualization and Hardware Management Console discovery|
+|Internet of Things \(IoT\)|[Internet of Things \(IoT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-iot.md)|N/A|
+|Nutanix|[Nutanix extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-nutanix.md)|Nutanix Acropolis discovery|
+|OpenStack|[OpenStack extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-openstack.md)|OpenStack resource discovery|
+|Red Hat Virtualization \(RHV\)|[Red Hat Virtualization \(RHV\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-redhat-rhv.md)|Red Hat Virtualization discovery|
+|Transport Layer Security \(TLS\)|[Transport Layer Security \(TLS\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-tls.md)|Discovery procedures provided by Certificate Inventory and Management ServiceNow Store app|
+|VMware NSX load balancer|[VMware NSX load balancer extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-vmware-nsx.md)|VMware NSX Advanced load balancer discovery|
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Verify successful installation
 
 After installing the CMDB CI Class Models store app, make sure the classes were added successfully:
 
 1.  Navigate to **All** &gt; **Configuration** &gt; **CI Class Manager**.
-2.  Click **Hierarchy** to display the CI Classes list.
+2.  Select **Hierarchy** to display the CI Classes list.
 
     This list contains the added classes, such as the Nutanix classes.
 

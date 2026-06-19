@@ -2,6 +2,7 @@
 title: WS-Security reference
 description: Support for WS-Security 1.1 in the form of WSS X.509 Token Profile and WSS Username Token Profile is available for incoming SOAP requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/ws-security-reference.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -82,5 +83,5 @@ This sample has been formatted with line returns to fit the content into the fra
                         </ds:SignatureValue><ds:KeyInfo Id = "KeyId-2D914AB929A6719E7F13068829875022"xmlns:ds = "http://www.w3.org/2000/09/xmldsig#" ><wsse:SecurityTokenReferencexmlns:wsu = "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"wsu:Id = "STRId-2D914AB929A6719E7F13068829875053"xmlns:wsse = "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" ><wsse:Reference URI = "#CertId-2D914AB929A6719E7F13068829874641"ValueType = "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3"xmlns:wsse = "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" /></wsse:SecurityTokenReference></ds:KeyInfo></ds:Signature><wsu:Timestampxmlns:wsu = "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"wsu:Id = "Timestamp-1" ><wsu:Created>2011-05-31T23:03:07.454Z</wsu:Created><wsu:Expires>2011-05-31T23:08:07.454Z</wsu:Expires></wsu:Timestamp><wsse:UsernameToken><wsse:Username>test_user</wsse:Username><wsse:Password>xxxxxx</wsse:Password></wsse:UsernameToken></wsse:Security></SOAP-ENV:Header>
 ```
 
-**Parent Topic:**[SOAP web service](../concept/c_SOAPWebService.md)
+**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_SOAPWebService.md)
 

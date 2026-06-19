@@ -2,6 +2,7 @@
 title: Configure data Sources and schedule imports
 description: Set up the data source for the integration framework \(for example, badging spoke data\) and schedule the import job to retrieve data from the data source periodically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-connectors/import-data-connector.html
 release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
@@ -148,9 +149,9 @@ The time at which the scheduled job should be imported. For example: 10:30:00
 </table>10. Select **Execute Now**.
 
 
-**Parent Topic:**[Configure Workplace Connectors](../concept/configure-workplace-connectors.md)
+**Parent Topic:**[Configure Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/configure-workplace-connectors.md)
 
-**Previous topic:**[Configure sensor data providers](providers-occupancy.md)
+**Previous topic:**[Configure sensor data providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/providers-occupancy.md)
 
-**Next topic:**[Configure badging data choices](configure-badging-data-choices-table.md)
+**Next topic:**[Configure badging data choices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/configure-badging-data-choices-table.md)
 

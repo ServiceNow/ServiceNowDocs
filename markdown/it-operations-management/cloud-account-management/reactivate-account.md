@@ -2,6 +2,7 @@
 title: Reactivate a cloud account
 description: Reactivate an account that was previously suspended if there is a need retrieve the account. After reactivating an account, the account status changes from suspended to active. Only Cloud Account Management managed accounts can be reactivated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/reactivate-account.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
@@ -21,7 +22,7 @@ Only an admin or account owner can view the reactivated account.
 
 ## Before you begin
 
-A suspend profile must exist for an account to be reactivated. For more details, see [Set up suspension of an AWS account using service control policy](configure-suspension-policy.md).
+A suspend profile must exist for an account to be reactivated. For more details, see [Set up suspension of an AWS account using service control policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/configure-suspension-policy.md).
 
 Role required: sn\_itom\_cam.cw\_admin or sn\_itom\_cam.cw\_requestor
 

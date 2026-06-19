@@ -2,6 +2,7 @@
 title: Performance Analytics widgets
 description: Widgets enable you to define visualizations for indicator scores. Widgets are shown on dashboards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/c\_Widgets.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -15,7 +16,7 @@ breadcrumb: [Reporting, dashboards, and Performance Analytics in the Core UI, Pl
 
 Widgets enable you to define visualizations for indicator scores. Widgets are shown on dashboards.
 
-**Note:** This feature is part of the Core UI front end. It is not supported on Platform Analytics dashboards or UI Builder pages, except to a limited extent when migrated in compatibility mode. To build Platform Analytics components, see [Data visualizations in Platform Analytics](analytics-center-data-visualizations.md) or [Filters in Platform Analytics](../../par-for-workspace/concept/interactive-filters-workspace.md).
+**Note:** This feature is part of the Core UI front end. It is not supported on Platform Analytics dashboards or UI Builder pages, except to a limited extent when migrated in compatibility mode. To build Platform Analytics components, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-data-visualizations.md) or [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters-workspace.md).
 
 This feature is in maintenance mode and is no longer being augmented or changed. Only security fixes to this feature will be addressed.
 
@@ -41,13 +42,13 @@ The first step in creating a widget is to select the type of widget to create. B
 
 |Widget type|Purpose|Typical Visualizations|
 |-----------|-------|----------------------|
-|[Time Series widget](../reference/time-series-widgets.md)|Shows changes over time in indicator scores.|Line visualization is the most usual. Other visualizations are: spline, step, column, stacked column, area, and relative compare.|
-|[Breakdown widget](../reference/breakdown-widgets.md)|Groups indicator scores by the elements of a breakdown.|Scorecard, pie and similar charts, funnel and pyramid, column and similar charts, relative compare, line, Pareto, pivot scorecard, and treemap.|
-|[Score widget](../reference/score-widgets.md)|Shows aggregate indicator scores. Can show an indicator score against a target.|Latest score, speedometer, real-time score.|
-|[List widget](../reference/list-widgets.md)|Lists the metrics for several indicators.|Scorecard, spider web.|
-|[Pivot widget](../task/create-heatmap-pivot-widget.md)|Groups the scores of one indicator by the elements of two breakdowns.|Heatmap|
-|[Text analytics](text-analytics-widgets.md)|Visualizes word frequencies and groupings in the text that users enter in forms|Word cloud|
-|[Workbench widget](c_MonitorWorkflowWorkbenchWidget.md#)|Shows multiple indicators and their relations, to monitor a workflow or other process.|Workbench|
+|[Time Series widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/time-series-widgets.md)|Shows changes over time in indicator scores.|Line visualization is the most usual. Other visualizations are: spline, step, column, stacked column, area, and relative compare.|
+|[Breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/breakdown-widgets.md)|Groups indicator scores by the elements of a breakdown.|Scorecard, pie and similar charts, funnel and pyramid, column and similar charts, relative compare, line, Pareto, pivot scorecard, and treemap.|
+|[Score widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/score-widgets.md)|Shows aggregate indicator scores. Can show an indicator score against a target.|Latest score, speedometer, real-time score.|
+|[List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/list-widgets.md)|Lists the metrics for several indicators.|Scorecard, spider web.|
+|[Pivot widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-heatmap-pivot-widget.md)|Groups the scores of one indicator by the elements of two breakdowns.|Heatmap|
+|[Text analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/text-analytics-widgets.md)|Visualizes word frequencies and groupings in the text that users enter in forms|Word cloud|
+|[Workbench widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_MonitorWorkflowWorkbenchWidget.md)|Shows multiple indicators and their relations, to monitor a workflow or other process.|Workbench|
 
 ## Security requirements for viewing widgets
 
@@ -68,7 +69,7 @@ Upgraded instances cannot automatically follow the rules introduced in Quebec be
 
 ## Data tables for widget accessibility
 
-If under Preferences you have enabled **Accessibility** &gt; **Enable data table for charts and graphs**, tables replace the graphical charts for all Performance Analytics widgets on your instance. Workspace widgets are an exception, as they show both charts and tables. For more information about accessibility and widgets, including how to replace colors with patterns, see [Accessibility options on dashboards](../../reporting/concept/analytics-accessibility-options.md).
+If under Preferences you have enabled **Accessibility** &gt; **Enable data table for charts and graphs**, tables replace the graphical charts for all Performance Analytics widgets on your instance. Workspace widgets are an exception, as they show both charts and tables. For more information about accessibility and widgets, including how to replace colors with patterns, see [Accessibility options on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/analytics-accessibility-options.md).
 
-![Workbench widget with the Data tables accessibility preference activated, showing both a chart and a table.](../image/widget-accessibility-table.png)
+\[Omitted image "widget-accessibility-table.png"\] Alt text: Workbench widget with the Data tables accessibility preference activated, showing both a chart and a table.
 

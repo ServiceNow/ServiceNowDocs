@@ -2,6 +2,7 @@
 title: Local data instances for multiple data visualizations
 description: A special Data Visualization API data resource is available to fetch data for multiple data visualizations simultaneously. This data resource reduces the number of API calls and thus can speed up data fetching.If your use case meets the criteria for a multiple visualization data resource, you can follow this procedure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/local-data-instance-multi-viz.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -31,7 +32,7 @@ If your use case meets the criteria for a multiple visualization data resource, 
 
 ### Before you begin
 
-Review the use case for a single data resource for multiple visualizations in [Local data instances for multiple data visualizations](local-data-instance-multi-viz.md#).
+Review the use case for a single data resource for multiple visualizations in [Local data instances for multiple data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/local-data-instance-multi-viz.md).
 
 Role required: ui\_builder\_admin, admin
 
@@ -49,13 +50,13 @@ Role required: ui\_builder\_admin, admin
 
 3.  In the Data and scripts drawer, under Data resources, select **+ Add data resource**.
 
-    ![Add data resource link when there are no data resources yet.](../../par-for-workspace/image/add-data-resource.png)
+    \[Omitted image "add-data-resource.png"\] Alt text: Add data resource link when there are no data resources yet.
 
 4.  In the Select a data resource window, search for `Data visualization`.
 
     You get a selection of the data resources you can use.
 
-    ![Selection of Data Visualization API data resources, including the one for multiple data visualizations.](../../par-for-workspace/image/dv-multiviz-data-resource.png)
+    \[Omitted image "dv-multiviz-data-resource.png"\] Alt text: Selection of Data Visualization API data resources, including the one for multiple data visualizations.
 
 5.  Select "Data Visualization API for multiple data visualizations."
 
@@ -148,7 +149,7 @@ Each visualization also has a **configurations** property, containing only a **d
 
 The final configuration of the data resource looks like this:
 
-![Complete configuration of dashboard data broker.](../../par-for-workspace/image/db-data-res-mult-viz-config.png)
+\[Omitted image "db-data-res-mult-viz-config.png"\] Alt text: Complete configuration of dashboard data broker.
 
 Lastly, for each data visualization, you bind the following script to the data field. You use the arbitrary **visualizationId** value you gave each visualization as the `vizId` value in the script for that visualization.
 

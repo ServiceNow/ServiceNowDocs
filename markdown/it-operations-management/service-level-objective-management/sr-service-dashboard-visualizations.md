@@ -2,6 +2,7 @@
 title: Visualizations in the Service reliability dashboard
 description: List of visualizations and options on the Service reliability dashboard in Service Reliability Management \(SRM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-level-objective-management/sr-service-dashboard-visualizations.html
 release: zurich
 product: Service Level Objective Management
 classification: service-level-objective-management
@@ -93,9 +94,9 @@ The SLO table includes the following columns by default. To customize the column
 
 ## Dashboard filters and actions
 
-The Service reliability dashboard is built with Platform Analytics and includes standard dashboard features. For details on customizing, duplicating, or sharing dashboards, see the [Dashboards in Platform Analytics](https://www.servicenow.com/docs/access?context=analytics-center-dashboards&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US) documentation.
+The Service reliability dashboard is built with Platform Analytics and includes standard dashboard features. For details on customizing, duplicating, or sharing dashboards, see the  documentation.
 
-**Note:** Changes to the Service reliability dashboard affect all SRM users on your instance. To create a personalized version, either build a new dashboard or duplicate the existing dashboard and edit it. Learn more in [Create a dashboard with the in-line editor](https://www.servicenow.com/docs/access?context=create-db-in-ac&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US) and [Duplicate a Platform Analytics dashboard](https://www.servicenow.com/docs/access?context=duplicate-db&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+**Note:** Changes to the Service reliability dashboard affect all SRM users on your instance. To create a personalized version, either build a new dashboard or duplicate the existing dashboard and edit it. Learn more in  and .
 
-**Parent Topic:**[SLO Management reference](../../slo-management/reference/service-level-objective-management-reference.md)
+**Parent Topic:**[SLO Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-level-objective-management/service-level-objective-management-reference.md)
 

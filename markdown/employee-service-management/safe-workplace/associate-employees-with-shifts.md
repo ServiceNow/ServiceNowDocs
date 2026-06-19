@@ -2,6 +2,7 @@
 title: Assign employees to a shift
 description: Associate employees with a shift in Workplace Core so that they operate from the office only in the shifts to which they are assigned. Workplace managers can later reserve workspaces for these employees according to their assigned shifts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/associate-employees-with-shifts.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace
@@ -17,7 +18,7 @@ Associate employees with a shift in Workplace Core so that they operate from the
 
 ## Before you begin
 
--   [Define shifts for your workplace](../../workplace-service-delivery/task/create-shifts-wsd.md).
+-   [Define shifts for your workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/create-shifts-wsd.md).
 -   Ensure you have the data for the employees who will operate from the office in this shift.
 
 Role required: sn\_wsd\_core.workplace\_manager
@@ -41,7 +42,7 @@ A pre-configured email with the shift details is sent to all employees assigned 
 
 ## What to do next
 
-[Associate areas and spaces with a shift](../../workplace-service-delivery/task/associate-workspaces-with-shifts-wsd.md).
+[Associate areas and spaces with a shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/associate-workspaces-with-shifts-wsd.md).
 
-**Parent Topic:**[Configuring shifts for your workplace](configuring-shifts-for-your-workplace.md)
+**Parent Topic:**[Configuring shifts for your workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/configuring-shifts-for-your-workplace.md)
 

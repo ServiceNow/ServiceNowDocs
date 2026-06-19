@@ -2,6 +2,7 @@
 title: Install Order Case Self Service
 description: You can install the Order Case Self Service application \(sn\_ord\_case\_ss\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/install-order-case-self-service.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

@@ -2,6 +2,7 @@
 title: Add a push notification message content record
 description: The push notification message content record contains the location users are directed to when they tap on a notification, as well as the appearance and layout of the notification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/developer-guides/mobsdk-and-add-push-msg-content.html
 release: zurich
 product: Developer Guides
 classification: developer-guides

@@ -2,6 +2,7 @@
 title: Kafka connector instance value parameters
 description: The following table displays the Kafka connector instance value parameters that you can fill in, as needed, when creating a Kafka connector instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/kafka-connector-instance-value-parameters.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -106,5 +107,5 @@ poll\_timeout\_ms
 Maximum time \(in milliseconds\) to wait during a poll operation before timing out. Default value: 60000
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Event Management reference](event-management-reference.md)
+</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/event-management-reference.md)
 

@@ -2,6 +2,7 @@
 title: Playbooks for Enterprise Asset Management
 description: Playbooks provide a step-by-step guidance for setting up your assets with important information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/asset-onboarding-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -17,7 +18,7 @@ Playbooks provide a step-by-step guidance for setting up your assets with import
 
 ## Playbook overview
 
-A playbook takes a workflow and breaks it into multiple lanes. The workflow for a playbook is generally created using the [Exploring Playbook](https://www.servicenow.com/docs/access?context=process-automation-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US). Each lane in a playbook includes:
+A playbook takes a workflow and breaks it into multiple lanes. The workflow for a playbook is generally created using the . Each lane in a playbook includes:
 
 -   A list of activities that you review.
 -   Status indicators that display the current state of each activity.
@@ -48,7 +49,7 @@ Each asset can have only one onboarding process and for each onboarding process,
 
 The Asset Onboarding Task \[sn\_itam\_common\_asset\_onboarding\_task\] table tracks the asset onboarding process.
 
-![Playbook for asset onboarding](../image/eam-playbook-layout.png)
+\[Omitted image "eam-playbook-layout.png"\] Alt text: Playbook for asset onboarding
 
 ## Multi-asset onboarding playbook
 
@@ -56,8 +57,8 @@ The multi-asset onboarding playbook enables you to onboard multiple assets for a
 
 As an enterprise asset technician, you can perform any of the following tasks to onboard multiple assets:
 
--   [Create a catalog request](../task/create-asset-onboard-catalog-req.md).
--   [Create an Onboarding order in the Enterprise Asset Workspace](../task/onboard-eam-assets-workspace.md).
+-   [Create a catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-asset-onboard-catalog-req.md).
+-   [Create an Onboarding order in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/onboard-eam-assets-workspace.md).
 
 After the catalog request or the Onboarding order is submitted, an Onboard Asset Task is created. The enterprise asset manager can complete the Onboard Asset task by using the playbook associated with the task. After the onboarding task is completed, the catalog request and the requested item's state changes to **Closed Complete**.
 
@@ -70,15 +71,15 @@ The Multi-asset onboarding playbook has a series of activities that can be eithe
 
 The deploy task for multi-asset onboarding can be either created as an Enterprise asset deployment task or a Work order task by configuring the **com.sn\_eam.default\_deployment\_task** asset property using the enterprise\_admin role. By default, the **Value** field of this asset property is set to **sn\_eam\_deploy\_asset\_task** and an Enterprise asset deployment task is created. However, you can create a work order task by setting the **Value** field to **wm\_task**.
 
-For details on using the multi-asset playbook, see [Create a multi-asset onboarding process](../task/create-multi-asset-onboarding.md).
+For details on using the multi-asset playbook, see [Create a multi-asset onboarding process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-multi-asset-onboarding.md).
 
-![Multi-asset playbook](../image/multi-asset-onboard.png)
+\[Omitted image "multi-asset-onboard.png"\] Alt text: Multi-asset playbook
 
 ## Calibration event playbook
 
 The Calibration event playbook enables you to track and manage the asset calibrations that you are performing as part of your work orders. This playbook is available in any work order task that has a Work type of Calibration.
 
-For more details on using the Calibration event playbook on your ServiceNow instance, see [Complete and close a work order for an enterprise asset](../task/complete-eam-work-order.md). For more details on using the Calibration event playbook in the ServiceNow® Mobile Agent® application, see [Take action on an enterprise asset using the Mobile Agent application](../task/complete-work-order-mobile-agent.md).
+For more details on using the Calibration event playbook on your ServiceNow instance, see [Complete and close a work order for an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/complete-eam-work-order.md). For more details on using the Calibration event playbook in the ServiceNow® Mobile Agent® application, see [Take action on an enterprise asset using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/complete-work-order-mobile-agent.md).
 
-![Calibration event playbook on a ServiceNow instance.](../image/eam-calibration-playbook.png)
+\[Omitted image "eam-calibration-playbook.png"\] Alt text: Calibration event playbook on a ServiceNow instance.
 

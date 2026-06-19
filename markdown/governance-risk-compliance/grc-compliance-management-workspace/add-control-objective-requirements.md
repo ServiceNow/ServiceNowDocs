@@ -2,6 +2,7 @@
 title: Add control objective requirements
 description: Add control objective requirements either manually or by selecting them from existing requirements when configuring a control objective.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/add-control-objective-requirements.html
 release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

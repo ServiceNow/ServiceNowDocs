@@ -2,6 +2,7 @@
 title: Create a PaCE policy
 description: Create a PaCE policy to determine if changes to a software service or application comply with a set of pre-defined rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/policy-as-code-engine-pace/pace-create-policy.html
 release: zurich
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
@@ -23,7 +24,7 @@ Role required: sn\_pace.policy\_editor
 
 After you create a PaCE policy, a decision is then made about these changes, and if they are compliant, non-compliant, or compliant-exception according to these pre-defined rules. The policy must be mapped correctly to the relevant object \(table and document ID\) to invoke the policy when any changes are made to the object.
 
-**Note:** Policies are only used if they have active mapping records, and if there was a request to validate an object \(tables and document IDs\) mapped to the policy. For further information, see [Map PaCE policies](../concept/pace-mapping-inputs.md).
+**Note:** Policies are only used if they have active mapping records, and if there was a request to validate an object \(tables and document IDs\) mapped to the policy. For further information, see [Map PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/policy-as-code-engine-pace/pace-mapping-inputs.md).
 
 ## Procedure
 
@@ -71,7 +72,7 @@ Category
 
 </td><td>
 
-Categories enable you to group and manage policies more efficiently. See [Managing categories in PaCE](../concept/pace-categories.md) for details.
+Categories enable you to group and manage policies more efficiently. See [Managing categories in PaCE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/policy-as-code-engine-pace/pace-categories.md) for details.
 
 </td></tr><tr><td>
 
@@ -102,11 +103,11 @@ Comments about the policy.
 
 5.  Click **Save**.
 
-    The form is refreshed to display the newly created policy.![Details page.](../image/pace-new-policy-manage-3.jpg)
+    The form is refreshed to display the newly created policy.\[Omitted image "pace-new-policy-manage-3.jpg"\] Alt text: Details page.
 
-6.  Add tags by selecting the tag icon ![Tag icon.](../image/pace-tag-icon-1.jpg) alongside the policy name to add tags.
+6.  Add tags by selecting the tag icon \[Omitted image "pace-tag-icon-1.jpg"\] Alt text: Tag icon. alongside the policy name to add tags.
 
-    For more information about defining tags, [Add tags to PaCE policies](pace-add-tags-policies.md).
+    For more information about defining tags, [Add tags to PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/policy-as-code-engine-pace/pace-add-tags-policies.md).
 
 
 ## Result
@@ -146,7 +147,7 @@ When you create a policy, by default a draft policy version is created. Each pol
 -   Compare versions
 -   Duplicate policy versions
 
-For more details, see [Manage PaCE policy versions](../concept/pace-policy-versions.md).**Note:** You must publish the \(See [Publish a PaCE policy version](pace-publish-policy-version.md)\) policy version to make it **Current** before it can be used.
+For more details, see [Manage PaCE policy versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/policy-as-code-engine-pace/pace-policy-versions.md).**Note:** You must publish the \(See [Publish a PaCE policy version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/policy-as-code-engine-pace/pace-publish-policy-version.md)\) policy version to make it **Current** before it can be used.
 
 </td></tr><tr><td>
 
@@ -162,7 +163,7 @@ Mappings
 
 </td><td>
 
-The Mappings tab enables you to define the object \(table and document ID\) to which the policy is to be mapped. For more information, see [Map PaCE policies](../concept/pace-mapping-inputs.md).
+The Mappings tab enables you to define the object \(table and document ID\) to which the policy is to be mapped. For more information, see [Map PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/policy-as-code-engine-pace/pace-mapping-inputs.md).
 
 </td></tr><tr><td>
 
@@ -177,7 +178,7 @@ The Executions tab enables you to review the execution activity for the policy.
 
 You can perform the following actions:
 
--   Delete a policy that is in an inactive state. See [Delete a PaCE policy](pace-delete-policy.md).
+-   Delete a policy that is in an inactive state. See [Delete a PaCE policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/policy-as-code-engine-pace/pace-delete-policy.md).
 -   Duplicate or create a copy of an existing policy.
--   Write and test custom PaCE policies. See [How to write and test custom PaCE policies](../concept/pace-write-test-policies.md).
+-   Write and test custom PaCE policies. See [How to write and test custom PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/policy-as-code-engine-pace/pace-write-test-policies.md).
 

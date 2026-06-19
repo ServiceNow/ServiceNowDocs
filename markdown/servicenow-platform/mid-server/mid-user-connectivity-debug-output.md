@@ -2,6 +2,7 @@
 title: Interpreting MID Server user debugging output
 description: Debugging output from the system log is available in either a summary or detailed view for MID Server user issues, but must be enabled manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/mid-server/mid-user-connectivity-debug-output.html
 release: zurich
 product: MID Server
 classification: mid-server
@@ -15,7 +16,7 @@ breadcrumb: [Resolving MID Server issues, MID Server reference, MID Server, Mana
 
 Debugging output from the system log is available in either a summary or detailed view for MID Server user issues, but must be enabled manually.
 
-To enable debugging and display all connectivity issues in either of the available formats, you must run a method manually on your instance. For instructions on enabling debugging, see [Test remediation efforts for MID Server user connectivity issues](mid-server-connectivity-issues.md#). For information about each error condition and how records are created in the MID Server Issue \[ecc\_agent\_issue\] table, see [MID Server user connectivity issues](mid-server-connectivity-issues.md#).
+To enable debugging and display all connectivity issues in either of the available formats, you must run a method manually on your instance. For instructions on enabling debugging, see [Test remediation efforts for MID Server user connectivity issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-server-connectivity-issues.md). For information about each error condition and how records are created in the MID Server Issue \[ecc\_agent\_issue\] table, see [MID Server user connectivity issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-server-connectivity-issues.md).
 
 ## Available formats
 
@@ -23,7 +24,7 @@ You can configure the instance to generate a simple summary of the issue or a de
 
 In this summary example of an authorization issue, the instance evaluates each condition and indicates how many users met that condition. You can see that a MID Server is down and that one of two users configured for a MID Server failed authorization. Because this is a summary, neither the MID Server nor the users are named.
 
-![Sample summary debug output](../image/DebugAuthorizationSummary.png "Sample summary debug output")
+\[Omitted image "DebugAuthorizationSummary.png"\] Alt text: Sample summary debug output
 
 ## Authentication failure
 
@@ -35,7 +36,7 @@ When a MID Server user cannot authenticate on the instance, the system displays 
 
 In this example, three users with the mid\_server role, **midserver2**, **local-midserver**, and **ardis.maison**, failed to authenticate. Two of these users were configured for MID Servers that were **Down**, and the other user was not configured for any MID Servers. Each of these users has an authentication failure and is named in the appropriate error message.
 
-![Detailed debugging log for authentication failure](../image/MIDIssuesAuthDebugging.png "Detailed debugging log for authentication failure")
+\[Omitted image "MIDIssuesAuthDebugging.png"\] Alt text: Detailed debugging log for authentication failure
 
 ## MID Server ID map
 
@@ -47,7 +48,7 @@ The map is presented in three sections:
 -   User accounts associated with **Down** MID Servers, identified by their **sys\_id**.
 -   The **sys\_id** of each **Down** MID Server, identified by name.
 
-![MID Server ID map](../image/MIDDebugLookupTable.png "MID Server ID map")
+\[Omitted image "MIDDebugLookupTable.png"\] Alt text: MID Server ID map
 
 ## Authorization failure
 
@@ -59,7 +60,7 @@ If a user is missing any of the required roles, the instance generates these aut
 
 In this example, three users with the mid\_server role, **midserver2**, **local-midserver**, and **ardis.maison** have failed authorization. One user is not associated with any MID Server, but the other two users are. The system has logged an authorization failure, indicating that the user is missing at least one critical role. To see what roles are missing, look at the comma separated list in the **Parm2** field in the **login.authorization.failed** event record. This record is the most recent login attempt in the Event \[sysevent\] table for the user account within the reporting period.
 
-![Detailed debugging log](../image/MIDDebugAuthorizationFail.png "Detailed debugging log for authorization failure")
+\[Omitted image "MIDDebugAuthorizationFail.png"\] Alt text: Detailed debugging log
 
 ## Network issues
 
@@ -74,7 +75,7 @@ In this example, no login attempts have been detected for **midserver2**, **loca
 
 **Note:** By default, the sampling period is 4 hours. However, during debugging or remediation, the sampling period can be reset to a value that matches the MID Server heartbeat interval of 5 minutes, or greater.
 
-![Detailed debugging log](../image/MIDDebugNetworkIssue.png "Detailed debugging log for network connection issues")
+\[Omitted image "MIDDebugNetworkIssue.png"\] Alt text: Detailed debugging log
 
 ## Configuration issues
 
@@ -87,7 +88,7 @@ Any of the following messages can indicate a user configuration issue:
 
 In this example, a user with the mid\_server role has logged in successfully within the configured sampling interval. However, this user is not configured for a MID Server and might have the role in error.
 
-![Detailed debugging log for MID Server user account login](../image/MIDDebugLoginSuccessful.png "Detailed debugging log for MID Server user account login")
+\[Omitted image "MIDDebugLoginSuccessful.png"\] Alt text: Detailed debugging log for MID Server user account login
 
-**Parent Topic:**[Resolving MID Server issues](r_MIDServerTroubleshooting.md)
+**Parent Topic:**[Resolving MID Server issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/r_MIDServerTroubleshooting.md)
 

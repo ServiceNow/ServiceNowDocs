@@ -2,6 +2,7 @@
 title: Copy and Paste in the Rich Content Editor
 description: Copy and paste HTML and CSS source code for elements in the canvas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/rce-copy-paste-source-code.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -15,7 +16,7 @@ breadcrumb: [Microsites, Creating employee communications, Manage, Employee Cent
 
 Copy and paste HTML and CSS source code for elements in the canvas.
 
-Directly [edit the CSS](rce-editing-source-code.md) for an element to add styling, or copy-paste code to migrate content from other sources.
+Directly [edit the CSS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/rce-editing-source-code.md) for an element to add styling, or copy-paste code to migrate content from other sources.
 
 **Important:** For the May 2025 release, if any pasted content has a **background-color**, the right-hand panel will not display the color unless it is formatted with **background-image styling**. The background acts as layers to add **background-color**, **gradient**, and **image** to your content. The edit code feature can be used to adjust the pasted styling from **background-color** to the corresponding value for **background-image CSS**, if you want the color to be displayed on the right-hand panel.
 
@@ -27,7 +28,7 @@ Directly [edit the CSS](rce-editing-source-code.md) for an element to add stylin
 -   Copying a component on canvas doesn’t duplicate as expected on ctrl+v, so you must access the **component toolbar**.
 
 
-![Provides additional selections from the Component Toolbar](../images/rce-cp-limitation-toolbar.jpg "Component Toolbar")
+\[Omitted image "rce-cp-limitation-toolbar.jpg"\] Alt text: Provides additional selections from the Component Toolbar
 
 **Note:** You can also add color opacity to the canvas. However, one of the limitations is that copy/paste won't transfer all styling when the colors are formatted in **rgba\(\)**instead of **rgb** or **hex**.
 
@@ -42,7 +43,7 @@ Directly [edit the CSS](rce-editing-source-code.md) for an element to add stylin
 
 If certain styling isn’t applied \(for example Font name\) or adjusting any of the settings for the pasted content doesn’t work, try to clear the styling first by selecting the “**x**" next to **Font name**.
 
-![Allows you to adjust font settings](../images/rce-cp-limitation-fontname.jpg "Font name")
+\[Omitted image "rce-cp-limitation-fontname.jpg"\] Alt text: Allows you to adjust font settings
 
 -   If your pasted content doesn’t display as expected or behaves incorrectly, try to copy a smaller chunk instead of a big section at once.
 -   • If your pasted content is displayed differently before and after saving and reloading, it might be due to some script tags removed by the HTML sanitizer.
@@ -54,7 +55,7 @@ If certain styling isn’t applied \(for example Font name\) or adjusting any of
 -   If you select the **Green** areas, it keeps the current component selected.
 
 
-![Allows you to determine action based on color background selected](../images/rce-cp-limitation-canvascolor.jpg "Rich Content Editor Canvas")
+\[Omitted image "rce-cp-limitation-canvascolor.jpg"\] Alt text: Allows you to determine action based on color background selected
 
 **Note:** Cutting and pasting highlighted text isn’t supported within text components and experiences across browsers might behave differently. Behaviors that work in Chrome might not work in Firefox or Safari.
 
@@ -79,5 +80,5 @@ The ability to add color opacity to the canvas is a useful function available to
     -   If the component enables nested components \(for example Tab, Accordion, or Row\), then content is appended within the parent container.
 -   If components are deselected when selected out of the canvas, it enables paste with source formatting.
 
-For more information on editing source code, see [Editing source code in the Rich Content Editor](rce-editing-source-code.md)
+For more information on editing source code, see [Editing source code in the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/rce-editing-source-code.md)
 

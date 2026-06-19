@@ -2,12 +2,13 @@
 title: Workflow movement with update sets
 description: The system tracks workflows in update sets differently than other records because workflow information is stored across multiple tables.Create a new workflow with no dependencies and then migrate the workflow in an update set.Successfully edit and migrate an existing workflow and its dependent subflow.Edit and migrate an existing workflow from a test instance to a production instance that fails to run on the production instance because of a missing dependent subflow.Multiple users migrate a workflow from a test instance to a production instance without proper coordination. This use case can succeed, but only when each user understands the dependencies and properly migrates the dependent parts of the workflow to the new instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/legacy-workflow/c\_WorkflowMovementWithUpdateSets.html
 release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Workflow administration, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -15,11 +16,11 @@ breadcrumb: [Workflow administration, Classic Workflow, ServiceNow AI Platform A
 
 The system tracks workflows in update sets differently than other records because workflow information is stored across multiple tables.
 
-Changes made to a workflow version are not added to the update set until the [workflow is published](../task/work-on-workflows.md#), at which point the entire workflow is added into the update set. Update sets store workflows as a single Workflow \[wf\_workflow\] record and only retain the latest version with the update type of Workflow.
+Changes made to a workflow version are not added to the update set until the [workflow is published](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/work-on-workflows.md), at which point the entire workflow is added into the update set. Update sets store workflows as a single Workflow \[wf\_workflow\] record and only retain the latest version with the update type of Workflow.
 
-For information about update sets, see [System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=zurich&pubname=zurich-application-development&ft:locale=en-US).
+For information about update sets, see System update sets.
 
-**Parent Topic:**[Workflow administration](../../workflow/concept/c_WorkflowAdministration.md)
+**Parent Topic:**[Workflow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/c_WorkflowAdministration.md)
 
 ## Workflow update set migration use case - simple
 
@@ -75,7 +76,7 @@ Edit and migrate an existing workflow from a test instance to a production insta
 
     Workflow A fails the runtime validation check and is prevented from running on the production system. The system adds to the workflow context a workflow log entry detailing the cause of the failure, notably the absence of a dependent workflow.
 
-    To learn more about the validation checks on workflow dependencies and update sets see [../../workflow-validation/reference/r\_VldtUpdtStDpnd.md](../../workflow-validation/reference/r_VldtUpdtStDpnd.md).
+    To learn more about the validation checks on workflow dependencies and update sets see [ValidateUpdateSetDependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/r_VldtUpdtStDpnd.md).
 
 
 ## Workflow update set migration use case - subflow dependency \(risk\)
@@ -98,7 +99,7 @@ This example does not represent an update set failure, although update sets are 
 
     **Note:** A dialog box displays warnings associated with Workflow A and encourages User A to validate the workflow before publishing.
 
-9.  User A cancels publishing and [validates](../../workflow-validation/concept/c_WorkflowValidation.md) Workflow A.
+9.  User A cancels publishing and [validates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/c_WorkflowValidation.md) Workflow A.
 10. User A is warned that Workflow B was modified by a user in a different update set.
 11. User A ignores this warning and publishes Workflow A.
 
@@ -108,7 +109,7 @@ This example does not represent an update set failure, although update sets are 
 13. Workflow A is invoked on the production instance and runs successfully using the older version of Workflow B already on the system.
 14. User B publishes Workflow B.
 
-    **Note:** User B is not warned of the Update Set C dependency, because the update set is no longer In progress. However, User B is informed via a dialog box that there are warnings associated with the workflow version and is instructed to validate Workflow B. If User B cancels publication and validates the workflow, User B is warned that there are workflows that use Workflow B as a subflow. Knowing the return value was changed, User B should test those workflows as well. See [../../workflow-validation/reference/r\_VldtUpdtStDpnd.md](../../workflow-validation/reference/r_VldtUpdtStDpnd.md) to understand the parameters of update set warnings.
+    **Note:** User B is not warned of the Update Set C dependency, because the update set is no longer In progress. However, User B is informed via a dialog box that there are warnings associated with the workflow version and is instructed to validate Workflow B. If User B cancels publication and validates the workflow, User B is warned that there are workflows that use Workflow B as a subflow. Knowing the return value was changed, User B should test those workflows as well. See [ValidateUpdateSetDependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/r_VldtUpdtStDpnd.md) to understand the parameters of update set warnings.
 
 15. User B finally publishes Workflow B.
 

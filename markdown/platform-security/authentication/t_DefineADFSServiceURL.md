@@ -2,6 +2,7 @@
 title: Set up ADFS for SAML
 description: Set up ADFS for SAML. This procedure uses ADFS 2.0 and shows samportal.example.com as the ADFS website. Replace this with your ADFS website address.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/t\_DefineADFSServiceURL.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -25,11 +26,11 @@ Role required: admin
 
 2.  Right-click **Service** and select **Edit Federation Service Properties**.
 
-    ![Edit Federation Service Properties.](../image/ADFSEditFSProperties01.png)
+    \[Omitted image "ADFSEditFSProperties01.png"\] Alt text: Edit Federation Service Properties.
 
 3.  Confirm that the General settings match your DNS entries and certificate names.
 
-    ![Edit properties.](../image/ADFSEditFSProperties02.png)
+    \[Omitted image "ADFSEditFSProperties02.png"\] Alt text: Edit properties.
 
 4.  Browse to the certificates and export the Token-Signing certificate.
 

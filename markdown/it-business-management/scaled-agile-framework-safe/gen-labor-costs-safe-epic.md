@@ -2,6 +2,7 @@
 title: Generate labor costs for epics
 description: View the labor cost expenses based on the resource assignments for your epics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scaled-agile-framework-safe/gen-labor-costs-safe-epic.html
 release: zurich
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -31,5 +32,5 @@ View the labor cost expenses based on the resource assignments for your epics.
     Refresh the page to view generated labor costs in the Cost Plan related list.
 
 
-**Parent Topic:**[Define an epic in SAFe](create-SAFeepic.md)
+**Parent Topic:**[Define an epic in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scaled-agile-framework-safe/create-SAFeepic.md)
 

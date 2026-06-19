@@ -2,6 +2,7 @@
 title: Certificate based authentication not enforced \[New in Security Center 1.3\]
 description: The glide.authenticate.mutual.enabled property enables certificate based authentication, a type of mutual authentication for inbound REST connections to REST and SOAP APIs in the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-certificate-based-authentication-not-enforced.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -17,7 +18,7 @@ The **glide.authenticate.mutual.enabled** property enables certificate based aut
 
 Mutual authentication establishes trust between server and client by exchanging secure socket layer \(SSL\) certificates to validate the certificate with a trusted Certificate Authority. This allows verification that a trusted source is connecting to the ServiceNow AI Platform. If this instance is not set to the recommended value of true, an instance could be vulnerable to man-in-the-middle attacks \(MitM\).
 
-To remediate this security threat, enable mutual authentication for inbound web services. If it's your first time installing the certificate-based authentication plugin \(**com.glide.auth.mutual\)** for the ServiceNow AI Platform, then follow the [Set up Certificate-based authentication](../../../integrate/authentication/task/set-up-mutual-auth.md#) instructions. In addition, ensure that the **glide.authenticate.mutual.enabled** property is set to true to activate the plugin.
+To remediate this security threat, enable mutual authentication for inbound web services. If it's your first time installing the certificate-based authentication plugin \(**com.glide.auth.mutual\)** for the ServiceNow AI Platform, then follow the [Set up Certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/certificate-based-authentication/set-up-mutual-auth.md) instructions. In addition, ensure that the **glide.authenticate.mutual.enabled** property is set to true to activate the plugin.
 
 ## More information
 
@@ -75,7 +76,7 @@ Category
 
 </td><td>
 
-[Architecture, design, and threat modeling](sc-architecture-design-threat-molding.md)
+[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
 
 </td></tr><tr><td>
 
@@ -102,9 +103,9 @@ References
 </td><td>
 
 -   [https://csrc.nist.gov/glossary/term/man\_in\_the\_middle\_attack](https://csrc.nist.gov/glossary/term/man_in_the_middle_attack)
--   [Certificate-based authentication](../../../integrate/authentication/concept/certificate-based-authentication.md)
--   [Configure mutual authentication](../../security/concept/c_MutualAuthentication.md)
+-   [Certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/certificate-based-authentication/certificate-based-authentication.md)
+-   [Configure mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/c_MutualAuthentication.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Architecture, design, and threat modeling](sc-architecture-design-threat-molding.md)
+</table>**Parent Topic:**[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
 

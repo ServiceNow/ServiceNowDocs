@@ -2,6 +2,7 @@
 title: Components installed with Task Communications Management
 description: Several types of components are installed with the Task Communications Management plugin, including tables and user roles.Provides overall accountability of Task Communications Management.This role has read access to Task Communications Management tables.This role has create and edit access to Task Communications Management instance tables such as Communication Plans, Communication Tasks. Users with this role can send impromptu communications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/task-communications-management/components-installed-with-tcm.html
 release: zurich
 product: Task Communications Management
 classification: task-communications-management
@@ -15,7 +16,7 @@ breadcrumb: [Activate Task Communications Management, Task Communications Manage
 
 Several types of components are installed with the Task Communications Management plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -170,9 +171,9 @@ Lists specific handlers for various task types. Example: For incident, Communica
 </td></tr></tbody>
 </table>## Roles installed
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing subscriptions, see  and contact your account representative.
 
-**Parent Topic:**[Activate Task Communications Management](../task/activate-tcm-plugin.md)
+**Parent Topic:**[Activate Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/task-communications-management/activate-tcm-plugin.md)
 
 ## Communication Plan Admin \[sn\_comm\_management.comm\_plan\_admin\]
 

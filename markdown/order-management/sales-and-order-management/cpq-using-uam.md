@@ -2,6 +2,7 @@
 title: Using CPQ user access management
 description: Manage access to the ServiceNow CPQ Admin interface. Grant or remove admin rights and troubleshoot access issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cpq-using-uam.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

@@ -2,6 +2,7 @@
 title: Use the Workflow Operations Dashboard
 description: On the Workflow Operations Dashboard, view and add widgets to help you monitor workflows. Review the performance of workflows and determine which workflows must be improved.Multiple gauges are available to help you review the performance of workflows. You can add these gauges to the Workflow Operations Dashboard or custom homepages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/legacy-workflow/t\_UseTheWorkflowOpsDashboard.html
 release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
@@ -41,7 +42,7 @@ On the Workflow Operations Dashboard, you can click widget elements to view the 
     -   Workflows run between yesterday and today
     -   Workflows by state for the current month
     -   Aged workflow contexts for the past month
-2.  Find and add more widgets by selecting the add content icon \(![Add Content icon.](../../../use/homepages/image/AddContent.png)\) in the corner of the dashboard.
+2.  Find and add more widgets by selecting the add content icon \(\[Omitted image "AddContent.png"\] Alt text: Add Content icon.\) in the corner of the dashboard.
 
 
 ## What to do next
@@ -56,12 +57,12 @@ Multiple gauges are available to help you review the performance of workflows. Y
 
 The functionality found in homepages, arranging information from your instance to tell a story about your data, is found in dashboards on new instances. On upgraded instances with Next Experience enabled, users can view existing homepages if they have a direct URL, but they can't create or edit them. Responsive dashboards and Analytics Center dashboards take over homepage functionality.
 
-Use the [Homepage deprecation help tool](https://www.servicenow.com/docs/access?context=homepage-deprecation-help-tool&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US) to convert the homepages on your instance to responsive dashboards.
+Use the Homepage deprecation help tool to convert the homepages on your instance to responsive dashboards.
 
 For more information, see:
 
--   [Dashboards in the Analytics Center](https://www.servicenow.com/docs/access?context=analytics-center-dashboards&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
--   [Working with responsive dashboards](https://www.servicenow.com/docs/access?context=c_ResponsiveDashboards&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+-   Dashboards in the Analytics Center.
+-   Working with responsive dashboards.
 
 |Content|Description|
 |-------|-----------|

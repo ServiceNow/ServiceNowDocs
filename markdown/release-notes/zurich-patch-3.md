@@ -2,10 +2,13 @@
 title: Zurich Patch 3
 description: The Zurich Patch 3 release contains important problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/zurich-patch-3.html
 release: zurich
+product: Release Notes
+classification: release-notes
 topic_type: reference
 last_updated: "2025-10-30"
-reading_time_minutes: 27
+reading_time_minutes: 26
 breadcrumb: [Available patches and hotfixes, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -17,7 +20,7 @@ The Zurich Patch 3 release contains important problem fixes.
     -   Build date: 10-24-2025\_0919
     -   Build tag: glide-zurich-07-01-2025\_\_patch3-10-16-2025
 
-**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](../upgrades/reference/upgrade.md).
+**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/upgrade.md).
 
 For more information about the release cycle, see the [ServiceNow Release Cycle](https://support.servicenow.com/kb_view.do?sysparm_article=KB0547244).
 
@@ -29,7 +32,7 @@ For a downloadable, sortable version of the fixed problems in this release, clic
 
 Zurich Patch 3 includes 109 problem fixes in various categories. The chart below shows the top 10 problem categories included in this patch.
 
-![Fixed issues grouped by problem categories bar chart](../image/prb-chart-zp3.png "Top 10 problem categories")
+\[Omitted image "prb-chart-zp3.png"\] Alt text: Fixed issues grouped by problem categories bar chart
 
 ## Security-related fixes
 
@@ -37,20 +40,17 @@ Zurich Patch 3 includes fixes for security-related problems that affected certai
 
 ## Changes in Zurich Patch 3
 
--   **[Conversational intake for sourcing and procurement agentic workflow](https://www.servicenow.com/docs/access?context=spo-help-fulfill-pr-agentic&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US)**
+-   ****
 
     The Conversational intake for sourcing and procurement agentic workflow addresses your procurement needs by providing product recommendations, guided checkout, off-catalog processes, and detailed product information. It also answers questions and tracks related records.
 
--   **[Monitor inbound API integration usage](https://www.servicenow.com/docs/access?context=inbound-api-integration-usage-dashboard&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)**
+-   ****
 
     Monitor inbound integration usage requests through the Inbound API Integration Usage dashboard.
 
--   **[Using agentic workflows in Now Assist for Sourcing and Procurement Operations](https://www.servicenow.com/docs/access?context=agentic-ai-now-assist-spo&version=zurich&pubname=zurich-source-to-pay-operations&ft:locale=en-US)**
+-   ****
 
-    Use agentic workflows in Now Assist for Sourcing and Procurement Operations \(SPO\) to streamline procurement through intelligent product recommendations, guided checkout, off-catalog purchasing, and access to detailed product information. These workflows also assist with procurement-related inquiries and help you track associated records efficiently.
-
-
--   **[View Inbound API Integration Usage dashboard](https://www.servicenow.com/docs/access?context=view-inbound-api-integration-usage-dashboard&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)**
+-   ****
 
     The Inbound API Integration Usage dashboard enables you to view statistics for requestors and their API calls. Filter data by application or resource requested.
 
@@ -1666,12 +1666,12 @@ Intermittently the L1 \(left side toolbar\) menu doesn't render in workspaces
 
 Unless any exceptions are noted, you can safely upgrade to this release version from any of the versions listed below. These prior versions contain PRB fixes that are also included with this release. Be sure to upgrade to the latest listed patch that includes all of the PRB fixes you are interested in.
 
--   [Zurich Patch 2](zurich-patch-2.md)
--   [Zurich Patch 1 Hotfix 2](zurich-patch-1-hf-2-PO.md)
+-   [Zurich Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-2.md)
+-   [Zurich Patch 1 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1-hf-2-PO.md)
 -   [Zurich Patch 1 Hotfix 1a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2556047)
--   [Zurich Patch 1](zurich-patch-1.md)
--   [Zurich security and notable fixes](zurich-security-notables.md)
--   [All other Zurich fixes](zurich-all-other-fixes.md)
+-   [Zurich Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1.md)
+-   [Zurich security and notable fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-security-notables.md)
+-   [All other Zurich fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-all-other-fixes.md)
 
-**Parent Topic:**[Available patches and hotfixes](../available-versions.md)
+**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/available-versions.md)
 

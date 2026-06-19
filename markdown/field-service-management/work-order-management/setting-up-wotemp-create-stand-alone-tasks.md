@@ -2,6 +2,7 @@
 title: Configuring standalone task templates
 description: Template management enables you to create standalone work order task templates and link them to different work order templates. This enables the work order templates to identify an appropriate task and create it for different work orders based on the defined filtering conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/setting-up-wotemp-create-stand-alone-tasks.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -21,11 +22,11 @@ You first create standalone work order task templates and then map them to the w
 
 The steps for setting up standalone task template configurations are:
 
-1.  [Create a work order task template](../task/create-wot-template.md)
+1.  [Create a work order task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/create-wot-template.md)
 
     Create a standalone work order task template, which can be used by different work order templates to create the same task for their work orders.
 
-2.  [Enable a work order template to create relevant tasks for a work order](../task/add-stand-alone-task-template-to-wo-template.md)
+2.  [Enable a work order template to create relevant tasks for a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/add-stand-alone-task-template-to-wo-template.md)
 
     Add the standalone task template to a work order template along with filtering conditions.
 

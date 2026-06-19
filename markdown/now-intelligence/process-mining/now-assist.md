@@ -2,6 +2,7 @@
 title: Now Assist for Process Mining
 description: Use ServiceNow Now Assist for Process Mining to minimize time, maximize effort, and reduce complexity in project setup, identifying bottlenecks and retrieving process inefficiencies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/now-assist.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -24,15 +25,15 @@ Use ServiceNow Now Assist for Process Mining to minimize time, maximize effort, 
 
 <table id="table_rmy_kzm_tdc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about the Now Assist feature for Process Mining](exp-na-process-mining.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the Now Assist feature for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/exp-na-process-mining.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Activate Now Assist for Process Mining and configure the skills](config-na-proc-min.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate Now Assist for Process Mining and configure the skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/config-na-proc-min.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Identify the work notes and generate insights about inefficiencies](use-na-process-mining.md)
+[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Identify the work notes and generate insights about inefficiencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/use-na-process-mining.md)
 
 </td></tr></tbody>
 </table>## AI limitations
@@ -45,14 +46,14 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about work notes in Process Mining. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about work notes in Process Mining. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
--   **[Exploring Now Assist for Process Mining](exp-na-process-mining.md)**  
+-   **[Exploring Now Assist for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/exp-na-process-mining.md)**  
 Use ServiceNow Now Assist for Process Mining to minimize time, maximize effort, and reduce complexity in project setup, identifying bottlenecks and retrieving process inefficiencies.
--   **[Configuring Now Assist for Process Mining](config-na-proc-min.md)**  
+-   **[Configuring Now Assist for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/config-na-proc-min.md)**  
 Configure Now Assist for Process Mining to use the feature.
--   **[Using Now Assist for Process Mining](use-na-process-mining.md)**  
+-   **[Using Now Assist for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/use-na-process-mining.md)**  
 Use Now Assist for Process Mining to run work notes analysis on a transition and generate highlights on improvement opportunities.
 
-**Parent Topic:**[Using Process Mining](use-process-mining.md)
+**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/use-process-mining.md)
 

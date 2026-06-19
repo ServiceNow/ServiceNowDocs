@@ -2,6 +2,7 @@
 title: ATF Test Generator and Cloud Runner reference
 description: Reference information for the ATF Test Generator and Cloud Runner.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-ref.html
 release: zurich
 product: ATF Test Generator and Cloud Runner
 classification: atf-test-generator-and-cloud-runner
@@ -15,10 +16,10 @@ breadcrumb: [ATF Test Generator and Cloud Runner, Extend ServiceNow AI Platform 
 
 Reference information for the ATF Test Generator and Cloud Runner.
 
--   **[Log entries in the BOQ form](atf-tg-cr-log-boq-form.md)**  
+-   **[Log entries in the BOQ form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-log-boq-form.md)**  
 Debug errors or track any critical transactions during the execution of the test suites, setting up the Cloud Runner or generating the tests by viewing the log entries in the BOQ form.
--   **[ATF Test Generator and Cloud Runner roles](../reference/atf-tg-cr-roles.md)**  
+-   **[ATF Test Generator and Cloud Runner roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-roles.md)**  
 ATF Test Generator and Cloud Runner is installed with these roles.
 
-**Parent Topic:**[ATF Test Generator and Cloud Runner](atf-tg-cr-intro.md)
+**Parent Topic:**[ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-intro.md)
 

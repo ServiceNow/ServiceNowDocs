@@ -2,6 +2,7 @@
 title: View the list of CIs belonging to an application service
 description: View a complete list of CIs that make up an application service, including CIs not shown on the application service map: tracked configuration files, endpoints, processes, and network devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/view-ci-list.html
 release: zurich
 product: Service Mapping
 classification: service-mapping
@@ -38,7 +39,7 @@ The CI lists for empty application services, that do not contain any CIs contain
 
 2.  Navigate to **Application Services** &gt; **View:csdm\_view** &gt; **View** &gt; **Default view**.
 
-    ![Change application service to default view](../image/app-service-change-view.png)
+    \[Omitted image "app-service-change-view.png"\] Alt text: Change application service to default view
 
 3.  Click the name of the application service for which you want to view the list of CIs.
 
@@ -46,7 +47,7 @@ The CI lists for empty application services, that do not contain any CIs contain
 
 4.  Click **List CIs** under Related Links.
 
-    ![List CIs link under Related Links](../image/application-service-list-cis.png)
+    \[Omitted image "application-service-list-cis.png"\] Alt text: List CIs link under Related Links
 
 5.  View the complete list of CIs that are part of the selected application service.
 
@@ -55,5 +56,5 @@ The CI lists for empty application services, that do not contain any CIs contain
 7.  Select **View map** to navigate to the application service map.
 
 
-**Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](../concept/c_SvcPlanningAndAnalysisUsingMaps.md)
+**Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/c_SvcPlanningAndAnalysisUsingMaps.md)
 

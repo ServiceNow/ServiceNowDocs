@@ -2,7 +2,10 @@
 title: Configure ServiceNow integration options
 description: Perform the following procedure to configure your ServiceNow integration options.The following leading practices are guidelines for creating ServiceNow integration scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/configuring-sn-integration-options.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-11-04"
 reading_time_minutes: 1

@@ -2,6 +2,7 @@
 title: Define a search context
 description: Define where agents can search for a particular resource. You can specify that the search resources are predefined or additional resources outside the system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/contextual-search/t\_DefineSearchContext.html
 release: zurich
 product: Contextual Search
 classification: contextual-search
@@ -57,7 +58,7 @@ Searcher
 
 </td><td>
 
-Lookup icon \(![Lookup icon to select a searcher.](../image/look-up-icon.png)\) to select a searcher for this context. The searcher determines the information source to search.-   Catalog only: Provides search results from service catalog items.
+Lookup icon \(\[Omitted image "look-up-icon.png"\] Alt text: Lookup icon to select a searcher.\) to select a searcher for this context. The searcher determines the information source to search.-   Catalog only: Provides search results from service catalog items.
 -   Knowledge and catalog: Provides search results from knowledge articles and service catalog items.
 -   Knowledge only: Provides search results from knowledge articles.
 -   Knowledge, Discussions and pinned: Provides search results from knowledge articles, pinned knowledge articles, and ServiceNow Community.
@@ -111,10 +112,10 @@ Option to determine when to perform the search. If you select this option, the s
 To display the search context in the Source selector on Platform, you must select this option. Search contexts with this option deselected don't appear in the Source selector on Platform.
 
 </td></tr></tbody>
-</table>    The **Searcher default search** list is available if the **Searcher** is the default search. If an additional resource is the default search, you see the **Set Searcher as the Default Search** related link. For information on how to set the default source for search context, see [Set the default source for search context](set-source-search-context.md).
+</table>    The **Searcher default search** list is available if the **Searcher** is the default search. If an additional resource is the default search, you see the **Set Searcher as the Default Search** related link. For information on how to set the default source for search context, see [Set the default source for search context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/set-source-search-context.md).
 
 4.  Select and hold \(or right-click\) the form header and select **Save**.
 
 
-**Parent Topic:**[Configuring contextual search](../concept/configuring-contextual-search.md)
+**Parent Topic:**[Configuring contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/configuring-contextual-search.md)
 

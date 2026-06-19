@@ -2,6 +2,7 @@
 title: Assign a finance case to yourself
 description: As a finance specialist, assign a finance case to yourself from the Finance Operations Workspace. Start resolving it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/finance-case-management/assign-fin-ops-case-to-yourself.html
 release: zurich
 product: Finance Case Management
 classification: finance-case-management
@@ -25,7 +26,7 @@ Role required: sn\_fin\_ops.specialist
 
     -   **All** &gt; **Finance Operations** &gt; **Finance Operations Workspace**.
     -   **Workspaces** &gt; **Finance Operations Workspace**.
-2.  In the Finance Operations Workspace, select the List icon ![](../image/fin-ops-list-icon.png) to open the List page.
+2.  In the Finance Operations Workspace, select the List icon \[Omitted image "fin-ops-list-icon.png"\] Alt text: to open the List page.
 
 3.  From the list page, navigate to either of the following submodules:
 
@@ -37,12 +38,12 @@ Role required: sn\_fin\_ops.specialist
 
     **Note:** The **Assign to me** option is available only for unassigned cases that are in draft state.
 
-    ![The Assign to me option](../image/fin-ops-assign-draft.png)
+    \[Omitted image "fin-ops-assign-draft.png"\] Alt text: The Assign to me option
 
-    The case is assigned to you and the state is Work in Progress. ![The state of an assigned case](../image/fin-ops-assign-wip.png)
+    The case is assigned to you and the state is Work in Progress. \[Omitted image "fin-ops-assign-wip.png"\] Alt text: The state of an assigned case
 
 6.  Select **Save**.
 
 
-**Parent Topic:**[Use the Finance Operations Workspace](../concept/using-fin-case-mgmt-workspace.md)
+**Parent Topic:**[Use the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/finance-case-management/using-fin-case-mgmt-workspace.md)
 

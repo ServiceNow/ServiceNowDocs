@@ -2,11 +2,12 @@
 title: GitHub integration with DevOps Change Velocity
 description: Connect to your GitHub instance to discover repositories, plans, pipeline definitions and configure real-time notifications or polling to enable change traceability and automation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/github-integration-dev-ops.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -43,28 +44,28 @@ You can connect to GitHub using one of the following authentication methods:
 
     If you connect your GitHub instance with basic auth, you can use the custom actions from the GitHub marketplace. GitHub environments aren’t supported for basic auth connection.
 
--   [OAuth 2.0 credentials](setting-up-github-oauth-dev-ops.md)
-    -   If you connect your GitHub instance with OAuth 2.0 credentials for Authorization code, you can use the custom actions from the GitHub marketplace and create secrets to use in workflows. For more information, see [OAuth 2.0 credentials for GitHub Apps - Authorization Code](dev-ops-github-apps-oauth-auth.md#).
-    -   If you connect your GitHub instance with OAuth 2.0 credentials for GitHub Apps - JWT, you can use the custom actions from the GitHub marketplace, create secrets to use in workflows, and GitHub environments to deploy to an environment. For more information, see [OAuth 2.0 credentials for GitHub Apps - JWT](dev-ops-github-apps-oath-jwt.md#). For GitHub repositories under an organization, only one organization can be installed per tool \(i.e - One GitHub App can be installed with One GitHub Org and with One GitHub tool\). If you want to add more organizations, you can create separate tools and apps.
+-   [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/setting-up-github-oauth-dev-ops.md)
+    -   If you connect your GitHub instance with OAuth 2.0 credentials for Authorization code, you can use the custom actions from the GitHub marketplace and create secrets to use in workflows. For more information, see [OAuth 2.0 credentials for GitHub Apps - Authorization Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/dev-ops-github-apps-oauth-auth.md).
+    -   If you connect your GitHub instance with OAuth 2.0 credentials for GitHub Apps - JWT, you can use the custom actions from the GitHub marketplace, create secrets to use in workflows, and GitHub environments to deploy to an environment. For more information, see [OAuth 2.0 credentials for GitHub Apps - JWT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/dev-ops-github-apps-oath-jwt.md). For GitHub repositories under an organization, only one organization can be installed per tool \(i.e - One GitHub App can be installed with One GitHub Org and with One GitHub tool\). If you want to add more organizations, you can create separate tools and apps.
 
 **Note:** The OAuth Authorization Code &amp; JWT grant types are supported for GitHub &amp; GitHub Enterprise with MID server.
 
-Custom actions by ServiceNow are available in GitHub Marketplace for the orchestration capability, to push information from Actions \(workflows\) and to pause or resume workflows from DevOps Change Velocity. For more information on custom actions, see [ServiceNow DevOps custom actions from GitHub marketplace](servicenow-devops-custom-actions-from-github-marketplace.md#).
+Custom actions by ServiceNow are available in GitHub Marketplace for the orchestration capability, to push information from Actions \(workflows\) and to pause or resume workflows from DevOps Change Velocity. For more information on custom actions, see [ServiceNow DevOps custom actions from GitHub marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/servicenow-devops-custom-actions-from-github-marketplace.md).
 
-To capture the workflow data in DevOps Change Velocity, you must configure Secrets in your GitHub tool. For more information, see [GitHub Actions configurations](github-actions-integration-with-devops.md#).
+To capture the workflow data in DevOps Change Velocity, you must configure Secrets in your GitHub tool. For more information, see [GitHub Actions configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/github-actions-integration-with-devops.md).
 
-There are a few limitations for GitHub Actions support, see [GitHub Actions configurations](github-actions-integration-with-devops.md#).
+There are a few limitations for GitHub Actions support, see [GitHub Actions configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/github-actions-integration-with-devops.md).
 
 ## Get started
 
 Use one of the following options to onboard GitHub. For a guided experience, use the workspace to onboard a tool. Alternatively, you can use the Service Catalog or Classic experience.
 
--   **[Onboard GitHub to DevOps Change Velocity — Workspace](../task/playbook-enter-github-instance-details.md)**  
+-   **[Onboard GitHub to DevOps Change Velocity — Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/playbook-enter-github-instance-details.md)**  
 Connect to your GitHub instance using the DevOps Change Workspace playbook to discover, configure, and import repositories, plans, and pipelines.
--   **[Onboard GitHub to DevOps Change Velocity — Service Catalog](../task/sc-github.md)**  
+-   **[Onboard GitHub to DevOps Change Velocity — Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/sc-github.md)**  
 Create, connect, discover, and configure your GitHub instance using the ServiceNow Service Catalog.
--   **[Onboard GitHub to DevOps Change Velocity — Classic](../task/create-github-tool-dev-ops.md)**  
+-   **[Onboard GitHub to DevOps Change Velocity — Classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/create-github-tool-dev-ops.md)**  
 Connect your GitHub instance to discover, configure, and import repositories, plans, and pipelines.
 
-**Parent Topic:**[Integrating DevOps Change Velocity with third party tools](integrating-devops-change-with-third-party-tools.md)
+**Parent Topic:**[Integrating DevOps Change Velocity with third party tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/integrating-devops-change-with-third-party-tools.md)
 

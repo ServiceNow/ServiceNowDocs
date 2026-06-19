@@ -2,6 +2,7 @@
 title: Certification tasks cancellation
 description: Users with the certification\_admin role can cancel a certification task in the Work in Progress or Closed Incomplete state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/c\_CancelCertificationTasks.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

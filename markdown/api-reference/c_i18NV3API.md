@@ -2,6 +2,7 @@
 title: i18N - Client
 description: The i18N API provides methods to get and format translated messages.Formats a string containing named tokens with values from a map.Retrieves a translated message.Retrieves a set of messages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/c\_i18NV3API.html
 release: zurich
 product: API Reference
 classification: api-reference
@@ -17,7 +18,7 @@ The i18N API provides methods to get and format translated messages.
 
 The i18N methods are accessed using the `g_i18n` global object.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/api-client.md)
 
 ## i18N - format\(String message, Object map\)
 

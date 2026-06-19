@@ -2,6 +2,7 @@
 title: Configure a rule for selecting a legal contract template
 description: Configure a rule to identify and use the correct legal contract document template based on the submitted legal request and generate a contract document for the requester.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-simple-contracts/configure-legal-contract-template-rules.html
 release: zurich
 product: Legal Simple Contracts
 classification: legal-simple-contracts

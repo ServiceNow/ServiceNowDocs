@@ -2,6 +2,7 @@
 title: Assign permissions to publish custom templates
 description: Assign permissions for developers to publish a custom template to the application repository or the ServiceNow Store. You can grant permissions to publish either a specific custom template or publish all existing custom templates in App Engine Studio \(AES\).Assign permissions to developers so they can publish an individual App Engine Studio \(AES\) custom template to the application repository or ServiceNow Store.Assign permissions for developers to publish custom App Engine Studio \(AES\) templates and applications to the app repository or ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-studio/assign-permissions-publish-custom-templates.html
 release: zurich
 product: App Engine Studio
 classification: app-engine-studio
@@ -15,7 +16,7 @@ breadcrumb: [Build a custom template, Use an app template, Create your app, Buil
 
 Assign permissions for developers to publish a custom template to the application repository or the ServiceNow Store. You can grant permissions to publish either a specific custom template or publish all existing custom templates in App Engine Studio \(AES\).
 
-**Parent Topic:**[Build a custom template](build-custom-template.md)
+**Parent Topic:**[Build a custom template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/build-custom-template.md)
 
 ## Assign permissions to publish an individual custom template
 
@@ -29,7 +30,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **Templates** &gt; **App Templates**.
 
-2.  Select the personalize List icon \(![Personalize list icon.](../../../administer/ui-builder/image/gear-icon.png)\).
+2.  Select the personalize List icon \(\[Omitted image "gear-icon.png"\] Alt text: Personalize list icon.\).
 
 3.  Add the Package column by moving the **Package** value from the **Available** list to the **Selected** list and select **OK**.
 
@@ -39,15 +40,15 @@ Role required: admin
 
 6.  Assign permissions to new or existing collaborators.
 
-<table id="choicetable_zyx_htt_qsb"><thead><tr><th align="left" id="d95072e198">
+<table id="choicetable_zyx_htt_qsb"><thead><tr><th align="left" id="d93644e198">
 
 Choice
 
-</th><th align="left" id="d95072e201">
+</th><th align="left" id="d93644e201">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d95072e207">
+</th></tr></thead><tbody><tr><td id="d93644e207">
 
 **Assign permissions to a new user or group**
 
@@ -64,7 +65,7 @@ After the collaboration request is approved, the user or group is added as a col
 6.  Select **Save**.
 
 
-</td></tr><tr><td id="d95072e261">
+</td></tr><tr><td id="d93644e261">
 
 **Assign permissions to an existing user or group**
 

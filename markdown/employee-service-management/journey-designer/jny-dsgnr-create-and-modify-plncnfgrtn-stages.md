@@ -2,6 +2,7 @@
 title: Add or update stages in a journey plan configurations
 description: Owners add or update the stages in journey plan configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/jny-dsgnr-create-and-modify-plncnfgrtn-stages.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -55,5 +56,5 @@ Journey designer plan configuration owners can change or create task templates f
 7.  Select **Submit**.
 
 
-**Parent Topic:**[Journey designer plan configuration owners](../concept/jny-dsgnr-owner-role-and-responsibility.md)
+**Parent Topic:**[Journey designer plan configuration owners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-owner-role-and-responsibility.md)
 

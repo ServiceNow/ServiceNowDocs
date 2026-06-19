@@ -2,6 +2,7 @@
 title: Install MID-less Agent Client Collector using a single-line command in a Linux environment
 description: Install MID-less Agent Client Collector on a Linux machine to enable sending data from the agent to the instance through the cloud. Sending information through the cloud allows the MID Server to be used for more persistent resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-install-ics-linux.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -19,12 +20,12 @@ Install MID-less Agent Client Collector on a Linux machine to enable sending dat
 
 -   Install the ITOM Cloud Services Core \(sn\_itom\_cloud\_svc\) plugin.
 -   Onboard your instance to use ITOM Cloud Services. For details, contact Customer Support.
--   Configure an agent registration key. For details, see [Configure an agent registration key](agent-registration-key-configuration.md).
+-   Configure an agent registration key. For details, see [Configure an agent registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-registration-key-configuration.md).
 -   Role required: agent\_client\_collector\_admin
 
 ## About this task
 
-For details on sending data through the cloud in a MID-less deployment, see [DEX Architecture](https://www.servicenow.com/docs/access?context=dex-architecture&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+For details on sending data through the cloud in a MID-less deployment, see .
 
 ## Procedure
 
@@ -44,8 +45,8 @@ For details on sending data through the cloud in a MID-less deployment, see [DEX
     CONNECT_WITHOUT_MID="true" ACC_CNC="<gateway_endpoint>" REGISTRATION_KEY="<registration_key>" INSTANCE_URL="https://<instance_url>" bash -c "$(curl -L https://<instance_url>/api/sn_agent/agents/install_agent)"
     ```
 
-    For details on the parameter values in the command, see [Agent Client Collector MID-less installation command parameters](../reference/acc-ics-command-params.md).
+    For details on the parameter values in the command, see [Agent Client Collector MID-less installation command parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-ics-command-params.md).
 
 
-**Parent Topic:**[Installing MID-less Agent Client Collector](../concept/acc-itom-cloud-services.md)
+**Parent Topic:**[Installing MID-less Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-itom-cloud-services.md)
 

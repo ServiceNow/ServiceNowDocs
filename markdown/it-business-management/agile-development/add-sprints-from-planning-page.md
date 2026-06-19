@@ -2,6 +2,7 @@
 title: Add sprints from the program planning board
 description: Add sprints to your scrum teams directly from the scrum program planning board without having to navigate to another module.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/add-sprints-from-planning-page.html
 release: zurich
 product: Agile Development
 classification: agile-development

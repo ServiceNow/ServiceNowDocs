@@ -2,6 +2,7 @@
 title: Configure Sidebar Summarization
 description: Configure sidebar summarization to generate summaries of sidebar discussions for quick agent understanding, allowing for faster collaboration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/configure-sidebar-summarization-in-now-assist.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -44,6 +45,18 @@ Sidebar summarization is generated from the information within selected tables c
     |Bulleted list|Sidebar summary as an unordered list.|
 
 5.  Select **Choose tables** to select the tables from which summaries for Sidebar discussions are generated.
+
+    Tables that are added in the **Default Table Name** section, like the Case table and Task table are available by default and are automatically populated. The default table names check boxes associated to the tables are pre-checked and inactive.
+
+    **Note:** An admin can only select or deselct the tables added within the **Table Names** section.
+
+    Any tables available by default or customized must be added to one of the **Choose tables** section based on the preferred configurations.
+
+    -   Table Names contains a list of all the table names that are required for the sidebar summarization skill.
+    -   Default Table Name only contains tables that you want pre-checked.
+    -   Enabled Table Names can have the same values as the Default Table Names and must be in the **Active** state from the beginning.
+
+        **Note:** The Default Table Names and Enabled Table Names are a subset of Table Names and can't be modified by the user.
 
     |Label|Name|
     |-----|----|

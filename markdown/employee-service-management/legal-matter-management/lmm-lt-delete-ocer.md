@@ -2,6 +2,7 @@
 title: Delete outside counsel engagement request
 description: As a legal fulfiller, you can delete outside counsel engagement request that is no longer required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-matter-management/lmm-lt-delete-ocer.html
 release: zurich
 product: Legal Matter Management
 classification: legal-matter-management
@@ -23,15 +24,15 @@ Role required: sn\_lg\_ops.legal\_fulfiller, sn\_lg\_matter.matter\_fulfiller
 
 1.  Open a legal matter.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d502934e51">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d241038e51">
 
 Method
 
-</th><th align="left" id="d502934e54">
+</th><th align="left" id="d241038e54">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d502934e60">
+</th></tr></thead><tbody><tr><td id="d241038e60">
 
 **Using Legal Counsel Center homepage**
 
@@ -43,20 +44,20 @@ Action
 4.  Select the **Outside Counsels** tab.
 
 
-</td></tr><tr><td id="d502934e104">
+</td></tr><tr><td id="d241038e104">
 
 **Using Legal Counsel Center lists**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**
-2.  Select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  In the Lists tab, navigate to **Matters** &gt; **All**.
 4.  From the list, open a legal matter record.
 5.  Select the **Outside Counsels** tab.
 
 
-</td></tr><tr><td id="d502934e163">
+</td></tr><tr><td id="d241038e163">
 
 **Using platform view**
 
@@ -115,5 +116,5 @@ Yes
 -   The matter created in Legal Tracker is not deleted.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Engage with outside counsel](../../legal-matter-management/task/lmm-eng-outcounsel.md)
+</table>**Parent Topic:**[Engage with outside counsel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-matter-management/lmm-eng-outcounsel.md)
 

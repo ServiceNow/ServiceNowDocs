@@ -2,6 +2,7 @@
 title: Versions transferring
 description: Administrators transfer version records between instances by moving customizations with update sets or the Team Development application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/c\_TransferringVersions.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -27,5 +28,5 @@ Committing an update set adds a version record. For each update in the Update Se
 |Pushing|Adds only the current local version to the parent instance. All local versions aren't added.|
 |Loading|Changes from peer instances add selected versions to the local instance.|
 
-**Parent Topic:**[Versions and local changes](c_VersionsAndLocalChanges.md)
+**Parent Topic:**[Versions and local changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_VersionsAndLocalChanges.md)
 

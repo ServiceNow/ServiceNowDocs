@@ -2,7 +2,10 @@
 title: Benefits &amp; Usage
 description: Impact Benefits &amp; Usage allows you to quickly access and review the powerful tools available in your Impact subscription.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/impact-features.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -31,9 +34,9 @@ Impact Core
 
 </td><td>
 
--   [Exploring Impact](impact-program-features.md)
--   [Impact Squad](impact-squad.md)
--   [Impact operating model](impact-operating-model.md)
+-   [Exploring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-program-features.md)
+-   [Impact Squad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-squad.md)
+-   [Impact operating model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-operating-model.md)
 
 </td></tr><tr><td>
 
@@ -41,7 +44,7 @@ Experts on Demand
 
 </td><td>
 
--   [Initiatives and Accelerators](impact-initiatives.md)
+-   [Initiatives and Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/impact-initiatives.md)
 -   Advisory sessions
 -   Expert services discount
 
@@ -52,7 +55,7 @@ Platform Health and Monitoring
 </td><td>
 
 -   HealthScan
--   [Overview of Instance Observer](io-overview.md)
+-   [Overview of Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-overview.md)
 
 </td></tr><tr><td>
 
@@ -73,7 +76,7 @@ Premium Technical Support
 </td><td>
 
 -   24/7 Inbound Phone Support
--   [Developer Support](developer-support.md)
+-   [Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/developer-support.md)
 -   Enhanced case response time
 
 </td></tr></tbody>

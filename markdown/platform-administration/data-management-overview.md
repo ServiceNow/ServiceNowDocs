@@ -2,6 +2,7 @@
 title: Data Management overview
 description: View a summary of your data usage and manage the growth of data on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/data-management-overview.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -19,7 +20,7 @@ View a summary of your data usage and manage the growth of data on your instance
 -   Determine which tables are consuming the most amount of storage on your instance.
 -   Manage the growth of data on your instance directly from the Data Management Console.
 
-![Overview in the Data Management Console.](../image/dmc-overview.png "Overview of data management on your instance")
+\[Omitted image "dmc-overview.png"\] Alt text: Overview in the Data Management Console.
 
 ## Required ServiceNow AI Platform roles
 
@@ -74,6 +75,6 @@ Review the top tables on your instance in terms of growth and table size, and th
 After reviewing the top tables, start managing the growth of data on your instance.
 
 -   Manage the growth of audit records from the audit management console by selecting **Manage audit config**.
--   Delete older or unwanted records by selecting **New cleanup rule**. See [Create a table cleanup rule](../task/activate-table-cleanup.md).
--   Move data that's no longer needed to an archive table by selecting **New archive rule**. See [Create an archive rule](../../database-rotation/task/t_CreateAnArchiveRule.md#).
+-   Delete older or unwanted records by selecting **New cleanup rule**. See [Create a table cleanup rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/activate-table-cleanup.md).
+-   Move data that's no longer needed to an archive table by selecting **New archive rule**. See [Create an archive rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_CreateAnArchiveRule.md).
 

@@ -2,6 +2,7 @@
 title: Create an order guide
 description: You can create an order guide with a two-step or three-step ordering process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/t\_CreateAnOrderGuide.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -27,23 +28,23 @@ Role required: catalog\_admin or admin
 
 3.  Fill in the fields as appropriate.
 
-    For more information about the fields and their descriptions on the Order guide form, see [Order guide form](../reference/order-guide-form.md).
+    For more information about the fields and their descriptions on the Order guide form, see [Order guide form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/order-guide-form.md).
 
 4.  Right-click the form header and click **Save**.
 
 5.  In the Rule base related list, define the rules that determine which items are included in an order.
 
-    For more information, see [Create a rule](t_CreateARule.md).
+    For more information, see [Create a rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/t_CreateARule.md).
 
 6.  Configure the sequence in which the items in a rule base of an order guide must be fulfilled by selecting the **Generate sequence** button.
 
-    For more information, see [Configure a sequence to fulfill items in order guides](generate-order-guide-sequence.md).
+    For more information, see [Configure a sequence to fulfill items in order guides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/generate-order-guide-sequence.md).
 
 7.  In the Variables related list, define any variables required.
 
 
--   **[Configure a sequence to fulfill items in order guides](generate-order-guide-sequence.md)**  
+-   **[Configure a sequence to fulfill items in order guides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/generate-order-guide-sequence.md)**  
 Configure a sequence in Playbooks to fulfill items in order guides. Once you define a sequence, you don't have to manually check whether required items have been fulfilled before fulfilling their dependent items.
 
-**Parent Topic:**[Order guides](../concept/c_ServiceCatalogOrderGuides.md)
+**Parent Topic:**[Order guides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_ServiceCatalogOrderGuides.md)
 

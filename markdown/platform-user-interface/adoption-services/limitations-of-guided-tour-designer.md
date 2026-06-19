@@ -2,11 +2,12 @@
 title: Limitations of GTD
 description: Learn about the limitation of the Guided Tour Designer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/limitations-of-guided-tour-designer.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Explore Guided Tours, Guided Tours, Adoption services, Configure user experiences]
 ---

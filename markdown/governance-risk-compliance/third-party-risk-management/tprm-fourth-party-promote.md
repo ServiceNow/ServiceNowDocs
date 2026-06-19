@@ -2,6 +2,7 @@
 title: Promote a fourth-nth party to a third party
 description: Promote a fourth-nth party record to a third party by using the Third-party Risk Management application. If you’re now working with a fourth-nth party at the third-party level, you can keep relevant information current by promoting a fourth-nth party record to a third-party record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-fourth-party-promote.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -29,7 +30,7 @@ For example, Company A is pursuing a new project and needs to conduct due dilige
 
 1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**.
 
-2.  Select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Third parties** &gt; **All fourth parties**.
+2.  Select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Third parties** &gt; **All fourth parties**.
 
 3.  Select the desired fourth-nth party.
 
@@ -37,6 +38,6 @@ For example, Company A is pursuing a new project and needs to conduct due dilige
 
     A third-party record is created that incorporates all the existing fourth-nth party record information and then designates that fourth-nth party as a known fourth party. Known fourth parties have been or are in the process of being assessed for risk as part of the due diligence workflow. You can access all available due diligence information at the fourth-nth party and its corresponding third-party level.
 
-    For more information on fourth-nth parties, see [Monitoring your fourth-nth parties](../concept/tprm-monitor-fourth-parties.md).
+    For more information on fourth-nth parties, see [Monitoring your fourth-nth parties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-monitor-fourth-parties.md).
 
 

@@ -2,6 +2,7 @@
 title: Create and manage stages
 description: Create and manage stages that are contained inside a plan. Stages contain tasks or to-do lists for managers, mentors, or employees to complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/jny-create-manage-stages.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -36,5 +37,5 @@ Use stages to create a logical sequence for completing tasks. Managers add stage
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Configure Journey designer features](../concept/jny-dsgnr-configuration.md)
+**Parent Topic:**[Configure Journey designer features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-configuration.md)
 

@@ -2,6 +2,7 @@
 title: Create a basic auth profile using the Automated Test Framework
 description: Create basic auth profiles to specify basic authentication credentials for Send Request - Inbound test steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/atf-create-basic-auth-profile.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -44,5 +45,5 @@ The user name and password must be valid credentials on the instance where the t
 9.  Click **Submit**.
 
 
-**Parent Topic:**[Administering REST test step configurations](../concept/atf-administer-rest.md)
+**Parent Topic:**[Administering REST test step configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-administer-rest.md)
 

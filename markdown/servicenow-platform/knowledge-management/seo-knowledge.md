@@ -2,6 +2,7 @@
 title: SEO for canonical URLs and localized versions of knowledge articles
 description: Improve the searchability of knowledge articles by adding tags for canonical URLs and hreflang tags for translated knowledge articles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/seo-knowledge.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -15,7 +16,7 @@ breadcrumb: [Knowledge Management reference, Knowledge Management, Manage conten
 
 Improve the searchability of knowledge articles by adding tags for canonical URLs and **hreflang** tags for translated knowledge articles.
 
-You can add the default tags for canonical URLs and **hreflang** tags by selecting the **Use SEO script** check box on the Knowledge Article View \[kb\_article\_view\] page record. For more information, see [Enable SEO for canonical URLs and localized versions of a portal page](https://www.servicenow.com/docs/access?context=seo-sp&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+You can add the default tags for canonical URLs and **hreflang** tags by selecting the **Use SEO script** check box on the Knowledge Article View \[kb\_article\_view\] page record. For more information, see Enable SEO for canonical URLs and localized versions of a portal page.
 
 When the **Use SEO script** option is selected:
 
@@ -60,7 +61,7 @@ SPSEOHeaderTagsSNC
 
 Includes the default implementation for the canonical URLs and **hreflang** tags for Service Portal pages. This script include is read-only.
 
- For more information, see [Enable SEO for canonical URLs and localized versions of a portal page](https://www.servicenow.com/docs/access?context=seo-sp&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+ For more information, see Enable SEO for canonical URLs and localized versions of a portal page.
 
 </td></tr><tr><td>
 
@@ -87,7 +88,7 @@ SPSEOHeaderTagsArticleView
 Facilitates overriding the default implementation in the SPSEOHeaderTagsArticleViewSNC script include for the knowledge article view page.The SPSEOHeaderTagsArticleView extends the  SPSEOHeaderTagsArticleViewSNC script include.
 
 </td></tr></tbody>
-</table>As an administrator, you can add canonical URLs, **hreflang** tags, and any custom headers for knowledge articles by updating the SPSEOHeaderTagsArticleView script include. For more information, see [Configure custom SEO tags for canonical URLs and localized knowledge articles](../task/configure-seo-knowledge.md).
+</table>As an administrator, you can add canonical URLs, **hreflang** tags, and any custom headers for knowledge articles by updating the SPSEOHeaderTagsArticleView script include. For more information, see [Configure custom SEO tags for canonical URLs and localized knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/configure-seo-knowledge.md).
 
-**Parent Topic:**[Knowledge Management reference](../reference/knowledge-management-reference.md)
+**Parent Topic:**[Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/knowledge-management-reference.md)
 

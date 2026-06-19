@@ -2,12 +2,13 @@
 title: Configure crawl settings for the Microsoft SharePoint Online external content connector
 description: Specify the sites you want your Microsoft SharePoint Online external content connector to crawl. Define inclusion or exclusion filters for file extensions to dictate the types of documents the crawl retrieves and feeds to AI Search for indexing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-crawl-settings-spo-ext-cont-connector.html
 release: zurich
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2025-10-06"
-reading_time_minutes: 5
+last_updated: "2026-06-02"
+reading_time_minutes: 6
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Microsoft SharePoint Online external content connector, Configure, External Content Connectors, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
 ---
@@ -18,26 +19,29 @@ Specify the sites you want your Microsoft SharePoint Online external content con
 
 ## Before you begin
 
-A connector admin must have already created the Microsoft SharePoint Online external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Microsoft SharePoint Online external content connector](create-ext-cont-connector-mspo.md).
+A connector administrator must have already created the Microsoft SharePoint Online external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-mspo.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
 ## About this task
 
-This task is optional. By default, the Microsoft SharePoint Online external content connector crawls all sites from its specified source system and sends documents with all supported file extensions to AI Search for indexing. You only need to perform this task if you want the connector to use any of the following non-default settings:
+This task is optional. By default, the Microsoft SharePoint Online external content connector crawls all sites from its specified source system. It sends all supported content types, including files and attachments with all supported file extensions, to AI Search for indexing. Only perform this task if you want the connector to use any of the following non-default settings:
 
 -   Inclusion or exclusion filters for the sites to crawl when running content crawls
+-   Inclusion or exclusion filters for individual content types \(sites, lists, list items, attachments, and files\)
 -   Inclusion or exclusion filters for the attachment file extensions to retrieve when running content crawls
+
+Content is only retrieved from the source system if it passes all of your configured crawl setting filters. If any crawl setting filter excludes a content item, the external content connector doesn't retrieve it.
 
 **Important:**
 
-By default, each external content connector can index up to ten million \(10,000,000\) content items from its source system. When a connector exceeds this limit, it continues to crawl the source system, but only sends content item deletions and updates to AI Search for indexing, ignoring new content items. The connector logs an error message for every 10,000 content items it crawls beyond the indexing limit.
+By default, the Microsoft SharePoint Online external content connector can index up to ten million \(10,000,000\) content items from its source system. When the connector exceeds this limit, it continues to crawl the source system, but only sends content item deletions and updates to AI Search for indexing, ignoring new content items. The connector logs an error message for every 10,000 content items it crawls beyond the indexing limit.
 
-When a connector's indexed content item count exceeds 800,000, a warning message appears in the connector's UI to indicate that it's approaching the indexing limit. If the connector reaches the indexing limit, an error message appears in its UI.
+When the connector's indexed content item count exceeds eight million \(8,000,000\) content items, a warning message appears in the connector's UI to indicate that it's approaching the indexing limit. If the connector reaches the indexing limit, an error message appears in its UI.
 
-External content connectors that support user permissions crawls can retrieve up to five hundred thousand \(500,000\) users.
+The Microsoft SharePoint Online external content connector can handle permissions for up to five hundred thousand \(500,000\) users and their groups. If the connector retrieves users in excess of this limit, user and group permissions may not be correctly applied to the connector's retrieved content. As a result, the content may not be searchable.
 
-If one of your connectors reaches the content indexing limit, you can update its crawl settings and file inclusion/exclusion filters to reduce the number of content items it retrieves. Alternately, if you need a connector to index more than 10,000,000 content items or to retrieve more than 500,000 users, you can create a Customer Service and Support case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to request a limit increase for the connector.
+If your Microsoft SharePoint Online connector reaches the content indexing limit, you can update its crawl settings and file inclusion/exclusion filters to reduce the number of content items it retrieves. Alternatively, if you need the connector to index more than 1,000,000 content items, you can create a Customer Service and Support case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to request a limit increase for the connector.
 
 ## Procedure
 
@@ -61,9 +65,15 @@ If one of your connectors reaches the content indexing limit, you can update its
 
     -   If the connector automatically discovers a site that it doesn't have FullControl permission for, it records an informational alert indicating that it can't index that site.
     -   If the connector doesn't have FullControl SharePoint API permission for a site in your inclusion list, it records a warning alert indicating that it can't traverse \(crawl\) that site.
-    For details on configuring SharePoint API permissions for your Microsoft SharePoint Online sites, see [Configure Microsoft SharePoint Online for external content indexing](cfg-azure-spo-ext-cont-connector.md) and [Configure site and site collection access for the Microsoft SharePoint Online external content connector](configure-site-collection-access-spo-external-content-connector.md).
+    For details on configuring SharePoint API permissions for your Microsoft SharePoint Online sites, see [Configure Microsoft SharePoint Online for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/cfg-azure-spo-ext-cont-connector.md) and [Configure site and site collection access for the Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-site-collection-access-spo-external-content-connector.md).
 
-5.  To apply inclusion or exclusion filters to a crawl based on file extensions, perform the following steps:
+5.  In the Content types section, deselect the options for any content types you want the connector to exclude when crawling.
+
+    Supported content types include sites, lists, list items, attachments, and files.
+
+    As an example, to exclude lists and list items from the connector's content crawls, deselect the **Lists** and **List items** options. You must include at least one content type.
+
+6.  To apply inclusion or exclusion filters to a crawl based on file extensions, perform the following steps:
 
     1.  Select **Filter by file extension**.
 
@@ -73,9 +83,9 @@ If one of your connectors reaches the content indexing limit, you can update its
 
     3.  In the **File extension** field, select the file extensions that you want to include or exclude.
 
-        For details on the supported file extensions, see [Binary file extensions supported in External Content Connectors](../reference/file-extensions-ext-cont-connector.md).
+        For details on the supported file extensions, see [Binary file extensions supported in External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/file-extensions-ext-cont-connector.md).
 
-6.  Select **Save**.
+7.  Select **Save**.
 
 
 ## Result
@@ -84,7 +94,7 @@ The Microsoft SharePoint Online external content connector is updated with your 
 
 ## What to do next
 
-To retrieve content from your Microsoft SharePoint Online source system using your modified crawl settings, create and run a one-time content crawl for your Microsoft SharePoint Online external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](create-content-crawl-external-content-connector.md).
+To retrieve content from your Microsoft SharePoint Online source system using your modified crawl settings, create and run a one-time content crawl for your Microsoft SharePoint Online external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-content-crawl-external-content-connector.md).
 
-**Parent Topic:**[Microsoft SharePoint Online external content connector](../concept/microsoft-sharepoint-online-external-content-connector.md)
+**Parent Topic:**[Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/microsoft-sharepoint-online-external-content-connector.md)
 

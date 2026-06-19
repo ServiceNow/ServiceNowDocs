@@ -2,6 +2,7 @@
 title: Filter alarms for LogRhythm
 description: Setting filtering criteria for alarms after you have mapped fields helps you determine which alarms should be ingested into the SIR application. Filtering alarms helps you significantly reduce the number of alarms you ingest when the alarm profile is activated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/filter-alarms-logrhythm.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -29,7 +30,7 @@ Use the filtering conditions at the bottom of the mapping form to filter out spe
 
 1.  To edit the filtering criteria, select the **Filter based on conditions** check box.
 
-    ![Filter based on conditions check box selected and highlighted.](../image/profilemapping06__add_filter_condition_button.png)
+    \[Omitted image "profilemapping06\_\_add\_filter\_condition\_button.png"\] Alt text: Filter based on conditions check box selected and highlighted.
 
 2.  To the right of the **Filter conditions** field, click **OR** or **AND**.
 
@@ -37,19 +38,19 @@ Use the filtering conditions at the bottom of the mapping form to filter out spe
 
     The following image shows an additional filter added to the criteria in which risk-based priority \(`RBP max`\) is greater than `50`. With this filter setting, only LogRhythm alarms with a risk-based priority value that is greater than 50 are pulled.
 
-    ![Add a new filter condition to ingest alarms with a risk-based priority greater than 50.](../image/profilemapping07__added_risk_based_priority_filter.png)
+    \[Omitted image "profilemapping07\_\_added\_risk\_based\_priority\_filter.png"\] Alt text: Add a new filter condition to ingest alarms with a risk-based priority greater than 50.
 
 4.  After you have verified that all critical LogRhythm alarm fields are mapped to the ServiceNow AI Platform security incident, and you have set filtering criteria to limit alarm ingestion, choose one to continue the configuration.
 
-<table id="choicetable_r4p_krl_f2b"><thead><tr><th align="left" id="d91066e135">
+<table id="choicetable_r4p_krl_f2b"><thead><tr><th align="left" id="d92015e135">
 
 Option
 
-</th><th align="left" id="d91066e138">
+</th><th align="left" id="d92015e138">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d91066e144">
+</th></tr></thead><tbody><tr><td id="d92015e144">
 
 **Continue or Preview**
 
@@ -57,7 +58,7 @@ Description
 
 The Preview form of the security incident with your mapping configuration is displayed.**Preview** is selected on the progress bar. The next step is to view the security incident with your mapped alarms.
 
-</td></tr><tr><td id="d91066e158">
+</td></tr><tr><td id="d92015e158">
 
 **Update**
 
@@ -65,7 +66,7 @@ The Preview form of the security incident with your mapping configuration is dis
 
 Save your data and return to the **Alarm Profiles** list.
 
-</td></tr><tr><td id="d91066e170">
+</td></tr><tr><td id="d92015e170">
 
 **Previous**
 
@@ -73,7 +74,7 @@ Save your data and return to the **Alarm Profiles** list.
 
 The alarm profile record is displayed.
 
-</td></tr><tr><td id="d91066e179">
+</td></tr><tr><td id="d92015e179">
 
 **Delete**
 
@@ -85,7 +86,7 @@ Delete this alarm profile and the **Alarm Profiles** list is displayed.
 </table>
 ## What to do next
 
-The next step is to preview your mapped fields on the security incident. See [Previewing the security incident with mapped LogRhythm alarm values](../concept/preview-si-logrhythm.md).
+The next step is to preview your mapped fields on the security incident. See [Previewing the security incident with mapped LogRhythm alarm values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/preview-si-logrhythm.md).
 
-**Parent Topic:**[Creating an alarm profile for LogRhythm](create-alarm-profile-logrhythm.md)
+**Parent Topic:**[Creating an alarm profile for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/create-alarm-profile-logrhythm.md)
 

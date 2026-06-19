@@ -2,6 +2,7 @@
 title: Properties of the Wait components
 description: Learn about the properties of the Wait components in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/wait-properties.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -72,5 +73,5 @@ Wait Options
 Option to wait for all applications or any one of the applications whose screen shots are taken in the component.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Wait](../concept/wait.md)
+</table>**Parent Topic:**[Wait](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/wait.md)
 

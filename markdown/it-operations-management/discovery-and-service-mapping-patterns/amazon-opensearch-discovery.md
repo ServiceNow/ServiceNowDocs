@@ -2,6 +2,7 @@
 title: AWS OpenSearch discovery with Patterns
 description: The ServiceNow Discovery application uses the Amazon OpenSearch discovery pattern to find Amazon OpenSearch service domains.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/amazon-opensearch-discovery.html
 release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -40,5 +41,5 @@ OpenSearch service domains are stored in Cloud Databases \[cmdb\_ci\_cloud\_data
 |Amazon resource name|Name of the service domain.|
 |FQDN|Fully qualified domain name of the region where the keyspace is located.|
 
-**Parent Topic:**[AWS discovery using patterns](../../discovery/reference/data-discovered-aws-patterns.md)
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

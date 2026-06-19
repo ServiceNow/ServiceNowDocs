@@ -2,6 +2,7 @@
 title: Create a scan configuration
 description: Create a scan configuration in Cloud Configuration Governance to scan the cloud resources against one or more policy sets and identify the policy violations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-cloud-accelerate/create-ccg-scan-configuration.html
 release: zurich
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -17,7 +18,7 @@ Create a scan configuration in Cloud Configuration Governance to scan the cloud 
 
 ## Before you begin
 
--   Ensure that a suitable policy set is available for the scan. The policy set enforces a given security or organizational standard. For more information on creating the policy set, see [Create a policy set](create-ccg-policy-set.md).
+-   Ensure that a suitable policy set is available for the scan. The policy set enforces a given security or organizational standard. For more information on creating the policy set, see [Create a policy set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/create-ccg-policy-set.md).
 -   Role required: sn\_itom\_ccg.scheduling\_admin
 
 ## About this task
@@ -32,7 +33,7 @@ Create a scan configuration in Cloud Configuration Governance to scan the cloud 
 
 3.  Fill the values on the Scan Configuration form.
 
-    For a description of the form fields, see [Cloud Configuration Governance Scan configuration form](../reference/ccg-scan-configuration-form.md).
+    For a description of the form fields, see [Cloud Configuration Governance Scan configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/ccg-scan-configuration-form.md).
 
 4.  Select **Submit**.
 
@@ -45,5 +46,5 @@ Create a scan configuration in Cloud Configuration Governance to scan the cloud 
 
 ## What to do next
 
-Run the scan configuration to evaluate the resource configuration of the given cloud against the specified policy sets and identify the policy violations. For more information, see [Run the scan configuration](run-ccg-scan-configuration.md).
+Run the scan configuration to evaluate the resource configuration of the given cloud against the specified policy sets and identify the policy violations. For more information, see [Run the scan configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/run-ccg-scan-configuration.md).
 

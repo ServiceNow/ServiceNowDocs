@@ -2,6 +2,7 @@
 title: Working with inbound invoice
 description: Create invoice and invoice lines originating from different ERP sources using an integration framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/create-invoice-using-integration.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -17,9 +18,9 @@ Create invoice and invoice lines originating from different ERP sources using an
 
 ## Before you begin
 
--   [Import data into invoice](import-external-data-into-invoice.md)
--   [Load invoice data](load-data.md)
--   [Run transform to update invoice data](run-transform.md)
+-   [Import data into invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/import-external-data-into-invoice.md)
+-   [Load invoice data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/load-data.md)
+-   [Run transform to update invoice data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/run-transform.md)
 
 Role required: sn\_spend\_intg\_admin or sn\_spend\_intg\_procurement\_integrator
 
@@ -27,7 +28,7 @@ Role required: sn\_spend\_intg\_admin or sn\_spend\_intg\_procurement\_integrato
 
 1.  Open `sn_spend_intg_imp_invoice_list.do` staging table.
 
-    The **Invoice Imports** lists the inbound invoice columns. For more information on the inbound fields, refer [Inbound Invoice Fields](../reference/inbound-invoice-fields.md).
+    The **Invoice Imports** lists the inbound invoice columns. For more information on the inbound fields, refer [Inbound Invoice Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/inbound-invoice-fields.md).
 
     **Note:** If the required inbound fields are validated and entered, then the **Status** is set to inserted.
 

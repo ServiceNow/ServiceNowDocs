@@ -2,6 +2,7 @@
 title: Modify transform maps
 description: Transform maps are provided with base configurations and are sufficient usually. You can modify transform mappings depending on the needs of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configuration-compliance/cc-t-ChangeTransformMaps.html
 release: zurich
 product: Configuration Compliance
 classification: configuration-compliance

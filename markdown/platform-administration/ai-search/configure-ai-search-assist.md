@@ -2,6 +2,7 @@
 title: Configure AI Search Assist for a record producer
 description: Configure AI Search Assist settings for a record producer to help users view related Catalog Item and knowledge article search results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-ai-search-assist.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -35,13 +36,13 @@ AI Search Assist is a Service Portal widget that displays relevant Catalog Item 
 
     You can choose from a list of pre-defined configurations for specific features. For example, **\[AI Search Assist\] - Incident Deflection**.
 
-    ![Search Application Configurations.](../image/search-application-configurations.png)
+    \[Omitted image "search-application-configurations.png"\] Alt text: Search Application Configurations.
 
 4.  On the **Record producer information** tab, select a Record producer and Search variable.
 
     For example, **Service Category Request** as a record producer can have a search variable of **Category name**.
 
-    ![Record Producer Information.](../image/record-producer-information.png)
+    \[Omitted image "record-producer-information.png"\] Alt text: Record Producer Information.
 
 5.  To adjust the visibility of your card or detail view, select **Show UI Actions** under the new Record Producer Configuration record's related links.
 
@@ -65,5 +66,5 @@ If Contextual Search has been configured for the same record producer, and is sh
 
 If these conditions aren't all met, then Contextual Search is the fallback for the same record producer to make sure you see related search results.
 
-**Parent Topic:**[AI Search Assist record producer integration for Service Portal](../concept/ai-search-assist.md)
+**Parent Topic:**[AI Search Assist record producer integration for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ai-search-assist.md)
 

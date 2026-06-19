@@ -2,6 +2,7 @@
 title: Create an audience
 description: When you set up a policy acknowledgement request, you must identify an audience responsible for providing the acknowledgement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/create-audience.html
 release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -23,21 +24,21 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Policy Acknowledgement** &gt; **Audience**.
 
-    ![Define audiences for acknowledgements](../image/audiences.png)
+    \[Omitted image "audiences.png"\] Alt text: Define audiences for acknowledgements
 
 2.  Click **New**.
 
-    ![Defining a new audience](../image/new-audience.png)
+    \[Omitted image "new-audience.png"\] Alt text: Defining a new audience
 
 3.  Enter a name and description for the new audience, and save the record.
 
 4.  Additional tabs appear.
 
-    ![Defining users and groups in audiences](../image/audiences-tabs.png)
+    \[Omitted image "audiences-tabs.png"\] Alt text: Defining users and groups in audiences
 
 5.  Use the three tabs to identify members for this audience.
 
-<table id="choicetable_iyr_syf_mjb"><tbody><tr><td id="d153191e131">
+<table id="choicetable_iyr_syf_mjb"><tbody><tr><td id="d155451e131">
 
 **Users**
 
@@ -45,7 +46,7 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
 
 Click **Edit** and add one or more individual users to the audience.
 
-</td></tr><tr><td id="d153191e143">
+</td></tr><tr><td id="d155451e143">
 
 **Groups**
 
@@ -53,7 +54,7 @@ Click **Edit** and add one or more individual users to the audience.
 
 Click **Edit** and add one or more predefined groups of users to the audience.
 
-</td></tr><tr><td id="d153191e155">
+</td></tr><tr><td id="d155451e155">
 
 **User Filters**
 
@@ -62,8 +63,8 @@ Click **Edit** and add one or more predefined groups of users to the audience.
 Click **New** to define a new filter for audience member inclusion. Click **Edit** to modify an existing user filter. You can save filters for future use.
 
 </td></tr></tbody>
-</table>6.  When the audience has been defined, you can add the users, groups, or user filters to an [acknowledgement request](submit-ack-request.md).
+</table>6.  When the audience has been defined, you can add the users, groups, or user filters to an [acknowledgement request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/submit-ack-request.md).
 
 
-**Parent Topic:**[Set up a policy acknowledgement campaign](setup-ack-request.md)
+**Parent Topic:**[Set up a policy acknowledgement campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/setup-ack-request.md)
 

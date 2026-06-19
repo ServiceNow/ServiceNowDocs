@@ -2,6 +2,7 @@
 title: Strategic Portfolio Management for Telecommunications Fiber rollout project template
 description: This template describes the various tasks required for a fiber rollout.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/strategic-portfolio-management-for-telecom/spmt-fiber-rollout-template.html
 release: zurich
 product: Strategic Portfolio Management for Telecom
 classification: strategic-portfolio-management-for-telecom
@@ -25,5 +26,5 @@ The Fiber rollout project template contains the following basic tasks:
 -   Service readiness
 -   Plan for future demand and network build
 
-You can create a project from this template or modify this template according to your requirement. For more details on using project templates, see [Project templates](https://servicenow.com/docs/bundle/vancouver-it-business-management/page/product/project-management/concept/c_ProjectTemplates.html).
+You can create a project from this template or modify this template according to your requirement. For more details on using project templates, see Project templates.
 

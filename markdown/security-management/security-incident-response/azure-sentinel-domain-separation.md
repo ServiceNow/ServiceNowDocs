@@ -2,6 +2,7 @@
 title: Domain separation and Microsoft Azure Sentinel integration
 description: Domain separation is supported for this application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/azure-sentinel-domain-separation.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -31,7 +32,7 @@ If you are currently using the Azure Sentinel integration with Security Incident
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## How domain separation works in the Microsoft Azure Sentinel integration
 
@@ -54,10 +55,10 @@ Follow these steps to achieve domain separation:
 
 The following example shows how to replicate the Azure Sentinel comments and Status update job and run the job as a system user.
 
-![Replicate Azure Sentinel comments and Status update job and run as system user.](../image/sentinel-domain-sep1.png)
+\[Omitted image "sentinel-domain-sep1.png"\] Alt text: Replicate Azure Sentinel comments and Status update job and run as system user.
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

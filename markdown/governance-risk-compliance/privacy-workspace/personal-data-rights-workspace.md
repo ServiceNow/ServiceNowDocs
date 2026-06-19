@@ -2,6 +2,7 @@
 title: Personal Data Rights workspace
 description: The Personal Data Rights Workspace offers you the ability to create new personal data rights request and view the requests by their type, due date, and status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/personal-data-rights-workspace.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -17,7 +18,7 @@ The Personal Data Rights Workspace offers you the ability to create new personal
 
 The following image shows the Personal Data Rights workspace homepage.
 
-![PDR workspace homepage displaying the tasks details such as timelines, SLA, status, request type and requester.](../image/pdr-workspace.png)
+\[Omitted image "pdr-workspace.png"\] Alt text: PDR workspace homepage displaying the tasks details such as timelines, SLA, status, request type and requester.
 
 From the homepage you can create a new PDR request. The following are the sections on the home page.
 

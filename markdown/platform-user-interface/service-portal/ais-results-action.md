@@ -2,6 +2,7 @@
 title: Define an AI Search Results Action
 description: Configure which portal page opens when a result is selected from the list of search results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/ais-results-action.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -61,7 +62,7 @@ AI Search Source
 
 </td><td>
 
-Content that portal users can search on, including tables in your instance or external data sources. For more information, see [Defining search sources](https://www.servicenow.com/docs/access?context=search-sources-ais&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Content that portal users can search on, including tables in your instance or external data sources. For more information, see Defining search sources.
 
 </td></tr><tr><td>
 
@@ -132,5 +133,5 @@ Custom query parameters to use in addition to the payload query parameters. For 
 </table>3.  Select **Submit**.
 
 
-**Parent Topic:**[AI Search in Service Portal](../concept/ai-search.md)
+**Parent Topic:**[AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/ai-search.md)
 

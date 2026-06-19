@@ -2,6 +2,7 @@
 title: Configure templates for a contract and amendment request in Contract Management Pro
 description: Create contract templates to easily generate Microsoft Word contract documents based on request types in Contract Management Pro.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-document-templates.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
@@ -26,17 +27,17 @@ By using Microsoft Word add-in, you can add content controls on macOS as well as
 
 For more information, see the following topics:
 
--   [Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](cncore-setup-ct-add-in.md).
--   [Create contract template by manually adding content controls](cncore-setup-ct-manual.md).
+-   [Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md).
+-   [Create contract template by manually adding content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-setup-ct-manual.md).
 
--   **[Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](cncore-setup-ct-add-in.md)**  
+-   **[Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md)**  
 Create contract templates by using Microsoft Word add-in for ServiceNow Contracts to add content controls.
--   **[Create contract template by manually adding content controls](cncore-setup-ct-manual.md)**  
+-   **[Create contract template by manually adding content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-setup-ct-manual.md)**  
 Create contract templates by adding content controls manually.
--   **[Publish a contract template](../task/cncore-publish-template.md)**  
+-   **[Publish a contract template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-publish-template.md)**  
 Publish a contract template to make it available for generating a standard contract document with predefined content when a contract user submits a request.
--   **[Configure dynamic clauses for contract templates](cncore-clause-and-cv.md)**  
+-   **[Configure dynamic clauses for contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-clause-and-cv.md)**  
 Enable dynamic customized content in contract templates through clauses that contain clause variations for preset conditions.
 
-**Parent Topic:**[Configuring Contract Management Pro](cncore-config-cmpro.md)
+**Parent Topic:**[Configuring Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-config-cmpro.md)
 

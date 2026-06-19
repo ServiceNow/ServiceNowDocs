@@ -2,6 +2,7 @@
 title: Apply transition filter on a pre-defined filter
 description: Apply a transition filter on a selected node or connection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/apply-transitionfilter.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -33,12 +34,12 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 5.  Select **Investigate &gt; Filter on transition** from the Metrics window.
 
-    ![Add activity conditions using the Transitions filter](../image/transition-location-2.png)
+    \[Omitted image "transition-location-2.png"\] Alt text: Add activity conditions using the Transitions filter
 
     The task runs in the background.
 
 6.  When the task completes, select **View result** in the Scheduled tasks panel of Analyst workbench.
 
 
-**Parent Topic:**[Apply a transition filter on an activity](node-to-node-conditions.md)
+**Parent Topic:**[Apply a transition filter on an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/node-to-node-conditions.md)
 

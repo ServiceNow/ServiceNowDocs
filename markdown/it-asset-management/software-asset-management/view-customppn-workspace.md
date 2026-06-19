@@ -2,6 +2,7 @@
 title: View publisher part number \(PPN\) suggestions in workspace
 description: View Content Service suggestions for your custom PPNs and DMAPS in the Software Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/view-customppn-workspace.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -18,6 +19,8 @@ View Content Service suggestions for your custom PPNs and DMAPS in the Software 
 ## Before you begin
 
 PPN suggestions are available only if a corresponding match is found for your custom PPN in the Content Service. The PPN suggestion records are stored in the Part number suggestions \[samp\_sw\_part\_number\_suggestion\] table.
+
+For information on custom part numbers, see [Custom publisher part numbers \(PPN\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/customppn-swap.md) and [Add a custom part number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-add-custom-part-number.md).
 
 Role required: sam\_admin.
 
@@ -38,5 +41,5 @@ Role required: sam\_admin.
     -   **Accept**: The Content Service PPN and DMAP replace the custom PPN and DMAP. In the impacted entitlement, the Content Service PPN is replaced. Similarly, the Content Service DMAP is replaced on the software model.
     -   **Reject**: The status of this record changes to rejected and you continue to use the custom PPN.
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/using-sam-workspace.md)
 

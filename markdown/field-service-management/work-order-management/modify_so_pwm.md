@@ -2,11 +2,12 @@
 title: Reschedule the planned work order
 description: Reschedule planned work orders by advancing or delaying the occurrence date of the schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/modify\_so\_pwm.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Work plans, Planned Work Management, Work orders and tasks, Configure, Field Service Management]
 ---

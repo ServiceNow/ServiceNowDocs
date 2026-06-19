@@ -2,6 +2,7 @@
 title: Install Employee Center for Microsoft Viva Connections application
 description: Install the Employee Center for Microsoft Viva Connections application to enable users to easily access their task cards from Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/install-sn-ms-viva-connections.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -34,5 +35,5 @@ Role required: external\_app\_install\_admin
 
 A confirmation message appears on successful installation.
 
-**Parent Topic:**[Integrating Employee Center for Microsoft Viva Connections](../concept/integrate-viva.md)
+**Parent Topic:**[Integrating Employee Center for Microsoft Viva Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/integrate-viva.md)
 

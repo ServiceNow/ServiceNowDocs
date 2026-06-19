@@ -2,6 +2,7 @@
 title: Scheduled jobs
 description: Scheduled Jobs are automated pieces of work that can be performed at a specific time or on a recurring schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/time-configuration/c\_ScheduledJobs.html
 release: zurich
 product: Time Configuration
 classification: time-configuration
@@ -25,7 +26,7 @@ You can automate the following kinds of tasks:
 
 For developer training, see [Scheduled Script Executions and Events Objectives](https://developer.servicenow.com/dev.do#!/learn/courses/washingtondc/app_store_learnv2_automatingapps_washingtondc_automating_application_logic/app_store_learnv2_automatingapps_washingtondc_scheduled_script_executions_and_events/app_store_learnv2_automatingapps_washingtondc_scheduled_script_executions_and_events_objectives) on the ServiceNow Developer Site.
 
-Use the [System Events and Jobs Dashboard](../../platform-events/concept/track-events.md) to monitor the system event processing system and the scheduled jobs processing system.
+Use the [System Events and Jobs Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/track-events.md) to monitor the system event processing system and the scheduled jobs processing system.
 
 ## Scheduled job states
 
@@ -50,16 +51,16 @@ A scheduled job can be in any one of the following states.
 
 ## Schedule job errors
 
-If you encounter errors generating a scheduled job, visit [Troubleshoot a scheduled job through Application Insights](../../platform-performance/task/troubleshoot-a-scheduled-job.md) for additional information.
+If you encounter errors generating a scheduled job, visit [Troubleshoot a scheduled job through Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/troubleshoot-a-scheduled-job.md) for additional information.
 
--   **[Create a scheduled job](../../time/task/t_CreateAScheduledJob.md)**  
+-   **[Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/t_CreateAScheduledJob.md)**  
 Create a scheduled job on the Schedule Job \[sysauto\] table.
--   **[Special cases in job schedules](../../time/reference/r_SpecialCasesInJobSchedules.md)**  
+-   **[Special cases in job schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/r_SpecialCasesInJobSchedules.md)**  
 Some special cases require care in job scheduling.
--   **[View a schedule item](../../time/task/t_ViewAScheduleItem.md)**  
+-   **[View a schedule item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/t_ViewAScheduleItem.md)**  
 You can view scheduled items, which are individual instances of a scheduled job, from the system scheduler.
--   **[Advanced options for scheduled jobs](../../time/task/advanced-options-for-scheduled-jobs.md)**  
-Advanced scheduling options are available when configuring Scheduled Jobs in **sysauto**, offering greater flexibility in job planning and execution. You can configure jobs to start on a future date, end on a particular date, and define how the job should repeat.
+-   **[Advanced options for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md)**  
+Advanced scheduling options for scheduled jobs support greater flexibility in job planning and execution. You can configure jobs to start on a future date, end on a particular date, and define how the job should repeat.
 
-**Parent Topic:**[System scheduler](../../time/concept/c_SystemScheduler.md)
+**Parent Topic:**[System scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/c_SystemScheduler.md)
 

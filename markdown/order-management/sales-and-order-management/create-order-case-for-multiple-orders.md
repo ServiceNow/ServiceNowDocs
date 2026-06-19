@@ -2,6 +2,7 @@
 title: Request updates for one or more orders
 description: Request changes to the expected order fulfillment date and shipping location for one or more orders or to draw attention to an issue by creating an order case from the Business Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/create-order-case-for-multiple-orders.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

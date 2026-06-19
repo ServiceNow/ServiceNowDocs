@@ -2,6 +2,7 @@
 title: Categorize alerts displayed in Express List
 description: Create different views of alerts by adding tags in Express List to enable you to easily identify and group alerts without the need for discovery or accessing the CMDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/add-remove-tags-filter.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -23,13 +24,13 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation, select the Express List icon \(![Express List icon](../../event-management/image/express-list1.png)\).
+2.  In the primary navigation, select the Express List icon \(\[Omitted image "express-list1.png"\] Alt text: Express List icon\).
 
-3.  In the left filter pane, select the **Edit filter attributes** icon \(![Edit filter attributes icon](../image/icon-edit-filter-attirbutes.png)\).
+3.  In the left filter pane, select the **Edit filter attributes** icon \(\[Omitted image "icon-edit-filter-attirbutes.png"\] Alt text: Edit filter attributes icon\).
 
 4.  In the **Edit filter attributes** dialog box, select the **Alert tags** tab.
 
-    ![Edit filter attributes dialog box](../image/edit-filter-attributes2.png)The **Alert tags** tab title displays the number of selected alert tags.
+    \[Omitted image "edit-filter-attributes2.png"\] Alt text: Edit filter attributes dialog boxThe **Alert tags** tab title displays the number of selected alert tags.
 
     The left column displays the number of available tags in the **Available columns** column title.
 

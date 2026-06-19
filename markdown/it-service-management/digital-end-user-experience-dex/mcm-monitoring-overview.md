@@ -2,6 +2,7 @@
 title: MCM monitoring overview
 description: Microsoft Configuration Manager \(MCM\) monitoring provides estate-level visibility into MCM client health across all managed devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/mcm-monitoring-overview.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -29,5 +30,5 @@ MCM monitoring by DEX provides the following benefits:
 -   Device level drill-down: Access detailed device and MCM client information directly from dashboard metrics. Use sub-tabs to monitor specific devices and take targeted action.
 -   Application version monitoring: View MCM application versions across your devices. Identify devices where MCM actions have not run in the past 24 hours to stay on top of client compliance.
 
-To view client health, see [View client health with MCM](../task/view-client-health-with-mcm.md).
+To view client health, see [View client health with MCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/view-client-health-with-mcm.md).
 

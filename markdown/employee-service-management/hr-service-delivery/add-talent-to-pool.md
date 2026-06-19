@@ -2,6 +2,7 @@
 title: Add talent profiles to a Talent pool
 description: Add similar talent profiles to a Talent pool to streamline communication to all the profiles during a particular hiring drive.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/add-talent-to-pool.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -42,5 +43,5 @@ Role required: sn\_ta\_hiring\_core.recruiter
 7.  Select the talent profiles that you want to add to the current pool and select **Save**.
 
 
-**Parent Topic:**[Using Talent profile](../concept/config-t-pool.md)
+**Parent Topic:**[Using Talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/config-t-pool.md)
 

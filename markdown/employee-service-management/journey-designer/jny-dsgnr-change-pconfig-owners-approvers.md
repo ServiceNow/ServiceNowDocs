@@ -2,6 +2,7 @@
 title: Change Journey designer version 2 plan configuration owners or approvers
 description: Administrators can change a plan configuration owner or approver in Journey designer version 2.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/jny-dsgnr-change-pconfig-owners-approvers.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -40,5 +41,5 @@ Administrators may need to change owners or approvers for Journey designer plan 
 6.  Select **Update**.
 
 
-**Parent Topic:**[Setup the Journey designer version 2 plan configuration review and approval process](../concept/jny-dsgnr-plan-config-admin.md)
+**Parent Topic:**[Setup the Journey designer version 2 plan configuration review and approval process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-plan-config-admin.md)
 

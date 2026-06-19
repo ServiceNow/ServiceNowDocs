@@ -2,6 +2,7 @@
 title: Install Individual Life Claims
 description: If you have the admin role, you can install the Individual Life Claims application \(sn\_ins\_claim\_indl\). The application includes demo data and installs related ServiceNow Store applications and plugins that aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/install-individual-life-claims.html
 release: zurich
 product: Insurance Claims
 classification: insurance-claims
@@ -54,5 +55,5 @@ The following items are installed with Individual Life Claims:
 6.  Select **Install**.
 
 
-**Parent Topic:**[Setting up Individual Life Claims](../concept/setting-up-individual-life-claims.md)
+**Parent Topic:**[Setting up Individual Life Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/setting-up-individual-life-claims.md)
 

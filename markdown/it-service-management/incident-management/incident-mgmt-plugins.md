@@ -2,6 +2,7 @@
 title: Incident Management plugins
 description: Many of the Incident Management plugins are activated in the base system. Others, you can activate when you are ready to use them. Some plugins include demo data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/incident-mgmt-plugins.html
 release: zurich
 product: Incident Management
 classification: incident-management
@@ -15,24 +16,24 @@ breadcrumb: [Reference, Incident Management, IT Service Management]
 
 Many of the Incident Management plugins are activated in the base system. Others, you can activate when you are ready to use them. Some plugins include demo data.
 
--   **[Incident Management Best Practice – San Diego](inc-mgmt-best-prac-plugin-sd.md)**  
+-   **[Incident Management Best Practice – San Diego](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/inc-mgmt-best-prac-plugin-sd.md)**  
 The Incident management best practice -San Diego plugin \(com.snc.best\_practice.incident.sandiego\) enhances the integration and workflows for incidents and problems. This plugin enables you to update the progress of the reported incident and problem to the agent and caller.
--   **[Activate Incident](../task/activate-incident-plugin.md)**  
+-   **[Activate Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/activate-incident-plugin.md)**  
 You can activate the Incident plugin \(com.snc.incident\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
--   **[Request Incident Management — Core](../task/activate-incident-management-core-plugin.md)**  
+-   **[Request Incident Management — Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/activate-incident-management-core-plugin.md)**  
 Incident Management - Core plugin \(com.snc.incident\_management\) is a new incident state model that includes demo data and activates related plugins if they are not already active.
--   **[Request ITSM Roles — Incident Management](../task/req-itsm-roles-inci-mgmt.md)**  
+-   **[Request ITSM Roles — Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/req-itsm-roles-inci-mgmt.md)**  
  Request the ITSM Roles plugin \(com.snc.itsm.roles\) to activate the ITSM Roles — Incident Management plugin \(com.snc.itsm.roles.incident\_management\) to gain more control over the access that different service desk agents, technicians, and managers have within your Incident Management process.
--   **[Activate Business Stakeholder](../../../reuse/itsm/task/activate-business-stakeholders.md)**  
+-   **[Activate Business Stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/request-management/activate-business-stakeholders.md)**  
  Activate the Business Stakeholder plugin \(com.snc.business\_stakeholder\) if you have an admin role. This plugin installs the Business Stakeholder role. Users with this role can view and approve records at all ITSM product levels.
--   **[Activate KCS Integration for Incident Management](../task/activate-kcs-integration-for-im.md)**  
+-   **[Activate KCS Integration for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/activate-kcs-integration-for-im.md)**  
 Activate the KCS Integration for Incident Management plugin \(com.snc.incident.knowledge\) if you have the admin role. This plugin provides integration of Incident Management with the Advanced Knowledge Management features.
--   **[Activate Incident Management Notification](../task/activate-inci-mgmt-notification.md)**  
+-   **[Activate Incident Management Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/activate-inci-mgmt-notification.md)**  
 You can activate the Incident Management Notification plugin \(com.snc.incident\_notification\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
--   **[Activate Incident Updates](../task/activate-incident-updates.md)**  
+-   **[Activate Incident Updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/activate-incident-updates.md)**  
 You can activate the Incident Updates plugin \(com.snc.incident.updates\) to receive the incident notification updates if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
--   **[Activate Incident Management — ATF Tests](../task/activate-incident-mgmt-atf-tests.md)**  
+-   **[Activate Incident Management — ATF Tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/activate-incident-mgmt-atf-tests.md)**  
 You can activate the Incident Management — ATF Tests plugin \(com.snc.incident.atf\) if you have the admin role. The plugin delivers ATF tests for Incident Management. This plugin includes demo data.
 
-**Parent Topic:**[Reference section for Incident Management](../reference/reference-section-for-incident-management.md)
+**Parent Topic:**[Reference section for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/reference-section-for-incident-management.md)
 

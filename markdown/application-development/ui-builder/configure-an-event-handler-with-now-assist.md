@@ -2,11 +2,12 @@
 title: Configure an event handler with Now Assist
 description: Use Now Assist in UI Builder to configure event handlers. At present, you can configure link to destination, open or close modal, and view load requested event handlers using Now Assist in UI Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/configure-an-event-handler-with-now-assist.html
 release: zurich
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -25,15 +26,15 @@ Role required: ui\_builder\_admin
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    For more information, see [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md).
+    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md).
 
 3.  Open or create a page.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/create-page.md).
 
 4.  Add a component to your page, such as a button.
 
-    For more information about adding components to a page, see [Add and configure components](add-components.md#).
+    For more information about adding components to a page, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/add-components.md).
 
 5.  To add an event handler to your component's event, go to the configuration panel and select **Events**.
 
@@ -47,7 +48,7 @@ Role required: ui\_builder\_admin
 
     -   Type the action you want to perform \(For example, open www.servicenow.com\) or select an option from the dynamic prompts.
     -   You can reference data from page context.
-    ![Generate configuration with Now Assist](../image/event-handler-NowAssist.png)
+    \[Omitted image "event-handler-NowAssist.png"\] Alt text: Generate configuration with Now Assist
 
 9.  Select the right arrow icon.
 
@@ -64,5 +65,5 @@ Role required: ui\_builder\_admin
 
 The event handler configurations are updated.
 
-**Parent Topic:**[Manage actions in UI Builder pages](../concept/work-events.md)
+**Parent Topic:**[Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-events.md)
 

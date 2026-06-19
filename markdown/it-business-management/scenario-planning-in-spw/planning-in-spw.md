@@ -2,6 +2,7 @@
 title: Portfolio Planning in Strategic Planning Workspace
 description: Portfolio Planning in Strategic Planning Workspace helps product and portfolio managers align work with strategy across the organization, while facilitating Agile transformation by combining traditional and agile work streams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/planning-in-spw.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -19,39 +20,39 @@ Portfolio Planning in Strategic Planning Workspace helps product and portfolio m
 
 <table id="table_kzf_qkz_qzb" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn the key features and business value of Portfolio Planning in Strategic Planning](alignment-planner-workspace.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn the key features and business value of Portfolio Planning in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/alignment-planner-workspace.md)
 
 </td><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Set up the core configuration](setting-up-alignment-planner-workspace.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Set up the core configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/setting-up-alignment-planner-workspace.md)
 
 </td><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-alignment.svg) Plan, fund, and align work across your company](managing-portfolio-plans-in-alignment-planner-workspace.md)
+[Use \[Omitted image "bus-alignment.svg"\] Alt text: Plan, fund, and align work across your company](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/managing-portfolio-plans-in-alignment-planner-workspace.md)
 
 </td></tr><tr><td>
 
-[Goals ![](../../../reuse/icons/brand-icons/bus-alignment.svg) Create goals, set targets, and evaluate the progress](../../spw-goals/concept/managing-goals-in-alignment-planner-workspace.md)
+[Goals \[Omitted image "bus-alignment.svg"\] Alt text: Create goals, set targets, and evaluate the progress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/managing-goals-in-alignment-planner-workspace.md)
 
 </td><td>
 
-[Prioritize![](../../../reuse/icons/brand-icons/bus-balance-value.svg)Rank and prioritize work for your portfolio plans](../../spw-prioritization/concept/managing-backlog-alignment-planner-workspace.md)
+[Prioritize\[Omitted image "bus-balance-value.svg"\] Alt text:Rank and prioritize work for your portfolio plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/managing-backlog-alignment-planner-workspace.md)
 
 </td><td>
 
-[Roadmap![](../../../reuse/icons/brand-icons/bus-customize.svg)Roadmap work for your portfolio plan](../../spw-roadmap/concept/roadmaps-in-alignment-planner-workspace.md)
+[Roadmap\[Omitted image "bus-customize.svg"\] Alt text:Roadmap work for your portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/roadmaps-in-alignment-planner-workspace.md)
 
 </td></tr><tr><td>
 
-[Report![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Export portfolio plan status report as a PPT](../task/export-a-portfolio-plan-to-powerpoint-strategic-planning.md)
+[Report\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Export portfolio plan status report as a PPT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/export-a-portfolio-plan-to-powerpoint-strategic-planning.md)
 
 </td><td>
 
-[Integrate ![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg) Integrate Strategic Planning with execution systems](../../apw-internal-integrations/concept/configuring-apw-with-agile-safe-and-ppm.md)
+[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Integrate Strategic Planning with execution systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/configuring-apw-with-agile-safe-and-ppm.md)
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about components, form fields, and general guidelines](../reference/alignment-planner-workspace-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components, form fields, and general guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/alignment-planner-workspace-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

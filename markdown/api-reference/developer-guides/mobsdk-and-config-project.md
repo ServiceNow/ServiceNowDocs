@@ -2,6 +2,7 @@
 title: Configure your project
 description: Before writing any application that leverages the Mobile SDK for Android, you must configure your project to use the SDK.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/developer-guides/mobsdk-and-config-project.html
 release: zurich
 product: Developer Guides
 classification: developer-guides

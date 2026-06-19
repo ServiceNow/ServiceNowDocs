@@ -2,6 +2,7 @@
 title: View task SLAs on the Contractor Portal
 description: View the work order SLA timeline in the Field Service Contractor Portal to make sure you complete your task within the SLA time period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/view-task-slas.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -21,7 +22,7 @@ Role required: wm\_ext\_agent and wm\_ext\_manager
 
 ## About this task
 
-You cannot create and edit SLAs or delete them from work order tasks using the Field Service Contractor Portal. For more information, see [Manage a work order SLA](../../planning-and-policy/task/t_ManageAWorkOrderSLA.md).
+You cannot create and edit SLAs or delete them from work order tasks using the Field Service Contractor Portal. For more information, see [Manage a work order SLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/t_ManageAWorkOrderSLA.md).
 
 ## Procedure
 

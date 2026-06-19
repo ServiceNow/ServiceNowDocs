@@ -2,6 +2,7 @@
 title: Revert to Zing as the Unified Navigation search engine
 description: Revert to using Zing text indexing and search engine for the Unified Navigation search field in Next Experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/revert-zing-unified-nav-search.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -17,7 +18,7 @@ Revert to using Zing text indexing and search engine for the Unified Navigation 
 
 ## Before you begin
 
-The AI Search for Next Experience ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install AI Search for Next Experience](install-ais-next-experience-app.md).
+The AI Search for Next Experience ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/install-ais-next-experience-app.md).
 
 Role required: ais\_admin
 
@@ -51,5 +52,5 @@ The system reverts to using Zing as the search engine for global search and Next
 
 Notify all users of your instance that they need to log out and back in before they can use Zing search in the Unified Navigation search field.
 
-**Parent Topic:**[Configuring AI Search for Next Experience](../concept/configuring-ais-next-experience.md)
+**Parent Topic:**[Configuring AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configuring-ais-next-experience.md)
 

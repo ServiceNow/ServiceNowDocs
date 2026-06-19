@@ -1,23 +1,37 @@
 ---
 title: Create KBA questions
-description: Create knowledge-based questions that can be preconfigured as security questions to confirm the user's identity.
+description: Create knowledge-based questions to use for caller identification and authentication in AI voice agent interactions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/create-knowledge-based-questions.html
 release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-11-18"
-reading_time_minutes: 1
-breadcrumb: [Configure KBA, Knowledge-based authentication, Configure authentication factors, Authentication factors, Authentication, Access Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [Configure KBA, Knowledge-based authentication, Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
 ---
 
 # Create KBA questions
 
-Create knowledge-based questions that can be preconfigured as security questions to confirm the user's identity.
+Create knowledge-based questions to use for caller identification and authentication in AI voice agent interactions.
 
 ## Before you begin
 
 Role required: auth\_factors\_admin
+
+-   **Default questions**
+
+    A set of KBA questions default is available to all AI voice assistants in AI Voice Assistant Designer. You can use these questions as-is or edit them.
+
+    |Question|Default answer source|Type|Category|
+    |--------|---------------------|----|--------|
+    |Phone Number|sys\_user.mobile\_phone|Identification|Phone, triggers Automatic Number Identification \(ANI\)|
+    |Employee ID|sys\_user.employee\_number|Identification or Authentication|Others|
+    |Email|sys\_user.email|Identification or Authentication|Others|
+    |Manager|sys\_user.manager|Identification or Authentication|Others|
+    |Zip Code|sys\_user.zip|Identification or Authentication|Others|
+
 
 ## Procedure
 
@@ -65,9 +79,17 @@ Category
 
 </td><td>
 
-Select the category. Options:-   Others
--   Phone Number
-**Note:** Selecting **Phone Number** enables partial matching against the stored phone number, for example, matching even if the area code is not included.
+Select the category. Options:-   Phone Number: Enables partial phone number matching and makes the caller's ANI \(automatic number identification\) available by default for identification.
+-   Others: Standard matching; ANI is not used.
+**Note:** Phone Number category can't be used for authentication.
+
+</td></tr><tr><td>
+
+Channel
+
+</td><td>
+
+Select the channel for which the question is configured. Currently, only **Voice** is supported.
 
 </td></tr><tr><td>
 
@@ -75,24 +97,31 @@ Input Type
 
 </td><td>
 
-Select how the user provides their answer. Options: -   **Text** \(user enters a numeric response via phone keypad\)
--   **Voice** \(user speaks their response\).
+Select how the user provides their answer. Options: -   **Text**: The caller enters a response via phone keypad.
+-   **Voice**: The callers speak their response.
+
+
+</td></tr><tr><td>
+
+Type
+
+</td><td>
+
+Select when the question is available for use. Options: -   **Identification**: The question is available for identification configuration only.
+-   **Authentication**: The question is available for authentication configuration only.
+-   **Identification or Authentication**: The question is available for both.
 
 
 </td></tr></tbody>
 </table>4.  Select the Input Type:
 
-    1.  Option A: Input Type as **Text**.
+    1.  Input Type as **Text**: No additional fields are required.
 
-        ![Knowledge Based Question - Text](../images/kba-question-1.png "Knowledge Based Question - Text")
+        \[Omitted image "kba-question-1.png"\] Alt text: Knowledge Based Question - Text
 
         **Note:** If Input Type is set to **Text**, no additional fields are required.
 
-    2.  Input Type as **Voice**.
-
-    ![Knowledge Based Question - Text](../images/kba-question-2.png "Knowledge Based Question - Voice")
-
-    **Note:** The following fields available as a mandatory field when Input Type is set to **Voice**.
+    2.  Input Type as **Voice**: Specify the following additional fields:
 
 <table id="table_nvb_m4x_l3c"><thead><tr><th>
 
@@ -108,7 +137,7 @@ Input Format Description
 
 </td><td>
 
-Describe the expected format and structure of the spoken response. For example: 5-character alphanumeric employee ID starting with the letter E.
+Describe the expected format and structure of the spoken response. For example: `5-character alphanumeric employee ID starting with the letter E.`
 
 </td></tr><tr><td>
 
@@ -116,7 +145,7 @@ Input Format Example
 
 </td><td>
 
-Specify comma-separated examples of valid spoken responses. For example: E372B, E481K, E529D.
+Specify comma-separated examples of valid spoken responses. For example: `E372B, E481K, E529D.`
 
 </td></tr><tr><td>
 
@@ -124,15 +153,17 @@ Input Validation Pattern
 
 </td><td>
 
-Specify a regular expression pattern to validate the spoken response against the expected format. For example: ^E\[0-9\]\{3\}\[A-Z\]$.
+Specify a regular expression pattern to validate the spoken response against the expected format. For example: `^E[0-9]{3}[A-Z]$`.
 
 </td></tr></tbody>
-</table>5.  Select **Submit**.
+</table>    \[Omitted image "kba-question-2.png"\] Alt text: Knowledge Based Question - Text
+
+5.  Select **Submit**.
 
 
 ## Result
 
 You’re redirected to the Knowledge Based Questions list view. Verify if your question is successfully added.
 
-![Knowledge Based Question - list](../images/kba-question-3.png "Knowledge Based Questions - list")
+\[Omitted image "kba-question-3.png"\] Alt text: Knowledge Based Question - list
 

@@ -2,6 +2,7 @@
 title: Performance Analytics API examples
 description: These examples demonstrate how to perform a REST query using cURL commands, and show the data returned for each command. Each example builds upon the last, with later examples using the data returned by earlier examples.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/r\_PerformanceAnalyticsAPIExamples.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -1087,5 +1088,5 @@ Response:
 }
 ```
 
-**Parent Topic:**[Integrate Performance Analytics](../../../use/performance-analytics/concept/c_PAWebServiceIntegrations.md)
+**Parent Topic:**[Integrate Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_PAWebServiceIntegrations.md)
 

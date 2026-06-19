@@ -2,6 +2,7 @@
 title: Create a test definition
 description: Create a test definition to define tests that can help troubleshoot a problem encountered by a particular type of service or product model. For example, use a speed test to troubleshoot the internet-related issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/create-test-specification.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"

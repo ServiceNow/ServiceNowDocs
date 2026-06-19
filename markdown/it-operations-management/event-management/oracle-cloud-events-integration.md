@@ -2,6 +2,7 @@
 title: Integrate Oracle Cloud Infrastructure alarms
 description: Integrate Oracle Cloud Infrastructure \(OCI\) alarms with Event Management to send events into ServiceNow by adding a https subscription using Basic Authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/oracle-cloud-events-integration.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -18,7 +19,7 @@ Integrate Oracle Cloud Infrastructure \(OCI\) alarms with Event Management to se
 ## Before you begin
 
 -   Ensure that the Event Management Connectors \(sn\_em\_connector\) plugin is installed on the ServiceNow AI Platform instance.
--   Oracle Cloud Discovery must be performed to ensure that the created alerts are bound to the configuration items in the ServiceNow AI Platform. For more information, see [Oracle Cloud Infrastructure Discovery](../../service-mapping/reference/oracle-cloud-infrastructure-discovery.md).
+-   Oracle Cloud Discovery must be performed to ensure that the created alerts are bound to the configuration items in the ServiceNow AI Platform. For more information, see [Oracle Cloud Infrastructure Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-cloud-infrastructure-discovery.md).
 -   Role required: evt\_mgmt\_integration
 
 ## About this task
@@ -58,7 +59,7 @@ You can configure the Event Management environment for the collection of alarms 
 
 Depending on the Oracle Cloud alarm resource, the alert will bind to the CI using the following Event Field Mapping:
 
-![Event Field mapping form](../image/oracle-field-mapping.png)
+\[Omitted image "oracle-field-mapping.png"\] Alt text: Event Field mapping form
 
 You can create other event rules or modify the Event Field Mapping to map to other resource types.
 
@@ -68,5 +69,5 @@ Once the https subscription is configured and an Oracle Cloud alarm triggers a m
 -   Extracts information from the original Oracle Cloud alarm message to populate the required event fields and inserts the event into the ServiceNow AI Platform database.
 -   Captures specified content in the **Additional Information** field of the event form.
 
-**Parent Topic:**[Integrate with push connectors](configure-listener-transform-script.md)
+**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-listener-transform-script.md)
 

@@ -2,6 +2,7 @@
 title: Generate default mapping configurations
 description: Generate default mapping configurations to create table maps for the available applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/generate-default-mapping-configurations.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -37,6 +38,6 @@ Role required: sn\_align\_core\_apw.admin
 
     **Note:** Mapping configurations consist of table, field, and choice maps for each record.
 
-    ![Generate default mapping.](../../spw-financials/images/fin-integration-internal-planning-item.png "Default mapping configurations")
+    \[Omitted image "fin-integration-internal-planning-item.png"\] Alt text: Generate default mapping.
 
 

@@ -2,11 +2,12 @@
 title: Associate tool objects to applications – Classic
 description: After creating an application, you can associate plans, repositories, pipelines, and artifacts with it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/apps-associate-objects-classic.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Applications, DevOps Change Velocity, IT Service Management]
 ---
@@ -27,15 +28,15 @@ Role required: sn\_devops.admin or sn\_devops.app\_owner
 
 3.  From the application record page, select the related list for the object type that you want to associate.
 
-<table id="choicetable_ewm_tlh_wwb"><thead><tr><th align="left" id="d276433e77">
+<table id="choicetable_ewm_tlh_wwb"><thead><tr><th align="left" id="d269196e77">
 
 Object type
 
-</th><th align="left" id="d276433e80">
+</th><th align="left" id="d269196e80">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d276433e86">
+</th></tr></thead><tbody><tr><td id="d269196e86">
 
 **Plans**
 
@@ -47,7 +48,7 @@ Steps
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d276433e122">
+</td></tr><tr><td id="d269196e122">
 
 **Repositories**
 
@@ -59,7 +60,7 @@ Steps
 4.  Select **Save**.
  **Note:** When the property **Enable automatic association of repos to apps on pipeline execution** is enabled, repositories are automatically assigned to applications when a pipeline associated with an app identifies commits of a repository that is not yet associated.
 
-</td></tr><tr><td id="d276433e165">
+</td></tr><tr><td id="d269196e165">
 
 **Pipelines**
 

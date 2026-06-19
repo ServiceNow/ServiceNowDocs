@@ -2,6 +2,7 @@
 title: Send automatic campaign notifications in Microsoft Teams
 description: Automatically send campaign notifications in Microsoft Teams for better collaboration and efficient communication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/enable-activity-feed-mt.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,7 +18,7 @@ Automatically send campaign notifications in Microsoft Teams for better collabor
 
 ## Before you begin
 
-After the upgrade process for a pre-published app configuration, you must reauthorize the SSO and Activity notifications application to enable your ServiceNow instance to make API calls to Microsoft Azure. ServiceNow for Microsoft Teams application work flow is then enabled and your consent for the new API permissions is ensured. For more information, see [Grant permissions to required Microsoft Azure apps](authorize-multi-tenant-apps-mt.md).
+After the upgrade process for a pre-published app configuration, you must reauthorize the SSO and Activity notifications application to enable your ServiceNow instance to make API calls to Microsoft Azure. ServiceNow for Microsoft Teams application work flow is then enabled and your consent for the new API permissions is ensured. For more information, see [Grant permissions to required Microsoft Azure apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/authorize-multi-tenant-apps-mt.md).
 
 A manifest file to enable the campaign notification display in Microsoft Teams must exist.
 
@@ -47,8 +48,8 @@ Role required: admin
 
 7.  Upload the manifest file in Microsoft Teams.
 
-    For more information about creating a manifest file, see [Create and download the manifest file for pre-published apps](download-manifest-file-mt.md). For more information about uploading a manifest file, see [Upload manifest file in Microsoft Teams](upload-manifest-ms-teams.md).
+    For more information about creating a manifest file, see [Create and download the manifest file for pre-published apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/download-manifest-file-mt.md). For more information about uploading a manifest file, see [Upload manifest file in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/upload-manifest-ms-teams.md).
 
 
-**Parent Topic:**[Sending notifications to employees using Microsoft Teams](../concept/using-campaigns-ms-teams-mt.md)
+**Parent Topic:**[Sending notifications to employees using Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/using-campaigns-ms-teams-mt.md)
 

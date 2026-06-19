@@ -2,6 +2,7 @@
 title: Define engagement risk scoring rules
 description: An engagement risk-scoring rule specifies component criteria that determine which engagements are selected for assessment. For example, a rule could enable assessments for engagements that involve more than $40,000 annual business. Engagement scoring rules apply only to engagements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/tprm-engagement-scoring-rules-df.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -27,11 +28,11 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_risk\_manager
 
 1.  Navigate to **All** &gt; **Third-party Risk Management** &gt; **Scoring Setup** &gt; **Engagement Risk Scoring Rules**.
 
-    ![List of engagement risk scoring rules.](../image/engagement-risk-scoring-rules.png)
+    \[Omitted image "engagement-risk-scoring-rules.png"\] Alt text: List of engagement risk scoring rules.
 
 2.  Select **New**, fill in the form, and then select **Submit**.
 
-    ![Engagement Risk Scoring Rule — New.](../image/risk-engage-scoring-rule.png)
+    \[Omitted image "risk-engage-scoring-rule.png"\] Alt text: Engagement Risk Scoring Rule — New.
 
 <table id="table_eng-scoring-rule"><thead><tr><th>
 
@@ -73,7 +74,7 @@ Third-party risk area criteria
 
 The third-party risk area criteria that applies to this engagement risk scoring rule.
 
- A third-party risk area criteria is a group of risk domains \(sometimes called risk areas in other platform features\) that applies to a particular type of third party. See [Define third-party risk area criteria](tprm-risk-domain-criteria-df.md) for details on how criteria are defined.
+ A third-party risk area criteria is a group of risk domains \(sometimes called risk areas in other platform features\) that applies to a particular type of third party. See [Define third-party risk area criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-risk-domain-criteria-df.md) for details on how criteria are defined.
 
 </td></tr><tr><td>
 
@@ -107,7 +108,7 @@ Engagement Filter
 
 Criteria for selecting engagements.
 
- Use the [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) to define the criteria.
+ Use the condition builder to define the criteria.
 
  For example, you can perform assessments for third parties with whom you do considerable business: `Annual spend is greater than $40,000` or third parties within a particular category: `Category is software`.
 

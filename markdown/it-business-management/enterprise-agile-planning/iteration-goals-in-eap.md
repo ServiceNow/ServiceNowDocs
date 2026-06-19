@@ -2,6 +2,7 @@
 title: Iteration goals and work item goals in EAP
 description: Within Enterprise Agile Planning, define PI-level or sprint level objectives or associate work items with enterprise goals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/enterprise-agile-planning/iteration-goals-in-eap.html
 release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -19,9 +20,9 @@ Within Enterprise Agile Planning, define PI-level or sprint level objectives or 
 
 During planning interval \(PI\) or sprint planning, create functional goals for your team detailing what you plan to accomplish for the current iteration. Depending on your EAP configuration and team structure, you can create goals at the planning interval level or sprint level from the Planning board tab of a team.
 
-![Iteration goals in EAP.](../images/eap-iteration-goals.gif)
+\[Omitted image "eap-iteration-goals.gif"\] Alt text: Iteration goals in EAP.
 
-To learn how to create iteration goals in EAP, see [Create iteration goals for a PI or sprint in EAP](../task/create-iteration-goals-for-a-pi-or-sprint-in-eap.md).
+To learn how to create iteration goals in EAP, see [Create iteration goals for a PI or sprint in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/create-iteration-goals-for-a-pi-or-sprint-in-eap.md).
 
 ## Work item goals
 
@@ -29,9 +30,9 @@ Establish a relationship between work items \(Epic, Capability, Feature, or Stor
 
 Using the **Primary goal** field of the work item details, goals can be added to work items individually.
 
-![Primary goal field of the work item in EAP.](../images/eap-work-item-goal-field.png)
+\[Omitted image "eap-work-item-goal-field.png"\] Alt text: Primary goal field of the work item in EAP.
 
 Product managers, team leads, or team members can also view their work distribution with respect to goals associated in the **Work item distribution** report of the dashboards.
 
-![Work item distribution report.](../images/eap-work-item-distribution-report.png)
+\[Omitted image "eap-work-item-distribution-report.png"\] Alt text: Work item distribution report.
 

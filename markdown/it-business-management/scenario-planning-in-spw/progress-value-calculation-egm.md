@@ -2,6 +2,7 @@
 title: Progress value calculation
 description: The progress or percentage complete value of goals is auto-calculated using different formulas. The formula depends on whether the goal has only targets, a combination of sub-goals and targets, and if it has weighted average calculation enabled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/progress-value-calculation-egm.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -69,5 +70,5 @@ Formula used to calculate the progress value of the goal
 -   Contribution of T2 towards G1 progress = 3/\(2+3\)\*20 = 12%
 -   Therefore, Progress of G1 = 16% +12% = 28%
 
-**Parent Topic:**[Form field information for Strategic Planning](../reference/form-field-information-for-strategic-planning.md)
+**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
 

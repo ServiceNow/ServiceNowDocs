@@ -2,6 +2,7 @@
 title: UX: Portal Experience Review
 description: This accelerator evaluates the UX of a customer’s ServiceNow portal, focusing on usability, design, and leading practices to enhance overall user experience and engagement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/ux-review-employee-center.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

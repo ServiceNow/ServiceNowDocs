@@ -2,6 +2,7 @@
 title: Approval with e-signature
 description: Approve or reject an approval record by re-entering your login credentials. See the history of an approval from its activity stream or its audit history.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/approvals/approval-with-e-signature.html
 release: zurich
 product: Approvals
 classification: approvals
@@ -34,19 +35,19 @@ By default, Approval with e-signature supports these tables.
 -   Change Request \[change\_request\]
 -   Standard Change Proposal \[std\_change\_proposal\]
 
-When you add an approval table, any approval for the table needs an e-signature authorization. See [Select an approval table](../task/t_SelectAnApprovalTable.md) to add or remove a table from supporting Approval with e-signature.
+When you add an approval table, any approval for the table needs an e-signature authorization. See [Select an approval table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/approvals/t_SelectAnApprovalTable.md) to add or remove a table from supporting Approval with e-signature.
 
 ## Approver Authentication dialog
 
 Approvers must enter their user credentials to change the approval state. If the credentials fail, then the approval remains unchanged. The system checks the user credentials against local user records or an active single sign-on integration.
 
-![Dialog to enter user credentials](../image/approval-authentication-dialog-cropped.png)
+\[Omitted image "approval-authentication-dialog-cropped.png"\] Alt text: Dialog to enter user credentials
 
 ## Approval History
 
 Each Approval \[sysapprover\_approver\] record has an activity stream that tracks changes to it. Approvals made by e-signature are stored as field changes.
 
-![Example approval showing Bow Ruggeri approving a change request](../image/activity-stream-approval.png "Example activity stream")
+\[Omitted image "activity-stream-approval.png"\] Alt text: Example approval showing Bow Ruggeri approving a change request
 
 ## Available approval options
 
@@ -72,22 +73,22 @@ Approval with e-signature supports these types of user credential sources.
 -   A set of local User \[sys\_user\] records.
 -   A remote identity provider service accessed by the Multi-Provider Single Sign-On \(SSO\) integration.
 
-User credentials must be set up before enabling Approvals with e-signature. See [Creating users](https://www.servicenow.com/docs/access?context=ua-creating-users&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) to create local User records.
+User credentials must be set up before enabling Approvals with e-signature. See  to create local User records.
 
-See [Multi-Provider single sign-on \(SSO\)](https://www.servicenow.com/docs/access?context=c_MultipleProviderSingleSignOn&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) to create an integration to a Security Assertion Markup Language \(SAML\) 2.0 identity provider.
+See  to create an integration to a Security Assertion Markup Language \(SAML\) 2.0 identity provider.
 
--   **[Activate Approval with e-Signature plugin](../../../integrate/single-sign-on/task/activate-approval-esignature.md)**  
+-   **[Activate Approval with e-Signature plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/approvals/activate-approval-esignature.md)**  
 The Approval with e-Signature plugin \(com.glide.e\_signature\_approvals\) allows users to approve requests by re-entering their login credentials.
--   **[De-activate e-signatures](../reference/r_DeactivateESignatures.md)**  
+-   **[De-activate e-signatures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/approvals/r_DeactivateESignatures.md)**  
 Use this procedure to de-activate e-signatures.
--   **[Select an approval table](../task/t_SelectAnApprovalTable.md)**  
+-   **[Select an approval table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/approvals/t_SelectAnApprovalTable.md)**  
 By default, activating the Approval with E-signature plugin enables e-signature for all tables for which an approval exists.
--   **[Set up an approval from a local database](../task/t_SetUpAnApprovalFromALocalDb.md)**  
+-   **[Set up an approval from a local database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/approvals/t_SetUpAnApprovalFromALocalDb.md)**  
 Enable users to authorize e-signature approvals using local database credentials.
--   **[Use Multi-Provider SSO to set up an SSO approval for a SAML 2.0 authentication](../../../integrate/single-sign-on/task/sso-esignature-approval-SAML.md)**  
+-   **[Use Multi-Provider SSO to set up an SSO approval for a SAML 2.0 authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/approvals/sso-esignature-approval-SAML.md)**  
 An SSO approval with e-signature requires configuration on the SAML IdP and the ServiceNow instance.
--   **[Installed with approval with e-signature](../reference/r_InstalledWApprWithEsignature.md)**  
+-   **[Installed with approval with e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/approvals/r_InstalledWApprWithEsignature.md)**  
 Installing approval with e-signature installs certain properties.
 
-**Parent Topic:**[Classic approvals](../reference/r_Approvals.md)
+**Parent Topic:**[Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/approvals/r_Approvals.md)
 

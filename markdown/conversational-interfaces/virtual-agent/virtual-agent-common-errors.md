@@ -2,6 +2,7 @@
 title: Common errors in Virtual Agent API
 description: This section describes some common errors in Virtual Agent API and how they can be resolved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/virtual-agent-common-errors.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -100,7 +101,7 @@ Virtual Agent API supports two file upload modes, such as Synchronous and Asynch
 
 To upload a file in synchronous mode, follow the following steps:
 
-1.  Upload the file by using Media API. For more information, see [CCCIF Media Resource API](https://www.servicenow.com/docs/access?context=cccif-api&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+1.  Upload the file by using Media API. For more information, see .
 
     Media API returns a url. An example of the response is:
 
@@ -247,5 +248,5 @@ The `emailId` must match a `sys_user` record that meets all of the following con
     -   Review auto-link script for modifications.
     -   Test with default script if customized.
 
-**Parent Topic:**[Virtual Agent API reference](virtual-agent-api-reference.md)
+**Parent Topic:**[Virtual Agent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/virtual-agent-api-reference.md)
 

@@ -2,6 +2,7 @@
 title: Configure transition between state models
 description: Create state model transitions to define valid paths between workflow states. State model transitions control how authorization packages move from one step to another and verify that packages follow the correct sequence through your workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/continuous-risk-monitoring/create-state-transitions.html
 release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -56,7 +57,7 @@ Role required: sn\_irm\_cont\_auth.admin
 
 4.  On the **Model State Transitions** tab, select **New**.
 
-    ![Selecting Model State Transitions tab.](../image/WF-state-transition1.png)
+    \[Omitted image "WF-state-transition1.png"\] Alt text: Selecting Model State Transitions tab.
 
 5.  On the **Model State Transition New record** form, fill in the fields.
 
@@ -65,7 +66,7 @@ Role required: sn\_irm\_cont\_auth.admin
     |From|The current state is automatically populated.|
     |To|Select the state that this transition leads to.|
 
-    ![State transition fields.](../image/WF-state-transition2.png)
+    \[Omitted image "WF-state-transition2.png"\] Alt text: State transition fields.
 
 6.  Select **Submit** to create the state transition to the selected workflow state.
 
@@ -76,5 +77,5 @@ Role required: sn\_irm\_cont\_auth.admin
 
 ## What to do next
 
-[Create GRC model state transition conditions](add-state-transition-conditions.md)
+[Create GRC model state transition conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/add-state-transition-conditions.md)
 

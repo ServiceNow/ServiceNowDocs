@@ -2,6 +2,7 @@
 title: Managing unlock timeout after failed logins \[Updated in Security Center 1.3\]
 description: Two script actions are available that enable a site administrator to manage the number of times a user can provide an incorrect password before being locked out from the ServiceNow AI Platform. You can enable either of these script actions to manage failed login attempts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-managing-failed-login-attempts.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -21,7 +22,7 @@ Two script actions are available that enable a site administrator to manage the 
 |---------|-----------|
 |Property/Plugin Name|N/A|
 |Configuration type|System Policy &gt; Script Actions|
-|Category|[Authentication](sc-authentication.md)|
+|Category|[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)|
 |Purpose|To enforce strict policy for failed login attempts to avoid brute forcing of credentials.|
 |Recommended value|Active|
 |Security risk rating|7.3|
@@ -35,5 +36,5 @@ Two script actions are available that enable a site administrator to manage the 
 3.  To enable management of failed login attempts, change the Active state of either the **SNC User Lockout Check with Auto Unlock** or **SNC User Lockout Check** scripts actions from **false** to **true**.
 4.  To reset the failed login counter after a successful login, you can activate the **SNC User Clear** script action.
 
-**Parent Topic:**[Authentication](sc-authentication.md)
+**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

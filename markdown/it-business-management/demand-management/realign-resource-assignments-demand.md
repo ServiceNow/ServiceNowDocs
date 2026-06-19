@@ -2,6 +2,7 @@
 title: Realign resource assignments with demand
 description: Planning and execution of your roadmap involves change in priority or timelines of your work. In such cases, you can adjust the resource assignment dates to match with the latest dates of your demands.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/demand-management/realign-resource-assignments-demand.html
 release: zurich
 product: Demand Management
 classification: demand-management
@@ -17,7 +18,7 @@ Planning and execution of your roadmap involves change in priority or timelines 
 
 ## Before you begin
 
-[Migrate resource plans to resource assignments](../../resource-management/task/migrate-rsrc-plan-rsrc-asgnmnt.md)
+[Migrate resource plans to resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/migrate-rsrc-plan-rsrc-asgnmnt.md)
 
 Role required: it\_demand\_manager
 
@@ -38,5 +39,5 @@ Role required: it\_demand\_manager
 
 In the Resource assignments related list, you can see the Start date of the resource assignments aligned with the demand start dates.
 
-**Parent Topic:**[Create a demand](t_CreatingDemands.md)
+**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/t_CreatingDemands.md)
 

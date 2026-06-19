@@ -2,6 +2,7 @@
 title: Instances in ReleaseOps configuration
 description: Learn about the different types of instances in ReleaseOps configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/releaseops/instances-in-releaseops-configuration.html
 release: zurich
 product: ReleaseOps
 classification: releaseops
@@ -19,7 +20,7 @@ Learn about the different types of instances in ReleaseOps configuration.
 
 The terms controller instance and managed instances are specific to multi-instance management. ReleaseOps uses multi-instance management to handle trust configurations across instances and orchestrate deployments from a single instance. The instance that manages the other instances and orchestrates deployments is the controller instance. The other instances that the controller instance manages are the managed instances. During ReleaseOps configuration, you must add managed instances and authorize your controller instance to manage those instances.
 
-For more information about multi-instance management, see [Cross-instance application trust configuration](https://www.servicenow.com/docs/access?context=grant-access-v2&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US). To see a complete list of managed instances, you can navigate to **All** &gt; **Multi-instance management** &gt; **Managed instances**.
+For more information about multi-instance management, see . To see a complete list of managed instances, you can navigate to **All** &gt; **Multi-instance management** &gt; **Managed instances**.
 
 ## Deployment instances and pipeline instances
 
@@ -31,11 +32,11 @@ A pipeline instance maps a deployment instance to the pipeline that it participa
 
 To view a list of pipeline instances for a given pipeline, navigate to **All** &gt; **ReleaseOps** &gt; **Pipelines** and select the pipeline from the list. On the pipeline record page, select **Pipeline instances** to view the pipeline instances for the selected pipeline.
 
-![View pipeline instances for a selected pipeline on the pipeline record page.](../image/releaseops-pipeline-instances-view.png)
+\[Omitted image "releaseops-pipeline-instances-view.png"\] Alt text: View pipeline instances for a selected pipeline on the pipeline record page.
 
 ## Remote instances
 
-ReleaseOps uses update sources to move update sets between instances. A remote instance is the source instance, or update source, where an update set originates. For more information about update sources, see [Set up the source instance for an update set](../../system-update-sets/task/setting-source-for-update-set.md).
+ReleaseOps uses update sources to move update sets between instances. A remote instance is the source instance, or update source, where an update set originates. For more information about update sources, see [Set up the source instance for an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/setting-source-for-update-set.md).
 
 If you previously worked with update sets and have remote instances already defined, ReleaseOps can use those instances when defining remote instances during guided setup. Otherwise, you can create remote instances during the guided setup process.
 

@@ -2,6 +2,7 @@
 title: Queue a local change for a push
 description: Application developers can queue a local change for a push to confirm that the changes are available to other developers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/t\_QueueALocalChangeForAPush.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -38,5 +39,5 @@ Role required: user
     1.  Select the changes to ignore.
     2.  Select **Ignore This Change** from the Actions list.
 
-**Parent Topic:**[Pushing changes](../concept/pushing-changes.md)
+**Parent Topic:**[Pushing changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/pushing-changes.md)
 

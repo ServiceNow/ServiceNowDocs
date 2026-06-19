@@ -2,7 +2,10 @@
 title: Data management for Customer Service Management
 description: Organize and manage the data for both your internal users and external customers by using the Customer Service Management application. You can give your managers and agents a comprehensive view of customer data, including account and contact or consumer details, products and services, assets, contracts, and entitlements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-data-management.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 5
@@ -17,49 +20,49 @@ Organize and manage the data for both your internal users and external customers
 
 Different business models are available to support your goals and business needs in the Customer Service Management application. The business models vary depending on the products, services, and support that you provide to your customers. With the correct model for your business, you can answer queries, solve issues, and provide consistent and high-quality service that focuses on increasing your customer satisfaction.
 
-To learn more about the customer service business model, see [Customer service business models](customer-service-data-models.md).
+To learn more about the customer service business model, see [Customer service business models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-data-models.md).
 
 ## Customer data
 
 Customer data includes information about the customers who are external to your organization, such as names and addresses, telephone numbers, and email addresses. In the business-to-business \(B2B\) business model, customer data includes details about accounts and contacts. In the business-to-consumer \(B2C\) business model, it includes details about consumers and households. Maintaining accurate customer data enables your agents to communicate with customers quickly and easily.
 
-To learn more about the customer data, see [Customer data](customer-data.md).
+To learn more about the customer data, see [Customer data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-data.md).
 
 ## Product data
 
 Product data includes information about the products and services that an organization provides to its customers. This data can include information about products and product models, assets, sold products, install base items, and installed products. When assisting customers, your agents can quickly select the correct product data, add the details to case records, and view related details like knowledge articles and resolved cases.
 
-To learn more about the product data, see [Product data](product-data.md).
+To learn more about the product data, see [Product data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/product-data.md).
 
 ## Contributor users
 
 Contributor users enable you to engage both internal and external users to assist in resolving customer issues and requests.
 
-To learn more about the contributor users, see [Contributor users](customer-service-contributor-users.md).
+To learn more about the contributor users, see [Contributor users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-contributor-users.md).
 
 ## Service Model Foundation
 
 Service Model Foundation refers to a set of pre-designed business and technical data frameworks that meet the business needs of a particular industry. Service Model Foundation provides the core framework and security for model entities in the customer service value chain. It also offers guidance across different industry verticals. By using these models, you can provide positive experiences for your customers, agents, and middle office workers as they execute the customer service processes.
 
-To learn more about the Service Model Foundation, see [Service Model Foundation overview](csm-industry-data-model.md).
+To learn more about the Service Model Foundation, see [Service Model Foundation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-industry-data-model.md).
 
 ## Internal user data
 
 Internal user data includes the information about the people within your organization, such as managers, agents, and other employees. Internal users can belong to different user groups and can be assigned roles as customer and consumer service agents and managers.
 
-To learn more about the internal user data, see [Internal user data](customer-service-internal-user-data.md).
+To learn more about the internal user data, see [Internal user data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-internal-user-data.md).
 
 ## Business stakeholders for Customer Service Management
 
 Business stakeholders are users who are directly involved in your customer service processes. They can create, view, and approve cases and requests across your organization.
 
-To learn more about the business stakeholders, see [Business Stakeholder for Customer Service Management](business-stakeholder-for-csm.md).
+To learn more about the business stakeholders, see [Business Stakeholder for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/business-stakeholder-for-csm.md).
 
 ## Customer Access Management
 
 Customer access management supports multiple related parties \(contacts, consumers, and internal users\) in handling cases, sold products, and install bases by providing them with varying levels of access. Additionally, it facilitates tracking and collaboration on specific cases and products for related parties, enabling for the naming of relationships. Related parties associated with a product can not only view the product but also track all of its cases.
 
-To learn more about customer access management, see [Configuring customer access management](configuring-cam.md) and [Using customer access management](using-cam.md).
+To learn more about customer access management, see [Configuring customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configuring-cam.md) and [Using customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/using-cam.md).
 
 ## Install Base Management
 

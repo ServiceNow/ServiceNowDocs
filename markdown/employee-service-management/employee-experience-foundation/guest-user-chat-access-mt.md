@@ -2,6 +2,7 @@
 title: Request-based chat access for a guest user
 description: Request-based pre-published app chat access enables a guest user to start and import chats in a single ServiceNow for Microsoft Teams instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/guest-user-chat-access-mt.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -37,8 +38,8 @@ Guest access configuration is applicable to the following tables in both IT Serv
 
 The ServiceNow system admin can extend guest access to other tables.
 
--   **[Enable chat access for a guest user](../task/enable-guest-chat-access-mt.md)**  
+-   **[Enable chat access for a guest user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/enable-guest-chat-access-mt.md)**  
 Enable chat access for a guest user while configuring ServiceNow® for Microsoft Teams settings for a pre-published app.
 
-**Parent Topic:**[Setup for integrating pre-published apps with Microsoft Teams for Employee Experience](c_employee_ex_tnt.md)
+**Parent Topic:**[Setup for integrating pre-published apps with Microsoft Teams for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/c_employee_ex_tnt.md)
 

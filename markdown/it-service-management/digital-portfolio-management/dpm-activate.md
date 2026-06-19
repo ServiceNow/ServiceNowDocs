@@ -2,11 +2,12 @@
 title: Activate Digital Portfolio Management
 description: The Digital Portfolio Management plugin is available from the ServiceNow ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-portfolio-management/dpm-activate.html
 release: zurich
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-04-27"
 reading_time_minutes: 1
 breadcrumb: [Configure, Digital Portfolio Management, IT Service Management]
 ---
@@ -21,7 +22,7 @@ Role required: sn\_dpm.dpm\_admin
 
 ## About this task
 
-When you install the Digital Portfolio Management \(DPM\) application from the ServiceNow Store, it automatically installs the necessary plugins. For a list of other application plugins that you must install to surface other application data in DPM, see [Digital Portfolio Management related applications and data sources](../reference/dpm-related-products.md).
+When you install the Digital Portfolio Management \(DPM\) application from the ServiceNow Store, it automatically installs the necessary plugins. For a list of other application plugins that you must install to surface other application data in DPM, see [Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-related-products.md).
 
 ## Procedure
 
@@ -29,10 +30,10 @@ When you install the Digital Portfolio Management \(DPM\) application from the S
 
 2.  Find the plugin.
 
-    Use the filter criteria and search bar to search by name or by ID. If you can't find the plugin you want, see [Request a plugin](https://www.servicenow.com/docs/access?context=t_RequestAPlugin&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+    Use the filter criteria and search bar to search by name or by ID. If you can't find the plugin you want, see Request a plugin.
 
 3.  Select **Install**, and then in the Activate Plugin dialog box, select **Activate**.
 
 
-**Parent Topic:**[Configuring Digital Portfolio Management](../concept/dpm-configure-cfw.md)
+**Parent Topic:**[Configuring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-configure-cfw.md)
 

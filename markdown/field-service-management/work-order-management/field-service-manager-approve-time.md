@@ -2,6 +2,7 @@
 title: Review and approve time sheets
 description: Managers can review time cards and time sheets for agents in their assignment groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/field-service-manager-approve-time.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

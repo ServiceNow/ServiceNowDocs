@@ -2,6 +2,7 @@
 title: Configure an Emergency Outreach notification for the exposure notice
 description: Configure an Emergency Outreach notification to send email and mobile push notifications to potentially exposed employees in an exposure case to notify them of a potential exposure from an affected employee.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contact-tracing/configure-outreach-notify-exp-contact.html
 release: zurich
 product: Contact Tracing
 classification: contact-tracing
@@ -17,9 +18,9 @@ Configure an Emergency Outreach notification to send email and mobile push notif
 
 ## Before you begin
 
-Ensure that you have the Emergency Outreach application installed. For details, see [Install Emergency Outreach](../../business-continuity/task/install-emergency-outreach.md#).
+Ensure that you have the Emergency Outreach application installed. For details, see [Install Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/emergency-outreach/install-emergency-outreach.md).
 
-Employees must have the Now® Mobile app installed on their phones to receive mobile push notifications. For more information, see [Now Mobile app](../../../administer/mobile-employee/concept/mobile-employee-experience.md).
+Employees must have the Now® Mobile app installed on their phones to receive mobile push notifications. For more information, see [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md).
 
 Role required: sn\_imt\_checkin.checkin\_admin or admin
 
@@ -41,15 +42,15 @@ Review the existing **Notify Exposed Contact** outreach notification to familiar
 
 6.  Specify how to send the outreach notification.
 
-<table id="choicetable_frh_152_jmb"><thead><tr><th align="left" id="d712815e165">
+<table id="choicetable_frh_152_jmb"><thead><tr><th align="left" id="d211674e165">
 
 Option
 
-</th><th align="left" id="d712815e168">
+</th><th align="left" id="d211674e168">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d712815e174">
+</th></tr></thead><tbody><tr><td id="d211674e174">
 
 **Send an email notification**
 
@@ -57,15 +58,15 @@ Steps
 
 Select the **Email** check box.
 
-</td></tr><tr><td id="d712815e186">
+</td></tr><tr><td id="d211674e186">
 
 **Select a different notification**
 
 </td><td>
 
-Click the lookup icon \(![look up icon](../image/icon-lookup.png)\) and select an [email notification configured for the exposure notice outreach](configure-notify-exp-contact-email.md).
+Click the lookup icon \(\[Omitted image "icon-lookup.png"\] Alt text: look up icon\) and select an [email notification configured for the exposure notice outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/configure-notify-exp-contact-email.md).
 
-</td></tr><tr><td id="d712815e211">
+</td></tr><tr><td id="d211674e211">
 
 **Send a mobile push notification**
 
@@ -78,7 +79,7 @@ The check box is active if you have the ServiceNow NowMobile App Screens and App
 2.  Modify the text in the **Push message** and **Detailed Push Message** fields.
  Push notifications use the ServiceNow Request Application notification device. When you register the mobile application to an instance, this notification device is automatically created in the user's notification preferences. Make sure that this device is active for the users that you want to receive the push notification.
 
-</td></tr><tr><td id="d712815e246">
+</td></tr><tr><td id="d211674e246">
 
 **Use a custom notification channel**
 
@@ -100,7 +101,7 @@ An exposure notice outreach notification is created. These exposure notice outre
 
 ## What to do next
 
-A case manager can [send the outreach notification](send-notification-to-exposed-contact.md) to the potentially exposed contacts in a case.
+A case manager can [send the outreach notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/send-notification-to-exposed-contact.md) to the potentially exposed contacts in a case.
 
-**Parent Topic:**[Setting up Contact Tracing](../concept/set-up-contact-tracing.md)
+**Parent Topic:**[Setting up Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/set-up-contact-tracing.md)
 

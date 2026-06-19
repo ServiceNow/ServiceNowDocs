@@ -2,6 +2,7 @@
 title: Set up the Service Graph Connector for Fortinet schedule
 description: Set up and configure the Service Graph Connector for Fortinet SD-WAN. The process includes installation, optional demo data integration, connectivity configuration, and scheduling data collection for seamless Configuration Management Database \(CMDB\) integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-service-ops/telecommunications-service-operations-management/set-up-fortinet-sd-wan.html
 release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -29,7 +30,7 @@ Role required: TSOM Visibility admin
 
 3.  On the Guided setup home page, create and configure the MID Server or skip based on your environment.
 
-    **Note:** For more information on how to activate and configure a MID Server, see [Configuring MID Server](https://www.servicenow.com/docs/access?context=configure-mid-server&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+    **Note:** For more information on how to activate and configure a MID Server, see .
 
     1.  Select **Configure**.
 
@@ -55,7 +56,7 @@ Role required: TSOM Visibility admin
         2.  In the **Name** field, specify the alias name.
         3.  In the **API Key** field, enter the API key created in the FortiPortal.
 
-            **Note:** Other authentication fields might be required depending on the authentication methods used in your FortiManager instance. By default, use basic authentication credentials as part of the Guided setup. For more information, see [Basic authentication credentials](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+            **Note:** Other authentication fields might be required depending on the authentication methods used in your FortiManager instance. By default, use basic authentication credentials as part of the Guided setup. For more information, see .
 
         4.  Retain the default values in the rest of the fields.
         5.  Select **Submit** and then select **Mark as Complete**.

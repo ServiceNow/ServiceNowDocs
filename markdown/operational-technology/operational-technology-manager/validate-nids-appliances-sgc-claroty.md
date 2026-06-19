@@ -2,6 +2,7 @@
 title: Validate NIDS sensors
 description: Validate the Network IDS \(NIDS\) sensors once they're imported to prepare for device import. The sensors can only pass the validation if they aren't in learning mode as such sensors aren't eligible for device import.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-manager/validate-nids-appliances-sgc-claroty.html
 release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -17,7 +18,7 @@ Validate the Network IDS \(NIDS\) sensors once they're imported to prepare for d
 
 ## Before you begin
 
-It's recommended that you have the CSDM plugin installed. The Service Graph Connector aligns with the life cycle data models as per the CMDB standards. For more information, see [Implementing the CSDM framework in stages](https://www.servicenow.com/docs/access?context=csdm-implementation-stages&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+It's recommended that you have the CSDM plugin installed. The Service Graph Connector aligns with the life cycle data models as per the CMDB standards. For more information, see .
 
 Role required: cmdb\_nids\_admin
 
@@ -62,5 +63,5 @@ The **Life Cycle Stage** and **Life Cycle Stage Status** fields are used to capt
     -   zone
     -   isa\_entity\_site \(only available if you have the Industrial Process Manager application installed\)
 
-**Parent Topic:**[Service Graph Connector Integration for Claroty CTD](../concept/sgc-cmdb-integration-claroty-ctd.md)
+**Parent Topic:**[Service Graph Connector Integration for Claroty CTD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/sgc-cmdb-integration-claroty-ctd.md)
 

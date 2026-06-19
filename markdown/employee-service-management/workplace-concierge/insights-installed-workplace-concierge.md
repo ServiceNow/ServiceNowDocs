@@ -2,6 +2,7 @@
 title: Insights installed with Workplace Concierge
 description: The following insights are installed with the Workplace Concierge and Proactive Prompts plugins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-concierge/insights-installed-workplace-concierge.html
 release: zurich
 product: Workplace Concierge
 classification: workplace-concierge
@@ -65,5 +66,5 @@ Displays a message if the employee presence isn’t set to five days in the offi
 |Presence Calendar Insight|Displays the insight in the calendar week view.|
 |Presence Dashboard Insight|Displays the insight on the Presence dashboard.|
 
-**Parent Topic:**[Workplace Concierge reference](../concept/workplace-concierge-reference.md)
+**Parent Topic:**[Workplace Concierge reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-concierge/workplace-concierge-reference.md)
 

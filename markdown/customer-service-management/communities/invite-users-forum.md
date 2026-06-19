@@ -2,6 +2,7 @@
 title: Invite users to become members of a forum
 description: Invite users to become members of a particular forum to encourage greater community involvement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/communities/invite-users-forum.html
 release: zurich
 product: Communities
 classification: communities
@@ -44,5 +45,5 @@ Role required: sn\_communities.admin or sn\_communities.forum\_admin
     An email is generated and sent to the users in the list. The approval workflow set in the forum determines the approval of membership from an email invitation. You can view all email invitations in the forum on the **Forum Email Invites** related list.
 
 
-**Parent Topic:**[Configure community forums](configure-forums-topics.md)
+**Parent Topic:**[Configure community forums](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/configure-forums-topics.md)
 

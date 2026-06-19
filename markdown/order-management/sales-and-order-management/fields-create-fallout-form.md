@@ -2,6 +2,7 @@
 title: Fallout form fields
 description: The Fallout form enables you to manually create, review, and modify the order fallout records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/fields-create-fallout-form.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -52,12 +53,12 @@ Inadequate inventory. An ordered item can't be fulfilled.
 Associated system that is unavailable due to connectivity problems, timeouts, or other issues.
 
 
-**Note:** You can also create additional fallout types, as per the requirements of your enterprise. To learn more, see [Create additional fallout types](../concept/configure-fallout-management.md#).
+**Note:** You can also create additional fallout types, as per the requirements of your enterprise. To learn more, see [Create additional fallout types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/configure-fallout-management.md).
 
 To view the associated details or search for another fallout type:
 
--   Select the detail icon ![](../image/field-more-info.png) to view the associated details for the fallout type.
--   Select the search icon ![](../image/field-search.png) to search and select another fallout type.
+-   Select the detail icon \[Omitted image "field-more-info.png"\] Alt text: to view the associated details for the fallout type.
+-   Select the search icon \[Omitted image "field-search.png"\] Alt text: to search and select another fallout type.
 
 </td></tr><tr><td>
 
@@ -182,5 +183,5 @@ Attachments
 File attachments for the fallout record. Select **Select file** to add the file as an attachment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Order Management reference](order-mgt-reference.md)
+</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-mgt-reference.md)
 

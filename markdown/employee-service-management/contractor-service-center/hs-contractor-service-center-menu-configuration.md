@@ -2,6 +2,7 @@
 title: Configure the menu for Contractor Service Center
 description: As an admin you can configure the menu for the contractor service center. You can update the Quick links to get you started or the Explore our categories menu items, or create a menu item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contractor-service-center/hs-contractor-service-center-menu-configuration.html
 release: zurich
 product: Contractor Service Center
 classification: contractor-service-center
@@ -33,12 +34,12 @@ Role required: admin
 
     3.  For a new menu item, fill in the form.
 
-        For form field description, see [Contractor service portal menu item form](../concept/hs-contractor-service-portal-menu-item-form.md)
+        For form field description, see [Contractor service portal menu item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contractor-service-center/hs-contractor-service-portal-menu-item-form.md)
 
     4.  Select **Update**.
 
     The menu item appears on the portal.
 
 
-**Parent Topic:**[Configuring Contractor Service Center](../concept/hs-configure-contractor-service-center.md)
+**Parent Topic:**[Configuring Contractor Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contractor-service-center/hs-configure-contractor-service-center.md)
 

@@ -2,6 +2,7 @@
 title: Configure notification templates to send email
 description: Configure notification templates that agents can use to compose and send emails during a critical event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/critical-event-management/configure-email-notification-template.html
 release: zurich
 product: Critical Event Management
 classification: critical-event-management
@@ -25,7 +26,7 @@ Role required: email\_client\_admin
 
 2.  Select **New** to add an email template or edit an existing email template.
 
-3.  Fill the form and draft the content for the template. For more information on email templates, see [Email templates](https://www.servicenow.com/docs/access?context=c_EmailTemplates&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+3.  Fill the form and draft the content for the template. For more information on email templates, see .
 
 4.  Select **Submit**.
 

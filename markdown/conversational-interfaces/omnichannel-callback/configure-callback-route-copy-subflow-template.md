@@ -2,6 +2,7 @@
 title: Copy subflow template for callback routing
 description: Create a copy of External Callback Operations Template in Workflow Studio Subflows and make the necessary modifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/omnichannel-callback/configure-callback-route-copy-subflow-template.html
 release: zurich
 product: Omnichannel Callback
 classification: omnichannel-callback
@@ -27,9 +28,9 @@ Role required: admin
 
 3.  Search for **External Callback Operations Template** and open it.
 
-4.  Select the ![More actions menu](../../../common/image/icon-ellipses.png) more actions icon, and select **Copy subflow**.
+4.  Select the \[Omitted image "icon-ellipses.png"\] Alt text: More actions menu more actions icon, and select **Copy subflow**.
 
-    To learn more, see [Copy a subflow](https://www.servicenow.com/docs/access?context=copy-subflow&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+    To learn more, see .
 
 5.  Activate or open the copied subflow.
 
@@ -41,12 +42,12 @@ Role required: admin
 
 7.  Create a Workflow Studio Subflow action to make third-party API calls and publish the subflow.
 
-    To learn more, see [Building actions](https://www.servicenow.com/docs/access?context=actions&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+    To learn more, see .
 
     You have successfully copied and executed the subflow.
 
 
 ## What to do next
 
-[Configure callback routing](configure-callback-route-ccaas-api.md).
+[Configure callback routing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/omnichannel-callback/configure-callback-route-ccaas-api.md).
 

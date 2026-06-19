@@ -2,6 +2,7 @@
 title: Delegated Developer tasks
 description: You can delegate deployment tasks \(application publishing, first-time installation, or update\) to developers or non-admin users, such as Change Management personnel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/delegated-development-and-deployment/delegated-developer-tasks.html
 release: zurich
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
@@ -33,7 +34,7 @@ Available options
 
 </th></tr></thead><tbody><tr><td>
 
-Setting deployment permissions in Manage Developers. See [Delegating development permissions to personnel](../task/t_AddADeveloper.md)
+Setting deployment permissions in Manage Developers. See [Delegating development permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/t_AddADeveloper.md)
 
 </td><td>
 
@@ -45,7 +46,7 @@ Publishing and upgrades of specific applications. Publishing options include the
 
 </td></tr><tr><td>
 
-Assignment of deployment user roles to specific persons. See [Instance-specific deployment user roles](delegated_deployment_user_roles.md).
+Assignment of deployment user roles to specific persons. See [Instance-specific deployment user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/delegated_deployment_user_roles.md).
 
 </td><td>
 

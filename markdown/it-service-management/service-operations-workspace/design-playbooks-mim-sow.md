@@ -2,6 +2,7 @@
 title: Designing a major incident playbook
 description: Use Playbooks to design your own playbook by creating custom flows, and then configure trigger rules to activate the playbook for Major Incident Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/design-playbooks-mim-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -15,7 +16,7 @@ breadcrumb: [Assign a playbook to Major Incident Management, Configuring Major I
 
 Use Playbooks to design your own playbook by creating custom flows, and then configure trigger rules to activate the playbook for Major Incident Management.
 
-Select the **Process Automation Designer** link in the Create new playbook section of the Assign Playbook page in Admin Center to open the Playbooks page. For more information on how to assign a playbook, see [Assign a playbook to Major Incident Management](../task/assign-playbook-mim-sow.md).
+Select the **Process Automation Designer** link in the Create new playbook section of the Assign Playbook page in Admin Center to open the Playbooks page. For more information on how to assign a playbook, see [Assign a playbook to Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/assign-playbook-mim-sow.md).
 
 The Playbooks home page displays a list of available processes including the following playbooks that are available in the base system:
 

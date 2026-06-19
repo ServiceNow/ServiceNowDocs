@@ -2,6 +2,7 @@
 title: Install Opportunity Management
 description: If you have the admin role, you can install the Opportunity Management application. The application includes the demo data and installations that are related ServiceNow Store applications and plugins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/install-opportunity-management.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,40 +26,40 @@ Role required: admin
 
 ## About this task
 
-The following items are installed with [Opportunity Management](../concept/opportunity-management.md):
+The following items are installed with [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-management.md):
 
 -   Plugins
 -   Store applications
 -   Roles
 -   Tables
 
-For more information on viewing components that are installed with an application, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+For more information on viewing components that are installed with an application, see Find components installed with an application.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the [Opportunity Management](../concept/opportunity-management.md) application \(sn\_opty\_mgmt\) using the filter criteria and search bar.
+2.  Find the [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-management.md) application \(sn\_opty\_mgmt\) using the filter criteria and search bar.
 
     You can search for the application by its name or ID. If you can't find the application, request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
-    Dependent plugins and applications appear if they’re installed, or are currently installed, or must be installed. If any plugins or applications require installation, you must install them before you can install [Opportunity Management](../concept/opportunity-management.md).
+    Dependent plugins and applications appear if they’re installed, or are currently installed, or must be installed. If any plugins or applications require installation, you must install them before you can install [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-management.md).
 
 4.  If you want to install demo data, do one of the following depending on your entitlements.
 
-<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d74618e229">
+<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d32458e229">
 
 Demo data install task
 
-</th><th align="left" id="d74618e232">
+</th><th align="left" id="d32458e232">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d74618e238">
+</th></tr></thead><tbody><tr><td id="d32458e238">
 
 **If demo data is available and you want to install it**
 
@@ -68,13 +69,13 @@ Description
 2.  Select **Install**.
  **Important:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d74618e268">
+</td></tr><tr><td id="d32458e268">
 
 **If the Load Demo Data option isn’t available but you want demo data**
 
 </td><td>
 
-Load the demo data after installing [Opportunity Management](../concept/opportunity-management.md).1.  Install [Opportunity Management](../concept/opportunity-management.md).
+Load the demo data after installing [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-management.md).1.  Install [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/opportunity-management.md).
 2.  Navigate to the **All** and in the Filter, type `v_plugin.list`.
 3.  In the **System Plugin** list, search for Opportunity Management data model \(sn\_l2c\_opportunity\_mgmt\_data\_model\) plugin.
 4.  In the System **Plugin Opportunity Management data model** window, under Related Links, select **Install Demo Data Only**.

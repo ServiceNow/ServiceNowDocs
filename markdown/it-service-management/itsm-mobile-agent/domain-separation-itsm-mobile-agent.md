@@ -2,6 +2,7 @@
 title: Domain Separation for ITSM Mobile Agent
 description: This is an overview of domain separation and ITSM Mobile Agent. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can then control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/domain-separation-itsm-mobile-agent.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -27,7 +28,7 @@ Use case: When a service provider \(SP\) uses chat to respond to a tenant-custom
 
 The mobile platform supports domain separation for all native clients. The mobile UI design clearly indicates the domain that a record is associated with.
 
-Before extending the domain separation functionality to mobile, the feature must be enabled on the platform web-based interface. For further information on configuration, see [Domain separation setup and administration](https://www.servicenow.com/docs/access?context=c_DomainSeparationSetup&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+Before extending the domain separation functionality to mobile, the feature must be enabled on the platform web-based interface. For further information on configuration, see Domain separation setup and administration.
 
 ## How domain separation works in mobile
 

@@ -2,6 +2,7 @@
 title: Define a remote instance
 description: For each instance, define other instances in the hierarchy as remote instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/t\_DefineARemoteInstance.html
 release: zurich
 product: Team Development
 classification: team-development
@@ -108,5 +109,5 @@ Enter any other relevant information about the remote instance.
 7.  Repeat step 1 through step 5 for each instance in the hierarchy that this instance interacts with.
 
 
-**Parent Topic:**[Building an instance hierarchy](../concept/c_InstanceHierarchies.md)
+**Parent Topic:**[Building an instance hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_InstanceHierarchies.md)
 

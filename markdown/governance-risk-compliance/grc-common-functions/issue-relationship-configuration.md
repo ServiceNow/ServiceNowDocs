@@ -2,6 +2,7 @@
 title: Configuring an issue relationship
 description: If an issue isn't reusable and you know that multiple similar issues were created for different controls, risk statements, or control objectives, you can still configure the issue relationship to reuse the issue in the GRC application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/issue-relationship-configuration.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -21,10 +22,10 @@ By using the **Issue Relationship Configuration** tab under the GRC Administrati
 
 **Note:** This module is visible only if you have the workspaces installed.
 
-You can also disable an issue relationship by stopping the automatic linking of the related objects to an issue. For more information, see [Configure an issue relationship](../task/enable-or-disable-issue-relationship-configuration.md).
+You can also disable an issue relationship by stopping the automatic linking of the related objects to an issue. For more information, see [Configure an issue relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/enable-or-disable-issue-relationship-configuration.md).
 
--   **[Configure an issue relationship](../task/enable-or-disable-issue-relationship-configuration.md)**  
+-   **[Configure an issue relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/enable-or-disable-issue-relationship-configuration.md)**  
 Enable or disable an issue relationship configuration record so that you can automatically link an issue with its related objects in the GRC application.
 
-**Parent Topic:**[Issues in the Workspace](issues-in-workspace.md)
+**Parent Topic:**[Issues in the Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/issues-in-workspace.md)
 

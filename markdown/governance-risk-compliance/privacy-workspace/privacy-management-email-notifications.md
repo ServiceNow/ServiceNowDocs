@@ -2,6 +2,7 @@
 title: Privacy Management email notifications
 description: Reminders enable relevant users to perform their assessments and complete the tasks associated with them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/privacy-management-email-notifications.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -33,5 +34,5 @@ The following table describes the recipient list of notifications and the associ
 |Remainder email notification sent to the entity owner when the Privacy Assessment is in the due date.|Reminder email for when the assessment is due.|Entity owner|
 |Overdue email notification sent to the entity owner when Privacy Assessment is overdue.|Overdue email|Entity owner|
 
-**Parent Topic:**[Privacy Management reference](../reference/privacy-mgmt-reference.md)
+**Parent Topic:**[Privacy Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/privacy-mgmt-reference.md)
 

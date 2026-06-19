@@ -2,6 +2,7 @@
 title: Run tests for a story in Agile Development 2.0
 description: For a story whose tests are marked ready to be run, run those tests and execute all the test steps using the Sprint Tracking tab of the Agile board in Agile Development 2.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/run-test-plan-within-agile.html
 release: zurich
 product: Agile Development
 classification: agile-development
@@ -39,12 +40,12 @@ From the Agile board, use the List view of the Sprint Tracking tab to check stor
 
 6.  In the Test Execution window, execute each test step and mark them as passed, failed, or blocked accordingly.
 
-    -   Passed \(![Step passed icon](../image/passedtest.png)\)
-    -   Failed \(![Step failed icon](../image/failedtest.png)\)
-    -   Blocked \(![Step blocked icon](../image/blockedtest.png)\)
+    -   Passed \(\[Omitted image "passedtest.png"\] Alt text: Step passed icon\)
+    -   Failed \(\[Omitted image "failedtest.png"\] Alt text: Step failed icon\)
+    -   Blocked \(\[Omitted image "blockedtest.png"\] Alt text: Step blocked icon\)
     If you select Failed or Blocked for a test step, you can enter comments and attach files to support your selection.
 
-7.  If you're running multiple tests for the story, use the Next Test option \(![Next test icon](../image/icon-next-test.png)\) to move to the next test after verifying the current one.
+7.  If you're running multiple tests for the story, use the Next Test option \(\[Omitted image "icon-next-test.png"\] Alt text: Next test icon\) to move to the next test after verifying the current one.
 
 8.  Repeat step 6 and 7 until you've executed and verified all the test steps.
 
@@ -68,7 +69,7 @@ The result of each test is indicated on the Agile board as Passed, Failed, Block
 
 ## What to do next
 
-[View the test results for a story in Agile Development 2.0](view-test-result-form.md)
+[View the test results for a story in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/view-test-result-form.md)
 
-**Parent Topic:**[Using Agile Development 2.0](../../agile-development/concept/using-agile-development-2-0.md)
+**Parent Topic:**[Using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/using-agile-development-2-0.md)
 

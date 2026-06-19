@@ -2,6 +2,7 @@
 title: Create a test set
 description: To create or add to an NLU test set, you can upload a file of test utterances matched with correct intents. Use the test set to assess the performance of your model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/nlu-service/import-batch-test-set.html
 release: zurich
 product: NLU Service
 classification: nlu-service
@@ -25,7 +26,7 @@ To create or add to an NLU test set, you can upload a file of test utterances ma
 
 Your CSV or XLSX \(Excel Workbook\) file should contain a table that pairs your test utterances with the intents that you expect for them. Your file can contain up to 10,000 utterances. Ensure that the file has columns titled "Utterance" and "Expected intent".
 
-**Note:** For test sets in languages other than English, you must add the glide.import.csv.charset system property with the value UTF-8. See [Import sets properties](https://www.servicenow.com/docs/access?context=r_ImportSetsProperties&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+**Note:** For test sets in languages other than English, you must add the glide.import.csv.charset system property with the value UTF-8. See Import sets properties.
 
 For the most accurate test results, include utterances that the model is likely to encounter from your users. Ensure that you have test utterances covering all the intents in your model.
 
@@ -50,7 +51,7 @@ Aim to include about 10% of test utterances with no expected intents. Including 
 
 3.  Click **Create test set**.
 
-    ![Create new test set window.](../images/import_test_set_window.png)
+    \[Omitted image "import\_test\_set\_window.png"\] Alt text: Create new test set window.
 
 4.  Choose a name for the test set.
 
@@ -65,17 +66,15 @@ Aim to include about 10% of test utterances with no expected intents. Including 
 
 ## What to do next
 
-Use the test set to run a test on your models. To learn how, see [Test your model](test-your-model.md) or [Run a multi-model batch test](run-batch-test.md).
+Use the test set to run a test on your models. To learn how, see [Test your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/test-your-model.md) or [Run a multi-model batch test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/run-batch-test.md).
 
 After you have created a test set, you can add more utterances to it. When viewing a test set, click **Import utterances**.
 
-![Test set page with import utterances button.](../images/batch_test_import_utterances.png "Test set page with import utterances button")
+\[Omitted image "batch\_test\_import\_utterances.png"\] Alt text: Test set page with import utterances button.
 
 Select a CSV or XLSX \(Excel Workbook\) file with your additional utterances to import.
 
-![Import utterances window.](../images/import_utterances_window.png "Import utterances window")
+\[Omitted image "import\_utterances\_window.png"\] Alt text: Import utterances window.
 
 Click **Import**. The system adds your utterances to the test set. After importing, rerun any tests that use the test set.
-
-**Parent Topic:**[Multi-model Batch Testing](../concept/batch-testing-nlu.md)
 

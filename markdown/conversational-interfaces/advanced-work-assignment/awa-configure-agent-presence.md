@@ -2,6 +2,7 @@
 title: Configure agent presence states
 description: Create or modify the availability states that agents use to indicate whether they can receive work or are offline or away. Agents set these states in their Workspace Inbox.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/awa-configure-agent-presence.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -108,7 +109,7 @@ Disable agent inactivity check
 
 </td><td>
 
-If this check box is selected, the agent's presence will not be automatically set to "offline" based on inactivity and it must be manually set by the [AWA Agent API](https://www.servicenow.com/docs/access?context=agent-api&version=zurich&pubname=zurich-api-reference&ft:locale=en-US). You may need to configure the form to add this field.
+If this check box is selected, the agent's presence will not be automatically set to "offline" based on inactivity and it must be manually set by the AWA Agent API. You may need to configure the form to add this field.
 
 </td></tr><tr><td>
 
@@ -140,5 +141,5 @@ Selected groups that can use this presence state. To select a group, move the gr
     The presence state is added to or updated in the Presence States \[awa\_presence\_state\] table. The presence state is also listed in the Availability section of the Agent Workspace Inbox for the agents belonging to the groups and channels that use this state.
 
 
-**Parent Topic:**[Configuring Advanced Work Assignment](installing-awa.md)
+**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

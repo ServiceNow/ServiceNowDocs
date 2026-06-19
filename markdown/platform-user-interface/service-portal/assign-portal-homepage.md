@@ -2,6 +2,7 @@
 title: Assign a homepage to a portal
 description: Edit your portal record to specify any page as your homepage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/assign-portal-homepage.html
 release: zurich
 product: Service Portal
 classification: service-portal
@@ -23,7 +24,7 @@ Role required: sp\_admin or admin
 
 When a portal is referenced by the URL suffix, it lands on a homepage. This homepage is often labeled `index` in website language. The homepage is probably the most important page of your portal as it houses the major information and actions that your users see.
 
-You can use any portal page as the portal homepage. Navigate to **All** &gt; **Service Portal** &gt; **Pages** to see the Pages \[sp\_page\] table. To view or create pages in the Service Portal Designer, see [Create and edit a page using the Service Portal Designer](t_ConfigureAPage.md#).
+You can use any portal page as the portal homepage. Navigate to **All** &gt; **Service Portal** &gt; **Pages** to see the Pages \[sp\_page\] table. To view or create pages in the Service Portal Designer, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/t_ConfigureAPage.md).
 
 ## Procedure
 
@@ -34,5 +35,5 @@ You can use any portal page as the portal homepage. Navigate to **All** &gt; **S
 3.  In the **Homepage** field, select the page you want for your portal homepage and select **Update**.
 
 
-**Parent Topic:**[Create a portal](create-a-portal.md)
+**Parent Topic:**[Create a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/create-a-portal.md)
 

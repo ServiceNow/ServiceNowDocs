@@ -2,6 +2,7 @@
 title: Classic approvals
 description: Classic approvals are a legacy process to require authorization on tasks before the work is done. In earlier releases, you could create approval records to define approval tasks and associate users or groups to approve or reject them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/approvals/r\_Approvals.html
 release: zurich
 product: Approvals
 classification: approvals
@@ -17,7 +18,7 @@ Classic approvals are a legacy process to require authorization on tasks before 
 
 Administrators can define classic approval logic by navigating to **All** &gt; **System Policy** &gt; **Rules** &gt; **Approvals**.
 
-**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](../../flow-designer/reference/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
+**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
 
 Administrators can see all approval requests by navigating to **All** &gt; **Self-Service** &gt; **My Approvals** and removing the list filter.
 
@@ -72,7 +73,7 @@ Approval Summarizer
 
 </td><td>
 
-A [Create a formatter and add it to a form](https://www.servicenow.com/docs/access?context=t_CreateAFormatter&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) that displays key fields relevant to the approval from the referenced document. This summarizer will not display if there is no record referenced.
+A Create a formatter and add it to a form that displays key fields relevant to the approval from the referenced document. This summarizer will not display if there is no record referenced.
 
 </td></tr></tbody>
 </table>

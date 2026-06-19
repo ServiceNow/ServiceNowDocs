@@ -2,6 +2,7 @@
 title: Feedback information on contextual search
 description: When a user clicks any of the action buttons such as This helped, Order, or Attached, the feedback information is stored in specific tables. The information helps you to understand the effectiveness of the searches. You can also create custom reports by querying these tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/contextual-search/r\_QueryFeedbackInformation.html
 release: zurich
 product: Contextual Search
 classification: contextual-search
@@ -54,8 +55,8 @@ Groups the Relevant Document Detail individual recorded actions by search sessio
 -   **User/Created by**: The user who performed the action.
 
 </td></tr></tbody>
-</table>-   **[Run a report on contextual search usage](../task/t_RunAFeedbackReport.md)**  
+</table>-   **[Run a report on contextual search usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/t_RunAFeedbackReport.md)**  
 Run a report on usage such as how many times a knowledge article is attached to a record to know the effectiveness of the contextual search results.
 
-**Parent Topic:**[Managing contextual search](../concept/working-with-contextual-search.md)
+**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/working-with-contextual-search.md)
 

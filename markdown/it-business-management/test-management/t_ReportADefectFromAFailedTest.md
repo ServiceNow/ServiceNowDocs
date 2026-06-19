@@ -2,6 +2,7 @@
 title: Report a defect from a failed test
 description: Report a defect from an individual test that has failed so that you can further investigate the test failure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/test-management/t\_ReportADefectFromAFailedTest.html
 release: zurich
 product: Test Management
 classification: test-management
@@ -17,11 +18,11 @@ Report a defect from an individual test that has failed so that you can further 
 
 ## Before you begin
 
--   [Activate Agile Development 2.0](../../agile-development/task/activate-agile-development.md)
+-   [Activate Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/activate-agile-development.md)
 
     The ability to report a defect is available only if the Agile Development 2.0 plugin is activated.
 
--   Perform tests and update the test status. For more information, see [Performing tests and updating the test status](../concept/c_Tester.md).
+-   Perform tests and update the test status. For more information, see [Performing tests and updating the test status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/c_Tester.md).
 -   Role required: tm\_tester
 
     **Important:**

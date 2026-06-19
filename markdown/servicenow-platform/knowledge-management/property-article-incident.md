@@ -2,6 +2,7 @@
 title: Add a property to enable creating knowledge article from incidents
 description: Add a property, which is required to allow users to create a knowledge article from an incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/property-article-incident.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -37,5 +38,5 @@ Role required: admin
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Knowledge article creation from an incident](../concept/article-from-incident.md)
+**Parent Topic:**[Knowledge article creation from an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/article-from-incident.md)
 

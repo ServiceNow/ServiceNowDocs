@@ -2,6 +2,7 @@
 title: Add trading holidays
 description: Add trading holidays during which the trading is closed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-stock-preclearance/add-trading-holidays.html
 release: zurich
 product: Legal Stock Preclearance
 classification: legal-stock-preclearance
@@ -21,7 +22,7 @@ Role required: sn\_lg\_stock\_cp.stock\_config
 
 ## About this task
 
-A trading holiday might impact the stock preclearance approval validity period based on the **Exclude trading holidays** field's setting in the trading window. For more information, see [Set up a trading window](set-up-trading-window.md).
+A trading holiday might impact the stock preclearance approval validity period based on the **Exclude trading holidays** field's setting in the trading window. For more information, see [Set up a trading window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-stock-preclearance/set-up-trading-window.md).
 
 ## Procedure
 
@@ -45,5 +46,5 @@ A trading holiday might impact the stock preclearance approval validity period b
 7.  Click **Submit**.
 
 
-**Parent Topic:**[Configure Legal Stock Preclearance](../concept/legal-stock-pre-administration.md)
+**Parent Topic:**[Configure Legal Stock Preclearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-stock-preclearance/legal-stock-pre-administration.md)
 

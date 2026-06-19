@@ -2,6 +2,7 @@
 title: Approval Configuration New Record
 description: Use the Approval Configuration New Record form to create an approval configuration record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/approval-config-new-record.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -74,5 +75,5 @@ Applies to
 Table from which a record is submitted for approval. For example, business impact analysis or any table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Set up an approval configuration record](../task/set-up-approval-configurator.md)
+</table>**Parent Topic:**[Set up an approval configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/set-up-approval-configurator.md)
 

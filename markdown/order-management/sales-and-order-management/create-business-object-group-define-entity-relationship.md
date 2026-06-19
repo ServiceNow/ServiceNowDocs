@@ -2,6 +2,7 @@
 title: Set up business objects for sales process records
 description: Create the business objects necessary for sales process managers to create sales process records using these entities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/create-business-object-group-define-entity-relationship.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -83,7 +84,7 @@ Video showing the steps to set up business objects
 
     2.  Under the Business Object Group Members related list, select **New**.
 
-    3.  Select the business object type you want to add using the Lookup list icon ![](../../../reuse/icons/product-icons/magnifying-glass-outline-24.svg).
+    3.  Select the business object type you want to add using the Lookup list icon \[Omitted image "magnifying-glass-outline-24.svg"\] Alt text:.
 
     4.  Select **Submit**.
 

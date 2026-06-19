@@ -2,6 +2,7 @@
 title: Cassandra default checks and policies
 description: Agent Client Collector provides the following policies for Cassandra health monitoring. Policies come with the checks specified in the indicated table. Policies and checks are available for Linux only.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/cassandra-checks-policies.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
@@ -67,5 +68,5 @@ Cassandra JMX port
 `<host>.cassandra.load 132270.08 1645107221`
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](agent-policies-checks.md)
+</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-policies-checks.md)
 

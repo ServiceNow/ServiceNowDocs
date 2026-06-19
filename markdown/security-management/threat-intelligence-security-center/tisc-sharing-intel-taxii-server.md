@@ -2,6 +2,7 @@
 title: Sharing intelligence using TAXII Server
 description: You can retrieve threat intelligence from a source TISC instance into a target TISC instance using TAXII collections. This process requires configuration in both the source and target instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-sharing-intel-taxii-server.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

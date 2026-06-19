@@ -2,6 +2,7 @@
 title: Talent pool form
 description: The field descriptions provided are required to create a talent pool.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/talent-pool-form.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

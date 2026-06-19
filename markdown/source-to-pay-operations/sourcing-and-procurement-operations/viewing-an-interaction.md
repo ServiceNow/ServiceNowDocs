@@ -2,6 +2,7 @@
 title: View interaction details in Source-to-Pay Workspace
 description: View the details of an interaction record to analyze interactions and take immediate actions. Viewing an interaction record provides a comprehensive view of the customer journey. You can link an interaction record to an existing procurement case or can assign a task, which needs a procurement specialist involvement for investigation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/viewing-an-interaction.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -23,7 +24,7 @@ Role required: Procurement specialist, agent
 
 1.  Navigate to **All** &gt; **Procurement Case Management**.
 
-2.  Select the List icon \(![List icon.](../../supplier-lifecycle-operations/image/cases-list-icon.png)\) and select **Interactions** &gt;**All**.
+2.  Select the List icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and select **Interactions** &gt;**All**.
 
 3.  View interactions in the desired category to associate a record with a procurement case or a task.
 
@@ -46,5 +47,5 @@ Role required: Procurement specialist, agent
 7.  View information about the assigned virtual agent, attachments added to the interaction, and templates for use in the contextual side panel.
 
 
-**Parent Topic:**[Interaction Management in Source-to-Pay Workspace](../concept/interaction-management-in-procurement-operations-workspace.md)
+**Parent Topic:**[Interaction Management in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/interaction-management-in-procurement-operations-workspace.md)
 

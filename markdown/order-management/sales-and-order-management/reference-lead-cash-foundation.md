@@ -2,6 +2,7 @@
 title: Lead-to-cash foundation reference
 description: Reference for lead-to-cash foundation applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/reference-lead-cash-foundation.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -15,5 +16,5 @@ breadcrumb: [Reference, Sales Customer Relationship Management]
 
 Reference for lead-to-cash foundation applications.
 
-**Parent Topic:**[Sales Customer Relationship Management reference](som-reference.md)
+**Parent Topic:**[Sales Customer Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-reference.md)
 

@@ -2,6 +2,7 @@
 title: Set a provider for an embedding model
 description: Determine which AI provider to use so that your embedding model can work in the AI Search Retrieval Augmented Generation \(RAG\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/set-provider-for-byom.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -17,7 +18,7 @@ Determine which AI provider to use so that your embedding model can work in the 
 
 ## Before you begin
 
-Configure a connection and credential alias for your preferred provider. For more information, see [Create a Connection &amp; Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+Configure a connection and credential alias for your preferred provider. For more information, see .
 
 Role required: admin
 
@@ -35,7 +36,7 @@ Role required: admin
 
 5.  In the **API type** field, select **system**.
 
-6.  In the **API** field, select the search icon \(![Lookup documents using list.](../../../common/image/Banner_GlobalTextSearchIcon.png)\) to select the document.
+6.  In the **API** field, select the search icon \(\[Omitted image "Banner\_GlobalTextSearchIcon.png"\] Alt text: Lookup documents using list.\) to select the document.
 
     1.  In the **Table name** field, select the One API System Executor \[one\_api\_system\_executor\] table.
 

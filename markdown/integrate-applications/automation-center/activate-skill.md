@@ -2,6 +2,7 @@
 title: Activate user task summarization skill
 description: Activate the user task summarization skill to create an automation request from the Task Mining workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/automation-center/activate-skill.html
 release: zurich
 product: Automation Center
 classification: automation-center
@@ -30,5 +31,5 @@ Role required: sn\_generative\_ai.nsa\_admin
     The skill is activated on your instance.
 
 
-**Parent Topic:**[Configuring Now Assist for Automation Center](../concept/config-na-ac.md)
+**Parent Topic:**[Configuring Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/config-na-ac.md)
 

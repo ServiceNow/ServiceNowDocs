@@ -2,6 +2,7 @@
 title: Attach a predefined tag to a tag-based alert grouping definition
 description: Get started faster with alert clustering by attaching a predefined alert clustering tag to a tag-based alert clustering definition in Event Management. By associating a predefined tag, you ensure that alerts meeting the specified criteria are grouped effectively, facilitating quicker identification and response to related incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/alert-clustering-predefined-tag.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -33,7 +34,7 @@ The Tag Based Alert Clustering Engine application comes with a set of predefined
 
 4.  Use the search field to locate a predefined alert clustering tag, and then select the green check mark to confirm your selection.
 
-    **Note:** Predefined tags are recognizable by their description, which includes “out of the box.” For a complete list of the available predefined tags, see [List of predefined alert grouping tags](../reference/alert-clustering-predefined-tag-list.md).
+    **Note:** Predefined tags are recognizable by their description, which includes “out of the box.” For a complete list of the available predefined tags, see [List of predefined alert grouping tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/alert-clustering-predefined-tag-list.md).
 
 5.  Select **Save**.
 

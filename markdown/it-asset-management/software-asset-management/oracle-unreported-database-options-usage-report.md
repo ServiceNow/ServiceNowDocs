@@ -2,6 +2,7 @@
 title: Unreported Database Options Usage report
 description: You can use the Unreported Database Options Usage report to gain visibility into the Oracle Database options and management packs that are being used on undiscovered database instances. Although you cannot track usage for these database options and management packs, this report can help you determine any potential licensing implications that are associated with them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/oracle-unreported-database-options-usage-report.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -26,5 +27,5 @@ To view this report, navigate to **All** &gt; **Reports** &gt; **View/Run**. Fro
 |Host|Physical host on which the undiscovered database instance is running.|
 |Server|Server on which the physical host is running.|
 
-**Parent Topic:**[Oracle Database options and management packs](oracle-options.md)
+**Parent Topic:**[Oracle Database options and management packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/oracle-options.md)
 

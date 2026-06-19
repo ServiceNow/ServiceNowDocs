@@ -2,6 +2,7 @@
 title: Create a cost savings indicator for ITSM Success Dashboard
 description: Create a cost savings indicator in ITSM Success Dashboard to determine and display the time saved for the contributing indicators when agents work on an incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-success-dashboard-indicators/customize-cost-savings.html
 release: zurich
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -76,5 +77,5 @@ Verify that the values provided are accurate. Select **Mark Complete**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configure Success Dashboard indicators KPIs](config-kpis-sdb.md)
+**Parent Topic:**[Configure Success Dashboard indicators KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-success-dashboard-indicators/config-kpis-sdb.md)
 

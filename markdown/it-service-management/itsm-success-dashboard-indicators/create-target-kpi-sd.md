@@ -2,6 +2,7 @@
 title: Create target for the KPI in the Success Dashboard
 description: Create a target for a KPI to be on par with the benchmark score or the organizational targets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-success-dashboard-indicators/create-target-kpi-sd.html
 release: zurich
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -29,7 +30,7 @@ Role required: user
 
 4.  Select **Create Target** \(+\) icon.
 
-    ![Create target option](../image/create-target.png)
+    \[Omitted image "create-target.png"\] Alt text: Create target option
 
 5.  On the form, fill in the fields.
 
@@ -44,5 +45,5 @@ Role required: user
     **Note:** Select **Refresh** to view the target set on the trendline.
 
 
-**Parent Topic:**[Maximise the benefits of using the ITSM Success Dashboard indicators](../concept/measuring-performance-success-dashboard.md)
+**Parent Topic:**[Maximise the benefits of using the ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-success-dashboard-indicators/measuring-performance-success-dashboard.md)
 

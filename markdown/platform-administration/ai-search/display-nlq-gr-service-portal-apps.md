@@ -2,6 +2,7 @@
 title: Display NLQ Genius Result answers in Service Portal search applications
 description: Configure the system to display search result preview lists for NLQ Genius Result answers in Service Portal search applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/display-nlq-gr-service-portal-apps.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -17,7 +18,7 @@ Configure the system to display search result preview lists for NLQ Genius Resul
 
 ## Before you begin
 
-You only need to perform this task if you want to use NLQ Genius Results in your Service Portal search applications. If you only use NLQ Genius Results in Next Experience search applications, you don't need to perform this task.
+Only perform this task if you want to use NLQ Genius Results in your Service Portal search applications. If you only use NLQ Genius Results in Next Experience search applications, you don't need to perform this task.
 
 Role required: admin
 
@@ -47,12 +48,12 @@ Administrators should set this system property's value to **true** if the NLQ Ge
     |Type|true \| false|
     |Value|true|
 
-    For details on this system property's values, see the [System properties for NLQ Genius Results](../reference/sys-properties-nlq-gr.md) section.
+    For details on this system property's values, see the [System properties for NLQ Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/sys-properties-nlq-gr.md) section.
 
 4.  Press **Submit**.
 
     The new **glide.service\_portal.ais\_nlq\_enabled** record appears in the System Property \[sys\_properties\] table list view.
 
 
-**Parent Topic:**[NLQ Genius Results](../concept/genius-result-nlq-ais.md)
+**Parent Topic:**[NLQ Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/genius-result-nlq-ais.md)
 

@@ -2,6 +2,7 @@
 title: NowAPIService class - iOS
 description: The NowAPIService class provides functions that enable you to perform requests to a specified ServiceNow REST API.Requests data from the specified ServiceNow REST API and then executes the completion handler.Requests data from the specified ServiceNow REST API.Requests data from the specified ServiceNow REST API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/cllent-mobile-api-reference/NowAPIServiceiOSAPI.html
 release: zurich
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -17,9 +18,9 @@ The NowAPIService class provides functions that enable you to perform requests t
 
 |Name|Type|Description|
 |----|----|-----------|
-|configuration|[NowServiceConfiguration](../../NowServiceConfiguration/concept/NowServiceConfigurationiOSStruct.md#)|Service configuration to associate with the protocol.|
+|configuration|[NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowServiceConfigurationiOSStruct.md)|Service configuration to associate with the protocol.|
 
-**Parent Topic:**[Mobile SDK - iOS](../../concept/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowAPIService - data\(for endpoint: NowAPIEndpoint, queryItems: \[String: String\], httpHeaders: \[String: String\], body: Data, completion: @escaping \(Result&lt;DataResponse, NowDataError&gt;\)
 
@@ -43,7 +44,7 @@ for endpoint
 
 </td><td>
 
-[NowAPIEndpoint](../../NowAPIEndpoint/concept/NowAPIEndpointiOSProtocol.md#)
+[NowAPIEndpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAPIEndpointiOSProtocol.md)
 
 </td><td>
 
@@ -216,7 +217,7 @@ for endpoint
 
 </td><td>
 
-[NowAPIEndpoint](../../NowAPIEndpoint/concept/NowAPIEndpointiOSProtocol.md#)
+[NowAPIEndpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAPIEndpointiOSProtocol.md)
 
 </td><td>
 
@@ -379,7 +380,7 @@ for endpoint
 
 </td><td>
 
-[NowAPIEndpoint](../../NowAPIEndpoint/concept/NowAPIEndpointiOSProtocol.md#)
+[NowAPIEndpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowAPIEndpointiOSProtocol.md)
 
 </td><td>
 

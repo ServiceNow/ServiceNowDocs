@@ -2,6 +2,7 @@
 title: Manage service channels and queues
 description: Manage your agents' on-going work against every queue. Monitor the incoming data of the service channels and track real-time performance of your direct reporting teams and additional managing teams using key performance indicator reports in service channels and queues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/workforce-optimization-for-it-service-management/monitor-queues-itsm-configurable-workspace.html
 release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -37,5 +38,5 @@ The work item views display the list of pending and queued work items from all c
     -   Take or change work item ownership.
     -   Review agent performance.
 
-**Parent Topic:**[Routing work items using Channels in Workforce Optimization for ITSM](../concept/configurable-channels-workforce-optimization-itsm.md)
+**Parent Topic:**[Routing work items using Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/configurable-channels-workforce-optimization-itsm.md)
 

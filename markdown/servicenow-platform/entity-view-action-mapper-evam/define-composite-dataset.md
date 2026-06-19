@@ -2,6 +2,7 @@
 title: Create an EVAM definition
 description: Define the list of data sources to render. The Entity View Action Mapper \(EVAM\) definition is the main record for an EVAM configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/entity-view-action-mapper-evam/define-composite-dataset.html
 release: zurich
 product: Entity View Action Mapper \(EVAM\)
 classification: entity-view-action-mapper-evam
@@ -36,15 +37,15 @@ Role required: admin or evam\_admin
 
 4.  In the EVAM Data source M2Ms related list, add a data source.
 
-<table id="choicetable_s23_h4l_wnb"><tbody><tr><td id="d351728e186">
+<table id="choicetable_s23_h4l_wnb"><tbody><tr><td id="d173295e186">
 
 **Create and Link**
 
 </td><td>
 
-[You can define a new data source](define-evam-datasource.md) and then link this data source to your EVAM definition.
+[You can define a new data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/entity-view-action-mapper-evam/define-evam-datasource.md) and then link this data source to your EVAM definition.
 
-</td></tr><tr><td id="d351728e202">
+</td></tr><tr><td id="d173295e202">
 
 **Link Existing**
 
@@ -52,7 +53,7 @@ Role required: admin or evam\_admin
 
 You can add a pre-defined data source to your EVAM definition.
 
-</td></tr><tr><td id="d351728e211">
+</td></tr><tr><td id="d173295e211">
 
 **Unlink Selected**
 
@@ -65,15 +66,15 @@ You can remove the selected data source from your EVAM definition.
 
 6.  In the EVAM View Config Bundle M2Ms related list, add a configuration bundle.
 
-<table id="choicetable_lwc_h2h_xnb"><tbody><tr><td id="d351728e242">
+<table id="choicetable_lwc_h2h_xnb"><tbody><tr><td id="d173295e242">
 
 **Create and Link**
 
 </td><td>
 
-[You can define a new configuration bundle](define-view-configuration-bundle.md) and then link this bundle to your EVAM definition.
+[You can define a new configuration bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/entity-view-action-mapper-evam/define-view-configuration-bundle.md) and then link this bundle to your EVAM definition.
 
-</td></tr><tr><td id="d351728e261">
+</td></tr><tr><td id="d173295e261">
 
 **Link Existing**
 
@@ -81,7 +82,7 @@ You can remove the selected data source from your EVAM definition.
 
 You can add a pre-defined configuration bundle to your EVAM definition.
 
-</td></tr><tr><td id="d351728e270">
+</td></tr><tr><td id="d173295e270">
 
 **Unlink Selected**
 
@@ -105,5 +106,5 @@ You can remove the selected configuration bundle from your EVAM definition.
 8.  Select **Submit**.
 
 
-**Parent Topic:**[Using Entity View Action Mapper](../concept/managing-entity-view-action-mapper.md)
+**Parent Topic:**[Using Entity View Action Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/entity-view-action-mapper-evam/managing-entity-view-action-mapper.md)
 

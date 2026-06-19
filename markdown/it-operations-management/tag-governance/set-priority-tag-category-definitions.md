@@ -2,6 +2,7 @@
 title: Set the priority for tag category definitions for Tag Categorization
 description: Set the priority for tag category definitions to ensure that tag keys belonging to multiple categories are properly categorized.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/tag-governance/set-priority-tag-category-definitions.html
 release: zurich
 product: Tag Governance
 classification: tag-governance
@@ -17,7 +18,7 @@ Set the priority for tag category definitions to ensure that tag keys belonging 
 
 ## Before you begin
 
-Verify that you have installed version 1.16.3 of Service Mapping Plus to access to the CI tag category and CI tag key tables. For more information, see [Install Service Mapping Plus](../../service-mapping/task/install-service-mapping-plus.md).
+Verify that you have installed version 1.16.3 of Service Mapping Plus to access to the CI tag category and CI tag key tables. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/install-service-mapping-plus.md).
 
 Role required: admin
 
@@ -33,7 +34,7 @@ For example, the tag key Application might belong to both the Application and Co
 
 2.  Verify that you are in the leaf domain.
 
-    1.  In the page header, select the globe icon ![](../image/globe-icon.png).
+    1.  In the page header, select the globe icon \[Omitted image "globe-icon.png"\].
 
     2.  Select **Domain scope**, and choose the appropriate leaf domain.
 

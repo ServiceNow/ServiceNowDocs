@@ -2,6 +2,7 @@
 title: Associate an interaction record with a related procurement case in Source-to-Pay Workspace
 description: Associate an interaction record to a procurement case if your interaction is related to an existing procurement case. You can also associate a task to an interaction record to track your actions related to the interaction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/associate-interaction-record.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -23,7 +24,7 @@ Role required: Live agent, Procurement specialist
 
 1.  Navigate to **All** &gt; **Procurement Case Management** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the List icon \(![List icon.](../../supplier-lifecycle-operations/image/cases-list-icon.png)\) and select **Interactions** &gt;**All**.
+2.  Select the List icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and select **Interactions** &gt;**All**.
 
 3.  Search for an interaction record using the interaction ID from the list of records.
 
@@ -81,5 +82,5 @@ Procurement task that you want to associate to an interaction record.**Note:** T
 
 The interaction record is updated with its associated procurement case.
 
-**Parent Topic:**[Interaction Management in Source-to-Pay Workspace](../concept/interaction-management-in-procurement-operations-workspace.md)
+**Parent Topic:**[Interaction Management in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/interaction-management-in-procurement-operations-workspace.md)
 

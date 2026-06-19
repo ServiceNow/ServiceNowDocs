@@ -2,6 +2,7 @@
 title: Validate plugins on agents
 description: Validate plugins on your agents to ensure that they match the plugins on your ServiceNow instance. Validating plugins ensures that the instance provides accurate data on all of your agents' plugins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/validate-assets-agents.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector

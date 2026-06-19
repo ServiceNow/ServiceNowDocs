@@ -2,6 +2,7 @@
 title: Create order entries manually during the asynchronous order processing
 description: Skip the scheduled job and create order entries manually in the Order Management application for asynchronous order requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/creation-of-order-entries-in-the-asynchronous-order-processing.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -27,7 +28,7 @@ Before you can create the order entries in the customer order table, all these r
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\].
 
 3.  Navigate **Inbound Queue Requests** &gt; **All**.
 
@@ -147,7 +148,7 @@ Name of the target table.
 
 ## What to do next
 
-[Approve orders in Order Management](../task/som-om-approve-product-order.md)
+[Approve orders in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-om-approve-product-order.md)
 
-**Parent Topic:**[Asynchronous order processing for large customer and consumer orders](asynchronous-order-processing.md)
+**Parent Topic:**[Asynchronous order processing for large customer and consumer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/asynchronous-order-processing.md)
 

@@ -2,6 +2,7 @@
 title: Create a new incident profile for Microsoft DLP integration
 description: Create an incident profile in your  ServiceNow AI Platform instance to retrieve the data from the Microsoft Purview and add the data into the ServiceNow DLP IR incident table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/data-loss-prevention/create-profile-microsoft-dlp-integration.html
 release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -87,14 +88,14 @@ Unique description for the profile.
 
 To move to the Filtering section,  click **Continue**.
 
--   **[Microsoft purview endpoint storage configuration](../concept/microsoft-purview-endpoint.md)**  
+-   **[Microsoft purview endpoint storage configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/microsoft-purview-endpoint.md)**  
 Microsoft Purview endpoint evidence files storage configuration tells you where the endpoint evidence files are being stored by the purview- Custom managed store or Microsoft managed storage environments.
--   **[Define filters to apply for the Incident creation](define-filters-profile-microsoft.md)**  
+-   **[Define filters to apply for the Incident creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/define-filters-profile-microsoft.md)**  
 Define and set filter conditions to filter the incoming  Microsoft DLP  events. Control which of these events should be created as DLP IR incidents on your ServiceNow instance.
--   **[Configure the match content for the incident](matching-content-configuration-microsoft.md)**  
+-   **[Configure the match content for the incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/matching-content-configuration-microsoft.md)**  
 Provide the configuration to store the sensitive information internally, on the ServiceNow® storage, or on the external cloud storage, such as Azure Storage or AWS S3 bucket. Retrieve the stored content while accessing the DLP IR Incident.
--   **[Schedule the DLP IR Microsoft incident retrieval](schedule-profile-microsoft.md)**  
+-   **[Schedule the DLP IR Microsoft incident retrieval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/schedule-profile-microsoft.md)**  
 Set a schedule to retrieve the incident data and ingest Microsoft DLP IR incidents that match the criteria in the profile. Configure the schedule to define how and when you pull incidents from Microsoft.
 
-**Parent Topic:**[Data Loss Prevention Incident Response with Microsoft](../concept/dlp-integration-microsoft.md)
+**Parent Topic:**[Data Loss Prevention Incident Response with Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/dlp-integration-microsoft.md)
 

@@ -2,6 +2,7 @@
 title: Follow up with potentially exposed contacts
 description: As a case task owner, contact potentially exposed users to follow up on their health status using the predefined instructions and survey questions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contact-tracing/contact-exposed-contacts.html
 release: zurich
 product: Contact Tracing
 classification: contact-tracing
@@ -23,7 +24,7 @@ Role required: sn\_imt\_tracing.contact\_tracer
 
 The case manager defines instructions for contact tracers to use when following up with potentially exposed users, such as the follow-up frequency. Contact tracers should follow these instructions to work on the assigned tasks.
 
-The Exposure Case Task Survey is available for contact tracers to use to assess the health status of the exposed contact. The administrator can review and modify the survey. For more information, see [Survey designer](https://www.servicenow.com/docs/access?context=c_SurveyDesignerElements&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+The Exposure Case Task Survey is available for contact tracers to use to assess the health status of the exposed contact. The administrator can review and modify the survey. For more information, see Survey designer.
 
 ## Procedure
 
@@ -40,7 +41,7 @@ The Exposure Case Task Survey is available for contact tracers to use to assess 
     -   Contact the user by calling or sending an email with the questions specified in the survey by clicking **Take Survey**.
     -   Send the survey via SMS for the user to respond via SMS by clicking **Send SMS Survey** if available.
 
-        **Note:** You must have Virtual Agent installed and set up for use with SMS and Twilio to complete SMS outreach delivery. For more information on this feature, see [Virtual Agent conversations for Contact Tracing](../concept/contact-tracing-va-sms.md#).
+        **Note:** You must have Virtual Agent installed and set up for use with SMS and Twilio to complete SMS outreach delivery. For more information on this feature, see [Virtual Agent conversations for Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/contact-tracing-va-sms.md).
 
     Each follow-up result is added to the Survey results related list.
 
@@ -69,5 +70,5 @@ If Employee Readiness Core is installed and the potentially exposed contacts req
 
 After all the case tasks in the case have been closed, the case manager can close the case.
 
-**Parent Topic:**[Managing cases to follow up with potentially exposed contacts](../concept/exposure-case-management.md)
+**Parent Topic:**[Managing cases to follow up with potentially exposed contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/exposure-case-management.md)
 

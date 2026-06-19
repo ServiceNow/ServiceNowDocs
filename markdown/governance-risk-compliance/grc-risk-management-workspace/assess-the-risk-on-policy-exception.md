@@ -2,6 +2,7 @@
 title: Assess risk for a policy exception
 description: After the review of a policy exception request and before deciding to approve or reject a request, the compliance manager may choose to request a risk assessment by the risk manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/assess-the-risk-on-policy-exception.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -21,7 +22,7 @@ Role required: compliance manager
 
 ## About this task
 
-For more information, see [Manage policy exceptions and extensions](../concept/manage-policy-exceptions.md).
+For more information, see [Manage policy exceptions and extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/manage-policy-exceptions.md).
 
 ## Procedure
 
@@ -91,15 +92,15 @@ Value calculated after you select a residual likelihood and residual impact rati
 </td></tr></tbody>
 </table>5.  Perform one of the following actions.
 
-<table id="choicetable_qjq_2vw_x1b"><thead><tr><th align="left" id="d191369e239">
+<table id="choicetable_qjq_2vw_x1b"><thead><tr><th align="left" id="d192516e239">
 
 Option
 
-</th><th align="left" id="d191369e242">
+</th><th align="left" id="d192516e242">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d191369e248">
+</th></tr></thead><tbody><tr><td id="d192516e248">
 
 **To view or add impacted controls to the policy exception**
 
@@ -110,7 +111,7 @@ Action
 3.  Choose the controls to associate to the policy exception.
 
 
-</td></tr><tr><td id="d191369e275">
+</td></tr><tr><td id="d192516e275">
 
 **To view mitigating controls on the policy exception**
 
@@ -118,7 +119,7 @@ Action
 
 Click the Mitigating Controls tab.
 
-</td></tr><tr><td id="d191369e287">
+</td></tr><tr><td id="d192516e287">
 
 **To view or add risks to the policy exception**
 
@@ -128,7 +129,7 @@ Click the Risks tab.
 
  **Note:** This option is available when Governance, Risk, and Compliance is also activated.
 
-</td></tr><tr><td id="d191369e305">
+</td></tr><tr><td id="d192516e305">
 
 **To view or add approvers to the policy exception**
 
@@ -136,7 +137,7 @@ Click the Risks tab.
 
 Click the Approvers tab.
 
-</td></tr><tr><td id="d191369e321">
+</td></tr><tr><td id="d192516e321">
 
 **To view or add task service level agreements to the policy exception**
 
@@ -148,5 +149,5 @@ Click the Task SLAs tab.
 </table>6.  Click **Update**.
 
 
-**Parent Topic:**[Assess risks](../../grc-risk/concept/assess-risk-old-way.md)
+**Parent Topic:**[Assess risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/assess-risk-old-way.md)
 

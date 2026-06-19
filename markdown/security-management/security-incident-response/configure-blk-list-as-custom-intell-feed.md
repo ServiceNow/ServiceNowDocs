@@ -2,6 +2,7 @@
 title: Configure a block list as a Custom Intelligence Feed on the Check Point NGTP integration
 description: The firewall administrator must configure the Custom Intelligence Feed corresponding to the Block List created in NOW platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/configure-blk-list-as-custom-intell-feed.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -47,6 +48,6 @@ For more information on setting up Custom Intelligence Feed on Check Point Gatew
 
     “Status:Succeed” message would appear, confirming that the Feed is successfully added.
 
-    ![Custom Intelligence Feed status message](../image/custom-intell-feed-code.png)
+    \[Omitted image "custom-intell-feed-code.png"\] Alt text: Custom Intelligence Feed status message
 
 

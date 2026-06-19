@@ -2,6 +2,7 @@
 title: Detecting anomalies in MetricBase data using predictive models
 description: MetricBase creates a model by training a representative sample of your time series data to determine the model parameters. The training process determines the model parameters that best fit your data, to distinguish normal data from anomalous data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/metricbase/metricbase-predictive-models.html
 release: zurich
 product: MetricBase
 classification: metricbase

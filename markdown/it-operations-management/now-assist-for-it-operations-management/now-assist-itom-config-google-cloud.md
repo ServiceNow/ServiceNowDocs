@@ -2,14 +2,15 @@
 title: Configure the Google Gemini Cloud Assist agent
 description: Configure the Google Gemini Cloud Assist agent to use the Gemini Cloud Assistant observability skill in the manage alerts autonomously agentic workflow. Once configured, the skill gathers information to help you investigate alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-config-google-cloud.html
 release: zurich
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
 topic_type: task
 last_updated: "2025-12-04"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring agents and skills for Now Assist for ITOM, Configure, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Configure the manage alerts autonomously agentic workflow, Configure, Now Assist for ITOM, IT Operations Management]
 ---
 
 # Configure the Google Gemini Cloud Assist agent
@@ -20,10 +21,10 @@ Configure the Google Gemini Cloud Assist agent to use the Gemini Cloud Assistant
 
 Before configuring the Google Gemini Cloud Assist agent, you must do the following:
 
--   [Install Now Assist for IT Operations Management \(ITOM\)](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
--   [Integrate Google Cloud Platform \(GCP\) events with Event Management.](../../event-management/task/gcp-events-integration.md)
+-   Install Now Assist for IT Operations Management \(ITOM\).
+-   [Integrate Google Cloud Platform \(GCP\) events with Event Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/gcp-events-integration.md)
 -   Download the JSON private key file from your Google Cloud project and gather the following credentials: Google project ID, service account email, and private key ID.
--   Create a keystore file and password by following the steps in [Create a Java KeyStore certificate](https://www.servicenow.com/docs/access?context=setup-google-translator&version=zurich&pubname=zurich-integrate-applications&section=create-jks-google&ft:locale=en-US).
+-   Create a keystore file and password by following the steps in .
 -   Set up the following Google Cloud project settings and permissions. For detailed instructions, navigate to the Gemini for Google Cloud documentation and search for `Create a Cloud Assist investigation`.
     -   Enable the required APIs for your Google Cloud project.
     -   Assign the Investigation Creator role to the service account.
@@ -59,20 +60,7 @@ Role required: admin
 
 Activate the Google Gemini Cloud Assist agent to use it in the manage alerts autonomously agentic workflow. In AI Agent Studio, navigate to **Create and manage**, find the Google Gemini Cloud Assist agent, and turn on the agent in the Select channels and status screen.
 
-To learn more about using the Google Gemini Cloud Assist agent in the manage alerts autonomously agentic workflow, see [Manage alerts autonomously agentic workflow](../concept/itom-autonomous-operator-workflow.md).
+To learn more about using the Google Gemini Cloud Assist agent in the manage alerts autonomously agentic workflow, see [Manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/itom-autonomous-operator-workflow.md).
 
-**Parent Topic:**[Configuring agents and skills for Now Assist for ITOM](../concept/itom-ai-agent-configuration.md)
-
-**Related topics**  
-
-
-[Configure the Datadog analysis AI agent](now-assist-itom-config-datadog.md)
-
-[Configuring Dynatrace agents](now-assist-itom-dynatrace-configs.md)
-
-[Configure the Kentik analysis AI agent](now-assist-itom-config-kentik.md)
-
-[Configure the New Relic analysis AI agent](now-assist-itom-config-new-relic.md)
-
-[Configure the manage alerts autonomously agentic workflow](configure-manage-alerts-autonomously-workflow.md)
+**Parent Topic:**[Configure the manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/configure-manage-alerts-autonomously-workflow.md)
 

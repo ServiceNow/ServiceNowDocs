@@ -2,6 +2,7 @@
 title: Set up Multi-factor authentication for the first time
 description: If your administrator enabled MFA on your profile but you have not yet set up the application, you can set it up upon login.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/t\_SetUpMultiFactorAuthUponLogin.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -25,7 +26,7 @@ Role required: none
 
     The multi-factor authentication set up screen intercepts your login.
 
-    ![MFA screen](../images/new-mfa.png)
+    \[Omitted image "new-mfa.png"\] Alt text: MFA screen
 
     **Note:** If you want to skip the authentication set up now, click **Bypass Setup**. You can bypass multi-factor authentication for a limited number of times that your administrator allows. Eventually, you must configure multi-factor authentication.
 
@@ -35,19 +36,19 @@ Role required: none
 
         Follow the instructions on the screen to pair device and login.
 
-        ![MFA-TOTP first time](../images/mfa-totp.png)
+        \[Omitted image "mfa-totp.png"\] Alt text: MFA-TOTP first time
 
     2.  **Setup Biometric authentication, Passkey or Hardware Security key**
 
         Select either of the option to complete the setup.
 
-        ![MFA- Biometric or Hardware keys](../images/biometirc-mfa.png)
+        \[Omitted image "biometirc-mfa.png"\] Alt text: MFA- Biometric or Hardware keys
 
     3.  **Get a verification code sent to your email**
 
         Enter the verification code that is sent to your email.
 
-        ![MFA- Email login](../images/mfa-email-login.png)
+        \[Omitted image "mfa-email-login.png"\] Alt text: MFA- Email login
 
     After the successful completion of the either of the setup, you are logged in to the instance.
 

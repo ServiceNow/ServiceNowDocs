@@ -2,6 +2,7 @@
 title: Define the Virtual Agent link actions to notification content
 description: Create the link actions for Virtual Agent notification content to be delivered in a chat or messaging channel as actionable notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/define-va-notif-link-actions.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -125,7 +126,7 @@ Actions listed in an event parameter.Users and actions cannot both be passed int
 
 ## What to do next
 
-Enable Virtual Agent notifications. For more information, see [Enable Virtual Agent notifications](enable-va-notifications.md).
+Enable Virtual Agent notifications. For more information, see [Enable Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-va-notifications.md).
 
-**Parent Topic:**[Configuring Virtual Agent notifications](../concept/configuring-va-notifications.md)
+**Parent Topic:**[Configuring Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configuring-va-notifications.md)
 

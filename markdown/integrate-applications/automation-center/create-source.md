@@ -2,6 +2,7 @@
 title: Create automation source
 description: Associate a data source for the selected source type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/automation-center/create-source.html
 release: zurich
 product: Automation Center
 classification: automation-center
@@ -95,7 +96,7 @@ Description of the automation source.
 
 ## What to do next
 
-[Configure execution summary](create-exe-sum-config.md)
+[Configure execution summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/create-exe-sum-config.md)
 
-**Parent Topic:**[Configuring automation summary execution](../concept/config-auto-sum-exe.md)
+**Parent Topic:**[Configuring automation summary execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/config-auto-sum-exe.md)
 

@@ -2,6 +2,7 @@
 title: Security for Now Assist Skill Kit
 description: Enable security controls for Now Assist skills and custom skills through access control lists \(ACLs\) and role restrictions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-skill-kit/security-nask.html
 release: zurich
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -32,7 +33,7 @@ There are two possible options for ACLs created in Now Assist Skill Kit:
 -   **Any authenticated user**: Grants access to any user authenticated on the instance, regardless of role
 -   **Select roles**: Requires you to select the roles that grant access
 
-Each skill must have its own unique ACL. You can't create a skill or save changes to a skill without an ACL. To configure an ACL for a skill, see [Configure security controls for a skill](../task/nask-access-control.md).
+Each skill must have its own unique ACL. You can't create a skill or save changes to a skill without an ACL. To configure an ACL for a skill, see [Configure security controls for a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/nask-access-control.md).
 
 ## Role restrictions
 
@@ -42,5 +43,5 @@ For example, if a skill has and ACL of itil-admin and a role restriction of itil
 
 Role restrictions for skills enhances security by enabling users to limit their users during skill execution, verifying that skills run with least-access privileges.
 
-To configure role restrictions for a skill, see [Configure security controls for a skill](../task/nask-access-control.md).
+To configure role restrictions for a skill, see [Configure security controls for a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/nask-access-control.md).
 

@@ -2,6 +2,7 @@
 title: Hierarchical SOAP Message
 description: When the SOAP message is constructed from the hierarchical web service described by the WSDL and invoked, it will create the incident, u\_custom\_comments, and u\_comment\_items records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/r\_HierarchicalSOAPMessage.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -58,5 +59,5 @@ When the SOAP message is constructed from the hierarchical web service described
 </soapenv:Envelope>
 ```
 
-**Parent Topic:**[Insert related records using SOAP](../task/t_InsertRelatedRecordsUsingSOAP.md)
+**Parent Topic:**[Insert related records using SOAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/t_InsertRelatedRecordsUsingSOAP.md)
 

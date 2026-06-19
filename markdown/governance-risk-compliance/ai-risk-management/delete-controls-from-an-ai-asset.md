@@ -2,6 +2,7 @@
 title: Delete controls from an AI asset
 description: Delete controls from an AI asset to remove them permanently from the control table. This task confirms outdated or unnecessary controls are deleted.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/ai-risk-management/delete-controls-from-an-ai-asset.html
 release: zurich
 product: AI Risk Management
 classification: ai-risk-management
@@ -23,7 +24,7 @@ Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_admin
 
 1.  Navigate to **All** &gt; **AI Risk and Compliance Workspace**.
 
-2.  Select the list ![](../../grc-workspace-audit/image/ListsIcon.jpg) icon.
+2.  Select the list \[Omitted image "ListsIcon.jpg"\] Alt text: icon.
 
 3.  Navigate to the **AI asset inventory** and open the AI asset record.
 
@@ -38,5 +39,5 @@ Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_admin
     The control records are deleted completely.
 
 
-**Parent Topic:**[Manage controls using AI Risk and Compliance](../concept/manage-controls-in-airc.md)
+**Parent Topic:**[Manage controls using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/manage-controls-in-airc.md)
 

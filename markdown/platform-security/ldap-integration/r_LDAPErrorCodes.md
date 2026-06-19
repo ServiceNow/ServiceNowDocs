@@ -2,6 +2,7 @@
 title: LDAP error codes
 description: The LDAP Log file lists industry standard error codes for both LDAP and Active Directory \(AD\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/ldap-integration/r\_LDAPErrorCodes.html
 release: zurich
 product: LDAP integration
 classification: ldap-integration

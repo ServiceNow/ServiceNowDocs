@@ -2,6 +2,7 @@
 title: Exploring Coaching
 description: Review and assess the quality of your teams' completed interactions and tasks. Based on these assessments, you can assign course items for your teams. When they complete the training, the skills associated with it get added to their skills set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/coaching/cf-exploring-coaching.html
 release: zurich
 product: Coaching
 classification: coaching
@@ -100,9 +101,9 @@ Grants administrative rights to create, read, or update learning libraries based
 
 The image shows a high-level workflow on how coaching admins set up Coaching, and how managers and agents use Coaching.
 
-**Note:** You can use Predictive Intelligence when you use Coaching with [Workforce Optimization for ITSM](../../configurable-workforce-optimization-itsm/reference/workforce-optimization-itsm-landing-page.md).
+**Note:** You can use Predictive Intelligence when you use Coaching with [Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/workforce-optimization-itsm-landing-page.md).
 
-![Coaching workflow](../../coaching/image/coaching-workflow.png "Assessing and training agents with Coaching with Learning")
+\[Omitted image "coaching-workflow.png"\] Alt text: Coaching workflow
 
 1.  Coach admins set conditions in coaching opportunities that trigger an assessment. They can also define surveys used to assess agent performance.
 2.  The system generates the assessment along with the survey, if defined, and assigns it to the coach.
@@ -169,8 +170,8 @@ Coaching trainee
 
 To learn more about configuring and using Coaching, see:
 
--   [About Coaching](cf-coaching-overview.md)
--   [Setting up Coaching and surveys](cf-setting-up-coaching.md)
--   [Managing your coaching assessments](cf-getting-coached.md)
--   [Coaching reference](../reference/cf-coaching-reference.md)
+-   [About Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/coaching/cf-coaching-overview.md)
+-   [Setting up Coaching and surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/coaching/cf-setting-up-coaching.md)
+-   [Managing your coaching assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/coaching/cf-getting-coached.md)
+-   [Coaching reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/coaching/cf-coaching-reference.md)
 

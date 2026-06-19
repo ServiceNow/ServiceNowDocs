@@ -2,13 +2,14 @@
 title: Monetary benefit plan form
 description: The benefit plan form information is used to create monetary and non-monetary benefit plans for a demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/monetary-benefit-plan-form-dw.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
 last_updated: "2026-01-19"
 reading_time_minutes: 2
-breadcrumb: [Form field information, Reference, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Forms, Reference, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Monetary benefit plan form
@@ -137,7 +138,7 @@ Entered currency
 
 </td><td>
 
-Currency for the benefit plan. If the selected currency differs from the default currency configured in the Financial Management application, the budget reference rate is used to calculate the financial benefit of the demand. For more information, refer to [budget reference rate](../../project-management/concept/c_BudgetReferenceRates.md).
+Currency for the benefit plan. If the selected currency differs from the default currency configured in the Financial Management application, the budget reference rate is used to calculate the financial benefit of the demand. For more information, refer to [budget reference rate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md).
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: Configure the leader role to identify crew leaders
 description: Identify a crew leader if one isn’t specified by the dispatcher by adding skills to the leader role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/add-skill-leader-role.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -25,7 +26,7 @@ All crews must have a leader. Dispatchers can assign a leader to a crew or use t
 
 If the dispatcher doesn’t assign the leader to a crew or indicate a required leader skill in the resource requirements, the skills included in the leader role are used to determine the crew leader. The skills are matched with the skills of the available agents.
 
-For more information on adding resource requirements to a task, see [Add resource requirements for a work order task](add-resource-requirement-wot.md).
+For more information on adding resource requirements to a task, see [Add resource requirements for a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-manager-workforce/add-resource-requirement-wot.md).
 
 ## Procedure
 

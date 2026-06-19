@@ -2,6 +2,7 @@
 title: Analyze service health in Service Observability
 description: Use the Analyze Service Health skill to view an analysis of all Service Observability dashboards for the selected service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/now-assist-for-it-operations-management/analyze-service-health-in-service-observability.html
 release: zurich
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
@@ -22,11 +23,11 @@ The analyze service health skill uses generative AI to analyze all available Ser
 
 When you ask the skill to analyze a service's health, it generates an optimized version of the Service Observability charts for a service, whether or not they are currently displayed. It then analyzes the data, and taking the time period shown into account, detects reports any insights it finds, and analyzes general service health. With these insights on service health, operators can assess service impact, identify root causes, and streamline incident response.
 
-![Now Assist found insights on three dashboards.](../image/so_NAService.png)
+\[Omitted image "so\_NAService.png"\] Alt text: Now Assist found insights on three dashboards.
 
 The skill's results remain available for an hour and don't automatically refresh. You need to rerun the skill to view a new analysis.
 
-Once the skill is [activated](../task/activate-the-analyze-service-health-skill.md), it automatically runs for you in both alerts and incident investigation. For alerts, it's run as part of the alerts autonomous flow. Note that for performance reasons, the skill analyzes only the Overview dashboard as part of this flow. See [Manage alerts autonomously agentic workflow](itom-autonomous-operator-workflow.md) for more information. For incidents, it runs automatically from the **Investigate** tab in Incident Management. See [Digital End-User Experience and Service Observability UI experience on investigate tab](https://www.servicenow.com/docs/access?context=dex-so-metric-views-investigate-tab&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US) for more information.
+Once the skill is [activated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/activate-the-analyze-service-health-skill.md), it automatically runs for you in both alerts and incident investigation. For alerts, it's run as part of the alerts autonomous flow. Note that for performance reasons, the skill analyzes only the Overview dashboard as part of this flow. See [Manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/itom-autonomous-operator-workflow.md) for more information. For incidents, it runs automatically from the **Investigate** tab in Incident Management. See  for more information.
 
 Note the following:
 
@@ -36,7 +37,7 @@ Note the following:
 
 ## Before you begin
 
-You need to manually activate this skill before it can be used. See [Activate the analyze service health skill](../task/activate-the-analyze-service-health-skill.md) for more information.
+You need to manually activate this skill before it can be used. See [Activate the analyze service health skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/activate-the-analyze-service-health-skill.md) for more information.
 
 Role required: admin, operator
 
@@ -52,7 +53,7 @@ Role required: admin, operator
     -   **Express list** alert: Select a service from the **Impacted services** column.
     The Service Details page opens and the Overview tab is displayed.
 
-    If charts are displaying error messages, see [Chart error states](../../service-observability/reference/chart-error-states.md).
+    If charts are displaying error messages, see [Chart error states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/chart-error-states.md).
 
 2.  At the top-right of the record page, select **Analyze service**.
 
@@ -72,5 +73,5 @@ Role required: admin, operator
     **Note:** Select the **Copy** icon to copy the analysis, for example to paste it into work notes for an incident or alert.
 
 
-**Parent Topic:**[Use generative AI in Now Assist for ITOM](now-assist-itom-use.md)
+**Parent Topic:**[Use generative AI in Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.md)
 

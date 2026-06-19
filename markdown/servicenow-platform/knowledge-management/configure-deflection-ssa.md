@@ -2,6 +2,7 @@
 title: Set up the deflection configuration for Self-Service Analytics
 description: Associate a period of time with an activity context that defines how long a system will wait for a case to be created to match a deflection pattern.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/configure-deflection-ssa.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -17,7 +18,7 @@ Associate a period of time with an activity context that defines how long a syst
 
 ## Before you begin
 
-[Configure activity patterns for Self-Service Analytics](configure-activity-pattern.md).
+[Configure activity patterns for Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/configure-activity-pattern.md).
 
 Role required: sn\_ssa\_core.self\_service\_manager
 
@@ -54,7 +55,7 @@ Activity Context
 
 </td><td>
 
-Type of activities for which you want to collect data. For more information, see [Configure activity contexts for Self-Service Analytics](configure-activity-context.md).
+Type of activities for which you want to collect data. For more information, see [Configure activity contexts for Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/configure-activity-context.md).
 
 </td></tr><tr><td>
 
@@ -99,7 +100,7 @@ Activity context window \(duration\) for tracking activities that match a deflec
 
 ## What to do next
 
-[Configure scheduled jobs for Self-Service Analytics](configure-scheduled-job-ssa.md).
+[Configure scheduled jobs for Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/configure-scheduled-job-ssa.md).
 
-**Parent Topic:**[Configure Self-Service Analytics](config-ssa.md)
+**Parent Topic:**[Configure Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/config-ssa.md)
 

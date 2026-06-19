@@ -2,6 +2,7 @@
 title: Property settings for CMDB Query Builder
 description: Set property values to configure query processing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-querybldr-sysproprties.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -80,7 +81,7 @@ Batch size allocated globally when saved queries run.
 
  -   Type: integer
 -   Default value: 100
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   Location: Add to System Properties \[sys\_properties\] table.
 
 </td></tr><tr><td>
 
@@ -96,7 +97,7 @@ Default execution engine to use when running a saved query when the query's exec
     -   v2: Use an enhanced query execution engine which is designed for improved performance and scalability.
 -   Default value: v2
 -   Location: System Properties \[sys\_properties\] table.
--   Learn more: [Set execution mode for running a query](../task/config-query-builder-engine-mode.md)
+-   Learn more: [Set execution mode for running a query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/config-query-builder-engine-mode.md)
 
 </td></tr><tr><td>
 
@@ -112,7 +113,7 @@ Default execution engine to use, applying only to queries that contain at least 
     -   v2: Use an enhanced query execution engine which is designed for improved performance and scalability.
 -   Default value: v2
 -   Location: System Properties \[sys\_properties\] table.
--   Learn more: [Set execution mode for running a query](../task/config-query-builder-engine-mode.md)
+-   Learn more: [Set execution mode for running a query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/config-query-builder-engine-mode.md)
 
 </td></tr></tbody>
 </table>

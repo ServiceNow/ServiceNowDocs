@@ -2,6 +2,7 @@
 title: Invalidate Session After OAuth Token Expiration \[New in Security Center 2.0\]
 description: Configure the glide.authenticate.oauth.post.token.expiration.cookie\_auth.disabled property to the secure value to prevent users from continuing to use a session via cookies after the OAuth token used to create the session expires.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-invalidate-session-after-oauth-token-expiration.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -73,7 +74,7 @@ Category
 
 </td><td>
 
-[Session management](sc-session-management.md)
+[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-session-management.md)
 
 </td></tr><tr><td>
 
@@ -104,5 +105,5 @@ True: Cookie authentication is only honored until the OAuth access token expires
  False: Cookie authentication is honored even after the OAuth access token expires.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Session management](sc-session-management.md)
+</table>**Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-session-management.md)
 

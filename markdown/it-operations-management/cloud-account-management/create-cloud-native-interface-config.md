@@ -2,13 +2,14 @@
 title: Create a cloud native interface account configuration
 description: Configure cloud accounts using the native interface of supported cloud providers like AWS or Azure to enable seamless provisioning and integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/create-cloud-native-interface-config.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Creating configurations, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Creating configurations, Configuring Cloud Account Management, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Create a cloud native interface account configuration
@@ -27,7 +28,7 @@ Role required: sn\_itom\_cam.cw\_admin
 
 3.  On the **New Configuration** form, fill in the fields.
 
-    For a description of the field values, see [Cloud native interface configuration account fields](../reference/cloud-native-interface-details.md).
+    For a description of the field values, see [Cloud native interface configuration account fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/cloud-native-interface-details.md).
 
 4.  If you’re creating a GovCloud configuration, turn on the **This is a GovCloud config** option.
 
@@ -40,5 +41,5 @@ Role required: sn\_itom\_cam.cw\_admin
 
 ## What to do next
 
-[Review default Cloud Account Management certification policy](policy-setup.md)
+[Review default Cloud Account Management certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/policy-setup.md)
 

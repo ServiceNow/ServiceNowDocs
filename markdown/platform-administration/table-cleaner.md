@@ -2,6 +2,7 @@
 title: Table cleaner
 description: Prevent tables from growing to an unmanageable size by deleting records automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-cleaner.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
@@ -33,5 +34,5 @@ You can define and access table cleanup rules for a table by navigating to **All
     -   Ci Analytics \[sys\_ci\_analytics\]
 -   Conversation-related tables can increase in size and end up affecting system performance. Limit data growth by cleaning records in tables related to Advanced Work Assignment. See .
 
-For information on using table cleaner, see [Deleting older or unwanted records](deleting-older-records.md).
+For information on using table cleaner, see [Deleting older or unwanted records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/deleting-older-records.md).
 

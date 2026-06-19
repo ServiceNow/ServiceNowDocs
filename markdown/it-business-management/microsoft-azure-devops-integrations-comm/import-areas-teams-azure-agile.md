@@ -2,6 +2,7 @@
 title: Import areas, teams, and iterations from Azure DevOps
 description: Import areas, teams, and iterations of your Azure DevOps projects. These details are used to import sprint data and associate your Azure DevOps projects with assignment groups in Agile Development 2.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/microsoft-azure-devops-integrations-comm/import-areas-teams-azure-agile.html
 release: zurich
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
@@ -17,7 +18,7 @@ Import areas, teams, and iterations of your Azure DevOps projects. These details
 
 ## Before you begin
 
--   [Discover and import Azure DevOps projects](discover-import-azure-projects.md).
+-   [Discover and import Azure DevOps projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/microsoft-azure-devops-integrations-comm/discover-import-azure-projects.md).
 -   Role required: sn\_ado\_int.user
 
 ## Procedure
@@ -37,9 +38,9 @@ Import areas, teams, and iterations of your Azure DevOps projects. These details
 
 ## What to do next
 
-[Setting up import and export between Azure DevOps and Agile Development 2.0](set-up-import-export-azure-agile.md#)
+[Setting up import and export between Azure DevOps and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/microsoft-azure-devops-integrations-comm/set-up-import-export-azure-agile.md)
 
 .
 
-**Parent Topic:**[Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0](../concept/setting-up-agile-azure-integration.md)
+**Parent Topic:**[Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/microsoft-azure-devops-integrations-comm/setting-up-agile-azure-integration.md)
 

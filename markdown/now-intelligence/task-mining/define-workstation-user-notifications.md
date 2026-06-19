@@ -2,6 +2,7 @@
 title: Customize Task Mining notifications for workstation users
 description: Use Task Mining notifications to notify workstation users that their work is being monitored, request consent, and inform them if they have any actions to take.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/task-mining/define-workstation-user-notifications.html
 release: zurich
 product: Task Mining
 classification: task-mining
@@ -29,7 +30,7 @@ Role required: sn\_tm\_core.power\_user, sn\_tm\_core.admin
 
 1.  Navigate to **Workspaces** &gt; **Task Mining Workspace**.
 
-2.  Select the Configuration icon ![](../image/task-mining-configuration-icon.png).
+2.  Select the Configuration icon \[Omitted image "task-mining-configuration-icon.png"\].
 
 3.  Under **Configuration**, select **Notifications**.
 

@@ -2,6 +2,7 @@
 title: Create an API authentication policy
 description: Authentication policies allow you to enforce access restrictions on the APIs based on the specified filter criteria.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/create-api-authentication-policy.html
 release: zurich
 product: Authentication
 classification: authentication
@@ -37,9 +38,9 @@ Role required: admin
 
 5.  From the Policy Inputs tab, select **Edit** to add the existing Filter Criteria.
 
-    You can also create a new Policy Input. For more information, see [Create policy inputs](https://www.servicenow.com/docs/access?context=create-policy-input&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+    You can also create a new Policy Input. For more information, see Create policy inputs.
 
-6.  Move one or more filter criteria from the Collections list to the Policy Inputs List.![Adding one or more filter criteria to an authentication policy.](../images/authentication-filter-criteria.png)
+6.  Move one or more filter criteria from the Collections list to the Policy Inputs List.\[Omitted image "authentication-filter-criteria.png"\] Alt text: Adding one or more filter criteria to an authentication policy.
 
 7.  Select **Save**.
 
@@ -54,7 +55,7 @@ Role required: admin
     |Application|Scope of the application.|
     |Condition|One or more conditions that are combined with **OR** filter.|
 
-    ![Example policy condition with multiple criteria.](../images/policy-conditions-authentication.png)
+    \[Omitted image "policy-conditions-authentication.png"\] Alt text: Example policy condition with multiple criteria.
 
 10. Select **Submit**.
 

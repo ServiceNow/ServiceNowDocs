@@ -2,6 +2,7 @@
 title: Components installed Fallout Management
 description: Several types of components are installed with activation of the Fallout Management plugin, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/components-installed-fallout-management.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -115,5 +116,5 @@ Fallout type
 Defines categories of fallout to classify order processing or fulfillment exceptions.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Order Management reference](order-mgt-reference.md)
+</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-mgt-reference.md)
 

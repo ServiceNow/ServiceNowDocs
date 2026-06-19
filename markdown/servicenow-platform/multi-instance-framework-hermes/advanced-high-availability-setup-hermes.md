@@ -2,6 +2,7 @@
 title: Advanced High Availability transfer with Hermes
 description: Learn how messages are produced and consumed in Hermes during normal operation, Advanced High Availability \(AHA\) transfer, and failover scenarios.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/multi-instance-framework-hermes/advanced-high-availability-setup-hermes.html
 release: zurich
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -28,7 +29,7 @@ With the activation of StreamConnect, LES, or IDR, a new Hermes Kafka cluster is
     The cluster running in the other data center is the far cluster. The opposite is true for the other instance. Its near cluster is in its data center, and its far cluster is running in the other data center.
 
 
-![Near and far Hermes Kafka clusters are relative to the instance.](../images/hermes-near-far.png "Near and far Hermes Kafka clusters")
+\[Omitted image "hermes-near-far.png"\] Alt text: Near and far Hermes Kafka clusters are relative to the instance.
 
 ## Normal operation
 

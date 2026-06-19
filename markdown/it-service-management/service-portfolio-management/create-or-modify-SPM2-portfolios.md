@@ -2,6 +2,7 @@
 title: Create portfolios in Service Portfolio Management
 description: You can create a single service portfolio or multiple service portfolios, each with its own taxonomy structure. The service portfolio enables you to see an overall view of your current IT services. You can also see services that may be available in the future and services that existed in the past.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-portfolio-management/create-or-modify-SPM2-portfolios.html
 release: zurich
 product: Service Portfolio Management
 classification: service-portfolio-management
@@ -23,7 +24,7 @@ Role required: portfolio\_admin
 
 Create a service portfolio before you define taxonomy nodes. After you create the service portfolio, you can edit it within the platform and monitor its performance in Digital Portfolio Management \(DPM\).
 
-**Important:** Existing customers can opt in to the improved portfolio structure by navigating to **Service Portfolio Management** &gt; **Administration** &gt; **Configuration** &gt; **New Portfolio Opt-In**. The improved structure uses nodes and doesn't use layers and weighted scores from the Service Owner Workspace. After customers opt in for the improved portfolio structure, there isn’t an option to revert to the former structure. For more information, see [Service Portfolio Management portfolios](../concept/SPM2-service-portfolios.md). New customers have the improved portfolio structure by default.
+**Important:** Existing customers can opt in to the improved portfolio structure by navigating to **Service Portfolio Management** &gt; **Administration** &gt; **Configuration** &gt; **New Portfolio Opt-In**. The improved structure uses nodes and doesn't use layers and weighted scores from the Service Owner Workspace. After customers opt in for the improved portfolio structure, there isn’t an option to revert to the former structure. For more information, see [Service Portfolio Management portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/SPM2-service-portfolios.md). New customers have the improved portfolio structure by default.
 
 **Note:** The following procedure reflects the **SPM Advanced** user view.
 
@@ -166,11 +167,11 @@ When active, each time an offering is created as part of this portfolio, the per
 
 4.  Select the newly created service portfolio name in the list.
 
-    The Taxonomy Nodes, Portfolio Metrics, and Taxonomy Node Weights related lists appear on the Service Portfolio form. See [Service Portfolio Management taxonomy](../concept/SPM2-taxonomy.md) for detailed information regarding creating and adding taxonomy nodes within your service portfolio structure.
+    The Taxonomy Nodes, Portfolio Metrics, and Taxonomy Node Weights related lists appear on the Service Portfolio form. See [Service Portfolio Management taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/SPM2-taxonomy.md) for detailed information regarding creating and adding taxonomy nodes within your service portfolio structure.
 
 
--   **[Service Portfolio Management taxonomy](../concept/SPM2-taxonomy.md)**  
+-   **[Service Portfolio Management taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/SPM2-taxonomy.md)**  
 Service Portfolio Management uses a taxonomy framework to organize and manage services in a portfolio.
 
-**Parent Topic:**[Using Service Portfolio Management](../concept/SPM2-using.md)
+**Parent Topic:**[Using Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/SPM2-using.md)
 

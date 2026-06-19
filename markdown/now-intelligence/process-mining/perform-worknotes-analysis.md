@@ -2,6 +2,7 @@
 title: Perform work notes analysis
 description: Generate a work notes analysis on a transition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/perform-worknotes-analysis.html
 release: zurich
 product: Process Mining
 classification: process-mining
@@ -31,7 +32,7 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
     A window is displayed with all the details.
 
-    ![Work notes analysis](../image/worknote-investigate.png)
+    \[Omitted image "worknote-investigate.png"\] Alt text: Work notes analysis
 
 4.  From the **Investigate** section, select **Worknotes analysis**.
 
@@ -41,10 +42,10 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
     The result is displayed.
 
-    ![Work notes analysis result](../image/worknotes-result.png)
+    \[Omitted image "worknotes-result.png"\] Alt text: Work notes analysis result
 
-    Select ![View details icon](../image/worknotes-icon.png) to view all items with the same reasons.
+    Select \[Omitted image "worknotes-icon.png"\] Alt text: View details icon to view all items with the same reasons.
 
 
-**Parent Topic:**[Work notes analysis](../concept/worknotes-analysis.md)
+**Parent Topic:**[Work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/worknotes-analysis.md)
 

@@ -2,6 +2,7 @@
 title: Generate labor costs for epics
 description: View the labor cost expenses based on the resource assignments for your epics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/gen-labor-costs-epics.html
 release: zurich
 product: Agile Development
 classification: agile-development
@@ -31,5 +32,5 @@ View the labor cost expenses based on the resource assignments for your epics.
     Refresh the page to view generated labor costs in the Cost Plan related list.
 
 
-**Parent Topic:**[Create an epic in Agile Development 2.0](create-an-epic.md)
+**Parent Topic:**[Create an epic in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/create-an-epic.md)
 

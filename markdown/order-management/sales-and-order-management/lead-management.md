@@ -2,6 +2,7 @@
 title: Lead Management
 description: The Lead Management application enables your sales agents and sales development representatives to create leads and nurture them into opportunities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/lead-management.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -27,9 +28,9 @@ The processes include:
 
 As sales agents move through the lead workflow and recognize interest from customers in buying products, it becomes essential to qualify or convert the lead. This process includes linking the lead to specific accounts and establishing lead qualification, which ultimately generates product orders.
 
-![Lead Management workflow that shows the lead entry to lead conversion.](../image/lead-management-som.svg "Lead workflow in Sales Customer Relationship Management")
+\[Omitted image "lead-management-som.svg"\] Alt text: Lead Management workflow that shows the lead entry to lead conversion.
 
 ## What to do next
 
-To learn about setting up Lead Management, see [Install and configure Lead Management](configure-lead-management.md).
+To learn about setting up Lead Management, see [Install and configure Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/configure-lead-management.md).
 

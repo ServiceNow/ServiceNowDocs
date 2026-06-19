@@ -2,6 +2,7 @@
 title: Add the portable Virtual Agent chat widget to a third-party website
 description: To use the portable chat widget for Virtual Agent on third-party web pages, add the necessary code to your web page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/add-portable-va-client-website.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -18,7 +19,7 @@ To use the portable chat widget for Virtual Agent on third-party web pages, add 
 
 ## Before you begin
 
-[Configure the portable Virtual Agent chat widget](configure-portable-va-web-client.md) prior to completing this topic's steps.
+[Configure the portable Virtual Agent chat widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-portable-va-web-client.md) prior to completing this topic's steps.
 
 For additional information, review the [How to embed Virtual Agent in an external site](https://www.servicenow.com/community/virtual-agent-nlu-articles/how-to-embed-virtual-agent-in-an-external-site-updated-for-tokyo/ta-p/2308092) article on the ServiceNow Community site.
 
@@ -91,5 +92,5 @@ Role required: virtual\_agent\_admin or admin
         ```
 
 
-**Parent Topic:**[Use the portable chat widget to add Virtual Agent to your web page](../concept/use-portable-va-web-client.md)
+**Parent Topic:**[Use the portable chat widget to add Virtual Agent to your web page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/use-portable-va-web-client.md)
 

@@ -2,6 +2,7 @@
 title: Workplace Reservation Management
 description: The ServiceNow Workplace Reservation Management application makes it easier for employees to reserve meeting rooms, conference rooms, desks, and add workplace services to a reservation from the Employee Center portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-reservation-management/workplace-rsv-mgmt-feat.html
 release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -20,27 +21,27 @@ The ServiceNow® Workplace Reservation Management application makes it easier fo
 
 <table class="nav-card"><tbody><tr><td>
 
-[Explore ![Explore](../../../common/image/icon-explore.png) Learn about Workplace Reservation Management concepts and features.](wsd-reservation-mgmt-ovw.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore Learn about Workplace Reservation Management concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/wsd-reservation-mgmt-ovw.md)
 
 </td><td>
 
-[Configure ![Configure.](../../../common/image/icon-configure.png) Configure the application and setup the reservable modules and related settings for employees to make a reservation.](wsd-reservation-setup.md)
+[Configure \[Omitted image "icon-configure.png"\] Alt text: Configure. Configure the application and setup the reservable modules and related settings for employees to make a reservation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
 
 </td><td>
 
-[Request ![Request](../../workplace-service-delivery/images/icon-request.png) Make a single, recurring, or a group reservation. Invite colleagues and visitors.](reserve-workplace-items.md)
+[Request \[Omitted image "icon-request.png"\] Alt text: Request Make a single, recurring, or a group reservation. Invite colleagues and visitors.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
 
 </td></tr><tr><td>
 
-[Manage ![Manage](../../../common/image/icon-managing.png) Manage workplace reservations and approvals.](manage-reservation-requests.md)
+[Manage \[Omitted image "icon-managing.png"\] Alt text: Manage Manage workplace reservations and approvals.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/manage-reservation-requests.md)
 
 </td><td>
 
-[Analytics and Reporting Solutions ![Analytics and Reporting Solutions](../../human-resources/image/icon-report.png) Coordinate work and improve processes with dashboards and reports.](analytics-reporting-for-rsv-mgmt.md)
+[Analytics and Reporting Solutions \[Omitted image "icon-report.png"\] Alt text: Analytics and Reporting Solutions Coordinate work and improve processes with dashboards and reports.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/analytics-reporting-for-rsv-mgmt.md)
 
 </td><td>
 
-[Reference ![Reference](../../../common/image/icon-reference.png) Get details about components like fields, tables, and properties.](rsv-mgmt-references.md)
+[Reference \[Omitted image "icon-reference.png"\] Alt text: Reference Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/rsv-mgmt-references.md)
 
 </td></tr></tbody>
 </table>

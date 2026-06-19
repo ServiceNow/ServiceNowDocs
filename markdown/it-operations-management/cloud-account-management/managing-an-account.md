@@ -2,6 +2,7 @@
 title: Managing cloud accounts
 description: Managing a cloud account enables you to accomplish a range of tasks such as canceling, suspending, or reactivating cloud accounts, and adding unmanaged accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/managing-an-account.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
@@ -25,7 +26,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Cancel a Cloud account request](../task/cancel-cam-account.md)
+[Cancel a Cloud account request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/cancel-cam-account.md)
 
 </td><td>
 
@@ -33,7 +34,7 @@ Requesters can cancel their own account requests.
 
 </td></tr><tr><td>
 
-[Suspend a Cloud account](suspend-account.md)
+[Suspend a Cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/suspend-account.md)
 
 </td><td>
 
@@ -41,7 +42,7 @@ Suspended accounts can still be used along with its resources, but new resources
 
 </td></tr><tr><td>
 
-[Reactivate a cloud account](../task/reactivate-account.md)
+[Reactivate a cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/reactivate-account.md)
 
 </td><td>
 
@@ -49,7 +50,7 @@ Suspended accounts can be reactivated.
 
 </td></tr><tr><td>
 
-[Add an unmanaged cloud account](add-unmanaged-account-cam.md)
+[Add an unmanaged cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/add-unmanaged-account-cam.md)
 
 </td><td>
 

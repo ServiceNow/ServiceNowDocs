@@ -2,6 +2,7 @@
 title: Search signal tables
 description: Search uses tables to store details from user searches, search refinements, and interactions with search results. These details are called search signals. Data from the search signal tables helps improve the relevancy of search results in your system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/search-administration/search-signal-tables.html
 release: zurich
 product: Search Administration
 classification: search-administration
@@ -15,9 +16,9 @@ breadcrumb: [Search signals, Search administration, Configure core features, Adm
 
 Search uses tables to store details from user searches, search refinements, and interactions with search results. These details are called search signals. Data from the search signal tables helps improve the relevancy of search results in your system.
 
-Search signals refer to user, query, and similar data stored in columns on search suggestion tables. For a guide to search suggestion tables and their columns, see [Search Suggestions tables](understanding-search-suggestion-tables.md).
+Search signals refer to user, query, and similar data stored in columns on search suggestion tables. For a guide to search suggestion tables and their columns, see [Search Suggestions tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/search-suggestions/understanding-search-suggestion-tables.md).
 
-**Note:** Because the search signal tables are system tables, they are excluded from the Reporting module by default. To learn about enabling reporting on system tables, see [Reporting on system tables](https://www.servicenow.com/docs/access?context=c_ReportOnSystemTables&version=zurich&pubname=zurich-now-intelligence&ft:locale=en-US).
+**Note:** Because the search signal tables are system tables, they are excluded from the Reporting module by default. To learn about enabling reporting on system tables, see Reporting on system tables.
 
 ## Search Signal Event table
 
@@ -112,7 +113,7 @@ The Search Signal Result Event \[sys\_search\_signal\_result\_event\] table stor
 |Search Signal Event|Reference to the record for the search on the Search Signal Event \[sys\_search\_signal\_event\] table.|
 |Number|Record number for the selected search result.|
 |Domain|Domain to which the selected search result belongs.|
-|Use for Suggestions|Option indicating whether AI Search uses this result selection when computing auto-complete suggestions. For more details, see [Auto-complete suggestions in AI Search applications](../../ai-search/concept/auto-complete-ais.md#)|
+|Use for Suggestions|Option indicating whether AI Search uses this result selection when computing auto-complete suggestions. For more details, see [Auto-complete suggestions in AI Search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/auto-complete-ais.md)|
 |Source URL|URL for the selected search result.|
 |Action Data|JSON array of objects representing the search result selection action.|
 

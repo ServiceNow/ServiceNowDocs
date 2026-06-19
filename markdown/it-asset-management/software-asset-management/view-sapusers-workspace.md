@@ -2,6 +2,7 @@
 title: View SAP users in workspace
 description: View all the discovered users pulled from the SAP systems in the Software Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/view-sapusers-workspace.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -34,5 +35,5 @@ Role required: sam\_admin or sam\_user
     -   SAP User Activity \[samp\_sap\_user\_activity\]: Data related to a user’s activity on a SAP client, such as the amount of time spent on a SAP system or the number of database records created or updated.
     -   SAP Web Activity \[samp\_sap\_web\_activity\]: Data related to web activity or RFC connections performed on the SAP client, such as the number of calls or amount of data received or sent by each connection.
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/using-sam-workspace.md)
 

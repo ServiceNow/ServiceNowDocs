@@ -2,6 +2,7 @@
 title: Get Attachments on Record action
 description: Access the list and count of the attachments associated with the provided source record as data pills in a flow. Use flow logic or scripting to process each attachment in the list of the attachments that the action returns.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/get-attachments-rec.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
@@ -55,13 +56,13 @@ These outputs appear in the Data panel. You can use them as inputs elsewhere in 
 
 ## Get attachments from an incident record
 
-![Flow with a create record trigger that runs the Get attachments on record action](../images/get-attachments-on-record.png "Inputs used for Get attachments on record")
+\[Omitted image "get-attachments-on-record.png"\] Alt text: Flow with a create record trigger that runs the Get attachments on record action
 
 This example illustrates getting all attachments from an incident record. Leaving the File name input empty returns all attachment records.
 
-![Execution details of getting attachments from an incident record](../images/get-attachments-on-record-execution-details.png "Execution details for get attachment on record")
+\[Omitted image "get-attachments-on-record-execution-details.png"\] Alt text: Execution details of getting attachments from an incident record
 
 In this example, the incident record contained two attachments.
 
-**Parent Topic:**[Workflow Studio actions](../concept/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-actions.md)
 

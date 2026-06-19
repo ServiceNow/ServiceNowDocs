@@ -2,6 +2,7 @@
 title: GlideQueryCondition - Scoped
 description: The scoped GlideQueryCondition API provides additional AND or OR conditions that can be added to the current condition, allowing you to build complex queries.Adds an AND condition to the current condition.Appends a two-or-three parameter OR condition to an existing GlideQueryCondition.Adds an AND condition to the current condition. Use this method to bypass query access.Appends a two-or-three parameter OR condition to an existing GlideQueryCondition. Use this method to bypass query access.Adds an AND condition to the current condition. Use this method to enforce query access based on the user.Appends a two-or-three parameter OR condition to an existing GlideQueryCondition. Use this method to enforce query access based on the user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_GlideQueryConditionScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -36,9 +37,9 @@ If there is a complicated set of `AND` and `OR` queries, a single encoded query 
 
 Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
 
-You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see .
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## GlideQueryCondition - addCondition\(String name, String oper, Object value\)
 
@@ -68,7 +69,7 @@ gs.info(now_GR.getEncodedQuery());
 
 Appends a two-or-three parameter OR condition to an existing GlideQueryCondition.
 
-addOrCondition\(\) works in conjunction with any of the [addQuery\(\)](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#) methods to `OR` the specified query parameters to the query previously constructed using addQuery\(\).
+addOrCondition\(\) works in conjunction with any of the [addQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) methods to `OR` the specified query parameters to the query previously constructed using addQuery\(\).
 
 addOrCondition\(\) is typically called with three parameters; table field, operator, and comparison value. It can be called with only two parameters, table field and comparison value, such as `qc.addOrCondition('category', 'software');`. The operator in this case is assumed to be "equal to".
 
@@ -168,15 +169,15 @@ myObj.query();
 
 Adds an AND condition to the current condition. Use this method to bypass query access.
 
-Use this method when system-level access is intended, so that query ACL enforcement is explicitly bypassed for the user. Use[addUserCondition\(\)](c_GlideQueryConditionScopedAPI.md#) to enforce query access.
+Use this method when system-level access is intended, so that query ACL enforcement is explicitly bypassed for the user. Use[addUserCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md) to enforce query access.
 
 Additional methods for system-level access that bypass query ACL checks:
 
--   [addSystemOrCondition\(\)](c_GlideQueryConditionScopedAPI.md#)
--   [GlideRecord - addSystemEncodedQuery\(\)](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)
--   [GlideRecord - addSystemOrderBy\(\)](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)
--   [GlideRecord - addSystemOrderByDesc\(\)](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)
--   [GlideRecord - addSystemQuery\(\)](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)
+-   [addSystemOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [GlideRecord - addSystemEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideRecord - addSystemOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideRecord - addSystemOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideRecord - addSystemQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
 
 <table id="table_vy2_525_jq" class="parameters"><thead><tr><th>
 
@@ -295,17 +296,17 @@ Incident: INC0013306 State: 1 Priority: 4
 
 Appends a two-or-three parameter OR condition to an existing GlideQueryCondition. Use this method to bypass query access.
 
-Use this method when system-level access is intended, so that query ACL enforcement is explicitly bypassed for the user. Use[addUserOrCondition](c_GlideQueryConditionScopedAPI.md#) to enforce query access.
+Use this method when system-level access is intended, so that query ACL enforcement is explicitly bypassed for the user. Use[addUserOrCondition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md) to enforce query access.
 
 Additional methods for system-level access that bypass query ACL checks:
 
--   [addSystemCondition\(\)](c_GlideQueryConditionScopedAPI.md#)
--   [GlideRecord - addSystemEncodedQuery\(\)](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)
--   [GlideRecord - addSystemOrderBy\(\)](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)
--   [GlideRecord - addSystemOrderByDesc\(\)](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)
--   [GlideRecord - addSystemQuery\(\)](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)
+-   [addSystemCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [GlideRecord - addSystemEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideRecord - addSystemOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideRecord - addSystemOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideRecord - addSystemQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
 
-The addSystemOrCondition\(\) method works with the [GlideRecord addSystemQuery\(\)](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#) method to `OR` the specified query parameters to the query previously constructed using addSystemQuery\(\).
+The addSystemOrCondition\(\) method works with the [GlideRecord addSystemQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) method to `OR` the specified query parameters to the query previously constructed using addSystemQuery\(\).
 
 <table id="table_vy2_625_jq" class="parameters"><thead><tr><th>
 
@@ -428,16 +429,16 @@ This method returns only records that the current user has query access to \(bas
 
 Related methods:
 
--   [addCondition\(\)](c_GlideQueryConditionScopedAPI.md#) provides the same functionality without ACL enforcement.
--   [addSystemCondition\(\)](c_GlideQueryConditionScopedAPI.md#) bypasses query access checks.
+-   [addCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md) provides the same functionality without ACL enforcement.
+-   [addSystemCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md) bypasses query access checks.
 
 Additional methods for enforcing query ACL checks:
 
--   [addUserOrCondition\(\)](c_GlideQueryConditionScopedAPI.md#)
--   [GlideRecord - addUserEncodedQuery\(\)](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)
--   [GlideRecord - addUserOrderBy\(\)](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)
--   [GlideRecord - addUserOrderByDesc\(\)](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)
--   [GlideRecord - addUserQuery\(\)](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)
+-   [addUserOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [GlideRecord - addUserEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideRecord - addUserOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideRecord - addUserOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideRecord - addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
 
 <table id="table_vy2_525_jq" class="parameters"><thead><tr><th>
 
@@ -558,20 +559,20 @@ Appends a two-or-three parameter OR condition to an existing GlideQueryCondition
 
 This method returns only records that the current user has query access to \(based on ACLs\).
 
-The addUserOrCondition\(\) method works with the [GlideRecord addUserQuery\(\)](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#) method to `OR` the specified query parameters to the query previously constructed using addUserQuery\(\).
+The addUserOrCondition\(\) method works with the [GlideRecord addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) method to `OR` the specified query parameters to the query previously constructed using addUserQuery\(\).
 
 Related methods:
 
--   [addOrCondition\(\)](c_GlideQueryConditionScopedAPI.md#) provides the same functionality without ACL enforcement.
--   [addSystemOrCondition\(\)](c_GlideQueryConditionScopedAPI.md#) bypasses query access checks.
+-   [addOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md) provides the same functionality without ACL enforcement.
+-   [addSystemOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md) bypasses query access checks.
 
 Additional methods for enforcing query ACL checks:
 
--   [addUserCondition\(\)](c_GlideQueryConditionScopedAPI.md#)
--   [GlideRecord - addUserEncodedQuery\(\)](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)
--   [GlideRecord - addUserOrderBy\(\)](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)
--   [GlideRecord - addUserOrderByDesc\(\)](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)
--   [GlideRecord - addUserQuery\(\)](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)
+-   [addUserCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [GlideRecord - addUserEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideRecord - addUserOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideRecord - addUserOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideRecord - addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
 
 <table id="table_vy2_625_jq" class="parameters"><thead><tr><th>
 

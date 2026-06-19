@@ -2,6 +2,7 @@
 title: Cloud Configuration Governance actions reference
 description: Cloud Configuration Governance \(CCG\) uses Integration Hub subflows to interact with the cloud and update the configuration data in the Configuration Management Database \(CMDB\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-cloud-accelerate/ccg-ih-reference.html
 release: zurich
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -114,5 +115,5 @@ To use this action, insert an action and then navigate to **Action** &gt; **Clou
 |Details|Details of the object that you want to store in the resource record.|
 |Attributes|Any additional resource attribute that you want to import to the CMDB.|
 
-**Parent Topic:**[Cloud Configuration Governance reference](ccg-reference.md)
+**Parent Topic:**[Cloud Configuration Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/ccg-reference.md)
 

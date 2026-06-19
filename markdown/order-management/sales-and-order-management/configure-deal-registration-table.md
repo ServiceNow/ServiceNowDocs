@@ -2,11 +2,12 @@
 title: Configure Deal Registration table
 description: Configure the deal registration \(sn\_prm\_dr\_deal\_registration\) table to track a deal registration's life cycle through states and workflow stages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configure-deal-registration-table.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Data model for Deal Registration Management, Deal Registration, Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -31,13 +32,13 @@ The deal registration table stores the details of a deal submitted by a partner,
 
 3.  On the form, fill in the fields.
 
-    To learn more about the fields on the form, see [Deal registration table fields](../reference/deal-registration-table-fields.md).
+    To learn more about the fields on the form, see [Deal registration table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/deal-registration-table-fields.md).
 
 4.  Select **Submit**.
 
 
--   **[Configure Deal Registration Line table](configure-deal-registration-line-table.md)**  
+-   **[Configure Deal Registration Line table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/configure-deal-registration-line-table.md)**  
 Configure the Deal registration line \(sn\_prm\_dr\_deal\_registration\_line\) table to manage product level details for a single deal registration.
 
-**Parent Topic:**[Data model for Deal Registration Management](../concept/data-model-for-deal-registration-management.md)
+**Parent Topic:**[Data model for Deal Registration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/data-model-for-deal-registration-management.md)
 

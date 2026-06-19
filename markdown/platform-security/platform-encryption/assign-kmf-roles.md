@@ -2,6 +2,7 @@
 title: Assign Key Management Framework roles
 description: Administrators with the security\_admin role can assign Key Management Framework \(KMF\) admins, who in turn can assign other Key Management Framework roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/platform-encryption/assign-kmf-roles.html
 release: zurich
 product: Platform Encryption
 classification: platform-encryption
@@ -19,7 +20,7 @@ Administrators with the security\_admin role can assign Key Management Framework
 
 Role required: admin and security\_admin
 
-You must elevate to the security\_admin role before assigning the KMF admin role. For instructions, see [Elevate to a privileged role](../../security/task/t_ElevateToAPrivilegedRole.md).
+You must elevate to the security\_admin role before assigning the KMF admin role. For instructions, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/t_ElevateToAPrivilegedRole.md).
 
 **Important:** KMF roles are required to use the Key Management Framework. Users without KMF roles aren’t be able to access lists, tables, and modules used to configure key management.
 
@@ -35,7 +36,7 @@ You must elevate to the security\_admin role before assigning the KMF admin role
 
 5.  Select the user that you want to be KMF admin in the **Available Users** column and move them to the **Selected User\(s\)** column.
 
-    ![User selection list](../image/kmf-admin-select-user.png)
+    \[Omitted image "kmf-admin-select-user.png"\] Alt text: User selection list
 
 6.  Select **Save**.
 
@@ -43,7 +44,7 @@ You must elevate to the security\_admin role before assigning the KMF admin role
 
     That user now has the sn\_kmf.admin role in the Roles related list. That user can now assign other KMF roles.
 
-    ![KMF admin role in the roles related list](../image/sn-kmf-admin-role.png)
+    \[Omitted image "sn-kmf-admin-role.png"\] Alt text: KMF admin role in the roles related list
 
 
 ## What to do next
@@ -53,12 +54,12 @@ If you have the KMF admin role, follow these steps for assigning other KMF roles
 1.  Navigate to **User Administration** &gt; **Users** and select the user you want to have another KMF role, such as KMF Cryptographic Manager.
 2.  In the Roles related list, click **Edit** and select the KMF roles you want to assign the users. All KMF roles start with `sn_kmf`.
 
-    ![Assigning other KMF roles](../image/kmf-roles-assignments.png)
+    \[Omitted image "kmf-roles-assignments.png"\] Alt text: Assigning other KMF roles
 
 
 ## What to do next
 
-To learn more about the available KMF roles, see [Roles installed with Key Management Framework](../../key-management-framework/reference/kmf-roles.md#).
+To learn more about the available KMF roles, see [Roles installed with Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/kmf-roles.md).
 
-**Parent Topic:**[Configuring the Key Management Framework](../concept/configure-kmf.md)
+**Parent Topic:**[Configuring the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/configure-kmf.md)
 

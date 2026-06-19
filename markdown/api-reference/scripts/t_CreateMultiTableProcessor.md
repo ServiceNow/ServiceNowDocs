@@ -2,6 +2,7 @@
 title: Create a multi-table processor
 description: Create a multi-table processor that reports the number of rows in any table on your instance. This feature is deprecated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/t\_CreateMultiTableProcessor.html
 release: zurich
 product: Scripts
 classification: scripts
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-**Note:** This feature is deprecated. While legacy, existing custom processors continue to be supported, creating new custom processors has been deprecated. Instead, use the [Scripted REST APIs](../../../../integrate/custom-web-services/concept/c_CustomWebServices.md)
+**Note:** This feature is deprecated. While legacy, existing custom processors continue to be supported, creating new custom processors has been deprecated. Instead, use the [Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_CustomWebServices.md)
 
 The multi-table processor protects itself from performance and security violations by confirming that the user is authorized to read the table. It does not report on certain tables that are too large to query safely.
 
@@ -108,5 +109,5 @@ Return number of records in a table
     Your instance reports the number of records in the table. For example, `table incident has 82 records`.
 
 
-**Parent Topic:**[Processors](../../../../script/processors/concept/c_Processors.md)
+**Parent Topic:**[Processors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_Processors.md)
 

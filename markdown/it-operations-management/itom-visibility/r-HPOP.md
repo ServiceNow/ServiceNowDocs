@@ -2,6 +2,7 @@
 title: HP Operations Manager discovery
 description: Discovery creates or updates a CMDB record when it detects a running instance of HP Operations Manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/r-HPOP.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -27,5 +28,5 @@ The following data is collected in the HP Operations Manager `[cmdb_ci_appl_hp_o
 |-----|----------|
 |Name|name|
 
-**Parent Topic:**[Software discovery](../concept/c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_Software.md)
 
